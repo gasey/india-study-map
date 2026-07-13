@@ -37,13 +37,65 @@ html, body, #root {
   margin: 0;
 }
 
+/* Mobile Safari/Chrome resize their address bar as you scroll, which makes
+   100vh unreliable (content gets clipped or leaves a dead gap). dvh tracks
+   the *actual* visible viewport instead. Supported on iOS Safari 15.4+ and
+   Android Chrome 108+ — safe to rely on directly at this point. */
+@supports (height: 100dvh) {
+  html { height: 100dvh; }
+}
+
 body {
   background: var(--bg-app);
   color: var(--text-primary);
   font-family: 'Inter Tight', system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Stop iOS/Android rubber-band & pull-to-refresh from fighting the map drag
+     and the bottom-sheet swipe gesture. */
+  overscroll-behavior: none;
+  overflow: hidden;
 }
+
+/* ============================================
+   Touch & mobile-browser tuning (Android Chrome + iOS Safari)
+   ============================================ */
+
+/* Kill the blue/gray flash on tap and the ~300ms tap delay on every
+   interactive element, without disabling pinch-zoom on the map itself. */
+button, a, [role="button"], [role="tab"], select, summary {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+/* Prevent the iOS/Android text-selection callout from popping up when
+   someone long-presses chrome (nav items, toggles, headers) — but leave
+   it enabled inside actual reading content (facts, quiz text, inputs). */
+button, a, [role="button"], .label-eyebrow, header, aside > div > div:first-child {
+  -webkit-touch-callout: none;
+}
+
+/* Scrollable panels: contain their own overscroll so an inner list hitting
+   its edge doesn't bubble up into a body-level bounce on iOS. */
+.scroll-panel {
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* iOS Safari auto-zooms the page when a focused input's font is under 16px.
+   Force 16px on small screens only, so desktop sizing is untouched. */
+@media (max-width: 767px) {
+  input, select, textarea {
+    font-size: 16px !important;
+  }
+}
+
+/* Safe-area padding for notches / home-indicator / Android gesture bar.
+   Applied via utility classes rather than globally so desktop is unaffected. */
+.safe-top { padding-top: env(safe-area-inset-top, 0px); }
+.safe-bottom { padding-bottom: env(safe-area-inset-bottom, 0px); }
+.safe-left { padding-left: env(safe-area-inset-left, 0px); }
+.safe-right { padding-right: env(safe-area-inset-right, 0px); }
 
 /* Scrollbars — subtle, themed */
 ::-webkit-scrollbar { width: 10px; height: 10px; }
@@ -59,6 +111,11 @@ body {
 .leaflet-container {
   background: var(--map-bg) !important;
   font-family: 'Inter Tight', system-ui, sans-serif !important;
+  /* Long-press on the map shouldn't trigger iOS's magnifier/callout or a
+     text-selection highlight while panning. */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
 .dark .leaflet-tile { filter: brightness(0.7) invert(0.95) contrast(0.9); }
 
@@ -79,6 +136,18 @@ body {
 }
 .leaflet-control-zoom a:hover {
   background: var(--bg-panel-elev) !important;
+}
+
+/* Bigger, thumb-friendly zoom buttons on touch devices — the Leaflet
+   defaults (26px) are well under the ~44px recommended touch target. */
+@media (pointer: coarse) {
+  .leaflet-control-zoom a {
+    width: 40px !important;
+    height: 40px !important;
+    line-height: 40px !important;
+    font-size: 20px !important;
+  }
+  .leaflet-touch .leaflet-bar a { line-height: 38px !important; }
 }
 
 /* Custom popup style */

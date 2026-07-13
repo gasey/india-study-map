@@ -2,9 +2,22 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <title>Bhārat — Interactive Study Map</title>
     <meta name="description" content="An interactive study map of India for competitive exam preparation." />
+
+    <!-- Android / Chrome -->
+    <meta name="theme-color" content="#fbf8f3" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#161614" media="(prefers-color-scheme: dark)" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+
+    <!-- iOS Safari: add-to-home-screen behaves like a standalone app -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Bhārat Atlas" />
+    <link rel="apple-touch-icon" href="/icon.svg" />
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

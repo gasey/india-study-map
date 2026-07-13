@@ -18,14 +18,14 @@ export function TopBar({ authorMode, onToggleAuthor, onToggleNav }: TopBarProps)
 
   return (
     <header
-      className="h-12 shrink-0 border-b flex items-center justify-between px-5"
+      className="safe-top h-12 shrink-0 border-b flex items-center justify-between px-5"
       style={{ borderColor: 'var(--border)', background: 'var(--bg-panel)' }}
     >
       <div className="flex items-center gap-3">
         {onToggleNav && (
           <button
             onClick={onToggleNav}
-            className="lg:hidden -ml-1 px-2 py-1.5 rounded-md hover:bg-[var(--bg-panel-elev)] transition-colors"
+            className="lg:hidden -ml-1 w-10 h-10 -my-1 flex items-center justify-center rounded-md hover:bg-[var(--bg-panel-elev)] transition-colors active:scale-95"
             style={{ color: 'var(--text-primary)' }}
             aria-label="Open chapters"
           >
@@ -59,7 +59,7 @@ export function TopBar({ authorMode, onToggleAuthor, onToggleNav }: TopBarProps)
         {onToggleAuthor && (
           <button
             onClick={onToggleAuthor}
-            className={`px-3 py-1.5 rounded-md text-xs transition-colors flex items-center gap-2 ${
+            className={`min-h-10 px-3 py-2 rounded-md text-xs transition-colors flex items-center gap-2 active:scale-95 ${
               authorMode ? 'bg-[var(--accent)] text-white' : 'hover:bg-[var(--bg-panel-elev)]'
             }`}
             style={!authorMode ? { color: 'var(--text-secondary)' } : undefined}
@@ -72,7 +72,7 @@ export function TopBar({ authorMode, onToggleAuthor, onToggleNav }: TopBarProps)
         )}
         <button
           onClick={toggleTheme}
-          className="px-3 py-1.5 rounded-md text-xs hover:bg-[var(--bg-panel-elev)] transition-colors flex items-center gap-2"
+          className="min-h-10 px-3 py-2 rounded-md text-xs hover:bg-[var(--bg-panel-elev)] transition-colors flex items-center gap-2 active:scale-95"
           style={{ color: 'var(--text-secondary)' }}
           aria-label="Toggle theme"
         >

@@ -54,7 +54,7 @@ export function Timeline({ events, onEventSelect }: TimelineProps) {
   const active = eventIndex >= 0 ? events[eventIndex] : null;
 
   return (
-    <div className="absolute left-0 right-0 bottom-16 lg:bottom-0 z-[400] pointer-events-none">
+    <div className="absolute left-0 right-0 bottom-16 lg:bottom-0 z-[400] pointer-events-none safe-bottom">
       <div className="mx-auto max-w-3xl px-4 pb-4 pointer-events-auto">
         {/* Active event description */}
         <AnimatePresence mode="wait">
@@ -89,7 +89,7 @@ export function Timeline({ events, onEventSelect }: TimelineProps) {
         <div className="surface rounded-full px-5 py-3 shadow-lg flex items-center gap-3">
           <button
             onClick={togglePlay}
-            className="shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-sm transition-transform hover:scale-105 active:scale-95"
+            className="shrink-0 w-10 h-10 rounded-full flex items-center justify-center text-sm transition-transform hover:scale-105 active:scale-95"
             style={{ background: 'var(--accent)', color: '#fff' }}
             aria-label={playing ? 'Pause story' : 'Play the story'}
             title={playing ? 'Pause' : 'Play the story \u2014 fly through every event'}
@@ -111,7 +111,7 @@ export function Timeline({ events, onEventSelect }: TimelineProps) {
                   <button
                     key={evt.id}
                     onClick={() => select(idx)}
-                    className="group relative flex flex-col items-center"
+                    className="group relative flex flex-col items-center p-2.5 -m-2.5"
                     aria-label={evt.label}
                   >
                     <motion.span
@@ -128,7 +128,7 @@ export function Timeline({ events, onEventSelect }: TimelineProps) {
                     />
                     {/* Hover label */}
                     <span
-                      className="absolute top-6 whitespace-nowrap font-mono text-[10px] opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"
+                      className="absolute top-8 whitespace-nowrap font-mono text-[10px] opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"
                       style={{ color: 'var(--text-muted)' }}
                     >
                       {evt.date.split('-')[0]}

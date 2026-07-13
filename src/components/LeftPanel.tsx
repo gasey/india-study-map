@@ -15,14 +15,14 @@ function LayerToggle({ layer, on, onToggle }: { layer: Layer; on: boolean; onTog
       <button
         type="button"
         onClick={onToggle}
-        className={`mt-0.5 w-9 h-5 rounded-full relative transition-colors shrink-0 ${
+        className={`mt-0.5 w-[42px] h-6 rounded-full relative transition-colors shrink-0 ${
           on ? 'bg-[var(--accent)]' : 'bg-[var(--border)]'
         }`}
         aria-pressed={on}
       >
         <motion.span
-          className="absolute top-0.5 left-0.5 w-4 h-4 rounded-full bg-white shadow-sm"
-          animate={{ x: on ? 16 : 0 }}
+          className="absolute top-0.5 left-0.5 w-5 h-5 rounded-full bg-white shadow-sm"
+          animate={{ x: on ? 18 : 0 }}
           transition={{ type: 'spring', stiffness: 500, damping: 30 }}
         />
       </button>
@@ -51,7 +51,7 @@ export function LeftPanel({ chapter }: LeftPanelProps) {
   } = useApp();
 
   return (
-    <aside className="surface w-72 shrink-0 border-r flex flex-col overflow-hidden">
+    <aside className="surface w-72 h-full shrink-0 border-r flex flex-col overflow-hidden">
       {/* Header */}
       <div className="px-5 py-5 border-b border-themed">
         <div className="label-eyebrow mb-1">Bhārat Atlas</div>
@@ -64,7 +64,7 @@ export function LeftPanel({ chapter }: LeftPanelProps) {
       <ChapterNav currentChapterId={currentChapterId} setChapter={setChapter} />
 
       {/* Layers */}
-      <div className="px-5 py-4 flex-1 overflow-y-auto space-y-5">
+      <div className="scroll-panel px-5 py-4 flex-1 overflow-y-auto space-y-5">
         {/* Chapter layers */}
         <div>
           <div className="label-eyebrow mb-3">Chapter Layers</div>
@@ -175,7 +175,7 @@ function ChapterNav({
       </div>
 
       {/* Unit groups */}
-      <div className="px-5 py-3 overflow-y-auto flex-1 min-h-0">
+      <div className="scroll-panel px-5 py-3 overflow-y-auto flex-1 min-h-0">
         {units.map((unit) => {
           const group = inTab.filter((c) => (c.unit ?? 'Other') === unit);
           return (

@@ -99,7 +99,7 @@ export function MindMapsPage() {
 
   return (
     <div className="h-full flex flex-col" style={{ background: 'var(--bg-app)', color: 'var(--text-primary)' }}>
-      <header className="h-12 shrink-0 border-b flex items-center justify-between px-5 gap-3" style={{ borderColor: 'var(--border)', background: 'var(--bg-panel)' }}>
+      <header className="safe-top h-12 shrink-0 border-b flex items-center justify-between px-5 gap-3" style={{ borderColor: 'var(--border)', background: 'var(--bg-panel)' }}>
         <div className="flex items-center gap-3 min-w-0">
           <ModuleSwitcher />
           <span className="label-eyebrow hidden md:inline">Mind Maps</span>
@@ -192,7 +192,7 @@ export function MindMapsPage() {
         </div>
 
         {/* Detail panel */}
-        <aside className="md:w-80 shrink-0 border-t md:border-t-0 md:border-l p-4 overflow-y-auto" style={{ borderColor: 'var(--border)', background: 'var(--bg-panel)' }}>
+        <aside className="scroll-panel md:w-80 shrink-0 border-t md:border-t-0 md:border-l p-4 overflow-y-auto" style={{ borderColor: 'var(--border)', background: 'var(--bg-panel)' }}>
           <div className="text-xs mb-2" style={{ color: 'var(--text-secondary)' }}>{mm.description}</div>
           {selected ? (
             <div className="fact-in" key={selected.id}>

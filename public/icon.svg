@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <rect width="128" height="128" rx="24" fill="#3a7a7a" />
+  <circle cx="64" cy="64" r="40" fill="none" stroke="#fbf8f3" stroke-width="4" opacity="0.5" />
+  <path d="M64 28 L64 100 M32 64 L96 64" stroke="#fbf8f3" stroke-width="3" opacity="0.35" />
+  <text x="64" y="80" font-family="Georgia, serif" font-size="56" font-weight="600" fill="#fbf8f3" text-anchor="middle">भ</text>
+</svg>

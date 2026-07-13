@@ -151,7 +151,7 @@ export function QuizPanel({ chapter, mapClick, clearMapClick, setShowAnswer }: Q
       </div>
 
       {/* Question body */}
-      <div className="px-6 py-5 flex-1 overflow-y-auto">
+      <div className="scroll-panel px-6 py-5 flex-1 overflow-y-auto">
         <AnimatePresence mode="wait">
           <motion.div
             key={item.id}

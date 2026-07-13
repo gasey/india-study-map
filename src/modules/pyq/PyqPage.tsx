@@ -103,7 +103,7 @@ export function PyqPage() {
     <div className="h-full flex flex-col" style={{ background: 'var(--bg-app)', color: 'var(--text-primary)' }}>
       {/* Header */}
       <header
-        className="h-12 shrink-0 border-b flex items-center justify-between px-5 gap-3"
+        className="safe-top h-12 shrink-0 border-b flex items-center justify-between px-5 gap-3"
         style={{ borderColor: 'var(--border)', background: 'var(--bg-panel)' }}
       >
         <div className="flex items-center gap-3 min-w-0">
@@ -159,7 +159,7 @@ export function PyqPage() {
       </div>
 
       {/* Question card */}
-      <main className="flex-1 min-h-0 overflow-y-auto px-5 py-6 flex justify-center">
+      <main className="scroll-panel flex-1 min-h-0 overflow-y-auto px-5 py-6 flex justify-center">
         <div className="w-full max-w-2xl">
           {!q ? (
             <div className="rounded-xl p-8 text-center fact-in" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>

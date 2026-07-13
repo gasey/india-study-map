@@ -46,7 +46,7 @@ export function FactsPanel({ chapter }: FactsPanelProps) {
       )}
 
       {/* Facts */}
-      <div className="px-6 py-5 flex-1 overflow-y-auto">
+      <div className="scroll-panel px-6 py-5 flex-1 overflow-y-auto">
         <div className="label-eyebrow mb-3">Key Facts</div>
         <ul className="space-y-3">
           {chapter.facts.map((fact, idx) => (

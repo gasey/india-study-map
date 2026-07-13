@@ -1,4 +1,5 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
+import type { TouchEvent } from 'react';
 import { useApp } from '@/lib/store';
 import { getChapter } from '@/data';
 import { baseLayers } from '@/data/baseLayers';
@@ -37,6 +38,28 @@ export function App() {
   const [tool, setTool] = useState<Tool>('marker');
   const [draftPolygon, setDraftPolygon] = useState<[number, number][]>([]);
   const [draftLine, setDraftLine] = useState<[number, number][]>([]);
+
+  // Swipe-up/down on the bottom sheet's handle, in addition to tap-to-toggle.
+  // Tracked with refs (not state) so every touchmove doesn't trigger a re-render.
+  const dragStartY = useRef<number | null>(null);
+  const dragDelta = useRef(0);
+  const SWIPE_THRESHOLD = 32;
+
+  function handleSheetTouchStart(e: TouchEvent) {
+    dragStartY.current = e.touches[0].clientY;
+    dragDelta.current = 0;
+  }
+  function handleSheetTouchMove(e: TouchEvent) {
+    if (dragStartY.current === null) return;
+    dragDelta.current = e.touches[0].clientY - dragStartY.current;
+  }
+  function handleSheetTouchEnd() {
+    const delta = dragDelta.current;
+    dragStartY.current = null;
+    if (delta <= -SWIPE_THRESHOLD) setSheetOpen(true);
+    else if (delta >= SWIPE_THRESHOLD) setSheetOpen(false);
+    else setSheetOpen((v) => !v); // small movement / plain tap
+  }
 
   useEffect(() => {
     document.documentElement.classList.toggle('dark', theme === 'dark');
@@ -115,7 +138,7 @@ export function App() {
   const mapView = eventCenter ?? chapter.view;
 
   return (
-    <div className="h-screen flex flex-col" style={{ background: 'var(--bg-app)' }}>
+    <div className="h-full flex flex-col" style={{ background: 'var(--bg-app)' }}>
       <TopBar
         authorMode={authorMode}
         onToggleAuthor={() => setAuthorMode(!authorMode)}
@@ -138,7 +161,7 @@ export function App() {
               aria-hidden={!navOpen}
             />
             <div
-              className={`lg:hidden fixed inset-y-0 left-0 z-[710] w-72 max-w-[85vw] shadow-2xl transition-transform duration-300 ease-out-soft ${
+              className={`lg:hidden fixed inset-y-0 left-0 z-[710] w-72 max-w-[85vw] shadow-2xl transition-transform duration-300 ease-out-soft safe-top safe-bottom ${
                 navOpen ? 'translate-x-0' : '-translate-x-full'
               }`}
             >
@@ -204,15 +227,19 @@ export function App() {
                 setShowAnswer={setShowAnswer}
               />
             </div>
-            {/* Mobile: bottom sheet — peek bar grows into a 62vh panel */}
+            {/* Mobile: bottom sheet — peek bar grows into a ~62dvh panel.
+                Tap the handle to toggle, or swipe it up/down. */}
             <div
               className={`lg:hidden fixed inset-x-0 bottom-0 z-[600] flex flex-col rounded-t-2xl shadow-[0_-8px_32px_rgba(0,0,0,0.18)] transition-[height] duration-300 ease-out-soft ${
-                sheetOpen ? 'h-[62vh]' : 'h-14'
+                sheetOpen ? 'h-[calc(62dvh+env(safe-area-inset-bottom))]' : 'h-[calc(3.5rem+env(safe-area-inset-bottom))]'
               }`}
               style={{ background: 'var(--bg-panel)', borderTop: '1px solid var(--border)' }}
             >
               <button
                 onClick={() => setSheetOpen((v) => !v)}
+                onTouchStart={handleSheetTouchStart}
+                onTouchMove={handleSheetTouchMove}
+                onTouchEnd={(e) => { e.preventDefault(); handleSheetTouchEnd(); }}
                 className="shrink-0 h-14 w-full flex items-center justify-between px-5"
                 aria-expanded={sheetOpen}
                 aria-label={sheetOpen ? 'Collapse panel' : 'Expand facts and quiz'}
@@ -227,7 +254,7 @@ export function App() {
                   {sheetOpen ? '▾ close' : '▴ open'}
                 </span>
               </button>
-              <div className={`flex-1 min-h-0 ${sheetOpen ? '' : 'hidden'}`}>
+              <div className={`safe-bottom flex-1 min-h-0 ${sheetOpen ? '' : 'hidden'}`}>
                 <RightPanel
                   chapter={chapter}
                   mapClick={mapClick}

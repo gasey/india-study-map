@@ -1,0 +1,1409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MPSC Aptitude Hub — Maths &amp; Reasoning</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#15243B; --ink-soft:#293c57; --hill:#1F6F78; --hill-deep:#155259; --hill-light:#6AA6AE;
+    --mist:#E7EFEE; --paper:#F8F8F4; --card:#FFFFFF; --saffron:#D9842F; --saffron-soft:#F4E3CF;
+    --slate:#5C6878; --line:#E2E5DF; --line-strong:#cfd4cc; --ok:#2F8559; --ok-soft:#E0F0E6;
+    --no:#C2503A; --no-soft:#F7E2DC; --shadow:0 1px 2px rgba(21,36,59,.05), 0 8px 26px rgba(21,36,59,.06); --r:14px;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:"Inter",system-ui,sans-serif;font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+  .mono{font-family:"Spline Sans Mono",ui-monospace,monospace}
+  h1,h2,h3,h4{font-family:"Fraunces",Georgia,serif;font-weight:600;line-height:1.12;color:var(--ink);margin:0}
+  a{color:var(--hill-deep)}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+  .eyebrow{font-family:"Spline Sans Mono",monospace;font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--hill);font-weight:500}
+  header.site{position:sticky;top:0;z-index:50;background:rgba(248,248,244,.86);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+  .nav{display:flex;align-items:center;gap:14px;height:62px}
+  .brand{display:flex;align-items:center;gap:11px;margin-right:auto;text-decoration:none}
+  .brand .mk{width:34px;height:34px;flex:none}
+  .brand b{font-family:"Fraunces",serif;font-weight:600;font-size:1.12rem;color:var(--ink);letter-spacing:-.01em}
+  .brand span span{display:block;font-family:"Spline Sans Mono",monospace;font-size:.6rem;letter-spacing:.16em;text-transform:uppercase;color:var(--hill);margin-top:1px}
+  nav.tabs{display:flex;gap:2px}
+  nav.tabs button{font-family:"Inter",sans-serif;font-size:.86rem;font-weight:500;color:var(--slate);background:none;border:0;padding:9px 12px;border-radius:9px;cursor:pointer;transition:.16s}
+  nav.tabs button:hover{color:var(--ink);background:var(--mist)}
+  nav.tabs button[aria-current="true"]{color:var(--hill-deep);background:var(--mist);font-weight:600}
+  .menu-btn{display:none;background:none;border:1px solid var(--line);border-radius:9px;padding:7px 10px;cursor:pointer;color:var(--ink)}
+  @media(max-width:860px){
+    nav.tabs{position:absolute;top:62px;left:0;right:0;flex-direction:column;background:var(--card);border-bottom:1px solid var(--line);padding:8px;gap:2px;display:none;box-shadow:var(--shadow)}
+    nav.tabs.open{display:flex}
+    nav.tabs button{text-align:left;padding:11px 14px}
+    .menu-btn{display:block}
+  }
+  .view{display:none;animation:fade .3s ease}
+  .view.active{display:block}
+  @keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+  .hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line);background:radial-gradient(120% 90% at 85% -10%, var(--mist) 0%, transparent 55%)}
+  .hero .wrap{padding-top:54px;padding-bottom:30px;position:relative;z-index:2}
+  .hero h1{font-size:clamp(2.3rem,5.5vw,3.7rem);font-weight:600;letter-spacing:-.02em;max-width:16ch}
+  .hero h1 em{font-style:italic;color:var(--hill)}
+  .hero p.lead{font-size:1.12rem;color:var(--ink-soft);max-width:56ch;margin:18px 0 0}
+  .ranges{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+  .chip{font-family:"Spline Sans Mono",monospace;font-size:.74rem;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:7px 13px;color:var(--ink-soft)}
+  .chip b{color:var(--hill-deep)}
+  .cta-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+  .btn{font-family:"Inter",sans-serif;font-weight:600;font-size:.95rem;border-radius:11px;padding:12px 20px;cursor:pointer;border:1px solid transparent;transition:.16s;text-decoration:none;display:inline-flex;align-items:center;gap:8px}
+  .btn.primary{background:var(--ink);color:#fff}
+  .btn.primary:hover{background:var(--hill-deep)}
+  .btn.ghost{background:var(--card);border-color:var(--line-strong);color:var(--ink)}
+  .btn.ghost:hover{border-color:var(--hill);color:var(--hill-deep)}
+  .btn:disabled{opacity:.4;cursor:default}
+  .ridge{display:block;width:100%;height:90px;margin-top:8px}
+  section.band{padding:48px 0}
+  .sec-head{margin-bottom:26px}
+  .sec-head h2{font-size:clamp(1.6rem,3.6vw,2.3rem);letter-spacing:-.015em}
+  .sec-head p{color:var(--slate);max-width:62ch;margin:10px 0 0}
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:30px}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:18px;box-shadow:var(--shadow)}
+  .stat .n{font-family:"Fraunces",serif;font-size:2rem;font-weight:600;color:var(--hill-deep);line-height:1}
+  .stat .l{font-size:.82rem;color:var(--slate);margin-top:6px}
+  @media(max-width:680px){.stats{grid-template-columns:repeat(2,1fr)}}
+  .insight{background:linear-gradient(180deg,#fff,#fdfdfb);border:1px solid var(--line);border-left:4px solid var(--saffron);border-radius:var(--r);padding:22px 24px;margin-top:30px;box-shadow:var(--shadow)}
+  .insight h3{font-size:1.25rem;margin-bottom:8px}
+  .insight p{margin:8px 0 0;color:var(--ink-soft)}
+  .howto{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:30px}
+  .howto .step{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:20px;box-shadow:var(--shadow)}
+  .howto .num{font-family:"Spline Sans Mono",monospace;font-size:.8rem;color:var(--hill);font-weight:600}
+  .howto h4{font-size:1.08rem;margin:10px 0 6px}
+  .howto p{font-size:.92rem;color:var(--slate);margin:0}
+  @media(max-width:740px){.howto{grid-template-columns:1fr}}
+  .filterbar{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:22px}
+  .filt{font-family:"Inter",sans-serif;font-size:.84rem;font-weight:500;background:var(--card);border:1px solid var(--line-strong);border-radius:999px;padding:8px 15px;cursor:pointer;color:var(--ink-soft);transition:.15s}
+  .filt:hover{border-color:var(--hill);color:var(--hill-deep)}
+  .filt[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:#fff}
+  .grid-concepts{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+  @media(max-width:760px){.grid-concepts{grid-template-columns:1fr}}
+  .concept{background:var(--card);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow);transition:.18s}
+  .concept:hover{border-color:var(--hill-light)}
+  .concept summary{list-style:none;cursor:pointer;padding:18px 20px;display:flex;align-items:flex-start;gap:14px}
+  .concept summary::-webkit-details-marker{display:none}
+  .ctag{font-family:"Spline Sans Mono",monospace;font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;padding:4px 8px;border-radius:6px;flex:none;margin-top:3px}
+  .ctag.math{background:var(--mist);color:var(--hill-deep)}
+  .ctag.reas{background:var(--saffron-soft);color:#9a5a1c}
+  .concept summary h3{font-size:1.12rem;font-weight:600;letter-spacing:-.01em}
+  .concept summary .meta{font-size:.8rem;color:var(--slate);margin-top:3px}
+  .concept summary .arr{margin-left:auto;color:var(--slate);transition:.2s;flex:none;margin-top:2px}
+  .concept[open] summary .arr{transform:rotate(90deg)}
+  .cbody{padding:0 20px 20px;border-top:1px solid var(--line)}
+  .cbody .analogy{background:var(--mist);border-radius:10px;padding:13px 15px;margin:16px 0;font-size:.94rem;color:var(--ink-soft)}
+  .cbody .analogy b{color:var(--hill-deep)}
+  .cbody p{font-size:.95rem;color:var(--ink-soft);margin:0 0 10px}
+  .cbody h4{font-family:"Spline Sans Mono",monospace;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--slate);margin:16px 0 8px;font-weight:600}
+  .fml{font-family:"Spline Sans Mono",monospace;font-size:.86rem;background:#fbfbf8;border:1px solid var(--line);border-radius:8px;padding:9px 12px;margin-bottom:7px;color:var(--ink)}
+  .cbody .actions{display:flex;flex-wrap:wrap;gap:9px;margin-top:16px}
+  .mini{font-size:.82rem;font-weight:500;border:1px solid var(--line-strong);background:#fff;border-radius:9px;padding:8px 13px;cursor:pointer;color:var(--hill-deep);transition:.15s;font-family:inherit}
+  .mini:hover{background:var(--mist)}
+  .variant{margin-top:14px;border:1px dashed var(--line-strong);border-radius:10px;padding:14px;background:#fcfcfa}
+  .variant .vlab{font-family:"Spline Sans Mono",monospace;font-size:.64rem;letter-spacing:.1em;text-transform:uppercase;color:var(--saffron);font-weight:600;margin-bottom:8px}
+  .variant .vq{font-size:.95rem;font-weight:500;margin-bottom:10px}
+  .vopts{display:grid;gap:7px}
+  .vopt{font-size:.9rem;text-align:left;border:1px solid var(--line);background:#fff;border-radius:8px;padding:9px 12px;cursor:pointer;transition:.12s;font-family:inherit;color:var(--ink)}
+  .vopt:hover{border-color:var(--hill-light)}
+  .vopt.right{border-color:var(--ok);background:var(--ok-soft);font-weight:600}
+  .vopt.wrong{border-color:var(--no);background:var(--no-soft)}
+  .vsol{display:none;margin-top:10px;font-size:.88rem;color:var(--ink-soft);background:var(--ok-soft);border-radius:8px;padding:10px 12px}
+  .vsol.show{display:block}
+  .practice-top{display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between;margin-bottom:18px}
+  .scoreboard{display:flex;gap:18px;font-size:.86rem;color:var(--slate)}
+  .scoreboard b{font-family:"Fraunces",serif;font-size:1.3rem;color:var(--hill-deep);display:block;line-height:1}
+  .topicpick{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:22px}
+  .qcard{background:var(--card);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);padding:24px;margin-bottom:18px}
+  .qmeta{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:14px;flex-wrap:wrap}
+  .qtopic{font-family:"Spline Sans Mono",monospace;font-size:.68rem;letter-spacing:.06em;text-transform:uppercase;color:var(--hill);font-weight:600}
+  .qsrc{font-size:.72rem;color:var(--slate)}
+  .qtext{font-size:1.08rem;font-weight:500;color:var(--ink);margin-bottom:16px;line-height:1.5}
+  .opts{display:grid;gap:9px}
+  .opt{font-size:.97rem;text-align:left;border:1px solid var(--line);background:#fff;border-radius:10px;padding:12px 15px;cursor:pointer;transition:.13s;font-family:inherit;color:var(--ink);display:flex;gap:11px;align-items:flex-start}
+  .opt .k{font-family:"Spline Sans Mono",monospace;font-size:.82rem;color:var(--slate);flex:none;font-weight:600}
+  .opt:hover{border-color:var(--hill-light);background:var(--mist)}
+  .opt.right{border-color:var(--ok);background:var(--ok-soft)}
+  .opt.right .k{color:var(--ok)}
+  .opt.wrong{border-color:var(--no);background:var(--no-soft)}
+  .opt.wrong .k{color:var(--no)}
+  .opt:disabled{cursor:default}
+  .sol{display:none;margin-top:15px;border-top:1px solid var(--line);padding-top:14px}
+  .sol.show{display:block}
+  .sol .verdict{font-weight:600;font-size:.92rem;margin-bottom:6px}
+  .sol .verdict.ok{color:var(--ok)}
+  .sol .verdict.no{color:var(--no)}
+  .sol p{font-size:.93rem;color:var(--ink-soft);margin:0}
+  .sol .lnk{font-size:.83rem;margin-top:9px}
+  .qnav{display:flex;justify-content:space-between;align-items:center;margin-top:6px;gap:12px}
+  .qpos{font-family:"Spline Sans Mono",monospace;font-size:.82rem;color:var(--slate)}
+  .mock-intro{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:26px;box-shadow:var(--shadow);text-align:center}
+  .mock-intro h3{font-size:1.5rem;margin-bottom:8px}
+  .mock-intro p{color:var(--slate);max-width:54ch;margin:0 auto 18px}
+  .timer{font-family:"Spline Sans Mono",monospace;font-size:1.1rem;font-weight:600;color:var(--ink);background:var(--mist);border-radius:999px;padding:8px 18px;display:inline-flex;align-items:center;gap:8px}
+  .timer.warn{color:var(--no);background:var(--no-soft)}
+  .mock-bar{display:flex;justify-content:space-between;align-items:center;gap:14px;margin-bottom:18px;flex-wrap:wrap}
+  .progress{height:7px;background:var(--line);border-radius:99px;overflow:hidden;margin:14px 0 22px}
+  .progress i{display:block;height:100%;background:var(--hill);width:0;transition:.3s}
+  .result-big{text-align:center;padding:14px 0 0}
+  .result-big .pct{font-family:"Fraunces",serif;font-size:4rem;font-weight:600;line-height:1;color:var(--hill-deep)}
+  .result-big .msg{font-size:1.05rem;color:var(--ink-soft);margin-top:8px}
+  .review-q{border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin-bottom:12px;background:#fff}
+  .review-q .rt{font-weight:500;margin-bottom:8px}
+  .pill{font-family:"Spline Sans Mono",monospace;font-size:.7rem;padding:3px 8px;border-radius:6px;font-weight:600}
+  .pill.ok{background:var(--ok-soft);color:var(--ok)}
+  .pill.no{background:var(--no-soft);color:var(--no)}
+  .review-q .ans{font-size:.88rem;color:var(--ink-soft);margin-top:6px}
+  .guide-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+  @media(max-width:760px){.guide-grid{grid-template-columns:1fr}}
+  .gcard{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:20px 22px;box-shadow:var(--shadow)}
+  .gcard h3{font-size:1.15rem;margin-bottom:4px}
+  .gcard .sub{font-size:.8rem;color:var(--slate);margin-bottom:14px}
+  .gcard ul{margin:0;padding-left:0;list-style:none}
+  .gcard li{font-size:.9rem;padding:7px 0;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:14px;align-items:baseline}
+  .gcard li:last-child{border-bottom:0}
+  .gcard li .lab{color:var(--ink-soft)}
+  .gcard li .val{font-family:"Spline Sans Mono",monospace;font-size:.84rem;color:var(--hill-deep);text-align:right;font-weight:500}
+  .checklist{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:22px 24px;box-shadow:var(--shadow);margin-top:18px}
+  .checklist h3{margin-bottom:14px}
+  .clrow{display:flex;align-items:center;gap:12px;padding:9px 0;border-bottom:1px solid var(--line);font-size:.93rem}
+  .clrow:last-child{border-bottom:0}
+  .clrow input{width:18px;height:18px;accent-color:var(--hill);flex:none;cursor:pointer}
+  .clrow label{cursor:pointer}
+  .clrow input:checked + label{color:var(--slate);text-decoration:line-through}
+  .tips{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:18px}
+  @media(max-width:680px){.tips{grid-template-columns:1fr}}
+  .tip{background:#fdfdfb;border:1px solid var(--line);border-radius:12px;padding:15px 17px}
+  .tip b{display:block;color:var(--hill-deep);font-family:"Fraunces",serif;font-size:1.02rem;margin-bottom:4px}
+  .tip p{font-size:.88rem;color:var(--ink-soft);margin:0}
+  .res-list{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+  @media(max-width:740px){.res-list{grid-template-columns:1fr}}
+  .res{display:block;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:18px 20px;box-shadow:var(--shadow);text-decoration:none;transition:.16s}
+  .res:hover{border-color:var(--hill);transform:translateY(-2px)}
+  .res .rh{display:flex;align-items:center;gap:9px;margin-bottom:6px}
+  .res .rkind{font-family:"Spline Sans Mono",monospace;font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;padding:3px 7px;border-radius:5px;background:var(--mist);color:var(--hill-deep)}
+  .res h4{font-size:1.02rem;color:var(--ink)}
+  .res p{font-size:.86rem;color:var(--slate);margin:4px 0 0}
+  .res .url{font-family:"Spline Sans Mono",monospace;font-size:.74rem;color:var(--hill);margin-top:8px;word-break:break-all}
+  footer.site{border-top:1px solid var(--line);padding:30px 0;margin-top:20px;background:var(--card)}
+  footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:center}
+  footer p{font-size:.82rem;color:var(--slate);margin:0}
+  .note{font-size:.78rem;color:var(--slate);background:var(--mist);border-radius:8px;padding:7px 12px;display:inline-block}
+  :focus-visible{outline:2px solid var(--hill);outline-offset:2px;border-radius:6px}
+  .hidden{display:none!important}
+</style>
+</head>
+<body>
+<header class="site">
+  <div class="wrap nav">
+    <a class="brand" href="#" data-go="home">
+      <svg class="mk" viewBox="0 0 40 40" aria-hidden="true">
+        <rect width="40" height="40" rx="9" fill="#15243B"/>
+        <path d="M6 30 L15 14 L21 24 L26 16 L34 30 Z" fill="#1F6F78"/>
+        <path d="M6 30 L13 19 L18 27 Z" fill="#6AA6AE"/>
+        <circle cx="29" cy="12" r="3" fill="#D9842F"/>
+      </svg>
+      <span><b>MPSC Aptitude Hub</b><span>Maths &amp; Reasoning</span></span>
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-label="Menu">&#9776; Menu</button>
+    <nav class="tabs" id="tabs">
+      <button data-go="home" aria-current="true">Home</button>
+      <button data-go="concepts">Concepts</button>
+      <button data-go="practice">Practice</button>
+      <button data-go="mock">Mock Test</button>
+      <button data-go="guide">Study Guide</button>
+      <button data-go="resources">Resources</button>
+    </nav>
+  </div>
+</header>
+
+<div class="view active" id="view-home">
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Mizoram Public Service Commission &middot; Paper II</p>
+      <h1>Stop re-learning. <em>Start recognising.</em></h1>
+      <p class="lead">Every maths and reasoning question across nine MPSC papers — Audit Officer, ASI, UDC, LDC, Stenographer, Sub-Inspector and more — is built from the same small set of ideas. Learn the idea once; solve it everywhere.</p>
+      <div class="ranges">
+        <span class="chip"><b>9</b> papers analysed</span>
+        <span class="chip"><b>42</b> concepts</span>
+        <span class="chip"><b id="qcount">—</b> solved questions</span>
+        <span class="chip"><b>1</b> goal: your selection</span>
+      </div>
+      <div class="cta-row">
+        <a class="btn primary" href="#" data-go="practice">Start practising &rarr;</a>
+        <a class="btn ghost" href="#" data-go="concepts">Browse the concepts</a>
+      </div>
+    </div>
+    <svg class="ridge" viewBox="0 0 1200 90" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 90 L0 60 L120 30 L260 64 L380 24 L520 58 L660 18 L820 56 L980 28 L1120 60 L1200 40 L1200 90 Z" fill="#E7EFEE"/>
+      <path d="M0 90 L0 72 L180 44 L340 76 L520 40 L700 72 L880 46 L1060 78 L1200 56 L1200 90 Z" fill="#CFE0DE"/>
+    </svg>
+  </section>
+  <section class="band">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Why this works</p>
+        <h2>The repetition is the shortcut</h2>
+        <p>Reading the actual papers side by side reveals how heavily questions recycle. The same tank fills in 10 and 12 hours; the same 200 students like oranges and apples; the same 7,500-vote election decides a seat — paper after paper. Master the underlying concept and you have answered all of its cousins in advance.</p>
+      </div>
+      <div class="stats">
+        <div class="stat"><div class="n" id="s-math">—</div><div class="l">Maths concepts<br>(numbers &rarr; trigonometry)</div></div>
+        <div class="stat"><div class="n" id="s-reas">—</div><div class="l">Reasoning concepts<br>(coding &rarr; seating)</div></div>
+        <div class="stat"><div class="n" id="s-q">—</div><div class="l">Past-paper questions<br>solved step by step</div></div>
+        <div class="stat"><div class="n" id="s-var">—</div><div class="l">Fresh practice variants<br>to test recall</div></div>
+      </div>
+      <div class="insight">
+        <h3>Three questions, one idea</h3>
+        <p>The pipes problem <span class="mono">(10 h, 12 h, drains in 20 h)</span> appears in the <b>Audit Officer</b> and <b>ASI</b> papers word-for-word. The survey of <span class="mono">200 students</span> appears in both as well. The election with <span class="mono">7,500 votes</span> appears in the <b>Group&nbsp;B</b> and <b>Group&nbsp;B&nbsp;(NG)</b> papers. The <span class="mono">BODMAS</span> bracket shows up in <b>ASI</b>, <b>UDC</b> and <b>LDC</b>. You are not facing 900 questions — you are facing 42 ideas in different clothes.</p>
+      </div>
+      <div class="howto">
+        <div class="step"><div class="num">01 / Learn</div><h4>Read a concept</h4><p>Each concept is explained in plain words with a real-world picture and the few formulas that matter. No jargon walls.</p></div>
+        <div class="step"><div class="num">02 / Drill</div><h4>Practise by topic</h4><p>Answer real past-paper MCQs with instant feedback and worked solutions. Filter to the topic you are weak on.</p></div>
+        <div class="step"><div class="num">03 / Test</div><h4>Take the mock</h4><p>A timed, mixed 25-question test mirrors exam pressure — no peeking until you submit, then a full review.</p></div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<div class="view" id="view-concepts">
+  <section class="band">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">The 42 building blocks</p>
+        <h2>Concept library</h2>
+        <p>Tap any concept for a plain-language explanation, a real-world analogy, the formulas worth memorising, and a fresh practice question. Jump straight to its past-paper questions any time.</p>
+      </div>
+      <div class="filterbar" id="conceptFilter">
+        <button class="filt" data-cf="all" aria-pressed="true">All concepts</button>
+        <button class="filt" data-cf="math" aria-pressed="false">Mathematics</button>
+        <button class="filt" data-cf="reas" aria-pressed="false">Reasoning</button>
+      </div>
+      <div class="grid-concepts" id="conceptGrid"></div>
+    </div>
+  </section>
+</div>
+
+<div class="view" id="view-practice">
+  <section class="band">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Past-paper drill</p>
+        <h2>Practice questions</h2>
+        <p>Real questions lifted from the nine papers. Pick an answer to see whether you are right and exactly why. Filter by topic to target a weak spot.</p>
+      </div>
+      <div class="practice-top">
+        <div class="scoreboard">
+          <div><b id="pCorrect">0</b>correct</div>
+          <div><b id="pAttempt">0</b>attempted</div>
+          <div><b id="pAcc">—</b>accuracy</div>
+        </div>
+        <button class="mini" id="pReset">Reset score</button>
+      </div>
+      <div class="topicpick" id="topicPick"></div>
+      <div id="practiceArea"></div>
+      <div class="qnav">
+        <button class="btn ghost" id="pPrev">&larr; Previous</button>
+        <span class="qpos" id="pPos"></span>
+        <button class="btn ghost" id="pNext">Next &rarr;</button>
+      </div>
+    </div>
+  </section>
+</div>
+
+<div class="view" id="view-mock">
+  <section class="band">
+    <div class="wrap" style="max-width:780px">
+      <div class="sec-head">
+        <p class="eyebrow">Exam simulation</p>
+        <h2>Mock test</h2>
+        <p>25 mixed questions, drawn fresh each time, with a 25-minute clock. Answers stay hidden until you submit — just like the real OMR sheet.</p>
+      </div>
+      <div id="mockStage"></div>
+    </div>
+  </section>
+</div>
+
+<div class="view" id="view-guide">
+  <section class="band">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Revision sheet</p>
+        <h2>Study guide &amp; formula bank</h2>
+        <p>The exact formulas and shortcuts these papers reward, plus a revision checklist you can tick off the night before.</p>
+      </div>
+      <div class="guide-grid" id="formulaGrid"></div>
+      <div class="checklist">
+        <h3>Last-week revision checklist</h3>
+        <div id="checklistRows"></div>
+      </div>
+      <div class="sec-head" style="margin-top:42px"><h2 style="font-size:1.5rem">Exam-hall tactics</h2></div>
+      <div class="tips">
+        <div class="tip"><b>No negative marking</b><p>Eight of these papers carry no penalty for wrong answers — never leave a bubble blank. Eliminate two options and guess.</p></div>
+        <div class="tip"><b>Convert units first</b><p>km/h &rarr; m/s is &times;5/18; m/s &rarr; km/h is &times;18/5. Convert before you compute and half the train/speed errors vanish.</p></div>
+        <div class="tip"><b>Plug the options in</b><p>For "find x" questions, testing the four options is often faster than solving — especially in algebra and ages.</p></div>
+        <div class="tip"><b>Ratio = parts</b><p>Turn every ratio into "parts", find one part, then scale. It collapses ratio, mixture and partnership into one method.</p></div>
+        <div class="tip"><b>Odd days for calendars</b><p>Only the remainder after dividing by 7 matters. 100 days later is just (100 mod 7) = 2 days later.</p></div>
+        <div class="tip"><b>Read DI labels twice</b><p>Pie segments are sometimes degrees, sometimes counts. Confirm which before you scale to the total.</p></div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<div class="view" id="view-resources">
+  <section class="band">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Keep practising</p>
+        <h2>More questions for future tests</h2>
+        <p>Verified sources for additional Mizoram-specific papers and topic-wise quantitative-aptitude and reasoning banks. Start with the official MPSC archive for the freshest papers.</p>
+      </div>
+      <div class="res-list" id="resList"></div>
+      <p class="note" style="margin-top:20px">Tip: the MPSC site refreshes its archive each exam cycle — bookmark the "Old Question" pages for the latest UDC, LDC and Group-B papers.</p>
+    </div>
+  </section>
+</div>
+
+<footer class="site">
+  <div class="wrap">
+    <p>Built from nine MPSC Paper-II booklets (2024&ndash;2025). Maths &amp; reasoning only.</p>
+    <p class="note">Solutions are worked independently; if an official key differs on a flawed item, trust the method shown.</p>
+  </div>
+</footer>
+<script>
+/* ============================== DATA ============================== */
+const SRC = {
+  AAO:"Asst Audit &amp; Accounts Officer &middot; 2024",
+  ASI:"ASI (Ministerial) &middot; 2024",
+  UDC:"Assistant / UDC &middot; 2024",
+  GRB:"Group B (NG) &middot; Dec 2024",
+  JAO:"Jr Accounts Officer / DO &middot; 2025",
+  LDC:"LDC &middot; 2025",
+  SIF:"Sub-Inspector (Food) / Receptionist &middot; 2025",
+  STN:"Stenographer Gr-II &middot; 2025",
+  SIE:"Sub-Inspector of Excise &middot; 2025"
+};
+
+const CONCEPTS = [
+ {id:"num",cat:"math",name:"Number System, Surds &amp; Roots",
+  analogy:"A surd like &radic;2 is a number that refuses to be written neatly as a fraction — like a length that never lands exactly on a ruler mark. <b>Rationalising</b> just tidies the fraction so the messy root sits on top, not underneath.",
+  explain:"Numbers split into natural, integer, rational and irrational. A perfect square has every prime factor to an even power; a perfect cube has every prime factor to a power that is a multiple of three. To simplify a surd fraction, multiply top and bottom by the conjugate.",
+  formulas:["&radic;(a&middot;b) = &radic;a &middot; &radic;b","(a+&radic;b)(a&minus;&radic;b) = a&sup2; &minus; b","Perfect square &rArr; every prime power is even","Perfect cube &rArr; every prime power is a multiple of 3"],
+  variant:{q:"Smallest number that 1176 must be multiplied by to become a perfect square?",o:["3","6","2","7"],a:1,s:"1176 = 2&sup3;&middot;3&middot;7&sup2;. The 2&sup3; needs one more 2 and the lone 3 needs another 3 &rArr; &times;6 = 7056 = 84&sup2;."}},
+ {id:"hcflcm",cat:"math",name:"HCF &amp; LCM",
+  analogy:"<b>HCF</b> is the largest identical tile that paves two rooms exactly. <b>LCM</b> is the soonest two blinking lights flash together again.",
+  explain:"HCF is the biggest number dividing both; LCM is the smallest number both divide into. The product of any two numbers equals HCF &times; LCM, which instantly gives a missing number.",
+  formulas:["HCF &times; LCM = product of the two numbers","Missing number = (HCF &times; LCM) &divide; known number","Divisibility add/subtract: find the nearest multiple"],
+  variant:{q:"HCF of two numbers is 8 and LCM is 96. One number is 24. The other?",o:["32","24","16","48"],a:0,s:"Other = 8&times;96 &divide; 24 = 32."}},
+ {id:"simp",cat:"math",name:"Simplification (BODMAS)",
+  analogy:"Like following a recipe's steps in order — you cream the butter before you bake, never after. And 'of' is sneaky: it means multiply.",
+  explain:"Resolve in order: Brackets, Of, Division &amp; Multiplication (left to right), then Addition &amp; Subtraction. Spot a&sup3;+b&sup3; / a&sup3;&minus;b&sup3; patterns to dodge ugly cube arithmetic.",
+  formulas:["B &middot; O &middot; D &middot; M &middot; A &middot; S","'of' means &times;","(a&sup3;+b&sup3;) &divide; (a&sup2;&minus;ab+b&sup2;) = a+b"],
+  variant:{q:"Simplify: 12 + 8 &times; 3 &minus; 6 &divide; 2",o:["33","27","30","21"],a:0,s:"&times; and &divide; first: 24 and 3 &rArr; 12 + 24 &minus; 3 = 33."}},
+ {id:"ratio",cat:"math",name:"Ratio &amp; Proportion",
+  analogy:"A recipe scaled up keeps the same ratio of flour to sugar. To chain a:b and b:c, make the shared term b equal in both — like matching gears so they mesh.",
+  explain:"Convert a ratio to 'parts', find the value of one part, then scale. To combine a:b and b:c, scale each so b is the same number.",
+  formulas:["Total = sum of all ratio parts","Chain a:b &amp; b:c by equalising b","One part = total &divide; (sum of parts)"],
+  variant:{q:"If a:b = 3:4 and b:c = 6:7, then a:c?",o:["9:14","3:7","2:3","9:7"],a:0,s:"Make b = 12: a:b = 9:12, b:c = 12:14 &rArr; a:c = 9:14."}},
+ {id:"pct",cat:"math",name:"Percentage",
+  analogy:"A 20% rise then a 20% fall does NOT cancel — you end lower, because the fall is taken on a bigger number. Percentage changes multiply, they never add.",
+  explain:"Percent means 'per hundred'. For successive changes, multiply the growth factors. Pass/fail and election problems are just percentages of a hidden total.",
+  formulas:["x% of N = xN/100","Successive r&#8321;, r&#8322; &rArr; net = (1+r&#8321;)(1+r&#8322;) &minus; 1","Find total when a % is known, then scale"],
+  variant:{q:"A number rises 25% then falls 20%. Net change?",o:["0%","5% rise","5% fall","45% rise"],a:0,s:"1.25 &times; 0.80 = 1.00 &rArr; no net change."}},
+ {id:"pl",cat:"math",name:"Profit &amp; Loss",
+  analogy:"The 'sticker price' is the marked price; what you actually pay after the sale is the selling price. Profit and loss are always measured against the cost price, never the marked price.",
+  explain:"Profit% and loss% use cost price as the base. Discount comes off the marked price. When two items sell at the same price with equal % gain and loss, there is always a net loss.",
+  formulas:["Profit% = (SP&minus;CP)/CP &times; 100","SP = MP &times; (1 &minus; discount)","Equal SP, &plusmn;x% &rArr; net loss = x&sup2;/100 %"],
+  variant:{q:"An article sold at 20% profit fetches &#8377;600. Its cost price?",o:["&#8377;500","&#8377;480","&#8377;520","&#8377;450"],a:0,s:"CP = 600 &divide; 1.20 = &#8377;500."}},
+ {id:"si",cat:"math",name:"Simple Interest",
+  analogy:"Rent that is the same every month, no matter how long you stay — the interest is always on the original amount only.",
+  explain:"Simple interest grows by a fixed amount each year on the principal alone. If the money doubles, the interest equals the principal, so rate &times; time = 100.",
+  formulas:["SI = P &middot; R &middot; T / 100","Doubles &rArr; R &times; T = 100","SI = a fraction of P &rArr; solve for T"],
+  variant:{q:"Find the simple interest on &#8377;4000 at 6% for 3 years.",o:["&#8377;720","&#8377;600","&#8377;240","&#8377;840"],a:0,s:"4000 &times; 6 &times; 3 / 100 = 720."}},
+ {id:"ci",cat:"math",name:"Compound Interest",
+  analogy:"A snowball rolling downhill — it grows faster and faster because each new layer sits on a bigger ball. Interest earns interest.",
+  explain:"Compound interest applies the rate to the new balance each period. For half-yearly, halve the rate and double the periods. The amount after each year forms a constant ratio.",
+  formulas:["A = P(1 + R/100)&#8319;","CI = A &minus; P","Half-yearly: rate/2, periods &times; 2","CI &minus; SI (2 yrs) = P(R/100)&sup2;"],
+  variant:{q:"Compound interest on &#8377;10000 at 10% for 2 years?",o:["&#8377;2100","&#8377;2000","&#8377;1100","&#8377;2200"],a:0,s:"10000(1.1&sup2; &minus; 1) = 10000 &times; 0.21 = 2100."}},
+ {id:"avg",cat:"math",name:"Averages",
+  analogy:"Pouring water of different heights between glasses until they all sit level — that level is the average.",
+  explain:"Average = total &divide; count. To find a missing value, work back from the total. When every number changes by the same amount, the average changes by that amount.",
+  formulas:["Average = sum &divide; n","Sum = average &times; n","New value = (new avg &times; new n) &minus; old sum"],
+  variant:{q:"Average of 5 numbers is 18. Adding a 6th number 30 makes the new average?",o:["20","19","21","24"],a:0,s:"(90 + 30) &divide; 6 = 20."}},
+ {id:"tw",cat:"math",name:"Time &amp; Work",
+  analogy:"Filling a bucket together — each worker pours in their share of water per minute, so you add their rates. If A finishes in n days, A does 1/n of the job each day.",
+  explain:"Think in work-per-day. Add rates when people work together; men &times; days stays constant for the same job.",
+  formulas:["One day's work = 1/n","Combined rate = sum of rates","Men &times; days = constant"],
+  variant:{q:"A does a job in 15 days, B in 10 days. Together?",o:["6 days","5 days","12 days","25 days"],a:0,s:"1/15 + 1/10 = 1/6 &rArr; 6 days."}},
+ {id:"pipes",cat:"math",name:"Pipes &amp; Cisterns",
+  analogy:"A bathtub filling while the drain leaks — the net speed is the fill rate minus the leak rate. A draining pipe is just negative work.",
+  explain:"Identical to time &amp; work, but an emptying pipe subtracts. Add all inflow rates and subtract outflow rates to get the net rate.",
+  formulas:["Net rate = inflow &minus; outflow","Time to fill = 1 &divide; net rate","Leak rate = (no-leak rate) &minus; (with-leak rate)"],
+  variant:{q:"Pipe A fills a tank in 6 h; pipe B empties it in 8 h. With both open?",o:["24 h","14 h","2 h","48 h"],a:0,s:"1/6 &minus; 1/8 = 1/24 &rArr; 24 hours."}},
+ {id:"tsd",cat:"math",name:"Time, Speed &amp; Distance / Trains",
+  analogy:"Passing a pole, a train travels exactly its own length; passing a platform, its length plus the platform's. Speed is just distance per unit time.",
+  explain:"Speed = distance &divide; time. Convert km/h to m/s with &times;5/18. Opposite directions add speeds; same direction subtract.",
+  formulas:["S = D / T","km/h &rarr; m/s: &times;5/18","m/s &rarr; km/h: &times;18/5","Train + platform = total distance"],
+  variant:{q:"A train 200 m long at 36 km/h crosses a pole in?",o:["20 s","10 s","36 s","18 s"],a:0,s:"36 km/h = 10 m/s; 200 &divide; 10 = 20 s."}},
+ {id:"ages",cat:"math",name:"Ages",
+  analogy:"A family photo timeline — everyone ages by the same number of years together. Set today's age as a letter, then shift by &plusmn;years.",
+  explain:"Let the present age be a variable; write past and future ages as &plusmn; years, then turn each ratio statement into an equation.",
+  formulas:["After t years: every age + t","Before t years: every age &minus; t","Form equations from the ratios given"],
+  variant:{q:"A father is 3 times his son's age; in 12 years he will be twice. Son's present age?",o:["12","10","8","15"],a:0,s:"3s + 12 = 2(s + 12) &rArr; s = 12."}},
+ {id:"ap",cat:"math",name:"Arithmetic Progression",
+  analogy:"Stairs of equal height — each step adds the same amount. The n-th term is the first plus (n&minus;1) steps.",
+  explain:"An AP adds a constant step d. Count terms with (last&minus;first)/d + 1; sum with n/2 &times; (first + last). Salary-increment problems are APs in disguise.",
+  formulas:["a&#8345; = a + (n&minus;1)d","n = (last &minus; first)/d + 1","Sum = n/2 (first + last)"],
+  variant:{q:"Find the 10th term of 5, 8, 11, &hellip;",o:["32","29","35","30"],a:0,s:"5 + 9&times;3 = 32."}},
+ {id:"alg",cat:"math",name:"Algebra (identities, roots, indices)",
+  analogy:"A factor (x&minus;k) is a key: x = k unlocks the expression to zero. Identities are shortcuts that skip the long multiplication.",
+  explain:"Use identities for cubes and squares; the remainder theorem says (x&minus;k) is a factor when x=k gives 0. For a quadratic, product of roots = c/a and the discriminant is b&sup2;&minus;4ac.",
+  formulas:["a&sup3;&plusmn;b&sup3; = (a&plusmn;b)(a&sup2;&#8723;ab+b&sup2;)","(x+1/x)&sup2; = x&sup2;+1/x&sup2;+2","Product of roots = c/a","Discriminant = b&sup2; &minus; 4ac"],
+  variant:{q:"If x + 1/x = 3, find x&sup2; + 1/x&sup2;.",o:["7","9","11","5"],a:0,s:"(x+1/x)&sup2; = 9 = x&sup2;+1/x&sup2;+2 &rArr; 7."}},
+ {id:"prob",cat:"math",name:"Probability",
+  analogy:"Drawing a coloured ball from a bag — count the balls you want over all the balls there are.",
+  explain:"Probability = favourable &divide; total outcomes. For 'at least one', it is easier to do 1 minus the probability of none.",
+  formulas:["P = favourable / total","P(at least one) = 1 &minus; P(none)","Leap year: 2 extra days &rArr; 2/7 for any weekday"],
+  variant:{q:"A die is rolled. Probability of a number greater than 4?",o:["1/3","1/2","2/3","1/6"],a:0,s:"Favourable {5,6} &rArr; 2/6 = 1/3."}},
+ {id:"sets",cat:"math",name:"Set Theory &amp; Surveys",
+  analogy:"Two overlapping circles — add both groups but subtract the shared middle once, or you count it twice.",
+  explain:"Use n(A&cup;B) = n(A) + n(B) &minus; n(A&cap;B). 'Neither' equals the total minus those in at least one set.",
+  formulas:["At least one = A + B &minus; both","Neither = total &minus; (at least one)","Only A = A &minus; both"],
+  variant:{q:"In a class of 50, 30 play cricket, 25 football, 10 both. How many play neither?",o:["5","15","20","10"],a:0,s:"At least one = 45 &rArr; neither = 50 &minus; 45 = 5."}},
+ {id:"mens2",cat:"math",name:"Mensuration — 2D",
+  analogy:"The same piece of string can be bent into a square or a circle; both keep the string's length as their perimeter. That is the link in most wire problems.",
+  explain:"Know area and perimeter of flat shapes. A wire bent into a shape keeps the same total length. A sector is a fraction of the full circle by its angle.",
+  formulas:["Circle: A = &pi;r&sup2;, C = 2&pi;r","Sector area = (&theta;/360) &pi;r&sup2;","Equilateral &#9651; = (&radic;3/4)a&sup2;","Trapezium = &frac12;(a+b)h"],
+  variant:{q:"A wire bent into a circle of radius 7 cm is reshaped into a square. Its side? (&pi;=22/7)",o:["11 cm","7 cm","14 cm","22 cm"],a:0,s:"Circumference = 44 = perimeter of square &rArr; side = 11."}},
+ {id:"mens3",cat:"math",name:"Mensuration — 3D",
+  analogy:"The longest umbrella that fits in a room goes corner-to-corner — that is the space diagonal. Melting one solid into another keeps the volume the same.",
+  explain:"Volume and surface of solids. The longest rod in a box is the space diagonal &radic;(l&sup2;+b&sup2;+h&sup2;). Melting conserves volume, so equate the volumes.",
+  formulas:["Cube V = a&sup3;, SA = 6a&sup2;","Cuboid diagonal = &radic;(l&sup2;+b&sup2;+h&sup2;)","Sphere V = 4/3 &pi;r&sup3;","Cone V = &#8531; &pi;r&sup2;h, Cylinder V = &pi;r&sup2;h"],
+  variant:{q:"Longest rod that fits in a cubical room of edge 6 m?",o:["6&radic;3 m","6 m","12 m","18 m"],a:0,s:"Space diagonal = 6&radic;3 &asymp; 10.39 m."}},
+ {id:"trig",cat:"math",name:"Trigonometry &amp; Heights",
+  analogy:"Your shadow equals your height exactly when the sun sits at 45&deg;. Heights-and-distances problems are just tan = opposite / adjacent.",
+  explain:"Use tan = opposite/adjacent for towers, poles and ladders. If the two angles of elevation are complementary, the height is &radic;(d&#8321;&middot;d&#8322;).",
+  formulas:["tan45=1, tan30=1/&radic;3, tan60=&radic;3","height = base &times; tan&theta;","Complementary angles &rArr; h = &radic;(d&#8321;&middot;d&#8322;)","sec&sup2;&theta; &minus; tan&sup2;&theta; = 1"],
+  variant:{q:"From 30 m away the top of a tower has elevation 30&deg;. Height of tower?",o:["10&radic;3 m","30&radic;3 m","15 m","10 m"],a:0,s:"30 &times; tan30&deg; = 30/&radic;3 = 10&radic;3 m."}},
+ {id:"mix",cat:"math",name:"Mixtures &amp; Alligation",
+  analogy:"Adding water to squash dilutes it — the syrup stays the same, only the water grows. Track each ingredient's actual amount, then re-form the ratio.",
+  explain:"Convert the ratio to real quantities, adjust for what is added or removed, then write the new ratio.",
+  formulas:["Find actual quantities from the ratio","Adjust the changed ingredient","Re-form the ratio with new totals"],
+  variant:{q:"In 40 L of milk-water (3:1), how much water makes it 1:1?",o:["20 L","10 L","30 L","15 L"],a:0,s:"Milk 30, water 10; need water 30 &rArr; add 20 L."}},
+ {id:"part",cat:"math",name:"Partnership",
+  analogy:"A shared taxi — you pay for how much you ride AND how long you ride. Profit splits in the ratio of capital &times; time.",
+  explain:"Each partner's share is proportional to capital multiplied by the months invested.",
+  formulas:["Share &prop; capital &times; time","Equal time &rArr; share &prop; capital","Sum the ratio, find one part, scale"],
+  variant:{q:"A invests &#8377;5000 for 12 months, B &#8377;6000 for 10 months. Profit-share ratio?",o:["1:1","5:6","6:5","2:3"],a:0,s:"5000&times;12 : 6000&times;10 = 60000:60000 = 1:1."}},
+ {id:"di",cat:"math",name:"Data Interpretation",
+  analogy:"A pie slice's angle is its share of the whole pie. If a 36&deg; slice is &#8377;1600, the whole pie scales up from there.",
+  explain:"Read pie charts by angle (360&deg; = whole), bars and lines by height. Percentage change compares to the earlier value.",
+  formulas:["Value = (angle/360) &times; total","% change = (new &minus; old)/old &times; 100","Average bar = sum of bars &divide; count"],
+  variant:{q:"In a pie chart a 90&deg; sector is 250 students. Total students?",o:["1000","750","500","900"],a:0,s:"250 &times; 360/90 = 1000."}},
+ {id:"stat",cat:"math",name:"Statistics (mean, median, mode)",
+  analogy:"The median is the person standing exactly in the middle of a queue sorted by height — sort first, then look at the centre.",
+  explain:"Mean is the average; median is the middle value after sorting; mode is the most frequent. They are linked by the empirical formula.",
+  formulas:["Mode = 3&middot;Median &minus; 2&middot;Mean","Median: sort, take centre value(s)","Median class: where cumulative freq passes N/2"],
+  variant:{q:"Find the median of 7, 3, 9, 5, 11.",o:["7","9","5","8"],a:0,s:"Sorted: 3,5,7,9,11 &rArr; middle is 7."}},
+ {id:"coord",cat:"math",name:"Coordinate Geometry",
+  analogy:"Walking across a grid: go along, then up — the straight-line distance is the hypotenuse of that right triangle.",
+  explain:"Distance between two points uses Pythagoras on the coordinate gaps.",
+  formulas:["d = &radic;((x&#8322;&minus;x&#8321;)&sup2; + (y&#8322;&minus;y&#8321;)&sup2;)","Midpoint = ((x&#8321;+x&#8322;)/2, (y&#8321;+y&#8322;)/2)"],
+  variant:{q:"Distance between (0,0) and (3,4)?",o:["5","7","&radic;7","12"],a:0,s:"&radic;(3&sup2;+4&sup2;) = &radic;25 = 5."}},
+ {id:"pnc",cat:"math",name:"Permutations &amp; Combinations",
+  analogy:"A podium (1st / 2nd / 3rd) is a permutation because order matters; picking a team is a combination because it does not.",
+  explain:"Permutation counts arrangements (order matters); combination counts selections (order ignored). Arrangements of n distinct items = n!.",
+  formulas:["&#8319;P&#7523; = n! / (n&minus;r)!","&#8319;C&#7523; = n! / (r!(n&minus;r)!)","Arrangements of n = n!"],
+  variant:{q:"In how many ways can 4 people sit in a row?",o:["24","12","16","4"],a:0,s:"4! = 24."}},
+
+ {id:"code",cat:"reas",name:"Coding-Decoding",
+  analogy:"A secret message where every letter quietly slides one step down the alphabet. Find the rule, then apply it.",
+  explain:"Letters or numbers are replaced by a rule — a shift (+1, &minus;2), a reversal, or position value (A=1&hellip;Z=26). Compare given words letter by letter to find the rule.",
+  formulas:["Compare letters to spot the shift","Check reversal of the whole word","Position value: A=1 &hellip; Z=26"],
+  variant:{q:"If CAT = DBU (each letter +1), then DOG = ?",o:["EPH","DPH","EOH","FPH"],a:0,s:"D&rarr;E, O&rarr;P, G&rarr;H &rArr; EPH."}},
+ {id:"series",cat:"reas",name:"Series (number / letter)",
+  analogy:"Spotting the beat in a drum pattern — once you hear the rhythm, the next beat is obvious.",
+  explain:"Find the rule: constant difference, constant ratio, squares/cubes, or alternating steps. Check first differences, then differences-of-differences, then ratios.",
+  formulas:["Try +d, &times;r, n&sup2;, n&sup3;","Alternating: two interleaved patterns","2nd difference constant &rArr; quadratic rule"],
+  variant:{q:"Next term: 3, 6, 12, 24, &hellip;",o:["48","36","30","60"],a:0,s:"Each term &times;2 &rArr; 48."}},
+ {id:"analogy",cat:"reas",name:"Analogy",
+  analogy:"Glove is to hand as sock is to foot — name the relationship in the first pair, then apply it to the second.",
+  explain:"Identify the link (tool-for, part-of, worker-place, +shift) in the first pair and reproduce it for the second.",
+  formulas:["State the link in plain words first","Letter analogies: find the shift","Watch for opposite vs same relationships"],
+  variant:{q:"Pen : Write :: Knife : ?",o:["Cut","Sharp","Kitchen","Metal"],a:0,s:"A pen is used to write; a knife to cut."}},
+ {id:"odd",cat:"reas",name:"Classification / Odd one out",
+  analogy:"Four fruits and one vegetable — three things share a property and one does not.",
+  explain:"Test categories first, then number properties (primes, squares, cubes), then letter patterns, until one item stands apart.",
+  formulas:["Group by category / type","Check primes &amp; perfect squares","Check letter-position patterns"],
+  variant:{q:"Find the odd one: 2, 3, 5, 9, 11",o:["9","5","11","2"],a:0,s:"9 = 3&times;3 is not prime; the rest are primes."}},
+ {id:"blood",cat:"reas",name:"Blood Relations",
+  analogy:"Sketch a family photo with arrows pointing parent &rarr; child, and mark who is male or female.",
+  explain:"Draw a family tree, note generations and gender. Decode tricky phrasings carefully.",
+  formulas:["'Only son of my mother' = the speaker","Maternal = mother's side","Draw a tree before answering"],
+  variant:{q:"Pointing to a woman a man says, 'She is my mother's only daughter.' She is his?",o:["Sister","Mother","Aunt","Daughter"],a:0,s:"His mother's only daughter is his sister."}},
+ {id:"dir",cat:"reas",name:"Direction Sense",
+  analogy:"Following GPS turn-by-turn and noting where you end up. Track each turn on a compass.",
+  explain:"Use coordinates: add net North&minus;South and net East&minus;West, then Pythagoras gives the straight-line distance. Morning shadows fall west.",
+  formulas:["Net N&minus;S and net E&minus;W","Distance = &radic;(NS&sup2; + EW&sup2;)","Morning sun in East &rArr; shadow to West"],
+  variant:{q:"Walk 3 km east, then 4 km north. Straight-line distance from start?",o:["5 km","7 km","1 km","12 km"],a:0,s:"&radic;(3&sup2;+4&sup2;) = 5 km."}},
+ {id:"rank",cat:"reas",name:"Ranking / Order",
+  analogy:"Counting people ahead of and behind you in a queue — but don't count yourself twice.",
+  explain:"Total = (rank from top) + (rank from bottom) &minus; 1. When two people swap, one takes the other's known position.",
+  formulas:["Total = top + bottom &minus; 1","Rank from bottom = total &minus; top + 1","Between = |posA &minus; posB| &minus; 1"],
+  variant:{q:"Anu is 12th from the top and 18th from the bottom. Total students?",o:["29","30","28","31"],a:0,s:"12 + 18 &minus; 1 = 29."}},
+ {id:"seat",cat:"reas",name:"Seating Arrangement",
+  analogy:"Assigning seats at a dinner table from the host's rules — place the certainties first, then slot the rest.",
+  explain:"Draw the row or circle, pencil in the fixed clues, and eliminate impossible positions step by step.",
+  formulas:["Place fixed clues first","Note 'immediate left/right' carefully","Circle: decide facing centre or outward"],
+  variant:{q:"A,B,C,D,E sit in a row. C is middle, A at left end, E at right end, B left of C. Who is between C and E?",o:["D","B","A","none"],a:0,s:"Order A,B,C,D,E &rArr; D sits between C and E."}},
+ {id:"cal",cat:"reas",name:"Calendar",
+  analogy:"A 7-day wheel — every 7 days you land on the same weekday. Only the remainder after dividing by 7 matters.",
+  explain:"Use 'odd days' (remainder mod 7). Days later = (n mod 7) added to today. A century never ends on Tuesday, Thursday or Saturday.",
+  formulas:["Days later = (n mod 7)","Same weekday every 7 days","Century ends only Mon/Wed/Fri/Sun"],
+  variant:{q:"If today is Wednesday, what day is it after 100 days?",o:["Friday","Thursday","Saturday","Sunday"],a:0,s:"100 mod 7 = 2 &rArr; Wed + 2 = Friday."}},
+ {id:"clock",cat:"reas",name:"Clocks",
+  analogy:"A watch running fast shows more time than has really passed — scale the shown time down to true time.",
+  explain:"A faulty clock gains or loses a steady amount. True time = shown time &times; (true 24h / the clock's reading over 24h).",
+  formulas:["Gain/loss is steady per hour","True = shown &times; (1440 / clock-1440)","Convert all to minutes first"],
+  variant:{q:"A clock loses 5 minutes every hour. In 12 real hours it loses?",o:["60 min","5 min","12 min","55 min"],a:0,s:"5 &times; 12 = 60 minutes."}},
+ {id:"dice",cat:"reas",name:"Dice",
+  analogy:"You can never see both the top and the bottom of a box at once — opposite faces never appear together in one view.",
+  explain:"From the views, list which faces touch a given face; the one never touching it is opposite. Two views sharing a common face fix the rotation.",
+  formulas:["Opposite faces never co-appear","Faces adjacent to X &rArr; leftover is opposite","Standard die: opposite faces sum to 7"],
+  variant:{q:"On a standard die 1 is opposite 6 and 2 opposite 5. Which is opposite 3?",o:["4","1","5","2"],a:0,s:"Remaining pair is 3 and 4 &rArr; opposite 3 is 4."}},
+ {id:"mathop",cat:"reas",name:"Mathematical Operations",
+  analogy:"A code where '+' secretly means '&times;'. Swap the symbols for their real meaning, then solve normally.",
+  explain:"Symbols (or numbers) are interchanged; substitute first, then apply BODMAS.",
+  formulas:["Replace symbols with real operations","Then apply BODMAS","For interchange: swap, then evaluate"],
+  variant:{q:"If '+' means '&times;' and '&times;' means '+', find 4 + 2 &times; 3.",o:["11","14","10","9"],a:0,s:"Becomes 4 &times; 2 + 3 = 8 + 3 = 11."}},
+ {id:"syll",cat:"reas",name:"Syllogism &amp; Deduction",
+  analogy:"Nested boxes — if all A sit inside B and all B inside C, then all A must sit inside C.",
+  explain:"Treat statements as sets and accept a conclusion only if it must always be true, never merely possible.",
+  formulas:["Draw nested / overlapping circles","Conclusion must hold in every case","'Some' does not reverse to 'all'"],
+  variant:{q:"All roses are flowers. All flowers fade. Conclusion: All roses fade. Does it follow?",o:["Yes, it follows","No","Cannot say","Only sometimes"],a:0,s:"Roses &sub; flowers &sub; things that fade &rArr; yes."}},
+ {id:"nonverbal",cat:"reas",name:"Non-verbal (figures, mirrors)",
+  analogy:"Noticing how a shape turns a quarter-turn at each step, like a clock hand ticking around.",
+  explain:"Spot the visual rule — rotation, adding an element, or mirroring. In a mirror, left and right swap while top and bottom stay.",
+  formulas:["Track rotation / added elements","Mirror: left&harr;right, top stays","Embedded: trace the outline inside"],
+  variant:{q:"In a mirror to the right, the letter 'b' appears as?",o:["d","p","q","b"],a:0,s:"A right-side mirror flips left-right &rArr; b becomes d."}},
+ {id:"seq",cat:"reas",name:"Logical Sequence of Words",
+  analogy:"The steps of getting dressed, or a life cycle — arrange the words in their natural real-world order.",
+  explain:"Order words by cause &rarr; effect or small &rarr; large, following how the process unfolds in reality.",
+  formulas:["Think cause &rarr; effect","Or smallest &rarr; largest unit","Or earliest &rarr; latest stage"],
+  variant:{q:"Arrange: 1.Seed 2.Plant 3.Flower 4.Fruit",o:["1,2,3,4","2,1,3,4","1,3,2,4","4,3,2,1"],a:0,s:"Seed &rarr; Plant &rarr; Flower &rarr; Fruit."}},
+ {id:"venn",cat:"reas",name:"Logical Venn Diagrams",
+  analogy:"Nested circles for 'district inside state inside country'; overlapping circles for groups that partly share members.",
+  explain:"Pick the diagram whose overlaps match the relationship: wholly contained &rarr; concentric, partly shared &rarr; overlapping, unrelated &rarr; separate.",
+  formulas:["Contained &rarr; concentric circles","Partly shared &rarr; overlapping","Unrelated &rarr; separate circles"],
+  variant:{q:"Which fits 'Dogs, Animals, Cats'?",o:["Big circle (Animals) holding two separate circles (Dogs, Cats)","Three overlapping circles","Three separate circles","Three concentric circles"],a:0,s:"Dogs and Cats are separate kinds, both inside Animals."}}
+];
+const QUESTIONS = [
+ // ---- NUMBER SYSTEM ----
+ {t:"num",q:"&radic;2 up to three places of decimal is —",o:["1.414","1.413","1.412","1.410"],a:0,s:"&radic;2 = 1.41421&hellip; &rArr; 1.414 to three places.",src:"AAO"},
+ {t:"num",q:"Smallest perfect square divisible by 15, 24 and 25 is —",o:["9604","2025","900","3600"],a:3,s:"LCM(15,24,25) = 600 = 2&sup3;&middot;3&middot;5&sup2;. Make every power even: &times;2&middot;3 &rArr; 3600 = 60&sup2;.",src:"AAO"},
+ {t:"num",q:"675 must be multiplied by which smallest number to become a perfect cube?",o:["5","6","7","8"],a:0,s:"675 = 3&sup3;&middot;5&sup2;. The 5&sup2; needs one more 5 &rArr; &times;5.",src:"AAO"},
+ {t:"num",q:"(&radic;7 + &radic;5) / (&radic;7 &minus; &radic;5) equals —",o:["6 &minus; &radic;35","6 + &radic;35","7","6"],a:1,s:"Multiply top &amp; bottom by (&radic;7+&radic;5): (12 + 2&radic;35)/(7&minus;5) = 6 + &radic;35.",src:"AAO"},
+ {t:"num",q:"Fourth-root(81) &minus; 8&times;cube-root(216) + 15&times;fifth-root(32) + &radic;225 = ?",o:["0","&minus;1","1","2"],a:0,s:"3 &minus; 8&times;6 + 15&times;2 + 15 = 3 &minus; 48 + 30 + 15 = 0.",src:"AAO"},
+ {t:"num",q:"Least number subtracted from 7250 to get a perfect square —",o:["25","20","85","146"],a:0,s:"85&sup2; = 7225, 86&sup2; = 7396 &rArr; 7250 &minus; 7225 = 25.",src:"AAO"},
+ {t:"num",q:"&radic;(cube-root(&radic;4096)) = ?",o:["4","2","6","3"],a:1,s:"&radic;4096 = 64; cube-root(64) = 4; &radic;4 = 2.",src:"AAO"},
+ {t:"num",q:"&radic;50 + &radic;8 &minus; &radic;18 = ?",o:["2&radic;2","3&radic;2","4&radic;2","5&radic;2"],a:2,s:"5&radic;2 + 2&radic;2 &minus; 3&radic;2 = 4&radic;2.",src:"AAO"},
+ {t:"num",q:"Least 6-digit number that is a perfect square —",o:["100089","100480","100489","100490"],a:2,s:"&radic;100000 &asymp; 316.2 &rArr; 317&sup2; = 100489.",src:"AAO"},
+ {t:"num",q:"Greatest four-digit number that is a perfect cube —",o:["9999","9261","9259","9801"],a:1,s:"21&sup3; = 9261, 22&sup3; = 10648.",src:"JAO"},
+ {t:"num",q:"&radic;((10 + &radic;25)(12 &minus; &radic;49)) = ?",o:["4&radic;3","5&radic;3","2&radic;3","3&radic;3"],a:1,s:"= &radic;((10+5)(12&minus;7)) = &radic;75 = 5&radic;3.",src:"UDC"},
+ {t:"num",q:"(2 + &radic;3) / (2 &minus; &radic;3) equals —",o:["2/(2&minus;&radic;3)","2 + &radic;3","1/(7&minus;4&radic;3)","7 + 4&radic;3"],a:3,s:"Multiply by (2+&radic;3): (2+&radic;3)&sup2;/(4&minus;3) = 7 + 4&radic;3.",src:"UDC"},
+ {t:"num",q:"Cube root of &minus;64 is —",o:["&minus;8","&minus;4","8","4"],a:1,s:"(&minus;4)&sup3; = &minus;64.",src:"JAO"},
+
+ // ---- HCF & LCM ----
+ {t:"hcflcm",q:"HCF of two numbers is 16, LCM is 160. If one number is 32, the other is —",o:["48","80","96","112"],a:1,s:"Product = HCF&times;LCM = 2560 &rArr; other = 2560/32 = 80.",src:"AAO"},
+ {t:"hcflcm",q:"HCF = 6, LCM = 5040, one number = 210. The other —",o:["250","30","630","144"],a:3,s:"6&times;5040 &divide; 210 = 144.",src:"JAO"},
+ {t:"hcflcm",q:"HCF = 13, LCM = 1989, one number = 117. The other —",o:["222","223","221","225"],a:2,s:"13&times;1989 &divide; 117 = 221.",src:"SIE"},
+ {t:"hcflcm",q:"LCM of two numbers is 48 and they are in ratio 2:3. Their sum —",o:["28","32","40","64"],a:2,s:"2x, 3x; LCM = 6x = 48 &rArr; x = 8 &rArr; 16 + 24 = 40.",src:"AAO"},
+ {t:"hcflcm",q:"Three numbers in ratio 3:4:5 have LCM 720. Their HCF —",o:["12","60","24","90"],a:0,s:"3k,4k,5k; LCM = 60k = 720 &rArr; k = 12; HCF = 12.",src:"SIE"},
+ {t:"hcflcm",q:"Smallest number added to 1056 so it is divisible by 23 —",o:["1","2","5","4"],a:1,s:"23&times;46 = 1058 &rArr; 1058 &minus; 1056 = 2.",src:"UDC"},
+ {t:"hcflcm",q:"Least number subtracted from 518 so the result is divisible by 13 —",o:["11","10","9","12"],a:0,s:"13&times;39 = 507 &rArr; 518 &minus; 507 = 11.",src:"LDC"},
+
+ // ---- SIMPLIFICATION ----
+ {t:"simp",q:"441 &divide; [270 &divide; (3/7) + (17 &divide; 1/3) &minus; (8&frac12; &minus; 5/2)] = ?",o:["49/75","19/75","39/75","29/75"],a:0,s:"630 + 51 &minus; 6 = 675; 441/675 = 49/75.",src:"AAO"},
+ {t:"simp",q:"(8.73&sup3; + 4.27&sup3;) / (8.73&sup2; &minus; 8.73&times;4.27 + 4.27&sup2;) = ?",o:["11","13","11/7","13/7"],a:1,s:"a&sup3;+b&sup3; over a&sup2;&minus;ab+b&sup2; = a+b = 8.73 + 4.27 = 13.",src:"AAO"},
+ {t:"simp",q:"[24 + 13 &minus; 5 &times; &frac12; of 10 &minus; {45 &divide; (17 &minus; 2)}] = ?",o:["7","8","9","10"],a:2,s:"&frac12; of 10 = 5; 5&times;5 = 25; 45&divide;15 = 3 &rArr; 24 + 13 &minus; 25 &minus; 3 = 9.",src:"ASI"},
+ {t:"simp",q:"1800 &divide; (11&times;24 &divide; 8 &times; 3 &minus; 69)&sup2; = ?",o:["2","3","5","4"],a:0,s:"264&divide;8 = 33; &times;3 = 99; &minus;69 = 30; 30&sup2; = 900; 1800/900 = 2.",src:"LDC"},
+ {t:"simp",q:"25 &minus; 5[2 + 3{2 &minus; 2(5&minus;3) + 5} &minus; 10] &divide; 4 = ?",o:["23.75","23.25","23","25"],a:0,s:"Inside &rarr; 1; 5&times;1&divide;4 = 1.25; 25 &minus; 1.25 = 23.75.",src:"LDC"},
+
+ // ---- RATIO ----
+ {t:"ratio",q:"Two numbers in ratio 2:3; adding 8 to each makes them 3:4. The numbers —",o:["2 and 3","4 and 6","8 and 12","16 and 24"],a:3,s:"(2x+8)/(3x+8) = 3/4 &rArr; x = 8 &rArr; 16 and 24.",src:"AAO"},
+ {t:"ratio",q:"Difference of two numbers is 66 and their ratio is 2:5. The numbers —",o:["44 and 110","110 and 176","176 and 242","242 and 308"],a:0,s:"3x = 66 &rArr; x = 22 &rArr; 44 and 110.",src:"AAO"},
+ {t:"ratio",q:"Three numbers in ratio 2:3:5; sum of their squares is 1862. The first number —",o:["35","21","14","7"],a:2,s:"38k&sup2; = 1862 &rArr; k = 7; first = 2k = 14.",src:"AAO"},
+ {t:"ratio",q:"If a:b = 2:3 and b:c = 4:5, then a:b:c —",o:["15:12:8","15:10:12","8:10:15","8:12:15"],a:3,s:"Make b = 12: 8:12 and 12:15 &rArr; 8:12:15.",src:"AAO"},
+ {t:"ratio",q:"Cost of a dozen mangoes is &#8377;240; 9 apples cost &#8377;72. Ratio of one mango to one apple —",o:["2:5","7:3","3:7","5:2"],a:3,s:"Mango 20, apple 8 &rArr; 20:8 = 5:2.",src:"UDC"},
+ {t:"ratio",q:"Sum of three numbers is 98; first:second = 2:3, second:third = 5:8. The third number —",o:["40","44","46","48"],a:3,s:"Combined 10:15:24 (49 parts); 98/49 = 2 &rArr; 24&times;2 = 48.",src:"JAO"},
+ {t:"ratio",q:"Thanga has hens and goats; heads = 15, feet = 40. Number of hens —",o:["20","15","12","10"],a:3,s:"h+g = 15, 2h+4g = 40 &rArr; g = 5, h = 10.",src:"JAO"},
+ {t:"ratio",q:"If 2p = 3q = 4r, then p:q:r —",o:["2:3:4","6:4:3","6:3:4","3:4:6"],a:1,s:"Common 12 &rArr; p = 6, q = 4, r = 3.",src:"LDC"},
+ {t:"ratio",q:"Sides of a triangle are in ratio 1/2 : 1/3 : 1/4, perimeter 65 cm. Longest side —",o:["10","20","30","40"],a:2,s:"LCM 12 &rArr; 6:4:3 (13 parts); 65/13 = 5 &rArr; 6&times;5 = 30.",src:"SIF"},
+ {t:"ratio",q:"Boys:girls = 3:5; there are 24 boys. Number of girls —",o:["30","36","40","42"],a:2,s:"24/3 &times; 5 = 40.",src:"STN"},
+ {t:"ratio",q:"Arrange 3/5, 7/9, 11/13 in descending order.",o:["3/5 &gt; 7/9 &gt; 11/13","7/9 &gt; 11/13 &gt; 3/5","11/13 &gt; 3/5 &gt; 7/9","11/13 &gt; 7/9 &gt; 3/5"],a:3,s:"&asymp; 0.60, 0.78, 0.85 &rArr; 11/13 &gt; 7/9 &gt; 3/5.",src:"SIE"},
+
+ // ---- PERCENTAGE ----
+ {t:"pct",q:"Rama gets 49% marks = 294. His friend scores 372. Friend's percentage —",o:["60%","62%","72%","75%"],a:1,s:"Total = 294/0.49 = 600; 372/600 = 62%.",src:"AAO"},
+ {t:"pct",q:"A rectangle's length rises 20% and breadth falls 20%. Area decreases by —",o:["2%","3%","4%","5%"],a:2,s:"1.2 &times; 0.8 = 0.96 &rArr; 4% decrease.",src:"AAO"},
+ {t:"pct",q:"List price &#8377;220, festival discount 20%. Selling price —",o:["&#8377;200","&#8377;176","&#8377;198","&#8377;154"],a:1,s:"220 &times; 0.80 = 176.",src:"AAO"},
+ {t:"pct",q:"A TV costs &#8377;13500 including 8% VAT. Price before VAT —",o:["&#8377;12000","&#8377;12200","&#8377;12500","&#8377;13000"],a:2,s:"13500 / 1.08 = 12500.",src:"AAO"},
+ {t:"pct",q:"45% of students are boys; girls = 605. Number of boys —",o:["495","650","425","475"],a:0,s:"Girls 55% = 605 &rArr; total 1100 &rArr; boys 45% = 495.",src:"AAO"},
+ {t:"pct",q:"Population grows 5% per year; present 16000. After 3 years —",o:["29448","18522","24448","20448"],a:1,s:"16000 &times; 1.05&sup3; = 18522.",src:"UDC"},
+ {t:"pct",q:"A student needs 40% to pass, gets 40 and fails by 40. Maximum marks —",o:["150","200","250","300"],a:1,s:"Pass mark = 80 = 40% &rArr; max = 200.",src:"LDC"},
+ {t:"pct",q:"50% failed English, 40% Hindi, 15% both. Percentage passing both —",o:["20%","25%","60%","75%"],a:1,s:"Failed at least one = 75% &rArr; passed both = 25%.",src:"JAO"},
+ {t:"pct",q:"A candidate gets 55% of valid votes; 20% of total votes invalid; total 7500. The other candidate got —",o:["2500","2700","2900","3100"],a:1,s:"Valid = 6000; other = 45% &times; 6000 = 2700.",src:"GRB"},
+ {t:"pct",q:"If 20% of a = b, then b% of 20 equals —",o:["4% of a","6% of a","8% of a","10% of a"],a:0,s:"b = 0.2a; (0.2a/100)&times;20 = 0.04a = 4% of a.",src:"GRB"},
+ {t:"pct",q:"A price rises 10% then falls 10%. Net change —",o:["0%","1% increase","1% decrease","2% decrease"],a:2,s:"1.1 &times; 0.9 = 0.99 &rArr; 1% decrease.",src:"STN"},
+ {t:"pct",q:"A man buys 400 oranges for &#8377;2000. How many can be sold for &#8377;260 to gain 30%?",o:["35","30","40","45"],a:2,s:"CP &#8377;5 each; SP for 30% = &#8377;6.5; 260/6.5 = 40.",src:"JAO"},
+ {t:"pct",q:"15% of 600 = x% of 450. The value of x —",o:["16","18","20","25"],a:2,s:"90 = 4.5x &rArr; x = 20.",src:"SIE"},
+
+ // ---- PROFIT & LOSS ----
+ {t:"pl",q:"80 articles bought for &#8377;2400, sold at 10% profit. Selling price of one —",o:["&#8377;33","&#8377;27.27","&#8377;2640","&#8377;2181.82"],a:0,s:"CP/article = 30 &rArr; SP = 30 &times; 1.1 = &#8377;33.",src:"AAO"},
+ {t:"pl",q:"An article sold for &#8377;642.60 after successive discounts of 15% and 10%. Marked price —",o:["&#8377;840","&#8377;820","&#8377;880","&#8377;800"],a:0,s:"MP &times; 0.85 &times; 0.90 = 642.60 &rArr; MP = 840.",src:"AAO"},
+ {t:"pl",q:"A table costing &#8377;1500 is sold for &#8377;1410. Loss percent —",o:["5%","6%","7%","8%"],a:1,s:"Loss 90 &rArr; 90/1500 &times; 100 = 6%.",src:"UDC"},
+ {t:"pl",q:"Thanga saved &#8377;200 when a 25% discount was given on a sweater. Price before discount —",o:["&#8377;400","&#8377;700","&#8377;500","&#8377;800"],a:3,s:"25% of MP = 200 &rArr; MP = 800.",src:"UDC"},
+ {t:"pl",q:"On selling for &#8377;450 a shopkeeper loses 10%. For what price should it be sold to gain 5%?",o:["&#8377;625","&#8377;600","&#8377;550","&#8377;525"],a:3,s:"CP = 450/0.9 = 500 &rArr; SP for 5% = 525.",src:"LDC"},
+ {t:"pl",q:"Successive discounts of 40% and 20% equal a single discount of —",o:["50%","52%","55%","60%"],a:1,s:"1 &minus; (0.6&times;0.8) = 0.52 &rArr; 52%.",src:"GRB"},
+ {t:"pl",q:"When 15 towels sell for &#8377;847 the loss equals the cost of 4 towels. CP of one towel —",o:["&#8377;70","&#8377;77","&#8377;80","&#8377;88"],a:1,s:"15c &minus; 847 = 4c &rArr; 11c = 847 &rArr; c = 77.",src:"SIF"},
+ {t:"pl",q:"A shopkeeper marks goods 25% above cost then allows 12% discount. Result —",o:["10% profit","10% loss","12% profit","12% loss"],a:0,s:"1.25 &times; 0.88 = 1.10 &rArr; 10% profit.",src:"SIF"},
+ {t:"pl",q:"A chair sold for &#8377;2100 at 25% loss. To make 15% profit, sell it for —",o:["&#8377;3220","&#8377;3230","&#8377;2330","&#8377;2230"],a:0,s:"CP = 2100/0.75 = 2800 &rArr; SP = 2800 &times; 1.15 = 3220.",src:"STN"},
+ {t:"pl",q:"Two items each sold for &#8377;500; one at 20% gain, the other 20% loss. Overall —",o:["4% profit","4% loss","no profit no loss","8% loss"],a:1,s:"Equal SP &amp; equal % &rArr; net loss = 20&sup2;/100 = 4%.",src:"STN"},
+
+ // ---- SIMPLE INTEREST ----
+ {t:"si",q:"SI on a sum for 8 months at 4% p.a. is &#8377;129 less than SI for 15 months at 5%. The sum —",o:["&#8377;2900","&#8377;3600","&#8377;3500","&#8377;2500"],a:1,s:"(75P &minus; 32P)/1200 = 129 &rArr; 43P/1200 = 129 &rArr; P = 3600.",src:"AAO"},
+ {t:"si",q:"A sum doubles in 5 years at simple interest. The rate per annum —",o:["12%","15%","18%","20%"],a:3,s:"SI = P in 5 yrs &rArr; R = 100/5 = 20%.",src:"JAO"},
+ {t:"si",q:"Difference of SI from two banks on &#8377;3000 for 3 years is &#8377;90. Difference in rates —",o:["4%","3%","2%","1%"],a:3,s:"3000 &times; &Delta;R &times; 3 / 100 = 90 &rArr; &Delta;R = 1%.",src:"STN"},
+ {t:"si",q:"In how many years will SI be 2/5 of the principal at 8% p.a.?",o:["7 years","5 years","8 years","6 years"],a:1,s:"2P/5 = P&times;8&times;T/100 &rArr; T = 5.",src:"SIE"},
+ {t:"si",q:"If SI for 4 years equals 20% of the principal, SI equals the principal after —",o:["16 years","20 years","10 years","30 years"],a:1,s:"Rate = 20/4 = 5% &rArr; time for SI = P is 100/5 = 20 yrs.",src:"SIF"},
+
+ // ---- COMPOUND INTEREST ----
+ {t:"ci",q:"A sum becomes &#8377;2420 in 2 years and &#8377;2662 in 3 years (CI). The rate —",o:["5% p.a.","8% p.a.","10% p.a.","12% p.a."],a:2,s:"2662/2420 = 1.10 &rArr; 10%.",src:"AAO"},
+ {t:"ci",q:"&#8377;8000 becomes &#8377;12500 in 2 years at CI. Amount after 3 years —",o:["&#8377;15625","&#8377;13175","&#8377;12575","&#8377;14225"],a:0,s:"(1+r)&sup2; = 1.5625 &rArr; r = 25%; 8000 &times; 1.25&sup3; = 15625.",src:"AAO"},
+ {t:"ci",q:"Difference between SI and CI on a sum at 9% for 2 years is &#8377;20.25. The sum —",o:["&#8377;2800","&#8377;2400","&#8377;2000","&#8377;2500"],a:3,s:"P(r/100)&sup2; = 0.0081P = 20.25 &rArr; P = 2500.",src:"AAO"},
+ {t:"ci",q:"CI on &#8377;5000 for 2 years at 8% compounded annually —",o:["&#8377;832","&#8377;846","&#8377;858","&#8377;864"],a:0,s:"5000(1.08&sup2; &minus; 1) = 5000 &times; 0.1664 = 832.",src:"SIE"},
+ {t:"ci",q:"Amount becomes &#8377;6655 at 10% CI in 3 years. The sum —",o:["&#8377;5500","&#8377;5000","&#8377;6000","&#8377;6100"],a:1,s:"P &times; 1.331 = 6655 &rArr; P = 5000.",src:"UDC"},
+ {t:"ci",q:"CI on &#8377;15625 for 1&frac12; years at 8% p.a. compounded half-yearly —",o:["&#8377;4951","&#8377;3951","&#8377;2951","&#8377;1951"],a:3,s:"Rate 4% per half-year, 3 periods: 15625 &times; 1.04&sup3; = 17576; CI = 1951.",src:"STN"},
+
+ // ---- AVERAGES ----
+ {t:"avg",q:"Average height of 30 of 40 students is 160 cm; the remaining 10 average 156 cm. Whole class —",o:["159 cm","158 cm","157 cm","156 cm"],a:0,s:"(30&times;160 + 10&times;156)/40 = 6360/40 = 159.",src:"AAO"},
+ {t:"avg",q:"Mean of ten numbers is 40; mean of first five is 42, of last four is 35. The 6th —",o:["35","40","42","50"],a:3,s:"400 &minus; 210 &minus; 140 = 50.",src:"AAO"},
+ {t:"avg",q:"Mean weight of 5 men rises 1 kg when one (60 kg) is replaced. New man weighs —",o:["65 kg","60 kg","55 kg","50 kg"],a:0,s:"Total rises 5&times;1 = 5 &rArr; 60 + 5 = 65.",src:"AAO"},
+ {t:"avg",q:"40 children, boys 4 more than girls; average all 42.5 kg, girls 48 kg. Average of boys —",o:["40","38","36","42"],a:1,s:"Boys 22, girls 18; total 1700, girls 864 &rArr; boys avg 836/22 = 38.",src:"AAO"},
+ {t:"avg",q:"Average of 10 numbers is 22; each increased by 3. New average —",o:["26","23","24","25"],a:3,s:"Average rises by 3 &rArr; 25.",src:"UDC"},
+ {t:"avg",q:"Average of the first 5 positive even numbers divisible by 9 —",o:["50","54","48","62"],a:1,s:"18,36,54,72,90 &rArr; 270/5 = 54.",src:"LDC"},
+ {t:"avg",q:"Average of three numbers is 48; the third is one-third of the sum of the other two. The third —",o:["12","32","36","6"],a:2,s:"Sum 144; third = s/3 &rArr; 4&times;third = 144 &rArr; 36.",src:"SIF"},
+ {t:"avg",q:"Mean of 5 numbers is 15; adding one more makes the mean of 6 equal 17. The new number —",o:["24","25","26","27"],a:3,s:"6&times;17 &minus; 5&times;15 = 102 &minus; 75 = 27.",src:"JAO"},
+ {t:"avg",q:"Median using empirical formula when mode = 29 and mean = 38 —",o:["40","37","35","33"],a:2,s:"Mode = 3&middot;Median &minus; 2&middot;Mean &rArr; 29 = 3M &minus; 76 &rArr; M = 35.",src:"AAO"},
+
+ // ---- TIME & WORK ----
+ {t:"tw",q:"8 men reap 80 hectares in 24 days. Hectares 36 men reap in 30 days —",o:["400","450","460","480"],a:1,s:"Rate 5/12 per man-day; 36&times;30&times;5/12 = 450.",src:"AAO"},
+ {t:"tw",q:"A and B finish in 24 days; A alone in 32 days. They work 8 days together, then A leaves. B needs —",o:["16 days","64 days","32 days","128 days"],a:1,s:"B = 1/24 &minus; 1/32 = 1/96; remaining 2/3 &rArr; 64 days.",src:"AAO"},
+ {t:"tw",q:"A and B do a job in 12 days; A is twice as efficient as B. B alone needs —",o:["18 days","12 days","24 days","36 days"],a:3,s:"A:B = 2:1; B is 1 of 3 units of the combined 1/12 &rArr; 36 days.",src:"AAO"},
+ {t:"tw",q:"A man does a piece of work in 6 days; with his friend in 4 days. Friend alone takes —",o:["6 days","4 days","12 days","10 days"],a:2,s:"Friend = 1/4 &minus; 1/6 = 1/12 &rArr; 12 days.",src:"GRB"},
+ {t:"tw",q:"A and B together do a job in 12 days; B alone in 30 days. A alone takes —",o:["18 days","24 days","25 days","20 days"],a:3,s:"A = 1/12 &minus; 1/30 = 1/20 &rArr; 20 days.",src:"GRB"},
+ {t:"tw",q:"A does work in 10 days, B in 20 days. With C they finish in 4 days. C alone takes —",o:["18 days","10 days","32 days","128 days"],a:1,s:"C = 1/4 &minus; 3/20 = 1/10 &rArr; 10 days.",src:"LDC"},
+ {t:"tw",q:"A and B finish in 3 days; they start together, B leaves after 2 days, work ends 2 days later. B alone —",o:["5 days","6 days","7 days","10 days"],a:1,s:"2/3 done in 2 days; A does 1/3 in 2 days &rArr; A = 1/6; B = 1/6 &rArr; 6 days.",src:"JAO"},
+ {t:"tw",q:"Smith and Ajit finish a task in 12 and 18 days. Fraction left after working together 4 days —",o:["5/9","2/9","4/9","1/9"],a:2,s:"Rate 5/36; 4 days = 20/36 = 5/9 done &rArr; 4/9 left.",src:"SIE"},
+ {t:"tw",q:"36 men complete a work in 18 days. Days for 27 men —",o:["21","22","24","25"],a:2,s:"36&times;18 = 648 man-days &divide; 27 = 24.",src:"SIF"},
+
+ // ---- PIPES ----
+ {t:"pipes",q:"Pipes fill a tank in 10 h and 12 h; a third drains the full tank in 20 h. All three open fill it in —",o:["7 hours","7&frac12; hours","8 hours","8&frac12; hours"],a:1,s:"1/10 + 1/12 &minus; 1/20 = 8/60 = 2/15 &rArr; 15/2 = 7&frac12; h.",src:"AAO"},
+ {t:"pipes",q:"A leaking tank fills in 12 h; without the leak in 10 h. The leak empties the tank in —",o:["40 hours","50 hours","60 hours","70 hours"],a:2,s:"Leak = 1/10 &minus; 1/12 = 1/60 &rArr; 60 h.",src:"AAO"},
+ {t:"pipes",q:"A leaking tank fills in 6 h; without the leak in 5 h. The leak empties it in —",o:["24 hours","32 hours","30 hours","36 hours"],a:2,s:"1/5 &minus; 1/6 = 1/30 &rArr; 30 h.",src:"GRB"},
+
+ // ---- TSD ----
+ {t:"tsd",q:"Speed of a car 36 km/hr in m/sec —",o:["10","15","20","25"],a:0,s:"36 &times; 5/18 = 10 m/s.",src:"AAO"},
+ {t:"tsd",q:"Two persons walk opposite at 5 and 4 km/hr. Distance apart after 3 hours —",o:["25 km","27 km","30 km","32 km"],a:1,s:"(5+4) &times; 3 = 27 km.",src:"AAO"},
+ {t:"tsd",q:"Walking at 3/5 of usual speed a man is 10 minutes late. His usual time —",o:["12 min","15 min","18 min","20 min"],a:1,s:"New time = 5/3 &times; T; extra = 2/3 T = 10 &rArr; T = 15.",src:"AAO"},
+ {t:"tsd",q:"A gun fired 4.3 km away is heard after 10 seconds. Speed of sound —",o:["210 m/s","320 m/s","430 m/s","540 m/s"],a:2,s:"4300/10 = 430 m/s.",src:"AAO"},
+ {t:"tsd",q:"Travel 39 km at 26, 39 km at 39 and 39 km at 52 km/h. Average speed —",o:["36 km/h","37 km/h","39 km/h","32 km/h"],a:0,s:"Times 1.5+1+0.75 = 3.25 h for 117 km &rArr; 36 km/h.",src:"JAO"},
+ {t:"tsd",q:"20 m/sec in km/h —",o:["60 km/h","72 km/h","84 km/h","96 km/h"],a:1,s:"20 &times; 18/5 = 72.",src:"ASI"},
+ {t:"tsd",q:"A train counts 26 telephone posts (60 m apart) in 2 minutes. Distance covered —",o:["1500 m","1560 m","1600 m","1650 m"],a:0,s:"26 posts &rArr; 25 gaps &times; 60 = 1500 m.",src:"JAO"},
+ {t:"tsd",q:"A train at 90 km/hr passes a pole in 18 seconds. Its length —",o:["350 m","400 m","450 m","500 m"],a:2,s:"90 &times; 5/18 = 25 m/s &times; 18 = 450 m.",src:"LDC"},
+ {t:"tsd",q:"A bus covers 42 km in 1 h 40 min 48 s. Its speed —",o:["30 km/h","20 km/h","35 km/h","25 km/h"],a:3,s:"Time = 1.68 h &rArr; 42/1.68 = 25 km/h.",src:"SIF"},
+ {t:"tsd",q:"A train at 72 km/h crosses a platform in 30 s; train length 180 m. Platform length —",o:["360 m","420 m","300 m","240 m"],a:1,s:"Speed 20 m/s &times; 30 = 600 m; 600 &minus; 180 = 420.",src:"STN"},
+ {t:"tsd",q:"A person covers 20 km by bus in 35 min, rests 20 min, then 10 km by taxi in 20 min. Average speed —",o:["30 km/h","60 km/h","48 km/h","24 km/h"],a:3,s:"30 km in 75 min (1.25 h) &rArr; 24 km/h.",src:"SIE"},
+
+ // ---- AGES ----
+ {t:"ages",q:"Liana is 16 and his elder sister is 21. After how many years is their age-sum 51?",o:["15 years","11 years","7 years","5 years"],a:2,s:"37 + 2x = 51 &rArr; x = 7.",src:"AAO"},
+ {t:"ages",q:"Liana is twice as old as Mawii; 5 years ago Liana was three times Mawii. Liana's present age —",o:["10 years","20 years","30 years","40 years"],a:1,s:"2m &minus; 5 = 3(m &minus; 5) &rArr; m = 10 &rArr; Liana = 20.",src:"UDC"},
+ {t:"ages",q:"Sum of present ages of Lala and son is 46; 5 years ago Lala was 11 times the son. Son's age —",o:["12 years","10 years","8 years","6 years"],a:2,s:"41 &minus; s = 11(s &minus; 5) &rArr; s = 8.",src:"ASI"},
+ {t:"ages",q:"After 5 years A:B = 5:8; after 8 years their ages sum to 71. Present age of B —",o:["28 years","32 years","35 years","45 years"],a:2,s:"A+B = 55 and 8(A+5) = 5(B+5) &rArr; B = 35.",src:"JAO"},
+ {t:"ages",q:"Sum of ages of 4 children born at 6-year intervals is 104. The oldest is —",o:["29","30","35","36"],a:2,s:"4x + 36 = 104 &rArr; x = 17 &rArr; oldest = 35.",src:"SIF"},
+
+ // ---- AP ----
+ {t:"ap",q:"Number of terms in 4, 11, 18, &hellip;, 186 —",o:["17","25","26","27"],a:3,s:"186 = 4 + (n&minus;1)7 &rArr; n = 27.",src:"AAO"},
+ {t:"ap",q:"8th term of the AP 9, 6, 3, 0, &hellip; —",o:["&minus;3","&minus;6","&minus;12","&minus;15"],a:2,s:"9 + 7(&minus;3) = &minus;12.",src:"AAO"},
+ {t:"ap",q:"If p&minus;2, p+1 and 2p&minus;1 are in AP, then p —",o:["1","&minus;1","5","&minus;5"],a:2,s:"2(p+1) = (p&minus;2) + (2p&minus;1) &rArr; p = 5.",src:"AAO"},
+ {t:"ap",q:"8th term from the end of the AP 17, 14, 11, &hellip;, &minus;40 —",o:["19","&minus;19","29","&minus;29"],a:1,s:"From &minus;40 with d = +3: &minus;40 + 7&times;3 = &minus;19.",src:"AAO"},
+ {t:"ap",q:"Number of terms in the AP 7, 11, 15, &hellip;, 139 —",o:["34","35","36","37"],a:0,s:"139 = 7 + (n&minus;1)4 &rArr; n = 34.",src:"GRB"},
+ {t:"ap",q:"Sum of all natural numbers from 1 to 100 —",o:["4550","4780","5000","5050"],a:3,s:"100 &times; 101 / 2 = 5050.",src:"ASI"},
+ {t:"ap",q:"15th term of the AP 21, 16, 11, 6, &hellip; —",o:["25","36","64","&minus;49"],a:3,s:"21 + 14(&minus;5) = &minus;49.",src:"STN"},
+ {t:"ap",q:"A starting salary of &#8377;25000 rises &#8377;1250 each year. Salary in the 10th year —",o:["&#8377;36250","&#8377;37500","&#8377;36520","&#8377;35700"],a:0,s:"25000 + 9&times;1250 = 36250.",src:"SIF"},
+
+ // ---- ALGEBRA ----
+ {t:"alg",q:"If (x&minus;2) is a factor of x&sup3; &minus; 2ax&sup2; + ax &minus; 1, then a —",o:["6/7","7/6","&minus;6/7","&minus;7/6"],a:1,s:"Put x = 2: 7 &minus; 6a = 0 &rArr; a = 7/6.",src:"AAO"},
+ {t:"alg",q:"Remainder when x&sup3; + x&sup2; &minus; 2x &minus; 3 is divided by (x+2) —",o:["&minus;5","5","&minus;3","3"],a:2,s:"Put x = &minus;2: &minus;8 + 4 + 4 &minus; 3 = &minus;3.",src:"AAO"},
+ {t:"alg",q:"If x + 1/x = 2, then x&sup3; + 1/x&sup3; —",o:["2","&minus;2","4","&minus;4"],a:0,s:"(x+1/x)&sup3; = 8 = S + 3&times;2 &rArr; S = 2.",src:"AAO"},
+ {t:"alg",q:"Discriminant of 2x&sup2; &minus; 5x &minus; 3 = 0 —",o:["49","&minus;49","1","&minus;1"],a:0,s:"25 &minus; 4(2)(&minus;3) = 49.",src:"AAO"},
+ {t:"alg",q:"Zeroes of x&sup2; &minus; x &minus; 6 —",o:["&minus;1 and 6","1 and &minus;6","&minus;2 and 3","2 and &minus;3"],a:2,s:"(x&minus;3)(x+2) &rArr; 3 and &minus;2.",src:"AAO"},
+ {t:"alg",q:"Product of the roots of (x&minus;6)(x&minus;5) = 0 —",o:["&minus;30","30","40","64"],a:1,s:"Roots 6 and 5 &rArr; 30.",src:"AAO"},
+ {t:"alg",q:"If x + 1/x = 8, then x&sup2; + 1/x&sup2; —",o:["49","52","62","20"],a:2,s:"8&sup2; &minus; 2 = 62.",src:"ASI"},
+ {t:"alg",q:"Sum of two rational numbers is &minus;5; one is &minus;13/6. The other —",o:["&minus;11/6","&minus;17/6","19/6","7/6"],a:1,s:"&minus;5 &minus; (&minus;13/6) = &minus;17/6.",src:"ASI"},
+ {t:"alg",q:"If 6x&sup2; + 7x &minus; 10 = 0, one value of x —",o:["3","&minus;4","&minus;3/4","5/6"],a:3,s:"Roots (&minus;7 &plusmn; 17)/12 &rArr; 5/6 or &minus;2.",src:"ASI"},
+ {t:"alg",q:"If a + b = 8 and ab = 15, then a&sup3; + b&sup3; —",o:["98","124","152","260"],a:2,s:"(a+b)&sup3; &minus; 3ab(a+b) = 512 &minus; 360 = 152.",src:"JAO"},
+ {t:"alg",q:"If x &minus; y = 1 and x&sup2; &minus; y&sup2; = 41, then x + y —",o:["9","&minus;1","&minus;4","None of these"],a:3,s:"x&sup2;&minus;y&sup2; = (x+y)(x&minus;y) &rArr; x+y = 41 (not listed).",src:"SIF"},
+ {t:"alg",q:"If (&minus;5) raised to (x+1) times (&minus;5) raised to 4 equals (&minus;5) raised to 8, then x —",o:["2","3","4","5"],a:1,s:"x + 1 + 4 = 8 &rArr; x = 3.",src:"LDC"},
+ {t:"alg",q:"Simplest form of (x&sup2; &minus; 9) / (x&sup2; + x &minus; 6) —",o:["(x&minus;3)/(x&minus;2)","(x&minus;3)/(x+2)","(x+3)/(x+2)","(x+3)/(x&minus;3)"],a:0,s:"(x&minus;3)(x+3) / ((x+3)(x&minus;2)) = (x&minus;3)/(x&minus;2).",src:"AAO"},
+ {t:"alg",q:"Coefficient of x&sup2; in (2x + y)&sup3; —",o:["12","12y","6y","8"],a:1,s:"(2x+y)&sup3; = 8x&sup3; + 12x&sup2;y + 6xy&sup2; + y&sup3; &rArr; 12y.",src:"SIE"},
+
+ // ---- PROBABILITY ----
+ {t:"prob",q:"Probability of two heads when two coins are tossed —",o:["1/2","1/3","1/4","1/8"],a:2,s:"Favourable HH; total 4 &rArr; 1/4.",src:"AAO"},
+ {t:"prob",q:"A bag has 4 white and some red balls; P(red) = 2&times;P(white). Number of red balls —",o:["8","6","4","2"],a:0,s:"r/(4+r) = 2&times;4/(4+r) &rArr; r = 8.",src:"AAO"},
+ {t:"prob",q:"12 white and some green balls; P(white) = 3&times;P(green). Number of green balls —",o:["10","8","6","4"],a:3,s:"12 = 3g &rArr; g = 4.",src:"AAO"},
+ {t:"prob",q:"A card drawn from 52 is neither a King nor a Queen. Probability —",o:["12/13","11/13","10/13","9/13"],a:1,s:"(52 &minus; 8)/52 = 44/52 = 11/13.",src:"AAO"},
+ {t:"prob",q:"From 25 cards (1 to 25) one is drawn. P(number not divisible by 4) —",o:["6/25","19/25","4/25","21/25"],a:1,s:"6 divisible by 4 &rArr; 19 not &rArr; 19/25.",src:"ASI"},
+ {t:"prob",q:"Probability of getting at least one head when two coins are tossed —",o:["1","1/2","1/3","3/4"],a:3,s:"1 &minus; P(no head) = 1 &minus; 1/4 = 3/4.",src:"GRB"},
+ {t:"prob",q:"A bag has 3 red, 5 white and 7 black balls. P(neither red nor black) —",o:["2/5","1/3","8/15","7/15"],a:1,s:"White = 5/15 = 1/3.",src:"SIF"},
+ {t:"prob",q:"Probability of 53 Sundays in a leap year —",o:["2/7","3/7","1/7","4/7"],a:0,s:"366 days = 52 weeks + 2 extra; 2 of 7 pairs include Sunday &rArr; 2/7.",src:"STN"},
+
+ // ---- SETS ----
+ {t:"sets",q:"In a committee 32 speak Hindi, 14 English, 8 both. How many speak at least one —",o:["36","38","40","46"],a:1,s:"32 + 14 &minus; 8 = 38.",src:"AAO"},
+ {t:"sets",q:"Survey of 200: 125 like orange, 90 apple, 60 both. How many like neither —",o:["60","56","50","45"],a:3,s:"200 &minus; (125 + 90 &minus; 60) = 45.",src:"AAO"},
+ {t:"sets",q:"In a class of 65, 40 like football and 10 like both football and hockey. Hockey only (all like at least one) —",o:["35","20","30","25"],a:3,s:"Hockey only = 65 &minus; football total = 65 &minus; 40 = 25.",src:"ASI"},
+ {t:"sets",q:"64% like tea, 46% coffee. If everyone likes at least one, percentage liking both —",o:["7%","8%","9%","10%"],a:3,s:"64 + 46 &minus; 100 = 10%.",src:"SIE"},
+ {t:"sets",q:"Group of 52: 16 eat beef but not pork and 33 eat beef. Pork only (all eat at least one) —",o:["7","17","9","19"],a:3,s:"Beef &amp; pork = 17; pork only = 52 &minus; 33 = 19.",src:"JAO"},
+
+ // ---- MENSURATION 2D ----
+ {t:"mens2",q:"Perimeter of a circle equals perimeter of a square. Ratio of their areas (&pi; = 22/7) —",o:["11:7","14:11","4:1","22:7"],a:1,s:"Circle:square = 4:&pi; = 28:22 = 14:11.",src:"AAO"},
+ {t:"mens2",q:"A wire bent into a square encloses 121 cm&sup2;. Bent into a circle its radius is —",o:["5 cm","7 cm","9 cm","11 cm"],a:1,s:"Side 11, perimeter 44 = 2&pi;r &rArr; r = 7.",src:"AAO"},
+ {t:"mens2",q:"Area of a square equals a rectangle whose length is 8 cm more than the side and breadth 6 cm less. Rectangle perimeter —",o:["120 cm","80 cm","100 cm","140 cm"],a:2,s:"(s+8)(s&minus;6) = s&sup2; &rArr; s = 24; rect 32&times;18 &rArr; perimeter 100.",src:"AAO"},
+ {t:"mens2",q:"Area of a sector of a circle, radius 21 cm, central angle 120&deg; —",o:["430 cm&sup2;","445 cm&sup2;","452 cm&sup2;","462 cm&sup2;"],a:3,s:"(120/360) &times; (22/7) &times; 441 = 462.",src:"ASI"},
+ {t:"mens2",q:"Area of an equilateral triangle is 81&radic;3 cm&sup2;. Its perimeter —",o:["27 cm","36 cm","45 cm","54 cm"],a:3,s:"(&radic;3/4)a&sup2; = 81&radic;3 &rArr; a = 18 &rArr; perimeter 54.",src:"ASI"},
+ {t:"mens2",q:"Area of a trapezium is 480 m&sup2;; distance between parallel sides 15 m, one side 20 m. The other —",o:["40 m","35 m","44 m","50 m"],a:2,s:"480 = &frac12;(20 + b)(15) &rArr; b = 44.",src:"GRB"},
+ {t:"mens2",q:"Circumferences of two circles are 198 cm and 352 cm. Difference of their radii —",o:["16.5 cm","45 cm","49.5 cm","24.5 cm"],a:3,s:"r = C &times; 7/44 &rArr; 31.5 and 56 &rArr; diff 24.5.",src:"GRB"},
+ {t:"mens2",q:"Radii of two circles are 15 cm and 18 cm. Radius of a third circle whose circumference equals their sum —",o:["30 cm","20 cm","33 cm","22 cm"],a:2,s:"r&#8323; = 15 + 18 = 33.",src:"JAO"},
+ {t:"mens2",q:"Rectangle length is 5 more than twice its width; area 75. Its perimeter —",o:["24","30","40","50"],a:2,s:"w(2w+5) = 75 &rArr; w = 5, length 15 &rArr; perimeter 40.",src:"JAO"},
+ {t:"mens2",q:"Rectangle area is 1.8 times a square's; length 5 times the breadth; square side 20 cm. Rectangle perimeter —",o:["145 cm","135 cm","133 cm","144 cm"],a:3,s:"Rect area 720; 5B&sup2; = 720 &rArr; B = 12, L = 60 &rArr; perimeter 144.",src:"SIE"},
+
+ // ---- MENSURATION 3D ----
+ {t:"mens3",q:"Longest pole that fits in a room 12 m &times; 9 m &times; 8 m —",o:["29 m","21 m","19 m","17 m"],a:3,s:"&radic;(144 + 81 + 64) = &radic;289 = 17.",src:"AAO"},
+ {t:"mens3",q:"Volume of a cube is 2744 cm&sup3;. Its surface area —",o:["1176 cm&sup2;","784 cm&sup2;","588 cm&sup2;","196 cm&sup2;"],a:0,s:"Side = 14 &rArr; 6 &times; 196 = 1176.",src:"AAO"},
+ {t:"mens3",q:"Bricks 25&times;11.25&times;6 cm build a wall 8 m &times; 6 m &times; 22.5 cm with 1/10 of volume as mortar. Bricks needed —",o:["8000","6400","5760","5600"],a:2,s:"Wall 10.8 million cm&sup3;; usable 9/10; brick 1687.5 &rArr; 5760.",src:"AAO"},
+ {t:"mens3",q:"Spheres of radii 3, 4 and 5 cm melt into one sphere. Its radius —",o:["6 cm","12 cm","18 cm","24 cm"],a:0,s:"r&sup3; = 27 + 64 + 125 = 216 &rArr; r = 6.",src:"AAO"},
+ {t:"mens3",q:"A water tank 5 m long, 3 m broad, 1 m deep holds how many litres —",o:["729","810","16000","15000"],a:3,s:"5 &times; 3 &times; 1 = 15 m&sup3; = 15000 litres.",src:"AAO"},
+ {t:"mens3",q:"Volume of a room is 378 m&sup3;, height 4.5 m. Floor area —",o:["75 m&sup2;","78 m&sup2;","80 m&sup2;","84 m&sup2;"],a:3,s:"378 / 4.5 = 84.",src:"ASI"},
+ {t:"mens3",q:"A cone of radius 5 cm and height 21 cm has volume —",o:["450 cm&sup3;","500 cm&sup3;","550 cm&sup3;","600 cm&sup3;"],a:2,s:"&#8531; &times; (22/7) &times; 25 &times; 21 = 550.",src:"ASI"},
+ {t:"mens3",q:"A cylinder of base diameter 4 cm and height 14 cm has volume —",o:["196 cm&sup3;","176 cm&sup3;","276 cm&sup3;","352 cm&sup3;"],a:1,s:"(22/7) &times; 2&sup2; &times; 14 = 176.",src:"GRB"},
+ {t:"mens3",q:"Volume of a solid cube is 512 cm&sup3;. Length of its edge —",o:["8 cm","7 cm","6 cm","4 cm"],a:0,s:"cube-root(512) = 8.",src:"JAO"},
+ {t:"mens3",q:"Volume of the largest sphere carved from a cube of edge 3 cm —",o:["4.5&pi; cm&sup3;","3.2&pi; cm&sup3;","5&pi; cm&sup3;","5.4&pi; cm&sup3;"],a:0,s:"r = 1.5 &rArr; (4/3)&pi;(1.5)&sup3; = 4.5&pi;.",src:"JAO"},
+
+ // ---- TRIGONOMETRY ----
+ {t:"trig",q:"A kite flies on a 100 m thread inclined 30&deg; to the ground. Its height —",o:["100 m","80 m","60 m","50 m"],a:3,s:"100 &times; sin30&deg; = 50.",src:"AAO"},
+ {t:"trig",q:"tan23&deg; &middot; tan33&deg; &middot; tan45&deg; &middot; tan57&deg; &middot; tan67&deg; —",o:["1/&radic;3","&radic;3","1","2"],a:2,s:"tan23&middot;tan67 = 1, tan33&middot;tan57 = 1, tan45 = 1 &rArr; 1.",src:"AAO"},
+ {t:"trig",q:"9 tan&sup2;A &minus; 9 sec&sup2;A —",o:["0","1","9","&minus;9"],a:3,s:"9(tan&sup2;A &minus; sec&sup2;A) = 9(&minus;1) = &minus;9.",src:"AAO"},
+ {t:"trig",q:"A 20 m ladder makes 30&deg; with the ground. Height of the wall it reaches —",o:["10 m","20 m","30 m","40 m"],a:0,s:"20 &times; sin30&deg; = 10.",src:"STN"},
+ {t:"trig",q:"If a tower's height equals its shadow, the angle of elevation —",o:["30&deg;","45&deg;","60&deg;","90&deg;"],a:1,s:"tan&theta; = 1 &rArr; 45&deg;.",src:"ASI"},
+ {t:"trig",q:"From a point 15 m from a tower's foot the top has elevation 60&deg;. Height of tower —",o:["5&radic;3","10&radic;3","12&radic;3","15&radic;3"],a:3,s:"15 &times; tan60&deg; = 15&radic;3.",src:"ASI"},
+ {t:"trig",q:"Elevation of a tower's top is 30&deg;; from 20 m nearer it becomes 45&deg;. Height of tower —",o:["20(&radic;3+1) m","20(&radic;3&minus;1) m","10(&radic;3&minus;1) m","10(&radic;3+1) m"],a:3,s:"h(&radic;3 &minus; 1) = 20 &rArr; h = 10(&radic;3 + 1).",src:"SIF"},
+ {t:"trig",q:"A tower's shadow is 50 m longer at 30&deg; elevation than at 60&deg;. Height of tower —",o:["25 m","25&radic;3 m","25/&radic;3 m","25&radic;2 m"],a:1,s:"h&radic;3 &minus; h/&radic;3 = 50 &rArr; 2h/&radic;3 = 50 &rArr; h = 25&radic;3.",src:"LDC"},
+
+ // ---- MIXTURES ----
+ {t:"mix",q:"In 45 L mixture alcohol:water = 4:1. After adding 15 L water the new ratio —",o:["4:3","5:3","3:2","6:5"],a:2,s:"36:9 &rarr; +15 water &rarr; 36:24 = 3:2.",src:"ASI"},
+ {t:"mix",q:"In 20 L mixture milk:water = 3:2. After adding 2 L water the new ratio —",o:["3:4","4:5","5:6","6:5"],a:3,s:"12:8 &rarr; 12:10 = 6:5.",src:"JAO"},
+ {t:"mix",q:"In 60 L mixture milk:water = 2:1. Water to add to make it 1:1 —",o:["10 L","15 L","20 L","25 L"],a:2,s:"Milk 40, water 20; need water 40 &rArr; add 20.",src:"STN"},
+
+ // ---- PARTNERSHIP ----
+ {t:"part",q:"A, B, C do work in 4, 6 and 8 days; together they earn &#8377;3900. C's share —",o:["&#8377;750","&#8377;900","&#8377;1250","&#8377;1800"],a:1,s:"Efficiency 6:4:3 &rArr; C = 3/13 &times; 3900 = 900.",src:"SIF"},
+ {t:"part",q:"A and B start a business; B invests half of A and C four times of B. Ratio A:B:C —",o:["1:2:4","1:4:2","2:4:1","2:1:4"],a:3,s:"A = 2, B = 1, C = 4 &rArr; 2:1:4.",src:"JAO"},
+ {t:"part",q:"A invests &#8377;4000 and B &#8377;6000; profit &#8377;3000 shared in ratio of investments. B's share —",o:["&#8377;1800","&#8377;1500","&#8377;1200","&#8377;2000"],a:0,s:"4000:6000 = 2:3 &rArr; B = 3/5 &times; 3000 = 1800.",src:"STN"},
+ {t:"part",q:"A does work in 6 days, B in 8 days; they take &#8377;3200 for the job. With C they finish in 3 days. C's pay —",o:["&#8377;375","&#8377;400","&#8377;600","&#8377;800"],a:1,s:"A+B do 7/8 in 3 days; C does 1/8 &rArr; &#8377;400.",src:"LDC"},
+
+ // ---- DATA INTERPRETATION ----
+ {t:"di",q:"Pie chart of family expenses: Rent 36&deg; = &#8377;1600. Total expenditure —",o:["&#8377;14000","&#8377;15000","&#8377;16000","&#8377;17000"],a:2,s:"1600 &times; 360/36 = 16000.",src:"AAO"},
+ {t:"di",q:"Same pie chart: Education = 108&deg;. Amount spent on education —",o:["&#8377;3600","&#8377;6000","&#8377;5400","&#8377;4800"],a:3,s:"16000 &times; 108/360 = 4800.",src:"AAO"},
+ {t:"di",q:"Same pie chart: Food 135&deg;, Rent &#8377;1600. Difference between Food and Rent —",o:["&#8377;4400","&#8377;3200","&#8377;2400","&#8377;1200"],a:0,s:"Food = 6000; 6000 &minus; 1600 = 4400.",src:"AAO"},
+ {t:"di",q:"Pie chart of marks: Hindi 70&deg; = 105 marks. Total marks —",o:["360","480","540","600"],a:2,s:"105 &times; 360/70 = 540.",src:"ASI"},
+ {t:"di",q:"Pie chart of travel modes (Walking 60&deg;). If 180 students walk, total students —",o:["1800","1200","1080","1020"],a:2,s:"180 &times; 360/60 = 1080.",src:"UDC"},
+ {t:"di",q:"Line graph of profit % 1995 to 2000: 40, 55, 45, 65, 70, 60. Average profit —",o:["55%","55.83%","50.97%","56.33%"],a:1,s:"335/6 = 55.83%.",src:"UDC"},
+ {t:"di",q:"Bar graph production: 56, 51, 53, 65, 76, 58, 68, 73. Year of maximum rise over previous —",o:["2017","2020","2016","2019"],a:2,s:"2016: 65 &minus; 53 = 12 (largest rise).",src:"UDC"},
+ {t:"di",q:"Bar graph of expenses: R&amp;D = 5% of total. Total expenditure is how many times R&amp;D —",o:["25","20","15","10"],a:1,s:"100 / 5 = 20.",src:"LDC"},
+ {t:"di",q:"Line graph food-grain: 1993 = 110, 1994 = 100. Percentage decrease 1993 to 1994 —",o:["16.09%","13.09%","9.09%","7.09%"],a:2,s:"(110 &minus; 100)/110 &times; 100 = 9.09%.",src:"SIF"},
+ {t:"di",q:"Pie of donations: Middle 30% = &#8377;6750. Secondary (27%) + Sr. Secondary (25%) together —",o:["&#8377;12825","&#8377;11700","&#8377;10500","&#8377;9870"],a:1,s:"Total 22500; 52% = 11700.",src:"JAO"},
+ {t:"di",q:"Bar graph (in thousands): appearing Asst 65, UDC 40, LDC 30, JE 20, SI 60. Average appearing for all five —",o:["42000","45000","43000","40000"],a:2,s:"(65+40+30+20+60)/5 = 43 &rArr; 43000.",src:"SIF"},
+
+ // ---- STATISTICS ----
+ {t:"stat",q:"Frequency distribution, N = 50, cumulative reaches 26 in class 30 to 40. Median class —",o:["40 to 50","30 to 40","50 to 60","10 to 20"],a:1,s:"N/2 = 25; the class where cumulative passes 25 is 30 to 40.",src:"AAO"},
+ {t:"stat",q:"Median and mode of 17, 2, 7, 27, 25, 5, 14, 18, 10, 24, 48, 10, 8, 7, 10, 28 —",o:["12 and 10","14 and 10","18 and 10","10 and 10"],a:0,s:"Mode 10 (thrice); sorted 8th and 9th are 10 and 14 &rArr; median 12.",src:"SIE"},
+
+ // ---- COORDINATE ----
+ {t:"coord",q:"Distance between P(&minus;4, 7) and Q(2, &minus;5) —",o:["5&radic;3 units","7&radic;2 units","6&radic;5 units","4&radic;7 units"],a:2,s:"&radic;(6&sup2; + 12&sup2;) = &radic;180 = 6&radic;5.",src:"ASI"},
+
+ // ---- PnC ----
+ {t:"pnc",q:"Number of ways to arrange 5 different books on a shelf —",o:["100","125","25","120"],a:3,s:"5! = 120.",src:"GRB"},
+ {t:"pnc",q:"A committee of 4 men and 2 women from 6 men and 5 women —",o:["160","150","125","100"],a:1,s:"C(6,4) &times; C(5,2) = 15 &times; 10 = 150.",src:"GRB"},
+ {t:"pnc",q:"Words (with or without meaning) using 3 letters from DELHI —",o:["100","125","25","60"],a:3,s:"5P3 = 5 &times; 4 &times; 3 = 60.",src:"LDC"},
+ {t:"pnc",q:"Ways to select a team of 4 from 15 students —",o:["34880","32760","1365","132"],a:2,s:"C(15,4) = 1365.",src:"LDC"},
+
+ // ---- CODING ----
+ {t:"code",q:"If COMPUTER is RFUVQNPC, how is MEDICINE written?",o:["MFEDJJOE","EOJDEJFM","MFEJDJOE","EOJDJEFM"],a:3,s:"Reverse the word, keep first &amp; last, shift the middle by +1 &rArr; EOJDJEFM.",src:"GRB"},
+ {t:"code",q:"If 134 = good and tasty, 478 = see good pictures, 729 = pictures are faint, which digit is see?",o:["9","2","1","8"],a:3,s:"good = 4, pictures = 7, so see = 8.",src:"GRB"},
+ {t:"code",q:"ROSE = 6821, CHAIR = 73456, PREACH = 961473. Code for SEARCH —",o:["246173","214673","214763","216473"],a:1,s:"S=2,E=1,A=4,R=6,C=7,H=3 &rArr; 214673.",src:"GRB"},
+ {t:"code",q:"If MIZORAM is coded 6 and COMPETITIVE is 10, the code for SUCCESSFUL —",o:["11","10","9","8"],a:2,s:"Code = (letters &minus; 1). SUCCESSFUL has 10 letters &rArr; 9.",src:"JAO"},
+ {t:"code",q:"TRUMP = 46321, GRAIN = 76598. Code for GRUNT —",o:["23684","23847","67834","76384"],a:3,s:"G=7,R=6,U=3,N=8,T=4 &rArr; 76384.",src:"STN"},
+ {t:"code",q:"If SPARK is coded TQBSL, the code for FLAME —",o:["GMBNF","GNBNF","GMCND","GMBMF"],a:0,s:"Each letter +1 &rArr; GMBNF.",src:"SIE"},
+ {t:"code",q:"If HELMET is written IFMNFU, CHOCOLATE is —",o:["DIDPMPBUF","EIDPMPBUF","DIPDPMBFU","DIPDPMBUF"],a:3,s:"Each letter +1 &rArr; DIPDPMBUF.",src:"SIE"},
+ {t:"code",q:"If M=13, O=15, U=21, S=19, E=5, the sum of letters in MOUSE —",o:["75","72","73","70"],a:2,s:"13 + 15 + 21 + 19 + 5 = 73.",src:"SIE"},
+
+ // ---- SERIES ----
+ {t:"series",q:"4, 18, ?, 100, 180, 294, 448 — find the missing term.",o:["48","50","58","60"],a:0,s:"Differences 14,30,52,80,114,154 have constant 2nd difference 6 &rArr; 18 + 30 = 48.",src:"GRB"},
+ {t:"series",q:"Find the wrong number: 1, 2, 6, 15, 31, 56, 91",o:["31","15","56","91"],a:3,s:"Differences should be squares 1,4,9,16,25,36; last is 35 &rArr; 91 should be 92.",src:"GRB"},
+ {t:"series",q:"58, 52, 46, 40, 34, &hellip; What comes next?",o:["26","28","30","32"],a:1,s:"Subtract 6 &rArr; 28.",src:"STN"},
+ {t:"series",q:"544, 509, 474, 439, &hellip; What comes next?",o:["404","414","420","445"],a:0,s:"Subtract 35 &rArr; 404.",src:"STN"},
+ {t:"series",q:"201, 202, 204, 207, &hellip; What comes next?",o:["205","208","210","211"],a:3,s:"Add 1, 2, 3, 4 &rArr; 211.",src:"STN"},
+ {t:"series",q:"4, 16, 64, 256, &hellip;, 4096 — the missing term —",o:["512","2048","4096","1024"],a:3,s:"Geometric &times;4 &rArr; 256 &times; 4 = 1024.",src:"STN"},
+ {t:"series",q:"ELFA, GLHA, ILJA, ____, MLNA — fill the blank.",o:["OLPA","KLMA","LLMA","KLLA"],a:3,s:"1st letters +2 (E,G,I,K,M); 3rd letters +2 (F,H,J,L,N); 2nd L, 4th A fixed &rArr; KLLA.",src:"ASI"},
+ {t:"series",q:"CMM, EOO, GQQ, ____, KUU — fill the blank.",o:["GRR","GSS","ISS","ITT"],a:2,s:"1st letters +2 (C,E,G,I,K); doubled letter M,O,Q,S,U &rArr; ISS.",src:"ASI"},
+
+ // ---- ANALOGY ----
+ {t:"analogy",q:"Supervisor : Worker :: ?",o:["Junior : Senior","Elder : Younger","Debtor : Creditor","Officer : Clerk"],a:3,s:"A supervisor oversees a worker, as an officer oversees a clerk.",src:"ASI"},
+ {t:"analogy",q:"Major : Battalion :: Colonel : ?",o:["Company","Regiment","Army","Soldiers"],a:1,s:"A Major commands a Battalion; a Colonel commands a Regiment.",src:"ASI"},
+ {t:"analogy",q:"Sty : Pig :: Byre : ?",o:["Eagle","Cow","Tiger","Hen"],a:1,s:"A sty houses a pig; a byre houses a cow.",src:"JAO"},
+ {t:"analogy",q:"Country : President :: State : ?",o:["Chief Minister","Prime Minister","Speaker","Governor"],a:3,s:"A President heads a country; a Governor heads a state.",src:"JAO"},
+ {t:"analogy",q:"ACEG : DFHJ :: QSUW : ?",o:["TVXZ","RTVX","TUWY","SUWY"],a:0,s:"Each letter +3 &rArr; TVXZ.",src:"JAO"},
+ {t:"analogy",q:"CUP : LIP :: BIRD : ?",o:["BUSH","GRASS","FOREST","BEAK"],a:3,s:"You drink from a cup using your lip; a bird uses its beak.",src:"LDC"},
+ {t:"analogy",q:"Vertex : Pyramid :: ?",o:["Strand : Hair","Rung : Ladder","Summit : Mountain","Frame : Picture"],a:2,s:"A vertex is the apex of a pyramid; a summit is the top of a mountain.",src:"STN"},
+ {t:"analogy",q:"Court : Justice :: School : ?",o:["Teacher","Student","Ignorance","Education"],a:3,s:"A court delivers justice; a school delivers education.",src:"SIF"},
+ {t:"analogy",q:"Coherent : Consistent :: Irate : ?",o:["Angry","Unhappy","Unreasonable","Irritated"],a:0,s:"Coherent and consistent are synonyms; irate and angry are too.",src:"SIF"},
+
+ // ---- ODD ONE OUT ----
+ {t:"odd",q:"Find the odd group: JKL, GHI, MNO, ILT",o:["JKL","GHI","MNO","ILT"],a:3,s:"JKL, GHI, MNO are consecutive letters; ILT is not.",src:"ASI"},
+ {t:"odd",q:"Odd one out: Zoology, Botany, Philosophy, Physiology",o:["Zoology","Botany","Philosophy","Physiology"],a:2,s:"The others are branches of biology; philosophy is not.",src:"ASI"},
+ {t:"odd",q:"Odd one out: Rice, Wheat, Barley, Mustard",o:["Rice","Wheat","Barley","Mustard"],a:3,s:"Rice, wheat, barley are cereals; mustard is an oilseed.",src:"ASI"},
+ {t:"odd",q:"Odd number: 121, 324, 523, 729",o:["121","324","523","729"],a:2,s:"121, 324, 729 are perfect squares; 523 is not.",src:"ASI"},
+ {t:"odd",q:"Which does NOT belong: Parsley, Basil, Dill, Mayonnaise",o:["Parsley","Basil","Dill","Mayonnaise"],a:3,s:"The others are herbs; mayonnaise is a sauce.",src:"SIF"},
+ {t:"odd",q:"Odd one out: Pathology, Geology, Cardiology, Radiology",o:["Pathology","Geology","Cardiology","Radiology"],a:1,s:"The others are medical fields; geology is an earth science.",src:"JAO"},
+ {t:"odd",q:"Odd pair by letter-sum: LO, EV, PT, NM",o:["LO","EV","PT","NM"],a:2,s:"L+O = E+V = N+M = 27, but P+T = 36.",src:"SIF"},
+ {t:"odd",q:"Which is NOT a prime number: 47, 51, 41, 37",o:["47","51","41","37"],a:1,s:"51 = 3 &times; 17.",src:"JAO"},
+ {t:"odd",q:"Which is a prime number: 143, 119, 127, 161",o:["143","119","127","161"],a:2,s:"143 = 11&times;13, 119 = 7&times;17, 161 = 7&times;23; 127 is prime.",src:"SIE"},
+ {t:"odd",q:"Which one does NOT belong: Tooth, Chin, Nose, Ear",o:["Tooth","Chin","Nose","Ear"],a:0,s:"Chin, nose and ear are external features; a tooth is inside the mouth.",src:"GRB"},
+
+ // ---- BLOOD RELATIONS ----
+ {t:"blood",q:"A is C's son. C and Q are sisters. Z is Q's mother. P is the son of Z. How is P related to A?",o:["Brother","Maternal uncle","Uncle","Grandfather"],a:1,s:"Z is mother of C and Q; P (son of Z) is their brother &rArr; maternal uncle of A.",src:"SIE"},
+ {t:"blood",q:"Matthew points to a photo: 'Her father is the only son of my mother.' Who is in the photo?",o:["Matthew's niece","Matthew's daughter","Matthew's mother","Matthew's sister"],a:1,s:"The only son of Matthew's mother is Matthew himself &rArr; the photo is his daughter.",src:"SIE"},
+ {t:"blood",q:"Sarah says of a man: 'He is the husband of the granddaughter of my mother.' How is Sarah related to him?",o:["Grandmother","Sister-in-law","Mother-in-law","Mother"],a:2,s:"The granddaughter of Sarah's mother is Sarah's daughter &rArr; Sarah is his mother-in-law.",src:"SIF"},
+ {t:"blood",q:"In a family of seven, T is son of M and grandson of K; M is a widower; M and R are brothers; W is daughter-in-law of J, who is mother of R and grandmother of D. How is D related to M?",o:["Son","Son-in-law","Nephew or Niece","Brother"],a:2,s:"J is mother of M and R; D descends through R and W &rArr; D is M's nephew or niece.",src:"JAO"},
+
+ // ---- DIRECTION ----
+ {t:"dir",q:"A man walks 18 m south, turns left and walks 6 m, turns left and walks 10 m. Distance from start —",o:["2 m","6 m","8 m","10 m"],a:3,s:"Net 8 m south, 6 m east &rArr; &radic;(64 + 36) = 10.",src:"AAO"},
+ {t:"dir",q:"A boy walks 34 m north, turns right 24 m, then 27 m south. Distance from start —",o:["22 m","24 m","23 m","25 m"],a:3,s:"Net 7 m north, 24 m east &rArr; &radic;(49 + 576) = 25.",src:"SIE"},
+ {t:"dir",q:"Vivek goes 3 km north then turns right 4 km. Ashok goes 5 km west then turns right 3 km (same start). How far apart —",o:["10 km","9 km","8 km","6 km"],a:1,s:"Vivek at (4,3), Ashok at (&minus;5,3) &rArr; distance 9 km.",src:"STN"},
+ {t:"dir",q:"A is east of M; M is north of B; H is south of B. H lies in which direction of A?",o:["South-East","South-West","North-East","North-West"],a:1,s:"A = (1,0), H = (0,&minus;2) &rArr; H is south-west of A.",src:"STN"},
+ {t:"dir",q:"If South-East becomes North and North-East becomes West, what will West become?",o:["North-East","North-West","South-East","South-West"],a:2,s:"Anticlockwise 135&deg; rotation &rArr; West &rarr; South-East.",src:"GRB"},
+ {t:"dir",q:"One morning Udai and Vishal face each other; Vishal's shadow falls to Udai's left. Which way is Udai facing?",o:["East","West","North","South"],a:3,s:"Morning shadows point west; west is on Udai's left &rArr; he faces south.",src:"SIF"},
+ {t:"dir",q:"A man faces north, turns 90&deg; clockwise, then 180&deg; anticlockwise, then 90&deg; clockwise. Final direction —",o:["East","West","South","North"],a:3,s:"North &rarr; East &rarr; West &rarr; North.",src:"SIF"},
+
+ // ---- RANKING ----
+ {t:"rank",q:"John is 21st from the top and 30th from the bottom. Total students —",o:["48","49","50","51"],a:2,s:"21 + 30 &minus; 1 = 50.",src:"SIE"},
+ {t:"rank",q:"In a class of 40, John is 7th from the top. His rank from the bottom —",o:["33","34","35","36"],a:1,s:"40 &minus; 7 + 1 = 34.",src:"STN"},
+ {t:"rank",q:"In a row of 40, A is 15th from the left and B is 18th from the right. Students between them —",o:["6","7","8","9"],a:1,s:"B is 23rd from left &rArr; 23 &minus; 15 &minus; 1 = 7.",src:"STN"},
+ {t:"rank",q:"Rina is 9th from the top and 38th from the bottom. Total students —",o:["45","46","47","48"],a:1,s:"9 + 38 &minus; 1 = 46.",src:"STN"},
+ {t:"rank",q:"A (10th from left) and B (9th from right) swap places; A becomes 15th from left. Total boys —",o:["23","31","27","28"],a:0,s:"B was 15th from left; 15 + 9 &minus; 1 = 23.",src:"JAO"},
+ {t:"rank",q:"Class of 60, girls twice the boys. Laxmi is 27th from top with 9 boys ahead. Girls after her —",o:["23","21","22","24"],a:2,s:"Boys 20, girls 40; girls ahead 17; after = 40 &minus; 17 &minus; 1 = 22.",src:"JAO"},
+
+ // ---- CALENDAR ----
+ {t:"cal",q:"If the day before yesterday was Saturday, the day after tomorrow will be —",o:["Friday","Thursday","Wednesday","Tuesday"],a:2,s:"Today = Monday &rArr; day after tomorrow = Wednesday.",src:"ASI"},
+ {t:"cal",q:"Today is Monday. After 61 days it will be —",o:["Tuesday","Monday","Sunday","Saturday"],a:3,s:"61 mod 7 = 5 &rArr; Monday + 5 = Saturday.",src:"GRB"},
+ {t:"cal",q:"What was the day on 15 August 1947?",o:["Friday","Saturday","Sunday","Thursday"],a:0,s:"15 August 1947 was a Friday.",src:"GRB"},
+ {t:"cal",q:"The last day of a century cannot be —",o:["Monday","Wednesday","Tuesday","Friday"],a:2,s:"A century ends only on Friday, Wednesday, Monday or Sunday — never Tuesday.",src:"GRB"},
+ {t:"cal",q:"Which year will have the same calendar as 2023?",o:["2028","2030","2032","2034"],a:3,s:"2023 (ordinary year) repeats its calendar in 2034.",src:"SIF"},
+
+ // ---- CLOCK ----
+ {t:"clock",q:"A clock set right at 8 a.m. gains 10 minutes in 24 hours. When it shows 1 p.m. next day, true time is —",o:["48 min past 12","46 min past 12","45 min past 12","47 min past 12"],a:0,s:"Clock shows 29 h; true = 29 &times; 1440/1450 = 28 h 48 min after 8 a.m. &rArr; 12:48.",src:"UDC"},
+
+ // ---- DICE ----
+ {t:"dice",q:"A die numbered 1 to 6 has 1 adjacent to 2, 4 and 6. Which is necessarily true?",o:["2 is opposite 6","1 is adjacent to 3","3 is adjacent to 5","3 is opposite 5"],a:3,s:"Since 1 touches 2, 4, 6, the remaining faces 3 and 5 form the opposite pair.",src:"GRB"},
+ {t:"dice",q:"Three views of a die show faces (1,3,2), (5,6,4) and (1,5,3). Which face is opposite 6?",o:["3","1","5","4"],a:1,s:"Tracking adjacencies gives pairs 2 to 5, 3 to 4, 1 to 6 &rArr; 6 is opposite 1.",src:"SIF"},
+
+ // ---- MATH OPERATIONS ----
+ {t:"mathop",q:"If A=+, B=&minus;, C=&times;, D=&divide;, then 18 C 14 A 6 B 16 D 4 = ?",o:["254","238","188","258"],a:0,s:"18&times;14 + 6 &minus; 16&divide;4 = 252 + 6 &minus; 4 = 254.",src:"ASI"},
+ {t:"mathop",q:"If &times; means +, &divide; means &minus;, + means &times; and &minus; means &divide;, then 20 &times; 8 &divide; 8 &minus; 4 + 2 = ?",o:["80","25","24","5"],a:2,s:"20 + 8 &minus; 8&divide;4 &times; 2 = 20 + 8 &minus; 4 = 24.",src:"GRB"},
+ {t:"mathop",q:"Interchanging + with &divide; and the numbers 2 with 5, evaluate 8 + 4 &times; 5 &divide; 2 &minus; 3.",o:["2","4","6","8"],a:2,s:"Becomes 8 &divide; 4 &times; 2 + 5 &minus; 3 = 4 + 5 &minus; 3 = 6.",src:"JAO"},
+ {t:"mathop",q:"If Q=addition, J=multiplication, T=subtraction, K=division, then 30 K 2 Q 3 J 6 T 5 = ?",o:["18","28","31","6"],a:1,s:"30&divide;2 + 3&times;6 &minus; 5 = 15 + 18 &minus; 5 = 28.",src:"JAO"},
+ {t:"mathop",q:"If K=&times;, B=&divide;, T=&minus;, M=+, then 40 B 8 T 6 M 3 K 4 = ?",o:["19","11","&minus;31","23"],a:1,s:"40&divide;8 &minus; 6 + 3&times;4 = 5 &minus; 6 + 12 = 11.",src:"SIF"},
+ {t:"mathop",q:"Which interchange makes 6 &times; 4 + 2 = 16 correct?",o:["+ and &times;, 2 and 4","+ and &times;, 4 and 6","+ and &times;, 2 and 6","None of these"],a:1,s:"Swap &times; with + and 4 with 6: 4 + 6&times;2 = 16.",src:"JAO"},
+
+ // ---- SYLLOGISM ----
+ {t:"syll",q:"All men are dogs; all dogs are cats. Conclusions: I. All men are cats. II. All cats are men. Which follows?",o:["Only I follows","Only II follows","Neither follows","Both follow"],a:0,s:"Men inside dogs inside cats &rArr; all men are cats (I). II is not valid.",src:"JAO"},
+ {t:"syll",q:"P is oldest but not poorest. R is richest but not oldest. Q is older than S but not than P or R. P is richer than Q but not than S. Order by age, then richness —",o:["PQRS, RPSQ","PRQS, RSPQ","PRQS, RSQP","PRSQ, RSPQ"],a:1,s:"Age: P &gt; R &gt; Q &gt; S. Richness: R &gt; S &gt; P &gt; Q.",src:"ASI"},
+
+ // ---- SEQUENCE OF WORDS ----
+ {t:"seq",q:"Arrange in a meaningful order: 1.Key 2.Door 3.Lock 4.Room 5.Switch on",o:["1,3,2,4,5","1,2,3,5,4","4,2,1,5,3","5,1,2,4,3"],a:0,s:"Key &rarr; unlock the Lock &rarr; open the Door &rarr; enter the Room &rarr; Switch on.",src:"ASI"},
+ {t:"seq",q:"Arrange: 1.Word 2.Paragraph 3.Sentence 4.Letter 5.Phrase",o:["4,1,5,2,3","4,1,5,3,2","1,4,3,2,5","4,1,3,5,2"],a:1,s:"Letter &rarr; Word &rarr; Phrase &rarr; Sentence &rarr; Paragraph.",src:"ASI"},
+ {t:"seq",q:"Arrange the life stages: 1.Puberty 2.Adulthood 3.Childhood 4.Infancy 5.Senescence",o:["5,2,3,4,1","4,3,2,1,5","4,3,1,2,5","2,4,3,1,5"],a:2,s:"Infancy &rarr; Childhood &rarr; Puberty &rarr; Adulthood &rarr; Senescence.",src:"JAO"},
+ {t:"seq",q:"Arrange the metric prefixes (largest first): 1.Hecto 2.Centi 3.Deca 4.Kilo 5.Deci",o:["1,3,4,5,2","1,5,3,4,2","4,1,3,5,2","5,2,1,4,3"],a:2,s:"Kilo &gt; Hecto &gt; Deca &gt; Deci &gt; Centi.",src:"JAO"},
+
+ // ---- NON-VERBAL / MISC ----
+ {t:"nonverbal",q:"Find the eighth letter to the right of the tenth letter to the left of the last-but-one letter of the alphabet.",o:["X","W","I","H"],a:1,s:"Last-but-one = Y (25th); 10 left = O (15th); 8 right of O = W (23rd).",src:"GRB"},
+ {t:"nonverbal",q:"A tailor cuts each fabric roll into 10 pieces at 45 cuts per minute. Rolls cut in 24 minutes —",o:["32","54","108","120"],a:3,s:"10 pieces need 9 cuts; 45&times;24 = 1080 cuts &divide; 9 = 120 rolls.",src:"GRB"},
+ {t:"nonverbal",q:"Two A-to-B tickets and three A-to-C tickets cost &#8377;77; three A-to-B and two A-to-C cost &#8377;73. Fares for B and C —",o:["Rs.4, Rs.23","Rs.13, Rs.17","Rs.15, Rs.14","Rs.17, Rs.13"],a:1,s:"2b+3c = 77, 3b+2c = 73 &rArr; b = 13, c = 17.",src:"GRB"},
+ {t:"nonverbal",q:"In each figure the centre number is the HCF of the three around it: (12,18,30)&rarr;6, (16,24,40)&rarr;8, (45,18,27)&rarr;?",o:["18","12","9","6"],a:2,s:"HCF(45, 18, 27) = 9.",src:"SIE"},
+ {t:"nonverbal",q:"Choose the number pair that is different: 7:22, 12:37, 8:33, 15:46",o:["7:22","12:37","8:33","15:46"],a:2,s:"For the others second = 3&times;first + 1; for 8 that gives 25, not 33.",src:"GRB"},
+ {t:"nonverbal",q:"Matrix [72,24,6 / 96,16,12 / 108,?,18], where each row has col2 = 2 &times; col1 &divide; col3. Find ?",o:["12","16","18","20"],a:0,s:"2 &times; 108 &divide; 18 = 12.",src:"UDC"},
+ {t:"nonverbal",q:"The big number is half the product of the two small ones: (14,12)&rarr;84, (18,9)&rarr;81. For (?,11)&rarr;88, find ?",o:["12","16","18","20"],a:1,s:"? &times; 11 &divide; 2 = 88 &rArr; ? = 16.",src:"JAO"}
+];
+const FORMULAS = [
+ {title:"Numbers, HCF &amp; LCM",sub:"The foundation every other topic stands on",rows:[
+   {lab:"HCF &times; LCM",val:"= product of two numbers"},
+   {lab:"Perfect square",val:"every prime power even"},
+   {lab:"Perfect cube",val:"every prime power a multiple of 3"},
+   {lab:"Rationalise a+&radic;b",val:"&times; conjugate a&minus;&radic;b"},
+   {lab:"a&sup3; + b&sup3;",val:"(a+b)(a&sup2;&minus;ab+b&sup2;)"}]},
+ {title:"Percentage, Profit &amp; Loss",sub:"Always measured on the base value",rows:[
+   {lab:"x% of N",val:"xN / 100"},
+   {lab:"Profit %",val:"(SP&minus;CP)/CP &times; 100"},
+   {lab:"SP after discount",val:"MP &times; (1 &minus; d)"},
+   {lab:"Successive r&#8321;, r&#8322;",val:"(1+r&#8321;)(1+r&#8322;) &minus; 1"},
+   {lab:"Equal SP &plusmn;x%",val:"net loss = x&sup2;/100 %"}]},
+ {title:"Simple &amp; Compound Interest",sub:"Flat vs snowballing growth",rows:[
+   {lab:"SI",val:"P &middot; R &middot; T / 100"},
+   {lab:"Amount (CI)",val:"P(1 + R/100)&#8319;"},
+   {lab:"Half-yearly",val:"rate/2, periods &times; 2"},
+   {lab:"CI &minus; SI (2 yrs)",val:"P(R/100)&sup2;"},
+   {lab:"Sum doubles (SI)",val:"R &times; T = 100"}]},
+ {title:"Time, Work, Speed &amp; Distance",sub:"All one idea: rate per unit",rows:[
+   {lab:"One day's work",val:"1 / n"},
+   {lab:"Pipes net rate",val:"inflow &minus; outflow"},
+   {lab:"Speed",val:"distance / time"},
+   {lab:"km/h &rarr; m/s",val:"&times; 5/18"},
+   {lab:"Train + platform",val:"= total distance"}]},
+ {title:"Mensuration (2D &amp; 3D)",sub:"Area, perimeter, volume, diagonal",rows:[
+   {lab:"Circle",val:"A = &pi;r&sup2;, C = 2&pi;r"},
+   {lab:"Sector area",val:"(&theta;/360) &pi;r&sup2;"},
+   {lab:"Equilateral &#9651;",val:"(&radic;3/4) a&sup2;"},
+   {lab:"Cuboid diagonal",val:"&radic;(l&sup2;+b&sup2;+h&sup2;)"},
+   {lab:"Sphere / Cone",val:"4/3 &pi;r&sup3; ; &#8531; &pi;r&sup2;h"}]},
+ {title:"Trigonometry &amp; Coordinates",sub:"Heights, distances and the grid",rows:[
+   {lab:"tan 30, 45, 60",val:"1/&radic;3, 1, &radic;3"},
+   {lab:"Height",val:"base &times; tan&theta;"},
+   {lab:"Complementary angles",val:"h = &radic;(d&#8321; &middot; d&#8322;)"},
+   {lab:"sec&sup2;&theta; &minus; tan&sup2;&theta;",val:"= 1"},
+   {lab:"Distance formula",val:"&radic;((&Delta;x)&sup2; + (&Delta;y)&sup2;)"}]},
+ {title:"Averages, Statistics &amp; Sets",sub:"Totals, middles and overlaps",rows:[
+   {lab:"Average",val:"sum / n"},
+   {lab:"Mode (empirical)",val:"3&middot;Median &minus; 2&middot;Mean"},
+   {lab:"At least one",val:"A + B &minus; both"},
+   {lab:"Neither",val:"total &minus; (at least one)"},
+   {lab:"Probability",val:"favourable / total"}]},
+ {title:"Reasoning shortcuts",sub:"The handful that solve most items",rows:[
+   {lab:"Rank total",val:"top + bottom &minus; 1"},
+   {lab:"Days later",val:"n mod 7"},
+   {lab:"Century never ends",val:"Tue, Thu or Sat"},
+   {lab:"Dice opposite",val:"never co-appears in a view"},
+   {lab:"Position value",val:"A = 1 &hellip; Z = 26"}]}
+];
+
+const CHECKLIST = [
+ "Re-read the 8 reasoning shortcuts until the rank and calendar formulas are instant.",
+ "Memorise tan 30/45/60 and the &times;5/18 speed conversion cold.",
+ "Drill pipes, time-work and partnership together — they share one method.",
+ "Practise both pie-chart styles: angles (360&deg;) and direct counts.",
+ "Lock in the SI vs CI difference formula P(R/100)&sup2; for 2 years.",
+ "Run one full 25-question mock under the 25-minute clock.",
+ "Revise the squares up to 30&sup2; and cubes up to 15&sup3; for number questions.",
+ "Re-test every concept variant on the Concepts tab — aim for 40+ out of 42.",
+ "Re-attempt every question you got wrong in Practice, fresh.",
+ "Sleep early — speed comes from calm recognition, not last-minute cramming."
+];
+
+const RESOURCES = [
+ {kind:"Official",title:"MPSC Old Question Papers (2023&ndash;2025)",desc:"The official Mizoram PSC archive — the freshest UDC, LDC, Group-B and departmental Paper-II booklets, free to download.",url:"https://mpsc.mizoram.gov.in/page/old-question-2023-2024"},
+ {kind:"Official",title:"MPSC LDE Old Questions",desc:"Limited Departmental Examination papers (ASI to SI and more) from the official commission site.",url:"https://mpsc.mizoram.gov.in/page/lde-old-quesions"},
+ {kind:"Mizoram",title:"Testbook — MPSC UDC Previous Papers",desc:"Solved Mizoram PSC UDC papers with explanations and a clear Paper-II pattern breakdown.",url:"https://testbook.com/mizoram-psc-udc/previous-year-papers"},
+ {kind:"Mizoram",title:"Testbook — MPSC LDC Previous Papers",desc:"Downloadable LDC papers covering general knowledge, English and basic mathematics.",url:"https://testbook.com/mizoram-psc-ldc/previous-year-papers"},
+ {kind:"Mizoram",title:"Chase Academy — Group B Papers",desc:"A large index of Mizoram Group-B papers including the Audit &amp; Accounts Officer arithmetic set.",url:"https://chaseacademy.in/mpsc-mizoram-previous-year-question-papers-group-b/"},
+ {kind:"Mizoram",title:"Kamliana — Old Questions (2023 onward)",desc:"Mizoram department exam papers, including LDC Paper-II maths and arithmetic, collected for easy download.",url:"https://kamliana.in/old-questions-2023-onwards-5/"},
+ {kind:"Topic drill",title:"GeeksforGeeks — Quantitative Aptitude",desc:"Topic-by-topic theory and solved questions: numbers, percentage, time-work, pipes, mensuration and more.",url:"https://www.geeksforgeeks.org/quantitative-aptitude/"},
+ {kind:"Topic drill",title:"IndiaBix — Aptitude &amp; Reasoning",desc:"The classic free bank of MCQs with worked answers across every quantitative and logical-reasoning topic.",url:"https://www.indiabix.com/aptitude/questions-and-answers/"},
+ {kind:"Topic drill",title:"Sanfoundry — Quantitative Aptitude",desc:"Sets on profit-and-loss, ratio, pipes-and-cisterns, time-and-work, trains and partnership with solutions.",url:"https://www.sanfoundry.com/quantitative-aptitude-questions-answers/"},
+ {kind:"Topic drill",title:"Talent Battle — Pipes &amp; Cisterns",desc:"Fully solved pipe-and-cistern practice — one of the most repeated topics in these MPSC papers.",url:"https://talentbattle.in/practice-quantitative-aptitude-questions/pipe-and-cistern"}
+];
+/* ============================== LOGIC ============================== */
+const $ = (s, p) => (p||document).querySelector(s);
+const $$ = (s, p) => Array.from((p||document).querySelectorAll(s));
+const CBYID = {}; CONCEPTS.forEach(c => CBYID[c.id] = c);
+const LETTER = ["A","B","C","D"];
+
+/* ---- Navigation ---- */
+function go(view){
+  $$(".view").forEach(v => v.classList.toggle("active", v.id === "view-"+view));
+  $$("nav.tabs button").forEach(b => b.setAttribute("aria-current", b.dataset.go === view ? "true" : "false"));
+  $("#tabs").classList.remove("open");
+  window.scrollTo({top:0, behavior:"instant" in window ? "instant" : "auto"});
+}
+document.addEventListener("click", e => {
+  const t = e.target.closest("[data-go]");
+  if(t){ e.preventDefault(); go(t.dataset.go); }
+});
+$("#menuBtn").addEventListener("click", () => $("#tabs").classList.toggle("open"));
+
+/* ---- Home stats ---- */
+const nMath = CONCEPTS.filter(c => c.cat === "math").length;
+const nReas = CONCEPTS.filter(c => c.cat === "reas").length;
+$("#qcount").textContent = QUESTIONS.length;
+$("#s-math").textContent = nMath;
+$("#s-reas").textContent = nReas;
+$("#s-q").textContent = QUESTIONS.length;
+$("#s-var").textContent = CONCEPTS.length;
+
+/* ---- Concepts ---- */
+function countForTopic(id){ return QUESTIONS.filter(q => q.t === id).length; }
+
+function renderConcepts(){
+  const grid = $("#conceptGrid");
+  grid.innerHTML = CONCEPTS.map(c => {
+    const n = countForTopic(c.id);
+    const tag = c.cat === "math" ? '<span class="ctag math">Maths</span>' : '<span class="ctag reas">Reasoning</span>';
+    const fmls = c.formulas.map(f => `<div class="fml">${f}</div>`).join("");
+    const v = c.variant;
+    const vo = v.o.map((o,i) => `<button class="vopt" data-vi="${i}">${LETTER[i]}. ${o}</button>`).join("");
+    return `
+    <details class="concept" data-cid="${c.id}" data-cat="${c.cat}">
+      <summary>
+        ${tag}
+        <span>
+          <h3>${c.name}</h3>
+          <span class="meta">${n} past-paper question${n===1?"":"s"} &middot; tap to open</span>
+        </span>
+        <svg class="arr" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </summary>
+      <div class="cbody">
+        <div class="analogy">${c.analogy}</div>
+        <p>${c.explain}</p>
+        <h4>Key formulas</h4>
+        ${fmls}
+        <div class="variant" data-va="${v.a}">
+          <div class="vlab">Try it yourself</div>
+          <div class="vq">${v.q}</div>
+          <div class="vopts">${vo}</div>
+          <div class="vsol">${v.s}</div>
+        </div>
+        <div class="actions">
+          ${n>0 ? `<button class="mini" data-practice="${c.id}">Practise ${n} question${n===1?"":"s"} &rarr;</button>` : `<span class="meta" style="font-size:.82rem;color:var(--slate)">Try the practice question above — the exam items for this topic are figure-based and best done on paper.</span>`}
+        </div>
+      </div>
+    </details>`;
+  }).join("");
+
+  // variant interactivity
+  $$(".variant", grid).forEach(box => {
+    const correct = +box.dataset.va;
+    const sol = $(".vsol", box);
+    $$(".vopt", box).forEach(btn => {
+      btn.addEventListener("click", () => {
+        if(box.dataset.done) return;
+        box.dataset.done = "1";
+        const chosen = +btn.dataset.vi;
+        $$(".vopt", box).forEach((b,i) => {
+          if(i === correct) b.classList.add("right");
+          else if(i === chosen) b.classList.add("wrong");
+          b.disabled = true;
+        });
+        sol.classList.add("show");
+      });
+    });
+  });
+
+  // practice jump
+  $$("[data-practice]", grid).forEach(b => {
+    b.addEventListener("click", () => setPracticeTopic(b.dataset.practice));
+  });
+}
+
+$("#conceptFilter").addEventListener("click", e => {
+  const b = e.target.closest("[data-cf]"); if(!b) return;
+  const f = b.dataset.cf;
+  $$("#conceptFilter [data-cf]").forEach(x => x.setAttribute("aria-pressed", x === b ? "true":"false"));
+  $$("#conceptGrid .concept").forEach(c => {
+    c.style.display = (f === "all" || c.dataset.cat === f) ? "" : "none";
+  });
+});
+
+function openConcept(id){
+  go("concepts");
+  $$("#conceptFilter [data-cf]").forEach(x => x.setAttribute("aria-pressed", x.dataset.cf === "all" ? "true":"false"));
+  $$("#conceptGrid .concept").forEach(c => c.style.display = "");
+  const d = $(`.concept[data-cid="${id}"]`);
+  if(d){ d.open = true; setTimeout(() => d.scrollIntoView({behavior:"smooth", block:"start"}), 60); }
+}
+
+/* ---- Practice ---- */
+const answered = {};      // global index -> chosen option index
+let currentTopic = "all";
+let workingList = [];
+let pIndex = 0;
+
+const topicsPresent = [...new Set(QUESTIONS.map(q => q.t))];
+
+function rebuildWorkingList(){
+  workingList = QUESTIONS.map((q,i) => i).filter(i => currentTopic === "all" || QUESTIONS[i].t === currentTopic);
+}
+
+function renderTopicChips(){
+  const pick = $("#topicPick");
+  const chips = [`<button class="filt" data-topic="all" aria-pressed="true">All topics (${QUESTIONS.length})</button>`];
+  CONCEPTS.forEach(c => {
+    if(topicsPresent.includes(c.id)){
+      chips.push(`<button class="filt" data-topic="${c.id}" aria-pressed="false">${c.name} (${countForTopic(c.id)})</button>`);
+    }
+  });
+  pick.innerHTML = chips.join("");
+  pick.addEventListener("click", e => {
+    const b = e.target.closest("[data-topic]"); if(!b) return;
+    setPracticeTopic(b.dataset.topic, true);
+  });
+}
+
+function setPracticeTopic(topic, stay){
+  currentTopic = topic;
+  $$("#topicPick [data-topic]").forEach(x => x.setAttribute("aria-pressed", x.dataset.topic === topic ? "true":"false"));
+  rebuildWorkingList();
+  pIndex = 0;
+  renderPractice();
+  updateScore();
+  if(!stay) go("practice");
+}
+
+function updateScore(){
+  const keys = Object.keys(answered);
+  const attempt = keys.length;
+  const correct = keys.filter(i => answered[i] === QUESTIONS[i].a).length;
+  $("#pCorrect").textContent = correct;
+  $("#pAttempt").textContent = attempt;
+  $("#pAcc").textContent = attempt ? Math.round(correct/attempt*100) + "%" : "—";
+}
+
+function renderPractice(){
+  const area = $("#practiceArea");
+  if(!workingList.length){ area.innerHTML = "<p>No questions in this topic.</p>"; return; }
+  const gi = workingList[pIndex];
+  const q = QUESTIONS[gi];
+  const done = (gi in answered);
+  const chosen = answered[gi];
+  const cName = CBYID[q.t] ? CBYID[q.t].name : q.t;
+
+  const opts = q.o.map((o,i) => {
+    let cls = "opt";
+    if(done){
+      if(i === q.a) cls += " right";
+      else if(i === chosen) cls += " wrong";
+    }
+    return `<button class="${cls}" data-oi="${i}" ${done?"disabled":""}><span class="k">${LETTER[i]}</span><span>${o}</span></button>`;
+  }).join("");
+
+  const correctNow = done && chosen === q.a;
+  const sol = done ? `
+    <div class="sol show">
+      <div class="verdict ${correctNow?"ok":"no"}">${correctNow ? "Correct" : "Not quite — answer is "+LETTER[q.a]}</div>
+      <p>${q.s}</p>
+      <div class="lnk"><button class="mini" data-learn="${q.t}">Learn the concept: ${cName} &rarr;</button></div>
+    </div>` : "";
+
+  area.innerHTML = `
+    <div class="qcard">
+      <div class="qmeta">
+        <span class="qtopic">${cName}</span>
+        <span class="qsrc">${SRC[q.src] || q.src}</span>
+      </div>
+      <div class="qtext">${q.q}</div>
+      <div class="opts">${opts}</div>
+      ${sol}
+    </div>`;
+
+  if(!done){
+    $$(".opt", area).forEach(btn => {
+      btn.addEventListener("click", () => {
+        answered[gi] = +btn.dataset.oi;
+        updateScore();
+        renderPractice();
+      });
+    });
+  } else {
+    const lb = $("[data-learn]", area);
+    if(lb) lb.addEventListener("click", () => openConcept(lb.dataset.learn));
+  }
+  $("#pPos").textContent = `Question ${pIndex+1} of ${workingList.length}`;
+  $("#pPrev").disabled = pIndex === 0;
+  $("#pNext").disabled = pIndex === workingList.length - 1;
+}
+
+$("#pPrev").addEventListener("click", () => { if(pIndex>0){ pIndex--; renderPractice(); } });
+$("#pNext").addEventListener("click", () => { if(pIndex<workingList.length-1){ pIndex++; renderPractice(); } });
+$("#pReset").addEventListener("click", () => {
+  for(const k in answered) delete answered[k];
+  updateScore(); renderPractice();
+});
+
+/* ---- Mock test ---- */
+const MOCK_N = 25, MOCK_SECONDS = 25*60;
+let mock = null;
+
+function renderMockIntro(){
+  $("#mockStage").innerHTML = `
+    <div class="mock-intro">
+      <h3>25 questions &middot; 25 minutes</h3>
+      <p>A fresh mix of maths and reasoning drawn at random from the full bank. Answers stay hidden until you submit. Ready?</p>
+      <button class="btn primary" id="mockStart">Start the mock test</button>
+    </div>`;
+  $("#mockStart").addEventListener("click", startMock);
+}
+
+function shuffle(a){ for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
+
+function startMock(){
+  const idx = shuffle(QUESTIONS.map((q,i)=>i)).slice(0, MOCK_N);
+  mock = { idx, ans:{}, left:MOCK_SECONDS, timer:null, submitted:false };
+  renderMockRunning();
+  mock.timer = setInterval(() => {
+    mock.left--;
+    updateTimer();
+    if(mock.left <= 0) submitMock();
+  }, 1000);
+}
+
+function fmtTime(s){ const m=Math.floor(s/60), ss=s%60; return `${m}:${ss<10?"0":""}${ss}`; }
+function updateTimer(){
+  const t = $("#mockTimer"); if(!t) return;
+  t.textContent = "Time " + fmtTime(Math.max(0,mock.left));
+  t.classList.toggle("warn", mock.left <= 120);
+}
+
+function renderMockRunning(){
+  const cards = mock.idx.map((gi, n) => {
+    const q = QUESTIONS[gi];
+    const opts = q.o.map((o,i) =>
+      `<button class="opt" data-q="${n}" data-oi="${i}"><span class="k">${LETTER[i]}</span><span>${o}</span></button>`
+    ).join("");
+    return `
+      <div class="qcard" data-card="${n}">
+        <div class="qmeta"><span class="qtopic">Q${n+1}</span><span class="qsrc">${SRC[q.src]||q.src}</span></div>
+        <div class="qtext">${q.q}</div>
+        <div class="opts">${opts}</div>
+      </div>`;
+  }).join("");
+
+  $("#mockStage").innerHTML = `
+    <div class="mock-bar">
+      <span class="timer" id="mockTimer">Time ${fmtTime(mock.left)}</span>
+      <span class="qpos" id="mockCount">0 of ${MOCK_N} answered</span>
+    </div>
+    <div class="progress"><i id="mockProg"></i></div>
+    ${cards}
+    <div style="text-align:center;margin-top:8px">
+      <button class="btn primary" id="mockSubmit">Submit test</button>
+    </div>`;
+
+  $$("#mockStage .opt").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const qn = +btn.dataset.q, oi = +btn.dataset.oi;
+      mock.ans[qn] = oi;
+      const card = $(`[data-card="${qn}"]`);
+      $$(".opt", card).forEach(b => {
+        const sel = +b.dataset.oi === oi;
+        b.style.borderColor = sel ? "var(--hill)" : "";
+        b.style.background = sel ? "var(--mist)" : "";
+        b.style.fontWeight = sel ? "600" : "";
+      });
+      const a = Object.keys(mock.ans).length;
+      $("#mockCount").textContent = `${a} of ${MOCK_N} answered`;
+      $("#mockProg").style.width = (a/MOCK_N*100) + "%";
+    });
+  });
+  $("#mockSubmit").addEventListener("click", submitMock);
+  updateTimer();
+}
+
+function submitMock(){
+  if(mock.submitted) return;
+  mock.submitted = true;
+  clearInterval(mock.timer);
+  let correct = 0;
+  mock.idx.forEach((gi,n) => { if(mock.ans[n] === QUESTIONS[gi].a) correct++; });
+  const pct = Math.round(correct/MOCK_N*100);
+  let msg;
+  if(pct >= 80) msg = "Excellent — you are reading these like a book.";
+  else if(pct >= 60) msg = "Solid. Tighten the topics you missed and you are there.";
+  else if(pct >= 40) msg = "Good base. Revisit the weak concepts and run it again.";
+  else msg = "Early days — work through the concepts, then come back.";
+
+  const review = mock.idx.map((gi,n) => {
+    const q = QUESTIONS[gi];
+    const chosen = mock.ans[n];
+    const ok = chosen === q.a;
+    const cName = CBYID[q.t] ? CBYID[q.t].name : q.t;
+    const yourAns = (chosen===undefined) ? "Not answered" : `${LETTER[chosen]}. ${q.o[chosen]}`;
+    return `
+      <div class="review-q">
+        <div style="display:flex;justify-content:space-between;gap:10px;align-items:center;margin-bottom:6px">
+          <span class="qtopic">Q${n+1} &middot; ${cName}</span>
+          <span class="pill ${ok?"ok":"no"}">${ok?"Correct":"Wrong"}</span>
+        </div>
+        <div class="rt">${q.q}</div>
+        <div class="ans">Your answer: ${yourAns}</div>
+        <div class="ans"><b>Correct: ${LETTER[q.a]}. ${q.o[q.a]}</b></div>
+        <div class="ans" style="margin-top:6px">${q.s}</div>
+      </div>`;
+  }).join("");
+
+  $("#mockStage").innerHTML = `
+    <div class="result-big">
+      <div class="pct">${pct}%</div>
+      <div class="msg">${correct} of ${MOCK_N} correct. ${msg}</div>
+      <div style="margin-top:18px"><button class="btn primary" id="mockRetake">Take another mock</button></div>
+    </div>
+    <h3 style="margin:34px 0 14px;font-size:1.3rem">Full review</h3>
+    ${review}`;
+  $("#mockRetake").addEventListener("click", renderMockIntro);
+  window.scrollTo({top:0});
+}
+
+/* ---- Study guide ---- */
+function renderGuide(){
+  $("#formulaGrid").innerHTML = FORMULAS.map(c => `
+    <div class="gcard">
+      <h3>${c.title}</h3>
+      <div class="sub">${c.sub}</div>
+      <ul>${c.rows.map(r => `<li><span class="lab">${r.lab}</span><span class="val">${r.val}</span></li>`).join("")}</ul>
+    </div>`).join("");
+  $("#checklistRows").innerHTML = CHECKLIST.map((t,i) => `
+    <div class="clrow">
+      <input type="checkbox" id="ck${i}">
+      <label for="ck${i}">${t}</label>
+    </div>`).join("");
+}
+
+/* ---- Resources ---- */
+function renderResources(){
+  $("#resList").innerHTML = RESOURCES.map(r => `
+    <a class="res" href="${r.url}" target="_blank" rel="noopener noreferrer">
+      <div class="rh"><span class="rkind">${r.kind}</span></div>
+      <h4>${r.title}</h4>
+      <p>${r.desc}</p>
+      <div class="url">${r.url.replace("https://","")}</div>
+    </a>`).join("");
+}
+
+/* ---- Init ---- */
+renderConcepts();
+renderTopicChips();
+rebuildWorkingList();
+renderPractice();
+updateScore();
+renderGuide();
+renderResources();
+renderMockIntro();
+</script>
+</body>
+</html>

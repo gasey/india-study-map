@@ -1,0 +1,1360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Polity Codex — Indian Polity Exam Prep</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* ============ TOKENS ============ */
+:root{
+  --canvas:#e9e4d6;
+  --canvas-2:#e2dccb;
+  --card:#ffffff;
+  --ink:#15233d;
+  --ink-2:#25344f;
+  --ink-soft:#3a4763;
+  --muted:#5b6474;
+  --line:rgba(21,35,61,.13);
+  --line-soft:rgba(21,35,61,.08);
+  --gold:#b0812a;
+  --gold-2:#966c1f;
+  --gold-soft:#f0e4c4;
+  --gold-line:rgba(176,129,42,.35);
+  --green:#2f7d57;
+  --green-soft:#e2f0e7;
+  --red:#b23a2e;
+  --red-soft:#f6e3df;
+  --radius:14px;
+  --radius-sm:9px;
+  --shadow:0 1px 2px rgba(21,35,61,.06),0 8px 26px -14px rgba(21,35,61,.28);
+  --shadow-lg:0 20px 60px -24px rgba(21,35,61,.5);
+  --maxw:1180px;
+  --f-disp:"Fraunces",Georgia,serif;
+  --f-body:"Inter",system-ui,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,monospace;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;font-family:var(--f-body);color:var(--ink);
+  background:var(--canvas);
+  background-image:radial-gradient(circle at 12% -5%,rgba(176,129,42,.06),transparent 42%),
+                   radial-gradient(circle at 100% 0%,rgba(21,35,61,.05),transparent 40%);
+  -webkit-font-smoothing:antialiased;line-height:1.55;
+}
+h1,h2,h3,h4{font-family:var(--f-disp);font-weight:600;line-height:1.15;margin:0}
+button{font-family:inherit;cursor:pointer}
+a{color:inherit}
+::selection{background:var(--gold-soft)}
+
+/* ============ ARTICLE TAG (signature) ============ */
+.tag{
+  font-family:var(--f-mono);font-size:10.5px;font-weight:600;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--gold-2);
+  background:var(--gold-soft);border:1px solid var(--gold-line);
+  padding:2px 7px;border-radius:5px;white-space:nowrap;display:inline-block;
+}
+.tag.ink{color:#c9d3e6;background:rgba(255,255,255,.09);border-color:rgba(255,255,255,.16)}
+.tag.plain{color:var(--muted);background:rgba(21,35,61,.05);border-color:var(--line)}
+
+/* ============ TOP BAR ============ */
+.topbar{
+  position:sticky;top:0;z-index:60;background:var(--ink);color:#fff;
+  border-bottom:1px solid rgba(255,255,255,.08);
+}
+.topbar-inner{max-width:var(--maxw);margin:0 auto;padding:13px 20px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:12px;min-width:0}
+.seal{
+  width:38px;height:38px;flex:none;border-radius:9px;position:relative;
+  background:linear-gradient(150deg,#1d3153,#101d33);border:1px solid var(--gold-line);
+  display:grid;place-items:center;
+}
+.seal svg{width:22px;height:22px}
+.brand-txt{display:flex;flex-direction:column;line-height:1.05;min-width:0}
+.brand-txt .wm{font-family:var(--f-disp);font-weight:600;font-size:19px;letter-spacing:.01em}
+.brand-txt .wm b{color:var(--gold-soft);font-weight:600}
+.brand-txt .sub{font-family:var(--f-mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#9fb0cc;margin-top:2px}
+.topstats{margin-left:auto;display:flex;gap:8px;flex-wrap:wrap}
+.topstat{font-family:var(--f-mono);font-size:11px;color:#c7d2e6;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);padding:5px 9px;border-radius:6px}
+.topstat b{color:var(--gold-soft);font-weight:600}
+
+/* ============ TABS ============ */
+.tabrail{position:sticky;top:65px;z-index:55;background:var(--canvas);border-bottom:1px solid var(--line);}
+.tabrail-inner{max-width:var(--maxw);margin:0 auto;padding:0 12px;display:flex;gap:2px;overflow-x:auto}
+.tab{
+  appearance:none;background:none;border:none;padding:14px 16px 12px;color:var(--muted);
+  font-size:14px;font-weight:600;position:relative;white-space:nowrap;display:flex;align-items:center;gap:8px;
+}
+.tab .ti{width:17px;height:17px;opacity:.7}
+.tab:hover{color:var(--ink)}
+.tab.active{color:var(--ink)}
+.tab.active::after{content:"";position:absolute;left:12px;right:12px;bottom:-1px;height:3px;background:var(--gold);border-radius:3px 3px 0 0}
+.tab .cnt{font-family:var(--f-mono);font-size:10px;color:var(--muted);background:rgba(21,35,61,.06);padding:1px 5px;border-radius:20px}
+.tab.active .cnt{color:var(--gold-2);background:var(--gold-soft)}
+
+/* ============ LAYOUT ============ */
+.wrap{max-width:var(--maxw);margin:0 auto;padding:22px 20px 90px}
+.view{display:none;animation:fade .35s ease}
+.view.active{display:block}
+@keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+
+/* section heading block */
+.vhead{margin-bottom:18px}
+.vhead .eyebrow{font-family:var(--f-mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-2);margin-bottom:7px}
+.vhead h2{font-size:clamp(24px,3.4vw,34px);letter-spacing:-.01em}
+.vhead p{color:var(--muted);margin:8px 0 0;max-width:66ch;font-size:14.5px}
+
+/* ============ FILTER BAR ============ */
+.filterbar{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:13px 14px;box-shadow:var(--shadow);margin-bottom:18px;display:flex;flex-direction:column;gap:11px}
+.frow{display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+.frow .flabel{font-family:var(--f-mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-right:2px}
+.chip{
+  appearance:none;border:1px solid var(--line);background:#fff;color:var(--ink-soft);
+  font-size:12.5px;font-weight:500;padding:6px 11px;border-radius:20px;transition:.15s;line-height:1.2;
+}
+.chip:hover{border-color:var(--gold-line);color:var(--ink)}
+.chip.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.chip.diff.on{background:var(--gold);border-color:var(--gold);color:#fff}
+.chip .tg{font-family:var(--f-mono);font-size:9px;opacity:.65;margin-left:5px}
+.chipscroll{display:flex;gap:7px;flex-wrap:wrap}
+
+/* ============ STUDY ============ */
+.study-grid{display:grid;grid-template-columns:250px 1fr;gap:24px;align-items:start}
+.study-index{position:sticky;top:120px;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:8px;box-shadow:var(--shadow);max-height:calc(100vh - 150px);overflow:auto}
+.study-index .ihead{font-family:var(--f-mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);padding:8px 10px 6px}
+.idx-item{display:flex;align-items:center;justify-content:space-between;gap:8px;width:100%;text-align:left;border:none;background:none;padding:8px 10px;border-radius:8px;color:var(--ink-soft);font-size:13px;font-weight:500}
+.idx-item:hover{background:var(--canvas-2)}
+.idx-item.active{background:var(--ink);color:#fff}
+.idx-item.active .tag{background:rgba(255,255,255,.12);color:#e7d9b3;border-color:rgba(255,255,255,.18)}
+.idx-item span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+.study-search{position:relative;margin-bottom:16px}
+.study-search input{width:100%;padding:12px 14px 12px 40px;border:1px solid var(--line);border-radius:11px;background:var(--card);font-size:14px;color:var(--ink);box-shadow:var(--shadow)}
+.study-search input:focus{outline:none;border-color:var(--gold-line);box-shadow:0 0 0 3px var(--gold-soft)}
+.study-search svg{position:absolute;left:13px;top:50%;transform:translateY(-50%);width:17px;height:17px;color:var(--muted)}
+
+.sec{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);margin-bottom:16px;overflow:hidden;scroll-margin-top:130px}
+.sec.flash-hl{animation:secflash 1.6s ease}
+@keyframes secflash{0%,100%{box-shadow:var(--shadow)}18%{box-shadow:0 0 0 3px var(--gold),var(--shadow)}}
+.sec-head{display:flex;align-items:center;gap:12px;padding:16px 20px;border-bottom:1px solid var(--line-soft);background:linear-gradient(180deg,rgba(21,35,61,.02),transparent)}
+.sec-num{font-family:var(--f-mono);font-size:12px;font-weight:600;color:var(--gold-2)}
+.sec-head h3{font-size:20px;flex:1;min-width:0}
+.sec-body{padding:6px 20px 18px}
+.point{display:flex;gap:12px;padding:11px 0;border-bottom:1px solid var(--line-soft);font-size:14.5px;color:var(--ink-soft)}
+.point:last-child{border-bottom:none}
+.point .dot{flex:none;width:7px;height:7px;border-radius:50%;background:var(--gold);margin-top:8px}
+.point b,.point strong{color:var(--ink);font-weight:600}
+.point.hide{display:none}
+.no-res{padding:40px;text-align:center;color:var(--muted);font-size:14px}
+
+/* ============ PRACTICE / QUESTION CARD ============ */
+.qwrap{max-width:760px;margin:0 auto}
+.qmeta{display:flex;align-items:center;gap:10px;margin-bottom:12px;flex-wrap:wrap}
+.qprogress{font-family:var(--f-mono);font-size:12px;color:var(--muted)}
+.qprogress b{color:var(--ink)}
+.scorepill{margin-left:auto;font-family:var(--f-mono);font-size:12px;background:var(--card);border:1px solid var(--line);padding:5px 11px;border-radius:20px;color:var(--ink-soft)}
+.scorepill b{color:var(--green)}
+.dbadge{font-family:var(--f-mono);font-size:10px;font-weight:600;letter-spacing:.08em;padding:3px 8px;border-radius:5px;text-transform:uppercase}
+.d-E{background:var(--green-soft);color:#1f6b45}
+.d-M{background:var(--gold-soft);color:var(--gold-2)}
+.d-H{background:var(--red-soft);color:var(--red)}
+
+.qcard{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:26px 26px 22px}
+.qtext{font-family:var(--f-disp);font-size:21px;font-weight:500;line-height:1.4;letter-spacing:-.01em;margin-bottom:20px}
+.opts{display:flex;flex-direction:column;gap:10px}
+.opt{
+  display:flex;align-items:flex-start;gap:13px;width:100%;text-align:left;
+  border:1.5px solid var(--line);background:#fff;border-radius:11px;padding:14px 15px;font-size:14.5px;
+  color:var(--ink-soft);transition:.13s;position:relative;
+}
+.opt:hover:not(:disabled){border-color:var(--gold-line);background:#fffdf6}
+.opt:disabled{cursor:default}
+.opt .key{
+  flex:none;width:26px;height:26px;border-radius:7px;display:grid;place-items:center;
+  font-family:var(--f-mono);font-size:12px;font-weight:600;background:var(--canvas-2);color:var(--ink-soft);border:1px solid var(--line);
+}
+.opt.correct{border-color:var(--green);background:var(--green-soft);color:#1c5c3b}
+.opt.correct .key{background:var(--green);color:#fff;border-color:var(--green)}
+.opt.wrong{border-color:var(--red);background:var(--red-soft);color:#8f2a20}
+.opt.wrong .key{background:var(--red);color:#fff;border-color:var(--red)}
+.opt .rmark{margin-left:auto;font-weight:700;font-size:16px;flex:none}
+
+/* explanation */
+.explain{margin-top:18px;border-top:1px dashed var(--line);padding-top:16px;display:none}
+.explain.show{display:block;animation:fade .3s ease}
+.explain .elabel{font-family:var(--f-mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-2);margin-bottom:7px;display:flex;align-items:center;gap:6px}
+.explain p{margin:0 0 14px;font-size:14px;color:var(--ink-soft);line-height:1.6}
+.related{background:var(--canvas);border:1px solid var(--line);border-radius:11px;padding:13px 14px}
+.related .rhead{font-family:var(--f-mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:9px}
+.rel-links{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:2px}
+.rlink{
+  display:inline-flex;align-items:center;gap:6px;border:1px solid var(--gold-line);background:var(--gold-soft);
+  color:var(--gold-2);font-size:12px;font-weight:600;padding:6px 11px;border-radius:8px;transition:.14s;
+}
+.rlink:hover{background:var(--gold);color:#fff;border-color:var(--gold)}
+.rlink svg{width:12px;height:12px}
+.dig{margin-top:11px;font-size:13px;color:var(--muted);display:flex;gap:9px;line-height:1.55}
+.dig .di{flex:none;color:var(--gold);font-weight:700}
+.dig b{color:var(--ink-soft)}
+
+.qnav{display:flex;align-items:center;gap:10px;margin-top:20px}
+.btn{border:1px solid var(--line);background:#fff;color:var(--ink);font-size:13.5px;font-weight:600;padding:11px 18px;border-radius:10px;transition:.14s;display:inline-flex;align-items:center;gap:8px}
+.btn:hover:not(:disabled){border-color:var(--ink);background:var(--ink);color:#fff}
+.btn:disabled{opacity:.4;cursor:not-allowed}
+.btn.primary{background:var(--ink);color:#fff;border-color:var(--ink)}
+.btn.primary:hover:not(:disabled){background:#0e1a2e}
+.btn.gold{background:var(--gold);border-color:var(--gold);color:#fff}
+.btn.gold:hover:not(:disabled){background:var(--gold-2)}
+.btn.ghost:hover:not(:disabled){background:var(--canvas-2);color:var(--ink);border-color:var(--gold-line)}
+.btn svg{width:15px;height:15px}
+.qnav .spacer{flex:1}
+
+.empty{text-align:center;padding:60px 20px;color:var(--muted)}
+.empty svg{width:40px;height:40px;margin-bottom:14px;color:var(--line);opacity:1}
+
+/* ============ MOCK TEST ============ */
+.mock-config{max-width:640px;margin:0 auto}
+.cfg-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:24px;margin-bottom:18px}
+.cfg-row{margin-bottom:20px}
+.cfg-row:last-child{margin-bottom:0}
+.cfg-row .cl{font-family:var(--f-mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:10px}
+.seg{display:flex;gap:8px;flex-wrap:wrap}
+.timerbar{position:sticky;top:112px;z-index:40;background:var(--ink);color:#fff;border-radius:12px;padding:11px 16px;display:flex;align-items:center;gap:14px;margin-bottom:16px;box-shadow:var(--shadow)}
+.timerbar .clock{font-family:var(--f-mono);font-size:20px;font-weight:600;letter-spacing:.04em;color:var(--gold-soft)}
+.timerbar .clock.warn{color:#ffb4a8;animation:pulse 1s infinite}
+@keyframes pulse{50%{opacity:.5}}
+.timerbar .tinfo{font-size:12.5px;color:#c7d2e6}
+.timerbar .tinfo b{color:#fff}
+.timerbar .btn{margin-left:auto;padding:8px 14px;background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.2);color:#fff}
+.timerbar .btn:hover{background:var(--gold);border-color:var(--gold)}
+
+.palette{display:flex;flex-wrap:wrap;gap:7px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:13px;margin-bottom:16px;box-shadow:var(--shadow)}
+.pnum{width:34px;height:34px;border-radius:8px;border:1px solid var(--line);background:#fff;font-family:var(--f-mono);font-size:12px;font-weight:600;color:var(--muted);transition:.12s}
+.pnum:hover{border-color:var(--gold-line)}
+.pnum.answered{background:var(--ink);color:#fff;border-color:var(--ink)}
+.pnum.current{box-shadow:0 0 0 2px var(--gold);border-color:var(--gold);color:var(--gold-2)}
+.pnum.current.answered{color:#fff;background:var(--gold);border-color:var(--gold)}
+.plabel{font-family:var(--f-mono);font-size:10px;color:var(--muted);width:100%;letter-spacing:.1em;text-transform:uppercase;margin-bottom:2px}
+
+/* results */
+.result-hero{background:var(--ink);color:#fff;border-radius:var(--radius);padding:30px;text-align:center;margin-bottom:20px;box-shadow:var(--shadow-lg);position:relative;overflow:hidden}
+.result-hero::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 80% -10%,rgba(176,129,42,.25),transparent 55%)}
+.result-hero .rl{position:relative;font-family:var(--f-mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#9fb0cc;margin-bottom:10px}
+.ring{position:relative;width:150px;height:150px;margin:6px auto 12px}
+.ring svg{transform:rotate(-90deg)}
+.ring .pct{position:absolute;inset:0;display:grid;place-items:center;font-family:var(--f-disp);font-size:38px;font-weight:600;color:#fff}
+.ring .pct small{display:block;font-family:var(--f-mono);font-size:10px;letter-spacing:.1em;color:#9fb0cc;margin-top:2px;text-transform:uppercase}
+.result-hero h2{position:relative;font-size:26px;margin-bottom:6px}
+.result-hero .rsub{position:relative;color:#c7d2e6;font-size:14px}
+.rstats{position:relative;display:flex;justify-content:center;gap:26px;margin-top:20px;flex-wrap:wrap}
+.rstat{text-align:center}
+.rstat .n{font-family:var(--f-disp);font-size:26px;font-weight:600}
+.rstat .n.g{color:#7fd3a6}.rstat .n.r{color:#f2a99f}
+.rstat .l{font-family:var(--f-mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:#9fb0cc;margin-top:2px}
+
+.review-head{display:flex;align-items:center;gap:12px;margin:26px 0 14px}
+.review-head h3{font-size:20px}
+.rvfilter{margin-left:auto;display:flex;gap:6px}
+.rev-item{background:var(--card);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);padding:16px 18px;margin-bottom:12px}
+.rev-q{display:flex;gap:11px;margin-bottom:12px}
+.rev-q .qn{font-family:var(--f-mono);font-size:12px;font-weight:600;color:var(--gold-2);flex:none;margin-top:2px}
+.rev-q .qt{font-weight:600;font-size:15px;color:var(--ink)}
+.rev-opt{display:flex;align-items:center;gap:9px;padding:8px 11px;border-radius:8px;font-size:13.5px;color:var(--ink-soft);margin-bottom:5px;border:1px solid transparent}
+.rev-opt .rk{font-family:var(--f-mono);font-size:11px;font-weight:600;width:20px;flex:none}
+.rev-opt.ok{background:var(--green-soft);color:#1c5c3b;border-color:rgba(47,125,87,.25)}
+.rev-opt.no{background:var(--red-soft);color:#8f2a20;border-color:rgba(178,58,46,.25)}
+.rev-opt .mk{margin-left:auto;font-family:var(--f-mono);font-size:10.5px;font-weight:600;letter-spacing:.05em}
+.rev-ex{margin-top:10px;font-size:13px;color:var(--muted);line-height:1.55;border-top:1px dashed var(--line);padding-top:10px}
+.rev-ex b{color:var(--ink-soft)}
+.rev-rel{display:flex;gap:6px;flex-wrap:wrap;margin-top:9px}
+
+/* ============ FLASHCARDS ============ */
+.fc-stage{max-width:600px;margin:0 auto}
+.fc-meta{display:flex;align-items:center;gap:10px;margin-bottom:14px;flex-wrap:wrap}
+.fc-card{perspective:1600px;height:330px;margin-bottom:18px;cursor:pointer}
+.fc-inner{position:relative;width:100%;height:100%;transition:transform .55s cubic-bezier(.4,.1,.2,1);transform-style:preserve-3d}
+.fc-card.flipped .fc-inner{transform:rotateY(180deg)}
+.fc-face{position:absolute;inset:0;backface-visibility:hidden;border-radius:var(--radius);padding:30px;display:flex;flex-direction:column;box-shadow:var(--shadow-lg)}
+.fc-front{background:var(--card);border:1px solid var(--line)}
+.fc-back{background:var(--ink);color:#fff;border:1px solid var(--ink);transform:rotateY(180deg)}
+.fc-top{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.fc-face .side{font-family:var(--f-mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.fc-back .side{color:#9fb0cc}
+.fc-content{flex:1;display:flex;align-items:center;justify-content:center;text-align:center}
+.fc-front .q{font-family:var(--f-disp);font-size:23px;font-weight:500;line-height:1.35;color:var(--ink)}
+.fc-back .a{font-size:19px;font-weight:500;line-height:1.5;color:#fff}
+.fc-hint{text-align:center;font-family:var(--f-mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.fc-back .fc-hint{color:#8194b3}
+.fc-actions{display:flex;align-items:center;gap:10px}
+.fc-actions .btn{flex:1;justify-content:center}
+.btn.known:hover:not(:disabled){background:var(--green);border-color:var(--green);color:#fff}
+.btn.review:hover:not(:disabled){background:var(--gold);border-color:var(--gold);color:#fff}
+.fc-progress{display:flex;align-items:center;gap:14px;margin-top:16px;justify-content:center;font-family:var(--f-mono);font-size:12px;color:var(--muted)}
+.fc-progress b{color:var(--ink)}
+.fc-bar{flex:1;max-width:240px;height:6px;background:var(--canvas-2);border-radius:20px;overflow:hidden}
+.fc-bar i{display:block;height:100%;background:var(--gold);border-radius:20px;transition:width .3s}
+.deckdone{text-align:center;padding:40px 20px}
+.deckdone .big{font-family:var(--f-disp);font-size:30px;font-weight:600;margin-bottom:6px}
+
+/* ============ RESPONSIVE ============ */
+@media(max-width:860px){
+  .study-grid{grid-template-columns:1fr}
+  .study-index{position:static;max-height:none;display:flex;overflow-x:auto;gap:4px;padding:8px}
+  .study-index .ihead{display:none}
+  .idx-item{white-space:nowrap;flex:none}
+  .idx-item span{white-space:nowrap}
+  .tabrail{top:0}
+  .topbar{position:static}
+}
+@media(max-width:560px){
+  .wrap{padding:16px 14px 80px}
+  .qcard{padding:20px 17px}
+  .qtext{font-size:19px}
+  .tab{padding:12px 11px}
+  .tab .ti{display:none}
+  .topstats{display:none}
+  .fc-front .q{font-size:20px}
+}
+@media(prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+  .fc-inner{transition:none}
+}
+:focus-visible{outline:2px solid var(--gold);outline-offset:2px;border-radius:4px}
+</style>
+</head>
+<body>
+<!-- DATA -->
+<script>/* ============================================================
+   POLITY CODEX — data layer
+   All content grounded in the uploaded MPSC Indian Polity decks.
+   Topics, study notes, MCQ bank, and flashcards.
+   ============================================================ */
+
+const TOPICS = [
+  { id:"hist",     label:"Historical Background",        tag:"1600–1947" },
+  { id:"ca",       label:"Constituent Assembly",         tag:"1946–1950" },
+  { id:"preamble", label:"Preamble",                     tag:"Preamble" },
+  { id:"union",    label:"Union & Territory",            tag:"Art 1–4" },
+  { id:"citizen",  label:"Citizenship",                  tag:"Art 5–11" },
+  { id:"fr",       label:"Fundamental Rights",           tag:"Art 12–35" },
+  { id:"dpsp",     label:"Directive Principles",         tag:"Art 36–51" },
+  { id:"fd",       label:"Fundamental Duties",           tag:"Art 51A" },
+  { id:"amend",    label:"Amendments & Basic Structure", tag:"Art 368" },
+  { id:"parl",     label:"Parliament",                   tag:"Art 79–122" },
+  { id:"exec",     label:"President, VP, PM & CoM",       tag:"Art 52–78" },
+  { id:"judi",     label:"Judiciary",                    tag:"Art 124–147" },
+  { id:"fed",      label:"Federalism & Centre–State",    tag:"Art 245–293" },
+  { id:"emerg",    label:"Emergency Provisions",         tag:"Art 352–360" },
+  { id:"cbody",    label:"Constitutional Bodies",        tag:"Art 315–324" },
+  { id:"rpa",      label:"Elections & RPA",              tag:"Art 324–329" },
+  { id:"adl",      label:"Anti-Defection & Parties",     tag:"10th Sch" },
+  { id:"local",    label:"Local Government",             tag:"73rd–74th" },
+  { id:"sixth",    label:"Sixth Schedule & ADCs",        tag:"Art 244" },
+  { id:"pg",       label:"Pressure Groups",              tag:"Polity" },
+  { id:"comp",     label:"Comparative Constitutions",    tag:"Sources" }
+];
+
+/* -------------------- STUDY NOTES --------------------
+   Each section: { topic, chip, points:[...], table?:{head:[],rows:[[]]} } */
+const STUDY = [
+  { topic:"hist", chip:"Colonial statutes", points:[
+    "East India Company came to India in 1600 as traders under a charter from Queen Elizabeth I; British rule ran as Company Rule (1773–1858) then Crown Rule (1858–1947).",
+    "Battle of Buxar (1764) → Treaty of Allahabad (1765, between Shah Alam II and Robert Clive) gave the Company Diwani (revenue) rights over Bengal, Bihar and Orissa.",
+    "Regulating Act 1773: designated Governor of Bengal as 'Governor-General of Bengal' (first: Warren Hastings); made Madras & Bombay subordinate; set up Supreme Court at Calcutta (1774).",
+    "GoI Act 1919 (Montagu–Chelmsford Reforms; Montagu = Secretary of State, Chelmsford = Viceroy): introduced dyarchy in the provinces (transferred + reserved subjects), bicameralism and direct elections for the first time; created office of High Commissioner for India in London.",
+    "GoI Act 1935: 321 Sections, 10 Schedules — the longest British act. Proposed an All-India Federation (never came into being); divided powers into Federal (59), Provincial (54) and Concurrent (36) Lists; residuary powers with the Viceroy.",
+    "GoI Act 1935 abolished dyarchy in provinces (→ provincial autonomy) but proposed dyarchy at the Centre; provided for RBI and a Federal Court (set up 1937); abolished the Council of India (1858).",
+    "The 1950 Constitution drew heavily on the GoI Act 1935, itself based on the Simon Commission report, Third Round Table Conference, White Paper 1933 and Joint Select Committee reports."
+  ]},
+  { topic:"ca", chip:"Making the Constitution", points:[
+    "Idea of a Constituent Assembly first proposed by M.N. Roy (1934); taken up as an official Congress demand in 1935; accepted by the British in the August Offer 1940; the Assembly was set up under the Cabinet Mission Plan 1946.",
+    "Members were indirectly elected by the Provincial Legislative Assemblies (limited franchise, not full adult franchise).",
+    "Original total membership 389 (292 from provinces + 93 princely states + 4 chief commissioner's provinces). After Partition it fell to 299 (229 from British provinces + 70 from princely states).",
+    "First sitting: 9 December 1946. Dr. Sachchidananda Sinha = first (temporary) Chairman; Dr. Rajendra Prasad = permanent Chairman/President; H.C. Mookerjee = Vice-President; B.N. Rau = constitutional advisor.",
+    "Drafting Committee formed 29 August 1947 with 7 members, chaired by Dr. B.R. Ambedkar; the draft took under six months (the committee sat 141 days).",
+    "Constitution adopted 26 November 1949 (then: Preamble + 395 Articles + 8 Schedules); came into force 26 January 1950. Objectives Resolution (basis of the Preamble) moved by Nehru on 22 January 1947.",
+    "26 November is celebrated as Constitution Day (from 2015, 125th birth anniversary of Ambedkar). Today the Constitution has ~470 Articles in 25 Parts and 12 Schedules."
+  ]},
+  { topic:"preamble", chip:"Preface of the Constitution", points:[
+    "The Preamble is based on the Objectives Resolution (Nehru). It is a part of the Constitution but is NON-JUSTICIABLE (not enforceable in court).",
+    "Its wording begins 'WE, THE PEOPLE OF INDIA … SOVEREIGN SOCIALIST SECULAR DEMOCRATIC REPUBLIC …' and secures JUSTICE, LIBERTY, EQUALITY and FRATERNITY.",
+    "The 42nd Amendment (1976) added three words: SOCIALIST, SECULAR and INTEGRITY.",
+    "Sovereign = fully independent, neither dependency nor dominion. Socialist = democratic socialism (mixed economy, blend of Marxism + Gandhism). Secular = no state religion; all religions get equal support.",
+    "Justice has three forms (social, political, economic); Liberty covers thought, expression, belief, faith, worship; Equality covers status and opportunity; Fraternity assures the dignity of the individual and the unity & integrity of the nation.",
+    "Democratic = representative parliamentary (indirect) democracy; Republic = head of state (President) is elected, not hereditary, and all offices are open to all."
+  ]},
+  { topic:"union", chip:"Union and its Territory", points:[
+    "Article 1: 'India, that is Bharat, shall be a Union of States.' States have no right to secede. Territory of India = States + UTs + acquired territories (First Schedule lists names & extents).",
+    "Article 2: Parliament may admit or establish new states. Article 3: Parliament may form new states, alter areas, boundaries or names of existing states — by SIMPLE majority.",
+    "Article 3 procedure: a Bill needs the President's prior recommendation; the President refers it to the concerned state legislature for its views, but that opinion is NOT binding.",
+    "State reorganisation: Dhar Commission (S.K. Dhar, 1948) and the JVP Committee (Nehru, Patel, Pattabhi Sitaramayya, 1948) both rejected language as the sole basis. Andhra Pradesh was carved out of Madras on linguistic lines (1953).",
+    "Fazl Ali Commission (1953; members K.M. Panikkar & H.N. Kunzru) rejected 'one language one state' and named 4 factors; led to the States Reorganisation Act 1956 (via 7th Amendment) — 14 states + 6 UTs at first.",
+    "India can acquire foreign territory (cession, occupation, conquest, purchase, gift, lease, plebiscite) — e.g. Goa, Daman & Diu, Sikkim. As of Jan 2025: 28 states and 8 UTs."
+  ]},
+  { topic:"citizen", chip:"Part II & Citizenship Act 1955", points:[
+    "Articles 5–11 (Part II) deal with citizenship at commencement; Article 11 lets Parliament regulate acquisition/termination — done via the Citizenship Act 1955.",
+    "Article 5: citizens are those domiciled in India who were born here, or a parent born here, or ordinarily resident for 5+ years. Article 7: migrants to Pakistan after 1 March 1947 are not citizens. Article 9: voluntarily acquiring foreign citizenship ends Indian citizenship.",
+    "Citizenship Act 1955 — five modes of ACQUISITION: birth, descent, registration, naturalisation, and incorporation of territory. THREE modes of LOSS: renunciation, termination, deprivation.",
+    "Cannot be a citizen by birth if parents are foreign diplomats or enemy aliens. Naturalisation needs the Third Schedule qualifications; distinguished service in science/art/peace can waive some conditions.",
+    "Assam Accord 1985: persons of Indian origin from Bangladesh entering Assam before 1 Jan 1966 are deemed citizens; those entering 1 Jan 1966–24 Mar 1971 register and are deemed citizens after 10 years.",
+    "CAA 2019: eases naturalisation (11→5 years) for Hindus, Sikhs, Buddhists, Jains, Parsis, Christians from Pakistan, Afghanistan, Bangladesh who entered on/before 31 Dec 2014. Came into effect 11 March 2024. Does not apply to Sixth Schedule tribal areas or Inner Line Permit areas. Critics cite Article 14 and secularism, and conflict with the Assam Accord."
+  ]},
+  { topic:"fr", chip:"Part III — Articles 12–35", points:[
+    "Part III has 6 Fundamental Rights (Articles 12–35). Right to Property (old Art 31) was removed by the 44th Amendment (1978) and is now only a LEGAL right under Article 300A (Part XII).",
+    "Article 12 defines 'the State'; Article 13 voids laws inconsistent with Part III (judicial review). FRs are not absolute (reasonable restrictions), not permanent (amendable), justiciable, and directly guaranteed by the Supreme Court.",
+    "Right to Equality (14–18): Art 14 equality before law + equal protection; Art 15 no discrimination on religion/race/caste/sex/place of birth; Art 16 equal opportunity in public employment; Art 17 abolition of untouchability; Art 18 abolition of titles (military/academic exempt).",
+    "Right to Freedom (19–22): Art 19 gives six freedoms (originally 7; property deleted by 44th Amdt) with reasonable restrictions; Art 20 protection in conviction; Art 21 life & personal liberty; Art 21A right to education (6–14, 86th Amdt); Art 22 protection against arrest & preventive detention (max 3 months without advisory board).",
+    "Rights against Exploitation (23–24): Art 23 bans human trafficking & forced labour; Art 24 bans child labour under 14 in factories/mines/hazardous work. Freedom of Religion (25–28). Cultural & Educational Rights (29–30) — Art 30 protects minorities only.",
+    "Right to Constitutional Remedies (Art 32): 'the heart and soul' of the Constitution (Ambedkar); SC can issue five writs — Habeas Corpus, Mandamus, Prohibition, Certiorari, Quo-Warranto. HCs issue writs under Art 226 (for FRs AND other purposes).",
+    "Articles 20 & 21 can NEVER be suspended, even during National Emergency. Article 19 can be suspended only on grounds of external emergency (war/external aggression)."
+  ]},
+  { topic:"dpsp", chip:"Part IV — Articles 36–51", points:[
+    "DPSP (Articles 36–51) are NON-justiciable (Art 37) but 'fundamental in the governance of the country'; they aim at social & economic democracy (a welfare state). Borrowed from Ireland.",
+    "Three classifications: Socialistic (e.g. Art 38, 39, 39A, 41, 42, 43, 43A), Gandhian (e.g. Art 40 village panchayats, 43, 47, 48), and Liberal-Intellectual (e.g. Art 44 UCC, 45, 48, 48A, 49, 50, 51).",
+    "Art 39: adequate livelihood, equal pay for equal work, no concentration of wealth. Art 39A: free legal aid. Art 40: organise village panchayats. Art 44: Uniform Civil Code. Art 48A: protect environment & wildlife (added 42nd Amdt). Art 50: separate judiciary from executive. Art 51: promote international peace.",
+    "FR vs DPSP: FRs are negative (limit the state) & justiciable and establish political democracy; DPSP are positive (require the state to act) & non-justiciable and establish social/economic democracy.",
+    "Case law: State of Madras v. Champakam Dorairajan (1951) held DPSP subordinate to FRs; Minerva Mills (1980) added the balance between FRs and DPSP to the basic structure."
+  ]},
+  { topic:"fd", chip:"Part IVA — Article 51A", points:[
+    "Fundamental Duties (Part IVA, Article 51A) were inspired by the Constitution of the erstwhile USSR and added by the 42nd Amendment (1976) on the recommendation of the Swaran Singh Committee — originally 10 duties.",
+    "An 11th duty (parent/guardian to provide education to a child aged 6–14) was added by the 86th Amendment (2002).",
+    "Like DPSP, Fundamental Duties are NON-justiciable — no direct legal enforcement — but Parliament may enforce them by suitable legislation.",
+    "FDs are confined to citizens only (unlike some FRs available to non-citizens). They include respecting the Constitution/flag/anthem, protecting sovereignty, defending the country, promoting harmony, protecting the environment, developing scientific temper, and striving for excellence."
+  ]},
+  { topic:"amend", chip:"Article 368 & Basic Structure", points:[
+    "Three amendment routes: (1) Simple majority — e.g. new states, citizenship, delimitation; (2) Special majority (2/3 of members present & voting) — e.g. FRs, DPSP; (3) Special majority + ratification by half the states — federal features (President's election, SC/HCs, distribution of powers, GST Council).",
+    "An amendment Bill can be introduced in either House but not in state assemblies; it needs special majority even at introduction; the President MUST assent (44th Amdt) and cannot return or withhold it.",
+    "1st Amendment (1951): added the Ninth Schedule to shield land-reform laws from judicial review. 7th (1956): States Reorganisation. 42nd (1976, the 'Mini-Constitution'): added Socialist/Secular/Integrity, Fundamental Duties, extended terms to 6 years, curbed judicial review.",
+    "44th Amendment (1978): reversed many 42nd Amdt changes; removed Right to Property from FRs; replaced 'internal disturbance' with 'armed rebellion' for national emergency; restored HC writ powers.",
+    "Key milestones: 61st (1988) voting age 21→18; 73rd & 74th (1992) local government; 86th (2002) Art 21A; 101st (2016) GST; 103rd (2019) 10% EWS; 104th (2020) ended Anglo-Indian nomination; 106th (2023) one-third women's reservation.",
+    "Basic Structure Doctrine: Shankari Prasad (1951) & Sajjan Singh (1965) — Parliament can amend any part; Golak Nath (1967) — cannot amend Part III; Kesavananda Bharati (1973) — can amend anything but not the 'basic structure'; Minerva Mills (1980) — added judicial review & FR-DPSP balance; Indira Sawhney (1992) — 27% OBC reservation, creamy layer, rule of law."
+  ]},
+  { topic:"parl", chip:"Articles 79–122", points:[
+    "Article 79: Parliament = President + Rajya Sabha (Council of States) + Lok Sabha (House of the People). The President is part of Parliament though not a member of either House.",
+    "Rajya Sabha (Art 80): max 250 = 238 elected (states/UTs by proportional representation, single transferable vote) + 12 nominated by the President (literature, science, art, social service). It is a permanent house — 1/3 retire every 2 years (member term 6 years).",
+    "Lok Sabha (Art 81): max 550 (530 states + 20 UTs); currently 543. Term 5 years, extendable by 1 year at a time during emergency. Anglo-Indian nomination removed by 104th Amendment (from Jan 2020).",
+    "Speaker: decides if a Bill is a Money Bill (final), decides defection cases under the 10th Schedule, presides over joint sittings (Art 108), votes only in a tie. Speaker Pro Tem (usually senior-most member) administers oath to new members.",
+    "Sessions: max gap between two sessions = 6 months; usually three sessions (Budget, Monsoon, Winter). Quorum = 1/10 of the House. Zero Hour is not in the Rules of Procedure. Question Hour has starred (oral), unstarred (written) and short-notice questions.",
+    "Money Bill: introduced only in Lok Sabha on the President's recommendation; Rajya Sabha cannot reject/amend it and must return within 14 days. Rajya Sabha's special powers: Art 249 (law on State List in national interest, 2/3 majority), Art 312 (create All-India Services), and it alone can initiate removal of the Vice-President.",
+    "MPs cannot be arrested 40 days before/after a session (civil cases only). Council of Ministers is collectively responsible only to the Lok Sabha (Art 75(3))."
+  ]},
+  { topic:"exec", chip:"Union Executive — Art 52–78", points:[
+    "President (Art 52–62): head of state; real executive power rests with the Council of Ministers. Elected indirectly by proportional representation with single transferable vote (secret ballot). Qualifications: citizen, 35+, eligible for Lok Sabha. Term 5 years; removed by impeachment (Art 61, 2/3 of total members, 14 days' notice; either House can initiate).",
+    "President's ordinance power (Art 123): an ordinance has the same force as an Act but must be laid before Parliament and lapses 6 weeks after Parliament reassembles.",
+    "Emergency powers: National (Art 352 — war/external aggression/armed rebellion), President's Rule (Art 356 — failure of constitutional machinery), Financial (Art 360).",
+    "Vice-President (Art 63–71): ex-officio Chairman of Rajya Sabha; second-highest office; borrowed from the US VP. Elected by an electoral college of BOTH Houses (elected + nominated members). Removed by a Rajya Sabha resolution (effective majority) agreed to by the Lok Sabha; 14 days' notice; no formal impeachment.",
+    "Prime Minister (Art 75): appointed by the President (leader of the majority party). May be a member of either House; a non-member can be PM for 6 months. Principal channel between President and CoM.",
+    "Council of Ministers (Art 74–75): President acts on its advice; may return advice once, then it is binding (44th Amdt). Total ministers incl. PM ≤ 15% of Lok Sabha strength (91st Amdt). A member disqualified for defection is barred from being a minister. Cabinet works on collective responsibility to the Lok Sabha.",
+    "Finance: Consolidated Fund of India (Art 266) — no withdrawal without Parliament's sanction; Contingency Fund of India (Art 267) — kept with the President for unforeseen expenditure; no tax without legislative sanction (Art 265/256)."
+  ]},
+  { topic:"judi", chip:"Articles 124–147", points:[
+    "Single integrated judiciary: Supreme Court at the apex, High Courts below, then subordinate courts. Articles 124–147 govern the SC; 214–231 the HCs. Judges appointed by the President in consultation with the judiciary (collegium).",
+    "Supreme Court jurisdiction: original (Art 131 — Centre–state and inter-state disputes; exclusive), writ (Art 32 — only for FRs), appellate, and advisory (Art 143 — President may seek its opinion). SC judges' salaries are charged on the Consolidated Fund.",
+    "SC is the guardian and final interpreter of the Constitution and guardian of Fundamental Rights. Judicial review cannot be curtailed even by amendment; in 2015 the SC struck down the 99th Amendment and the NJAC Act 2015.",
+    "PIL (Public Interest Litigation): originated in the USA (as Social Action Litigation); locus standi is relaxed; power derives from judicial review; only SC and HCs can entertain it. First landmark: Hussainara Khatoon v. State of Bihar (1979) — right to speedy trial.",
+    "Lok Adalat: 'People's Court'; statutory status under the Legal Services Authorities Act; deals mainly with civil/compromise cases (plus cheque-bounce); no court fee (refundable); lawyers not allowed to represent parties.",
+    "Fast Track Courts: first set up April 2011 by state governments; outside the ADR system; handle petty criminal/under-trial cases; no adjournment; criticised as 'justice hurried is justice buried'.",
+    "Tribunals: 42nd Amendment (1976) added Part XIV-A — Art 323A (administrative tribunals) and Art 323B (tribunals for other matters); Administrative Tribunals Act 1985. Free legal aid under Art 39A (NALSA)."
+  ]},
+  { topic:"fed", chip:"Quasi-federal — Art 245–293", points:[
+    "Indian federalism is 'quasi-federal' / 'federation sui generis' with a strong Centre (Canadian model). 'Federation' comes from Latin foedus (treaty). Art 1 calls India a 'Union of States'.",
+    "Federal features: dual polity, written & rigid constitution, division of powers (Seventh Schedule), supremacy of the constitution, independent judiciary, bicameralism.",
+    "Unitary features: strong Centre, indestructible union with destructible units, single constitution & citizenship, no equal state representation in RS, emergency provisions, all-India services, Governors appointed by the Centre, integrated judiciary & election machinery, Centre's veto over state bills.",
+    "Seventh Schedule lists: Union List (100 subjects — defence, banking, foreign affairs, currency, atomic energy), State List (59; originally 66 — police, public health, agriculture, local government), Concurrent List (52 — criminal law, marriage, education, forests). In a conflict on the Concurrent List, Union law prevails.",
+    "42nd Amendment moved 5 subjects from State to Concurrent List: education, forests, weights & measures, protection of wild animals & birds, and administration of justice. 101st Amendment (2016) added GST (Art 246A).",
+    "Centre–state relations: Legislative (Art 245–255), Administrative (Art 256–263, incl. Inter-State Council under Art 263), Financial (Art 268–293). Finance Commission corrects fiscal imbalance.",
+    "SC on Governors (8 April 2025, Tamil Nadu case): under Art 200 Governors must act on state Bills in a time-bound manner on the aid & advice of the Council of Ministers, without independent discretion; withholding indefinitely is unconstitutional."
+  ]},
+  { topic:"emerg", chip:"Part XVIII — Art 352–360", points:[
+    "Three emergencies: National (Art 352 — war/external aggression/armed rebellion), President's Rule (Art 356 — failure of constitutional machinery), Financial (Art 360). Contained in Articles 352–360.",
+    "National Emergency declared thrice: 1962 (China war), 1971 (Pakistan war), 1975 (internal — 'internal disturbance', later replaced by 'armed rebellion' by the 44th Amendment).",
+    "'External Emergency' = war/external aggression; 'Internal Emergency' = armed rebellion. Art 352 proclamation must be approved by Parliament within 1 month, then every 6 months, with no maximum duration.",
+    "Art 356 (President's Rule): approved within 2 months, then every 6 months, maximum 3 years. Can also be invoked under Art 365 (state failing to comply with Centre's directions). Imposed 125+ times since 1950; Mizoram thrice (1977, 1978, 1988).",
+    "Effect on FRs: during National Emergency, Art 19 may be suspended (external grounds), but Articles 20 & 21 are NEVER suspended (Art 359). Under Art 250 Parliament can legislate on State List; laws lapse 6 months after revocation.",
+    "38th Amendment (1975) made the President's satisfaction 'final and conclusive'; the 44th Amendment (1978) removed that, restoring judicial review. Art 355 imposes a duty on the Centre to protect states."
+  ]},
+  { topic:"cbody", chip:"Independent constitutional bodies", points:[
+    "Election Commission (Art 324): permanent, independent; a 3-member body (Chief Election Commissioner + 2 ECs) with equal powers/salary (like SC judges). CEC term: 6 years or 65, whichever earlier; an EC can be removed only on the CEC's recommendation.",
+    "ECI functions: prepare electoral rolls, recognise parties & allot symbols, notify schedules, enforce the Model Code of Conduct, advise on disqualification. Initiatives: EVMs (2003), VVPAT, SVEEP (2009), NOTA, Braille EVMs (2019).",
+    "UPSC (Art 315–323, Part XIV): central recruiting agency; chairman & members appointed by the President; term 6 years or 65; not eligible for reappointment. Half the members must have 10+ years' government service. Its recommendations are ADVISORY (not binding); it recruits Group A & B (a 'watchdog of the merit system'). DoPT is the central personnel agency.",
+    "SPSC: state parallel of UPSC (Art 315–323); chairman/members appointed by the Governor but removed only by the President (on SC enquiry, for misbehaviour).",
+    "Finance Commission (Art 280): quasi-judicial body constituted by the President every 5th year; chairman + 4 members; recommends distribution of central tax revenue between Centre and states.",
+    "CAG (Art 148–151): appointed by the President; removed like a SC judge; not eligible for further office after retirement; salary charged on the Consolidated Fund; audits and reports on Union & state accounts (guardian of the public purse). Two financial committees: Public Accounts Committee and Estimates Committee."
+  ]},
+  { topic:"rpa", chip:"Art 324–329 & RPA 1951", points:[
+    "Articles 324–329 (Part XV) govern elections. Parliament enacted the Representation of the People Act 1950 (rolls, seat allotment) and the RPA 1951 (conduct of elections, qualifications/disqualifications).",
+    "RPA 1951 was passed under Article 327; originally 13 parts and 171 sections. Part II deals with qualifications & disqualifications; Part IVA with registration of parties; Part XIII-A with the Chief Electoral Officer.",
+    "Section 8 (disqualification on conviction): imprisonment of 2+ years disqualifies a person from the date of conviction and for a further 6 years after release. Section 33(7): a candidate may contest from up to two constituencies (must vacate one if they win both).",
+    "Election offences under RPA 1951 include booth capturing, promoting enmity/hatred, bribery, selling liquor within 48 hours before poll close, and holding public meetings within 48 hours before voting.",
+    "Party recognition (by the ECI): National party — 6% of valid votes in 4+ states plus 4 Lok Sabha seats, OR 2% of Lok Sabha seats from 3 states, OR recognised in 4 states. As of Aug 2025: 6 National parties (BJP, INC, CPI(M), BSP, NPP, AAP), 67 state parties, 2857 registered unrecognised parties.",
+    "Election machinery: ECI → Chief Electoral Officer (state/UT) → District Election Officer → Electoral Registration Officer, plus observers. Election petitions are tried in the High Court."
+  ]},
+  { topic:"adl", chip:"10th Schedule & party system", points:[
+    "Anti-Defection Law: added by the 52nd Amendment (1985) as the Tenth Schedule; amended Articles 101, 102, 190, 191. A member is disqualified for voluntarily giving up party membership or voting against the party whip.",
+    "Independent members are disqualified if they join any party after election; nominated members if they join a party after 6 months of taking their seat. The presiding officer (Speaker/Chairman) decides defection cases.",
+    "Exceptions: merger of a party with another where 2/3 of members agree (the 'split' exception was DELETED by the 91st Amendment 2003); and a presiding officer who gives up membership and rejoins after office.",
+    "91st Amendment (2003): capped the Council of Ministers at 15% of the House (state minimum 12); barred defectors from being ministers; removed the one-third 'split' protection. Based on NCRWC (2002) recommendations.",
+    "Party system features: one-party dominance ('the Congress System' — Rajni Kothari / Morris Jones); multi-party system since 1967; weak opposition; leader-centric parties; rise of regional parties; BJP dominance since 2014.",
+    "Reform ideas: decide defection via the President/Governor on ECI advice (NCRWC); apply the law only to confidence/money votes (Hamid Ansari); an independent tribunal headed by a retired judge (SC); intra-party democracy (170th Law Commission)."
+  ]},
+  { topic:"local", chip:"73rd & 74th Amendments (1992)", points:[
+    "73rd Amendment (1992): constitutionalised Panchayati Raj (rural); added Part IX and the Eleventh Schedule (29 subjects). 74th Amendment (1992): urban local bodies (municipalities); added Part IXA and the Twelfth Schedule (18 subjects).",
+    "Three-tier Panchayati Raj: village, intermediate and district levels. Reservation of seats for SCs/STs in proportion to population, and one-third reservation for women.",
+    "Fixed 5-year term for panchayats/municipalities; elections conducted by the State Election Commission; a State Finance Commission is constituted every 5 years to review local finances.",
+    "Municipalities are of three types: Nagar Panchayat (transitional area), Municipal Council (smaller urban), Municipal Corporation (larger urban).",
+    "Challenges for urban local bodies: limited devolution of taxes/functions, delayed elections, politicisation, poor cost recovery, weak accounts, and revenue lost to GST (octroi, entry tax). The 74th Amendment does not apply in Nagaland, Meghalaya, Mizoram, and Darjeeling (Gorkha Hill Council)."
+  ]},
+  { topic:"sixth", chip:"Art 244(2) & 275(1)", points:[
+    "The Sixth Schedule (Art 244(2) & 275(1)) provides for the administration of tribal areas in Assam, Meghalaya, Tripura and Mizoram through Autonomous District Councils (ADCs). (The Fifth Schedule covers scheduled areas in other states.)",
+    "Origin: the Bordoloi Sub-Committee (Gopinath Bordoloi, then CM of Assam) recommended District & Regional Councils; Saprawnga and Khawtinkhuma were co-opted to represent the Mizos.",
+    "Each ADC has up to 30 members — up to 4 nominated by the Governor, the rest elected by universal adult suffrage; term 5 years (extendable by 1 year). Members must be Indian citizens, 25+, and registered voters.",
+    "The Lushai Hills District Council came into being in 1952 (renamed Mizo Hills District Council in 1954). The Sixth Schedule was split into Parts I, II, IIA and III by the North-Eastern Areas Reorganisation Act 1971; Part III covers Mizoram's councils.",
+    "Mizoram's three ADCs: Lai (Lawngtlai), Mara (Siaha) and Chakma (Chawngte), governed under the Mizoram Autonomous District Council Rules 1974. The Governor of Mizoram is the executive head; laws passed by a DC need the Governor's approval.",
+    "Each ADC has an Executive Committee (like a cabinet): one Chief Executive Member (elected) + 2 Executive Members (appointed by the Governor on the CEM's recommendation). ADCs have legislative, executive, judicial (Village/District Council courts) and financial (taxation) powers. Anti-defection law does not apply, contributing to instability."
+  ]},
+  { topic:"pg", chip:"Interest / influence groups", points:[
+    "The term 'pressure group' originated in the USA. Pressure groups seek to influence public policy but, unlike political parties, do not contest elections. Methods: lobbying, electioneering, propaganda, demonstrations, mass media, and sometimes bribery.",
+    "Business groups (most powerful): FICCI, ASSOCHAM, FAIFDA (food-grain dealers), AIMO (medium industry).",
+    "Trade unions (party-affiliated): AITUC (CPI), INTUC (Congress — first union, 1920, Lala Lajpat Rai), HMS (Socialist), CITU (CPI-M), BMS (BJP).",
+    "Student wings: ABVP (BJP), AISF (CPI), NSUI (Congress), SFI (CPI-M). Agrarian: Bharatiya Kisan Union, All India Kisan Sabha (oldest/largest).",
+    "Other categories: professional (IMA, Bar Council), religious (RSS, VHP), caste, tribal (NSCN, ULFA), linguistic, ideology-based (Narmada Bachao Andolan, Chipko), and 'anomic' groups (spontaneous, e.g. riots/agitations).",
+    "In India, traditional identities (caste, religion, region) dominate; most associational groups have party affiliations ('parties behind the parties'), though major business groups tend to stay non-affiliated."
+  ]},
+  { topic:"comp", chip:"Borrowed features", points:[
+    "UK: parliamentary government, cabinet system, bicameralism, rule of law (Art 14), single citizenship, writs, and the office of Speaker.",
+    "USA: Fundamental Rights, judicial review, independence of the judiciary, impeachment of the President, removal of judges, the office of Vice-President, and the preamble idea.",
+    "Ireland: Directive Principles of State Policy, the method of the President's election, and nomination of members to the Rajya Sabha.",
+    "Canada: a strong Centre (quasi-federal 'union'), residuary powers with the Centre, appointment of Governors by the Centre, and the SC's advisory jurisdiction.",
+    "Australia: the Concurrent List, joint sitting of the two Houses (Art 108), and freedom of trade and commerce. USSR: Fundamental Duties and the ideals of justice in the Preamble.",
+    "France: the ideals of Liberty, Equality, Fraternity and the concept of a 'Republic'. Germany: suspension of Fundamental Rights during emergency. South Africa: procedure for amending the Constitution and election of Rajya Sabha members. GoI Act 1935: the federal scheme, judiciary, public service commissions, and much administrative detail."
+  ]}
+];
+
+/* -------------------- MCQ BANK --------------------
+   { topic, d:'E'|'M'|'H', q, o:[..4], a:index, ex, rel:[topicIds], dig? } */
+const MCQ = [
+  // ---- Historical ----
+  {topic:"hist",d:"E",q:"The East India Company came to India as traders in which year?",o:["1600","1757","1765","1858"],a:0,ex:"The East India Company arrived in 1600 under a charter granted by Queen Elizabeth I, and traded in India as the world's first multinational firm.",rel:["ca"]},
+  {topic:"hist",d:"M",q:"The Regulating Act of 1773 designated whom as the first Governor-General of Bengal?",o:["Robert Clive","Warren Hastings","Lord Cornwallis","Lord Mountbatten"],a:1,ex:"The Act renamed the Governor of Bengal as 'Governor-General of Bengal'; the first holder was Lord Warren Hastings, also called the 'Architect of British India'. It also set up the Supreme Court at Calcutta (1774).",rel:["judi"]},
+  {topic:"hist",d:"M",q:"The Diwani (revenue) rights over Bengal, Bihar and Orissa were obtained by the Company after which event?",o:["Battle of Plassey","Battle of Buxar / Treaty of Allahabad","Revolt of 1857","Third Round Table Conference"],a:1,ex:"After the Battle of Buxar (1764), the Treaty of Allahabad (1765) between Shah Alam II and Robert Clive gave the Company Diwani rights over Bengal, Bihar and Orissa.",rel:[]},
+  {topic:"hist",d:"E",q:"The Government of India Act 1919 is also known as the:",o:["Morley-Minto Reforms","Montagu-Chelmsford Reforms","Simon Reforms","Mountbatten Plan"],a:1,ex:"The 1919 Act is the Montagu-Chelmsford Reforms — Montagu was the Secretary of State for India and Lord Chelmsford was the Viceroy. It introduced dyarchy in the provinces.",rel:[]},
+  {topic:"hist",d:"M",q:"'Dyarchy' in the provinces (transferred and reserved subjects) was introduced by which Act?",o:["GoI Act 1858","GoI Act 1919","GoI Act 1935","Indian Independence Act 1947"],a:1,ex:"The GoI Act 1919 divided provincial subjects into transferred (run by ministers responsible to the legislature) and reserved (run by the Governor's executive council) — this dual scheme was 'dyarchy'.",rel:[],dig:"The GoI Act 1935 later ABOLISHED provincial dyarchy (introducing provincial autonomy) but proposed dyarchy at the Centre."},
+  {topic:"hist",d:"H",q:"The Government of India Act 1935 contained how many Sections and Schedules?",o:["321 Sections, 10 Schedules","395 Articles, 8 Schedules","470 Articles, 12 Schedules","171 Sections, 13 Parts"],a:0,ex:"The GoI Act 1935 was the longest British statute — 321 Sections and 10 Schedules. (395 Articles/8 Schedules was the original 1950 Constitution; 171 Sections belongs to the RPA 1951.)",rel:["ca","rpa"]},
+  {topic:"hist",d:"M",q:"Under the Government of India Act 1935, residuary powers were vested in the:",o:["Provinces","Federal Legislature","Viceroy","Federal Court"],a:2,ex:"The 1935 Act divided powers into Federal, Provincial and Concurrent Lists, and gave the residuary powers to the Viceroy. It also provided for the RBI and a Federal Court (set up 1937).",rel:["fed"]},
+
+  // ---- Constituent Assembly ----
+  {topic:"ca",d:"M",q:"Who first proposed the idea of a Constituent Assembly for India?",o:["M.N. Roy","Jawaharlal Nehru","B.R. Ambedkar","Mahatma Gandhi"],a:0,ex:"M.N. Roy first proposed the idea in 1934; it became an official Congress demand in 1935 and was accepted by the British in the August Offer of 1940.",rel:[]},
+  {topic:"ca",d:"M",q:"The Constituent Assembly was set up under which plan?",o:["August Offer 1940","Cripps Mission 1942","Cabinet Mission Plan 1946","Mountbatten Plan 1947"],a:2,ex:"Elections to the Constituent Assembly were held under the Cabinet Mission Plan of 1946; members were indirectly elected by the Provincial Legislative Assemblies.",rel:[]},
+  {topic:"ca",d:"E",q:"Who was the permanent Chairman (President) of the Constituent Assembly?",o:["Dr. Sachchidananda Sinha","Dr. Rajendra Prasad","Dr. B.R. Ambedkar","B.N. Rau"],a:1,ex:"Dr. Rajendra Prasad was the permanent Chairman. Dr. Sachchidananda Sinha was the first temporary chairman; Ambedkar chaired the Drafting Committee; B.N. Rau was the constitutional advisor.",rel:[]},
+  {topic:"ca",d:"M",q:"The Drafting Committee of the Constitution was chaired by:",o:["Jawaharlal Nehru","Dr. Rajendra Prasad","Dr. B.R. Ambedkar","Sardar Patel"],a:2,ex:"The Drafting Committee (formed 29 August 1947, 7 members) was chaired by Dr. B.R. Ambedkar. The draft took under six months; the committee sat 141 days.",rel:[]},
+  {topic:"ca",d:"E",q:"The Constitution of India came into force on:",o:["26 November 1949","15 August 1947","26 January 1950","9 December 1946"],a:2,ex:"The Constitution was adopted on 26 November 1949 and came into force on 26 January 1950. The Assembly first sat on 9 December 1946.",rel:[]},
+  {topic:"ca",d:"H",q:"When adopted on 26 November 1949, the Constitution contained:",o:["470 Articles, 25 Parts, 12 Schedules","395 Articles and 8 Schedules","321 Sections and 10 Schedules","444 Articles and 12 Schedules"],a:1,ex:"As adopted in 1949 it had a Preamble, 395 Articles and 8 Schedules. It now has about 470 Articles in 25 Parts and 12 Schedules.",rel:[]},
+  {topic:"ca",d:"M",q:"The Objectives Resolution, which formed the basis of the Preamble, was moved by:",o:["B.R. Ambedkar","Jawaharlal Nehru","Rajendra Prasad","Sardar Patel"],a:1,ex:"The Objectives Resolution was drafted and moved by Jawaharlal Nehru on 22 January 1947; the Preamble is based on it.",rel:["preamble"]},
+
+  // ---- Preamble ----
+  {topic:"preamble",d:"M",q:"Which three words were added to the Preamble by the 42nd Amendment (1976)?",o:["Sovereign, Democratic, Republic","Socialist, Secular, Integrity","Justice, Liberty, Equality","Unity, Fraternity, Dignity"],a:1,ex:"The 42nd Amendment (1976) added SOCIALIST, SECULAR and INTEGRITY to the Preamble.",rel:["amend"]},
+  {topic:"preamble",d:"E",q:"The Preamble to the Constitution is:",o:["Justiciable and enforceable","Non-justiciable but part of the Constitution","Not part of the Constitution","Enforceable only during emergency"],a:1,ex:"The Preamble is a part of the Constitution but is non-justiciable — it cannot be enforced in any court.",rel:[]},
+  {topic:"preamble",d:"H",q:"Indian 'democratic socialism' in the Preamble is described as a blend of:",o:["Capitalism and Marxism","Marxism and Gandhism","Liberalism and Fascism","Fabianism and Leninism"],a:1,ex:"Indian socialism is democratic socialism — a mixed economy — described as a blend of Marxism and Gandhism (added by the 42nd Amendment).",rel:["dpsp"]},
+  {topic:"preamble",d:"M",q:"'Fraternity' in the Preamble is ensured through which of the following?",o:["Judicial review","Single citizenship, Article 1 and Article 51A","Reasonable restrictions","Emergency provisions"],a:1,ex:"Fraternity — assuring the dignity of the individual and the unity & integrity of the nation — is ensured through single citizenship, Article 1 (Union of States) and the Fundamental Duties (Art 51A).",rel:["citizen","fd"]},
+
+  // ---- Union & Territory ----
+  {topic:"union",d:"E",q:"Article 1 of the Constitution describes India as a:",o:["Federation of States","Union of States","Confederation","Quasi-federal state"],a:1,ex:"Article 1 states 'India, that is Bharat, shall be a Union of States'. States have no right to secede.",rel:["fed"]},
+  {topic:"union",d:"M",q:"Parliament can form a new state or alter the name/boundary of an existing state under Article 3 by:",o:["Special majority + state ratification","Simple majority","Special majority only","A referendum"],a:1,ex:"Article 3 changes are made by simple majority. The Bill needs the President's prior recommendation and is referred to the state legislature, whose opinion is NOT binding.",rel:["parl"]},
+  {topic:"union",d:"H",q:"The States Reorganisation Commission (1953) that led to the 1956 reorganisation was chaired by:",o:["S.K. Dhar","Fazl Ali","K.M. Panikkar","H.N. Kunzru"],a:1,ex:"The Fazl Ali Commission (members: K.M. Panikkar and H.N. Kunzru) rejected 'one language one state' and led to the States Reorganisation Act 1956 (via the 7th Amendment).",rel:["amend"]},
+  {topic:"union",d:"E",q:"As of January 2025, India has:",o:["29 states and 7 UTs","28 states and 8 UTs","28 states and 9 UTs","30 states and 6 UTs"],a:1,ex:"As of January 2025 there are 28 states and 8 Union Territories.",rel:[]},
+  {topic:"union",d:"M",q:"The names and territorial extents of the states are listed in which Schedule?",o:["First Schedule","Fourth Schedule","Seventh Schedule","Tenth Schedule"],a:0,ex:"The First Schedule lists the names and territorial extents of the states and Union Territories.",rel:[],dig:"The Fourth Schedule allocates Rajya Sabha seats; the Seventh has the three legislative Lists; the Tenth is the anti-defection schedule."},
+
+  // ---- Citizenship ----
+  {topic:"citizen",d:"E",q:"Articles 5 to 11 of the Constitution deal with:",o:["Fundamental Rights","Citizenship","Directive Principles","Emergency"],a:1,ex:"Part II (Articles 5–11) deals with citizenship at the commencement of the Constitution. Article 11 empowers Parliament to legislate on citizenship — done through the Citizenship Act 1955.",rel:[]},
+  {topic:"citizen",d:"M",q:"How many modes of ACQUIRING citizenship are provided under the Citizenship Act 1955?",o:["Three","Four","Five","Six"],a:2,ex:"Five modes: birth, descent, registration, naturalisation, and incorporation of territory. Loss occurs in three ways: renunciation, termination, deprivation.",rel:[]},
+  {topic:"citizen",d:"H",q:"The Citizenship (Amendment) Act 2019 came into effect on:",o:["31 December 2014","11 March 2024","5 August 2019","26 January 2020"],a:1,ex:"The CAA 2019 came into effect on 11 March 2024. It eases naturalisation (11→5 years) for six non-Muslim communities from Pakistan, Afghanistan and Bangladesh who entered on/before 31 December 2014.",rel:[]},
+  {topic:"citizen",d:"M",q:"The CAA 2019 does NOT apply to areas under which Schedule?",o:["Fifth Schedule","Sixth Schedule","Ninth Schedule","Eleventh Schedule"],a:1,ex:"The CAA does not apply to the tribal areas covered by the Sixth Schedule (Assam, Meghalaya, Mizoram, Tripura) or to Inner Line Permit areas.",rel:["sixth"]},
+  {topic:"citizen",d:"H",q:"Under the Assam Accord (1985), persons of Indian origin from Bangladesh entering Assam before which date are deemed citizens?",o:["25 March 1971","1 January 1966","1 March 1947","31 December 2014"],a:1,ex:"Under the Assam Accord, those entering Assam before 1 January 1966 are deemed citizens; those entering between 1 January 1966 and 24 March 1971 register and become citizens after 10 years.",rel:[]},
+
+  // ---- Fundamental Rights ----
+  {topic:"fr",d:"E",q:"Fundamental Rights are contained in which Part of the Constitution?",o:["Part II","Part III","Part IV","Part IVA"],a:1,ex:"Fundamental Rights are in Part III (Articles 12–35). DPSP are in Part IV; Fundamental Duties in Part IVA.",rel:["dpsp","fd"]},
+  {topic:"fr",d:"M",q:"The Right to Property was removed from the Fundamental Rights by which amendment?",o:["42nd Amendment","44th Amendment","86th Amendment","1st Amendment"],a:1,ex:"The 44th Amendment (1978) removed the Right to Property from Part III; it is now only a legal right under Article 300A (Part XII).",rel:["amend"]},
+  {topic:"fr",d:"E",q:"Which Article abolishes untouchability?",o:["Article 15","Article 16","Article 17","Article 18"],a:2,ex:"Article 17 abolishes untouchability and makes its practice an offence. Art 15 bans discrimination, Art 16 gives equality of opportunity, Art 18 abolishes titles.",rel:[]},
+  {topic:"fr",d:"M",q:"Right to Education (Article 21A) making education free & compulsory for children aged 6–14 was inserted by which amendment?",o:["44th Amendment","73rd Amendment","86th Amendment","93rd Amendment"],a:2,ex:"Article 21A was inserted by the 86th Amendment (2002); it was implemented through the RTE Act 2009.",rel:["amend"]},
+  {topic:"fr",d:"H",q:"During a National Emergency, which Fundamental Rights can NEVER be suspended?",o:["Articles 14 & 15","Articles 19 & 20","Articles 20 & 21","Articles 25 & 26"],a:2,ex:"Articles 20 (protection in conviction) and 21 (life & personal liberty) are never suspended, even during a National Emergency (Article 359).",rel:["emerg"]},
+  {topic:"fr",d:"E",q:"Which Article is called 'the heart and soul of the Constitution' by Dr. Ambedkar?",o:["Article 14","Article 21","Article 32","Article 19"],a:2,ex:"Article 32 (Right to Constitutional Remedies) was called the 'heart and soul' by Ambedkar. The SC can issue writs to enforce Fundamental Rights.",rel:["judi"]},
+  {topic:"fr",d:"M",q:"Which writ literally means 'you may have the body' and protects against unlawful detention?",o:["Mandamus","Habeas Corpus","Certiorari","Quo-Warranto"],a:1,ex:"Habeas Corpus commands that a detained person be produced before the court; if the detention is illegal, the person is released. It cannot be issued for contempt of a court or legislature.",rel:["judi"]},
+  {topic:"fr",d:"H",q:"The writ of Quo-Warranto is issued to:",o:["Release an unlawfully detained person","Question a person's authority to hold a public office","Quash a lower court order","Stop a lower court from exceeding its jurisdiction"],a:1,ex:"Quo-Warranto ('by what authority') is issued against a person who usurps a public office, to inquire into the legality of their claim.",rel:[]},
+  {topic:"fr",d:"M",q:"Article 30 (right to establish and administer educational institutions) is available to:",o:["All citizens","Linguistic or religious minorities only","Foreign nationals","Only the state"],a:1,ex:"Article 30 protects only linguistic or religious minorities, whereas Article 29 is a general protection. Both are available to citizens only.",rel:[]},
+  {topic:"fr",d:"H",q:"The maximum period of preventive detention without reference to an advisory board is:",o:["1 month","2 months","3 months","6 months"],a:2,ex:"Under Article 22, preventive detention cannot exceed 3 months without an advisory board of High Court judges reviewing the case.",rel:[]},
+
+  // ---- DPSP ----
+  {topic:"dpsp",d:"E",q:"The Directive Principles of State Policy are contained in:",o:["Part III (Art 12–35)","Part IV (Art 36–51)","Part IVA (Art 51A)","Part XII"],a:1,ex:"DPSP are in Part IV, Articles 36–51. They are non-justiciable (Art 37) but fundamental in governance.",rel:["fr"]},
+  {topic:"dpsp",d:"M",q:"The idea of Directive Principles of State Policy was borrowed from the constitution of:",o:["USA","Ireland","Canada","USSR"],a:1,ex:"DPSP were borrowed from Ireland. (Fundamental Rights and judicial review came from the USA; Fundamental Duties from the USSR.)",rel:["comp"]},
+  {topic:"dpsp",d:"M",q:"Article 44, dealing with a Uniform Civil Code, falls under which category of DPSP?",o:["Socialistic","Gandhian","Liberal-Intellectual","None"],a:2,ex:"Article 44 (Uniform Civil Code) is a Liberal-Intellectual principle. Art 40 (village panchayats) is Gandhian; Art 39 is Socialistic.",rel:[]},
+  {topic:"dpsp",d:"H",q:"Which DPSP directs the state to organise village panchayats as units of self-government?",o:["Article 39","Article 40","Article 43","Article 48"],a:1,ex:"Article 40 (a Gandhian principle) directs the state to organise village panchayats — the constitutional inspiration for later Panchayati Raj.",rel:["local"]},
+  {topic:"dpsp",d:"M",q:"Which case first held that Directive Principles were subordinate to Fundamental Rights?",o:["Kesavananda Bharati","Champakam Dorairajan (1951)","Minerva Mills","Golak Nath"],a:1,ex:"State of Madras v. Champakam Dorairajan (1951) held DPSP inferior to FRs. Later Minerva Mills (1980) added the FR–DPSP balance to the basic structure.",rel:["amend"]},
+  {topic:"dpsp",d:"H",q:"Protection and improvement of the environment and safeguarding forests and wildlife is directed by:",o:["Article 48A","Article 49","Article 50","Article 51"],a:0,ex:"Article 48A (added by the 42nd Amendment) directs the state to protect the environment, forests and wildlife.",rel:["amend"]},
+
+  // ---- Fundamental Duties ----
+  {topic:"fd",d:"M",q:"Fundamental Duties were added to the Constitution by which amendment?",o:["44th Amendment","42nd Amendment","86th Amendment","61st Amendment"],a:1,ex:"The 42nd Amendment (1976) added Fundamental Duties (Part IVA, Art 51A), originally 10, on the recommendation of the Swaran Singh Committee.",rel:["amend"]},
+  {topic:"fd",d:"E",q:"Fundamental Duties were inspired by the constitution of:",o:["USA","UK","USSR","Ireland"],a:2,ex:"Fundamental Duties were inspired by the Constitution of the erstwhile USSR.",rel:["comp"]},
+  {topic:"fd",d:"M",q:"The 11th Fundamental Duty (education for children aged 6–14) was added by:",o:["42nd Amendment","44th Amendment","86th Amendment","91st Amendment"],a:2,ex:"The 86th Amendment (2002) added the 11th duty — a parent/guardian must provide opportunities for education to a child aged 6–14.",rel:["fr"]},
+  {topic:"fd",d:"H",q:"Which of the following is TRUE about Fundamental Duties?",o:["They are justiciable","They apply to citizens and foreigners","They are non-justiciable and confined to citizens","They can be enforced directly by courts"],a:2,ex:"Like DPSP, Fundamental Duties are non-justiciable (no direct enforcement) and are confined to citizens only, though Parliament may enforce them by law.",rel:["dpsp"]},
+
+  // ---- Amendments & Basic Structure ----
+  {topic:"amend",d:"M",q:"The 42nd Amendment (1976) is popularly known as the:",o:["Mini Constitution","People's Amendment","Anti-Defection Amendment","Fundamental Amendment"],a:0,ex:"Because of the large number of changes it made, the 42nd Amendment (1976) is called the 'Mini Constitution'.",rel:["preamble"]},
+  {topic:"amend",d:"H",q:"The Ninth Schedule (shielding certain laws from judicial review) was added by which amendment?",o:["1st Amendment (1951)","7th Amendment (1956)","42nd Amendment (1976)","44th Amendment (1978)"],a:0,ex:"The 1st Amendment (1951) added the Ninth Schedule to protect land-reform laws from being challenged in court.",rel:["fr"]},
+  {topic:"amend",d:"M",q:"Which landmark case established the 'Basic Structure Doctrine'?",o:["Golak Nath (1967)","Kesavananda Bharati (1973)","Shankari Prasad (1951)","Minerva Mills (1980)"],a:1,ex:"Kesavananda Bharati v. State of Kerala (1973) held that Parliament can amend any provision but cannot alter the 'basic structure' of the Constitution.",rel:[]},
+  {topic:"amend",d:"H",q:"In which case did the Supreme Court first hold that Parliament cannot amend Part III (Fundamental Rights)?",o:["Shankari Prasad","Sajjan Singh","Golak Nath (1967)","Kesavananda Bharati"],a:2,ex:"Golak Nath v. State of Punjab (1967) held Parliament could not amend Part III. This was later modified by Kesavananda Bharati (1973).",rel:["fr"]},
+  {topic:"amend",d:"M",q:"The 44th Amendment (1978) replaced 'internal disturbance' as a ground for National Emergency with:",o:["Public disorder","Armed rebellion","External aggression","Financial instability"],a:1,ex:"The 44th Amendment replaced 'internal disturbance' with 'armed rebellion' as a ground under Article 352.",rel:["emerg"]},
+  {topic:"amend",d:"H",q:"The GST was introduced by which Constitutional Amendment?",o:["99th Amendment","101st Amendment","103rd Amendment","106th Amendment"],a:1,ex:"The 101st Amendment (2016) introduced GST via new Article 246A and the GST Council (Art 279A).",rel:["fed"]},
+  {topic:"amend",d:"M",q:"The voting age was reduced from 21 to 18 years by which amendment?",o:["42nd Amendment","61st Amendment (1988)","73rd Amendment","86th Amendment"],a:1,ex:"The 61st Amendment (1988) reduced the voting age from 21 to 18 for Lok Sabha and Assembly elections.",rel:["rpa"]},
+  {topic:"amend",d:"H",q:"Which amendment provides one-third reservation of seats for women in the Lok Sabha and state assemblies?",o:["103rd Amendment","104th Amendment","106th Amendment (2023)","91st Amendment"],a:2,ex:"The 106th Amendment (2023) — the Women's Reservation Act — reserves one-third of seats for women; it takes effect after a census and delimitation, for 15 years.",rel:[]},
+
+  // ---- Parliament ----
+  {topic:"parl",d:"E",q:"Parliament of India (Article 79) consists of:",o:["Lok Sabha and Rajya Sabha only","President, Rajya Sabha and Lok Sabha","President and Lok Sabha","Prime Minister and both Houses"],a:1,ex:"Article 79: Parliament = the President + Rajya Sabha + Lok Sabha. The President is part of Parliament though not a member of either House.",rel:["exec"]},
+  {topic:"parl",d:"M",q:"The maximum strength of the Rajya Sabha is:",o:["245","250","238","552"],a:1,ex:"The maximum strength of the Rajya Sabha is 250 = 238 elected (states/UTs) + 12 nominated by the President.",rel:[]},
+  {topic:"parl",d:"M",q:"Members of the Rajya Sabha are elected by:",o:["Direct election","Elected members of State Legislative Assemblies via proportional representation and single transferable vote","The President","Members of the Lok Sabha"],a:1,ex:"Rajya Sabha members representing states are elected by the elected members of the State Legislative Assemblies using proportional representation with a single transferable vote.",rel:["exec"]},
+  {topic:"parl",d:"E",q:"The Rajya Sabha is a permanent house; what fraction of its members retires every two years?",o:["One-half","One-third","One-fourth","One-fifth"],a:1,ex:"One-third of Rajya Sabha members retire every second year; each member's term is 6 years. The house is never dissolved.",rel:[]},
+  {topic:"parl",d:"M",q:"Who decides whether a Bill is a Money Bill?",o:["The President","The Speaker of the Lok Sabha","The Rajya Sabha Chairman","The Finance Minister"],a:1,ex:"The Speaker of the Lok Sabha decides whether a Bill is a Money Bill, and the decision is final. A Money Bill is introduced only in the Lok Sabha on the President's recommendation.",rel:["exec"]},
+  {topic:"parl",d:"H",q:"Under Article 249, the Rajya Sabha can empower Parliament to legislate on a State List subject if it passes a resolution by:",o:["Simple majority","Two-thirds of members present and voting","Absolute majority","Effective majority"],a:1,ex:"Under Article 249, a resolution supported by two-thirds of members present and voting lets Parliament make laws on a State List subject in the national interest (valid one year).",rel:["fed"]},
+  {topic:"parl",d:"M",q:"The Rajya Sabha must return a Money Bill to the Lok Sabha within:",o:["7 days","14 days","21 days","30 days"],a:1,ex:"The Rajya Sabha cannot reject or amend a Money Bill and must return it within 14 days with or without recommendations, which the Lok Sabha may accept or ignore.",rel:[]},
+  {topic:"parl",d:"H",q:"Which of these is NOT provided for in the Rules of Procedure of Parliament?",o:["Question Hour","Zero Hour","Adjournment Motion","Cut Motion"],a:1,ex:"Zero Hour (the informal period after Question Hour) is not mentioned in the Rules of Procedure. Question Hour, Adjournment and Cut Motions are formal devices.",rel:[]},
+  {topic:"parl",d:"M",q:"The quorum required to conduct business in either House of Parliament is:",o:["One-tenth of the total members","One-fourth of the total members","One-half of the total members","Two-thirds of the total members"],a:0,ex:"The quorum is one-tenth of the total membership (at least 55 for the Lok Sabha, 25 for the Rajya Sabha).",rel:[]},
+  {topic:"parl",d:"H",q:"A joint sitting of both Houses (Article 108) is presided over by the:",o:["President","Vice-President","Speaker of the Lok Sabha","Rajya Sabha Chairman"],a:2,ex:"The Speaker of the Lok Sabha presides over a joint sitting. A joint sitting cannot be called for a Money Bill.",rel:[]},
+
+  // ---- Executive ----
+  {topic:"exec",d:"M",q:"The President of India is elected by:",o:["Direct election","Proportional representation with single transferable vote","Simple majority in Parliament","The Council of Ministers"],a:1,ex:"The President is elected indirectly by an electoral college using proportional representation with a single transferable vote and secret ballot.",rel:[]},
+  {topic:"exec",d:"E",q:"The minimum age to become President of India is:",o:["25 years","30 years","35 years","40 years"],a:2,ex:"A President must be a citizen of India, at least 35 years old, and qualified for election to the Lok Sabha.",rel:[]},
+  {topic:"exec",d:"M",q:"The Vice-President of India is the ex-officio Chairman of the:",o:["Lok Sabha","Rajya Sabha","Council of Ministers","NITI Aayog"],a:1,ex:"Under Article 64, the Vice-President is the ex-officio Chairman of the Rajya Sabha (Council of States).",rel:["parl"]},
+  {topic:"exec",d:"H",q:"A resolution for the removal of the Vice-President can be initiated only in the:",o:["Lok Sabha","Rajya Sabha","Joint sitting","State legislatures"],a:1,ex:"A resolution to remove the Vice-President can be moved only in the Rajya Sabha (effective majority) and must be agreed to by the Lok Sabha; there is no formal impeachment.",rel:["parl"]},
+  {topic:"exec",d:"M",q:"A person who is not a member of either House can be appointed Prime Minister for a maximum of:",o:["3 months","6 months","1 year","No limit"],a:1,ex:"A non-member can be appointed PM for 6 months, within which they must become a member of either House.",rel:[]},
+  {topic:"exec",d:"H",q:"The total number of ministers, including the PM, cannot exceed what percentage of the Lok Sabha's strength?",o:["10%","15%","20%","25%"],a:1,ex:"By the 91st Amendment (2003), the total ministers including the PM cannot exceed 15% of the Lok Sabha's total strength.",rel:["adl"]},
+  {topic:"exec",d:"M",q:"The Consolidated Fund of India is provided for under which Article?",o:["Article 265","Article 266","Article 267","Article 280"],a:1,ex:"Article 266 provides for the Consolidated Fund of India; no money can be withdrawn from it without Parliament's sanction. The Contingency Fund is under Article 267.",rel:["parl"]},
+  {topic:"exec",d:"H",q:"The President can return the advice of the Council of Ministers for reconsideration:",o:["Never","Only once, after which it is binding","Twice","As many times as desired"],a:1,ex:"By the 44th Amendment, the President may ask the Council of Ministers to reconsider its advice once; the advice given after reconsideration is binding.",rel:[]},
+  {topic:"exec",d:"M",q:"An ordinance issued by the President (Article 123) ceases to operate within what period after Parliament reassembles?",o:["Six weeks","Six months","One month","Three months"],a:0,ex:"An ordinance has the force of an Act but must be laid before Parliament and lapses six weeks after Parliament reassembles.",rel:[]},
+
+  // ---- Judiciary ----
+  {topic:"judi",d:"M",q:"Articles 124 to 147 of the Constitution deal with the:",o:["High Courts","Supreme Court","Election Commission","Union Executive"],a:1,ex:"Articles 124–147 govern the Supreme Court; Articles 214–231 govern the High Courts.",rel:[]},
+  {topic:"judi",d:"H",q:"Under which Article does the Supreme Court have original jurisdiction over Centre–state disputes?",o:["Article 131","Article 132","Article 136","Article 143"],a:0,ex:"Article 131 gives the SC exclusive original jurisdiction over disputes between the Centre and states or among states.",rel:["fed"]},
+  {topic:"judi",d:"M",q:"The concept of Public Interest Litigation (PIL) originated in:",o:["The UK","The USA","India","Canada"],a:1,ex:"PIL originated in the USA (as 'Social Action Litigation'). In India, locus standi is relaxed and its power derives from judicial review.",rel:["fr"]},
+  {topic:"judi",d:"H",q:"Which case is widely regarded as the first landmark PIL in India?",o:["Kesavananda Bharati","Hussainara Khatoon v. State of Bihar (1979)","Minerva Mills","Indira Sawhney"],a:1,ex:"Hussainara Khatoon v. State of Bihar (1979), on the plight of under-trials, established the right to a speedy trial and is regarded as the first landmark PIL.",rel:[]},
+  {topic:"judi",d:"M",q:"Which of the following is TRUE of a Lok Adalat?",o:["Lawyers must represent the parties","There is no court fee (refundable if settled)","It handles only criminal cases","Its decisions can be appealed"],a:1,ex:"A Lok Adalat ('People's Court') charges no court fee (refundable if settled), lawyers do not represent parties, and it deals mainly with civil/compromise cases plus cheque-bounce cases.",rel:[]},
+  {topic:"judi",d:"H",q:"In 2015 the Supreme Court struck down which body as unconstitutional?",o:["The Election Commission","The Finance Commission","The National Judicial Appointments Commission (NJAC)","The UPSC"],a:2,ex:"In 2015 the SC struck down the 99th Amendment and the NJAC Act 2015, holding that judicial review and judicial independence cannot be curtailed.",rel:["amend"]},
+  {topic:"judi",d:"M",q:"Tribunals were added to the Constitution (Part XIV-A, Art 323A/323B) by which amendment?",o:["42nd Amendment (1976)","44th Amendment","74th Amendment","86th Amendment"],a:0,ex:"The 42nd Amendment (1976) added Part XIV-A: Article 323A (administrative tribunals) and Article 323B (other tribunals).",rel:["amend"]},
+
+  // ---- Federalism ----
+  {topic:"fed",d:"M",q:"The Indian model of federalism is best described as:",o:["A pure federation","A confederation","Quasi-federal / federation sui generis","A unitary state"],a:2,ex:"India is quasi-federal ('federation sui generis') with a strong Centre, based on the Canadian model. Article 1 calls it a 'Union of States'.",rel:["union"]},
+  {topic:"fed",d:"E",q:"The division of legislative powers between the Centre and states is contained in which Schedule?",o:["First Schedule","Fourth Schedule","Seventh Schedule","Tenth Schedule"],a:2,ex:"The Seventh Schedule contains the Union List (100), State List (59) and Concurrent List (52).",rel:[]},
+  {topic:"fed",d:"H",q:"In case of a conflict between Union and state law on a Concurrent List subject:",o:["State law prevails","Union law prevails","The matter goes to referendum","Both are void"],a:1,ex:"On a Concurrent List subject, the Union law prevails (unless the state law received earlier presidential assent).",rel:["parl"]},
+  {topic:"fed",d:"M",q:"How many subjects were transferred from the State List to the Concurrent List by the 42nd Amendment?",o:["Three","Four","Five","Seven"],a:2,ex:"The 42nd Amendment moved five subjects to the Concurrent List: education, forests, weights & measures, protection of wild animals & birds, and administration of justice.",rel:["amend"]},
+  {topic:"fed",d:"H",q:"In its 8 April 2025 ruling (Tamil Nadu Governor case), the SC held that under Article 200 a Governor must:",o:["Have unlimited discretion over Bills","Act on state Bills in a time-bound manner on the aid & advice of the Council of Ministers","Always refer Bills to the President","Never grant assent"],a:1,ex:"The SC held Governors must act on state Bills within a reasonable time following the Council of Ministers' advice, without independent discretion; indefinite withholding is unconstitutional.",rel:[]},
+  {topic:"fed",d:"M",q:"The Inter-State Council can be established by the President under which Article?",o:["Article 262","Article 263","Article 280","Article 356"],a:1,ex:"Article 263 empowers the President to establish an Inter-State Council. Article 262 deals with inter-state river water disputes.",rel:[]},
+
+  // ---- Emergency ----
+  {topic:"emerg",d:"E",q:"A National Emergency is declared under which Article?",o:["Article 352","Article 356","Article 360","Article 365"],a:0,ex:"Article 352 provides for a National Emergency (war, external aggression, or armed rebellion). Art 356 is President's Rule; Art 360 is Financial Emergency.",rel:[]},
+  {topic:"emerg",d:"M",q:"National Emergency has been proclaimed how many times in India?",o:["Once","Twice","Three times","Four times"],a:2,ex:"National Emergency was proclaimed three times: 1962 (China war), 1971 (Pakistan war) and 1975 (internal).",rel:[]},
+  {topic:"emerg",d:"H",q:"President's Rule (Article 356) can remain in force for a maximum of:",o:["1 year","2 years","3 years","No maximum"],a:2,ex:"Article 356 must be approved within 2 months, then every 6 months, and can last a maximum of 3 years. National Emergency (Art 352) has no maximum duration.",rel:[]},
+  {topic:"emerg",d:"M",q:"During a National Emergency, which Article allows Parliament to legislate on State List subjects?",o:["Article 249","Article 250","Article 252","Article 356"],a:1,ex:"Under Article 250, Parliament assumes power to legislate on State List subjects during a National Emergency; such laws lapse 6 months after the emergency ends.",rel:["parl"]},
+  {topic:"emerg",d:"H",q:"The 38th Amendment made the President's satisfaction in declaring an emergency 'final and conclusive'; this was reversed by:",o:["42nd Amendment","44th Amendment","61st Amendment","86th Amendment"],a:1,ex:"The 44th Amendment (1978) deleted the 38th Amendment provision, restoring judicial review of the President's satisfaction.",rel:["amend"]},
+
+  // ---- Constitutional Bodies ----
+  {topic:"cbody",d:"E",q:"The Election Commission of India is established under which Article?",o:["Article 280","Article 315","Article 324","Article 148"],a:2,ex:"Article 324 establishes the Election Commission — a permanent, independent body, currently a 3-member body (CEC + 2 ECs).",rel:["rpa"]},
+  {topic:"cbody",d:"M",q:"The Chief Election Commissioner holds office for:",o:["5 years or age 62","6 years or age 65, whichever is earlier","6 years only","At the President's pleasure"],a:1,ex:"The CEC holds office for 6 years or until age 65, whichever is earlier. An Election Commissioner can be removed only on the CEC's recommendation.",rel:[]},
+  {topic:"cbody",d:"M",q:"The UPSC is a constitutional body dealt with under which Articles?",o:["Articles 148–151","Articles 280–281","Articles 315–323","Articles 324–329"],a:2,ex:"Articles 315–323 (Part XIV) deal with the UPSC. Its recommendations are advisory, not binding; it is the central recruiting agency.",rel:[]},
+  {topic:"cbody",d:"H",q:"The recommendations of the UPSC are:",o:["Binding on the government","Advisory in nature","Binding only for Group A posts","Subject to Rajya Sabha approval"],a:1,ex:"UPSC recommendations are advisory (not binding). It is a 'watchdog of the merit system' recruiting Group A & B; the DoPT is the central personnel agency.",rel:[]},
+  {topic:"cbody",d:"M",q:"The Finance Commission (Article 280) is constituted by the President:",o:["Every year","Every 5 years","Every 10 years","Once only"],a:1,ex:"Article 280 requires the President to constitute a Finance Commission every 5th year, with a chairman and 4 members, to recommend distribution of central tax revenue.",rel:[]},
+  {topic:"cbody",d:"H",q:"The Comptroller and Auditor-General of India is dealt with under which Articles?",o:["Articles 148–151","Articles 315–323","Articles 124–147","Articles 280–281"],a:0,ex:"Articles 148–151 deal with the CAG, who is appointed by the President, removed like a SC judge, and is not eligible for further office after retirement.",rel:["parl"]},
+
+  // ---- Elections & RPA ----
+  {topic:"rpa",d:"M",q:"Which Articles of the Constitution deal with the electoral system?",o:["Articles 124–147","Articles 315–323","Articles 324–329","Articles 245–255"],a:2,ex:"Articles 324–329 (Part XV) deal with elections. Parliament enacted the RPA 1950 and RPA 1951 under this power.",rel:["cbody"]},
+  {topic:"rpa",d:"H",q:"Under Section 8 of the RPA 1951, a person sentenced to imprisonment of 2+ years is disqualified from the date of conviction and for how long after release?",o:["2 years","3 years","6 years","Permanently"],a:2,ex:"Under Section 8, such a person is disqualified from the date of conviction and for a further 6 years after release.",rel:[]},
+  {topic:"rpa",d:"M",q:"Section 33(7) of the RPA 1951 permits a candidate to contest from a maximum of how many constituencies?",o:["One","Two","Three","No limit"],a:1,ex:"Section 33(7) allows a candidate to contest from up to two constituencies; if they win both, one must be vacated.",rel:[]},
+  {topic:"rpa",d:"E",q:"EVMs (electronic voting machines) were introduced by the ECI in:",o:["1998","2003","2009","2014"],a:1,ex:"EVMs were introduced in 2003 to curb booth capturing. VVPAT was later added; SVEEP began in 2009.",rel:[]},
+  {topic:"rpa",d:"H",q:"To be recognised as a National party, a party must (among other criteria) secure 6% of valid votes in at least how many states plus win 4 Lok Sabha seats?",o:["Two states","Three states","Four states","Five states"],a:2,ex:"One route to National party status is securing 6% of valid votes in 4+ states and winning 4 Lok Sabha seats. As of Aug 2025 there were 6 National parties.",rel:["adl"]},
+  {topic:"rpa",d:"M",q:"Election petitions under the RPA are tried by the:",o:["Supreme Court","High Court","Election Commission","District Court"],a:1,ex:"Election petitions are tried in the High Court.",rel:["judi"]},
+
+  // ---- Anti-Defection ----
+  {topic:"adl",d:"M",q:"The Anti-Defection Law was added by which amendment and which Schedule?",o:["44th Amendment; Ninth Schedule","52nd Amendment; Tenth Schedule","91st Amendment; Eleventh Schedule","61st Amendment; Twelfth Schedule"],a:1,ex:"The 52nd Amendment (1985) added the Tenth Schedule (anti-defection law), amending Articles 101, 102, 190 and 191.",rel:["amend"]},
+  {topic:"adl",d:"H",q:"Who decides questions of disqualification on the ground of defection?",o:["The President","The Election Commission","The presiding officer of the House","The Supreme Court"],a:2,ex:"The presiding officer (Speaker/Chairman) of the House decides defection cases under the Tenth Schedule — a provision often criticised for possible partiality.",rel:["parl"]},
+  {topic:"adl",d:"M",q:"The 91st Amendment (2003) removed which exception from the anti-defection law?",o:["Merger exception","The one-third 'split' exception","Presiding officer exception","Nominated member exception"],a:1,ex:"The 91st Amendment deleted the 'split' exception (which had protected defection by one-third of a party's legislators). It also capped the Council of Ministers at 15%.",rel:["exec"]},
+  {topic:"adl",d:"H",q:"A nominated member avoids disqualification by joining a party within how many months of taking their seat?",o:["Three months","Six months","One year","Immediately"],a:1,ex:"A nominated member may join a political party within 6 months of taking their seat without inviting disqualification; after that they are disqualified.",rel:[]},
+  {topic:"adl",d:"M",q:"The phrase 'one-party dominance' or 'the Congress System' to describe Indian politics is associated with:",o:["Morris Jones and Rajni Kothari","B.R. Ambedkar","Granville Austin","K.C. Wheare"],a:0,ex:"Morris Jones described 'one party dominance' and Rajni Kothari called it 'the Congress System'. Since 2014, the system has returned to one-party dominance under the BJP.",rel:[]},
+
+  // ---- Local Government ----
+  {topic:"local",d:"E",q:"The 73rd Amendment (1992) deals with which local bodies?",o:["Urban (municipalities)","Rural (Panchayati Raj)","Autonomous District Councils","Cantonment boards"],a:1,ex:"The 73rd Amendment constitutionalised rural Panchayati Raj (Part IX, Eleventh Schedule). The 74th Amendment covers urban municipalities (Part IXA, Twelfth Schedule).",rel:["dpsp"]},
+  {topic:"local",d:"M",q:"The Eleventh Schedule (added by the 73rd Amendment) lists how many subjects?",o:["18 subjects","22 subjects","29 subjects","52 subjects"],a:2,ex:"The Eleventh Schedule lists 29 subjects for panchayats. The Twelfth Schedule (74th Amendment) lists 18 subjects for municipalities.",rel:[]},
+  {topic:"local",d:"M",q:"What fraction of seats in panchayats and municipalities is reserved for women?",o:["One-fourth","One-third","One-half","Two-thirds"],a:1,ex:"One-third of seats are reserved for women, along with SC/ST reservation in proportion to population.",rel:[]},
+  {topic:"local",d:"H",q:"The three types of urban municipalities under the 74th Amendment are Nagar Panchayat, Municipal Council and:",o:["Gram Panchayat","Municipal Corporation","Zila Parishad","District Council"],a:1,ex:"The three types are Nagar Panchayat (transitional area), Municipal Council (smaller urban) and Municipal Corporation (larger urban).",rel:[]},
+  {topic:"local",d:"H",q:"Elections to local bodies are conducted by the:",o:["Election Commission of India","State Election Commission","State Finance Commission","District Election Officer"],a:1,ex:"The State Election Commission conducts local body elections; a State Finance Commission (every 5 years) reviews their finances.",rel:["cbody"]},
+
+  // ---- Sixth Schedule ----
+  {topic:"sixth",d:"M",q:"The Sixth Schedule provides for the administration of tribal areas in which states?",o:["Andhra Pradesh, Telangana, Odisha, Jharkhand","Assam, Meghalaya, Tripura, Mizoram","Nagaland, Manipur, Sikkim, Arunachal","Rajasthan, Gujarat, MP, Maharashtra"],a:1,ex:"The Sixth Schedule (Art 244(2) & 275(1)) covers tribal areas in Assam, Meghalaya, Tripura and Mizoram. The Fifth Schedule covers scheduled areas in other states.",rel:["citizen"]},
+  {topic:"sixth",d:"H",q:"The sub-committee that recommended District & Regional Councils for the North-East tribal areas was headed by:",o:["Fazl Ali","Gopinath Bordoloi","S.K. Dhar","B.N. Rau"],a:1,ex:"The Bordoloi Sub-Committee (chaired by Gopinath Bordoloi, then CM of Assam) recommended the District and Regional Councils. Saprawnga and Khawtinkhuma were co-opted to represent the Mizos.",rel:[]},
+  {topic:"sixth",d:"M",q:"An Autonomous District Council under the Sixth Schedule has a maximum of how many members?",o:["20 members","26 members","30 members","40 members"],a:2,ex:"Each ADC has up to 30 members — up to 4 nominated by the Governor and the rest elected by universal adult suffrage; term 5 years.",rel:[]},
+  {topic:"sixth",d:"H",q:"The three Autonomous District Councils of Mizoram are Lai, Chakma and:",o:["Pawi","Mara","Lakher","Hmar"],a:1,ex:"Mizoram's three ADCs are Lai (Lawngtlai), Mara (Siaha) and Chakma (Chawngte). ('Pawi' and 'Lakher' were the older names for the Lai and Mara councils.)",rel:[]},
+  {topic:"sixth",d:"M",q:"Who is the executive head of the Autonomous District Councils in Mizoram?",o:["The Chief Minister","The Governor","The Chief Executive Member","The President"],a:1,ex:"The Governor of Mizoram is the executive head of the ADCs; laws passed by a District Council require the Governor's approval before coming into force.",rel:[]},
+  {topic:"sixth",d:"H",q:"The Lushai Hills District Council came into being in 1952 and was renamed in 1954 as the:",o:["Mizo Hills District Council","Mizoram District Council","Aizawl District Council","Lai District Council"],a:0,ex:"The Lushai Hills District Council (1952) was renamed the Mizo Hills District Council in 1954, established under the Assam Autonomous District (Constitution of District Council) Act 1951.",rel:[]},
+
+  // ---- Pressure Groups ----
+  {topic:"pg",d:"M",q:"The term 'pressure group' originated in:",o:["The UK","The USA","India","France"],a:1,ex:"The term originated in the USA. Pressure groups influence policy without contesting elections (unlike political parties).",rel:[]},
+  {topic:"pg",d:"H",q:"INTUC, the first trade union of India (founded 1920 with Lala Lajpat Rai), is affiliated to which party?",o:["BJP","Congress","CPI","CPI(M)"],a:1,ex:"INTUC is affiliated to the Congress. Other unions: AITUC (CPI), CITU (CPI-M), BMS (BJP), HMS (Socialist).",rel:[]},
+  {topic:"pg",d:"M",q:"Which is the most powerful category of pressure group in India?",o:["Student organisations","Business groups (e.g. FICCI, ASSOCHAM)","Religious groups","Anomic groups"],a:1,ex:"Business groups such as FICCI and ASSOCHAM are the most sophisticated and powerful pressure groups in India, and tend to stay free of party affiliation.",rel:[]},
+  {topic:"pg",d:"H",q:"Groups that arise spontaneously — through riots, demonstrations, or agitations — are called:",o:["Associational groups","Institutional groups","Anomic groups","Non-associational groups"],a:2,ex:"Anomic groups (e.g. ULFA, Naxalite groups, JKLF) are spontaneous breakthroughs into the political system, often using violence or extra-constitutional means.",rel:[]},
+
+  // ---- Comparative ----
+  {topic:"comp",d:"M",q:"The parliamentary form of government, rule of law and single citizenship were borrowed from:",o:["The USA","The UK","Ireland","Canada"],a:1,ex:"The parliamentary system, cabinet, rule of law, single citizenship, writs and the Speaker's office were borrowed from the UK.",rel:["exec"]},
+  {topic:"comp",d:"M",q:"Fundamental Rights and judicial review were borrowed from the constitution of:",o:["The UK","The USA","Ireland","Australia"],a:1,ex:"Fundamental Rights, judicial review, independence of the judiciary, the office of Vice-President and impeachment of the President came from the USA.",rel:["fr"]},
+  {topic:"comp",d:"H",q:"The Concurrent List and the joint sitting of the two Houses (Article 108) were borrowed from:",o:["Canada","Australia","South Africa","Germany"],a:1,ex:"The Concurrent List, joint sitting (Art 108) and freedom of trade & commerce came from Australia.",rel:["fed"]},
+  {topic:"comp",d:"M",q:"The ideals of Liberty, Equality, Fraternity and the concept of a 'Republic' were drawn from:",o:["The USA","France","USSR","Ireland"],a:1,ex:"The ideals of Liberty, Equality, Fraternity and the concept of a Republic were drawn from France. The USSR gave Fundamental Duties.",rel:["preamble","fd"]},
+  {topic:"comp",d:"H",q:"A strong Centre with residuary powers, and the appointment of Governors by the Centre, were modelled on:",o:["The USA","Canada","Australia","South Africa"],a:1,ex:"India's strong Centre, residuary powers with the Centre, centrally appointed Governors and the SC's advisory jurisdiction were modelled on Canada.",rel:["fed"]}
+];
+
+/* -------------------- FLASHCARDS --------------------
+   { topic, f:front, b:back } */
+const FLASH = [
+  {topic:"hist", f:"First Governor-General of Bengal (Regulating Act 1773)?", b:"Lord Warren Hastings."},
+  {topic:"hist", f:"GoI Act 1919 is also known as?", b:"Montagu–Chelmsford Reforms (introduced provincial dyarchy)."},
+  {topic:"hist", f:"GoI Act 1935 — Sections & Schedules?", b:"321 Sections and 10 Schedules (longest British Act)."},
+  {topic:"hist", f:"Residuary powers under the GoI Act 1935 rested with?", b:"The Viceroy."},
+  {topic:"hist", f:"Treaty that gave the Company Diwani rights (1765)?", b:"Treaty of Allahabad — Shah Alam II & Robert Clive."},
+  {topic:"ca", f:"Who first proposed a Constituent Assembly (1934)?", b:"M.N. Roy."},
+  {topic:"ca", f:"Chairman of the Drafting Committee?", b:"Dr. B.R. Ambedkar (committee of 7, formed 29 Aug 1947)."},
+  {topic:"ca", f:"Permanent Chairman of the Constituent Assembly?", b:"Dr. Rajendra Prasad (first temporary: Dr. Sachchidananda Sinha)."},
+  {topic:"ca", f:"Constitution adopted & came into force on?", b:"Adopted 26 Nov 1949; in force 26 Jan 1950."},
+  {topic:"ca", f:"Constitution Day is observed on?", b:"26 November (since 2015)."},
+  {topic:"preamble", f:"Three words added to the Preamble by the 42nd Amendment?", b:"Socialist, Secular, Integrity."},
+  {topic:"preamble", f:"Is the Preamble justiciable?", b:"No — it is part of the Constitution but non-justiciable."},
+  {topic:"preamble", f:"Preamble is based on which document?", b:"The Objectives Resolution (moved by Nehru, 22 Jan 1947)."},
+  {topic:"union", f:"Article 1 describes India as?", b:"'A Union of States' (states cannot secede)."},
+  {topic:"union", f:"Article 3 changes (new states, boundaries) need what majority?", b:"Simple majority (+ President's prior recommendation)."},
+  {topic:"union", f:"States Reorganisation Commission (1953) chairman?", b:"Fazl Ali (members: K.M. Panikkar, H.N. Kunzru)."},
+  {topic:"union", f:"States & UTs as of Jan 2025?", b:"28 states and 8 UTs."},
+  {topic:"citizen", f:"Articles dealing with citizenship?", b:"Articles 5–11 (Part II); law = Citizenship Act 1955."},
+  {topic:"citizen", f:"Five modes of acquiring citizenship?", b:"Birth, descent, registration, naturalisation, incorporation of territory."},
+  {topic:"citizen", f:"CAA 2019 came into effect on?", b:"11 March 2024."},
+  {topic:"citizen", f:"Assam Accord cut-off for deemed citizenship?", b:"Before 1 Jan 1966 (deemed citizens)."},
+  {topic:"fr", f:"Right to Property was removed from FRs by which amendment?", b:"44th Amendment (1978) — now Art 300A, a legal right."},
+  {topic:"fr", f:"'Heart and soul of the Constitution'?", b:"Article 32 (Right to Constitutional Remedies) — Ambedkar."},
+  {topic:"fr", f:"Five writs under Article 32?", b:"Habeas Corpus, Mandamus, Prohibition, Certiorari, Quo-Warranto."},
+  {topic:"fr", f:"Which FRs can never be suspended in emergency?", b:"Articles 20 and 21."},
+  {topic:"fr", f:"Article 21A (Right to Education) added by?", b:"86th Amendment (2002), for children aged 6–14."},
+  {topic:"fr", f:"Article 30 protects whom?", b:"Linguistic or religious minorities (right to run institutions)."},
+  {topic:"dpsp", f:"DPSP — Part & Articles?", b:"Part IV, Articles 36–51 (non-justiciable, from Ireland)."},
+  {topic:"dpsp", f:"Three categories of DPSP?", b:"Socialistic, Gandhian, Liberal-Intellectual."},
+  {topic:"dpsp", f:"Article 44 deals with?", b:"Uniform Civil Code (Liberal-Intellectual)."},
+  {topic:"dpsp", f:"Article 40 deals with?", b:"Organisation of village panchayats (Gandhian)."},
+  {topic:"fd", f:"Fundamental Duties inspired by which country?", b:"The erstwhile USSR."},
+  {topic:"fd", f:"Fundamental Duties added by & where?", b:"42nd Amendment (1976); Part IVA, Article 51A."},
+  {topic:"fd", f:"11th Fundamental Duty added by?", b:"86th Amendment (2002) — education for a child aged 6–14."},
+  {topic:"amend", f:"42nd Amendment is called?", b:"The 'Mini Constitution'."},
+  {topic:"amend", f:"Basic Structure Doctrine established in?", b:"Kesavananda Bharati v. State of Kerala (1973)."},
+  {topic:"amend", f:"Which case held Parliament can't amend Part III?", b:"Golak Nath (1967)."},
+  {topic:"amend", f:"GST introduced by which amendment?", b:"101st Amendment (2016)."},
+  {topic:"amend", f:"Voting age 21→18 by which amendment?", b:"61st Amendment (1988)."},
+  {topic:"amend", f:"Women's reservation (one-third) amendment?", b:"106th Amendment (2023)."},
+  {topic:"parl", f:"Parliament (Art 79) consists of?", b:"President + Rajya Sabha + Lok Sabha."},
+  {topic:"parl", f:"Max strength of Rajya Sabha?", b:"250 (238 elected + 12 nominated)."},
+  {topic:"parl", f:"Who decides if a Bill is a Money Bill?", b:"The Speaker of the Lok Sabha (final)."},
+  {topic:"parl", f:"Rajya Sabha must return a Money Bill within?", b:"14 days (cannot reject/amend)."},
+  {topic:"parl", f:"Quorum in either House?", b:"One-tenth of total members."},
+  {topic:"parl", f:"Joint sitting (Art 108) is presided over by?", b:"The Speaker of the Lok Sabha."},
+  {topic:"exec", f:"How is the President elected?", b:"Indirectly — proportional representation, single transferable vote."},
+  {topic:"exec", f:"Minimum age to be President?", b:"35 years."},
+  {topic:"exec", f:"VP is ex-officio Chairman of?", b:"The Rajya Sabha (Art 64)."},
+  {topic:"exec", f:"Max size of Council of Ministers?", b:"15% of Lok Sabha strength (91st Amendment)."},
+  {topic:"exec", f:"Consolidated Fund of India — Article?", b:"Article 266 (Contingency Fund = Art 267)."},
+  {topic:"exec", f:"An ordinance lapses within how long of Parliament reassembling?", b:"Six weeks (Article 123)."},
+  {topic:"judi", f:"SC's original jurisdiction (Centre–state) Article?", b:"Article 131."},
+  {topic:"judi", f:"PIL originated in?", b:"The USA (as Social Action Litigation)."},
+  {topic:"judi", f:"First landmark PIL in India?", b:"Hussainara Khatoon v. State of Bihar (1979)."},
+  {topic:"judi", f:"Body struck down by the SC in 2015?", b:"The NJAC (99th Amendment / NJAC Act 2015)."},
+  {topic:"judi", f:"Tribunals (Part XIV-A) added by?", b:"42nd Amendment (1976) — Art 323A & 323B."},
+  {topic:"fed", f:"Indian federalism is described as?", b:"Quasi-federal / 'federation sui generis' (Canadian model)."},
+  {topic:"fed", f:"Seventh Schedule — three Lists & counts?", b:"Union (100), State (59), Concurrent (52)."},
+  {topic:"fed", f:"5 subjects moved State→Concurrent by 42nd Amdt?", b:"Education, forests, weights & measures, wildlife protection, administration of justice."},
+  {topic:"fed", f:"Inter-State Council — Article?", b:"Article 263 (river disputes = Art 262)."},
+  {topic:"emerg", f:"National Emergency — Article & grounds?", b:"Article 352 — war, external aggression, armed rebellion."},
+  {topic:"emerg", f:"President's Rule maximum duration?", b:"3 years (Article 356)."},
+  {topic:"emerg", f:"Article allowing Parliament to legislate on State List in emergency?", b:"Article 250."},
+  {topic:"emerg", f:"National Emergency proclaimed how many times?", b:"Three: 1962, 1971, 1975."},
+  {topic:"cbody", f:"Election Commission — Article?", b:"Article 324 (permanent, 3-member body)."},
+  {topic:"cbody", f:"CEC's term?", b:"6 years or age 65, whichever is earlier."},
+  {topic:"cbody", f:"UPSC — Articles?", b:"Articles 315–323 (recommendations are advisory)."},
+  {topic:"cbody", f:"Finance Commission — Article & frequency?", b:"Article 280; every 5 years."},
+  {topic:"cbody", f:"CAG — Articles?", b:"Articles 148–151."},
+  {topic:"rpa", f:"Electoral system Articles?", b:"Articles 324–329 (Part XV)."},
+  {topic:"rpa", f:"Section 33(7) RPA allows contesting from?", b:"Up to two constituencies."},
+  {topic:"rpa", f:"EVMs introduced in?", b:"2003."},
+  {topic:"rpa", f:"RPA 1951 — original parts & sections?", b:"13 parts and 171 sections."},
+  {topic:"adl", f:"Anti-defection law — amendment & Schedule?", b:"52nd Amendment (1985); Tenth Schedule."},
+  {topic:"adl", f:"Who decides defection cases?", b:"The presiding officer (Speaker/Chairman)."},
+  {topic:"adl", f:"91st Amendment (2003) removed which exception?", b:"The one-third 'split' exception."},
+  {topic:"local", f:"73rd & 74th Amendments deal with?", b:"73rd = rural Panchayati Raj; 74th = urban municipalities (1992)."},
+  {topic:"local", f:"Eleventh & Twelfth Schedule subjects?", b:"11th = 29 subjects (panchayats); 12th = 18 subjects (municipalities)."},
+  {topic:"local", f:"Reservation for women in local bodies?", b:"One-third of seats."},
+  {topic:"sixth", f:"Sixth Schedule covers tribal areas in?", b:"Assam, Meghalaya, Tripura, Mizoram."},
+  {topic:"sixth", f:"Sixth Schedule Articles?", b:"Article 244(2) and 275(1)."},
+  {topic:"sixth", f:"Mizoram's three ADCs?", b:"Lai (Lawngtlai), Mara (Siaha), Chakma (Chawngte)."},
+  {topic:"sixth", f:"Executive head of Mizoram's ADCs?", b:"The Governor of Mizoram."},
+  {topic:"sixth", f:"Sub-committee behind the District Councils?", b:"Bordoloi Sub-Committee (Gopinath Bordoloi)."},
+  {topic:"pg", f:"Term 'pressure group' originated in?", b:"The USA."},
+  {topic:"pg", f:"INTUC is affiliated to which party?", b:"Congress (first union, 1920, Lala Lajpat Rai)."},
+  {topic:"pg", f:"Groups arising spontaneously (riots/agitations)?", b:"Anomic groups."},
+  {topic:"comp", f:"Directive Principles borrowed from?", b:"Ireland."},
+  {topic:"comp", f:"Concurrent List & joint sitting (Art 108) borrowed from?", b:"Australia."},
+  {topic:"comp", f:"Liberty, Equality, Fraternity & 'Republic' from?", b:"France."},
+  {topic:"comp", f:"Fundamental Rights & judicial review from?", b:"The USA."}
+];
+</script>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">
+      <div class="seal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#e7d9b3" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 3l7 3v5c0 4.2-2.8 7.6-7 9-4.2-1.4-7-4.8-7-9V6l7-3z"/><path d="M9 12l2 2 4-4"/>
+        </svg>
+      </div>
+      <div class="brand-txt">
+        <span class="wm">Polity <b>Codex</b></span>
+        <span class="sub">Indian Polity · Exam Prep</span>
+      </div>
+    </div>
+    <div class="topstats" id="topstats"></div>
+  </div>
+</header>
+
+<nav class="tabrail">
+  <div class="tabrail-inner" id="tabrail"></div>
+</nav>
+
+<main class="wrap">
+  <!-- STUDY -->
+  <section class="view" id="view-study">
+    <div class="vhead">
+      <div class="eyebrow">The Codex · Section I</div>
+      <h2>Study Guide</h2>
+      <p>The full syllabus organised into 21 topics, from the colonial statutes to the Sixth Schedule. Every note carries its constitutional citation. Search the whole codex, or jump to a topic from the index.</p>
+    </div>
+    <div class="study-search">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg>
+      <input id="studySearch" type="search" placeholder="Search notes — e.g. 'Article 32', 'CAA', 'emergency', 'Kesavananda'…" autocomplete="off">
+    </div>
+    <div class="study-grid">
+      <aside class="study-index" id="studyIndex"></aside>
+      <div id="studyBody"></div>
+    </div>
+  </section>
+
+  <!-- PRACTICE -->
+  <section class="view" id="view-practice">
+    <div class="vhead">
+      <div class="eyebrow">The Codex · Section II</div>
+      <h2>Practice Questions</h2>
+      <p>Answer one at a time and get the reasoning instantly. Filter by topic and difficulty; every answer links back to the relevant study notes so you can close the gap on the spot.</p>
+    </div>
+    <div class="filterbar">
+      <div class="frow"><span class="flabel">Topic</span><div class="chipscroll" id="pTopics"></div></div>
+      <div class="frow"><span class="flabel">Level</span><div class="chipscroll" id="pDiff"></div>
+        <button class="btn ghost" id="pShuffle" style="margin-left:auto;padding:7px 13px;font-size:12.5px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 3h5v5"/><path d="M4 20L21 3"/><path d="M21 16v5h-5"/><path d="M15 15l6 6"/><path d="M4 4l5 5"/></svg>Shuffle</button>
+      </div>
+    </div>
+    <div id="practiceHost"></div>
+  </section>
+
+  <!-- MOCK -->
+  <section class="view" id="view-mock">
+    <div class="vhead">
+      <div class="eyebrow">The Codex · Section III</div>
+      <h2>Mock Test</h2>
+      <p>A timed, exam-style set drawn at random. No feedback until you submit — then a full scored review with explanations and topic links.</p>
+    </div>
+    <div id="mockHost"></div>
+  </section>
+
+  <!-- FLASHCARDS -->
+  <section class="view" id="view-flash">
+    <div class="vhead">
+      <div class="eyebrow">The Codex · Section IV</div>
+      <h2>Flashcards</h2>
+      <p>Rapid recall drills. Tap a card to flip, then mark it <em>Known</em> or <em>Review</em>. Filter by topic and shuffle the deck.</p>
+    </div>
+    <div class="filterbar">
+      <div class="frow"><span class="flabel">Topic</span><div class="chipscroll" id="fTopics"></div></div>
+    </div>
+    <div id="flashHost"></div>
+  </section>
+</main>
+
+<script>/* ================= POLITY CODEX — app ================= */
+(function(){
+"use strict";
+const $=(s,r=document)=>r.querySelector(s);
+const $$=(s,r=document)=>[...r.querySelectorAll(s)];
+const el=(t,c,h)=>{const n=document.createElement(t);if(c)n.className=c;if(h!=null)n.innerHTML=h;return n;};
+const esc=s=>String(s).replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));
+const shuffle=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;};
+const TOPIC=Object.fromEntries(TOPICS.map(t=>[t.id,t]));
+const KEYS=["A","B","C","D"];
+const DIFF={E:"Easy",M:"Medium",H:"Hard"};
+const arrow=`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg>`;
+const link=`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 15l6-6"/><path d="M11 6l.5-.5a4 4 0 016 6l-.5.5"/><path d="M13 18l-.5.5a4 4 0 01-6-6l.5-.5"/></svg>`;
+
+/* ---------- top stats ---------- */
+$("#topstats").innerHTML =
+  `<span class="topstat"><b>${MCQ.length}</b> MCQs</span>`+
+  `<span class="topstat"><b>${FLASH.length}</b> cards</span>`+
+  `<span class="topstat"><b>${TOPICS.length}</b> topics</span>`;
+
+/* ---------- tabs ---------- */
+const TABS=[
+  {id:"study",label:"Study",cnt:TOPICS.length,icon:`<path d="M4 5a2 2 0 012-2h9l5 5v11a2 2 0 01-2 2H6a2 2 0 01-2-2z"/><path d="M14 3v6h6"/>`},
+  {id:"practice",label:"Practice",cnt:MCQ.length,icon:`<path d="M9 11l3 3 8-8"/><path d="M20 12v6a2 2 0 01-2 2H6a2 2 0 01-2-2V6a2 2 0 012-2h9"/>`},
+  {id:"mock",label:"Mock Test",cnt:"⏱",icon:`<circle cx="12" cy="13" r="8"/><path d="M12 9v4l2 2"/><path d="M9 2h6"/>`},
+  {id:"flash",label:"Flashcards",cnt:FLASH.length,icon:`<rect x="3" y="6" width="14" height="11" rx="2"/><path d="M8 3h11a2 2 0 012 2v9"/>`}
+];
+const rail=$("#tabrail");
+TABS.forEach(t=>{
+  const b=el("button","tab"+(t.id==="study"?" active":""));
+  b.dataset.tab=t.id;
+  b.innerHTML=`<svg class="ti" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">${t.icon}</svg>${t.label}<span class="cnt">${t.cnt}</span>`;
+  b.onclick=()=>switchTab(t.id);
+  rail.appendChild(b);
+});
+function switchTab(id){
+  $$(".tab").forEach(t=>t.classList.toggle("active",t.dataset.tab===id));
+  $$(".view").forEach(v=>v.classList.toggle("active",v.id==="view-"+id));
+  window.scrollTo({top:0,behavior:"auto"});
+}
+
+/* ================= STUDY ================= */
+function buildStudy(){
+  const idx=$("#studyIndex"), body=$("#studyBody");
+  idx.innerHTML=`<div class="ihead">Topics</div>`;
+  STUDY.forEach((s,i)=>{
+    const t=TOPIC[s.topic];
+    const item=el("button","idx-item");
+    item.dataset.sec=s.topic;
+    item.innerHTML=`<span>${i+1}. ${esc(t.label)}</span><span class="tag">${esc(t.tag)}</span>`;
+    item.onclick=()=>{const sec=$("#sec-"+s.topic);sec.scrollIntoView({block:"start"});highlightIdx(s.topic);};
+    idx.appendChild(item);
+
+    const sec=el("section","sec");sec.id="sec-"+s.topic;
+    const pts=s.points.map(p=>`<div class="point" data-txt="${esc(p.toLowerCase())}"><span class="dot"></span><span>${boldify(p)}</span></div>`).join("");
+    sec.innerHTML=`
+      <div class="sec-head">
+        <span class="sec-num">${String(i+1).padStart(2,"0")}</span>
+        <h3>${esc(t.label)}</h3>
+        <span class="tag">${esc(s.chip)}</span>
+      </div>
+      <div class="sec-body">${pts}<div class="no-res" style="display:none">No matching notes in this topic.</div></div>`;
+    body.appendChild(sec);
+  });
+  // scroll spy
+  const secs=STUDY.map(s=>$("#sec-"+s.topic));
+  const io=new IntersectionObserver(en=>{
+    en.forEach(e=>{if(e.isIntersecting)highlightIdx(e.target.id.replace("sec-",""));});
+  },{rootMargin:"-130px 0px -70% 0px"});
+  secs.forEach(s=>io.observe(s));
+}
+function highlightIdx(topic){
+  $$("#studyIndex .idx-item").forEach(b=>b.classList.toggle("active",b.dataset.sec===topic));
+}
+// bold key phrases: Article/Amendment/Schedule numbers + terms already in the text stay; we bold "Article NN", "NNth Amendment", "Schedule", years
+function boldify(txt){
+  let h=esc(txt);
+  h=h.replace(/\b(Article\s?\d+[A-Z]?(?:\([^\)]+\))?|Articles\s?\d+[–-]\d+|\d+(?:st|nd|rd|th)\s+Amendment|(?:First|Second|Third|Fourth|Fifth|Sixth|Seventh|Eighth|Ninth|Tenth|Eleventh|Twelfth)\s+Schedule|Part\s+[IVXA]+)\b/g,'<b>$1</b>');
+  return h;
+}
+$("#studySearch").addEventListener("input",e=>{
+  const q=e.target.value.trim().toLowerCase();
+  STUDY.forEach(s=>{
+    const sec=$("#sec-"+s.topic);
+    let shown=0;
+    $$(".point",sec).forEach(p=>{
+      const m=!q||p.dataset.txt.includes(q)||TOPIC[s.topic].label.toLowerCase().includes(q)||s.chip.toLowerCase().includes(q);
+      p.classList.toggle("hide",!m);if(m)shown++;
+    });
+    $(".no-res",sec).style.display=(q&&shown===0)?"block":"none";
+    sec.style.display=(q&&shown===0)?"none":"";
+  });
+});
+
+/* ================= PRACTICE ================= */
+const P={topic:"all",diff:"all",list:[],i:0,answered:{},score:0,seen:0};
+function buildPracticeFilters(){
+  const tc=$("#pTopics");
+  tc.appendChild(mkChip("All topics",P.topic==="all",()=>setP("topic","all")));
+  TOPICS.forEach(t=>tc.appendChild(mkChip(t.label,false,()=>setP("topic",t.id),t.tag,"chip",t.id)));
+  const dc=$("#pDiff");
+  dc.appendChild(mkChip("All",true,()=>setP("diff","all"),null,"chip diff"));
+  Object.entries(DIFF).forEach(([k,v])=>dc.appendChild(mkChip(v,false,()=>setP("diff",k),null,"chip diff",k)));
+  $("#pShuffle").onclick=()=>{P.list=shuffle(P.list);P.i=0;P.answered={};P.score=0;P.seen=0;renderPractice();};
+  refreshP();
+}
+function mkChip(label,on,fn,tag,cls,key){
+  const c=el("button",(cls||"chip")+(on?" on":""));
+  if(key!=null)c.dataset.key=key;
+  c.innerHTML=esc(label)+(tag?`<span class="tg">${esc(tag)}</span>`:"");
+  c.onclick=fn;return c;
+}
+function setP(field,val){
+  P[field]=val;
+  const grp=field==="topic"?"#pTopics":"#pDiff";
+  $$(grp+" .chip").forEach(c=>{
+    const isAll=(field==="topic"&&val==="all"&&!c.dataset.key)||(field==="diff"&&val==="all"&&!c.dataset.key);
+    c.classList.toggle("on",c.dataset.key===val||isAll);
+  });
+  refreshP();
+}
+function refreshP(){
+  P.list=MCQ.map((m,idx)=>({...m,_id:idx})).filter(m=>(P.topic==="all"||m.topic===P.topic)&&(P.diff==="all"||m.d===P.diff));
+  P.list=shuffle(P.list);
+  P.i=0;P.answered={};P.score=0;P.seen=0;
+  renderPractice();
+}
+function renderPractice(){
+  const host=$("#practiceHost");host.innerHTML="";
+  if(!P.list.length){host.innerHTML=emptyMsg("No questions match this filter.");return;}
+  const q=P.list[P.i];
+  const wrap=el("div","qwrap");
+  const ans=P.answered[q._id];
+  const meta=el("div","qmeta");
+  meta.innerHTML=`<span class="dbadge d-${q.d}">${DIFF[q.d]}</span>
+    <span class="tag plain">${esc(TOPIC[q.topic].label)}</span>
+    <span class="qprogress">Question <b>${P.i+1}</b> of ${P.list.length}</span>
+    <span class="scorepill">Score <b>${P.score}</b>/${P.seen}</span>`;
+  wrap.appendChild(meta);
+
+  const card=el("div","qcard");
+  card.appendChild(el("div","qtext",esc(q.q)));
+  const opts=el("div","opts");
+  q.o.forEach((o,oi)=>{
+    const b=el("button","opt");
+    b.innerHTML=`<span class="key">${KEYS[oi]}</span><span>${esc(o)}</span>`;
+    if(ans!=null){
+      b.disabled=true;
+      if(oi===q.a){b.classList.add("correct");b.querySelector("span:last-child").insertAdjacentHTML("afterend",'<span class="rmark">✓</span>');}
+      else if(oi===ans){b.classList.add("wrong");b.querySelector("span:last-child").insertAdjacentHTML("afterend",'<span class="rmark">✕</span>');}
+    }else{
+      b.onclick=()=>answerP(q,oi);
+    }
+    opts.appendChild(b);
+  });
+  card.appendChild(opts);
+  card.appendChild(buildExplain(q,ans!=null));
+  wrap.appendChild(card);
+
+  const nav=el("div","qnav");
+  const prev=el("button","btn ghost",`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M11 6l-6 6 6 6"/></svg>Previous`);
+  prev.disabled=P.i===0;prev.onclick=()=>{P.i--;renderPractice();};
+  const next=el("button","btn primary",`Next${arrow}`);
+  next.disabled=P.i>=P.list.length-1;next.onclick=()=>{P.i++;renderPractice();};
+  nav.append(prev,el("div","spacer"),next);
+  wrap.appendChild(nav);
+  host.appendChild(wrap);
+}
+function answerP(q,oi){
+  if(P.answered[q._id]!=null)return;
+  P.answered[q._id]=oi;P.seen++;if(oi===q.a)P.score++;
+  renderPractice();
+}
+function buildExplain(q,show){
+  const box=el("div","explain"+(show?" show":""));
+  let rel="";
+  if(q.rel&&q.rel.length){
+    rel=`<div class="related"><div class="rhead">Related in the study guide</div><div class="rel-links">`+
+      q.rel.map(r=>`<button class="rlink" data-goto="${r}">${link}${esc(TOPIC[r].label)}</button>`).join("")+`</div></div>`;
+  }
+  const dig=q.dig?`<div class="dig"><span class="di">+</span><span><b>Go deeper —</b> ${boldify(q.dig)}</span></div>`:"";
+  box.innerHTML=`<div class="elabel">${link}Explanation</div><p>${boldify(q.ex)}</p>${rel}${dig}`;
+  box.querySelectorAll("[data-goto]").forEach(b=>b.onclick=()=>gotoStudy(b.dataset.goto));
+  return box;
+}
+function gotoStudy(topic){
+  switchTab("study");
+  requestAnimationFrame(()=>{
+    const sec=$("#sec-"+topic);
+    if(!sec)return;
+    sec.scrollIntoView({block:"start"});
+    sec.classList.remove("flash-hl");void sec.offsetWidth;sec.classList.add("flash-hl");
+    highlightIdx(topic);
+  });
+}
+
+/* ================= MOCK TEST ================= */
+const M={count:20,topic:"all",dur:20,list:[],i:0,ans:{},timer:null,left:0,phase:"config"};
+function renderMock(){
+  const host=$("#mockHost");host.innerHTML="";
+  if(M.phase==="config")return mockConfig(host);
+  if(M.phase==="run")return mockRun(host);
+  if(M.phase==="result")return mockResult(host);
+}
+function mockConfig(host){
+  const box=el("div","mock-config");
+  const card=el("div","cfg-card");
+  card.innerHTML=`
+    <div class="cfg-row"><div class="cl">Number of questions</div><div class="seg" id="mCount"></div></div>
+    <div class="cfg-row"><div class="cl">Topic scope</div><div class="seg" id="mTopic"></div></div>
+    <div class="cfg-row"><div class="cl">Time limit</div><div class="seg" id="mDur"></div></div>`;
+  box.appendChild(card);
+  const start=el("button","btn gold",`Start mock test${arrow}`);
+  start.style.cssText="width:100%;justify-content:center;padding:14px";
+  start.onclick=startMock;
+  box.appendChild(start);
+  host.appendChild(box);
+
+  const avail=id=>MCQ.filter(m=>M.topic==="all"||m.topic===M.topic).length;
+  const counts=$("#mCount",box);
+  [10,20,30].forEach(n=>counts.appendChild(mkSeg(n+" Q",M.count===n,()=>{M.count=n;renderMock();})));
+  const tp=$("#mTopic",box);
+  tp.appendChild(mkSeg("All topics",M.topic==="all",()=>{M.topic="all";clampCount();renderMock();}));
+  TOPICS.forEach(t=>tp.appendChild(mkSeg(t.label,M.topic===t.id,()=>{M.topic=t.id;clampCount();renderMock();})));
+  const du=$("#mDur",box);
+  [10,20,30].forEach(n=>du.appendChild(mkSeg(n+" min",M.dur===n,()=>{M.dur=n;renderMock();})));
+  const pool=avail();
+  const note=el("div","",`<span style="font-family:var(--f-mono);font-size:11px;color:var(--muted)">Pool: ${pool} questions available for this scope${pool<M.count?` — test will use all ${pool}.`:"."}</span>`);
+  note.style.cssText="text-align:center;margin-top:14px";
+  box.appendChild(note);
+}
+function clampCount(){const pool=MCQ.filter(m=>M.topic==="all"||m.topic===M.topic).length;if(M.count>pool)M.count=[10,20,30].filter(n=>n<=pool).pop()||pool;}
+function mkSeg(label,on,fn){const c=el("button","chip"+(on?" on":""));c.textContent=label;c.onclick=fn;return c;}
+function startMock(){
+  const pool=MCQ.map((m,idx)=>({...m,_id:idx})).filter(m=>M.topic==="all"||m.topic===M.topic);
+  M.list=shuffle(pool).slice(0,Math.min(M.count,pool.length));
+  M.i=0;M.ans={};M.phase="run";M.left=M.dur*60;
+  renderMock();
+  clearInterval(M.timer);
+  M.timer=setInterval(()=>{
+    M.left--;
+    const c=$("#mClock");
+    if(c){c.textContent=fmt(M.left);c.classList.toggle("warn",M.left<=60);}
+    if(M.left<=0){clearInterval(M.timer);submitMock();}
+  },1000);
+}
+function fmt(s){const m=Math.floor(s/60),x=s%60;return `${String(m).padStart(2,"0")}:${String(x).padStart(2,"0")}`;}
+function mockRun(host){
+  const answered=Object.keys(M.ans).length;
+  const bar=el("div","timerbar");
+  bar.innerHTML=`<span class="clock" id="mClock">${fmt(M.left)}</span>
+    <span class="tinfo"><b>${answered}</b>/${M.list.length} answered</span>`;
+  const submit=el("button","btn","Submit test");
+  submit.onclick=()=>{if(answered<M.list.length&&!confirm(`You have answered ${answered} of ${M.list.length}. Submit anyway?`))return;submitMock();};
+  bar.appendChild(submit);
+  host.appendChild(bar);
+
+  // palette
+  const pal=el("div","palette");
+  pal.innerHTML=`<div class="plabel">Question palette</div>`;
+  M.list.forEach((q,n)=>{
+    const b=el("button","pnum"+(M.ans[q._id]!=null?" answered":"")+(n===M.i?" current":""));
+    b.textContent=n+1;b.onclick=()=>{M.i=n;renderMock();};
+    pal.appendChild(b);
+  });
+  host.appendChild(pal);
+
+  const q=M.list[M.i];
+  const wrap=el("div","qwrap");
+  wrap.innerHTML=`<div class="qmeta"><span class="dbadge d-${q.d}">${DIFF[q.d]}</span><span class="tag plain">${esc(TOPIC[q.topic].label)}</span><span class="qprogress">Question <b>${M.i+1}</b> of ${M.list.length}</span></div>`;
+  const card=el("div","qcard");
+  card.appendChild(el("div","qtext",esc(q.q)));
+  const opts=el("div","opts");
+  q.o.forEach((o,oi)=>{
+    const b=el("button","opt");
+    b.innerHTML=`<span class="key">${KEYS[oi]}</span><span>${esc(o)}</span>`;
+    if(M.ans[q._id]===oi){b.style.borderColor="var(--ink)";b.style.background="#f3f6fb";b.querySelector(".key").style.cssText="background:var(--ink);color:#fff;border-color:var(--ink)";}
+    b.onclick=()=>{M.ans[q._id]=oi;renderMock();};
+    opts.appendChild(b);
+  });
+  card.appendChild(opts);
+  wrap.appendChild(card);
+
+  const nav=el("div","qnav");
+  const prev=el("button","btn ghost",`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M11 6l-6 6 6 6"/></svg>Previous`);
+  prev.disabled=M.i===0;prev.onclick=()=>{M.i--;renderMock();};
+  const clear=el("button","btn ghost","Clear");
+  clear.disabled=M.ans[q._id]==null;clear.onclick=()=>{delete M.ans[q._id];renderMock();};
+  const next=el("button","btn primary",`Next${arrow}`);
+  next.disabled=M.i>=M.list.length-1;next.onclick=()=>{M.i++;renderMock();};
+  nav.append(prev,clear,el("div","spacer"),next);
+  wrap.appendChild(nav);
+  host.appendChild(wrap);
+}
+function submitMock(){clearInterval(M.timer);M.phase="result";renderMock();window.scrollTo({top:0});}
+function mockResult(host){
+  let correct=0;M.list.forEach(q=>{if(M.ans[q._id]===q.a)correct++;});
+  const total=M.list.length,pct=Math.round(correct/total*100);
+  const used=M.dur*60-M.left;
+  const verdict=pct>=80?"Excellent command.":pct>=60?"Solid — a few gaps to close.":pct>=40?"Getting there — review the misses.":"Rebuild from the study notes.";
+  const C=2*Math.PI*64, off=C*(1-pct/100);
+  const hero=el("div","result-hero");
+  hero.innerHTML=`
+    <div class="rl">Mock test complete</div>
+    <div class="ring">
+      <svg width="150" height="150"><circle cx="75" cy="75" r="64" stroke="rgba(255,255,255,.14)" stroke-width="11" fill="none"/>
+      <circle cx="75" cy="75" r="64" stroke="#b0812a" stroke-width="11" fill="none" stroke-linecap="round" stroke-dasharray="${C}" stroke-dashoffset="${C}" id="ringC"/></svg>
+      <div class="pct">${pct}%<small>Score</small></div>
+    </div>
+    <h2>${correct} / ${total} correct</h2>
+    <div class="rsub">${verdict}</div>
+    <div class="rstats">
+      <div class="rstat"><div class="n g">${correct}</div><div class="l">Correct</div></div>
+      <div class="rstat"><div class="n r">${total-correct}</div><div class="l">Incorrect</div></div>
+      <div class="rstat"><div class="n">${fmt(used)}</div><div class="l">Time used</div></div>
+    </div>`;
+  host.appendChild(hero);
+  requestAnimationFrame(()=>{const r=$("#ringC");if(r){r.style.transition="stroke-dashoffset 1s ease";r.style.strokeDashoffset=off;}});
+
+  const bar=el("div","qnav");bar.style.justifyContent="center";
+  const retry=el("button","btn gold",`New mock test${arrow}`);
+  retry.onclick=()=>{M.phase="config";renderMock();};
+  const rev=el("button","btn ghost","Study weak topics");
+  rev.onclick=()=>switchTab("study");
+  bar.append(retry,rev);host.appendChild(bar);
+
+  const rh=el("div","review-head");
+  rh.innerHTML=`<h3>Answer review</h3><div class="rvfilter" id="rvf"></div>`;
+  host.appendChild(rh);
+  const listHost=el("div");host.appendChild(listHost);
+  let rvMode="all";
+  const rvf=$("#rvf",rh);
+  [["all","All"],["wrong","Incorrect only"]].forEach(([k,l])=>{
+    const c=mkSeg(l,rvMode===k,()=>{rvMode=k;$$("#rvf .chip").forEach(x=>x.classList.remove("on"));c.classList.add("on");drawReview();});
+    rvf.appendChild(c);
+  });
+  drawReview();
+  function drawReview(){
+    listHost.innerHTML="";
+    M.list.forEach((q,n)=>{
+      const my=M.ans[q._id], ok=my===q.a;
+      if(rvMode==="wrong"&&ok)return;
+      const item=el("div","rev-item");
+      let opts="";
+      q.o.forEach((o,oi)=>{
+        let cls="",mk="";
+        if(oi===q.a){cls="ok";mk="Correct answer";}
+        if(oi===my&&!ok){cls="no";mk="Your answer";}
+        opts+=`<div class="rev-opt ${cls}"><span class="rk">${KEYS[oi]}</span><span>${esc(o)}</span>${mk?`<span class="mk">${mk}</span>`:""}</div>`;
+      });
+      if(my==null)opts+=`<div class="rev-opt no"><span class="rk">–</span><span style="font-style:italic">Not answered</span></div>`;
+      let rel="";
+      if(q.rel&&q.rel.length)rel=`<div class="rev-rel">`+q.rel.map(r=>`<button class="rlink" data-goto="${r}">${link}${esc(TOPIC[r].label)}</button>`).join("")+`</div>`;
+      item.innerHTML=`<div class="rev-q"><span class="qn">${String(n+1).padStart(2,"0")}</span><span class="qt">${esc(q.q)}</span></div>${opts}<div class="rev-ex"><b>Why:</b> ${boldify(q.ex)}</div>${rel}`;
+      item.querySelectorAll("[data-goto]").forEach(b=>b.onclick=()=>gotoStudy(b.dataset.goto));
+      listHost.appendChild(item);
+    });
+    if(!listHost.children.length)listHost.innerHTML=`<div class="empty">No incorrect answers — clean sheet.</div>`;
+  }
+}
+
+/* ================= FLASHCARDS ================= */
+const F={topic:"all",list:[],i:0,flipped:false,known:new Set(),review:new Set()};
+function buildFlashFilters(){
+  const tc=$("#fTopics");
+  tc.appendChild(mkChip("All topics",true,()=>setF("all")));
+  TOPICS.forEach(t=>{
+    const has=FLASH.some(f=>f.topic===t.id);
+    if(has)tc.appendChild(mkChip(t.label,false,()=>setF(t.id),t.tag,"chip",t.id));
+  });
+  refreshF();
+}
+function setF(val){
+  F.topic=val;
+  $$("#fTopics .chip").forEach(c=>c.classList.toggle("on",c.dataset.key===val||(val==="all"&&!c.dataset.key)));
+  refreshF();
+}
+function refreshF(){
+  F.list=shuffle(FLASH.map((f,idx)=>({...f,_id:idx})).filter(f=>F.topic==="all"||f.topic===F.topic));
+  F.i=0;F.flipped=false;F.known=new Set();F.review=new Set();
+  renderFlash();
+}
+function renderFlash(){
+  const host=$("#flashHost");host.innerHTML="";
+  if(!F.list.length){host.innerHTML=emptyMsg("No flashcards for this topic.");return;}
+  const done=F.known.size+F.review.size;
+  if(done>=F.list.length){return flashDone(host);}
+  // advance to next unmarked
+  while(F.i<F.list.length && (F.known.has(F.list[F.i]._id)||F.review.has(F.list[F.i]._id)))F.i++;
+  if(F.i>=F.list.length){return flashDone(host);}
+  const c=F.list[F.i];
+  const stage=el("div","fc-stage");
+  const meta=el("div","fc-meta");
+  meta.innerHTML=`<span class="tag plain">${esc(TOPIC[c.topic].label)}</span>
+    <span class="qprogress">Card <b>${done+1}</b> of ${F.list.length}</span>
+    <span class="scorepill" style="margin-left:auto">Known <b style="color:var(--green)">${F.known.size}</b> · Review <b style="color:var(--gold-2)">${F.review.size}</b></span>`;
+  stage.appendChild(meta);
+
+  const cardEl=el("div","fc-card"+(F.flipped?" flipped":""));
+  cardEl.innerHTML=`
+    <div class="fc-inner">
+      <div class="fc-face fc-front">
+        <div class="fc-top"><span class="side">Prompt</span><span class="tag">${esc(TOPIC[c.topic].tag)}</span></div>
+        <div class="fc-content"><div class="q">${esc(c.f)}</div></div>
+        <div class="fc-hint">Tap to reveal answer</div>
+      </div>
+      <div class="fc-face fc-back">
+        <div class="fc-top"><span class="side">Answer</span><span class="tag ink">${esc(TOPIC[c.topic].tag)}</span></div>
+        <div class="fc-content"><div class="a">${esc(c.b)}</div></div>
+        <div class="fc-hint">Mark it below</div>
+      </div>
+    </div>`;
+  cardEl.onclick=()=>{F.flipped=!F.flipped;cardEl.classList.toggle("flipped");};
+  stage.appendChild(cardEl);
+
+  const act=el("div","fc-actions");
+  const rev=el("button","btn review",`↻ Review`);
+  rev.onclick=()=>{F.review.add(c._id);F.flipped=false;renderFlash();};
+  const flip=el("button","btn ghost",F.flipped?"Show prompt":"Flip card");
+  flip.onclick=()=>{F.flipped=!F.flipped;cardEl.classList.toggle("flipped");flip.textContent=F.flipped?"Show prompt":"Flip card";};
+  const known=el("button","btn known",`✓ Known`);
+  known.onclick=()=>{F.known.add(c._id);F.flipped=false;renderFlash();};
+  act.append(rev,flip,known);
+  stage.appendChild(act);
+
+  const prog=el("div","fc-progress");
+  prog.innerHTML=`<span><b>${done}</b> done</span><div class="fc-bar"><i style="width:${done/F.list.length*100}%"></i></div><span><b>${F.list.length-done}</b> left</span>`;
+  stage.appendChild(prog);
+  host.appendChild(stage);
+}
+function flashDone(host){
+  const d=el("div","deckdone");
+  d.innerHTML=`<div class="big">Deck complete</div>
+    <p style="color:var(--muted);margin:0 0 20px">You marked <b style="color:var(--green)">${F.known.size} known</b> and <b style="color:var(--gold-2)">${F.review.size} for review</b>.</p>`;
+  const row=el("div","qnav");row.style.justifyContent="center";
+  if(F.review.size){
+    const rev=el("button","btn gold","Drill the review pile");
+    rev.onclick=()=>{const rset=F.review;F.list=F.list.filter(f=>rset.has(f._id));F.i=0;F.flipped=false;F.known=new Set();F.review=new Set();renderFlash();};
+    row.appendChild(rev);
+  }
+  const again=el("button","btn ghost","Restart deck");
+  again.onclick=()=>refreshF();
+  row.appendChild(again);
+  d.appendChild(row);host.appendChild(d);
+}
+
+function emptyMsg(t){return `<div class="empty"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg><div>${esc(t)}</div></div>`;}
+
+/* ---------- keyboard for practice/flash ---------- */
+document.addEventListener("keydown",e=>{
+  const active=$$(".view").find(v=>v.classList.contains("active"));
+  if(!active)return;
+  if(active.id==="view-flash"&&F.list.length){
+    if(e.key===" "||e.key==="Enter"){e.preventDefault();const c=$(".fc-card");if(c){F.flipped=!F.flipped;c.classList.toggle("flipped");}}
+  }
+  if(active.id==="view-practice"&&P.list.length){
+    const q=P.list[P.i];
+    if(P.answered[q._id]==null&&["1","2","3","4"].includes(e.key)){answerP(q,+e.key-1);}
+    if(e.key==="ArrowRight"&&P.i<P.list.length-1){P.i++;renderPractice();}
+    if(e.key==="ArrowLeft"&&P.i>0){P.i--;renderPractice();}
+  }
+});
+
+/* ---------- init ---------- */
+buildStudy();
+buildPracticeFilters();
+renderMock();
+buildFlashFilters();
+})();
+</script>
+</body>
+</html>

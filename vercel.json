@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/((?!assets/|codex/|labs/|maps/|favicon).*)", "destination": "/index.html" }
+  ]
+}

@@ -2,6 +2,36 @@
 
 A personal-use, India-focused interactive study map.
 
+## Redesign — switchable shell (2026-07)
+
+The app shipped a Claude Design redesign ("Redesign for modern UX and
+scalability") implementing all four explored directions as a **live,
+switchable layout** rather than picking just one:
+
+- **2a — Unified Rail** *(default)* — persistent icon rail, docked chapter
+  list + facts/quiz columns.
+- **1a — Rail & Launcher** — same rail, grouped module cards on Home.
+- **1b — Command Deck** — top nav bar + search instead of a rail; stat
+  strip + flat module rows on Home.
+- **1c — Focus Atlas** — map-first: no persistent chrome at all, floating
+  chapter/facts cards over a full-bleed map, chrome-free centered Home.
+
+Switch between them from the layout icon in the rail (or the ⚏ icon in
+the Command Deck's top-right). The choice persists per device. See
+`src/lib/shellStyles.ts` for the exact chrome config per style, and
+`src/components/shell/` for Rail / CommandBar / AppShell / ShellSwitcher.
+
+Home is now `/` (new dashboard, real progress data via `src/lib/stats.ts`);
+Study Map moved to `/map`. Desktop-only distinction — mobile always uses
+the original drawer + bottom-sheet chrome regardless of shell style.
+`docked-tree` (1b's collapsible chapter tree) currently renders identically
+to the plain docked list — a deliberate scope cut, not a bug.
+
+The global palette (`src/styles/globals.css` `:root`/`.dark`) was replaced
+with the redesign's dark-purple / light-classic tokens under the same
+variable names, so every screen — including PYQ/Flashcards/Mind Maps,
+which weren't in the mockup — picked it up automatically.
+
 ## Run locally
 
 ```bash

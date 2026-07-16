@@ -7,6 +7,8 @@ import type { Chapter, Layer } from '@/types';
 
 interface LeftPanelProps {
   chapter: Chapter;
+  /** Render without the docked column chrome — used inside a floating card (shell style 1c). */
+  floating?: boolean;
 }
 
 function LayerToggle({ layer, on, onToggle }: { layer: Layer; on: boolean; onToggle: () => void }) {
@@ -40,7 +42,7 @@ function LayerToggle({ layer, on, onToggle }: { layer: Layer; on: boolean; onTog
   );
 }
 
-export function LeftPanel({ chapter }: LeftPanelProps) {
+export function LeftPanel({ chapter, floating }: LeftPanelProps) {
   const {
     currentChapterId,
     setChapter,
@@ -51,7 +53,7 @@ export function LeftPanel({ chapter }: LeftPanelProps) {
   } = useApp();
 
   return (
-    <aside className="surface w-72 h-full shrink-0 border-r flex flex-col overflow-hidden">
+    <aside className={floating ? 'h-full w-full overflow-hidden flex flex-col' : 'surface w-72 h-full shrink-0 border-r flex flex-col overflow-hidden'} style={floating ? { background: 'var(--bg-panel)' } : undefined}>
       {/* Header */}
       <div className="px-5 py-5 border-b border-themed">
         <div className="label-eyebrow mb-1">Bhārat Atlas</div>

@@ -10,20 +10,24 @@ import { TopBar } from '@/components/TopBar';
 import { Timeline } from '@/components/Timeline';
 import { AuthorPanel, AuthorMapLayer, EMPTY_AUTHOR_STATE, type AuthorState, type Tool } from '@/components/AuthorTool';
 import { useChapterTheme } from '@/hooks/useChapterTheme';
+import { SHELL_STYLES } from '@/lib/shellStyles';
 import type { TimelineEvent } from '@/types';
 
 export function App() {
   const {
     theme,
+    shellStyle,
     currentChapterId,
     activeLayerIds,
     activeBaseLayerIds,
     mode,
     quizIndex,
     setActiveLayers,
+    setMode,
     basemapOverride,
   } = useApp();
   const chapter = getChapter(currentChapterId);
+  const mapCfg = SHELL_STYLES[shellStyle].map;
 
   const [mapClick, setMapClick] = useState<{ lat: number; lng: number } | null>(null);
   const [showAnswer, setShowAnswer] = useState(false);
@@ -145,12 +149,14 @@ export function App() {
         onToggleNav={() => setNavOpen((v) => !v)}
       />
       <div className="flex-1 flex overflow-hidden relative">
-        {/* Desktop: fixed column. Mobile: slide-in drawer over the map. */}
+        {/* Desktop: fixed column, or a floating card over the map (1c). Mobile: slide-in drawer either way. */}
         {!authorMode && (
           <>
-            <div className="hidden lg:flex h-full">
-              <LeftPanel chapter={chapter} />
-            </div>
+            {mapCfg.leftPanel !== 'floating' && (
+              <div className="hidden lg:flex h-full">
+                <LeftPanel chapter={chapter} />
+              </div>
+            )}
             {/* Mobile drawer */}
             <div
               className={`lg:hidden fixed inset-0 z-[700] transition-opacity duration-300 ${
@@ -202,6 +208,55 @@ export function App() {
               onEventSelect={handleEventSelect}
             />
           )}
+
+          {/* Floating chrome — shell style 1c (Focus Atlas). Desktop only; mobile keeps the drawer/sheet. */}
+          {!authorMode && mapCfg.breadcrumbOverlay && (
+            <div
+              className="hidden lg:flex absolute top-4 left-1/2 -translate-x-1/2 z-[560] items-center gap-2.5 rounded-full shadow-lg px-2 py-1.5 pl-4"
+              style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}
+            >
+              <span className={`w-1.5 h-1.5 rounded-full subject-${chapter.subject}`} style={{ background: 'var(--subject)' }} />
+              <span className="text-sm font-medium" style={{ color: 'var(--text-primary)' }}>{chapter.title}</span>
+              <div className="w-px h-4 mx-1" style={{ background: 'var(--border)' }} />
+              <div className="flex rounded-full p-0.5 gap-0.5" style={{ background: 'var(--bg-app)' }}>
+                {(['study', 'quiz'] as const).map((m) => (
+                  <button
+                    key={m}
+                    onClick={() => setMode(m)}
+                    className="text-[11px] px-3 py-1 rounded-full capitalize transition-colors"
+                    style={{
+                      background: mode === m ? 'var(--accent-soft)' : 'transparent',
+                      color: mode === m ? 'var(--accent)' : 'var(--text-secondary)',
+                    }}
+                  >
+                    {m}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+          {!authorMode && mapCfg.leftPanel === 'floating' && (
+            <div
+              className="hidden lg:flex absolute top-4 left-4 bottom-4 w-[264px] z-[550] rounded-2xl shadow-lg overflow-hidden"
+              style={{ border: '1px solid var(--border)' }}
+            >
+              <LeftPanel chapter={chapter} floating />
+            </div>
+          )}
+          {!authorMode && mapCfg.rightPanel === 'floating' && (
+            <div
+              className="hidden lg:flex absolute top-4 right-4 w-80 max-h-[calc(100%-32px)] z-[550] rounded-2xl shadow-lg overflow-hidden"
+              style={{ border: '1px solid var(--border)' }}
+            >
+              <RightPanel
+                chapter={chapter}
+                mapClick={mapClick}
+                clearMapClick={() => setMapClick(null)}
+                setShowAnswer={setShowAnswer}
+                frameless
+              />
+            </div>
+          )}
         </main>
         {authorMode ? (
           <AuthorPanel
@@ -219,14 +274,16 @@ export function App() {
         ) : (
           <>
             {/* Desktop: right column */}
-            <div className="hidden lg:block h-full">
-              <RightPanel
-                chapter={chapter}
-                mapClick={mapClick}
-                clearMapClick={() => setMapClick(null)}
-                setShowAnswer={setShowAnswer}
-              />
-            </div>
+            {mapCfg.rightPanel !== 'floating' && (
+              <div className="hidden lg:block h-full">
+                <RightPanel
+                  chapter={chapter}
+                  mapClick={mapClick}
+                  clearMapClick={() => setMapClick(null)}
+                  setShowAnswer={setShowAnswer}
+                />
+              </div>
+            )}
             {/* Mobile: bottom sheet — peek bar grows into a ~62dvh panel.
                 Tap the handle to toggle, or swipe it up/down. */}
             <div

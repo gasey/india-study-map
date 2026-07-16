@@ -5,6 +5,7 @@ import type { BankQuestion } from '@/data/banks/types';
 import { chapters } from '@/data';
 import { useApp } from '@/lib/store';
 import { ModuleSwitcher } from '@/modules/ModuleSwitcher';
+import { useHasDesktopChrome } from '@/lib/useShellChrome';
 
 // ============================================
 // PYQ PRACTICE — bank-driven question drill.
@@ -98,6 +99,7 @@ export function PyqPage() {
 
   const selectCls = 'px-2 py-1.5 rounded-md text-sm';
   const selectStyle = { background: 'var(--bg-panel-elev)', color: 'var(--text-primary)', border: '1px solid var(--border)' } as const;
+  const hasDesktopChrome = useHasDesktopChrome('home');
 
   return (
     <div className="h-full flex flex-col" style={{ background: 'var(--bg-app)', color: 'var(--text-primary)' }}>
@@ -107,7 +109,7 @@ export function PyqPage() {
         style={{ borderColor: 'var(--border)', background: 'var(--bg-panel)' }}
       >
         <div className="flex items-center gap-3 min-w-0">
-          <ModuleSwitcher />
+          <span className={hasDesktopChrome ? 'lg:hidden' : ''}><ModuleSwitcher /></span>
           <span className="label-eyebrow hidden md:inline">PYQ Practice</span>
         </div>
         <div className="flex items-center gap-2">
@@ -116,7 +118,7 @@ export function PyqPage() {
           </span>
           <button
             onClick={toggleTheme}
-            className="px-2 py-1 rounded-md text-sm hover:bg-[var(--bg-panel-elev)] transition-colors"
+            className={`${hasDesktopChrome ? 'lg:hidden' : ''} px-2 py-1 rounded-md text-sm hover:bg-[var(--bg-panel-elev)] transition-colors`}
             style={{ border: '1px solid var(--border)' }}
             title="Toggle theme"
           >
@@ -250,7 +252,7 @@ export function PyqPage() {
           )}
 
           <div className="mt-4 flex items-center justify-between text-xs" style={{ color: 'var(--text-secondary)' }}>
-            <Link to="/" className="hover:underline">← Back to Study Map</Link>
+            <Link to="/map" className="hover:underline">← Back to Study Map</Link>
             <button onClick={() => resetBankProgress(bankId)} className="hover:underline">Reset bank progress</button>
           </div>
         </div>

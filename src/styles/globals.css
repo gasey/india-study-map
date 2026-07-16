@@ -7,29 +7,34 @@
    inline styles, and Tailwind all share them.
    ============================================ */
 :root {
-  --bg-app: #fbf8f3;          /* parchment-50 */
+  --bg-app: #f5f5f8;
   --bg-panel: #ffffff;
-  --bg-panel-elev: #fbf8f3;
-  --border: #ebe2cf;
-  --text-primary: #22221f;
-  --text-secondary: #5e5e59;
-  --text-muted: #a4a4a0;
-  --accent: #3a7a7a;
-  --accent-light: #5fa5a5;
-  --map-bg: #f3eddf;          /* slightly warmer than panel — visual separation */
+  --bg-panel-elev: #ececf0;
+  --bg-rail: #ececf0;
+  --border: #d9dbe2;
+  --text-primary: #1d1f29;
+  --text-secondary: #666b7d;
+  --text-muted: #8b8fa0;
+  --accent: #6f61c0;
+  --accent-light: #9184d9;
+  --accent-soft: rgba(111, 97, 192, 0.12);
+  --map-bg: #eef0f5;
+  --rail-w: 68px;
 }
 
 .dark {
-  --bg-app: #161614;
-  --bg-panel: #1c1c1a;
-  --bg-panel-elev: #22221f;
-  --border: #33332f;
-  --text-primary: #f6f1e7;
-  --text-secondary: #cbcbc8;
-  --text-muted: #7c7c77;
-  --accent: #5fa5a5;
-  --accent-light: #7fbcbc;
-  --map-bg: #0f0f0e;
+  --bg-app: #0e101a;
+  --bg-panel: #1a1c2a;
+  --bg-panel-elev: #232532;
+  --bg-rail: #12141f;
+  --border: #3f424d;
+  --text-primary: #e9e9ed;
+  --text-secondary: #9397ab;
+  --text-muted: #75798c;
+  --accent: #9184d9;
+  --accent-light: #b5abfc;
+  --accent-soft: rgba(145, 132, 217, 0.16);
+  --map-bg: #12141f;
 }
 
 html, body, #root {
@@ -311,9 +316,12 @@ button, a, [role="button"], .label-eyebrow, header, aside > div > div:first-chil
 }
 
 /* Subject color coding — chips & card accents */
-.subject-geography { --subject: #2e7d5b; }
-.subject-history { --subject: #b0632c; }
-.subject-polity { --subject: #4a5fa5; }
+.subject-geography { --subject: #2e8a5f; }
+.subject-history { --subject: #9c6f33; }
+.subject-polity { --subject: #4c63c4; }
+.dark .subject-geography { --subject: #7bbf9e; }
+.dark .subject-history { --subject: #c9a179; }
+.dark .subject-polity { --subject: #8f9fe0; }
 .subject-chip {
   display: inline-flex; align-items: center; gap: 5px;
   font-family: 'JetBrains Mono', monospace;

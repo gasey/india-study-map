@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { useApp } from '@/lib/store';
 import { basemaps } from '@/lib/basemaps';
 import { ModuleSwitcher } from '@/modules/ModuleSwitcher';
+import { useHasDesktopChrome } from '@/lib/useShellChrome';
 
 /** Ordered picks for the switcher — the picture-map styles first. */
 const BASEMAP_CHOICES = ['watercolor', 'natgeo', 'physical', 'relief', 'imagery', 'topo', 'opentopo', 'voyager', 'clean'];
@@ -15,6 +16,7 @@ interface TopBarProps {
 
 export function TopBar({ authorMode, onToggleAuthor, onToggleNav }: TopBarProps) {
   const { theme, toggleTheme, mode, basemapOverride, setBasemapOverride } = useApp();
+  const hasDesktopChrome = useHasDesktopChrome('map');
 
   return (
     <header
@@ -32,7 +34,7 @@ export function TopBar({ authorMode, onToggleAuthor, onToggleNav }: TopBarProps)
             ☰
           </button>
         )}
-        <ModuleSwitcher />
+        <span className={hasDesktopChrome ? 'lg:hidden' : ''}><ModuleSwitcher /></span>
         <div className="w-2 h-2 rounded-full hidden sm:block" style={{ background: 'var(--accent)' }} />
         <span className="label-eyebrow hidden sm:inline">
           {authorMode ? 'Author Mode' : mode === 'study' ? 'Study Mode' : 'Quiz Mode'}
@@ -72,7 +74,7 @@ export function TopBar({ authorMode, onToggleAuthor, onToggleNav }: TopBarProps)
         )}
         <button
           onClick={toggleTheme}
-          className="min-h-10 px-3 py-2 rounded-md text-xs hover:bg-[var(--bg-panel-elev)] transition-colors flex items-center gap-2 active:scale-95"
+          className={`${hasDesktopChrome ? 'lg:hidden' : ''} min-h-10 px-3 py-2 rounded-md text-xs hover:bg-[var(--bg-panel-elev)] transition-colors flex items-center gap-2 active:scale-95`}
           style={{ color: 'var(--text-secondary)' }}
           aria-label="Toggle theme"
         >

@@ -39,7 +39,7 @@ export const modules: AppModule[] = [
     tagline: 'Interactive chapters — geography, history, polity',
     glyph: '🗺️',
     kind: 'route',
-    path: '/',
+    path: '/map',
   },
   {
     id: 'pyq',

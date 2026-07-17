@@ -12,6 +12,7 @@ const MODULE_ICON: Record<string, string> = {
   codex: IC.codex,
   flashcards: IC.cards,
   mindmaps: IC.mind,
+  chronicle: IC.chronicle,
   'lab-maths': IC.labs,
   'lab-english': IC.labs,
   'lab-paper2': IC.labs,

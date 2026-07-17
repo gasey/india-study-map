@@ -5,6 +5,7 @@ export const IC = {
   pyq: 'M5 3h10v14H5zM8 7h4M8 10.5h4',
   cards: 'M6 6h11v11H6zM3 3h11v3',
   mind: 'M10 7a2 2 0 100-4 2 2 0 000 4zM5 17a2 2 0 100-4 2 2 0 000 4zM15 17a2 2 0 100-4 2 2 0 000 4zM10 7v3M9 11l-3 2.5M11 11l3 2.5',
+  chronicle: 'M5 3h10M5 3l5 7 5-7M5 17h10M5 17l5-7 5 7',
   codex: 'M5 3h9a2 2 0 012 2v12H7a2 2 0 01-2-2zM5 3v12M9 7h4',
   labs: 'M8 3h4M9 3v5l-4.5 8a1.5 1.5 0 001.3 2.2h8.4a1.5 1.5 0 001.3-2.2L11 8V3',
   layout: 'M3 3h14v4H3zM3 9h6v8H3zM11 9h6v8h-6z',

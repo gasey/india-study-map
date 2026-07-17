@@ -12,6 +12,7 @@
 // ============================================
 
 import type { SubjectId } from '@/types';
+import type { Year } from '@/data/timeline/types';
 
 export type BankDifficulty = 'easy' | 'medium' | 'hard';
 
@@ -34,6 +35,9 @@ export interface BankQuestion {
   year?: number;
   /** Concept tags shared with map chapters → enables "View on map". */
   tags?: string[];
+  /** Historical year this question is ABOUT (distinct from `year`, the exam
+   *  year). Presence puts it on the Chronicle timeline. */
+  about?: Year;
 }
 
 export interface QuestionBank {

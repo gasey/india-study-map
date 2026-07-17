@@ -1,0 +1,203 @@
+import type { TimelineEntry } from '../types';
+
+// 1946 → today: the Constitution, its landmark amendments, and the
+// Supreme Court cases that shaped the republic. republic era, polity track.
+
+export const republicPolityEntries: TimelineEntry[] = [
+  {
+    id: 'pol-constitution-adopted',
+    track: 'polity',
+    kind: 'event',
+    year: 1949,
+    title: 'Constitution Adopted',
+    summary: 'The Constituent Assembly adopts the Constitution of India on 26 November 1949.',
+    detail:
+      'After nearly three years and 11 sessions, the Constituent Assembly — with Dr B.R. Ambedkar chairing the Drafting Committee and Rajendra Prasad presiding — adopted the Constitution on 26 November 1949 (now National Constitution Day). At adoption it had 395 Articles, 8 Schedules, and 22 Parts, the longest written constitution in the world.',
+    importance: 1,
+    tags: ['constitution', 'constituent-assembly', 'ambedkar', 'drafting-committee'],
+    chapterId: 'polity-making-of-constitution',
+    linksTo: ['pol-constitution-enforced'],
+  },
+  {
+    id: 'pol-constitution-enforced',
+    track: 'polity',
+    kind: 'event',
+    year: 1950,
+    title: 'Constitution Enforced — Republic Day',
+    summary: 'The Constitution comes into force on 26 January 1950; India becomes a sovereign democratic republic.',
+    detail:
+      'The Constitution came into force on 26 January 1950 — a date chosen to honour the 1930 Purna Swaraj declaration. India became a sovereign democratic republic, the Governor-General giving way to a President (Rajendra Prasad), and the Federal Court to the Supreme Court of India.',
+    importance: 2,
+    tags: ['constitution', 'republic-day', 'president', 'supreme-court'],
+  },
+  {
+    id: 'pol-first-amendment',
+    track: 'polity',
+    kind: 'event',
+    year: 1951,
+    title: 'First Amendment',
+    summary: 'Adds the Ninth Schedule and reasonable restrictions on free speech — the first test of amending power.',
+    detail:
+      'The First Amendment (1951) added the Ninth Schedule (shielding land-reform laws from judicial review), placed "reasonable restrictions" on Article 19 free speech (public order, incitement), and clarified that special provisions for backward classes did not violate equality. It set the pattern of Parliament amending to override adverse court rulings.',
+    importance: 3,
+    tags: ['first-amendment', 'ninth-schedule', 'free-speech', 'land-reform'],
+  },
+  {
+    id: 'pol-first-election',
+    track: 'polity',
+    kind: 'event',
+    year: 1952,
+    title: 'First General Election',
+    summary: "India's first general election (1951–52) — the world's largest exercise of universal adult franchise to date.",
+    detail:
+      'Held over 1951–52 under Chief Election Commissioner Sukumar Sen, the first general election enfranchised some 173 million adults, most of whom could not read — using party symbols and separate ballot boxes. The Congress under Nehru won decisively, launching parliamentary democracy on universal adult suffrage from the outset.',
+    importance: 2,
+    tags: ['general-election', 'universal-adult-franchise', 'election-commission', 'nehru'],
+  },
+  {
+    id: 'pol-states-reorg-act',
+    track: 'polity',
+    kind: 'event',
+    year: 1956,
+    title: 'States Reorganisation Act',
+    summary: 'Redraws state boundaries chiefly along linguistic lines, following the States Reorganisation Commission.',
+    detail:
+      'Prompted by the Fazl Ali Commission (and the death of Potti Sriramulu, which forced the creation of Andhra in 1953), the States Reorganisation Act 1956 (with the 7th Amendment) reorganized India into 14 states and 6 union territories along mainly linguistic lines — a defining act of nation-building that still shapes India’s federal map.',
+    importance: 2,
+    tags: ['states-reorganisation', 'linguistic-states', 'fazl-ali', 'seventh-amendment'],
+    chapterId: 'polity-states-reorganisation',
+  },
+  {
+    id: 'pol-golak-nath',
+    track: 'polity',
+    kind: 'event',
+    year: 1967,
+    title: 'Golak Nath v. State of Punjab',
+    summary: 'Supreme Court holds Parliament cannot amend Fundamental Rights — later overturned by Kesavananda.',
+    detail:
+      'In Golak Nath (1967), an 11-judge bench ruled by a slim majority that Parliament could not amend Part III (Fundamental Rights) at all, reversing earlier rulings (Shankari Prasad, Sajjan Singh). It provoked the 24th Amendment and set up the confrontation resolved by the Kesavananda basic-structure doctrine.',
+    importance: 3,
+    tags: ['golak-nath', 'fundamental-rights', 'amending-power', 'judicial-review'],
+  },
+  {
+    id: 'pol-maneka-gandhi',
+    track: 'polity',
+    kind: 'event',
+    year: 1978,
+    title: 'Maneka Gandhi v. Union of India',
+    summary: "Expands Article 21: 'procedure established by law' must be just, fair, and reasonable — birth of due process.",
+    detail:
+      'Maneka Gandhi (1978) transformed Article 21: the "procedure established by law" for depriving life or liberty must be just, fair, and reasonable — importing substantive due process and linking Articles 14, 19, and 21 as a "golden triangle". It became the foundation for an expansive right-to-life jurisprudence (dignity, livelihood, privacy).',
+    importance: 3,
+    tags: ['maneka-gandhi', 'article-21', 'due-process', 'right-to-life'],
+  },
+  {
+    id: 'pol-kesavananda-bharati',
+    track: 'polity',
+    kind: 'event',
+    year: 1973,
+    title: 'Kesavananda Bharati v. State of Kerala',
+    summary: "Supreme Court holds Parliament's amending power cannot alter the Constitution's 'basic structure'.",
+    detail:
+      'Decided 7–6 by a 13-judge bench — the largest in the Court’s history — Kesavananda (1973) held that Parliament may amend any part of the Constitution but cannot destroy its "basic structure" (supremacy of the Constitution, rule of law, judicial review, federalism, secularism, separation of powers). It remains the bedrock check on amending power.',
+    importance: 1,
+    tags: ['basic-structure', 'kesavananda-bharati', 'judicial-review', 'amending-power'],
+  },
+  {
+    id: 'pol-emergency-1975',
+    track: 'polity',
+    kind: 'period',
+    year: 1975,
+    endYear: 1977,
+    title: 'The Emergency',
+    summary: 'National Emergency declared under Article 352; civil liberties suspended and the press censored for 21 months.',
+    detail:
+      'Following the Allahabad High Court verdict against Indira Gandhi, a National Emergency (internal disturbance) was proclaimed on 25 June 1975. For 21 months fundamental rights were suspended, opposition leaders jailed (MISA), the press censored, and controversial programmes (forced sterilization, slum demolitions) carried out. Its excesses drove the 44th Amendment and a decisive electoral defeat in 1977.',
+    importance: 1,
+    tags: ['emergency', 'article-352', 'indira-gandhi', 'misa', 'censorship'],
+  },
+  {
+    id: 'pol-42nd-amendment',
+    track: 'polity',
+    kind: 'event',
+    year: 1976,
+    title: '42nd Amendment',
+    summary: "The 'Mini-Constitution' — adds 'socialist', 'secular', Fundamental Duties, and curbs judicial review.",
+    detail:
+      'Passed during the Emergency, the 42nd Amendment (1976) added "socialist", "secular", and "integrity" to the Preamble, inserted Fundamental Duties (Part IVA) and Directive Principles priorities, curtailed judicial review, and extended Lok Sabha terms. Much of its overreach was rolled back by the 43rd and 44th Amendments.',
+    importance: 2,
+    tags: ['42nd-amendment', 'fundamental-duties', 'preamble', 'mini-constitution'],
+  },
+  {
+    id: 'pol-44th-amendment',
+    track: 'polity',
+    kind: 'event',
+    year: 1978,
+    title: '44th Amendment',
+    summary: 'Post-Emergency safeguards: property removed as a Fundamental Right, harder to declare Emergency.',
+    detail:
+      'The Janata government’s 44th Amendment (1978) reversed key Emergency-era changes: it made the proclamation of Emergency harder ("armed rebellion" replacing "internal disturbance", written Cabinet advice), protected Articles 20 and 21 from suspension, and downgraded the right to property from a Fundamental Right to a mere legal right (Article 300A).',
+    importance: 2,
+    tags: ['44th-amendment', 'emergency', 'right-to-property', 'article-300a'],
+  },
+  {
+    id: 'pol-minerva-mills',
+    track: 'polity',
+    kind: 'event',
+    year: 1980,
+    title: 'Minerva Mills v. Union of India',
+    summary: 'Reaffirms basic structure; strikes down 42nd Amendment clauses that made amendments unreviewable.',
+    detail:
+      'Minerva Mills (1980) struck down parts of the 42nd Amendment that had barred judicial review of amendments and given Directive Principles blanket primacy over Fundamental Rights. The Court held that limited amending power and judicial review are themselves part of the basic structure, and stressed the balance between Parts III and IV.',
+    importance: 3,
+    tags: ['minerva-mills', 'basic-structure', 'judicial-review', 'directive-principles'],
+  },
+  {
+    id: 'pol-mandal',
+    track: 'polity',
+    kind: 'event',
+    year: 1992,
+    title: 'Mandal Case (Indra Sawhney)',
+    summary: 'Upholds 27% OBC reservation, caps total reservations at ~50%, and introduces the "creamy layer".',
+    detail:
+      'After the 1990 implementation of the Mandal Commission’s 27% reservation for Other Backward Classes, Indra Sawhney v. Union of India (1992) upheld caste-based OBC reservation but capped total reservations at roughly 50%, excluded the affluent "creamy layer", and barred reservation in promotions (later restored by amendment) — the framework of India’s affirmative-action law.',
+    importance: 2,
+    tags: ['mandal', 'indra-sawhney', 'obc-reservation', 'creamy-layer'],
+  },
+  {
+    id: 'pol-panchayati-raj',
+    track: 'polity',
+    kind: 'event',
+    year: 1992,
+    title: '73rd & 74th Amendments',
+    summary: 'Constitutionalize local self-government — Panchayati Raj in villages and municipalities in towns.',
+    detail:
+      'The 73rd and 74th Amendments (1992, effective 1993) gave constitutional status to a three-tier Panchayati Raj and to urban local bodies, mandating regular elections, State Election Commissions, State Finance Commissions, and reservation of seats for SCs, STs, and women (one-third) — a major democratic decentralization (Parts IX and IXA, Schedules 11 and 12).',
+    importance: 2,
+    tags: ['panchayati-raj', '73rd-amendment', '74th-amendment', 'local-government', 'decentralization'],
+  },
+  {
+    id: 'pol-right-to-privacy',
+    track: 'polity',
+    kind: 'event',
+    year: 2017,
+    title: 'Right to Privacy (Puttaswamy)',
+    summary: 'A nine-judge bench holds privacy is a Fundamental Right under Article 21.',
+    detail:
+      'In K.S. Puttaswamy v. Union of India (2017), a unanimous nine-judge bench held that the right to privacy is intrinsic to the right to life and personal liberty (Article 21) and to the freedoms of Part III. The ruling — arising from the Aadhaar litigation — underpinned later decisions on data protection, decriminalization of homosexuality, and personal autonomy.',
+    importance: 2,
+    tags: ['right-to-privacy', 'puttaswamy', 'article-21', 'aadhaar', 'fundamental-rights'],
+  },
+  {
+    id: 'pol-gst-amendment',
+    track: 'polity',
+    kind: 'event',
+    year: 2017,
+    title: '101st Amendment — GST',
+    summary: 'Introduces the Goods and Services Tax and the GST Council — the biggest indirect-tax reform since independence.',
+    detail:
+      'The 101st Amendment (2016, GST rolled out 1 July 2017) created a unified Goods and Services Tax subsuming most central and state indirect taxes, and set up the GST Council (Union and state finance ministers) as a body of "pooled sovereignty" to set rates — a landmark in cooperative fiscal federalism.',
+    importance: 3,
+    tags: ['gst', '101st-amendment', 'gst-council', 'fiscal-federalism', 'indirect-tax'],
+  },
+];

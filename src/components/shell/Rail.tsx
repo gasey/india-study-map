@@ -80,6 +80,7 @@ export function Rail() {
       <RailLink to="/pyq" icon={IC.pyq} label="PYQ" active={loc.pathname === '/pyq'} />
       <RailLink to="/flashcards" icon={IC.cards} label="Cards" active={loc.pathname === '/flashcards'} />
       <RailLink to="/mindmaps" icon={IC.mind} label="Mind" active={loc.pathname === '/mindmaps'} />
+      <RailLink to="/timeline" icon={IC.chronicle} label="Timeline" active={loc.pathname === '/timeline'} />
       {codex && (
         <a
           href={codex.path}

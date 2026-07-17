@@ -32,6 +32,27 @@ with the redesign's dark-purple / light-classic tokens under the same
 variable names, so every screen — including PYQ/Flashcards/Mind Maps,
 which weren't in the mockup — picked it up automatically.
 
+## Chronicle — master timeline (2026-07)
+
+A `/timeline` module: one zoomable, pannable timeline of Indian history and
+polity, Indus Valley to today, with `history` and `polity` as parallel
+lanes. Content lives in `src/data/timeline/` (one file per era range, same
+"content is data" pattern as chapters/banks) — adding history means adding
+a `TimelineEntry` object, no component code touched.
+
+- **Semantic zoom** — zooming changes what's shown (era → century → decade
+  → year), not text size. A piecewise-linear scale gives the sparse ancient
+  eras and the dense freedom-struggle/republic eras their own weight
+  instead of splitting the timeline evenly.
+- **Grows with the question banks for free** — any `BankQuestion` with an
+  `about: <year>` field joins the timeline automatically via year
+  proximity + shared tags; no manual wiring between banks and Chronicle.
+- Full gesture set (wheel/pinch/drag/keyboard/touch), an entry drawer with
+  cross-links back to the map and answerable questions, a per-entry note,
+  track/importance/exam-heat toolbar filters, search/jump, and a
+  range-scoped quiz mode.
+- See `src/modules/chronicle/` (renderer) and `src/data/timeline/` (content).
+
 ## Run locally
 
 ```bash

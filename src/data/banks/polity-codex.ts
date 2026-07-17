@@ -28,7 +28,8 @@ export const polityCodexBank: BankQuestion[] = [
       "bengal",
       "buxar",
       "british"
-    ]
+    ],
+    "about": 1600
   },
   {
     "id": "codex-hist-002",
@@ -51,7 +52,8 @@ export const polityCodexBank: BankQuestion[] = [
       "bengal",
       "buxar",
       "british"
-    ]
+    ],
+    "about": 1773
   },
   {
     "id": "codex-hist-003",
@@ -74,7 +76,8 @@ export const polityCodexBank: BankQuestion[] = [
       "bengal",
       "buxar",
       "british"
-    ]
+    ],
+    "about": 1765
   },
   {
     "id": "codex-hist-004",
@@ -96,8 +99,10 @@ export const polityCodexBank: BankQuestion[] = [
       "calcutta",
       "bengal",
       "buxar",
-      "british"
-    ]
+      "british",
+      "government-of-india-act"
+    ],
+    "about": 1919
   },
   {
     "id": "codex-hist-005",
@@ -119,8 +124,10 @@ export const polityCodexBank: BankQuestion[] = [
       "calcutta",
       "bengal",
       "buxar",
-      "british"
-    ]
+      "british",
+      "government-of-india-act"
+    ],
+    "about": 1919
   },
   {
     "id": "codex-hist-006",
@@ -142,8 +149,10 @@ export const polityCodexBank: BankQuestion[] = [
       "calcutta",
       "bengal",
       "buxar",
-      "british"
-    ]
+      "british",
+      "government-of-india-act"
+    ],
+    "about": 1935
   },
   {
     "id": "codex-hist-007",
@@ -165,8 +174,10 @@ export const polityCodexBank: BankQuestion[] = [
       "calcutta",
       "bengal",
       "buxar",
-      "british"
-    ]
+      "british",
+      "government-of-india-act"
+    ],
+    "about": 1935
   },
   {
     "id": "codex-ca-008",
@@ -943,7 +954,11 @@ export const polityCodexBank: BankQuestion[] = [
     ],
     "answerIndex": 0,
     "explanation": "Because of the large number of changes it made, the 42nd Amendment (1976) is called the 'Mini Constitution'.",
-    "source": "Polity Codex"
+    "source": "Polity Codex",
+    "tags": [
+      "42nd-amendment"
+    ],
+    "about": 1976
   },
   {
     "id": "codex-amend-050",
@@ -960,7 +975,8 @@ export const polityCodexBank: BankQuestion[] = [
     ],
     "answerIndex": 0,
     "explanation": "The 1st Amendment (1951) added the Ninth Schedule to protect land-reform laws from being challenged in court.",
-    "source": "Polity Codex"
+    "source": "Polity Codex",
+    "about": 1951
   },
   {
     "id": "codex-amend-051",
@@ -977,7 +993,12 @@ export const polityCodexBank: BankQuestion[] = [
     ],
     "answerIndex": 1,
     "explanation": "Kesavananda Bharati v. State of Kerala (1973) held that Parliament can amend any provision but cannot alter the 'basic structure' of the Constitution.",
-    "source": "Polity Codex"
+    "source": "Polity Codex",
+    "tags": [
+      "basic-structure",
+      "kesavananda-bharati"
+    ],
+    "about": 1973
   },
   {
     "id": "codex-amend-052",
@@ -994,7 +1015,8 @@ export const polityCodexBank: BankQuestion[] = [
     ],
     "answerIndex": 2,
     "explanation": "Golak Nath v. State of Punjab (1967) held Parliament could not amend Part III. This was later modified by Kesavananda Bharati (1973).",
-    "source": "Polity Codex"
+    "source": "Polity Codex",
+    "about": 1967
   },
   {
     "id": "codex-amend-053",
@@ -1011,7 +1033,8 @@ export const polityCodexBank: BankQuestion[] = [
     ],
     "answerIndex": 1,
     "explanation": "The 44th Amendment replaced 'internal disturbance' with 'armed rebellion' as a ground under Article 352.",
-    "source": "Polity Codex"
+    "source": "Polity Codex",
+    "about": 1978
   },
   {
     "id": "codex-amend-054",
@@ -1589,7 +1612,8 @@ export const polityCodexBank: BankQuestion[] = [
     ],
     "answerIndex": 1,
     "explanation": "The SC held Governors must act on state Bills within a reasonable time following the Council of Ministers' advice, without independent discretion; indefinite withholding is unconstitutional.",
-    "source": "Polity Codex"
+    "source": "Polity Codex",
+    "about": 2025
   },
   {
     "id": "codex-fed-088",
@@ -2102,7 +2126,8 @@ export const polityCodexBank: BankQuestion[] = [
       "mizoram",
       "northeast",
       "assam"
-    ]
+    ],
+    "about": 1950
   },
   {
     "id": "codex-sixth-117",

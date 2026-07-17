@@ -1,7 +1,9 @@
+import { useEffect, useState } from 'react';
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import { chapters } from '@/data';
 import { baseLayers } from '@/data/baseLayers';
+import type { Importance } from '@/data/timeline/types';
 
 type Theme = 'light' | 'dark';
 type Mode = 'study' | 'quiz';
@@ -29,6 +31,20 @@ interface BankProgress {
   mastered: string[];
 }
 
+export type ChronicleTrackMode = 'both' | 'history' | 'polity';
+
+/** Chronicle module — master timeline. */
+interface ChronicleState {
+  /** entry id -> personal note. */
+  notes: Record<string, string>;
+  /** last viewport — restored on return; null before the first visit. */
+  viewport: { zoom: number; panX: number } | null;
+  trackMode: ChronicleTrackMode;
+  /** Toolbar filter — lowers the LOD-computed ceiling, never raises it. */
+  importanceCeiling: Importance;
+  heat: boolean;
+}
+
 export interface AppState {
   theme: Theme;
   shellStyle: ShellStyle;
@@ -46,6 +62,7 @@ export interface AppState {
   eventIndex: number;
   /** Global basemap override — null = use each chapter's own choice. */
   basemapOverride: string | null;
+  chronicle: ChronicleState;
 
   // actions
   toggleTheme: () => void;
@@ -64,6 +81,11 @@ export interface AppState {
   resetDeckProgress: (deckId: string) => void;
   setEventIndex: (idx: number) => void;
   setBasemapOverride: (id: string | null) => void;
+  setChronicleNote: (entryId: string, text: string) => void;
+  setChronicleViewport: (v: { zoom: number; panX: number } | null) => void;
+  setChronicleTrackMode: (m: ChronicleTrackMode) => void;
+  setChronicleImportanceCeiling: (n: Importance) => void;
+  toggleChronicleHeat: () => void;
 }
 
 function initialLayersFor(chapterId: string): string[] {
@@ -87,6 +109,7 @@ export const useApp = create<AppState>()(
       deckProgress: {},
       eventIndex: -1,
       basemapOverride: null,
+      chronicle: { notes: {}, viewport: null, trackMode: 'both', importanceCeiling: 5, heat: false },
 
       toggleTheme: () =>
         set((s) => ({ theme: s.theme === 'light' ? 'dark' : 'light' })),
@@ -127,6 +150,17 @@ export const useApp = create<AppState>()(
       setEventIndex: (idx) => set({ eventIndex: idx }),
 
       setBasemapOverride: (id) => set({ basemapOverride: id }),
+
+      setChronicleNote: (entryId, text) =>
+        set((s) => ({ chronicle: { ...s.chronicle, notes: { ...s.chronicle.notes, [entryId]: text } } })),
+
+      setChronicleViewport: (v) => set((s) => ({ chronicle: { ...s.chronicle, viewport: v } })),
+
+      setChronicleTrackMode: (m) => set((s) => ({ chronicle: { ...s.chronicle, trackMode: m } })),
+
+      setChronicleImportanceCeiling: (n) => set((s) => ({ chronicle: { ...s.chronicle, importanceCeiling: n } })),
+
+      toggleChronicleHeat: () => set((s) => ({ chronicle: { ...s.chronicle, heat: !s.chronicle.heat } })),
 
       recordAttempt: (chapterId, quizId, correct) =>
         set((s) => {
@@ -188,7 +222,30 @@ export const useApp = create<AppState>()(
         activeBaseLayerIds: s.activeBaseLayerIds,
         basemapOverride: s.basemapOverride,
         currentChapterId: s.currentChapterId,
+        chronicle: s.chronicle,
       }),
+      // Default persist merge is a shallow `{...current, ...persisted}` —
+      // fine for top-level keys, but a persisted `chronicle` blob from
+      // before a field was added (e.g. trackMode) would otherwise replace
+      // the whole sub-object wholesale, leaving new fields `undefined`
+      // instead of falling back to their default.
+      merge: (persisted, current) => {
+        const p = persisted as Partial<AppState>;
+        return { ...current, ...p, chronicle: { ...current.chronicle, ...p.chronicle } };
+      },
     }
   )
 );
+
+/** True once zustand/persist has finished reading localStorage. Components
+ *  that snap to a persisted value on first mount (e.g. Chronicle's saved
+ *  viewport) need this — reading the store before hydration completes sees
+ *  the pre-hydration default, not the real persisted value. */
+export function useHasHydrated() {
+  const [hydrated, setHydrated] = useState(useApp.persist.hasHydrated());
+  useEffect(() => {
+    setHydrated(useApp.persist.hasHydrated());
+    return useApp.persist.onFinishHydration(() => setHydrated(true));
+  }, []);
+  return hydrated;
+}

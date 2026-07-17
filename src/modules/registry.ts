@@ -104,6 +104,15 @@ export const modules: AppModule[] = [
     kind: 'static',
     path: '/labs/paper2/index.html',
   },
+  {
+    id: 'chronicle',
+    title: 'Chronicle',
+    category: 'Study',
+    tagline: 'Master timeline — history & polity, Indus Valley to today',
+    glyph: '⏳',
+    kind: 'route',
+    path: '/timeline',
+  },
   // Future examples — flip comingSoon off when built:
   // { id: 'ca', title: 'Current Affairs', tagline: 'Monthly CA digests + quizzes', glyph: '📰', kind: 'route', path: '/current-affairs', comingSoon: true },
 ];

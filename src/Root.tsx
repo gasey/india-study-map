@@ -22,6 +22,7 @@ const StudyMapApp = lazy(() => import('./App').then((m) => ({ default: m.App }))
 const PyqPage = lazy(() => import('./modules/pyq/PyqPage'));
 const FlashcardsPage = lazy(() => import('./modules/flashcards/FlashcardsPage'));
 const MindMapsPage = lazy(() => import('./modules/mindmaps/MindMapsPage'));
+const ChroniclePage = lazy(() => import('./modules/chronicle/ChroniclePage'));
 
 function Loading() {
   return (
@@ -52,6 +53,7 @@ export function Root() {
             <Route path="/pyq" element={<PyqPage />} />
             <Route path="/flashcards" element={<FlashcardsPage />} />
             <Route path="/mindmaps" element={<MindMapsPage />} />
+            <Route path="/timeline" element={<ChroniclePage />} />
             <Route path="*" element={<Home />} />
           </Routes>
         </Suspense>

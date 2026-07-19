@@ -26,6 +26,7 @@ const ChroniclePage = lazy(() => import('./modules/chronicle/ChroniclePage'));
 const CurrentAffairsPage = lazy(() => import('./modules/current-affairs/CurrentAffairsPage'));
 const QuizPlayerPage = lazy(() => import('./modules/current-affairs/QuizPlayerPage'));
 const ArenaPage = lazy(() => import('./modules/arena/ArenaPage'));
+const MpscPage = lazy(() => import('./modules/mpsc/MpscPage'));
 
 function Loading() {
   return (
@@ -60,6 +61,7 @@ export function Root() {
             <Route path="/current-affairs" element={<CurrentAffairsPage />} />
             <Route path="/current-affairs/:date" element={<QuizPlayerPage />} />
             <Route path="/arena" element={<ArenaPage />} />
+            <Route path="/mpsc" element={<MpscPage />} />
             <Route path="*" element={<Home />} />
           </Routes>
         </Suspense>

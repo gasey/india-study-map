@@ -123,6 +123,15 @@ export const modules: AppModule[] = [
     path: '/arena',
   },
   {
+    id: 'mpsc',
+    title: 'MPSC Old Questions',
+    category: 'Practice',
+    tagline: 'Real Mizoram PSC papers — browse by exam/year, take timed MCQ tests',
+    glyph: '🏛️',
+    kind: 'route',
+    path: '/mpsc',
+  },
+  {
     id: 'ca',
     title: 'Current Affairs',
     category: 'Practice',

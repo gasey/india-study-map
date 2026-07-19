@@ -39,6 +39,20 @@ interface CaAttempt {
   answers: Record<string, 'a' | 'b' | 'c' | 'd'>;
 }
 
+/** One finished MCQ test attempt — used by the MPSC module's test mode so a
+ *  student can see score history and compare against a paper over time. */
+export interface TestResult {
+  /** Identifies what was attempted: a paper id, or a synthesized filter key. */
+  targetId: string;
+  /** Human label, e.g. 'General Studies Paper-II (DO) · 2019'. */
+  label: string;
+  score: number;
+  total: number;
+  /** Whole-test elapsed time in seconds. */
+  durationSec: number;
+  answeredAt: number;
+}
+
 /** Gauntlet Run (arena) — MCQ-gated dodge runner. Coins/upgrades/highscore. */
 export interface ArenaUpgrades {
   /** Extra hits absorbed at run start (0-3). */
@@ -99,6 +113,8 @@ export interface AppState {
   deckProgress: Record<string, DeckProgress>;
   /** keyed by quiz date (YYYY-MM-DD) — Current Affairs module. */
   caAttempts: Record<string, CaAttempt>;
+  /** MCQ test attempts (most-recent-first) — MPSC module test mode. */
+  testResults: TestResult[];
   eventIndex: number;
   /** Global basemap override — null = use each chapter's own choice. */
   basemapOverride: string | null;
@@ -122,6 +138,7 @@ export interface AppState {
   markCard: (deckId: string, cardId: string, known: boolean) => void;
   resetDeckProgress: (deckId: string) => void;
   recordCaAttempt: (date: string, result: CaAttempt) => void;
+  recordTestResult: (result: TestResult) => void;
   setEventIndex: (idx: number) => void;
   setBasemapOverride: (id: string | null) => void;
   setChronicleNote: (entryId: string, text: string) => void;
@@ -156,6 +173,7 @@ export const useApp = create<AppState>()(
       bankProgress: {},
       deckProgress: {},
       caAttempts: {},
+      testResults: [],
       eventIndex: -1,
       basemapOverride: null,
       chronicle: { notes: {}, viewport: null, trackMode: 'both', importanceCeiling: 5, heat: false },
@@ -301,6 +319,9 @@ export const useApp = create<AppState>()(
           const next = prev && prev.score >= result.score ? prev : result;
           return { caAttempts: { ...s.caAttempts, [date]: next } };
         }),
+
+      recordTestResult: (result) =>
+        set((s) => ({ testResults: [result, ...s.testResults].slice(0, 200) })),
     }),
     {
       name: 'india-study-map',
@@ -311,6 +332,7 @@ export const useApp = create<AppState>()(
         bankProgress: s.bankProgress,
         deckProgress: s.deckProgress,
         caAttempts: s.caAttempts,
+        testResults: s.testResults,
         activeBaseLayerIds: s.activeBaseLayerIds,
         basemapOverride: s.basemapOverride,
         currentChapterId: s.currentChapterId,

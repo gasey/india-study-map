@@ -16,10 +16,33 @@ import type { Year } from '@/data/timeline/types';
 
 export type BankDifficulty = 'easy' | 'medium' | 'hard';
 
+/**
+ * A real exam paper a question was pulled from — separate from BankQuestion
+ * so multiple questions share one record, and so papers from the same exam
+ * sitting (Paper-I, Paper-II, ...) can be grouped/compared in the UI.
+ */
+export interface ExamPaper {
+  /** Stable slug, e.g. 'mpsc-direct-2019-general-studies-do-paper-2'. */
+  id: string;
+  /** Recruitment mode, e.g. 'Departmental', 'Direct', 'Direct_NG', 'LDE'. */
+  examType: string;
+  /** The exam/recruitment name, e.g. 'Combined Competitive Examination'. */
+  examName: string;
+  /** Post applied for, if the paper is post-specific, e.g. 'District Officer (DO)'. */
+  post?: string;
+  /** e.g. 'Paper-I', 'Paper-II' — lets Paper-I/Paper-II of the same sitting be compared. */
+  paperNumber?: string;
+  /** e.g. 'General Studies', 'General English'. */
+  paperSubject: string;
+  year: number;
+  /** Original source file, relative to its archive root — for provenance/audit. */
+  sourceFile?: string;
+}
+
 export interface BankQuestion {
   /** Globally unique — prefix with the bank id, e.g. 'codex-hist-001'. */
   id: string;
-  subject: SubjectId | 'gk' | 'current-affairs';
+  subject: SubjectId | 'gk' | 'current-affairs' | 'english' | 'reasoning';
   /** Machine topic id (filterable), e.g. 'fr', 'parl'. */
   topic: string;
   /** Human topic label, e.g. 'Fundamental Rights'. */
@@ -38,6 +61,8 @@ export interface BankQuestion {
   /** Historical year this question is ABOUT (distinct from `year`, the exam
    *  year). Presence puts it on the Chronicle timeline. */
   about?: Year;
+  /** Links back to this question's ExamPaper (see QuestionBank.papers). */
+  paperId?: string;
 }
 
 export interface QuestionBank {
@@ -45,4 +70,7 @@ export interface QuestionBank {
   title: string;
   description: string;
   questions: BankQuestion[];
+  /** Real exam papers referenced by questions' paperId — enables browsing/
+   *  comparing Paper-I vs Paper-II of the same exam sitting. */
+  papers?: ExamPaper[];
 }

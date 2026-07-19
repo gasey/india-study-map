@@ -1,14 +1,22 @@
 import type { BankQuestion, QuestionBank } from './types';
 import { polityCodexBank } from './polity-codex';
+import { mpscPapers, mpscQuestions } from './mpsc-old-questions';
 
 // Register banks here — same pattern as chapters.
-// Future: upsc-prelims-pyq.ts, mpsc-pyq.ts, current-affairs-2026.ts …
+// Future: upsc-prelims-pyq.ts, current-affairs-2026.ts …
 export const banks: QuestionBank[] = [
   {
     id: 'polity-codex',
     title: 'Polity Codex',
     description: 'Full MCQ bank mined from the Polity Codex study guide — 21 topics, colonial statutes to the Sixth Schedule.',
     questions: polityCodexBank,
+  },
+  {
+    id: 'mpsc-old-questions',
+    title: 'MPSC Old Questions',
+    description: 'Real Mizoram PSC previous-year papers — browse by exam type, year and post, or take a full paper as a timed MCQ test.',
+    questions: mpscQuestions,
+    papers: mpscPapers,
   },
 ];
 

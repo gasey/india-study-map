@@ -74,6 +74,12 @@ export function moduleProgress(progress: Progress, bankProgress: BankProgress, d
     'lab-english': { pct: null, meta: 'lab' },
     'lab-paper2': { pct: null, meta: 'lab' },
     arena: { pct: null, meta: 'MCQ game' },
+    mpsc: (() => {
+      const bank = banks.find((b) => b.id === 'mpsc-old-questions');
+      const q = bank?.questions.length ?? 0;
+      const m = bankProgress['mpsc-old-questions']?.mastered.length ?? 0;
+      return { pct: q > 0 ? Math.round((m / q) * 100) : null, meta: `${bank?.papers?.length ?? 0} papers` };
+    })(),
   };
 }
 

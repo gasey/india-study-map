@@ -9,14 +9,26 @@
     "videoUrl": "https://www.youtube.com/watch?v=z_5_LXt6R2o",
     "publishedAt": "2026-07-18T00:30:06.000Z"
   },
-  "summary": "The current affairs session of 18th July 2026 highlights major legislative proposals, infrastructure projects, and international collaborations in India. Key developments include a proposed amendment to the Prevention of Insults to National Honour Act to extend legal protection to the national song, Vande Mataram, and the approval of the second phase of the India Semiconductor Mission with a substantial budget outlay. Additionally, the Indian Navy is set to host 'Operation Southern Readiness 262' in Kochi, while the judiciary saw the inauguration of the Tower of Justice in Gurugram. Environmental and regional highlights include West Bengal's decision to reduce the eco-sensitive zone around Mahananda Wildlife Sanctuary and the official inclusion of Jammu & Kashmir's Bhairav Yatra in the national intangible cultural heritage list.",
+  "summary": "The current affairs session of 18th July 2026 highlights major legislative proposals, infrastructure projects, and international collaborations in India. Key developments include a proposed amendment to the Prevention of Insults to National Honour Act to extend legal protection to the national song, Vande Mataram, and the approval of the second phase of the India Semiconductor Mission with a substantial budget outlay. Additionally, the Indian Navy is set to host 'Operation Southern Readiness 262' in Kochi, while the judiciary saw the inauguration of the Tower of Justice in Gurugram. Environmental and regional highlights include West Bengal's decision to reduce the eco-sensitive zone around Mahananda Wildlife Sanctuary and the official inclusion of Jammu & Kashmir's Bhairav Yatra in the national intangible cultural heritage list.\n\nThis revision session details major scientific discoveries, their discoverers, and their underlying biological mechanisms. Key milestones covered include the discovery of both dead and living cells, the cell nucleus, the double-helical structure of DNA, and the ABO and Rh blood grouping systems. Furthermore, it outlines crucial developments in endocrinology with hormones like insulin, adrenaline, and oxytocin, alongside monumental medical breakthroughs such as the smallpox vaccine, rabies vaccine, and the laws of genetic inheritance.\n\nClimate activist Sonam Wangchuk was forcibly removed by Delhi Police from his peaceful fast at Jantar Mantar and taken to a hospital, sparking a nationwide debate on democratic rights. Critics argue that suppressing a non-violent protest violates fundamental democratic values and the right to peaceful assembly. Consequently, an application has been filed in the Supreme Court of India seeking permission for Wangchuk to resume his fast and to safeguard his fundamental rights. The incident has turned national attention toward the judiciary's role in protecting citizen voices and constitutional freedoms.",
   "keyFacts": [
     "The Prevention of Insults to National Honour Amendment Bill 2026 proposes extending statutory protection to India's national song, Vande Mataram.",
     "World Day for International Justice is observed annually on 17th July to mark the adoption of the Rome Statute which established the International Criminal Court.",
     "The Indian Navy will host the multinational maritime training program, Operation Southern Readiness 262, in Kochi in partnership with the Combined Maritime Forces.",
     "West Bengal government has proposed reducing the eco-sensitive zone around the Mahananda Wildlife Sanctuary from 5 km to 1 km.",
     "The Tower of Justice was inaugurated in Gurugram to modernize India's administrative judicial infrastructure.",
-    "Six redeveloped railway stations in Kerala were modernized and inaugurated under the Amrit Bharat Station Scheme."
+    "Six redeveloped railway stations in Kerala were modernized and inaugurated under the Amrit Bharat Station Scheme.",
+    "Robert Hooke discovered the dead cell in 1665 using a slice of bottle cork and published his observations in the book 'Micrographia'.",
+    "Anton van Leeuwenhoek discovered living cells in pond water in 1674 and is widely recognized as the Father of Microbiology.",
+    "The double-helical structure of DNA was identified by James Watson and Francis Crick in 1953, earning them a Nobel Prize in 1962.",
+    "Karl Landsteiner discovered the ABO blood group system in 1900, for which he received the Nobel Prize in Medicine in 1930.",
+    "The Rh (Rhesus) factor was co-discovered by Karl Landsteiner and Alexander Wiener in 1940 through experiments on Rhesus monkeys.",
+    "Insulin was discovered by Sir Frederick Banting and Charles Best in 1921, providing a life-saving treatment for diabetes mellitus.",
+    "Edward Jenner developed the smallpox vaccine in 1796 and is known as the Father of Immunology.",
+    "Gregor Johann Mendel formulated the Laws of Inheritance in 1866 using pea plant experiments, earning him the title 'Father of Genetics'.",
+    "Sonam Wangchuk was on a peaceful hunger strike at Jantar Mantar in Delhi.",
+    "Delhi Police interrupted the protest and forcibly shifted Wangchuk to a hospital, citing health concerns.",
+    "An application has been filed in the Supreme Court of India to protect his fundamental rights and allow the resumption of the fast.",
+    "The core debate centers around the balance between state-enforced public order/health interventions and the democratic right to peaceful protest."
   ],
   "topics": [
     "Polity and Governance",
@@ -24,7 +36,12 @@
     "Defense and Security",
     "Environment and Ecology",
     "Science and Technology",
-    "Infrastructure"
+    "Infrastructure",
+    "Biology",
+    "Medicine",
+    "Polity",
+    "Governance",
+    "Social Justice"
   ],
   "mcqs": [
     {
@@ -208,6 +225,426 @@
       "explanation": "The six redeveloped railway stations in Kerala were modernized and inaugurated by the Prime Minister under the Amrit Bharat Station Scheme, which aims to transform stations with world-class, technology-friendly amenities.",
       "difficulty": "easy",
       "topic": "Infrastructure"
+    },
+    {
+      "id": "2026-07-18-q14",
+      "question": "Who is credited with publishing the famous book 'Micrographia' which contained early drawings of cellular structures?",
+      "options": {
+        "a": "Anton van Leeuwenhoek",
+        "b": "Robert Hooke",
+        "c": "Robert Brown",
+        "d": "Theodor Schwann"
+      },
+      "correctAnswer": "b",
+      "explanation": "Robert Hooke published his fundamental cellular observations and drawings of cork cells in his famous 1665 book titled 'Micrographia'.",
+      "difficulty": "easy",
+      "topic": "Science and Technology"
+    },
+    {
+      "id": "2026-07-18-q15",
+      "question": "Consider the following statements regarding cell biology:\n1. Cytology is the study of cells.\n2. Anton van Leeuwenhoek is widely known as the Father of Cytology.\nWhich of the statements given above is/are correct?",
+      "options": {
+        "a": "1 only",
+        "b": "2 only",
+        "c": "Both 1 and 2",
+        "d": "Neither 1 nor 2"
+      },
+      "correctAnswer": "a",
+      "explanation": "Statement 1 is correct as cytology is the study of cells. Statement 2 is incorrect because Robert Hooke, not Leeuwenhoek, is known as the Father of Cytology, while Leeuwenhoek is known as the Father of Microbiology.",
+      "difficulty": "medium",
+      "topic": "Science and Technology"
+    },
+    {
+      "id": "2026-07-18-q16",
+      "question": "Which of the following scientists first observed free-living cells in pond water in the year 1674?",
+      "options": {
+        "a": "Robert Hooke",
+        "b": "Robert Brown",
+        "c": "Anton van Leeuwenhoek",
+        "d": "Karl Landsteiner"
+      },
+      "correctAnswer": "c",
+      "explanation": "Anton van Leeuwenhoek discovered living cells in pond water in 1674, whereas Robert Hooke discovered dead cork cells in 1665.",
+      "difficulty": "easy",
+      "topic": "Science and Technology"
+    },
+    {
+      "id": "2026-07-18-q17",
+      "question": "The cell nucleus, often referred to as the brain or control center of the cell, was discovered in 1831 by whom?",
+      "options": {
+        "a": "Robert Hooke",
+        "b": "Robert Brown",
+        "c": "Gregor Mendel",
+        "d": "Charles Darwin"
+      },
+      "correctAnswer": "b",
+      "explanation": "Robert Brown discovered the cell nucleus in 1831 as a dense membrane-bound structure inside eukaryotic cells.",
+      "difficulty": "easy",
+      "topic": "Science and Technology"
+    },
+    {
+      "id": "2026-07-18-q18",
+      "question": "In 1962, James Watson and Francis Crick received the Nobel Prize in Medicine primarily for which scientific breakthrough?",
+      "options": {
+        "a": "Discovering the ABO blood group system",
+        "b": "Isolating the insulin hormone",
+        "c": "Unlocking the mechanics of genetic transmission through the double-helical structure of DNA",
+        "d": "Developing the germ theory of disease"
+      },
+      "correctAnswer": "c",
+      "explanation": "James Watson and Francis Crick discovered the double-helical structure of DNA in 1953 and were awarded the Nobel Prize in Medicine in 1962 for unlocking the mechanics of genetic transmission.",
+      "difficulty": "medium",
+      "topic": "Science and Technology"
+    },
+    {
+      "id": "2026-07-18-q19",
+      "question": "Who discovered the ABO blood group system in 1900, subsequently winning the Nobel Prize in Medicine in 1930?",
+      "options": {
+        "a": "Karl Landsteiner",
+        "b": "Alexander Wiener",
+        "c": "Charles Drew",
+        "d": "William Harvey"
+      },
+      "correctAnswer": "a",
+      "explanation": "Karl Landsteiner, an Austrian immunologist, discovered the ABO blood group system in 1900 and received the Nobel Prize in Medicine in 1930.",
+      "difficulty": "easy",
+      "topic": "Science and Technology"
+    },
+    {
+      "id": "2026-07-18-q20",
+      "question": "With reference to blood transfusion compatibility, which specific blood group is identified as the 'Universal Donor'?",
+      "options": {
+        "a": "O positive",
+        "b": "O negative",
+        "c": "AB positive",
+        "d": "AB negative"
+      },
+      "correctAnswer": "b",
+      "explanation": "O negative blood group is known as the universal donor, whereas AB positive is recognized as the universal acceptor.",
+      "difficulty": "medium",
+      "topic": "Science and Technology"
+    },
+    {
+      "id": "2026-07-18-q21",
+      "question": "The Rh (Rhesus) factor, which determines positive or negative blood types, was co-discovered in 1940 by Karl Landsteiner and which other scientist?",
+      "options": {
+        "a": "Charles Drew",
+        "b": "Alexander Wiener",
+        "c": "Alfred von de Castello",
+        "d": "William Edison"
+      },
+      "correctAnswer": "b",
+      "explanation": "The Rh factor was discovered in 1940 by Karl Landsteiner and Alexander Wiener using experiments conducted on Rhesus monkeys.",
+      "difficulty": "medium",
+      "topic": "Science and Technology"
+    },
+    {
+      "id": "2026-07-18-q22",
+      "question": "Who was the American physician who discovered blood plasma in 1930, which constitutes roughly 55% of total blood volume?",
+      "options": {
+        "a": "Dr. Charles Drew",
+        "b": "William Harvey",
+        "c": "Edward Jenner",
+        "d": "Gabriel Andral"
+      },
+      "correctAnswer": "a",
+      "explanation": "Dr. Charles Drew, an American physician, discovered and pioneered the use of blood plasma in 1930.",
+      "difficulty": "hard",
+      "topic": "Science and Technology"
+    },
+    {
+      "id": "2026-07-18-q23",
+      "question": "Consider the following pairs of blood components and their scientific names:\n1. Red Blood Cells (RBC) - Erythrocytes\n2. White Blood Cells (WBC) - Leukocytes\n3. Blood Platelets - Thrombocytes\nWhich of the pairs given above are correctly matched?",
+      "options": {
+        "a": "1 and 2 only",
+        "b": "2 and 3 only",
+        "c": "1 and 3 only",
+        "d": "1, 2 and 3"
+      },
+      "correctAnswer": "d",
+      "explanation": "All three pairs are correctly matched: RBCs are erythrocytes, WBCs are leukocytes, and platelets are thrombocytes.",
+      "difficulty": "medium",
+      "topic": "Science and Technology"
+    },
+    {
+      "id": "2026-07-18-q24",
+      "question": "Red Blood Cells (RBCs) have an average lifespan of about 120 days. Where are they primarily manufactured in the human body?",
+      "options": {
+        "a": "Spleen",
+        "b": "Bone Marrow",
+        "c": "Liver",
+        "d": "Lymph Nodes"
+      },
+      "correctAnswer": "b",
+      "explanation": "RBCs are manufactured in the bone marrow and have an average life span of approximately 120 days.",
+      "difficulty": "easy",
+      "topic": "Science and Technology"
+    },
+    {
+      "id": "2026-07-18-q25",
+      "question": "Who discovered the hormone insulin in 1921, which serves as a life-saving drug for individuals suffering from diabetes mellitus?",
+      "options": {
+        "a": "Sir Frederick Banting and Charles Best",
+        "b": "Aaron B. Lerner",
+        "c": "Edward Calvin",
+        "d": "Ernest Laqueur"
+      },
+      "correctAnswer": "a",
+      "explanation": "Insulin was discovered by Sir Frederick Banting and Charles Best in 1921, providing a critical therapy for diabetes mellitus.",
+      "difficulty": "easy",
+      "topic": "Science and Technology"
+    },
+    {
+      "id": "2026-07-18-q26",
+      "question": "Which hormone is commonly referred to as the 'flight-or-fight' hormone because it increases heart rate, dilates airways, and surges glucose into muscles during stress?",
+      "options": {
+        "a": "Melatonin",
+        "b": "Thyroxine",
+        "c": "Adrenaline",
+        "d": "Oxytocin"
+      },
+      "correctAnswer": "c",
+      "explanation": "Adrenaline (epinephrine) rapidly prepares the body for action in stressful or exciting situations, earning it the nickname of the flight-or-fight hormone.",
+      "difficulty": "easy",
+      "topic": "Science and Technology"
+    },
+    {
+      "id": "2026-07-18-q27",
+      "question": "Which gland secretes melatonin, a hormone discovered by Aaron B. Lerner in 1958 that regulates sleep-wake cycles and is suppressed by artificial blue light?",
+      "options": {
+        "a": "Thyroid gland",
+        "b": "Pineal gland",
+        "c": "Pituitary gland",
+        "d": "Adrenal gland"
+      },
+      "correctAnswer": "b",
+      "explanation": "Melatonin is secreted by the pineal gland. Its secretion increases during darkness to induce sleep and is suppressed by blue light.",
+      "difficulty": "medium",
+      "topic": "Science and Technology"
+    },
+    {
+      "id": "2026-07-18-q28",
+      "question": "A deficiency of the iodine-containing hormone thyroxine, secreted by the thyroid gland, leads to which of the following health conditions?",
+      "options": {
+        "a": "Goitre",
+        "b": "Dwarfism",
+        "c": "Gigantism",
+        "d": "Diabetes"
+      },
+      "correctAnswer": "a",
+      "explanation": "Thyroxine is an iodine-rich hormone secreted by the thyroid gland. Its deficiency leads to enlargement of the thyroid gland, commonly known as goitre.",
+      "difficulty": "easy",
+      "topic": "Science and Technology"
+    },
+    {
+      "id": "2026-07-18-q29",
+      "question": "Consider the following statements regarding Human Growth Hormone (HGH):\n1. It is scientifically known as somatotropin.\n2. Underproduction of HGH in childhood leads to dwarfism.\n3. Hypersecretion of HGH results in gigantism.\nWhich of the statements given above are correct?",
+      "options": {
+        "a": "1 and 2 only",
+        "b": "2 and 3 only",
+        "c": "1 and 3 only",
+        "d": "1, 2 and 3"
+      },
+      "correctAnswer": "d",
+      "explanation": "All statements are correct. HGH (somatotropin) regulates growth; its deficiency causes dwarfism, whereas its hypersecretion leads to gigantism.",
+      "difficulty": "medium",
+      "topic": "Science and Technology"
+    },
+    {
+      "id": "2026-07-18-q30",
+      "question": "Which peptide hormone is produced by the hypothalamus, stored in the pituitary gland, and plays a key role in triggering uterine contractions during childbirth and milk ejection during breastfeeding?",
+      "options": {
+        "a": "Estrogen",
+        "b": "Progesterone",
+        "c": "Oxytocin",
+        "d": "Testosterone"
+      },
+      "correctAnswer": "c",
+      "explanation": "Oxytocin is a peptide hormone produced by the hypothalamus and released by the pituitary gland that stimulates uterine contractions during labor and milk let-down during lactation.",
+      "difficulty": "easy",
+      "topic": "Science and Technology"
+    },
+    {
+      "id": "2026-07-18-q31",
+      "question": "Who is globally recognized as the 'Father of Immunology' for discovering the smallpox vaccine in 1796?",
+      "options": {
+        "a": "Louis Pasteur",
+        "b": "Edward Jenner",
+        "c": "Robert Koch",
+        "d": "William Harvey"
+      },
+      "correctAnswer": "b",
+      "explanation": "Edward Jenner developed the smallpox vaccine in 1796, which was the world's first successful vaccine, earning him the title of the Father of Immunology.",
+      "difficulty": "easy",
+      "topic": "Science and Technology"
+    },
+    {
+      "id": "2026-07-18-q32",
+      "question": "French scientist Louis Pasteur is highly acclaimed for formulating the germ theory of disease and which other twin medical breakthroughs between 1860 and 1885?",
+      "options": {
+        "a": "Pasteurization and Rabies vaccine",
+        "b": "Smallpox vaccine and Penicillin",
+        "c": "Insulin and Polio vaccine",
+        "d": "Blood circulation and Anesthesia"
+      },
+      "correctAnswer": "a",
+      "explanation": "Louis Pasteur developed the process of pasteurization to prevent bacterial contamination in milk and created the rabies vaccine, while also formulating the germ theory of disease.",
+      "difficulty": "medium",
+      "topic": "Science and Technology"
+    },
+    {
+      "id": "2026-07-18-q33",
+      "question": "Who is known as the 'Father of Genetics' for formulating the Laws of Inheritance in 1866 through his detailed experiments on pea plants?",
+      "options": {
+        "a": "Charles Darwin",
+        "b": "Gregor Johann Mendel",
+        "c": "Thomas Hunt Morgan",
+        "d": "Hugo de Vries"
+      },
+      "correctAnswer": "b",
+      "explanation": "Gregor Johann Mendel is known as the Father of Genetics for conducting experiments on garden pea plants (Pisum sativum) to demonstrate the laws of inheritance.",
+      "difficulty": "easy",
+      "topic": "Science and Technology"
+    },
+    {
+      "id": "2026-07-18-q34",
+      "question": "Which of the following Articles of the Constitution of India guarantees the right to assemble peaceably and without arms?",
+      "options": {
+        "a": "Article 19(1)(a)",
+        "b": "Article 19(1)(b)",
+        "c": "Article 19(1)(c)",
+        "d": "Article 21"
+      },
+      "correctAnswer": "b",
+      "explanation": "Article 19(1)(b) of the Indian Constitution guarantees all citizens the right to assemble peaceably and without arms. Article 19(1)(a) relates to freedom of speech and expression, while Article 19(1)(c) relates to forming associations.",
+      "difficulty": "easy",
+      "topic": "Polity"
+    },
+    {
+      "id": "2026-07-18-q35",
+      "question": "Under the Indian Constitution, reasonable restrictions can be imposed on the 'Right to assemble peaceably and without arms' on which of the following grounds?",
+      "options": {
+        "a": "Sovereignty and integrity of India and Public order",
+        "b": "Security of the State and Friendly relations with foreign States",
+        "c": "Decency or morality",
+        "d": "Contempt of court and Defamation"
+      },
+      "correctAnswer": "a",
+      "explanation": "According to Article 19(3), the right to peaceful assembly can be restricted only on two grounds: the sovereignty and integrity of India, and public order. The other options refer to restrictions applicable to the freedom of speech and expression under Article 19(2).",
+      "difficulty": "hard",
+      "topic": "Polity"
+    },
+    {
+      "id": "2026-07-18-q36",
+      "question": "In which of the following landmark judgments did the Supreme Court of India rule that the right to protest peacefully is an essential element of a democratic governance system?",
+      "options": {
+        "a": "K.S. Puttaswamy v. Union of India",
+        "b": "Ramlila Maidan Incident v. Home Secretary, Union of India",
+        "c": "Shreya Singhal v. Union of India",
+        "d": "Indra Sawhney v. Union of India"
+      },
+      "correctAnswer": "b",
+      "explanation": "In the Ramlila Maidan Incident case (2012), the Supreme Court held that the right to peaceful protest and assembly is a fundamental right under Article 19, and citizens have a right to peaceful satyagraha or hunger strikes subject to reasonable restrictions.",
+      "difficulty": "medium",
+      "topic": "Polity"
+    },
+    {
+      "id": "2026-07-18-q37",
+      "question": "With reference to Jantar Mantar in Delhi, which is a prominent site for peaceful protests, consider the following statements:\n1. It was built by Maharaja Jai Singh II of Jaipur.\n2. It was constructed primarily as a assembly hall for regional rulers.\nWhich of the statements given above is/are correct?",
+      "options": {
+        "a": "1 only",
+        "b": "2 only",
+        "c": "Both 1 and 2",
+        "d": "Neither 1 nor 2"
+      },
+      "correctAnswer": "a",
+      "explanation": "Statement 1 is correct. Jantar Mantar was built by Maharaja Sawai Jai Singh II of Jaipur in the early 18th century. Statement 2 is incorrect as it was built as an astronomical observatory containing architectural instruments, not as an assembly hall.",
+      "difficulty": "medium",
+      "topic": "History and Art & Culture"
+    },
+    {
+      "id": "2026-07-18-q38",
+      "question": "The right to fast unto death as a form of protest has been debated under which of the following fundamental rights in the context of the 'Right to Die' debate?",
+      "options": {
+        "a": "Article 14",
+        "b": "Article 19",
+        "c": "Article 21",
+        "d": "Article 25"
+      },
+      "correctAnswer": "c",
+      "explanation": "The right to fast unto death has often been legally analyzed alongside Article 21 (Right to Life and Personal Liberty). While the Supreme Court has distinguished between suicide and a peaceful hunger strike for a public cause, both touch upon the constitutional limits of state interference under Article 21.",
+      "difficulty": "medium",
+      "topic": "Polity"
+    },
+    {
+      "id": "2026-07-18-q39",
+      "question": "Which of the following writs can be issued by the Supreme Court under Article 32 to protect a citizen from unlawful detention or unlawful curtailment of physical liberty by the state?",
+      "options": {
+        "a": "Mandamus",
+        "b": "Habeas Corpus",
+        "c": "Quo Warranto",
+        "d": "Certiorari"
+      },
+      "correctAnswer": "b",
+      "explanation": "Habeas Corpus is the writ issued by the court to secure the release of a person who has been unlawfully or illegally detained, ensuring their personal liberty is protected.",
+      "difficulty": "easy",
+      "topic": "Polity"
+    },
+    {
+      "id": "2026-07-18-q40",
+      "question": "Consider the following statements regarding the Supreme Court's power to entertain applications regarding fundamental rights violations:\n1. An individual can directly approach the Supreme Court under Article 32 without first going to a High Court.\n2. Article 32 is itself a Fundamental Right.\nWhich of the statements given above is/are correct?",
+      "options": {
+        "a": "1 only",
+        "b": "2 only",
+        "c": "Both 1 and 2",
+        "d": "Neither 1 nor 2"
+      },
+      "correctAnswer": "c",
+      "explanation": "Both statements are correct. Article 32 allows citizens to directly petition the Supreme Court for the enforcement of fundamental rights, and Dr. B.R. Ambedkar termed Article 32 itself as the 'heart and soul' of the Constitution as it is a guaranteed fundamental right.",
+      "difficulty": "medium",
+      "topic": "Polity"
+    },
+    {
+      "id": "2026-07-18-q41",
+      "question": "Which section of the Code of Criminal Procedure (CrPC) / Bharatiya Nagarik Suraksha Sanhita (BNSS) is commonly invoked by executive magistrates to prohibit assemblies to prevent public nuisance or apprehended danger?",
+      "options": {
+        "a": "Section 144 (now replaced by corresponding provisions in BNSS)",
+        "b": "Section 124A",
+        "c": "Section 302",
+        "d": "Section 498A"
+      },
+      "correctAnswer": "a",
+      "explanation": "Section 144 of the CrPC (and its corresponding provisions under the BNSS) empowers executive magistrates to issue orders in urgent cases of nuisance or apprehended danger, which is frequently used to restrict public gatherings and protests.",
+      "difficulty": "easy",
+      "topic": "Polity"
+    },
+    {
+      "id": "2026-07-18-q42",
+      "question": "In the context of protest sites in the national capital, the Supreme Court in the 'Amit Sahni v. Commissioner of Police' (Shaheen Bagh case) held that:",
+      "options": {
+        "a": "Protests can be held anywhere indefinitely.",
+        "b": "Occupying public ways and spaces indefinitely for protests is not acceptable, and administrations must keep such areas clear.",
+        "c": "Public assemblies do not require any police permission or regulation.",
+        "d": "The right to protest is absolute and cannot be restricted under any circumstances."
+      },
+      "correctAnswer": "b",
+      "explanation": "In the Shaheen Bagh case (2020), the Supreme Court ruled that while democracy and dissent go hand in hand, demonstrations must be held in designated areas and public tracks/streets cannot be blocked indefinitely, balancing the right to protest with the right of commuters.",
+      "difficulty": "hard",
+      "topic": "Polity"
+    },
+    {
+      "id": "2026-07-18-q43",
+      "question": "In India, the police force in the National Capital Territory of Delhi reports directly to which of the following authorities?",
+      "options": {
+        "a": "Chief Minister of Delhi",
+        "b": "Lieutenant Governor of Delhi through the Ministry of Home Affairs",
+        "c": "Mayor of Delhi",
+        "d": "Chief Justice of the Delhi High Court"
+      },
+      "correctAnswer": "b",
+      "explanation": "Unlike most states where police forces report to the state government, the Delhi Police is under the administrative control of the Ministry of Home Affairs (MHA), Government of India, represented locally by the Lieutenant Governor.",
+      "difficulty": "medium",
+      "topic": "Polity"
     }
   ]
 }

@@ -1,76 +1,45 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-19T12:16:35.986Z",
+  "updatedAt": "2026-07-19T12:20:34.951Z",
   "days": [
     {
       "date": "2026-07-19",
-      "title": "🏆 72nd National Film Awards 2026 Winners | Complete Winners List | Best Actor, Best Film #awards2026",
-      "mcqCount": 12,
-      "topics": [
-        "Art and Culture",
-        "Governance",
-        "Social Issues"
-      ]
-    },
-    {
-      "date": "2026-07-19",
       "title": "13-19 July 2026 Current Affairs 🔥 | Weekly MCQs | One Shot Revision | All Exams 2026",
-      "mcqCount": 15,
+      "mcqCount": 27,
       "topics": [
         "Economy",
         "Environment",
         "Polity",
         "Science and Technology",
         "International Relations",
-        "Awards and Honours"
-      ]
-    },
-    {
-      "date": "2026-07-18",
-      "title": "🙏 Sonam Wangchuk को दोबारा अनशन की इजाजत मिले #sonamwangchuk",
-      "mcqCount": 10,
-      "topics": [
-        "Polity",
+        "Awards and Honours",
+        "Art and Culture",
         "Governance",
-        "Social Justice"
-      ]
-    },
-    {
-      "date": "2026-07-18",
-      "title": "Scientists & Discoveries 🔥 | वैज्ञानिक और उनकी खोजें | Static GK | Complete Revision",
-      "mcqCount": 20,
-      "topics": [
-        "Science and Technology",
-        "Biology",
-        "Medicine"
+        "Social Issues"
       ]
     },
     {
       "date": "2026-07-18",
       "title": "18th July 2026 Current Affairs🔥 | Daily MCQs | Today’s Most Important MCQs #currentaffairs2026",
-      "mcqCount": 13,
+      "mcqCount": 43,
       "topics": [
         "Polity and Governance",
         "International Relations",
         "Defense and Security",
         "Environment and Ecology",
         "Science and Technology",
-        "Infrastructure"
-      ]
-    },
-    {
-      "date": "2026-07-17",
-      "title": "Sonam Wangchuk की मौत हुई तो? क्या सरकार पर होगा केस?",
-      "mcqCount": 10,
-      "topics": [
+        "Infrastructure",
+        "Biology",
+        "Medicine",
         "Polity",
-        "Governance"
+        "Governance",
+        "Social Justice"
       ]
     },
     {
       "date": "2026-07-17",
       "title": "17th July 2026 Current Affairs🔥 | Daily MCQs | Today’s Most Important MCQs #currentaffairs2026",
-      "mcqCount": 14,
+      "mcqCount": 24,
       "topics": [
         "Internal Security",
         "Science and Technology",
@@ -78,98 +47,61 @@
         "Government Schemes",
         "Geography",
         "Polity and Governance",
-        "International Relations"
-      ]
-    },
-    {
-      "date": "2026-07-16",
-      "title": "🙏 Sonam Wangchuk को हमें बचाना होगा | अब चुप रहने का समय नहीं",
-      "mcqCount": 10,
-      "topics": [
+        "International Relations",
         "Polity",
-        "Governance",
-        "Judiciary",
-        "Social Issues"
-      ]
-    },
-    {
-      "date": "2026-07-16",
-      "title": "GI Tags 2026 🔥 | Jan to July 2026 Complete List | All New GI Tags in India | Current Affairs 2026",
-      "mcqCount": 17,
-      "topics": [
-        "Economy",
-        "Art and Culture",
-        "Governance",
-        "Environment"
+        "Governance"
       ]
     },
     {
       "date": "2026-07-16",
       "title": "16th July 2026 Current Affairs🔥 | Daily MCQs | Today’s Most Important MCQs #currentaffairs2026",
-      "mcqCount": 12,
+      "mcqCount": 39,
       "topics": [
         "Environment & Ecology",
         "Science & Technology",
         "Art & Culture",
         "Security & International Relations",
         "Economy",
-        "Sports"
-      ]
-    },
-    {
-      "date": "2026-07-15",
-      "title": "Scientific Instruments 🔥 | वैज्ञानिक उपकरण एवं उनके उपयोग | Static GK | Complete Revision",
-      "mcqCount": 12,
-      "topics": [
-        "Science and Technology",
-        "General Knowledge"
+        "Sports",
+        "Art and Culture",
+        "Governance",
+        "Environment",
+        "Polity",
+        "Judiciary",
+        "Social Issues"
       ]
     },
     {
       "date": "2026-07-15",
       "title": "15th July 2026 Current Affairs🔥 | Daily MCQs | Today’s Most Important MCQs #currentaffairs2026",
-      "mcqCount": 12,
+      "mcqCount": 24,
       "topics": [
         "Governance",
         "Economy",
         "Science and Technology",
         "Environment",
         "Art and Culture",
-        "International Relations"
-      ]
-    },
-    {
-      "date": "2026-07-14",
-      "title": "🙏 Support Sonam Wangchuk | आज चुप रहे, कल कौन बोलेगा?",
-      "mcqCount": 10,
-      "topics": [
-        "Polity",
-        "Governance",
-        "Social Justice"
-      ]
-    },
-    {
-      "date": "2026-07-14",
-      "title": "Women Freedom Fighters of India 🔥 | महिला स्वतंत्रता सेनानियाँ | Static GK | Complete Revision",
-      "mcqCount": 15,
-      "topics": [
-        "Modern History",
-        "Freedom Struggle",
-        "Polity",
-        "Static GK"
+        "International Relations",
+        "General Knowledge"
       ]
     },
     {
       "date": "2026-07-14",
       "title": "14th July 2026 Current Affairs🔥 | Daily MCQs | Today’s Most Important MCQs #currentaffairs2026",
-      "mcqCount": 17,
+      "mcqCount": 42,
       "topics": [
         "Environment & Ecology",
         "International Relations",
         "Science & Technology",
         "Government Schemes",
         "Sports",
-        "National News"
+        "National News",
+        "Modern History",
+        "Freedom Struggle",
+        "Polity",
+        "Static GK",
+        "Governance",
+        "Social Justice"
       ]
     }
   ]

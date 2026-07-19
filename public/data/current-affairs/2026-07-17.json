@@ -9,7 +9,7 @@
     "videoUrl": "https://www.youtube.com/watch?v=6H5MomHtVnQ",
     "publishedAt": "2026-07-17T00:30:06.000Z"
   },
-  "summary": "The current affairs update for July 17, 2026, highlights critical developments across several sectors in India. Uttar Pradesh topped the nation in cyber fraud complaints during the first half of 2026, registering over 1.58 lakh cases out of a nationwide total of 12.7 lakh. The annual Jagannath Rath Yatra commenced in Odisha, celebrating Lord Jagannath, Lord Balabhadra, and Goddess Subhadra. Additionally, former ISRO Chief S. Somnath joined the board of the private space tech startup Agnikul Cosmos. On the environmental and geographic front, mountaineer Shering Shoden from Sikkim successfully climbed Europe's highest peak, Mount Elbrus, as part of her Seven Summit Challenge.",
+  "summary": "The current affairs update for July 17, 2026, highlights critical developments across several sectors in India. Uttar Pradesh topped the nation in cyber fraud complaints during the first half of 2026, registering over 1.58 lakh cases out of a nationwide total of 12.7 lakh. The annual Jagannath Rath Yatra commenced in Odisha, celebrating Lord Jagannath, Lord Balabhadra, and Goddess Subhadra. Additionally, former ISRO Chief S. Somnath joined the board of the private space tech startup Agnikul Cosmos. On the environmental and geographic front, mountaineer Shering Shoden from Sikkim successfully climbed Europe's highest peak, Mount Elbrus, as part of her Seven Summit Challenge.\n\nClimate activist Sonam Wangchuk has been on an indefinite hunger strike in Ladakh, raising critical questions regarding the legal and constitutional liabilities of the state during a citizen's protest. If a hunger striker dies, a murder case cannot be automatically registered against the government unless investigation proves deliberate negligence or denial of timely medical care by the administration. Furthermore, the state holds a constitutional responsibility to protect life, allowing the administration to forcibly feed a hunger striker under judicial and medical supervision if there is an imminent threat to life. The situation highlights the delicate balance between the democratic right to protest and the state's duty to preserve human life.",
   "keyFacts": [
     "Uttar Pradesh registered the highest number of cyber fraud complaints in India (approximately 1.58 lakh) between January and June 2026, according to the Ministry of Home Affairs.",
     "India registered a total of 12.7 lakh cyber fraud complaints in the first half of 2026, resulting in financial losses exceeding Rs 1,178 crore.",
@@ -19,7 +19,12 @@
     "Bhagaiya Silk, Kuchai Silk, Munda Jewellery, and Bamboo Craft from Jharkhand have recently been granted Geographical Indication (GI) tags.",
     "The Supreme Court of India stayed a Madras High Court order that directed a blanket ban on cow and calf slaughter in Tamil Nadu.",
     "The Indian Air Force decided to acquire nine retired Jaguar fighter aircraft from the United Kingdom to utilize their spare parts for maintaining its existing fleet.",
-    "Sikkimese mountaineer Shering Shoden scaled Mount Elbrus, the highest peak in Europe, as part of her Seven Summit Challenge."
+    "Sikkimese mountaineer Shering Shoden scaled Mount Elbrus, the highest peak in Europe, as part of her Seven Summit Challenge.",
+    "Sonam Wangchuk has been on an indefinite fast-unto-death to demand constitutional safeguards for Ladakh.",
+    "A government cannot be automatically booked for murder if a hunger striker dies, unless administrative negligence or denial of medical aid is legally proven.",
+    "The administration can authorize force-feeding of a protester on hunger strike if a medical team and court deem their life is in imminent danger.",
+    "Force-feeding is legally guided by the state's constitutional responsibility to protect the 'Right to Life' under Article 21 of the Indian Constitution.",
+    "Courts can intervene and order investigations to fix responsibility on the administration if negligence in medical care during a protest is proven."
   ],
   "topics": [
     "Internal Security",
@@ -28,7 +33,9 @@
     "Government Schemes",
     "Geography",
     "Polity and Governance",
-    "International Relations"
+    "International Relations",
+    "Polity",
+    "Governance"
   ],
   "mcqs": [
     {
@@ -226,6 +233,146 @@
       "explanation": "The Gujarat High Court upheld the death sentences of 38 convicts involved in the 2008 Ahmedabad serial bomb blast case.",
       "difficulty": "easy",
       "topic": "Polity and Governance"
+    },
+    {
+      "id": "2026-07-17-q15",
+      "question": "With reference to hunger strikes in India, under which of the following circumstances can the state administration legally resort to force-feeding a protester?",
+      "options": {
+        "a": "Immediately upon the commencement of any hunger strike by a public figure.",
+        "b": "Only when there is a written consent from the protester's immediate family members.",
+        "c": "If there is a serious threat to life as determined by a medical team and under court instructions.",
+        "d": "Whenever a law and order situation arises due to the ongoing hunger strike."
+      },
+      "correctAnswer": "c",
+      "explanation": "The administration can take necessary steps, including force-feeding under judicial and medical supervision, to save a protester's life if a medical team determines that there is an imminent threat to life. This is tied to the state's duty to protect life.",
+      "difficulty": "medium",
+      "topic": "Polity"
+    },
+    {
+      "id": "2026-07-17-q16",
+      "question": "Which of the following Fundamental Rights enshrined in the Constitution of India is primarily invoked when the state intervenes to save the life of a hunger striker?",
+      "options": {
+        "a": "Article 19 (Freedom of Speech and Expression)",
+        "b": "Article 21 (Protection of Life and Personal Liberty)",
+        "c": "Article 25 (Freedom of Conscience)",
+        "d": "Article 14 (Equality Before Law)"
+      },
+      "correctAnswer": "b",
+      "explanation": "Article 21 guarantees the Right to Life. The state's intervention to prevent death by suicide or self-starvation during a protest is legally grounded in its constitutional obligation to preserve human life under Article 21.",
+      "difficulty": "easy",
+      "topic": "Polity"
+    },
+    {
+      "id": "2026-07-17-q17",
+      "question": "If a citizen dies during a hunger strike, what is the legal position regarding registering a criminal case against the government administration?",
+      "options": {
+        "a": "A murder case under Section 302 of IPC/BNS is automatically registered against the Chief Minister.",
+        "b": "No criminal investigation can ever be initiated against government officials due to sovereign immunity.",
+        "c": "A case can be initiated and responsibility fixed only if investigation proves gross administrative negligence or timely denial of medical facilities.",
+        "d": "The case is referred directly to the International Court of Justice as a human rights violation."
+      },
+      "correctAnswer": "c",
+      "explanation": "A murder case is not automatically registered upon the death of a hunger striker. However, if an investigation proves that the administration was aware of the danger and failed to provide timely medical facilities or showed serious negligence, the courts can order an inquiry to fix responsibility.",
+      "difficulty": "hard",
+      "topic": "Governance"
+    },
+    {
+      "id": "2026-07-17-q18",
+      "question": "In the context of Indian polity, the right to protest peacefully is derived from which of the following provisions of the Constitution?",
+      "options": {
+        "a": "Article 19(1)(a) and Article 19(1)(b)",
+        "b": "Article 21 and Article 22",
+        "c": "Article 32 and Article 226",
+        "d": "Directive Principles of State Policy"
+      },
+      "correctAnswer": "a",
+      "explanation": "The right to protest peacefully is derived from the Right to Freedom of Speech and Expression under Article 19(1)(a) and the Right to Assemble peaceably and without arms under Article 19(1)(b).",
+      "difficulty": "medium",
+      "topic": "Polity"
+    },
+    {
+      "id": "2026-07-17-q19",
+      "question": "Consider the following statements regarding the legal aspects of a 'fast-unto-death' in India:\n1. The Supreme Court of India has held that the right to life under Article 21 includes the absolute right to die by self-starvation.\n2. The administration cannot intervene in a hunger strike if the protester has signed a prior affidavit refusing medical aid.\nWhich of the statements given above is/are correct?",
+      "options": {
+        "a": "1 only",
+        "b": "2 only",
+        "c": "Both 1 and 2",
+        "d": "Neither 1 nor 2"
+      },
+      "correctAnswer": "d",
+      "explanation": "The right to life under Article 21 does not include the right to die or commit suicide by self-starvation. The administration has a constitutional duty to protect lives and can intervene/force-feed a protester on medical and judicial advice, regardless of any prior unilateral affidavit by the protester.",
+      "difficulty": "hard",
+      "topic": "Polity"
+    },
+    {
+      "id": "2026-07-17-q20",
+      "question": "With reference to the administration's responsibilities during public protests and fasts, who has the primary authority to declare that a protester's life is in danger, requiring medical intervention?",
+      "options": {
+        "a": "The political leadership of the ruling party",
+        "b": "A designated medical board or team of doctors",
+        "c": "The legal counsel representing the protester",
+        "d": "The local police officer of the rank of Sub-Inspector"
+      },
+      "correctAnswer": "b",
+      "explanation": "Only a designated medical team/doctors can officially determine if there is a serious threat to the life of a protester due to fasting. Based on their expert opinion, the administration and court proceed with necessary life-saving interventions.",
+      "difficulty": "easy",
+      "topic": "Governance"
+    },
+    {
+      "id": "2026-07-17-q21",
+      "question": "Which of the following best describes the constitutional status of Ladakh, for which Sonam Wangchuk has been protesting?",
+      "options": {
+        "a": "It is a full-fledged State with a bicameral legislature.",
+        "b": "It is a Union Territory with a Legislative Assembly.",
+        "c": "It is a Union Territory without a Legislative Assembly.",
+        "d": "It is an autonomous region under the direct control of the Governor of Jammu and Kashmir."
+      },
+      "correctAnswer": "c",
+      "explanation": "Ladakh was created as a separate Union Territory without a Legislative Assembly under the Jammu and Kashmir Reorganisation Act, 2019. The protests led by Sonam Wangchuk demand Statehood and inclusion in the Sixth Schedule of the Constitution.",
+      "difficulty": "medium",
+      "topic": "Polity"
+    },
+    {
+      "id": "2026-07-17-q22",
+      "question": "Under Indian jurisprudence, the duty of the state to protect its citizens from self-inflicted harm or death during protests is balanced against:",
+      "options": {
+        "a": "The right to assemble peacefully without arms under Article 19(1)(b)",
+        "b": "The principle of absolute laissez-faire",
+        "c": "The absolute supremacy of the executive over the judiciary",
+        "d": "The right to personal liberty under Article 21, which includes absolute bodily autonomy without exception"
+      },
+      "correctAnswer": "a",
+      "explanation": "While citizens have the right to assemble peacefully and express dissent, this right is balanced against the state's duty to protect life (Article 21). The state can place reasonable restrictions and intervene when a protest turns into self-harm or threatens public order.",
+      "difficulty": "hard",
+      "topic": "Polity"
+    },
+    {
+      "id": "2026-07-17-q23",
+      "question": "What is the legal consequence if an administrative officer is found guilty of deliberate negligence in providing medical aid to a critical protester under their custody or surveillance?",
+      "options": {
+        "a": "They are protected under absolute sovereign immunity.",
+        "b": "The court can order a judicial probe and fix individual criminal liability on the negligent officers.",
+        "c": "The officer can only face departmental transfers but no judicial action.",
+        "d": "The matter can only be resolved by a special act of Parliament."
+      },
+      "correctAnswer": "b",
+      "explanation": "If an investigation proves that the administration was aware of the critical health of a protester and failed to provide timely medical facilities, the court has the authority to order an investigation and fix responsibility on the concerned officials.",
+      "difficulty": "medium",
+      "topic": "Governance"
+    },
+    {
+      "id": "2026-07-17-q24",
+      "question": "Which of the following schedules of the Indian Constitution is central to the demands of the Ladakh protests led by Sonam Wangchuk?",
+      "options": {
+        "a": "Fifth Schedule",
+        "b": "Sixth Schedule",
+        "c": "Seventh Schedule",
+        "d": "Eighth Schedule"
+      },
+      "correctAnswer": "b",
+      "explanation": "The core demand of Sonam Wangchuk and the people of Ladakh is the inclusion of Ladakh under the Sixth Schedule of the Indian Constitution, which provides for autonomous district councils to protect tribal populations and their land.",
+      "difficulty": "medium",
+      "topic": "Polity"
     }
   ]
 }

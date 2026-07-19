@@ -9,7 +9,7 @@
     "videoUrl": "https://www.youtube.com/watch?v=soD0w1w1_6I",
     "publishedAt": "2026-07-16T00:30:06.000Z"
   },
-  "summary": "The study material of 16th July 2026 covers several significant domestic and international developments. Domestically, the Indian Grey Hornbill has returned to Gujarat's Gir National Park after 60 years of local extinction under a species recovery programme. Additionally, the Ministry of Electronics and Information Technology (MeitY) has released the second edition of the Digital Threat Report to strengthen cyber security in the Banking, Financial Services, Insurance (BFSI) and payment ecosystem. Karnataka has announced the establishment of India's first government-driven Artificial Intelligence University, and the official mascot 'Peacock' was unveiled for the 2026 Commonwealth Table Tennis Championship in Delhi. Internationally, Ukraine and nine other European nations launched the Integrated Antiballistic Missile Coalition, while India is gearing up to host the fifth meeting of BIMSTEC National Security Chiefs in New Delhi.",
+  "summary": "The study material of 16th July 2026 covers several significant domestic and international developments. Domestically, the Indian Grey Hornbill has returned to Gujarat's Gir National Park after 60 years of local extinction under a species recovery programme. Additionally, the Ministry of Electronics and Information Technology (MeitY) has released the second edition of the Digital Threat Report to strengthen cyber security in the Banking, Financial Services, Insurance (BFSI) and payment ecosystem. Karnataka has announced the establishment of India's first government-driven Artificial Intelligence University, and the official mascot 'Peacock' was unveiled for the 2026 Commonwealth Table Tennis Championship in Delhi. Internationally, Ukraine and nine other European nations launched the Integrated Antiballistic Missile Coalition, while India is gearing up to host the fifth meeting of BIMSTEC National Security Chiefs in New Delhi.\n\nThis study material covers Geographical Indication (GI) tags in India for the year 2026, highlighting their legal framework, significance, and newly registered products. Regulated under the Geographical Indications of Goods Act, 1999, which came into official force in 2003, GI tags protect unique products linked to specific origins for a duration of 10 years. Currently, Uttar Pradesh leads the country with the highest number of GI products, followed closely by Tamil Nadu. Recent registrations span diverse categories from agricultural crops like Spiti Sea Buckthorn and Karbi Anglong Ginger to indigenous crafts such as Majuli Masks, Dokra Metal Craft, and Jodhpur Mojari.\n\nClimate activist Sonam Wangchuk has been on a prolonged hunger strike, demanding constitutional safeguards and statehood for the Union Territory of Ladakh. As his health deteriorates, the Delhi High Court has intervened, emphasizing that human life is precious and directing the government to regularly monitor his health. This judicial intervention elevates the protest from a local movement to a matter of national and constitutional significance. The government now faces critical choices: continue its wait-and-watch approach, limit its response to medical monitoring, or actively initiate a political dialogue to address the core demands.",
   "keyFacts": [
     "Indian Grey Hornbill has successfully returned to Gir National Park, Gujarat, after more than 60 years of local extinction.",
     "MeitY released the second edition of the Digital Threat Report 2025-26 targeting BFSI cyber security.",
@@ -17,7 +17,18 @@
     "Karnataka is setting up India's first government-driven Artificial Intelligence University.",
     "Ukraine, along with nine other European countries, launched the Integrated Antiballistic Missile Coalition.",
     "The Uttar Pradesh Pharmacy Council became the first State Pharmacy Council to collaborate with the Indian Pharmacopoeia Commission (IPC) to promote the National Formulary of India.",
-    "The India-UK Comprehensive Economic and Trade Agreement came into force on 15th July 2026."
+    "The India-UK Comprehensive Economic and Trade Agreement came into force on 15th July 2026.",
+    "Darjeeling Tea of West Bengal was the first product in India to receive a GI tag.",
+    "GI tags in India are administered by the Geographical Indication Registry under the Department for Promotion of Industry and Internal Trade (DPIIT), Ministry of Commerce and Industry.",
+    "The Geographical Indications of Goods (Registration and Protection) Act was enacted in 1999 and came into official force on September 15, 2003.",
+    "A registered Geographical Indication tag is valid for a period of 10 years, after which it can be renewed.",
+    "Uttar Pradesh currently holds the highest number of GI-tagged products in India.",
+    "The Indian Government aims to achieve a target of 10,000 GI-tagged products by the year 2030.",
+    "Sonam Wangchuk has been on a prolonged hunger strike demanding constitutional safeguards for Ladakh under the Sixth Schedule.",
+    "The Delhi High Court intervened in the matter, declaring that life is most precious and directing the government to regularly monitor Wangchuk's health.",
+    "The issue has transitioned from a localized protest to one involving judicial oversight and national media attention.",
+    "The protest highlights the ongoing political and social tensions in Ladakh following its separation from Jammu and Kashmir in 2019.",
+    "Delay in government dialogue poses a political risk of transforming a regional movement into a larger national issue."
   ],
   "topics": [
     "Environment & Ecology",
@@ -25,7 +36,13 @@
     "Art & Culture",
     "Security & International Relations",
     "Economy",
-    "Sports"
+    "Sports",
+    "Art and Culture",
+    "Governance",
+    "Environment",
+    "Polity",
+    "Judiciary",
+    "Social Issues"
   ],
   "mcqs": [
     {
@@ -195,6 +212,384 @@
       "explanation": "The official mascot of the 2026 Commonwealth Table Tennis Championship is the Peacock (Mayur), inspired by India's national bird. The event is scheduled to be held in Delhi.",
       "difficulty": "easy",
       "topic": "Sports"
+    },
+    {
+      "id": "2026-07-16-q13",
+      "question": "Which of the following bodies is directly responsible for registering and regulating Geographical Indications (GI) in India?",
+      "options": {
+        "a": "Council of Scientific & Industrial Research (CSIR)",
+        "b": "Department for Promotion of Industry and Internal Trade (DPIIT)",
+        "c": "National Biodiversity Authority (NBA)",
+        "d": "Indian Patent Office"
+      },
+      "correctAnswer": "b",
+      "explanation": "The Geographical Indication Registry works under the Department for Promotion of Industry and Internal Trade (DPIIT), which is part of the Ministry of Commerce and Industry.",
+      "difficulty": "easy",
+      "topic": "Governance"
+    },
+    {
+      "id": "2026-07-16-q14",
+      "question": "In which year did the Geographical Indications of Goods (Registration and Protection) Act, 1999 officially come into force in India?",
+      "options": {
+        "a": "1999",
+        "b": "2000",
+        "c": "2003",
+        "d": "2005"
+      },
+      "correctAnswer": "c",
+      "explanation": "Although the Act was enacted by Parliament in 1999, it officially came into force on September 15, 2003.",
+      "difficulty": "medium",
+      "topic": "Governance"
+    },
+    {
+      "id": "2026-07-16-q15",
+      "question": "Once officially registered, for how many years is a Geographical Indication (GI) tag valid in India before requiring renewal?",
+      "options": {
+        "a": "5 years",
+        "b": "10 years",
+        "c": "15 years",
+        "d": "20 years"
+      },
+      "correctAnswer": "b",
+      "explanation": "A registered Geographical Indication (GI) tag is valid for a period of 10 years and must be renewed periodically after that.",
+      "difficulty": "easy",
+      "topic": "Economy"
+    },
+    {
+      "id": "2026-07-16-q16",
+      "question": "As of mid-2026, which Indian state holds the rank-one position with the highest number of registered GI products?",
+      "options": {
+        "a": "Tamil Nadu",
+        "b": "Karnataka",
+        "c": "West Bengal",
+        "d": "Uttar Pradesh"
+      },
+      "correctAnswer": "d",
+      "explanation": "Uttar Pradesh holds the top position in India with the highest number of registered GI products, followed by Tamil Nadu.",
+      "difficulty": "medium",
+      "topic": "Economy"
+    },
+    {
+      "id": "2026-07-16-q17",
+      "question": "The handcrafted leather footwear known as 'Jodhpur Mojari' has recently been granted a GI tag. Which state does it belong to?",
+      "options": {
+        "a": "Gujarat",
+        "b": "Rajasthan",
+        "c": "Madhya Pradesh",
+        "d": "Punjab"
+      },
+      "correctAnswer": "b",
+      "explanation": "Jodhpur Mojari is a handcrafted leather footwear traditional to the Marwar region of Rajasthan, which secured the GI tag.",
+      "difficulty": "easy",
+      "topic": "Art and Culture"
+    },
+    {
+      "id": "2026-07-16-q18",
+      "question": "The 'Balagarh Traditional Boat', which recently received a GI tag, is a handcrafted wooden boat originating from which state?",
+      "options": {
+        "a": "Odisha",
+        "b": "Kerala",
+        "c": "West Bengal",
+        "d": "Assam"
+      },
+      "correctAnswer": "c",
+      "explanation": "The Balagarh Traditional Boat is a handcrafted wooden boat originating from the Hooghly district of West Bengal.",
+      "difficulty": "medium",
+      "topic": "Art and Culture"
+    },
+    {
+      "id": "2026-07-16-q19",
+      "question": "Consider the following traditional crafts of Jharkhand that received GI tags in 2026:\n1. Dokra Craft\n2. Jadopatiya Painting\n3. Munda Jewellery\nWhich of the statements given above is/are correct?",
+      "options": {
+        "a": "1 only",
+        "b": "2 and 3 only",
+        "c": "1 and 3 only",
+        "d": "1, 2 and 3"
+      },
+      "correctAnswer": "d",
+      "explanation": "All three crafts (Dokra metal craft, Jadopatiya painting, and Munda jewellery) are part of the traditional items of Jharkhand that received GI tags in 2026.",
+      "difficulty": "medium",
+      "topic": "Art and Culture"
+    },
+    {
+      "id": "2026-07-16-q20",
+      "question": "The traditional musical instrument 'Sarinda', which secured a GI tag, belongs to which of the following North-Eastern states?",
+      "options": {
+        "a": "Tripura",
+        "b": "Manipur",
+        "c": "Mizoram",
+        "d": "Meghalaya"
+      },
+      "correctAnswer": "a",
+      "explanation": "Sarinda is a traditional, multi-stringed musical instrument originating from Tripura that has been granted a GI tag.",
+      "difficulty": "hard",
+      "topic": "Art and Culture"
+    },
+    {
+      "id": "2026-07-16-q21",
+      "question": "The historical 'Bhavan Booti Saree' is a handloom textile that was granted a GI tag. Which state does it belong to?",
+      "options": {
+        "a": "Bihar",
+        "b": "West Bengal",
+        "c": "Uttar Pradesh",
+        "d": "Odisha"
+      },
+      "correctAnswer": "a",
+      "explanation": "Bhavan Booti Saree is a traditional handloom textile made of cotton or wool from the Nalanda region of Bihar.",
+      "difficulty": "hard",
+      "topic": "Art and Culture"
+    },
+    {
+      "id": "2026-07-16-q22",
+      "question": "The traditional wall and floor art originating from the Bhojpuri region, known as 'Pedia Painting', belongs to which state?",
+      "options": {
+        "a": "Madhya Pradesh",
+        "b": "Jharkhand",
+        "c": "Bihar",
+        "d": "Chhattisgarh"
+      },
+      "correctAnswer": "c",
+      "explanation": "Pedia Painting is an ancient traditional wall and floor art from the Bhojpuri region of Bihar that recently earned a GI tag.",
+      "difficulty": "medium",
+      "topic": "Art and Culture"
+    },
+    {
+      "id": "2026-07-16-q23",
+      "question": "With reference to the cultural items of Assam, 'Bihu Pepa' is a newly GI-tagged:",
+      "options": {
+        "a": "Handloom Textile",
+        "b": "Traditional Dance Mask",
+        "c": "Musical Instrument",
+        "d": "Bamboo Kitchen Utensil"
+      },
+      "correctAnswer": "c",
+      "explanation": "Bihu Pepa is a traditional musical instrument from Assam that has been granted GI tag protection.",
+      "difficulty": "easy",
+      "topic": "Art and Culture"
+    },
+    {
+      "id": "2026-07-16-q24",
+      "question": "'Jasdan Pathri', which recently received a GI tag, is a traditional handcrafted wooden chest (box) originating from which state?",
+      "options": {
+        "a": "Rajasthan",
+        "b": "Gujarat",
+        "c": "Madhya Pradesh",
+        "d": "Maharashtra"
+      },
+      "correctAnswer": "b",
+      "explanation": "Jasdan Pathri is a traditional handcrafted wooden chest (box) from the Rajkot district of Gujarat.",
+      "difficulty": "hard",
+      "topic": "Art and Culture"
+    },
+    {
+      "id": "2026-07-16-q25",
+      "question": "Which agricultural crop, famous for its intense health benefits and known as 'Wonder Berry', received a GI tag from the cold deserts of Himachal Pradesh?",
+      "options": {
+        "a": "Spiti Sea Buckthorn",
+        "b": "Kinnauri Apple",
+        "c": "Kangra Tea",
+        "d": "Spiti Saffron"
+      },
+      "correctAnswer": "a",
+      "explanation": "Spiti Sea Buckthorn is a nutrient-rich wonder berry growing in the cold deserts of Spiti, Himachal Pradesh, which has received a GI tag.",
+      "difficulty": "medium",
+      "topic": "Environment"
+    },
+    {
+      "id": "2026-07-16-q26",
+      "question": "The aromatic and nutrient-rich 'Thoyamali Rice', which recently secured a GI tag, is primarily cultivated in which state?",
+      "options": {
+        "a": "Andhra Pradesh",
+        "b": "Kerala",
+        "c": "Tamil Nadu",
+        "d": "Karnataka"
+      },
+      "correctAnswer": "c",
+      "explanation": "Thoyamali Rice is a famous traditional, aromatic, and nutrient-rich rice variety cultivated in Tamil Nadu.",
+      "difficulty": "medium",
+      "topic": "Environment"
+    },
+    {
+      "id": "2026-07-16-q27",
+      "question": "'Amba Samudram Chopu Samaan', which received a GI tag, is famous for which category of traditional crafts?",
+      "options": {
+        "a": "Terracotta Pottery",
+        "b": "Handcrafted Wooden Kitchen Utensils",
+        "c": "Metal Cast Figurines",
+        "d": "Bamboo Storage Baskets"
+      },
+      "correctAnswer": "b",
+      "explanation": "Amba Samudram Chopu Samaan from Tamil Nadu comprises traditional, handcrafted wooden miniature kitchen utensils and toys.",
+      "difficulty": "hard",
+      "topic": "Art and Culture"
+    },
+    {
+      "id": "2026-07-16-q28",
+      "question": "The 'Majuli Mask' and 'Majuli Manuscript Paintings', which received GI tags, belong to which Indian state?",
+      "options": {
+        "a": "West Bengal",
+        "b": "Assam",
+        "c": "Manipur",
+        "d": "Nagaland"
+      },
+      "correctAnswer": "b",
+      "explanation": "Majuli masks (made of bamboo and clay) and Majuli manuscript paintings depicting Vaishnavite traditions are from the river island of Majuli in Assam.",
+      "difficulty": "easy",
+      "topic": "Art and Culture"
+    },
+    {
+      "id": "2026-07-16-q29",
+      "question": "'Sitahi Kutki' and 'Nagdaman Kutki' are newly GI-tagged nutrient-rich millets cultivated by tribal communities in which state?",
+      "options": {
+        "a": "Chhattisgarh",
+        "b": "Odisha",
+        "c": "Madhya Pradesh",
+        "d": "Rajasthan"
+      },
+      "correctAnswer": "c",
+      "explanation": "Sitahi Kutki and Nagdaman Kutki are small, nutritious indigenous millets adapted to rainfed farming in Madhya Pradesh.",
+      "difficulty": "hard",
+      "topic": "Environment"
+    },
+    {
+      "id": "2026-07-16-q30",
+      "question": "Which schedule of the Indian Constitution contains provisions regarding the administration of tribal areas in the states of Assam, Meghalaya, Tripura, and Mizoram, which is also a key demand for Ladakh's administration?",
+      "options": {
+        "a": "Fifth Schedule",
+        "b": "Sixth Schedule",
+        "c": "Seventh Schedule",
+        "d": "Eighth Schedule"
+      },
+      "correctAnswer": "b",
+      "explanation": "The Sixth Schedule of the Indian Constitution provides for the administration of tribal areas in Assam, Meghalaya, Tripura, and Mizoram to safeguard the rights of these tribal populations. Civil society groups in Ladakh, led by figures like Sonam Wangchuk, are demanding inclusion under this schedule.",
+      "difficulty": "medium",
+      "topic": "Polity"
+    },
+    {
+      "id": "2026-07-16-q31",
+      "question": "The Delhi High Court's statement that 'life is most precious' during Sonam Wangchuk's fast closely aligns with which Fundamental Right guaranteed under the Constitution of India?",
+      "options": {
+        "a": "Article 14 (Right to Equality)",
+        "b": "Article 19 (Right to Freedom of Speech)",
+        "c": "Article 21 (Right to Life and Personal Liberty)",
+        "d": "Article 25 (Freedom of Religion)"
+      },
+      "correctAnswer": "c",
+      "explanation": "Article 21 of the Indian Constitution guarantees the Protection of Life and Personal Liberty, stating that no person shall be deprived of his life or personal liberty except according to procedure established by law. The High Court's emphasis on preserving life directly resonates with this article.",
+      "difficulty": "easy",
+      "topic": "Polity"
+    },
+    {
+      "id": "2026-07-16-q32",
+      "question": "In the context of the Indian federal structure, what is the primary constitutional difference between a State and a Union Territory?",
+      "options": {
+        "a": "States are administered directly by the President, while Union Territories have independent governors.",
+        "b": "States have their own elected governments with legislative powers over state subjects, whereas Union Territories are directly governed by the Central Government (unless specified otherwise by law).",
+        "c": "Union Territories have their own high courts, whereas states share high courts.",
+        "d": "Only states can have representation in the Rajya Sabha."
+      },
+      "correctAnswer": "b",
+      "explanation": "States are constituent units of the Indian federal system and enjoy legislative and executive powers distributed by the Constitution. Union Territories are administrative units controlled directly by the Central Government through an Administrator or Lieutenant Governor, though some like Delhi and Puducherry have legislatures.",
+      "difficulty": "medium",
+      "topic": "Polity"
+    },
+    {
+      "id": "2026-07-16-q33",
+      "question": "Which article of the Indian Constitution empowers the Parliament to form a new State or alter the boundaries/names of existing States, which was utilized during the reorganization of Jammu and Kashmir in 2019?",
+      "options": {
+        "a": "Article 2",
+        "b": "Article 3",
+        "c": "Article 4",
+        "d": "Article 370"
+      },
+      "correctAnswer": "b",
+      "explanation": "Article 3 of the Indian Constitution authorizes Parliament to form new states, increase or decrease the area of any state, alter the boundaries, or change the name of any state through a simple majority.",
+      "difficulty": "hard",
+      "topic": "Polity"
+    },
+    {
+      "id": "2026-07-16-q34",
+      "question": "Under the Sixth Schedule of the Indian Constitution, which institutions are created to administer tribal areas with legislative, judicial, and administrative autonomy?",
+      "options": {
+        "a": "Zilla Parishads",
+        "b": "Autonomous District Councils (ADCs)",
+        "c": "Gram Sabhas",
+        "d": "Special Area Development Authorities"
+      },
+      "correctAnswer": "b",
+      "explanation": "The Sixth Schedule provides for the creation of Autonomous District Councils (ADCs) and Regional Councils, which have powers to make laws on subjects like land, forests, water, agriculture, and local customs within their jurisdictions.",
+      "difficulty": "medium",
+      "topic": "Polity"
+    },
+    {
+      "id": "2026-07-16-q35",
+      "question": "In judicial review, when a High Court issues directions to the government regarding the health of a protesting citizen, it is primarily exercising which of its jurisdictions?",
+      "options": {
+        "a": "Advisory Jurisdiction",
+        "b": "Appellate Jurisdiction",
+        "c": "Writ Jurisdiction under Article 226",
+        "d": "Original Jurisdiction under Article 131"
+      },
+      "correctAnswer": "c",
+      "explanation": "Under Article 226 of the Constitution, High Courts have wide powers of writ jurisdiction to issue directions, orders, or writs to any person or authority, including the government, for the enforcement of fundamental rights and other legal rights.",
+      "difficulty": "hard",
+      "topic": "Judiciary"
+    },
+    {
+      "id": "2026-07-16-q36",
+      "question": "Which of the following bodies is responsible for officially advising the President of India regarding the administration and constitutional status of Scheduled Areas?",
+      "options": {
+        "a": "National Commission for Scheduled Tribes (NCST)",
+        "b": "NITI Aayog",
+        "c": "Law Commission of India",
+        "d": "Zonal Councils"
+      },
+      "correctAnswer": "a",
+      "explanation": "The National Commission for Scheduled Tribes (NCST), a constitutional body under Article 338A, is tasked with overseeing the implementation of safeguards for Scheduled Tribes and advising on their developmental and constitutional rights.",
+      "difficulty": "medium",
+      "topic": "Governance"
+    },
+    {
+      "id": "2026-07-16-q37",
+      "question": "In the history of Indian democracy, fasts and hunger strikes as a method of political protest were popularized primarily during the freedom struggle by which leader?",
+      "options": {
+        "a": "Subhas Chandra Bose",
+        "b": "Mahatma Gandhi",
+        "c": "Bal Gangadhar Tilak",
+        "d": "Jawaharlal Nehru"
+      },
+      "correctAnswer": "b",
+      "explanation": "Mahatma Gandhi popularized Satyagraha and hunger strikes (fasting) as powerful ethical and political tools of non-violent resistance against British rule.",
+      "difficulty": "easy",
+      "topic": "Social Issues"
+    },
+    {
+      "id": "2026-07-16-q38",
+      "question": "Which constitutional amendment act facilitated the creation of the National Commission for Scheduled Tribes (NCST) as a separate constitutional body?",
+      "options": {
+        "a": "65th Constitutional Amendment Act",
+        "b": "89th Constitutional Amendment Act",
+        "c": "103rd Constitutional Amendment Act",
+        "d": "73rd Constitutional Amendment Act"
+      },
+      "correctAnswer": "b",
+      "explanation": "The 89th Constitutional Amendment Act of 2003 bifurcated the erstwhile combined National Commission for Scheduled Castes and Scheduled Tribes into two separate bodies: the NCSC (Article 338) and the NCST (Article 338A).",
+      "difficulty": "hard",
+      "topic": "Polity"
+    },
+    {
+      "id": "2026-07-16-q39",
+      "question": "Which of the following acts protects the ecological and cultural identity of local communities while managing land and resource rights in tribal-dominated areas of mainland India?",
+      "options": {
+        "a": "PESA Act, 1996",
+        "b": "RTI Act, 2005",
+        "c": "Wildlife Protection Act, 1972",
+        "d": "Forest Conservation Act, 1980"
+      },
+      "correctAnswer": "a",
+      "explanation": "The Provisions of the Panchayats (Extension to the Scheduled Areas) Act, 1996 (PESA) extends Panchayat rule to Fifth Schedule areas, granting tribal communities significant control over local resources and self-governance.",
+      "difficulty": "medium",
+      "topic": "Governance"
     }
   ]
 }

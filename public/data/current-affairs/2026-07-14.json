@@ -9,14 +9,26 @@
     "videoUrl": "https://www.youtube.com/watch?v=R1jkH_0nSPY",
     "publishedAt": "2026-07-14T00:30:07.000Z"
   },
-  "summary": "In the current affairs of July 14, 2026, several significant national and international developments took place. Ahmedabad set a new Guinness World Record by planting over 3.61 lakh saplings in an hour using the Miyawaki method, surpassing Varanasi's previous record. India's digital public infrastructure and welfare programs were highlighted with the promotion of the eSaras e-commerce platform under the Deendayal Antyodaya Yojana. On the strategic and environmental front, the Bureau of Indian Standards is designing India's first national standards for mangrove restoration, while regional concerns persist over China's proposed mega-hydropower project near the Yarlung Tsangpo's Faison Fault near Arunachal Pradesh.",
+  "summary": "In the current affairs of July 14, 2026, several significant national and international developments took place. Ahmedabad set a new Guinness World Record by planting over 3.61 lakh saplings in an hour using the Miyawaki method, surpassing Varanasi's previous record. India's digital public infrastructure and welfare programs were highlighted with the promotion of the eSaras e-commerce platform under the Deendayal Antyodaya Yojana. On the strategic and environmental front, the Bureau of Indian Standards is designing India's first national standards for mangrove restoration, while regional concerns persist over China's proposed mega-hydropower project near the Yarlung Tsangpo's Faison Fault near Arunachal Pradesh.\n\nThis study material covers the significant contributions of key women freedom fighters of India to the national movement, highlighting their diverse roles in the First War of Independence, the Civil Disobedience Movement, and the Quit India Movement. Figures such as Rani Lakshmibai, Sarojini Naidu, Annie Besant, Aruna Asaf Ali, and several others are highlighted along with their key publications, associations, and historic milestones. These political achievements laid the foundation for post-independence governance, with many of these women becoming India's first female ministers, diplomats, governors, and chief ministers. Understanding these contributions is essential for answering critical history and static GK questions in UPSC and state PSC examinations.\n\nThe transcript discusses the ongoing peaceful protest and hunger strike by environmentalist and reformer Sonam Wangchuk in Ladakh. It emphasizes the fundamental democratic right of citizens to protest peacefully and engage in dialogue with the government. The speaker argues that democracy thrives on constructive communication rather than silence or indifference. An appeal is made to both the citizens to support democratic values and the government to initiate talks to resolve the impasse.",
   "keyFacts": [
     "Ahmedabad set a Guinness World Record by planting 3.61 lakh saplings in an hour using the Japanese Miyawaki method.",
     "Anand Singh won the men's javelin throw gold medal at the inaugural Asian Under-23 Athletics Championships 2026 in China.",
     "The Bureau of Indian Standards (BIS) is preparing India's first national standards for mangrove ecosystem restoration.",
     "The Faison Fault on the Yarlung Tsangpo (Brahmaputra) river is a site of structural concern due to a proposed Chinese mega-hydropower project near Arunachal Pradesh.",
     "Dr. Soumya Swaminathan, former WHO Chief Scientist, was elected as a Fellow of the Royal Society, making her and her father M.S. Swaminathan the first Indian father-daughter duo to receive this honor.",
-    "The West Bengal Government has renamed 'Khela Hobo Day' on August 16 to 'Ayushman Day'."
+    "The West Bengal Government has renamed 'Khela Hobo Day' on August 16 to 'Ayushman Day'.",
+    "Rani Lakshmibai fought the British during the Revolt of 1857 because of the annexation of Jhansi under Lord Dalhousie's Doctrine of Lapse.",
+    "Sarojini Naidu's birthday, 13th February, is celebrated as National Women's Day in India; she was also the first Indian woman President of the Indian National Congress in 1925.",
+    "Annie Besant was the first woman President of the Indian National Congress (1917) and established the Home Rule League in 1916 alongside Bal Gangadhar Tilak.",
+    "Aruna Asaf Ali is famously known as the 'Heroine of the Quit India Movement' for hoisting the Indian National Flag at Gowalia Tank Maidan in Bombay on August 9, 1942.",
+    "Madam Bhikaiji Cama is known as the 'Mother of Indian Revolution' and was the first person to hoist the Indian National Flag on foreign soil in Stuttgart, Germany, in 1907.",
+    "Vijay Lakshmi Pandit was the first woman President of the United Nations General Assembly in 1953.",
+    "Sucheta Kripalani became the first woman Chief Minister of an Indian state, serving Uttar Pradesh from 1963 to 1967.",
+    "Rajkumari Amrit Kaur was independent India's first Health Minister and played a major role in establishing the All India Institute of Medical Sciences (AIIMS) in New Delhi.",
+    "Sonam Wangchuk has been on a peaceful hunger strike to demand dialogue with the central government regarding Ladakh.",
+    "The core demand of the protest is to initiate a formal channel of communication and discussion with government representatives.",
+    "The protest has been entirely peaceful, adhering to democratic principles without resorting to violence.",
+    "The narrative highlights that constructive dialogue, debate, and dissent are foundational pillars of Indian democracy."
   ],
   "topics": [
     "Environment & Ecology",
@@ -24,7 +36,13 @@
     "Science & Technology",
     "Government Schemes",
     "Sports",
-    "National News"
+    "National News",
+    "Modern History",
+    "Freedom Struggle",
+    "Polity",
+    "Static GK",
+    "Governance",
+    "Social Justice"
   ],
   "mcqs": [
     {
@@ -264,6 +282,356 @@
       "explanation": "Dehradun in Uttarakhand hosted the 6th Lok Sanvardhan Parv. This is the first time a state government has partnered to co-host this festival, making Uttarakhand the inaugural collaborating state.",
       "difficulty": "medium",
       "topic": "National News"
+    },
+    {
+      "id": "2026-07-14-q18",
+      "question": "Which British Governor General introduced the 'Doctrine of Lapse', which became a primary reason for Rani Lakshmibai joining the Revolt of 1857?",
+      "options": {
+        "a": "Lord Canning",
+        "b": "Lord Dalhousie",
+        "c": "Lord Wellesley",
+        "d": "Lord Curzon"
+      },
+      "correctAnswer": "b",
+      "explanation": "Lord Dalhousie introduced the Doctrine of Lapse, which prohibited Hindu rulers without a natural heir from adopting a successor without British consent, resulting in the annexation of states like Jhansi.",
+      "difficulty": "easy",
+      "topic": "Modern History"
+    },
+    {
+      "id": "2026-07-14-q19",
+      "question": "In honor of whose birth anniversary is National Women's Day celebrated in India on 13th February?",
+      "options": {
+        "a": "Kasturba Gandhi",
+        "b": "Indira Gandhi",
+        "c": "Sarojini Naidu",
+        "d": "Aruna Asaf Ali"
+      },
+      "correctAnswer": "c",
+      "explanation": "National Women's Day is celebrated on 13th February to commemorate the birth anniversary of Sarojini Naidu, whereas International Women's Day is celebrated on 8th March.",
+      "difficulty": "medium",
+      "topic": "Modern History"
+    },
+    {
+      "id": "2026-07-14-q20",
+      "question": "Who was the first Indian woman to serve as the President of the Indian National Congress, and in which session was she elected?",
+      "options": {
+        "a": "Annie Besant, 1917 Calcutta Session",
+        "b": "Sarojini Naidu, 1925 Kanpur Session",
+        "c": "Aruna Asaf Ali, 1942 Bombay Session",
+        "d": "Nellie Sengupta, 1933 Calcutta Session"
+      },
+      "correctAnswer": "b",
+      "explanation": "Sarojini Naidu was the first 'Indian' woman president of the INC, presiding over the Kanpur session in 1925. Annie Besant was the overall first woman president in 1917, but she was of Irish descent.",
+      "difficulty": "hard",
+      "topic": "Modern History"
+    },
+    {
+      "id": "2026-07-14-q21",
+      "question": "The famous book of poetry titled 'The Golden Threshold' was authored by which of the following freedom fighters?",
+      "options": {
+        "a": "Sarojini Naidu",
+        "b": "Subhadra Kumari Chauhan",
+        "c": "Mahadevi Verma",
+        "d": "Annie Besant"
+      },
+      "correctAnswer": "a",
+      "explanation": "The Golden Threshold is a famous collection of poetry written by Sarojini Naidu, who was affectionately called the 'Nightingale of India' or 'Bharat Kokila' by Mahatma Gandhi.",
+      "difficulty": "medium",
+      "topic": "Modern History"
+    },
+    {
+      "id": "2026-07-14-q22",
+      "question": "Which of the following newspapers were published by Annie Besant to propagate the ideas of the Home Rule League Movement?",
+      "options": {
+        "a": "Young India and Harijan",
+        "b": "New India and Commonweal",
+        "c": "Kesari and Maratha",
+        "d": "Al-Hilal and Comrade"
+      },
+      "correctAnswer": "b",
+      "explanation": "Annie Besant published the daily newspaper 'New India' and the weekly journal 'Commonweal' to propagate her ideas of Irish Home Rule and self-government for India.",
+      "difficulty": "medium",
+      "topic": "Modern History"
+    },
+    {
+      "id": "2026-07-14-q23",
+      "question": "Which woman freedom fighter of India is famously remembered as the 'Mother of Indian Revolution'?",
+      "options": {
+        "a": "Aruna Asaf Ali",
+        "b": "Madam Bhikaiji Cama",
+        "c": "Begum Hazrat Mahal",
+        "d": "Captain Lakshmi Sehgal"
+      },
+      "correctAnswer": "b",
+      "explanation": "Madam Bhikaiji Cama is widely regarded as the 'Mother of Indian Revolution' for her pioneering revolutionary work in Europe and hoisting the Indian flag abroad.",
+      "difficulty": "easy",
+      "topic": "Modern History"
+    },
+    {
+      "id": "2026-07-14-q24",
+      "question": "Madam Bhikaiji Cama hoisted the first version of the Indian National Flag on foreign soil in 1907 at which place?",
+      "options": {
+        "a": "London, England",
+        "b": "Paris, France",
+        "c": "Stuttgart, Germany",
+        "d": "Geneva, Switzerland"
+      },
+      "correctAnswer": "c",
+      "explanation": "Madam Cama hoisted the Indian National Flag at the International Socialist Congress held in Stuttgart, Germany, in 1907.",
+      "difficulty": "medium",
+      "topic": "Modern History"
+    },
+    {
+      "id": "2026-07-14-q25",
+      "question": "During the Quit India Movement of 1942, who hoisted the Indian National Flag at the Gowalia Tank Maidan in Bombay?",
+      "options": {
+        "a": "Kasturba Gandhi",
+        "b": "Sucheta Kripalani",
+        "c": "Aruna Asaf Ali",
+        "d": "Usha Mehta"
+      },
+      "correctAnswer": "c",
+      "explanation": "Aruna Asaf Ali hoisted the Indian National Flag at the Gowalia Tank Maidan (now August Kranti Maidan) in Bombay on 9th August 1942, earning her the title 'Heroine of the Quit India Movement'.",
+      "difficulty": "medium",
+      "topic": "Modern History"
+    },
+    {
+      "id": "2026-07-14-q26",
+      "question": "Who was the first woman President of the United Nations General Assembly (UNGA) in 1953?",
+      "options": {
+        "a": "Vijay Lakshmi Pandit",
+        "b": "Rajkumari Amrit Kaur",
+        "c": "Sarojini Naidu",
+        "d": "Indira Gandhi"
+      },
+      "correctAnswer": "a",
+      "explanation": "Vijay Lakshmi Pandit, sister of Jawaharlal Nehru, was elected as the first woman President of the United Nations General Assembly in 1953.",
+      "difficulty": "medium",
+      "topic": "Polity"
+    },
+    {
+      "id": "2026-07-14-q27",
+      "question": "Who was the woman freedom fighter who served as the commander of the 'Rani of Jhansi Regiment', the all-women combat regiment of the Indian National Army (INA)?",
+      "options": {
+        "a": "Jalkari Bai",
+        "b": "Captain Lakshmi Sehgal",
+        "c": "Aruna Asaf Ali",
+        "d": "Sucheta Kripalani"
+      },
+      "correctAnswer": "b",
+      "explanation": "Captain Lakshmi Sehgal was chosen by Netaji Subhas Chandra Bose to lead the Rani of Jhansi Regiment, which was the women's brigade of the Azad Hind Fauj (INA).",
+      "difficulty": "easy",
+      "topic": "Modern History"
+    },
+    {
+      "id": "2026-07-14-q28",
+      "question": "Who was the first woman Chief Minister of an Indian State?",
+      "options": {
+        "a": "Nandini Satpathy",
+        "b": "Sucheta Kripalani",
+        "c": "Sarojini Naidu",
+        "d": "Vijay Lakshmi Pandit"
+      },
+      "correctAnswer": "b",
+      "explanation": "Sucheta Kripalani became the first woman Chief Minister of any Indian state, serving as the Chief Minister of Uttar Pradesh from 1963 to 1967.",
+      "difficulty": "easy",
+      "topic": "Polity"
+    },
+    {
+      "id": "2026-07-14-q29",
+      "question": "Which of the following women was a close associate of Mahatma Gandhi, served as independent India's first Health Minister, and helped establish AIIMS New Delhi?",
+      "options": {
+        "a": "Rajkumari Amrit Kaur",
+        "b": "Sucheta Kripalani",
+        "c": "Vijay Lakshmi Pandit",
+        "d": "Subhadra Kumari Chauhan"
+      },
+      "correctAnswer": "a",
+      "explanation": "Rajkumari Amrit Kaur was the first female cabinet minister of independent India. She served as the Health Minister and played a key role in founding the All India Institute of Medical Sciences (AIIMS).",
+      "difficulty": "medium",
+      "topic": "Polity"
+    },
+    {
+      "id": "2026-07-14-q30",
+      "question": "Which Hindi poet and freedom fighter authored the famous patriotic poem 'Jhansi ki Rani' ('Khoob Ladi Mardani Woh To Jhansi Wali Rani Thi') and was also the first woman Satyagrahi to be arrested in the Non-Cooperation Movement?",
+      "options": {
+        "a": "Mahadevi Verma",
+        "b": "Subhadra Kumari Chauhan",
+        "c": "Sarojini Naidu",
+        "d": "Kamala Nehru"
+      },
+      "correctAnswer": "b",
+      "explanation": "Subhadra Kumari Chauhan was a highly celebrated patriotic Hindi poet who wrote the poem 'Jhansi ki Rani'. She was also the first woman Satyagrahi to be arrested during the Non-Cooperation Movement.",
+      "difficulty": "hard",
+      "topic": "Modern History"
+    },
+    {
+      "id": "2026-07-14-q31",
+      "question": "Who is known as the 'Radio Lady' of India for her courageous role in running an underground secret radio station during the Quit India Movement of 1942?",
+      "options": {
+        "a": "Aruna Asaf Ali",
+        "b": "Usha Mehta",
+        "c": "Sucheta Kripalani",
+        "d": "Captain Lakshmi Sehgal"
+      },
+      "correctAnswer": "b",
+      "explanation": "Usha Mehta is famously known as the 'Radio Lady' because she established and operated the secret 'Congress Radio' transmitter to broadcast news during the Quit India Movement.",
+      "difficulty": "medium",
+      "topic": "Modern History"
+    },
+    {
+      "id": "2026-07-14-q32",
+      "question": "Jalkari Bai, a legendary warrior who fought the British forces by disguising herself as the Queen, was the close associate and Commander-in-Chief of which Queen's army?",
+      "options": {
+        "a": "Rani Lakshmibai of Jhansi",
+        "b": "Begum Hazrat Mahal of Awadh",
+        "c": "Rani Chennamma of Kittur",
+        "d": "Rani Velu Nachiyar of Sivaganga"
+      },
+      "correctAnswer": "a",
+      "explanation": "Jalkari Bai was a key soldier and close companion of Rani Lakshmibai. She was the Commander-in-Chief of the Durga Dal (women's army of Jhansi) and disguised herself as the queen to help Rani Lakshmibai escape.",
+      "difficulty": "medium",
+      "topic": "Modern History"
+    },
+    {
+      "id": "2026-07-14-q33",
+      "question": "Which article of the Constitution of India guarantees the right to freedom of speech and expression, which includes the right to peaceful protest?",
+      "options": {
+        "a": "Article 14",
+        "b": "Article 19",
+        "c": "Article 21",
+        "d": "Article 32"
+      },
+      "correctAnswer": "b",
+      "explanation": "Article 19(1)(a) guarantees the freedom of speech and expression, and Article 19(1)(b) guarantees the right to assemble peaceably and without arms, which together form the basis of the right to peaceful protest in India.",
+      "difficulty": "easy",
+      "topic": "Polity"
+    },
+    {
+      "id": "2026-07-14-q34",
+      "question": "Consider the following statements regarding the Sixth Schedule of the Indian Constitution, which has been a major point of discussion in Ladakh:\n1. It protects tribal populations and provides autonomy through the creation of Autonomous District Councils (ADCs).\n2. It currently applies to the states of Assam, Meghalaya, Tripura, and Mizoram.\nWhich of the statements given above is/are correct?",
+      "options": {
+        "a": "1 only",
+        "b": "2 only",
+        "c": "Both 1 and 2",
+        "d": "Neither 1 nor 2"
+      },
+      "correctAnswer": "c",
+      "explanation": "Both statements are correct. The Sixth Schedule provides for the administration of tribal areas in Assam, Meghalaya, Tripura, and Mizoram to safeguard the rights of the tribal population through Autonomous District Councils (ADCs).",
+      "difficulty": "medium",
+      "topic": "Polity"
+    },
+    {
+      "id": "2026-07-14-q35",
+      "question": "Which of the following bodies is responsible for recommending the inclusion of new areas under the Fifth or Sixth Schedule of the Indian Constitution?",
+      "options": {
+        "a": "Ministry of Home Affairs",
+        "b": "Ministry of Tribal Affairs",
+        "c": "National Commission for Scheduled Tribes (NCST)",
+        "d": "All of the above play a collaborative role, with the final decision resting with the President"
+      },
+      "correctAnswer": "d",
+      "explanation": "The Ministry of Tribal Affairs, Ministry of Home Affairs, and NCST provide inputs and recommendations, while the final constitutional power to declare an area as Scheduled Area rests with the President of India.",
+      "difficulty": "hard",
+      "topic": "Polity"
+    },
+    {
+      "id": "2026-07-14-q36",
+      "question": "The right to strike and hold protests, while recognized under democratic norms, is subject to 'reasonable restrictions' under Article 19(2). Which of the following is NOT a ground for reasonable restriction under Article 19(2)?",
+      "options": {
+        "a": "Sovereignty and integrity of India",
+        "b": "Public order",
+        "c": "Decency or morality",
+        "d": "Protection of the financial interests of the ruling government"
+      },
+      "correctAnswer": "d",
+      "explanation": "The financial interests of the ruling government is not a valid ground for restricting freedom of speech and expression under Article 19(2). Valid grounds include sovereignty, security of the State, public order, decency, morality, and contempt of court.",
+      "difficulty": "medium",
+      "topic": "Polity"
+    },
+    {
+      "id": "2026-07-14-q37",
+      "question": "With reference to the Union Territory of Ladakh, consider the following statements:\n1. It was established as a Union Territory without a legislature under the Jammu and Kashmir Reorganisation Act, 2019.\n2. It is administratively governed by a Lieutenant Governor.\nWhich of the statements given above is/are correct?",
+      "options": {
+        "a": "1 only",
+        "b": "2 only",
+        "c": "Both 1 and 2",
+        "d": "Neither 1 nor 2"
+      },
+      "correctAnswer": "c",
+      "explanation": "Both statements are correct. Ladakh was separated from Jammu and Kashmir and made a Union Territory without a legislature in 2019, administered by a Lieutenant Governor appointed by the President.",
+      "difficulty": "easy",
+      "topic": "Polity"
+    },
+    {
+      "id": "2026-07-14-q38",
+      "question": "Which landmark Supreme Court of India case asserted that 'the right to protest peacefully is a fundamental right flowered from Article 19 of the Constitution'?",
+      "options": {
+        "a": "Keshvananda Bharati Case",
+        "b": "Ramlila Maidan Incident v. Home Secretary, Union of India",
+        "c": "Maneka Gandhi v. Union of India",
+        "d": "Indra Sawhney v. Union of India"
+      },
+      "correctAnswer": "b",
+      "explanation": "In the Ramlila Maidan Incident case (2012), the Supreme Court held that citizens have a fundamental right to assembly and peaceful protest, which cannot be taken away arbitrarily by executive action.",
+      "difficulty": "hard",
+      "topic": "Polity"
+    },
+    {
+      "id": "2026-07-14-q39",
+      "question": "Under the Indian Constitution, the administration of Union Territories is dealt with under which of the following parts?",
+      "options": {
+        "a": "Part VI",
+        "b": "Part VII",
+        "c": "Part VIII",
+        "d": "Part IX"
+      },
+      "correctAnswer": "c",
+      "explanation": "Part VIII of the Constitution of India (Articles 239 to 242) deals with the administration of Union Territories.",
+      "difficulty": "medium",
+      "topic": "Polity"
+    },
+    {
+      "id": "2026-07-14-q40",
+      "question": "The National Commission for Scheduled Tribes (NCST) is a constitutional body established under which Article of the Constitution of India?",
+      "options": {
+        "a": "Article 338",
+        "b": "Article 338A",
+        "c": "Article 340",
+        "d": "Article 342"
+      },
+      "correctAnswer": "b",
+      "explanation": "Article 338A was inserted by the 89th Constitutional Amendment Act, 2003, establishing the National Commission for Scheduled Tribes (NCST).",
+      "difficulty": "medium",
+      "topic": "Polity"
+    },
+    {
+      "id": "2026-07-14-q41",
+      "question": "Which of the following local administrative bodies exist in Ladakh to handle developmental and local governance issues?",
+      "options": {
+        "a": "Ladakh Territorial Council",
+        "b": "Autonomous Hill Development Councils of Leh and Kargil",
+        "c": "Ladakh Tribal Panchayat",
+        "d": "Zilla Parishad of Ladakh"
+      },
+      "correctAnswer": "b",
+      "explanation": "Ladakh is governed locally through the Ladakh Autonomous Hill Development Councils (LAHDC) of Leh and Kargil, which manage local developmental funds and lands.",
+      "difficulty": "medium",
+      "topic": "Governance"
+    },
+    {
+      "id": "2026-07-14-q42",
+      "question": "In the context of Indian polity, what is the significance of the 125th Constitution Amendment Bill?",
+      "options": {
+        "a": "It seeks to grant statehood to Ladakh.",
+        "b": "It seeks to amend provisions related to the finance and powers of Autonomous District Councils under the Sixth Schedule.",
+        "c": "It aims to introduce reservation in private educational institutions.",
+        "d": "It proposes direct elections for the Lieutenant Governor of UTs."
+      },
+      "correctAnswer": "b",
+      "explanation": "The 125th Constitution Amendment Bill was introduced to increase the financial and executive powers of the Autonomous District Councils established under the Sixth Schedule of the Constitution.",
+      "difficulty": "hard",
+      "topic": "Polity"
     }
   ]
 }

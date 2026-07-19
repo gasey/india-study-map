@@ -9,7 +9,7 @@
     "videoUrl": "https://www.youtube.com/watch?v=uuPn7Jez7nw",
     "publishedAt": "2026-07-19T00:30:06.000Z"
   },
-  "summary": "This study material covers critical national and international developments from the second week of July 2026. Key announcements include the 72nd National Film Awards, where 'Article 370' and actor Yami Gautam won major accolades, alongside state-level schemes like the UP Mahila Udyam Nidhi Yojana and Delhi's Lakshmi Yojana. On the global stage, Andrew Burnham is set to succeed Keir Starmer as the Prime Minister of the United Kingdom. Environment and science developments highlight India's first national standards for mangrove restoration by BIS, the development of the nation's largest landslide warning system by IIT Mandi, and the return of the Indian Grey Hornbill to Gir National Park after six decades.",
+  "summary": "This study material covers critical national and international developments from the second week of July 2026. Key announcements include the 72nd National Film Awards, where 'Article 370' and actor Yami Gautam won major accolades, alongside state-level schemes like the UP Mahila Udyam Nidhi Yojana and Delhi's Lakshmi Yojana. On the global stage, Andrew Burnham is set to succeed Keir Starmer as the Prime Minister of the United Kingdom. Environment and science developments highlight India's first national standards for mangrove restoration by BIS, the development of the nation's largest landslide warning system by IIT Mandi, and the return of the Indian Grey Hornbill to Gir National Park after six decades.\n\nThe 72nd National Film Awards were declared in July 2026, honoring outstanding Indian films released between January 1, 2024, and December 31, 2024. Organized by the National Film Development Corporation (NFDC) under the Ministry of Information and Broadcasting, the awards are traditionally presented by the President of India. This year, 'Article 370' won Best Feature Film, with its lead Yami Gautam winning Best Actress. Kartik Aaryan and Mammootty shared the Best Actor accolade, while 'Bhangar' was declared the Best Non-Feature Film.",
   "keyFacts": [
     "Yami Gautam won the Best Actress award at the 72nd National Film Awards 2026 for her role in the film Article 370.",
     "The maximum collateral-free loan amount under the UP Mahila Udyam Nidhi Yojana 2026 is Rs 1 Lakh.",
@@ -19,7 +19,13 @@
     "IIT Mandi has developed India's largest landslide warning system.",
     "The Bureau of Indian Standards (BIS) is preparing India's first National Standards for Mangrove Ecosystem Restoration.",
     "The 31st Divya Kala Mela was inaugurated in Kolkata in July 2026.",
-    "Leprosy, caused by Mycobacterium leprae, has been declared a notifiable disease in Jammu and Kashmir."
+    "Leprosy, caused by Mycobacterium leprae, has been declared a notifiable disease in Jammu and Kashmir.",
+    "The 72nd National Film Awards recognized films released from January 1, 2024, to December 31, 2024.",
+    "The awards are presented by the National Film Development Corporation of India (NFDC) under the Ministry of Information and Broadcasting.",
+    "The first National Film Awards were presented on October 10, 1954, for films released in 1953.",
+    "Article 370 won the award for Best Feature Film and Best Music Direction (Songs).",
+    "Yami Gautam won Best Actress for Article 370, while Kartik Aaryan (Chandu Champion) and Mammootty (Brahma Yugam) shared the Best Actor award.",
+    "Bhangar (Marathi-English) won the award for Best Non-Feature Film."
   ],
   "topics": [
     "Economy",
@@ -27,7 +33,10 @@
     "Polity",
     "Science and Technology",
     "International Relations",
-    "Awards and Honours"
+    "Awards and Honours",
+    "Art and Culture",
+    "Governance",
+    "Social Issues"
   ],
   "mcqs": [
     {
@@ -239,6 +248,174 @@
       "explanation": "Leprosy, also historically known as Hansen's disease, is caused by Mycobacterium leprae and has been declared a notifiable disease in Jammu and Kashmir to ensure mandatory reporting of cases.",
       "difficulty": "medium",
       "topic": "Science and Technology"
+    },
+    {
+      "id": "2026-07-19-q16",
+      "question": "Which body is responsible for presenting the National Film Awards in India?",
+      "options": {
+        "a": "Film and Television Institute of India (FTII)",
+        "b": "National Film Development Corporation (NFDC)",
+        "c": "Central Board of Film Certification (CBFC)",
+        "d": "Directorate of Film Festivals (DFF) as an independent ministry"
+      },
+      "correctAnswer": "b",
+      "explanation": "The National Film Development Corporation (NFDC), headquartered in Mumbai under the Ministry of Information and Broadcasting, presents the National Film Awards.",
+      "difficulty": "medium",
+      "topic": "Art and Culture"
+    },
+    {
+      "id": "2026-07-19-q17",
+      "question": "In which year were the National Film Awards presented for the very first time?",
+      "options": {
+        "a": "1947",
+        "b": "1950",
+        "c": "1954",
+        "d": "1956"
+      },
+      "correctAnswer": "c",
+      "explanation": "The National Film Awards were established and given for the first time on October 10, 1954, honoring films released in the year 1953.",
+      "difficulty": "easy",
+      "topic": "Art and Culture"
+    },
+    {
+      "id": "2026-07-19-q18",
+      "question": "Which film won the Best Feature Film award at the 72nd National Film Awards?",
+      "options": {
+        "a": "Amaran",
+        "b": "Article 370",
+        "c": "Chandu Champion",
+        "d": "Kalki 2898 AD"
+      },
+      "correctAnswer": "b",
+      "explanation": "Article 370 was declared the Best Feature Film at the 72nd National Film Awards.",
+      "difficulty": "easy",
+      "topic": "Art and Culture"
+    },
+    {
+      "id": "2026-07-19-q19",
+      "question": "Who shared the Best Actor award at the 72nd National Film Awards?",
+      "options": {
+        "a": "Kartik Aaryan and Dhanush",
+        "b": "Mammootty and Dhanush",
+        "c": "Kartik Aaryan and Mammootty",
+        "d": "Sanjay Mishra and Kartik Aaryan"
+      },
+      "correctAnswer": "c",
+      "explanation": "The Best Actor award was shared by Kartik Aaryan for his role in Chandu Champion and Mammootty for his performance in Brahma Yugam.",
+      "difficulty": "medium",
+      "topic": "Art and Culture"
+    },
+    {
+      "id": "2026-07-19-q20",
+      "question": "Which movie was adjudged the 'Best Non-Feature Film' at the 72nd National Film Awards?",
+      "options": {
+        "a": "Humsafar",
+        "b": "Bhangar",
+        "c": "Kakori",
+        "d": "Pipalantri"
+      },
+      "correctAnswer": "b",
+      "explanation": "Bhangar, a Marathi-English film by Sumina Roy, was awarded the Best Non-Feature Film.",
+      "difficulty": "hard",
+      "topic": "Art and Culture"
+    },
+    {
+      "id": "2026-07-19-q21",
+      "question": "Who won the Best Director award at the 72nd National Film Awards, and for which film?",
+      "options": {
+        "a": "Sukumar for Pushpa 2",
+        "b": "Rajkumar Perisamy for Amaran",
+        "c": "Anand L Rai for Statue of Unity",
+        "d": "Venky Atluri for Lucky Bhaskar"
+      },
+      "correctAnswer": "b",
+      "explanation": "Rajkumar Perisamy won the Best Director award for directing the biographical action film Amaran.",
+      "difficulty": "medium",
+      "topic": "Art and Culture"
+    },
+    {
+      "id": "2026-07-19-q22",
+      "question": "Which film won the award for Best Film Promoting National and Social Values?",
+      "options": {
+        "a": "Article 370",
+        "b": "Captain Miller",
+        "c": "Maidan",
+        "d": "Srikant"
+      },
+      "correctAnswer": "b",
+      "explanation": "Captain Miller won the National Film Award for Best Film Promoting National and Social Values.",
+      "difficulty": "hard",
+      "topic": "Art and Culture"
+    },
+    {
+      "id": "2026-07-19-q23",
+      "question": "Consider the following statements regarding the 72nd National Film Awards:\n1. It honored films released between January 1, 2024, and December 31, 2024.\n2. The Best Actress award was won by Yami Gautam.\nWhich of the statements given above is/are correct?",
+      "options": {
+        "a": "1 only",
+        "b": "2 only",
+        "c": "Both 1 and 2",
+        "d": "Neither 1 nor 2"
+      },
+      "correctAnswer": "c",
+      "explanation": "Both statements are correct. The 72nd edition honored films released during the calendar year 2024, and Yami Gautam won Best Actress for her performance in Article 370.",
+      "difficulty": "medium",
+      "topic": "Art and Culture"
+    },
+    {
+      "id": "2026-07-19-q24",
+      "question": "Which film won the award for 'Best Wholesome Entertainment'?",
+      "options": {
+        "a": "Stree 2",
+        "b": "Kalki 2898 AD",
+        "c": "Pushpa 2",
+        "d": "Bhool Bhulaiyaa 3"
+      },
+      "correctAnswer": "b",
+      "explanation": "Kalki 2898 AD was awarded the Best Feature Film Providing Wholesome Entertainment.",
+      "difficulty": "easy",
+      "topic": "Art and Culture"
+    },
+    {
+      "id": "2026-07-19-q25",
+      "question": "At the 72nd National Film Awards, who was named the Best Hindi Film?",
+      "options": {
+        "a": "Article 370",
+        "b": "Srikant",
+        "c": "Maidan",
+        "d": "Bhakshak"
+      },
+      "correctAnswer": "b",
+      "explanation": "While Article 370 won overall Best Feature Film, Srikant won the specific award for Best Hindi Film.",
+      "difficulty": "hard",
+      "topic": "Art and Culture"
+    },
+    {
+      "id": "2026-07-19-q26",
+      "question": "Who received the Best Lyrics award at the 72nd National Film Awards?",
+      "options": {
+        "a": "Manoj Mutasheer for Maidan",
+        "b": "Shashwat Sachdev for Article 370",
+        "c": "GV Prakash for Amaran",
+        "d": "Vijay Ganguly for Stree 2"
+      },
+      "correctAnswer": "a",
+      "explanation": "Manoj Mutasheer won the Best Lyrics award for the sports drama film Maidan.",
+      "difficulty": "medium",
+      "topic": "Art and Culture"
+    },
+    {
+      "id": "2026-07-19-q27",
+      "question": "The National Film Awards are presented under the aegis of which Union Ministry?",
+      "options": {
+        "a": "Ministry of Culture",
+        "b": "Ministry of Information and Broadcasting",
+        "c": "Ministry of Tourism",
+        "d": "Ministry of Home Affairs"
+      },
+      "correctAnswer": "b",
+      "explanation": "The National Film Awards are organized and managed under the Ministry of Information and Broadcasting, Government of India.",
+      "difficulty": "easy",
+      "topic": "Governance"
     }
   ]
 }

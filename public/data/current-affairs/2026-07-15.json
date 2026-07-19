@@ -9,7 +9,7 @@
     "videoUrl": "https://www.youtube.com/watch?v=MQcNP-en3Fc",
     "publishedAt": "2026-07-15T00:51:02.000Z"
   },
-  "summary": "The current affairs of 15th July 2026 highlight key developments in regional agriculture, technology, space entrepreneurship, and public policy in India. Notable updates include Unja cumin and fennel from Gujarat receiving Geographic Indication (GI) tags under Class 30 Spices, and the training of over 4,500 volunteers in Gujarat under the NDMA's Yuva Aapda Mitra Scheme. In technology, the Ministry of Electronics and Information Technology launched Nidar 2.0 to promote autonomous drones with indigenous Vega processors, and Dhruv Space became the first recipient of the Antariksh Venture Capital Fund. Additionally, Uttarakhand opened its first GI Product Gallery in Haldwani, and Bihar initiated its subsidized heli-tourism services connecting Patna to selected religious and eco-tourism sites.",
+  "summary": "The current affairs of 15th July 2026 highlight key developments in regional agriculture, technology, space entrepreneurship, and public policy in India. Notable updates include Unja cumin and fennel from Gujarat receiving Geographic Indication (GI) tags under Class 30 Spices, and the training of over 4,500 volunteers in Gujarat under the NDMA's Yuva Aapda Mitra Scheme. In technology, the Ministry of Electronics and Information Technology launched Nidar 2.0 to promote autonomous drones with indigenous Vega processors, and Dhruv Space became the first recipient of the Antariksh Venture Capital Fund. Additionally, Uttarakhand opened its first GI Product Gallery in Haldwani, and Bihar initiated its subsidized heli-tourism services connecting Patna to selected religious and eco-tourism sites.\n\nThis study material covers a comprehensive overview of fundamental scientific instruments used across meteorology, physics, and medical science, highlighting their primary functions, inventors, historical contexts, and units of measurement. It details atmospheric and environmental tools like the barometer, anemometer, and hygrometer, alongside electrical measurement devices such as the ammeter, voltmeter, and galvanometer. Additionally, medical diagnostics instruments like the electrocardiograph (ECG), electroencephalograph (EEG), and sphygmomanometer are explored to demonstrate their application in monitoring human health. Understanding these scientific instruments is crucial for static General Knowledge preparation in competitive exams.",
   "keyFacts": [
     "Unja cumin and fennel of North Gujarat have been granted Geographical Indication (GI) certificates under Class 30 Spices.",
     "The Yuva Aapda Mitra Scheme, launched by the National Disaster Management Authority (NDMA), aims to train community volunteers with a 50% target for women participation.",
@@ -18,7 +18,14 @@
     "Bharat Tex 2026, the largest global textile event in India, was hosted at Bharat Mandapam, New Delhi.",
     "Dhruv Space is the first recipient of funding from the ₹1600-crore Antariksh Venture Capital Fund, which is managed by SIDBI Venture Capital Limited.",
     "Uttarakhand's first GI Product Gallery showcasing over 30 products was inaugurated in Haldwani.",
-    "The Ladakh Administration announced plans to set up Autonomous Hill Development Councils across all seven newly designated districts of the Union Territory."
+    "The Ladakh Administration announced plans to set up Autonomous Hill Development Councils across all seven newly designated districts of the Union Territory.",
+    "The barometer, invented by E. Torricelli in 1643, is used to measure atmospheric pressure in Pascal or bar units.",
+    "A hygrometer is designed to measure humidity and moisture levels in the air, while a hydrometer measures liquid density.",
+    "An altimeter measures altitude above sea level and is vital for aviation dashboards and mountaineers.",
+    "While the odometer measures the total distance traveled by a vehicle, the speedometer measures its instantaneous speed.",
+    "The ECG (electrocardiograph) records the electrical activity of the heart, whereas the EEG (electroencephalograph) records the electrical activity of the brain.",
+    "Pyrometers are non-contact instruments used to measure extreme temperatures, such as those of molten metals or stars.",
+    "A bolometer measures radiant heat and infrared energy by recording changes in electrical resistance as materials absorb radiation."
   ],
   "topics": [
     "Governance",
@@ -26,7 +33,8 @@
     "Science and Technology",
     "Environment",
     "Art and Culture",
-    "International Relations"
+    "International Relations",
+    "General Knowledge"
   ],
   "mcqs": [
     {
@@ -196,6 +204,174 @@
       "explanation": "The Antariksh Venture Capital Fund, anchored by IN-SPACe and managed by SIDBI Venture Capital Limited, has a total corpus of ₹1600 crore.",
       "difficulty": "hard",
       "topic": "Economy"
+    },
+    {
+      "id": "2026-07-15-q13",
+      "question": "Which of the following scientific instruments is primarily used to measure the humidity and moisture levels in the air?",
+      "options": {
+        "a": "Hydrometer",
+        "b": "Hygrometer",
+        "c": "Barometer",
+        "d": "Anemometer"
+      },
+      "correctAnswer": "b",
+      "explanation": "A hygrometer is used to measure the humidity and moisture levels in the air. A hydrometer, on the other hand, is used to measure the specific gravity or relative density of liquids.",
+      "difficulty": "easy",
+      "topic": "Science and Technology"
+    },
+    {
+      "id": "2026-07-15-q14",
+      "question": "With reference to atmospheric pressure measurement, who is credited with the invention of the barometer in 1643?",
+      "options": {
+        "a": "Evangelista Torricelli",
+        "b": "Leon Battista Alberti",
+        "c": "Leonardo da Vinci",
+        "d": "Louis Paul Cailletet"
+      },
+      "correctAnswer": "a",
+      "explanation": "The barometer was invented by Evangelista Torricelli (E. Torricelli) in the year 1643 to track the balance of mercury weight and air pressure against a vacuum.",
+      "difficulty": "medium",
+      "topic": "Science and Technology"
+    },
+    {
+      "id": "2026-07-15-q15",
+      "question": "Consider the following statements regarding meteorological instruments:\n1. An anemometer is used to measure both wind speed and wind force.\n2. A wind vane is used to determine the cardinal direction of the wind.\nWhich of the statements given above is/are correct?",
+      "options": {
+        "a": "1 only",
+        "b": "2 only",
+        "c": "Both 1 and 2",
+        "d": "Neither 1 nor 2"
+      },
+      "correctAnswer": "c",
+      "explanation": "Both statements are correct. An anemometer measures wind speed and force, whereas a wind vane determines the direction of the wind, mapping it to cardinal directions.",
+      "difficulty": "medium",
+      "topic": "Science and Technology"
+    },
+    {
+      "id": "2026-07-15-q16",
+      "question": "Which instrument is used to measure extreme temperatures from a safe distance, such as the temperature of molten metals or stars?",
+      "options": {
+        "a": "Calorimeter",
+        "b": "Bolometer",
+        "c": "Pyrometer",
+        "d": "Electrometer"
+      },
+      "correctAnswer": "c",
+      "explanation": "A pyrometer is used to measure extreme temperatures from a safe distance by detecting thermal radiation, making it ideal for molten metals and celestial bodies.",
+      "difficulty": "easy",
+      "topic": "Science and Technology"
+    },
+    {
+      "id": "2026-07-15-q17",
+      "question": "What is the primary difference between an odometer and a speedometer in a vehicle?",
+      "options": {
+        "a": "An odometer measures speed at a specific instant, while a speedometer measures average speed.",
+        "b": "An odometer measures total distance traveled, while a speedometer measures instantaneous speed.",
+        "c": "An odometer measures mechanical engine power, while a speedometer measures electrical charge.",
+        "d": "There is no difference; both measure the same parameter in different units."
+      },
+      "correctAnswer": "b",
+      "explanation": "An odometer checks and records the total distance traveled by a vehicle over time, whereas a speedometer displays the instantaneous speed of the vehicle at any given moment.",
+      "difficulty": "medium",
+      "topic": "Science and Technology"
+    },
+    {
+      "id": "2026-07-15-q18",
+      "question": "Which of the following instruments is designed to measure the quantities of heat exchange during chemical reactions?",
+      "options": {
+        "a": "Bolometer",
+        "b": "Pyrometer",
+        "c": "Calorimeter",
+        "d": "Galvanometer"
+      },
+      "correctAnswer": "c",
+      "explanation": "A calorimeter is used to measure the quantity of heat exchanged during chemical reactions or physical changes. Its unit of measurement is Joule or Calorie.",
+      "difficulty": "easy",
+      "topic": "Science and Technology"
+    },
+    {
+      "id": "2026-07-15-q19",
+      "question": "Consider the following pairs of medical diagnostic instruments and their functions:\n1. ECG (Electrocardiograph) - Records the electrical pattern of the brain waves.\n2. EEG (Electroencephalograph) - Records the electrical pattern of the heart beat.\n3. Spirometer - Tracks lung capacity and air exchange speed.\nWhich of the pairs given above is/are correctly matched?",
+      "options": {
+        "a": "3 only",
+        "b": "1 and 2 only",
+        "c": "2 and 3 only",
+        "d": "1, 2 and 3"
+      },
+      "correctAnswer": "a",
+      "explanation": "Only pair 3 is correctly matched. ECG tracks the heart's electrical patterns, while EEG records brain wave activity. The spirometer correctly tracks lung capacity and air exchange volume.",
+      "difficulty": "hard",
+      "topic": "Science and Technology"
+    },
+    {
+      "id": "2026-07-15-q20",
+      "question": "An electrometer is primarily used in nuclear physics and research labs to measure which of the following?",
+      "options": {
+        "a": "High-frequency electromagnetic waves",
+        "b": "Ultra-low electrostatic charges",
+        "c": "Mechanical torque of turbine engines",
+        "d": "Specific gravity of radioactive fluids"
+      },
+      "correctAnswer": "b",
+      "explanation": "An electrometer is a highly sensitive instrument used to measure ultra-low electrostatic charges and voltages. It was invented by William Henley in 1772.",
+      "difficulty": "medium",
+      "topic": "Science and Technology"
+    },
+    {
+      "id": "2026-07-15-q21",
+      "question": "Which electrical instrument is utilized to detect weak electric currents and their directions by utilizing the deflection of a needle in a magnetic field?",
+      "options": {
+        "a": "Ammeter",
+        "b": "Voltmeter",
+        "c": "Galvanometer",
+        "d": "Dynamometer"
+      },
+      "correctAnswer": "c",
+      "explanation": "A galvanometer is used to detect weak electric currents and determine their direction. An ammeter, by contrast, is used to measure the direct strength of larger currents in amperes.",
+      "difficulty": "medium",
+      "topic": "Science and Technology"
+    },
+    {
+      "id": "2026-07-15-q22",
+      "question": "A bolometer is a highly sensitive instrument used to measure radiant heat and infrared energy. How does it primarily work?",
+      "options": {
+        "a": "By tracking mercury expansion in a vacuum tube",
+        "b": "By recording electrical resistance changes as a material absorbs radiation",
+        "c": "By measuring the physical expansion of a heated metal rod",
+        "d": "By measuring electromagnetic induction in a rotating coil"
+      },
+      "correctAnswer": "b",
+      "explanation": "A bolometer works by recording changes in electrical resistance as its internal material absorbs radiant heat or infrared radiation.",
+      "difficulty": "hard",
+      "topic": "Science and Technology"
+    },
+    {
+      "id": "2026-07-15-q23",
+      "question": "What is the standard unit of measurement associated with the readings of a Sphygmomanometer?",
+      "options": {
+        "a": "Milli-volts (mV)",
+        "b": "Millimeters of mercury (mmHg)",
+        "c": "Decibels (dB)",
+        "d": "Millimeters per second (mm/s)"
+      },
+      "correctAnswer": "b",
+      "explanation": "A sphygmomanometer is used to measure human blood pressure, and its standard unit of measurement is millimeters of mercury (mmHg).",
+      "difficulty": "easy",
+      "topic": "Science and Technology"
+    },
+    {
+      "id": "2026-07-15-q24",
+      "question": "The scientific instrument 'dynamometer' is commonly applied in the automotive and engineering industries to measure:",
+      "options": {
+        "a": "Electrostatic potential difference in a circuit",
+        "b": "Torque and mechanical engine power",
+        "c": "The atmospheric pressure variations at high altitudes",
+        "d": "Fluid viscosity under dynamic pressure"
+      },
+      "correctAnswer": "b",
+      "explanation": "A dynamometer is designed to measure torque, rotational speed, and mechanical power of an engine or other rotating prime movers.",
+      "difficulty": "medium",
+      "topic": "Science and Technology"
     }
   ]
 }

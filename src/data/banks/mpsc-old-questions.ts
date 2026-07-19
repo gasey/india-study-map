@@ -105,6 +105,34 @@ export const mpscPapers: ExamPaper[] = [
     "paperSubject": "General Knowledge",
     "year": 2024,
     "sourceFile": "mpsc_pdfs_examination/Old_Questions/Direct_2023-2025/Mizoram Legal Service General Knowledge August-2024..pdf"
+  },
+  {
+    "id": "mpsc-direct-2024-mjs-civil-judge-general-knowledge",
+    "examType": "Direct",
+    "examName": "Grade-III of Mizoram Judicial Service (Civil Judge) Main Examination under Law & Judicial Department, Government of Mizoram",
+    "post": "Grade-III of Mizoram Judicial Service (Civil Judge)",
+    "paperSubject": "General Knowledge",
+    "year": 2024,
+    "sourceFile": "mpsc_pdfs_examination/Old_Questions/Direct_2023-2025/Grade-III of MJS( Civil Judge) General Knowledge-2024...pdf"
+  },
+  {
+    "id": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge",
+    "examType": "Direct_NG",
+    "examName": "Common Competitive Examination for Assistant Audit & Accounts Officer and Assistant Accounts Officer under Finance Department, Government of Mizoram",
+    "post": "Assistant Audit & Accounts Officer / Assistant Accounts Officer",
+    "paperSubject": "General Knowledge",
+    "year": 2024,
+    "sourceFile": "mpsc_pdfs_examination/Old_Questions/Direct_NG_2024-2027/Assistant Audit & Account Officer General Knowledge-2024...pdf"
+  },
+  {
+    "id": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2",
+    "examType": "Direct",
+    "examName": "Competitive Examinations for Recruitment to the post of Jr. Grade of Mizoram Horticulture Service under Horticulture Department, Government of Mizoram",
+    "post": "Jr. Grade of Mizoram Horticulture Service",
+    "paperNumber": "Paper-II",
+    "paperSubject": "General English",
+    "year": 2023,
+    "sourceFile": "mpsc_pdfs_examination/Old_Questions/Direct_2023-2025/Jr.Grade of MHS-2023 General English Paper-II..pdf"
   }
 ];
 
@@ -14078,5 +14106,5219 @@ export const mpscQuestions: BankQuestion[] = [
       "verbal-analogy"
     ],
     "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-001",
+    "subject": "gk",
+    "topic": "economy",
+    "topicLabel": "Indian Economy",
+    "difficulty": "easy",
+    "question": "Which sector contributes the highest to the Gross Domestic Product of India?",
+    "options": [
+      "Agriculture & Allied sector",
+      "Manufacturing sector",
+      "Service sector",
+      "External sector"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Service sector\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "economy"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-002",
+    "subject": "gk",
+    "topic": "government-schemes",
+    "topicLabel": "Government Schemes",
+    "difficulty": "medium",
+    "question": "Which is not related to JAM Trinity?",
+    "options": [
+      "Jan Dhan Yojana, Aadhar and Mobile Phone",
+      "It is the platform to implement direct subsidy transfer",
+      "It allows the direct transfer of funds to the beneficiaries and reduces interruptions by intermediaries",
+      "It is used by NITI Aayog to estimate poverty incidence in the country"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"It is used by NITI Aayog to estimate poverty incidence in the country\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "government-schemes"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-003",
+    "subject": "gk",
+    "topic": "government-schemes",
+    "topicLabel": "Government Schemes",
+    "difficulty": "medium",
+    "question": "Pradhan Mantri Kisan Maan-Dhan Yojana (PM-KMY) is a",
+    "options": [
+      "Pension scheme for small and marginal farmers",
+      "Direct money transfer scheme to the farmers according to the size of landholding",
+      "Crop insurance scheme for the farmers",
+      "Subsidy scheme for farmers cultivating cash crops"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Pension scheme for small and marginal farmers\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "government-schemes"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-004",
+    "subject": "gk",
+    "topic": "economy",
+    "topicLabel": "Indian Economy",
+    "difficulty": "medium",
+    "question": "Which of the following is related to the liberalization in the economic reform of 1991?",
+    "options": [
+      "The economy was opened up towards international trade and foreign investment",
+      "Decrease in the taxation of imports and exports",
+      "Commercial banks can decide their own interest rates",
+      "PSUs were sold to the private sector"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"The economy was opened up towards international trade and foreign investment\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "economy"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-005",
+    "subject": "gk",
+    "topic": "economy",
+    "topicLabel": "Indian Economy",
+    "difficulty": "medium",
+    "question": "The first industrial policy was launched in",
+    "options": [
+      "1948",
+      "1951",
+      "1956",
+      "1977"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"1948\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "economy"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-006",
+    "subject": "polity",
+    "topic": "constitutional-bodies",
+    "topicLabel": "Constitutional & Extra-Constitutional Bodies",
+    "difficulty": "medium",
+    "question": "Who is the present chairman of NITI Aayog?",
+    "options": [
+      "Narendra Modi",
+      "Suman Bery",
+      "Arvind Panagariya",
+      "Bibek Debroy"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Narendra Modi\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "constitutional-bodies"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-007",
+    "subject": "gk",
+    "topic": "economy",
+    "topicLabel": "Indian Economy",
+    "difficulty": "medium",
+    "question": "Minimum support price (MSP) is the guaranteed amount paid to the farmers based on the recommendations of",
+    "options": [
+      "Ministry of Agriculture and Farmers Welfare",
+      "Cabinet Committee on Economic Affairs",
+      "Agricultural Price Commission",
+      "Commission of Agriculture Costs and Prices"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"Commission of Agriculture Costs and Prices\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "economy"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-008",
+    "subject": "history",
+    "topic": "modern-india",
+    "topicLabel": "Modern Indian History",
+    "difficulty": "medium",
+    "question": "In which year Planning Commission was set up to help design and execute suitable policies for economic development?",
+    "options": [
+      "1949",
+      "1950",
+      "1951",
+      "1952"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"1950\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "modern-india"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-009",
+    "subject": "polity",
+    "topic": "constitutional-amendments",
+    "topicLabel": "Constitutional Amendments",
+    "difficulty": "medium",
+    "question": "In which year the 73rd Amendment to the Constitution was enacted",
+    "options": [
+      "1989",
+      "1990",
+      "1991",
+      "1992"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"1992\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "constitutional-amendments"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-010",
+    "subject": "history",
+    "topic": "modern-india",
+    "topicLabel": "Modern Indian History",
+    "difficulty": "medium",
+    "question": "Which Agreement is known as Five Principles of Coexistence?",
+    "options": [
+      "Panchsheel Agreement, 1954",
+      "Shimla Agreement, 1972",
+      "Open Sky Agreement 2005",
+      "Sino-Indian Agreement 1954"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Panchsheel Agreement, 1954\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "modern-india"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-012",
+    "subject": "gk",
+    "topic": "international-relations",
+    "topicLabel": "International Relations",
+    "difficulty": "medium",
+    "question": "An agreement between India and USA signed in 2007 and also known as 123 Agreement was in the field of",
+    "options": [
+      "National security",
+      "Peaceful uses of nuclear energy",
+      "Interpol",
+      "Free trade"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Peaceful uses of nuclear energy\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "international-relations"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-013",
+    "subject": "gk",
+    "topic": "economy",
+    "topicLabel": "Indian Economy",
+    "difficulty": "easy",
+    "question": "Goods and Services Taxes was introduced in India on",
+    "options": [
+      "1st January 2017",
+      "1st April 2017",
+      "1st July 2017",
+      "1st July 2018"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"1st July 2017\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "economy"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-014",
+    "subject": "history",
+    "topic": "modern-india",
+    "topicLabel": "Modern Indian History",
+    "difficulty": "medium",
+    "question": "The chief mandate of Mandal Commission set up in 1979 was",
+    "options": [
+      "To chalk out recommendations for major tax reforms",
+      "To identify socially or educationally backward classes and to consider reservations",
+      "To address the problem of economic inequality among the backward community",
+      "To study the fragmentations of landholdings in India and suggest suitable land reform measures"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"To identify socially or educationally backward classes and to consider reservations\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "modern-india"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-015",
+    "subject": "gk",
+    "topic": "mizoram-society",
+    "topicLabel": "Mizoram Society & Culture",
+    "difficulty": "medium",
+    "question": "Which festival of the Zo People is celebrated during August - September?",
+    "options": [
+      "Pawl Kut",
+      "Chapchar Kut",
+      "Mim Kut",
+      "Thalfavang Kut"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Mim Kut\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "mizoram-society"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-016",
+    "subject": "gk",
+    "topic": "mizoram-society",
+    "topicLabel": "Mizoram Society & Culture",
+    "difficulty": "medium",
+    "question": "Which day in a year is celebrated as Missionary Day in Mizoram?",
+    "options": [
+      "11th January",
+      "15th March",
+      "15th April",
+      "30th September"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"11th January\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "mizoram-society"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-019",
+    "subject": "geography",
+    "topic": "mizoram-geography",
+    "topicLabel": "Mizoram Geography",
+    "difficulty": "medium",
+    "question": "Which is the most literate district according to 2011 Census?",
+    "options": [
+      "Aizawl",
+      "Champhai",
+      "Serchhip",
+      "Lunglei"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Serchhip\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "mizoram-geography"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-021",
+    "subject": "current-affairs",
+    "topic": "border-affairs",
+    "topicLabel": "Border & Security Affairs",
+    "difficulty": "hard",
+    "question": "Under India-Myanmar Free Movement Regime (FMR)?",
+    "options": [
+      "An individual eligible under FMR can travel within 16km radius across border without visa for a period of one year",
+      "An individual can cross the border freely and enter into each other's country without visa",
+      "An individual eligible under FMR can travel within 40km radius across border without visa for a period of one year",
+      "An individual eligible under FMR can travel within 16km radius across border without visa for a period of one night only"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"An individual eligible under FMR can travel within 16km radius across border without visa for a period of one year\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "border-affairs"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-022",
+    "subject": "gk",
+    "topic": "government-schemes",
+    "topicLabel": "Government Schemes",
+    "difficulty": "easy",
+    "question": "Pradhan Mantri Jan-Dhan Yojana was launched for",
+    "options": [
+      "Providing housing loan to poor people at cheaper interest rates",
+      "Promoting women's self-help groups in backward areas",
+      "Promoting financial inclusion in the country",
+      "Providing financial help to the marginalized communities"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Promoting financial inclusion in the country\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "government-schemes"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-023",
+    "subject": "gk",
+    "topic": "government-schemes",
+    "topicLabel": "Government Schemes",
+    "difficulty": "medium",
+    "question": "What is the main objective of Antyodaya Programme?",
+    "options": [
+      "Uplift the poor",
+      "Uplift the urban poor",
+      "Uplift the farmer",
+      "Uplift the landless labour"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Uplift the poor\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "government-schemes"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-024",
+    "subject": "gk",
+    "topic": "government-schemes",
+    "topicLabel": "Government Schemes",
+    "difficulty": "medium",
+    "question": "With reference to National Rural Health Mission, which of the following are the jobs of 'ASHA', a community health worker? 1. Accompanying women to the health facility for antenatal care checkup 2. Using pregnancy test kits for early detection of pregnancy 3. Providing information on nutrition and immunization 4. Conducting delivery of baby. Which of the above statement(s) is/are correct?",
+    "options": [
+      "1,2&3",
+      "2&4",
+      "1&3",
+      "1,2,4&4"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"1,2&3\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "government-schemes"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-026",
+    "subject": "polity",
+    "topic": "political-theory",
+    "topicLabel": "Political Theory",
+    "difficulty": "medium",
+    "question": "The term Liberty was derived from",
+    "options": [
+      "Latin",
+      "Greek",
+      "Romans",
+      "English"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Latin\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "political-theory"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-027",
+    "subject": "polity",
+    "topic": "political-theory",
+    "topicLabel": "Political Theory",
+    "difficulty": "medium",
+    "question": "According to Rawls, inequality is permissible if and only if it benefits the",
+    "options": [
+      "The richest",
+      "The upper middle class",
+      "The middle class",
+      "The least well-off"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"The least well-off\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "political-theory"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-028",
+    "subject": "polity",
+    "topic": "constitution",
+    "topicLabel": "Indian Constitution",
+    "difficulty": "easy",
+    "question": "The Constitution of India was enforced on",
+    "options": [
+      "August 15, 1947",
+      "November 26, 1949",
+      "January 26, 1950",
+      "January 1, 1950"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"January 26, 1950\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "constitution"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-029",
+    "subject": "polity",
+    "topic": "fundamental-rights",
+    "topicLabel": "Fundamental Rights",
+    "difficulty": "medium",
+    "question": "The number of freedoms guaranteed under the Right to Freedom is",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"6\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "fundamental-rights"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-030",
+    "subject": "gk",
+    "topic": "government-schemes",
+    "topicLabel": "Government Schemes",
+    "difficulty": "medium",
+    "question": "When was the National Educational Policy started?",
+    "options": [
+      "1984",
+      "1986",
+      "1988",
+      "1989"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"1986\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "government-schemes"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-031",
+    "subject": "polity",
+    "topic": "emergency-provisions",
+    "topicLabel": "Emergency Provisions",
+    "difficulty": "medium",
+    "question": "The President can declare National Emergency if",
+    "options": [
+      "He himself is otherwise satisfied",
+      "The Prime Minister gives written advice",
+      "The Parliament recommends it",
+      "The Cabinet recommends in writing"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"The Cabinet recommends in writing\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "emergency-provisions"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-032",
+    "subject": "polity",
+    "topic": "executive",
+    "topicLabel": "Union Executive",
+    "difficulty": "medium",
+    "question": "The proposal of impeachment of President can be moved in",
+    "options": [
+      "Either House of Parliament",
+      "Rajya Sabha",
+      "Lok Sabha",
+      "Vidhan Sabha"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Either House of Parliament\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "executive"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-033",
+    "subject": "polity",
+    "topic": "union-budget",
+    "topicLabel": "Union Budget",
+    "difficulty": "medium",
+    "question": "Which statement is not correct about the Budget",
+    "options": [
+      "The budget is an annual financial statement showing expected revenue and expenditure of the government",
+      "It is not a Bill",
+      "It is presented by the Finance Minister in the Lok Sabha",
+      "It is presented in Rajya Sabha if the Finance Minister is its member"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"It is presented in Rajya Sabha if the Finance Minister is its member\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "union-budget"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-034",
+    "subject": "polity",
+    "topic": "judiciary",
+    "topicLabel": "Judiciary",
+    "difficulty": "medium",
+    "question": "The dispute between two or more states is brought before the Supreme Court under its ___ Jurisdiction",
+    "options": [
+      "Advisory",
+      "Original",
+      "Appellate",
+      "Primary"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Original\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "judiciary"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-035",
+    "subject": "polity",
+    "topic": "state-executive",
+    "topicLabel": "State Executive",
+    "difficulty": "easy",
+    "question": "The governor is appointed for a term of",
+    "options": [
+      "Seven years",
+      "Six years",
+      "Five years",
+      "Four years"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Five years\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "state-executive"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-036",
+    "subject": "polity",
+    "topic": "state-executive",
+    "topicLabel": "State Executive",
+    "difficulty": "medium",
+    "question": "Money bill is introduced in the State Legislature on the recommendation of the",
+    "options": [
+      "President",
+      "Governor",
+      "Prime Minister",
+      "Chief Minister"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Governor\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "state-executive"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-037",
+    "subject": "polity",
+    "topic": "constitutional-amendments",
+    "topicLabel": "Constitutional Amendments",
+    "difficulty": "medium",
+    "question": "The 73rd Amendment has provided for a ___ to regulate the finances of local bodies.",
+    "options": [
+      "Central Government",
+      "State Government",
+      "Central Finance Commission",
+      "State Finance Commission"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"State Finance Commission\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "constitutional-amendments"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-038",
+    "subject": "polity",
+    "topic": "elections",
+    "topicLabel": "Elections",
+    "difficulty": "medium",
+    "question": "Campaigning in the election is stopped",
+    "options": [
+      "12 hours before the polling",
+      "24 hours before the polling",
+      "48 hours before the polling",
+      "76 hours before the polling"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"48 hours before the polling\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "elections"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-040",
+    "subject": "current-affairs",
+    "topic": "elections",
+    "topicLabel": "Elections",
+    "difficulty": "medium",
+    "question": "Which of the following states had Assembly Election in 2023?",
+    "options": [
+      "Madhya Pradesh, Mizoram, Chhatisgarh, Punjab",
+      "West Bengal, Madhya Pradesh, Mizoram, Telangana",
+      "Rajasthan, Mizoram, Chhatisarh, Maharashtra",
+      "Telangana, Mizoram, Rajasthan, Madhya Pradesh"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"Telangana, Mizoram, Rajasthan, Madhya Pradesh\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "elections"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-041",
+    "subject": "current-affairs",
+    "topic": "awards-honours",
+    "topicLabel": "Awards & Honours",
+    "difficulty": "medium",
+    "question": "Who was awarded Bharat Ratna recently",
+    "options": [
+      "Karpoori Thakur",
+      "T.N. Sheshan",
+      "Shom Nath Chatterjee",
+      "Sheikh Hasina"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Karpoori Thakur\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "awards-honours"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-042",
+    "subject": "history",
+    "topic": "modern-india",
+    "topicLabel": "Modern Indian History",
+    "difficulty": "medium",
+    "question": "Which of the present-day state was not a part of colonial Assam?",
+    "options": [
+      "Mizoram",
+      "Assam",
+      "Nagaland",
+      "Tripura"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"Tripura\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "modern-india"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-043",
+    "subject": "current-affairs",
+    "topic": "world-affairs",
+    "topicLabel": "World Affairs",
+    "difficulty": "medium",
+    "question": "Sistan-Baluchestan region, sometimes seen in the news, is located in",
+    "options": [
+      "Kyrgyzstan",
+      "Pakistan",
+      "Afghanistan",
+      "Iran"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"Iran\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "world-affairs"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-044",
+    "subject": "current-affairs",
+    "topic": "sports",
+    "topicLabel": "Sports",
+    "difficulty": "medium",
+    "question": "Winner of the men's single Australian Open 2024 was",
+    "options": [
+      "Novak Djokovic",
+      "Jannik Sinner",
+      "Danil Medvedev",
+      "Carlos Alcaraz"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Jannik Sinner\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "sports"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-045",
+    "subject": "current-affairs",
+    "topic": "international-relations",
+    "topicLabel": "International Relations",
+    "difficulty": "medium",
+    "question": "Recently India signed Migration and Mobility Agreement with which of the following countries?",
+    "options": [
+      "Pakistan",
+      "Bangladesh",
+      "Canada",
+      "Italy"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"Italy\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "international-relations"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-046",
+    "subject": "current-affairs",
+    "topic": "defence",
+    "topicLabel": "Defence & Military",
+    "difficulty": "medium",
+    "question": "Desert Cyclone is a military exercise between India and",
+    "options": [
+      "Kazakhstan",
+      "Saudi Arabia",
+      "United Arab Emirates",
+      "Iran"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"United Arab Emirates\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "defence"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-047",
+    "subject": "current-affairs",
+    "topic": "science-tech",
+    "topicLabel": "Science & Technology",
+    "difficulty": "medium",
+    "question": "Pegasus, sometimes seen in the news is",
+    "options": [
+      "An automatic drone the works on voice commands",
+      "A computer software that installs spyware on device without owners' consent",
+      "A malacious website that shows irrelevant advertisements",
+      "A newly launched automatic gun for Indian army"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"A computer software that installs spyware on device without owners' consent\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "science-tech"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-048",
+    "subject": "gk",
+    "topic": "society",
+    "topicLabel": "Society & Welfare",
+    "difficulty": "easy",
+    "question": "Which is not the characteristics of slums in India?",
+    "options": [
+      "Inadequate housing",
+      "Overcrowding",
+      "Adequate water supply",
+      "Congestion"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Adequate water supply\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "society"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-049",
+    "subject": "current-affairs",
+    "topic": "government-schemes",
+    "topicLabel": "Government Schemes",
+    "difficulty": "medium",
+    "question": "Annual Status of Education Report (ASER) 2023 was released by",
+    "options": [
+      "Pratham NGO",
+      "Ministry of Education",
+      "Samagra Shiksha Abhyan",
+      "NITI Aayog"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Pratham NGO\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "government-schemes"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-050",
+    "subject": "gk",
+    "topic": "economy",
+    "topicLabel": "Indian Economy",
+    "difficulty": "medium",
+    "question": "National Multidimensional Poverty Index is released by",
+    "options": [
+      "Ministry of Social Justice and Empowerment",
+      "Ministry of Commerce and Industry",
+      "NITI Aayog",
+      "Prime Minister's Office"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"NITI Aayog\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "economy"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-051",
+    "subject": "current-affairs",
+    "topic": "government-schemes",
+    "topicLabel": "Government Schemes",
+    "difficulty": "medium",
+    "question": "The Prime Minister recently announced Pradhan Mantri Suryodaya Yojana to provide",
+    "options": [
+      "Free electric to the poor households",
+      "Rooftop solar power to one crore households",
+      "Grid connected power to the households",
+      "Green energy to the people"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Rooftop solar power to one crore households\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "government-schemes"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-052",
+    "subject": "current-affairs",
+    "topic": "infrastructure",
+    "topicLabel": "Infrastructure",
+    "difficulty": "medium",
+    "question": "Recently the Prime Minister of India inaugurated the country's longest bridge over the sea called Atal Setu in which of the following cities?",
+    "options": [
+      "Kolkata",
+      "Mumbai",
+      "Chennai",
+      "Goa"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Mumbai\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "infrastructure"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-053",
+    "subject": "gk",
+    "topic": "awards-honours",
+    "topicLabel": "Awards & Honours",
+    "difficulty": "medium",
+    "question": "Who among the following dignitaries of India presents the National Sports and Adventure Awards?",
+    "options": [
+      "President of India",
+      "Prime Minister of India",
+      "Union Sports Minister",
+      "Home Minister of India"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"President of India\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "awards-honours"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-054",
+    "subject": "current-affairs",
+    "topic": "union-budget",
+    "topicLabel": "Union Budget",
+    "difficulty": "medium",
+    "question": "Which of the following ministries get the largest allocation in the interim budget 2024-25?",
+    "options": [
+      "Ministry of Road Transport & Highways",
+      "Ministry of Home Affairs",
+      "Ministry of Agriculture & Farmers Welfare",
+      "Ministry of Defence"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"Ministry of Defence\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "union-budget"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-055",
+    "subject": "current-affairs",
+    "topic": "government-schemes",
+    "topicLabel": "Government Schemes",
+    "difficulty": "medium",
+    "question": "The U-WIN platform rolled out across the country through Budget 2024-25 is associated with which of the following?",
+    "options": [
+      "Managing Immunization",
+      "Managing Urban wetlands",
+      "Managing Women Safety",
+      "Managing farmers' suicide"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Managing Immunization\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "government-schemes"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-056",
+    "subject": "current-affairs",
+    "topic": "union-budget",
+    "topicLabel": "Union Budget",
+    "difficulty": "medium",
+    "question": "What is Nano-DAP, mentioned in the Interim Budget 2024-25?",
+    "options": [
+      "A type of biomedicine using nanotechnology that are able to attack cancer cells selectively without harming other healthy cells",
+      "A type of fertilizer containing nitrogen and phosphorus",
+      "A nanobiosensor that could be used to detect the presence of pathogens in food",
+      "Smart fabrics made using nanotechnology"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"A type of fertilizer containing nitrogen and phosphorus\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "union-budget"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-058",
+    "subject": "current-affairs",
+    "topic": "polity",
+    "topicLabel": "Polity Current Affairs",
+    "difficulty": "medium",
+    "question": "Who was recently sworn in as the 12th Chief Minister of Tripura",
+    "options": [
+      "Biplab Kumar Dev",
+      "Manik Saha",
+      "Manik Sarkar",
+      "Biplab Sarma"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Manik Saha\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "polity"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-059",
+    "subject": "current-affairs",
+    "topic": "world-affairs",
+    "topicLabel": "World Affairs",
+    "difficulty": "medium",
+    "question": "Who was recognised as the 2022 Person of the Year by the Time Magazine?",
+    "options": [
+      "Joe Biden",
+      "Narendra Modi",
+      "Vladimir Putin",
+      "Volodymyr Zelenskyy"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"Volodymyr Zelenskyy\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "world-affairs"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-061",
+    "subject": "polity",
+    "topic": "executive",
+    "topicLabel": "Union Executive",
+    "difficulty": "medium",
+    "question": "The present Vice President of India, Jagdeep Dhankhar, was the former Governor of which state?",
+    "options": [
+      "Odisha",
+      "Maharashtra",
+      "West Bengal",
+      "Assam"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"West Bengal\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "executive"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-062",
+    "subject": "gk",
+    "topic": "sports",
+    "topicLabel": "Sports",
+    "difficulty": "medium",
+    "question": "Who among the following is the first Indian women boxer to win a medal in Olympic Games?",
+    "options": [
+      "M.C. Mary Kom",
+      "Lovlina Borgohain",
+      "Saweety Boora",
+      "Jenny Lalremliani"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"M.C. Mary Kom\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "sports"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-063",
+    "subject": "gk",
+    "topic": "economy",
+    "topicLabel": "Indian Economy",
+    "difficulty": "hard",
+    "question": "Which of the following is issued by registered foreign portfolio investors to overseas investors who want to be part of the Indian stock market without registering themselves directly?",
+    "options": [
+      "Certificate of deposit",
+      "Commercial paper",
+      "Promissory note",
+      "Participatory notes"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"Participatory notes\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "economy"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-064",
+    "subject": "current-affairs",
+    "topic": "world-affairs",
+    "topicLabel": "World Affairs",
+    "difficulty": "medium",
+    "question": "Which of the following countries grappling with jihadist violence and poverty have recently announced its departure from ECOWAS?",
+    "options": [
+      "Benin",
+      "Burkina Faso",
+      "Cote d'Ivoire",
+      "Ghana"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Burkina Faso\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "world-affairs"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-065",
+    "subject": "gk",
+    "topic": "elections",
+    "topicLabel": "Elections",
+    "difficulty": "easy",
+    "question": "Which day in a year is celebrated as National Voters Day in India?",
+    "options": [
+      "25th January",
+      "26th January",
+      "15th August",
+      "29th November"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"25th January\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "elections"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-068",
+    "subject": "gk",
+    "topic": "international-organizations",
+    "topicLabel": "International Organizations",
+    "difficulty": "medium",
+    "question": "Global Risk Report is released by",
+    "options": [
+      "World Health Organisation",
+      "World Trade Organisation",
+      "World Economic Forum",
+      "The United Nations Conference on Trade and Development"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"World Economic Forum\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "international-organizations"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-069",
+    "subject": "current-affairs",
+    "topic": "world-affairs",
+    "topicLabel": "World Affairs",
+    "difficulty": "medium",
+    "question": "The country which joined NATO in 2024 is",
+    "options": [
+      "North Macedonia",
+      "Finland",
+      "Hungary",
+      "Sweeden"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"Sweeden\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "world-affairs"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-070",
+    "subject": "geography",
+    "topic": "climatology",
+    "topicLabel": "Climate & Weather",
+    "difficulty": "medium",
+    "question": "Which statement is correct regarding conditions for formation of fog?",
+    "options": [
+      "Temperature should be low",
+      "Less humidity/moisture",
+      "Condensation of water droplets",
+      "Both (a) & (c)"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"Both (a) & (c)\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "climatology"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-072",
+    "subject": "gk",
+    "topic": "government-schemes",
+    "topicLabel": "Government Schemes",
+    "difficulty": "hard",
+    "question": "When was National Highway and Infrastructure Development Corporation Limited (NHIDCL) established?",
+    "options": [
+      "2013",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"2014\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "government-schemes"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-073",
+    "subject": "current-affairs",
+    "topic": "government-schemes",
+    "topicLabel": "Government Schemes",
+    "difficulty": "hard",
+    "question": "Which statement is correct about the recently launched PRITHvi Vigyan Scheme",
+    "options": [
+      "This scheme was launched by the Ministry of Science and Technology",
+      "It provides advanced warning services for natural disasters",
+      "It aims to explore the three poles of the Earth-Arctic, Antarctic and Himalayas",
+      "The scheme was launched by the Ministry of Defence"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"It aims to explore the three poles of the Earth-Arctic, Antarctic and Himalayas\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "government-schemes"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-074",
+    "subject": "current-affairs",
+    "topic": "sports",
+    "topicLabel": "Sports",
+    "difficulty": "medium",
+    "question": "Indian tennis player who won Australian men's doubles 2024 was",
+    "options": [
+      "Rohan Bopanna",
+      "Vishnu Vardhan",
+      "Leander Paes",
+      "M. Bhupathi"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Rohan Bopanna\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "sports"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-075",
+    "subject": "current-affairs",
+    "topic": "culture",
+    "topicLabel": "Culture & Festivals",
+    "difficulty": "hard",
+    "question": "The tableau themed 'Bharat Mother of Democracy' which clinched 1st Place at the Republic Day 2024 was associated with",
+    "options": [
+      "Ministry of Defence",
+      "Ministry of Culture",
+      "Ministry of Finance",
+      "Ministry of Corporate Affairs"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Ministry of Culture\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "culture"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-077",
+    "subject": "current-affairs",
+    "topic": "international-organizations",
+    "topicLabel": "International Organizations",
+    "difficulty": "medium",
+    "question": "The theme of 'International Women's Day 2024' was",
+    "options": [
+      "Gender equality today for a sustainble tomorrow",
+      "DigitAll: innovation and technology for gender equality",
+      "Think equal, build smark, innovate for change",
+      "Invest in women: accelerate progress"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"Invest in women: accelerate progress\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "international-organizations"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-078",
+    "subject": "current-affairs",
+    "topic": "infrastructure",
+    "topicLabel": "Infrastructure",
+    "difficulty": "medium",
+    "question": "Where was the India's first underwater metro service inaugurated?",
+    "options": [
+      "Bengaluru",
+      "Hyderabad",
+      "Kolkata",
+      "Chennai"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Kolkata\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "infrastructure"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-079",
+    "subject": "current-affairs",
+    "topic": "world-affairs",
+    "topicLabel": "World Affairs",
+    "difficulty": "medium",
+    "question": "Which country recently became the first to include the right to abortion in its constitution?",
+    "options": [
+      "Germany",
+      "France",
+      "Poland",
+      "Malaysia"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"France\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "world-affairs"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-080",
+    "subject": "gk",
+    "topic": "international-organizations",
+    "topicLabel": "International Organizations",
+    "difficulty": "easy",
+    "question": "How many goals are there in the UN sustainable development goals?",
+    "options": [
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"17\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "international-organizations"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-081",
+    "subject": "reasoning",
+    "topic": "quantitative-aptitude",
+    "topicLabel": "Number Series",
+    "difficulty": "medium",
+    "question": "2, 4, 12, 48, 240, ?",
+    "options": [
+      "1440",
+      "960",
+      "1080",
+      "1920"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"1440\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "quantitative-aptitude"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-083",
+    "subject": "reasoning",
+    "topic": "quantitative-aptitude",
+    "topicLabel": "Quantitative Aptitude",
+    "difficulty": "medium",
+    "question": "If the salary of David is first increased by 10% and then reduced by 10%, then what will be the net % change in his salary?",
+    "options": [
+      "2%",
+      "3%",
+      "1%",
+      "None of these"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"1%\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "quantitative-aptitude"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-084",
+    "subject": "reasoning",
+    "topic": "quantitative-aptitude",
+    "topicLabel": "Number Series",
+    "difficulty": "medium",
+    "question": "One number is wrong in the series. Find out the wrong number: 8, 27, 64, 125, 218, 343",
+    "options": [
+      "343",
+      "64",
+      "125",
+      "218"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"218\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "quantitative-aptitude"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-086",
+    "subject": "reasoning",
+    "topic": "logical-reasoning",
+    "topicLabel": "Blood Relations",
+    "difficulty": "hard",
+    "question": "A woman said to a man, \"The daughter of your only sister is the sister of my husband.\" What is the relation of man's sister to the woman?",
+    "options": [
+      "Mother",
+      "Mother-in-law",
+      "Sister",
+      "Data inadequate"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Mother-in-law\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "logical-reasoning"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-087",
+    "subject": "reasoning",
+    "topic": "verbal-reasoning",
+    "topicLabel": "Antonyms",
+    "difficulty": "medium",
+    "question": "Choose the word which is the exact opposite of the given word: QUIESCENT",
+    "options": [
+      "Active",
+      "Weak",
+      "Dormant",
+      "Unconcerned"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Active\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "verbal-reasoning"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-088",
+    "subject": "reasoning",
+    "topic": "logical-reasoning",
+    "topicLabel": "Ranking & Ordering",
+    "difficulty": "hard",
+    "question": "Sunita is taller than Seema and Renu. Renu is shorter than Radha and Gauri. Bina is taller than Radha and shorter than Sunita. Sunita is not the tallest and Renu is not the shortest. Who is the tallest?",
+    "options": [
+      "Sunita",
+      "Bina",
+      "Gauri",
+      "Data inadequate"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Gauri\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "logical-reasoning"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-089",
+    "subject": "reasoning",
+    "topic": "logical-reasoning",
+    "topicLabel": "Ranking & Ordering",
+    "difficulty": "hard",
+    "question": "Sunita is taller than Seema and Renu. Renu is shorter than Radha and Gauri. Bina is taller than Radha and shorter than Sunita. Sunita is not the tallest and Renu is not the shortest. Who is the shortest?",
+    "options": [
+      "Radha",
+      "Renu",
+      "Bina",
+      "Seema"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"Seema\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "logical-reasoning"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-mjs-gk-090",
+    "subject": "reasoning",
+    "topic": "verbal-reasoning",
+    "topicLabel": "Word Usage",
+    "difficulty": "medium",
+    "question": "A style in which the writer makes a display of his knowledge",
+    "options": [
+      "Pedantic",
+      "Verbose",
+      "Ornate",
+      "Pompous"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Pedantic\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "verbal-reasoning"
+    ],
+    "paperId": "mpsc-direct-2024-mjs-civil-judge-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-001",
+    "subject": "current-affairs",
+    "topic": "defence",
+    "topicLabel": "Defence & Military",
+    "difficulty": "hard",
+    "question": "According to Stockholm International Peace Research Institute (SIPRI) Report on countries with nuclear weapons, which of the following statement is not correctly matched?",
+    "options": [
+      "North Korea — 50 Nos.",
+      "India — 180 Nos.",
+      "Pakistan - 170 Nos.",
+      "China — 500 Nos."
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"India — 180 Nos.\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "defence"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-002",
+    "subject": "current-affairs",
+    "topic": "defence",
+    "topicLabel": "Defence & Military",
+    "difficulty": "medium",
+    "question": "Which day is celebrated to commemorate the 76th anniversary of the landing of Indian forces in Kashmir?",
+    "options": [
+      "Vijay Diwas",
+      "Shaurya Diwas",
+      "Veer Diwas",
+      "Bharat Diwas"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Shaurya Diwas\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "defence"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-005",
+    "subject": "polity",
+    "topic": "elections",
+    "topicLabel": "Elections",
+    "difficulty": "medium",
+    "question": "A 22 year old college student desires to get elected to the Municipal Council of his city. The validity of his nomination would depend on the important condition, among others, that:",
+    "options": [
+      "he obtains permission from the principal of his college",
+      "he is a member of a political party",
+      "his name figures in the voters' list",
+      "he files a declaration owing allegiance to the Constitution of India"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"his name figures in the voters' list\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "elections"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-007",
+    "subject": "reasoning",
+    "topic": "coding-decoding",
+    "topicLabel": "Coding-Decoding",
+    "difficulty": "medium",
+    "question": "In a certain code, MARCH is written as OCTEJ, how is RETURN written in that code?",
+    "options": [
+      "TFUVSM",
+      "QGSTQM",
+      "TGVWTP",
+      "TGRVSO"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"TGVWTP\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "coding-decoding"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-008",
+    "subject": "polity",
+    "topic": "constitutional-bodies",
+    "topicLabel": "Constitutional & Extra-Constitutional Bodies",
+    "difficulty": "medium",
+    "question": "Which one of the following duties is NOT performed by the Comptroller and Auditor General of India?",
+    "options": [
+      "To audit and report on all expenditure from the Consolidated Fund of India",
+      "To audit and report on all expenditure from the Contingency Funds and Public Accounts",
+      "To audit and report on all trading, manufacturing, profit and loss accounts",
+      "To control the receipt and issue of public money, and to ensure that the public revenue is lodged in the exchequer"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"To control the receipt and issue of public money, and to ensure that the public revenue is lodged in the exchequer\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "constitutional-bodies"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-010",
+    "subject": "history",
+    "topic": "world-history",
+    "topicLabel": "World History",
+    "difficulty": "medium",
+    "question": "The meaning of Glasnost and Perestroika is:",
+    "options": [
+      "Openness and restructuring respectively",
+      "Structural adjustment and economic reforms respectively",
+      "Inflation and deflation respectively",
+      "Social inclusion and social justice respectively"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Openness and restructuring respectively\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "world-history"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-012",
+    "subject": "gk",
+    "topic": "science",
+    "topicLabel": "General Science",
+    "difficulty": "easy",
+    "question": "Which of these bones is not a part of human ear?",
+    "options": [
+      "Incus",
+      "Stapes",
+      "Femur",
+      "Malleus"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Femur\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "science"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-013",
+    "subject": "gk",
+    "topic": "science-tech",
+    "topicLabel": "Science & Technology",
+    "difficulty": "medium",
+    "question": "What is the term for using smartphones to make contactless payments?",
+    "options": [
+      "ATM transactions",
+      "QR code",
+      "POS terminal",
+      "NFC"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"NFC\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "science-tech"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-014",
+    "subject": "gk",
+    "topic": "economy",
+    "topicLabel": "Indian Economy",
+    "difficulty": "medium",
+    "question": "The first internet banking service in India was offered by which bank?",
+    "options": [
+      "South Indian Bank",
+      "HDFC Bank",
+      "SBI",
+      "ICICI Bank"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"ICICI Bank\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "economy"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-015",
+    "subject": "gk",
+    "topic": "economy",
+    "topicLabel": "Indian Economy",
+    "difficulty": "medium",
+    "question": "Which of the following statement is incorrect?",
+    "options": [
+      "The Sensex consists of 30 companies, while Nifty comprises 50 companies.",
+      "NIFTY was introduced by NSE on 21st April 1996",
+      "Sensex full form is Stock Exchange Sensitive Index",
+      "Both NIFTY and Sensex the same indices is their calculation method"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"Both NIFTY and Sensex the same indices is their calculation method\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "economy"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-016",
+    "subject": "current-affairs",
+    "topic": "sports",
+    "topicLabel": "Sports",
+    "difficulty": "medium",
+    "question": "Deepti Jeevanji won which medal in the women's 400m T20 event at the 2024 Paris Paralympics?",
+    "options": [
+      "Gold",
+      "Silver",
+      "Bronze",
+      "None of these"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Bronze\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "sports"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-018",
+    "subject": "gk",
+    "topic": "science",
+    "topicLabel": "General Science",
+    "difficulty": "easy",
+    "question": "Sea of Tranquility is located in which of the following place?",
+    "options": [
+      "Mars",
+      "Moon",
+      "Saturn",
+      "Arctic Area"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Moon\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "science"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-019",
+    "subject": "polity",
+    "topic": "parliament",
+    "topicLabel": "Parliament & Legislation",
+    "difficulty": "hard",
+    "question": "In Money Bill, Rajya Sabha does not have the power to amend or reject the Money Bill and Rajya Sabha has the power to amend or reject Financial Bill.",
+    "options": [
+      "True",
+      "Partly True",
+      "False",
+      "The statement is incomplete"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"True\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "parliament"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-020",
+    "subject": "geography",
+    "topic": "physical-geography",
+    "topicLabel": "Physical Geography of India",
+    "difficulty": "medium",
+    "question": "Which of the following options regarding The Tropic of Cancer is correct?",
+    "options": [
+      "Tropic of Cancer passes through 8 states including Gujarat and Mizoram",
+      "Tropic of Cancer passes through 8 states including Goa and Mizoram",
+      "Tropic of Cancer passes through 8 states including Bihar and Mizoram",
+      "Tropic of Cancer passes through 8 states including Telengana and Mizoram"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Tropic of Cancer passes through 8 states including Gujarat and Mizoram\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "physical-geography"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-021",
+    "subject": "polity",
+    "topic": "constitutional-amendments",
+    "topicLabel": "Constitutional Amendments",
+    "difficulty": "medium",
+    "question": "Which constitutional amendment lowered the voting age from 21 to 18?",
+    "options": [
+      "42nd Amendment",
+      "44th Amendment",
+      "61st Amendment",
+      "73rd Amendment"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"61st Amendment\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "constitutional-amendments"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-022",
+    "subject": "polity",
+    "topic": "preamble",
+    "topicLabel": "Preamble",
+    "difficulty": "easy",
+    "question": "The Preamble of the Indian Constitution begins with which words?",
+    "options": [
+      "'We, the people of India...'",
+      "'In the name of God...'",
+      "'Justice, Liberty, Equality...'",
+      "'India, that is Bharat...'"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"'We, the people of India...'\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "preamble"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-023",
+    "subject": "polity",
+    "topic": "union-budget",
+    "topicLabel": "Union Budget",
+    "difficulty": "easy",
+    "question": "Union Budget of India is presented by whom and in which house/houses of the Parliament?",
+    "options": [
+      "Finance Minister of India; Lok Sabha",
+      "Prime Minister of India; Rajya Sabha",
+      "Cabinet Secretary; Both Lok Sabha and Rajya Sabha",
+      "President of India; in joint session of Parliament"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Finance Minister of India; Lok Sabha\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "union-budget"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-025",
+    "subject": "gk",
+    "topic": "literature",
+    "topicLabel": "Sanskrit Literature",
+    "difficulty": "medium",
+    "question": "Which among the following is/are works of Kalidasa? 1. Ritusamhara 2. Meghaduta 3. Dasakumarcharita 4. Kumarashambhava",
+    "options": [
+      "Only 1&2",
+      "Only 1",
+      "Only 3",
+      "1,2&4"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"1,2&4\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "literature"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-026",
+    "subject": "history",
+    "topic": "freedom-struggle",
+    "topicLabel": "Freedom Struggle",
+    "difficulty": "medium",
+    "question": "With reference to the Freedom Struggle of India, which of the following is/are correct observations? 1. Purna Swarajya Resolution was adopted by INC in Lahore Session 2. Gopal Krishna Gokhale was founder of Servants of India Society 3. The Chittagong Armory raid and temporary capture of port town were organized under Surya Sen",
+    "options": [
+      "Only 1 is correct",
+      "Only 2 is correct",
+      "1&2 are correct",
+      "1,2 and 3 are correct"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"1,2 and 3 are correct\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "freedom-struggle"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-027",
+    "subject": "gk",
+    "topic": "economy",
+    "topicLabel": "Indian Economy",
+    "difficulty": "easy",
+    "question": "The 'Interest Rate Policy' is a component of which of the following policies?",
+    "options": [
+      "Fiscal Policy",
+      "Trade Policy",
+      "Direct Control",
+      "Monetary Policy"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"Monetary Policy\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "economy"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-028",
+    "subject": "gk",
+    "topic": "government-schemes",
+    "topicLabel": "Government Schemes",
+    "difficulty": "medium",
+    "question": "PM-KUSUM (Pradhan Mantri Kisan Urja Suraksha evam Utthaan Mahabhiyan) is about?",
+    "options": [
+      "Ensuring water supply for farmers",
+      "Ensuring energy security for farmers",
+      "Crop Insurance Scheme",
+      "Social Benefits Schemes"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Ensuring energy security for farmers\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "government-schemes"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-030",
+    "subject": "gk",
+    "topic": "science",
+    "topicLabel": "General Science",
+    "difficulty": "medium",
+    "question": "Which of the following statements is incorrect:",
+    "options": [
+      "Monkeypox is caused by the monkeypox virus, which is a member of the same family as the smallpox virus.",
+      "The source of the disease is unknown, but it's believed to have originated in Africa.",
+      "The disease is now called mpox to avoid the racist and discriminatory connotations of the original name.",
+      "You can get mpox from close contact with infected and uninfected monkeys only."
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"You can get mpox from close contact with infected and uninfected monkeys only.\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "science"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-031",
+    "subject": "gk",
+    "topic": "psychology",
+    "topicLabel": "Psychology & Society",
+    "difficulty": "medium",
+    "question": "Which term best describes Stockholm Syndrome?",
+    "options": [
+      "A mental health disorder characterized by mood swings",
+      "A type of post-traumatic stress disorder",
+      "A cognitive bias affecting decision-making",
+      "A psychological response where hostages bond with their captors"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"A psychological response where hostages bond with their captors\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "psychology"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-032",
+    "subject": "history",
+    "topic": "ancient-india",
+    "topicLabel": "Ancient India",
+    "difficulty": "medium",
+    "question": "Which among the following is the most unique feature of Dholavira site of the Indus Valley Civilization?",
+    "options": [
+      "Its cities were horizontally divided in multiple parts",
+      "Its cities were unevenly divided",
+      "Its cities were divided into 3 parts",
+      "None of these"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Its cities were divided into 3 parts\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "ancient-india"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-033",
+    "subject": "history",
+    "topic": "ancient-india",
+    "topicLabel": "Ancient India",
+    "difficulty": "medium",
+    "question": "Which Greek ruler sent Megasthenes in the court of Chandragupta Maurya?",
+    "options": [
+      "Seleucus Nicator",
+      "Antiochus",
+      "Ptolemy",
+      "Magas"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Seleucus Nicator\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "ancient-india"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-034",
+    "subject": "gk",
+    "topic": "international-organizations",
+    "topicLabel": "International Organizations",
+    "difficulty": "medium",
+    "question": "The target of literacy comes under which Sustainable Development Goal (SDG)?",
+    "options": [
+      "Sustainable Development Goal 10",
+      "Sustainable Development Goal 4",
+      "Sustainable Development Goal 5",
+      "Sustainable Development Goal 7"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Sustainable Development Goal 4\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "international-organizations"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-036",
+    "subject": "history",
+    "topic": "world-history",
+    "topicLabel": "World History",
+    "difficulty": "medium",
+    "question": "The 'Velvet Revolution', also known as the 'Gentle Revolution', happened in which nations?",
+    "options": [
+      "Slovenia — Croatia",
+      "Czech Republic — Slovakia",
+      "Russia — Kazakhstan",
+      "Serbia — Kosovo"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Czech Republic — Slovakia\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "world-history"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-037",
+    "subject": "gk",
+    "topic": "economy",
+    "topicLabel": "Indian Economy",
+    "difficulty": "easy",
+    "question": "Per Capita Income of a country is obtained by dividing National Income by which of the following?",
+    "options": [
+      "Total working population",
+      "Total population of the country",
+      "Area of the country",
+      "Volume of the capital used"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Total population of the country\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "economy"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-038",
+    "subject": "gk",
+    "topic": "science",
+    "topicLabel": "General Science",
+    "difficulty": "medium",
+    "question": "On an average how many million Red Blood Cells are present in a healthy human adult man per mm3 of blood?",
+    "options": [
+      "1.5-2",
+      "2-2.5",
+      "5-5.5",
+      "9-9.5"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"5-5.5\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "science"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-040",
+    "subject": "history",
+    "topic": "world-history",
+    "topicLabel": "World History",
+    "difficulty": "medium",
+    "question": "Arrange the following in chronological order: A. Soviet invasion of Afghanistan B. Fall of the Berlin Wall C. Disintegration of the Soviet Union D. Russian Revolution E. Establishment of Warsaw Pact",
+    "options": [
+      "A,B,C,D,E",
+      "D,E,A,B,C",
+      "A,C,D,B,E",
+      "E,A,D,C,B"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"D,E,A,B,C\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "world-history"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-041",
+    "subject": "gk",
+    "topic": "science",
+    "topicLabel": "General Science",
+    "difficulty": "medium",
+    "question": "Which of the following can be defined as the smallest particle of an element that is capable of an independent existence?",
+    "options": [
+      "Electron",
+      "Proton",
+      "Neutron",
+      "Molecule"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"Molecule\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "science"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-043",
+    "subject": "geography",
+    "topic": "population",
+    "topicLabel": "Population Geography",
+    "difficulty": "hard",
+    "question": "India's population growth can be classified into four distinct phases, which of the following is incorrect?",
+    "options": [
+      "Phase I (1901-1921): fluctuating but stagnant growth, high birth and death rates.",
+      "Phase II (1921-1951): witnessed a very high trend in population growth.",
+      "Phase III (1951-1981): rapid high growth period of population explosion.",
+      "Phase IV (1981-till date): continues to grow but pace of net addition is decreasing."
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Phase II (1921-1951): witnessed a very high trend in population growth.\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "population"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-044",
+    "subject": "geography",
+    "topic": "population",
+    "topicLabel": "Population Geography",
+    "difficulty": "medium",
+    "question": "The highest percentage of tribal population to its total population as per 2011 census is found in which of the following State?",
+    "options": [
+      "Nagaland",
+      "Meghalaya",
+      "Mizoram",
+      "Arunachal Pradesh"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Mizoram\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "population"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-045",
+    "subject": "polity",
+    "topic": "federalism",
+    "topicLabel": "Federalism",
+    "difficulty": "medium",
+    "question": "Consider the following statements regarding Inter-State Council: 1. It was set up in 1990 on the recommendations of Sarkaria Commission. 2. The council promotes cooperative federalism. 3. Union Home Minister is the chairman of council. Which of the above statement(s) is/are correct?",
+    "options": [
+      "Only 1 and 2",
+      "Only 1 and 3",
+      "Only 2",
+      "Only 2 and 3"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Only 1 and 2\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "federalism"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-046",
+    "subject": "polity",
+    "topic": "emergency-provisions",
+    "topicLabel": "Emergency Provisions",
+    "difficulty": "medium",
+    "question": "When a proclamation of emergency is in operation, the right to move a court for enforcement of all fundamental rights remains suspended except?",
+    "options": [
+      "Article 14&15",
+      "Article 19&20",
+      "Article 20&21",
+      "Article 21&22"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Article 20&21\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "emergency-provisions"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-049",
+    "subject": "gk",
+    "topic": "economy",
+    "topicLabel": "Indian Economy",
+    "difficulty": "hard",
+    "question": "Which one of the following hypotheses postulates that individual's consumption in any time period depends upon resources available to the individual, rate of return on his capital and age of the individual?",
+    "options": [
+      "Absolute Income Hypothesis",
+      "Relative Income Hypothesis",
+      "Life Cycle Hypothesis",
+      "Permanent Income Hypothesis"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Life Cycle Hypothesis\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "economy"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-051",
+    "subject": "gk",
+    "topic": "international-relations",
+    "topicLabel": "International Relations",
+    "difficulty": "medium",
+    "question": "The 'Gujral Doctrine' relates to which one of the following issues?",
+    "options": [
+      "Build trust between India and its neighbours",
+      "Initiate dialogue with all insurgent groups in India",
+      "Undertake development activities in Naxal dominated areas",
+      "Ensure food security"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Build trust between India and its neighbours\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "international-relations"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-052",
+    "subject": "current-affairs",
+    "topic": "world-affairs",
+    "topicLabel": "World Affairs",
+    "difficulty": "hard",
+    "question": "Consider the following statements: Statement I: Recently, Venezuela has achieved a rapid recovery from its economic crisis and succeeded in preventing its people from fleeing/emigrating to other countries. Statement II: Venezuela has the world's largest oil reserves. Which one of the following is correct in respect of the above statements?",
+    "options": [
+      "Both Statement I and Statement II are correct and Statement II explains Statement I",
+      "Both Statement I and Statement II are correct, but Statement I does not explain Statement II",
+      "Statement I is correct, but Statement II is incorrect",
+      "Statement I is incorrect, but Statement II is correct"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"Statement I is incorrect, but Statement II is correct\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "world-affairs"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-053",
+    "subject": "polity",
+    "topic": "writs",
+    "topicLabel": "Writs & Judicial Review",
+    "difficulty": "medium",
+    "question": "A writ of prohibition is an order issued by the Supreme Court or High Courts to:",
+    "options": [
+      "a government officer prohibiting him from taking a particular action.",
+      "the Parliament/Legislative Assembly to pass a law on Prohibition.",
+      "the lower court prohibiting continuation of proceedings in a case.",
+      "the government prohibiting it from following an unconstitutional policy."
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"the lower court prohibiting continuation of proceedings in a case.\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "writs"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-054",
+    "subject": "geography",
+    "topic": "world-geography",
+    "topicLabel": "World Geography",
+    "difficulty": "medium",
+    "question": "The longest border between any two countries in the world is between:",
+    "options": [
+      "Canada and the United States of America",
+      "Chile and Argentina",
+      "China and India",
+      "Kazakhstan and Russian Federation"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Canada and the United States of America\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "world-geography"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-057",
+    "subject": "current-affairs",
+    "topic": "international-organizations",
+    "topicLabel": "International Organizations",
+    "difficulty": "medium",
+    "question": "Which of the following has been recently admitted as the Permanent Member of G20?",
+    "options": [
+      "Mauritius",
+      "African Union",
+      "Maldives",
+      "Egypt"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"African Union\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "international-organizations"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-058",
+    "subject": "gk",
+    "topic": "science",
+    "topicLabel": "General Science",
+    "difficulty": "easy",
+    "question": "Sonic boom is produced when a source of sound travels at a speed:",
+    "options": [
+      "greater than the speed of sound",
+      "lesser than the speed of sound",
+      "equal to the speed of sound",
+      "greater than the speed of light"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"greater than the speed of sound\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "science"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-061",
+    "subject": "geography",
+    "topic": "physical-geography",
+    "topicLabel": "Physical Geography",
+    "difficulty": "medium",
+    "question": "On June 21 every year, which of the following latitude(s) experience(s) a sunlight of more than 12 hours? 1. Equator 2. Tropic of Cancer 3. Tropic of Capricorn 4. Arctic Circle",
+    "options": [
+      "1 only",
+      "2 only",
+      "3 and 4",
+      "2 and 4"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"2 and 4\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "physical-geography"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-063",
+    "subject": "geography",
+    "topic": "world-geography",
+    "topicLabel": "World Geography",
+    "difficulty": "medium",
+    "question": "What is the capital of Equatorial Guinea?",
+    "options": [
+      "Maputo",
+      "Malaga",
+      "Malabo",
+      "Mbini"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Malabo\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "world-geography"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-064",
+    "subject": "gk",
+    "topic": "sports",
+    "topicLabel": "Sports",
+    "difficulty": "easy",
+    "question": "The Term Chinaman is related to which sports?",
+    "options": [
+      "Football",
+      "Hockey",
+      "Golf",
+      "Cricket"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"Cricket\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "sports"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-065",
+    "subject": "gk",
+    "topic": "government-schemes",
+    "topicLabel": "Government Schemes",
+    "difficulty": "medium",
+    "question": "Which Union Ministry is associated with 'GOBARdhan' scheme?",
+    "options": [
+      "Ministry of Jal Shakti",
+      "Ministry of MSME",
+      "Ministry of Commerce and Industry",
+      "Ministry of Agriculture and Farmers Welfare"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Ministry of Jal Shakti\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "government-schemes"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-066",
+    "subject": "gk",
+    "topic": "economy",
+    "topicLabel": "Indian Economy",
+    "difficulty": "medium",
+    "question": "What distinguishes a bank from other financial institutions?",
+    "options": [
+      "Accepting time deposits as a courtesy",
+      "Accepting demand deposits",
+      "Lending",
+      "Accepting loans and borrowings"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Accepting demand deposits\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "economy"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-069",
+    "subject": "geography",
+    "topic": "geomorphology",
+    "topicLabel": "Geomorphology",
+    "difficulty": "hard",
+    "question": "Which seismic wave moves the material in a circular motion?",
+    "options": [
+      "Longitudinal wave",
+      "Transverse wave",
+      "Raleigh wave",
+      "Love wave"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Raleigh wave\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "geomorphology"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-072",
+    "subject": "polity",
+    "topic": "constitution",
+    "topicLabel": "Indian Constitution",
+    "difficulty": "medium",
+    "question": "Which Article of the Constitution empowers the President to appoint a Commission to investigate the condition of backward classes in general and suggest ameliorative measures?",
+    "options": [
+      "Art 342",
+      "Art 344",
+      "Art 340",
+      "Art 339"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Art 340\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "constitution"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-073",
+    "subject": "polity",
+    "topic": "executive",
+    "topicLabel": "Union Executive",
+    "difficulty": "medium",
+    "question": "Article 78 of the Constitution deals with:",
+    "options": [
+      "President's power to get information from the Council of Ministers.",
+      "Prime Minister's duty regarding keeping the President informed about the government's decisions and policies.",
+      "Emergency powers of the President.",
+      "President's power to send advisory messages to the Parliament."
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Prime Minister's duty regarding keeping the President informed about the government's decisions and policies.\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "executive"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-074",
+    "subject": "current-affairs",
+    "topic": "international-relations",
+    "topicLabel": "International Relations",
+    "difficulty": "hard",
+    "question": "About 6% of the country's GDP is contributed by Indian diaspora. Which country is this?",
+    "options": [
+      "United Kingdom",
+      "United States of America",
+      "United Arab Emirates",
+      "Canada"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"United Arab Emirates\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "international-relations"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-075",
+    "subject": "gk",
+    "topic": "economy",
+    "topicLabel": "Indian Economy",
+    "difficulty": "medium",
+    "question": "Which of the following statement(s) is/are correct, with respect to debenture holder and equity share holder? 1. Equity shares are a part of share capital whereas debenture is a part of loan 2. Equity share holder possess ownership rights in the company whereas debenture holders do not possess ownership rights 3. At the time of liquidation, debenture holders are given preferences over equity holders",
+    "options": [
+      "Only 1&2",
+      "Only 2&3",
+      "Only 1&3",
+      "1,2&3"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"1,2&3\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "economy"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-076",
+    "subject": "gk",
+    "topic": "government-schemes",
+    "topicLabel": "Government Schemes",
+    "difficulty": "hard",
+    "question": "What is the amount of overdraft facility sanctioned under PMJDY is classified as MUDRA loans under PMMY?",
+    "options": [
+      "Rs. 5,000/-",
+      "Rs. 10,000/-",
+      "Rs. 15,000/-",
+      "Rs. 20,000/-"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Rs. 10,000/-\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "government-schemes"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-077",
+    "subject": "history",
+    "topic": "medieval-india",
+    "topicLabel": "Medieval India",
+    "difficulty": "medium",
+    "question": "'Padshah-nama' (Chronicle of the Emperor) written by Abdul Hamid Lahori, is the official visual history giving a detailed account of the reign of which of the following Mughal Emperor?",
+    "options": [
+      "Babur",
+      "Jahangir",
+      "Shah Jahan",
+      "Aurangzeb"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Shah Jahan\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "medieval-india"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-078",
+    "subject": "current-affairs",
+    "topic": "world-affairs",
+    "topicLabel": "World Affairs",
+    "difficulty": "medium",
+    "question": "Recently, Paul Kagame has been elected for the fourth time as president of which country?",
+    "options": [
+      "Rwanda",
+      "Kenya",
+      "Nigeria",
+      "Uganda"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Rwanda\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "world-affairs"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-079",
+    "subject": "gk",
+    "topic": "sports",
+    "topicLabel": "Sports",
+    "difficulty": "easy",
+    "question": "In cricket, what does LBW stand for?",
+    "options": [
+      "Leg Before Wicket",
+      "Left Batsman Wrong",
+      "Leg Ball Wasted",
+      "Lost Bat Winner"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Leg Before Wicket\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "sports"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-081",
+    "subject": "gk",
+    "topic": "world-geography",
+    "topicLabel": "World Geography",
+    "difficulty": "medium",
+    "question": "What is the world's loneliest island?",
+    "options": [
+      "Falkland Islands",
+      "Diego Garcia",
+      "South Georgia",
+      "Tristan Da Cunha"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"Tristan Da Cunha\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "world-geography"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-082",
+    "subject": "current-affairs",
+    "topic": "world-affairs",
+    "topicLabel": "World Affairs",
+    "difficulty": "medium",
+    "question": "Dagestan Region, recently seen in the news, is located in which country?",
+    "options": [
+      "Russia",
+      "Iran",
+      "Turkey",
+      "Iraq"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Russia\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "world-affairs"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-083",
+    "subject": "polity",
+    "topic": "constitution",
+    "topicLabel": "Indian Constitution",
+    "difficulty": "medium",
+    "question": "Which of the following statements are correct about the Constitution of India? 1. Powers of the Municipalities are given in Part IX A of the Constitution 2. Emergency provisions are given in Part XVIII of the Constitution 3. Provisions related to the amendment of the Constitution are given in Part XX of the Constitution.",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "1,2 and 3"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"1,2 and 3\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "constitution"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-084",
+    "subject": "polity",
+    "topic": "elections",
+    "topicLabel": "Elections",
+    "difficulty": "medium",
+    "question": "The Election Commission of India holds election for -",
+    "options": [
+      "The Parliament, State Legislature and the posts of the President and the Vice-President",
+      "The Parliament, State legislative Assemblies and the State Council",
+      "The Parliament",
+      "The Parliament and the State Legislative Assemblies"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"The Parliament, State Legislature and the posts of the President and the Vice-President\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "elections"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-085",
+    "subject": "gk",
+    "topic": "economy",
+    "topicLabel": "Indian Economy",
+    "difficulty": "easy",
+    "question": "Which one of the following situation can lead to inflation?",
+    "options": [
+      "Rapid growth of aggregate demand outweighing supply",
+      "Sluggish growth of aggregate demand",
+      "Reduction in the money supply",
+      "Higher levels of unemployment"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Rapid growth of aggregate demand outweighing supply\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "economy"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-087",
+    "subject": "gk",
+    "topic": "world-affairs",
+    "topicLabel": "World Affairs",
+    "difficulty": "medium",
+    "question": "Which American University awards Pulitzer Prize?",
+    "options": [
+      "Carnegie Mellon University",
+      "Stanford University",
+      "Columbia University",
+      "Harvard University"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Columbia University\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "world-affairs"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-088",
+    "subject": "gk",
+    "topic": "polity",
+    "topicLabel": "Indian Political Leaders",
+    "difficulty": "medium",
+    "question": "Match the following: Leaders — State: A. Jayalalithaa — I. Madhya Pradesh, B. Mayawati — II. Tamil Nadu, C. Mamata Bannerjee — III. Uttar Pradesh, D. Uma Bharati — IV. West Bengal",
+    "options": [
+      "A-II,B-I,C-IV&D-III",
+      "A-II,B-III,C-IV&D-I",
+      "A-IV,B-II,C-I&D-III",
+      "A-I,B-II,C-III&D-IV"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"A-II,B-III,C-IV&D-I\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "polity"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-089",
+    "subject": "gk",
+    "topic": "science",
+    "topicLabel": "General Science",
+    "difficulty": "medium",
+    "question": "Which of the following relations between Kinetic energy and Potential energy is true about solids?",
+    "options": [
+      "Kinetic energy = Potential energy",
+      "Kinetic energy > Potential energy",
+      "Kinetic energy >> Potential energy",
+      "Kinetic energy < Potential energy"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"Kinetic energy < Potential energy\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "science"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-090",
+    "subject": "gk",
+    "topic": "science",
+    "topicLabel": "General Science",
+    "difficulty": "medium",
+    "question": "Which of the following statements are correct? 1. The soap molecules form structures called micelles. 2. Soap micelles cannot scatter light. 3. Oily dirt gets collected in the centre of the micelle.",
+    "options": [
+      "Only 1 and 2",
+      "Only 1 and 3",
+      "Only 2 and 3",
+      "1,2 and 3"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Only 1 and 3\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "science"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-091",
+    "subject": "history",
+    "topic": "ancient-india",
+    "topicLabel": "Ancient India",
+    "difficulty": "hard",
+    "question": "Which among the following ruler is known for Junagadh Rock Inscription?",
+    "options": [
+      "Rudradaman I",
+      "Jivadaman",
+      "Damajadasri",
+      "Jayadaman"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Rudradaman I\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "ancient-india"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-092",
+    "subject": "gk",
+    "topic": "literature",
+    "topicLabel": "Tamil Literature",
+    "difficulty": "medium",
+    "question": "Who wrote the Tamil epic Silappadikaram?",
+    "options": [
+      "Ilango Adigal",
+      "Thiruvalluvar",
+      "Avvaiyar",
+      "Sattanar"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Ilango Adigal\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "literature"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-094",
+    "subject": "gk",
+    "topic": "sports",
+    "topicLabel": "Sports",
+    "difficulty": "easy",
+    "question": "What is the name of the prestigious award given to the best player in the world each year?",
+    "options": [
+      "European Golden Shoe",
+      "FIFA Ballon d'Or",
+      "UEFA Men's Player of the Year Award",
+      "Champions League Player of the Year"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"FIFA Ballon d'Or\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "sports"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-095",
+    "subject": "gk",
+    "topic": "world-affairs",
+    "topicLabel": "World Literature",
+    "difficulty": "easy",
+    "question": "The Iliad by Homer primarily focuses on a specific period of which war?",
+    "options": [
+      "The Trojan War",
+      "The Peloponnesian War",
+      "The Persian Wars",
+      "The Macedonian Wars"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"The Trojan War\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "world-affairs"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-099",
+    "subject": "gk",
+    "topic": "economy",
+    "topicLabel": "Accounting & Finance",
+    "difficulty": "easy",
+    "question": "GAAP stands for -",
+    "options": [
+      "Government Auditing & Accounting Procedure",
+      "Government Auditing & Accounting Process",
+      "General Auditing & Accounting Principles",
+      "Generally Accepted Accounting Principles"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"Generally Accepted Accounting Principles\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "economy"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-aaao-gk-100",
+    "subject": "gk",
+    "topic": "science",
+    "topicLabel": "General Science",
+    "difficulty": "easy",
+    "question": "What is the approximate diameter of the earth?",
+    "options": [
+      "12,742 km",
+      "13,742 km",
+      "14,742 km",
+      "15,742 km"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"12,742 km\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "science"
+    ],
+    "paperId": "mpsc-direct-ng-2024-assistant-audit-accounts-officer-general-knowledge"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-011",
+    "subject": "english",
+    "topic": "verb-tense",
+    "topicLabel": "Verb Tenses",
+    "difficulty": "easy",
+    "question": "Never doubt that she ___ you just the way you are.",
+    "options": [
+      "loved",
+      "is loving",
+      "love",
+      "loves"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"loves\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "verb-tense"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-012",
+    "subject": "english",
+    "topic": "verb-tense",
+    "topicLabel": "Verb Tenses",
+    "difficulty": "medium",
+    "question": "We ___ in that same building since a few years back.",
+    "options": [
+      "stayed",
+      "are staying",
+      "have been staying",
+      "had stayed"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"have been staying\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "verb-tense"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-013",
+    "subject": "english",
+    "topic": "verb-tense",
+    "topicLabel": "Verb Tenses",
+    "difficulty": "easy",
+    "question": "The teachers ___ to get the students to cooperate but they are failing.",
+    "options": [
+      "tries",
+      "tried",
+      "are trying",
+      "try"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"are trying\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "verb-tense"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-014",
+    "subject": "english",
+    "topic": "verb-tense",
+    "topicLabel": "Verb Tenses",
+    "difficulty": "easy",
+    "question": "She ___ to remember that she is not yet qualified for the job.",
+    "options": [
+      "need",
+      "is needing",
+      "needed",
+      "needs"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"needs\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "verb-tense"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-015",
+    "subject": "english",
+    "topic": "verb-tense",
+    "topicLabel": "Verb Tenses",
+    "difficulty": "medium",
+    "question": "He jumped off the train while it ___.",
+    "options": [
+      "moves",
+      "was moving",
+      "moved",
+      "has been moving"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"was moving\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "verb-tense"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-016",
+    "subject": "english",
+    "topic": "verb-tense",
+    "topicLabel": "Verb Tenses",
+    "difficulty": "medium",
+    "question": "She got out of bed as soon as the sun ___.",
+    "options": [
+      "rose",
+      "rise",
+      "rises",
+      "risen"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"rose\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "verb-tense"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-017",
+    "subject": "english",
+    "topic": "verb-tense",
+    "topicLabel": "Verb Tenses",
+    "difficulty": "easy",
+    "question": "They ___ bravely against the enemy.",
+    "options": [
+      "fight",
+      "fighted",
+      "fights",
+      "fought"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"fought\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "verb-tense"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-018",
+    "subject": "english",
+    "topic": "verb-tense",
+    "topicLabel": "Verb Tenses",
+    "difficulty": "easy",
+    "question": "I ___ you are mistaken about my intentions.",
+    "options": [
+      "think",
+      "thought",
+      "thinks",
+      "have thought"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"think\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "verb-tense"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-019",
+    "subject": "english",
+    "topic": "verb-tense",
+    "topicLabel": "Verb Tenses",
+    "difficulty": "medium",
+    "question": "It ___ this morning when I had my accident.",
+    "options": [
+      "was raining",
+      "has been raining",
+      "rained",
+      "rains"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"was raining\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "verb-tense"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-020",
+    "subject": "english",
+    "topic": "verb-tense",
+    "topicLabel": "Verb Tenses",
+    "difficulty": "medium",
+    "question": "They ___ a lawyer who solved the case for them.",
+    "options": [
+      "consult",
+      "are consulting",
+      "had consulted",
+      "have been consulting"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"had consulted\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "verb-tense"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-021",
+    "subject": "english",
+    "topic": "adjective-adverb",
+    "topicLabel": "Adjectives & Adverbs",
+    "difficulty": "medium",
+    "question": "She was popular because of her ___ character.",
+    "options": [
+      "amiable",
+      "audible",
+      "amoebal",
+      "annible"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"amiable\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "adjective-adverb"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-022",
+    "subject": "english",
+    "topic": "adjective-adverb",
+    "topicLabel": "Adjectives & Adverbs",
+    "difficulty": "easy",
+    "question": "The traffic policeman stopped him because he was driving ___.",
+    "options": [
+      "erotically",
+      "ironically",
+      "erratically",
+      "arrayically"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"erratically\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "adjective-adverb"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-023",
+    "subject": "english",
+    "topic": "adjective-adverb",
+    "topicLabel": "Adjectives & Adverbs",
+    "difficulty": "easy",
+    "question": "He was a ___ student who performed very well.",
+    "options": [
+      "bride",
+      "bridge",
+      "brite",
+      "bright"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"bright\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "adjective-adverb"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-024",
+    "subject": "english",
+    "topic": "adjective-adverb",
+    "topicLabel": "Adjectives & Adverbs",
+    "difficulty": "medium",
+    "question": "I prefer the former to the ___.",
+    "options": [
+      "later",
+      "latent",
+      "letter",
+      "latter"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"latter\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "adjective-adverb"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-025",
+    "subject": "english",
+    "topic": "adjective-adverb",
+    "topicLabel": "Adjectives & Adverbs",
+    "difficulty": "medium",
+    "question": "It was an ___ hot afternoon.",
+    "options": [
+      "extremely",
+      "excruciately",
+      "execratically",
+      "exemplary"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"extremely\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "adjective-adverb"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-026",
+    "subject": "english",
+    "topic": "adjective-adverb",
+    "topicLabel": "Adjectives & Adverbs",
+    "difficulty": "easy",
+    "question": "The football followed a ___ path as it swerved into the net.",
+    "options": [
+      "carved",
+      "cured",
+      "curbed",
+      "curved"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"curved\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "adjective-adverb"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-027",
+    "subject": "english",
+    "topic": "adjective-adverb",
+    "topicLabel": "Adjectives & Adverbs",
+    "difficulty": "medium",
+    "question": "___ but Emma could defeat the wizard.",
+    "options": [
+      "no",
+      "not",
+      "none",
+      "non"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"none\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "adjective-adverb"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-028",
+    "subject": "english",
+    "topic": "adjective-adverb",
+    "topicLabel": "Adjectives & Adverbs",
+    "difficulty": "easy",
+    "question": "This speaker was not ___ from where we sat right at the back of the hall.",
+    "options": [
+      "audible",
+      "legible",
+      "edible",
+      "delible"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"audible\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "adjective-adverb"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-029",
+    "subject": "english",
+    "topic": "adjective-adverb",
+    "topicLabel": "Adjectives & Adverbs",
+    "difficulty": "medium",
+    "question": "He was an ___ young man whom many girls wanted to marry.",
+    "options": [
+      "illegible",
+      "indelible",
+      "inedible",
+      "eligible"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"eligible\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "adjective-adverb"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-030",
+    "subject": "english",
+    "topic": "adjective-adverb",
+    "topicLabel": "Adjectives & Adverbs",
+    "difficulty": "medium",
+    "question": "He looked calm on the outside, but he was panicking ___.",
+    "options": [
+      "internately",
+      "innerly",
+      "insidedly",
+      "internally"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"internally\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "adjective-adverb"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-031",
+    "subject": "english",
+    "topic": "preposition-conjunction",
+    "topicLabel": "Prepositions & Conjunctions",
+    "difficulty": "medium",
+    "question": "The property was divided ___ the three children.",
+    "options": [
+      "between",
+      "within",
+      "among",
+      "along"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"among\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "preposition-conjunction"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-032",
+    "subject": "english",
+    "topic": "preposition-conjunction",
+    "topicLabel": "Prepositions & Conjunctions",
+    "difficulty": "medium",
+    "question": "John, ___ Jane has gone to the market.",
+    "options": [
+      "aside",
+      "as well as",
+      "but",
+      "inspite of"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"as well as\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "preposition-conjunction"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-033",
+    "subject": "english",
+    "topic": "preposition-conjunction",
+    "topicLabel": "Prepositions & Conjunctions",
+    "difficulty": "medium",
+    "question": "___ his illness, he was able to successfully complete his studies.",
+    "options": [
+      "inspite",
+      "in lieu of",
+      "despite",
+      "by dint of"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"despite\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "preposition-conjunction"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-034",
+    "subject": "english",
+    "topic": "preposition-conjunction",
+    "topicLabel": "Prepositions & Conjunctions",
+    "difficulty": "medium",
+    "question": "He lives in the flat ___ mine.",
+    "options": [
+      "upon",
+      "above",
+      "upto",
+      "over"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"above\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "preposition-conjunction"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-035",
+    "subject": "english",
+    "topic": "preposition-conjunction",
+    "topicLabel": "Prepositions & Conjunctions",
+    "difficulty": "easy",
+    "question": "He sat ___ me in class.",
+    "options": [
+      "beside",
+      "asides",
+      "besides",
+      "aside"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"beside\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "preposition-conjunction"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-036",
+    "subject": "english",
+    "topic": "preposition-conjunction",
+    "topicLabel": "Prepositions & Conjunctions",
+    "difficulty": "medium",
+    "question": "He lives ___ Khatla.",
+    "options": [
+      "at",
+      "on",
+      "in",
+      "inside"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"in\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "preposition-conjunction"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-037",
+    "subject": "english",
+    "topic": "preposition-conjunction",
+    "topicLabel": "Prepositions & Conjunctions",
+    "difficulty": "medium",
+    "question": "I know him, but I can not remember his name ___ the top of my head.",
+    "options": [
+      "off",
+      "on",
+      "at",
+      "inside"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"off\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "preposition-conjunction"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-038",
+    "subject": "english",
+    "topic": "preposition-conjunction",
+    "topicLabel": "Prepositions & Conjunctions",
+    "difficulty": "hard",
+    "question": "He offered me the use of his car ___ of the money he owed me.",
+    "options": [
+      "in lieu",
+      "along with",
+      "despite",
+      "by dint of"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"in lieu\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "preposition-conjunction"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-039",
+    "subject": "english",
+    "topic": "preposition-conjunction",
+    "topicLabel": "Prepositions & Conjunctions",
+    "difficulty": "medium",
+    "question": "The ambulance arrived ___ 10 minutes.",
+    "options": [
+      "at",
+      "under",
+      "by",
+      "within"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"within\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "preposition-conjunction"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-040",
+    "subject": "english",
+    "topic": "preposition-conjunction",
+    "topicLabel": "Prepositions & Conjunctions",
+    "difficulty": "medium",
+    "question": "I will leave, ___ you ask me to stay.",
+    "options": [
+      "as",
+      "by virtue of",
+      "no sooner than",
+      "unless"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"unless\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "preposition-conjunction"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-041",
+    "subject": "english",
+    "topic": "sentence-transformation",
+    "topicLabel": "Sentence Transformation",
+    "difficulty": "medium",
+    "question": "Being hungry, Anna was still unable to eat. (To Compound)",
+    "options": [
+      "As she was hungry, Anna was unable to eat as well",
+      "Anna was hungry, yet she was still unable to eat",
+      "Being hungry; Anna could not eat still",
+      "Unable to eat, Anna was still hungry"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Anna was hungry, yet she was still unable to eat\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "sentence-transformation"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-042",
+    "subject": "english",
+    "topic": "sentence-transformation",
+    "topicLabel": "Sentence Transformation",
+    "difficulty": "medium",
+    "question": "They ate a stale cookie. They got a stomachache. (To Complex)",
+    "options": [
+      "They ate a stale cookie as they got a stomachache",
+      "Getting a stomachache, they ate a stale cookie",
+      "As they ate a stale cookie, as they got a stomachache",
+      "After they ate a stale cookie, they got a stomachache"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"After they ate a stale cookie, they got a stomachache\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "sentence-transformation"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-043",
+    "subject": "english",
+    "topic": "sentence-transformation",
+    "topicLabel": "Sentence Transformation",
+    "difficulty": "medium",
+    "question": "We must eat, or we cannot live. (To Simple)",
+    "options": [
+      "We must eat to live",
+      "We must eat to cannot live",
+      "We cannot live to eat",
+      "We must eat or live"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"We must eat to live\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "sentence-transformation"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-044",
+    "subject": "english",
+    "topic": "sentence-transformation",
+    "topicLabel": "Sentence Transformation",
+    "difficulty": "medium",
+    "question": "Going to the Science Museum, he was surprised (To Compound)",
+    "options": [
+      "As he was going to the science museum, he was surprised",
+      "He was going to the Science Museum, He was surprised",
+      "He went to the Science Museum and was surprised",
+      "Going to the Science Museum but he was surprised"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"He went to the Science Museum and was surprised\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "sentence-transformation"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-045",
+    "subject": "english",
+    "topic": "sentence-transformation",
+    "topicLabel": "Sentence Transformation",
+    "difficulty": "medium",
+    "question": "I know the answer. (To Complex)",
+    "options": [
+      "I know. The answer",
+      "That the answer is known to me",
+      "I know the answer is",
+      "I know what the answer is"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"I know what the answer is\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "sentence-transformation"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-046",
+    "subject": "english",
+    "topic": "sentence-transformation",
+    "topicLabel": "Sentence Transformation",
+    "difficulty": "medium",
+    "question": "The cat, which is black and white, is sleeping on the sofa. (To Simple)",
+    "options": [
+      "The black and white cat is sleeping on the sofa.",
+      "The cat is sleeping on the sofa which is black and white",
+      "The cat is black and white and is sleeping on the sofa",
+      "The cat, being black and white, sleeps on the sofa"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"The black and white cat is sleeping on the sofa.\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "sentence-transformation"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-047",
+    "subject": "english",
+    "topic": "sentence-transformation",
+    "topicLabel": "Sentence Transformation",
+    "difficulty": "medium",
+    "question": "Despite her flaws, I love her (To Compound)",
+    "options": [
+      "She has flaws. I love her",
+      "She has flaws, yet I love her",
+      "I love her flaws",
+      "Despite her flaws. I love her"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"She has flaws, yet I love her\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "sentence-transformation"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-048",
+    "subject": "english",
+    "topic": "sentence-transformation",
+    "topicLabel": "Sentence Transformation",
+    "difficulty": "medium",
+    "question": "Exercise regularly, otherwise you will not be fit. (To Simple)",
+    "options": [
+      "Exercise regularly to not be fit",
+      "Exercise regularly to stay fit",
+      "Exercise regularly, hence you will not be fit",
+      "Exercise regularly. You will not be fit"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Exercise regularly to stay fit\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "sentence-transformation"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-049",
+    "subject": "english",
+    "topic": "sentence-transformation",
+    "topicLabel": "Sentence Transformation",
+    "difficulty": "medium",
+    "question": "The girl in the red dress is singing (To Complex)",
+    "options": [
+      "The girl who is wearing the red dress is singing",
+      "The girl is in the red dress. She is singing",
+      "The girl is in the red dress, yet she is singing",
+      "The singing girl is wearing the red dress"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"The girl who is wearing the red dress is singing\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "sentence-transformation"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-050",
+    "subject": "english",
+    "topic": "sentence-transformation",
+    "topicLabel": "Sentence Transformation",
+    "difficulty": "medium",
+    "question": "She studied hard, and she passed the exam (To Complex)",
+    "options": [
+      "She studied hard, passing the exam",
+      "She passed the exam to study hard",
+      "Passing the exam, she studied hard",
+      "She studied hard which enabled her to pass the exam"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"She studied hard which enabled her to pass the exam\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "sentence-transformation"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-051",
+    "subject": "english",
+    "topic": "sentence-synthesis",
+    "topicLabel": "Sentence Synthesis",
+    "difficulty": "medium",
+    "question": "It is well-known that she is brilliant (Use a Noun)",
+    "options": [
+      "It is well known that she is a brilliant girl",
+      "Her brilliance is well-known",
+      "She is brilliantly",
+      "Her brilliancy is well-known"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Her brilliance is well-known\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "sentence-synthesis"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-052",
+    "subject": "english",
+    "topic": "sentence-synthesis",
+    "topicLabel": "Sentence Synthesis",
+    "difficulty": "medium",
+    "question": "Her love for her husband was made strong by his kindness (Use a Verb)",
+    "options": [
+      "Her love for her husband was strengthened by his kindness",
+      "Her love for her husband was given strength by his kindness",
+      "She strongly loved her husband for his kindness",
+      "Her love for her husband was strong because of his kindness"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Her love for her husband was strengthened by his kindness\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "sentence-synthesis"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-053",
+    "subject": "english",
+    "topic": "sentence-synthesis",
+    "topicLabel": "Sentence Synthesis",
+    "difficulty": "medium",
+    "question": "The rose is the loveliest flower (To Positive degree)",
+    "options": [
+      "The rose is a lovely flower",
+      "The rose is lovelier than any flower",
+      "No other flower is as lovely as the rose",
+      "The rose is a lovely flower than any other flower"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"No other flower is as lovely as the rose\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "sentence-synthesis"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-054",
+    "subject": "english",
+    "topic": "sentence-synthesis",
+    "topicLabel": "Sentence Synthesis",
+    "difficulty": "medium",
+    "question": "Para is the most courageous soldier in the regiment. (To Comparative Degree)",
+    "options": [
+      "Para is more courageous than any other soldier in the regiment",
+      "Para is courageouser than any other soldier in the regiment",
+      "No other soldier in the regiment is as courageous as Para",
+      "Para is the more courageous soldier in the regiment"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Para is more courageous than any other soldier in the regiment\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "sentence-synthesis"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-055",
+    "subject": "english",
+    "topic": "sentence-synthesis",
+    "topicLabel": "Sentence Synthesis",
+    "difficulty": "medium",
+    "question": "She is too vain to notice her own faults (Remove Too)",
+    "options": [
+      "She is vain to notice her own faults",
+      "She is vain and noticed her own faults",
+      "She is so vain to notice her own faults",
+      "She is so vain that she cannot notice her own faults"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"She is so vain that she cannot notice her own faults\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "sentence-synthesis"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-056",
+    "subject": "english",
+    "topic": "sentence-synthesis",
+    "topicLabel": "Sentence Synthesis",
+    "difficulty": "hard",
+    "question": "I was not sure of his loyalty (To Affirmative)",
+    "options": [
+      "I was sure of his loyalty",
+      "I was sure of his disloyalty",
+      "I was ensured of his loyalty",
+      "I was doubtful of his loyalty"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"I was doubtful of his loyalty\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "sentence-synthesis"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-057",
+    "subject": "english",
+    "topic": "sentence-synthesis",
+    "topicLabel": "Sentence Synthesis",
+    "difficulty": "hard",
+    "question": "While she is beautiful, I disapprove of her cruelty (To Negative)",
+    "options": [
+      "While she is beautiful, I do not disdain her cruelty",
+      "While she is beautiful, I do not affirm her cruelty",
+      "While she is beautiful, I do not admire her cruelty",
+      "While she is beautiful, I do not deplore her cruelty"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"While she is beautiful, I do not admire her cruelty\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "sentence-synthesis"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-058",
+    "subject": "english",
+    "topic": "sentence-synthesis",
+    "topicLabel": "Sentence Synthesis",
+    "difficulty": "medium",
+    "question": "Her beauty is so great that I cannot speak to her properly (Use Adjective)",
+    "options": [
+      "Her beautifulness is so great that I cannot speak to her properly",
+      "She is so beautiful that I cannot speak to her properly",
+      "I cannot speak properly to her because of her beautiful",
+      "She is such a great beaut that I cannot speak to her properly"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"She is so beautiful that I cannot speak to her properly\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "sentence-synthesis"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-059",
+    "subject": "english",
+    "topic": "sentence-synthesis",
+    "topicLabel": "Sentence Synthesis",
+    "difficulty": "medium",
+    "question": "She has not been questioned by anyone, (To Interrogative)",
+    "options": [
+      "How is she not questioned by anyone?",
+      "She has not been questioned by anyone?",
+      "Has she not been questioned by anyone?",
+      "Why has she not been questioned by anyone"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Has she not been questioned by anyone?\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "sentence-synthesis"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-060",
+    "subject": "english",
+    "topic": "sentence-synthesis",
+    "topicLabel": "Sentence Synthesis",
+    "difficulty": "medium",
+    "question": "He is so loud that I cannot endure him (Use 'too')",
+    "options": [
+      "He is too loud I cannot endure him",
+      "He is so loud that I cannot endure him too",
+      "He is too loud to be endured",
+      "He too is loud to be endured"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"He is too loud to be endured\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "sentence-synthesis"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-061",
+    "subject": "english",
+    "topic": "sentence-synthesis",
+    "topicLabel": "Sentence Synthesis",
+    "difficulty": "medium",
+    "question": "You will be late for school. You walk too slowly. (Use 'if')",
+    "options": [
+      "If you will be late for school, you walk too slowly",
+      "You will be late for school if you walk too slowly",
+      "You walk too slowly if you will be late for school",
+      "If you walk too slowly, if you will be late for school"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"You will be late for school if you walk too slowly\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "sentence-synthesis"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-062",
+    "subject": "english",
+    "topic": "sentence-synthesis",
+    "topicLabel": "Sentence Synthesis",
+    "difficulty": "medium",
+    "question": "I want to see her. I want to tell her that I am sorry. (Use Infinitive)",
+    "options": [
+      "I want to see her to tell her that I am sorry",
+      "I want to see her as I want to tell her that I am sorry",
+      "I want to see her and tell her that I am sorry",
+      "I want to see her so that I can tell her that I am sorry"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"I want to see her to tell her that I am sorry\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "sentence-synthesis"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-063",
+    "subject": "english",
+    "topic": "sentence-synthesis",
+    "topicLabel": "Sentence Synthesis",
+    "difficulty": "medium",
+    "question": "Mary is our new nurse. She is a pretty girl. (Use Noun phrase in apposition)",
+    "options": [
+      "Mary is a pretty girl who is our new nurse",
+      "Mary is our new nurse as well as a pretty girl",
+      "Mary is not only a nurse but also a pretty girl",
+      "Mary, a pretty girl, is our new nurse"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"Mary, a pretty girl, is our new nurse\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "sentence-synthesis"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-064",
+    "subject": "english",
+    "topic": "sentence-synthesis",
+    "topicLabel": "Sentence Synthesis",
+    "difficulty": "medium",
+    "question": "He has done the work. He is very slow. (Use an Adverb)",
+    "options": [
+      "He has done the work in a slow manner",
+      "He has done the work with slowness",
+      "He has done the work in a slowy manner",
+      "He has done the work slowly"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"He has done the work slowly\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "sentence-synthesis"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-065",
+    "subject": "english",
+    "topic": "sentence-synthesis",
+    "topicLabel": "Sentence Synthesis",
+    "difficulty": "medium",
+    "question": "He is so anxious. It is affecting everyone. (Use a Noun)",
+    "options": [
+      "He is so anxious that it is affecting everyone",
+      "His anxiety is affecting everyone",
+      "Everyone is affected by his anxiousness",
+      "Everyone is affected by his anxious manner"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"His anxiety is affecting everyone\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "sentence-synthesis"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-066",
+    "subject": "english",
+    "topic": "sentence-synthesis",
+    "topicLabel": "Sentence Synthesis",
+    "difficulty": "medium",
+    "question": "I removed my coat. I started to eat dinner. (Use Participial Phrase)",
+    "options": [
+      "Removing my coat, I started to eat dinner",
+      "I, my coat removed, started to eat dinner",
+      "I removed my coat, starting to eat dinner",
+      "I started to eat dinner as soon as I removed my coat"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Removing my coat, I started to eat dinner\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "sentence-synthesis"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-067",
+    "subject": "english",
+    "topic": "sentence-synthesis",
+    "topicLabel": "Sentence Synthesis",
+    "difficulty": "medium",
+    "question": "The teachers like Tim. He always does well. (Use Adverb Clause)",
+    "options": [
+      "The teachers like Tom, having done well",
+      "Doing well, the teachers like Tim",
+      "The teachers like Tim since he always does well",
+      "Tim, doing well, is liked by the teachers"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"The teachers like Tim since he always does well\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "sentence-synthesis"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-068",
+    "subject": "english",
+    "topic": "sentence-synthesis",
+    "topicLabel": "Sentence Synthesis",
+    "difficulty": "medium",
+    "question": "It is so cold. I cannot bear it. (Use 'too')",
+    "options": [
+      "It is too cold that I cannot bear it",
+      "It is too cold to bear it",
+      "It is too cold, I cannot bear it",
+      "I cannot bear it too cold"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"It is too cold to bear it\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "sentence-synthesis"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-069",
+    "subject": "english",
+    "topic": "sentence-synthesis",
+    "topicLabel": "Sentence Synthesis",
+    "difficulty": "medium",
+    "question": "She was rude. She was honest. (Use Although)",
+    "options": [
+      "She was rude although she was honest",
+      "Although she was rude and honest",
+      "She was rude and honest although",
+      "Although she was rude, she was honest"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"Although she was rude, she was honest\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "sentence-synthesis"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-070",
+    "subject": "english",
+    "topic": "sentence-synthesis",
+    "topicLabel": "Sentence Synthesis",
+    "difficulty": "medium",
+    "question": "What she had done was enormous. It shocked everyone. (Use a Noun)",
+    "options": [
+      "The enormity of what she had done shocked everyone",
+      "What she had done was so enormous that it shocked everyone",
+      "The enormousity of what she had done shocked everyone",
+      "The enomourness of what she had done shocked everyone"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"The enormity of what she had done shocked everyone\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "sentence-synthesis"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-071",
+    "subject": "english",
+    "topic": "idioms",
+    "topicLabel": "Idioms & Phrases",
+    "difficulty": "easy",
+    "question": "Up in arms",
+    "options": [
+      "being angry about something",
+      "preparing to do something",
+      "to console someone",
+      "to share a secret"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"being angry about something\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "idioms"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-072",
+    "subject": "english",
+    "topic": "idioms",
+    "topicLabel": "Idioms & Phrases",
+    "difficulty": "easy",
+    "question": "Hit the sack",
+    "options": [
+      "to train for a sport",
+      "to dismiss someone",
+      "to die",
+      "to go to sleep"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"to go to sleep\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "idioms"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-073",
+    "subject": "english",
+    "topic": "idioms",
+    "topicLabel": "Idioms & Phrases",
+    "difficulty": "medium",
+    "question": "Twist someone's arm",
+    "options": [
+      "to convince someone to do something they would not have done otherwise",
+      "to tell someone a lie",
+      "to pretend to befriend someone only to betray them",
+      "to go on a long journey"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"to convince someone to do something they would not have done otherwise\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "idioms"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-074",
+    "subject": "english",
+    "topic": "idioms",
+    "topicLabel": "Idioms & Phrases",
+    "difficulty": "easy",
+    "question": "To lose one's touch",
+    "options": [
+      "to miss somebody",
+      "to lose one's fortune",
+      "to lose a skill you once had",
+      "to no longer keep in contact with someone"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"to lose a skill you once had\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "idioms"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-075",
+    "subject": "english",
+    "topic": "idioms",
+    "topicLabel": "Idioms & Phrases",
+    "difficulty": "easy",
+    "question": "To cut to the chase",
+    "options": [
+      "to become sad",
+      "to slow down",
+      "to get to the point",
+      "to lighten a situation"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"to get to the point\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "idioms"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-076",
+    "subject": "english",
+    "topic": "idioms",
+    "topicLabel": "Idioms & Phrases",
+    "difficulty": "medium",
+    "question": "To get over something",
+    "options": [
+      "to fool someone",
+      "to become unaffected by something",
+      "to collect things",
+      "to quit a bad habit"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"to become unaffected by something\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "idioms"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-077",
+    "subject": "english",
+    "topic": "idioms",
+    "topicLabel": "Idioms & Phrases",
+    "difficulty": "medium",
+    "question": "To be over the hill",
+    "options": [
+      "to solve a problem",
+      "to disagree with someone",
+      "to move from one place to another",
+      "to become old and past one's best"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"to become old and past one's best\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "idioms"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-078",
+    "subject": "english",
+    "topic": "idioms",
+    "topicLabel": "Idioms & Phrases",
+    "difficulty": "medium",
+    "question": "To have sticky fingers",
+    "options": [
+      "to be dirty",
+      "to eat a lot",
+      "to tend to steal things",
+      "to be multi-talented"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"to tend to steal things\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "idioms"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-079",
+    "subject": "english",
+    "topic": "idioms",
+    "topicLabel": "Idioms & Phrases",
+    "difficulty": "medium",
+    "question": "To be close-fisted",
+    "options": [
+      "to be stingy with money",
+      "to be a violent person",
+      "to have many close friends",
+      "to not reveal your secrets"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"to be stingy with money\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "idioms"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-080",
+    "subject": "english",
+    "topic": "idioms",
+    "topicLabel": "Idioms & Phrases",
+    "difficulty": "medium",
+    "question": "To be loaded",
+    "options": [
+      "to be always ready and alert",
+      "to struggle with money",
+      "to be a genuine person",
+      "to have a lot of money"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"to have a lot of money\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "idioms"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-081",
+    "subject": "english",
+    "topic": "antonyms",
+    "topicLabel": "Antonyms",
+    "difficulty": "medium",
+    "question": "Give the Antonym: Eternal",
+    "options": [
+      "internal",
+      "ephemeral",
+      "incessant",
+      "permanent"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"ephemeral\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "antonyms"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-082",
+    "subject": "english",
+    "topic": "antonyms",
+    "topicLabel": "Antonyms",
+    "difficulty": "easy",
+    "question": "Give the Antonym: Permissive",
+    "options": [
+      "persuasive",
+      "optimist",
+      "strict",
+      "disregard"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"strict\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "antonyms"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-083",
+    "subject": "english",
+    "topic": "antonyms",
+    "topicLabel": "Antonyms",
+    "difficulty": "medium",
+    "question": "Give the Antonym: Obscure",
+    "options": [
+      "abstruse",
+      "well-known",
+      "obtuse",
+      "well-liked"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"well-known\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "antonyms"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-084",
+    "subject": "english",
+    "topic": "antonyms",
+    "topicLabel": "Antonyms",
+    "difficulty": "medium",
+    "question": "Give the Antonym: Talented",
+    "options": [
+      "instant",
+      "lazy",
+      "skillful",
+      "inept"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"inept\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "antonyms"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-085",
+    "subject": "english",
+    "topic": "antonyms",
+    "topicLabel": "Antonyms",
+    "difficulty": "medium",
+    "question": "Give the Antonym: Defensive",
+    "options": [
+      "attacking",
+      "pensive",
+      "protective",
+      "thoughtful"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"attacking\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "antonyms"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-086",
+    "subject": "english",
+    "topic": "antonyms",
+    "topicLabel": "Antonyms",
+    "difficulty": "medium",
+    "question": "Give the Antonym: Acknowledge",
+    "options": [
+      "select",
+      "smart",
+      "choose",
+      "ignore"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"ignore\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "antonyms"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-087",
+    "subject": "english",
+    "topic": "antonyms",
+    "topicLabel": "Antonyms",
+    "difficulty": "medium",
+    "question": "Give the Antonym: Subtle",
+    "options": [
+      "quiet",
+      "inimal",
+      "obvious",
+      "optimum"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"obvious\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "antonyms"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-088",
+    "subject": "english",
+    "topic": "synonyms",
+    "topicLabel": "Synonyms",
+    "difficulty": "medium",
+    "question": "Give the Synonym: Escalate",
+    "options": [
+      "soar",
+      "high",
+      "plummet",
+      "low"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"soar\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "synonyms"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-089",
+    "subject": "english",
+    "topic": "synonyms",
+    "topicLabel": "Synonyms",
+    "difficulty": "easy",
+    "question": "Give the Synonym: Miniature",
+    "options": [
+      "tiny",
+      "maximum",
+      "minimum",
+      "large"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"tiny\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "synonyms"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-090",
+    "subject": "english",
+    "topic": "synonyms",
+    "topicLabel": "Synonyms",
+    "difficulty": "easy",
+    "question": "Give the Synonym: Lethal",
+    "options": [
+      "legal",
+      "fine",
+      "deadly",
+      "coarse"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"deadly\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "synonyms"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-091",
+    "subject": "english",
+    "topic": "synonyms",
+    "topicLabel": "Synonyms",
+    "difficulty": "medium",
+    "question": "Give the Synonym: Benevolent",
+    "options": [
+      "cruel",
+      "intelligent",
+      "insane",
+      "kind"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"kind\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "synonyms"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-092",
+    "subject": "english",
+    "topic": "synonyms",
+    "topicLabel": "Synonyms",
+    "difficulty": "medium",
+    "question": "Give the Synonym: Nimble",
+    "options": [
+      "clumsy",
+      "small",
+      "agile",
+      "enormous"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"agile\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "synonyms"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-093",
+    "subject": "english",
+    "topic": "synonyms",
+    "topicLabel": "Synonyms",
+    "difficulty": "medium",
+    "question": "Give the Synonym: Gregarious",
+    "options": [
+      "beautiful",
+      "rude",
+      "ugly",
+      "sociable"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"sociable\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "synonyms"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-094",
+    "subject": "english",
+    "topic": "synonyms",
+    "topicLabel": "Synonyms",
+    "difficulty": "easy",
+    "question": "Give the Synonym: Brutal",
+    "options": [
+      "peaceful",
+      "violent",
+      "strong",
+      "weak"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"violent\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "synonyms"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-095",
+    "subject": "english",
+    "topic": "one-word-substitution",
+    "topicLabel": "One-Word Substitution",
+    "difficulty": "medium",
+    "question": "Something that can have more than one interpretation or meaning",
+    "options": [
+      "unequivocal",
+      "atrocious",
+      "ambiguous",
+      "unilateral"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"ambiguous\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "one-word-substitution"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-096",
+    "subject": "english",
+    "topic": "one-word-substitution",
+    "topicLabel": "One-Word Substitution",
+    "difficulty": "easy",
+    "question": "Someone who tends to be hopeful and confident about the future",
+    "options": [
+      "optimist",
+      "pessimist",
+      "optometrist",
+      "pacifist"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"optimist\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "one-word-substitution"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-097",
+    "subject": "english",
+    "topic": "one-word-substitution",
+    "topicLabel": "One-Word Substitution",
+    "difficulty": "medium",
+    "question": "Not clear enough to be read",
+    "options": [
+      "edible",
+      "illegible",
+      "legible",
+      "inedible"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"illegible\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "one-word-substitution"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-098",
+    "subject": "english",
+    "topic": "one-word-substitution",
+    "topicLabel": "One-Word Substitution",
+    "difficulty": "easy",
+    "question": "A cruel and oppressive government or rule",
+    "options": [
+      "regency",
+      "tyranny",
+      "patriarchy",
+      "regime"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"tyranny\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "one-word-substitution"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-099",
+    "subject": "english",
+    "topic": "one-word-substitution",
+    "topicLabel": "One-Word Substitution",
+    "difficulty": "medium",
+    "question": "A group of people sharing a common profession or interests",
+    "options": [
+      "fidelity",
+      "congregation",
+      "conflagration",
+      "fraternity"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"fraternity\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "one-word-substitution"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jrmhs-ge2-100",
+    "subject": "english",
+    "topic": "one-word-substitution",
+    "topicLabel": "One-Word Substitution",
+    "difficulty": "easy",
+    "question": "No longer produced or used, out of date",
+    "options": [
+      "absolute",
+      "delete",
+      "obsolete",
+      "deflate"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"obsolete\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2023,
+    "tags": [
+      "one-word-substitution"
+    ],
+    "paperId": "mpsc-direct-2023-jr-grade-mhs-general-english-paper-2"
   }
 ];

@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-07-18",
+  "source": {
+    "videoId": "fixture-20260718",
+    "videoTitle": "18 July 2026 Current Affairs",
+    "channelId": "UCfixturechannel",
+    "channelName": "Daily CA Digest",
+    "videoUrl": "https://www.youtube.com/watch?v=fixture-20260718",
+    "publishedAt": "2026-07-18T04:30:00Z"
+  },
+  "summary": "India inaugurated a new AI-focused special economic zone, the RBI held its bi-monthly monetary policy review, and the Ministry of Environment added two new wetlands to the Ramsar list. On the sports front, India retained the Asian Hockey Cup, and on defence, the Navy commissioned a new stealth frigate.",
+  "keyFacts": [
+    "The Nava Raipur AI SEZ was formally inaugurated, positioned as India's first AI-focused special economic zone.",
+    "RBI kept the repo rate unchanged at its bi-monthly review, citing stable inflation readings.",
+    "Two new wetlands were added to India's Ramsar list, taking the national total past 90 sites.",
+    "The Indian men's hockey team retained the Asian Hockey Cup, beating Korea in the final.",
+    "The Navy commissioned a new stealth frigate built under the indigenous P17A programme."
+  ],
+  "topics": ["Economy", "Environment", "Sports", "Defence"],
+  "mcqs": [
+    {
+      "id": "2026-07-18-q01",
+      "question": "India's first AI-focused special economic zone, inaugurated this week, is located at?",
+      "options": { "a": "Amaravati", "b": "Nava Raipur", "c": "GIFT City", "d": "Hyderabad" },
+      "correctAnswer": "b",
+      "explanation": "The AI SEZ was inaugurated at Nava Raipur, Chhattisgarh, marketed as India's first AI-dedicated SEZ.",
+      "difficulty": "easy",
+      "topic": "Economy"
+    },
+    {
+      "id": "2026-07-18-q02",
+      "question": "At its latest bi-monthly review, the RBI's Monetary Policy Committee?",
+      "options": { "a": "Cut the repo rate by 25 bps", "b": "Raised the repo rate by 50 bps", "c": "Kept the repo rate unchanged", "d": "Introduced a new policy rate" },
+      "correctAnswer": "c",
+      "explanation": "The MPC held the repo rate steady, citing inflation readings within the comfort band.",
+      "difficulty": "easy",
+      "topic": "Economy"
+    },
+    {
+      "id": "2026-07-18-q03",
+      "question": "The Ramsar Convention, under which India designates wetlands of international importance, was signed in which city?",
+      "options": { "a": "Ramsar, Iran", "b": "Geneva, Switzerland", "c": "Nairobi, Kenya", "d": "Bonn, Germany" },
+      "correctAnswer": "a",
+      "explanation": "The convention takes its name from the Iranian city of Ramsar, where it was signed in 1971.",
+      "difficulty": "medium",
+      "topic": "Environment"
+    },
+    {
+      "id": "2026-07-18-q04",
+      "question": "With this week's additions, India's total number of Ramsar sites crossed?",
+      "options": { "a": "50", "b": "70", "c": "90", "d": "120" },
+      "correctAnswer": "c",
+      "explanation": "The two new additions took India's Ramsar site count past 90.",
+      "difficulty": "medium",
+      "topic": "Environment"
+    },
+    {
+      "id": "2026-07-18-q05",
+      "question": "India retained the Asian Hockey Cup this week by beating which team in the final?",
+      "options": { "a": "Pakistan", "b": "Japan", "c": "Korea", "d": "Malaysia" },
+      "correctAnswer": "c",
+      "explanation": "India defeated Korea in the final to retain the title.",
+      "difficulty": "easy",
+      "topic": "Sports"
+    },
+    {
+      "id": "2026-07-18-q06",
+      "question": "The stealth frigate commissioned by the Navy this week was built under which indigenous programme?",
+      "options": { "a": "P15B", "b": "P17A", "c": "P28", "d": "P75I" },
+      "correctAnswer": "b",
+      "explanation": "The new frigate belongs to the P17A (Project 17 Alpha) class of indigenously built stealth frigates.",
+      "difficulty": "hard",
+      "topic": "Defence"
+    },
+    {
+      "id": "2026-07-18-q07",
+      "question": "A Special Economic Zone (SEZ) in India is primarily governed by which act?",
+      "options": { "a": "SEZ Act, 2005", "b": "FEMA, 1999", "c": "Companies Act, 2013", "d": "IT Act, 2000" },
+      "correctAnswer": "a",
+      "explanation": "SEZs in India are established and regulated under the Special Economic Zones Act, 2005.",
+      "difficulty": "medium",
+      "topic": "Economy"
+    },
+    {
+      "id": "2026-07-18-q08",
+      "question": "The RBI's Monetary Policy Committee has how many members?",
+      "options": { "a": "4", "b": "6", "c": "8", "d": "10" },
+      "correctAnswer": "b",
+      "explanation": "The MPC is a six-member body, three from the RBI and three external appointees.",
+      "difficulty": "medium",
+      "topic": "Economy"
+    },
+    {
+      "id": "2026-07-18-q09",
+      "question": "Which ministry maintains India's list of Ramsar-designated wetlands?",
+      "options": { "a": "Ministry of Jal Shakti", "b": "Ministry of Environment, Forest and Climate Change", "c": "Ministry of Earth Sciences", "d": "Ministry of Agriculture" },
+      "correctAnswer": "b",
+      "explanation": "Wetland designation and the Ramsar list in India fall under the Ministry of Environment, Forest and Climate Change.",
+      "difficulty": "easy",
+      "topic": "Environment"
+    },
+    {
+      "id": "2026-07-18-q10",
+      "question": "Stealth frigates are primarily designed to reduce a warship's?",
+      "options": { "a": "Fuel consumption", "b": "Radar cross-section", "c": "Crew requirement", "d": "Displacement" },
+      "correctAnswer": "b",
+      "explanation": "Stealth design in warships focuses on reducing radar cross-section and other detectable signatures.",
+      "difficulty": "medium",
+      "topic": "Defence"
+    },
+    {
+      "id": "2026-07-18-q11",
+      "question": "The Asian Hockey Federation, which conducts the Asian Hockey Cup, is headquartered in?",
+      "options": { "a": "New Delhi", "b": "Kuala Lumpur", "c": "Dhaka", "d": "Seoul" },
+      "correctAnswer": "b",
+      "explanation": "The Asian Hockey Federation is headquartered in Kuala Lumpur, Malaysia.",
+      "difficulty": "hard",
+      "topic": "Sports"
+    },
+    {
+      "id": "2026-07-18-q12",
+      "question": "Repo rate is best defined as the rate at which?",
+      "options": { "a": "Banks lend to each other overnight", "b": "The RBI lends short-term funds to commercial banks", "c": "Banks lend to retail customers", "d": "The government borrows from the RBI" },
+      "correctAnswer": "b",
+      "explanation": "Repo rate is the rate at which the RBI lends short-term funds to commercial banks against securities.",
+      "difficulty": "easy",
+      "topic": "Economy"
+    }
+  ]
+}

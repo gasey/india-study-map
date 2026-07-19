@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-07-19",
+  "source": {
+    "videoId": "fixture-20260719",
+    "videoTitle": "19 July 2026 Current Affairs",
+    "channelId": "UCfixturechannel",
+    "channelName": "Daily CA Digest",
+    "videoUrl": "https://www.youtube.com/watch?v=fixture-20260719",
+    "publishedAt": "2026-07-19T04:30:00Z"
+  },
+  "summary": "The Union Cabinet cleared a new critical minerals mission, ISRO announced the launch window for its next lunar sample-return study mission, and the 16th Finance Commission submitted its interim report. Internationally, a new UN report flagged rising sea-surface temperatures, and India signed a defence logistics pact with a partner nation.",
+  "keyFacts": [
+    "The Union Cabinet approved a National Critical Minerals Mission to secure supply chains for lithium, cobalt and rare earths.",
+    "ISRO confirmed the launch window for its next lunar exploration mission, building on the Chandrayaan series.",
+    "The 16th Finance Commission, chaired for devolution recommendations, submitted its interim report to the President.",
+    "A UN climate report flagged accelerating sea-surface temperature rise in the Indian Ocean region.",
+    "India signed a defence logistics-sharing agreement enabling reciprocal access to military facilities with a partner nation."
+  ],
+  "topics": ["Polity", "Science & Tech", "Economy", "Environment", "Defence"],
+  "mcqs": [
+    {
+      "id": "2026-07-19-q01",
+      "question": "The National Critical Minerals Mission approved this week primarily aims to secure supply chains for?",
+      "options": { "a": "Crude oil and natural gas", "b": "Lithium, cobalt and rare earths", "c": "Coal and iron ore", "d": "Foodgrains" },
+      "correctAnswer": "b",
+      "explanation": "The mission targets critical minerals such as lithium, cobalt and rare earth elements, key to electronics and clean-energy supply chains.",
+      "difficulty": "easy",
+      "topic": "Economy"
+    },
+    {
+      "id": "2026-07-19-q02",
+      "question": "ISRO's Chandrayaan missions are primarily focused on exploring which celestial body?",
+      "options": { "a": "Mars", "b": "The Moon", "c": "Venus", "d": "The Sun" },
+      "correctAnswer": "b",
+      "explanation": "The Chandrayaan series is India's lunar exploration programme.",
+      "difficulty": "easy",
+      "topic": "Science & Tech"
+    },
+    {
+      "id": "2026-07-19-q03",
+      "question": "Recommendations of the Finance Commission primarily concern?",
+      "options": { "a": "Distribution of tax revenue between Centre and States", "b": "Appointment of judges", "c": "Delimitation of constituencies", "d": "Foreign policy" },
+      "correctAnswer": "a",
+      "explanation": "The Finance Commission, under Article 280, recommends the distribution of net tax proceeds between the Centre and the States.",
+      "difficulty": "medium",
+      "topic": "Polity"
+    },
+    {
+      "id": "2026-07-19-q04",
+      "question": "The Finance Commission is constituted by the President under which Article of the Constitution?",
+      "options": { "a": "Article 275", "b": "Article 280", "c": "Article 356", "d": "Article 368" },
+      "correctAnswer": "b",
+      "explanation": "Article 280 provides for the constitution of the Finance Commission every five years.",
+      "difficulty": "hard",
+      "topic": "Polity"
+    },
+    {
+      "id": "2026-07-19-q05",
+      "question": "Rising sea-surface temperatures, as flagged in this week's UN report, most directly contribute to?",
+      "options": { "a": "Coral bleaching and stronger cyclones", "b": "Reduced monsoon rainfall only", "c": "Lower sea levels", "d": "Increased polar ice thickness" },
+      "correctAnswer": "a",
+      "explanation": "Warmer sea-surface temperatures are linked to coral bleaching events and intensified tropical cyclones.",
+      "difficulty": "medium",
+      "topic": "Environment"
+    },
+    {
+      "id": "2026-07-19-q06",
+      "question": "A defence logistics-sharing agreement between two countries typically enables?",
+      "options": { "a": "Joint currency issuance", "b": "Reciprocal access to military facilities for refuelling and repair", "c": "Merger of armed forces", "d": "Shared border patrols only" },
+      "correctAnswer": "b",
+      "explanation": "Such pacts (like India's LEMOA-type agreements) allow reciprocal logistics access — fuel, repair, replenishment — at each other's facilities.",
+      "difficulty": "medium",
+      "topic": "Defence"
+    },
+    {
+      "id": "2026-07-19-q07",
+      "question": "Rare earth elements are chiefly valued for their use in?",
+      "options": { "a": "Cement manufacturing", "b": "Magnets, electronics and clean-energy components", "c": "Textile dyeing", "d": "Paper production" },
+      "correctAnswer": "b",
+      "explanation": "Rare earths are critical inputs for permanent magnets, electronics, and clean-energy technologies like EV motors and wind turbines.",
+      "difficulty": "medium",
+      "topic": "Economy"
+    },
+    {
+      "id": "2026-07-19-q08",
+      "question": "India's lunar missions are launched from which spaceport?",
+      "options": { "a": "Sriharikota", "b": "Thumba", "c": "Bengaluru", "d": "Chandipur" },
+      "correctAnswer": "a",
+      "explanation": "India's orbital launches, including the Chandrayaan missions, take off from the Satish Dhawan Space Centre, Sriharikota.",
+      "difficulty": "easy",
+      "topic": "Science & Tech"
+    },
+    {
+      "id": "2026-07-19-q09",
+      "question": "The interim report of a Finance Commission is submitted to whom?",
+      "options": { "a": "The Prime Minister", "b": "The President", "c": "The Chief Justice of India", "d": "The Speaker of the Lok Sabha" },
+      "correctAnswer": "b",
+      "explanation": "Finance Commission reports, interim or final, are submitted to the President of India.",
+      "difficulty": "medium",
+      "topic": "Polity"
+    },
+    {
+      "id": "2026-07-19-q10",
+      "question": "Which UN body typically publishes assessments on ocean and sea-surface temperature trends?",
+      "options": { "a": "IPCC", "b": "UNESCO", "c": "WTO", "d": "UNHRC" },
+      "correctAnswer": "a",
+      "explanation": "The Intergovernmental Panel on Climate Change (IPCC) publishes assessment reports covering ocean warming trends.",
+      "difficulty": "hard",
+      "topic": "Environment"
+    },
+    {
+      "id": "2026-07-19-q11",
+      "question": "A 'critical mineral' is generally classified as such because it is?",
+      "options": { "a": "Economically important and has a high supply-chain risk", "b": "Radioactive", "c": "Found only in India", "d": "Used exclusively in jewellery" },
+      "correctAnswer": "a",
+      "explanation": "Critical minerals are defined by their economic importance combined with high risk of supply disruption.",
+      "difficulty": "medium",
+      "topic": "Economy"
+    },
+    {
+      "id": "2026-07-19-q12",
+      "question": "Devolution of taxes recommended by the Finance Commission is distributed among the States based on criteria that typically include?",
+      "options": { "a": "Population and income distance", "b": "Number of airports", "c": "Length of coastline only", "d": "Number of universities" },
+      "correctAnswer": "a",
+      "explanation": "Finance Commission devolution formulas commonly weigh population, income distance, area, forest cover and demographic performance.",
+      "difficulty": "hard",
+      "topic": "Polity"
+    },
+    {
+      "id": "2026-07-19-q13",
+      "question": "Sample-return missions, as opposed to orbiter/lander missions, are distinguished by their goal to?",
+      "options": { "a": "Only photograph the surface", "b": "Physically bring surface material back to Earth for study", "c": "Establish a permanent base", "d": "Broadcast live video" },
+      "correctAnswer": "b",
+      "explanation": "A sample-return mission's defining goal is retrieving physical material from the target body back to Earth.",
+      "difficulty": "medium",
+      "topic": "Science & Tech"
+    }
+  ]
+}

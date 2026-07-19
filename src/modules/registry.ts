@@ -113,6 +113,13 @@ export const modules: AppModule[] = [
     kind: 'route',
     path: '/timeline',
   },
-  // Future examples — flip comingSoon off when built:
-  // { id: 'ca', title: 'Current Affairs', tagline: 'Monthly CA digests + quizzes', glyph: '📰', kind: 'route', path: '/current-affairs', comingSoon: true },
+  {
+    id: 'ca',
+    title: 'Current Affairs',
+    category: 'Practice',
+    tagline: 'Daily MCQ quiz — summary, key facts, topic breakdown',
+    glyph: '📰',
+    kind: 'route',
+    path: '/current-affairs',
+  },
 ];

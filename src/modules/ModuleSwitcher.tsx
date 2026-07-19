@@ -9,7 +9,9 @@ export function ModuleSwitcher() {
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
   const loc = useLocation();
-  const current = modules.find((m) => m.kind === 'route' && m.path === loc.pathname) ?? modules[0];
+  const current =
+    modules.find((m) => m.kind === 'route' && (m.path === loc.pathname || loc.pathname.startsWith(`${m.path}/`))) ??
+    modules[0];
 
   useEffect(() => {
     const onDoc = (e: MouseEvent) => {
@@ -51,7 +53,7 @@ export function ModuleSwitcher() {
                   {cat}
                 </div>
                 {group.map((m) => {
-            const active = m.kind === 'route' && m.path === loc.pathname;
+            const active = m.kind === 'route' && (m.path === loc.pathname || loc.pathname.startsWith(`${m.path}/`));
             const inner = (
               <div className="flex items-start gap-2.5 px-3 py-2.5 hover:bg-[var(--bg-panel-elev)] transition-colors">
                 <span className="text-lg leading-none mt-0.5">{m.glyph}</span>

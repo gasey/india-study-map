@@ -31,6 +31,14 @@ interface BankProgress {
   mastered: string[];
 }
 
+/** Best completed attempt for one Current Affairs quiz day, keyed by date. */
+interface CaAttempt {
+  score: number;
+  total: number;
+  answeredAt: number;
+  answers: Record<string, 'a' | 'b' | 'c' | 'd'>;
+}
+
 export type ChronicleTrackMode = 'both' | 'history' | 'polity';
 
 /** Chronicle module — master timeline. */
@@ -59,6 +67,8 @@ export interface AppState {
   bankProgress: Record<string, BankProgress>;
   /** keyed by deck id — Flashcards module. */
   deckProgress: Record<string, DeckProgress>;
+  /** keyed by quiz date (YYYY-MM-DD) — Current Affairs module. */
+  caAttempts: Record<string, CaAttempt>;
   eventIndex: number;
   /** Global basemap override — null = use each chapter's own choice. */
   basemapOverride: string | null;
@@ -79,6 +89,7 @@ export interface AppState {
   resetBankProgress: (bankId: string) => void;
   markCard: (deckId: string, cardId: string, known: boolean) => void;
   resetDeckProgress: (deckId: string) => void;
+  recordCaAttempt: (date: string, result: CaAttempt) => void;
   setEventIndex: (idx: number) => void;
   setBasemapOverride: (id: string | null) => void;
   setChronicleNote: (entryId: string, text: string) => void;
@@ -107,6 +118,7 @@ export const useApp = create<AppState>()(
       progress: {},
       bankProgress: {},
       deckProgress: {},
+      caAttempts: {},
       eventIndex: -1,
       basemapOverride: null,
       chronicle: { notes: {}, viewport: null, trackMode: 'both', importanceCeiling: 5, heat: false },
@@ -210,6 +222,13 @@ export const useApp = create<AppState>()(
           const { [deckId]: _drop, ...rest } = s.deckProgress;
           return { deckProgress: rest };
         }),
+
+      recordCaAttempt: (date, result) =>
+        set((s) => {
+          const prev = s.caAttempts[date];
+          const next = prev && prev.score >= result.score ? prev : result;
+          return { caAttempts: { ...s.caAttempts, [date]: next } };
+        }),
     }),
     {
       name: 'india-study-map',
@@ -219,6 +238,7 @@ export const useApp = create<AppState>()(
         progress: s.progress,
         bankProgress: s.bankProgress,
         deckProgress: s.deckProgress,
+        caAttempts: s.caAttempts,
         activeBaseLayerIds: s.activeBaseLayerIds,
         basemapOverride: s.basemapOverride,
         currentChapterId: s.currentChapterId,

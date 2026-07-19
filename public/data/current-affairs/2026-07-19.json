@@ -2,139 +2,243 @@
   "schemaVersion": 1,
   "date": "2026-07-19",
   "source": {
-    "videoId": "fixture-20260719",
-    "videoTitle": "19 July 2026 Current Affairs",
-    "channelId": "UCfixturechannel",
-    "channelName": "Daily CA Digest",
-    "videoUrl": "https://www.youtube.com/watch?v=fixture-20260719",
-    "publishedAt": "2026-07-19T04:30:00Z"
+    "videoId": "uuPn7Jez7nw",
+    "videoTitle": "13-19 July 2026 Current Affairs 🔥 | Weekly MCQs | One Shot Revision | All Exams 2026",
+    "channelId": "UCI3bSml8bhxAsNHh-eQqJEQ",
+    "channelName": "Current Affairs Updated",
+    "videoUrl": "https://www.youtube.com/watch?v=uuPn7Jez7nw",
+    "publishedAt": "2026-07-19T00:30:06.000Z"
   },
-  "summary": "The Union Cabinet cleared a new critical minerals mission, ISRO announced the launch window for its next lunar sample-return study mission, and the 16th Finance Commission submitted its interim report. Internationally, a new UN report flagged rising sea-surface temperatures, and India signed a defence logistics pact with a partner nation.",
+  "summary": "This study material covers critical national and international developments from the second week of July 2026. Key announcements include the 72nd National Film Awards, where 'Article 370' and actor Yami Gautam won major accolades, alongside state-level schemes like the UP Mahila Udyam Nidhi Yojana and Delhi's Lakshmi Yojana. On the global stage, Andrew Burnham is set to succeed Keir Starmer as the Prime Minister of the United Kingdom. Environment and science developments highlight India's first national standards for mangrove restoration by BIS, the development of the nation's largest landslide warning system by IIT Mandi, and the return of the Indian Grey Hornbill to Gir National Park after six decades.",
   "keyFacts": [
-    "The Union Cabinet approved a National Critical Minerals Mission to secure supply chains for lithium, cobalt and rare earths.",
-    "ISRO confirmed the launch window for its next lunar exploration mission, building on the Chandrayaan series.",
-    "The 16th Finance Commission, chaired for devolution recommendations, submitted its interim report to the President.",
-    "A UN climate report flagged accelerating sea-surface temperature rise in the Indian Ocean region.",
-    "India signed a defence logistics-sharing agreement enabling reciprocal access to military facilities with a partner nation."
+    "Yami Gautam won the Best Actress award at the 72nd National Film Awards 2026 for her role in the film Article 370.",
+    "The maximum collateral-free loan amount under the UP Mahila Udyam Nidhi Yojana 2026 is Rs 1 Lakh.",
+    "Andrew Burnham of the Labour Party is slated to succeed Starmer as the Prime Minister of the United Kingdom.",
+    "Aero India 2027, Asia's largest aerospace and defence exhibition, will be hosted in Bengaluru, Karnataka.",
+    "Sikkim tops the per capita income ranking of Indian states for 2026, while Bihar remains at the bottom.",
+    "IIT Mandi has developed India's largest landslide warning system.",
+    "The Bureau of Indian Standards (BIS) is preparing India's first National Standards for Mangrove Ecosystem Restoration.",
+    "The 31st Divya Kala Mela was inaugurated in Kolkata in July 2026.",
+    "Leprosy, caused by Mycobacterium leprae, has been declared a notifiable disease in Jammu and Kashmir."
   ],
-  "topics": ["Polity", "Science & Tech", "Economy", "Environment", "Defence"],
+  "topics": [
+    "Economy",
+    "Environment",
+    "Polity",
+    "Science and Technology",
+    "International Relations",
+    "Awards and Honours"
+  ],
   "mcqs": [
     {
       "id": "2026-07-19-q01",
-      "question": "The National Critical Minerals Mission approved this week primarily aims to secure supply chains for?",
-      "options": { "a": "Crude oil and natural gas", "b": "Lithium, cobalt and rare earths", "c": "Coal and iron ore", "d": "Foodgrains" },
-      "correctAnswer": "b",
-      "explanation": "The mission targets critical minerals such as lithium, cobalt and rare earth elements, key to electronics and clean-energy supply chains.",
+      "question": "At the 72nd National Film Awards 2026, which film was awarded the 'Best Feature Film' and also secured the Best Actress award for Yami Gautam?",
+      "options": {
+        "a": "Chandu Champion",
+        "b": "Kalki 2898 AD",
+        "c": "Article 370",
+        "d": "Maharaja"
+      },
+      "correctAnswer": "c",
+      "explanation": "At the 72nd National Film Awards 2026, the movie 'Article 370' won Best Feature Film, and its lead actress Yami Gautam won the Best Actress award.",
       "difficulty": "easy",
-      "topic": "Economy"
+      "topic": "Awards and Honours"
     },
     {
       "id": "2026-07-19-q02",
-      "question": "ISRO's Chandrayaan missions are primarily focused on exploring which celestial body?",
-      "options": { "a": "Mars", "b": "The Moon", "c": "Venus", "d": "The Sun" },
+      "question": "Under the UP Mahila Udyam Nidhi Yojana 2026, what is the maximum loan limit up to which female entrepreneurs are exempted from providing any collateral?",
+      "options": {
+        "a": "Rs 50,000",
+        "b": "Rs 1 Lakh",
+        "c": "Rs 2 Lakhs",
+        "d": "Rs 5 Lakhs"
+      },
       "correctAnswer": "b",
-      "explanation": "The Chandrayaan series is India's lunar exploration programme.",
-      "difficulty": "easy",
-      "topic": "Science & Tech"
+      "explanation": "Under the UP Mahila Udyam Nidhi Yojana, the loan range is from Rs 1,000 to Rs 1 lakh with a maximum interest rate of 4%. No collateral is required for loans up to Rs 1 lakh, but collateral is mandatory for amounts exceeding this limit.",
+      "difficulty": "medium",
+      "topic": "Economy"
     },
     {
       "id": "2026-07-19-q03",
-      "question": "Recommendations of the Finance Commission primarily concern?",
-      "options": { "a": "Distribution of tax revenue between Centre and States", "b": "Appointment of judges", "c": "Delimitation of constituencies", "d": "Foreign policy" },
-      "correctAnswer": "a",
-      "explanation": "The Finance Commission, under Article 280, recommends the distribution of net tax proceeds between the Centre and the States.",
+      "question": "Andrew Burnham, who is set to become the next Prime Minister of the United Kingdom succeeding Starmer, belongs to which political party?",
+      "options": {
+        "a": "Conservative Party",
+        "b": "Liberal Democrats",
+        "c": "Labour Party",
+        "d": "Scottish National Party"
+      },
+      "correctAnswer": "c",
+      "explanation": "Andrew Burnham belongs to the Labour Party and is set to succeed Keir Starmer as the Prime Minister of the United Kingdom.",
       "difficulty": "medium",
-      "topic": "Polity"
+      "topic": "International Relations"
     },
     {
       "id": "2026-07-19-q04",
-      "question": "The Finance Commission is constituted by the President under which Article of the Constitution?",
-      "options": { "a": "Article 275", "b": "Article 280", "c": "Article 356", "d": "Article 368" },
+      "question": "Which city has been designated to host Aero India 2027, Asia's largest aerospace and defence exhibition organized by the Ministry of Defence?",
+      "options": {
+        "a": "Hyderabad",
+        "b": "Bengaluru",
+        "c": "Gandhinagar",
+        "d": "New Delhi"
+      },
       "correctAnswer": "b",
-      "explanation": "Article 280 provides for the constitution of the Finance Commission every five years.",
-      "difficulty": "hard",
-      "topic": "Polity"
+      "explanation": "Aero India 2027 will be held in Bengaluru, Karnataka. It is recognized as Asia's largest aerospace and defence exhibition.",
+      "difficulty": "easy",
+      "topic": "Science and Technology"
     },
     {
       "id": "2026-07-19-q05",
-      "question": "Rising sea-surface temperatures, as flagged in this week's UN report, most directly contribute to?",
-      "options": { "a": "Coral bleaching and stronger cyclones", "b": "Reduced monsoon rainfall only", "c": "Lower sea levels", "d": "Increased polar ice thickness" },
-      "correctAnswer": "a",
-      "explanation": "Warmer sea-surface temperatures are linked to coral bleaching events and intensified tropical cyclones.",
+      "question": "According to the per capita income rankings of Indian states for 2026, which state holds the highest position, and which state is at the bottom?",
+      "options": {
+        "a": "Goa (Highest), Uttar Pradesh (Lowest)",
+        "b": "Sikkim (Highest), Bihar (Lowest)",
+        "c": "Sikkim (Highest), Jharkhand (Lowest)",
+        "d": "Delhi (Highest), Bihar (Lowest)"
+      },
+      "correctAnswer": "b",
+      "explanation": "Sikkim has the highest per capita income among Indian states, while Bihar remains at the bottom of the rankings.",
       "difficulty": "medium",
-      "topic": "Environment"
+      "topic": "Economy"
     },
     {
       "id": "2026-07-19-q06",
-      "question": "A defence logistics-sharing agreement between two countries typically enables?",
-      "options": { "a": "Joint currency issuance", "b": "Reciprocal access to military facilities for refuelling and repair", "c": "Merger of armed forces", "d": "Shared border patrols only" },
+      "question": "India's largest landslide warning system has been developed by which of the following institutions?",
+      "options": {
+        "a": "IIT Roorkee",
+        "b": "IIT Mandi",
+        "c": "IIT Bombay",
+        "d": "IISc Bengaluru"
+      },
       "correctAnswer": "b",
-      "explanation": "Such pacts (like India's LEMOA-type agreements) allow reciprocal logistics access — fuel, repair, replenishment — at each other's facilities.",
+      "explanation": "IIT Mandi has developed India's largest landslide warning system to monitor and predict landslide activities in vulnerable hilly terrains.",
       "difficulty": "medium",
-      "topic": "Defence"
+      "topic": "Science and Technology"
     },
     {
       "id": "2026-07-19-q07",
-      "question": "Rare earth elements are chiefly valued for their use in?",
-      "options": { "a": "Cement manufacturing", "b": "Magnets, electronics and clean-energy components", "c": "Textile dyeing", "d": "Paper production" },
+      "question": "Which city set a Guinness World Record in July 2026 by planting over 3.61 lakh saplings in a single hour using the Miyawaki method?",
+      "options": {
+        "a": "Indore",
+        "b": "Ahmedabad",
+        "c": "Surat",
+        "d": "Pune"
+      },
       "correctAnswer": "b",
-      "explanation": "Rare earths are critical inputs for permanent magnets, electronics, and clean-energy technologies like EV motors and wind turbines.",
-      "difficulty": "medium",
-      "topic": "Economy"
+      "explanation": "Ahmedabad created a Guinness World Record by planting over 3.61 lakh saplings in just one hour using the Japanese Miyawaki afforestation methodology.",
+      "difficulty": "easy",
+      "topic": "Environment"
     },
     {
       "id": "2026-07-19-q08",
-      "question": "India's lunar missions are launched from which spaceport?",
-      "options": { "a": "Sriharikota", "b": "Thumba", "c": "Bengaluru", "d": "Chandipur" },
-      "correctAnswer": "a",
-      "explanation": "India's orbital launches, including the Chandrayaan missions, take off from the Satish Dhawan Space Centre, Sriharikota.",
-      "difficulty": "easy",
-      "topic": "Science & Tech"
+      "question": "The 'e-SARAS' mobile application and portal, highlighted during the Digital India celebrations, is an official e-commerce platform run under which Union government scheme?",
+      "options": {
+        "a": "PM SVANidhi",
+        "b": "Deendayal Antyodaya Yojana - National Rural Livelihoods Mission (DAY-NRLM)",
+        "c": "Pradhan Mantri Jan Dhan Yojana",
+        "d": "Mahatma Gandhi National Rural Employment Guarantee Scheme (MGNREGS)"
+      },
+      "correctAnswer": "b",
+      "explanation": "e-SARAS is an e-commerce platform designed to market products made by self-help groups (SHGs). It operates under the Deendayal Antyodaya Yojana - National Rural Livelihoods Mission (DAY-NRLM).",
+      "difficulty": "hard",
+      "topic": "Economy"
     },
     {
       "id": "2026-07-19-q09",
-      "question": "The interim report of a Finance Commission is submitted to whom?",
-      "options": { "a": "The Prime Minister", "b": "The President", "c": "The Chief Justice of India", "d": "The Speaker of the Lok Sabha" },
+      "question": "Which organization is preparing India's first National Standards for Mangrove Ecosystem Restoration?",
+      "options": {
+        "a": "Wildlife Institute of India (WII)",
+        "b": "Bureau of Indian Standards (BIS)",
+        "c": "National Biodiversity Authority (NBA)",
+        "d": "Forest Survey of India (FSI)"
+      },
       "correctAnswer": "b",
-      "explanation": "Finance Commission reports, interim or final, are submitted to the President of India.",
+      "explanation": "The Bureau of Indian Standards (BIS) is formulating India's first-ever national standards for restoring and managing mangrove ecosystems.",
+      "difficulty": "medium",
+      "topic": "Environment"
+    },
+    {
+      "id": "2026-07-19-q10",
+      "question": "The Geographical Indication (GI) registry recently granted tags to 'Unjha Cumin' and 'Unjha Fennel'. Which Indian state are these products associated with?",
+      "options": {
+        "a": "Gujarat",
+        "b": "Rajasthan",
+        "c": "Madhya Pradesh",
+        "d": "Maharashtra"
+      },
+      "correctAnswer": "a",
+      "explanation": "Unjha Cumin (Jeera) and Unjha Fennel (Saunf) are premium agricultural products belonging to Gujarat that recently received the Geographical Indication (GI) tags in 2026.",
+      "difficulty": "easy",
+      "topic": "Economy"
+    },
+    {
+      "id": "2026-07-19-q11",
+      "question": "The Delhi Government has renamed its 'Mahila Samriddhi Yojana' to which of the following names, offering Rs 2500 per month to eligible beneficiaries?",
+      "options": {
+        "a": "Delhi Mahila Samman Scheme",
+        "b": "Delhi Lakshmi Yojana",
+        "c": "Laadli Behna Delhi Yojana",
+        "d": "Delhi Mahila Shakti Yojana"
+      },
+      "correctAnswer": "b",
+      "explanation": "The Delhi Government rebranded the Mahila Samriddhi Yojana as the Delhi Lakshmi Yojana, under which financial assistance of Rs 2500 per month is provided to eligible women.",
       "difficulty": "medium",
       "topic": "Polity"
     },
     {
-      "id": "2026-07-19-q10",
-      "question": "Which UN body typically publishes assessments on ocean and sea-surface temperature trends?",
-      "options": { "a": "IPCC", "b": "UNESCO", "c": "WTO", "d": "UNHRC" },
-      "correctAnswer": "a",
-      "explanation": "The Intergovernmental Panel on Climate Change (IPCC) publishes assessment reports covering ocean warming trends.",
+      "id": "2026-07-19-q12",
+      "question": "The Indian Grey Hornbill has returned to which of the following protected areas after a gap of more than 60 years?",
+      "options": {
+        "a": "Jim Corbett National Park, Uttarakhand",
+        "b": "Gir National Park, Gujarat",
+        "c": "Kanha National Park, Madhya Pradesh",
+        "d": "Kaziranga National Park, Assam"
+      },
+      "correctAnswer": "b",
+      "explanation": "The Indian Grey Hornbill was sighted again in the Gir National Park, Gujarat, after a prolonged absence of over six decades.",
       "difficulty": "hard",
       "topic": "Environment"
     },
     {
-      "id": "2026-07-19-q11",
-      "question": "A 'critical mineral' is generally classified as such because it is?",
-      "options": { "a": "Economically important and has a high supply-chain risk", "b": "Radioactive", "c": "Found only in India", "d": "Used exclusively in jewellery" },
-      "correctAnswer": "a",
-      "explanation": "Critical minerals are defined by their economic importance combined with high risk of supply disruption.",
-      "difficulty": "medium",
-      "topic": "Economy"
-    },
-    {
-      "id": "2026-07-19-q12",
-      "question": "Devolution of taxes recommended by the Finance Commission is distributed among the States based on criteria that typically include?",
-      "options": { "a": "Population and income distance", "b": "Number of airports", "c": "Length of coastline only", "d": "Number of universities" },
-      "correctAnswer": "a",
-      "explanation": "Finance Commission devolution formulas commonly weigh population, income distance, area, forest cover and demographic performance.",
-      "difficulty": "hard",
-      "topic": "Polity"
-    },
-    {
       "id": "2026-07-19-q13",
-      "question": "Sample-return missions, as opposed to orbiter/lander missions, are distinguished by their goal to?",
-      "options": { "a": "Only photograph the surface", "b": "Physically bring surface material back to Earth for study", "c": "Establish a permanent base", "d": "Broadcast live video" },
+      "question": "The India-UK Comprehensive Economic and Trade Agreement (CETA) came into official implementation on which date?",
+      "options": {
+        "a": "1st January 2026",
+        "b": "15th July 2026",
+        "c": "1st April 2026",
+        "d": "15th August 2026"
+      },
       "correctAnswer": "b",
-      "explanation": "A sample-return mission's defining goal is retrieving physical material from the target body back to Earth.",
+      "explanation": "The India-UK Comprehensive Economic and Trade Agreement (CETA) officially came into force on July 15, 2026.",
+      "difficulty": "hard",
+      "topic": "International Relations"
+    },
+    {
+      "id": "2026-07-19-q14",
+      "question": "India hosted the fifth meeting of the BIMSTEC National Security Chiefs in July 2026. Where is the permanent secretariat of BIMSTEC located?",
+      "options": {
+        "a": "New Delhi, India",
+        "b": "Kathmandu, Nepal",
+        "c": "Dhaka, Bangladesh",
+        "d": "Colombo, Sri Lanka"
+      },
+      "correctAnswer": "c",
+      "explanation": "While India hosted the 5th BIMSTEC National Security Chiefs meeting in New Delhi in July 2026, the permanent secretariat of BIMSTEC is located in Dhaka, Bangladesh.",
       "difficulty": "medium",
-      "topic": "Science & Tech"
+      "topic": "International Relations"
+    },
+    {
+      "id": "2026-07-19-q15",
+      "question": "Which disease, caused by the bacterium Mycobacterium leprae, was recently declared a 'notifiable disease' in the Union Territory of Jammu and Kashmir?",
+      "options": {
+        "a": "Tuberculosis",
+        "b": "Leprosy",
+        "c": "Cholera",
+        "d": "Brucellosis"
+      },
+      "correctAnswer": "b",
+      "explanation": "Leprosy, also historically known as Hansen's disease, is caused by Mycobacterium leprae and has been declared a notifiable disease in Jammu and Kashmir to ensure mandatory reporting of cases.",
+      "difficulty": "medium",
+      "topic": "Science and Technology"
     }
   ]
 }

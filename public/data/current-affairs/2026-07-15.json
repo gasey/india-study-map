@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-07-15",
+  "source": {
+    "videoId": "MQcNP-en3Fc",
+    "videoTitle": "15th July 2026 Current Affairs🔥 | Daily MCQs | Today’s Most Important MCQs #currentaffairs2026",
+    "channelId": "UCI3bSml8bhxAsNHh-eQqJEQ",
+    "channelName": "Current Affairs Updated",
+    "videoUrl": "https://www.youtube.com/watch?v=MQcNP-en3Fc",
+    "publishedAt": "2026-07-15T00:51:02.000Z"
+  },
+  "summary": "The current affairs of 15th July 2026 highlight key developments in regional agriculture, technology, space entrepreneurship, and public policy in India. Notable updates include Unja cumin and fennel from Gujarat receiving Geographic Indication (GI) tags under Class 30 Spices, and the training of over 4,500 volunteers in Gujarat under the NDMA's Yuva Aapda Mitra Scheme. In technology, the Ministry of Electronics and Information Technology launched Nidar 2.0 to promote autonomous drones with indigenous Vega processors, and Dhruv Space became the first recipient of the Antariksh Venture Capital Fund. Additionally, Uttarakhand opened its first GI Product Gallery in Haldwani, and Bihar initiated its subsidized heli-tourism services connecting Patna to selected religious and eco-tourism sites.",
+  "keyFacts": [
+    "Unja cumin and fennel of North Gujarat have been granted Geographical Indication (GI) certificates under Class 30 Spices.",
+    "The Yuva Aapda Mitra Scheme, launched by the National Disaster Management Authority (NDMA), aims to train community volunteers with a 50% target for women participation.",
+    "According to the WIPO-LUISE Business School's World Intangible Investment Report 2026, India recorded the fastest growth in intangible investments among the 15 largest global economies.",
+    "Nidar 2.0 (National Innovation Challenge for Drone Applications and Research) targets the integration of the indigenous Vega processor in autonomous drones.",
+    "Bharat Tex 2026, the largest global textile event in India, was hosted at Bharat Mandapam, New Delhi.",
+    "Dhruv Space is the first recipient of funding from the ₹1600-crore Antariksh Venture Capital Fund, which is managed by SIDBI Venture Capital Limited.",
+    "Uttarakhand's first GI Product Gallery showcasing over 30 products was inaugurated in Haldwani.",
+    "The Ladakh Administration announced plans to set up Autonomous Hill Development Councils across all seven newly designated districts of the Union Territory."
+  ],
+  "topics": [
+    "Governance",
+    "Economy",
+    "Science and Technology",
+    "Environment",
+    "Art and Culture",
+    "International Relations"
+  ],
+  "mcqs": [
+    {
+      "id": "2026-07-15-q01",
+      "question": "Which state's Unja cumin (jeera) and Unja fennel (variali) have recently been granted the Geographical Indication (GI) tag under the Nice Classification?",
+      "options": {
+        "a": "Rajasthan",
+        "b": "Gujarat",
+        "c": "Madhya Pradesh",
+        "d": "Uttar Pradesh"
+      },
+      "correctAnswer": "b",
+      "explanation": "Unja cumin and Unja fennel of North Gujarat received their GI tag certificates under Class 30 Spices. The registration was finalized in the name of the Unja Agriculture Produce Market Committee in Gujarat.",
+      "difficulty": "easy",
+      "topic": "Art and Culture"
+    },
+    {
+      "id": "2026-07-15-q02",
+      "question": "The 'Yuva Aapda Mitra Scheme' has been launched by which of the following organizations in India?",
+      "options": {
+        "a": "National Institute of Disaster Management (NIDM)",
+        "b": "National Disaster Management Authority (NDMA)",
+        "c": "Ministry of Youth Affairs and Sports",
+        "d": "Indian Red Cross Society"
+      },
+      "correctAnswer": "b",
+      "explanation": "The Yuva Aapda Mitra Scheme was launched by the National Disaster Management Authority (NDMA) to train community-based volunteers to manage and respond to disaster situations.",
+      "difficulty": "medium",
+      "topic": "Governance"
+    },
+    {
+      "id": "2026-07-15-q03",
+      "question": "Which of the following bodies collaborated with the World Intellectual Property Organization (WIPO) to release the World Intangible Investment Report 2026?",
+      "options": {
+        "a": "INSEAD Business School",
+        "b": "Luiss Business School",
+        "c": "London School of Economics",
+        "d": "Harvard Business School"
+      },
+      "correctAnswer": "b",
+      "explanation": "The World Intangible Investment Report 2026 was jointly released by the World Intellectual Property Organization (WIPO) and the Luiss Business School, showing India recording the fastest intangible investment growth among 15 major economies.",
+      "difficulty": "hard",
+      "topic": "Economy"
+    },
+    {
+      "id": "2026-07-15-q04",
+      "question": "Under the newly launched Nidar 2.0 initiative, which indigenous processor is aimed to be used to power autonomous drones?",
+      "options": {
+        "a": "Shakti",
+        "b": "Vega",
+        "c": "Trishul",
+        "d": "Dhruv"
+      },
+      "correctAnswer": "b",
+      "explanation": "Nidar 2.0 (National Innovation Challenge for Drone Applications and Research) aims to promote autonomous drones powered by the indigenous 'Vega' microprocessor developed in India.",
+      "difficulty": "medium",
+      "topic": "Science and Technology"
+    },
+    {
+      "id": "2026-07-15-q05",
+      "question": "Where is the 'Bharat Tex 2026' global textile event, organized by the Ministry of Textiles, hosted?",
+      "options": {
+        "a": "Gandhinagar",
+        "b": "Mumbai",
+        "c": "New Delhi",
+        "d": "Coimbatore"
+      },
+      "correctAnswer": "c",
+      "explanation": "Bharat Tex 2026, which is India's largest global textile event, was hosted at Bharat Mandapam in New Delhi from July 14 to July 17, 2026.",
+      "difficulty": "easy",
+      "topic": "Economy"
+    },
+    {
+      "id": "2026-07-15-q06",
+      "question": "Which space-tech startup has become the first to receive investment from India's Sovereign Space Tech Fund (Antariksh Venture Capital Fund)?",
+      "options": {
+        "a": "Skyroot Aerospace",
+        "b": "Pixxel",
+        "c": "Dhruv Space",
+        "d": "Agnikul Cosmos"
+      },
+      "correctAnswer": "c",
+      "explanation": "Hyderabad-based space-tech startup Dhruv Space has become the first company to receive a ₹60 crore investment from the Antariksh Venture Capital Fund, which has a total corpus of ₹1600 crore.",
+      "difficulty": "medium",
+      "topic": "Science and Technology"
+    },
+    {
+      "id": "2026-07-15-q07",
+      "question": "At which of the following places has Uttarakhand's first Geographical Indication (GI) Product Gallery been established?",
+      "options": {
+        "a": "Dehradun",
+        "b": "Haridwar",
+        "c": "Haldwani",
+        "d": "Rishikesh"
+      },
+      "correctAnswer": "c",
+      "explanation": "Uttarakhand's first GI Product Gallery has been established in Haldwani to showcase more than 30 geographical indication-tagged items representing agricultural and handicraft heritage.",
+      "difficulty": "easy",
+      "topic": "Art and Culture"
+    },
+    {
+      "id": "2026-07-15-q08",
+      "question": "Which of the following locations is NOT included in the first phase of Bihar's Chief Minister Heli Tourism and Air Tourism Service Scheme?",
+      "options": {
+        "a": "Rajgir",
+        "b": "Valmiki Nagar",
+        "c": "Maa Mundeshwari Temple (Kaimur)",
+        "d": "Bodhgaya"
+      },
+      "correctAnswer": "d",
+      "explanation": "The subsidized heli-tourism scheme launched by Bihar connects Patna to Rajgir, Valmiki Nagar, and Maa Mundeshwari Temple (Kaimur) in its first phase. Bodhgaya is not included in the first phase.",
+      "difficulty": "medium",
+      "topic": "Governance"
+    },
+    {
+      "id": "2026-07-15-q09",
+      "question": "The Ladakh Administration has decided to set up Autonomous Hill Development Councils in how many districts of the Union Territory?",
+      "options": {
+        "a": "Two",
+        "b": "Five",
+        "c": "Seven",
+        "d": "Nine"
+      },
+      "correctAnswer": "c",
+      "explanation": "The Ladakh administration decided to establish Autonomous Hill Development Councils in all of its 7 districts (including the newly created districts of Nabra, Sham, Changthang, Zaskar, and Dras, alongside Leh and Kargil).",
+      "difficulty": "medium",
+      "topic": "Polity"
+    },
+    {
+      "id": "2026-07-15-q10",
+      "question": "The Delhi Government has renamed the 'Mahila Samriddhi Yojana' to which of the following?",
+      "options": {
+        "a": "Delhi Mahila Samriddhi Scheme",
+        "b": "Delhi Lakshmi Yojana",
+        "c": "Delhi Ladli Behna Yojana",
+        "d": "Delhi Mahila Shakti Scheme"
+      },
+      "correctAnswer": "b",
+      "explanation": "The Delhi Government has renamed the Mahila Samriddhi Yojana to 'Delhi Lakshmi Yojana', under which eligible women will receive ₹2500 per month via Direct Benefit Transfer.",
+      "difficulty": "easy",
+      "topic": "Governance"
+    },
+    {
+      "id": "2026-07-15-q11",
+      "question": "Which of the following institutions hosted the 12th BRICS Labour and Employment Ministers' Meeting in India?",
+      "options": {
+        "a": "New Delhi",
+        "b": "Mumbai",
+        "c": "Bengaluru",
+        "d": "Hyderabad"
+      },
+      "correctAnswer": "d",
+      "explanation": "The 12th BRICS Labour and Employment Ministers' Meeting was hosted in Hyderabad under the chairmanship of India.",
+      "difficulty": "medium",
+      "topic": "International Relations"
+    },
+    {
+      "id": "2026-07-15-q12",
+      "question": "What is the total financial corpus of the Antariksh Venture Capital Fund, managed by SIDBI Venture Capital Limited?",
+      "options": {
+        "a": "₹500 crore",
+        "b": "₹1,000 crore",
+        "c": "₹1,200 crore",
+        "d": "₹1,600 crore"
+      },
+      "correctAnswer": "d",
+      "explanation": "The Antariksh Venture Capital Fund, anchored by IN-SPACe and managed by SIDBI Venture Capital Limited, has a total corpus of ₹1600 crore.",
+      "difficulty": "hard",
+      "topic": "Economy"
+    }
+  ]
+}

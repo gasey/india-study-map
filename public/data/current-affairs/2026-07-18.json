@@ -2,130 +2,212 @@
   "schemaVersion": 1,
   "date": "2026-07-18",
   "source": {
-    "videoId": "fixture-20260718",
-    "videoTitle": "18 July 2026 Current Affairs",
-    "channelId": "UCfixturechannel",
-    "channelName": "Daily CA Digest",
-    "videoUrl": "https://www.youtube.com/watch?v=fixture-20260718",
-    "publishedAt": "2026-07-18T04:30:00Z"
+    "videoId": "z_5_LXt6R2o",
+    "videoTitle": "18th July 2026 Current Affairs🔥 | Daily MCQs | Today’s Most Important MCQs #currentaffairs2026",
+    "channelId": "UCI3bSml8bhxAsNHh-eQqJEQ",
+    "channelName": "Current Affairs Updated",
+    "videoUrl": "https://www.youtube.com/watch?v=z_5_LXt6R2o",
+    "publishedAt": "2026-07-18T00:30:06.000Z"
   },
-  "summary": "India inaugurated a new AI-focused special economic zone, the RBI held its bi-monthly monetary policy review, and the Ministry of Environment added two new wetlands to the Ramsar list. On the sports front, India retained the Asian Hockey Cup, and on defence, the Navy commissioned a new stealth frigate.",
+  "summary": "The current affairs session of 18th July 2026 highlights major legislative proposals, infrastructure projects, and international collaborations in India. Key developments include a proposed amendment to the Prevention of Insults to National Honour Act to extend legal protection to the national song, Vande Mataram, and the approval of the second phase of the India Semiconductor Mission with a substantial budget outlay. Additionally, the Indian Navy is set to host 'Operation Southern Readiness 262' in Kochi, while the judiciary saw the inauguration of the Tower of Justice in Gurugram. Environmental and regional highlights include West Bengal's decision to reduce the eco-sensitive zone around Mahananda Wildlife Sanctuary and the official inclusion of Jammu & Kashmir's Bhairav Yatra in the national intangible cultural heritage list.",
   "keyFacts": [
-    "The Nava Raipur AI SEZ was formally inaugurated, positioned as India's first AI-focused special economic zone.",
-    "RBI kept the repo rate unchanged at its bi-monthly review, citing stable inflation readings.",
-    "Two new wetlands were added to India's Ramsar list, taking the national total past 90 sites.",
-    "The Indian men's hockey team retained the Asian Hockey Cup, beating Korea in the final.",
-    "The Navy commissioned a new stealth frigate built under the indigenous P17A programme."
+    "The Prevention of Insults to National Honour Amendment Bill 2026 proposes extending statutory protection to India's national song, Vande Mataram.",
+    "World Day for International Justice is observed annually on 17th July to mark the adoption of the Rome Statute which established the International Criminal Court.",
+    "The Indian Navy will host the multinational maritime training program, Operation Southern Readiness 262, in Kochi in partnership with the Combined Maritime Forces.",
+    "West Bengal government has proposed reducing the eco-sensitive zone around the Mahananda Wildlife Sanctuary from 5 km to 1 km.",
+    "The Tower of Justice was inaugurated in Gurugram to modernize India's administrative judicial infrastructure.",
+    "Six redeveloped railway stations in Kerala were modernized and inaugurated under the Amrit Bharat Station Scheme."
   ],
-  "topics": ["Economy", "Environment", "Sports", "Defence"],
+  "topics": [
+    "Polity and Governance",
+    "International Relations",
+    "Defense and Security",
+    "Environment and Ecology",
+    "Science and Technology",
+    "Infrastructure"
+  ],
   "mcqs": [
     {
       "id": "2026-07-18-q01",
-      "question": "India's first AI-focused special economic zone, inaugurated this week, is located at?",
-      "options": { "a": "Amaravati", "b": "Nava Raipur", "c": "GIFT City", "d": "Hyderabad" },
+      "question": "The proposed Prevention of Insults to National Honour Amendment Bill 2026 seeks to extend legal, statutory protection to which national symbol?",
+      "options": {
+        "a": "National Anthem",
+        "b": "Vande Mataram (National Song)",
+        "c": "National Emblem",
+        "d": "National Animal"
+      },
       "correctAnswer": "b",
-      "explanation": "The AI SEZ was inaugurated at Nava Raipur, Chhattisgarh, marketed as India's first AI-dedicated SEZ.",
-      "difficulty": "easy",
-      "topic": "Economy"
+      "explanation": "The proposed 2026 amendment seeks to extend the legal protection of the Prevention of Insults to National Honour Act 1971 to Vande Mataram, which is the national song of India. The national anthem, national flag, and constitution already have protection under the original act.",
+      "difficulty": "medium",
+      "topic": "Polity and Governance"
     },
     {
       "id": "2026-07-18-q02",
-      "question": "At its latest bi-monthly review, the RBI's Monetary Policy Committee?",
-      "options": { "a": "Cut the repo rate by 25 bps", "b": "Raised the repo rate by 50 bps", "c": "Kept the repo rate unchanged", "d": "Introduced a new policy rate" },
-      "correctAnswer": "c",
-      "explanation": "The MPC held the repo rate steady, citing inflation readings within the comfort band.",
+      "question": "Every year, the World Day for International Justice is celebrated on 17th July. This day marks the adoption of which landmark treaty?",
+      "options": {
+        "a": "Treaty of Versailles",
+        "b": "Rome Statute",
+        "c": "Geneva Convention",
+        "d": "Vienna Convention"
+      },
+      "correctAnswer": "b",
+      "explanation": "World Day for International Justice on 17th July commemorates the historic adoption of the Rome Statute on July 17, 1998, which established the International Criminal Court (ICC).",
       "difficulty": "easy",
-      "topic": "Economy"
+      "topic": "International Relations"
     },
     {
       "id": "2026-07-18-q03",
-      "question": "The Ramsar Convention, under which India designates wetlands of international importance, was signed in which city?",
-      "options": { "a": "Ramsar, Iran", "b": "Geneva, Switzerland", "c": "Nairobi, Kenya", "d": "Bonn, Germany" },
-      "correctAnswer": "a",
-      "explanation": "The convention takes its name from the Iranian city of Ramsar, where it was signed in 1971.",
+      "question": "Dr. Srinivasa Kumar Tummala has recently been appointed as the Secretary of which Union Ministry?",
+      "options": {
+        "a": "Ministry of Environment, Forest and Climate Change",
+        "b": "Ministry of Science and Technology",
+        "c": "Ministry of Earth Sciences",
+        "d": "Ministry of New and Renewable Energy"
+      },
+      "correctAnswer": "c",
+      "explanation": "Dr. Srinivasa Kumar Tummala has been appointed as the Secretary of the Ministry of Earth Sciences for a tenure of two years.",
       "difficulty": "medium",
-      "topic": "Environment"
+      "topic": "Polity and Governance"
     },
     {
       "id": "2026-07-18-q04",
-      "question": "With this week's additions, India's total number of Ramsar sites crossed?",
-      "options": { "a": "50", "b": "70", "c": "90", "d": "120" },
-      "correctAnswer": "c",
-      "explanation": "The two new additions took India's Ramsar site count past 90.",
-      "difficulty": "medium",
-      "topic": "Environment"
+      "question": "Which multinational maritime security organization is partnering with the Indian Navy to conduct the maritime training program 'Operation Southern Readiness 262' in Kochi?",
+      "options": {
+        "a": "Quad Maritime Security Initiative",
+        "b": "Combined Maritime Forces",
+        "c": "Indian Ocean Rim Association",
+        "d": "ASEAN Maritime Forum"
+      },
+      "correctAnswer": "b",
+      "explanation": "Operation Southern Readiness 262 is hosted by the Indian Navy in partnership with the Combined Maritime Forces (CMF). It is a multinational maritime security training program scheduled to take place in Kochi.",
+      "difficulty": "hard",
+      "topic": "Defense and Security"
     },
     {
       "id": "2026-07-18-q05",
-      "question": "India retained the Asian Hockey Cup this week by beating which team in the final?",
-      "options": { "a": "Pakistan", "b": "Japan", "c": "Korea", "d": "Malaysia" },
-      "correctAnswer": "c",
-      "explanation": "India defeated Korea in the final to retain the title.",
+      "question": "The Mahananda Wildlife Sanctuary, which was recently in the news due to a proposal to reduce its eco-sensitive zone, is located in which state?",
+      "options": {
+        "a": "West Bengal",
+        "b": "Assam",
+        "c": "Sikkim",
+        "d": "Odisha"
+      },
+      "correctAnswer": "a",
+      "explanation": "Mahananda Wildlife Sanctuary is located in the Darjeeling district of West Bengal. It came into the news because the state government proposed reducing its eco-sensitive zone from 5 km to 1 km.",
       "difficulty": "easy",
-      "topic": "Sports"
+      "topic": "Environment and Ecology"
     },
     {
       "id": "2026-07-18-q06",
-      "question": "The stealth frigate commissioned by the Navy this week was built under which indigenous programme?",
-      "options": { "a": "P15B", "b": "P17A", "c": "P28", "d": "P75I" },
+      "question": "Dr. Anil Menon, a NASA astronaut of Indian origin scheduled to fly to the International Space Station, will travel aboard which Russian spacecraft?",
+      "options": {
+        "a": "Shenzhou 19",
+        "b": "Soyuz MS-29",
+        "c": "Crew Dragon Endurance",
+        "d": "Progress MS-26"
+      },
       "correctAnswer": "b",
-      "explanation": "The new frigate belongs to the P17A (Project 17 Alpha) class of indigenously built stealth frigates.",
+      "explanation": "Dr. Anil Menon will travel to the International Space Station aboard Russia's Soyuz MS-29 (referred to as COS MS29) spacecraft launching from Kazakhstan.",
       "difficulty": "hard",
-      "topic": "Defence"
+      "topic": "Science and Technology"
     },
     {
       "id": "2026-07-18-q07",
-      "question": "A Special Economic Zone (SEZ) in India is primarily governed by which act?",
-      "options": { "a": "SEZ Act, 2005", "b": "FEMA, 1999", "c": "Companies Act, 2013", "d": "IT Act, 2000" },
-      "correctAnswer": "a",
-      "explanation": "SEZs in India are established and regulated under the Special Economic Zones Act, 2005.",
+      "question": "The historic 'Bhairav Yatra', which was officially included in India's List of National Intangible Cultural Heritage, belongs to which State or Union Territory?",
+      "options": {
+        "a": "Ladakh",
+        "b": "Uttarakhand",
+        "c": "Jammu and Kashmir",
+        "d": "Himachal Pradesh"
+      },
+      "correctAnswer": "c",
+      "explanation": "The historic Bhairav Yatra of the Union Territory of Jammu and Kashmir has been officially included in India's List of National Intangible Cultural Heritage.",
       "difficulty": "medium",
-      "topic": "Economy"
+      "topic": "Art and Culture"
     },
     {
       "id": "2026-07-18-q08",
-      "question": "The RBI's Monetary Policy Committee has how many members?",
-      "options": { "a": "4", "b": "6", "c": "8", "d": "10" },
+      "question": "What is the total financial outlay approved by the Union Cabinet for the second phase of the India Semiconductor Mission for the next six years?",
+      "options": {
+        "a": "Rs 76,000 crore",
+        "b": "Rs 1.27 lakh crore",
+        "c": "Rs 1.50 lakh crore",
+        "d": "Rs 98,000 crore"
+      },
       "correctAnswer": "b",
-      "explanation": "The MPC is a six-member body, three from the RBI and three external appointees.",
-      "difficulty": "medium",
+      "explanation": "On 15th July 2026, the Union Cabinet approved the second phase of the India Semiconductor Mission with a financial outlay of Rs 1.27 lakh crore for the next six years.",
+      "difficulty": "hard",
       "topic": "Economy"
     },
     {
       "id": "2026-07-18-q09",
-      "question": "Which ministry maintains India's list of Ramsar-designated wetlands?",
-      "options": { "a": "Ministry of Jal Shakti", "b": "Ministry of Environment, Forest and Climate Change", "c": "Ministry of Earth Sciences", "d": "Ministry of Agriculture" },
-      "correctAnswer": "b",
-      "explanation": "Wetland designation and the Ramsar list in India fall under the Ministry of Environment, Forest and Climate Change.",
-      "difficulty": "easy",
-      "topic": "Environment"
+      "question": "Under the shared vision of modernizing the judicial system and strengthening administrative infrastructure, the 'Tower of Justice' was recently inaugurated in which city?",
+      "options": {
+        "a": "Gurugram",
+        "b": "New Delhi",
+        "c": "Chandigarh",
+        "d": "Noida"
+      },
+      "correctAnswer": "a",
+      "explanation": "The Tower of Justice was inaugurated in Gurugram, Haryana, by Supreme Court Justice Suryakant to strengthen judicial administrative infrastructure and ensure accessible justice delivery.",
+      "difficulty": "medium",
+      "topic": "Infrastructure"
     },
     {
       "id": "2026-07-18-q10",
-      "question": "Stealth frigates are primarily designed to reduce a warship's?",
-      "options": { "a": "Fuel consumption", "b": "Radar cross-section", "c": "Crew requirement", "d": "Displacement" },
+      "question": "Which Union Ministry is the nodal agency overseeing the Mobile Phone Manufacturing Scheme, which has a budget outlay of ₹62,500 crore?",
+      "options": {
+        "a": "Ministry of Commerce and Industry",
+        "b": "Ministry of Electronics and Information Technology",
+        "c": "Ministry of Communications",
+        "d": "Ministry of Science and Technology"
+      },
       "correctAnswer": "b",
-      "explanation": "Stealth design in warships focuses on reducing radar cross-section and other detectable signatures.",
+      "explanation": "The Mobile Phone Manufacturing Scheme, approved with a budget outlay of ₹62,500 crore, is run under the Ministry of Electronics and Information Technology (MeitY).",
       "difficulty": "medium",
-      "topic": "Defence"
+      "topic": "Economy"
     },
     {
       "id": "2026-07-18-q11",
-      "question": "The Asian Hockey Federation, which conducts the Asian Hockey Cup, is headquartered in?",
-      "options": { "a": "New Delhi", "b": "Kuala Lumpur", "c": "Dhaka", "d": "Seoul" },
-      "correctAnswer": "b",
-      "explanation": "The Asian Hockey Federation is headquartered in Kuala Lumpur, Malaysia.",
-      "difficulty": "hard",
-      "topic": "Sports"
+      "question": "Which state government has launched the 'Chief Minister Heli Tourism Scheme' to provide quick and affordable air connectivity to prominent historical and religious sites like Rajgir and Valmiki Nagar?",
+      "options": {
+        "a": "Uttar Pradesh",
+        "b": "Uttarakhand",
+        "c": "Bihar",
+        "d": "Jharkhand"
+      },
+      "correctAnswer": "c",
+      "explanation": "The 'Chief Minister Heli Tourism Scheme' has been launched by the Bihar government to connect Patna to key destinations such as Rajgir, Valmiki Nagar, and Kaimur's Maa Mundeshwari Temple.",
+      "difficulty": "easy",
+      "topic": "Polity and Governance"
     },
     {
       "id": "2026-07-18-q12",
-      "question": "Repo rate is best defined as the rate at which?",
-      "options": { "a": "Banks lend to each other overnight", "b": "The RBI lends short-term funds to commercial banks", "c": "Banks lend to retail customers", "d": "The government borrows from the RBI" },
+      "question": "INS Malwan, which was recently commissioned into the Indian Navy, is the second vessel of which class of warships designed by Cochin Shipyard Limited?",
+      "options": {
+        "a": "Kamorta class Anti-Submarine Warfare Corvette",
+        "b": "Mahe class Anti-Submarine Warfare Shallow Water Craft",
+        "c": "Shivalik class Stealth Multi-role Frigate",
+        "d": "Car Nicobar class Fast Attack Craft"
+      },
       "correctAnswer": "b",
-      "explanation": "Repo rate is the rate at which the RBI lends short-term funds to commercial banks against securities.",
+      "explanation": "INS Malwan is the second vessel of the Mahe class Anti-Submarine Warfare Shallow Water Craft (ASW SWC). It was designed and built by Cochin Shipyard Limited with over 80% indigenous content.",
+      "difficulty": "hard",
+      "topic": "Defense and Security"
+    },
+    {
+      "id": "2026-07-18-q13",
+      "question": "Six redeveloped and modernized railway stations in Kerala were recently inaugurated under which nationwide infrastructure initiative?",
+      "options": {
+        "a": "Bharat Gaurav Scheme",
+        "b": "Amrit Bharat Station Scheme",
+        "c": "PRASHAD Scheme",
+        "d": "PM Gati Shakti Scheme"
+      },
+      "correctAnswer": "b",
+      "explanation": "The six redeveloped railway stations in Kerala were modernized and inaugurated by the Prime Minister under the Amrit Bharat Station Scheme, which aims to transform stations with world-class, technology-friendly amenities.",
       "difficulty": "easy",
-      "topic": "Economy"
+      "topic": "Infrastructure"
     }
   ]
 }

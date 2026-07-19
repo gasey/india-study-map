@@ -105,9 +105,9 @@ export function CurrentAffairsPage() {
                     <div className="flex items-start justify-between gap-3">
                       <div className="min-w-0">
                         <div className="flex items-center gap-2 mb-1">
-                          <span className="font-medium">{day.title}</span>
+                          <span className="font-medium min-w-0">{day.title}</span>
                           {i === 0 && (
-                            <span className="text-[10px] px-1.5 py-0.5 rounded-full" style={{ background: 'var(--accent-soft)', color: 'var(--accent)' }}>
+                            <span className="shrink-0 text-[10px] px-1.5 py-0.5 rounded-full" style={{ background: 'var(--accent-soft)', color: 'var(--accent)' }}>
                               Today's Quiz
                             </span>
                           )}

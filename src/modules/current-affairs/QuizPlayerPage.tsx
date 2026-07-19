@@ -161,13 +161,18 @@ export function QuizPlayerPage() {
                 className="w-full text-left rounded-xl p-4 mb-4 fact-in"
                 style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}
               >
-                <div className="flex items-center justify-between">
-                  <span className="text-sm font-medium">📖 Read first — {day.source.videoTitle}</span>
-                  <span className="text-xs" style={{ color: 'var(--text-secondary)' }}>{readFirstOpen ? '▾ hide' : '▸ show'}</span>
+                <div className="flex items-center justify-between gap-2">
+                  <span className="text-sm font-medium min-w-0">📖 Read first — {day.source.videoTitle}</span>
+                  <span className="text-xs shrink-0" style={{ color: 'var(--text-secondary)' }}>{readFirstOpen ? '▾ hide' : '▸ show'}</span>
                 </div>
                 {readFirstOpen && (
-                  <div className="mt-3 text-sm leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
-                    <p className="mb-3">{day.summary}</p>
+                  <div
+                    className="mt-3 text-sm leading-relaxed max-h-[40vh] overflow-y-auto pr-1"
+                    style={{ color: 'var(--text-secondary)' }}
+                  >
+                    {/* Can span 2-3 merged videos on a busy day — summary paragraphs
+                        stay separated (day.summary already joins them with blank lines). */}
+                    {day.summary.split('\n\n').map((para, i) => <p key={i} className="mb-3 last:mb-0">{para}</p>)}
                     <ul className="list-disc pl-5 space-y-1">
                       {day.keyFacts.map((f, i) => <li key={i}>{f}</li>)}
                     </ul>

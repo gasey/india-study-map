@@ -73,6 +73,7 @@ export function moduleProgress(progress: Progress, bankProgress: BankProgress, d
     'lab-maths': { pct: null, meta: 'lab' },
     'lab-english': { pct: null, meta: 'lab' },
     'lab-paper2': { pct: null, meta: 'lab' },
+    arena: { pct: null, meta: 'MCQ game' },
   };
 }
 

@@ -114,6 +114,15 @@ export const modules: AppModule[] = [
     path: '/timeline',
   },
   {
+    id: 'arena',
+    title: 'Gauntlet Run',
+    category: 'Practice',
+    tagline: 'Dodge runner — MCQ gates, revives & upgrades earned by knowledge',
+    glyph: '🏃',
+    kind: 'route',
+    path: '/arena',
+  },
+  {
     id: 'ca',
     title: 'Current Affairs',
     category: 'Practice',

@@ -1,0 +1,74 @@
+/* GAUNTLET RUN — overlay + shop styling that tailwind utilities don't cover. */
+
+.arena-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  background: color-mix(in srgb, var(--bg-app) 72%, transparent);
+  backdrop-filter: blur(3px);
+  animation: arena-fade 160ms ease-out;
+}
+
+.arena-card {
+  width: 100%;
+  max-width: 460px;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: var(--bg-panel);
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.35);
+  animation: arena-rise 200ms cubic-bezier(0.2, 0.9, 0.3, 1.1);
+}
+
+.arena-timer {
+  height: 5px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  overflow: hidden;
+}
+.arena-timer > div {
+  height: 100%;
+  border-radius: 999px;
+  background: var(--accent);
+  transition: width 120ms linear;
+}
+.arena-timer.low > div { background: #e35d6a; }
+
+.arena-opt {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+  text-align: left;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--bg-panel-elev);
+  color: var(--text-primary);
+  font-size: 14px;
+  line-height: 1.4;
+  transition: border-color 120ms, background 120ms, transform 80ms;
+}
+.arena-opt:not(:disabled):hover { border-color: var(--accent); }
+.arena-opt:not(:disabled):active { transform: scale(0.99); }
+.arena-opt.correct { border-color: #3fa66b; background: rgba(63, 166, 107, 0.14); }
+.arena-opt.wrong { border-color: #e35d6a; background: rgba(227, 93, 106, 0.14); }
+.arena-opt:disabled { cursor: default; }
+
+.arena-shake { animation: arena-shake 300ms; }
+
+@keyframes arena-fade { from { opacity: 0; } }
+@keyframes arena-rise { from { opacity: 0; transform: translateY(14px) scale(0.98); } }
+@keyframes arena-shake {
+  20% { transform: translateX(-6px); }
+  45% { transform: translateX(5px); }
+  70% { transform: translateX(-3px); }
+  90% { transform: translateX(2px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .arena-overlay, .arena-card { animation: none; }
+  .arena-shake { animation: none; }
+}

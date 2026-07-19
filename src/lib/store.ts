@@ -39,6 +39,36 @@ interface CaAttempt {
   answers: Record<string, 'a' | 'b' | 'c' | 'd'>;
 }
 
+/** Gauntlet Run (arena) — MCQ-gated dodge runner. Coins/upgrades/highscore. */
+export interface ArenaUpgrades {
+  /** Extra hits absorbed at run start (0-3). */
+  shield: number;
+  /** Extra revive questions per run (0-2, base 1 revive). */
+  revive: number;
+  /** +4s answer time per level (0-3). */
+  focus: number;
+  /** +0.25 starting multiplier per level (0-3). */
+  boost: number;
+}
+
+export interface ArenaState {
+  coins: number;
+  highScore: number;
+  bestStreak: number;
+  runs: number;
+  answered: number;
+  correct: number;
+  upgrades: ArenaUpgrades;
+}
+
+export interface ArenaRunResult {
+  score: number;
+  coins: number;
+  answered: number;
+  correct: number;
+  streak: number;
+}
+
 export type ChronicleTrackMode = 'both' | 'history' | 'polity';
 
 /** Chronicle module — master timeline. */
@@ -73,6 +103,8 @@ export interface AppState {
   /** Global basemap override — null = use each chapter's own choice. */
   basemapOverride: string | null;
   chronicle: ChronicleState;
+  /** Gauntlet Run module — persists across runs. */
+  arena: ArenaState;
 
   // actions
   toggleTheme: () => void;
@@ -97,6 +129,11 @@ export interface AppState {
   setChronicleTrackMode: (m: ChronicleTrackMode) => void;
   setChronicleImportanceCeiling: (n: Importance) => void;
   toggleChronicleHeat: () => void;
+
+  /** Bank a finished run: coins in, records, highscore. */
+  arenaFinishRun: (r: ArenaRunResult) => void;
+  /** Spend coins on one upgrade level. No-ops if unaffordable or maxed. */
+  arenaBuyUpgrade: (key: keyof ArenaUpgrades, cost: number, max: number) => void;
 }
 
 function initialLayersFor(chapterId: string): string[] {
@@ -122,6 +159,15 @@ export const useApp = create<AppState>()(
       eventIndex: -1,
       basemapOverride: null,
       chronicle: { notes: {}, viewport: null, trackMode: 'both', importanceCeiling: 5, heat: false },
+      arena: {
+        coins: 0,
+        highScore: 0,
+        bestStreak: 0,
+        runs: 0,
+        answered: 0,
+        correct: 0,
+        upgrades: { shield: 0, revive: 0, focus: 0, boost: 0 },
+      },
 
       toggleTheme: () =>
         set((s) => ({ theme: s.theme === 'light' ? 'dark' : 'light' })),
@@ -223,6 +269,32 @@ export const useApp = create<AppState>()(
           return { deckProgress: rest };
         }),
 
+      arenaFinishRun: (r) =>
+        set((s) => ({
+          arena: {
+            ...s.arena,
+            coins: s.arena.coins + r.coins,
+            highScore: Math.max(s.arena.highScore, r.score),
+            bestStreak: Math.max(s.arena.bestStreak, r.streak),
+            runs: s.arena.runs + 1,
+            answered: s.arena.answered + r.answered,
+            correct: s.arena.correct + r.correct,
+          },
+        })),
+
+      arenaBuyUpgrade: (key, cost, max) =>
+        set((s) => {
+          const level = s.arena.upgrades[key];
+          if (level >= max || s.arena.coins < cost) return s;
+          return {
+            arena: {
+              ...s.arena,
+              coins: s.arena.coins - cost,
+              upgrades: { ...s.arena.upgrades, [key]: level + 1 },
+            },
+          };
+        }),
+
       recordCaAttempt: (date, result) =>
         set((s) => {
           const prev = s.caAttempts[date];
@@ -243,6 +315,7 @@ export const useApp = create<AppState>()(
         basemapOverride: s.basemapOverride,
         currentChapterId: s.currentChapterId,
         chronicle: s.chronicle,
+        arena: s.arena,
       }),
       // Default persist merge is a shallow `{...current, ...persisted}` —
       // fine for top-level keys, but a persisted `chronicle` blob from
@@ -251,7 +324,16 @@ export const useApp = create<AppState>()(
       // instead of falling back to their default.
       merge: (persisted, current) => {
         const p = persisted as Partial<AppState>;
-        return { ...current, ...p, chronicle: { ...current.chronicle, ...p.chronicle } };
+        return {
+          ...current,
+          ...p,
+          chronicle: { ...current.chronicle, ...p.chronicle },
+          arena: {
+            ...current.arena,
+            ...p.arena,
+            upgrades: { ...current.arena.upgrades, ...p.arena?.upgrades },
+          },
+        };
       },
     }
   )

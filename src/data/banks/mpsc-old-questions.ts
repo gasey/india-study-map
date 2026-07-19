@@ -1,12 +1,13 @@
 // ============================================
 // MPSC OLD QUESTIONS — Mizoram Public Service Commission PYQ bank.
 //
-// GENERATED FILE. Produced by the extraction pipeline.
-// Batch 1: 7 papers / 434 questions (Haiku 4.5 API extraction).
-// Batch 2: 1 paper / 90 questions (manual extraction, Forest Ranger General English).
+// GENERATED FILE. Fallback snapshot for when the live API
+// (http://134.209.154.122/mpsc-api) is unreachable — see useMpscData.ts.
+// Source of truth is now Postgres on shiksha-dev; this file is
+// resynced periodically, not on every extraction batch.
 //
-// Shape: \`papers\` are real exam papers (grouped by sitting -> Paper-I/II/...),
-// \`questions\` link back via \`paperId\`. See src/data/banks/types.ts.
+// Shape: `papers` are real exam papers (grouped by sitting -> Paper-I/II/...),
+// `questions` link back via `paperId`. See src/data/banks/types.ts.
 // ============================================
 
 import type { BankQuestion, ExamPaper } from './types';
@@ -85,6 +86,25 @@ export const mpscPapers: ExamPaper[] = [
     "paperSubject": "General English",
     "year": 2024,
     "sourceFile": "mpsc_pdfs_examination/Old_Questions/Direct_2023-2025/Forest Ranger General English-II 2024..pdf"
+  },
+  {
+    "id": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2",
+    "examType": "Direct_NG",
+    "examName": "Combined Competitive Examination for Recruitment to the post of Junior Engineer (J.E.) under LAD, PWD and I&WRD, Government of Mizoram",
+    "post": "Junior Engineer (J.E.)",
+    "paperNumber": "Paper-II",
+    "paperSubject": "General Knowledge",
+    "year": 2025,
+    "sourceFile": "mpsc_pdfs_examination/Old_Questions/Direct_NG_2024-2027/JE under LAD& PWD Deptt. General Knowledge Paper-II April-2025 ( A )..pdf"
+  },
+  {
+    "id": "mpsc-direct-2024-mizoram-legal-service-general-knowledge",
+    "examType": "Direct",
+    "examName": "Technical Competitive Examinations for Junior Grade of Mizoram Legal Service (MLS) under Law & Judicial Department, Government of Mizoram",
+    "post": "Junior Grade of Mizoram Legal Service",
+    "paperSubject": "General Knowledge",
+    "year": 2024,
+    "sourceFile": "mpsc_pdfs_examination/Old_Questions/Direct_2023-2025/Mizoram Legal Service General Knowledge August-2024..pdf"
   }
 ];
 
@@ -10758,5 +10778,3305 @@ export const mpscQuestions: BankQuestion[] = [
       "one-word-substitution"
     ],
     "paperId": "mpsc-direct-2024-forest-ranger-general-english-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-003",
+    "subject": "current-affairs",
+    "topic": "mizoram-current-affairs",
+    "topicLabel": "Mizoram Current Affairs",
+    "difficulty": "hard",
+    "question": "The healthcare programme recently launched by Mizoram Chief Minister Lalduhoma is called -",
+    "options": [
+      "Mizoram Universal Healthcare Programme",
+      "Mizoram Universal Healthcare Scheme",
+      "Mizoram Universal Healthcare System",
+      "Mizoram Universal Healthcare Policy"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Mizoram Universal Healthcare Scheme\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "mizoram-current-affairs"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-005",
+    "subject": "gk",
+    "topic": "indian-society",
+    "topicLabel": "Indian Society & Tribes",
+    "difficulty": "medium",
+    "question": "In which states are the Pardhi community primarily found?",
+    "options": [
+      "Mizoram and Manipur",
+      "Bihar and Jharkhand",
+      "Maharashtra and Madhya Pradesh",
+      "Odisha and Tamil Nadu"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Maharashtra and Madhya Pradesh\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "indian-society"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-006",
+    "subject": "current-affairs",
+    "topic": "awards-honours",
+    "topicLabel": "Awards & Honours",
+    "difficulty": "medium",
+    "question": "'Honorary Order of Freedom of Barbados' Award recently awarded to a leader from India is-",
+    "options": [
+      "Dr. S. Jaishankar",
+      "Narendra Modi",
+      "Rajnath Singh",
+      "Amit Shah"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Narendra Modi\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "awards-honours"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-007",
+    "subject": "geography",
+    "topic": "protected-areas",
+    "topicLabel": "Wildlife Sanctuaries",
+    "difficulty": "easy",
+    "question": "Pobitora Wildlife Sanctuary is located in -",
+    "options": [
+      "Meghalaya",
+      "Darjeeling",
+      "Assam",
+      "Manipur"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Assam\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "protected-areas"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-009",
+    "subject": "current-affairs",
+    "topic": "defence",
+    "topicLabel": "Defence & Military",
+    "difficulty": "medium",
+    "question": "Germany and which country jointly developed the Taurus KEPD-350 missile?",
+    "options": [
+      "China",
+      "India",
+      "Russia",
+      "Sweden"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"Sweden\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "defence"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-010",
+    "subject": "current-affairs",
+    "topic": "defence",
+    "topicLabel": "Defence & Military",
+    "difficulty": "easy",
+    "question": "A bilateral naval exercise called Exercise Varuna is between India and which country?",
+    "options": [
+      "Australia",
+      "USA",
+      "France",
+      "Germany"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"France\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "defence"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-011",
+    "subject": "current-affairs",
+    "topic": "science-space",
+    "topicLabel": "Science & Space",
+    "difficulty": "easy",
+    "question": "Who are the NASA astronauts stranded in space for nine months?",
+    "options": [
+      "Sunita Reeves and Bobby Wilmore",
+      "Suni Williams and Butch Wilmore",
+      "Sunny Williams and Buck Wilmore",
+      "Sona Williams and Burt Wilmore"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Suni Williams and Butch Wilmore\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "science-space"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-013",
+    "subject": "history",
+    "topic": "ancient-india",
+    "topicLabel": "Ancient India",
+    "difficulty": "easy",
+    "question": "Mahavira was the ___ tirthankara.",
+    "options": [
+      "21st",
+      "22nd",
+      "23rd",
+      "24th"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"24th\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "ancient-india"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-014",
+    "subject": "history",
+    "topic": "ancient-india",
+    "topicLabel": "Ancient India",
+    "difficulty": "medium",
+    "question": "Alexander the Great conquered India in the year -",
+    "options": [
+      "326 BC",
+      "327 BC",
+      "326 BC",
+      "325 BC"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"326 BC\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "ancient-india"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-015",
+    "subject": "history",
+    "topic": "ancient-india",
+    "topicLabel": "Ancient India",
+    "difficulty": "easy",
+    "question": "Asoka followed the policy of Dhamma after which War?",
+    "options": [
+      "Patna War",
+      "Magadha War",
+      "Kalinga War",
+      "Palinga War"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Kalinga War\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "ancient-india"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-016",
+    "subject": "history",
+    "topic": "modern-india",
+    "topicLabel": "Modern Indian History",
+    "difficulty": "easy",
+    "question": "Who was the leader of the Aligarh Movement?",
+    "options": [
+      "Sir Syed Ahmad Khan",
+      "Muhammad Ali Jinnah",
+      "Allama Iqbal",
+      "Maulana Abul Kalam Azad"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Sir Syed Ahmad Khan\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "modern-india"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-017",
+    "subject": "history",
+    "topic": "modern-india",
+    "topicLabel": "Modern Indian History",
+    "difficulty": "easy",
+    "question": "Drain of Wealth Theory was propounded by-",
+    "options": [
+      "RP Dutt",
+      "Dadabhai Naoroji",
+      "Bal Gangadhar Tilak",
+      "Mahatma Gandhi"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Dadabhai Naoroji\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "modern-india"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-018",
+    "subject": "history",
+    "topic": "ancient-india",
+    "topicLabel": "Ancient India",
+    "difficulty": "medium",
+    "question": "Which of the following Gods was not worshipped by the Rig Vedic people?",
+    "options": [
+      "Agni",
+      "Indra",
+      "Krishna",
+      "Varuna"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Krishna\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "ancient-india"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-019",
+    "subject": "history",
+    "topic": "ancient-india",
+    "topicLabel": "Ancient India",
+    "difficulty": "medium",
+    "question": "The founder of the Gupta Empire was -",
+    "options": [
+      "Sri Gupta",
+      "Samudragupta",
+      "Chandragupta II",
+      "Skandagupta"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Sri Gupta\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "ancient-india"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-020",
+    "subject": "history",
+    "topic": "early-medieval-india",
+    "topicLabel": "Early Medieval India",
+    "difficulty": "medium",
+    "question": "The Tripartite Struggle was fought by the Palas, Pratiharas and the Rashtrakutas for the capture of -",
+    "options": [
+      "Delhi",
+      "Magadha",
+      "Amravati",
+      "Kanauj"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"Kanauj\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "early-medieval-india"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-021",
+    "subject": "history",
+    "topic": "delhi-sultanate",
+    "topicLabel": "Delhi Sultanate",
+    "difficulty": "medium",
+    "question": "Ala-Uddin Khilji was most famous for his -",
+    "options": [
+      "Military policy",
+      "Land reform",
+      "Religious policy",
+      "Market control policy"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"Market control policy\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "delhi-sultanate"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-022",
+    "subject": "history",
+    "topic": "freedom-struggle",
+    "topicLabel": "Freedom Struggle",
+    "difficulty": "easy",
+    "question": "The official leader of the Revolt of 1857 was -",
+    "options": [
+      "Tantia Tope",
+      "Bahadur Shah Zafar",
+      "Rani Lakshmi Bai",
+      "Kunwar Singh"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Bahadur Shah Zafar\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "freedom-struggle"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-023",
+    "subject": "history",
+    "topic": "european-conquest",
+    "topicLabel": "European Conquest of India",
+    "difficulty": "medium",
+    "question": "The British East India Company gained the Diwani Rights of Bengal, Bihar and Orissa after -",
+    "options": [
+      "The Battle of Buxar 1764",
+      "The Battle of Plassey 1757",
+      "Regulating Act 1773",
+      "Pitts India Act 1784"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"The Battle of Buxar 1764\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "european-conquest"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-024",
+    "subject": "history",
+    "topic": "freedom-struggle",
+    "topicLabel": "Freedom Struggle",
+    "difficulty": "easy",
+    "question": "The credit for Integrating the Princely States into the Union goes to",
+    "options": [
+      "Mahatma Gandhi",
+      "Jawaharlal Nehru",
+      "Sardar Vallabhbhai Patel",
+      "Raja Rammohan Roy"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Sardar Vallabhbhai Patel\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "freedom-struggle"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-025",
+    "subject": "geography",
+    "topic": "mizoram-geography",
+    "topicLabel": "Mizoram Geography",
+    "difficulty": "medium",
+    "question": "Which district in India has the highest literacy?",
+    "options": [
+      "Malappuram district in Kerala",
+      "Serchhip district in Mizoram",
+      "Coimbatore in Tamil Nadu",
+      "Mokokchung district in Nagaland"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Serchhip district in Mizoram\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "mizoram-geography"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-026",
+    "subject": "geography",
+    "topic": "physiographic-divisions",
+    "topicLabel": "Physiographic Divisions",
+    "difficulty": "easy",
+    "question": "Which of the following is the highest peak in India?",
+    "options": [
+      "Nanda Devi",
+      "Kangchenjunga",
+      "Mount Everest",
+      "Anamudi"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Kangchenjunga\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "physiographic-divisions"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-027",
+    "subject": "geography",
+    "topic": "rivers",
+    "topicLabel": "Rivers of India",
+    "difficulty": "medium",
+    "question": "Which of the following rivers does not originate in India?",
+    "options": [
+      "Ganga",
+      "Yamuna",
+      "Indus",
+      "Beas"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Indus\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "rivers"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-028",
+    "subject": "gk",
+    "topic": "economy",
+    "topicLabel": "Indian Economy",
+    "difficulty": "easy",
+    "question": "Which sector includes activities like trade, transport, and communication?",
+    "options": [
+      "Primary sector",
+      "Secondary sector",
+      "Tertiary sector",
+      "Economic sector"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Tertiary sector\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "economy"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-029",
+    "subject": "geography",
+    "topic": "rivers",
+    "topicLabel": "Rivers of India",
+    "difficulty": "medium",
+    "question": "The Sunderbans delta is formed by the confluence of which rivers?",
+    "options": [
+      "Ganga and Yamuna",
+      "Ganga and Brahmaputra",
+      "Brahmaputra and Barak",
+      "Godavari and Krishna"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Ganga and Brahmaputra\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "rivers"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-030",
+    "subject": "geography",
+    "topic": "rivers",
+    "topicLabel": "Rivers of India",
+    "difficulty": "easy",
+    "question": "What is the longest river in India?",
+    "options": [
+      "Ganga",
+      "Krishna",
+      "Brahmaputra",
+      "Godavari"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Ganga\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "rivers"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-031",
+    "subject": "gk",
+    "topic": "world-economy",
+    "topicLabel": "World Economy",
+    "difficulty": "medium",
+    "question": "The 'Four Asian Tigers' are:",
+    "options": [
+      "Japan, India, Hong Kong, South Korea",
+      "Hong Kong, Singapore, South Korea, Taiwan",
+      "Thailand, Malaysia, Indonesia, Philippines",
+      "Japan, South Korea, North Korea, China"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Hong Kong, Singapore, South Korea, Taiwan\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "world-economy"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-032",
+    "subject": "gk",
+    "topic": "world-economy",
+    "topicLabel": "World Economy",
+    "difficulty": "medium",
+    "question": "Which of the following is the world's largest exporter of oil?",
+    "options": [
+      "United States",
+      "Russia",
+      "Saudi Arabia",
+      "Iraq"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Saudi Arabia\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "world-economy"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-033",
+    "subject": "gk",
+    "topic": "society",
+    "topicLabel": "Society & Culture",
+    "difficulty": "medium",
+    "question": "Which of the following refers to a relationship between a cultural group and its natural environment?",
+    "options": [
+      "Cultural ecology",
+      "Cultural convergence",
+      "Cultural diffusion",
+      "Cultural assimilation"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Cultural ecology\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "society"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-034",
+    "subject": "geography",
+    "topic": "world-geography",
+    "topicLabel": "World Geography",
+    "difficulty": "easy",
+    "question": "Which is the largest continent by land area?",
+    "options": [
+      "North America",
+      "Africa",
+      "Asia",
+      "Europe"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Asia\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "world-geography"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-035",
+    "subject": "gk",
+    "topic": "economy",
+    "topicLabel": "Indian Economy",
+    "difficulty": "easy",
+    "question": "Which of the following is a primary sector activity?",
+    "options": [
+      "Banking",
+      "Services",
+      "Agriculture",
+      "IT"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Agriculture\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "economy"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-036",
+    "subject": "geography",
+    "topic": "world-geography",
+    "topicLabel": "World Geography",
+    "difficulty": "medium",
+    "question": "Which mountain range forms a natural border between France and Spain?",
+    "options": [
+      "Alps",
+      "Pyrenees",
+      "Carpathians",
+      "Apennines"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Pyrenees\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "world-geography"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-037",
+    "subject": "polity",
+    "topic": "constitutional-amendments",
+    "topicLabel": "Constitutional Amendments",
+    "difficulty": "medium",
+    "question": "Which amendment of the Constitution of India is known as mini-constitution?",
+    "options": [
+      "Constitution Forty-First Amendment Act, 1976",
+      "Constitution Forty-Second Amendment Act, 1976",
+      "Constitution Forty-Third Amendment Act, 1977",
+      "Constitution Forty-Fourth Amendment Act, 1978"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Constitution Forty-Second Amendment Act, 1976\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "constitutional-amendments"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-038",
+    "subject": "polity",
+    "topic": "constitution",
+    "topicLabel": "Indian Constitution",
+    "difficulty": "easy",
+    "question": "Which among the following is the supreme law of the land in India?",
+    "options": [
+      "Indian Penal Code",
+      "Constitution of India",
+      "Fundamental Rights",
+      "Directive Principles of State Policy"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Constitution of India\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "constitution"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-039",
+    "subject": "polity",
+    "topic": "parliament",
+    "topicLabel": "Parliament",
+    "difficulty": "easy",
+    "question": "What is the minimum age required to be a member of the Lok Sabha?",
+    "options": [
+      "25 years",
+      "30 years",
+      "35 years",
+      "18 years"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"25 years\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "parliament"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-040",
+    "subject": "polity",
+    "topic": "executive",
+    "topicLabel": "Union Executive",
+    "difficulty": "medium",
+    "question": "The President of India is elected by an electoral college consisting of-",
+    "options": [
+      "Only members of Lok Sabha",
+      "Members of Lok Sabha and Rajya Sabha",
+      "Elected members of the Legislative Assemblies of States",
+      "Members of Lok Sabha, Rajya Sabha and elected members of the Legislative Assemblies of States"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"Members of Lok Sabha, Rajya Sabha and elected members of the Legislative Assemblies of States\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "executive"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-041",
+    "subject": "polity",
+    "topic": "parliament",
+    "topicLabel": "Parliament",
+    "difficulty": "easy",
+    "question": "What is the maximum number of members in the Rajya Sabha?",
+    "options": [
+      "180",
+      "200",
+      "250",
+      "500"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"250\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "parliament"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-042",
+    "subject": "polity",
+    "topic": "parliament",
+    "topicLabel": "Parliament",
+    "difficulty": "easy",
+    "question": "Who has the power to dissolve the Lok Sabha?",
+    "options": [
+      "The President of India",
+      "The Prime Minister of India",
+      "The Speaker of the Lok Sabha",
+      "The Chief Justice of India"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"The President of India\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "parliament"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-043",
+    "subject": "history",
+    "topic": "modern-india",
+    "topicLabel": "Modern Indian History",
+    "difficulty": "easy",
+    "question": "Who was the first woman Prime Minister of India?",
+    "options": [
+      "Pratibha Patil",
+      "Indira Gandhi",
+      "Sonia Gandhi",
+      "Rajkumari Amrit Kaur"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Indira Gandhi\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "modern-india"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-044",
+    "subject": "polity",
+    "topic": "constitutional-bodies",
+    "topicLabel": "Constitutional Bodies",
+    "difficulty": "medium",
+    "question": "Who was the first Chief Election Commissioner of India?",
+    "options": [
+      "T.N. Seshan",
+      "B.B. Tandon",
+      "Sukumar Sen",
+      "V.S. Ramadevi"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Sukumar Sen\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "constitutional-bodies"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-045",
+    "subject": "polity",
+    "topic": "constitution",
+    "topicLabel": "Indian Constitution",
+    "difficulty": "medium",
+    "question": "The concept of 'Concurrent List' in the Indian Constitution is borrowed from which country?",
+    "options": [
+      "United States",
+      "United Kingdom",
+      "Canada",
+      "Australia"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"Australia\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "constitution"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-046",
+    "subject": "polity",
+    "topic": "fundamental-duties",
+    "topicLabel": "Fundamental Duties",
+    "difficulty": "medium",
+    "question": "Which of the following is not a Fundamental Duty?",
+    "options": [
+      "To abide by the Constitution",
+      "To vote in elections",
+      "To protect the sovereignty of India",
+      "To protect the environment"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"To vote in elections\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "fundamental-duties"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-047",
+    "subject": "polity",
+    "topic": "parliament",
+    "topicLabel": "Parliament",
+    "difficulty": "medium",
+    "question": "Which of the following is not a power of the Rajya Sabha?",
+    "options": [
+      "The power to amend the Constitution",
+      "The power to introduce money bills",
+      "The power to declare war",
+      "The power to pass laws"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"The power to introduce money bills\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "parliament"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-048",
+    "subject": "polity",
+    "topic": "constitution",
+    "topicLabel": "Indian Constitution",
+    "difficulty": "easy",
+    "question": "Which of the following is the longest written Constitution in the world?",
+    "options": [
+      "United States Constitution",
+      "Constitution of India",
+      "Constitution of Canada",
+      "Constitution of Germany"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Constitution of India\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "constitution"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-049",
+    "subject": "gk",
+    "topic": "economy",
+    "topicLabel": "Indian Economy",
+    "difficulty": "medium",
+    "question": "Which of the following is NOT a dimension of Human Development Index (HDI)?",
+    "options": [
+      "Health",
+      "Education",
+      "Income",
+      "Environmental sustainability"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"Environmental sustainability\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "economy"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-050",
+    "subject": "gk",
+    "topic": "economy",
+    "topicLabel": "Indian Economy",
+    "difficulty": "medium",
+    "question": "The Multidimensional Poverty Index (MPI) considers which factors?",
+    "options": [
+      "Only income levels",
+      "Health, education, and standard of living",
+      "Inflation and unemployment",
+      "Agricultural productivity"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Health, education, and standard of living\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "economy"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-051",
+    "subject": "gk",
+    "topic": "economy",
+    "topicLabel": "Indian Economy",
+    "difficulty": "medium",
+    "question": "In India, which body releases the Poverty Line estimates?",
+    "options": [
+      "NITI Aayog",
+      "Reserve Bank of India",
+      "Ministry of Finance",
+      "National Statistical Office"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"NITI Aayog\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "economy"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-052",
+    "subject": "gk",
+    "topic": "government-schemes",
+    "topicLabel": "Government Schemes",
+    "difficulty": "easy",
+    "question": "What is the primary aim of Pradhan Mantri Jan Dhan Yojana (PMJDY)?",
+    "options": [
+      "Promoting digital transactions",
+      "Providing access to financial services for all",
+      "Encouraging entrepreneurship",
+      "Reducing direct taxes"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Providing access to financial services for all\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "government-schemes"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-053",
+    "subject": "gk",
+    "topic": "world-economy",
+    "topicLabel": "World Economy",
+    "difficulty": "medium",
+    "question": "The World Bank classifies countries into different income groups based on-",
+    "options": [
+      "GDP growth rate",
+      "Per capita income",
+      "Employment rate",
+      "Population size"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Per capita income\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "world-economy"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-054",
+    "subject": "gk",
+    "topic": "society",
+    "topicLabel": "Society & Demography",
+    "difficulty": "medium",
+    "question": "The term 'Demographic Transition' refers to-",
+    "options": [
+      "Movement of people between regions",
+      "Shift in birth and death rates over time",
+      "Increase in agricultural output",
+      "Implementation of population control policies"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Shift in birth and death rates over time\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "society"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-055",
+    "subject": "gk",
+    "topic": "international-organizations",
+    "topicLabel": "International Organizations",
+    "difficulty": "medium",
+    "question": "Which organization publishes the Global Hunger Index?",
+    "options": [
+      "United Nations Development Programme (UNDP)",
+      "World Bank",
+      "International Food Policy Research Institute (IFPRI)",
+      "Food and Agriculture Organization (FAO)"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"International Food Policy Research Institute (IFPRI)\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "international-organizations"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-056",
+    "subject": "gk",
+    "topic": "government-schemes",
+    "topicLabel": "Government Schemes",
+    "difficulty": "medium",
+    "question": "Which of the following is NOT a social sector initiative in India?",
+    "options": [
+      "Beti Bachao Beti Padhao",
+      "Stand-Up India",
+      "Ujjwala Yojana",
+      "Startup India"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"Startup India\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "government-schemes"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-057",
+    "subject": "geography",
+    "topic": "population",
+    "topicLabel": "Population Geography",
+    "difficulty": "medium",
+    "question": "Which Indian state has the highest population density as per the latest census?",
+    "options": [
+      "Maharashtra",
+      "Uttar Pradesh",
+      "Bihar",
+      "West Bengal"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Bihar\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "population"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-058",
+    "subject": "gk",
+    "topic": "government-schemes",
+    "topicLabel": "Government Schemes",
+    "difficulty": "easy",
+    "question": "Which Govt. of India scheme aims to provide housing to all?",
+    "options": [
+      "Pradhan Mantri Awas Yojana (PMAY)",
+      "Smart Cities Mission",
+      "National Urban Livelihoods Mission",
+      "Atal Mission for Rejuvenation and Urban Transformation (AMRUT)"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Pradhan Mantri Awas Yojana (PMAY)\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "government-schemes"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-059",
+    "subject": "gk",
+    "topic": "society",
+    "topicLabel": "Society & Welfare",
+    "difficulty": "medium",
+    "question": "Which of the following best describes 'Social Protection'?",
+    "options": [
+      "Policies aimed at reducing budget deficits",
+      "Programs that provide security against economic risks and vulnerabilities",
+      "Privatization of social services",
+      "Measures to encourage international trade"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Programs that provide security against economic risks and vulnerabilities\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "society"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-060",
+    "subject": "gk",
+    "topic": "society",
+    "topicLabel": "Society & Welfare",
+    "difficulty": "medium",
+    "question": "What does the term 'Social Capital' refer to?",
+    "options": [
+      "Government funding for social programs",
+      "Economic resources owned by society",
+      "Networks of relationships among people in a society",
+      "Total wealth of a country"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Networks of relationships among people in a society\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "society"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-061",
+    "subject": "gk",
+    "topic": "environment",
+    "topicLabel": "Environment & Ecology",
+    "difficulty": "medium",
+    "question": "The term 'Biodiversity Hotspot' was coined by-",
+    "options": [
+      "E.O. Wilson",
+      "Norman Myers",
+      "Charles Darwin",
+      "Rachel Carson"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Norman Myers\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "environment"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-062",
+    "subject": "gk",
+    "topic": "environment",
+    "topicLabel": "Environment & Ecology",
+    "difficulty": "medium",
+    "question": "Which of the following is the main cause of ocean acidification?",
+    "options": [
+      "Excess oxygen in water",
+      "Carbon dioxide absorption by seawater",
+      "Oil spills",
+      "Marine biodiversity loss"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Carbon dioxide absorption by seawater\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "environment"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-063",
+    "subject": "gk",
+    "topic": "environment",
+    "topicLabel": "Environment & Ecology",
+    "difficulty": "easy",
+    "question": "Which of the following gases is primarily responsible for the depletion of the ozone layer?",
+    "options": [
+      "Carbon dioxide",
+      "Sulfur dioxide",
+      "Chlorofluorocarbons (CFCs)",
+      "Methane"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Chlorofluorocarbons (CFCs)\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "environment"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-064",
+    "subject": "gk",
+    "topic": "environment",
+    "topicLabel": "Environment & Ecology",
+    "difficulty": "easy",
+    "question": "The Paris Agreement aims to-",
+    "options": [
+      "End all fossil fuel use immediately",
+      "Limit global temperature rise to below 2°C",
+      "Reduce population growth",
+      "Increase greenhouse gas emissions"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Limit global temperature rise to below 2°C\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "environment"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-065",
+    "subject": "gk",
+    "topic": "environment",
+    "topicLabel": "Environment & Ecology",
+    "difficulty": "medium",
+    "question": "The term 'Sixth Mass Extinction' refers to-",
+    "options": [
+      "A geological phenomenon",
+      "A period of increased volcanic activity",
+      "Human-induced loss of species",
+      "The end of the Ice Age"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Human-induced loss of species\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "environment"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-066",
+    "subject": "gk",
+    "topic": "environment",
+    "topicLabel": "Environment & Ecology",
+    "difficulty": "hard",
+    "question": "Which organization releases the Global Climate Risk Index?",
+    "options": [
+      "United Nations Environment Programme (UNEP)",
+      "World Wildlife Fund (WWF)",
+      "Germanwatch",
+      "Intergovernmental Panel on Climate Change (IPCC)"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Germanwatch\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "environment"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-067",
+    "subject": "gk",
+    "topic": "environment",
+    "topicLabel": "Environment & Ecology",
+    "difficulty": "medium",
+    "question": "The term 'Carbon Neutrality' means-",
+    "options": [
+      "Completely stopping carbon emissions",
+      "Balancing carbon emissions with carbon removal",
+      "Reducing carbon footprint to zero",
+      "Storing carbon in landfills"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Balancing carbon emissions with carbon removal\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "environment"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-068",
+    "subject": "gk",
+    "topic": "environment",
+    "topicLabel": "Environment & Ecology",
+    "difficulty": "easy",
+    "question": "The Ramsar Convention is related to the conservation of-",
+    "options": [
+      "Rainforests",
+      "Deserts",
+      "Wetlands",
+      "Mangroves"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Wetlands\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "environment"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-069",
+    "subject": "gk",
+    "topic": "environment",
+    "topicLabel": "Environment & Ecology",
+    "difficulty": "easy",
+    "question": "Which gas is responsible for acid rain?",
+    "options": [
+      "Carbon dioxide",
+      "Oxygen",
+      "Nitrogen",
+      "Sulfur dioxide"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"Sulfur dioxide\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "environment"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-070",
+    "subject": "gk",
+    "topic": "environment",
+    "topicLabel": "Environment & Ecology",
+    "difficulty": "easy",
+    "question": "What is the main function of mangroves in coastal ecosystems?",
+    "options": [
+      "Increase ocean depth",
+      "Protect against soil erosion and storm surges",
+      "Reduce oxygen levels in water",
+      "Prevent fish migration"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Protect against soil erosion and storm surges\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "environment"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-071",
+    "subject": "gk",
+    "topic": "environment",
+    "topicLabel": "Environment & Ecology",
+    "difficulty": "easy",
+    "question": "Which of the following best defines 'Ecotourism'?",
+    "options": [
+      "Sustainable tourism focused on conservation and community benefits",
+      "Traveling to cities for shopping",
+      "Large-scale industrial tourism",
+      "Mining in protected areas"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Sustainable tourism focused on conservation and community benefits\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "environment"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-072",
+    "subject": "history",
+    "topic": "modern-india",
+    "topicLabel": "Modern Indian History",
+    "difficulty": "easy",
+    "question": "The Chipko Movement, an environmental movement in India, was aimed at-",
+    "options": [
+      "Preventing river pollution",
+      "Promoting organic farming",
+      "Protecting forests from deforestation",
+      "Stopping mining activities"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Protecting forests from deforestation\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "modern-india"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-073",
+    "subject": "gk",
+    "topic": "science",
+    "topicLabel": "General Science",
+    "difficulty": "easy",
+    "question": "Which planet is known as the 'Red Planet'?",
+    "options": [
+      "Venus",
+      "Mars",
+      "Jupiter",
+      "Mercury"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Mars\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "science"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-074",
+    "subject": "gk",
+    "topic": "science",
+    "topicLabel": "General Science",
+    "difficulty": "easy",
+    "question": "What is the largest organ in the human body?",
+    "options": [
+      "Heart",
+      "Liver",
+      "Brain",
+      "Skin"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"Skin\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "science"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-075",
+    "subject": "gk",
+    "topic": "science",
+    "topicLabel": "General Science",
+    "difficulty": "easy",
+    "question": "What is the primary source of energy for the Earth?",
+    "options": [
+      "The Moon",
+      "The Sun",
+      "Fossil fuels",
+      "Wind"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"The Sun\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "science"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-076",
+    "subject": "gk",
+    "topic": "science",
+    "topicLabel": "General Science",
+    "difficulty": "easy",
+    "question": "In which part of the cell does respiration occur?",
+    "options": [
+      "Nucleus",
+      "Mitochondria",
+      "Ribosome",
+      "Chloroplast"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Mitochondria\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "science"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-077",
+    "subject": "gk",
+    "topic": "science",
+    "topicLabel": "General Science",
+    "difficulty": "easy",
+    "question": "What is the chemical symbol for gold?",
+    "options": [
+      "Au",
+      "Ag",
+      "Pb",
+      "Fe"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Au\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "science"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-078",
+    "subject": "gk",
+    "topic": "science",
+    "topicLabel": "General Science",
+    "difficulty": "easy",
+    "question": "Which of the following is a mammal that lays eggs?",
+    "options": [
+      "Dolphin",
+      "Bat",
+      "Platypus",
+      "Kangaroo"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Platypus\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "science"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-079",
+    "subject": "gk",
+    "topic": "science",
+    "topicLabel": "General Science",
+    "difficulty": "medium",
+    "question": "The Earth's core is mainly composed of which two elements?",
+    "options": [
+      "Oxygen and Nitrogen",
+      "Iron and Nickel",
+      "Carbon and Hydrogen",
+      "Silicon and Magnesium"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Iron and Nickel\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "science"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-080",
+    "subject": "gk",
+    "topic": "science",
+    "topicLabel": "General Science",
+    "difficulty": "easy",
+    "question": "Which of the following is the longest bone in the human body?",
+    "options": [
+      "Femur",
+      "Tibia",
+      "Humerus",
+      "Radius"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Femur\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "science"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-081",
+    "subject": "gk",
+    "topic": "science",
+    "topicLabel": "General Science",
+    "difficulty": "easy",
+    "question": "Which is the largest planet in the Solar System?",
+    "options": [
+      "Saturn",
+      "Earth",
+      "Neptune",
+      "Jupiter"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"Jupiter\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "science"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-082",
+    "subject": "gk",
+    "topic": "science",
+    "topicLabel": "General Science",
+    "difficulty": "easy",
+    "question": "Which of these diseases is caused by a virus?",
+    "options": [
+      "Tuberculosis",
+      "Malaria",
+      "AIDS",
+      "Diabetes"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"AIDS\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "science"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-083",
+    "subject": "gk",
+    "topic": "science",
+    "topicLabel": "General Science",
+    "difficulty": "easy",
+    "question": "What is the basic unit of life?",
+    "options": [
+      "Organ",
+      "Cell",
+      "Tissue",
+      "Organism"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Cell\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "science"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-084",
+    "subject": "gk",
+    "topic": "environment",
+    "topicLabel": "Environment & Ecology",
+    "difficulty": "easy",
+    "question": "Which of the following gases is primarily responsible for the greenhouse effect?",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Nitrogen",
+      "Helium"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Carbon dioxide\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "environment"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-085",
+    "subject": "gk",
+    "topic": "mizoram-society",
+    "topicLabel": "Mizoram Society & Culture",
+    "difficulty": "medium",
+    "question": "Mizo society is a-",
+    "options": [
+      "Patriarchal society",
+      "Matriarchal society",
+      "Polyandrous society",
+      "Polygamous society"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Patriarchal society\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "mizoram-society"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-086",
+    "subject": "gk",
+    "topic": "mizoram-society",
+    "topicLabel": "Mizoram Society & Culture",
+    "difficulty": "medium",
+    "question": "The first step of jhumming cultivation is",
+    "options": [
+      "Clearing of land",
+      "Demarcation of land",
+      "Selection of land",
+      "Burning of dried trees"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Selection of land\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "mizoram-society"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-092",
+    "subject": "gk",
+    "topic": "mizoram-society",
+    "topicLabel": "Mizoram Society & Culture",
+    "difficulty": "hard",
+    "question": "Tumphit instrument is made of -",
+    "options": [
+      "Mithun's horn",
+      "Wooden pieces",
+      "Bamboo tubes",
+      "Marble"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Bamboo tubes\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "mizoram-society"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-095",
+    "subject": "gk",
+    "topic": "mizoram-society",
+    "topicLabel": "Mizoram Society & Culture",
+    "difficulty": "medium",
+    "question": "Mizo language belongs to -",
+    "options": [
+      "Mon-Khmer",
+      "Indo-Chinese",
+      "Tibeto-Burman",
+      "Karen"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Tibeto-Burman\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "mizoram-society"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-098",
+    "subject": "history",
+    "topic": "mizoram-history",
+    "topicLabel": "Mizoram History",
+    "difficulty": "hard",
+    "question": "The first Superintendent of the Lushai Hills was -",
+    "options": [
+      "John Shakespeare",
+      "C.S. Murray",
+      "V. Tregear",
+      "Robert McCabe"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"John Shakespeare\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "mizoram-history"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-jelad-gk2-099",
+    "subject": "history",
+    "topic": "mizoram-history",
+    "topicLabel": "Mizoram History",
+    "difficulty": "hard",
+    "question": "In 1907, the Lakher Pioneer Mission was started by -",
+    "options": [
+      "Edwin Rowlands",
+      "J.H. Lorrain",
+      "D.E. Jones",
+      "Reginald A. Lorrain"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"Reginald A. Lorrain\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2025,
+    "tags": [
+      "mizoram-history"
+    ],
+    "paperId": "mpsc-direct-ng-2025-je-lad-pwd-iwrd-general-knowledge-paper-2"
+  },
+  {
+    "id": "mpsc-mls-gk-003",
+    "subject": "current-affairs",
+    "topic": "government-schemes",
+    "topicLabel": "Government Schemes",
+    "difficulty": "medium",
+    "question": "The PM-DevINE scheme is a new venture of government exclusively targeted for infrastructure projects in:",
+    "options": [
+      "150 Most Backward Districts",
+      "Most Backward Tribal Areas",
+      "North East India",
+      "Coastal Regions"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"North East India\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "government-schemes"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-004",
+    "subject": "current-affairs",
+    "topic": "sports",
+    "topicLabel": "Sports",
+    "difficulty": "medium",
+    "question": "Who were the flag bearers for India during the opening ceremony at the 2024 Paris Olympics?",
+    "options": [
+      "PV Sindhu & Sharath Kamal",
+      "PV Sindhu & Neeraj Chopra",
+      "PV Sindhu & Rohan Bopanna",
+      "PV Sindhu & HS Prannoy"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"PV Sindhu & Sharath Kamal\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "sports"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-005",
+    "subject": "current-affairs",
+    "topic": "elections",
+    "topicLabel": "Elections",
+    "difficulty": "medium",
+    "question": "How many seats did the Indian National Congress (INC) win in General Election to member of Parliament (Lok Sabha) in 2024?",
+    "options": [
+      "96",
+      "97",
+      "98",
+      "99"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"99\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "elections"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-006",
+    "subject": "current-affairs",
+    "topic": "culture",
+    "topicLabel": "Culture & Festivals",
+    "difficulty": "easy",
+    "question": "Pakke Paga Hornbill Festival, which was seen in the news, is celebrated in which state of India?",
+    "options": [
+      "Assam",
+      "Sikkim",
+      "Arunachal Pradesh",
+      "Nagaland"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Arunachal Pradesh\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "culture"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-008",
+    "subject": "current-affairs",
+    "topic": "international-relations",
+    "topicLabel": "International Relations",
+    "difficulty": "medium",
+    "question": "Prime Minister Narendra Modi handed over the G20 presidency to :",
+    "options": [
+      "Carmen Lucia",
+      "Jair Bolsonaro",
+      "Michel Temer",
+      "Luiz Inacio Lula da Silva"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"Luiz Inacio Lula da Silva\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "international-relations"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-010",
+    "subject": "current-affairs",
+    "topic": "world-affairs",
+    "topicLabel": "World Affairs",
+    "difficulty": "medium",
+    "question": "What is the controversial form of execution that was recently introduced in the US?",
+    "options": [
+      "Nitrogen Hypoxia",
+      "Carbon Monoxide hypoxia",
+      "Hydrogen cyanide hypoxia",
+      "Sarin gas execution"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Nitrogen Hypoxia\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "world-affairs"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-012",
+    "subject": "current-affairs",
+    "topic": "science-tech",
+    "topicLabel": "Science & Technology",
+    "difficulty": "medium",
+    "question": "Which giant tech company recently announced the launch of 'AMBER alerts' to find missing children?",
+    "options": [
+      "Microsoft",
+      "Google",
+      "Meta",
+      "Apple"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Meta\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "science-tech"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-013",
+    "subject": "current-affairs",
+    "topic": "international-organizations",
+    "topicLabel": "International Organizations",
+    "difficulty": "medium",
+    "question": "The Global Waste Management Outlook, 2024 was published by -",
+    "options": [
+      "UNDP",
+      "UNEP",
+      "IMF",
+      "World Bank"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"UNEP\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "international-organizations"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-014",
+    "subject": "current-affairs",
+    "topic": "government-schemes",
+    "topicLabel": "Government Schemes",
+    "difficulty": "hard",
+    "question": "Consider the following statements regarding 'Digital India Bhashini': 1. Bhashini stands for BHASHA Interface for India. 2. It is an AI-led language translation platform under the Ministry of IT and Electronics. 3. Bhashini Platform is a part of the National Language Translation Mission. Which of the statements given above is/are false?",
+    "options": [
+      "1 and 2 only",
+      "2 and 3 only",
+      "1 and 3 only",
+      "All statements are true"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"All statements are true\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "government-schemes"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-015",
+    "subject": "current-affairs",
+    "topic": "science-tech",
+    "topicLabel": "Science & Technology",
+    "difficulty": "medium",
+    "question": "The 2023 Nobel Prize in Physiology or Medicine was awarded to Katalin Karikó and Drew Weissman for their pioneering work on -",
+    "options": [
+      "CRISPR-CAS9 gene editing systems",
+      "CAR-T cells for cancer treatment",
+      "mRNA vaccines against COVID19",
+      "Thermal and mechanical transducers"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"mRNA vaccines against COVID19\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "science-tech"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-016",
+    "subject": "polity",
+    "topic": "parliament",
+    "topicLabel": "Parliament & Legislation",
+    "difficulty": "hard",
+    "question": "Consider the following statements regarding the Nari Shakti Vandan Adhiniyam or the Women's Reservation Bill which was recently passed by the Parliament: 1. The Act aims to reserve one-third of all seats for women in the Lok Sabha and the State Legislatures. 2. The Act also included reservation of one third of the seats to women of economically weaker sections. 3. The Act shall also reserve one third of the seats for SC and ST sections. Choose the correct answer:",
+    "options": [
+      "1 and 2 are true",
+      "1 and 3 are true",
+      "Only 1 is true",
+      "All statements are true"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Only 1 is true\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "parliament"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-017",
+    "subject": "current-affairs",
+    "topic": "elections",
+    "topicLabel": "Elections",
+    "difficulty": "medium",
+    "question": "The Election Commission of India started the 'Mera Pehla Vote Desh Ke Liye' campaign with which ministry?",
+    "options": [
+      "Ministry of Education",
+      "Ministry of Home Affairs",
+      "Ministry of Minority Affairs",
+      "Ministry of Youth affairs and sports"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Ministry of Education\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "elections"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-018",
+    "subject": "gk",
+    "topic": "economy",
+    "topicLabel": "Indian Economy",
+    "difficulty": "medium",
+    "question": "Which of these statements regarding the launched Central Bank Digital Currency (CBDC) is false?",
+    "options": [
+      "They are legal tenders issued and backed by a central bank.",
+      "It is the same as a fiat currency and is exchangeable one-to-one with the fiat currency.",
+      "The digital fiat currency can be transacted using wallets backed by blockchain.",
+      "The value of the digital currency is pegged to the price of a commodity such as gold or silver."
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"The value of the digital currency is pegged to the price of a commodity such as gold or silver.\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "economy"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-019",
+    "subject": "current-affairs",
+    "topic": "world-affairs",
+    "topicLabel": "World Affairs",
+    "difficulty": "medium",
+    "question": "Which country launched the 'Ukraine Security Assistance Initiative'?",
+    "options": [
+      "USA",
+      "UK",
+      "Australia",
+      "Germany"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"USA\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "world-affairs"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-020",
+    "subject": "current-affairs",
+    "topic": "science-tech",
+    "topicLabel": "Science & Technology",
+    "difficulty": "medium",
+    "question": "Which Indian institution has developed and patented a device named 'Artsens' to screen for cardiovascular diseases?",
+    "options": [
+      "IIT Delhi",
+      "IISc Bengaluru",
+      "IIT Madras",
+      "NIT Tiruchirappalli"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"IIT Madras\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "science-tech"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-021",
+    "subject": "gk",
+    "topic": "international-organizations",
+    "topicLabel": "International Organizations",
+    "difficulty": "medium",
+    "question": "The 'International Day of Solidarity with the Palestinian People' observed by the UN yearly since 1978 is on -",
+    "options": [
+      "November 29",
+      "November 30",
+      "December 1",
+      "December 2"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"November 29\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "international-organizations"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-022",
+    "subject": "current-affairs",
+    "topic": "science-tech",
+    "topicLabel": "Science & Technology",
+    "difficulty": "medium",
+    "question": "Air India's AI-powered chat assistant, a generative AI virtual agent, is called -",
+    "options": [
+      "SkyMate",
+      "Maharaja",
+      "CloudTalk",
+      "Aisha"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Maharaja\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "science-tech"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-023",
+    "subject": "current-affairs",
+    "topic": "economy",
+    "topicLabel": "Indian Economy",
+    "difficulty": "medium",
+    "question": "What is the daily payment limit for UPI transactions set by the National Payments Corporation of India (NPCI) starting from January 1, 2024? (except for Educational Institute or Healthcare)",
+    "options": [
+      "Rs. 10,000",
+      "Rs. 50,000",
+      "Rs. 1 lakh",
+      "Rs. 5 lakh"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Rs. 1 lakh\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "economy"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-024",
+    "subject": "current-affairs",
+    "topic": "science-tech",
+    "topicLabel": "Science & Technology",
+    "difficulty": "medium",
+    "question": "Which company has recently announced an initiative 'AI Odyssey' to skill 100,000 developers in India on AI technology?",
+    "options": [
+      "IBM",
+      "Google",
+      "Amazon",
+      "Microsoft"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"Microsoft\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "science-tech"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-025",
+    "subject": "current-affairs",
+    "topic": "defence",
+    "topicLabel": "Defence & Military",
+    "difficulty": "medium",
+    "question": "Drishti 10 Starliner, the indigenously manufactured Unmanned Aerial Vehicle (UAV) recently flagged off by Chief of Naval Staff was developed by -",
+    "options": [
+      "Adani Defence and Aerospace",
+      "DRDO",
+      "Hindustan Aeronautics",
+      "Advanced Weapons and Equipment India Limited"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Adani Defence and Aerospace\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "defence"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-027",
+    "subject": "current-affairs",
+    "topic": "polity",
+    "topicLabel": "Polity Current Affairs",
+    "difficulty": "easy",
+    "question": "Which state in India became the first to implement the Uniform Civil Code?",
+    "options": [
+      "Goa",
+      "Himachal Pradesh",
+      "Uttarakhand",
+      "Gujarat"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Uttarakhand\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "polity"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-028",
+    "subject": "current-affairs",
+    "topic": "world-affairs",
+    "topicLabel": "World Affairs",
+    "difficulty": "medium",
+    "question": "Which country enshrined the Right to Abortion in its Constitution?",
+    "options": [
+      "USA",
+      "France",
+      "Germany",
+      "Denmark"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"France\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "world-affairs"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-030",
+    "subject": "current-affairs",
+    "topic": "world-affairs",
+    "topicLabel": "World Affairs",
+    "difficulty": "medium",
+    "question": "Who is the first woman to be elected as Chief Minister of a province in Pakistan?",
+    "options": [
+      "Maryam Nawaz",
+      "Benazir Bhutto",
+      "Zartaj Gul",
+      "Nafisa Shah"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Maryam Nawaz\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "world-affairs"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-031",
+    "subject": "current-affairs",
+    "topic": "border-affairs",
+    "topicLabel": "Border & Security Affairs",
+    "difficulty": "hard",
+    "question": "Consider the following statements regarding the Free Movement Regime - 1. It has been in place since 2018. 2. It allows tribes inhabiting both sides of the border to travel up to 16 km across the border without visas. 3. Individuals were also allowed up to 3 months in the neighboring country by getting a one-year border pass. Select the statements that are True:",
+    "options": [
+      "1 only",
+      "1 and 2",
+      "2 and 3",
+      "1 and 3"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"2 and 3\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "border-affairs"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-032",
+    "subject": "current-affairs",
+    "topic": "world-affairs",
+    "topicLabel": "World Affairs",
+    "difficulty": "medium",
+    "question": "Which country filed a case against Israel in the International Court of Justice claiming violations of its obligations under the Genocide Convention regarding acts against Palestinians in Gaza?",
+    "options": [
+      "UK",
+      "Germany",
+      "South Africa",
+      "Brazil"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"South Africa\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "world-affairs"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-033",
+    "subject": "current-affairs",
+    "topic": "international-relations",
+    "topicLabel": "International Relations",
+    "difficulty": "medium",
+    "question": "The foundation stone for Bharat Mart was recently laid by Prime Minister Narendra Modi in which city -",
+    "options": [
+      "Dubai",
+      "Cairo",
+      "Riyadh",
+      "Abu Dhabi"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Dubai\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "international-relations"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-034",
+    "subject": "current-affairs",
+    "topic": "judiciary",
+    "topicLabel": "Judiciary",
+    "difficulty": "medium",
+    "question": "The Supreme Court of India, in an attempt to ensure the complete eradication of manual scavenging has ordered the compensation in the cases of sewer deaths to be increased to -",
+    "options": [
+      "Rs. 10 lakhs",
+      "Rs. 20 lakhs",
+      "Rs. 30 lakhs",
+      "Rs. 40 lakhs"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Rs. 30 lakhs\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "judiciary"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-035",
+    "subject": "current-affairs",
+    "topic": "economy",
+    "topicLabel": "Indian Economy",
+    "difficulty": "medium",
+    "question": "What per cent of GST is levied on cancer-fighting drugs, medicines for rare diseases, and food products for special medical purposes?",
+    "options": [
+      "0%",
+      "2%",
+      "5%",
+      "12%"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"0%\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "economy"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-036",
+    "subject": "current-affairs",
+    "topic": "science-tech",
+    "topicLabel": "Science & Technology",
+    "difficulty": "medium",
+    "question": "Which institution has released a set of guidelines regarding Generative AI in India to ensure responsible AI use?",
+    "options": [
+      "TRAI",
+      "NASSCOM",
+      "MeitY",
+      "Ministry of Information and Broadcasting"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"MeitY\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "science-tech"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-037",
+    "subject": "current-affairs",
+    "topic": "economy",
+    "topicLabel": "Indian Economy",
+    "difficulty": "medium",
+    "question": "GIFT NIFTY is the first cross-border initiative in connecting the capital markets of India and which country?",
+    "options": [
+      "Japan",
+      "France",
+      "USA",
+      "Singapore"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"Singapore\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "economy"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-038",
+    "subject": "current-affairs",
+    "topic": "science-tech",
+    "topicLabel": "Science & Technology",
+    "difficulty": "easy",
+    "question": "Which of the following advanced AI model has been launched by Google's parent company Alphabet?",
+    "options": [
+      "Aqua",
+      "Gemini",
+      "Neo",
+      "Gossip"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Gemini\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "science-tech"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-040",
+    "subject": "current-affairs",
+    "topic": "world-affairs",
+    "topicLabel": "World Affairs",
+    "difficulty": "medium",
+    "question": "Which country has joined NATO as its 32nd member?",
+    "options": [
+      "Sweden",
+      "Finland",
+      "Ukraine",
+      "Serbia"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Sweden\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "world-affairs"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-041",
+    "subject": "polity",
+    "topic": "constitutional-sources",
+    "topicLabel": "Sources of the Constitution",
+    "difficulty": "medium",
+    "question": "Which of the following features and their source is wrongly matched?",
+    "options": [
+      "Judicial review — British practice",
+      "Concurrent List — Australian Constitution",
+      "Directive Principles — Irish Constitution",
+      "Fundamental Rights — US Constitution"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Judicial review — British practice\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "constitutional-sources"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-042",
+    "subject": "polity",
+    "topic": "federalism",
+    "topicLabel": "Federalism",
+    "difficulty": "medium",
+    "question": "Which of the following is a feature common to both the Indian Federation and the American Federation?",
+    "options": [
+      "A single citizenship",
+      "Dual Judiciary",
+      "Three lists in the Constitution",
+      "A Federal Supreme Court to interpret the Constitution"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"A Federal Supreme Court to interpret the Constitution\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "federalism"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-043",
+    "subject": "polity",
+    "topic": "dpsp",
+    "topicLabel": "Directive Principles of State Policy",
+    "difficulty": "medium",
+    "question": "Which of the following is/are included in the Directive Principles of State Policy? 1. Prohibition of traffic in human beings and forced labour. 2. Prohibition of consumption except for medicinal purposes of intoxicating drinks and of other drugs which are injurious to health.",
+    "options": [
+      "1 only",
+      "2 only",
+      "Both 1 and 2",
+      "Neither 1 nor 2"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"2 only\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "dpsp"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-044",
+    "subject": "polity",
+    "topic": "dpsp",
+    "topicLabel": "Directive Principles of State Policy",
+    "difficulty": "medium",
+    "question": "The Articles of the Constitution of India which deal with Directive Principles of State Policy are :",
+    "options": [
+      "26-41",
+      "30-45",
+      "36-51",
+      "46-61"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"36-51\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "dpsp"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-045",
+    "subject": "polity",
+    "topic": "dpsp",
+    "topicLabel": "Directive Principles of State Policy",
+    "difficulty": "hard",
+    "question": "Consider the following statements regarding Uniform Civil Code: 1. It is mentioned in Article 43 of the Constitution. 2. It would replace the distinct personal laws of each religion. 3. It has been enforced in three states in India. Select the correct answer.",
+    "options": [
+      "Only 1 is True",
+      "Only 2 is true",
+      "1 and 2 are true",
+      "2 and 3 are true"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Only 2 is true\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "dpsp"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-047",
+    "subject": "polity",
+    "topic": "legislative-lists",
+    "topicLabel": "Union, State & Concurrent Lists",
+    "difficulty": "hard",
+    "question": "Which of the following is not correctly matched with reference to the Constitution?",
+    "options": [
+      "Forests — Concurrent List",
+      "Bankruptcy and insolvency — State List",
+      "Insurance — Union List",
+      "Marriage and Divorce — Concurrent List"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Bankruptcy and insolvency — State List\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "legislative-lists"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-048",
+    "subject": "polity",
+    "topic": "constitutional-bodies",
+    "topicLabel": "Constitutional & Extra-Constitutional Bodies",
+    "difficulty": "medium",
+    "question": "The Prime Minister, Union Cabinet Minister, Chief Minister and Council of Ministers are all members of",
+    "options": [
+      "National Integration Council",
+      "Planning Commission",
+      "National Development Council",
+      "Zonal Council"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"National Development Council\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "constitutional-bodies"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-049",
+    "subject": "polity",
+    "topic": "article-370",
+    "topicLabel": "Article 370 & J&K Reorganisation",
+    "difficulty": "medium",
+    "question": "Choose the correct answer, considering the following statements: 1. The Jammu and Kashmir Reorganisation Bill, 2019 was introduced in Rajya Sabha. 2. The abrogation of Article 370 bifurcated the state into three separate Union Territories — Jammu & Kashmir, Ladakh and Leh.",
+    "options": [
+      "Only 1 is true",
+      "Only 2 is true",
+      "Both 1 and 2 are true",
+      "Neither 1 or 2 are true"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Only 1 is true\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "article-370"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-052",
+    "subject": "polity",
+    "topic": "parliament",
+    "topicLabel": "Parliament & Legislation",
+    "difficulty": "medium",
+    "question": "Which of the statements is/are false regarding the powers of the Rajya Sabha? 1. A money bill cannot be introduced in the Rajya Sabha 2. The Rajya Sabha has no power to reject or amend a Money Bill 3. It has voting rights on the Demands for grants",
+    "options": [
+      "1 and 2",
+      "Only 1",
+      "Only 3",
+      "2 and 3"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Only 3\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "parliament"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-053",
+    "subject": "polity",
+    "topic": "union-budget",
+    "topicLabel": "Union Budget",
+    "difficulty": "medium",
+    "question": "Which one of the following is responsible for the preparation and presentation of Union Budget to the Parliament?",
+    "options": [
+      "Department of Revenue",
+      "Department of Financial Services",
+      "Department of Expenditure",
+      "Department of Economic Affairs"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"Department of Economic Affairs\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "union-budget"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-054",
+    "subject": "polity",
+    "topic": "constitutional-bodies",
+    "topicLabel": "Constitutional & Extra-Constitutional Bodies",
+    "difficulty": "medium",
+    "question": "The establishment and power of the Election Commission of India comes under ___ of the Constitution.",
+    "options": [
+      "Part IV, Article 324",
+      "Part VI, Article 320",
+      "Part XV, Article 324",
+      "Part XI, Article 320"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"Part XV, Article 324\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "constitutional-bodies"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-055",
+    "subject": "polity",
+    "topic": "constitutional-bodies",
+    "topicLabel": "Constitutional & Extra-Constitutional Bodies",
+    "difficulty": "medium",
+    "question": "Which one is not true about the Attorney General of India?",
+    "options": [
+      "He is the legal advisor to the Government of India",
+      "He has voting rights in the proceeding of the Parliament",
+      "His tenure and salary are decided by the President",
+      "He appears before high courts and Supreme Court in cases involving union government."
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"He has voting rights in the proceeding of the Parliament\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "constitutional-bodies"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-056",
+    "subject": "polity",
+    "topic": "parliament",
+    "topicLabel": "Parliament & Legislation",
+    "difficulty": "medium",
+    "question": "The quorum for Joint Sitting of the Indian Parliament is -",
+    "options": [
+      "One-twelfth of the total number of members of the House.",
+      "One-sixth of the total numbers of members of the House.",
+      "Two-thirds of the total number of members of the House.",
+      "One-tenth of the total number of members of the House."
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"One-tenth of the total number of members of the House.\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "parliament"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-058",
+    "subject": "polity",
+    "topic": "judiciary",
+    "topicLabel": "Judiciary",
+    "difficulty": "medium",
+    "question": "This single system of courts, adopted from the ___ enforces both Central laws as well as the state laws.",
+    "options": [
+      "Government of India Act of 1935",
+      "Government of India Act of 1953",
+      "Government of India Act of 1947",
+      "Government of India Act of 1950"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"Government of India Act of 1935\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "judiciary"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-059",
+    "subject": "polity",
+    "topic": "constitutional-sources",
+    "topicLabel": "Sources of the Constitution",
+    "difficulty": "medium",
+    "question": "The concept of the Freedom of trade in India's Constitution is adopted from the Constitution of which country?",
+    "options": [
+      "United Kingdom",
+      "United States",
+      "Ireland",
+      "Australia"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"Australia\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "constitutional-sources"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-061",
+    "subject": "gk",
+    "topic": "economy",
+    "topicLabel": "Indian Economy",
+    "difficulty": "medium",
+    "question": "The Human Development Index (HDI) summarizes a great deal of social performance in a single composite index, which combines -",
+    "options": [
+      "disparity reduction rate, human resource development rate and the composite index.",
+      "longevity, education and living standard.",
+      "minimum schooling, adult literacy and tertiary educational attainment.",
+      "human resource training, development and R&D."
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"longevity, education and living standard.\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "economy"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-062",
+    "subject": "gk",
+    "topic": "international-organizations",
+    "topicLabel": "International Organizations",
+    "difficulty": "hard",
+    "question": "When was the United Nations Commission on Sustainable Development (CSD) started by the UN General Assembly?",
+    "options": [
+      "January 1992",
+      "March 1993",
+      "December 1992",
+      "November 1993"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"December 1992\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "international-organizations"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-063",
+    "subject": "gk",
+    "topic": "government-schemes",
+    "topicLabel": "Government Schemes",
+    "difficulty": "medium",
+    "question": "With regard to the Pradhan Mantri Rozgar Protsahan Yojana, consider the following statements- 1. It is implemented by the Ministry of Labour and Employment. 2. The scheme is targeted for workers earning wages upto Rs. 15,000/- per month 3. Any person who crossed 30 years of age can join the scheme. Which among the above statements is/are correct?",
+    "options": [
+      "1 and 2",
+      "1 and 3",
+      "2 and 3",
+      "1,2 and 3"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"1 and 2\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "government-schemes"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-064",
+    "subject": "gk",
+    "topic": "government-schemes",
+    "topicLabel": "Government Schemes",
+    "difficulty": "medium",
+    "question": "Which of these is not an objective of 'Make In India' initiative?",
+    "options": [
+      "To promote export-led growth.",
+      "To remove disconnect between demand and supply of skilled manpower.",
+      "To attract foreign investment for new industrialisation.",
+      "To create 100 million additional jobs by 2022."
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"To promote export-led growth.\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "government-schemes"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-065",
+    "subject": "gk",
+    "topic": "government-schemes",
+    "topicLabel": "Government Schemes",
+    "difficulty": "medium",
+    "question": "The 'YUVA PORTAL' to identify potential young Start-Ups functions under which union ministry?",
+    "options": [
+      "Ministry of Science and Technology",
+      "Ministry of Youth Affairs and Sports",
+      "Ministry of Power",
+      "Ministry of Housing and Urban Affairs"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Ministry of Youth Affairs and Sports\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "government-schemes"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-067",
+    "subject": "gk",
+    "topic": "economy",
+    "topicLabel": "Indian Economy",
+    "difficulty": "medium",
+    "question": "Consider the following statements: 1. The Self-Help Group (SHG) programme was originally initiated by the State Bank of India by providing microcredit to the financially deprived. 2. In an SHG all members of a group take responsibility for a loan that an individual member takes. Which of these statements are true?",
+    "options": [
+      "Only I",
+      "Only II",
+      "I and II",
+      "Neither I nor II"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Only II\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "economy"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-068",
+    "subject": "polity",
+    "topic": "constituent-assembly",
+    "topicLabel": "Constituent Assembly",
+    "difficulty": "medium",
+    "question": "Which of the following Committees of the Constituent Assembly was headed by Sardar Vallabhbhai Patel? 1. Provincial Constitution Committee 2. Advisory Committee on Fundamental Rights, Minorities, and Tribal and Excluded Areas 3. Union Constitution committee 4. Drafting Committee",
+    "options": [
+      "1 and 2",
+      "2 and 3",
+      "3 and 4",
+      "All of the above"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"1 and 2\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "constituent-assembly"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-069",
+    "subject": "polity",
+    "topic": "preamble",
+    "topicLabel": "Preamble",
+    "difficulty": "medium",
+    "question": "The term 'Socialist' in the Preamble was added to the constitution in the year ___ by the ___ Constitutional Amendment Act.",
+    "options": [
+      "1975; 40th",
+      "1975; 42nd",
+      "1976; 42nd",
+      "1977; 43rd"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"1976; 42nd\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "preamble"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-070",
+    "subject": "history",
+    "topic": "modern-india",
+    "topicLabel": "Modern Indian History",
+    "difficulty": "medium",
+    "question": "India's first Five Year Plan introduced by Jawaharlal Nehru spanned the period between -",
+    "options": [
+      "April 1950 — March 1955",
+      "April 1951 — March 1956",
+      "April 1952 — March 1957",
+      "April 1953 — March 1958"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"April 1951 — March 1956\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "modern-india"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-071",
+    "subject": "history",
+    "topic": "modern-india",
+    "topicLabel": "Modern Indian History",
+    "difficulty": "medium",
+    "question": "The State Reorganisation Commission was constituted in the year -",
+    "options": [
+      "1950",
+      "1951",
+      "1952",
+      "1953"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"1953\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "modern-india"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-072",
+    "subject": "history",
+    "topic": "freedom-struggle",
+    "topicLabel": "Freedom Struggle",
+    "difficulty": "medium",
+    "question": "Who was the president of Indian National Congress at the time of India's Independence?",
+    "options": [
+      "J.B. Kripalani",
+      "Jawaharlal Nehru",
+      "Sardar Vallabhai Patel",
+      "Abul Kalam Azad"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correct answer: \"J.B. Kripalani\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "freedom-struggle"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-081",
+    "subject": "reasoning",
+    "topic": "quantitative-aptitude",
+    "topicLabel": "Quantitative Aptitude",
+    "difficulty": "medium",
+    "question": "The average of 7 consecutive numbers is 20. The largest of these numbers is:",
+    "options": [
+      "21",
+      "22",
+      "23",
+      "24"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"23\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "quantitative-aptitude"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-082",
+    "subject": "reasoning",
+    "topic": "quantitative-aptitude",
+    "topicLabel": "Quantitative Aptitude",
+    "difficulty": "hard",
+    "question": "A shopkeeper cheats to the extent of 10% while buying and selling, by using false weights. His total gain is -",
+    "options": [
+      "20%",
+      "21%",
+      "22%",
+      "23%"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"21%\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "quantitative-aptitude"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-083",
+    "subject": "reasoning",
+    "topic": "quantitative-aptitude",
+    "topicLabel": "Quantitative Aptitude",
+    "difficulty": "hard",
+    "question": "A can do a piece of work in 10 days, B in 15 days. They work together for 5 days, the rest of the work is finished by C in two more days. If they get Rs. 3000 as wages for the whole work, what are the daily wages of A, B and C respectively (in Rs.)?",
+    "options": [
+      "200, 250, 300",
+      "300, 200, 250",
+      "200, 300, 400",
+      "None of these"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"300, 200, 250\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "quantitative-aptitude"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-087",
+    "subject": "reasoning",
+    "topic": "verbal-analogy",
+    "topicLabel": "Verbal Analogy",
+    "difficulty": "medium",
+    "question": "Exhibit : display :: send : ?",
+    "options": [
+      "Stamp",
+      "Receive",
+      "Show",
+      "Emit"
+    ],
+    "answerIndex": 3,
+    "explanation": "Correct answer: \"Emit\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "verbal-analogy"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-088",
+    "subject": "reasoning",
+    "topic": "quantitative-aptitude",
+    "topicLabel": "Quantitative Aptitude",
+    "difficulty": "hard",
+    "question": "In a class of 60 students where girls are twice that of boys, Laxmi ranked 27th from the top. If there are 9 boys ahead of Laxmi, how many girls are after her rank?",
+    "options": [
+      "23",
+      "21",
+      "22",
+      "24"
+    ],
+    "answerIndex": 2,
+    "explanation": "Correct answer: \"22\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "quantitative-aptitude"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-090",
+    "subject": "reasoning",
+    "topic": "logical-reasoning",
+    "topicLabel": "Logical Reasoning",
+    "difficulty": "medium",
+    "question": "I. Tanya is older than Eric. II. Cliff is older than Tanya. III. Eric is older than Cliff. If the first two statements are true, the third statement is",
+    "options": [
+      "true",
+      "false",
+      "uncertain",
+      "none"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"false\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "logical-reasoning"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
+  },
+  {
+    "id": "mpsc-mls-gk-091",
+    "subject": "reasoning",
+    "topic": "verbal-analogy",
+    "topicLabel": "Verbal Analogy",
+    "difficulty": "hard",
+    "question": "Seismography : Earthquake :: Taseometer : ?",
+    "options": [
+      "Landslides",
+      "Strains",
+      "Resistances",
+      "Volcanoes"
+    ],
+    "answerIndex": 1,
+    "explanation": "Correct answer: \"Strains\".",
+    "source": "MPSC (Mizoram)",
+    "year": 2024,
+    "tags": [
+      "verbal-analogy"
+    ],
+    "paperId": "mpsc-direct-2024-mizoram-legal-service-general-knowledge"
   }
 ];

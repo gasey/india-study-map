@@ -1,4 +1,4 @@
-import { useMemo } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { getBank } from '@/data/banks';
 import type { BankQuestion, ExamPaper } from '@/data/banks/types';
 
@@ -7,10 +7,48 @@ import type { BankQuestion, ExamPaper } from '@/data/banks/types';
 // structures the UI needs: papers enriched with their questions, papers
 // clustered into "sittings" (so Paper-I / Paper-II of the same exam group
 // together for comparison), and the option lists that drive the filters.
+//
+// Data is fetched live from the MPSC Postgres API on shiksha-dev (the
+// source of truth as extraction batches land) with the bundled static
+// bank as a fallback if the API is unreachable, so the module still works
+// offline / if the droplet is down.
 // ============================================
 
 export const BANK_ID = 'mpsc-old-questions';
 export const ALL = 'all';
+
+const API_URL = 'http://134.209.154.122/mpsc-api/api/mpsc/bank';
+
+interface RawBank {
+  papers: ExamPaper[];
+  questions: BankQuestion[];
+}
+
+function useMpscBank(): RawBank {
+  const staticBank = getBank(BANK_ID);
+  const fallback: RawBank = useMemo(
+    () => ({ papers: staticBank?.papers ?? [], questions: staticBank?.questions ?? [] }),
+    [staticBank],
+  );
+  const [remote, setRemote] = useState<RawBank | null>(null);
+
+  useEffect(() => {
+    let cancelled = false;
+    fetch(API_URL)
+      .then((r) => (r.ok ? r.json() : Promise.reject(new Error(`HTTP ${r.status}`))))
+      .then((data: RawBank) => {
+        if (!cancelled) setRemote(data);
+      })
+      .catch(() => {
+        // API unreachable — the static fallback bank is already in place.
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  return remote ?? fallback;
+}
 
 export interface PaperWithQuestions extends ExamPaper {
   questions: BankQuestion[];
@@ -66,11 +104,11 @@ function sittingKey(p: ExamPaper): string {
 }
 
 export function useMpscData() {
-  const bank = getBank(BANK_ID);
+  const bank = useMpscBank();
 
   return useMemo(() => {
-    const papers = bank?.papers ?? [];
-    const questions = bank?.questions ?? [];
+    const papers = bank.papers;
+    const questions = bank.questions;
 
     // Group questions under their paper.
     const byPaper = new Map<string, BankQuestion[]>();

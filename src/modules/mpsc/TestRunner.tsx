@@ -122,6 +122,14 @@ export function TestRunner({ title, targetId, questions, onExit }: Props) {
             const unanswered = !(item.id in answers);
             return (
               <div key={item.id} className="rounded-lg p-4" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+                {item.passage && (
+                  <div
+                    className="mb-2 ml-5 p-2 rounded text-xs leading-relaxed whitespace-pre-wrap"
+                    style={{ background: 'var(--bg-panel-elev)', color: 'var(--text-secondary)' }}
+                  >
+                    {item.passage}
+                  </div>
+                )}
                 <div className="flex items-start gap-2 mb-2">
                   <span className="text-xs mt-0.5" style={{ color: 'var(--text-muted)' }}>{i + 1}.</span>
                   <p className="font-medium text-sm leading-relaxed flex-1">{item.question}</p>
@@ -203,6 +211,14 @@ export function TestRunner({ title, targetId, questions, onExit }: Props) {
             {flagged.has(q.id) ? '🚩 Flagged' : '⚐ Flag'}
           </button>
         </div>
+        {q.passage && (
+          <div
+            className="mb-4 p-3 rounded-lg text-sm leading-relaxed whitespace-pre-wrap"
+            style={{ background: 'var(--bg-panel-elev)', border: '1px solid var(--border)', color: 'var(--text-secondary)' }}
+          >
+            {q.passage}
+          </div>
+        )}
         <p className="font-medium mb-4 leading-relaxed">
           <span style={{ color: 'var(--text-muted)' }} className="mr-2">{idx + 1}.</span>{q.question}
         </p>

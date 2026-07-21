@@ -109,13 +109,23 @@ export function QuestionsTable({ questions, paperById }: QuestionsTableProps) {
               const paper = q.paperId ? paperById.get(q.paperId) : undefined;
               return (
                 <tr key={q.id} className="border-b dark:border-slate-700 hover:bg-gray-50 dark:hover:bg-slate-800">
-                  <td className="px-3 py-2 text-left line-clamp-2">
+                  <td className="px-3 py-2 text-left">
                     <p className="text-xs text-gray-600 dark:text-gray-400 mb-1">
                       {paper?.examType && <span className="font-medium">{paper.examType.replace('_', ' ')}</span>}
                       {paper?.examType && paper?.examName ? ' · ' : ''}
                       {paper?.examName}
                     </p>
-                    <p>{q.question}</p>
+                    {q.passage && (
+                      <details className="mb-1">
+                        <summary className="text-xs text-blue-600 dark:text-blue-400 cursor-pointer select-none">
+                          📄 Show passage
+                        </summary>
+                        <p className="text-xs mt-1 p-2 bg-gray-100 dark:bg-slate-900 rounded whitespace-pre-wrap">
+                          {q.passage}
+                        </p>
+                      </details>
+                    )}
+                    <p className="line-clamp-2">{q.question}</p>
                   </td>
                   <td className="px-3 py-2 text-left text-xs">{paper?.post || '—'}</td>
                   <td className="px-3 py-2 text-left text-xs">{q.subject}</td>

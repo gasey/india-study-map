@@ -48,6 +48,9 @@ export interface BankQuestion {
   /** Human topic label, e.g. 'Fundamental Rights'. */
   topicLabel: string;
   difficulty: BankDifficulty;
+  /** Reading passage the question depends on (comprehension sections) —
+   *  shown above the question when present. */
+  passage?: string;
   question: string;
   options: string[];
   answerIndex: number;

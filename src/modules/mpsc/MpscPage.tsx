@@ -9,15 +9,17 @@ import {
   type MpscFilters, type PaperWithQuestions, type Sitting,
 } from './useMpscData';
 import { TestRunner } from './TestRunner';
+import { QuestionsTable } from './QuestionsTable';
 
 // ============================================
 // MPSC OLD QUESTIONS — module shell.
-// Three flows: Library (browse real papers, grouped by exam sitting so
-// Paper-I/II compare side by side), Practice (filtered drill), History
-// (past test scores). A launched test takes over the whole panel.
+// Four flows: Library (browse real papers, grouped by exam sitting so
+// Paper-I/II compare side by side), Browser (full-page searchable table),
+// Practice (filtered drill), History (past test scores).
+// A launched test takes over the whole panel.
 // ============================================
 
-type Tab = 'library' | 'practice' | 'history';
+type Tab = 'library' | 'browser' | 'practice' | 'history';
 
 interface ActiveTest {
   title: string;
@@ -58,6 +60,7 @@ export function MpscPage() {
   const visibleSittings = useMemo(() => {
     return data.sittings.filter((s) => {
       if (filters.examType !== ALL && s.examType !== filters.examType) return false;
+      if (filters.post !== ALL && s.post !== filters.post) return false;
       if (filters.year !== ALL && String(s.year) !== filters.year) return false;
       if (filters.subject !== ALL && !s.papers.some((p) => p.questions.some((q) => q.subject === filters.subject))) return false;
       return true;
@@ -122,7 +125,7 @@ export function MpscPage() {
     <Shell theme={theme} toggleTheme={toggleTheme} hasDesktopChrome={hasDesktopChrome}>
       {/* Tabs */}
       <div className="shrink-0 flex items-center gap-1 px-5 pt-3 border-b" style={{ borderColor: 'var(--border)' }}>
-        {(['library', 'practice', 'history'] as Tab[]).map((t) => (
+        {(['library', 'browser', 'practice', 'history'] as Tab[]).map((t) => (
           <button
             key={t}
             onClick={() => setTab(t)}
@@ -133,7 +136,7 @@ export function MpscPage() {
               fontWeight: tab === t ? 600 : 400,
             }}
           >
-            {t === 'library' ? '📄 Library' : t === 'practice' ? '✍️ Practice' : '📈 History'}
+            {t === 'library' ? '📄 Library' : t === 'browser' ? '🔍 Browse' : t === 'practice' ? '✍️ Practice' : '📈 History'}
           </button>
         ))}
         <span className="ml-auto text-xs self-center" style={{ color: 'var(--text-secondary)' }}>
@@ -141,12 +144,16 @@ export function MpscPage() {
         </span>
       </div>
 
-      {/* Filters (library + practice) */}
+      {/* Filters (library + browser + practice) */}
       {tab !== 'history' && (
         <div className="shrink-0 flex flex-wrap items-center gap-2 px-5 py-3 border-b" style={{ borderColor: 'var(--border)' }}>
           <select value={filters.examType} onChange={(e) => set({ examType: e.target.value })} className={selectCls} style={selectStyle}>
             <option value={ALL}>All exam types</option>
             {data.examTypes.map((t) => <option key={t} value={t}>{t.replace('_', ' ')}</option>)}
+          </select>
+          <select value={filters.post} onChange={(e) => set({ post: e.target.value })} className={selectCls} style={selectStyle}>
+            <option value={ALL}>All posts</option>
+            {data.posts.map((p) => <option key={p} value={p}>{p}</option>)}
           </select>
           <select value={filters.year} onChange={(e) => set({ year: e.target.value })} className={selectCls} style={selectStyle}>
             <option value={ALL}>All years</option>
@@ -162,7 +169,7 @@ export function MpscPage() {
             <option value="medium">Medium</option>
             <option value="hard">Hard</option>
           </select>
-          {(filters.examType !== ALL || filters.year !== ALL || filters.subject !== ALL || filters.difficulty !== ALL) && (
+          {(filters.examType !== ALL || filters.post !== ALL || filters.year !== ALL || filters.subject !== ALL || filters.difficulty !== ALL) && (
             <button onClick={() => setFilters(emptyFilters)} className="px-2.5 py-1.5 rounded-md text-sm hover:bg-[var(--bg-panel-elev)]" style={{ border: '1px solid var(--border)' }}>
               Clear
             </button>
@@ -170,13 +177,36 @@ export function MpscPage() {
         </div>
       )}
 
-      <main className="scroll-panel flex-1 min-h-0 overflow-y-auto px-5 py-5">
-        {tab === 'library' && <Library sittings={visibleSittings} onTakeTest={launchPaperTest} />}
-        {tab === 'practice' && <Practice pool={practicePool} onStartTest={launchPracticeTest} />}
-        {tab === 'history' && <History results={testResults} />}
-        <div className="mt-6 max-w-3xl mx-auto text-xs" style={{ color: 'var(--text-secondary)' }}>
-          <Link to="/" className="hover:underline">← Back to Home</Link>
-        </div>
+      <main className={`flex-1 min-h-0 ${tab === 'browser' ? 'overflow-hidden' : 'scroll-panel overflow-y-auto px-5 py-5'}`}>
+        {tab === 'library' && (
+          <>
+            <div className="scroll-panel overflow-y-auto h-full px-5 py-5">
+              <Library sittings={visibleSittings} onTakeTest={launchPaperTest} />
+              <div className="mt-6 max-w-3xl mx-auto text-xs" style={{ color: 'var(--text-secondary)' }}>
+                <Link to="/" className="hover:underline">← Back to Home</Link>
+              </div>
+            </div>
+          </>
+        )}
+        {tab === 'browser' && <Browser questions={practicePool} paperById={paperById} />}
+        {tab === 'practice' && (
+          <>
+            <Practice pool={practicePool} onStartTest={launchPracticeTest} />
+            <div className="mt-6 max-w-3xl mx-auto text-xs" style={{ color: 'var(--text-secondary)' }}>
+              <Link to="/" className="hover:underline">← Back to Home</Link>
+            </div>
+          </>
+        )}
+        {tab === 'history' && (
+          <>
+            <div className="scroll-panel overflow-y-auto h-full px-5 py-5">
+              <History results={testResults} />
+              <div className="mt-6 max-w-3xl mx-auto text-xs" style={{ color: 'var(--text-secondary)' }}>
+                <Link to="/" className="hover:underline">← Back to Home</Link>
+              </div>
+            </div>
+          </>
+        )}
       </main>
     </Shell>
   );
@@ -247,6 +277,11 @@ function Practice({ pool, onStartTest }: { pool: BankQuestion[]; onStartTest: ()
       </button>
     </div>
   );
+}
+
+// ---- Browser: full-page searchable table ----
+function Browser({ questions, paperById }: { questions: BankQuestion[]; paperById: Map<string, ExamPaper> }) {
+  return <QuestionsTable questions={questions} paperById={paperById} />;
 }
 
 // ---- History: past test scores + per-target best ----

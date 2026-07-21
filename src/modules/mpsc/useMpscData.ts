@@ -69,6 +69,7 @@ export interface Sitting {
 
 export interface MpscFilters {
   examType: string;
+  post: string;
   year: string;
   subject: string;
   difficulty: string;
@@ -76,6 +77,7 @@ export interface MpscFilters {
 
 export const emptyFilters: MpscFilters = {
   examType: ALL,
+  post: ALL,
   year: ALL,
   subject: ALL,
   difficulty: ALL,
@@ -156,6 +158,7 @@ export function useMpscData() {
 
     // Filter option lists.
     const examTypes = [...new Set(papers.map((p) => p.examType))].sort();
+    const posts = [...new Set(papers.map((p) => p.post).filter((p): p is string => !!p))].sort();
     const years = [...new Set(papers.map((p) => p.year))].sort((a, b) => b - a);
     const subjects = [...new Set(questions.map((q) => q.subject))].sort();
 
@@ -166,6 +169,7 @@ export function useMpscData() {
       sittings,
       questions,
       examTypes,
+      posts,
       years,
       subjects,
       totalPapers: papers.length,
@@ -185,6 +189,7 @@ export function filterQuestions(
     if (f.difficulty !== ALL && q.difficulty !== f.difficulty) return false;
     const paper = q.paperId ? paperById.get(q.paperId) : undefined;
     if (f.examType !== ALL && paper?.examType !== f.examType) return false;
+    if (f.post !== ALL && paper?.post !== f.post) return false;
     if (f.year !== ALL && String(paper?.year ?? q.year) !== f.year) return false;
     return true;
   });

@@ -1,5 +1,6 @@
 import { Suspense, lazy, useEffect } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Analytics } from '@vercel/analytics/react';
 import { useApp } from '@/lib/store';
 import { AppShell } from '@/components/shell/AppShell';
 import { Home } from '@/pages/Home';
@@ -48,6 +49,7 @@ function ThemeSync() {
 export function Root() {
   return (
     <BrowserRouter>
+      <Analytics />
       <ThemeSync />
       <AppShell>
         <Suspense fallback={<Loading />}>

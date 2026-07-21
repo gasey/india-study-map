@@ -1,9 +1,10 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { motion, useMotionValueEvent, type MotionValue } from 'framer-motion';
-import { useApp, useHasHydrated, type ChronicleTrackMode } from '@/lib/store';
+import { useApp, useHasHydrated } from '@/lib/store';
 import { useTimelineScale, useScreenX } from './useTimelineScale';
 import type { TimelineRenderEntry } from './useTimelineData';
-import { TRACKS, formatYear, type TrackId, type Year, type Importance } from '@/data/timeline/types';
+import { TRACKS, type TrackId, type Year, type Importance } from '@/data/timeline/types';
+import { eras } from '@/data/timeline/eras';
 import { EntryNode, type LodLevel } from './EntryNode';
 import { TimeAxis } from './TimeAxis';
 import { MiniMap } from './MiniMap';
@@ -20,17 +21,13 @@ function lodFor(pxPerYearLocal: number): { level: LodLevel; importanceCeiling: I
   return { level: 'L4', importanceCeiling: 5 };
 }
 
-// Search/jump (spec §7): "1757", "-321", "321 BCE" all parse as a year;
-// anything else falls through to a fuzzy title/tag match instead.
-function parseYearQuery(text: string): Year | null {
-  const t = text.trim();
-  const bce = t.match(/^(\d+)\s*bce$/i);
-  if (bce) return -parseInt(bce[1], 10);
-  if (/^-?\d+$/.test(t)) return parseInt(t, 10);
-  return null;
+function eraIdForYear(year: Year): string {
+  for (const era of eras) {
+    if (year <= era.end) return era.id;
+  }
+  return eras[eras.length - 1]?.id ?? '';
 }
 
-const SEARCH_RESULT_LIMIT = 8;
 // Mid-L3 (spec's LOD table: L3 = 8-40 px/yr local) — a jump should land
 // somewhere you can read individual years, not the fully-zoomed-out view.
 const JUMP_TARGET_PX_PER_YEAR = 15;
@@ -268,34 +265,58 @@ function Lane({
   );
 }
 
-/** Core renderer: history + polity lanes, era bands, entry nodes. Full
- *  gesture set (wheel/pinch/drag/keyboard) drives zoom/pan via motion
- *  values — see useTimelineScale. LOD level and the virtualization window
- *  are recomputed from a throttled (~10Hz + on gesture-end) snapshot, not
- *  every frame, so gesture smoothness never waits on React. */
+/** Handle exposed upward so ChroniclePage's top bar/controls row (era
+ *  pills, command palette, quiz button) can drive the canvas's zoom/pan
+ *  without duplicating the scale math — only TimelineCanvas has the
+ *  measured container the scale is computed from. */
+export interface ChronicleScaleHandle {
+  zoomToYearRange: (startYear: Year, endYear: Year, marginFactor?: number) => void;
+  jumpToYearAtL3: (year: Year) => void;
+  fitAll: () => void;
+  getVisibleYearRange: () => { start: Year; end: Year };
+}
+
+/** Throttled (~10Hz) view snapshot for the top bar's live era readout and
+ *  the controls row's active era pill. */
+export interface ChronicleViewInfo {
+  centerYear: Year;
+  level: LodLevel;
+  currentEraId: string;
+}
+
 interface TimelineCanvasProps {
   renderEntries: TimelineRenderEntry[];
   orphanQuestions: BankQuestion[];
   selectedEntryId: string | null;
   onSelectEntry: (id: string | null) => void;
-  onStartRangeQuiz: (startYear: Year, endYear: Year) => void;
+  onScaleReady: (handle: ChronicleScaleHandle) => void;
+  onViewChange: (info: ChronicleViewInfo) => void;
+  /** False while Reading view covers the canvas — the canvas stays mounted
+   *  (so its scale/zoom state and the ChronicleScaleHandle era pills depend
+   *  on survive the switch) but its keyboard shortcuts should go quiet;
+   *  pointer/wheel input is already blocked by the parent's pointer-events-none. */
+  active: boolean;
 }
 
+/** Core renderer: history + polity lanes, era bands, entry nodes. Full
+ *  gesture set (wheel/pinch/drag/keyboard) drives zoom/pan via motion
+ *  values — see useTimelineScale. LOD level and the virtualization window
+ *  are recomputed from a throttled (~10Hz + on gesture-end) snapshot, not
+ *  every frame, so gesture smoothness never waits on React. */
 export function TimelineCanvas({
   renderEntries,
   orphanQuestions,
   selectedEntryId,
   onSelectEntry,
-  onStartRangeQuiz,
+  onScaleReady,
+  onViewChange,
+  active,
 }: TimelineCanvasProps) {
   const savedViewport = useApp((s) => s.chronicle.viewport);
   const setChronicleViewport = useApp((s) => s.setChronicleViewport);
   const trackMode = useApp((s) => s.chronicle.trackMode);
-  const setTrackMode = useApp((s) => s.setChronicleTrackMode);
   const userImportanceCeiling = useApp((s) => s.chronicle.importanceCeiling);
-  const setUserImportanceCeiling = useApp((s) => s.setChronicleImportanceCeiling);
-  const heat = useApp((s) => s.chronicle.heat);
-  const toggleHeat = useApp((s) => s.toggleChronicleHeat);
+  const heat = useApp((s) => s.chronicle.lens === 'heat');
   const hasHydrated = useHasHydrated();
   const [containerRef, width] = useMeasuredWidth();
   const scale = useTimelineScale(width, savedViewport, hasHydrated);
@@ -366,17 +387,38 @@ export function TimelineCanvas({
   useMotionValueEvent(panXMV, 'change', scheduleFlush);
   useEffect(() => () => { if (flushTimer.current) clearTimeout(flushTimer.current); }, []);
 
-  const { level, importanceCeiling: lodImportanceCeiling } = useMemo(() => {
-    if (width <= 0) return { level: 'L0' as LodLevel, importanceCeiling: 1 as Importance };
+  const { level, importanceCeiling: lodImportanceCeiling, centerYear } = useMemo(() => {
+    if (width <= 0) return { level: 'L0' as LodLevel, importanceCeiling: 1 as Importance, centerYear: eras[0].start };
     const centerWorld = (width / 2 + renderView.panX) / renderView.zoom;
     const centerYear = worldToYear(centerWorld);
     const pxPerYearLocal = (yearToWorld(centerYear + 1) - yearToWorld(centerYear)) * renderView.zoom;
-    return lodFor(pxPerYearLocal);
+    return { ...lodFor(pxPerYearLocal), centerYear };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [renderView.zoom, renderView.panX, width]);
 
-  // The toolbar filter only ever *lowers* the LOD-computed ceiling (spec §4.2).
+  // The importance ceiling only ever *lowers* the LOD-computed ceiling (spec §4.2) —
+  // no toolbar exposes the user override since the v2 design, but the store field
+  // (default 5, i.e. no-op) is kept for a future command-palette filter.
   const importanceCeiling = Math.min(lodImportanceCeiling, userImportanceCeiling) as Importance;
+
+  // Bridges the canvas's internal scale/view-state up to ChroniclePage's top
+  // bar/controls row — see ChronicleScaleHandle/ChronicleViewInfo above.
+  useEffect(() => {
+    onScaleReady({
+      zoomToYearRange,
+      jumpToYearAtL3,
+      fitAll,
+      getVisibleYearRange: () => ({
+        start: worldToYear((0 + panXMV.get()) / zoomMV.get()),
+        end: worldToYear((width + panXMV.get()) / zoomMV.get()),
+      }),
+    });
+  });
+
+  useEffect(() => {
+    onViewChange({ centerYear, level, currentEraId: eraIdForYear(centerYear) });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [centerYear, level]);
 
   // Virtualization: entries whose screen-x falls within viewport +/- 1 screen width.
   const visible = useMemo(() => {
@@ -392,50 +434,6 @@ export function TimelineCanvas({
 
   const historyItems = visible.filter((r) => r.entry.track === 'history');
   const polityItems = visible.filter((r) => r.entry.track === 'polity');
-
-  // --- Search / jump (spec §7) ---
-  const [searchQuery, setSearchQuery] = useState('');
-  const searchInputRef = useRef<HTMLInputElement>(null);
-  const searchResults = useMemo(() => {
-    const q = searchQuery.trim().toLowerCase();
-    if (!q || parseYearQuery(searchQuery) !== null) return [];
-    return renderEntries
-      .filter(
-        (r) =>
-          r.entry.title.toLowerCase().includes(q) ||
-          r.entry.tags?.some((t) => t.toLowerCase().includes(q))
-      )
-      .slice(0, SEARCH_RESULT_LIMIT);
-  }, [searchQuery, renderEntries]);
-
-  function selectSearchResult(entry: TimelineRenderEntry['entry']) {
-    jumpToYearAtL3(entry.year);
-    onSelectEntry(entry.id);
-    setSearchQuery('');
-  }
-
-  function onSearchKeyDown(e: React.KeyboardEvent<HTMLInputElement>) {
-    if (e.key === 'Enter') {
-      const year = parseYearQuery(searchQuery);
-      if (year !== null) {
-        jumpToYearAtL3(year);
-        setSearchQuery('');
-      } else if (searchResults.length > 0) {
-        selectSearchResult(searchResults[0].entry);
-      }
-    } else if (e.key === 'Escape') {
-      setSearchQuery('');
-      searchInputRef.current?.blur();
-    }
-  }
-
-  // --- Range Quiz (spec §6): questions from entries whose year falls
-  // within the current on-screen range, respecting the track filter.
-  function handleStartRangeQuiz() {
-    const startYear = worldToYear((0 + renderView.panX) / renderView.zoom);
-    const endYear = worldToYear((width + renderView.panX) / renderView.zoom);
-    onStartRangeQuiz(startYear, endYear);
-  }
 
   // --- Gestures ---
   const pointers = useRef(new Map<number, { x: number; y: number }>());
@@ -497,6 +495,7 @@ export function TimelineCanvas({
 
   useEffect(() => {
     function onKeyDown(e: KeyboardEvent) {
+      if (!active) return;
       if (e.metaKey || e.ctrlKey || e.altKey) return;
       const tag = (document.activeElement?.tagName ?? '').toLowerCase();
       if (tag === 'input' || tag === 'textarea') return;
@@ -505,125 +504,17 @@ export function TimelineCanvas({
       else if (e.key === '+' || e.key === '=') { zoomAtScreenX(width / 2, STEP_ZOOM_FACTOR); e.preventDefault(); }
       else if (e.key === '-' || e.key === '_') { zoomAtScreenX(width / 2, 1 / STEP_ZOOM_FACTOR); e.preventDefault(); }
       else if (e.key === 'Home') { fitAll(); e.preventDefault(); }
-      else if (e.key === '/') { searchInputRef.current?.focus(); e.preventDefault(); }
     }
     window.addEventListener('keydown', onKeyDown);
     return () => window.removeEventListener('keydown', onKeyDown);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [width]);
+  }, [width, active]);
 
   const showHistory = trackMode === 'both' || trackMode === 'history';
   const showPolity = trackMode === 'both' || trackMode === 'polity';
 
   return (
     <div className="w-full h-full flex flex-col" style={{ background: 'var(--bg-app)' }}>
-      {/* Toolbar (spec §4.1 / §6 / §7) */}
-      <div
-        className="h-12 shrink-0 flex items-center gap-2.5 px-3 border-b overflow-x-auto"
-        style={{
-          borderColor: 'var(--border)',
-          background: 'linear-gradient(180deg, var(--bg-panel), color-mix(in srgb, var(--accent) 3%, var(--bg-panel)))',
-        }}
-      >
-        <div
-          className="flex rounded-lg p-0.5 shrink-0 gap-0.5"
-          style={{ background: 'var(--bg-panel-elev)', border: '1px solid var(--border)' }}
-        >
-          {(['both', 'history', 'polity'] as ChronicleTrackMode[]).map((m) => (
-            <button
-              key={m}
-              onClick={() => setTrackMode(m)}
-              className="px-2.5 py-1 text-xs font-medium capitalize rounded-md transition-all"
-              style={{
-                background: trackMode === m ? 'var(--accent)' : 'transparent',
-                color: trackMode === m ? '#fff' : 'var(--text-secondary)',
-                boxShadow: trackMode === m ? '0 1px 4px color-mix(in srgb, var(--accent) 50%, transparent)' : 'none',
-              }}
-            >
-              {m}
-            </button>
-          ))}
-        </div>
-
-        <select
-          value={userImportanceCeiling}
-          onChange={(e) => setUserImportanceCeiling(Number(e.target.value) as Importance)}
-          className="text-xs px-2 py-1.5 rounded-lg shrink-0 cursor-pointer font-medium"
-          style={{ background: 'var(--bg-panel-elev)', border: '1px solid var(--border)', color: 'var(--text-primary)' }}
-          title="Importance filter — lowers the zoom-level ceiling"
-        >
-          <option value={5}>All importance</option>
-          <option value={1}>≤1 Era-defining</option>
-          <option value={2}>≤2 Major</option>
-          <option value={3}>≤3 Notable</option>
-          <option value={4}>≤4 Detailed</option>
-        </select>
-
-        <button
-          onClick={toggleHeat}
-          className="flex items-center gap-1 px-2.5 py-1.5 rounded-lg text-xs font-medium shrink-0 transition-all"
-          style={{
-            background: heat ? 'var(--accent-soft)' : 'var(--bg-panel-elev)',
-            color: heat ? 'var(--accent)' : 'var(--text-secondary)',
-            border: `1px solid ${heat ? 'color-mix(in srgb, var(--accent) 45%, transparent)' : 'var(--border)'}`,
-          }}
-          title="Exam heat — glow intensity shows attached question count"
-        >
-          <span style={{ filter: heat ? 'none' : 'grayscale(1) opacity(0.7)' }}>🔥</span> Heat
-        </button>
-
-        <div className="relative flex-1 min-w-[150px] max-w-xs">
-          <span className="absolute left-2.5 top-1/2 -translate-y-1/2 text-xs pointer-events-none" style={{ color: 'var(--text-muted)' }}>
-            🔍
-          </span>
-          <input
-            ref={searchInputRef}
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            onKeyDown={onSearchKeyDown}
-            placeholder="Jump to year or search… ( / )"
-            className="w-full text-xs pl-7 pr-2 py-1.5 rounded-lg outline-none focus:ring-2"
-            style={{
-              background: 'var(--bg-panel-elev)',
-              border: '1px solid var(--border)',
-              color: 'var(--text-primary)',
-              // @ts-expect-error CSS var for focus ring color
-              '--tw-ring-color': 'color-mix(in srgb, var(--accent) 40%, transparent)',
-            }}
-          />
-          {searchResults.length > 0 && (
-            <div
-              className="absolute top-full left-0 mt-1.5 w-full rounded-lg shadow-xl z-20 overflow-hidden"
-              style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}
-            >
-              {searchResults.map((r) => (
-                <button
-                  key={r.entry.id}
-                  onClick={() => selectSearchResult(r.entry)}
-                  className="w-full text-left px-3 py-2 text-xs hover:bg-[var(--bg-panel-elev)] transition-colors flex items-center justify-between gap-2"
-                >
-                  <span className="truncate" style={{ color: 'var(--text-primary)' }}>{r.entry.title}</span>
-                  <span className="shrink-0 tabular-nums" style={{ color: 'var(--text-muted)' }}>{formatYear(r.entry.year, r.entry.circa)}</span>
-                </button>
-              ))}
-            </div>
-          )}
-        </div>
-
-        <button
-          onClick={handleStartRangeQuiz}
-          className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold shrink-0 transition-all hover:brightness-110 active:scale-95"
-          style={{
-            background: 'linear-gradient(135deg, var(--accent), var(--accent-light))',
-            color: '#fff',
-            boxShadow: '0 2px 8px color-mix(in srgb, var(--accent) 40%, transparent)',
-          }}
-        >
-          <span>✦</span>
-          Quiz range
-        </button>
-      </div>
-
       <div className="flex-1 min-h-0 flex">
         <div className="w-9 lg:w-16 shrink-0 flex flex-col border-r" style={{ borderColor: 'var(--border)' }}>
           {showHistory && (

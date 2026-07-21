@@ -84,6 +84,26 @@ export interface ArenaRunResult {
 }
 
 export type ChronicleTrackMode = 'both' | 'history' | 'polity';
+export type ChronicleView = 'canvas' | 'reading';
+export type ChronicleLens = 'none' | 'heat' | 'mastery';
+
+/** Right/wrong tally for one entry's attached questions — quiz rework (later
+ *  phase) will read/write this; kept inert here so the schema lands once. */
+export interface ChronicleMasteryRecord {
+  r: number;
+  w: number;
+}
+
+/** Derived mastery tier for one entry — 'unseen' until any attempt is
+ *  recorded, then whichever side of right/wrong is ahead. */
+export function chronicleMasteryOf(
+  mastery: Record<string, ChronicleMasteryRecord>,
+  entryId: string
+): 'unseen' | 'strong' | 'weak' {
+  const m = mastery[entryId];
+  if (!m || m.r + m.w === 0) return 'unseen';
+  return m.r >= m.w ? 'strong' : 'weak';
+}
 
 /** Chronicle module — master timeline. */
 interface ChronicleState {
@@ -92,9 +112,23 @@ interface ChronicleState {
   /** last viewport — restored on return; null before the first visit. */
   viewport: { zoom: number; panX: number } | null;
   trackMode: ChronicleTrackMode;
-  /** Toolbar filter — lowers the LOD-computed ceiling, never raises it. */
+  /** Toolbar filter — lowers the LOD-computed ceiling, never raises it. No
+   *  UI exposes this since the v2 design; kept for a future command-palette filter. */
   importanceCeiling: Importance;
-  heat: boolean;
+  view: ChronicleView;
+  /** Canvas overlay: 'heat' = exam-heat glow/badges, 'mastery' = quiz-record
+   *  coloring (mutually exclusive, replaces the old `heat: boolean`). */
+  lens: ChronicleLens;
+  /** entry ids the user has pinned. */
+  bookmarks: string[];
+  /** entry id -> right/wrong tally from quiz attempts. */
+  mastery: Record<string, ChronicleMasteryRecord>;
+  xp: number;
+  streak: number;
+  /** toDateString() of the last day XP was earned — drives the streak bump. */
+  lastStudyDay: string;
+  /** Whether the first-run guided tour has been dismissed. */
+  toured: boolean;
 }
 
 export interface AppState {
@@ -145,7 +179,13 @@ export interface AppState {
   setChronicleViewport: (v: { zoom: number; panX: number } | null) => void;
   setChronicleTrackMode: (m: ChronicleTrackMode) => void;
   setChronicleImportanceCeiling: (n: Importance) => void;
-  toggleChronicleHeat: () => void;
+  setChronicleView: (v: ChronicleView) => void;
+  setChronicleLens: (l: ChronicleLens) => void;
+  toggleChronicleBookmark: (entryId: string) => void;
+  recordChronicleMastery: (entryId: string, correct: boolean) => void;
+  /** Bumps XP and the once-per-calendar-day streak counter. */
+  addChronicleXp: (amount: number) => void;
+  setChronicleToured: (v: boolean) => void;
 
   /** Bank a finished run: coins in, records, highscore. */
   arenaFinishRun: (r: ArenaRunResult) => void;
@@ -176,7 +216,20 @@ export const useApp = create<AppState>()(
       testResults: [],
       eventIndex: -1,
       basemapOverride: null,
-      chronicle: { notes: {}, viewport: null, trackMode: 'both', importanceCeiling: 5, heat: false },
+      chronicle: {
+        notes: {},
+        viewport: null,
+        trackMode: 'both',
+        importanceCeiling: 5,
+        view: 'canvas',
+        lens: 'none',
+        bookmarks: [],
+        mastery: {},
+        xp: 0,
+        streak: 0,
+        lastStudyDay: '',
+        toured: false,
+      },
       arena: {
         coins: 0,
         highScore: 0,
@@ -236,7 +289,35 @@ export const useApp = create<AppState>()(
 
       setChronicleImportanceCeiling: (n) => set((s) => ({ chronicle: { ...s.chronicle, importanceCeiling: n } })),
 
-      toggleChronicleHeat: () => set((s) => ({ chronicle: { ...s.chronicle, heat: !s.chronicle.heat } })),
+      setChronicleView: (v) => set((s) => ({ chronicle: { ...s.chronicle, view: v } })),
+
+      setChronicleLens: (l) => set((s) => ({ chronicle: { ...s.chronicle, lens: l } })),
+
+      toggleChronicleBookmark: (entryId) =>
+        set((s) => ({
+          chronicle: {
+            ...s.chronicle,
+            bookmarks: s.chronicle.bookmarks.includes(entryId)
+              ? s.chronicle.bookmarks.filter((id) => id !== entryId)
+              : [...s.chronicle.bookmarks, entryId],
+          },
+        })),
+
+      recordChronicleMastery: (entryId, correct) =>
+        set((s) => {
+          const prev = s.chronicle.mastery[entryId] ?? { r: 0, w: 0 };
+          const next = correct ? { ...prev, r: prev.r + 1 } : { ...prev, w: prev.w + 1 };
+          return { chronicle: { ...s.chronicle, mastery: { ...s.chronicle.mastery, [entryId]: next } } };
+        }),
+
+      addChronicleXp: (amount) =>
+        set((s) => {
+          const today = new Date().toDateString();
+          const streak = s.chronicle.lastStudyDay === today ? s.chronicle.streak : s.chronicle.streak + 1;
+          return { chronicle: { ...s.chronicle, xp: s.chronicle.xp + amount, streak, lastStudyDay: today } };
+        }),
+
+      setChronicleToured: (v) => set((s) => ({ chronicle: { ...s.chronicle, toured: v } })),
 
       recordAttempt: (chapterId, quizId, correct) =>
         set((s) => {

@@ -1,61 +1,71 @@
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import { AnimatePresence, MotionConfig } from 'framer-motion';
 import { useApp } from '@/lib/store';
-import { ModuleSwitcher } from '@/modules/ModuleSwitcher';
-import { useHasDesktopChrome } from '@/lib/useShellChrome';
 import type { Year } from '@/data/timeline/types';
 import { useTimelineData } from './useTimelineData';
-import { TimelineCanvas } from './TimelineCanvas';
+import { TimelineCanvas, type ChronicleScaleHandle, type ChronicleViewInfo } from './TimelineCanvas';
+import { TopBar } from './TopBar';
+import { ControlsRow } from './ControlsRow';
+import { ReadingView } from './ReadingView';
+import { CommandPalette } from './CommandPalette';
+import { useCommandPalette } from './useCommandPalette';
 import { EntryDrawer } from './EntryDrawer';
 import { RangeQuiz } from './RangeQuiz';
 
 // ============================================
 // CHRONICLE — master timeline (history + polity lanes).
 // Selection + the join data live here so the canvas, drawer, and range
-// quiz all share one useTimelineData() call.
+// quiz all share one useTimelineData() call. The top bar/controls row/
+// command palette also live here (not in TimelineCanvas) so they can
+// drive the canvas's zoom/pan — see ChronicleScaleHandle/ChronicleViewInfo.
 // ============================================
 
 export function ChroniclePage() {
-  const { theme, toggleTheme } = useApp();
   const trackMode = useApp((s) => s.chronicle.trackMode);
-  const hasDesktopChrome = useHasDesktopChrome('home');
+  const view = useApp((s) => s.chronicle.view);
   const { renderEntries, orphanQuestions } = useTimelineData();
   const [selectedEntryId, setSelectedEntryId] = useState<string | null>(null);
   const [quizRange, setQuizRange] = useState<{ start: Year; end: Year } | null>(null);
+  const [viewInfo, setViewInfo] = useState<ChronicleViewInfo | null>(null);
+  const scaleHandleRef = useRef<ChronicleScaleHandle | null>(null);
 
   const selected = renderEntries.find((r) => r.entry.id === selectedEntryId) ?? null;
+
+  function startQuizForVisibleRange() {
+    const range = scaleHandleRef.current?.getVisibleYearRange();
+    if (range) setQuizRange(range);
+  }
+
+  const palette = useCommandPalette({
+    renderEntries,
+    scaleHandleRef,
+    onSelectEntry: setSelectedEntryId,
+    onQuizCurrentRange: startQuizForVisibleRange,
+  });
 
   return (
     <MotionConfig reducedMotion="user">
       <div className="h-full flex flex-col" style={{ background: 'var(--bg-app)', color: 'var(--text-primary)' }}>
-        <header
-          className="safe-top h-12 shrink-0 border-b flex items-center justify-between px-5 gap-3"
-          style={{ borderColor: 'var(--border)', background: 'var(--bg-panel)' }}
-        >
-          <div className="flex items-center gap-3 min-w-0">
-            <span className={hasDesktopChrome ? 'lg:hidden' : ''}>
-              <ModuleSwitcher />
-            </span>
-            <span className="label-eyebrow hidden md:inline">Chronicle — Master Timeline</span>
-          </div>
-          <button
-            onClick={toggleTheme}
-            className={`${hasDesktopChrome ? 'lg:hidden' : ''} px-2 py-1 rounded-md text-sm hover:bg-[var(--bg-panel-elev)] transition-colors`}
-            style={{ border: '1px solid var(--border)' }}
-            title="Toggle theme"
-          >
-            {theme === 'light' ? '🌙' : '☀️'}
-          </button>
-        </header>
+        <TopBar viewInfo={viewInfo} onOpenPalette={palette.open} />
+        <ControlsRow viewInfo={viewInfo} scaleHandleRef={scaleHandleRef} onStartQuiz={startQuizForVisibleRange} />
 
         <main className="relative flex-1 min-h-0">
-          <TimelineCanvas
-            renderEntries={renderEntries}
-            orphanQuestions={orphanQuestions}
-            selectedEntryId={selectedEntryId}
-            onSelectEntry={setSelectedEntryId}
-            onStartRangeQuiz={(start, end) => setQuizRange({ start, end })}
-          />
+          {/* TimelineCanvas stays mounted even in Reading view — era pills
+              still drive its zoom/pan (see ChronicleScaleHandle), so its
+              scale state must survive the switch. Hidden via visibility,
+              not unmount, so ResizeObserver never sees a spurious 0 width. */}
+          <div className={view === 'reading' ? 'invisible pointer-events-none absolute inset-0' : 'absolute inset-0'}>
+            <TimelineCanvas
+              renderEntries={renderEntries}
+              orphanQuestions={orphanQuestions}
+              selectedEntryId={selectedEntryId}
+              onSelectEntry={setSelectedEntryId}
+              onScaleReady={(handle) => { scaleHandleRef.current = handle; }}
+              onViewChange={setViewInfo}
+              active={view === 'canvas'}
+            />
+          </div>
+          {view === 'reading' && <ReadingView renderEntries={renderEntries} onSelectEntry={setSelectedEntryId} />}
           <AnimatePresence>
             {selected && (
               <EntryDrawer
@@ -80,6 +90,8 @@ export function ChroniclePage() {
             )}
           </AnimatePresence>
         </main>
+
+        <CommandPalette {...palette} />
       </div>
     </MotionConfig>
   );

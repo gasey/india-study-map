@@ -148,19 +148,19 @@ export function MpscPage() {
       {tab !== 'history' && (
         <div className="shrink-0 flex flex-wrap items-center gap-2 px-5 py-3 border-b" style={{ borderColor: 'var(--border)' }}>
           <select value={filters.examType} onChange={(e) => set({ examType: e.target.value })} className={selectCls} style={selectStyle}>
-            <option value={ALL}>All exam types</option>
+            <option key="all" value={ALL}>All exam types</option>
             {data.examTypes.map((t) => <option key={t} value={t}>{t.replace('_', ' ')}</option>)}
           </select>
           <select value={filters.post} onChange={(e) => set({ post: e.target.value })} className={selectCls} style={selectStyle}>
-            <option value={ALL}>All posts</option>
+            <option key="all" value={ALL}>All posts</option>
             {data.posts.map((p) => <option key={p} value={p}>{p}</option>)}
           </select>
           <select value={filters.year} onChange={(e) => set({ year: e.target.value })} className={selectCls} style={selectStyle}>
-            <option value={ALL}>All years</option>
+            <option key="all" value={ALL}>All years</option>
             {data.years.map((y) => <option key={y} value={String(y)}>{y}</option>)}
           </select>
           <select value={filters.subject} onChange={(e) => set({ subject: e.target.value })} className={selectCls} style={selectStyle}>
-            <option value={ALL}>All subjects</option>
+            <option key="all" value={ALL}>All subjects</option>
             {data.subjects.map((s) => <option key={s} value={s}>{s}</option>)}
           </select>
           <select value={filters.difficulty} onChange={(e) => set({ difficulty: e.target.value })} className={selectCls} style={selectStyle}>

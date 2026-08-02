@@ -1,6 +1,7 @@
 import type { BankQuestion, QuestionBank } from './types';
 import { polityCodexBank } from './polity-codex';
 import { mpscPapers, mpscQuestions } from './mpsc-old-questions';
+import { mpscStateTaxOfficer } from './mpsc-state-tax-officer';
 
 // Register banks here — same pattern as chapters.
 // Future: upsc-prelims-pyq.ts, current-affairs-2026.ts …
@@ -18,6 +19,7 @@ export const banks: QuestionBank[] = [
     questions: mpscQuestions,
     papers: mpscPapers,
   },
+  mpscStateTaxOfficer,
 ];
 
 export const allQuestions: BankQuestion[] = banks.flatMap((b) => b.questions);

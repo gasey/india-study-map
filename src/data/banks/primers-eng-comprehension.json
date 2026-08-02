@@ -1,0 +1,56 @@
+[
+  {
+    "unit": "ENG-COMPREHENSION",
+    "subtopic": "Main Idea vs Supporting Details",
+    "priority": "critical",
+    "primer": "The **main idea** is the central point or central thesis the author wants to communicate—it's usually one sentence that summarizes the entire passage. **Supporting details** are specific facts, examples, statistics, or explanations that prove or illustrate the main idea. The main idea often appears in the first or last sentence (thesis statement), but sometimes it's implicit (must be inferred). A crucial reading skill is distinguishing broad themes from narrow specific examples. Exam questions frequently test whether you can identify the main idea versus getting distracted by interesting but secondary details.",
+    "analogy": "A passage is like a plate of food: the main idea is the primary dish (rice or bread), and supporting details are the side items that complete the meal. You could survive on just the main, but sides enhance it.",
+    "traps": ["Choosing a supporting detail instead of main idea ('The book mentioned solar panels' is detail, not main idea)", "Inferring unstated themes: you must find evidence in the text", "Confusing the topic (what the passage is about) with the main idea (the author's specific point about the topic)", "Getting distracted by vivid examples: an interesting story may be detail, not central point"],
+    "formulae": ["Main idea: 1-2 sentences summarizing the whole passage", "Supporting details: facts, examples, reasons that prove the main idea", "Main idea test: If I remove a sentence, does the passage still make sense? If yes, it's likely supporting detail", "Location: Look first and last paragraphs, title, topic sentences"]
+  },
+  {
+    "unit": "ENG-COMPREHENSION",
+    "subtopic": "Inference and Reading Between the Lines",
+    "priority": "critical",
+    "primer": "**Inference** means drawing conclusions based on evidence in the text without the author explicitly stating it. It requires using the text plus your general knowledge to understand implied meanings. For example, 'Ravi left the office without his jacket and walked into heavy rain' implies he was in a hurry or forgot his jacket. Inferences must be supported by textual evidence—not wild guesses. **Logical inference** follows from facts given, **unsupported inference** assumes something not evidenced. Exam questions test reading comprehension by asking what can be inferred (not what is stated outright).",
+    "analogy": "Inference is like being a detective: clues in the text (muddy footprints, broken window) let you deduce what happened (burglary), even though the author didn't explicitly say it.",
+    "traps": ["Making inferences without textual support ('He must be unhappy'—where's the evidence?)", "Confusing inference with facts: 'The passage states X' vs 'From the passage, we can infer Y'", "Over-inferring: reading too much into subtle words or minor details", "Inverse inference: assuming what isn't explicitly mentioned never happened (absence of evidence ≠ evidence of absence)"],
+    "formulae": ["Inference formula: Evidence in text + logical reasoning + general knowledge = Inference", "Supported inference: 'The passage says X; therefore Y can be inferred'", "Unsupported: 'The passage doesn't mention Z; therefore Z didn't happen' (wrong logic)", "Inference clues: implies, suggests, indicates, reveals, shows"]
+  },
+  {
+    "unit": "ENG-COMPREHENSION",
+    "subtopic": "Author's Purpose, Tone, and Attitude",
+    "priority": "high",
+    "primer": "**Author's purpose** is the reason for writing (to inform, persuade, entertain, criticize, explain). **Tone** is the author's attitude toward the subject (serious, sarcastic, appreciative, critical). **Attitude** is the author's viewpoint or bias. Identifying these requires reading closely—word choice, punctuation, sentence structure, and examples reveal the author's stance. An author describing a politician might be factual (informative), praising (appreciative), or scathing (critical) depending on word choice. Exams test this heavily because it reveals whether you understand not just what is said, but how it's said.",
+    "analogy": "Purpose is why someone talks (to convince, inform, or entertain), tone is how they sound (angry, cheerful, skeptical), attitude is what they believe about the topic. Same words said sarcastically vs sincerely mean opposite things.",
+    "traps": ["Confusing neutral reporting with opinion: 'The storm caused damage' is factual; 'The storm devastated the landscape' has an emotional tone", "Sarcasm: taking sarcastic statements literally ('Oh, that's just brilliant!' might be criticism)", "Author's tone vs character's tone: in a story, the author can have a different tone than characters speaking", "Assuming facts lack tone: even 'objective' writing reveals bias through what's included/excluded"],
+    "formulae": ["Purpose: to inform, persuade, entertain, criticize, explain, describe, or inspire", "Tone: serious, humorous, sarcastic, critical, admiring, neutral, ironic, passionate", "Clues: descriptive words (adjectives), punctuation (exclamation marks = emotion), structure (arguments = persuasion)", "Attitude: positive, negative, neutral, sympathetic, skeptical"]
+  },
+  {
+    "unit": "ENG-COMPREHENSION",
+    "subtopic": "Vocabulary in Context and Word Meaning",
+    "priority": "high",
+    "primer": "Words often have multiple meanings, and **context** (surrounding words and sentences) determines which meaning is intended. Context clues include synonyms ('She was tired, exhausted after the long day'), antonyms ('He was not energetic; he felt sluggish'), examples ('Nocturnal animals like bats and owls sleep during day'), and logical relationships. Even if you don't know a word's dictionary definition, context clues let you infer its meaning. Exam questions test whether you understand word meanings by asking what word best fits a sentence or what a word means in a specific passage.",
+    "analogy": "Word meaning in context is like understanding a joke: the same words mean different things depending on what comes before and after them. 'That's a funny joke' (means amusing) vs 'That's a funny coincidence' (means odd/strange).",
+    "traps": ["Using dictionary definition that doesn't fit the passage context: 'bank' means financial institution or riverbank depending on context", "Confusing similar words: 'affect' (verb) vs 'effect' (noun), 'their' vs 'there' vs 'they're'", "Assuming words are negative/positive without context: 'critical' can mean 'essential' or 'disapproving'", "Ignoring surrounding sentences: context spreads across multiple sentences, not just one"],
+    "formulae": ["Synonym context: Unknown word = nearby word with known meaning", "Antonym context: Unknown word = opposite of nearby word", "Example context: Unknown word = the thing being exemplified", "Logical relation: Unknown word must make sense in the sentence structure"]
+  },
+  {
+    "unit": "ENG-COMPREHENSION",
+    "subtopic": "Question Types and Answering Strategies",
+    "priority": "high",
+    "primer": "**Factual questions** ask what the passage explicitly states (answer is directly in text). **Inference questions** ask what can be deduced (answer requires reading between lines). **Vocabulary questions** test word meaning in context. **Purpose/tone questions** ask why the author wrote something or their attitude. **Detail questions** ask about specific supporting information. **Comparison questions** ask how two ideas or things relate. Reading the question first helps you know what to look for. Elimination (ruling out obviously wrong answers) is often faster than finding the perfect answer. Every answer choice should be testable against the passage.",
+    "analogy": "Different question types are like different searches: factual questions are 'find this exact phrase', inference questions are 'what does this add up to', vocabulary is 'what does this word mean here'.",
+    "traps": ["Answering from general knowledge instead of the passage", "Choosing an answer that's true in general but unsupported in the passage", "Missing nuance: 'most' vs 'some', 'always' vs 'sometimes' completely change meaning", "Overthinking: the correct answer is usually straightforward, not requiring deep interpretation"],
+    "formulae": ["Factual: Scan for keywords, find the sentence, read carefully for exact meaning", "Inference: Gather relevant evidence, think about what it implies, check if answer is reasonable", "Vocabulary: Read full sentence + surrounding sentences, test meaning in context", "Purpose: Think 'why would author include this'—is it proof, example, or counterargument?"]
+  },
+  {
+    "unit": "ENG-COMPREHENSION",
+    "subtopic": "Reading Strategies and Active Comprehension",
+    "priority": "medium",
+    "primer": "**Active reading** means engaging with the text: predicting what comes next, asking questions, noting key points, and checking understanding. **Skimming** (fast reading for gist) works for finding main idea and structure. **Scanning** (searching for specific information) works for detail questions. The **SQ3R method** (Survey, Question, Read, Recite, Review) is a structured comprehension approach. Taking mental notes of paragraph structure (introduction, body, conclusion) helps locate information quickly. Time management is critical—spend more time understanding than re-reading. For MPSC, typically 40-50 minutes for a passage, and answers appear in this order: main idea, inference, vocabulary, specific details.",
+    "analogy": "Reading a passage is like exploring a building: first, you see its layout (skim), then you search for specific rooms (scan), finally you understand how it's organized (active reading with questions).",
+    "traps": ["Reading passively without thinking—words enter but don't stick", "Spending too much time on one question and running out of time", "Reading every single word when skimming works faster for main idea", "Not using paragraph breaks: each paragraph usually has a main idea + support"],
+    "formulae": ["Skim first: title, first/last sentences, topic sentences = main idea", "Scan for keywords when answering specific questions", "Reread only specific sections relevant to the question", "Manage time: 5 min skim, 30-40 min answer questions, 5 min review"]
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "unit": "GS2-ECONOMY",
+    "subtopic": "Five Year Plans and Economic Development Strategy",
+    "priority": "critical",
+    "primer": "India's **Five Year Plans** (1951-1992) shaped the economy from independence until economic liberalization. Each plan prioritized different sectors: 1st Plan (Nehru era) emphasized infrastructure, 2nd Plan (Mahalanobis model) prioritized heavy industry, 3rd Plan attempted agricultural self-sufficiency. The **12th Plan** (2012-17) was the last formal plan; afterward, India shifted to **Aspirational India framework** (2017 onwards). Understanding the **rationale** of each plan (how did India's needs change?) matters more than memorizing numbers. Recent policy focuses on **'Make in India'**, manufacturing, and digital infrastructure rather than centrally planned growth.",
+    "analogy": "Five Year Plans were like India's long-term business strategy: each period's plan reflected what the nation needed most (initially, basic infrastructure; later, industry; finally, services and manufacturing).",
+    "traps": ["Confusing all plans as identical (each had distinct priorities and economic philosophies)", "Assuming plans always succeeded (many faced implementation gaps)", "Not understanding why planning ended (liberalization and market mechanisms reduced need for central planning)", "Missing the shift from 'Plan' to 'Aspirations'—this reflects a fundamental governance change"],
+    "formulae": ["1st Plan (1951-56): Infrastructure, dams, irrigation", "2nd Plan (1956-61): Heavy industry, steel, coal (Mahalanobis model)", "Green Revolution (1960s-70s): Agriculture self-sufficiency via HYV seeds, irrigation, fertilizer", "12th Plan (2012-17): Focus on inclusive growth, social infrastructure", "Post-2017: 'Aspirational India'—focus on poverty reduction, infrastructure, digitalization"]
+  },
+  {
+    "unit": "GS2-ECONOMY",
+    "subtopic": "Gross Domestic Product and Economic Growth",
+    "priority": "critical",
+    "primer": "**GDP** measures the total market value of goods and services produced in a country in a year (expressed at current prices or constant prices for comparison). GDP growth rate shows how fast the economy is expanding. India's GDP is calculated via three methods: (1) **Production approach** (output at each stage), (2) **Income approach** (wages, profits, rents), (3) **Expenditure approach** (consumption, investment, government spending, exports minus imports). India's GDP was ~$3.3 trillion in 2023 (making it 5th largest economy globally), but per-capita income remains low (~$2,300) because of large population. Recent GDP growth averages 5-7% annually.",
+    "analogy": "GDP is like your household income: if you earn $50,000 this year vs $45,000 last year, that's growth. But if you have 5 family members vs 4, your per-person income (per-capita) tells a different story.",
+    "traps": ["Confusing GDP (total) with per-capita GDP (per person): India is large economy but poor per person", "Using current prices vs constant prices interchangeably (constant prices adjust for inflation, giving real growth)", "Assuming all GDP growth is equally distributed (growth in services doesn't always reach agriculture)", "Not knowing India's sectoral composition: agriculture ~15% of GDP, industry ~25%, services ~60%"],
+    "formulae": ["GDP = Consumption + Investment + Government Spending + (Exports - Imports)", "GDP growth rate: (GDP this year - GDP last year) / GDP last year × 100%", "Per-capita GDP = Total GDP / Population; India has 1.4+ billion people", "Current prices GDP: what prices are now", "Constant prices (real) GDP: adjusted for inflation, shows 'true' growth", "India 2023: $3.3 trillion nominal GDP, 5th largest globally, 6% average growth rate"]
+  },
+  {
+    "unit": "GS2-ECONOMY",
+    "subtopic": "Inflation and Monetary Policy",
+    "priority": "critical",
+    "primer": "**Inflation** is the rate at which prices of goods and services rise, reducing purchasing power. **WPI (Wholesale Price Index)** measures inflation at wholesale level, **CPI (Consumer Price Index)** measures what consumers actually pay. India tracks **retail inflation** (CPI-based) as a policy target (~4% is the Reserve Bank of India's target). **Monetary policy** is RBI's tool: raising interest rates (repo rate) cools inflation but slows growth, lowering rates encourages borrowing and growth but risks inflation. The tension between controlling inflation and enabling growth is a core economic debate. Recent inflation: food prices volatile, energy costs linked to global oil prices.",
+    "analogy": "Inflation is like a leak in your savings: if you saved $100 when prices were low, but inflation pushes prices up, that $100 buys less than before. Monetary policy is the RBI's attempt to plug the leak.",
+    "traps": ["Confusing WPI with CPI (WPI earlier; now wholesale and consumer inflation can diverge)", "Assuming all inflation is bad (mild inflation, 2-3%, can be healthy for an economy)", "Not understanding transmission: even if RBI raises repo rate, banks may not raise lending rates immediately", "Missing asset inflation: prices of stocks, property can inflate separately from commodity inflation"],
+    "formulae": ["Repo rate: Lending rate at which RBI lends to banks (primary tool)", "Reverse repo rate: Rate RBI pays banks for deposits (usually 1% below repo)", "CPI inflation target: 4% (±2% band) set by RBI and government", "Inflation = (Price now - Price before) / Price before × 100%", "RBI raises rates to fight inflation, lowers to support growth"]
+  },
+  {
+    "unit": "GS2-ECONOMY",
+    "subtopic": "Banking System and Financial Infrastructure",
+    "priority": "high",
+    "primer": "India's banking system includes **public sector banks** (State Bank of India, Bank of Baroda, etc.—government-owned), **private sector banks** (HDFC, ICICI, Axis), and **cooperative/regional rural banks**. The **RBI** regulates all banks. Recent structural changes: **bad loans crisis** (2015-19, NPA—non-performing assets—peaked at ₹8.7 trillion), **bank mergers** (10 public banks merged into 4 in 2019 for efficiency), **digital banking expansion** (BHIM app, UPI handles 70+ million daily transactions). **Microfinance** serves poor who can't access banks. Understanding banking's role in credit flow is critical for economic policy.",
+    "analogy": "The banking system is like plumbing: banks are pipes channeling money from savers (faucets) to borrowers (drains). If pipes get clogged with bad loans, credit stops flowing.",
+    "traps": ["Assuming all banks operate identically (public banks prioritize lending, private banks profit maximization)", "Confusing NPA with default (NPA = overdue payment, shows debt stress, not complete failure)", "Missing digital progress: India now a leader in digital payments (UPI), despite cash dependence", "Underestimating rural banking gap (many villages lack bank access despite PMJDY)"],
+    "formulae": ["NPA (Non-Performing Asset): Loan overdue by 90+ days", "Credit-to-GDP ratio: Total credit in economy vs GDP (India's ~55%, developed nations ~100%+)", "UPI: Unified Payments Interface, digital money transfer backbone", "RRB (Regional Rural Bank): Serve rural areas, cooperative structure", "Public sector banks: ~50% of lending, private banks: ~35-40%, others: ~10-15%"]
+  },
+  {
+    "unit": "GS2-ECONOMY",
+    "subtopic": "Union Budget and Fiscal Policy",
+    "priority": "high",
+    "primer": "The **Union Budget** is the government's annual spending plan, presented every February (or sometimes changed to July). It allocates taxes to expenditure across defense, education, healthcare, infrastructure, and subsidies. **Tax revenue** (direct taxes: income tax, corporate tax; indirect taxes: GST, customs) funds government. **Deficit spending** (when expenditure exceeds revenue) is common in developing economies to fund growth. The **Fiscal Deficit** (budget shortfall) and **Current Account Deficit** (external trade imbalance) are key indicators. Recent budgets have emphasized infrastructure, social welfare, and self-reliance over populist subsidies.",
+    "analogy": "The Union Budget is like a family budget: income is tax revenue, expenses include essentials (defense, police) and investments (schools, roads). If you spend more than you earn, you borrow (deficit).",
+    "traps": ["Assuming budget deficit is always bad (moderate deficit can fund productive investments)", "Confusing tax rates with actual collections (high tax rate ≠ high revenue if compliance is poor)", "Missing expenditure priorities: defense ~13-15% of budget, education ~4-5%, subsidies ~6-8%", "Not understanding fiscal multiplier: government spending can create more income (1 rupee spent = 1.5-2 rupees economic activity)"],
+    "formulae": ["Fiscal Deficit = Total Expenditure - Total Revenue (taxes + other income)", "Revenue Deficit = Revenue Expenditure - Revenue Income (excludes capital investment)", "Fiscal Deficit as % of GDP: India targets ~3-5%", "Tax revenue: Direct (~45% of taxes), Indirect (~55%)", "Major allocations: Interest payments (~23% of budget), Defense (~13%), Social programs (~20%)"]
+  },
+  {
+    "unit": "GS2-ECONOMY",
+    "subtopic": "Tax System and Revenue Collection",
+    "priority": "high",
+    "primer": "India has replaced multiple taxes with **GST (Goods and Services Tax)** since 2017, a unified indirect tax. **Direct taxes** (income, corporate, capital gains) are paid directly to government; **indirect taxes** (GST, customs, excise) are embedded in prices. Tax collection is challenged by low compliance (India's tax-to-GDP ratio ~11%, much lower than developed nations ~20-35%). Recent initiatives: **PM-JAM scheme** (Jan Dhan, Aadhaar, Mobile) links identity to bank accounts to reduce tax evasion. Understanding which taxes affect whom is important for analyzing distributional impacts.",
+    "analogy": "Taxes are society's fee for services: direct taxes are like paying a bill directly to a vendor, indirect taxes are like taxes built into the price you pay at a store.",
+    "traps": ["Assuming GST is uniformly applied (it has 5%, 12%, 18%, 28% brackets for different goods)", "Not understanding tax incidence: corporate tax intended for businesses may be passed to consumers", "Confusing tax evasion (illegal) with tax avoidance (legal but uses loopholes)", "Missing disproportionate impact: indirect taxes (GST) hit poor harder (higher % of income)"],
+    "formulae": ["GST: Unified indirect tax, 4 rates (5%, 12%, 18%, 28%) based on commodity", "Income tax: Progressive (7-30% brackets depending on income)", "Corporate tax: Reduced to 22% (from 30%) for domestic companies in 2019", "Custom duty: Protectionist tariff on imports, ~10-25% typical", "Tax-to-GDP: India ~11%, OECD average ~25-35%"]
+  },
+  {
+    "unit": "GS2-ECONOMY",
+    "subtopic": "Agricultural Economy and Food Security",
+    "priority": "high",
+    "primer": "Agriculture employs ~40% of India's workforce but contributes only ~15% of GDP, showing low productivity. **Green Revolution** (1960s) achieved food self-sufficiency via high-yield varieties, irrigation, fertilizers, but created problems: regional concentration (Punjab dominates), groundwater depletion, chemical overuse. **MSP (Minimum Support Price)** guarantees farmers a price floor; it benefits large farmers near markets but fails remote farmers. Recent farmer protests (2020-21) against market deregulation showed agriculture's political volatility. **Crop insurance**, **e-NAM** (e-marketplace), and **cold chains** aim to help farmers but face implementation gaps.",
+    "analogy": "Indian agriculture is like a creaky old factory: once productive, now outdated, heavily subsidized, with structural inefficiencies. Modernizing it risks disrupting millions of livelihoods, yet staying stuck ensures long-term decline.",
+    "traps": ["Romanticizing farming (majority of farmers earn less than ₹1 lakh annually)", "Assuming Green Revolution was purely successful (raised production but created ecological damage)", "Confusing MSP with procurement (MSP is a price guarantee, but procurement only happens for select crops in select areas)", "Not understanding subsidies' burden: fertilizer, water, electricity subsidies account for ~₹3-4 trillion annually"],
+    "formulae": ["MSP: Set annually for 23 crops, floors prices but doesn't guarantee purchase", "Green Revolution: HYV seeds, irrigation, fertilizer inputs; cost: regional inequality, resource depletion", "Agriculture's share: 40% employment, 15% GDP (low productivity per worker)", "Farmer income: ~60% from crops, rest from livestock; highly seasonal, vulnerable to monsoon", "Food inflation: Most volatile component of CPI, political priority"]
+  },
+  {
+    "unit": "GS2-ECONOMY",
+    "subtopic": "Industrial Policy and Manufacturing Growth",
+    "priority": "high",
+    "primer": "India's **Industrial Policy** shifted from **Import Substitution** (1960s-80s) where India made everything domestically (inefficient) to **Export Orientation** (1990s onwards). The **Make in India** campaign (2014) aims to develop manufacturing (currently ~16% of GDP vs 25-30% in developed economies). **PLI (Production Linked Incentive) scheme** gives subsidies for domestic manufacturing of semiconductors, phones, batteries, cars. India lags in manufacturing competitiveness to China and Vietnam but has advantages in services, IT, and assembly. **FDI (Foreign Direct Investment)** policy liberalized to attract foreign manufacturers.",
+    "analogy": "India's manufacturing journey is like learning to run: first hobbling with import-substitution (made everything but inefficiently), then learning to sprint with exports, now competing in the global marathon.",
+    "traps": ["Assuming India is an industrial powerhouse (services dominate, manufacturing weak at ~16% GDP)", "Confusing 'Make in India' slogan with actual success (announced 2014, still struggles to gain traction)", "Missing India's service strength: IT, BPO, finance services are competitive; manufacturing is not", "Underestimating China's advantage: 30+ years manufacturing expertise, coastal industrial clusters, cheap labor"],
+    "formulae": ["Manufacturing as % of GDP: India ~16%, China ~30%, Germany ~25%", "PLI scheme: Subsidy for making phones, semiconductors, batteries in India", "FDI inflow: ~$85 billion (2021-22), attracts Apple, Tesla interest", "Global manufacturing: China leads, Vietnam growing, India lagging", "India's advantage: Services (software, finance), disadvantage: infrastructure (power, roads, ports)"]
+  },
+  {
+    "unit": "GS2-ECONOMY",
+    "subtopic": "Foreign Trade and Export-Import Balance",
+    "priority": "medium",
+    "primer": "India's **Current Account Deficit** (more imports than exports) is a chronic issue, linked to oil import dependence (India imports 85% of oil), gold demand, and weak manufacturing exports. India exports **services** strongly (software, BPO), but merchandise trade runs deficit. **Merchandise trade deficit** (~$200 billion in 2022) is offset partly by services surplus (~$100+ billion). **Exchange rate** impacts exports (weaker rupee helps exports, hurts imports). Recent focus: reducing non-essential imports, boosting exports via PLI, reducing oil import bill through renewable energy.",
+    "analogy": "India's trade imbalance is like a business spending more on inventory than it makes from sales: good short-term, but unsustainable long-term if income doesn't improve.",
+    "traps": ["Assuming trade deficit is always bad (temporary deficits finance investment in growth)", "Not understanding services export strength (IT software, BPO are genuine competitive advantages)", "Missing oil import volatility: global oil price spikes automatically worsen India's deficit", "Confusing current account deficit with currency crisis (not same, though related)"],
+    "formulae": ["Current Account Deficit = Imports - Exports + (Income outflows) + (Transfers)", "Merchandise trade deficit: India ~$200 billion (2022)", "Services surplus: India ~$100-120 billion (IT, BPO, finance)", "Oil imports: 85% of consumption, major deficit driver", "Exchange rate: 1 USD = ~83 INR (2023), impacts trade competitiveness"]
+  },
+  {
+    "unit": "GS2-ECONOMY",
+    "subtopic": "Stock Market and Capital Markets",
+    "priority": "medium",
+    "primer": "India's stock markets (**NSE—National Stock Exchange, BSE—Bombay Stock Exchange**) are where companies list and investors trade. **Sensex** (30 large companies) and **Nifty** (50 companies) are major indices. Recent trends: retail investor participation surged post-2020 (250+ million demat accounts), wealth concentration in large companies. **IPO** (Initial Public Offering) boom reflected confidence but also speculative fervor. **Corporate governance** scandals (Satyam, IL&FS) showed weak oversight. **FPI (Foreign Portfolio Investment)** flows are volatile; when foreigners sell, rupee weakens. Understanding market dynamics helps interpret economic sentiment.",
+    "analogy": "Stock markets are like a collective mood ring: when they're up, people are optimistic about economy; when down, pessimistic. But moods can be irrational.",
+    "traps": ["Confusing stock market performance with economy health (market is sentiment, not reality)", "Assuming retail investors are sophisticated (most are uninformed, vulnerable to bubbles)", "Not understanding FPI volatility: global interest rate changes drive flows more than India fundamentals", "Missing corporate governance risk: many listed companies have weak oversight, high promoter control"],
+    "formulae": ["Sensex: Top 30 companies by market cap on BSE", "Nifty: Top 50 on NSE, more representative than Sensex", "Market cap: Number of shares × Share price = Company's total value", "P/E ratio: Share price / Earnings per share; high = overvalued, low = undervalued", "FPI flows: 2021-22 saw outflows (₹2-3 trillion), 2023 saw inflows"]
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "unit": "GS1-CURRENT",
+    "subtopic": "National Schemes and Social Programs",
+    "priority": "critical",
+    "primer": "India's flagship schemes like **Pradhan Mantri Jan Dhan Yojana** (PMJDY) aim financial inclusion, **Atal Pension Yojana** (APY) provides retirement security for unorganized workers, **Pradhan Mantri Kaushal Vikas Yojana** (PMKVY) focuses skill development, and **Ayushman Bharat** provides health insurance. Each scheme has specific eligibility, implementation year, and target beneficiaries. MPSC exams frequently ask which scheme addresses which problem, beneficiary numbers, or launch year. Understanding the **'why'** of each scheme (what problem it solves) is more important than just memorizing names.",
+    "analogy": "National schemes are like different tools in a toolkit: a hammer solves nail-driving problems, a screwdriver solves screw problems. Each scheme targets a specific social problem, not all problems.",
+    "traps": ["Confusing similar schemes (PMJDY, PMKVY—what's the difference?)", "Remembering names but not understanding what the scheme does", "Mixing up beneficiaries (PMJDY serves informal workers, APY serves unorganized sector workers)", "Assuming all schemes cover all of India (some are piloted in specific states first)"],
+    "formulae": ["PMJDY (2014): Financial inclusion, no-frills bank accounts, target: every household", "APY (2015): Retirement pension for informal workers, age 18-40 during enrollment", "PMKVY (2015): Skill training for youth, placement-linked incentive", "Ayushman Bharat (2018): Health insurance of 5 lakhs, target: 10.7 crore families", "PM-SHRI (2022): School improvement scheme"]
+  },
+  {
+    "unit": "GS1-CURRENT",
+    "subtopic": "Constitutional Amendments and Governance",
+    "priority": "high",
+    "primer": "India's Constitution is regularly amended to reflect changing times. Recent amendments have expanded constitutional protections (e.g., 103rd Amendment made 'Economic Weaker Sections' eligible for reservations), modified electoral systems, and adjusted federalism (GST-related amendments). Each amendment has a year, a number, and a specific purpose. Understanding why an amendment was needed (what gap it filled) and its implications is tested more than just the amendment number. The **chronology** of major amendments since 2015 is frequently tested.",
+    "analogy": "Constitutional amendments are like software updates: they fix bugs (constitutional gaps), add features (new protections), or change how the system works (federalism adjustments). The original system remains, but key provisions update.",
+    "traps": ["Confusing amendment numbers (103rd vs 104th vs 128th)", "Not understanding what a specific amendment actually changed", "Assuming amendments always expand rights (some restrict or clarify limits)", "Missing the year—amendments are often identified by year, not just number"],
+    "formulae": ["103rd Amendment (2019): EWS reservation, income ceiling ₹8 lakh", "104th Amendment (2020): Increase in Lok Sabha seats based on 2021 census", "127th Amendment (2005): SC/ST reservation in educational institutions extended", "128th Amendment (2023): Women's reservations in Lok Sabha and state assemblies", "Know: Year + What changed + Why it was needed"]
+  },
+  {
+    "unit": "GS1-CURRENT",
+    "subtopic": "International Relations and Foreign Policy",
+    "priority": "high",
+    "primer": "India's foreign policy balances relationships across major powers (USA, China, Russia, Japan) through strategic partnerships (QUAD, BRICS, SCO). **QUAD** (Quadrilateral Security Dialogue) aligns India, USA, Japan, Australia against Chinese expansion in Indo-Pacific. **BRICS** includes Brazil, Russia, India, China, South Africa in development cooperation. **SCO** (Shanghai Cooperation Organization) includes Russia, Central Asia, China focused on security. Recent tensions with Pakistan (Kashmir), strategic competition with China (border), and deepening US-India ties are exam-relevant. Understanding India's **balancing act** (working with multiple powers) is key.",
+    "analogy": "India's foreign policy is like balancing many friendships: it can't abandon the old friend (Russia) just to gain a new friend (USA), nor can it let one friend (China) dominate without checking their power.",
+    "traps": ["Seeing foreign policy as one-dimensional (India is not purely 'anti-China' or 'pro-West')", "Confusing QUAD with QUINT (QUINT is informal, QUAD is official alliance)", "Not understanding India's **strategic autonomy**—India prioritizes its interests, not any power's interests", "Mixing up acronyms (SAARC—South Asia, different from BRICS—development, different from SCO—security)"],
+    "formulae": ["QUAD: India, USA, Japan, Australia; established 2007; anti-Chinese expansion focus", "BRICS: Brazil, Russia, India, China, South Africa; established 2009; development cooperation", "SCO: China, Russia, Central Asia countries, India; established 2001; security focus", "India-Pakistan: Kashmir remains disputed, military tensions periodic", "India-China: Border disputes (LAC), trade competition, BRICS partnership despite tensions"]
+  },
+  {
+    "unit": "GS1-CURRENT",
+    "subtopic": "Environmental Issues and Climate Action",
+    "priority": "high",
+    "primer": "India is both a developing economy dependent on fossil fuels AND a climate-vulnerable nation facing floods, droughts, and agricultural stress. **India's COP pledges** (Carbon neutrality by 2070, net-zero by 2050 in discussions) reflect this tension. Major environmental challenges include air pollution (Delhi smog), water scarcity (groundwater depletion), deforestation, and e-waste. India's approach: renewable energy scaling (solar capacity exceeds 50 GW), but also coal dependence. Recent events: emissions peak claims, IRA (Inflation Reduction Act—US, affects India), coal phase-out resistance.",
+    "analogy": "India's climate stance is like a poor person buying a house: they need to turn on heating (economic growth via coal) but also want a healthy home (clean environment). They can't afford to switch off heat immediately.",
+    "traps": ["Assuming India has abandoned coal (false—coal still dominates energy mix)", "Confusing India's climate rhetoric with actual enforcement (pledges are often weaker than announcements)", "Not understanding India's 'Common but Differentiated Responsibilities' position (developed nations caused climate change, should cut emissions faster)", "Missing India's renewable energy progress (world's 4th largest installed renewable capacity)"],
+    "formulae": ["COP26 pledge: Net-zero by 2070, non-committal before that", "Renewable energy: 50+ GW solar, 100+ GW wind installed capacity, targets 500 GW by 2030", "Air quality: AQI (Air Quality Index), Delhi NCR worst during winter (stubble burning + meteorology)", "Water: Groundwater depletion in Punjab, Rajasthan; dam levels critical; urbanization increases demand"]
+  },
+  {
+    "unit": "GS1-CURRENT",
+    "subtopic": "Social Movements and Protests",
+    "priority": "medium",
+    "primer": "Recent social movements reflect inequality, identity, and governance: **farmers' protests** (2020-21 against agriculture laws), **anti-CAA protests** (Citizenship Amendment Act, 2019—seen as anti-Muslim), **women's movements** (workplace harassment, safety), and **environmental protests** (against dams, mining). Each movement reveals underlying tensions. Farmers' protests influenced policy (laws repealed). Anti-CAA protests showed how laws can be perceived as discriminatory despite intentions. Understanding **why** movements arise and what results they achieve is tested more than just dates.",
+    "analogy": "Social movements are like pressure relief valves: when people feel unheard through normal channels, they organize collectively to force attention to issues.",
+    "traps": ["Seeing movements as purely anti-government (many are against private corporations or seek policy clarification)", "Confusing movement size with popular support (loud ≠ majority)", "Missing intersectionality (e.g., farmers' protests involved caste, gender, regional divisions)", "Assuming movements always fail (farmers' protests succeeded in repealing laws)"],
+    "formulae": ["Farmers' protests (2020-21): Against farm laws, achieved repeal; revealed agricultural distress", "Anti-CAA (2019-20): Against citizenship law seen as divisive; expressed minority concerns", "Environmental: Protests against Aarey Metro project, hydroelectric dams", "Women's safety: MeToo in India led to institutional accountability in some sectors"]
+  },
+  {
+    "unit": "GS1-CURRENT",
+    "subtopic": "Recent Appointments and Leadership Changes",
+    "priority": "medium",
+    "primer": "High-profile appointments—Chief Justice of India, RBI Governor, Election Commission members, Supreme Court judges, cabinet ministers—shape policy direction. Key recent figures: Chandrachud (CJI 2023), Sanjay Malhotra (RBI Governor 2023), Rajiv Kumar (Election Commission). Appointment procedures vary: constitutional posts (CJI, Governor-General) have formal rules, political posts (ministers) involve electoral choice, bureaucratic positions use merit systems. Understanding **who is appointed to which position** and their **policy inclination** helps predict governance direction.",
+    "analogy": "Leadership appointments are like casting a movie: a director or actor in a role shapes how the film plays out. RBI Governor's interest in monetary policy direction (inflation-fighting vs growth-enabling) shows their approach.",
+    "traps": ["Confusing positions (Chief Justice ≠ Supreme Court judge, Election Commission chairman ≠ commissioner)", "Not knowing appointment timelines (CJI serves until retirement, RBI Governor has fixed tenure)", "Assuming all appointments are permanent (some are rotating, contractual, or fixed-term)", "Missing significance of appointment (a tough-on-corruption Election Commission member means different enforcement)"],
+    "formulae": ["CJI: Constitutional head of Supreme Court, appointed by President, 5-year tenure", "RBI Governor: Monetary policy head, 3-year renewable term, controls interest rates", "Election Commission: 3 members (1 chairman, 2 members), independent authority", "Cabinet: Minister appointments reflect political power distribution", "Judgeships: Supreme Court (34 judges max), High Courts (hundreds), appointed by CJI"]
+  },
+  {
+    "unit": "GS1-CURRENT",
+    "subtopic": "Major Conferences and International Events",
+    "priority": "medium",
+    "primer": "Major events shape international policy: **COP27, COP28** (climate conferences), **G20 summits** (India held presidency in 2023), **BRICS summits**, **UN general assembly**, **world expos**. These conferences produce declarations, commitments, and reveal geopolitical alignments. For example, COP27 (Egypt) established a 'Loss and Damage Fund' for climate-vulnerable nations. India's G20 presidency (2023) focused on 'Global South concerns', moving the conversation beyond wealthy nation priorities. Understanding **what issues were discussed, what outcomes emerged, and India's position** is exam-relevant.",
+    "analogy": "International conferences are like board meetings: they set agendas (climate action, development), make decisions (fund creation, agreements), and reflect who has power (permanent members, wealthy nations lead).",
+    "traps": ["Confusing COP number with year (COP28 is 2023, COP27 was 2022)", "Assuming all conferences achieve binding commitments (many produce non-binding declarations)", "Not knowing India's specific positions (India often opposes emissions cuts affecting development)", "Missing who didn't attend or abstained (Russia boycotted COP proceedings due to Ukraine; this affects outcomes)"],
+    "formulae": ["COP27 (2022, Egypt): Loss and Damage Fund for climate-vulnerable nations", "COP28 (2023, UAE): First explicit fossil fuel phase-out language (not 'phase-down')", "G20 (2023, India chair): Focused on Global South, development agenda", "BRICS (2023): Expanded membership to include new countries", "India's role: Represents developing nations, balances North-South interests, climate finance advocate"]
+  },
+  {
+    "unit": "GS1-CURRENT",
+    "subtopic": "Awards, Recognitions, and Cultural Events",
+    "priority": "low",
+    "primer": "Major awards reflect excellence: **Padma awards** (civilian honors, annual), **Nobel Prizes** (if Indian wins), **Oscar wins** (India's international film presence), **Asian Games** (next 2026 in India), and **cultural declarations** (UNESCO World Heritage Sites). Individual awards (Padma Shri, Bhushan) recognize artists, scientists, activists. Institutional recognitions (UNESCO sites, Blue Flag beaches) reflect conservation efforts. While lower priority than policy issues, awards may appear in current affairs sections as they represent India's cultural soft power.",
+    "analogy": "Awards are like merit certificates: they recognize excellence in various fields and reflect a nation's values and achievements.",
+    "traps": ["Confusing award categories (Padma Shri vs Padma Bhushan—Bhushan is higher)", "Not knowing recipients (memorizing the list is less important than understanding why someone was awarded)", "Missing the significance (a UNESCO World Heritage Site shows cultural preservation, not just tourism)"],
+    "formulae": ["Padma Shri: Civilian award, 4th highest civilian honor", "Padma Bhushan: 2nd highest civilian award", "Padma Vibhushan: Highest civilian award (rare, ~2-3 per year)", "Nobel: Peace, Physics, Chemistry, Medicine, Literature, Economic Sciences", "Olympics/Asian Games: India's participation and medal count reflect athletic development"]
+  },
+  {
+    "unit": "GS1-CURRENT",
+    "subtopic": "Defense, Security, and Military Issues",
+    "priority": "high",
+    "primer": "India faces security challenges on two fronts: **Pakistan** (Kashmir, cross-border terrorism) and **China** (border disputes, military competition). Recent issues: **2019 Balakot airstrike** (Pakistan), **2020 LAC skirmish** (China, 20 Indian soldiers killed), **Article 370 revocation** (Kashmir), **Chinese incursions** in Arunachal Pradesh and Ladakh, **nuclear capabilities** of both neighbors. India's military modernization (Indigenous aircraft carrier INS Vikrant, Rafale jets, missile systems) reflects strategic response. Understanding the **current status** of disputes and India's preparedness is tested.",
+    "analogy": "Defense challenges are like security threats to a household: India must watch two problematic neighbors (Pakistan, China) while building a stronger security system (military modernization) and managing internal security (Kashmir).",
+    "traps": ["Oversimplifying India-Pakistan relations (complex history, not just terrorism)", "Underestimating China as merely 'communist' (China is a sophisticated military/economic competitor)", "Confusing LAC with LoC (LAC = Line of Actual Control with China in mountains, LoC = Line of Control with Pakistan)", "Missing humanitarian aspects (cross-border families, shared rivers, trade disruption)"],
+    "formulae": ["LAC: India-China border, disputed 3488 km, multiple incursion points", "LoC: India-Pakistan border, demilitarized zone, regular skirmishes", "Balakot: 2019 Pakistan terrorist camp airstrike, escalation warning", "2020 LAC clash: 20 Indian soldiers killed in Galwan Valley, China also lost soldiers (numbers disputed)", "INS Vikrant: Indigenous aircraft carrier, commissioned 2022, India's naval expansion"]
+  }
+]

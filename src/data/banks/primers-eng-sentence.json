@@ -1,0 +1,74 @@
+[
+  {
+    "unit": "ENG-SENTENCE",
+    "subtopic": "Direct and Indirect Speech",
+    "priority": "critical",
+    "primer": "**Direct speech** reproduces the exact words someone said in quotation marks. **Indirect speech** (or reported speech) recounts what someone said without quotation marks, changing pronouns and tenses. When converting direct to indirect, the main verb tense shifts backward (present → past, past → past-perfect), and the reporting verb changes from 'said' to alternatives like 'told', 'asked', 'claimed'. The auxiliary words and word order also change: 'He said, \"I am tired\"' becomes 'He said that he was tired.'",
+    "analogy": "Direct speech is like rewinding a recording to hear exactly what was said. Indirect speech is like describing the recording to someone who didn't hear it—you paraphrase what was communicated, and your description sounds different from the original words.",
+    "traps": ["Forgetting to change pronouns: 'She said, \"I love pizza\"' → 'She said that she loves pizza' (not 'I love')", "Not shifting tense: 'He said he is tired' (wrong)—should be 'was tired'", "Confusing when to use 'that' vs 'if': 'He said that he was coming' vs 'He asked if he should come'", "Questions use 'if/whether': 'He asked if I was ready' (not 'He asked was I ready')"],
+    "formulae": ["Direct: S + said + '\"exact words\"'", "Indirect: S + said/told + (that) + reported clause", "Tense shift: present→past, past→past-perfect, future→future-with-would", "Question: 'Did you see?' → 'He asked if I had seen'", "Imperative: 'Go!' → 'He told me to go'"]
+  },
+  {
+    "unit": "ENG-SENTENCE",
+    "subtopic": "Active and Passive Voice",
+    "priority": "critical",
+    "primer": "**Active voice** emphasizes who performs an action ('The dog bit the boy'). **Passive voice** emphasizes what was acted upon ('The boy was bitten by the dog'). In passive voice, the object of active becomes the subject, the verb changes to 'be' + past participle, and the original subject follows 'by'. Not all sentences should be passive, but exam questions test whether you can convert between voices accurately and identify which voice is more appropriate. Passive voice is often used in formal, scientific, or when the doer is unknown or unimportant.",
+    "analogy": "Active voice puts a spotlight on the actor doing the action. Passive voice shifts the spotlight to the person/thing being acted upon, and the actor steps to the background (or off stage entirely).",
+    "traps": ["Changing meaning during conversion: active/passive pairs must communicate the same thing", "Forgetting 'by' when the agent is mentioned: 'was bitten the dog' (wrong)", "Using wrong auxiliary: 'The cake is eaten' means it's currently being eaten, not that it's been eaten (use 'has been eaten')", "Passive with intransitive verbs: 'He ran' cannot become passive (no object to become subject)"],
+    "formulae": ["Active: S + V + O (Ravi wrote a letter)", "Passive: O + 'be' + past participle + 'by' + S (A letter was written by Ravi)", "Present Simple: 'is/are' + past participle", "Past Simple: 'was/were' + past participle", "Present Perfect: 'has/have been' + past participle", "Future: 'will be' + past participle"]
+  },
+  {
+    "unit": "ENG-SENTENCE",
+    "subtopic": "Sentence Transformation and Paraphrasing",
+    "priority": "high",
+    "primer": "**Sentence transformation** rewrites a sentence while keeping the same meaning, often changing structure or parts of speech. Common transformations: simple → complex ('He worked hard. He succeeded' → 'By working hard, he succeeded'), changing voice (active ↔ passive), changing comparatives, converting clauses to phrases, or using different connecting words. The key rule: meaning must not change, only form. Exam questions often ask to transform in ways that test understanding of grammar structures and synonym usage.",
+    "analogy": "Transformation is like describing the same scene from different camera angles: the scene is identical, but how you frame it (subject, focus, perspective) changes.",
+    "traps": ["Changing meaning while transforming: 'All students passed' ≠ 'Most students passed'", "Forgetting to adjust words when changing structure: 'Because of heavy rain' requires a noun phrase, not a clause", "Incomplete transformation: 'He is too proud' → 'He is so proud that' (incomplete without stating consequence)", "Using 'as...as' wrongly: 'She is as tall than I' should be 'as tall as I (am)'"],
+    "formulae": ["Simple → Complex: Add a conjunction and dependent clause", "Complex → Simple: Replace clause with phrase", "Voice conversion: Use 'be' + past participle", "Comparative → Superlative: Change structure but keep meaning", "Using synonymous connectors: 'because' = 'due to' = 'on account of'"]
+  },
+  {
+    "unit": "ENG-SENTENCE",
+    "subtopic": "Narration and Point of View",
+    "priority": "high",
+    "primer": "**Narration** refers to how a story is told—from whose perspective and in what tense. **First-person narration** ('I did') is personal and limited to one character's view. **Second-person** ('You do') addresses the reader directly and is rare. **Third-person** ('He did') can be limited (one character's thoughts) or omniscient (all-knowing narrator). Changing narration involves shifting person (I → he) and often tense. Exam questions test whether narration shifts maintain consistency and whether converted narration accurately reflects the original meaning.",
+    "analogy": "Narration is like choosing a camera position: first-person is a character's own eyes, third-person limited is a camera following one character, third-person omniscient is a drone seeing everything at once.",
+    "traps": ["Changing tense when changing person unnecessarily: 'I saw' → 'He sees' (should stay past: 'He saw')", "Losing first-person immediacy in shifting to third: 'I felt scared' → 'He was scared' (intensity may change)", "Second-person creating ambiguity: 'You must work hard' might mean the reader or people in general", "Mixing narrative perspectives: starting first-person, then shifting third-person"],
+    "formulae": ["First → Third: Change 'I/we' to 'he/she/they' and adjust verbs", "Keep tense consistent: past narration stays past regardless of person", "Internal thoughts stay attributed: 'I thought' → 'He thought'", "Direct address ('You know') becomes: 'Everyone knows' or 'One knows'"]
+  },
+  {
+    "unit": "ENG-SENTENCE",
+    "subtopic": "Complex Sentences and Subordination",
+    "priority": "high",
+    "primer": "**Complex sentences** contain an independent clause (can stand alone) and one or more dependent clauses (cannot stand alone). **Subordinate clauses** are introduced by subordinators (because, if, when, although, which, that) and function as nouns, adjectives, or adverbs. A **noun clause** acts as subject/object ('What he said matters'). An **adjective clause** modifies a noun ('The book that I read was great'). An **adverbial clause** modifies verbs/clauses ('When I arrived, he left'). Proper subordination shows logical relationships and prevents run-on sentences.",
+    "analogy": "Complex sentences are like a tree: the independent clause is the trunk, dependent clauses are branches. Each branch connects to the trunk and shows how ideas relate (reason, time, condition, contrast).",
+    "traps": ["Sentence fragment: writing only a dependent clause as a complete sentence", "Unclear antecedent in relative clauses: 'I attended the meeting which was interesting' (meeting or attending?)", "Misplaced subordinate clause: 'He left the house when it rained, which was late' (what was late?)", "Using wrong subordinator: 'I stayed home because it rained' (correct) vs 'I stayed home so that it rained' (illogical)"],
+    "formulae": ["Noun clause: acts like S or O: 'I don't know [what he wants]', '[Whoever comes] is welcome'", "Adjective clause: modifies noun: 'The student [who studied] passed', 'The book [that was written]'", "Adverbial clause: modifies verb: '[If it rains], we'll stay inside', 'I'll call you [when I arrive]'", "Relative pronouns: who/whom (person), which (thing), that (both), whose (possession)"]
+  },
+  {
+    "unit": "ENG-SENTENCE",
+    "subtopic": "Parallelism and Balanced Structure",
+    "priority": "medium",
+    "primer": "**Parallelism** means using similar grammatical structures for similar ideas, especially in lists, comparisons, and coordinated elements. Parallel structure maintains rhythm, clarity, and emphasis. Breaking parallelism confuses readers ('He likes swimming, playing tennis, and to read books'—should be '...and reading books'). In coordinated structures linked by 'and', 'or', 'but', all items must have identical grammatical form. This is heavily tested in error-spotting because even native speakers often break parallelism unconsciously.",
+    "analogy": "Parallelism is like matching socks: if you're listing items, they should all be the same 'type' grammatically. Mixing a noun, a verb phrase, and an infinitive is like wearing socks of different lengths.",
+    "traps": ["Lists with mixed parts of speech: 'The job requires intelligence, honesty, and being reliable' (should be all nouns: 'intelligence, honesty, reliability')", "Comparisons breaking parallel form: 'Teaching is as rewarding as to work with children' (should be both gerunds or both to-infinitives)", "Correlative conjunctions require parallel structure: 'Both reading and to write' (wrong)—should be 'Both reading and writing'", "Faulty parallelism in compound subjects: 'The teacher and the students was ready' (should be 'were')"],
+    "formulae": ["Lists: all items same part of speech: 'I like apples, oranges, and bananas' (all nouns)", "Comparisons: parallel form: 'He is as tall as she is' or 'He is taller than she is'", "Coordinated elements with 'and/or/but': identical structures", "Correlatives like 'both...and', 'either...or', 'neither...nor': parallel structures both sides"]
+  },
+  {
+    "unit": "ENG-SENTENCE",
+    "subtopic": "Common Sentence Errors and Correction",
+    "priority": "medium",
+    "primer": "**Fragments** are incomplete sentences missing a subject or verb ('Running late to school.' → 'I was running late to school.'). **Run-on sentences** join independent clauses without proper punctuation or conjunction ('I went to the store I bought milk' → use period, semicolon, or conjunction). **Comma splices** join independent clauses with only a comma ('I was tired, I slept' → needs 'and' or semicolon). **Fused sentences** lack all punctuation between independent clauses. Recognizing and correcting these errors is fundamental to exam success, especially in error-spotting and sentence correction sections.",
+    "analogy": "A fragment is like an incomplete thought—you started speaking but didn't finish. A run-on is like keeping talking without taking a breath. A comma splice is like putting a comma where a full stop or 'and' should go.",
+    "traps": ["Dependent clause at sentence start mistaken for fragment: '[When I arrived], [I was happy]' is a sentence, not a fragment (clause is part of it)", "Semicolon confusion: semicolons join independent clauses, not clauses with their dependent parts", "Colon confusion: colons introduce lists or explanations, not coordinate clauses", "Believing every sentence needs a comma after introductory phrase (only if phrase is 4+ words or could be confusing)"],
+    "formulae": ["Fragment fix: Add subject or verb", "Run-on fix: Separate with period, semicolon, or add conjunction/subordinator", "Comma splice fix: Replace comma with semicolon, period, or add 'and/but/or'", "Correct compound: 'Clause 1; Clause 2' OR 'Clause 1, and Clause 2' OR 'Clause 1. Clause 2'"]
+  },
+  {
+    "unit": "ENG-SENTENCE",
+    "subtopic": "Connectors and Transition Words",
+    "priority": "medium",
+    "primer": "**Connectors** (also, however, therefore, meanwhile, finally) and **transition words** (furthermore, nevertheless, consequently) link ideas between sentences or clauses and show logical relationships. **Additive connectors** (and, also, moreover) add information. **Contrastive connectors** (but, however, yet, although) show contradiction. **Causal connectors** (because, since, therefore, as a result) show cause-effect. **Sequential connectors** (first, next, finally, meanwhile) show order. Using the right connector shows that you understand how sentences relate, and misusing them creates logical confusion. Exam questions test whether connectors are used appropriately for the ideas they're linking.",
+    "analogy": "Connectors are like signposts in a story: they tell readers whether the next idea reinforces, contradicts, explains, or continues the previous one. Missing or wrong signposts leave readers lost.",
+    "traps": ["Using 'however' to show cause (it shows contrast, not reason)", "Comma placement: 'He was late, however, he arrived on time' (semicolon or period before 'however')", "Overusing 'and' when more specific connectors suit better", "Confusing 'because' (cause-effect) with 'although' (concession): 'Although it rained, the game continued' shows contrast, not reason"],
+    "formulae": ["Additive: and, also, furthermore, moreover, in addition", "Contrastive: but, however, yet, although, on the other hand", "Causal: because, since, therefore, as a result, consequently", "Sequential: first, second, next, meanwhile, finally, ultimately"]
+  }
+]

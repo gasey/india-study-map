@@ -12,10 +12,11 @@
 // ============================================
 
 import { banks } from '@/data/banks';
-import type { BankDifficulty, BankQuestion } from '@/data/banks/types';
+import { isMcqQuestion } from '@/data/banks/types';
+import type { BankDifficulty, BankQuestion, McqBankQuestion } from '@/data/banks/types';
 
 export interface PickedQuestion {
-  q: BankQuestion;
+  q: McqBankQuestion;
   bankId: string;
   /** Options shuffled for display; answerAt = index of the correct one. */
   order: number[];
@@ -28,7 +29,9 @@ type Attempts = Record<string, { attempts: Record<string, { correct: boolean; at
 const BANK_OF = new Map<string, string>();
 for (const b of banks) for (const q of b.questions) BANK_OF.set(q.id, b.id);
 
-const ALL: BankQuestion[] = banks.flatMap((b) => b.questions);
+// Descriptive questions (essay/case-study, no single answer) don't fit the
+// game's answer-and-score loop — only MCQs are ever picked here.
+const ALL: McqBankQuestion[] = banks.flatMap((b) => b.questions).filter(isMcqQuestion);
 
 function difficultiesForTier(tier: number): BankDifficulty[] {
   if (tier <= 2) return ['easy', 'medium'];
@@ -46,7 +49,7 @@ function weightOf(q: BankQuestion, bankProgress: Attempts): number {
   return prog!.mastered.includes(q.id) ? 0.6 : 1.2;
 }
 
-function weightedPick(pool: BankQuestion[], bankProgress: Attempts): BankQuestion {
+function weightedPick(pool: McqBankQuestion[], bankProgress: Attempts): McqBankQuestion {
   let total = 0;
   const weights = pool.map((q) => {
     const w = weightOf(q, bankProgress);
@@ -70,7 +73,7 @@ function shuffledOrder(n: number): number[] {
   return a;
 }
 
-function finish(q: BankQuestion): PickedQuestion {
+function finish(q: McqBankQuestion): PickedQuestion {
   const order = shuffledOrder(q.options.length);
   return {
     q,

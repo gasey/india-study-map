@@ -9,6 +9,87 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-08-03 — Descriptive sub-part questions, admin audit trail, versatile review workflow
+
+**What shipped:**
+- `questions` (Postgres) and `BankQuestion` (frontend) gained a `type:
+  'mcq' | 'descriptive'` discriminator plus `subparts` — lettered (a..z)
+  sub-questions, each independently flaggable/correctable. `isMcqQuestion()`
+  / `normalizeQuestion()` helpers keep every existing static-bundle record
+  valid with zero data-file rewrites (type defaults to 'mcq' when absent).
+  3 of State Tax Officer's 5 essay/précis-letter records got real `subparts`
+  (their garbled OCR-bled "options" were genuinely lettered sub-questions in
+  disguise); the other 2 (plain essay topic-choice lists) kept `options` as
+  a display-only reference list.
+- New `src/modules/mpsc/DescriptiveQuestionCard.tsx` — the one global format
+  for rendering a descriptive question + its sub-parts, each with its own
+  flag/note/comments panel. Fixed a real bug in the same pass: the
+  corrections overlay in `StateTaxOfficerEnhanced.tsx` only ever applied to
+  the MCQ pool, never to descriptive questions — corrections are now merged
+  onto the full pool before splitting into tabs.
+- `question_audit_log` (new Postgres table): every correction, report
+  status change, and comment moderation action now writes one row here —
+  actor, before/after snapshot, note, timestamp. Powers a new **History**
+  tab in AdminPanel; this is the actual "who changed what, when" the admin
+  system was missing.
+- `question_reports` gained `subpart_label` + `suggested_text` (free-text
+  suggested fix, for flags with no MCQ answer index); `question_corrections`
+  gained `corrected_subparts`; `question_comments` gained `parent_id` (one
+  level of reply), `deleted_at`/`updated_at` (edit/soft-delete), `is_pinned`
+  (admin pin). All wired into `QuestionReviewPanel.tsx`.
+- AdminPanel restructured into 5 tabs: **Reports** (now filterable by issue
+  type, date range, search, has-suggestion, sort, paginated — was a single
+  status dropdown with a hardcoded top-500), **History** (new), **Comments**
+  (new — browse/moderate every comment on a bank), **Users** (existing,
+  now with per-user activity counts), **Dashboard** (new — headline stats +
+  live activity feed). New shared `FilterBar.tsx` primitives back the
+  Reports/Comments filter bars.
+- Generalized the whole review system to `mpsc-old-questions` (6,380 Qs) —
+  it had none of this before. `MpscPage.tsx` now fetches/overlays
+  corrections the same way State Tax Officer does; `QuestionsTable.tsx`
+  swaps its dead-end `ReportModal` popup for the shared
+  `QuestionReviewPanel`; a new admin-gated Admin tab was added. Retired
+  `ReportModal.tsx` and its legacy `/api/mpsc/report` write path (the old
+  `reports` table stays in Postgres, untouched, just no longer written to).
+- Fixed 2 live mixed-content bugs found while touching this code:
+  `useMpscData.ts`'s bank fetch and (moot, since the component was deleted)
+  `ReportModal.tsx`'s report submission both still hit
+  `http://134.209.154.122/mpsc-api/...` — the same bug fixed for State Tax
+  Officer's API client on 2026-08-02, just never applied here. Now
+  `https://api.map.hawayu.in`.
+
+**Why:** user asked for descriptive questions with lettered sub-parts,
+admin change-history with attribution, more comprehensive admin filtering,
+and a more versatile flag/correction/comment workflow — plus generalizing
+the review system that had only ever covered one of the two banks.
+
+**Verified live (browser + curl, not just compiled):** full round-trip on
+both banks — flagged a descriptive sub-part with free text, saw it in admin
+Reports with the right filter facets, applied a sub-part correction via the
+new sub-parts editor, confirmed it overlaid live in the Descriptive tab
+without a reload, confirmed both a `correction` and `report_status` entry
+appeared in History with correct before/after, posted a comment, replied to
+it, pinned it as admin, confirmed pinned-first ordering and the Comments
+moderation tab. Repeated the flag → admin filter → correction round-trip on
+`mpsc-old-questions` to confirm generalization and that the bank now
+fetches over HTTPS (164 papers / 6,380 questions, matching the live DB).
+All test data (reports/corrections/comments/audit rows) cleaned up
+afterward — tables are back to empty.
+
+**What's still open:**
+- Corrections aren't threaded into `data.papers`/`sittings` inside
+  `useMpscData.ts` — a paper launched from the Library tab still runs with
+  uncorrected text/answers; only Browse/Practice reflects corrections.
+- No bulk sub-part correction tool — each garbled sub-part is still fixed
+  one report at a time, same limitation as the 2026-08-02 MCQ option fix.
+- The Setu nav/design refactor (`HANDOFF-standalone.html`) and the
+  PDF→OCR ingestion pipeline for new exams are deliberately out of scope
+  here — recommendation for the latter (page-image + Claude vision
+  extraction into a staging table, reusing this session's audit/correction
+  UI for review) is recorded in chat, not yet built.
+
+---
+
 ## 2026-08-02 (evening) — Login "Failed to fetch": mpsc-api now on HTTPS
 
 **What shipped:**

@@ -7,7 +7,7 @@ import type { Chapter } from '@/types';
 import { timelineEntries } from '@/data/timeline';
 import { TRACKS, formatYear, type TimelineEntry } from '@/data/timeline/types';
 import { banks } from '@/data/banks';
-import type { BankQuestion } from '@/data/banks/types';
+import type { McqBankQuestion } from '@/data/banks/types';
 import type { TimelineRenderEntry } from './useTimelineData';
 
 interface EntryDrawerProps {
@@ -40,7 +40,7 @@ function relatedEntries(entry: TimelineEntry): TimelineEntry[] {
   return [...linked, ...sameTag];
 }
 
-export function QuestionCard({ question, onAnswered }: { question: BankQuestion; onAnswered?: (correct: boolean) => void }) {
+export function QuestionCard({ question, onAnswered }: { question: McqBankQuestion; onAnswered?: (correct: boolean) => void }) {
   const recordBankAttempt = useApp((s) => s.recordBankAttempt);
   const [picked, setPicked] = useState<number | null>(null);
 

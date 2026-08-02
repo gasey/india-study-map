@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { getBank } from '@/data/banks';
-import type { BankQuestion, ExamPaper } from '@/data/banks/types';
+import { isMcqQuestion } from '@/data/banks/types';
+import type { BankQuestion, ExamPaper, McqBankQuestion } from '@/data/banks/types';
 
 // ============================================
 // MPSC data layer — turns the flat bank (papers + questions) into the
@@ -17,7 +18,10 @@ import type { BankQuestion, ExamPaper } from '@/data/banks/types';
 export const BANK_ID = 'mpsc-old-questions';
 export const ALL = 'all';
 
-const API_URL = 'http://134.209.154.122/mpsc-api/api/mpsc/bank';
+// HTTPS is required — the deployed site is served over HTTPS (Vercel), and
+// browsers silently block http:// fetches from an https:// page as mixed
+// content (see mpscApi.ts's API_BASE / DEVLOG.md 2026-08-02).
+const API_URL = 'https://api.map.hawayu.in/api/mpsc/bank';
 
 interface RawBank {
   papers: ExamPaper[];
@@ -178,13 +182,15 @@ export function useMpscData() {
   }, [bank]);
 }
 
-/** Apply the shared filter bar to a question pool. */
+/** Apply the shared filter bar to a question pool. Descriptive questions
+ *  (no single answer) are excluded — this bank's table/test-runner UI is
+ *  MCQ-only today. */
 export function filterQuestions(
   questions: BankQuestion[],
   paperById: Map<string, ExamPaper>,
   f: MpscFilters,
-): BankQuestion[] {
-  return questions.filter((q) => {
+): McqBankQuestion[] {
+  return questions.filter(isMcqQuestion).filter((q) => {
     if (f.subject !== ALL && q.subject !== f.subject) return false;
     if (f.difficulty !== ALL && q.difficulty !== f.difficulty) return false;
     const paper = q.paperId ? paperById.get(q.paperId) : undefined;

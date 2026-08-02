@@ -27,6 +27,11 @@ export interface QuestionReport {
   questionId: string;
   issueType: string;
   suggestedAnswerIndex: number | null;
+  /** Free-text suggested fix — for descriptive questions/sub-parts, which
+   *  have no answer index to suggest. */
+  suggestedText: string | null;
+  /** Which lettered sub-part (a..z) this flag targets, if any. */
+  subpartLabel: string | null;
   message: string;
   status: 'pending' | 'accepted' | 'rejected';
   adminNote: string | null;
@@ -34,6 +39,12 @@ export interface QuestionReport {
   reviewedAt: string | null;
   createdAt: string;
   username: string | null;
+}
+
+export interface CorrectedSubpart {
+  label: string;
+  text: string;
+  modelAnswer?: string;
 }
 
 export interface Correction {
@@ -47,6 +58,8 @@ export interface Correction {
   /** Rewritten option text, replacing all 4 options — for OCR-garbled MCQs
    *  where the printed options came through blank or scrambled. */
   options: string[] | null;
+  /** Per-sub-part overrides for descriptive questions. */
+  subparts: CorrectedSubpart[] | null;
   updatedAt: string;
 }
 
@@ -54,8 +67,40 @@ export interface Comment {
   id: number;
   body: string;
   createdAt: string;
+  updatedAt: string | null;
   username: string;
   displayName: string | null;
+  /** One level of reply — the comment this replies to, if any. */
+  parentId: number | null;
+  isPinned: boolean;
+}
+
+export interface AdminComment extends Comment {
+  bankId: string;
+  questionId: string;
+}
+
+export interface AuditLogEntry {
+  id: number;
+  bankId: string;
+  questionId: string;
+  subpartLabel: string | null;
+  action: 'correction' | 'report_status' | 'comment_pinned' | 'comment_deleted';
+  actorId: number;
+  actorUsername: string;
+  before: Record<string, unknown> | null;
+  after: Record<string, unknown> | null;
+  note: string | null;
+  createdAt: string;
+}
+
+export interface AdminStats {
+  byBankStatus: { bankId: string; status: string; count: number }[];
+  byIssueType: { issueType: string; count: number }[];
+  totalComments: number;
+  totalCorrections: number;
+  perUser: { id: number; username: string; reportsFiled: number; commentsPosted: number; correctionsAuthored: number }[];
+  recentActivity: Omit<AuditLogEntry, 'before' | 'after' | 'actorId'>[];
 }
 
 export interface MockAttemptRecord {
@@ -113,7 +158,8 @@ export function me() {
 
 // ---- Reports ----
 export function submitReport(input: {
-  bankId: string; questionId: string; issueType: string; suggestedAnswerIndex?: number | null; message: string;
+  bankId: string; questionId: string; issueType: string; suggestedAnswerIndex?: number | null;
+  suggestedText?: string | null; subpartLabel?: string | null; message: string;
 }) {
   return request<QuestionReport>('/api/questions/report', { method: 'POST', body: JSON.stringify(input) });
 }
@@ -133,8 +179,17 @@ export function listComments(bankId: string, questionId: string) {
     `/api/questions/comments?bankId=${encodeURIComponent(bankId)}&questionId=${encodeURIComponent(questionId)}`,
   );
 }
-export function addComment(bankId: string, questionId: string, body: string) {
-  return request<Comment>('/api/questions/comments', { method: 'POST', body: JSON.stringify({ bankId, questionId, body }) });
+export function addComment(bankId: string, questionId: string, body: string, parentId?: number | null) {
+  return request<Comment>('/api/questions/comments', { method: 'POST', body: JSON.stringify({ bankId, questionId, body, parentId }) });
+}
+export function editComment(id: number, body: string) {
+  return request<{ status: string }>(`/api/questions/comments/${id}`, { method: 'PATCH', body: JSON.stringify({ body }) });
+}
+export function deleteComment(id: number) {
+  return request<{ status: string }>(`/api/questions/comments/${id}`, { method: 'DELETE' });
+}
+export function pinComment(id: number) {
+  return request<{ status: string; isPinned: boolean }>(`/api/questions/comments/${id}/pin`, { method: 'POST' });
 }
 
 // ---- Personal notes ----
@@ -159,12 +214,33 @@ export function getHistory(bankId?: string) {
 }
 
 // ---- Admin ----
-export function adminListReports(status?: string, bankId?: string) {
+export interface AdminReportsFilter {
+  status?: string;
+  bankId?: string;
+  issueType?: string[];
+  search?: string;
+  fromDate?: string;
+  toDate?: string;
+  hasSuggestion?: boolean;
+  subpartLabel?: string;
+  sort?: 'newest' | 'oldest';
+  limit?: number;
+  offset?: number;
+}
+
+function buildParams(f: object): string {
   const params = new URLSearchParams();
-  if (status) params.set('status', status);
-  if (bankId) params.set('bankId', bankId);
-  const q = params.toString() ? `?${params.toString()}` : '';
-  return request<{ reports: QuestionReport[] }>(`/api/admin/reports${q}`);
+  for (const [key, value] of Object.entries(f)) {
+    if (value === undefined || value === '') continue;
+    if (Array.isArray(value)) value.forEach((v) => params.append(key, String(v)));
+    else params.set(key, String(value));
+  }
+  const q = params.toString();
+  return q ? `?${q}` : '';
+}
+
+export function adminListReports(filter: AdminReportsFilter = {}) {
+  return request<{ reports: QuestionReport[] }>(`/api/admin/reports${buildParams(filter)}`);
 }
 export function adminBulkStatus(ids: number[], status: 'accepted' | 'rejected', adminNote: string) {
   return request<{ updated: number }>('/api/admin/reports/bulk-status', {
@@ -175,12 +251,27 @@ export function adminBulkStatus(ids: number[], status: 'accepted' | 'rejected', 
 export function adminUpsertCorrection(input: {
   bankId: string; questionId: string; correctedAnswerIndex?: number | null; correctedExplanation?: string | null;
   correctedNote?: string | null; correctedStem?: string | null; correctedOptions?: string[] | null;
+  correctedSubparts?: CorrectedSubpart[] | null; subpartLabel?: string | null;
   reportIds?: number[]; adminNote?: string;
 }) {
   return request<{ status: string }>('/api/admin/corrections', { method: 'POST', body: JSON.stringify(input) });
 }
 export function adminListUsers() {
   return request<{ users: (ApiUser & { createdAt: string })[] }>('/api/admin/users');
+}
+export function adminListAuditLog(filter: {
+  bankId?: string; questionId?: string; actorId?: number; action?: string; fromDate?: string; toDate?: string;
+  limit?: number; offset?: number;
+} = {}) {
+  return request<{ entries: AuditLogEntry[] }>(`/api/admin/audit-log${buildParams(filter)}`);
+}
+export function adminListComments(filter: {
+  bankId?: string; search?: string; fromDate?: string; toDate?: string; pinned?: boolean; limit?: number; offset?: number;
+} = {}) {
+  return request<{ comments: AdminComment[] }>(`/api/admin/comments${buildParams(filter)}`);
+}
+export function adminStats() {
+  return request<AdminStats>('/api/admin/stats');
 }
 
 export { ApiError };

@@ -1,15 +1,20 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useApp } from '@/lib/store';
 import { ModuleSwitcher } from '@/modules/ModuleSwitcher';
 import { useHasDesktopChrome } from '@/lib/useShellChrome';
-import type { BankQuestion, ExamPaper } from '@/data/banks/types';
+import { useAuthStore } from '@/lib/authStore';
+import * as api from '@/lib/mpscApi';
+import type { Correction } from '@/lib/mpscApi';
+import { isMcqQuestion } from '@/data/banks/types';
+import type { BankQuestion, ExamPaper, McqBankQuestion } from '@/data/banks/types';
 import {
-  useMpscData, filterQuestions, emptyFilters, ALL,
+  useMpscData, filterQuestions, emptyFilters, ALL, BANK_ID,
   type MpscFilters, type PaperWithQuestions, type Sitting,
 } from './useMpscData';
 import { TestRunner } from './TestRunner';
 import { QuestionsTable } from './QuestionsTable';
+import { AdminPanel } from './AdminPanel';
 
 // ============================================
 // MPSC OLD QUESTIONS — module shell.
@@ -25,12 +30,12 @@ import { QuestionsTable } from './QuestionsTable';
 // and silently showed 0 questions.
 // ============================================
 
-type Tab = 'library' | 'browser' | 'practice' | 'history';
+type Tab = 'library' | 'browser' | 'practice' | 'history' | 'admin';
 
 interface ActiveTest {
   title: string;
   targetId: string;
-  questions: BankQuestion[];
+  questions: McqBankQuestion[];
 }
 
 const selectCls = 'px-2 py-1.5 rounded-md text-sm';
@@ -47,12 +52,39 @@ function shuffle<T>(arr: T[]): T[] {
 
 export function MpscPage() {
   const { theme, toggleTheme, testResults } = useApp();
+  const { user } = useAuthStore();
   const data = useMpscData();
   const hasDesktopChrome = useHasDesktopChrome('home');
 
   const [tab, setTab] = useState<Tab>('library');
   const [filters, setFilters] = useState<MpscFilters>(emptyFilters);
   const [activeTest, setActiveTest] = useState<ActiveTest | null>(null);
+
+  // Admin-authored corrections overlaid on the fetched bank — same pattern
+  // as the State Tax Officer bank, generalized here (this bank previously
+  // had no Flag/Note/Comments/Admin surface at all).
+  const [corrections, setCorrections] = useState<Record<string, Correction>>({});
+  const refetchCorrections = () => api.getCorrections(BANK_ID).then(setCorrections).catch(() => {});
+  useEffect(() => {
+    refetchCorrections();
+  }, []);
+
+  const correctedQuestions = useMemo(() => {
+    if (Object.keys(corrections).length === 0) return data.questions;
+    return data.questions.map((q) => {
+      const c = corrections[q.id];
+      if (!c || !isMcqQuestion(q)) return q;
+      return {
+        ...q,
+        answerIndex: c.answerIndex ?? q.answerIndex,
+        explanation: c.explanation ?? q.explanation,
+        question: c.stem ?? q.question,
+        options: c.options ?? q.options,
+      };
+    });
+  }, [data.questions, corrections]);
+
+  const questionsById = useMemo(() => new Map<string, BankQuestion>(correctedQuestions.map((q) => [q.id, q])), [correctedQuestions]);
 
   const paperById = useMemo(() => {
     const m = new Map<string, ExamPaper>();
@@ -73,16 +105,20 @@ export function MpscPage() {
     });
   }, [data.sittings, filters]);
 
+  // Corrections aren't yet threaded into data.papers/sittings (built inside
+  // useMpscData from the raw fetch) — Library-launched paper tests use the
+  // uncorrected text/answer. Browse/Practice, the primary review surface,
+  // does reflect corrections via correctedQuestions above.
   const practicePool = useMemo(
-    () => filterQuestions(data.questions, paperById, filters),
-    [data.questions, paperById, filters],
+    () => filterQuestions(correctedQuestions, paperById, filters),
+    [correctedQuestions, paperById, filters],
   );
 
   const launchPaperTest = (p: PaperWithQuestions) => {
     setActiveTest({
       title: `${p.paperSubject} ${p.paperNumber ?? ''} · ${p.year}`.replace(/\s+/g, ' ').trim(),
       targetId: p.id,
-      questions: p.questions,
+      questions: p.questions.filter(isMcqQuestion),
     });
   };
 
@@ -131,7 +167,9 @@ export function MpscPage() {
     <Shell theme={theme} toggleTheme={toggleTheme} hasDesktopChrome={hasDesktopChrome}>
       {/* Tabs */}
       <div className="shrink-0 flex items-center gap-1 px-5 pt-3 border-b overflow-x-auto" style={{ borderColor: 'var(--border)' }}>
-        {(['library', 'browser', 'practice', 'history'] as Tab[]).map((t) => (
+        {(
+          ['library', 'browser', 'practice', 'history', ...(user?.role === 'admin' ? (['admin'] as const) : [])] as Tab[]
+        ).map((t) => (
           <button
             key={t}
             onClick={() => setTab(t)}
@@ -148,7 +186,9 @@ export function MpscPage() {
                 ? '🔍 Browse'
                 : t === 'practice'
                   ? '✍️ Practice'
-                  : '📈 History'}
+                  : t === 'history'
+                    ? '📈 History'
+                    : '🛡️ Admin'}
           </button>
         ))}
         <span className="ml-auto text-xs self-center whitespace-nowrap" style={{ color: 'var(--text-secondary)' }}>
@@ -157,7 +197,7 @@ export function MpscPage() {
       </div>
 
       {/* Filters (library + browser + practice) */}
-      {tab !== 'history' && (
+      {tab !== 'history' && tab !== 'admin' && (
         <div className="shrink-0 flex flex-wrap items-center gap-2 px-5 py-3 border-b" style={{ borderColor: 'var(--border)' }}>
           <select value={filters.examType} onChange={(e) => set({ examType: e.target.value })} className={selectCls} style={selectStyle}>
             <option key="all" value={ALL}>All exam types</option>
@@ -200,7 +240,7 @@ export function MpscPage() {
             </div>
           </>
         )}
-        {tab === 'browser' && <Browser questions={practicePool} paperById={paperById} />}
+        {tab === 'browser' && <Browser questions={practicePool} paperById={paperById} corrections={corrections} />}
         {tab === 'practice' && (
           <>
             <Practice pool={practicePool} onStartTest={launchPracticeTest} />
@@ -218,6 +258,11 @@ export function MpscPage() {
               </div>
             </div>
           </>
+        )}
+        {tab === 'admin' && user?.role === 'admin' && (
+          <div className="scroll-panel overflow-y-auto h-full px-5 py-5">
+            <AdminPanel bankId={BANK_ID} questionsById={questionsById} onCorrectionApplied={refetchCorrections} />
+          </div>
         )}
       </main>
     </Shell>
@@ -271,7 +316,7 @@ function Library({ sittings, onTakeTest }: { sittings: Sitting[]; onTakeTest: (p
 }
 
 // ---- Practice: quick drill launcher ----
-function Practice({ pool, onStartTest }: { pool: BankQuestion[]; onStartTest: () => void }) {
+function Practice({ pool, onStartTest }: { pool: McqBankQuestion[]; onStartTest: () => void }) {
   return (
     <div className="max-w-md mx-auto text-center rounded-xl p-8" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
       <div className="text-3xl mb-2">✍️</div>
@@ -292,8 +337,10 @@ function Practice({ pool, onStartTest }: { pool: BankQuestion[]; onStartTest: ()
 }
 
 // ---- Browser: full-page searchable table ----
-function Browser({ questions, paperById }: { questions: BankQuestion[]; paperById: Map<string, ExamPaper> }) {
-  return <QuestionsTable questions={questions} paperById={paperById} />;
+function Browser({
+  questions, paperById, corrections,
+}: { questions: McqBankQuestion[]; paperById: Map<string, ExamPaper>; corrections: Record<string, Correction> }) {
+  return <QuestionsTable questions={questions} paperById={paperById} corrections={corrections} />;
 }
 
 // ---- History: past test scores + per-target best ----

@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import type { BankQuestion } from '@/data/banks/types';
+import type { McqBankQuestion } from '@/data/banks/types';
 import { useApp } from '@/lib/store';
 import { BANK_ID } from './useMpscData';
 
@@ -17,7 +17,7 @@ interface Props {
   title: string;
   /** Stable id for saving the result — a paper id or a filter-derived key. */
   targetId: string;
-  questions: BankQuestion[];
+  questions: McqBankQuestion[];
   onExit: () => void;
 }
 

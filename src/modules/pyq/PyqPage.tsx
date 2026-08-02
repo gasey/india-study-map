@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { banks } from '@/data/banks';
+import { isMcqQuestion } from '@/data/banks/types';
 import type { BankQuestion } from '@/data/banks/types';
 import { chapters } from '@/data';
 import { useApp } from '@/lib/store';
@@ -51,7 +52,9 @@ export function PyqPage() {
   }, [bank, subject]);
 
   const filtered = useMemo(() => {
-    const pool = bank.questions.filter(
+    // Descriptive questions (essay/case-study, no single answer) don't fit
+    // this drill's answer-and-score loop.
+    const pool = bank.questions.filter(isMcqQuestion).filter(
       (q) =>
         (subject === ALL || q.subject === subject) &&
         (topic === ALL || q.topic === topic) &&

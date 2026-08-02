@@ -3,11 +3,12 @@ import { timelineEntries } from '@/data/timeline';
 import type { TimelineEntry } from '@/data/timeline/types';
 import { eras } from '@/data/timeline/eras';
 import { allQuestions } from '@/data/banks';
-import type { BankQuestion } from '@/data/banks/types';
+import { isMcqQuestion } from '@/data/banks/types';
+import type { McqBankQuestion } from '@/data/banks/types';
 
 export interface TimelineRenderEntry {
   entry: TimelineEntry;
-  questions: BankQuestion[];
+  questions: McqBankQuestion[];
 }
 
 export interface TimelineData {
@@ -16,7 +17,7 @@ export interface TimelineData {
   renderEntries: TimelineRenderEntry[];
   /** Questions with `about` set that matched no entry — surfaced as
    *  "unclaimed" ticks on the axis instead of silently dropped. */
-  orphanQuestions: BankQuestion[];
+  orphanQuestions: McqBankQuestion[];
 }
 
 /** Point events get a +/-2yr window; periods use their own span (spec §2.3). */
@@ -42,15 +43,17 @@ function sharedTagCount(a?: string[], b?: string[]): number {
 // ============================================
 export function useTimelineData(): TimelineData {
   return useMemo(() => {
-    const questionsByEntryId = new Map<string, BankQuestion[]>();
-    const orphanQuestions: BankQuestion[] = [];
+    const questionsByEntryId = new Map<string, McqBankQuestion[]>();
+    const orphanQuestions: McqBankQuestion[] = [];
 
     const pinnedEntryIdByQuestionId = new Map<string, string>();
     for (const entry of timelineEntries) {
       for (const qid of entry.questionIds ?? []) pinnedEntryIdByQuestionId.set(qid, entry.id);
     }
 
-    for (const q of allQuestions) {
+    // Descriptive questions (essay/case-study) have no single answer, so
+    // they're excluded from this inline-quiz join entirely.
+    for (const q of allQuestions.filter(isMcqQuestion)) {
       const pinnedEntryId = pinnedEntryIdByQuestionId.get(q.id);
       if (pinnedEntryId) {
         attach(questionsByEntryId, pinnedEntryId, q);
@@ -115,7 +118,7 @@ function spanSize(entry: TimelineEntry): number {
   return end - start;
 }
 
-function attach(map: Map<string, BankQuestion[]>, entryId: string, q: BankQuestion) {
+function attach(map: Map<string, McqBankQuestion[]>, entryId: string, q: McqBankQuestion) {
   const list = map.get(entryId) ?? [];
   list.push(q);
   map.set(entryId, list);

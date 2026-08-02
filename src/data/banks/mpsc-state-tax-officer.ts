@@ -11,6 +11,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "topic": "essay",
       "topicLabel": "Essay topic choice (2016 GK/current topics)",
       "difficulty": "hard",
+      "type": "descriptive",
       "question": "Write an essay on any one of the given topics:",
       "options": [
         "My vision of India in 2020",
@@ -30,14 +31,14 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "topic": "eng_precis_letter",
       "topicLabel": "Pr\u00e9cis, letter-writing & idiom tasks (bundled, descriptive)",
       "difficulty": "hard",
+      "type": "descriptive",
       "question": "Write a pr\u00e9cis of the given passage (15 marks): It is an old saying that knowledge is power. Education is an instrument which imparts knowledge and, therefore, indirectly controls power. Therefore, ever since the dawn of civilisation persons in power have always tried to supervise or control education. It has been the hand-maid of the ruling class. During the Christian era the ecclesiastics controlled the institution of education and diffused among the people the gospel of the Bible and religious teachings. These gospels and teachings were no other than a philosophy for the maintenance of the existing society. It taught the poor man to be meek and to earn his bread with the sweat of his brow, while the priests and the landlords lived in luxury, fought duels for the slightest offence. During the Renaissance, education passed more from the clutches of the priests into the hands of princes. In other words it became more secular. It was also due to the growth of the nation state and powerful monarchs who united their country under their rule. Thus, under the control of the monarch, education began to devise and preach the infallibility of its master, the monarch or king. It also invented and supported fantastic theories like the Divine Right Theory and that the king can do no wrong. With the advent of the Industrial Revolution, education took a different turn and had to please the new masters. It now no longer remained the privilege of the baron class but was thrown open to the new rich merchant class of society. Yet education was still confined to the few elite. The philosophy which was in vogue during this period was that of 'Laissez Faire' restricting the function of the state to the mere keeping of law and order while, on the other hand, in practice the law of the jungle prevailed in the form of free competition and the survival of the fittest. Also: Write a letter to the Chairman of your Local Council complaining about the damaged drains and roads in your locality, requesting repairs at the earliest (15 marks). Also: Make sentences with the following idioms and phrases to show their meaning.",
-      "options": [
-        "a man of straw",
-        "to read between the lines",
-        "call a spade a spade",
-        "high and mighty"
+      "subparts": [
+        { "label": "a", "text": "a man of straw" },
+        { "label": "b", "text": "to read between the lines" },
+        { "label": "c", "text": "call a spade a spade" },
+        { "label": "d", "text": "high and mighty" }
       ],
-      "answerIndex": 0,
       "explanation": "This single item bundles three separate descriptive tasks (a pr\u00e9cis, a letter, and an idiom-sentence exercise) plus a leftover options list of idioms. None of this maps to a single correct A-D answer.",
       "source": "MPSC State Tax Officer / Group B Gazetted",
       "year": 2016,
@@ -49,6 +50,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "topic": "essay",
       "topicLabel": "Proverb-expansion essay topics",
       "difficulty": "hard",
+      "type": "descriptive",
       "question": "Expand the idea contained in any three of the following:",
       "options": [
         "People living in glass houses should not throw stones",
@@ -17985,14 +17987,14 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "topic": "eng_precis_letter",
       "topicLabel": "Precis, letter & comprehension (merged)",
       "difficulty": "hard",
+      "type": "descriptive",
       "question": "Read the passage below and write a precis in 120-140 words giving a suitable title (14): The modern world is full of bustle and activity. Men live in a perpetual hurry, and their minds are perpetually occupied with a thousand fleeting interests. The pressure of immediate needs and urgent tasks absorbs their attention. Reflection, solitude, and leisurely thought are becoming rare luxuries. In earlier times, particularly in simpler societies, people were more given to introspection. They lived closer to nature and closer to themselves. But now, man has become a stranger to silence, to solitude, to the inner world. The greatest loss that this entails is the decline of independent thinking. The individual today thinks less and less for himself. His opinions are formed by mass communication, by newspapers, radio, and television. Instead of thinking, he absorbs ideas; instead of forming convictions, he repeats cliches. Public opinion is not so much the result of personal deliberation as it is a reflection of mass suggestion. True education is meant to awaken the capacity for critical thought, to teach individuals how to think rather than what to think. But unfortunately, even education has become increasingly a system of training minds to conform, rather than to inquire and dissent. The man who dares to think independently finds himself in a difficult position. Society does not easily forgive originality. Nonconformity is often punished, either by ridicule or isolation. Yet, it is this very nonconformist, the one who questions the accepted dogmas and resists the pull of the crowd, who is often the source of progress. It was never the crowd that led the way in science, in art, or in ethics, it was always the individual. In such a world, the value of cultivating solitude and independent judgment cannot be overstated. To read great books, to converse with one's own mind, to retreat occasionally from the world's noise, these are not escapist habits but essential practices for a fully realized life. A democracy flourishes not merely by the number of people who vote, but by the quality of thought behind those votes. Attempt any one (1) question given below (10x1=10): (a) You are XYZ, a resident of Lungpho village, where the local Health Sub-Centre lacks essential medical equipment and staff. Write a letter to the Director of Health Services requesting urgent upgradation of the centre and suggesting practical measures to improve rural healthcare delivery. OR (b) You are ABC living in XYZ locality, Aizawl. Write a letter to the Municipal Commissioner, AMC complaining about poor sanitation in your area and give a suggestion for proper garbage disposal. Read the passage carefully and answer the questions given below: India is chiefly an agricultural land. The cultivation of crops depends on a proper supply of water throughout the year. Since olden times, large parts of our country have suffered from occasional periods of too much rain and those of drought. People had known that if surplus flood water could be stored away for use during the dry season, these problems will be solved. Unfortunately, they had neither the knowledge nor the means to do so much in this direction. Whatever little they knew, they tried to put into practice. They dug canals to drain water from perennial rivers. This was heavy and expensive work and practicable over only a small area. Large tanks were excavated and small dams built to hold back floods. But it was not possible to do anything on a countrywide scale.",
-      "options": [
-        "How has our country suffered since olden times? (2)",
-        "What did the people do to avoid this suffering? (2)",
-        "What obstacles did they face? (2)",
-        "Give the central idea of the passage."
+      "subparts": [
+        { "label": "a", "text": "How has our country suffered since olden times? (2)" },
+        { "label": "b", "text": "What did the people do to avoid this suffering? (2)" },
+        { "label": "c", "text": "What obstacles did they face? (2)" },
+        { "label": "d", "text": "Give the central idea of the passage." }
       ],
-      "answerIndex": 0,
       "explanation": "This single item actually bundles three separate descriptive tasks: a precis, a letter-writing choice, and a reading-comprehension passage with its own sub-questions. There is no single option A-D that answers 'the question'.",
       "source": "MPSC State Tax Officer / Group B Gazetted",
       "year": 2025,
@@ -21614,14 +21616,14 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "topic": "eng_precis_letter",
       "topicLabel": "Pr\u00e9cis writing & letter writing tasks",
       "difficulty": "hard",
+      "type": "descriptive",
       "question": "1. Read the passage below and write a pr\u00e9cis giving a suitable title. (14) Hospitality is a virtue for which the natives of the East in general are highly and deservedly admired; and the people of Egypt are well entitled to commendation on this account. A word which signifies literally \u201ca person on a journey\u201d (\u201cmusafir\u201d) is the term most commonly employed in this country in the sense of a visitor or guest. There are very few persons here who would think of sitting down to a meal, if there were a stranger in the house without inviting him to partake of it unless the latter were a menial; in which case, he would be invited to eat with the servants. It would be considered a shameful violation of good manners if a Muslim abstained from ordering the table to be prepared at the usual time because a visitor happened to be present. Persons of the middle classes in this country, if living ina retired situation, sometimes take their supper before the door of their house, and invite every passenger of respectable appearance to eat with them. This is very commonly done among the lower order. In cities and large towns, claims on hospitality are unfrequent; as there are many wekalehs, or khans, where strangers may obtain lodging; and food is very easily procured; but in the villages, travellers are often lodged and entertained by the Sheykh or some other inhabitant; and if the guest be a person of the middle or higher classes, or even not very poor he gives a present to his host\u2019s servants, or to the host himself. In the desert, however, a present is seldom received from a guest. By a Sunneh \\aw, a traveller may claim entertainment from a person able to afford it to him, for three days. 2. Attempt any one of the questions given below: (10x1=10) - Write a letter to the Transport Director for re-issuing your driving license as you have recently misplaced the original copy. - You are XYZ of C-79, Luangmual, Aizawl, Mizoram who is interested in doing a short term course in computer programming. Write a letter to the Director, NIELIT, Zuangtui , Aizawl, Mizoram inquiring about the duration of such a course and the terms and conditions for admission. 3. Read the given passage carefully and answer the questions that follow: Graduation is only a milestone in life\u2019s journey. It does not mark the end of the road in education. Ina very real sense, it is the commencement time, the beginning of a new journey which will test the toughness of your mental and moral fibre, the efficiency of your university training. The new experiences, the new problems and the new situation will demand from you the exercise of qualities for whose fostering the university functions. The future will give the power and responsibilities to you,",
-      "options": [
-        "",
-        "",
-        "",
-        "(e) Find words in the passage which are similar in meaning to the words given below: _2- The historic role of large educated classes, in the building up of a new India cannot be over- estimated. I"
+      "subparts": [
+        { "label": "a", "text": "" },
+        { "label": "b", "text": "" },
+        { "label": "c", "text": "" },
+        { "label": "d", "text": "(e) Find words in the passage which are similar in meaning to the words given below: _2- The historic role of large educated classes, in the building up of a new India cannot be over- estimated. I" }
       ],
-      "answerIndex": 0,
       "explanation": "This is not a real 4-option MCQ: OCR extraction bundled a pr\u00e9cis-writing task, a letter-writing choice, and the start of a comprehension passage into one item. A pr\u00e9cis compresses a passage to about a third of its length while keeping its core meaning, plus a title.\n\n\ud83d\udca1 Think of a pr\u00e9cis like packing for a trip \u2014 you keep only the essentials and leave the filler at home, but the suitcase should still tell someone exactly where you're going.",
       "source": "MPSC State Tax Officer / Group B Gazetted",
       "year": 2024,

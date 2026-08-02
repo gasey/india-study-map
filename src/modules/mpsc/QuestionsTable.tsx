@@ -1,19 +1,22 @@
-import { useMemo, useState } from 'react';
-import type { BankQuestion, ExamPaper } from '@/data/banks/types';
-import { ReportModal } from './ReportModal';
+import { Fragment, useMemo, useState } from 'react';
+import type { ExamPaper, McqBankQuestion } from '@/data/banks/types';
+import type { Correction } from '@/lib/mpscApi';
+import { BANK_ID } from './useMpscData';
+import { QuestionReviewPanel } from './QuestionReviewPanel';
 
 interface QuestionsTableProps {
-  questions: BankQuestion[];
+  questions: McqBankQuestion[];
   paperById: Map<string, ExamPaper>;
+  corrections: Record<string, Correction>;
 }
 
 type SortKey = 'question' | 'subject' | 'difficulty' | 'year';
 type SortDir = 'asc' | 'desc';
 
-export function QuestionsTable({ questions, paperById }: QuestionsTableProps) {
+export function QuestionsTable({ questions, paperById, corrections }: QuestionsTableProps) {
   const [sort, setSort] = useState<{ key: SortKey; dir: SortDir }>({ key: 'year', dir: 'desc' });
   const [search, setSearch] = useState('');
-  const [reportTarget, setReportTarget] = useState<{ question: BankQuestion; paper: ExamPaper | undefined } | null>(null);
+  const [expandedId, setExpandedId] = useState<string | null>(null);
 
   const filtered = useMemo(() => {
     let result = questions;
@@ -107,61 +110,64 @@ export function QuestionsTable({ questions, paperById }: QuestionsTableProps) {
           <tbody>
             {filtered.map((q) => {
               const paper = q.paperId ? paperById.get(q.paperId) : undefined;
+              const correction = corrections[q.id];
+              const isOpen = expandedId === q.id;
               return (
-                <tr key={q.id} className="border-b dark:border-slate-700 hover:bg-gray-50 dark:hover:bg-slate-800">
-                  <td className="px-3 py-2 text-left">
-                    <p className="text-xs text-gray-600 dark:text-gray-400 mb-1">
-                      {paper?.examType && <span className="font-medium">{paper.examType.replace('_', ' ')}</span>}
-                      {paper?.examType && paper?.examName ? ' · ' : ''}
-                      {paper?.examName}
-                    </p>
-                    {q.passage && (
-                      <details className="mb-1">
-                        <summary className="text-xs text-blue-600 dark:text-blue-400 cursor-pointer select-none">
-                          📄 Show passage
-                        </summary>
-                        <p className="text-xs mt-1 p-2 bg-gray-100 dark:bg-slate-900 rounded whitespace-pre-wrap">
-                          {q.passage}
-                        </p>
-                      </details>
-                    )}
-                    <p className="line-clamp-2">{q.question}</p>
-                  </td>
-                  <td className="px-3 py-2 text-left text-xs">{paper?.post || '—'}</td>
-                  <td className="px-3 py-2 text-left text-xs">{q.subject}</td>
-                  <td className="px-3 py-2 text-left">
-                    <span className={`px-2 py-1 rounded text-xs font-medium ${
-                      q.difficulty === 'easy' ? 'bg-green-100 dark:bg-green-900 text-green-900 dark:text-green-100' :
-                      q.difficulty === 'medium' ? 'bg-yellow-100 dark:bg-yellow-900 text-yellow-900 dark:text-yellow-100' :
-                      'bg-red-100 dark:bg-red-900 text-red-900 dark:text-red-100'
-                    }`}>
-                      {q.difficulty}
-                    </span>
-                  </td>
-                  <td className="px-3 py-2 text-left text-sm">{q.year}</td>
-                  <td className="px-3 py-2 text-center">
-                    <button
-                      onClick={() => setReportTarget({ question: q, paper })}
-                      className="text-xs text-red-600 dark:text-red-400 hover:underline"
-                    >
-                      Report
-                    </button>
-                  </td>
-                </tr>
+                <Fragment key={q.id}>
+                  <tr className="border-b dark:border-slate-700 hover:bg-gray-50 dark:hover:bg-slate-800">
+                    <td className="px-3 py-2 text-left">
+                      <p className="text-xs text-gray-600 dark:text-gray-400 mb-1">
+                        {paper?.examType && <span className="font-medium">{paper.examType.replace('_', ' ')}</span>}
+                        {paper?.examType && paper?.examName ? ' · ' : ''}
+                        {paper?.examName}
+                        {correction && <span className="ml-2 text-green-600 dark:text-green-400">✓ corrected</span>}
+                      </p>
+                      {q.passage && (
+                        <details className="mb-1">
+                          <summary className="text-xs text-blue-600 dark:text-blue-400 cursor-pointer select-none">
+                            📄 Show passage
+                          </summary>
+                          <p className="text-xs mt-1 p-2 bg-gray-100 dark:bg-slate-900 rounded whitespace-pre-wrap">
+                            {q.passage}
+                          </p>
+                        </details>
+                      )}
+                      <p className="line-clamp-2">{q.question}</p>
+                    </td>
+                    <td className="px-3 py-2 text-left text-xs">{paper?.post || '—'}</td>
+                    <td className="px-3 py-2 text-left text-xs">{q.subject}</td>
+                    <td className="px-3 py-2 text-left">
+                      <span className={`px-2 py-1 rounded text-xs font-medium ${
+                        q.difficulty === 'easy' ? 'bg-green-100 dark:bg-green-900 text-green-900 dark:text-green-100' :
+                        q.difficulty === 'medium' ? 'bg-yellow-100 dark:bg-yellow-900 text-yellow-900 dark:text-yellow-100' :
+                        'bg-red-100 dark:bg-red-900 text-red-900 dark:text-red-100'
+                      }`}>
+                        {q.difficulty}
+                      </span>
+                    </td>
+                    <td className="px-3 py-2 text-left text-sm">{q.year}</td>
+                    <td className="px-3 py-2 text-center">
+                      <button
+                        onClick={() => setExpandedId(isOpen ? null : q.id)}
+                        className="text-xs text-red-600 dark:text-red-400 hover:underline"
+                      >
+                        {isOpen ? 'Close' : 'Flag / discuss'}
+                      </button>
+                    </td>
+                  </tr>
+                  {isOpen && (
+                    <tr className="border-b dark:border-slate-700">
+                      <td colSpan={6} className="px-3 py-2 bg-gray-50 dark:bg-slate-900">
+                        <QuestionReviewPanel bankId={BANK_ID} questionId={q.id} options={q.options} />
+                      </td>
+                    </tr>
+                  )}
+                </Fragment>
               );
             })}
           </tbody>
         </table>
       </div>
-
-      {/* Report Modal */}
-      {reportTarget && (
-        <ReportModal
-          question={reportTarget.question}
-          paper={reportTarget.paper}
-          onClose={() => setReportTarget(null)}
-        />
-      )}
     </div>
   );
 }

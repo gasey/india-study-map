@@ -1,10 +1,12 @@
 import { useEffect, useMemo, useState } from 'react';
 import { allPrimers, PRIMER_CATEGORIES, UNIT_LABELS } from '@/data/banks';
-import type { BankQuestion, ExamPaper } from '@/data/banks/types';
+import { isMcqQuestion } from '@/data/banks/types';
+import type { BankQuestion, DescriptiveBankQuestion, ExamPaper, McqBankQuestion } from '@/data/banks/types';
 import { useAuthStore } from '@/lib/authStore';
 import * as api from '@/lib/mpscApi';
 import type { Correction } from '@/lib/mpscApi';
 import { QuestionReviewPanel } from './QuestionReviewPanel';
+import { DescriptiveQuestionCard } from './DescriptiveQuestionCard';
 import { AdminPanel } from './AdminPanel';
 import './state-tax-officer.css';
 
@@ -65,28 +67,8 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
   const [selectedUnit, setSelectedUnit] = useState<string | null>(null);
   const [mockState, setMockState] = useState<MockState>('setup');
   const [mockAnswers, setMockAnswers] = useState<Record<number, number>>({});
-  const [testQuestions, setTestQuestions] = useState<BankQuestion[]>([]);
+  const [testQuestions, setTestQuestions] = useState<McqBankQuestion[]>([]);
   const [testResults, setTestResults] = useState<MockResults | null>(null);
-
-  // Every question in this bank already IS the State Tax Officer prep set —
-  // no further source filtering needed (the old q.source-based filter here
-  // was always a no-op/broken since every row shares one hardcoded source).
-  // Essay/précis-letter items are "pick a topic and write" prompts stored
-  // with mcq-shaped options for display purposes — they have no single
-  // correct answerIndex, so they can't be scored. Excluded here rather than
-  // in the data so a future "descriptive questions" viewer can still use them.
-  const stateTaxQuestions = useMemo(
-    () => allQuestions.filter((q) => q.topic !== 'essay' && q.topic !== 'eng_precis_letter'),
-    [allQuestions],
-  );
-
-  // Essay / précis-letter prompts: "pick a topic and write" or "summarize
-  // this passage" — genuinely not objective, no correct answerIndex exists.
-  // Shown read-only in their own tab instead of being silently dropped.
-  const descriptiveQuestions = useMemo(
-    () => allQuestions.filter((q) => q.topic === 'essay' || q.topic === 'eng_precis_letter'),
-    [allQuestions],
-  );
 
   const { user } = useAuthStore();
   const [corrections, setCorrections] = useState<Record<string, Correction>>({});
@@ -95,26 +77,55 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
     refetchCorrections();
   }, []);
 
-  // Admin-corrected answer/explanation overlaid on top of the static bundle —
-  // every tab that shows or scores a question (bank browse, mock tests) reads
-  // from this, so a correction takes effect everywhere immediately, including
-  // mid-mock-test scoring.
-  const correctedQuestions = useMemo(() => {
-    if (Object.keys(corrections).length === 0) return stateTaxQuestions;
-    return stateTaxQuestions.map((q) => {
+  // Admin-corrected answer/explanation/subparts overlaid on top of the
+  // static bundle — applied to the WHOLE pool (MCQ and descriptive alike)
+  // before splitting into tabs, so a correction to a descriptive sub-part
+  // takes effect in the Descriptive tab too, not just the scored MCQ bank.
+  const correctedAllQuestions = useMemo(() => {
+    if (Object.keys(corrections).length === 0) return allQuestions;
+    return allQuestions.map((q) => {
       const c = corrections[q.id];
       if (!c) return q;
+      if (isMcqQuestion(q)) {
+        return {
+          ...q,
+          answerIndex: c.answerIndex ?? q.answerIndex,
+          explanation: c.explanation ?? q.explanation,
+          question: c.stem ?? q.question,
+          options: c.options ?? q.options,
+        };
+      }
       return {
         ...q,
-        answerIndex: c.answerIndex ?? q.answerIndex,
         explanation: c.explanation ?? q.explanation,
         question: c.stem ?? q.question,
-        options: c.options ?? q.options,
+        subparts: c.subparts ?? q.subparts,
       };
     });
-  }, [stateTaxQuestions, corrections]);
+  }, [allQuestions, corrections]);
 
-  const questionsById = useMemo(() => new Map(correctedQuestions.map((q) => [q.id, q])), [correctedQuestions]);
+  // Every question in this bank already IS the State Tax Officer prep set —
+  // no further source filtering needed (the old q.source-based filter here
+  // was always a no-op/broken since every row shares one hardcoded source).
+  // Essay/précis-letter items are genuinely descriptive (no single correct
+  // answerIndex) — excluded from the scored MCQ pool, shown in their own tab.
+  const stateTaxQuestions = useMemo(
+    () =>
+      correctedAllQuestions
+        .filter((q) => q.topic !== 'essay' && q.topic !== 'eng_precis_letter')
+        .filter(isMcqQuestion),
+    [correctedAllQuestions],
+  );
+
+  const descriptiveQuestions = useMemo(
+    () =>
+      correctedAllQuestions.filter(
+        (q): q is DescriptiveBankQuestion => q.topic === 'essay' || q.topic === 'eng_precis_letter',
+      ),
+    [correctedAllQuestions],
+  );
+
+  const questionsById = useMemo(() => new Map(correctedAllQuestions.map((q) => [q.id, q])), [correctedAllQuestions]);
 
   // Real per-question exam name comes from the linked ExamPaper via paperId,
   // not from BankQuestion.source (which is the same string on every row).
@@ -156,7 +167,7 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
 
   const [testLabel, setTestLabel] = useState('Mock test');
 
-  const startMockTest = (questions: BankQuestion[], label = 'Mock test') => {
+  const startMockTest = (questions: McqBankQuestion[], label = 'Mock test') => {
     setTestQuestions(questions);
     setTestLabel(label);
     setMockAnswers({});
@@ -238,7 +249,7 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
         {prepTab === 'primers' && <PrimersTab primers={filteredPrimers} selectedUnit={selectedUnit} onSelectUnit={setSelectedUnit} />}
         {prepTab === 'bank' && (
           <QuestionBankTab
-            questions={correctedQuestions}
+            questions={stateTaxQuestions}
             unitCounts={unitCounts}
             questionExamName={questionExamName}
             questionSitting={questionSitting}
@@ -249,11 +260,11 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
           <DescriptiveTab questions={descriptiveQuestions} questionExamName={questionExamName} questionSitting={questionSitting} />
         )}
         {prepTab === 'exam-browse' && (
-          <ExamBrowseTab questions={correctedQuestions} exams={exams} questionExamName={questionExamName} onStartTest={startMockTest} />
+          <ExamBrowseTab questions={stateTaxQuestions} exams={exams} questionExamName={questionExamName} onStartTest={startMockTest} />
         )}
-        {prepTab === 'yearly-browse' && <YearlyBrowseTab questions={correctedQuestions} years={years} onStartTest={startMockTest} />}
+        {prepTab === 'yearly-browse' && <YearlyBrowseTab questions={stateTaxQuestions} years={years} onStartTest={startMockTest} />}
         {prepTab === 'mock' && mockState === 'setup' && (
-          <MockSetupTab questions={correctedQuestions} onStartTest={startMockTest} />
+          <MockSetupTab questions={stateTaxQuestions} onStartTest={startMockTest} />
         )}
         {prepTab === 'mock' && mockState === 'running' && (
           <MockRunnerTab questions={testQuestions} answers={mockAnswers} onAnswer={(i, ans) => setMockAnswers({ ...mockAnswers, [i]: ans })} onSubmit={submitTest} />
@@ -394,7 +405,7 @@ function PrimersTab({ primers, selectedUnit, onSelectUnit }: { primers: typeof a
 function QuestionBankTab({
   questions, unitCounts, questionExamName, questionSitting, corrections,
 }: {
-  questions: BankQuestion[];
+  questions: McqBankQuestion[];
   unitCounts: Record<string, number>;
   questionExamName: (q: BankQuestion) => string;
   questionSitting: (q: BankQuestion) => ExamPaper | null;
@@ -518,35 +529,29 @@ function QuestionBankTab({
 function DescriptiveTab({
   questions, questionExamName, questionSitting,
 }: {
-  questions: BankQuestion[]; questionExamName: (q: BankQuestion) => string; questionSitting: (q: BankQuestion) => ExamPaper | null;
+  questions: DescriptiveBankQuestion[]; questionExamName: (q: BankQuestion) => string; questionSitting: (q: BankQuestion) => ExamPaper | null;
 }) {
   return (
     <div className="max-w-3xl space-y-4">
       <h2 className="text-lg font-semibold">Descriptive &amp; essay questions</h2>
       <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>
-        Essay topics and précis/letter prompts — not solved here since half the marks are in how you structure the
-        answer, not a single "correct" choice. Shown in original order so nothing on the written paper is a surprise.
+        Essay topics, précis/letter prompts, and comprehension items with lettered sub-parts — not solved here since
+        half the marks are in how you structure the answer, not a single "correct" choice. Shown in original order so
+        nothing on the written paper is a surprise.
       </p>
 
       <div className="space-y-3">
         {questions.map((q) => {
           const paper = questionSitting(q);
           return (
-            <div key={q.id} className="sto-card space-y-2">
-              <div className="flex items-center gap-2 flex-wrap text-xs">
-                <span className={`sto-pill sto-subject ${subjectClass(q.topic)}`}>{q.topic?.replace(/_/g, ' ')}</span>
-                <span className="ml-auto" style={{ color: 'var(--text-secondary)' }}>
-                  {questionExamName(q)}{paper?.year ? `, ${paper.year}` : ''}
-                </span>
-              </div>
-              <p className="text-sm font-medium">{renderEmphasis(q.question)}</p>
-              {q.options.some((o) => o.trim().length > 0) && (
-                <ul className="text-sm ml-4 list-disc" style={{ color: 'var(--text-secondary)' }}>
-                  {q.options.filter((o) => o.trim()).map((o, j) => <li key={j}>{o}</li>)}
-                </ul>
-              )}
-              <QuestionReviewPanel bankId={BANK_ID} questionId={q.id} options={q.options} />
-            </div>
+            <DescriptiveQuestionCard
+              key={q.id}
+              bankId={BANK_ID}
+              question={q}
+              renderEmphasis={renderEmphasis}
+              subjectClass={subjectClass}
+              meta={`${questionExamName(q)}${paper?.year ? `, ${paper.year}` : ''}`}
+            />
           );
         })}
         {questions.length === 0 && (
@@ -560,7 +565,7 @@ function DescriptiveTab({
 function ExamBrowseTab({
   questions, exams, questionExamName, onStartTest,
 }: {
-  questions: BankQuestion[]; exams: string[]; questionExamName: (q: BankQuestion) => string; onStartTest: (q: BankQuestion[], label?: string) => void;
+  questions: McqBankQuestion[]; exams: string[]; questionExamName: (q: BankQuestion) => string; onStartTest: (q: McqBankQuestion[], label?: string) => void;
 }) {
   return (
     <div className="max-w-3xl space-y-6">
@@ -592,7 +597,7 @@ function ExamBrowseTab({
   );
 }
 
-function YearlyBrowseTab({ questions, years, onStartTest }: { questions: BankQuestion[]; years: number[]; onStartTest: (q: BankQuestion[], label?: string) => void }) {
+function YearlyBrowseTab({ questions, years, onStartTest }: { questions: McqBankQuestion[]; years: number[]; onStartTest: (q: McqBankQuestion[], label?: string) => void }) {
   return (
     <div className="max-w-3xl space-y-6">
       <h2 className="text-lg font-semibold">Browse by year</h2>
@@ -623,7 +628,7 @@ function YearlyBrowseTab({ questions, years, onStartTest }: { questions: BankQue
   );
 }
 
-function MockSetupTab({ questions, onStartTest }: { questions: BankQuestion[]; onStartTest: (q: BankQuestion[], label?: string) => void }) {
+function MockSetupTab({ questions, onStartTest }: { questions: McqBankQuestion[]; onStartTest: (q: McqBankQuestion[], label?: string) => void }) {
   const [testSize, setTestSize] = useState(25);
 
   const pickRandom = () => {
@@ -668,7 +673,7 @@ function MockSetupTab({ questions, onStartTest }: { questions: BankQuestion[]; o
   );
 }
 
-function MockRunnerTab({ questions, answers, onAnswer, onSubmit }: { questions: BankQuestion[]; answers: Record<number, number>; onAnswer: (i: number, ans: number) => void; onSubmit: () => void }) {
+function MockRunnerTab({ questions, answers, onAnswer, onSubmit }: { questions: McqBankQuestion[]; answers: Record<number, number>; onAnswer: (i: number, ans: number) => void; onSubmit: () => void }) {
   return (
     <div className="max-w-3xl space-y-4">
       <div className="flex items-center justify-between sticky top-0 py-2 -mx-1 px-1" style={{ background: 'var(--bg-app)', zIndex: 1 }}>
@@ -714,7 +719,7 @@ function MockRunnerTab({ questions, answers, onAnswer, onSubmit }: { questions: 
   );
 }
 
-function MockReviewTab({ questions, answers, results, onBack }: { questions: BankQuestion[]; answers: Record<number, number>; results: MockResults; onBack: () => void }) {
+function MockReviewTab({ questions, answers, results, onBack }: { questions: McqBankQuestion[]; answers: Record<number, number>; results: MockResults; onBack: () => void }) {
   return (
     <div className="max-w-3xl space-y-6">
       <div>

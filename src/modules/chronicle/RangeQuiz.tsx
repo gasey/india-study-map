@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react';
 import { motion } from 'framer-motion';
 import type { ChronicleTrackMode } from '@/lib/store';
 import { formatYear, type Year, type TimelineEntry } from '@/data/timeline/types';
-import type { BankQuestion } from '@/data/banks/types';
+import type { McqBankQuestion } from '@/data/banks/types';
 import type { TimelineRenderEntry } from './useTimelineData';
 import { QuestionCard } from './EntryDrawer';
 
@@ -39,7 +39,7 @@ export function RangeQuiz({ startYear, endYear, trackMode, renderEntries, onClos
     const seen = new Set<string>();
     const qMap = new Map<string, TimelineEntry>();
     const eMap = new Map<string, TimelineEntry>();
-    const qs: BankQuestion[] = [];
+    const qs: McqBankQuestion[] = [];
     for (const r of inRange) {
       eMap.set(r.entry.id, r.entry);
       for (const q of r.questions) {

@@ -1,14 +1,21 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { allPrimers, PRIMER_CATEGORIES, UNIT_LABELS } from '@/data/banks';
 import type { BankQuestion, ExamPaper } from '@/data/banks/types';
+import { useAuthStore } from '@/lib/authStore';
+import * as api from '@/lib/mpscApi';
+import type { Correction } from '@/lib/mpscApi';
+import { QuestionReviewPanel } from './QuestionReviewPanel';
+import { AdminPanel } from './AdminPanel';
 import './state-tax-officer.css';
+
+const BANK_ID = 'mpsc-state-tax-officer';
 
 interface Props {
   allQuestions: BankQuestion[];
   papers: ExamPaper[];
 }
 
-type PrepTab = 'overview' | 'primers' | 'bank' | 'exam-browse' | 'yearly-browse' | 'mock' | 'progress';
+type PrepTab = 'overview' | 'primers' | 'bank' | 'exam-browse' | 'yearly-browse' | 'mock' | 'progress' | 'admin';
 type MockState = 'setup' | 'running' | 'review';
 interface MockResults {
   correct: number; wrong: number; unattempted: number; score: number; total: number;
@@ -62,6 +69,32 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
     [allQuestions],
   );
 
+  const { user } = useAuthStore();
+  const [corrections, setCorrections] = useState<Record<string, Correction>>({});
+  const refetchCorrections = () => api.getCorrections(BANK_ID).then(setCorrections).catch(() => {});
+  useEffect(() => {
+    refetchCorrections();
+  }, []);
+
+  // Admin-corrected answer/explanation overlaid on top of the static bundle —
+  // every tab that shows or scores a question (bank browse, mock tests) reads
+  // from this, so a correction takes effect everywhere immediately, including
+  // mid-mock-test scoring.
+  const correctedQuestions = useMemo(() => {
+    if (Object.keys(corrections).length === 0) return stateTaxQuestions;
+    return stateTaxQuestions.map((q) => {
+      const c = corrections[q.id];
+      if (!c) return q;
+      return {
+        ...q,
+        answerIndex: c.answerIndex ?? q.answerIndex,
+        explanation: c.explanation ?? q.explanation,
+      };
+    });
+  }, [stateTaxQuestions, corrections]);
+
+  const questionsById = useMemo(() => new Map(correctedQuestions.map((q) => [q.id, q])), [correctedQuestions]);
+
   // Real per-question exam name comes from the linked ExamPaper via paperId,
   // not from BankQuestion.source (which is the same string on every row).
   const examByPaperId = useMemo(() => {
@@ -100,8 +133,11 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
     return allPrimers.filter((p) => p.unit === selectedUnit);
   }, [selectedUnit]);
 
-  const startMockTest = (questions: BankQuestion[]) => {
+  const [testLabel, setTestLabel] = useState('Mock test');
+
+  const startMockTest = (questions: BankQuestion[], label = 'Mock test') => {
     setTestQuestions(questions);
+    setTestLabel(label);
     setMockAnswers({});
     setTestResults(null);
     setMockState('running');
@@ -128,6 +164,14 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
 
     setTestResults({ correct, wrong, unattempted, score, total: testQuestions.length });
     setMockState('review');
+
+    if (user) {
+      api.recordMockAttempt({
+        bankId: BANK_ID, testLabel, total: testQuestions.length, correct, wrong, unattempted, score,
+      }).catch(() => {
+        // Non-critical — the result still shows locally even if the sync fails.
+      });
+    }
   };
 
   return (
@@ -135,7 +179,12 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
       {/* Tab Navigation */}
       <div className="border-b overflow-x-auto" style={{ borderColor: 'var(--border)' }}>
         <div className="flex gap-6 px-5 py-3">
-          {(['overview', 'primers', 'bank', 'exam-browse', 'yearly-browse', 'mock', 'progress'] as const).map((t) => (
+          {(
+            [
+              'overview', 'primers', 'bank', 'exam-browse', 'yearly-browse', 'mock', 'progress',
+              ...(user?.role === 'admin' ? (['admin'] as const) : []),
+            ] as const
+          ).map((t) => (
             <button
               key={t}
               onClick={() => {
@@ -155,6 +204,7 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
               {t === 'yearly-browse' && '📅 By Year'}
               {t === 'mock' && '🧪 Mock Tests'}
               {t === 'progress' && '📊 Progress'}
+              {t === 'admin' && '🛡️ Admin'}
             </button>
           ))}
         </div>
@@ -166,18 +216,19 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
         {prepTab === 'primers' && <PrimersTab primers={filteredPrimers} selectedUnit={selectedUnit} onSelectUnit={setSelectedUnit} />}
         {prepTab === 'bank' && (
           <QuestionBankTab
-            questions={stateTaxQuestions}
+            questions={correctedQuestions}
             unitCounts={unitCounts}
             questionExamName={questionExamName}
             questionSitting={questionSitting}
+            corrections={corrections}
           />
         )}
         {prepTab === 'exam-browse' && (
-          <ExamBrowseTab questions={stateTaxQuestions} exams={exams} questionExamName={questionExamName} onStartTest={startMockTest} />
+          <ExamBrowseTab questions={correctedQuestions} exams={exams} questionExamName={questionExamName} onStartTest={startMockTest} />
         )}
-        {prepTab === 'yearly-browse' && <YearlyBrowseTab questions={stateTaxQuestions} years={years} onStartTest={startMockTest} />}
+        {prepTab === 'yearly-browse' && <YearlyBrowseTab questions={correctedQuestions} years={years} onStartTest={startMockTest} />}
         {prepTab === 'mock' && mockState === 'setup' && (
-          <MockSetupTab questions={stateTaxQuestions} onStartTest={startMockTest} />
+          <MockSetupTab questions={correctedQuestions} onStartTest={startMockTest} />
         )}
         {prepTab === 'mock' && mockState === 'running' && (
           <MockRunnerTab questions={testQuestions} answers={mockAnswers} onAnswer={(i, ans) => setMockAnswers({ ...mockAnswers, [i]: ans })} onSubmit={submitTest} />
@@ -186,6 +237,9 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
           <MockReviewTab questions={testQuestions} answers={mockAnswers} results={testResults} onBack={() => setMockState('setup')} />
         )}
         {prepTab === 'progress' && <ProgressTab />}
+        {prepTab === 'admin' && user?.role === 'admin' && (
+          <AdminPanel bankId={BANK_ID} questionsById={questionsById} onCorrectionApplied={refetchCorrections} />
+        )}
       </div>
     </div>
   );
@@ -313,12 +367,13 @@ function PrimersTab({ primers, selectedUnit, onSelectUnit }: { primers: typeof a
 }
 
 function QuestionBankTab({
-  questions, unitCounts, questionExamName, questionSitting,
+  questions, unitCounts, questionExamName, questionSitting, corrections,
 }: {
   questions: BankQuestion[];
   unitCounts: Record<string, number>;
   questionExamName: (q: BankQuestion) => string;
   questionSitting: (q: BankQuestion) => ExamPaper | null;
+  corrections: Record<string, Correction>;
 }) {
   const [topicFilter, setTopicFilter] = useState('');
   const [search, setSearch] = useState('');
@@ -379,11 +434,13 @@ function QuestionBankTab({
         {visible.map((q, i) => {
           const isOpen = expanded.has(i);
           const paper = questionSitting(q);
+          const correction = corrections[q.id];
           return (
             <div key={q.id} className="sto-card space-y-2">
               <div className="flex items-center gap-2 flex-wrap text-xs">
                 <span className={`sto-pill sto-subject ${subjectClass(q.topic)}`}>{q.topic?.replace(/_/g, ' ')}</span>
                 <span className={`sto-pill sto-conf-${confidenceLabel(q)}`}>{confidenceLabel(q)} confidence</span>
+                {correction && <span className="sto-pill" style={{ color: '#2e7d4f', borderColor: '#2e7d4f' }}>✓ corrected by admin</span>}
                 <span className="ml-auto" style={{ color: 'var(--text-secondary)' }}>
                   {questionExamName(q)}{paper?.year ? `, ${paper.year}` : ''}
                 </span>
@@ -397,6 +454,11 @@ function QuestionBankTab({
                   </div>
                 ))}
               </div>
+              {correction?.note && (
+                <div className="text-xs p-2 rounded" style={{ background: 'var(--accent-soft)', color: 'var(--text-primary)' }}>
+                  <strong>Admin note:</strong> {correction.note}
+                </div>
+              )}
               <button
                 onClick={() => toggle(i)}
                 className="text-xs font-medium"
@@ -409,6 +471,7 @@ function QuestionBankTab({
                   {q.explanation}
                 </div>
               )}
+              <QuestionReviewPanel bankId={BANK_ID} questionId={q.id} options={q.options} />
             </div>
           );
         })}
@@ -423,7 +486,7 @@ function QuestionBankTab({
 function ExamBrowseTab({
   questions, exams, questionExamName, onStartTest,
 }: {
-  questions: BankQuestion[]; exams: string[]; questionExamName: (q: BankQuestion) => string; onStartTest: (q: BankQuestion[]) => void;
+  questions: BankQuestion[]; exams: string[]; questionExamName: (q: BankQuestion) => string; onStartTest: (q: BankQuestion[], label?: string) => void;
 }) {
   return (
     <div className="max-w-3xl space-y-6">
@@ -441,7 +504,7 @@ function ExamBrowseTab({
                 </div>
               </div>
               <button
-                onClick={() => onStartTest(examQuestions)}
+                onClick={() => onStartTest(examQuestions, `Exam: ${exam}`)}
                 className="px-3 py-1.5 rounded text-sm font-medium shrink-0"
                 style={{ background: 'var(--accent)', color: '#fff' }}
               >
@@ -455,7 +518,7 @@ function ExamBrowseTab({
   );
 }
 
-function YearlyBrowseTab({ questions, years, onStartTest }: { questions: BankQuestion[]; years: number[]; onStartTest: (q: BankQuestion[]) => void }) {
+function YearlyBrowseTab({ questions, years, onStartTest }: { questions: BankQuestion[]; years: number[]; onStartTest: (q: BankQuestion[], label?: string) => void }) {
   return (
     <div className="max-w-3xl space-y-6">
       <h2 className="text-lg font-semibold">Browse by year</h2>
@@ -472,7 +535,7 @@ function YearlyBrowseTab({ questions, years, onStartTest }: { questions: BankQue
                 </div>
               </div>
               <button
-                onClick={() => onStartTest(yearQuestions)}
+                onClick={() => onStartTest(yearQuestions, `Year: ${year}`)}
                 className="px-3 py-1.5 rounded text-sm font-medium shrink-0"
                 style={{ background: 'var(--accent)', color: '#fff' }}
               >
@@ -486,12 +549,12 @@ function YearlyBrowseTab({ questions, years, onStartTest }: { questions: BankQue
   );
 }
 
-function MockSetupTab({ questions, onStartTest }: { questions: BankQuestion[]; onStartTest: (q: BankQuestion[]) => void }) {
+function MockSetupTab({ questions, onStartTest }: { questions: BankQuestion[]; onStartTest: (q: BankQuestion[], label?: string) => void }) {
   const [testSize, setTestSize] = useState(25);
 
   const pickRandom = () => {
     const arr = [...questions].sort(() => Math.random() - 0.5);
-    onStartTest(arr.slice(0, testSize));
+    onStartTest(arr.slice(0, testSize), `Random ${testSize}`);
   };
 
   return (
@@ -630,11 +693,90 @@ function MockReviewTab({ questions, answers, results, onBack }: { questions: Ban
 }
 
 function ProgressTab() {
+  const { user } = useAuthStore();
+  const [history, setHistory] = useState<import('@/lib/mpscApi').MockAttemptRecord[] | null>(null);
+  const [myReports, setMyReports] = useState<import('@/lib/mpscApi').QuestionReport[] | null>(null);
+
+  useEffect(() => {
+    if (!user) return;
+    api.getHistory(BANK_ID).then((r) => setHistory(r.attempts));
+    api.myReports(BANK_ID).then((r) => setMyReports(r.reports));
+  }, [user]);
+
+  if (!user) {
+    return (
+      <div className="max-w-3xl space-y-6">
+        <h2 className="text-lg font-semibold">Study progress</h2>
+        <div className="sto-card">
+          <p style={{ color: 'var(--text-secondary)' }}>Log in (top right) to track your mock test history and see the status of questions you've flagged.</p>
+        </div>
+      </div>
+    );
+  }
+
+  const avgScore = history && history.length > 0 ? history.reduce((s, h) => s + h.score, 0) / history.length : null;
+  const bestScore = history && history.length > 0 ? Math.max(...history.map((h) => h.score)) : null;
+
   return (
-    <div className="max-w-3xl space-y-6">
-      <h2 className="text-lg font-semibold">Study progress</h2>
-      <div className="sto-card">
-        <p style={{ color: 'var(--text-secondary)' }}>Progress analytics coming soon. Your test attempts will be tracked here.</p>
+    <div className="max-w-3xl space-y-8">
+      <div>
+        <h2 className="text-lg font-semibold mb-3">Study progress</h2>
+        {history === null ? (
+          <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>Loading…</p>
+        ) : history.length === 0 ? (
+          <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>No mock tests taken yet — results will appear here once you submit one.</p>
+        ) : (
+          <>
+            <div className="flex flex-wrap gap-3 mb-4">
+              <div className="sto-stat"><b>{history.length}</b><span>Tests taken</span></div>
+              <div className="sto-stat"><b>{avgScore?.toFixed(1)}</b><span>Avg score</span></div>
+              <div className="sto-stat"><b>{bestScore?.toFixed(1)}</b><span>Best score</span></div>
+            </div>
+            <div className="space-y-2">
+              {history.map((h) => (
+                <div key={h.id} className="sto-card flex items-center justify-between gap-3 text-sm">
+                  <div>
+                    <div className="font-medium">{h.testLabel || 'Mock test'}</div>
+                    <div className="text-xs" style={{ color: 'var(--text-secondary)' }}>
+                      {new Date(h.takenAt).toLocaleString()} · {h.correct} correct, {h.wrong} wrong, {h.unattempted} blank
+                    </div>
+                  </div>
+                  <div className="font-mono font-semibold shrink-0" style={{ color: 'var(--accent)' }}>{h.score.toFixed(2)} / {h.total}</div>
+                </div>
+              ))}
+            </div>
+          </>
+        )}
+      </div>
+
+      <div>
+        <h3 className="font-semibold mb-3 text-sm">My flagged questions</h3>
+        {myReports === null ? (
+          <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>Loading…</p>
+        ) : myReports.length === 0 ? (
+          <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>You haven't flagged any questions yet.</p>
+        ) : (
+          <div className="space-y-2">
+            {myReports.map((r) => {
+              const color = r.status === 'accepted' ? '#2e7d4f' : r.status === 'rejected' ? '#a33232' : '#9a6b12';
+              return (
+                <div key={r.id} className="sto-card text-sm space-y-1">
+                  <div className="flex items-center gap-2 flex-wrap text-xs">
+                    <span className="sto-pill" style={{ color, borderColor: color }}>{r.status}</span>
+                    <span className="sto-pill">{r.issueType.replace(/_/g, ' ')}</span>
+                    <span style={{ color: 'var(--text-secondary)' }}>{new Date(r.createdAt).toLocaleDateString()}</span>
+                  </div>
+                  {r.message && <p style={{ color: 'var(--text-secondary)' }}>"{r.message}"</p>}
+                  {r.adminNote && (
+                    <p className="text-xs p-1.5 rounded" style={{ background: 'var(--bg-app)' }}>
+                      <strong>Admin response:</strong> {r.adminNote}
+                    </p>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+        )}
       </div>
     </div>
   );

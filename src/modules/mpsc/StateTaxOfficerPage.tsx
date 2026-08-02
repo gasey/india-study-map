@@ -4,6 +4,7 @@ import { ModuleSwitcher } from '@/modules/ModuleSwitcher';
 import { useHasDesktopChrome } from '@/lib/useShellChrome';
 import { getBank } from '@/data/banks';
 import { StateTaxOfficerEnhanced } from './StateTaxOfficerEnhanced';
+import { LoginPanel } from './LoginPanel';
 
 // ============================================
 // STATE TAX OFFICER — standalone module (own route, own switcher entry).
@@ -34,13 +35,16 @@ export default function StateTaxOfficerPage() {
             Comprehensive prep — primers, question bank, mock tests
           </div>
         </div>
-        <button
-          onClick={toggleTheme}
-          className="ml-auto px-2.5 py-1 rounded-md text-sm hover:bg-[var(--bg-panel-elev)]"
-          style={{ border: '1px solid var(--border)' }}
-        >
-          {theme === 'dark' ? '☀️' : '🌙'}
-        </button>
+        <div className="ml-auto flex items-center gap-2">
+          <LoginPanel />
+          <button
+            onClick={toggleTheme}
+            className="px-2.5 py-1 rounded-md text-sm hover:bg-[var(--bg-panel-elev)]"
+            style={{ border: '1px solid var(--border)' }}
+          >
+            {theme === 'dark' ? '☀️' : '🌙'}
+          </button>
+        </div>
       </div>
 
       <div className="flex-1 min-h-0">

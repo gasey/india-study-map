@@ -1,0 +1,74 @@
+[
+  {
+    "unit": "ENG-GRAMMAR",
+    "subtopic": "Parts of Speech Fundamentals",
+    "priority": "critical",
+    "primer": "English has 8 parts of speech: **nouns** (name things), **verbs** (show action/state), **adjectives** (describe nouns), **adverbs** (modify verbs/adjectives), **pronouns** (replace nouns), **prepositions** (show position/time), **conjunctions** (connect words), and **interjections** (express emotion). Identifying which part of speech a word is depends entirely on how it's used in the sentence, not the word itself. For exams, the key is recognizing their functions to spot errors in usage.",
+    "analogy": "A word is like an actor who can play different roles in different movies. The word 'run' is a verb in 'I run daily' but a noun in 'She won the race in a fast run.' Same actor, different role.",
+    "traps": ["Assuming a word always belongs to one part of speech", "Confusing adjectives with adverbs (many adverbs end in -ly but not all)", "Mistaking gerunds (verb-noun hybrids) for simple nouns"],
+    "formulae": ["8 parts: Noun, Verb, Adjective, Adverb, Pronoun, Preposition, Conjunction, Interjection", "Word function in sentence determines its part of speech", "Prepositions always have objects (in, on, at, by, for, with, etc.)"]
+  },
+  {
+    "unit": "ENG-GRAMMAR",
+    "subtopic": "Tense System and Time",
+    "priority": "critical",
+    "primer": "English has 12 main tenses organized into 4 time frames (Present, Past, Future, Past-Perfect) and 3 aspects (Simple, Continuous, Perfect). **Simple tenses** show one-time or habitual actions, **Continuous tenses** show ongoing actions, and **Perfect tenses** show completed actions with present relevance. The correct tense communicates when an action happens and its relationship to other events. Exam questions test whether you use the right tense to show sequence and duration.",
+    "analogy": "Tenses are like a timeline: Simple is like a point on the line, Continuous is like a segment you're watching, and Perfect is like a completed section that affects where you are now.",
+    "traps": ["Mixing tenses in the same sentence without logical reason", "Using Past Perfect (had done) for single past events", "Confusing Present Perfect (have done) with Simple Past (did)", "Forgetting auxiliary verbs in continuous/perfect tenses (is going, has gone)"],
+    "formulae": ["Simple: 'I go' (habit), 'I went' (past), 'I will go' (future)", "Continuous: 'I am going' (now), 'I was going' (then), 'I will be going'", "Perfect: 'I have gone' (just done), 'I had gone' (before past), 'I will have gone' (before future)"]
+  },
+  {
+    "unit": "ENG-GRAMMAR",
+    "subtopic": "Subject-Verb Agreement",
+    "priority": "high",
+    "primer": "The **subject** and **verb** in a sentence must agree in number: singular subjects take singular verbs, plural subjects take plural verbs. When the subject is separated from the verb by phrases or clauses, students often agree the verb with the nearest noun instead of the actual subject. Collective nouns (team, committee, family) can be singular or plural depending on context. In exams, this is tested heavily because native speakers often get it wrong.",
+    "analogy": "A subject and verb are like a dancing pair: they must move in sync. If the lead (subject) is one person, the follow (verb) must adjust to one. If the lead is a group, the follow changes to match the group's rhythm.",
+    "traps": ["Subject is separated from verb by prepositional phrase: 'The box of pencils is/are...' (box is singular)", "Collective nouns: 'The team is working' (unit action) vs 'The team are divided' (individual action)", "Plural nouns that look singular: 'news', 'physics', 'politics' take singular verbs", "None/all/majority: look at the object of 'of' (None of the apples are/is...)"],
+    "formulae": ["Singular verb: -s ending in present tense (He goes, She runs)", "Plural verb: no -s ending (They go, We run)", "Collective nouns: singular when acting as one unit, plural when members act individually"]
+  },
+  {
+    "unit": "ENG-GRAMMAR",
+    "subtopic": "Prepositions and Their Objects",
+    "priority": "high",
+    "primer": "**Prepositions** show relationships of position, direction, time, or manner between words. Every preposition must be followed by an object (noun/pronoun) to form a **prepositional phrase**. Common mistakes: ending sentences with prepositions (in formal exams, avoid this), using wrong prepositions ('on time' vs 'in time'), and confusing prepositions that look similar (in/into, at/in). Prepositions are often tested in error-spotting because Indians commonly misuse them.",
+    "analogy": "A preposition is like an arrow pointing to show the relationship: 'in the box' points inside, 'on the table' points to the surface, 'under the bridge' points below. The arrow only makes sense when it points to something (its object).",
+    "traps": ["Using 'in' for time (wrong: 'in next week'; right: 'next week' or 'in a week')", "Wrong preposition with verbs: 'depend on' (not 'of'), 'consist of' (not 'in')", "Ending sentences with prepositions in formal writing", "Prepositions in comparisons: 'different from' (not 'different than')"],
+    "formulae": ["Position: in, on, at, under, over, between, among", "Time: in (months/years), on (dates), at (times), during (duration), since (starting point)", "Direction: into, out of, toward, away from", "Common verb+preposition: depend on, consist of, agree with, blame for"]
+  },
+  {
+    "unit": "ENG-GRAMMAR",
+    "subtopic": "Articles and Determiners",
+    "priority": "high",
+    "primer": "**Articles** (a/an/the) are the most frequently used words in English and govern how nouns are introduced. **'A/An'** (indefinite) introduce unknown or general nouns, **'the'** (definite) introduces known specific nouns, and **zero article** is used for plurals and uncountables in general sense. The article choice depends on whether the listener/reader knows which specific thing you mean. Exam errors often occur with countable vs uncountable nouns and definite vs indefinite contexts.",
+    "analogy": "Articles are like spotlights in a theater: 'a' highlights any actor from the ensemble (indefinite), 'the' shines on the specific star we're all watching (definite), and no spotlight means talking about actors in general.",
+    "traps": ["Using 'a' before vowel sounds (correct: 'an honor'), 'an' before consonant sounds (correct: 'a university')", "Treating uncountable nouns as countable: 'waters' (multiple bodies of water OK), but not 'informations'", "First mention gets 'a', later mentions get 'the': 'I saw a dog. The dog was brown.'", "No article needed: 'I like cats' (general plural), 'He studies Physics' (proper subjects)"],
+    "formulae": ["'A/An' = singular countable, first mention or general class", "'The' = specific noun (second mention, unique, or obvious from context)", "No article: plural countable (general), uncountables (general), proper nouns, mass nouns", "Vowel sound = 'an', consonant sound = 'a'"]
+  },
+  {
+    "unit": "ENG-GRAMMAR",
+    "subtopic": "Sentence Structure and Clauses",
+    "priority": "high",
+    "primer": "A **sentence** contains a **clause** (subject + verb). A **simple sentence** has one independent clause, a **compound sentence** joins two independent clauses with conjunctions (and, but, or), and a **complex sentence** has one independent clause plus dependent clause(s) introduced by subordinators (because, if, when, which, that). A **dependent clause** cannot stand alone—it must attach to an independent clause. Understanding clause types is essential for error-spotting and sentence transformation questions.",
+    "analogy": "Clauses are like rooms: an independent clause is a complete room you can live in, a dependent clause is a room that only has value attached to another room (a closet or bathroom). A compound sentence is two complete rooms connected by a hallway; a complex sentence is one room with attached dependencies.",
+    "traps": ["Fragment: writing a dependent clause as a sentence ('Because it rained. The game was cancelled.')", "Run-on: joining independent clauses without proper punctuation or conjunction", "Misidentifying noun clauses: 'What you said' is one dependent clause acting as a noun, not two clauses", "Dangling modifier: 'Arriving late, the bus had already left' (who arrived late? Unclear)"],
+    "formulae": ["Simple: S + V = 1 independent clause", "Compound: Clause 1 + (and/but/or/nor) + Clause 2", "Complex: Independent clause + (because/if/when/which/that) + Dependent clause", "Subordinators signal dependence: because, if, when, although, which, that, where, who, whom"]
+  },
+  {
+    "unit": "ENG-GRAMMAR",
+    "subtopic": "Modifiers and Misplaced Words",
+    "priority": "medium",
+    "primer": "**Modifiers** are words or phrases that describe or limit other words. **Adjectives** modify nouns, **adverbs** modify verbs/adjectives/adverbs. A **misplaced modifier** is positioned so it seems to describe the wrong word ('He saw the elephant wearing binoculars'—who wore them?). A **dangling modifier** has no clear subject to attach to ('After reading the book, the movie seemed boring'—what read the book?). Exam questions catch these errors frequently in both error-spotting and sentence improvement sections.",
+    "analogy": "Modifiers are like sticky labels: they should attach to the word they're meant to describe. A misplaced label sticks to the wrong package, causing confusion. A dangling label has nothing to stick to at all.",
+    "traps": ["Adverb placement: 'He only ate three apples' (suggests he did nothing else) vs 'He ate only three apples' (limited quantity)", "Misplaced adjectives: 'Old is the house' vs 'The house is old'", "Modifier at sentence start should describe the subject: 'Walking to school, the rain was heavy' (wrong: rain didn't walk)"],
+    "formulae": ["Adjective comes before noun or after linking verb: 'blue car', 'the car is blue'", "Adverb usually follows verb or precedes adjective: 'ran quickly', 'very tall'", "Modifying phrase must come near the word it modifies", "Dangling modifiers have no clear subject reference"]
+  },
+  {
+    "unit": "ENG-GRAMMAR",
+    "subtopic": "Pronouns and Reference Clarity",
+    "priority": "medium",
+    "primer": "**Pronouns** replace nouns to avoid repetition (he, she, it, they, who, which, that). The noun a pronoun refers to is called its **antecedent**, and pronouns must agree with antecedents in number and gender. **Ambiguous reference** occurs when it's unclear which noun a pronoun refers to. **Vague pronoun reference** uses 'this', 'that', or 'it' to refer to an entire idea rather than a specific noun. Exam questions test whether pronoun-antecedent pairs match correctly and whether pronoun reference is unambiguous.",
+    "analogy": "A pronoun is like a shorthand code that points back to a noun: 'Sarah is smart; she studies hard' (she = Sarah). If someone hears only 'she studies hard' without knowing who 'she' is, the reference is broken.",
+    "traps": ["Pronoun doesn't agree with antecedent: 'Each student should bring their books' (each = singular; should be 'his/her')", "Ambiguous reference: 'Maria told Susan she was late' (who was late?)", "Vague 'it' and 'this': 'The economy collapsed, which devastated the country' (which = the collapse)", "Pronoun before antecedent: 'Before he arrived, John left' (awkward forward reference)"],
+    "formulae": ["Pronouns match antecedent in number: singular noun → singular pronoun", "Personal pronouns: I, me, you, he, she, it, we, they, us, them, him, her", "Relative pronouns: who (person), which (thing), that (person/thing), whose (possession)", "Indefinite pronouns (someone, anyone, everyone, nobody) are usually singular"]
+  }
+]

@@ -10,7 +10,7 @@ import {
 } from './useMpscData';
 import { TestRunner } from './TestRunner';
 import { QuestionsTable } from './QuestionsTable';
-import { StateTaxOfficerPrep } from './StateTaxOfficerPrep';
+import { StateTaxOfficerEnhanced } from './StateTaxOfficerEnhanced';
 
 // ============================================
 // MPSC MODULE — old questions + state tax officer prep.
@@ -217,7 +217,7 @@ export function MpscPage() {
           </>
         )}
         {tab === 'state-tax-officer' && (
-          <StateTaxOfficerPrep allQuestions={data.questions} />
+          <StateTaxOfficerEnhanced allQuestions={data.questions} />
         )}
       </main>
     </Shell>

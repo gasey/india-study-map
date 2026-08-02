@@ -1,14 +1,16 @@
 import { useEffect, useRef, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { modules, type ModuleCategory } from './registry';
+import { modules, type ModuleCategory, type PracticeSubgroup } from './registry';
 
-const CATEGORY_ORDER: ModuleCategory[] = ['Study', 'Practice', 'Labs'];
+const CATEGORY_ORDER: ModuleCategory[] = ['Study', 'Practice'];
+const SUBGROUP_ORDER: PracticeSubgroup[] = ['In-app modules', 'Exam guides', 'Labs', 'Quick practice (one-offs)'];
 
 /** App-switcher pill — drop it into any module's header. */
 export function ModuleSwitcher() {
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
   const loc = useLocation();
+  const onQuestionBank = loc.pathname === '/question-bank';
   const current =
     modules.find((m) => m.kind === 'route' && (m.path === loc.pathname || loc.pathname.startsWith(`${m.path}/`))) ??
     modules[0];
@@ -31,8 +33,8 @@ export function ModuleSwitcher() {
         aria-expanded={open}
         title="Switch module"
       >
-        <span>{current.glyph}</span>
-        <span className="font-medium hidden sm:inline">{current.title}</span>
+        <span>{onQuestionBank ? '📚' : current.glyph}</span>
+        <span className="font-medium hidden sm:inline">{onQuestionBank ? 'Question Bank' : current.title}</span>
         <span style={{ color: 'var(--text-secondary)', fontSize: 10 }}>▾</span>
       </button>
       {open && (
@@ -41,9 +43,26 @@ export function ModuleSwitcher() {
           className="absolute left-0 mt-1.5 w-72 rounded-lg shadow-lg z-[1200] overflow-hidden"
           style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}
         >
+          <Link
+            to="/question-bank"
+            onClick={() => setOpen(false)}
+            role="menuitem"
+            className="flex items-start gap-2.5 px-3 py-2.5 hover:bg-[var(--bg-panel-elev)] transition-colors"
+            style={{ borderBottom: '1px solid var(--border)' }}
+          >
+            <span className="text-lg leading-none mt-0.5">📚</span>
+            <div className="min-w-0">
+              <div className="text-sm font-medium flex items-center gap-2" style={{ color: 'var(--text-primary)' }}>
+                Question Bank
+                {onQuestionBank && <span className="w-1.5 h-1.5 rounded-full" style={{ background: 'var(--accent)' }} />}
+              </div>
+              <div className="text-xs truncate" style={{ color: 'var(--text-secondary)' }}>Unified catalog — every source in one place</div>
+            </div>
+          </Link>
           {CATEGORY_ORDER.map((cat) => {
             const group = modules.filter((m) => m.category === cat);
             if (group.length === 0) return null;
+            const subgroups = cat === 'Practice' ? SUBGROUP_ORDER : [undefined];
             return (
               <div key={cat}>
                 <div
@@ -52,30 +71,41 @@ export function ModuleSwitcher() {
                 >
                   {cat}
                 </div>
-                {group.map((m) => {
-            const active = m.kind === 'route' && (m.path === loc.pathname || loc.pathname.startsWith(`${m.path}/`));
-            const inner = (
-              <div className="flex items-start gap-2.5 px-3 py-2.5 hover:bg-[var(--bg-panel-elev)] transition-colors">
-                <span className="text-lg leading-none mt-0.5">{m.glyph}</span>
-                <div className="min-w-0">
-                  <div className="text-sm font-medium flex items-center gap-2" style={{ color: 'var(--text-primary)' }}>
-                    {m.title}
-                    {m.comingSoon && (
-                      <span className="text-[10px] px-1.5 rounded" style={{ background: 'var(--bg-panel-elev)', color: 'var(--text-secondary)' }}>soon</span>
-                    )}
-                    {active && <span className="w-1.5 h-1.5 rounded-full" style={{ background: 'var(--accent)' }} />}
-                  </div>
-                  <div className="text-xs truncate" style={{ color: 'var(--text-secondary)' }}>{m.tagline}</div>
-                </div>
-              </div>
-            );
-            if (m.comingSoon) return <div key={m.id} className="opacity-50 cursor-not-allowed">{inner}</div>;
-            return m.kind === 'route' ? (
-              <Link key={m.id} to={m.path} onClick={() => setOpen(false)} role="menuitem">{inner}</Link>
-            ) : (
-              // Static pages open in a new tab — they have their own chrome.
-              <a key={m.id} href={m.path} target="_blank" rel="noopener" onClick={() => setOpen(false)} role="menuitem">{inner}</a>
-            );
+                {subgroups.map((sg) => {
+                  const items = sg ? group.filter((m) => m.subgroup === sg) : group;
+                  if (items.length === 0) return null;
+                  return (
+                    <div key={sg ?? 'flat'}>
+                      {sg && (
+                        <div className="px-3 pt-1.5 pb-0.5 text-[9px] font-medium uppercase tracking-wider" style={{ color: 'var(--text-muted)' }}>
+                          {sg}
+                        </div>
+                      )}
+                      {items.map((m) => {
+                        const active = m.kind === 'route' && (m.path === loc.pathname || loc.pathname.startsWith(`${m.path}/`));
+                        const to = m.kind === 'static' ? `/embed/${m.id}` : m.path;
+                        const inner = (
+                          <div className="flex items-start gap-2.5 px-3 py-2.5 hover:bg-[var(--bg-panel-elev)] transition-colors">
+                            <span className="text-lg leading-none mt-0.5">{m.glyph}</span>
+                            <div className="min-w-0">
+                              <div className="text-sm font-medium flex items-center gap-2" style={{ color: 'var(--text-primary)' }}>
+                                {m.title}
+                                {m.comingSoon && (
+                                  <span className="text-[10px] px-1.5 rounded" style={{ background: 'var(--bg-panel-elev)', color: 'var(--text-secondary)' }}>soon</span>
+                                )}
+                                {active && <span className="w-1.5 h-1.5 rounded-full" style={{ background: 'var(--accent)' }} />}
+                              </div>
+                              <div className="text-xs truncate" style={{ color: 'var(--text-secondary)' }}>{m.tagline}</div>
+                            </div>
+                          </div>
+                        );
+                        if (m.comingSoon) return <div key={m.id} className="opacity-50 cursor-not-allowed">{inner}</div>;
+                        return (
+                          <Link key={m.id} to={to} onClick={() => setOpen(false)} role="menuitem">{inner}</Link>
+                        );
+                      })}
+                    </div>
+                  );
                 })}
               </div>
             );

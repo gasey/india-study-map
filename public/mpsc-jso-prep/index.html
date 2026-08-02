@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MPSC JSO (Cyber Forensic) — Prep</title>
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <strong>MPSC JSO</strong><span class="sub">Cyber Forensic &middot; Adv. 18 of 2026-27</span>
+  </div>
+  <nav class="modes">
+    <button class="mode-btn is-active" data-mode="browse">Browse</button>
+    <button class="mode-btn" data-mode="test">Test</button>
+    <button class="mode-btn" data-mode="plan">Exam Plan</button>
+  </nav>
+  <div class="countdown" id="countdown"></div>
+</header>
+
+<main>
+  <!-- ================= BROWSE ================= -->
+  <section id="view-browse" class="view is-active">
+    <aside class="sidebar">
+      <input type="search" id="unit-filter" placeholder="Filter topics…" autocomplete="off">
+      <div id="unit-tree"></div>
+    </aside>
+    <article class="content" id="browse-content">
+      <div class="empty">Select a topic from the left.</div>
+    </article>
+  </section>
+
+  <!-- ================= TEST ================= -->
+  <section id="view-test" class="view">
+    <div class="test-wrap">
+
+      <div id="test-setup" class="card">
+        <h2>Build a test</h2>
+        <p class="muted">Questions are drawn from the units you select.</p>
+
+        <label class="fld">
+          <span>Units</span>
+          <div id="test-units" class="chk-grid"></div>
+        </label>
+
+        <div class="fld-row">
+          <label class="fld">
+            <span>Number of questions</span>
+            <input type="number" id="test-count" value="20" min="1" max="200">
+          </label>
+          <label class="fld">
+            <span>Time limit (minutes, 0 = untimed)</span>
+            <input type="number" id="test-time" value="0" min="0" max="240">
+          </label>
+        </div>
+
+        <div class="fld-row">
+          <label class="fld">
+            <span>Marks per correct answer</span>
+            <input type="number" id="test-pos" value="2" min="1" step="0.5">
+          </label>
+          <label class="fld">
+            <span>Penalty per wrong answer</span>
+            <input type="number" id="test-neg" value="0.5" min="0" step="0.25">
+          </label>
+        </div>
+        <p class="note">
+          The syllabus states <em>&ldquo;MCQ with negative marking&rdquo;</em> for every objective paper but
+          <strong>does not publish the ratio</strong>. Past JSO papers carried 2 marks per question.
+          The defaults above assume 1/4 negative marking &mdash; adjust if MPSC announces otherwise.
+        </p>
+
+        <button id="test-start" class="primary">Start test</button>
+      </div>
+
+      <div id="test-run" class="hidden">
+        <div class="test-hud">
+          <span id="test-progress"></span>
+          <span id="test-timer" class="timer"></span>
+          <button id="test-submit" class="primary sm">Submit</button>
+        </div>
+        <div id="test-questions"></div>
+      </div>
+
+      <div id="test-result" class="hidden"></div>
+    </div>
+  </section>
+
+  <!-- ================= PLAN ================= -->
+  <section id="view-plan" class="view">
+    <article class="content plan" id="plan-content"></article>
+  </section>
+</main>
+
+<!-- Data files. Order does not matter; each pushes onto window.MPSC.units -->
+<script src="data/_schema.js"></script>
+<script src="data/p2gk-verified.js"></script>
+<script src="data/p2gk-mizoram.js"></script>
+<script src="data/p2-history-geography.js"></script>
+<script src="data/p2-polity-economy.js"></script>
+<script src="data/p2-environment-science.js"></script>
+<script src="data/p2-current-events.js"></script>
+<script src="data/p1-mcq-grammar.js"></script>
+<script src="data/p1-mcq-usage.js"></script>
+<script src="data/p1-mcq-sentence.js"></script>
+<script src="data/p1-descriptive.js"></script>
+<script src="data/p3gs-physics.js"></script>
+<script src="data/p3gs-chemistry.js"></script>
+<script src="data/p3gs-maths.js"></script>
+<script src="data/p3gf-a-chem-print-ballistics.js"></script>
+<script src="data/p3gf-b-docs-dna-tox.js"></script>
+<script src="data/p3gf-c-photo-cyber-scene-law.js"></script>
+<script src="data/p4u1-computer-fundamentals.js"></script>
+<script src="data/p4u2-dbms.js"></script>
+<script src="data/p4u3-digital-forensics.js"></script>
+<script src="data/p4u4-multimedia-forensics.js"></script>
+<script src="data/p4u5-mobile-forensics.js"></script>
+<script src="js/app.js?v=2"></script>
+</body>
+</html>

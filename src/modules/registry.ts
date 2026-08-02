@@ -9,17 +9,27 @@
 //
 // kind:
 //  - 'route'  → an in-app React page, code-split via lazy()
-//  - 'static' → a standalone HTML file served from /public
-//               (drop-in pages like the Polity Codex guide)
+//  - 'static' → a standalone HTML file served from /public,
+//               opened in-app via /embed/:id (see EmbedPage.tsx) —
+//               never target="_blank", it has its own chrome but
+//               stays inside this shell.
+//
+// category/subgroup drive the Study ▾ / Practice ▾ nav dropdowns
+// (ModuleGroupMenu) and the mobile ModuleSwitcher pill. Study is a
+// flat list; Practice is grouped by subgroup, in this fixed order:
+// In-app modules, Exam guides, Labs, Quick practice (one-offs).
 // ============================================
 
-export type ModuleCategory = 'Study' | 'Practice' | 'Labs';
+export type ModuleCategory = 'Study' | 'Practice';
+export type PracticeSubgroup = 'In-app modules' | 'Exam guides' | 'Labs' | 'Quick practice (one-offs)';
 
 export interface AppModule {
   id: string;
   title: string;
   /** Switcher menu group. */
   category: ModuleCategory;
+  /** Practice-only sub-grouping — ignored for Study items. */
+  subgroup?: PracticeSubgroup;
   /** One-liner for the switcher menu. */
   tagline: string;
   /** Emoji glyph for the switcher. */
@@ -32,6 +42,7 @@ export interface AppModule {
 }
 
 export const modules: AppModule[] = [
+  // ---- Study ----
   {
     id: 'map',
     title: 'Study Map',
@@ -42,31 +53,13 @@ export const modules: AppModule[] = [
     path: '/map',
   },
   {
-    id: 'pyq',
-    title: 'PYQ Practice',
-    category: 'Practice',
-    tagline: 'Question banks — filter by subject, topic, difficulty',
-    glyph: '📝',
-    kind: 'route',
-    path: '/pyq',
-  },
-  {
-    id: 'codex',
-    title: 'Polity Codex',
+    id: 'chronicle',
+    title: 'Chronicle Timeline',
     category: 'Study',
-    tagline: 'Full polity study guide — notes, mock test, flashcards',
-    glyph: '📜',
-    kind: 'static',
-    path: '/codex/index.html',
-  },
-  {
-    id: 'flashcards',
-    title: 'Flashcards',
-    category: 'Practice',
-    tagline: 'Rapid recall — flip, mark Known or Review',
-    glyph: '🃏',
+    tagline: 'Master timeline — history & polity, Indus Valley to today',
+    glyph: '⏳',
     kind: 'route',
-    path: '/flashcards',
+    path: '/timeline',
   },
   {
     id: 'mindmaps',
@@ -78,45 +71,41 @@ export const modules: AppModule[] = [
     path: '/mindmaps',
   },
   {
-    id: 'lab-maths',
-    title: 'Aptitude Hub',
-    category: 'Labs',
-    tagline: 'Maths & reasoning — MPSC 2025-pattern questions',
-    glyph: '🔢',
-    kind: 'static',
-    path: '/labs/maths/index.html',
-  },
-  {
-    id: 'lab-english',
-    title: 'General English',
-    category: 'Labs',
-    tagline: 'MCQ masterclass — MPSC old questions',
-    glyph: '🔤',
-    kind: 'static',
-    path: '/labs/english/index.html',
-  },
-  {
-    id: 'lab-paper2',
-    title: 'Paper-II Lab',
-    category: 'Labs',
-    tagline: 'Arithmetic & reasoning drills',
-    glyph: '🧮',
-    kind: 'static',
-    path: '/labs/paper2/index.html',
-  },
-  {
-    id: 'chronicle',
-    title: 'Chronicle',
+    id: 'codex',
+    title: 'Polity Codex',
     category: 'Study',
-    tagline: 'Master timeline — history & polity, Indus Valley to today',
-    glyph: '⏳',
+    tagline: 'Full polity study guide — notes, mock test, flashcards',
+    glyph: '📜',
+    kind: 'static',
+    path: '/codex/index.html',
+  },
+
+  // ---- Practice: In-app modules ----
+  {
+    id: 'pyq',
+    title: 'PYQ Practice',
+    category: 'Practice',
+    subgroup: 'In-app modules',
+    tagline: 'Question banks — filter by subject, topic, difficulty',
+    glyph: '📝',
     kind: 'route',
-    path: '/timeline',
+    path: '/pyq',
+  },
+  {
+    id: 'flashcards',
+    title: 'Flashcards',
+    category: 'Practice',
+    subgroup: 'In-app modules',
+    tagline: 'Rapid recall — flip, mark Known or Review',
+    glyph: '🃏',
+    kind: 'route',
+    path: '/flashcards',
   },
   {
     id: 'arena',
     title: 'Gauntlet Run',
     category: 'Practice',
+    subgroup: 'In-app modules',
     tagline: 'Dodge runner — MCQ gates, revives & upgrades earned by knowledge',
     glyph: '🏃',
     kind: 'route',
@@ -126,6 +115,7 @@ export const modules: AppModule[] = [
     id: 'mpsc',
     title: 'MPSC Old Questions',
     category: 'Practice',
+    subgroup: 'In-app modules',
     tagline: 'Real Mizoram PSC papers — browse by exam/year, take timed MCQ tests',
     glyph: '🏛️',
     kind: 'route',
@@ -135,6 +125,7 @@ export const modules: AppModule[] = [
     id: 'state-tax-officer',
     title: 'State Tax Officer',
     category: 'Practice',
+    subgroup: 'In-app modules',
     tagline: 'Group B Gazetted — primers, question bank, full mock tests',
     glyph: '🎯',
     kind: 'route',
@@ -144,9 +135,126 @@ export const modules: AppModule[] = [
     id: 'ca',
     title: 'Current Affairs',
     category: 'Practice',
+    subgroup: 'In-app modules',
     tagline: 'Daily MCQ quiz — summary, key facts, topic breakdown',
     glyph: '📰',
     kind: 'route',
     path: '/current-affairs',
+  },
+
+  // ---- Practice: Exam guides ----
+  {
+    id: 'jso',
+    title: 'MPSC JSO — Cyber Forensic',
+    category: 'Practice',
+    subgroup: 'Exam guides',
+    tagline: '49 units, 543 questions — Browse / Test / Exam Plan modes',
+    glyph: '🕵️',
+    kind: 'static',
+    path: '/mpsc-jso-prep/index.html',
+  },
+
+  // ---- Practice: Labs ----
+  {
+    id: 'lab-maths',
+    title: 'Aptitude Hub',
+    category: 'Practice',
+    subgroup: 'Labs',
+    tagline: 'Maths & reasoning — MPSC 2025-pattern questions',
+    glyph: '🔢',
+    kind: 'static',
+    path: '/labs/maths/index.html',
+  },
+  {
+    id: 'lab-english',
+    title: 'General English',
+    category: 'Practice',
+    subgroup: 'Labs',
+    tagline: 'MCQ masterclass — MPSC old questions',
+    glyph: '🔤',
+    kind: 'static',
+    path: '/labs/english/index.html',
+  },
+  {
+    id: 'lab-paper2',
+    title: 'Paper-II Lab',
+    category: 'Practice',
+    subgroup: 'Labs',
+    tagline: 'Arithmetic & reasoning drills',
+    glyph: '🧮',
+    kind: 'static',
+    path: '/labs/paper2/index.html',
+  },
+
+  // ---- Practice: Quick practice (one-offs) ----
+  {
+    id: 'essay',
+    title: 'Essay Practice',
+    category: 'Practice',
+    subgroup: 'Quick practice (one-offs)',
+    tagline: 'Descriptive writing bank',
+    glyph: '✍️',
+    kind: 'static',
+    path: '/quick-practice/essay.html',
+  },
+  {
+    id: 'jao-gk',
+    title: 'JAO Paper 2 — GK',
+    category: 'Practice',
+    subgroup: 'Quick practice (one-offs)',
+    tagline: 'General knowledge drill',
+    glyph: '📘',
+    kind: 'static',
+    path: '/quick-practice/jao-paper2-gk.html',
+  },
+  {
+    id: 'may-2026-ca',
+    title: 'May 2026 Current Affairs',
+    category: 'Practice',
+    subgroup: 'Quick practice (one-offs)',
+    tagline: 'One-liners',
+    glyph: '🗓️',
+    kind: 'static',
+    path: '/quick-practice/may-2026-current-affairs.html',
+  },
+  {
+    id: 'mizoram-ca',
+    title: 'Mizoram Current Affairs Quiz',
+    category: 'Practice',
+    subgroup: 'Quick practice (one-offs)',
+    tagline: 'May 2026 quiz',
+    glyph: '📰',
+    kind: 'static',
+    path: '/quick-practice/mizoram-current-affairs-quiz.html',
+  },
+  {
+    id: 'eng-mcq-masterclass',
+    title: 'English MCQ Masterclass',
+    category: 'Practice',
+    subgroup: 'Quick practice (one-offs)',
+    tagline: 'MCQ drill set',
+    glyph: '🔤',
+    kind: 'static',
+    path: '/quick-practice/mpsc-english-mcq-masterclass.html',
+  },
+  {
+    id: 'mpsc-practice-qs',
+    title: 'MPSC Practice Questions',
+    category: 'Practice',
+    subgroup: 'Quick practice (one-offs)',
+    tagline: 'Mixed practice',
+    glyph: '📄',
+    kind: 'static',
+    path: '/quick-practice/mpsc-practice-questions.html',
+  },
+  {
+    id: 'tenses-voice',
+    title: 'Tenses & Voice',
+    category: 'Practice',
+    subgroup: 'Quick practice (one-offs)',
+    tagline: 'Grammar drill',
+    glyph: '🔤',
+    kind: 'static',
+    path: '/quick-practice/tenses-and-voice.html',
   },
 ];

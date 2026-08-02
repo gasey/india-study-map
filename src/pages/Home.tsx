@@ -18,20 +18,13 @@ const MODULE_ICON: Record<string, string> = {
   'lab-paper2': IC.labs,
 };
 
-const CATEGORY_ORDER: ModuleCategory[] = ['Study', 'Practice', 'Labs'];
+const CATEGORY_ORDER: ModuleCategory[] = ['Study', 'Practice'];
 
 function moduleHref(m: (typeof modules)[number]) {
-  return m.path;
+  return m.kind === 'static' ? `/embed/${m.id}` : m.path;
 }
 
 function ModuleLink({ m, children, className, style }: { m: (typeof modules)[number]; children: React.ReactNode; className?: string; style?: React.CSSProperties }) {
-  if (m.kind === 'static') {
-    return (
-      <a href={m.path} target="_blank" rel="noopener" className={className} style={style}>
-        {children}
-      </a>
-    );
-  }
   return (
     <Link to={moduleHref(m)} className={className} style={style}>
       {children}

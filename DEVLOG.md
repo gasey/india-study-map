@@ -9,6 +9,94 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-08-03 (later) — Setu nav refactor: grouped Study/Practice nav, Question Bank tab
+
+**What shipped:**
+- `registry.ts` reworked: `ModuleCategory` dropped `'Labs'` (now `'Study' |
+  'Practice'` only); Practice items gained a `subgroup` field (`In-app
+  modules`, `Exam guides`, `Labs`, `Quick practice (one-offs)`). Added 8 new
+  entries: `jso` (MPSC JSO — Cyber Forensic) and 7 "Quick practice" one-offs.
+- New generic `src/pages/EmbedPage.tsx` + `/embed/:id` route — every
+  `kind: 'static'` module (Codex, 3 Labs, JSO, 7 Quick Practice) now opens
+  in-app inside this shell instead of `target="_blank"`. Killed every
+  remaining `target="_blank"` module link across `Rail.tsx`, `CommandBar.tsx`
+  (nav + `SearchBox`), `ModuleSwitcher.tsx`, and `Home.tsx`.
+- New `ModuleGroupMenu.tsx` (shared Study▾/Practice▾ dropdown, modeled on
+  `ShellSwitcher.tsx`'s `placement` pattern, now with a third `'bottom'`
+  placement) replaces the old hardcoded flat link lists in `Rail.tsx` and
+  `CommandBar.tsx`. Nav is now `Home | Study ▾ | Question Bank | Practice ▾`
+  in both shell styles that render global chrome.
+- New mobile-only bottom bar in `AppShell.tsx` (`lg:hidden`, additive — the
+  ~10 per-page `ModuleSwitcher` pills were left alone rather than touching
+  10 files' mobile headers for a redundancy that's otherwise harmless).
+  Explicitly suppressed on `/map`, which already owns the bottom of the
+  viewport with its own fixed swipeable facts/quiz sheet — a second bar
+  there would visually collide, not just duplicate nav.
+- New **Question Bank** tab (`/question-bank`): 3 catalog cards (JSO, State
+  Tax Officer, Practice-menu), a real Current Affairs & GK practice panel
+  (292 real questions filterable by topic/exam/year with a show/hide-answers
+  toggle), and a client-only "add a question set" admin stub
+  (`localStorage`, not wired to a backend).
+- `mpsc-jso-prep`'s 6 Paper II GK data files converted from
+  `window.MPSC.units.push(...)` calls to real ES modules under
+  `src/data/jso-gk/*.ts` (mechanical conversion — executed each source file
+  in a sandboxed Node `vm` with `window.MPSC.units` stubbed, then dumped the
+  resulting objects to JSON — safer than regex, since several files push
+  more than one unit and the guide's own "only change needed" assumption of
+  one-push-per-file didn't hold for 5 of the 6).
+- Copied `mpsc-jso-prep`'s runtime (`index.html`, `data/`, `css/`, `js/`)
+  into `public/mpsc-jso-prep/`, and 7 loose root HTML one-offs into
+  `public/quick-practice/*.html` (renamed, originals left in place).
+
+**Why:** second half of a two-phase ask — implementing the Setu nav/design
+refactor (`HANDOFF-standalone.html` / `Setu.dc.html` prototype) that was
+deliberately deferred while the descriptive-questions/admin-audit-trail work
+shipped first.
+
+**Two corrections made against the guide's own (stale) assumptions, verified
+against the repo rather than trusted blindly:**
+1. The guide's §3 wanted `state-tax-officer` replaced with an iframe of a
+   static `mpsc-state-tax-prep/index.html` guide, on the premise that the
+   registry entry was an unimplemented stub. It is not — it's the fully
+   native, interactive module (admin review, corrections, descriptive
+   sub-parts) built in the session immediately before this one. Left
+   completely untouched; treated as an "In-app modules" Practice entry.
+   `git diff` confirms zero files under `src/modules/mpsc/*` or
+   `mpsc-state-tax-officer.ts` were touched by this refactor.
+2. The guide's §4 file-mapping table has the English Labs candidate
+   swapped: `diff` confirms `public/labs/english/index.html` is already
+   byte-identical to `mpsc-englishold questions).html`, not
+   `mpsc-english-mcq-masterclass.html` as the guide claimed — Labs needed
+   no copying at all, and the genuinely homeless file
+   (`mpsc-english-mcq-masterclass.html`) went to Quick Practice instead.
+
+**Verified live (dev server, both shell styles, mobile + desktop):** clicked
+through every Study/Practice dropdown item in both the Rail (icon) and
+CommandBar (topbar) shell styles; confirmed Codex/Labs/JSO/Quick-Practice
+all load in-app via `/embed/:id` with real network 200s (not new tabs);
+confirmed the JSO app's full data set (20 files) loads and runs inside its
+iframe with zero console errors; confirmed the Question Bank page's
+filters and answer toggle work against real data; confirmed the mobile
+bottom bar's bottom-sheet popover works and is absent on `/map`; confirmed
+State Tax Officer's full admin/descriptive-question system (built
+2026-08-03 earlier) still renders and works identically, byte-for-byte
+untouched.
+
+**What's still open:**
+- `tsc --noEmit` clean throughout, but no automated test suite exists for
+  any of this — regressions would only surface via manual re-verification.
+- The Question Bank's third catalog card ("Practice tab") links to `/pyq`
+  as a representative entry rather than a dedicated page — there's no real
+  "Practice tab page" in this app's architecture (Practice is dropdown-only),
+  unlike the guide's flat single-page prototype.
+- Admin upload stub's "Question type" field is a local string union
+  (MCQ/Match/Fill-blank/True-False/Map-Click/Descriptive) scoped to that
+  form only — deliberately not wired into the real `BankQuestion` type,
+  which stays `'mcq' | 'descriptive'` as shipped earlier. Adding the other
+  4 variants to the real schema now would be speculative, unused code.
+
+---
+
 ## 2026-08-03 — Descriptive sub-part questions, admin audit trail, versatile review workflow
 
 **What shipped:**

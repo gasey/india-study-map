@@ -5,15 +5,8 @@ import { modules } from '@/modules/registry';
 import { chapters } from '@/data';
 import { studyStreak } from '@/lib/stats';
 import { ShellSwitcher } from './ShellSwitcher';
+import { ModuleGroupMenu } from './ModuleGroupMenu';
 import { IC, IconSvg } from './icons';
-
-const PILLS: { label: string; to: string }[] = [
-  { label: 'Home', to: '/' },
-  { label: 'Map', to: '/map' },
-  { label: 'PYQ', to: '/pyq' },
-  { label: 'Cards', to: '/flashcards' },
-  { label: 'Mind', to: '/mindmaps' },
-];
 
 function SearchBox() {
   const navigate = useNavigate();
@@ -51,6 +44,12 @@ function SearchBox() {
     };
   }, [q]);
 
+  const go = (path: string) => {
+    navigate(path);
+    setOpen(false);
+    setQ('');
+  };
+
   return (
     <div ref={ref} className="relative flex-1 max-w-[420px]">
       <div
@@ -85,7 +84,7 @@ function SearchBox() {
                   key={c.id}
                   className="w-full text-left px-3 py-2 text-sm transition-colors"
                   style={{ color: 'var(--text-primary)' }}
-                  onClick={() => { useApp.getState().setChapter(c.id); navigate('/map'); setOpen(false); setQ(''); }}
+                  onClick={() => { useApp.getState().setChapter(c.id); go('/map'); }}
                 >
                   {c.title}
                 </button>
@@ -95,30 +94,16 @@ function SearchBox() {
           {results.modules.length > 0 && (
             <div>
               <div className="px-3 pt-2 pb-1 text-[10px] font-semibold uppercase tracking-wider" style={{ color: 'var(--text-secondary)' }}>Modules</div>
-              {results.modules.map((m) =>
-                m.kind === 'route' ? (
-                  <button
-                    key={m.id}
-                    className="w-full text-left px-3 py-2 text-sm transition-colors"
-                    style={{ color: 'var(--text-primary)' }}
-                    onClick={() => { navigate(m.path); setOpen(false); setQ(''); }}
-                  >
-                    {m.glyph} {m.title}
-                  </button>
-                ) : (
-                  <a
-                    key={m.id}
-                    href={m.path}
-                    target="_blank"
-                    rel="noopener"
-                    className="block px-3 py-2 text-sm"
-                    style={{ color: 'var(--text-primary)' }}
-                    onClick={() => setOpen(false)}
-                  >
-                    {m.glyph} {m.title}
-                  </a>
-                )
-              )}
+              {results.modules.map((m) => (
+                <button
+                  key={m.id}
+                  className="w-full text-left px-3 py-2 text-sm transition-colors"
+                  style={{ color: 'var(--text-primary)' }}
+                  onClick={() => go(m.kind === 'static' ? `/embed/${m.id}` : m.path)}
+                >
+                  {m.glyph} {m.title}
+                </button>
+              ))}
             </div>
           )}
         </div>
@@ -131,18 +116,6 @@ export function CommandBar({ breadcrumb }: { breadcrumb?: React.ReactNode }) {
   const loc = useLocation();
   const { theme, toggleTheme, progress, bankProgress } = useApp();
   const streak = studyStreak(progress, bankProgress);
-  const codex = modules.find((m) => m.id === 'codex');
-  const labsModules = modules.filter((m) => m.category === 'Labs');
-  const [labsOpen, setLabsOpen] = useState(false);
-  const labsRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const onDoc = (e: MouseEvent) => {
-      if (labsRef.current && !labsRef.current.contains(e.target as Node)) setLabsOpen(false);
-    };
-    document.addEventListener('mousedown', onDoc);
-    return () => document.removeEventListener('mousedown', onDoc);
-  }, []);
 
   return (
     <header
@@ -153,66 +126,31 @@ export function CommandBar({ breadcrumb }: { breadcrumb?: React.ReactNode }) {
         <div className="w-3.5 h-3.5 rounded-[2px] rotate-45" style={{ background: 'var(--accent)' }} />
         <span className="text-[15px] font-medium" style={{ color: 'var(--text-primary)' }}>Jabreeze</span>
       </Link>
-      <nav className="flex gap-1 shrink-0">
-        {PILLS.map((p) => {
-          const active = p.to === '/' ? loc.pathname === '/' : loc.pathname.startsWith(p.to);
-          return (
-            <Link
-              key={p.to}
-              to={p.to}
-              className="text-[13px] px-3 py-1.5 rounded-lg transition-colors"
-              style={{
-                background: active ? 'var(--accent-soft)' : 'transparent',
-                color: active ? 'var(--accent)' : 'var(--text-secondary)',
-                fontWeight: active ? 500 : 400,
-              }}
-            >
-              {p.label}
-            </Link>
-          );
-        })}
-        {codex && (
-          <a
-            href={codex.path}
-            target="_blank"
-            rel="noopener"
-            className="text-[13px] px-3 py-1.5 rounded-lg transition-colors"
-            style={{ color: 'var(--text-secondary)' }}
-          >
-            Notes
-          </a>
-        )}
-        {labsModules.length > 0 && (
-          <div ref={labsRef} className="relative">
-            <button
-              onClick={() => setLabsOpen((o) => !o)}
-              className="text-[13px] px-3 py-1.5 rounded-lg transition-colors"
-              style={{ color: 'var(--text-secondary)' }}
-            >
-              Labs ▾
-            </button>
-            {labsOpen && (
-              <div
-                className="absolute left-0 mt-1.5 w-56 rounded-lg shadow-lg z-[1200] overflow-hidden"
-                style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}
-              >
-                {labsModules.map((m) => (
-                  <a
-                    key={m.id}
-                    href={m.path}
-                    target="_blank"
-                    rel="noopener"
-                    className="block px-3 py-2.5"
-                    onClick={() => setLabsOpen(false)}
-                  >
-                    <div className="text-sm font-medium" style={{ color: 'var(--text-primary)' }}>{m.title}</div>
-                    <div className="text-xs mt-0.5" style={{ color: 'var(--text-secondary)' }}>{m.tagline}</div>
-                  </a>
-                ))}
-              </div>
-            )}
-          </div>
-        )}
+      <nav className="flex items-center gap-1 shrink-0">
+        <Link
+          to="/"
+          className="text-[13px] px-3 py-1.5 rounded-lg transition-colors"
+          style={{
+            background: loc.pathname === '/' ? 'var(--accent-soft)' : 'transparent',
+            color: loc.pathname === '/' ? 'var(--accent)' : 'var(--text-secondary)',
+            fontWeight: loc.pathname === '/' ? 500 : 400,
+          }}
+        >
+          Home
+        </Link>
+        <ModuleGroupMenu category="Study" label="Study" placement="bar" />
+        <Link
+          to="/question-bank"
+          className="text-[13px] px-3 py-1.5 rounded-lg transition-colors"
+          style={{
+            background: loc.pathname === '/question-bank' ? 'var(--accent-soft)' : 'transparent',
+            color: loc.pathname === '/question-bank' ? 'var(--accent)' : 'var(--text-secondary)',
+            fontWeight: loc.pathname === '/question-bank' ? 500 : 400,
+          }}
+        >
+          Question Bank
+        </Link>
+        <ModuleGroupMenu category="Practice" label="Practice" placement="bar" />
       </nav>
 
       {breadcrumb ? (

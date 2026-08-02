@@ -4,6 +4,7 @@ import { Analytics } from '@vercel/analytics/react';
 import { useApp } from '@/lib/store';
 import { AppShell } from '@/components/shell/AppShell';
 import { Home } from '@/pages/Home';
+import { EmbedPage } from '@/pages/EmbedPage';
 
 // ============================================
 // ROOT SHELL
@@ -29,6 +30,7 @@ const QuizPlayerPage = lazy(() => import('./modules/current-affairs/QuizPlayerPa
 const ArenaPage = lazy(() => import('./modules/arena/ArenaPage'));
 const MpscPage = lazy(() => import('./modules/mpsc/MpscPage'));
 const StateTaxOfficerPage = lazy(() => import('./modules/mpsc/StateTaxOfficerPage'));
+const QuestionBankPage = lazy(() => import('./modules/question-bank/QuestionBankPage'));
 
 function Loading() {
   return (
@@ -66,6 +68,8 @@ export function Root() {
             <Route path="/arena" element={<ArenaPage />} />
             <Route path="/mpsc" element={<MpscPage />} />
             <Route path="/state-tax-officer" element={<StateTaxOfficerPage />} />
+            <Route path="/embed/:id" element={<EmbedPage />} />
+            <Route path="/question-bank" element={<QuestionBankPage />} />
             <Route path="*" element={<Home />} />
           </Routes>
         </Suspense>

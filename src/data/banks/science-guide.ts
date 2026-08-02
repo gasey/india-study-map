@@ -1,0 +1,1238 @@
+import type { QuestionBank } from './types';
+
+/**
+ * Comprehensive Science Study Guide for MPSC exams.
+ * 75 primers covering Physics, Chemistry, Biology, Earth Science, and Astronomy.
+ * Each primer explains core concepts with clear analogies, common traps, and key formulae.
+ * Designed as foundational reference material to answer any future science question.
+ */
+export const scienceGuide: Partial<QuestionBank> = {
+  id: 'science-guide-mpsc',
+  title: 'Comprehensive Science Study Guide',
+  description: 'Complete science foundation: 75 concept primers covering physics, chemistry, biology, earth science, and astronomy. Each topic explained clearly with analogies and common misconceptions.',
+  questions: [],
+};
+
+export const sciencePrimers = [
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Newton's First Law (Inertia)",
+    "priority": "critical",
+    "primer": "An object at rest stays at rest, and an object in motion stays in motion unless acted upon by an external force. This is called **inertia**\u2014the resistance of matter to change its state of motion. Everything naturally wants to keep doing what it's already doing.",
+    "analogy": "You're on a moving bus and suddenly brake hard. Your body lurches forward because your body wants to keep moving (inertia) while the bus stops. Only the seatbelt (external force) stops you.",
+    "traps": [
+      "Objects need constant force to keep moving",
+      "Heavier objects have no inertia",
+      "Inertia only applies to things on Earth"
+    ],
+    "formulae": [
+      "F = 0 \u2192 a = 0 (constant velocity or at rest)",
+      "Inertia depends on mass, not weight"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Newton's Second Law (F=ma)",
+    "priority": "critical",
+    "primer": "Force equals mass times acceleration (F = ma). A larger force produces greater acceleration. A heavier object requires more force to achieve the same acceleration. This directly connects how hard you push (force) to how fast something speeds up.",
+    "analogy": "Pushing an empty shopping cart vs. a loaded one. Same effort on the empty cart makes it zoom; same effort on the loaded cart barely moves it. The loaded cart has more mass, so it needs more force for the same acceleration.",
+    "traps": [
+      "Heavier objects always accelerate slower",
+      "Force and acceleration are the same thing",
+      "This law only works on Earth"
+    ],
+    "formulae": [
+      "F = ma",
+      "1 Newton = 1 kg\u00b7m/s\u00b2",
+      "a = F/m (rearranged)"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Newton's Third Law (Action-Reaction)",
+    "priority": "high",
+    "primer": "For every action, there's an equal and opposite reaction. When you push on something, it pushes back on you with the same force, just in the opposite direction. These forces always happen in pairs.",
+    "analogy": "Jump off a diving board. You push down on the board (action), and the board pushes up on you equally (reaction), launching you into the air. If the board only did half the pushing, you'd stay on it.",
+    "traps": [
+      "The reaction force cancels out the action force (they act on different objects)",
+      "Bigger objects don't experience reaction forces",
+      "Only animate things can have reaction forces"
+    ],
+    "formulae": [
+      "F_action = -F_reaction",
+      "Forces always occur in pairs"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Friction & Motion",
+    "priority": "high",
+    "primer": "Friction is a force that opposes motion, caused by surfaces rubbing against each other. Static friction prevents movement from starting; kinetic friction opposes motion already in progress. Friction depends on the **normal force** (weight pressing down) and the surface materials.",
+    "analogy": "A book on a table: static friction holds it still when you give a weak push. Once it slides, kinetic friction slows it down. Rougher surfaces create more friction; heavier books press down harder, creating more friction.",
+    "traps": [
+      "Friction is always bad",
+      "Smoother surfaces always have less friction",
+      "Friction is independent of speed"
+    ],
+    "formulae": [
+      "f = \u03bc \u00d7 N (where \u03bc is coefficient of friction, N is normal force)",
+      "Static friction \u2265 kinetic friction for same surfaces"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Work & Energy",
+    "priority": "critical",
+    "primer": "Work is done when a force moves an object over a distance. Energy is the capacity to do work. The two are linked: work done on an object changes its energy. Both are measured in **joules**.",
+    "analogy": "Lifting a box up stairs: you do work against gravity. That energy is stored in the box's new height. If the box falls back down, that stored energy converts to motion (kinetic energy).",
+    "traps": [
+      "You do work even if nothing moves",
+      "Energy and work are different units",
+      "Heat is not a form of energy"
+    ],
+    "formulae": [
+      "Work = Force \u00d7 Distance (W = F \u00d7 d)",
+      "1 Joule = 1 Newton\u00b7meter",
+      "Work is only done when force has a component in the direction of motion"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Kinetic & Potential Energy",
+    "priority": "critical",
+    "primer": "Kinetic energy is energy of motion\u2014how fast something moves. Potential energy is stored energy based on position or configuration\u2014like a ball at the top of a hill. As a ball rolls down, potential energy converts to kinetic energy.",
+    "analogy": "A stretched rubber band has elastic potential energy. Release it, and that energy converts to kinetic energy (the band flies). The higher you hold something, the more gravitational potential energy it has; let it fall and that becomes motion.",
+    "traps": [
+      "An object moving up always loses energy",
+      "Potential energy only depends on height",
+      "Kinetic energy depends on mass and speed equally"
+    ],
+    "formulae": [
+      "KE = \u00bdmv\u00b2 (kinetic energy)",
+      "PE = mgh (gravitational potential energy)",
+      "Total mechanical energy is conserved in closed systems"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Conservation of Energy",
+    "priority": "high",
+    "primer": "Energy cannot be created or destroyed\u2014only transformed. In a closed system, total energy remains constant. When one form decreases, another increases equivalently. This is the most fundamental law in physics.",
+    "analogy": "Money in a bank: total money is conserved. You can move it between checking and savings, or convert it to investments, but the total amount stays the same (in a closed account with no deposits/withdrawals).",
+    "traps": [
+      "Energy is lost when there's friction",
+      "Different forms of energy can't convert to each other",
+      "Some systems have infinite energy"
+    ],
+    "formulae": [
+      "E_total = KE + PE + thermal energy (constant)",
+      "Energy lost to friction becomes heat energy"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Waves: Frequency, Wavelength & Speed",
+    "priority": "high",
+    "primer": "A wave is a disturbance that travels through space, carrying energy. **Frequency** is how many wave cycles pass a point per second (Hz). **Wavelength** is the distance between consecutive wave peaks. Speed = frequency \u00d7 wavelength. All electromagnetic waves travel at light speed in vacuum.",
+    "analogy": "Drop pebbles in a pond. How many ripples arrive at the shore each second is frequency. The distance between ripples is wavelength. Bigger ripples (from bigger pebbles) don't change frequency or wavelength; they change amplitude.",
+    "traps": [
+      "Higher frequency means longer wavelength",
+      "All waves travel at the same speed",
+      "Amplitude is the same as wavelength"
+    ],
+    "formulae": [
+      "v = f \u00d7 \u03bb (speed = frequency \u00d7 wavelength)",
+      "Light speed: c = 3\u00d710\u2078 m/s",
+      "Period T = 1/f"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Doppler Effect",
+    "priority": "high",
+    "primer": "When a sound or light source moves toward you, its waves compress and the frequency increases (pitch rises). When it moves away, waves stretch and frequency decreases (pitch drops). This shift is the **Doppler effect**. It applies to all waves.",
+    "analogy": "An ambulance siren: as it approaches, the sound pitch is higher (compressed waves); as it passes and moves away, pitch drops (stretched waves). Same siren, but your ears detect different frequencies.",
+    "traps": [
+      "Doppler effect only works for sound",
+      "The object's speed doesn't affect the effect",
+      "Observer motion produces no Doppler shift"
+    ],
+    "formulae": [
+      "Observed frequency = f \u00d7 (v \u00b1 v_observer) / (v \u2213 v_source)",
+      "Effect occurs only when source or observer moves relative to medium"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Reflection & Refraction of Light",
+    "priority": "critical",
+    "primer": "**Reflection**: light bounces off a surface at the same angle it hit (angle of incidence = angle of reflection). **Refraction**: light bends when entering a different medium (like water), because light travels at different speeds in different materials. Both follow precise mathematical rules.",
+    "analogy": "Reflection: a ball bouncing off a wall at 45\u00b0 comes back at 45\u00b0. Refraction: a straw in water looks bent because light slows down in water and bends, making the straw appear broken at the water surface.",
+    "traps": [
+      "Light doesn't bend at boundaries",
+      "The angle of reflection depends on the surface",
+      "Refraction only happens in water"
+    ],
+    "formulae": [
+      "Angle of incidence = Angle of reflection",
+      "Snell's Law: n\u2081 sin \u03b8\u2081 = n\u2082 sin \u03b8\u2082 (refractive index and angles)"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Lenses: Convex & Concave",
+    "priority": "high",
+    "primer": "A **convex lens** (curved outward) converges light rays to a focal point, forming real or magnified images. A **concave lens** (curved inward) diverges light rays, always producing smaller, virtual images. Lenses bend light through refraction.",
+    "analogy": "Convex lens: like a magnifying glass\u2014it converges sunlight to a point so intense it can burn paper. Concave lens: like looking through the wrong end of binoculars\u2014everything looks smaller and farther away.",
+    "traps": [
+      "Concave lenses can form real images",
+      "Focal length changes with light color",
+      "Thick lenses always have stronger focusing power"
+    ],
+    "formulae": [
+      "Lens formula: 1/f = 1/u + 1/v (focal length, object distance, image distance)",
+      "Power of lens P = 1/f (in diopters when f is in meters)"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Electric Current & Voltage",
+    "priority": "critical",
+    "primer": "**Electric current** is the flow of electrons through a conductor, measured in amperes (A). **Voltage** (or potential difference) is the electrical pressure pushing electrons, measured in volts (V). Current flows from + to \u2212 terminal (conventional current direction). Voltage difference is what drives the current.",
+    "analogy": "Water in a pipe: voltage is like the pressure pushing the water; current is the actual flow rate of water. Higher pressure (voltage) pushes more water (current). A battery creates this pressure difference.",
+    "traps": [
+      "Current flows from \u2212 to +",
+      "Voltage and current are the same thing",
+      "Higher voltage always means more current"
+    ],
+    "formulae": [
+      "I = Q/t (current = charge / time)",
+      "V = W/Q (voltage = energy / charge)",
+      "1 Ampere = 1 Coulomb/second"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Ohm's Law",
+    "priority": "critical",
+    "primer": "Voltage = Current \u00d7 Resistance (V = IR). This simple law governs how current flows in circuits. If resistance increases with constant voltage, current decreases. If voltage increases with constant resistance, current increases. **Resistance** is measured in ohms (\u03a9).",
+    "analogy": "Water flow through a pipe: voltage is pressure, current is flow rate, resistance is how narrow the pipe is. A thinner pipe (higher resistance) restricts water flow. Increase pressure (voltage) and more water flows\u2014unless the pipe gets even narrower.",
+    "traps": [
+      "Resistance depends on current",
+      "Resistance is constant regardless of temperature",
+      "Ohm's Law applies to all devices"
+    ],
+    "formulae": [
+      "V = IR",
+      "R = V/I",
+      "Power P = VI = I\u00b2R = V\u00b2/R"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Series & Parallel Circuits",
+    "priority": "high",
+    "primer": "In **series** circuits, components connect one after another in a single path. Current is the same everywhere, but voltage divides. In **parallel** circuits, components have separate paths. Voltage is the same everywhere, but current divides. Resistance calculations differ for each type.",
+    "analogy": "Series: like a chain\u2014if one link breaks, the whole chain breaks. Current must flow through each person. Parallel: like multiple roads between two cities\u2014traffic (current) can split, and if one road closes, others still work.",
+    "traps": [
+      "Parallel resistances add like series",
+      "Total voltage in series is less than battery voltage",
+      "Current splits equally in parallel branches"
+    ],
+    "formulae": [
+      "Series: R_total = R\u2081 + R\u2082 + R\u2083",
+      "Parallel: 1/R_total = 1/R\u2081 + 1/R\u2082 + 1/R\u2083",
+      "Series: same I everywhere, V divides; Parallel: same V everywhere, I divides"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Magnetism & Magnetic Fields",
+    "priority": "high",
+    "primer": "Magnets have north and south poles. **Opposite poles attract**, **like poles repel**. A **magnetic field** surrounds magnets and moving charges. Magnetic field strength decreases with distance. Earth itself is a giant magnet, with field lines running from south to north geographically (opposite poles).",
+    "analogy": "Like magnets and unlike charges: iron filings align along invisible field lines around a magnet, just like how compasses align north-south. Bring two bar magnets close: opposite ends (N-S) pull toward each other; same ends (N-N) push apart.",
+    "traps": [
+      "Magnetic monopoles exist in nature",
+      "Magnetic field is strongest at the poles only at the surface",
+      "Magnetism and electricity are independent phenomena"
+    ],
+    "formulae": [
+      "Magnetic force F = qvB sin \u03b8 (charge, velocity, field, angle)",
+      "Tesla (T) is the unit of magnetic field strength"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Electromagnetic Induction",
+    "priority": "high",
+    "primer": "A changing magnetic field induces an electric current in a conductor. This is **Faraday's law**\u2014the foundation of generators and transformers. The faster the field changes, the larger the induced current. Moving a magnet through a coil of wire generates electricity.",
+    "analogy": "Shake a magnet through a coil of wire connected to a light bulb: the changing magnetic field forces electrons to flow (current), lighting the bulb. This is how generators work\u2014mechanical motion \u2192 changing magnetic field \u2192 electrical current.",
+    "traps": [
+      "A constant magnetic field induces current",
+      "Direction of current is independent of field change direction",
+      "Induction only occurs in coils"
+    ],
+    "formulae": [
+      "\u03b5 = -N \u00d7 d\u03a6/dt (induced voltage = rate of change of magnetic flux)",
+      "Transformers: V\u2081/V\u2082 = N\u2081/N\u2082 (voltage ratio equals turns ratio)"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Simple Machines: Lever & Pulleys",
+    "priority": "high",
+    "primer": "Simple machines reduce effort by trading effort for distance. A **lever** multiplies force using a fulcrum: the farther from the fulcrum you push, the less effort needed. **Pulleys** redirect force and multiply it in compound arrangements. Mechanical advantage = output force / input force.",
+    "analogy": "Crowbar lifting a rock: the fulcrum is the pivot point; push on the long end and you lift the rock easily. A pulley system lets you pull down on a rope to lift something up, or use multiple pulleys to reduce required force by distributing load.",
+    "traps": [
+      "Machines create energy",
+      "All simple machines have mechanical advantage > 1",
+      "Pulleys only reduce force, never distance"
+    ],
+    "formulae": [
+      "Mechanical advantage = Load / Effort = Effort arm / Load arm",
+      "Work in = Work out (ignoring friction)"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Inclined Plane & Mechanical Advantage",
+    "priority": "medium",
+    "primer": "An inclined plane allows you to lift an object using less force\u2014but over a longer distance. The gentler the slope, the less force needed, but the longer the distance. Mechanical advantage = length of slope / height gained.",
+    "analogy": "Pushing a box up a steep wall is impossible; pushing it up a long ramp is manageable. You apply less force on the ramp, but push over a greater distance. The work done is roughly the same.",
+    "traps": [
+      "Steeper slopes always require less force",
+      "Mechanical advantage can exceed the slope ratio",
+      "Friction has no effect on mechanical advantage"
+    ],
+    "formulae": [
+      "MA = L/h (length of slope / vertical height)",
+      "MA = 1/sin(\u03b8) (where \u03b8 is slope angle)"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Atomic Structure: Protons, Neutrons, Electrons",
+    "priority": "critical",
+    "primer": "Atoms have a dense **nucleus** containing **protons** (positive charge) and **neutrons** (neutral). **Electrons** (negative charge) orbit the nucleus in shells. Protons determine the element's identity. Neutrons can vary (creating isotopes). Most of an atom is empty space.",
+    "analogy": "Atom like a solar system: nucleus is the sun, electrons are planets orbiting at distance. The nucleus is tiny but dense; the orbits are far away. Proton count identifies the planet (element).",
+    "traps": [
+      "Electrons are inside the nucleus",
+      "All atoms have equal numbers of protons and neutrons",
+      "Atoms are solid throughout"
+    ],
+    "formulae": [
+      "Atomic number Z = number of protons",
+      "Mass number A = protons + neutrons",
+      "Neutral atom: electrons = protons"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Electron Shells & Energy Levels",
+    "priority": "high",
+    "primer": "Electrons occupy **shells** (or energy levels) at specific distances from the nucleus. Inner shells are lower energy and fill first. Each shell can hold a maximum number of electrons: 2, 8, 18, etc. Chemical behavior depends on the outermost shell (valence electrons).",
+    "analogy": "Parking garage: ground level (innermost shell) fills first. Each level has a max capacity. Atoms want full levels (stable). Top level partially filled means the atom is reactive and wants to gain/lose electrons.",
+    "traps": [
+      "All shells hold the same number of electrons",
+      "Electrons fill randomly",
+      "Innermost electrons are most reactive"
+    ],
+    "formulae": [
+      "Max electrons in shell n = 2n\u00b2 (n = shell number)",
+      "Valence electrons determine chemistry"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Periodic Table: Groups & Periods",
+    "priority": "critical",
+    "primer": "The periodic table organizes elements by **atomic number**. **Periods** (rows) show increasing atomic number and shell count. **Groups** (columns) have similar chemical properties because they have the same number of valence electrons. Elements in the same group react similarly.",
+    "analogy": "Like a phone directory: rows (periods) are years added (increasing shells), columns (groups) are people with the same job (same valence electrons). Same-job people behave similarly in chemistry.",
+    "traps": [
+      "Atomic weight and atomic number are the same",
+      "Elements in a group have the same atomic mass",
+      "Transition elements don't follow the valence-electron pattern"
+    ],
+    "formulae": [
+      "Atomic number increases left-to-right, top-to-bottom",
+      "Group 1 (alkali metals): 1 valence electron; Group 17 (halogens): 7 valence electrons"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Ionic Bonding",
+    "priority": "high",
+    "primer": "**Ionic bonds** form when atoms transfer electrons to achieve stable shells. Atoms losing electrons become positively charged **cations**; atoms gaining electrons become negatively charged **anions**. Opposite charges attract, creating ionic compounds. Ionic compounds are typically solids with high melting points.",
+    "analogy": "Two people want to have an even number of coins. Person A has 11 (excess), Person B has 1 (deficit). A gives one coin to B (electron transfer). Now both have 10 and are happy (stable). They attract and stick together because A is now +1, B is \u22121.",
+    "traps": [
+      "Ionic bonds involve sharing electrons",
+      "Cations are always metals",
+      "Ionic compounds dissolve in all solvents"
+    ],
+    "formulae": [
+      "Charge of ion = electrons gained/lost",
+      "Ionic compounds: neutral overall (cation charge + anion charge = 0)"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Covalent Bonding",
+    "priority": "high",
+    "primer": "**Covalent bonds** form when atoms **share** electrons to achieve stable shells. Each atom benefits from the shared pair. Single bonds share 1 pair (\u2212), double bonds share 2 pairs (=), triple bonds share 3 pairs (\u2261). Covalent compounds are often gases or liquids with lower melting points than ionic.",
+    "analogy": "Two people want even coins and decide to share a pile. Each keeps one hand on the pile (electron pair), so both access it. The more they share (double, triple bonds), the stronger the friendship (bond).",
+    "traps": [
+      "Covalent bonds involve one atom giving electrons to another",
+      "All covalent compounds dissolve in water",
+      "Polar and nonpolar covalent bonds are the same"
+    ],
+    "formulae": [
+      "Covalent bond = shared electron pair",
+      "Polar covalent: unequal sharing (different electronegativities)",
+      "Nonpolar covalent: equal sharing (same electronegativities)"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Electronegativity & Polarity",
+    "priority": "high",
+    "primer": "**Electronegativity** is an atom's ability to attract electrons in a bond. If two atoms have very different electronegativities, the bond is **polar**\u2014electrons spend more time near the more electronegative atom, creating partial charges (\u03b4+ and \u03b4\u2212). Large differences create ionic bonds; small differences create nonpolar bonds.",
+    "analogy": "A tug-of-war rope: if two people pull equally (nonpolar), the rope stays centered. If one person is much stronger (higher electronegativity), the rope moves toward them. That stronger person is \u03b4\u2212, the weaker is \u03b4+.",
+    "traps": [
+      "Electronegativity and electron affinity are the same",
+      "Polar bonds only form between different elements",
+      "Molecular polarity equals bond polarity"
+    ],
+    "formulae": [
+      "Electronegativity increases left-to-right and up the periodic table",
+      "High EN difference (>1.7) \u2192 ionic; low EN difference \u2192 nonpolar covalent"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Chemical Reactions: Types & Energy",
+    "priority": "high",
+    "primer": "Chemical reactions rearrange atoms into new combinations. **Exothermic** reactions release energy (get hot). **Endothermic** reactions absorb energy (get cold). Reactions require breaking old bonds (absorbs energy) and forming new ones (releases energy). If formation releases more than breaking costs, the net is exothermic.",
+    "analogy": "Burning wood: breaking wood's bonds costs energy, but forming CO\u2082 and H\u2082O bonds releases much more energy (net release = fire). Melting ice: breaking ice's structure costs energy, but you must add it, so it's endothermic.",
+    "traps": [
+      "All reactions release energy",
+      "Energy released always equals energy absorbed",
+      "Reaction speed determines if it's exothermic"
+    ],
+    "formulae": [
+      "Heat released/absorbed = (bonds broken energy) \u2212 (bonds formed energy)",
+      "Exothermic: \u0394H < 0; Endothermic: \u0394H > 0"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Reaction Rates & Catalysts",
+    "priority": "high",
+    "primer": "Reaction rate is how fast reactants convert to products. Factors affecting rate: **temperature** (higher = faster), **concentration** (higher = faster), **surface area** (larger = faster), **catalysts** (speed up without being consumed). A **catalyst** provides an easier path for the reaction.",
+    "analogy": "Catalysts are like shortcut trails up a mountain: the destination (products) doesn't change, but the path (activation energy) is shorter and easier. You reach the top faster. The trail (catalyst) remains unchanged.",
+    "traps": [
+      "Catalysts are consumed in reactions",
+      "Higher temperature always increases rate indefinitely",
+      "Catalysts lower the final energy of products"
+    ],
+    "formulae": [
+      "Rate depends on concentration, temperature, surface area, and catalyst",
+      "Activation energy is the minimum energy needed to start a reaction"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Chemical Equilibrium",
+    "priority": "high",
+    "primer": "In a closed system, reversible reactions reach **equilibrium** when forward and reverse reaction rates become equal. Concentrations of reactants and products stabilize (but aren't necessarily equal). Changes to conditions (temperature, pressure, concentration) shift equilibrium (**Le Chatelier's principle**).",
+    "analogy": "A bathtub: water flowing in (forward) and draining (reverse). At equilibrium, inflow = outflow, so water level stays constant. Turn up the faucet (increase reactants) and level rises until new equilibrium forms.",
+    "traps": [
+      "Equilibrium means equal concentrations",
+      "Equilibrium means reactions stop",
+      "Equilibrium is permanent and can't be shifted"
+    ],
+    "formulae": [
+      "K_eq = [products]/[reactants] (equilibrium constant)",
+      "Le Chatelier's principle: system shifts to oppose stress"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Acids & Bases: pH Scale",
+    "priority": "critical",
+    "primer": "**Acids** donate hydrogen ions (H\u207a), have pH < 7, taste sour, and turn litmus red. **Bases** accept H\u207a (or donate OH\u207b), have pH > 7, feel slippery, and turn litmus blue. **pH** measures acidity on a 0-14 scale; 7 is neutral. Each pH unit represents a 10\u00d7 change in H\u207a concentration.",
+    "analogy": "Acids like lemon juice (sour, bite your tongue). Bases like soap (slippery, smooth). Mix them and they neutralize (like how soap removes acid from your hands). pH scale: 0 is pure acid (battery acid), 14 is pure base (drain cleaner), 7 is water.",
+    "traps": [
+      "All acids taste acidic in equal amounts",
+      "Neutral solutions are always pure water",
+      "pH and pOH are independent"
+    ],
+    "formulae": [
+      "pH = \u2212log[H\u207a]",
+      "pOH = \u2212log[OH\u207b]",
+      "pH + pOH = 14",
+      "Neutral: pH = 7"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Neutralization & Salts",
+    "priority": "high",
+    "primer": "When acids and bases mix, they **neutralize** each other: H\u207a + OH\u207b \u2192 H\u2082O. The products are water and a **salt**\u2014an ionic compound made of the cation from the base and anion from the acid. Acid strength and base strength determine if the final solution is neutral, acidic, or basic.",
+    "analogy": "Acid + base is like a hostile argument\u2014both sides cancel out (neutralize) and agreement (salt + water) is reached. If one side was much stronger, a little anger (acidity/basicity) remains.",
+    "traps": [
+      "Neutralization always produces neutral pH",
+      "Salts are always NaCl (table salt)",
+      "Strong acids and bases always neutralize completely"
+    ],
+    "formulae": [
+      "Acid + Base \u2192 Salt + Water",
+      "pH of salt solution depends on acid/base strength"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Oxidation-Reduction (Redox) Reactions",
+    "priority": "high",
+    "primer": "**Oxidation** is loss of electrons; **reduction** is gain of electrons. Both occur together in **redox** reactions. **Oxidation state** (or number) tracks electron transfer. Elements in uncombined form have oxidation state 0. In compounds, F is always \u22121, O is usually \u22122, metals are positive.",
+    "analogy": "Rust forming on iron: iron loses electrons (oxidation, becomes rusty brown), oxygen gains electrons (reduction). Both happen together. Think 'LEO' (Lose Electrons = Oxidation) and 'GER' (Gain Electrons = Reduction).",
+    "traps": [
+      "Oxidation requires oxygen",
+      "An element can be oxidized without being reduced",
+      "Oxidation state is the same as ionic charge"
+    ],
+    "formulae": [
+      "Oxidation state: sum in neutral compound = 0; in ion = charge",
+      "Redox: always pair oxidation with reduction"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Corrosion & Rusting",
+    "priority": "medium",
+    "primer": "Corrosion is the breakdown of a material through chemical reaction, usually with oxygen. **Rusting** is iron's corrosion: Fe loses electrons (oxidation), O\u2082 gains them (reduction). The result is iron oxide (rust). Water and salt speed up rusting because they increase electron mobility.",
+    "analogy": "Like aging: iron exposed to oxygen slowly breaks down (rusts), just as skin exposed to sun oxidizes. Salt and water accelerate it, like how sun damage is worse at the beach. Rust is the 'waste' of this oxidation.",
+    "traps": [
+      "Only iron rusts",
+      "Rust protects the underlying metal",
+      "Corrosion can occur without oxygen"
+    ],
+    "formulae": [
+      "Fe + O\u2082 + H\u2082O \u2192 Fe\u2082O\u2083\u00b7xH\u2082O (rust)",
+      "Corrosion rate increases in presence of electrolytes (salts)"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Organic Chemistry: Hydrocarbons",
+    "priority": "high",
+    "primer": "**Organic chemistry** studies carbon compounds. **Hydrocarbons** contain only carbon and hydrogen. **Alkanes** have single bonds (C\u2099H\u2082\u2099\u208a\u2082), are saturated, and relatively unreactive. **Alkenes** have double bonds (C\u2099H\u2082\u2099), are unsaturated. **Alkynes** have triple bonds (C\u2099H\u2082\u2099\u208b\u2082). Naming uses prefixes for carbon chain length.",
+    "analogy": "Alkanes like bricks cemented together (saturated, stable, boring). Alkenes like bricks with handcuffs instead of cement (double bonds, more reactive, can grab other things). Longer chains = bigger structures.",
+    "traps": [
+      "All hydrocarbons are gases",
+      "Alkenes are less stable than alkanes",
+      "Organic compounds must come from living things"
+    ],
+    "formulae": [
+      "Alkane: C\u2099H\u2082\u2099\u208a\u2082 (methane CH\u2084, ethane C\u2082H\u2086, propane C\u2083H\u2088)",
+      "Alkene: C\u2099H\u2082\u2099 (ethene C\u2082H\u2084, propene C\u2083H\u2086)",
+      "Alkynes: C\u2099H\u2082\u2099\u208b\u2082 (ethyne C\u2082H\u2082)"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Functional Groups & Isomers",
+    "priority": "high",
+    "primer": "**Functional groups** are specific atom combinations that define molecule behavior (\u2212OH alcohols, \u2212COOH carboxylic acids, \u2212NH\u2082 amines, \u2212O\u2212 ethers). **Isomers** are molecules with the same molecular formula but different structures, giving different properties. Functional groups determine how a molecule reacts.",
+    "analogy": "Functional groups are like car features: engine, wheels, brakes. Same features in different arrangements (isomers) make different car types. An alcohol molecule (with \u2212OH) will behave very differently from an ether (with \u2212O\u2212), even with identical atom counts.",
+    "traps": [
+      "Isomers have the same properties",
+      "Functional groups are always at the end of a chain",
+      "Identifying functional groups doesn't predict reactivity"
+    ],
+    "formulae": [
+      "Alcohols: \u2212OH group",
+      "Carboxylic acids: \u2212COOH group",
+      "Ketones: C=O in the middle",
+      "Aldehydes: C=O at the end"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Solutions, Concentration & Solubility",
+    "priority": "high",
+    "primer": "A **solution** is a uniform mixture of solute (dissolved substance) and solvent (like water). **Solubility** is how much solute dissolves in solvent. **Concentration** measures solute amount: molarity (moles/liter), percent by mass, ppm. Factors affecting solubility: temperature, pressure, solute polarity, solvent polarity.",
+    "analogy": "Sugar dissolving in tea: sugar is solute, tea is solvent. Stir and dissolve (solution). Hot tea dissolves sugar faster (temperature increases solubility). Concentration: 5 teaspoons per cup vs. 2 teaspoons per cup = different concentrations.",
+    "traps": [
+      "All substances dissolve in water",
+      "Concentration and solubility are the same",
+      "Solubility always increases with temperature"
+    ],
+    "formulae": [
+      "Molarity M = moles of solute / liters of solution",
+      "Percent by mass = (mass of solute / mass of solution) \u00d7 100",
+      "Saturation: concentration = solubility"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Colloids vs. Suspensions",
+    "priority": "medium",
+    "primer": "**Solutions** have molecules/ions (< 1 nm). **Colloids** have particles (1-1000 nm) that don't settle: milk (emulsion), fog (aerosol), gelatin (sol). **Suspensions** have larger particles (> 1000 nm) that settle over time: muddy water, sand. All three look homogeneous initially, but colloids and suspensions scatter light.",
+    "analogy": "Salt in water (solution): invisible particles. Milk (colloid): particles too small to see but scatter light (appear opaque). Sand in water (suspension): large particles that sink. The Tyndall effect (light scattering) shows colloids differ from solutions.",
+    "traps": [
+      "Colloids are the same as suspensions",
+      "Colloid particles dissolve over time",
+      "Only solutions are homogeneous"
+    ],
+    "formulae": [
+      "Tyndall effect: colloids scatter light, solutions don't",
+      "Brownian motion: colloid particles move randomly due to molecular bombardment"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Cell Structure: Prokaryotic vs. Eukaryotic",
+    "priority": "critical",
+    "primer": "**Prokaryotes** (bacteria, archaea) lack a nucleus; DNA floats in the nucleoid. **Eukaryotes** (animals, plants, fungi) have a membrane-bound nucleus with DNA inside. Eukaryotes have complex **organelles**; prokaryotes have none. Eukaryotic cells are much larger and more complex.",
+    "analogy": "Prokaryote: a factory with papers scattered on the floor (DNA loose). Eukaryote: same factory with an office building (nucleus) where papers (DNA) are organized in filing cabinets (chromosomes), plus specialized departments (organelles).",
+    "traps": [
+      "All cells have nuclei",
+      "Prokaryotes are always harmful",
+      "Prokaryotes can't perform complex functions"
+    ],
+    "formulae": [
+      "Prokaryote size: 0.1-5.0 \u03bcm",
+      "Eukaryote size: 10-100 \u03bcm",
+      "Prokaryotes: bacteria and archaea; Eukaryotes: animals, plants, fungi, protists"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Cell Organelles: Function & Role",
+    "priority": "critical",
+    "primer": "Eukaryotic cells contain specialized organelles: **nucleus** (DNA storage), **mitochondria** (energy production via respiration), **chloroplasts** (photosynthesis in plants), **endoplasmic reticulum** (protein/lipid synthesis), **Golgi apparatus** (protein modification/packaging), **lysosomes** (waste digestion), **ribosomes** (protein synthesis). Each performs a specific function.",
+    "analogy": "Cell = factory. Nucleus = filing office (stores instructions). Mitochondria = power plant (generates energy). Ribosomes = assembly lines (make products). ER = supply lines (transport materials). Golgi = packaging department (prepare for shipping). Lysosomes = trash disposal (clean waste).",
+    "traps": [
+      "All organelles are membrane-bound",
+      "Mitochondria create energy, not just release it",
+      "Plant and animal cells have identical organelles"
+    ],
+    "formulae": [
+      "Mitochondria: powerhouse, ATP production",
+      "Chloroplasts: in plants, photosynthesis",
+      "Ribosomes: protein synthesis (70S prokaryote, 80S eukaryote)"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Cell Membrane: Structure & Transport",
+    "priority": "high",
+    "primer": "The **cell membrane** is a **phospholipid bilayer** studded with proteins, controlling what enters/exits. **Phospholipids** have hydrophobic tails facing inward, hydrophilic heads facing out. **Proteins** perform transport, signaling, and recognition. Membrane is **selectively permeable**: small molecules pass; large ones need transport.",
+    "analogy": "Phospholipid bilayer is like a sandwich: bread (hydrophilic heads) on outside, filling (hydrophobic tails) inside. Proteins are embedded like seeds in the bread. The membrane is a bouncer: lets small items through, stops large packages.",
+    "traps": [
+      "Phospholipids form single layers",
+      "The cell membrane is completely impermeable",
+      "Cholesterol weakens the membrane"
+    ],
+    "formulae": [
+      "Selectively permeable: O\u2082, CO\u2082, small molecules pass; glucose, ions, proteins need help"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Active & Passive Transport",
+    "priority": "high",
+    "primer": "**Passive transport** moves substances down concentration gradient (high to low) without energy: diffusion, osmosis. **Active transport** moves substances against gradient (low to high) using energy (ATP). **Endocytosis** brings large particles in; **exocytosis** expels them. Transport type determines cell's ability to import/export.",
+    "analogy": "Passive: like rolling a ball downhill\u2014it goes naturally. Active: like pushing it uphill\u2014needs effort. Osmosis: water naturally flows toward salty areas. Endocytosis: cell wraps around a particle and swallows it (like a cell 'eating').",
+    "traps": [
+      "Osmosis and diffusion are the same",
+      "Active transport can exceed cellular speed indefinitely",
+      "Ions move by passive transport"
+    ],
+    "formulae": [
+      "Osmosis: water moves toward higher solute concentration",
+      "Active transport: requires ATP energy"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Mitosis: Cell Division",
+    "priority": "critical",
+    "primer": "**Mitosis** divides a cell into two identical daughter cells, each with the same number of chromosomes as the parent. Stages: **prophase** (chromosomes condense, spindle forms), **metaphase** (chromosomes align at center), **anaphase** (chromosomes separate), **telophase** (nuclei reform). Preceded by **interphase** (DNA replication) and followed by **cytokinesis** (cytoplasm division).",
+    "analogy": "Mitosis is like duplicating a document: DNA (information) copies, condenses into visible chromosomes, lines up, splits apart into two piles, and two new cells (with identical documents) form. Every daughter cell is a perfect copy.",
+    "traps": [
+      "Mitosis produces genetically different cells",
+      "DNA doesn't replicate during mitosis",
+      "Meiosis is the same as mitosis"
+    ],
+    "formulae": [
+      "Mitosis: 2n \u2192 2n (diploid to diploid)",
+      "2n = 46 human chromosomes",
+      "Normal body cells divide by mitosis"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Meiosis: Sex Cell Formation",
+    "priority": "critical",
+    "primer": "**Meiosis** divides a diploid cell into four haploid sex cells (gametes: sperm, eggs). Two divisions: Meiosis I separates homologous chromosomes (2n \u2192 n); Meiosis II separates sister chromatids (n \u2192 n). **Crossing over** during Meiosis I shuffles genes, creating genetic variation. Sex cells have half the chromosome count.",
+    "analogy": "Meiosis is like splitting a deck of cards into halves, then halves again: four unique piles result (not exact copies). Crossing over is like shuffling cards between suits before dealing\u2014each hand is different. This is why siblings are unique.",
+    "traps": [
+      "Meiosis produces identical cells",
+      "Meiosis has three divisions",
+      "Crossing over happens in mitosis"
+    ],
+    "formulae": [
+      "Meiosis: 2n \u2192 n (diploid to haploid)",
+      "Four sex cells per starting cell",
+      "Crossing over increases genetic diversity"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "DNA: Structure & Replication",
+    "priority": "critical",
+    "primer": "**DNA** (deoxyribonucleic acid) is a double helix made of **nucleotides**: sugar (deoxyribose), phosphate group, and nitrogenous base (A, T, G, C). Bases pair: A-T and G-C (complementary). During replication, the double helix unwinds; each strand serves as a template for a new strand, producing two identical DNA molecules.",
+    "analogy": "DNA is a twisted ladder: sugar-phosphate forms the sides, bases are rungs. Replication is like unzipping the ladder: each side becomes a template for a new side. You end with two identical ladders. If template has A, new side gets T (perfect copy).",
+    "traps": [
+      "DNA has a single strand",
+      "All bases pair with each other",
+      "DNA replication is imperfect and random"
+    ],
+    "formulae": [
+      "Base pairing: A-T (2 bonds), G-C (3 bonds)",
+      "Chargaff's rule: %A = %T, %G = %C",
+      "Replication: semiconservative (each new DNA = 1 old strand + 1 new)"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Genes, Traits & Inheritance",
+    "priority": "critical",
+    "primer": "A **gene** is a DNA segment coding for a protein/trait. **Alleles** are variants of a gene. **Dominant** alleles (usually shown as capital letters) mask **recessive** alleles (lowercase). **Genotype** is your allele combination (BB, Bb, bb); **phenotype** is your observable trait. Traits follow Mendelian inheritance patterns.",
+    "analogy": "Alleles are like two paint colors for eye color: brown-blue (B-b). If you inherit BB or Bb (at least one B), you get brown eyes (B is dominant, brown shows). Only bb (two recessive) gives blue eyes. B doesn't 'cancel' b; B just masks it visually.",
+    "traps": [
+      "Dominant alleles are always more common",
+      "Traits are controlled by a single gene usually",
+      "You inherit only the dominant allele"
+    ],
+    "formulae": [
+      "Punnett squares show inheritance (Bb \u00d7 Bb \u2192 25% BB, 50% Bb, 25% bb)",
+      "Dominant expressed in BB and Bb; recessive only in bb"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Punnett Squares & Probability",
+    "priority": "high",
+    "primer": "**Punnett squares** predict offspring genotypes by crossing parent alleles. List one parent's alleles on top, the other's on the side; fill boxes with combined alleles. Ratios show probability. For example: Bb \u00d7 Bb gives 1 BB : 2 Bb : 1 bb (1:2:1 ratio or 75% dominant phenotype, 25% recessive).",
+    "analogy": "Like a multiplication table but for genes: if mom can give B or b, and dad can give B or b, you create a 2\u00d72 grid showing all four possible combinations. The ratios tell you odds of each outcome.",
+    "traps": [
+      "Punnett squares guarantee specific outcomes",
+      "Ratios apply to single offspring",
+      "All squares are 2\u00d72 (can be 2\u00d72, 3\u00d73, etc.)"
+    ],
+    "formulae": [
+      "Monohybrid cross: Bb \u00d7 Bb \u2192 3:1 ratio (3 dominant : 1 recessive)",
+      "Dihybrid cross (two traits): 9:3:3:1 ratio"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Evolution: Natural Selection & Adaptation",
+    "priority": "critical",
+    "primer": "**Natural selection** favors traits that improve survival/reproduction. Organisms with advantageous **traits** (variations) survive more, reproduce more, pass genes to offspring. Over generations, advantageous traits become common (**adaptation**). **Genetic drift** (random change in small populations) and **mutation** (gene variation source) also drive evolution.",
+    "analogy": "Imagine bugs on a forest floor. Green bugs hide from birds better (advantage). They survive and reproduce more, creating more green offspring. Over time, the population becomes greener. This is adaptation. If a random mutation creates a new trait, that variant spreads only if it helps survival.",
+    "traps": [
+      "Evolution aims toward improvement",
+      "Adaptation is a conscious choice",
+      "Natural selection requires perfect conditions"
+    ],
+    "formulae": [
+      "Evolution requires: variation, inheritance, differential survival/reproduction",
+      "Fitness = reproductive success"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Speciation & Divergence",
+    "priority": "high",
+    "primer": "**Speciation** is the splitting of one species into two. Populations become **reproductively isolated** (can't interbreed) through geographic barriers or behavioral differences, accumulating different mutations. After enough difference, they can no longer produce fertile offspring even if they meet again. This is how biodiversity increases.",
+    "analogy": "Imagine one bird population separated by a mountain: one side evolves longer beaks (for tougher seeds), the other shorter beaks (for softer seeds). After 10,000 years, their beaks are so different they can't breed successfully anymore\u2014two species from one. The mountain was the speciation trigger.",
+    "traps": [
+      "Species can never diverge once separated",
+      "Speciation is instantaneous",
+      "Geographic isolation isn't necessary for speciation"
+    ],
+    "formulae": [
+      "Speciation: reproductive isolation + genetic divergence over time"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Fossil Record & Evidence for Evolution",
+    "priority": "high",
+    "primer": "**Fossils** are preserved remains of ancient organisms. The fossil record shows a progression: simple organisms in old rocks, complex organisms in newer rocks. **Transitional fossils** show intermediates between groups (dinosaurs/birds, land mammals/whales). **Radiometric dating** (measuring radioactive decay) dates rocks. **Comparative anatomy** and **molecular evidence** (DNA similarity) also support evolution.",
+    "analogy": "Fossils are like pages in a history book: earlier pages show simple life, later pages show increasing complexity. Transitional fossils are like chapters showing the gradual transformation from one character to another. DNA similarity is like noticing two characters share the same author\u2014they're related.",
+    "traps": [
+      "Gaps in fossil record disprove evolution",
+      "Fossils form easily",
+      "Dating fossils is impossible"
+    ],
+    "formulae": [
+      "Half-life dating: radioactive decay rate is constant",
+      "Older fossils in deeper rock layers (stratification)"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Photosynthesis: Light & Dark Reactions",
+    "priority": "critical",
+    "primer": "**Photosynthesis** converts light energy to chemical energy (glucose). **Light reactions** (thylakoid, daytime only) use photons to split water (releasing O\u2082) and make ATP/NADPH. **Dark reactions** (Calvin cycle, stroma, any time) use ATP/NADPH to fix CO\u2082 into glucose. Overall: 6 CO\u2082 + 6 H\u2082O + light \u2192 C\u2086H\u2081\u2082O\u2086 + 6 O\u2082.",
+    "analogy": "Light reactions are like solar panels charging batteries (ATP, NADPH) and releasing steam (O\u2082). Dark reactions use those batteries' energy to convert CO\u2082 into food (glucose). Happens in plants (with light energy), not animals (who eat that glucose).",
+    "traps": [
+      "Dark reactions require darkness",
+      "Photosynthesis requires all reactions to occur simultaneously",
+      "Only light reactions produce oxygen"
+    ],
+    "formulae": [
+      "6 CO\u2082 + 6 H\u2082O + light \u2192 C\u2086H\u2081\u2082O\u2086 + 6 O\u2082",
+      "Light reactions: in thylakoid; Calvin cycle: in stroma"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Cellular Respiration: Aerobic & Anaerobic",
+    "priority": "critical",
+    "primer": "**Cellular respiration** breaks glucose into CO\u2082 and water, releasing energy as ATP. **Aerobic** respiration uses oxygen (in mitochondria): glycolysis \u2192 Krebs cycle \u2192 electron transport chain produces ~30-32 ATP per glucose. **Anaerobic** respiration (no oxygen) produces only 2 ATP via fermentation, yielding lactate (muscles) or ethanol (yeast).",
+    "analogy": "Aerobic respiration is like burning wood with air: complete combustion, lots of heat (ATP). Anaerobic is like smoldering without air: incomplete, little heat, and smoke/soot (lactate) builds up. Athletes in a sprint switch to anaerobic (fast but burns out quickly).",
+    "traps": [
+      "Aerobic respiration only happens during daytime",
+      "Anaerobic respiration produces no ATP",
+      "Fermentation is dangerous and wastes energy"
+    ],
+    "formulae": [
+      "C\u2086H\u2081\u2082O\u2086 + 6 O\u2082 \u2192 6 CO\u2082 + 6 H\u2082O + ATP (~30-32)",
+      "Glycolysis: 1 glucose \u2192 2 pyruvate + 2 ATP + 2 NADH"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "ATP: Energy Currency",
+    "priority": "high",
+    "primer": "**Adenosine triphosphate (ATP)** is the cell's energy currency. Breaking the third phosphate bond releases energy for cell work (muscle contraction, active transport, synthesis). ATP is quickly regenerated from ADP + phosphate during respiration. Cells maintain ~5 seconds of ATP at any moment.",
+    "analogy": "ATP is like cash: you get it (from food via respiration), spend it (for work), and immediately need more. Unlike savings bonds, ATP is used and regenerated constantly, typically lasting only 5 seconds worth.",
+    "traps": [
+      "ATP stores unlimited energy",
+      "ATP persists long-term in cells",
+      "Only mitochondria produce ATP"
+    ],
+    "formulae": [
+      "ATP \u2192 ADP + Pi (phosphate) + energy",
+      "Regenerated by: cellular respiration, photosynthesis (plants)"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Digestive System: Organs & Processes",
+    "priority": "high",
+    "primer": "The **digestive system** breaks food into absorbable nutrients. **Mouth** (mechanical + salivary enzymes), **stomach** (mechanical + gastric juices), **small intestine** (bile + pancreatic enzymes + absorption), **large intestine** (water absorption, waste formation). **Enzymes** speed digestion: amylase (carbs), protease (proteins), lipase (fats).",
+    "analogy": "Digestion is a factory assembly line: mouth starts the work (chopping), stomach continues (mixing, soaking), small intestine finishes and packages (absorption), large intestine cleans up (waste). Each stage uses specific enzymes/chemicals.",
+    "traps": [
+      "Digestion is only physical (chewing)",
+      "All absorption happens in the stomach",
+      "Stomach acid destroys all bacteria (some survive)"
+    ],
+    "formulae": [
+      "Carbs \u2192 glucose (small intestine)",
+      "Proteins \u2192 amino acids (small intestine)",
+      "Fats \u2192 fatty acids + glycerol (small intestine)"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Circulatory System: Heart & Blood",
+    "priority": "high",
+    "primer": "The **heart** pumps blood through two circuits: **pulmonary** (to lungs for O\u2082), **systemic** (to body). **Arteries** carry blood away from heart (high pressure); **veins** return blood (low pressure); **capillaries** allow exchange. **Red blood cells** carry oxygen; **white cells** fight infection; **platelets** clot. Blood circulates continuously.",
+    "analogy": "Circulatory system is a highway network: heart is the central hub, arteries are fast highways outbound, veins are return routes, capillaries are local roads where cargo (oxygen, nutrients) is dropped off. Red blood cells are delivery trucks.",
+    "traps": [
+      "Blood always flows from arteries to veins without capillaries",
+      "Veins carry only deoxygenated blood",
+      "The heart creates all blood pressure"
+    ],
+    "formulae": [
+      "Systolic/diastolic pressure: 120/80 mmHg (normal)",
+      "Cardiac output = heart rate \u00d7 stroke volume"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Respiratory System: Gas Exchange",
+    "priority": "high",
+    "primer": "**Lungs** inhale oxygen, exhale CO\u2082. Air travels: nose \u2192 trachea \u2192 bronchi \u2192 bronchioles \u2192 **alveoli** (tiny sacs where gas exchange occurs). Oxygen diffuses into blood; CO\u2082 diffuses out. **Diaphragm** muscle controls breathing. Breathing rate increases during exercise and stress.",
+    "analogy": "Lungs are like a sponge with tiny air pockets: each pocket (alveolus) touches blood vessels. Oxygen crosses into the blood; CO\u2082 crosses out. When you exercise, your diaphragm works faster, pulling more air in, increasing exchange rate.",
+    "traps": [
+      "Lungs clean blood",
+      "All CO\u2082 is waste (some is needed for blood pH)",
+      "Breathing consciously uses different pathways than automatic breathing"
+    ],
+    "formulae": [
+      "Gas exchange: O\u2082 into blood, CO\u2082 out of blood",
+      "Alveoli increase surface area for exchange"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Nervous System: Central & Peripheral",
+    "priority": "high",
+    "primer": "**Central nervous system (CNS)** includes brain and spinal cord, processing information. **Peripheral nervous system (PNS)** includes all other nerves. **Somatic** nervous system controls voluntary muscles; **autonomic** controls involuntary functions (heart, digestion). **Neurons** transmit signals via **synapses** (junctions releasing neurotransmitters).",
+    "analogy": "CNS is the brain of the operation (like corporate headquarters). PNS is the branches (local offices). Somatic is deliberate actions (you choose to move), autonomic is automatic (heart beats without thinking). Neurons are telegraph wires, synapses are relay stations.",
+    "traps": [
+      "The spinal cord is the brain",
+      "All nerves are voluntary",
+      "Neurotransmitters directly create muscle contraction"
+    ],
+    "formulae": [
+      "Reflex arc: stimulus \u2192 sensory neuron \u2192 spinal cord \u2192 motor neuron \u2192 muscle",
+      "Synapse: presynaptic neuron releases neurotransmitter \u2192 postsynaptic receptor"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Immune System: Defenses & Immunity",
+    "priority": "high",
+    "primer": "The **immune system** defends against pathogens (bacteria, viruses, parasites). **Innate immunity** (first line): skin, stomach acid, white blood cells. **Adaptive immunity** (learned): **T cells** and **B cells** remember specific threats, producing antibodies and cellular attacks. **Vaccination** trains immunity without real infection.",
+    "analogy": "Innate immunity is your security guard (always alert, attacks anything suspicious). Adaptive immunity is trained special ops: first encounter, they study the threat and create a playbook; next encounter, they recognize it immediately and attack effectively. Vaccination is the training without the real fight.",
+    "traps": [
+      "Immune system destroys all invaders without dying",
+      "Antibodies are cells",
+      "Vaccination injects the disease"
+    ],
+    "formulae": [
+      "Antibodies: Y-shaped proteins that bind antigens",
+      "T cells: attack infected cells; B cells: produce antibodies"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Pathogens & Disease",
+    "priority": "high",
+    "primer": "**Pathogens** (bacteria, viruses, fungi, parasites) cause disease. **Bacteria** are prokaryotes; some cause strep, pneumonia, TB. **Viruses** hijack cells to replicate: flu, COVID, HIV. **Fungi** cause athlete's foot, yeast infections. **Parasites** (worms, protists) infect organisms. Transmission: direct contact, air, water, vectors (mosquitoes).",
+    "analogy": "Bacteria are like thieves breaking in and stealing. Viruses are like viruses (computer): they invade, copy themselves, then spread. Parasites are like squatters living in your house. Each requires different treatment.",
+    "traps": [
+      "Viruses are alive",
+      "Antibiotics kill viruses",
+      "All bacteria are harmful"
+    ],
+    "formulae": [
+      "Bacterial reproduction: asexual (binary fission), rapid doubling",
+      "Viral transmission: requires host cells to replicate"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Antibiotics & Vaccines",
+    "priority": "high",
+    "primer": "**Antibiotics** kill bacteria or inhibit growth (penicillin blocks cell wall, streptomycin stops protein synthesis). Ineffective against viruses. **Antibiotic resistance** develops when bacteria survive and reproduce (natural selection). **Vaccines** expose immune system to weakened/dead pathogen or antigen, triggering adaptive immunity without severe disease. Booster shots reinforce memory.",
+    "analogy": "Antibiotics are bullets targeting bacterial weakness. Resistance develops when toughest bacteria survive (evolutionary pressure). Vaccines are like 'wanted posters' shown to your immune system: it memorizes the face so it recognizes the real criminal immediately.",
+    "traps": [
+      "Antibiotics work on all infections",
+      "Resistance develops in individual bacteria",
+      "Vaccines guarantee 100% immunity"
+    ],
+    "formulae": [
+      "Antibiotic resistance: overuse accelerates it",
+      "Vaccine: primes immune system without full disease"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Plate Tectonics & Continental Drift",
+    "priority": "high",
+    "primer": "Earth's crust consists of moving **tectonic plates**. **Continental drift** (continents move) was proven by matching coastlines, fossils, and rock formations. Plates move ~2-10 cm/year via **convection currents** in the mantle. **Divergent boundaries** create new crust; **convergent** destroy it; **transform** slide past each other. Plate motion causes earthquakes, volcanoes, mountains.",
+    "analogy": "Plates are like puzzle pieces on a conveyor belt: new pieces form where they separate, old pieces melt where they collide, and pieces grind and slip past each other. The belt is mantle convection driven by Earth's internal heat.",
+    "traps": [
+      "Continents don't move (fixed positions)",
+      "Plate motion is imperceptibly slow (we can measure it)",
+      "Tectonic boundaries are rare and localized"
+    ],
+    "formulae": [
+      "Plate velocity: ~2-10 cm/year",
+      "Convergent boundaries: collisions \u2192 mountains/volcanoes",
+      "Divergent boundaries: spreading \u2192 new crust \u2192 mid-ocean ridges"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Earthquakes: Causes & Measurement",
+    "priority": "high",
+    "primer": "**Earthquakes** occur when tectonic plates slide suddenly, releasing energy as **seismic waves**. **P waves** (primary, fast) compress; **S waves** (secondary, slow) shear. **Magnitude** (Richter scale) measures energy released (each unit is ~31x more energy). **Intensity** measures damage. Most occur at plate boundaries (subduction zones, transform faults).",
+    "analogy": "P-waves are like sound; S-waves are like rope shaking side-to-side. Magnitude is the explosion size; intensity is damage to buildings. A big earthquake far away (high magnitude, low intensity) causes less damage than a small one nearby (lower magnitude, high intensity).",
+    "traps": [
+      "Magnitude and intensity are the same",
+      "Earthquakes only occur at convergent boundaries",
+      "Aftershocks are smaller than main shocks (sometimes larger)"
+    ],
+    "formulae": [
+      "Richter scale: magnitude 1-10 (each +1 is ~31\u00d7 more energy)",
+      "Seismic waves: P-waves faster (~6 km/s) than S-waves (~4 km/s)"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Volcanoes: Types & Hazards",
+    "priority": "high",
+    "primer": "**Volcanoes** erupt when magma (molten rock) rises to the surface. **Shield volcanoes** (low-viscosity lava) have gentle slopes, frequent eruptions. **Composite volcanoes** (high-viscosity lava) have steep slopes, explosive eruptions. **Cinder cones** are small, short-lived. Hazards: lava flows, pyroclastic flows, ash clouds, lahars (volcanic mudflows), gas emissions.",
+    "analogy": "Shield volcano is like honey flowing from a bottle: slow, steady, predictable. Composite is like soda shaken in a bottle: pressure builds, then kaboom. Cinder cone is like a single sneeze (quick, small). Pyroclastic flows are the explosion; lahars are the flood that follows.",
+    "traps": [
+      "All volcanoes erupt the same way",
+      "Volcanic activity is random and unpredictable",
+      "Lava is the main hazard"
+    ],
+    "formulae": [
+      "Magma viscosity: high (silica-rich, thick) vs. low (iron-rich, fluid)",
+      "Subduction zones produce most composite volcanoes"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Rocks: Igneous, Sedimentary, Metamorphic",
+    "priority": "high",
+    "primer": "**Igneous** rocks form from cooled magma: granite (slow-cooled, large crystals), basalt (fast-cooled, fine crystals). **Sedimentary** rocks form from compacted/cemented particles: sandstone, limestone, shale. **Metamorphic** rocks form from existing rocks under heat/pressure: marble (from limestone), schist (from shale). The **rock cycle** transforms rocks continuously.",
+    "analogy": "Igneous: like cooling metal from a forge\u2014slow cooling makes large crystals (granite), fast cooling makes tiny ones (basalt). Sedimentary: like pressed-together sand\u2014once compacted enough, it becomes rock. Metamorphic: like baking a cake\u2014heat and pressure transform it into something new.",
+    "traps": [
+      "All rocks are igneous",
+      "Sedimentary rocks are always unconsolidated",
+      "Metamorphic rocks return to original form"
+    ],
+    "formulae": [
+      "Rock cycle: igneous \u2192 erosion \u2192 sedimentary \u2192 burial/heat \u2192 metamorphic \u2192 melting \u2192 magma \u2192 igneous"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Minerals: Properties & Identification",
+    "priority": "medium",
+    "primer": "**Minerals** are naturally occurring, inorganic solids with ordered atomic structure. Properties: **hardness** (Mohs scale), **luster** (shine), **color**, **streak** (powder color), **cleavage** (splits along planes), **density**. **Silicates** (containing Si-O) are most common (quartz, feldspar). Minerals form rocks.",
+    "analogy": "Minerals are like fingerprints: each has unique properties. Hardness is scratching resistance (diamond hardest). Luster is surface shine. Cleavage is how it naturally breaks (like mica flaking). Together, these properties identify minerals uniquely.",
+    "traps": [
+      "All minerals are colorful crystals",
+      "Mineral hardness is related to density",
+      "All gemstones are minerals"
+    ],
+    "formulae": [
+      "Mohs hardness scale: 1 (talc) to 10 (diamond)",
+      "Streak test: more reliable than color for identification"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Weathering, Erosion & Deposition",
+    "priority": "high",
+    "primer": "**Weathering** breaks rocks in place: **physical** (temperature, water, ice wedging), **chemical** (water, acids dissolve minerals). **Erosion** removes weathered material via water, wind, gravity. **Deposition** drops sediment elsewhere, forming layers. Cycles take millions of years. Valleys, deltas, canyons result from these processes.",
+    "analogy": "Weathering is the breakdown factory (rocks crumble). Erosion is the transport (wind/water carries debris away). Deposition is dumping ground (sediment lands and piles up). A river does all three: breaks bank rocks, carries sediment, dumps it at the delta.",
+    "traps": [
+      "Weathering and erosion are the same",
+      "All weathering is physical",
+      "Deposition creates new rock immediately"
+    ],
+    "formulae": [
+      "Physical weathering: frost wedging (ice pushes rocks apart)",
+      "Chemical weathering: acid rain dissolves carbonate rocks"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Atmosphere: Composition & Layers",
+    "priority": "high",
+    "primer": "**Atmosphere** is ~78% nitrogen, 21% oxygen, 1% other gases (argon, CO\u2082). Layers (from bottom up): **troposphere** (weather, living things), **stratosphere** (ozone layer protects UV), **mesosphere** (coldest), **thermosphere** (hottest), **exosphere** (transition to space). Temperature and pressure change with altitude.",
+    "analogy": "Atmosphere is a layered blanket: troposphere is the fuzzy part we live in (turbulent, cloudy); stratosphere is the insulating layer (ozone blocks bad UV); higher layers get progressively thinner and hotter (particles zoom fast).",
+    "traps": [
+      "Oxygen is the most abundant gas",
+      "The atmosphere is uniformly dense",
+      "Temperature increases with altitude everywhere"
+    ],
+    "formulae": [
+      "Troposphere: 0-10 km, temperature decreases with altitude",
+      "Stratosphere: 10-50 km, contains ozone (O\u2083) layer"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Greenhouse Effect & Global Warming",
+    "priority": "high",
+    "primer": "The **greenhouse effect** is natural: CO\u2082, methane, water vapor trap heat, keeping Earth livable (~15\u00b0C average). **Enhanced greenhouse effect**: human CO\u2082 emissions increase gas concentration, trapping more heat, raising temperature (**global warming**). Consequences: ice melt, sea level rise, weather extremes, ecosystem disruption.",
+    "analogy": "Earth is a greenhouse: glass (greenhouse gases) lets sunlight in but prevents heat from escaping. Natural effect is good (keeps us warm). Too much glass (excess CO\u2082 from cars, factories) traps extra heat (oven effect), cooking the planet.",
+    "traps": [
+      "Greenhouse effect is entirely human-caused",
+      "Global warming means everywhere gets warmer",
+      "CO\u2082 is the only greenhouse gas"
+    ],
+    "formulae": [
+      "Greenhouse gases: CO\u2082, CH\u2084 (methane), N\u2082O, water vapor",
+      "Human CO\u2082 sources: fossil fuels, deforestation"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Water Cycle: Evaporation to Precipitation",
+    "priority": "high",
+    "primer": "**Water cycle** moves water continuously: **evaporation** (liquid \u2192 gas), **condensation** (gas \u2192 liquid), **precipitation** (rain/snow), **infiltration** (ground absorption), **runoff** (surface flow). Solar energy drives evaporation; temperature and pressure control the cycle. Groundwater, lakes, oceans are reservoirs.",
+    "analogy": "Water cycle is like a cosmic recycling program: sun heats water (evaporation), it rises, cools and forms clouds (condensation), falls as rain (precipitation), soaks into ground or flows to seas (infiltration/runoff), and repeats forever. Same water molecules recycle constantly.",
+    "traps": [
+      "Evaporation only occurs from oceans",
+      "Precipitation is only rain",
+      "Groundwater doesn't participate in the cycle"
+    ],
+    "formulae": [
+      "Evaporation: liquid H\u2082O \u2192 gas H\u2082O (needs heat)",
+      "Condensation: gas H\u2082O \u2192 liquid H\u2082O (releases heat)"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Weather & Climate Patterns",
+    "priority": "high",
+    "primer": "**Weather** is short-term atmospheric conditions. **Climate** is long-term average. **Pressure** and **temperature** drive wind and weather. **High pressure** = clear, cold; **low pressure** = storms. **Jet streams** steer storms. **Coriolis effect** curves moving objects (including air). **Climate zones** depend on latitude and geography: tropical, temperate, polar.",
+    "analogy": "Weather is today's mood; climate is personality (based on patterns). A grumpy day doesn't mean someone's grumpy forever. Pressure systems are like pressure valves: high pressure is calm (cork pushed down), low pressure is turbulent (valve opens).",
+    "traps": [
+      "Weather and climate are the same",
+      "Pressure systems are random",
+      "Wind patterns are constant globally"
+    ],
+    "formulae": [
+      "Coriolis effect: moving objects deflect (right in N. Hemisphere, left in S.)",
+      "Jet streams: fast-moving air rivers in upper atmosphere"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Natural Resources: Renewable vs. Non-Renewable",
+    "priority": "high",
+    "primer": "**Renewable resources** regenerate (trees, solar, wind, geothermal, water). **Non-renewable** deplete (coal, oil, natural gas, metals). **Fossil fuels** took millions of years to form; we burn in centuries (unsustainable). **Sustainable use** means harvesting at rates allowing regeneration. Conservation is crucial.",
+    "analogy": "Renewable: like a fruit tree (keep fruiting if you tend it). Non-renewable: like money in a bank account with no deposits (eventually depletes). Sustainable: harvesting fruit yearly without cutting the tree.",
+    "traps": [
+      "All resources are renewable if we're patient",
+      "Renewable energy has no environmental impact",
+      "Conservation is impossible in developed countries"
+    ],
+    "formulae": [
+      "Renewable: solar, wind, hydro, geothermal, biomass",
+      "Non-renewable: coal, oil, natural gas, nuclear (uranium)"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Solar System: Planets & Orbits",
+    "priority": "high",
+    "primer": "The **solar system** orbits the sun (central star). **Planets** (8): Mercury, Venus, Earth, Mars (rocky, inner), Jupiter, Saturn, Uranus, Neptune (gas giants, outer). **Kepler's laws** describe orbits: planets move fastest at closest point to sun; orbital period increases with distance. **Asteroids** and **comets** are smaller bodies.",
+    "analogy": "Solar system is like a spinning record: sun is the label, planets are tracks at increasing distances, each taking longer to complete a revolution. Close planets (Mercury) zip fast; far planets (Neptune) crawl. Asteroids are dust, comets are dirty snowballs.",
+    "traps": [
+      "Pluto is a planet",
+      "All planets have moons",
+      "Orbits are circular (they're elliptical)"
+    ],
+    "formulae": [
+      "Kepler's third law: T\u00b2 \u221d a\u00b3 (orbital period \u221d semi-major axis cubed)",
+      "Inner planets: rocky, dense; Outer planets: gas/ice giants, low density"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Earth's Motions: Rotation & Revolution",
+    "priority": "medium",
+    "primer": "**Rotation** (spinning) takes 24 hours, causing day/night cycle. **Revolution** (orbiting sun) takes 365.25 days, causing seasons. Earth's axis tilts 23.5\u00b0 from orbital plane. **Axial tilt** toward sun = summer (longer daylight, direct sunlight); away = winter. **Equinoxes** (equal day/night) occur twice yearly; **solstices** mark extremes.",
+    "analogy": "Rotation is Earth spinning like a top (day/night). Revolution is walking around a campfire while spinning (seasons). Tilt is like leaning: face the fire (summer heat), turn away (winter cold). Equinox is when you're perpendicular (balanced day/night).",
+    "traps": [
+      "Seasons are caused by distance from sun",
+      "All places have the same season",
+      "Earth's rotation axis always points the same way (it precesses slowly)"
+    ],
+    "formulae": [
+      "Rotation: 24 hours per day",
+      "Revolution: ~365.25 days per year",
+      "Axial tilt: 23.5\u00b0 (why seasons exist)"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Moon: Phases & Tides",
+    "priority": "high",
+    "primer": "**Moon** orbits Earth every ~29.5 days, creating **phases** (full, new, quarters) based on sun-moon-Earth angle. **Tides** are ocean level changes caused by moon's gravity (sun's gravity also contributes). **High tide** (moon pulls water) occurs roughly twice daily. **Spring tides** (sun-moon aligned) are extreme; **neap tides** (perpendicular) are minimal.",
+    "analogy": "Moon phases are like a ball moving around a lamp: see the bright side (full moon), dark side (new moon), or partial side (quarters). Tides are Earth being pulled by moon's gravity, bulging out toward it. It's like ocean water is magnetically attracted to the moon.",
+    "traps": [
+      "Moon phases are caused by Earth's shadow",
+      "Tides are only caused by the moon",
+      "Tides occur once daily"
+    ],
+    "formulae": [
+      "Lunar month: ~29.5 days (synodic period)",
+      "Tidal range increases during spring tides"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Stars: Lifecycle & Properties",
+    "priority": "high",
+    "primer": "**Stars** are massive, hot spheres of plasma fusing hydrogen into helium. **Main sequence** (90% of star lifetimes): fuse hydrogen, stable brightness. **Luminosity** (brightness) and **temperature** define types. **Massive stars** burn fast (short lives), **small stars** burn slow (long lives, ~10 billion years). **Red giants** form as hydrogen depletes; **white dwarfs** are remnants.",
+    "analogy": "Stars are like candles: massive candles burn bright but quickly, thin candles last forever dimly. Main sequence is the steady burn; red giant is flaring up as wax runs low; white dwarf is the cool residue.",
+    "traps": [
+      "All stars are same brightness",
+      "Stars don't change over time",
+      "Hotter stars are always brighter"
+    ],
+    "formulae": [
+      "Hertzsprung-Russell diagram: temperature vs. luminosity",
+      "Lifetime \u221d 1/Mass\u00b3 (more massive = shorter life)"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Galaxies & Universe Scale",
+    "priority": "medium",
+    "primer": "**Galaxies** are island universes of billions of stars. **Milky Way** (our galaxy) has ~200 billion stars arranged in a spiral. **Andromeda** is nearest large galaxy (2.5 million light-years away). Universe contains **100+ billion galaxies**. **Hubble's discovery** (1920s) showed universe is expanding. Galaxies move apart as space expands.",
+    "analogy": "Galaxy is a cosmic city of billions of stars. Milky Way is our city with a spiral shape. Universe is a vast continent with 100+ billion cities spreading apart like an inflating balloon.",
+    "traps": [
+      "Our sun is the center of the galaxy",
+      "Galaxies don't move",
+      "Universe has an edge and center"
+    ],
+    "formulae": [
+      "Milky Way: ~100,000 light-years diameter",
+      "Observable universe: ~46 billion light-years radius"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Big Bang & Cosmic Expansion",
+    "priority": "high",
+    "primer": "The **Big Bang** theory states universe began ~13.8 billion years ago in an extremely hot, dense point that expanded rapidly. **Cosmic microwave background (CMB)** radiation (discovered 1964) supports this\u2014it's cooled remnant of early universe's heat. Universe continues expanding. **Dark matter** (~27% of universe) and **dark energy** (~68%) dominate composition.",
+    "analogy": "Big Bang is like an explosion in reverse: instead of fragments flying apart, everything starts together and flies apart. CMB is the echo of that explosion, now cooled to 2.7 K. Dark matter/energy are mysterious 'invisible stuff' making up most of the universe.",
+    "traps": [
+      "Big Bang happened at a location",
+      "Universe expansion is slowing (it's accelerating)",
+      "CMB proves universe is cooling"
+    ],
+    "formulae": [
+      "Universe age: ~13.8 billion years",
+      "CMB temperature: 2.7 Kelvin",
+      "Matter + dark matter: ~5% of universe; dark energy: ~68%"
+    ]
+  },
+  {
+    "unit": "GS3-SCITECH",
+    "subtopic": "Space Exploration: Missions & Technology",
+    "priority": "medium",
+    "primer": "**Satellites** orbit Earth for communication, weather, GPS, science. **Space stations** (ISS) are habitats for research. **Probes** explore planets/moons autonomously. **Human spaceflight** began 1961 (Gagarin). **Moon landing** (1969) sent 12 astronauts. Rovers explore Mars. **Hubble** and **James Webb** telescopes reveal distant universe.",
+    "analogy": "Satellites are like watchers orbiting; probes are unmanned explorers; space stations are outposts; telescopes are eyes looking far. Human spaceflight is exploration with people; robots are safer scouts.",
+    "traps": [
+      "Space is empty (it has dust, gas, radiation)",
+      "All satellites are communications",
+      "Mars is currently habitable"
+    ],
+    "formulae": [
+      "Geostationary orbit: ~36,000 km altitude, 24-hour period",
+      "Escape velocity from Earth: ~11.2 km/s"
+    ]
+  }
+];

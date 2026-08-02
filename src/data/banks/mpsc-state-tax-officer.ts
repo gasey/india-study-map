@@ -6,7 +6,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
   "description": "1,362 solved questions from State Tax Officer, Inspector of Taxes, and Inspector of Excise exams with concept primers and real negative marking.",
   "questions": [
     {
-      "id": "mpsc-tax-0001",
+      "id": "mpsc-inspector-of-taxes-2016-english-i-q001",
       "subject": "gk",
       "topic": "essay",
       "topicLabel": "Essay topic choice (2016 GK/current topics)",
@@ -25,7 +25,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-i"
     },
     {
-      "id": "mpsc-tax-0002",
+      "id": "mpsc-inspector-of-taxes-2016-english-i-q002",
       "subject": "gk",
       "topic": "eng_precis_letter",
       "topicLabel": "Pr\u00e9cis, letter-writing & idiom tasks (bundled, descriptive)",
@@ -44,7 +44,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-i"
     },
     {
-      "id": "mpsc-tax-0003",
+      "id": "mpsc-inspector-of-taxes-2016-english-i-q003",
       "subject": "gk",
       "topic": "essay",
       "topicLabel": "Proverb-expansion essay topics",
@@ -63,7 +63,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-i"
     },
     {
-      "id": "mpsc-tax-0004",
+      "id": "mpsc-inspector-of-taxes-2016-english-i-q004",
       "subject": "english",
       "topic": "eng_comprehension",
       "topicLabel": "Reading comprehension \u2014 Nelson at Trafalgar",
@@ -82,7 +82,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-i"
     },
     {
-      "id": "mpsc-tax-0001",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q001",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Parts of speech identification (OCR-bled options)",
@@ -101,7 +101,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0002",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q002",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Parts of speech identification (OCR-bled options)",
@@ -120,7 +120,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0003",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q003",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Parts of speech identification (OCR-bled options)",
@@ -139,7 +139,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0004",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q004",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Parts of speech identification (OCR-bled options)",
@@ -158,7 +158,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0005",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q005",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Parts of speech identification (OCR-bled options)",
@@ -177,7 +177,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0006",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q006",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Verb tense fill-in-the-blank (OCR-bled options)",
@@ -196,7 +196,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0007",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q007",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Verb tense fill-in-the-blank (past perfect)",
@@ -215,7 +215,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0008",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q008",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Verb tense fill-in-the-blank (found vs founded)",
@@ -234,7 +234,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0009",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q009",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Verb tense fill-in-the-blank (present perfect continuous, OCR-bled)",
@@ -253,7 +253,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0010",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q010",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Verb tense fill-in-the-blank (simple past)",
@@ -272,7 +272,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0011",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q011",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Verb tense fill-in-the-blank (past continuous)",
@@ -291,7 +291,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0012",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q012",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Verb tense fill-in-the-blank (subject-verb agreement, OCR-bled)",
@@ -310,7 +310,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0013",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q013",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Preposition usage (near/by/along)",
@@ -329,7 +329,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0014",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q014",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Preposition usage (on/in/at)",
@@ -348,7 +348,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0015",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q015",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Preposition usage (on for days/parts of days)",
@@ -367,7 +367,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0016",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q016",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Preposition usage (for vs since, OCR-bled)",
@@ -386,7 +386,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0017",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q017",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Article usage (a business vs business)",
@@ -405,7 +405,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0018",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q018",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Subject-verb agreement (goods)",
@@ -424,7 +424,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0019",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q019",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Plural-only nouns (scissors, OCR-bled)",
@@ -443,7 +443,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0020",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q020",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Such a vs so (OCR-bled)",
@@ -462,7 +462,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0021",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q021",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Tense identification (past perfect)",
@@ -481,7 +481,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0022",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q022",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Tense identification (future perfect)",
@@ -500,7 +500,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0023",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q023",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Tense identification (simple past, OCR-bled)",
@@ -519,7 +519,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0024",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q024",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Adjective vs adverb after linking verbs (OCR-bled)",
@@ -538,7 +538,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0025",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q025",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Adjective vs adverb (nearly vs near)",
@@ -557,7 +557,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0026",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q026",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Intensifier usage (very much)",
@@ -576,7 +576,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0027",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q027",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Which vs what",
@@ -595,7 +595,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0028",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q028",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Degree of comparison transformation (OCR-bled)",
@@ -614,7 +614,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0029",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q029",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Degree of comparison transformation (comparative to positive)",
@@ -633,7 +633,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0030",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q030",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Degree of comparison transformation (superlative to comparative)",
@@ -652,7 +652,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0031",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q031",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Degree of comparison transformation (OCR-bled)",
@@ -671,7 +671,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0032",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q032",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Affirmative to negative transformation",
@@ -690,7 +690,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0033",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q033",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Negative to assertive transformation",
@@ -709,7 +709,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0034",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q034",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Exclamatory to assertive transformation (OCR-bled)",
@@ -728,7 +728,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0035",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q035",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Simple to compound transformation (participle)",
@@ -747,7 +747,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0036",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q036",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Simple to compound transformation (participle)",
@@ -766,7 +766,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0037",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q037",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Simple to compound transformation (concession)",
@@ -785,7 +785,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0038",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q038",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Simple to complex transformation (OCR-bled)",
@@ -804,7 +804,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0039",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q039",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Compound to simple transformation",
@@ -823,7 +823,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0040",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q040",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Simple to complex transformation (conditional)",
@@ -842,7 +842,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0041",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q041",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Compound to simple transformation",
@@ -861,7 +861,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0042",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q042",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Compound to simple transformation",
@@ -880,7 +880,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0043",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q043",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Complex to compound transformation",
@@ -899,7 +899,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0044",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q044",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Sentence synthesis using 'if'",
@@ -918,7 +918,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0045",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q045",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Sentence synthesis using a relative pronoun",
@@ -937,7 +937,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0046",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q046",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Sentence synthesis using too...to",
@@ -956,7 +956,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0047",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q047",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Sentence synthesis using 'therefore'",
@@ -975,7 +975,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0048",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q048",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Sentence synthesis using 'for'",
@@ -994,7 +994,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0049",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q049",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Sentence synthesis using an absolute phrase",
@@ -1013,7 +1013,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0050",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q050",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Sentence synthesis using an adverb/adverbial phrase",
@@ -1032,7 +1032,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0051",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q051",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Sentence synthesis using an adverb/adverbial phrase",
@@ -1051,7 +1051,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0052",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q052",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Sentence synthesis using an adversative conjunction (OCR-bled)",
@@ -1070,7 +1070,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0053",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q053",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Idiom meaning",
@@ -1089,7 +1089,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0054",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q054",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Idiom meaning (OCR-bled)",
@@ -1108,7 +1108,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0055",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q055",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Idiom meaning (OCR-bled)",
@@ -1127,7 +1127,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0056",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q056",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Idiom meaning (OCR-bled)",
@@ -1146,7 +1146,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0057",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q057",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Idiom meaning (OCR-bled)",
@@ -1165,7 +1165,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0058",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q058",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Idiom meaning (OCR-bled)",
@@ -1184,7 +1184,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0059",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q059",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Synonyms (OCR-bled)",
@@ -1203,7 +1203,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0060",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q060",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Synonyms (OCR-bled)",
@@ -1222,7 +1222,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0061",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q061",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Synonyms (OCR-bled)",
@@ -1241,7 +1241,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0062",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q062",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Synonyms (OCR-bled)",
@@ -1260,7 +1260,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0063",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q063",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Synonyms (OCR-bled)",
@@ -1279,7 +1279,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0064",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q064",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Word meaning / definitions (OCR-bled)",
@@ -1298,7 +1298,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0065",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q065",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Word meaning / definitions",
@@ -1317,7 +1317,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0066",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q066",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Word meaning / definitions",
@@ -1336,7 +1336,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0067",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q067",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Word meaning / definitions",
@@ -1355,7 +1355,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0068",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q068",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Word meaning / definitions (OCR-bled)",
@@ -1374,7 +1374,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0069",
+      "id": "mpsc-inspector-of-taxes-2016-english-ii-q069",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Word meaning / definitions",
@@ -1393,7 +1393,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-english-ii"
     },
     {
-      "id": "mpsc-tax-0001",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q001",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Mughal-British trade",
@@ -1412,7 +1412,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0002",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q002",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "European trading posts",
@@ -1431,7 +1431,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0003",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q003",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Carnatic War treaties",
@@ -1450,7 +1450,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0004",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q004",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Rowlatt Act",
@@ -1469,7 +1469,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0005",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q005",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Montague-Chelmsford",
@@ -1488,7 +1488,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0006",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q006",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Dastak trade",
@@ -1507,7 +1507,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0007",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q007",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Revenue systems",
@@ -1526,7 +1526,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0008",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q008",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Mughal court language",
@@ -1545,7 +1545,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0009",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q009",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Bengal administration",
@@ -1564,7 +1564,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0010",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q010",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Mahalwari settlement",
@@ -1583,7 +1583,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0011",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q011",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Indian Civil Service",
@@ -1602,7 +1602,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0012",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q012",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Subsidiary Alliance",
@@ -1621,7 +1621,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0013",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q013",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Sati abolition",
@@ -1640,7 +1640,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0014",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q014",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "English education",
@@ -1659,7 +1659,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0015",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q015",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Widow remarriage",
@@ -1678,7 +1678,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0016",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q016",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Education commissions",
@@ -1697,7 +1697,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0017",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q017",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Quit India",
@@ -1716,7 +1716,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0018",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q018",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Partition of Bengal",
@@ -1735,7 +1735,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0019",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q019",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "First Satyagraha",
@@ -1754,7 +1754,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0020",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q020",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Local self-government",
@@ -1773,7 +1773,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0021",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q021",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-21",
@@ -1792,7 +1792,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0022",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q022",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-22",
@@ -1811,7 +1811,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0023",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q023",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-23",
@@ -1830,7 +1830,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0024",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q024",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-24",
@@ -1849,7 +1849,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0025",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q025",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-25",
@@ -1868,7 +1868,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0026",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q026",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-26",
@@ -1887,7 +1887,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0027",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q027",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-27",
@@ -1906,7 +1906,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0028",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q028",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-28",
@@ -1925,7 +1925,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0029",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q029",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-29",
@@ -1944,7 +1944,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0030",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q030",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-30",
@@ -1963,7 +1963,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0031",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q031",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-31",
@@ -1982,7 +1982,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0032",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q032",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-32",
@@ -2001,7 +2001,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0033",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q033",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-33",
@@ -2020,7 +2020,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0034",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q034",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-34",
@@ -2039,7 +2039,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0035",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q035",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-35",
@@ -2058,7 +2058,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0036",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q036",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-36",
@@ -2077,7 +2077,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0037",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q037",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-37",
@@ -2096,7 +2096,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0038",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q038",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-38",
@@ -2115,7 +2115,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0039",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q039",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-39",
@@ -2134,7 +2134,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0040",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q040",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-40",
@@ -2153,7 +2153,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0041",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q041",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-41",
@@ -2172,7 +2172,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0042",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q042",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-42",
@@ -2191,7 +2191,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0043",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q043",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-43",
@@ -2210,7 +2210,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0044",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q044",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-44",
@@ -2229,7 +2229,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0045",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q045",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-45",
@@ -2248,7 +2248,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0046",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q046",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-46",
@@ -2267,7 +2267,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0047",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q047",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-47",
@@ -2286,7 +2286,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0048",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q048",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-48",
@@ -2305,7 +2305,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0049",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q049",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-49",
@@ -2324,7 +2324,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0050",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q050",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-50",
@@ -2343,7 +2343,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0051",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q051",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-51",
@@ -2362,7 +2362,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0052",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q052",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-52",
@@ -2381,7 +2381,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0053",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q053",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-53",
@@ -2400,7 +2400,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0054",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q054",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-54",
@@ -2419,7 +2419,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0055",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q055",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-55",
@@ -2438,7 +2438,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0056",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q056",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-56",
@@ -2457,7 +2457,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0057",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q057",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-57",
@@ -2476,7 +2476,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0058",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q058",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-58",
@@ -2495,7 +2495,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0059",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q059",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-59",
@@ -2514,7 +2514,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0060",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q060",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-60",
@@ -2533,7 +2533,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0061",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q061",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-61",
@@ -2552,7 +2552,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0062",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q062",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-62",
@@ -2571,7 +2571,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0063",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q063",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-63",
@@ -2590,7 +2590,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0064",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q064",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-64",
@@ -2609,7 +2609,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0065",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q065",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-65",
@@ -2628,7 +2628,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0066",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q066",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-66",
@@ -2647,7 +2647,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0067",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q067",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-67",
@@ -2666,7 +2666,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0068",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q068",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-68",
@@ -2685,7 +2685,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0069",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q069",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-69",
@@ -2704,7 +2704,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0070",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q070",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-70",
@@ -2723,7 +2723,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0071",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q071",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-71",
@@ -2742,7 +2742,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0072",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q072",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-72",
@@ -2761,7 +2761,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0073",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q073",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-73",
@@ -2780,7 +2780,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0074",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q074",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-74",
@@ -2799,7 +2799,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0075",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q075",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-75",
@@ -2818,7 +2818,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0076",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q076",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-76",
@@ -2837,7 +2837,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0077",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q077",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-77",
@@ -2856,7 +2856,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0078",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q078",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-78",
@@ -2875,7 +2875,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0079",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q079",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-79",
@@ -2894,7 +2894,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0080",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q080",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-80",
@@ -2913,7 +2913,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0081",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q081",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-81",
@@ -2932,7 +2932,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0082",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q082",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-82",
@@ -2951,7 +2951,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0083",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q083",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-83",
@@ -2970,7 +2970,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0084",
+      "id": "mpsc-inspector-of-taxes-2016-gs-i-q084",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Topic-84",
@@ -2989,7 +2989,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-i"
     },
     {
-      "id": "mpsc-tax-0001",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q001",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Constituent Assembly formation",
@@ -3008,7 +3008,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0002",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q002",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Preamble & Constitution status",
@@ -3027,7 +3027,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0003",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q003",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Fundamental Rights: citizens vs non-citizens",
@@ -3046,7 +3046,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0004",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q004",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Pre-1947 Constitutional Acts",
@@ -3065,7 +3065,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0005",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q005",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Judicial review & federalism",
@@ -3084,7 +3084,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0006",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q006",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Congress sessions & Purna Swaraj",
@@ -3103,7 +3103,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0007",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q007",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "DPSP & international peace",
@@ -3122,7 +3122,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0008",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q008",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Reactions to GoI Act 1935",
@@ -3141,7 +3141,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0009",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q009",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Lok Sabha composition",
@@ -3160,7 +3160,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0010",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q010",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Right to Property status",
@@ -3179,7 +3179,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0011",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q011",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Zero Hour in Parliament",
@@ -3198,7 +3198,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0012",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q012",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Rajya Sabha representation",
@@ -3217,7 +3217,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0013",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q013",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Judicial review vs judicial supremacy",
@@ -3236,7 +3236,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0014",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q014",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Fundamental Duties origin",
@@ -3255,7 +3255,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0015",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q015",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Speaker's resignation procedure",
@@ -3274,7 +3274,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0016",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q016",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Right to Freedom articles",
@@ -3293,7 +3293,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0017",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q017",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Residuary powers",
@@ -3312,7 +3312,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0018",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q018",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Contingency Fund of State",
@@ -3331,7 +3331,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0019",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q019",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Ashok Mehta Committee recommendations",
@@ -3350,7 +3350,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0020",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q020",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Communalism vs fascism",
@@ -3369,7 +3369,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0021",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q021",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "73rd Amendment exemptions",
@@ -3388,7 +3388,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0022",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q022",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Nature of Indian federalism",
@@ -3407,7 +3407,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0023",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q023",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Elite theory origins",
@@ -3426,7 +3426,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0024",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q024",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Socio-religious reform figures",
@@ -3445,7 +3445,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0025",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q025",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Gandhian thought",
@@ -3464,7 +3464,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0026",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q026",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Social movement typology",
@@ -3483,7 +3483,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0027",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q027",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Public vs private administration",
@@ -3502,7 +3502,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0028",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q028",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Consolidated Fund withdrawals",
@@ -3521,7 +3521,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0029",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q029",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Timeline of economic milestones",
@@ -3540,7 +3540,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0030",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q030",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Thinkers & their works/causes",
@@ -3559,7 +3559,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0031",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q031",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "LPG reforms terminology",
@@ -3578,7 +3578,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0032",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q032",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Kaka Kalelkar Commission criteria",
@@ -3597,7 +3597,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0033",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q033",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Panchayat election term",
@@ -3616,7 +3616,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0034",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q034",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Five Year Plan objectives",
@@ -3635,7 +3635,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0035",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q035",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Plan Holiday period",
@@ -3654,7 +3654,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0036",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q036",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "National Income estimation body",
@@ -3673,7 +3673,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0037",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q037",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Planning Commission history",
@@ -3692,7 +3692,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0038",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q038",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Poverty line calorie norms",
@@ -3711,7 +3711,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0039",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q039",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Kharif vs Rabi crops",
@@ -3730,7 +3730,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0040",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q040",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "FERA to FEMA transition",
@@ -3749,7 +3749,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0041",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q041",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "RBI's Liquidity Adjustment Facility",
@@ -3768,7 +3768,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0042",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q042",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Bank nationalisation 1969",
@@ -3787,7 +3787,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0043",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q043",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Basic economic terminology",
@@ -3806,7 +3806,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0044",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q044",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Land holding fragmentation",
@@ -3825,7 +3825,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0045",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q045",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Role of public sector",
@@ -3844,7 +3844,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0046",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q046",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Small-scale industry challenges",
@@ -3863,7 +3863,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0047",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q047",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "RBI establishment",
@@ -3882,7 +3882,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0048",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q048",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Plan-wise growth rates",
@@ -3901,7 +3901,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0049",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q049",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Currency vs coinage authority",
@@ -3920,7 +3920,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0050",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q050",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "PMJDY features",
@@ -3939,7 +3939,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0051",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q051",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Agricultural price policy",
@@ -3958,7 +3958,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0052",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q052",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Budget structure",
@@ -3977,7 +3977,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0053",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q053",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Central government tax revenue sources",
@@ -3996,7 +3996,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0054",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q054",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Railway Budget tradition",
@@ -4015,7 +4015,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0055",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q055",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "RBI credit control tools",
@@ -4034,7 +4034,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0056",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q056",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Export Processing Zones",
@@ -4053,7 +4053,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0057",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q057",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "12th Five Year Plan targets",
@@ -4072,7 +4072,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0058",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q058",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Poverty removal as plan objective",
@@ -4091,7 +4091,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0059",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q059",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "NITI Aayog full form",
@@ -4110,7 +4110,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0060",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q060",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Antyodaya Anna Yojana",
@@ -4129,7 +4129,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0061",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q061",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Industrial Policy Resolutions",
@@ -4148,7 +4148,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0062",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q062",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Hill station nicknames",
@@ -4167,7 +4167,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0063",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q063",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Himalayan peak locations",
@@ -4186,7 +4186,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0064",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q064",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Himalayan peak ordering",
@@ -4205,7 +4205,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0065",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q065",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Major dams & rivers",
@@ -4224,7 +4224,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0066",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q066",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Demographic history milestones",
@@ -4243,7 +4243,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0067",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q067",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Saffron cultivation",
@@ -4262,7 +4262,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0068",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q068",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Rural settlement patterns",
@@ -4281,7 +4281,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0069",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q069",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "2011 Census population",
@@ -4300,7 +4300,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0070",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q070",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Mizoram rivers",
@@ -4319,7 +4319,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0071",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q071",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Mineral nicknames",
@@ -4338,7 +4338,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0072",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q072",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "River valley regional planning",
@@ -4357,7 +4357,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0073",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q073",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "National Highway lengths",
@@ -4376,7 +4376,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0074",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q074",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Peninsular vs Himalayan rivers",
@@ -4395,7 +4395,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0075",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q075",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Scheduled Tribe population by state",
@@ -4414,7 +4414,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0076",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q076",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Cash crop leading states",
@@ -4433,7 +4433,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0077",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q077",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Border security infrastructure",
@@ -4452,7 +4452,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0078",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q078",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "NE Region five-year-plan focus",
@@ -4471,7 +4471,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0079",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q079",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "First Industrial Estate",
@@ -4490,7 +4490,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0080",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q080",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Urban classification by population",
@@ -4509,7 +4509,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0081",
+      "id": "mpsc-inspector-of-taxes-2016-gs-ii-q081",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "India's geographic extremities",
@@ -4528,7 +4528,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-ii"
     },
     {
-      "id": "mpsc-tax-0001",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q001",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -4547,7 +4547,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0002",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q002",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -4566,7 +4566,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0003",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q003",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -4585,7 +4585,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0004",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q004",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -4604,7 +4604,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0005",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q005",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -4623,7 +4623,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0006",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q006",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -4642,7 +4642,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0007",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q007",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -4661,7 +4661,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0008",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q008",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -4680,7 +4680,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0009",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q009",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -4699,7 +4699,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0010",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q010",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -4718,7 +4718,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0011",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q011",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -4737,7 +4737,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0012",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q012",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -4756,7 +4756,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0013",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q013",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -4775,7 +4775,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0014",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q014",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -4794,7 +4794,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0015",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q015",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -4813,7 +4813,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0016",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q016",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -4832,7 +4832,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0017",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q017",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -4851,7 +4851,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0018",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q018",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -4870,7 +4870,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0019",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q019",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -4889,7 +4889,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0020",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q020",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -4908,7 +4908,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0021",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q021",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -4927,7 +4927,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0022",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q022",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -4946,7 +4946,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0023",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q023",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -4965,7 +4965,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0024",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q024",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -4984,7 +4984,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0025",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q025",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "OCR ERROR",
@@ -5003,7 +5003,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0026",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q026",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -5022,7 +5022,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0027",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q027",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -5041,7 +5041,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0028",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q028",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -5060,7 +5060,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0029",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q029",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -5079,7 +5079,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0030",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q030",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -5098,7 +5098,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0031",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q031",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -5117,7 +5117,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0032",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q032",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -5136,7 +5136,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0033",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q033",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -5155,7 +5155,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0034",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q034",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -5174,7 +5174,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0035",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q035",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -5193,7 +5193,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0036",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q036",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -5212,7 +5212,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0037",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q037",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -5231,7 +5231,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0038",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q038",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "OCR ERROR",
@@ -5250,7 +5250,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0039",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q039",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "OCR ERROR",
@@ -5269,7 +5269,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0040",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q040",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "OCR ERROR",
@@ -5288,7 +5288,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0041",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q041",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -5307,7 +5307,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0042",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q042",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -5326,7 +5326,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0043",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q043",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -5345,7 +5345,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0044",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q044",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "OCR ERROR",
@@ -5364,7 +5364,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0045",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q045",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "OCR ERROR",
@@ -5383,7 +5383,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0046",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q046",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -5402,7 +5402,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0047",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q047",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -5421,7 +5421,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0048",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q048",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -5440,7 +5440,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0049",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q049",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -5459,7 +5459,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0050",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q050",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "OCR ERROR",
@@ -5478,7 +5478,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0051",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q051",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "OCR ERROR",
@@ -5497,7 +5497,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0052",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q052",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "OCR ERROR",
@@ -5516,7 +5516,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0053",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q053",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "OCR ERROR",
@@ -5535,7 +5535,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0054",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q054",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -5554,7 +5554,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0055",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q055",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -5573,7 +5573,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0056",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q056",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -5592,7 +5592,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0057",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q057",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -5611,7 +5611,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0058",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q058",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -5630,7 +5630,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0059",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q059",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -5649,7 +5649,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0060",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q060",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -5668,7 +5668,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0061",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q061",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -5687,7 +5687,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0062",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q062",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -5706,7 +5706,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0063",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q063",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -5725,7 +5725,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0064",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q064",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -5744,7 +5744,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0065",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q065",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -5763,7 +5763,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0066",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q066",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -5782,7 +5782,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0067",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q067",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -5801,7 +5801,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0068",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q068",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -5820,7 +5820,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0069",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q069",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -5839,7 +5839,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0070",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q070",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -5858,7 +5858,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0071",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q071",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "OCR ERROR",
@@ -5877,7 +5877,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0072",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q072",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -5896,7 +5896,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0073",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q073",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -5915,7 +5915,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0074",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q074",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -5934,7 +5934,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0075",
+      "id": "mpsc-inspector-of-taxes-2016-gs-iii-q075",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "GS-III",
@@ -5953,7 +5953,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-taxes-2016-gs-iii"
     },
     {
-      "id": "mpsc-tax-0001",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-i-q001",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Idiom meaning (bite the bullet)",
@@ -5972,7 +5972,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-i"
     },
     {
-      "id": "mpsc-tax-0002",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-i-q002",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Idiom meaning (hand over fist)",
@@ -5991,7 +5991,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-i"
     },
     {
-      "id": "mpsc-tax-0003",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-i-q003",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Idiom meaning (no avail)",
@@ -6010,7 +6010,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-i"
     },
     {
-      "id": "mpsc-tax-0004",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-i-q004",
       "subject": "english",
       "topic": "eng_comprehension",
       "topicLabel": "Gandhian egalitarianism passage RC",
@@ -6029,7 +6029,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-i"
     },
     {
-      "id": "mpsc-tax-0005",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-i-q005",
       "subject": "english",
       "topic": "eng_comprehension",
       "topicLabel": "Gandhian egalitarianism passage RC",
@@ -6048,7 +6048,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-i"
     },
     {
-      "id": "mpsc-tax-0006",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-i-q006",
       "subject": "english",
       "topic": "eng_comprehension",
       "topicLabel": "Gandhian egalitarianism passage RC",
@@ -6067,7 +6067,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-i"
     },
     {
-      "id": "mpsc-tax-0007",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-i-q007",
       "subject": "english",
       "topic": "eng_comprehension",
       "topicLabel": "Gandhian egalitarianism passage RC",
@@ -6086,7 +6086,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-i"
     },
     {
-      "id": "mpsc-tax-0008",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-i-q008",
       "subject": "english",
       "topic": "eng_comprehension",
       "topicLabel": "Gandhian egalitarianism passage RC",
@@ -6105,7 +6105,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-i"
     },
     {
-      "id": "mpsc-tax-0009",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-i-q009",
       "subject": "english",
       "topic": "eng_comprehension",
       "topicLabel": "Gandhian egalitarianism passage RC",
@@ -6124,7 +6124,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-i"
     },
     {
-      "id": "mpsc-tax-0010",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-i-q010",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Idiom/phrase inference (root out)",
@@ -6143,7 +6143,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-i"
     },
     {
-      "id": "mpsc-tax-0011",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-i-q011",
       "subject": "english",
       "topic": "eng_comprehension",
       "topicLabel": "Gandhian egalitarianism passage RC",
@@ -6162,7 +6162,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-i"
     },
     {
-      "id": "mpsc-tax-0001",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q001",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Parts of speech - determiners",
@@ -6181,7 +6181,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0002",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q002",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Parts of speech - indefinite pronouns",
@@ -6200,7 +6200,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0003",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q003",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Parts of speech - prepositions",
@@ -6219,7 +6219,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0004",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q004",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Parts of speech - adjectives",
@@ -6238,7 +6238,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0005",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q005",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Parts of speech - adjectives",
@@ -6257,7 +6257,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0006",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q006",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Prepositions - between vs among",
@@ -6276,7 +6276,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0007",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q007",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Prepositions - time (on/in/at)",
@@ -6295,7 +6295,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0008",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q008",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Prepositions - beside vs besides",
@@ -6314,7 +6314,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0009",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q009",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Prepositions - instrument (with)",
@@ -6333,7 +6333,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0010",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q010",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Prepositions - fixed verb+preposition",
@@ -6352,7 +6352,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0011",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q011",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Prepositions - fixed idiom (blind to)",
@@ -6371,7 +6371,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0012",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q012",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Tense - present perfect continuous",
@@ -6390,7 +6390,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0013",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q013",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Tense - present continuous",
@@ -6409,7 +6409,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0014",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q014",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Tense - present perfect",
@@ -6428,7 +6428,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0015",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q015",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Tense - past perfect",
@@ -6447,7 +6447,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0016",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q016",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Irregular verb - hurt",
@@ -6466,7 +6466,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0017",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q017",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Tense - present continuous (right now)",
@@ -6485,7 +6485,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0018",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q018",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Conjunctions - contrast (yet)",
@@ -6504,7 +6504,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0019",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q019",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Conjunctions - concession (though)",
@@ -6523,7 +6523,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0020",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q020",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Conjunctions - condition (unless)",
@@ -6542,7 +6542,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0021",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q021",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Countable/uncountable quantifiers",
@@ -6561,7 +6561,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0022",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q022",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Countable/uncountable quantifiers",
@@ -6580,7 +6580,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0023",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q023",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Adjective/adverb - hard vs hardly",
@@ -6599,7 +6599,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0024",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q024",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Sentence types - complex (noun clause)",
@@ -6618,7 +6618,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0025",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q025",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Clause identification - noun clause",
@@ -6637,7 +6637,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0026",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q026",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Sentence transformation - compound (correlatives)",
@@ -6656,7 +6656,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0027",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q027",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Sentence transformation - simple (participle)",
@@ -6675,7 +6675,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0028",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q028",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Sentence transformation - complex (noun clause)",
@@ -6694,7 +6694,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0029",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q029",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Sentence transformation - simple (apposition)",
@@ -6713,7 +6713,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0030",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q030",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Sentence transformation - complex (so...that)",
@@ -6732,7 +6732,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0031",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q031",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Sentence synthesis - reason clause",
@@ -6751,7 +6751,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0032",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q032",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Sentence synthesis - relative pronoun",
@@ -6770,7 +6770,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0033",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q033",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Sentence synthesis - too...to infinitive",
@@ -6789,7 +6789,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0034",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q034",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Sentence synthesis - either...or",
@@ -6808,7 +6808,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0035",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q035",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Sentence synthesis - 'for' as reason conjunction",
@@ -6827,7 +6827,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0036",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q036",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Sentence synthesis - adverb of manner",
@@ -6846,7 +6846,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0037",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q037",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Sentence synthesis - participial phrase",
@@ -6865,7 +6865,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0038",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q038",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Sentence synthesis - concession (though)",
@@ -6884,7 +6884,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0039",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q039",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Sentence synthesis - infinitive of cause",
@@ -6903,7 +6903,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0040",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q040",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Sentence synthesis - not only...but also",
@@ -6922,7 +6922,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0041",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q041",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Sentence notion - assertive/affirmative",
@@ -6941,7 +6941,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0042",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q042",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Sentence notion - assertive",
@@ -6960,7 +6960,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0043",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q043",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Sentence notion - imperative (request)",
@@ -6979,7 +6979,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0044",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q044",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Sentence transformation - assertive to interrogative",
@@ -6998,7 +6998,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0045",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q045",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Sentence transformation - imperative to interrogative",
@@ -7017,7 +7017,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0046",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q046",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Idiom meaning (drawn near)",
@@ -7036,7 +7036,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0047",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q047",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Idiom meaning (come to light)",
@@ -7055,7 +7055,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0048",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q048",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Idiom meaning (beat about the bush)",
@@ -7074,7 +7074,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0049",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q049",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Idiom meaning (do without)",
@@ -7093,7 +7093,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0050",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q050",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Idiom meaning (give oneself airs)",
@@ -7112,7 +7112,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0051",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q051",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Idiom meaning (hold one's own)",
@@ -7131,7 +7131,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0052",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q052",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Idiom meaning (better-half)",
@@ -7150,7 +7150,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0053",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q053",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Idiom meaning (close-fisted)",
@@ -7169,7 +7169,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0054",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q054",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Idiom meaning (at daggers drawn)",
@@ -7188,7 +7188,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0055",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q055",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Vocabulary - reclusive (meaning check)",
@@ -7207,7 +7207,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0056",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q056",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Vocabulary - invincible (meaning check)",
@@ -7226,7 +7226,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0057",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q057",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Vocabulary - inevitable (meaning check)",
@@ -7245,7 +7245,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0058",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q058",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Vocabulary - candid (antonym)",
@@ -7264,7 +7264,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0059",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q059",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Vocabulary - pompous (antonym)",
@@ -7283,7 +7283,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0060",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q060",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Vocabulary - inaccessible (antonym)",
@@ -7302,7 +7302,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0061",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q061",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "One-word substitution (espionage)",
@@ -7321,7 +7321,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0062",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q062",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "One-word substitution (linguist)",
@@ -7340,7 +7340,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0063",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q063",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "One-word substitution (utopia)",
@@ -7359,7 +7359,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0064",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q064",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "One-word substitution (simultaneous)",
@@ -7378,7 +7378,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0065",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q065",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "One-word substitution (incorrigible)",
@@ -7397,7 +7397,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0066",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q066",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "One-word substitution (bigot)",
@@ -7416,7 +7416,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0067",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q067",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "One-word substitution (conclusion)",
@@ -7435,7 +7435,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii"
     },
     {
-      "id": "mpsc-tax-0001",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q001",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Company's founding & charters",
@@ -7454,7 +7454,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0002",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q002",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Battle of Buxar 1764",
@@ -7473,7 +7473,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0003",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q003",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Peshwa nicknames",
@@ -7492,7 +7492,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0004",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q004",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Doctrine of Lapse annexations",
@@ -7511,7 +7511,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0005",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q005",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Subsidiary Alliance System",
@@ -7530,7 +7530,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0006",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q006",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Charter Acts & missionaries",
@@ -7549,7 +7549,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0007",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q007",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Ryotwari & Mahalwari systems",
@@ -7568,7 +7568,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0008",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q008",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Economic impact of colonial rule",
@@ -7587,7 +7587,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0009",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q009",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "18th century Bengal trade",
@@ -7606,7 +7606,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0010",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q010",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Indigo cultivation",
@@ -7625,7 +7625,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0011",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q011",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Economic critique literature",
@@ -7644,7 +7644,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0012",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q012",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Charter Acts & trade monopoly",
@@ -7663,7 +7663,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0013",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q013",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Dalhousie's modernization",
@@ -7682,7 +7682,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0014",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q014",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Regulating Act 1773",
@@ -7701,7 +7701,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0015",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q015",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Wood's Despatch 1854",
@@ -7720,7 +7720,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0016",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q016",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Origins of Indian Civil Service",
@@ -7739,7 +7739,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0017",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q017",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Socio-religious reform movements",
@@ -7758,7 +7758,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0018",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q018",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Social reformers & causes",
@@ -7777,7 +7777,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0019",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q019",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Prarthana Samaj",
@@ -7796,7 +7796,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0020",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q020",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Sati abolition",
@@ -7815,7 +7815,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0021",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q021",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Female Infanticide Prevention Act 1870",
@@ -7834,7 +7834,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0022",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q022",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "1857 revolt historiography",
@@ -7853,7 +7853,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0023",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q023",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Parsi reform movements",
@@ -7872,7 +7872,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0024",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q024",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Revolt of 1857 - regional leaders",
@@ -7891,7 +7891,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0025",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q025",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Crown rule begins",
@@ -7910,7 +7910,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0026",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q026",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Ilbert Bill Controversy",
@@ -7929,7 +7929,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0027",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q027",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Government of India Acts",
@@ -7948,7 +7948,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0028",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q028",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Morley-Minto Reforms",
@@ -7967,7 +7967,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0029",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q029",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Indigo Revolt literature",
@@ -7986,7 +7986,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0030",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q030",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Tribal revolts",
@@ -8005,7 +8005,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0031",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q031",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Depressed Classes movements",
@@ -8024,7 +8024,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0032",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q032",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Theories about INC's origin",
@@ -8043,7 +8043,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0033",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q033",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Moderates vs Extremists",
@@ -8062,7 +8062,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0034",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q034",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Founding of Indian National Congress",
@@ -8081,7 +8081,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0035",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q035",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Jallianwala Bagh massacre",
@@ -8100,7 +8100,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0036",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q036",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Gandhi's early Satyagrahas",
@@ -8119,7 +8119,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0037",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q037",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Gandhi's writings",
@@ -8138,7 +8138,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0038",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q038",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Civil Disobedience Movement",
@@ -8157,7 +8157,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0039",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q039",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Founding of Muslim League",
@@ -8176,7 +8176,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0040",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q040",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Home Rule Movement",
@@ -8195,7 +8195,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0041",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q041",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Origins of Communism in India",
@@ -8214,7 +8214,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0042",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q042",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Smart Cities Mission trivia",
@@ -8233,7 +8233,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0043",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q043",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Important days - Hindi Diwas",
@@ -8252,7 +8252,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0044",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q044",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Organic farming recognition",
@@ -8271,7 +8271,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0045",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q045",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Important international days",
@@ -8290,7 +8290,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0046",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q046",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Awards to Indian celebrities",
@@ -8309,7 +8309,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0047",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q047",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "International Day of Peace themes",
@@ -8328,7 +8328,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0048",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q048",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Olympic host cities",
@@ -8347,7 +8347,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0049",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q049",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "AI/robot assistants in India",
@@ -8366,7 +8366,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0050",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q050",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Finance Commission chairpersons",
@@ -8385,7 +8385,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0051",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q051",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Banking sector pension scheme awards",
@@ -8404,7 +8404,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0052",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q052",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Digital India abroad",
@@ -8423,7 +8423,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0053",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q053",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Governors of Mizoram",
@@ -8442,7 +8442,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0054",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q054",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "RBI Act & inflation targeting",
@@ -8461,7 +8461,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0055",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q055",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Government schemes - connectivity",
@@ -8480,7 +8480,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0056",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q056",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Electric vehicle policy",
@@ -8499,7 +8499,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0057",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q057",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "NIRF Rankings 2019",
@@ -8518,7 +8518,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0058",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q058",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Stock market indices",
@@ -8537,7 +8537,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0059",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q059",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Public Sector Bank mergers",
@@ -8556,7 +8556,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0060",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q060",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Global Peace Index",
@@ -8575,7 +8575,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0061",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q061",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "UN Security Council elections",
@@ -8594,7 +8594,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0062",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q062",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "UN SDG advocates",
@@ -8613,7 +8613,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0063",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q063",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Chandrayaan-2 mission objectives",
@@ -8632,7 +8632,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0064",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q064",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Tennis - Australian Open",
@@ -8651,7 +8651,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0065",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q065",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Cricket records",
@@ -8670,7 +8670,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0066",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q066",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Literary awards",
@@ -8689,7 +8689,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0067",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q067",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "RBI Deputy Governor changes",
@@ -8708,7 +8708,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0068",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q068",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "National Security Adviser",
@@ -8727,7 +8727,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0069",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q069",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Chief Ministers of Indian states",
@@ -8746,7 +8746,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0070",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q070",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "POSHAN Abhiyaan",
@@ -8765,7 +8765,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0071",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q071",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "$5 trillion economy target",
@@ -8784,7 +8784,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0072",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q072",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Economic Survey 2018-19 themes",
@@ -8803,7 +8803,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0073",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q073",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Fiscal deficit figures",
@@ -8822,7 +8822,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0074",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q074",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Abrogation of Article 370/35A",
@@ -8841,7 +8841,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0075",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q075",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Important international days",
@@ -8860,7 +8860,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0076",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q076",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "RBI repo rate cuts 2019",
@@ -8879,7 +8879,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0077",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q077",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Political publications",
@@ -8898,7 +8898,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0078",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q078",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Union Council of Ministers",
@@ -8917,7 +8917,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0079",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q079",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "India-Nepal relations",
@@ -8936,7 +8936,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0080",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q080",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "State health schemes",
@@ -8955,7 +8955,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0081",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q081",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Regional organisations - BIMSTEC",
@@ -8974,7 +8974,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0082",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q082",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "World leaders",
@@ -8993,7 +8993,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0083",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q083",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Football awards",
@@ -9012,7 +9012,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0084",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q084",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Global brand rankings",
@@ -9031,7 +9031,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0085",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q085",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Defence manufacturing",
@@ -9050,7 +9050,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0086",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q086",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "PM-SYM pension scheme",
@@ -9069,7 +9069,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0087",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q087",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Global cryptocurrency initiatives",
@@ -9088,7 +9088,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0088",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q088",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Mizoram entrepreneurship events",
@@ -9107,7 +9107,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i"
     },
     {
-      "id": "mpsc-tax-0001",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q001",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Nationalist leaders' popular titles",
@@ -9126,7 +9126,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0002",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q002",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Socio-religious reform movements",
@@ -9145,7 +9145,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0003",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q003",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Moderate-era political societies",
@@ -9164,7 +9164,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0004",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q004",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Moderates vs Tilak's critique of reformism",
@@ -9183,7 +9183,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0005",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q005",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Aurobindo's philosophical synthesis",
@@ -9202,7 +9202,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0006",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q006",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Radical Humanist critique of religion",
@@ -9221,7 +9221,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0007",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q007",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Influences on Ambedkar's thought",
@@ -9240,7 +9240,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0008",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q008",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Books by nationalist leaders",
@@ -9259,7 +9259,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0009",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q009",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Deccan Education Society",
@@ -9278,7 +9278,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0010",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q010",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Gandhian concepts",
@@ -9297,7 +9297,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0011",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q011",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Gandhi's role in the freedom struggle",
@@ -9316,7 +9316,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0012",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q012",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Nehru's ideology",
@@ -9335,7 +9335,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0013",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q013",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Borrowed features of the Constitution",
@@ -9354,7 +9354,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0014",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q014",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Constitution parts and DPSP",
@@ -9373,7 +9373,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0015",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q015",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "President's powers",
@@ -9392,7 +9392,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0016",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q016",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Nominal vs real executive",
@@ -9411,7 +9411,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0017",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q017",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Composition of Lok Sabha",
@@ -9430,7 +9430,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0018",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q018",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Residuary powers",
@@ -9449,7 +9449,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0019",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q019",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "DPSP classification - Village Panchayats",
@@ -9468,7 +9468,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0020",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q020",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "73rd Amendment exemptions",
@@ -9487,7 +9487,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0021",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q021",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Governor's discretionary powers",
@@ -9506,7 +9506,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0022",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q022",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Supreme Court jurisdictions",
@@ -9525,7 +9525,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0023",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q023",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Seventh Schedule lists",
@@ -9544,7 +9544,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0024",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q024",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Regionalism and secessionism",
@@ -9563,7 +9563,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0025",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q025",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Linguistic politics",
@@ -9582,7 +9582,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0026",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q026",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Indian secularism",
@@ -9601,7 +9601,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0027",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q027",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "National party recognition criteria",
@@ -9620,7 +9620,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0028",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q028",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Origins of Five Year Plans",
@@ -9639,7 +9639,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0029",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q029",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Central paramilitary forces",
@@ -9658,7 +9658,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0030",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q030",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Caste in Indian politics",
@@ -9677,7 +9677,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0031",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q031",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Developmental administration",
@@ -9696,7 +9696,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0032",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q032",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "42nd Amendment",
@@ -9715,7 +9715,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0033",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q033",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Part III article range",
@@ -9734,7 +9734,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0034",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q034",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Fundamental Rights vs DPSP",
@@ -9753,7 +9753,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0035",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q035",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Constitutional writs",
@@ -9772,7 +9772,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0036",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q036",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "National vs regional party status (2019)",
@@ -9791,7 +9791,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0037",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q037",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Composition of Parliament",
@@ -9810,7 +9810,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0038",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q038",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Federal vs unitary features",
@@ -9829,7 +9829,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0039",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q039",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Fiscal vs monetary policy tools",
@@ -9848,7 +9848,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0040",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q040",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Union Budget revenue composition",
@@ -9867,7 +9867,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0041",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q041",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Operation Greens (TOP) scheme",
@@ -9886,7 +9886,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0042",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q042",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Money market terminology",
@@ -9905,7 +9905,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0043",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q043",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Chit fund regulation",
@@ -9924,7 +9924,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0044",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q044",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "2019 PSU bank mega-merger",
@@ -9943,7 +9943,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0045",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q045",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Green Revolution crops",
@@ -9962,7 +9962,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0046",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q046",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Rabi vs Kharif crops",
@@ -9981,7 +9981,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0047",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q047",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Agricultural price policy tools",
@@ -10000,7 +10000,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0048",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q048",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Global steel production ranking",
@@ -10019,7 +10019,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0049",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q049",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "IMF terminology - SDR",
@@ -10038,7 +10038,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0050",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q050",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Floating exchange rate mechanics",
@@ -10057,7 +10057,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0051",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q051",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Current account deficit management",
@@ -10076,7 +10076,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0052",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q052",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Five Year Plan slogans",
@@ -10095,7 +10095,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0053",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q053",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "NITI Aayog governance pillars",
@@ -10114,7 +10114,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0054",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q054",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Eight core industries",
@@ -10133,7 +10133,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0055",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q055",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "IIP weightage",
@@ -10152,7 +10152,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0056",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q056",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "IIP publishing agency",
@@ -10171,7 +10171,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0057",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q057",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Basic accounting - balance sheet",
@@ -10190,7 +10190,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0058",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q058",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Perspective planning concept",
@@ -10209,7 +10209,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0059",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q059",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "NABARD's origin",
@@ -10228,7 +10228,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0060",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q060",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "First Industrial Policy Resolution",
@@ -10247,7 +10247,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0061",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q061",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "AGMARK certification",
@@ -10266,7 +10266,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0062",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q062",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Fiscal policy scope",
@@ -10285,7 +10285,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0063",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q063",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Balance of payments components",
@@ -10304,7 +10304,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0064",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q064",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "First Five Year Plan model",
@@ -10323,7 +10323,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0065",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q065",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "RTGS payment system",
@@ -10342,7 +10342,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0066",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q066",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Global Hunger Index 2018",
@@ -10361,7 +10361,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0067",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q067",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Interim budget terminology",
@@ -10380,7 +10380,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0068",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q068",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Formation of Northern Plains",
@@ -10399,7 +10399,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0069",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q069",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Black soil formation",
@@ -10418,7 +10418,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0070",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q070",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Trans-Himalayan ranges",
@@ -10437,7 +10437,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0071",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q071",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Origin of Lakshadweep vs Andaman-Nicobar islands",
@@ -10456,7 +10456,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0072",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q072",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Satpura range extent",
@@ -10475,7 +10475,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0073",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q073",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Northern Plains alluvial zones",
@@ -10494,7 +10494,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0074",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q074",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Major dams and rivers",
@@ -10513,7 +10513,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0075",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q075",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Antecedent rivers of the Himalaya",
@@ -10532,7 +10532,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0076",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q076",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Origin of the Ganga",
@@ -10551,7 +10551,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0077",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q077",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Regional climate zones of India",
@@ -10570,7 +10570,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0078",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q078",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Forest types of India",
@@ -10589,7 +10589,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0079",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q079",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Language families of India",
@@ -10608,7 +10608,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0080",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q080",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Green Revolution's biggest beneficiary crop",
@@ -10627,7 +10627,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0081",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q081",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Dry land farming characteristics",
@@ -10646,7 +10646,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0082",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q082",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Settlement patterns",
@@ -10665,7 +10665,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0083",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q083",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "ITCZ and Indian monsoon",
@@ -10684,7 +10684,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0084",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q084",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Pre-monsoon local winds",
@@ -10703,7 +10703,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0085",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q085",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Census town criteria",
@@ -10722,7 +10722,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0086",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q086",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Golden Quadrilateral highway",
@@ -10741,7 +10741,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0087",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q087",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Industrial hubs of India",
@@ -10760,7 +10760,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0088",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q088",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Sugar industry shift southward",
@@ -10779,7 +10779,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0089",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q089",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "India-China border sectors",
@@ -10798,7 +10798,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0090",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q090",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Mizoram river drainage systems",
@@ -10817,7 +10817,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0091",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q091",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Mizoram forest types",
@@ -10836,7 +10836,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii"
     },
     {
-      "id": "mpsc-tax-0001",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q001",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "DST founding year",
@@ -10855,7 +10855,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0002",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q002",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Nobel laureates India",
@@ -10874,7 +10874,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0003",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q003",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Nuclear test code names",
@@ -10893,7 +10893,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0004",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q004",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Missile Woman of India",
@@ -10912,7 +10912,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0005",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q005",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Chandrayaan-2 rover",
@@ -10931,7 +10931,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0006",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q006",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "PMRF research fellowship scheme",
@@ -10950,7 +10950,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0007",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q007",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "CSIR herbal cGMP facility",
@@ -10969,7 +10969,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0008",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q008",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Krishi Sinchai Yojana",
@@ -10988,7 +10988,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0009",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q009",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Gaganyaan human spaceflight",
@@ -11007,7 +11007,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0010",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q010",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "BARC nuclear research HQ",
@@ -11026,7 +11026,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0011",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q011",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Father of Indian Space Program",
@@ -11045,7 +11045,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0012",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q012",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Digital India launch",
@@ -11064,7 +11064,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0013",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q013",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "DD Kisan channel",
@@ -11083,7 +11083,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0014",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q014",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Chandrayaan-2 mission objectives",
@@ -11102,7 +11102,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0015",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q015",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Padma Shri science innovators",
@@ -11121,7 +11121,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0016",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q016",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Shanti Swarup Bhatnagar Prize",
@@ -11140,7 +11140,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0017",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q017",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "History of TV in India",
@@ -11159,7 +11159,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0018",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q018",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "PARAM supercomputer history",
@@ -11178,7 +11178,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0019",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q019",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "India's first IVF birth",
@@ -11197,7 +11197,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0020",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q020",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "e-District NeGP scheme",
@@ -11216,7 +11216,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0021",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q021",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "AIR Aizawl regional news unit",
@@ -11235,7 +11235,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0022",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q022",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "India's first satellite",
@@ -11254,7 +11254,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0023",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q023",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Doordarshan TV history",
@@ -11273,7 +11273,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0024",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q024",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "VSNL & internet history",
@@ -11292,7 +11292,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0025",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q025",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "First Indian mobile brand",
@@ -11311,7 +11311,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0026",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q026",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "First cellular call in India",
@@ -11330,7 +11330,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0027",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q027",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "4G telecom rollout India",
@@ -11349,7 +11349,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0028",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q028",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "UIDAI & Aadhaar",
@@ -11368,7 +11368,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0029",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q029",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Lubricants - graphite",
@@ -11387,7 +11387,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0030",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q030",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Solar cell materials",
@@ -11406,7 +11406,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0031",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q031",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Oncology - medical terms",
@@ -11425,7 +11425,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0032",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q032",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Optical fibre physics",
@@ -11444,7 +11444,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0033",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q033",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Zawlbuk dormitory layout",
@@ -11463,7 +11463,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0034",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q034",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Mizo measurement terms",
@@ -11482,7 +11482,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0035",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q035",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Khuangur & Thangchhuah status",
@@ -11501,7 +11501,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0036",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q036",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Mizo bride price terms",
@@ -11520,7 +11520,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0037",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q037",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Nu man marriage custom",
@@ -11539,7 +11539,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0038",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q038",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Traditional Mizo attire",
@@ -11558,7 +11558,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0039",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q039",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Mizo bawi (serfdom) types",
@@ -11577,7 +11577,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0040",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q040",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Mizo hunting rituals",
@@ -11596,7 +11596,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0041",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q041",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Chapchar Kut - Chhawnghnawt",
@@ -11615,7 +11615,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0042",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q042",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Sibuta lung memorial site",
@@ -11634,7 +11634,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0043",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q043",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Mizo historical landmarks",
@@ -11653,7 +11653,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0044",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q044",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Mizo inter-tribal conflicts",
@@ -11672,7 +11672,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0045",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q045",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "British officers' Mizo nicknames",
@@ -11691,7 +11691,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0046",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q046",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "South Lushai Hills administration",
@@ -11710,7 +11710,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0047",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q047",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Anglo-Mizo frontier clashes",
@@ -11729,7 +11729,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0048",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q048",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Last Mizo resistance chiefs",
@@ -11748,7 +11748,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0049",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q049",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Colonial writers on Mizoram",
@@ -11767,7 +11767,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0050",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q050",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Christian medical missionaries Mizoram",
@@ -11786,7 +11786,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0051",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q051",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "British-era Mizo village posts",
@@ -11805,7 +11805,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0052",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q052",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Mizoram Christian revival waves",
@@ -11824,7 +11824,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0053",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q053",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Greatest Mizoram revival wave",
@@ -11843,7 +11843,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0054",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q054",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Early Mizo organisations",
@@ -11862,7 +11862,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0055",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q055",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Kristian Tlangau editorship",
@@ -11881,7 +11881,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0056",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q056",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Mizo Union founding",
@@ -11900,7 +11900,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0057",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q057",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "UMFO / Zalen Pawl leaders",
@@ -11919,7 +11919,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0058",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q058",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Mizo District Council inauguration",
@@ -11938,7 +11938,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0059",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q059",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Mizo National Front history",
@@ -11957,7 +11957,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0060",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q060",
       "subject": "reasoning",
       "topic": "gs3_aptitude",
       "topicLabel": "Number series - odd one out",
@@ -11976,7 +11976,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0061",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q061",
       "subject": "reasoning",
       "topic": "gs3_aptitude",
       "topicLabel": "Number series - odd one out",
@@ -11995,7 +11995,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0062",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q062",
       "subject": "reasoning",
       "topic": "gs3_aptitude",
       "topicLabel": "Number series - missing term",
@@ -12014,7 +12014,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0063",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q063",
       "subject": "reasoning",
       "topic": "gs3_aptitude",
       "topicLabel": "Number series - constant difference",
@@ -12033,7 +12033,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0064",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q064",
       "subject": "reasoning",
       "topic": "gs3_aptitude",
       "topicLabel": "Number series - garbled",
@@ -12052,7 +12052,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0065",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q065",
       "subject": "reasoning",
       "topic": "gs3_aptitude",
       "topicLabel": "Letter series reasoning",
@@ -12071,7 +12071,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0066",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q066",
       "subject": "reasoning",
       "topic": "gs3_aptitude",
       "topicLabel": "Coding-decoding reasoning",
@@ -12090,7 +12090,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0067",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q067",
       "subject": "reasoning",
       "topic": "gs3_aptitude",
       "topicLabel": "Classification / odd-word-out",
@@ -12109,7 +12109,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0068",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q068",
       "subject": "reasoning",
       "topic": "gs3_aptitude",
       "topicLabel": "Verbal analogy reasoning",
@@ -12128,7 +12128,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0069",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q069",
       "subject": "reasoning",
       "topic": "gs3_aptitude",
       "topicLabel": "Blood relation puzzle",
@@ -12147,7 +12147,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0070",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q070",
       "subject": "reasoning",
       "topic": "gs3_aptitude",
       "topicLabel": "Figure rotation reasoning",
@@ -12166,7 +12166,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0071",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q071",
       "subject": "reasoning",
       "topic": "gs3_aptitude",
       "topicLabel": "Figure/piece assembly reasoning",
@@ -12185,7 +12185,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0072",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q072",
       "subject": "reasoning",
       "topic": "gs3_aptitude",
       "topicLabel": "Pattern sequence figure reasoning",
@@ -12204,7 +12204,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0073",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q073",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Idioms & phrases",
@@ -12223,7 +12223,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0074",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q074",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "One-word substitution vocabulary",
@@ -12242,7 +12242,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0075",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q075",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Collective nouns vocabulary",
@@ -12261,7 +12261,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii"
     },
     {
-      "id": "mpsc-tax-0001",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q001",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -12280,7 +12280,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0002",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q002",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -12299,7 +12299,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0003",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q003",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -12318,7 +12318,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0004",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q004",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -12337,7 +12337,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0005",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q005",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "OCR ERROR",
@@ -12356,7 +12356,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0006",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q006",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -12375,7 +12375,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0007",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q007",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -12394,7 +12394,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0008",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q008",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -12413,7 +12413,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0009",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q009",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -12432,7 +12432,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0010",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q010",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -12451,7 +12451,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0011",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q011",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -12470,7 +12470,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0012",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q012",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -12489,7 +12489,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0013",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q013",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -12508,7 +12508,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0014",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q014",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "OCR ERROR",
@@ -12527,7 +12527,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0015",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q015",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -12546,7 +12546,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0016",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q016",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -12565,7 +12565,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0017",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q017",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -12584,7 +12584,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0018",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q018",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -12603,7 +12603,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0019",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q019",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -12622,7 +12622,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0020",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q020",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -12641,7 +12641,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0021",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q021",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -12660,7 +12660,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0022",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q022",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -12679,7 +12679,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0023",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q023",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -12698,7 +12698,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0024",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q024",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -12717,7 +12717,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0025",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q025",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -12736,7 +12736,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0026",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q026",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -12755,7 +12755,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0027",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q027",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -12774,7 +12774,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0028",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q028",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "OCR ERROR",
@@ -12793,7 +12793,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0029",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q029",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -12812,7 +12812,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0030",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q030",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -12831,7 +12831,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0031",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q031",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -12850,7 +12850,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0032",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q032",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -12869,7 +12869,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0033",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q033",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -12888,7 +12888,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0034",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q034",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "OCR ERROR",
@@ -12907,7 +12907,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0035",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q035",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -12926,7 +12926,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0036",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q036",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -12945,7 +12945,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0037",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q037",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -12964,7 +12964,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0038",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q038",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -12983,7 +12983,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0039",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q039",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -13002,7 +13002,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0040",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q040",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -13021,7 +13021,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0041",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q041",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "OCR ERROR",
@@ -13040,7 +13040,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0042",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q042",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -13059,7 +13059,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0043",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q043",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "OCR ERROR",
@@ -13078,7 +13078,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0044",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q044",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -13097,7 +13097,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0045",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q045",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -13116,7 +13116,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0046",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q046",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -13135,7 +13135,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0047",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q047",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -13154,7 +13154,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0048",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q048",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "OCR ERROR",
@@ -13173,7 +13173,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0049",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q049",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -13192,7 +13192,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0050",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q050",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -13211,7 +13211,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0051",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q051",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -13230,7 +13230,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0052",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q052",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "OCR ERROR",
@@ -13249,7 +13249,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0053",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q053",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -13268,7 +13268,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0054",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q054",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -13287,7 +13287,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0055",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q055",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "OCR ERROR",
@@ -13306,7 +13306,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0056",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q056",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -13325,7 +13325,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0057",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q057",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -13344,7 +13344,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0058",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q058",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "OCR ERROR",
@@ -13363,7 +13363,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0059",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q059",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -13382,7 +13382,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0060",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q060",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -13401,7 +13401,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0061",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q061",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -13420,7 +13420,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0062",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q062",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -13439,7 +13439,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0063",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q063",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -13458,7 +13458,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0064",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q064",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -13477,7 +13477,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0065",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q065",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -13496,7 +13496,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0066",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q066",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -13515,7 +13515,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0067",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q067",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -13534,7 +13534,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0068",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q068",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "OCR ERROR",
@@ -13553,7 +13553,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0069",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q069",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "OCR ERROR",
@@ -13572,7 +13572,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0070",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q070",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "OCR ERROR",
@@ -13591,7 +13591,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0071",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q071",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -13610,7 +13610,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0072",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q072",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -13629,7 +13629,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0073",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q073",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -13648,7 +13648,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0074",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q074",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -13667,7 +13667,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0075",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q075",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -13686,7 +13686,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0076",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q076",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -13705,7 +13705,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0077",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q077",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -13724,7 +13724,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0078",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q078",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -13743,7 +13743,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0079",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q079",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -13762,7 +13762,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0080",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q080",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "GS-II",
@@ -13781,7 +13781,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii"
     },
     {
-      "id": "mpsc-tax-0001",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q001",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Colonial-era Sanskrit education",
@@ -13800,7 +13800,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0002",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q002",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "English as medium of instruction, 1835",
@@ -13819,7 +13819,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0003",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q003",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Dual Government of Bengal",
@@ -13838,7 +13838,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0004",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q004",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Arya Samaj slogans",
@@ -13857,7 +13857,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0005",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q005",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Ghadar Party founding year",
@@ -13876,7 +13876,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0006",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q006",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Tilak's Swaraj slogan",
@@ -13895,7 +13895,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0007",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q007",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Drain of Wealth theory",
@@ -13914,7 +13914,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0008",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q008",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Partition of Bengal, 1905",
@@ -13933,7 +13933,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0009",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q009",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Brahmo Samaj founding",
@@ -13952,7 +13952,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0010",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q010",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Asiatic Society of Bengal",
@@ -13971,7 +13971,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0011",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q011",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Arya Samaj social reforms",
@@ -13990,7 +13990,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0012",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q012",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Lahore Resolution, 1940",
@@ -14009,7 +14009,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0013",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q013",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Indian National Army (INA)",
@@ -14028,7 +14028,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0014",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q014",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Cripps Mission, 1942",
@@ -14047,7 +14047,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0015",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q015",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Congress moderate phase, 1885-1905",
@@ -14066,7 +14066,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0016",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q016",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Nationalist epithets - Naoroji",
@@ -14085,7 +14085,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0017",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q017",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Home Rule Movement origins",
@@ -14104,7 +14104,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0018",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q018",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Ghadar Party founding location",
@@ -14123,7 +14123,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0019",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q019",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Rowlatt Act, 1919",
@@ -14142,7 +14142,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0020",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q020",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Government of India Act 1919 - Dyarchy",
@@ -14161,7 +14161,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0021",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q021",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Khilafat Movement causes",
@@ -14180,7 +14180,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0022",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q022",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Poorna Swaraj resolution, 1929",
@@ -14199,7 +14199,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0023",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q023",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Forward Bloc formation",
@@ -14218,7 +14218,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0024",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q024",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Communal Award, 1932",
@@ -14237,7 +14237,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0025",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q025",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Doctrine of Lapse",
@@ -14256,7 +14256,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0026",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q026",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Quit India Resolution, 1942",
@@ -14275,7 +14275,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0027",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q027",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Mir Qasim & Battle of Buxar",
@@ -14294,7 +14294,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0028",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q028",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Dual Government mechanics",
@@ -14313,7 +14313,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0029",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q029",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Regulating Act, 1773",
@@ -14332,7 +14332,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0030",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q030",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Railways under Dalhousie",
@@ -14351,7 +14351,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0031",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q031",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Ryotwari Settlement",
@@ -14370,7 +14370,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0032",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q032",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Permanent Settlement, 1793",
@@ -14389,7 +14389,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0033",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q033",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Arya Samaj founding city",
@@ -14408,7 +14408,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0034",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q034",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Sir Syed Ahmed Khan's associations",
@@ -14427,7 +14427,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0035",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q035",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Ilbert Bill Controversy",
@@ -14446,7 +14446,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0036",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q036",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Frontier Gandhi epithet",
@@ -14465,7 +14465,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0037",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q037",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Revolt of 1857 - nature and spread",
@@ -14484,7 +14484,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0038",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q038",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Early nationalist associations",
@@ -14503,7 +14503,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0039",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q039",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "COVID-19 vaccination rollout in Mizoram",
@@ -14522,7 +14522,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0040",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q040",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Mizoram sports achievers award",
@@ -14541,7 +14541,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0041",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q041",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Union Budget - revenue sources",
@@ -14560,7 +14560,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0042",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q042",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "US State Sponsor of Terrorism list, 2021",
@@ -14579,7 +14579,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0043",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q043",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Environment education initiatives",
@@ -14598,7 +14598,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0044",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q044",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Republic Day 2021 chief guest",
@@ -14617,7 +14617,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0045",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q045",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "India's COVID-19 vaccination launch",
@@ -14636,7 +14636,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0046",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q046",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Forest cover by state (area)",
@@ -14655,7 +14655,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0047",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q047",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Uttarakhand Sanskrit language policy",
@@ -14674,7 +14674,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0048",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q048",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Ease of Doing Business ranking, 2020",
@@ -14693,7 +14693,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0049",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q049",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Global forest distribution",
@@ -14712,7 +14712,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0050",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q050",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Tech company CEOs - Twitter",
@@ -14731,7 +14731,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0051",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q051",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "PAN-Aadhaar interchangeability",
@@ -14750,7 +14750,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0052",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q052",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "e-FRRO scheme",
@@ -14769,7 +14769,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0053",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q053",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Farm Laws 2020 provisions",
@@ -14788,7 +14788,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0054",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q054",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "J&K reorganization - asset bifurcation committee",
@@ -14807,7 +14807,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0055",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q055",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "NEP 2020 curricular structure",
@@ -14826,7 +14826,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0056",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q056",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "RBI reverse repo rate",
@@ -14845,7 +14845,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0057",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q057",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "PSU bank mergers, 2020",
@@ -14864,7 +14864,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0058",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q058",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Defence acquisitions - IAF",
@@ -14883,7 +14883,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0059",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q059",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "World Migration Report 2020",
@@ -14902,7 +14902,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0060",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q060",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Global Peace Index rankings",
@@ -14921,7 +14921,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0061",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q061",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Space companies & founders",
@@ -14940,7 +14940,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0062",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q062",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "US Presidential inauguration, 2021",
@@ -14959,7 +14959,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0063",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q063",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Global university rankings",
@@ -14978,7 +14978,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0064",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q064",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Global hyperinflation cases",
@@ -14997,7 +14997,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0065",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q065",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Automotive market capitalization",
@@ -15016,7 +15016,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0066",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q066",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Passport power rankings",
@@ -15035,7 +15035,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0067",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q067",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "World Environment Day 2020 theme",
@@ -15054,7 +15054,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0068",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q068",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "104th Constitutional Amendment - reservation extension",
@@ -15073,7 +15073,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0069",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q069",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Defence deals - missiles",
@@ -15092,7 +15092,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0070",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q070",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Five Eyes alliance",
@@ -15111,7 +15111,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0071",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q071",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "UK storms & wind energy",
@@ -15130,7 +15130,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0072",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q072",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Rice trade & exports",
@@ -15149,7 +15149,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0073",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q073",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Greenland sovereignty",
@@ -15168,7 +15168,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0074",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q074",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Tech company parent structures",
@@ -15187,7 +15187,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0075",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q075",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "World Happiness Report rankings",
@@ -15206,7 +15206,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0076",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q076",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "US Capitol riot - deplatforming",
@@ -15225,7 +15225,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0077",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q077",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "State health achievement awards",
@@ -15244,7 +15244,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0078",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q078",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Pranab Mukherjee's memoirs",
@@ -15263,7 +15263,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0079",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q079",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Russia-US arms control agreements",
@@ -15282,7 +15282,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0080",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q080",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Nagorno-Karabakh peace deal",
@@ -15301,7 +15301,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0081",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q081",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Emmy Awards 2020",
@@ -15320,7 +15320,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0082",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q082",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Regulatory body appointments",
@@ -15339,7 +15339,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0083",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q083",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "International geoscience cooperation",
@@ -15358,7 +15358,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0084",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q084",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Author of Exam Warriors",
@@ -15377,7 +15377,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0085",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q085",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Mars missions - Hope probe",
@@ -15396,7 +15396,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i"
     },
     {
-      "id": "mpsc-tax-0001",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q001",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -15415,7 +15415,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0002",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q002",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -15434,7 +15434,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0003",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q003",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -15453,7 +15453,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0004",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q004",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -15472,7 +15472,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0005",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q005",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -15491,7 +15491,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0006",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q006",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -15510,7 +15510,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0007",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q007",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -15529,7 +15529,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0008",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q008",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -15548,7 +15548,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0009",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q009",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -15567,7 +15567,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0010",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q010",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -15586,7 +15586,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0011",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q011",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -15605,7 +15605,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0012",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q012",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -15624,7 +15624,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0013",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q013",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -15643,7 +15643,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0014",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q014",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -15662,7 +15662,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0015",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q015",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -15681,7 +15681,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0016",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q016",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -15700,7 +15700,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0017",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q017",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -15719,7 +15719,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0018",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q018",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -15738,7 +15738,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0019",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q019",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -15757,7 +15757,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0020",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q020",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -15776,7 +15776,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0021",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q021",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -15795,7 +15795,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0022",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q022",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "OCR ERROR",
@@ -15814,7 +15814,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0023",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q023",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -15833,7 +15833,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0024",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q024",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -15852,7 +15852,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0025",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q025",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -15871,7 +15871,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0026",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q026",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -15890,7 +15890,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0027",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q027",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -15909,7 +15909,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0028",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q028",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -15928,7 +15928,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0029",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q029",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -15947,7 +15947,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0030",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q030",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -15966,7 +15966,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0031",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q031",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -15985,7 +15985,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0032",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q032",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "OCR ERROR",
@@ -16004,7 +16004,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0033",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q033",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -16023,7 +16023,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0034",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q034",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -16042,7 +16042,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0035",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q035",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -16061,7 +16061,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0036",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q036",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -16080,7 +16080,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0037",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q037",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -16099,7 +16099,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0038",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q038",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -16118,7 +16118,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0039",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q039",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "OCR ERROR",
@@ -16137,7 +16137,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0040",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q040",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "OCR ERROR",
@@ -16156,7 +16156,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0041",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q041",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -16175,7 +16175,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0042",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q042",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -16194,7 +16194,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0043",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q043",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -16213,7 +16213,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0044",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q044",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -16232,7 +16232,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0045",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q045",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -16251,7 +16251,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0046",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q046",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -16270,7 +16270,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0047",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q047",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -16289,7 +16289,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0048",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q048",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -16308,7 +16308,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0049",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q049",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -16327,7 +16327,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0050",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q050",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -16346,7 +16346,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0051",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q051",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -16365,7 +16365,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0052",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q052",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "English-II",
@@ -16384,7 +16384,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii"
     },
     {
-      "id": "mpsc-tax-0001",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q001",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "ISRO 1994 launch milestone",
@@ -16403,7 +16403,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0002",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q002",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Pratyush-Mihir supercomputer speed",
@@ -16422,7 +16422,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0003",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q003",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "ISRO founding chairman",
@@ -16441,7 +16441,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0004",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q004",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Gaganyaan mission announcement",
@@ -16460,7 +16460,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0005",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q005",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Cryogenics applications",
@@ -16479,7 +16479,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0006",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q006",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "CD player mechanism",
@@ -16498,7 +16498,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0007",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q007",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "METSAT & PSLV-C4 payload",
@@ -16517,7 +16517,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0008",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q008",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "IT terminology basics",
@@ -16536,7 +16536,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0009",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q009",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "DRDO missile defence tests",
@@ -16555,7 +16555,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0010",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q010",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "DRDO Mobile Metallic Ramp",
@@ -16574,7 +16574,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0011",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q011",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Barak missile defence system",
@@ -16593,7 +16593,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0012",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q012",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Interdisciplinary Centre for Energy Research",
@@ -16612,7 +16612,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0013",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q013",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Survey of India drone mapping",
@@ -16631,7 +16631,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0014",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q014",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "First maritime telecom provider (India)",
@@ -16650,7 +16650,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0015",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q015",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Global AMR R&D Hub",
@@ -16669,7 +16669,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0016",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q016",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "CHC Farm Machinery app",
@@ -16688,7 +16688,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0017",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q017",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "First Mobile Science Exhibition (1965)",
@@ -16707,7 +16707,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0018",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q018",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "LRSAM India-Israel collaboration",
@@ -16726,7 +16726,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0019",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q019",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Samudrayaan deep-ocean mission",
@@ -16745,7 +16745,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0020",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q020",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Eggshell bone-implant research",
@@ -16764,7 +16764,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0021",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q021",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Moon crater named after Sarabhai",
@@ -16783,7 +16783,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0022",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q022",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Lakshadweep genetic ancestry study",
@@ -16802,7 +16802,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0023",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q023",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Asiatic lion scientific name",
@@ -16821,7 +16821,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0024",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q024",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Serotonin chemical name",
@@ -16840,7 +16840,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0025",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q025",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "MERA India malaria elimination",
@@ -16859,7 +16859,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0026",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q026",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "PM-STIAC national missions",
@@ -16878,7 +16878,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0027",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q027",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Google Bolo reading app languages",
@@ -16897,7 +16897,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0028",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q028",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "West Nile Virus effects",
@@ -16916,7 +16916,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0029",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q029",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Mission Shakti ASAT test",
@@ -16935,7 +16935,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0030",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q030",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "NASA Rover Challenge Indian award",
@@ -16954,7 +16954,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0031",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q031",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Deen Dayal Upadhyaya Gram Jyoti Yojana",
@@ -16973,7 +16973,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0032",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q032",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "AIIA-IIT Ayurveda research MoU",
@@ -16992,7 +16992,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0033",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q033",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Horizon 2020 India-EU research",
@@ -17011,7 +17011,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0034",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q034",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "India's first biofuel flight",
@@ -17030,7 +17030,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0035",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q035",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Pre-colonial Mizo village settlements",
@@ -17049,7 +17049,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0036",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q036",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Fathang (paddy tax) burden",
@@ -17068,7 +17068,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0037",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q037",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Types of Bawi (bond servants)",
@@ -17087,7 +17087,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0038",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q038",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Sadawt's assistant role",
@@ -17106,7 +17106,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0039",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q039",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Zawlbuk entrance features",
@@ -17125,7 +17125,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0040",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q040",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Mara society without chief clans",
@@ -17144,7 +17144,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0041",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q041",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Pre-British land ownership",
@@ -17163,7 +17163,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0042",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q042",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "First Mizo Christian hymn book",
@@ -17182,7 +17182,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0043",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q043",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "First Political Officer, North Lushai Hills",
@@ -17201,7 +17201,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0044",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q044",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "British officer nicknamed Tarmita",
@@ -17220,7 +17220,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0045",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q045",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Colonial village vital statistics",
@@ -17239,7 +17239,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0046",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q046",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "British house tax in Mizoram",
@@ -17258,7 +17258,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0047",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q047",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Mizo customary law fines",
@@ -17277,7 +17277,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0048",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q048",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Last Mizo chief to surrender",
@@ -17296,7 +17296,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0049",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q049",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "WWI Mizo Army Bearer Corps",
@@ -17315,7 +17315,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0050",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q050",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Lakher Pioneer Mission founder",
@@ -17334,7 +17334,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0051",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q051",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "First Mizo Christian revival",
@@ -17353,7 +17353,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0052",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q052",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "First Mizo students of Lorrain & Savidge",
@@ -17372,7 +17372,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0053",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q053",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "First missionary doctor to Mizoram",
@@ -17391,7 +17391,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0054",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q054",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Mizo Labour Corps, WWI",
@@ -17410,7 +17410,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0055",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q055",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Lushai Scouts, WWII guerrilla unit",
@@ -17429,7 +17429,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0056",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q056",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "First Mizo organization",
@@ -17448,7 +17448,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0057",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q057",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Mizo Union founding year",
@@ -17467,7 +17467,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0058",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q058",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Party formed after Mizo Union",
@@ -17486,7 +17486,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0059",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q059",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Mizo National Front founding",
@@ -17505,7 +17505,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0060",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q060",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Mizo traditional calendar order",
@@ -17524,7 +17524,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0061",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q061",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Favang season timing",
@@ -17543,7 +17543,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0062",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q062",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "First Lokayukta of Mizoram",
@@ -17562,7 +17562,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0063",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q063",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Mizoram GI-tagged products",
@@ -17581,7 +17581,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0064",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q064",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Mizoram University founding year",
@@ -17600,7 +17600,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0065",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q065",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "States bordering Mizoram",
@@ -17619,7 +17619,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0066",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q066",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Mawmrang Tlang district location",
@@ -17638,7 +17638,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0067",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q067",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Total area of Mizoram",
@@ -17657,7 +17657,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0068",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q068",
       "subject": "reasoning",
       "topic": "gs3_aptitude",
       "topicLabel": "Arithmetic series (+0.7 pattern)",
@@ -17676,7 +17676,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0069",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q069",
       "subject": "reasoning",
       "topic": "gs3_aptitude",
       "topicLabel": "Alternating-difference series",
@@ -17695,7 +17695,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0070",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q070",
       "subject": "reasoning",
       "topic": "gs3_aptitude",
       "topicLabel": "Repeating-difference series",
@@ -17714,7 +17714,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0071",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q071",
       "subject": "reasoning",
       "topic": "gs3_aptitude",
       "topicLabel": "Multiply-and-subtract series",
@@ -17733,7 +17733,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0072",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q072",
       "subject": "reasoning",
       "topic": "gs3_aptitude",
       "topicLabel": "Odd-one-out (units of measure)",
@@ -17752,7 +17752,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0073",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q073",
       "subject": "reasoning",
       "topic": "gs3_aptitude",
       "topicLabel": "Odd-one-out (parts of a book)",
@@ -17771,7 +17771,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0074",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q074",
       "subject": "reasoning",
       "topic": "gs3_aptitude",
       "topicLabel": "Syllogism (actors/singers/dancers)",
@@ -17790,7 +17790,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0075",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q075",
       "subject": "reasoning",
       "topic": "gs3_aptitude",
       "topicLabel": "Syllogism (dogs/bats/cats)",
@@ -17809,7 +17809,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0076",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q076",
       "subject": "reasoning",
       "topic": "gs3_aptitude",
       "topicLabel": "Logical sequencing (crime-to-punishment)",
@@ -17828,7 +17828,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0077",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q077",
       "subject": "reasoning",
       "topic": "gs3_aptitude",
       "topicLabel": "Verbal analogy (organisation heads)",
@@ -17847,7 +17847,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0078",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q078",
       "subject": "reasoning",
       "topic": "gs3_aptitude",
       "topicLabel": "Figure pattern completion (excluded)",
@@ -17866,7 +17866,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0079",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q079",
       "subject": "reasoning",
       "topic": "gs3_aptitude",
       "topicLabel": "Figure series (excluded)",
@@ -17885,7 +17885,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0080",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q080",
       "subject": "reasoning",
       "topic": "gs3_aptitude",
       "topicLabel": "Figure colouring/graph (excluded)",
@@ -17904,7 +17904,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0081",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q081",
       "subject": "reasoning",
       "topic": "gs3_aptitude",
       "topicLabel": "Seating arrangement puzzle",
@@ -17923,7 +17923,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0082",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q082",
       "subject": "reasoning",
       "topic": "gs3_aptitude",
       "topicLabel": "Data table - Physics threshold",
@@ -17942,7 +17942,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0083",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q083",
       "subject": "reasoning",
       "topic": "gs3_aptitude",
       "topicLabel": "Data table - aggregate below 60%",
@@ -17961,7 +17961,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0084",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q084",
       "subject": "reasoning",
       "topic": "gs3_aptitude",
       "topicLabel": "Data table - Chemistry vs aggregate ratio",
@@ -17980,7 +17980,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii"
     },
     {
-      "id": "mpsc-tax-0001",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-english-q001",
       "subject": "gk",
       "topic": "eng_precis_letter",
       "topicLabel": "Precis, letter & comprehension (merged)",
@@ -17999,7 +17999,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-english"
     },
     {
-      "id": "mpsc-tax-0002",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-english-q002",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Verb tense fill-in-blank (compound)",
@@ -18018,7 +18018,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-english"
     },
     {
-      "id": "mpsc-tax-0003",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-english-q003",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Verb tense fill-in-blank (compound)",
@@ -18037,7 +18037,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-english"
     },
     {
-      "id": "mpsc-tax-0004",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-english-q004",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Sentence transformation (compound)",
@@ -18056,7 +18056,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-english"
     },
     {
-      "id": "mpsc-tax-0005",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-english-q005",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Sentence transformation & clause labeling (compound)",
@@ -18075,7 +18075,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-english"
     },
     {
-      "id": "mpsc-tax-0006",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-english-q006",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Parts of speech identification",
@@ -18094,7 +18094,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-english"
     },
     {
-      "id": "mpsc-tax-0007",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-english-q007",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Parts of speech identification",
@@ -18113,7 +18113,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-english"
     },
     {
-      "id": "mpsc-tax-0008",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-english-q008",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Parts of speech identification",
@@ -18132,7 +18132,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-english"
     },
     {
-      "id": "mpsc-tax-0009",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-english-q009",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Parts of speech identification",
@@ -18151,7 +18151,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-english"
     },
     {
-      "id": "mpsc-tax-0010",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-english-q010",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Parts of speech identification",
@@ -18170,7 +18170,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-english"
     },
     {
-      "id": "mpsc-tax-0011",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-english-q011",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Parts of speech identification",
@@ -18189,7 +18189,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-english"
     },
     {
-      "id": "mpsc-tax-0012",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-english-q012",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Parts of speech identification",
@@ -18208,7 +18208,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-english"
     },
     {
-      "id": "mpsc-tax-0013",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-english-q013",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Parts of speech identification",
@@ -18227,7 +18227,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-english"
     },
     {
-      "id": "mpsc-tax-0014",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-english-q014",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Parts of speech identification",
@@ -18246,7 +18246,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-english"
     },
     {
-      "id": "mpsc-tax-0015",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-english-q015",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Parts of speech identification",
@@ -18265,7 +18265,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-english"
     },
     {
-      "id": "mpsc-tax-0016",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-english-q016",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Preposition usage",
@@ -18284,7 +18284,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-english"
     },
     {
-      "id": "mpsc-tax-0017",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-english-q017",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Preposition usage",
@@ -18303,7 +18303,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-english"
     },
     {
-      "id": "mpsc-tax-0018",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-english-q018",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Preposition usage",
@@ -18322,7 +18322,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-english"
     },
     {
-      "id": "mpsc-tax-0019",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-english-q019",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Preposition usage",
@@ -18341,7 +18341,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-english"
     },
     {
-      "id": "mpsc-tax-0020",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-english-q020",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Preposition usage",
@@ -18360,7 +18360,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-english"
     },
     {
-      "id": "mpsc-tax-0021",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-english-q021",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Preposition usage",
@@ -18379,7 +18379,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-english"
     },
     {
-      "id": "mpsc-tax-0022",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-english-q022",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Preposition usage",
@@ -18398,7 +18398,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-english"
     },
     {
-      "id": "mpsc-tax-0023",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-english-q023",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Preposition usage",
@@ -18417,7 +18417,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-english"
     },
     {
-      "id": "mpsc-tax-0024",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-english-q024",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Preposition usage",
@@ -18436,7 +18436,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-english"
     },
     {
-      "id": "mpsc-tax-0025",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-english-q025",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Preposition usage",
@@ -18455,7 +18455,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-english"
     },
     {
-      "id": "mpsc-tax-0026",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-english-q026",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Contextual word choice",
@@ -18474,7 +18474,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-english"
     },
     {
-      "id": "mpsc-tax-0027",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-english-q027",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Contextual word choice",
@@ -18493,7 +18493,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-english"
     },
     {
-      "id": "mpsc-tax-0028",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-english-q028",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Contextual word choice",
@@ -18512,7 +18512,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-english"
     },
     {
-      "id": "mpsc-tax-0029",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-english-q029",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Contextual word choice",
@@ -18531,7 +18531,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-english"
     },
     {
-      "id": "mpsc-tax-0030",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-english-q030",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Contextual word choice",
@@ -18550,7 +18550,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-english"
     },
     {
-      "id": "mpsc-tax-0031",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-english-q031",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Contextual word choice",
@@ -18569,7 +18569,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-english"
     },
     {
-      "id": "mpsc-tax-0032",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-english-q032",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Contextual word choice",
@@ -18588,7 +18588,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-english"
     },
     {
-      "id": "mpsc-tax-0033",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-english-q033",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Contextual word choice",
@@ -18607,7 +18607,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-english"
     },
     {
-      "id": "mpsc-tax-0034",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-english-q034",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Synonyms",
@@ -18626,7 +18626,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-english"
     },
     {
-      "id": "mpsc-tax-0035",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-english-q035",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Verbal analogy",
@@ -18645,7 +18645,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-english"
     },
     {
-      "id": "mpsc-tax-0036",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-english-q036",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Correct word usage",
@@ -18664,7 +18664,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-english"
     },
     {
-      "id": "mpsc-tax-0037",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-english-q037",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Correct word usage",
@@ -18683,7 +18683,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-english"
     },
     {
-      "id": "mpsc-tax-0038",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-english-q038",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Antonyms",
@@ -18702,7 +18702,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-english"
     },
     {
-      "id": "mpsc-tax-0039",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-english-q039",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Contextual word choice",
@@ -18721,7 +18721,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-english"
     },
     {
-      "id": "mpsc-tax-0040",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-english-q040",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Antonyms",
@@ -18740,7 +18740,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-english"
     },
     {
-      "id": "mpsc-tax-0041",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-english-q041",
       "subject": "english",
       "topic": "eng_vocab",
       "topicLabel": "Contextual word choice",
@@ -18759,7 +18759,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-english"
     },
     {
-      "id": "mpsc-tax-0001",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-i-q001",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "English-I",
@@ -18778,7 +18778,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-i"
     },
     {
-      "id": "mpsc-tax-0002",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-i-q002",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "English-I",
@@ -18797,7 +18797,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-english-i"
     },
     {
-      "id": "mpsc-tax-0001",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q001",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Charter Act 1833 & Indians in service",
@@ -18816,7 +18816,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0002",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q002",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Ram Mohan Roy's reforms",
@@ -18835,7 +18835,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0003",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q003",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Ramakrishna Paramahamsa identity",
@@ -18854,7 +18854,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0004",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q004",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Champaran & Tinkathia system",
@@ -18873,7 +18873,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0005",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q005",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Aligarh Muslim University origins",
@@ -18892,7 +18892,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0006",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q006",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Gandhi's ideological influences",
@@ -18911,7 +18911,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0007",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q007",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Dadabhai Naoroji epithet",
@@ -18930,7 +18930,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0008",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q008",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "1946 Cabinet Mission members",
@@ -18949,7 +18949,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0009",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q009",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Indigo Revolt in Bengal",
@@ -18968,7 +18968,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0010",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q010",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Khilafat-NCM alliance",
@@ -18987,7 +18987,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0011",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q011",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Dandi March starting point",
@@ -19006,7 +19006,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0012",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q012",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Azad Hind Fauj formation",
@@ -19025,7 +19025,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0013",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q013",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Indian Renaissance epithet",
@@ -19044,7 +19044,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0014",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q014",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Doctrine of paramountcy",
@@ -19063,7 +19063,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0015",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q015",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Subsidiary Alliance features",
@@ -19082,7 +19082,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0016",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q016",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Anglo-Maratha War timeline",
@@ -19101,7 +19101,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0017",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q017",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "British motives for education",
@@ -19120,7 +19120,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0018",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q018",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Industrial revolution's impact on India",
@@ -19139,7 +19139,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0019",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q019",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Early anti-British revolts",
@@ -19158,7 +19158,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0020",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q020",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Mangal Pandey's mutiny",
@@ -19177,7 +19177,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0021",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q021",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Muslim presidents of INC",
@@ -19196,7 +19196,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0022",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q022",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Swadeshi Movement participants",
@@ -19215,7 +19215,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0023",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q023",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Rowlatt Act & Jallianwala Bagh",
@@ -19234,7 +19234,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0024",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q024",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Khilafat Movement leaders",
@@ -19253,7 +19253,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0025",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q025",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Chauri Chaura & NCM withdrawal",
@@ -19272,7 +19272,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0026",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q026",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "UN International Year of Cooperatives 2025",
@@ -19291,7 +19291,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0027",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q027",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Pahalgam terror attack date",
@@ -19310,7 +19310,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0028",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q028",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Union Cooperation Ministry",
@@ -19329,7 +19329,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0029",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q029",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "South Korea 2025 presidential election",
@@ -19348,7 +19348,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0030",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q030",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "G7 Summit 2025 host",
@@ -19367,7 +19367,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0031",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q031",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Bairabi-Sairang railway line",
@@ -19386,7 +19386,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0032",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q032",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Axiom-4 ISS mission",
@@ -19405,7 +19405,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0033",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q033",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Trump's gifted Boeing 747",
@@ -19424,7 +19424,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0034",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q034",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "BRICS Summit 2025 host",
@@ -19443,7 +19443,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0035",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q035",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "French Open 2025 champion",
@@ -19462,7 +19462,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0036",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q036",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "R. Lalrawna's Padma Shri",
@@ -19481,7 +19481,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0037",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q037",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Oscars 2025 big winner",
@@ -19500,7 +19500,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0038",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q038",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Myanmar's military junta name",
@@ -19519,7 +19519,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0039",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q039",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Schengen Area 2025 expansion",
@@ -19538,7 +19538,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0040",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q040",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "World leaders as of mid-2025",
@@ -19557,7 +19557,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0041",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q041",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Kumbh Mela 2025 venue",
@@ -19576,7 +19576,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0042",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q042",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Air India Flight 171 crash",
@@ -19595,7 +19595,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0043",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q043",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "PM Svanidhi scheme revamp",
@@ -19614,7 +19614,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0044",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q044",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Pakistan's Operation Sindoor response",
@@ -19633,7 +19633,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0045",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q045",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "INS Brahmaputra incident",
@@ -19652,7 +19652,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0046",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q046",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Bullseye Galaxy discovery",
@@ -19671,7 +19671,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0047",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q047",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Modi's Mauritius honour",
@@ -19690,7 +19690,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0048",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q048",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "UPI's developing institution",
@@ -19709,7 +19709,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0049",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q049",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "LIBA & neighbourhood trade",
@@ -19728,7 +19728,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0050",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q050",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "M23 rebels & DRC conflict",
@@ -19747,7 +19747,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i"
     },
     {
-      "id": "mpsc-tax-0001",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q001",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "National movement slogans & authors",
@@ -19766,7 +19766,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0002",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q002",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Champaran Satyagraha 1917",
@@ -19785,7 +19785,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0003",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q003",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Raja Ram Mohan Roy reforms",
@@ -19804,7 +19804,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0004",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q004",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Jallianwala Bagh aftermath",
@@ -19823,7 +19823,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0005",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q005",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Nehruvian socialist pattern",
@@ -19842,7 +19842,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0006",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q006",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Gandhian Gram Swaraj",
@@ -19861,7 +19861,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0007",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q007",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Constitution commencement date",
@@ -19880,7 +19880,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0008",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q008",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Fundamental Rights \u2014 citizens only",
@@ -19899,7 +19899,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0009",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q009",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "President eligibility criteria",
@@ -19918,7 +19918,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0010",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q010",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Vice-President election",
@@ -19937,7 +19937,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0011",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q011",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Article 3 \u2014 state reorganisation",
@@ -19956,7 +19956,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0012",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q012",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Balwant Rai Mehta 3-tier structure",
@@ -19975,7 +19975,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0013",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q013",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Caste-based politics",
@@ -19994,7 +19994,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0014",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q014",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Class vs caste stratification",
@@ -20013,7 +20013,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0015",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q015",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "ECI recognition of state party",
@@ -20032,7 +20032,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0016",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q016",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Dalit temple-entry movements",
@@ -20051,7 +20051,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0017",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q017",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Panchayati Raj first implementation",
@@ -20070,7 +20070,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0018",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q018",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Features of Indian democracy",
@@ -20089,7 +20089,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0019",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q019",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Governor's powers",
@@ -20108,7 +20108,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0020",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q020",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Mountbatten Plan 1947",
@@ -20127,7 +20127,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0021",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q021",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Five Year Plan economic models",
@@ -20146,7 +20146,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0022",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q022",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Financial inclusion measures",
@@ -20165,7 +20165,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0023",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q023",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Agricultural 'revolutions' terminology",
@@ -20184,7 +20184,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0024",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q024",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Fiscal response to supply-shock inflation",
@@ -20203,7 +20203,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0025",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q025",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Poverty definitions",
@@ -20222,7 +20222,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0026",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q026",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Public sector objectives",
@@ -20241,7 +20241,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0027",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q027",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Sectoral classification of economy",
@@ -20260,7 +20260,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0028",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q028",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "HDI-SDG Assertion-Reason (OCR bleed)",
@@ -20279,7 +20279,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0029",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q029",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Sectoral employment share (OCR-lost stem)",
@@ -20298,7 +20298,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0030",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q030",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "DILRMP funding pattern",
@@ -20317,7 +20317,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0031",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q031",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Industrial Policy Resolution 1956",
@@ -20336,7 +20336,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0032",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q032",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Stock market vs money market",
@@ -20355,7 +20355,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0033",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q033",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "FDI sources Assertion-Reason (OCR bleed)",
@@ -20374,7 +20374,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0034",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q034",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Fiscal policy components (OCR-lost stem)",
@@ -20393,7 +20393,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0035",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q035",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Market Stabilisation Scheme",
@@ -20412,7 +20412,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0036",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q036",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "India GDP growth FY2024-25",
@@ -20431,7 +20431,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0037",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q037",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "India's Foreign Trade Policy phases",
@@ -20450,7 +20450,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0038",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q038",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Planning Commission leadership",
@@ -20469,7 +20469,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0039",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q039",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "NITI Aayog objectives",
@@ -20488,7 +20488,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0040",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q040",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Public Distribution System origins",
@@ -20507,7 +20507,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0041",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q041",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "India's geological structural divisions",
@@ -20526,7 +20526,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0042",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q042",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Census urban classification",
@@ -20545,7 +20545,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0043",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q043",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Named agricultural revolutions matching",
@@ -20564,7 +20564,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0044",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q044",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Indian coal characteristics",
@@ -20583,7 +20583,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0045",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q045",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "NH-06 route through North-East",
@@ -20602,7 +20602,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0046",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q046",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Regional imbalance correction schemes",
@@ -20621,7 +20621,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0047",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q047",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "China's Indian Ocean strategy",
@@ -20640,7 +20640,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0048",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q048",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Planned vs unplanned settlements",
@@ -20659,7 +20659,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0049",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q049",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "India-Nepal border disputes",
@@ -20678,7 +20678,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0050",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii-q050",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Rural vs urban settlement traits",
@@ -20697,7 +20697,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii"
     },
     {
-      "id": "mpsc-tax-0001",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q001",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "Bt cotton & GM crops",
@@ -20716,7 +20716,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0002",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q002",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "MeitY startup schemes",
@@ -20735,7 +20735,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0003",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q003",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "Nuclear fusion vs fission",
@@ -20754,7 +20754,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0004",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q004",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "AI in education (OCR-corrupted)",
@@ -20773,7 +20773,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0005",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q005",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "Astrophysics named limits",
@@ -20792,7 +20792,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0006",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q006",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "Agricultural scientists & titles",
@@ -20811,7 +20811,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0007",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q007",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "Indigenous rail safety tech (Kavach)",
@@ -20830,7 +20830,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0008",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q008",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "Supercomputing (NSM, PARAM series)",
@@ -20849,7 +20849,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0009",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q009",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "Digital India infrastructure (DigiLocker/Aadhaar)",
@@ -20868,7 +20868,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0010",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q010",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "CRISPR diagnostics (FELUDA)",
@@ -20887,7 +20887,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0011",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q011",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "Deep Ocean Mission & polymetallic nodules",
@@ -20906,7 +20906,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0012",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q012",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "UPI architecture",
@@ -20925,7 +20925,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0013",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q013",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "Indigenous missile systems",
@@ -20944,7 +20944,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0014",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q014",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "Bioremediation innovations",
@@ -20963,7 +20963,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0015",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q015",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "5G policy in India",
@@ -20982,7 +20982,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0016",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q016",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "Industry 4.0 initiatives",
@@ -21001,7 +21001,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0017",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q017",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "Defence PSUs & strategic materials",
@@ -21020,7 +21020,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0018",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q018",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "Classification: insects vs arachnids",
@@ -21039,7 +21039,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0019",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q019",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "Plant physiology basics",
@@ -21058,7 +21058,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0020",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q020",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "ISRO cryogenic engines",
@@ -21077,7 +21077,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0021",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q021",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "Traditional Mizo textiles",
@@ -21096,7 +21096,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0022",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q022",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "Mizo marriage customs",
@@ -21115,7 +21115,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0023",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q023",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "Mizo inter-clan wars",
@@ -21134,7 +21134,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0024",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q024",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "Traditional Mizo chieftainship taxes",
@@ -21153,7 +21153,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0025",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q025",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "Mizo script origin",
@@ -21172,7 +21172,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0026",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q026",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "Mizo folk song traditions (Zai)",
@@ -21191,7 +21191,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0027",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q027",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "Inner Line Permit system history",
@@ -21210,7 +21210,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0028",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q028",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "Colonial establishment of Aizawl",
@@ -21229,7 +21229,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0029",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q029",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "Tribal traditional dresses of Mizoram",
@@ -21248,7 +21248,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0030",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q030",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "Mizoram political history - firsts",
@@ -21267,7 +21267,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0031",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q031",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "Mizo Peace Accord 1986",
@@ -21286,7 +21286,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0032",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q032",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "Traditional Mizo chief's house architecture",
@@ -21305,7 +21305,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0033",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q033",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "Mizoram district reorganization 1998",
@@ -21324,7 +21324,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0034",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q034",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "Bawi & Sal system in Mizo society",
@@ -21343,7 +21343,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0035",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q035",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "British colonial policy shift in Lushai Hills",
@@ -21362,7 +21362,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0036",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q036",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "Early Mizo student/political organizations",
@@ -21381,7 +21381,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0037",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q037",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "Sixth Schedule & Autonomous District Councils",
@@ -21400,7 +21400,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0038",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q038",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "Lushai Hills District Council history",
@@ -21419,7 +21419,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0039",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q039",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "Mizoram administrative divisions",
@@ -21438,7 +21438,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0040",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q040",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "Mizo customary marriage & property law",
@@ -21457,7 +21457,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0041",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q041",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "Number puzzles - missing digit",
@@ -21476,7 +21476,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0042",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q042",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "Verbal analogy",
@@ -21495,7 +21495,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0043",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q043",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "Blood relations puzzle",
@@ -21514,7 +21514,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0044",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q044",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "Odd word out - vocabulary",
@@ -21533,7 +21533,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0045",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q045",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "Number series - doubling differences",
@@ -21552,7 +21552,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0046",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q046",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "Number series - two interleaved sequences",
@@ -21571,7 +21571,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0047",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q047",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "Number series - prime differences",
@@ -21590,7 +21590,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0048",
+      "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii-q048",
       "subject": "gk",
       "topic": "other",
       "topicLabel": "Figure sequence (diagram-based, unreconstructable)",
@@ -21609,7 +21609,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
     },
     {
-      "id": "mpsc-tax-0001",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-english-q001",
       "subject": "gk",
       "topic": "eng_precis_letter",
       "topicLabel": "Pr\u00e9cis writing & letter writing tasks",
@@ -21628,7 +21628,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-english"
     },
     {
-      "id": "mpsc-tax-0002",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-english-q002",
       "subject": "english",
       "topic": "eng_comprehension",
       "topicLabel": "Comprehension: title/gist/vocab-in-context",
@@ -21647,7 +21647,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-english"
     },
     {
-      "id": "mpsc-tax-0003",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-english-q003",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Parts of speech identification",
@@ -21666,7 +21666,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-english"
     },
     {
-      "id": "mpsc-tax-0004",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-english-q004",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Correct word-form grammar drill",
@@ -21685,7 +21685,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-english"
     },
     {
-      "id": "mpsc-tax-0005",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-english-q005",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Preposition usage & subject-verb agreement",
@@ -21704,7 +21704,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-english"
     },
     {
-      "id": "mpsc-tax-0006",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-english-q006",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Subject-verb agreement & verb tense cloze",
@@ -21723,7 +21723,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-english"
     },
     {
-      "id": "mpsc-tax-0007",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-english-q007",
       "subject": "english",
       "topic": "eng_grammar",
       "topicLabel": "Verb tense cloze & sentence transformation intro",
@@ -21742,7 +21742,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-english"
     },
     {
-      "id": "mpsc-tax-0008",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-english-q008",
       "subject": "english",
       "topic": "eng_sentence",
       "topicLabel": "Sentence transformation (voice/mood/type)",
@@ -21761,7 +21761,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-english"
     },
     {
-      "id": "mpsc-tax-0001",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q001",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Mughal farmans & English trade",
@@ -21780,7 +21780,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0002",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q002",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Carnatic Wars origins",
@@ -21799,7 +21799,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0003",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q003",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Bengal Nawabs & British conflict",
@@ -21818,7 +21818,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0004",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q004",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Grant of Diwani 1765",
@@ -21837,7 +21837,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0005",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q005",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Subsidiary Alliance system",
@@ -21856,7 +21856,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0006",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q006",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Permanent Settlement / Zamindari",
@@ -21875,7 +21875,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0007",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q007",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Annexation of Awadh 1856",
@@ -21894,7 +21894,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0008",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q008",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Early revenue administration",
@@ -21913,7 +21913,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0009",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q009",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Railways & infrastructure in colonial India",
@@ -21932,7 +21932,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0010",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q010",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Socio-religious reform movements",
@@ -21951,7 +21951,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0011",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q011",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Constitutional Acts - Governor-General",
@@ -21970,7 +21970,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0012",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q012",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Ryotwari Settlement",
@@ -21989,7 +21989,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0013",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q013",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Indigo Revolt 1859-60",
@@ -22008,7 +22008,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0014",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q014",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Indians in Civil Services",
@@ -22027,7 +22027,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0015",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q015",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Doctrine of Lapse",
@@ -22046,7 +22046,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0016",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q016",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Deccan Riots 1875",
@@ -22065,7 +22065,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0017",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q017",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Mughal-era trade terminology",
@@ -22084,7 +22084,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0018",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q018",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Moplah Rebellion 1921",
@@ -22103,7 +22103,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0019",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q019",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Early political associations",
@@ -22122,7 +22122,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0020",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q020",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Print culture in colonial India",
@@ -22141,7 +22141,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0021",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q021",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Demand for Pakistan",
@@ -22160,7 +22160,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0022",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q022",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Protest against British repression",
@@ -22179,7 +22179,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0023",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q023",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Moderate vs Extremist phase",
@@ -22198,7 +22198,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0024",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q024",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Congress sessions",
@@ -22217,7 +22217,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0025",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q025",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Mizoram education statistics",
@@ -22236,7 +22236,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0026",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q026",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "India-Maldives relations 2024",
@@ -22255,7 +22255,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0027",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q027",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "India's naval exercises 2024",
@@ -22274,7 +22274,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0028",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q028",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Republic Day chief guest 2024",
@@ -22293,7 +22293,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0029",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q029",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Uniform Civil Code implementation",
@@ -22312,7 +22312,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0030",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q030",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Digital library initiatives",
@@ -22331,7 +22331,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0031",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q031",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Research on air pollution",
@@ -22350,7 +22350,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0032",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q032",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "National children's awards 2024",
@@ -22369,7 +22369,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0033",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q033",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Indian diplomatic appointments 2024",
@@ -22388,7 +22388,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0034",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q034",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "International crime current affairs",
@@ -22407,7 +22407,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0035",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q035",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "International current affairs - Africa",
@@ -22426,7 +22426,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0036",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q036",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "International current affairs - media awards",
@@ -22445,7 +22445,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0037",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q037",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "International current affairs - Russia",
@@ -22464,7 +22464,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0038",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q038",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Mizoram Education Reforms Committee",
@@ -22483,7 +22483,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0039",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q039",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "UPI international expansion",
@@ -22502,7 +22502,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0040",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q040",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "WHO health themes",
@@ -22521,7 +22521,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0041",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q041",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "AI / LLM current affairs",
@@ -22540,7 +22540,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0042",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q042",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "BRICS expansion 2024",
@@ -22559,7 +22559,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0043",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q043",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Old Pension Scheme reinstatement",
@@ -22578,7 +22578,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0044",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q044",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "International current affairs - Taiwan",
@@ -22597,7 +22597,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0045",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q045",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Women's Reservation (128th Amendment)",
@@ -22616,7 +22616,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0046",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q046",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "International energy conferences",
@@ -22635,7 +22635,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0047",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q047",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "Government accounting awards",
@@ -22654,7 +22654,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0048",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q048",
       "subject": "current-affairs",
       "topic": "gs1_current",
       "topicLabel": "India-Myanmar-Thailand connectivity",
@@ -22673,7 +22673,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0049",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q049",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "6G technology initiatives",
@@ -22692,7 +22692,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i"
     },
     {
-      "id": "mpsc-tax-0001",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q001",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "M.N. Roy & Radical Humanism",
@@ -22711,7 +22711,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0002",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q002",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Nationalist slogans - Tilak",
@@ -22730,7 +22730,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0003",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q003",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Gandhi's Satyagraha philosophy",
@@ -22749,7 +22749,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0004",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q004",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Sri Aurobindo's philosophy",
@@ -22768,7 +22768,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0005",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q005",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Nehruvian socialism",
@@ -22787,7 +22787,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0006",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q006",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Simon Commission boycott",
@@ -22806,7 +22806,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0007",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q007",
       "subject": "history",
       "topic": "gs1_history",
       "topicLabel": "Purna Swaraj resolution - Lahore session",
@@ -22825,7 +22825,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0008",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q008",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "73rd Amendment - exempted states",
@@ -22844,7 +22844,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0009",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q009",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "73rd Amendment - Panchayati Raj status",
@@ -22863,7 +22863,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0010",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q010",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Lokayukta reporting authority",
@@ -22882,7 +22882,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0011",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q011",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Schedules - Anti-Defection (10th)",
@@ -22901,7 +22901,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0012",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q012",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "86th Amendment - RTE as Fundamental Right",
@@ -22920,7 +22920,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0013",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q013",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Parliamentary session terminology",
@@ -22939,7 +22939,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0014",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q014",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "National Development Council - founding",
@@ -22958,7 +22958,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0015",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q015",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Judicial review - features",
@@ -22977,7 +22977,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0016",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q016",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Political party recognition - ECI",
@@ -22996,7 +22996,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0017",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q017",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "National party recognition criteria",
@@ -23015,7 +23015,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0018",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q018",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Five-Year Plan slogans",
@@ -23034,7 +23034,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0019",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q019",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Leader of Opposition recognition rule",
@@ -23053,7 +23053,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0020",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q020",
       "subject": "polity",
       "topic": "gs2_polity",
       "topicLabel": "Judicial review terminology - ultra vires",
@@ -23072,7 +23072,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0021",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q021",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "RBI establishment date",
@@ -23091,7 +23091,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0022",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q022",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Standard of living indicators",
@@ -23110,7 +23110,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0023",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q023",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "India's economic system",
@@ -23129,7 +23129,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0024",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q024",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Economic planning - constitutional list",
@@ -23148,7 +23148,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0025",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q025",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "AGMARK Act history",
@@ -23167,7 +23167,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0026",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q026",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "National income estimation - first estimate",
@@ -23186,7 +23186,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0027",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q027",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Rice production - leading state",
@@ -23205,7 +23205,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0028",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q028",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Oldest industry in India",
@@ -23224,7 +23224,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0029",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q029",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "LPG reforms 1991 - Narasimha Rao",
@@ -23243,7 +23243,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0030",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q030",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "MPI dimensions",
@@ -23262,7 +23262,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0031",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q031",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Sectoral GDP contribution",
@@ -23281,7 +23281,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0032",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q032",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Poverty estimation methodology body",
@@ -23300,7 +23300,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0033",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q033",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Operation Flood - White Revolution",
@@ -23319,7 +23319,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0034",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q034",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Green Revolution personalities",
@@ -23338,7 +23338,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0035",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q035",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "FCI role",
@@ -23357,7 +23357,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0036",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q036",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Fiscal policy definition",
@@ -23376,7 +23376,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0037",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q037",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Largest commercial bank - SBI",
@@ -23395,7 +23395,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0038",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q038",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Himalaya nomenclature - Himadri",
@@ -23414,7 +23414,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0039",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q039",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Soil types - alluvial",
@@ -23433,7 +23433,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0040",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q040",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Physical geography terms",
@@ -23452,7 +23452,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0041",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q041",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Silent Valley - Kerala",
@@ -23471,7 +23471,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0042",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q042",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Dampa Tiger Reserve - area",
@@ -23490,7 +23490,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0043",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q043",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Desert landforms - Barkhans",
@@ -23509,7 +23509,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0044",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q044",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Indira Gandhi Canal - Rajasthan",
@@ -23528,7 +23528,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0045",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q045",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Chota Nagpur plateau - mineral wealth",
@@ -23547,7 +23547,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0046",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q046",
       "subject": "geography",
       "topic": "gs2_geography",
       "topicLabel": "Indian Railways zones",
@@ -23566,7 +23566,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0047",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii-q047",
       "subject": "economics",
       "topic": "gs2_economy",
       "topicLabel": "Mineral-based industries - Iron & Steel",
@@ -23585,7 +23585,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii"
     },
     {
-      "id": "mpsc-tax-0001",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q001",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Pendulum motion & energy conversion",
@@ -23604,7 +23604,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
     },
     {
-      "id": "mpsc-tax-0002",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q002",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Physical vs chemical change",
@@ -23623,7 +23623,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
     },
     {
-      "id": "mpsc-tax-0003",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q003",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Chandrayaan-3 mission objectives",
@@ -23642,7 +23642,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
     },
     {
-      "id": "mpsc-tax-0004",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q004",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Biological catalysts - enzymes",
@@ -23661,7 +23661,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
     },
     {
-      "id": "mpsc-tax-0005",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q005",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Machine learning - definition",
@@ -23680,7 +23680,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
     },
     {
-      "id": "mpsc-tax-0006",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q006",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Deep learning basics",
@@ -23699,7 +23699,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
     },
     {
-      "id": "mpsc-tax-0007",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q007",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Remote sensing - SAR imaging",
@@ -23718,7 +23718,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
     },
     {
-      "id": "mpsc-tax-0008",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q008",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "e-Governance schemes",
@@ -23737,7 +23737,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
     },
     {
-      "id": "mpsc-tax-0009",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q009",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Cybersecurity - ransomware advisories",
@@ -23756,7 +23756,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
     },
     {
-      "id": "mpsc-tax-0010",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q010",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "AI - neural network foundations",
@@ -23775,7 +23775,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
     },
     {
-      "id": "mpsc-tax-0011",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q011",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Pokhran-II nuclear tests",
@@ -23794,7 +23794,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
     },
     {
-      "id": "mpsc-tax-0012",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q012",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "New species discovered in Mizoram",
@@ -23813,7 +23813,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
     },
     {
-      "id": "mpsc-tax-0013",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q013",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Artemis Accords - India's accession",
@@ -23832,7 +23832,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
     },
     {
-      "id": "mpsc-tax-0014",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q014",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Genetic engineering basics",
@@ -23851,7 +23851,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
     },
     {
-      "id": "mpsc-tax-0015",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q015",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "India's national AI programme",
@@ -23870,7 +23870,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
     },
     {
-      "id": "mpsc-tax-0016",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q016",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "New species named after ISRO",
@@ -23889,7 +23889,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
     },
     {
-      "id": "mpsc-tax-0017",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q017",
       "subject": "science",
       "topic": "gs3_scitech",
       "topicLabel": "Indian humanoid robots",
@@ -23908,7 +23908,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
     },
     {
-      "id": "mpsc-tax-0018",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q018",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Mizo agricultural rituals",
@@ -23927,7 +23927,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
     },
     {
-      "id": "mpsc-tax-0019",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q019",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Zawlbuk institution",
@@ -23946,7 +23946,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
     },
     {
-      "id": "mpsc-tax-0020",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q020",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Village regrouping scheme",
@@ -23965,7 +23965,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
     },
     {
-      "id": "mpsc-tax-0021",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q021",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Mizo Bible translation history",
@@ -23984,7 +23984,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
     },
     {
-      "id": "mpsc-tax-0022",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q022",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Early Mizo press history",
@@ -24003,7 +24003,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
     },
     {
-      "id": "mpsc-tax-0023",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q023",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Traditional Mizo musical instruments",
@@ -24022,7 +24022,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
     },
     {
-      "id": "mpsc-tax-0024",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q024",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Mizo literary awards",
@@ -24041,7 +24041,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
     },
     {
-      "id": "mpsc-tax-0025",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q025",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Mizoram state symbols",
@@ -24060,7 +24060,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
     },
     {
-      "id": "mpsc-tax-0026",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q026",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Traditional Mizo hunting gear",
@@ -24079,7 +24079,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
     },
     {
-      "id": "mpsc-tax-0027",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q027",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "British administrators of Lushai Hills",
@@ -24098,7 +24098,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
     },
     {
-      "id": "mpsc-tax-0028",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q028",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Mizo political history",
@@ -24117,7 +24117,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
     },
     {
-      "id": "mpsc-tax-0029",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q029",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Christian missions in Mizoram",
@@ -24136,7 +24136,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
     },
     {
-      "id": "mpsc-tax-0030",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q030",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Colonial military expeditions",
@@ -24155,7 +24155,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
     },
     {
-      "id": "mpsc-tax-0031",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q031",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "British officers with Mizo nicknames",
@@ -24174,7 +24174,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
     },
     {
-      "id": "mpsc-tax-0032",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q032",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Abolition of the Bawi system",
@@ -24193,7 +24193,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
     },
     {
-      "id": "mpsc-tax-0033",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q033",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Mizo folklore",
@@ -24212,7 +24212,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
     },
     {
-      "id": "mpsc-tax-0034",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q034",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Traditional Mizo weaving tools",
@@ -24231,7 +24231,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
     },
     {
-      "id": "mpsc-tax-0035",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q035",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Mizo Padma award recipients",
@@ -24250,7 +24250,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
     },
     {
-      "id": "mpsc-tax-0036",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q036",
       "subject": "gk",
       "topic": "gs3_mizoram",
       "topicLabel": "Mizo traditional dance",
@@ -24269,7 +24269,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
     },
     {
-      "id": "mpsc-tax-0037",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q037",
       "subject": "reasoning",
       "topic": "gs3_aptitude",
       "topicLabel": "Letter series reasoning",
@@ -24288,7 +24288,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
     },
     {
-      "id": "mpsc-tax-0038",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q038",
       "subject": "reasoning",
       "topic": "gs3_aptitude",
       "topicLabel": "Verbal analogy - legal correlatives",
@@ -24307,7 +24307,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
     },
     {
-      "id": "mpsc-tax-0039",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q039",
       "subject": "reasoning",
       "topic": "gs3_aptitude",
       "topicLabel": "Figure rotation reasoning",
@@ -24326,7 +24326,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
     },
     {
-      "id": "mpsc-tax-0040",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q040",
       "subject": "reasoning",
       "topic": "gs3_aptitude",
       "topicLabel": "Verbal analogy - tool to vehicle",
@@ -24345,7 +24345,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
     },
     {
-      "id": "mpsc-tax-0041",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q041",
       "subject": "reasoning",
       "topic": "gs3_aptitude",
       "topicLabel": "Figure/number series (OCR-corrupted)",
@@ -24364,7 +24364,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
     },
     {
-      "id": "mpsc-tax-0042",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q042",
       "subject": "reasoning",
       "topic": "gs3_aptitude",
       "topicLabel": "Unrecoverable item (OCR bleed)",
@@ -24383,7 +24383,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
     },
     {
-      "id": "mpsc-tax-0043",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q043",
       "subject": "reasoning",
       "topic": "gs3_aptitude",
       "topicLabel": "Verbal analogy - trait pairs",
@@ -24402,7 +24402,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
     },
     {
-      "id": "mpsc-tax-0044",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q044",
       "subject": "reasoning",
       "topic": "gs3_aptitude",
       "topicLabel": "Verbal analogy - creator to document",
@@ -24421,7 +24421,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
     },
     {
-      "id": "mpsc-tax-0045",
+      "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii-q045",
       "subject": "reasoning",
       "topic": "gs3_aptitude",
       "topicLabel": "Verbal analogy - counting action to object",

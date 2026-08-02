@@ -34,7 +34,7 @@ export interface ExamPaper {
   paperNumber?: string;
   /** e.g. 'General Studies', 'General English'. */
   paperSubject: string;
-  year: number;
+  year?: number;
   /** Original source file, relative to its archive root — for provenance/audit. */
   sourceFile?: string;
 }
@@ -42,7 +42,7 @@ export interface ExamPaper {
 export interface BankQuestion {
   /** Globally unique — prefix with the bank id, e.g. 'codex-hist-001'. */
   id: string;
-  subject: SubjectId | 'gk' | 'current-affairs' | 'english' | 'reasoning' | 'science' | 'economics' | 'polity' | 'geography' | 'history';
+  subject: SubjectId | 'gk' | 'current-affairs' | 'english' | 'reasoning' | 'science' | 'economics' | 'polity' | 'geography' | 'history' | 'chemistry' | 'physics' | 'biology';
   /** Machine topic id (filterable), e.g. 'fr', 'parl'. */
   topic: string;
   /** Human topic label, e.g. 'Fundamental Rights'. */

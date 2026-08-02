@@ -4,3 +4,9 @@ dist
 *.local
 .vscode/*
 !.vscode/extensions.json
+
+# Loose HTML files dropped in the repo root (study material scratch files,
+# not part of the app — real content lives under public/, codex/, labs/).
+# Added 2026-08-02 after several got swept in by an unrelated `git add -A`.
+/*.html
+!/index.html

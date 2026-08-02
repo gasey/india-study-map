@@ -9,6 +9,58 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-08-02 (evening) — Login "Failed to fetch": mpsc-api now on HTTPS
+
+**What shipped:**
+- mpsc-api is now served over HTTPS at `https://api.map.hawayu.in`,
+  replacing the plain-HTTP `http://134.209.154.122/mpsc-api` the frontend
+  used before. `src/lib/mpscApi.ts`'s `API_BASE` updated accordingly.
+- New DNS A record: `api.map.hawayu.in` → `134.209.154.122` (Hostinger).
+- New nginx server block on the droplet, `api.map.hawayu.in`, proxying
+  root path straight to the mpsc-api service on `127.0.0.1:8020` (no
+  `/mpsc-api/` prefix anymore — this subdomain is dedicated to the API,
+  so paths are `https://api.map.hawayu.in/health`,
+  `.../api/auth/login`, etc., not prefixed). Config recorded at
+  `mpsc_api/ops/nginx-api.map.hawayu.in.conf` in that repo.
+- Let's Encrypt cert via certbot (`certbot --nginx -d api.map.hawayu.in`),
+  auto-renews, expires 2026-10-31 (will auto-renew before then).
+- The old `http://134.209.154.122/mpsc-api/` path still works (untouched,
+  separate nginx server block) — not removed, just no longer used by the
+  frontend. Could be torn down later if nothing else references it.
+
+**Why:** user reported login failing with "Failed to fetch". Root cause:
+the deployed site is HTTPS (Vercel), but the API was plain HTTP — browsers
+silently block that as mixed active content, and the resulting error
+(`TypeError: Failed to fetch`) gives no hint that HTTPS is the problem.
+Confirmed by reproducing the exact error via `fetch()` from the live
+`https://india-study-map.vercel.app` origin before touching anything.
+
+The droplet's existing SSL certs are all for `*.shikshacom.com` (a
+different, unrelated project) — reusing one of those would have been the
+fastest fix but would mix this personal project's traffic into the
+Shiksha domain's namespace. Asked the user; they had `map.hawayu.in`
+already pointed at Vercel for the frontend itself, so used
+`api.map.hawayu.in` as a clean, separate subdomain for the API instead.
+
+**Verified live:** reproduced the mixed-content failure via `fetch()` from
+`https://india-study-map.vercel.app`'s own origin first (confirmed root
+cause before fixing), then after the nginx+certbot setup, confirmed
+`https://api.map.hawayu.in/health` and a real login both succeed from
+that same HTTPS origin, and ran the full login flow through the actual
+UI (not just a bare fetch) against the new endpoint.
+
+**What's still open:**
+- The Vercel deployment needs to actually pick up this commit and
+  redeploy before the live site is fixed — should happen automatically
+  on push to `main`, but worth confirming the deploy succeeds (this repo
+  has had silent auto-deploy failures before — see the courses-navigation
+  entry pattern from the india-study-map sibling projects' history).
+- Old IP-based `http://134.209.154.122/mpsc-api/` nginx block is now
+  dead weight (nothing points at it) but wasn't removed — low priority
+  cleanup.
+
+---
+
 ## 2026-08-02 (later same day) — Non-MCQ questions: descriptive viewer + stem/option correction
 
 **What shipped:**

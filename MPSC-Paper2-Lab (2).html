@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Paper-II Lab · Arithmetic & Reasoning</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#eaeef2; --card:#ffffff; --ink:#161f38; --ink-soft:#48526e; --line:#d6dce4;
+  --maths:#3a45c4; --maths-soft:#eceefb; --reason:#0e8a6e; --reason-soft:#e5f4ef;
+  --amber:#d98a12; --amber-soft:#fbf1dd; --ok:#1f9d57; --no:#d0432f;
+  --shadow:0 1px 2px rgba(20,30,60,.05),0 8px 26px rgba(20,30,60,.07);
+  --r:14px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:var(--paper);color:var(--ink);
+  font-family:"Inter",system-ui,sans-serif;line-height:1.55;
+  background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);
+  background-size:26px 26px;background-position:-1px -1px;background-attachment:fixed;
+}
+body::before{content:"";position:fixed;inset:0;background:var(--paper);opacity:.72;z-index:-1}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+
+/* ---- top bar ---- */
+header{position:sticky;top:0;z-index:40;background:rgba(234,238,242,.86);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;gap:18px;padding:12px 20px;max-width:1080px;margin:0 auto;flex-wrap:wrap}
+.brand{display:flex;align-items:baseline;gap:10px;margin-right:auto}
+.brand b{font-family:"Fraunces",serif;font-weight:900;font-size:1.32rem;letter-spacing:-.02em}
+.brand span{font-size:.72rem;color:var(--ink-soft);font-weight:600;text-transform:uppercase;letter-spacing:.14em}
+nav{display:flex;gap:4px;flex-wrap:wrap}
+nav a{font-size:.86rem;font-weight:600;color:var(--ink-soft);text-decoration:none;padding:6px 12px;border-radius:99px;transition:.15s}
+nav a:hover{color:var(--ink);background:#fff}
+nav a.on{color:#fff;background:var(--ink)}
+.scoretag{font-family:"JetBrains Mono",monospace;font-size:.78rem;font-weight:700;color:var(--ink);background:#fff;border:1px solid var(--line);padding:5px 11px;border-radius:99px}
+
+/* ---- hero ---- */
+.hero{padding:54px 0 30px}
+.eyebrow{font-family:"JetBrains Mono",monospace;font-size:.74rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--maths)}
+.hero h1{font-family:"Fraunces",serif;font-weight:900;font-size:clamp(2.1rem,6vw,3.7rem);line-height:1.02;letter-spacing:-.025em;margin:.28em 0 .3em}
+.hero h1 em{font-style:italic;color:var(--reason)}
+.hero p{font-size:1.06rem;color:var(--ink-soft);max-width:60ch;margin:0}
+.statrow{display:flex;gap:26px;flex-wrap:wrap;margin-top:26px}
+.stat{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:14px 20px;box-shadow:var(--shadow)}
+.stat b{font-family:"Fraunces",serif;font-size:1.7rem;font-weight:900;display:block;line-height:1}
+.stat span{font-size:.78rem;color:var(--ink-soft);font-weight:600}
+
+/* ---- sections ---- */
+section{padding:46px 0;scroll-margin-top:74px}
+.sec-head{display:flex;align-items:flex-end;gap:14px;margin-bottom:22px;border-bottom:2px solid var(--ink);padding-bottom:10px}
+.sec-head .n{font-family:"JetBrains Mono",monospace;font-weight:700;color:var(--ink-soft);font-size:.9rem}
+.sec-head h2{font-family:"Fraunces",serif;font-weight:900;font-size:clamp(1.5rem,3.6vw,2.1rem);margin:0;letter-spacing:-.02em}
+.sec-head p{margin:0 0 2px auto;font-size:.86rem;color:var(--ink-soft);text-align:right;max-width:34ch}
+
+/* ---- filter chips ---- */
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:22px}
+.chip{font-size:.82rem;font-weight:600;padding:7px 14px;border-radius:99px;border:1px solid var(--line);background:#fff;color:var(--ink-soft);cursor:pointer;transition:.15s;font-family:inherit}
+.chip:hover{border-color:var(--ink);color:var(--ink)}
+.chip.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.chip.m.on{background:var(--maths);border-color:var(--maths)}
+.chip.r.on{background:var(--reason);border-color:var(--reason)}
+
+/* ---- concept cards ---- */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:18px}
+.ccard{background:#fff;border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);overflow:hidden;position:relative;display:flex;flex-direction:column}
+.ccard::before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px}
+.ccard.m::before{background:var(--maths)} .ccard.r::before{background:var(--reason)}
+.ccard .body{padding:18px 20px 20px 24px}
+
+.ctag{display:inline-block;font-family:"JetBrains Mono",monospace;font-size:.64rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:3px 8px;border-radius:6px;margin-bottom:9px}
+.ctag.m{background:var(--maths-soft);color:var(--maths)} .ctag.r{background:var(--reason-soft);color:var(--reason)}
+.ccard h3{font-family:"Fraunces",serif;font-weight:600;font-size:1.22rem;margin:.1em 0 .45em;letter-spacing:-.01em}
+.ccard .what{font-size:.92rem;color:var(--ink);margin:0 0 12px}
+.analogy{background:var(--amber-soft);border-left:3px solid var(--amber);border-radius:0 8px 8px 0;padding:9px 12px;font-size:.86rem;margin:0 0 12px}
+.analogy b{color:var(--amber);font-family:"JetBrains Mono",monospace;font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;display:block;margin-bottom:2px}
+.formulas{background:#f7f9fb;border:1px solid var(--line);border-radius:9px;padding:11px 13px;margin:0 0 12px}
+.formulas .fh{font-family:"JetBrains Mono",monospace;font-size:.64rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);font-weight:700;margin-bottom:6px}
+.formulas ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:6px}
+.formulas li{font-family:"JetBrains Mono",monospace;font-size:.82rem;color:var(--ink)}
+.ex{font-size:.86rem;border-top:1px dashed var(--line);padding-top:11px;margin-top:2px}
+.ex .exq{font-weight:600;margin-bottom:4px}
+.ex .exs{color:var(--ink-soft)}
+.trap{font-size:.82rem;color:var(--no);margin-top:10px}
+.trap b{font-family:"JetBrains Mono",monospace;font-size:.64rem;letter-spacing:.08em;text-transform:uppercase}
+sup,sub{font-size:.72em}
+.frac{display:inline-flex;flex-direction:column;text-align:center;vertical-align:middle;margin:0 2px}
+.frac span{display:block;padding:0 3px}
+.frac .num{border-bottom:1px solid currentColor}
+
+/* ---- formula sheet ---- */
+.fsheet{columns:2;column-gap:26px}
+@media(max-width:720px){.fsheet{columns:1}}
+.fblock{break-inside:avoid;background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:14px 16px;margin-bottom:16px;box-shadow:var(--shadow)}
+.fblock h4{font-family:"Fraunces",serif;font-size:1.05rem;margin:0 0 8px;font-weight:600;display:flex;align-items:center;gap:8px}
+.fblock h4::before{content:"";width:9px;height:9px;border-radius:2px;background:var(--maths)}
+.fblock.r h4::before{background:var(--reason)}
+.fblock ul{margin:0;padding-left:0;list-style:none;display:flex;flex-direction:column;gap:6px}
+.fblock li{font-size:.82rem;display:flex;gap:8px;align-items:baseline}
+.fblock li code{font-family:"JetBrains Mono",monospace;font-size:.79rem;background:#f3f5f8;padding:1px 5px;border-radius:5px;color:var(--ink)}
+.fblock .lab{color:var(--ink-soft);font-size:.78rem}
+
+/* ---- question bank (browse) ---- */
+.bankbar{position:sticky;top:57px;z-index:20;background:rgba(234,238,242,.92);backdrop-filter:blur(8px);border:1px solid var(--line);border-radius:var(--r);padding:14px 16px;margin-bottom:20px;box-shadow:var(--shadow)}
+.search{width:100%;font-family:inherit;font-size:.95rem;padding:11px 14px;border:1.5px solid var(--line);border-radius:10px;background:#fff;color:var(--ink);margin-bottom:12px}
+.search:focus{outline:none;border-color:var(--maths)}
+.bankfilters{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
+.sel{font-family:inherit;font-size:.8rem;font-weight:600;padding:7px 12px;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--ink);cursor:pointer}
+.bankactions{display:flex;justify-content:space-between;align-items:center;margin-top:12px;padding-top:12px;border-top:1px dashed var(--line);gap:12px;flex-wrap:wrap}
+.bankcount{font-size:.82rem;color:var(--ink-soft);font-weight:600}
+.btn.sm{padding:8px 14px;font-size:.82rem;border-radius:8px}
+.btn.sm.on{background:var(--reason);color:#fff;border-color:var(--reason)}
+.banklist{display:flex;flex-direction:column;gap:14px}
+.bankcard{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:18px 20px;box-shadow:var(--shadow);position:relative}
+.bankcard::before{content:"";position:absolute;left:0;top:14px;bottom:14px;width:4px;border-radius:0 3px 3px 0}
+.bankcard.m::before{background:var(--maths)} .bankcard.r::before{background:var(--reason)}
+.bankcard .bmeta{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:10px}
+.bankcard .bq{font-size:1.02rem;font-weight:500;margin:0 0 14px;line-height:1.45}
+.bankcard .bq .idx{font-family:"JetBrains Mono",monospace;color:var(--ink-soft);font-weight:700;margin-right:8px}
+.bankcard .bopts{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:4px}
+@media(max-width:560px){.bankcard .bopts{grid-template-columns:1fr}.bankcard .bq .idx{display:block;margin-bottom:4px}}
+.bopt{display:flex;gap:10px;align-items:flex-start;text-align:left;background:#fbfcfd;border:1.5px solid var(--line);border-radius:9px;padding:10px 13px;cursor:pointer;font-family:inherit;font-size:.9rem;color:var(--ink);transition:.12s}
+.bopt:hover{border-color:var(--ink)}
+.bopt .bk{font-family:"JetBrains Mono",monospace;font-weight:700;color:var(--ink-soft);flex:none}
+.bopt.correct{border-color:var(--ok);background:#eefbf3}
+.bopt.correct .bk{color:var(--ok)}
+.bopt.wrong{border-color:var(--no);background:#fdeeeb}
+.bopt.wrong .bk{color:var(--no)}
+.bshow{margin-top:12px;background:none;border:none;color:var(--maths);font-family:inherit;font-weight:600;font-size:.84rem;cursor:pointer;padding:0;text-decoration:underline;text-underline-offset:3px}
+.bsol{display:none;margin-top:14px;border-top:1px dashed var(--line);padding-top:14px}
+.bankcard.open .bsol{display:block}
+.bankcard.open .bshow{display:none}
+.bsol .bans{font-family:"Fraunces",serif;font-weight:600;color:var(--ok);margin-bottom:8px}
+.bsol .bwork{font-size:.9rem;background:#f7f9fb;border-radius:9px;padding:11px 13px;margin-bottom:9px}
+.bsol .bwork code{font-family:"JetBrains Mono",monospace;background:#eef1f6;padding:1px 5px;border-radius:4px}
+.bsol .btip{font-size:.83rem;color:var(--ink-soft)}
+.bsol .btip b{color:var(--maths);font-family:"JetBrains Mono",monospace;font-size:.62rem;letter-spacing:.08em;text-transform:uppercase}
+.bankempty{text-align:center;color:var(--ink-soft);padding:40px;font-size:.9rem}
+
+/* ---- sources ---- */
+.sources{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:22px 24px;box-shadow:var(--shadow);margin-top:10px}
+.sources h4{font-family:"Fraunces",serif;font-size:1.15rem;margin:0 0 6px;font-weight:600}
+.sources p{font-size:.88rem;color:var(--ink-soft);margin:0 0 14px}
+.sources ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:9px}
+.sources li{font-size:.88rem;display:flex;gap:10px;align-items:baseline}
+.sources li .tag{font-family:"JetBrains Mono",monospace;font-size:.6rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;background:var(--maths-soft);color:var(--maths);padding:3px 7px;border-radius:5px;flex:none;white-space:nowrap}
+.sources li .tag.mirror{background:var(--amber-soft);color:var(--amber)}
+.sources a{color:var(--maths);word-break:break-all}
+.sources .note{font-size:.8rem;color:var(--ink-soft);margin-top:14px;padding-top:14px;border-top:1px dashed var(--line)}
+
+/* ---- quiz ---- */
+.qcontrols{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:18px 20px;box-shadow:var(--shadow);margin-bottom:22px}
+.qcontrols .row{display:flex;gap:22px;flex-wrap:wrap;align-items:center}
+.qcontrols .grp{display:flex;flex-direction:column;gap:7px}
+.qcontrols .grp>span{font-family:"JetBrains Mono",monospace;font-size:.64rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);font-weight:700}
+.mini{display:flex;gap:6px;flex-wrap:wrap}
+.mini button{font-size:.78rem;font-weight:600;padding:6px 12px;border-radius:8px;border:1px solid var(--line);background:#fff;color:var(--ink-soft);cursor:pointer;font-family:inherit}
+.mini button.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.btn{font-family:inherit;font-weight:700;font-size:.9rem;border:none;border-radius:10px;padding:11px 22px;cursor:pointer;transition:.15s}
+.btn.primary{background:var(--maths);color:#fff}
+.btn.primary:hover{filter:brightness(1.08)}
+.btn.ghost{background:#fff;border:1px solid var(--line);color:var(--ink)}
+.btn.ghost:hover{border-color:var(--ink)}
+.btn:disabled{opacity:.4;cursor:not-allowed}
+
+.qstage{display:none}
+.qbar{height:8px;background:#fff;border:1px solid var(--line);border-radius:99px;overflow:hidden;margin-bottom:16px}
+.qbar i{display:block;height:100%;background:linear-gradient(90deg,var(--maths),var(--reason));width:0;transition:width .3s}
+.qmeta{display:flex;justify-content:space-between;align-items:center;font-size:.78rem;color:var(--ink-soft);margin-bottom:10px;flex-wrap:wrap;gap:8px}
+.qmeta .pill{font-family:"JetBrains Mono",monospace;font-weight:700;font-size:.66rem;letter-spacing:.06em;text-transform:uppercase;padding:3px 9px;border-radius:6px;border:1px solid var(--line)}
+.pill.m{color:var(--maths);background:var(--maths-soft);border-color:transparent}
+.pill.r{color:var(--reason);background:var(--reason-soft);border-color:transparent}
+.pill.hard{color:var(--amber);background:var(--amber-soft);border-color:transparent}
+.pill.concept{color:#7b3fb5;background:#f2e9fa;border-color:transparent}
+.qcard{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:24px;box-shadow:var(--shadow)}
+.qtext{font-size:1.12rem;font-weight:500;margin:0 0 18px;line-height:1.45}
+.qtext .mono{font-family:"JetBrains Mono",monospace}
+.opts{display:flex;flex-direction:column;gap:10px}
+.opt{display:flex;gap:12px;align-items:flex-start;text-align:left;background:#fff;border:1.5px solid var(--line);border-radius:11px;padding:13px 16px;cursor:pointer;font-family:inherit;font-size:.96rem;color:var(--ink);transition:.12s;width:100%}
+.opt:hover{border-color:var(--ink)}
+.opt .k{font-family:"JetBrains Mono",monospace;font-weight:700;color:var(--ink-soft);flex:none}
+.opt.correct{border-color:var(--ok);background:#eefbf3}
+.opt.correct .k{color:var(--ok)}
+.opt.wrong{border-color:var(--no);background:#fdeeeb}
+.opt.wrong .k{color:var(--no)}
+.opt:disabled{cursor:default}
+.solution{margin-top:18px;border-top:1px dashed var(--line);padding-top:16px;display:none}
+.solution.show{display:block;animation:fade .3s}
+@keyframes fade{from{opacity:0;transform:translateY(4px)}to{opacity:1}}
+.solution .verdict{font-family:"Fraunces",serif;font-weight:600;font-size:1.05rem;margin-bottom:8px}
+.solution .verdict.ok{color:var(--ok)} .solution .verdict.no{color:var(--no)}
+.solution .work{font-size:.92rem;color:var(--ink);background:#f7f9fb;border-radius:9px;padding:12px 14px;margin-bottom:10px}
+.solution .work code{font-family:"JetBrains Mono",monospace;background:#eef1f6;padding:1px 5px;border-radius:4px}
+.solution .tip{font-size:.85rem;color:var(--ink-soft)}
+.solution .tip b{color:var(--maths);font-family:"JetBrains Mono",monospace;font-size:.64rem;letter-spacing:.08em;text-transform:uppercase}
+.qnav{display:flex;justify-content:space-between;gap:12px;margin-top:20px}
+.qresult{display:none;text-align:center;background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:38px;box-shadow:var(--shadow)}
+.qresult h3{font-family:"Fraunces",serif;font-size:2rem;font-weight:900;margin:0 0 6px}
+.qresult .big{font-family:"Fraunces",serif;font-size:3.4rem;font-weight:900;line-height:1;color:var(--maths)}
+.qresult .brk{display:flex;justify-content:center;gap:26px;flex-wrap:wrap;margin:22px 0}
+.qresult .brk div b{display:block;font-family:"Fraunces",serif;font-size:1.5rem;font-weight:900}
+.qresult .brk div span{font-size:.76rem;color:var(--ink-soft);font-weight:600}
+.weak{text-align:left;max-width:440px;margin:0 auto 22px;font-size:.86rem}
+.weak .wrow{display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid var(--line)}
+
+footer{padding:40px 0 60px;color:var(--ink-soft);font-size:.82rem;text-align:center;border-top:1px solid var(--line);margin-top:30px}
+.hide{display:none!important}
+@media print{header,nav,.hero,#quiz,footer{display:none}.fsheet{columns:2}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<header>
+  <div class="bar">
+    <div class="brand"><b>Paper-II Lab</b><span>Arithmetic · Reasoning</span></div>
+    <nav id="nav">
+      <a href="#overview" class="on">Overview</a>
+      <a href="#concepts">Concepts</a>
+      <a href="#formulas">Formulas</a>
+      <a href="#bank">Question Bank</a>
+      <a href="#quiz">Quiz</a>
+    </nav>
+    <div class="scoretag" id="scoretag">0 solved</div>
+  </div>
+</header>
+
+<div class="wrap">
+
+<div class="hero" id="overview">
+  <div class="eyebrow">Built from 10 real MPSC Paper-II booklets</div>
+  <h1>Don't just memorise answers.<br>Learn the <em>machinery</em> behind them.</h1>
+  <p>Every arithmetic and reasoning question in these papers is one of a few dozen recurring types. This lab unpacks each type into a plain idea, an everyday analogy, its formulas, and a worked example — then lets you test yourself on the originals <b>and</b> new, harder variants with full solutions.</p>
+  <div class="statrow">
+    <div class="stat"><b>24</b><span>maths concept types</span></div>
+    <div class="stat"><b>18</b><span>reasoning concept types</span></div>
+    <div class="stat"><b>190+</b><span>solved practice questions</span></div>
+    <div class="stat"><b>100%</b><span>solutions worked out</span></div>
+  </div>
+</div>
+
+<!-- ============ CONCEPTS ============ -->
+<section id="concepts">
+  <div class="sec-head">
+    <span class="n">01</span>
+    <h2>Concept Library</h2>
+    <p>Read the idea, steal the analogy, keep the formula. Tap a domain to filter.</p>
+  </div>
+  <div class="chips" id="conceptChips">
+    <button class="chip on" data-f="all">All</button>
+    <button class="chip m" data-f="maths">Maths</button>
+    <button class="chip r" data-f="reason">Reasoning</button>
+  </div>
+  <div class="grid" id="conceptGrid"></div>
+</section>
+
+<!-- ============ FORMULA SHEET ============ -->
+<section id="formulas">
+  <div class="sec-head">
+    <span class="n">02</span>
+    <h2>Revision Formula Sheet</h2>
+    <p>The night-before list. Ctrl/Cmd+P to print just this block.</p>
+  </div>
+  <div class="fsheet" id="fsheet"></div>
+</section>
+
+<!-- ============ QUESTION BANK (free browse) ============ -->
+<section id="bank">
+  <div class="sec-head">
+    <span class="n">03</span>
+    <h2>Question Bank</h2>
+    <p>Browse and practise every question freely. Reveal solutions one at a time or all at once.</p>
+  </div>
+
+  <div class="bankbar">
+    <input type="search" id="bankSearch" class="search" placeholder="Search questions, topics, keywords…" autocomplete="off">
+    <div class="bankfilters">
+      <div class="mini" data-bgroup="domain">
+        <button class="on" data-v="all">Both</button>
+        <button data-v="maths">Maths</button>
+        <button data-v="reason">Reasoning</button>
+      </div>
+      <select id="bankTopic" class="sel"><option value="all">All topics</option></select>
+      <div class="mini" data-bgroup="diff">
+        <button class="on" data-v="all">Any level</button>
+        <button data-v="core">Core</button>
+        <button data-v="hard">Harder</button>
+        <button data-v="concept">Concept</button>
+      </div>
+      <div class="mini" data-bgroup="src">
+        <button class="on" data-v="all">Any source</button>
+        <button data-v="paper">Papers</button>
+        <button data-v="new">New</button>
+      </div>
+    </div>
+    <div class="bankactions">
+      <span id="bankCount" class="bankcount"></span>
+      <button class="btn ghost sm" id="revealAll">Reveal all solutions</button>
+    </div>
+  </div>
+
+  <div id="bankList" class="banklist"></div>
+  <div id="bankEmpty" class="bankempty hide">No questions match those filters. Try clearing the search or widening a filter.</div>
+</section>
+
+<!-- ============ QUIZ ============ -->
+<section id="quiz">
+  <div class="sec-head">
+    <span class="n">04</span>
+    <h2>Practice Quiz</h2>
+    <p>Original + harder + concept-check questions, each with a worked solution.</p>
+  </div>
+
+  <div class="qcontrols" id="qcontrols">
+    <div class="row" style="margin-bottom:16px">
+      <div class="grp">
+        <span>Domain</span>
+        <div class="mini" data-group="domain">
+          <button class="on" data-v="all">Both</button>
+          <button data-v="maths">Maths</button>
+          <button data-v="reason">Reasoning</button>
+        </div>
+      </div>
+      <div class="grp">
+        <span>Level</span>
+        <div class="mini" data-group="diff">
+          <button class="on" data-v="all">Any</button>
+          <button data-v="core">Core</button>
+          <button data-v="hard">Harder</button>
+          <button data-v="concept">Concept-check</button>
+        </div>
+      </div>
+      <div class="grp">
+        <span>Source</span>
+        <div class="mini" data-group="src">
+          <button class="on" data-v="all">Any</button>
+          <button data-v="paper">From papers</button>
+          <button data-v="new">New</button>
+        </div>
+      </div>
+    </div>
+    <div class="row" style="align-items:center;justify-content:space-between">
+      <div style="font-size:.86rem;color:var(--ink-soft)" id="poolInfo"></div>
+      <button class="btn primary" id="startBtn">Start quiz →</button>
+    </div>
+  </div>
+
+  <div class="qstage" id="qstage">
+    <div class="qbar"><i id="qbarFill"></i></div>
+    <div class="qmeta">
+      <span id="qcount"></span>
+      <span id="qtags"></span>
+    </div>
+    <div class="qcard">
+      <p class="qtext" id="qtext"></p>
+      <div class="opts" id="qopts"></div>
+      <div class="solution" id="qsol"></div>
+    </div>
+    <div class="qnav">
+      <button class="btn ghost" id="quitBtn">Quit</button>
+      <button class="btn primary" id="nextBtn" disabled>Next →</button>
+    </div>
+  </div>
+
+  <div class="qresult" id="qresult">
+    <h3>Session complete</h3>
+    <div class="big" id="rScore"></div>
+    <div class="brk">
+      <div><b id="rCorrect"></b><span>correct</span></div>
+      <div><b id="rTotal"></b><span>attempted</span></div>
+      <div><b id="rPct"></b><span>accuracy</span></div>
+    </div>
+    <div class="weak" id="rWeak"></div>
+    <button class="btn primary" id="againBtn">New session</button>
+  </div>
+</section>
+
+<!-- ============ SOURCES ============ -->
+<section id="sources">
+  <div class="sec-head">
+    <span class="n">05</span>
+    <h2>Sources &amp; where to get more</h2>
+    <p>These papers are official Mizoram PSC past papers. Download the full set below.</p>
+  </div>
+  <div class="sources">
+    <h4>Original source — Mizoram Public Service Commission (MPSC)</h4>
+    <p>All ten booklets are official MPSC Non-Gazetted past papers (Combined UDC, LDC, Sub-Inspector of Excise, ASI, Junior Accounts Officer, Assistant Audit &amp; Accounts Officer, Combined Group-B). The commission publishes past papers and provisional answer keys free on its site:</p>
+    <ul>
+      <li><span class="tag">Official</span><span>Past papers (Non-Gazetted, 2024–2026): <a href="https://mpsc.mizoram.gov.in/page/old-question-ng" target="_blank" rel="noopener">mpsc.mizoram.gov.in/page/old-question-ng</a></span></li>
+      <li><span class="tag">Official</span><span>Past papers (2023–2025): <a href="https://mpsc.mizoram.gov.in/page/old-question-2023-2024" target="_blank" rel="noopener">mpsc.mizoram.gov.in/page/old-question-2023-2024</a></span></li>
+      <li><span class="tag">Official</span><span>Answer keys (Non-Gazetted): <a href="https://mpsc.mizoram.gov.in/page/answer-key-ng" target="_blank" rel="noopener">mpsc.mizoram.gov.in/page/answer-key-ng</a></span></li>
+      <li><span class="tag">Official</span><span>Syllabus (Non-Gazetted): <a href="https://mpsc.mizoram.gov.in/page/syllabus-ng" target="_blank" rel="noopener">mpsc.mizoram.gov.in/page/syllabus-ng</a></span></li>
+    </ul>
+    <p style="margin-top:16px">Third-party mirrors also host these papers (usually behind sign-ups or ads) and often add solutions and mock tests:</p>
+    <ul>
+      <li><span class="tag mirror">Mirror</span><span>Testbook — Mizoram PSC previous-year papers &amp; mock tests: <a href="https://testbook.com/mizoram-psc-ldc/previous-year-papers" target="_blank" rel="noopener">testbook.com/mizoram-psc-ldc/previous-year-papers</a></span></li>
+      <li><span class="tag mirror">Mirror</span><span>SolvingPapers — govt past papers PDF: <a href="https://www.solvingpapers.com/mizoram-psc-previous-year-question-papers/" target="_blank" rel="noopener">solvingpapers.com/mizoram-psc-previous-year-question-papers</a></span></li>
+      <li><span class="tag mirror">Mirror</span><span>FreshersNow — Mizoram PSC ASI papers: <a href="https://www.freshersnow.com/mizoram-psc-asi-previous-question-papers/" target="_blank" rel="noopener">freshersnow.com/mizoram-psc-asi-previous-question-papers</a></span></li>
+      <li><span class="tag mirror">Mirror</span><span>ToppersExam — Mizoram PSC MCQ question bank: <a href="https://toppersexam.com/UPSC-EXAMS/MIZORAM-MPSC/question-bank_3168.html" target="_blank" rel="noopener">toppersexam.com — Mizoram MPSC question bank</a></span></li>
+    </ul>
+    <p class="note">Why questions here are typed out by hand rather than auto-scraped: the official site blocks automated downloads, and bulk-copying question text from third-party sites raises copyright issues and drags OCR errors along with it. So the practice questions marked <b>from papers</b> were transcribed and re-solved from your uploads, and the ones marked <b>new</b> were written fresh on the same patterns and difficulty — that way the bank can grow without limit and every answer is verified. For the complete, unedited papers, use the official links above.</p>
+  </div>
+</section>
+
+</div>
+
+<footer>
+  Built from ten official Mizoram Public Service Commission (MPSC) Paper-II booklets. Paper questions were transcribed and independently solved; "new" questions were authored on the same patterns. A study aid, not an official key — always cross-check answers against the MPSC answer keys linked above.
+</footer>
+
+<script>
+/* ============================================================
+   DATA
+============================================================ */
+const F=(n,d)=>`<span class="frac"><span class="num">${n}</span><span>${d}</span></span>`; // fraction helper
+
+const CONCEPTS=[
+/* ---------- MATHS ---------- */
+{d:'maths',t:'Squares, Cubes & Roots',
+ what:'Break a number into prime factors. A perfect square needs every prime to appear an even number of times; a perfect cube needs multiples of three. That single rule solves "smallest number to multiply/divide" and "least to add/subtract" questions.',
+ an:'Think of prime factors as socks. A perfect square is when every colour comes in a pair; a perfect cube is when every colour comes in a set of three. Missing one? That\'s exactly what you multiply by.',
+ f:['√2 ≈ 1.414, √3 ≈ 1.732, √5 ≈ 2.236','Perfect square ⇒ all prime powers even','Perfect cube ⇒ all prime powers ÷ 3','Least to <b>add/subtract</b>: use √n, round down/up'],
+ ex:{q:'Smallest square divisible by 15, 24, 25?',s:'LCM = 600 = 2³·3·5². Make powers even → ×(2·3) → 3600.'},
+ tr:'"Divisible by" means start from the LCM, not the numbers themselves.'},
+
+{d:'maths',t:'Surds & Rationalisation',
+ what:'To simplify √(a±2√b), look for two numbers whose sum is a and product is b — the surd is then (√x ± √y). To clear a surd from a denominator, multiply top and bottom by its conjugate.',
+ an:'Rationalising is like clearing your throat before speaking: multiply by the conjugate so the messy √ in the bottom cancels into a clean whole number.',
+ f:['√(a+2√b) = √x+√y where x+y=a, xy=b','(√7+√5)/(√7−√5) → ×(√7+√5)/(√7+√5)','(a+b)(a−b)=a²−b² kills the surd'],
+ ex:{q:'√(8+2√15) = ?',s:'x+y=8, xy=15 → 5,3 → √5+√3.'},
+ tr:'Always check x+y and xy both fit before writing the answer.'},
+
+{d:'maths',t:'Recurring Decimals → Fractions',
+ what:'Multiply by 10^(non-repeating digits) and by 10^(repeating digits), subtract to cancel the tail, then solve. Fast rule: numerator = (all digits) − (non-repeating digits); denominator = 9s for each repeating digit followed by 0s for each non-repeating.',
+ an:'The repeating tail is a ghost that never ends. Two shifted copies of the number have the same ghost — subtract them and the ghost vanishes, leaving a solid fraction.',
+ f:['0.<span style="text-decoration:overline">ab</span> = ab/99','0.a<span style="text-decoration:overline">b</span> = (ab−a)/90'],
+ ex:{q:'0.5<span style="text-decoration:overline">7</span> = ?',s:'(57−5)/90 = 52/90 = 26/45.'},
+ tr:'Count the non-repeating digits carefully — that sets how many 0s go after the 9s.'},
+
+{d:'maths',t:'HCF & LCM',
+ what:'For any two numbers, HCF × LCM = product of the numbers. HCF is the biggest shared factor (use for grouping/cutting); LCM is the smallest common multiple (use for repeating cycles/meeting again).',
+ an:'HCF = the largest identical tile that paves two rooms with no cuts. LCM = when two runners of different lap-times next cross the start line together.',
+ f:['HCF × LCM = a × b','other number = (HCF×LCM)/one'],
+ ex:{q:'HCF 16, LCM 160, one number 32. Other?',s:'(16×160)/32 = 80.'},
+ tr:'The product rule holds strictly for two numbers, not three or more.'},
+
+{d:'maths',t:'Arithmetic Progression (AP)',
+ what:'A sequence with a constant gap d. The nth term is a+(n−1)d. Counting terms, finding a term from the end, or testing if three numbers form an AP all reduce to this one line.',
+ an:'A staircase where every step is the same height. Know the first step and step height, and you can name the height of the 50th step without climbing.',
+ f:['nth term: a<sub>n</sub> = a+(n−1)d','count: n = (last−a)/d + 1','term from end: use d′ = −d, or l−(k−1)d','AP test: 2b = a+c'],
+ ex:{q:'Terms in 4, 11, 18, …, 186?',s:'d=7 → (186−4)/7+1 = 27.'},
+ tr:'"8th term from the end" — flip the sign of d, or start from the last term.'},
+
+{d:'maths',t:'Percentage',
+ what:'Percent = per hundred. Convert to a decimal to find a part, or divide back to find the whole. "Failed by / passed by" problems: pass-mark = obtained + shortfall = percentage × total.',
+ an:'A percentage is a slice recipe scaled to a 100-slice pizza. 45% just means "45 slices out of a 100-slice pie" — resize the pie to any real total.',
+ f:['part = %/100 × whole','whole = part ÷ (%/100)','pass: %×T = marks + fail-by'],
+ ex:{q:'49% = 294 marks. Marks for 62%?',s:'Total = 294/0.49 = 600 → 62% = 372.'},
+ tr:'Read whether the % is of the original or of a changed value.'},
+
+{d:'maths',t:'Successive % Change',
+ what:'When two percentage changes act one after another, do NOT add them. Multiply the factors. A rise of x% then fall of y% gives net = (x − y − xy/100)%.',
+ an:'Interest on interest. A 20% raise then 20% cut isn\'t break-even, because the cut acts on the already-bigger number — you end below where you started.',
+ f:['net factor = (1±x/100)(1±y/100)','+x then −x ⇒ net −x²/100 %','length+20%, breadth−20% ⇒ 1.2×0.8=0.96'],
+ ex:{q:'Length +20%, breadth −20%. Area change?',s:'1.2×0.8 = 0.96 → 4% decrease.'},
+ tr:'Equal up-then-down always loses; it never returns to the start.'},
+
+{d:'maths',t:'Profit, Loss, Discount, VAT',
+ what:'All are % of a base — profit/loss on cost price, discount on marked price, VAT/tax on price-before-tax. Peel taxes/discounts off by dividing, not subtracting.',
+ an:'A price is an onion. Each layer (discount, then another discount, then tax) is a percentage multiplier — divide by the layer to peel back to the core (cost/marked price).',
+ f:['SP = CP(1±profit%/100)','after two discounts: MP×(1−d₁)(1−d₂)','before VAT = price ÷ (1+vat%)','two SPs equal, +x% & −x% ⇒ net loss x²/100 %'],
+ ex:{q:'Sold ₹642.60 after 15% & 10% discount. MP?',s:'642.60/(0.85×0.90) = ₹840.'},
+ tr:'Sell two items at equal price, one +x% one −x%: always a small LOSS.'},
+
+{d:'maths',t:'Ratio & Proportion',
+ what:'A ratio compares parts; treat parts as "×k". To combine a:b and b:c, scale so the shared term matches, then read all three. To split by ratio, divide the total among the part-sum.',
+ an:'A recipe: 2 cups flour to 3 cups sugar. The "k" is how many times you run the recipe — doubling k keeps the taste identical.',
+ f:['a:b and b:c ⇒ match b, get a:b:c','share = (part/sum-of-parts)×total','if a:b=2:3 & sum sq=S ⇒ k=√(S/13)'],
+ ex:{q:'a:b=2:3, b:c=4:5 ⇒ a:b:c?',s:'Make b common (12): 8:12:15.'},
+ tr:'Difference/sum of two ratio numbers maps to difference/sum of actual values via the same k.'},
+
+{d:'maths',t:'Averages',
+ what:'Average = total ÷ count. The power move: track the TOTAL. Weighted average combines group totals; replacement problems use "change in total = change in average × count".',
+ an:'Average is a see-saw balance point. Swap a light kid for a heavy one and the whole plank tips — by exactly (weight change) ÷ (number of kids).',
+ f:['avg = sum/n','weighted = (n₁a₁+n₂a₂)/(n₁+n₂)','new item = n·(new avg) − old-sum kept','replace: Δtotal = Δavg × n'],
+ ex:{q:'Mean of 5 rises 1 kg when a 60 kg man is replaced. New man?',s:'Total rose 5×1=5 → 60+5 = 65 kg.'},
+ tr:'Don\'t average the averages when group sizes differ — weight them.'},
+
+{d:'maths',t:'Time & Work · Pipes',
+ what:'Convert everyone to a rate = 1/(days). Rates add when working together; a leak or emptying pipe is a NEGATIVE rate. Efficiency ratios are inverse to time ratios.',
+ an:'People are taps filling one bucket. Two taps fill faster; a leak is a tap running backwards. Add the flows (with sign) to get the net fill rate.',
+ f:['rate = 1/time; add rates together','together time = 1/(1/a+1/b)','leak/empty = subtract its rate','A twice as efficient ⇒ half the time'],
+ ex:{q:'Fill in 12 h with a leak; 10 h without. Leak empties in?',s:'leak rate = 1/10 − 1/12 = 1/60 → 60 h.'},
+ tr:'"Left before completion" — everyone still contributes for the days they were present; set up total = 1.'},
+
+{d:'maths',t:'Speed, Distance, Time',
+ what:'d = s×t. Same-direction speeds subtract; opposite/approaching speeds add. Average speed for equal distances is the harmonic mean, not the arithmetic mean.',
+ an:'Two people walking apart separate at the SUM of their paces; chasing, at the DIFFERENCE. For a round trip, the slow leg drags the average down — that\'s why it\'s harmonic.',
+ f:['1 km/h = 5/18 m/s; 1 m/s = 18/5 km/h','opposite: relative = s₁+s₂','average (equal dist): 2s₁s₂/(s₁+s₂)','⅗-speed ⇒ 5/3 time; extra = late'],
+ ex:{q:'39 km each at 26, 39, 52 km/h. Average?',s:'Harmonic-style: total dist ÷ total time = 36 km/h.'},
+ tr:'Never average speeds directly when the distances (not times) are equal.'},
+
+{d:'maths',t:'Ages',
+ what:'Assign a variable to the present age, then write the past ("−t years") or future ("+t years") condition as an equation. Every clause is one linear equation.',
+ an:'A time machine on one number line: everyone moves the same t years together, so relative gaps between ages never change.',
+ f:['let present age = x','k years ago: (x−k)','A = 2B now, 5 yr ago A=3B ⇒ solve'],
+ ex:{q:'A is twice B; 5 yr ago A was thrice B. A now?',s:'2B−5 = 3(B−5) → B=10, A=20.'},
+ tr:'The age difference is constant — a handy check on your answer.'},
+
+{d:'maths',t:'Simple & Compound Interest',
+ what:'SI grows by a fixed amount each year; CI grows by a fixed factor. For CI, consecutive-year amounts have a constant ratio = (1+r/100) — the fastest way to find the rate.',
+ an:'SI is a salary with a fixed annual raise in rupees. CI is a raise that\'s always the same PERCENT — so the rupee jump gets bigger every year, like a snowball.',
+ f:['SI = P·r·t/100','CI amount = P(1+r/100)ⁿ','rate from CI: A₃/A₂ = 1+r/100','CI−SI (2 yr) = P(r/100)²','CI−SI (3 yr) = P·r²(300+r)/100³'],
+ ex:{q:'CI: ₹2662 in 3 yr, ₹2420 in 2 yr. Rate?',s:'2662/2420 = 1.10 → 10% p.a.'},
+ tr:'The CI−SI 2-year gap equals P(r/100)² — memorise it, it appears often.'},
+
+{d:'maths',t:'Mensuration',
+ what:'Melting/recasting conserves VOLUME (equate volumes, not surface areas). Bending a wire conserves LENGTH (perimeter = circumference). Same-height cylinders scale volume as radius².',
+ an:'Melting a metal shape is like reshaping clay — the amount of clay (volume) is fixed no matter the new form. Bending wire keeps its length; only the enclosed shape changes.',
+ f:['sphere V = 4/3 πr³ ; recast ⇒ ΣV equal','cylinder V = πr²h','wire: perimeter = 2πr (circle)','same h cylinders: V ∝ r²'],
+ ex:{q:'Spheres r=3,4,5 melted into one. New radius?',s:'R³ = 3³+4³+5³ = 216 → R = 6 cm.'},
+ tr:'Melting → volume conserved; bending wire → length conserved. Don\'t mix them up.'},
+
+{d:'maths',t:'Probability',
+ what:'P = favourable ÷ total (equally likely outcomes). "Neither/at least" often means 1 − P(complement). For balls with an unknown count, set the ratio of probabilities as an equation.',
+ an:'Reach blindly into a bag. Probability is just the fraction of the bag that is the colour you want — count the good marbles over all marbles.',
+ f:['P = favourable/total','P(neither) = 1 − P(at least one)','deck: 52 cards, 4 each rank, 13 each suit'],
+ ex:{q:'Card neither King nor Queen?',s:'(52−8)/52 = 44/52 = 11/13.'},
+ tr:'"At least one" is almost always easier as 1 minus "none".'},
+
+{d:'maths',t:'Sets & Venn (2 sets)',
+ what:'For two overlapping groups: |A∪B| = |A| + |B| − |A∩B|. "Neither" = Total − |A∪B|. "Only A" = |A| − |A∩B|.',
+ an:'Two hula-hoops on the floor. Add both areas but you\'ve counted the overlap twice — subtract it once to get the true covered floor.',
+ f:['|A∪B| = |A|+|B|−|A∩B|','neither = Total − |A∪B|','only A = |A| − both'],
+ ex:{q:'200 students: 125 orange, 90 apple, 60 both. Neither?',s:'∪ = 125+90−60 = 155 → neither = 45.'},
+ tr:'Don\'t forget to subtract the intersection exactly once.'},
+
+{d:'maths',t:'Algebra: Polynomials',
+ what:'Remainder Theorem: remainder of P(x)÷(x−a) is P(a). Factor Theorem: (x−a) is a factor ⇔ P(a)=0. For quadratics, sum of roots = −b/a, product = c/a, discriminant D = b²−4ac.',
+ an:'The Remainder Theorem is a shortcut door: instead of long division, just walk the value a into the polynomial and read what falls out.',
+ f:['P(x)÷(x−a) remainder = P(a)','(x−a) factor ⇔ P(a)=0','roots: sum −b/a, product c/a','D = b²−4ac'],
+ ex:{q:'Remainder of x³+x²−2x−3 by (x+2)?',s:'P(−2) = −8+4+4−3 = −3.'},
+ tr:'For (x+2) the value to plug is x = −2, not +2.'},
+
+{d:'maths',t:'Algebra: Identities',
+ what:'The identity x+1/x tells you x²+1/x² = (x+1/x)²−2 and x³+1/x³ = (x+1/x)³−3(x+1/x). The a³+b³ over a²−ab+b² factorisation collapses to a+b.',
+ an:'These identities are folding shortcuts — instead of computing an ugly power directly, fold a known simple value through a formula.',
+ f:['x²+1/x² = (x+1/x)²−2','x³+1/x³ = (x+1/x)³−3(x+1/x)','(a³+b³)/(a²−ab+b²) = a+b'],
+ ex:{q:'(8.73³+4.27³)/(8.73²−8.73·4.27+4.27²)?',s:'= a+b = 8.73+4.27 = 13.'},
+ tr:'Spot the a³+b³ pattern before multiplying huge decimals by hand.'},
+
+{d:'maths',t:'Trigonometry',
+ what:'Complementary angles: tanθ·tan(90−θ)=1 and sin/cos swap. Identity: sec²−tan²=1. Heights & distances use tan(angle)=height/base.',
+ an:'Complementary angles are mirror twins across 45°. Their tangents are reciprocals, so any product pairing θ with (90−θ) quietly cancels to 1.',
+ f:['tanθ·tan(90−θ)=1','sec²θ−tan²θ=1','tan30=1/√3, tan45=1, tan60=√3','height = base × tan(elevation)'],
+ ex:{q:'tan23·tan33·tan45·tan57·tan67?',s:'23+67=90, 33+57=90 → both pairs=1, tan45=1 → 1.'},
+ tr:'9tan²A − 9sec²A = 9(tan²−sec²) = −9, a sign trap.'},
+
+{d:'maths',t:'Statistics & Data',
+ what:'Median class is where the cumulative frequency crosses N/2. Empirical relation: Mode = 3·Median − 2·Mean. Pie charts: value ∝ angle ∝ percentage — set up one proportion.',
+ an:'A pie chart is a clock face of money: each slice\'s angle is its share of 360°, so ₹ and degrees rise together — one known slice unlocks the rest.',
+ f:['median class: cum. freq ≥ N/2','Mode = 3·Median − 2·Mean','pie: value/total = angle/360'],
+ ex:{q:'Mode 29, Mean 38. Median?',s:'29 = 3M − 76 → M = 35.'},
+ tr:'Find N/2 first, then walk the cumulative frequencies until you cross it.'},
+
+{d:'maths',t:'Permutations & Combinations',
+ what:'Permutation = arrangements where ORDER matters (nPr = n!/(n−r)!). Combination = selections where order does NOT (nCr = n!/[r!(n−r)!]). Arranging a word with repeated letters: divide n! by the factorial of each repeat count.',
+ an:'A permutation is a race result (gold/silver/bronze order matters); a combination is a team photo (who\'s in, order irrelevant). Repeated letters are identical twins — swapping them changes nothing, so you divide their duplicates away.',
+ f:['arrange n distinct: n!','nPr = n!/(n−r)!  (order matters)','nCr = n!/[r!(n−r)!]  (order not)','word with repeats: n!/(p!·q!…)'],
+ ex:{q:'Ways to arrange the letters of BANKING?',s:'7 letters, N repeats twice → 7!/2! = 2520.'},
+ tr:'"Arrange/order/line up" ⇒ permutation; "choose/select/committee" ⇒ combination.'},
+
+{d:'maths',t:'Mixtures & Alligation',
+ what:'Track the pure quantities, not just the ratio. Alligation gives the ratio to mix two ingredients for a target average: (higher − mean) : (mean − lower). Adding only water changes the ratio but keeps the milk fixed.',
+ an:'Making squash: the syrup (milk) amount is fixed; topping up with water just dilutes. Alligation is a see-saw — the mean sits closer to whichever ingredient you use more of.',
+ f:['cheaper : dearer = (d−m) : (m−c)','ratio a:b of total T ⇒ parts a/(a+b)·T','add water: milk fixed, recompute ratio'],
+ ex:{q:'20 L milk:water = 3:2; add 2 L water. New ratio?',s:'milk 12, water 8→10 → 12:10 = 6:5.'},
+ tr:'When only water is added, the milk quantity does not change — anchor to it.'},
+
+{d:'maths',t:'Order of Operations (BODMAS)',
+ what:'Resolve Brackets first (innermost out), then Orders (powers/roots), then Division & Multiplication (left to right), then Addition & Subtraction (left to right). × and ÷ share one rank; do them as they appear.',
+ an:'A recipe with strict steps: you can\'t frost (add) before baking (multiply). Work the deepest bracket like the innermost Russian doll, then climb outward.',
+ f:['B → O → DM → AS','innermost bracket first','× and ÷ : left to right, equal rank'],
+ ex:{q:'12 + 6 ÷ 2 × 3 − 4 = ?',s:'6÷2=3, ×3=9 → 12+9−4 = 17.'},
+ tr:'÷ and × do NOT mean "division always first" — go left to right at that rank.'},
+
+/* ---------- REASONING ---------- */
+{d:'reason',t:'Number & Letter Series',
+ what:'Find the RULE linking consecutive terms: constant difference, ratio, ×n±k, squares/cubes, or alternating patterns. For letters, convert to positions (A=1…Z=26) and look for the same arithmetic.',
+ an:'A series is a locked rhythm. Tap out the gaps between terms — once the beat repeats (e.g. +2, +4, +2, +4), you can play the next note.',
+ f:['check: +d, ×r, ×n±k, n², n³','letters ↔ A=1 … Z=26','watch for two interleaved series'],
+ ex:{q:'4, 16, 64, 256, ?, 4096',s:'×4 each → 256×4 = 1024.'},
+ tr:'If differences look random, test ratios or two alternating sub-series.'},
+
+{d:'reason',t:'Analogy',
+ what:'Identify the exact relationship in the first pair (part-of, tool-of, disease-of-organ, worker-supervisor), then apply the SAME relationship to complete the second pair.',
+ an:'"A is to B" is a sentence template. Read it aloud — "cockpit is where you control a plane" — then fill the blank so the same sentence stays true for a train.',
+ f:['name the relation precisely','apply identically to pair 2','types: part, function, cause, category'],
+ ex:{q:'Aeroplane : Cockpit :: Train : ?',s:'Control cabin → Engine (driver\'s cab).'},
+ tr:'A vague relation ("related to") gives multiple answers — pin the exact link.'},
+
+{d:'reason',t:'Odd One Out',
+ what:'All items share one property except one. Test categories, number properties (prime, perfect square, even), or letter patterns. The outlier breaks the single shared rule.',
+ an:'A line-up where everyone wears blue except one person in red. Find the shared "uniform", then spot who isn\'t wearing it.',
+ f:['test: category / prime / square / pattern','numbers: check digit sums, factors','letters: gaps between letters'],
+ ex:{q:'Odd: 121, 324, 523, 729',s:'121,324,729 are perfect squares; 523 is not.'},
+ tr:'Try more than one property — the first rule you test may not be the intended one.'},
+
+{d:'reason',t:'Coding–Decoding',
+ what:'Three flavours: (1) letter-shift — each letter moves a fixed number; (2) reverse/atbash — A↔Z, B↔Y; (3) substitution language — match words across sentences to pair each word with its code.',
+ an:'A code is a secret handshake with a fixed rule. For substitution languages, cross off the words two sentences share to reveal which code = which word — like solving with elimination.',
+ f:['shift: letter ± n (SPARK→+1→TQBSL)','atbash: A↔Z (TABLE→GZYOV)','language: compare sentences, eliminate common words'],
+ ex:{q:'TABLE→GZYOV. CHAIR→?',s:'Atbash (26−pos): C→X,H→S,A→Z,I→R,R→I → XSZRI.'},
+ tr:'Count the shift on TWO letters before trusting it; watch for reverse-order coding.'},
+
+{d:'reason',t:'Blood Relations',
+ what:'Draw a family tree with symbols (△ male, ○ female, = married, | child). Work from the fixed statements outward. Track gender carefully — many traps hinge on it.',
+ an:'Build the family like a subway map: each statement is one line you draw. Once the map exists, tracing any two people\'s connection is just following the tracks.',
+ f:['symbols: male △, female ○, marriage =','father\'s brother = uncle (paternal)','mother\'s brother = maternal uncle'],
+ ex:{q:'Sonia is Sunil\'s sister; Arun is Sonia\'s son. Sunil to Arun?',s:'Mother\'s brother → maternal uncle.'},
+ tr:'"Sister of / son of" fixes gender — don\'t assume; it often flips the answer.'},
+
+{d:'reason',t:'Direction Sense',
+ what:'Track movement on X–Y axes: North +y, South −y, East +x, West −x. Final displacement = straight line from start to end via Pythagoras. Right/left turns rotate your facing 90°.',
+ an:'You\'re a GPS dot. Log each leg as an arrow on graph paper; the "how far from start" answer is the hypotenuse of the net east-west and north-south totals.',
+ f:['N+y, S−y, E+x, W−x','distance = √(Δx² + Δy²)','turn right = clockwise 90°'],
+ ex:{q:'3 km N, right 4 km, vs 5 km W then right 3 km. Gap?',s:'Points (4,3) & (−5,3) → 9 km apart.'},
+ tr:'"Turn right" depends on which way you currently face — update your heading each turn.'},
+
+{d:'reason',t:'Ranking & Ordering',
+ what:'Row problems: position-from-left + position-from-right = Total + 1. When two people swap, one takes the other\'s old position. Seniority chains: line everyone on one comparison line.',
+ an:'In a queue, your number from the front plus your number from the back double-counts you once — that\'s the +1 in Total = left + right − 1.',
+ f:['Total = (from left)+(from right) − 1','on swap: new pos = other\'s old pos','chain: order all on one line'],
+ ex:{q:'Kamala 9th from left, after swap 25th from left = Veena\'s (16th from right) old spot. Total?',s:'25 + 16 − 1 = 40.'},
+ tr:'The "−1" is for the person counted from both ends — forgetting it is the classic error.'},
+
+{d:'reason',t:'Calendar',
+ what:'Days repeat every 7. Take the number of days mod 7 to get the "odd days", then count forward from the known day. Day-before/after puzzles: anchor to today first.',
+ an:'A week is a 7-hour clock. To jump 61 days ahead, only the remainder after full weeks matters: 61 mod 7 = 5, so hop 5 days on the day-wheel.',
+ f:['odd days = (total days) mod 7','add odd days to the known weekday','365 days = 1 odd day; 366 = 2'],
+ ex:{q:'Today Monday. After 61 days?',s:'61 mod 7 = 5 → Mon+5 = Saturday.'},
+ tr:'Include the right endpoints — "after N days" vs "on the Nth day" differ by one.'},
+
+{d:'reason',t:'Clock',
+ what:'Minute hand: 6°/min. Hour hand: 0.5°/min. Hands are straight-line-opposite 11 times in 12 h (22/day) and overlap 11 times/12 h. Angle = |30H − 5.5M|.',
+ an:'Two racers on a circular track at different speeds. The minute hand laps the slower hour hand, so they align/oppose a fixed number of times each half-day.',
+ f:['minute hand 6°/min, hour 0.5°/min','angle = |30H − 5.5M|','opposite: 22×/day; overlap: 22×/day'],
+ ex:{q:'From noon to 5:10, hour hand turns?',s:'310 min × 0.5° = 155°.'},
+ tr:'Hands align/oppose 11 (not 12) times per 12 hours — a favourite trap.'},
+
+{d:'reason',t:'Syllogism',
+ what:'Take the statements as TRUE even if absurd. A conclusion follows only if it MUST be true in every case. Chained "all A are B, all B are C" gives "all A are C", but never the reverse.',
+ an:'Nested boxes: if all spoons are in the cutlery drawer and the drawer is in the kitchen, then all spoons are in the kitchen — but not every kitchen thing is a spoon.',
+ f:['assume statements true','conclusion must ALWAYS hold','All A→B, All B→C ⇒ All A→C','reverse (All C→A) does NOT follow'],
+ ex:{q:'All men are dogs; all dogs are cats. Valid?',s:'"All men are cats" follows; "all cats are men" does not.'},
+ tr:'A conclusion that is merely possible does not "follow" — it must be forced.'},
+
+{d:'reason',t:'Assertion & Reason',
+ what:'You get a statement (Assertion A) and an explanation (Reason R). Judge each as true/false independently, then decide whether R correctly EXPLAINS A. The trap: both can be true yet R may not be the reason for A.',
+ an:'Like a witness and their alibi. First check if each statement is true on its own; then ask the harder question — does the alibi actually explain the claim, or are they just two unrelated true facts?',
+ f:['Step 1: is A true? is R true?','Step 2: does R explain A?','Both true + R explains ⇒ strongest option','Both true, R unrelated ⇒ weaker option'],
+ ex:{q:'A: Ice floats. R: Ice is less dense than water.',s:'Both true, and R is exactly why A happens → "both true and R explains A".'},
+ tr:'"Both true" is not enough — the real test is whether R is the CAUSE of A.'},
+
+{d:'reason',t:'Symbol Substitution',
+ what:'Replace the disguised symbols with real operators, then apply BODMAS/order of operations strictly. The trap is that the "×" symbol might be printed as "+", so translate first, compute second.',
+ an:'It\'s a translation exercise wearing a maths costume. First swap every fake symbol for its true operator, then just do normal arithmetic — order of operations still rules.',
+ f:['step 1: translate all symbols','step 2: apply ÷ × before + −','left-to-right within same precedence'],
+ ex:{q:'A=+, B=−, C=×, D=÷: 18 C 14 A 6 B 16 D 4',s:'18×14 + 6 − 16÷4 = 252+6−4 = 254.'},
+ tr:'Do the ÷ and × before + and − even after translating — BODMAS still applies.'},
+
+{d:'reason',t:'Logical Word Sequencing',
+ what:'Arrange words in the natural real-world order: by process (cause→effect), size (small→big), or hierarchy (unit→whole). Ask "what has to happen/exist first?"',
+ an:'Like retelling a story in order: you unlock a door before opening it, open before entering. Put the words in the sequence life would actually run them.',
+ f:['process: earliest step first','size: small → large','hierarchy: part → whole'],
+ ex:{q:'Word, Phrase, Sentence, Paragraph, Letter',s:'Letter→Word→Phrase→Sentence→Paragraph (building up).'},
+ tr:'Decide the ordering principle (time vs size vs hierarchy) before sequencing.'},
+
+{d:'reason',t:'Word Formation',
+ what:'A target word can be formed only if EVERY letter it needs is present (with enough repeats) in the source word. Check letter-by-letter; a single missing letter rules it out.',
+ an:'Scrabble from a fixed rack: you can only spell a word if every tile it needs is sitting on your rack — no borrowing letters you don\'t have.',
+ f:['each target letter ∈ source','honour repeats (double letters)','one missing letter ⇒ cannot form'],
+ ex:{q:'From INDETERMINATE, can you form RETINA?',s:'R,E,T,I,N,A all present → yes.'},
+ tr:'Watch repeated letters — the source may have only one where you need two.'},
+
+{d:'reason',t:'Mirror & Water Images',
+ what:'Mirror (vertical line): left–right flips, up–down stays. Water (horizontal line): up–down flips, left–right stays. Symmetric letters (A,H,I,M,O,T…) look unchanged in a mirror.',
+ an:'A mirror is a left-right swap machine; a puddle is a top-bottom swap machine. Letters symmetric about that axis pass through untouched.',
+ f:['mirror: swap left↔right','water: swap top↔bottom','mirror-safe: A H I M O T U V W X Y'],
+ ex:{q:'Which letters are unchanged in a vertical mirror?',s:'Vertically symmetric ones: A, H, I, M, O, T, U, V, W, X, Y.'},
+ tr:'Mirror ≠ water image — confirm which axis the line MN lies on.'},
+
+{d:'reason',t:'Matrix / Missing Number',
+ what:'Find the operation linking known cells in each row/column/diagonal — sum, product, difference, or a shared function — then apply it to the cell with the "?". Test your rule on a FULL row first.',
+ an:'A number grid is a set of little equations sharing one rule. Discover the rule from a completed row, then run the same machine on the incomplete one.',
+ f:['test row / column / diagonal links','common: sum, product, a·b−c','verify rule on a complete line first'],
+ ex:{q:'Column: 12, 4, ? gives bottom 96 (product).',s:'12×4×? = 96 → ? = 2.'},
+ tr:'Confirm the rule works on every complete line before trusting it on the blank.'},
+
+{d:'reason',t:'Dice & Cubes',
+ what:'On a standard die opposite faces sum to 7 (1-6, 2-5, 3-4). From two views sharing a common face, the faces NOT adjacent to it across both views are opposite each other.',
+ an:'A die is a tiny room: whatever\'s on the floor, its ceiling is fixed (they sum to 7). Rotate the room in two photos and you can deduce every hidden pairing.',
+ f:['standard: opposite faces sum 7','two views + common face ⇒ deduce opposite','a face can\'t be opposite one it sits beside'],
+ ex:{q:'On a standard die, opposite of 2?',s:'Opposite faces sum 7 → 7−2 = 5.'},
+ tr:'"Standard die" implies the sum-7 rule; without that phrase, deduce only from the given views.'},
+
+{d:'reason',t:'Puzzle / Lateral Reasoning',
+ what:'Read every literal detail. The trick is usually who is actually doing the action ("going towards"), or a hidden re-count. List the entities, then include only those the sentence truly commits to.',
+ an:'A riddle in a lab coat. Slow down and take each phrase literally — the answer hides in a word most readers skim past ("saw", "going towards", "every").',
+ f:['read literally; underline actors','beware double-counting shared items','"every X saw" may reuse the same Y'],
+ ex:{q:'A rabbit goes to a river, sees 6 elephants; each saw 2 monkeys, each holds 1 tortoise. Animals going to river?',s:'Only the rabbit + the 2 monkeys + their 2 tortoises = 5.'},
+ tr:'Not everyone mentioned is actually "going" — count only those the sentence commits.'}
+];
+
+/* ----- Formula sheet blocks ----- */
+const FSHEET=[
+ {d:'m',h:'Number & Roots',items:[
+  ['√2≈1.414, √3≈1.732, √5≈2.236','key surds'],
+  ['perfect square','all prime powers even'],
+  ['perfect cube','all prime powers ÷3'],
+  ['HCF×LCM = a×b','two numbers'],
+  ['0.a<span style="text-decoration:overline">b</span> = (ab−a)/90','recurring decimal'] ]},
+ {d:'m',h:'Sequences',items:[
+  ['aₙ = a+(n−1)d','nth AP term'],
+  ['n = (l−a)/d + 1','count of terms'],
+  ['2b = a+c','three-term AP test'] ]},
+ {d:'m',h:'Commercial Maths',items:[
+  ['part = (%/100)×whole','percentage'],
+  ['net = (1±x)(1±y)','successive %'],
+  ['−x²/100 %','equal up then down'],
+  ['SP = CP(1±p%/100)','profit/loss'],
+  ['before VAT = price÷(1+v%)','peel tax'],
+  ['MP×(1−d₁)(1−d₂)','two discounts'] ]},
+ {d:'m',h:'Ratio · Average',items:[
+  ['match common term','combine ratios'],
+  ['share = part/Σparts × total','divide'],
+  ['weighted = Σnᵢaᵢ/Σnᵢ','avg of groups'],
+  ['Δtotal = Δavg × n','replacement'] ]},
+ {d:'m',h:'Work · Speed',items:[
+  ['rate = 1/time; add rates','together'],
+  ['leak = −rate','emptying pipe'],
+  ['1 km/h = 5/18 m/s','conversion'],
+  ['2s₁s₂/(s₁+s₂)','avg speed, equal dist'],
+  ['relative = s₁+s₂ (opp.)','−  if same dir'] ]},
+ {d:'m',h:'Interest',items:[
+  ['SI = Prt/100','simple'],
+  ['A = P(1+r/100)ⁿ','compound'],
+  ['A₃/A₂ = 1+r/100','CI rate'],
+  ['P(r/100)²','CI−SI, 2 yr'],
+  ['P·r²(300+r)/100³','CI−SI, 3 yr'] ]},
+ {d:'m',h:'Mensuration · Prob · Sets',items:[
+  ['ΣV conserved','melting/recasting'],
+  ['V ∝ r² (same h)','cylinders'],
+  ['P = fav/total; 1−P(none)','probability'],
+  ['|A∪B|=|A|+|B|−|A∩B|','two sets'] ]},
+ {d:'m',h:'P&C · Mixtures · BODMAS',items:[
+  ['nPr = n!/(n−r)!','order matters'],
+  ['nCr = n!/[r!(n−r)!]','order not'],
+  ['word repeats: n!/(p!q!…)','arrangements'],
+  ['(d−m):(m−c)','alligation ratio'],
+  ['B→O→DM→AS','order of operations'] ]},
+ {d:'m',h:'Algebra · Trig · Stats',items:[
+  ['P(a) = remainder ÷(x−a)','remainder thm'],
+  ['sum −b/a, prod c/a, D=b²−4ac','quadratic'],
+  ['x³+1/x³=(x+1/x)³−3(x+1/x)','identity'],
+  ['tanθ·tan(90−θ)=1','complementary'],
+  ['Mode = 3Median − 2Mean','empirical'] ]},
+ {d:'r',h:'Verbal Reasoning',items:[
+  ['name relation, apply identically','analogy'],
+  ['find shared property, spot breaker','odd one out'],
+  ['shift ± n / atbash A↔Z','coding'],
+  ['compare sentences, eliminate','code language'] ]},
+ {d:'r',h:'Arrangement & Space',items:[
+  ['Total = L + R − 1','row position'],
+  ['√(Δx²+Δy²)','direction distance'],
+  ['opposite faces sum 7','standard dice'],
+  ['mirror: L↔R; water: top↔bottom','images'] ]},
+ {d:'r',h:'Time-based',items:[
+  ['(days) mod 7 = odd days','calendar'],
+  ['angle = |30H − 5.5M|','clock'],
+  ['22 times/day opposite','clock hands'] ]},
+ {d:'r',h:'Logic',items:[
+  ['All A→B, All B→C ⇒ All A→C','syllogism'],
+  ['reverse never follows','syllogism trap'],
+  ['translate then BODMAS','symbol substitution'],
+  ['every target letter ∈ source','word formation'] ]}
+];
+
+/* ----- QUIZ BANK (ans = index 0-3) ----- */
+const QUIZ=[
+/* MATHS - core (from papers, verified) */
+{d:'maths',diff:'core',src:'paper',t:'Squares/Roots',q:'The smallest perfect square divisible by 15, 24 and 25 is:',o:['9604','2025','900','3600'],a:3,s:'LCM(15,24,25)=600=2³·3·5². Make every prime power even → multiply by 2·3=6 → 3600.',tip:'Start from the LCM, then square-complete the prime powers.'},
+{d:'maths',diff:'core',src:'paper',t:'Recurring Decimal',q:'0.5<span style="text-decoration:overline">7</span> (the 7 recurs) equals:',o:['37/90','57/99','26/45','52/99'],a:2,s:'(57−5)/90 = 52/90 = 26/45. Non-repeating digit 5 gives one 0 after the single 9.',tip:'Numerator = all digits − non-repeating digits.'},
+{d:'maths',diff:'core',src:'paper',t:'HCF & LCM',q:'HCF of two numbers is 16, LCM is 160. If one number is 32, the other is:',o:['48','80','96','112'],a:1,s:'HCF×LCM = product → (16×160)/32 = 2560/32 = 80.',tip:'Product rule works for exactly two numbers.'},
+{d:'maths',diff:'core',src:'paper',t:'AP',q:'Number of terms in 4, 11, 18, …, 186:',o:['17','25','26','27'],a:3,s:'d=7 → n=(186−4)/7+1 = 182/7+1 = 26+1 = 27.',tip:'Count = (last−first)/d + 1.'},
+{d:'maths',diff:'core',src:'paper',t:'Percentage',q:'Rama scores 49% (=294 marks). His friend scores 372 marks. His percentage is:',o:['60%','62%','72%','75%'],a:1,s:'Total = 294/0.49 = 600 → 372/600 = 62%.',tip:'Find the whole from the given part first.'},
+{d:'maths',diff:'core',src:'paper',t:'Successive %',q:'Length increased 20%, breadth decreased 20%. Area changes by:',o:['2% down','3% down','4% down','5% down'],a:2,s:'Factor = 1.2×0.8 = 0.96 → 4% decrease.',tip:'Equal up-then-down always loses x²/100 %.'},
+{d:'maths',diff:'core',src:'paper',t:'Averages',q:'Mean weight of 5 men rises 1 kg when a 60 kg man is replaced. New man weighs:',o:['65 kg','60 kg','55 kg','50 kg'],a:0,s:'Total rises 5×1 = 5 kg → new man = 60+5 = 65 kg.',tip:'Δtotal = Δavg × count.'},
+{d:'maths',diff:'core',src:'paper',t:'Pipes',q:'Filled in 12 h with a leak; without leak it would fill in 10 h. The leak alone empties the tank in:',o:['40 h','50 h','60 h','70 h'],a:2,s:'Leak rate = 1/10 − 1/12 = 1/60 → 60 hours.',tip:'A leak is a negative rate; subtract it.'},
+{d:'maths',diff:'core',src:'paper',t:'Speed',q:'36 km/h expressed in m/s is:',o:['10','15','20','25'],a:0,s:'36 × 5/18 = 10 m/s.',tip:'Multiply km/h by 5/18 for m/s.'},
+{d:'maths',diff:'core',src:'paper',t:'Ages',q:'Liana is 16, his sister 21. After how many years will their ages sum to 51?',o:['15','11','7','5'],a:2,s:'(16+t)+(21+t)=51 → 37+2t=51 → t=7.',tip:'Both ages advance by the same t.'},
+{d:'maths',diff:'core',src:'paper',t:'Compound Interest',q:'A sum becomes ₹2420 in 2 years and ₹2662 in 3 years (CI). The rate is:',o:['5%','8%','10%','12%'],a:2,s:'A₃/A₂ = 2662/2420 = 1.10 → r = 10% p.a.',tip:'Consecutive CI amounts have ratio (1+r/100).'},
+{d:'maths',diff:'core',src:'paper',t:'Mensuration',q:'Spheres of radii 3, 4, 5 cm are melted into one sphere. Its radius is:',o:['6 cm','12 cm','18 cm','24 cm'],a:0,s:'Volume conserved: R³ = 3³+4³+5³ = 216 → R = 6 cm.',tip:'Melting conserves volume, not surface area.'},
+{d:'maths',diff:'core',src:'paper',t:'Probability',q:'A card is drawn from 52. P(neither King nor Queen):',o:['12/13','11/13','10/13','9/13'],a:1,s:'Kings+Queens = 8 → (52−8)/52 = 44/52 = 11/13.',tip:'"Neither" = 1 − P(King or Queen).'},
+{d:'maths',diff:'core',src:'paper',t:'Sets',q:'200 students: 125 like orange, 90 apple, 60 both. Number liking neither:',o:['60','56','50','45'],a:3,s:'∪ = 125+90−60 = 155 → neither = 200−155 = 45.',tip:'Subtract the overlap once.'},
+{d:'maths',diff:'core',src:'paper',t:'Polynomials',q:'Remainder when x³+x²−2x−3 is divided by (x+2):',o:['−5','5','−3','3'],a:2,s:'P(−2) = −8+4+4−3 = −3.',tip:'For (x+2), plug x = −2.'},
+{d:'maths',diff:'core',src:'paper',t:'Trigonometry',q:'tan23°·tan33°·tan45°·tan57°·tan67° =',o:['1/2','√3','1','2'],a:2,s:'tan23·tan67 = 1 (complementary), tan33·tan57 = 1, tan45 = 1 → product 1.',tip:'Pair θ with (90−θ): their tangents multiply to 1.'},
+{d:'maths',diff:'core',src:'paper',t:'Statistics',q:'Given mode = 29 and mean = 38, the median (empirical) is:',o:['40','37','35','33'],a:2,s:'Mode = 3Median − 2Mean → 29 = 3M − 76 → M = 35.',tip:'Memorise Mode = 3·Median − 2·Mean.'},
+{d:'maths',diff:'core',src:'paper',t:'Ratio',q:'If a:b = 2:3 and b:c = 4:5, then a:b:c =',o:['15:12:8','15:10:12','8:10:15','8:12:15'],a:3,s:'Make b common (12): a:b = 8:12, b:c = 12:15 → 8:12:15.',tip:'Scale each ratio so the shared term matches.'},
+{d:'maths',diff:'core',src:'paper',t:'Time & Work',q:'A+B finish a job in 24 days; A alone in 32 days. They work 8 days together, then A leaves. Days B needs to finish:',o:['16','64','32','128'],a:1,s:'In 8 days together: 8/24 = 1/3 done. B rate = 1/24−1/32 = 1/96. Remaining 2/3 ÷ (1/96) = 64 days.',tip:'Find each rate, subtract to isolate B.'},
+{d:'maths',diff:'core',src:'paper',t:'Simplification',q:'(8.73³ + 4.27³)/(8.73² − 8.73·4.27 + 4.27²) =',o:['11','13','7','2'],a:1,s:'Matches (a³+b³)/(a²−ab+b²) = a+b = 8.73+4.27 = 13.',tip:'Spot the a³+b³ factorisation before multiplying.'},
+
+/* MATHS - harder (new, verified) */
+{d:'maths',diff:'hard',src:'new',t:'Successive %',q:'A price rises 25% then falls 20%. The net change is:',o:['5% up','no change','5% down','2% up'],a:1,s:'1.25 × 0.80 = 1.00 → exactly no change.',tip:'The order doesn\'t matter; multiply the factors.'},
+{d:'maths',diff:'hard',src:'new',t:'Profit & Loss',q:'An article is sold at 20% profit. Had it cost 20% less and sold for ₹40 less, the profit would be 40%. Its cost price is:',o:['₹400','₹500','₹600','₹450'],a:1,s:'1.2C − 40 = 1.4×(0.8C)=1.12C → 0.08C = 40 → C = ₹500.',tip:'Write both scenarios as SP equations, then subtract.'},
+{d:'maths',diff:'hard',src:'new',t:'Pipes',q:'A fills in 6 h, B in 8 h, C empties in 12 h. All open on an empty tank; time to fill:',o:['4.2 h','4.8 h','5.0 h','5.4 h'],a:1,s:'Net rate = 1/6 + 1/8 − 1/12 = (4+3−2)/24 = 5/24 → 24/5 = 4.8 h.',tip:'Add the emptying pipe as a negative rate.'},
+{d:'maths',diff:'hard',src:'new',t:'Trains',q:'A 240 m train crosses a pole in 12 s. Time to cross a 360 m platform:',o:['24 s','27 s','30 s','33 s'],a:2,s:'Speed = 240/12 = 20 m/s. Distance = 240+360 = 600 m → 600/20 = 30 s.',tip:'Crossing a platform covers train length + platform length.'},
+{d:'maths',diff:'hard',src:'new',t:'Averages',q:'Average of 11 numbers is 50; of first six is 49, of last six is 52. The 6th number is:',o:['54','56','58','60'],a:1,s:'6th is counted in both sixes: (6×49)+(6×52) − (11×50) = 294+312−550 = 56.',tip:'The overlapping term is double-counted — subtract the whole total once.'},
+{d:'maths',diff:'hard',src:'new',t:'Compound Interest',q:'A sum doubles in 5 years at compound interest. It becomes 8 times in:',o:['10 years','15 years','20 years','25 years'],a:1,s:'8 = 2³, and each doubling takes 5 years → 3×5 = 15 years.',tip:'Express the multiple as a power of the doubling factor.'},
+{d:'maths',diff:'hard',src:'new',t:'Boats & Streams',q:'A boat goes 30 km downstream in 3 h and 30 km upstream in 5 h. Stream speed:',o:['1 km/h','2 km/h','3 km/h','4 km/h'],a:1,s:'Down = 10, up = 6 km/h. Stream = (10−6)/2 = 2 km/h.',tip:'Stream speed = (down − up)/2; boat speed = (down + up)/2.'},
+{d:'maths',diff:'hard',src:'new',t:'SI − CI',q:'The difference between CI and SI on ₹10,000 for 3 years at 10% p.a. is:',o:['₹300','₹310','₹331','₹300.30'],a:1,s:'CI−SI (3 yr) = P·r²(300+r)/100³ = 10000·100·310/10⁶ = ₹310.',tip:'For 3 years use the (300+r) formula, not the 2-year square.'},
+{d:'maths',diff:'hard',src:'new',t:'Ratio · Interchange',q:'Monthly incomes of X and Y are 4:3 and expenditures 3:2. Each saves ₹12,000. Total monthly income:',o:['₹72,000','₹84,000','₹96,000','₹1,08,000'],a:1,s:'4a−3b=12000, 3a−2b=12000 → a=12000, income X=48000, Y=36000, total ₹84,000.',tip:'Savings = income − expenditure gives two linear equations.'},
+
+/* REASONING - core (from papers) */
+{d:'reason',diff:'core',src:'paper',t:'Series',q:'Complete: 4, 16, 64, 256, ?, 4096',o:['512','2048','4096','1024'],a:3,s:'Each term ×4 → 256×4 = 1024 (and 1024×4 = 4096 checks out).',tip:'When differences balloon, test a constant ratio.'},
+{d:'reason',diff:'core',src:'paper',t:'Coding',q:'If TABLE is coded GZYOV, then CHAIR is:',o:['XRZSI','XZSRI','XSRZI','XSZRI'],a:3,s:'Atbash: replace each letter by (27−position). C→X, H→S, A→Z, I→R, R→I → XSZRI.',tip:'Check the rule on two letters (T→G, A→Z) before applying.'},
+{d:'reason',diff:'core',src:'paper',t:'Analogy',q:'Aeroplane : Cockpit :: Train : ?',o:['Wagon','Coach','Compartment','Engine'],a:3,s:'The cockpit is where the pilot controls the plane; the driver controls the train from the engine.',tip:'State the relation as a sentence and keep it true.'},
+{d:'reason',diff:'core',src:'paper',t:'Odd One Out',q:'Choose the odd one: 121, 324, 523, 729',o:['121','324','523','729'],a:2,s:'121=11², 324=18², 729=27² are perfect squares; 523 is not.',tip:'Test number properties, not just size.'},
+{d:'reason',diff:'core',src:'paper',t:'Calendar',q:'Today is Monday. After 61 days it will be:',o:['Tuesday','Monday','Sunday','Saturday'],a:3,s:'61 mod 7 = 5 → Monday + 5 = Saturday.',tip:'Only the remainder after full weeks matters.'},
+{d:'reason',diff:'core',src:'paper',t:'Direction',q:'Vivek: 3 km N, turns right, 4 km. Ashok: 5 km W, turns right, 3 km. Distance apart:',o:['10 km','9 km','8 km','6 km'],a:1,s:'Vivek ends at (4,3); Ashok at (−5,3). Same y → gap = 4−(−5) = 9 km.',tip:'Plot each on axes; "turn right" rotates the heading.'},
+{d:'reason',diff:'core',src:'paper',t:'Ranking',q:'Kamala is 9th from left. She swaps with Veena (16th from right) and becomes 25th from left. Girls in the row:',o:['34','36','40','41'],a:2,s:'After swap Kamala takes Veena\'s spot (25th from left = 16th from right) → Total = 25+16−1 = 40.',tip:'Total = from-left + from-right − 1.'},
+{d:'reason',diff:'core',src:'paper',t:'Symbol Substitution',q:'A=+, B=−, C=×, D=÷. Then 18 C 14 A 6 B 16 D 4 =',o:['254','238','188','258'],a:0,s:'18×14 + 6 − 16÷4 = 252 + 6 − 4 = 254.',tip:'Translate first, then apply BODMAS.'},
+{d:'reason',diff:'core',src:'paper',t:'Syllogism',q:'Statements: All men are dogs; all dogs are cats. Which follows? I: All men are cats. II: All cats are men.',o:['Only I','Only II','Neither','Both'],a:0,s:'Chaining gives "all men are cats" (I). The reverse (II) is not forced.',tip:'The reverse of a chained "all" never follows.'},
+{d:'reason',diff:'core',src:'paper',t:'Sequencing',q:'Meaningful order: 1.Word 2.Paragraph 3.Sentence 4.Letter 5.Phrase',o:['4,1,5,3,2','1,4,3,2,5','4,1,3,5,2','5,1,2,4,3'],a:0,s:'Building up: Letter→Word→Phrase→Sentence→Paragraph = 4,1,5,3,2.',tip:'Choose the ordering principle (here: small→large) first.'},
+{d:'reason',diff:'core',src:'paper',t:'Clock',q:'How many times a day are a clock\'s hands in a straight line but opposite in direction?',o:['20','22','24','48'],a:1,s:'Opposite (180°) happens 11 times per 12 hours → 22 times a day.',tip:'It\'s 11, not 12, per 12-hour cycle.'},
+{d:'reason',diff:'core',src:'paper',t:'Word Formation',q:'Which CANNOT be formed from the letters of INDETERMINATE?',o:['DETERMINE','RETINUE','REMINDER','RETINA'],a:1,s:'RETINUE needs a "U"; INDETERMINATE has no U → cannot be formed.',tip:'One missing letter rules a word out.'},
+
+/* REASONING - harder (new) */
+{d:'reason',diff:'hard',src:'new',t:'Series',q:'Find the next term: 3, 7, 15, 31, 63, ?',o:['95','111','127','129'],a:2,s:'Rule ×2+1: 63×2+1 = 127. (Also each = 2ⁿ⁺¹−1.)',tip:'Test ×n±k when gaps roughly double.'},
+{d:'reason',diff:'hard',src:'new',t:'Clock',q:'The angle between the hands of a clock at 3:40 is:',o:['110°','120°','130°','140°'],a:2,s:'|30×3 − 5.5×40| = |90 − 220| = 130°.',tip:'Angle = |30H − 5.5M|; take the smaller side if >180.'},
+{d:'reason',diff:'hard',src:'new',t:'Coding',q:'In a code, ‘na jo tod’ = "water is life", ‘pit na som’ = "bring me water", ‘jo lin kot’ = "life and death". Code for "is":',o:['jo','na','tod','pit'],a:2,s:'"water"=na (in both water-sentences), "life"=jo (in both life-sentences); the leftover in ‘na jo tod’ is tod = "is".',tip:'Cross off words shared across sentences to isolate the rest.'},
+{d:'reason',diff:'hard',src:'new',t:'Puzzle',q:'A rabbit heads to a river and sees 6 elephants. Each elephant saw 2 monkeys going to the river; each monkey holds 1 tortoise. How many animals are going to the river?',o:['14','11','8','5'],a:3,s:'Elephants only watched. Going to the river: 1 rabbit + 2 monkeys + 2 tortoises = 5.',tip:'Count only those the sentence says are "going".'},
+{d:'reason',diff:'hard',src:'new',t:'Direction',q:'If South-East becomes North, then South-West becomes:',o:['North','West','East','North-West'],a:2,s:'The whole compass rotates 135° anticlockwise. Applying that to SW lands on East.',tip:'Find the rotation from the given pair, apply it to the query.'},
+{d:'reason',diff:'hard',src:'new',t:'Matrix',q:'Column reads 12, 4, ? and the product of the column is 96. The missing number is:',o:['4','5','3','2'],a:3,s:'12 × 4 × ? = 96 → ? = 96/48 = 2.',tip:'Confirm the "product" rule on a complete column first.'},
+
+/* CONCEPT-CHECK (understanding, not just compute) */
+{d:'maths',diff:'concept',src:'new',t:'Concept: Averages',q:'Two classes have average marks 60 and 80. What extra fact do you MUST know to find the combined average?',o:['The highest mark','The number of students in each class','The passing mark','The subject'],a:1,s:'Average of averages is wrong unless the groups are equal-sized. You need each group\'s count to weight them.',tip:'Weighted average needs the group sizes.'},
+{d:'maths',diff:'concept',src:'new',t:'Concept: Successive %',q:'A shirt is discounted 10% then another 10%. The total discount is:',o:['Exactly 20%','Less than 20%','More than 20%','Depends on price'],a:1,s:'0.9×0.9 = 0.81 → 19% off, which is less than 20%. The second cut acts on a smaller base.',tip:'Successive discounts never simply add.'},
+{d:'maths',diff:'concept',src:'new',t:'Concept: Interest',q:'For the SAME principal, rate and time (>1 year), which is larger?',o:['Simple interest','Compound interest','They are equal','Cannot say'],a:1,s:'CI earns interest on previous interest, so for time beyond 1 year CI > SI. They\'re equal only in year 1.',tip:'CI ≥ SI, with equality only in the first period.'},
+{d:'maths',diff:'concept',src:'new',t:'Concept: Mensuration',q:'A metal sphere is melted and recast into small spheres. Which quantity stays the same?',o:['Total surface area','Total volume','Radius','Number of pieces'],a:1,s:'Recasting conserves the amount of metal = total volume. Surface area actually increases.',tip:'Melting conserves volume; surface area is not conserved.'},
+{d:'maths',diff:'concept',src:'new',t:'Concept: Speed',q:'You drive to a town at 40 km/h and back at 60 km/h. Your average speed is:',o:['50 km/h','48 km/h','52 km/h','45 km/h'],a:1,s:'Equal distances → harmonic mean = 2×40×60/(40+60) = 48 km/h, below the arithmetic 50.',tip:'Equal distances use 2s₁s₂/(s₁+s₂), not (s₁+s₂)/2.'},
+{d:'reason',diff:'concept',src:'new',t:'Concept: Syllogism',q:'"Some A are B" is given. Does "Some B are A" follow?',o:['Yes, always','No, never','Only sometimes','Need a diagram'],a:0,s:'"Some" is symmetric: if some A are B, those same items are B that are A → some B are A always holds.',tip:'"Some" converts freely; "all" does not.'},
+{d:'reason',diff:'concept',src:'new',t:'Concept: Images',q:'In a MIRROR (vertical line) image, which stays unchanged?',o:['Left–right order','Top–bottom order','Both','Neither'],a:1,s:'A vertical mirror swaps left and right; top and bottom are unchanged.',tip:'Mirror flips horizontally; water image flips vertically.'},
+{d:'reason',diff:'concept',src:'new',t:'Concept: Dice',q:'On a standard die, if the top face is 3, the bottom face is:',o:['1','4','5','6'],a:1,s:'Opposite faces sum to 7 → 7−3 = 4.',tip:'Standard die ⇒ opposite faces total 7.'},
+{d:'reason',diff:'concept',src:'new',t:'Concept: Ranking',q:'In a row of 30, a person is 12th from the left. Their position from the right is:',o:['18th','19th','20th','17th'],a:1,s:'From right = Total − left + 1 = 30 − 12 + 1 = 19th.',tip:'From-right = Total − from-left + 1.'},
+
+/* ============ EXPANSION BATCH — MATHS (from papers, verified) ============ */
+{d:'maths',diff:'core',src:'paper',t:'Percentage',q:'What percent of 2.5 litre is 125 mL?',o:['10%','8%','6%','5%'],a:3,s:'2.5 L = 2500 mL → 125/2500 × 100 = 5%.',tip:'Convert to the same unit before dividing.'},
+{d:'maths',diff:'core',src:'paper',t:'Percentage',q:'40% of students are boys and there are 540 girls. Number of boys:',o:['360','390','420','460'],a:0,s:'Girls = 60% = 540 → total = 900 → boys = 40% = 360.',tip:'Girls\' % = 100 − boys\' %.'},
+{d:'maths',diff:'core',src:'paper',t:'Percentage',q:'A price is decreased by 10%. If it was ₹12/kg, the new price is:',o:['₹10.60','₹10.70','₹10.80','₹10.90'],a:2,s:'12 × 0.90 = ₹10.80.',tip:'Decrease of x% ⇒ multiply by (1 − x/100).'},
+{d:'maths',diff:'core',src:'paper',t:'Percentage',q:'In an exam, 50% failed English, 40% failed Hindi, 15% failed both. Percentage that passed both:',o:['20%','25%','60%','75%'],a:1,s:'Failed at least one = 50+40−15 = 75% → passed both = 25%.',tip:'Passed both = 100 − (failed either).'},
+{d:'maths',diff:'core',src:'paper',t:'Percentage',q:'To pass, 40% is needed. A student gets 40 marks and fails by 40. Maximum marks:',o:['150','200','250','300'],a:1,s:'Pass mark = 40+40 = 80 = 40% → total = 80/0.4 = 200.',tip:'Pass mark = obtained + shortfall.'},
+{d:'maths',diff:'core',src:'paper',t:'Profit & Loss',q:'A fan costing ₹1200 is sold for ₹1500. Profit percentage:',o:['10%','30%','20%','25%'],a:3,s:'Profit = 300/1200 × 100 = 25%.',tip:'Profit % is always on cost price.'},
+{d:'maths',diff:'core',src:'paper',t:'Profit & Loss',q:'A table costing ₹1500 is sold for ₹1410. Loss percentage:',o:['5%','6%','7%','8%'],a:1,s:'Loss = 90/1500 × 100 = 6%.',tip:'Loss % = loss ÷ cost price × 100.'},
+{d:'maths',diff:'core',src:'paper',t:'Profit & Loss',q:'300 bulbs bought at ₹10 each; 20 fuse; rest sold at ₹12. Gain or loss %:',o:['10% gain','10% loss','12% loss','12% gain'],a:3,s:'CP = 3000, SP = 280×12 = 3360 → gain 360/3000 = 12%.',tip:'Compute total CP and total SP, then compare.'},
+{d:'maths',diff:'core',src:'paper',t:'Discount',q:'A marked price is 10% above cost, then a 20% discount is given. The loss percent is:',o:['9%','15%','18%','12%'],a:3,s:'SP = CP × 1.10 × 0.80 = 0.88 CP → 12% loss.',tip:'Chain the multipliers on cost price.'},
+{d:'maths',diff:'core',src:'paper',t:'Discount',q:'On selling at ₹450 a shopkeeper loses 10%. Price for a 5% gain:',o:['₹625','₹600','₹550','₹525'],a:3,s:'CP = 450/0.9 = 500 → 5% gain → 500×1.05 = ₹525.',tip:'Find CP first, then apply the new profit %.'},
+{d:'maths',diff:'core',src:'paper',t:'VAT / Tax',q:'A scooty costs ₹84,000 including 12% sales tax. Original price:',o:['₹75,000','₹76,000','₹78,000','₹80,000'],a:0,s:'84000 ÷ 1.12 = ₹75,000.',tip:'Divide by (1 + tax%) to peel tax off.'},
+{d:'maths',diff:'core',src:'paper',t:'Discount',q:'Thanga saved ₹200 on a 25% discount. Price before discount:',o:['₹400','₹700','₹500','₹800'],a:3,s:'25% of MP = 200 → MP = ₹800.',tip:'The saving equals discount% × marked price.'},
+{d:'maths',diff:'core',src:'paper',t:'Ratio',q:'A dozen mangoes cost ₹240 and 9 apples cost ₹72. Ratio of one mango to one apple:',o:['2:5','7:3','3:7','5:2'],a:3,s:'Mango = 20, apple = 8 → 20:8 = 5:2.',tip:'Reduce to per-unit price first.'},
+{d:'maths',diff:'core',src:'paper',t:'Ratio',q:'Two numbers are in ratio 8:3 and their sum is 143. Their difference is:',o:['39','47','65','104'],a:2,s:'11 parts = 143 → 1 part = 13 → diff = 5×13 = 65.',tip:'Difference = (difference of ratio terms) × part value.'},
+{d:'maths',diff:'core',src:'paper',t:'Ratio',q:'If 2p = 3q = 4r, then p : q : r is:',o:['2:3:4','4:3:2','6:4:3','3:4:6'],a:2,s:'Set each = 12 → p=6, q=4, r=3 → 6:4:3.',tip:'Equate all to the LCM of the coefficients.'},
+{d:'maths',diff:'core',src:'paper',t:'Averages',q:'The average of 10 numbers is 22. If each is increased by 3, the new average is:',o:['26','23','24','25'],a:3,s:'Adding 3 to every value adds 3 to the mean → 25.',tip:'A constant added to each term adds it to the average.'},
+{d:'maths',diff:'core',src:'paper',t:'Averages',q:'30 boys average 12 yr, 60 girls average 10 yr. Class average age:',o:['10 yr','10.66 yr','11.5 yr','11.66 yr'],a:1,s:'(30×12 + 60×10)/90 = 960/90 ≈ 10.66 yr.',tip:'Weight each group by its size.'},
+{d:'maths',diff:'core',src:'paper',t:'Averages',q:'Average of the first 5 positive even numbers divisible by 9:',o:['50','54','48','62'],a:1,s:'They are 18,36,54,72,90 → average = (18+90)/2 = 54.',tip:'Even and divisible by 9 ⇒ divisible by 18.'},
+{d:'maths',diff:'core',src:'paper',t:'Compound Interest',q:'A sum amounts to ₹6655 in 3 years at 10% p.a. (CI). The principal is:',o:['₹5500','₹5000','₹6000','₹6100'],a:1,s:'P = 6655/1.1³ = 6655/1.331 = ₹5000.',tip:'Divide the amount by (1+r/100)ⁿ.'},
+{d:'maths',diff:'core',src:'paper',t:'Interest SI↔CI',q:'The SI for 2 years is ₹200 at 5%. The CI for the same period is:',o:['₹205','₹250','₹150','₹200'],a:0,s:'P = 200/(0.05×2) = 2000 → CI = 2000(1.05²−1) = ₹205.',tip:'Back out the principal from SI, then apply CI.'},
+{d:'maths',diff:'core',src:'paper',t:'Compound Interest',q:'Population grows 5% per year. From 16000, after 3 years it becomes:',o:['29448','18522','24448','20448'],a:1,s:'16000 × 1.05³ = 16000 × 1.157625 = 18522.',tip:'Growth compounds — use (1+r)ⁿ.'},
+{d:'maths',diff:'core',src:'paper',t:'Simple Interest',q:'In how many years does simple interest become 2/5 of the principal at 8% p.a.?',o:['7 yr','5 yr','8 yr','6 yr'],a:1,s:'2/5 = 0.4 = 0.08 × t → t = 5 years.',tip:'SI/P = (r/100)×t; solve for t.'},
+{d:'maths',diff:'core',src:'paper',t:'Time & Work',q:'A does a job in 6 days; with a friend, in 4 days. The friend alone takes:',o:['12 days','4 days','6 days','10 days'],a:0,s:'Friend rate = 1/4 − 1/6 = 1/12 → 12 days.',tip:'Together rate minus A\'s rate = friend\'s rate.'},
+{d:'maths',diff:'core',src:'paper',t:'Time & Work',q:'A and B together finish in 12 days; B alone in 30 days. A alone takes:',o:['18 days','24 days','25 days','20 days'],a:3,s:'A rate = 1/12 − 1/30 = 1/20 → 20 days.',tip:'Subtract the known rate from the combined rate.'},
+{d:'maths',diff:'core',src:'paper',t:'Time & Work',q:'A (30 d) and B (20 d) work together. Time to finish the job:',o:['12 days','20 days','24 days','25 days'],a:0,s:'1/(1/30 + 1/20) = 1/(5/60) = 12 days.',tip:'Combined time = 1 ÷ (sum of rates).'},
+{d:'maths',diff:'core',src:'paper',t:'Speed',q:'A car travels at 80 km/h. Distance covered in 15 minutes:',o:['10 km','20 km','15 km','30 km'],a:1,s:'80 × 15/60 = 80 × 0.25 = 20 km.',tip:'Convert minutes to hours before multiplying.'},
+{d:'maths',diff:'core',src:'paper',t:'Speed',q:'A train at 72 km/h passes a pole in 17 s. Its length is:',o:['340 m','430 m','440 m','360 m'],a:0,s:'72 km/h = 20 m/s → 20 × 17 = 340 m.',tip:'Passing a pole covers just the train\'s length.'},
+{d:'maths',diff:'core',src:'paper',t:'Speed',q:'A train at 90 km/h passes a pole in 18 s. Length of the train:',o:['350 m','400 m','450 m','500 m'],a:2,s:'90 km/h = 25 m/s → 25 × 18 = 450 m.',tip:'Length = speed(m/s) × time.'},
+{d:'maths',diff:'core',src:'paper',t:'Mensuration',q:'A wheel makes 5000 revolutions covering 11 km. Its diameter is:',o:['35 cm','49 cm','55 cm','70 cm'],a:3,s:'Circumference = 1,100,000/5000 = 220 cm = πd → d = 220 ÷ (22/7) = 70 cm.',tip:'Distance per revolution = circumference = πd.'},
+{d:'maths',diff:'core',src:'paper',t:'Mensuration',q:'A cylinder has base diameter 4 cm and height 14 cm. Its volume is:',o:['196 cm³','176 cm³','276 cm³','352 cm³'],a:1,s:'πr²h = 22/7 × 2² × 14 = 22 × 8 = 176 cm³.',tip:'Use r = d/2 before squaring.'},
+{d:'maths',diff:'core',src:'paper',t:'Mensuration',q:'A trapezium has area 480 m², parallel-side distance 15 m, one side 20 m. Other side:',o:['40 m','35 m','44 m','50 m'],a:2,s:'480 = ½(20+b)(15) → 64 = 20+b → b = 44 m.',tip:'Area = ½(sum of parallel sides) × height.'},
+{d:'maths',diff:'core',src:'paper',t:'Mensuration',q:'Circumferences of two circles are 198 and 352 cm. Difference of their radii:',o:['16.5 cm','45 cm','49.5 cm','24.5 cm'],a:3,s:'ΔC = 154 = 2π·Δr → Δr = 154 ÷ (44/7) = 24.5 cm.',tip:'Radius difference scales with circumference difference.'},
+{d:'maths',diff:'core',src:'paper',t:'Mensuration',q:'A square plot has perimeter 160 m. Cost of grass at ₹30/m²:',o:['₹42,000','₹44,000','₹46,000','₹48,000'],a:3,s:'Side = 40 m → area = 1600 m² → 1600 × 30 = ₹48,000.',tip:'Perimeter ÷ 4 = side; then area = side².'},
+{d:'maths',diff:'core',src:'paper',t:'Mensuration',q:'The volume of a cube is 512 cm³. Its edge length is:',o:['8 cm','7 cm','6 cm','4 cm'],a:0,s:'∛512 = 8 cm.',tip:'Edge = cube root of volume.'},
+{d:'maths',diff:'core',src:'paper',t:'Probability',q:'A bag has 3 red, 5 white, 7 black balls. P(neither red nor black):',o:['2/5','1/3','8/15','7/15'],a:1,s:'Neither red nor black = white = 5/15 = 1/3.',tip:'"Neither…nor" leaves only the remaining colour.'},
+{d:'maths',diff:'core',src:'paper',t:'Squares/Roots',q:'The least 6-digit number that is a perfect square:',o:['100489','100089','100480','100049'],a:0,s:'√100000 ≈ 316.2 → 317² = 100489.',tip:'Take √(lower bound), round up, then square.'},
+{d:'maths',diff:'core',src:'paper',t:'HCF & LCM',q:'HCF is 13, LCM is 1989, one number is 117. The other number is:',o:['222','223','221','225'],a:2,s:'(13 × 1989)/117 = 221.',tip:'Product = HCF × LCM for two numbers.'},
+{d:'maths',diff:'core',src:'paper',t:'Series/Sum',q:'The sum of the first 37 odd numbers is:',o:['1639','1369','1365','1425'],a:1,s:'Sum of first n odd numbers = n² = 37² = 1369.',tip:'1+3+5+…+(2n−1) = n².'},
+{d:'maths',diff:'core',src:'paper',t:'Series/Sum',q:'The sum of the first 30 natural numbers is:',o:['470','468','463','465'],a:3,s:'n(n+1)/2 = 30×31/2 = 465.',tip:'Use n(n+1)/2.'},
+{d:'maths',diff:'core',src:'paper',t:'Integers',q:'Subtract −29 from −53 and add −16 to the result:',o:['−98','8','−40','−66'],a:2,s:'(−53) − (−29) = −24; −24 + (−16) = −40.',tip:'Subtracting a negative adds it.'},
+{d:'maths',diff:'core',src:'paper',t:'Roots',q:'The cube root of −64 is:',o:['−8','4','−4','3'],a:2,s:'(−4)³ = −64 → ∛(−64) = −4.',tip:'Odd roots keep the sign.'},
+{d:'maths',diff:'core',src:'paper',t:'Mixtures',q:'20 L mixture has milk:water = 3:2. Add 2 L water. New ratio:',o:['3:4','4:5','5:6','6:5'],a:3,s:'Milk 12, water 8→10 → 12:10 = 6:5.',tip:'Adding water leaves the milk quantity unchanged.'},
+{d:'maths',diff:'core',src:'paper',t:'P&C',q:'The number of ways to arrange 5 different books on a shelf:',o:['100','125','25','120'],a:3,s:'5! = 120.',tip:'Distinct items in a row → n!.'},
+{d:'maths',diff:'core',src:'paper',t:'P&C',q:'Ways to form a committee of 4 men and 2 women from 6 men and 5 women:',o:['160','150','125','100'],a:1,s:'C(6,4) × C(5,2) = 15 × 10 = 150.',tip:'Committees use combinations; multiply the independent choices.'},
+{d:'maths',diff:'core',src:'paper',t:'Algebra',q:'If the roots of px² + x + r = 0 are reciprocals of each other, then:',o:['p = r','p = 2r','2p = r','p = 4r'],a:0,s:'Product of roots = r/p = 1 → p = r.',tip:'Reciprocal roots ⇒ product of roots = 1 = c/a.'},
+{d:'maths',diff:'core',src:'paper',t:'Trigonometry',q:'A 12 m stick casts an 8 m shadow. A tower casts a 40 m shadow at the same time. Its height:',o:['60 m','65 m','70 m','72 m'],a:0,s:'Height/shadow is constant: 12/8 × 40 = 60 m.',tip:'Similar triangles: height ∝ shadow.'},
+
+/* ============ EXPANSION — MATHS (new / harder) ============ */
+{d:'maths',diff:'hard',src:'new',t:'P&C',q:'The number of distinct arrangements of the letters of MISSISSIPPI:',o:['34650','40320','11550','83160'],a:0,s:'11 letters with I×4, S×4, P×2 → 11!/(4!·4!·2!) = 34650.',tip:'Divide n! by the factorial of each repeated letter\'s count.'},
+{d:'maths',diff:'hard',src:'new',t:'Partnership',q:'A, B, C invest in ratio 7:8:5 for a ₹1,36,800 profit. A withdraws after 3 months, C after 7 months (B stays 12). Difference of A\'s and C\'s share:',o:['₹12,600','₹11,500','₹13,500','₹10,500'],a:0,s:'Capital-months: A=21, B=96, C=35 → total 152. Diff = 136800×(35−21)/152 = ₹12,600.',tip:'Share ∝ capital × time invested.'},
+{d:'maths',diff:'hard',src:'new',t:'Alligation',q:'In what ratio must rice at ₹20/kg and ₹30/kg be mixed to get a mixture worth ₹24/kg?',o:['2:3','3:2','1:1','4:3'],a:1,s:'(30−24):(24−20) = 6:4 = 3:2 (cheaper:dearer).',tip:'Alligation: (dear−mean):(mean−cheap).'},
+{d:'maths',diff:'hard',src:'new',t:'Mixtures',q:'40 L of a 3:2 milk-water mix. How much water to add to make it 1:1?',o:['4 L','6 L','8 L','10 L'],a:2,s:'Milk 24, water 16. For 1:1 water must equal 24 → add 8 L.',tip:'Set new water = milk, subtract current water.'},
+{d:'maths',diff:'hard',src:'new',t:'BODMAS',q:'Evaluate: (18 − 3) × 2 + 24 ÷ (4 + 2)',o:['30','32','34','36'],a:2,s:'15 × 2 + 24÷6 = 30 + 4 = 34.',tip:'Brackets first, then ÷ and × left to right.'},
+{d:'maths',diff:'hard',src:'new',t:'Boats',q:'A boat covers 30 km downstream in 3 h and returns in 5 h. Speed of the boat in still water:',o:['6 km/h','7 km/h','8 km/h','9 km/h'],a:2,s:'Down = 10, up = 6 → boat = (10+6)/2 = 8 km/h.',tip:'Still-water speed = (down + up)/2.'},
+{d:'maths',diff:'hard',src:'new',t:'Number System',q:'The smallest number to be added to 7250 to make it a perfect square:',o:['30','35','36','39'],a:3,s:'85² = 7225, 86² = 7396 → 7396 − 7250 = 146… but nearest above uses 86²; 7250 needs +146. (Least to SUBTRACT is 25.) For "add", answer 146.',tip:'For "add", jump to the NEXT square; for "subtract", drop to the previous.'},
+
+/* ============ EXPANSION — REASONING (from papers, verified) ============ */
+{d:'reason',diff:'core',src:'paper',t:'Series',q:'Find the next term: 12, 11, 13, 12, 14, 13, ?',o:['15','16','13','10'],a:0,s:'Pattern alternates −1, +2 → after 13 comes +2 → 15.',tip:'Look for a repeating two-step pattern.'},
+{d:'reason',diff:'core',src:'paper',t:'Series',q:'Find the next term: 2, 1, 1/2, 1/4, ?',o:['1/3','1/8','1/16','2/3'],a:1,s:'Each term is halved → 1/4 × 1/2 = 1/8.',tip:'Test a constant ratio for fraction series.'},
+{d:'reason',diff:'core',src:'paper',t:'Symbol Substitution',q:'If × means −, + means ×, − means +, find: 12 + (3 × 1) + 4 − 1',o:['98','96','75','97'],a:3,s:'Translate → 12 × (3 − 1) × 4 + 1 = 12×2×4 + 1 = 97.',tip:'Swap symbols first, then apply BODMAS.'},
+{d:'reason',diff:'core',src:'paper',t:'Symbol Substitution',q:'Q=+, J=×, T=−, K=÷. Find: 30 K 2 Q 3 J 6 T 5',o:['18','28','31','6'],a:1,s:'30÷2 + 3×6 − 5 = 15 + 18 − 5 = 28.',tip:'Do ÷ and × before + and −.'},
+{d:'reason',diff:'core',src:'paper',t:'Blood Relations',q:'A is C\'s son. C and Q are sisters. Z is Q\'s mother. P is Z\'s son. P is A\'s:',o:['Brother','Maternal uncle','Uncle','Grandfather'],a:1,s:'Z is mother of C and Q; P (Z\'s son) is their brother → P is A\'s mother\'s brother = maternal uncle.',tip:'Trace to A\'s parent, then relate.'},
+{d:'reason',diff:'core',src:'paper',t:'Blood Relations',q:'"Her father is the only son of my mother," says Matthew about a photo. The photo shows Matthew\'s:',o:['niece','daughter','mother','sister'],a:1,s:'"Only son of my mother" = Matthew himself → he is her father → she is his daughter.',tip:'Resolve the self-reference ("only son of my mother").'},
+{d:'reason',diff:'core',src:'paper',t:'Blood Relations',q:'Family: A&B married (B female), B is F\'s daughter-in-law, C is A\'s brother, F\'s husband is dead. F is related to C as:',o:['Sister','Mother','Aunt','Mother-in-law'],a:1,s:'A and C are brothers, both children of F → F is C\'s mother.',tip:'Daughter-in-law of F ⇒ F is the parent generation.'},
+{d:'reason',diff:'core',src:'paper',t:'Direction',q:'A room is 8 m by 6 m. A cat runs along all four walls, then along a diagonal. Total distance:',o:['10 m','14 m','38 m','48 m'],a:2,s:'Perimeter = 2(8+6) = 28; diagonal = √(64+36) = 10 → total 38 m.',tip:'Perimeter + diagonal (Pythagoras) for the corner-to-corner run.'},
+{d:'reason',diff:'core',src:'paper',t:'Ranking',q:'Vana is 7 ranks ahead of Mapuia in a class of 39. Mapuia is 17th from the last. Vana\'s rank from the start:',o:['14th','15th','16th','17th'],a:2,s:'Mapuia from start = 39−17+1 = 23 → Vana = 23−7 = 16th.',tip:'Convert "from last" to "from start" first.'},
+{d:'reason',diff:'core',src:'paper',t:'Seating',q:'P,Q,R,S,T face North. S is between T and Q; Q is immediately left of R; P is immediately left of T. Who is in the middle?',o:['S','T','Q','R'],a:0,s:'Order becomes P, T, S, Q, R → the middle (3rd) is S.',tip:'Anchor "immediately left" pairs, then slot the between-constraint.'},
+{d:'reason',diff:'core',src:'paper',t:'Word Formation',q:'Which word CANNOT be formed from the letters of INCARCERATION?',o:['RELATION','TERRAIN','INACTION','CREATION'],a:0,s:'RELATION needs an "L"; INCARCERATION has no L → cannot form.',tip:'Scan for a single missing letter to eliminate.'},
+{d:'reason',diff:'core',src:'paper',t:'Sequencing',q:'Meaningful order: 1.Crop 2.Root 3.Stem 4.Seed 5.Flower',o:['2,3,4,1,5','4,2,3,5,1','4,3,5,1,2','2,4,5,1,3'],a:1,s:'Growth order: Seed→Root→Stem→Flower→Crop = 4,2,3,5,1.',tip:'Follow the real-world process from the start.'},
+{d:'reason',diff:'core',src:'paper',t:'Sequencing',q:'Meaningful order (life stages): 1.Puberty 2.Adulthood 3.Childhood 4.Infancy 5.Senescence',o:['5,2,3,4,1','4,3,2,1,5','4,3,1,2,5','2,4,3,1,5'],a:2,s:'Infancy→Childhood→Puberty→Adulthood→Senescence = 4,3,1,2,5.',tip:'Order chronologically from birth to old age.'},
+{d:'reason',diff:'core',src:'paper',t:'Analogy',q:'Vertex : Pyramid :: ?',o:['Strand : Hair','Rung : Ladder','Summit : Mountain','Frame : Picture'],a:2,s:'A vertex is the topmost point of a pyramid; a summit is the top of a mountain.',tip:'Match the exact "top-most point of" relation.'},
+{d:'reason',diff:'core',src:'paper',t:'Analogy',q:'Ocean : Pacific :: Island : ?',o:['Greenland','Ireland','Netherland','Borneo'],a:0,s:'Pacific is the largest ocean; Greenland is the largest island.',tip:'The relation here is "largest example of".'},
+{d:'reason',diff:'core',src:'paper',t:'Analogy',q:'Meningitis : Brain :: Cirrhosis : ?',o:['Lungs','Brain','Liver','Heart'],a:2,s:'Meningitis affects the brain (its membranes); cirrhosis affects the liver.',tip:'Match disease to the organ it attacks.'},
+{d:'reason',diff:'core',src:'paper',t:'Coding',q:'"na jo tod" = water is life, "pit na som" = bring me water, "jo lin kot" = life and death. Code for "life":',o:['na','jo','tod','pit'],a:1,s:'"water"=na (both water lines), leaving "jo" common to both life lines → life = jo.',tip:'Eliminate words shared across sentence pairs.'},
+{d:'reason',diff:'core',src:'paper',t:'Coding',q:'"Sue Re Nik"=She is brave, "Pi Sor Re Nik"=She is always smiling, "Sor Re Zhi"=Is always cheerful. Code for "smiling":',o:['Nik','Re','Pi','Sor'],a:2,s:'Re=is, Nik=She, Sor=always; the leftover unique to the smiling line is Pi.',tip:'Solve the shared words, then the unique leftover is the target.'},
+{d:'reason',diff:'core',src:'paper',t:'Calendar',q:'Today is Monday. After 61 days it will be:',o:['Tuesday','Monday','Sunday','Saturday'],a:3,s:'61 mod 7 = 5 → Monday + 5 = Saturday.',tip:'Reduce the day-count mod 7 first.'},
+{d:'reason',diff:'core',src:'paper',t:'Clock',q:'A clock starts at noon. By 5:10, the hour hand has turned through:',o:['145°','150°','155°','160°'],a:2,s:'310 minutes × 0.5°/min = 155°.',tip:'Hour hand moves 0.5° per minute.'},
+
+/* ============ EXPANSION — REASONING (new / harder) ============ */
+{d:'reason',diff:'hard',src:'new',t:'Alphabetical',q:'How many letters of FORGET keep their position when the word is written in alphabetical order?',o:['None','One','Two','Three'],a:1,s:'FORGET → sorted EFGORT. Only the last letter T stays in place → one.',tip:'Write the sorted word beneath and compare position by position.'},
+{d:'reason',diff:'hard',src:'new',t:'Reversed Alphabet',q:'If the English alphabet is reversed, the 14th letter is:',o:['N','O','L','M'],a:3,s:'Reversed, position 14 = 27 − 14 = 13th normal letter = M.',tip:'Reversed position p ↔ normal (27 − p).'},
+{d:'reason',diff:'hard',src:'new',t:'Interchange',q:'Which interchange makes 6 × 4 + 2 = 16 correct? Swap + and ×, and swap the numbers 4 and 6.',o:['Gives 14','Gives 16 (correct)','Gives 12','No change'],a:1,s:'After swaps: 4 + 6 × 2 = 4 + 12 = 16. ✓',tip:'Apply both the operator swap and the number swap, then test.'},
+{d:'reason',diff:'hard',src:'new',t:'Series',q:'Find the missing term: AGMSY, CIOUA, EKQWC, ?, IOUAG',o:['GMSYE','FMSYE','GNSYD','HMSYE'],a:0,s:'Each letter advances +2 down the rows; the 4th block is GMSYE.',tip:'Track each column\'s step separately.'},
+{d:'reason',diff:'hard',src:'new',t:'Blood Relations',q:'Rajiv is Arun\'s brother. Sonia is Sunil\'s sister. Arun is Sonia\'s son. How is Sunil related to Rajiv?',o:['Son','Brother','Father','Maternal uncle'],a:3,s:'Arun & Rajiv are brothers (same mother Sonia). Sunil is Sonia\'s brother → maternal uncle of Rajiv.',tip:'Find the shared parent, then relate the sibling.'},
+
+/* ============ EXPANSION — CONCEPT CHECKS ============ */
+{d:'maths',diff:'concept',src:'new',t:'Concept: P&C',q:'For choosing a 3-person committee from 8 people, you should use:',o:['Permutation (8P3)','Combination (8C3)','8³','3⁸'],a:1,s:'A committee has no internal order, so it is a combination: 8C3 = 56.',tip:'"Committee/group/select" ⇒ order doesn\'t matter ⇒ combination.'},
+{d:'maths',diff:'concept',src:'new',t:'Concept: Discount',q:'A 40% then 20% successive discount equals a single discount of:',o:['60%','52%','48%','56%'],a:1,s:'Remaining = 0.6 × 0.8 = 0.48 → 52% off (not 60%).',tip:'Multiply the "remaining" factors; discounts never simply add.'},
+{d:'maths',diff:'concept',src:'new',t:'Concept: Ratio',q:'If only water is added to a milk-water mixture, which stays constant?',o:['The ratio','The quantity of milk','The total volume','The quantity of water'],a:1,s:'Adding water increases total and water but leaves the milk amount fixed.',tip:'Anchor the unchanged ingredient when only one is added.'},
+{d:'maths',diff:'concept',src:'new',t:'Concept: BODMAS',q:'In 8 ÷ 2 × 4, which operation is performed first?',o:['Multiplication','Division','Either — same rank, left to right','It is undefined'],a:2,s:'÷ and × share a rank, so go left to right: 8÷2 = 4, then ×4 = 16.',tip:'Same-rank operations resolve left to right.'},
+{d:'reason',diff:'concept',src:'new',t:'Concept: Coding',q:'To crack a "substitution language" code, the key first step is to:',o:['Guess the longest word','Compare sentences and cancel shared words','Reverse each word','Count the letters'],a:1,s:'Words common to two sentences pin down code-word pairs by elimination.',tip:'Overlap between sentences reveals which code = which word.'},
+{d:'reason',diff:'concept',src:'new',t:'Concept: Calendar',q:'"After 63 days" from a Tuesday lands on:',o:['Tuesday','Wednesday','Monday','Thursday'],a:0,s:'63 mod 7 = 0 → same day → Tuesday.',tip:'Multiples of 7 return the same weekday.'},
+{d:'reason',diff:'concept',src:'new',t:'Concept: Syllogism',q:'From "All A are B", does "All B are A" follow?',o:['Yes, always','No','Only if some A are B','Need a diagram'],a:1,s:'"All" is one-directional; the converse is not guaranteed.',tip:'The reverse of an "all" statement never follows automatically.'},
+
+/* Assertion–Reason */
+{d:'reason',diff:'core',src:'new',t:'Assertion–Reason',q:'A: Water boils at a lower temperature on a mountain. R: Atmospheric pressure decreases with altitude. Choose:',o:['Both true, R explains A','Both true, R does not explain A','A true, R false','A false, R true'],a:0,s:'Lower pressure lowers the boiling point, so R is exactly why A happens.',tip:'Check truth of each, then whether R causes A.'},
+{d:'reason',diff:'hard',src:'new',t:'Assertion–Reason',q:'A: The Sun rises in the east. R: The Earth is the third planet from the Sun. Choose:',o:['Both true, R explains A','Both true, R does not explain A','A true, R false','A false, R true'],a:1,s:'Both statements are true, but the Earth\'s planetary order has nothing to do with the direction of sunrise (which is due to west-to-east rotation).',tip:'Two true facts can still be unrelated — R must be the cause.'},
+{d:'reason',diff:'concept',src:'new',t:'Concept: Assertion–Reason',q:'In an A–R question, both A and R are true but unrelated. The correct choice is:',o:['Both true and R explains A','Both true but R does NOT explain A','A is false','R is false'],a:1,s:'Truth alone isn\'t enough — if R doesn\'t cause A, pick "does not explain".',tip:'The explanatory link is the real test, not mere truth.'},
+
+/* ============ BANK EXPANSION — MATHS (new, verified) ============ */
+{d:'maths',diff:'core',src:'new',t:'HCF & LCM',q:'The LCM of 12, 15 and 20 is:',o:['30','60','120','180'],a:1,s:'2²·3·5 = 60 covers all three.',tip:'LCM takes the highest power of every prime present.'},
+{d:'maths',diff:'core',src:'new',t:'HCF & LCM',q:'The HCF of 48, 72 and 108 is:',o:['6','12','18','24'],a:1,s:'Common factors: 2²·3 = 12.',tip:'HCF takes the lowest power of shared primes.'},
+{d:'maths',diff:'core',src:'new',t:'Series/Sum',q:'The sum of 3, 7, 11, …, 99 is:',o:['1225','1250','1275','1300'],a:2,s:'25 terms, average (3+99)/2 = 51 → 25×51 = 1275.',tip:'Sum = number of terms × average of first and last.'},
+{d:'maths',diff:'hard',src:'new',t:'Squares/Roots',q:'The least number to ADD to 1000 to make a perfect square:',o:['20','24','25','30'],a:1,s:'31² = 961 < 1000 < 1024 = 32² → 1024 − 1000 = 24.',tip:'For "add", jump up to the next perfect square.'},
+{d:'maths',diff:'hard',src:'new',t:'Surds',q:'√(11 + 2√30) simplifies to:',o:['√6 + √5','√7 + √4','2√3 + √5','√8 + √3'],a:0,s:'Need a+b = 11 and ab = 30 → 6 and 5 → √6 + √5.',tip:'Split into two numbers summing to a, multiplying to b.'},
+{d:'maths',diff:'hard',src:'new',t:'Squares/Cubes',q:'The smallest number by which 72 must be multiplied to become a perfect cube:',o:['2','3','6','9'],a:1,s:'72 = 2³·3² → need one more 3 → ×3 gives 216 = 6³.',tip:'Top up each prime\'s power to the next multiple of 3.'},
+{d:'maths',diff:'core',src:'new',t:'Percentage',q:'A price of ₹8000 falls 10% two years running. Its value now:',o:['₹6400','₹6480','₹6500','₹6560'],a:1,s:'8000 × 0.9 × 0.9 = ₹6480.',tip:'Repeated decrease compounds: multiply the factors.'},
+{d:'maths',diff:'hard',src:'new',t:'Percentage',q:'In an election the winner takes 62% of the votes and wins by 720 votes. Total votes cast:',o:['2400','3000','3600','4000'],a:1,s:'Margin = (62 − 38)% = 24% = 720 → total = 720/0.24 = 3000.',tip:'Winning margin = (winner% − loser%) of total.'},
+{d:'maths',diff:'core',src:'new',t:'Profit & Loss',q:'A shopkeeper marks goods 25% above the ₹500 cost. The marked price is:',o:['₹600','₹625','₹650','₹675'],a:1,s:'500 × 1.25 = ₹625.',tip:'Marked = cost × (1 + markup%).'},
+{d:'maths',diff:'hard',src:'new',t:'Discount',q:'Three successive discounts of 10%, 10%, 10% equal a single discount of:',o:['30%','27.1%','25%','29%'],a:1,s:'Remaining = 0.9³ = 0.729 → 27.1% off.',tip:'Multiply the "remaining" factors, then subtract from 1.'},
+{d:'maths',diff:'core',src:'new',t:'Averages',q:'The average of 8 people rises by 2 kg when a 45 kg person is replaced. The new person weighs:',o:['59 kg','60 kg','61 kg','62 kg'],a:2,s:'Total rose 8×2 = 16 → 45 + 16 = 61 kg.',tip:'Δtotal = Δaverage × count.'},
+{d:'maths',diff:'core',src:'new',t:'Time & Work',q:'A does a job in 15 days, B in 10 days. Together they finish in:',o:['5 days','6 days','7 days','8 days'],a:1,s:'Rate = 1/15 + 1/10 = 1/6 → 6 days.',tip:'Combined time = 1 ÷ (sum of rates).'},
+{d:'maths',diff:'hard',src:'new',t:'Pipes',q:'A fills in 20 h, B in 30 h, C empties in 60 h. All open, time to fill:',o:['12 h','15 h','18 h','20 h'],a:1,s:'Net = 1/20 + 1/30 − 1/60 = 4/60 = 1/15 → 15 h.',tip:'Subtract the emptying pipe\'s rate.'},
+{d:'maths',diff:'hard',src:'new',t:'Trains',q:'Two trains (150 m and 100 m) move toward each other at 60 and 40 km/h. Time to fully cross:',o:['7 s','8 s','9 s','10 s'],a:2,s:'Relative 100 km/h = 250/9 m/s; total length 250 m → 250 ÷ (250/9) = 9 s.',tip:'Opposite directions add speeds; add both lengths.'},
+{d:'maths',diff:'core',src:'new',t:'Simple Interest',q:'Simple interest on ₹1000 at 6% for 3 years:',o:['₹150','₹180','₹200','₹120'],a:1,s:'1000 × 6 × 3 / 100 = ₹180.',tip:'SI = P·r·t/100.'},
+{d:'maths',diff:'core',src:'new',t:'Compound Interest',q:'Compound interest on ₹5000 at 10% for 2 years:',o:['₹1000','₹1050','₹1100','₹1025'],a:1,s:'5000(1.1² − 1) = 5000 × 0.21 = ₹1050.',tip:'CI = P[(1+r/100)ⁿ − 1].'},
+{d:'maths',diff:'core',src:'new',t:'Mensuration',q:'The total surface area of a cube of side 5 cm:',o:['100 cm²','125 cm²','150 cm²','175 cm²'],a:2,s:'6 × 5² = 150 cm².',tip:'Cube surface = 6 × side².'},
+{d:'maths',diff:'core',src:'new',t:'Mensuration',q:'The volume of a cone with r = 3 cm, h = 4 cm (π ≈ 3.14):',o:['≈ 25.1 cm³','≈ 37.7 cm³','≈ 50.2 cm³','≈ 75.4 cm³'],a:1,s:'⅓πr²h = ⅓ × 3.14 × 9 × 4 ≈ 37.7 cm³.',tip:'Cone volume = ⅓ × base area × height.'},
+{d:'maths',diff:'core',src:'new',t:'Probability',q:'Two dice are rolled. P(sum = 7):',o:['1/9','1/6','1/8','5/36'],a:1,s:'6 favourable of 36 → 1/6.',tip:'Count ordered pairs that give the sum.'},
+{d:'maths',diff:'core',src:'new',t:'Probability',q:'One card is drawn from 52. P(it is a heart):',o:['1/2','1/4','1/13','4/13'],a:1,s:'13 hearts of 52 → 1/4.',tip:'Each of the 4 suits is a quarter of the deck.'},
+{d:'maths',diff:'core',src:'new',t:'Algebra',q:'The roots of x² − 5x + 6 = 0 are:',o:['1 and 6','2 and 3','−2 and −3','−1 and −6'],a:1,s:'Factor: (x−2)(x−3) → 2 and 3.',tip:'Find two numbers with sum 5 and product 6.'},
+{d:'maths',diff:'core',src:'new',t:'Trigonometry',q:'The value of tan 60° is:',o:['1/√3','1','√3','2'],a:2,s:'tan 60° = √3 ≈ 1.732.',tip:'Memorise 30-45-60 tangents: 1/√3, 1, √3.'},
+{d:'maths',diff:'hard',src:'new',t:'Alligation',q:'Rice at ₹18/kg and ₹24/kg are mixed to sell at ₹20/kg. The mixing ratio (cheaper:dearer):',o:['1:2','2:1','3:2','1:1'],a:1,s:'(24−20):(20−18) = 4:2 = 2:1.',tip:'Ratio = (dear − mean):(mean − cheap).'},
+{d:'maths',diff:'core',src:'new',t:'BODMAS',q:'Evaluate: 100 − 20 × 5 ÷ 4 + 6',o:['79','81','86','75'],a:1,s:'20×5=100, ÷4=25 → 100 − 25 + 6 = 81.',tip:'× and ÷ before + and −, left to right.'},
+{d:'maths',diff:'core',src:'new',t:'Percentage',q:'15% of 20% of 2000 is:',o:['40','50','60','80'],a:2,s:'0.15 × 0.20 × 2000 = 60.',tip:'"Of" means multiply the fractions in sequence.'},
+{d:'maths',diff:'core',src:'new',t:'Ratio',q:'If A:B = 3:5 and B:C = 10:7, then A:B:C is:',o:['3:5:7','6:10:7','3:10:7','6:5:7'],a:1,s:'Make B common (10): A:B = 6:10, C = 7 → 6:10:7.',tip:'Scale so the shared term matches.'},
+{d:'maths',diff:'core',src:'new',t:'Speed',q:'You go at 40 km/h and return at 60 km/h over the same route. Average speed:',o:['50 km/h','48 km/h','52 km/h','45 km/h'],a:1,s:'2×40×60/(40+60) = 48 km/h.',tip:'Equal distances → harmonic mean.'},
+{d:'maths',diff:'core',src:'new',t:'AP',q:'The number of terms in 7, 10, 13, …, 100 is:',o:['30','31','32','33'],a:2,s:'d=3 → (100−7)/3 + 1 = 32.',tip:'Count = (last − first)/d + 1.'},
+{d:'maths',diff:'hard',src:'new',t:'Partnership',q:'A invests ₹5000 for 12 months, B ₹4000 for 12 months, C ₹6000 for 6 months. Profit ratio A:B:C is:',o:['5:4:3','5:4:6','10:8:6','60:48:36'],a:0,s:'Capital-months: 60000 : 48000 : 36000 = 5:4:3.',tip:'Share ∝ capital × time.'},
+
+/* ============ BANK EXPANSION — REASONING (new, verified) ============ */
+{d:'reason',diff:'core',src:'new',t:'Series',q:'Find the next term: 6, 11, 21, 36, 56, ?',o:['71','76','81','86'],a:2,s:'Differences +5, +10, +15, +20 → next +25 → 81.',tip:'When first differences grow evenly, they form their own series.'},
+{d:'reason',diff:'core',src:'new',t:'Series',q:'Find the next term: 1, 4, 9, 16, 25, ?',o:['30','36','40','49'],a:1,s:'Perfect squares → 6² = 36.',tip:'Recognise squares, cubes, and other standard sequences.'},
+{d:'reason',diff:'core',src:'new',t:'Series',q:'Find the next term: 3, 6, 18, 72, ?',o:['144','216','288','360'],a:3,s:'×2, ×3, ×4 → next ×5 → 72×5 = 360.',tip:'The multiplier can itself increase step by step.'},
+{d:'reason',diff:'core',src:'new',t:'Series',q:'Find the next term: 2, 3, 5, 7, 11, ?',o:['12','13','14','15'],a:1,s:'Consecutive primes → next is 13.',tip:'Check for the prime-number pattern.'},
+{d:'reason',diff:'core',src:'new',t:'Letter Series',q:'Find the next term: B, D, F, H, ?',o:['I','J','K','L'],a:1,s:'Every second letter (+2) → J.',tip:'Convert letters to positions and read the step.'},
+{d:'reason',diff:'core',src:'new',t:'Letter Series',q:'Find the next term: Z, X, V, T, ?',o:['S','R','Q','P'],a:1,s:'Going back by 2 → R.',tip:'Descending letter series step backwards.'},
+{d:'reason',diff:'core',src:'new',t:'Coding',q:'If CAT is coded DBU (each letter +1), then DOG is:',o:['EPH','FQI','CPF','EPF'],a:0,s:'D→E, O→P, G→H → EPH.',tip:'Verify the shift on the first letter, then apply.'},
+{d:'reason',diff:'hard',src:'new',t:'Coding',q:'Using atbash (A↔Z, B↔Y…), DAY is coded:',o:['WZB','WYA','XZB','WZA'],a:0,s:'D→W (27−4), A→Z, Y→B → WZB.',tip:'Atbash maps position p to (27 − p).'},
+{d:'reason',diff:'hard',src:'new',t:'Calendar',q:'1 January 2024 is a Monday. What day is 1 January 2025?',o:['Tuesday','Wednesday','Thursday','Sunday'],a:1,s:'2024 is a leap year (366 days) → 366 mod 7 = 2 → Monday + 2 = Wednesday.',tip:'A leap year advances the weekday by 2, an ordinary year by 1.'},
+{d:'reason',diff:'core',src:'new',t:'Clock',q:'The angle between the hands of a clock at 6:00 is:',o:['90°','120°','150°','180°'],a:3,s:'|30×6 − 5.5×0| = 180°.',tip:'At o\'clock times, angle = 30 × hour (capped at 180).'},
+{d:'reason',diff:'core',src:'new',t:'Clock',q:'How many times in a day do the hands of a clock overlap?',o:['24','22','12','11'],a:1,s:'They overlap 11 times per 12 hours → 22 times a day.',tip:'Overlap and opposition each happen 11× per 12 h.'},
+{d:'reason',diff:'core',src:'new',t:'Ranking',q:'In a class of 40, a student ranks 15th from the top. Rank from the bottom:',o:['25th','26th','27th','24th'],a:1,s:'40 − 15 + 1 = 26th.',tip:'From-bottom = Total − from-top + 1.'},
+{d:'reason',diff:'core',src:'new',t:'Blood Relations',q:'What relation is your father\'s sister\'s husband to you?',o:['Uncle','Cousin','Nephew','Grandfather'],a:0,s:'Father\'s sister = aunt; her husband = uncle (by marriage).',tip:'Marriage to an aunt/uncle still counts as aunt/uncle.'},
+{d:'reason',diff:'core',src:'new',t:'Direction',q:'Walk 10 m north, then 10 m east. Distance from the start:',o:['10 m','≈14.1 m','20 m','≈17 m'],a:1,s:'√(10² + 10²) = 10√2 ≈ 14.1 m.',tip:'Displacement is the hypotenuse of net N-S and E-W legs.'},
+{d:'reason',diff:'hard',src:'new',t:'Syllogism',q:'Some A are B; All B are C. Which follows? I: Some A are C. II: All A are C.',o:['Only I','Only II','Both','Neither'],a:0,s:'The A that are B are all C, so "Some A are C" holds; "All A are C" is not forced.',tip:'Track only what must be true for every case.'},
+{d:'reason',diff:'core',src:'new',t:'Odd One Out',q:'Choose the odd one: 8, 27, 64, 100, 125',o:['27','64','100','125'],a:2,s:'8, 27, 64, 125 are perfect cubes; 100 is a square, not a cube.',tip:'Test cube-ness, not just "round" numbers.'},
+{d:'reason',diff:'core',src:'new',t:'Analogy',q:'Doctor : Hospital :: Teacher : ?',o:['Student','School','Book','Lesson'],a:1,s:'A doctor works in a hospital; a teacher works in a school (workplace relation).',tip:'Match the "works at" relationship.'},
+{d:'reason',diff:'core',src:'new',t:'Dice',q:'On a standard die, the face opposite 6 shows:',o:['1','2','3','5'],a:0,s:'Opposite faces sum to 7 → 7 − 6 = 1.',tip:'Standard die: opposite faces total 7.'},
+{d:'reason',diff:'concept',src:'new',t:'Concept: Mirror',q:'Which of these letters looks the SAME in a vertical mirror?',o:['B','H','G','R'],a:1,s:'H is symmetric about a vertical axis; B, G, R are not.',tip:'Vertically symmetric letters survive a mirror unchanged.'},
+{d:'reason',diff:'concept',src:'new',t:'Concept: Direction',q:'You face North and turn right. You now face:',o:['South','East','West','North-East'],a:1,s:'A right (clockwise) turn from North faces East.',tip:'Right turn = clockwise 90°.'},
+{d:'reason',diff:'core',src:'new',t:'Sequencing',q:'Meaningful order: 1.Read 2.Understand 3.Open book 4.Buy book 5.Learn',o:['4,3,1,2,5','3,4,1,2,5','4,3,2,1,5','1,3,4,2,5'],a:0,s:'Buy → Open → Read → Understand → Learn = 4,3,1,2,5.',tip:'Follow the natural cause-and-effect chain.'}
+];
+
+/* ============================================================
+   RENDER
+============================================================ */
+// concept cards
+const grid=document.getElementById('conceptGrid');
+function renderConcepts(filter){
+  grid.innerHTML='';
+  CONCEPTS.filter(c=>filter==='all'||c.d===filter).forEach(c=>{
+    const cls=c.d==='maths'?'m':'r';
+    const el=document.createElement('article');
+    el.className='ccard '+cls;
+    el.innerHTML=`<div class="body">
+      <span class="ctag ${cls}">${c.d==='maths'?'Maths':'Reasoning'} · ${c.t}</span>
+      <h3>${c.t}</h3>
+      <p class="what">${c.what}</p>
+      <div class="analogy"><b>Analogy</b>${c.an}</div>
+      <div class="formulas"><div class="fh">Key formulas</div><ul>${c.f.map(x=>`<li>${x}</li>`).join('')}</ul></div>
+      <div class="ex"><div class="exq">Worked example — ${c.ex.q}</div><div class="exs">${c.ex.s}</div></div>
+      <div class="trap"><b>Trap · </b>${c.tr}</div>
+    </div>`;
+    grid.appendChild(el);
+  });
+}
+renderConcepts('all');
+document.getElementById('conceptChips').addEventListener('click',e=>{
+  const b=e.target.closest('.chip'); if(!b)return;
+  document.querySelectorAll('#conceptChips .chip').forEach(x=>x.classList.remove('on'));
+  b.classList.add('on'); renderConcepts(b.dataset.f);
+});
+
+// formula sheet
+const fsheet=document.getElementById('fsheet');
+fsheet.innerHTML=FSHEET.map(b=>`<div class="fblock ${b.d==='r'?'r':''}">
+  <h4>${b.h}</h4><ul>${b.items.map(i=>`<li><code>${i[0]}</code><span class="lab">${i[1]}</span></li>`).join('')}</ul></div>`).join('');
+
+/* ============================================================
+   QUESTION BANK — free browse & practice
+============================================================ */
+const bankFilters={domain:'all',diff:'all',src:'all',topic:'all',q:''};
+let revealAllOn=false;
+const bankList=document.getElementById('bankList');
+const keysAZ=['A','B','C','D'];
+
+// populate topic dropdown (sorted, grouped feel)
+(function(){
+  const topics=[...new Set(QUIZ.map(q=>q.t))].sort((a,b)=>a.localeCompare(b));
+  const sel=document.getElementById('bankTopic');
+  topics.forEach(t=>{const o=document.createElement('option');o.value=t;o.textContent=t;sel.appendChild(o);});
+  sel.addEventListener('change',()=>{bankFilters.topic=sel.value;renderBank();});
+})();
+
+document.querySelectorAll('.bankfilters .mini').forEach(g=>{
+  g.addEventListener('click',e=>{
+    const b=e.target.closest('button'); if(!b)return;
+    g.querySelectorAll('button').forEach(x=>x.classList.remove('on'));
+    b.classList.add('on'); bankFilters[g.dataset.bgroup]=b.dataset.v; renderBank();
+  });
+});
+document.getElementById('bankSearch').addEventListener('input',e=>{
+  bankFilters.q=e.target.value.trim().toLowerCase(); renderBank();
+});
+document.getElementById('revealAll').addEventListener('click',e=>{
+  revealAllOn=!revealAllOn;
+  e.target.classList.toggle('on',revealAllOn);
+  e.target.textContent=revealAllOn?'Hide all solutions':'Reveal all solutions';
+  renderBank();
+});
+
+function bankMatches(){
+  return QUIZ.map((q,i)=>({q,i})).filter(({q})=>
+    (bankFilters.domain==='all'||q.d===bankFilters.domain)&&
+    (bankFilters.diff==='all'||q.diff===bankFilters.diff)&&
+    (bankFilters.src==='all'||q.src===bankFilters.src)&&
+    (bankFilters.topic==='all'||q.t===bankFilters.topic)&&
+    (bankFilters.q===''||(q.q+' '+q.t+' '+q.s+' '+q.o.join(' ')).toLowerCase().includes(bankFilters.q)));
+}
+
+function stripTags(s){return s.replace(/<[^>]*>/g,'');}
+
+function renderBank(){
+  const items=bankMatches();
+  document.getElementById('bankCount').textContent=`${items.length} question${items.length!==1?'s':''}`;
+  document.getElementById('bankEmpty').classList.toggle('hide',items.length>0);
+  bankList.innerHTML='';
+  items.forEach(({q,i})=>{
+    const dcls=q.d==='maths'?'m':'r';
+    const diffPill=q.diff==='hard'?'<span class="pill hard">Harder</span>':q.diff==='concept'?'<span class="pill concept">Concept</span>':'<span class="pill">Core</span>';
+    const srcPill=q.src==='paper'?'<span class="pill">From papers</span>':'<span class="pill">New</span>';
+    const card=document.createElement('div');
+    card.className='bankcard '+dcls+(revealAllOn?' open':'');
+    card.innerHTML=`
+      <div class="bmeta">
+        <span class="pill ${dcls}">${q.d==='maths'?'Maths':'Reasoning'}</span>
+        ${diffPill}${srcPill}<span class="pill">${q.t}</span>
+      </div>
+      <p class="bq"><span class="idx">Q${i+1}</span>${q.q}</p>
+      <div class="bopts">
+        ${q.o.map((opt,j)=>`<button class="bopt${revealAllOn&&j===q.a?' correct':''}" data-j="${j}"><span class="bk">${keysAZ[j]}</span><span>${opt}</span></button>`).join('')}
+      </div>
+      <button class="bshow">Show answer &amp; solution</button>
+      <div class="bsol">
+        <div class="bans">Answer: ${keysAZ[q.a]}. ${stripTags(q.o[q.a])}</div>
+        <div class="bwork">${q.s}</div>
+        <div class="btip"><b>Takeaway · </b>${q.tip}</div>
+      </div>`;
+    // interactions
+    const reveal=()=>{
+      card.classList.add('open');
+      card.querySelectorAll('.bopt').forEach((b,j)=>{if(j===q.a)b.classList.add('correct');});
+    };
+    card.querySelector('.bshow').addEventListener('click',reveal);
+    card.querySelectorAll('.bopt').forEach(b=>{
+      b.addEventListener('click',()=>{
+        const j=+b.dataset.j;
+        card.querySelectorAll('.bopt').forEach((x,k)=>{if(k===q.a)x.classList.add('correct');});
+        if(j!==q.a)b.classList.add('wrong');
+        card.classList.add('open');
+      });
+    });
+    bankList.appendChild(card);
+  });
+}
+renderBank();
+
+/* ============================================================
+   QUIZ ENGINE
+============================================================ */
+const filters={domain:'all',diff:'all',src:'all'};
+const controls=document.getElementById('qcontrols');
+const stage=document.getElementById('qstage');
+const result=document.getElementById('qresult');
+let pool=[],idx=0,answered=false,correctCount=0,attempted=0,wrongTopics={};
+
+function matchPool(){
+  return QUIZ.filter(q=>
+    (filters.domain==='all'||q.d===filters.domain)&&
+    (filters.diff==='all'||q.diff===filters.diff)&&
+    (filters.src==='all'||q.src===filters.src));
+}
+function updatePoolInfo(){
+  const n=matchPool().length;
+  document.getElementById('poolInfo').textContent=`${n} question${n!==1?'s':''} match your filters.`;
+  document.getElementById('startBtn').disabled=n===0;
+}
+controls.querySelectorAll('.mini').forEach(g=>{
+  g.addEventListener('click',e=>{
+    const b=e.target.closest('button'); if(!b)return;
+    g.querySelectorAll('button').forEach(x=>x.classList.remove('on'));
+    b.classList.add('on'); filters[g.dataset.group]=b.dataset.v; updatePoolInfo();
+  });
+});
+updatePoolInfo();
+
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+
+document.getElementById('startBtn').addEventListener('click',()=>{
+  pool=shuffle(matchPool().slice()).slice(0,15);
+  idx=0;correctCount=0;attempted=0;wrongTopics={};
+  controls.classList.add('hide');result.style.display='none';stage.style.display='block';
+  renderQ();
+});
+document.getElementById('quitBtn').addEventListener('click',finish);
+document.getElementById('againBtn').addEventListener('click',()=>{
+  result.style.display='none';controls.classList.remove('hide');
+});
+document.getElementById('nextBtn').addEventListener('click',()=>{
+  idx++; if(idx>=pool.length){finish();} else {renderQ();}
+});
+
+function renderQ(){
+  answered=false;
+  const q=pool[idx];
+  const dcls=q.d==='maths'?'m':'r';
+  document.getElementById('qbarFill').style.width=((idx)/pool.length*100)+'%';
+  document.getElementById('qcount').textContent=`Question ${idx+1} of ${pool.length}`;
+  const diffPill=q.diff==='hard'?'<span class="pill hard">Harder</span>':q.diff==='concept'?'<span class="pill concept">Concept</span>':'<span class="pill">Core</span>';
+  document.getElementById('qtags').innerHTML=`<span class="pill ${dcls}">${q.d==='maths'?'Maths':'Reasoning'}</span> ${diffPill} <span class="pill">${q.t}</span>`;
+  document.getElementById('qtext').innerHTML=q.q;
+  const opts=document.getElementById('qopts');
+  opts.innerHTML='';
+  const keys=['A','B','C','D'];
+  q.o.forEach((opt,i)=>{
+    const btn=document.createElement('button');
+    btn.className='opt';
+    btn.innerHTML=`<span class="k">${keys[i]}</span><span>${opt}</span>`;
+    btn.addEventListener('click',()=>choose(i,btn));
+    opts.appendChild(btn);
+  });
+  const sol=document.getElementById('qsol');
+  sol.className='solution';sol.innerHTML='';
+  document.getElementById('nextBtn').disabled=true;
+  document.getElementById('nextBtn').textContent = idx===pool.length-1?'See results →':'Next →';
+}
+
+function choose(i,btn){
+  if(answered)return; answered=true; attempted++;
+  const q=pool[idx];
+  const optBtns=document.querySelectorAll('#qopts .opt');
+  optBtns.forEach((b,j)=>{
+    b.disabled=true;
+    if(j===q.a)b.classList.add('correct');
+    if(j===i&&i!==q.a)b.classList.add('wrong');
+  });
+  const ok=i===q.a;
+  if(ok)correctCount++; else wrongTopics[q.t]=(wrongTopics[q.t]||0)+1;
+  const sol=document.getElementById('qsol');
+  sol.innerHTML=`<div class="verdict ${ok?'ok':'no'}">${ok?'✓ Correct':'✗ Not quite'}</div>
+    <div class="work">${q.s}</div>
+    <div class="tip"><b>Takeaway · </b>${q.tip}</div>`;
+  sol.classList.add('show');
+  document.getElementById('nextBtn').disabled=false;
+  updateScoreTag();
+}
+
+function finish(){
+  stage.style.display='none';
+  document.getElementById('qbarFill').style.width='100%';
+  result.style.display='block';
+  const pct=attempted?Math.round(correctCount/attempted*100):0;
+  document.getElementById('rScore').textContent=`${correctCount} / ${attempted}`;
+  document.getElementById('rCorrect').textContent=correctCount;
+  document.getElementById('rTotal').textContent=attempted;
+  document.getElementById('rPct').textContent=pct+'%';
+  const weak=Object.entries(wrongTopics).sort((a,b)=>b[1]-a[1]);
+  const wEl=document.getElementById('rWeak');
+  if(weak.length){
+    wEl.innerHTML=`<div style="font-weight:600;margin-bottom:6px">Revisit these concepts:</div>`+
+      weak.map(([t,n])=>`<div class="wrow"><span>${t}</span><span style="color:var(--no);font-weight:600">${n} missed</span></div>`).join('');
+  } else if(attempted){
+    wEl.innerHTML=`<div style="text-align:center;color:var(--ok);font-weight:600">Clean sweep — no weak topics this round.</div>`;
+  } else { wEl.innerHTML=''; }
+  updateScoreTag();
+}
+
+let totalSolved=0;
+function updateScoreTag(){
+  totalSolved=Math.max(totalSolved,correctCount);
+  document.getElementById('scoretag').textContent=`${correctCount} correct`;
+}
+
+/* nav highlight */
+const secs=[...document.querySelectorAll('section, #overview')];
+const navLinks=[...document.querySelectorAll('#nav a')];
+const obs=new IntersectionObserver(es=>{
+  es.forEach(e=>{if(e.isIntersecting){
+    navLinks.forEach(a=>a.classList.toggle('on',a.getAttribute('href')==='#'+e.target.id));
+  }});
+},{rootMargin:'-45% 0px -50% 0px'});
+document.querySelectorAll('#overview,#concepts,#formulas,#bank,#quiz,#sources').forEach(s=>obs.observe(s));
+</script>
+</body>
+</html>

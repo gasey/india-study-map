@@ -6,7 +6,13 @@
 // so this works for State Tax Officer today and any future bank.
 // ============================================
 
-const API_BASE = 'http://134.209.154.122/mpsc-api';
+// HTTPS is required here, not just nice-to-have: the deployed site is
+// served over HTTPS (Vercel), and browsers silently block http:// fetches
+// from an https:// page as mixed content — that showed up as a bare
+// "Failed to fetch" with no other clue. api.map.hawayu.in is a dedicated
+// subdomain (A record -> the droplet) with its own Let's Encrypt cert,
+// proxying straight to the mpsc-api service — see DEVLOG.md.
+const API_BASE = 'https://api.map.hawayu.in';
 
 export interface ApiUser {
   id: number;

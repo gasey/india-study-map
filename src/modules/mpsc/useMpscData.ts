@@ -139,7 +139,7 @@ export function useMpscData() {
           examType: p.examType,
           examName: p.examName,
           post: p.post,
-          year: p.year,
+          year: p.year ?? 0,
           label: [p.examName, p.post, p.year].filter(Boolean).join(' · '),
           papers: [],
           totalQuestions: 0,
@@ -159,7 +159,7 @@ export function useMpscData() {
     // Filter option lists.
     const examTypes = [...new Set(papers.map((p) => p.examType))].sort();
     const posts = [...new Set(papers.map((p) => p.post).filter((p): p is string => !!p))].sort();
-    const years = [...new Set(papers.map((p) => p.year))].sort((a, b) => b - a);
+    const years = [...new Set(papers.map((p) => p.year).filter((y): y is number => y !== undefined))].sort((a, b) => b - a);
     const subjects = [...new Set(questions.map((q) => q.subject))].sort();
 
     return {

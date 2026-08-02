@@ -24571,7 +24571,6 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "id": "mpsc-inspector-of-excise-&-narcotics-2025-english",
       "examType": "Excise",
       "examName": "Inspector of Excise & Narcotics",
-      "paperNumber": null,
       "paperSubject": "English",
       "year": 2025,
       "sourceFile": "mpsc_pdfs/Inspector of Excise & Narcotics/Aug-2025/English.pdf"
@@ -24616,7 +24615,6 @@ export const mpscStateTaxOfficer: QuestionBank = {
       "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-english",
       "examType": "Excise",
       "examName": "Group B Combined (State Tax Officer / Cooperative Audit Officer)",
-      "paperNumber": null,
       "paperSubject": "English",
       "year": 2024,
       "sourceFile": "mpsc_pdfs/Group B Combined (State Tax Officer / Cooperative Audit Officer)/Jul-2024/English.pdf"

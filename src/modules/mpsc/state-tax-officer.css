@@ -1,0 +1,190 @@
+/* STATE TAX OFFICER — visual language ported from the standalone
+   mpsc-state-tax-prep HTML study guide: subject-colored pills, confidence/
+   priority badges, analogy/traps callouts, formula chips, weightage bars.
+   Colors are derived from the app's own --accent/--border tokens (via
+   color-mix) rather than hardcoded, so it stays correct in light + dark. */
+
+.sto-unit-scitech    { --subject: #3f7d4f; }
+.sto-unit-history     { --subject: #a34f2f; }
+.sto-unit-polity      { --subject: #4c63c4; }
+.sto-unit-economy     { --subject: #8a6d1f; }
+.sto-unit-geography   { --subject: #2e8a5f; }
+.sto-unit-mizoram     { --subject: #9c6f33; }
+.sto-unit-aptitude    { --subject: #5c5c9e; }
+.sto-unit-current     { --subject: #a33232; }
+.sto-unit-english     { --subject: #2f6f9f; }
+.sto-unit-essay       { --subject: #7a3ea3; }
+.dark .sto-unit-scitech    { --subject: #7fc08f; }
+.dark .sto-unit-history     { --subject: #e0916f; }
+.dark .sto-unit-polity      { --subject: #8f9fe0; }
+.dark .sto-unit-economy     { --subject: #d8bd6a; }
+.dark .sto-unit-geography   { --subject: #7bbf9e; }
+.dark .sto-unit-mizoram     { --subject: #c9a179; }
+.dark .sto-unit-aptitude    { --subject: #a3a3e8; }
+.dark .sto-unit-current     { --subject: #e08585; }
+.dark .sto-unit-english     { --subject: #6fb0dd; }
+.dark .sto-unit-essay       { --subject: #c69be3; }
+
+.sto-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 0.16rem 0.5rem;
+  border-radius: 5px;
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  white-space: nowrap;
+}
+.sto-pill.sto-subject {
+  color: var(--subject, var(--text-secondary));
+  border-color: color-mix(in srgb, var(--subject, var(--border)) 45%, transparent);
+  background: color-mix(in srgb, var(--subject, transparent) 12%, transparent);
+}
+.sto-pill.sto-conf-high { color: #2e7d4f; border-color: currentColor; }
+.sto-pill.sto-conf-medium { color: #9a6b12; border-color: currentColor; }
+.sto-pill.sto-conf-low { color: #a33232; border-color: currentColor; }
+.dark .sto-pill.sto-conf-high { color: #6cc48d; }
+.dark .sto-pill.sto-conf-medium { color: #d8ad52; }
+.dark .sto-pill.sto-conf-low { color: #e08585; }
+.sto-pill.sto-priority-critical { color: #fff; background: #a33232; border-color: transparent; }
+.sto-pill.sto-priority-high { color: #fff; background: #9a6b12; border-color: transparent; }
+.sto-pill.sto-priority-medium,
+.sto-pill.sto-priority-low { color: var(--text-secondary); }
+
+.sto-card {
+  background: var(--bg-panel);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1rem 1.15rem;
+}
+
+.sto-analogy {
+  border-left: 3px solid var(--accent);
+  background: var(--accent-soft);
+  padding: 0.6rem 0.8rem;
+  border-radius: 0 8px 8px 0;
+  font-size: 0.88rem;
+}
+.sto-analogy::before {
+  content: "Remember it like this";
+  display: block;
+  font-size: 0.64rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 0.15rem;
+}
+
+.sto-traps {
+  border-left: 3px solid #a33232;
+  background: color-mix(in srgb, #a33232 8%, transparent);
+  padding: 0.6rem 0.8rem;
+  border-radius: 0 8px 8px 0;
+  font-size: 0.86rem;
+}
+.dark .sto-traps { border-left-color: #e08585; }
+.sto-traps::before {
+  content: "Marks lost here";
+  display: block;
+  font-size: 0.64rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #a33232;
+  margin-bottom: 0.2rem;
+}
+.dark .sto-traps::before { color: #e08585; }
+.sto-traps ul { margin: 0; padding-left: 1.1rem; }
+.sto-traps li { margin: 0.15rem 0; }
+
+.sto-formulae {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+.sto-formulae code {
+  background: var(--bg-app);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.22rem 0.5rem;
+  font-size: 0.78rem;
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  white-space: nowrap;
+}
+
+.sto-stat {
+  background: var(--bg-panel-elev);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 0.6rem 0.9rem;
+  min-width: 108px;
+}
+.sto-stat b { display: block; font-size: 1.4rem; line-height: 1.1; color: var(--accent); }
+.sto-stat span { font-size: 0.68rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; }
+
+.sto-weight-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.6rem;
+  align-items: center;
+  padding: 0.4rem 0;
+  border-bottom: 1px dashed var(--border);
+  font-size: 0.86rem;
+}
+.sto-weight-row:last-child { border-bottom: 0; }
+.sto-weight-track {
+  background: var(--bg-app);
+  border-radius: 99px;
+  overflow: hidden;
+  height: 8px;
+  position: relative;
+}
+.sto-weight-bar {
+  height: 8px;
+  border-radius: 99px;
+  background: var(--subject, var(--accent));
+}
+.sto-weight-bar.sto-weight-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.55;
+}
+.sto-weight-n {
+  font: 600 0.76rem ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  color: var(--text-secondary);
+  text-align: right;
+  min-width: 4.2rem;
+}
+
+.sto-opt {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.45rem 0.65rem;
+  font-size: 0.9rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: flex-start;
+}
+.sto-opt .sto-opt-letter {
+  font: 700 0.78rem ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  color: var(--text-secondary);
+  flex: 0 0 1.1rem;
+}
+.sto-opt.sto-opt-correct {
+  border-color: #2e7d4f;
+  background: color-mix(in srgb, #2e7d4f 12%, transparent);
+}
+.dark .sto-opt.sto-opt-correct { border-color: #6cc48d; }
+.sto-opt.sto-opt-correct .sto-opt-letter { color: #2e7d4f; }
+.dark .sto-opt.sto-opt-correct .sto-opt-letter { color: #6cc48d; }
+.sto-opt.sto-opt-wrong-pick {
+  border-color: #a33232;
+  background: color-mix(in srgb, #a33232 12%, transparent);
+}
+.dark .sto-opt.sto-opt-wrong-pick { border-color: #e08585; }

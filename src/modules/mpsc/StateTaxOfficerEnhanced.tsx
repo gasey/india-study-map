@@ -1,14 +1,46 @@
 import { useMemo, useState } from 'react';
 import { allPrimers, PRIMER_CATEGORIES, UNIT_LABELS } from '@/data/banks';
 import type { BankQuestion, ExamPaper } from '@/data/banks/types';
+import './state-tax-officer.css';
 
 interface Props {
   allQuestions: BankQuestion[];
   papers: ExamPaper[];
 }
 
-type PrepTab = 'overview' | 'primers' | 'exam-browse' | 'yearly-browse' | 'mock' | 'progress';
+type PrepTab = 'overview' | 'primers' | 'bank' | 'exam-browse' | 'yearly-browse' | 'mock' | 'progress';
 type MockState = 'setup' | 'running' | 'review';
+interface MockResults {
+  correct: number; wrong: number; unattempted: number; score: number; total: number;
+}
+
+// Maps both BankQuestion.topic (snake_case, e.g. "gs2_economy") and primer
+// `unit` codes (upper-dash, e.g. "GS2-ECONOMY") to one of the CSS subject
+// classes defined in state-tax-officer.css, so a topic is always the same
+// color whether it's shown on a question card or a primer card.
+function subjectClass(unitOrTopic: string | undefined): string {
+  const key = (unitOrTopic ?? '').toLowerCase().replace(/-/g, '_');
+  if (key.startsWith('eng')) return 'sto-unit-english';
+  if (key === 'gs1_current') return 'sto-unit-current';
+  if (key === 'gs1_history') return 'sto-unit-history';
+  if (key === 'gs2_economy') return 'sto-unit-economy';
+  if (key === 'gs2_geography') return 'sto-unit-geography';
+  if (key === 'gs2_polity') return 'sto-unit-polity';
+  if (key === 'gs3_mizoram') return 'sto-unit-mizoram';
+  if (key === 'gs3_scitech') return 'sto-unit-scitech';
+  if (key === 'gs3_aptitude') return 'sto-unit-aptitude';
+  if (key === 'essay') return 'sto-unit-essay';
+  return '';
+}
+
+function confidenceLabel(q: BankQuestion): 'high' | 'medium' | 'low' {
+  // BankQuestion has no confidence field of its own; difficulty stands in
+  // (mirrors the source data: high-confidence answers were marked 'medium'
+  // difficulty, low-confidence 'hard' — see mpsc-state-tax-prep SOLVE_INSTRUCTIONS).
+  if (q.difficulty === 'hard') return 'low';
+  if (q.difficulty === 'easy') return 'high';
+  return 'medium';
+}
 
 export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
   const [prepTab, setPrepTab] = useState<PrepTab>('overview');
@@ -16,12 +48,19 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
   const [mockState, setMockState] = useState<MockState>('setup');
   const [mockAnswers, setMockAnswers] = useState<Record<number, number>>({});
   const [testQuestions, setTestQuestions] = useState<BankQuestion[]>([]);
-  const [testResults, setTestResults] = useState<any>(null);
+  const [testResults, setTestResults] = useState<MockResults | null>(null);
 
   // Every question in this bank already IS the State Tax Officer prep set —
   // no further source filtering needed (the old q.source-based filter here
   // was always a no-op/broken since every row shares one hardcoded source).
-  const stateTaxQuestions = allQuestions;
+  // Essay/précis-letter items are "pick a topic and write" prompts stored
+  // with mcq-shaped options for display purposes — they have no single
+  // correct answerIndex, so they can't be scored. Excluded here rather than
+  // in the data so a future "descriptive questions" viewer can still use them.
+  const stateTaxQuestions = useMemo(
+    () => allQuestions.filter((q) => q.topic !== 'essay' && q.topic !== 'eng_precis_letter'),
+    [allQuestions],
+  );
 
   // Real per-question exam name comes from the linked ExamPaper via paperId,
   // not from BankQuestion.source (which is the same string on every row).
@@ -32,6 +71,7 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
   }, [papers]);
 
   const questionExamName = (q: BankQuestion) => (q.paperId && examByPaperId.get(q.paperId)) || 'Unknown exam';
+  const questionSitting = (q: BankQuestion) => (q.paperId && papers.find((p) => p.id === q.paperId)) || null;
 
   const years = useMemo(() => {
     const y = new Set<number>();
@@ -60,11 +100,12 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
     return allPrimers.filter((p) => p.unit === selectedUnit);
   }, [selectedUnit]);
 
-  const startMockTest = (questions: BankQuestion[], testTitle: string) => {
+  const startMockTest = (questions: BankQuestion[]) => {
     setTestQuestions(questions);
     setMockAnswers({});
     setTestResults(null);
     setMockState('running');
+    setPrepTab('mock');
   };
 
   const submitTest = () => {
@@ -85,15 +126,7 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
     const penalty = 1 / 3; // Real MPSC negative marking
     const score = correct - wrong * penalty;
 
-    setTestResults({
-      correct,
-      wrong,
-      unattempted,
-      score,
-      total: testQuestions.length,
-      percentage: ((score / testQuestions.length) * 100).toFixed(1),
-    });
-
+    setTestResults({ correct, wrong, unattempted, score, total: testQuestions.length });
     setMockState('review');
   };
 
@@ -102,12 +135,12 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
       {/* Tab Navigation */}
       <div className="border-b overflow-x-auto" style={{ borderColor: 'var(--border)' }}>
         <div className="flex gap-6 px-5 py-3">
-          {(['overview', 'primers', 'exam-browse', 'yearly-browse', 'mock', 'progress'] as const).map((t) => (
+          {(['overview', 'primers', 'bank', 'exam-browse', 'yearly-browse', 'mock', 'progress'] as const).map((t) => (
             <button
               key={t}
               onClick={() => {
                 setPrepTab(t);
-                setMockState('setup');
+                if (t !== 'mock') setMockState('setup');
               }}
               className="text-sm font-medium whitespace-nowrap pb-2"
               style={{
@@ -117,6 +150,7 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
             >
               {t === 'overview' && '📋 Overview'}
               {t === 'primers' && '📚 Primers'}
+              {t === 'bank' && '❓ Question Bank'}
               {t === 'exam-browse' && '🏛️ By Exam'}
               {t === 'yearly-browse' && '📅 By Year'}
               {t === 'mock' && '🧪 Mock Tests'}
@@ -128,8 +162,16 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
 
       {/* Tab Content */}
       <div className="flex-1 overflow-y-auto px-5 py-5">
-        {prepTab === 'overview' && <OverviewTab questions={stateTaxQuestions} unitCounts={unitCounts} />}
+        {prepTab === 'overview' && <OverviewTab questions={stateTaxQuestions} unitCounts={unitCounts} exams={exams} />}
         {prepTab === 'primers' && <PrimersTab primers={filteredPrimers} selectedUnit={selectedUnit} onSelectUnit={setSelectedUnit} />}
+        {prepTab === 'bank' && (
+          <QuestionBankTab
+            questions={stateTaxQuestions}
+            unitCounts={unitCounts}
+            questionExamName={questionExamName}
+            questionSitting={questionSitting}
+          />
+        )}
         {prepTab === 'exam-browse' && (
           <ExamBrowseTab questions={stateTaxQuestions} exams={exams} questionExamName={questionExamName} onStartTest={startMockTest} />
         )}
@@ -140,7 +182,7 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
         {prepTab === 'mock' && mockState === 'running' && (
           <MockRunnerTab questions={testQuestions} answers={mockAnswers} onAnswer={(i, ans) => setMockAnswers({ ...mockAnswers, [i]: ans })} onSubmit={submitTest} />
         )}
-        {prepTab === 'mock' && mockState === 'review' && (
+        {prepTab === 'mock' && mockState === 'review' && testResults && (
           <MockReviewTab questions={testQuestions} answers={mockAnswers} results={testResults} onBack={() => setMockState('setup')} />
         )}
         {prepTab === 'progress' && <ProgressTab />}
@@ -149,31 +191,62 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
   );
 }
 
-function OverviewTab({ questions, unitCounts }: { questions: BankQuestion[]; unitCounts: Record<string, number> }) {
+function OverviewTab({ questions, unitCounts, exams }: { questions: BankQuestion[]; unitCounts: Record<string, number>; exams: string[] }) {
+  const maxCount = Math.max(1, ...Object.values(unitCounts));
+  const totalPrimers = allPrimers.length;
+
   return (
-    <div className="max-w-4xl space-y-6">
+    <div className="max-w-3xl space-y-8">
       <div>
-        <h2 className="text-xl font-semibold mb-2">MPSC State Tax Officer · Group B Gazetted</h2>
-        <p style={{ color: 'var(--text-secondary)' }} className="mb-4">
-          Complete General Competitive exam preparation: General English, General Essay, and General Studies (I/II/III).
+        <div className="text-[0.68rem] font-bold tracking-widest uppercase mb-1" style={{ color: 'var(--accent)' }}>
+          MPSC State Tax Officer · Group B Gazetted, Finance Dept
+        </div>
+        <h2 className="text-xl font-semibold mb-2">Complete General Competitive exam preparation</h2>
+        <p style={{ color: 'var(--text-secondary)' }} className="mb-4 text-sm">
+          General English, General Essay, and General Studies Papers I/II/III — pulled from every Mizoram PSC exam
+          that used this identical pattern: Inspector of Taxes, Inspector of Excise &amp; Narcotics, and the Group B
+          Combined sitting where State Tax Officer candidates themselves sat these exact papers.
         </p>
       </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-        <StatCard label="Questions" value={questions.length} />
-        <StatCard label="Years" value="2016-2025" />
-        <StatCard label="Primers" value="80+" />
-        <StatCard label="Topics" value={Object.keys(unitCounts).length.toString()} />
+      <div className="flex flex-wrap gap-3">
+        <div className="sto-stat"><b>{questions.length}</b><span>Questions</span></div>
+        <div className="sto-stat"><b>{exams.length}</b><span>Exams</span></div>
+        <div className="sto-stat"><b>{totalPrimers}</b><span>Primers</span></div>
+        <div className="sto-stat"><b>{Object.keys(unitCounts).length}</b><span>Topics</span></div>
       </div>
 
       <div>
-        <h3 className="font-semibold mb-3">Study Path:</h3>
-        <ol className="space-y-2 text-sm" style={{ color: 'var(--text-secondary)' }}>
-          <li><strong>1. Read Primers</strong> — Concept foundation for each topic</li>
-          <li><strong>2. Browse by Exam/Year</strong> — See real papers and their difficulty</li>
-          <li><strong>3. Take Mock Tests</strong> — Practice with real negative marking</li>
-          <li><strong>4. Review Progress</strong> — Identify weak areas and improve</li>
+        <h3 className="font-semibold mb-3 text-sm">Study path</h3>
+        <ol className="space-y-1.5 text-sm" style={{ color: 'var(--text-secondary)' }}>
+          <li><strong style={{ color: 'var(--text-primary)' }}>1. Read Primers</strong> — build the concept foundation for a unit before drilling it</li>
+          <li><strong style={{ color: 'var(--text-primary)' }}>2. Search the Question Bank</strong> — every solved question, filterable and searchable</li>
+          <li><strong style={{ color: 'var(--text-primary)' }}>3. Browse by Exam or Year</strong> — see one real paper's difficulty at a time</li>
+          <li><strong style={{ color: 'var(--text-primary)' }}>4. Take Mock Tests</strong> — timed practice under real negative marking (−1/3 per wrong answer)</li>
         </ol>
+      </div>
+
+      <div>
+        <h3 className="font-semibold mb-1 text-sm">Where the questions come from</h3>
+        <p className="text-sm mb-3" style={{ color: 'var(--text-secondary)' }}>
+          How many solved questions exist for each topic — a short bar means lean harder on the primer for that unit
+          instead of expecting to drill your way through it.
+        </p>
+        <div className="sto-card">
+          {Object.entries(unitCounts)
+            .sort(([, a], [, b]) => b - a)
+            .map(([topic, count]) => (
+              <div key={topic} className={`sto-weight-row ${subjectClass(topic)}`}>
+                <div className="flex items-center gap-2 min-w-0">
+                  <span className="sto-pill sto-subject">{topic.replace(/_/g, ' ')}</span>
+                  <div className="sto-weight-track flex-1" style={{ width: 'min(38vw, 220px)' }}>
+                    <div className="sto-weight-bar" style={{ width: `${Math.max(4, (count / maxCount) * 100)}%` }} />
+                  </div>
+                </div>
+                <span className="sto-weight-n">{count} Qs</span>
+              </div>
+            ))}
+        </div>
       </div>
     </div>
   );
@@ -181,8 +254,8 @@ function OverviewTab({ questions, unitCounts }: { questions: BankQuestion[]; uni
 
 function PrimersTab({ primers, selectedUnit, onSelectUnit }: { primers: typeof allPrimers; selectedUnit: string | null; onSelectUnit: (unit: string | null) => void }) {
   return (
-    <div className="max-w-4xl space-y-6">
-      <div className="flex flex-wrap gap-2 mb-6">
+    <div className="max-w-3xl space-y-6">
+      <div className="flex flex-wrap gap-2 mb-2">
         <button
           onClick={() => onSelectUnit(null)}
           className="px-3 py-1 rounded-full text-sm font-medium"
@@ -208,32 +281,28 @@ function PrimersTab({ primers, selectedUnit, onSelectUnit }: { primers: typeof a
         ))}
       </div>
 
-      <div className="space-y-4">
+      <div className="space-y-3">
         {primers.length === 0 ? (
           <p style={{ color: 'var(--text-secondary)' }}>No primers for this unit yet.</p>
         ) : (
           primers.map((p, i) => (
-            <div key={i} className="p-4 rounded-lg" style={{ background: 'var(--bg-panel-elev)', border: '1px solid var(--border)' }}>
-              <div className="flex items-start justify-between mb-2 gap-2">
-                <h3 className="font-semibold text-sm">{p.subtopic}</h3>
-                <span className="text-xs px-2 py-1 rounded shrink-0" style={{ background: p.priority === 'critical' ? '#ff4444' : p.priority === 'high' ? '#ff8800' : '#666', color: '#fff' }}>
-                  {p.priority}
-                </span>
+            <div key={i} className="sto-card space-y-2.5">
+              <div className="flex items-start justify-between gap-2">
+                <div className="flex items-center gap-2 flex-wrap">
+                  <span className={`sto-pill sto-subject ${subjectClass(p.unit)}`}>{p.unit}</span>
+                  <h3 className="font-semibold text-sm">{p.subtopic}</h3>
+                </div>
+                <span className={`sto-pill sto-priority-${p.priority} shrink-0`}>{p.priority}</span>
               </div>
-              <p className="text-sm mb-2">{p.primer}</p>
-              {p.analogy && <div className="text-sm p-2 rounded mb-2" style={{ background: 'var(--bg)', borderLeft: '3px solid var(--accent)' }}>💡 {p.analogy}</div>}
+              <p className="text-sm">{p.primer}</p>
+              {p.analogy && <div className="sto-analogy">{p.analogy}</div>}
               {p.traps && p.traps.length > 0 && (
-                <div className="text-sm mb-2">
-                  <strong>⚠️ Traps:</strong>
-                  <ul className="ml-4 list-disc" style={{ color: 'var(--text-secondary)' }}>
-                    {p.traps.map((t, j) => <li key={j}>{t}</li>)}
-                  </ul>
+                <div className="sto-traps">
+                  <ul>{p.traps.map((t, j) => <li key={j}>{t}</li>)}</ul>
                 </div>
               )}
               {p.formulae && p.formulae.length > 0 && (
-                <div className="text-xs font-mono p-2 rounded" style={{ background: 'var(--bg)' }}>
-                  {p.formulae.map((f, j) => <div key={j}>{f}</div>)}
-                </div>
+                <div className="sto-formulae">{p.formulae.map((f, j) => <code key={j}>{f}</code>)}</div>
               )}
             </div>
           ))
@@ -243,35 +312,141 @@ function PrimersTab({ primers, selectedUnit, onSelectUnit }: { primers: typeof a
   );
 }
 
+function QuestionBankTab({
+  questions, unitCounts, questionExamName, questionSitting,
+}: {
+  questions: BankQuestion[];
+  unitCounts: Record<string, number>;
+  questionExamName: (q: BankQuestion) => string;
+  questionSitting: (q: BankQuestion) => ExamPaper | null;
+}) {
+  const [topicFilter, setTopicFilter] = useState('');
+  const [search, setSearch] = useState('');
+  const [expanded, setExpanded] = useState<Set<number>>(new Set());
+
+  const filtered = useMemo(() => {
+    const term = search.trim().toLowerCase();
+    return questions.filter((q) => {
+      if (topicFilter && q.topic !== topicFilter) return false;
+      if (!term) return true;
+      return (
+        q.question.toLowerCase().includes(term) ||
+        q.options.some((o) => o.toLowerCase().includes(term)) ||
+        (q.topicLabel ?? '').toLowerCase().includes(term)
+      );
+    });
+  }, [questions, topicFilter, search]);
+
+  const visible = filtered.slice(0, 100);
+
+  const toggle = (i: number) => {
+    setExpanded((prev) => {
+      const next = new Set(prev);
+      if (next.has(i)) next.delete(i); else next.add(i);
+      return next;
+    });
+  };
+
+  return (
+    <div className="max-w-3xl space-y-4">
+      <h2 className="text-lg font-semibold">Question Bank</h2>
+      <div className="flex flex-wrap gap-2 items-center">
+        <select
+          value={topicFilter}
+          onChange={(e) => setTopicFilter(e.target.value)}
+          className="px-2.5 py-1.5 rounded-md text-sm"
+          style={{ background: 'var(--bg-panel-elev)', border: '1px solid var(--border)', color: 'var(--text-primary)' }}
+        >
+          <option value="">Any topic</option>
+          {Object.keys(unitCounts).sort().map((t) => (
+            <option key={t} value={t}>{t.replace(/_/g, ' ')} ({unitCounts[t]})</option>
+          ))}
+        </select>
+        <input
+          type="text"
+          placeholder="Search stems, options, topics…"
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
+          className="px-2.5 py-1.5 rounded-md text-sm flex-1 min-w-[200px]"
+          style={{ background: 'var(--bg-panel-elev)', border: '1px solid var(--border)', color: 'var(--text-primary)' }}
+        />
+        <span className="text-xs" style={{ color: 'var(--text-secondary)' }}>
+          {filtered.length} question{filtered.length === 1 ? '' : 's'}{filtered.length > 100 ? ' (showing first 100)' : ''}
+        </span>
+      </div>
+
+      <div className="space-y-3">
+        {visible.map((q, i) => {
+          const isOpen = expanded.has(i);
+          const paper = questionSitting(q);
+          return (
+            <div key={q.id} className="sto-card space-y-2">
+              <div className="flex items-center gap-2 flex-wrap text-xs">
+                <span className={`sto-pill sto-subject ${subjectClass(q.topic)}`}>{q.topic?.replace(/_/g, ' ')}</span>
+                <span className={`sto-pill sto-conf-${confidenceLabel(q)}`}>{confidenceLabel(q)} confidence</span>
+                <span className="ml-auto" style={{ color: 'var(--text-secondary)' }}>
+                  {questionExamName(q)}{paper?.year ? `, ${paper.year}` : ''}
+                </span>
+              </div>
+              <p className="text-sm font-medium">{q.question}</p>
+              <div className="space-y-1.5">
+                {q.options.map((opt, j) => (
+                  <div key={j} className={`sto-opt ${j === q.answerIndex ? 'sto-opt-correct' : ''}`}>
+                    <span className="sto-opt-letter">{String.fromCharCode(97 + j)}</span>
+                    <span>{opt}</span>
+                  </div>
+                ))}
+              </div>
+              <button
+                onClick={() => toggle(i)}
+                className="text-xs font-medium"
+                style={{ color: 'var(--accent)' }}
+              >
+                {isOpen ? '▾ Hide explanation' : '▸ Show explanation'}
+              </button>
+              {isOpen && (
+                <div className="text-sm p-2.5 rounded" style={{ background: 'var(--bg-app)', color: 'var(--text-secondary)' }}>
+                  {q.explanation}
+                </div>
+              )}
+            </div>
+          );
+        })}
+        {visible.length === 0 && (
+          <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>No questions match these filters.</p>
+        )}
+      </div>
+    </div>
+  );
+}
+
 function ExamBrowseTab({
   questions, exams, questionExamName, onStartTest,
 }: {
-  questions: BankQuestion[]; exams: string[]; questionExamName: (q: BankQuestion) => string; onStartTest: (q: BankQuestion[], title: string) => void;
+  questions: BankQuestion[]; exams: string[]; questionExamName: (q: BankQuestion) => string; onStartTest: (q: BankQuestion[]) => void;
 }) {
   return (
-    <div className="max-w-4xl space-y-6">
-      <h2 className="text-lg font-semibold">Browse by Exam</h2>
+    <div className="max-w-3xl space-y-6">
+      <h2 className="text-lg font-semibold">Browse by exam</h2>
 
-      <div className="space-y-2 max-h-96 overflow-y-auto">
+      <div className="space-y-2">
         {exams.map((exam) => {
           const examQuestions = questions.filter((q) => questionExamName(q) === exam);
           return (
-            <div key={exam} className="p-4 rounded-lg" style={{ background: 'var(--bg-panel-elev)', border: '1px solid var(--border)' }}>
-              <div className="flex items-center justify-between">
-                <div>
-                  <div className="font-semibold text-sm">{exam}</div>
-                  <div className="text-xs" style={{ color: 'var(--text-secondary)' }}>
-                    {examQuestions.length} questions
-                  </div>
+            <div key={exam} className="sto-card flex items-center justify-between gap-3">
+              <div>
+                <div className="font-semibold text-sm">{exam}</div>
+                <div className="text-xs" style={{ color: 'var(--text-secondary)' }}>
+                  {examQuestions.length} questions
                 </div>
-                <button
-                  onClick={() => onStartTest(examQuestions, exam)}
-                  className="px-3 py-1 rounded text-sm font-medium"
-                  style={{ background: 'var(--accent)', color: '#fff' }}
-                >
-                  Start Test
-                </button>
               </div>
+              <button
+                onClick={() => onStartTest(examQuestions)}
+                className="px-3 py-1.5 rounded text-sm font-medium shrink-0"
+                style={{ background: 'var(--accent)', color: '#fff' }}
+              >
+                Start Test
+              </button>
             </div>
           );
         })}
@@ -280,31 +455,29 @@ function ExamBrowseTab({
   );
 }
 
-function YearlyBrowseTab({ questions, years, onStartTest }: { questions: BankQuestion[]; years: number[]; onStartTest: (q: BankQuestion[], title: string) => void }) {
+function YearlyBrowseTab({ questions, years, onStartTest }: { questions: BankQuestion[]; years: number[]; onStartTest: (q: BankQuestion[]) => void }) {
   return (
-    <div className="max-w-4xl space-y-6">
-      <h2 className="text-lg font-semibold">Browse by Year</h2>
+    <div className="max-w-3xl space-y-6">
+      <h2 className="text-lg font-semibold">Browse by year</h2>
 
       <div className="space-y-2">
         {years.map((year) => {
-          const count = questions.filter((q) => q.year === year).length;
+          const yearQuestions = questions.filter((q) => q.year === year);
           return (
-            <div key={year} className="p-4 rounded-lg" style={{ background: 'var(--bg-panel-elev)', border: '1px solid var(--border)' }}>
-              <div className="flex items-center justify-between">
-                <div>
-                  <div className="font-semibold text-sm">{year}</div>
-                  <div className="text-xs" style={{ color: 'var(--text-secondary)' }}>
-                    {count} questions
-                  </div>
+            <div key={year} className="sto-card flex items-center justify-between gap-3">
+              <div>
+                <div className="font-semibold text-sm">{year}</div>
+                <div className="text-xs" style={{ color: 'var(--text-secondary)' }}>
+                  {yearQuestions.length} questions
                 </div>
-                <button
-                  onClick={() => onStartTest(questions.filter((q) => q.year === year), `${year} Papers`)}
-                  className="px-3 py-1 rounded text-sm font-medium"
-                  style={{ background: 'var(--accent)', color: '#fff' }}
-                >
-                  Start Test
-                </button>
               </div>
+              <button
+                onClick={() => onStartTest(yearQuestions)}
+                className="px-3 py-1.5 rounded text-sm font-medium shrink-0"
+                style={{ background: 'var(--accent)', color: '#fff' }}
+              >
+                Start Test
+              </button>
             </div>
           );
         })}
@@ -313,21 +486,21 @@ function YearlyBrowseTab({ questions, years, onStartTest }: { questions: BankQue
   );
 }
 
-function MockSetupTab({ questions, onStartTest }: { questions: BankQuestion[]; onStartTest: (q: BankQuestion[], title: string) => void }) {
+function MockSetupTab({ questions, onStartTest }: { questions: BankQuestion[]; onStartTest: (q: BankQuestion[]) => void }) {
   const [testSize, setTestSize] = useState(25);
 
-  const shuffled = useMemo(() => {
+  const pickRandom = () => {
     const arr = [...questions].sort(() => Math.random() - 0.5);
-    return arr.slice(0, testSize);
-  }, [questions, testSize]);
+    onStartTest(arr.slice(0, testSize));
+  };
 
   return (
-    <div className="max-w-2xl space-y-6">
-      <h2 className="text-lg font-semibold">Mock Test Setup</h2>
+    <div className="max-w-lg space-y-6">
+      <h2 className="text-lg font-semibold">Mock test setup</h2>
 
       <div className="space-y-4">
         <div>
-          <label className="block text-sm font-medium mb-3">Questions:</label>
+          <label className="block text-sm font-medium mb-2">Questions</label>
           <select
             value={testSize}
             onChange={(e) => setTestSize(Number(e.target.value))}
@@ -342,17 +515,16 @@ function MockSetupTab({ questions, onStartTest }: { questions: BankQuestion[]; o
         </div>
 
         <button
-          onClick={() => onStartTest(shuffled, `Mock Test (${testSize}Q)`)}
+          onClick={pickRandom}
           className="px-4 py-2 rounded-md font-medium w-full"
           style={{ background: 'var(--accent)', color: '#fff' }}
         >
-          Start Test ({testSize} Questions)
+          Start test ({testSize} questions)
         </button>
 
-        <div className="p-4 rounded-lg text-sm" style={{ background: 'var(--bg-panel-elev)', border: '1px solid var(--border)', color: 'var(--text-secondary)' }}>
-          <p>
-            <strong>Real marking:</strong> Correct = +1, Wrong = -1/3, Blank = 0
-          </p>
+        <div className="sto-card text-sm" style={{ color: 'var(--text-secondary)' }}>
+          <strong style={{ color: 'var(--text-primary)' }}>Real negative marking:</strong> correct = +1, wrong = −1/3, blank = 0 —
+          matching the actual MPSC exam rules.
         </div>
       </div>
     </div>
@@ -361,114 +533,97 @@ function MockSetupTab({ questions, onStartTest }: { questions: BankQuestion[]; o
 
 function MockRunnerTab({ questions, answers, onAnswer, onSubmit }: { questions: BankQuestion[]; answers: Record<number, number>; onAnswer: (i: number, ans: number) => void; onSubmit: () => void }) {
   return (
-    <div className="max-w-4xl space-y-6">
-      <div className="flex items-center justify-between">
-        <h2 className="text-lg font-semibold">Test in Progress</h2>
-        <div className="text-sm" style={{ color: 'var(--text-secondary)' }}>
+    <div className="max-w-3xl space-y-4">
+      <div className="flex items-center justify-between sticky top-0 py-2 -mx-1 px-1" style={{ background: 'var(--bg-app)', zIndex: 1 }}>
+        <h2 className="text-lg font-semibold">Test in progress</h2>
+        <div className="text-sm font-medium" style={{ color: 'var(--accent)' }}>
           {Object.keys(answers).length} / {questions.length} answered
         </div>
       </div>
 
-      <div className="space-y-4">
+      <div className="space-y-3">
         {questions.map((q, i) => (
-          <div key={i} className="p-4 rounded-lg" style={{ background: 'var(--bg-panel-elev)', border: '1px solid var(--border)' }}>
-            <div className="font-semibold text-sm mb-3">
-              Q{i + 1}: {q.question}
-            </div>
-            <div className="space-y-2">
-              {q.options.map((opt, j) => (
-                <label key={j} className="flex items-center p-2 rounded cursor-pointer" style={{ background: answers[i] === j ? 'var(--accent)' : 'transparent' }}>
-                  <input
-                    type="radio"
-                    name={`q-${i}`}
-                    value={j}
-                    checked={answers[i] === j}
-                    onChange={() => onAnswer(i, j)}
-                    style={{ marginRight: '0.5rem' }}
-                  />
-                  <span className="text-sm" style={{ color: answers[i] === j ? 'var(--accent)' : 'var(--text-primary)' }}>
-                    {String.fromCharCode(97 + j)}) {opt}
-                  </span>
-                </label>
-              ))}
+          <div key={q.id} className="sto-card space-y-2.5">
+            <div className="font-semibold text-sm">Q{i + 1}. {q.question}</div>
+            <div className="space-y-1.5">
+              {q.options.map((opt, j) => {
+                const selected = answers[i] === j;
+                return (
+                  <label
+                    key={j}
+                    className={`sto-opt cursor-pointer ${selected ? 'sto-opt-correct' : ''}`}
+                    style={selected ? undefined : { cursor: 'pointer' }}
+                  >
+                    <input
+                      type="radio"
+                      name={`q-${i}`}
+                      checked={selected}
+                      onChange={() => onAnswer(i, j)}
+                      style={{ marginTop: 2 }}
+                    />
+                    <span>{String.fromCharCode(97 + j)}) {opt}</span>
+                  </label>
+                );
+              })}
             </div>
           </div>
         ))}
       </div>
 
       <button onClick={onSubmit} className="px-4 py-2 rounded-md font-medium w-full" style={{ background: 'var(--accent)', color: '#fff' }}>
-        Submit Test
+        Submit test
       </button>
     </div>
   );
 }
 
-function MockReviewTab({ questions, answers, results, onBack }: { questions: BankQuestion[]; answers: Record<number, number>; results: any; onBack: () => void }) {
+function MockReviewTab({ questions, answers, results, onBack }: { questions: BankQuestion[]; answers: Record<number, number>; results: MockResults; onBack: () => void }) {
   return (
-    <div className="max-w-4xl space-y-6">
+    <div className="max-w-3xl space-y-6">
       <div>
-        <h2 className="text-lg font-semibold mb-4">Test Results</h2>
-        <div className="grid grid-cols-4 gap-4 mb-6">
-          <div className="p-4 rounded-lg text-center" style={{ background: 'var(--bg-panel-elev)' }}>
-            <div className="text-2xl font-bold" style={{ color: 'var(--accent)' }}>
-              {results.score.toFixed(1)}
-            </div>
-            <div className="text-xs" style={{ color: 'var(--text-secondary)' }}>Score</div>
-          </div>
-          <div className="p-4 rounded-lg text-center" style={{ background: 'var(--bg-panel-elev)' }}>
-            <div className="text-2xl font-bold" style={{ color: '#4CAF50' }}>
-              {results.correct}
-            </div>
-            <div className="text-xs" style={{ color: 'var(--text-secondary)' }}>Correct</div>
-          </div>
-          <div className="p-4 rounded-lg text-center" style={{ background: 'var(--bg-panel-elev)' }}>
-            <div className="text-2xl font-bold" style={{ color: '#F44336' }}>
-              {results.wrong}
-            </div>
-            <div className="text-xs" style={{ color: 'var(--text-secondary)' }}>Wrong</div>
-          </div>
-          <div className="p-4 rounded-lg text-center" style={{ background: 'var(--bg-panel-elev)' }}>
-            <div className="text-2xl font-bold" style={{ color: '#FF9800' }}>
-              {results.unattempted}
-            </div>
-            <div className="text-xs" style={{ color: 'var(--text-secondary)' }}>Blank</div>
-          </div>
+        <h2 className="text-lg font-semibold mb-4">Test results</h2>
+        <div className="grid grid-cols-4 gap-3">
+          <div className="sto-stat text-center"><b>{results.score.toFixed(2)}</b><span>Score</span></div>
+          <div className="sto-stat text-center"><b style={{ color: '#2e7d4f' }}>{results.correct}</b><span>Correct</span></div>
+          <div className="sto-stat text-center"><b style={{ color: '#a33232' }}>{results.wrong}</b><span>Wrong</span></div>
+          <div className="sto-stat text-center"><b style={{ color: '#9a6b12' }}>{results.unattempted}</b><span>Blank</span></div>
         </div>
       </div>
 
-      <div className="space-y-4">
-        <h3 className="font-semibold">Review Answers:</h3>
+      <div className="space-y-3">
+        <h3 className="font-semibold text-sm">Review answers</h3>
         {questions.map((q, i) => {
           const answered = i in answers;
-          const correct = answers[i] === q.answerIndex;
+          const isCorrect = answers[i] === q.answerIndex;
           return (
-            <div key={i} className="p-4 rounded-lg" style={{ background: 'var(--bg-panel-elev)', border: `2px solid ${!answered ? '#FF9800' : correct ? '#4CAF50' : '#F44336'}` }}>
-              <div className="font-semibold text-sm mb-2">
-                Q{i + 1}: {q.question}
+            <div
+              key={q.id}
+              className="sto-card space-y-2"
+              style={{ borderColor: !answered ? '#9a6b12' : isCorrect ? '#2e7d4f' : '#a33232', borderWidth: 2 }}
+            >
+              <div className="font-semibold text-sm">Q{i + 1}. {q.question}</div>
+              <div className="space-y-1.5">
+                {q.options.map((opt, j) => {
+                  const isRight = j === q.answerIndex;
+                  const isWrongPick = j === answers[i] && !isCorrect;
+                  return (
+                    <div key={j} className={`sto-opt ${isRight ? 'sto-opt-correct' : isWrongPick ? 'sto-opt-wrong-pick' : ''}`}>
+                      <span className="sto-opt-letter">{String.fromCharCode(97 + j)}</span>
+                      <span>{opt}</span>
+                    </div>
+                  );
+                })}
               </div>
-              <div className="text-sm mb-2">
-                {q.options.map((opt, j) => (
-                  <div
-                    key={j}
-                    style={{
-                      color: j === q.answerIndex ? '#4CAF50' : j === answers[i] && !correct ? '#F44336' : 'var(--text-primary)',
-                      fontWeight: j === q.answerIndex || (j === answers[i] && !correct) ? 'bold' : 'normal',
-                    }}
-                  >
-                    {String.fromCharCode(97 + j)}) {opt}
-                  </div>
-                ))}
-              </div>
-              <div className="text-xs p-2 rounded" style={{ background: 'var(--bg)', color: 'var(--text-secondary)' }}>
-                <strong>Explanation:</strong> {q.explanation}
+              <div className="text-xs p-2 rounded" style={{ background: 'var(--bg-app)', color: 'var(--text-secondary)' }}>
+                <strong style={{ color: 'var(--text-primary)' }}>Explanation:</strong> {q.explanation}
               </div>
             </div>
           );
         })}
       </div>
 
-      <button onClick={onBack} className="px-4 py-2 rounded-md font-medium" style={{ background: 'var(--border)', color: 'var(--text-primary)' }}>
-        Take Another Test
+      <button onClick={onBack} className="px-4 py-2 rounded-md font-medium" style={{ background: 'var(--bg-panel-elev)', border: '1px solid var(--border)', color: 'var(--text-primary)' }}>
+        Take another test
       </button>
     </div>
   );
@@ -476,23 +631,10 @@ function MockReviewTab({ questions, answers, results, onBack }: { questions: Ban
 
 function ProgressTab() {
   return (
-    <div className="max-w-4xl space-y-6">
-      <h2 className="text-lg font-semibold">Study Progress</h2>
-      <div className="p-4 rounded-lg" style={{ background: 'var(--bg-panel-elev)', border: '1px solid var(--border)' }}>
+    <div className="max-w-3xl space-y-6">
+      <h2 className="text-lg font-semibold">Study progress</h2>
+      <div className="sto-card">
         <p style={{ color: 'var(--text-secondary)' }}>Progress analytics coming soon. Your test attempts will be tracked here.</p>
-      </div>
-    </div>
-  );
-}
-
-function StatCard({ label, value }: { label: string; value: string | number }) {
-  return (
-    <div className="p-3 rounded-lg" style={{ background: 'var(--bg-panel-elev)', border: '1px solid var(--border)' }}>
-      <div className="text-2xl font-bold" style={{ color: 'var(--accent)' }}>
-        {value}
-      </div>
-      <div className="text-xs" style={{ color: 'var(--text-secondary)' }}>
-        {label}
       </div>
     </div>
   );

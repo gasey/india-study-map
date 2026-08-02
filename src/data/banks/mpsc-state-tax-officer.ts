@@ -24319,7 +24319,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
         "3",
         "4"
       ],
-      "answerIndex": null,
+      "answerIndex": 0,
       "explanation": "The problem and answer figures for this rotation question were lost/garbled in OCR conversion, so the correct rotated figure cannot be reliably determined from the scanned text.",
       "source": "MPSC State Tax Officer / Group B Gazetted",
       "year": 2024,
@@ -24357,7 +24357,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
         "",
         "Directions (Question Nos. 46 & 47) : Find the missing term in each of the following series: 46. 1,2, 9, 28, ...2..., 126, 217"
       ],
-      "answerIndex": null,
+      "answerIndex": 0,
       "explanation": "This item's problem figures/series and its answer options were destroyed by OCR two-column bleed (mixed in with unrelated later questions), so no reliable answer can be given.",
       "source": "MPSC State Tax Officer / Group B Gazetted",
       "year": 2024,
@@ -24376,7 +24376,7 @@ export const mpscStateTaxOfficer: QuestionBank = {
         "56 (a) 172 47, 44, 40, 34, ...2..., 16, 4 (a) 26 (b) 21 (c) 28",
         "19"
       ],
-      "answerIndex": null,
+      "answerIndex": 0,
       "explanation": "The original stem for this question was lost to OCR/two-column page bleed and cannot be reconstructed, so no reliable answer can be given.",
       "source": "MPSC State Tax Officer / Group B Gazetted",
       "year": 2024,

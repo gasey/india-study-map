@@ -28,6 +28,7 @@ const CurrentAffairsPage = lazy(() => import('./modules/current-affairs/CurrentA
 const QuizPlayerPage = lazy(() => import('./modules/current-affairs/QuizPlayerPage'));
 const ArenaPage = lazy(() => import('./modules/arena/ArenaPage'));
 const MpscPage = lazy(() => import('./modules/mpsc/MpscPage'));
+const StateTaxOfficerPage = lazy(() => import('./modules/mpsc/StateTaxOfficerPage'));
 
 function Loading() {
   return (
@@ -64,6 +65,7 @@ export function Root() {
             <Route path="/current-affairs/:date" element={<QuizPlayerPage />} />
             <Route path="/arena" element={<ArenaPage />} />
             <Route path="/mpsc" element={<MpscPage />} />
+            <Route path="/state-tax-officer" element={<StateTaxOfficerPage />} />
             <Route path="*" element={<Home />} />
           </Routes>
         </Suspense>

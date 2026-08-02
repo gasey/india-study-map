@@ -132,6 +132,15 @@ export const modules: AppModule[] = [
     path: '/mpsc',
   },
   {
+    id: 'state-tax-officer',
+    title: 'State Tax Officer',
+    category: 'Practice',
+    tagline: 'Group B Gazetted — primers, question bank, full mock tests',
+    glyph: '🎯',
+    kind: 'route',
+    path: '/state-tax-officer',
+  },
+  {
     id: 'ca',
     title: 'Current Affairs',
     category: 'Practice',

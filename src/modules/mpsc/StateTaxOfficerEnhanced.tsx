@@ -15,7 +15,7 @@ interface Props {
   papers: ExamPaper[];
 }
 
-type PrepTab = 'overview' | 'primers' | 'bank' | 'exam-browse' | 'yearly-browse' | 'mock' | 'progress' | 'admin';
+type PrepTab = 'overview' | 'primers' | 'bank' | 'descriptive' | 'exam-browse' | 'yearly-browse' | 'mock' | 'progress' | 'admin';
 type MockState = 'setup' | 'running' | 'review';
 interface MockResults {
   correct: number; wrong: number; unattempted: number; score: number; total: number;
@@ -38,6 +38,17 @@ function subjectClass(unitOrTopic: string | undefined): string {
   if (key === 'gs3_aptitude') return 'sto-unit-aptitude';
   if (key === 'essay') return 'sto-unit-essay';
   return '';
+}
+
+/**
+ * Renders `__word__` as an underlined span — the fix for questions like
+ * "identify the part of speech of the underlined word", where the original
+ * exam's underline formatting was lost during OCR extraction and the admin
+ * correction form lets someone re-mark the target word with __word__.
+ */
+function renderEmphasis(text: string) {
+  const parts = text.split(/__(.+?)__/g);
+  return parts.map((part, i) => (i % 2 === 1 ? <u key={i}>{part}</u> : part));
 }
 
 function confidenceLabel(q: BankQuestion): 'high' | 'medium' | 'low' {
@@ -69,6 +80,14 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
     [allQuestions],
   );
 
+  // Essay / précis-letter prompts: "pick a topic and write" or "summarize
+  // this passage" — genuinely not objective, no correct answerIndex exists.
+  // Shown read-only in their own tab instead of being silently dropped.
+  const descriptiveQuestions = useMemo(
+    () => allQuestions.filter((q) => q.topic === 'essay' || q.topic === 'eng_precis_letter'),
+    [allQuestions],
+  );
+
   const { user } = useAuthStore();
   const [corrections, setCorrections] = useState<Record<string, Correction>>({});
   const refetchCorrections = () => api.getCorrections(BANK_ID).then(setCorrections).catch(() => {});
@@ -89,6 +108,8 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
         ...q,
         answerIndex: c.answerIndex ?? q.answerIndex,
         explanation: c.explanation ?? q.explanation,
+        question: c.stem ?? q.question,
+        options: c.options ?? q.options,
       };
     });
   }, [stateTaxQuestions, corrections]);
@@ -181,7 +202,7 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
         <div className="flex gap-6 px-5 py-3">
           {(
             [
-              'overview', 'primers', 'bank', 'exam-browse', 'yearly-browse', 'mock', 'progress',
+              'overview', 'primers', 'bank', 'descriptive', 'exam-browse', 'yearly-browse', 'mock', 'progress',
               ...(user?.role === 'admin' ? (['admin'] as const) : []),
             ] as const
           ).map((t) => (
@@ -200,6 +221,7 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
               {t === 'overview' && '📋 Overview'}
               {t === 'primers' && '📚 Primers'}
               {t === 'bank' && '❓ Question Bank'}
+              {t === 'descriptive' && '📄 Descriptive & Essay'}
               {t === 'exam-browse' && '🏛️ By Exam'}
               {t === 'yearly-browse' && '📅 By Year'}
               {t === 'mock' && '🧪 Mock Tests'}
@@ -222,6 +244,9 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
             questionSitting={questionSitting}
             corrections={corrections}
           />
+        )}
+        {prepTab === 'descriptive' && (
+          <DescriptiveTab questions={descriptiveQuestions} questionExamName={questionExamName} questionSitting={questionSitting} />
         )}
         {prepTab === 'exam-browse' && (
           <ExamBrowseTab questions={correctedQuestions} exams={exams} questionExamName={questionExamName} onStartTest={startMockTest} />
@@ -445,7 +470,7 @@ function QuestionBankTab({
                   {questionExamName(q)}{paper?.year ? `, ${paper.year}` : ''}
                 </span>
               </div>
-              <p className="text-sm font-medium">{q.question}</p>
+              <p className="text-sm font-medium">{renderEmphasis(q.question)}</p>
               <div className="space-y-1.5">
                 {q.options.map((opt, j) => (
                   <div key={j} className={`sto-opt ${j === q.answerIndex ? 'sto-opt-correct' : ''}`}>
@@ -477,6 +502,55 @@ function QuestionBankTab({
         })}
         {visible.length === 0 && (
           <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>No questions match these filters.</p>
+        )}
+      </div>
+    </div>
+  );
+}
+
+/**
+ * Essay / précis-letter prompts — "write an essay on one of these topics",
+ * "summarize this passage" — genuinely not objective, so they're shown
+ * read-only (no answer, no scoring) instead of forced into the MCQ shape.
+ * Flag/note/comment still work — a garbled or truncated prompt is still
+ * worth reporting even though there's no "wrong answer" to flag.
+ */
+function DescriptiveTab({
+  questions, questionExamName, questionSitting,
+}: {
+  questions: BankQuestion[]; questionExamName: (q: BankQuestion) => string; questionSitting: (q: BankQuestion) => ExamPaper | null;
+}) {
+  return (
+    <div className="max-w-3xl space-y-4">
+      <h2 className="text-lg font-semibold">Descriptive &amp; essay questions</h2>
+      <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>
+        Essay topics and précis/letter prompts — not solved here since half the marks are in how you structure the
+        answer, not a single "correct" choice. Shown in original order so nothing on the written paper is a surprise.
+      </p>
+
+      <div className="space-y-3">
+        {questions.map((q) => {
+          const paper = questionSitting(q);
+          return (
+            <div key={q.id} className="sto-card space-y-2">
+              <div className="flex items-center gap-2 flex-wrap text-xs">
+                <span className={`sto-pill sto-subject ${subjectClass(q.topic)}`}>{q.topic?.replace(/_/g, ' ')}</span>
+                <span className="ml-auto" style={{ color: 'var(--text-secondary)' }}>
+                  {questionExamName(q)}{paper?.year ? `, ${paper.year}` : ''}
+                </span>
+              </div>
+              <p className="text-sm font-medium">{renderEmphasis(q.question)}</p>
+              {q.options.some((o) => o.trim().length > 0) && (
+                <ul className="text-sm ml-4 list-disc" style={{ color: 'var(--text-secondary)' }}>
+                  {q.options.filter((o) => o.trim()).map((o, j) => <li key={j}>{o}</li>)}
+                </ul>
+              )}
+              <QuestionReviewPanel bankId={BANK_ID} questionId={q.id} options={q.options} />
+            </div>
+          );
+        })}
+        {questions.length === 0 && (
+          <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>None in this bank.</p>
         )}
       </div>
     </div>
@@ -607,7 +681,7 @@ function MockRunnerTab({ questions, answers, onAnswer, onSubmit }: { questions: 
       <div className="space-y-3">
         {questions.map((q, i) => (
           <div key={q.id} className="sto-card space-y-2.5">
-            <div className="font-semibold text-sm">Q{i + 1}. {q.question}</div>
+            <div className="font-semibold text-sm">Q{i + 1}. {renderEmphasis(q.question)}</div>
             <div className="space-y-1.5">
               {q.options.map((opt, j) => {
                 const selected = answers[i] === j;
@@ -664,7 +738,7 @@ function MockReviewTab({ questions, answers, results, onBack }: { questions: Ban
               className="sto-card space-y-2"
               style={{ borderColor: !answered ? '#9a6b12' : isCorrect ? '#2e7d4f' : '#a33232', borderWidth: 2 }}
             >
-              <div className="font-semibold text-sm">Q{i + 1}. {q.question}</div>
+              <div className="font-semibold text-sm">Q{i + 1}. {renderEmphasis(q.question)}</div>
               <div className="space-y-1.5">
                 {q.options.map((opt, j) => {
                   const isRight = j === q.answerIndex;

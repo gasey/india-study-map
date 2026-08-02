@@ -133,9 +133,15 @@ function ReportRow({
   const [explanation, setExplanation] = useState(question?.explanation ?? '');
   const [note, setNote] = useState('');
   const [adminNote, setAdminNote] = useState(report.adminNote ?? '');
+  const [stem, setStem] = useState(question?.question ?? '');
+  const [options, setOptions] = useState<string[]>(question?.options ?? ['', '', '', '']);
   const [saving, setSaving] = useState(false);
 
   const statusColor = report.status === 'accepted' ? '#2e7d4f' : report.status === 'rejected' ? '#a33232' : '#9a6b12';
+
+  const setOption = (i: number, value: string) => setOptions((prev) => prev.map((o, j) => (j === i ? value : o)));
+  const stemChanged = stem !== (question?.question ?? '');
+  const optionsChanged = question ? options.some((o, i) => o !== question.options[i]) : false;
 
   const applyCorrection = async () => {
     setSaving(true);
@@ -146,6 +152,8 @@ function ReportRow({
         correctedAnswerIndex: answerIndex === '' ? null : Number(answerIndex),
         correctedExplanation: explanation || null,
         correctedNote: note || null,
+        correctedStem: stemChanged ? stem : null,
+        correctedOptions: optionsChanged ? options : null,
         reportIds: [report.id],
         adminNote,
       });
@@ -186,6 +194,36 @@ function ReportRow({
 
       {expanded && question && (
         <div className="space-y-1.5 ml-6 pt-2" style={{ borderTop: '1px dashed var(--border)' }}>
+          <label className="block text-xs font-medium">
+            Question stem
+            {stemChanged && <span style={{ color: 'var(--accent)' }}> · edited</span>}
+          </label>
+          <textarea
+            value={stem}
+            onChange={(e) => setStem(e.target.value)}
+            rows={2}
+            placeholder="Wrap the target word in __double underscores__ to mark it underlined — fixes OCR that dropped the exam's original underline."
+            className="px-2 py-1 rounded text-xs w-full"
+            style={{ background: 'var(--bg-app)', border: '1px solid var(--border)', color: 'var(--text-primary)' }}
+          />
+          <label className="block text-xs font-medium">
+            Options
+            {optionsChanged && <span style={{ color: 'var(--accent)' }}> · edited</span>}
+          </label>
+          <div className="space-y-1">
+            {options.map((o, i) => (
+              <div key={i} className="flex items-center gap-1.5">
+                <span className="text-xs shrink-0" style={{ color: 'var(--text-secondary)' }}>{String.fromCharCode(97 + i)})</span>
+                <input
+                  type="text"
+                  value={o}
+                  onChange={(e) => setOption(i, e.target.value)}
+                  className="px-2 py-1 rounded text-xs w-full"
+                  style={{ background: 'var(--bg-app)', border: '1px solid var(--border)', color: 'var(--text-primary)' }}
+                />
+              </div>
+            ))}
+          </div>
           <label className="block text-xs font-medium">Correct answer</label>
           <select
             value={answerIndex}
@@ -194,7 +232,7 @@ function ReportRow({
             style={{ background: 'var(--bg-app)', border: '1px solid var(--border)', color: 'var(--text-primary)' }}
           >
             <option value="">— keep unchanged ({String.fromCharCode(97 + question.answerIndex)}) —</option>
-            {question.options.map((o, i) => <option key={i} value={i}>{String.fromCharCode(97 + i)}) {o}</option>)}
+            {options.map((o, i) => <option key={i} value={i}>{String.fromCharCode(97 + i)}) {o}</option>)}
           </select>
           <label className="block text-xs font-medium">Corrected explanation</label>
           <textarea

@@ -34,6 +34,13 @@ export interface Correction {
   answerIndex: number | null;
   explanation: string | null;
   note: string | null;
+  /** Rewritten stem — supports __word__ to mark the target word as underlined,
+   *  for questions ("identify the part of speech of the underlined word…")
+   *  where OCR extraction lost the original underline formatting. */
+  stem: string | null;
+  /** Rewritten option text, replacing all 4 options — for OCR-garbled MCQs
+   *  where the printed options came through blank or scrambled. */
+  options: string[] | null;
   updatedAt: string;
 }
 
@@ -161,7 +168,8 @@ export function adminBulkStatus(ids: number[], status: 'accepted' | 'rejected', 
 }
 export function adminUpsertCorrection(input: {
   bankId: string; questionId: string; correctedAnswerIndex?: number | null; correctedExplanation?: string | null;
-  correctedNote?: string | null; reportIds?: number[]; adminNote?: string;
+  correctedNote?: string | null; correctedStem?: string | null; correctedOptions?: string[] | null;
+  reportIds?: number[]; adminNote?: string;
 }) {
   return request<{ status: string }>('/api/admin/corrections', { method: 'POST', body: JSON.stringify(input) });
 }

@@ -9,6 +9,58 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-08-02 (later same day) — Non-MCQ questions: descriptive viewer + stem/option correction
+
+**What shipped:**
+- 2 more accounts seeded: `user1`/`user2`, role=`user` (not admin) — recorded
+  in `mpsc_api/seed_accounts.py`.
+- `question_corrections` gained two columns: `corrected_stem` and
+  `corrected_options` (jsonb). Admin corrections can now rewrite the
+  question text and all 4 option strings, not just the answer index.
+  - **Underlined-word fix:** many ENG-GRAMMAR questions ask to identify
+    the part of speech / voice / error of "the underlined word" in a
+    sentence, but OCR extraction lost the original underline — the target
+    word is unrecoverable from context. Admin can now retype the stem
+    wrapping the target word in `__double_underscores__`; the frontend
+    (`renderEmphasis()` in `StateTaxOfficerEnhanced.tsx`) renders that as
+    `<u>`. Wired into every place a question stem is shown (Question
+    Bank, Descriptive tab, mock runner, mock review).
+  - **Garbled-options fix:** two-column OCR bleed regularly merges a
+    question's real options with fragments of the next/previous question
+    (e.g. `"preposition (c) noun"` instead of just `"Noun"`). Admin's
+    correction form now has 4 editable option inputs, and the "correct
+    answer" dropdown reads from the *live edited* option text, not the
+    original — so admin can clean up the options first, then pick which
+    one is right.
+- New 📄 **Descriptive & Essay tab**: the ~5 essay/précis-letter prompts
+  that were being silently dropped from the Question Bank (they have no
+  single correct answer, so they can't be scored as MCQs) are now shown
+  read-only, in original order, with study-pointer framing instead of a
+  worked answer — same Flag/Note/Comments panel as scored questions.
+
+**Why:** user flagged that some questions "aren't suitable for direct
+MCQ" two ways — genuinely descriptive prompts (essay/précis) that were
+invisible, and structurally-MCQ questions where OCR corrupted either the
+stem's formatting (lost underline) or the options text (column bleed).
+Both needed different fixes; conflating them would have under-served one
+or the other.
+
+**Verified live:** submitted a real report against a genuine underlined-
+word question, fixed both its stem (`__Honesty__`) and its 4 garbled
+options through the admin form, confirmed the Question Bank renders
+"Honesty" underlined, shows the 4 clean options, and highlights the
+correct one (a — Noun) — all without a page reload.
+
+**What's still open:**
+- No bulk "these 40 questions are all missing underlines" workflow —
+  each stem/option fix is still one report at a time through the admin
+  form. Fine at current volume (single low-hundreds), would need a batch
+  tool if this scales to thousands of flagged items.
+- `renderEmphasis()`'s `__word__` convention isn't documented anywhere
+  a reviewer would see it except the correction form's placeholder text.
+
+---
+
 ## 2026-08-02 — Question review system (State Tax Officer)
 
 **What shipped:**

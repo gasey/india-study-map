@@ -1,0 +1,150 @@
+[
+  {
+    "unit": "GS3-APTITUDE",
+    "subtopic": "Number series - spotting the rule in 5 seconds",
+    "priority": "critical",
+    "primer": "A number series test gives you a sequence like 3, 7, 13, 21, 31 and asks what comes next. The trick is to first check the <b>differences</b> between consecutive terms (4, 6, 8, 10 here) — if those differences themselves form a simple pattern (increasing by 2), it's a quadratic/arithmetic-of-differences series. If the differences are constant, it's plain arithmetic. If dividing consecutive terms gives a constant ratio, it's geometric.",
+    "analogy": "Think of climbing a staircase where each step is a little taller than the last — you're not looking at the height of each step, you're looking at how much taller each step gets compared to the one before. Write the 'step-growth' (differences) under the numbers like a second staircase underneath the first; the pattern almost always hides in that second row, not the first.",
+    "traps": [
+      "Jumping straight to guessing without writing the difference row first, missing quadratic patterns",
+      "Confusing an alternating two-pattern series (e.g. +2, x2, +2, x2) with a single-rule series",
+      "Not checking if the series is actually two interleaved series (odd positions vs even positions follow different rules)"
+    ],
+    "formulae": [
+      "Arithmetic series: nth term = a + (n-1)d",
+      "Geometric series: nth term = a * r^(n-1)",
+      "If 1st differences aren't constant but 2nd differences are constant → quadratic series (check squares/cubes nearby)"
+    ]
+  },
+  {
+    "unit": "GS3-APTITUDE",
+    "subtopic": "Arithmetic vs geometric series - telling them apart instantly",
+    "priority": "critical",
+    "primer": "An <b>arithmetic series</b> adds or subtracts the same fixed number each time (2, 5, 8, 11 — always +3). A <b>geometric series</b> multiplies or divides by the same fixed number each time (2, 6, 18, 54 — always x3). The fastest way to tell them apart: subtract term 2 minus term 1, and term 3 minus term 2. If those two differences are equal, it's arithmetic. If they're not equal, divide term2/term1 and term3/term2 instead — if those ratios match, it's geometric.",
+    "analogy": "Arithmetic is like a bus route where the fare goes up by a fixed rupee amount at every stop — flat, predictable, additive. Geometric is like a rumour spreading — the number of people who know it doubles or triples at each stage, growing faster and faster. If the numbers in the series are shooting up very fast (not just steadily), your gut should immediately suspect multiplication, not addition.",
+    "traps": [
+      "Assuming a fast-growing series must be geometric when it's actually quadratic (differences increasing, not a constant ratio)",
+      "Missing negative common differences/ratios (series that decreases or alternates sign)",
+      "Forgetting fractional or decimal common ratios (e.g. x0.5, i.e. series that shrinks)"
+    ],
+    "formulae": [
+      "Common difference d = a(n) - a(n-1)",
+      "Common ratio r = a(n) / a(n-1)"
+    ]
+  },
+  {
+    "unit": "GS3-APTITUDE",
+    "subtopic": "Odd-one-out among figures",
+    "priority": "high",
+    "primer": "In figure-classification questions, four or five shapes are given and you must find the one that doesn't belong. The key skill is to build a mental checklist and run every figure through the SAME checklist: number of sides/lines, number of closed regions, whether shading is present, direction shapes are rotated/pointing, and whether components are symmetric. The odd one will fail exactly one item on this checklist while the rest pass it.",
+    "analogy": "Imagine a school uniform inspection where every student must have the same tie, same shoes, same badge. You don't stare at the whole student — you scan tie, then shoes, then badge, one item at a time, across every student. The student missing just one uniform item is your odd-one-out, even if everything else about them looks fine.",
+    "traps": [
+      "Comparing figures only by 'overall look' instead of a fixed checklist, causing you to miss a small but real difference",
+      "Fixating on shape count and ignoring rotation/orientation, which is a very common differentiator",
+      "Assuming the odd figure must look most different visually — sometimes it's the most similar-looking one that breaks a subtle rule (e.g. line count)"
+    ],
+    "formulae": []
+  },
+  {
+    "unit": "GS3-APTITUDE",
+    "subtopic": "Mental rotation without drawing",
+    "priority": "high",
+    "primer": "Mental rotation questions show a 3-D shape (often a cube or a folded net) and ask which option shows the same shape after rotation, or which option CANNOT be that shape rotated. The trick is to pick one fixed anchor feature on the shape (e.g. the face with a dot, or the shortest edge) and mentally track only where THAT one feature moves as you rotate 90 degrees at a time in your head, ignoring everything else until the anchor's new position is fixed.",
+    "analogy": "It's like tracking a single sticker you've placed on a Rubik's Cube while you spin it — you don't try to track all 6 faces at once, your eyes just follow that one sticker around the turn. Once you know where the sticker ends up, you know the whole cube's new orientation, because everything else moves with it in a fixed, predictable way.",
+    "traps": [
+      "Confusing a rotation with a reflection/mirror-image — a mirrored shape is NOT achievable by rotation alone and is a classic wrong-answer trap",
+      "Losing track of adjacency (which faces touch which) when mentally unfolding/folding cube nets",
+      "Rotating around the wrong axis (spinning left-right when the question implies a front-back tumble)"
+    ],
+    "formulae": [
+      "A cube has 6 faces, 12 edges, 8 vertices — any valid net must fold into exactly this with no overlaps",
+      "Opposite faces on a standard die/cube net are never adjacent in the flattened net layout"
+    ]
+  },
+  {
+    "unit": "GS3-APTITUDE",
+    "subtopic": "Word analogies (A:B :: C:?)",
+    "priority": "critical",
+    "primer": "A word analogy question gives a pair like Doctor:Hospital and asks you to complete Teacher:? with the same relationship. The method is to first name the exact RELATIONSHIP in one short phrase — here it's 'person works at this place' — and then apply that exact phrase to the second pair, not a vague 'related to' feeling. Precision in naming the relationship (function, part-whole, cause-effect, degree, category) prevents picking a tempting-but-wrong option.",
+    "analogy": "Think of the relationship as a specific KEY that only fits one specific LOCK. 'Doctor is to Hospital' is a key shaped like 'workplace of'. When you try that same key on 'Teacher', it should smoothly open 'School' — not 'Student', which fits a totally different key shape ('person taught by'). Never grab an answer just because it 'feels associated'; test if the SAME key opens it.",
+    "traps": [
+      "Picking an answer that's merely associated with the word instead of sharing the exact same relationship type",
+      "Missing reversed-order relationships (e.g. Cause:Effect pairs presented as Effect:Cause in the answer choices)",
+      "Confusing part-to-whole analogies with category/type analogies (Finger:Hand is part-whole; Rose:Flower is type-of-category)"
+    ],
+    "formulae": []
+  },
+  {
+    "unit": "GS3-APTITUDE",
+    "subtopic": "Syllogisms - some/all conclusion rules",
+    "priority": "critical",
+    "primer": "A syllogism gives two statements (premises) using ALL/SOME/NO and asks what conclusion definitely follows. The safest technique is to draw quick Venn/circle diagrams for each premise, then only accept a conclusion that is true in EVERY possible way you can draw the circles consistent with both premises. If you can draw even one valid diagram where the proposed conclusion is false, that conclusion does NOT definitely follow.",
+    "analogy": "Think of premises as instructions for drawing overlapping hula-hoops on the ground — 'All A are B' means the A hoop sits entirely inside the B hoop. A conclusion is only 'certain' if it's true no matter how you're allowed to wiggle the hoops around while still obeying both instructions. If you can wiggle even one hoop into a position that breaks the conclusion, the conclusion was never guaranteed — it was just a lucky-looking guess.",
+    "traps": [
+      "Assuming 'Some A are B' implies 'Some A are not B' — it does not; 'some' does not rule out 'all'",
+      "Assuming 'All A are B' can be reversed to 'All B are A' — reversal is invalid for universal affirmative statements",
+      "Combining two 'Some' premises and wrongly deriving a definite conclusion — two particular premises almost never yield a valid conclusion"
+    ],
+    "formulae": [
+      "All A are B + All B are C -> All A are C (valid chain)",
+      "All A are B + No B are C -> No A are C (valid)",
+      "Some A are B + All B are C -> Some A are C (valid)",
+      "Some A are B + Some B are C -> NO valid conclusion (classic trap)"
+    ]
+  },
+  {
+    "unit": "GS3-APTITUDE",
+    "subtopic": "Vocabulary - synonym/antonym speed technique",
+    "priority": "medium",
+    "primer": "For synonym/antonym questions, don't just recall a dictionary definition — recall the word's <b>tone/intensity</b> (positive, negative, neutral, and how strong) because most wrong options share tone but not exact meaning, or exact meaning but wrong tone. If you're unsure of a word, break it into recognisable roots/prefixes (e.g. 'bene-' = good, 'mal-' = bad, '-cide' = killing) to estimate meaning under time pressure.",
+    "analogy": "Treat each word like a spice — it's not just 'hot' or 'not hot', it has a specific flavour and intensity. 'Furious' and 'annoyed' are both 'negative-angry' spices, but furious is chilli-hot while annoyed is mild pepper; swapping them in a sentence changes the dish. When choosing a synonym, match not just the flavour category but the intensity level too.",
+    "traps": [
+      "Picking a same-tone word instead of the same-meaning word (e.g. choosing 'sad' as synonym for 'furious' just because both are negative)",
+      "Confusing antonym questions with synonym questions under time pressure and picking a same-meaning word by habit",
+      "Missing that a word has multiple meanings depending on context (e.g. 'novel' as new/original vs. 'novel' as a book)"
+    ],
+    "formulae": []
+  },
+  {
+    "unit": "GS3-APTITUDE",
+    "subtopic": "English usage rules - subject-verb agreement & common errors",
+    "priority": "high",
+    "primer": "Sentence-correction questions repeatedly test a small set of rules: the verb must agree in number with its subject (not with a nearby noun), pronouns must clearly refer to one antecedent, and comparisons must compare like with like. The fastest technique is to mentally strip out all the describing clauses/phrases between the subject and the verb so only 'subject + verb' remains — errors that were hidden by a long sentence become obvious once isolated.",
+    "analogy": "Imagine the subject and verb are a dance couple, and all the extra descriptive words are a crowd standing between them at a party. To check if the couple is actually a good match (singular-singular or plural-plural), you mentally clear the crowd out of the way and look at just the two of them holding hands — ignore what the crowd (the phrases in between) is wearing.",
+    "traps": [
+      "Matching the verb to the noun immediately before it instead of the true subject (e.g. 'The list of items ARE' — wrong, should be 'IS' since 'list' is the subject)",
+      "Ambiguous pronoun reference where 'it'/'they' could point to more than one earlier noun",
+      "Comparing unlike things ('The population of India is larger than China' should compare population to population, not population to a country)"
+    ],
+    "formulae": []
+  },
+  {
+    "unit": "GS3-APTITUDE",
+    "subtopic": "Abstract reasoning - identifying the transformation rule",
+    "priority": "critical",
+    "primer": "Abstract reasoning (matrix/pattern) questions show a grid of shapes with one missing cell, and you must find what logically fits. The core technique is to check transformations along THREE directions separately: left-to-right within each row, top-to-bottom within each column, and diagonally — because the rule usually operates consistently along just one of these directions (e.g. shapes rotate 45 degrees moving left to right; shading increases moving top to bottom).",
+    "analogy": "Think of the grid like a comic strip printed in three possible reading directions — sometimes the story only makes sense reading each row left-to-right (like normal comic panels), sometimes only reading each column top-to-bottom. Test all three reading directions like trying three different ways to read a page, and the one that tells a consistent 'story' (a repeating transformation) is the direction the rule lives in.",
+    "traps": [
+      "Assuming the rule must apply to the whole grid at once instead of checking rows/columns/diagonals independently",
+      "Missing combined rules where TWO things change together (e.g. both shape count AND shading change simultaneously)",
+      "Overfitting to the first 2 cells of a pattern without verifying the rule against the 3rd cell too, leading to a wrong extrapolation"
+    ],
+    "formulae": []
+  },
+  {
+    "unit": "GS3-APTITUDE",
+    "subtopic": "Coding-decoding and letter-number series",
+    "priority": "medium",
+    "primer": "Coding-decoding questions substitute letters with other letters/numbers using a hidden rule, often a fixed shift in the alphabet (e.g. each letter moved forward by 3: A becomes D). The fastest technique is to write out the alphabet with position numbers (A=1 ... Z=26) above/below a couple of sample letter-code pairs from the question, then read off the shift or pattern directly as a number, and apply that same number to the new word.",
+    "analogy": "Think of the alphabet as a row of lockers numbered 1 to 26, and coding as everyone being told to move to the locker '3 doors down' from their own. Once you see that the person from locker 1 (A) moved to locker 4 (D), you know the universal instruction is '+3 lockers' — now you can predict exactly where anyone else moves without re-checking each letter individually.",
+    "traps": [
+      "Assuming the shift is the same forward/backward without checking both directions (some codes wrap around, e.g. Z becomes C)",
+      "Missing that vowels and consonants sometimes follow different rules within the same code",
+      "Confusing position-value coding (A=1,B=2) with reverse-position coding (A=26,B=25) — always verify direction using a given example pair first"
+    ],
+    "formulae": [
+      "Alphabet position: A=1, B=2, ... Z=26",
+      "Reverse position: A=26, B=25, ... Z=1 (i.e. position = 27 - normal position)"
+    ]
+  }
+]

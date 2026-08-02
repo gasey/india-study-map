@@ -1,0 +1,171 @@
+[
+  {
+    "unit": "GS2-ECONOMY",
+    "subtopic": "Five Year Plans - key facts",
+    "priority": "critical",
+    "primer": "India ran <b>12 Five Year Plans</b> (1951-2017) under the Planning Commission, replaced in 2015 by <b>NITI Aayog</b> (which does not make binding plans, only gives policy direction). The 1st Plan (1951-56) focused on agriculture and the Bhakra/Hirakud dams; the 2nd Plan (1956-61, Mahalanobis model) pushed heavy industry; the 3rd Plan (1961-66) is called the 'Gadgil Yojna' and largely failed due to wars and drought, followed by three Annual Plans (1966-69, the 'Plan Holiday'). The 8th Plan (1992-97) coincided with LPG (liberalisation) reforms and is called the 'Rao-Manmohan model'. The 12th Plan (2012-17), the last one, aimed at 'faster, more inclusive and sustainable growth'.",
+    "analogy": "Think of it like a family redoing their house room by room over 5-year stretches: Plan 1 fixed the kitchen (farming, since everyone was hungry), Plan 2 built a workshop (heavy industry). After Plan 3 collapsed (like a renovation stalled mid-way due to money problems - the wars/drought), they took 3 short 'gap years' (Annual Plans) before resuming. In 2015, the family fired their fixed contractor (Planning Commission) and hired a flexible consultant (NITI Aayog) who advises but doesn't dictate a rigid multi-year blueprint.",
+    "traps": [
+      "confuses Planning Commission (pre-2015, allocated funds, Plans were binding) with NITI Aayog (post-2015, only advisory, no fund allocation power)",
+      "mixes up which Plan number corresponds to which strategy (e.g. attributing the Mahalanobis heavy-industry model to the 1st Plan instead of the 2nd)",
+      "forgets the 3 Annual Plans (1966-69) between the 3rd and 4th Five Year Plans"
+    ],
+    "formulae": [
+      "1st Plan: 1951-56 (agriculture)",
+      "2nd Plan: 1956-61 (Mahalanobis, heavy industry)",
+      "3rd Plan: 1961-66 (Gadgil Yojna, failed)",
+      "Annual Plans: 1966-69",
+      "8th Plan: 1992-97 (LPG reforms)",
+      "12th (last) Plan: 2012-17",
+      "NITI Aayog formed: 1 Jan 2015"
+    ]
+  },
+  {
+    "unit": "GS2-ECONOMY",
+    "subtopic": "Direct Tax vs Indirect Tax",
+    "priority": "critical",
+    "primer": "A <b>direct tax</b> is paid straight by the person who bears its burden - you earn income, you pay Income Tax directly to the government; it cannot be shifted to someone else. An <b>indirect tax</b> is collected by an intermediary (a shopkeeper) but the burden is passed on to someone else (the final buyer) - GST, Customs Duty, and excise duty are indirect taxes. Direct taxes are generally progressive (rich pay a higher rate) while indirect taxes are regressive (everyone pays the same rate regardless of income, so it hurts the poor proportionally more).",
+    "analogy": "A direct tax is like paying your own electricity bill - the name on the bill is you, and you cannot pass that cost to your neighbour. An indirect tax is like a restaurant adding a 'service tax' to your bill - the restaurant (intermediary) collects it from you and hands it to the government, but YOU (the customer) ultimately feel the pinch, not the restaurant owner. Rich and poor pay the same GST rate on a bar of soap - that's why it's called 'regressive', like a step that's the same height for a giant and a toddler.",
+    "traps": [
+      "assumes GST is a direct tax because it feels like you're 'directly' paying at the counter - it is indirect because the shopkeeper is the collecting intermediary",
+      "confuses progressive (direct tax, rate rises with income) with regressive (indirect tax, same rate for all)",
+      "forgets Corporate Tax and Wealth-type taxes are direct; Customs and Excise are indirect"
+    ],
+    "formulae": []
+  },
+  {
+    "unit": "GS2-ECONOMY",
+    "subtopic": "Fiscal Deficit vs Revenue Deficit vs Primary Deficit",
+    "priority": "critical",
+    "primer": "<b>Fiscal deficit</b> = Total Expenditure minus Total Receipts excluding borrowings; it shows how much the government must borrow in a year. <b>Revenue deficit</b> = Revenue Expenditure minus Revenue Receipts; it shows the government is spending more than it earns even on day-to-day (non-asset-creating) items. <b>Primary deficit</b> = Fiscal deficit minus Interest Payments; it shows the deficit excluding the burden of past borrowing, i.e. the deficit from this year's fresh decisions alone. The FRBM Act, 2003 originally targeted a 3% of GDP fiscal deficit ceiling.",
+    "analogy": "Imagine your monthly household situation. Fiscal deficit is your TOTAL shortfall - how much you must borrow this month for everything (groceries + a new fridge). Revenue deficit is narrower - it's the shortfall on just your grocery/daily bills, ignoring the fridge; if even THIS is negative, it means you can't cover basic living costs. Primary deficit strips out old EMI interest you're still paying off from last year's loans, showing whether your fresh, new spending this month is under control, regardless of old debt hangover.",
+    "traps": [
+      "confuses revenue deficit (only revenue account) with fiscal deficit (both revenue and capital account)",
+      "forgets primary deficit subtracts interest PAYMENTS, not interest RECEIPTS, from fiscal deficit",
+      "assumes fiscal deficit financing itself is 'bad' - borrowing for capital/asset creation is normal, but a high REVENUE deficit is the bigger red flag since it means borrowing just to pay salaries/subsidies"
+    ],
+    "formulae": [
+      "Fiscal Deficit = Total Expenditure - (Revenue Receipts + Non-debt Capital Receipts)",
+      "Revenue Deficit = Revenue Expenditure - Revenue Receipts",
+      "Primary Deficit = Fiscal Deficit - Interest Payments",
+      "FRBM Act: 2003; original fiscal deficit target: 3% of GDP"
+    ]
+  },
+  {
+    "unit": "GS2-ECONOMY",
+    "subtopic": "GST basics",
+    "priority": "critical",
+    "primer": "<b>GST (Goods and Services Tax)</b>, effective 1 July 2017 via the 101st Constitutional Amendment Act, replaced most indirect taxes (VAT, service tax, excise on goods) with 'one nation, one tax'. It is a destination-based tax (collected where the good/service is CONSUMED, not produced) with four main slabs (5%, 12%, 18%, 28%) plus a 0% and a cess on luxury/sin goods. For a sale WITHIN a state, both <b>CGST</b> (Centre) and <b>SGST</b> (State) are charged; for an inter-state sale, only <b>IGST</b> (Integrated GST, collected by Centre and shared) applies. Petroleum, alcohol for human consumption, and electricity remain OUTSIDE GST.",
+    "analogy": "Before GST, buying something meant paying tolls to multiple different landlords (state entry tax, central excise, service tax) at every stage - confusing and layered. GST is like a single all-inclusive amusement park ticket: one ticket, one gate, valid everywhere. If you buy and use the ticket in the same city (intra-state), the fee is split between local and central councils (CGST+SGST). If you use it while travelling to another city (inter-state), a single 'combined' fee (IGST) is charged and later divided fairly between the two states/centre involved.",
+    "traps": [
+      "assumes GST applies to petrol/diesel/alcohol - these are explicitly EXCLUDED and still taxed by old VAT/excise",
+      "confuses CGST+SGST (intra-state) with IGST (inter-state) - a common exam flip",
+      "forgets GST is DESTINATION-based (where consumed), unlike the old origin-based excise/CST regime"
+    ],
+    "formulae": [
+      "GST rollout: 1 July 2017",
+      "Constitutional basis: 101st Amendment Act, 2016",
+      "Slabs: 0%, 5%, 12%, 18%, 28% (+ cess on select items)",
+      "GST Council headed by Union Finance Minister"
+    ]
+  },
+  {
+    "unit": "GS2-ECONOMY",
+    "subtopic": "Repo Rate and Monetary Policy tools",
+    "priority": "critical",
+    "primer": "<b>Repo rate</b> is the interest rate at which RBI lends short-term money to commercial banks against government securities as collateral; RBI RAISES it to curb inflation (makes borrowing costlier, less money flows in economy) and CUTS it to boost growth. <b>Reverse repo rate</b> is the opposite - the rate RBI pays banks for parking their surplus money with RBI overnight. <b>CRR (Cash Reserve Ratio)</b> is the % of a bank's deposits it must keep as cash with RBI (earns no interest), while <b>SLR (Statutory Liquidity Ratio)</b> is the % it must hold in liquid assets like gold/govt bonds (can earn interest). The Monetary Policy Committee (MPC), headed by the RBI Governor, decides the repo rate every two months.",
+    "analogy": "Repo rate is like the interest rate your strict elder brother (RBI) charges when he lends you pocket money against your watch as collateral (govt securities) - if he raises the rate, you borrow less and spend less (inflation cools down). Reverse repo is the pocket money HE pays you for keeping your savings with him instead of spending it. CRR is like a mandatory piggy bank you MUST keep locked at home (RBI) earning nothing, while SLR is money you keep in a safe but can still invest a bit (bonds) - so SLR works harder for you than CRR does.",
+    "traps": [
+      "confuses repo rate (RBI lends to banks) with reverse repo rate (banks lend/park with RBI) - direction is opposite",
+      "mixes up CRR (cash only, zero interest, with RBI) and SLR (liquid assets incl. gold/bonds, held by bank itself, can earn interest)",
+      "assumes raising repo rate boosts growth - it actually curbs inflation by making credit costlier, which SLOWS growth in the short term"
+    ],
+    "formulae": [
+      "MPC meets bi-monthly (6 times a year), headed by RBI Governor, 6 members",
+      "Repo rate up = costlier loans = inflation control (contractionary)",
+      "Repo rate down = cheaper loans = growth boost (expansionary)"
+    ]
+  },
+  {
+    "unit": "GS2-ECONOMY",
+    "subtopic": "Land Reforms in India",
+    "priority": "high",
+    "primer": "Post-independence land reforms had four main planks: (1) <b>Abolition of Zamindari/intermediaries</b> - removing landlords so tillers dealt directly with the state; (2) <b>Tenancy reforms</b> - protecting tenant-farmers from eviction and regulating fair rent; (3) <b>Land ceiling laws</b> - fixing a maximum land size a family could own, redistributing surplus to the landless; (4) <b>Consolidation of holdings</b> - merging a farmer's scattered, fragmented plots into one compact area for efficient farming. Implementation was weak and uneven across states because land is a State List subject.",
+    "analogy": "Imagine a big pizza (land) originally owned by a few landlords who just collected rent from workers actually baking it (Zamindari abolition = firing the middleman landlord so the baker owns the oven directly). Tenancy reform is like giving the baker a proper written contract so the oven-owner can't kick them out overnight. Land ceiling is like a rule saying 'no family can own more than 3 pizza ovens' - extra ovens get given to families with none. Consolidation of holdings is like a farmer who owns 5 tiny scattered pizza slices around town finally getting them swapped into ONE full pizza in one place, making it easier to manage.",
+    "traps": [
+      "confuses land ceiling (max limit on ownership) with consolidation of holdings (merging scattered plots, no change in total size)",
+      "assumes land reforms were uniformly successful nationwide - implementation varied hugely since land is a State subject, and West Bengal/Kerala are cited as relatively successful cases",
+      "mixes up Zamindari abolition (removing intermediaries between state and cultivator) with tenancy reform (protecting the tenant who cultivates someone else's land)"
+    ],
+    "formulae": []
+  },
+  {
+    "unit": "GS2-ECONOMY",
+    "subtopic": "Green Revolution and technological change in agriculture",
+    "priority": "high",
+    "primer": "The <b>Green Revolution</b> (mid-1960s, spearheaded by M.S. Swaminathan using Norman Borlaug's high-yielding variety/HYV seeds) transformed India from food-deficit to food-surplus in wheat and rice, concentrated mainly in <b>Punjab, Haryana, and western Uttar Pradesh</b>. Its package was HYV seeds + irrigation + chemical fertilizers + pesticides. It boosted foodgrain output massively but caused regional imbalance (neglected eastern/rainfed states), crop imbalance (wheat/rice favoured over pulses/oilseeds), and environmental issues (falling water tables, soil degradation from overuse of fertilizer).",
+    "analogy": "Think of Indian agriculture before the 1960s as a student barely passing exams (food shortage, importing grain). The Green Revolution was like handing that student a 'super-textbook' (HYV seeds) plus a tutor, extra study hours and coaching classes (irrigation + fertilizer + pesticides) - but only in a few well-funded schools (Punjab, Haryana, western UP), which then topped every exam (foodgrain surplus) while other schools (eastern India, pulses/oilseeds) stayed behind, creating a huge gap between star students and the rest.",
+    "traps": [
+      "credits the Green Revolution to a single crop - it overwhelmingly boosted WHEAT and RICE, largely bypassing pulses and oilseeds (India still imports edible oil/pulses heavily)",
+      "assumes it benefited all of India equally - it was geographically concentrated (Punjab, Haryana, western UP) leaving eastern/rainfed regions behind",
+      "confuses M.S. Swaminathan (India's Green Revolution architect, wheat breeding) with Norman Borlaug (international HYV wheat pioneer, Nobel laureate)"
+    ],
+    "formulae": [
+      "Green Revolution: mid-1960s (~1966-67 onwards)",
+      "Key states: Punjab, Haryana, western Uttar Pradesh",
+      "Key crops: wheat and rice"
+    ]
+  },
+  {
+    "unit": "GS2-ECONOMY",
+    "subtopic": "Industrial Policy evolution (1956, 1991)",
+    "priority": "high",
+    "primer": "The <b>Industrial Policy Resolution 1956</b> divided industries into 3 schedules: Schedule A (exclusively state/public sector, e.g. defence, atomic energy, railways), Schedule B (mixed, state takes initiative but private can supplement), and Schedule C (left to private sector). This built the 'License Raj' - private firms needed government licenses/permits for almost everything. The <b>New Industrial Policy 1991</b> (under PM Narasimha Rao and FM Manmohan Singh, triggered by a Balance of Payments crisis) dismantled this via the '3 L-P-Q' reforms: <b>L</b>iberalisation (delicensing most industries, ending License Raj), <b>P</b>rivatisation (reducing public sector monopoly, disinvestment), and <b>G</b>lobalisation (opening up to foreign investment/FDI, reducing trade barriers) - commonly called <b>LPG reforms</b>.",
+    "analogy": "1956 policy was like a strict school principal (the state) saying 'I alone will run the science lab (Schedule A - defence/railways), I'll co-run the sports ground with some private clubs (Schedule B), but you can run the canteen yourself (Schedule C)' - and to even run the canteen, you needed 10 different permission slips (License Raj). The 1991 reforms were like a new principal who, after the school nearly went bankrupt (BoP crisis, forex reserves down to 2 weeks of imports), tore up most permission slips (Liberalisation), let outside catering companies bid for the canteen (Privatisation), and invited foreign chefs to invest in the kitchen (Globalisation).",
+    "traps": [
+      "confuses the trigger for 1991 reforms - it was a Balance of Payments/forex crisis (reserves could cover only ~2-3 weeks of imports), NOT a fiscal deficit crisis alone",
+      "mixes up Schedule A (fully public) and Schedule B (mixed) of the 1956 Resolution",
+      "thinks LPG stands for something related to energy - here it means Liberalisation, Privatisation, Globalisation"
+    ],
+    "formulae": [
+      "Industrial Policy Resolution: 1956",
+      "New Industrial Policy / LPG reforms: 1991",
+      "1991 reforms PM: P.V. Narasimha Rao; FM: Manmohan Singh"
+    ]
+  },
+  {
+    "unit": "GS2-ECONOMY",
+    "subtopic": "Public Distribution System (PDS) and Buffer Stock",
+    "priority": "high",
+    "primer": "The <b>Public Distribution System (PDS)</b> distributes subsidised foodgrains (wheat, rice, sugar, kerosene) to the poor through 'Fair Price Shops' (ration shops), using a network built on procurement by the <b>Food Corporation of India (FCI)</b>, which buys grain from farmers at the government-announced <b>Minimum Support Price (MSP)</b> to build a <b>buffer stock</b> (a reserve kept for price stabilisation and emergencies, distinct from the operational stock needed for day-to-day distribution). The <b>National Food Security Act, 2013</b> gave a LEGAL RIGHT to subsidised food grain to about 67% of the population (75% rural, 50% urban), converting PDS from a scheme into a legal entitlement.",
+    "analogy": "Think of a village where the local co-op (FCI) buys wheat from farmers at a guaranteed fair price (MSP) so farmers never get cheated by traders. Some of this wheat goes straight to the village ration shop (PDS, day-to-day distribution) and some is locked away in a warehouse (buffer stock) only opened during a drought or price spike, like a family's emergency grain jar kept separate from the everyday kitchen jar. The 2013 Food Security Act is like a village rule turning 'the co-op SHOULD help the poor' into 'the co-op MUST help the poor, it's now their legal right, not charity.'",
+    "traps": [
+      "confuses MSP (price guarantee to farmers at procurement, an input-side tool) with the PDS issue price (subsidised price to consumers, an output-side tool) - these are different numbers",
+      "confuses buffer stock (strategic reserve for stabilisation/emergency) with operational stock (working stock for regular monthly PDS distribution)",
+      "forgets NFSA 2013 made food subsidy a legal ENTITLEMENT, not just a government scheme that can be withdrawn at will"
+    ],
+    "formulae": [
+      "National Food Security Act: 2013",
+      "NFSA coverage: ~75% rural, ~50% urban (about 67% of total population)",
+      "Key nodal agency for procurement: Food Corporation of India (FCI)"
+    ]
+  },
+  {
+    "unit": "GS2-ECONOMY",
+    "subtopic": "Union Budget structure and Fiscal Policy",
+    "priority": "critical",
+    "primer": "The Union Budget is presented under <b>Article 112</b> of the Constitution as the 'Annual Financial Statement'. It splits receipts/expenditure into a <b>Revenue Account</b> (day-to-day, non-asset items like salaries, subsidies, interest payments) and a <b>Capital Account</b> (asset-creating/liability items like building roads, loans given/repaid). No money can be withdrawn from the <b>Consolidated Fund of India</b> without Parliament's approval via the <b>Appropriation Bill</b>; taxes are imposed/altered via the <b>Finance Bill</b>. <b>Fiscal policy</b> is the government's use of taxation and spending to influence the economy - expansionary fiscal policy (more spending/lower taxes) fights recession, contractionary fiscal policy (less spending/higher taxes) fights inflation. Since 2017, the Budget is presented on 1 February and the separate Railway Budget has been merged into the general Budget.",
+    "analogy": "Think of the Union Budget as a household's annual money plan presented to the family council (Parliament). The Revenue Account is like listing your daily grocery/electricity bills (recurring, no asset created), while the Capital Account is like buying a new house or repaying a home loan (creates or removes a long-term asset/liability). You can't spend a single rupee from the family's main savings account (Consolidated Fund of India) without the whole family voting yes (Appropriation Bill for spending, Finance Bill for tax changes). If the family is short on income during hard times, spending MORE despite less income (expansionary) helps kickstart things; if prices are shooting up because everyone has too much cash, the family cuts spending (contractionary) to cool it down.",
+    "traps": [
+      "confuses Appropriation Bill (authorises government EXPENDITURE / withdrawal from Consolidated Fund) with Finance Bill (gives effect to TAXATION proposals)",
+      "assumes fiscal policy and monetary policy are the same - fiscal policy is taxation/spending decided by the government (Finance Ministry); monetary policy is interest-rate/money-supply decided by RBI",
+      "forgets the Railway Budget was merged into the general Union Budget starting 2017 - no separate Railway Budget since then"
+    ],
+    "formulae": [
+      "Constitutional basis: Article 112 (Annual Financial Statement)",
+      "Budget presentation date (since 2017): 1 February",
+      "Railway Budget merged into general Budget: 2017",
+      "Money withdrawal from Consolidated Fund of India requires Parliament approval (Appropriation Bill)"
+    ]
+  }
+]

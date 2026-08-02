@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { useApp } from '@/lib/store';
 import { ModuleSwitcher } from '@/modules/ModuleSwitcher';
 import { useHasDesktopChrome } from '@/lib/useShellChrome';
-import { useMpscData } from './useMpscData';
+import { getBank } from '@/data/banks';
 import { StateTaxOfficerEnhanced } from './StateTaxOfficerEnhanced';
 
 // ============================================
@@ -10,11 +10,17 @@ import { StateTaxOfficerEnhanced } from './StateTaxOfficerEnhanced';
 // Full-page shell around StateTaxOfficerEnhanced so it appears as its
 // own app in the ModuleSwitcher rather than being buried as a tab
 // inside the general MPSC Old Questions module.
+//
+// Reads directly from the 'mpsc-state-tax-officer' bank — NOT useMpscData(),
+// which only serves the 'mpsc-old-questions' bank (+ its remote API). Wiring
+// this to useMpscData() was a bug: it silently showed 0 questions because
+// none of that bank's rows carry a source field matching this page's filter.
 // ============================================
+
+const stateTaxOfficerBank = getBank('mpsc-state-tax-officer');
 
 export default function StateTaxOfficerPage() {
   const { theme, toggleTheme } = useApp();
-  const data = useMpscData();
   const hasDesktopChrome = useHasDesktopChrome('home');
 
   return (
@@ -38,7 +44,7 @@ export default function StateTaxOfficerPage() {
       </div>
 
       <div className="flex-1 min-h-0">
-        <StateTaxOfficerEnhanced allQuestions={data.questions} />
+        <StateTaxOfficerEnhanced allQuestions={stateTaxOfficerBank?.questions ?? []} papers={stateTaxOfficerBank?.papers ?? []} />
       </div>
 
       <div className="shrink-0 px-5 py-2 text-xs border-t" style={{ borderColor: 'var(--border)', color: 'var(--text-secondary)' }}>

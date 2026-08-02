@@ -1,15 +1,16 @@
 import { useMemo, useState } from 'react';
-import { sciencePrimers } from '@/data/banks';
-import type { BankQuestion } from '@/data/banks/types';
+import { allPrimers, PRIMER_CATEGORIES, UNIT_LABELS } from '@/data/banks';
+import type { BankQuestion, ExamPaper } from '@/data/banks/types';
 
 interface Props {
   allQuestions: BankQuestion[];
+  papers: ExamPaper[];
 }
 
 type PrepTab = 'overview' | 'primers' | 'exam-browse' | 'yearly-browse' | 'mock' | 'progress';
 type MockState = 'setup' | 'running' | 'review';
 
-export function StateTaxOfficerEnhanced({ allQuestions }: Props) {
+export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
   const [prepTab, setPrepTab] = useState<PrepTab>('overview');
   const [selectedUnit, setSelectedUnit] = useState<string | null>(null);
   const [mockState, setMockState] = useState<MockState>('setup');
@@ -17,10 +18,20 @@ export function StateTaxOfficerEnhanced({ allQuestions }: Props) {
   const [testQuestions, setTestQuestions] = useState<BankQuestion[]>([]);
   const [testResults, setTestResults] = useState<any>(null);
 
-  const stateTaxQuestions = useMemo(
-    () => allQuestions.filter((q) => q.source?.includes('State Tax Officer') || q.source?.includes('Inspector')),
-    [allQuestions],
-  );
+  // Every question in this bank already IS the State Tax Officer prep set —
+  // no further source filtering needed (the old q.source-based filter here
+  // was always a no-op/broken since every row shares one hardcoded source).
+  const stateTaxQuestions = allQuestions;
+
+  // Real per-question exam name comes from the linked ExamPaper via paperId,
+  // not from BankQuestion.source (which is the same string on every row).
+  const examByPaperId = useMemo(() => {
+    const m = new Map<string, string>();
+    papers.forEach((p) => m.set(p.id, p.examName));
+    return m;
+  }, [papers]);
+
+  const questionExamName = (q: BankQuestion) => (q.paperId && examByPaperId.get(q.paperId)) || 'Unknown exam';
 
   const years = useMemo(() => {
     const y = new Set<number>();
@@ -32,11 +43,9 @@ export function StateTaxOfficerEnhanced({ allQuestions }: Props) {
 
   const exams = useMemo(() => {
     const e = new Set<string>();
-    stateTaxQuestions.forEach((q) => {
-      if (q.source) e.add(q.source);
-    });
+    papers.forEach((p) => e.add(p.examName));
     return Array.from(e).sort();
-  }, [stateTaxQuestions]);
+  }, [papers]);
 
   const unitCounts = useMemo(() => {
     const counts: Record<string, number> = {};
@@ -47,8 +56,8 @@ export function StateTaxOfficerEnhanced({ allQuestions }: Props) {
   }, [stateTaxQuestions]);
 
   const filteredPrimers = useMemo(() => {
-    if (!selectedUnit) return sciencePrimers;
-    return sciencePrimers.filter((p: any) => p.subtopic.toLowerCase().includes(selectedUnit.toLowerCase()));
+    if (!selectedUnit) return allPrimers;
+    return allPrimers.filter((p) => p.unit === selectedUnit);
   }, [selectedUnit]);
 
   const startMockTest = (questions: BankQuestion[], testTitle: string) => {
@@ -121,7 +130,9 @@ export function StateTaxOfficerEnhanced({ allQuestions }: Props) {
       <div className="flex-1 overflow-y-auto px-5 py-5">
         {prepTab === 'overview' && <OverviewTab questions={stateTaxQuestions} unitCounts={unitCounts} />}
         {prepTab === 'primers' && <PrimersTab primers={filteredPrimers} selectedUnit={selectedUnit} onSelectUnit={setSelectedUnit} />}
-        {prepTab === 'exam-browse' && <ExamBrowseTab questions={stateTaxQuestions} exams={exams} onStartTest={startMockTest} />}
+        {prepTab === 'exam-browse' && (
+          <ExamBrowseTab questions={stateTaxQuestions} exams={exams} questionExamName={questionExamName} onStartTest={startMockTest} />
+        )}
         {prepTab === 'yearly-browse' && <YearlyBrowseTab questions={stateTaxQuestions} years={years} onStartTest={startMockTest} />}
         {prepTab === 'mock' && mockState === 'setup' && (
           <MockSetupTab questions={stateTaxQuestions} onStartTest={startMockTest} />
@@ -168,7 +179,7 @@ function OverviewTab({ questions, unitCounts }: { questions: BankQuestion[]; uni
   );
 }
 
-function PrimersTab({ primers, selectedUnit, onSelectUnit }: { primers: any[]; selectedUnit: string | null; onSelectUnit: (unit: string | null) => void }) {
+function PrimersTab({ primers, selectedUnit, onSelectUnit }: { primers: typeof allPrimers; selectedUnit: string | null; onSelectUnit: (unit: string | null) => void }) {
   return (
     <div className="max-w-4xl space-y-6">
       <div className="flex flex-wrap gap-2 mb-6">
@@ -180,67 +191,81 @@ function PrimersTab({ primers, selectedUnit, onSelectUnit }: { primers: any[]; s
             color: selectedUnit === null ? '#fff' : 'var(--text-primary)',
           }}
         >
-          All
+          All ({allPrimers.length})
         </button>
-        {['Physics', 'Chemistry', 'Biology', 'Earth', 'Astronomy'].map((cat) => (
+        {PRIMER_CATEGORIES.map((unit) => (
           <button
-            key={cat}
-            onClick={() => onSelectUnit(cat)}
+            key={unit}
+            onClick={() => onSelectUnit(unit)}
             className="px-3 py-1 rounded-full text-sm font-medium"
             style={{
-              background: selectedUnit === cat ? 'var(--accent)' : 'var(--bg-panel-elev)',
-              color: selectedUnit === cat ? '#fff' : 'var(--text-primary)',
+              background: selectedUnit === unit ? 'var(--accent)' : 'var(--bg-panel-elev)',
+              color: selectedUnit === unit ? '#fff' : 'var(--text-primary)',
             }}
           >
-            {cat}
+            {UNIT_LABELS[unit] ?? unit}
           </button>
         ))}
       </div>
 
       <div className="space-y-4">
-        {primers.map((p: any, i: number) => (
-          <div key={i} className="p-4 rounded-lg" style={{ background: 'var(--bg-panel-elev)', border: '1px solid var(--border)' }}>
-            <div className="flex items-start justify-between mb-2">
-              <h3 className="font-semibold text-sm">{p.subtopic}</h3>
-              <span className="text-xs px-2 py-1 rounded" style={{ background: p.priority === 'critical' ? '#ff4444' : '#666', color: '#fff' }}>
-                {p.priority}
-              </span>
+        {primers.length === 0 ? (
+          <p style={{ color: 'var(--text-secondary)' }}>No primers for this unit yet.</p>
+        ) : (
+          primers.map((p, i) => (
+            <div key={i} className="p-4 rounded-lg" style={{ background: 'var(--bg-panel-elev)', border: '1px solid var(--border)' }}>
+              <div className="flex items-start justify-between mb-2 gap-2">
+                <h3 className="font-semibold text-sm">{p.subtopic}</h3>
+                <span className="text-xs px-2 py-1 rounded shrink-0" style={{ background: p.priority === 'critical' ? '#ff4444' : p.priority === 'high' ? '#ff8800' : '#666', color: '#fff' }}>
+                  {p.priority}
+                </span>
+              </div>
+              <p className="text-sm mb-2">{p.primer}</p>
+              {p.analogy && <div className="text-sm p-2 rounded mb-2" style={{ background: 'var(--bg)', borderLeft: '3px solid var(--accent)' }}>💡 {p.analogy}</div>}
+              {p.traps && p.traps.length > 0 && (
+                <div className="text-sm mb-2">
+                  <strong>⚠️ Traps:</strong>
+                  <ul className="ml-4 list-disc" style={{ color: 'var(--text-secondary)' }}>
+                    {p.traps.map((t, j) => <li key={j}>{t}</li>)}
+                  </ul>
+                </div>
+              )}
+              {p.formulae && p.formulae.length > 0 && (
+                <div className="text-xs font-mono p-2 rounded" style={{ background: 'var(--bg)' }}>
+                  {p.formulae.map((f, j) => <div key={j}>{f}</div>)}
+                </div>
+              )}
             </div>
-            <p className="text-sm mb-2">{p.primer}</p>
-            {p.analogy && <div className="text-sm text-xs p-2 rounded mb-2" style={{ background: 'var(--bg)', borderLeft: '3px solid var(--accent)' }}>💡 {p.analogy}</div>}
-          </div>
-        ))}
+          ))
+        )}
       </div>
     </div>
   );
 }
 
-function ExamBrowseTab({ questions, exams, onStartTest }: { questions: BankQuestion[]; exams: string[]; onStartTest: (q: BankQuestion[], title: string) => void }) {
-  const [selectedExam, setSelectedExam] = useState<string | null>(null);
-
-  const filtered = useMemo(
-    () => (selectedExam ? questions.filter((q) => q.source === selectedExam) : questions),
-    [questions, selectedExam],
-  );
-
+function ExamBrowseTab({
+  questions, exams, questionExamName, onStartTest,
+}: {
+  questions: BankQuestion[]; exams: string[]; questionExamName: (q: BankQuestion) => string; onStartTest: (q: BankQuestion[], title: string) => void;
+}) {
   return (
     <div className="max-w-4xl space-y-6">
       <h2 className="text-lg font-semibold">Browse by Exam</h2>
 
       <div className="space-y-2 max-h-96 overflow-y-auto">
         {exams.map((exam) => {
-          const count = questions.filter((q) => q.source === exam).length;
+          const examQuestions = questions.filter((q) => questionExamName(q) === exam);
           return (
             <div key={exam} className="p-4 rounded-lg" style={{ background: 'var(--bg-panel-elev)', border: '1px solid var(--border)' }}>
               <div className="flex items-center justify-between">
                 <div>
                   <div className="font-semibold text-sm">{exam}</div>
                   <div className="text-xs" style={{ color: 'var(--text-secondary)' }}>
-                    {count} questions
+                    {examQuestions.length} questions
                   </div>
                 </div>
                 <button
-                  onClick={() => onStartTest(questions.filter((q) => q.source === exam), exam)}
+                  onClick={() => onStartTest(examQuestions, exam)}
                   className="px-3 py-1 rounded text-sm font-medium"
                   style={{ background: 'var(--accent)', color: '#fff' }}
                 >

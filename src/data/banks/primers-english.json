@@ -1,0 +1,188 @@
+[
+  {
+    "unit": "ENG-GRAMMAR",
+    "subtopic": "Parts of Speech (identification)",
+    "priority": "high",
+    "primer": "English words fall into 8 job categories: <b>Noun</b> (names a thing), <b>Pronoun</b> (replaces a noun), <b>Verb</b> (action/state), <b>Adjective</b> (describes a noun), <b>Adverb</b> (describes a verb/adjective/adverb), <b>Preposition</b> (shows position/relation), <b>Conjunction</b> (joins), <b>Interjection</b> (exclaims). The SAME word can change job depending on the sentence, e.g. 'run' is a verb in 'I run' but a noun in 'a home run'.",
+    "analogy": "Think of a family gathering: the Noun is the person being talked about, the Pronoun is the nickname used instead of repeating their name, the Verb is what they're doing (cooking, shouting), the Adjective is the gossip about them ('the tall one'), and the Preposition is where they're standing ('near the door'). Same person (word) can play different roles at different parties (sentences).",
+    "traps": [
+      "treats a word's part of speech as fixed instead of context-dependent (e.g. 'fast' as adjective vs adverb)",
+      "confuses adjective (describes noun) with adverb (describes verb) — 'quick' vs 'quickly'",
+      "misidentifies gerunds (verb+ing used as noun, e.g. 'Swimming is fun') as verbs"
+    ],
+    "formulae": []
+  },
+  {
+    "unit": "ENG-GRAMMAR",
+    "subtopic": "Present Tense forms",
+    "priority": "critical",
+    "primer": "There are 4 present tenses: <b>Simple Present</b> (habit/fact: 'She writes'), <b>Present Continuous</b> (happening now: 'She is writing'), <b>Present Perfect</b> (completed but relevant to now, no exact past time: 'She has written'), <b>Present Perfect Continuous</b> (ongoing action started in past, still continuing: 'She has been writing since morning'). The trigger words are the giveaway: 'always/every day' = simple, 'now/currently' = continuous, 'already/just/yet/since/for' = perfect.",
+    "analogy": "Imagine watching someone cook rice: Simple Present is the recipe card ('Rice cooks in 20 minutes' — general truth). Present Continuous is you watching it cook RIGHT NOW ('The rice is cooking'). Present Perfect is you walking in and seeing the finished pot ('The rice has cooked' — result matters, not when exactly). Present Perfect Continuous is you knowing it's been on the stove for exactly 20 minutes and is STILL going ('It has been cooking for 20 minutes').",
+    "traps": [
+      "uses simple present for an action happening right now instead of continuous",
+      "confuses present perfect (unspecified past time) with simple past (specific past time) — 'has gone' vs 'went yesterday'",
+      "forgets 'since' pairs with a POINT in time and 'for' pairs with a DURATION"
+    ],
+    "formulae": [
+      "Simple Present: Subject + V1(+s/es) — 'He walks'",
+      "Present Continuous: is/am/are + V+ing",
+      "Present Perfect: has/have + V3 (past participle)",
+      "Present Perfect Continuous: has/have + been + V+ing"
+    ]
+  },
+  {
+    "unit": "ENG-GRAMMAR",
+    "subtopic": "Past Tense forms",
+    "priority": "critical",
+    "primer": "4 past tenses mirror the present ones but shifted back: <b>Simple Past</b> (finished action, specific time: 'She wrote yesterday'), <b>Past Continuous</b> (was ongoing at a moment in the past, often interrupted: 'She was writing when the phone rang'), <b>Past Perfect</b> (an action completed BEFORE another past action — the 'past of the past': 'She had written before he arrived'), <b>Past Perfect Continuous</b> (ongoing action up to a point in the past: 'She had been writing for an hour when he arrived').",
+    "analogy": "Picture two friends at a bus stop yesterday. Simple Past: 'The bus arrived' (one clean fact). Past Continuous: 'It was raining when the bus arrived' (background action interrupted by the main event). Past Perfect: 'The bus had already left before she reached the stop' (the leaving happened even earlier than her reaching — the 'earlier of two pasts'). Past Perfect Continuous: 'She had been waiting for 30 minutes when the bus finally came' (a stopwatch running before the main past event).",
+    "traps": [
+      "uses simple past for both past events instead of past perfect for the earlier one ('He had left' vs 'He left' when two past actions need sequencing)",
+      "confuses past perfect with present perfect — past perfect always needs a second, later past-time reference point",
+      "mixes up 'was/were' (continuous) with 'had' (perfect) auxiliary"
+    ],
+    "formulae": [
+      "Simple Past: Subject + V2",
+      "Past Continuous: was/were + V+ing",
+      "Past Perfect: had + V3",
+      "Past Perfect Continuous: had + been + V+ing"
+    ]
+  },
+  {
+    "unit": "ENG-GRAMMAR",
+    "subtopic": "Future time reference",
+    "priority": "high",
+    "primer": "Future forms include: <b>Simple Future</b> ('will/shall + V1' — a plain prediction or spontaneous decision: 'I will call her'), <b>going to</b> future (a prior plan/intention: 'I am going to call her'), <b>Future Continuous</b> (an action ongoing at a future time: 'I will be calling her at 5 PM'), and <b>Future Perfect</b> (an action that will be completed BEFORE a future point: 'I will have called her by 5 PM'). MPSC exams often test 'will' vs 'going to' and the Future Perfect's 'by + time' marker.",
+    "analogy": "You're planning a train trip. 'I will book the ticket' is a spur-of-the-moment decision you just made while talking. 'I am going to book the ticket' means you already decided this yesterday — it's a pre-made plan, not a fresh one. 'I will be boarding the train at 6 PM' pictures you mid-action at that future moment. 'I will have boarded the train by 6 PM' means boarding is DONE and finished before that clock strikes six — like a deadline checkbox ticked in advance.",
+    "traps": [
+      "uses 'will' for a pre-decided plan when 'going to' is grammatically preferred",
+      "confuses future continuous (ongoing at a future moment) with future perfect (completed before a future moment)",
+      "forgets future perfect's signature marker phrase is always 'by + [future time]'"
+    ],
+    "formulae": [
+      "Simple Future: will/shall + V1",
+      "going to future: am/is/are + going to + V1",
+      "Future Continuous: will + be + V+ing",
+      "Future Perfect: will + have + V3"
+    ]
+  },
+  {
+    "unit": "ENG-SENTENCE",
+    "subtopic": "Sentence types by function",
+    "priority": "high",
+    "primer": "Sentences are classified by PURPOSE into 4 types: <b>Affirmative/Declarative</b> (states a fact: 'He is late.'), <b>Interrogative</b> (asks a question, ends in '?': 'Is he late?'), <b>Negative</b> (denies, uses 'not/no/never': 'He is not late.'), and <b>Exclamatory</b> (expresses strong emotion, ends in '!': 'How late he is!'). Exam questions usually ask you to TRANSFORM one type into another while keeping the meaning intact.",
+    "analogy": "Imagine four ways of reacting to your friend being late: you calmly tell someone 'He is late' (affirmative), you ask 'Is he late?' (interrogative), you deny it to someone else 'He is not late' (negative), or you throw your hands up shouting 'How late he is!' (exclamatory). Same fact, four different emotional costumes.",
+    "traps": [
+      "when converting affirmative to negative, forgets to flip the verb correctly (e.g. 'is' to 'is not', not just adding 'no')",
+      "when converting to exclamatory, forgets the word order inversion ('What a beautiful day it is!' not 'It is a what beautiful day!')",
+      "confuses interrogative (question form) with a rhetorical statement that merely sounds like a question"
+    ],
+    "formulae": []
+  },
+  {
+    "unit": "ENG-SENTENCE",
+    "subtopic": "Simple, Compound, and Complex sentences",
+    "priority": "critical",
+    "primer": "By STRUCTURE, sentences are: <b>Simple</b> (one independent clause, one subject-verb: 'He sings'), <b>Compound</b> (two independent clauses joined by a coordinating conjunction — FANBOYS: For, And, Nor, But, Or, Yet, So — each half can stand alone: 'He sings and she dances'), and <b>Complex</b> (one independent clause + at least one dependent/subordinate clause that CANNOT stand alone: 'He sings because he is happy'). The key test: can each chunk survive alone as a full sentence? If yes to both → compound. If one chunk needs the other → complex.",
+    "analogy": "Simple sentence is one solo singer performing alone. Compound sentence is two solo singers each capable of performing alone, just sharing the same stage, connected by a comma-and-conjunction handshake ('and', 'but'). Complex sentence is a singer with a backup dancer who is USELESS without the singer — the dependent clause ('because he is happy') can't perform solo; it needs the main clause to make sense.",
+    "traps": [
+      "calls a sentence 'compound' just because it has 'and', without checking if both halves are independent",
+      "confuses subordinating conjunctions (because, although, since, if, when — make complex sentences) with coordinating FANBOYS (make compound sentences)",
+      "mislabels a sentence with two dependent clauses plus one independent clause as 'compound' instead of 'complex' (or 'compound-complex')"
+    ],
+    "formulae": [
+      "FANBOYS = For, And, Nor, But, Or, Yet, So (coordinating conjunctions → compound)",
+      "Common subordinators: because, although, since, if, when, while, unless, that, which, who (→ complex)"
+    ]
+  },
+  {
+    "unit": "ENG-SENTENCE",
+    "subtopic": "Finite vs Non-finite clauses",
+    "priority": "medium",
+    "primer": "A <b>finite clause</b> has a subject AND a verb that shows tense/number/person ('She reads books' — 'reads' agrees with 'she' and is present tense). A <b>non-finite clause</b> uses a verb form (infinitive 'to + V1', gerund 'V+ing', or participle) that does NOT change with tense or subject, and usually has no separate subject of its own: 'To read books is fun' or 'Reading books is fun'. MPSC often asks you to spot or convert between the two.",
+    "analogy": "A finite clause is like an employee who clocks in and out — you can tell exactly WHEN they worked (tense) and WHO they are (subject agreement). A non-finite clause is like a freelancer's generic task description on a poster ('to read', 'reading') — it doesn't punch a clock, doesn't change based on who's doing it, and floats without its own timestamp.",
+    "traps": [
+      "mistakes a gerund phrase (non-finite, acting as a noun) for a main verb",
+      "assumes every '-ing' word is a continuous-tense verb instead of checking if it's a non-finite verbal noun/adjective",
+      "forgets non-finite clauses cannot stand alone as a complete sentence even though they contain a verb form"
+    ],
+    "formulae": []
+  },
+  {
+    "unit": "ENG-SENTENCE",
+    "subtopic": "Noun, Adjective, and Adverb clauses",
+    "priority": "high",
+    "primer": "Subordinate clauses are named by what JOB they do in the sentence: a <b>Noun clause</b> acts as a noun (subject/object) and often starts with 'that/what/who/whether': 'I know that he lied' (the clause is the object of 'know'). An <b>Adjective clause</b> describes a noun and starts with a relative pronoun (who/which/that/whose): 'The man who lied left.' An <b>Adverb clause</b> modifies a verb, describing time/place/reason/condition, and starts with words like because/when/if/although: 'He left because he lied.'",
+    "analogy": "Think of three different helpers at a shop: the Noun clause IS the item being bought ('what he wants' = the product itself). The Adjective clause is the sticky label stuck ON an item describing it ('the shirt that is blue'). The Adverb clause is the shopkeeper's instruction about HOW/WHEN/WHY the purchase happens ('if you pay now, you get a discount'). Same clause shape, three completely different jobs.",
+    "traps": [
+      "confuses adjective clause 'who/which/that' (modifies a noun right next to it) with noun clause 'that' (acts as subject/object)",
+      "misses that adverb clauses can be moved to the front of the sentence with a comma, while adjective clauses cannot be separated from their noun",
+      "fails to identify noun clauses functioning as the SUBJECT of a sentence, e.g. 'What he said surprised everyone'"
+    ],
+    "formulae": []
+  },
+  {
+    "unit": "ENG-SENTENCE",
+    "subtopic": "Direct and Indirect Speech (Narration)",
+    "priority": "critical",
+    "primer": "<b>Direct speech</b> quotes exact words in quotation marks: He said, \"I am tired.\" <b>Indirect speech</b> (reported speech) reports the same idea without quotes, and shifts: (1) tense one step back (present→past, past→past perfect), (2) pronouns to match the reporter's perspective, (3) time/place words (today→that day, here→there, now→then, tomorrow→the next day, yesterday→the previous day). Reporting verb 'said' becomes 'said that' for statements; for questions use 'asked if/whether' or the question word, and word order becomes STATEMENT order (no auxiliary inversion, no question mark).",
+    "analogy": "Direct speech is a live phone call — you hear the exact words as spoken, in real time ('I am tired'). Indirect speech is you retelling that call to a friend LATER, from a different place and time — so naturally you say 'he said he WAS tired' (time shifted back, because you're speaking after the fact) and swap 'I' for 'he' (perspective shifted, because you're not the one who was tired). The whole tense-backshift rule exists simply because reporting always happens AFTER the original moment.",
+    "traps": [
+      "forgets to backshift tense when converting present/past to reported speech (keeps 'is' instead of changing to 'was')",
+      "keeps question word order (auxiliary before subject) in reported questions instead of converting to statement order — 'asked where I was' NOT 'asked where was I'",
+      "fails to change time/place markers (this→that, here→there, today→that day, tomorrow→the next day, ago→before)",
+      "forgets imperatives in indirect speech drop 'please/kindly' into 'requested to' and command verb becomes infinitive: 'He said, \"Shut the door\"' → 'He told him to shut the door'"
+    ],
+    "formulae": [
+      "Present Simple → Past Simple; Present Continuous → Past Continuous; Present Perfect → Past Perfect; Past Simple → Past Perfect",
+      "will → would; can → could; may → might; must → had to",
+      "this/these → that/those; here → there; now → then; today → that day; tomorrow → the next day; yesterday → the previous day; ago → before",
+      "Statements: said that + backshifted clause; Questions: asked if/whether (yes-no) or asked + Wh-word (statement order); Commands: told/ordered/requested + to + V1"
+    ]
+  },
+  {
+    "unit": "ENG-VOCAB",
+    "subtopic": "Commonly confused word pairs",
+    "priority": "critical",
+    "primer": "Many English word pairs sound or look alike but differ sharply in meaning — a classic MPSC trap category. Examples: <b>'affect'</b> (verb, to influence) vs <b>'effect'</b> (noun, the result); <b>'complement'</b> (to complete/go well with) vs <b>'compliment'</b> (praise); <b>'stationary'</b> (not moving) vs <b>'stationery'</b> (paper/pens); <b>'principal'</b> (head of school / main) vs <b>'principle'</b> (a rule/belief); <b>'lose'</b> (fail to win/keep) vs <b>'loose'</b> (not tight); <b>'its'</b> (possessive) vs <b>'it's'</b> (it is).",
+    "analogy": "Picture a school Principal (a PERSON, head of the school — remember 'principal' has 'PAL' in it, and the principal is your pal-in-charge) explaining a moral PrincipLE (a ruLE — 'principLE' has 'LE' like 'ruLE'). Separately, imagine your stationary (parked, not moving — like a 'station' where a train STAYS) car, versus stationery (notebooks and pens — the 'ery' is a store aisle full of paper goods).",
+    "traps": [
+      "swaps 'affect' (verb/cause) and 'effect' (noun/result) in fill-in-the-blank questions",
+      "writes 'compliment' when the sentence means 'complement' (things that complete each other), and vice versa",
+      "confuses 'its' (possession, no apostrophe) with 'it's' (contraction of 'it is')"
+    ],
+    "formulae": []
+  },
+  {
+    "unit": "ENG-VOCAB",
+    "subtopic": "One-word substitutions",
+    "priority": "high",
+    "primer": "MPSC frequently tests a single word that replaces a whole phrase. Examples: <b>'Bibliophile'</b> = a lover of books; <b>'Misanthrope'</b> = one who hates mankind; <b>'Philanthropist'</b> = one who does good/donates to help others; <b>'Ambidextrous'</b> = able to use both hands equally well; <b>'Nomad'</b> = a person with no fixed home, moves place to place; <b>'Chronology'</b> = arrangement of events in order of time; <b>'Amnesia'</b> = loss of memory; <b>'Autobiography'</b> = one's own life story written by oneself (vs <b>'Biography'</b> = life story written by someone else).",
+    "analogy": "Think of Greek/Latin word-roots as ingredient labels: 'phil-' means love (biblioPHILe = book-lover, PHILanthropist = lover of mankind), 'mis-' or 'miso-' means hate (MISanthrope = hater of mankind — the exact opposite twin of philanthropist, easy to swap by mistake), 'auto-' means self (AUTObiography = self-written life story), 'chrono-' means time (CHRONOlogy = time-ordering). Once you know the root, you can often guess the word even if you've never seen it.",
+    "traps": [
+      "swaps 'philanthropist' (loves/helps mankind) with 'misanthrope' (hates mankind) — opposite roots, easy to confuse under time pressure",
+      "confuses 'autobiography' (written by self) with 'biography' (written by someone else about the person)",
+      "picks a near-synonym distractor option instead of the exact precise one-word term the question wants"
+    ],
+    "formulae": []
+  },
+  {
+    "unit": "ENG-VOCAB",
+    "subtopic": "Preposition usage with verbs/adjectives",
+    "priority": "high",
+    "primer": "Certain verbs and adjectives always pair with a FIXED preposition, and the wrong pairing is a classic error-spotting trap. Examples: 'depend ON', 'insist ON', 'succeed IN', 'arrive AT/IN' (at a building, in a city/country), 'married TO' (a person, not 'married WITH'), 'good AT' (a skill), 'afraid OF', 'proud OF', 'angry WITH' (a person)/'angry AT' (a situation), 'listen TO', 'look AT/FOR/AFTER' (three different meanings: look AT=view, look FOR=search, look AFTER=take care of).",
+    "analogy": "Imagine each verb/adjective is a person with one specific dance partner they ALWAYS pair with at a wedding — 'depend' always dances with 'on', never with 'of' or 'in'. If you see 'depend' walking in with the wrong partner ('depend of'), you immediately know something's off, the same way you'd notice a mismatched dance couple.",
+    "traps": [
+      "uses 'married with' instead of the correct 'married to'",
+      "confuses 'look after' (take care of) with 'look for' (search for) and 'look into' (investigate)",
+      "uses 'arrive to' instead of 'arrive at/in' (no 'to' after arrive)"
+    ],
+    "formulae": [
+      "depend/insist/rely/count — ON",
+      "succeed/result/believe — IN",
+      "married/listen/belong/refer — TO",
+      "afraid/proud/fond/capable/aware — OF",
+      "good/bad/skilled/quick — AT"
+    ]
+  }
+]

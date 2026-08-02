@@ -1,0 +1,132 @@
+[
+  {
+    "unit": "GS1-HISTORY",
+    "subtopic": "British Conquest of Bengal: Plassey, Buxar, Dastak, Diwani",
+    "priority": "critical",
+    "primer": "The British East India Company's political takeover of India effectively began in Bengal. The <b>Battle of Plassey (1757)</b> against Siraj-ud-Daulah was won mainly through the betrayal of Mir Jafar, not military strength, and gave the Company huge influence over Bengal's puppet Nawabs. The <b>Battle of Buxar (1764)</b> was more decisive militarily, defeating a combined force of the Nawab of Awadh, the Bengal Nawab, and the Mughal Emperor Shah Alam II. This led directly to the <b>Diwani</b> rights of 1765 (right to collect revenue of Bengal, Bihar, Odisha) being granted to the Company by the Mughal Emperor. <b>Dastak</b> were the free internal trade passes the Company misused (giving them to private traders too) to avoid paying duties, which was one of the underlying grievances causing Buxar.",
+    "analogy": "Think of the Nawab as a shopkeeper who lets a delivery company (the British) use a free-parking pass (Dastak) for their own vans only, but the company starts handing that same pass to all its driver friends, ruining the shopkeeper's toll income. The shopkeeper fights back (Buxar) but loses, and the real prize isn't the shop itself but being handed the cash register (Diwani) in 1765 — that's when the British stopped being just traders and became tax collectors.",
+    "traps": [
+      "Plassey (1757) vs Buxar (1764) — Plassey started political control via a conspiracy/bribery, Buxar was the genuine military watershed and involved the Mughal Emperor directly",
+      "Diwani (revenue collection right, 1765) is often confused with Nizamat (civil/criminal administration, which stayed nominally with the Nawab under Dual Government)",
+      "Dastak is a trade-duty exemption pass, not a treaty or a tax"
+    ],
+    "formulae": ["Battle of Plassey: 1757", "Battle of Buxar: 1764", "Grant of Diwani of Bengal, Bihar, Odisha: 1765", "Dual Government in Bengal: 1765-1772"]
+  },
+  {
+    "unit": "GS1-HISTORY",
+    "subtopic": "British Paramountcy over Princely States: Subsidiary Alliance & Doctrine of Lapse",
+    "priority": "critical",
+    "primer": "Britain absorbed princely states through policy, not always war. <b>Subsidiary Alliance</b> (introduced by Lord Wellesley, from 1798) forced Indian rulers to disband their own armies, accept a British Resident at court, and pay for stationed British troops — the ruler kept his throne but lost independent foreign policy and military power (e.g., Hyderabad 1798, Awadh 1801). The <b>Doctrine of Lapse</b> (formalized by Lord Dalhousie, 1848-56) declared that if a ruler died without a natural (biological) male heir, the state would be annexed directly by the Company, ignoring adopted heirs. States annexed this way include Satara (1848), Jhansi (1853), Nagpur (1854), and it was a major grievance behind 1857.",
+    "analogy": "Subsidiary Alliance is like a loan shark who lets you keep your house but makes you fire your own security guards and pay for his goons to guard it instead — you're still 'the owner' on paper but he calls the shots. Doctrine of Lapse is a landlord's sneaky lease clause: 'if you die without a biological son, I keep the house even if you legally adopted a son' — which is exactly why Rani Lakshmibai of Jhansi was so furious when Dalhousie refused to recognize her adopted son.",
+    "traps": [
+      "Subsidiary Alliance takes away military/foreign-policy control but keeps the ruler on the throne; Doctrine of Lapse removes the ruler entirely via annexation",
+      "Doctrine of Lapse rejected adopted heirs — students often forget 'adopted son' is the crux, not just 'no heir'",
+      "Wellesley = Subsidiary Alliance originator; Dalhousie = Doctrine of Lapse — don't swap these Governors-General"
+    ],
+    "formulae": ["Subsidiary Alliance introduced: 1798 by Lord Wellesley", "Doctrine of Lapse era: 1848-1856 under Lord Dalhousie", "Satara annexed: 1848", "Jhansi annexed: 1853", "Nagpur annexed: 1854"]
+  },
+  {
+    "unit": "GS1-HISTORY",
+    "subtopic": "Land Revenue Systems: Permanent Settlement, Ryotwari, Mahalwari",
+    "priority": "critical",
+    "primer": "The British experimented with three main revenue settlements. <b>Permanent Settlement</b> (Lord Cornwallis, 1793, Bengal/Bihar/Odisha) fixed revenue forever and made <b>Zamindars</b> hereditary landowners who collected rent from peasants and paid a fixed sum to the state — creating a rich landlord class disconnected from actual cultivation. <b>Ryotwari</b> (introduced by Thomas Munro/Alexander Read, mainly Madras and Bombay Presidencies) had the government settle revenue directly with the individual cultivator (<b>ryot</b>), with no zamindar middleman, but rates were revised periodically and often set too high. <b>Mahalwari</b> (mainly North-Western Provinces, Punjab, parts of Central India) assessed revenue village-by-village (<b>mahal</b> = estate/village unit), with the village headman or joint village body responsible for collecting and paying it.",
+    "analogy": "Permanent Settlement is like a landlord (British) renting an entire apartment building to one middleman (Zamindar) forever at a fixed rent, and that middleman then squeezes each tenant however he likes. Ryotwari cuts out the middleman entirely — the landlord deals with each tenant one-on-one, but keeps raising the rent at every renewal. Mahalwari is like a landlord dealing with a whole housing society (the village) as one unit, collecting from the society secretary who then splits the bill among residents.",
+    "traps": [
+      "Ryotwari = direct settlement with individual cultivator, no middleman, mainly Madras/Bombay — often confused with Mahalwari's village-based collective assessment",
+      "Mahalwari = village/estate (mahal) as the revenue unit, mainly North India/Punjab — not individual, not permanent",
+      "Only Permanent Settlement was 'permanent' (fixed forever); Ryotwari and Mahalwari rates were periodically revised, a common wrong-answer trap"
+    ],
+    "formulae": ["Permanent Settlement: 1793, Lord Cornwallis, Bengal/Bihar/Odisha", "Ryotwari: Madras (Munro) & Bombay (Elphinstone/Read), early 19th century", "Mahalwari: North-Western Provinces & Punjab, from 1822 (Holt Mackenzie) refined 1833"]
+  },
+  {
+    "unit": "GS1-HISTORY",
+    "subtopic": "Revolt of 1857: Causes, Centres, and Key Leaders",
+    "priority": "critical",
+    "primer": "The <b>Revolt of 1857</b> began as a sepoy mutiny at Meerut (10 May 1857) sparked by the greased cartridge issue (rumoured cow/pig fat), but had deeper causes: annexations (Doctrine of Lapse, especially Awadh 1856), heavy land revenue, destruction of traditional industry, and racial discrimination in the army. Key centres and leaders: Delhi (nominal figurehead Bahadur Shah II), Kanpur (Nana Sahib, aided by Tantia Tope), Jhansi (Rani Lakshmibai), Lucknow (Begum Hazrat Mahal), and Bareilly (Khan Bahadur Khan). It failed due to lack of unity, absence of a common leadership/ideology, superior British resources, and support from many princely states and Sikh/Gurkha soldiers to the British. It marked the end of Company rule — the <b>Government of India Act 1858</b> transferred power directly to the British Crown.",
+    "analogy": "Picture a workplace where staff have been quietly angry for years over unfair pay and pensions (annexations, revenue), and then one final petty rule — 'lick this envelope, it might have pork glue on it' — makes everyone walk out at once (greased cartridges). Different departments (Delhi, Kanpur, Jhansi, Lucknow) walk out under different local supervisors with no shared strike leader, so management (British) picks off each department one by one and then fires the old absentee owner (Company) and takes direct control itself (Crown rule, 1858).",
+    "traps": [
+      "Bahadur Shah II was a nominal/symbolic figurehead in Delhi, not an active commander — don't credit him with battlefield leadership",
+      "Nana Sahib (Kanpur) vs Rani Lakshmibai (Jhansi) vs Begum Hazrat Mahal (Lucknow) — match leader to correct city, a frequent MCQ mix-up",
+      "1857 ended Company rule, not British rule — power went to the Crown (1858), India remained colonised"
+    ],
+    "formulae": ["Meerut mutiny begins: 10 May 1857", "Government of India Act (Crown takes over): 1858", "Doctrine of Lapse annexation of Awadh: 1856 (immediate trigger)"]
+  },
+  {
+    "unit": "GS1-HISTORY",
+    "subtopic": "Tribal Revolts & Civil Rebellions: Indigo Revolt, Deccan Riots, Mappila Uprising",
+    "priority": "high",
+    "primer": "Beyond 1857, agrarian and tribal unrest ran through colonial rule. The <b>Indigo Revolt (1859-60, Bengal)</b> was by peasants forced to grow indigo at a loss under the exploitative <b>tinkathia</b> system, refusing to sow it further — supported by Bengali intellectuals and the play 'Nil Darpan'. The <b>Deccan Riots (1875, Maharashtra)</b> saw peasants attack moneylenders' account books and property (not the government) over crushing debt, leading to the Deccan Agriculturists' Relief Act (1879). The <b>Mappila Uprisings (Malabar, 19th-20th century, peaking 1921)</b> were by Muslim tenant cultivators against Hindu landlords and British authority over land tenure grievances, later overlapping with Khilafat agitation. Tribal revolts like the <b>Santhal Hul (1855-56)</b> and <b>Munda Ulgulan (1899-1900, led by Birsa Munda)</b> resisted loss of forest/land rights to outsiders (<b>dikus</b>) and colonial forest laws.",
+    "analogy": "Indigo Revolt is workers refusing to keep planting a cash crop their boss forces on them at a guaranteed loss — 'not one more field of blue.' Deccan Riots are angry debtors burning the loan shark's ledger book instead of robbing a bank, because the ledger — not the government — is the enemy. Mappila Uprising is tenant farmers revolting against their immediate landlords first, with anti-British anger layered on top later. Birsa Munda's Ulgulan ('the great tumult') is a tribe fighting to keep outsiders off their ancestral forest, the original 'not in my backyard.'",
+    "traps": [
+      "Deccan Riots targeted moneylenders' bonds/property, not British officials directly — students wrongly call it purely anti-British",
+      "Mappila Uprising had agrarian (landlord-tenant) roots before it merged with the Khilafat movement in 1921 — don't treat it as purely religious/Khilafat from the start",
+      "Santhal Hul (1855-56, Bihar/Jharkhand) predates and is distinct from Munda Ulgulan (1899-1900, led specifically by Birsa Munda) — different tribes, different decades"
+    ],
+    "formulae": ["Indigo Revolt: 1859-60, Bengal", "Deccan Riots: 1875; Deccan Agriculturists' Relief Act: 1879", "Santhal Hul: 1855-56", "Munda Ulgulan (Birsa Munda): 1899-1900", "Mappila Uprising peak: 1921"]
+  },
+  {
+    "unit": "GS1-HISTORY",
+    "subtopic": "Socio-Religious Reform Movements: Brahmo Samaj to South India/Maharashtra Reformers",
+    "priority": "high",
+    "primer": "19th-century reform movements combined religious rejuvenation with social change. <b>Raja Ram Mohan Roy</b> founded the <b>Brahmo Samaj (1828, Bengal)</b>, opposed sati and idol worship, and pushed Western/rational education. <b>Swami Dayananda Saraswati</b> founded the <b>Arya Samaj (1875, Bombay, later Punjab-centred)</b> under the slogan 'Back to the Vedas', opposing idol worship, caste rigidity, and child marriage while promoting Shuddhi (reconversion). In Maharashtra, <b>Jyotirao Phule</b> founded the <b>Satyashodhak Samaj (1873)</b> to fight caste oppression and Brahmin dominance, championing lower-caste and women's education; <b>M.G. Ranade</b> founded the <b>Prarthana Samaj (1867)</b>, a more moderate theistic reform society. In South India, <b>Sree Narayana Guru</b> (Kerala) led anti-caste reform with the motto 'One Caste, One Religion, One God for Mankind' and founded the SNDP Yogam, while <b>E.V. Ramasamy 'Periyar'</b> led the Self-Respect Movement against Brahmanical dominance in Tamil Nadu.",
+    "analogy": "Think of these as competing 'renovation contractors' hired to fix the same old house (Hindu society) but with different blueprints. Ram Mohan Roy's Brahmo Samaj wants a modern, minimalist redesign (no idols, rational faith). Dayananda's Arya Samaj wants to strip the house back to its original Vedic foundation and rebuild strictly from that blueprint. Phule and Periyar are less interested in the house's decor and more furious that the 'upper floor' tenants (upper castes) have locked the 'ground floor' tenants (lower castes) out of the elevator — their fight is social-structural, not theological.",
+    "traps": [
+      "Arya Samaj ('Back to the Vedas', anti-idolatry) vs Brahmo Samaj (Western-rationalist, also anti-idolatry) — both reject idol worship, easy to confuse; Arya Samaj is Vedic-revivalist, Brahmo Samaj is universalist/rationalist",
+      "Prarthana Samaj (Ranade, moderate theistic reform, Maharashtra) is often confused with Satyashodhak Samaj (Phule, radical anti-caste social reform, also Maharashtra) — different founders, different primary focus (theism vs caste)",
+      "Sree Narayana Guru (Kerala, SNDP Yogam) vs Periyar (Tamil Nadu, Self-Respect Movement) — both anti-caste South Indian reformers but different states and organisations"
+    ],
+    "formulae": ["Brahmo Samaj: 1828, Raja Ram Mohan Roy", "Arya Samaj: 1875, Swami Dayananda Saraswati", "Prarthana Samaj: 1867, M.G. Ranade/Atmaram Pandurang", "Satyashodhak Samaj: 1873, Jyotirao Phule", "SNDP Yogam: 1903, Sree Narayana Guru"]
+  },
+  {
+    "unit": "GS1-HISTORY",
+    "subtopic": "British Economic Policies: Drain of Wealth, Deindustrialisation, Commercialisation of Agriculture",
+    "priority": "high",
+    "primer": "British economic policy systematically transferred Indian wealth to Britain and reshaped the economy for colonial benefit. The <b>Drain of Wealth theory</b>, most famously argued by <b>Dadabhai Naoroji</b> (in 'Poverty and Un-British Rule in India'), held that a large part of India's wealth was extracted unilaterally to Britain via home charges, salaries/pensions of British officials, interest on debt, and profits — with no equivalent economic return. <b>Deindustrialisation</b> refers to the collapse of India's traditional handicraft/textile industries (like Bengal's muslin weavers) after cheap machine-made British goods flooded Indian markets while raw Indian cotton was exported to feed British mills, turning India from an exporter of finished goods into an exporter of raw material. <b>Commercialisation of agriculture</b> meant farmers were pushed (often forcibly) to grow cash crops (indigo, cotton, jute, opium) for export markets instead of food crops, which combined with heavy revenue demands drove <b>rural indebtedness</b> to moneylenders, since farmers had to borrow to pay fixed cash revenue even in bad harvest years.",
+    "analogy": "Drain of Wealth is like a landlord who charges rent but also secretly siphons money out of the tenant's own savings account every month and calls it 'management fee' — the tenant gets zero services back for it. Deindustrialisation is a village weaver being told 'stop making cloth, just sell us raw cotton cheap, and buy back our factory-made cloth at a markup' — the weaver loses his craft and becomes a captive customer. Commercialisation of agriculture is a farmer being told to grow flowers to sell abroad instead of the vegetables his family eats, and when the flower market crashes, he still owes rent in cash — so he borrows from the village loan shark and never gets out of debt.",
+    "traps": [
+      "Drain of Wealth is specifically about one-way, non-reciprocal extraction (no return service/goods) — don't confuse with normal trade profit",
+      "Deindustrialisation is about decline of traditional Indian handicrafts, distinct from (though related to) the later 'growth of modern industry' (Tata Steel 1907, Indian-owned cotton/jute mills) which was a partial, limited counter-trend",
+      "Commercialisation of agriculture caused cash-crop dependency and famine vulnerability — it is often wrongly described as pure 'modernisation/progress' rather than an exploitative shift"
+    ],
+    "formulae": ["Dadabhai Naoroji: 'Poverty and Un-British Rule in India' (Drain of Wealth theory)", "Tata Iron & Steel Company founded: 1907 (symbol of nascent modern Indian industry)"]
+  },
+  {
+    "unit": "GS1-HISTORY",
+    "subtopic": "Early (Moderate) vs Militant (Extremist) Nationalism, INC Formation, Swadeshi",
+    "priority": "critical",
+    "primer": "The <b>Indian National Congress</b> was founded in 1885 (W.C. Bonnerjee as first president, with A.O. Hume playing a key organising role). Its first phase (1885-1905), the <b>Moderates</b> (Dadabhai Naoroji, Gopal Krishna Gokhale, Pherozeshah Mehta), believed in constitutional methods — petitions, resolutions, and 'prayer' to British sense of justice, seeking gradual reform within the empire. The <b>Partition of Bengal (1905)</b> by Lord Curzon, aimed at weakening nationalist unity, triggered the <b>Swadeshi Movement</b> and gave rise to <b>Extremists/Militant nationalists</b> (Bal Gangadhar Tilak, Bipin Chandra Pal, Lala Lajpat Rai — the 'Lal-Bal-Pal' trio, plus Aurobindo Ghosh) who demanded <b>Swaraj</b> (self-rule) and used boycott of British goods, promotion of indigenous industry, and national education as direct-action tools rather than pleading. The <b>Surat Split (1907)</b> formally divided Congress into Moderate and Extremist factions.",
+    "analogy": "The Moderates are like employees who believe the best way to get a raise is writing polite memos to the boss and trusting he'll eventually be fair — 'prayer, not pressure.' The Extremists are the employees who, after watching those memos get ignored for 20 years, decide to organise a boycott of the company canteen (Swadeshi) and demand a say in running the company itself (Swaraj), not just better pay. Curzon slicing Bengal in two (1905) to 'divide and rule' the workforce backfires spectacularly — it's the spark that turns quiet memo-writers into a much louder, angrier movement.",
+    "traps": [
+      "INC founded 1885 — first president W.C. Bonnerjee, not Dadabhai Naoroji (he was 2nd president/later President in 1886 and again 1893)",
+      "'Lal-Bal-Pal' = Lala Lajpat Rai, Bal Gangadhar Tilak, Bipin Chandra Pal — a classic acronym trap if letters get reassigned to wrong names",
+      "Swadeshi Movement (1905, boycott + indigenous industry promotion, reaction to Bengal Partition) is distinct from later Non-Cooperation (1920) and Civil Disobedience (1930) — don't merge these under Gandhi's later movements"
+    ],
+    "formulae": ["INC founded: 1885, 1st President W.C. Bonnerjee", "Partition of Bengal: 1905 by Lord Curzon; annulled 1911", "Surat Split: 1907", "Swadeshi Movement: 1905 onward"]
+  },
+  {
+    "unit": "GS1-HISTORY",
+    "subtopic": "1909-1935 Constitutional Reforms: Minto-Morley, Montford, Government of India Act 1935",
+    "priority": "critical",
+    "primer": "British constitutional concessions arrived in stages. The <b>Indian Councils Act 1909 (Minto-Morley Reforms)</b> introduced <b>separate electorates for Muslims</b> — the first formal communal representation, a key step toward later communal politics. The <b>Government of India Act 1919 (Montagu-Chelmsford/Montford Reforms)</b> introduced <b>dyarchy</b> in provinces — subjects were split into 'transferred' (education, health — run by Indian ministers) and 'reserved' (finance, police — controlled by British-appointed Governor), a half-measure of self-government. The <b>Government of India Act 1935</b> proposed an <b>All-India Federation</b> (never fully implemented because princely states didn't join enough) and introduced <b>provincial autonomy</b>, abolishing dyarchy at the provincial level and expanding the franchise significantly — this Act became the structural template for independent India's later Constitution.",
+    "analogy": "1909 is the British handing out separate seating sections at a shared dinner table based on religion for the first time — small gesture, huge long-term consequence. 1919's dyarchy is like letting your teenager manage the household's grocery and cleaning budget (transferred subjects) while you, the parent, keep total control of the car keys and the bank vault (reserved subjects) — partial trust, not real independence. 1935 is finally handing the teenager the keys to run the whole house day-to-day (provincial autonomy) while still insisting the whole extended family (princely states) must formally join a joint family trust (the Federation) before that trust can start — and enough relatives refuse, so the federation part never actually launches.",
+    "traps": [
+      "1909 Act introduced separate electorates for Muslims specifically — not dyarchy (that's 1919) and not provincial autonomy (that's 1935)",
+      "Dyarchy = 1919 Act, provincial level only; it was abolished (replaced by provincial autonomy) in the 1935 Act — students often think dyarchy continued till independence",
+      "The All-India Federation proposed in the 1935 Act never actually came into force due to insufficient princely state accession — only the provincial autonomy part of 1935 was implemented"
+    ],
+    "formulae": ["Indian Councils Act (Minto-Morley): 1909 — separate electorates for Muslims", "Government of India Act (Montford): 1919 — dyarchy in provinces", "Government of India Act 1935 — provincial autonomy + proposed (unimplemented) All-India Federation"]
+  },
+  {
+    "unit": "GS1-HISTORY",
+    "subtopic": "Gandhian Mass Mobilisation, INA, Naval Mutiny 1946, and Partition",
+    "priority": "critical",
+    "primer": "Gandhi's method was built on <b>Satyagraha</b> (truth-force/nonviolent resistance) tested first at Champaran (1917, indigo farmers), Kheda (1918), and Ahmedabad mill strike (1918), then scaled nationally through the <b>Non-Cooperation Movement (1920-22)</b> (withdrawn after the Chauri Chaura violence), the <b>Civil Disobedience Movement (1930-34)</b> (launched via the Dandi Salt March, breaking the salt law as a mass-participation symbol), and the <b>Quit India Movement (1942)</b> (the most spontaneous/violent-suppressed of the three, launched after the failure of the Cripps Mission). Parallel to Gandhi, <b>Subhas Chandra Bose</b> led the <b>Indian National Army (INA/Azad Hind Fauj)</b> with Japanese support during WWII to fight for independence militarily, and the <b>Royal Indian Navy Mutiny (February 1946, Bombay)</b> by naval ratings (sparked by racial discrimination and poor conditions, and inspired by INA trials) further signalled that British control over Indian armed forces was collapsing. These pressures, combined with the Muslim League's demand for a separate state, culminated in <b>Partition and Independence in August 1947</b>.",
+    "analogy": "Gandhi's three big movements are like three escalating strikes at the same company: Non-Cooperation (1920) is 'we all stop working together' (called off when a violent incident at Chauri Chaura embarrasses the strike organisers); Civil Disobedience (1930) is 'we'll publicly break one specific unfair company rule together' (the salt tax, symbolised by walking to Dandi to make salt yourself); Quit India (1942) is 'we're done negotiating, leave now' — the angriest, most chaotic strike of the three. Meanwhile Bose is the ex-employee who leaves to raise his own private army abroad (INA) to fight the company directly, and the Naval Mutiny of 1946 is the final sign that even the company's own security guards (armed forces) are refusing orders — after that, the company (British) knows it has to leave.",
+    "traps": [
+      "Non-Cooperation (1920, withdrawn after Chauri Chaura 1922) vs Civil Disobedience (1930, launched via Dandi Salt March) vs Quit India (1942, post-Cripps Mission failure) — match each movement to its correct trigger and closing event",
+      "INA was led by Subhas Chandra Bose with Japanese backing during WWII; it is separate from the RIN (Royal Indian Navy) Mutiny of Feb 1946, though the INA trials helped inspire the mutiny's mood",
+      "Champaran (1917, indigo) and Kheda (1918, revenue) were Gandhi's first Indian Satyagrahas but were localised, pre-dating his national leadership role which begins visibly with Non-Cooperation (1920)"
+    ],
+    "formulae": ["Champaran Satyagraha: 1917", "Non-Cooperation Movement: 1920-22 (Chauri Chaura incident: Feb 1922)", "Dandi Salt March / Civil Disobedience: 1930", "Quit India Movement: 1942 (after Cripps Mission failure)", "INA formed under Bose: 1943 (Azad Hind Fauj)", "Royal Indian Navy Mutiny: February 1946", "Indian Independence & Partition: 15 August 1947"]
+  }
+]

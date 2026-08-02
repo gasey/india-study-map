@@ -2,7 +2,6 @@ import type { BankQuestion, QuestionBank } from './types';
 import { polityCodexBank } from './polity-codex';
 import { mpscPapers, mpscQuestions } from './mpsc-old-questions';
 import { mpscStateTaxOfficer } from './mpsc-state-tax-officer';
-import { sciencePrimers } from './science-guide';
 
 // Register banks here — same pattern as chapters.
 // Future: upsc-prelims-pyq.ts, current-affairs-2026.ts …
@@ -29,5 +28,6 @@ export function getBank(id: string): QuestionBank | undefined {
   return banks.find((b) => b.id === id);
 }
 
-// Science education reference — 75 concept primers covering all major science topics
-export { sciencePrimers } from './science-guide';
+// All concept primers (Science, History, Polity, Economy, Geography, English, etc.)
+// merged from every primers-*.json — see all-primers.ts for the full unit list.
+export { allPrimers, PRIMER_CATEGORIES, UNIT_LABELS, type Primer } from './all-primers';

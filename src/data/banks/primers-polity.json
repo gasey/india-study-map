@@ -1,0 +1,175 @@
+[
+  {
+    "unit": "GS2-POLITY",
+    "subtopic": "Fundamental Rights vs Directive Principles",
+    "priority": "critical",
+    "primer": "The Constitution has two related but very different lists. <b>Fundamental Rights</b> (Part III, Articles 12-35) are things the citizen can demand from the State and enforce directly in court — if violated, you can walk into the Supreme Court or High Court under Article 32 or 226. <b>Directive Principles of State Policy</b> (Part IV, Articles 36-51) are goals the State should aim for while making policy (like a welfare state, uniform civil code, village panchayats) but you cannot sue the government for not implementing them — they are non-justiciable. Fundamental Rights are mostly negative (State shall not do X to you); DPSPs are mostly positive (State shall try to do Y for society).",
+    "analogy": "Think of Fundamental Rights as a <b>restaurant bill you can legally demand a refund on</b> if the food was wrong — you have a receipt (the Constitution) and a court to enforce it. Directive Principles are like a <b>New Year's resolution list pinned on the government's fridge</b> — good intentions it is supposed to work towards, but no one can drag it to court just because it skipped gym day.",
+    "traps": [
+      "Assuming DPSPs are enforceable in court like Fundamental Rights — they are explicitly non-justiciable (Article 37)",
+      "Forgetting Article 31C gives certain DPSPs (Art 39b/c) primacy over Fundamental Rights under Articles 14/19 if a law is for implementing them",
+      "Confusing 'Fundamental Duties' (Part IVA, Art 51A, added by 42nd Amendment 1976) with Directive Principles (Part IV) — Duties are for citizens, Principles are for the State"
+    ],
+    "formulae": [
+      "Fundamental Rights: Part III, Articles 12-35",
+      "Directive Principles: Part IV, Articles 36-51",
+      "Fundamental Duties: Part IVA, Article 51A (added by 42nd Amendment, 1976; originally 10 duties, 11th added by 86th Amendment 2002)",
+      "Right to Constitutional Remedies: Article 32 (SC), Article 226 (HC)"
+    ]
+  },
+  {
+    "unit": "GS2-POLITY",
+    "subtopic": "How a Bill becomes an Act",
+    "priority": "critical",
+    "primer": "An <b>Ordinary Bill</b> can start in either House (Lok Sabha or Rajya Sabha) and must pass through First Reading (introduction), Second Reading (detailed discussion, often sent to a Select/Standing Committee), and Third Reading (final vote) in one House, then repeat in the other House, before going to the President for assent. A <b>Money Bill</b> (Article 110) can only be introduced in the Lok Sabha, only on the recommendation of the President, and the Rajya Sabha can only delay it by 14 days — it cannot reject or amend it. The President can give assent, withhold assent, or (for non-Money Bills) return it once for reconsideration — but must sign if Parliament passes it again.",
+    "analogy": "Picture a bill as a <b>food order ticket passed between two kitchens</b> (Lok Sabha and Rajya Sabha) — both chefs must approve the same final dish before it goes to the restaurant owner (President) to be served. But a 'Money Bill' is like an order that can <b>only be placed at the main kitchen counter (Lok Sabha)</b> — the second kitchen (Rajya Sabha) can only glance at it and send suggestions within 14 days; it cannot refuse to serve it.",
+    "traps": [
+      "Thinking Rajya Sabha can reject a Money Bill — it can only delay 14 days and its recommendations are optional for Lok Sabha to accept",
+      "Confusing Money Bill (Art 110, narrow definition — only taxation/borrowing/Consolidated Fund matters) with Financial Bill (Art 117, broader, can be introduced with more conditions)",
+      "Believing the President must act only within a time limit on an ordinary bill sent for reconsideration — no time limit is specified, but once repassed, assent is mandatory (a 'pocket veto' loophole exists due to this silence)"
+    ],
+    "formulae": [
+      "Money Bill: Article 110; Financial Bill: Article 117",
+      "Rajya Sabha delay limit on Money Bill: 14 days",
+      "President's assent options: Article 111 (assent / withhold / return once, except Money Bills)"
+    ]
+  },
+  {
+    "unit": "GS2-POLITY",
+    "subtopic": "Panchayati Raj — three-tier structure (73rd Amendment)",
+    "priority": "critical",
+    "primer": "The <b>73rd Constitutional Amendment (1992)</b> gave constitutional status to rural local self-government via Part IX (Articles 243 to 243-O) and the Eleventh Schedule (29 subjects). It created a mandatory <b>three-tier structure</b>: Gram Panchayat (village level), Panchayat Samiti (block/intermediate level), and Zila Parishad (district level) — though states with population under 20 lakh may skip the intermediate tier. Elections are held every 5 years by State Election Commissions, with reservation for SC/ST (proportional to population) and one-third seats for women, including for chairperson posts.",
+    "analogy": "Think of the three tiers as a <b>school's three levels of student council</b> — the Class Monitor (Gram Panchayat) handles the classroom, the House Captain (Panchayat Samiti) handles the block of classes, and the Head Boy/Girl (Zila Parishad) handles the whole school (district). Small schools (states under 20 lakh population) skip the middle 'House Captain' layer and go straight from classroom to Head Boy/Girl.",
+    "traps": [
+      "Confusing 73rd Amendment (rural Panchayats) with 74th Amendment (urban Municipalities, Part IXA, Articles 243P-243ZG, Twelfth Schedule)",
+      "Assuming all three tiers are mandatory everywhere — the intermediate tier (Panchayat Samiti) is optional for small states",
+      "Mixing up the Eleventh Schedule (Panchayats, 29 subjects) with the Twelfth Schedule (Municipalities, 18 subjects)"
+    ],
+    "formulae": [
+      "73rd Amendment: 1992, Part IX, Articles 243-243O, Eleventh Schedule (29 subjects)",
+      "74th Amendment: 1992, Part IXA, Articles 243P-243ZG, Twelfth Schedule (18 subjects)",
+      "Tenure of Panchayats: 5 years; women's reservation: not less than 1/3rd of seats"
+    ]
+  },
+  {
+    "unit": "GS2-POLITY",
+    "subtopic": "Indian Federalism and Centre-State Relations",
+    "priority": "high",
+    "primer": "India follows a <b>quasi-federal</b> or 'federal with unitary bias' system — federal in form (division of powers between Centre and States via Seventh Schedule) but unitary in spirit (single Constitution, single citizenship, Centre can reorganize states, emergency provisions can convert it to fully unitary). Legislative relations are governed by three lists: <b>Union List</b> (Centre-only, e.g. defence, foreign affairs), <b>State List</b> (States-only, e.g. police, agriculture), and <b>Concurrent List</b> (both can legislate, Centre's law prevails in conflict per Article 254). Administrative and financial relations (Articles 256-293) give the Centre supervisory powers, and Finance Commissions decide revenue sharing.",
+    "analogy": "Picture India as a <b>big joint family business with one head office (Centre) and several branch offices (States)</b>. Each branch has its own local decisions to make (State List — like store hours), some decisions only head office can make (Union List — like company-wide policy), and some are shared but head office's word is final if there's a dispute (Concurrent List). In an emergency (like a fire), head office can take over the entire branch's operations completely.",
+    "traps": [
+      "Calling India a purely federal state — it is quasi-federal; Ambedkar himself called it 'federal in form, unitary in spirit'",
+      "Forgetting that in the Concurrent List, Central law prevails over State law in case of repugnancy (Article 254), unless the State law received Presidential assent",
+      "Confusing the 7th Schedule's three lists count — Union List (100 subjects, originally 97), State List (61, originally 66), Concurrent List (52, originally 47) after subsequent amendments"
+    ],
+    "formulae": [
+      "Seventh Schedule: Union List, State List, Concurrent List (Article 246)",
+      "Repugnancy rule: Article 254",
+      "Centre-State admin relations: Articles 256-263; Finance Commission: Article 280"
+    ]
+  },
+  {
+    "unit": "GS2-POLITY",
+    "subtopic": "Role of the Governor",
+    "priority": "high",
+    "primer": "The <b>Governor</b> (Articles 153-167) is the constitutional head of a State, appointed by the President and holding office at the President's pleasure (typically 5 years, but can be removed anytime). The Governor acts on the aid and advice of the Council of Ministers headed by the Chief Minister for most functions, but holds <b>discretionary powers</b> in specific situations: reserving a bill for the President's consideration (Article 200), recommending President's Rule under Article 356 if constitutional machinery fails, and deciding who forms government in a hung assembly. The Governor is often called the Centre's 'agent' in the State, which fuels Centre-State friction, especially when the Governor's party differs from the ruling State party.",
+    "analogy": "Think of the Governor as a <b>strict school principal appointed by the school board (President/Centre)</b> who normally lets the class monitor (Chief Minister) run daily activities, but keeps a special key in the drawer (discretionary powers) to lock the classroom (President's Rule) if things go completely out of control, or to send a note up to the board (reserving a bill) instead of signing it themself.",
+    "traps": [
+      "Thinking the Governor is directly elected — the Governor is appointed by the President, not elected",
+      "Confusing Governor's discretionary powers with the President's — Governor cannot suspend the State Constitution but effectively brings the State under President's Rule via Article 356 recommendation",
+      "Assuming Governor's term is a fixed guarantee — the Constitution says 5 years 'normally' but the real rule is 'during the pleasure of the President' (Article 156), so removal anytime is possible"
+    ],
+    "formulae": [
+      "Governor's provisions: Articles 153-167",
+      "Reserving a bill for President: Article 200",
+      "President's Rule (State emergency): Article 356",
+      "Normal term: 5 years, but serves 'during the pleasure of the President' (Art 156)"
+    ]
+  },
+  {
+    "unit": "GS2-POLITY",
+    "subtopic": "Union Government — President, Parliament, Cabinet",
+    "priority": "high",
+    "primer": "India has a <b>parliamentary system</b> with the President (Article 52) as nominal/titular head (elected indirectly by an Electoral College of MPs and MLAs) and real executive power resting with the <b>Council of Ministers headed by the Prime Minister</b> (Article 74), who must enjoy majority support in the Lok Sabha. Parliament is bicameral: <b>Lok Sabha</b> (House of the People, directly elected, max 552, 5-year term, can be dissolved) and <b>Rajya Sabha</b> (Council of States, represents states, max 250 mostly elected by State Assembly MLAs, permanent body — one-third retire every 2 years). The Cabinet is the inner, smaller decision-making core of the larger Council of Ministers.",
+    "analogy": "Think of the President as the <b>Chairman of the Board on paper</b>, while the Prime Minister is the <b>actual CEO running daily operations</b> with a team of department heads (Cabinet). Lok Sabha is like a <b>student body elected fresh every year</b> that can be dissolved early, while Rajya Sabha is like a <b>rotating panel of senior alumni</b> that never fully dissolves — only a third of its members change every two years, like graduating batches.",
+    "traps": [
+      "Thinking the President has real discretionary executive power in normal times — must act on aid/advice of Council of Ministers per Article 74(1)",
+      "Confusing Rajya Sabha's 'permanent body, never dissolved' nature with Lok Sabha's fixed 5-year, dissolvable nature",
+      "Forgetting Anglo-Indian nomination to Lok Sabha was removed by the 104th Amendment (2019) — no more nominated seats now"
+    ],
+    "formulae": [
+      "President: Article 52; PM & Council of Ministers: Article 74",
+      "Lok Sabha: max 552 members, 5-year term (Article 83)",
+      "Rajya Sabha: max 250 members, permanent body, 1/3rd retire every 2 years (Article 83)"
+    ]
+  },
+  {
+    "unit": "GS2-POLITY",
+    "subtopic": "Supreme Court and Judicial Review",
+    "priority": "high",
+    "primer": "The <b>Supreme Court</b> (Articles 124-147) is the apex court and guardian of the Constitution, with original, appellate, and advisory jurisdiction. <b>Judicial Review</b> is the power of courts to examine whether laws and executive actions are consistent with the Constitution and strike them down if not — it flows from Articles 13, 32, and 226, not from one single explicit article naming it. The landmark <b>Basic Structure Doctrine</b> (Kesavananda Bharati case, 1973) holds that Parliament can amend the Constitution (Article 368) but cannot alter its 'basic structure' (like federalism, secularism, judicial review itself, separation of powers).",
+    "analogy": "Think of the Constitution as the <b>rulebook of a board game</b>, and the Supreme Court as the <b>umpire who can disqualify any move (law) that breaks the rulebook</b>. The Basic Structure Doctrine is like saying players (Parliament) can add house rules to the game (amend the Constitution) but can never rewrite the core objective of the game itself (basic structure) — you can tweak scoring, but you can't turn chess into checkers.",
+    "traps": [
+      "Believing 'Judicial Review' is explicitly named in one Article — it is inferred from Articles 13, 32, 226, and 136 collectively, unlike the US where it's a doctrine from Marbury v. Madison similarly implied",
+      "Confusing Basic Structure Doctrine (Kesavananda Bharati, 1973) with the earlier Golaknath case (1967) which first held Fundamental Rights could not be amended (a precursor idea, later refined)",
+      "Assuming the Supreme Court's advisory jurisdiction (Article 143) opinions are binding — Presidential references under Art 143 give advisory, non-binding opinions"
+    ],
+    "formulae": [
+      "Supreme Court: Articles 124-147",
+      "Judicial Review basis: Articles 13, 32, 226",
+      "Constitutional Amendment power: Article 368",
+      "Basic Structure Doctrine: Kesavananda Bharati v. State of Kerala, 1973"
+    ]
+  },
+  {
+    "unit": "GS2-POLITY",
+    "subtopic": "Roots of Modern Indian Political Thought — Moderates vs Extremists vs Radicals",
+    "priority": "high",
+    "primer": "Indian nationalist thought evolved in roughly three waves. <b>Moderates</b> (Naoroji, Gokhale, early Congress till ~1905) believed in constitutional methods — petitions, speeches, and working within British institutions; Naoroji's 'Drain Theory' argued Britain was draining India's wealth. <b>Extremists/Assertive nationalists</b> (Tilak, Aurobindo, Lajpat Rai — the 'Lal-Bal-Pal' trio, post-1905 Swadeshi era) demanded Swaraj (self-rule) and used boycott, passive resistance, and mass mobilization — Tilak's famous line was 'Swaraj is my birthright and I shall have it.' <b>Gandhi</b> later fused mass mobilization with non-violence (Satyagraha), while <b>Ambedkar</b> focused on annihilating caste and securing constitutional safeguards for depressed classes, and <b>M.N. Roy</b> pushed a Marxist/radical humanist critique of both colonialism and Congress's approach.",
+    "analogy": "Picture the freedom movement like <b>three generations trying to get the same strict landlord (British Raj) to fix the building</b>. The grandparents (Moderates like Naoroji, Gokhale) politely wrote letters and attended meetings. The parents' generation (Extremists like Tilak, Aurobindo) banged on the door and organised all tenants to refuse rent (boycott). Then a new tenant leader (Gandhi) showed everyone how to block the landlord's gate peacefully without ever throwing a punch (Satyagraha), while Ambedkar made sure the building's own internal rules stopped discriminating between tenants (caste) regardless of who owned the building.",
+    "traps": [
+      "Mixing up Naoroji's 'Drain Theory' with Dadabhai Naoroji being called 'Grand Old Man of India' — both true, but Drain Theory is the specific economic critique to remember",
+      "Confusing Tilak's Swaraj slogan era (post-1905, Extremist phase) with Gandhi's later Swaraj usage during Non-Cooperation (1920s) — same word, different movements/methods",
+      "Treating Ambedkar and Gandhi as always aligned — they clashed sharply over separate electorates for Depressed Classes, resolved by the Poona Pact (1932)"
+    ],
+    "formulae": [
+      "Moderate phase: 1885-1905; Extremist phase: 1905-1917 (post Bengal partition/Swadeshi)",
+      "Poona Pact: 1932 (Gandhi-Ambedkar, replaced separate electorates with reserved seats)",
+      "Tilak's slogan: 'Swaraj is my birthright and I shall have it'"
+    ]
+  },
+  {
+    "unit": "GS2-POLITY",
+    "subtopic": "Ambedkar, M.N. Roy and Constitutional Safeguards",
+    "priority": "medium",
+    "primer": "<b>B.R. Ambedkar</b> chaired the Constitution's Drafting Committee and is called the 'Father of the Indian Constitution.' His political philosophy centred on annihilating the caste system (as in his work 'Annihilation of Caste'), and he insisted on strong constitutional safeguards for Scheduled Castes/Tribes — reserved seats, reservations in jobs/education, and Fundamental Rights against untouchability (Article 17). <b>M.N. Roy</b>, originally a communist revolutionary, later founded the 'Radical Humanist' movement and drafted a 'Constitution of Free India' proposing a decentralised, participatory democracy — he was critical of both parliamentary democracy's elite capture and Soviet-style communism.",
+    "analogy": "Think of Ambedkar as the <b>architect who didn't just design the house (Constitution) but insisted on building a ramp and reserved rooms</b> so that historically locked-out family members (SC/ST, women) could actually enter and live in it, not just admire it from outside. M.N. Roy is like the <b>guest who attended the house-planning meeting but kept saying 'this blueprint still lets a few people run the whole house — let's give every room's key to its own residents instead'</b> — pushing for more decentralised, direct participation than either the mainstream Congress or the Communists offered.",
+    "traps": [
+      "Reducing Ambedkar's role to only 'Dalit leader' — he was the principal architect of the entire Constitution's structure, not just the rights chapters",
+      "Confusing M.N. Roy (Radical Humanism, ex-communist) with Ram Manohar Lohia (Socialist) or Jayaprakash Narayan (Sarvodaya) — all critics of Congress but from different ideological roots",
+      "Forgetting Article 17 (abolition of untouchability) is a Fundamental Right, not a Directive Principle — it is directly enforceable"
+    ],
+    "formulae": [
+      "Article 17: Abolition of Untouchability (Fundamental Right)",
+      "Ambedkar: Chairman, Drafting Committee of the Constituent Assembly",
+      "Key work: 'Annihilation of Caste' (1936)"
+    ]
+  },
+  {
+    "unit": "GS2-POLITY",
+    "subtopic": "Communalism, Regionalism and National Integration",
+    "priority": "medium",
+    "primer": "<b>Communalism</b> is the belief that people of one religious community share political/economic interests opposed to other communities — it turns religious identity into a political weapon. <b>Regionalism/linguism</b> is excessive attachment to one's own region or language, sometimes demanding separate statehood or special treatment (e.g. the linguistic reorganisation of states after the States Reorganisation Act, 1956, following the Justice Fazl Ali Commission). <b>National integration</b> refers to state efforts (National Integration Council, anti-defection law, uniform civil services, Sardar Patel's princely-state integration) to bind diverse religious, linguistic, and regional identities into one political community despite this diversity.",
+    "analogy": "Think of India as a <b>big shared apartment building with tenants from many different hometowns and religions</b>. Communalism is when a tenant says 'only people from my religion deserve the best flats.' Regionalism is when a tenant says 'my hometown language/culture matters more than the building's shared rules.' National integration is the <b>building committee's ongoing job of making sure everyone still feels like one building</b>, not warring floors — through shared facilities, fair rules, and constant dialogue (National Integration Council meetings).",
+    "traps": [
+      "Treating regionalism as always negative — demand for separate statehood (e.g. linguistic states) is a legitimate constitutional process (States Reorganisation Act, 1956), distinct from secessionist regionalism",
+      "Confusing States Reorganisation Commission (Fazl Ali Commission, 1953) recommendations with the earlier Dhar Commission (1948) and JVP Committee (1948-49) which initially opposed purely linguistic reorganisation",
+      "Assuming secularism in India means separation of religion from state (Western/French model) — Indian secularism means equal respect/distance to all religions (Sarva Dharma Sambhava), a key functioning-of-democracy nuance"
+    ],
+    "formulae": [
+      "States Reorganisation Act: 1956 (based on Fazl Ali Commission, 1953)",
+      "National Integration Council: established 1961",
+      "Sardar Patel: integration of over 560 princely states (1947-49)"
+    ]
+  }
+]

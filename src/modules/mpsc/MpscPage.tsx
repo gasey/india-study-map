@@ -10,17 +10,22 @@ import {
 } from './useMpscData';
 import { TestRunner } from './TestRunner';
 import { QuestionsTable } from './QuestionsTable';
-import { StateTaxOfficerEnhanced } from './StateTaxOfficerEnhanced';
 
 // ============================================
-// MPSC MODULE — old questions + state tax officer prep.
-// Tabs: Library (browse real papers, grouped by exam sitting so Paper-I/II compare),
-// Browser (full-page searchable table), Practice (filtered drill), History (test scores),
-// State Tax Officer (comprehensive Group B Gazetted prep: primers, questions, mocks).
+// MPSC OLD QUESTIONS — module shell.
+// Four flows: Library (browse real papers, grouped by exam sitting so
+// Paper-I/II compare side by side), Browser (full-page searchable table),
+// Practice (filtered drill), History (past test scores).
 // A launched test takes over the whole panel.
+//
+// The State Tax Officer prep set (different bank, different data) lives at
+// its own route (/state-tax-officer, see StateTaxOfficerPage.tsx) rather
+// than as a tab here — it was briefly a tab, but that wired it to this
+// module's data via useMpscData(), which reads a different bank entirely
+// and silently showed 0 questions.
 // ============================================
 
-type Tab = 'library' | 'browser' | 'practice' | 'history' | 'state-tax-officer';
+type Tab = 'library' | 'browser' | 'practice' | 'history';
 
 interface ActiveTest {
   title: string;
@@ -126,7 +131,7 @@ export function MpscPage() {
     <Shell theme={theme} toggleTheme={toggleTheme} hasDesktopChrome={hasDesktopChrome}>
       {/* Tabs */}
       <div className="shrink-0 flex items-center gap-1 px-5 pt-3 border-b overflow-x-auto" style={{ borderColor: 'var(--border)' }}>
-        {(['library', 'browser', 'practice', 'history', 'state-tax-officer'] as Tab[]).map((t) => (
+        {(['library', 'browser', 'practice', 'history'] as Tab[]).map((t) => (
           <button
             key={t}
             onClick={() => setTab(t)}
@@ -143,9 +148,7 @@ export function MpscPage() {
                 ? '🔍 Browse'
                 : t === 'practice'
                   ? '✍️ Practice'
-                  : t === 'history'
-                    ? '📈 History'
-                    : '🎯 State Tax Officer'}
+                  : '📈 History'}
           </button>
         ))}
         <span className="ml-auto text-xs self-center whitespace-nowrap" style={{ color: 'var(--text-secondary)' }}>
@@ -154,7 +157,7 @@ export function MpscPage() {
       </div>
 
       {/* Filters (library + browser + practice) */}
-      {tab !== 'history' && tab !== 'state-tax-officer' && (
+      {tab !== 'history' && (
         <div className="shrink-0 flex flex-wrap items-center gap-2 px-5 py-3 border-b" style={{ borderColor: 'var(--border)' }}>
           <select value={filters.examType} onChange={(e) => set({ examType: e.target.value })} className={selectCls} style={selectStyle}>
             <option key="all" value={ALL}>All exam types</option>
@@ -215,9 +218,6 @@ export function MpscPage() {
               </div>
             </div>
           </>
-        )}
-        {tab === 'state-tax-officer' && (
-          <StateTaxOfficerEnhanced allQuestions={data.questions} />
         )}
       </main>
     </Shell>

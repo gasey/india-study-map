@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import { useApp } from '@/lib/store';
 import { ModuleSwitcher } from '@/modules/ModuleSwitcher';
 import { useHasDesktopChrome } from '@/lib/useShellChrome';
@@ -15,6 +15,7 @@ import {
 import { TestRunner } from './TestRunner';
 import { QuestionsTable } from './QuestionsTable';
 import { AdminPanel } from './AdminPanel';
+import { HomeBackLink } from '@/components/shell/HomeBackLink';
 
 // ============================================
 // MPSC OLD QUESTIONS — module shell.
@@ -56,7 +57,9 @@ export function MpscPage() {
   const data = useMpscData();
   const hasDesktopChrome = useHasDesktopChrome('home');
 
-  const [tab, setTab] = useState<Tab>('library');
+  const [searchParams] = useSearchParams();
+  const initialTab = searchParams.get('tab');
+  const [tab, setTab] = useState<Tab>((initialTab === 'admin' ? 'admin' : 'library') as Tab);
   const [filters, setFilters] = useState<MpscFilters>(emptyFilters);
   const [activeTest, setActiveTest] = useState<ActiveTest | null>(null);
 
@@ -383,6 +386,7 @@ function Shell({ theme, toggleTheme, hasDesktopChrome, children }: {
         style={{ borderColor: 'var(--border)', background: 'var(--bg-panel)' }}
       >
         <div className="flex items-center gap-3 min-w-0">
+          <HomeBackLink hasDesktopChrome={hasDesktopChrome} />
           <span className={hasDesktopChrome ? 'lg:hidden' : ''}><ModuleSwitcher /></span>
           <span className="label-eyebrow hidden md:inline">MPSC Old Questions</span>
         </div>

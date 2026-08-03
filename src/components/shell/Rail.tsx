@@ -3,6 +3,7 @@ import { useApp } from '@/lib/store';
 import { IC, IconSvg } from './icons';
 import { ShellSwitcher } from './ShellSwitcher';
 import { ModuleGroupMenu } from './ModuleGroupMenu';
+import { AdminNavMenu } from './AdminNavMenu';
 
 function RailLink({ to, icon, label, active }: { to: string; icon: string; label: string; active: boolean }) {
   return (
@@ -40,6 +41,7 @@ export function Rail() {
       <ModuleGroupMenu category="Study" label="Study" placement="rail" />
       <RailLink to="/question-bank" icon={IC.qbank} label="Q. Bank" active={loc.pathname === '/question-bank'} />
       <ModuleGroupMenu category="Practice" label="Practice" placement="rail" />
+      <AdminNavMenu placement="rail" />
 
       <div className="flex-1" />
 

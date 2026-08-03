@@ -4,6 +4,7 @@ import { mindmaps } from '@/data/mindmaps';
 import type { MindNode } from '@/data/mindmaps/types';
 import { useApp } from '@/lib/store';
 import { ModuleSwitcher } from '@/modules/ModuleSwitcher';
+import { HomeBackLink } from '@/components/shell/HomeBackLink';
 import { useHasDesktopChrome } from '@/lib/useShellChrome';
 
 // ============================================
@@ -103,6 +104,7 @@ export function MindMapsPage() {
     <div className="h-full flex flex-col" style={{ background: 'var(--bg-app)', color: 'var(--text-primary)' }}>
       <header className="safe-top h-12 shrink-0 border-b flex items-center justify-between px-5 gap-3" style={{ borderColor: 'var(--border)', background: 'var(--bg-panel)' }}>
         <div className="flex items-center gap-3 min-w-0">
+          <HomeBackLink hasDesktopChrome={hasDesktopChrome} />
           <span className={hasDesktopChrome ? 'lg:hidden' : ''}><ModuleSwitcher /></span>
           <span className="label-eyebrow hidden md:inline">Mind Maps</span>
         </div>

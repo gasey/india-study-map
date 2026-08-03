@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useApp } from '@/lib/store';
 import { ModuleSwitcher } from '@/modules/ModuleSwitcher';
+import { HomeBackLink } from '@/components/shell/HomeBackLink';
 import { useHasDesktopChrome } from '@/lib/useShellChrome';
 import type { ArchiveManifest } from './types';
 
@@ -49,6 +50,7 @@ export function CurrentAffairsPage() {
         style={{ borderColor: 'var(--border)', background: 'var(--bg-panel)' }}
       >
         <div className="flex items-center gap-3 min-w-0">
+          <HomeBackLink hasDesktopChrome={hasDesktopChrome} />
           <span className={hasDesktopChrome ? 'lg:hidden' : ''}><ModuleSwitcher /></span>
           <span className="label-eyebrow hidden md:inline">Current Affairs</span>
         </div>

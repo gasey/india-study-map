@@ -4,6 +4,7 @@ import { SHELL_STYLES } from '@/lib/shellStyles';
 import { Rail } from './Rail';
 import { CommandBar } from './CommandBar';
 import { ModuleGroupMenu } from './ModuleGroupMenu';
+import { AdminNavMenu } from './AdminNavMenu';
 import { IC, IconSvg } from './icons';
 
 /** Mobile-only bottom nav — additive to each page's own local ModuleSwitcher
@@ -37,6 +38,7 @@ function MobileBottomBar() {
         <span className="text-[10px] font-medium">Q. Bank</span>
       </Link>
       <ModuleGroupMenu category="Practice" label="Practice" placement="bottom" />
+      <AdminNavMenu placement="bottom" />
     </nav>
   );
 }

@@ -6,6 +6,7 @@ import { chapters } from '@/data';
 import { studyStreak } from '@/lib/stats';
 import { ShellSwitcher } from './ShellSwitcher';
 import { ModuleGroupMenu } from './ModuleGroupMenu';
+import { AdminNavMenu } from './AdminNavMenu';
 import { IC, IconSvg } from './icons';
 
 function SearchBox() {
@@ -151,6 +152,7 @@ export function CommandBar({ breadcrumb }: { breadcrumb?: React.ReactNode }) {
           Question Bank
         </Link>
         <ModuleGroupMenu category="Practice" label="Practice" placement="bar" />
+        <AdminNavMenu placement="bar" />
       </nav>
 
       {breadcrumb ? (

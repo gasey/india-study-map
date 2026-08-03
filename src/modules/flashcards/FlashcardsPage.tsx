@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { decks } from '@/data/decks';
 import { useApp } from '@/lib/store';
 import { ModuleSwitcher } from '@/modules/ModuleSwitcher';
+import { HomeBackLink } from '@/components/shell/HomeBackLink';
 import { useHasDesktopChrome } from '@/lib/useShellChrome';
 
 // ============================================
@@ -80,6 +81,7 @@ export function FlashcardsPage() {
         style={{ borderColor: 'var(--border)', background: 'var(--bg-panel)' }}
       >
         <div className="flex items-center gap-3 min-w-0">
+          <HomeBackLink hasDesktopChrome={hasDesktopChrome} />
           <span className={hasDesktopChrome ? 'lg:hidden' : ''}><ModuleSwitcher /></span>
           <span className="label-eyebrow hidden md:inline">Flashcards</span>
         </div>

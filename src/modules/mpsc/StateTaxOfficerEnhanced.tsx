@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { allPrimers, PRIMER_CATEGORIES, UNIT_LABELS } from '@/data/banks';
 import { isMcqQuestion } from '@/data/banks/types';
 import type { BankQuestion, DescriptiveBankQuestion, ExamPaper, McqBankQuestion } from '@/data/banks/types';
@@ -63,7 +64,11 @@ function confidenceLabel(q: BankQuestion): 'high' | 'medium' | 'low' {
 }
 
 export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
-  const [prepTab, setPrepTab] = useState<PrepTab>('overview');
+  const [searchParams] = useSearchParams();
+  const initialTab = searchParams.get('tab');
+  const [prepTab, setPrepTab] = useState<PrepTab>(
+    (initialTab === 'admin' ? 'admin' : 'overview') as PrepTab,
+  );
   const [selectedUnit, setSelectedUnit] = useState<string | null>(null);
   const [mockState, setMockState] = useState<MockState>('setup');
   const [mockAnswers, setMockAnswers] = useState<Record<number, number>>({});

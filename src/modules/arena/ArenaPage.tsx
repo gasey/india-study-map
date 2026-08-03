@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useApp, type ArenaUpgrades } from '@/lib/store';
 import { ModuleSwitcher } from '@/modules/ModuleSwitcher';
+import { HomeBackLink } from '@/components/shell/HomeBackLink';
 import { useHasDesktopChrome } from '@/lib/useShellChrome';
 import { GauntletEngine, type Hud } from './engine';
 import { coinsFor, pickGateQuestion, pickReviveQuestion, type PickedQuestion } from './questions';
@@ -209,6 +210,7 @@ export default function ArenaPage() {
         style={{ borderColor: 'var(--border)', background: 'var(--bg-panel)' }}
       >
         <div className="flex items-center gap-3 min-w-0">
+          <HomeBackLink hasDesktopChrome={hasDesktopChrome} />
           <span className={hasDesktopChrome ? 'lg:hidden' : ''}><ModuleSwitcher /></span>
           <span className="label-eyebrow hidden md:inline">Gauntlet Run</span>
         </div>

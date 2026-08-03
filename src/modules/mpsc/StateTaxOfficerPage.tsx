@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useApp } from '@/lib/store';
 import { ModuleSwitcher } from '@/modules/ModuleSwitcher';
+import { HomeBackLink } from '@/components/shell/HomeBackLink';
 import { useHasDesktopChrome } from '@/lib/useShellChrome';
 import { getBank } from '@/data/banks';
 import { StateTaxOfficerEnhanced } from './StateTaxOfficerEnhanced';
@@ -27,6 +28,7 @@ export default function StateTaxOfficerPage() {
   return (
     <div className="h-full flex flex-col" style={{ background: 'var(--bg-app)' }}>
       <div className="shrink-0 flex items-center gap-3 px-5 py-3 border-b" style={{ borderColor: 'var(--border)' }}>
+        <HomeBackLink hasDesktopChrome={hasDesktopChrome} />
         {!hasDesktopChrome && <ModuleSwitcher />}
         <span className="text-lg">🎯</span>
         <div className="min-w-0">

@@ -1,5 +1,6 @@
 import { useApp } from '@/lib/store';
 import { ModuleSwitcher } from '@/modules/ModuleSwitcher';
+import { HomeBackLink } from '@/components/shell/HomeBackLink';
 import { useHasDesktopChrome } from '@/lib/useShellChrome';
 import { eras } from '@/data/timeline/eras';
 import { formatYear } from '@/data/timeline/types';
@@ -35,6 +36,7 @@ export function TopBar({ viewInfo, onOpenPalette }: TopBarProps) {
       }}
     >
       <div className="flex items-baseline gap-2.5 min-w-0 flex-1">
+        <HomeBackLink hasDesktopChrome={hasDesktopChrome} />
         <span className={hasDesktopChrome ? 'lg:hidden' : ''}>
           <ModuleSwitcher />
         </span>

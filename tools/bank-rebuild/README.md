@@ -66,6 +66,12 @@ node dump-bank.mjs            # re-dump, so phase B builds on phase A's output
 python3 parse_native.py       # 11 papers from their text layer -> parsed-native.json
 python3 validate.py parsed    # option ORDER + hygiene, checked against the PDFs
 python3 merge_native.py       # -> bank-rebuilt.json
+python3 retag_history.py      # splits the flat gs1_history bucket into
+                               # gs1_history_ancient/medieval/modern/art_culture
+                               # (by a per-id lookup, not a heuristic) --
+                               # run this once, after merge_native.py and
+                               # before apply.py, any time bank-rebuilt.json
+                               # has just been regenerated
 #   ... solve/ *.json are then answered by hand/agent into *.solved.json ...
 python3 apply.py              # folds in solve/*.solved.json -> the .ts
 

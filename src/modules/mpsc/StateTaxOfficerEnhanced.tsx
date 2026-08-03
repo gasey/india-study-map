@@ -32,7 +32,7 @@ function subjectClass(unitOrTopic: string | undefined): string {
   const key = (unitOrTopic ?? '').toLowerCase().replace(/-/g, '_');
   if (key.startsWith('eng')) return 'sto-unit-english';
   if (key === 'gs1_current') return 'sto-unit-current';
-  if (key === 'gs1_history') return 'sto-unit-history';
+  if (key.startsWith('gs1_history')) return 'sto-unit-history';
   if (key === 'gs2_economy') return 'sto-unit-economy';
   if (key === 'gs2_geography') return 'sto-unit-geography';
   if (key === 'gs2_polity') return 'sto-unit-polity';

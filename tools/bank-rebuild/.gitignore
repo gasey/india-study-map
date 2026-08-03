@@ -1,0 +1,6 @@
+# Regenerable intermediates — produced by the pipeline, not inputs.
+bank.json
+bank-rebuilt.json
+parsed-2025.json
+merge-report.json
+__pycache__/

@@ -84,6 +84,51 @@ interface BankQuestionBase {
   about?: Year;
   /** Links back to this question's ExamPaper (see QuestionBank.papers). */
   paperId?: string;
+  /**
+   * Provenance of `answerIndex` — the difference between "the Commission says
+   * so" and "we worked it out".
+   *   'official' — taken from a published MPSC final answer key. Authoritative.
+   *   'derived'  — solved by the extraction pipeline. Can be wrong.
+   * Absent means 'derived': every pre-existing record was pipeline-solved.
+   * Shown as a badge, so a guess is never mistaken for a real key.
+   */
+  answerSource?: 'official' | 'derived';
+  /** For answerSource: 'official' — the notification that published the key,
+   *  so a disputed answer can be traced to its source document. */
+  answerKeyRef?: string;
+  /**
+   * The printed options are IMAGES (picture-sequence / figure-matrix items in
+   * the non-verbal reasoning sections), so there is no option text to store and
+   * `options` is empty. Such a question is displayed read-only and kept out of
+   * scored mock tests — it can't be answered from text alone. Flagging it beats
+   * the old behaviour, where the extractor filled these with OCR debris.
+   */
+  figureBased?: boolean;
+  /**
+   * MPSC withdrew this question and awarded the mark to every candidate — the
+   * published key prints "Compensated" instead of an option letter. There is no
+   * correct answer, so `answerIndex` is -1 and the question is kept out of
+   * scored mock tests rather than counting against the candidate.
+   */
+  compensated?: boolean;
+  /**
+   * The official key's answer looks factually wrong (this does happen with
+   * current-affairs questions). `answerIndex` still holds what the Commission
+   * published — that is what a real paper would have marked — but the objection
+   * is recorded and shown, rather than being silently swallowed or, worse,
+   * "fixed" into a disagreement with the actual exam.
+   */
+  disputeNote?: string;
+  /**
+   * The printed paper itself is defective for this question — most often
+   * `'duplicate-options'`, where the same option text is offered twice (2016
+   * English-II Q15 lists "has worked" as both (a) and (b); 2019 GS-III Q34
+   * lists "Phosphorus" as both (a) and (d)). Verified against the source PDF,
+   * so the extraction is faithful and the text is kept as printed — but the
+   * question cannot be answered as set, so it is badged and kept out of scored
+   * mock tests rather than counting against the candidate.
+   */
+  sourceDefect?: 'duplicate-options';
 }
 
 export interface McqBankQuestion extends BankQuestionBase {

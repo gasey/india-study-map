@@ -1,0 +1,590 @@
+[
+  {
+    "id": "mpsc-inspector-of-taxes-2016-english-ii-q041",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "\"Not as good as\" is the correct positive-degree equivalent of \"better\"; option (c) reverses the meaning (claims begging is better) and (d) misuses the superlative \"best...than\"."
+  },
+  {
+    "id": "mpsc-inspector-of-taxes-2016-english-ii-q042",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "The comparative-to-positive pattern for a superlative is \"No other X is as [adjective] as Y\"; the other options misuse \"fast than\" without \"as\" or \"more\"."
+  },
+  {
+    "id": "mpsc-inspector-of-taxes-2016-english-ii-q045",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "Superlative \"costliest\" converts to \"No metal is as costly as gold,\" the standard positive-degree equivalence."
+  },
+  {
+    "id": "mpsc-inspector-of-taxes-2016-english-ii-q046",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "\"Work\" is uncountable, so the interrogative needs \"much,\" not \"many\" — a classic countable/uncountable trap in options (b) and (d)."
+  },
+  {
+    "id": "mpsc-inspector-of-taxes-2016-english-ii-q049",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "An exclamatory sentence with \"What a...!\" converts to a plain assertive statement of the same fact: \"The rose is a beautiful flower.\""
+  },
+  {
+    "id": "mpsc-inspector-of-taxes-2016-english-ii-q050",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "\"Nobody will deny X\" converts to the affirmative \"Everybody will admit X\" — the double negative (deny + nobody) becomes a straightforward affirmation."
+  },
+  {
+    "id": "mpsc-inspector-of-taxes-2016-english-ii-q054",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "A gerund phrase (\"his being elected\") becomes a finite noun clause in the complex form: \"that he had been elected,\" using past perfect since the election preceded the declaring."
+  },
+  {
+    "id": "mpsc-inspector-of-taxes-2016-english-ii-q055",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "The adjective \"pleasant\" becomes an adjective clause \"where it was pleasant\"; the tense must stay past (\"was\") to match \"reached,\" ruling out the present-tense options."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q021",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "\"Loss\" (noun) fits after \"the ___ of his watch\"; \"lost/lose/loose\" are not nouns that fit this slot."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q022",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "An action starting in the past and continuing to now (\"since this morning\") takes the present perfect continuous, \"have been waiting.\""
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q023",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "A daily habitual action takes simple present: \"takes.\""
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q024",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "\"While\" introduces a simultaneous ongoing action, so the past/present continuous \"is doing\" fits the context of an interrupted action."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q025",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "Present perfect \"have finished\" correctly pairs with the first-person subject \"I\" for a completed action with present relevance."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q026",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "\"When we reached\" (simple past) signals an earlier completed action, so the service needed past perfect: \"had already started.\""
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q027",
+    "answerIndex": 2,
+    "confidence": "medium",
+    "explanation": "Past perfect \"had stolen\" fits a narrative describing an action completed before another past reference point; \"steal/steals\" don't match past narration and \"have stolen\" doesn't agree with the singular subject \"thief.\""
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q028",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "\"Hurt\" is both the past tense and past participle of \"hurt\" (an irregular unchanging verb), so it correctly follows \"has.\""
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q030",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "\"Sing\" has the past participle \"sung,\" required after \"have you ever ___?\" (present perfect)."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q041",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "One subject, one finite verb (\"gave\") with a participle phrase (\"Finishing my paper\") makes this a simple sentence, not a complex one."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q042",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "\"That the earth is round\" is a noun clause (object of \"knows\"), making this a complex sentence."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q043",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "\"Which was black in colour\" is a subordinate adjective clause, making the whole sentence complex."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q044",
+    "answerIndex": 2,
+    "confidence": "medium",
+    "explanation": "\"That he cannot stand\" is best read as a noun clause (object of an implied verb, e.g., \"[the fact] that he cannot stand [it]\"); among the given options it fits noun clause best, though the fragment is oddly punctuated."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q045",
+    "answerIndex": 3,
+    "confidence": "medium",
+    "explanation": "Correlative conjunctions like \"either...or\" traditionally join two elliptical independent clauses (\"Either John has done it or Mary has done it\"), so many grammar keys classify this as compound; note \"Simple sentence\" (the strictly modern-grammar answer) isn't offered among the options."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q046",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "\"Not only...but also\" is the standard correlative conjunction joining two independent clauses into a compound sentence."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q047",
+    "answerIndex": 0,
+    "confidence": "medium",
+    "explanation": "Only option (a) is a single clause (participial phrase + main clause), satisfying \"to Simple\"; the others keep two finite clauses (because/and) or two sentences. Note the participle technically dangles (grammatically modifying \"nobody,\" not \"he\"), a known flaw in this drill's expected answer."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q048",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "The second sentence becomes a noun clause object of \"believe\": \"that he was cheating me,\" forming a complex sentence."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q049",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "An appositive phrase (\"Ram, my friend,\") reduces the two sentences to one simple sentence."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q050",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "\"So...that\" introduces a subordinate clause of result, correctly forming a complex sentence."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q051",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "\"Since\" attaches as a subordinating conjunction directly to the reason clause: \"I must be punished since I am at fault.\""
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q052",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "The relative pronoun \"who\" introduces the descriptive clause: \"The woman who is in green saree is the manager of the team.\""
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q053",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "\"Too...to\" is the standard infinitive construction for this cause-effect pattern: \"It is too cold to take a bath.\""
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q054",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "\"Either John or Jacob has done it\" correctly uses the correlative pair with singular verb agreement to the nearer subject."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q055",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "\"For\" is used here as a coordinating conjunction meaning \"because\": \"I cannot read his note-book for his hand writing is poor.\""
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q056",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "The adverb \"successfully\" is the concise adverbial rendering of \"he wanted to succeed\": \"He tried to lift the box successfully.\""
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q057",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "\"The movie being over\" is the standard nominative absolute participial phrase for this sentence pair."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q058",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "\"Though\" attached to the concession clause preserves the original logic: he failed despite working hard — \"He failed though he worked hard.\""
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q059",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "The infinitive \"to hear\" expresses the cause of joy: \"My father is overjoyed to hear of my success.\""
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q060",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "\"Not only...but also\" placed around the two adjectives correctly joins the pair: \"She is not only beautiful, but also charming.\""
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q061",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "A plain declarative statement of fact is an affirmative sentence."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q062",
+    "answerIndex": 0,
+    "confidence": "medium",
+    "explanation": "Punctuated and structured as a question, this is formally interrogative, even though it functions rhetorically to express disbelief."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q063",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "A plain statement of fact with no special marking is assertive."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q064",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "A direct command (\"Fetch me...\") is imperative."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q065",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "A polite request/command beginning with \"Please\" is imperative."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q066",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "The exclamatory \"What a...!\" converts to the plain declarative \"It is a dreadful smell.\""
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q067",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "A statement converts to interrogative by inverting subject and auxiliary \"does\": \"Does every rose have its thorn?\""
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q068",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "The question converts to a plain statement of fact: \"You have done your homework.\""
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q069",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "A polite modal question preserves the command's intent while being grammatically interrogative: \"Can you please hurry up?\""
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q070",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "The imperative form directly requests the action: \"Close the door, please.\""
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q096",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "\"Dotage\" is the standard one-word substitute for foolish behaviour brought on by extreme old age."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q097",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "\"Archaeology\" is the study of ancient societies through their material remains, the classic one-word substitution answer (distinct from anthropology, which studies humankind broadly)."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q098",
+    "answerIndex": 3,
+    "confidence": "medium",
+    "explanation": "\"Give us the chance to do something\" is the natural idiomatic collocation; \"occasion\" and \"possibility\" don't fit as smoothly in this context."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q099",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "\"Herd\" is the correct collective noun for cows."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q006",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "\"Half\" here modifies the adjective \"dead\" (indicating degree), so it functions as an adverb."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q012",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "\"Almost\" modifies the adjective \"ripe,\" indicating degree/extent, so it is an adverb of degree."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q014",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "\"Round\" here indicates direction/position (bring the carriage around), making it an adverb of place — a classic Wren & Martin example."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q016",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "\"Shamefully\" describes how the treatment was done, making it an adverb of manner."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q018",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "\"Not\" negates the verb, making it an adverb of negation."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q020",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "\"Again\" indicates repetition, making it an adverb of frequency."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q032",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "Simple past \"died\" matches the simple past \"was\" in the same sentence; note options (a) and (d) are duplicate, defective \"had died\" entries."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q036",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "\"Up to now\" signals present perfect: \"have never managed\"; the other options are either ungrammatical or use future tense incorrectly."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q038",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "\"Five minutes ago\" is a definite past time marker requiring simple past: \"went.\""
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q040",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "A habitual/routine fact (\"twice weekly\") takes simple present: \"appears.\""
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q041",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "One subject, one finite verb, with only phrases (no subordinate clause) — a simple sentence."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q042",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "\"Or\" is a coordinating conjunction joining two independent clauses, making this compound."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q043",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "\"What his address is\" is a noun clause (object of \"know\"), making this complex."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q044",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "\"And\" joins two independent clauses, making this compound."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q045",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "\"Besides being beautiful\" is a prepositional/gerund phrase, not a clause, so the sentence remains simple."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q046",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "\"The sun having risen\" is a nominative absolute (participial) phrase, not a finite clause, so this is a simple sentence."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q047",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "\"So\" here joins two independent clauses as a coordinating conjunction, making this compound."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q048",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "\"So that\" introduces a subordinate clause of purpose, making this complex."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q049",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "\"In spite of his poverty\" is a prepositional phrase, not a clause, so the sentence is simple."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q050",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "\"That he cannot pay his fees\" is a subordinate clause of result, making this complex."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q051",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "A plain positive statement of fact is affirmative."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q052",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "\"As...as\" signals the positive (equative) degree, not comparative."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q053",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "\"More...than\" is the hallmark of the comparative degree."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q054",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "\"Not a poor man\" is a negative construction (negates the adjective via \"not\")."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q055",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "\"Most beautiful\" marks the superlative degree."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q056",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "\"One of the greatest\" uses the superlative form \"greatest.\""
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q057",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "A plain declarative statement with no special marking is assertive."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q058",
+    "answerIndex": 1,
+    "confidence": "low",
+    "explanation": "This is a negative sentence (\"No one...\"), but \"Negative\" is not offered among the options; \"Assertive,\" describing its declarative sentence-type, is the closest fit among Comparative/Assertive/Superlative/Positive."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q059",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "\"Not immortal\" is a negative construction."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q060",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "A plain positive statement with no negation is affirmative."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q061",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "\"That we will win the match\" is a noun clause functioning as the object of \"sure,\" not a modifier of a noun or verb."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q065",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "\"That has no turning\" is an adjective clause modifying \"lane.\""
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q067",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "\"Where living was cheaper\" is an adverb clause of place modifying \"went.\""
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q069",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "\"That the man was guilty\" is a noun clause functioning as the object of \"believed.\""
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q071",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "The idiomatic phrasing is \"in need of an eye operation\"; the underlined infinitive phrase is awkward and should be replaced with the prepositional noun phrase."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q076",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "The correct idiom is \"accustom yourself to\" (not \"with\")."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q077",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "\"Any able bodied man is\" already agrees correctly (singular \"any...man\" with singular \"is\"), so no improvement is needed."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q079",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "The idiomatic and grammatically correct phrasing is the possessive singular \"your child's hand\" (one hand held while walking, not \"hands\")."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q080",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "An unreal past conditional requires inversion of \"had,\" not \"have\": \"Had you not reached...\""
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q081",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "The analogy is opposites: life is the opposite of death, so pleasure is to pain (its opposite)."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q082",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "\"Parole\" specifically refers to conditional early release, often tied to good behaviour."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q089",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "\"In course of time\" is the idiomatic phrase for a gradual process over time."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q090",
+    "answerIndex": 0,
+    "confidence": "medium",
+    "explanation": "\"Literal translation\" (staying close to the original wording) is the standard idiomatic collocation, more natural here than \"verbatim,\" which usually describes exact quoted speech/text rather than translation."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q092",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "\"As blind as a bat\" is the standard English simile idiom."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q094",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "The young of an elephant is called a \"calf.\""
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q096",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "This is the proverb \"Beggars can't be choosers.\""
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q098",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "This reflects the proverb \"No rose without a thorn,\" i.e., beauty conceals hidden pain — \"thorn.\""
+  }
+]

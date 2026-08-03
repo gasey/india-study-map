@@ -1,0 +1,322 @@
+[
+  {
+    "n": 1,
+    "stem": "Who is known as the Humanistic critique of Marxism?",
+    "options": ["Subhash Chandra Bose", "M.N. Roy", "Lohia", "E.M.S"]
+  },
+  {
+    "n": 2,
+    "stem": "\"Swaraj is my birth right and I shall have it.\" Who said this?",
+    "options": ["J.P. Narayan", "Bal Gangadhar Tilak", "M.N. Roy", "Raja Ram Mohan Roy"]
+  },
+  {
+    "n": 3,
+    "stem": "Satyagraha is a philosophy of action based on -",
+    "options": ["violence", "kindness", "love", "truth, tolerance, non-violence and peaceful protests"]
+  },
+  {
+    "n": 4,
+    "stem": "Aurobindo describes Reality as -",
+    "options": ["Sachchidananda", "Super mind", "Existence", "God"]
+  },
+  {
+    "n": 5,
+    "stem": "The key characteristic of Nehru's democracy is -",
+    "options": ["Marxism", "Capitalism", "Socialism", "Totalitarianism"]
+  },
+  {
+    "n": 6,
+    "stem": "The Simon Commission was boycotted in India because -",
+    "options": [
+      "there was no Indian member in the Commission",
+      "it supported the Muslim League",
+      "Congress felt that people deserved Swaraj",
+      "there were differences among the members"
+    ]
+  },
+  {
+    "n": 7,
+    "stem": "The resolution of Poorna Swaraj was adopted at which session of the Congress?",
+    "options": ["Karachi", "Haripur", "Lahore", "Lucknow"]
+  },
+  {
+    "n": 8,
+    "stem": "73rd Amendment Act,1992 exempted the following states of NE India:",
+    "options": [
+      "Nagaland, Meghalaya, Mizoram",
+      "Tripura only",
+      "Assam only",
+      "Sikkim and Arunachal Pradesh"
+    ]
+  },
+  {
+    "n": 9,
+    "stem": "Which of the following statements pertaining to the 73rd Constitution Amendment Act of 1992 is correct?",
+    "options": [
+      "It contends that it will consider a constitutional status for Panchayat Raj institutions in future.",
+      "It does not provide a constitutional status to the Panchayat Raj institutions.",
+      "It undid the constitutional status that was provided to Panchayat Raj institutions earlier.",
+      "It provides a constitutional status to the Panchayat Raj institutions."
+    ]
+  },
+  {
+    "n": 10,
+    "stem": "Lokayukta submits its report to the -",
+    "options": [
+      "Chief Minister",
+      "Chief Justice of the High Court",
+      "Governor",
+      "Speaker of the Legislative Assembly"
+    ]
+  },
+  {
+    "n": 11,
+    "stem": "Which schedule of the Indian Constitution contains provisions regarding Anti-Defection Act?",
+    "options": ["9th Schedule", "10th Schedule", "11th Schedule", "12th Schedule"]
+  },
+  {
+    "n": 12,
+    "stem": "Right to Education was added as a Fundamental Right by the -",
+    "options": [
+      "76th Constitutional Amendment Act",
+      "83rd Constitutional Amendment Act",
+      "86th Constitutional Amendment Act",
+      "93rd Constitutional Amendment Act"
+    ]
+  },
+  {
+    "n": 13,
+    "stem": "Last session of existing Lok Sabha, after a new Lok Sabha has been elected is called -",
+    "options": [
+      "Lame - duck session",
+      "Dysfunctional Session",
+      "Non-Functional Session",
+      "Non-Performing Session"
+    ]
+  },
+  {
+    "n": 14,
+    "stem": "National Development Council was constituted on -",
+    "options": ["16th August 1950", "1st April 1951", "6th August 1952", "16th August 1952"]
+  },
+  {
+    "n": 15,
+    "stem": "Read the following points and choose the correct answer:\n1. The doctrine of judicial review is originated and developed in the USA.\n2. Judicial Review is the power of the judiciary to examine the constitutionality of legislative enactments and executive orders of both central and state governments.\n3. Judicial Review is needed to uphold the principle of the supremacy of the Constitution.\n4. Judicial Review power can also be exercise by both Union and State minister.\nWhich of the above statement is/are correct?",
+    "options": ["1, 2 and 4", "Only 3", "1, 2 and 3", "1, 3 and 4"]
+  },
+  {
+    "n": 16,
+    "stem": "Recognition of Political parties in India is accorded by the -",
+    "options": [
+      "Election Commission of India",
+      "State Legislative Assembly",
+      "Parliament",
+      "President of India"
+    ]
+  },
+  {
+    "n": 17,
+    "stem": "A party is recognised as a National Party if any of the following conditions is fulfilled:\n1. If it secures six percent of valid votes polled in any four or more state at a general election to the Lok Sabha or to the Legislative Assembly.\n2. If it wins four seats in the Lok Sabha from any State or States.\n3. If it wins two percent of the seats in the Lok Sabha at a general election and these candidates are elected from three States.\n4. If it is recognised as a State party at least in 8 States.\nWhich of the above statement is/are correct?",
+    "options": ["1, 2 and 4", "Only 4", "1 and 3", "1, 2 and 3"]
+  },
+  {
+    "n": 18,
+    "stem": "The slogan of which Five-Year Plan in India is \"Faster, More inclusive and Sustainable Growth\"?",
+    "options": ["Eight", "Ninth", "Eleventh", "Twelfth"]
+  },
+  {
+    "n": 19,
+    "stem": "To be officially recognised by the Speaker of Lok Sabha as an Opposition Group, a party or coalition of parties must have at least:",
+    "options": ["50 members", "60 members", "55 members", "1/3 of total members of the Lok Sabha"]
+  },
+  {
+    "n": 20,
+    "stem": "The nomenclature often used in Judicial Review 'ultra vires' refer to -",
+    "options": [
+      "Against the law",
+      "Equivalent to law",
+      "Found to be violative of the Constitution",
+      "Found to be acceptable with the case"
+    ]
+  },
+  {
+    "n": 21,
+    "stem": "Reserve Bank of India was established on -",
+    "options": ["1st January, 1935", "1st April, 1935", "1st January, 1949", "1st April, 1949"]
+  },
+  {
+    "n": 22,
+    "stem": "Which of the following reflects the standard of living in a country?",
+    "options": ["Poverty ratio", "Per Capita Income", "National Income", "Unemployment rate"]
+  },
+  {
+    "n": 23,
+    "stem": "What type of economy does India have?",
+    "options": ["Socialist economy", "Closed economy", "Open economy", "Mixed economy"]
+  },
+  {
+    "n": 24,
+    "stem": "Economic Planning is a subject of -",
+    "options": ["Union list", "State list", "Concurrent list", "Not in a particular list"]
+  },
+  {
+    "n": 25,
+    "stem": "AGMARK Act was implemented in India in the year -",
+    "options": ["1936", "1937", "1938", "1939"]
+  },
+  {
+    "n": 26,
+    "stem": "Who first estimated the National Income in India?",
+    "options": ["Dadabhai Naoroji", "RC Dutta", "VK RV Rao", "DR Gadgil"]
+  },
+  {
+    "n": 27,
+    "stem": "'Base year' in National Income accounting means -",
+    "options": [
+      "The year whose income is being used to calculate the nominal GDP",
+      "The year whose prices are being used to calculate the nominal GDP",
+      "The year whose prices are being used to calculate the real GDP",
+      "The year whose income are being used to calculate the real GDP"
+    ]
+  },
+  {
+    "n": 28,
+    "stem": "At present, which of the following states is the highest producer of rice in India?",
+    "options": ["Andra Pradesh", "Punjab", "West Bengal", "Tamil Nadu"]
+  },
+  {
+    "n": 29,
+    "stem": "What is the oldest large scale industry in India?",
+    "options": ["Cotton textiles", "Iron and steel", "Jute", "Paper"]
+  },
+  {
+    "n": 30,
+    "stem": "The Policy of Liberalization, Privatization and Globalization was announced as New Economic Policy (NEP) by the Prime Minister -",
+    "options": ["Indira Gandhi", "Narendra Modi", "Narasimha Rao", "Manmohan Singh"]
+  },
+  {
+    "n": 31,
+    "stem": "Multi-dimensional Poverty Index (MPI) includes -\n1. Health\n2. Education\n3. Living standard\nCodes :",
+    "options": ["Only 1", "2 and 3", "1 and 2", "1, 2 and 3"]
+  },
+  {
+    "n": 32,
+    "stem": "Which sector makes the largest contributions to India's GDP?",
+    "options": ["Primary Sector", "Quaternary Sector", "Secondary Sector", "Tertiary Sector"]
+  },
+  {
+    "n": 33,
+    "stem": "Poverty estimation in India is carried out by -",
+    "options": ["CSO", "NSSO", "NITI Aayog's task force", "RBI"]
+  },
+  {
+    "n": 34,
+    "stem": "Operation Flood, launched in 1970 is associated with which of the following?",
+    "options": ["Milk Production", "Poultry Production", "Rice Production", "Wheat Production"]
+  },
+  {
+    "n": 35,
+    "stem": "Who is called 'the Father of the Green Revolution' in India?",
+    "options": [
+      "Chidambaram Subramaniam",
+      "Dilbagh Singh Athwal",
+      "M.S. Swaminathan",
+      "Norman Borlaug"
+    ]
+  },
+  {
+    "n": 36,
+    "stem": "Which agency is responsible for procurement, distribution, and storage of foodgrains production in India?",
+    "options": ["Food Corporation of India", "Ministry of Agriculture", "NAFED", "TRIFED"]
+  },
+  {
+    "n": 37,
+    "stem": "Which of the following policies deals with the taxation and expenditure decisions of the government?",
+    "options": ["Fiscal policy", "Labour Market policy", "Monetary policy", "Trade policy"]
+  },
+  {
+    "n": 38,
+    "stem": "Who introduced the first budget in India after independence?",
+    "options": [
+      "Jawaharlal Nehru",
+      "John Mathai",
+      "Kshitish Chandra Neogy",
+      "R.K. Shanmukham Chetty"
+    ]
+  },
+  {
+    "n": 39,
+    "stem": "What is the largest Commercial bank in India?",
+    "options": ["Bank of Baroda", "ICICI", "Punjab National Bank", "State Bank of India"]
+  },
+  {
+    "n": 40,
+    "stem": "The slogan \"Garibi Hatao\" was introduced in which Five-Year Plan?",
+    "options": [
+      "1st Five-Year Plan",
+      "3rd Five-Year Plan",
+      "5th Five-Year Plan",
+      "7th Five-Year Plan"
+    ]
+  },
+  {
+    "n": 41,
+    "stem": "In ancient Indian literature 'Himadri' is a name given to the -",
+    "options": ["Karakoram Range", "Greater Himalaya", "Kailash Range", "Ajanta Range"]
+  },
+  {
+    "n": 42,
+    "stem": "Soils which have been brought down and deposited by rivers are called:",
+    "options": ["Black soil", "Red soil", "Laterite soil", "Alluvial soil"]
+  },
+  {
+    "n": 43,
+    "stem": "In geographical term, a body of land that is bordered on three sides by water, including the southern parts of India, is termed as -",
+    "options": ["Peninsula", "Archipelago", "Strait", "Island"]
+  },
+  {
+    "n": 44,
+    "stem": "The Silent Valley which is home to rare plants and animals is located in which of the following State?",
+    "options": ["Meghalaya", "Jammu and Kashmir", "Kerala", "Gujarat"]
+  },
+  {
+    "n": 45,
+    "stem": "The geographical area of Dampa Tiger Reserve in Mizoram is:",
+    "options": ["50 sq.km.", "250 sq. km.", "500 sq. km.", "750 sq. km."]
+  },
+  {
+    "n": 46,
+    "stem": "The arid topography with sand dunes in the Aravali are known as:",
+    "options": ["Blizzard", "Loo", "Barkhans", "Delta"]
+  },
+  {
+    "n": 47,
+    "stem": "Which State is greatly benefitted from Indira Gandhi Canal Irrigation?",
+    "options": ["Orissa", "Assam", "Rajasthan", "Tamil Nadu"]
+  },
+  {
+    "n": 48,
+    "stem": "The Chota-Nagpur plateau is famous for its richness on:",
+    "options": ["Uranium", "Plutonium", "Coal", "Sand"]
+  },
+  {
+    "n": 49,
+    "stem": "Which is the largest railway zone in India?",
+    "options": [
+      "Southern railway",
+      "Northern railway",
+      "South Central railway",
+      "North Central railway"
+    ]
+  },
+  {
+    "n": 50,
+    "stem": "The largest mineral based Industry in India.",
+    "options": [
+      "Alluminium Industry",
+      "Cement Industry",
+      "Iron and Steel Industry",
+      "Fertilizer Industry"
+    ]
+  }
+]

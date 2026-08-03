@@ -48,10 +48,33 @@ function subjectClass(unitOrTopic: string | undefined): string {
  * "identify the part of speech of the underlined word", where the original
  * exam's underline formatting was lost during OCR extraction and the admin
  * correction form lets someone re-mark the target word with __word__.
+ *
+ * The delimited run must contain NO underscores of its own. Fill-in-the-blank
+ * stems ("divided __________ the two brothers") are written as a long run of
+ * underscores, and a lazy `__(.+?)__` happily matches inside one — eating the
+ * blank and leaving a stray underlined "_". 100 questions in this bank are
+ * fill-in-the-blank, so that is the common case, not the edge case.
  */
 function renderEmphasis(text: string) {
-  const parts = text.split(/__(.+?)__/g);
+  const parts = text.split(/__([^_]+)__/g);
   return parts.map((part, i) => (i % 2 === 1 ? <u key={i}>{part}</u> : part));
+}
+
+/**
+ * The shared "Direction (Question Nos. 11-20): ..." header, or the table a run
+ * of data-interpretation questions all refer to. Without it a stem like
+ * "The property was divided ______ the two brothers" gives no hint of what is
+ * being tested, and a DI question is simply unanswerable.
+ */
+function StemContext({ text }: { text: string }) {
+  return (
+    <p
+      className="text-xs px-2.5 py-1.5 rounded"
+      style={{ background: 'var(--bg-panel-elev)', color: 'var(--text-secondary)', borderLeft: '2px solid var(--accent)' }}
+    >
+      {text}
+    </p>
+  );
 }
 
 function confidenceLabel(q: BankQuestion): 'high' | 'medium' | 'low' {
@@ -61,6 +84,30 @@ function confidenceLabel(q: BankQuestion): 'high' | 'medium' | 'low' {
   if (q.difficulty === 'hard') return 'low';
   if (q.difficulty === 'easy') return 'high';
   return 'medium';
+}
+
+/**
+ * How much to trust this question's marked answer. Papers whose official MPSC
+ * answer key has been published carry `answerSource: 'official'`; everything
+ * else was solved by the extraction pipeline and is a considered guess. The
+ * two must never look alike on screen.
+ */
+function answerProvenance(q: BankQuestion): { label: string; cls: string; title: string } {
+  if (q.answerSource === 'official') {
+    return {
+      label: '✓ official answer key',
+      cls: 'sto-conf-official',
+      title: q.answerKeyRef
+        ? `Answer published by MPSC — ${q.answerKeyRef}`
+        : 'Answer taken from the published MPSC final answer key.',
+    };
+  }
+  const c = confidenceLabel(q);
+  return {
+    label: `${c} confidence · inferred`,
+    cls: `sto-conf-${c}`,
+    title: 'No official MPSC key has been published for this paper. This answer was worked out from the question and may be wrong — flag it if you disagree.',
+  };
 }
 
 export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
@@ -173,7 +220,12 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
   const [testLabel, setTestLabel] = useState('Mock test');
 
   const startMockTest = (questions: McqBankQuestion[], label = 'Mock test') => {
-    setTestQuestions(questions);
+    // Figure-based items have no text options, so they are unanswerable in a
+    // scored run and would only ever count as "unattempted" against the
+    // candidate. They stay browsable in the Question Bank — just not scored.
+    // Filtered here rather than in each caller so every entry point (mock
+    // setup, By Exam, By Year) is covered by one rule.
+    setTestQuestions(questions.filter((q) => !q.figureBased && !q.compensated && !q.sourceDefect));
     setTestLabel(label);
     setMockAnswers({});
     setTestResults(null);
@@ -480,21 +532,58 @@ function QuestionBankTab({
             <div key={q.id} className="sto-card space-y-2">
               <div className="flex items-center gap-2 flex-wrap text-xs">
                 <span className={`sto-pill sto-subject ${subjectClass(q.topic)}`}>{q.topic?.replace(/_/g, ' ')}</span>
-                <span className={`sto-pill sto-conf-${confidenceLabel(q)}`}>{confidenceLabel(q)} confidence</span>
+                {(() => {
+                  const prov = answerProvenance(q);
+                  return <span className={`sto-pill ${prov.cls}`} title={prov.title}>{prov.label}</span>;
+                })()}
+                {q.figureBased && (
+                  <span className="sto-pill sto-conf-low" title="The printed options are diagrams, so they can't be shown as text here. Open the original paper to attempt it.">
+                    ▦ figure-based
+                  </span>
+                )}
+                {q.compensated && (
+                  <span className="sto-pill sto-conf-medium" title="MPSC withdrew this question and gave the mark to every candidate. It has no correct answer and is excluded from mock tests.">
+                    ⊘ compensated by MPSC
+                  </span>
+                )}
+                {q.sourceDefect === 'duplicate-options' && (
+                  <span className="sto-pill sto-conf-medium" title="The printed paper offers the same option twice. This is the paper's own misprint, reproduced faithfully — the question can't be answered as set, so it's excluded from mock tests.">
+                    ⚠ misprint in original paper
+                  </span>
+                )}
                 {correction && <span className="sto-pill" style={{ color: '#2e7d4f', borderColor: '#2e7d4f' }}>✓ corrected by admin</span>}
                 <span className="ml-auto" style={{ color: 'var(--text-secondary)' }}>
                   {questionExamName(q)}{paper?.year ? `, ${paper.year}` : ''}
                 </span>
               </div>
+              {q.passage && <StemContext text={q.passage} />}
               <p className="text-sm font-medium">{renderEmphasis(q.question)}</p>
-              <div className="space-y-1.5">
-                {q.options.map((opt, j) => (
-                  <div key={j} className={`sto-opt ${j === q.answerIndex ? 'sto-opt-correct' : ''}`}>
-                    <span className="sto-opt-letter">{String.fromCharCode(97 + j)}</span>
-                    <span>{opt}</span>
-                  </div>
-                ))}
-              </div>
+              {q.figureBased ? (
+                <p className="text-xs italic p-2 rounded" style={{ background: 'var(--bg-panel-elev)', color: 'var(--text-secondary)' }}>
+                  This question's options are printed as diagrams, so they can't be shown as text.
+                  {q.answerSource === 'official' && typeof q.answerIndex === 'number' &&
+                    ` The official key gives (${String.fromCharCode(97 + q.answerIndex)}).`}
+                </p>
+              ) : (
+                <div className="space-y-1.5">
+                  {q.options.map((opt, j) => (
+                    <div key={j} className={`sto-opt ${j === q.answerIndex ? 'sto-opt-correct' : ''}`}>
+                      <span className="sto-opt-letter">{String.fromCharCode(97 + j)}</span>
+                      <span>{opt}</span>
+                    </div>
+                  ))}
+                </div>
+              )}
+              {q.compensated && (
+                <p className="text-xs italic" style={{ color: 'var(--text-secondary)' }}>
+                  No option is marked correct: MPSC withdrew this question and awarded the mark to every candidate.
+                </p>
+              )}
+              {q.disputeNote && (
+                <p className="text-xs p-2 rounded" style={{ background: 'var(--bg-panel-elev)', color: 'var(--text-secondary)', borderLeft: '2px solid #9a6b12' }}>
+                  <strong>Disputed:</strong> {q.disputeNote} The marked answer is still the one MPSC published.
+                </p>
+              )}
               {correction?.note && (
                 <div className="text-xs p-2 rounded" style={{ background: 'var(--accent-soft)', color: 'var(--text-primary)' }}>
                   <strong>Admin note:</strong> {correction.note}
@@ -691,6 +780,7 @@ function MockRunnerTab({ questions, answers, onAnswer, onSubmit }: { questions: 
       <div className="space-y-3">
         {questions.map((q, i) => (
           <div key={q.id} className="sto-card space-y-2.5">
+            {q.passage && <StemContext text={q.passage} />}
             <div className="font-semibold text-sm">Q{i + 1}. {renderEmphasis(q.question)}</div>
             <div className="space-y-1.5">
               {q.options.map((opt, j) => {

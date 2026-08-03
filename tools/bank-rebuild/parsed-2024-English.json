@@ -1,0 +1,158 @@
+[
+  {
+    "n": 1,
+    "direction": "Identify the Parts of speech of the underlined words in the given sentences.",
+    "stem": "__Although__ I love to cook, I hardly have time for it.",
+    "options": ["Preposition", "Conjunction", "Noun", "Adverb"]
+  },
+  {
+    "n": 2,
+    "direction": "Identify the Parts of speech of the underlined words in the given sentences.",
+    "stem": "The quick brown fox jumps over the __lazy__ brown dog.",
+    "options": ["Noun", "Adverb", "Adjective", "Preposition"]
+  },
+  {
+    "n": 3,
+    "direction": "Identify the Parts of speech of the underlined words in the given sentences.",
+    "stem": "He __still__ lives in that house.",
+    "options": ["Adverb", "Adjective", "Preposition", "Conjunction"]
+  },
+  {
+    "n": 4,
+    "direction": "Identify the Parts of speech of the underlined words in the given sentences.",
+    "stem": "Stella appeared in a costly __array__.",
+    "options": ["Noun", "Verb", "Adverb", "Adjective"]
+  },
+  {
+    "n": 5,
+    "direction": "Identify the Parts of speech of the underlined words in the given sentences.",
+    "stem": "She succumbed to the burns she received in the __terrifying__ accident.",
+    "options": ["Adjective", "Preposition", "Verb", "Adverb"]
+  },
+  {
+    "n": 6,
+    "direction": "Identify the Parts of speech of the underlined words in the given sentences.",
+    "stem": "The thief was killed in a police __encounter__.",
+    "options": ["Adverb", "Adjective", "Noun", "Interjection"]
+  },
+  {
+    "n": 7,
+    "direction": "Identify the Parts of speech of the underlined words in the given sentences.",
+    "stem": "__This__ is my friend who lives in Aizawl.",
+    "options": ["Personal Pronoun", "Indefinite Pronoun", "Demonstrative Pronoun", "Reflexive pronoun"]
+  },
+  {
+    "n": 8,
+    "direction": "Identify the Parts of speech of the underlined words in the given sentences.",
+    "stem": "I __always__ get up at six in the morning and my mother gets up earlier.",
+    "options": ["Adverb", "Verb", "Adjective", "Preposition"]
+  },
+  {
+    "n": 9,
+    "direction": "Identify the Parts of speech of the underlined words in the given sentences.",
+    "stem": "The car is __very__ beautiful.",
+    "options": ["Adverb", "Adjective", "Verb", "Noun"]
+  },
+  {
+    "n": 10,
+    "direction": "Identify the Parts of speech of the underlined words in the given sentences.",
+    "stem": "__Wow!__ That is a beautiful dress indeed",
+    "options": ["Conjunction", "Interjection", "Pronoun", "Verb"]
+  },
+  {
+    "n": 11,
+    "direction": "Choose an appropriate preposition from the options provided at the end of each question.",
+    "stem": "I expressed my abhorrence __________ flattery.",
+    "options": ["to", "at", "of", "in"]
+  },
+  {
+    "n": 12,
+    "direction": "Choose an appropriate preposition from the options provided at the end of each question.",
+    "stem": "The bird flew __________ the roof, soaring high in the sky.",
+    "options": ["upon", "above", "over", "on"]
+  },
+  {
+    "n": 13,
+    "direction": "Choose an appropriate preposition from the options provided at the end of each question.",
+    "stem": "He was acquitted __________ all charges.",
+    "options": ["to", "of", "in", "on"]
+  },
+  {
+    "n": 14,
+    "direction": "Choose an appropriate preposition from the options provided at the end of each question.",
+    "stem": "We are confident __________ winning the game.",
+    "options": ["of", "at", "in", "on"]
+  },
+  {
+    "n": 15,
+    "direction": "Choose an appropriate preposition from the options provided at the end of each question.",
+    "stem": "I have decided __________ my course of action.",
+    "options": ["on", "upon", "at", "in"]
+  },
+  {
+    "n": 16,
+    "direction": "Choose an appropriate preposition from the options provided at the end of each question.",
+    "stem": "He excelled __________ painting.",
+    "options": ["in", "at", "on", "for"]
+  },
+  {
+    "n": 17,
+    "direction": "Choose an appropriate preposition from the options provided at the end of each question.",
+    "stem": "The letter must be mailed __________ Monday.",
+    "options": ["on", "until", "by", "at"]
+  },
+  {
+    "n": 18,
+    "direction": "Choose an appropriate preposition from the options provided at the end of each question.",
+    "stem": "He is intent __________ repeating his attempt.",
+    "options": ["at", "in", "on", "of"]
+  },
+  {
+    "n": 19,
+    "direction": "Choose an appropriate preposition from the options provided at the end of each question.",
+    "stem": "Henry is very sparing __________ expenditure.",
+    "options": ["of", "at", "in", "under"]
+  },
+  {
+    "n": 20,
+    "direction": "Choose an appropriate preposition from the options provided at the end of each question.",
+    "stem": "We have full confidence __________ you and your abilities.",
+    "options": ["with", "in", "on", "upon"]
+  },
+  {
+    "n": 21,
+    "direction": "Fill in the blanks with the correct forms of the verbs given in the brackets. Select the answer from the given options.",
+    "stem": "Every Friday, Mr. John __________ (drive) his kids to the park.",
+    "options": ["is driving", "drove", "drives", "has been driving"]
+  },
+  {
+    "n": 22,
+    "direction": "Fill in the blanks with the correct forms of the verbs given in the brackets. Select the answer from the given options.",
+    "stem": "John arrived at Mary's house a little before 9:00 P.M. but she was not there. She __________ (study, at the library).",
+    "options": ["studied at the library", "has been studying at the library", "had studied at the library", "was studying at the library"]
+  },
+  {
+    "n": 23,
+    "direction": "Fill in the blanks with the correct forms of the verbs given in the brackets. Select the answer from the given options.",
+    "stem": "The Titanic __________ (cross) the Atlantic when it struck an iceberg.",
+    "options": ["crosses", "had been crossing", "crossed", "was crossing"]
+  },
+  {
+    "n": 24,
+    "direction": "Fill in the blanks with the correct forms of the verbs given in the brackets. Select the answer from the given options.",
+    "stem": "We __________ (be) there for more than half an hour by the time the show began.",
+    "options": ["had been", "were", "have been", "are being"]
+  },
+  {
+    "n": 25,
+    "direction": "Fill in the blanks with the correct forms of the verbs given in the brackets. Select the answer from the given options.",
+    "stem": "When I arrived home last night, I discovered that my wife __________ (prepare) a delicious dinner.",
+    "options": ["had prepared", "have prepared", "has prepared", "prepared"]
+  },
+  {
+    "n": 26,
+    "direction": "Fill in the blanks with the correct forms of the verbs given in the brackets. Select the answer from the given options.",
+    "stem": "The children __________ (cheer) loudly during the game.",
+    "options": ["cheers", "cheer", "was cheering", "will cheered"]
+  }
+]

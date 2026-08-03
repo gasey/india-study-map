@@ -1,0 +1,48 @@
+{
+  "2016:English-II": [
+    { "n": 1, "stem": "Honesty is the best policy.", "underlined": "Honesty" },
+    { "n": 2, "stem": "He is old yet he can run fast.", "underlined": "yet" },
+    { "n": 3, "stem": "We wandered about in the forest.", "underlined": "about" },
+    { "n": 4, "stem": "Can any of you help me?", "underlined": "any" },
+    { "n": 5, "stem": "He is a close relative of mine.", "underlined": "close" },
+    { "n": 6, "stem": "The earth rotates round its axis.", "underlined": "round" },
+    { "n": 7, "stem": "Parents love their children.", "underlined": "love" },
+    { "n": 8, "stem": "Alas! He is dead.", "underlined": "Alas!" },
+    { "n": 9, "stem": "The heavens are above.", "underlined": "above" },
+    { "n": 10, "stem": "Sangi is a pretty girl.", "underlined": "pretty" }
+  ],
+  "2019:English-II": [
+    { "n": 1, "stem": "There are a few boys inside the classroom.", "underlined": "few" },
+    { "n": 2, "stem": "The sound of laughter fills the air.", "underlined": "laughter" },
+    { "n": 3, "stem": "Someone has broken the window-pane.", "underlined": "Someone" },
+    { "n": 4, "stem": "I always help the weak and needy.", "underlined": "always" },
+    { "n": 5, "stem": "I shall return within a week.", "underlined": "within" },
+    { "n": 6, "stem": "The money was divided among the thieves.", "underlined": "among" },
+    { "n": 7, "stem": "A large crowd had gathered to watch the show.", "underlined": "crowd" },
+    { "n": 8, "stem": "Though he worked hard, he failed.", "underlined": "Though" },
+    { "n": 9, "stem": "I saw a huge caterpillar in the garden.", "underlined": "huge" },
+    { "n": 10, "stem": "I must finish this work tonight.", "underlined": "must" }
+  ],
+  "2021:English-II": [
+    { "n": 1, "stem": "Ask either of them to bring a pen.", "underlined": "either" },
+    { "n": 2, "stem": "Either pen is good enough.", "underlined": "Either" },
+    { "n": 3, "stem": "Both of them have gone.", "underlined": "Both" },
+    { "n": 4, "stem": "You cannot make it both ways.", "underlined": "both" },
+    { "n": 5, "stem": "One half of this task is completed.", "underlined": "half" },
+    { "n": 6, "stem": "She was half dead with fear.", "underlined": "half" },
+    { "n": 7, "stem": "The blessings came from above.", "underlined": "above" },
+    { "n": 8, "stem": "The sun was above our head at that time.", "underlined": "above" },
+    { "n": 9, "stem": "She arrived soon after.", "underlined": "after" },
+    { "n": 10, "stem": "She went away after her husband had left.", "underlined": "after" },
+    { "n": 71, "stem": "He was urgently in need to get his eye operation.", "underlined": "to get his eye operation" },
+    { "n": 72, "stem": "Asking me why I was absent, I was punished by the Headmaster.", "underlined": "why I was absent, I was punished by the Headmaster" },
+    { "n": 73, "stem": "Do you remember to meet her at my house last year?", "underlined": "remember to meet her" },
+    { "n": 74, "stem": "If you had attended the meeting, you would have benefitted a great deal.", "underlined": "would have benefitted" },
+    { "n": 75, "stem": "We should take up the first item, let us begin this song.", "underlined": "us begin this song" },
+    { "n": 76, "stem": "You must accustom yourself with new ideas.", "underlined": "accustom yourself with" },
+    { "n": 77, "stem": "Any able bodied man is eligible for the job.", "underlined": "Any able bodied man is" },
+    { "n": 78, "stem": "I, your brother and you will be partners in the business.", "underlined": "I, your brother and you" },
+    { "n": 79, "stem": "Hold hands of your child while crossing the road.", "underlined": "hands of your child" },
+    { "n": 80, "stem": "Have you not reached in time, we would have lost our lives.", "underlined": "Have you not reached" }
+  ]
+}

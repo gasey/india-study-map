@@ -1,0 +1,948 @@
+[
+ {
+  "id": "mpsc-inspector-of-taxes-2016-english-ii-q001",
+  "direction": "Name the Part of Speech of the underlined words in the following sentences:",
+  "question": "__Honesty__ is the best policy.",
+  "options": [
+   "preposition",
+   "adverb",
+   "noun",
+   "adjective"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-taxes-2016-english-ii-q002",
+  "direction": "Name the Part of Speech of the underlined words in the following sentences:",
+  "question": "He is old __yet__ he can run fast.",
+  "options": [
+   "adverb",
+   "conjunction",
+   "verb",
+   "pronoun"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-taxes-2016-english-ii-q003",
+  "direction": "Name the Part of Speech of the underlined words in the following sentences:",
+  "question": "We wandered __about__ in the forest.",
+  "options": [
+   "adjective",
+   "interjection",
+   "adverb",
+   "noun"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-taxes-2016-english-ii-q004",
+  "direction": "Name the Part of Speech of the underlined words in the following sentences:",
+  "question": "Can __any__ of you help me?",
+  "options": [
+   "preposition",
+   "pronoun",
+   "conjunction",
+   "adjective"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-taxes-2016-english-ii-q005",
+  "direction": "Name the Part of Speech of the underlined words in the following sentences:",
+  "question": "He is a __close__ relative of mine.",
+  "options": [
+   "verb",
+   "noun",
+   "adverb",
+   "adjective"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-taxes-2016-english-ii-q006",
+  "direction": "Name the Part of Speech of the underlined words in the following sentences:",
+  "question": "The earth rotates __round__ its axis.",
+  "options": [
+   "preposition",
+   "noun",
+   "verb",
+   "adverb"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-taxes-2016-english-ii-q007",
+  "direction": "Name the Part of Speech of the underlined words in the following sentences:",
+  "question": "Parents __love__ their children.",
+  "options": [
+   "noun",
+   "adjective",
+   "verb",
+   "preposition"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-taxes-2016-english-ii-q008",
+  "direction": "Name the Part of Speech of the underlined words in the following sentences:",
+  "question": "__Alas!__ He is dead.",
+  "options": [
+   "conjunction",
+   "adverb",
+   "interjection",
+   "verb"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-taxes-2016-english-ii-q009",
+  "direction": "Name the Part of Speech of the underlined words in the following sentences:",
+  "question": "The heavens are __above__.",
+  "options": [
+   "adverb",
+   "noun",
+   "preposition",
+   "adjective"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-taxes-2016-english-ii-q010",
+  "direction": "Name the Part of Speech of the underlined words in the following sentences:",
+  "question": "Sangi is a __pretty__ girl.",
+  "options": [
+   "verb",
+   "adverb",
+   "adjective",
+   "pronoun"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-taxes-2016-english-ii-q011",
+  "direction": "Fill in the blanks with the correct form of the verbs from those given in brackets:",
+  "question": "Siami __________ a good athlete. (be)",
+  "options": [
+   "am",
+   "is",
+   "are",
+   "were"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-taxes-2016-english-ii-q012",
+  "direction": "Fill in the blanks with the correct form of the verbs from those given in brackets:",
+  "question": "He __________ when we reached his house. (work)",
+  "options": [
+   "worked",
+   "is working",
+   "had worked",
+   "was working"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-taxes-2016-english-ii-q015",
+  "direction": "Fill in the blanks with the correct form of the verbs from those given in brackets:",
+  "question": "Thangi __________ here since 2010. (work)",
+  "options": [
+   "has worked",
+   "has worked",
+   "have worked",
+   "has been working"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-taxes-2016-english-ii-q016",
+  "direction": "Fill in the blanks with the correct form of the verbs from those given in brackets:",
+  "question": "Ruata waited for his friends until they __________. (arrive)",
+  "options": [
+   "have arrived",
+   "will arrive",
+   "arrived",
+   "had arrived"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-taxes-2016-english-ii-q019",
+  "direction": "Fill in the blanks with the correct form of the verbs from those given in brackets:",
+  "question": "One of the girls __________ this. (do)",
+  "options": [
+   "have done",
+   "done",
+   "has done",
+   "has did"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-taxes-2016-english-ii-q020",
+  "direction": "Fill in the blanks with the correct form of the verbs from those given in brackets:",
+  "question": "I __________ you tomorrow. (see)",
+  "options": [
+   "will be seeing",
+   "shall see",
+   "will see",
+   "would see"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-taxes-2016-english-ii-q024",
+  "direction": "Choose the correct preposition / articles to complete the sentence.",
+  "question": "We’ve lived in this flat __________ five years.",
+  "options": [
+   "ago",
+   "already",
+   "for",
+   "since"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-taxes-2016-english-ii-q025",
+  "direction": "Choose the correct preposition / articles to complete the sentence.",
+  "question": "Rema wants to cycle round the world. He’s really keen __________ the idea.",
+  "options": [
+   "about",
+   "for",
+   "on",
+   "with"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-taxes-2016-english-ii-q028",
+  "direction": "Choose the correct preposition / articles to complete the sentence.",
+  "question": "I’m looking for __________ to cut this string.",
+  "options": [
+   "a pair of scissors",
+   "a scissor",
+   "a scissors",
+   "some scissors"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-taxes-2016-english-ii-q029",
+  "direction": "Choose the correct preposition / articles to complete the sentence.",
+  "question": "I was watching TV at home when suddenly __________ rang.",
+  "options": [
+   "a doorbell",
+   "an doorbell",
+   "doorbell",
+   "the doorbell"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-taxes-2016-english-ii-q030",
+  "direction": "Choose the correct preposition / articles to complete the sentence.",
+  "question": "We haven’t had a holiday for __________ time.",
+  "options": [
+   "a so long",
+   "so a long",
+   "such a long",
+   "such long"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-taxes-2016-english-ii-q031",
+  "direction": "Name the Tense of the Verb of the following.",
+  "question": "He cut the apples into half.",
+  "options": [
+   "Present Perfect Tense",
+   "Present Indefinite Tense",
+   "Past Indefinite Tense",
+   "Past Perfect Tense"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-taxes-2016-english-ii-q032",
+  "direction": "Name the Tense of the Verb of the following.",
+  "question": "He had met her while visiting his parents in Lunglei.",
+  "options": [
+   "Past Perfect Tense",
+   "Past Perfect Continuous Tense",
+   "Present Perfect Tense",
+   "Past Indefinite Tense"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-taxes-2016-english-ii-q033",
+  "direction": "Name the Tense of the Verb of the following.",
+  "question": "Father will have left for Serchhip if I reach home at 11AM.",
+  "options": [
+   "Future Indefinite Tense",
+   "Past Perfect Tense",
+   "Future Perfect Tense",
+   "Future Perfect Continuous Tense"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-taxes-2016-english-ii-q034",
+  "direction": "Name the Tense of the Verb of the following.",
+  "question": "Did you see the mad dog?",
+  "options": [
+   "Present Indefinite Tense",
+   "Past Perfect Tense",
+   "Present Perfect Tense",
+   "Past Indefinite Tense"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-taxes-2016-english-ii-q035",
+  "direction": "Name the Tense of the Verb of the following.",
+  "question": "The baby has been crying for a long time",
+  "options": [
+   "Past Perfect Continuous Tense",
+   "Present Perfect Continuous Tense",
+   "Present Continuous Tenses",
+   "Past Continuous Tense"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-taxes-2016-english-ii-q036",
+  "direction": "Fill in the blanks choosing the correct adjectives and adverbs given",
+  "question": "The young man seems very __________.",
+  "options": [
+   "sensible",
+   "sensiblely",
+   "sensibley",
+   "sensibly"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-taxes-2016-english-ii-q037",
+  "direction": "Fill in the blanks choosing the correct adjectives and adverbs given",
+  "question": "The house was __________ building",
+  "options": [
+   "a nice old stone",
+   "a nice stone old",
+   "a stone old nice",
+   "an old nice home"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-taxes-2016-english-ii-q038",
+  "direction": "Fill in the blanks choosing the correct adjectives and adverbs given",
+  "question": "I __________ missed the bus. I was only just in time to catch it.",
+  "options": [
+   "mostly",
+   "near",
+   "nearest",
+   "nearly"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-taxes-2016-english-ii-q039",
+  "direction": "Fill in the blanks choosing the correct adjectives and adverbs given",
+  "question": "We’re really sorry. We regret what happened __________.",
+  "options": [
+   "a bit",
+   "much",
+   "very",
+   "very much"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-taxes-2016-english-ii-q040",
+  "direction": "Fill in the blanks choosing the correct adjectives and adverbs given",
+  "question": "Can you tell me __________ road will take me to the college?",
+  "options": [
+   "which",
+   "whose",
+   "what",
+   "who"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-taxes-2016-english-ii-q069",
+  "direction": "Synthesise the sentences as directed in the brackets.",
+  "question": "He is slow. He is sure. (adversative conjunction)",
+  "options": [
+   "He is slow because he is sure",
+   "He is sure and slow",
+   "He is sure still slow",
+   "He is slow but he is sure"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-taxes-2016-english-ii-q070",
+  "direction": "Synthesise the sentences as directed in the brackets.",
+  "question": "He was angry. He did not say anything. (adversative conjunction)",
+  "options": [
+   "He was angry still, he did not say anything",
+   "He did not say, anything yet he was angry",
+   "He did not say anything, however he was angry",
+   "He was angry; however, he did not say anything"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-taxes-2016-gs-ii-q012",
+  "direction": null,
+  "question": "Under which article of the Indian Constitution can the President be impeached?",
+  "options": [
+   "Article 352",
+   "Article 61",
+   "Article 33",
+   "Article 79"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-taxes-2016-gs-ii-q065",
+  "direction": null,
+  "question": "The Finance Commission of India was formulated under the provisions of Article",
+  "options": [
+   "208",
+   "218",
+   "228",
+   "280"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q001",
+  "direction": "Identify the parts of speech of each underlined words:",
+  "question": "There are a __few__ boys inside the classroom.",
+  "options": [
+   "Noun",
+   "Adverb",
+   "Adjective",
+   "Pronoun"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q002",
+  "direction": "Identify the parts of speech of each underlined words:",
+  "question": "The sound of __laughter__ fills the air.",
+  "options": [
+   "Noun",
+   "Verb",
+   "Adverb",
+   "Adjective"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q003",
+  "direction": "Identify the parts of speech of each underlined words:",
+  "question": "__Someone__ has broken the window-pane.",
+  "options": [
+   "Noun",
+   "Pronoun",
+   "Verb",
+   "Adjective"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q004",
+  "direction": "Identify the parts of speech of each underlined words:",
+  "question": "I __always__ help the weak and needy.",
+  "options": [
+   "Preposition",
+   "Adjective",
+   "Adverb",
+   "Verb"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q005",
+  "direction": "Identify the parts of speech of each underlined words:",
+  "question": "I shall return __within__ a week.",
+  "options": [
+   "Conjunction",
+   "Preposition",
+   "Adjective",
+   "Adverb"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q006",
+  "direction": "Identify the parts of speech of each underlined words:",
+  "question": "The money was divided __among__ the thieves.",
+  "options": [
+   "Adjective",
+   "Adverb",
+   "Verb",
+   "Preposition"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q007",
+  "direction": "Identify the parts of speech of each underlined words:",
+  "question": "A large __crowd__ had gathered to watch the show.",
+  "options": [
+   "Noun",
+   "Pronoun",
+   "Adverb",
+   "Adjective"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q008",
+  "direction": "Identify the parts of speech of each underlined words:",
+  "question": "__Though__ he worked hard, he failed.",
+  "options": [
+   "Preposition",
+   "Conjunction",
+   "Pronoun",
+   "Adjective"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q009",
+  "direction": "Identify the parts of speech of each underlined words:",
+  "question": "I saw a __huge__ caterpillar in the garden.",
+  "options": [
+   "Adjective",
+   "Adverb",
+   "Verb",
+   "Preposition"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q010",
+  "direction": "Identify the parts of speech of each underlined words:",
+  "question": "I __must__ finish this work tonight.",
+  "options": [
+   "Adverb",
+   "Pronoun",
+   "Verb",
+   "Preposition"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q011",
+  "direction": "Choose the appropriate preposition from the alternatives given under each sentence.",
+  "question": "Sweets were distributed __________ the children.",
+  "options": [
+   "between",
+   "with",
+   "among",
+   "alongwith"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q012",
+  "direction": "Choose the appropriate preposition from the alternatives given under each sentence.",
+  "question": "I was born ______ Thursday, 12th March.",
+  "options": [
+   "at",
+   "in",
+   "by",
+   "on"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q013",
+  "direction": "Choose the appropriate preposition from the alternatives given under each sentence.",
+  "question": "He lives in the apartment _________ mine.",
+  "options": [
+   "above",
+   "over",
+   "under",
+   "next"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q014",
+  "direction": "Choose the appropriate preposition from the alternatives given under each sentence.",
+  "question": "He was sitting __________ the road.",
+  "options": [
+   "besides",
+   "aside",
+   "astride",
+   "beside"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q015",
+  "direction": "Choose the appropriate preposition from the alternatives given under each sentence.",
+  "question": "I have been working _______ five hours.",
+  "options": [
+   "for",
+   "upto",
+   "since",
+   "until"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q016",
+  "direction": "Choose the appropriate preposition from the alternatives given under each sentence.",
+  "question": "The thief was beaten ______ a stick.",
+  "options": [
+   "by",
+   "with",
+   "to",
+   "on"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q017",
+  "direction": "Choose the appropriate preposition from the alternatives given under each sentence.",
+  "question": "I shall return _______ a week.",
+  "options": [
+   "at",
+   "on",
+   "within",
+   "by"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q018",
+  "direction": "Choose the appropriate preposition from the alternatives given under each sentence.",
+  "question": "You must abide _____ the rules of the school.",
+  "options": [
+   "to",
+   "with",
+   "on",
+   "by"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q019",
+  "direction": "Choose the appropriate preposition from the alternatives given under each sentence.",
+  "question": "He is a disgrace _____ his family.",
+  "options": [
+   "upon",
+   "to",
+   "by",
+   "at"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q020",
+  "direction": "Choose the appropriate preposition from the alternatives given under each sentence.",
+  "question": "He is blind _______ the faults of his lover.",
+  "options": [
+   "to",
+   "with",
+   "by",
+   "on"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q031",
+  "direction": "Fill in the blanks with suitable conjunctions from the alternatives given under each sentence:",
+  "question": "He tried his best ______ could not succeed.",
+  "options": [
+   "yet",
+   "hence",
+   "but",
+   "still"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q032",
+  "direction": "Fill in the blanks with suitable conjunctions from the alternatives given under each sentence:",
+  "question": "You may go now _________ your teacher has not come.",
+  "options": [
+   "and",
+   "but",
+   "lest",
+   "since"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q033",
+  "direction": "Fill in the blanks with suitable conjunctions from the alternatives given under each sentence:",
+  "question": "__________ he ran fast, he missed the bus.",
+  "options": [
+   "since",
+   "as",
+   "because",
+   "though"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q034",
+  "direction": "Fill in the blanks with suitable conjunctions from the alternatives given under each sentence:",
+  "question": "Please call me _________ you reach home.",
+  "options": [
+   "as long as",
+   "lest",
+   "as soon as",
+   "no sooner than"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q035",
+  "direction": "Fill in the blanks with suitable conjunctions from the alternatives given under each sentence:",
+  "question": "I shall not pardon you ________ you confess.",
+  "options": [
+   "because",
+   "as soon as",
+   "unless",
+   "while"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q036",
+  "direction": "Fill in the blanks choosing the correct adjectives and adverbs given:",
+  "question": "I ___________ hit him this morning with my bike.",
+  "options": [
+   "nearly",
+   "dearly",
+   "mostly",
+   "completely"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q037",
+  "direction": "Fill in the blanks choosing the correct adjectives and adverbs given:",
+  "question": "I have a _________ words to say to you.",
+  "options": [
+   "few",
+   "little",
+   "small",
+   "many"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q038",
+  "direction": "Fill in the blanks choosing the correct adjectives and adverbs given:",
+  "question": "Can you tell me __________ pen is yours?",
+  "options": [
+   "what",
+   "whose",
+   "those",
+   "which"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q039",
+  "direction": "Fill in the blanks choosing the correct adjectives and adverbs given:",
+  "question": "Can you tell me how ________ books are inside the cupboard?",
+  "options": [
+   "much",
+   "many",
+   "number of",
+   "any"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q040",
+  "direction": "Fill in the blanks choosing the correct adjectives and adverbs given:",
+  "question": "He works _______; that is why he succeeded.",
+  "options": [
+   "hardly",
+   "hardily",
+   "hard",
+   "hardfully"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q001",
+  "direction": "Fill in the blanks with the correct option",
+  "question": "Ask __either__ of them to bring a pen.",
+  "options": [
+   "Pronoun",
+   "Adjective",
+   "Noun",
+   "Conjunction"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q002",
+  "direction": "Fill in the blanks with the correct option",
+  "question": "__Either__ pen is good enough.",
+  "options": [
+   "Pronoun",
+   "Adjective",
+   "Noun",
+   "Conjunction"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q003",
+  "direction": "Fill in the blanks with the correct option",
+  "question": "__Both__ of them have gone.",
+  "options": [
+   "Noun",
+   "Conjunction",
+   "Pronoun",
+   "Adjective"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q004",
+  "direction": "Fill in the blanks with the correct option",
+  "question": "You cannot make it __both__ ways.",
+  "options": [
+   "Noun",
+   "Conjunction",
+   "Pronoun",
+   "Adjective"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q007",
+  "direction": "Fill in the blanks with the correct option",
+  "question": "The blessings came from __above__.",
+  "options": [
+   "Noun",
+   "Conjunction",
+   "Pronoun",
+   "Preposition"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q008",
+  "direction": "Fill in the blanks with the correct option",
+  "question": "The sun was __above__ our head at that time.",
+  "options": [
+   "Noun",
+   "Conjunction",
+   "Pronoun",
+   "Preposition"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q009",
+  "direction": "Fill in the blanks with the correct option",
+  "question": "She arrived soon __after__.",
+  "options": [
+   "Verb",
+   "Conjunction",
+   "Adverb",
+   "Adjective"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q010",
+  "direction": "Fill in the blanks with the correct option",
+  "question": "She went away __after__ her husband had left.",
+  "options": [
+   "Verb",
+   "Conjunction",
+   "Adverb",
+   "Adjective"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q021",
+  "direction": "Fill in the blanks with appropriate prepositions.",
+  "question": "Divide twelve mangoes _____ three boys.",
+  "options": [
+   "for",
+   "between",
+   "into",
+   "among"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q022",
+  "direction": "Fill in the blanks with appropriate prepositions.",
+  "question": "She has distrust _____ you.",
+  "options": [
+   "of",
+   "about",
+   "in",
+   "for"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q023",
+  "direction": "Fill in the blanks with appropriate prepositions.",
+  "question": "His path is beset _____ many difficulties.",
+  "options": [
+   "in",
+   "above",
+   "upon",
+   "with"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q024",
+  "direction": "Fill in the blanks with appropriate prepositions.",
+  "question": "Ram was beaten _____ by Mohan for no reason.",
+  "options": [
+   "before",
+   "down",
+   "up",
+   "over"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q025",
+  "direction": "Fill in the blanks with appropriate prepositions.",
+  "question": "They will go to Bangalore _____ a plane.",
+  "options": [
+   "on",
+   "with",
+   "in",
+   "by"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q026",
+  "direction": "Fill in the blanks with appropriate prepositions.",
+  "question": "There are tall beautiful trees _____ the river.",
+  "options": [
+   "along",
+   "into",
+   "at",
+   "over"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q027",
+  "direction": "Fill in the blanks with appropriate prepositions.",
+  "question": "John is the best _____ all the other players.",
+  "options": [
+   "above",
+   "among",
+   "between",
+   "over"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q028",
+  "direction": "Fill in the blanks with appropriate prepositions.",
+  "question": "He finished the work _____ four hours.",
+  "options": [
+   "during",
+   "on",
+   "in",
+   "with"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q029",
+  "direction": "Fill in the blanks with appropriate prepositions.",
+  "question": "Innocence is not proof _____ scandal.",
+  "options": [
+   "against",
+   "under",
+   "for",
+   "over"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q030",
+  "direction": "Fill in the blanks with appropriate prepositions.",
+  "question": "I prevailed _____ him to join our party.",
+  "options": [
+   "over",
+   "upon",
+   "with",
+   "by"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q017",
+  "direction": null,
+  "question": "Which of the following articles deals with the procedure of amendment to the constitution?",
+  "options": [
+   "Article 368",
+   "Article 369",
+   "Article 370",
+   "Article 311"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q032",
+  "direction": null,
+  "question": "The term ‘Cabinet’ is mentioned in in which of the following articles of the Constitution?",
+  "options": [
+   "Art. 74",
+   "Art. 75",
+   "Art. 352",
+   "Not mentioned in the Constitution"
+  ]
+ },
+ {
+  "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q085",
+  "direction": null,
+  "question": "Which word does NOT belong with the others?",
+  "options": [
+   "noun",
+   "preposition",
+   "punctuation",
+   "adverb"
+  ]
+ }
+]

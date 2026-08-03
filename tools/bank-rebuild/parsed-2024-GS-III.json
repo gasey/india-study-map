@@ -1,0 +1,502 @@
+[
+  {
+    "n": 1,
+    "stem": "A child is swinging back and forth on a playground swing. At what point in the swing's motion is the speed of the child at its maximum?",
+    "options": [
+      "At the lowest point of the swing",
+      "At the highest point of the swing",
+      "Midway between the highest and lowest points",
+      "Speed is constant throughout the swing"
+    ]
+  },
+  {
+    "n": 2,
+    "stem": "Which of the following is a chemical change?",
+    "options": [
+      "Melting of ice",
+      "Boiling of water",
+      "Dissolving sugar in water",
+      "Rusting of iron"
+    ]
+  },
+  {
+    "n": 3,
+    "stem": "Which of the following is not an objective of the Chandrayaan 3 Mission?",
+    "options": [
+      "To demonstrate Safe and Soft Landing on Lunar Surface.",
+      "To demonstrate Rover roving on the moon.",
+      "To conduct in-situ scientific experiments.",
+      "To study the lunar atmosphere."
+    ]
+  },
+  {
+    "n": 4,
+    "stem": "What type of biological molecule acts as a catalyst, speeding up chemical reactions in living organisms?",
+    "options": [
+      "Enzyme",
+      "Hormone",
+      "Antibody",
+      "Lipid"
+    ]
+  },
+  {
+    "n": 5,
+    "stem": "What is the primary goal of Machine Learning (ML)?",
+    "options": [
+      "To replicate human intelligence exactly",
+      "To automate tasks without human intervention",
+      "To enable computers to learn from data and improve performance over time",
+      "To create robots that can think and feel like humans"
+    ]
+  },
+  {
+    "n": 6,
+    "stem": "A specific learning technique that require several layers of neurons to increase learnable parameters with huge datasets is called -",
+    "options": [
+      "Machine learning",
+      "Artificial Neural Network",
+      "Deep learning",
+      "Python"
+    ]
+  },
+  {
+    "n": 7,
+    "stem": "A technique to generate high-resolution surface image of earth by expanding the radar aparture through motion of the mounting vehicle and the image quality not being affected by weather condition is -",
+    "options": [
+      "Light Detection and Ranging",
+      "Synthetic Aperture Radar",
+      "Optical Telescopic Vision",
+      "Electron Macroscopy"
+    ]
+  },
+  {
+    "n": 8,
+    "stem": "What is the ambitious plan approved by the government of India in 2006 for improving services provided to the people by the government through the use of Information Technology?",
+    "options": [
+      "National e-Governance Plan",
+      "e-Lekha Plan",
+      "Bharat e-Gov Plan",
+      "Indian e-Governance Development Plan"
+    ]
+  },
+  {
+    "n": 9,
+    "stem": "Regarding which ransomware virus, the CERT-in issued advisory?",
+    "options": [
+      "Akita",
+      "Akira",
+      "Antaki",
+      "Kimino"
+    ]
+  },
+  {
+    "n": 10,
+    "stem": "Which underlying technology powers interactive AI such as ChatGPT, etc.?",
+    "options": [
+      "Quantum computing",
+      "Artificial Neural Networks (ANNs)",
+      "Blockchain",
+      "Genetic algorithms"
+    ]
+  },
+  {
+    "n": 11,
+    "stem": "Who is the father of Indian nanotechnology?",
+    "options": [
+      "Shrinivas Ramanujan",
+      "Prof. C.N.R. Rao",
+      "C.V. Raman",
+      "Amartya Sen"
+    ]
+  },
+  {
+    "n": 12,
+    "stem": "National Technology Day is observed every year on which date?",
+    "options": [
+      "28 February",
+      "11 May",
+      "16 February",
+      "17 August"
+    ]
+  },
+  {
+    "n": 13,
+    "stem": "During the Pokhran – II nuclear test on 11th May 1998, how many nuclear bombs were successfully tested?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ]
+  },
+  {
+    "n": 14,
+    "stem": "Crydoductylus vairengtensis is the new ______________ endemic to Mizoram discovered in Mizoram in November 2023.",
+    "options": [
+      "Fish species",
+      "Orchid species",
+      "Gecko species",
+      "Earthworm"
+    ]
+  },
+  {
+    "n": 15,
+    "stem": "India joined the Artemis Accords (an international effort on space exploration led by NASA) on which date?",
+    "options": [
+      "21st June 2023",
+      "7th September 2023",
+      "12th January 2024",
+      "22nd March 2024"
+    ]
+  },
+  {
+    "n": 16,
+    "stem": "A laboratory-based technology that involves the alteration of an organism's DNA is termed as -",
+    "options": [
+      "Cell therapy",
+      "Gene therapy",
+      "Genetic Engineering",
+      "Stem Cell Engineering"
+    ]
+  },
+  {
+    "n": 17,
+    "stem": "The name of the programme launched to promote Artificial Intelligence in India:",
+    "options": [
+      "ChatGPT",
+      "Pytorch",
+      "INDIAai",
+      "BharatAI"
+    ]
+  },
+  {
+    "n": 18,
+    "stem": "The technology developed by Dr Lalji Singh that found wide application in forensic investigation is -",
+    "options": [
+      "DNA finger printing technology",
+      "Restriction enzyme technology",
+      "DNA barcoding technology",
+      "Whole genome sequencing technology"
+    ]
+  },
+  {
+    "n": 19,
+    "stem": "A new species of deep-sea isopod, Brucethoa Isro, named after the Indian Space Research Organisation was discovered in which South Indian state?",
+    "options": [
+      "Andra Pradesh",
+      "Tamil Nadu",
+      "Karnataka",
+      "Kerala"
+    ]
+  },
+  {
+    "n": 20,
+    "stem": "The Indian lip-syncing humanoid robot invented by Ranjit Shrivastava, a Ranchi-based software engineer is -",
+    "options": [
+      "Shalu robot",
+      "Rashmi robot",
+      "Sophia",
+      "Mitra"
+    ]
+  },
+  {
+    "n": 21,
+    "stem": "In ancient Mizo tradition, sacrifice offered in order to receive blessing in farming is called-",
+    "options": [
+      "Kawngpui siam",
+      "Fano dawi",
+      "Khawkheng thawi",
+      "Dawino chhui"
+    ]
+  },
+  {
+    "n": 22,
+    "stem": "In early Mizo society, women were not supposed to enter -",
+    "options": [
+      "Zawlbuk",
+      "Pum",
+      "Sumhmun",
+      "Se huang"
+    ]
+  },
+  {
+    "n": 23,
+    "stem": "Grouping of villages was introduced in Mizoram from -",
+    "options": [
+      "March, 1966",
+      "April, 1966",
+      "January, 1967",
+      "April, 1967"
+    ]
+  },
+  {
+    "n": 24,
+    "stem": "The complete translation of the Bible into Mizo language was published in the year -",
+    "options": [
+      "1956",
+      "1957",
+      "1958",
+      "1959"
+    ]
+  },
+  {
+    "n": 25,
+    "stem": "The first newspaper published in Mizoram was-",
+    "options": [
+      "Mizo leh Vai Chanchinbu",
+      "Mizo Chanchin Laisuih",
+      "Zoram Thupuan",
+      "MZP Chanchinbu"
+    ]
+  },
+  {
+    "n": 26,
+    "stem": "Which of these is a Mizo musical instrument?",
+    "options": [
+      "Tungchaw",
+      "Berhbu",
+      "Lemlawi",
+      "Chumchi"
+    ]
+  },
+  {
+    "n": 27,
+    "stem": "In early Mizo tradition, to adopt the religion of another clan is called-",
+    "options": [
+      "Sakung",
+      "Sedawi",
+      "Saphun",
+      "Sekhuan"
+    ]
+  },
+  {
+    "n": 28,
+    "stem": "Mizo Academy of Letter's Book of the Year, 2023 recipient is-",
+    "options": [
+      "Zohmangaihi",
+      "Ahmangaihi Khiangte",
+      "Lalhruaitluanga Chawngte",
+      "Lalrammawia Ngente"
+    ]
+  },
+  {
+    "n": 29,
+    "stem": "Which one of the following is Mizoram state animal?",
+    "options": [
+      "Sathar",
+      "Sakei",
+      "Saza",
+      "Sazuk"
+    ]
+  },
+  {
+    "n": 30,
+    "stem": "A flask made from the horn of a bison or mithun used to carry gunpowder is-",
+    "options": [
+      "Fungki",
+      "Kingkawt",
+      "Sahmim",
+      "Paitung"
+    ]
+  },
+  {
+    "n": 31,
+    "stem": "The Superintendent of Lushai Hills, author of 'Lushai Chrysalis' is-",
+    "options": [
+      "AG McCall",
+      "Lt. Col. Treagear",
+      "NE Parry",
+      "ARH McDonald"
+    ]
+  },
+  {
+    "n": 32,
+    "stem": "The first political party, Mizo Union was established in-",
+    "options": [
+      "1946",
+      "1947",
+      "1948",
+      "1945"
+    ]
+  },
+  {
+    "n": 33,
+    "stem": "The Lakher Pioneer Mission was started by-",
+    "options": [
+      "JH Lorrain",
+      "FW Savidge",
+      "DE Jones",
+      "RA Lorrain"
+    ]
+  },
+  {
+    "n": 34,
+    "stem": "Which expedition was sent to the Lushai Hills in retaliation to the capture of Mary Winchester?",
+    "options": [
+      "The Lushai Expedition of 1871-72",
+      "The Expedition of 1869",
+      "The Chin-Lushai Expedition 1889 -1890",
+      "The Lister's Expedition 1850"
+    ]
+  },
+  {
+    "n": 35,
+    "stem": "The Mizo gave T.H. Lewin a nickname (Mizo name) called-",
+    "options": [
+      "Tarmita",
+      "Thangliana",
+      "Lalmantua",
+      "Sap Upa"
+    ]
+  },
+  {
+    "n": 36,
+    "stem": "Who was responsible for the abolition of Bawi in Mizoram?",
+    "options": [
+      "J. Shakespeare",
+      "A.G. Mc Call",
+      "Peter Fraser",
+      "ARH McDonald"
+    ]
+  },
+  {
+    "n": 37,
+    "stem": "The great darkness that happened in the earth in Mizo folktale was called-",
+    "options": [
+      "Khawzing",
+      "Thimzing",
+      "Thlazing",
+      "Khawzim"
+    ]
+  },
+  {
+    "n": 38,
+    "stem": "The Mizo spinning wheel for spinning cotton into yarns is called-",
+    "options": [
+      "Suvel",
+      "Herawt",
+      "Ladinlek",
+      "Hmui"
+    ]
+  },
+  {
+    "n": 39,
+    "stem": "The first and only person among the Mizos who has received 'Padma Bhushan' is-",
+    "options": [
+      "Brig. T. Sailo",
+      "Rev. Dr. Zairema",
+      "PS Chawngthu",
+      "Capt. LZ Sailo"
+    ]
+  },
+  {
+    "n": 40,
+    "stem": "'Khuallam' is also known as-",
+    "options": [
+      "Chawnglaizawn",
+      "Solakia",
+      "Thingdim",
+      "Chai"
+    ]
+  },
+  {
+    "n": 41,
+    "direction": "Directions (Question No. 41): What comes in place of questions mark(?) in the series given below?",
+    "stem": "AZ, BY, CX, ?",
+    "options": [
+      "EW",
+      "DW",
+      "GH",
+      "EU"
+    ]
+  },
+  {
+    "n": 42,
+    "direction": "Directions (Question No. 42): In the following question, two words are paired which have a certain relation. Select a correct option to substitute a question mark, so as to make a similar relational pair with the word given after double colon (: :)",
+    "stem": "Right : Duty: : Power : ?",
+    "options": [
+      "Wrong",
+      "Powerless",
+      "Weak",
+      "Liability"
+    ]
+  },
+  {
+    "n": 43,
+    "stem": "Find out how will the key figure (X) look like after rotation.",
+    "options": [],
+    "figureBased": true
+  },
+  {
+    "n": 44,
+    "stem": "Oar is to rowboat as foot is to:",
+    "options": [
+      "Running",
+      "Sneaker",
+      "Skateboard",
+      "Jumping"
+    ]
+  },
+  {
+    "n": 45,
+    "direction": "Directions (Question No. 45): In the questions given below, find the correct answer out of the four answer figures, if the problem figures continue in the same sequence.",
+    "stem": "Problem Figures",
+    "options": [],
+    "figureBased": true
+  },
+  {
+    "n": 46,
+    "direction": "Directions (Question Nos. 46 & 47) : Find the missing term in each of the following series:",
+    "stem": "1, 2, 9, 28, ...?..., 126, 217",
+    "options": [
+      "65",
+      "271",
+      "56",
+      "172"
+    ]
+  },
+  {
+    "n": 47,
+    "direction": "Directions (Question Nos. 46 & 47) : Find the missing term in each of the following series:",
+    "stem": "44, 40, 34, ...?..., 16, 4",
+    "options": [
+      "26",
+      "21",
+      "28",
+      "19"
+    ]
+  },
+  {
+    "n": 48,
+    "direction": "Directions (Question. Nos. 48 - 50): Each of the following questions consists of a pair of words. Establish the relationship among the given pair and identify the pair that best illustrates a similar relationship from amongst the alternatives.",
+    "stem": "Libertine : Immortality : :",
+    "options": [
+      "victim : depravation",
+      "miser : selfishness",
+      "altruist : selflessness",
+      "policeman : law"
+    ]
+  },
+  {
+    "n": 49,
+    "direction": "Directions (Question. Nos. 48 - 50): Each of the following questions consists of a pair of words. Establish the relationship among the given pair and identify the pair that best illustrates a similar relationship from amongst the alternatives.",
+    "stem": "Author : Manuscript : :",
+    "options": [
+      "optician : eyesight",
+      "engineer : bridge",
+      "architect : blueprint",
+      "doctor : stethoscope"
+    ]
+  },
+  {
+    "n": 50,
+    "direction": "Directions (Question. Nos. 48 - 50): Each of the following questions consists of a pair of words. Establish the relationship among the given pair and identify the pair that best illustrates a similar relationship from amongst the alternatives.",
+    "stem": "Tally : Votes : :",
+    "options": [
+      "census : population",
+      "government : administration",
+      "taxation : revenue",
+      "team : sports"
+    ]
+  }
+]

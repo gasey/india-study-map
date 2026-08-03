@@ -9,6 +9,136 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-08-04 (later) — State Tax Officer: rebuilt the 2016/2019/2021 papers (phase B, no official key)
+
+**What shipped:**
+- Completed the rebuild started earlier the same day (see entry below): all
+  three remaining sittings — Inspector of Taxes Jan-2016, Excise & Narcotics
+  Nov-2019, Excise & Narcotics Feb-2021 — are now rebuilt from the source PDFs'
+  text layer via `parse_native.py`, with option order re-verified against the
+  actual paper (`validate.py parsed`: 1,092/1,100 checked, 0 mismatches).
+- `merge_native.py` refused to carry old `answerIndex` values across
+  positionally — it matched old answers to new option text and dropped 129 with
+  no unambiguous match. Those, plus every genuinely new question recovered, were
+  split into 10 subject batches (`tools/bank-rebuild/solve/*.json`) and answered
+  by agents grounded in the source text, with heavy web search for the ~48
+  Mizoram-specific GK questions (Mizo history, customs, folklore, colonial-era
+  events) that aren't answerable from general knowledge.
+- **1,579 total questions now, 548 newly solved this pass** (`answerSource:
+  'derived'`, no official key exists for these three sittings). Confidence is
+  recorded per question but not yet surfaced in the UI — see open items.
+- `apply.py` folded all 10 solved batches into the generated `.ts`, still
+  chunked at 200/array to dodge `TS2590`. `npx tsc --noEmit` clean.
+
+**Why:** continuation of the same-day rebuild — these three sittings were
+deliberately deprioritized in the first pass because they have no official
+answer key, so every recovered question needed to be solved rather than looked
+up. The `tools/bank-rebuild/` pipeline and `SOLVE_BRIEF.md` (rules for solver
+agents: never reorder options, be honest about confidence, don't fabricate)
+were already checked in from that first pass.
+
+**What's still open:**
+- ~26 low-confidence and ~40 medium-confidence answers among the 548 are
+  genuinely uncertain (agents flagged them honestly rather than guessing
+  high-confidence) — worth a human review pass, especially the Mizoram-specific
+  trivia batch where source material is thin.
+- A handful of questions are unanswerable as extracted — missing figures/data
+  tables that the OCR/text-layer never captured (`aptitude` q093/q098,
+  `scitech`'s figure-matrix and colour-count questions). They got placeholder
+  answers marked low-confidence rather than being silently dropped; flagging
+  them for removal or figure re-transcription is unresolved.
+- `validate.py bank` still reports 11 pre-existing hygiene issues (duplicate
+  options, blank options, page-furniture in a stem) inherited from the source
+  PDFs' own printing errors — not introduced by this rebuild, left as-is per
+  the pipeline's design (only the rebuilt papers' invariants are enforced).
+- Per-question `confidence` isn't shown anywhere in the app yet — currently
+  only used to decide low vs. high effort during solving. Surfacing it (e.g. a
+  subtle badge next to `derived`) would help a student judge which answers to
+  double-check.
+- Finer sub-topic tagging (232 history questions still under one `gs1_history`
+  topic) remains not done, same as the phase-A entry below.
+- Not yet committed to git — `tools/bank-rebuild/` and the modified `.ts`/
+  `types.ts`/`StateTaxOfficerEnhanced.tsx`/`state-tax-officer.css` are sitting
+  as local changes pending review.
+
+---
+
+## 2026-08-04 — State Tax Officer: rebuilt the 2024 + 2025 papers from source, official answer keys
+
+**What shipped:**
+- Audited the `mpsc-state-tax-officer` bank against the source exam PDFs and
+  found the OCR pipeline had been **silently dropping questions**, not just
+  garbling text. The extractor mis-split multi-column scans, so one option
+  field swallowed the next several questions whole — e.g. `...2016-gs-iii-q040`
+  stored exam questions 47, 48 and 49 *inside* its option (b). Because ids were
+  re-indexed `q001…qN` per paper, there were no numbering gaps to reveal it.
+  Measured loss: ~280 questions across the five sittings, plus 68 surviving
+  questions visibly broken (28 with `answerIndex: -1`, 10 with blank options,
+  11 with duplicate options).
+- **Rebuilt the Jul-2024 (Group B Combined) and Aug-2025 (Excise & Narcotics)
+  sittings from ground truth.** 362 questions replaced; bank 1,286 → 1,310.
+  The 2025 PDFs turned out to have a real text layer, so those 186 questions are
+  parsed exactly by script — no OCR, no model. The 2024 scans were transcribed
+  from the page images.
+- **336 answers now come from the published MPSC final answer keys** rather than
+  being pipeline-guesses. This exposed **32 questions the app was teaching
+  wrong** — e.g. Mizoram's state animal was marked *Sakei* (tiger); the official
+  answer is *Saza* (serow). Those answers were replaced and their old
+  explanations (which argued for the wrong answer) discarded and rewritten.
+- New schema fields on `BankQuestionBase`: `answerSource: 'official' | 'derived'`
+  + `answerKeyRef` (badged in the UI, so a guess never looks like a key),
+  `figureBased` (non-verbal reasoning whose options are diagrams — browsable but
+  excluded from scored mock tests, instead of being filled with OCR debris),
+  `compensated` (MPSC withdrew the question and gave the mark to everyone;
+  `answerIndex: -1`), and `disputeNote`.
+- **Fixed a rendering bug affecting 100 existing questions:** `renderEmphasis`
+  used `__(.+?)__` for underline markup, which matches *inside* a
+  fill-in-the-blank run like `__________`, eating the blank and leaving a stray
+  underlined `_`. Tightened to `__([^_]+)__`.
+- The `Direction (Question Nos. 11-20): …` headers that MPSC prints above a run
+  of questions are now captured into `passage` and rendered (new `StemContext`)
+  in both the Question Bank and the mock runner — 73 questions have one. Without
+  it, "The property was divided ______ the two brothers" gives no hint what is
+  being tested, and the data-interpretation questions are unanswerable.
+- The rebuild pipeline is checked in at `tools/bank-rebuild/` with a README.
+  Re-running it reproduces the current `.ts` byte for byte.
+
+**Why:** the user reported "some options are deranged and not showing properly
+... and the ocr is wrong". Investigating turned up something worse than bad
+rendering — a quarter of the question bank was missing and never noticed.
+Scope was deliberately limited to the two sittings that have official answer
+keys, so this pass involves zero guessed answers (bar the 26 English ones).
+
+**Gotchas worth remembering:**
+- `src/data/banks/mpsc-state-tax-officer.ts` is now a **generated file**. Edit
+  the inputs in `tools/bank-rebuild/`, not the output.
+- The emitted `.ts` splits questions into chunked `BankQuestion[]` arrays of 200.
+  A single 1,300-element literal trips `TS2590: Expression produces a union type
+  that is too complex to represent` — `BankQuestion` is a union and `subject` is
+  itself a wide union, so tsc's work scales with the size of one expression.
+  Don't tidy it back into one array.
+- `apply.py` enforces invariants only on the papers it rebuilt. The 2016/2019/
+  2021 papers still fail them (that's the outstanding damage), so a global check
+  would block the write forever.
+
+**What's still open:**
+- **2016 / 2019 / 2021 are NOT rebuilt** — ~268 questions still missing and 60-odd
+  still broken (`answerIndex: -1`, blank/run-on options). No official answer keys
+  exist for those sittings, so every recovered question would need solving and
+  would be `answerSource: 'derived'`. That is the next chunk of work.
+- The 2024 General English paper has no published key; its 26 questions were
+  solved and are badged inferred. One (`...2024-english-q026`) has a genuinely
+  broken option set in the original paper.
+- Two questions carry `disputeNote` where the official key looks factually wrong
+  (largest GDP contributor marked Secondary rather than Tertiary; MSS described
+  as *purchasing* securities rather than issuing them). The official answer is
+  kept — it is what the real exam marked — with the objection shown.
+- Finer sub-topic tagging (the other half of the original ask) is not done:
+  232 history questions still sit under one `gs1_history` topic.
+- Still no automated tests for any of this; verified by browser click-through.
+
+---
+
 ## 2026-08-03 (later) — Setu nav refactor: grouped Study/Practice nav, Question Bank tab
 
 **What shipped:**

@@ -50,6 +50,16 @@
 .dark .sto-pill.sto-conf-high { color: #6cc48d; }
 .dark .sto-pill.sto-conf-medium { color: #d8ad52; }
 .dark .sto-pill.sto-conf-low { color: #e08585; }
+/* An answer straight from a published MPSC key. Filled rather than outlined,
+   so it reads as categorically different from the inferred-confidence pills
+   above it and not merely as "more confident". */
+.sto-pill.sto-conf-official {
+  color: #fff;
+  background: #2e7d4f;
+  border-color: transparent;
+  font-weight: 600;
+}
+.dark .sto-pill.sto-conf-official { color: #0c1a12; background: #6cc48d; }
 .sto-pill.sto-priority-critical { color: #fff; background: #a33232; border-color: transparent; }
 .sto-pill.sto-priority-high { color: #fff; background: #9a6b12; border-color: transparent; }
 .sto-pill.sto-priority-medium,

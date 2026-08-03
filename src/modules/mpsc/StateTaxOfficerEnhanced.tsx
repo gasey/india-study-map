@@ -18,7 +18,7 @@ interface Props {
   papers: ExamPaper[];
 }
 
-type PrepTab = 'overview' | 'primers' | 'bank' | 'descriptive' | 'exam-browse' | 'yearly-browse' | 'mock' | 'progress' | 'admin';
+type PrepTab = 'overview' | 'primers' | 'bank' | 'descriptive' | 'exam-browse' | 'yearly-browse' | 'paper-browse' | 'mock' | 'progress' | 'admin';
 type MockState = 'setup' | 'running' | 'review';
 interface MockResults {
   correct: number; wrong: number; unattempted: number; score: number; total: number;
@@ -110,6 +110,101 @@ function answerProvenance(q: BankQuestion): { label: string; cls: string; title:
   };
 }
 
+/**
+ * One MCQ's full card — stem, options, provenance badges, expandable
+ * explanation, review panel. Shared by the Question Bank tab and the By
+ * Paper browse tab so a question looks identical wherever it's browsed from.
+ */
+function QuestionCard({
+  q, questionExamName, questionSitting, corrections, isOpen, onToggle,
+}: {
+  q: McqBankQuestion;
+  questionExamName: (q: BankQuestion) => string;
+  questionSitting: (q: BankQuestion) => ExamPaper | null;
+  corrections: Record<string, Correction>;
+  isOpen: boolean;
+  onToggle: () => void;
+}) {
+  const paper = questionSitting(q);
+  const correction = corrections[q.id];
+  return (
+    <div className="sto-card space-y-2">
+      <div className="flex items-center gap-2 flex-wrap text-xs">
+        <span className={`sto-pill sto-subject ${subjectClass(q.topic)}`}>{q.topic?.replace(/_/g, ' ')}</span>
+        {(() => {
+          const prov = answerProvenance(q);
+          return <span className={`sto-pill ${prov.cls}`} title={prov.title}>{prov.label}</span>;
+        })()}
+        {q.figureBased && (
+          <span className="sto-pill sto-conf-low" title="The printed options are diagrams, so they can't be shown as text here. Open the original paper to attempt it.">
+            ▦ figure-based
+          </span>
+        )}
+        {q.compensated && (
+          <span className="sto-pill sto-conf-medium" title="MPSC withdrew this question and gave the mark to every candidate. It has no correct answer and is excluded from mock tests.">
+            ⊘ compensated by MPSC
+          </span>
+        )}
+        {q.sourceDefect === 'duplicate-options' && (
+          <span className="sto-pill sto-conf-medium" title="The printed paper offers the same option twice. This is the paper's own misprint, reproduced faithfully — the question can't be answered as set, so it's excluded from mock tests.">
+            ⚠ misprint in original paper
+          </span>
+        )}
+        {correction && <span className="sto-pill" style={{ color: '#2e7d4f', borderColor: '#2e7d4f' }}>✓ corrected by admin</span>}
+        <span className="ml-auto" style={{ color: 'var(--text-secondary)' }}>
+          {questionExamName(q)}{paper?.year ? `, ${paper.year}` : ''}
+        </span>
+      </div>
+      {q.passage && <StemContext text={q.passage} />}
+      <p className="text-sm font-medium">{renderEmphasis(q.question)}</p>
+      {q.figureBased ? (
+        <p className="text-xs italic p-2 rounded" style={{ background: 'var(--bg-panel-elev)', color: 'var(--text-secondary)' }}>
+          This question's options are printed as diagrams, so they can't be shown as text.
+          {q.answerSource === 'official' && typeof q.answerIndex === 'number' &&
+            ` The official key gives (${String.fromCharCode(97 + q.answerIndex)}).`}
+        </p>
+      ) : (
+        <div className="space-y-1.5">
+          {q.options.map((opt, j) => (
+            <div key={j} className={`sto-opt ${j === q.answerIndex ? 'sto-opt-correct' : ''}`}>
+              <span className="sto-opt-letter">{String.fromCharCode(97 + j)}</span>
+              <span>{opt}</span>
+            </div>
+          ))}
+        </div>
+      )}
+      {q.compensated && (
+        <p className="text-xs italic" style={{ color: 'var(--text-secondary)' }}>
+          No option is marked correct: MPSC withdrew this question and awarded the mark to every candidate.
+        </p>
+      )}
+      {q.disputeNote && (
+        <p className="text-xs p-2 rounded" style={{ background: 'var(--bg-panel-elev)', color: 'var(--text-secondary)', borderLeft: '2px solid #9a6b12' }}>
+          <strong>Disputed:</strong> {q.disputeNote} The marked answer is still the one MPSC published.
+        </p>
+      )}
+      {correction?.note && (
+        <div className="text-xs p-2 rounded" style={{ background: 'var(--accent-soft)', color: 'var(--text-primary)' }}>
+          <strong>Admin note:</strong> {correction.note}
+        </div>
+      )}
+      <button
+        onClick={onToggle}
+        className="text-xs font-medium"
+        style={{ color: 'var(--accent)' }}
+      >
+        {isOpen ? '▾ Hide explanation' : '▸ Show explanation'}
+      </button>
+      {isOpen && (
+        <div className="text-sm p-2.5 rounded" style={{ background: 'var(--bg-app)', color: 'var(--text-secondary)' }}>
+          {q.explanation}
+        </div>
+      )}
+      <QuestionReviewPanel bankId={BANK_ID} questionId={q.id} options={q.options} />
+    </div>
+  );
+}
+
 export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
   const [searchParams] = useSearchParams();
   const initialTab = searchParams.get('tab');
@@ -159,20 +254,21 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
   // Every question in this bank already IS the State Tax Officer prep set —
   // no further source filtering needed (the old q.source-based filter here
   // was always a no-op/broken since every row shares one hardcoded source).
-  // Essay/précis-letter items are genuinely descriptive (no single correct
-  // answerIndex) — excluded from the scored MCQ pool, shown in their own tab.
+  // Split by `type`, not by topic — essay/précis-letter items and lettered
+  // comprehension sub-parts are all genuinely `type: 'descriptive'` (no
+  // single correct answerIndex), so they're excluded from the scored MCQ
+  // pool and shown in the Descriptive tab regardless of which topic tag
+  // they carry (a topic-based filter here previously missed comprehension
+  // items entirely, since they aren't tagged 'essay' or 'eng_precis_letter').
   const stateTaxQuestions = useMemo(
-    () =>
-      correctedAllQuestions
-        .filter((q) => q.topic !== 'essay' && q.topic !== 'eng_precis_letter')
-        .filter(isMcqQuestion),
+    () => correctedAllQuestions.filter(isMcqQuestion),
     [correctedAllQuestions],
   );
 
   const descriptiveQuestions = useMemo(
     () =>
       correctedAllQuestions.filter(
-        (q): q is DescriptiveBankQuestion => q.topic === 'essay' || q.topic === 'eng_precis_letter',
+        (q): q is DescriptiveBankQuestion => q.type === 'descriptive',
       ),
     [correctedAllQuestions],
   );
@@ -190,13 +286,19 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
   const questionExamName = (q: BankQuestion) => (q.paperId && examByPaperId.get(q.paperId)) || 'Unknown exam';
   const questionSitting = (q: BankQuestion) => (q.paperId && papers.find((p) => p.id === q.paperId)) || null;
 
+  // Sourced from both questions and papers, so a sitting whose only captured
+  // paper is a descriptive-only one (e.g. General English Paper I) still
+  // shows up on the By Year / By Paper browse tabs.
   const years = useMemo(() => {
     const y = new Set<number>();
     stateTaxQuestions.forEach((q) => {
       if (q.year) y.add(q.year);
     });
+    papers.forEach((p) => {
+      if (p.year) y.add(p.year);
+    });
     return Array.from(y).sort((a, b) => b - a);
-  }, [stateTaxQuestions]);
+  }, [stateTaxQuestions, papers]);
 
   const exams = useMemo(() => {
     const e = new Set<string>();
@@ -270,7 +372,7 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
         <div className="flex gap-6 px-5 py-3">
           {(
             [
-              'overview', 'primers', 'bank', 'descriptive', 'exam-browse', 'yearly-browse', 'mock', 'progress',
+              'overview', 'primers', 'bank', 'descriptive', 'exam-browse', 'yearly-browse', 'paper-browse', 'mock', 'progress',
               ...(user?.role === 'admin' ? (['admin'] as const) : []),
             ] as const
           ).map((t) => (
@@ -292,6 +394,7 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
               {t === 'descriptive' && '📄 Descriptive & Essay'}
               {t === 'exam-browse' && '🏛️ By Exam'}
               {t === 'yearly-browse' && '📅 By Year'}
+              {t === 'paper-browse' && '📑 By Paper'}
               {t === 'mock' && '🧪 Mock Tests'}
               {t === 'progress' && '📊 Progress'}
               {t === 'admin' && '🛡️ Admin'}
@@ -320,6 +423,18 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
           <ExamBrowseTab questions={stateTaxQuestions} exams={exams} questionExamName={questionExamName} onStartTest={startMockTest} />
         )}
         {prepTab === 'yearly-browse' && <YearlyBrowseTab questions={stateTaxQuestions} years={years} onStartTest={startMockTest} />}
+        {prepTab === 'paper-browse' && (
+          <PaperBrowseTab
+            questions={stateTaxQuestions}
+            descriptiveQuestions={descriptiveQuestions}
+            papers={papers}
+            years={years}
+            questionExamName={questionExamName}
+            questionSitting={questionSitting}
+            corrections={corrections}
+            onStartTest={startMockTest}
+          />
+        )}
         {prepTab === 'mock' && mockState === 'setup' && (
           <MockSetupTab questions={stateTaxQuestions} onStartTest={startMockTest} />
         )}
@@ -524,87 +639,17 @@ function QuestionBankTab({
       </div>
 
       <div className="space-y-3">
-        {visible.map((q, i) => {
-          const isOpen = expanded.has(i);
-          const paper = questionSitting(q);
-          const correction = corrections[q.id];
-          return (
-            <div key={q.id} className="sto-card space-y-2">
-              <div className="flex items-center gap-2 flex-wrap text-xs">
-                <span className={`sto-pill sto-subject ${subjectClass(q.topic)}`}>{q.topic?.replace(/_/g, ' ')}</span>
-                {(() => {
-                  const prov = answerProvenance(q);
-                  return <span className={`sto-pill ${prov.cls}`} title={prov.title}>{prov.label}</span>;
-                })()}
-                {q.figureBased && (
-                  <span className="sto-pill sto-conf-low" title="The printed options are diagrams, so they can't be shown as text here. Open the original paper to attempt it.">
-                    ▦ figure-based
-                  </span>
-                )}
-                {q.compensated && (
-                  <span className="sto-pill sto-conf-medium" title="MPSC withdrew this question and gave the mark to every candidate. It has no correct answer and is excluded from mock tests.">
-                    ⊘ compensated by MPSC
-                  </span>
-                )}
-                {q.sourceDefect === 'duplicate-options' && (
-                  <span className="sto-pill sto-conf-medium" title="The printed paper offers the same option twice. This is the paper's own misprint, reproduced faithfully — the question can't be answered as set, so it's excluded from mock tests.">
-                    ⚠ misprint in original paper
-                  </span>
-                )}
-                {correction && <span className="sto-pill" style={{ color: '#2e7d4f', borderColor: '#2e7d4f' }}>✓ corrected by admin</span>}
-                <span className="ml-auto" style={{ color: 'var(--text-secondary)' }}>
-                  {questionExamName(q)}{paper?.year ? `, ${paper.year}` : ''}
-                </span>
-              </div>
-              {q.passage && <StemContext text={q.passage} />}
-              <p className="text-sm font-medium">{renderEmphasis(q.question)}</p>
-              {q.figureBased ? (
-                <p className="text-xs italic p-2 rounded" style={{ background: 'var(--bg-panel-elev)', color: 'var(--text-secondary)' }}>
-                  This question's options are printed as diagrams, so they can't be shown as text.
-                  {q.answerSource === 'official' && typeof q.answerIndex === 'number' &&
-                    ` The official key gives (${String.fromCharCode(97 + q.answerIndex)}).`}
-                </p>
-              ) : (
-                <div className="space-y-1.5">
-                  {q.options.map((opt, j) => (
-                    <div key={j} className={`sto-opt ${j === q.answerIndex ? 'sto-opt-correct' : ''}`}>
-                      <span className="sto-opt-letter">{String.fromCharCode(97 + j)}</span>
-                      <span>{opt}</span>
-                    </div>
-                  ))}
-                </div>
-              )}
-              {q.compensated && (
-                <p className="text-xs italic" style={{ color: 'var(--text-secondary)' }}>
-                  No option is marked correct: MPSC withdrew this question and awarded the mark to every candidate.
-                </p>
-              )}
-              {q.disputeNote && (
-                <p className="text-xs p-2 rounded" style={{ background: 'var(--bg-panel-elev)', color: 'var(--text-secondary)', borderLeft: '2px solid #9a6b12' }}>
-                  <strong>Disputed:</strong> {q.disputeNote} The marked answer is still the one MPSC published.
-                </p>
-              )}
-              {correction?.note && (
-                <div className="text-xs p-2 rounded" style={{ background: 'var(--accent-soft)', color: 'var(--text-primary)' }}>
-                  <strong>Admin note:</strong> {correction.note}
-                </div>
-              )}
-              <button
-                onClick={() => toggle(i)}
-                className="text-xs font-medium"
-                style={{ color: 'var(--accent)' }}
-              >
-                {isOpen ? '▾ Hide explanation' : '▸ Show explanation'}
-              </button>
-              {isOpen && (
-                <div className="text-sm p-2.5 rounded" style={{ background: 'var(--bg-app)', color: 'var(--text-secondary)' }}>
-                  {q.explanation}
-                </div>
-              )}
-              <QuestionReviewPanel bankId={BANK_ID} questionId={q.id} options={q.options} />
-            </div>
-          );
-        })}
+        {visible.map((q, i) => (
+          <QuestionCard
+            key={q.id}
+            q={q}
+            questionExamName={questionExamName}
+            questionSitting={questionSitting}
+            corrections={corrections}
+            isOpen={expanded.has(i)}
+            onToggle={() => toggle(i)}
+          />
+        ))}
         {visible.length === 0 && (
           <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>No questions match these filters.</p>
         )}
@@ -718,6 +763,135 @@ function YearlyBrowseTab({ questions, years, onStartTest }: { questions: McqBank
           );
         })}
       </div>
+    </div>
+  );
+}
+
+// Paper subjects sort in the order the real exam sits them: both English
+// papers, then GS-I/II/III — not alphabetically ('English-II' < 'GS-I').
+const PAPER_SUBJECT_ORDER = ['English-I', 'English-II', 'GS-I', 'GS-II', 'GS-III'];
+
+/**
+ * Browse the bank exactly the way a real sitting is structured: Year → exam
+ * → Paper I/II/III (English-I/II, GS-I/II/III), each individually testable
+ * or expandable to read every question in that one paper — mirrors the
+ * printed exam instead of a flat topic/keyword filter.
+ */
+function PaperBrowseTab({
+  questions, descriptiveQuestions, papers, years, questionExamName, questionSitting, corrections, onStartTest,
+}: {
+  questions: McqBankQuestion[];
+  descriptiveQuestions: DescriptiveBankQuestion[];
+  papers: ExamPaper[];
+  years: number[];
+  questionExamName: (q: BankQuestion) => string;
+  questionSitting: (q: BankQuestion) => ExamPaper | null;
+  corrections: Record<string, Correction>;
+  onStartTest: (q: McqBankQuestion[], label?: string) => void;
+}) {
+  const [openPaper, setOpenPaper] = useState<string | null>(null);
+  const [expandedQuestions, setExpandedQuestions] = useState<Set<string>>(new Set());
+
+  const toggleQuestion = (id: string) => {
+    setExpandedQuestions((prev) => {
+      const next = new Set(prev);
+      if (next.has(id)) next.delete(id); else next.add(id);
+      return next;
+    });
+  };
+
+  return (
+    <div className="max-w-3xl space-y-8">
+      <h2 className="text-lg font-semibold">Browse by paper</h2>
+      <p className="text-sm -mt-4" style={{ color: 'var(--text-secondary)' }}>
+        Every sitting, laid out the way it was printed — pick one paper to read it straight through or start a test
+        on just that paper.
+      </p>
+
+      {years.map((year) => {
+        const yearPapers = papers
+          .filter((p) => p.year === year)
+          .sort((a, b) => PAPER_SUBJECT_ORDER.indexOf(a.paperSubject) - PAPER_SUBJECT_ORDER.indexOf(b.paperSubject));
+        if (yearPapers.length === 0) return null;
+        const examNames = Array.from(new Set(yearPapers.map((p) => p.examName)));
+
+        return (
+          <div key={year} className="space-y-4">
+            <h3 className="text-base font-semibold" style={{ color: 'var(--accent)' }}>{year}</h3>
+            {examNames.map((exam) => (
+              <div key={exam} className="space-y-2">
+                <div className="text-xs font-semibold tracking-wide uppercase" style={{ color: 'var(--text-secondary)' }}>
+                  {exam}
+                </div>
+                {yearPapers.filter((p) => p.examName === exam).map((paper) => {
+                  const mcq = questions.filter((q) => q.paperId === paper.id);
+                  const desc = descriptiveQuestions.filter((q) => q.paperId === paper.id);
+                  const isOpen = openPaper === paper.id;
+                  return (
+                    <div key={paper.id} className="sto-card space-y-3">
+                      <div className="flex items-center justify-between gap-3">
+                        <button
+                          onClick={() => setOpenPaper(isOpen ? null : paper.id)}
+                          className="text-left flex-1 min-w-0"
+                        >
+                          <div className="font-semibold text-sm">
+                            {isOpen ? '▾' : '▸'} Paper {paper.paperNumber ?? '—'} — {paper.paperSubject}
+                          </div>
+                          <div className="text-xs" style={{ color: 'var(--text-secondary)' }}>
+                            {mcq.length > 0 ? `${mcq.length} MCQs` : ''}
+                            {mcq.length > 0 && desc.length > 0 ? ', ' : ''}
+                            {desc.length > 0 ? `${desc.length} descriptive` : ''}
+                            {mcq.length === 0 && desc.length === 0 ? 'No questions in the bank yet' : ''}
+                          </div>
+                        </button>
+                        {mcq.length > 0 && (
+                          <button
+                            onClick={() => onStartTest(mcq, `${exam}, ${year} — Paper ${paper.paperNumber} (${paper.paperSubject})`)}
+                            className="px-3 py-1.5 rounded text-sm font-medium shrink-0"
+                            style={{ background: 'var(--accent)', color: '#fff' }}
+                          >
+                            Start Test
+                          </button>
+                        )}
+                      </div>
+                      {isOpen && (
+                        <div className="space-y-3 pt-1" style={{ borderTop: '1px solid var(--border)' }}>
+                          {mcq.map((q) => (
+                            <QuestionCard
+                              key={q.id}
+                              q={q}
+                              questionExamName={questionExamName}
+                              questionSitting={questionSitting}
+                              corrections={corrections}
+                              isOpen={expandedQuestions.has(q.id)}
+                              onToggle={() => toggleQuestion(q.id)}
+                            />
+                          ))}
+                          {desc.map((q) => (
+                            <DescriptiveQuestionCard
+                              key={q.id}
+                              bankId={BANK_ID}
+                              question={q}
+                              renderEmphasis={renderEmphasis}
+                              subjectClass={subjectClass}
+                              meta={`${questionExamName(q)}, ${year}`}
+                            />
+                          ))}
+                          {mcq.length === 0 && desc.length === 0 && (
+                            <p className="text-xs italic" style={{ color: 'var(--text-secondary)' }}>
+                              This paper hasn't been rebuilt from source yet.
+                            </p>
+                          )}
+                        </div>
+                      )}
+                    </div>
+                  );
+                })}
+              </div>
+            ))}
+          </div>
+        );
+      })}
     </div>
   );
 }

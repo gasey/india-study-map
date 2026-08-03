@@ -83,19 +83,44 @@ const questions0: BankQuestion[] = [
     "topic": "eng_comprehension",
     "topicLabel": "Reading comprehension — Nelson at Trafalgar",
     "difficulty": "hard",
+    "type": "descriptive",
     "question": "Read the passage below and answer the questions that follow it: It has been part of Nelson's prayer that the British fleet might be distinguished by humanity in the victory which he expected. Setting an example himself, he twice gave orders to cease firing upon the Redoubtable, supposing that she had struck because her great guns were silent: for as she carried no flag, there was no means of instantly ascertaining the fact. From this ship, which he had thus twice spared, he received his death. A ball fired from her mizzen-top which, in the then situation of the two vessels was not more than fifteen yards from that part of the deck where he was standing, struck the epaulette on his left shoulder about a quarter after one, just in the heat of action. He fell upon his face on the spot which was covered with his poor secretary's blood. Hardy, who was a few steps from him turning round, saw three men raising him up. \"They have done for me at last, Hardy,\" said he. \"I hope not,\" cried Hardy. \"Yes,\" he replied; \"my back-bone is shot through.\" Yet, even now not for a moment losing his presence of mind, he observed as they were carrying him down the ladder, that the tiller-ropes which had been shot away, were not yet replaced and ordered that new ones should be roped immediately. Then that he might not be seen by the crew, he took out his handkerchief and covered his face and his stars. Had he but concealed these badges of honour from the enemy, England perhaps would not have had cause to receive with sorrow the news of the battle of Trafalgar. The cockpit was crowded with wounded and dying men; over whose bodies he was with some difficulties conveyed, and laid upon a pallet in the midshipmen's berth. It was soon perceived, upon examination, that the wound was mortal. This, however, was concealed from all, except Captain Hardy, the chaplain, and the medical attendants. He himself being certain, from the sensation in his back, and the gush of blood he felt momentarily within his breast, that no human care could avail him, insisted that the surgeon should leave him and attend to those to whom he might be useful.",
-    "options": [
-      "",
-      "",
-      "",
-      "(e) (f) What is meant by ‘supposing that she had struck’? How can Nelson be said to have been partly responsible for his death? What do you understand by the ‘mizzen-top’? Why did Nelson insist that"
+    "subparts": [
+      {
+        "label": "a",
+        "text": "What is meant by 'supposing that she had struck'?",
+        "marks": 3
+      },
+      {
+        "label": "b",
+        "text": "How can Nelson be said to have been partly responsible for his death?",
+        "marks": 3
+      },
+      {
+        "label": "c",
+        "text": "What do you understand by the 'mizzen-top'?",
+        "marks": 3
+      },
+      {
+        "label": "d",
+        "text": "Why did Nelson insist that the surgeon should leave him and attend to others?",
+        "marks": 3
+      },
+      {
+        "label": "e",
+        "text": "What qualities in Nelson's character are revealed by this passage?",
+        "marks": 3
+      },
+      {
+        "label": "f",
+        "text": "Give a suitable title to the passage.",
+        "marks": 1
+      }
     ],
-    "answerIndex": 0,
-    "explanation": "This is a comprehension passage with several sub-questions, but the printed options are blank or garbled (two-column bleed), so no sub-question can be matched to a clean set of four choices.\n\n💡 Nelson hid his medals with a handkerchief so snipers couldn't identify him as the commanding officer — the same badges of honour that made him a target were the ones he tried to hide, but hiding them also delayed him getting spotted and helped, which the passage suggests contributed to his death.",
+    "explanation": "Recovered from the source PDF's text layer — the original extraction mis-split this into blank/garbled MCQ options instead of six lettered sub-questions.\n\n💡 Nelson hid his medals with a handkerchief so snipers couldn't identify him as the commanding officer — the same badges of honour that made him a target were the ones he tried to hide, but hiding them also delayed him getting spotted and helped, which the passage suggests contributed to his death.",
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
-    "paperId": "mpsc-inspector-of-taxes-2016-english-i",
-    "type": "mcq"
+    "paperId": "mpsc-inspector-of-taxes-2016-english-i"
   },
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-i-q001",

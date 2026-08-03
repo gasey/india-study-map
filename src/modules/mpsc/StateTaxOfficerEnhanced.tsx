@@ -420,9 +420,25 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
           <DescriptiveTab questions={descriptiveQuestions} questionExamName={questionExamName} questionSitting={questionSitting} />
         )}
         {prepTab === 'exam-browse' && (
-          <ExamBrowseTab questions={stateTaxQuestions} exams={exams} questionExamName={questionExamName} onStartTest={startMockTest} />
+          <ExamBrowseTab
+            questions={stateTaxQuestions}
+            exams={exams}
+            questionExamName={questionExamName}
+            questionSitting={questionSitting}
+            corrections={corrections}
+            onStartTest={startMockTest}
+          />
         )}
-        {prepTab === 'yearly-browse' && <YearlyBrowseTab questions={stateTaxQuestions} years={years} onStartTest={startMockTest} />}
+        {prepTab === 'yearly-browse' && (
+          <YearlyBrowseTab
+            questions={stateTaxQuestions}
+            years={years}
+            questionExamName={questionExamName}
+            questionSitting={questionSitting}
+            corrections={corrections}
+            onStartTest={startMockTest}
+          />
+        )}
         {prepTab === 'paper-browse' && (
           <PaperBrowseTab
             questions={stateTaxQuestions}
@@ -701,67 +717,156 @@ function DescriptiveTab({
   );
 }
 
-function ExamBrowseTab({
-  questions, exams, questionExamName, onStartTest,
+/**
+ * One expandable group card — a header row (title, count, Start Test) that
+ * toggles open to list every question in the group inline via QuestionCard.
+ * Shared shape for By Exam and By Year so both browse AND test, not just
+ * launch a mock straight away.
+ */
+function BrowseGroupCard({
+  title, groupQuestions, isOpen, onToggle, onStartTest, testLabel,
+  questionExamName, questionSitting, corrections, expandedQuestions, onToggleQuestion,
 }: {
-  questions: McqBankQuestion[]; exams: string[]; questionExamName: (q: BankQuestion) => string; onStartTest: (q: McqBankQuestion[], label?: string) => void;
+  title: string;
+  groupQuestions: McqBankQuestion[];
+  isOpen: boolean;
+  onToggle: () => void;
+  onStartTest: (q: McqBankQuestion[], label?: string) => void;
+  testLabel: string;
+  questionExamName: (q: BankQuestion) => string;
+  questionSitting: (q: BankQuestion) => ExamPaper | null;
+  corrections: Record<string, Correction>;
+  expandedQuestions: Set<string>;
+  onToggleQuestion: (id: string) => void;
 }) {
+  return (
+    <div className="sto-card space-y-3">
+      <div className="flex items-center justify-between gap-3">
+        <button onClick={onToggle} className="text-left flex-1 min-w-0">
+          <div className="font-semibold text-sm">{isOpen ? '▾' : '▸'} {title}</div>
+          <div className="text-xs" style={{ color: 'var(--text-secondary)' }}>
+            {groupQuestions.length} questions
+          </div>
+        </button>
+        {groupQuestions.length > 0 && (
+          <button
+            onClick={() => onStartTest(groupQuestions, testLabel)}
+            className="px-3 py-1.5 rounded text-sm font-medium shrink-0"
+            style={{ background: 'var(--accent)', color: '#fff' }}
+          >
+            Start Test
+          </button>
+        )}
+      </div>
+      {isOpen && (
+        <div className="space-y-3 pt-1" style={{ borderTop: '1px solid var(--border)' }}>
+          {groupQuestions.map((q) => (
+            <QuestionCard
+              key={q.id}
+              q={q}
+              questionExamName={questionExamName}
+              questionSitting={questionSitting}
+              corrections={corrections}
+              isOpen={expandedQuestions.has(q.id)}
+              onToggle={() => onToggleQuestion(q.id)}
+            />
+          ))}
+          {groupQuestions.length === 0 && (
+            <p className="text-xs italic" style={{ color: 'var(--text-secondary)' }}>No questions in this group.</p>
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function ExamBrowseTab({
+  questions, exams, questionExamName, questionSitting, corrections, onStartTest,
+}: {
+  questions: McqBankQuestion[];
+  exams: string[];
+  questionExamName: (q: BankQuestion) => string;
+  questionSitting: (q: BankQuestion) => ExamPaper | null;
+  corrections: Record<string, Correction>;
+  onStartTest: (q: McqBankQuestion[], label?: string) => void;
+}) {
+  const [openGroup, setOpenGroup] = useState<string | null>(null);
+  const [expandedQuestions, setExpandedQuestions] = useState<Set<string>>(new Set());
+  const toggleQuestion = (id: string) => {
+    setExpandedQuestions((prev) => {
+      const next = new Set(prev);
+      if (next.has(id)) next.delete(id); else next.add(id);
+      return next;
+    });
+  };
+
   return (
     <div className="max-w-3xl space-y-6">
       <h2 className="text-lg font-semibold">Browse by exam</h2>
 
       <div className="space-y-2">
-        {exams.map((exam) => {
-          const examQuestions = questions.filter((q) => questionExamName(q) === exam);
-          return (
-            <div key={exam} className="sto-card flex items-center justify-between gap-3">
-              <div>
-                <div className="font-semibold text-sm">{exam}</div>
-                <div className="text-xs" style={{ color: 'var(--text-secondary)' }}>
-                  {examQuestions.length} questions
-                </div>
-              </div>
-              <button
-                onClick={() => onStartTest(examQuestions, `Exam: ${exam}`)}
-                className="px-3 py-1.5 rounded text-sm font-medium shrink-0"
-                style={{ background: 'var(--accent)', color: '#fff' }}
-              >
-                Start Test
-              </button>
-            </div>
-          );
-        })}
+        {exams.map((exam) => (
+          <BrowseGroupCard
+            key={exam}
+            title={exam}
+            groupQuestions={questions.filter((q) => questionExamName(q) === exam)}
+            isOpen={openGroup === exam}
+            onToggle={() => setOpenGroup(openGroup === exam ? null : exam)}
+            onStartTest={onStartTest}
+            testLabel={`Exam: ${exam}`}
+            questionExamName={questionExamName}
+            questionSitting={questionSitting}
+            corrections={corrections}
+            expandedQuestions={expandedQuestions}
+            onToggleQuestion={toggleQuestion}
+          />
+        ))}
       </div>
     </div>
   );
 }
 
-function YearlyBrowseTab({ questions, years, onStartTest }: { questions: McqBankQuestion[]; years: number[]; onStartTest: (q: McqBankQuestion[], label?: string) => void }) {
+function YearlyBrowseTab({
+  questions, years, questionExamName, questionSitting, corrections, onStartTest,
+}: {
+  questions: McqBankQuestion[];
+  years: number[];
+  questionExamName: (q: BankQuestion) => string;
+  questionSitting: (q: BankQuestion) => ExamPaper | null;
+  corrections: Record<string, Correction>;
+  onStartTest: (q: McqBankQuestion[], label?: string) => void;
+}) {
+  const [openGroup, setOpenGroup] = useState<number | null>(null);
+  const [expandedQuestions, setExpandedQuestions] = useState<Set<string>>(new Set());
+  const toggleQuestion = (id: string) => {
+    setExpandedQuestions((prev) => {
+      const next = new Set(prev);
+      if (next.has(id)) next.delete(id); else next.add(id);
+      return next;
+    });
+  };
+
   return (
     <div className="max-w-3xl space-y-6">
       <h2 className="text-lg font-semibold">Browse by year</h2>
 
       <div className="space-y-2">
-        {years.map((year) => {
-          const yearQuestions = questions.filter((q) => q.year === year);
-          return (
-            <div key={year} className="sto-card flex items-center justify-between gap-3">
-              <div>
-                <div className="font-semibold text-sm">{year}</div>
-                <div className="text-xs" style={{ color: 'var(--text-secondary)' }}>
-                  {yearQuestions.length} questions
-                </div>
-              </div>
-              <button
-                onClick={() => onStartTest(yearQuestions, `Year: ${year}`)}
-                className="px-3 py-1.5 rounded text-sm font-medium shrink-0"
-                style={{ background: 'var(--accent)', color: '#fff' }}
-              >
-                Start Test
-              </button>
-            </div>
-          );
-        })}
+        {years.map((year) => (
+          <BrowseGroupCard
+            key={year}
+            title={String(year)}
+            groupQuestions={questions.filter((q) => q.year === year)}
+            isOpen={openGroup === year}
+            onToggle={() => setOpenGroup(openGroup === year ? null : year)}
+            onStartTest={onStartTest}
+            testLabel={`Year: ${year}`}
+            questionExamName={questionExamName}
+            questionSitting={questionSitting}
+            corrections={corrections}
+            expandedQuestions={expandedQuestions}
+            onToggleQuestion={toggleQuestion}
+          />
+        ))}
       </div>
     </div>
   );

@@ -957,8 +957,8 @@ const questions0: BankQuestion[] = [
   {
     "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q001",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "The Mughal Emperor Jehangir issued a Farman (royal decree), permitting the English to establish a factory at Surat in -",
     "options": [
@@ -979,8 +979,8 @@ const questions0: BankQuestion[] = [
   {
     "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q002",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "The first Carnatic was the extension of which war?",
     "options": [
@@ -1001,8 +1001,8 @@ const questions0: BankQuestion[] = [
   {
     "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q003",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "During whose reign did Monghyr become the capital of Bengal?",
     "options": [
@@ -1023,8 +1023,8 @@ const questions0: BankQuestion[] = [
   {
     "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q004",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "Mughal emperor Shah Alam II granted the Diwani of Bengal, Bihar, and Orissa to the Company in -",
     "options": [
@@ -1045,8 +1045,8 @@ const questions0: BankQuestion[] = [
   {
     "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q005",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "The first state to accept Subsidiary Alliance with the British East India Company was -",
     "options": [
@@ -1067,8 +1067,8 @@ const questions0: BankQuestion[] = [
   {
     "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q006",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "Who introduced Zamindary system in India?",
     "options": [
@@ -1089,8 +1089,8 @@ const questions0: BankQuestion[] = [
   {
     "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q007",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "In 1856, the British finally annexed Awadh under the -",
     "options": [
@@ -1111,8 +1111,8 @@ const questions0: BankQuestion[] = [
   {
     "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q008",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "In 1772, the revenue farming system was introduced by -",
     "options": [
@@ -1133,8 +1133,8 @@ const questions0: BankQuestion[] = [
   {
     "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q009",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "Who introduced Railways system in India?",
     "options": [
@@ -1155,8 +1155,8 @@ const questions0: BankQuestion[] = [
   {
     "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q010",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "Under whose initiative that the practice of Sati was abolished?",
     "options": [
@@ -1177,8 +1177,8 @@ const questions0: BankQuestion[] = [
   {
     "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q011",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "Which Act raised the status of Governor of Bengal to that of Governor-General?",
     "options": [
@@ -1199,8 +1199,8 @@ const questions0: BankQuestion[] = [
   {
     "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q012",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "In the Ryotwari Settlement revenue was directly collected from -",
     "options": [
@@ -1221,8 +1221,8 @@ const questions0: BankQuestion[] = [
   {
     "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q013",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "Who first led the Indigo Revolt of Bengal?",
     "options": [
@@ -1243,8 +1243,8 @@ const questions0: BankQuestion[] = [
   {
     "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q014",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "Who was the first Indian to qualify for the Indian Civil Services?",
     "options": [
@@ -1265,8 +1265,8 @@ const questions0: BankQuestion[] = [
   {
     "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q015",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "What was the main feature of \"Doctrine of Lapse\"?",
     "options": [
@@ -1287,8 +1287,8 @@ const questions0: BankQuestion[] = [
   {
     "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q016",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "The Deccan peasants uprising of 1875 was directed mainly against which of the following?",
     "options": [
@@ -1309,8 +1309,8 @@ const questions0: BankQuestion[] = [
   {
     "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q017",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "The term dastak implies to -",
     "options": [
@@ -1331,8 +1331,8 @@ const questions0: BankQuestion[] = [
   {
     "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q018",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "The Mapilia/Moplah rebellion of 1921 took place inside the present Indian state of -",
     "options": [
@@ -1353,8 +1353,8 @@ const questions0: BankQuestion[] = [
   {
     "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q019",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "easy",
     "question": "When did the Santhal Rebellion break out?",
     "options": [
@@ -1375,8 +1375,8 @@ const questions0: BankQuestion[] = [
   {
     "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q020",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "Who was the founder of Poona Sarvajanik Sabha?",
     "options": [
@@ -1397,8 +1397,8 @@ const questions0: BankQuestion[] = [
   {
     "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q021",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "Printing Press in India was introduced by the -",
     "options": [
@@ -1419,8 +1419,8 @@ const questions0: BankQuestion[] = [
   {
     "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q022",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "Who was the Muslim leader to demand Pakistan in 1933?",
     "options": [
@@ -1441,8 +1441,8 @@ const questions0: BankQuestion[] = [
   {
     "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q023",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "Rabindra Nath Tagore gave up his knighthood because of -",
     "options": [
@@ -1463,8 +1463,8 @@ const questions0: BankQuestion[] = [
   {
     "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q024",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "The Indian national movement upto 1905 was dominated by leaders who are often described as -",
     "options": [
@@ -1485,8 +1485,8 @@ const questions0: BankQuestion[] = [
   {
     "id": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i-q025",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "The reunion of moderates and extremists happened in which of the following Congress sessions?",
     "options": [
@@ -5090,8 +5090,8 @@ const questions1: BankQuestion[] = [
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q001",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "Which of the following Acts provided that Indians should not be barred from holding jobs with the East India Company?",
     "options": [
@@ -5112,8 +5112,8 @@ const questions1: BankQuestion[] = [
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q002",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "Raja Ram Mohan Roy’s reform of Hinduism was along the lines of: 1) Condemnation of idolatry 2) Irrelevance of Brahmanical priest craft 3) Propagation of Monotheism 4) Projecting the Vedas as the repository of all scientific truth Select the codes for the correct statements",
     "options": [
@@ -5134,8 +5134,8 @@ const questions1: BankQuestion[] = [
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q003",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "The spiritual guru Gadadhar Chattopadhyay is best known with which among the following names?",
     "options": [
@@ -5156,8 +5156,8 @@ const questions1: BankQuestion[] = [
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q004",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "Tinkathia System is associated to:",
     "options": [
@@ -5178,8 +5178,8 @@ const questions1: BankQuestion[] = [
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q005",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "What was the former name of Aligarh Muslim University?",
     "options": [
@@ -5200,8 +5200,8 @@ const questions1: BankQuestion[] = [
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q006",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "Who influenced Gandhiji by his philosophy of civil disobedience?",
     "options": [
@@ -5222,8 +5222,8 @@ const questions1: BankQuestion[] = [
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q007",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "Who is known as the ‘Grand Old Man of India’?",
     "options": [
@@ -5244,8 +5244,8 @@ const questions1: BankQuestion[] = [
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q008",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "Which of the following was not a member of the British Cabinet Mission which came to India in March 1946?",
     "options": [
@@ -5266,8 +5266,8 @@ const questions1: BankQuestion[] = [
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q009",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "The Indigo Revolt by farmers against the British planters took place primarily in-",
     "options": [
@@ -5288,8 +5288,8 @@ const questions1: BankQuestion[] = [
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q010",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "Which of the following movements was combined with the Non-Cooperation Movement under Gandhiji’s leadership?",
     "options": [
@@ -5310,8 +5310,8 @@ const questions1: BankQuestion[] = [
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q011",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "Gandhi started the Dandi March from which place?",
     "options": [
@@ -5332,8 +5332,8 @@ const questions1: BankQuestion[] = [
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q012",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "Where was Azad Hind Fauj established in 1943?",
     "options": [
@@ -5354,8 +5354,8 @@ const questions1: BankQuestion[] = [
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q013",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "Who is widely known as the ‘Father of Indian Renaissance’?",
     "options": [
@@ -5376,8 +5376,8 @@ const questions1: BankQuestion[] = [
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q014",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "A new policy of ‘paramountcy’ was initiated under the reign of which of the following Governor Generals in 1813?",
     "options": [
@@ -5398,8 +5398,8 @@ const questions1: BankQuestion[] = [
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q015",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "Consider the following statements with reference to the Subsidiary Alliance. 1. The first ruler to accept the Subsidiary Alliance was the Nizam of Hyderabad. 2. Under this policy, Indian rulers were forced to have a British official called the resident at his court. 3. Under this policy, Indian rulers made to keep a large British force within their territory and pay for its maintenance. Which of the statement(s) given above is/are correct?",
     "options": [
@@ -5420,8 +5420,8 @@ const questions1: BankQuestion[] = [
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q016",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "Which of the following pair is incorrectly matched? Pair 1 (Anglo-Maratha War) Pair II (Years)",
     "options": [
@@ -5442,8 +5442,8 @@ const questions1: BankQuestion[] = [
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q017",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "What was the main motive of British to promote modern education in India? 1. For the welfare of Indians. 2. To train Indians so that they could help the Company’s British officials in administration. Which of the statement(s) given above is/are correct?",
     "options": [
@@ -5464,8 +5464,8 @@ const questions1: BankQuestion[] = [
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q018",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "Which of the following statements correctly explains the impact of Industrial Revolution in India during the first half of the 19th century?",
     "options": [
@@ -5486,8 +5486,8 @@ const questions1: BankQuestion[] = [
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q019",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "The first major revolt that broke out soon after the British conquest of Bengal was",
     "options": [
@@ -5508,8 +5508,8 @@ const questions1: BankQuestion[] = [
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q020",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "With which uprising is Mangal Pandey associated?",
     "options": [
@@ -5530,8 +5530,8 @@ const questions1: BankQuestion[] = [
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q021",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "First Muslim President of Indian National Congress was-",
     "options": [
@@ -5552,8 +5552,8 @@ const questions1: BankQuestion[] = [
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q022",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "Who among the following actively participated in the Swadeshi Movement? 1. Landlords 2. Students 3. Lawyers 4. Women Codes",
     "options": [
@@ -5574,8 +5574,8 @@ const questions1: BankQuestion[] = [
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q023",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "Which important event immediately preceded Jallianwala Bagh massacre?",
     "options": [
@@ -5596,8 +5596,8 @@ const questions1: BankQuestion[] = [
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q024",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "Who among the following were prominent leaders of the ‘Khilafat Movement’?",
     "options": [
@@ -5618,8 +5618,8 @@ const questions1: BankQuestion[] = [
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2025-gs-i-q025",
     "subject": "history",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
+    "topic": "gs1_history_modern",
+    "topicLabel": "Modern India & Freedom Struggle",
     "difficulty": "medium",
     "question": "Why did Mahatma Gandhi withdraw the Non-Cooperation Movement in 1922?",
     "options": [
@@ -8689,7 +8689,7 @@ const questions1: BankQuestion[] = [
   },
   {
     "id": "mpsc-inspector-of-taxes-2016-english-ii-q015",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "Thangi __________ here since 2010. (work)",
     "options": [
       "has worked",
@@ -8712,7 +8712,7 @@ const questions1: BankQuestion[] = [
   },
   {
     "id": "mpsc-inspector-of-taxes-2016-english-ii-q016",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "Ruata waited for his friends until they __________. (arrive)",
     "options": [
       "have arrived",
@@ -8800,7 +8800,7 @@ const questions1: BankQuestion[] = [
   },
   {
     "id": "mpsc-inspector-of-taxes-2016-english-ii-q020",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "I __________ you tomorrow. (see)",
     "options": [
       "will be seeing",
@@ -8979,7 +8979,7 @@ const questions2: BankQuestion[] = [
   },
   {
     "id": "mpsc-inspector-of-taxes-2016-english-ii-q028",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "I’m looking for __________ to cut this string.",
     "options": [
       "a pair of scissors",
@@ -10618,9 +10618,9 @@ const questions2: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 0,
     "type": "mcq"
@@ -10702,16 +10702,16 @@ const questions2: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 0,
     "type": "mcq"
   },
   {
     "id": "mpsc-inspector-of-taxes-2016-gs-i-q007",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "The first national news agency of India was",
     "options": [
       "The Indian Review",
@@ -10719,13 +10719,13 @@ const questions2: BankQuestion[] = [
       "The Hindustan Review",
       "The Associated Press of India"
     ],
-    "explanation": "The Associated Press of India, started by K. C. Roy in 1905, is counted as India's first news agency; Reuters absorbed it in 1919 and it later merged into PTI in 1949. The Free Press of India, set up by S. Sadanand in 1927, was the first Indian-owned nationalist agency but came two decades later.",
+    "explanation": "The Associated Press of India, founded by K. C. Roy (sources vary between 1905 and 1910), is counted as India's first news agency; Reuters absorbed it in 1919 and it later merged into PTI in 1949. The Free Press of India, set up by S. Sadanand in 1927, was the first Indian-owned nationalist agency but came two decades later.",
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 3,
     "type": "mcq"
@@ -10744,9 +10744,9 @@ const questions2: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 3,
     "type": "mcq"
@@ -10807,9 +10807,9 @@ const questions2: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 0,
     "type": "mcq"
@@ -10849,9 +10849,9 @@ const questions2: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 3,
     "type": "mcq"
@@ -10870,9 +10870,9 @@ const questions2: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 2,
     "type": "mcq"
@@ -10891,9 +10891,9 @@ const questions2: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 1,
     "type": "mcq"
@@ -10912,9 +10912,9 @@ const questions2: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 2,
     "type": "mcq"
@@ -10933,9 +10933,9 @@ const questions2: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 1,
     "type": "mcq"
@@ -10975,9 +10975,9 @@ const questions2: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 2,
     "type": "mcq"
@@ -10996,9 +10996,9 @@ const questions2: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 0,
     "type": "mcq"
@@ -11080,9 +11080,9 @@ const questions2: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 1,
     "type": "mcq"
@@ -11143,9 +11143,9 @@ const questions2: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 2,
     "type": "mcq"
@@ -11227,9 +11227,9 @@ const questions2: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 3,
     "type": "mcq"
@@ -11269,9 +11269,9 @@ const questions2: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 1,
     "type": "mcq"
@@ -11290,9 +11290,9 @@ const questions2: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 1,
     "type": "mcq"
@@ -11311,9 +11311,9 @@ const questions2: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 0,
     "type": "mcq"
@@ -11332,9 +11332,9 @@ const questions2: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 0,
     "type": "mcq"
@@ -11353,9 +11353,9 @@ const questions2: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_art_culture",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 3,
     "type": "mcq"
@@ -11374,9 +11374,9 @@ const questions2: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_art_culture",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 0,
     "type": "mcq"
@@ -11416,9 +11416,9 @@ const questions2: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_art_culture",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 0,
     "type": "mcq"
@@ -11437,16 +11437,16 @@ const questions2: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_ancient",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 3,
     "type": "mcq"
   },
   {
     "id": "mpsc-inspector-of-taxes-2016-gs-i-q042",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "question": "Mahatma Gandhi practically appeared in the Indian politics in Congress Session at",
     "options": [
       "Lucknow, 1916",
@@ -11593,7 +11593,7 @@ const questions2: BankQuestion[] = [
   },
   {
     "id": "mpsc-inspector-of-taxes-2016-gs-i-q049",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "The celebrated dance, “Cheraw” of Mizoram is a",
     "options": [
       "Ritual dance",
@@ -11647,9 +11647,9 @@ const questions2: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_current",
+    "topicLabel": "Current Affairs",
+    "subject": "current-affairs",
     "answerSource": "derived",
     "answerIndex": 1,
     "type": "mcq"
@@ -11668,16 +11668,16 @@ const questions2: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_current",
+    "topicLabel": "Current Affairs",
+    "subject": "current-affairs",
     "answerSource": "derived",
     "answerIndex": 2,
     "type": "mcq"
   },
   {
     "id": "mpsc-inspector-of-taxes-2016-gs-i-q053",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "Who is the new Director of CBI?",
     "options": [
       "Ranjit Singh",
@@ -11689,9 +11689,9 @@ const questions2: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_current",
+    "topicLabel": "Current Affairs",
+    "subject": "current-affairs",
     "answerSource": "derived",
     "answerIndex": 1,
     "type": "mcq"
@@ -11731,9 +11731,9 @@ const questions2: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_current",
+    "topicLabel": "Current Affairs",
+    "subject": "current-affairs",
     "answerSource": "derived",
     "answerIndex": 0,
     "type": "mcq"
@@ -11752,9 +11752,9 @@ const questions2: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_current",
+    "topicLabel": "Current Affairs",
+    "subject": "current-affairs",
     "answerSource": "derived",
     "answerIndex": 1,
     "type": "mcq"
@@ -11815,16 +11815,16 @@ const questions2: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_current",
+    "topicLabel": "Current Affairs",
+    "subject": "current-affairs",
     "answerSource": "derived",
     "answerIndex": 3,
     "type": "mcq"
   },
   {
     "id": "mpsc-inspector-of-taxes-2016-gs-i-q060",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "Which country developed the world’s largest animal cloning factory?",
     "options": [
       "Iran",
@@ -11836,9 +11836,9 @@ const questions2: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_current",
+    "topicLabel": "Current Affairs",
+    "subject": "current-affairs",
     "answerSource": "derived",
     "answerIndex": 2,
     "type": "mcq"
@@ -11983,9 +11983,9 @@ const questions2: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_current",
+    "topicLabel": "Current Affairs",
+    "subject": "current-affairs",
     "answerSource": "derived",
     "answerIndex": 2,
     "type": "mcq"
@@ -12046,9 +12046,9 @@ const questions2: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_current",
+    "topicLabel": "Current Affairs",
+    "subject": "current-affairs",
     "answerSource": "derived",
     "answerIndex": 1,
     "type": "mcq"
@@ -12088,9 +12088,9 @@ const questions2: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_current",
+    "topicLabel": "Current Affairs",
+    "subject": "current-affairs",
     "answerSource": "derived",
     "answerIndex": 3,
     "type": "mcq"
@@ -12109,16 +12109,16 @@ const questions2: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_current",
+    "topicLabel": "Current Affairs",
+    "subject": "current-affairs",
     "answerSource": "derived",
     "answerIndex": 0,
     "type": "mcq"
   },
   {
     "id": "mpsc-inspector-of-taxes-2016-gs-i-q074",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "Sex ratio of Mizoram as per census 2011 is",
     "options": [
       "956",
@@ -12126,7 +12126,7 @@ const questions2: BankQuestion[] = [
       "975",
       "None of these"
     ],
-    "explanation": "As per Census 2011, Mizoram's sex ratio is 976 females per 1000 males (total population 10,97,206; males 5,55,339; females 5,41,867), which matches none of the three numeric options given (956, 995, 975) exactly, making 'None of these' the closest fit.",
+    "explanation": "Census 2011 recorded Mizoram's sex ratio as 976 females per 1000 males (up from 938 in 2001), a figure well documented across census sources; it matches none of the three specific numbers offered (956, 995, 975), so 'None of these' is correct.",
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
@@ -12214,9 +12214,9 @@ const questions2: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_current",
+    "topicLabel": "Current Affairs",
+    "subject": "current-affairs",
     "answerSource": "derived",
     "answerIndex": 0,
     "type": "mcq"
@@ -12235,9 +12235,9 @@ const questions2: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_current",
+    "topicLabel": "Current Affairs",
+    "subject": "current-affairs",
     "answerSource": "derived",
     "answerIndex": 1,
     "type": "mcq"
@@ -12256,9 +12256,9 @@ const questions2: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_current",
+    "topicLabel": "Current Affairs",
+    "subject": "current-affairs",
     "answerSource": "derived",
     "answerIndex": 2,
     "type": "mcq"
@@ -12361,9 +12361,9 @@ const questions2: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_current",
+    "topicLabel": "Current Affairs",
+    "subject": "current-affairs",
     "answerSource": "derived",
     "answerIndex": 3,
     "type": "mcq"
@@ -12424,9 +12424,9 @@ const questions2: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_current",
+    "topicLabel": "Current Affairs",
+    "subject": "current-affairs",
     "answerSource": "derived",
     "answerIndex": 1,
     "type": "mcq"
@@ -12529,9 +12529,9 @@ const questions2: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_current",
+    "topicLabel": "Current Affairs",
+    "subject": "current-affairs",
     "answerSource": "derived",
     "answerIndex": 2,
     "type": "mcq"
@@ -12550,9 +12550,9 @@ const questions2: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_current",
+    "topicLabel": "Current Affairs",
+    "subject": "current-affairs",
     "answerSource": "derived",
     "answerIndex": 3,
     "type": "mcq"
@@ -12580,7 +12580,7 @@ const questions2: BankQuestion[] = [
   },
   {
     "id": "mpsc-inspector-of-taxes-2016-gs-i-q096",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "Which country has become the 161st member of the World Trade Organisation (WTO) on 26th April, 2015?",
     "options": [
       "Seychelles",
@@ -12592,9 +12592,9 @@ const questions2: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_current",
+    "topicLabel": "Current Affairs",
+    "subject": "current-affairs",
     "answerSource": "derived",
     "answerIndex": 0,
     "type": "mcq"
@@ -12613,9 +12613,9 @@ const questions2: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_current",
+    "topicLabel": "Current Affairs",
+    "subject": "current-affairs",
     "answerSource": "derived",
     "answerIndex": 2,
     "type": "mcq"
@@ -12634,9 +12634,9 @@ const questions2: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_current",
+    "topicLabel": "Current Affairs",
+    "subject": "current-affairs",
     "answerSource": "derived",
     "answerIndex": 1,
     "type": "mcq"
@@ -12655,9 +12655,9 @@ const questions2: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_current",
+    "topicLabel": "Current Affairs",
+    "subject": "current-affairs",
     "answerSource": "derived",
     "answerIndex": 0,
     "type": "mcq"
@@ -13717,7 +13717,7 @@ const questions3: BankQuestion[] = [
   },
   {
     "id": "mpsc-inspector-of-taxes-2016-gs-ii-q050",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "The 2010 – 11 Census recorded that engagement of labour in Agriculture was",
     "options": [
       "50%",
@@ -14620,7 +14620,7 @@ const questions3: BankQuestion[] = [
   },
   {
     "id": "mpsc-inspector-of-taxes-2016-gs-ii-q093",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "Which state leads in the production of Tobacco?",
     "options": [
       "Tamil Nadu",
@@ -14628,7 +14628,7 @@ const questions3: BankQuestion[] = [
       "Andra Pradesh",
       "Gujarat"
     ],
-    "explanation": "Andhra Pradesh (especially the Guntur belt) has traditionally been cited as India's leading tobacco-producing state; note that more recent data (post-2018) shows Gujarat overtaking it by volume, so the answer is somewhat era-dependent.",
+    "explanation": "For the exam's own era (mid-2010s), Andhra Pradesh (the Guntur-Prakasam FCV Virginia tobacco belt) was the standard GK-book answer for India's leading tobacco producer; Gujarat's bidi-tobacco output later overtook it in national production-volume rankings, but that shift is a post-2018 development and not what this 2016 paper intends.",
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-ii",
@@ -15712,7 +15712,7 @@ const questions3: BankQuestion[] = [
   },
   {
     "id": "mpsc-inspector-of-taxes-2016-gs-iii-q045",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "Which of the following were all under the direct control of the chief?",
     "options": [
       "tlangau, thirdeng, ramhual, puithiam, zalen and khawchhiar",
@@ -15720,7 +15720,7 @@ const questions3: BankQuestion[] = [
       "puithiam, ramhual, zalen, khawchhiar, pasaltha and tlangau",
       "tlangau, ramhual, puithiam, valupa, tlangval, and thirdeng"
     ],
-    "explanation": "In the traditional Mizo chieftainship system, the tlangau (village crier), thirdeng (blacksmith), ramhual and zalen (jhum-plot officials), puithiam (priest) and khawchhiar (village writer) were the village officials appointed by and directly answerable to the chief. The other option sets mix in offices like pasaltha (warrior) or val upa/tlangval that were not part of this direct-control group.",
+    "explanation": "Sources on Mizo chieftainship confirm the chief directly appointed the tlangau (village crier), thirdeng (blacksmith), puithiam (priest), ramhual and zalen (jhum-land officials exempted from paddy-tribute in exchange for lending rice in hardship) and khawchhiar (village writer). The other option sets substitute in val upa/tlangval (bachelors'-house youth, not chief-appointed officials) or pasaltha (a warrior title, not an administrative office), which do not belong to this direct-control group.",
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-iii",
@@ -15754,7 +15754,7 @@ const questions3: BankQuestion[] = [
   },
   {
     "id": "mpsc-inspector-of-taxes-2016-gs-iii-q047",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "Khawzim pathian was associated with",
     "options": [
       "Chapchar kut",
@@ -15762,7 +15762,7 @@ const questions3: BankQuestion[] = [
       "Pawl kut",
       "Chhawnghnawt"
     ],
-    "explanation": "References to 'Khawzim pathian' (sky/weather god invoked during hardship) appear in accounts tied to the Pawl Kut harvest-festival period; sourcing for this specific link is thin, so treat with some caution.",
+    "explanation": "Mizo cultural sources record 'Khawzim pathian chuan mal min sawm leh ta a nih hi' ('Khawzim Pathian has delivered us from calamity') as part of the origin narrative told around the Pawl Kut harvest festival, tying the deity specifically to that kut rather than Mim Kut or Chapchar Kut.",
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-iii",
@@ -15880,7 +15880,7 @@ const questions3: BankQuestion[] = [
   },
   {
     "id": "mpsc-inspector-of-taxes-2016-gs-iii-q053",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "The first known massive famine called mautam occurred in the year",
     "options": [
       "1861",
@@ -15922,7 +15922,7 @@ const questions3: BankQuestion[] = [
   },
   {
     "id": "mpsc-inspector-of-taxes-2016-gs-iii-q055",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "According to Mizo mythology, the spirit of the dead person shall go to this place soon after death",
     "options": [
       "Lentlang",
@@ -15964,7 +15964,7 @@ const questions3: BankQuestion[] = [
   },
   {
     "id": "mpsc-inspector-of-taxes-2016-gs-iii-q057",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "The other name for the Mizo traditional dance Khuallam is",
     "options": [
       "Thingdim lam",
@@ -16006,7 +16006,7 @@ const questions3: BankQuestion[] = [
   },
   {
     "id": "mpsc-inspector-of-taxes-2016-gs-iii-q059",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "Due/extra fine imposed on the loser of the case in the Mizo chief's court equivalent to Rs. 5/– or a pig is called",
     "options": [
       "Pumhlawh",
@@ -16048,7 +16048,7 @@ const questions3: BankQuestion[] = [
   },
   {
     "id": "mpsc-inspector-of-taxes-2016-gs-iii-q061",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "question": "A court–room in the house of the Mizo chief is known as",
     "options": [
       "Dawvan",
@@ -16056,7 +16056,7 @@ const questions3: BankQuestion[] = [
       "Luhka",
       "Vanlung"
     ],
-    "explanation": "'Dawvan' is documented as a platform area (associated with the zawlbuk) where villagers gathered to witness proceedings and feats, the closest match found to a 'court-room' function in the chief's establishment, but a definitive source naming it specifically as the chief's court room was not found, so this is a low-confidence pick among unfamiliar terms.",
+    "explanation": "'Dawvan' is documented as a raised platform attached to the zawlbuk that served as the meeting area for discussion, dispute settlement, and administrative business — functionally the closest match to a 'court-room' among the options — though sources describe it as part of the zawlbuk (bachelors' dormitory) complex rather than explicitly inside the chief's own house, so some uncertainty remains.",
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-iii",
@@ -16174,7 +16174,7 @@ const questions3: BankQuestion[] = [
   },
   {
     "id": "mpsc-inspector-of-taxes-2016-gs-iii-q067",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "The latest awardee of Pu Buanga Award is",
     "options": [
       "C.Chhuanvawra",
@@ -16308,7 +16308,7 @@ const questions3: BankQuestion[] = [
       "2006",
       "2009"
     ],
-    "explanation": "The Taxation Department's exact bifurcation year from the Excise & Taxation Department could not be reliably confirmed (one source suggested 1988, which doesn't match any option); 2006 is picked as a plausible guess given the broader period of state tax administration reforms, but this should be treated as uncertain.",
+    "explanation": "One government RTI-manual source dates the Taxation Department's bifurcation from the Excise & Taxation Department to July 1988, which does not match any of the four options given (2010/1973/2006/2009); this looks like a genuinely broken question. 2006 is kept only as an unverified placeholder within the given choices.",
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2016,
     "paperId": "mpsc-inspector-of-taxes-2016-gs-iii",
@@ -17439,7 +17439,7 @@ const questions4: BankQuestion[] = [
   },
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q027",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "The thief ________ a rare stamp from the collector.",
     "options": [
       "steal",
@@ -17813,7 +17813,7 @@ const questions4: BankQuestion[] = [
   },
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q044",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "That he cannot stand.",
     "options": [
       "Simple sentence",
@@ -17835,7 +17835,7 @@ const questions4: BankQuestion[] = [
   },
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q045",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "Either John or Mary has done it.",
     "options": [
       "Complex sentence",
@@ -17879,7 +17879,7 @@ const questions4: BankQuestion[] = [
   },
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q047",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "As he is dishonest, so nobody likes him. (To Simple)",
     "options": [
       "Being dishonest, nobody likes him.",
@@ -18209,7 +18209,7 @@ const questions4: BankQuestion[] = [
   },
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q062",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "Can anyone be this stupid?",
     "options": [
       "Interrogative",
@@ -19079,9 +19079,9 @@ const questions4: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2019,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 0,
     "type": "mcq"
@@ -19100,9 +19100,9 @@ const questions4: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2019,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 1,
     "type": "mcq"
@@ -19121,9 +19121,9 @@ const questions4: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2019,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 2,
     "type": "mcq"
@@ -19142,9 +19142,9 @@ const questions4: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2019,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_medieval",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 3,
     "type": "mcq"
@@ -19184,9 +19184,9 @@ const questions4: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2019,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 0,
     "type": "mcq"
@@ -19205,9 +19205,9 @@ const questions4: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2019,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 1,
     "type": "mcq"
@@ -19247,9 +19247,9 @@ const questions4: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2019,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 0,
     "type": "mcq"
@@ -19268,9 +19268,9 @@ const questions4: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2019,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 2,
     "type": "mcq"
@@ -19310,9 +19310,9 @@ const questions4: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2019,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 3,
     "type": "mcq"
@@ -19331,9 +19331,9 @@ const questions4: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2019,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 0,
     "type": "mcq"
@@ -19373,9 +19373,9 @@ const questions4: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2019,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 2,
     "type": "mcq"
@@ -19436,9 +19436,9 @@ const questions4: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2019,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 1,
     "type": "mcq"
@@ -19457,9 +19457,9 @@ const questions4: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2019,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 0,
     "type": "mcq"
@@ -19478,9 +19478,9 @@ const questions4: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2019,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 0,
     "type": "mcq"
@@ -19499,9 +19499,9 @@ const questions4: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2019,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 3,
     "type": "mcq"
@@ -19520,9 +19520,9 @@ const questions4: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2019,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 2,
     "type": "mcq"
@@ -19541,9 +19541,9 @@ const questions4: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2019,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 3,
     "type": "mcq"
@@ -19562,9 +19562,9 @@ const questions4: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2019,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 3,
     "type": "mcq"
@@ -19583,9 +19583,9 @@ const questions4: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2019,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 1,
     "type": "mcq"
@@ -19667,16 +19667,16 @@ const questions4: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2019,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 1,
     "type": "mcq"
   },
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i-q030",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "After the commencement of the government of India Act-1858, what name was to British Governor-General of India?",
     "options": [
       "Governor-General of India.",
@@ -19730,9 +19730,9 @@ const questions4: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2019,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 1,
     "type": "mcq"
@@ -19751,9 +19751,9 @@ const questions4: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2019,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 1,
     "type": "mcq"
@@ -19772,9 +19772,9 @@ const questions4: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2019,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 0,
     "type": "mcq"
@@ -19793,9 +19793,9 @@ const questions4: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2019,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 0,
     "type": "mcq"
@@ -19814,9 +19814,9 @@ const questions4: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2019,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 2,
     "type": "mcq"
@@ -19856,9 +19856,9 @@ const questions4: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2019,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 1,
     "type": "mcq"
@@ -19898,9 +19898,9 @@ const questions4: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2019,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 2,
     "type": "mcq"
@@ -19940,9 +19940,9 @@ const questions4: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2019,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 2,
     "type": "mcq"
@@ -20045,9 +20045,9 @@ const questions4: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2019,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 2,
     "type": "mcq"
@@ -20171,9 +20171,9 @@ const questions4: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2019,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_current",
+    "topicLabel": "Current Affairs",
+    "subject": "current-affairs",
     "answerSource": "derived",
     "answerIndex": 0,
     "type": "mcq"
@@ -21179,9 +21179,9 @@ const questions4: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2019,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 2,
     "type": "mcq"
@@ -21200,9 +21200,9 @@ const questions4: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2019,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 1,
     "type": "mcq"
@@ -21221,9 +21221,9 @@ const questions4: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2019,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 0,
     "type": "mcq"
@@ -21263,9 +21263,9 @@ const questions4: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2019,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 3,
     "type": "mcq"
@@ -21284,9 +21284,9 @@ const questions4: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2019,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 0,
     "type": "mcq"
@@ -21326,9 +21326,9 @@ const questions4: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2019,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 3,
     "type": "mcq"
@@ -21347,9 +21347,9 @@ const questions4: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2019,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 2,
     "type": "mcq"
@@ -22640,7 +22640,7 @@ const questions5: BankQuestion[] = [
   },
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q071",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "The advance value of LIC policy is linked with :",
     "options": [
       "Face value",
@@ -22724,7 +22724,7 @@ const questions5: BankQuestion[] = [
   },
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q075",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "Interim budget is also known as:",
     "options": [
       "Mini Budget",
@@ -22732,7 +22732,7 @@ const questions5: BankQuestion[] = [
       "Both (a) & (b)",
       "None of these"
     ],
-    "explanation": "An interim budget is commonly termed a 'mini budget' presented in the run-up to a full budget; it is technically distinct from a 'vote on account', which covers only expenditure approval and is a narrower procedural step within (or alongside) an interim budget.",
+    "explanation": "This question circulates widely in Indian competitive-exam banks with 'Both (a) & (b)' as the marked answer: an interim budget is popularly called a mini budget, and in common (if technically loose) usage the term is also used interchangeably with 'vote on account'. Strictly, a vote-on-account covers only the expenditure side while an interim budget is a fuller set of accounts covering both receipts and expenditure, but exam keys for this exact wording treat both labels as applying.",
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2019,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii",
@@ -22740,12 +22740,12 @@ const questions5: BankQuestion[] = [
     "topicLabel": "Indian Economy",
     "subject": "economics",
     "answerSource": "derived",
-    "answerIndex": 0,
+    "answerIndex": 2,
     "type": "mcq"
   },
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-ii-q076",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "Which of the following is responsible for the formation of Great Indian Desert?",
     "options": [
       "Continental landmass",
@@ -24070,7 +24070,7 @@ const questions5: BankQuestion[] = [
   },
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q039",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "Which one of the followings was not used to determine the traditional Mizo wealth?",
     "options": [
       "Sial",
@@ -24112,7 +24112,7 @@ const questions5: BankQuestion[] = [
   },
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q041",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "question": "Tangphel refers to",
     "options": [
       "Length of place",
@@ -24120,7 +24120,7 @@ const questions5: BankQuestion[] = [
       "Size of body",
       "None of these"
     ],
-    "explanation": "'Tangphel' appears in sources as one of several traditional Mizo measurement terms used in house/land construction contexts, suggesting it denotes a length/spatial measure rather than a time or body-size unit, but a precise definitive definition could not be verified, so this is a low-confidence guess.",
+    "explanation": "'Tangphel' appears listed among the traditional Mizo units of measurement (tehna) alongside hlam, ban chen and tawng chen used in house/land construction, which supports it being a length/spatial measure rather than a duration or body-size unit; its precise metric value could not be pinned down, so some uncertainty remains.",
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2019,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii",
@@ -24217,7 +24217,7 @@ const questions5: BankQuestion[] = [
   },
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q046",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "Hnawkhal was the dress worn by:",
     "options": [
       "Men",
@@ -24385,7 +24385,7 @@ const questions5: BankQuestion[] = [
   },
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q054",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "Khawnglung Run occurred during",
     "options": [
       "Chhim leh Hmar Indo",
@@ -24477,7 +24477,7 @@ const questions5: BankQuestion[] = [
       "Zathawma",
       "Ngura"
     ],
-    "explanation": "Historical accounts of Captain Herbert Richard Browne's killing (1890) name orchestrators Khalkam, Thansuma and Khuangchera, with oral tradition crediting a deposed chief 'Saithawma' with firing the fatal shot; 'Zathawma' in the options is likely a spelling variant of this name, but the match is not fully certain, so confidence is low.",
+    "explanation": "Historical accounts (including the Wikipedia entry on Herbert Richard Browne) name Khalkam (also Kalkhama) as the Lushai Sailo chief who broke his oath of fealty and orchestrated the September 1890 ambush that killed Capt. Browne near Changsil — a name that matches none of the four options (Bengkhuaia, Hausata, Zathawma, Ngura). This looks like a genuinely broken question with no correct option; 'Zathawma' is kept only as an unverified closest guess.",
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2019,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii",
@@ -24721,7 +24721,7 @@ const questions5: BankQuestion[] = [
   },
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q070",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "When did the first documented Mautam famine occur in Mizoram?",
     "options": [
       "1861-1862",
@@ -24792,7 +24792,7 @@ const questions5: BankQuestion[] = [
       "25th July 1962",
       "6th May 1962."
     ],
-    "explanation": "Multiple sources date the inauguration of the Mizo District Council to 25 April 1952 (by Assam CM Bishnuram Medhi), which does not exactly match any option; '25th July, 1952' is chosen as the closest option sharing the day and year, but this is an unresolved discrepancy, so confidence is low.",
+    "explanation": "Sources date the launch of the Lushai Hills District Council to 26 April 1952 (by Assam CM Bishnuram Medhi), with its inaugural session running 23 June-10 July 1952 — none of which lines up exactly with any of the four printed options. '25th July, 1952' is kept as the closest available option (matching month and year), but the exact-day discrepancy remains unresolved.",
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2019,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii",
@@ -25309,7 +25309,7 @@ const questions5: BankQuestion[] = [
   },
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q098",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "Catching the earlier train will give us the …………. to do some shopping",
     "options": [
       "Luck",
@@ -25463,7 +25463,7 @@ const questions5: BankQuestion[] = [
   },
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q005",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "One __half__ of this task is completed.",
     "options": [
       "Adjective",
@@ -25771,7 +25771,7 @@ const questions5: BankQuestion[] = [
   },
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q019",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "I wonder you never told me.",
     "options": [
       "Adverb of degree",
@@ -25950,7 +25950,7 @@ const questions6: BankQuestion[] = [
   },
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q027",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "John is the best _____ all the other players.",
     "options": [
       "above",
@@ -27327,7 +27327,7 @@ const questions6: BankQuestion[] = [
   },
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q090",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "This is a _____ translation of the speech.",
     "options": [
       "literal",
@@ -27433,7 +27433,7 @@ const questions6: BankQuestion[] = [
   },
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q095",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "The synonym of LAUD is _____",
     "options": [
       "lord",
@@ -27571,9 +27571,9 @@ const questions6: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2021,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 1,
     "type": "mcq"
@@ -27592,9 +27592,9 @@ const questions6: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2021,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 3,
     "type": "mcq"
@@ -27634,9 +27634,9 @@ const questions6: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2021,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 1,
     "type": "mcq"
@@ -27676,9 +27676,9 @@ const questions6: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2021,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 0,
     "type": "mcq"
@@ -27718,9 +27718,9 @@ const questions6: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2021,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 0,
     "type": "mcq"
@@ -27739,9 +27739,9 @@ const questions6: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2021,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 1,
     "type": "mcq"
@@ -27781,9 +27781,9 @@ const questions6: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2021,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 2,
     "type": "mcq"
@@ -27823,9 +27823,9 @@ const questions6: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2021,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 2,
     "type": "mcq"
@@ -27844,9 +27844,9 @@ const questions6: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2021,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 0,
     "type": "mcq"
@@ -27865,9 +27865,9 @@ const questions6: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2021,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 2,
     "type": "mcq"
@@ -27886,9 +27886,9 @@ const questions6: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2021,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 2,
     "type": "mcq"
@@ -27907,9 +27907,9 @@ const questions6: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2021,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 0,
     "type": "mcq"
@@ -27928,9 +27928,9 @@ const questions6: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2021,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 2,
     "type": "mcq"
@@ -28012,9 +28012,9 @@ const questions6: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2021,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 1,
     "type": "mcq"
@@ -28054,9 +28054,9 @@ const questions6: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2021,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 1,
     "type": "mcq"
@@ -28096,9 +28096,9 @@ const questions6: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2021,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 0,
     "type": "mcq"
@@ -28117,9 +28117,9 @@ const questions6: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2021,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 1,
     "type": "mcq"
@@ -28201,9 +28201,9 @@ const questions6: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2021,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 1,
     "type": "mcq"
@@ -28222,9 +28222,9 @@ const questions6: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2021,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 0,
     "type": "mcq"
@@ -28243,9 +28243,9 @@ const questions6: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2021,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 2,
     "type": "mcq"
@@ -28327,9 +28327,9 @@ const questions6: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2021,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 3,
     "type": "mcq"
@@ -28348,9 +28348,9 @@ const questions6: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2021,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 0,
     "type": "mcq"
@@ -28369,9 +28369,9 @@ const questions6: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2021,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 0,
     "type": "mcq"
@@ -28390,9 +28390,9 @@ const questions6: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2021,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 2,
     "type": "mcq"
@@ -28432,9 +28432,9 @@ const questions6: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2021,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 0,
     "type": "mcq"
@@ -28453,16 +28453,16 @@ const questions6: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2021,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 1,
     "type": "mcq"
   },
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q044",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "In 1888, Sir Syed Ahmed Khan founded the",
     "options": [
       "United Patriotic Association",
@@ -28474,9 +28474,9 @@ const questions6: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2021,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 0,
     "type": "mcq"
@@ -28546,7 +28546,7 @@ const questions6: BankQuestion[] = [
   },
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i-q048",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "Under which of the following Act was Civil Service started in India?",
     "options": [
       "Charter Act of 1813",
@@ -28558,9 +28558,9 @@ const questions6: BankQuestion[] = [
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2021,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-i",
-    "topic": "gs1_history",
-    "topicLabel": "Modern Indian History",
-    "subject": "history",
+    "topic": "gs1_history_modern",
+    "topicLabel": "General",
+    "subject": "gk",
     "answerSource": "derived",
     "answerIndex": 2,
     "type": "mcq"
@@ -29974,7 +29974,7 @@ const questions6: BankQuestion[] = [
   },
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q016",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "Right to form Association is a-",
     "options": [
       "Natural Right",
@@ -30943,7 +30943,7 @@ const questions7: BankQuestion[] = [
   },
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q062",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "Economic planning is an essential feature of ?",
     "options": [
       "Dual economy",
@@ -31132,7 +31132,7 @@ const questions7: BankQuestion[] = [
   },
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q071",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "SEBI was established in",
     "options": [
       "1993",
@@ -31195,7 +31195,7 @@ const questions7: BankQuestion[] = [
   },
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q074",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "The slogan ‘Garibi Hatao’ was included etec",
     "options": [
       "first plan",
@@ -32203,7 +32203,7 @@ const questions7: BankQuestion[] = [
   },
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q022",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "Consider the following statements (i) ICMR National Institute of Immunohaemotology has developed a cost effective Point of Care rapid diagnostic test for genetic disorders (ii) This is World’s first Point-of – Care test for specific diagnosis of any common bleeding disorder Which of the following statement (s) is/are correct?",
     "options": [
       "Only (i)",
@@ -32266,7 +32266,7 @@ const questions7: BankQuestion[] = [
   },
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q025",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "The mission of Defence Research Laboratory (DRL), Tezpur, the only DRDO laboratory in NE India includes",
     "options": [
       "To excel in high altitude and agro-animal research in cold arid regions",
@@ -33156,7 +33156,7 @@ const questions7: BankQuestion[] = [
       "25th June, 1986",
       "16th August, 1986"
     ],
-    "explanation": "The Mizoram Peace Accord/Memorandum of Settlement between the Government of India and the MNF is widely documented as signed on 30 June 1986, which does not exactly match any option here; '25th June, 1986' is the closest option by month/year, but the date discrepancy is unresolved, so confidence is low.",
+    "explanation": "The Mizoram Peace Accord (Memorandum of Settlement between the Government of India and the MNF) was signed on 30 June 1986, confirmed by multiple sources including the government's own DIPR account; that exact date is not one of the four options. '25th June, 1986' is the closest option by month and year, but the day is off by five, so this remains unresolved.",
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2021,
     "paperId": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii",

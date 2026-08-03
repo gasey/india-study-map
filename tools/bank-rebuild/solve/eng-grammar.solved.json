@@ -1,518 +1,518 @@
 [
- {
-  "id": "mpsc-inspector-of-taxes-2016-english-ii-q001",
-  "answerIndex": 2,
-  "confidence": "high",
-  "explanation": "\"Honesty\" names a quality, so it is an abstract noun, here working as the subject of the sentence. Abstract nouns are still nouns even though they name something you cannot touch."
- },
- {
-  "id": "mpsc-inspector-of-taxes-2016-english-ii-q002",
-  "answerIndex": 1,
-  "confidence": "high",
-  "explanation": "Here \"yet\" joins two independent clauses (\"He is old\" + \"he can run fast\") with a contrast, so it is an adversative conjunction. \"Yet\" is an adverb only in time senses like \"He has not come yet\"."
- },
- {
-  "id": "mpsc-inspector-of-taxes-2016-english-ii-q003",
-  "answerIndex": 2,
-  "confidence": "high",
-  "explanation": "\"About\" takes no object here — it modifies the verb \"wandered\" to mean \"here and there\" — so it is an adverb. It would be a preposition only if a noun followed it, as in \"about the forest\"."
- },
- {
-  "id": "mpsc-inspector-of-taxes-2016-english-ii-q004",
-  "answerIndex": 1,
-  "confidence": "high",
-  "explanation": "\"Any\" stands alone as the subject (\"any of you\") instead of modifying a noun, so it is an indefinite pronoun. It would be an adjective in \"Can any boy help me?\", where it qualifies \"boy\"."
- },
- {
-  "id": "mpsc-inspector-of-taxes-2016-english-ii-q005",
-  "answerIndex": 3,
-  "confidence": "high",
-  "explanation": "\"Close\" qualifies the noun \"relative\", so it is an adjective. The identical-looking adverb appears in \"He stood close to me\", where it modifies a verb instead."
- },
- {
-  "id": "mpsc-inspector-of-taxes-2016-english-ii-q006",
-  "answerIndex": 0,
-  "confidence": "high",
-  "explanation": "\"Round\" is followed by the noun \"its axis\", which is its object, so it functions as a preposition. Without an object — \"The wheel goes round\" — the same word would be an adverb."
- },
- {
-  "id": "mpsc-inspector-of-taxes-2016-english-ii-q007",
-  "answerIndex": 2,
-  "confidence": "high",
-  "explanation": "\"Love\" here is the finite predicate of the subject \"Parents\" and takes the object \"their children\", so it is a verb. It is a noun only in uses like \"Love is blind\"."
- },
- {
-  "id": "mpsc-inspector-of-taxes-2016-english-ii-q008",
-  "answerIndex": 2,
-  "confidence": "high",
-  "explanation": "\"Alas!\" expresses sudden emotion (grief) and has no grammatical link to the rest of the sentence, which is the definition of an interjection; the exclamation mark is the giveaway."
- },
- {
-  "id": "mpsc-inspector-of-taxes-2016-english-ii-q009",
-  "answerIndex": 0,
-  "confidence": "high",
-  "explanation": "\"Above\" ends the sentence with no object after it, so it modifies the verb \"are\" and is an adverb. Compare \"above our heads\", where a following noun makes it a preposition."
- },
- {
-  "id": "mpsc-inspector-of-taxes-2016-english-ii-q010",
-  "answerIndex": 2,
-  "confidence": "high",
-  "explanation": "\"Pretty\" describes the noun \"girl\", so it is an adjective. It is an adverb only when it modifies another adjective, as in \"pretty good\"."
- },
- {
-  "id": "mpsc-inspector-of-taxes-2016-english-ii-q011",
-  "answerIndex": 1,
-  "confidence": "high",
-  "explanation": "\"Siami\" is a singular third-person subject and the statement is a present fact, so the verb \"be\" takes \"is\". \"Am\" belongs only with I, and \"are/were\" require a plural subject."
- },
- {
-  "id": "mpsc-inspector-of-taxes-2016-english-ii-q012",
-  "answerIndex": 3,
-  "confidence": "high",
-  "explanation": "An action already in progress when another past event interrupted it takes the past continuous, so \"was working\" pairs with \"when we reached\". Plain \"worked\" would suggest the work began only after the arrival."
- },
- {
-  "id": "mpsc-inspector-of-taxes-2016-english-ii-q015",
-  "answerIndex": 3,
-  "confidence": "medium",
-  "explanation": "\"Since 2010\" marks an action that started in the past and is still going on, which is the present perfect continuous: \"has been working\". Note the paper is misprinted — options (a) and (b) are both \"has worked\" — but the duplicate is not the answer in either case."
- },
- {
-  "id": "mpsc-inspector-of-taxes-2016-english-ii-q016",
-  "answerIndex": 2,
-  "confidence": "medium",
-  "explanation": "With \"until\", the clause names the event that ended the waiting, so the simple past \"arrived\" is the normal form; the past perfect is unnecessary because \"until\" already fixes the sequence. \"Had arrived\" is sometimes accepted in older textbooks, which makes this question mildly ambiguous."
- },
- {
-  "id": "mpsc-inspector-of-taxes-2016-english-ii-q019",
-  "answerIndex": 2,
-  "confidence": "high",
-  "explanation": "In \"one of the + plural noun\", the subject is the singular \"one\", so the verb is singular: \"has done\". \"Have done\" wrongly agrees with \"girls\", and \"has did\" is not a possible form."
- },
- {
-  "id": "mpsc-inspector-of-taxes-2016-english-ii-q020",
-  "answerIndex": 1,
-  "confidence": "medium",
-  "explanation": "By the traditional rule these papers follow, simple futurity with the first person takes \"shall\", so \"I shall see you tomorrow\". In present-day usage \"will see\" is equally acceptable, so treat this as a test of the older shall/will convention rather than of natural English."
- },
- {
-  "id": "mpsc-inspector-of-taxes-2016-english-ii-q024",
-  "answerIndex": 2,
-  "confidence": "high",
-  "explanation": "\"For\" is used with a length of time (five years), while \"since\" needs a starting point (since 2019). \"Ago\" belongs with the simple past, not the present perfect."
- },
- {
-  "id": "mpsc-inspector-of-taxes-2016-english-ii-q025",
-  "answerIndex": 2,
-  "confidence": "high",
-  "explanation": "The fixed collocation is \"keen on something\" when it means enthusiastic about it. \"Keen about\" is non-standard; \"keen to\" would need a verb, as in \"keen to go\"."
- },
- {
-  "id": "mpsc-inspector-of-taxes-2016-english-ii-q028",
-  "answerIndex": 0,
-  "confidence": "medium",
-  "explanation": "\"Scissors\" is a plural-only tool noun, so it is counted with \"a pair of\" — \"a scissor\" and \"a scissors\" are both ungrammatical. \"Some scissors\" is also acceptable English, which makes the item slightly loose, but \"a pair of scissors\" is the form these papers test."
- },
- {
-  "id": "mpsc-inspector-of-taxes-2016-english-ii-q029",
-  "answerIndex": 3,
-  "confidence": "high",
-  "explanation": "A house has one known doorbell, so the definite article is required: \"the doorbell rang\". \"An doorbell\" is wrong before a consonant sound, and a countable singular noun cannot stand bare."
- },
- {
-  "id": "mpsc-inspector-of-taxes-2016-english-ii-q030",
-  "answerIndex": 2,
-  "confidence": "high",
-  "explanation": "Before an adjective + singular countable noun the intensifier is \"such a\" — \"such a long time\". \"So\" would need the order \"so long a time\", which is not among the printed options."
- },
- {
-  "id": "mpsc-inspector-of-taxes-2016-english-ii-q031",
-  "answerIndex": 2,
-  "confidence": "high",
-  "explanation": "\"Cut\" here is the past form of an unchanging verb (cut–cut–cut) stating a single completed action, so the tense is past indefinite (simple past). There is no auxiliary \"had\", which rules out the past perfect."
- },
- {
-  "id": "mpsc-inspector-of-taxes-2016-english-ii-q032",
-  "answerIndex": 0,
-  "confidence": "high",
-  "explanation": "\"Had + past participle (met)\" is the past perfect, used for an action completed before another point in the past. The continuous form would need \"had been meeting\"."
- },
- {
-  "id": "mpsc-inspector-of-taxes-2016-english-ii-q033",
-  "answerIndex": 2,
-  "confidence": "high",
-  "explanation": "\"Will have left\" is will + have + past participle, the future perfect, describing an action to be completed before a future moment (11 AM). The continuous version would read \"will have been leaving\"."
- },
- {
-  "id": "mpsc-inspector-of-taxes-2016-english-ii-q034",
-  "answerIndex": 3,
-  "confidence": "high",
-  "explanation": "The auxiliary \"did\" places the question in the simple (indefinite) past; the bare infinitive \"see\" after it carries no tense of its own. \"Have you seen\" would have made it present perfect."
- },
- {
-  "id": "mpsc-inspector-of-taxes-2016-english-ii-q035",
-  "answerIndex": 1,
-  "confidence": "high",
-  "explanation": "\"Has been + -ing\" is the present perfect continuous, and \"for a long time\" signals an action begun earlier and still continuing. \"Had been crying\" would be the past perfect continuous."
- },
- {
-  "id": "mpsc-inspector-of-taxes-2016-english-ii-q036",
-  "answerIndex": 0,
-  "confidence": "high",
-  "explanation": "\"Seems\" is a linking verb, so it is completed by an adjective describing the subject — \"sensible\", not an adverb. The real adverb is \"sensibly\" (the other two spellings do not exist), but an adverb cannot follow a linking verb here."
- },
- {
-  "id": "mpsc-inspector-of-taxes-2016-english-ii-q037",
-  "answerIndex": 0,
-  "confidence": "high",
-  "explanation": "English fixes adjective order as opinion–age–material before the noun: \"a nice old stone building\". Option (d) also swaps in the wrong noun (\"home\"), so it fails twice."
- },
- {
-  "id": "mpsc-inspector-of-taxes-2016-english-ii-q038",
-  "answerIndex": 3,
-  "confidence": "high",
-  "explanation": "\"Nearly missed\" means almost missed — which matches \"only just in time to catch it\". \"Near\" and \"nearest\" are not adverbs of degree, and \"mostly\" means \"for the most part\"."
- },
- {
-  "id": "mpsc-inspector-of-taxes-2016-english-ii-q039",
-  "answerIndex": 3,
-  "confidence": "high",
-  "explanation": "\"Regret\" is a verb, and the intensifier that modifies a verb is \"very much\", not bare \"very\", which can only modify adjectives and adverbs. \"A bit\" would contradict \"really sorry\"."
- },
- {
-  "id": "mpsc-inspector-of-taxes-2016-english-ii-q040",
-  "answerIndex": 0,
-  "confidence": "high",
-  "explanation": "\"Which\" is the interrogative used when the choice is from a limited, known set — here the roads available. \"What road\" is loose, \"whose\" asks about ownership, and \"who\" refers only to people."
- },
- {
-  "id": "mpsc-inspector-of-taxes-2016-english-ii-q069",
-  "answerIndex": 3,
-  "confidence": "high",
-  "explanation": "An adversative conjunction expresses contrast, and \"but\" is the standard one: \"He is slow but he is sure.\" \"Because\" shows cause, and \"and\" merely adds, so neither is adversative."
- },
- {
-  "id": "mpsc-inspector-of-taxes-2016-english-ii-q070",
-  "answerIndex": 3,
-  "confidence": "high",
-  "explanation": "\"He was angry; however, he did not say anything\" is the only option with correct punctuation around the adversative connective and the logical order (anger first, silence despite it). The other three misplace commas or reverse the contrast."
- },
- {
-  "id": "mpsc-inspector-of-taxes-2016-gs-ii-q012",
-  "answerIndex": 1,
-  "confidence": "high",
-  "explanation": "Article 61 lays down the impeachment procedure for the President, for violation of the Constitution. Article 352 is the National Emergency provision and Article 79 constitutes Parliament."
- },
- {
-  "id": "mpsc-inspector-of-taxes-2016-gs-ii-q065",
-  "answerIndex": 3,
-  "confidence": "high",
-  "explanation": "Article 280 requires the President to constitute a Finance Commission every fifth year to recommend the distribution of taxes between the Union and the States."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q001",
-  "answerIndex": 2,
-  "confidence": "high",
-  "explanation": "\"Few\" here qualifies the noun \"boys\", telling how many, so it is an adjective of quantity. It would be a pronoun only if it stood alone, as in \"A few were absent\"."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q002",
-  "answerIndex": 0,
-  "confidence": "high",
-  "explanation": "\"Laughter\" names a thing and is the object of the preposition \"of\", so it is a noun. The verb form is \"laugh\"; the -ter ending here marks the abstract noun."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q003",
-  "answerIndex": 1,
-  "confidence": "high",
-  "explanation": "\"Someone\" is an indefinite pronoun standing in for an unnamed person and acting as the subject. It qualifies no noun, so it is not an adjective."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q004",
-  "answerIndex": 2,
-  "confidence": "high",
-  "explanation": "\"Always\" tells how often the action happens, so it is an adverb of frequency modifying \"help\"."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q005",
-  "answerIndex": 1,
-  "confidence": "high",
-  "explanation": "\"Within\" is followed by the noun phrase \"a week\", which is its object, so it is a preposition showing time limit. A conjunction would have to join two clauses."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q006",
-  "answerIndex": 3,
-  "confidence": "high",
-  "explanation": "\"Among\" governs the noun \"the thieves\" and shows the relation between the dividing and the group, so it is a preposition."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q007",
-  "answerIndex": 0,
-  "confidence": "high",
-  "explanation": "\"Crowd\" names a group of people and heads the subject of the sentence, so it is a noun — specifically a collective noun."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q008",
-  "answerIndex": 1,
-  "confidence": "high",
-  "explanation": "\"Though\" introduces the subordinate clause \"he worked hard\" and links it to the main clause, so it is a subordinating conjunction of concession, not a preposition (a preposition would take a noun, not a clause)."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q009",
-  "answerIndex": 0,
-  "confidence": "high",
-  "explanation": "\"Huge\" describes the size of the noun \"caterpillar\", so it is an adjective of quality."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q010",
-  "answerIndex": 2,
-  "confidence": "high",
-  "explanation": "\"Must\" is a modal auxiliary, and auxiliaries are classed as verbs; it combines with \"finish\" to express obligation. It is not an adverb, since it does not modify anything."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q011",
-  "answerIndex": 2,
-  "confidence": "high",
-  "explanation": "\"Among\" is used for distribution over more than two, and \"the children\" is a group. \"Between\" would be right only for two people."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q012",
-  "answerIndex": 3,
-  "confidence": "high",
-  "explanation": "\"On\" is the preposition for days and dates — on Thursday, on 12th March. \"In\" is for months and years, \"at\" for clock times."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q013",
-  "answerIndex": 0,
-  "confidence": "high",
-  "explanation": "\"Above mine\" means on a higher floor, which is the natural sense for apartments. \"Over\" suggests covering or movement across, and \"next\" would need \"to\" — \"next to mine\"."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q014",
-  "answerIndex": 3,
-  "confidence": "high",
-  "explanation": "\"Beside\" means at the side of, which fits sitting by the road. \"Besides\" means \"in addition to\" and is the classic trap here; \"astride\" would mean with legs on either side of it."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q015",
-  "answerIndex": 0,
-  "confidence": "high",
-  "explanation": "\"For\" goes with a period of time (five hours); \"since\" needs a point of time (since 9 o'clock). \"Until\" would mean the work stops at that point, not that it has lasted that long."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q016",
-  "answerIndex": 1,
-  "confidence": "high",
-  "explanation": "In the passive, \"by\" introduces the doer and \"with\" the instrument, so a stick — an instrument — takes \"with\". \"Beaten by a stick\" is the standard trap."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q017",
-  "answerIndex": 2,
-  "confidence": "high",
-  "explanation": "\"Within a week\" means before the week is over, which is the sense of returning inside a time limit. \"At\" and \"on\" do not go with a stretch of time, and \"by\" would need a fixed point such as \"by Monday\"."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q018",
-  "answerIndex": 3,
-  "confidence": "high",
-  "explanation": "The fixed phrasal verb is \"abide by\" a rule or decision, meaning to obey it. \"Abide with\" means to stay with someone, a quite different sense."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q019",
-  "answerIndex": 1,
-  "confidence": "high",
-  "explanation": "The noun \"disgrace\" is followed by \"to\" when naming who is shamed: \"a disgrace to his family\"."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q020",
-  "answerIndex": 0,
-  "confidence": "high",
-  "explanation": "\"Blind to\" is the fixed idiom meaning unable or unwilling to notice something — here, the faults. \"Blind with\" only works with a cause such as \"blind with rage\"."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q031",
-  "answerIndex": 2,
-  "confidence": "medium",
-  "explanation": "\"But\" is the ordinary coordinating conjunction for a simple contrast between trying and failing. \"Hence\" states a result and \"still\" is an adverb, not a conjunction; \"yet\" is also grammatically possible, so the item has two defensible answers, with \"but\" the plainer one."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q032",
-  "answerIndex": 3,
-  "confidence": "high",
-  "explanation": "\"Since\" here means \"because\": the teacher's absence is the reason you may leave. \"Lest\" means \"for fear that\" and would need \"should\", while \"and\"/\"but\" state no reason."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q033",
-  "answerIndex": 3,
-  "confidence": "high",
-  "explanation": "Running fast and still missing the bus is a contrast, so the concessive \"Though\" fits. \"Since\", \"as\" and \"because\" all give a reason, which would make the sentence illogical."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q034",
-  "answerIndex": 2,
-  "confidence": "high",
-  "explanation": "\"As soon as\" marks the moment immediately after arriving, which is what the request means. \"As long as\" states a condition of duration, and \"no sooner than\" requires the \"no sooner ... than\" pair with inversion."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q035",
-  "answerIndex": 2,
-  "confidence": "high",
-  "explanation": "\"Unless\" = \"if not\", giving the only condition on which pardon will follow. Using \"because\" or \"while\" would destroy the conditional sense."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q036",
-  "answerIndex": 0,
-  "confidence": "high",
-  "explanation": "\"Nearly hit\" means almost hit but did not, which is the sense a near-miss with a bike calls for. \"Dearly\", \"mostly\" and \"completely\" cannot express \"almost\"."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q037",
-  "answerIndex": 0,
-  "confidence": "high",
-  "explanation": "\"Words\" is a countable plural, so it takes \"a few\"; \"little\" is only for uncountables. \"Many words\" would not fit the article \"a\" already printed."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q038",
-  "answerIndex": 3,
-  "confidence": "high",
-  "explanation": "\"Which pen is yours\" asks you to pick from a limited set of pens present, which is exactly what \"which\" does. \"Whose pen is yours\" is self-contradictory, since \"yours\" already answers the ownership question."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q039",
-  "answerIndex": 1,
-  "confidence": "high",
-  "explanation": "\"Books\" is countable, so quantity is asked with \"how many\"; \"how much\" belongs with uncountables such as water or money."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q040",
-  "answerIndex": 2,
-  "confidence": "high",
-  "explanation": "\"Hard\" is both adjective and adverb, and \"works hard\" means with effort — the reason for success. The trap is \"hardly\", which means \"scarcely\" and would mean he barely works at all."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q001",
-  "answerIndex": 0,
-  "confidence": "high",
-  "explanation": "\"Either\" stands by itself as the object of \"ask\" (\"either of them\") and qualifies no noun, so it is a distributive pronoun."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q002",
-  "answerIndex": 1,
-  "confidence": "high",
-  "explanation": "Here \"Either\" comes immediately before the noun \"pen\" and limits it, so it is a distributive adjective — contrast the previous sentence, where it stood alone as a pronoun."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q003",
-  "answerIndex": 2,
-  "confidence": "high",
-  "explanation": "\"Both of them\" has \"both\" standing alone as the subject with no noun following it, so it is a pronoun."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q004",
-  "answerIndex": 3,
-  "confidence": "high",
-  "explanation": "In \"both ways\", the word qualifies the noun \"ways\", so it is functioning as an adjective, unlike the pronoun use in \"both of them\"."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q007",
-  "answerIndex": 0,
-  "confidence": "high",
-  "explanation": "In \"from above\", the word \"above\" is itself the object of the preposition \"from\", and only a noun (or noun-equivalent) can be the object of a preposition — so here it is a noun. Contrast the next sentence, where it governs a noun and is a preposition."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q008",
-  "answerIndex": 3,
-  "confidence": "high",
-  "explanation": "\"Above\" takes the noun phrase \"our head\" as its object and shows position, so it is a preposition."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q009",
-  "answerIndex": 2,
-  "confidence": "high",
-  "explanation": "\"After\" ends the sentence with no object and no clause, simply modifying \"arrived\" in time, so it is an adverb."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q010",
-  "answerIndex": 1,
-  "confidence": "high",
-  "explanation": "Here \"after\" introduces the full clause \"her husband had left\" and joins it to the main clause, so it is a subordinating conjunction of time, not a preposition (which would need a noun such as \"after dinner\")."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q021",
-  "answerIndex": 3,
-  "confidence": "high",
-  "explanation": "Distribution over more than two takes \"among\", and there are three boys. \"Between\" is reserved for two; \"into\" would be used for dividing something into parts, not among people."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q022",
-  "answerIndex": 0,
-  "confidence": "high",
-  "explanation": "The noun \"distrust\" takes \"of\" for the person distrusted — \"distrust of you\". The verb-based pattern \"trust in\" does not carry over to this noun."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q023",
-  "answerIndex": 3,
-  "confidence": "high",
-  "explanation": "\"Beset with\" is the standard collocation for being surrounded or troubled by difficulties."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q024",
-  "answerIndex": 2,
-  "confidence": "high",
-  "explanation": "\"Beaten up\" is the phrasal verb for being assaulted, so the particle is \"up\". \"Beaten down\" refers to prices or resistance, not to a person being thrashed."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q025",
-  "answerIndex": 2,
-  "confidence": "medium",
-  "explanation": "Because the article \"a\" is printed, the transport noun is a specific vehicle, and a specific vehicle you travel inside takes \"in\" — \"in a plane\". The familiar rule \"by plane\" applies only when the noun is bare, with no article, so \"by a plane\" is not idiomatic; some answer keys nevertheless mark \"by\", which makes this item unreliable."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q026",
-  "answerIndex": 0,
-  "confidence": "high",
-  "explanation": "\"Along the river\" means following its length, which is where a line of trees would stand. \"Over\" would put the trees above the water and \"into\" implies movement inside it."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q027",
-  "answerIndex": 1,
-  "confidence": "medium",
-  "explanation": "A superlative compared with a group of more than two takes \"among\" — \"the best among all the other players\". Strictly, standard English prefers \"of all the other players\", which the paper does not offer, so \"among\" is the closest correct option."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q028",
-  "answerIndex": 2,
-  "confidence": "high",
-  "explanation": "\"In four hours\" states the time taken to complete an action, which is what \"finished\" requires. \"During four hours\" describes something spread over a period without implying completion."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q029",
-  "answerIndex": 0,
-  "confidence": "high",
-  "explanation": "\"Proof against\" means secure or protected from something, so innocence is not proof against scandal. The other prepositions do not form this idiom."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q030",
-  "answerIndex": 1,
-  "confidence": "high",
-  "explanation": "\"Prevail upon (or on) someone\" means to persuade them, which fits getting him to join. \"Prevail over\" means to defeat or triumph, a different idiom entirely."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q017",
-  "answerIndex": 0,
-  "confidence": "high",
-  "explanation": "Article 368 in Part XX lays down Parliament's power and the procedure to amend the Constitution. Article 370 dealt with Jammu and Kashmir and Article 311 with dismissal of civil servants."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q032",
-  "answerIndex": 2,
-  "confidence": "high",
-  "explanation": "The word \"Cabinet\" appears in the Constitution only once, in Article 352(3), inserted by the 44th Amendment, which requires the written recommendation of the Union Cabinet before a National Emergency is proclaimed. Articles 74 and 75 speak of the Council of Ministers, not the Cabinet."
- },
- {
-  "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q085",
-  "answerIndex": 2,
-  "confidence": "high",
-  "explanation": "Noun, preposition and adverb are all parts of speech — categories of words — whereas punctuation is a system of marks, not a word class, so it is the odd one out."
- }
+  {
+    "id": "mpsc-inspector-of-taxes-2016-english-ii-q001",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "\"Honesty\" names a quality, so it is an abstract noun, here working as the subject of the sentence. Abstract nouns are still nouns even though they name something you cannot touch."
+  },
+  {
+    "id": "mpsc-inspector-of-taxes-2016-english-ii-q002",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "Here \"yet\" joins two independent clauses (\"He is old\" + \"he can run fast\") with a contrast, so it is an adversative conjunction. \"Yet\" is an adverb only in time senses like \"He has not come yet\"."
+  },
+  {
+    "id": "mpsc-inspector-of-taxes-2016-english-ii-q003",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "\"About\" takes no object here — it modifies the verb \"wandered\" to mean \"here and there\" — so it is an adverb. It would be a preposition only if a noun followed it, as in \"about the forest\"."
+  },
+  {
+    "id": "mpsc-inspector-of-taxes-2016-english-ii-q004",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "\"Any\" stands alone as the subject (\"any of you\") instead of modifying a noun, so it is an indefinite pronoun. It would be an adjective in \"Can any boy help me?\", where it qualifies \"boy\"."
+  },
+  {
+    "id": "mpsc-inspector-of-taxes-2016-english-ii-q005",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "\"Close\" qualifies the noun \"relative\", so it is an adjective. The identical-looking adverb appears in \"He stood close to me\", where it modifies a verb instead."
+  },
+  {
+    "id": "mpsc-inspector-of-taxes-2016-english-ii-q006",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "\"Round\" is followed by the noun \"its axis\", which is its object, so it functions as a preposition. Without an object — \"The wheel goes round\" — the same word would be an adverb."
+  },
+  {
+    "id": "mpsc-inspector-of-taxes-2016-english-ii-q007",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "\"Love\" here is the finite predicate of the subject \"Parents\" and takes the object \"their children\", so it is a verb. It is a noun only in uses like \"Love is blind\"."
+  },
+  {
+    "id": "mpsc-inspector-of-taxes-2016-english-ii-q008",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "\"Alas!\" expresses sudden emotion (grief) and has no grammatical link to the rest of the sentence, which is the definition of an interjection; the exclamation mark is the giveaway."
+  },
+  {
+    "id": "mpsc-inspector-of-taxes-2016-english-ii-q009",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "\"Above\" ends the sentence with no object after it, so it modifies the verb \"are\" and is an adverb. Compare \"above our heads\", where a following noun makes it a preposition."
+  },
+  {
+    "id": "mpsc-inspector-of-taxes-2016-english-ii-q010",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "\"Pretty\" describes the noun \"girl\", so it is an adjective. It is an adverb only when it modifies another adjective, as in \"pretty good\"."
+  },
+  {
+    "id": "mpsc-inspector-of-taxes-2016-english-ii-q011",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "\"Siami\" is a singular third-person subject and the statement is a present fact, so the verb \"be\" takes \"is\". \"Am\" belongs only with I, and \"are/were\" require a plural subject."
+  },
+  {
+    "id": "mpsc-inspector-of-taxes-2016-english-ii-q012",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "An action already in progress when another past event interrupted it takes the past continuous, so \"was working\" pairs with \"when we reached\". Plain \"worked\" would suggest the work began only after the arrival."
+  },
+  {
+    "id": "mpsc-inspector-of-taxes-2016-english-ii-q015",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "\"Since 2010\" marks an action that started in the past and is still going on, which is the present perfect continuous: \"has been working\". Note the paper is misprinted — options (a) and (b) are both \"has worked\" — but the duplicate is not the answer in either case."
+  },
+  {
+    "id": "mpsc-inspector-of-taxes-2016-english-ii-q016",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "With \"until\", the clause names the event that ended the waiting, so the simple past \"arrived\" is the normal form; the past perfect is unnecessary because \"until\" already fixes the sequence. \"Had arrived\" is sometimes accepted in older textbooks, which makes this question mildly ambiguous."
+  },
+  {
+    "id": "mpsc-inspector-of-taxes-2016-english-ii-q019",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "In \"one of the + plural noun\", the subject is the singular \"one\", so the verb is singular: \"has done\". \"Have done\" wrongly agrees with \"girls\", and \"has did\" is not a possible form."
+  },
+  {
+    "id": "mpsc-inspector-of-taxes-2016-english-ii-q020",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "By the traditional rule these papers follow, simple futurity with the first person takes \"shall\", so \"I shall see you tomorrow\". In present-day usage \"will see\" is equally acceptable, so treat this as a test of the older shall/will convention rather than of natural English."
+  },
+  {
+    "id": "mpsc-inspector-of-taxes-2016-english-ii-q024",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "\"For\" is used with a length of time (five years), while \"since\" needs a starting point (since 2019). \"Ago\" belongs with the simple past, not the present perfect."
+  },
+  {
+    "id": "mpsc-inspector-of-taxes-2016-english-ii-q025",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "The fixed collocation is \"keen on something\" when it means enthusiastic about it. \"Keen about\" is non-standard; \"keen to\" would need a verb, as in \"keen to go\"."
+  },
+  {
+    "id": "mpsc-inspector-of-taxes-2016-english-ii-q028",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "\"Scissors\" is a plural-only tool noun, so it is counted with \"a pair of\" — \"a scissor\" and \"a scissors\" are both ungrammatical. \"Some scissors\" is also acceptable English, which makes the item slightly loose, but \"a pair of scissors\" is the form these papers test."
+  },
+  {
+    "id": "mpsc-inspector-of-taxes-2016-english-ii-q029",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "A house has one known doorbell, so the definite article is required: \"the doorbell rang\". \"An doorbell\" is wrong before a consonant sound, and a countable singular noun cannot stand bare."
+  },
+  {
+    "id": "mpsc-inspector-of-taxes-2016-english-ii-q030",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "Before an adjective + singular countable noun the intensifier is \"such a\" — \"such a long time\". \"So\" would need the order \"so long a time\", which is not among the printed options."
+  },
+  {
+    "id": "mpsc-inspector-of-taxes-2016-english-ii-q031",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "\"Cut\" here is the past form of an unchanging verb (cut–cut–cut) stating a single completed action, so the tense is past indefinite (simple past). There is no auxiliary \"had\", which rules out the past perfect."
+  },
+  {
+    "id": "mpsc-inspector-of-taxes-2016-english-ii-q032",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "\"Had + past participle (met)\" is the past perfect, used for an action completed before another point in the past. The continuous form would need \"had been meeting\"."
+  },
+  {
+    "id": "mpsc-inspector-of-taxes-2016-english-ii-q033",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "\"Will have left\" is will + have + past participle, the future perfect, describing an action to be completed before a future moment (11 AM). The continuous version would read \"will have been leaving\"."
+  },
+  {
+    "id": "mpsc-inspector-of-taxes-2016-english-ii-q034",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "The auxiliary \"did\" places the question in the simple (indefinite) past; the bare infinitive \"see\" after it carries no tense of its own. \"Have you seen\" would have made it present perfect."
+  },
+  {
+    "id": "mpsc-inspector-of-taxes-2016-english-ii-q035",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "\"Has been + -ing\" is the present perfect continuous, and \"for a long time\" signals an action begun earlier and still continuing. \"Had been crying\" would be the past perfect continuous."
+  },
+  {
+    "id": "mpsc-inspector-of-taxes-2016-english-ii-q036",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "\"Seems\" is a linking verb, so it is completed by an adjective describing the subject — \"sensible\", not an adverb. The real adverb is \"sensibly\" (the other two spellings do not exist), but an adverb cannot follow a linking verb here."
+  },
+  {
+    "id": "mpsc-inspector-of-taxes-2016-english-ii-q037",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "English fixes adjective order as opinion–age–material before the noun: \"a nice old stone building\". Option (d) also swaps in the wrong noun (\"home\"), so it fails twice."
+  },
+  {
+    "id": "mpsc-inspector-of-taxes-2016-english-ii-q038",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "\"Nearly missed\" means almost missed — which matches \"only just in time to catch it\". \"Near\" and \"nearest\" are not adverbs of degree, and \"mostly\" means \"for the most part\"."
+  },
+  {
+    "id": "mpsc-inspector-of-taxes-2016-english-ii-q039",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "\"Regret\" is a verb, and the intensifier that modifies a verb is \"very much\", not bare \"very\", which can only modify adjectives and adverbs. \"A bit\" would contradict \"really sorry\"."
+  },
+  {
+    "id": "mpsc-inspector-of-taxes-2016-english-ii-q040",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "\"Which\" is the interrogative used when the choice is from a limited, known set — here the roads available. \"What road\" is loose, \"whose\" asks about ownership, and \"who\" refers only to people."
+  },
+  {
+    "id": "mpsc-inspector-of-taxes-2016-english-ii-q069",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "An adversative conjunction expresses contrast, and \"but\" is the standard one: \"He is slow but he is sure.\" \"Because\" shows cause, and \"and\" merely adds, so neither is adversative."
+  },
+  {
+    "id": "mpsc-inspector-of-taxes-2016-english-ii-q070",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "\"He was angry; however, he did not say anything\" is the only option with correct punctuation around the adversative connective and the logical order (anger first, silence despite it). The other three misplace commas or reverse the contrast."
+  },
+  {
+    "id": "mpsc-inspector-of-taxes-2016-gs-ii-q012",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "Article 61 lays down the impeachment procedure for the President, for violation of the Constitution. Article 352 is the National Emergency provision and Article 79 constitutes Parliament."
+  },
+  {
+    "id": "mpsc-inspector-of-taxes-2016-gs-ii-q065",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "Article 280 requires the President to constitute a Finance Commission every fifth year to recommend the distribution of taxes between the Union and the States."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q001",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "\"Few\" here qualifies the noun \"boys\", telling how many, so it is an adjective of quantity. It would be a pronoun only if it stood alone, as in \"A few were absent\"."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q002",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "\"Laughter\" names a thing and is the object of the preposition \"of\", so it is a noun. The verb form is \"laugh\"; the -ter ending here marks the abstract noun."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q003",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "\"Someone\" is an indefinite pronoun standing in for an unnamed person and acting as the subject. It qualifies no noun, so it is not an adjective."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q004",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "\"Always\" tells how often the action happens, so it is an adverb of frequency modifying \"help\"."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q005",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "\"Within\" is followed by the noun phrase \"a week\", which is its object, so it is a preposition showing time limit. A conjunction would have to join two clauses."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q006",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "\"Among\" governs the noun \"the thieves\" and shows the relation between the dividing and the group, so it is a preposition."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q007",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "\"Crowd\" names a group of people and heads the subject of the sentence, so it is a noun — specifically a collective noun."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q008",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "\"Though\" introduces the subordinate clause \"he worked hard\" and links it to the main clause, so it is a subordinating conjunction of concession, not a preposition (a preposition would take a noun, not a clause)."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q009",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "\"Huge\" describes the size of the noun \"caterpillar\", so it is an adjective of quality."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q010",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "\"Must\" is a modal auxiliary, and auxiliaries are classed as verbs; it combines with \"finish\" to express obligation. It is not an adverb, since it does not modify anything."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q011",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "\"Among\" is used for distribution over more than two, and \"the children\" is a group. \"Between\" would be right only for two people."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q012",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "\"On\" is the preposition for days and dates — on Thursday, on 12th March. \"In\" is for months and years, \"at\" for clock times."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q013",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "\"Above mine\" means on a higher floor, which is the natural sense for apartments. \"Over\" suggests covering or movement across, and \"next\" would need \"to\" — \"next to mine\"."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q014",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "\"Beside\" means at the side of, which fits sitting by the road. \"Besides\" means \"in addition to\" and is the classic trap here; \"astride\" would mean with legs on either side of it."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q015",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "\"For\" goes with a period of time (five hours); \"since\" needs a point of time (since 9 o'clock). \"Until\" would mean the work stops at that point, not that it has lasted that long."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q016",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "In the passive, \"by\" introduces the doer and \"with\" the instrument, so a stick — an instrument — takes \"with\". \"Beaten by a stick\" is the standard trap."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q017",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "\"Within a week\" means before the week is over, which is the sense of returning inside a time limit. \"At\" and \"on\" do not go with a stretch of time, and \"by\" would need a fixed point such as \"by Monday\"."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q018",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "The fixed phrasal verb is \"abide by\" a rule or decision, meaning to obey it. \"Abide with\" means to stay with someone, a quite different sense."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q019",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "The noun \"disgrace\" is followed by \"to\" when naming who is shamed: \"a disgrace to his family\"."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q020",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "\"Blind to\" is the fixed idiom meaning unable or unwilling to notice something — here, the faults. \"Blind with\" only works with a cause such as \"blind with rage\"."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q031",
+    "answerIndex": 2,
+    "confidence": "medium",
+    "explanation": "\"But\" is the ordinary coordinating conjunction for a simple contrast between trying and failing. \"Hence\" states a result and \"still\" is an adverb, not a conjunction; \"yet\" is also grammatically possible, so the item has two defensible answers, with \"but\" the plainer one."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q032",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "\"Since\" here means \"because\": the teacher's absence is the reason you may leave. \"Lest\" means \"for fear that\" and would need \"should\", while \"and\"/\"but\" state no reason."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q033",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "Running fast and still missing the bus is a contrast, so the concessive \"Though\" fits. \"Since\", \"as\" and \"because\" all give a reason, which would make the sentence illogical."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q034",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "\"As soon as\" marks the moment immediately after arriving, which is what the request means. \"As long as\" states a condition of duration, and \"no sooner than\" requires the \"no sooner ... than\" pair with inversion."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q035",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "\"Unless\" = \"if not\", giving the only condition on which pardon will follow. Using \"because\" or \"while\" would destroy the conditional sense."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q036",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "\"Nearly hit\" means almost hit but did not, which is the sense a near-miss with a bike calls for. \"Dearly\", \"mostly\" and \"completely\" cannot express \"almost\"."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q037",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "\"Words\" is a countable plural, so it takes \"a few\"; \"little\" is only for uncountables. \"Many words\" would not fit the article \"a\" already printed."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q038",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "\"Which pen is yours\" asks you to pick from a limited set of pens present, which is exactly what \"which\" does. \"Whose pen is yours\" is self-contradictory, since \"yours\" already answers the ownership question."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q039",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "\"Books\" is countable, so quantity is asked with \"how many\"; \"how much\" belongs with uncountables such as water or money."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q040",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "\"Hard\" is both adjective and adverb, and \"works hard\" means with effort — the reason for success. The trap is \"hardly\", which means \"scarcely\" and would mean he barely works at all."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q001",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "\"Either\" stands by itself as the object of \"ask\" (\"either of them\") and qualifies no noun, so it is a distributive pronoun."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q002",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "Here \"Either\" comes immediately before the noun \"pen\" and limits it, so it is a distributive adjective — contrast the previous sentence, where it stood alone as a pronoun."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q003",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "\"Both of them\" has \"both\" standing alone as the subject with no noun following it, so it is a pronoun."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q004",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "In \"both ways\", the word qualifies the noun \"ways\", so it is functioning as an adjective, unlike the pronoun use in \"both of them\"."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q007",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "In \"from above\", the word \"above\" is itself the object of the preposition \"from\", and only a noun (or noun-equivalent) can be the object of a preposition — so here it is a noun. Contrast the next sentence, where it governs a noun and is a preposition."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q008",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "\"Above\" takes the noun phrase \"our head\" as its object and shows position, so it is a preposition."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q009",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "\"After\" ends the sentence with no object and no clause, simply modifying \"arrived\" in time, so it is an adverb."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q010",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "Here \"after\" introduces the full clause \"her husband had left\" and joins it to the main clause, so it is a subordinating conjunction of time, not a preposition (which would need a noun such as \"after dinner\")."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q021",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "Distribution over more than two takes \"among\", and there are three boys. \"Between\" is reserved for two; \"into\" would be used for dividing something into parts, not among people."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q022",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "The noun \"distrust\" takes \"of\" for the person distrusted — \"distrust of you\". The verb-based pattern \"trust in\" does not carry over to this noun."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q023",
+    "answerIndex": 3,
+    "confidence": "high",
+    "explanation": "\"Beset with\" is the standard collocation for being surrounded or troubled by difficulties."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q024",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "\"Beaten up\" is the phrasal verb for being assaulted, so the particle is \"up\". \"Beaten down\" refers to prices or resistance, not to a person being thrashed."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q025",
+    "answerIndex": 2,
+    "confidence": "medium",
+    "explanation": "Because the article \"a\" is printed, the transport noun is a specific vehicle, and a specific vehicle you travel inside takes \"in\" — \"in a plane\". The familiar rule \"by plane\" applies only when the noun is bare, with no article, so \"by a plane\" is not idiomatic; some answer keys nevertheless mark \"by\", which makes this item unreliable."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q026",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "\"Along the river\" means following its length, which is where a line of trees would stand. \"Over\" would put the trees above the water and \"into\" implies movement inside it."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q027",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "A superlative compared with a group of more than two takes \"among\" — \"the best among all the other players\". Strictly, standard English prefers \"of all the other players\", which the paper does not offer, so \"among\" is the closest correct option."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q028",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "\"In four hours\" states the time taken to complete an action, which is what \"finished\" requires. \"During four hours\" describes something spread over a period without implying completion."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q029",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "\"Proof against\" means secure or protected from something, so innocence is not proof against scandal. The other prepositions do not form this idiom."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q030",
+    "answerIndex": 1,
+    "confidence": "high",
+    "explanation": "\"Prevail upon (or on) someone\" means to persuade them, which fits getting him to join. \"Prevail over\" means to defeat or triumph, a different idiom entirely."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q017",
+    "answerIndex": 0,
+    "confidence": "high",
+    "explanation": "Article 368 in Part XX lays down Parliament's power and the procedure to amend the Constitution. Article 370 dealt with Jammu and Kashmir and Article 311 with dismissal of civil servants."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii-q032",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "The word \"Cabinet\" appears in the Constitution only once, in Article 352(3), inserted by the 44th Amendment, which requires the written recommendation of the Union Cabinet before a National Emergency is proclaimed. Articles 74 and 75 speak of the Council of Ministers, not the Cabinet."
+  },
+  {
+    "id": "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii-q085",
+    "answerIndex": 2,
+    "confidence": "high",
+    "explanation": "Noun, preposition and adverb are all parts of speech — categories of words — whereas punctuation is a system of marks, not a word class, so it is the odd one out."
+  }
 ]

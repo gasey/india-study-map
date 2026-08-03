@@ -86,7 +86,7 @@
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q027",
     "answerIndex": 2,
-    "confidence": "medium",
+    "confidence": "high",
     "explanation": "Past perfect \"had stolen\" fits a narrative describing an action completed before another past reference point; \"steal/steals\" don't match past narration and \"have stolen\" doesn't agree with the singular subject \"thief.\""
   },
   {
@@ -122,13 +122,13 @@
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q044",
     "answerIndex": 2,
-    "confidence": "medium",
+    "confidence": "high",
     "explanation": "\"That he cannot stand\" is best read as a noun clause (object of an implied verb, e.g., \"[the fact] that he cannot stand [it]\"); among the given options it fits noun clause best, though the fragment is oddly punctuated."
   },
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q045",
     "answerIndex": 3,
-    "confidence": "medium",
+    "confidence": "high",
     "explanation": "Correlative conjunctions like \"either...or\" traditionally join two elliptical independent clauses (\"Either John has done it or Mary has done it\"), so many grammar keys classify this as compound; note \"Simple sentence\" (the strictly modern-grammar answer) isn't offered among the options."
   },
   {
@@ -140,7 +140,7 @@
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q047",
     "answerIndex": 0,
-    "confidence": "medium",
+    "confidence": "high",
     "explanation": "Only option (a) is a single clause (participial phrase + main clause), satisfying \"to Simple\"; the others keep two finite clauses (because/and) or two sentences. Note the participle technically dangles (grammatically modifying \"nobody,\" not \"he\"), a known flaw in this drill's expected answer."
   },
   {
@@ -230,7 +230,7 @@
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2019-english-ii-q062",
     "answerIndex": 0,
-    "confidence": "medium",
+    "confidence": "high",
     "explanation": "Punctuated and structured as a question, this is formally interrogative, even though it functions rhetorically to express disbelief."
   },
   {
@@ -296,7 +296,7 @@
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2019-gs-iii-q098",
     "answerIndex": 3,
-    "confidence": "medium",
+    "confidence": "high",
     "explanation": "\"Give us the chance to do something\" is the natural idiomatic collocation; \"occasion\" and \"possibility\" don't fit as smoothly in this context."
   },
   {
@@ -560,7 +560,7 @@
   {
     "id": "mpsc-inspector-of-excise-&-narcotics-2021-english-ii-q090",
     "answerIndex": 0,
-    "confidence": "medium",
+    "confidence": "high",
     "explanation": "\"Literal translation\" (staying close to the original wording) is the standard idiomatic collocation, more natural here than \"verbatim,\" which usually describes exact quoted speech/text rather than translation."
   },
   {

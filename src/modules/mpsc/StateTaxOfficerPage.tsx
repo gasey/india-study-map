@@ -1,3 +1,4 @@
+import { QuestionsDisplay } from './QuestionsDisplay';
 import { Link } from 'react-router-dom';
 import { useApp } from '@/lib/store';
 import { ModuleSwitcher } from '@/modules/ModuleSwitcher';

@@ -1,0 +1,1007 @@
+{
+  "total_flagged": 3997,
+  "reviewed": 0,
+  "pending": 3997,
+  "items": [
+    {
+      "question_id": "aa6b65ff9b4c4751d3ea",
+      "stem": "The relation between tread T and riser R in a staircase is given by",
+      "marked_answer": "B",
+      "model_answer": "C",
+      "reasoning": "The standard staircase design formula is T + 2R = 600 (or 550-600mm), where T is tread and R is riser, not 2T + R = 450.",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "a2224dd5a40c4a0e0cc0",
+      "stem": "The index that is used to indicate the consistency of undisturbed soils in the field is",
+      "marked_answer": "B",
+      "model_answer": "A",
+      "reasoning": "Liquidity index indicates the consistency of undisturbed soils in the field; plasticity index is used for soil classific",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "ce438fe5e49964622156",
+      "stem": "Turbine used at Serlui B SHP is",
+      "marked_answer": "C",
+      "model_answer": "B",
+      "reasoning": "Serlui B is a small hydroelectric project with low head, typical for Kaplan turbines; Francis turbines are for medium he",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "7dca69d961b826bc884f",
+      "stem": "VRLA batteries are common nowadays. The full form of VRLA is",
+      "marked_answer": "A",
+      "model_answer": "A",
+      "reasoning": "VRLA stands for Valve-Regulated Lead-Acid, which is the correct and standard acronym",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "dd1b1858b2201f9bd9ed",
+      "stem": "The Standard Measurement Book / Measurement Book is the basis of all accounts of quantities whether ",
+      "marked_answer": "B",
+      "model_answer": "C",
+      "reasoning": "The stem states 'The Standard Measurement Book / Measurement Book' indicating both terms are used interchangeably for th",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "f915b93c3287c83680aa",
+      "stem": "The Assistant Executive Engineer / Assistant Engineer must satisfy himself by personally inspecting ",
+      "marked_answer": "A",
+      "model_answer": "C",
+      "reasoning": "The stem uses 'or' phrasing ('personally inspecting / deputing') indicating either option is acceptable, not mandatory p",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "71f659f8285efd1cabe3",
+      "stem": "The leave account of every Government servant who is serving in a Department other than a Vacation D",
+      "marked_answer": "B",
+      "model_answer": "A",
+      "reasoning": "The stem indicates '30 / 15 days each' meaning two installments of 30 days each (total 60 days annually), not 15 days pe",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "bb4591434bac446a010d",
+      "stem": "If the average increase in population of a city during the years 1990, 2000 and 2010 is 2,00,000 and",
+      "marked_answer": "C",
+      "model_answer": "B",
+      "reasoning": "Using arithmetic method: 2020 population = 2010 population + average increase = 5,00,000 + 2,00,000 = 7,00,000, not 7,20",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "e08692896dc3da3b4c09",
+      "stem": "The soffit formwork to Ring beam of RCC Overhead water tank can be removed after",
+      "marked_answer": "A",
+      "model_answer": "B",
+      "reasoning": "Soffit formwork for RCC ring beam typically requires 10 days minimum for concrete strength development, not 3 days.",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "8d28047ec3a96d000a3e",
+      "stem": "The skin effect of a conductor will reduce as the",
+      "marked_answer": "A",
+      "model_answer": "B",
+      "reasoning": "Skin effect reduces with decreased permeability, not increased resistivity; increased permeability increases skin effect",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "b788acdcd82833b0c6db",
+      "stem": "One brick thickness of wall is roughly equal to X. Pick up the most accurate replacement for X from ",
+      "marked_answer": "A",
+      "model_answer": "C",
+      "reasoning": "One brick thickness is approximately 20cm (9-10 inches), not 10cm which is half a brick",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "ee3c7e70d6a666c55061",
+      "stem": "The diameter of longitudinal bars of a column should never be less than X. Pick up the most accurate",
+      "marked_answer": "D",
+      "model_answer": "C",
+      "reasoning": "Standard practice specifies minimum 12mm for main reinforcement, but 10mm is commonly accepted as minimum for column lon",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "1e1b9202286e85cdfe41",
+      "stem": "Choose the correct answer: Full pension is admissible to an employee retiring with minimum qualifyin",
+      "marked_answer": "A",
+      "model_answer": "B",
+      "reasoning": "Full pension typically requires minimum 20 years of qualifying service in most government pension schemes, not 10 years.",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "f6aa551f0f387405b445",
+      "stem": "Choose the correct answer: The leave account of every Government servant who is serving in a Departm",
+      "marked_answer": "A",
+      "model_answer": "C",
+      "reasoning": "The answer should allow for both 15 and 30 days options as different departments may have different provisions.",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "538a4098800f38a6d2fa",
+      "stem": "Heads of Department may extend Joining Time by up to 15 days/30 days.",
+      "marked_answer": "B",
+      "model_answer": "A",
+      "reasoning": "Heads of Department can extend Joining Time by up to 15 days, not 30 days, according to CCS Rules",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "daf2247565d2e5eeeb49",
+      "stem": "The specific speed of a Centrifugal pump is given by:",
+      "marked_answer": "C",
+      "model_answer": "A",
+      "reasoning": "Options A and C are identical; the marked answer C appears to be a duplicate of A, suggesting a transcription error in t",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "5441017338eeafd06d12",
+      "stem": "In a field hydrostatic test, the test pressure is typically:",
+      "marked_answer": "B",
+      "model_answer": "A",
+      "reasoning": "Field hydrostatic tests typically use 1.5 times working pressure for initial tests, but 2.5 times is more common for fin",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "975ae73c98eb71fb2a06",
+      "stem": "Commonly used gas in gas welding process is:",
+      "marked_answer": "C",
+      "model_answer": "A",
+      "reasoning": "Gas welding typically uses oxygen and acetylene together (oxy-acetylene), not acetylene alone; oxygen is the primary gas",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "700f248d5a45a578d79d",
+      "stem": "Finer the cement used in concrete means:",
+      "marked_answer": "B",
+      "model_answer": "C",
+      "reasoning": "Finer cement increases water requirement and typically causes higher drying shrinkage, not lower.",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "c299fc835ddb43420593",
+      "stem": "Proper grading of aggregates in concrete improves:",
+      "marked_answer": "C",
+      "model_answer": "A",
+      "reasoning": "Proper grading of aggregates primarily improves workability by reducing voids, not density.",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "8800d703899496235987",
+      "stem": "Which of the following statement is not correct regarding function of steel in RCC?",
+      "marked_answer": "D",
+      "model_answer": "A",
+      "reasoning": "Steel improves durability and life of concrete by reducing cracks, not primarily by confining concrete in this context.",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "a0c2e7c42ca39dfde3c2",
+      "stem": "What is the ruling gradient of highway on mountainous terrain?",
+      "marked_answer": "A",
+      "model_answer": "D",
+      "reasoning": "The ruling gradient for mountainous terrain per IRC standards is 1:16.7, not 1:16",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "c0c19640191020935672",
+      "stem": "What is the recommended side slope of road cutting in soft rock and shale? (in vertical to horizonta",
+      "marked_answer": "B",
+      "model_answer": "A",
+      "reasoning": "Side slope for soft rock and shale is typically 1:1 to 1:1.5 (vertical:horizontal), not the fractional notation shown in",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "d1e7e92bf60a5107f53a",
+      "stem": "The width of carriage way intermediate carriageway is:",
+      "marked_answer": "C",
+      "model_answer": "B",
+      "reasoning": "Intermediate carriageway width is typically 5.5m according to IRC standards, not 4.25m.",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "d9f57f7cc8721db4c964",
+      "stem": "Finer the cement, the need for water for hydration and workability:",
+      "marked_answer": "D",
+      "model_answer": "D",
+      "reasoning": "Finer cement has larger surface area, requiring MORE water for hydration and workability, so the marked answer D is corr",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "90724d7f7fe03da21554",
+      "stem": "The insulation resistance of a cable is 300 M\u03a9/Km. Its value for 250 metre length is-MV .",
+      "marked_answer": "B",
+      "model_answer": "A",
+      "reasoning": "Insulation resistance is inversely proportional to length: R = 300 M\u03a9/km \u00d7 (0.25 km) = 1200 M\u03a9, not 75 M\u03a9",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "16c8b6603adf315ff469",
+      "stem": "Two 500 watt lamps connected in series across a 220volt line draws 1.0 ampere. The total power consu",
+      "marked_answer": "B",
+      "model_answer": "B",
+      "reasoning": "Power = V \u00d7 I = 220V \u00d7 1.0A = 220W, which matches the marked answer, but the two 500W lamps in series shouldn't work as ",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "a0c97352bf6218de2d74",
+      "stem": "The material used for fuse must have:",
+      "marked_answer": "A",
+      "model_answer": "B",
+      "reasoning": "Fuse material needs LOW melting point to blow easily but HIGH specific resistance to generate heat; marked answer A is i",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "2d7dbc604a040e6f2182",
+      "stem": "It is a vertical transport vehicle that efficiently move people or goods between floors of a buildin",
+      "marked_answer": "D",
+      "model_answer": "B",
+      "reasoning": "An elevator is the primary vertical transport vehicle; escalators are also used but the question asks for THE vehicle, m",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "b89442663f62d29accf2",
+      "stem": "Transformer tank is not filled with water because:",
+      "marked_answer": "C",
+      "model_answer": "C",
+      "reasoning": "Water has good cooling but poor insulating properties; transformer oil has both good cooling AND good insulating propert",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "33a532d41cf713539e4d",
+      "stem": "One-way single pole switch controls:",
+      "marked_answer": "B",
+      "model_answer": "B",
+      "reasoning": "Options B and D are identical; one-way single pole switch connects one wire to two positions, so the answer should be B ",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "82d2f9ebcc77c08eaaea",
+      "stem": "According to I.E. rules, the earth resistance for low and medium voltage systems should be:",
+      "marked_answer": "D",
+      "model_answer": "C",
+      "reasoning": "IE rules specify earth resistance should be less than 4V (or 4 ohms in some standards), not less than 5V.",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "1ba96135dfd18929e9dd",
+      "stem": "In electrical instruments, electrical energy is converted to:",
+      "marked_answer": "A",
+      "model_answer": "D",
+      "reasoning": "Electrical instruments convert electrical energy to multiple forms (light, heat, mechanical), not just light; answer sho",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "b50c524e6b88253cc4b2",
+      "stem": "Transformer are rated in Kva instead of kW because:",
+      "marked_answer": "B",
+      "model_answer": "A",
+      "reasoning": "The primary reason transformers are rated in kVA is that load power factor is often unknown at design time; option A is ",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "23721b2f97be28a81385",
+      "stem": "In two W meter method, if the power factor is unity, then:",
+      "marked_answer": "C",
+      "model_answer": "A",
+      "reasoning": "In two-watt meter method at unity power factor, W1 = W2 only if perfectly balanced; typically W1 > W2 due to phase angle",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "c71cbcc32f72711ac828",
+      "stem": "The colour of Oxygen cylinder is:",
+      "marked_answer": "C",
+      "model_answer": "B",
+      "reasoning": "Oxygen cylinders are typically painted black, not blue; blue cylinders are for acetylene in some countries or other gase",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "ec8a90f343e32ba658a6",
+      "stem": "A constant voltage is applied between two ends of a uniform metallic wire. Some heat is developed. I",
+      "marked_answer": "D",
+      "model_answer": "B",
+      "reasoning": "With constant voltage and halved length and radius, resistance becomes R/4, so current quadruples, and heat (I\u00b2R) double",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "945ff97d8aacb5d64338",
+      "stem": "If a 6-pole alternator is driven by a prime mover at 1000RPM, what is the frequency of the generated",
+      "marked_answer": "A",
+      "model_answer": "C",
+      "reasoning": "Frequency = (P \u00d7 N) / 120 = (6 \u00d7 1000) / 120 = 50Hz, not 60Hz",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "a6f9e95f27ab31aff1e4",
+      "stem": "A point at which the consumer's installation and/or apparatus are connected to distribution licensee",
+      "marked_answer": "C",
+      "model_answer": "D",
+      "reasoning": "A point of connection between consumer installation and distribution system should be called 'Point of Supply' or simila",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "44c6fb1de70a123d47a0",
+      "stem": "A sewer which receives discharge of a number of house sewers is called a:",
+      "marked_answer": "D",
+      "model_answer": "A",
+      "reasoning": "A sewer receiving discharge from multiple house sewers is called a 'Common sewer', not a 'Branch sewer'.",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "1540f6931d8dc3af7a05",
+      "stem": "The supply voltage of a consumer is 220VAC and his internal wiring is protected by 9A fuse. How many",
+      "marked_answer": "C",
+      "model_answer": "A",
+      "reasoning": "Maximum current = 220V \u00d7 9A = 1980W; bulbs per watt = 1980/60 = 33 bulbs, not 22.",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "ec36a598f6ec39e3f7de",
+      "stem": "In a distribution system, what type of transformer connection is typically used to step down the vol",
+      "marked_answer": "C",
+      "model_answer": "D",
+      "reasoning": "Star-Delta (Y-\u0394) connection steps down voltage; Delta-Star (\u0394-Y) is used for stepping up, making D the correct answer fo",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "d0a9762555b37b64163d",
+      "stem": "What is the minimum design speed (in km/hr) for National Highway and State Highways in steep terrain",
+      "marked_answer": "C",
+      "model_answer": "B",
+      "reasoning": "Minimum design speed for National/State Highways in steep terrain is typically 50 km/hr, not 25 km/hr which is too low f",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "7ae24b1de5d540bdea87",
+      "stem": "While choosing ideal bridge site, which of the following below is not a desirable characteristic of ",
+      "marked_answer": "B",
+      "model_answer": "A",
+      "reasoning": "A narrow, fast current portion is undesirable; option B describes desirable characteristics (wide channel and slow curre",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "9052e5e59968eee870ae",
+      "stem": "Rigid pavement does not possess.",
+      "marked_answer": "D",
+      "model_answer": "A",
+      "reasoning": "Rigid pavement does possess flexural strength; it actually has excellent flexural and tensile strength, unlike flexible ",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "b963aa18564e160704de",
+      "stem": "Good steel should not have carbon content of more than:",
+      "marked_answer": "D",
+      "model_answer": "A",
+      "reasoning": "Good steel should have carbon content not more than 0.25%, making A the correct answer, not D.",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "efc61252d54997ed4df2",
+      "stem": "Which of the following is not contributing factor for calculation of deflection in a beam?",
+      "marked_answer": "B",
+      "model_answer": "B",
+      "reasoning": "Strain is a contributing factor to deflection calculation; modulus of elasticity, beam length, and thickness are primary",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "2c06f0463116539d8a62",
+      "stem": "For estimation of magnitude of earth pressure, which of the following has minimum magnitude?",
+      "marked_answer": "B",
+      "model_answer": "C",
+      "reasoning": "Earth pressure at rest has the minimum magnitude; active earth pressure is less than at rest but greater than passive.",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "b9c5fc37b21ca03669b5",
+      "stem": "Temperatures have been above average.",
+      "marked_answer": "D",
+      "model_answer": "A",
+      "reasoning": "'above' is an adverb modifying 'average', not a preposition",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "2d271ddd97376688a1be",
+      "stem": "Have you watched _____ of the James Bond movies?",
+      "marked_answer": "D",
+      "model_answer": "B",
+      "reasoning": "'any' is correct in negative/interrogative contexts; 'a few' is for positive affirmative statements",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "95deb70730ea6d1be277",
+      "stem": "He sings very well and he can also play _____ flute.",
+      "marked_answer": "C",
+      "model_answer": "A",
+      "reasoning": "'play a flute' is correct; 'the' would suggest a specific flute already mentioned",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "b92c206eb4165024ffe6",
+      "stem": "There was hardly _____ milk in the bowl.",
+      "marked_answer": "C",
+      "model_answer": "B",
+      "reasoning": "'much' is correct for uncountable nouns like milk; 'any' changes the meaning",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "adb3739981a0446c2ad1",
+      "stem": "Everyday last week my mother _____ a plate.",
+      "marked_answer": "C",
+      "model_answer": "B",
+      "reasoning": "With 'Everyday last week' (indicating repeated past action), simple past 'broke' is correct, not continuous 'was breakin",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "e40b78797625769c1abc",
+      "stem": "He is _____ to all his colleagues.",
+      "marked_answer": "D",
+      "model_answer": "C",
+      "reasoning": "The sentence needs 'prior' (superior/higher in rank) to mean 'superior to colleagues', not 'junior' which means lower in",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "30cd1256d29c541216d6",
+      "stem": "Agriculture is primarily a subject under:",
+      "marked_answer": "D",
+      "model_answer": "B",
+      "reasoning": "Agriculture is listed in the State List (Part II of the Seventh Schedule), not the Concurrent List",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "5fc2be8b51618003d670",
+      "stem": "EOL for higher technical studies:",
+      "marked_answer": "D",
+      "model_answer": "A",
+      "reasoning": "EOL for higher technical studies typically counts as qualifying service under government rules, not conditional on retur",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "fce9dac8522db7126bb3",
+      "stem": "Dearness Allowance counts as emoluments for determining:",
+      "marked_answer": "D",
+      "model_answer": "C",
+      "reasoning": "Dearness Allowance counts as emoluments for both Retirement Gratuity AND Death Gratuity, not neither as option D suggest",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "fe57ab5dee19b8d4c1e0",
+      "stem": "Change to simple sentence: ' He was poor but he was honest.'",
+      "marked_answer": "C",
+      "model_answer": "C",
+      "reasoning": "Option C is a complex sentence with a dependent clause, not a simple sentence; option A correctly combines the two claus",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "033c73a3dbbae708d1c2",
+      "stem": "Identify the type of sentence: Leave me now. I have an important appointment to go to.",
+      "marked_answer": "B",
+      "model_answer": "C",
+      "reasoning": "The first sentence is imperative, but the second is declarative; marking should reflect the mixed nature or the first se",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "df2af74f1be41b454951",
+      "stem": "The full form of BNSS is:",
+      "marked_answer": "B",
+      "model_answer": "D",
+      "reasoning": "BNSS full form is 'Bharatiya Nyaya Suraksha Sanhita' (not 'Suraksha Samhita' as in option B)",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "79bcb419f0092b5ae740",
+      "stem": "A Department proposes to incur an expenditure for which no specific financial power has been delegat",
+      "marked_answer": "B",
+      "model_answer": "A",
+      "reasoning": "When no specific financial power is delegated, the default competent authority is typically the Head of Department or hi",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "06d6c25635418a18c9d8",
+      "stem": "The Accounts Officer shall not allow any payment against sanctions in excess of the Budget Provision",
+      "marked_answer": "A",
+      "model_answer": "B",
+      "reasoning": "Payments exceeding budget provisions require approval from competent authority, not just Finance Department",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "06ede668bffdc3efc2e2",
+      "stem": "A Government servant shall be deemed to have been placed under suspension from the date of convictio",
+      "marked_answer": "B",
+      "model_answer": "A",
+      "reasoning": "Conviction and sentence to imprisonment exceeding 24 hours (not 48 hours) triggers automatic suspension under Rule 10.",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "23cefa2bbb13523a6e28",
+      "stem": "Except as provided by FR&SR Rules, no person in India may be appointed to a post in Government servi",
+      "marked_answer": "D",
+      "model_answer": "C",
+      "reasoning": "FR&SR requires a qualifying written entrance examination as the standard requirement for Government service appointments",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "59582637d3f47bd13b60",
+      "stem": "Do mesne profits include profits due to improvements made by the person in wrongful possession?",
+      "marked_answer": "C",
+      "model_answer": "D",
+      "reasoning": "Mesne profits typically exclude improvements made by the wrongful possessor, but courts retain discretion in exceptional",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "0056ddf5f5647b38c096",
+      "stem": "Which Article provides for the procedure in Parliament in case of financial bills?",
+      "marked_answer": "C",
+      "model_answer": "B",
+      "reasoning": "Article 117 specifically deals with the procedure for financial bills, not Article 110 which deals with money bills gene",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "18f329bdf8ca5a8f957e",
+      "stem": "Which authority is empowered to suspend or cancel a driving licence upon conviction for certain offe",
+      "marked_answer": "D",
+      "model_answer": "A",
+      "reasoning": "Section 22 of the Motor Vehicles Act empowers the Court to suspend or cancel a driving licence upon conviction for certa",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "7e03832aad8ae3bbf5f2",
+      "stem": "The maximum punishment for commercial quantity trafficking is:",
+      "marked_answer": "C",
+      "model_answer": "D",
+      "reasoning": "Under NDPS Act, maximum punishment for commercial quantity trafficking is typically 20 years imprisonment, not 10 years",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "5ce59f8127802ddab515",
+      "stem": "Narcotics Control Bureau was constituted in:",
+      "marked_answer": "B",
+      "model_answer": "A",
+      "reasoning": "Narcotics Control Bureau was constituted in 1986, not 1990",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "abb89ca79a94eaff29b4",
+      "stem": "Punishment under Section 20 relates to:",
+      "marked_answer": "B",
+      "model_answer": "A",
+      "reasoning": "Section 20 relates to punishment for contravention of prohibition on cultivation of cannabis plant, not cocaine offences",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "1a61c5b4e80685f288db",
+      "stem": "How shall property returns submitted by Government servants be treated?",
+      "marked_answer": "D",
+      "model_answer": "C",
+      "reasoning": "Property returns by government servants are typically treated as confidential/personal records, not secret documents; 's",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "d527a9ea41db26ee9f6f",
+      "stem": "Under the RTI Act, 2005, within how many days must a first appeal be filed after receiving a respons",
+      "marked_answer": "D",
+      "model_answer": "C",
+      "reasoning": "Under RTI Act 2005, Section 19(1) prescribes 30 days for first appeal, not 30 days as marked; the standard timeframe is ",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "d4f77b33b49774f2c9b0",
+      "stem": "When an absconded offender appears in Court or is arrested by parties other than the Excise and Narc",
+      "marked_answer": "C",
+      "model_answer": "C",
+      "reasoning": "The question references Criminal Procedure Code 1978, but should reference CrPC 1973; additionally the procedure describ",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "b3535b785897edf28a33",
+      "stem": "State True or False: (c) Illegal possession of arms is punishable with imprisonment of 7 years.",
+      "marked_answer": "A",
+      "model_answer": "B",
+      "reasoning": "Under Arms Act 1959, illegal possession of arms is punishable with imprisonment up to 3 years, not 7 years",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "61ab89a05f9c57489eb8",
+      "stem": "State whether the following statements are TRUE or FALSE - (c) The Bank Pass Book and the Cash Book ",
+      "marked_answer": "B",
+      "model_answer": "A",
+      "reasoning": "Bank Pass Book and Cash Book (bank column) record the same transactions from different perspectives - they should match,",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "013b7c3ea2bb73309af6",
+      "stem": "State whether the following statements are TRUE or FALSE - (d) Liquid assets are those current asset",
+      "marked_answer": "B",
+      "model_answer": "A",
+      "reasoning": "Liquid assets are current assets that CAN be converted to cash quickly; the definition given (cannot be seen/touched) de",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "dae9a7bd2c880cfa0cd5",
+      "stem": "The inquiring authority should conclude the inquiry and submit its report within ________ from the d",
+      "marked_answer": "B",
+      "model_answer": "A",
+      "reasoning": "Under Rule 14 of CCS (CCA) Rules, the inquiring authority must submit its report within 3 months from the date of receip",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "a9a821325f3a98043c7f",
+      "stem": "Which of the following items is not included in the definition of goods as per the General Financial",
+      "marked_answer": "C",
+      "model_answer": "D",
+      "reasoning": "Books, periodicals, and publications for libraries are typically classified as goods under GFR 2017, while software, lic",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "492637c5f0b819547453",
+      "stem": "Identify the false statement regarding two bid and two-stage bidding systems:",
+      "marked_answer": "D",
+      "model_answer": "C",
+      "reasoning": "In a two-bid system, technical and financial bids are submitted simultaneously in separate sealed covers - this statemen",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "38b7328e4f7959e0a5ca",
+      "stem": "Moneys received by officers of Forest Departments shall be paid as soon as possible into nearest tre",
+      "marked_answer": "C",
+      "model_answer": "B",
+      "reasoning": "Forest Departments' receipts should be credited as 'Forest Deposits' not 'Revenue Remittance' which is for general reven",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "0058740550dbfc78dc92",
+      "stem": "Payment orders( other than cheques) issued on the Bank is valid:",
+      "marked_answer": "C",
+      "model_answer": "B",
+      "reasoning": "Payment orders other than cheques are typically valid for 15 days, not 30 days",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "c7d4808d04464550857d",
+      "stem": "Which statement is false regarding payment to contractors ?",
+      "marked_answer": "B",
+      "model_answer": "B",
+      "reasoning": "Claims for payment should be prepared by the contractor/creditor, not by Drawing and Disbursing officers",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "4afa61e4760d9633ee3c",
+      "stem": "Heat transfer takes place as per",
+      "marked_answer": "A",
+      "model_answer": "C",
+      "reasoning": "Heat transfer occurs according to the second law of thermodynamics (entropy principle), not the zeroth law which defines",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "cbee0f1c9fcf3afe0b7e",
+      "stem": "Convert the following readings of pressure to kPa, assuming that the barometer reads 760 mm Hg and m",
+      "marked_answer": "C",
+      "model_answer": "C",
+      "reasoning": "A-2 (50 cm Hg vacuum = 760-500 = 260 mm Hg = 34.65 kPa), B-3 (80 cm Hg gauge = 800 mm Hg = 106.6 kPa \u2260 209 kPa), C-1 (1.",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "fc53dac61679f1f4c18c",
+      "stem": "An object having 10 kg mass weighs 9.81 kg on a spring balance. The value of 'g' at this place is",
+      "marked_answer": "B",
+      "model_answer": "D",
+      "reasoning": "If mass is 10 kg and spring balance reads 9.81 kg, then W = mg gives 9.81 = 10 \u00d7 g, so g = 0.981 m/s\u00b2, not 9.81 m/s\u00b2.",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "867afd371f4da9f11aaa",
+      "stem": "If jet of water coming out from a nozzle with a velocity of 9.81 m/s, the angle of elevation being 3",
+      "marked_answer": "B",
+      "model_answer": "B",
+      "reasoning": "Time to highest point = v\u2080sin(\u03b8)/g = 9.81\u00d7sin(30\u00b0)/9.81 = 0.5 sec, which matches the marked answer B",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "8dcbab1e37d59a85aac1",
+      "stem": "If D1 and D2 are the diameters of driver and driven pulleys, then belt speed is proportional to",
+      "marked_answer": "A",
+      "model_answer": "C",
+      "reasoning": "Belt speed is constant for both pulleys; since speed = \u03c0D\u00d7N, and N\u2081D\u2081 = N\u2082D\u2082, belt speed is proportional to neither D1 n",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "2a8adcce3b22d1d312c1",
+      "stem": "Relationship between the number of links (L) and number of pairs (P) is",
+      "marked_answer": "C",
+      "model_answer": "A",
+      "reasoning": "The correct Gruebler's equation for planar mechanisms is P = 2L - 2 for a kinematic chain, but the standard relationship",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "ab494cd7cdbc3f0abad8",
+      "stem": "The deflection of a cantilever beam under load W is 8. If its width is halved, then the deflection u",
+      "marked_answer": "B",
+      "model_answer": "D",
+      "reasoning": "Deflection of cantilever beam is inversely proportional to width (I \u221d b); halving width increases deflection by factor o",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "e8ac0eae349a3b07e8ca",
+      "stem": "Pick up the incorrect statement from the following:",
+      "marked_answer": "D",
+      "model_answer": "C",
+      "reasoning": "The C.G. of a semicircle is at distance 4r/(3\u03c0) \u2248 0.424r from diameter, not r/2; statement D is actually correct, making",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "06229c22cc5f0b2d3765",
+      "stem": "A hostel has a monthly income of Rs. 40,000. Of these, Rs. 14,000 is budgeted for food. What percent",
+      "marked_answer": "B",
+      "model_answer": "B",
+      "reasoning": "14000/40000 = 0.35 = 35%, which matches option B",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "24ed469c218143f43503",
+      "stem": "The number missing in the series 3, 8, 18, 38, ______, 158 is?",
+      "marked_answer": "D",
+      "model_answer": "D",
+      "reasoning": "Series pattern: each term is double the previous plus 2 (3\u21928: 3\u00d72+2=8, 8\u219218: 8\u00d72+2=18, 18\u219238: 18\u00d72+2=38, 38\u219278: 38\u00d72+2=7",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "84e1af2619ba6efa71a2",
+      "stem": "A person walks towards his house at 8:00 am and observes his shadow to his right. In which direction",
+      "marked_answer": "C",
+      "model_answer": "A",
+      "reasoning": "At 8:00 am, the sun is in the east; if shadow is to the right, he walks north",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "92f3c519aadda1a14e35",
+      "stem": "Because of grave and sudden provocation of Z, A fires at Z but Z does not die. A has committed the o",
+      "marked_answer": "B",
+      "model_answer": "A",
+      "reasoning": "Without actual death, firing at someone constitutes attempt to murder, not culpable homicide which requires death as an ",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "c370f348320486c3a03a",
+      "stem": "In which case, it was held by the Supreme Court that 'Preamble is a part of the Constitution'?",
+      "marked_answer": "B",
+      "model_answer": "D",
+      "reasoning": "Kesavananda Bharati v. State of Kerala (1973) is the landmark case that held the Preamble is part of the Constitution, n",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "24e8f4d682c4aa623c21",
+      "stem": "A Magistrate has the power to direct the police to investigate into an offence under",
+      "marked_answer": "D",
+      "model_answer": "C",
+      "reasoning": "Section 156(3) CrPC gives magistrates power to direct police investigation; 156(1) is for cognizable offenses without pe",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "11e5f680f70b4f33a40a",
+      "stem": "General rule is the transfer must be between inter vivos. The Transfer of Property Act makes two exc",
+      "marked_answer": "B",
+      "model_answer": "A",
+      "reasoning": "Sections 5 and 6 TPA deal with the exceptions to the general rule that transfers must be inter vivos (Sections 5 and 6 c",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "18fd8a6bb6ee6fbb5615",
+      "stem": "Sieve size of 75\u00b5 corresponds to:",
+      "marked_answer": "D",
+      "model_answer": "C",
+      "reasoning": "75\u03bc (microns) = 75 \u00d7 10\u207b\u2076 m = 0.075 mm, not 0.75 mm",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "aa50f33ee99e7228fc8f",
+      "stem": "The overload release protects the motor against",
+      "marked_answer": "C",
+      "model_answer": "D",
+      "reasoning": "Overload release protects against overload, but the term 'overload release' specifically refers to protection from exces",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    },
+    {
+      "question_id": "c5801c820afff6b55ef3",
+      "stem": "The maximum allowable concentration of iron in water is :",
+      "marked_answer": "C",
+      "model_answer": "A",
+      "reasoning": "Maximum allowable iron concentration in water is typically 0.3 mg/L per Indian Standards, but 1.0 ppm is often cited in ",
+      "status": "pending",
+      "your_decision": null,
+      "your_reasoning": null
+    }
+  ]
+}

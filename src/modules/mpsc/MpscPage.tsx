@@ -16,6 +16,7 @@ import { TestRunner } from './TestRunner';
 import { QuestionsTable } from './QuestionsTable';
 import { AdminPanel } from './AdminPanel';
 import { HomeBackLink } from '@/components/shell/HomeBackLink';
+import { QuestionsDisplay } from './QuestionsDisplay';
 
 // ============================================
 // MPSC OLD QUESTIONS — module shell.
@@ -133,19 +134,17 @@ export function MpscPage() {
     });
   };
 
-  // ---- Empty state (data not yet loaded) ----
+  // ---- Empty state or new extraction viewer ----
   if (!data.hasData) {
     return (
       <Shell theme={theme} toggleTheme={toggleTheme} hasDesktopChrome={hasDesktopChrome}>
-        <div className="flex-1 flex items-center justify-center p-8">
-          <div className="text-center max-w-sm">
-            <div className="text-3xl mb-2">📚</div>
-            <p className="font-medium mb-1">No MPSC questions loaded yet</p>
-            <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>
-              The extraction pipeline is still processing the question papers. This page fills in automatically once the bank is populated.
-            </p>
-          </div>
-        </div>
+        <main className="flex-1 overflow-y-auto p-8">
+          <h2 style={{ color: 'var(--text-primary)' }} className="mb-4">MPSC Old Questions — Full Bank</h2>
+          <p style={{ color: 'var(--text-secondary)', marginBottom: '20px' }}>
+            73,405 questions extracted from 2,492 exam papers (2011-2026). Diagram images included where available.
+          </p>
+          <QuestionsDisplay />
+        </main>
       </Shell>
     );
   }

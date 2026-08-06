@@ -9,6 +9,67 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-08-06 — MPSC Old Questions: merged the 73K-question extraction into the droplet DB (not Render)
+
+**What shipped:**
+- The full 73,405-question / 1,899-paper extraction (`mpsc_bank_converted.json`
+  — a separate, much larger PDF-OCR batch than the 164/6,380 already in the
+  `shiksha-dev` droplet's `mpsc_study` DB) was loaded additively into that
+  same DB's existing `papers`/`questions` tables via a new one-off script
+  (`load_into_droplet.py`, committed on the droplet in `~/mpsc_api`, not
+  this repo). The two batches use non-overlapping ID schemes (old = human
+  slugs, new = content hashes) so nothing collided or got overwritten —
+  the 5 existing user reports and the review system are untouched.
+- Live totals: **1,750 papers · 76,093 questions**, served from the same
+  `/api/mpsc/bank` endpoint `useMpscData.ts` already called —
+  **no frontend code change needed** once the DB had the data.
+- Verified live: Library shows the new totals, a real practice test loads
+  and scores a question drawn from the new batch, via `curl` + browser
+  `get_page_text` (not screenshot — see gotcha below).
+
+**Why:** this session initially tried standing up a brand-new backend for
+this same dataset on Render.com's free tier (separate Django app,
+`github.com/gasey/mpsc-api`) and pointing `useMpscData.ts` at it. That
+went through several real bugs (Python version pin, missing migration,
+a field too short for the real data) before working — but the free
+tier's 0.1 CPU / 256MB instance took ~20-35s to serialize 69K+ rows per
+request even with a 6h cache, and the user asked to do the work on the
+existing dev droplet instead, which already runs this exact data shape
+in production and has real CPU/RAM to spare. Fully reverted the Render
+integration attempt (see `a997346`..`42a1748` in this repo's git log)
+before redoing it against the droplet.
+
+**What's still open:**
+- 313 papers from the new batch had no parseable `year` (that column is
+  `NOT NULL` on the droplet) and were skipped; ~2,812 questions that
+  referenced them now have `paper_id = NULL` — still browsable/
+  practiceable, just not attributed to a specific paper in the UI.
+- The `All years` filter now includes a couple of garbage values ("22",
+  "18") from bad year extraction on a handful of source PDFs — an
+  extraction-pipeline bug, not a DB/frontend bug.
+- No check yet for the same real exam paper being extracted by *both*
+  the old and new pipelines (only IDs are guaranteed not to collide,
+  not content) — could show as a visible duplicate in Library.
+- `/api/mpsc/bank` now returns ~41MB in one request. Fine today (droplet
+  has real CPU, request completes in ~20s of mostly network transfer),
+  but more extraction batches are still pending (Direct/LDE/Descriptive
+  per the MPSC extraction-progress notes) — will eventually need
+  pagination instead of one ever-growing dump.
+- The abandoned Render project (`github.com/gasey/mpsc-api`, Postgres DB
+  expires 2026-09-05) still exists but nothing references it anymore —
+  safe to delete, or just let the free DB expire on its own.
+- **Tooling gotcha, not a code bug:** the browser-automation screenshot
+  action was broken for this entire session (timed out on every site,
+  even `example.com`), which produced a false "the page is frozen"
+  diagnosis mid-session and triggered an unnecessary rollback. Verify
+  with `get_page_text` / `curl` before trusting a screenshot timeout as
+  evidence of a real hang.
+- Full status + forward plan tracked in `WIP.md` on the droplet
+  (`~/mpsc_api/WIP.md`) — check that file first before touching this
+  service again, rather than re-deriving state from git log.
+
+---
+
 ## 2026-08-04 (later) — State Tax Officer: rebuilt the 2016/2019/2021 papers (phase B, no official key)
 
 **What shipped:**

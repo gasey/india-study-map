@@ -21,7 +21,8 @@ export const ALL = 'all';
 // HTTPS is required — the deployed site is served over HTTPS (Vercel), and
 // browsers silently block http:// fetches from an https:// page as mixed
 // content (see mpscApi.ts's API_BASE / DEVLOG.md 2026-08-02).
-const API_URL = 'https://api.map.hawayu.in/api/mpsc/bank';
+// 🔴 Connected to Render API: https://mpsc-api.onrender.com/api/bank/
+const API_URL = 'https://mpsc-api.onrender.com/api/bank/';
 
 interface RawBank {
   papers: ExamPaper[];

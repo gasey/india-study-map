@@ -257,4 +257,14 @@ export const modules: AppModule[] = [
     kind: 'static',
     path: '/quick-practice/tenses-and-voice.html',
   },
+  {
+    id: 'mpsc-mcq-practice-hub',
+    title: 'MPSC MCQ Practice Hub',
+    category: 'Practice',
+    subgroup: 'Quick practice (one-offs)',
+    tagline: 'Mixed MCQ practice',
+    glyph: '📄',
+    kind: 'static',
+    path: '/quick-practice/mpsc-mcq-practice-hub.html',
+  },
 ];

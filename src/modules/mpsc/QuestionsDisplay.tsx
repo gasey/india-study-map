@@ -33,10 +33,10 @@ export function QuestionsDisplay() {
 
   const q = questions[current];
   const answerLetter = String.fromCharCode(65 + q.answerIndex);
-  const hasDiagram = q._diagramPath;
-  const diagramPath = hasDiagram
+  const hasDiagram = Boolean(q._diagramPath);
+  const diagramPath = q._diagramPath
     ? '/mpsc-diagrams/' + q._diagramPath.split('/').pop()
-    : null;
+    : undefined;
 
   const handleJump = () => {
     const num = parseInt(jumpTo);

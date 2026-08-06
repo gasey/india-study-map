@@ -21,8 +21,11 @@ export const ALL = 'all';
 // HTTPS is required — the deployed site is served over HTTPS (Vercel), and
 // browsers silently block http:// fetches from an https:// page as mixed
 // content (see mpscApi.ts's API_BASE / DEVLOG.md 2026-08-02).
-// 🔴 Connected to Render API: https://mpsc-api.onrender.com/api/bank/
-const API_URL = 'https://mpsc-api.onrender.com/api/bank/';
+// Rolled back 2026-08-06: the new mpsc-api Render backend's /api/bank/
+// dumps all ~70K questions as one ~36MB JSON payload, and parsing that in
+// one synchronous JSON.parse() call froze the tab in production. Needs a
+// paginated fetch before it can replace the droplet.
+const API_URL = 'https://api.map.hawayu.in/api/mpsc/bank';
 
 interface RawBank {
   papers: ExamPaper[];

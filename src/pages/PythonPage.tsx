@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import { useApp } from '@/lib/store';
 import { pyStages } from '@/data/python/lessons';
 import { PyQuiz } from '@/modules/python/PyQuiz';
 
@@ -12,8 +13,12 @@ import { PyQuiz } from '@/modules/python/PyQuiz';
 // ============================================
 
 export default function PythonPage() {
-  const [stageId, setStageId] = useState(pyStages[0].id);
+  const lastStage = useApp((s) => s.pythonLastStage);
+  const setLastStage = useApp((s) => s.setPythonLastStage);
+  const [stageId, setStageId] = useState(() => (lastStage && pyStages.some((s) => s.id === lastStage) ? lastStage : pyStages[0].id));
   const stage = pyStages.find((s) => s.id === stageId) ?? pyStages[0];
+
+  useEffect(() => { setLastStage(stageId); }, [stageId, setLastStage]);
 
   return (
     <div className="h-full overflow-y-auto scroll-panel">

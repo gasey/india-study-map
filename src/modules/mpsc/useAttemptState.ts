@@ -147,6 +147,37 @@ export function loadPaper<T>(key: string): T[] | null {
   }
 }
 
+/** Every resumable sitting on this device — for Home's "Jump back in" card.
+ *  Reads the same PREFIX every other function here writes to; not a hack,
+ *  just the one cross-cutting query this module didn't need until now. */
+export interface ResumableAttempt {
+  key: string;
+  answered: number;
+  total: number;
+  startedAt: number;
+}
+export function listResumableAttempts(): ResumableAttempt[] {
+  const out: ResumableAttempt[] = [];
+  try {
+    for (let i = 0; i < localStorage.length; i++) {
+      const storageKey = localStorage.key(i);
+      if (!storageKey || !storageKey.startsWith(PREFIX) || storageKey.endsWith(PAPER_SUFFIX)) continue;
+      const key = storageKey.slice(PREFIX.length);
+      const paper = loadPaper<unknown>(key);
+      if (!paper) continue;
+      try {
+        const state = JSON.parse(localStorage.getItem(storageKey)!) as AttemptState;
+        out.push({ key, answered: Object.keys(state.answers).length, total: paper.length, startedAt: state.startedAt });
+      } catch {
+        // corrupt entry — skip rather than crash Home
+      }
+    }
+  } catch {
+    // localStorage unavailable — no resumable attempts to show
+  }
+  return out.sort((a, b) => b.startedAt - a.startedAt);
+}
+
 /** True if `key` has a resumable sitting (both answers and its paper). */
 export function hasResumableAttempt(key: string): boolean {
   try {

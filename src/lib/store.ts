@@ -152,6 +152,9 @@ export interface AppState {
   chronicle: ChronicleState;
   /** Gauntlet Run module — persists across runs. */
   arena: ArenaState;
+  /** Last stage id viewed on the Python page — powers Home's "Jump back in"
+   *  resume card. Nothing more elaborate than that; no completion tracking. */
+  pythonLastStage: string | null;
 
   // actions
   toggleTheme: () => void;
@@ -187,6 +190,8 @@ export interface AppState {
   arenaFinishRun: (r: ArenaRunResult) => void;
   /** Spend coins on one upgrade level. No-ops if unaffordable or maxed. */
   arenaBuyUpgrade: (key: keyof ArenaUpgrades, cost: number, max: number) => void;
+
+  setPythonLastStage: (stageId: string) => void;
 }
 
 function initialLayersFor(chapterId: string): string[] {
@@ -234,6 +239,7 @@ export const useApp = create<AppState>()(
         correct: 0,
         upgrades: { shield: 0, revive: 0, focus: 0, boost: 0 },
       },
+      pythonLastStage: null,
 
       toggleTheme: () =>
         set((s) => ({ theme: s.theme === 'light' ? 'dark' : 'light' })),
@@ -396,6 +402,8 @@ export const useApp = create<AppState>()(
 
       recordTestResult: (result) =>
         set((s) => ({ testResults: [result, ...s.testResults].slice(0, 200) })),
+
+      setPythonLastStage: (stageId) => set({ pythonLastStage: stageId }),
     }),
     {
       name: 'india-study-map',
@@ -411,6 +419,7 @@ export const useApp = create<AppState>()(
         currentChapterId: s.currentChapterId,
         chronicle: s.chronicle,
         arena: s.arena,
+        pythonLastStage: s.pythonLastStage,
       }),
       // Default persist merge is a shallow `{...current, ...persisted}` —
       // fine for top-level keys, but a persisted `chronicle` blob from

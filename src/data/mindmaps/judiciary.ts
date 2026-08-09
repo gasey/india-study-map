@@ -5,6 +5,7 @@ export const judiciaryMindMap: MindMap = {
   id: 'judiciary',
   title: 'Judiciary, Writs & PIL',
   description: 'One integrated pyramid — SC, Article 32, the five writs, and PIL.',
+  subject: 'polity',
   root: {
     id: 'root',
     label: 'JUDICIARY',

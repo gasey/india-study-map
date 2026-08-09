@@ -28,7 +28,7 @@ export interface WeakTopic {
 
 /** A topic needs at least this many attempts before its accuracy means
  *  anything — one wrong answer out of one shouldn't read as "0% weak". */
-const MIN_ATTEMPTS = 5;
+export const MIN_ATTEMPTS = 5;
 
 export function weakTopics(progress: Progress, bankProgress: BankProgress, limit = 4): WeakTopic[] {
   const totals = new Map<string, { label: string; correct: number; attempts: number }>();

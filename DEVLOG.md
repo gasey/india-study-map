@@ -9,6 +9,59 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-08-10 — Mind Maps rebuilt as a node graph, mastery state real not fabricated
+
+**What shipped:**
+- `src/modules/mindmaps/MindMapsPage.tsx` rewritten from a compact SVG pill-tree
+  to the Jabreeze redesign's card-based node graph (hue top-bar, kicker,
+  state pill, footer progress bar), keeping the original's depth/leaf-count
+  layout math (no layout dependency) since these trees run 30-46 nodes deep —
+  well past the design prototype's 8-node demo. Canvas is a plain
+  `overflow: auto` div with absolutely-positioned card divs + one background
+  SVG for edges/branch dots, not an SVG-viewBox zoom transform — an earlier
+  version used `foreignObject` inside a content-sized `viewBox` and hit a real
+  bug: `preserveAspectRatio="meet"` uniformly shrinks *everything* to fit the
+  taller dimension when content is much taller than wide, so cards rendered
+  at ~1/8 their real size. Caught via DOM geometry checks (`getBoundingClientRect`
+  on `.card-lift`), not the screenshot tool, which was down for the whole session.
+- New `src/lib/mindMapMastery.ts`: real per-node mastery (Cleared/Weak/New +
+  accuracy %) computed from `progress[chapterId]` — the same local attempt log
+  `weakTopics.ts` already uses for Home's weak-topics widget. Exported
+  `MIN_ATTEMPTS` from `weakTopics.ts` instead of duplicating the threshold.
+- Deliberately partial coverage: only nodes carrying a `chapterId` (5 of ~75
+  nodes across both maps) show a state pill/accuracy. The rest render a plain
+  card with a real (structural) sub-topic count instead — no invented mastery
+  numbers. `MindMap` gained a required `subject: SubjectId` field driving the
+  card hue (fixed to `--blue` for both existing maps, both Polity).
+- `RecallLandingPage.tsx`'s stale code comment ("investigated and dropped, not
+  deferred") corrected — that call predated commit `adc43e0`, which added the
+  local per-chapter attempt log this rebuild uses.
+
+**Why:** user asked to redesign the mind map (not Study Map) per the Jabreeze
+handoff at `~/Downloads/dashboard/handoff/`. A prior session had explicitly
+dropped the node-graph rebuild for lack of real per-topic accuracy data —
+investigation this session found that gap partly closed (`progress[chapterId]`
++ `weakTopics.ts`, plus a separate server-side `/api/me/topic-accuracy` from
+commit `adc43e0` that isn't used here — it's keyed by bank subject/topic, not
+chapterId, and merging two accuracy sources with different semantics into one
+pill risked its own correctness trap). User explicitly chose "real data where
+linked, neutral elsewhere" over fabricating numbers uniformly, after being
+shown the actual node coverage (5 of ~75).
+
+**What's still open:**
+- Node-level granularity below chapter (e.g. "Money bill — Art. 110" as its
+  own tracked topic) is architectural, not a wiring gap — no chapterId-sized
+  quiz exists at that grain, and bank topic tags don't match outline points.
+  Flagged in commit `adc43e0` too; needs its own design, not a placeholder.
+- `/api/me/topic-accuracy` (server-side, cross-device) is a plausible future
+  upgrade for the chapterId-linked nodes specifically, deferred as a "fast
+  follow" per that commit's own framing.
+- No pan/zoom control beyond native scroll + click-drag (scrollLeft/scrollTop)
+  — the original SVG wheel-zoom was dropped along with the viewBox rewrite;
+  not asked for back, but worth knowing if someone wants it later.
+
+---
+
 ## 2026-08-06 — MPSC Old Questions: merged the 73K-question extraction into the droplet DB (not Render)
 
 **What shipped:**

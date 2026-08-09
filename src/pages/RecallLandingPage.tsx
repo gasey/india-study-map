@@ -3,8 +3,15 @@ import { IC, IconSvg } from '@/components/shell/icons';
 
 /** Thin real page — both destinations already exist and are unchanged
  *  ("Recall → Mind maps/Flashcards, unchanged internals" per the migration
- *  map). The node-graph mind-map rebuild is a later phase; this is pure
- *  routing/shell work. */
+ *  map). The node-graph mind-map rebuild (mastery-state edges, per-node
+ *  question counts) is investigated and dropped, not deferred: it needs a
+ *  real per-question attempt log (subject/topic + correct/incorrect per
+ *  question), which doesn't exist anywhere in mpsc_api — `mock_attempts`
+ *  only stores whole-test aggregates. Building the mastery UI against that
+ *  would mean inventing per-topic accuracy numbers, the same class of
+ *  mistake Phase 5b's Results screen deliberately avoided (no fabricated
+ *  cutoffs/ranks). Same reasoning as dropping <VerificationQueue/> in
+ *  Phase 6a. Needs its own attempt-log design before this is revisited. */
 export function RecallLandingPage() {
   return (
     <div className="h-full overflow-y-auto scroll-panel">

@@ -6,6 +6,9 @@ import { CommentsTab } from '@/modules/admin/tabs/CommentsTab';
 import { AuditLogTab } from '@/modules/admin/tabs/AuditLogTab';
 import { UsersTab } from '@/modules/admin/tabs/UsersTab';
 import { StaticSetsTab } from '@/modules/admin/tabs/StaticSetsTab';
+import { PapersTab } from '@/modules/admin/tabs/PapersTab';
+import { FlagsTab } from '@/modules/admin/tabs/FlagsTab';
+import { ImportTab } from '@/modules/admin/tabs/ImportTab';
 
 // ============================================
 // Admin console — the standalone, bank-agnostic replacement for the old
@@ -19,13 +22,16 @@ import { StaticSetsTab } from '@/modules/admin/tabs/StaticSetsTab';
 // same admin.stats capability — matches Phase 6a's plan.
 // ============================================
 
-type AdminTabKey = 'dashboard' | 'reports' | 'comments' | 'users' | 'audit' | 'static-sets';
+type AdminTabKey = 'dashboard' | 'reports' | 'comments' | 'users' | 'audit' | 'static-sets' | 'papers' | 'flags' | 'import';
 
 const TABS: { key: AdminTabKey; label: string }[] = [
   { key: 'dashboard', label: 'Dashboard' },
   { key: 'reports', label: 'Reports' },
   { key: 'comments', label: 'Comments' },
+  { key: 'papers', label: 'Papers' },
   { key: 'static-sets', label: 'Static sets' },
+  { key: 'flags', label: 'Flags' },
+  { key: 'import', label: 'Import' },
   { key: 'users', label: 'Users & roles' },
   { key: 'audit', label: 'Audit log' },
 ];
@@ -76,7 +82,10 @@ export default function AdminConsolePage() {
         {tab === 'dashboard' && <DashboardTab />}
         {tab === 'reports' && <ReportsTab />}
         {tab === 'comments' && <CommentsTab />}
+        {tab === 'papers' && <PapersTab />}
         {tab === 'static-sets' && <StaticSetsTab />}
+        {tab === 'flags' && <FlagsTab />}
+        {tab === 'import' && <ImportTab />}
         {tab === 'users' && <UsersTab />}
         {tab === 'audit' && <AuditLogTab />}
       </div>

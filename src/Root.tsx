@@ -5,7 +5,6 @@ import { useApp } from '@/lib/store';
 import { AppShell } from '@/components/shell/AppShell';
 import { Home } from '@/pages/Home';
 import { EmbedPage } from '@/pages/EmbedPage';
-import { PlannedPage } from '@/pages/PlannedPage';
 import { RecallLandingPage } from '@/pages/RecallLandingPage';
 import { LibraryLandingPage } from '@/pages/LibraryLandingPage';
 
@@ -36,6 +35,9 @@ const QuestionBankPage = lazy(() => import('./modules/question-bank/QuestionBank
 const PapersPage = lazy(() => import('./pages/PapersPage'));
 const TestsPage = lazy(() => import('./pages/TestsPage'));
 const AdminConsolePage = lazy(() => import('./pages/AdminConsolePage'));
+const GamesPage = lazy(() => import('./pages/GamesPage'));
+const AccountPage = lazy(() => import('./pages/AccountPage'));
+const PythonPage = lazy(() => import('./pages/PythonPage'));
 
 function Loading() {
   return (
@@ -80,9 +82,9 @@ export function Root() {
             <Route path="/library" element={<LibraryLandingPage />} />
             <Route path="/tests" element={<TestsPage />} />
             <Route path="/papers" element={<PapersPage />} />
-            <Route path="/code" element={<PlannedPage title="Programming & Python" />} />
-            <Route path="/games" element={<PlannedPage title="Games" />} />
-            <Route path="/account" element={<PlannedPage title="Account" />} />
+            <Route path="/code" element={<PythonPage />} />
+            <Route path="/games" element={<GamesPage />} />
+            <Route path="/account" element={<AccountPage />} />
             <Route path="/admin" element={<AdminConsolePage />} />
             <Route path="*" element={<Home />} />
           </Routes>

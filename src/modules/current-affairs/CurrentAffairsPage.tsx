@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useApp } from '@/lib/store';
 import { ModuleSwitcher } from '@/modules/ModuleSwitcher';
 import { HomeBackLink } from '@/components/shell/HomeBackLink';
 import { useHasDesktopChrome } from '@/lib/useShellChrome';
+import { DayShelf, type DayShelfEntry } from './DayShelf';
 import type { ArchiveManifest } from './types';
 
 // ============================================
@@ -22,6 +23,7 @@ export function CurrentAffairsPage() {
   const { theme, toggleTheme, caAttempts } = useApp();
   const [state, setState] = useState<FetchState>({ status: 'loading' });
   const hasDesktopChrome = useHasDesktopChrome('home');
+  const navigate = useNavigate();
 
   useEffect(() => {
     let cancelled = false;
@@ -95,47 +97,18 @@ export function CurrentAffairsPage() {
           )}
 
           {state.status === 'ready' && days.length > 0 && (
-            <div className="space-y-3">
-              {days.map((day, i) => {
+            <DayShelf
+              days={days.map((day, i): DayShelfEntry => {
                 const attempt = caAttempts[day.date];
-                return (
-                  <Link
-                    key={day.date}
-                    to={`/current-affairs/${day.date}`}
-                    className="block rounded-xl p-5 fact-in hover:opacity-90 transition-opacity"
-                    style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}
-                  >
-                    <div className="flex items-start justify-between gap-3">
-                      <div className="min-w-0">
-                        <div className="flex items-center gap-2 mb-1">
-                          <span className="font-medium min-w-0">{day.title}</span>
-                          {i === 0 && (
-                            <span className="shrink-0 text-[10px] px-1.5 py-0.5 rounded-full" style={{ background: 'var(--accent-soft)', color: 'var(--accent)' }}>
-                              Today's Quiz
-                            </span>
-                          )}
-                        </div>
-                        <div className="flex flex-wrap gap-1.5">
-                          {day.topics.map((t) => (
-                            <span key={t} className="text-[11px] px-1.5 py-0.5 rounded" style={{ background: 'var(--bg-panel-elev)', color: 'var(--text-secondary)' }}>
-                              {t}
-                            </span>
-                          ))}
-                        </div>
-                      </div>
-                      <div className="shrink-0 text-right">
-                        <div className="text-xs" style={{ color: 'var(--text-secondary)' }}>{day.mcqCount} Qs</div>
-                        {attempt && (
-                          <div className="mt-1 text-xs font-medium px-2 py-0.5 rounded-full" style={{ background: 'rgba(46,125,91,0.14)', color: '#2e7d5b' }}>
-                            {attempt.score}/{attempt.total}
-                          </div>
-                        )}
-                      </div>
-                    </div>
-                  </Link>
-                );
+                return {
+                  ...day,
+                  state: i === 0 ? 'today' : attempt ? 'done' : 'missed',
+                  scoreLabel: attempt ? `${attempt.score}/${attempt.total}` : i === 0 ? 'Not started' : 'Missed',
+                };
               })}
-            </div>
+              active={0}
+              onPick={(i) => navigate(`/current-affairs/${days[i].date}`)}
+            />
           )}
 
           <div className="mt-4 flex items-center justify-between text-xs" style={{ color: 'var(--text-secondary)' }}>

@@ -8,7 +8,10 @@ interface AuthState {
   user: ApiUser | null;
   loginError: string | null;
   loggingIn: boolean;
+  signupError: string | null;
+  signingUp: boolean;
   login: (username: string, password: string) => Promise<boolean>;
+  signup: (username: string, password: string, displayName?: string) => Promise<boolean>;
   logout: () => void;
 }
 
@@ -19,6 +22,8 @@ export const useAuthStore = create<AuthState>()(
       user: null,
       loginError: null,
       loggingIn: false,
+      signupError: null,
+      signingUp: false,
       login: async (username, password) => {
         set({ loggingIn: true, loginError: null });
         try {
@@ -32,6 +37,19 @@ export const useAuthStore = create<AuthState>()(
           return true;
         } catch (e) {
           set({ loginError: e instanceof Error ? e.message : 'Login failed', loggingIn: false });
+          return false;
+        }
+      },
+      signup: async (username, password, displayName) => {
+        set({ signingUp: true, signupError: null });
+        try {
+          const { token, user } = await api.signup(username, password, displayName);
+          api.setApiToken(token);
+          set({ token, user, signingUp: false });
+          api.me().then((fresh) => set({ user: fresh })).catch(() => {});
+          return true;
+        } catch (e) {
+          set({ signupError: e instanceof Error ? e.message : 'Signup failed', signingUp: false });
           return false;
         }
       },

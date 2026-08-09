@@ -9,10 +9,27 @@ const ROLES: ApiUser['role'][] = ['learner', 'moderator', 'reviewer', 'editor', 
 export function UsersTab() {
   const { user: actor } = useAuthStore();
   const canAssignRoles = hasCap(actor, 'user.role.assign');
+  const canResetPasswords = hasCap(actor, 'user.reset_password');
   const [users, setUsers] = useState<(Awaited<ReturnType<typeof api.adminListUsers>>['users']) | null>(null);
   const [stats, setStats] = useState<Awaited<ReturnType<typeof api.adminStats>> | null>(null);
   const [pending, setPending] = useState<number | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [tempPassword, setTempPassword] = useState<{ userId: number; value: string } | null>(null);
+
+  const resetPassword = async (userId: number) => {
+    if (!confirm('Reset this user\'s password? They will need the new temp password to log in.')) return;
+    setPending(userId);
+    setError(null);
+    setTempPassword(null);
+    try {
+      const r = await api.adminResetPassword(userId);
+      setTempPassword({ userId, value: r.tempPassword });
+    } catch (e) {
+      setError(e instanceof Error ? e.message : 'Could not reset password');
+    } finally {
+      setPending(null);
+    }
+  };
 
   const load = () => {
     api.adminListUsers().then((r) => setUsers(r.users));
@@ -61,10 +78,25 @@ export function UsersTab() {
                   <span className="text-xs px-2 py-0.5 rounded-full capitalize" style={{ border: '1px solid var(--border)', color: 'var(--text-secondary)' }}>{u.role}</span>
                 )}
                 <span style={{ color: 'var(--text-secondary)' }}>joined {new Date(u.createdAt).toLocaleDateString()}</span>
+                {canResetPasswords && (
+                  <button
+                    onClick={() => resetPassword(u.id)}
+                    disabled={pending === u.id}
+                    className="text-xs px-2 py-0.5 rounded-full disabled:opacity-50"
+                    style={{ border: '1px solid var(--border)', color: 'var(--text-secondary)' }}
+                  >
+                    Reset password
+                  </button>
+                )}
                 {s && (
                   <span className="ml-auto text-xs" style={{ color: 'var(--text-secondary)' }}>
                     {s.reportsFiled} reports · {s.commentsPosted} comments · {s.correctionsAuthored} corrections
                   </span>
+                )}
+                {tempPassword?.userId === u.id && (
+                  <div className="w-full text-xs rounded p-2" style={{ background: 'var(--accent-soft)', color: 'var(--accent)' }}>
+                    New temp password (shown once, not stored): <span className="font-mono font-semibold">{tempPassword.value}</span> — relay it to {u.displayName ?? u.username} directly.
+                  </div>
                 )}
               </div>
             );

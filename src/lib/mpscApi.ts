@@ -224,6 +224,115 @@ export function getPapersTree() {
   return request<PapersTree>('/api/papers/tree/');
 }
 
+// ---- Admin: Papers metadata editing (Phase 6). Papers are 1:1 with source
+// PDFs — no create/delete, only fixing blank/wrong extracted metadata.
+export interface AdminPapersQuery {
+  q?: string;
+  missingYear?: boolean;
+  limit?: number;
+  offset?: number;
+}
+export interface PaperPatchInput {
+  examType?: string;
+  examName?: string;
+  post?: string;
+  paperNumber?: string;
+  paperSubject?: string;
+  year?: number | null;
+}
+export function getAdminPapers(query: AdminPapersQuery = {}) {
+  return request<{ total: number; papers: (ExamPaper & { questionCount: number })[] }>(`/api/admin/papers/${buildParams(query)}`);
+}
+export function updatePaper(id: string, input: PaperPatchInput) {
+  return request<ExamPaper & { questionCount: number }>(`/api/admin/papers/${encodeURIComponent(id)}`, {
+    method: 'PATCH',
+    body: JSON.stringify(input),
+  });
+}
+
+// ---- Import pipeline (Phase 6). Accepts a pre-extracted JSON file (paper
+// metadata + parsed questions), not raw PDFs — see the backend's
+// migrate_v8.sql comment for why live PDF OCR isn't wired in here. Every
+// run is a dry-run first; apply() is a separate, explicit step, and the
+// count check (parsed questions in === rows written) is the whole point —
+// it's the literal fix for the real IMP-0138 incident (280 questions lost
+// silently because nothing compared).
+export type ImportStatus = 'dry_run' | 'applied' | 'rolled_back' | 'failed';
+export interface ImportRun {
+  id: number;
+  filename: string;
+  status: ImportStatus;
+  parsedPapers: number;
+  parsedQuestions: number;
+  writtenQuestions: number;
+  error: string | null;
+  actorUsername: string;
+  createdAt: string;
+  appliedAt: string | null;
+}
+export function getAdminImports() {
+  return request<{ runs: ImportRun[] }>('/api/admin/imports/');
+}
+export async function createImport(file: File) {
+  const form = new FormData();
+  form.append('file', file);
+  const headers: Record<string, string> = {};
+  if (authToken) headers.Authorization = `Bearer ${authToken}`;
+  const res = await fetch(`${API_BASE}/api/admin/imports/`, { method: 'POST', body: form, headers });
+  if (!res.ok) {
+    let detail = res.statusText;
+    try { detail = (await res.json()).detail ?? detail; } catch { /* ignore */ }
+    throw new ApiError(res.status, detail);
+  }
+  return res.json() as Promise<{ id: number; status: ImportStatus; parsedPapers: number; parsedQuestions: number }>;
+}
+export function applyImport(id: number) {
+  return request<{ id: number; status: ImportStatus; writtenQuestions: number }>(`/api/admin/imports/${id}/apply/`, { method: 'POST' });
+}
+export function rollbackImport(id: number) {
+  return request<{ status: string; deleted: number }>(`/api/admin/imports/${id}/rollback/`, { method: 'POST' });
+}
+
+// ---- FeatureFlag (Phase 6): per-role rollout flags. Public GET only
+// surfaces `audience: 'everyone'` flags that are on; the admin surface below
+// sees everything, gated by the `flag.write` capability.
+export type FlagAudience = 'everyone' | 'logged_in' | 'moderator' | 'reviewer' | 'editor' | 'admin';
+export interface FeatureFlag {
+  key: string;
+  describes: string;
+  audience: FlagAudience;
+  isOn: boolean;
+  rolledOut: string | null;
+}
+export interface FlagInput {
+  key: string;
+  describes?: string;
+  audience?: FlagAudience;
+  is_on?: boolean;
+  rolled_out?: string | null;
+}
+export interface FlagPatchInput {
+  describes?: string;
+  audience?: FlagAudience;
+  is_on?: boolean;
+  rolled_out?: string | null;
+}
+export function getFlags() {
+  return request<{ flags: FeatureFlag[] }>('/api/flags/');
+}
+export function getAdminFlags() {
+  return request<{ flags: FeatureFlag[] }>('/api/admin/flags/');
+}
+export function createFlag(input: FlagInput) {
+  return request<FeatureFlag>('/api/admin/flags/', { method: 'POST', body: JSON.stringify(input) });
+}
+export function updateFlag(key: string, input: FlagPatchInput) {
+  return request<FeatureFlag>(`/api/admin/flags/${encodeURIComponent(key)}`, { method: 'PATCH', body: JSON.stringify(input) });
+}
+export function deleteFlag(key: string) {
+  return request<{ status: string }>(`/api/admin/flags/${encodeURIComponent(key)}`, { method: 'DELETE' });
+}
+
 // ---- TestDefinition (Phase 5): a saved filter, not a materialized
 // question-id list — "filter" is the same shape /api/mpsc/questions takes.
 export type TestKind = 'real_paper' | 'full_sitting' | 'sectional' | 'adaptive' | 'sprint';
@@ -339,6 +448,17 @@ export function login(username: string, password: string) {
 }
 export function me() {
   return request<ApiUser>('/api/auth/me');
+}
+export function signup(username: string, password: string, displayName?: string) {
+  return request<{ token: string; user: ApiUser }>('/api/auth/signup', {
+    method: 'POST',
+    body: JSON.stringify({ username, password, displayName: displayName ?? '' }),
+  });
+}
+/** Admin/owner-only: sets a random temp password and returns it once. No
+ *  email exists to send it to (see main.py) — relay it out of band. */
+export function adminResetPassword(userId: number) {
+  return request<{ status: string; userId: number; tempPassword: string }>(`/api/admin/users/${userId}/reset-password`, { method: 'POST' });
 }
 
 // ---- Reports ----

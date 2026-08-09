@@ -69,6 +69,17 @@ button:not(:disabled):active { transform: translateY(1px); }
 }
 .card-tilt:hover { transform: rotate3d(1, -0.6, 0, 7deg) translateY(-3px); }
 
+/* Holographic badge — earned badges only (Games). The foil sweep + tilt is
+   the reward; never apply this to a locked badge. */
+.badge-holo {
+  transition: transform var(--dur-3) var(--ease), box-shadow var(--dur-3) ease;
+}
+.badge-holo:hover { transform: rotate3d(1, -0.7, 0, 12deg) scale(1.04); }
+.badge-holo:hover .badge-foil {
+  transition: background-position 0.6s ease;
+  background-position: 88% 50%;
+}
+
 /* Library card panel slide (reveals the description on hover). */
 .reveal-panel {
   transition: transform 420ms cubic-bezier(0.37, 0.75, 0.61, 1.05);

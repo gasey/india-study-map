@@ -3,13 +3,11 @@ import { Link, useLocation } from 'react-router-dom';
 import { IC, IconSvg } from './icons';
 
 /** Shared by the desktop side-panel and the mobile bottom sheet so the two
- *  can't drift out of sync. Programming & Python and Games have no real
- *  page yet (later phase) — rendered disabled per the handoff's own
- *  "Planned — not designed yet" convention rather than half-built. */
+ *  can't drift out of sync. */
 export const MORE_ITEMS = [
   { id: 'affairs', label: 'Current Affairs', icon: IC.papers, to: '/current-affairs', comingSoon: false },
-  { id: 'code', label: 'Programming & Python', icon: IC.code, to: '/code', comingSoon: true },
-  { id: 'games', label: 'Games', icon: IC.games, to: '/games', comingSoon: true },
+  { id: 'code', label: 'Programming & Python', icon: IC.code, to: '/code', comingSoon: false },
+  { id: 'games', label: 'Games', icon: IC.games, to: '/games', comingSoon: false },
 ] as const;
 
 function MoreRow({ item, onClick }: { item: (typeof MORE_ITEMS)[number]; onClick: () => void }) {

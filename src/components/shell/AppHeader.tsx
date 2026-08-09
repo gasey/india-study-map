@@ -4,16 +4,29 @@ import { useApp } from '@/lib/store';
 import { modules } from '@/modules/registry';
 import { chapters } from '@/data';
 import { studyStreak } from '@/lib/stats';
+import * as api from '@/lib/mpscApi';
+import type { BankQuestion } from '@/data/banks/types';
+import type { ExamPaper } from '@/data/banks/types';
+import type { StaticSet } from '@/lib/mpscApi';
 import { IC, IconSvg } from './icons';
 
-/** Migrated verbatim from the old CommandBar's SearchBox — same search
- *  scope (chapters + registry modules, substring match). A true 4-group
- *  modal palette (Jump to/Questions/Papers/Library) is deferred: Questions
- *  and Papers have no unified data model to search across yet. */
+/** Migrated from the old CommandBar's SearchBox, then widened to the real
+ *  four-group ⌘K palette (Jump to / Questions / Papers / Library) once real
+ *  data existed for all four — Phase 4 (server-side question search, GIN
+ *  trigram index) and Phase 5a/5c (papers tree, static-sets registry) landed
+ *  after this box's original "no unified data model yet" comment was
+ *  written. Kept as an anchored dropdown under the header field rather than
+ *  a new centred modal overlay — this one is proven working (⌘K focus,
+ *  outside-click/Escape close) and a modal rewrite risks the exact
+ *  `om-pop`-scale-vs-`translateX(-50%)` centring trap the handoff calls
+ *  out; not worth the risk for the same end result. */
 function SearchBox() {
   const navigate = useNavigate();
   const [q, setQ] = useState('');
   const [open, setOpen] = useState(false);
+  const [questionHits, setQuestionHits] = useState<BankQuestion[]>([]);
+  const [papers, setPapers] = useState<(ExamPaper & { questionCount: number })[] | null>(null);
+  const [sets, setSets] = useState<StaticSet[] | null>(null);
   const ref = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
@@ -37,14 +50,38 @@ function SearchBox() {
     };
   }, []);
 
+  // Papers/Library are small enough (1,750 papers, 13 sets) to fetch once
+  // and filter client-side, same approach as the existing chapters/modules
+  // groups — no need for a dedicated search endpoint on either.
+  useEffect(() => {
+    if (!open || papers) return;
+    api.getBankPapers().then((r) => setPapers(r.papers)).catch(() => setPapers([]));
+  }, [open, papers]);
+  useEffect(() => {
+    if (!open || sets) return;
+    api.getStaticSets().then((r) => setSets(r.sets)).catch(() => setSets([]));
+  }, [open, sets]);
+
+  // Questions are 76K+ rows — server-side search only, debounced.
+  useEffect(() => {
+    const s = q.trim();
+    if (s.length < 3) { setQuestionHits([]); return; }
+    const t = window.setTimeout(() => {
+      api.listBankQuestions({ search: s, limit: 5 }).then((r) => setQuestionHits(r.questions)).catch(() => setQuestionHits([]));
+    }, 300);
+    return () => window.clearTimeout(t);
+  }, [q]);
+
   const results = useMemo(() => {
-    if (!q.trim()) return { chapters: [], modules: [] };
+    if (!q.trim()) return { chapters: [], modules: [], papers: [], sets: [] };
     const s = q.trim().toLowerCase();
     return {
       chapters: chapters.filter((c) => c.title.toLowerCase().includes(s)).slice(0, 5),
       modules: modules.filter((m) => m.title.toLowerCase().includes(s)).slice(0, 5),
+      papers: (papers ?? []).filter((p) => p.examName.toLowerCase().includes(s) || (p.post ?? '').toLowerCase().includes(s)).slice(0, 5),
+      sets: (sets ?? []).filter((st) => st.title.toLowerCase().includes(s)).slice(0, 5),
     };
-  }, [q]);
+  }, [q, papers, sets]);
 
   const go = (path: string) => {
     navigate(path);
@@ -75,7 +112,7 @@ function SearchBox() {
           className="absolute left-0 right-0 mt-1.5 rounded-lg shadow-lg z-[1200] overflow-hidden max-h-80 overflow-y-auto"
           style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}
         >
-          {results.chapters.length === 0 && results.modules.length === 0 && (
+          {results.chapters.length === 0 && results.modules.length === 0 && results.papers.length === 0 && results.sets.length === 0 && questionHits.length === 0 && (
             <div className="px-3 py-3 text-xs" style={{ color: 'var(--text-muted)' }}>No matches</div>
           )}
           {results.chapters.length > 0 && (
@@ -104,6 +141,53 @@ function SearchBox() {
                   onClick={() => go(m.kind === 'static' ? `/embed/${m.id}` : m.path)}
                 >
                   {m.glyph} {m.title}
+                </button>
+              ))}
+            </div>
+          )}
+          {questionHits.length > 0 && (
+            <div>
+              <div className="px-3 pt-2 pb-1 text-[10px] font-semibold uppercase tracking-wider" style={{ color: 'var(--text-secondary)' }}>Questions</div>
+              {questionHits.map((qh) => (
+                <button
+                  key={qh.id}
+                  className="w-full text-left px-3 py-2 text-sm transition-colors truncate"
+                  style={{ color: 'var(--text-primary)' }}
+                  onClick={() => go(`/mpsc?tab=browser&search=${encodeURIComponent(q)}`)}
+                >
+                  <span className="block truncate">{qh.question}</span>
+                  <span className="block text-[11px] truncate" style={{ color: 'var(--text-muted)' }}>{qh.subject} · {qh.id}</span>
+                </button>
+              ))}
+            </div>
+          )}
+          {results.papers.length > 0 && (
+            <div>
+              <div className="px-3 pt-2 pb-1 text-[10px] font-semibold uppercase tracking-wider" style={{ color: 'var(--text-secondary)' }}>Papers</div>
+              {results.papers.map((p) => (
+                <button
+                  key={p.id}
+                  className="w-full text-left px-3 py-2 text-sm transition-colors truncate"
+                  style={{ color: 'var(--text-primary)' }}
+                  onClick={() => go('/papers')}
+                >
+                  <span className="block truncate">{p.examName}{p.post ? ` · ${p.post}` : ''}</span>
+                  <span className="block text-[11px] truncate" style={{ color: 'var(--text-muted)' }}>{p.year ?? 'undated'} · {p.questionCount} questions</span>
+                </button>
+              ))}
+            </div>
+          )}
+          {results.sets.length > 0 && (
+            <div>
+              <div className="px-3 pt-2 pb-1 text-[10px] font-semibold uppercase tracking-wider" style={{ color: 'var(--text-secondary)' }}>Library</div>
+              {results.sets.map((st) => (
+                <button
+                  key={st.id}
+                  className="w-full text-left px-3 py-2 text-sm transition-colors truncate"
+                  style={{ color: 'var(--text-primary)' }}
+                  onClick={() => go(st.route)}
+                >
+                  {st.title}
                 </button>
               ))}
             </div>

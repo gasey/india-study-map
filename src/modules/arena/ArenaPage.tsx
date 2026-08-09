@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import * as api from '@/lib/mpscApi';
 import { useApp, type ArenaUpgrades } from '@/lib/store';
 import { ModuleSwitcher } from '@/modules/ModuleSwitcher';
 import { HomeBackLink } from '@/components/shell/HomeBackLink';
@@ -169,6 +170,7 @@ export default function ArenaPage() {
       run.current.coins += coinsFor(ask.picked.q.difficulty, streakNow);
     }
     recordBankAttempt(ask.picked.bankId, ask.picked.q.id, correct);
+    api.logAttempt({ subject: ask.picked.q.subject, topic: ask.picked.q.topic, topicLabel: ask.picked.q.topicLabel, source: 'arena', correct });
   }, [ask, chosen, recordBankAttempt]);
 
   const proceed = useCallback(() => {

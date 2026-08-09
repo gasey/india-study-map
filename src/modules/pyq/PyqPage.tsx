@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import * as api from '@/lib/mpscApi';
 import { banks } from '@/data/banks';
 import { isMcqQuestion } from '@/data/banks/types';
 import type { BankQuestion } from '@/data/banks/types';
@@ -89,6 +90,7 @@ export function PyqPage() {
     const correct = i === q.answerIndex;
     setSession((s) => ({ right: s.right + (correct ? 1 : 0), wrong: s.wrong + (correct ? 0 : 1) }));
     recordBankAttempt(bankId, q.id, correct);
+    api.logAttempt({ subject: q.subject, topic: q.topic, topicLabel: q.topicLabel, source: `bank:${bankId}`, correct });
   };
 
   const next = () => {

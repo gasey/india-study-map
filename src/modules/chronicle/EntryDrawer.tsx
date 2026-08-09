@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import * as api from '@/lib/mpscApi';
 import { useApp } from '@/lib/store';
 import { chapters } from '@/data';
 import type { Chapter } from '@/types';
@@ -50,6 +51,7 @@ export function QuestionCard({ question, onAnswered }: { question: McqBankQuesti
     const correct = i === question.answerIndex;
     const bankId = bankIdForQuestion(question.id);
     if (bankId) recordBankAttempt(bankId, question.id, correct);
+    api.logAttempt({ subject: question.subject, topic: question.topic, topicLabel: question.topicLabel, source: 'chronicle', correct });
     onAnswered?.(correct);
   }
 

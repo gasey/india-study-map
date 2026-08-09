@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import type { McqBankQuestion } from '@/data/banks/types';
+import * as api from '@/lib/mpscApi';
 import { useApp } from '@/lib/store';
 import { BANK_ID } from './useMpscData';
 import { useAttemptState } from './useAttemptState';
@@ -137,7 +138,11 @@ export function TestPlayer({ title, targetId, questions, durationS, negative = 0
 
   const submit = useCallback(() => {
     for (const item of items) {
-      if (item.id in answers) recordBankAttempt(BANK_ID, item.id, answers[item.id] === item.answerIndex);
+      if (item.id in answers) {
+        const correct = answers[item.id] === item.answerIndex;
+        recordBankAttempt(BANK_ID, item.id, correct);
+        api.logAttempt({ subject: item.subject, topic: item.topic, topicLabel: item.topicLabel, source: `bank:${BANK_ID}`, correct });
+      }
     }
     recordTestResult({
       targetId,

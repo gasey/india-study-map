@@ -518,6 +518,28 @@ export function getHistory(bankId?: string) {
   return request<{ attempts: MockAttemptRecord[] }>(`/api/progress/history${q}`);
 }
 
+// ---- Real per-topic attempt log. Fire-and-forget from every place that
+// already records an attempt locally (recordBankAttempt/recordAttempt call
+// sites) -- swallows errors on purpose, since a failed sync must never
+// block or corrupt the local-first UX those functions already guarantee.
+// Only called when authToken is set; anonymous/guest usage has no account
+// to attach server data to.
+export interface TopicAccuracy {
+  subject: string;
+  topic: string;
+  topicLabel: string;
+  correct: number;
+  attempts: number;
+  accuracy: number;
+}
+export function logAttempt(input: { subject: string; topic: string; topicLabel: string; source: string; correct: boolean }) {
+  if (!authToken) return;
+  request('/api/attempts/log', { method: 'POST', body: JSON.stringify(input) }).catch(() => {});
+}
+export function getMyTopicAccuracy() {
+  return request<{ topics: TopicAccuracy[] }>('/api/me/topic-accuracy');
+}
+
 // ---- Admin ----
 export interface AdminReportsFilter {
   status?: string;

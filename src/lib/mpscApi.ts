@@ -278,6 +278,58 @@ export function deleteTest(id: number) {
   return request<{ status: string }>(`/api/admin/tests/${id}`, { method: 'DELETE' });
 }
 
+// ---- StaticSet (Phase 5c): registry metadata for Library's premade sets.
+// The set files themselves are untouched — this is metadata layered on top,
+// linked to registry.ts entries by matching `route` (e.g. '/embed/codex').
+export type StaticSetGroup = 'lab' | 'exam_guide' | 'quick_practice';
+export interface StaticSet {
+  id: number;
+  title: string;
+  group: StaticSetGroup;
+  route: string;
+  nItems: number | null;
+  unit: string;
+  blurb: string;
+  isPublished: boolean;
+  createdAt: string;
+  updatedAt: string | null;
+}
+export interface StaticSetInput {
+  title: string;
+  group: StaticSetGroup;
+  route: string;
+  nItems?: number | null;
+  unit?: string;
+  blurb?: string;
+  isPublished?: boolean;
+}
+function staticSetToBody(input: Partial<StaticSetInput>) {
+  return JSON.stringify({
+    ...(input.title !== undefined && { title: input.title }),
+    ...(input.group !== undefined && { group: input.group }),
+    ...(input.route !== undefined && { route: input.route }),
+    ...(input.nItems !== undefined && { n_items: input.nItems }),
+    ...(input.unit !== undefined && { unit: input.unit }),
+    ...(input.blurb !== undefined && { blurb: input.blurb }),
+    ...(input.isPublished !== undefined && { is_published: input.isPublished }),
+  });
+}
+export function getStaticSets() {
+  return request<{ sets: StaticSet[] }>('/api/static-sets/');
+}
+export function getAdminStaticSets() {
+  return request<{ sets: StaticSet[] }>('/api/admin/static-sets/');
+}
+export function createStaticSet(input: StaticSetInput) {
+  return request<StaticSet>('/api/admin/static-sets/', { method: 'POST', body: staticSetToBody(input) });
+}
+export function updateStaticSet(id: number, input: Partial<StaticSetInput>) {
+  return request<StaticSet>(`/api/admin/static-sets/${id}`, { method: 'PATCH', body: staticSetToBody(input) });
+}
+export function deleteStaticSet(id: number) {
+  return request<{ status: string }>(`/api/admin/static-sets/${id}`, { method: 'DELETE' });
+}
+
 // ---- Auth ----
 export function login(username: string, password: string) {
   return request<{ token: string; user: ApiUser }>('/api/auth/login', {

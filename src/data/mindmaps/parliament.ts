@@ -5,6 +5,7 @@ export const parliamentMindMap: MindMap = {
   id: 'parliament',
   title: 'Parliament (Art 79–108)',
   description: 'Structure, sessions, Speaker, devices, RS vs LS — the whole lecture as one tree.',
+  subject: 'polity',
   root: {
     id: 'root',
     label: 'PARLIAMENT',

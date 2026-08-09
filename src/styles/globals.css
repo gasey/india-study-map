@@ -6,22 +6,32 @@
    Theme tokens — CSS variables so Leaflet,
    inline styles, and Tailwind all share them.
    ============================================ */
+/* Chrome color tokens — values now sourced from tokens.css's --bg/--surface/
+   etc (imported in main.tsx before this file), so every theme (paper/ink/
+   parchment/neon) drives these consistently instead of maintaining a second
+   hex vocabulary. A few names have no clean tokens.css equivalent yet
+   (--accent-light, --map-bg, dark --accent-soft) and stay literal on purpose —
+   see the Phase 1 plan for why forcing those would risk a visible diff. */
 :root {
-  --bg-app: #f5f5f8;
-  --bg-panel: #ffffff;
-  --bg-panel-elev: #ececf0;
-  --bg-rail: #ececf0;
-  --border: #d9dbe2;
-  --text-primary: #1d1f29;
-  --text-secondary: #666b7d;
-  --text-muted: #8b8fa0;
-  --accent: #6f61c0;
+  --bg-app: var(--bg);
+  --bg-panel: var(--surface);
+  --bg-panel-elev: var(--sunk);
+  --bg-rail: var(--sunk);
+  --border: var(--line);
+  --text-primary: var(--ink);
+  --text-secondary: var(--muted);
+  --text-muted: var(--faint);
   --accent-light: #9184d9;
-  --accent-soft: rgba(111, 97, 192, 0.12);
   --map-bg: #eef0f5;
   --rail-w: 68px;
 }
 
+/* Kept as its own literal palette, not aliased to tokens.css's ink theme:
+   verified the two don't actually match closely enough (bg/border/accent
+   are each off by a visible amount), so aliasing here would be a real dark-
+   mode color shift — the opposite of Phase 1's "no visible change" goal.
+   Reconciling the app's dark palette with tokens.css's ink theme is a real
+   design decision for a later phase, not a mechanical rename. */
 .dark {
   --bg-app: #0e101a;
   --bg-panel: #1a1c2a;
@@ -53,7 +63,7 @@ html, body, #root {
 body {
   background: var(--bg-app);
   color: var(--text-primary);
-  font-family: 'Inter Tight', system-ui, sans-serif;
+  font-family: 'Instrument Sans', system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* Stop iOS/Android rubber-band & pull-to-refresh from fighting the map drag
@@ -115,7 +125,7 @@ button, a, [role="button"], .label-eyebrow, header, aside > div > div:first-chil
 /* Leaflet integration — make the map blend into the app */
 .leaflet-container {
   background: var(--map-bg) !important;
-  font-family: 'Inter Tight', system-ui, sans-serif !important;
+  font-family: 'Instrument Sans', system-ui, sans-serif !important;
   /* Long-press on the map shouldn't trigger iOS's magnifier/callout or a
      text-selection highlight while panning. */
   -webkit-touch-callout: none;
@@ -178,7 +188,7 @@ button, a, [role="button"], .label-eyebrow, header, aside > div > div:first-chil
   background: var(--bg-panel) !important;
   border: 1px solid var(--border) !important;
   color: var(--text-primary) !important;
-  font-family: 'Inter Tight', system-ui, sans-serif !important;
+  font-family: 'Instrument Sans', system-ui, sans-serif !important;
   font-size: 12px !important;
   font-weight: 500 !important;
   padding: 4px 10px !important;
@@ -316,9 +326,14 @@ button, a, [role="button"], .label-eyebrow, header, aside > div > div:first-chil
 }
 
 /* Subject color coding — chips & card accents */
-.subject-geography { --subject: #2e8a5f; }
-.subject-history { --subject: #9c6f33; }
-.subject-polity { --subject: #4c63c4; }
+/* Light-theme values are exact matches for tokens.css's fixed subject hues
+   (--green/--brown/--blue), so those alias directly. The .dark overrides
+   below are kept as their own literal hex — tokens.css's ink-theme hues
+   differ slightly and aliasing them would shift these subject colors in
+   dark mode, which Phase 1 isn't meant to do. */
+.subject-geography { --subject: var(--green); }
+.subject-history { --subject: var(--brown); }
+.subject-polity { --subject: var(--blue); }
 .dark .subject-geography { --subject: #7bbf9e; }
 .dark .subject-history { --subject: #c9a179; }
 .dark .subject-polity { --subject: #8f9fe0; }

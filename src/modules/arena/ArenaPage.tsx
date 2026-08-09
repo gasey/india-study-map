@@ -205,8 +205,10 @@ export default function ArenaPage() {
 
   return (
     <div className="h-full flex flex-col" style={{ background: 'var(--bg-app)', color: 'var(--text-primary)' }}>
+      {/* Hidden at desktop widths — AppHeader covers the title there, and
+          coins/best-score are already shown in the menu's stat grid below. */}
       <header
-        className="safe-top h-12 shrink-0 border-b flex items-center justify-between px-5 gap-3"
+        className="lg:hidden safe-top h-12 shrink-0 border-b flex items-center justify-between px-5 gap-3"
         style={{ borderColor: 'var(--border)', background: 'var(--bg-panel)' }}
       >
         <div className="flex items-center gap-3 min-w-0">

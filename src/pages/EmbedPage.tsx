@@ -24,8 +24,10 @@ export function EmbedPage() {
 
   return (
     <div className="h-full flex flex-col" style={{ background: 'var(--bg-app)' }}>
+      {/* Hidden at desktop widths — AppHeader shows this module's title
+          there instead (see AppShell.tsx's /embed/:id lookup). */}
       <div
-        className="shrink-0 flex items-center gap-3 px-4 h-11 safe-top"
+        className="lg:hidden shrink-0 flex items-center gap-3 px-4 h-11 safe-top"
         style={{ borderBottom: '1px solid var(--border)', background: 'var(--bg-panel)' }}
       >
         <Link to="/" className="text-sm" style={{ color: 'var(--text-secondary)' }}>← Home</Link>

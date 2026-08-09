@@ -1,0 +1,227 @@
+/* ============================================================
+   Jabreeze — design tokens
+   Single source of truth for colour, elevation, radius, motion.
+   Drop this in src/styles/tokens.css and import before globals.css.
+
+   Theme switching: set data-theme on <html> or the app root.
+   <html data-theme="paper">  paper | ink | parchment | neon
+   Persist the choice in localStorage under "jabreeze.theme".
+   ============================================================ */
+
+/* ---- Theme-independent -------------------------------------- */
+:root {
+  /* radius */
+  --r-sm: 7px;
+  --r-md: 10px;
+  --r-lg: 12px;
+  --r-xl: 16px;
+  --r-pill: 999px;
+
+  /* motion */
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);        /* default: settle */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);     /* entrances */
+  --ease-spring: cubic-bezier(0.34, 1.4, 0.64, 1); /* taps, toggles */
+  --dur-1: 130ms;  /* colour, hover */
+  --dur-2: 240ms;  /* transform, shadow */
+  --dur-3: 420ms;  /* section entrance */
+
+  /* type scale — px, not rem: this is a fixed-density app UI */
+  --t-2xs: 9px;   /* mono kickers, rail labels */
+  --t-xs: 10px;   /* table column heads */
+  --t-sm: 11px;   /* meta, counts */
+  --t-md: 12px;   /* secondary body, table cells */
+  --t-base: 13px; /* body, list rows, controls */
+  --t-lg: 14px;   /* card titles, question stems */
+  --t-xl: 16px;   /* panel headings */
+  --t-2xl: 18px;  /* section headings */
+  --t-3xl: 20px;  /* page titles */
+  --t-4xl: 22px;  /* hero numbers */
+  --t-5xl: 26px;  /* dashboard stat figures */
+
+  /* layout */
+  --rail-w: 76px;
+  --flyout-w: 236px;
+  --filter-w: 268px;
+  --filter-w-collapsed: 52px;
+  --inspector-w: 330px;
+  --header-h: 88px; /* title row + tab strip */
+
+  /* TestCard kind pills — aliases onto the existing subject hues rather
+     than introducing new per-theme colours, so all four themes stay
+     covered for free. */
+  --pill-real-paper: var(--blue);
+  --pill-full-sitting: var(--indigo);
+  --pill-sectional: var(--forest);
+  --pill-adaptive: var(--plum);
+  --pill-sprint: var(--gold);
+}
+
+/* ---- Paper (default, light) --------------------------------- */
+:root,
+[data-theme="paper"] {
+  --bg: #f5f5f8;
+  --bg-flat: #f5f5f8;   /* always a flat colour; used for scrollbar borders */
+  --surface: #ffffff;
+  --sunk: #ececf0;
+  --line: #d9dbe2;
+  --line-strong: #c9cbd4;
+
+  --ink: #1d1f29;
+  --muted: #666b7d;
+  --faint: #8b8fa0;
+
+  --accent: #6f61c0;
+  --accent-hover: #574aa3;
+  --accent-soft: rgba(111, 97, 192, 0.12);
+  --accent-faint: rgba(111, 97, 192, 0.06);
+  --on-accent: #ffffff;
+
+  --sh-1: 0 1px 2px rgba(29, 31, 41, 0.05);
+  --sh-2: 0 6px 18px -12px rgba(29, 31, 41, 0.28);
+  --sh-3: 0 18px 40px -20px rgba(29, 31, 41, 0.34);
+  --sh-flyout: 8px 0 28px -14px rgba(29, 31, 41, 0.22);
+
+  /* semantic */
+  --ok: #2e7d4f;
+  --warn: #9a6b12;
+  --bad: #a33232;
+  --info: #2f6f9f;
+
+  /* subject hues — one per subject, never reassigned */
+  --green: #2e8a5f;   /* geography */
+  --blue: #4c63c4;    /* polity */
+  --brown: #9c6f33;   /* history, mizoram */
+  --gold: #8a6d1f;    /* economy */
+  --indigo: #5c5c9e;  /* aptitude */
+  --forest: #3f7d4f;  /* sci & tech, python */
+  --plum: #7a3ea3;    /* english, essay */
+}
+
+/* ---- Ink (dark) -------------------------------------------- */
+[data-theme="ink"] {
+  --bg: #14151c;
+  --bg-flat: #14151c;
+  --surface: #1c1e27;
+  --sunk: #23252f;
+  --line: #2e3140;
+  --line-strong: #3a3d4d;
+
+  --ink: #e8e9ef;
+  --muted: #9ea3b5;
+  --faint: #6f7488;
+
+  --accent: #9b8cf0;
+  --accent-hover: #b3a6ff;
+  --accent-soft: rgba(155, 140, 240, 0.18);
+  --accent-faint: rgba(155, 140, 240, 0.09);
+  --on-accent: #14151c;
+
+  --sh-1: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --sh-2: 0 8px 22px -12px rgba(0, 0, 0, 0.7);
+  --sh-3: 0 20px 44px -20px rgba(0, 0, 0, 0.8);
+  --sh-flyout: 8px 0 30px -12px rgba(0, 0, 0, 0.6);
+
+  --ok: #5cb98a;
+  --warn: #d5a24a;
+  --bad: #e0736e;
+  --info: #6fa8d8;
+
+  --green: #5cb98a;
+  --blue: #8b9cf0;
+  --brown: #cba36a;
+  --gold: #cbb05e;
+  --indigo: #a3a3e0;
+  --forest: #6fbb84;
+  --plum: #c08fdd;
+}
+
+/* ---- Parchment (warm light) -------------------------------- */
+[data-theme="parchment"] {
+  --bg: #f4efe6;
+  --bg-flat: #f4efe6;
+  --surface: #fdfaf4;
+  --sunk: #ebe4d7;
+  --line: #ddd3c2;
+  --line-strong: #c9bda7;
+
+  --ink: #221f1a;
+  --muted: #6b6255;
+  --faint: #948a7a;
+
+  --accent: #1f6f5c;
+  --accent-hover: #175647;
+  --accent-soft: rgba(31, 111, 92, 0.13);
+  --accent-faint: rgba(31, 111, 92, 0.06);
+  --on-accent: #fdfaf4;
+
+  --sh-1: 0 1px 2px rgba(60, 46, 26, 0.06);
+  --sh-2: 0 6px 18px -12px rgba(60, 46, 26, 0.3);
+  --sh-3: 0 18px 40px -20px rgba(60, 46, 26, 0.36);
+  --sh-flyout: 8px 0 28px -14px rgba(60, 46, 26, 0.24);
+
+  --ok: #2c7a52;
+  --warn: #9a6b12;
+  --bad: #a63e2e;
+  --info: #2f6f9f;
+
+  --green: #2c7a52;
+  --blue: #35558c;
+  --brown: #8a5f2b;
+  --gold: #8a6d1f;
+  --indigo: #5a5487;
+  --forest: #35704a;
+  --plum: #7a3ea3;
+}
+
+/* ---- Neon (dark glass) ------------------------------------- */
+[data-theme="neon"] {
+  --bg:
+    radial-gradient(ellipse 90% 60% at 8% -12%, rgba(0, 255, 214, 0.13), transparent 52%),
+    radial-gradient(ellipse 70% 50% at 96% 4%, rgba(192, 132, 252, 0.12), transparent 46%),
+    linear-gradient(165deg, #040807 0%, #0a1620 48%, #061210 100%);
+  --bg-flat: #061210;
+  --surface: rgba(10, 26, 28, 0.66);
+  --sunk: rgba(0, 255, 214, 0.06);
+  --line: rgba(0, 255, 214, 0.17);
+  --line-strong: rgba(0, 255, 214, 0.34);
+
+  --ink: #e8fff8;
+  --muted: rgba(180, 255, 232, 0.66);
+  --faint: rgba(150, 214, 200, 0.52);
+
+  --accent: #00ffd6;
+  --accent-hover: #5eead4;
+  --accent-soft: rgba(0, 255, 214, 0.14);
+  --accent-faint: rgba(0, 255, 214, 0.07);
+  --on-accent: #04211c;
+
+  --sh-1: 0 1px 2px rgba(0, 0, 0, 0.5);
+  --sh-2: 0 8px 24px -12px rgba(0, 40, 34, 0.8);
+  --sh-3: 0 22px 48px -20px rgba(0, 60, 50, 0.9);
+  --sh-flyout: 8px 0 32px -12px rgba(0, 30, 26, 0.7);
+
+  --ok: #08e260;
+  --warn: #fbbf24;
+  --bad: #f472b6;
+  --info: #22d3ee;
+
+  --green: #08e260;
+  --blue: #818cf8;
+  --brown: #fbbf24;
+  --gold: #facc15;
+  --indigo: #c084fc;
+  --forest: #5eead4;
+  --plum: #f472b6;
+}
+
+/* neon is glass: the rail and header must blur what is behind them */
+[data-theme="neon"] .rail,
+[data-theme="neon"] .app-header {
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+[data-theme="ink"],
+[data-theme="neon"] { color-scheme: dark; }
+[data-theme="paper"],
+[data-theme="parchment"] { color-scheme: light; }

@@ -8,7 +8,6 @@ import * as api from '@/lib/mpscApi';
 import type { Correction } from '@/lib/mpscApi';
 import { QuestionReviewPanel } from './QuestionReviewPanel';
 import { DescriptiveQuestionCard } from './DescriptiveQuestionCard';
-import { AdminPanel } from './AdminPanel';
 import './state-tax-officer.css';
 
 const BANK_ID = 'mpsc-state-tax-officer';
@@ -18,7 +17,8 @@ interface Props {
   papers: ExamPaper[];
 }
 
-type PrepTab = 'overview' | 'primers' | 'bank' | 'descriptive' | 'exam-browse' | 'yearly-browse' | 'paper-browse' | 'mock' | 'progress' | 'admin';
+const PREP_TABS = ['overview', 'primers', 'bank', 'descriptive', 'exam-browse', 'yearly-browse', 'paper-browse', 'mock', 'progress'] as const;
+type PrepTab = (typeof PREP_TABS)[number];
 type MockState = 'setup' | 'running' | 'review';
 interface MockResults {
   correct: number; wrong: number; unattempted: number; score: number; total: number;
@@ -209,7 +209,7 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
   const [searchParams] = useSearchParams();
   const initialTab = searchParams.get('tab');
   const [prepTab, setPrepTab] = useState<PrepTab>(
-    (initialTab === 'admin' ? 'admin' : 'overview') as PrepTab,
+    (PREP_TABS as readonly string[]).includes(initialTab ?? '') ? (initialTab as PrepTab) : 'overview',
   );
   const [selectedUnit, setSelectedUnit] = useState<string | null>(null);
   const [mockState, setMockState] = useState<MockState>('setup');
@@ -272,8 +272,6 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
       ),
     [correctedAllQuestions],
   );
-
-  const questionsById = useMemo(() => new Map(correctedAllQuestions.map((q) => [q.id, q])), [correctedAllQuestions]);
 
   // Real per-question exam name comes from the linked ExamPaper via paperId,
   // not from BankQuestion.source (which is the same string on every row).
@@ -370,12 +368,7 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
       {/* Tab Navigation */}
       <div className="border-b overflow-x-auto" style={{ borderColor: 'var(--border)' }}>
         <div className="flex gap-6 px-5 py-3">
-          {(
-            [
-              'overview', 'primers', 'bank', 'descriptive', 'exam-browse', 'yearly-browse', 'paper-browse', 'mock', 'progress',
-              ...(user?.role === 'admin' ? (['admin'] as const) : []),
-            ] as const
-          ).map((t) => (
+          {PREP_TABS.map((t) => (
             <button
               key={t}
               onClick={() => {
@@ -397,7 +390,6 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
               {t === 'paper-browse' && '📑 By Paper'}
               {t === 'mock' && '🧪 Mock Tests'}
               {t === 'progress' && '📊 Progress'}
-              {t === 'admin' && '🛡️ Admin'}
             </button>
           ))}
         </div>
@@ -461,9 +453,6 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
           <MockReviewTab questions={testQuestions} answers={mockAnswers} results={testResults} onBack={() => setMockState('setup')} />
         )}
         {prepTab === 'progress' && <ProgressTab />}
-        {prepTab === 'admin' && user?.role === 'admin' && (
-          <AdminPanel bankId={BANK_ID} questionsById={questionsById} onCorrectionApplied={refetchCorrections} />
-        )}
       </div>
     </div>
   );

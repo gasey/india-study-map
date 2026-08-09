@@ -5,6 +5,9 @@ import { useApp } from '@/lib/store';
 import { AppShell } from '@/components/shell/AppShell';
 import { Home } from '@/pages/Home';
 import { EmbedPage } from '@/pages/EmbedPage';
+import { PlannedPage } from '@/pages/PlannedPage';
+import { RecallLandingPage } from '@/pages/RecallLandingPage';
+import { LibraryLandingPage } from '@/pages/LibraryLandingPage';
 
 // ============================================
 // ROOT SHELL
@@ -15,9 +18,8 @@ import { EmbedPage } from '@/pages/EmbedPage';
 // Static drop-in pages (e.g. /codex/index.html) live in /public and
 // bypass the router entirely.
 //
-// Every route renders inside <AppShell>, which picks the rail /
-// command-bar / no-chrome wrapper for the active shell style
-// (see lib/shellStyles.ts) — flip it from the switcher in the rail.
+// Every route renders inside <AppShell>, which always wraps it in the
+// same rail + header chrome — see components/shell/AppShell.tsx.
 // ============================================
 
 const StudyMapApp = lazy(() => import('./App').then((m) => ({ default: m.App })));
@@ -31,6 +33,9 @@ const ArenaPage = lazy(() => import('./modules/arena/ArenaPage'));
 const MpscPage = lazy(() => import('./modules/mpsc/MpscPage'));
 const StateTaxOfficerPage = lazy(() => import('./modules/mpsc/StateTaxOfficerPage'));
 const QuestionBankPage = lazy(() => import('./modules/question-bank/QuestionBankPage'));
+const PapersPage = lazy(() => import('./pages/PapersPage'));
+const TestsPage = lazy(() => import('./pages/TestsPage'));
+const AdminConsolePage = lazy(() => import('./pages/AdminConsolePage'));
 
 function Loading() {
   return (
@@ -45,6 +50,7 @@ function ThemeSync() {
   const theme = useApp((s) => s.theme);
   useEffect(() => {
     document.documentElement.classList.toggle('dark', theme === 'dark');
+    document.documentElement.setAttribute('data-theme', theme === 'dark' ? 'ink' : 'paper');
   }, [theme]);
   return null;
 }
@@ -70,6 +76,14 @@ export function Root() {
             <Route path="/state-tax-officer" element={<StateTaxOfficerPage />} />
             <Route path="/embed/:id" element={<EmbedPage />} />
             <Route path="/question-bank" element={<QuestionBankPage />} />
+            <Route path="/recall" element={<RecallLandingPage />} />
+            <Route path="/library" element={<LibraryLandingPage />} />
+            <Route path="/tests" element={<TestsPage />} />
+            <Route path="/papers" element={<PapersPage />} />
+            <Route path="/code" element={<PlannedPage title="Programming & Python" />} />
+            <Route path="/games" element={<PlannedPage title="Games" />} />
+            <Route path="/account" element={<PlannedPage title="Account" />} />
+            <Route path="/admin" element={<AdminConsolePage />} />
             <Route path="*" element={<Home />} />
           </Routes>
         </Suspense>

@@ -1,0 +1,102 @@
+/* ============================================================
+   Jabreeze — motion system
+   Import after tokens.css. Every duration/easing comes from a token;
+   never hardcode a ms value in a component.
+   ============================================================ */
+
+@keyframes om-rise      { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+@keyframes om-fade      { from { opacity: 0; } to { opacity: 1; } }
+@keyframes om-slide-in  { from { opacity: 0; transform: translateX(-14px); } to { opacity: 1; transform: none; } }
+@keyframes om-pop       { 0% { opacity: 0; transform: scale(0.94); } 60% { transform: scale(1.012); } 100% { opacity: 1; transform: scale(1); } }
+@keyframes om-sheen     { from { background-position: 12% 50%; } to { background-position: 88% 50%; } }
+@keyframes om-sheet-up  { from { transform: translateY(100%); } to { transform: none; } }
+
+/* --- Where each one is used ---------------------------------
+   om-rise      section content on route/tab change (the default)
+   om-fade      inline swaps that must not move (answer reveal, toast)
+   om-slide-in  the More flyout, the filter rail expanding
+   om-pop       modals, the mock-test submit confirm, badge unlock
+   om-sheen     holographic badge foil on hover (Games → Badges)
+   om-sheet-up  every mobile bottom sheet
+   ------------------------------------------------------------ */
+
+/* Section entrance. Keyed on route so a tab change replays it. */
+.section-enter {
+  animation: om-rise var(--dur-3) var(--ease) both;
+}
+
+/* Rail + tabs. Colour is fast, transform is springy. */
+.rail-item {
+  transition:
+    background var(--dur-1) ease,
+    color var(--dur-1) ease,
+    transform var(--dur-1) var(--ease-spring);
+}
+.rail-item:active { transform: scale(0.94); }
+
+.tab {
+  transition: color var(--dur-1) ease, border-color var(--dur-2) var(--ease);
+}
+
+/* Anything clickable gets the same baseline. */
+button,
+select,
+input,
+.clickable {
+  transition:
+    background var(--dur-1) ease,
+    color var(--dur-1) ease,
+    border-color var(--dur-1) ease,
+    box-shadow var(--dur-2) var(--ease),
+    transform var(--dur-2) var(--ease),
+    opacity var(--dur-2) ease;
+}
+button:not(:disabled):active { transform: translateY(1px); }
+
+/* Card lift — Library, Games, mind-map nodes. */
+.card-lift {
+  transition: transform var(--dur-2) var(--ease), box-shadow var(--dur-2) var(--ease);
+}
+.card-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--sh-3);
+}
+
+/* Games card 3D tilt. */
+.card-tilt {
+  transform-style: preserve-3d;
+  transition: transform var(--dur-3) var(--ease), box-shadow var(--dur-3) ease;
+}
+.card-tilt:hover { transform: rotate3d(1, -0.6, 0, 7deg) translateY(-3px); }
+
+/* Library card panel slide (reveals the description on hover). */
+.reveal-panel {
+  transition: transform 420ms cubic-bezier(0.37, 0.75, 0.61, 1.05);
+}
+.reveal-card:hover .reveal-panel { transform: translateY(-66px); }
+
+/* Sequential shelf (Current Affairs). Width + lift + dim, one easing. */
+.shelf-card {
+  transition:
+    width var(--dur-3) var(--ease),
+    transform var(--dur-3) var(--ease),
+    box-shadow var(--dur-3) ease,
+    opacity var(--dur-3) ease;
+}
+
+/* Mobile bottom sheet. */
+.sheet { animation: om-sheet-up var(--dur-2) var(--ease-out) both; }
+.sheet-scrim { animation: om-fade var(--dur-1) ease both; }
+
+/* --- Accessibility ------------------------------------------
+   Non-negotiable. A 45-minute mock test with motion sickness is
+   not a test. Ship this rule or don't ship the animations.
+   ------------------------------------------------------------ */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

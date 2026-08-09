@@ -13,7 +13,7 @@ export function LoginPanel() {
       <div className="flex items-center gap-2 text-sm">
         <span style={{ color: 'var(--text-secondary)' }}>
           {user.displayName ?? user.username}
-          {user.role === 'admin' && <span className="ml-1 sto-pill sto-priority-high">admin</span>}
+          {user.role !== 'learner' && <span className="ml-1 sto-pill sto-priority-high">{user.role}</span>}
         </span>
         <button
           onClick={logout}

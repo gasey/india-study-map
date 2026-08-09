@@ -7,8 +7,6 @@ import type { Importance } from '@/data/timeline/types';
 
 type Theme = 'light' | 'dark';
 type Mode = 'study' | 'quiz';
-/** Which nav-shell arrangement wraps the app — see src/lib/shellStyles.ts. */
-export type ShellStyle = '1a' | '1b' | '1c' | '2a';
 
 interface ChapterProgress {
   /** quiz item id -> attempts (correct=true/false) */
@@ -133,7 +131,6 @@ interface ChronicleState {
 
 export interface AppState {
   theme: Theme;
-  shellStyle: ShellStyle;
   currentChapterId: string;
   activeLayerIds: string[];
   /** Always-available base layer ids that are currently on. */
@@ -158,7 +155,6 @@ export interface AppState {
 
   // actions
   toggleTheme: () => void;
-  setShellStyle: (style: ShellStyle) => void;
   setChapter: (id: string) => void;
   toggleLayer: (layerId: string) => void;
   toggleBaseLayer: (layerId: string) => void;
@@ -203,7 +199,6 @@ export const useApp = create<AppState>()(
   persist(
     (set, get) => ({
       theme: 'light',
-      shellStyle: '2a',
       currentChapterId: chapters[0]?.id ?? '',
       activeLayerIds: initialLayersFor(chapters[0]?.id ?? ''),
       activeBaseLayerIds: baseLayers.filter((l) => l.defaultOn).map((l) => l.id),
@@ -242,8 +237,6 @@ export const useApp = create<AppState>()(
 
       toggleTheme: () =>
         set((s) => ({ theme: s.theme === 'light' ? 'dark' : 'light' })),
-
-      setShellStyle: (style) => set({ shellStyle: style }),
 
       setChapter: (id) =>
         set({
@@ -408,7 +401,6 @@ export const useApp = create<AppState>()(
       name: 'india-study-map',
       partialize: (s) => ({
         theme: s.theme,
-        shellStyle: s.shellStyle,
         progress: s.progress,
         bankProgress: s.bankProgress,
         deckProgress: s.deckProgress,

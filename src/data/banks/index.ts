@@ -23,5 +23,3 @@ export function getBank(id: string): QuestionBank | undefined {
 // All concept primers (Science, History, Polity, Economy, Geography, English, etc.)
 // merged from every primers-*.json — see all-primers.ts for the full unit list.
 export { allPrimers, PRIMER_CATEGORIES, UNIT_LABELS, type Primer } from './all-primers';
-
-export { mpscOldQuestions } from './mpsc-old-questions-2026';

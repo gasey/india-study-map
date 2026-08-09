@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { useAuthStore } from '@/lib/authStore';
+import { hasCap, useAuthStore } from '@/lib/authStore';
 import * as api from '@/lib/mpscApi';
 import type { Comment } from '@/lib/mpscApi';
 
@@ -261,7 +261,9 @@ function CommentsThread({ bankId, questionId, canPost }: { bankId: string; quest
   };
 
   const isMine = (c: Comment) => !!user && c.username === user.username;
-  const isAdmin = user?.role === 'admin';
+  // comment.moderate is rank-2 (moderator+) on the backend — pin/edit/
+  // delete-others now match that bar exactly, not the old admin-only one.
+  const canModerate = hasCap(user, 'comment.moderate');
 
   const renderComment = (c: Comment, indent: boolean) => (
     <div key={c.id} className="text-xs p-2 rounded" style={{ background: 'var(--bg-app)', marginLeft: indent ? 16 : 0 }}>
@@ -290,11 +292,11 @@ function CommentsThread({ bankId, questionId, canPost }: { bankId: string; quest
       )}
       <div className="flex gap-2 mt-1" style={{ color: 'var(--text-secondary)' }}>
         {!indent && canPost && <button onClick={() => setReplyTo(replyTo === c.id ? null : c.id)}>Reply</button>}
-        {(isMine(c) || isAdmin) && editingId !== c.id && (
+        {(isMine(c) || canModerate) && editingId !== c.id && (
           <button onClick={() => { setEditingId(c.id); setEditBody(c.body); }}>Edit</button>
         )}
-        {(isMine(c) || isAdmin) && <button onClick={() => remove(c.id)}>Delete</button>}
-        {isAdmin && <button onClick={() => togglePin(c.id)}>{c.isPinned ? 'Unpin' : 'Pin'}</button>}
+        {(isMine(c) || canModerate) && <button onClick={() => remove(c.id)}>Delete</button>}
+        {canModerate && <button onClick={() => togglePin(c.id)}>{c.isPinned ? 'Unpin' : 'Pin'}</button>}
       </div>
       {replyTo === c.id && (
         <div className="mt-1.5 flex gap-1.5">

@@ -10,13 +10,20 @@ import { TopBar } from '@/components/TopBar';
 import { Timeline } from '@/components/Timeline';
 import { AuthorPanel, AuthorMapLayer, EMPTY_AUTHOR_STATE, type AuthorState, type Tool } from '@/components/AuthorTool';
 import { useChapterTheme } from '@/hooks/useChapterTheme';
-import { SHELL_STYLES } from '@/lib/shellStyles';
 import type { TimelineEvent } from '@/types';
+
+// Study Map's chrome is fixed now (there's only one shell) — these are the
+// exact values the old '2a' (Unified Rail) shell style used, preserved so
+// this screen renders pixel-identical to before.
+const mapCfg: { leftPanel: 'docked' | 'docked-tree' | 'floating'; rightPanel: 'docked' | 'floating'; breadcrumbOverlay: boolean } = {
+  leftPanel: 'docked',
+  rightPanel: 'docked',
+  breadcrumbOverlay: false,
+};
 
 export function App() {
   const {
     theme,
-    shellStyle,
     currentChapterId,
     activeLayerIds,
     activeBaseLayerIds,
@@ -27,7 +34,6 @@ export function App() {
     basemapOverride,
   } = useApp();
   const chapter = getChapter(currentChapterId);
-  const mapCfg = SHELL_STYLES[shellStyle].map;
 
   const [mapClick, setMapClick] = useState<{ lat: number; lng: number } | null>(null);
   const [showAnswer, setShowAnswer] = useState(false);
@@ -67,6 +73,7 @@ export function App() {
 
   useEffect(() => {
     document.documentElement.classList.toggle('dark', theme === 'dark');
+    document.documentElement.setAttribute('data-theme', theme === 'dark' ? 'ink' : 'paper');
   }, [theme]);
 
   useChapterTheme(chapter ?? ({} as any), theme === 'dark');

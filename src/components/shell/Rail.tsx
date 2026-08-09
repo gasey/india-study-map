@@ -1,8 +1,7 @@
 import { useLocation, Link } from 'react-router-dom';
 import { useApp } from '@/lib/store';
 import { IC, IconSvg } from './icons';
-import { ShellSwitcher } from './ShellSwitcher';
-import { ModuleGroupMenu } from './ModuleGroupMenu';
+import { MoreFlyout } from './MoreFlyout';
 import { AdminNavMenu } from './AdminNavMenu';
 
 function RailLink({ to, icon, label, active }: { to: string; icon: string; label: string; active: boolean }) {
@@ -21,13 +20,24 @@ function RailLink({ to, icon, label, active }: { to: string; icon: string; label
   );
 }
 
+const RAIL_ITEMS = [
+  { to: '/', icon: IC.home, label: 'Home' },
+  { to: '/question-bank', icon: IC.qbank, label: 'Q. Bank' },
+  { to: '/tests', icon: IC.tests, label: 'Tests' },
+  { to: '/papers', icon: IC.papers, label: 'Papers' },
+  { to: '/map', icon: IC.map, label: 'Study Map' },
+  { to: '/timeline', icon: IC.chronicle, label: 'Chronicle' },
+  { to: '/recall', icon: IC.recall, label: 'Recall' },
+  { to: '/library', icon: IC.library, label: 'Library' },
+] as const;
+
 export function Rail() {
   const loc = useLocation();
   const { theme, toggleTheme } = useApp();
 
   return (
     <aside
-      className="hidden lg:flex w-[68px] shrink-0 h-full flex-col items-center py-4 gap-1.5 safe-top safe-bottom"
+      className="hidden lg:flex w-[76px] shrink-0 h-full flex-col items-center py-4 gap-1.5 safe-top safe-bottom"
       style={{ background: 'var(--bg-rail)', borderRight: '1px solid var(--border)' }}
     >
       <div
@@ -37,15 +47,32 @@ export function Rail() {
         <div className="w-3 h-3 rounded-[2px] rotate-45" style={{ background: 'var(--accent)' }} />
       </div>
 
-      <RailLink to="/" icon={IC.home} label="Home" active={loc.pathname === '/'} />
-      <ModuleGroupMenu category="Study" label="Study" placement="rail" />
-      <RailLink to="/question-bank" icon={IC.qbank} label="Q. Bank" active={loc.pathname === '/question-bank'} />
-      <ModuleGroupMenu category="Practice" label="Practice" placement="rail" />
-      <AdminNavMenu placement="rail" />
+      {RAIL_ITEMS.map((item) => (
+        <RailLink
+          key={item.to}
+          to={item.to}
+          icon={item.icon}
+          label={item.label}
+          active={loc.pathname === item.to || (item.to !== '/' && loc.pathname.startsWith(`${item.to}/`))}
+        />
+      ))}
+      <MoreFlyout />
 
       <div className="flex-1" />
 
-      <ShellSwitcher />
+      <AdminNavMenu placement="rail" />
+
+      <Link
+        to="/account"
+        className="w-14 py-2 rounded-lg flex flex-col items-center gap-1 transition-colors"
+        style={{
+          background: loc.pathname === '/account' ? 'var(--accent-soft)' : 'transparent',
+          color: loc.pathname === '/account' ? 'var(--accent)' : 'var(--text-secondary)',
+        }}
+      >
+        <IconSvg d={IC.avatar} />
+        <span className="text-[9px] tracking-wide">Account</span>
+      </Link>
 
       <button
         onClick={toggleTheme}

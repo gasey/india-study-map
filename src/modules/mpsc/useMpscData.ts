@@ -1,65 +1,26 @@
 import { useEffect, useMemo, useState } from 'react';
-import { getBank } from '@/data/banks';
+import * as api from '@/lib/mpscApi';
 import { isMcqQuestion } from '@/data/banks/types';
-import type { BankQuestion, ExamPaper, McqBankQuestion } from '@/data/banks/types';
+import type { BankQuestion, ExamPaper } from '@/data/banks/types';
+import type { Correction } from '@/lib/mpscApi';
 
 // ============================================
-// MPSC data layer — turns the flat bank (papers + questions) into the
-// structures the UI needs: papers enriched with their questions, papers
-// clustered into "sittings" (so Paper-I / Paper-II of the same exam group
-// together for comparison), and the option lists that drive the filters.
+// MPSC data layer — papers/sittings metadata (cheap, ~1,750 rows, fetched
+// in full) plus URL-shaped filter state for the Browse/Practice tabs,
+// which fetch one filtered/paginated/sampled slice at a time from the
+// live API instead of ever holding all 76,093 questions in memory.
 //
-// Data is fetched live from the MPSC Postgres API on shiksha-dev (the
-// source of truth as extraction batches land) with the bundled static
-// bank as a fallback if the API is unreachable, so the module still works
-// offline / if the droplet is down.
+// Previously this fetched the *entire* bank (papers + questions, ~41MB)
+// in one shot and did all filtering client-side — see git history before
+// Phase 4. That already froze a tab once on a sibling backend attempt at
+// the same pattern; /api/mpsc/questions now does the filtering server-side.
 // ============================================
 
 export const BANK_ID = 'mpsc-old-questions';
 export const ALL = 'all';
 
-// HTTPS is required — the deployed site is served over HTTPS (Vercel), and
-// browsers silently block http:// fetches from an https:// page as mixed
-// content (see mpscApi.ts's API_BASE / DEVLOG.md 2026-08-02).
-// Rolled back 2026-08-06: the new mpsc-api Render backend's /api/bank/
-// dumps all ~70K questions as one ~36MB JSON payload, and parsing that in
-// one synchronous JSON.parse() call froze the tab in production. Needs a
-// paginated fetch before it can replace the droplet.
-const API_URL = 'https://api.map.hawayu.in/api/mpsc/bank';
-
-interface RawBank {
-  papers: ExamPaper[];
-  questions: BankQuestion[];
-}
-
-function useMpscBank(): RawBank {
-  const staticBank = getBank(BANK_ID);
-  const fallback: RawBank = useMemo(
-    () => ({ papers: staticBank?.papers ?? [], questions: staticBank?.questions ?? [] }),
-    [staticBank],
-  );
-  const [remote, setRemote] = useState<RawBank | null>(null);
-
-  useEffect(() => {
-    let cancelled = false;
-    fetch(API_URL)
-      .then((r) => (r.ok ? r.json() : Promise.reject(new Error(`HTTP ${r.status}`))))
-      .then((data: RawBank) => {
-        if (!cancelled) setRemote(data);
-      })
-      .catch(() => {
-        // API unreachable — the static fallback bank is already in place.
-      });
-    return () => {
-      cancelled = true;
-    };
-  }, []);
-
-  return remote ?? fallback;
-}
-
-export interface PaperWithQuestions extends ExamPaper {
-  questions: BankQuestion[];
+export interface PaperWithCount extends ExamPaper {
+  questionCount: number;
 }
 
 /** A group of papers from the same exam event — the unit students compare. */
@@ -71,136 +32,152 @@ export interface Sitting {
   year: number;
   /** Label like "Combined Competitive Examination · District Officer · 2019". */
   label: string;
-  papers: PaperWithQuestions[];
+  papers: PaperWithCount[];
   totalQuestions: number;
 }
 
-export interface MpscFilters {
-  examType: string;
-  post: string;
-  year: string;
-  subject: string;
-  difficulty: string;
-}
-
-export const emptyFilters: MpscFilters = {
-  examType: ALL,
-  post: ALL,
-  year: ALL,
-  subject: ALL,
-  difficulty: ALL,
-};
-
 /**
- * Derives the sitting-grouping key from the source filename rather than
- * `examName`/`post` — those are free text an LLM writes fresh per PDF during
- * extraction, so Paper-I/II/III of one real sitting can come back with
- * subtly different wording and silently fail to cluster. Filenames are
- * deterministic: siblings share everything up to the trailing "Paper-N".
+ * Papers + sittings metadata only — no question bodies. Powers Library.
+ *
+ * Sitting grouping used to be computed here client-side (a regex over
+ * `sourceFile`, since `examName`/`post` are free text an LLM writes fresh
+ * per PDF and can't be trusted to cluster). That heuristic now lives
+ * server-side in `/api/papers/tree/` (`_sitting_key()` in mpsc_api's
+ * main.py) — this hook just flattens the tree back into the flat
+ * papers/sittings shape `MpscPage.tsx`'s Library tab already consumes, so
+ * there's exactly one implementation of the grouping logic, not two.
  */
-function sittingKey(p: ExamPaper): string {
-  if (!p.sourceFile || p.sourceFile === 'seed') {
-    return [p.examType, p.examName, p.post ?? '', p.year].join('|');
-  }
-  const base = p.sourceFile.split('/').pop() ?? p.sourceFile;
-  const title = base
-    .replace(/\.pdf$/i, '')
-    .replace(/\.+$/, '')
-    .replace(/[\s-]*paper[\s-]*[ivxlcdm\d]+\s*(\d{4})?\s*$/i, '')
-    .replace(/\.+$/, '')
-    .trim()
-    .toLowerCase();
-  return [p.examType, title, p.year].join('|');
-}
+export function useBankPapers() {
+  const [tree, setTree] = useState<api.PapersTree | null>(null);
 
-export function useMpscData() {
-  const bank = useMpscBank();
+  useEffect(() => {
+    let cancelled = false;
+    api.getPapersTree().then((r) => {
+      if (!cancelled) setTree(r);
+    }).catch(() => {
+      if (!cancelled) setTree({ examTypes: [] });
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
 
   return useMemo(() => {
-    const papers = bank.papers;
-    const questions = bank.questions;
-
-    // Group questions under their paper.
-    const byPaper = new Map<string, BankQuestion[]>();
-    for (const q of questions) {
-      if (!q.paperId) continue;
-      const list = byPaper.get(q.paperId) ?? [];
-      list.push(q);
-      byPaper.set(q.paperId, list);
-    }
-    // Questions with no paper link (e.g. seed/legacy) still belong to the bank.
-    const orphanQuestions = questions.filter((q) => !q.paperId);
-
-    const papersWithQ: PaperWithQuestions[] = papers.map((p) => ({
-      ...p,
-      questions: byPaper.get(p.id) ?? [],
-    }));
-
-    // Cluster into sittings, then sort Paper-I, Paper-II, … within each.
-    const sittingMap = new Map<string, Sitting>();
-    for (const p of papersWithQ) {
-      const key = sittingKey(p);
-      let s = sittingMap.get(key);
-      if (!s) {
-        s = {
-          key,
-          examType: p.examType,
-          examName: p.examName,
-          post: p.post,
-          year: p.year ?? 0,
-          label: [p.examName, p.post, p.year].filter(Boolean).join(' · '),
-          papers: [],
-          totalQuestions: 0,
-        };
-        sittingMap.set(key, s);
+    const sittings: Sitting[] = [];
+    const papers: PaperWithCount[] = [];
+    for (const et of tree?.examTypes ?? []) {
+      for (const y of et.years) {
+        for (const s of y.sittings) {
+          sittings.push({
+            key: s.key,
+            examType: s.examType,
+            examName: s.examName,
+            post: s.post ?? undefined,
+            year: s.year ?? 0,
+            label: s.label,
+            papers: s.papers,
+            totalQuestions: s.totalQuestions,
+          });
+          papers.push(...s.papers);
+        }
       }
-      s.papers.push(p);
     }
-    const sittings = [...sittingMap.values()];
-    for (const s of sittings) {
-      s.papers.sort((a, b) => (a.paperNumber ?? '').localeCompare(b.paperNumber ?? '', undefined, { numeric: true }));
-      s.totalQuestions = s.papers.reduce((n, p) => n + p.questions.length, 0);
-    }
-    // Newest sittings first, then by exam name.
     sittings.sort((a, b) => b.year - a.year || a.examName.localeCompare(b.examName));
 
-    // Filter option lists.
     const examTypes = [...new Set(papers.map((p) => p.examType))].sort();
     const posts = [...new Set(papers.map((p) => p.post).filter((p): p is string => !!p))].sort();
     const years = [...new Set(papers.map((p) => p.year).filter((y): y is number => y !== undefined))].sort((a, b) => b - a);
-    const subjects = [...new Set(questions.map((q) => q.subject))].sort();
 
     return {
-      hasData: papers.length > 0 || questions.length > 0,
-      papers: papersWithQ,
-      orphanQuestions,
+      loading: tree === null,
+      papers,
       sittings,
-      questions,
       examTypes,
       posts,
       years,
-      subjects,
       totalPapers: papers.length,
-      totalQuestions: questions.length,
+      totalQuestions: papers.reduce((n, p) => n + p.questionCount, 0),
     };
-  }, [bank]);
+  }, [tree]);
 }
 
-/** Apply the shared filter bar to a question pool. Descriptive questions
- *  (no single answer) are excluded — this bank's table/test-runner UI is
- *  MCQ-only today. */
-export function filterQuestions(
-  questions: BankQuestion[],
-  paperById: Map<string, ExamPaper>,
-  f: MpscFilters,
-): McqBankQuestion[] {
-  return questions.filter(isMcqQuestion).filter((q) => {
-    if (f.subject !== ALL && q.subject !== f.subject) return false;
-    if (f.difficulty !== ALL && q.difficulty !== f.difficulty) return false;
-    const paper = q.paperId ? paperById.get(q.paperId) : undefined;
-    if (f.examType !== ALL && paper?.examType !== f.examType) return false;
-    if (f.post !== ALL && paper?.post !== f.post) return false;
-    if (f.year !== ALL && String(paper?.year ?? q.year) !== f.year) return false;
-    return true;
+// ---- URL-shaped filter state for Browse/Practice (server-side filtering) ----
+
+export interface MpscFilters {
+  examType: string[];
+  post: string[];
+  year: string[];
+  paperId: string[];
+  subject: string[];
+  difficulty: string[];
+  type: string[];
+  search: string;
+}
+
+export const emptyFilters: MpscFilters = {
+  examType: [], post: [], year: [], paperId: [], subject: [], difficulty: [], type: [], search: '',
+};
+
+const PAGE_SIZE = 25;
+
+/** One filtered/sorted/paginated page of questions, fetched live. */
+export function useBankQuestionPage(filters: MpscFilters, offset: number, sortBy: api.BankQuestionQuery['sortBy'], sortDir: api.BankQuestionQuery['sortDir']) {
+  const [state, setState] = useState<{ total: number; questions: BankQuestion[]; loading: boolean }>({ total: 0, questions: [], loading: true });
+  const key = JSON.stringify({ filters, offset, sortBy, sortDir });
+
+  useEffect(() => {
+    let cancelled = false;
+    setState((s) => ({ ...s, loading: true }));
+    api.listBankQuestions({ ...filters, sortBy, sortDir, limit: PAGE_SIZE, offset })
+      .then((r) => {
+        if (!cancelled) setState({ ...r, loading: false });
+      })
+      .catch(() => {
+        if (!cancelled) setState({ total: 0, questions: [], loading: false });
+      });
+    return () => {
+      cancelled = true;
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [key]);
+
+  return state;
+}
+
+/** Per-dimension counts for the current filter combination — powers the
+ *  FilterRail's option counts. Re-fetched whenever the filters change. */
+export function useBankFacets(filters: MpscFilters) {
+  const [facets, setFacets] = useState<Record<string, Record<string, number>>>({});
+  const key = JSON.stringify(filters);
+
+  useEffect(() => {
+    let cancelled = false;
+    api.getBankFacets(filters).then((r) => {
+      if (!cancelled) setFacets(r);
+    }).catch(() => {});
+    return () => {
+      cancelled = true;
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [key]);
+
+  return facets;
+}
+
+/** Overlays admin-authored corrections onto a page of raw questions — same
+ *  overlay this bank has always done, just applied per-page now instead of
+ *  once over the whole in-memory array. */
+export function applyCorrections(questions: BankQuestion[], corrections: Record<string, Correction>): BankQuestion[] {
+  if (Object.keys(corrections).length === 0) return questions;
+  return questions.map((q) => {
+    const c = corrections[q.id];
+    if (!c || !isMcqQuestion(q)) return q;
+    return {
+      ...q,
+      answerIndex: c.answerIndex ?? q.answerIndex,
+      explanation: c.explanation ?? q.explanation,
+      question: c.stem ?? q.question,
+      options: c.options ?? q.options,
+    };
   });
 }

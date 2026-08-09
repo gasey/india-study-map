@@ -98,8 +98,10 @@ export function QuizPlayerPage() {
 
   return (
     <div className="h-full flex flex-col" style={{ background: 'var(--bg-app)', color: 'var(--text-primary)' }}>
+      {/* Hidden at desktop widths — AppHeader already covers the title
+          there, and the progress strip below still shows quiz position. */}
       <header
-        className="safe-top h-12 shrink-0 border-b flex items-center justify-between px-5 gap-3"
+        className="lg:hidden safe-top h-12 shrink-0 border-b flex items-center justify-between px-5 gap-3"
         style={{ borderColor: 'var(--border)', background: 'var(--bg-panel)' }}
       >
         <div className="flex items-center gap-3 min-w-0">

@@ -76,8 +76,10 @@ export function FlashcardsPage() {
 
   return (
     <div className="h-full flex flex-col" style={{ background: 'var(--bg-app)', color: 'var(--text-primary)' }}>
+      {/* Hidden at desktop widths — AppHeader covers the title there, and
+          the "known" count moves into the controls row below. */}
       <header
-        className="safe-top h-12 shrink-0 border-b flex items-center justify-between px-5 gap-3"
+        className="lg:hidden safe-top h-12 shrink-0 border-b flex items-center justify-between px-5 gap-3"
         style={{ borderColor: 'var(--border)', background: 'var(--bg-panel)' }}
       >
         <div className="flex items-center gap-3 min-w-0">
@@ -123,7 +125,7 @@ export function FlashcardsPage() {
           ⟳ Shuffle
         </button>
         <div className="ml-auto text-xs" style={{ color: 'var(--text-secondary)' }}>
-          {pool.length === 0 ? 'no cards' : done ? 'done' : `${Math.min(idx + 1, pool.length)} / ${pool.length}`}
+          {known.length}/{deck.cards.length} known · {pool.length === 0 ? 'no cards' : done ? 'done' : `${Math.min(idx + 1, pool.length)} / ${pool.length}`}
         </div>
       </div>
 

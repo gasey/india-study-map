@@ -36,8 +36,9 @@ export function QuestionBankPage() {
 
   return (
     <div className="h-full flex flex-col" style={{ background: 'var(--bg-app)', color: 'var(--text-primary)' }}>
+      {/* Hidden at desktop widths — AppHeader already covers the title there. */}
       <header
-        className="safe-top h-12 shrink-0 border-b flex items-center justify-between px-5 gap-3"
+        className="lg:hidden safe-top h-12 shrink-0 border-b flex items-center justify-between px-5 gap-3"
         style={{ borderColor: 'var(--border)', background: 'var(--bg-panel)' }}
       >
         <div className="flex items-center gap-3 min-w-0">
@@ -79,7 +80,7 @@ function CatalogRow() {
   const cards = [
     { kicker: 'Vanilla JS app', title: 'MPSC JSO — Cyber Forensic', meta: '49 units · 543 questions', to: '/embed/jso' },
     { kicker: 'Native module', title: 'MPSC State Tax Officer', meta: 'Group B Gazetted — primers, question bank, mock tests, admin review', to: '/state-tax-officer' },
-    { kicker: 'In-app modules, labs & quick sets', title: 'Practice ▾ menu', meta: 'PYQ, Flashcards, Gauntlet Run, MPSC Old Questions, Labs & one-offs', to: '/pyq' },
+    { kicker: 'In-app modules, labs & quick sets', title: 'Browse practice modules', meta: 'PYQ, Flashcards, Gauntlet Run, MPSC Old Questions, Labs & one-offs', to: '/pyq' },
   ];
   return (
     <div>

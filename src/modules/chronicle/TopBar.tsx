@@ -40,10 +40,11 @@ export function TopBar({ viewInfo, onOpenPalette }: TopBarProps) {
         <span className={hasDesktopChrome ? 'lg:hidden' : ''}>
           <ModuleSwitcher />
         </span>
-        <span className="text-base font-semibold shrink-0" style={{ color: 'var(--text-primary)' }}>
+        {/* Dropped at desktop widths — AppHeader shows "Chronicle" there. */}
+        <span className={`text-base font-semibold shrink-0 ${hasDesktopChrome ? 'lg:hidden' : ''}`} style={{ color: 'var(--text-primary)' }}>
           Chronicle
         </span>
-        <span className="label-eyebrow shrink-0 hidden md:inline" style={{ fontSize: 10 }}>
+        <span className={`label-eyebrow shrink-0 hidden md:inline ${hasDesktopChrome ? 'lg:hidden' : ''}`} style={{ fontSize: 10 }}>
           Master Timeline
         </span>
         {currentEra && (

@@ -3,27 +3,35 @@ import { Link, useSearchParams } from 'react-router-dom';
 import { useApp } from '@/lib/store';
 import { ModuleSwitcher } from '@/modules/ModuleSwitcher';
 import { useHasDesktopChrome } from '@/lib/useShellChrome';
-import { useAuthStore } from '@/lib/authStore';
 import * as api from '@/lib/mpscApi';
-import type { Correction } from '@/lib/mpscApi';
+import type { BankQuestionQuery, Correction } from '@/lib/mpscApi';
 import { isMcqQuestion } from '@/data/banks/types';
-import type { BankQuestion, ExamPaper, McqBankQuestion } from '@/data/banks/types';
+import type { ExamPaper, McqBankQuestion } from '@/data/banks/types';
 import {
-  useMpscData, filterQuestions, emptyFilters, ALL, BANK_ID,
-  type MpscFilters, type PaperWithQuestions, type Sitting,
+  useBankPapers, useBankQuestionPage, useBankFacets, applyCorrections,
+  ALL, BANK_ID, type MpscFilters, type PaperWithCount, type Sitting,
 } from './useMpscData';
-import { TestRunner } from './TestRunner';
+import { FilterRail } from './FilterRail';
+import { PaginationControls } from './FilterBar';
+import { TestPlayer } from './TestPlayer';
+import { loadPaper, savePaper } from './useAttemptState';
 import { QuestionsTable } from './QuestionsTable';
-import { AdminPanel } from './AdminPanel';
 import { HomeBackLink } from '@/components/shell/HomeBackLink';
-import { QuestionsDisplay } from './QuestionsDisplay';
 
 // ============================================
 // MPSC OLD QUESTIONS — module shell.
 // Four flows: Library (browse real papers, grouped by exam sitting so
-// Paper-I/II compare side by side), Browser (full-page searchable table),
-// Practice (filtered drill), History (past test scores).
-// A launched test takes over the whole panel.
+// Paper-I/II compare side by side), Browser (paginated, server-filtered
+// table), Practice (server-sampled filtered drill), History (past test
+// scores). A launched test takes over the whole panel.
+//
+// Browser/Practice share one URL-serialized filter (`MpscFilters`, via
+// useSearchParams) driving live /api/mpsc/questions calls — see
+// useMpscData.ts for why this replaced a full-dataset client fetch.
+// Library keeps its own much smaller client-side filter over paper
+// metadata only (examType/post/year — subject/difficulty aren't
+// available without fetching question bodies, which Library deliberately
+// doesn't do).
 //
 // The State Tax Officer prep set (different bank, different data) lives at
 // its own route (/state-tax-officer, see StateTaxOfficerPage.tsx) rather
@@ -32,7 +40,8 @@ import { QuestionsDisplay } from './QuestionsDisplay';
 // and silently showed 0 questions.
 // ============================================
 
-type Tab = 'library' | 'browser' | 'practice' | 'history' | 'admin';
+type Tab = 'library' | 'browser' | 'practice' | 'history';
+type SortKey = NonNullable<BankQuestionQuery['sortBy']>;
 
 interface ActiveTest {
   title: string;
@@ -40,110 +49,171 @@ interface ActiveTest {
   questions: McqBankQuestion[];
 }
 
+const FILTER_KEYS = ['examType', 'post', 'year', 'paperId', 'subject', 'difficulty', 'type'] as const;
+
+function filtersFromParams(sp: URLSearchParams): MpscFilters {
+  return {
+    examType: sp.getAll('examType'),
+    post: sp.getAll('post'),
+    year: sp.getAll('year'),
+    paperId: sp.getAll('paperId'),
+    subject: sp.getAll('subject'),
+    difficulty: sp.getAll('difficulty'),
+    type: sp.getAll('type'),
+    search: sp.get('search') ?? '',
+  };
+}
+
 const selectCls = 'px-2 py-1.5 rounded-md text-sm';
 const selectStyle = { background: 'var(--bg-panel-elev)', color: 'var(--text-primary)', border: '1px solid var(--border)' } as const;
 
-function shuffle<T>(arr: T[]): T[] {
-  const a = [...arr];
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
-}
-
 export function MpscPage() {
   const { theme, toggleTheme, testResults } = useApp();
-  const { user } = useAuthStore();
-  const data = useMpscData();
+  const papersData = useBankPapers();
   const hasDesktopChrome = useHasDesktopChrome('home');
 
-  const [searchParams] = useSearchParams();
+  const [searchParams, setSearchParams] = useSearchParams();
   const initialTab = searchParams.get('tab');
-  const [tab, setTab] = useState<Tab>((initialTab === 'admin' ? 'admin' : 'library') as Tab);
-  const [filters, setFilters] = useState<MpscFilters>(emptyFilters);
+  const [tab, setTab] = useState<Tab>(
+    (['library', 'browser', 'practice', 'history'] as const).includes(initialTab as Tab) ? (initialTab as Tab) : 'library',
+  );
   const [activeTest, setActiveTest] = useState<ActiveTest | null>(null);
+  const [loadingPaperId, setLoadingPaperId] = useState<string | null>(null);
+  const [samplingTest, setSamplingTest] = useState(false);
 
-  // Admin-authored corrections overlaid on the fetched bank — same pattern
-  // as the State Tax Officer bank, generalized here (this bank previously
-  // had no Flag/Note/Comments/Admin surface at all).
+  // Library's own filter — cheap client-side filter over paper metadata
+  // only (examType/post/year). Subject/difficulty are question-level and
+  // no longer available without a per-paper fetch, so they're dropped here
+  // rather than left silently broken.
+  const [libraryFilters, setLibraryFilters] = useState({ examType: ALL, post: ALL, year: ALL });
+
+  // Browse/Practice's shared filter, sort, and page position — all live in
+  // the URL so a filtered view is shareable/refreshable.
+  const filters = useMemo(() => filtersFromParams(searchParams), [searchParams]);
+  const offset = Number(searchParams.get('offset') ?? 0) || 0;
+  const sortBy = (searchParams.get('sortBy') as SortKey) || 'year';
+  const sortDir = (searchParams.get('sortDir') as 'asc' | 'desc') || 'desc';
+
+  const setFilters = (patch: Partial<MpscFilters>) => {
+    setSearchParams((prev) => {
+      const merged = { ...filtersFromParams(prev), ...patch };
+      const next = new URLSearchParams(prev);
+      for (const key of FILTER_KEYS) next.delete(key);
+      for (const key of FILTER_KEYS) for (const v of merged[key]) next.append(key, v);
+      if (merged.search) next.set('search', merged.search);
+      else next.delete('search');
+      next.delete('offset'); // any filter change invalidates the current page position
+      return next;
+    });
+  };
+
+  const setOffset = (o: number) => {
+    setSearchParams((prev) => {
+      const next = new URLSearchParams(prev);
+      if (o > 0) next.set('offset', String(o));
+      else next.delete('offset');
+      return next;
+    });
+  };
+
+  const setSort = (key: SortKey) => {
+    setSearchParams((prev) => {
+      const next = new URLSearchParams(prev);
+      const curBy = prev.get('sortBy') || 'year';
+      const curDir = prev.get('sortDir') || 'desc';
+      if (curBy === key) next.set('sortDir', curDir === 'asc' ? 'desc' : 'asc');
+      else {
+        next.set('sortBy', key);
+        next.set('sortDir', 'asc');
+      }
+      next.delete('offset');
+      return next;
+    });
+  };
+
+  const page = useBankQuestionPage(filters, offset, sortBy, sortDir);
+  const facets = useBankFacets(filters);
+
+  // Header badge needs the TRUE bank-wide question total, including the
+  // ~2,324 questions with no paper_id — papersData.totalQuestions only
+  // sums each paper's questionCount, which excludes those by construction.
+  // One cheap unfiltered fetch (limit:1, only .total matters), independent
+  // of whatever filters Browse/Practice currently have active.
+  const [globalQuestionTotal, setGlobalQuestionTotal] = useState<number | null>(null);
+  useEffect(() => {
+    api.listBankQuestions({ limit: 1 }).then((r) => setGlobalQuestionTotal(r.total)).catch(() => {});
+  }, []);
+
+  // Admin-authored corrections overlaid on whatever page/sample of
+  // questions is currently fetched — same overlay this bank has always
+  // done, just applied per-fetch now instead of once over one global array.
   const [corrections, setCorrections] = useState<Record<string, Correction>>({});
   const refetchCorrections = () => api.getCorrections(BANK_ID).then(setCorrections).catch(() => {});
   useEffect(() => {
     refetchCorrections();
   }, []);
 
-  const correctedQuestions = useMemo(() => {
-    if (Object.keys(corrections).length === 0) return data.questions;
-    return data.questions.map((q) => {
-      const c = corrections[q.id];
-      if (!c || !isMcqQuestion(q)) return q;
-      return {
-        ...q,
-        answerIndex: c.answerIndex ?? q.answerIndex,
-        explanation: c.explanation ?? q.explanation,
-        question: c.stem ?? q.question,
-        options: c.options ?? q.options,
-      };
-    });
-  }, [data.questions, corrections]);
-
-  const questionsById = useMemo(() => new Map<string, BankQuestion>(correctedQuestions.map((q) => [q.id, q])), [correctedQuestions]);
+  const correctedPage = useMemo(() => applyCorrections(page.questions, corrections), [page.questions, corrections]);
 
   const paperById = useMemo(() => {
     const m = new Map<string, ExamPaper>();
-    for (const p of data.papers) m.set(p.id, p);
+    for (const p of papersData.papers) m.set(p.id, p);
     return m;
-  }, [data.papers]);
+  }, [papersData.papers]);
 
-  const set = (patch: Partial<MpscFilters>) => setFilters((f) => ({ ...f, ...patch }));
-
-  // Sittings passing the current filter (a sitting shows if any paper matches).
   const visibleSittings = useMemo(() => {
-    return data.sittings.filter((s) => {
-      if (filters.examType !== ALL && s.examType !== filters.examType) return false;
-      if (filters.post !== ALL && s.post !== filters.post) return false;
-      if (filters.year !== ALL && String(s.year) !== filters.year) return false;
-      if (filters.subject !== ALL && !s.papers.some((p) => p.questions.some((q) => q.subject === filters.subject))) return false;
+    return papersData.sittings.filter((s) => {
+      if (libraryFilters.examType !== ALL && s.examType !== libraryFilters.examType) return false;
+      if (libraryFilters.post !== ALL && s.post !== libraryFilters.post) return false;
+      if (libraryFilters.year !== ALL && String(s.year) !== libraryFilters.year) return false;
       return true;
     });
-  }, [data.sittings, filters]);
+  }, [papersData.sittings, libraryFilters]);
 
-  // Corrections aren't yet threaded into data.papers/sittings (built inside
-  // useMpscData from the raw fetch) — Library-launched paper tests use the
-  // uncorrected text/answer. Browse/Practice, the primary review surface,
-  // does reflect corrections via correctedQuestions above.
-  const practicePool = useMemo(
-    () => filterQuestions(correctedQuestions, paperById, filters),
-    [correctedQuestions, paperById, filters],
-  );
-
-  const launchPaperTest = (p: PaperWithQuestions) => {
-    setActiveTest({
-      title: `${p.paperSubject} ${p.paperNumber ?? ''} · ${p.year}`.replace(/\s+/g, ' ').trim(),
-      targetId: p.id,
-      questions: p.questions.filter(isMcqQuestion),
-    });
+  const launchPaperTest = async (p: PaperWithCount) => {
+    if (p.questionCount === 0) return;
+    setLoadingPaperId(p.id);
+    try {
+      // Resume the stored paper if this sitting was already started, so the
+      // saved answers still line up (see useAttemptState.ts).
+      const saved = loadPaper<McqBankQuestion>(p.id);
+      const items = saved ?? applyCorrections(
+        (await api.listBankQuestions({ paperId: [p.id], type: ['mcq'], limit: 100 })).questions,
+        corrections,
+      ).filter(isMcqQuestion);
+      if (!saved) savePaper(p.id, items);
+      setActiveTest({
+        title: `${p.paperSubject} ${p.paperNumber ?? ''} · ${p.year}`.replace(/\s+/g, ' ').trim(),
+        targetId: p.id,
+        questions: items,
+      });
+    } finally {
+      setLoadingPaperId(null);
+    }
   };
 
-  const launchPracticeTest = () => {
-    setActiveTest({
-      title: 'Custom practice test',
-      targetId: `filter|${filters.examType}|${filters.year}|${filters.subject}|${filters.difficulty}`,
-      questions: shuffle(practicePool).slice(0, 25),
-    });
+  const launchPracticeTest = async () => {
+    setSamplingTest(true);
+    try {
+      const targetId = `filter|${JSON.stringify(filters)}`;
+      const saved = loadPaper<McqBankQuestion>(targetId);
+      const items = saved ?? applyCorrections(
+        (await api.sampleBankQuestions(filters, 25)).questions,
+        corrections,
+      ).filter(isMcqQuestion);
+      if (!saved) savePaper(targetId, items);
+      setActiveTest({ title: 'Custom practice test', targetId, questions: items });
+    } finally {
+      setSamplingTest(false);
+    }
   };
 
-  // ---- Empty state or new extraction viewer ----
-  if (!data.hasData) {
+  // ---- Loading state ----
+  if (papersData.loading) {
     return (
       <Shell theme={theme} toggleTheme={toggleTheme} hasDesktopChrome={hasDesktopChrome}>
-        <main className="flex-1 overflow-y-auto p-8">
-          <h2 style={{ color: 'var(--text-primary)' }} className="mb-4">MPSC Old Questions — Full Bank</h2>
-          <p style={{ color: 'var(--text-secondary)', marginBottom: '20px' }}>
-            73,405 questions extracted from 2,492 exam papers (2011-2026). Diagram images included where available.
-          </p>
-          <QuestionsDisplay />
+        <main className="flex-1 flex items-center justify-center">
+          <p style={{ color: 'var(--text-secondary)' }}>Loading MPSC Old Questions…</p>
         </main>
       </Shell>
     );
@@ -153,8 +223,10 @@ export function MpscPage() {
   if (activeTest) {
     return (
       <Shell theme={theme} toggleTheme={toggleTheme} hasDesktopChrome={hasDesktopChrome}>
-        <main className="scroll-panel flex-1 min-h-0 overflow-y-auto px-5 py-6">
-          <TestRunner
+        {/* TestPlayer manages its own two-pane layout and scrolling, so it
+            gets the raw height rather than a padded scroll container. */}
+        <main className="flex-1 min-h-0">
+          <TestPlayer
             title={activeTest.title}
             targetId={activeTest.targetId}
             questions={activeTest.questions}
@@ -169,9 +241,7 @@ export function MpscPage() {
     <Shell theme={theme} toggleTheme={toggleTheme} hasDesktopChrome={hasDesktopChrome}>
       {/* Tabs */}
       <div className="shrink-0 flex items-center gap-1 px-5 pt-3 border-b overflow-x-auto" style={{ borderColor: 'var(--border)' }}>
-        {(
-          ['library', 'browser', 'practice', 'history', ...(user?.role === 'admin' ? (['admin'] as const) : [])] as Tab[]
-        ).map((t) => (
+        {(['library', 'browser', 'practice', 'history'] as Tab[]).map((t) => (
           <button
             key={t}
             onClick={() => setTab(t)}
@@ -188,43 +258,31 @@ export function MpscPage() {
                 ? '🔍 Browse'
                 : t === 'practice'
                   ? '✍️ Practice'
-                  : t === 'history'
-                    ? '📈 History'
-                    : '🛡️ Admin'}
+                  : '📈 History'}
           </button>
         ))}
         <span className="ml-auto text-xs self-center whitespace-nowrap" style={{ color: 'var(--text-secondary)' }}>
-          {data.totalPapers} papers · {data.totalQuestions} questions
+          {papersData.totalPapers} papers · {globalQuestionTotal ?? papersData.totalQuestions} questions
         </span>
       </div>
 
-      {/* Filters (library + browser + practice) */}
-      {tab !== 'history' && tab !== 'admin' && (
+      {/* Library's own lightweight filter row — paper metadata only */}
+      {tab === 'library' && (
         <div className="shrink-0 flex flex-wrap items-center gap-2 px-5 py-3 border-b" style={{ borderColor: 'var(--border)' }}>
-          <select value={filters.examType} onChange={(e) => set({ examType: e.target.value })} className={selectCls} style={selectStyle}>
+          <select value={libraryFilters.examType} onChange={(e) => setLibraryFilters((f) => ({ ...f, examType: e.target.value }))} className={selectCls} style={selectStyle}>
             <option key="all" value={ALL}>All exam types</option>
-            {data.examTypes.map((t) => <option key={t} value={t}>{t.replace('_', ' ')}</option>)}
+            {papersData.examTypes.map((t) => <option key={t} value={t}>{t.replace('_', ' ')}</option>)}
           </select>
-          <select value={filters.post} onChange={(e) => set({ post: e.target.value })} className={selectCls} style={selectStyle}>
+          <select value={libraryFilters.post} onChange={(e) => setLibraryFilters((f) => ({ ...f, post: e.target.value }))} className={selectCls} style={selectStyle}>
             <option key="all" value={ALL}>All posts</option>
-            {data.posts.map((p) => <option key={p} value={p}>{p}</option>)}
+            {papersData.posts.map((p) => <option key={p} value={p}>{p}</option>)}
           </select>
-          <select value={filters.year} onChange={(e) => set({ year: e.target.value })} className={selectCls} style={selectStyle}>
+          <select value={libraryFilters.year} onChange={(e) => setLibraryFilters((f) => ({ ...f, year: e.target.value }))} className={selectCls} style={selectStyle}>
             <option key="all" value={ALL}>All years</option>
-            {data.years.map((y) => <option key={y} value={String(y)}>{y}</option>)}
+            {papersData.years.map((y) => <option key={y} value={String(y)}>{y}</option>)}
           </select>
-          <select value={filters.subject} onChange={(e) => set({ subject: e.target.value })} className={selectCls} style={selectStyle}>
-            <option key="all" value={ALL}>All subjects</option>
-            {data.subjects.map((s) => <option key={s} value={s}>{s}</option>)}
-          </select>
-          <select value={filters.difficulty} onChange={(e) => set({ difficulty: e.target.value })} className={selectCls} style={selectStyle}>
-            <option value={ALL}>All levels</option>
-            <option value="easy">Easy</option>
-            <option value="medium">Medium</option>
-            <option value="hard">Hard</option>
-          </select>
-          {(filters.examType !== ALL || filters.post !== ALL || filters.year !== ALL || filters.subject !== ALL || filters.difficulty !== ALL) && (
-            <button onClick={() => setFilters(emptyFilters)} className="px-2.5 py-1.5 rounded-md text-sm hover:bg-[var(--bg-panel-elev)]" style={{ border: '1px solid var(--border)' }}>
+          {(libraryFilters.examType !== ALL || libraryFilters.post !== ALL || libraryFilters.year !== ALL) && (
+            <button onClick={() => setLibraryFilters({ examType: ALL, post: ALL, year: ALL })} className="px-2.5 py-1.5 rounded-md text-sm hover:bg-[var(--bg-panel-elev)]" style={{ border: '1px solid var(--border)' }}>
               Clear
             </button>
           )}
@@ -233,37 +291,49 @@ export function MpscPage() {
 
       <main className={`flex-1 min-h-0 ${tab === 'browser' ? 'overflow-hidden' : 'scroll-panel overflow-y-auto px-5 py-5'}`}>
         {tab === 'library' && (
-          <>
-            <div className="scroll-panel overflow-y-auto h-full px-5 py-5">
-              <Library sittings={visibleSittings} onTakeTest={launchPaperTest} />
-              <div className="mt-6 max-w-3xl mx-auto text-xs" style={{ color: 'var(--text-secondary)' }}>
-                <Link to="/" className="hover:underline">← Back to Home</Link>
-              </div>
-            </div>
-          </>
-        )}
-        {tab === 'browser' && <Browser questions={practicePool} paperById={paperById} corrections={corrections} />}
-        {tab === 'practice' && (
-          <>
-            <Practice pool={practicePool} onStartTest={launchPracticeTest} />
+          <div className="scroll-panel overflow-y-auto h-full px-5 py-5">
+            <Library sittings={visibleSittings} loadingPaperId={loadingPaperId} onTakeTest={launchPaperTest} />
             <div className="mt-6 max-w-3xl mx-auto text-xs" style={{ color: 'var(--text-secondary)' }}>
               <Link to="/" className="hover:underline">← Back to Home</Link>
             </div>
-          </>
+          </div>
         )}
-        {tab === 'history' && (
-          <>
-            <div className="scroll-panel overflow-y-auto h-full px-5 py-5">
-              <History results={testResults} />
+        {tab === 'browser' && (
+          <div className="flex gap-4 h-full px-5 py-5">
+            <FilterRail filters={filters} onChange={setFilters} facets={facets} />
+            <div className="flex-1 min-w-0 rounded-xl" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+              <QuestionsTable
+                questions={correctedPage}
+                paperById={paperById}
+                corrections={corrections}
+                total={page.total}
+                sortBy={sortBy}
+                sortDir={sortDir}
+                onSortChange={setSort}
+              />
+              <div className="px-4 pb-4">
+                <PaginationControls offset={offset} limit={25} count={correctedPage.length} onOffsetChange={setOffset} />
+              </div>
+            </div>
+          </div>
+        )}
+        {tab === 'practice' && (
+          <div className="flex gap-4 min-h-full">
+            <FilterRail filters={filters} onChange={setFilters} facets={facets} />
+            <div className="flex-1">
+              <Practice total={page.total} loading={samplingTest} onStartTest={launchPracticeTest} />
               <div className="mt-6 max-w-3xl mx-auto text-xs" style={{ color: 'var(--text-secondary)' }}>
                 <Link to="/" className="hover:underline">← Back to Home</Link>
               </div>
             </div>
-          </>
+          </div>
         )}
-        {tab === 'admin' && user?.role === 'admin' && (
+        {tab === 'history' && (
           <div className="scroll-panel overflow-y-auto h-full px-5 py-5">
-            <AdminPanel bankId={BANK_ID} questionsById={questionsById} onCorrectionApplied={refetchCorrections} />
+            <History results={testResults} />
+            <div className="mt-6 max-w-3xl mx-auto text-xs" style={{ color: 'var(--text-secondary)' }}>
+              <Link to="/" className="hover:underline">← Back to Home</Link>
+            </div>
           </div>
         )}
       </main>
@@ -272,7 +342,7 @@ export function MpscPage() {
 }
 
 // ---- Library: sittings with clustered papers + comparison ----
-function Library({ sittings, onTakeTest }: { sittings: Sitting[]; onTakeTest: (p: PaperWithQuestions) => void }) {
+function Library({ sittings, loadingPaperId, onTakeTest }: { sittings: Sitting[]; loadingPaperId: string | null; onTakeTest: (p: PaperWithCount) => void }) {
   if (sittings.length === 0) {
     return <p className="text-center text-sm py-8" style={{ color: 'var(--text-secondary)' }}>No papers match these filters.</p>;
   }
@@ -292,16 +362,16 @@ function Library({ sittings, onTakeTest }: { sittings: Sitting[]; onTakeTest: (p
               <div key={p.id} className="rounded-lg p-3 flex flex-col" style={{ background: 'var(--bg-panel-elev)', border: '1px solid var(--border)' }}>
                 <div className="flex items-baseline justify-between gap-2">
                   <span className="font-medium text-sm">{p.paperNumber ?? 'Paper'}</span>
-                  <span className="text-xs" style={{ color: 'var(--text-muted)' }}>{p.questions.length} Q</span>
+                  <span className="text-xs" style={{ color: 'var(--text-muted)' }}>{p.questionCount} Q</span>
                 </div>
                 <span className="text-xs mb-2" style={{ color: 'var(--text-secondary)' }}>{p.paperSubject}</span>
                 <button
                   onClick={() => onTakeTest(p)}
-                  disabled={p.questions.length === 0}
+                  disabled={p.questionCount === 0 || loadingPaperId === p.id}
                   className="mt-auto px-2.5 py-1.5 rounded-md text-xs font-medium disabled:opacity-40"
                   style={{ background: 'var(--accent)', color: '#fff' }}
                 >
-                  {p.questions.length === 0 ? 'No questions' : 'Take test →'}
+                  {p.questionCount === 0 ? 'No questions' : loadingPaperId === p.id ? 'Loading…' : 'Take test →'}
                 </button>
               </div>
             ))}
@@ -318,31 +388,24 @@ function Library({ sittings, onTakeTest }: { sittings: Sitting[]; onTakeTest: (p
 }
 
 // ---- Practice: quick drill launcher ----
-function Practice({ pool, onStartTest }: { pool: McqBankQuestion[]; onStartTest: () => void }) {
+function Practice({ total, loading, onStartTest }: { total: number; loading: boolean; onStartTest: () => void }) {
   return (
     <div className="max-w-md mx-auto text-center rounded-xl p-8" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
       <div className="text-3xl mb-2">✍️</div>
-      <p className="font-medium mb-1">{pool.length} questions match your filters</p>
+      <p className="font-medium mb-1">{total} question{total === 1 ? '' : 's'} match your filters</p>
       <p className="text-sm mb-4" style={{ color: 'var(--text-secondary)' }}>
-        Start a {Math.min(25, pool.length)}-question practice test drawn from this pool, timed and scored like the real thing.
+        Start a {Math.min(25, total)}-question practice test drawn from this pool, timed and scored like the real thing.
       </p>
       <button
         onClick={onStartTest}
-        disabled={pool.length === 0}
+        disabled={total === 0 || loading}
         className="px-5 py-2.5 rounded-md text-sm font-medium disabled:opacity-40"
         style={{ background: 'var(--accent)', color: '#fff' }}
       >
-        Start practice test
+        {loading ? 'Loading…' : 'Start practice test'}
       </button>
     </div>
   );
-}
-
-// ---- Browser: full-page searchable table ----
-function Browser({
-  questions, paperById, corrections,
-}: { questions: McqBankQuestion[]; paperById: Map<string, ExamPaper>; corrections: Record<string, Correction> }) {
-  return <QuestionsTable questions={questions} paperById={paperById} corrections={corrections} />;
 }
 
 // ---- History: past test scores + per-target best ----
@@ -380,8 +443,9 @@ function Shell({ theme, toggleTheme, hasDesktopChrome, children }: {
 }) {
   return (
     <div className="h-full flex flex-col" style={{ background: 'var(--bg-app)', color: 'var(--text-primary)' }}>
+      {/* Hidden at desktop widths — AppHeader already covers the title there. */}
       <header
-        className="safe-top h-12 shrink-0 border-b flex items-center justify-between px-5 gap-3"
+        className="lg:hidden safe-top h-12 shrink-0 border-b flex items-center justify-between px-5 gap-3"
         style={{ borderColor: 'var(--border)', background: 'var(--bg-panel)' }}
       >
         <div className="flex items-center gap-3 min-w-0">

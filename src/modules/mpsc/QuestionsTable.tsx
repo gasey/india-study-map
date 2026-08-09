@@ -1,87 +1,39 @@
-import { Fragment, useMemo, useState } from 'react';
-import type { ExamPaper, McqBankQuestion } from '@/data/banks/types';
-import type { Correction } from '@/lib/mpscApi';
+import { Fragment, useState } from 'react';
+import type { BankQuestion, ExamPaper } from '@/data/banks/types';
+import type { BankQuestionQuery, Correction } from '@/lib/mpscApi';
 import { BANK_ID } from './useMpscData';
 import { QuestionReviewPanel } from './QuestionReviewPanel';
 
+// Reuses the API's own sort-key type (4 values) rather than a narrower
+// local one — the table only exposes 3 of them as clickable columns
+// ('id' has no column), but accepting the same type as the URL state in
+// MpscPage means there's no separate type to keep in sync.
+type SortKey = NonNullable<BankQuestionQuery['sortBy']>;
+
 interface QuestionsTableProps {
-  questions: McqBankQuestion[];
+  questions: BankQuestion[];
   paperById: Map<string, ExamPaper>;
   corrections: Record<string, Correction>;
+  total: number;
+  sortBy: SortKey;
+  sortDir: 'asc' | 'desc';
+  onSortChange: (key: SortKey) => void;
 }
 
-type SortKey = 'question' | 'subject' | 'difficulty' | 'year';
-type SortDir = 'asc' | 'desc';
-
-export function QuestionsTable({ questions, paperById, corrections }: QuestionsTableProps) {
-  const [sort, setSort] = useState<{ key: SortKey; dir: SortDir }>({ key: 'year', dir: 'desc' });
-  const [search, setSearch] = useState('');
+export function QuestionsTable({ questions, paperById, corrections, total, sortBy, sortDir, onSortChange }: QuestionsTableProps) {
   const [expandedId, setExpandedId] = useState<string | null>(null);
 
-  const filtered = useMemo(() => {
-    let result = questions;
-
-    // Search
-    if (search.trim()) {
-      const q = search.toLowerCase();
-      result = result.filter((qu) => qu.question.toLowerCase().includes(q));
-    }
-
-    // Sort
-    return result.sort((a, b) => {
-      let aVal: string | number = '';
-      let bVal: string | number = '';
-
-      if (sort.key === 'question') {
-        aVal = a.question;
-        bVal = b.question;
-      } else if (sort.key === 'subject') {
-        aVal = a.subject;
-        bVal = b.subject;
-      } else if (sort.key === 'difficulty') {
-        const order = { easy: 0, medium: 1, hard: 2 };
-        aVal = order[a.difficulty as keyof typeof order] ?? 0;
-        bVal = order[b.difficulty as keyof typeof order] ?? 0;
-      } else if (sort.key === 'year') {
-        aVal = a.year ?? 0;
-        bVal = b.year ?? 0;
-      }
-
-      if (typeof aVal === 'string') aVal = aVal.toLowerCase();
-      if (typeof bVal === 'string') bVal = bVal.toLowerCase();
-
-      const cmp = aVal < bVal ? -1 : aVal > bVal ? 1 : 0;
-      return sort.dir === 'asc' ? cmp : -cmp;
-    });
-  }, [questions, search, sort]);
-
-  const toggleSort = (key: SortKey) => {
-    if (sort.key === key) {
-      setSort({ key, dir: sort.dir === 'asc' ? 'desc' : 'asc' });
-    } else {
-      setSort({ key, dir: 'asc' });
-    }
-  };
-
   const SortIndicator = ({ column }: { column: SortKey }) => {
-    if (sort.key !== column) return null;
-    return <span className="ml-1 text-xs">{sort.dir === 'asc' ? '↑' : '↓'}</span>;
+    if (sortBy !== column) return null;
+    return <span className="ml-1 text-xs">{sortDir === 'asc' ? '↑' : '↓'}</span>;
   };
 
   return (
     <div className="flex flex-col h-full gap-3 p-4">
-      {/* Search */}
-      <input
-        type="text"
-        placeholder="Search questions..."
-        value={search}
-        onChange={(e) => setSearch(e.target.value)}
-        className="px-3 py-2 border rounded text-sm dark:bg-slate-800 dark:border-slate-600"
-      />
-
-      {/* Results count */}
+      {/* Results count — reflects the server-side total for the current
+          filter combination, not just this one page's row count. */}
       <div className="text-xs text-gray-600 dark:text-gray-400">
-        {filtered.length} of {questions.length} questions
+        {total} question{total === 1 ? '' : 's'} match your filters
       </div>
 
       {/* Table */}
@@ -89,26 +41,26 @@ export function QuestionsTable({ questions, paperById, corrections }: QuestionsT
         <table className="w-full text-sm border-collapse">
           <thead className="sticky top-0 bg-gray-50 dark:bg-slate-800 border-b dark:border-slate-700">
             <tr>
-              <th className="px-3 py-2 text-left font-semibold cursor-pointer hover:bg-gray-100 dark:hover:bg-slate-700" onClick={() => toggleSort('question')}>
+              <th className="px-3 py-2 text-left font-semibold cursor-pointer hover:bg-gray-100 dark:hover:bg-slate-700" onClick={() => onSortChange('question')}>
                 Question <SortIndicator column="question" />
               </th>
               <th className="px-3 py-2 text-left font-semibold w-32">
                 Post
               </th>
-              <th className="px-3 py-2 text-left font-semibold cursor-pointer hover:bg-gray-100 dark:hover:bg-slate-700 w-20" onClick={() => toggleSort('subject')}>
-                Subject <SortIndicator column="subject" />
+              <th className="px-3 py-2 text-left font-semibold w-20">
+                Subject
               </th>
-              <th className="px-3 py-2 text-left font-semibold cursor-pointer hover:bg-gray-100 dark:hover:bg-slate-700 w-24" onClick={() => toggleSort('difficulty')}>
+              <th className="px-3 py-2 text-left font-semibold cursor-pointer hover:bg-gray-100 dark:hover:bg-slate-700 w-24" onClick={() => onSortChange('difficulty')}>
                 Level <SortIndicator column="difficulty" />
               </th>
-              <th className="px-3 py-2 text-left font-semibold cursor-pointer hover:bg-gray-100 dark:hover:bg-slate-700 w-16" onClick={() => toggleSort('year')}>
+              <th className="px-3 py-2 text-left font-semibold cursor-pointer hover:bg-gray-100 dark:hover:bg-slate-700 w-16" onClick={() => onSortChange('year')}>
                 Year <SortIndicator column="year" />
               </th>
               <th className="px-3 py-2 text-center w-20">Action</th>
             </tr>
           </thead>
           <tbody>
-            {filtered.map((q) => {
+            {questions.map((q) => {
               const paper = q.paperId ? paperById.get(q.paperId) : undefined;
               const correction = corrections[q.id];
               const isOpen = expandedId === q.id;
@@ -158,7 +110,7 @@ export function QuestionsTable({ questions, paperById, corrections }: QuestionsT
                   {isOpen && (
                     <tr className="border-b dark:border-slate-700">
                       <td colSpan={6} className="px-3 py-2 bg-gray-50 dark:bg-slate-900">
-                        <QuestionReviewPanel bankId={BANK_ID} questionId={q.id} options={q.options} />
+                        <QuestionReviewPanel bankId={BANK_ID} questionId={q.id} options={q.type === 'descriptive' ? undefined : q.options} />
                       </td>
                     </tr>
                   )}

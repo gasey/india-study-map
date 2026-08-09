@@ -1,96 +1,51 @@
-import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { useAuthStore } from '@/lib/authStore';
+import { hasCap, useAuthStore } from '@/lib/authStore';
+import { IC, IconSvg } from './icons';
 
-const ADMIN_LINKS = [
-  { to: '/state-tax-officer?tab=admin', label: 'State Tax Officer admin' },
-  { to: '/mpsc?tab=admin', label: 'MPSC Old Questions admin' },
-];
+/** No live "pending queue" count exists anywhere in this app yet — the
+ *  badge slot is rendered per spec (15px --bad pill, top-right) but stays
+ *  hidden until a real queue-count endpoint exists.
+ *  Do not fabricate a count from unrelated local data. */
+const PENDING_COUNT = 0;
 
-/** Global admin shortcut — only rendered for logged-in admins. Each bank's
- *  review console still lives as a tab inside its own page (not a separate
- *  route), so this just deep-links to that tab via ?tab=admin. */
-export function AdminNavMenu({ placement }: { placement: 'rail' | 'bar' | 'bottom' }) {
+/** Global admin shortcut — only rendered for logged-in admins. Used to
+ *  deep-link into a dropdown of two bank-specific `?tab=admin` pages
+ *  before Phase 6a; now a single direct link, since the admin console is
+ *  one standalone bank-agnostic route, not a tab duplicated per bank. */
+export function AdminNavMenu({ placement }: { placement: 'rail' | 'bottom' }) {
   const { user } = useAuthStore();
-  const [open, setOpen] = useState(false);
-  const ref = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
-    const onDoc = (e: MouseEvent) => {
-      if (ref.current && !ref.current.contains(e.target as Node)) setOpen(false);
-    };
-    document.addEventListener('mousedown', onDoc);
-    return () => document.removeEventListener('mousedown', onDoc);
-  }, []);
+  // admin.stats is rank-5 (admin/owner only) — same bar the old
+  // role === 'admin' check drew, now derived from the backend's
+  // capability list instead of a hardcoded role string.
+  if (!hasCap(user, 'admin.stats')) return null;
 
-  if (user?.role !== 'admin') return null;
-
-  const trigger =
-    placement === 'bar' ? (
-      <button
-        onClick={() => setOpen((o) => !o)}
-        className="text-[13px] px-3 py-1.5 rounded-lg transition-colors flex items-center gap-1"
-        style={{ color: 'var(--text-secondary)' }}
-        aria-haspopup="menu"
-        aria-expanded={open}
-      >
-        🛡️ Admin
-        <span style={{ fontSize: 10 }}>▾</span>
-      </button>
-    ) : placement === 'bottom' ? (
-      <button
-        onClick={() => setOpen((o) => !o)}
-        className="flex-1 flex flex-col items-center justify-center gap-0.5 py-1.5"
-        style={{ color: 'var(--text-secondary)' }}
-        aria-haspopup="menu"
-        aria-expanded={open}
-      >
-        <span style={{ fontSize: 18, lineHeight: 1 }}>🛡️</span>
+  if (placement === 'bottom') {
+    return (
+      <Link to="/admin" className="flex-1 flex flex-col items-center justify-center gap-0.5 py-1.5 relative" style={{ color: 'var(--text-secondary)' }}>
+        <IconSvg d={IC.admin} size={18} />
         <span className="text-[10px] font-medium">Admin</span>
-      </button>
-    ) : (
-      <button
-        onClick={() => setOpen((o) => !o)}
-        className="w-14 py-2 rounded-lg flex flex-col items-center gap-1 transition-colors"
-        style={{ color: 'var(--text-secondary)' }}
-        aria-haspopup="menu"
-        aria-expanded={open}
-      >
-        <span style={{ fontSize: 18, lineHeight: 1 }}>🛡️</span>
-        <span className="text-[9px] tracking-wide">Admin</span>
-      </button>
+        {PENDING_COUNT > 0 && <Badge count={PENDING_COUNT} />}
+      </Link>
     );
-
-  const popoverClass =
-    placement === 'rail'
-      ? 'absolute bottom-0 left-full ml-2 w-64'
-      : placement === 'bottom'
-        ? 'fixed inset-x-3 bottom-[68px]'
-        : 'absolute left-0 mt-1.5 w-64';
+  }
 
   return (
-    <div ref={ref} className={placement === 'bottom' ? 'flex-1 relative' : 'relative'}>
-      {trigger}
-      {open && (
-        <div
-          role="menu"
-          className={`${popoverClass} rounded-lg shadow-lg z-[1200] overflow-hidden`}
-          style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}
-        >
-          {ADMIN_LINKS.map((l) => (
-            <Link
-              key={l.to}
-              to={l.to}
-              onClick={() => setOpen(false)}
-              role="menuitem"
-              className="block px-3 py-2.5 text-sm hover:bg-[var(--bg-panel-elev)] transition-colors"
-              style={{ color: 'var(--text-primary)' }}
-            >
-              {l.label}
-            </Link>
-          ))}
-        </div>
-      )}
-    </div>
+    <Link to="/admin" className="w-14 py-2 rounded-lg flex flex-col items-center gap-1 transition-colors relative" style={{ color: 'var(--text-secondary)' }}>
+      <IconSvg d={IC.admin} />
+      <span className="text-[9px] tracking-wide">Admin</span>
+      {PENDING_COUNT > 0 && <Badge count={PENDING_COUNT} />}
+    </Link>
+  );
+}
+
+function Badge({ count }: { count: number }) {
+  return (
+    <span
+      className="absolute top-0 right-1.5 min-w-[15px] h-[15px] px-[3px] rounded-full flex items-center justify-center text-[9px] font-medium"
+      style={{ background: 'var(--bad, #a33232)', color: '#fff' }}
+    >
+      {count}
+    </span>
   );
 }

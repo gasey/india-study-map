@@ -1,3 +1,5 @@
+import type { BankQuestion, ExamPaper, McqBankQuestion } from '@/data/banks/types';
+
 // ============================================
 // mpsc-api client — the shiksha-dev droplet's FastAPI service.
 // Covers: auth, question reports (complaints), admin-authored
@@ -17,8 +19,10 @@ const API_BASE = 'https://api.map.hawayu.in';
 export interface ApiUser {
   id: number;
   username: string;
-  role: 'user' | 'admin';
+  role: 'learner' | 'moderator' | 'reviewer' | 'editor' | 'admin' | 'owner';
   displayName: string | null;
+  /** Only present on the /api/auth/me response, not /api/auth/login's. */
+  capabilities?: string[];
 }
 
 export interface QuestionReport {
@@ -145,6 +149,135 @@ async function request<T>(path: string, options: RequestInit = {}): Promise<T> {
   return res.json();
 }
 
+export function buildParams(f: object): string {
+  const params = new URLSearchParams();
+  for (const [key, value] of Object.entries(f)) {
+    if (value === undefined || value === '') continue;
+    if (Array.isArray(value)) value.forEach((v) => params.append(key, String(v)));
+    else params.set(key, String(value));
+  }
+  const q = params.toString();
+  return q ? `?${q}` : '';
+}
+
+// ---- MPSC Old Questions bank: server-side filtering/pagination (Phase 4).
+// Legacy /api/mpsc/bank (the full 76K-question dump) is intentionally not
+// wrapped here anymore — see useMpscData.ts for why.
+export interface BankQuestionFilters {
+  examType?: string[];
+  post?: string[];
+  year?: string[];
+  paperId?: string[];
+  subject?: string[];
+  difficulty?: string[];
+  type?: string[];
+  search?: string;
+}
+
+export interface BankQuestionQuery extends BankQuestionFilters {
+  sortBy?: 'year' | 'difficulty' | 'question' | 'id';
+  sortDir?: 'asc' | 'desc';
+  limit?: number;
+  offset?: number;
+}
+
+export function listBankQuestions(query: BankQuestionQuery) {
+  return request<{ total: number; questions: BankQuestion[] }>(`/api/mpsc/questions${buildParams(query)}`);
+}
+export function getBankFacets(filters: BankQuestionFilters) {
+  return request<Record<string, Record<string, number>>>(`/api/mpsc/questions/facets${buildParams(filters)}`);
+}
+export function sampleBankQuestions(filters: BankQuestionFilters, count = 25) {
+  return request<{ questions: McqBankQuestion[] }>(`/api/mpsc/questions/sample${buildParams({ ...filters, count })}`);
+}
+export function getBankPapers() {
+  return request<{ papers: (ExamPaper & { questionCount: number })[] }>('/api/mpsc/papers');
+}
+export function getBankQuestion(id: string) {
+  return request<BankQuestion>(`/api/mpsc/questions/${encodeURIComponent(id)}`);
+}
+
+// ---- Papers tree (Phase 5): exam type -> year -> sitting -> papers.
+// Supersedes the client-side sittingKey()/useBankPapers() grouping.
+export interface PapersTreeSitting {
+  key: string;
+  examType: string;
+  examName: string;
+  post: string | null;
+  year: number | null;
+  label: string;
+  papers: (ExamPaper & { questionCount: number })[];
+  totalQuestions: number;
+}
+export interface PapersTreeYear {
+  year: number | null;
+  sittings: PapersTreeSitting[];
+}
+export interface PapersTreeExamType {
+  examType: string;
+  years: PapersTreeYear[];
+}
+export interface PapersTree {
+  examTypes: PapersTreeExamType[];
+}
+export function getPapersTree() {
+  return request<PapersTree>('/api/papers/tree/');
+}
+
+// ---- TestDefinition (Phase 5): a saved filter, not a materialized
+// question-id list — "filter" is the same shape /api/mpsc/questions takes.
+export type TestKind = 'real_paper' | 'full_sitting' | 'sectional' | 'adaptive' | 'sprint';
+export interface TestDefinition {
+  id: number;
+  title: string;
+  kind: TestKind;
+  filter: BankQuestionFilters;
+  nQuestions: number;
+  durationS: number;
+  negative: number;
+  shuffle: boolean;
+  isPublished: boolean;
+  createdAt: string;
+  updatedAt: string | null;
+}
+export interface TestDefinitionInput {
+  title: string;
+  kind: TestKind;
+  filter: BankQuestionFilters;
+  nQuestions: number;
+  durationS: number;
+  negative?: number;
+  shuffle?: boolean;
+  isPublished?: boolean;
+}
+function testDefinitionToBody(input: Partial<TestDefinitionInput>) {
+  return JSON.stringify({
+    ...(input.title !== undefined && { title: input.title }),
+    ...(input.kind !== undefined && { kind: input.kind }),
+    ...(input.filter !== undefined && { filter: input.filter }),
+    ...(input.nQuestions !== undefined && { n_questions: input.nQuestions }),
+    ...(input.durationS !== undefined && { duration_s: input.durationS }),
+    ...(input.negative !== undefined && { negative: input.negative }),
+    ...(input.shuffle !== undefined && { shuffle: input.shuffle }),
+    ...(input.isPublished !== undefined && { is_published: input.isPublished }),
+  });
+}
+export function getTests() {
+  return request<{ tests: TestDefinition[] }>('/api/tests/');
+}
+export function getAdminTests() {
+  return request<{ tests: TestDefinition[] }>('/api/admin/tests/');
+}
+export function createTest(input: TestDefinitionInput) {
+  return request<TestDefinition>('/api/admin/tests/', { method: 'POST', body: testDefinitionToBody(input) });
+}
+export function updateTest(id: number, input: Partial<TestDefinitionInput>) {
+  return request<TestDefinition>(`/api/admin/tests/${id}`, { method: 'PATCH', body: testDefinitionToBody(input) });
+}
+export function deleteTest(id: number) {
+  return request<{ status: string }>(`/api/admin/tests/${id}`, { method: 'DELETE' });
+}
+
 // ---- Auth ----
 export function login(username: string, password: string) {
   return request<{ token: string; user: ApiUser }>('/api/auth/login', {
@@ -228,17 +361,6 @@ export interface AdminReportsFilter {
   offset?: number;
 }
 
-function buildParams(f: object): string {
-  const params = new URLSearchParams();
-  for (const [key, value] of Object.entries(f)) {
-    if (value === undefined || value === '') continue;
-    if (Array.isArray(value)) value.forEach((v) => params.append(key, String(v)));
-    else params.set(key, String(value));
-  }
-  const q = params.toString();
-  return q ? `?${q}` : '';
-}
-
 export function adminListReports(filter: AdminReportsFilter = {}) {
   return request<{ reports: QuestionReport[] }>(`/api/admin/reports${buildParams(filter)}`);
 }
@@ -258,6 +380,12 @@ export function adminUpsertCorrection(input: {
 }
 export function adminListUsers() {
   return request<{ users: (ApiUser & { createdAt: string })[] }>('/api/admin/users');
+}
+export function adminAssignRole(userId: number, role: ApiUser['role']) {
+  return request<{ status: string; userId: number; role: string }>(`/api/admin/users/${userId}/role`, {
+    method: 'POST',
+    body: JSON.stringify({ role }),
+  });
 }
 export function adminListAuditLog(filter: {
   bankId?: string; questionId?: string; actorId?: number; action?: string; fromDate?: string; toDate?: string;

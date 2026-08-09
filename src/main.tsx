@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { Root } from './Root';
 import 'leaflet/dist/leaflet.css';
+import './styles/tokens.css';
+import './styles/motion.css';
 import './styles/globals.css';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(

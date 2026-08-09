@@ -107,9 +107,11 @@ export function PyqPage() {
 
   return (
     <div className="h-full flex flex-col" style={{ background: 'var(--bg-app)', color: 'var(--text-primary)' }}>
-      {/* Header */}
+      {/* Header — hidden at desktop widths: AppHeader (the persistent
+          shell header) already covers the title there, and this page's
+          own back-link/switcher/theme-toggle are already desktop-hidden. */}
       <header
-        className="safe-top h-12 shrink-0 border-b flex items-center justify-between px-5 gap-3"
+        className="lg:hidden safe-top h-12 shrink-0 border-b flex items-center justify-between px-5 gap-3"
         style={{ borderColor: 'var(--border)', background: 'var(--bg-panel)' }}
       >
         <div className="flex items-center gap-3 min-w-0">
@@ -161,7 +163,7 @@ export function PyqPage() {
           ⟳ Shuffle
         </button>
         <div className="ml-auto text-xs" style={{ color: 'var(--text-secondary)' }}>
-          Session: <span style={{ color: '#2e7d5b' }}>{session.right} ✓</span> · <span style={{ color: '#a5504a' }}>{session.wrong} ✗</span>
+          {mastered}/{bank.questions.length} mastered · Session: <span style={{ color: '#2e7d5b' }}>{session.right} ✓</span> · <span style={{ color: '#a5504a' }}>{session.wrong} ✗</span>
         </div>
       </div>
 

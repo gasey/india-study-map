@@ -1,4 +1,3 @@
-import { QuestionsDisplay } from './QuestionsDisplay';
 import { Link } from 'react-router-dom';
 import { useApp } from '@/lib/store';
 import { ModuleSwitcher } from '@/modules/ModuleSwitcher';
@@ -28,21 +27,26 @@ export default function StateTaxOfficerPage() {
 
   return (
     <div className="h-full flex flex-col" style={{ background: 'var(--bg-app)' }}>
+      {/* Title/subtitle dropped at desktop widths — AppHeader covers the
+          title there. LoginPanel has no equivalent anywhere else in the
+          shell, so this bar stays (unlike other module pages' headers). */}
       <div className="shrink-0 flex items-center gap-3 px-5 py-3 border-b" style={{ borderColor: 'var(--border)' }}>
         <HomeBackLink hasDesktopChrome={hasDesktopChrome} />
         {!hasDesktopChrome && <ModuleSwitcher />}
-        <span className="text-lg">🎯</span>
-        <div className="min-w-0">
-          <div className="text-sm font-semibold truncate">State Tax Officer · Group B Gazetted</div>
-          <div className="text-xs truncate" style={{ color: 'var(--text-secondary)' }}>
-            Comprehensive prep — primers, question bank, mock tests
+        <div className="min-w-0 lg:hidden flex items-center gap-2">
+          <span className="text-lg">🎯</span>
+          <div className="min-w-0">
+            <div className="text-sm font-semibold truncate">State Tax Officer · Group B Gazetted</div>
+            <div className="text-xs truncate" style={{ color: 'var(--text-secondary)' }}>
+              Comprehensive prep — primers, question bank, mock tests
+            </div>
           </div>
         </div>
         <div className="ml-auto flex items-center gap-2">
           <LoginPanel />
           <button
             onClick={toggleTheme}
-            className="px-2.5 py-1 rounded-md text-sm hover:bg-[var(--bg-panel-elev)]"
+            className={`${hasDesktopChrome ? 'lg:hidden' : ''} px-2.5 py-1 rounded-md text-sm hover:bg-[var(--bg-panel-elev)]`}
             style={{ border: '1px solid var(--border)' }}
           >
             {theme === 'dark' ? '☀️' : '🌙'}

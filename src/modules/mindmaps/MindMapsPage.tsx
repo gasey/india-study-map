@@ -102,11 +102,14 @@ export function MindMapsPage() {
 
   return (
     <div className="h-full flex flex-col" style={{ background: 'var(--bg-app)', color: 'var(--text-primary)' }}>
+      {/* Stays visible at desktop widths — the mind-map <select> below has
+          no equivalent elsewhere; only the redundant title is dropped
+          (AppHeader covers that there). */}
       <header className="safe-top h-12 shrink-0 border-b flex items-center justify-between px-5 gap-3" style={{ borderColor: 'var(--border)', background: 'var(--bg-panel)' }}>
         <div className="flex items-center gap-3 min-w-0">
           <HomeBackLink hasDesktopChrome={hasDesktopChrome} />
           <span className={hasDesktopChrome ? 'lg:hidden' : ''}><ModuleSwitcher /></span>
-          <span className="label-eyebrow hidden md:inline">Mind Maps</span>
+          <span className={`label-eyebrow hidden md:inline ${hasDesktopChrome ? 'lg:hidden' : ''}`}>Mind Maps</span>
         </div>
         <div className="flex items-center gap-2">
           <select value={mapId} onChange={(e) => resetFor(e.target.value)} className="px-2 py-1 rounded-md text-sm" style={selectStyle}>

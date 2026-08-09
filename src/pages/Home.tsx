@@ -2,7 +2,8 @@ import { Link } from 'react-router-dom';
 import { useApp } from '@/lib/store';
 import { modules, type ModuleCategory } from '@/modules/registry';
 import { getChapter } from '@/data';
-import { moduleProgress } from '@/lib/stats';
+import { moduleProgress, quizAccuracy, studyStreak } from '@/lib/stats';
+import { weakTopics } from '@/lib/weakTopics';
 import { IC, IconSvg } from '@/components/shell/icons';
 
 const MODULE_ICON: Record<string, string> = {
@@ -94,6 +95,72 @@ function ResumeBanner() {
   );
 }
 
+/** Streak + 30-day accuracy — real numbers from studyStreak()/quizAccuracy(),
+ *  which already existed in lib/stats.ts and just weren't called from here.
+ *  No "weekly rank" tile: that needs seeing other users' data, a genuinely
+ *  new backend feature the user deferred (see the Home-redesign plan). */
+function StatStrip() {
+  const { progress, bankProgress } = useApp();
+  const streak = studyStreak(progress, bankProgress);
+  const accuracy = quizAccuracy(progress, bankProgress, 30);
+  if (streak === 0 && accuracy === null) return null;
+  return (
+    <div className="grid grid-cols-2 gap-3">
+      <div className="rounded-lg px-4 py-3" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+        <div className="text-2xl font-semibold" style={{ color: 'var(--text-primary)' }}>{streak}</div>
+        <div className="text-[11px] tracking-wider uppercase" style={{ color: 'var(--text-secondary)' }}>Day streak</div>
+      </div>
+      <div className="rounded-lg px-4 py-3" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+        <div className="text-2xl font-semibold" style={{ color: 'var(--text-primary)' }}>{accuracy ?? '—'}{accuracy !== null && '%'}</div>
+        <div className="text-[11px] tracking-wider uppercase" style={{ color: 'var(--text-secondary)' }}>30-day accuracy</div>
+      </div>
+    </div>
+  );
+}
+
+/** Real per-topic accuracy from actual attempt history — see lib/weakTopics.ts.
+ *  Nothing here is generated copy; a topic only shows once it has enough
+ *  attempts to mean something (MIN_ATTEMPTS in weakTopics.ts). */
+function WeakTopicsList() {
+  const { progress, bankProgress } = useApp();
+  const topics = weakTopics(progress, bankProgress);
+  if (topics.length === 0) return null;
+  return (
+    <div>
+      <SectionLabel>Weakest topics</SectionLabel>
+      <div className="flex flex-col gap-2">
+        {topics.map((t) => (
+          <div key={t.key} className="rounded-lg px-4 py-2.5 flex items-center gap-3" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+            <span className="text-sm flex-1 min-w-0 truncate" style={{ color: 'var(--text-primary)' }}>{t.label}</span>
+            <span className="text-xs" style={{ color: 'var(--text-secondary)' }}>{t.attempts} attempts</span>
+            <span className="text-sm font-semibold w-12 text-right" style={{ color: t.accuracy < 50 ? 'var(--bad)' : 'var(--warn)' }}>{t.accuracy}%</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+/** Second "jump back in" surface alongside the existing map ResumeBanner —
+ *  real, already-persisted arena state (highScore/coins), not invented. */
+function GamesResumeCard() {
+  const arena = useApp((s) => s.arena);
+  if (arena.runs === 0) return null;
+  return (
+    <Link
+      to="/games"
+      className="rounded-lg px-6 py-5 flex items-center gap-8"
+      style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}
+    >
+      <div className="flex-1 min-w-0">
+        <div className="text-[11px] tracking-wider uppercase font-medium mb-1.5" style={{ color: 'var(--text-secondary)' }}>Jump back in · Gauntlet Run</div>
+        <div className="text-lg font-medium" style={{ color: 'var(--text-primary)' }}>Best {arena.highScore.toLocaleString()} · 🪙 {arena.coins}</div>
+      </div>
+      <span className="px-5 py-2 rounded-lg text-sm font-medium shrink-0" style={{ border: '1px solid var(--accent)', color: 'var(--accent)' }}>Play</span>
+    </Link>
+  );
+}
+
 function ModuleGroupedCards() {
   const { progress, bankProgress, deckProgress } = useApp();
   const prog = moduleProgress(progress, bankProgress, deckProgress);
@@ -134,7 +201,10 @@ export function Home() {
     <div className="h-full overflow-y-auto scroll-panel">
       <div className="max-w-[1000px] mx-auto px-8 py-9 flex flex-col gap-6">
         <GreetingHeader />
+        <StatStrip />
         <ResumeBanner />
+        <GamesResumeCard />
+        <WeakTopicsList />
         <ModuleGroupedCards />
       </div>
     </div>

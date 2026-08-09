@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { isMcqQuestion, type BankQuestion, type ExamPaper } from '@/data/banks/types';
 import type { Correction } from '@/lib/mpscApi';
 import { useApp } from '@/lib/store';
@@ -55,6 +55,16 @@ interface QuestionCardProps {
 
 export function QuestionCard({ q, paper, correction, showAnswer }: QuestionCardProps) {
   const [reviewOpen, setReviewOpen] = useState(false);
+  // Per-card reveal, independent of the list-wide "Show answers" toggle —
+  // click one question to check just that one without exposing the whole
+  // filtered set. Resets to closed whenever the global toggle flips off, so
+  // turning "Show answers" off actually hides everything again.
+  const [revealed, setRevealed] = useState(false);
+  const answerVisible = showAnswer || revealed;
+  // "Hide answers" (the list-wide toggle going off) must actually hide
+  // everything again — without this, a card someone had individually
+  // revealed would stay revealed and the toggle would lie.
+  useEffect(() => { if (!showAnswer) setRevealed(false); }, [showAnswer]);
   const bankProgress = useApp((s) => s.bankProgress);
 
   const subjectHue = hueForSubject(q.subject);
@@ -118,9 +128,16 @@ export function QuestionCard({ q, paper, correction, showAnswer }: QuestionCardP
       </div>
 
       {mcq && options.length > 0 && (
-        <div className="grid sm:grid-cols-2 gap-[7px] mb-2.5">
+        <div
+          className="grid sm:grid-cols-2 gap-[7px] mb-2.5"
+          // Clicking anywhere in the options grid reveals this card's answer
+          // (a no-op once already visible) — the explicit footer button below
+          // does the same thing for anyone who'd rather not click an option.
+          onClick={() => { if (!answerVisible) setRevealed(true); }}
+          style={{ cursor: answerVisible ? 'default' : 'pointer' }}
+        >
           {options.map((text, i) => {
-            const correct = showAnswer && i === answerIndex;
+            const correct = answerVisible && i === answerIndex;
             return (
               <div
                 key={i}
@@ -152,6 +169,11 @@ export function QuestionCard({ q, paper, correction, showAnswer }: QuestionCardP
         <button onClick={() => setReviewOpen((o) => !o)} className="text-xs" style={{ color: 'var(--text-secondary)' }}>
           📝 Note
         </button>
+        {mcq && options.length > 0 && !showAnswer && (
+          <button onClick={() => setRevealed((r) => !r)} className="text-xs font-medium" style={{ color: 'var(--accent)' }}>
+            {revealed ? 'Hide answer' : 'Reveal answer'}
+          </button>
+        )}
         {stat && <span className="ml-auto font-mono text-[10px]" style={{ color: 'var(--text-muted)' }}>{stat}</span>}
       </div>
 

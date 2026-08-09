@@ -18,13 +18,33 @@ const GROUPS: { key: StaticSetGroup; label: string }[] = [
   { key: 'quick_practice', label: 'Quick practice (one-offs)' },
 ];
 
+type Sort = 'newest' | 'az' | 'most';
+const SORTS: { key: Sort; label: string }[] = [
+  { key: 'newest', label: 'Newest first' },
+  { key: 'az', label: 'A–Z' },
+  { key: 'most', label: 'Most questions' },
+];
+
+// Sorts within each category group rather than flattening them away — the
+// grouping is real, useful structure (Phase 5c), not something to discard
+// just because the design's own grid happens to be flat.
+function sortSets(sets: StaticSet[], sort: Sort): StaticSet[] {
+  const copy = [...sets];
+  if (sort === 'az') return copy.sort((a, b) => a.title.localeCompare(b.title));
+  if (sort === 'most') return copy.sort((a, b) => (b.nItems ?? -1) - (a.nItems ?? -1));
+  return copy.sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
+}
+
 export function LibraryLandingPage() {
   const navigate = useNavigate();
   const [sets, setSets] = useState<StaticSet[] | null>(null);
+  const [sort, setSort] = useState<Sort>('newest');
 
   useEffect(() => {
     api.getStaticSets().then((r) => setSets(r.sets)).catch(() => setSets([]));
   }, []);
+
+  const totalQuestions = sets?.reduce((sum, s) => sum + (s.nItems ?? 0), 0) ?? 0;
 
   return (
     <div className="h-full overflow-y-auto scroll-panel">
@@ -54,8 +74,25 @@ export function LibraryLandingPage() {
 
         {sets === null && <div className="text-sm" style={{ color: 'var(--text-secondary)' }}>Loading…</div>}
 
+        {sets !== null && sets.length > 0 && (
+          <div className="flex items-center gap-3 flex-wrap">
+            <span className="text-xs font-mono" style={{ color: 'var(--text-secondary)' }}>
+              {sets.length} set{sets.length === 1 ? '' : 's'}
+              {totalQuestions > 0 && <> · {totalQuestions.toLocaleString()} questions</>}
+            </span>
+            <select
+              value={sort}
+              onChange={(e) => setSort(e.target.value as Sort)}
+              className="ml-auto text-xs px-2 py-1 rounded-md"
+              style={{ background: 'var(--bg-panel-elev)', border: '1px solid var(--border)', color: 'var(--text-primary)' }}
+            >
+              {SORTS.map((s) => <option key={s.key} value={s.key}>{s.label}</option>)}
+            </select>
+          </div>
+        )}
+
         {sets !== null && GROUPS.map((group) => {
-          const groupSets = sets.filter((s) => s.group === group.key);
+          const groupSets = sortSets(sets.filter((s) => s.group === group.key), sort);
           if (groupSets.length === 0) return null;
           return (
             <div key={group.key}>

@@ -10,6 +10,18 @@ export const mixSurface = (color: string, pct: number) => `color-mix(in srgb, ${
 // inventing a second palette.
 const HUES = ['--green', '--blue', '--brown', '--gold', '--indigo', '--forest', '--plum'] as const;
 
+/** Explicit per-subject hue. Shared by TestPlayer and the bank's QuestionCard
+ *  so a subject is the same colour everywhere it appears. */
+const SUBJECT_HUE: Record<string, string> = {
+  geography: 'var(--green)', polity: 'var(--blue)', history: 'var(--brown)',
+  economics: 'var(--gold)', reasoning: 'var(--indigo)', science: 'var(--forest)',
+  english: 'var(--plum)', gk: 'var(--accent)', 'current-affairs': 'var(--info)',
+};
+
+export function hueForSubject(subject: string): string {
+  return SUBJECT_HUE[subject] ?? 'var(--text-secondary)';
+}
+
 export function hueForTopic(topic: string): string {
   let hash = 0;
   for (let i = 0; i < topic.length; i++) hash = (hash * 31 + topic.charCodeAt(i)) >>> 0;

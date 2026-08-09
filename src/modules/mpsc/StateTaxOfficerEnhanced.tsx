@@ -4,6 +4,7 @@ import { allPrimers, PRIMER_CATEGORIES, UNIT_LABELS } from '@/data/banks';
 import { isMcqQuestion } from '@/data/banks/types';
 import type { BankQuestion, DescriptiveBankQuestion, ExamPaper, McqBankQuestion } from '@/data/banks/types';
 import { useAuthStore } from '@/lib/authStore';
+import { renderEmphasis } from '@/lib/renderEmphasis';
 import * as api from '@/lib/mpscApi';
 import type { Correction } from '@/lib/mpscApi';
 import { QuestionReviewPanel } from './QuestionReviewPanel';
@@ -43,22 +44,9 @@ function subjectClass(unitOrTopic: string | undefined): string {
   return '';
 }
 
-/**
- * Renders `__word__` as an underlined span — the fix for questions like
- * "identify the part of speech of the underlined word", where the original
- * exam's underline formatting was lost during OCR extraction and the admin
- * correction form lets someone re-mark the target word with __word__.
- *
- * The delimited run must contain NO underscores of its own. Fill-in-the-blank
- * stems ("divided __________ the two brothers") are written as a long run of
- * underscores, and a lazy `__(.+?)__` happily matches inside one — eating the
- * blank and leaving a stray underlined "_". 100 questions in this bank are
- * fill-in-the-blank, so that is the common case, not the edge case.
- */
-function renderEmphasis(text: string) {
-  const parts = text.split(/__([^_]+)__/g);
-  return parts.map((part, i) => (i % 2 === 1 ? <u key={i}>{part}</u> : part));
-}
+// renderEmphasis moved to lib/renderEmphasis.tsx — the MPSC bank's
+// QuestionCard renders corrected stems too, and that regex's
+// fill-in-the-blank gotcha is not worth having two copies of.
 
 /**
  * The shared "Direction (Question Nos. 11-20): ..." header, or the table a run

@@ -31,7 +31,6 @@ const QuizPlayerPage = lazy(() => import('./modules/current-affairs/QuizPlayerPa
 const ArenaPage = lazy(() => import('./modules/arena/ArenaPage'));
 const MpscPage = lazy(() => import('./modules/mpsc/MpscPage'));
 const StateTaxOfficerPage = lazy(() => import('./modules/mpsc/StateTaxOfficerPage'));
-const QuestionBankPage = lazy(() => import('./modules/question-bank/QuestionBankPage'));
 const PapersPage = lazy(() => import('./pages/PapersPage'));
 const TestsPage = lazy(() => import('./pages/TestsPage'));
 const AdminConsolePage = lazy(() => import('./pages/AdminConsolePage'));
@@ -77,7 +76,13 @@ export function Root() {
             <Route path="/mpsc" element={<MpscPage />} />
             <Route path="/state-tax-officer" element={<StateTaxOfficerPage />} />
             <Route path="/embed/:id" element={<EmbedPage />} />
-            <Route path="/question-bank" element={<QuestionBankPage />} />
+            {/* The Question Bank IS the API-backed MPSC bank (76,093 questions,
+                server-side filtering since Phase 4) — the rail's "Q. Bank" used
+                to open a stale catalog page that predated that API and said so
+                in its own copy. /mpsc stays a working alias: Home's module card,
+                PapersPage's "Browse questions" links and Results' per-subject
+                rows all point at it. */}
+            <Route path="/question-bank" element={<MpscPage />} />
             <Route path="/recall" element={<RecallLandingPage />} />
             <Route path="/library" element={<LibraryLandingPage />} />
             <Route path="/tests" element={<TestsPage />} />

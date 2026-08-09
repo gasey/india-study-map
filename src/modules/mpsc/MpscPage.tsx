@@ -15,7 +15,7 @@ import { FilterRail } from './FilterRail';
 import { PaginationControls } from './FilterBar';
 import { TestPlayer } from './TestPlayer';
 import { loadPaper, savePaper } from './useAttemptState';
-import { QuestionsTable } from './QuestionsTable';
+import { QuestionList } from './QuestionList';
 import { HomeBackLink } from '@/components/shell/HomeBackLink';
 
 // ============================================
@@ -116,16 +116,13 @@ export function MpscPage() {
     });
   };
 
-  const setSort = (key: SortKey) => {
+  // The card list picks a sort as one (key, direction) pair from a dropdown,
+  // rather than the old table's click-a-column-header-to-toggle behaviour.
+  const setSortExplicit = (key: SortKey, dir: 'asc' | 'desc') => {
     setSearchParams((prev) => {
       const next = new URLSearchParams(prev);
-      const curBy = prev.get('sortBy') || 'year';
-      const curDir = prev.get('sortDir') || 'desc';
-      if (curBy === key) next.set('sortDir', curDir === 'asc' ? 'desc' : 'asc');
-      else {
-        next.set('sortBy', key);
-        next.set('sortDir', 'asc');
-      }
+      next.set('sortBy', key);
+      next.set('sortDir', dir);
       next.delete('offset');
       return next;
     });
@@ -301,17 +298,20 @@ export function MpscPage() {
         {tab === 'browser' && (
           <div className="flex gap-4 h-full px-5 py-5">
             <FilterRail filters={filters} onChange={setFilters} facets={facets} />
-            <div className="flex-1 min-w-0 rounded-xl" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
-              <QuestionsTable
+            <div className="flex-1 min-w-0 rounded-xl flex flex-col min-h-0" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
+              <QuestionList
                 questions={correctedPage}
                 paperById={paperById}
                 corrections={corrections}
                 total={page.total}
+                bankTotal={globalQuestionTotal}
                 sortBy={sortBy}
                 sortDir={sortDir}
-                onSortChange={setSort}
+                onSortChange={setSortExplicit}
+                onStartTest={launchPracticeTest}
+                startingTest={samplingTest}
               />
-              <div className="px-4 pb-4">
+              <div className="px-4 pb-4 shrink-0">
                 <PaginationControls offset={offset} limit={25} count={correctedPage.length} onOffsetChange={setOffset} />
               </div>
             </div>

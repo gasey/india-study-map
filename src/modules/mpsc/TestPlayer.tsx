@@ -2,6 +2,7 @@ import { useCallback, useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import type { McqBankQuestion } from '@/data/banks/types';
 import * as api from '@/lib/mpscApi';
+import { hueForSubject } from '@/lib/colorMix';
 import { useApp } from '@/lib/store';
 import { BANK_ID } from './useMpscData';
 import { useAttemptState } from './useAttemptState';
@@ -47,15 +48,9 @@ interface Props {
   onExit: () => void;
 }
 
-const SUBJECT_HUE: Record<string, string> = {
-  geography: 'var(--green)', polity: 'var(--blue)', history: 'var(--brown)',
-  economics: 'var(--gold)', reasoning: 'var(--indigo)', science: 'var(--forest)',
-  english: 'var(--plum)', gk: 'var(--accent)', 'current-affairs': 'var(--info)',
-};
-
-function hueFor(subject: string): string {
-  return SUBJECT_HUE[subject] ?? 'var(--muted)';
-}
+// Subject hues live in lib/colorMix.ts so the bank's QuestionCard and this
+// player can't drift apart on what colour a subject is.
+const hueFor = hueForSubject;
 
 function fmtClock(sec: number): string {
   const s = Math.max(0, sec);

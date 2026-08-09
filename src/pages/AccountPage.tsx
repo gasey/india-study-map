@@ -24,7 +24,11 @@ export function AccountPage() {
   const [mode, setMode] = useState<'login' | 'signup'>('login');
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
+  const [confirmPassword, setConfirmPassword] = useState('');
   const [displayName, setDisplayName] = useState('');
+
+  const confirmMismatch = mode === 'signup' && confirmPassword.length > 0 && confirmPassword !== password;
+  const signupValid = username.trim().length >= 3 && password.length >= 8 && password === confirmPassword;
 
   if (user) {
     return (
@@ -96,10 +100,17 @@ export function AccountPage() {
             Password {mode === 'signup' && <span style={{ color: 'var(--text-muted)' }}>(at least 8 characters)</span>}
             <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} className={inputCls} style={inputStyle} />
           </label>
+          {mode === 'signup' && (
+            <label className="flex flex-col gap-1 text-xs" style={{ color: 'var(--text-secondary)' }}>
+              Confirm password
+              <input type="password" value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)} className={inputCls} style={inputStyle} />
+              {confirmMismatch && <span style={{ color: 'var(--bad)' }}>Does not match the password above</span>}
+            </label>
+          )}
 
           <button
             type="submit"
-            disabled={mode === 'login' ? loggingIn : signingUp}
+            disabled={mode === 'login' ? loggingIn : signingUp || !signupValid}
             className="px-3 py-2 rounded-md text-sm font-medium disabled:opacity-60"
             style={{ background: 'var(--accent)', color: 'var(--on-accent)' }}
           >

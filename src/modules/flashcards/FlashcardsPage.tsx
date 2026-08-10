@@ -5,6 +5,7 @@ import { useApp } from '@/lib/store';
 import { ModuleSwitcher } from '@/modules/ModuleSwitcher';
 import { HomeBackLink } from '@/components/shell/HomeBackLink';
 import { useHasDesktopChrome } from '@/lib/useShellChrome';
+import { FlashcardFlip } from './FlashcardFlip';
 
 // ============================================
 // FLASHCARDS — deck-driven recall drills.
@@ -48,27 +49,8 @@ export function FlashcardsPage() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [deck, topic, hideKnown, seed, known.length]);
 
-  const [idx, setIdx] = useState(0);
-  const [flipped, setFlipped] = useState(false);
-
   const poolKey = `${deckId}|${topic}|${hideKnown}|${seed}`;
-  const [lastKey, setLastKey] = useState(poolKey);
-  if (poolKey !== lastKey) {
-    setLastKey(poolKey);
-    setIdx(0);
-    setFlipped(false);
-  }
-
-  const card = pool[Math.min(idx, pool.length - 1)];
-  const done = idx >= pool.length;
-
-  const mark = (isKnown: boolean) => {
-    if (!card) return;
-    markCard(deckId, card.id, isKnown);
-    setFlipped(false);
-    // Known cards shrink the pool via known.length dep; Review advances.
-    if (!isKnown) setIdx((i) => i + 1);
-  };
+  const [progress, setProgress] = useState({ idx: 0, total: pool.length });
 
   const selectCls = 'px-2 py-1.5 rounded-md text-sm';
   const selectStyle = { background: 'var(--bg-panel-elev)', color: 'var(--text-primary)', border: '1px solid var(--border)' } as const;
@@ -125,68 +107,22 @@ export function FlashcardsPage() {
           ⟳ Shuffle
         </button>
         <div className="ml-auto text-xs" style={{ color: 'var(--text-secondary)' }}>
-          {known.length}/{deck.cards.length} known · {pool.length === 0 ? 'no cards' : done ? 'done' : `${Math.min(idx + 1, pool.length)} / ${pool.length}`}
+          {known.length}/{deck.cards.length} known · {progress.total === 0 ? 'no cards' : progress.idx >= progress.total ? 'done' : `${progress.idx + 1} / ${progress.total}`}
         </div>
       </div>
 
       {/* Card */}
       <main className="scroll-panel flex-1 min-h-0 overflow-y-auto px-5 py-8 flex justify-center items-start">
         <div className="w-full max-w-xl">
-          {pool.length === 0 || done ? (
-            <div className="rounded-xl p-8 text-center fact-in" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
-              <div className="text-3xl mb-2">{pool.length === 0 ? '🎉' : '🏁'}</div>
-              <p className="font-medium mb-1">
-                {pool.length === 0 ? 'Everything here is marked Known.' : 'Deck run complete.'}
-              </p>
-              <p className="text-sm mb-4" style={{ color: 'var(--text-secondary)' }}>
-                Shuffle to run again, untick "Hide known" to revisit, or switch topics.
-              </p>
-              <button
-                onClick={() => setSeed((s) => s + 1)}
-                className="px-4 py-2 rounded-md text-sm font-medium"
-                style={{ background: 'var(--accent)', color: '#fff' }}
-              >
-                Run again
-              </button>
-            </div>
-          ) : (
-            <>
-              <div
-                className="flip-scene cursor-pointer select-none"
-                onClick={() => setFlipped((f) => !f)}
-                role="button"
-                aria-label={flipped ? 'Show question' : 'Show answer'}
-              >
-                <div className={`flip-inner ${flipped ? 'is-flipped' : ''}`} key={card.id}>
-                  <div className="flip-face rounded-xl p-8" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
-                    <div className="text-xs mb-3" style={{ color: 'var(--text-secondary)' }}>{card.topicLabel} · tap to flip</div>
-                    <p className="text-lg font-medium leading-relaxed">{card.front}</p>
-                  </div>
-                  <div className="flip-face flip-back rounded-xl p-8" style={{ background: 'var(--bg-panel)', border: '1px solid var(--accent)' }}>
-                    <div className="text-xs mb-3" style={{ color: 'var(--accent)' }}>Answer</div>
-                    <p className="text-lg leading-relaxed">{card.back}</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="mt-5 grid grid-cols-2 gap-3">
-                <button
-                  onClick={() => mark(false)}
-                  className="py-2.5 rounded-lg text-sm font-medium transition-opacity hover:opacity-85"
-                  style={{ border: '1px solid #a5504a', color: '#a5504a' }}
-                >
-                  ↻ Review
-                </button>
-                <button
-                  onClick={() => mark(true)}
-                  className="py-2.5 rounded-lg text-sm font-medium transition-opacity hover:opacity-85"
-                  style={{ background: '#2e7d5b', color: '#fff' }}
-                >
-                  ✓ Known
-                </button>
-              </div>
-            </>
-          )}
+          <FlashcardFlip
+            pool={pool}
+            resetKey={poolKey}
+            onProgress={(idx, total) => setProgress({ idx, total })}
+            onMark={(cardId, isKnown) => markCard(deckId, cardId, isKnown)}
+            onRunAgain={() => setSeed((s) => s + 1)}
+            emptyTitle={pool.length === 0 ? 'Everything here is marked Known.' : 'Deck run complete.'}
+            emptyBody={'Shuffle to run again, untick "Hide known" to revisit, or switch topics.'}
+          />
 
           <div className="mt-4 flex items-center justify-between text-xs" style={{ color: 'var(--text-secondary)' }}>
             <Link to="/map" className="hover:underline">← Back to Study Map</Link>

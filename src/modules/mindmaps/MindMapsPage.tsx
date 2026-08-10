@@ -5,7 +5,7 @@ import type { MindNode } from '@/data/mindmaps/types';
 import { useApp } from '@/lib/store';
 import { chapterMastery, type ChapterMastery, type MasteryState } from '@/lib/mindMapMastery';
 import { MIN_ATTEMPTS } from '@/lib/weakTopics';
-import type { SubjectId } from '@/types';
+import { SUBJECT_HUE } from '@/lib/subjectHue';
 import { ModuleSwitcher } from '@/modules/ModuleSwitcher';
 import { HomeBackLink } from '@/components/shell/HomeBackLink';
 import { useHasDesktopChrome } from '@/lib/useShellChrome';
@@ -31,12 +31,6 @@ const CARD_H_FULL = 92;
 const CARD_H_PLAIN = 54;
 const PAD_X = 110;
 const PAD_Y = 70;
-
-const SUBJECT_HUE: Record<SubjectId, string> = {
-  geography: 'var(--green)',
-  history: 'var(--brown)',
-  polity: 'var(--blue)',
-};
 
 const KICKER = (depth: number) => (depth === 0 ? 'Root' : depth === 1 ? 'Branch' : 'Leaf');
 

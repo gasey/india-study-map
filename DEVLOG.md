@@ -9,6 +9,64 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-08-10 — Recall rebuilt with real Mind maps / Flashcards / Due today tabs
+
+**What shipped:**
+- `RecallLandingPage.tsx` went from a two-link stub to the Jabreeze design's
+  `SECTION_TABS.recall` (Mind maps / Flashcards / Due today), each an
+  `isSimple`-template pane ported to real code as
+  `src/modules/recall/SimplePane.tsx` — header card, canvas panel with tool
+  chips, list panel, all real data, no placeholder counts.
+- Extracted `src/modules/flashcards/FlashcardFlip.tsx` out of
+  `FlashcardsPage.tsx` (pure refactor, `/flashcards` behavior unchanged —
+  verified by re-checking its "N/M known" and "x / y" counters still work)
+  so the same tap-to-flip mechanic can render inside Recall's canvas panel
+  instead of a second implementation, matching the design's own "existing
+  module, unchanged" note for these canvas slots.
+- **Flashcards tab**: real per-deck due/total counts, a live flip-card
+  preview of whichever deck you click in the list, CTA to the full
+  `/flashcards` page.
+- **Due today tab**: real union of not-yet-known cards across all 3 decks
+  (174 currently, live-tested), Shuffle + By-deck are real toggles (not
+  decorative — clicking them re-orders the actual queue). Copy was rewritten
+  off the design's literal text where it implied capability that doesn't
+  exist here: no adaptive scheduling ("a card returns sooner when the same
+  topic goes wrong") and no streak integration ("finishing the queue counts
+  toward the day streak") — `studyStreak()` doesn't read `deckProgress` at
+  all, so that line would have been false in this app.
+- **Mind maps tab**: deliberately lightweight — real node counts per map (46
+  Parliament, 27 Judiciary) and real chapterId-linked-node count (5), but no
+  inline canvas. `MindMapsPage.tsx` is a full page with its own pan/collapse
+  state; shrinking it into a 380px preview box would mean either duplicating
+  its chrome or a second, worse renderer of the same graph. Flagged as a
+  conscious deviation from the design, not an oversight.
+- New `src/lib/subjectHue.ts`: pulled the `SubjectId -> colour` map out of
+  `MindMapsPage.tsx` so Recall's Mind maps tab doesn't duplicate it.
+- Confirmed `MPSC_MCQ_Practice_Hub.html` (user-supplied file) was already
+  shipped in Library — byte-identical to `public/quick-practice/mpsc-mcq-
+  practice-hub.html`, already registered and published (7,649 questions,
+  live on production). No action needed there.
+
+**Why:** user picked "Recall due-queue / deck list" as the next redesign gap
+to close, from a fuller phase-by-phase audit this session that found the
+prior `PHASE3_RBAC_HANDOFF.md` badly out of date — most of Phases 1-6 were
+already shipped in commits this doc predates. Also acted on explicit
+feedback mid-session to follow the handoff's actual mockup markup (spacing,
+copy, layout) strictly rather than freehand-designing equivalents, including
+the mobile/responsive collapse — see `feedback` memory.
+
+**What's still open (from the same audit, not started this session):**
+- No Results screen at all (post-test score/breakdown/rank).
+- No skeleton loading / empty / error / offline states anywhere — plain
+  "Loading…" text.
+- Games' XP/streak/badges have no backing `Profile` table in `mpsc_api` yet.
+- Route names still diverge from `HANDOFF.md` §2 in several places
+  (`/question-bank` not `/bank`, `/mindmaps` not nested under `/recall`,
+  etc.) — cosmetic, not attempted here to avoid an unscoped rename sweep.
+- Phase 8 polish (focus rings, keyboard maps, ARIA, Lighthouse) not started.
+
+---
+
 ## 2026-08-10 — Mind Maps rebuilt as a node graph, mastery state real not fabricated
 
 **What shipped:**

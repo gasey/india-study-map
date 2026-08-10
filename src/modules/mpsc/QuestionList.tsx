@@ -2,6 +2,31 @@ import { useState } from 'react';
 import type { BankQuestion, ExamPaper } from '@/data/banks/types';
 import type { BankQuestionQuery, Correction } from '@/lib/mpscApi';
 import { QuestionCard } from './QuestionCard';
+import { SkeletonRows } from '@/components/states/Skeleton';
+import { EmptyState, ErrorState } from '@/components/states/StateMessage';
+import type { MpscFilters } from './useMpscData';
+
+// Human labels for the filter dimensions, so the empty state can name which
+// filters are actually narrowing the result — see the honesty note on
+// EmptyState below.
+const FILTER_LABELS: { key: keyof MpscFilters; label: string }[] = [
+  { key: 'examType', label: 'Exam type' },
+  { key: 'post', label: 'Post' },
+  { key: 'year', label: 'Year' },
+  { key: 'paperId', label: 'Paper' },
+  { key: 'subject', label: 'Subject' },
+  { key: 'difficulty', label: 'Difficulty' },
+  { key: 'type', label: 'Type' },
+];
+
+function activeFilterLabels(f: MpscFilters): string[] {
+  const out: string[] = [];
+  for (const { key, label } of FILTER_LABELS) {
+    if ((f[key] as string[]).length > 0) out.push(label);
+  }
+  if (f.search.trim()) out.push('Search');
+  return out;
+}
 
 // ============================================
 // The bank's Browse pane — the design's list of <QuestionCard/>s plus the
@@ -40,11 +65,21 @@ interface QuestionListProps {
   onSortChange: (by: SortKey, dir: 'asc' | 'desc') => void;
   onStartTest: () => void;
   startingTest: boolean;
+  /** Fetch in flight — show skeleton rows at real row height, not a spinner. */
+  loading: boolean;
+  /** Fetch failed — the filter is still safe in the URL; offer one retry. */
+  error: boolean;
+  onRetry: () => void;
+  /** The live filter, so the empty state can name what's narrowing the result. */
+  filters: MpscFilters;
+  /** Clear every filter dimension at once (the empty state's one-click escape). */
+  onResetFilters: () => void;
 }
 
 export function QuestionList({
   questions, paperById, corrections, total, bankTotal,
   sortBy, sortDir, onSortChange, onStartTest, startingTest,
+  loading, error, onRetry, filters, onResetFilters,
 }: QuestionListProps) {
   const [showAnswers, setShowAnswers] = useState(false);
   const activeSort = SORTS.find((s) => s.by === sortBy && s.dir === sortDir) ?? SORTS[0];
@@ -56,8 +91,18 @@ export function QuestionList({
         style={{ borderBottom: '1px solid var(--border)' }}
       >
         <span className="text-xs" style={{ color: 'var(--text-secondary)' }}>
-          <span className="font-mono font-semibold" style={{ color: 'var(--text-primary)' }}>{total.toLocaleString()}</span>
-          {bankTotal !== null && <> of <span className="font-mono">{bankTotal.toLocaleString()}</span></>} questions match
+          {loading ? (
+            'Loading questions…'
+          ) : error ? (
+            // Not "0 of N match" — that reads as a real zero-result filter,
+            // not a failed fetch. The error state below explains why.
+            'Could not load'
+          ) : (
+            <>
+              <span className="font-mono font-semibold" style={{ color: 'var(--text-primary)' }}>{total.toLocaleString()}</span>
+              {bankTotal !== null && <> of <span className="font-mono">{bankTotal.toLocaleString()}</span></>} questions match
+            </>
+          )}
         </span>
 
         <select
@@ -93,21 +138,71 @@ export function QuestionList({
       </div>
 
       <div className="flex-1 min-h-0 overflow-y-auto scroll-panel px-4 py-3 flex flex-col gap-3">
-        {questions.length === 0 && (
-          <p className="text-sm py-8 text-center" style={{ color: 'var(--text-secondary)' }}>
-            No questions match these filters.
-          </p>
-        )}
-        {questions.map((q) => (
-          <QuestionCard
-            key={q.id}
-            q={q}
-            paper={q.paperId ? paperById.get(q.paperId) : undefined}
-            correction={corrections[q.id]}
-            showAnswer={showAnswers}
+        {loading ? (
+          <SkeletonRows rows={4} />
+        ) : error ? (
+          <ErrorState
+            heading="Couldn't reach the question bank"
+            body="Your filters are saved in the URL, so nothing's lost. This is a server problem, not a problem with what you searched for."
+            primary={{ label: 'Retry', onClick: onRetry }}
           />
-        ))}
+        ) : questions.length === 0 ? (
+          <EmptyResult filters={filters} onResetFilters={onResetFilters} />
+        ) : (
+          questions.map((q) => (
+            <QuestionCard
+              key={q.id}
+              q={q}
+              paper={q.paperId ? paperById.get(q.paperId) : undefined}
+              correction={corrections[q.id]}
+              showAnswer={showAnswers}
+            />
+          ))
+        )}
       </div>
     </div>
+  );
+}
+
+// The mockup's Empty state names the single tightest filter and the exact
+// count dropping it would bring back ("Official key only rules out 42,201").
+// We deliberately DON'T fake that number: computing the real count-if-dropped
+// for each active filter would be one extra facets query per dimension, and
+// inventing a plausible-looking figure would be exactly the fabrication this
+// project's honesty rules warn against. Instead we name *which* filters are
+// active and give a one-click reset — honest, and still actionable. If a
+// cheap count-if-dropped becomes available, this is where the mockup's exact
+// copy would slot back in.
+function EmptyResult({ filters, onResetFilters }: { filters: MpscFilters; onResetFilters: () => void }) {
+  const active = activeFilterLabels(filters);
+
+  if (active.length === 0) {
+    // No filters at all and still nothing — the bank itself returned zero.
+    return (
+      <EmptyState
+        heading="No questions here yet"
+        body="The bank returned nothing for this view. If this looks wrong, it's worth checking the source rather than assuming the bank is empty."
+      />
+    );
+  }
+
+  const list =
+    active.length === 1
+      ? active[0]
+      : active.length === 2
+        ? `${active[0]} and ${active[1]}`
+        : `${active.slice(0, -1).join(', ')} and ${active[active.length - 1]}`;
+
+  return (
+    <EmptyState
+      heading="No questions match these filters"
+      body={
+        <>
+          {active.length} filter{active.length === 1 ? '' : 's'} — {list} — {active.length === 1 ? 'is' : 'are'} narrowing this down at once.
+          Drop or widen one to see results; your selection stays saved in the URL.
+        </>
+      }
+      primary={{ label: 'Reset all filters', onClick: onResetFilters }}
+    />
   );
 }

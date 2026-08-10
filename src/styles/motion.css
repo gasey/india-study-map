@@ -10,6 +10,12 @@
 @keyframes om-pop       { 0% { opacity: 0; transform: scale(0.94); } 60% { transform: scale(1.012); } 100% { opacity: 1; transform: scale(1); } }
 @keyframes om-sheen     { from { background-position: 12% 50%; } to { background-position: 88% 50%; } }
 @keyframes om-sheet-up  { from { transform: translateY(100%); } to { transform: none; } }
+/* Skeleton pulse — loading placeholders reserve real row height and breathe
+   rather than spin. Ported verbatim from the redesign mockup's states block
+   (designs/Jabreeze - Redesign.dc.html:66). The mockup defines it inline; the
+   handoff brief assumed it already lived here — it did not, so it's added now
+   as the one shared source of the skeleton animation. */
+@keyframes om-pulse     { 0%, 100% { opacity: 1; } 50% { opacity: 0.45; } }
 
 /* --- Where each one is used ---------------------------------
    om-rise      section content on route/tab change (the default)

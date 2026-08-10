@@ -8,6 +8,7 @@ import { TestCard } from '@/modules/mpsc/TestCard';
 import { TestBuilder, type PlayConfig } from '@/modules/mpsc/TestBuilder';
 import { TestPlayer } from '@/modules/mpsc/TestPlayer';
 import { loadPaper, savePaper } from '@/modules/mpsc/useAttemptState';
+import { SkeletonBar, SkeletonCards } from '@/components/states/Skeleton';
 
 // ============================================
 // Tests — the Jabreeze "Mock Tests" pane (designs/Jabreeze - Redesign.dc.html,
@@ -62,7 +63,11 @@ function AttemptsPanel() {
   return (
     <div className="rounded-xl p-[18px_20px]" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
       <div className="text-[15px] font-semibold mb-3.5" style={{ color: 'var(--text-primary)' }}>Recent attempts</div>
-      {attempts === null && <div className="text-sm" style={{ color: 'var(--text-secondary)' }}>Loading…</div>}
+      {attempts === null && (
+        <div className="flex flex-col gap-2.5" aria-label="Loading attempts">
+          {[0, 1, 2].map((i) => <SkeletonBar key={i} w="100%" h={16} delay={i * 0.1} />)}
+        </div>
+      )}
       {attempts !== null && attempts.length === 0 && (
         <div className="text-xs" style={{ color: 'var(--text-secondary)' }}>
           {user ? 'No attempts yet — finish a test and it lands here.' : 'Sign in to keep a history of your attempts across devices.'}
@@ -222,7 +227,7 @@ export default function TestsPage() {
 
         <section>
           <SectionHeader label="Test library" tagline="Every real paper is one test; every filter can become one" />
-          {tests === null && <div className="text-sm" style={{ color: 'var(--text-secondary)' }}>Loading…</div>}
+          {tests === null && <SkeletonCards count={6} />}
           {tests !== null && tests.length === 0 && (
             <div
               className="rounded-xl p-5 text-sm"

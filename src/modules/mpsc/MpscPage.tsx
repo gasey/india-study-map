@@ -103,6 +103,18 @@ export function MpscPage() {
     });
   };
 
+  // Clear every filter dimension in one shot — the Browse empty state's
+  // one-click escape. Keeps sort/tab, drops filters + page position.
+  const clearFilters = () => {
+    setSearchParams((prev) => {
+      const next = new URLSearchParams(prev);
+      for (const key of FILTER_KEYS) next.delete(key);
+      next.delete('search');
+      next.delete('offset');
+      return next;
+    });
+  };
+
   const setOffset = (o: number) => {
     setSearchParams((prev) => {
       const next = new URLSearchParams(prev);
@@ -242,6 +254,11 @@ export function MpscPage() {
                 onSortChange={setSortExplicit}
                 onStartTest={launchPracticeTest}
                 startingTest={samplingTest}
+                loading={page.loading}
+                error={page.error}
+                onRetry={page.retry}
+                filters={filters}
+                onResetFilters={clearFilters}
               />
               <div className="px-4 pb-4 shrink-0">
                 <PaginationControls offset={offset} limit={25} count={correctedPage.length} onOffsetChange={setOffset} />

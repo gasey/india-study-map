@@ -6,6 +6,7 @@ import { AdminNavMenu } from './AdminNavMenu';
 import { MORE_ITEMS } from './MoreFlyout';
 import { IC, IconSvg } from './icons';
 import { modules } from '@/modules/registry';
+import { OfflineBanner } from '@/components/states/OfflineBanner';
 
 /** Route -> AppHeader kicker/title. Every module page's own local header
  *  now hides itself at desktop widths (lg:hidden) once its route is listed
@@ -132,6 +133,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
   return (
     <div className="h-full flex flex-col" style={{ background: 'var(--bg-app)' }}>
       <AppHeader kicker={header.kicker} title={header.title} />
+      <OfflineBanner />
       <div className="flex-1 flex overflow-hidden min-h-0">
         <Rail />
         <main className="flex-1 min-w-0 overflow-hidden">{children}</main>

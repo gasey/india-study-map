@@ -3,6 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import * as api from '@/lib/mpscApi';
 import type { StaticSet, StaticSetGroup } from '@/lib/mpscApi';
 import { SetCard } from '@/modules/library/SetCard';
+import { SkeletonCards } from '@/components/states/Skeleton';
+import { EmptyState } from '@/components/states/StateMessage';
 
 // ============================================
 // Library — Phase 5c. Sourced from the StaticSet registry (a real backend
@@ -72,7 +74,14 @@ export function LibraryLandingPage() {
           </span>
         </div>
 
-        {sets === null && <div className="text-sm" style={{ color: 'var(--text-secondary)' }}>Loading…</div>}
+        {sets === null && <SkeletonCards count={6} />}
+
+        {sets !== null && sets.length === 0 && (
+          <EmptyState
+            heading="No sets yet"
+            body="Premade sets are authored and uploaded, then published from the admin console. None are live right now."
+          />
+        )}
 
         {sets !== null && sets.length > 0 && (
           <div className="flex items-center gap-3 flex-wrap">

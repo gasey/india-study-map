@@ -28,11 +28,27 @@ const rowLabelCls = 'text-xs font-medium w-24 shrink-0 pt-1.5';
 const inputCls = 'px-2.5 py-1.5 rounded-md text-sm flex-1';
 const inputStyle = { background: 'var(--bg-panel-elev)', border: '1px solid var(--border)', color: 'var(--text-primary)' } as const;
 
-interface TestBuilderProps {
-  onCreated: () => void;
+export interface PlayConfig {
+  title: string;
+  filter: MpscFilters;
+  nQuestions: number;
+  durationS: number;
+  negative: number;
 }
 
-export function TestBuilder({ onCreated }: TestBuilderProps) {
+interface TestBuilderProps {
+  /** Author path: persist a reusable TestDefinition via POST /api/admin/tests/. */
+  onCreated?: () => void;
+  /** Learner path: sample the filter and play it now, without persisting. Shown
+   *  when the viewer lacks test.publish — otherwise the Tests page has no
+   *  build CTA at all for its actual (non-admin) user. */
+  onPlay?: (cfg: PlayConfig) => void;
+}
+
+export function TestBuilder({ onCreated, onPlay }: TestBuilderProps) {
+  // Persist when the caller can (author); otherwise the button plays the
+  // sampled sitting immediately — same builder, two terminal actions.
+  const canPersist = !!onCreated;
   const [title, setTitle] = useState('');
   const [kind, setKind] = useState<TestKind>('sprint');
   const [filters, setFilters] = useState<MpscFilters>(emptyFilters);
@@ -65,6 +81,19 @@ export function TestBuilder({ onCreated }: TestBuilderProps) {
   const patchFilters = (patch: Partial<MpscFilters>) => setFilters((f) => ({ ...f, ...patch }));
 
   const generate = async () => {
+    if (poolCount === 0) return;
+    // Play path: no title required — hand the config up and let the page
+    // sample + launch the player.
+    if (!canPersist) {
+      onPlay?.({
+        title: title.trim() || 'Custom test',
+        filter: filters,
+        nQuestions,
+        durationS: durationMinutes * 60,
+        negative,
+      });
+      return;
+    }
     if (!title.trim()) {
       setError('Title is required');
       return;
@@ -83,7 +112,7 @@ export function TestBuilder({ onCreated }: TestBuilderProps) {
         isPublished: false,
       });
       setTitle('');
-      onCreated();
+      onCreated?.();
     } catch (e) {
       setError(e instanceof Error ? e.message : 'Failed to create test');
     } finally {
@@ -93,7 +122,12 @@ export function TestBuilder({ onCreated }: TestBuilderProps) {
 
   return (
     <div className="rounded-lg p-4 flex flex-col gap-3" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>
-      <div className="text-sm font-medium" style={{ color: 'var(--text-primary)' }}>New test</div>
+      <div>
+        <div className="text-[15px] font-semibold" style={{ color: 'var(--text-primary)' }}>Build a custom test</div>
+        <div className="text-xs mt-0.5" style={{ color: 'var(--text-secondary)' }}>
+          Same filter axes as the Question Bank — the pool count updates as you narrow.
+        </div>
+      </div>
 
       <div className="flex gap-3 items-start">
         <div className={rowLabelCls} style={{ color: 'var(--text-secondary)' }}>Source</div>
@@ -106,18 +140,20 @@ export function TestBuilder({ onCreated }: TestBuilderProps) {
           type="text"
           value={title}
           onChange={(e) => setTitle(e.target.value)}
-          placeholder="e.g. Combined 2019 · History Sprint"
+          placeholder={canPersist ? 'e.g. Combined 2019 · History Sprint' : 'Optional — names this sitting'}
           className={inputCls}
           style={inputStyle}
         />
       </div>
 
-      <div className="flex gap-3 items-start">
-        <div className={rowLabelCls} style={{ color: 'var(--text-secondary)' }}>Kind</div>
-        <select value={kind} onChange={(e) => setKind(e.target.value as TestKind)} className={inputCls} style={inputStyle}>
-          {KIND_OPTIONS.map((k) => <option key={k.value} value={k.value}>{k.label}</option>)}
-        </select>
-      </div>
+      {canPersist && (
+        <div className="flex gap-3 items-start">
+          <div className={rowLabelCls} style={{ color: 'var(--text-secondary)' }}>Kind</div>
+          <select value={kind} onChange={(e) => setKind(e.target.value as TestKind)} className={inputCls} style={inputStyle}>
+            {KIND_OPTIONS.map((k) => <option key={k.value} value={k.value}>{k.label}</option>)}
+          </select>
+        </div>
+      )}
 
       <div className="flex gap-3 items-start">
         <div className={rowLabelCls} style={{ color: 'var(--text-secondary)' }}>Filters</div>
@@ -172,18 +208,23 @@ export function TestBuilder({ onCreated }: TestBuilderProps) {
 
       {error && <div className="text-xs" style={{ color: 'var(--bad)' }}>{error}</div>}
 
-      <div className="flex items-center justify-between pt-2" style={{ borderTop: '1px dashed var(--border)' }}>
-        <div className="text-[18px] font-mono" style={{ color: 'var(--accent)' }}>
-          {poolCount === null ? '…' : poolCount.toLocaleString()} in pool
+      <div className="flex items-center justify-between pt-3.5" style={{ borderTop: '1px solid var(--border)' }}>
+        <div>
+          <div className="text-[18px] font-mono leading-none" style={{ color: 'var(--accent)' }}>
+            {poolCount === null ? '…' : poolCount.toLocaleString()}
+          </div>
+          <div className="text-[10px] uppercase tracking-[0.05em] mt-1" style={{ color: 'var(--text-muted)' }}>
+            questions in pool
+          </div>
         </div>
         <button
           type="button"
           onClick={generate}
           disabled={saving || poolCount === 0}
-          className="text-sm px-3 py-1.5 rounded-md disabled:opacity-50"
+          className="text-sm px-4 py-2 rounded-md disabled:opacity-50"
           style={{ background: 'var(--accent)', color: 'var(--on-accent)' }}
         >
-          {saving ? 'Generating…' : 'Generate test'}
+          {saving ? 'Generating…' : canPersist ? 'Generate test' : 'Start test'}
         </button>
       </div>
     </div>

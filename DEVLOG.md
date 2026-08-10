@@ -9,6 +9,66 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-08-10 — Papers & Tests rebuilt against the actual mockup markup, not the prose spec
+
+**What shipped:**
+- `src/pages/PapersPage.tsx` rebuilt to match `designs/Jabreeze - Redesign.dc.html`'s
+  `isPapers` block (lines 522-574): a left "Exam tree" sidebar (hue cap + real
+  paper count per exam-type/year node) driving a main column of sitting
+  cards, each listing its papers with **Read** (→ existing question browser)
+  and **Test** (samples that paper's questions live via `paperId` filter and
+  launches `TestPlayer` inline). Auto-lands on the richest exam type/year on
+  load instead of a bare "select something" placeholder.
+- `src/pages/TestsPage.tsx` rebuilt to the `isMock` block (lines 443-520): a
+  "Test library" grid (real empty state — zero TestDefinitions exist
+  server-side, so it says so rather than showing the mockup's 6 sample
+  cards) over a two-column "Build a custom test" + "Recent attempts" row.
+  `TestBuilder.tsx` gained an `onPlay` path (`PlayConfig`) so a learner
+  without `test.publish` gets a working **Start test** button — the prior
+  version gated the entire build UI behind an admin capability the real
+  user doesn't have, so `/tests` rendered nothing but "No tests yet" with no
+  way forward. New `AttemptsPanel` reads `GET /api/progress/history`
+  (real, honest empty states for both signed-out and zero-history cases).
+- Prompted by the user flatly disagreeing with a prior session's "Phase 5:
+  DONE" audit call — they were right. That audit checked file existence
+  (`TestPlayer.tsx`/`TestCard.tsx`/`TestBuilder.tsx` exist, don't crash), not
+  fidelity to the actual mockup or whether the real (non-admin) user could
+  do anything. Live production before this fix: `/papers` showed a bare
+  "Select a sitting…" placeholder pre-click and `/tests` showed nothing but
+  "No tests yet" — no create-test CTA reachable by a real learner.
+- Verified end-to-end in the dev server (not just `tsc`): clicked **Test** on
+  a live paper row → sampled 50 real questions → played with timer/autosave;
+  clicked **Start test** on the builder with default filters → sampled from
+  the full 76,093-question pool → played the same way. No new console
+  errors (the only ones present are the pre-existing stale `MindMapsPage`
+  buffer entries from earlier in the session, unrelated).
+
+**Why:** this is the second time this session a prior "done" call turned out
+to mean "doesn't crash," not "matches the design or actually works for the
+real user" — see the RecallLandingPage entry above for the first. User also
+gave explicit standing feedback mid-session to read the actual `.dc.html`
+markup before building, not just the prose docs — see the
+`feedback-mockup-fidelity` memory. This work was delegated to an Opus-model
+subagent per the user's explicit request ("u need opus for this"), then
+independently re-verified in-browser by the orchestrating session before
+being reported back.
+
+**What's still open (deliberately not fixed, flagged rather than faked):**
+- **Papers grouping is coarse on live data.** ~130 distinct Departmental-2026
+  papers collapse into one "MPSC · 2026" sitting card (6,684 Qs) because they
+  share `examName=MPSC`, `post=null`, `year=2026` and the server's
+  `source_file` heuristic in `mpsc_api`'s `/api/papers/tree/` doesn't split
+  them further. The UI renders exactly what the tree returns — this is a
+  backend grouping fix, not a frontend one.
+- No per-paper answer-source pill (Official/Derived/Model) or month
+  chips/"held &lt;date&gt;" from the mockup — the tree carries no
+  `answer_source` per paper and sittings carry a year, not a date. Omitted
+  rather than fabricated.
+- Still no Results screen, no skeleton/offline states, no Games XP backend —
+  same open items as the last two entries.
+
+---
+
 ## 2026-08-10 — Recall rebuilt with real Mind maps / Flashcards / Due today tabs
 
 **What shipped:**

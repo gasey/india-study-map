@@ -9,6 +9,38 @@ import { savePaper } from '@/modules/mpsc/useAttemptState';
 import { SkeletonBar, SkeletonRows } from '@/components/states/Skeleton';
 import { EmptyState } from '@/components/states/StateMessage';
 
+const TECHNICAL_POSTS = new Set([
+  'AE/SDO',
+  'AE/SDO (Civil)',
+  'AE/SDO (Electrical)',
+  'AE/SDO (Mechanical)',
+  'Junior Engineer',
+  'Junior Engineer (Civil)',
+  'Junior Engineer (Electrical)',
+  'Junior Engineer (Mechanical)',
+  'Junior Engineer (I&WR)',
+  'Civil Engineer',
+  'Mechanical Engineer',
+  'Electrical Engineer',
+  'Computer Science Engineer',
+  'Geologist',
+  'Draftsman',
+  'Soil Conservation Ranger',
+  'Surveyor',
+  'Fisheries Officer',
+  'Forestry Officer',
+  'Agriculture Officer',
+  'Entomologist',
+  'Veterinary Officer',
+  'Nursing',
+  'Technical Officer',
+  'Mizoram Engineering Service',
+]);
+
+function isPostTechnical(post: string | null): boolean {
+  return post ? TECHNICAL_POSTS.has(post) : false;
+}
+
 // ============================================
 // Papers browse — the Jabreeze "Browse Papers" pane, ported from the design
 // mockup (designs/Jabreeze - Redesign.dc.html, `isPapers` block, lines
@@ -44,6 +76,63 @@ function paperName(p: PapersTreeSitting['papers'][number]): string {
   return p.paperNumber ? `${subject} — Paper ${p.paperNumber}` : subject;
 }
 
+// Best-effort exam name recovered from a paper's `id`, which is the raw
+// source-PDF filename (see DEVLOG "Papers-tree grouping fixed" 2026-08-10).
+// The live bank's `examName` field is "MPSC" for nearly everything (MPSC is
+// the exam-hosting department, not the exam itself) and `post` is null for
+// ~70% of papers, so the filename is the only place a real exam identity
+// ("UDC Direct under Fisheries Deptt", "MCS Combined Preliminary Exam", ...)
+// survives. These filenames are messy OCR-batch names — inconsistent casing,
+// stray numbering, ".pdf.ocr" suffixes, unbalanced parens from OCR splits —
+// so this is a heuristic cleanup, not a real parse. When cleanup can't
+// recover something that reads like a name, it returns null rather than
+// showing a mangled fragment (see CLAUDE.md: flag/omit, don't fabricate).
+const MONTH_RE = '(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\\.?';
+const PAPER_LABEL_RE = new RegExp(
+  '(GS|Law|General Studies|General English(?:ish)?|Technical(?: Subject)?|Home Science|Engineering|Departmental|Series-[A-Z])?\\s*[-,]?\\s*Paper\\s*[-–]?\\s*[IVXLCDM]+\\b',
+  'gi',
+);
+
+function cleanExamNameCandidate(raw: string): string | null {
+  let s = raw;
+  const isSlug = /^[a-z0-9-]+$/.test(s);
+  if (isSlug) s = s.replace(/-/g, ' ');
+  s = s.replace(/(\.(pdf|ocr|pd))+\.?$/i, '');
+  s = s.replace(/^\d+\.\s*/, '');
+  s = s.trim().replace(/^[.\s]+|[.\s]+$/g, '');
+  s = s.replace(new RegExp(`[-,]?\\s*${MONTH_RE}[-,]?\\s*\\d{4}`, 'gi'), '');
+  s = s.replace(/[-,]?\s*(19|20)\d{2}/g, '');
+  s = s.replace(PAPER_LABEL_RE, '');
+  s = s.replace(/\bPaper\s*[-–]?\s*\d+\b/gi, '');
+  s = s.replace(/\(\s*\)/g, '');
+  s = s.replace(/\s{2,}/g, ' ').trim().replace(/^[\s\-.,()]+|[\s\-.,()]+$/g, '');
+
+  const openIdx = s.indexOf('(');
+  if (openIdx !== -1 && !s.slice(openIdx).includes(')')) s = s.slice(0, openIdx).trim();
+  const closeIdx = s.indexOf(')');
+  if (closeIdx !== -1 && !s.slice(0, closeIdx).includes('(')) s = s.slice(closeIdx + 1).trim();
+  s = s.replace(/^[\s\-.,()]+|[\s\-.,()]+$/g, '');
+
+  if (s.length < 5 || /^(paper|account)$/i.test(s)) return null;
+  const words = s.split(/\s+/);
+  const junkWords = words.filter((w) => w.replace(/\W/g, '').length <= 2).length;
+  if (junkWords / words.length > 0.5) return null;
+  if (isSlug) s = words.map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+  return s;
+}
+
+// Picks the most informative candidate across the sitting's papers (longest
+// valid cleanup wins — a fuller filename usually means more of the real
+// title survived OCR/extraction intact).
+function sittingExamName(s: PapersTreeSitting): string | null {
+  let best: string | null = null;
+  for (const p of s.papers) {
+    const candidate = cleanExamNameCandidate(p.id);
+    if (candidate && (!best || candidate.length > best.length)) best = candidate;
+  }
+  return best;
+}
+
 export default function PapersPage() {
   const { tree, loading } = usePapersTree();
   const examTypes = useMemo(() => tree?.examTypes ?? [], [tree]);
@@ -52,6 +141,8 @@ export default function PapersPage() {
   // Selection is a year within an exam type — the mockup's tree selects a year
   // node and the main pane shows every sitting held that year.
   const [selected, setSelected] = useState<{ examType: string; year: number | null } | null>(null);
+  // Filter by Technical / Non-Technical posts
+  const [postFilter, setPostFilter] = useState<'all' | 'technical' | 'non-technical'>('all');
 
   // An inline sitting launched from a paper's "Test" button — sampled live,
   // played in the same shell as the Tests page's player.
@@ -86,6 +177,15 @@ export default function PapersPage() {
   const selectedYear = selectedExamType && selected
     ? selectedExamType.years.find((y) => y.year === selected.year) ?? null
     : null;
+
+  // Filter sittings based on post filter
+  const filterSittings = (sittings: PapersTreeSitting[]) => {
+    if (postFilter === 'all') return sittings;
+    return sittings.filter((s) => {
+      const isTechnical = isPostTechnical(s.post);
+      return postFilter === 'technical' ? isTechnical : !isTechnical;
+    });
+  };
 
   const startPaperTest = async (p: PapersTreeSitting['papers'][number]) => {
     setTesting(p.id);
@@ -125,6 +225,29 @@ export default function PapersPage() {
         className="w-[250px] shrink-0 overflow-y-auto scroll-panel px-4 py-[18px]"
         style={{ borderRight: '1px solid var(--border)', background: 'var(--bg-panel)' }}
       >
+        <div className="mb-3">
+          <div className="text-[10px] font-mono tracking-[0.12em] uppercase mb-2" style={{ color: 'var(--text-muted)' }}>
+            Post type
+          </div>
+          <div className="flex gap-1.5 flex-wrap">
+            {['all', 'technical', 'non-technical'].map((filter) => (
+              <button
+                key={filter}
+                type="button"
+                onClick={() => setPostFilter(filter as typeof postFilter)}
+                className="text-[11px] px-2 py-1.5 rounded-[5px] font-medium transition-colors"
+                style={{
+                  background: postFilter === filter ? 'var(--accent)' : 'transparent',
+                  color: postFilter === filter ? 'var(--on-accent)' : 'var(--text-secondary)',
+                  border: postFilter === filter ? 'none' : '1px solid var(--border)',
+                }}
+              >
+                {filter === 'all' ? 'All' : filter === 'technical' ? 'Technical' : 'Non-Tech'}
+              </button>
+            ))}
+          </div>
+        </div>
+
         <div className="text-[10px] font-mono tracking-[0.12em] uppercase mb-3" style={{ color: 'var(--text-muted)' }}>
           Exam tree
         </div>
@@ -237,7 +360,13 @@ export default function PapersPage() {
             </div>
 
             <div className="flex flex-col gap-3">
-              {selectedYear.sittings.map((s) => (
+              {filterSittings(selectedYear.sittings).map((s) => {
+                const examName = sittingExamName(s);
+                const fallbackName = s.post || s.examName;
+                const secondary = examName && s.post && !examName.toLowerCase().includes(s.post.toLowerCase())
+                  ? s.post
+                  : null;
+                return (
                 <div
                   key={s.key}
                   className="rounded-xl p-[16px_18px]"
@@ -253,8 +382,11 @@ export default function PapersPage() {
                       </span>
                     )}
                     <span className="text-sm font-semibold" style={{ color: 'var(--text-primary)' }}>
-                      {s.post || s.examName}
+                      {examName ?? fallbackName}
                     </span>
+                    {secondary && (
+                      <span className="text-xs" style={{ color: 'var(--text-secondary)' }}>· {secondary}</span>
+                    )}
                     {s.year != null && (
                       <span className="text-xs" style={{ color: 'var(--text-secondary)' }}>· {s.year}</span>
                     )}
@@ -300,7 +432,8 @@ export default function PapersPage() {
                     ))}
                   </div>
                 </div>
-              ))}
+                );
+              })}
             </div>
           </>
         )}

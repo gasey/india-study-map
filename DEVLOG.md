@@ -9,6 +9,52 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-08-10 — Papers tree sitting cards show a real exam name, not "MPSC"
+
+**What shipped:** `src/pages/PapersPage.tsx` sitting cards previously titled
+themselves `s.post || s.examName` — and `examName` is `"MPSC"` for nearly
+every paper (MPSC is the exam-hosting department, not the exam itself),
+while `post` is null on ~70% of papers. Result: a "2019 · GS-II" style
+drill-down with no way to tell *which* exam you were looking at, which the
+user flagged directly ("there isn't just 2019 GS-II... it has to have an
+EXAM NAME").
+
+Added `cleanExamNameCandidate()`/`sittingExamName()`: a heuristic cleanup
+run over each sitting's paper `id`s (the raw source-PDF filename — the one
+place a real exam identity like "UDC Direct under Fisheries Deptt" or
+"Surveyor under Land Revenue & Settlement Deptt" actually survives
+extraction, confirmed live against `GET /api/papers/tree/`). Strips
+numbering/date/`.pdf.ocr` noise, balances stray parens left by OCR splits,
+title-cases slug-style ids (`mpsc-cli-...`), and picks the longest valid
+result across the sitting's papers. When cleanup can't recover something
+that reads like a name, it returns `null` and the card falls back to the
+old `post || examName` display rather than showing a mangled fragment —
+matching this project's flag-don't-fabricate rule.
+
+Verified live against production data before calling it done: 2,892 of
+3,520 sittings (82.2%) now get a recovered name; coverage varies by exam
+type (Direct_NG 96%, Direct 89%, LDE 82%, Competitive 80%, Departmental
+70% — Departmental's filenames are the messiest of the batch). Confirmed
+in the dev server against the live droplet API, not just `tsc`.
+
+**Why:** direct user feedback that the exam-tree drill-down (Year → Sitting
+→ Paper) was unusable without knowing which exam a sitting actually was.
+Scoped deliberately to "fix the label only" (user's choice over promoting
+exam name to a full new tree level) — the raw id strings are too
+inconsistent across years/services to safely cluster into a stable grouping
+key without a real normalization pass first.
+
+**What's still open:**
+- The 17.8% fallback (esp. Departmental's 30%) is a real data gap, not a
+  regex problem — some filenames are literally just `"Paper-IV."` with no
+  name in them. Closing it needs re-extraction from source PDFs, same
+  limit already noted for the technical/non-technical post filter.
+- Did not attempt promoting exam name to a real tree grouping level
+  (Exam Name → Year → Sitting → Paper) — that needs a clustering/dedup
+  pass over the messy id strings first (see decision above).
+
+---
+
 ## 2026-08-10 — Real loading/empty/error states, not `<div>Loading…</div>`
 
 **What shipped:** every data-driven view in the app rendered plain

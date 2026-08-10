@@ -51,9 +51,12 @@ interface QuestionCardProps {
   paper?: ExamPaper;
   correction?: Correction;
   showAnswer: boolean;
+  /** Suppress the card's own passage disclosure — set when a parent (e.g.
+   * PassageGroup) already shows the shared passage once above the card. */
+  hidePassage?: boolean;
 }
 
-export function QuestionCard({ q, paper, correction, showAnswer }: QuestionCardProps) {
+export function QuestionCard({ q, paper, correction, showAnswer, hidePassage }: QuestionCardProps) {
   const [reviewOpen, setReviewOpen] = useState(false);
   // Per-card reveal, independent of the list-wide "Show answers" toggle —
   // click one question to check just that one without exposing the whole
@@ -114,7 +117,7 @@ export function QuestionCard({ q, paper, correction, showAnswer }: QuestionCardP
         )}
       </div>
 
-      {q.passage && (
+      {q.passage && !hidePassage && (
         <details className="mb-2">
           <summary className="text-xs cursor-pointer select-none" style={{ color: 'var(--accent)' }}>📄 Show passage</summary>
           <p className="text-xs mt-1 p-2 rounded whitespace-pre-wrap" style={{ background: 'var(--bg-panel-elev)', color: 'var(--text-secondary)' }}>

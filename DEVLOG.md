@@ -9,6 +9,67 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-08-10 — Fixed PassageGroup type errors and rendering bugs; flagged it as currently inert on live data
+
+**What shipped:** picked up in-progress, uncommitted work (`src/modules/mpsc/PassageGroup.tsx`,
+new; `QuestionList.tsx` wiring it in) that groups questions sharing a
+comprehension passage under one collapsible block instead of repeating the
+passage per question. Fixed what was broken:
+- `PassageGroup` typed its `questions` prop as `McqBankQuestion[]` and
+  passed a `showCorrection` prop to `QuestionCard` that doesn't exist
+  (`tsc` caught both — `QuestionCard` takes any `BankQuestion` and a
+  `showAnswer` boolean). Retyped to `BankQuestion[]`/`Correction`, fixed
+  the prop name.
+- Removed `groupQuestionsByPassage()`, an unused export — `QuestionList.tsx`
+  had its own separate inline grouping `useMemo` and never called it; two
+  slightly different implementations of the same grouping was the actual
+  bug risk, not just dead code.
+- **Real bug, not just a type error:** `QuestionCard` renders its own
+  "📄 Show passage" toggle unconditionally whenever `q.passage` is set.
+  Nesting it inside `PassageGroup` (which already shows the passage once at
+  the group header) meant every question card would *also* show its own
+  duplicate copy of the same passage text. Added a `hidePassage` prop to
+  `QuestionCard`, set it from `PassageGroup`.
+- **Second bug:** a passage referenced by exactly one question still got
+  routed through the heavier `PassageGroup` UI, contradicting the
+  component's own docstring ("used when 2+ questions..."). Fixed the
+  grouping `useMemo` in `QuestionList.tsx` to only group passages with 2+
+  questions; a lone passage now renders as a standalone `QuestionCard`
+  (which already has its own passage disclosure).
+- Minor: hoisted the `corrections` `Record → Map` conversion out of the
+  per-group render loop into a `useMemo`.
+
+**Why this matters more than "tsc passes":** checked what data this
+actually has to work with before calling it done, per this project's
+standing rule against "doesn't crash" being mistaken for "works." Queried
+the live API directly (`GET /api/mpsc/questions?search=passage`) — **the
+`passage` field does not exist anywhere in that response schema.** Many
+question stems literally read "According to the passage..." but the
+passage text itself was never captured server-side for the droplet-hosted
+140,529-question bank. `QuestionList`/`PassageGroup` is only wired into
+`MpscPage.tsx`'s Browse tab, which sources exclusively from that API — so
+as shipped, the grouping logic is correct but has zero live data to ever
+activate on.
+
+The one dataset that *does* carry real `passage` data (396 entries, local
+`src/data/banks/mpsc-state-tax-officer.ts`) is rendered by a completely
+different component, `StateTaxOfficerEnhanced.tsx`, which has its own
+separate, non-grouping passage display (`<StemContext text={q.passage}/>`)
+and never touches `QuestionList`/`PassageGroup`.
+
+**What's still open (flagged, not fixed — user's explicit call):**
+- `PassageGroup` is currently inert on the one screen it's wired into. Left
+  as-is for whenever passage data exists server-side, rather than building
+  further on a screen with nothing to show it.
+- Two paths considered and not taken this session: (a) wire `PassageGroup`
+  into `StateTaxOfficerEnhanced.tsx` instead, where real passage data
+  exists; (b) check whether the droplet's Postgres `questions` table
+  actually has passage text that `row_to_question()` in `mpsc_api/main.py`
+  just never returns (would make this a backend fix, not a data gap). Both
+  deferred, not started.
+
+---
+
 ## 2026-08-10 — Papers tree sitting cards show a real exam name, not "MPSC"
 
 **What shipped:** `src/pages/PapersPage.tsx` sitting cards previously titled

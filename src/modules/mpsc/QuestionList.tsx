@@ -1,7 +1,8 @@
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import type { BankQuestion, ExamPaper } from '@/data/banks/types';
 import type { BankQuestionQuery, Correction } from '@/lib/mpscApi';
 import { QuestionCard } from './QuestionCard';
+import { PassageGroup } from './PassageGroup';
 import { SkeletonRows } from '@/components/states/Skeleton';
 import { EmptyState, ErrorState } from '@/components/states/StateMessage';
 import type { MpscFilters } from './useMpscData';
@@ -149,15 +150,12 @@ export function QuestionList({
         ) : questions.length === 0 ? (
           <EmptyResult filters={filters} onResetFilters={onResetFilters} />
         ) : (
-          questions.map((q) => (
-            <QuestionCard
-              key={q.id}
-              q={q}
-              paper={q.paperId ? paperById.get(q.paperId) : undefined}
-              correction={corrections[q.id]}
-              showAnswer={showAnswers}
-            />
-          ))
+          <PassageGroupedList
+            questions={questions}
+            corrections={corrections}
+            paperById={paperById}
+            showAnswers={showAnswers}
+          />
         )}
       </div>
     </div>
@@ -204,5 +202,82 @@ function EmptyResult({ filters, onResetFilters }: { filters: MpscFilters; onRese
       }
       primary={{ label: 'Reset all filters', onClick: onResetFilters }}
     />
+  );
+}
+
+/**
+ * Renders questions grouped by shared passages. Questions with the same passage
+ * are wrapped in PassageGroup; questions without passages are rendered standalone.
+ */
+function PassageGroupedList({
+  questions,
+  corrections,
+  paperById,
+  showAnswers,
+}: {
+  questions: BankQuestion[];
+  corrections: Record<string, Correction>;
+  paperById: Map<string, ExamPaper>;
+  showAnswers: boolean;
+}) {
+  const groups = useMemo(() => {
+    // Group questions by passage
+    const map = new Map<string, BankQuestion[]>();
+
+    for (const q of questions) {
+      const key = q.passage || '__NONE__';
+      if (!map.has(key)) {
+        map.set(key, []);
+      }
+      map.get(key)!.push(q);
+    }
+
+    // Return as ordered array: groups with passages first, then ungrouped.
+    // A passage shared by only one question renders standalone (via
+    // QuestionCard's own passage disclosure) rather than through the
+    // heavier PassageGroup UI, which exists for 2+ shared questions.
+    const withPassage = Array.from(map.entries())
+      .filter(([key, qs]) => key !== '__NONE__' && qs.length >= 2)
+      .map(([passage, qs]) => ({ passage, questions: qs }));
+
+    const standalone = Array.from(map.entries())
+      .filter(([key, qs]) => key === '__NONE__' || qs.length < 2)
+      .flatMap(([, qs]) => qs)
+      .map((q) => ({ passage: '', questions: [q] }));
+
+    return [...withPassage, ...standalone];
+  }, [questions]);
+
+  const correctionsMap = useMemo(() => new Map(Object.entries(corrections)), [corrections]);
+
+  return (
+    <>
+      {groups.map((group, i) => {
+        if (group.passage) {
+          // Multiple questions with same passage — group them
+          return (
+            <PassageGroup
+              key={`passage-${i}`}
+              passage={group.passage}
+              questions={group.questions}
+              corrections={correctionsMap}
+              showCorrections={showAnswers}
+            />
+          );
+        } else {
+          // Single question without passage — render standalone
+          const q = group.questions[0];
+          return (
+            <QuestionCard
+              key={q.id}
+              q={q}
+              paper={q.paperId ? paperById.get(q.paperId) : undefined}
+              correction={corrections[q.id]}
+              showAnswer={showAnswers}
+            />
+          );
+        }
+      })}
+    </>
   );
 }

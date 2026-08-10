@@ -9,6 +9,162 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-08-10 — Real loading/empty/error states, not `<div>Loading…</div>`
+
+**What shipped:** every data-driven view in the app rendered plain
+"Loading…" text (or nothing) while a fetch was in flight, and an empty
+result set looked identical to a bug. Built three shared components against
+the mockup's `isStates` block (`designs/Jabreeze - Redesign.dc.html`,
+lines 948-1001) rather than a freehand equivalent:
+
+- `src/components/states/Skeleton.tsx` — `SkeletonRows` (question-card-
+  shaped placeholders, real row height, staggered `om-pulse` delays),
+  `SkeletonBar`, `SkeletonCards`. `om-pulse` itself was missing from
+  `src/styles/motion.css` — the mockup defines it inline (`@keyframes
+  om-pulse { 0%,100% {opacity:1} 50% {opacity:.45} }`) but it was never
+  ported into the shared stylesheet the handoff brief assumed it lived in;
+  added it there now.
+- `src/components/states/StateMessage.tsx` — `EmptyState`/`ErrorState`,
+  one component with a `tone`, matching the mockup's single `s.isMessage`
+  branch that Empty/Error/Offline all share.
+- `src/lib/useOnline.ts` + `src/components/states/OfflineBanner.tsx` — a
+  real `navigator.onLine` + `online`/`offline` event signal, wired into
+  `AppShell.tsx` so it shows app-wide, not the mockup's static demo card.
+
+Wired into the actual live spots: Question Bank's `QuestionList.tsx`
+(skeleton while `useBankQuestionPage` is in flight, `ErrorState` with a
+real retry on fetch failure — the hook now tracks `error`/`retry` instead
+of silently coercing a failed fetch to an empty result), Papers
+(`PapersPage.tsx`, tree sidebar + sitting cards), Tests (`TestsPage.tsx`,
+test library grid + attempts panel), Library (`LibraryLandingPage.tsx`,
+set grid + empty state).
+
+**Deliberate deviations from the mockup, not oversights:** the mockup's
+Empty state names the exact count a dropped filter would recover ("rules
+out 42,201… brings back 214"). That number isn't cheaply computable here
+— it would be a facets query per active filter dimension — so faking a
+plausible figure would be exactly the kind of fabrication this bank's
+already been burned by (see the 2026-08-04 entries below). Question Bank's
+empty state instead names which filters are active and offers one-click
+reset; still actionable, not invented. Skipped building the mockup's
+literal `isStates` tab (a documentation page showing all 5 states
+side-by-side) entirely — it's a design reference, not something an end
+user needs; the real treatment on the real views is higher value.
+
+**What's still open:** no automated test coverage for the new components.
+The "Error in test" state (TestPlayer mid-sitting connectivity loss) was
+explicitly out of scope this pass — TestPlayer/ResultsView were left
+untouched to avoid conflicting with another workstream in this session;
+its existing localStorage autosave (`useAttemptState.ts`) already covers
+the "must never lose work" requirement, just without the mockup's warning
+banner UI.
+
+---
+
+## 2026-08-10 — Figure-based questions flagged and pulled from scored tests (backend, not this repo)
+
+**What shipped:** user asked whether image/diagram questions were extracted
+correctly. They weren't — checked the live droplet DB directly rather than
+assume: 84 questions (non-verbal reasoning pattern-series items, plus
+genuine circuit/gear/geometry-diagram questions) reference a figure/diagram
+in their stem that was never captured anywhere — no image column exists in
+`questions` at all. A sample of these had literal OCR-debris options like
+`['option a', 'option b', 'option c', 'option d']` or `['Figure (a)', ...]`,
+meaning a learner could land on one in a scored mock test with no way to
+answer it correctly regardless of subject knowledge.
+
+Added `questions.figure_based boolean default false` to the live Postgres
+DB on `shiksha-dev`, backfilled via a calibrated regex over `question` text
+(`following figure(s)`, `problem figures`, `diagram below/above`, etc. —
+tuned against a hand-reviewed sample to avoid false positives like
+bracket-notation matrix answers, which look like placeholder OCR debris but
+are real text). `row_to_question()` in `mpsc_api/main.py` now returns
+`figureBased`, which the frontend already knew how to render — `QuestionCard.tsx`
+and `StateTaxOfficerEnhanced.tsx` have had a `figureBased` badge/exclusion
+path since the old hand-curated banks, it just never received real data
+for the droplet-hosted 73,405-question batch. `/api/mpsc/questions/sample`
+(every scored practice test and "Mock test from these" call) now excludes
+`figure_based = true` server-side; Browse mode still shows them, badged, so
+they're not silently hidden — a learner can still read them, just can't be
+scored on them.
+
+Verified against production data before writing anything: 84 matched, hand-
+reviewed the full list (not just a sample) for false positives. After
+deploy: confirmed the badge renders live (`/question-bank?search=output+Y+of
++the+logic+circuit` → `Q-db712ab5`, "FIGURE-BASED" pill), and a live 100-
+question sample from `/api/mpsc/questions/sample` returned zero flagged
+questions.
+
+**Why:** same session as the papers-grouping fix above — another instance of
+"verify against the actual data, don't trust that extraction worked" per
+this project's standing rule (see CLAUDE.md, and the original 280-question
+silent-loss incident this rule exists because of).
+
+**What's still open:**
+- This is detection by stem-text pattern, not a real backfill of the
+  missing images — the questions are excluded from scoring, not fixed. A
+  real fix means re-extracting images from the source PDFs, which needs the
+  original archive and is out of scope for a flagging pass.
+- The detector is stem-text-only; it won't catch a figure-dependent
+  question phrased without any of the matched trigger words. Precision was
+  prioritized over recall — a missed one still shows an unanswerable
+  question, but that was already true before this fix.
+- Did not check the ~2,324 questions with no `paper_id` for the same issue
+  specifically, though the regex ran over the whole `questions` table so
+  any of those matching the pattern are already flagged.
+
+---
+
+## 2026-08-10 — Papers-tree grouping fixed on mpsc_api (backend, not this repo)
+
+**What shipped:** `_sitting_key()` in `~/mpsc_api/main.py` on the `shiksha-dev`
+droplet fell back to `exam_type|exam_name|post|year` whenever a paper's
+`source_file` was NULL — and `source_file` is NULL for **all** of
+Departmental/LDE/Competitive and ~80% of Direct (1,586 of 1,750 papers,
+confirmed via direct query). Since `post` is also usually NULL for these,
+every paper sharing an exam_type+year collapsed into one "sitting" — the
+Departmental·2026 bucket alone held 114 unrelated papers as if they were one
+exam. Fix: fall back to the paper's own `id` column (which, it turns out, is
+literally the source PDF's title/filename — the exact signal `source_file`
+was supposed to carry) before falling back to the coarse key. Same title-
+normalising regex, just fed a different source string when `source_file` is
+absent.
+
+Verified against production data before touching the live endpoint: old
+grouping produced 211 sittings (largest = 138 papers); new grouping produces
+1,506 (largest = 7) — a shape that actually looks like real exam sittings.
+Backed up `main.py`, patched the two-line change, `py_compile` before
+restart, `systemctl restart mpsc-api`, confirmed via the live
+`/api/papers/tree/` response and then in the deployed frontend
+(`/papers` → Departmental → 2026 now shows "96 sittings", not one 114-paper
+card). Pure backend change — no frontend deploy needed, no schema migration,
+no data written.
+
+**Why:** flagged as a known gap in the same-day "Papers & Tests rebuilt"
+entry above; user asked for it fixed next. This was the collapse this
+session's Papers rebuild had explicitly *not* tried to paper over on the
+frontend — grouping data that's wrong at the source stays wrong no matter
+how the UI renders it.
+
+**What's still open:** the ~7% of papers with neither `source_file` nor a
+distinctive `id` (rare, mostly the `exam_type=''`/`'Unspecified'` bucket)
+still group coarsely — not worth a special case for a handful of papers.
+`post` remains mostly NULL across the bank; a real fix there would need
+re-running extraction against the source PDFs, out of scope for a grouping
+patch.
+
+**Considered and deliberately skipped:** a Technical/Non-Technical sort axis
+for Papers, requested in the same conversation. Real distinction in MPSC's
+own exam structure (confirmed genuine technical posts — AE/SDO, Geologist,
+Entomologist, Draftsman — and non-technical ones — District Organiser, Case
+Worker, Assistant Sub-Inspector — in the `post` column), but **1,587 of
+1,750 papers (91%) have no `post` value at all**, so a classifier could only
+ever cover the remaining 9%. User agreed to skip until post-name coverage
+improves via a future extraction pass, rather than ship a filter that
+defaults 91% of the bank to "Unspecified."
+
+---
+
 ## 2026-08-10 — Papers & Tests rebuilt against the actual mockup markup, not the prose spec
 
 **What shipped:**

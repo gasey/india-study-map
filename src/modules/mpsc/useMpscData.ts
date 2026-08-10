@@ -120,28 +120,37 @@ export const emptyFilters: MpscFilters = {
 
 const PAGE_SIZE = 25;
 
-/** One filtered/sorted/paginated page of questions, fetched live. */
+/** One filtered/sorted/paginated page of questions, fetched live.
+ *
+ *  Now surfaces `error` (previously a failed fetch was silently coerced to an
+ *  empty result, which the UI could not tell apart from a legitimately empty
+ *  filter) and a `retry` that re-runs the same fetch — both consumed by the
+ *  Browse list's real error state. `retry` bumps a nonce so the effect re-runs
+ *  even when the filters/sort are unchanged. */
 export function useBankQuestionPage(filters: MpscFilters, offset: number, sortBy: api.BankQuestionQuery['sortBy'], sortDir: api.BankQuestionQuery['sortDir']) {
-  const [state, setState] = useState<{ total: number; questions: BankQuestion[]; loading: boolean }>({ total: 0, questions: [], loading: true });
+  const [state, setState] = useState<{ total: number; questions: BankQuestion[]; loading: boolean; error: boolean }>(
+    { total: 0, questions: [], loading: true, error: false },
+  );
+  const [nonce, setNonce] = useState(0);
   const key = JSON.stringify({ filters, offset, sortBy, sortDir });
 
   useEffect(() => {
     let cancelled = false;
-    setState((s) => ({ ...s, loading: true }));
+    setState((s) => ({ ...s, loading: true, error: false }));
     api.listBankQuestions({ ...filters, sortBy, sortDir, limit: PAGE_SIZE, offset })
       .then((r) => {
-        if (!cancelled) setState({ ...r, loading: false });
+        if (!cancelled) setState({ ...r, loading: false, error: false });
       })
       .catch(() => {
-        if (!cancelled) setState({ total: 0, questions: [], loading: false });
+        if (!cancelled) setState({ total: 0, questions: [], loading: false, error: true });
       });
     return () => {
       cancelled = true;
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [key]);
+  }, [key, nonce]);
 
-  return state;
+  return { ...state, retry: () => setNonce((n) => n + 1) };
 }
 
 /** Per-dimension counts for the current filter combination — powers the

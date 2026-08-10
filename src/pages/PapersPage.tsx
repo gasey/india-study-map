@@ -6,6 +6,8 @@ import type { PapersTreeExamType, PapersTreeSitting } from '@/lib/mpscApi';
 import type { McqBankQuestion } from '@/data/banks/types';
 import { TestPlayer } from '@/modules/mpsc/TestPlayer';
 import { savePaper } from '@/modules/mpsc/useAttemptState';
+import { SkeletonBar, SkeletonRows } from '@/components/states/Skeleton';
+import { EmptyState } from '@/components/states/StateMessage';
 
 // ============================================
 // Papers browse — the Jabreeze "Browse Papers" pane, ported from the design
@@ -126,7 +128,13 @@ export default function PapersPage() {
         <div className="text-[10px] font-mono tracking-[0.12em] uppercase mb-3" style={{ color: 'var(--text-muted)' }}>
           Exam tree
         </div>
-        {loading && <div className="text-sm" style={{ color: 'var(--text-secondary)' }}>Loading…</div>}
+        {loading && (
+          <div className="flex flex-col gap-2.5" aria-label="Loading exam tree">
+            {[0, 1, 2, 3, 4, 5].map((i) => (
+              <SkeletonBar key={i} w={`${88 - i * 6}%`} h={15} delay={i * 0.08} />
+            ))}
+          </div>
+        )}
         {!loading && examTypes.length === 0 && (
           <div className="text-sm" style={{ color: 'var(--text-secondary)' }}>No papers found.</div>
         )}
@@ -186,7 +194,28 @@ export default function PapersPage() {
           </div>
         )}
 
-        {!selectedYear && !loading && (
+        {loading && (
+          <div className="flex flex-col gap-3" aria-label="Loading papers">
+            {[0, 1].map((i) => (
+              <div
+                key={i}
+                className="rounded-xl p-[16px_18px]"
+                style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}
+              >
+                <SkeletonRows rows={2} />
+              </div>
+            ))}
+          </div>
+        )}
+
+        {!loading && examTypes.length === 0 && (
+          <EmptyState
+            heading="No papers found"
+            body="The papers tree came back empty. If this looks wrong, it's worth checking the source rather than assuming there are no papers."
+          />
+        )}
+
+        {!selectedYear && !loading && examTypes.length > 0 && (
           <div className="text-sm" style={{ color: 'var(--text-secondary)' }}>
             Pick an exam and year from the tree to see its papers.
           </div>

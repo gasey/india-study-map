@@ -9,6 +9,161 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-08-12 — Nihongo grammar course (real content, sourced from Tatoeba), plus a quiz-component dedup
+
+**What shipped:** The Nihongo module (kana + deck, previous entry) wasn't
+actually a "course" — no grammar, no progression, just a chart and a
+flashcard deck. Added a real 6-stage grammar path
+(`src/data/nihongo/course.ts`, rendered by the new
+`src/modules/nihongo/NihongoCourse.tsx`, a second tab in `/nihongo`
+alongside Kana): sentence basics (は/です) → particles (を/に/で) → verbs
+(ます form + the three conjugation groups) → adjectives (い/な) →
+questions (か) → a closing "read three real sentences" stage, same idea
+as Python's stage 6.
+
+**Why sourced from Tatoeba specifically:** Python and Postgres hit "real
+content, not filler" by quoting the user's own project code — there's no
+equivalent artifact for Japanese grammar. Per direct instruction ("from
+api"), every example sentence in the course was pulled live from
+`api.tatoeba.org` (confirmed reachable; `showtrans=all` returns bundled
+English translations) rather than invented — e.g. stage 1's example
+(私は学生です. / "I am a student.") is a real, CC BY 2.0 FR-licensed
+sentence, attributed per stage as `source: 'Tatoeba (CC BY 2.0 FR)'`.
+Stage 6 strings together three more real sentences deliberately left
+partially unglossed (お忙しい's polite お- prefix isn't taught anywhere
+in the course) — same "go read something real, not a fully-scaffolded
+textbook example" move as Python's closing stage.
+
+**Also: deduped the quiz component.** Building this would have made a
+*third* byte-identical copy of `PyQuiz.tsx`/`PgQuiz.tsx` (same component,
+different type import). Extracted `src/lib/quizTypes.ts` (`QuizQuestion`)
+and `src/components/shared/MiniQuiz.tsx`, deleted both originals, and
+repointed `PythonPage.tsx`/`PostgresPage.tsx` to the shared component —
+two duplicates was arguably a coincidence of mirroring one module: three
+was a pattern worth collapsing before it calcified further. `PyStage`/
+`PgStage`'s own `PyQuizQuestion`/`PgQuizQuestion` types were removed
+outright (not kept as deprecated aliases) since nothing else imported
+them except the files just deleted.
+
+**Also:** `nihongoCourseLastStage` store field + Home resume card, same
+pattern as `pythonLastStage`/`postgresLastStage` — confirmed live, all
+three now show up in "Jump back in" simultaneously.
+
+**Verified live:** dev server, `/nihongo` → Grammar course tab renders
+all 6 stages, stage 1's real example sentence + attribution display
+correctly, answered a quiz question (correct-answer highlight +
+explanation). Re-checked `/code` (Python) after the MiniQuiz extraction —
+still renders and its quiz buttons are intact, confirming the refactor
+didn't regress it. `tsc && vite build` passes clean; `MiniQuiz` now
+builds as its own shared chunk instead of being duplicated into both
+`PythonPage`/`PostgresPage` bundles.
+
+**What's still open:** Dictionary search and admin-authored grammar notes
+(as opposed to this fixed 6-stage course) remain deferred — same reasons
+as before (need a backend or a CORS-proxy hack this app doesn't have
+precedent for).
+
+---
+
+## 2026-08-12 — Nihongo module: kana chart/quiz + a real deck, not a new engine
+
+**What shipped:** A "Nihongo" module (`/nihongo`, in More next to Python and
+Postgres). Two pieces, deliberately built differently:
+
+- **Kana chart + quiz** (`src/data/kana.ts`, `src/modules/nihongo/KanaChart.tsx`,
+  `KanaQuiz.tsx`) — ported verbatim from the `nihongo-app` prototype
+  (hiragana/katakana table, the hand-rolled `romajiToKana()` converter, MCQ +
+  type-romaji quiz modes). No spaced repetition here — same as the
+  prototype, kana drilling is a flat quiz, not a scheduled review.
+- **Vocab & Kanji deck** (`src/data/decks/nihongo-cards.ts`, 24 words + 12
+  kanji seeded from the prototype's `SEED_VOCAB`/`SEED_KANJI`) — registered
+  as a normal entry in `src/data/decks/index.ts`. This is the one that
+  matters architecturally: it needed **zero new code**. This app already
+  has a real SM-2 engine (`src/lib/sm2.ts`) shared by the Flashcards page
+  and the Recall → Due Today tab, keyed only on `deckProgress[deckId]` —
+  register a deck, and grading/scheduling/undo/due-filtering all just work.
+
+**Why this shape, not a website-style rebuild:** Earlier the same
+Japanese-learning feature set was built into the separate `website` repo
+against Supabase (real accounts, server-tracked SRS). The user asked for
+it in *this* app instead, "first" — before deciding anything about
+sharing that backend. `india-study-map` is a single-user, no-login,
+localStorage app by design (its own CLAUDE.md is explicit about this) —
+building a second bespoke SRS system here to mirror nihongo-app's
+add-a-word-to-review flow would have fought that design and duplicated
+`sm2.ts` for no reason. Reusing the existing deck system instead means the
+Nihongo deck automatically shows up in Flashcards' deck selector, Recall's
+due-today queue, and `stats.ts`'s `flashcardsRemaining()` — confirmed live
+(see below), not just by inspection.
+
+Also added: `?deck=<id>` query param support to `FlashcardsPage.tsx` (it
+only ever defaulted to `decks[0]`) so `/nihongo`'s "Vocab & Kanji deck"
+card can deep-link straight into `/flashcards?deck=nihongo` — generically
+useful for any deck, not nihongo-specific.
+
+**Deferred, not dropped:** dictionary search (Jisho) and grammar notes
+from the original nihongo-app feature set aren't here. Dictionary search
+needs either a backend proxy or the same public-CORS-proxy hack the
+prototype used (fragile, and this app has zero networked-lookup
+precedent); grammar notes as *published* content implies an author/reader
+split this single-user app doesn't have a concept of yet. Both are real
+gaps, just out of scope for "get it in here first."
+
+**Verified live:** dev server, `/nihongo` — kana chart renders all 46
+base hiragana, MCQ quiz graded a wrong answer correctly (tally updated,
+auto-advanced) — and `/flashcards?deck=nihongo` — the query param
+pre-selected the deck (confirmed against the dropdown), topic filter
+showed Vocabulary/Kanji, graded a real card (36→35 due, next card
+surfaced, undo worked and was used to leave the deck's progress clean).
+`tsc && vite build` passes clean; `NihongoPage` gets its own lazy chunk.
+
+---
+
+## 2026-08-12 — Postgres & SQL module, mirroring Python
+
+**What shipped:** A new "Postgres & SQL" learning module, added to the
+"More" flyout right next to "Programming & Python" (`/postgres`, same
+6-stage lesson+quiz shape as `/code`). Built by mirroring the Python
+module file-for-file: `src/data/postgres/lessons.ts` (`PgStage[]`),
+`src/modules/postgres/PgQuiz.tsx` (byte-identical logic to `PyQuiz.tsx`,
+just retyped), `src/pages/PostgresPage.tsx` (identical structure to
+`PythonPage.tsx`), a `postgresLastStage` store field + `setPostgresLastStage`
+action (persisted, same as `pythonLastStage`), a new `Home.tsx` "Jump back
+in" resume card, a new `IC.db` icon (no database icon existed in the set),
+and the `/postgres` route in `Root.tsx`.
+
+**Why:** Same reasoning as the Python module — real content sourced from
+the user's own project, not textbook filler. Stages 2 ("Keys, constraints
+& NULL"), 4 ("Bulk INSERT & upsert"), and 5 ("Indexes & aggregates") quote
+directly from `~/workspace/projects/personal/mpsc-backend/load_into_droplet.py`
+and `questions/models.py` — the actual script that bulk-loads 73,405 real
+MPSC questions into the shiksha-dev droplet's live `mpsc_study` Postgres
+database, including its real `execute_values()`/`ON CONFLICT DO NOTHING`
+upsert pattern and its real NOT NULL/foreign-key handling. Stages 1 and 3
+are honest translations/extensions of that same schema (raw SQL DDL for
+the Django model; a join query you could run against it) — deliberately
+*not* labelled with a `source:` field, since they're not verbatim quotes
+and shouldn't claim to be. `--forest` (previously "sci & tech, python")
+is now shared with postgres rather than minting a new near-duplicate hue,
+since it's the same programming/tech bucket.
+
+**Verified live:** ran the dev server, navigated to `/postgres`, switched
+stages, answered a quiz question (correct-answer highlight + explanation
+rendered), confirmed the "Postgres & SQL" entry sits directly under
+"Programming & Python" in the More menu, and confirmed the Home page
+"Jump back in" grid shows a POSTGRES resume card after visiting a stage.
+`tsc && vite build` also passes clean (`PostgresPage` gets its own lazy
+chunk, same as `PythonPage`).
+
+**What's still open:** No in-browser SQL runtime (same deferral as
+Python's Pyodide playground — a different kind of engineering, its own
+scoping pass). Added `.claude/launch.json` at the `personal/` workspace
+root (didn't exist before) pointing at `npm --prefix india-study-map run
+dev`, since this project previously only had its own nested launch config
+and the preview tooling looks for one at the invoked working directory.
+
+---
+
 ## 2026-08-11 — Automated daily Current Affairs pipeline
 
 **What shipped:** `/current-affairs` had a real UI and a designed JSON

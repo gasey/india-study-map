@@ -7,6 +7,8 @@ import { IC, IconSvg } from './icons';
 export const MORE_ITEMS = [
   { id: 'affairs', label: 'Current Affairs', icon: IC.papers, to: '/current-affairs', comingSoon: false },
   { id: 'code', label: 'Programming & Python', icon: IC.code, to: '/code', comingSoon: false },
+  { id: 'postgres', label: 'Postgres & SQL', icon: IC.db, to: '/postgres', comingSoon: false },
+  { id: 'nihongo', label: 'Nihongo', icon: IC.nihongo, to: '/nihongo', comingSoon: false },
   { id: 'games', label: 'Games', icon: IC.games, to: '/games', comingSoon: false },
 ] as const;
 

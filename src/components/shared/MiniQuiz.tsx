@@ -1,12 +1,12 @@
 import { useState } from 'react';
-import type { PyQuizQuestion } from '@/data/python/lessons';
+import type { QuizQuestion } from '@/lib/quizTypes';
 
-// Deliberately NOT the Question Bank engine — there's no real bank data to
-// filter into for Python (checked: zero questions tagged for programming in
-// the live DB). This is a small, locally-authored, click-to-reveal card
-// list: no scoring, timer, or palette, so it reads as a different kind of
-// thing rather than a competing "second question renderer".
-export function PyQuiz({ questions }: { questions: PyQuizQuestion[] }) {
+// Shared by the Python, Postgres, and Nihongo lesson modules — a small,
+// locally-authored, click-to-reveal MCQ list. Deliberately NOT the
+// Question Bank engine (no scoring/timer/palette) — extracted here once a
+// third module needed the identical component (was PyQuiz.tsx/PgQuiz.tsx,
+// byte-for-byte duplicates).
+export function MiniQuiz({ questions }: { questions: QuizQuestion[] }) {
   const [picked, setPicked] = useState<Record<number, number>>({});
 
   if (questions.length === 0) return null;

@@ -215,6 +215,10 @@ export interface AppState {
   /** Last stage id viewed on the Python page — powers Home's "Jump back in"
    *  resume card. Nothing more elaborate than that; no completion tracking. */
   pythonLastStage: string | null;
+  /** Same idea as pythonLastStage, for the Postgres & SQL page. */
+  postgresLastStage: string | null;
+  /** Same idea again, for the Nihongo grammar course tab specifically (not the kana chart/quiz, which has no stages). */
+  nihongoCourseLastStage: string | null;
   mindset: MindsetState;
 
   // actions
@@ -255,6 +259,8 @@ export interface AppState {
   arenaBuyUpgrade: (key: keyof ArenaUpgrades, cost: number, max: number) => void;
 
   setPythonLastStage: (stageId: string) => void;
+  setPostgresLastStage: (stageId: string) => void;
+  setNihongoCourseLastStage: (stageId: string) => void;
 
   setMindsetEnabled: (v: boolean) => void;
   setMindsetPreferredHour: (h: number) => void;
@@ -312,6 +318,8 @@ export const useApp = create<AppState>()(
         upgrades: { shield: 0, revive: 0, focus: 0, boost: 0 },
       },
       pythonLastStage: null,
+      postgresLastStage: null,
+      nihongoCourseLastStage: null,
       mindset: {
         enabled: true,
         preferredHour: 9,
@@ -509,6 +517,8 @@ export const useApp = create<AppState>()(
         set((s) => ({ testResults: [result, ...s.testResults].slice(0, 200) })),
 
       setPythonLastStage: (stageId) => set({ pythonLastStage: stageId }),
+      setPostgresLastStage: (stageId) => set({ postgresLastStage: stageId }),
+      setNihongoCourseLastStage: (stageId) => set({ nihongoCourseLastStage: stageId }),
 
       setMindsetEnabled: (v) =>
         set((s) => ({ mindset: { ...s.mindset, enabled: v } })),
@@ -561,6 +571,8 @@ export const useApp = create<AppState>()(
         chronicle: s.chronicle,
         arena: s.arena,
         pythonLastStage: s.pythonLastStage,
+        postgresLastStage: s.postgresLastStage,
+        nihongoCourseLastStage: s.nihongoCourseLastStage,
         mindset: s.mindset,
       }),
       // Default persist merge is a shallow `{...current, ...persisted}` —

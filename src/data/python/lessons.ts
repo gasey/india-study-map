@@ -10,15 +10,10 @@
 // into it the way build-order.md §7.1 describes would show an empty result.
 // The quizzes below are small, locally-authored MCQ sets instead — clearly
 // a different, honest data source, not a second competing "engine": no
-// scoring, palette, or timer, just a lightweight card list (see PyQuiz.tsx).
+// scoring, palette, or timer, just a lightweight card list (see
+// src/components/shared/MiniQuiz.tsx, shared with Postgres and Nihongo).
 // ============================================
-
-export interface PyQuizQuestion {
-  q: string;
-  options: string[];
-  answerIndex: number;
-  explanation: string;
-}
+import type { QuizQuestion } from '@/lib/quizTypes';
 
 export interface PyStage {
   id: string;
@@ -26,7 +21,7 @@ export interface PyStage {
   blurb: string;
   notes: string[];
   code?: { label: string; source?: string; snippet: string };
-  quiz: PyQuizQuestion[];
+  quiz: QuizQuestion[];
 }
 
 export const pyStages: PyStage[] = [

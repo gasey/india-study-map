@@ -23,6 +23,8 @@ export const IC = {
   code: 'M7 5L3 10l4 5M13 5l4 5-4 5M11 4l-2 12',
   games: 'M5 8h2.5l1-1.5h3l1 1.5H15a2 2 0 012 2v4a2 2 0 01-2 2h-1l-1.5-2h-5L6 16H5a2 2 0 01-2-2v-4a2 2 0 012-2zM7 10.5v2M6 11.5h2M13 10.5h.01M14.5 12h.01',
   search: 'M7 1.5A5.5 5.5 0 1112.5 7 5.5 5.5 0 017 1.5zM11 11l4 4',
+  db: 'M4 5c0-1.1 2.7-2 6-2s6 .9 6 2-2.7 2-6 2-6-.9-6-2zM4 5v10c0 1.1 2.7 2 6 2s6-.9 6-2V5M4 10c0 1.1 2.7 2 6 2s6-.9 6-2',
+  nihongo: 'M3 6h14M4.5 8.5h11M6.5 8.5v9M13.5 8.5v9',
 } as const;
 
 export function IconSvg({ d, size = 18 }: { d: string; size?: number }) {

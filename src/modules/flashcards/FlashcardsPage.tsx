@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import { decks } from '@/data/decks';
 import { useApp } from '@/lib/store';
 import { isDue } from '@/lib/sm2';
@@ -28,7 +28,12 @@ function shuffle<T>(arr: T[]): T[] {
 export function FlashcardsPage() {
   const { theme, toggleTheme, deckProgress, gradeCard, undoGradeCard, resetDeckProgress } = useApp();
 
-  const [deckId, setDeckId] = useState(decks[0]?.id ?? '');
+  // ?deck=<id> lets other pages deep-link straight into a specific deck (e.g. NihongoPage → /flashcards?deck=nihongo).
+  const [searchParams] = useSearchParams();
+  const requestedDeck = searchParams.get('deck');
+  const [deckId, setDeckId] = useState(
+    requestedDeck && decks.some((d) => d.id === requestedDeck) ? requestedDeck : decks[0]?.id ?? ''
+  );
   const deck = decks.find((d) => d.id === deckId) ?? decks[0];
   const [topic, setTopic] = useState(ALL);
   const [hideNotDue, setHideNotDue] = useState(true);

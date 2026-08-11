@@ -37,6 +37,8 @@ const AdminConsolePage = lazy(() => import('./pages/AdminConsolePage'));
 const GamesPage = lazy(() => import('./pages/GamesPage'));
 const AccountPage = lazy(() => import('./pages/AccountPage'));
 const PythonPage = lazy(() => import('./pages/PythonPage'));
+const PostgresPage = lazy(() => import('./pages/PostgresPage'));
+const NihongoPage = lazy(() => import('./pages/NihongoPage'));
 const MindsetPage = lazy(() => import('./pages/MindsetPage'));
 
 function Loading() {
@@ -89,6 +91,8 @@ export function Root() {
             <Route path="/tests" element={<TestsPage />} />
             <Route path="/papers" element={<PapersPage />} />
             <Route path="/code" element={<PythonPage />} />
+            <Route path="/postgres" element={<PostgresPage />} />
+            <Route path="/nihongo" element={<NihongoPage />} />
             <Route path="/games" element={<GamesPage />} />
             <Route path="/account" element={<AccountPage />} />
             <Route path="/admin" element={<AdminConsolePage />} />

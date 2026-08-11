@@ -3,6 +3,7 @@ import { polityCodexCards } from './polity-codex-cards';
 import { currentAffairs2025Cards } from './current-affairs-2025';
 import { mizoramGsCards } from './mizoram-gs';
 import { jsoGkCards } from './jso-gk';
+import { nihongoCards } from './nihongo-cards';
 
 // Register decks here — same pattern as chapters and banks.
 export const decks: Deck[] = [
@@ -29,6 +30,12 @@ export const decks: Deck[] = [
     title: 'JSO/GK Pool',
     description: 'Current Affairs, History, Polity, Environment & Mizoram GK — mined MPSC JSO Paper II pool.',
     cards: jsoGkCards,
+  },
+  {
+    id: 'nihongo',
+    title: 'Nihongo — Vocab & Kanji',
+    description: 'Core beginner vocabulary and the first jōyō kanji — same SM-2 review as every other deck here.',
+    cards: nihongoCards,
   },
 ];
 

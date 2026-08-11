@@ -7,6 +7,8 @@ import { weakTopics } from '@/lib/weakTopics';
 import { levelInfo } from '@/lib/xp';
 import { listResumableAttempts } from '@/modules/mpsc/useAttemptState';
 import { pyStages } from '@/data/python/lessons';
+import { pgStages } from '@/data/postgres/lessons';
+import { nihongoStages } from '@/data/nihongo/course';
 import { IC, IconSvg } from '@/components/shell/icons';
 import { DailyLearningReset } from '@/components/mindset/DailyLearningReset';
 
@@ -212,16 +214,17 @@ function WeakTopicsPanel() {
 }
 
 // ============================================
-// JUMP BACK IN — ported from the prototype's "resumeCards" block. 4 real
-// surfaces: paused test, Python (new pythonLastStage store field), Games,
-// Study Map. Deliberately no 5th "saved Question Bank filter" card — no
-// filter-persistence exists to back it honestly; adding one just for this
-// card would be inventing state to match a screenshot.
+// JUMP BACK IN — ported from the prototype's "resumeCards" block. 5 real
+// surfaces: paused test, Python (pythonLastStage store field), Postgres
+// (postgresLastStage, same idea), Games, Study Map. Deliberately no
+// "saved Question Bank filter" card — no filter-persistence exists to
+// back it honestly; adding one just for this card would be inventing
+// state to match a screenshot.
 // ============================================
 interface ResumeCard { kicker: string; title: string; meta: string; color: string; to: string }
 
 function JumpBackInGrid() {
-  const { currentChapterId, progress, arena, pythonLastStage } = useApp();
+  const { currentChapterId, progress, arena, pythonLastStage, postgresLastStage, nihongoCourseLastStage } = useApp();
   const cards: ResumeCard[] = [];
 
   const resumable = listResumableAttempts();
@@ -239,6 +242,16 @@ function JumpBackInGrid() {
   if (pythonLastStage) {
     const stage = pyStages.find((s) => s.id === pythonLastStage);
     if (stage) cards.push({ kicker: 'Python', title: stage.title, meta: 'Continue this stage', color: 'var(--forest)', to: '/code' });
+  }
+
+  if (postgresLastStage) {
+    const stage = pgStages.find((s) => s.id === postgresLastStage);
+    if (stage) cards.push({ kicker: 'Postgres', title: stage.title, meta: 'Continue this stage', color: 'var(--forest)', to: '/postgres' });
+  }
+
+  if (nihongoCourseLastStage) {
+    const stage = nihongoStages.find((s) => s.id === nihongoCourseLastStage);
+    if (stage) cards.push({ kicker: 'Nihongo', title: stage.title, meta: 'Continue this stage', color: 'var(--forest)', to: '/nihongo' });
   }
 
   if (arena.runs > 0) {

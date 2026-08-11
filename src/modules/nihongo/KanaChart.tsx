@@ -37,9 +37,12 @@ export function KanaChart() {
       <div className="flex flex-wrap gap-2 items-center">
         <Seg value={script} set={setScript} options={[['hira', 'ひらがな'], ['kata', 'カタカナ']]} />
         <Seg value={group} set={setGroup} options={[['base', 'Basic'], ['dakuten', 'Dakuten'], ['yoon', 'Combo'], ['all', 'All']]} />
-        <div className="ml-auto">
-          <Seg value={mode} set={setMode} options={[['browse', 'Browse'], ['quiz', 'Quiz']]} />
-        </div>
+      </div>
+      {/* Own row, not ml-auto'd inside the wrapping filter row above — on
+          narrow screens that produced a right-floating island with a big
+          empty gap to its left, an easy target to miss/mis-tap. */}
+      <div className="flex">
+        <Seg value={mode} set={setMode} options={[['browse', 'Browse'], ['quiz', 'Quiz']]} />
       </div>
 
       {mode === 'browse' ? (

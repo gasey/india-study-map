@@ -47,7 +47,13 @@ async function fetchTodayArticles() {
   url.searchParams.set('apikey', NEWSDATA_API_KEY);
   url.searchParams.set('country', 'in');
   url.searchParams.set('language', 'en');
-  url.searchParams.set('category', 'politics,world,business,science,environment,sports');
+  // NewsData.io's free tier caps category count at 5 per query
+  // ("Number of category cannot exceeded 5 in a single query" — found by
+  // testing the live request, not documented up front). Dropped 'sports'
+  // to stay under the cap; the remaining five map onto the core GS pillars
+  // (polity, international relations, economy, science & tech, environment)
+  // this app's exams actually test most.
+  url.searchParams.set('category', 'politics,world,business,science,environment');
 
   const res = await fetch(url, { signal: AbortSignal.timeout(15000) });
   if (!res.ok) fail('newsdata_http_error', `${res.status} ${res.statusText}`);

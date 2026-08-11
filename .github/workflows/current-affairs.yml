@@ -5,8 +5,17 @@ name: Daily Current Affairs
 # human reads the generated MCQs and merges. See
 # tools/current-affairs/build.mjs and DEVLOG.md for the full design.
 #
-# Requires three repo secrets (Settings → Secrets and variables → Actions):
-# NEWSDATA_API_KEY, GEMINI_API_KEY, GROQ_API_KEY.
+# Requires four repo secrets (Settings → Secrets and variables → Actions):
+# NEWSDATA_API_KEY, GEMINI_API_KEY, GROQ_API_KEY, and GH_PAT.
+#
+# GH_PAT exists because "Settings → Actions → General → Workflow permissions
+# → Allow GitHub Actions to create and approve pull requests" would not
+# persist when saved for this repo (retested three ways, always reverted on
+# reload — looks like an org/enterprise policy overriding it, not something
+# fixable from repo settings). That toggle only governs the auto-generated
+# GITHUB_TOKEN; a personal access token isn't subject to it. GH_PAT should
+# be a fine-grained PAT scoped to just this repo, with Contents: Read and
+# write + Pull requests: Read and write permissions.
 
 on:
   schedule:
@@ -44,6 +53,7 @@ jobs:
         id: pr
         uses: peter-evans/create-pull-request@v6
         with:
+          token: ${{ secrets.GH_PAT }}
           commit-message: 'Current affairs: ${{ steps.date.outputs.value }}'
           title: 'Current affairs: ${{ steps.date.outputs.value }}'
           body: |

@@ -33,6 +33,7 @@ const HEADER_BY_PATH: Record<string, { kicker?: string; title: string }> = {
   '/mpsc': { title: 'MPSC Old Questions' },
   '/state-tax-officer': { title: 'State Tax Officer' },
   '/admin': { title: 'Admin' },
+  '/mindset': { title: 'Return to Peace' },
 };
 
 function headerFor(pathname: string) {

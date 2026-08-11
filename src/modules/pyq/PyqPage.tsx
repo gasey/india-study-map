@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import * as api from '@/lib/mpscApi';
 import { banks } from '@/data/banks';
@@ -84,6 +84,18 @@ export function PyqPage() {
   const prog = bankProgress[bankId];
   const mastered = prog?.mastered.length ?? 0;
 
+  // Soft, session-local "want to sit with this?" nudge — not persisted, not
+  // shaming. A quick answer (picked within a couple seconds of the question
+  // appearing) isn't inherently bad, but a run of them in a row is a decent
+  // proxy for "answering before really looking" rather than genuine fast
+  // recall. See DEVLOG for why this is scoped to PYQ Practice only.
+  const shownAtRef = useRef(Date.now());
+  const [quickStreak, setQuickStreak] = useState(0);
+  const [nudgeDismissed, setNudgeDismissed] = useState(false);
+  useEffect(() => {
+    shownAtRef.current = Date.now();
+  }, [idx, poolKey]);
+
   const answer = (i: number) => {
     if (picked !== null || !q) return;
     setPicked(i);
@@ -91,7 +103,12 @@ export function PyqPage() {
     setSession((s) => ({ right: s.right + (correct ? 1 : 0), wrong: s.wrong + (correct ? 0 : 1) }));
     recordBankAttempt(bankId, q.id, correct);
     api.logAttempt({ subject: q.subject, topic: q.topic, topicLabel: q.topicLabel, source: `bank:${bankId}`, correct });
+
+    const elapsed = Date.now() - shownAtRef.current;
+    setQuickStreak((n) => (elapsed < 3000 ? n + 1 : 0));
   };
+
+  const showNudge = quickStreak >= 2 && !nudgeDismissed;
 
   const next = () => {
     setPicked(null);
@@ -246,6 +263,18 @@ export function PyqPage() {
                       ))}
                     </div>
                   )}
+                  {showNudge && (
+                    <div className="mt-4 rounded-lg px-3.5 py-2.5 flex items-center justify-between gap-3 text-xs" style={{ background: 'var(--bg-panel-elev)', border: '1px solid var(--border)' }}>
+                      <span style={{ color: 'var(--text-secondary)' }}>
+                        You may be escaping uncertainty. Want to sit with one for 2 minutes?
+                      </span>
+                      <div className="flex items-center gap-3 shrink-0">
+                        <Link to="/mindset" style={{ color: 'var(--accent)' }} className="hover:underline">Sit with it →</Link>
+                        <button onClick={() => setNudgeDismissed(true)} style={{ color: 'var(--text-muted)' }}>Dismiss</button>
+                      </div>
+                    </div>
+                  )}
+
                   <div className="mt-4 flex justify-end">
                     <button
                       onClick={next}

@@ -8,6 +8,7 @@ import { levelInfo } from '@/lib/xp';
 import { listResumableAttempts } from '@/modules/mpsc/useAttemptState';
 import { pyStages } from '@/data/python/lessons';
 import { IC, IconSvg } from '@/components/shell/icons';
+import { DailyLearningReset } from '@/components/mindset/DailyLearningReset';
 
 const MODULE_ICON: Record<string, string> = {
   map: IC.map,
@@ -249,7 +250,7 @@ function JumpBackInGrid() {
   return (
     <div>
       <SectionLabel>Jump back in</SectionLabel>
-      <div className="grid gap-3" style={{ gridTemplateColumns: `repeat(${Math.min(cards.length, 4)}, minmax(0, 1fr))` }}>
+      <div className="grid gap-3" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))' }}>
         {cards.map((c) => (
           <Link
             key={c.kicker}
@@ -278,7 +279,7 @@ function ModuleGroupedCards() {
         return (
           <div key={cat}>
             <SectionLabel>{cat}</SectionLabel>
-            <div className="grid grid-cols-3 gap-3">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
               {group.map((m) => (
                 <ModuleLink
                   key={m.id}
@@ -307,7 +308,8 @@ export function Home() {
     <div className="h-full overflow-y-auto scroll-panel">
       <div className="max-w-[1000px] mx-auto px-8 py-9 flex flex-col gap-6">
         <GreetingHeader />
-        <div className="grid gap-4" style={{ gridTemplateColumns: 'minmax(0, 1.55fr) minmax(0, 1fr)' }}>
+        <DailyLearningReset />
+        <div className="grid gap-4 grid-cols-1 lg:[grid-template-columns:minmax(0,1.55fr)_minmax(0,1fr)]">
           <TodaysPlanHero />
           <div className="flex flex-col gap-4">
             <LevelCard />

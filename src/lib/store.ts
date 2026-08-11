@@ -81,6 +81,63 @@ export interface ArenaRunResult {
   streak: number;
 }
 
+export type MindsetCheckIn = 'calm' | 'scattered' | 'avoiding' | 'confused';
+
+export type StruggleType =
+  | 'knowledge-gap'
+  | 'retrieval'
+  | 'concept-confusion'
+  | 'misread-question'
+  | 'panicked'
+  | 'guessed'
+  | 'gave-up-early'
+  | 'distracted';
+
+/** One completed "Sit With It" retrieval attempt — logged whether the
+ *  student got it right, wrong, or bailed with "I still don't know". The
+ *  point is capturing HOW they struggled, not just correct/incorrect. */
+export interface SitWithItAttempt {
+  questionId: string;
+  bankId: string;
+  subject: string;
+  at: number;
+  /** false if they hit "I still don't know" before the timer ran out. */
+  stayedFullDuration: boolean;
+  /** null when answered correctly on the first attempt — nothing to log. */
+  struggleType: StruggleType | null;
+  /** null when they bailed with "I still don't know" (no answer given). */
+  correct: boolean | null;
+}
+
+/** A short, optional end-of-session reflection — never required. */
+export interface DailyReflection {
+  date: string;
+  questionId: string | null;
+  whatConfused: string;
+  whatLearned: string;
+  tryNextTime: string;
+}
+
+/** "Return to Peace" daily mindset system — deliberately local-only, no
+ *  streaks/scores/leaderboards. See DEVLOG for the full feature writeup. */
+interface MindsetState {
+  enabled: boolean;
+  /** 0-23 local hour — the daily card won't appear before this. */
+  preferredHour: number;
+  /** 0=Sun..6=Sat — days the card never appears, regardless of hour. */
+  quietDays: number[];
+  /** toDateString() of the last "Not today" dismissal. */
+  lastDismissedDay: string;
+  lastCheckIn: MindsetCheckIn | null;
+  /** toDateString() the check-in was recorded — check-ins are daily, not permanent. */
+  lastCheckInDay: string;
+  /** Rotates the curated message pool instead of picking fully at random. */
+  lastShownMessageIdx: number;
+  sitWithItLog: SitWithItAttempt[];
+  reflections: DailyReflection[];
+  lastReflectionDay: string;
+}
+
 export type ChronicleTrackMode = 'both' | 'history' | 'polity';
 export type ChronicleView = 'canvas' | 'reading';
 export type ChronicleLens = 'none' | 'heat' | 'mastery';
@@ -155,6 +212,7 @@ export interface AppState {
   /** Last stage id viewed on the Python page — powers Home's "Jump back in"
    *  resume card. Nothing more elaborate than that; no completion tracking. */
   pythonLastStage: string | null;
+  mindset: MindsetState;
 
   // actions
   toggleTheme: () => void;
@@ -192,6 +250,15 @@ export interface AppState {
   arenaBuyUpgrade: (key: keyof ArenaUpgrades, cost: number, max: number) => void;
 
   setPythonLastStage: (stageId: string) => void;
+
+  setMindsetEnabled: (v: boolean) => void;
+  setMindsetPreferredHour: (h: number) => void;
+  setMindsetQuietDays: (days: number[]) => void;
+  dismissMindsetToday: () => void;
+  setMindsetCheckIn: (c: MindsetCheckIn) => void;
+  recordSitWithIt: (a: SitWithItAttempt) => void;
+  recordMindsetReflection: (r: DailyReflection) => void;
+  bumpMindsetMessage: () => void;
 }
 
 function initialLayersFor(chapterId: string): string[] {
@@ -240,6 +307,18 @@ export const useApp = create<AppState>()(
         upgrades: { shield: 0, revive: 0, focus: 0, boost: 0 },
       },
       pythonLastStage: null,
+      mindset: {
+        enabled: true,
+        preferredHour: 9,
+        quietDays: [],
+        lastDismissedDay: '',
+        lastCheckIn: null,
+        lastCheckInDay: '',
+        lastShownMessageIdx: -1,
+        sitWithItLog: [],
+        reflections: [],
+        lastReflectionDay: '',
+      },
 
       toggleTheme: () =>
         set((s) => ({ theme: s.theme === 'light' ? 'dark' : 'light' })),
@@ -404,6 +483,42 @@ export const useApp = create<AppState>()(
         set((s) => ({ testResults: [result, ...s.testResults].slice(0, 200) })),
 
       setPythonLastStage: (stageId) => set({ pythonLastStage: stageId }),
+
+      setMindsetEnabled: (v) =>
+        set((s) => ({ mindset: { ...s.mindset, enabled: v } })),
+
+      setMindsetPreferredHour: (h) =>
+        set((s) => ({ mindset: { ...s.mindset, preferredHour: h } })),
+
+      setMindsetQuietDays: (days) =>
+        set((s) => ({ mindset: { ...s.mindset, quietDays: days } })),
+
+      dismissMindsetToday: () =>
+        set((s) => ({ mindset: { ...s.mindset, lastDismissedDay: new Date().toDateString() } })),
+
+      setMindsetCheckIn: (c) =>
+        set((s) => ({
+          mindset: { ...s.mindset, lastCheckIn: c, lastCheckInDay: new Date().toDateString() },
+        })),
+
+      recordSitWithIt: (a) =>
+        set((s) => ({
+          mindset: { ...s.mindset, sitWithItLog: [a, ...s.mindset.sitWithItLog].slice(0, 200) },
+        })),
+
+      recordMindsetReflection: (r) =>
+        set((s) => ({
+          mindset: {
+            ...s.mindset,
+            reflections: [r, ...s.mindset.reflections].slice(0, 200),
+            lastReflectionDay: r.date,
+          },
+        })),
+
+      bumpMindsetMessage: () =>
+        set((s) => ({
+          mindset: { ...s.mindset, lastShownMessageIdx: s.mindset.lastShownMessageIdx + 1 },
+        })),
     }),
     {
       name: 'india-study-map',
@@ -420,6 +535,7 @@ export const useApp = create<AppState>()(
         chronicle: s.chronicle,
         arena: s.arena,
         pythonLastStage: s.pythonLastStage,
+        mindset: s.mindset,
       }),
       // Default persist merge is a shallow `{...current, ...persisted}` —
       // fine for top-level keys, but a persisted `chronicle` blob from
@@ -437,6 +553,7 @@ export const useApp = create<AppState>()(
             ...p.arena,
             upgrades: { ...current.arena.upgrades, ...p.arena?.upgrades },
           },
+          mindset: { ...current.mindset, ...p.mindset },
         };
       },
     }

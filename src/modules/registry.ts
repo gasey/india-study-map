@@ -88,6 +88,15 @@ export const modules: AppModule[] = [
     kind: 'static',
     path: '/study-mindset/index.html',
   },
+  {
+    id: 'mindset',
+    title: 'Return to Peace',
+    category: 'Study',
+    tagline: 'Daily reset, a 2-minute Sit-With-It practice, your confusion map',
+    glyph: '🌿',
+    kind: 'route',
+    path: '/mindset',
+  },
 
   // ---- Practice: In-app modules ----
   {

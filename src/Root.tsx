@@ -37,6 +37,7 @@ const AdminConsolePage = lazy(() => import('./pages/AdminConsolePage'));
 const GamesPage = lazy(() => import('./pages/GamesPage'));
 const AccountPage = lazy(() => import('./pages/AccountPage'));
 const PythonPage = lazy(() => import('./pages/PythonPage'));
+const MindsetPage = lazy(() => import('./pages/MindsetPage'));
 
 function Loading() {
   return (
@@ -91,6 +92,7 @@ export function Root() {
             <Route path="/games" element={<GamesPage />} />
             <Route path="/account" element={<AccountPage />} />
             <Route path="/admin" element={<AdminConsolePage />} />
+            <Route path="/mindset" element={<MindsetPage />} />
             <Route path="*" element={<Home />} />
           </Routes>
         </Suspense>

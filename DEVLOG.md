@@ -9,6 +9,93 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-08-11 — "Return to Peace": daily learning-mindset practice system
+
+**What shipped:** extended the static `/study-mindset` article into a real
+practice system, local-first against the existing `useApp` zustand store
+(new `mindset` slice, mirrors the `chronicle` sub-state pattern — own
+interface, actions, `partialize`/`merge` entries):
+
+- **`DailyLearningReset`** (`src/components/mindset/DailyLearningReset.tsx`)
+  — a card at the top of `Home.tsx`, gated by `enabled`/`preferredHour`/
+  `quietDays`/`lastDismissedDay`, showing one of 33 curated calm messages
+  (`src/lib/mindsetMessages.ts`) or a mood-adapted line once a check-in
+  (Calm/Scattered/Avoiding/Confused) is picked. "Not today" dismisses with
+  zero penalty — no streak, no missed-day tracking.
+- **`/mindset`** (`src/pages/MindsetPage.tsx`, new route) — 4 tabs:
+  - *Practice*: the Sit-With-It flow. `pickSitWithItQuestion()`
+    (`src/lib/mindsetQueue.ts`) pulls a real MCQ from the student's weakest
+    topic (reuses `weakTopics()`, same exclusion of the server-backed
+    `mpsc-old-questions` bank), falling back to unmastered → random. 120s
+    timer with staged prompts at 0/30/60/90s; options are selectable but
+    the explanation/correctness stays out of the DOM entirely until
+    "Submit answer" or "I still don't know" — no peeking via devtools
+    either. Then "What happened?" — 8 struggle types (knowledge gap,
+    retrieval, concept confusion, misread, panicked, guessed, gave up
+    early, distracted), skippable on a clean correct answer. Then an
+    optional ~60s reflection (3 fields, capped once/day).
+  - *Confusion Map*: struggle-type bar counts from the session log,
+    filterable by subject/date range. Empty state, not a guilt trip.
+  - *This Week*: computed on-demand from the log (no cron) — attempts,
+    times stayed with uncertainty, most common struggle, most-attempted
+    subject. No leaderboard, no score, no streak number.
+  - *Settings*: the on/off toggle, preferred hour, quiet days.
+- **`/study-mindset`** (static article) now ends with a "Return to Peace"
+  copy section + CTA linking into `/mindset`.
+- **PYQ Practice** (`src/modules/pyq/PyqPage.tsx`) — a soft, dismissible,
+  session-local nudge chip after 2+ answers picked within 3s of the
+  question appearing (a proxy for "answering before really looking" —
+  PyqPage has no separate reveal action to instrument, so this is the
+  honest equivalent given the actual UI). Never shaming copy; dismissing
+  hides it for the rest of the session only, nothing persisted.
+
+Verified in the dev server: full Sit-With-It flow end to end (question →
+timer → submit/bail → struggle-type → reflection → loop), Confusion Map
+and This Week populate correctly from real logged attempts, Settings
+toggle/hour/quiet-days all gate the Home card correctly, PyqPage nudge
+chip appears/dismisses correctly, mobile (375px) and iPad (768px) both
+checked for the new surfaces. `tsc --noEmit` and `npm run build` both
+clean.
+
+**Mobile/iPad audit (same pass):** swept every route in `Root.tsx` plus
+the static `/embed/*` modules at 375px and 768px, checking
+`scrollWidth`/programmatic overflow — all clean. Found one real
+pre-existing bug by eye (not scrollWidth-detectable, since the offending
+element was clipped by an `overflow-hidden` ancestor rather than pushing
+the page wider): `Home.tsx`'s hero grid
+(`TodaysPlanHero`/`LevelCard`/`WeakTopicsPanel`) used a hardcoded
+2-column `gridTemplateColumns` with no responsive fallback, so on a
+375px phone the hero column was squeezed to ~130px and its internal
+"Start session" button visually overlapped the "Today's plan" label.
+Fixed three grids in `Home.tsx`:
+- The hero grid → `grid-cols-1 lg:[grid-template-columns:minmax(0,1.55fr)_minmax(0,1fr)]`
+  (stacks below `lg`, side-by-side above it).
+- `JumpBackInGrid`'s per-count `repeat(N, minmax(0,1fr))` →
+  `repeat(auto-fit, minmax(150px, 1fr))` (naturally reflows instead of
+  hardcoding a column count that assumed desktop width).
+- `ModuleGroupedCards`'s fixed `grid-cols-3` → `grid-cols-1 sm:grid-cols-2 lg:grid-cols-3`.
+
+Re-verified all three breakpoints (375px, 768px, 1280px) after the fix —
+mobile stacks single-column with no overlap, tablet shows 2-up, desktop
+keeps the original intended layout.
+
+**Why:** direct user request, following up on the `/study-mindset` article
+from the previous session — wanted it turned from something you read once
+into a daily habit loop, explicitly designed to never add pressure (no
+streaks/scores/leaderboards/guilt anywhere in the new surfaces).
+
+**What's still open:**
+- Local-only — doesn't sync across devices. A confirmed scope cut (see
+  AskUserQuestion answers in this session): no general-purpose backend
+  exists for this app outside the one MPSC-specific FastAPI service, so
+  building this against it would have meant a separate backend project.
+- The PYQ nudge is scoped to that one module; Flashcards/Arena/Map
+  quiz/Current Affairs don't have it yet.
+- No real browser push notifications — the daily card only appears when
+  the student opens the app past their preferred hour.
+
+---
+
 ## 2026-08-11 — Merged MPSC System Analyst prep app; added "The Comfort Trap" study-mindset guide
 
 **What shipped:** two new `kind: 'static'` modules in `src/modules/registry.ts`:

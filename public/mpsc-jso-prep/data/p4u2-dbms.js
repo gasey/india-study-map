@@ -152,6 +152,73 @@ window.MPSC.units.push({
          '</table>' +
          '<p>This connects back to <b>two-phase locking (2PL)</b> from the ACID note: strict 2PL — holding all exclusive locks until commit — is the classic mechanism used to implement Serializable isolation.</p>' +
          '<div class="tip"><b>Trap.</b> Per the ANSI SQL standard, Repeatable Read still permits phantom reads; only Serializable rules them out. (Some engines, e.g. InnoDB\'s Repeatable Read, block most phantoms via gap locking in practice — but for exam purposes, go by the standard ladder above, not a specific engine\'s implementation.)</div>'
+    },
+    {
+      h: 'Evolution of DB & DBMS, and why a DBMS exists at all',
+      b: '<p>The syllabus opens with this as its own line, and it is the "why does this subject exist" question examiners like to open with.</p>' +
+         '<table>' +
+         '<tr><th>Era</th><th>Approach</th><th>Limitation</th></tr>' +
+         '<tr><td>1950s–60s</td><td><b>File-based systems</b> — each application wrote its own flat files (COBOL/FORTRAN programs with hard-coded record layouts)</td><td>Data duplicated across programs; changing a record layout meant rewriting every program that touched it</td></tr>' +
+         '<tr><td>Late 1960s</td><td><b>Hierarchical model</b> (e.g. IBM IMS) — records in a tree, each child has exactly one parent</td><td>Rigid; cannot naturally represent many-to-many relationships</td></tr>' +
+         '<tr><td>1969</td><td><b>Network model</b> (CODASYL) — a graph of owner-member sets, a child can have multiple parents</td><td>Navigation was procedural — the programmer had to know the access path</td></tr>' +
+         '<tr><td>1970</td><td><b>Relational model</b> (E. F. Codd) — data as tables, accessed declaratively</td><td>Query languages (SQL) let you state <em>what</em> you want, not <em>how</em> to navigate to it</td></tr>' +
+         '<tr><td>2000s onward</td><td><b>NoSQL</b> — document (MongoDB), key-value (Redis), column-family (Cassandra), graph (Neo4j)</td><td>Trades strict schema/ACID guarantees for horizontal scale and flexible, semi-structured data</td></tr>' +
+         '</table>' +
+         '<p><b>Database Applications</b> is the syllabus\'s name for the breadth of this: banking, airline reservation, e-commerce, telecom billing, and — for this exam — forensic evidence stores are all "database applications" in this sense.</p>' +
+         '<p><b>Need for data management</b> — why a DBMS replaced raw files, in the five reasons examiners actually test:</p>' +
+         '<ul>' +
+         '<li><b>Data redundancy &amp; inconsistency</b> — the same fact stored in multiple files can go out of sync when only one copy is updated.</li>' +
+         '<li><b>Data integrity</b> — a DBMS enforces constraints (domain, entity, referential) centrally; a flat file has no such enforcement mechanism.</li>' +
+         '<li><b>Concurrent access</b> — a DBMS provides locking/isolation so multiple users can read and write safely at once; concurrent file access easily corrupts data.</li>' +
+         '<li><b>Security</b> — a DBMS offers user-level authentication and column/row-level authorisation; a shared file offers only OS-level file permissions, all-or-nothing.</li>' +
+         '<li><b>Backup &amp; recovery</b> — a DBMS has built-in logging and recovery (see System &amp; Media Recovery); recovering a corrupted flat file has no equivalent mechanism.</li>' +
+         '</ul>' +
+         '<div class="tip"><b>Trap.</b> "Faster hardware" or "cheaper storage" are commonly planted as a wrong option for "why DBMS replaced file systems" — the real drivers are the five <em>data-management</em> problems above, not raw performance.</div>'
+    },
+    {
+      h: 'Introduction to SQL: the DDL / DML / DCL / TCL taxonomy',
+      b: '<p>The syllabus lists "Introduction to SQL" as its own topic, separate from the specific joins/queries already covered above. At this level it is tested as a sorting exercise: given a command, name its category.</p>' +
+         '<table>' +
+         '<tr><th>Category</th><th>Full form</th><th>Commands</th><th>Purpose</th></tr>' +
+         '<tr><td><b>DDL</b></td><td>Data Definition Language</td><td>CREATE, ALTER, DROP, TRUNCATE</td><td>Defines/modifies schema structure (tables, indexes, views)</td></tr>' +
+         '<tr><td><b>DML</b></td><td>Data Manipulation Language</td><td>INSERT, UPDATE, DELETE (and SELECT, in most syllabi)</td><td>Manipulates the data stored inside tables</td></tr>' +
+         '<tr><td><b>DCL</b></td><td>Data Control Language</td><td>GRANT, REVOKE</td><td>Controls who has which privileges</td></tr>' +
+         '<tr><td><b>TCL</b></td><td>Transaction Control Language</td><td>COMMIT, ROLLBACK, SAVEPOINT</td><td>Manages the boundaries of a transaction</td></tr>' +
+         '</table>' +
+         '<p>Example of each in one line: <code>CREATE TABLE Suspects(id INT PRIMARY KEY);</code> (DDL) → <code>INSERT INTO Suspects VALUES(1);</code> (DML) → <code>GRANT SELECT ON Suspects TO investigator;</code> (DCL) → <code>SAVEPOINT before_edit; ROLLBACK TO before_edit;</code> (TCL).</p>' +
+         '<p>Two commands deserve special attention because they sit at category boundaries:</p>' +
+         '<ul>' +
+         '<li><b>TRUNCATE</b> looks like DELETE but is <b>DDL</b>: it deallocates the table\'s data pages wholesale, resets any auto-increment counter, cannot be filtered with a WHERE clause, and — unlike DELETE — is not logged row-by-row, so it usually cannot be rolled back and triggers an implicit commit in most engines.</li>' +
+         '<li><b>SELECT</b> is grouped under DML by most textbooks and this syllabus, though some separately label it <b>DQL</b> (Data Query Language) since it only reads and never manipulates data.</li>' +
+         '</ul>' +
+         '<div class="tip"><b>Trap.</b> "Which category does TRUNCATE belong to" is a favourite MCQ precisely because it reads like a DELETE (a DML verb) but behaves and is classified like DDL.</div>'
+    },
+    {
+      h: 'System & Media Recovery — logs, checkpoints, undo/redo',
+      b: '<p>The "Database security and triggers" note above already draws the headline distinction — <b>system recovery</b> (crash, disk intact) vs <b>media recovery</b> (physical storage loss, needs backup). This note covers the machinery both rely on.</p>' +
+         '<p><b>Write-ahead logging (WAL)</b> is the foundational rule: before any change to a data page is written to disk, the log record describing that change must already be on stable storage. This guarantees that even if the system crashes mid-write, the log has enough information to reconstruct what was intended.</p>' +
+         '<p>Recovery from the log then runs in two conceptual passes:</p>' +
+         '<ul>' +
+         '<li><b>Redo</b> — reapply the changes of every transaction that had <em>committed</em>, in case its updates never made it from buffer to disk before the crash.</li>' +
+         '<li><b>Undo</b> — reverse the changes of every transaction that was still <em>in progress</em> (uncommitted) at the time of the crash, since it must not survive.</li>' +
+         '</ul>' +
+         '<p><b>Checkpoints</b> exist purely to bound how far back recovery has to scan the log. At a checkpoint the DBMS records which transactions are currently active and forces their buffered pages to disk; recovery then only needs to redo/undo from the most recent checkpoint onward, not from the start of the log.</p>' +
+         '<p><b>Media recovery</b> is invoked when the disk itself is lost or corrupted beyond what logs alone can fix: restore the most recent full backup, then roll forward by replaying the <em>archived</em> logs generated since that backup was taken.</p>' +
+         '<div class="tip"><b>Trap.</b> "Redo" and "undo" are often swapped in options: <b>redo</b> is for transactions that <em>did</em> commit, <b>undo</b> is for transactions that did <em>not</em>. Read it as "redo the done, undo the undone."</div>'
+    },
+    {
+      h: 'Two Phase Commit Protocol — coordinator, participants, and the 2PC-vs-2PL trap',
+      b: '<p>The ACID note above already introduces 2PC in brief; this note is the full mechanics, because the syllabus names it as a standalone topic.</p>' +
+         '<p><b>Why it exists:</b> a distributed transaction touches more than one database/site (e.g. updating two branch databases in one logical transfer). Atomicity demands that <em>every</em> site commit, or <em>none</em> do — a site cannot be allowed to commit locally while another aborts. 2PC is the classic protocol that enforces this across independent sites.</p>' +
+         '<p>Roles: one site acts as the <b>coordinator</b>; every other site involved is a <b>participant</b> (also called a cohort).</p>' +
+         '<table>' +
+         '<tr><th>Phase</th><th>Coordinator does</th><th>Participant does</th></tr>' +
+         '<tr><td><b>Phase 1 — Prepare / Voting</b></td><td>Sends VOTE-REQUEST to all participants</td><td>Does the work, writes it to its own log, then replies VOTE-COMMIT (ready) or VOTE-ABORT (cannot proceed) — and can no longer unilaterally change its mind once it votes COMMIT</td></tr>' +
+         '<tr><td><b>Phase 2 — Commit / Decision</b></td><td>If <em>all</em> votes are COMMIT, logs and broadcasts GLOBAL-COMMIT; if <em>any</em> vote is ABORT, broadcasts GLOBAL-ABORT</td><td>Applies the decision (commits or rolls back) and sends an acknowledgement</td></tr>' +
+         '</table>' +
+         '<p>The transaction is only truly durable once the coordinator has logged its GLOBAL-COMMIT decision — that log record is the single point where the whole distributed transaction becomes irrevocably committed.</p>' +
+         '<p><b>Weakness:</b> 2PC is a <b>blocking</b> protocol. A participant that has voted COMMIT and is waiting for the coordinator\'s decision must hold all its locks; if the coordinator crashes at that moment, the participant cannot decide on its own and simply blocks until the coordinator recovers (or a timeout/three-phase-commit extension is used).</p>' +
+         '<div class="tip"><b>Naming trap.</b> <b>Two-Phase Commit (2PC)</b> and <b>Two-Phase Locking (2PL)</b> are unrelated concepts that both abbreviate as "two-phase X" and are deliberately confused in options. 2PC is about <em>atomically committing a single distributed transaction across multiple sites</em> (prepare phase, then commit phase). 2PL is about <em>concurrency control within one transaction\'s lock management</em> (a growing phase that only acquires locks, then a shrinking phase that only releases them) and is what guarantees serialisable isolation — see the concurrency-control note above. If an option mentions "coordinator" or "sites," it is 2PC; if it mentions "growing/shrinking phase" or "locks," it is 2PL.</div>'
     }
   ],
 
@@ -285,6 +352,44 @@ window.MPSC.units.push({
           'data that was deleted and later recovered from a backup',
           'an aggregate value computed from outdated table statistics',
           'a row that is currently locked by another transaction\'s SELECT'], a: 0,
-      e: '<p>A dirty read reads <b>uncommitted</b> data. If the writing transaction later rolls back, the reader has seen a value that never truly existed in the database — the most dangerous of the three standard anomalies, and the only one still possible even at Read Committed\'s neighbour, Read Uncommitted.</p><p>Plain SELECTs do not normally block each other, which is why (d) is not how relational engines behave by default.</p>' }
+      e: '<p>A dirty read reads <b>uncommitted</b> data. If the writing transaction later rolls back, the reader has seen a value that never truly existed in the database — the most dangerous of the three standard anomalies, and the only one still possible even at Read Committed\'s neighbour, Read Uncommitted.</p><p>Plain SELECTs do not normally block each other, which is why (d) is not how relational engines behave by default.</p>' },
+
+    { q: 'Which of the following was the principal driver behind the shift from file-based systems to database management systems?',
+      o: ['Faster CPU clock speeds making file access unnecessary',
+          'Data redundancy, inconsistency and lack of centralised integrity/security control in file-based systems',
+          'A government mandate requiring all applications to use SQL',
+          'File systems being unable to store more than a fixed number of records'], a: 1,
+      e: '<p>File-based systems had each application maintain its own files, causing duplicated data, inconsistency when only one copy was updated, no centralised way to enforce integrity constraints, weak (OS-level, all-or-nothing) security, and no built-in concurrent-access or recovery control — exactly the problems a DBMS was designed to solve.</p><p>Raw hardware speed and record-count limits were never the reason; that distractor is planted specifically because it sounds plausible but is not a data-management concern.</p>' },
+
+    { q: 'In the historical evolution of database systems, the data model that organised records in a tree structure — where every child record has exactly one parent — and preceded the relational model is the',
+      o: ['Network model', 'Hierarchical model', 'Entity-Relationship model', 'Object-oriented model'], a: 1,
+      e: '<p>The <b>hierarchical model</b> (e.g. IBM IMS, late 1960s) arranges records as a tree with a strict one-parent-per-child rule. The <b>network model</b> (CODASYL, 1969) generalised this into a graph, allowing a child multiple parents. Both predate Codd\'s 1970 relational model, which this syllabus otherwise assumes as the default.</p>' },
+
+    { q: 'Which SQL command is classified as DDL (Data Definition Language) even though it removes all rows from a table, unlike DELETE which is DML?',
+      o: ['UPDATE', 'SELECT', 'TRUNCATE', 'REVOKE'], a: 2,
+      e: '<p><b>TRUNCATE</b> deallocates a table\'s data pages wholesale, resets any auto-increment counter, cannot take a WHERE clause, and in most engines cannot be rolled back and forces an implicit commit — so despite reading like a data-manipulation command, it is classified as <b>DDL</b> alongside CREATE/ALTER/DROP.</p><p>DELETE, by contrast, is DML: row-by-row logged and filterable.</p>' },
+
+    { q: 'SAVEPOINT and ROLLBACK TO SAVEPOINT belong to which category of SQL commands?',
+      o: ['DDL', 'DML', 'DCL', 'TCL'], a: 3,
+      e: '<p><b>TCL (Transaction Control Language)</b> manages transaction boundaries: COMMIT, ROLLBACK and SAVEPOINT. A SAVEPOINT marks a point within a transaction that a later ROLLBACK TO can return to without aborting the whole transaction.</p><p>This is distinct from DCL (GRANT/REVOKE, privileges) with which it is frequently confused in option lists.</p>' },
+
+    { q: 'The recovery principle that requires a log record describing a change to be written to stable storage before the corresponding data page is written to disk is called',
+      o: ['Shadow paging', 'Write-ahead logging (WAL)', 'Two-Phase Commit', 'Checkpointing'], a: 1,
+      e: '<p><b>Write-ahead logging</b> is the rule underlying both system and media recovery: the log always precedes the data write, so a crash mid-write still leaves enough log information to redo or undo the change correctly.</p><p>Checkpointing depends on WAL but is a separate mechanism (see next question); shadow paging and 2PC solve different problems entirely.</p>' },
+
+    { q: 'A checkpoint, taken periodically during normal database operation, primarily serves to',
+      o: ['permanently delete all transaction logs older than the checkpoint',
+          'bound how far back the log must be scanned during recovery, by recording which transactions were active and flushing their buffered pages at that point',
+          'convert a system recovery scenario into a media recovery scenario',
+          'eliminate the need for periodic backups'], a: 1,
+      e: '<p>A <b>checkpoint</b> records the set of active transactions and forces their dirty buffer pages to disk. On restart after a crash, recovery only needs to redo/undo from the most recent checkpoint forward — not from the beginning of the log — which is what keeps recovery time bounded.</p><p>It does not replace backups (needed for media recovery) and does not delete logs outright, since logs before a checkpoint may still be needed for media recovery.</p>' },
+
+    { q: 'In the Two-Phase Commit protocol, the phase in which the coordinator sends a VOTE-REQUEST to every participant and each participant replies VOTE-COMMIT or VOTE-ABORT is the',
+      o: ['Commit / decision phase', 'Prepare / voting phase', 'Undo phase', 'Checkpoint phase'], a: 1,
+      e: '<p>The <b>prepare (voting) phase</b> is Phase 1: the coordinator polls all participants, and each participant does its work, logs it, and votes. Only if every vote is COMMIT does the coordinator move to Phase 2 and broadcast GLOBAL-COMMIT; a single ABORT vote forces GLOBAL-ABORT everywhere.</p>' },
+
+    { q: 'A concurrency-control protocol has a "growing phase" in which a transaction may only acquire locks and a "shrinking phase" in which it may only release them, and this is used to guarantee serialisable isolation. This describes',
+      o: ['Two-Phase Commit (2PC)', 'Two-Phase Locking (2PL)', 'Write-ahead logging', 'Media recovery'], a: 1,
+      e: '<p>This growing/shrinking-phase description is <b>Two-Phase Locking (2PL)</b>, a per-transaction lock-management protocol for serialisability.</p><p><b>Two-Phase Commit (2PC)</b> is a different, unrelated protocol — it coordinates atomic commit of one transaction across multiple distributed sites via a prepare phase and a commit phase, with no concept of "growing/shrinking" lock acquisition. The similar names are a deliberate exam trap: look for "coordinator/sites" (2PC) versus "acquire/release locks" (2PL) to tell them apart.</p>' }
   ]
 });

@@ -8,64 +8,18 @@ import { TestPlayer } from '@/modules/mpsc/TestPlayer';
 import { savePaper } from '@/modules/mpsc/useAttemptState';
 import { SkeletonBar, SkeletonRows } from '@/components/states/Skeleton';
 import { EmptyState } from '@/components/states/StateMessage';
-
-const TECHNICAL_POSTS = new Set([
-  'AE/SDO',
-  'AE/SDO (Civil)',
-  'AE/SDO (Electrical)',
-  'AE/SDO (Mechanical)',
-  'Junior Engineer',
-  'Junior Engineer (Civil)',
-  'Junior Engineer (Electrical)',
-  'Junior Engineer (Mechanical)',
-  'Junior Engineer (I&WR)',
-  'Civil Engineer',
-  'Mechanical Engineer',
-  'Electrical Engineer',
-  'Computer Science Engineer',
-  'Geologist',
-  'Draftsman',
-  'Soil Conservation Ranger',
-  'Surveyor',
-  'Fisheries Officer',
-  'Forestry Officer',
-  'Agriculture Officer',
-  'Entomologist',
-  'Veterinary Officer',
-  'Nursing',
-  'Technical Officer',
-  'Mizoram Engineering Service',
-]);
-
-function isPostTechnical(post: string | null): boolean {
-  return post ? TECHNICAL_POSTS.has(post) : false;
-}
+import { isPostTechnical, isPaperSubjectTechnical } from '@/lib/technicalPosts';
 
 // Per-*paper* technical/specialist-subject filter — distinct from the
-// per-*sitting* post filter above. `post` is null on 70-91% of papers (see
-// DEVLOG), so it can only ever gate a sliver of the bank. `paperSubject` is
-// populated far more often and, critically, varies *within* a sitting: a
-// "Technical" exam still has a GS/English/Aptitude paper alongside its
-// subject-specific one, and hiding the whole sitting by post throws out
-// the general paper too. This filters at the paper level instead, so a
-// Junior Engineer sitting's GS paper stays visible even with technical
-// papers hidden.
-const GENERAL_SUBJECT_RE = /\b(gk|general knowledge|gs|general studies|general english|english|comprehension|aptitude|reasoning|mathematics|maths|precis|pr[ée]cis|essay|current affairs)\b/i;
-const TECHNICAL_SUBJECT_RE = /\b(engineering|engineer|technical|veterinary|animal husbandry|horticulture|sericulture|agriculture|fisheries|ophthalmology|obstetrics|gynaecology|gynecology|surgery|medicine|dialysis|radiotherapy|pharmacy|nursing|social work|psychology|home science|sociology|law\b|legal|rules|act\b|manual)\b/i;
-
-// Unclassified subjects (neither pattern matches) default to *not* hidden —
-// erring toward showing content rather than silently dropping something a
-// general-knowledge learner might actually want, per this project's
-// flag-don't-hide bias for uncertain data.
-function isPaperSubjectTechnical(subject: string | null | undefined): boolean {
-  if (!subject) return false;
-  // A general-subject signal wins even if a technical word also appears
-  // (e.g. "General (Aptitude, Legal, Reasoning, English)") — hiding a paper
-  // that's mostly GK/English/Aptitude is worse than occasionally keeping
-  // one with a stray technical-sounding word in its title.
-  if (GENERAL_SUBJECT_RE.test(subject)) return false;
-  return TECHNICAL_SUBJECT_RE.test(subject);
-}
+// per-*sitting* post filter (isPostTechnical, shared with the Question
+// Bank tab — see src/lib/technicalPosts.ts). `post` is null on 70-91% of
+// papers (see DEVLOG), so it can only ever gate a sliver of the bank.
+// `paperSubject` is populated far more often and, critically, varies
+// *within* a sitting: a "Technical" exam still has a GS/English/Aptitude
+// paper alongside its subject-specific one, and hiding the whole sitting
+// by post throws out the general paper too. This filters at the paper
+// level instead, so a Junior Engineer sitting's GS paper stays visible
+// even with technical papers hidden.
 
 // ============================================
 // Papers browse — the Jabreeze "Browse Papers" pane, ported from the design

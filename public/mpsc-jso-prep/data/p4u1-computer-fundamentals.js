@@ -140,6 +140,68 @@ window.MPSC.units.push({
          '<p><b>File operations:</b> create, open, read, write, append, seek, truncate, rename, delete, close.</p>' +
          '<p><b>File types:</b> identified either by an extension/naming convention (<code>.exe</code>, <code>.txt</code> — a convention, not universally enforced) or by internal structure (text vs binary/executable, with defined header formats such as ELF on Linux or PE on Windows).</p>' +
          '<div class="tip"><b>Memory-mapped files.</b> <code>mmap()</code> (Unix) / <code>MapViewOfFile()</code> (Windows) maps a file directly into a process\'s virtual address space, so ordinary load/store instructions read and write it — the OS\'s paging mechanism transparently fetches and flushes data, and several processes can share one mapping as a form of IPC. Because these pages are ordinary pages, they can still be evicted to the pagefile/swap — so a document only ever "viewed" through a memory-mapped viewer can leave recoverable fragments on disk with no explicit save.</div>'
+    },
+    {
+      h: 'Layered architecture and kernel design',
+      b: '<p>The <b>layered approach</b> builds the OS as a stack of layers, each numbered from 0 (hardware-nearest) upward. A layer may call only the operations exported by the layer <em>immediately below</em> it, and it hides its own implementation from every layer above. This is a strict, one-directional dependency — layer <em>N</em> never calls layer <em>N</em>+1.</p>' +
+         '<p>The textbook illustration is Dijkstra\'s <b>THE multiprogramming system</b> (1968): layer 0 processor allocation/scheduling, layer 1 memory management, layer 2 operator-console device driver, layer 3 I/O to peripherals, layer 4 user programs. Each layer could be designed and verified using only the guarantees of the layer beneath it, without knowing how that layer was implemented internally.</p>' +
+         '<ul>' +
+         '<li><b>Advantage:</b> modularity — construction and debugging are simplified because each layer only trusts a well-defined, already-verified interface below it.</li>' +
+         '<li><b>Drawback:</b> defining a workable layer order is hard (some services are naturally mutual — e.g. memory management may need disk I/O, while disk I/O needs memory buffers), and each cross-layer call adds overhead versus a flat design.</li>' +
+         '</ul>' +
+         '<p>In the modern, coarser sense the syllabus also means the generic logical stack: <b>hardware → kernel → shell/system-call interface → user applications</b> — the application never touches hardware directly, only through system calls the kernel exposes.</p>' +
+         '<table>' +
+         '<tr><th>Kernel design</th><th>What lives in kernel space</th><th>Trade-off</th></tr>' +
+         '<tr><td>Monolithic</td><td>Process, memory, file-system and device-driver code all in one address space</td><td>Fast (no IPC for internal calls); one buggy driver can crash the whole kernel. Classic Unix, Linux</td></tr>' +
+         '<tr><td>Microkernel</td><td>Only the bare minimum — IPC, basic scheduling, minimal memory management</td><td>Fault-isolated (a crashed user-space server can be restarted); heavier IPC overhead. Minix, QNX</td></tr>' +
+         '<tr><td>Layered</td><td>Split into the numbered layers described above</td><td>Easy to verify layer-by-layer; rigid ordering and call overhead</td></tr>' +
+         '<tr><td>Hybrid</td><td>A monolithic-style kernel that also runs some services (e.g. graphics, some drivers) as loosely isolated modules</td><td>Practical compromise. Windows NT, macOS XNU</td></tr>' +
+         '</table>' +
+         '<div class="tip"><b>Exam trap.</b> "Layered" and "microkernel" are often confused because both sound modular. Layering is about a strict <em>calling order</em> between adjacent layers; a microkernel is about <em>minimising what runs with kernel privilege</em> — a microkernel design does not require its user-space servers to be arranged in layers at all.</div>'
+    },
+    {
+      h: 'Scheduling criteria',
+      b: '<p>Scheduling <b>algorithms</b> (FCFS, SJF, Priority, Round Robin, …) are the "how"; scheduling <b>criteria</b> are the yardsticks used to judge and compare them. The syllabus lists them as a separate topic because MPSC frequently asks for the formula, not just the name.</p>' +
+         '<table>' +
+         '<tr><th>Criterion</th><th>Meaning</th><th>Goal</th></tr>' +
+         '<tr><td>CPU utilization</td><td>Percentage of time the CPU is doing useful work, not idle</td><td>Maximize</td></tr>' +
+         '<tr><td>Throughput</td><td>Number of processes completed per unit time</td><td>Maximize</td></tr>' +
+         '<tr><td>Turnaround time</td><td><code>Completion time − Arrival time</code> — total time from submission to finish, including waiting</td><td>Minimize</td></tr>' +
+         '<tr><td>Waiting time</td><td><code>Turnaround time − Burst time</code> — total time spent sitting in the ready queue, not running</td><td>Minimize</td></tr>' +
+         '<tr><td>Response time</td><td>Time from submission until the <em>first</em> response/output, not until completion</td><td>Minimize</td></tr>' +
+         '</table>' +
+         '<p>Worked pattern: if a process arrives at time 2, has a CPU burst of 5, and completes at time 10, its turnaround time is 10 − 2 = 8, and its waiting time is 8 − 5 = 3.</p>' +
+         '<div class="tip"><b>Turnaround time vs response time is the classic confusion.</b> A CPU-bound batch job cares about <em>turnaround time</em> (when does it finally finish?). An interactive terminal session cares about <em>response time</em> (how quickly does it start reacting?) — which is precisely why Round Robin, poor on average turnaround time, is favoured for time-sharing systems: it optimises response time instead.</div>'
+    },
+    {
+      h: 'File organization and access methods',
+      b: '<p>A file\'s <b>organization</b> is how its records are physically arranged; its <b>access method</b> is how a program is allowed to retrieve them. The syllabus names three access methods explicitly.</p>' +
+         '<ul>' +
+         '<li><b>Sequential access.</b> Records are written and read strictly in order, one after another; to reach record <em>n</em> every record before it must be passed (conceptually, via a <code>read next</code>/<code>write next</code> pointer). This matches the physical nature of magnetic tape and is efficient whenever a program processes most or all records in one pass, such as payroll or batch billing runs.</li>' +
+         '<li><b>Direct (random) access.</b> The file is treated as a set of fixed-size, numbered logical blocks/records that can be read or written in any order, in roughly equal time — because disks are direct-access storage devices, any block can be addressed directly by its number without reading what precedes it. Ideal for applications needing immediate lookup of a specific record, such as an airline reservation system.</li>' +
+         '<li><b>Indexed sequential access (ISAM).</b> The base file is kept in sequential order by key, and a separate <b>index</b> (sometimes a hierarchy of indices, for very large files) maps key values or ranges to block addresses. A lookup binary-searches the small index to jump close to the target block, then scans a short sequential run — combining fast direct lookup with cheap ordered/range scans. New insertions that don\'t fit in place are usually chained into an <b>overflow area</b>, which is reorganized periodically.</li>' +
+         '</ul>' +
+         '<table>' +
+         '<tr><th>Method</th><th>Best suited medium</th><th>Random lookup cost</th><th>Typical use</th></tr>' +
+         '<tr><td>Sequential</td><td>Tape or any device</td><td>Slow — O(n), must pass prior records</td><td>Batch processing, log files</td></tr>' +
+         '<tr><td>Direct</td><td>Disk (direct-access storage)</td><td>Fast — O(1), addressed by block number</td><td>Databases, reservation systems</td></tr>' +
+         '<tr><td>Indexed sequential</td><td>Disk</td><td>Fast via index, plus efficient ordered scans</td><td>Large keyed datasets needing both lookup and range queries</td></tr>' +
+         '</table>' +
+         '<div class="tip"><b>Exam trap.</b> Don\'t equate "sequential access method" with "sequential file organization" — a file organized sequentially on disk can still, in principle, be accessed directly if the OS supports seeking to an arbitrary byte offset. The syllabus\'s three-way split is about the <em>access method</em> a program is offered, not merely how bytes happen to sit on the platter.</div>'
+    },
+    {
+      h: 'Comparative overview of file systems',
+      b: '<p>Beyond memorising individual facts about NTFS or FAT32, MPSC has asked candidates to compare file systems head-to-head on the dimensions that matter forensically: capacity limits, crash-consistency mechanism, and how access control is expressed.</p>' +
+         '<table>' +
+         '<tr><th>File system</th><th>Max file size</th><th>Journaling</th><th>Permissions model</th></tr>' +
+         '<tr><td>FAT32</td><td>4 GB (32-bit size field)</td><td>None</td><td>None — only basic attributes (read-only, hidden, system, archive)</td></tr>' +
+         '<tr><td>exFAT</td><td>Effectively unlimited (64-bit size field)</td><td>None</td><td>None — same simple attribute bits as FAT32</td></tr>' +
+         '<tr><td>NTFS</td><td>Effectively unlimited (~16 TB+ in practice)</td><td>Yes — metadata journal</td><td>ACL-based (per-user/group Access Control Lists), plus EFS encryption</td></tr>' +
+         '<tr><td>ext4</td><td>16 TB</td><td>Yes — metadata (optionally data) journal</td><td>POSIX owner/group/other bits, extensible via ACLs</td></tr>' +
+         '<tr><td>APFS / HFS+</td><td>Effectively unlimited (APFS); large (HFS+)</td><td>HFS+: yes, journaled; APFS: copy-on-write metadata instead of a traditional journal</td><td>POSIX bits plus ACLs</td></tr>' +
+         '</table>' +
+         '<p><b>Journaling</b> writes pending metadata (and sometimes data) changes to a log before committing them, so an interrupted operation (crash, power loss) can be replayed or rolled back cleanly instead of leaving the volume inconsistent. FAT-family file systems have no journal, which is exactly why they are prone to corruption on unclean removal and need a lengthy CHKDSK/scandisk pass.</p>' +
+         '<div class="tip"><b>Forensic angle.</b> The absence of journaling and permissions on FAT32/exFAT is precisely why those file systems dominate USB drives and camera memory cards — they are the lowest common denominator across OSes — while their lack of ACLs also means FAT-family evidence carries no native access-control trail to examine, unlike NTFS or ext4.</div>'
     }
   ],
 
@@ -281,6 +343,44 @@ window.MPSC.units.push({
           'Bypass the file system entirely and write straight to raw disk sectors',
           'Guarantee a file stays fully resident in RAM until the process exits',
           'Automatically encrypt a file as it is read'], a: 0,
-      e: '<p><code>mmap()</code> maps a file\'s contents into the calling process\'s virtual address space; ordinary memory reads/writes then transparently trigger the OS\'s paging mechanism to fetch or flush data, avoiding explicit read()/write() calls and letting multiple processes share the mapping as a form of IPC.</p><p>It does not guarantee full residency — mapped pages are evicted and reloaded on demand just like any other page, which is why remnants of a memory-mapped document can end up in the pagefile/swap even though the user never explicitly saved it.</p>' }
+      e: '<p><code>mmap()</code> maps a file\'s contents into the calling process\'s virtual address space; ordinary memory reads/writes then transparently trigger the OS\'s paging mechanism to fetch or flush data, avoiding explicit read()/write() calls and letting multiple processes share the mapping as a form of IPC.</p><p>It does not guarantee full residency — mapped pages are evicted and reloaded on demand just like any other page, which is why remnants of a memory-mapped document can end up in the pagefile/swap even though the user never explicitly saved it.</p>' },
+
+    { q: 'In the classic layered approach to operating system design, a routine in layer N is permitted to:',
+      o: ['Call routines in any layer, above or below',
+          'Call only routines in layer N+1, the layer immediately above it',
+          'Call only routines in layer N−1, the layer immediately below it',
+          'Call routines only within its own layer'], a: 2,
+      e: '<p>Each layer is built using only the operations exported by the layer <b>immediately below</b> it, and hides its own implementation from layers above. This strict, one-directional dependency is what let Dijkstra\'s THE system verify each layer using only the already-proven guarantees of the layer beneath it.</p><p>A layer never calls upward — that would break the whole point of the hierarchy, which is to bound how far a bug or a change can propagate.</p>' },
+
+    { q: 'Which kernel design keeps only IPC, minimal scheduling and basic memory management running with kernel privilege, moving services such as device drivers and file systems into user-space servers?',
+      o: ['Monolithic kernel', 'Microkernel', 'Layered kernel', 'Exokernel-only design'], a: 1,
+      e: '<p>A <b>microkernel</b> (Minix, QNX) minimises what runs in kernel space; everything else runs as isolated user-space servers reached via IPC. This isolates faults — a crashed file-system server can often be restarted without taking the whole OS down — at the cost of extra message-passing overhead versus a direct in-kernel call.</p><p>A <b>monolithic kernel</b> (classic Linux) is the opposite: process management, memory management, drivers and file systems all share one kernel address space for speed.</p>' },
+
+    { q: 'A process arrives at time 3, has a CPU burst of 6, and completes execution at time 15. Its waiting time is:',
+      o: ['12', '9', '6', '3'], a: 2,
+      e: '<p>Turnaround time = Completion − Arrival = 15 − 3 = 12. Waiting time = Turnaround time − Burst time = 12 − 6 = <b>6</b>.</p><p>A common slip is stopping at turnaround time (12) and forgetting to subtract the burst — waiting time only counts time spent in the ready queue, not time actually running on the CPU.</p>' },
+
+    { q: 'Which scheduling criterion is measured from the time a process is submitted until it produces its FIRST output, rather than until it finishes entirely?',
+      o: ['Turnaround time', 'Waiting time', 'Response time', 'Throughput'], a: 2,
+      e: '<p><b>Response time</b> measures submission-to-first-response, not submission-to-completion. It is the criterion that matters for interactive, time-sharing systems, which is exactly why Round Robin — mediocre on average turnaround time — is the standard choice there: it is tuned to give quick response time to everyone.</p><p><b>Turnaround time</b>, by contrast, runs all the way to completion, which is what batch systems care about instead.</p>' },
+
+    { q: 'Which file access method is most appropriate for data stored on magnetic tape, where reaching record n requires passing every record before it?',
+      o: ['Direct access', 'Indexed sequential access', 'Sequential access', 'Memory-mapped access'], a: 2,
+      e: '<p><b>Sequential access</b> reads/writes records strictly in order via a "read next"/"write next" pointer, matching the physical constraint of tape (no way to jump straight to an arbitrary point without winding through everything before it).</p><p><b>Direct access</b> requires a device that can address any block in roughly equal time — a property tape does not have but disk does.</p>' },
+
+    { q: 'Indexed sequential access (ISAM) combines which two properties?',
+      o: ['Fixed block size with variable record length',
+          'Fast direct lookup via an index, together with efficient ordered/range scans via the underlying sequential order',
+          'Encryption of records with compression of the index',
+          'Random block allocation with contiguous free-space tracking'], a: 1,
+      e: '<p><b>ISAM</b> keeps the base file sorted by key and layers an index on top mapping keys/ranges to block addresses. A lookup can jump near the target via the index (fast, close to direct access) or scan the file in key order for a range query (retaining the benefit of sequential organization) — the best of both single methods.</p><p>New records that don\'t fit in place typically land in an <b>overflow area</b>, chained until the file is next reorganized.</p>' },
+
+    { q: 'Which file system uses a copy-on-write metadata scheme (rather than a traditional write-ahead journal) to maintain crash consistency, and natively supports space-efficient snapshots?',
+      o: ['FAT32', 'exFAT', 'APFS', 'ext4'], a: 2,
+      e: '<p><b>APFS</b> (Apple File System) uses copy-on-write for its metadata structures — updates are written to new blocks rather than overwritten in place, so a crash mid-update simply leaves the old, still-consistent version intact — and this same COW foundation is what makes cheap, instantaneous snapshots possible.</p><p><b>ext4</b> instead relies on a conventional journal; FAT32 and exFAT have no crash-consistency mechanism of either kind, which is why they need a full CHKDSK/scandisk pass after an unclean removal.</p>' },
+
+    { q: 'Which pair of file systems has NO journaling and NO built-in permissions model, relying only on simple attribute bits (read-only, hidden, system, archive)?',
+      o: ['NTFS and ext4', 'FAT32 and exFAT', 'APFS and HFS+', 'ext4 and HFS+'], a: 1,
+      e: '<p><b>FAT32</b> and <b>exFAT</b> are both from the FAT family: no journal, and no POSIX/ACL-style permissions — only legacy attribute bits. That simplicity is exactly why they remain the lowest-common-denominator choice for USB drives, SD cards and camera media that must be readable across Windows, macOS and embedded devices alike.</p><p><b>NTFS</b> and <b>ext4</b> both journal and both express real permissions (ACLs and POSIX bits respectively); HFS+ also journals.</p>' }
   ]
 });

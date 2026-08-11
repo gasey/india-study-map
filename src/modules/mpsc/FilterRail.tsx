@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { emptyFilters, type MpscFilters } from './useMpscData';
+import { isPostTechnicalLoose } from '@/lib/technicalPosts';
 
 // ============================================
 // FilterRail — collapsible accordion filter panel for Browse/Practice.
@@ -47,6 +48,26 @@ interface FilterRailProps {
 
 export function FilterRail({ filters, onChange, facets }: FilterRailProps) {
   const [open, setOpen] = useState<Record<string, boolean>>(loadOpenState);
+  // "Hide technical posts" — a quick toggle over the same Post facet the
+  // rail already exposes as checkboxes. Unlike PapersPage's Sitting.post
+  // (normalized server-side per exam sitting), this bank's per-question
+  // `post` facet is raw, unnormalized free text with many spelling/casing
+  // variants ("AE/SDO (CIVIL)", "AE/SDO (Assistant Engineer/Sub-Divisional
+  // Officer)", ...) — an exact-Set match against those misses almost every
+  // variant, so this reuses the keyword-regex classifier
+  // (isPaperSubjectTechnical, src/lib/technicalPosts.ts) instead of the
+  // curated TECHNICAL_POSTS set. Recomputes whenever the reachable Post
+  // facet changes (e.g. another filter narrows it), not just on click.
+  const [hideTechnical, setHideTechnical] = useState(false);
+  const postFacetKey = JSON.stringify(facets.post ?? {});
+
+  useEffect(() => {
+    if (!hideTechnical) return;
+    const posts = Object.keys(facets.post ?? {});
+    if (posts.length === 0) return;
+    onChange({ post: posts.filter((p) => !isPostTechnicalLoose(p)) });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [hideTechnical, postFacetKey]);
 
   useEffect(() => {
     try {
@@ -102,6 +123,18 @@ export function FilterRail({ filters, onChange, facets }: FilterRailProps) {
           ))}
         </div>
       )}
+
+      <label className="flex items-center gap-2 text-xs cursor-pointer" style={{ color: 'var(--text-secondary)' }}>
+        <input
+          type="checkbox"
+          checked={hideTechnical}
+          onChange={(e) => {
+            setHideTechnical(e.target.checked);
+            if (!e.target.checked) onChange({ post: [] });
+          }}
+        />
+        Hide technical/specialist posts
+      </label>
 
       <input
         type="text"

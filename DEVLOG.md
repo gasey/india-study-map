@@ -9,6 +9,79 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-08-11 — JSO curriculum-completeness pass; Question Bank technical-post filter
+
+**What shipped, part 1 — actually TEACH the Cyber Forensic syllabus, not
+just quiz it.** Compared every syllabus term in Paper IV's five units
+against existing note headings (manual gap analysis, since this app has
+no coverage-report tooling like the System Analyst project's build.py).
+Found `p4u3-digital-forensics.js` already comprehensive, but four units
+had syllabus-named topics with zero teaching content:
+- `p4u1-computer-fundamentals.js`: OS layered/logical architecture,
+  scheduling criteria (turnaround/waiting/response-time formulas), file
+  organization & access methods (Sequential/Direct/Index-Sequential),
+  comparative file-system table (FAT32/exFAT/NTFS/ext4/APFS-HFS+). 11→15
+  notes, 28→36 questions.
+- `p4u2-dbms.js`: evolution of DBMS / why a DBMS exists, SQL's
+  DDL/DML/DCL/TCL taxonomy, System & Media Recovery (WAL, checkpoints,
+  undo/redo), Two-Phase Commit Protocol (explicitly disambiguated from
+  the already-covered Two-Phase Locking). 11→15 notes, 26→34 questions.
+- `p4u4-multimedia-forensics.js`: acoustic parameters of sound
+  (F0/formants/timbre), frequency vs time-domain speech representation,
+  forensic authentication of image/video as its own concept distinct
+  from tampering detection. 10→13 notes, 26→32 questions.
+- `p4u5-mobile-forensics.js`: mobile-phone/chipset fundamentals (baseband
+  vs application processor), typology of crimes using mobile phones
+  (instrument/target/incidental), mobile-specific SQLite artifact
+  examination (contacts2.db/mmssms.db/msgstore.db/calllog.db). 11→14
+  notes, 26→32 questions.
+
+Opus-audited all four files after authoring — found and fixed 1 real
+error (p4u1: a waiting-time arithmetic mistake, 12−6 marked as 9 instead
+of 6, wrong answer index). Everything else across all four files checked
+out clean on independent re-derivation.
+
+**What shipped, part 2 — Question Bank technical/non-technical filter.**
+`/papers` already had a "Hide technical-subject papers" toggle; the
+Question Bank tab (`/mpsc`, `FilterRail.tsx`) didn't. Extracted the
+technical-post classification into `src/lib/technicalPosts.ts` (shared by
+both pages now instead of duplicated). Discovered mid-build that the
+Question Bank's per-question `post` facet is raw unnormalized free text
+("AE/SDO (CIVIL)", "AE/SDO (Assistant Engineer/Sub-Divisional Officer)",
+"AE/SDO (Civil) under Public Works Department" — all one underlying post)
+— completely different from `/papers`' server-normalized `Sitting.post`
+that the existing exact-Set `TECHNICAL_POSTS` matcher was calibrated
+against. An exact match against that Set silently failed on nearly every
+real facet variant, which I caught by inspecting the actual selected-chip
+list after toggling (not just trusting the checkbox existed) — the toggle
+was including technical posts, the opposite of its label. Added a second,
+looser classifier (`isPostTechnicalLoose`, keyword-regex based —
+`Engineer\w*` to also catch "Engineering", plus Geologist/Draftsman/
+Surveyor/Veterinary/Nursing/PHE/etc.) for this messier data source, and
+verified in-browser against the live facet list until zero technical
+posts remained in the "included" chips (140,529 → 18,651 questions when
+toggled).
+
+Both verified in the dev server; `tsc --noEmit` and `npm run build` clean.
+
+**Why:** direct user request — after reviewing the JSO module, the user
+pointed out it needed to genuinely teach the whole curriculum, not just
+have enough notes to support a quiz; separately asked for the same
+technical/non-technical filter already on Papers to also exist on the
+Question Bank tab.
+
+**What's still open:**
+- The loose regex classifier is still keyword-based, not a real subject
+  taxonomy — same "flag-don't-hide" bias as the rest of this filtering
+  work (an unusual post title with none of the listed keywords defaults
+  to visible rather than hidden).
+- p3gf8 (Paper III's lighter "Cyber Forensic general level" unit) wasn't
+  re-audited for curriculum completeness this pass — it was already
+  reasonably covered for its intentionally lighter depth per its own
+  scope note.
+
+---
+
 ## 2026-08-11 — "Return to Peace": daily learning-mindset practice system
 
 **What shipped:** extended the static `/study-mindset` article into a real

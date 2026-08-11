@@ -123,6 +123,46 @@ window.MPSC.units.push({
          '<li><b>PRNU for video</b> — the same sensor-fingerprint technique used for still images applies frame-by-frame to video and can both identify the source camera and flag frames whose fingerprint is missing or inconsistent (evidence of splicing or frame substitution).</li>' +
          '</ul>' +
          '<p>Enhancement of video follows the same still-image principles (documented, reversible, on a working copy) plus temporal techniques: frame averaging/stacking to reduce noise, motion-compensated deinterlacing, and stabilisation — none of which may alter evidentiary content.</p>'
+    },
+    {
+      h: 'Acoustic parameters of sound: the basis of speaker comparison',
+      b: '<p>A named syllabus topic in its own right. These are the physical parameters an examiner measures when comparing a questioned voice recording against a known-suspect sample:</p>' +
+         '<table><tr><th>Parameter</th><th>What it is</th><th>Perceived as</th></tr>' +
+         '<tr><td>Frequency</td><td>Number of vibration cycles per second (Hz) of a sound wave</td><td>Pitch</td></tr>' +
+         '<tr><td>Amplitude / intensity</td><td>Magnitude of pressure variation, measured in dB (logarithmic scale)</td><td>Loudness</td></tr>' +
+         '<tr><td>Fundamental frequency (F0)</td><td>Rate of vocal-fold vibration during voiced speech</td><td>Perceived pitch of the voice</td></tr>' +
+         '<tr><td>Formants (F1, F2, F3…)</td><td>Resonant frequencies of the vocal tract, shaped by tongue/jaw/lip position</td><td>Vowel quality / "who is speaking"</td></tr>' +
+         '<tr><td>Timbre</td><td>Overall spectral envelope / harmonic mix</td><td>Voice "colour" or quality</td></tr>' +
+         '</table>' +
+         '<p>Typical adult F0: male ≈ 85–180 Hz, female ≈ 165–255 Hz. The decibel scale is logarithmic — <b>+6 dB ≈ double amplitude</b>.</p>' +
+         '<p><b>Why formants matter more than F0 for identification:</b> F0 is easy to measure but highly variable — it shifts with emotion, vocal effort, health and even deliberate disguise. <b>Formants</b>, by contrast, are governed by the relatively fixed geometry of an individual\'s vocal tract (length and shape of the throat, mouth and nasal cavities), making their trajectories a more stable — though still not infallible — discriminator in forensic speaker comparison. Forensic voice comparison combines multiple acoustic parameters with auditory-phonetic and linguistic analysis; it is treated as corroborative opinion evidence, never as a unique "voiceprint" match.</p>' +
+         '<div class="tip"><b>Exam trap.</b> Do not equate F0 with formants. F0 = rate of vocal-fold vibration (source); formants = vocal-tract resonances that filter that source and determine vowel identity. Confusing the two — or asserting F0 alone is a reliable identifier — is the classic wrong-option bait.</div>'
+    },
+    {
+      h: 'Frequency and time-domain representation of a speech signal',
+      b: '<p>A named syllabus topic distinct from the general Fourier/FFT note — here the focus is specifically on how a <b>speech signal</b> is displayed and why examiners prefer one view over the other.</p>' +
+         '<table><tr><th>Representation</th><th>Axes</th><th>Shows</th><th>Forensic use</th></tr>' +
+         '<tr><td><b>Waveform</b> (time domain)</td><td>Amplitude vs time</td><td>Loudness envelope, pauses, onsets/offsets, gross level changes</td><td>Quick scan for obvious level jumps or silence gaps; cannot show frequency content at all</td></tr>' +
+         '<tr><td><b>Spectrogram</b> (time-frequency domain)</td><td>Frequency vs time, intensity as colour/darkness</td><td>Formant bands, F0 harmonic striations, energy distribution over time</td><td>Formant analysis, phonetic comparison, detecting spectral discontinuities at a splice point</td></tr>' +
+         '</table>' +
+         '<p>The spectrogram is produced via the <b>short-time Fourier transform (STFT)</b> — the signal is sliced into short overlapping windows, each Fourier-transformed, and the results stacked side by side to show how the frequency content evolves over time. This is why it is described as a <em>time-frequency</em>, not purely frequency-domain, representation.</p>' +
+         '<p><b>Why spectrograms, not raw waveforms, for splice/edit detection:</b> a skilled edit can be level-matched so the waveform envelope looks continuous, hiding the join from a time-domain view. But a splice almost always joins two segments with different background noise spectra, reverberation, or a broken formant transition at the join instant — visible on a spectrogram as a spectral discontinuity even when the amplitude trace shows nothing unusual.</p>' +
+         '<div class="tip"><b>Exam trap.</b> "Time domain" and "waveform" are the same thing; "frequency domain" plotted against time (i.e. a spectrogram) is <em>not</em> a pure frequency-domain plot (which would be a single snapshot spectrum with no time axis) — it is a time-frequency representation. Questions sometimes call a spectrogram simply "frequency domain," which is loosely acceptable, but do not confuse it with a single static FFT plot.</div>'
+    },
+    {
+      h: 'Forensic authentication of digital image/video',
+      b: '<p>The syllabus lists this as a topic <em>separate</em> from "methods for tampering of digital image/video" (covered in the tampering-detection note above). The distinction matters:</p>' +
+         '<ul>' +
+         '<li><b>Tampering detection</b> is technique-level — it asks "was this specific manipulation (copy-move, splicing, frame deletion…) applied, and can I demonstrate it with ELA, PRNU inconsistency, double-compression analysis, etc.?"</li>' +
+         '<li><b>Authentication</b> is the broader, goal-level question — it asks "is this file a genuine, unaltered original that actually came from the claimed source device at the claimed time?" Tampering-detection techniques are the <em>toolbox</em> used to answer that broader question, not a substitute for it.</li>' +
+         '</ul>' +
+         '<p>Authentication rests on two complementary pillars:</p>' +
+         '<table><tr><th>Pillar</th><th>Question answered</th><th>Typical techniques</th></tr>' +
+         '<tr><td><b>Source verification</b></td><td>Did this file actually originate from the claimed device?</td><td>PRNU sensor-fingerprint matching, file-structure/quantisation-table comparison, EXIF make/model consistency, CFA/demosaicing pattern</td></tr>' +
+         '<tr><td><b>Integrity verification</b></td><td>Has the file been altered since capture?</td><td>ELA, double-JPEG/double-compression analysis, PRNU-region inconsistency, container/codec metadata consistency, hash-value continuity since seizure (chain of custody)</td></tr>' +
+         '</table>' +
+         '<p>Both pillars are needed together: a file can carry the correct sensor fingerprint (right source) yet still have been locally edited after capture (failed integrity), or vice versa — an edited-looking file that in fact never came from the claimed camera at all.</p>' +
+         '<div class="tip"><b>Exam trap.</b> An option that describes ELA, double-JPEG analysis or PRNU-splice detection as "authentication" in isolation is describing only the integrity-verification half of the process, and one that only checks EXIF/make-model as "authentication" is describing only the source-verification half. True authentication is the combined source-plus-integrity workflow, of which tampering detection supplies the integrity evidence.</div>'
     }
   ],
 
@@ -254,6 +294,35 @@ window.MPSC.units.push({
       o: ['Comparing the sensor-noise fingerprint frame-by-frame, which can also flag frames whose fingerprint is missing or inconsistent',
           'Analysing the video container\'s creation timestamp only', 'Measuring the video\'s frame rate against the camera\'s rated maximum',
           'Comparing the audio track\'s ENF signature to grid records'], a: 0,
-      e: '<p>PRNU is a property of the image sensor itself, so the same fixed-pattern noise fingerprint is present in every frame a camera captures. Extracting and correlating this fingerprint frame-by-frame both identifies the source camera and can localise frames or regions whose fingerprint is absent or inconsistent — a sign of splicing or frame substitution.</p><p>Container timestamps, frame rate and ENF are all separate authentication channels (container metadata, capture-rate consistency, and audio-specific analysis respectively) and do not substitute for a sensor-level fingerprint check.</p>' }
+      e: '<p>PRNU is a property of the image sensor itself, so the same fixed-pattern noise fingerprint is present in every frame a camera captures. Extracting and correlating this fingerprint frame-by-frame both identifies the source camera and can localise frames or regions whose fingerprint is absent or inconsistent — a sign of splicing or frame substitution.</p><p>Container timestamps, frame rate and ENF are all separate authentication channels (container metadata, capture-rate consistency, and audio-specific analysis respectively) and do not substitute for a sensor-level fingerprint check.</p>' },
+
+    { q: 'Which acoustic parameter is perceived by the human ear as pitch, and is directly linked to the rate of vocal-fold vibration (F0)?',
+      o: ['Amplitude', 'Frequency', 'Timbre', 'Bandwidth'], a: 1,
+      e: '<p><b>Frequency</b>, measured in Hz, is perceived as pitch; for voiced speech this is governed by the <b>fundamental frequency (F0)</b>, the rate of vocal-fold vibration.</p><p>Amplitude is perceived as loudness (measured in dB), not pitch, and timbre is the overall spectral colour/quality of a sound rather than its pitch — a common distractor pairing in this topic.</p>' },
+
+    { q: 'In forensic speaker comparison, the fundamental frequency (F0) alone is considered a weak identification parameter mainly because',
+      o: ['It cannot be measured from a recording', 'It varies with emotion, vocal effort and health, and typical F0 ranges overlap heavily across different speakers',
+          'It is identical for every human speaker', 'It only exists in synthetically generated speech'], a: 1,
+      e: '<p>F0 is easy to measure but fluctuates with a speaker\'s emotional state, vocal effort, health and even deliberate disguise, and the typical ranges (male ≈ 85–180 Hz, female ≈ 165–255 Hz) overlap substantially between individuals.</p><p><b>Formants</b>, shaped by the more fixed geometry of an individual\'s vocal tract, are treated as a comparatively more stable — though still not infallible — discriminator, which is why forensic voice comparison relies on multiple parameters together rather than F0 in isolation.</p>' },
+
+    { q: 'Which representation of a speech signal displays how frequency content changes over time, making it the primary tool for formant analysis in forensic audio examination?',
+      o: ['Waveform', 'Spectrogram', 'Amplitude histogram', 'Scatter plot'], a: 1,
+      e: '<p>A <b>spectrogram</b> plots frequency against time with intensity/colour representing magnitude, generated via the short-time Fourier transform (STFT). Formant bands and F0 harmonic striations are directly visible on it.</p><p>A raw <b>waveform</b> (time-domain) plots only amplitude against time and carries no frequency information at all — it cannot show formants.</p>' },
+
+    { q: 'A forensic examiner suspects two segments of a speech recording were spliced together, with the editor carefully matching the loudness levels across the join. The edit is most likely to still be revealed by',
+      o: ['The time-domain waveform alone, since amplitude always changes at a splice', 'The spectrogram, which can show a spectral or formant discontinuity, or a change in background-noise spectrum, at the join even when amplitude levels match',
+          'A simple decibel (dB) meter reading of the whole file', 'Comparing the file sizes of the two segments'], a: 1,
+      e: '<p>Level-matching a splice hides the edit from a time-domain amplitude view, but the two segments almost always differ in background-noise spectrum, reverberation character or formant transition at the join instant — differences that show up as a visible discontinuity on a <b>spectrogram</b> even when the waveform envelope looks perfectly continuous.</p><p>This is precisely why forensic audio examiners rely on time-frequency (spectrogram) analysis rather than the waveform alone for splice detection.</p>' },
+
+    { q: '"Forensic authentication of digital image/video," as distinct from tampering detection, is best described as',
+      o: ['Detecting one specific manipulation technique such as copy-move forgery', 'Establishing whether the file is a genuine, unaltered original from the claimed source device, combining source verification and integrity verification',
+          'Enhancing an image to improve its visibility', 'Compressing a video file for efficient storage'], a: 1,
+      e: '<p><b>Authentication</b> is the broader, goal-level question of whether a file is a genuine original from the claimed device at the claimed time. <b>Tampering detection</b> (ELA, double-JPEG analysis, PRNU-region inconsistency, etc.) supplies the technique-level evidence used to answer that question — it is a tool within authentication, not a synonym for it.</p><p>Enhancement and compression are unrelated processes entirely.</p>' },
+
+    { q: 'The two complementary pillars of digital image/video authentication are source verification and integrity verification. Which option correctly pairs each with its typical technique?',
+      o: ['Source verification uses PRNU/sensor-fingerprint matching and file-structure comparison; integrity verification uses ELA and double-compression analysis',
+          'Source verification uses histogram equalisation; integrity verification uses chroma subsampling', 'Source verification uses ENF analysis; integrity verification uses EXIF GPS tags',
+          'Both pillars rely solely on comparing file sizes'], a: 0,
+      e: '<p><b>Source verification</b> asks whether the file came from the claimed device, answered via PRNU sensor-fingerprint matching, file-structure/quantisation-table comparison and EXIF make/model consistency. <b>Integrity verification</b> asks whether the file has been altered since capture, answered via ELA, double-JPEG/double-compression analysis and PRNU-region inconsistency.</p><p>Histogram equalisation and chroma subsampling are enhancement/compression concepts, not authentication techniques, and ENF/EXIF-GPS are audio- and image-metadata tools respectively that do not map onto this source/integrity split as shown.</p>' }
   ]
 });

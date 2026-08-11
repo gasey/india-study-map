@@ -132,6 +132,52 @@ window.MPSC.units.push({
          '<li><b>Reporting & presentation</b> — reproducible, documented findings suitable for court, satisfying ACPO Principle 3.</li>' +
          '</ol>' +
          '<div class="tip"><b>Discriminator:</b> hashing happens right after acquisition, not just before trial — a hash taken only at the end cannot prove the image was unaltered from the moment it was created.</div>'
+    },
+    {
+      h: 'Mobile phone fundamentals: types, components & chipset identification',
+      b: '<p><b>Feature phone vs smartphone</b> is the basic typology: a <b>feature phone</b> runs a closed, proprietary or lightweight OS (or none at all beyond firmware), offers calling/SMS and limited apps, and stores far less forensically — mainly contacts, call logs and SMS on the handset/SIM. A <b>smartphone</b> runs a full multitasking OS (Android/iOS), installs third-party apps each with their own private storage, and is the primary target of modern mobile forensics because of the sheer volume and variety of app-generated evidence it holds.</p>' +
+         '<p><b>Core hardware components inside a mobile device:</b></p>' +
+         '<table>' +
+         '<tr><th>Component</th><th>Function</th><th>Forensic relevance</th></tr>' +
+         '<tr><td><b>Baseband processor / modem</b></td><td>Handles radio (cellular) communication, runs its own separate firmware/OS</td><td>Holds IMEI, radio firmware; a distinct attack surface from the main OS (e.g. EDL mode talks to the bootloader below the application processor)</td></tr>' +
+         '<tr><td><b>Application processor (SoC)</b></td><td>Runs the main OS (Android/iOS) and all apps</td><td>Where user data, app databases and the file system live</td></tr>' +
+         '<tr><td><b>RAM</b></td><td>Volatile working memory</td><td>Holds decryption keys in AFU state, running-process artefacts; lost on power-off</td></tr>' +
+         '<tr><td><b>Flash storage (NAND/eMMC/UFS)</b></td><td>Non-volatile storage for OS, apps and user data</td><td>Target of physical/chip-off acquisition; holds unallocated space where deleted data can persist</td></tr>' +
+         '<tr><td><b>SIM slot</b></td><td>Interfaces with the SIM/eSIM</td><td>See SIM card note — ICCID/IMSI, ADN, SMS, LOCI</td></tr>' +
+         '<tr><td><b>Radio/antenna module</b></td><td>Cellular, Wi-Fi, Bluetooth, GPS, NFC radios</td><td>Source of location and connectivity artefacts; also the reason Faraday isolation is needed at seizure</td></tr>' +
+         '</table>' +
+         '<p><b>Identifying the phone and chipset</b> during triage (before deciding an acquisition method) draws on several sources: the <b>model number</b> printed under the battery/SIM tray or in Settings; the <b>FCC ID</b> (for devices sold in the US, look up the FCC database for exact make/model/frequency bands) or equivalent regional certification marks; the <b>IMEI\'s TAC</b> (first 8 digits), which identifies make and model via the GSMA TAC database; and, at the chip level, <b>baseband/bootloader identification strings</b> (visible in EDL/download-mode handshakes or bootloader logs) that reveal the SoC vendor (Qualcomm, MediaTek, Samsung Exynos, Apple Silicon) — this is what determines which chipset-specific exploit (e.g. EDL/Sahara-Firehose for Qualcomm) a forensic tool can use.</p>' +
+         '<div class="tip"><b>Why this comes first in the syllabus:</b> chipset identification directly gates method selection later in the unit — an examiner who cannot tell a Qualcomm device from a MediaTek one cannot correctly choose (or explain) an EDL-based physical extraction. Model/FCC ID/TAC identification is the triage step that precedes every acquisition decision.</div>'
+    },
+    {
+      h: 'Crimes using mobile phones',
+      b: '<p>The syllabus names this as a distinct topic: a typology of mobile-enabled crime, mirroring the instrument/target/incidental framing used for computer-based crime in the general cyber-forensic unit.</p>' +
+         '<table>' +
+         '<tr><th>Role of the phone</th><th>Examples</th></tr>' +
+         '<tr><td><b>Instrument</b> — phone used to commit the crime</td><td>Harassment/threatening calls and SMS, <b>smishing</b> (SMS-based phishing links), voice-call phishing (vishing), WhatsApp-based fraud (fake KYC/lottery/job-offer messages), <b>mobile banking/UPI fraud</b> via social engineering or malicious apps, circulation of obscene/defamatory content, cyberstalking via location-sharing features</td></tr>' +
+         '<tr><td><b>Target</b> — the phone or its access itself is attacked</td><td>Physical theft/snatching of the handset, <b>SIM-swap fraud</b> (fraudulently reissuing a victim\'s SIM to intercept OTPs and take over bank/email accounts), unauthorised remote access/spyware installation, IMEI cloning</td></tr>' +
+         '<tr><td><b>Incidental / evidentiary</b> — crime committed elsewhere, phone merely holds evidence of it</td><td>A phone recovered from a suspect in an unrelated offence (murder, narcotics, terrorism) that happens to contain call logs, location history or messages relevant to that case</td></tr>' +
+         '</table>' +
+         '<p>SIM-swap fraud deserves special attention because it chains two crimes: the phone is first the <b>target</b> (fraudulent SIM reissue, usually via social engineering of the telecom operator or an insider), then becomes the <b>instrument</b> for downstream banking fraud once OTPs are intercepted on the cloned SIM. This dual role is a frequent exam distractor.</p>' +
+         '<div class="tip"><b>Exam trap:</b> "theft of a mobile phone" and "a mobile phone recovered during theft investigation" sound similar but are opposite categories — the first is the phone as <b>target</b>, the second is the phone as <b>incidental evidence</b> of a different crime (or the phone being the fruit/object of the theft itself, not the instrument of it).</div>'
+    },
+    {
+      h: 'SQLite examination on mobile phones',
+      b: '<p>Unit II covers SQLite\'s file format generally; this is the mobile-specific application named in the syllabus under "potential evidence stored on mobile phones." Most native and third-party mobile apps persist their data in SQLite databases inside the app\'s private storage (<code>/data/data/&lt;package&gt;/databases/</code> on Android), which is exactly why file system or physical extraction — not logical extraction alone — is needed to reach them.</p>' +
+         '<table>' +
+         '<tr><th>Database</th><th>App / source</th><th>Holds</th></tr>' +
+         '<tr><td><code>contacts2.db</code></td><td>Android Contacts provider</td><td>Contact names, numbers, associated accounts</td></tr>' +
+         '<tr><td><code>mmssms.db</code> (a.k.a. <code>sms.db</code>)</td><td>Android messaging</td><td>SMS and MMS content, timestamps, thread IDs</td></tr>' +
+         '<tr><td><code>msgstore.db</code> (<code>.crypt12/.crypt14</code> encrypted)</td><td>WhatsApp</td><td>Chat messages, timestamps, media references</td></tr>' +
+         '<tr><td><code>calllog.db</code> / call log provider</td><td>Android telephony</td><td>Call history, duration, direction</td></tr>' +
+         '</table>' +
+         '<p><b>Why examine the database directly rather than through the app\'s UI:</b> the UI only shows what the app chooses to render — typically the current, non-deleted state. Opening the raw <code>.db</code> file with a SQLite viewer (or a forensic parser like Autopsy) exposes rows the UI hides, and more importantly lets the examiner recover deleted data:</p>' +
+         '<ul>' +
+         '<li>SQLite marks a deleted row\'s space as <b>free</b> rather than erasing it — until that page is reused, the old bytes are still recoverable by scanning free/unallocated pages within the <code>.db</code> file itself.</li>' +
+         '<li>The <b>Write-Ahead Log</b> (<code>-wal</code> file, alongside the main <code>.db</code> and <code>-shm</code> shared-memory index) records changes not yet checkpointed into the main database — it frequently contains rows that were deleted from the main table moments before seizure but still sit uncommitted in the WAL.</li>' +
+         '<li>The rollback journal (<code>-journal</code>, on older SQLite configurations) serves the same recovery purpose as the WAL for databases not using WAL mode.</li>' +
+         '</ul>' +
+         '<div class="tip"><b>Discriminator:</b> "the app shows no messages" and "the phone contains no messages" are not the same claim. A message deleted from WhatsApp\'s or the SMS app\'s UI routinely survives — recoverable from SQLite free pages or the WAL — until the space is overwritten by later writes. This is the single most common way "deleted" evidence is actually recovered in mobile cases.</div>'
     }
   ],
 
@@ -259,6 +305,30 @@ window.MPSC.units.push({
 
     { q: 'A device\'s cached Wi-Fi access-point list, used to resolve approximate location, records the fact that the device',
       o: ['Successfully authenticated and connected to those access points', 'Merely detected those access points within radio range, which is resolved against a crowd-sourced AP-location database', 'Was physically inside each access point\'s premises', 'Transferred data through each access point'], a: 1,
-      e: '<p>Wi-Fi positioning works by logging <em>detected</em> BSSIDs with signal strength and timestamps, then matching them against a crowd-sourced database of known AP locations — detection, not connection or authentication, is what is being recorded.</p><p>Examiners must therefore present Wi-Fi-cache evidence as proximity evidence only; claiming it proves the device connected to, let alone was inside, a given premises overstates what the artefact actually shows.</p>' }
+      e: '<p>Wi-Fi positioning works by logging <em>detected</em> BSSIDs with signal strength and timestamps, then matching them against a crowd-sourced database of known AP locations — detection, not connection or authentication, is what is being recorded.</p><p>Examiners must therefore present Wi-Fi-cache evidence as proximity evidence only; claiming it proves the device connected to, let alone was inside, a given premises overstates what the artefact actually shows.</p>' },
+
+    { q: 'The baseband processor in a mobile device is primarily responsible for',
+      o: ['Running the main operating system and installed apps', 'Handling radio/cellular communication, with its own separate firmware', 'Storing SQLite databases for third-party apps', 'Rendering the display and touchscreen input'], a: 1,
+      e: '<p>The <b>baseband processor (modem)</b> handles cellular radio communication and runs its own firmware, distinct from the <b>application processor (SoC)</b> that runs the main OS and apps.</p><p>This separation matters forensically: low-level modes like EDL talk to the bootloader beneath the application processor, and the baseband is where the IMEI and radio firmware reside — a different attack surface than the app-data-holding flash storage.</p>' },
+
+    { q: 'During triage, an examiner identifies a suspect handset\'s chipset (e.g. Qualcomm vs MediaTek) mainly because this',
+      o: ['Determines the phone\'s IMEI check digit', 'Gates which chipset-specific acquisition exploit (e.g. EDL/Sahara-Firehose for Qualcomm) can be used', 'Is required before dialling *#06#', 'Changes the SIM\'s ICCID format'], a: 1,
+      e: '<p>Chipset identification (via model number, FCC ID, the IMEI\'s TAC, or baseband/bootloader identification strings) directly gates <b>method selection</b> — commercial tools bundle chipset-specific exploits, such as EDL mode over Sahara/Firehose, which only apply to Qualcomm silicon.</p><p>Getting the chipset wrong means reaching for the wrong extraction technique entirely, which is why the syllabus places phone/chipset identification before acquisition methods.</p>' },
+
+    { q: 'SIM-swap fraud is a useful exam example because it illustrates a mobile phone being',
+      o: ['Only ever the instrument of a crime, never the target', 'First the target (fraudulent SIM reissue), then the instrument (OTP interception enabling banking fraud)', 'Only incidental evidence in an unrelated case', 'Impossible to classify under the instrument/target/incidental typology'], a: 1,
+      e: '<p><b>SIM-swap fraud</b> chains two roles: the phone/subscriber identity is first the <b>target</b> when the SIM is fraudulently reissued to the attacker, then becomes the <b>instrument</b> once intercepted OTPs are used to take over the victim\'s banking or email accounts.</p><p>This dual-role chaining is a common distractor — candidates often try to force it into a single category when the syllabus\'s typology allows (and expects) a crime to occupy more than one role across its lifecycle.</p>' },
+
+    { q: 'A phone recovered from a suspect during an unrelated narcotics investigation, found to contain relevant call logs, is best classified under the mobile-crime typology as the phone being',
+      o: ['The instrument of the crime', 'The target of the crime', 'Incidental / evidentiary to a different offence', 'Not classifiable under this typology'], a: 2,
+      e: '<p>Where the phone was not used to commit the offence and was not itself attacked, but merely happens to hold evidence of a crime committed by other means, it falls under the <b>incidental/evidentiary</b> category — distinct from instrument (used to commit) and target (itself attacked).</p><p>This is the same instrument/target/incidental structure used for general computer-crime classification, applied here specifically to mobile-enabled crime as the syllabus names it.</p>' },
+
+    { q: 'A message deleted from WhatsApp\'s conversation view on a suspect\'s Android phone may still be recoverable because',
+      o: ['WhatsApp automatically restores deleted messages after 24 hours', 'SQLite marks a deleted row\'s space as free rather than erasing it, and the row may also persist uncommitted in the write-ahead log', 'The UI always displays a hidden "deleted items" folder', 'Deletion is impossible on encrypted databases'], a: 1,
+      e: '<p>SQLite does not immediately erase a deleted row\'s bytes — it marks that space as <b>free</b>, recoverable until overwritten. The <b>write-ahead log (-wal)</b> can additionally hold changes, including deletions of rows that still exist unmodified in the main database, or vice versa, not yet checkpointed at seizure time.</p><p>This is why examining the raw <code>.db</code>/<code>-wal</code> files directly, rather than trusting the app\'s UI, is standard practice for recovering "deleted" mobile messages.</p>' },
+
+    { q: 'Which of the following mobile SQLite databases would an examiner check specifically to recover Android SMS/MMS content?',
+      o: ['contacts2.db', 'mmssms.db', 'calllog.db', 'AndroidManifest.xml'], a: 1,
+      e: '<p><code>mmssms.db</code> (sometimes referenced as <code>sms.db</code>) is the Android messaging provider\'s database, holding SMS and MMS content, timestamps and thread IDs.</p><p><code>contacts2.db</code> holds contacts and <code>calllog.db</code> holds call history — each app/provider keeps its own dedicated SQLite store, which is why examiners must know which database maps to which artefact rather than searching blindly.</p>' }
   ]
 });

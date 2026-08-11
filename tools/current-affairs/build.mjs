@@ -62,10 +62,20 @@ async function fetchTodayArticles() {
 }
 
 /** Gemini first, Groq as fallback — same two-provider pattern as the
- *  reference build guide this pipeline is adapted from. */
+ *  reference build guide this pipeline is adapted from. Both providers are
+ *  asked for structured JSON output directly (rather than a prose reply we
+ *  then try to parse) — every prompt in this script wants JSON back, and
+ *  relying on the model to *format* it correctly on its own was the
+ *  original cause of "valid-looking but unparseable" responses (e.g. a
+ *  bare newline inside a JSON string value). `gemini-flash-latest` is used
+ *  instead of a pinned version like `gemini-2.5-flash`, which returned 404
+ *  ("no longer available to new users") on a freshly created API key. */
 async function callLlm(prompt) {
   try {
-    const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
+    const model = genAI.getGenerativeModel({
+      model: 'gemini-flash-latest',
+      generationConfig: { responseMimeType: 'application/json' },
+    });
     const result = await model.generateContent(prompt);
     return result.response.text();
   } catch (err) {
@@ -73,6 +83,7 @@ async function callLlm(prompt) {
     const resp = await groq.chat.completions.create({
       model: 'llama-3.3-70b-versatile',
       messages: [{ role: 'user', content: prompt }],
+      response_format: { type: 'json_object' },
     });
     return resp.choices[0].message.content;
   }
@@ -111,9 +122,16 @@ async function summarizeArticles(articles) {
  *  reference guide's 0-indexed array shape (that guide targets a different
  *  app's schema). */
 async function generateMcqs(summaryBlob, n = 15) {
+  // Both providers' JSON modes require a top-level *object*, not a bare
+  // array — tested directly against Groq's API: asking for "a list of
+  // objects" under response_format:json_object gets silently wrapped in
+  // an object with an unpredictable key (seen: "list"). Asking for a named
+  // "questions" key up front makes the wrapper deterministic instead of
+  // guessed at parse time.
   const prompt =
     `From the current-affairs summary below, write exactly ${n} multiple-choice questions suitable for ` +
-    'an MPSC-style mock test. Return ONLY valid JSON (no markdown fence): a list of objects with keys ' +
+    'an MPSC-style mock test. Return ONLY valid JSON (no markdown fence): an object with one key ' +
+    '"questions", whose value is a list of objects with keys ' +
     '"question" (string), "options" (object with keys "a","b","c","d", each a string), ' +
     '"correctAnswer" (one of "a"|"b"|"c"|"d"), "explanation" (string, 1-2 sentences), ' +
     '"difficulty" (one of "easy"|"medium"|"hard"), "topic" (short string matching one of the summary topics).\n\n' +
@@ -121,7 +139,7 @@ async function generateMcqs(summaryBlob, n = 15) {
   const raw = await callLlm(prompt);
   let mcqs;
   try {
-    mcqs = JSON.parse(stripCodeFence(raw));
+    mcqs = JSON.parse(stripCodeFence(raw)).questions;
   } catch (err) {
     fail('mcq_parse_failed', `LLM MCQ response was not valid JSON: ${err.message}\n${raw.slice(0, 500)}`);
   }

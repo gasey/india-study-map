@@ -4,6 +4,7 @@ import { persist } from 'zustand/middleware';
 import { chapters } from '@/data';
 import { baseLayers } from '@/data/baseLayers';
 import type { Importance } from '@/data/timeline/types';
+import { initSchedule, gradeCard as sm2Grade, type CardSchedule, type Grade } from '@/lib/sm2';
 
 type Theme = 'light' | 'dark';
 type Mode = 'study' | 'quiz';
@@ -17,8 +18,10 @@ interface ChapterProgress {
 
 /** Per-deck progress — Flashcards module. */
 interface DeckProgress {
-  /** card ids marked "Known". */
+  /** card ids marked "Known" — frozen; kept only to seed `schedule` for cards graded before SM-2 shipped. */
   known: string[];
+  /** SM-2 schedule per card id. Absent entries fall back to `known`-based logic (see isDue call sites). */
+  schedule?: Record<string, CardSchedule>;
 }
 
 /** Per-question-bank progress — PYQ module. */
@@ -227,6 +230,8 @@ export interface AppState {
   recordBankAttempt: (bankId: string, questionId: string, correct: boolean) => void;
   resetBankProgress: (bankId: string) => void;
   markCard: (deckId: string, cardId: string, known: boolean) => void;
+  gradeCard: (deckId: string, cardId: string, grade: Grade) => void;
+  undoGradeCard: (deckId: string, cardId: string, prevSchedule: CardSchedule | undefined) => void;
   resetDeckProgress: (deckId: string) => void;
   recordCaAttempt: (date: string, result: CaAttempt) => void;
   recordTestResult: (result: TestResult) => void;
@@ -437,7 +442,28 @@ export const useApp = create<AppState>()(
           const nextKnown = known
             ? d.known.includes(cardId) ? d.known : [...d.known, cardId]
             : d.known.filter((id) => id !== cardId);
-          return { deckProgress: { ...s.deckProgress, [deckId]: { known: nextKnown } } };
+          return { deckProgress: { ...s.deckProgress, [deckId]: { ...d, known: nextKnown } } };
+        }),
+
+      gradeCard: (deckId, cardId, grade) =>
+        set((s) => {
+          const d = s.deckProgress[deckId] ?? { known: [] };
+          // A card graded before SM-2 shipped has no schedule entry yet — if it
+          // was already marked "Known" under the old binary system, seed it as
+          // one successful review instead of treating it as brand new, so no
+          // one's existing progress resets to "due immediately" on upgrade.
+          const base = d.schedule?.[cardId] ?? (d.known.includes(cardId) ? sm2Grade(initSchedule(), 'good') : initSchedule());
+          const next = sm2Grade(base, grade);
+          return { deckProgress: { ...s.deckProgress, [deckId]: { ...d, schedule: { ...d.schedule, [cardId]: next } } } };
+        }),
+
+      undoGradeCard: (deckId, cardId, prevSchedule) =>
+        set((s) => {
+          const d = s.deckProgress[deckId] ?? { known: [] };
+          const schedule = { ...d.schedule };
+          if (prevSchedule) schedule[cardId] = prevSchedule;
+          else delete schedule[cardId];
+          return { deckProgress: { ...s.deckProgress, [deckId]: { ...d, schedule } } };
         }),
 
       resetDeckProgress: (deckId) =>

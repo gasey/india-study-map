@@ -7,9 +7,17 @@ import { useAuthStore } from '@/lib/authStore';
 import { renderEmphasis } from '@/lib/renderEmphasis';
 import * as api from '@/lib/mpscApi';
 import type { Correction } from '@/lib/mpscApi';
+import { useApp } from '@/lib/store';
+import { isDue } from '@/lib/sm2';
+import type { FlashCard } from '@/data/decks/types';
+import { FlashcardFlip } from '@/modules/flashcards/FlashcardFlip';
 import { QuestionReviewPanel } from './QuestionReviewPanel';
 import { DescriptiveQuestionCard } from './DescriptiveQuestionCard';
 import './state-tax-officer.css';
+
+/** Synthetic deck id — the Review tab reuses `deckProgress`'s per-card SM-2
+ *  schedule map rather than a new store slice, same shape, same actions. */
+const STO_REVIEW_DECK_ID = 'sto-review';
 
 const BANK_ID = 'mpsc-state-tax-officer';
 
@@ -18,7 +26,7 @@ interface Props {
   papers: ExamPaper[];
 }
 
-const PREP_TABS = ['overview', 'primers', 'bank', 'descriptive', 'exam-browse', 'yearly-browse', 'paper-browse', 'mock', 'progress'] as const;
+const PREP_TABS = ['overview', 'primers', 'bank', 'descriptive', 'exam-browse', 'yearly-browse', 'paper-browse', 'mock', 'progress', 'review'] as const;
 type PrepTab = (typeof PREP_TABS)[number];
 type MockState = 'setup' | 'running' | 'review';
 interface MockResults {
@@ -378,6 +386,7 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
               {t === 'paper-browse' && '📑 By Paper'}
               {t === 'mock' && '🧪 Mock Tests'}
               {t === 'progress' && '📊 Progress'}
+              {t === 'review' && '🔁 Review'}
             </button>
           ))}
         </div>
@@ -441,6 +450,7 @@ export function StateTaxOfficerEnhanced({ allQuestions, papers }: Props) {
           <MockReviewTab questions={testQuestions} answers={mockAnswers} results={testResults} onBack={() => setMockState('setup')} />
         )}
         {prepTab === 'progress' && <ProgressTab />}
+        {prepTab === 'review' && <StoReviewTab questions={stateTaxQuestions} />}
       </div>
     </div>
   );
@@ -1118,6 +1128,61 @@ function MockReviewTab({ questions, answers, results, onBack }: { questions: Mcq
       <button onClick={onBack} className="px-4 py-2 rounded-md font-medium" style={{ background: 'var(--bg-panel-elev)', border: '1px solid var(--border)', color: 'var(--text-primary)' }}>
         Take another test
       </button>
+    </div>
+  );
+}
+
+/** SM-2 flashcard review over this bank's own questions — front is the
+ *  stem, back is the correct answer + explanation. Reuses the same
+ *  FlashcardFlip mechanic as the Flashcards module and Recall hub, just
+ *  fed from bank questions instead of a decks/ content file. */
+function StoReviewTab({ questions }: { questions: McqBankQuestion[] }) {
+  const { deckProgress, gradeCard, undoGradeCard } = useApp();
+  const progress = deckProgress[STO_REVIEW_DECK_ID];
+  const schedule = progress?.schedule;
+  const known = progress?.known ?? [];
+
+  const reviewable = useMemo(
+    () => questions.filter((q) => !q.figureBased && !q.compensated && !q.sourceDefect),
+    [questions],
+  );
+
+  const cardIsDue = (cardId: string) => {
+    const s = schedule?.[cardId];
+    return s ? isDue(s) : !known.includes(cardId);
+  };
+
+  const pool: FlashCard[] = useMemo(
+    () =>
+      reviewable
+        .filter((q) => cardIsDue(q.id))
+        .map((q) => ({
+          id: q.id,
+          topic: q.topic ?? '',
+          topicLabel: q.topic ?? '',
+          front: q.question,
+          back: `${q.options[q.answerIndex]}\n\n${q.explanation}`,
+        })),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [reviewable, schedule, known.length],
+  );
+
+  const dueCount = pool.length;
+
+  return (
+    <div className="max-w-xl">
+      <p className="text-sm mb-4" style={{ color: 'var(--text-secondary)' }}>
+        {dueCount} of {reviewable.length} questions due for review — flip, then grade Again/Hard/Good/Easy.
+      </p>
+      <FlashcardFlip
+        pool={pool}
+        resetKey={reviewable.length}
+        onGrade={(cardId, grade) => gradeCard(STO_REVIEW_DECK_ID, cardId, grade)}
+        scheduleFor={(cardId) => schedule?.[cardId]}
+        onUndo={(cardId, prevSchedule) => undoGradeCard(STO_REVIEW_DECK_ID, cardId, prevSchedule)}
+        emptyTitle={reviewable.length === 0 ? 'Nothing reviewable in this bank.' : 'Nothing due right now.'}
+        emptyBody="Check back once a card's schedule brings it due again."
+      />
     </div>
   );
 }

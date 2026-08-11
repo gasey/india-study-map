@@ -2,15 +2,16 @@ import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { decks } from '@/data/decks';
 import { useApp } from '@/lib/store';
+import { isDue } from '@/lib/sm2';
 import { ModuleSwitcher } from '@/modules/ModuleSwitcher';
 import { HomeBackLink } from '@/components/shell/HomeBackLink';
 import { useHasDesktopChrome } from '@/lib/useShellChrome';
 import { FlashcardFlip } from './FlashcardFlip';
 
 // ============================================
-// FLASHCARDS — deck-driven recall drills.
-// Tap to flip; mark Known (leaves rotation) or Review
-// (stays). Known-state persists per deck in the store.
+// FLASHCARDS — deck-driven recall drills, SM-2 spaced repetition.
+// Tap to flip; grade Again/Hard/Good/Easy. Schedule persists per deck in the
+// store; cards not yet due drop out of rotation until their due date.
 // ============================================
 
 const ALL = 'all';
@@ -25,15 +26,26 @@ function shuffle<T>(arr: T[]): T[] {
 }
 
 export function FlashcardsPage() {
-  const { theme, toggleTheme, deckProgress, markCard, resetDeckProgress } = useApp();
+  const { theme, toggleTheme, deckProgress, gradeCard, undoGradeCard, resetDeckProgress } = useApp();
 
   const [deckId, setDeckId] = useState(decks[0]?.id ?? '');
   const deck = decks.find((d) => d.id === deckId) ?? decks[0];
   const [topic, setTopic] = useState(ALL);
-  const [hideKnown, setHideKnown] = useState(true);
+  const [hideNotDue, setHideNotDue] = useState(true);
   const [seed, setSeed] = useState(0);
 
-  const known = deckProgress[deckId]?.known ?? [];
+  const progress = deckProgress[deckId];
+  const known = progress?.known ?? [];
+  const schedule = progress?.schedule;
+
+  // A card with no schedule entry yet falls back to the pre-SM-2 "known"
+  // flag, so upgrading users don't see every already-studied card as due.
+  const cardIsDue = (cardId: string) => {
+    const s = schedule?.[cardId];
+    return s ? isDue(s) : !known.includes(cardId);
+  };
+
+  const dueCount = useMemo(() => deck.cards.filter((c) => cardIsDue(c.id)).length, [deck, schedule, known.length]);
 
   const topics = useMemo(() => {
     const seen = new Map<string, string>();
@@ -43,14 +55,30 @@ export function FlashcardsPage() {
 
   const pool = useMemo(() => {
     const cards = deck.cards.filter(
-      (c) => (topic === ALL || c.topic === topic) && (!hideKnown || !known.includes(c.id))
+      (c) => (topic === ALL || c.topic === topic) && (!hideNotDue || cardIsDue(c.id))
     );
     return shuffle(cards);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [deck, topic, hideKnown, seed, known.length]);
+  }, [deck, topic, hideNotDue, seed, schedule, known.length]);
 
-  const poolKey = `${deckId}|${topic}|${hideKnown}|${seed}`;
-  const [progress, setProgress] = useState({ idx: 0, total: pool.length });
+  const poolKey = `${deckId}|${topic}|${hideNotDue}|${seed}`;
+  const [runProgress, setRunProgress] = useState({ idx: 0, total: pool.length });
+
+  const examBreakdown = useMemo(() => {
+    if (deck.id !== 'jso-gk') return [];
+    const groups = new Map<string, { total: number; due: number; mastered: number }>();
+    for (const c of deck.cards) {
+      const key = c.examName ?? 'Unknown';
+      const g = groups.get(key) ?? { total: 0, due: 0, mastered: 0 };
+      g.total += 1;
+      if (cardIsDue(c.id)) g.due += 1;
+      const s = schedule?.[c.id];
+      if (s && s.reps >= 2 && s.lastGrade !== 'again') g.mastered += 1;
+      groups.set(key, g);
+    }
+    return [...groups.entries()].sort((a, b) => b[1].total - a[1].total);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [deck, schedule, known.length]);
 
   const selectCls = 'px-2 py-1.5 rounded-md text-sm';
   const selectStyle = { background: 'var(--bg-panel-elev)', color: 'var(--text-primary)', border: '1px solid var(--border)' } as const;
@@ -59,7 +87,7 @@ export function FlashcardsPage() {
   return (
     <div className="h-full flex flex-col" style={{ background: 'var(--bg-app)', color: 'var(--text-primary)' }}>
       {/* Hidden at desktop widths — AppHeader covers the title there, and
-          the "known" count moves into the controls row below. */}
+          the "due" count moves into the controls row below. */}
       <header
         className="lg:hidden safe-top h-12 shrink-0 border-b flex items-center justify-between px-5 gap-3"
         style={{ borderColor: 'var(--border)', background: 'var(--bg-panel)' }}
@@ -71,7 +99,7 @@ export function FlashcardsPage() {
         </div>
         <div className="flex items-center gap-2">
           <span className="text-xs" style={{ color: 'var(--text-secondary)' }}>
-            {known.length}/{deck.cards.length} known
+            {dueCount}/{deck.cards.length} due
           </span>
           <button
             onClick={toggleTheme}
@@ -96,8 +124,8 @@ export function FlashcardsPage() {
           {topics.map(([id, label]) => <option key={id} value={id}>{label}</option>)}
         </select>
         <label className="flex items-center gap-1.5 text-sm cursor-pointer select-none" style={{ color: 'var(--text-secondary)' }}>
-          <input type="checkbox" checked={hideKnown} onChange={(e) => setHideKnown(e.target.checked)} />
-          Hide known
+          <input type="checkbox" checked={hideNotDue} onChange={(e) => setHideNotDue(e.target.checked)} />
+          Hide not due
         </label>
         <button
           onClick={() => setSeed((s) => s + 1)}
@@ -107,9 +135,19 @@ export function FlashcardsPage() {
           ⟳ Shuffle
         </button>
         <div className="ml-auto text-xs" style={{ color: 'var(--text-secondary)' }}>
-          {known.length}/{deck.cards.length} known · {progress.total === 0 ? 'no cards' : progress.idx >= progress.total ? 'done' : `${progress.idx + 1} / ${progress.total}`}
+          {dueCount}/{deck.cards.length} due · {runProgress.total === 0 ? 'no cards' : runProgress.idx >= runProgress.total ? 'done' : `${runProgress.idx + 1} / ${runProgress.total}`}
         </div>
       </div>
+
+      {deck.id === 'jso-gk' && examBreakdown.length > 0 && (
+        <div className="px-5 py-2 text-xs border-b overflow-x-auto whitespace-nowrap" style={{ borderColor: 'var(--border)', color: 'var(--text-secondary)' }}>
+          {examBreakdown.map(([examName, g]) => (
+            <span key={examName} className="mr-4">
+              {examName}: {g.due} due · {g.mastered}/{g.total} mastered
+            </span>
+          ))}
+        </div>
+      )}
 
       {/* Card */}
       <main className="scroll-panel flex-1 min-h-0 overflow-y-auto px-5 py-8 flex justify-center items-start">
@@ -117,11 +155,13 @@ export function FlashcardsPage() {
           <FlashcardFlip
             pool={pool}
             resetKey={poolKey}
-            onProgress={(idx, total) => setProgress({ idx, total })}
-            onMark={(cardId, isKnown) => markCard(deckId, cardId, isKnown)}
+            onProgress={(idx, total) => setRunProgress({ idx, total })}
+            onGrade={(cardId, grade) => gradeCard(deckId, cardId, grade)}
+            scheduleFor={(cardId) => deckProgress[deckId]?.schedule?.[cardId]}
+            onUndo={(cardId, prevSchedule) => undoGradeCard(deckId, cardId, prevSchedule)}
             onRunAgain={() => setSeed((s) => s + 1)}
-            emptyTitle={pool.length === 0 ? 'Everything here is marked Known.' : 'Deck run complete.'}
-            emptyBody={'Shuffle to run again, untick "Hide known" to revisit, or switch topics.'}
+            emptyTitle={pool.length === 0 ? 'Nothing due here.' : 'Deck run complete.'}
+            emptyBody={'Shuffle to run again, untick "Hide not due" to revisit, or switch topics.'}
           />
 
           <div className="mt-4 flex items-center justify-between text-xs" style={{ color: 'var(--text-secondary)' }}>

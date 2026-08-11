@@ -16,6 +16,8 @@ export interface FlashCard {
   back: string;
   /** Optional concept tags shared with map chapters. */
   tags?: string[];
+  /** Source exam this card was mined from (JSO/GK deck only). */
+  examName?: string;
 }
 
 export interface Deck {

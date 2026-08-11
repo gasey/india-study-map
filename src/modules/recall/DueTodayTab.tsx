@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react';
 import { decks } from '@/data/decks';
 import type { FlashCard } from '@/data/decks/types';
 import { useApp } from '@/lib/store';
+import { isDue } from '@/lib/sm2';
 import { FlashcardFlip } from '@/modules/flashcards/FlashcardFlip';
 import { deckHue } from './deckHue';
 import { SimplePane, type SimpleItem } from './SimplePane';
@@ -16,18 +17,30 @@ function shuffle<T>(arr: T[]): T[] {
 }
 
 export function DueTodayTab() {
-  const { deckProgress, markCard } = useApp();
+  const { deckProgress, gradeCard, undoGradeCard } = useApp();
+
+  // A card with no schedule entry yet falls back to the pre-SM-2 "known"
+  // flag, so upgrading users don't see every already-studied card as due.
+  const cardIsDue = (deckId: string, cardId: string) => {
+    const progress = deckProgress[deckId];
+    const s = progress?.schedule?.[cardId];
+    return s ? isDue(s) : !(progress?.known ?? []).includes(cardId);
+  };
 
   const perDeckDue = useMemo(
-    () => decks.map((d) => ({ deck: d, due: d.cards.filter((c) => !(deckProgress[d.id]?.known ?? []).includes(c.id)) })),
+    () => decks.map((d) => ({ deck: d, due: d.cards.filter((c) => cardIsDue(d.id, c.id)) })),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     [deckProgress]
   );
   const totalDue = perDeckDue.reduce((s, d) => s + d.due.length, 0);
+  // Built from every card, not just the due subset — a graded card drops out
+  // of `due` immediately, but undo (fired after the grade re-renders this
+  // component) still needs to resolve its owning deck.
   const deckOwner = useMemo(() => {
     const m = new Map<string, string>();
-    for (const { deck, due } of perDeckDue) for (const c of due) m.set(c.id, deck.id);
+    for (const d of decks) for (const c of d.cards) m.set(c.id, d.id);
     return m;
-  }, [perDeckDue]);
+  }, []);
 
   const [byDeck, setByDeck] = useState(false);
   const [seed, setSeed] = useState(0);
@@ -54,7 +67,7 @@ export function DueTodayTab() {
           ? 'Nothing due — every deck is caught up'
           : `${totalDue} card${totalDue === 1 ? '' : 's'} due today, across ${decksWithDue} deck${decksWithDue === 1 ? '' : 's'}`
       }
-      blurb="Due today is every flashcard you haven't marked Known yet, across every deck — there's no hidden schedule behind it, just what's still outstanding."
+      blurb="Due today is every flashcard whose SM-2 schedule has come due, across every deck — grade Again/Hard/Good/Easy and the next due date follows from that."
       cta={{ label: 'Start the queue', onClick: () => setSeed((s) => s + 1) }}
       canvasLabel={`Due queue · ${totalDue} card${totalDue === 1 ? '' : 's'}`}
       canvasTools={[
@@ -65,15 +78,23 @@ export function DueTodayTab() {
         <FlashcardFlip
           pool={pool}
           resetKey={`${byDeck}|${seed}`}
-          onMark={(cardId, known) => {
+          onGrade={(cardId, grade) => {
             const deckId = deckOwner.get(cardId);
-            if (deckId) markCard(deckId, cardId, known);
+            if (deckId) gradeCard(deckId, cardId, grade);
+          }}
+          scheduleFor={(cardId) => {
+            const deckId = deckOwner.get(cardId);
+            return deckId ? deckProgress[deckId]?.schedule?.[cardId] : undefined;
+          }}
+          onUndo={(cardId, prevSchedule) => {
+            const deckId = deckOwner.get(cardId);
+            if (deckId) undoGradeCard(deckId, cardId, prevSchedule);
           }}
           emptyTitle="Nothing due."
-          emptyBody="Every deck is caught up — check back once a card slips out of Known again."
+          emptyBody="Every deck is caught up — check back once a card's schedule brings it due again."
         />
       }
-      footNote="Marked cards save immediately per card — there's no need to finish the queue in one sitting."
+      footNote="Graded cards save immediately per card — there's no need to finish the queue in one sitting."
       listLabel="Due by deck"
       items={items}
     />

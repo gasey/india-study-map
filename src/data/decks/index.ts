@@ -2,6 +2,7 @@ import type { Deck } from './types';
 import { polityCodexCards } from './polity-codex-cards';
 import { currentAffairs2025Cards } from './current-affairs-2025';
 import { mizoramGsCards } from './mizoram-gs';
+import { jsoGkCards } from './jso-gk';
 
 // Register decks here — same pattern as chapters and banks.
 export const decks: Deck[] = [
@@ -22,6 +23,12 @@ export const decks: Deck[] = [
     title: 'Current Affairs 2025',
     description: 'Days, appointments, awards, rankings — curated from the 2025 monthly CA digests.',
     cards: currentAffairs2025Cards,
+  },
+  {
+    id: 'jso-gk',
+    title: 'JSO/GK Pool',
+    description: 'Current Affairs, History, Polity, Environment & Mizoram GK — mined MPSC JSO Paper II pool.',
+    cards: jsoGkCards,
   },
 ];
 

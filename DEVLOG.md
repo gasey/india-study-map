@@ -9,6 +9,111 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-08-11 — Merged MPSC System Analyst prep app; added "The Comfort Trap" study-mindset guide
+
+**What shipped:** two new `kind: 'static'` modules in `src/modules/registry.ts`:
+
+1. **`system-analyst`** (Practice → Exam guides, next to `jso`) — the standalone
+   MPSC System Analyst / Informatics Officer trainer built separately at
+   `~/workspace/projects/work/mpsc_system_analyst/app/`, copied verbatim into
+   `public/mpsc-system-analyst/` (index.html, app.js, styles.css, data/*.js —
+   727 syllabus concepts, 662 questions, ~3.1MB). Same plain-`<script>` /
+   `window.X = {...}` bundle pattern as `mpsc-jso-prep`, no build step needed
+   here since the source repo already compiles its own bundles. Content had
+   already gone through two independent audit passes (aptitude/PMBOK, then
+   the remaining bulk content) before the merge — see that repo's own
+   history for detail.
+2. **`study-mindset`** (Study, flat list, next to `codex`) — a new
+   single-page guide at `public/study-mindset/index.html`, first non-quiz
+   "article" content in this app (no prior precedent existed — checked).
+   Covers why exam prep confusion gets avoided rather than worked through
+   (safety behaviors vs. actual learning, why the relief-now habit backfires
+   on exam day, confusion as signal not verdict, the added identity-threat
+   angle for previously-strong students), plus two small interactive bits:
+   a self-check "which of these are your safety behaviors" checklist with a
+   live tally message, and a 2-minute "sit with it before you check the
+   answer" timer. Styled off the same token/font system as `codex/index.html`
+   (Fraunces display, Inter body, IBM Plex Mono labels, warm parchment
+   palette) for visual consistency with the other static guides, written as
+   original content (not transcribed from any source).
+
+Both verified in the dev server: iframe embed resolves correctly at
+`/embed/system-analyst` and `/embed/study-mindset`, header title picks up
+from the registry via `AppShell`'s module lookup, the study-mindset
+checklist/timer JS runs correctly (tested via direct DOM interaction), no
+console errors on either, `tsc --noEmit` clean.
+
+**Why:** direct user request, after reviewing the earlier System Analyst
+content-completeness work and separately mentioning a study-psychology
+video about avoiding confusion during recall — wanted the exam-prep app
+merged in and the mindset concepts turned into something usable here rather
+than staying a one-off video summary.
+
+**What's still open:**
+- `public/mpsc-system-analyst/` is a byte-copy, not a symlink or build
+  artifact — if the source repo's content improves later, this copy won't
+  auto-update; it'll need re-copying.
+- No route/link between `study-mindset` and the practice modules (e.g. a
+  "stuck? read this" pointer from a quiz screen) — it's discoverable only
+  via the Study nav for now.
+
+---
+
+## 2026-08-10 — Papers: per-paper technical-subject filter (distinct from the existing post filter)
+
+**What shipped:** the existing Technical/Non-Tech toggle on `/papers`
+(`postFilter`/`isPostTechnical()`) gates whole *sittings* by `post`, and
+`post` is null on 70-91% of papers depending on exam type — so it can only
+ever act on a sliver of the bank, and worse, hiding a sitting by post also
+throws out that sitting's general GK/English/Aptitude papers along with its
+technical ones. User asked for something different: a way to drop
+purely-technical/specialist papers while keeping GK/English/Maths/Aptitude
+content, even from an otherwise-technical exam.
+
+Added a second, independent axis: `isPaperSubjectTechnical()` classifies
+each *paper* by its `paperSubject` field (far better populated than `post`
+— e.g. "Civil Engineering", "Ophthalmology", "Animal Husbandry & Veterinary
+Science", "General Financial Rules" vs "GS"/"GK"/"General English"). A
+general-subject signal always wins over an incidental technical-sounding
+word in the same string (e.g. "General (Aptitude, Legal, Reasoning,
+English)" stays visible) — hiding a paper someone actually needs is worse
+than occasionally keeping one with a stray technical word in its title.
+Unclassified subjects (neither pattern matches) default to visible, same
+flag-don't-hide bias as the exam-name work above.
+
+New "Hide technical-subject papers" checkbox in the sidebar filters at the
+paper level within each sitting (not the whole sitting), shows a "N
+technical-subject papers hidden" note when some (not all) of a sitting's
+papers are filtered, and recomputes the sitting's Qs total from the visible
+papers so the header count doesn't quietly include hidden questions. A
+sitting with zero papers left after filtering is dropped from the list
+entirely.
+
+Verified against live production data before calling it done: 97 of 3,764
+papers (2.6%) hidden; 92 sittings fully hidden (every paper in them was
+technical). Confirmed in the dev server: the checkbox works, mixed sittings
+keep their GS/English rows and lose only the technical ones.
+
+**Why:** direct user request — "we still need their gk and english and
+maths and aptitude" while wanting pure-technical questions out, which the
+existing post-based filter structurally can't do (it's whole-sitting, and
+gated on the wrong, mostly-empty field).
+
+**What's still open:**
+- Real impact is modest (2.6%) because most papers — even genuinely
+  specialist ones like a DSWO post's Psychology/Social Work paper — have
+  `paperSubject` generically tagged `"GS"` rather than something that names
+  the actual specialty. This is a data-granularity gap, not a classifier
+  bug; closing it needs re-extraction, same as the `post`/exam-name gaps
+  already flagged.
+- The regex keyword lists (`GENERAL_SUBJECT_RE`/`TECHNICAL_SUBJECT_RE`) are
+  hand-tuned against the ~90 distinct `paperSubject` strings seen live, not
+  exhaustive — a subject phrased in a way neither list matches defaults to
+  visible, which is the safe direction but means some genuinely technical
+  papers with unusual titles will still show through.
+
+---
+
 ## 2026-08-10 — Fixed PassageGroup type errors and rendering bugs; flagged it as currently inert on live data
 
 **What shipped:** picked up in-progress, uncommitted work (`src/modules/mpsc/PassageGroup.tsx`,

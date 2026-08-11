@@ -87,6 +87,66 @@ window.MPSC.units.push({
          '</ul>' +
          '<p><b>Anti-forensics</b> techniques named in the syllabus: data hiding (ADS, slack space, hidden partitions), file extension mismatch, encryption, <b>steganography</b>, and data destruction (wiping, degaussing, physical destruction).</p>' +
          '<div class="tip"><b>Steganography vs cryptography.</b> Cryptography hides the <em>meaning</em> of a message — an observer sees ciphertext and knows communication occurred. Steganography hides the <em>existence</em> of the message inside an innocuous carrier. The commonest technique is <b>LSB substitution</b>, replacing the least significant bit of each pixel byte, which is visually imperceptible.</div>'
+    },
+    {
+      h: 'Deleted files and partition recovery',
+      b: '<p>"Deleting" a file almost never erases its data — it only removes the <b>pointer</b> to that data, leaving the content sitting in what the file system now calls unallocated space until something else is written over it.</p>' +
+         '<table>' +
+         '<tr><th>File system</th><th>What actually happens on delete</th></tr>' +
+         '<tr><td>FAT (12/16/32)</td><td>The first byte of the filename in the directory entry is overwritten with <b>0xE5</b>; the cluster chain in the File Allocation Table is cleared. The remaining filename characters and the data clusters survive.</td></tr>' +
+         '<tr><td>NTFS</td><td>The file\'s <b>$MFT</b> entry is flagged as free (its "in use" bit is cleared) and the corresponding clusters are marked free in <b>$Bitmap</b>. The MFT record itself, and the data, typically remain intact until reallocated.</td></tr>' +
+         '</table>' +
+         '<p>Modern Windows routes user deletions through the <b>Recycle Bin</b> (<code>$Recycle.Bin</code>), which stores each item as a pair: <b>$I</b> (metadata — original path, size, deletion time) and <b>$R</b> (the actual file data). Older Windows used a single <code>INFO2</code> index file. Recovering the $I/$R pair even after the bin is "emptied" is a standard exercise, since emptying only removes the pointers again.</p>' +
+         '<p><b>Partition recovery.</b> On a BIOS/MBR disk, the <b>Master Boot Record</b> at logical sector 0 holds the boot code and a table of up to four partition entries; on a GPT disk a protective MBR is followed by the GUID Partition Table with a duplicate backup copy at the end of the disk. If the table itself is deleted or corrupted, the partition\'s data is usually still intact — recovery tools scan the raw disk for known <b>volume boot record</b> signatures (e.g. NTFS\'s "NTFS" OEM ID, FAT\'s "FAT32") to relocate and rebuild the missing partition entry.</p>' +
+         '<div class="tip"><b>TestDisk vs PhotoRec.</b> Both are open-source and commonly paired: <b>TestDisk</b> repairs partition tables and boot sectors — it works at the file-system/partition level. <b>PhotoRec</b> ignores the file system entirely and carves files by signature straight from raw sectors, which is why it survives a full reformat that defeats TestDisk.</div>'
+    },
+    {
+      h: 'Memory forensics and crash dump analysis',
+      b: '<p>A <b>memory dump</b> captures the contents of RAM at a point in time, either live (via a tool such as WinPmem/FTK Imager while the system runs) or as a by-product of a crash.</p>' +
+         '<p>When Windows hits a fatal kernel-mode error (a <b>"Stop error"</b>/BSOD, identified by a bug-check code such as <code>0x0000007B</code>), it can write a <b>crash dump</b> to disk before restarting:</p>' +
+         '<table>' +
+         '<tr><th>Dump type</th><th>Contents / size</th></tr>' +
+         '<tr><td><b>Complete memory dump</b></td><td>All of physical RAM — largest, most forensically complete; written to <code>%SystemRoot%\\MEMORY.DMP</code>.</td></tr>' +
+         '<tr><td><b>Kernel memory dump</b></td><td>Only kernel-mode memory (drivers, kernel structures), skipping user-mode process memory — smaller, still very useful.</td></tr>' +
+         '<tr><td><b>Small memory dump (minidump)</b></td><td>A compact summary (historically ~64–256 KB) with the stop-code, loaded driver list and stack trace; stored under <code>%SystemRoot%\\Minidump\\</code>, one file per crash.</td></tr>' +
+         '<tr><td><b>Automatic / active memory dump</b></td><td>Windows 8+ default; behaves like a kernel dump but is sized intelligently relative to RAM.</td></tr>' +
+         '</table>' +
+         '<p>Crash dumps are analysed with tools such as <b>WinDbg</b> (the <code>!analyze -v</code> command decodes the bug-check and faulting driver). Forensically they matter beyond troubleshooting: a dump can preserve evidence of a kernel-mode rootkit, a malicious driver, or process memory that would otherwise have been lost, because it is captured automatically at the moment of failure rather than requiring the examiner to have triggered acquisition themselves.</p>'
+    },
+    {
+      h: 'Evidence collection in Linux and Mac operating systems',
+      b: '<p>The Windows-centric artefacts above have direct analogues on other platforms, and the syllabus calls this out as a distinct topic.</p>' +
+         '<p><b>Linux.</b> Acquisition is typically done with <code>dd</code> or the forensically hardened <code>dc3dd</code>/<code>dcfldd</code> (which add hashing and logging on the fly), from a boot medium so the target file system is never mounted read-write. Key volatile sources live under <code>/proc</code> (per-process memory maps, open file handles, network sockets) — the Linux equivalent of live RAM/process collection. Non-volatile artefacts include <code>/var/log/syslog</code> or <code>/var/log/auth.log</code> (authentication and system events, analogous to Windows Event Logs), shell history files (<code>~/.bash_history</code>), cron jobs, and the <b>swap partition</b> (analogous to <code>pagefile.sys</code>). The common file systems (ext3/ext4) use <b>inodes</b> rather than an MFT; deleted-file recovery tools such as <code>extundelete</code> or manual <code>debugfs</code> inspection work by walking freed inodes and the journal.</p>' +
+         '<p><b>Mac (macOS).</b> The disk uses <b>HFS+</b> or, from 2017 onward, <b>APFS</b>. Configuration and application state live in <b>plist</b> files (property lists, XML or binary, under <code>~/Library/Preferences</code>) — the rough Mac counterpart to the Windows registry. <b>FileVault</b> provides full-disk encryption; an examiner needs the user password or the recovery key to acquire readable data from a powered-off encrypted Mac. macOS keeps a <b>unified log</b> (queried with <code>log show</code>) in place of separate event-log files, stores credentials in the <b>Keychain</b>, and <code>.DS_Store</code> files left in folders can reveal that a directory was browsed in Finder even after its contents are deleted. <b>Time Machine</b> backups are a rich secondary evidence source, often retaining deleted files long after the live disk has overwritten them.</p>' +
+         '<div class="tip"><b>Exam trap.</b> Do not assume "MFT analysis" or "$STANDARD_INFORMATION/$FILE_NAME timestamps" generalise to Linux/Mac questions — those are NTFS-specific terms. The Linux equivalent structure is the <b>inode</b>, which stores its own timestamp set (mtime/atime/ctime, and birth time on ext4) but has no direct MFT counterpart.</div>'
+    },
+    {
+      h: 'Disk and file encryption techniques',
+      b: '<p>Encryption is listed separately from anti-forensics because it is also a legitimate security control the examiner must work around, not merely something a suspect deploys deliberately.</p>' +
+         '<table>' +
+         '<tr><th>Scheme</th><th>Platform / scope</th><th>Notes</th></tr>' +
+         '<tr><td><b>BitLocker</b></td><td>Windows, full-disk</td><td>Keys can be sealed to a <b>TPM</b> (Trusted Platform Module) so the volume auto-unlocks only on the original hardware/boot state.</td></tr>' +
+         '<tr><td><b>FileVault</b></td><td>macOS, full-disk</td><td>Ties to the user\'s login password; a separate recovery key can be escrowed.</td></tr>' +
+         '<tr><td><b>EFS</b> (Encrypting File System)</td><td>Windows, file/folder-level</td><td>Encrypts individual files transparently for the logged-in user, unlike BitLocker\'s whole-volume scope.</td></tr>' +
+         '<tr><td><b>VeraCrypt</b> (successor to TrueCrypt)</td><td>Cross-platform, volume or whole-disk</td><td>Supports <b>hidden volumes</b> offering plausible deniability — a decoy volume unlocks with one password while a second hidden volume needs another.</td></tr>' +
+         '</table>' +
+         '<p>The forensic consequence of full-disk encryption is that a <b>powered-off, encrypted</b> drive imaged without the key or passphrase yields only ciphertext. This is precisely why <b>live/volatile acquisition</b> (capturing RAM, per the order-of-volatility) is prioritised whenever a suspect machine is found running and unlocked — the encryption key normally exists in plaintext in memory while the volume is mounted, and is lost the moment the machine is powered down.</p>'
+    },
+    {
+      h: 'Digital evidence, numbering systems and forensic tools',
+      b: '<p><b>Digital forensics</b> is the application of scientifically derived and proven methods toward the identification, collection, preservation, analysis and presentation of digital evidence, such that it is admissible in a court of law. <b>Digital evidence</b> is any probative information stored or transmitted in binary form.</p>' +
+         '<p><b>Sources of digital evidence</b> extend well beyond a suspect\'s hard disk: computers and laptops, mobile phones and tablets, cloud storage and email accounts, network traffic and server/firewall logs, CCTV/DVR footage, IoT and embedded devices (smart-home hubs, vehicle infotainment, wearables), and removable media (USB drives, memory cards).</p>' +
+         '<p><b>Numbering fundamentals.</b> A <b>bit</b> is a single binary digit (0/1); a <b>byte</b> is 8 bits and can represent 256 distinct values (0–255 in decimal, <code>00</code>–<code>FF</code> in hexadecimal). Forensic tools display data in hex because two hex digits map exactly onto one byte, unlike decimal.</p>' +
+         '<table>' +
+         '<tr><th>Category</th><th>Representative tools</th></tr>' +
+         '<tr><td>Disk imaging</td><td>FTK Imager, EnCase, X-Ways Forensics, <code>dd</code>/<code>dc3dd</code></td></tr>' +
+         '<tr><td>Memory analysis</td><td><b>Volatility</b>, Rekall</td></tr>' +
+         '<tr><td>File-system / case analysis suites</td><td>Autopsy (front end to <b>The Sleuth Kit</b>) — open source; EnCase, FTK — commercial</td></tr>' +
+         '<tr><td>Deleted-file / partition recovery</td><td>TestDisk, PhotoRec, Recuva</td></tr>' +
+         '<tr><td>Network</td><td>Wireshark</td></tr>' +
+         '<tr><td>Mobile</td><td>Cellebrite UFED, MSAB XRY</td></tr>' +
+         '</table>' +
+         '<div class="tip"><b>Discriminator.</b> Autopsy is often mis-paired with "commercial, paid tool" in distractor options — it and The Sleuth Kit are free and open source, which is exactly why they are the standard teaching tool despite EnCase/FTK dominating paid casework.</div>'
     }
   ],
 
@@ -160,6 +220,69 @@ window.MPSC.units.push({
           'Changing one bit of input changes approximately half the output bits',
           'Collisions become more likely as more data is hashed',
           'The function can be computed in parallel'], a: 1,
-      e: '<p>The <b>avalanche effect</b> makes the output statistically unrelated to the input, so no partial information about the message leaks from its digest.</p><p>Forensically it is what makes hashing a reliable integrity check: any alteration, even a single bit in a multi-gigabyte image, produces a completely different digest rather than a similar one.</p>' }
+      e: '<p>The <b>avalanche effect</b> makes the output statistically unrelated to the input, so no partial information about the message leaks from its digest.</p><p>Forensically it is what makes hashing a reliable integrity check: any alteration, even a single bit in a multi-gigabyte image, produces a completely different digest rather than a similar one.</p>' },
+
+    { q: 'When a file is deleted from a FAT file system, what actually happens to it?',
+      o: ['The data clusters are immediately zero-filled',
+          'The first byte of the filename in the directory entry is replaced with 0xE5 and the cluster chain is cleared',
+          'The file is moved to a hidden system partition',
+          'The file is compressed and re-written'], a: 1,
+      e: '<p>FAT deletion replaces the <b>first byte of the filename with 0xE5</b> in the directory entry and clears the file\'s entry in the File Allocation Table. The remaining filename bytes and, crucially, the data in the clusters are left untouched until overwritten.</p><p>This is exactly why undelete tools can recover FAT files by scanning for entries starting with 0xE5 and rebuilding the original cluster chain — nothing about the content itself was erased.</p>' },
+
+    { q: 'On an NTFS volume, deleting a file primarily changes',
+      o: ['The $STANDARD_INFORMATION creation timestamp only',
+          'The MFT entry\'s "in use" flag and the corresponding clusters in $Bitmap, both marked free',
+          'The partition boot sector',
+          'The file\'s hash value'], a: 1,
+      e: '<p>NTFS deletion clears the "in use" bit on the file\'s <b>$MFT</b> record and frees the corresponding clusters in <b>$Bitmap</b>. The MFT record and the underlying data typically remain recoverable until something else is allocated over them.</p><p>This is the same principle as FAT deletion expressed in NTFS terms — "deletion" removes bookkeeping, not content, which is the foundation of nearly all undelete and carving techniques.</p>' },
+
+    { q: 'On a BIOS/MBR-partitioned disk, the Master Boot Record is located at',
+      o: ['The last sector of the disk', 'Logical sector 0', 'The first sector of the active partition', 'A fixed offset inside the $MFT'], a: 1,
+      e: '<p>The <b>MBR sits at logical sector 0</b> of the disk and holds boot code plus a table of up to four primary partition entries.</p><p>A GPT disk instead begins with a protective MBR followed by the GUID Partition Table, which — unlike the single MBR copy — keeps a <b>backup copy at the end of the disk</b>, making GPT more resilient to partition-table corruption.</p>' },
+
+    { q: 'Which pair of open-source tools is most accurately described as "TestDisk repairs partition tables and boot sectors, while ___ carves files directly from raw sectors by signature, ignoring the file system"?',
+      o: ['EnCase', 'PhotoRec', 'Autopsy', 'Volatility'], a: 1,
+      e: '<p><b>PhotoRec</b> is bundled with TestDisk but works purely by signature-based carving on raw sectors, so it keeps working even after a full reformat that would defeat TestDisk\'s file-system-aware repairs.</p><p>Autopsy is a case-management front end to The Sleuth Kit; Volatility is for memory analysis; EnCase is a commercial imaging/analysis suite — none of them is the carving counterpart to TestDisk.</p>' },
+
+    { q: 'A Windows "small memory dump" (minidump) is normally written to',
+      o: ['%SystemRoot%\\MEMORY.DMP', '%SystemRoot%\\Minidump\\', '%SystemRoot%\\System32\\config\\', 'The Recycle Bin'], a: 1,
+      e: '<p>Minidumps are stored individually, one per crash, under <code>%SystemRoot%\\Minidump\\</code>. The <b>complete memory dump</b> (all of physical RAM) is instead written as the single file <code>%SystemRoot%\\MEMORY.DMP</code>.</p><p><code>System32\\config</code> holds the registry hives, not crash dumps — a common distractor pairing since both are system-critical Windows folders.</p>' },
+
+    { q: 'Which type of Windows crash dump captures kernel-mode memory (drivers, kernel structures) but deliberately excludes user-mode process memory?',
+      o: ['Complete memory dump', 'Kernel memory dump', 'Small memory dump', 'Live memory dump'], a: 1,
+      e: '<p>A <b>kernel memory dump</b> is a deliberate middle ground: larger and more useful than a minidump, but smaller than a complete dump because it omits user-mode process memory entirely.</p><p>Forensically, a kernel dump is still enough to identify a malicious driver or kernel-mode rootkit, which is often the more relevant question after a suspicious crash than recovering an ordinary application\'s memory.</p>' },
+
+    { q: 'On a Linux system, which location is the primary source of live/volatile information about running processes, open files and network sockets?',
+      o: ['/var/log', '/etc/passwd', '/proc', '/boot'], a: 2,
+      e: '<p><b>/proc</b> is a virtual, RAM-resident file system exposing per-process memory maps, open file descriptors and network state — the Linux analogue of live process/RAM collection on Windows.</p><p><code>/var/log</code> holds persistent (non-volatile) logs such as <code>syslog</code> and <code>auth.log</code>; <code>/etc/passwd</code> is the static user account list; <code>/boot</code> holds the kernel and bootloader files.</p>' },
+
+    { q: 'Forensically hardened variants of the dd imaging command, such as dc3dd or dcfldd, primarily add which capability over plain dd?',
+      o: ['Automatic decryption of the target volume', 'On-the-fly hashing and logging during acquisition', 'Compression of the output image', 'Write-blocking at the software level'], a: 1,
+      e: '<p><b>dc3dd</b> and <b>dcfldd</b> extend plain <code>dd</code> with built-in progress reporting, <b>on-the-fly hashing</b> (e.g. MD5/SHA-256 computed as the image is written) and logging — giving the examiner an integrity record without a separate hashing pass.</p><p>Plain <code>dd</code> does none of this natively; an examiner using it must hash the source and the resulting image as separate steps.</p>' },
+
+    { q: 'On macOS, application and system configuration data is predominantly stored in',
+      o: ['Registry hives', 'plist (property list) files', 'INFO2 files', 'The MFT'], a: 1,
+      e: '<p>macOS uses <b>plist files</b> (XML or binary property lists, typically under <code>~/Library/Preferences</code>) as its rough counterpart to the Windows registry.</p><p>Registry hives and the MFT are Windows/NTFS-specific; <code>INFO2</code> was the pre-Vista Windows Recycle Bin index file — none apply to macOS.</p>' },
+
+    { q: 'FileVault, Apple\'s full-disk encryption for macOS, is most directly comparable to which Windows technology?',
+      o: ['EFS (Encrypting File System)', 'BitLocker', 'Alternate Data Streams', 'VSS (Volume Shadow Copy)'], a: 1,
+      e: '<p><b>FileVault</b> encrypts the entire startup volume, making it the macOS counterpart of <b>BitLocker</b>, not of EFS — EFS encrypts individual files/folders for a logged-in user rather than the whole disk.</p><p>Without the user\'s password or an escrowed recovery key, a powered-off FileVault- or BitLocker-encrypted disk yields only ciphertext to an examiner, which is why capturing keys from live RAM is prioritised whenever the machine is found running.</p>' },
+
+    { q: 'Why is capturing RAM given priority when a suspect machine is found powered on and unlocked with a full-disk-encrypted volume mounted?',
+      o: ['RAM contains a faster copy of all disk files', 'The encryption key typically exists in plaintext in memory only while the volume is mounted',
+          'RAM acquisition does not require a write-blocker', 'Disk imaging is impossible on encrypted volumes'], a: 1,
+      e: '<p>Full-disk encryption schemes such as BitLocker and FileVault hold the unlock key in <b>plaintext in RAM</b> while the volume is mounted and in use. Once the machine is powered off, that key is gone and the disk image becomes unreadable ciphertext without the passphrase or recovery key.</p><p>This is a direct application of the <b>order-of-volatility</b> principle from RFC 3227: RAM must be captured before shutdown precisely because some evidence — like an encryption key — exists nowhere else.</p>' },
+
+    { q: 'One byte is equal to how many bits, and how many distinct values can it represent?',
+      o: ['4 bits, 16 values', '8 bits, 256 values', '16 bits, 65536 values', '8 bits, 128 values'], a: 1,
+      e: '<p>A <b>byte is 8 bits</b> and can represent <b>256</b> distinct values, expressed as 0–255 in decimal or <code>00</code>–<code>FF</code> in hexadecimal.</p><p>This is exactly why forensic tools display data in hex: two hex digits map onto one byte cleanly, whereas decimal does not divide evenly along byte boundaries — a convenience rather than a security property.</p>' },
+
+    { q: 'Which tool is primarily used for analysing a captured RAM image (memory forensics) rather than for disk imaging or partition recovery?',
+      o: ['FTK Imager', 'TestDisk', 'Volatility', 'dc3dd'], a: 2,
+      e: '<p><b>Volatility</b> is the standard open-source framework for analysing RAM captures — extracting running processes, network connections, loaded drivers and injected code from a memory dump.</p><p>FTK Imager and dc3dd are acquisition tools (they can capture RAM but do not analyse it), and TestDisk operates on disk partitions, not memory — a distinction the syllabus draws by listing "memory forensics" separately from "acquisition."</p>' },
+
+    { q: 'Autopsy, a widely taught digital forensics case-analysis platform, is best described as',
+      o: ['A commercial, paid suite competing with EnCase', 'A free, open-source front end to The Sleuth Kit', 'A mobile-device extraction tool like Cellebrite UFED', 'A network packet-capture tool like Wireshark'], a: 1,
+      e: '<p><b>Autopsy</b> is free and open source, built as a graphical front end to <b>The Sleuth Kit</b>, which is exactly why it is favoured in training environments and by resource-constrained agencies despite EnCase and FTK dominating paid casework.</p><p>It handles file-system and case analysis (timeline, keyword search, hash filtering), not packet capture or mobile extraction — those are the separate specialisations of Wireshark and Cellebrite UFED/MSAB XRY respectively.</p>' }
   ]
 });

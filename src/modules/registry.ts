@@ -79,6 +79,15 @@ export const modules: AppModule[] = [
     kind: 'static',
     path: '/codex/index.html',
   },
+  {
+    id: 'study-mindset',
+    title: 'The Comfort Trap',
+    category: 'Study',
+    tagline: 'Why confusion feels unbearable, and how to sit with it',
+    glyph: '🧭',
+    kind: 'static',
+    path: '/study-mindset/index.html',
+  },
 
   // ---- Practice: In-app modules ----
   {
@@ -152,6 +161,16 @@ export const modules: AppModule[] = [
     glyph: '🕵️',
     kind: 'static',
     path: '/mpsc-jso-prep/index.html',
+  },
+  {
+    id: 'system-analyst',
+    title: 'MPSC System Analyst',
+    category: 'Practice',
+    subgroup: 'Exam guides',
+    tagline: '727 concepts, 662 questions — Study guide, Daily test, Mock test',
+    glyph: '🖥️',
+    kind: 'static',
+    path: '/mpsc-system-analyst/index.html',
   },
 
   // ---- Practice: Labs ----

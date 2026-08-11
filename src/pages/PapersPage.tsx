@@ -41,6 +41,32 @@ function isPostTechnical(post: string | null): boolean {
   return post ? TECHNICAL_POSTS.has(post) : false;
 }
 
+// Per-*paper* technical/specialist-subject filter — distinct from the
+// per-*sitting* post filter above. `post` is null on 70-91% of papers (see
+// DEVLOG), so it can only ever gate a sliver of the bank. `paperSubject` is
+// populated far more often and, critically, varies *within* a sitting: a
+// "Technical" exam still has a GS/English/Aptitude paper alongside its
+// subject-specific one, and hiding the whole sitting by post throws out
+// the general paper too. This filters at the paper level instead, so a
+// Junior Engineer sitting's GS paper stays visible even with technical
+// papers hidden.
+const GENERAL_SUBJECT_RE = /\b(gk|general knowledge|gs|general studies|general english|english|comprehension|aptitude|reasoning|mathematics|maths|precis|pr[ée]cis|essay|current affairs)\b/i;
+const TECHNICAL_SUBJECT_RE = /\b(engineering|engineer|technical|veterinary|animal husbandry|horticulture|sericulture|agriculture|fisheries|ophthalmology|obstetrics|gynaecology|gynecology|surgery|medicine|dialysis|radiotherapy|pharmacy|nursing|social work|psychology|home science|sociology|law\b|legal|rules|act\b|manual)\b/i;
+
+// Unclassified subjects (neither pattern matches) default to *not* hidden —
+// erring toward showing content rather than silently dropping something a
+// general-knowledge learner might actually want, per this project's
+// flag-don't-hide bias for uncertain data.
+function isPaperSubjectTechnical(subject: string | null | undefined): boolean {
+  if (!subject) return false;
+  // A general-subject signal wins even if a technical word also appears
+  // (e.g. "General (Aptitude, Legal, Reasoning, English)") — hiding a paper
+  // that's mostly GK/English/Aptitude is worse than occasionally keeping
+  // one with a stray technical-sounding word in its title.
+  if (GENERAL_SUBJECT_RE.test(subject)) return false;
+  return TECHNICAL_SUBJECT_RE.test(subject);
+}
+
 // ============================================
 // Papers browse — the Jabreeze "Browse Papers" pane, ported from the design
 // mockup (designs/Jabreeze - Redesign.dc.html, `isPapers` block, lines
@@ -143,6 +169,11 @@ export default function PapersPage() {
   const [selected, setSelected] = useState<{ examType: string; year: number | null } | null>(null);
   // Filter by Technical / Non-Technical posts
   const [postFilter, setPostFilter] = useState<'all' | 'technical' | 'non-technical'>('all');
+  // Hide technical/specialist-*subject* papers (Engineering, Veterinary, Law,
+  // Rules...) while keeping GK/GS/English/Maths/Aptitude papers, even within
+  // an otherwise-technical sitting. See isPaperSubjectTechnical() above for
+  // why this is a separate axis from postFilter.
+  const [hideTechnicalPapers, setHideTechnicalPapers] = useState(false);
 
   // An inline sitting launched from a paper's "Test" button — sampled live,
   // played in the same shell as the Tests page's player.
@@ -178,14 +209,22 @@ export default function PapersPage() {
     ? selectedExamType.years.find((y) => y.year === selected.year) ?? null
     : null;
 
-  // Filter sittings based on post filter
-  const filterSittings = (sittings: PapersTreeSitting[]) => {
-    if (postFilter === 'all') return sittings;
-    return sittings.filter((s) => {
-      const isTechnical = isPostTechnical(s.post);
-      return postFilter === 'technical' ? isTechnical : !isTechnical;
+  // The papers actually shown for a sitting once the subject filter applies —
+  // used both to render rows and to decide whether a sitting has anything
+  // left to show at all.
+  const visiblePapers = (s: PapersTreeSitting) =>
+    hideTechnicalPapers ? s.papers.filter((p) => !isPaperSubjectTechnical(p.paperSubject)) : s.papers;
+
+  // Filter sittings based on post filter + subject filter
+  const filterSittings = (sittings: PapersTreeSitting[]) =>
+    sittings.filter((s) => {
+      if (postFilter !== 'all') {
+        const isTechnical = isPostTechnical(s.post);
+        if ((postFilter === 'technical') !== isTechnical) return false;
+      }
+      if (hideTechnicalPapers && visiblePapers(s).length === 0) return false;
+      return true;
     });
-  };
 
   const startPaperTest = async (p: PapersTreeSitting['papers'][number]) => {
     setTesting(p.id);
@@ -245,6 +284,20 @@ export default function PapersPage() {
                 {filter === 'all' ? 'All' : filter === 'technical' ? 'Technical' : 'Non-Tech'}
               </button>
             ))}
+          </div>
+        </div>
+
+        <div className="mb-3">
+          <label className="flex items-center gap-2 text-[11px] cursor-pointer" style={{ color: 'var(--text-secondary)' }}>
+            <input
+              type="checkbox"
+              checked={hideTechnicalPapers}
+              onChange={(e) => setHideTechnicalPapers(e.target.checked)}
+            />
+            Hide technical-subject papers
+          </label>
+          <div className="text-[10px] mt-1" style={{ color: 'var(--text-muted)' }}>
+            Keeps GK / GS / English / Maths / Aptitude papers even in a technical sitting
           </div>
         </div>
 
@@ -366,6 +419,11 @@ export default function PapersPage() {
                 const secondary = examName && s.post && !examName.toLowerCase().includes(s.post.toLowerCase())
                   ? s.post
                   : null;
+                const papers = visiblePapers(s);
+                const hiddenCount = s.papers.length - papers.length;
+                const totalQuestions = hideTechnicalPapers
+                  ? papers.reduce((n, p) => n + p.questionCount, 0)
+                  : s.totalQuestions;
                 return (
                 <div
                   key={s.key}
@@ -391,11 +449,16 @@ export default function PapersPage() {
                       <span className="text-xs" style={{ color: 'var(--text-secondary)' }}>· {s.year}</span>
                     )}
                     <span className="ml-auto text-[11px] font-mono" style={{ color: 'var(--text-muted)' }}>
-                      {s.totalQuestions} Qs
+                      {totalQuestions} Qs
                     </span>
                   </div>
+                  {hiddenCount > 0 && (
+                    <div className="text-[11px] mb-2" style={{ color: 'var(--text-muted)' }}>
+                      {hiddenCount} technical-subject paper{hiddenCount === 1 ? '' : 's'} hidden
+                    </div>
+                  )}
                   <div className="flex flex-col">
-                    {s.papers.map((p) => (
+                    {papers.map((p) => (
                       <div
                         key={p.id}
                         className="grid items-center gap-3 py-[9px]"

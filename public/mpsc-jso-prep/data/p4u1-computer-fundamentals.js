@@ -86,6 +86,60 @@ window.MPSC.units.push({
          'and the end of its last allocated cluster. It holds remnants of whatever occupied that cluster before, ' +
          'which is why it is searched. <b>Unallocated space</b> is clusters not currently claimed by any file — ' +
          'where deleted file content lives until overwritten.</div>'
+    },
+    {
+      h: 'Storage devices, OS types and virtual machines',
+      b: '<p><b>Primary storage</b> (semiconductor memory) splits into two families:</p>' +
+         '<ul>' +
+         '<li><b>RAM</b> — <b>DRAM</b> (one capacitor + transistor per bit, leaks charge so needs <b>periodic refresh</b>, slower, cheap and dense — used as main memory) vs <b>SRAM</b> (flip-flop based, no refresh needed, faster, costlier — used for cache).</li>' +
+         '<li><b>ROM family</b> — MROM (mask-programmed at the factory), PROM (user-programmable once, via fuses), EPROM (erasable with UV light), EEPROM (electrically erasable, byte-level), Flash (electrically erasable, block-level — the basis of USB drives and SSDs). All are non-volatile, unlike RAM.</li>' +
+         '</ul>' +
+         '<p><b>Secondary storage:</b> HDDs (magnetic platters; access time = seek time + rotational latency + transfer time) vs SSDs (NAND flash, no moving parts, faster random access, wear-levelled) vs optical media (CD/DVD/Blu-ray, laser-read).</p>' +
+         '<p><b>Types of OS:</b> Batch (jobs queued, no interaction) → Multiprogrammed (several jobs resident, CPU switches to maximise utilisation) → Time-sharing (multiprogramming plus fast switching to give each user the illusion of a dedicated, interactive system) → Real-time (deadline-driven; see below) → Distributed (many autonomous computers presented <em>transparently</em> as one system) → Network OS (autonomous machines that stay visible as separate machines, sharing files/printers, e.g. Windows Server).</p>' +
+         '<p><b>Logical/layered structure:</b> hardware → kernel (process, memory, device management) → shell/system-call interface → user applications. Kernel design styles: <b>monolithic</b> (all services in kernel space — fast, but one bug can crash everything; classic Unix/Linux), <b>microkernel</b> (only IPC, basic scheduling and memory in the kernel, the rest as user-space servers — fault-isolated, more IPC overhead; QNX, Minix), <b>layered</b>, and <b>hybrid</b> (Windows NT, macOS XNU).</p>' +
+         '<div class="tip"><b>Virtual machines.</b> A <b>hypervisor (VMM)</b> lets one physical machine host several isolated guest OSes. <b>Type 1 / bare-metal</b> runs directly on hardware (VMware ESXi, Hyper-V, Xen — the data-centre choice). <b>Type 2 / hosted</b> runs as an application atop a conventional host OS (VirtualBox, VMware Workstation — convenient for a desktop, but adds a host-OS overhead layer). Forensically, a compromised guest can often be examined from its snapshot/memory-dump files without touching the live hypervisor.</div>'
+    },
+    {
+      h: 'OS services, process concurrency and process generation',
+      b: '<p><b>Classic OS services</b> (user-facing: program execution, I/O operations, file-system manipulation, communication/IPC, error detection; system-facing: resource allocation, accounting, protection & security, and the user interface itself — CLI, GUI or batch).</p>' +
+         '<p><b>Principles of concurrency:</b> when processes/threads share data, uncontrolled interleaving causes a <b>race condition</b>. A correct solution to the <b>critical-section problem</b> must guarantee three things: <b>mutual exclusion</b> (only one process in its critical section at a time), <b>progress</b> (the choice of who enters next cannot be postponed forever by processes outside their critical/remainder sections), and <b>bounded waiting</b> (a cap on how many times others may enter before a waiting process is finally granted access).</p>' +
+         '<p><b>Semaphores</b> are integer variables manipulated only through atomic <code>wait()</code>/<code>signal()</code> (P/V) operations. A <b>counting semaphore</b> guards a resource with several instances; a <b>binary semaphore</b> (0/1) resembles a lock.</p>' +
+         '<p><b>Process generation:</b> on Unix/Linux, a process creates a child via <code>fork()</code> — the call returns twice, giving <b>0 to the child</b> and the <b>child\'s PID to the parent</b> (negative on failure). <code>exec()</code> then replaces the calling process\'s memory image with a new program — the common <code>fork()</code>+<code>exec()</code> pattern used to launch a different program. The parent uses <code>wait()</code>/<code>waitpid()</code> to reap a terminated child; an un-reaped terminated child is a <b>zombie</b>, and a child whose parent exits first is <b>orphaned</b> and adopted by init/systemd. Windows has no separate fork/exec split — a single <code>CreateProcess()</code> call does both.</p>' +
+         '<div class="tip"><b>Classic exam trap.</b> A <b>mutex</b> has <em>ownership</em> — only the thread that locked it may unlock it. A <b>binary semaphore</b> has no ownership; any thread may signal it, even one that never waited on it, which is exactly what makes semaphores useful for signalling (e.g. producer–consumer) rather than pure exclusion.</div>'
+    },
+    {
+      h: 'Swapping and directory structures',
+      b: '<p><b>Swapping</b> moves an entire process (or a large chunk of its image) between main memory and a backing store (swap space) to change the degree of multiprogramming — classically the job of the medium-term scheduler. The key distinction from <b>paging</b> is <b>granularity</b>: swapping acts on a whole process, paging acts on individual fixed-size pages, enabling far finer-grained, on-demand movement (demand paging).</p>' +
+         '<p><b>Directory structures</b>, in increasing order of flexibility:</p>' +
+         '<ul>' +
+         '<li><b>Single-level</b> — one directory for the whole system; no two files anywhere may share a name.</li>' +
+         '<li><b>Two-level</b> — one directory per user; solves cross-user name clashes but files still can\'t be shared easily.</li>' +
+         '<li><b>Tree-structured</b> — the familiar hierarchical model; every file has exactly one parent, so sharing is not possible.</li>' +
+         '<li><b>Acyclic-graph</b> — permits a file/subdirectory to appear in more than one directory via links, while structurally forbidding cycles so deletion and traversal stay well-defined.</li>' +
+         '<li><b>General graph</b> — unrestricted, cycles allowed; needs garbage collection (reference counting alone cannot reclaim a cycle), so it is rarely implemented.</li>' +
+         '</ul>' +
+         '<div class="tip"><b>Hard link vs symbolic link.</b> A <b>hard link</b> is simply another directory entry pointing at the same inode — the data survives as long as the link count stays above zero. A <b>symbolic link</b> is a separate small file holding a path string, which breaks if the target is moved or deleted.</div>'
+    },
+    {
+      h: 'Disk management: scheduling, partitioning and RAID',
+      b: '<p>Disk access time = <b>seek time</b> + <b>rotational latency</b> + <b>transfer time</b>. On a mechanical HDD, seek time dominates, so scheduling exists to minimise total head movement.</p>' +
+         '<table>' +
+         '<tr><th>Algorithm</th><th>Behaviour</th></tr>' +
+         '<tr><td>FCFS</td><td>Services requests in arrival order — simple, but head movement can swing wildly</td></tr>' +
+         '<tr><td>SSTF</td><td>Always services the request nearest the current head position — low average seek, but can <b>starve</b> far-away requests</td></tr>' +
+         '<tr><td>SCAN ("elevator")</td><td>Sweeps to one end of the disk servicing requests, then reverses</td></tr>' +
+         '<tr><td>C-SCAN</td><td>Services in one direction only; jumps back to the start without servicing on the return — gives more uniform wait times</td></tr>' +
+         '<tr><td>LOOK / C-LOOK</td><td>Like SCAN/C-SCAN but reverses (or jumps) at the <b>last request</b>, not the physical end of the disk — avoids wasted travel</td></tr>' +
+         '</table>' +
+         '<p><b>Low-level (physical) formatting</b> lays down sectors with header/data/ECC fields, done at manufacture. <b>Partitioning</b> divides the disk into logical partitions. <b>High-level (logical) formatting</b> then writes a file system — boot block, FAT/MFT/inode tables, root directory — onto a partition.</p>' +
+         '<div class="tip"><b>RAID.</b> RAID 0 = striping only, no redundancy (fast, one disk failure loses everything). RAID 1 = mirroring (full duplication, tolerates one failure, 50% capacity overhead). RAID 5 = striping with parity distributed across every disk (tolerates one disk failure, better capacity efficiency than mirroring). RAID 10 = striped mirrors. Forensic imaging of a RAID array must respect stripe size, disk order and parity rotation, or reconstruction produces garbage.</div>'
+    },
+    {
+      h: 'File concepts, attributes, operations and memory-mapped files',
+      b: '<p><b>File attributes:</b> name, identifier (a unique tag, e.g. an inode number), type, location, size, protection, and time/date/user identification — the <b>MAC times</b> (modified/accessed/created) that Unit III timeline analysis is built on.</p>' +
+         '<p><b>File operations:</b> create, open, read, write, append, seek, truncate, rename, delete, close.</p>' +
+         '<p><b>File types:</b> identified either by an extension/naming convention (<code>.exe</code>, <code>.txt</code> — a convention, not universally enforced) or by internal structure (text vs binary/executable, with defined header formats such as ELF on Linux or PE on Windows).</p>' +
+         '<div class="tip"><b>Memory-mapped files.</b> <code>mmap()</code> (Unix) / <code>MapViewOfFile()</code> (Windows) maps a file directly into a process\'s virtual address space, so ordinary load/store instructions read and write it — the OS\'s paging mechanism transparently fetches and flushes data, and several processes can share one mapping as a form of IPC. Because these pages are ordinary pages, they can still be evicted to the pagefile/swap — so a document only ever "viewed" through a memory-mapped viewer can leave recoverable fragments on disk with no explicit save.</div>'
     }
   ],
 
@@ -150,6 +204,83 @@ window.MPSC.units.push({
 
     { q: 'The Banker\'s algorithm is used for deadlock',
       o: ['Prevention', 'Avoidance', 'Detection', 'Recovery'], a: 1,
-      e: '<p>The Banker\'s algorithm is the classic deadlock <b>avoidance</b> method: before granting a request it simulates the allocation and grants it only if the resulting state remains <em>safe</em>.</p><p>Distinguish carefully — <b>prevention</b> structurally negates a Coffman condition in advance; <b>avoidance</b> makes a dynamic decision per request; <b>detection</b> lets deadlock happen and then finds it. Confusing prevention with avoidance is the most common error here.</p>' }
+      e: '<p>The Banker\'s algorithm is the classic deadlock <b>avoidance</b> method: before granting a request it simulates the allocation and grants it only if the resulting state remains <em>safe</em>.</p><p>Distinguish carefully — <b>prevention</b> structurally negates a Coffman condition in advance; <b>avoidance</b> makes a dynamic decision per request; <b>detection</b> lets deadlock happen and then finds it. Confusing prevention with avoidance is the most common error here.</p>' },
+
+    { q: 'The hexadecimal number 0x2F is equal to which decimal value?',
+      o: ['47', '45', '63', '32'], a: 0,
+      e: '<p>0x2F = (2 × 16) + 15 = 32 + 15 = <b>47</b>. Remember F = 15, not 5 — the most common slip in this kind of conversion.</p><p>A quick sanity check: 0x20 = 32 and 0x30 = 48, so 0x2F must land one below 48, confirming 47.</p>' },
+
+    { q: 'Which cache write policy updates main memory only when the modified cache block is evicted, reducing memory traffic but risking data loss on power failure?',
+      o: ['Write-through', 'Write-back', 'Write-allocate', 'Write-around'], a: 1,
+      e: '<p><b>Write-back</b> marks a modified block with a <em>dirty bit</em> and defers the memory update until the block is evicted, cutting memory traffic at the cost of vulnerability to power loss. <b>Write-through</b> updates cache and memory on every write — slower but always consistent.</p><p>Write-allocate and write-around instead describe what happens on a write <em>miss</em>, a separate design axis from the write-hit policy tested here — a common source of confusion.</p>' },
+
+    { q: 'In a resource-allocation graph where every resource type has exactly one instance, a cycle indicates:',
+      o: ['Deadlock is impossible', 'Deadlock is certain', 'The system may or may not be deadlocked — further analysis is needed', 'Only ageing can resolve the situation'], a: 1,
+      e: '<p>With single-instance resource types, a cycle in the resource-allocation graph is both <b>necessary and sufficient</b> for deadlock — deadlock is certain.</p><p>When a resource type has multiple instances, a cycle is still necessary but no longer sufficient; you must check whether the cycle actually blocks every process in it from ever proceeding. This single-vs-multiple-instance distinction is a frequent examiner trap.</p>' },
+
+    { q: 'The Translation Lookaside Buffer (TLB) improves virtual memory performance by:',
+      o: ['Storing recently used page-table entries so most address translations skip the extra memory access to the page table',
+          'Reserving a dedicated physical frame for every process',
+          'Replacing the page table entirely',
+          'Compressing page-table entries so the whole table fits in cache'], a: 0,
+      e: '<p>The <b>TLB</b> is a small, fast associative cache of recent virtual-to-physical page mappings. A hit avoids the extra memory access needed to walk the page table; a miss forces a page-table walk (potentially multiple memory accesses for a multi-level table), after which the result is cached in the TLB.</p><p>Do not confuse a <b>TLB miss</b> (translation not cached, but the page may well be resident in memory) with a <b>page fault</b> (the page is not in memory at all) — they trigger very different handling.</p>' },
+
+    { q: 'Compared with SRAM, DRAM is:',
+      o: ['Faster and needs no periodic refresh, which is why it is used for cache',
+          'Slower and requires periodic refreshing, but denser and cheaper, which is why it is used for main memory',
+          'Non-volatile, which is why it is used for BIOS firmware',
+          'Used only inside secondary storage devices such as SSDs'], a: 1,
+      e: '<p><b>DRAM</b> stores each bit as charge on a capacitor that leaks over time, so it needs <b>periodic refresh</b>; this makes it slower than <b>SRAM</b> (flip-flop based, no refresh needed) but far denser and cheaper per bit, so DRAM is the standard choice for main memory while the costlier SRAM is reserved for cache.</p><p>Neither is non-volatile — that territory belongs to ROM/EEPROM/Flash, a separate memory family entirely.</p>' },
+
+    { q: 'An operating system in which missing a task\'s deadline is treated as a total system failure — as in an aircraft flight-control system — is classified as a:',
+      o: ['Soft real-time OS', 'Hard real-time OS', 'Time-sharing OS', 'Batch OS'], a: 1,
+      e: '<p>A <b>hard real-time</b> OS guarantees critical deadlines are met; missing one counts as a system failure, so such systems are used for safety-critical control tasks.</p><p>A <b>soft real-time</b> OS (e.g. audio/video streaming) prefers to meet deadlines but tolerates occasional misses with graceful degradation rather than catastrophic failure.</p>' },
+
+    { q: 'A hypervisor that runs directly on the host\'s hardware, with no underlying host operating system, is called a:',
+      o: ['Type 2 / hosted hypervisor', 'Type 1 / bare-metal hypervisor', 'Guest hypervisor', 'Shell hypervisor'], a: 1,
+      e: '<p><b>Type 1 (bare-metal)</b> hypervisors — VMware ESXi, Microsoft Hyper-V, Xen — run directly on hardware, which is why they dominate data-centre virtualisation.</p><p><b>Type 2 (hosted)</b> hypervisors, such as VirtualBox or VMware Workstation, run as an ordinary application on top of a conventional host OS — more convenient for a desktop, but with an extra layer of overhead.</p>' },
+
+    { q: 'Which of the following is NOT one of the three requirements a correct solution to the critical-section problem must satisfy?',
+      o: ['Mutual exclusion', 'Progress', 'Bounded waiting', 'Fairness in overall CPU scheduling priority'], a: 3,
+      e: '<p>The three formal requirements are <b>mutual exclusion</b> (only one process in its critical section at a time), <b>progress</b> (the decision on who enters next cannot be postponed indefinitely by processes outside their critical/remainder sections), and <b>bounded waiting</b> (a cap on how many times other processes may enter before a waiting process is finally granted access).</p><p>"Fairness in scheduling priority" is not part of this formal definition, although bounded waiting does prevent indefinite starvation as a side effect.</p>' },
+
+    { q: 'The key distinction between a mutex lock and a binary semaphore is that:',
+      o: ['A mutex can take more than two values, a binary semaphore cannot',
+          'A mutex has ownership — only the thread that locked it may unlock it — while a binary semaphore has no such restriction',
+          'Semaphores are used only for mutual exclusion, mutexes only for signalling between threads',
+          'Mutexes always require busy-waiting, semaphores never do'], a: 1,
+      e: '<p>A <b>mutex</b> is owned by whichever thread acquired it; only that thread may release it. A <b>binary semaphore</b> is just a 0/1 counter with no ownership — any thread can signal it, even one that never waited on it, which is exactly what makes semaphores useful for signalling between threads (e.g. producer–consumer), not just exclusion.</p><p>Busy-waiting vs blocking is an implementation choice available to either construct, so option (d) is not a valid general distinction.</p>' },
+
+    { q: 'In a Unix/Linux system, immediately after a successful fork() call, the return value of fork() is:',
+      o: ['The parent\'s PID, in both the parent and the child',
+          '0 in the parent, and the child\'s PID in the child',
+          '0 in the child, and the child\'s PID in the parent',
+          'A negative number in both processes'], a: 2,
+      e: '<p><code>fork()</code> returns <b>0 to the newly created child</b> and the <b>child\'s actual PID to the parent</b> — this is exactly what lets identical following code branch differently, e.g. <code>if (fork() == 0) { /* child */ } else { /* parent */ }</code>.</p><p>A negative return (in the caller only — there is no child in that case) signals failure, such as hitting a process-limit.</p>' },
+
+    { q: 'Swapping, as a memory-management technique, differs from paging chiefly in that:',
+      o: ['Swapping moves an entire process between memory and backing store, while paging moves individual fixed-size pages',
+          'Swapping is used only on Linux, paging only on Windows',
+          'Swapping eliminates the need for any backing store',
+          'Paging can only ever be performed by the long-term scheduler'], a: 0,
+      e: '<p>The distinction is <b>granularity</b>: <b>swapping</b> moves a whole process (or a large chunk of its image) wholesale between RAM and swap space, traditionally to adjust the degree of multiprogramming; <b>paging</b> moves individual fixed-size pages, enabling much finer-grained, on-demand movement.</p><p>Both techniques are available on Linux and Windows alike — the OS-specific option is a distractor, not a real distinction.</p>' },
+
+    { q: 'A directory structure that lets a single file appear (be shared) in more than one directory via links, while still structurally preventing cycles, is called a:',
+      o: ['Single-level directory structure', 'Two-level directory structure', 'Tree-structured directory', 'Acyclic-graph directory structure'], a: 3,
+      e: '<p>The <b>acyclic-graph</b> structure generalises the tree by allowing shared subdirectories/files through links (hard or symbolic), while disallowing cycles so that traversal and deletion stay well-defined.</p><p>A pure <b>tree-structured</b> directory gives every file exactly one parent and no sharing at all — the feature this question is testing you can tell apart.</p>' },
+
+    { q: 'RAID 5 tolerates the failure of a single disk in the array by:',
+      o: ['Keeping a full mirrored copy of every disk',
+          'Striping data across disks with no redundancy at all',
+          'Distributing parity blocks across all the disks along with the striped data',
+          'Storing every block twice on the same disk'], a: 2,
+      e: '<p><b>RAID 5</b> stripes data across all disks and also computes parity, distributing the parity blocks across every disk in the array (no single dedicated parity disk); if one disk fails, its contents are reconstructed from the surviving data and parity.</p><p>RAID 1 is mirroring (full duplicate copies, 50% capacity overhead); RAID 0 is striping with no redundancy at all, so a single disk failure there loses everything.</p>' },
+
+    { q: 'Memory-mapped file I/O (e.g. via mmap() on Unix) allows a process to:',
+      o: ['Access a file\'s contents directly through ordinary memory load/store instructions, with the OS transparently paging data in and out',
+          'Bypass the file system entirely and write straight to raw disk sectors',
+          'Guarantee a file stays fully resident in RAM until the process exits',
+          'Automatically encrypt a file as it is read'], a: 0,
+      e: '<p><code>mmap()</code> maps a file\'s contents into the calling process\'s virtual address space; ordinary memory reads/writes then transparently trigger the OS\'s paging mechanism to fetch or flush data, avoiding explicit read()/write() calls and letting multiple processes share the mapping as a form of IPC.</p><p>It does not guarantee full residency — mapped pages are evicted and reloaded on demand just like any other page, which is why remnants of a memory-mapped document can end up in the pagefile/swap even though the user never explicitly saved it.</p>' }
   ]
 });

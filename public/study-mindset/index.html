@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Comfort Trap — a study-mindset guide</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --canvas:#e9e4d6;
+  --canvas-2:#e2dccb;
+  --card:#ffffff;
+  --ink:#15233d;
+  --ink-2:#25344f;
+  --ink-soft:#3a4763;
+  --muted:#5b6474;
+  --line:rgba(21,35,61,.13);
+  --line-soft:rgba(21,35,61,.08);
+  --gold:#b0812a;
+  --gold-2:#966c1f;
+  --gold-soft:#f0e4c4;
+  --gold-line:rgba(176,129,42,.35);
+  --green:#2f7d57;
+  --green-soft:#e2f0e7;
+  --red:#b23a2e;
+  --red-soft:#f6e3df;
+  --radius:16px;
+  --radius-sm:10px;
+  --shadow:0 1px 2px rgba(21,35,61,.06),0 8px 26px -14px rgba(21,35,61,.28);
+  --shadow-lg:0 20px 60px -24px rgba(21,35,61,.5);
+  --maxw:760px;
+  --f-disp:"Fraunces",Georgia,serif;
+  --f-body:"Inter",system-ui,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,monospace;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;font-family:var(--f-body);color:var(--ink);
+  background:var(--canvas);
+  background-image:radial-gradient(circle at 12% -5%,rgba(176,129,42,.08),transparent 42%),
+                   radial-gradient(circle at 100% 0%,rgba(21,35,61,.05),transparent 40%);
+  -webkit-font-smoothing:antialiased;line-height:1.6;
+}
+h1,h2,h3{font-family:var(--f-disp);font-weight:600;line-height:1.15;margin:0}
+p{margin:0}
+a{color:inherit}
+::selection{background:var(--gold-soft)}
+
+.tag{
+  font-family:var(--f-mono);font-size:10.5px;font-weight:600;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--gold-2);
+  background:var(--gold-soft);border:1px solid var(--gold-line);
+  padding:2px 7px;border-radius:5px;white-space:nowrap;display:inline-block;
+}
+
+.wrap{max-width:var(--maxw);margin:0 auto;padding:52px 24px 120px}
+
+header.hero{margin-bottom:44px}
+header.hero .tag{margin-bottom:16px}
+header.hero h1{font-size:clamp(30px,5vw,44px);color:var(--ink);margin-bottom:14px;letter-spacing:-.01em}
+header.hero .sub{font-size:17px;color:var(--muted);max-width:56ch;line-height:1.6}
+
+.card{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  padding:28px 30px;box-shadow:var(--shadow);
+}
+
+section{margin-bottom:40px}
+section .eyebrow{
+  font-family:var(--f-mono);font-size:11px;font-weight:600;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--gold-2);margin-bottom:8px;display:block;
+}
+section h2{font-size:24px;margin-bottom:14px;color:var(--ink)}
+section h3{font-size:16px;margin:0 0 6px;color:var(--ink-2)}
+section p{color:var(--ink-soft);margin-bottom:14px;font-size:15.5px}
+section p:last-child{margin-bottom:0}
+section p.lead{font-size:17px;color:var(--ink-2)}
+
+.callout{
+  border-left:3px solid var(--gold);background:var(--gold-soft);
+  border-radius:0 var(--radius-sm) var(--radius-sm) 0;padding:14px 18px;
+  font-size:14.5px;color:var(--ink-2);margin:16px 0;
+}
+.callout b{color:var(--gold-2)}
+
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:18px 0}
+@media (max-width:640px){.grid2{grid-template-columns:1fr}}
+.pair-card{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius-sm);
+  padding:16px 18px;
+}
+.pair-card.bad{border-color:rgba(178,58,46,.28);background:linear-gradient(180deg,var(--red-soft),var(--card) 55%)}
+.pair-card.good{border-color:rgba(47,125,87,.28);background:linear-gradient(180deg,var(--green-soft),var(--card) 55%)}
+.pair-card .k{font-family:var(--f-mono);font-size:10px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;margin-bottom:6px;display:block}
+.pair-card.bad .k{color:var(--red)}
+.pair-card.good .k{color:var(--green)}
+.pair-card p{font-size:14px;color:var(--ink-soft);margin:0}
+
+/* interactive self-check */
+.checklist{display:flex;flex-direction:column;gap:10px;margin-top:16px}
+.check-item{
+  display:flex;align-items:flex-start;gap:12px;background:var(--card);
+  border:1px solid var(--line);border-radius:var(--radius-sm);padding:14px 16px;
+  cursor:pointer;transition:border-color .15s,background .15s;user-select:none;
+}
+.check-item:hover{border-color:var(--gold-line)}
+.check-item.on{background:var(--gold-soft);border-color:var(--gold-line)}
+.check-item .box{
+  flex:0 0 auto;width:20px;height:20px;border-radius:6px;border:1.5px solid var(--line);
+  margin-top:1px;display:flex;align-items:center;justify-content:center;
+  font-size:13px;color:var(--card);background:var(--card);
+}
+.check-item.on .box{background:var(--gold);border-color:var(--gold);color:#fff}
+.check-item .t{font-size:14.5px;color:var(--ink-2);line-height:1.5}
+.check-item .t b{color:var(--ink)}
+.check-result{
+  margin-top:14px;font-size:14px;color:var(--muted);font-family:var(--f-mono);
+  display:none;padding:10px 14px;border-radius:var(--radius-sm);background:var(--canvas-2);
+}
+.check-result.show{display:block}
+
+.steps{counter-reset:step;display:flex;flex-direction:column;gap:16px;margin-top:18px}
+.step{display:flex;gap:16px;align-items:flex-start}
+.step .num{
+  counter-increment:step;flex:0 0 auto;width:32px;height:32px;border-radius:50%;
+  background:var(--ink);color:#fff;display:flex;align-items:center;justify-content:center;
+  font-family:var(--f-mono);font-size:13px;font-weight:600;
+}
+.step .num::before{content:counter(step)}
+.step .body h3{margin-bottom:4px}
+.step .body p{font-size:14.5px;color:var(--ink-soft)}
+
+.timer-box{
+  background:var(--ink);color:#e9e4d6;border-radius:var(--radius);padding:26px 28px;
+  margin-top:20px;text-align:center;
+}
+.timer-box .eyebrow{color:#c9d3e6}
+.timer-box h3{color:#fff;font-size:19px;margin-bottom:8px}
+.timer-box p{color:#aeb8ce;font-size:14px;margin-bottom:18px;max-width:44ch;margin-left:auto;margin-right:auto}
+.timer-display{font-family:var(--f-mono);font-size:44px;font-weight:600;color:#fff;letter-spacing:.02em;margin-bottom:16px}
+.timer-btn{
+  font-family:var(--f-body);font-weight:600;font-size:14px;border:none;border-radius:999px;
+  padding:11px 26px;cursor:pointer;background:var(--gold);color:#1a1305;
+}
+.timer-btn:disabled{opacity:.5;cursor:default}
+.timer-note{font-size:12px;color:#8b96ab;margin-top:12px;font-family:var(--f-mono);min-height:16px}
+
+footer{margin-top:60px;padding-top:24px;border-top:1px solid var(--line);text-align:center}
+footer p{font-size:12.5px;color:var(--muted);font-family:var(--f-mono)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="hero">
+    <span class="tag">Study mindset</span>
+    <h1>You're not a slow learner. You're avoiding confusion.</h1>
+    <p class="sub">A short guide to the single biggest thing that quietly wrecks exam prep — not weak intelligence, not a bad memory, but a learned habit of running from the feeling of not-knowing.</p>
+  </header>
+
+  <section id="trap">
+    <span class="eyebrow">01 — The problem</span>
+    <h2>The comfort trap</h2>
+    <p class="lead">Your brain is wired to treat confusion as a threat, and to reward you the instant it goes away. That single wiring quirk explains most of what feels like "being bad at studying."</p>
+    <p>When you sit down with a hard question and your mind goes blank, your body reacts almost like it would to physical danger — a small spike of discomfort. The fastest way to make that discomfort disappear is to stop looking at the question. So you do something else instead: reread the chapter one more time, open a fresh set of notes, or ask an AI to just explain it. The confusion goes away immediately. That relief feels like progress. It usually isn't.</p>
+    <p>Psychologists call the things you reach for in that moment <b>safety behaviors</b> — actions whose real job is to relieve anxiety, not to build the skill. They're not lazy or stupid choices. They're smart, fast, and completely natural. That's exactly why they're dangerous: they feel identical to studying from the inside.</p>
+  </section>
+
+  <section id="safety">
+    <span class="eyebrow">02 — Recognise it</span>
+    <h2>What a safety behavior looks like</h2>
+    <p>None of these are wrong in themselves. Rereading a chapter, changing your method, or asking a good question are all normal parts of studying. They become a safety behavior only when their real function is <i>escaping the struggle</i> rather than <i>doing the struggle</i>.</p>
+    <div class="grid2">
+      <div class="pair-card bad">
+        <span class="k">Safety behavior</span>
+        <p>You hit a hard MCQ, freeze for four seconds, and immediately open the explanation or ask an AI "just tell me the answer."</p>
+      </div>
+      <div class="pair-card good">
+        <span class="k">Actual learning</span>
+        <p>You hit the same MCQ, sit with not-knowing for two full minutes — trying to reason it out from what you already know — before checking anything.</p>
+      </div>
+      <div class="pair-card bad">
+        <span class="k">Safety behavior</span>
+        <p>You keep switching study apps, note formats, or "systems," always in search of the one that will finally make this easy.</p>
+      </div>
+      <div class="pair-card good">
+        <span class="k">Actual learning</span>
+        <p>You pick one imperfect method and stay with it long enough to find out where <i>you</i>, not the method, are actually struggling.</p>
+      </div>
+      <div class="pair-card bad">
+        <span class="k">Safety behavior</span>
+        <p>You re-read the same chapter a fourth time because it "feels" more thorough than testing yourself on it.</p>
+      </div>
+      <div class="pair-card good">
+        <span class="k">Actual learning</span>
+        <p>You close the book and try to write down everything you remember, then check what you missed — active recall, not re-exposure.</p>
+      </div>
+    </div>
+    <div class="callout"><b>The tell:</b> a safety behavior gives you relief before it gives you a right answer. Real studying usually gives you a right answer <i>after</i> a stretch of not having one.</div>
+  </section>
+
+  <section id="danger">
+    <span class="eyebrow">03 — Why it backfires</span>
+    <h2>Relief now, cost later</h2>
+    <p>Every time you escape confusion the instant it appears, you teach your brain a small lesson: <i>confusion is intolerable, and the way out is to stop trying.</i> That lesson compounds. Over months of exam prep, it can turn into a reflex — the moment a question resists you, your hand is already reaching for the answer key, or for an AI, before you've genuinely tried.</p>
+    <p>The cost shows up on exam day, when there's no answer key and no AI in the room — only you, a question you half-recognise, and the version of your brain that was never actually trained to sit with "I don't know yet" long enough to think it through.</p>
+  </section>
+
+  <section id="bike">
+    <span class="eyebrow">04 — The reframe</span>
+    <h2>Confusion is a signal, not a verdict</h2>
+    <p class="lead">Nobody learns to ride a bicycle without wobbling. The wobble isn't proof you can't ride — it's the information your balance system needs to correct itself.</p>
+    <p>Confusion during study works the same way. It's not a verdict on your intelligence; it's a signal pointing exactly at the gap between what you know and what the question needs. A student who never feels confused while studying is either reviewing material they've already mastered, or not testing themselves hard enough to find the edges of their own knowledge. Confusion you can name and sit with is the most useful feeling in the whole process — it's your own mind telling you precisely where to spend the next ten minutes.</p>
+  </section>
+
+  <section id="identity">
+    <span class="eyebrow">05 — The harder version of this</span>
+    <h2>When being wrong feels like a threat, not a fact</h2>
+    <p>This gets sharper for students who've always been "the smart one" — good at school, quick to understand things, praised early for being fast. For them, a wrong answer doesn't just cost a mark. It threatens an identity. That's why a single hard question can trigger a reaction wildly out of proportion to the question itself: frustration, shame, the urge to slam the laptop shut.</p>
+    <p>If that's you, the useful shift isn't to stop caring. It's to quietly separate two things you've probably been treating as one: <i>being someone who is currently confused about this topic</i>, and <i>being someone who is bad at this subject</i>. Every expert in every field spends most of their working life in the first state and almost none in the second. Confusion is the address where competence is built, not the opposite of it.</p>
+  </section>
+
+  <section id="advice">
+    <span class="eyebrow">06 — What to actually do</span>
+    <h2>Three moves, in order</h2>
+    <div class="steps">
+      <div class="step">
+        <div class="num"></div>
+        <div class="body">
+          <h3>Name your own safety behaviors</h3>
+          <p>You already have a handful — the specific things you personally reach for to make a hard question go away. Use the checklist below to find yours honestly. You can't interrupt a habit you haven't named.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="num"></div>
+        <div class="body">
+          <h3>Sit with it a little longer than feels comfortable</h3>
+          <p>Not forever — just longer than your instinct wants. When you hit a wall, set a short timer before you allow yourself to check the answer or ask for help. The goal isn't suffering, it's giving your own reasoning a real chance to run before you hand the problem to someone else.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="num"></div>
+        <div class="body">
+          <h3>Stop aiming for "no confusion"</h3>
+          <p>That target doesn't exist for anyone doing real work. Aim instead for a growing pile of mistakes you've actually understood — each wrong answer is a data point about exactly where your model of the subject is off, which is a far more useful thing to collect than the feeling of having never been wrong.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="checklist">
+    <span class="eyebrow">Try it now</span>
+    <h2>Which of these are your safety behaviors?</h2>
+    <p>Be honest — this list works best when you tick what you <i>actually</i> do, not what you think you should say. There's no score that judges you; it's just a mirror.</p>
+    <div class="checklist" id="checklistItems">
+      <label class="check-item"><span class="box"></span><span class="t"><b>Re-reading</b> instead of self-testing — going over notes or a chapter again because it feels safer than trying to recall it cold.</span></label>
+      <label class="check-item"><span class="box"></span><span class="t"><b>Method-hopping</b> — switching apps, planners or "systems" whenever the current one starts to feel hard, hoping the next one removes the friction.</span></label>
+      <label class="check-item"><span class="box"></span><span class="t"><b>Outsourcing the struggle</b> — asking an AI or a friend for the answer within seconds of getting stuck, before genuinely attempting it yourself.</span></label>
+      <label class="check-item"><span class="box"></span><span class="t"><b>Over-preparing</b> — endless planning, colour-coding or "getting ready to start" that quietly delays the actual hard part.</span></label>
+      <label class="check-item"><span class="box"></span><span class="t"><b>Avoiding your weak topics</b> — practising what you're already good at because it feels productive, while the genuinely hard chapter stays untouched.</span></label>
+      <label class="check-item"><span class="box"></span><span class="t"><b>Checking the answer key immediately</b> — peeking the moment a question feels uncertain, rather than committing to a guess first.</span></label>
+    </div>
+    <div class="check-result" id="checkResult"></div>
+  </section>
+
+  <section id="timer">
+    <span class="eyebrow">Try it now</span>
+    <h2>The sit-with-it timer</h2>
+    <p>Next time you're genuinely stuck on a real question, start this before you open anything else. When it ends, you've earned the right to check the answer — but try your own reasoning first, out loud or on paper, for the whole two minutes.</p>
+    <div class="timer-box">
+      <span class="eyebrow">Sit with the confusion</span>
+      <h3>2-minute reasoning window</h3>
+      <p>Pick your stuck question, hit start, and keep trying — don't check anything until it ends.</p>
+      <div class="timer-display" id="timerDisplay">02:00</div>
+      <button class="timer-btn" id="timerBtn">Start</button>
+      <div class="timer-note" id="timerNote"></div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Confusion is data. Collect it on purpose.</p>
+  </footer>
+
+</div>
+
+<script>
+(function(){
+  var items = document.querySelectorAll('.check-item');
+  var result = document.getElementById('checkResult');
+  function update(){
+    var count = document.querySelectorAll('.check-item.on').length;
+    if (count === 0) { result.classList.remove('show'); return; }
+    var msg;
+    if (count <= 1) msg = count + ' ticked — pretty clean. Keep an eye on it under real exam pressure, not just relaxed practice.';
+    else if (count <= 3) msg = count + ' ticked — a normal amount. Pick just one of these to actively interrupt this week.';
+    else msg = count + ' ticked — confusion-avoidance has probably become a reflex. Start with the sit-with-it timer below before your next practice set.';
+    result.textContent = msg;
+    result.classList.add('show');
+  }
+  items.forEach(function(el){
+    el.addEventListener('click', function(e){
+      e.preventDefault();
+      el.classList.toggle('on');
+      var box = el.querySelector('.box');
+      box.textContent = el.classList.contains('on') ? '✓' : '';
+      update();
+    });
+  });
+
+  var DURATION = 120;
+  var remaining = DURATION;
+  var running = false;
+  var intervalId = null;
+  var display = document.getElementById('timerDisplay');
+  var btn = document.getElementById('timerBtn');
+  var note = document.getElementById('timerNote');
+
+  function render(){
+    var m = Math.floor(remaining / 60);
+    var s = remaining % 60;
+    display.textContent = (m < 10 ? '0' : '') + m + ':' + (s < 10 ? '0' : '') + s;
+  }
+  function tick(){
+    remaining -= 1;
+    render();
+    if (remaining <= 0) {
+      clearInterval(intervalId);
+      running = false;
+      btn.disabled = false;
+      btn.textContent = 'Restart';
+      note.textContent = "Time's up — now go check your answer.";
+    }
+  }
+  btn.addEventListener('click', function(){
+    if (running) return;
+    remaining = DURATION;
+    render();
+    running = true;
+    btn.disabled = true;
+    btn.textContent = 'Running…';
+    note.textContent = 'Stay with the question. Don\'t open anything else.';
+    intervalId = setInterval(tick, 1000);
+  });
+  render();
+})();
+</script>
+</body>
+</html>

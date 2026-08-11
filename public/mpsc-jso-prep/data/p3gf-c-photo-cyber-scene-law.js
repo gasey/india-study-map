@@ -105,7 +105,23 @@ window.MPSC.units.push({
          '<li><b>s.69</b> — powers of interception, monitoring and decryption.</li>' +
          '<li><b>s.79</b> — intermediary liability and safe harbour.</li></ul>' +
          '<p><b>Section 66A was struck down</b> as unconstitutional in <em>Shreya Singhal v. Union of India</em> (2015) — a very likely question.</p>' +
-         '<p><b>IPR:</b> copyright protects expression (software is protected as a literary work under the Copyright Act, 1957); patents protect inventions; trademarks protect marks and branding; trade secrets protect confidential business information. <b>Software piracy</b> is unauthorised copying, distribution or use.</p>' }
+         '<p><b>IPR:</b> copyright protects expression (software is protected as a literary work under the Copyright Act, 1957); patents protect inventions; trademarks protect marks and branding; trade secrets protect confidential business information. <b>Software piracy</b> is unauthorised copying, distribution or use.</p>' },
+
+    { h: 'Computer basics, hardware & OS/software',
+      b: '<p>At this general level, expect only <b>identification-level</b> questions on hardware and software categories — not internal architecture.</p>' +
+         '<ul><li><b>Hardware</b> — the physical parts: <b>input</b> devices (keyboard, mouse, scanner), <b>output</b> devices (monitor, printer), the <b>CPU</b> (processes instructions; contains the ALU and control unit), <b>primary memory</b> — <b>RAM</b> (volatile, temporary working memory, lost on power-off) and <b>ROM</b> (non-volatile, holds firmware/BIOS) — and <b>secondary storage</b> (HDD, SSD, optical/USB media — persists without power).</li>' +
+         '<li><b>Accessories/peripherals</b> — external devices connected to a computer: printers, scanners, external drives, webcams, UPS.</li>' +
+         '<li><b>Operating system</b> — system software that manages hardware and provides the platform on which other programs run (e.g. Windows, Linux, macOS, Android). It handles memory, files, devices and processes.</li>' +
+         '<li><b>Application software</b> — programs that perform user tasks (word processors, browsers) and run <em>on top of</em> the OS, not instead of it.</li></ul>' +
+         '<div class="tip">The recurring exam trap is <b>RAM vs ROM</b>: RAM is volatile and read-write; ROM is non-volatile and (traditionally) read-only, storing boot instructions.</div>' },
+
+    { h: 'Computer forensics — definition and crime types',
+      b: '<p><b>Computer forensics (digital forensics)</b> is the application of scientific methods to identify, preserve, analyse and present <b>digital evidence</b> in a manner that is legally admissible. Its core aim is to reconstruct events while preserving the <b>integrity</b> of the original data — typically via a <b>write-blocked, hashed image</b> of the source, never the original media itself.</p>' +
+         '<p><b>Types of computer crime</b> (by the role of the computer):</p>' +
+         '<ul><li><b>Computer as the target</b> — hacking, denial-of-service, data theft, virus/malware attacks on a system.</li>' +
+         '<li><b>Computer as the instrument/tool</b> — used to commit a traditional crime: online fraud, identity theft, forgery of e-documents.</li>' +
+         '<li><b>Computer as incidental</b> — merely stores evidence of an unrelated crime, e.g. a drug dealer\'s contact list on a phone.</li></ul>' +
+         '<p><b>Digital evidence</b> is any probative information stored or transmitted in digital form. Its defining properties are that it is <b>latent</b> (not directly visible, needs a tool to reveal), easily <b>altered or destroyed</b>, and can be <b>duplicated exactly</b> — which is why forensic copies are hash-verified against the original.</p>' }
   ],
 
   questions: [
@@ -128,7 +144,28 @@ window.MPSC.units.push({
       e: '<p><b>AES</b> uses a single shared key for both encryption and decryption — symmetric. RSA, Diffie–Hellman and ECC are all asymmetric.</p><p>Symmetric algorithms are far faster, which is why real systems are <b>hybrid</b>: RSA or Diffie–Hellman establishes a session key, and AES then encrypts the actual traffic.</p>' },
 
     { q: 'A Trojan horse differs from a virus in that a Trojan', o: ['Spreads faster', 'Does not self-replicate', 'Cannot steal data', 'Only affects mobile devices'], a: 1,
-      e: '<p>A <b>Trojan does not self-replicate</b>. It relies entirely on deceiving the user into installing it by masquerading as legitimate software.</p><p>Trojans are frequently the most damaging category in practice — backdoors, banking Trojans and remote access tools — so (c) is plainly wrong. Replication behaviour, not damage, defines the categories.</p>' }
+      e: '<p>A <b>Trojan does not self-replicate</b>. It relies entirely on deceiving the user into installing it by masquerading as legitimate software.</p><p>Trojans are frequently the most damaging category in practice — backdoors, banking Trojans and remote access tools — so (c) is plainly wrong. Replication behaviour, not damage, defines the categories.</p>' },
+
+    { q: 'Which of the following best describes RAM in a computer system?', o: ['Non-volatile memory that stores the BIOS/firmware', 'Volatile memory used as temporary working storage, lost on power-off', 'A type of secondary storage device', 'An input peripheral'], a: 1,
+      e: '<p><b>RAM</b> (Random Access Memory) is <b>volatile</b> — its contents are lost the instant power is removed — and serves as the CPU\'s temporary working memory while programs run.</p><p><b>ROM</b> is the non-volatile counterpart that holds boot/firmware instructions, which is the standard contrast tested alongside this.</p>' },
+
+    { q: 'An operating system is best described as', o: ['An input/output peripheral', 'Application software used to perform a specific user task', 'System software that manages hardware and provides the platform for other programs to run on', 'A form of secondary storage'], a: 2,
+      e: '<p>The <b>operating system</b> (e.g. Windows, Linux, Android) is system software: it manages memory, files, devices and processes, and provides the base on which <b>application software</b> — word processors, browsers — runs.</p><p>Confusing "system software" with "application software" is the common trap; the OS sits beneath applications, not alongside them as a peripheral.</p>' },
+
+    { q: 'In computer forensics, a forensic examiner works on', o: ['The original media directly, to save time', 'A write-blocked, hashed image of the original media', 'A verbal description of the data', 'A printed copy of all files only'], a: 1,
+      e: '<p>To preserve the <b>integrity</b> of the original evidence, examiners work on a <b>write-protected forensic image</b> whose hash matches the source exactly, so any analysis can be shown not to have altered the original.</p><p>Working directly on original media risks unintentional modification and would compromise admissibility.</p>' },
+
+    { q: 'When a computer network is used merely to steal money through fraudulent online transactions, the computer is acting as', o: ['The target of the crime', 'The instrument/tool of the crime', 'Incidental to the crime', 'Neither target nor tool'], a: 1,
+      e: '<p>Computer crimes are classified by the computer\'s role: as the <b>target</b> (e.g. hacking a system), as the <b>instrument</b> used to commit a traditional crime such as online fraud, or as merely <b>incidental</b>, storing evidence of an unrelated offence.</p><p>Online financial fraud uses the computer as a <b>tool</b> to commit theft/cheating, so it falls in the second category.</p>' },
+
+    { q: 'A defining property of digital evidence that most requires cautious handling is that it is', o: ['Always physically visible without special tools', 'Easily altered or destroyed, yet also exactly duplicable', 'Immune to deletion', 'Always stored on a single device only'], a: 1,
+      e: '<p>Digital evidence is <b>latent</b> (needs a tool to reveal, unlike a fingerprint one can see) and is <b>easily altered or destroyed</b> — a single write operation can overwrite it. It can, however, be <b>duplicated exactly</b>, which is why hash-verified imaging is standard practice.</p><p>This combination — fragile yet perfectly copyable — is unique to digital evidence and is why forensic protocols emphasise imaging before analysis.</p>' },
+
+    { q: 'Peripherals such as printers, scanners and external drives are examples of', o: ['Operating system components', 'Application software', 'Hardware accessories connected to a computer', 'Encryption algorithms'], a: 2,
+      e: '<p><b>Peripherals/accessories</b> are external hardware devices attached to a computer to extend its input, output or storage capability — printers and scanners are output/input devices, external drives add secondary storage.</p><p>They are physical hardware, distinct from the operating system or application software, which are both categories of software, not physical devices.</p>' },
+
+    { q: 'The core aim of the definition of computer forensics is to', o: ['Repair damaged computer hardware', 'Identify, preserve, analyse and present digital evidence in a legally admissible manner', 'Install antivirus software on seized systems', 'Design new operating systems'], a: 1,
+      e: '<p><b>Computer forensics</b> is the application of scientific methods to <b>identify, preserve, analyse and present digital evidence</b> so that it holds up in court — the emphasis throughout is on preserving the integrity of the original data.</p><p>Hardware repair and software design are unrelated technical activities, not forensic ones — a common distractor pairing at this general level.</p>' }
   ]
 });
 

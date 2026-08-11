@@ -85,6 +85,44 @@ window.MPSC.units.push({
          '<li><b>Compression history</b> — traces of prior lossy encoding in a supposedly original file.</li>' +
          '</ul>' +
          '<p><b>Enhancement:</b> spectral subtraction and adaptive filtering for noise reduction, band-pass filtering to isolate speech, notch filtering to remove tonal hum, and dereverberation. As with images, enhancement must be documented and never overwrite the original.</p>'
+    },
+    {
+      h: 'Colour spaces and chroma subsampling',
+      b: '<p><b>RGB</b> is an additive colour space (red, green, blue channels of equal resolution and importance) used for capture and display. Compression, however, almost always converts to <b>YCbCr</b>: a <b>luma</b> channel Y (brightness) plus two <b>chroma</b> channels Cb and Cr (colour difference).</p>' +
+         '<p>The reason: the human visual system is far more sensitive to changes in brightness than in colour. Once brightness and colour are separated, chroma can be sampled at reduced resolution with little visible loss — this is <b>chroma subsampling</b>.</p>' +
+         '<table><tr><th>Notation</th><th>Meaning</th><th>Typical use</th></tr>' +
+         '<tr><td>4:4:4</td><td>No subsampling — chroma at full resolution</td><td>High-end video mastering</td></tr>' +
+         '<tr><td>4:2:2</td><td>Chroma halved horizontally only</td><td>Broadcast video</td></tr>' +
+         '<tr><td>4:2:0</td><td>Chroma halved both horizontally and vertically (quarter resolution)</td><td>JPEG, most consumer video (H.264/HEVC)</td></tr></table>' +
+         '<div class="tip"><b>Exam trap.</b> Subsampling reduces <em>colour</em> resolution, not brightness/luma resolution and not bit depth. It is a resolution trick applied after the RGB→YCbCr conversion, distinct from quantisation (which reduces the number of amplitude/intensity levels) and from lossy DCT quantisation (which discards high-frequency coefficients).</div>'
+    },
+    {
+      h: 'Image and video file formats and compression',
+      b: '<p><b>Lossless</b> formats reconstruct the original data exactly: <b>PNG</b> (DEFLATE, supports transparency), <b>GIF</b> (256-colour indexed palette, LZW compression, supports simple animation), <b>BMP</b> (typically uncompressed) and <b>TIFF</b> (often uncompressed or lossless LZW — the archival choice in forensic labs since repeated re-saves cause no generational loss).</p>' +
+         '<p><b>Lossy</b> compression discards information judged perceptually unimportant: baseline <b>JPEG</b> (DCT on 8×8 blocks + quantisation, described in the tampering note) and <b>JPEG 2000</b> (wavelet-based, better quality at low bitrates, no 8×8 blocking).</p>' +
+         '<p>For video, distinguish the <b>container</b> — the wrapper file format bundling video, audio, subtitle and metadata streams (MP4, AVI, MKV, MOV) — from the <b>codec</b>, the algorithm that actually encodes/decodes each stream (H.264/AVC, H.265/HEVC, MPEG-4, VP9). The same container can carry streams from different codecs, and a file can be re-wrapped into a new container without touching codec-level compression.</p>' +
+         '<p>Video codecs exploit temporal redundancy via a <b>Group of Pictures (GOP)</b>: <b>I-frames</b> (intra-coded, independently decodable, like a standalone still image), <b>P-frames</b> (predicted from a prior frame) and <b>B-frames</b> (predicted from both prior and future frames). P/B-frames are much smaller but cannot stand alone — which is exactly why frame insertion, deletion or duplication disrupts the GOP structure and leaves detectable motion-vector and re-encoding artefacts near the edit point.</p>'
+    },
+    {
+      h: 'EXIF and embedded metadata forensics',
+      b: '<p><b>EXIF (Exchangeable Image File Format)</b> data embedded in JPEG/TIFF files typically records camera make and model, lens, exposure settings, orientation, a <b>DateTimeOriginal</b> timestamp, GPS coordinates (if location services were enabled), and a <b>Software</b> tag.</p>' +
+         '<ul>' +
+         '<li>The <b>Software</b> tag is often overwritten by editing applications (Photoshop, GIMP, etc.) when a file is re-saved — a useful lead that a "camera original" has actually been processed.</li>' +
+         '<li>Many cameras embed a small <b>thumbnail</b> inside the EXIF block. If the thumbnail and the full-resolution image show different content, the file has almost certainly been edited after the thumbnail was generated — a classic "thumbnail mismatch" giveaway.</li>' +
+         '<li>Tools such as <b>ExifTool</b> read and can also strip or forge EXIF fields, so metadata is corroborating evidence, never standalone proof.</li>' +
+         '</ul>' +
+         '<div class="tip"><b>Exam trap.</b> A missing EXIF block is <em>not</em> itself evidence of tampering — social media platforms and messaging apps (WhatsApp, Instagram, etc.) routinely strip metadata on upload as standard practice. Absence of metadata must never be read as proof of manipulation; fall back on PRNU, file-structure and compression-history analysis instead.</div>'
+    },
+    {
+      h: 'Video-specific tampering and authentication',
+      b: '<p>Beyond frame-level insertion/deletion/duplication (covered under GOP structure), video carries its own authentication cues:</p>' +
+         '<ul>' +
+         '<li><b>Interlacing artefacts ("combing")</b> — interlaced capture records alternating odd/even scan-line fields at slightly different instants; combining them into one frame during motion produces jagged, comb-like edges. Recognising this rules out confusing it with compression or subsampling defects.</li>' +
+         '<li><b>Double compression / re-encoding artefacts</b> — a video that has been edited and re-exported shows periodicities in macroblock statistics and GOP length, the video analogue of double-JPEG DCT-histogram analysis for stills.</li>' +
+         '<li><b>Container-level metadata inconsistency</b> — creation vs modification timestamps, encoder tags and embedded GPS/device info in the container can conflict with the codec-level encoding history if the file has been re-wrapped or partially re-encoded.</li>' +
+         '<li><b>PRNU for video</b> — the same sensor-fingerprint technique used for still images applies frame-by-frame to video and can both identify the source camera and flag frames whose fingerprint is missing or inconsistent (evidence of splicing or frame substitution).</li>' +
+         '</ul>' +
+         '<p>Enhancement of video follows the same still-image principles (documented, reversible, on a working copy) plus temporal techniques: frame averaging/stacking to reduce noise, motion-compensated deinterlacing, and stabilisation — none of which may alter evidentiary content.</p>'
     }
   ],
 
@@ -151,6 +189,71 @@ window.MPSC.units.push({
     { q: 'Histogram equalisation is a technique used to',
       o: ['Remove periodic noise', 'Improve global contrast by redistributing intensity values',
           'Detect copy-move forgeries', 'Compress an image losslessly'], a: 1,
-      e: '<p>Histogram equalisation spreads a narrow, bunched intensity histogram across the full available range, improving <b>global contrast</b>. It is a spatial-domain point operation.</p><p>Forensic caveat: it alters pixel values, so it must be performed on a working copy with the operation documented, never on the original evidence file.</p>' }
+      e: '<p>Histogram equalisation spreads a narrow, bunched intensity histogram across the full available range, improving <b>global contrast</b>. It is a spatial-domain point operation.</p><p>Forensic caveat: it alters pixel values, so it must be performed on a working copy with the operation documented, never on the original evidence file.</p>' },
+
+    { q: 'In video compression, which frame type is encoded independently of any other frame and can be decoded on its own?',
+      o: ['P-frame', 'B-frame', 'I-frame', 'GOP-frame'], a: 2,
+      e: '<p>An <b>I-frame (intra-coded)</b> is compressed using only information within itself, like a standalone JPEG, and needs no reference to any other frame to decode. It anchors the Group of Pictures (GOP).</p><p><b>P-frames</b> (predictive) reference the preceding frame and <b>B-frames</b> (bi-directional) reference both preceding and following frames — both are far smaller than an I-frame but cannot be decoded alone, which is exactly why deleting or inserting a frame disturbs the whole GOP and leaves a detectable structural discontinuity.</p>' },
+
+    { q: 'Deleting a single frame from the middle of a compressed video stream is forensically significant chiefly because it',
+      o: ['Changes the video\'s colour space from YCbCr to RGB',
+          'Disrupts the GOP prediction structure, producing detectable discontinuities in motion vectors and re-encoding artefacts',
+          'Automatically strips all EXIF metadata from the file',
+          'Converts I-frames into B-frames'], a: 1,
+      e: '<p>Because P- and B-frames are predicted from neighbouring frames, removing or inserting a frame breaks the prediction chain. The stream must be re-encoded around the edit point, leaving traces such as an irregular GOP length, motion-vector inconsistencies and double-compression artefacts near the splice — the video analogue of double-JPEG detection.</p><p>Colour space and EXIF are unrelated to frame-level editing; they are separate metadata/encoding layers.</p>' },
+
+    { q: 'Chroma subsampling at a ratio of 4:2:0 (used in JPEG and most consumer video) works by',
+      o: ['Discarding every fourth pixel entirely', 'Sampling luma at full resolution but chroma at reduced horizontal and vertical resolution',
+          'Reducing the bit depth of the luma channel only', 'Sampling all three channels at identical reduced resolution'], a: 1,
+      e: '<p>4:2:0 keeps <b>luma (Y)</b> — brightness — at full resolution while sampling the two <b>chroma channels (Cb, Cr)</b> at half resolution both horizontally and vertically, exploiting the fact that the human eye is far more sensitive to brightness detail than to colour detail.</p><p>This is why JPEG and most video codecs convert RGB to <b>YCbCr</b> before compressing: it lets you throw away chroma information cheaply without a visible quality loss, something not possible if you subsampled R, G and B directly.</p>' },
+
+    { q: 'JPEG and most video codecs internally convert images from RGB to which colour space before compression?',
+      o: ['CMYK', 'HSV', 'YCbCr', 'Lab'], a: 2,
+      e: '<p><b>YCbCr</b> separates a luma (brightness) component, Y, from two chroma (colour-difference) components, Cb and Cr. This separation is what makes chroma subsampling and differential quantisation of colour vs brightness possible.</p><p>RGB, by contrast, mixes brightness and colour information across all three channels equally, so none of them can be discarded cheaply — which is precisely why compression pipelines convert to YCbCr first.</p>' },
+
+    { q: 'A GIF image is limited to a maximum of how many colours per frame, and uses which lossless compression scheme?',
+      o: ['16 colours; run-length encoding', '256 colours; LZW', '65,536 colours; Huffman coding', '16.7 million colours; DEFLATE'], a: 1,
+      e: '<p>GIF uses an indexed <b>palette of at most 256 colours</b> (8-bit) and compresses it with <b>LZW (Lempel–Ziv–Welch)</b>, a lossless dictionary-based scheme — no information is discarded beyond the initial palette reduction.</p><p>PNG, by contrast, supports full 24-bit (or 32-bit with alpha) colour and uses <b>DEFLATE</b> compression; both PNG and GIF are lossless, unlike baseline JPEG.</p>' },
+
+    { q: 'TIFF is commonly preferred over JPEG for archival storage of forensic image evidence chiefly because it',
+      o: ['Produces smaller file sizes', 'Supports uncompressed or lossless storage, avoiding repeated generational quality loss',
+          'Is the only format that stores EXIF data', 'Automatically embeds a PRNU fingerprint'], a: 1,
+      e: '<p>TIFF commonly stores image data <b>uncompressed or with lossless compression</b> (e.g. LZW), so repeated opening and saving introduces no cumulative quality degradation — critical when an image must be re-examined multiple times across an investigation.</p><p>JPEG is lossy, so every re-save incurs fresh generation loss and — usefully for tamper detection — leaves the double-compression artefacts discussed under image tampering. TIFF files can carry EXIF too, and neither format inherently embeds PRNU, which is a sensor property, not a file-format feature.</p>' },
+
+    { q: 'In video file terminology, the distinction between a "container" (e.g. MP4, AVI, MKV) and a "codec" (e.g. H.264, HEVC) is that the',
+      o: ['Container is the compression algorithm and the codec is the wrapper file', 'Container and codec are two names for the same thing',
+          'Container is the wrapper file format holding video/audio/subtitle streams, while the codec defines how those streams are encoded/decoded',
+          'Container refers only to audio streams and codec only to video streams'], a: 2,
+      e: '<p>A <b>container</b> (MP4, AVI, MKV, MOV) is a file format that bundles video, audio, subtitle and metadata streams together. The <b>codec</b> (H.264, HEVC, MPEG-4, VP9) is the algorithm that actually compresses/decompresses each stream. The same container can hold streams encoded with different codecs.</p><p>This matters forensically: a file can be re-wrapped into a different container without re-encoding the underlying stream, so container metadata (creation tool, timestamps) can legitimately differ from the codec-level encoding history — the two must be examined separately.</p>' },
+
+    { q: 'The EXIF "Software" tag is forensically useful in source/authentication analysis chiefly because it',
+      o: ['Records the exact GPS coordinates of capture', 'Can reveal that the file was processed by an image-editing application after capture',
+          'Stores the camera\'s serial number', 'Is impossible to alter or remove'], a: 1,
+      e: '<p>When an image is opened and re-saved by editing software (e.g. Photoshop, GIMP), that application typically overwrites the EXIF <b>Software</b> tag with its own name/version — a strong indicator that the file is not a straight-from-camera original, even before any pixel-level analysis is done.</p><p>It is easily edited or stripped, however, so like all EXIF fields it is a <em>lead</em>, not proof; its <em>absence</em> is not itself suspicious, since many platforms (social media, messaging apps) strip metadata on upload as routine practice.</p>' },
+
+    { q: 'A forensic analyst finds that a JPEG allegedly straight from a smartphone camera has no EXIF metadata at all. This most likely indicates',
+      o: ['Conclusive proof the image has been tampered with', 'Nothing conclusive by itself — metadata is commonly stripped by messaging apps and social media on upload/download',
+          'That the image was captured in RAW format', 'That the sensor lacked a Bayer colour filter array'], a: 1,
+      e: '<p>Platforms such as WhatsApp, Facebook, Instagram and Twitter routinely strip EXIF metadata for privacy and bandwidth reasons during upload/re-encoding, so a missing EXIF block on a widely shared image is common and not, by itself, evidence of tampering.</p><p>The correct forensic posture is to treat missing metadata as inconclusive and fall back on file-structure, PRNU or compression-history analysis rather than metadata alone — the trap here is treating absence of evidence as evidence of manipulation.</p>' },
+
+    { q: '"Combing" artefacts — visible horizontal serration along moving edges — in a video frame are a sign of',
+      o: ['Chroma subsampling', 'Interlaced video where two temporally distinct fields are combined into one frame',
+          'PRNU sensor noise', 'Excessive JPEG quantisation'], a: 1,
+      e: '<p>Interlaced video captures alternating odd and even scan lines (fields) at slightly different moments in time. When both fields are displayed together as one progressive frame and there is motion between them, the offset produces a jagged, comb-like edge — "combing".</p><p>This is a capture/display artefact, unrelated to chroma subsampling (a colour-resolution reduction) or JPEG quantisation (a still-image compression loss); recognising it correctly rules out those other causes when a frame looks torn.</p>' },
+
+    { q: 'Standard CD-quality audio uses a bit depth of 16 bits per sample, giving how many distinct amplitude levels?',
+      o: ['256', '4,096', '65,536', '16,777,216'], a: 2,
+      e: '<p>16-bit quantisation gives <b>2<sup>16</sup> = 65,536</b> distinct amplitude levels — the same doubling logic as an 8-bit image giving 256 grey levels, just applied to amplitude instead of intensity.</p><p>Professional audio-for-video work commonly steps up to 24-bit depth (over 16 million levels) for a larger dynamic-range margin before mixing, later dithered down for delivery.</p>' },
+
+    { q: 'Professional video production audio is typically sampled at 48 kHz rather than the 44.1 kHz used for music CDs mainly because',
+      o: ['48 kHz is required by the Nyquist theorem for any signal', '48 kHz was adopted as a video-industry standard offering a cleaner relationship to film/video frame rates and easier synchronisation',
+          '44.1 kHz cannot represent frequencies above 4 kHz', '48 kHz uses a lower bit depth than 44.1 kHz'], a: 1,
+      e: '<p>Both 44.1 kHz and 48 kHz comfortably satisfy the Nyquist theorem for the ~20 kHz range of human hearing; the choice between them is a historical/industry-standard one, not a theorem requirement. 48 kHz became the broadcast/video-production standard because it divides more cleanly against common video frame rates, easing audio-video sync.</p><p>The trap: candidates sometimes assume a higher sample rate implies the lower one is theorem-deficient — bit depth and sample rate are independent parameters, and neither figure here says anything about bit depth.</p>' },
+
+    { q: 'PRNU-based source identification, originally developed for still images, can also be applied to video by',
+      o: ['Comparing the sensor-noise fingerprint frame-by-frame, which can also flag frames whose fingerprint is missing or inconsistent',
+          'Analysing the video container\'s creation timestamp only', 'Measuring the video\'s frame rate against the camera\'s rated maximum',
+          'Comparing the audio track\'s ENF signature to grid records'], a: 0,
+      e: '<p>PRNU is a property of the image sensor itself, so the same fixed-pattern noise fingerprint is present in every frame a camera captures. Extracting and correlating this fingerprint frame-by-frame both identifies the source camera and can localise frames or regions whose fingerprint is absent or inconsistent — a sign of splicing or frame substitution.</p><p>Container timestamps, frame rate and ENF are all separate authentication channels (container metadata, capture-rate consistency, and audio-specific analysis respectively) and do not substitute for a sensor-level fingerprint check.</p>' }
   ]
 });

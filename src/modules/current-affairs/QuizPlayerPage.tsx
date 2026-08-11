@@ -166,7 +166,7 @@ export function QuizPlayerPage() {
                 style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}
               >
                 <div className="flex items-center justify-between gap-2">
-                  <span className="text-sm font-medium min-w-0">📖 Read first — {day.source.videoTitle}</span>
+                  <span className="text-sm font-medium min-w-0">📖 Read first — {day.source.title}</span>
                   <span className="text-xs shrink-0" style={{ color: 'var(--text-secondary)' }}>{readFirstOpen ? '▾ hide' : '▸ show'}</span>
                 </div>
                 {readFirstOpen && (

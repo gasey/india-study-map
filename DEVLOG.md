@@ -9,6 +9,81 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-08-11 — Automated daily Current Affairs pipeline
+
+**What shipped:** `/current-affairs` had a real UI and a designed JSON
+contract (`src/modules/current-affairs/types.ts`, whose own comment said
+it "Mirrors the JSON contract in the Current Affairs build guide (§3) —
+this is the interface between the (future) droplet pipeline and this
+frontend") but the pipeline itself was never built — content was 100%
+hand-authored and had gone stale (7 dates, 2026-07-13 through 07-19,
+nothing since despite it being 2026-08-11). Built the actual pipeline:
+
+- **Schema simplified**: `CurrentAffairsSource` was shaped around a
+  YouTube video (`videoId`/`videoTitle`/`channelId`/`channelName`/
+  `videoUrl`) from when content was hand-transcribed from a
+  current-affairs quiz channel. Since the new pipeline sources from a
+  news API instead, simplified to `{title, links: string[],
+  publishedAt}`. Migrated the 7 existing JSON files' `source` blocks
+  (mechanical field rename) and the one rendering site
+  (`QuizPlayerPage.tsx`'s "Read first" header).
+- **`tools/current-affairs/build.mjs`** (new, Node ESM — this repo has no
+  Python anywhere, unlike the shiksha-backend build guide this is adapted
+  from): fetches today's India news from NewsData.io, summarizes via
+  Gemini (`gemini-2.5-flash`) with Groq (`llama-3.3-70b-versatile`) as
+  fallback, generates MCQs from the summary via the same LLM pattern
+  prompted to match *this app's* actual `Mcq` shape (lettered
+  `{a,b,c,d}` options + `correctAnswer` letter — different from the
+  reference guide's 0-indexed-array shape, which targets a different
+  app's schema), writes `public/data/current-affairs/{date}.json`, and
+  updates `index.json`. Fails loudly (non-zero exit, clear message) on
+  missing env vars, zero articles, or unparseable LLM JSON — never
+  silently writes nothing.
+- **`.github/workflows/current-affairs.yml`** (new — this repo had zero
+  GitHub Actions before this): scheduled `30 0 * * *` UTC (6 AM IST) +
+  `workflow_dispatch` for manual testing, runs the script with 3 new repo
+  secrets, opens a PR with the generated JSON instead of pushing to
+  `main`. **This PR is the review gate** — the reference guide's Django
+  version gates publish behind an admin-approval model; this static,
+  backend-less app doesn't have that, so a PR a human must read and merge
+  serves the same purpose (nothing deploys until merged, since Vercel
+  only builds off `main`).
+- Two new devDependencies: `@google/generative-ai`, `groq-sdk` (script-only,
+  never bundled into the frontend).
+
+Verified: `tsc --noEmit` and `npm run build` both clean; `/current-affairs`
+archive and an existing quiz date both browser-checked post-schema-migration
+(title/summary/key facts/MCQs all render). The pipeline script's actual
+fetch/LLM logic could **not** be end-to-end tested in this session — no
+NewsData.io/Gemini/Groq keys available in the sandbox — but its fail-fast
+path was confirmed (`missing_env:NEWSDATA_API_KEY`, exit 1, no partial
+writes).
+
+**Why:** direct user request, following a build guide they found for a
+different project (shiksha-backend, Django+Celery) — wanted the same
+fetch→summarize→generate-MCQs→review→publish idea for this app. Two
+architecture decisions confirmed with the user before building: automation
+runs as a GitHub Action in *this* repo (not the separate MPSC-only FastAPI
+droplet, which has zero current-affairs involvement and would have been a
+bigger, less-fitting change), and content sources from a news API rather
+than continuing the old YouTube-video-transcript pattern nothing actually
+automated anyway.
+
+**What's still open:**
+- **The user must add 3 repo secrets** (Settings → Secrets and variables →
+  Actions: `NEWSDATA_API_KEY`, `GEMINI_API_KEY`, `GROQ_API_KEY`) — outside
+  what I can do from here.
+- First real run should be triggered manually via `workflow_dispatch` (or
+  locally with exported keys) and the generated MCQs actually read before
+  merging that first PR — same caution the reference guide itself gives
+  in its own §9, just executed as a PR review instead of a Django-shell
+  trial.
+- `keyFacts`/`topics` extraction quality depends entirely on the LLM
+  prompt in `build.mjs` — worth revisiting the prompt after seeing a few
+  real days' output.
+
+---
+
 ## 2026-08-11 — JSO curriculum-completeness pass; Question Bank technical-post filter
 
 **What shipped, part 1 — actually TEACH the Cyber Forensic syllabus, not

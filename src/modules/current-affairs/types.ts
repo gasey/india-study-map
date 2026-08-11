@@ -1,6 +1,12 @@
-// Mirrors the JSON contract in the Current Affairs build guide (§3) — this
-// is the interface between the (future) droplet pipeline and this frontend.
-// Keep in sync with the fixtures in public/data/current-affairs/.
+// Mirrors the JSON contract this app's automated pipeline writes —
+// tools/current-affairs/build.mjs, run daily by
+// .github/workflows/current-affairs.yml. Keep in sync with the fixtures
+// in public/data/current-affairs/.
+//
+// `source` used to be shaped around a YouTube video (videoId/videoTitle/
+// channelId/channelName/videoUrl) from when this module's content was
+// hand-transcribed from a current-affairs quiz channel. The pipeline
+// sources from a news API instead, so this is now source-agnostic.
 
 export type Difficulty = 'easy' | 'medium' | 'hard';
 export type OptionKey = 'a' | 'b' | 'c' | 'd';
@@ -16,11 +22,8 @@ export interface Mcq {
 }
 
 export interface CurrentAffairsSource {
-  videoId: string;
-  videoTitle: string;
-  channelId: string;
-  channelName: string;
-  videoUrl: string;
+  title: string;
+  links: string[];
   publishedAt: string;
 }
 

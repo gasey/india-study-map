@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { KanaChart } from '@/modules/nihongo/KanaChart';
 import { NihongoCourse } from '@/modules/nihongo/NihongoCourse';
+import { DictionarySearch } from '@/modules/nihongo/DictionarySearch';
 
 // ============================================
 // NIHONGO — kana chart+quiz and a 6-stage grammar course here; vocab/kanji
@@ -12,12 +13,15 @@ import { NihongoCourse } from '@/modules/nihongo/NihongoCourse';
 // as Python/Postgres, just sourced differently since there's no
 // equivalent "read the user's own code" move for grammar.
 //
-// Dictionary search and admin-authored grammar notes (as opposed to this
-// fixed course) are still deferred — they need either a backend or a CORS
-// proxy hack that doesn't fit this app's local-only design yet.
+// Dictionary search is a full offline JMdict/KANJIDIC2 dataset (see
+// tools/nihongo-dict/build.mjs) searched client-side — no backend, no
+// CORS proxy, fits this app's local-only design (see DEVLOG). Admin-
+// authored grammar notes (as opposed to this fixed course) are still
+// deferred — that implies an author/reader split this single-user app
+// doesn't have a concept of yet.
 // ============================================
 
-type Tab = 'kana' | 'course';
+type Tab = 'kana' | 'course' | 'dictionary';
 
 export default function NihongoPage() {
   const [tab, setTab] = useState<Tab>('kana');
@@ -33,16 +37,16 @@ export default function NihongoPage() {
         </div>
 
         <div className="inline-flex rounded-lg p-1 gap-0.5 self-start" style={{ background: 'var(--bg-panel-elev)', border: '1px solid var(--border)' }}>
-          {(['kana', 'course'] as Tab[]).map((t) => (
+          {(['kana', 'course', 'dictionary'] as Tab[]).map((t) => (
             <button key={t} onClick={() => setTab(t)}
               className="px-4 py-1.5 rounded-md text-sm font-medium"
               style={{ background: tab === t ? 'var(--accent-soft)' : 'transparent', color: tab === t ? 'var(--accent)' : 'var(--text-secondary)' }}>
-              {t === 'kana' ? 'Kana' : 'Grammar course'}
+              {t === 'kana' ? 'Kana' : t === 'course' ? 'Grammar course' : 'Dictionary'}
             </button>
           ))}
         </div>
 
-        {tab === 'kana' ? <KanaChart /> : <NihongoCourse />}
+        {tab === 'kana' ? <KanaChart /> : tab === 'course' ? <NihongoCourse /> : <DictionarySearch />}
 
         <Link to="/flashcards?deck=nihongo" style={{ textDecoration: 'none' }}>
           <div className="rounded-lg p-5 flex items-center justify-between gap-4" style={{ background: 'var(--bg-panel)', border: '1px solid var(--border)' }}>

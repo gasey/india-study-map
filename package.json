@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "lint": "tsc --noEmit"
+    "lint": "tsc --noEmit",
+    "build:dict": "node tools/nihongo-dict/build.mjs"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",

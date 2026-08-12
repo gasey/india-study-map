@@ -219,6 +219,8 @@ export interface AppState {
   postgresLastStage: string | null;
   /** Same idea again, for the Nihongo grammar course tab specifically (not the kana chart/quiz, which has no stages). */
   nihongoCourseLastStage: string | null;
+  /** Bookmarked dictionary entries on the Nihongo page (word ids from jmdict.json). */
+  nihongoDict: { savedWords: string[] };
   mindset: MindsetState;
 
   // actions
@@ -261,6 +263,7 @@ export interface AppState {
   setPythonLastStage: (stageId: string) => void;
   setPostgresLastStage: (stageId: string) => void;
   setNihongoCourseLastStage: (stageId: string) => void;
+  toggleSavedWord: (wordId: string) => void;
 
   setMindsetEnabled: (v: boolean) => void;
   setMindsetPreferredHour: (h: number) => void;
@@ -320,6 +323,7 @@ export const useApp = create<AppState>()(
       pythonLastStage: null,
       postgresLastStage: null,
       nihongoCourseLastStage: null,
+      nihongoDict: { savedWords: [] },
       mindset: {
         enabled: true,
         preferredHour: 9,
@@ -519,6 +523,12 @@ export const useApp = create<AppState>()(
       setPythonLastStage: (stageId) => set({ pythonLastStage: stageId }),
       setPostgresLastStage: (stageId) => set({ postgresLastStage: stageId }),
       setNihongoCourseLastStage: (stageId) => set({ nihongoCourseLastStage: stageId }),
+      toggleSavedWord: (wordId) =>
+        set((s) => {
+          const saved = s.nihongoDict.savedWords;
+          const savedWords = saved.includes(wordId) ? saved.filter((id) => id !== wordId) : [...saved, wordId];
+          return { nihongoDict: { ...s.nihongoDict, savedWords } };
+        }),
 
       setMindsetEnabled: (v) =>
         set((s) => ({ mindset: { ...s.mindset, enabled: v } })),
@@ -573,6 +583,7 @@ export const useApp = create<AppState>()(
         pythonLastStage: s.pythonLastStage,
         postgresLastStage: s.postgresLastStage,
         nihongoCourseLastStage: s.nihongoCourseLastStage,
+        nihongoDict: s.nihongoDict,
         mindset: s.mindset,
       }),
       // Default persist merge is a shallow `{...current, ...persisted}` —
@@ -592,6 +603,7 @@ export const useApp = create<AppState>()(
             upgrades: { ...current.arena.upgrades, ...p.arena?.upgrades },
           },
           mindset: { ...current.mindset, ...p.mindset },
+          nihongoDict: { ...current.nihongoDict, ...p.nihongoDict },
         };
       },
     }

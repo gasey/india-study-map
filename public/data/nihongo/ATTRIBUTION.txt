@@ -1,0 +1,10 @@
+Dictionary data in this directory is derived from JMdict and KANJIDIC2,
+property of the Electronic Dictionary Research and Development Group
+(EDRDG), used and redistributed under the Creative Commons
+Attribution-ShareAlike Licence (V4.0): https://www.edrdg.org/edrdg/licence.html
+
+Source data via jmdict-simplified (3.6.2+20260810124713):
+https://github.com/scriptin/jmdict-simplified
+
+See https://www.edrdg.org/jmdict/j_jmdict.html and
+https://www.edrdg.org/wiki/index.php/KANJIDIC_Project for details.

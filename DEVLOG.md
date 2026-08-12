@@ -9,6 +9,55 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-08-12 — Offline JMdict/KANJIDIC2 dictionary search for Nihongo
+
+**What shipped:** A third tab on `/nihongo`, "Dictionary" —
+`src/modules/nihongo/DictionarySearch.tsx` — that searches the full JMdict
+English word list (~218k entries) and KANJIDIC2 (~10k kanji) entirely
+client-side, no network call at query time. Search auto-detects query
+type: kanji/kana input matches headwords directly, romaji is converted via
+the existing `romajiToKana()` (`src/data/kana.ts`, reused rather than
+reimplemented), and English input matches against glosses; results for
+single-kanji words cross-reference KANJIDIC2 inline (on/kun readings,
+stroke count, JLPT level, grade). Results can be bookmarked — a new
+`nihongoDict.savedWords` slice in `src/lib/store.ts`, following the exact
+`nihongoCourseLastStage`/shallow-merge pattern already in the file.
+
+**Data pipeline:** `tools/nihongo-dict/build.mjs` (re-run with `npm run
+build:dict`) pulls the latest `jmdict-eng` + `kanjidic2-en` releases from
+`scriptin/jmdict-simplified` (pre-parsed JSON, not raw EDRDG XML),
+compacts them (drops xrefs, per-form tags, dictionary cross-reference
+numbers, codepoints, radicals — none of it rendered), and writes
+`public/data/nihongo/{jmdict,kanjidic2}.json` as static assets, fetched
+lazily only when the Dictionary tab opens (`jmdict.json` is 32.5MB /
+8.5MB gzipped — one-time cost, cached by the browser after). Search itself
+is a plain in-memory headword map + full linear scan over lowercased
+"kanji+kana+gloss" blobs built once after fetch (~1s for parse+index on
+Node; scanning all 218k blobs per query is single-digit milliseconds) —
+deliberately not a pre-serialized inverted index, since jmdict.json is
+already large enough and building the index at load time is cheap.
+Attribution written to `public/data/nihongo/ATTRIBUTION.txt` and shown in
+the tab footer — JMdict/KANJIDIC2 are EDRDG's, CC BY-SA 4.0.
+
+**Why:** Both prior Nihongo entries below explicitly deferred dictionary
+search because live lookup "needs either a backend or a CORS proxy hack
+that doesn't fit this app's local-only design." Bundling the dictionary as
+static data sidesteps that blocker entirely instead of solving it — no
+backend dependency added, no CORS, consistent with the "single-user,
+no-login, localStorage" architecture this app already commits to.
+
+**What's still open:** Grammar notes/admin authoring remain deferred, same
+reason as before (implies an author/reader split this app doesn't model).
+Tatoeba example sentences per dictionary word and KanjiVG animated
+stroke-order diagrams (both mentioned in the original resource list this
+work came from) are natural follow-ups but weren't built — scope was
+"full JMdict/KANJIDIC2 ingestion" specifically. Saved words aren't wired
+into the SM-2 Flashcards deck (`src/data/decks/nihongo-cards.ts` is still
+static, hand-curated); that'd need turning it into a dynamic per-user deck
+first.
+
+---
+
 ## 2026-08-12 — Nihongo grammar course (real content, sourced from Tatoeba), plus a quiz-component dedup
 
 **What shipped:** The Nihongo module (kana + deck, previous entry) wasn't

@@ -97,6 +97,15 @@ export const modules: AppModule[] = [
     kind: 'route',
     path: '/mindset',
   },
+  {
+    id: 'nihongo-lab',
+    title: 'Nihongo Lab',
+    category: 'Study',
+    tagline: 'Personal Japanese study desk — grammar course, kanji, SRS, games',
+    glyph: '🈂️',
+    kind: 'static',
+    path: '/nihongo-lab/index.html',
+  },
 
   // ---- Practice: In-app modules ----
   {

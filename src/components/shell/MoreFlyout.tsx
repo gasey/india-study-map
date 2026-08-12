@@ -9,6 +9,7 @@ export const MORE_ITEMS = [
   { id: 'code', label: 'Programming & Python', icon: IC.code, to: '/code', comingSoon: false },
   { id: 'postgres', label: 'Postgres & SQL', icon: IC.db, to: '/postgres', comingSoon: false },
   { id: 'nihongo', label: 'Nihongo', icon: IC.nihongo, to: '/nihongo', comingSoon: false },
+  { id: 'nihongo-lab', label: 'Nihongo Lab', icon: IC.nihongo, to: '/embed/nihongo-lab', comingSoon: false },
   { id: 'games', label: 'Games', icon: IC.games, to: '/games', comingSoon: false },
 ] as const;
 

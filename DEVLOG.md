@@ -9,6 +9,147 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-08-13 — Four more MPSC sittings: FC&CAS-2019, CAO-2026, Labour Officer 2021, Programme Co-ordinator 2021
+
+**What shipped:** Extended `tools/bank-rebuild/` to four more previously-missing
+sittings, bringing the bank from ~1100 to 3475 questions and from 7 to 11 exam
+sittings, so all of them now support the GS-I/II/III paper filter and topic
+browsing on `/state-tax-officer` just like the original sittings:
+
+- **FC&CAS Inspector, March-2019** (398 questions) — no official answer key
+  exists anywhere in the archive, so every question was agent-derived via
+  `merge_native.py` + hand-solved batches under `solve/`, per `SOLVE_BRIEF.md`.
+- **Cooperative Audit Officer, 2026** (300 questions, GS papers only — the
+  "General English" paper turned out to be descriptive précis/letter-writing,
+  not MCQ, so it's excluded like every other sitting's English-I) — official
+  answer key vision-transcribed from a scanned key PDF, including two special
+  cases (a compensated/voided question, a dual-accepted-answer question).
+- **Labour Officer, October-2021** and **Programme Co-ordinator,
+  October-2021** (400 questions each, 787 total needing solving) — share the
+  same GS-I/II/III syllabus pattern, no official key, fully agent-derived.
+
+**Why:** The user is preparing for MPSC Group B Gazetted exams and explicitly
+asked for every listed sitting to "live completely" in the GS-split-capable
+bank, not just the ones originally scoped — including sittings with no
+official key requiring hundreds of from-scratch derived answers. Confirmed
+via AskUserQuestion to keep going through the full 787-question Labour/ProgCo
+batch rather than shipping a smaller slice.
+
+**Bugs found and fixed in the shared pipeline while adding these sittings**
+(all regression-tested against the original 11-paper baseline before/after):
+- `parse_native.py`'s `DIRECTION` regex didn't handle a colon right after
+  "Directions", a missing/comma-only separator before the description, or
+  "for" as an alternative to "to" — the last one turned out to be a **live
+  pre-existing production bug**: 2021 Inspector of Excise GS-III Q97 had
+  "Direction for Questions No. 98-100..." silently swallowed into option (d).
+  Verified against the source PDF that the true answer was unaffected, only
+  the displayed option text was corrupted.
+- `parse_native.py`'s `OPT` regex didn't tolerate a stray "(b.)" printing typo
+  (confirmed against source, a real misprint not an extraction bug).
+- `merge_native.py`'s fuzzy old-answer matcher (SequenceMatcher, threshold
+  0.78) can occasionally match a brand-new short/generic question against an
+  unrelated old question elsewhere in the bank and incorrectly inherit its
+  topic. Caught two cases this way (a "who coined Jet Stream" GS-II question
+  and a cyber-terrorism/IT-Act GS-III question both landed in `eng_sentence`)
+  by noticing their content didn't match their assigned topic while browsing.
+  Fixed with a small per-id `TOPIC_OVERRIDES` table in `merge_native.py`,
+  mirroring `retag_history.py`'s existing override-table pattern, rather than
+  hand-editing the generated `.ts` output.
+- `types.ts`'s `sourceDefect` union widened to add
+  `'hand-transcribed-matching-table'`, for a handful of "match List-I via
+  Codes table" questions the regex parser can't safely handle (would misparse
+  using List-I's embedded (a)-(d) markers instead of the true Codes-table
+  answer rows) — hand-transcribed directly from source instead.
+
+Also hand-patched a handful of PDF-extraction failures after visually
+confirming each against the actual page image: genuinely duplicate print
+misprints (CAO-2026 GS-III Q35), a symbol-font that didn't decode at all
+(comparison operators in CAO-2026 GS-III Q83), an undecoded Greek letter
+(ProgCo GS-III Q8), and a multi-line "grid" reasoning-question format that
+the shared parser wasn't designed for and mis-associated trailing lines
+between adjacent questions (Labour GS-III Q76-79).
+
+**What's still open:** Inspector of Supplies 2024 and Lecturer (VSE)/VGO
+2025 are the two remaining sittings from the original list — both need
+vision transcription (scanned PDFs) paired with an existing official key,
+not agent-derived solving. `validate.py bank` reports 16 flagged questions
+across the whole bank; all are confirmed pre-existing false positives from
+its `squash()` duplicate-detection heuristic stripping too much punctuation
+(Roman numeral permutations, comparison-operator chains) or from
+`sourceDefect`-tagged questions it doesn't check — not new corruption.
+
+---
+
+## 2026-08-13 — GS-I/II/III paper filter + Cooperative Audit Officer 2022 sitting
+
+**What shipped:** Two things on `/state-tax-officer`. (1) A "paper" filter
+dropdown on the Question Bank tab (`StateTaxOfficerEnhanced.tsx`), next to
+the existing topic filter — lets you isolate just GS-I, just GS-II, etc.
+across every exam at once, which previously only existed nested inside the
+By Paper browse tab. (2) The Cooperative Audit Officer, Dec-2022 sitting —
+400 new questions (English-II, GS-I/II/III, 100 each) — extending the
+`tools/bank-rebuild/` pipeline to a genuinely new sitting for the first
+time (every prior rebuild replaced an existing, already-broken bank
+record; this one had none). Answers come from the official MPSC Final
+Answer Key (transcribed into `official-answer-keys.json`); every question
+also got a hand-written explanation (`explained.json`), since a brand-new
+sitting has no prior bank record to carry an old explanation from — the
+rebuild's answer-carry-over trick that supplied most other sittings'
+explanations doesn't apply here.
+
+**Why:** The user is using this module for MPSC Group B Gazetted prep and
+asked for it directly — several exams they listed as belonging to the
+GS-1/2/3 practice pool didn't exist in the app at all despite source PDFs
+being available.
+
+**Pipeline bugs found and fixed along the way** (in `parse_native.py`,
+shared by all native-text-layer parsing, so these also affected already-
+shipped data):
+- The `DIRECTION` regex only recognized 3 of what turn out to be 5+ real
+  phrasings MPSC uses for "Directions (Questions X-Y):" headers. Two new
+  variants — a comma-separated form and one with no separator at all
+  before the description ("for" instead of "to" was one culprit) — went
+  unmatched and silently glued the header text onto the *previous*
+  question's last option. One of these was caught in CAO-2022 itself; the
+  other ("for" instead of "to") was found in the **already-shipped** 2021
+  Inspector of Excise GS-III Q97, which had been teaching a corrupted
+  option (d) in production. Confirmed against the source PDF and fixed —
+  Q97's real answer ("Between C and E") is unaffected by the corruption,
+  it was purely display corruption in the option text.
+- `validate.py`'s `hygiene()` check has a real blind spot: it only flags a
+  leaked-in header if it happens to contain a recognizable marker pattern
+  (an "(a)"-style option marker, a numbered-question start, or specific
+  furniture keywords). Plain leaked prose with none of those markers
+  passes hygiene checks silently. Caught the 2021 GS-III bug via a
+  by-hand read of the raw question list, not the automated check. Added a
+  cheap tripwire for future rebuilds: scan every option for length >120
+  chars and eyeball the hits — a real MCQ option is never that long.
+- The `OPT` regex (`\((a|b|c|d)\)`) didn't tolerate a stray period inside
+  the parens; FC&CAS-2019 GS-II Q76 misprints option (b) as "(b.)" in the
+  source PDF itself (verified, not an extraction artifact) and broke the
+  strict-sequence parse. Now tolerated.
+- 4 questions in FC&CAS-2019 GS-I (Q38, 43, 50, 56) are "match List-I with
+  List-II via a Codes table" format — a fundamentally different visual
+  layout (a small grid of roman-numeral/letter permutations) that the
+  regular a/b/c/d-marker parser can't safely handle. Hand-transcribed
+  directly from the source PDF rather than risk a generic-but-wrong parse;
+  tagged `sourceDefect: "hand-transcribed-matching-table"`.
+
+**What's still open:** FC&CAS Inspector (Grade-V of Mizoram FCS&CAS),
+Mar-2019 is parsed and validated (`parsed-fccas-2019.json`, 0 hygiene
+issues, 0 order mismatches) but not yet merged/applied — it has no
+official answer key anywhere in the archive, so it needs to go through
+`merge_native.py` + `solve/` agent-answering per `SOLVE_BRIEF.md` rather
+than a direct key lookup. Inspector of Supplies (2023 booklets / exam
+actually held Dec-2024 per the answer key notification — recorded as
+2024) and Lecturer (VSE) & VGO, Feb-2025 are both scanned PDFs with no
+text layer at all; their official answer keys exist and were partially
+transcribed (Lecturer-VSE confirmed to publish a full separate answer
+table per booklet series — Series-A is the one to use), but the questions
+themselves still need vision transcription from the page images, the same
+way the 2024 GS papers were done. Full plan at
+`~/.claude/plans/sharded-juggling-bumblebee.md`.
+
 ## 2026-08-12 — Offline JMdict/KANJIDIC2 dictionary search for Nihongo
 
 **What shipped:** A third tab on `/nihongo`, "Dictionary" —

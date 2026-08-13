@@ -1,0 +1,4112 @@
+{
+ "Labour2021:English-II": [
+  {
+   "n": 1,
+   "stem": "The judge declared him guilty.",
+   "options": [
+    "Noun",
+    "Verb",
+    "Adjective",
+    "Adverb"
+   ],
+   "direction": "Identify the parts of speech of the underlined words:"
+  },
+  {
+   "n": 2,
+   "stem": "My sister wants to be a teacher.",
+   "options": [
+    "Noun",
+    "Verb",
+    "Adjective",
+    "Adverb"
+   ],
+   "direction": "Identify the parts of speech of the underlined words:"
+  },
+  {
+   "n": 3,
+   "stem": "Night follows day.",
+   "options": [
+    "Noun",
+    "Verb",
+    "Adjective",
+    "Adverb"
+   ],
+   "direction": "Identify the parts of speech of the underlined words:"
+  },
+  {
+   "n": 4,
+   "stem": "What did she ask you to do?",
+   "options": [
+    "Adjective",
+    "Pronoun",
+    "Adverb",
+    "Preposition"
+   ],
+   "direction": "Identify the parts of speech of the underlined words:"
+  },
+  {
+   "n": 5,
+   "stem": "If we finish our work quickly, we can go to the movies.",
+   "options": [
+    "Adjective",
+    "Conjunction",
+    "Adverb",
+    "Preposition"
+   ],
+   "direction": "Identify the parts of speech of the underlined words:"
+  },
+  {
+   "n": 6,
+   "stem": "I knocked on the door but nobody answered.",
+   "options": [
+    "Adverb",
+    "Conjunction",
+    "Adjective",
+    "Preposition"
+   ],
+   "direction": "Identify the parts of speech of the underlined words:"
+  },
+  {
+   "n": 7,
+   "stem": "After lunch let’s go out for coffee.",
+   "options": [
+    "Adverb",
+    "Verb",
+    "Noun",
+    "Preposition"
+   ],
+   "direction": "Identify the parts of speech of the underlined words:"
+  },
+  {
+   "n": 8,
+   "stem": "This wood will make a good hiding place.",
+   "options": [
+    "Verb",
+    "Adverb",
+    "Adjective",
+    "Noun"
+   ],
+   "direction": "Identify the parts of speech of the underlined words:"
+  },
+  {
+   "n": 9,
+   "stem": "She was made to repeat the whole story.",
+   "options": [
+    "Verb",
+    "Adverb",
+    "Adjective",
+    "Noun"
+   ],
+   "direction": "Identify the parts of speech of the underlined words:"
+  },
+  {
+   "n": 10,
+   "stem": "Can you make me a cake by Monday?",
+   "options": [
+    "Verb",
+    "Adverb",
+    "Pronoun"
+   ],
+   "direction": "Identify the parts of speech of the underlined words:"
+  },
+  {
+   "n": 11,
+   "stem": "He _________ his car on Sundays.",
+   "options": [
+    "wash",
+    "washed",
+    "washes",
+    "had washed"
+   ],
+   "direction": "Choose the correct form of verbs from the options given:"
+  },
+  {
+   "n": 12,
+   "stem": "My father _________ to Paris next month.",
+   "options": [
+    "went",
+    "had gone",
+    "will go",
+    "go"
+   ],
+   "direction": "Choose the correct form of verbs from the options given:"
+  },
+  {
+   "n": 13,
+   "stem": "While I _________ for you, I fell asleep.",
+   "options": [
+    "wait",
+    "waited",
+    "waits",
+    "was waiting"
+   ],
+   "direction": "Choose the correct form of verbs from the options given:"
+  },
+  {
+   "n": 14,
+   "stem": "When they arrived, I _________.",
+   "options": [
+    "bathe",
+    "was bathing",
+    "bathed",
+    "will bathe"
+   ],
+   "direction": "Choose the correct form of verbs from the options given:"
+  },
+  {
+   "n": 15,
+   "stem": "One of the eggs _________ broken.",
+   "options": [
+    "were",
+    "are",
+    "was",
+    "will have"
+   ],
+   "direction": "Choose the correct form of verbs from the options given:"
+  },
+  {
+   "n": 16,
+   "stem": "His company is greatly _________ after.",
+   "options": [
+    "seek",
+    "sought",
+    "seeking",
+    "had sought"
+   ],
+   "direction": "Choose the correct form of verbs from the options given:"
+  },
+  {
+   "n": 17,
+   "stem": "He _________ ill since last week",
+   "options": [
+    "was",
+    "has been",
+    "had been",
+    "is"
+   ],
+   "direction": "Choose the correct form of verbs from the options given:"
+  },
+  {
+   "n": 18,
+   "stem": "We _________ anything from them for months.",
+   "options": [
+    "hadn’t heard",
+    "haven’t heard",
+    "didn’t hear",
+    "haven’t hear"
+   ],
+   "direction": "Choose the correct form of verbs from the options given:"
+  },
+  {
+   "n": 19,
+   "stem": "I didn’t know how long she _________ there.",
+   "options": [
+    "was sitting",
+    "has been sitting",
+    "had been sitting",
+    "sat"
+   ],
+   "direction": "Choose the correct form of verbs from the options given:"
+  },
+  {
+   "n": 20,
+   "stem": "If he _________ hard, he will pass.",
+   "options": [
+    "works",
+    "will work",
+    "worked",
+    "had worked"
+   ],
+   "direction": "Choose the correct form of verbs from the options given:"
+  },
+  {
+   "n": 21,
+   "stem": "I did not go to the show _________ I had already seen it.",
+   "options": [
+    "until",
+    "because",
+    "so",
+    "but"
+   ],
+   "direction": "Choose the correct conjunctions from the options:"
+  },
+  {
+   "n": 22,
+   "stem": "_________ he is thin, he is strong.",
+   "options": [
+    "but",
+    "as",
+    "though",
+    "because"
+   ],
+   "direction": "Choose the correct conjunctions from the options:"
+  },
+  {
+   "n": 23,
+   "stem": "He was rich _________ not contented.",
+   "options": [
+    "and",
+    "but",
+    "so",
+    "though"
+   ],
+   "direction": "Choose the correct conjunctions from the options:"
+  },
+  {
+   "n": 24,
+   "stem": "He must participate _________ he will be fined.",
+   "options": [
+    "as",
+    "but",
+    "or",
+    "and"
+   ],
+   "direction": "Choose the correct conjunctions from the options:"
+  },
+  {
+   "n": 25,
+   "stem": "He must be punished _________ he is guilty.",
+   "options": [
+    "so",
+    "because",
+    "but",
+    "though"
+   ],
+   "direction": "Choose the correct conjunctions from the options:"
+  },
+  {
+   "n": 26,
+   "stem": "You will not get the prize _________ you deserve it.",
+   "options": [
+    "if",
+    "whether",
+    "unless",
+    "until"
+   ],
+   "direction": "Choose the correct conjunctions from the options:"
+  },
+  {
+   "n": 27,
+   "stem": "The kidnappers will not release the child _________ the parents do not pay the ransom.",
+   "options": [
+    "if",
+    "or",
+    "when",
+    "but"
+   ],
+   "direction": "Choose the correct conjunctions from the options:"
+  },
+  {
+   "n": 28,
+   "stem": "_________ he was not invited, he did not come.",
+   "options": [
+    "so",
+    "as",
+    "for",
+    "that"
+   ],
+   "direction": "Choose the correct conjunctions from the options:"
+  },
+  {
+   "n": 29,
+   "stem": "Give every man thy ear, _________ few thy voice.",
+   "options": [
+    "but",
+    "as",
+    "for",
+    "and"
+   ],
+   "direction": "Choose the correct conjunctions from the options:"
+  },
+  {
+   "n": 30,
+   "stem": "Either you are mistaken, _________ I am.",
+   "options": [
+    "and",
+    "nor",
+    "or",
+    "but"
+   ],
+   "direction": "Choose the correct conjunctions from the options:"
+  },
+  {
+   "n": 31,
+   "stem": "We went to Manali _________ train.",
+   "options": [
+    "on",
+    "in",
+    "by",
+    "with"
+   ],
+   "direction": "Choose the correct prepositions from the given options :"
+  },
+  {
+   "n": 32,
+   "stem": "The train went _________ the tunnel.",
+   "options": [
+    "to",
+    "into",
+    "in",
+    "through"
+   ],
+   "direction": "Choose the correct prepositions from the given options :"
+  },
+  {
+   "n": 33,
+   "stem": "The moon is a barren, rocky world _________ air and water.",
+   "options": [
+    "with",
+    "of",
+    "without",
+    "in"
+   ],
+   "direction": "Choose the correct prepositions from the given options :"
+  },
+  {
+   "n": 34,
+   "stem": "Students are responsible _________ any kind of irresponsible behaviour.",
+   "options": [
+    "of",
+    "for",
+    "to",
+    "with"
+   ],
+   "direction": "Choose the correct prepositions from the given options :"
+  },
+  {
+   "n": 35,
+   "stem": "My brother’s birthday is _________ 22nd May.",
+   "options": [
+    "on",
+    "in",
+    "at",
+    "from"
+   ],
+   "direction": "Choose the correct prepositions from the given options :"
+  },
+  {
+   "n": 36,
+   "stem": "I will finish this work _________ today evening.",
+   "options": [
+    "on",
+    "at",
+    "by",
+    "for"
+   ],
+   "direction": "Choose the correct prepositions from the given options :"
+  },
+  {
+   "n": 37,
+   "stem": "I have been waiting for you _________ two hours.",
+   "options": [
+    "for",
+    "since",
+    "from",
+    "in"
+   ],
+   "direction": "Choose the correct prepositions from the given options :"
+  },
+  {
+   "n": 38,
+   "stem": "His thoughts are identical _________ mine.",
+   "options": [
+    "as",
+    "to",
+    "with",
+    "for"
+   ],
+   "direction": "Choose the correct prepositions from the given options :"
+  },
+  {
+   "n": 39,
+   "stem": "He was sitting with his back _________ me.",
+   "options": [
+    "from",
+    "to",
+    "in",
+    "towards"
+   ],
+   "direction": "Choose the correct prepositions from the given options :"
+  },
+  {
+   "n": 40,
+   "stem": "He is prepared _________ the examinations.",
+   "options": [
+    "for",
+    "to",
+    "from",
+    "with"
+   ],
+   "direction": "Choose the correct prepositions from the given options :"
+  },
+  {
+   "n": 41,
+   "stem": "The match was cancelled, because it was raining.",
+   "options": [
+    "compound sentence",
+    "complex sentence",
+    "compound-complex sentence",
+    "simple sentence"
+   ],
+   "direction": "Analyze the given sentences and choose the correct option:"
+  },
+  {
+   "n": 42,
+   "stem": "The sky is clear; the stars are twinkling.",
+   "options": [
+    "compound sentence",
+    "complex sentence",
+    "compound-complex sentence",
+    "simple sentence"
+   ],
+   "direction": "Analyze the given sentences and choose the correct option:"
+  },
+  {
+   "n": 43,
+   "stem": "The music is too loud for my ears.",
+   "options": [
+    "compound sentence",
+    "complex sentence",
+    "compound-complex sentence",
+    "simple sentence"
+   ],
+   "direction": "Analyze the given sentences and choose the correct option:"
+  },
+  {
+   "n": 44,
+   "stem": "Wherever you go, you can always find beauty.",
+   "options": [
+    "compound sentence",
+    "complex sentence",
+    "compound-complex sentence",
+    "simple sentence"
+   ],
+   "direction": "Analyze the given sentences and choose the correct option:"
+  },
+  {
+   "n": 45,
+   "stem": "You can put wings on a pig, but you don’t make it an eagle.",
+   "options": [
+    "compound sentence",
+    "complex sentence",
+    "compound-complex sentence",
+    "simple sentence"
+   ],
+   "direction": "Analyze the given sentences and choose the correct option:"
+  },
+  {
+   "n": 46,
+   "stem": "When I was younger, I believed in fairy-tales.",
+   "options": [
+    "compound sentence",
+    "complex sentence",
+    "compound-complex sentence",
+    "simple sentence"
+   ],
+   "direction": "Analyze the given sentences and choose the correct option:"
+  },
+  {
+   "n": 47,
+   "stem": "He got there early, and they got really good seats.",
+   "options": [
+    "compound sentence",
+    "complex sentence",
+    "compound-complex sentence",
+    "simple sentence"
+   ],
+   "direction": "Analyze the given sentences and choose the correct option:"
+  },
+  {
+   "n": 48,
+   "stem": "Because he did not know the route well, he drove slowly.",
+   "options": [
+    "compound sentence",
+    "complex sentence",
+    "compound-complex sentence",
+    "simple sentence"
+   ],
+   "direction": "Analyze the given sentences and choose the correct option:"
+  },
+  {
+   "n": 49,
+   "stem": "The frog jumped and landed in the pond.",
+   "options": [
+    "compound sentence",
+    "complex sentence",
+    "compound-complex sentence",
+    "simple sentence"
+   ],
+   "direction": "Analyze the given sentences and choose the correct option:"
+  },
+  {
+   "n": 50,
+   "stem": "Jane doesn’t like cartoons because they are loud, so she doesn’t watch them.",
+   "options": [
+    "compound sentence",
+    "complex sentence",
+    "compound-complex sentence",
+    "simple sentence"
+   ],
+   "direction": "Analyze the given sentences and choose the correct option:"
+  },
+  {
+   "n": 51,
+   "stem": "The news has been brought to us by him. (Change to Simple sentence)",
+   "options": [
+    "He brought us the news.",
+    "He has brought us the news.",
+    "He brought the news to us.",
+    "We brought the news to him."
+   ],
+   "direction": "Transform the following sentences as directed in the brackets."
+  },
+  {
+   "n": 52,
+   "stem": "They created such a fuss over a trivial matter. (Change to Simple sentence)",
+   "options": [
+    "Such a fuss is being created over a trivial matter.",
+    "Such a fuss was created over a trivial matter.",
+    "Such a fuss has been created over a trivial matter.",
+    "By then such a fuss has been created over a trivial matter."
+   ],
+   "direction": "Transform the following sentences as directed in the brackets."
+  },
+  {
+   "n": 53,
+   "stem": "Although he was wealthy and educated, he never made a name. (Change to Simple sentence)",
+   "options": [
+    "He was wealthy and educated, but never made a name.",
+    "Inspite of being wealthy and educated, he never made a name.",
+    "He never made a name because he was wealthy and educated.",
+    "Since he was wealthy and educated, he never made a name."
+   ],
+   "direction": "Transform the following sentences as directed in the brackets."
+  },
+  {
+   "n": 54,
+   "stem": "It is kind of you to visit us. (Change to Exclamatory sentence)",
+   "options": [
+    "How kind of you to visit us!",
+    "How kind it is of you to visit us!",
+    "It is so kind you visit us!",
+    "How kind of you that you visit us!"
+   ],
+   "direction": "Transform the following sentences as directed in the brackets."
+  },
+  {
+   "n": 55,
+   "stem": "O that I could fly like birds! (Change to Assertive sentence)",
+   "options": [
+    "How I wish I could fly like birds.",
+    "I wish that I could fly like birds.",
+    "I wish to fly like birds.",
+    "How I wish to fly like birds."
+   ],
+   "direction": "Transform the following sentences as directed in the brackets."
+  },
+  {
+   "n": 56,
+   "stem": "If you speak the truth, you will be honoured. (Change to Compound sentence)",
+   "options": [
+    "Speak the truth and you will be honoured.",
+    "Speak the truth to be honoured.",
+    "Speaking the truth will honour you.",
+    "Speak the truth so that you would be honoured."
+   ],
+   "direction": "Transform the following sentences as directed in the brackets."
+  },
+  {
+   "n": 57,
+   "stem": "He worked hard to earn money. (Change to Complex sentence)",
+   "options": [
+    "He worked hard as to earn money.",
+    "He worked hard and earn money.",
+    "He worked hard that he might earn money.",
+    "He worked hard so he could earn money."
+   ],
+   "direction": "Transform the following sentences as directed in the brackets."
+  },
+  {
+   "n": 58,
+   "stem": "He is better than any other student. (Change to Superlative degree)",
+   "options": [
+    "He is best than other studens.",
+    "He is best of the students.",
+    "He is best student of all.",
+    "He is the best student."
+   ],
+   "direction": "Transform the following sentences as directed in the brackets."
+  },
+  {
+   "n": 59,
+   "stem": "The patient is so weak that he cannot move about. (Change to Simple sentence)",
+   "options": [
+    "The patient is too weak and cannot move about.",
+    "The patient is too weak to move about.",
+    "The patient cannot move about as he is too weak.",
+    "Because the patient is too weak, he cannot move about."
+   ],
+   "direction": "Transform the following sentences as directed in the brackets."
+  },
+  {
+   "n": 60,
+   "stem": "No other boy in the class is as tall as John. (Use Comparative degree)",
+   "options": [
+    "John is the tallest boy in class.",
+    "John is taller of all the boys in the class.",
+    "John is taller than any other boy in the class.",
+    "John is taller than many boys in the class."
+   ],
+   "direction": "Transform the following sentences as directed in the brackets."
+  },
+  {
+   "n": 61,
+   "stem": "The dinner was over. The guests were shown out. They got into their cars.",
+   "options": [
+    "The dinner was over and the guests got into their cars as they were shown out.",
+    "The dinner having been over, the guests were shown out to get into their cars.",
+    "As the dinner was over, the guests were shown out and got into their cars.",
+    "The dinner getting over, the guests were shown out and they got into their cars."
+   ],
+   "direction": "Combine each set of sentences into a single sentence :"
+  },
+  {
+   "n": 62,
+   "stem": "It is very hot. One cannot go out.",
+   "options": [
+    "It is too hot to go out.",
+    "It is very hot and one cannot go out.",
+    "One cannot go out as it is very hot.",
+    "It is too hot and one cannot go out."
+   ],
+   "direction": "Combine each set of sentences into a single sentence :"
+  },
+  {
+   "n": 63,
+   "stem": "She stood on tip-toe. She reached for the mangoes on the tree.",
+   "options": [
+    "She reached for the mangoes on the tree by standing tip-toed.",
+    "She reached for the mangoes on tree when she stood on tip-toe.",
+    "Standing on tip-toe she reached for the mangoes on the tree.",
+    "She reached the mangoes on the tree standing on tip-toe."
+   ],
+   "direction": "Combine each set of sentences into a single sentence :"
+  },
+  {
+   "n": 64,
+   "stem": "I must finish this novel. There are still few chapters.",
+   "options": [
+    "I still have few chapters in the novel to finish.",
+    "I still have few chapters in the novel before I finish.",
+    "Few chapters are still left for me to finish the novel.",
+    "There a still few chapters for me to finish the novel."
+   ],
+   "direction": "Combine each set of sentences into a single sentence :"
+  },
+  {
+   "n": 65,
+   "stem": "They decided to start a travel group. All agreed to this.",
+   "options": [
+    "They all agreed to start a travel group.",
+    "They jointly decided to start a travel group.",
+    "They agreed to jointly start a travel group.",
+    "They unanimously decided to start a travel group."
+   ],
+   "direction": "Combine each set of sentences into a single sentence :"
+  },
+  {
+   "n": 66,
+   "stem": "Ani speaks English. She also speaks French.",
+   "options": [
+    "Ani speaks English as well as French.",
+    "Ani speaks English apart from French.",
+    "Ani speaks both English and French.",
+    "Ani speaks English and French."
+   ],
+   "direction": "Combine each set of sentences into a single sentence :"
+  },
+  {
+   "n": 67,
+   "stem": "Get inside. You may catch cold.",
+   "options": [
+    "Get inside else you may catch cold.",
+    "You may catch cold, get inside.",
+    "Get inside, otherwise you may catch cold.",
+    "Get inside or you may catch cold."
+   ],
+   "direction": "Combine each set of sentences into a single sentence :"
+  },
+  {
+   "n": 68,
+   "stem": "She was honest. This was his statement. It was right.",
+   "options": [
+    "He rightly said in his statement that she was honest.",
+    "She was rightly said as honest in his statement.",
+    "His statement was right in which he said she was honest.",
+    "His statement that she was honest was right."
+   ],
+   "direction": "Combine each set of sentences into a single sentence :"
+  },
+  {
+   "n": 69,
+   "stem": "Mohan is industrious. He is very particular in his work.",
+   "options": [
+    "Mohan is very particular in his work as he is industrious.",
+    "Mohan is not only industrious but also very particular in his work.",
+    "Mohan is industrious and particular in his work.",
+    "Mohan is industrious as well as particular in his work."
+   ],
+   "direction": "Combine each set of sentences into a single sentence :"
+  },
+  {
+   "n": 70,
+   "stem": "James is my friend. He is the son of a doctor.",
+   "options": [
+    "James is my friend and is the son of a doctor.",
+    "James who is my friend is also the son of a doctor.",
+    "James, my friend, is the son of a doctor.",
+    "James, my friend, who is the son of a doctor."
+   ],
+   "direction": "Combine each set of sentences into a single sentence :"
+  },
+  {
+   "n": 71,
+   "stem": "Exotic",
+   "options": [
+    "Beautiful",
+    "Colorful",
+    "Excellent",
+    "Unusual"
+   ],
+   "direction": "Choose the option closest in meaning to the given words:"
+  },
+  {
+   "n": 72,
+   "stem": "Rectify",
+   "options": [
+    "Connect",
+    "Mend",
+    "Resolve",
+    "Solve"
+   ],
+   "direction": "Choose the option closest in meaning to the given words:"
+  },
+  {
+   "n": 73,
+   "stem": "Bluster",
+   "options": [
+    "Abuse",
+    "Tolerate",
+    "Suffer",
+    "Threat"
+   ],
+   "direction": "Choose the option closest in meaning to the given words:"
+  },
+  {
+   "n": 74,
+   "stem": "Reticence",
+   "options": [
+    "Reserve",
+    "Sincerity",
+    "Frankness",
+    "Generosity"
+   ],
+   "direction": "Choose the option closest in meaning to the given words:"
+  },
+  {
+   "n": 75,
+   "stem": "Brash",
+   "options": [
+    "Slow",
+    "Cultured",
+    "Aggressive",
+    "Humble"
+   ],
+   "direction": "Choose the option closest in meaning to the given words:"
+  },
+  {
+   "n": 76,
+   "stem": "Renegade",
+   "options": [
+    "Rebel",
+    "Substitute",
+    "Informer",
+    "Reformer"
+   ],
+   "direction": "Choose the option closest in meaning to the given words:"
+  },
+  {
+   "n": 77,
+   "stem": "Retribution",
+   "options": [
+    "Contempt",
+    "Revenge",
+    "Punishment",
+    "Discount"
+   ],
+   "direction": "Choose the option closest in meaning to the given words:"
+  },
+  {
+   "n": 78,
+   "stem": "Haggle",
+   "options": [
+    "Crisis",
+    "Impeach",
+    "Ignore",
+    "Bargain"
+   ],
+   "direction": "Choose the option closest in meaning to the given words:"
+  },
+  {
+   "n": 79,
+   "stem": "Connoisseur",
+   "options": [
+    "Lover of art",
+    "Ignorant",
+    "Stubborn",
+    "Violent"
+   ],
+   "direction": "Choose the option closest in meaning to the given words:"
+  },
+  {
+   "n": 80,
+   "stem": "Zenith",
+   "options": [
+    "Middle",
+    "Under",
+    "Pinnacle",
+    "Nadir"
+   ],
+   "direction": "Choose the option closest in meaning to the given words:"
+  },
+  {
+   "n": 81,
+   "stem": "A remedy for all diseases.",
+   "options": [
+    "Narcotics",
+    "Antiseptic",
+    "Panacea",
+    "Lyric"
+   ],
+   "direction": "Choose the alternative which is closest in meaning to the given phrases / sentences :"
+  },
+  {
+   "n": 82,
+   "stem": "One who has good taste for food.",
+   "options": [
+    "Gourmet",
+    "Curator",
+    "Parasite",
+    "Stoic"
+   ],
+   "direction": "Choose the alternative which is closest in meaning to the given phrases / sentences :"
+  },
+  {
+   "n": 83,
+   "stem": "Occuring at irregular intervals in time.",
+   "options": [
+    "Endemic",
+    "Temporal",
+    "Sporadic",
+    "Epidemic"
+   ],
+   "direction": "Choose the alternative which is closest in meaning to the given phrases / sentences :"
+  },
+  {
+   "n": 84,
+   "stem": "Something kept as a reminder of an event.",
+   "options": [
+    "Souvenir",
+    "Antique",
+    "Trophy",
+    "Prize"
+   ],
+   "direction": "Choose the alternative which is closest in meaning to the given phrases / sentences :"
+  },
+  {
+   "n": 85,
+   "stem": "Unfair advantages for members of one’s own family.",
+   "options": [
+    "Optimism",
+    "Plagiarism",
+    "Nepotism",
+    "Regionalism"
+   ],
+   "direction": "Choose the alternative which is closest in meaning to the given phrases / sentences :"
+  },
+  {
+   "n": 86,
+   "stem": "Done with good judgment.",
+   "options": [
+    "Judicious",
+    "Judicial",
+    "Eminent",
+    "Enviable"
+   ],
+   "direction": "Choose the alternative which is closest in meaning to the given phrases / sentences :"
+  },
+  {
+   "n": 87,
+   "stem": "A broad road bordered with trees.",
+   "options": [
+    "Boudoir",
+    "Avenue",
+    "Boulevard",
+    "Façade"
+   ],
+   "direction": "Choose the alternative which is closest in meaning to the given phrases / sentences :"
+  },
+  {
+   "n": 88,
+   "stem": "A doctor who specializes in diseases of the nose.",
+   "options": [
+    "Rhinologist",
+    "Otologist",
+    "Pathologist",
+    "Podiatrist"
+   ],
+   "direction": "Choose the alternative which is closest in meaning to the given phrases / sentences :"
+  },
+  {
+   "n": 89,
+   "stem": "Incapable of being seen through.",
+   "options": [
+    "Brittle",
+    "Opaque",
+    "Ductile",
+    "Transparent"
+   ],
+   "direction": "Choose the alternative which is closest in meaning to the given phrases / sentences :"
+  },
+  {
+   "n": 90,
+   "stem": "A geometrical figure with eight sides.",
+   "options": [
+    "Parallelogram",
+    "Pentagon",
+    "Hexagon",
+    "Octagon"
+   ],
+   "direction": "Choose the alternative which is closest in meaning to the given phrases / sentences :"
+  },
+  {
+   "n": 91,
+   "stem": "He wants to get a better _______ and earn more money.",
+   "options": [
+    "employ",
+    "job",
+    "work",
+    "employment"
+   ],
+   "direction": "Choose the most suitable words from the options given to complete the sentences meaningfully."
+  },
+  {
+   "n": 92,
+   "stem": "Managers who are ambitious are ________ oriented managers.",
+   "options": [
+    "socially",
+    "success",
+    "well",
+    "non"
+   ],
+   "direction": "Choose the most suitable words from the options given to complete the sentences meaningfully."
+  },
+  {
+   "n": 93,
+   "stem": "We haven’t had _______ news from our agent.",
+   "options": [
+    "some",
+    "any",
+    "no",
+    "none"
+   ],
+   "direction": "Choose the most suitable words from the options given to complete the sentences meaningfully."
+  },
+  {
+   "n": 94,
+   "stem": "Be quiet! Its rude to __________ people when they are speaking.",
+   "options": [
+    "interfere",
+    "interrupt",
+    "prevent",
+    "introduce"
+   ],
+   "direction": "Choose the most suitable words from the options given to complete the sentences meaningfully."
+  },
+  {
+   "n": 95,
+   "stem": "The businessman proved to be an apparently well-behaved ________ middle aged man.",
+   "options": [
+    "offensive",
+    "unoffending",
+    "inoffensive",
+    "innocent"
+   ],
+   "direction": "Choose the most suitable words from the options given to complete the sentences meaningfully."
+  },
+  {
+   "n": 96,
+   "stem": "The local tourist bureau will send you _______ about hotels in the area.",
+   "options": [
+    "knowledge",
+    "information",
+    "news",
+    "notice"
+   ],
+   "direction": "Choose the most suitable words from the options given to complete the sentences meaningfully."
+  },
+  {
+   "n": 97,
+   "stem": "I cut my finger on a rusty tin and it became badly _______.",
+   "options": [
+    "infected",
+    "affected",
+    "effected",
+    "diseased"
+   ],
+   "direction": "Choose the most suitable words from the options given to complete the sentences meaningfully."
+  },
+  {
+   "n": 98,
+   "stem": "Teachers are doing _______ work.",
+   "options": [
+    "innovative",
+    "inventive",
+    "inovative"
+   ],
+   "direction": "Choose the most suitable words from the options given to complete the sentences meaningfully."
+  },
+  {
+   "n": 99,
+   "stem": "The manager is usually calm but today he appears rather _______.",
+   "options": [
+    "unwell",
+    "disturbed",
+    "restless",
+    "humorous"
+   ],
+   "direction": "Choose the most suitable words from the options given to complete the sentences meaningfully."
+  },
+  {
+   "n": 100,
+   "stem": "You won’t be allowed into the club _______ you wear a suit and tie.",
+   "options": [
+    "if",
+    "unless",
+    "whether",
+    "apart"
+   ],
+   "direction": "Choose the most suitable words from the options given to complete the sentences meaningfully."
+  }
+ ],
+ "Labour2021:GS-I": [
+  {
+   "n": 1,
+   "stem": "Who was the first Governor General of Bengal?",
+   "options": [
+    "Robert Clive",
+    "William Bentinck",
+    "Warren Hastings",
+    "Col. Sander"
+   ]
+  },
+  {
+   "n": 2,
+   "stem": "Subsidiary Alliance was introduced by",
+   "options": [
+    "Lord Wellesley",
+    "Sir John Shore",
+    "Robert Clive",
+    "Lord Dalhousie"
+   ]
+  },
+  {
+   "n": 3,
+   "stem": "The First Mysore war fought between British and Hyder Ali in 1767 – 1769 A.D came to an end by the –",
+   "options": [
+    "Treaty of Pondicherry",
+    "Treaty of Madras",
+    "Treaty O f Mysore",
+    "Treaty of Aix – La- Chapelle"
+   ]
+  },
+  {
+   "n": 4,
+   "stem": "According to the Treaty of Srirangapatnam, which place was ceded to the British?",
+   "options": [
+    "Malabar",
+    "Cochi",
+    "Travancore",
+    "Mysore"
+   ]
+  },
+  {
+   "n": 5,
+   "stem": "Indian Mutiny began in –",
+   "options": [
+    "1557",
+    "1657",
+    "1857",
+    "1957"
+   ]
+  },
+  {
+   "n": 6,
+   "stem": "The Treaty between Maharaja Ranjit and the British was signed at –",
+   "options": [
+    "Allahabad",
+    "Amritsar",
+    "Kashmir",
+    "Agra"
+   ]
+  },
+  {
+   "n": 7,
+   "stem": "Which Act made the Governor of Bengal as Governor General of India?",
+   "options": [
+    "Pitt’s India Act, 1784",
+    "The Charter Act, 1793",
+    "The Charter Act, 1813",
+    "The Regulating Act, 1773"
+   ]
+  },
+  {
+   "n": 8,
+   "stem": "Who had been the leader of a number of anti-British Revolt in Sambalpur?",
+   "options": [
+    "Kattaboman",
+    "Surendra Sai",
+    "Utirat Singh",
+    "Sayyid Ahmad Barelvi"
+   ]
+  },
+  {
+   "n": 9,
+   "stem": "The East India company had taken Bombay from –",
+   "options": [
+    "The Dutch",
+    "Charles I",
+    "Charles II",
+    "The Portuguese"
+   ]
+  },
+  {
+   "n": 10,
+   "stem": "At which place in Bengal was the East India Company given permission to trade and build a factory by the Mughals in 1651?",
+   "options": [
+    "Calcutta",
+    "Qasim Bazar",
+    "Singur",
+    "Burdwan"
+   ]
+  },
+  {
+   "n": 11,
+   "stem": "Till the end of the 17th Century, the growth of the executive and legislative powers of the East India Company depended on –",
+   "options": [
+    "Governor",
+    "Governor-General",
+    "Parliament",
+    "Crown"
+   ]
+  },
+  {
+   "n": 12,
+   "stem": "What was meant by the Secretary of State in India during the British period?",
+   "options": [
+    "An official who worked as the secretary to the Viceroy of India",
+    "A Secretary level official appointed in each Presidency of India",
+    "A British Minister given full control over the Government of India",
+    "A senior officer appointed the Viceroy to look into his internal administration in India"
+   ]
+  },
+  {
+   "n": 13,
+   "stem": "Which revolutionary was executed by the British?",
+   "options": [
+    "Jitin Das",
+    "Chandrashekhar Azad",
+    "Rajguru",
+    "Kalpana – Dutt"
+   ]
+  },
+  {
+   "n": 14,
+   "stem": "Which among the following is not a correct statement regarding Jyotiba Phule?",
+   "options": [
+    "He used the word ‘dalit’ for the first time in nineteenth century.",
+    "He was a staunch supporter of Mahatma Gandhi’s Harijan Sevak Sangh.",
+    "He is known as the author of Gulamgiri.",
+    "He formed Satyashodak Samaj in 1873."
+   ]
+  },
+  {
+   "n": 15,
+   "stem": "‘Father of Indian Renaissance’ is related to –",
+   "options": [
+    "Ishwar Chandra Vidyasagar",
+    "Bankim Chandra Chattopadhyay",
+    "Raja Ram Mohan Roy",
+    "Bal Gangadhar Tilak"
+   ]
+  },
+  {
+   "n": 16,
+   "stem": "Who established the Tattvabodhini Sabha in 1839 at Calcutta?",
+   "options": [
+    "Keshab Chandra Sen",
+    "Debendranath Tagore",
+    "Raja Ram Mohan Roy",
+    "Sivanatha Sastri"
+   ]
+  },
+  {
+   "n": 17,
+   "stem": "Which of the following is associated with the Young Bengal Movement?",
+   "options": [
+    "Derozians",
+    "Mitra Bandhu",
+    "Native Marriage Act",
+    "Bethune School"
+   ]
+  },
+  {
+   "n": 18,
+   "stem": "Which of the following is correctly paired?",
+   "options": [
+    "Bengal Regulation banning Sati – 1830",
+    "Sarda Act – 1939",
+    "Special Marriage Act – 1955",
+    "Hindu Succession Act – 1956"
+   ]
+  },
+  {
+   "n": 19,
+   "stem": "Who founded the Namdhari Movement?",
+   "options": [
+    "Baba Dyal Singh",
+    "Baba Ram Singh",
+    "Mahmud Hassan",
+    "Jagat Mithra"
+   ]
+  },
+  {
+   "n": 20,
+   "stem": "Which book was written by Dadabai Naoroji?",
+   "options": [
+    "Economic History of India",
+    "Poverty and Unbritish Rule in India",
+    "India and its Economy during the British",
+    "All of these"
+   ]
+  },
+  {
+   "n": 21,
+   "stem": "Where was the Permanent Settlement of India firstly introduced?",
+   "options": [
+    "Orissa and Bengal",
+    "Orissa and Andhra Pradesh",
+    "Bengal and Bihar",
+    "Andhra Pradesh and Bihar"
+   ]
+  },
+  {
+   "n": 22,
+   "stem": "Consider the following: I. Modified version of Zamindari settlement introduced in the Ganga Valley, NWFP, parts of Central India and Punjab which was introduced in 1822. II. In this system Revenue Settlement was to be made by village or estates with landlords. Which of the above statement(s) is/are related to the Mahalwari Settlement?",
+   "options": [
+    "Only I",
+    "Only II",
+    "Both I & II",
+    "Neither I nor II"
+   ]
+  },
+  {
+   "n": 23,
+   "stem": "Chuar aboriginals were tribesmen of –",
+   "options": [
+    "24 Parganas",
+    "Midnapore",
+    "Birbhum",
+    "None"
+   ]
+  },
+  {
+   "n": 24,
+   "stem": "Kandh Uprisings covered –",
+   "options": [
+    "Kalahandi",
+    "Patna",
+    "Ghumsar",
+    "All of these"
+   ]
+  },
+  {
+   "n": 25,
+   "stem": "The leader of Khasi Uprising was –",
+   "options": [
+    "Tirot Singh",
+    "Somil Singh",
+    "Tikadrenjit Singh",
+    "Debendra Singh"
+   ]
+  },
+  {
+   "n": 26,
+   "stem": "Which of the following pair is not correctly matched?",
+   "options": [
+    "Barrackpur : Mangal Pandey",
+    "Delhi : Bahadur Shah II, General Bakht Khan",
+    "Delhi : Maulavi Ahmadullah",
+    "Lucknow : Begum Hazrat Mahal, Birjis Qadir, Ahmadullah"
+   ]
+  },
+  {
+   "n": 27,
+   "stem": "The Eka movement was active in –",
+   "options": [
+    "Deccan Region",
+    "Eastern Bengal",
+    "Madras Presidency",
+    "Northern Districts of the United Provinces"
+   ]
+  },
+  {
+   "n": 28,
+   "stem": "Bardoli Satyagraha was led by –",
+   "options": [
+    "R.C.Dutt",
+    "Madan Mohan Malaviya",
+    "Sardar Patel",
+    "Jawahar Lal Nehru"
+   ]
+  },
+  {
+   "n": 29,
+   "stem": "The arrest of which respected priest sparked off the riots by the Moplahs?",
+   "options": [
+    "Maulana Shaukat Ali",
+    "Ali Musliyar",
+    "Maulana Abdul Kalam",
+    "Ali Ahmed"
+   ]
+  },
+  {
+   "n": 30,
+   "stem": "The Moplah rebellion took place in the year –",
+   "options": [
+    "1919",
+    "1920",
+    "1921",
+    "1922"
+   ]
+  },
+  {
+   "n": 31,
+   "stem": "Which of the following statements about the Deccan Riots is/are true? I. The Deccan Riots resulted in protection for peasants through the Deccan Agriculturist Relief Act of 1879. II. The Riots did not spread to the whole of Maharashtra because of the prompt oppression by the British III. The British were unable to contain the riots and they spread throughout Maharashtra IV. The cotton boom in the Deccan that had been caused by the artificial demand generated by the American civil war caused the impoverishment of the peasants. Select the answer using the code given below",
+   "options": [
+    "I only",
+    "I & III",
+    "II & IV",
+    "I, II & IV"
+   ]
+  },
+  {
+   "n": 32,
+   "stem": "Which one is not the literary work of Mahatma Gandhi?",
+   "options": [
+    "Hind Swaraj",
+    "Indian opinion",
+    "Yugantar",
+    "Young India"
+   ]
+  },
+  {
+   "n": 33,
+   "stem": "In 1851, Bengal British India Society and Landholder’s society merged to form –",
+   "options": [
+    "The Bangabasha Prakashila Sabha",
+    "The Zamindari Association",
+    "British India Association",
+    "The East India Association"
+   ]
+  },
+  {
+   "n": 34,
+   "stem": "Between 1885-1905 Nationalist are known as –",
+   "options": [
+    "Moderates",
+    "Extremist",
+    "Revolutionaries",
+    "Gandhians"
+   ]
+  },
+  {
+   "n": 35,
+   "stem": "Why did the trend of extremism began from 1905? I. Growth of Education II. Dissatisfaction with the growth of moderates III. Reaction to increasing Westernization IV. Reactionary policies of Curzon Select the answer using the code given below –",
+   "options": [
+    "Only I & II",
+    "Only II & III",
+    "Only III & IV",
+    "All of these"
+   ]
+  },
+  {
+   "n": 36,
+   "stem": "The Chittagong Revolt group was started by –",
+   "options": [
+    "Abbas Tayabji",
+    "Surya Sen",
+    "G.D.Birla",
+    "Sarojini Naidu"
+   ]
+  },
+  {
+   "n": 37,
+   "stem": "Consider the following statement(s) related to the personalities associated to the personalities associated with Civil Disobedience Movement. I. K.M Ashraf was India’s first Marxist historian, was associated with the Movement II. N.V. Gadgil supported the temple entry movement in 1929 on Socialist norms established friendly ties with the Non- Brahmin Satyashodak Samaj Which of the following statement(s) is are correct?",
+   "options": [
+    "Only I",
+    "Only II",
+    "Both I & II",
+    "Neither I nor II"
+   ]
+  },
+  {
+   "n": 38,
+   "stem": "How many kilometres was covered by Gandhiji during Dandi March?",
+   "options": [
+    "200 Miles",
+    "240 Miles",
+    "250 Miles",
+    "260 Miles"
+   ]
+  },
+  {
+   "n": 39,
+   "stem": "Who among the following presented the main resolution on Non-Cooperation Movement during the annual session of the Congress in Nagpur 1920?",
+   "options": [
+    "Jawaharlal Nehru",
+    "JM Sengupta",
+    "Mahatma Gandhi",
+    "C.R.Das"
+   ]
+  },
+  {
+   "n": 40,
+   "stem": "Which of the following leader announced himself as a ‘King of Salon’ and initiated no-taxes movement?",
+   "options": [
+    "Shah Naim Ata",
+    "M.N.Roy",
+    "Bhagwan Ahir",
+    "Ramchandra Das"
+   ]
+  },
+  {
+   "n": 41,
+   "stem": "Who had given the Non-Cooperation Movement as the Capitalist Autocracy?",
+   "options": [
+    "Singaravelu Chettiar",
+    "N.C. Bardaloi",
+    "Thiru Vika",
+    "Duggirala Gopalkrishnayya"
+   ]
+  },
+  {
+   "n": 42,
+   "stem": "In which year did the Indian Naval Mutiny against the British take place?",
+   "options": [
+    "1943",
+    "1944",
+    "1945",
+    "1946"
+   ]
+  },
+  {
+   "n": 43,
+   "stem": "Which party was founded by Subhash Chandra Bose in the year 1939 after he broke away from the Congress?",
+   "options": [
+    "Azad Hind Fauj",
+    "Forward Block",
+    "Revolutionary Front",
+    "Indian Freedom Party"
+   ]
+  },
+  {
+   "n": 44,
+   "stem": "Arrange the following events in order of their chronology – I. August Offer II. Poona Pact III. Third Round Table Conference Select the answer using the code given below –",
+   "options": [
+    "I, II, III",
+    "II, III, I",
+    "II, I, III",
+    "III, II, I"
+   ],
+   "sourceDefect": "duplicate-options"
+  },
+  {
+   "n": 45,
+   "stem": "Both the processes of transfer of power and the partition of India were hurried through in _____days.",
+   "options": [
+    "68",
+    "70",
+    "72",
+    "85"
+   ]
+  },
+  {
+   "n": 46,
+   "stem": "Who among the following was popularly known as the ‘Frontier Gandhi’?",
+   "options": [
+    "Hasrat Mohani",
+    "Maulana Abul Kalam Azad",
+    "Khan Abdul Ghaffar Khan",
+    "Iqbal Khan"
+   ]
+  },
+  {
+   "n": 47,
+   "stem": "Which of the following statement(s) is/are correct regarding the quit India Movement? I. It was a leaderless movement in the hands of the masses II. It was also characterized by the outbreak of violence though Gandhi had given a call for a determined, passive resistance, ‘Do or Die’ III. The movement failed in terms of achieving immediate objective Select the answer using the code given below –",
+   "options": [
+    "Only I",
+    "Only II",
+    "Both I & II",
+    "I, II & III"
+   ]
+  },
+  {
+   "n": 48,
+   "stem": "What was the name of the newspaper to announce the partition of Bengal on July 6th 1905?",
+   "options": [
+    "Swaraj",
+    "Sanjivani",
+    "Kalantar",
+    "Ananda Bazar Patrika"
+   ]
+  },
+  {
+   "n": 49,
+   "stem": "As per ‘August Offer’ the British objective for India was –",
+   "options": [
+    "Dominion Status",
+    "Purna Swaraj",
+    "Responsible Government",
+    "Provincial Authority"
+   ]
+  },
+  {
+   "n": 50,
+   "stem": "Which of the following authorized the British Government to imprison any person without trial and conviction in the court of Law?",
+   "options": [
+    "Rowlatt Act of 1919",
+    "Government of India Act 1935",
+    "Indian Council Act 1909",
+    "Government of India Act 1919"
+   ]
+  },
+  {
+   "n": 51,
+   "stem": "Which of the following personalities are conferred with the National Florence Nightingale Awards 2020 for their meritorious service by President of India, Shri Ram Nath Kovind on 15 th September, 2021?",
+   "options": [
+    "Sister Rualchhingpuii & Sister Vanlalthuami",
+    "Mrs. Denghmingliani & Mrs. Lalnunpuii",
+    "Mrs. Vanlalthuami & Mrs. C.Dengthangpuii",
+    "Sister Lalzirliani & Sister Laltlankimi"
+   ]
+  },
+  {
+   "n": 52,
+   "stem": "To strengthen the quality, governance and the management structure of the Department of Health and Family Welfare (DoHFW), the World Bank has recently approved how much amount of money to the Government of Mizoram?",
+   "options": [
+    "$25 million",
+    "$32 million",
+    "$42 million",
+    "$50 million"
+   ]
+  },
+  {
+   "n": 53,
+   "stem": "Which one of the following counsellors is elected from the general ward (unreserved category) in the last Aizawl Municipal Corporation (AMC) election held on February 2021?",
+   "options": [
+    "Chuauzikpuii",
+    "B.Lalawmpuii",
+    "C.Lalchhandami",
+    "Ramthanzauvi"
+   ]
+  },
+  {
+   "n": 54,
+   "stem": "The National Human Rights Commission has issued conditional summons to the Chief Secretary of",
+   "options": [
+    "Cancer",
+    "Covid-19",
+    "Border issue",
+    "Child smuggling"
+   ]
+  },
+  {
+   "n": 55,
+   "stem": "Which Indian bank on April 2021 has raised $1 billion from Japan Bank for International Cooperation (JBIC) to extend loans to supply chain of Japanese automobile industry in India?",
+   "options": [
+    "HDFC",
+    "ICICI",
+    "Axis Bank",
+    "SBI"
+   ]
+  },
+  {
+   "n": 56,
+   "stem": "Which state was ranked as the best governed state in the country according to the Public Affairs Index-2020 published by the Public Affairs Centre (PAC) in Bengaluru?",
+   "options": [
+    "Goa",
+    "Sikkim",
+    "Kerala",
+    "Maharashtra"
+   ]
+  },
+  {
+   "n": 57,
+   "stem": "According to the Union budget 2021-22, which among the following is expected to contribute the most to the centre’s exchequer?",
+   "options": [
+    "Corporate tax",
+    "Disinvestment",
+    "Income tax",
+    "Profits of government companies"
+   ]
+  },
+  {
+   "n": 58,
+   "stem": "P. D. Vaghela has been appointed as the new Chairman of –",
+   "options": [
+    "Sebi",
+    "SBI",
+    "Law Commision",
+    "TRAI"
+   ]
+  },
+  {
+   "n": 59,
+   "stem": "Malabar Naval Exercise is a naval exercise involving India, Japan and which one of the following countries?",
+   "options": [
+    "Australia",
+    "Taiwan",
+    "USA",
+    "Russia"
+   ]
+  },
+  {
+   "n": 60,
+   "stem": "A micro blogging app ‘Koo’ was launched as an Indian alternative to –",
+   "options": [
+    "Twitter",
+    "Instagram",
+    "Facebook",
+    "Signal"
+   ]
+  },
+  {
+   "n": 61,
+   "stem": "Who is the present Union Minister for Consumer Affairs, food & public distribution?",
+   "options": [
+    "Arjun Munda",
+    "Piyush Goyal",
+    "Narendra Singh Tomar",
+    "Ramesh Pokhriyal"
+   ]
+  },
+  {
+   "n": 62,
+   "stem": "The first foreign bank to launch ‘Green Deposit Programme’ in India to finance green initiatives and eco-friendly projects –",
+   "options": [
+    "Deutsche Bank",
+    "Standard Chartered Bank",
+    "World Bank",
+    "HSBC India"
+   ]
+  },
+  {
+   "n": 63,
+   "stem": "Which state has become the first state in India to launch policies on Artificial Intelligence, Block chain and Cyber-security policies?",
+   "options": [
+    "Kerala",
+    "Tamil Nadu",
+    "Bihar",
+    "Gujarat"
+   ]
+  },
+  {
+   "n": 64,
+   "stem": "What is the Repo Rate of India as of September 2021?",
+   "options": [
+    "3.5 %",
+    "4%",
+    "5%",
+    "6%"
+   ]
+  },
+  {
+   "n": 65,
+   "stem": "The Uttar Pradesh government has launched ‘Mission Shakti’ programme to ensure the security of –",
+   "options": [
+    "Weaker section",
+    "Women",
+    "Girl child",
+    "Pensioners"
+   ]
+  },
+  {
+   "n": 66,
+   "stem": "The rank of India in the Asia Power Index 2020 released by the Sydney-based Lowy Institute is –",
+   "options": [
+    "2nd",
+    "3rd",
+    "4th",
+    "5th"
+   ]
+  },
+  {
+   "n": 67,
+   "stem": "To provide relief and support to farmers, which state has become the first state of India to fix the floor price for vegetables?",
+   "options": [
+    "Uttar Pradesh",
+    "Punjab",
+    "West Bengal",
+    "Kerala"
+   ]
+  },
+  {
+   "n": 68,
+   "stem": "Prime Minister Narendra Modi recently presented the ‘ASSOCHAM Enterprise of the Century Award 2020’ to which of the following personalities?",
+   "options": [
+    "Azim Premji",
+    "Mukesh Ambani",
+    "Ratan Tata",
+    "Uday Kotak"
+   ]
+  },
+  {
+   "n": 69,
+   "stem": "Kagiso Rabada was the highest wicket taker in IPL 2020 due to which he has won the –",
+   "options": [
+    "Indigo cap",
+    "Orange cap",
+    "Yellow cap",
+    "Purple cap"
+   ]
+  },
+  {
+   "n": 70,
+   "stem": "In the Global Gender Gap Report 2021 released by the World Economic Forum, out of 156 countries, the rank of India is –",
+   "options": [
+    "128",
+    "132",
+    "140",
+    "142"
+   ]
+  },
+  {
+   "n": 71,
+   "stem": "Winner of ‘India’s Best Bank for SMEs’ at the Asia money Best Bank Awards 2021 is –",
+   "options": [
+    "ICIC Bank",
+    "Punjab National Bank",
+    "State Bank of India",
+    "HDFC Bank"
+   ]
+  },
+  {
+   "n": 72,
+   "stem": "The first state of the country to have its own ethanol policy called Ethanol Production Promotion Policy, 2021 –",
+   "options": [
+    "Delhi",
+    "Bihar",
+    "Maharastra",
+    "Odhisa"
+   ]
+  },
+  {
+   "n": 73,
+   "stem": "Who has resigned from the post of Principal Advisor to the Prime Minister Narendra Modi on March, 2021?",
+   "options": [
+    "Pradeep Kumar Sinha",
+    "Rajiv Gauba",
+    "Pulok Chatterjee",
+    "Pramod Kumar Misra"
+   ]
+  },
+  {
+   "n": 74,
+   "stem": "Who has become the first Indian woman to win gold at Paralympics?",
+   "options": [
+    "Sumit Antil",
+    "Nikita Antali",
+    "Sonalben Manubhai Patel",
+    "Avani Lekhara"
+   ]
+  },
+  {
+   "n": 75,
+   "stem": "Who among the following has become the new Chief Minister of Gujarat?",
+   "options": [
+    "Vijay Rupani",
+    "Bhupendra Patel",
+    "Pramod Tripathi",
+    "Manoj Sachdeva"
+   ]
+  },
+  {
+   "n": 76,
+   "stem": "What is the theme of India’s 75th Independence Day?",
+   "options": [
+    "Nation First, Always First",
+    "Atmanirbhar Bharat’ or self-reliant India",
+    "Support our Troops, Salute our Troops",
+    "India Leads the Way"
+   ]
+  },
+  {
+   "n": 77,
+   "stem": "When do we observe the National Vaccination Day (also called the National Immunization Day) in India?",
+   "options": [
+    "January 16",
+    "February 16",
+    "March 16",
+    "April 16"
+   ]
+  },
+  {
+   "n": 78,
+   "stem": "Which Indian city has recently launched a first-of-its-kind mobile application ”Carbon Watch”, to assess the carbon footprint of an individual?",
+   "options": [
+    "Chandigarh",
+    "Delhi",
+    "Chennai",
+    "Bengaluru"
+   ]
+  },
+  {
+   "n": 79,
+   "stem": "The number of Indian-origin people who have been featured in the ‘Time100 Next 2021’ –",
+   "options": [
+    "Four",
+    "Five",
+    "Six",
+    "Seven"
+   ]
+  },
+  {
+   "n": 80,
+   "stem": "Which Indian city has been recognized as a 2020 Tree City of World, by the United Nations Food and Agriculture Organization (FAO) for its commitment to growing and maintaining urban forests?",
+   "options": [
+    "Delhi",
+    "Hyderabad",
+    "Shillong",
+    "Chennai"
+   ]
+  },
+  {
+   "n": 81,
+   "stem": "The state that has retained its top rank in the second edition of the India Justice Report 2020 –",
+   "options": [
+    "Maharashtra",
+    "Kerala",
+    "Tamil Nadu",
+    "Sikkim"
+   ]
+  },
+  {
+   "n": 82,
+   "stem": "Winner of the 141st edition of the US Open Men’s Singles 2021?",
+   "options": [
+    "Rafael Nadal",
+    "Daniil Medvedev",
+    "Roger Federer",
+    "Novak Djokovic"
+   ]
+  },
+  {
+   "n": 83,
+   "stem": "According to UN data, as of April 2021, the 5th largest country in the world in terms of population is –",
+   "options": [
+    "Bangladesh",
+    "Pakistan",
+    "Brazil",
+    "Nigeria"
+   ]
+  },
+  {
+   "n": 84,
+   "stem": "On 20th January 2021, Kamala Harris was inaugurated to be the 49th vice president of the United States of America and Joe Biden as the –",
+   "options": [
+    "46th President of USA",
+    "47th President of USA",
+    "48th President of USA",
+    "49th President of USA"
+   ]
+  },
+  {
+   "n": 85,
+   "stem": "Winner of 2021 Bahrain Grand Prix held on 28 March 2021 –",
+   "options": [
+    "Sebastian Vettel",
+    "Lewis Hamilton",
+    "Valtteri Bottas",
+    "Max Verstappen"
+   ]
+  },
+  {
+   "n": 86,
+   "stem": "Sadat Rahman has been awarded the prestigious International Children’s Peace Prize 2020 for making an anti-cyber bullying mobile app named ‘Cyber Teens’. He is from which of the following countries?",
+   "options": [
+    "India",
+    "Pakistan",
+    "Bangladesh",
+    "Nepal"
+   ]
+  },
+  {
+   "n": 87,
+   "stem": "The first ever Indian women to win the 2020 Wildlife Photographer of the Year Award –",
+   "options": [
+    "Pamila Bordes",
+    "Rathika Ramasamy",
+    "Aishwarya Sridhar",
+    "Ronica Kandhari"
+   ]
+  },
+  {
+   "n": 88,
+   "stem": "Winner of the 2020 Central Bank of the Year Award –",
+   "options": [
+    "Bank of Ghana",
+    "Reserve Bank of India",
+    "Federal Bank of USA",
+    "Bank of England"
+   ]
+  },
+  {
+   "n": 89,
+   "stem": "Lou Ottens, the Dutch engineer has passed away at the age of 94. He is credited with the invention of –",
+   "options": [
+    "Pendrive",
+    "DVD",
+    "Memory Card",
+    "Audio Cassette"
+   ]
+  },
+  {
+   "n": 90,
+   "stem": "Author of the book ‘The Little Book of Encouragement’ published recently –",
+   "options": [
+    "Barak Obama",
+    "Sonia Gandhi",
+    "Dalai Lama",
+    "Chetan Bhagat"
+   ]
+  },
+  {
+   "n": 91,
+   "stem": "Earth Hour is a worldwide movement organized by the World Wide Fund for Nature as a symbol of commitment to the planet on last Saturday every March for one hour from –",
+   "options": [
+    "6:30 pm – 7:30 pm",
+    "7:30pm- 8:30 pm",
+    "8:30 pm – 9:30 pm",
+    "9:30 pm -10:30 pm"
+   ]
+  },
+  {
+   "n": 92,
+   "stem": "Recipient of the inaugural Gulbenkian Prize for Humanity with prize money of €1 million is –",
+   "options": [
+    "Malala Yousafzai",
+    "Greta Thunberg",
+    "Angela Markel",
+    "Jacinda Andern"
+   ]
+  },
+  {
+   "n": 93,
+   "stem": "The world’s most populous city as of September 2021 is –",
+   "options": [
+    "Delhi",
+    "Sanghai",
+    "Washington DC",
+    "Tokyo"
+   ]
+  },
+  {
+   "n": 94,
+   "stem": "On March, 2021, the Union Cabinet has recently approved to increase the FDI limit in life and general insurance sector from 49 % to how many per cent?",
+   "options": [
+    "55 per cent",
+    "74 per cent",
+    "80 per cent",
+    "100 per cent"
+   ]
+  },
+  {
+   "n": 95,
+   "stem": "Which country has topped the World Risk Index 2020 (country with the highest disaster risk)?",
+   "options": [
+    "Sudan",
+    "Afghanistan",
+    "Senegal",
+    "Vanuatu"
+   ]
+  },
+  {
+   "n": 96,
+   "stem": "Which country has successfully carried out the test of an advanced missile defense system, Arrow 2, to intercept long-range ballistic attacks?",
+   "options": [
+    "USA",
+    "North Korea",
+    "Israel",
+    "Russia"
+   ]
+  },
+  {
+   "n": 97,
+   "stem": "The country that has topped the Human Freedom Index 2020 with the human freedom score of 8.87 out of 10 –",
+   "options": [
+    "Switzerland",
+    "New Zealand",
+    "France",
+    "Singapore"
+   ]
+  },
+  {
+   "n": 98,
+   "stem": "To provide vital new connections between the Asia-Pacific region and North America, Facebook and which of one of the following technology giants have planned to lay two huge subsea cables, called Echo and Bifrost?",
+   "options": [
+    "Microsoft",
+    "Google",
+    "Twitter",
+    "Amazon"
+   ]
+  },
+  {
+   "n": 99,
+   "stem": "India has recently surpassed Russia to become the fourth largest foreign-exchange reserves keeper in the world. The largest reserve is maintained by –",
+   "options": [
+    "USA",
+    "China",
+    "Japan",
+    "Germany"
+   ]
+  },
+  {
+   "n": 100,
+   "stem": "According to air pollution data released by the US Air Quality Index (AQI) on 30 November 2020, which city has been ranked as the world’s most polluted city?",
+   "options": [
+    "New Delhi",
+    "Shanghai",
+    "Lahore",
+    "Dhaka"
+   ]
+  }
+ ],
+ "Labour2021:GS-II": [
+  {
+   "n": 1,
+   "stem": "Which one of the following categories of Fundamental Rights incorporates ‘Abolition of Untouchability’?",
+   "options": [
+    "Right to Freedom of Religion",
+    "Right against Exploitation",
+    "Right to Equality",
+    "Right to Freedom"
+   ]
+  },
+  {
+   "n": 2,
+   "stem": "The chief source of political power in India is",
+   "options": [
+    "The People",
+    "The Parliament and State Legislature",
+    "The Constitution",
+    "The Supreme Court"
+   ]
+  },
+  {
+   "n": 3,
+   "stem": "In which chapter of the Indian Constitution, there is a mention of Uniform Civil Code?",
+   "options": [
+    "Fundamental Rights",
+    "Preamble",
+    "Directive Principles of State Policy",
+    "Fundamental Duties"
+   ]
+  },
+  {
+   "n": 4,
+   "stem": "Which one is not an element of the Secular State in India?",
+   "options": [
+    "Taxation on religious property.",
+    "No religious education by the State.",
+    "No state religion",
+    "Freedom of Religion."
+   ]
+  },
+  {
+   "n": 5,
+   "stem": "Which of the following is not a Directive Principle of State Policy?",
+   "options": [
+    "To develop cottage industries.",
+    "The state shall endeavour to raise the level of nutrition and standard of living and to improve public health.",
+    "Protection of language, script or culture of minorities.",
+    "Right to adequate means of livelihood."
+   ]
+  },
+  {
+   "n": 6,
+   "stem": "The rule of lapse in the Parliament means",
+   "options": [
+    "All appropriations voted by the legislature expires at the end of the financial year.",
+    "All pending bills in Parliament lapse with its propagation.",
+    "The appropriation bill lapses if it is not returned by Rajya Sabha within 14 days.",
+    "The demand for grants of a ministry lapse with criticism of its policy by the opposition."
+   ]
+  },
+  {
+   "n": 7,
+   "stem": "Audit of State Government is",
+   "options": [
+    "A state subject",
+    "A concurrent subject",
+    "A union subject",
+    "A residuary subject"
+   ]
+  },
+  {
+   "n": 8,
+   "stem": "Which political party is not a national party in India?",
+   "options": [
+    "Indian National Congress",
+    "Bahujan Samaj Party",
+    "National People’s Party",
+    "Biju Janata Dal"
+   ]
+  },
+  {
+   "n": 9,
+   "stem": "MNREGA is not associated with which of the following?",
+   "options": [
+    "Preventing Distress Migration",
+    "Providing Employment Opportunities",
+    "Agrarian crises",
+    "Reduction of poverty"
+   ]
+  },
+  {
+   "n": 10,
+   "stem": "Judicial Review in India is based on which of the following?",
+   "options": [
+    "Rule of Law",
+    "Procedure established by law",
+    "Due process of law",
+    "Conventions"
+   ]
+  },
+  {
+   "n": 11,
+   "stem": "In India, ‘Collegiums System’ is introduced in relation to",
+   "options": [
+    "Executive",
+    "Legislature",
+    "Judiciary",
+    "Union-State Relations"
+   ]
+  },
+  {
+   "n": 12,
+   "stem": "Caste based reservations are labeled as",
+   "options": [
+    "Affirmative Action",
+    "Society Egalitarianism",
+    "State Intervention",
+    "Positive Discrimination"
+   ]
+  },
+  {
+   "n": 13,
+   "stem": "The Preamble of the Constitution of India enshrines the ideals of liberty, equality and fraternity – ideals mainly inspired by the",
+   "options": [
+    "French Revolution",
+    "Irish Revolution",
+    "Russian Revolution",
+    "Cultural Revolution"
+   ]
+  },
+  {
+   "n": 14,
+   "stem": "Who was the Chairman of Mandal Commission?",
+   "options": [
+    "B.N. Mandal",
+    "B.K. Mandal",
+    "D.L. Mandal",
+    "B.P. Mandal"
+   ]
+  },
+  {
+   "n": 15,
+   "stem": "Which of the following Committee was appointed by the Government of India to identify the creamy layer among Backward Classes in India?",
+   "options": [
+    "Justice R.N. Mishra Committee",
+    "Justice R.N. Madholkar Committee",
+    "Justice Ram Nandan Committee",
+    "Justice Rajender Sachar Committee"
+   ]
+  },
+  {
+   "n": 16,
+   "stem": "Who gave the Indian National Congress the constitution and made it a mass and cadre party?",
+   "options": [
+    "Jawaharlal Nehru",
+    "Mahatma Gandhi",
+    "Motilal Nehru",
+    "Gokhale"
+   ]
+  },
+  {
+   "n": 17,
+   "stem": "Which of the following statement is not correct?",
+   "options": [
+    "Raja Ram Mohan Roy set up Brahmo Sabha in 1828.",
+    "Brahmo Sabha forbade idol-worship and discarded meaningless rites and rituals.",
+    "Raja Ram Mohan Roy worked to abolish child marriage.",
+    "Sati Pratha was abolished in1829."
+   ]
+  },
+  {
+   "n": 18,
+   "stem": "Which statement is not correct regarding ‘Gram Sabha’?",
+   "options": [
+    "It is a village assembly consisting of all the registered voters in the area of the Panchayat.",
+    "Its powers and functions at village level are like state legislature at the state level.",
+    "It is a body consisting of persons registered in the electoral rolls of a village comprised within the area of the Panchayat level.",
+    "Its powers have been provided in the 12th Schedule."
+   ]
+  },
+  {
+   "n": 19,
+   "stem": "The theory of economic drain of India during the British rule was propounded by",
+   "options": [
+    "Dadabhai Naoroji",
+    "Gandhi",
+    "Raja Rammohan Roy",
+    "B.R.Ambedkar"
+   ]
+  },
+  {
+   "n": 20,
+   "stem": "An Ordinance can be issued by the State Governor",
+   "options": [
+    "When the President of India directs him to do so.",
+    "Whenever the Chief Minister advises him",
+    "Whenever he likes",
+    "When the state legislature is not in session and he is satisfied that immediate action is needed."
+   ]
+  },
+  {
+   "n": 21,
+   "stem": "Which of the following was the main part of Aurobindo Ghosh’s programme to achieve Independence?",
+   "options": [
+    "Guerilla Warfare",
+    "Passive Resistance",
+    "Constitutional Protest",
+    "Organisation of Secret Societies"
+   ]
+  },
+  {
+   "n": 22,
+   "stem": "Which schedule was added to the Constitution by the 73rd Constitutional Amendment?",
+   "options": [
+    "12th Schedule",
+    "11th Schedule",
+    "9th Schedule",
+    "None of these"
+   ]
+  },
+  {
+   "n": 23,
+   "stem": "Ambedkar was appointed to an all-European commission in 1925 which was formed to study the constitutional reforms in British India. Name the Commission.",
+   "options": [
+    "Nehru Report",
+    "Simon Commission",
+    "Queen’s Honorary Constitutional Formation",
+    "British Constitution Formation"
+   ]
+  },
+  {
+   "n": 24,
+   "stem": "Can one person acts as Governor for more than one state?",
+   "options": [
+    "Only for six months",
+    "Yes",
+    "Only for three months",
+    "No"
+   ]
+  },
+  {
+   "n": 25,
+   "stem": "Who condemned Gandhism as a reactionary social philosophy?",
+   "options": [
+    "B.G.Tilak",
+    "Aurobindo",
+    "M.N.Roy",
+    "Ambedkar"
+   ]
+  },
+  {
+   "n": 26,
+   "stem": "The Indian Federation is mostly and largely influenced by the federal system of",
+   "options": [
+    "Erstwhile USSR",
+    "USA",
+    "Australia",
+    "Canada"
+   ]
+  },
+  {
+   "n": 27,
+   "stem": "Who called dams as temple of modern India?",
+   "options": [
+    "Ambedkar",
+    "Gandhi",
+    "Sardar Valabhai Patel",
+    "Jawaharlal Nehru"
+   ]
+  },
+  {
+   "n": 28,
+   "stem": "Who certifies a bill as a money bill when it goes to the other House or for President’s assent?",
+   "options": [
+    "Finance Minister",
+    "Prime Minister",
+    "Speaker of the Rajya Sabha",
+    "Speaker of the Lok Sabha"
+   ]
+  },
+  {
+   "n": 29,
+   "stem": "Swaraj, according to B.G.Tilak, was not only a right but a",
+   "options": [
+    "Justice",
+    "Dharma",
+    "Power",
+    "Status"
+   ]
+  },
+  {
+   "n": 30,
+   "stem": "Which Constitutional Amendment made Right to Property a legal right from Fundamental Right?",
+   "options": [
+    "42nd",
+    "44th",
+    "55th",
+    "12th"
+   ]
+  },
+  {
+   "n": 31,
+   "stem": "The doctrine of Ramarajya was expounded by",
+   "options": [
+    "Jayaprakas Narayanan",
+    "M.N Roy",
+    "Gandhiji",
+    "Tilak"
+   ]
+  },
+  {
+   "n": 32,
+   "stem": "Which among the following authority has the power to issue writs for the enforcement of Fundamental Rights?",
+   "options": [
+    "District Courts",
+    "Supreme Court",
+    "High Courts",
+    "Both (b) & (c)"
+   ]
+  },
+  {
+   "n": 33,
+   "stem": "Which of the following is not the session of the Lok Sabha?",
+   "options": [
+    "Summer Session",
+    "Winter Session",
+    "Monsoon Session",
+    "Budget Session"
+   ]
+  },
+  {
+   "n": 34,
+   "stem": "What does the term ‘judicial review’ mean in India?",
+   "options": [
+    "The power vested in the Supreme Court to challenge its own judgements.",
+    "President’s power to review the judgement of the Supreme Court",
+    "The authority vested in the hands of Supreme Court to examine whether some legislative enactments or executive orders of both Central and State governments is following the Constitution of India or not.",
+    "None of these"
+   ]
+  },
+  {
+   "n": 35,
+   "stem": "Which one of the following is a feature common to both Indian Federalism and American Federalism?",
+   "options": [
+    "A federal Supreme Court to interprete the Constitution",
+    "Three lists in the Constitution",
+    "A Single citizenship",
+    "None of these"
+   ]
+  },
+  {
+   "n": 36,
+   "stem": "Which one of the following is not mentioned in the Preamble to the Indian Constitution?",
+   "options": [
+    "Republic",
+    "Justice",
+    "Fraternity",
+    "Universal adult franchise"
+   ]
+  },
+  {
+   "n": 37,
+   "stem": "Who amongst the following was not an extremist?",
+   "options": [
+    "Gopal Krishna Gokhale",
+    "B.G. Tilak",
+    "Bipin Chandra Pal",
+    "Lala Lajpat Rai"
+   ]
+  },
+  {
+   "n": 38,
+   "stem": "In which of the following years was the National Integration Council constituted first?",
+   "options": [
+    "1960",
+    "1956",
+    "1961",
+    "1948"
+   ]
+  },
+  {
+   "n": 39,
+   "stem": "In the foreign exchange market, when exchange rate of a domestic currency is cut down by its government against any foreign currency, it is called",
+   "options": [
+    "Devaluation",
+    "Depreciation",
+    "Revaluation",
+    "Appreciation"
+   ]
+  },
+  {
+   "n": 40,
+   "stem": "The largest source of National Income in India",
+   "options": [
+    "Agriculture sector",
+    "Industrial sector",
+    "Service sector",
+    "Trade sector"
+   ]
+  },
+  {
+   "n": 41,
+   "stem": "Which year is called the “Year of Great Divide’ in the history of economic and population growth?",
+   "options": [
+    "1931",
+    "1951",
+    "1921",
+    "1935"
+   ]
+  },
+  {
+   "n": 42,
+   "stem": "Lok Sabha passed Food Security Bill in",
+   "options": [
+    "2012",
+    "2013",
+    "2010",
+    "2014"
+   ]
+  },
+  {
+   "n": 43,
+   "stem": "Balance of Payment account consists of two parts, namely,",
+   "options": [
+    "Current and Capital Accounts",
+    "Capital and Revenue Accounts",
+    "Internal and External Accounts",
+    "Income and Expenditure Accounts"
+   ]
+  },
+  {
+   "n": 44,
+   "stem": "The largest public sector bank in the country is",
+   "options": [
+    "Cooperative Banks",
+    "RRBs",
+    "SBI",
+    "Commercial banks"
+   ]
+  },
+  {
+   "n": 45,
+   "stem": "Maintaining exchange rate of rupee is the responsibility of",
+   "options": [
+    "Union finance ministry",
+    "NITI Aayog",
+    "Cabinet ministers",
+    "RBI"
+   ]
+  },
+  {
+   "n": 46,
+   "stem": "An important slogan of Land Reforms was",
+   "options": [
+    "Land to the Owner",
+    "Land to the Tiller",
+    "Land to Landless",
+    "Land to the people"
+   ]
+  },
+  {
+   "n": 47,
+   "stem": "Per Capita Income is",
+   "options": [
+    "Total Income of the family/Number of family members",
+    "Total number of population/National income of a country",
+    "Total budget income/Number of families",
+    "National Income/Total number of population"
+   ]
+  },
+  {
+   "n": 48,
+   "stem": "Green Revolution is the most successful in",
+   "options": [
+    "Wheat and Potato",
+    "Jowar and Oilseeds",
+    "Wheat and Rice",
+    "Tea and Coffee"
+   ]
+  },
+  {
+   "n": 49,
+   "stem": "Indian Planning Commission was constituted in",
+   "options": [
+    "1948",
+    "1949",
+    "1950",
+    "1951"
+   ]
+  },
+  {
+   "n": 50,
+   "stem": "Open Market Operation is a part of",
+   "options": [
+    "Income Policy",
+    "Fiscal Policy",
+    "Labour Policy",
+    "Credit Policy"
+   ]
+  },
+  {
+   "n": 51,
+   "stem": "Which of the following is not a Kharif crop?",
+   "options": [
+    "Mustard",
+    "Jowar",
+    "Paddy",
+    "Soyabean"
+   ]
+  },
+  {
+   "n": 52,
+   "stem": "What is the prime target of the first five year plan of India?",
+   "options": [
+    "Development of industries",
+    "Development of agriculture",
+    "Development of infrastructure",
+    "Development of education"
+   ]
+  },
+  {
+   "n": 53,
+   "stem": "Three annual plan were launched between",
+   "options": [
+    "1969 to 1972",
+    "1966 to 1969",
+    "1971 to 1974",
+    "1986 to 1989"
+   ]
+  },
+  {
+   "n": 54,
+   "stem": "Which of the following was included as part of the land reforms initiated in India?",
+   "options": [
+    "Abolition of intermediaries",
+    "Tenancy reforms",
+    "Reorganization of agriculture",
+    "All the above"
+   ]
+  },
+  {
+   "n": 55,
+   "stem": "The top export destination for India is",
+   "options": [
+    "USA",
+    "China",
+    "UAE",
+    "Germany"
+   ]
+  },
+  {
+   "n": 56,
+   "stem": "India’s Foreign Exchange Reserves (Forex reserves) comprise",
+   "options": [
+    "Foreign currency assets and gold reserves only",
+    "Foreign currency assets, gold reserves, special drawing rights and reserve tranche position in the IMF",
+    "Foreign currency and special drawing rights in the IMF",
+    "Foreign currency assets held in the RBI"
+   ]
+  },
+  {
+   "n": 57,
+   "stem": "The difference between revenue expenditure and revenue receipts is",
+   "options": [
+    "Revenue deficit",
+    "Fiscal deficit",
+    "Budget deficit",
+    "Primary deficit"
+   ]
+  },
+  {
+   "n": 58,
+   "stem": "The Yellow Revolution is related with",
+   "options": [
+    "Fish production",
+    "Oilseeds production",
+    "Grains production",
+    "Fruits production"
+   ]
+  },
+  {
+   "n": 59,
+   "stem": "The money value of total output or production of final goods and services produced by the nationals of a country during a given period of time (generally a year) is known as",
+   "options": [
+    "Net National Product (NNP)",
+    "Gross National Product (GNP)",
+    "Disposable Personal Income (DPI)",
+    "Personal Income (PI)"
+   ]
+  },
+  {
+   "n": 60,
+   "stem": "Which one of the following is not among the salient features of new National Agricultural Policy 2000?",
+   "options": [
+    "To promote biotechnology",
+    "Promoting private investments in agriculture",
+    "4% growth rate per annum for the next two decades",
+    "Privatisation of agricultural markets"
+   ]
+  },
+  {
+   "n": 61,
+   "stem": "The Reserve Bank of India was nationalised in",
+   "options": [
+    "1935",
+    "1945",
+    "1949",
+    "1951"
+   ]
+  },
+  {
+   "n": 62,
+   "stem": "Monetary Policy Committee was created by the government of India in",
+   "options": [
+    "1991",
+    "2004",
+    "2008",
+    "2016"
+   ]
+  },
+  {
+   "n": 63,
+   "stem": "A systematic record of all transactions of a country in a year is known as",
+   "options": [
+    "Balance of payment",
+    "Balance of trade",
+    "Capital account",
+    "Revenue account"
+   ]
+  },
+  {
+   "n": 64,
+   "stem": "Interest Rate Policy is a part of",
+   "options": [
+    "Fiscal Policy",
+    "Industrial Policy",
+    "Monetary Policy",
+    "Bank Policy"
+   ]
+  },
+  {
+   "n": 65,
+   "stem": "National Income in India is estimated by",
+   "options": [
+    "NITI Aayog",
+    "Ministry of Finance",
+    "Planning Commission",
+    "Central Statistical Organisation"
+   ]
+  },
+  {
+   "n": 66,
+   "stem": "Economic liberalization in India started with",
+   "options": [
+    "Substantial changes in industrial licensing policy",
+    "The convertibility of Indian rupee",
+    "Doing away with procedural formalities for foreign direct investment",
+    "Significant reduction in tax rates"
+   ]
+  },
+  {
+   "n": 67,
+   "stem": "The rate at which RBI gives short-term loan to commercial banks is called",
+   "options": [
+    "Repo Rate",
+    "Reverse Repo Rate",
+    "Bank Rate",
+    "Cash Reserve Rate"
+   ]
+  },
+  {
+   "n": 68,
+   "stem": "Scheduled Bank is that bank which is",
+   "options": [
+    "nationalised",
+    "not Nationalised",
+    "based at foreign country",
+    "included in the second schedule of RBI"
+   ]
+  },
+  {
+   "n": 69,
+   "stem": "In India those farmers are called ‘Marginal Farmers’ who hold the land upto",
+   "options": [
+    "1 hectare",
+    "2 hectare",
+    "3 hectare",
+    "4 hectare"
+   ]
+  },
+  {
+   "n": 70,
+   "stem": "Agriculture Price Commission and Indian Food Corporation were constituted in",
+   "options": [
+    "1960",
+    "1965",
+    "1966",
+    "1969"
+   ]
+  },
+  {
+   "n": 71,
+   "stem": "NITI Aayog was formed on",
+   "options": [
+    "January 1,2014",
+    "April 1,2014",
+    "January 1,2015",
+    "April 1,2015"
+   ]
+  },
+  {
+   "n": 72,
+   "stem": "Pradhan Mantri Gramodaya Yojana aims at",
+   "options": [
+    "Establishing small industries",
+    "Alleviating poverty through micro-enterprise",
+    "Strengthening the Panchayati Raj System in rural areas",
+    "Meeting rural needs like primary education, health care, drinking water, housing, rural roads"
+   ]
+  },
+  {
+   "n": 73,
+   "stem": "Who conducts the periodical sample survery for estimating the poverty line in India?",
+   "options": [
+    "National Survery Organisation",
+    "National Sample Survey Organisation",
+    "Sample Survey Organisation",
+    "None of the above"
+   ]
+  },
+  {
+   "n": 74,
+   "stem": "In which year was NREGA enacted?",
+   "options": [
+    "2005",
+    "2000",
+    "1999",
+    "1993"
+   ]
+  },
+  {
+   "n": 75,
+   "stem": "Economic planning is an essential feature of?",
+   "options": [
+    "Dual economy",
+    "Mixed economy",
+    "Socialist economy",
+    "Capitalist economy"
+   ]
+  },
+  {
+   "n": 76,
+   "stem": "Which of the following pass is situated in Sikkim?",
+   "options": [
+    "Shipki La",
+    "Lipu Lekh",
+    "Jelep La",
+    "Zojila"
+   ]
+  },
+  {
+   "n": 77,
+   "stem": "Which among the following is the longest mountain range in India?",
+   "options": [
+    "Satpura range",
+    "Pir Panjal range",
+    "Aravali range",
+    "Purvanchal range"
+   ]
+  },
+  {
+   "n": 78,
+   "stem": "Which of the following river makes a estuary?",
+   "options": [
+    "Godavari",
+    "Mahanadi",
+    "Krishna",
+    "Tapti"
+   ]
+  },
+  {
+   "n": 79,
+   "stem": "The Great Andaman group of islands in the north is separated from the Nicobar group in the south by the",
+   "options": [
+    "8 Degree Channel",
+    "10 Degree Channel",
+    "12 Degree Channel",
+    "15 Degree Channel"
+   ]
+  },
+  {
+   "n": 80,
+   "stem": "The Southern Oscillation, a curious phenomena of sea-saw pattern of meteorological changes between the Pacific and Indian ocean was discovered by",
+   "options": [
+    "P. Koteswaram",
+    "Darwin",
+    "Flohn",
+    "Gilbert Walker"
+   ]
+  },
+  {
+   "n": 81,
+   "stem": "Which type of forest occupies the largest forest cover in India?",
+   "options": [
+    "Tropical Evergreen forest",
+    "Himalayan forest",
+    "Tropical Decidious forest",
+    "Sub-tropical forest"
+   ]
+  },
+  {
+   "n": 82,
+   "stem": "Throughout the demographic history of India, the census year of _________ registered a negative growth rate of -0.31 per cent.",
+   "options": [
+    "1911",
+    "1921",
+    "1941",
+    "1951"
+   ]
+  },
+  {
+   "n": 83,
+   "stem": "_________ is the longest National Highway in India, starts from Srinagar and terminates in Kanyakumari.",
+   "options": [
+    "National Highway 44",
+    "National Highway 27",
+    "National Highway 52",
+    "National Highway 6"
+   ]
+  },
+  {
+   "n": 84,
+   "stem": "A town with a population of 20,000 to 49,000 persons is classified as _________ by the Census of India.",
+   "options": [
+    "Class III towns",
+    "Class IV towns",
+    "Class V towns",
+    "Class VI towns"
+   ]
+  },
+  {
+   "n": 85,
+   "stem": "Who among the following coined the phrase ‘Jet Stream’?",
+   "options": [
+    "Wiley Post",
+    "Herodotus",
+    "Sir Gilbert Walker",
+    "H. Seilkopf"
+   ]
+  },
+  {
+   "n": 86,
+   "stem": "According to 2011 census report, which tribe in India has the largest population?",
+   "options": [
+    "Santhals",
+    "Munda",
+    "Bhil",
+    "Gonds"
+   ]
+  },
+  {
+   "n": 87,
+   "stem": "Industrial hazards comes under the category of",
+   "options": [
+    "Natural Hazards",
+    "Meteorological Hazards",
+    "Wild fire Hazards",
+    "Human induces Hazards"
+   ]
+  },
+  {
+   "n": 88,
+   "stem": "From the following, which state has the lowest literacy rate in the northeastern state?",
+   "options": [
+    "Sikkim",
+    "Nagaland",
+    "Manipur",
+    "Mizoram"
+   ]
+  },
+  {
+   "n": 89,
+   "stem": "Which amendment accorded statutory status to the commission for Scheduled Castes and Scheduled Tribes?",
+   "options": [
+    "65th Amendment",
+    "64th Amendment",
+    "68th Amendment",
+    "Non of them"
+   ]
+  },
+  {
+   "n": 90,
+   "stem": "Which Indian state has the longest coastlines in India?",
+   "options": [
+    "Andhra Pradesh",
+    "Tamil Nadu",
+    "Maharastra",
+    "Gujarat"
+   ]
+  },
+  {
+   "n": 91,
+   "stem": "Who is not the permanent member of ASEAN countries?",
+   "options": [
+    "Myanmar",
+    "Cambodia",
+    "India",
+    "Thailand"
+   ]
+  },
+  {
+   "n": 92,
+   "stem": "In which part of the Indian constitution, Central and state relations are mentioned?",
+   "options": [
+    "Part XI",
+    "Part X",
+    "Part VI",
+    "Part XII"
+   ]
+  },
+  {
+   "n": 93,
+   "stem": "Which of the following organizations looks after the credit needs of agriculture and rural development in India?",
+   "options": [
+    "FCI",
+    "IDBI",
+    "NABARD",
+    "ICAR"
+   ]
+  },
+  {
+   "n": 94,
+   "stem": "Which industry employs the largest number of women workers in India?",
+   "options": [
+    "Tea",
+    "Textile",
+    "Jute",
+    "Coal"
+   ]
+  },
+  {
+   "n": 95,
+   "stem": "Which state is the largest producer of Uranium in India?",
+   "options": [
+    "Jharkhand",
+    "Andhra Pradesh",
+    "Rajasthan",
+    "Orissa"
+   ]
+  },
+  {
+   "n": 96,
+   "stem": "At the present population growth rate, in which year India is likely to takeover China as the world most populous country?",
+   "options": [
+    "2020",
+    "2025",
+    "2030",
+    "2050"
+   ]
+  },
+  {
+   "n": 97,
+   "stem": "The Jog waterfall is formed in the drainage system of",
+   "options": [
+    "Tungabhadra",
+    "Sharavathi",
+    "Sabarmati",
+    "Koyna"
+   ]
+  },
+  {
+   "n": 98,
+   "stem": "Nokrek National Park is famous for habitat of red panda and Asian elephant s is located in",
+   "options": [
+    "Sikkim",
+    "West Bengal",
+    "Arunachal Pradesh",
+    "Meghalaya"
+   ]
+  },
+  {
+   "n": 99,
+   "stem": "According to the 2011 census of India , the lowest sex ratio has recorded in the state of",
+   "options": [
+    "Haryana",
+    "Rajasthan",
+    "Chhattisgarh",
+    "Sikkim"
+   ]
+  },
+  {
+   "n": 100,
+   "stem": "Tropic of Cancer passes through which of the following group of Indian States:",
+   "options": [
+    "Gujarat, MP, Chattisgarh, Manipur",
+    "Rajasthan, Jharkhand, West Bengal, Mizoram",
+    "UP, MP, Bihar, Jharkhand",
+    "Maharashtra, Chattisgarh, Orissa, Andhra Pradesh"
+   ]
+  }
+ ],
+ "Labour2021:GS-III": [
+  {
+   "n": 1,
+   "stem": "What is India’s first operational remote sensing satellite?",
+   "options": [
+    "IRS-1A",
+    "INSAT-1A",
+    "GSAT-1",
+    "PSLV-D3"
+   ]
+  },
+  {
+   "n": 2,
+   "stem": "The first Indian Lunar probe under Chandrayaan program – Chandrayaan-1 was launched from the site –",
+   "options": [
+    "Sriharikota",
+    "Wheeler Island",
+    "Balasore",
+    "None of the above"
+   ]
+  },
+  {
+   "n": 3,
+   "stem": "Who is known as the father of Indian nuclear programme?",
+   "options": [
+    "Raja Ramanna",
+    "APJ Abdul Kalam",
+    "Homi J Bhabha",
+    "Vikram Sarabhai"
+   ]
+  },
+  {
+   "n": 4,
+   "stem": "When was the first expedition to Antarctica started by India?",
+   "options": [
+    "1971",
+    "1975",
+    "1980",
+    "1981"
+   ]
+  },
+  {
+   "n": 5,
+   "stem": "A new cheaper, quicker and pollution-free ‘soil-to-soil technology’ to manufacture ‘biofuel’ has been developed by researchers at –",
+   "options": [
+    "IIT-Gandhinagar",
+    "IIT-Jamshedpur",
+    "IIT-Kanpur",
+    "IIT-Kharagpur"
+   ]
+  },
+  {
+   "n": 6,
+   "stem": "The Defence Research Development Organisation (DRDO) has developed a drug named, ‘Lukoskin’. It is being used in the treatment of –",
+   "options": [
+    "Leukorrhea",
+    "Lung Cancer",
+    "Leucoderma",
+    "Leukemia"
+   ]
+  },
+  {
+   "n": 7,
+   "stem": "If a computer has more than one processor then it is known as?",
+   "options": [
+    "Uniprocess",
+    "Multiprocessor",
+    "Multithreaded",
+    "Multiprogramming"
+   ]
+  },
+  {
+   "n": 8,
+   "stem": "Who developed the World’s first water-based computer along with his team?",
+   "options": [
+    "Nitya Anand",
+    "Harish Chandra",
+    "Anna Mani",
+    "Manu Prakash"
+   ]
+  },
+  {
+   "n": 9,
+   "stem": "In which year did IT Act came into force in India?",
+   "options": [
+    "1995",
+    "2000",
+    "2004",
+    "2008"
+   ]
+  },
+  {
+   "n": 10,
+   "stem": "TRAI recently suggested the following entity to be allocated 5 MHz spectrum in the 700 MHz band for safety purpose on administrative basis.",
+   "options": [
+    "Indian Air Force",
+    "Indian Railways",
+    "National Disaster Management Authority",
+    "National Security Council"
+   ]
+  },
+  {
+   "n": 11,
+   "stem": "The first nuclear test conducted by India under the code name of ‘Smiling Buddha’ was in the year –",
+   "options": [
+    "1973",
+    "1974",
+    "1975",
+    "1976"
+   ]
+  },
+  {
+   "n": 12,
+   "stem": "What is the full form of LTE in wireless communication?",
+   "options": [
+    "Long Time Enable",
+    "Link of Telecommunication Equipments",
+    "Live Through Equipments",
+    "Long Term Evolution"
+   ]
+  },
+  {
+   "n": 13,
+   "stem": "Airtel launched 4G in India (Kolkata) becoming the first company to provide 4G services in India. Which date was it?",
+   "options": [
+    "12th March, 2011",
+    "10th April, 2012",
+    "7th May, 2013",
+    "10th June, 2014"
+   ]
+  },
+  {
+   "n": 14,
+   "stem": "Theoretically, the capacity of data transfer in cellular network is inversely proportional to the – (i) Computing speed (ii) Range (iii) Size of memory",
+   "options": [
+    "(i) and (ii)",
+    "(ii)",
+    "(ii) and (iii)",
+    "None of the above"
+   ]
+  },
+  {
+   "n": 15,
+   "stem": "The main improvement of 5G over 4G would be –",
+   "options": [
+    "Transfer speed",
+    "Penetrability",
+    "Longer range",
+    "All of the above"
+   ]
+  },
+  {
+   "n": 16,
+   "stem": "Name the government service, which helps patients in booking online appointments in government hospitals?",
+   "options": [
+    "Hospital Management System (HMS)",
+    "Health Monitoring System (HMS)",
+    "Self Service System (SSS)",
+    "Online Registration System (ORS)"
+   ]
+  },
+  {
+   "n": 17,
+   "stem": "Name the government service, which allows government entities to procure common goods and services without requiring them to go through painful tendering system?",
+   "options": [
+    "Government e-Marketplace(GeM)",
+    "Online Government Goods and Services (OGGS)",
+    "e-Marketplace for Government (MFG)",
+    "Government One-Stop Shop (GOSS)"
+   ]
+  },
+  {
+   "n": 18,
+   "stem": "Digital India was launched by the Prime Minister Narendra Modi with an objective of connecting rural areas with high-speed Internet networks and improving digital literacy. Which year was it launched?",
+   "options": [
+    "2013",
+    "2014",
+    "2015",
+    "2016"
+   ]
+  },
+  {
+   "n": 19,
+   "stem": "What is the name of Indian Mars programme which was launched on 5th November, 2013 and also put India as the first nation to become successful in the first attempt?",
+   "options": [
+    "Mangalyaan",
+    "Chandrayaan",
+    "NISAR",
+    "Shukrayaan"
+   ]
+  },
+  {
+   "n": 20,
+   "stem": "A satellite was launched on 14th November, 2018 carrying transponders that would bridge digital divide of users especially who are in Jammu and Kashmir and North Eastern regions of India. What is the name of the satellite?",
+   "options": [
+    "GSAT-29",
+    "GSAT-28",
+    "GSAT-27",
+    "GSAT-26"
+   ]
+  },
+  {
+   "n": 21,
+   "stem": "The PSLV and GSLV differs mainly because of –",
+   "options": [
+    "PSLV can deliver more payload than GSLV",
+    "The delivery range of PSLV is more than that of GSLV",
+    "PSLV is used for delivery of satellites to Sun-Synchronous circular polar orbits",
+    "All of the above"
+   ]
+  },
+  {
+   "n": 22,
+   "stem": "The current Principal Scientific Adviser to the Govt of India is –",
+   "options": [
+    "Prof. K VijayRaghavan",
+    "Dr. R. Chidambaram",
+    "Krishnamurthy Subramanian",
+    "Anand Singh Bhal"
+   ]
+  },
+  {
+   "n": 23,
+   "stem": "The government of India initiated instant transfer of money across accounts through virtual payment account and was developed by NPCI –",
+   "options": [
+    "Net Banking",
+    "IMPS",
+    "NEFT",
+    "UPI"
+   ]
+  },
+  {
+   "n": 24,
+   "stem": "QR code stands for –",
+   "options": [
+    "Quick Read code",
+    "Quick Response code",
+    "Quick Revert code",
+    "Quick Raise code"
+   ]
+  },
+  {
+   "n": 25,
+   "stem": "___________ is a name of security intended to prevent data being read or secretly modified, other than by the true sender and recipient(s) like in whatsapp.",
+   "options": [
+    "Point-to-point encryption",
+    "Username and password",
+    "End-to-end encryption",
+    "Public Key encryption"
+   ]
+  },
+  {
+   "n": 26,
+   "stem": "Which section of IT Act contains about punishment for publishing or transmitting obscene material in electronic form?",
+   "options": [
+    "67",
+    "56",
+    "45",
+    "84"
+   ]
+  },
+  {
+   "n": 27,
+   "stem": "What is generally allowed from ethical point of view?",
+   "options": [
+    "Monitoring the employees’ activities on employers’ owned computer and network.",
+    "Accessing a close friend’s computer or mobile phone without his/her consent.",
+    "Jokingly sending threatening text messages to close friends from unknown number.",
+    "None of the above."
+   ]
+  },
+  {
+   "n": 28,
+   "stem": "What is the maximum punishment for a person who commits cyber terrorism under IT Act 2000?",
+   "options": [
+    "Imprisonment upto 5 years",
+    "Imprisonment upto 10 years",
+    "Imprisonment for life",
+    "Death sentence"
+   ]
+  },
+  {
+   "n": 29,
+   "stem": "Which is the name given to a platform that allows paperless documents and certificates to be issued and verified without requiring to produce physical documents?",
+   "options": [
+    "Digital Locker",
+    "Aadhar",
+    "DigiLocker",
+    "Digital Repository"
+   ]
+  },
+  {
+   "n": 30,
+   "stem": "Who was the cyber criminal who was recently caught for doing business in cyber crime that involves stealing funds, snooping around financial status of others, hacking emails etc and his enterprise grown into $600 million business from 2011?",
+   "options": [
+    "Vijay Mallya",
+    "Sanjay Behara",
+    "Vijay Malik",
+    "Amit Tiwari"
+   ]
+  },
+  {
+   "n": 31,
+   "stem": "Current trend in Information Technology that makes use of internet and is being changing the way several things are connected –",
+   "options": [
+    "Internet of Things",
+    "Network of Things",
+    "Internet of Mobiles",
+    "Network of Mobiles"
+   ]
+  },
+  {
+   "n": 32,
+   "stem": "With the advancement of using technologies in our everyday life, the two components are familiar with physical reading and response –",
+   "options": [
+    "Readers and writers",
+    "Readers and activators",
+    "Sensors and activators",
+    "Sensors and actuators"
+   ]
+  },
+  {
+   "n": 33,
+   "stem": "What is the major concern with the growing technology?",
+   "options": [
+    "Security",
+    "Privacy",
+    "Cyber Crime",
+    "All of the above"
+   ]
+  },
+  {
+   "n": 34,
+   "stem": "Though there can be no globally accepted definition of Smart City, the following is/are priorities to smart city definition – (i) Use of ICT (ii) Smarter living (iii) Getting things done easily (iv) Better roads",
+   "options": [
+    "(i)",
+    "(i) and (ii)",
+    "(i), (ii) and (iii)",
+    "All of the above"
+   ]
+  },
+  {
+   "n": 35,
+   "stem": "Which of the following money transfer is NOT instant, i.e., requires clearing?",
+   "options": [
+    "NEFT",
+    "UPI",
+    "IMPS",
+    "RTGS"
+   ]
+  },
+  {
+   "n": 36,
+   "stem": "An address used to identify each host in the internet is called –",
+   "options": [
+    "MAC address",
+    "Remote address",
+    "IP address",
+    "Port number"
+   ]
+  },
+  {
+   "n": 37,
+   "stem": "The ambitious initiative by the Government of India in order to have smart, effective, accessible and transparent government and was approved in 2006 is called –",
+   "options": [
+    "National e-Governance Plan",
+    "Indian e-Governance Plan",
+    "Smart India Plan",
+    "Smart Government Initiative"
+   ]
+  },
+  {
+   "n": 38,
+   "stem": "________ is an online educational programme initiated by Government of India and designed to achieve the three cardinal principles of Education Policy viz., access, equity and quality and seeks to bridge the digital divide for students who have hitherto remained untouched by the digital revolution.",
+   "options": [
+    "Online Learning Courses (OLC)",
+    "Swayam",
+    "Learn By Yourself (LBY)",
+    "Education India"
+   ]
+  },
+  {
+   "n": 39,
+   "stem": "Who said this “Mizo stands for the word head cutter in English, for the Mizo word lu means head and shai means to cut”",
+   "options": [
+    "T.H Lewin",
+    "Brigadier General Bouchier",
+    "Major Shakespeare",
+    "MacCall"
+   ]
+  },
+  {
+   "n": 40,
+   "stem": "Which of the following is not Mizo indigenous trapping of birds?",
+   "options": [
+    "Sahdal",
+    "Thangthleng",
+    "Beai thang",
+    "Hnawhtawt"
+   ]
+  },
+  {
+   "n": 41,
+   "stem": "J.M Llyod also translated the term Mizo as",
+   "options": [
+    "Colonized people",
+    "Friend of the people",
+    "People of the hills",
+    "Hill men"
+   ]
+  },
+  {
+   "n": 42,
+   "stem": "List out one Mizo indigenous method of trapping animal",
+   "options": [
+    "Vawmtlak",
+    "Vaithang",
+    "Kilen",
+    "Thangchep"
+   ]
+  },
+  {
+   "n": 43,
+   "stem": "In which census, ‘The term Mizo is a collective name for the people inhibiting Mizoram, possessing one language, same origin and a common way of life…’ is began to use in",
+   "options": [
+    "1951 census",
+    "1961 census",
+    "1971 census",
+    "1981 census"
+   ]
+  },
+  {
+   "n": 44,
+   "stem": "The first Lushai expedition was launched in",
+   "options": [
+    "1865 - 1869",
+    "1869 – 1870",
+    "1871 – 1872",
+    "1873- 1875"
+   ]
+  },
+  {
+   "n": 45,
+   "stem": "In which year Mizoram came under the administration of the British India Government?",
+   "options": [
+    "1890",
+    "1891",
+    "1892",
+    "1893"
+   ]
+  },
+  {
+   "n": 46,
+   "stem": "Mizoram was made as one of the Union Territory of Assam State in",
+   "options": [
+    "1965",
+    "1972",
+    "1975",
+    "1976"
+   ]
+  },
+  {
+   "n": 47,
+   "stem": "Surtlang is situated at",
+   "options": [
+    "Lengteng Constituency",
+    "Chalfilh Constituency",
+    "Tawi Constituency",
+    "Champhai North"
+   ]
+  },
+  {
+   "n": 48,
+   "stem": "Which Mizo women is associated with Chalthanga?",
+   "options": [
+    "Lianchhiari",
+    "Thailungi",
+    "Chhingpuii",
+    "Laltheri"
+   ]
+  },
+  {
+   "n": 49,
+   "stem": "Which of the following was not a traditional festival of Mizo?",
+   "options": [
+    "Pawl kut",
+    "Mim kut",
+    "Chapchar kut",
+    "Vangpui kut"
+   ]
+  },
+  {
+   "n": 50,
+   "stem": "Tialpari puk was situated near",
+   "options": [
+    "Sur tlang",
+    "Lengteng tlang",
+    "Phawngpui tlang",
+    "Pukzing village"
+   ]
+  },
+  {
+   "n": 51,
+   "stem": "Mura Puk is situated at",
+   "options": [
+    "Zote Village",
+    "Zopui village",
+    "Ruantlang Village",
+    "Rulchawm Village"
+   ]
+  },
+  {
+   "n": 52,
+   "stem": "Which one of the following is correct in connection with first Mizo chief?",
+   "options": [
+    "Vanhnuailiana",
+    "Zahmuaka",
+    "Sailova ( d) Lallula"
+   ]
+  },
+  {
+   "n": 53,
+   "stem": "In traditional Mizo society, it was customary on the part of the bride to bring along with her",
+   "options": [
+    "Pawnpui",
+    "Fian",
+    "Puanbu",
+    "Hmui"
+   ]
+  },
+  {
+   "n": 54,
+   "stem": "Which one of the following statement is correct?",
+   "options": [
+    "Zawlbuk was a placed under the charge of a leader called upa",
+    "Young boys who supplied zawlbuk with fire wood every night were called thingfawm rual",
+    "They never discuss together and took unanimous decision.",
+    "Zawlbuk was placed under the charge of a leader called Val upa"
+   ]
+  },
+  {
+   "n": 55,
+   "stem": "Which one of the following statement is not the objective of Thangchhuah?",
+   "options": [
+    "To avoid the pellets of Pawla",
+    "To earn respect in life time",
+    "To achieve the eternal bliss of Pialral",
+    "To avoid sachhiah from the chief"
+   ]
+  },
+  {
+   "n": 56,
+   "stem": "Khawzim pathian was associated with",
+   "options": [
+    "Chapchar kut",
+    "Mim kut",
+    "Pawl kut",
+    "Chhawnghnawt"
+   ]
+  },
+  {
+   "n": 57,
+   "stem": "In which year J. Shakespeare’s book entitled Mizo and Non Mizo Tales was published?",
+   "options": [
+    "1898",
+    "1899",
+    "1891",
+    "1892"
+   ]
+  },
+  {
+   "n": 58,
+   "stem": "Which Mizo folktale is associated with Sekiphir?",
+   "options": [
+    "Nuchhimi",
+    "Lalruanga leh Keichala",
+    "Liandovate unau",
+    "Sichangneii"
+   ]
+  },
+  {
+   "n": 59,
+   "stem": "In which Mizo folktale Kutzungpui rai was found?",
+   "options": [
+    "Kungawrhi",
+    "Phawthira",
+    "Hluanchhinga",
+    "Chemtei"
+   ]
+  },
+  {
+   "n": 60,
+   "stem": "Which one of the following is correct for Khuallam?",
+   "options": [
+    "A mixed gender dance that celebrated successfully hunting, would sway cloth with singing and music",
+    "Dancer standing alternately in a triangle holding one another a mixed gender",
+    "Dancer sing and sway to and fro in a slow rhythm",
+    "None of the above"
+   ]
+  },
+  {
+   "n": 61,
+   "stem": "Which of the following chhiah was not entitled by a chief?",
+   "options": [
+    "Khuaichhiah",
+    "Chichhiah",
+    "Sachhiah",
+    "Ranchhiah"
+   ]
+  },
+  {
+   "n": 62,
+   "stem": "In traditional marriage, a prize of Sailo girl was",
+   "options": [
+    "Ten sial",
+    "Two sial",
+    "Three sial",
+    "Seven sial"
+   ]
+  },
+  {
+   "n": 63,
+   "stem": "In a war, when a person after deserting his own party, joined the victorious side and promise that he and his descendants would obey the chief , such persons were called",
+   "options": [
+    "Tukluh bawi",
+    "Chemsen bawi",
+    "Inpuichhung bawi",
+    "Inhrang bawi"
+   ]
+  },
+  {
+   "n": 64,
+   "stem": "Which of the following village officials were introduced by the British?",
+   "options": [
+    "Thirdeng",
+    "Tlangau",
+    "Khawchhiar",
+    "None of the above"
+   ]
+  },
+  {
+   "n": 65,
+   "stem": "In which year Government of Assam replaced the words Bawi by a new term chhungte?",
+   "options": [
+    "1925",
+    "1926",
+    "1927",
+    "1928"
+   ]
+  },
+  {
+   "n": 66,
+   "stem": "When did Zawlbuk come to an end in Mizoram?",
+   "options": [
+    "1925",
+    "1926",
+    "1927",
+    "1928"
+   ]
+  },
+  {
+   "n": 67,
+   "stem": "The first president of Young Lushai Association was",
+   "options": [
+    "J.H Lorrain",
+    "E.L Mendus",
+    "NE Parry",
+    "Rev L.Evans"
+   ]
+  },
+  {
+   "n": 68,
+   "stem": "Mizo Common People’s Union was renamed as Mizo Union in the year",
+   "options": [
+    "1946",
+    "1936",
+    "1926",
+    "1948"
+   ]
+  },
+  {
+   "n": 69,
+   "stem": "Mizo National Famine Front was converted into a political called Mizo National Front in",
+   "options": [
+    "2nd October 1961",
+    "2nd June 1962",
+    "4th May 1963",
+    "8th March 1965"
+   ]
+  },
+  {
+   "n": 70,
+   "stem": "Which one of the following is not features of economic life of the Mizo people?",
+   "options": [
+    "Hunting",
+    "Miruang inchuh",
+    "Hnatlang",
+    "Ruaitheh"
+   ]
+  },
+  {
+   "n": 71,
+   "stem": "The first known massive famine called mautam occurred in",
+   "options": [
+    "1861",
+    "1870",
+    "1890",
+    "1911"
+   ]
+  },
+  {
+   "n": 72,
+   "stem": "Which of the following is true in regards to the abolition of kuli in Mizoram?",
+   "options": [
+    "22 January 1952",
+    "20 February 1952",
+    "13 January 1953",
+    "21 June 1952"
+   ]
+  },
+  {
+   "n": 73,
+   "stem": "Which of the following is not true in regards to Chawngchen zai?",
+   "options": [
+    "Lalvunga zai",
+    "Hla tluang",
+    "Lumtui zai",
+    "Tlangkhaw zai"
+   ]
+  },
+  {
+   "n": 74,
+   "stem": "When did first general census held in Mizoram?",
+   "options": [
+    "1891",
+    "1901",
+    "1911 (d ) 1921"
+   ]
+  },
+  {
+   "n": 75,
+   "stem": "The biggest river in Mizoram is",
+   "options": [
+    "Tlawng",
+    "Tuivai",
+    "Khawthlangtuipui",
+    "Chhimtuipui"
+   ]
+  },
+  {
+   "n": 76,
+   "stem": "Find the missing character: grid reads 0, 7 (top row) and 63, ? (bottom row), following the pattern n^3 - 1.",
+   "options": [
+    "14",
+    "20",
+    "26",
+    "42"
+   ],
+   "direction": "Find the missing character? 0 7"
+  },
+  {
+   "n": 77,
+   "stem": "Find the missing character: grid reads 2, 4 (top row) and ?, 16 (bottom row), each term being the square of the previous.",
+   "options": [
+    "18",
+    "64",
+    "125",
+    "256"
+   ],
+   "direction": "Find the missing character? 0 7"
+  },
+  {
+   "n": 78,
+   "stem": "Find the missing character: grid reads B, 15, ? (top row) and 3, N, 21 (bottom row), where each column's number is one more than its letter's alphabet position.",
+   "options": [
+    "T",
+    "S",
+    "R",
+    "U"
+   ],
+   "direction": "Find the missing character? 0 7"
+  },
+  {
+   "n": 79,
+   "stem": "Find the missing character: grid reads A, J, M (top row) and D, G, ? (bottom row), where each column shifts its top letter by +3 or -3 alternately.",
+   "options": [
+    "Q",
+    "P",
+    "R",
+    "N"
+   ],
+   "direction": "Find the missing character? 0 7"
+  },
+  {
+   "n": 80,
+   "stem": "2, 7, 9, 3, 8, 11, 4, 9, 13, .....?...., 10, 15",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "direction": "Find the missing character? 0 7"
+  },
+  {
+   "n": 81,
+   "stem": "10, 18, 28, 40, 54, ...?..., 88",
+   "options": [
+    "64",
+    "70",
+    "81",
+    "120"
+   ],
+   "direction": "Find the missing character? 0 7"
+  },
+  {
+   "n": 82,
+   "stem": "4, 5, 20, 5, 6, 30, 6, 7, 42, 7, 8, ...?..., 8, 9, 72",
+   "options": [
+    "48",
+    "56",
+    "64",
+    "70"
+   ],
+   "direction": "Find the missing character? 0 7"
+  },
+  {
+   "n": 83,
+   "stem": "118, 111, 104, ...?..., 90, 83",
+   "options": [
+    "102",
+    "100",
+    "97",
+    "95"
+   ],
+   "direction": "Find the missing character? 0 7"
+  },
+  {
+   "n": 84,
+   "stem": "“Span” has the same meaning as ...",
+   "options": [
+    "duration",
+    "character",
+    "present",
+    "direction"
+   ],
+   "direction": "Read the following passage carefully and choose the best answer to each of the questions out of the four alternatives: Adverse after-effects of stress, such as decreases in performance and attention span, often persist long after the stressful event itself is no longer present. After-effects of stress have been observed in response to a wide range of stressors, including noise, high task load, electric shock, bureaucratic stress, crowding, and laboratory-induced stress. Stressors can produce deleterious after-effects on social behavior as well as on cognitive tasks. For example, when people are exposed to avoidable stress, such as noise or crowding, they are less likely to help someone in distress when the stressor is over. In one study, people shopped in a shopping center that was either crowded or uncrowded and were required to purchase a large or a small number of items in a short time. Later, all the shoppers encountered a woman who pretended to have lost a contact lens and who requested help finding it. The people who had had to purchase lots of items in a short time or who had been more crowded were less likely to help the woman than were the people who had had few things to buy and more time to shop or who had shopped in less crowded conditions. In response to many stressful events, there may be prolonged activation of physiological stress responses. That is, instead of returning to baseline when a stressor has ended, physiological responses such as cardiovascular activation may persist over the long term. One possible reason is that psychological processes, such as worry or rumination and even unconscious processing of a stressor, keep cardiovascular activation at high levels. This type of prolonged activation may contribute to, and even account for, the relations between stress exposure and disease."
+  },
+  {
+   "n": 85,
+   "stem": "The theme of the above passage is ...",
+   "options": [
+    "dangers of stress",
+    "after-effects of stress",
+    "physiology of stress",
+    "helping others in distress"
+   ],
+   "direction": "Read the following passage carefully and choose the best answer to each of the questions out of the four alternatives: Adverse after-effects of stress, such as decreases in performance and attention span, often persist long after the stressful event itself is no longer present. After-effects of stress have been observed in response to a wide range of stressors, including noise, high task load, electric shock, bureaucratic stress, crowding, and laboratory-induced stress. Stressors can produce deleterious after-effects on social behavior as well as on cognitive tasks. For example, when people are exposed to avoidable stress, such as noise or crowding, they are less likely to help someone in distress when the stressor is over. In one study, people shopped in a shopping center that was either crowded or uncrowded and were required to purchase a large or a small number of items in a short time. Later, all the shoppers encountered a woman who pretended to have lost a contact lens and who requested help finding it. The people who had had to purchase lots of items in a short time or who had been more crowded were less likely to help the woman than were the people who had had few things to buy and more time to shop or who had shopped in less crowded conditions. In response to many stressful events, there may be prolonged activation of physiological stress responses. That is, instead of returning to baseline when a stressor has ended, physiological responses such as cardiovascular activation may persist over the long term. One possible reason is that psychological processes, such as worry or rumination and even unconscious processing of a stressor, keep cardiovascular activation at high levels. This type of prolonged activation may contribute to, and even account for, the relations between stress exposure and disease."
+  },
+  {
+   "n": 86,
+   "stem": "Antonym for “deleterious” is ...",
+   "options": [
+    "harmful",
+    "damage",
+    "harmless",
+    "adverse"
+   ],
+   "direction": "Read the following passage carefully and choose the best answer to each of the questions out of the four alternatives: Adverse after-effects of stress, such as decreases in performance and attention span, often persist long after the stressful event itself is no longer present. After-effects of stress have been observed in response to a wide range of stressors, including noise, high task load, electric shock, bureaucratic stress, crowding, and laboratory-induced stress. Stressors can produce deleterious after-effects on social behavior as well as on cognitive tasks. For example, when people are exposed to avoidable stress, such as noise or crowding, they are less likely to help someone in distress when the stressor is over. In one study, people shopped in a shopping center that was either crowded or uncrowded and were required to purchase a large or a small number of items in a short time. Later, all the shoppers encountered a woman who pretended to have lost a contact lens and who requested help finding it. The people who had had to purchase lots of items in a short time or who had been more crowded were less likely to help the woman than were the people who had had few things to buy and more time to shop or who had shopped in less crowded conditions. In response to many stressful events, there may be prolonged activation of physiological stress responses. That is, instead of returning to baseline when a stressor has ended, physiological responses such as cardiovascular activation may persist over the long term. One possible reason is that psychological processes, such as worry or rumination and even unconscious processing of a stressor, keep cardiovascular activation at high levels. This type of prolonged activation may contribute to, and even account for, the relations between stress exposure and disease."
+  },
+  {
+   "n": 87,
+   "stem": "Which of the following is true as implied in the passage?",
+   "options": [
+    "noise does not produce stress",
+    "stress do not activate physiology",
+    "stress and disease are related",
+    "a woman pretended to lose her purse"
+   ],
+   "direction": "Read the following passage carefully and choose the best answer to each of the questions out of the four alternatives: Adverse after-effects of stress, such as decreases in performance and attention span, often persist long after the stressful event itself is no longer present. After-effects of stress have been observed in response to a wide range of stressors, including noise, high task load, electric shock, bureaucratic stress, crowding, and laboratory-induced stress. Stressors can produce deleterious after-effects on social behavior as well as on cognitive tasks. For example, when people are exposed to avoidable stress, such as noise or crowding, they are less likely to help someone in distress when the stressor is over. In one study, people shopped in a shopping center that was either crowded or uncrowded and were required to purchase a large or a small number of items in a short time. Later, all the shoppers encountered a woman who pretended to have lost a contact lens and who requested help finding it. The people who had had to purchase lots of items in a short time or who had been more crowded were less likely to help the woman than were the people who had had few things to buy and more time to shop or who had shopped in less crowded conditions. In response to many stressful events, there may be prolonged activation of physiological stress responses. That is, instead of returning to baseline when a stressor has ended, physiological responses such as cardiovascular activation may persist over the long term. One possible reason is that psychological processes, such as worry or rumination and even unconscious processing of a stressor, keep cardiovascular activation at high levels. This type of prolonged activation may contribute to, and even account for, the relations between stress exposure and disease."
+  },
+  {
+   "n": 88,
+   "stem": "Effects of stress includes all except ...",
+   "options": [
+    "decrease in performance",
+    "decrease in attention span",
+    "decrease helping behaviour",
+    "decrease activation of physiological response"
+   ],
+   "direction": "Read the following passage carefully and choose the best answer to each of the questions out of the four alternatives: Adverse after-effects of stress, such as decreases in performance and attention span, often persist long after the stressful event itself is no longer present. After-effects of stress have been observed in response to a wide range of stressors, including noise, high task load, electric shock, bureaucratic stress, crowding, and laboratory-induced stress. Stressors can produce deleterious after-effects on social behavior as well as on cognitive tasks. For example, when people are exposed to avoidable stress, such as noise or crowding, they are less likely to help someone in distress when the stressor is over. In one study, people shopped in a shopping center that was either crowded or uncrowded and were required to purchase a large or a small number of items in a short time. Later, all the shoppers encountered a woman who pretended to have lost a contact lens and who requested help finding it. The people who had had to purchase lots of items in a short time or who had been more crowded were less likely to help the woman than were the people who had had few things to buy and more time to shop or who had shopped in less crowded conditions. In response to many stressful events, there may be prolonged activation of physiological stress responses. That is, instead of returning to baseline when a stressor has ended, physiological responses such as cardiovascular activation may persist over the long term. One possible reason is that psychological processes, such as worry or rumination and even unconscious processing of a stressor, keep cardiovascular activation at high levels. This type of prolonged activation may contribute to, and even account for, the relations between stress exposure and disease."
+  },
+  {
+   "n": 89,
+   "stem": "What does the phrase ‘returning to baseline’ as used in the passage mean?",
+   "options": [
+    "normal",
+    "base",
+    "bottom",
+    "substructure"
+   ],
+   "direction": "Read the following passage carefully and choose the best answer to each of the questions out of the four alternatives: Adverse after-effects of stress, such as decreases in performance and attention span, often persist long after the stressful event itself is no longer present. After-effects of stress have been observed in response to a wide range of stressors, including noise, high task load, electric shock, bureaucratic stress, crowding, and laboratory-induced stress. Stressors can produce deleterious after-effects on social behavior as well as on cognitive tasks. For example, when people are exposed to avoidable stress, such as noise or crowding, they are less likely to help someone in distress when the stressor is over. In one study, people shopped in a shopping center that was either crowded or uncrowded and were required to purchase a large or a small number of items in a short time. Later, all the shoppers encountered a woman who pretended to have lost a contact lens and who requested help finding it. The people who had had to purchase lots of items in a short time or who had been more crowded were less likely to help the woman than were the people who had had few things to buy and more time to shop or who had shopped in less crowded conditions. In response to many stressful events, there may be prolonged activation of physiological stress responses. That is, instead of returning to baseline when a stressor has ended, physiological responses such as cardiovascular activation may persist over the long term. One possible reason is that psychological processes, such as worry or rumination and even unconscious processing of a stressor, keep cardiovascular activation at high levels. This type of prolonged activation may contribute to, and even account for, the relations between stress exposure and disease."
+  },
+  {
+   "n": 90,
+   "stem": "Which of the four words will come in the second place when arranges alphabetically?",
+   "options": [
+    "Rumbustious",
+    "Rumour",
+    "Ruminate",
+    "Rumple"
+   ],
+   "direction": "Read the following passage carefully and choose the best answer to each of the questions out of the four alternatives: Adverse after-effects of stress, such as decreases in performance and attention span, often persist long after the stressful event itself is no longer present. After-effects of stress have been observed in response to a wide range of stressors, including noise, high task load, electric shock, bureaucratic stress, crowding, and laboratory-induced stress. Stressors can produce deleterious after-effects on social behavior as well as on cognitive tasks. For example, when people are exposed to avoidable stress, such as noise or crowding, they are less likely to help someone in distress when the stressor is over. In one study, people shopped in a shopping center that was either crowded or uncrowded and were required to purchase a large or a small number of items in a short time. Later, all the shoppers encountered a woman who pretended to have lost a contact lens and who requested help finding it. The people who had had to purchase lots of items in a short time or who had been more crowded were less likely to help the woman than were the people who had had few things to buy and more time to shop or who had shopped in less crowded conditions. In response to many stressful events, there may be prolonged activation of physiological stress responses. That is, instead of returning to baseline when a stressor has ended, physiological responses such as cardiovascular activation may persist over the long term. One possible reason is that psychological processes, such as worry or rumination and even unconscious processing of a stressor, keep cardiovascular activation at high levels. This type of prolonged activation may contribute to, and even account for, the relations between stress exposure and disease."
+  },
+  {
+   "n": 91,
+   "figureBased": true,
+   "stem": "In the following questions, to continue the same sequence given in the problem figures, choose the correct answer from the four choices given below:",
+   "options": [],
+   "direction": "In the following questions, to continue the same sequence given in the problem figures, choose the correct answer from the four choices given below:"
+  },
+  {
+   "n": 92,
+   "figureBased": true,
+   "stem": "In the following questions, to continue the same sequence given in the problem figures, choose the correct answer from the four choices given below:",
+   "options": [],
+   "direction": "In the following questions, to continue the same sequence given in the problem figures, choose the correct answer from the four choices given below:"
+  },
+  {
+   "n": 93,
+   "figureBased": true,
+   "stem": "In the following questions, to continue the same sequence given in the problem figures, choose the correct answer from the four choices given below:",
+   "options": [],
+   "direction": "In the following questions, to continue the same sequence given in the problem figures, choose the correct answer from the four choices given below:"
+  },
+  {
+   "n": 94,
+   "figureBased": true,
+   "stem": "In the following questions, to continue the same sequence given in the problem figures, choose the correct answer from the four choices given below:",
+   "options": [],
+   "direction": "In the following questions, to continue the same sequence given in the problem figures, choose the correct answer from the four choices given below:"
+  },
+  {
+   "n": 95,
+   "figureBased": true,
+   "stem": "In the following questions, to continue the same sequence given in the problem figures, choose the correct answer from the four choices given below:",
+   "options": [],
+   "direction": "In the following questions, to continue the same sequence given in the problem figures, choose the correct answer from the four choices given below:"
+  },
+  {
+   "n": 96,
+   "stem": "Statements I: Some clocks are green II : Some green are mats Conclusions I: Some green are clocks II : Some mats are green",
+   "options": [
+    "If only conclusion I follows",
+    "If only conclusion II follows",
+    "If either I or II follows",
+    "If both I and II follows"
+   ],
+   "direction": "In each question below are two statements followed by two conclusions numbered I and II. You have to take the given statements to be true even if they seem to be at variance with commonly known facts and then, decide which of the given conclusions logically follow from the given statements."
+  },
+  {
+   "n": 97,
+   "stem": "Statements I: Some shoes are bricks II : Some bricks are tigers Conclusions I: Some shoes are tigers II : Some tigers are bricks",
+   "options": [
+    "If only conclusion I follows",
+    "If only conclusion II follows",
+    "If either I or II follows",
+    "If both I and II follows"
+   ],
+   "direction": "In each question below are two statements followed by two conclusions numbered I and II. You have to take the given statements to be true even if they seem to be at variance with commonly known facts and then, decide which of the given conclusions logically follow from the given statements."
+  },
+  {
+   "n": 98,
+   "stem": "Statements I: Some balls are tanks II : Some tanks are mirrors Conclusions I: Some mirrors are balls II: No ball is mirror",
+   "options": [
+    "If only conclusion I follows",
+    "If only conclusion II follows",
+    "If either I or II follows",
+    "If both I and II follows"
+   ],
+   "direction": "In each question below are two statements followed by two conclusions numbered I and II. You have to take the given statements to be true even if they seem to be at variance with commonly known facts and then, decide which of the given conclusions logically follow from the given statements."
+  },
+  {
+   "n": 99,
+   "stem": "Statements I: Some papers are pens II: Some pencils are pens Conclusions I: Some pens are pencils II: Some pens are papers",
+   "options": [
+    "If only conclusion I follows",
+    "If only conclusion II follows",
+    "If either I or II follows",
+    "If both I and II follows"
+   ],
+   "direction": "In each question below are two statements followed by two conclusions numbered I and II. You have to take the given statements to be true even if they seem to be at variance with commonly known facts and then, decide which of the given conclusions logically follow from the given statements."
+  },
+  {
+   "n": 100,
+   "stem": "Statements I: Some cups are plates II: Some plates are saucers Conclusions I: Some cups are saucers II: Some saucers are plates",
+   "options": [
+    "If only conclusion I follows",
+    "If only conclusion II follows",
+    "If either I or II follows",
+    "If both I and II follows"
+   ],
+   "direction": "In each question below are two statements followed by two conclusions numbered I and II. You have to take the given statements to be true even if they seem to be at variance with commonly known facts and then, decide which of the given conclusions logically follow from the given statements."
+  }
+ ]
+}

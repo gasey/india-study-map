@@ -1,0 +1,41 @@
+#!/usr/bin/env python3
+"""
+Parse the Cooperative Audit Officer (CAO), Dec-2022 papers out of their PDF
+text layer -- same engine as parse_native.py (these are also real
+single-column text-layer PDFs, not scans), kept in a separate output file so
+it never collides with parsed-native.json's existing 11-paper set or
+merge_native.py's PAPER_IDS.
+"""
+import json
+import os
+from parse_native import HERE, ROOT, pdf_text, clean_lines, split_questions, parse_block
+
+PAPERS = [
+    ("CAO2022:English-II", "Direct_2022-2023/General English Paper-II (CAO).pdf", 100),
+    ("CAO2022:GS-I",       "Direct_2022-2023/General Studies Paper-I (CAO).pdf", 100),
+    ("CAO2022:GS-II",      "Direct_2022-2023/General Studies Paper-II (CAO).pdf", 100),
+    ("CAO2022:GS-III",     "Direct_2022-2023/General Studies Paper-III (CAO).pdf", 100),
+]
+
+
+def main():
+    result, totals = {}, [0, 0, 0]
+    for key, rel, expected in PAPERS:
+        blocks = split_questions(clean_lines(pdf_text(f"{ROOT}/{rel}")), expected, key)
+        parsed = [parse_block(b) for b in blocks]
+        bad = [p for p in parsed if "error" in p]
+        fig = [p for p in parsed if p.get("figureBased")]
+        totals[0] += len(parsed); totals[1] += len(bad); totals[2] += len(fig)
+        print(f"{key:16} {len(parsed):4} parsed, {len(bad):3} unparsed, {len(fig):2} figure-based")
+        for p in bad[:6]:
+            print(f"     Q{p['n']}: {p['error']}")
+        result[key] = parsed
+
+    out = os.path.join(HERE, "parsed-cao-2022.json")
+    json.dump(result, open(out, "w"), indent=1, ensure_ascii=False)
+    print(f"\ntotal {totals[0]} parsed, {totals[1]} unparsed, {totals[2]} figure-based")
+    print("wrote", out)
+
+
+if __name__ == "__main__":
+    main()

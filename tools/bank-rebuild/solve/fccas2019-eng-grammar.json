@@ -1,0 +1,509 @@
+[
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q001",
+  "direction": "Name the Part of Speech of the underlined words in the following sentences:",
+  "question": "The sun gives us heat and light.",
+  "options": [
+   "adverb",
+   "conjunction",
+   "interjection",
+   "verb"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q002",
+  "direction": "Name the Part of Speech of the underlined words in the following sentences:",
+  "question": "I am extremely excited for my trip to Greece.",
+  "options": [
+   "adjective",
+   "verb",
+   "adverb",
+   "interjection"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q003",
+  "direction": "Name the Part of Speech of the underlined words in the following sentences:",
+  "question": "The group had breakfast at a café.",
+  "options": [
+   "noun",
+   "adverb",
+   "pronoun",
+   "adjective"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q004",
+  "direction": "Name the Part of Speech of the underlined words in the following sentences:",
+  "question": "I am not strong enough to lift this heavy rucksack.",
+  "options": [
+   "adverb",
+   "noun",
+   "adjective",
+   "pronoun"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q005",
+  "direction": "Name the Part of Speech of the underlined words in the following sentences:",
+  "question": "You have to believe in yourself to succeed.",
+  "options": [
+   "adjective",
+   "pronoun",
+   "verb",
+   "preposition"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q006",
+  "direction": "Name the Part of Speech of the underlined words in the following sentences:",
+  "question": "He exercises regularly yet he is sick.",
+  "options": [
+   "preposition",
+   "conjunction",
+   "adverb",
+   "pronoun"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q007",
+  "direction": "Name the Part of Speech of the underlined words in the following sentences:",
+  "question": "Expensive clothes are worn by celebrities.",
+  "options": [
+   "noun",
+   "verb",
+   "adjective",
+   "adverb"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q008",
+  "direction": "Name the Part of Speech of the underlined words in the following sentences:",
+  "question": "The innocence of these children is often tainted.",
+  "options": [
+   "adjective",
+   "verb",
+   "adverb",
+   "noun"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q009",
+  "direction": "Name the Part of Speech of the underlined words in the following sentences:",
+  "question": "Liana can singvery well.",
+  "options": [
+   "verb",
+   "adverb",
+   "preposition",
+   "conju nction"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q010",
+  "direction": "Name the Part of Speech of the underlined words in the following sentences:",
+  "question": "I have sent for the maid.",
+  "options": [
+   "verb",
+   "preposition",
+   "adjective",
+   "interrogation"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q011",
+  "direction": "Fill in the blanks with the correct form of the verbs:",
+  "question": "Thanga ________ living here for two years.",
+  "options": [
+   "is",
+   "have been",
+   "has been",
+   "has"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q012",
+  "direction": "Fill in the blanks with the correct form of the verbs:",
+  "question": "They ________ on the project at the moment.",
+  "options": [
+   "is working",
+   "working",
+   "be working",
+   "are working"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q013",
+  "direction": "Fill in the blanks with the correct form of the verbs:",
+  "question": "I never ________ Liana anymore.",
+  "options": [
+   "seen",
+   "see",
+   "has seen",
+   "have seen"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q014",
+  "direction": "Fill in the blanks with the correct form of the verbs:",
+  "question": "We ________ a lot of volunteer work.",
+  "options": [
+   "do",
+   "doing",
+   "are do",
+   "does"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q015",
+  "direction": "Fill in the blanks with the correct form of the verbs:",
+  "question": "His company is greatly ________ after.",
+  "options": [
+   "sought",
+   "seeking",
+   "been seeking",
+   "has been seeking"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q016",
+  "direction": "Fill in the blanks with the correct form of the verbs:",
+  "question": "When I saw the child, he ________.",
+  "options": [
+   "cried",
+   "was crying",
+   "is crying",
+   "had cried"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q017",
+  "direction": "Fill in the blanks with the correct form of the verbs:",
+  "question": "I ________ since morning for you.",
+  "options": [
+   "waited",
+   "had wait",
+   "wait",
+   "have been waiting"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q018",
+  "direction": "Fill in the blanks with the correct form of the verbs:",
+  "question": "I________ to my native place a week ago.",
+  "options": [
+   "have went",
+   "will go",
+   "went",
+   "am going"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q019",
+  "direction": "Fill in the blanks with the correct form of the verbs:",
+  "question": "It was hard work carrying the bags. They________ very heavy.",
+  "options": [
+   "were",
+   "will be",
+   "are",
+   "was"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q020",
+  "direction": "Fill in the blanks with the correct form of the verbs:",
+  "question": "How many eggs has your hen ________ today?",
+  "options": [
+   "lay",
+   "been laying",
+   "laid",
+   "laying"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q021",
+  "direction": "Fill in the blanks with appropriate prepositions:",
+  "question": "The sweets were divided ________ the two friends.",
+  "options": [
+   "for",
+   "between",
+   "among"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q022",
+  "direction": "Fill in the blanks with appropriate prepositions:",
+  "question": "The girl was kissed ________ the boy.",
+  "options": [
+   "with",
+   "on",
+   "by"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q023",
+  "direction": "Fill in the blanks with appropriate prepositions:",
+  "question": "They wrote a song ________ the poems.",
+  "options": [
+   "besides",
+   "along",
+   "beside"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q024",
+  "direction": "Fill in the blanks with appropriate prepositions:",
+  "question": "Ravi will arrive ________ the airport in the evening.",
+  "options": [
+   "on",
+   "in",
+   "at"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q025",
+  "direction": "Fill in the blanks with appropriate prepositions:",
+  "question": "Muani has been sick ________ Tuesday.",
+  "options": [
+   "on",
+   "since",
+   "for"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q026",
+  "direction": "Fill in the blanks with appropriate prepositions:",
+  "question": "Thanga will work here ________ the evening.",
+  "options": [
+   "till",
+   "for",
+   "in"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q027",
+  "direction": "Fill in the blanks with appropriate prepositions:",
+  "question": "He kicked the ball ________ the well.",
+  "options": [
+   "at",
+   "in",
+   "into"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q028",
+  "direction": "Fill in the blanks with appropriate prepositions:",
+  "question": "The beggar walked ________ foot.",
+  "options": [
+   "on",
+   "by",
+   "wtih"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q029",
+  "direction": "Fill in the blanks with appropriate prepositions:",
+  "question": "Lincoln was very fond ________ dancing.",
+  "options": [
+   "at",
+   "of",
+   "with"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q030",
+  "direction": "Fill in the blanks with appropriate prepositions:",
+  "question": "I will remain true ________ my promises till I die.",
+  "options": [
+   "to",
+   "with",
+   "of"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q031",
+  "direction": "Name the Tense of the Verb of the following.",
+  "question": "They will cry over the dead.",
+  "options": [
+   "Present Perfect Tense",
+   "Simple Past Tense",
+   "Past Continuous Tense",
+   "Simple Future Tense"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q032",
+  "direction": "Name the Tense of the Verb of the following.",
+  "question": "The students protested against the teachers.",
+  "options": [
+   "Simple Past Tense",
+   "Present Perfect Tense",
+   "Past Perfect Tense",
+   "Future Perfect Tense"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q033",
+  "direction": "Name the Tense of the Verb of the following.",
+  "question": "I love bread and butter.",
+  "options": [
+   "Present Continuous Tense",
+   "Simple Present Tense",
+   "Past Continuous Tense",
+   "Simple Past Tense"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q034",
+  "direction": "Name the Tense of the Verb of the following.",
+  "question": "The girl is crying piteously.",
+  "options": [
+   "Past Contenuous Tense",
+   "Future Perfect Tense",
+   "Present Continuous Tense",
+   "Present Perfect Tense"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q035",
+  "direction": "Name the Tense of the Verb of the following.",
+  "question": "I have finished my work.",
+  "options": [
+   "Present Perfect Tense",
+   "Past Perfect Tense",
+   "Future Perfect Tense",
+   "Simple Present Tense"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q036",
+  "direction": "Name the Tense of the Verb of the following.",
+  "question": "I have been working on my computer for six hours.",
+  "options": [
+   "Present Continuous Tense",
+   "Present Perfect Continuous Tense",
+   "Present Perfect Tense",
+   "Past Perfect Tense"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q037",
+  "direction": "Name the Tense of the Verb of the following.",
+  "question": "She had not realized that the game was over.",
+  "options": [
+   "Present Perfect Tense",
+   "Present Indefinite Tense",
+   "Past Perfect Tense",
+   "Past Indefinite Tense"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q038",
+  "direction": "Name the Tense of the Verb of the following.",
+  "question": "He eats with his left hand.",
+  "options": [
+   "Simple Present Tense",
+   "Present Continuous Tense",
+   "Present Perfect Tense",
+   "Future Indefinite Tense"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q039",
+  "direction": "Name the Tense of the Verb of the following.",
+  "question": "The chief guest addressed the gathering.",
+  "options": [
+   "Present Continuous Tense",
+   "Simple Past Tense",
+   "Past Continuous Tense",
+   "Simple Present Tense"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q040",
+  "direction": "Name the Tense of the Verb of the following.",
+  "question": "They will have learnt their mistakes.",
+  "options": [
+   "Past Perfect Tense",
+   "Future Perfect Tense",
+   "Present Perfect Tense",
+   "Future Indefinite Tense"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q063",
+  "direction": "Synthesize the sentences as directed in the brackets.",
+  "question": "You wait long enough. You will get what you want. (use conjunction)",
+  "options": [
+   "If you wait long enough, you will get what you want.",
+   "You will get what you want for waiting long enough.",
+   "You will get what you want after waiting.",
+   "For waiting long enough, you will get what you want."
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q067",
+  "direction": "Synthesize the sentences as directed in the brackets.",
+  "question": "Do not be a borrower. Do not be a lender. (use conjunction)",
+  "options": [
+   "Do not be a borrower or a lender be.",
+   "Neither a lender nor a borrower be.",
+   "Do not be a lender as well as borrower.",
+   "Neither a lender or a borrower be."
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q092",
+  "direction": "Choose the correct word substitute from the given choices :",
+  "question": "Paraphernalia",
+  "options": [
+   "a person who is always scared",
+   "something mysterious and unclear",
+   "equipment consisting of miscellaneous articles",
+   "a valuable painting"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-gs-i-q076",
+  "direction": null,
+  "question": "The Government of India (GoI) has constituted a Commission under which article of the Constitution to examine sub-categorization of OBCs in the central list?",
+  "options": [
+   "Article 340",
+   "Article 345",
+   "Article 347",
+   "Article 349"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-gs-ii-q022",
+  "direction": null,
+  "question": "Which one of the following Article makes provision for the reservation of SC/ST in government services?",
+  "options": [
+   "Article 322",
+   "Article 335",
+   "Article 337",
+   "Article 338"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-gs-iii-q028",
+  "direction": null,
+  "question": "Which one of the following particles travels at the speed of light?",
+  "options": [
+   "neutrons",
+   "electrons",
+   "photons",
+   "muons"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-gs-iii-q085",
+  "direction": "Three of the words will be in the same classification, one will not be. Choose the word that does NOT belong in the same classification.",
+  "question": "Which word does NOT belong with the others?",
+  "options": [
+   "punctuation",
+   "preposition",
+   "noun",
+   "adverb"
+  ]
+ }
+]

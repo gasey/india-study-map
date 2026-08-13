@@ -587,13 +587,26 @@ function QuestionBankTab({
   corrections: Record<string, Correction>;
 }) {
   const [topicFilter, setTopicFilter] = useState('');
+  const [paperFilter, setPaperFilter] = useState('');
   const [search, setSearch] = useState('');
   const [expanded, setExpanded] = useState<Set<number>>(new Set());
+
+  // Which paper subjects (English-I/II, GS-I/II/III) actually occur in this
+  // bank, in the real exam's sitting order — not every bank has all five.
+  const paperSubjects = useMemo(() => {
+    const present = new Set<string>();
+    questions.forEach((q) => {
+      const subject = questionSitting(q)?.paperSubject;
+      if (subject) present.add(subject);
+    });
+    return PAPER_SUBJECT_ORDER.filter((p) => present.has(p));
+  }, [questions, questionSitting]);
 
   const filtered = useMemo(() => {
     const term = search.trim().toLowerCase();
     return questions.filter((q) => {
       if (topicFilter && q.topic !== topicFilter) return false;
+      if (paperFilter && questionSitting(q)?.paperSubject !== paperFilter) return false;
       if (!term) return true;
       return (
         q.question.toLowerCase().includes(term) ||
@@ -601,7 +614,7 @@ function QuestionBankTab({
         (q.topicLabel ?? '').toLowerCase().includes(term)
       );
     });
-  }, [questions, topicFilter, search]);
+  }, [questions, topicFilter, paperFilter, search, questionSitting]);
 
   const visible = filtered.slice(0, 100);
 
@@ -626,6 +639,17 @@ function QuestionBankTab({
           <option value="">Any topic</option>
           {Object.keys(unitCounts).sort().map((t) => (
             <option key={t} value={t}>{t.replace(/_/g, ' ')} ({unitCounts[t]})</option>
+          ))}
+        </select>
+        <select
+          value={paperFilter}
+          onChange={(e) => setPaperFilter(e.target.value)}
+          className="px-2.5 py-1.5 rounded-md text-sm"
+          style={{ background: 'var(--bg-panel-elev)', border: '1px solid var(--border)', color: 'var(--text-primary)' }}
+        >
+          <option value="">Any paper</option>
+          {paperSubjects.map((p) => (
+            <option key={p} value={p}>{p}</option>
           ))}
         </select>
         <input

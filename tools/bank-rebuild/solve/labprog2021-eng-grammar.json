@@ -1,0 +1,650 @@
+[
+ {
+  "id": "mpsc-labour-officer-2021-english-ii-q001",
+  "direction": "Identify the parts of speech of the underlined words:",
+  "question": "The judge declared him guilty.",
+  "options": [
+   "Noun",
+   "Verb",
+   "Adjective",
+   "Adverb"
+  ]
+ },
+ {
+  "id": "mpsc-labour-officer-2021-english-ii-q002",
+  "direction": "Identify the parts of speech of the underlined words:",
+  "question": "My sister wants to be a teacher.",
+  "options": [
+   "Noun",
+   "Verb",
+   "Adjective",
+   "Adverb"
+  ]
+ },
+ {
+  "id": "mpsc-labour-officer-2021-english-ii-q003",
+  "direction": "Identify the parts of speech of the underlined words:",
+  "question": "Night follows day.",
+  "options": [
+   "Noun",
+   "Verb",
+   "Adjective",
+   "Adverb"
+  ]
+ },
+ {
+  "id": "mpsc-labour-officer-2021-english-ii-q004",
+  "direction": "Identify the parts of speech of the underlined words:",
+  "question": "What did she ask you to do?",
+  "options": [
+   "Adjective",
+   "Pronoun",
+   "Adverb",
+   "Preposition"
+  ]
+ },
+ {
+  "id": "mpsc-labour-officer-2021-english-ii-q005",
+  "direction": "Identify the parts of speech of the underlined words:",
+  "question": "If we finish our work quickly, we can go to the movies.",
+  "options": [
+   "Adjective",
+   "Conjunction",
+   "Adverb",
+   "Preposition"
+  ]
+ },
+ {
+  "id": "mpsc-labour-officer-2021-english-ii-q006",
+  "direction": "Identify the parts of speech of the underlined words:",
+  "question": "I knocked on the door but nobody answered.",
+  "options": [
+   "Adverb",
+   "Conjunction",
+   "Adjective",
+   "Preposition"
+  ]
+ },
+ {
+  "id": "mpsc-labour-officer-2021-english-ii-q007",
+  "direction": "Identify the parts of speech of the underlined words:",
+  "question": "After lunch let’s go out for coffee.",
+  "options": [
+   "Adverb",
+   "Verb",
+   "Noun",
+   "Preposition"
+  ]
+ },
+ {
+  "id": "mpsc-labour-officer-2021-english-ii-q008",
+  "direction": "Identify the parts of speech of the underlined words:",
+  "question": "This wood will make a good hiding place.",
+  "options": [
+   "Verb",
+   "Adverb",
+   "Adjective",
+   "Noun"
+  ]
+ },
+ {
+  "id": "mpsc-labour-officer-2021-english-ii-q009",
+  "direction": "Identify the parts of speech of the underlined words:",
+  "question": "She was made to repeat the whole story.",
+  "options": [
+   "Verb",
+   "Adverb",
+   "Adjective",
+   "Noun"
+  ]
+ },
+ {
+  "id": "mpsc-labour-officer-2021-english-ii-q010",
+  "direction": "Identify the parts of speech of the underlined words:",
+  "question": "Can you make me a cake by Monday?",
+  "options": [
+   "Verb",
+   "Adverb",
+   "Pronoun"
+  ]
+ },
+ {
+  "id": "mpsc-labour-officer-2021-english-ii-q021",
+  "direction": "Choose the correct conjunctions from the options:",
+  "question": "I did not go to the show _________ I had already seen it.",
+  "options": [
+   "until",
+   "because",
+   "so",
+   "but"
+  ]
+ },
+ {
+  "id": "mpsc-labour-officer-2021-english-ii-q022",
+  "direction": "Choose the correct conjunctions from the options:",
+  "question": "_________ he is thin, he is strong.",
+  "options": [
+   "but",
+   "as",
+   "though",
+   "because"
+  ]
+ },
+ {
+  "id": "mpsc-labour-officer-2021-english-ii-q023",
+  "direction": "Choose the correct conjunctions from the options:",
+  "question": "He was rich _________ not contented.",
+  "options": [
+   "and",
+   "but",
+   "so",
+   "though"
+  ]
+ },
+ {
+  "id": "mpsc-labour-officer-2021-english-ii-q024",
+  "direction": "Choose the correct conjunctions from the options:",
+  "question": "He must participate _________ he will be fined.",
+  "options": [
+   "as",
+   "but",
+   "or",
+   "and"
+  ]
+ },
+ {
+  "id": "mpsc-labour-officer-2021-english-ii-q025",
+  "direction": "Choose the correct conjunctions from the options:",
+  "question": "He must be punished _________ he is guilty.",
+  "options": [
+   "so",
+   "because",
+   "but",
+   "though"
+  ]
+ },
+ {
+  "id": "mpsc-labour-officer-2021-english-ii-q026",
+  "direction": "Choose the correct conjunctions from the options:",
+  "question": "You will not get the prize _________ you deserve it.",
+  "options": [
+   "if",
+   "whether",
+   "unless",
+   "until"
+  ]
+ },
+ {
+  "id": "mpsc-labour-officer-2021-english-ii-q027",
+  "direction": "Choose the correct conjunctions from the options:",
+  "question": "The kidnappers will not release the child _________ the parents do not pay the ransom.",
+  "options": [
+   "if",
+   "or",
+   "when",
+   "but"
+  ]
+ },
+ {
+  "id": "mpsc-labour-officer-2021-english-ii-q028",
+  "direction": "Choose the correct conjunctions from the options:",
+  "question": "_________ he was not invited, he did not come.",
+  "options": [
+   "so",
+   "as",
+   "for",
+   "that"
+  ]
+ },
+ {
+  "id": "mpsc-labour-officer-2021-english-ii-q029",
+  "direction": "Choose the correct conjunctions from the options:",
+  "question": "Give every man thy ear, _________ few thy voice.",
+  "options": [
+   "but",
+   "as",
+   "for",
+   "and"
+  ]
+ },
+ {
+  "id": "mpsc-labour-officer-2021-english-ii-q030",
+  "direction": "Choose the correct conjunctions from the options:",
+  "question": "Either you are mistaken, _________ I am.",
+  "options": [
+   "and",
+   "nor",
+   "or",
+   "but"
+  ]
+ },
+ {
+  "id": "mpsc-labour-officer-2021-english-ii-q031",
+  "direction": "Choose the correct prepositions from the given options :",
+  "question": "We went to Manali _________ train.",
+  "options": [
+   "on",
+   "in",
+   "by",
+   "with"
+  ]
+ },
+ {
+  "id": "mpsc-labour-officer-2021-english-ii-q032",
+  "direction": "Choose the correct prepositions from the given options :",
+  "question": "The train went _________ the tunnel.",
+  "options": [
+   "to",
+   "into",
+   "in",
+   "through"
+  ]
+ },
+ {
+  "id": "mpsc-labour-officer-2021-english-ii-q033",
+  "direction": "Choose the correct prepositions from the given options :",
+  "question": "The moon is a barren, rocky world _________ air and water.",
+  "options": [
+   "with",
+   "of",
+   "without",
+   "in"
+  ]
+ },
+ {
+  "id": "mpsc-labour-officer-2021-english-ii-q034",
+  "direction": "Choose the correct prepositions from the given options :",
+  "question": "Students are responsible _________ any kind of irresponsible behaviour.",
+  "options": [
+   "of",
+   "for",
+   "to",
+   "with"
+  ]
+ },
+ {
+  "id": "mpsc-labour-officer-2021-english-ii-q035",
+  "direction": "Choose the correct prepositions from the given options :",
+  "question": "My brother’s birthday is _________ 22nd May.",
+  "options": [
+   "on",
+   "in",
+   "at",
+   "from"
+  ]
+ },
+ {
+  "id": "mpsc-labour-officer-2021-english-ii-q036",
+  "direction": "Choose the correct prepositions from the given options :",
+  "question": "I will finish this work _________ today evening.",
+  "options": [
+   "on",
+   "at",
+   "by",
+   "for"
+  ]
+ },
+ {
+  "id": "mpsc-labour-officer-2021-english-ii-q037",
+  "direction": "Choose the correct prepositions from the given options :",
+  "question": "I have been waiting for you _________ two hours.",
+  "options": [
+   "for",
+   "since",
+   "from",
+   "in"
+  ]
+ },
+ {
+  "id": "mpsc-labour-officer-2021-english-ii-q038",
+  "direction": "Choose the correct prepositions from the given options :",
+  "question": "His thoughts are identical _________ mine.",
+  "options": [
+   "as",
+   "to",
+   "with",
+   "for"
+  ]
+ },
+ {
+  "id": "mpsc-labour-officer-2021-english-ii-q039",
+  "direction": "Choose the correct prepositions from the given options :",
+  "question": "He was sitting with his back _________ me.",
+  "options": [
+   "from",
+   "to",
+   "in",
+   "towards"
+  ]
+ },
+ {
+  "id": "mpsc-labour-officer-2021-english-ii-q040",
+  "direction": "Choose the correct prepositions from the given options :",
+  "question": "He is prepared _________ the examinations.",
+  "options": [
+   "for",
+   "to",
+   "from",
+   "with"
+  ]
+ },
+ {
+  "id": "mpsc-programme-co-ordinator-2021-english-ii-q015",
+  "direction": "Identify the parts of speech of each underlined words:",
+  "question": "The whole sum was expended",
+  "options": [
+   "Adverb",
+   "Pronoun",
+   "Noun",
+   "Adjective"
+  ]
+ },
+ {
+  "id": "mpsc-programme-co-ordinator-2021-english-ii-q016",
+  "direction": "Identify the parts of speech of each underlined words:",
+  "question": "This is the path by which he came",
+  "options": [
+   "Adverb",
+   "Pronoun",
+   "Noun",
+   "Adjective"
+  ]
+ },
+ {
+  "id": "mpsc-programme-co-ordinator-2021-english-ii-q017",
+  "direction": "Identify the parts of speech of each underlined words:",
+  "question": "I believe in his innocence",
+  "options": [
+   "Adverb",
+   "Pronoun",
+   "Noun",
+   "Adjective"
+  ]
+ },
+ {
+  "id": "mpsc-programme-co-ordinator-2021-english-ii-q018",
+  "direction": "Identify the parts of speech of each underlined words:",
+  "question": "Go and run about",
+  "options": [
+   "Adverb",
+   "Pronoun",
+   "Noun",
+   "Adjective"
+  ]
+ },
+ {
+  "id": "mpsc-programme-co-ordinator-2021-english-ii-q019",
+  "direction": "Identify the parts of speech of each underlined words:",
+  "question": "There was none but wept",
+  "options": [
+   "Adverb",
+   "Pronoun",
+   "Interjection",
+   "Adjective"
+  ]
+ },
+ {
+  "id": "mpsc-programme-co-ordinator-2021-english-ii-q020",
+  "direction": "Identify the parts of speech of each underlined words:",
+  "question": "Never will I see her again",
+  "options": [
+   "Adverb",
+   "Pronoun",
+   "Noun",
+   "Adjective"
+  ]
+ },
+ {
+  "id": "mpsc-programme-co-ordinator-2021-english-ii-q021",
+  "direction": "Identify the parts of speech of each underlined words:",
+  "question": "It is her vanity box",
+  "options": [
+   "Adverb",
+   "Pronoun",
+   "Noun",
+   "Adjective"
+  ]
+ },
+ {
+  "id": "mpsc-programme-co-ordinator-2021-english-ii-q022",
+  "direction": "Identify the parts of speech of each underlined words:",
+  "question": "Out sprang the cuckoo",
+  "options": [
+   "Adverb",
+   "Pronoun",
+   "Noun",
+   "Adjective"
+  ]
+ },
+ {
+  "id": "mpsc-programme-co-ordinator-2021-english-ii-q023",
+  "direction": "Identify the parts of speech of each underlined words:",
+  "question": "You have no sense",
+  "options": [
+   "Adverb",
+   "Adjective",
+   "Noun",
+   "Infinitive"
+  ]
+ },
+ {
+  "id": "mpsc-programme-co-ordinator-2021-english-ii-q024",
+  "direction": "Identify the parts of speech of each underlined words:",
+  "question": "He lost his all in speculation",
+  "options": [
+   "Adverb",
+   "Adjective",
+   "Noun",
+   "Conjunction"
+  ]
+ },
+ {
+  "id": "mpsc-programme-co-ordinator-2021-english-ii-q035",
+  "direction": "Choose the correct preposition from the alternatives given below each sentence.",
+  "question": "India is beset _________ many problems these days",
+  "options": [
+   "by",
+   "for",
+   "with",
+   "of"
+  ]
+ },
+ {
+  "id": "mpsc-programme-co-ordinator-2021-english-ii-q036",
+  "direction": "Choose the correct preposition from the alternatives given below each sentence.",
+  "question": "Newly acquired freedom is sometimes liable _________ abuse",
+  "options": [
+   "to",
+   "with",
+   "for",
+   "in"
+  ]
+ },
+ {
+  "id": "mpsc-programme-co-ordinator-2021-english-ii-q037",
+  "direction": "Choose the correct preposition from the alternatives given below each sentence.",
+  "question": "He threw the book _________ the table",
+  "options": [
+   "onto",
+   "on",
+   "at",
+   "upon"
+  ]
+ },
+ {
+  "id": "mpsc-programme-co-ordinator-2021-english-ii-q038",
+  "direction": "Choose the correct preposition from the alternatives given below each sentence.",
+  "question": "The goat subsists_________ the coarsest of food",
+  "options": [
+   "on",
+   "with",
+   "to",
+   "by"
+  ]
+ },
+ {
+  "id": "mpsc-programme-co-ordinator-2021-english-ii-q039",
+  "direction": "Choose the correct preposition from the alternatives given below each sentence.",
+  "question": "Some films are an incitement _________ crime",
+  "options": [
+   "of",
+   "to",
+   "with",
+   "for"
+  ]
+ },
+ {
+  "id": "mpsc-programme-co-ordinator-2021-english-ii-q040",
+  "direction": "Choose the correct preposition from the alternatives given below each sentence.",
+  "question": "There is a room _________ the back of the house (as part of)",
+  "options": [
+   "by",
+   "in",
+   "on",
+   "behind"
+  ]
+ },
+ {
+  "id": "mpsc-programme-co-ordinator-2021-english-ii-q041",
+  "direction": "Choose the correct preposition from the alternatives given below each sentence.",
+  "question": "“Who is waiting _________ this table?” the customer asked",
+  "options": [
+   "for",
+   "on",
+   "in",
+   "at"
+  ]
+ },
+ {
+  "id": "mpsc-programme-co-ordinator-2021-english-ii-q042",
+  "direction": "Choose the correct preposition from the alternatives given below each sentence.",
+  "question": "Peter’s speech pointed _________ some of our defects",
+  "options": [
+   "at",
+   "to",
+   "on",
+   "towards"
+  ]
+ },
+ {
+  "id": "mpsc-programme-co-ordinator-2021-english-ii-q043",
+  "direction": "Choose the correct preposition from the alternatives given below each sentence.",
+  "question": "The officials have the habit of fawning _________ the ministers",
+  "options": [
+   "over",
+   "at",
+   "above",
+   "on"
+  ]
+ },
+ {
+  "id": "mpsc-programme-co-ordinator-2021-english-ii-q047",
+  "direction": "Choose the correct transformation as directed, from the options given below each sentence :",
+  "question": "He set traps every night. He cleared his house of rats (Use Preposition)",
+  "options": [
+   "He set traps every night to clear his house of rats",
+   "By setting traps every night he cleared his house of rats",
+   "Rats were cleared because of traps",
+   "He cleared his house of rats with traps"
+  ]
+ },
+ {
+  "id": "mpsc-programme-co-ordinator-2021-english-ii-q055",
+  "direction": null,
+  "question": "The sight will gladden him (Passive Voice)",
+  "options": [
+   "The sight will be glad to him",
+   "He is glad to see the sight",
+   "He will gladdened the sight",
+   "He will be gladdened by the sight"
+  ]
+ },
+ {
+  "id": "mpsc-programme-co-ordinator-2021-english-ii-q057",
+  "direction": null,
+  "question": "The invigilator was reading out the instructions (Passive Voice)",
+  "options": [
+   "The instruction was read out by the invigilator",
+   "The instructions had been read out by the invigilator",
+   "The instructions was been read out by the invigilator",
+   "The instructions were being read out by the invigilator"
+  ]
+ },
+ {
+  "id": "mpsc-programme-co-ordinator-2021-english-ii-q097",
+  "direction": "Choose the right article from the given alternatives if necessary:",
+  "question": "He always takes a heavy breakfast because he generally skips _________ lunch",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "not necessary"
+  ]
+ },
+ {
+  "id": "mpsc-programme-co-ordinator-2021-english-ii-q098",
+  "direction": "Choose the right article from the given alternatives if necessary:",
+  "question": "It is never _________ thankful office to offer advice",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "not necessary"
+  ]
+ },
+ {
+  "id": "mpsc-programme-co-ordinator-2021-english-ii-q099",
+  "direction": "Choose the right article from the given alternatives if necessary:",
+  "question": "Men are too often led astray by _________ prejudice",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "not necessary"
+  ]
+ },
+ {
+  "id": "mpsc-programme-co-ordinator-2021-english-ii-q100",
+  "direction": "Choose the right article from the given alternatives if necessary:",
+  "question": "Time makes _________ most enemies friends",
+  "options": [
+   "a",
+   "an",
+   "the",
+   "not necessary"
+  ]
+ },
+ {
+  "id": "mpsc-programme-co-ordinator-2021-gs-ii-q017",
+  "direction": null,
+  "question": "The boundary of a State in India can be altered through the procedure laid down in the Article-",
+  "options": [
+   "3",
+   "70",
+   "130",
+   "368"
+  ]
+ },
+ {
+  "id": "mpsc-programme-co-ordinator-2021-gs-ii-q028",
+  "direction": null,
+  "question": "Which one of the following statements regarding the Judicial review in India is not correct?",
+  "options": [
+   "A case must be brought before the Supreme Court regarding the validity of the law",
+   "Unanimous opinion of all the judges is necessary for declaring a law null and void",
+   "Legislative enactments and executive orders may be struck down by the Supreme Court",
+   "This power is implicit in the provisions of Article 13 of the Constitution"
+  ]
+ },
+ {
+  "id": "mpsc-programme-co-ordinator-2021-gs-iii-q011",
+  "direction": null,
+  "question": "Bosons, subatomic particles, are named after",
+  "options": [
+   "Satyendra Nath Bose",
+   "Subhas Chandra Bose",
+   "Jagadish Chandra Bose",
+   "Amar Bose"
+  ]
+ }
+]

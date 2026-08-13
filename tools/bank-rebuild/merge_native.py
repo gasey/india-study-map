@@ -36,7 +36,96 @@ PAPER_IDS = {
     "2021:GS-I":       "mpsc-inspector-of-excise-&-narcotics-2021-gs-i",
     "2021:GS-II":      "mpsc-inspector-of-excise-&-narcotics-2021-gs-ii",
     "2021:GS-III":     "mpsc-inspector-of-excise-&-narcotics-2021-gs-iii",
+    "FCCAS2019:English-II": "mpsc-fccas-inspector-2019-english-ii",
+    "FCCAS2019:GS-I":       "mpsc-fccas-inspector-2019-gs-i",
+    "FCCAS2019:GS-II":      "mpsc-fccas-inspector-2019-gs-ii",
+    "FCCAS2019:GS-III":     "mpsc-fccas-inspector-2019-gs-iii",
+    "Labour2021:English-II": "mpsc-labour-officer-2021-english-ii",
+    "Labour2021:GS-I":       "mpsc-labour-officer-2021-gs-i",
+    "Labour2021:GS-II":      "mpsc-labour-officer-2021-gs-ii",
+    "Labour2021:GS-III":     "mpsc-labour-officer-2021-gs-iii",
+    "ProgCo2021:English-II": "mpsc-programme-co-ordinator-2021-english-ii",
+    "ProgCo2021:GS-I":       "mpsc-programme-co-ordinator-2021-gs-i",
+    "ProgCo2021:GS-II":      "mpsc-programme-co-ordinator-2021-gs-ii",
+    "ProgCo2021:GS-III":     "mpsc-programme-co-ordinator-2021-gs-iii",
 }
+
+# Same reasoning as merge.py's NEW_PAPERS: this sitting never had a prior
+# bank record, so its ExamPaper entries must be injected here.
+NEW_PAPERS = [
+    {
+        "id": "mpsc-fccas-inspector-2019-english-ii",
+        "examType": "Direct", "examName": "Grade-V of Mizoram FCS&CAS (Inspector)",
+        "paperNumber": "II", "paperSubject": "English-II", "year": 2019,
+        "sourceFile": "Old_Questions/Direct_2019-2020/Inspector under F,CS & CA Dept-2019, General English Paper II..pdf",
+    },
+    {
+        "id": "mpsc-fccas-inspector-2019-gs-i",
+        "examType": "Direct", "examName": "Grade-V of Mizoram FCS&CAS (Inspector)",
+        "paperNumber": "I", "paperSubject": "GS-I", "year": 2019,
+        "sourceFile": "Old_Questions/Direct_2019-2020/Inspector under F,CS & CA Dept-2019, General Studies Paper I..pdf",
+    },
+    {
+        "id": "mpsc-fccas-inspector-2019-gs-ii",
+        "examType": "Direct", "examName": "Grade-V of Mizoram FCS&CAS (Inspector)",
+        "paperNumber": "II", "paperSubject": "GS-II", "year": 2019,
+        "sourceFile": "Old_Questions/Direct_2019-2020/Inspector under F,CS & CA Dept-2019, General Studies Paper II..pdf",
+    },
+    {
+        "id": "mpsc-fccas-inspector-2019-gs-iii",
+        "examType": "Direct", "examName": "Grade-V of Mizoram FCS&CAS (Inspector)",
+        "paperNumber": "III", "paperSubject": "GS-III", "year": 2019,
+        "sourceFile": "Old_Questions/Direct_2019-2020/Inspector under F,CS & CA Dept-2019, General Studies Paper III..pdf",
+    },
+    {
+        "id": "mpsc-labour-officer-2021-english-ii",
+        "examType": "Direct", "examName": "Labour Officer",
+        "paperNumber": "II", "paperSubject": "English-II", "year": 2021,
+        "sourceFile": "Old_Questions/Direct_2021-2022/Labour Officer under LESD&E Dept. - General English-II.pdf",
+    },
+    {
+        "id": "mpsc-labour-officer-2021-gs-i",
+        "examType": "Direct", "examName": "Labour Officer",
+        "paperNumber": "I", "paperSubject": "GS-I", "year": 2021,
+        "sourceFile": "Old_Questions/Direct_2021-2022/Labour Officer under LESD&E Dept. - General Studies-I.pdf",
+    },
+    {
+        "id": "mpsc-labour-officer-2021-gs-ii",
+        "examType": "Direct", "examName": "Labour Officer",
+        "paperNumber": "II", "paperSubject": "GS-II", "year": 2021,
+        "sourceFile": "Old_Questions/Direct_2021-2022/Labour Officer under LESD&E Dept. - General Studies-II.pdf",
+    },
+    {
+        "id": "mpsc-labour-officer-2021-gs-iii",
+        "examType": "Direct", "examName": "Labour Officer",
+        "paperNumber": "III", "paperSubject": "GS-III", "year": 2021,
+        "sourceFile": "Old_Questions/Direct_2021-2022/Labour Officer under LESD&E Dept. - General Studies-III.pdf",
+    },
+    {
+        "id": "mpsc-programme-co-ordinator-2021-english-ii",
+        "examType": "Direct", "examName": "Programme Co-ordinator",
+        "paperNumber": "II", "paperSubject": "English-II", "year": 2021,
+        "sourceFile": "Old_Questions/Direct_2021-2022/Programme Co-ordinator under A&C Deptt. General English-II.pdf",
+    },
+    {
+        "id": "mpsc-programme-co-ordinator-2021-gs-i",
+        "examType": "Direct", "examName": "Programme Co-ordinator",
+        "paperNumber": "I", "paperSubject": "GS-I", "year": 2021,
+        "sourceFile": "Old_Questions/Direct_2021-2022/Programme Co-ordinator under A&C Deptt. General Studies-I.pdf",
+    },
+    {
+        "id": "mpsc-programme-co-ordinator-2021-gs-ii",
+        "examType": "Direct", "examName": "Programme Co-ordinator",
+        "paperNumber": "II", "paperSubject": "GS-II", "year": 2021,
+        "sourceFile": "Old_Questions/Direct_2021-2022/Programme Co-ordinator under A&C Deptt. General Studies-II.pdf",
+    },
+    {
+        "id": "mpsc-programme-co-ordinator-2021-gs-iii",
+        "examType": "Direct", "examName": "Programme Co-ordinator",
+        "paperNumber": "III", "paperSubject": "GS-III", "year": 2021,
+        "sourceFile": "Old_Questions/Direct_2021-2022/Programme Co-ordinator under A&C Deptt. General Studies-III.pdf",
+    },
+]
 
 TOPIC_LABELS = {
     "gs1_history": "Modern Indian History",
@@ -115,6 +204,16 @@ PAPER_DEFAULT = {
     "GS-III": "gs3_scitech",
 }
 
+# A handful of new (never-before-in-the-bank) questions have short, generic
+# stems that happen to fuzzy-match (SequenceMatcher >= 0.78) an unrelated old
+# question elsewhere in the bank, incorrectly inheriting that old question's
+# topic. Confirmed by inspecting the actual question content: neither is an
+# English item despite landing in eng_sentence.
+TOPIC_OVERRIDES = {
+    "mpsc-labour-officer-2021-gs-ii-q085": "gs2_geography",  # who coined 'Jet Stream'
+    "mpsc-labour-officer-2021-gs-iii-q028": "gs3_scitech",   # cyber terrorism / IT Act 2000
+}
+
 
 def classify(stem, options, direction, fallback, paper_key=""):
     text = f"{direction or ''} {stem} {' '.join(options)}".lower()
@@ -156,7 +255,29 @@ def load_parsed():
         out["2016:GS-III"] = json.load(open(scan))
     else:
         print("  (parsed-2016-GS-III.json absent — that paper will be left as-is)")
+    fccas = os.path.join(HERE, "parsed-fccas-2019.json")
+    if os.path.exists(fccas):
+        out.update(json.load(open(fccas)))
+    else:
+        print("  (parsed-fccas-2019.json absent — skipping FC&CAS-2019)")
+    labour = os.path.join(HERE, "parsed-labour-2021.json")
+    if os.path.exists(labour):
+        out.update(json.load(open(labour)))
+    else:
+        print("  (parsed-labour-2021.json absent — skipping Labour Officer 2021)")
+    progco = os.path.join(HERE, "parsed-progco-2021.json")
+    if os.path.exists(progco):
+        out.update(json.load(open(progco)))
+    else:
+        print("  (parsed-progco-2021.json absent — skipping Programme Co-ordinator 2021)")
     return out
+
+
+def year_of(key):
+    """Extract the sitting year from a paper_key prefix: '2016:GS-I' -> 2016,
+    'FCCAS2019:GS-I' -> 2019. Generic so new prefixes don't need a new branch."""
+    m = re.search(r"(\d{4})$", key.split(":")[0])
+    return int(m.group(1)) if m else None
 
 
 def apply_underlines(parsed):
@@ -200,7 +321,7 @@ def main():
         paper_id = PAPER_IDS[key]
         rebuilt_ids.add(paper_id)
         olds = old_by_paper.get(paper_id, [])
-        year = int(key.split(":")[0])
+        year = year_of(key)
 
         for q in qs:
             if q.get("unreadable"):
@@ -253,9 +374,12 @@ def main():
                     rec["tags"] = matched["tags"]
             else:
                 stats["no_match"] += 1
-            topic = classify(rec["question"], opts, q.get("direction"),
-                             (matched.get("topic") if matched else None) or "other",
-                             key)
+            if rec["id"] in TOPIC_OVERRIDES:
+                topic = TOPIC_OVERRIDES[rec["id"]]
+            else:
+                topic = classify(rec["question"], opts, q.get("direction"),
+                                 (matched.get("topic") if matched else None) or "other",
+                                 key)
             rec["topic"] = topic
             rec["topicLabel"] = TOPIC_LABELS.get(topic, "General")
             rec["subject"] = SUBJECT_OF_TOPIC.get(topic, "gk")
@@ -302,10 +426,16 @@ def main():
 
     kept = [q for q in bank["questions"] if q.get("paperId") not in rebuilt_ids]
     bank["questions"] = kept + new_questions
+
+    existing_paper_ids = {p["id"] for p in bank.get("papers", [])}
+    added_papers = [p for p in NEW_PAPERS if p["id"] not in existing_paper_ids]
+    bank.setdefault("papers", []).extend(added_papers)
+
     json.dump(bank, open(os.path.join(HERE, "bank-rebuilt.json"), "w"),
               indent=1, ensure_ascii=False)
 
     print(f"kept {len(kept)}, rebuilt {len(new_questions)} across {len(rebuilt_ids)} papers")
+    print(f"  new ExamPaper entries added   : {len(added_papers)}")
     print(f"  underlined words marked      : {n_marked}")
     print(f"  answers carried (text-matched): {stats['carried_answer']}")
     print(f"  answers DROPPED (text moved)  : {stats['dropped_answer']}")

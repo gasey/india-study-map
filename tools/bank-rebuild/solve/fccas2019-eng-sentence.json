@@ -1,0 +1,332 @@
+[
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q041",
+  "direction": "Transform the following sentences by changing the degrees of comparison of the adjectives.",
+  "question": "Lead is heavier than any other metal.",
+  "options": [
+   "No other metal is heavy as lead.",
+   "No other metal is more heavy as lead.",
+   "No other metal is as heavy as lead.",
+   "No metal is heavy to lead."
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q042",
+  "direction": "Transform the following sentences by changing the degrees of comparison of the adjectives.",
+  "question": "The pen is mightier than the sword.",
+  "options": [
+   "The sword is as mighty as the pen.",
+   "The sword is not as mighty as the pen.",
+   "The sword is mightier than the pen.",
+   "The sword is mightiest than the pen."
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q043",
+  "direction": "Transform the following sentences by changing the degrees of comparison of the adjectives.",
+  "question": "Truthfulness is the greatest virtue.",
+  "options": [
+   "No other virtue is greater like truthfulness.",
+   "No other virtue like truthfulness is great.",
+   "No other virtue is greatest like truthfulness.",
+   "No other virtue is as great as truthfulness."
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q044",
+  "direction": "Transform the following sentences by changing the degrees of comparison of the adjectives.",
+  "question": "Air is lighter than water.",
+  "options": [
+   "Water is as light as air.",
+   "Water is not as light as air.",
+   "Water is not lightest as air.",
+   "Water is not light like air."
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q045",
+  "direction": "Transform the following sentences by changing the degrees of comparison of the adjectives.",
+  "question": "Apples are not as sweet as mangoes.",
+  "options": [
+   "Mangoes are sweeter than apples.",
+   "Mangoes are sweetest than apples.",
+   "Mangoes are sweeter like apples.",
+   "Apples are not sweetest like mangoes."
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q046",
+  "direction": "Transform the following sentences as directed:",
+  "question": "This medicine is cheap. (to negative)",
+  "options": [
+   "This medicine is not cheap.",
+   "This medicine is not expensive.",
+   "This medicine is not as expensive .",
+   "This medicine is not cheaper."
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q047",
+  "direction": "Transform the following sentences as directed:",
+  "question": "When can their glory fade? (to assertive)",
+  "options": [
+   "Their glory can never fade.",
+   "Can their glory ever fade?",
+   "Their glory is never faded.",
+   "Their glory is ever fading."
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q048",
+  "direction": "Transform the following sentences as directed:",
+  "question": "I was not sure of your success. (to affirmative)",
+  "options": [
+   "I was sure of your success.",
+   "I wasn’t sure you will succeed.",
+   "Your success cannot be denied.",
+   "I was doubtful of your success."
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q049",
+  "direction": "Transform the following sentences as directed:",
+  "question": "He is not always wise. (to affirmative)",
+  "options": [
+   "He is foolish.",
+   "He is mostly foolish than wise.",
+   "He is sometimes foolish.",
+   "He is wiser than foolish."
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q050",
+  "direction": "Transform the following sentences as directed:",
+  "question": "Virtue is its own reward. (to interrogative)",
+  "options": [
+   "Is not virtue a reward?",
+   "Is not reward a virtue?",
+   "Is not virtue its own reward?",
+   "Is not virtue rewarded?"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q051",
+  "direction": "Convert the given sentences as directed in the brackets:",
+  "question": "He is rich, yet he is not happy. (to simple)",
+  "options": [
+   "He is rich, not happy.",
+   "In spite of being rich, he is not happy.",
+   "In spite of being happy, he is not rich.",
+   "He is not happy though he is rich."
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q052",
+  "direction": "Convert the given sentences as directed in the brackets:",
+  "question": "Besides being beautiful, she is intelligent. (to compound)",
+  "options": [
+   "She is beautiful, intelligent girl.",
+   "She is beautiful and intelligent.",
+   "She is not only beautiful but also intelligent.",
+   "Thought beautiful, she is intelligent."
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q053",
+  "direction": "Convert the given sentences as directed in the brackets:",
+  "question": "He fled for fear of being arrested. (to compound)",
+  "options": [
+   "He feared that he would be arrested and fled.",
+   "He fled as he feared being arrested.",
+   "He is fleeing to not be arrested.",
+   "He feared being arrested."
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q054",
+  "direction": "Convert the given sentences as directed in the brackets:",
+  "question": "The old man sat in a corner and drank. (to simple)",
+  "options": [
+   "The old man sat in a corner to drink.",
+   "The old man drank in a corner and sat.",
+   "The old man sat and drank.",
+   "The old man sat in a corner , drinking."
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q055",
+  "direction": "Convert the given sentences as directed in the brackets:",
+  "question": "Being ill, he didn’t attend the party. (to compound)",
+  "options": [
+   "He was too ill to attend the party.",
+   "He was ill and didn’t attend the party.",
+   "He did not attend the party as he was ill.",
+   "He attended the party ill."
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q056",
+  "direction": "Convert the given sentences as directed in the brackets:",
+  "question": "Leprosy is curable and everybody knows this. (to complex)",
+  "options": [
+   "Leprosy is curable.",
+   "It is known that leprosy has been curable.",
+   "Leprosy is now curable.",
+   "Everybody knows that leprosy is curable."
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q057",
+  "direction": "Convert the given sentences as directed in the brackets:",
+  "question": "If you buy two shirts you get one free. (to compound)",
+  "options": [
+   "Buy two to get one free shirt.",
+   "Buy two shirts for one free.",
+   "Buy two shirts and get one free.",
+   "To get one free shirt buy two."
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q058",
+  "direction": "Convert the given sentences as directed in the brackets:",
+  "question": "Hearing the noise, the boy woke up. (to complex)",
+  "options": [
+   "The boy woke up when he heard the noise.",
+   "The boy heard the noise and woke up.",
+   "The boy woke up to hear the noise.",
+   "The boy heard the noise , woke up."
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q059",
+  "direction": "Convert the given sentences as directed in the brackets:",
+  "question": "As he was deceived by his friends, he lost all hope. (to simple)",
+  "options": [
+   "Being deceived by his friends made him lose hope.",
+   "He lost hope because his friends deceived him.",
+   "Deceived by his friends, he lost all hope.",
+   "His friends made him lose hope."
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q060",
+  "direction": "Convert the given sentences as directed in the brackets:",
+  "question": "Speak the truth or I will arrest you. (to complex)",
+  "options": [
+   "I will arrest you, so please tell the truth.",
+   "I will arrest you if you don’t speak the truth.",
+   "You will be arrested for not speaking the truth.",
+   "Speak the truth unless you be arrested."
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q061",
+  "direction": "Synthesize the sentences as directed in the brackets.",
+  "question": "He deserved to succeed. He failed. (adverb or adverbial phrase)",
+  "options": [
+   "He deserved to succeed but failed.",
+   "He failed undeservedly.",
+   "He deservedly should succeed but failed.",
+   "He deserves to succeed and failed."
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q062",
+  "direction": "Synthesize the sentences as directed in the brackets.",
+  "question": "The proposal is quite unreasonable. It cannot be accepted. (to / too)",
+  "options": [
+   "The proposal is to unreasonable too be accepted.",
+   "The proposal too be accepted is to unreasonable.",
+   "The proposal is too unreasonable to be accepted.",
+   "To be accepted the proposal is too weak."
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q064",
+  "direction": "Synthesize the sentences as directed in the brackets.",
+  "question": "The mason was tired of work. He sat down to rest. (use a participle)",
+  "options": [
+   "Tiredly, the mason sat down to rest.",
+   "The mason sat down to rest as he was tired of working.",
+   "Tired of work, the mason sat down to rest.",
+   "The mason was tired of working and rested."
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q065",
+  "direction": "Synthesize the sentences as directed in the brackets.",
+  "question": "The minister does his work. He is very honest in his work. (use adverb/ adverbial phrase)",
+  "options": [
+   "The minister is honest in his work.",
+   "The minister does his work honestly.",
+   "The minister’s work is honest.",
+   "Work of the minister is very honestly done."
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q066",
+  "direction": "Synthesize the sentences as directed in the brackets.",
+  "question": "I have a big family. I need a lot of money to support it. (use infinitive)",
+  "options": [
+   "I need a lot of money supporting my family.",
+   "I have a big family thus I need lots of money.",
+   "I need money for support of my big family.",
+   "I need a lot of money to support my big family."
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q068",
+  "direction": "Synthesize the sentences as directed in the brackets.",
+  "question": "The manager appointed Zara. He will do the accounts. (use infinitive)",
+  "options": [
+   "The manager has appointed Zara for doing the accounts.",
+   "Zara was appointed to the manager for the accounts.",
+   "To do the accounts, Zara was appointed by the manager.",
+   "The manager appointed Zara to do the accounts."
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q069",
+  "direction": "Synthesize the sentences as directed in the brackets.",
+  "question": "The car was expensive. He could not afford it. (use absolute phrase)",
+  "options": [
+   "He could not afford the car as it was expensive.",
+   "The car being expensive, he could not afford it.",
+   "The car was expensive thus he could not afford it.",
+   "Expensive cars are not afforded by him."
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-english-ii-q070",
+  "direction": "Synthesize the sentences as directed in the brackets.",
+  "question": "The sun set. They had not reached their destination. (use adverb or adverbial phrase)",
+  "options": [
+   "They had not reached their destination by sunset.",
+   "When the sun set they had not reached their destination.",
+   "They had not reached even when the sun set.",
+   "They did not reach at sunset."
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-gs-iii-q086",
+  "direction": "Choose the word that best fits the meaning of the sentence as a whole",
+  "question": "We ask for ____________ from others, yet we ourselves are never merciful",
+  "options": [
+   "clemency",
+   "culpability",
+   "sincerity",
+   "consideration"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-gs-iii-q087",
+  "direction": "Choose the word that best fits the meaning of the sentence as a whole",
+  "question": "To prevent a repetition of this dreadful occurrence, we must discover the _________ element in the food that was served.",
+  "options": [
+   "benign",
+   "tawdry",
+   "toxic",
+   "heinous"
+  ]
+ }
+]

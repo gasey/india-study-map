@@ -1,0 +1,4079 @@
+{
+ "ProgCo2021:English-II": [
+  {
+   "n": 1,
+   "stem": "He is in the habit of chewing the cud",
+   "options": [
+    "crying over spilt milk",
+    "accusing others",
+    "forgetting things",
+    "to ponder on"
+   ],
+   "direction": "From the four alternatives given below, choose the correct meaning of the idioms and phrases given in the italics in the sentence:"
+  },
+  {
+   "n": 2,
+   "stem": "I have recently changed my job and I am going to have teething problems",
+   "options": [
+    "difficulties at the start",
+    "difficulties all the time",
+    "difficulties at the end",
+    "nervousness all the time"
+   ],
+   "direction": "From the four alternatives given below, choose the correct meaning of the idioms and phrases given in the italics in the sentence:"
+  },
+  {
+   "n": 3,
+   "stem": "The scenery of Kashmir beggars description",
+   "options": [
+    "beg for description",
+    "looks like a beggar",
+    "beyond any possible description",
+    "describe a beggar"
+   ],
+   "direction": "From the four alternatives given below, choose the correct meaning of the idioms and phrases given in the italics in the sentence:"
+  },
+  {
+   "n": 4,
+   "stem": "Some people have the habit of working by fits and starts",
+   "options": [
+    "excitedly",
+    "very seriously",
+    "irregularly",
+    "consistently"
+   ],
+   "direction": "From the four alternatives given below, choose the correct meaning of the idioms and phrases given in the italics in the sentence:"
+  },
+  {
+   "n": 5,
+   "stem": "The carrot and stick policy pays dividends in every organisations",
+   "options": [
+    "fair and foul",
+    "reward and punishment",
+    "democratic",
+    "continuous vigilance"
+   ],
+   "direction": "From the four alternatives given below, choose the correct meaning of the idioms and phrases given in the italics in the sentence:"
+  },
+  {
+   "n": 6,
+   "stem": "What egged you on to protest like this?",
+   "options": [
+    "discouraged",
+    "hindered",
+    "forced",
+    "urged"
+   ],
+   "direction": "From the four alternatives given below, choose the correct meaning of the idioms and phrases given in the italics in the sentence:"
+  },
+  {
+   "n": 7,
+   "stem": "The host team bore the palm in the league matches",
+   "options": [
+    "played quite well",
+    "was victorious",
+    "was defeated",
+    "played a very boring match"
+   ],
+   "direction": "From the four alternatives given below, choose the correct meaning of the idioms and phrases given in the italics in the sentence:"
+  },
+  {
+   "n": 8,
+   "stem": "She exhibited remarkable sang froid during the crisis",
+   "options": [
+    "composure",
+    "irritation",
+    "temper",
+    "anger"
+   ],
+   "direction": "From the four alternatives given below, choose the correct meaning of the idioms and phrases given in the italics in the sentence:"
+  },
+  {
+   "n": 9,
+   "stem": "Expense",
+   "options": [
+    "Most children in India are educated at public expense",
+    "A man of your expense should do well in life",
+    "He became a good scholar, but only at the expense of his health",
+    "We had a good laugh at his expense"
+   ],
+   "direction": "In the following questions the word at the top is used in four different different ways. Choose the option in which usage of the word is incorrect or inappropriate:"
+  },
+  {
+   "n": 10,
+   "stem": "Benign",
+   "options": [
+    "They are normally a more benign audience",
+    "The benign economic conditions now prevailing in the world could not last",
+    "He shook his head in benign amusement",
+    "There was a benign smile on the face of the angry man"
+   ],
+   "direction": "In the following questions the word at the top is used in four different different ways. Choose the option in which usage of the word is incorrect or inappropriate:"
+  },
+  {
+   "n": 11,
+   "stem": "Invincible",
+   "options": [
+    "The small army was invincible against the mighty Romans so they finally surrendered",
+    "Nothing in this earth which has life is truly invincible",
+    "Because the drug dealer was extremely arrogant, he thought he was invincible from persecution",
+    "Rome, protected by invincible prestige, escaped"
+   ],
+   "direction": "In the following questions the word at the top is used in four different different ways. Choose the option in which usage of the word is incorrect or inappropriate:"
+  },
+  {
+   "n": 12,
+   "stem": "Court",
+   "options": [
+    "He has been courting Mary for six months",
+    "The prisoner was brought to court for trial",
+    "He has difficulty in courting his feelings into words",
+    "See how the men, young and old, pay court to her"
+   ],
+   "direction": "In the following questions the word at the top is used in four different different ways. Choose the option in which usage of the word is incorrect or inappropriate:"
+  },
+  {
+   "n": 13,
+   "stem": "Peep",
+   "options": [
+    "The trees, like the longings of the earth, stand atiptoe to peep at the heaven",
+    "It’s rude to peep at other people’s work",
+    "She saw herself as a lecturer on a platform, not a cheap sensationalist in a flickering peep show",
+    "I don’t want to hear a single peep out of you"
+   ],
+   "direction": "In the following questions the word at the top is used in four different different ways. Choose the option in which usage of the word is incorrect or inappropriate:"
+  },
+  {
+   "n": 14,
+   "stem": "Protocol",
+   "options": [
+    "The delegates have to be seated according to protocol",
+    "One’s opinion tends to differ in protocol with one’s standpoint",
+    "Data from 200 patients adhering fully to the protocol gave similar conclusions",
+    "They are familiar with the protocol of royal visits"
+   ],
+   "direction": "In the following questions the word at the top is used in four different different ways. Choose the option in which usage of the word is incorrect or inappropriate:"
+  },
+  {
+   "n": 15,
+   "stem": "The whole sum was expended",
+   "options": [
+    "Adverb",
+    "Pronoun",
+    "Noun",
+    "Adjective"
+   ],
+   "direction": "Identify the parts of speech of each underlined words:"
+  },
+  {
+   "n": 16,
+   "stem": "This is the path by which he came",
+   "options": [
+    "Adverb",
+    "Pronoun",
+    "Noun",
+    "Adjective"
+   ],
+   "direction": "Identify the parts of speech of each underlined words:"
+  },
+  {
+   "n": 17,
+   "stem": "I believe in his innocence",
+   "options": [
+    "Adverb",
+    "Pronoun",
+    "Noun",
+    "Adjective"
+   ],
+   "direction": "Identify the parts of speech of each underlined words:"
+  },
+  {
+   "n": 18,
+   "stem": "Go and run about",
+   "options": [
+    "Adverb",
+    "Pronoun",
+    "Noun",
+    "Adjective"
+   ],
+   "direction": "Identify the parts of speech of each underlined words:"
+  },
+  {
+   "n": 19,
+   "stem": "There was none but wept",
+   "options": [
+    "Adverb",
+    "Pronoun",
+    "Interjection",
+    "Adjective"
+   ],
+   "direction": "Identify the parts of speech of each underlined words:"
+  },
+  {
+   "n": 20,
+   "stem": "Never will I see her again",
+   "options": [
+    "Adverb",
+    "Pronoun",
+    "Noun",
+    "Adjective"
+   ],
+   "direction": "Identify the parts of speech of each underlined words:"
+  },
+  {
+   "n": 21,
+   "stem": "It is her vanity box",
+   "options": [
+    "Adverb",
+    "Pronoun",
+    "Noun",
+    "Adjective"
+   ],
+   "direction": "Identify the parts of speech of each underlined words:"
+  },
+  {
+   "n": 22,
+   "stem": "Out sprang the cuckoo",
+   "options": [
+    "Adverb",
+    "Pronoun",
+    "Noun",
+    "Adjective"
+   ],
+   "direction": "Identify the parts of speech of each underlined words:"
+  },
+  {
+   "n": 23,
+   "stem": "You have no sense",
+   "options": [
+    "Adverb",
+    "Adjective",
+    "Noun",
+    "Infinitive"
+   ],
+   "direction": "Identify the parts of speech of each underlined words:"
+  },
+  {
+   "n": 24,
+   "stem": "He lost his all in speculation",
+   "options": [
+    "Adverb",
+    "Adjective",
+    "Noun",
+    "Conjunction"
+   ],
+   "direction": "Identify the parts of speech of each underlined words:"
+  },
+  {
+   "n": 25,
+   "stem": "There are no buses because the drivers _________ on strike lately",
+   "options": [
+    "have gone",
+    "went",
+    "are going",
+    "go"
+   ],
+   "direction": "Identify the appropriate verb form to fill in the blanks :"
+  },
+  {
+   "n": 26,
+   "stem": "Reema was alone in the house at that time because her father _________ in the garage then",
+   "options": [
+    "had been working",
+    "worked",
+    "was working",
+    "had worked"
+   ],
+   "direction": "Identify the appropriate verb form to fill in the blanks :"
+  },
+  {
+   "n": 27,
+   "stem": "After the guests _________ we did the washing",
+   "options": [
+    "left",
+    "were leaving",
+    "were left",
+    "had left"
+   ],
+   "direction": "Identify the appropriate verb form to fill in the blanks :"
+  },
+  {
+   "n": 28,
+   "stem": "The temple _________ in the heart of the city",
+   "options": [
+    "has stood",
+    "has been standing",
+    "stands",
+    "is standing"
+   ],
+   "direction": "Identify the appropriate verb form to fill in the blanks :"
+  },
+  {
+   "n": 29,
+   "stem": "At the rate he is studying he _________ by next year",
+   "options": [
+    "will qualify",
+    "will have qualified",
+    "will be qualified",
+    "will be qualifying"
+   ],
+   "direction": "Identify the appropriate verb form to fill in the blanks :"
+  },
+  {
+   "n": 30,
+   "stem": "My sister _________ that I would send her money",
+   "options": [
+    "will be hoping",
+    "hoped",
+    "hopes",
+    "had hoped"
+   ],
+   "direction": "Identify the appropriate verb form to fill in the blanks :"
+  },
+  {
+   "n": 31,
+   "stem": "She _________ in India at present",
+   "options": [
+    "is living",
+    "live",
+    "lives",
+    "has been living"
+   ],
+   "direction": "Identify the appropriate verb form to fill in the blanks :"
+  },
+  {
+   "n": 32,
+   "stem": "Emma _________ the children till their mother returns",
+   "options": [
+    "will have tended",
+    "has been tending",
+    "will be tending",
+    "tended"
+   ],
+   "direction": "Identify the appropriate verb form to fill in the blanks :"
+  },
+  {
+   "n": 33,
+   "stem": "She behaved as if she _________ that boy since long",
+   "options": [
+    "had been knowing",
+    "had known",
+    "knew",
+    "was knowing"
+   ],
+   "direction": "Identify the appropriate verb form to fill in the blanks :"
+  },
+  {
+   "n": 34,
+   "stem": "The government _________ a new scheme for the poor",
+   "options": [
+    "had launched",
+    "launches",
+    "had been launching",
+    "has launched"
+   ],
+   "direction": "Identify the appropriate verb form to fill in the blanks :"
+  },
+  {
+   "n": 35,
+   "stem": "India is beset _________ many problems these days",
+   "options": [
+    "by",
+    "for",
+    "with",
+    "of"
+   ],
+   "direction": "Choose the correct preposition from the alternatives given below each sentence."
+  },
+  {
+   "n": 36,
+   "stem": "Newly acquired freedom is sometimes liable _________ abuse",
+   "options": [
+    "to",
+    "with",
+    "for",
+    "in"
+   ],
+   "direction": "Choose the correct preposition from the alternatives given below each sentence."
+  },
+  {
+   "n": 37,
+   "stem": "He threw the book _________ the table",
+   "options": [
+    "onto",
+    "on",
+    "at",
+    "upon"
+   ],
+   "direction": "Choose the correct preposition from the alternatives given below each sentence."
+  },
+  {
+   "n": 38,
+   "stem": "The goat subsists_________ the coarsest of food",
+   "options": [
+    "on",
+    "with",
+    "to",
+    "by"
+   ],
+   "direction": "Choose the correct preposition from the alternatives given below each sentence."
+  },
+  {
+   "n": 39,
+   "stem": "Some films are an incitement _________ crime",
+   "options": [
+    "of",
+    "to",
+    "with",
+    "for"
+   ],
+   "direction": "Choose the correct preposition from the alternatives given below each sentence."
+  },
+  {
+   "n": 40,
+   "stem": "There is a room _________ the back of the house (as part of)",
+   "options": [
+    "by",
+    "in",
+    "on",
+    "behind"
+   ],
+   "direction": "Choose the correct preposition from the alternatives given below each sentence."
+  },
+  {
+   "n": 41,
+   "stem": "“Who is waiting _________ this table?” the customer asked",
+   "options": [
+    "for",
+    "on",
+    "in",
+    "at"
+   ],
+   "direction": "Choose the correct preposition from the alternatives given below each sentence."
+  },
+  {
+   "n": 42,
+   "stem": "Peter’s speech pointed _________ some of our defects",
+   "options": [
+    "at",
+    "to",
+    "on",
+    "towards"
+   ],
+   "direction": "Choose the correct preposition from the alternatives given below each sentence."
+  },
+  {
+   "n": 43,
+   "stem": "The officials have the habit of fawning _________ the ministers",
+   "options": [
+    "over",
+    "at",
+    "above",
+    "on"
+   ],
+   "direction": "Choose the correct preposition from the alternatives given below each sentence."
+  },
+  {
+   "n": 44,
+   "stem": "Consequent _________ heavy loss he is worse off these days",
+   "options": [
+    "over",
+    "upon",
+    "at",
+    "of"
+   ],
+   "direction": "Choose the correct transformation as directed, from the options given below each sentence :"
+  },
+  {
+   "n": 45,
+   "stem": "He admitted his error. He expressed his regret (Use Adverb/ Adverbial Phrase)",
+   "options": [
+    "He regret and admit his error",
+    "He regretted and admitted his error",
+    "He admitted that he regret his error",
+    "He admitted his error regretfully"
+   ],
+   "direction": "Choose the correct transformation as directed, from the options given below each sentence :"
+  },
+  {
+   "n": 46,
+   "stem": "He has five children. He must provide for them (Use Infinitive)",
+   "options": [
+    "He must provide for his five children",
+    "He has five children to provide for",
+    "He has five children that he must provide for",
+    "His five children must be provided for"
+   ],
+   "direction": "Choose the correct transformation as directed, from the options given below each sentence :"
+  },
+  {
+   "n": 47,
+   "stem": "He set traps every night. He cleared his house of rats (Use Preposition)",
+   "options": [
+    "He set traps every night to clear his house of rats",
+    "By setting traps every night he cleared his house of rats",
+    "Rats were cleared because of traps",
+    "He cleared his house of rats with traps"
+   ],
+   "direction": "Choose the correct transformation as directed, from the options given below each sentence :"
+  },
+  {
+   "n": 48,
+   "stem": "He felt tired. He laid his work aside (Use Participle)",
+   "options": [
+    "Feeling tired, he laid his work aside",
+    "He laid his work aside as he was feeling tired",
+    "He felt tired and he laid his work aside",
+    "He felt tired so he laid his work aside"
+   ],
+   "direction": "Choose the correct transformation as directed, from the options given below each sentence :"
+  },
+  {
+   "n": 49,
+   "stem": "All will respect you. Your being honest is a condition (Use Adverb Clause)",
+   "options": [
+    "After being honest, all will respect you",
+    "Your respect depends on your being honest",
+    "All will respect you if you are honest",
+    "All will respect you after you are honest"
+   ],
+   "direction": "Choose the correct transformation as directed, from the options given below each sentence :"
+  },
+  {
+   "n": 50,
+   "stem": "He heard of my success. He was glad of it (Use Infinitive)",
+   "options": [
+    "He heard about my success and was glad",
+    "He was glad of hearing my success",
+    "He heard of my success and he was glad",
+    "He was glad to hear of my success"
+   ],
+   "direction": "Choose the correct transformation as directed, from the options given below each sentence :"
+  },
+  {
+   "n": 51,
+   "stem": "He was so tired that he could not stand (Simple Sentence)",
+   "options": [
+    "He was very tired to even stand",
+    "He was not able to stand because he was too tired",
+    "He was too tired to stand",
+    "He was so tired that he had difficulty standing"
+   ]
+  },
+  {
+   "n": 52,
+   "stem": "With all his contacts he never used unfair means (Compound Sentence)",
+   "options": [
+    "He had many contacts but never used unfair means",
+    "Having many contacts, he never used unfair means",
+    "He never used unfair means through his many contacts",
+    "His contacts are never used for unfair means by him"
+   ]
+  },
+  {
+   "n": 53,
+   "stem": "Iron is the most useful of all metals (Comparative Sentence)",
+   "options": [
+    "Iron is useful than all other metals",
+    "Iron is more useful of all metals",
+    "No other metal is as useful as iron",
+    "The most useful metal is iron"
+   ]
+  },
+  {
+   "n": 54,
+   "stem": "What though the field be lost? (into Assertive sentence)",
+   "options": [
+    "It does not matter even if the field is lost",
+    "The field may be lost but it does not matter",
+    "Does it matter if the field is lost?",
+    "It is important if the field is lost"
+   ]
+  },
+  {
+   "n": 55,
+   "stem": "The sight will gladden him (Passive Voice)",
+   "options": [
+    "The sight will be glad to him",
+    "He is glad to see the sight",
+    "He will gladdened the sight",
+    "He will be gladdened by the sight"
+   ]
+  },
+  {
+   "n": 56,
+   "stem": "You called me and here I am (Complex Sentence)",
+   "options": [
+    "I am called and here I am",
+    "As you called me, I am here",
+    "I am called to be here",
+    "I am here after you called me"
+   ]
+  },
+  {
+   "n": 57,
+   "stem": "The invigilator was reading out the instructions (Passive Voice)",
+   "options": [
+    "The instruction was read out by the invigilator",
+    "The instructions had been read out by the invigilator",
+    "The instructions was been read out by the invigilator",
+    "The instructions were being read out by the invigilator"
+   ]
+  },
+  {
+   "n": 58,
+   "stem": "He seems to have acted with great promptitude",
+   "options": [
+    "Adverb Phrase",
+    "Noun Phrase",
+    "Adjective Phrase",
+    "None of these"
+   ],
+   "direction": "Analyse the sentences and choose the correct alternatives :"
+  },
+  {
+   "n": 59,
+   "stem": "He served out his sentence and was released",
+   "options": [
+    "Simple Sentence",
+    "Compound Sentence",
+    "Complex Sentence",
+    "None of these"
+   ],
+   "direction": "Analyse the sentences and choose the correct alternatives :"
+  },
+  {
+   "n": 60,
+   "stem": "He never felt the witchery of the soft blue sky",
+   "options": [
+    "Adverb Phrase",
+    "Noun Phrase",
+    "Adjective Phrase",
+    "None of these"
+   ],
+   "direction": "Analyse the sentences and choose the correct alternatives :"
+  },
+  {
+   "n": 61,
+   "stem": "The plan you propose is a very good one",
+   "options": [
+    "Noun Clause",
+    "Adverb Clause",
+    "Adjective Clause",
+    "None of these"
+   ],
+   "direction": "Analyse the sentences and choose the correct alternatives :"
+  },
+  {
+   "n": 62,
+   "stem": "My friend, the magistrate of this place, is on leave",
+   "options": [
+    "Simple Sentence",
+    "Compound Sentence",
+    "Complex Sentence",
+    "None of these"
+   ],
+   "direction": "Analyse the sentences and choose the correct alternatives :"
+  },
+  {
+   "n": 63,
+   "stem": "Thrice is he harmed that hath his quarrel just",
+   "options": [
+    "Noun Clause",
+    "Adverb Clause",
+    "Adjective Clause",
+    "None of these"
+   ],
+   "direction": "Analyse the sentences and choose the correct alternatives :"
+  },
+  {
+   "n": 64,
+   "stem": "He confessed that he was guilty",
+   "options": [
+    "Adverb Clause",
+    "Noun Clause",
+    "Adjective Clause",
+    "None of these"
+   ],
+   "direction": "Analyse the sentences and choose the correct alternatives :"
+  },
+  {
+   "n": 65,
+   "stem": "He said, “Alas! I am undone”",
+   "options": [
+    "He exclaimed that he was undone",
+    "He exclaimed that he is undone",
+    "He exclaimed with sorrow that he was undone",
+    "He exclaimed with sorrow that he is undone"
+   ],
+   "direction": "Out of the four alternatives, choose the one which best expresses the same sentence in Indirect/ Direct Speech :"
+  },
+  {
+   "n": 66,
+   "stem": "He said, “Shall I ever forget her?”",
+   "options": [
+    "He wondered if he would ever forget her",
+    "He wonders if he would ever forget her",
+    "He wondered that he would ever forget her",
+    "He asked if he should ever forget her"
+   ],
+   "direction": "Out of the four alternatives, choose the one which best expresses the same sentence in Indirect/ Direct Speech :"
+  },
+  {
+   "n": 67,
+   "stem": "He said, “John will write a letter?”",
+   "options": [
+    "He says that John would write a letter",
+    "He said that John will write a letter",
+    "He says that John should write a letter",
+    "He says that John will write a letter"
+   ],
+   "direction": "Out of the four alternatives, choose the one which best expresses the same sentence in Indirect/ Direct Speech :"
+  },
+  {
+   "n": 68,
+   "stem": "I said that she had eaten the meal",
+   "options": [
+    "I said, “She ate the meal”",
+    "I say, “She eats the meal”",
+    "I said, “She has eaten the meal”",
+    "I said, “She is eating the meal”"
+   ],
+   "direction": "Out of the four alternatives, choose the one which best expresses the same sentence in Indirect/ Direct Speech :"
+  },
+  {
+   "n": 69,
+   "stem": "He says, “Matthew is a good player”",
+   "options": [
+    "He says that Matthew has been a good player",
+    "He says that Matthew is a good player",
+    "He says that Matthew was a good player",
+    "He said that Matthew has been a good player"
+   ],
+   "direction": "Out of the four alternatives, choose the one which best expresses the same sentence in Indirect/ Direct Speech :"
+  },
+  {
+   "n": 70,
+   "stem": "Goodbye, my daughters!",
+   "options": [
+    "Exclamatory",
+    "Optative",
+    "Affirmative",
+    "Imperative"
+   ],
+   "direction": "Identify the correct notion expressed by each of the following sentences by choosing one of the alternatives given :"
+  },
+  {
+   "n": 71,
+   "stem": "None but truth triumphs",
+   "options": [
+    "Assertive",
+    "Optative",
+    "Affirmative",
+    "Negative"
+   ],
+   "direction": "Identify the correct notion expressed by each of the following sentences by choosing one of the alternatives given :"
+  },
+  {
+   "n": 72,
+   "stem": "I wish I were a rich man",
+   "options": [
+    "Assertive",
+    "Imperative",
+    "Affirmative",
+    "Negative"
+   ],
+   "direction": "Identify the correct notion expressed by each of the following sentences by choosing one of the alternatives given :"
+  },
+  {
+   "n": 73,
+   "stem": "This pony is better trained than yours",
+   "options": [
+    "Assertive",
+    "Positive",
+    "Superlative",
+    "Comparative"
+   ],
+   "direction": "Identify the correct notion expressed by each of the following sentences by choosing one of the alternatives given :"
+  },
+  {
+   "n": 74,
+   "stem": "He said to me, “Please help me”",
+   "options": [
+    "Assertive",
+    "Affirmative",
+    "Imperative",
+    "Interrogative"
+   ],
+   "direction": "Identify the correct notion expressed by each of the following sentences by choosing one of the alternatives given :"
+  },
+  {
+   "n": 75,
+   "stem": "Expeditious steps should be taken to complete the work in two weeks",
+   "options": [
+    "strict and forceful",
+    "unmerciful and punitive",
+    "disciplinary",
+    "prompt and efficient"
+   ],
+   "direction": "Choose the word nearest in meaning of the underlined word :"
+  },
+  {
+   "n": 76,
+   "stem": "A wise man puts past rancour behind and moves ahead",
+   "options": [
+    "dislike",
+    "hatred",
+    "division",
+    "criticism"
+   ],
+   "direction": "Choose the word nearest in meaning of the underlined word :"
+  },
+  {
+   "n": 77,
+   "stem": "The song had a soporific effect on the child",
+   "options": [
+    "soothing",
+    "terrific",
+    "sleep - inducing",
+    "supreme"
+   ],
+   "direction": "Choose the word nearest in meaning of the underlined word :"
+  },
+  {
+   "n": 78,
+   "stem": "He is so garrulous that all sober persons avoid his company",
+   "options": [
+    "talkative",
+    "foolish",
+    "domineering",
+    "quarrelsome"
+   ],
+   "direction": "Choose the word nearest in meaning of the underlined word :"
+  },
+  {
+   "n": 79,
+   "stem": "The acerbic remarks of the manager were unwarranted",
+   "options": [
+    "bitter",
+    "furious",
+    "arrogant",
+    "childish"
+   ],
+   "direction": "Choose the word nearest in meaning of the underlined word :"
+  },
+  {
+   "n": 80,
+   "stem": "One’s remonstration against social ills has to be consistent to be fruitful",
+   "options": [
+    "outrange",
+    "criticism",
+    "demonstration",
+    "protest"
+   ],
+   "direction": "Choose the word nearest in meaning of the underlined word :"
+  },
+  {
+   "n": 81,
+   "stem": "He was _________ of playing _________ and loose with the sentiments of his dearest friends",
+   "options": [
+    "complained ; thick",
+    "guilty ; fast",
+    "accused ; tight",
+    "innocent ; false"
+   ],
+   "direction": "Choose the most suitable alternative to fill in the blanks to make the sentence meaningful :"
+  },
+  {
+   "n": 82,
+   "stem": "The partners broke off as they found each other _________ of _________ breach of promise",
+   "options": [
+    "guilty ; flagrant",
+    "responsible ; serious",
+    "faulty ; severe",
+    "accused ; rigid"
+   ],
+   "direction": "Choose the most suitable alternative to fill in the blanks to make the sentence meaningful :"
+  },
+  {
+   "n": 83,
+   "stem": "The changes made in the system were so _________ that they didn’t require any _________",
+   "options": [
+    "big ; time",
+    "obvious ; modifications",
+    "certain ; expertise",
+    "genuine ; intelligence"
+   ],
+   "direction": "Choose the most suitable alternative to fill in the blanks to make the sentence meaningful :"
+  },
+  {
+   "n": 84,
+   "stem": "We cannot _________ such a/an _________ act of violence",
+   "options": [
+    "tolerate ; insipid",
+    "commit ; magnificent",
+    "consider ; important",
+    "pardon ; egregious"
+   ],
+   "direction": "Choose the most suitable alternative to fill in the blanks to make the sentence meaningful :"
+  },
+  {
+   "n": 85,
+   "stem": "Some people have the _________ for learning foreign language but they have no ________ in speaking",
+   "options": [
+    "stamina ; fondness",
+    "mania ; urge",
+    "aptitude ; interest",
+    "capacity ; ability"
+   ],
+   "direction": "Choose the most suitable alternative to fill in the blanks to make the sentence meaningful :"
+  },
+  {
+   "n": 86,
+   "stem": "Each of the students _________ obedient",
+   "options": [
+    "is",
+    "are",
+    "were",
+    "have"
+   ],
+   "direction": "Choose a verb which best agrees with the subject of the following sentences :"
+  },
+  {
+   "n": 87,
+   "stem": "No students and no teacher _________ present",
+   "options": [
+    "are",
+    "was",
+    "has",
+    "have"
+   ],
+   "direction": "Choose a verb which best agrees with the subject of the following sentences :"
+  },
+  {
+   "n": 88,
+   "stem": "Either of us _________ done his work",
+   "options": [
+    "have",
+    "were",
+    "has",
+    "is"
+   ],
+   "direction": "Choose a verb which best agrees with the subject of the following sentences :"
+  },
+  {
+   "n": 89,
+   "stem": "The accountant and the cashier _________ absconded",
+   "options": [
+    "has",
+    "are",
+    "were",
+    "have"
+   ],
+   "direction": "Choose a verb which best agrees with the subject of the following sentences :"
+  },
+  {
+   "n": 90,
+   "stem": "More than one man _________ absent",
+   "options": [
+    "was",
+    "are",
+    "were",
+    "has"
+   ],
+   "direction": "Choose a verb which best agrees with the subject of the following sentences :"
+  },
+  {
+   "n": 91,
+   "stem": "That boy _________ you see there bowls very well",
+   "options": [
+    "whose",
+    "who",
+    "whom",
+    "which"
+   ],
+   "direction": "Fill in the blanks with the correct alternatives :"
+  },
+  {
+   "n": 92,
+   "stem": "_________ men are free from faults",
+   "options": [
+    "A few",
+    "Few",
+    "The few",
+    "None of these"
+   ],
+   "direction": "Fill in the blanks with the correct alternatives :"
+  },
+  {
+   "n": 93,
+   "stem": "It was _________ that gave you the alarm",
+   "options": [
+    "Me",
+    "Myself",
+    "Mine",
+    "I"
+   ],
+   "direction": "Fill in the blanks with the correct alternatives :"
+  },
+  {
+   "n": 94,
+   "stem": "_________ did they fight each other for?",
+   "options": [
+    "Who",
+    "Why",
+    "What",
+    "Whom"
+   ],
+   "direction": "Fill in the blanks with the correct alternatives :"
+  },
+  {
+   "n": 95,
+   "stem": "_________ tact would have saved the situation",
+   "options": [
+    "A little",
+    "The little",
+    "Little",
+    "none of these"
+   ],
+   "direction": "Fill in the blanks with the correct alternatives :"
+  },
+  {
+   "n": 96,
+   "stem": "I do not like _________ of the sisters",
+   "options": [
+    "Every",
+    "Each",
+    "Either",
+    "Neither"
+   ],
+   "direction": "Fill in the blanks with the correct alternatives :"
+  },
+  {
+   "n": 97,
+   "stem": "He always takes a heavy breakfast because he generally skips _________ lunch",
+   "options": [
+    "a",
+    "an",
+    "the",
+    "not necessary"
+   ],
+   "direction": "Choose the right article from the given alternatives if necessary:"
+  },
+  {
+   "n": 98,
+   "stem": "It is never _________ thankful office to offer advice",
+   "options": [
+    "a",
+    "an",
+    "the",
+    "not necessary"
+   ],
+   "direction": "Choose the right article from the given alternatives if necessary:"
+  },
+  {
+   "n": 99,
+   "stem": "Men are too often led astray by _________ prejudice",
+   "options": [
+    "a",
+    "an",
+    "the",
+    "not necessary"
+   ],
+   "direction": "Choose the right article from the given alternatives if necessary:"
+  },
+  {
+   "n": 100,
+   "stem": "Time makes _________ most enemies friends",
+   "options": [
+    "a",
+    "an",
+    "the",
+    "not necessary"
+   ],
+   "direction": "Choose the right article from the given alternatives if necessary:"
+  }
+ ],
+ "ProgCo2021:GS-I": [
+  {
+   "n": 1,
+   "stem": "Who established a factory at Sutanati and the Zamindari of the three villages of Sutanati, Kalikata and Govindapur?",
+   "options": [
+    "Francis Dey",
+    "Francois Caron",
+    "Job Charnock",
+    "Captain Hawkins"
+   ]
+  },
+  {
+   "n": 2,
+   "stem": "In which place in India, British started the Dual system of Government?",
+   "options": [
+    "Madras",
+    "Bengal",
+    "Bombay",
+    "Pondicherry"
+   ]
+  },
+  {
+   "n": 3,
+   "stem": "Who annexed the Punjab as British territory after the Second Anglo-Sikh War?",
+   "options": [
+    "Warren Hasting",
+    "Robert Clive",
+    "Eyre Coote",
+    "Lord Dalhousie"
+   ]
+  },
+  {
+   "n": 4,
+   "stem": "Who was the first Governor General of India?",
+   "options": [
+    "Warren Hastings",
+    "William Bentinck",
+    "Lord Dalhousie",
+    "Lord Canning"
+   ]
+  },
+  {
+   "n": 5,
+   "stem": "After 1853, a substantial amount of the British capital had been invested in-",
+   "options": [
+    "Tea Plantation",
+    "The Railways",
+    "Coal Mining",
+    "Jute Mills"
+   ]
+  },
+  {
+   "n": 6,
+   "stem": "Assertion (A) : On the 25th April, 1809, the Treaty of Amritsar was signed between Ranjit Singh and East India Company. Reason (R) : Ranjit Singh wanted to increase the realm of his empire with the help of the Company.",
+   "options": [
+    "Both A and R is true and R is the correct explanation of A",
+    "Both A and R is true and R is not the correct explanation of A",
+    "A is true but R is false",
+    "A is false but R is true"
+   ]
+  },
+  {
+   "n": 7,
+   "stem": "British Crown assumed sovereignty over Indian from the East India Company in the year –",
+   "options": [
+    "1857",
+    "1858",
+    "1859",
+    "1860"
+   ]
+  },
+  {
+   "n": 8,
+   "stem": "The Peshwaship was abolished by the British at the time of Peshwa-",
+   "options": [
+    "Ragunath",
+    "Narayan Rao",
+    "Madhav-II",
+    "Baji Rao – II"
+   ]
+  },
+  {
+   "n": 9,
+   "stem": "Treaty of Rajpurghat was signed on the 25th December, 1805 between Holkar and –",
+   "options": [
+    "French",
+    "British",
+    "Portuguese",
+    "Dutch"
+   ]
+  },
+  {
+   "n": 10,
+   "stem": "The capital of British India was transferred from Calcutta to Delhi in the year –",
+   "options": [
+    "1911",
+    "1912",
+    "1920",
+    "1925"
+   ]
+  },
+  {
+   "n": 11,
+   "stem": "In 1650 Gabriel Boughton, an employee of the Company obtained a license for trade in-",
+   "options": [
+    "Bengal",
+    "Orissa",
+    "Mysore",
+    "Surat"
+   ]
+  },
+  {
+   "n": 12,
+   "stem": "The new proletariat class which emerged in India on account of the British economic policies, consisted of –",
+   "options": [
+    "Moneylenders",
+    "Landlords",
+    "Traders",
+    "All of these"
+   ]
+  },
+  {
+   "n": 13,
+   "stem": "The first Bengali drama, written to highlight the brutality of the British indigo planters was –",
+   "options": [
+    "Rast Goftar",
+    "Neel Darpan",
+    "Shome Prakash",
+    "None of these"
+   ]
+  },
+  {
+   "n": 14,
+   "stem": "Which of the following is not correctly matched?",
+   "options": [
+    "Brahmo Samaj – Reformist Movement",
+    "Prarthana Samaj – Reformist Movement",
+    "Aligarh Movement – Reformist Movement",
+    "Arya Samaj – Reformist Movement"
+   ]
+  },
+  {
+   "n": 15,
+   "stem": "Who was popularly known as ‘Lokahitawadi’?",
+   "options": [
+    "Jyotibha Phule",
+    "Pt. Ishwar Chandra Vidyasagar",
+    "Gopal Hari Deshmukh",
+    "Mahadev Govind Ranade"
+   ]
+  },
+  {
+   "n": 16,
+   "stem": "Who established Mukhti Mission in Pune?",
+   "options": [
+    "Pandita Ramabai",
+    "Swami Dyanand Saraswati",
+    "Savitribai Phule",
+    "Jyotiba Phule"
+   ]
+  },
+  {
+   "n": 17,
+   "stem": "The Parsi Reform Movement Rahnumai Mazdayasnan Sabha was founded in –",
+   "options": [
+    "1829",
+    "1851",
+    "1879",
+    "1861"
+   ]
+  },
+  {
+   "n": 18,
+   "stem": "Who first cited the ‘Drain Of Wealth’ in his book?",
+   "options": [
+    "Dadabhai Naoroji",
+    "R.C.Dutta",
+    "Jadunath",
+    "None of these"
+   ]
+  },
+  {
+   "n": 19,
+   "stem": "Consider the following I. Introduced in Bombay and Madras, Munro and Charles Reed recommended its introduction in 1820. II. It was based on the scientific rent theory of Ricardo. Which of the above statement(s) is / are related to the Permanent Settlement?",
+   "options": [
+    "Only I",
+    "Only II",
+    "Both I & II",
+    "Neither I nor II"
+   ]
+  },
+  {
+   "n": 20,
+   "stem": "In which year the east India Company acquired the ‘Diwani of Bengal’?",
+   "options": [
+    "1764",
+    "1765",
+    "1766",
+    "1767"
+   ]
+  },
+  {
+   "n": 21,
+   "stem": "Ho and Munda Tribesmen were from –",
+   "options": [
+    "Chhotanagpur",
+    "Rajmahal Hills",
+    "Aravalli",
+    "None"
+   ]
+  },
+  {
+   "n": 22,
+   "stem": "Kol Mutiny took place in the year –",
+   "options": [
+    "1832",
+    "1833",
+    "1831",
+    "1839"
+   ]
+  },
+  {
+   "n": 23,
+   "stem": "Ahom revolt happened because –",
+   "options": [
+    "British tried to annex Ahom’s territories",
+    "Rebellion sparked off in 1828",
+    "Their leader was Gomdhar Kanwar",
+    "All of these"
+   ]
+  },
+  {
+   "n": 24,
+   "stem": "Which of the following was not the social and religious reason for the Revolt of 1857?",
+   "options": [
+    "Adoption of free trade imperialism from 1800, de-industrialization and drain of wealth",
+    "Abolition of Sati, 1829",
+    "Hindu Widow Remarriage Act, 1856",
+    "Doctrine of Lapse"
+   ]
+  },
+  {
+   "n": 25,
+   "stem": "Consider the following Statement(s) related to the causes of failure of 1857 revolt I. Lack of unity and coordination II. Lack of Military strategy Select the answer using the code given below -",
+   "options": [
+    "Only I",
+    "Only II",
+    "Both I & II",
+    "Neither I nor II"
+   ]
+  },
+  {
+   "n": 26,
+   "stem": "What was the cause of Indigo revolt of 1859?",
+   "options": [
+    "Exploitation of local peasants by European planters by forcing them to plant indigo on their land",
+    "Increased export duties on indigo by British Government",
+    "Both (a) & (b)",
+    "Neither (a) & (b)"
+   ]
+  },
+  {
+   "n": 27,
+   "stem": "Which event influenced the revolt of 1857? I) First Afghan war II) Punjab wars III) Crimean war IV) Santhal rebellion Select the answer using the code given below :",
+   "options": [
+    "I only",
+    "I & II",
+    "I, II & III",
+    "All of these"
+   ]
+  },
+  {
+   "n": 28,
+   "stem": "Why was the Kuka Movement started?",
+   "options": [
+    "Movement against money lenders",
+    "Resentment of the peasant against the oppression of the Zamindars",
+    "Forced cultivation of indigo without any proper remuneration",
+    "Degeneration of the Sikh religion and loss of Sikh sovereignty"
+   ]
+  },
+  {
+   "n": 29,
+   "stem": "Which of the following statements are correct? I. Moplah Uprising was an agrarian agrarian movement II. The Mopla peasants revolted against the Hindu landlords oppressive policies. Select the answer using the code given below:",
+   "options": [
+    "I only",
+    "II only",
+    "Both I & II",
+    "Neither I nor II"
+   ]
+  },
+  {
+   "n": 30,
+   "stem": "The Moplahs were –",
+   "options": [
+    "Muslims of Kerala",
+    "Muslims of Mysore",
+    "Muslims of Malabar",
+    "All of these"
+   ]
+  },
+  {
+   "n": 31,
+   "stem": "Which of the following organization was not established by B.R Ambedkar?",
+   "options": [
+    "Zero Club",
+    "Depressed Classes Institute",
+    "Samaj Samata Sangh",
+    "People’s Education Society"
+   ]
+  },
+  {
+   "n": 32,
+   "stem": "Bhagat Singh and B.K Dutt threw a bomb in the Central Legislative Assembly on 8th April 1929 as a protest to which of the following Bill/Act?",
+   "options": [
+    "Rowlatt Act",
+    "Public Safety Bill",
+    "Wood’s Bill",
+    "None of these"
+   ]
+  },
+  {
+   "n": 33,
+   "stem": "Shivaji and Ganpati festivals were started by-",
+   "options": [
+    "G.K Gokhale",
+    "Ferozshah Mehta",
+    "Bal Gangadhar Tilak",
+    "Lala Lajpat Rai"
+   ]
+  },
+  {
+   "n": 34,
+   "stem": "Who among the following was not an extremist?",
+   "options": [
+    "Bipin Chandra Pal",
+    "Aurobindo Ghosh",
+    "Bal Gangadhar Tilak",
+    "Gopal Krishna Gokhale"
+   ]
+  },
+  {
+   "n": 35,
+   "stem": "Why salt was chosen as the central formula for the Civil Disobedience Movement?",
+   "options": [
+    "Salt in a flash linked the ideal of Swaraj with almost concrete and universal grievance of the rural poor.",
+    "Salt afforded a paltry but psychologically important income like Khadi, for the poor through self help group",
+    "It offered to the urban adherents the opportunity of a symbolic identification with mass suffering",
+    "All of the above"
+   ]
+  },
+  {
+   "n": 36,
+   "stem": "Who among the following was the founder of Khudai Khidmatgars?",
+   "options": [
+    "Khan Abdul Gaffar Khan",
+    "K. Kelappan",
+    "C. Rajagopalachari",
+    "P. Krishna Pillai"
+   ]
+  },
+  {
+   "n": 37,
+   "stem": "Who formulated ‘A Tentative Socialist Programme’ for India and a Congress Socialist Party was started in 1934?",
+   "options": [
+    "Sampunanand",
+    "Yusuf Meher Ali",
+    "N.V. Gadgil",
+    "Swami Govindanand"
+   ]
+  },
+  {
+   "n": 38,
+   "stem": "Who was the viceroy of India during the Non-Cooperation Movement?",
+   "options": [
+    "Lord Reading",
+    "Lord Chelmsford",
+    "Both (a) & (b)",
+    "Neither (a) nor (b)"
+   ]
+  },
+  {
+   "n": 39,
+   "stem": "Which of the following incident was the driver of subsequent withdrawal of Non-Cooperation Movement?",
+   "options": [
+    "Creation of Bengal Presidency",
+    "Partition of Bengal",
+    "Jallianwala Bagh Massacre",
+    "Chauri-Chaura Incident"
+   ]
+  },
+  {
+   "n": 40,
+   "stem": "Consider the following statement(s) related to the Non-Cooperation Movement I) Muslim participation gave the movement a mass character II) India for the first time saw a leader who had ability face to face. According to Marjorie Sykes, Gandhiji had ‘ the gift to fight’. Select the answer using the code given below :",
+   "options": [
+    "Only I",
+    "Only II",
+    "Both I & II",
+    "Neither I nor II"
+   ]
+  },
+  {
+   "n": 41,
+   "stem": "Which Indian revolutionary helped Subhash Chandra Bose in raising ‘Indian National Army’?",
+   "options": [
+    "Surya Sen",
+    "Ram Prasad Bismil",
+    "Rash Behari Bose",
+    "Batukeshwar Dutt"
+   ]
+  },
+  {
+   "n": 42,
+   "stem": "Who among the following was associated with Kakori Train Conspiracy case?",
+   "options": [
+    "Abul Kalam Azad",
+    "Shahnawaz Khan",
+    "Khan Abdul Ghaffar Khan",
+    "Ashfaqulla Khan"
+   ]
+  },
+  {
+   "n": 43,
+   "stem": "The resolutions on Fundamental Rights and national Economic Policy were passed in which of the following sessions of the Indian National Congress?",
+   "options": [
+    "Lahore 1929",
+    "Karachi, 1931",
+    "Belgaum,1934",
+    "Faizpur, 1936"
+   ]
+  },
+  {
+   "n": 44,
+   "stem": "In which country Indian Independence Committee was formed during the British Era?",
+   "options": [
+    "France",
+    "U.K",
+    "Germany",
+    "U.S.A"
+   ]
+  },
+  {
+   "n": 45,
+   "stem": "Which organization published the journal called ‘Indian Sociologists’?",
+   "options": [
+    "India House",
+    "Ghadar party",
+    "British Indian Association",
+    "Berlin Committee"
+   ]
+  },
+  {
+   "n": 46,
+   "stem": "Which of the following was the immediate cause of Quit India Movement?",
+   "options": [
+    "Withdrawal of British from the South East Asia",
+    "Failure of Cripps Mission",
+    "Failure of August Offer",
+    "Arrest of Mahatma Gandhi"
+   ]
+  },
+  {
+   "n": 47,
+   "stem": "Responsivist class of Leaders belonged to-",
+   "options": [
+    "Gandhians",
+    "No Changers",
+    "Muslim League",
+    "Swarajists"
+   ]
+  },
+  {
+   "n": 48,
+   "stem": "Who said that he had not become His Majesty’s first Minister to preside over the liquidation of the British empire?",
+   "options": [
+    "Attlee",
+    "Churchill",
+    "Disraeli",
+    "Loyd George"
+   ]
+  },
+  {
+   "n": 49,
+   "stem": "India became independent during the viceroyalty of –",
+   "options": [
+    "Lord Mountbatten",
+    "Lord William Bentinck",
+    "Lord Wellesly",
+    "Lord Wavell"
+   ]
+  },
+  {
+   "n": 50,
+   "stem": "Select the Correct chronological sequence of the following events? I. Appointment of the Simon Commission II. Formation of the First Labour Government in Britain III. Submission of the Nehru Report IV. Inauguration of the First Round Table conference Select the answer using the code given below:",
+   "options": [
+    "I, III, II & IV",
+    "I, III, IV & II",
+    "I, II, IV & III",
+    "II, IV, I & III"
+   ]
+  },
+  {
+   "n": 51,
+   "stem": "Which state government has increased the reservation for women in government jobs from 30% to 40%?",
+   "options": [
+    "Kerala",
+    "Tamil Nadu",
+    "Karnataka",
+    "Odisha"
+   ]
+  },
+  {
+   "n": 52,
+   "stem": "PM Modi inaugurated a special commemorative coin of what value to mark the birth anniversary of ISKCON founder?",
+   "options": [
+    "` 100",
+    "` 125",
+    "` 250",
+    "` 200"
+   ]
+  },
+  {
+   "n": 53,
+   "stem": "Who has become the 69th Grandmaster of India in chess?",
+   "options": [
+    "Pooja Desai",
+    "Ravi Chugh",
+    "Harshit Raja",
+    "Dennis Wagner"
+   ]
+  },
+  {
+   "n": 54,
+   "stem": "People’s Plan Campaign (PPC) meeting, which was seen in the news recently, was held in which of the following district Capital?",
+   "options": [
+    "Saitual",
+    "Aizawl",
+    "Mamit",
+    "Champhai"
+   ]
+  },
+  {
+   "n": 55,
+   "stem": "Muhyiddin Yassin has resigned as the Prime Minister of which country?",
+   "options": [
+    "Libya",
+    "Malaysia",
+    "Japan",
+    "Indonesia"
+   ]
+  },
+  {
+   "n": 56,
+   "stem": "Hakainde Hichilema has won the presidential election of which country?",
+   "options": [
+    "Egypt",
+    "Congo",
+    "Kenya",
+    "Zambia"
+   ]
+  },
+  {
+   "n": 57,
+   "stem": "Mohammad Azam, who has been awarded the National Youth Award, is from which state?",
+   "options": [
+    "Telangana",
+    "Jammu and Kashmir",
+    "Kerala",
+    "Ladakh"
+   ]
+  },
+  {
+   "n": 58,
+   "stem": "Kandahar, which has been captured by The Taliban recently, is in which country?",
+   "options": [
+    "Pakistan",
+    "Syria",
+    "Afghanistan",
+    "Kazakhstan"
+   ]
+  },
+  {
+   "n": 59,
+   "stem": "S.Maubuang village, which has received National Panchayat Award, 2021 is located in which district of Mizoram?",
+   "options": [
+    "Khawzawl",
+    "Saitual",
+    "Mamit",
+    "Aizawl"
+   ]
+  },
+  {
+   "n": 60,
+   "stem": "Which state has become the first state in the country to issue the order about the implementation of the National Education Policy-2020?",
+   "options": [
+    "Kerala",
+    "Karnataka",
+    "Haryana",
+    "Gujarat"
+   ]
+  },
+  {
+   "n": 61,
+   "stem": "Which country becomes the first country to start Covid-19 vaccine for toddlers?",
+   "options": [
+    "Haiti",
+    "Mexico",
+    "Cuba",
+    "Jamaica"
+   ]
+  },
+  {
+   "n": 62,
+   "stem": "How many medals did India win in Tokyo Olympic 2021?",
+   "options": [
+    "7",
+    "8",
+    "9",
+    "10"
+   ]
+  },
+  {
+   "n": 63,
+   "stem": "What is the rank of India in Global Coronavirus Innovation rankings for countries, as per a report prepared by StartupBlink in association with UNAIDS?",
+   "options": [
+    "34th",
+    "32nd",
+    "56th",
+    "78th"
+   ]
+  },
+  {
+   "n": 64,
+   "stem": "The first Heart Failure Biobank in the country has come up in which state?",
+   "options": [
+    "Kerala",
+    "Karnataka",
+    "Gujarat",
+    "Haryana"
+   ]
+  },
+  {
+   "n": 65,
+   "stem": "Which state has recently launched the initiative of ‘Medicine from the Sky’ to use drones for delivering drugs and vaccines?",
+   "options": [
+    "Kerala",
+    "Odisha",
+    "Telangana",
+    "Andhra Pradesh"
+   ]
+  },
+  {
+   "n": 66,
+   "stem": "What is India’s rank in the UN World Happiness Report 2021?",
+   "options": [
+    "128",
+    "139",
+    "140",
+    "142"
+   ]
+  },
+  {
+   "n": 67,
+   "stem": "Which state/ UT launched an initiative to make it a global city by 2047?",
+   "options": [
+    "Delhi",
+    "Haryana",
+    "Ladakh",
+    "Gujarat"
+   ]
+  },
+  {
+   "n": 68,
+   "stem": "The Rajiv Gandhi Khel Ratna Award is recently renamed by which name?",
+   "options": [
+    "Milkha Singh Khel Ratna Award",
+    "Indira Gandhi Khel Ratna Award",
+    "Major Dhyan Chand Khel Ratna Award",
+    "Mary Kom Khel Ratna Award"
+   ]
+  },
+  {
+   "n": 69,
+   "stem": "Which state has launched the first of its kind earthquake early warning mobile application?",
+   "options": [
+    "Assam",
+    "Haryana",
+    "Uttarakhand",
+    "Maharashtra"
+   ]
+  },
+  {
+   "n": 70,
+   "stem": "Dr Firdausi Qadri and Muhammad Amjad Saqib, who were seen in the news recently, are the recipients of which award?",
+   "options": [
+    "Booker Prize",
+    "Ramon Magsaysay award",
+    "Pulitzer Award",
+    "Abel Prize"
+   ]
+  },
+  {
+   "n": 71,
+   "stem": "National Award for Best performing Village Organization was recently given to Tipa Diary 1 Village Organization. Tipa Village is located in which district of Mizoram?",
+   "options": [
+    "Lunglei",
+    "Lawngtlai",
+    "Siaha",
+    "Mamit"
+   ]
+  },
+  {
+   "n": 72,
+   "stem": "Which country’s military has extended emergency for two years?",
+   "options": [
+    "Bangladesh",
+    "Myanmar",
+    "Nepal",
+    "Pakistan"
+   ]
+  },
+  {
+   "n": 73,
+   "stem": "According to the Union budget 2021, how much amount is allocated for Covid Vaccine?",
+   "options": [
+    "30,000 cr.",
+    "35,000 cr.",
+    "20,000 cr.",
+    "25,000 cr."
+   ]
+  },
+  {
+   "n": 74,
+   "stem": "European Union has imposed a fine of $886.6 million or 746 million euro on which shopping app?",
+   "options": [
+    "Flipkart",
+    "Amazon",
+    "Club Factory",
+    "Nykaa"
+   ]
+  },
+  {
+   "n": 75,
+   "stem": "The Union Cabinet has approved the continuation of the Samagra Shiksha Scheme for school education till which year?",
+   "options": [
+    "2026",
+    "2030",
+    "2020",
+    "2023"
+   ]
+  },
+  {
+   "n": 76,
+   "stem": "Which city has become the first Indian city to have vaccinated 100% of its eligible population against COVID-19 ?",
+   "options": [
+    "Bhubaneswar",
+    "Pune",
+    "Jaipur",
+    "Delhi"
+   ]
+  },
+  {
+   "n": 77,
+   "stem": "The government of India has allowed Women to sit in which exam recently for the first time in India?",
+   "options": [
+    "UPSC CSE",
+    "AFCAT",
+    "NDA",
+    "CDS"
+   ]
+  },
+  {
+   "n": 78,
+   "stem": "Which country is the world’s most valuable company according to the Hurun Global 500 Most Valuable Companies list 2021?",
+   "options": [
+    "Apple",
+    "Tencent",
+    "Microsoft",
+    "Alphabet"
+   ]
+  },
+  {
+   "n": 79,
+   "stem": "Kalyan Singh, who died recently, was the former Chief Minister of which state?",
+   "options": [
+    "Kerala",
+    "Karnataka",
+    "Haryana",
+    "Uttar Pradesh"
+   ]
+  },
+  {
+   "n": 80,
+   "stem": "Which state has launched the COVID-19 Affected Livelihood Support Scheme?",
+   "options": [
+    "Assam",
+    "Haryana",
+    "Manipur",
+    "Bihar"
+   ]
+  },
+  {
+   "n": 81,
+   "stem": "Which city has been named as the world’s safest city from among 60 global cities, according to economist Intelligence Unit’s Safe City Index?",
+   "options": [
+    "Copenhagen",
+    "London",
+    "Rome",
+    "Budapest"
+   ]
+  },
+  {
+   "n": 82,
+   "stem": "Which country has overtaken the United States to become the second-most sought-after manufacturing destination globally according to The Cushman and Wakefield 2021 Global Manufacturing Risk Index?",
+   "options": [
+    "India",
+    "Japan",
+    "China",
+    "Australia"
+   ]
+  },
+  {
+   "n": 83,
+   "stem": "The issues related to Chakma and Hajong communities are occurring in which state?",
+   "options": [
+    "Assam",
+    "Arunachal Pradesh",
+    "Bihar",
+    "Sikkim"
+   ]
+  },
+  {
+   "n": 84,
+   "stem": "Astronomers have discovered the fastest orbiting asteroid in the solar system. The asteroid has been dubbed as __________.",
+   "options": [
+    "2021 PH27",
+    "Hathor",
+    "Ceres 2021",
+    "Pallas"
+   ]
+  },
+  {
+   "n": 85,
+   "stem": "The first case of AY.12 sub-lineage of the Delta variant has been detected in which Indian state?",
+   "options": [
+    "Maharashtra",
+    "Himachal Pradesh",
+    "Kerala",
+    "Uttrakhand"
+   ]
+  },
+  {
+   "n": 86,
+   "stem": "Which state/UT has passed the Cattle Preservation Bill, 2021?",
+   "options": [
+    "Assam",
+    "Manipur",
+    "Sikkim",
+    "Odisha"
+   ]
+  },
+  {
+   "n": 87,
+   "stem": "Which state has become the first one in the country to give free water to people?",
+   "options": [
+    "Karnataka",
+    "Uttar Pradesh",
+    "Telangana",
+    "Goa"
+   ]
+  },
+  {
+   "n": 88,
+   "stem": "The world’s highest motorable road at 18,600 ft has been opened in which state/Union Territory?",
+   "options": [
+    "Sikkim",
+    "Arunachal Pradesh",
+    "Ladakh",
+    "Jammu and Kashmir"
+   ]
+  },
+  {
+   "n": 89,
+   "stem": "Who is the current head or supreme leader of Afghanistan?",
+   "options": [
+    "Hibatullah Akhundzada",
+    "Abdul Ghani Baradar",
+    "Abdul Salam Hanafi",
+    "Mohammad Hassan Akhund"
+   ]
+  },
+  {
+   "n": 90,
+   "stem": "Which country has declared a state of emergency as the food crisis worsened after private banks ran out of foreign exchange to finance imports?",
+   "options": [
+    "Bangladesh",
+    "Afghanistan",
+    "Myanmar",
+    "Sri Lanka"
+   ]
+  },
+  {
+   "n": 91,
+   "stem": "Which nation hosted the 13th BRICS Summit?",
+   "options": [
+    "India",
+    "Russia",
+    "China",
+    "South Africa"
+   ]
+  },
+  {
+   "n": 92,
+   "stem": "Which University has topped in the list of Times World University Rankings 2022?",
+   "options": [
+    "Stanford University",
+    "Harvard University",
+    "University of Oxford",
+    "California Institute of Technology"
+   ]
+  },
+  {
+   "n": 93,
+   "stem": "International Literacy Day is observed on which date?",
+   "options": [
+    "September 05",
+    "September 07",
+    "September 08",
+    "September 06"
+   ]
+  },
+  {
+   "n": 94,
+   "stem": "Kongthong village, which has been nominated as UNWTO ‘Best Tourism Village’ is located in which state?",
+   "options": [
+    "Manipur",
+    "Arunachal Pradesh",
+    "Nagaland",
+    "Meghalaya"
+   ]
+  },
+  {
+   "n": 95,
+   "stem": "Andrew H.Thangliana, who passed away in september, belongs to which profession?",
+   "options": [
+    "Politician",
+    "Musician",
+    "Social worker",
+    "Journalist"
+   ]
+  },
+  {
+   "n": 96,
+   "stem": "Which nation’s President has been ousted in a military coup in September, 2021?",
+   "options": [
+    "Niger",
+    "Guinea",
+    "Nigeria",
+    "Egypt"
+   ]
+  },
+  {
+   "n": 97,
+   "stem": "Which country is currently building “Mars Science City” to develop technology to colonize Mars?",
+   "options": [
+    "China",
+    "Qatar",
+    "UAE",
+    "United States"
+   ]
+  },
+  {
+   "n": 98,
+   "stem": "Match the following: Prime Minister Country A. Najib Mikati 1. Armenia B. Aziz Akhannouch 2. Lebanon C. Justin Trudeau 3. Morocco D. Nikol Pashinyan. 4. Canada Choose the correct combination from below- Codes: A B C D",
+   "options": [
+    "1 2 3 4",
+    "2 3 4 1",
+    "2 1 4 3",
+    "3 1 4 2"
+   ]
+  },
+  {
+   "n": 99,
+   "stem": "In which state India’s 61st Software Technology Park Centre has been opened recently?",
+   "options": [
+    "Meghalaya",
+    "Manipur",
+    "Nagaland",
+    "Sikkim"
+   ]
+  },
+  {
+   "n": 100,
+   "stem": "The Legislative Assembly of which state has presented a separate budget for Agriculture for the first time in the history of Assembly?",
+   "options": [
+    "Ladakh",
+    "Tamil Nadu",
+    "Gujarat",
+    "Telangana"
+   ]
+  }
+ ],
+ "ProgCo2021:GS-II": [
+  {
+   "n": 1,
+   "stem": "In 1600, Queen Elizabeth granted a Charter to the East India Company for monopoly of trade in the east for",
+   "options": [
+    "10 years",
+    "15 years",
+    "20 years",
+    "25 years"
+   ]
+  },
+  {
+   "n": 2,
+   "stem": "In the beginning the aim of AO Hume was to make Congress a",
+   "options": [
+    "Cultural Organization",
+    "Political Organization",
+    "Social Organization",
+    "All the above"
+   ]
+  },
+  {
+   "n": 3,
+   "stem": "The British introduced separate communal electorates for the Muslims through",
+   "options": [
+    "The Indian Councils Act 1861",
+    "The Indian Councils Act 1892",
+    "The Indian Councils Act 1909",
+    "Government of India Act, 1919"
+   ]
+  },
+  {
+   "n": 4,
+   "stem": "Given below are some of the important functionaries of the Constituent Assembly and their positions. Which one of the following pairs is not correctly matched?",
+   "options": [
+    "Constitutional Advisor- BN Rau",
+    "Temporary President of the Constituent Assembly- Sachidanand Sinha",
+    "A member of the Drafting Committee – BL Mittar",
+    "Permanent President of the Constituent Assembly – Dr BR Ambedkar"
+   ]
+  },
+  {
+   "n": 5,
+   "stem": "The writ of Prohibition can be issued only against",
+   "options": [
+    "Administrative authorities",
+    "Legislative bodies",
+    "Judicial and Quasi- Judicial bodies",
+    "Private individuals or bodies"
+   ]
+  },
+  {
+   "n": 6,
+   "stem": "“The swaraj of today is within the empire and not independent of it.” Who declared this?",
+   "options": [
+    "Mahatma Gandhi",
+    "Jawaharlal Nehru",
+    "Tilak",
+    "Lala Lajpat Rai"
+   ]
+  },
+  {
+   "n": 7,
+   "stem": "Which one of the following statements is correct with reference to the Government of India Act, 1935?",
+   "options": [
+    "The federal executive was to consist of the Governor General and Counsellors",
+    "The federal legislature was to consist of the Governor General, the Council of States and the Federal Assembly",
+    "There were Twelve Governors’ provinces and six Chief Commissioners’ provinces",
+    "The provincial legislature was to consist of the Governor and only the Lower house of the Legislature"
+   ]
+  },
+  {
+   "n": 8,
+   "stem": "‘India in Transition’ is a book authored by?",
+   "options": [
+    "MN Roy",
+    "Lala Laljpat Rai",
+    "Lokmanya Tilak",
+    "MG Ranade"
+   ]
+  },
+  {
+   "n": 9,
+   "stem": "The most important event that brought fame to Rammohan Roy was",
+   "options": [
+    "The establishment of Brahmo Samaj",
+    "The establishment of Arya Samaj",
+    "Advocacy for monotheism",
+    "His pioneering effort for religious reform"
+   ]
+  },
+  {
+   "n": 10,
+   "stem": "Which one of the following is not the work of Aurobindo?",
+   "options": [
+    "Ideal of human unity",
+    "Human Cycle",
+    "Foundations of Indian Culture",
+    "Perpetual peace"
+   ]
+  },
+  {
+   "n": 11,
+   "stem": "For Nehru, Socialism was something even more than",
+   "options": [
+    "Political doctrine",
+    "Public policy",
+    "Economic doctrine",
+    "Societal norms"
+   ]
+  },
+  {
+   "n": 12,
+   "stem": "Dadabhai Naoroji’s name is associated with",
+   "options": [
+    "Drain of Wealth theory",
+    "Colonialism theory",
+    "Whiteman’s burden theory",
+    "Imperialism theory"
+   ]
+  },
+  {
+   "n": 13,
+   "stem": "Who established Servants of India Society in 1905?",
+   "options": [
+    "Tilak",
+    "Sri Aurobindo",
+    "Gopal Krishna Gokhale",
+    "MN Roy"
+   ]
+  },
+  {
+   "n": 14,
+   "stem": "According to Ambedkar, Untouchability could not be reviewed without destroying",
+   "options": [
+    "Socialism",
+    "Communalism",
+    "Class system",
+    "Caste system"
+   ]
+  },
+  {
+   "n": 15,
+   "stem": "Gandhi’s ideal society was a non violent and",
+   "options": [
+    "Classless society",
+    "Stateless society",
+    "Powerless society",
+    "Absence of oppression"
+   ]
+  },
+  {
+   "n": 16,
+   "stem": "Art. 17 of the Constitution provides for the",
+   "options": [
+    "Abolition of untouchability",
+    "Equality before law",
+    "Rights against self- discrimination",
+    "None of these"
+   ]
+  },
+  {
+   "n": 17,
+   "stem": "The boundary of a State in India can be altered through the procedure laid down in the Article-",
+   "options": [
+    "3",
+    "70",
+    "130",
+    "368"
+   ]
+  },
+  {
+   "n": 18,
+   "stem": "In which one of the following cases has the Supreme Court of India laid down that a Citizen can be compensated for loss or injury caused by arbitrary or capricious action by a public authority?",
+   "options": [
+    "Maneka Gandhi Vs Union of India",
+    "Indira Sawhney Vs Union of India",
+    "Bandhua Mukti Morcha Vs Union of India",
+    "Common Cause Vs Union of India"
+   ]
+  },
+  {
+   "n": 19,
+   "stem": "Who termed the Indian federal system as ‘bargaining federalism’?",
+   "options": [
+    "Paul Appleby",
+    "Ivor Jennings",
+    "KC Wheare",
+    "Morris Jones"
+   ]
+  },
+  {
+   "n": 20,
+   "stem": "The quorum to constitute a sitting of the Rajya Sabha is",
+   "options": [
+    "25",
+    "35",
+    "45",
+    "55"
+   ]
+  },
+  {
+   "n": 21,
+   "stem": "Subjects in the State list originally consist of",
+   "options": [
+    "52 subjects",
+    "61 subjects",
+    "66 subjects",
+    "97 subjects"
+   ]
+  },
+  {
+   "n": 22,
+   "stem": "Which one of the following is an example of direct democracy?",
+   "options": [
+    "Gram Sabha",
+    "Village Panchayat",
+    "Nagar Panchayat",
+    "District Panchayat"
+   ]
+  },
+  {
+   "n": 23,
+   "stem": "Participatory Democracy calls for",
+   "options": [
+    "Greater involvement of the citizens in the business of legislature",
+    "Active engagement of the representatives in the affairs of their constituencies",
+    "Greater and active engagement of citizens in governance",
+    "Increasing the voter turnout in elections"
+   ]
+  },
+  {
+   "n": 24,
+   "stem": "It is mandatory for the Governor to reserve a Bill for the consideration by the President if such a Bill affects-",
+   "options": [
+    "The rate of land revenue",
+    "The powers of the Advocate General of the State",
+    "The amount of salary paid to the members of Legislative Assembly",
+    "Powers of High Court"
+   ]
+  },
+  {
+   "n": 25,
+   "stem": "In which case did the Supreme Court of India enunciated the doctrine of ‘Basic Structure’ of the Constitution?",
+   "options": [
+    "Golaknath Case in 1967",
+    "Sajjan Singh Case in 1965",
+    "Shankari Prasad Case in 1951",
+    "None of these"
+   ]
+  },
+  {
+   "n": 26,
+   "stem": "Which one of the following Directive Principles is not added by the 42 nd Amendment?",
+   "options": [
+    "participation of workers in the management of Industry",
+    "Protection of environment",
+    "Free legal aid to poor",
+    "Minimising inequality of income and status"
+   ]
+  },
+  {
+   "n": 27,
+   "stem": "Which is the most important reason to consider India as a secular State?",
+   "options": [
+    "Religion is separated from politics",
+    "Government works for the welfare of people of all religions",
+    "Minority religions are given special protection",
+    "People of different religions live in India"
+   ]
+  },
+  {
+   "n": 28,
+   "stem": "Which one of the following statements regarding the Judicial review in India is not correct?",
+   "options": [
+    "A case must be brought before the Supreme Court regarding the validity of the law",
+    "Unanimous opinion of all the judges is necessary for declaring a law null and void",
+    "Legislative enactments and executive orders may be struck down by the Supreme Court",
+    "This power is implicit in the provisions of Article 13 of the Constitution"
+   ]
+  },
+  {
+   "n": 29,
+   "stem": "Zero Hour in the working of Indian Parliament means",
+   "options": [
+    "The first hour of the session",
+    "The period when the privilege motion is accepted",
+    "The period before the question hour",
+    "The interval between the end of question hour and the taking up of the next agenda"
+   ]
+  },
+  {
+   "n": 30,
+   "stem": "Which of the following Committees is not concerned with Panchayati Raj?",
+   "options": [
+    "Santhanam Committee",
+    "Ashok Mehta Committee",
+    "Balwant Rai Mehta Committee",
+    "VK RV Rao Committee"
+   ]
+  },
+  {
+   "n": 31,
+   "stem": "The word ‘Caste’ meaning breed, strain or a complex hereditary qualities is derived from",
+   "options": [
+    "Latin",
+    "Portuguese",
+    "Spanish",
+    "French"
+   ]
+  },
+  {
+   "n": 32,
+   "stem": "Who among the following occupies the top level of social hierarchy in the Hindu society",
+   "options": [
+    "Brahmans",
+    "Kshatriays",
+    "Vaishas",
+    "Sudras"
+   ]
+  },
+  {
+   "n": 33,
+   "stem": "State politics in Kerala reflects a struggle between",
+   "options": [
+    "Lingayats and Okkaligas",
+    "Jats and Rajputs",
+    "Marathas and Mahars",
+    "Nayars and Ezahavas"
+   ]
+  },
+  {
+   "n": 34,
+   "stem": "Major obstacle to national integration is",
+   "options": [
+    "Linguism",
+    "Regionalism",
+    "Casteism",
+    "All of the above"
+   ]
+  },
+  {
+   "n": 35,
+   "stem": "Group based political mobilization is the main factor responsible for the growth of",
+   "options": [
+    "Regionalism",
+    "Communalism",
+    "Religious fanaticism",
+    "Linguism"
+   ]
+  },
+  {
+   "n": 36,
+   "stem": "The basis of the power of elites is",
+   "options": [
+    "Religious",
+    "Socio- economic",
+    "Ethnicity",
+    "Scientific"
+   ]
+  },
+  {
+   "n": 37,
+   "stem": "Which party won 40 seats for Haryana Assembly elections held in 2019?",
+   "options": [
+    "BJP",
+    "INC",
+    "INLD",
+    "CPI"
+   ]
+  },
+  {
+   "n": 38,
+   "stem": "A specialized wing under NITI AYOG is",
+   "options": [
+    "Research wing",
+    "Consultancy wing",
+    "Team India wing",
+    "All of the above"
+   ]
+  },
+  {
+   "n": 39,
+   "stem": "Who presented union budget of India and in which house/ houses of the Parliament?",
+   "options": [
+    "Finance Minister of India; Lok Sabha",
+    "Prime Minister of India; Rajya Sabha",
+    "Cabinet Secretary; Both Lok Sabha and Rajya Sabha",
+    "President of India; in joint session of Parliament"
+   ]
+  },
+  {
+   "n": 40,
+   "stem": "Economic Planning comes under which of the following lists?",
+   "options": [
+    "Union List",
+    "State List",
+    "Concurrent List",
+    "None of the above"
+   ]
+  },
+  {
+   "n": 41,
+   "stem": "Economic survey is published by?",
+   "options": [
+    "Planning Commission",
+    "Ministry of Finance",
+    "Govt. of India",
+    "Indian Statistical Institute"
+   ]
+  },
+  {
+   "n": 42,
+   "stem": "Who prepared the estimates of national income in India?",
+   "options": [
+    "Planning commission",
+    "Reserve bank of India",
+    "Ministry of finance",
+    "Central statistical organization"
+   ]
+  },
+  {
+   "n": 43,
+   "stem": "Fiscal Deficit means?",
+   "options": [
+    "A shortfall in government’s income compared with its spending",
+    "A shortfall in government’s expenditure compared with its income",
+    "The difference between current expenditure and current revenue",
+    "Net increase in Union Government borrowings from the RBI"
+   ]
+  },
+  {
+   "n": 44,
+   "stem": "Fiscal Policy is connected with?",
+   "options": [
+    "exports and imports",
+    "Issue of currency",
+    "Government’s budget",
+    "None of these"
+   ]
+  },
+  {
+   "n": 45,
+   "stem": "Globalisation of Indian Economy means?",
+   "options": [
+    "Increasing economic interdependence of Indian economy with other economies",
+    "having minimum possible restrictions on economic relations with other countries",
+    "stepping up external borrowings",
+    "giving up programmes of import substitution"
+   ]
+  },
+  {
+   "n": 46,
+   "stem": "Gross Domestic Product (GDP) is the monetary value of?",
+   "options": [
+    "goods produced for the markets only",
+    "all final goods and services produced in a year",
+    "stock of goods and services",
+    "goods for the market and for self consumption"
+   ]
+  },
+  {
+   "n": 47,
+   "stem": "Which of the following measures of money denotes the Broad Money in India?",
+   "options": [
+    "M1",
+    "M2",
+    "M3",
+    "M4"
+   ]
+  },
+  {
+   "n": 48,
+   "stem": "NABARD does not provide refinance to?",
+   "options": [
+    "Export-Import Banks",
+    "Regional Rural Banks",
+    "Scheduled Commercial Banks",
+    "State Land Development Banks"
+   ]
+  },
+  {
+   "n": 49,
+   "stem": "Which of the following have the highest share in the disbursement of credit to agriculture and allied activities?",
+   "options": [
+    "Regional Rural Banks",
+    "Microfinance Institutions",
+    "NABARD",
+    "Commercial Banks"
+   ]
+  },
+  {
+   "n": 50,
+   "stem": "The place where bankers meet and settle their mutual claims and accounts is known as",
+   "options": [
+    "Clearing house",
+    "Collection centre",
+    "Treasury",
+    "Stock Market"
+   ]
+  },
+  {
+   "n": 51,
+   "stem": "Which of the following affects poverty line the most in India?",
+   "options": [
+    "Level of prices",
+    "unemployment",
+    "Per capita income",
+    "Increasing population"
+   ]
+  },
+  {
+   "n": 52,
+   "stem": "In the last one decade, which one among the following sectors has attracted the highest foreign direct investment (FDI) inflows into India?",
+   "options": [
+    "Telecommunication",
+    "Services sector",
+    "Insurance sector",
+    "Defence sector"
+   ]
+  },
+  {
+   "n": 53,
+   "stem": "In the second phase of nationalization of commercial banks, how many banks were nationalised?",
+   "options": [
+    "6",
+    "7",
+    "8",
+    "12"
+   ]
+  },
+  {
+   "n": 54,
+   "stem": "In the year 1969 how many banks were nationalised?",
+   "options": [
+    "12",
+    "13",
+    "14",
+    "15"
+   ]
+  },
+  {
+   "n": 55,
+   "stem": "In which of the Five Year Plans, the weaker sections of the society got priority?",
+   "options": [
+    "2nd",
+    "3rd",
+    "4th",
+    "5th"
+   ]
+  },
+  {
+   "n": 56,
+   "stem": "Which one of the following was launched with the objective of helping the poor in rural areas to become self-employed?",
+   "options": [
+    "DPAP",
+    "IRDP",
+    "TRYSEM",
+    "DDP"
+   ]
+  },
+  {
+   "n": 57,
+   "stem": "Which of the following organizations looks after the credit needs of agriculture and rural development in India?",
+   "options": [
+    "FCI",
+    "IDBI",
+    "NABARD",
+    "ICAR"
+   ]
+  },
+  {
+   "n": 58,
+   "stem": "In India which of the following taxes is levied by the state governments?",
+   "options": [
+    "Excise duty on liquor",
+    "Capital gains tax",
+    "Customs tax",
+    "corporation tax"
+   ]
+  },
+  {
+   "n": 59,
+   "stem": "Which industry employs the largest number of women in India?",
+   "options": [
+    "tea",
+    "automobile",
+    "jute",
+    "coal"
+   ]
+  },
+  {
+   "n": 60,
+   "stem": "Which of the following is not a cash crop?",
+   "options": [
+    "Wheat",
+    "groundnut",
+    "jowar",
+    "sugarcane"
+   ]
+  },
+  {
+   "n": 61,
+   "stem": "SEBI stands for",
+   "options": [
+    "State Excise Board of India",
+    "Securities and Exchange Board of India",
+    "Social Equity Bureau of India",
+    "Science and Educational Board of India"
+   ]
+  },
+  {
+   "n": 62,
+   "stem": "The ‘Vision 2020’ relates with",
+   "options": [
+    "Poverty eradication program",
+    "Achieving 100% education",
+    "Developing 100 smart cities across the country",
+    "Overall economic development"
+   ]
+  },
+  {
+   "n": 63,
+   "stem": "D.R. Gadgil Committee is related to",
+   "options": [
+    "Agricultural finance",
+    "Public Distribution System",
+    "Mutual Funds (Functioning)",
+    "Poverty"
+   ]
+  },
+  {
+   "n": 64,
+   "stem": "The Twenty Point Program (TPP) was implemented in the year?",
+   "options": [
+    "1952",
+    "1962",
+    "1972",
+    "1982"
+   ]
+  },
+  {
+   "n": 65,
+   "stem": "The Blue Revolution is related with?",
+   "options": [
+    "Fish production",
+    "Food grain production",
+    "Oilseed production",
+    "Milk production"
+   ]
+  },
+  {
+   "n": 66,
+   "stem": "The Green Revolution in India was the outcome of the efforts of who amongst the following?",
+   "options": [
+    "M.S. Swaminathan",
+    "C. Rangrajan",
+    "C.K.V. Kamalnath",
+    "Chidambaram"
+   ]
+  },
+  {
+   "n": 67,
+   "stem": "The National Bank for Agriculture and Rural Development (NABARD) was established in the year?",
+   "options": [
+    "1952",
+    "1962",
+    "1972",
+    "1982"
+   ]
+  },
+  {
+   "n": 68,
+   "stem": "The price at which the Government purchases food grains for maintaining the public distribution system and for building up buffer stocks are known as :",
+   "options": [
+    "Minimum Support Prices",
+    "Ceiling Prices",
+    "Procurement Prices",
+    "wholesale price"
+   ]
+  },
+  {
+   "n": 69,
+   "stem": "Which of the following is a part of capital account?",
+   "options": [
+    "Private capital",
+    "Banking capital",
+    "Official capital",
+    "All of the above"
+   ]
+  },
+  {
+   "n": 70,
+   "stem": "The final balance of a country is",
+   "options": [
+    "always balanced",
+    "always deficit",
+    "fluctuates",
+    "always surplus"
+   ]
+  },
+  {
+   "n": 71,
+   "stem": "The Chairman of NITI Aayog is",
+   "options": [
+    "The President of India",
+    "The Prime Minister of India",
+    "RBI Governor",
+    "None of these"
+   ]
+  },
+  {
+   "n": 72,
+   "stem": "The rate of growth of an economy is measured in terms of",
+   "options": [
+    "National Income",
+    "Per Capita",
+    "Poverty",
+    "Employment"
+   ]
+  },
+  {
+   "n": 73,
+   "stem": "Which of the following states ranks first in terms of the maximum number of agro based industries?",
+   "options": [
+    "Gujarat",
+    "Uttar Pradesh",
+    "Tamil Nadu",
+    "Punjab"
+   ]
+  },
+  {
+   "n": 74,
+   "stem": "NBFC stands for",
+   "options": [
+    "Net banking financial services",
+    "Non banking financial companies",
+    "National banks fiscal services",
+    "Net banking fiscal services"
+   ]
+  },
+  {
+   "n": 75,
+   "stem": "Which is the best indicator of economic development is",
+   "options": [
+    "good agricultural development",
+    "higher per capita income",
+    "higher GDP growth",
+    "Lower rate of inflation."
+   ]
+  },
+  {
+   "n": 76,
+   "stem": "The southernmost point of India’s mainland:",
+   "options": [
+    "Kanyakumari",
+    "Palk Strait",
+    "Andaman and Nicobar Islands",
+    "Lakshadweep"
+   ]
+  },
+  {
+   "n": 77,
+   "stem": "Delhi is part of:",
+   "options": [
+    "Aravali range",
+    "Siwalik range",
+    "Rajasthan range",
+    "North India range"
+   ]
+  },
+  {
+   "n": 78,
+   "stem": "Northern Most point of India:",
+   "options": [
+    "Pamir knot",
+    "Leh",
+    "Indira Col",
+    "Line of Control"
+   ]
+  },
+  {
+   "n": 79,
+   "stem": "Which states of India has the longest coastline?",
+   "options": [
+    "Andhra Pradesh",
+    "Tamil Nadu",
+    "Maharashtra",
+    "Gujarat"
+   ]
+  },
+  {
+   "n": 80,
+   "stem": "How many Union Territory are there in India (2019):",
+   "options": [
+    "10",
+    "7",
+    "9",
+    "8"
+   ]
+  },
+  {
+   "n": 81,
+   "stem": "Delhi is situated on the river bank of:",
+   "options": [
+    "Yamuna",
+    "Mahanadi",
+    "Tapti",
+    "Hoogly"
+   ]
+  },
+  {
+   "n": 82,
+   "stem": "Konkan Coast is found near:",
+   "options": [
+    "Maharashtra and Goa",
+    "Odhisa and Andhra Pradesh",
+    "Tamil Nadu",
+    "Kerala"
+   ]
+  },
+  {
+   "n": 83,
+   "stem": "Radcliffe Line demarcated India and:",
+   "options": [
+    "Pakistan",
+    "Nepal",
+    "Bhutan",
+    "Afghanistan"
+   ]
+  },
+  {
+   "n": 84,
+   "stem": "Deccan Trap is also known as:",
+   "options": [
+    "Southern triangle",
+    "Laterite belt of India",
+    "Black cotton soil",
+    "Chhotanagpur region"
+   ]
+  },
+  {
+   "n": 85,
+   "stem": "Kaimur Hills is in:",
+   "options": [
+    "Central India",
+    "Northern plain",
+    "North-east India",
+    "South-west India"
+   ]
+  },
+  {
+   "n": 86,
+   "stem": "Karewas are found in:",
+   "options": [
+    "Jammu & Kashmir",
+    "Rajasthan",
+    "Maharastra",
+    "Tamil Nadu"
+   ]
+  },
+  {
+   "n": 87,
+   "stem": "Which states has the largest forest cover in terms of area: (ISFR,2017)?",
+   "options": [
+    "West Bengal",
+    "Mizoram",
+    "Madhya Pradesh",
+    "Arunachal Pradesh"
+   ]
+  },
+  {
+   "n": 88,
+   "stem": "Nokrek Biosphere reserve is found in:",
+   "options": [
+    "Mumbai",
+    "Karnataka Coast",
+    "Tamil Nadu Coast",
+    "Garo hills"
+   ]
+  },
+  {
+   "n": 89,
+   "stem": "The height of Mt. Everest is:",
+   "options": [
+    "8846 mt",
+    "8484 mt",
+    "8848 mt",
+    "8794 mt"
+   ]
+  },
+  {
+   "n": 90,
+   "stem": "Majuli, the world largest riverine island is found in:",
+   "options": [
+    "Brahmaputra",
+    "Ganga",
+    "Yamuna",
+    "Indua"
+   ]
+  },
+  {
+   "n": 91,
+   "stem": "Loktak lake is found in:",
+   "options": [
+    "Assam",
+    "Manipur",
+    "Arunachal Pradesh",
+    "Mizoram"
+   ]
+  },
+  {
+   "n": 92,
+   "stem": "What is India rank, in terms of rice production in the world?",
+   "options": [
+    "3rd",
+    "2nd",
+    "4th",
+    "1st"
+   ]
+  },
+  {
+   "n": 93,
+   "stem": "Digboi is associated with:",
+   "options": [
+    "Rice production",
+    "Wheat production",
+    "Coal production",
+    "Oil production"
+   ]
+  },
+  {
+   "n": 94,
+   "stem": "Which Geographical unit is known as “Roof of the World”:",
+   "options": [
+    "Hindukush",
+    "Pamir knot",
+    "Kanchenjunga",
+    "Kailash"
+   ]
+  },
+  {
+   "n": 95,
+   "stem": "What is the average annual rainfall in Mizoram based on the last 25 years data:",
+   "options": [
+    "280 cm",
+    "200 cm",
+    "300 cm",
+    "150 cm"
+   ]
+  },
+  {
+   "n": 96,
+   "stem": "India experienced negative population growth in the year:",
+   "options": [
+    "1972",
+    "1941",
+    "1921",
+    "1971"
+   ]
+  },
+  {
+   "n": 97,
+   "stem": "Decadal Population growth rate in India during 2011-2011 was:",
+   "options": [
+    "18.66",
+    "17.64",
+    "19.21",
+    "23.28"
+   ]
+  },
+  {
+   "n": 98,
+   "stem": "Most populous and least populous states in India (2011) are:",
+   "options": [
+    "Uttar Pradesh and Goa",
+    "Bihar and Arunachal Pradesh",
+    "Uttar Pradesh and Mizoram",
+    "Uttar Pradesh and Sikkim"
+   ]
+  },
+  {
+   "n": 99,
+   "stem": "Highest decadal growth rate and lowest decadal growth rate are found in (2001-2011):",
+   "options": [
+    "Uttar Pradesh and Haryana",
+    "Assam and Arunachal Pradesh",
+    "Meghalaya and Nagaland",
+    "Bihar and Jammu & Kashmir"
+   ]
+  },
+  {
+   "n": 100,
+   "stem": "Which state has highest proportion of Scheduled Castes (2011 census):",
+   "options": [
+    "Arunachal Pradesh",
+    "Nagaland",
+    "Mizoram",
+    "Meghalaya"
+   ]
+  }
+ ],
+ "ProgCo2021:GS-III": [
+  {
+   "n": 1,
+   "stem": "The concept of “Scientific Temper” was introduced in India by",
+   "options": [
+    "C.V. Raman",
+    "Jawaharlal Nehru",
+    "C.N.R. Rao",
+    "A.P.J. Abdul Kalam"
+   ]
+  },
+  {
+   "n": 2,
+   "stem": "An Indian-born scientist who received the Nobel Prize in Chemistry and Padma Vibhusan, and become President of the Royal Society is",
+   "options": [
+    "Jagadish Chandra Bose",
+    "C. V. Homi Jehangir Bhabha",
+    "Venkatraman Ramakrishnan",
+    "Subrahmanyan Chandrasekar"
+   ]
+  },
+  {
+   "n": 3,
+   "stem": "Who was popularly known as the Birdman of India?",
+   "options": [
+    "Salim Ali",
+    "Iskandar Mirza",
+    "Humayun Abdulali",
+    "Abbas Tyabji"
+   ]
+  },
+  {
+   "n": 4,
+   "stem": "An aerospace scientist who became the 11th President of India was",
+   "options": [
+    "Sarvepalli Radhakrishnan",
+    "Shankar Dayal Sharma",
+    "Varahagiri Venkata Giri",
+    "A.P.J. Abdul Kalam"
+   ]
+  },
+  {
+   "n": 5,
+   "stem": "National Science Day in India is observed on",
+   "options": [
+    "28 February",
+    "28 March",
+    "18 April",
+    "18 June"
+   ]
+  },
+  {
+   "n": 6,
+   "stem": "In Aadhaar, the most reliable biometric identification is scanning of the",
+   "options": [
+    "face",
+    "DNA fingerprint",
+    "hand geometry",
+    "iris"
+   ]
+  },
+  {
+   "n": 7,
+   "stem": "National Science Day in India is observed in honour of the Nobel laureate",
+   "options": [
+    "Chandrashekhara Venkata Raman",
+    "Rabindranath Tagore",
+    "Amartya Sen",
+    "A.P.J. Abdul Kalam"
+   ]
+  },
+  {
+   "n": 8,
+   "stem": "This mathematical symbol was first used in India",
+   "options": [
+    "α",
+    "1",
+    "0",
+    "±"
+   ]
+  },
+  {
+   "n": 9,
+   "stem": "Agni-V is",
+   "options": [
+    "an intercontinental ballistic missile",
+    "a medium-range ballistic missile",
+    "an intermediate-range ballistic missile",
+    "a short-range ballistic missile"
+   ]
+  },
+  {
+   "n": 10,
+   "stem": "Ronald Ross received the 1902 Nobel Prize in Physiology or Medicine for his work in India, which is the discovery of the",
+   "options": [
+    "causes of cancer",
+    "etiology of diabetes mellitus",
+    "transmission of malaria",
+    "first drug for tuberculosis"
+   ]
+  },
+  {
+   "n": 11,
+   "stem": "Bosons, subatomic particles, are named after",
+   "options": [
+    "Satyendra Nath Bose",
+    "Subhas Chandra Bose",
+    "Jagadish Chandra Bose",
+    "Amar Bose"
+   ]
+  },
+  {
+   "n": 12,
+   "stem": "Chandrashekhar limit is about the",
+   "options": [
+    "rate of expansion of the galaxy",
+    "size of white dwarf star",
+    "number of protons in an element",
+    "speed of light in vacuum"
+   ]
+  },
+  {
+   "n": 13,
+   "stem": "The title “father of the Indian nuclear programme” is given to",
+   "options": [
+    "Venkatraman Radhakrishnan",
+    "Rajagopala Chidambaram",
+    "Homi Jehangir Bhabha",
+    "Piara Singh Gill"
+   ]
+  },
+  {
+   "n": 14,
+   "stem": "The first satellite launched by India is",
+   "options": [
+    "Bhaskara",
+    "Aryabhata",
+    "Rohini",
+    "INSAT"
+   ]
+  },
+  {
+   "n": 15,
+   "stem": "In astronomy, Saraswati refers to",
+   "options": [
+    "the estimated size of the universe",
+    "the number of stars in Milky Way",
+    "a supermassive blackhole",
+    "a supercluster of galaxies"
+   ]
+  },
+  {
+   "n": 16,
+   "stem": "India is home to a deadly infection called kala azar or visceral leishmaniasis which is transmitted by",
+   "options": [
+    "sandflies",
+    "mosquitos",
+    "rats",
+    "fleas"
+   ]
+  },
+  {
+   "n": 17,
+   "stem": "ISRO stands for",
+   "options": [
+    "Indian Science Research Organisation",
+    "Indian Space Research Organisation",
+    "International Space Research Operation",
+    "International Science Research Organisation"
+   ]
+  },
+  {
+   "n": 18,
+   "stem": "An infectious disease that is completely eradicated in India is",
+   "options": [
+    "diphtheria",
+    "dracunculiasis",
+    "smallpox",
+    "polio"
+   ]
+  },
+  {
+   "n": 19,
+   "stem": "A dye that was originally developed in India was",
+   "options": [
+    "magenta",
+    "indigo",
+    "red oxide",
+    "saffron"
+   ]
+  },
+  {
+   "n": 20,
+   "stem": "Three Indian scientists who had received the highest civilian award Bharat Ratna are",
+   "options": [
+    "C. N. R. Rao, C.V. Raman and A. P. J. Abdul Kalam",
+    "C.V. Raman, V. Ramakrishnan and A. P. J. Abdul Kalam",
+    "K. S. Chandrasekharan, C.V. Raman and A. P. J. Abdul Kalam",
+    "A. P. J. Abdul Kalam, C.N.R. Rao and Homi Jehangir Bhabha"
+   ]
+  },
+  {
+   "n": 21,
+   "stem": "One of the most prestigious scientific awards in India is",
+   "options": [
+    "Infosys Prize",
+    "Aryabhata Award",
+    "Shanti Swarup Bhatnagar Prize for Science and Technology",
+    "G. D. Birla Award for Scientific Research"
+   ]
+  },
+  {
+   "n": 22,
+   "stem": "Nobel Prize winner, Har Gobind Khorana was known for the discovery of",
+   "options": [
+    "pulsar",
+    "supermassive blackholes",
+    "DNA structure",
+    "genetic code"
+   ]
+  },
+  {
+   "n": 23,
+   "stem": "Crescograph is a device for measuring",
+   "options": [
+    "music",
+    "heartbeat",
+    "plant growth",
+    "rate of sound wave"
+   ]
+  },
+  {
+   "n": 24,
+   "stem": "Crescograph was invented by",
+   "options": [
+    "Jagadish Chandra Bose",
+    "Venkatraman Radhakrishnan",
+    "Ashoke Sen",
+    "C.V. Raman"
+   ]
+  },
+  {
+   "n": 25,
+   "stem": "An Indian scientist who made important contributions in quantum statistics was",
+   "options": [
+    "Shiraz Minwalla",
+    "Subramanyan Chandrasekhar",
+    "Jagadish Chandra Bose",
+    "Satyendra Nath Bose"
+   ]
+  },
+  {
+   "n": 26,
+   "stem": "The first Director-General of the Council of Scientific and Industrial Research (CSIR) was",
+   "options": [
+    "Shanti Swaroop Bhatnagar",
+    "Vikram Sarabhai",
+    "Shrinivas Kulkarni",
+    "Siva Brata Bhattacherjee"
+   ]
+  },
+  {
+   "n": 27,
+   "stem": "Raman effect is about",
+   "options": [
+    "speed of light",
+    "event horizon",
+    "electrical conductance",
+    "scattering of photons"
+   ]
+  },
+  {
+   "n": 28,
+   "stem": "The first nuclear test explosion in India was in 1974 at",
+   "options": [
+    "Bombay",
+    "Pokhran",
+    "Kharagpur",
+    "Thar"
+   ]
+  },
+  {
+   "n": 29,
+   "stem": "The first pharmaceutical company in India was started by",
+   "options": [
+    "Prafulla Chandra Ray",
+    "Amiya Charan Banerjee",
+    "K. S. Chandrasekharan",
+    "Debasish Ghose"
+   ]
+  },
+  {
+   "n": 30,
+   "stem": "Raj Reddy is internationally renowned for his works on",
+   "options": [
+    "solar car",
+    "LED light",
+    "radiology",
+    "artificial intelligence"
+   ]
+  },
+  {
+   "n": 31,
+   "stem": "Internet in India was started in 1995 by",
+   "options": [
+    "TATA",
+    "BSNL",
+    "VSNL",
+    "JIO"
+   ]
+  },
+  {
+   "n": 32,
+   "stem": "Malaria is transmitted by mosquito was discovered in India by",
+   "options": [
+    "Ronald Ross",
+    "J.B.S. Haldane",
+    "Charles Donovan",
+    "William Leishman"
+   ]
+  },
+  {
+   "n": 33,
+   "stem": "The first supercomputer in India PARAM 8000 was made in",
+   "options": [
+    "Delhi",
+    "Pune",
+    "Mumbai",
+    "Bangalore"
+   ]
+  },
+  {
+   "n": 34,
+   "stem": "The world’s second and India’s first test tube baby was nicknamed",
+   "options": [
+    "Ramayana",
+    "Guru Nanak",
+    "Krishna",
+    "Durga"
+   ]
+  },
+  {
+   "n": 35,
+   "stem": "The first Indian satellite to the Moon was",
+   "options": [
+    "Rohini RS-1",
+    "Chandrayaan-1",
+    "Bhaskara Sega-I",
+    "INSAT 1"
+   ]
+  },
+  {
+   "n": 36,
+   "stem": "The first successful nuclear bomb test in India was nicknamed",
+   "options": [
+    "Smiling Buddha",
+    "Fat Boy",
+    "Praying Mantis",
+    "Holocaust"
+   ]
+  },
+  {
+   "n": 37,
+   "stem": "The first railway in India ran from",
+   "options": [
+    "Delhi to Agra",
+    "Pune to Kolkata",
+    "Hyderabad to Secunderabad",
+    "Bombay to Thane"
+   ]
+  },
+  {
+   "n": 38,
+   "stem": "The biopiracy case of the neem tree (Azadirachta indica) was between",
+   "options": [
+    "India and Pakistan",
+    "India and U.S.",
+    "India and U.K.",
+    "India and China"
+   ]
+  },
+  {
+   "n": 39,
+   "stem": "The Mizo traditional village medicine man who performed religious rites for all the villagers is",
+   "options": [
+    "Bawlpu",
+    "Sadawt",
+    "Thlahpawi",
+    "Ramhual"
+   ]
+  },
+  {
+   "n": 40,
+   "stem": "A person who surrendered to the hands of the chief due to poverty is called",
+   "options": [
+    "Chemsen bawi",
+    "Tukluh bawi",
+    "Inpuichhung bawi",
+    "Sal"
+   ]
+  },
+  {
+   "n": 41,
+   "stem": "The sleeping place of zawlbuk was called",
+   "options": [
+    "Bawhbel",
+    "Dawvan",
+    "Awkpaka",
+    "Sumhmun"
+   ]
+  },
+  {
+   "n": 42,
+   "stem": "The first day of Chapchar Kut was called",
+   "options": [
+    "Ralte Ni",
+    "Eipuar awm ni",
+    "Lusei vawk talh ni",
+    "Zupui ni"
+   ]
+  },
+  {
+   "n": 43,
+   "stem": "Which one is a Mizo musical instrument mostly played by females",
+   "options": [
+    "Talhkhuang",
+    "Rawchhem",
+    "Tumphit",
+    "Bengbung"
+   ]
+  },
+  {
+   "n": 44,
+   "stem": "Which one is not the prescribed wild animal to kill to obtained Thangchhuah title",
+   "options": [
+    "Savawm",
+    "Sazuk",
+    "Sanghal",
+    "Sakei"
+   ]
+  },
+  {
+   "n": 45,
+   "stem": "The Mizo musical instrument ‘Tumphit’ is",
+   "options": [
+    "Made up of three small bamboos having different sizes and length",
+    "Usually played by girls in their leisure",
+    "Made of bamboo, had only three holes producing three different sounds",
+    "Is a kind of fiddle or violin having only one string"
+   ]
+  },
+  {
+   "n": 46,
+   "stem": "During the Chin Lushai Expedition, the Chittagong Column advanced base called ‘Fort Tregear’ is located at",
+   "options": [
+    "Darzo",
+    "Lunglei",
+    "Haka",
+    "Demagiri"
+   ]
+  },
+  {
+   "n": 47,
+   "stem": "The Lushai Scout Corps recruited in 1944 was also known as",
+   "options": [
+    "Biate Sipai",
+    "Regular Army",
+    "Burma Army",
+    "Lushai Army"
+   ]
+  },
+  {
+   "n": 48,
+   "stem": "The first Mizo converts to recieve baptism Khuma and Khara, who were baptised on",
+   "options": [
+    "25 September 1899",
+    "25 August 1899",
+    "25 June 1899",
+    "25 July 1899"
+   ]
+  },
+  {
+   "n": 49,
+   "stem": "Which among the following Mizo Kut is associated with ‘Chai Dance’",
+   "options": [
+    "Pawl Kut",
+    "Chapchar Kut",
+    "Mim Kut",
+    "Thal Favang Kut"
+   ]
+  },
+  {
+   "n": 50,
+   "stem": "Bengkhuaia attacked the tea garden of Katlicherra and Alexandrapur in the year",
+   "options": [
+    "On 23rd January, 1871",
+    "On 24th February, 1872",
+    "On 25th January, 1871",
+    "On 26th February, 1873"
+   ]
+  },
+  {
+   "n": 51,
+   "stem": "The codename of MNF declaration of independence on 1st March, 1966 was",
+   "options": [
+    "Operation Joshua",
+    "Operation Moses",
+    "Operation Jerusalem",
+    "Operation Jericho"
+   ]
+  },
+  {
+   "n": 52,
+   "stem": "The first phase of grouping of villages in Mizoram during MNF independent movement was",
+   "options": [
+    "Extended Loop Area (ELA)",
+    "Progressive and Protective Villages (PPV)",
+    "New Grouping Centre (NGC)",
+    "Voluntery Grouping Centre"
+   ]
+  },
+  {
+   "n": 53,
+   "stem": "The dance usually performed in the ceremony called ‘Khuangchawi’",
+   "options": [
+    "Chawraw",
+    "Sarlamkai",
+    "Khuallam",
+    "Chheih lam"
+   ]
+  },
+  {
+   "n": 54,
+   "stem": "The Gospel revival in Mizoram was first experienced in the year",
+   "options": [
+    "1906",
+    "1919",
+    "1913",
+    "1930"
+   ]
+  },
+  {
+   "n": 55,
+   "stem": "Pick out the odd pair",
+   "options": [
+    "Dr.Peter Fraser - abolition of slavery",
+    "N.E.Parry - establishment of school",
+    "Dr. John Williams - establishment of hospital",
+    "J.Shakespear - land settlement"
+   ]
+  },
+  {
+   "n": 56,
+   "stem": "The 27th Labour Corps was also known as",
+   "options": [
+    "The 27th Mizo Corps",
+    "The Mizo Labour Corps",
+    "The 27th Lushai Corps",
+    "Lushai Labour Corps"
+   ]
+  },
+  {
+   "n": 57,
+   "stem": "In which year the six Mizo resident of Kulikawn submitted a memorandum to N.E.Parry, Superintendent of Lushai Hills protesting the chiefs administration",
+   "options": [
+    "1927",
+    "1926",
+    "1946",
+    "1947"
+   ]
+  },
+  {
+   "n": 58,
+   "stem": "During The Lushai Expedition 1871-72, The political Officer of the Right Column Chhim Vai Lian was",
+   "options": [
+    "Brig. Gen. Brochier",
+    "Capt. T.H.Lewin",
+    "Gen. Brownlow",
+    "Capt. R.B Mc Cabe"
+   ]
+  },
+  {
+   "n": 59,
+   "stem": "‘Rangkhol Kuki Lushai Grammar’ was written in 1885 by",
+   "options": [
+    "Brojo Nath saha",
+    "HR Browne",
+    "CA Soppit",
+    "AS Reid"
+   ]
+  },
+  {
+   "n": 60,
+   "stem": "‘Thaichhawninu’ was associated in Mizo folktales with",
+   "options": [
+    "Kelchawngi",
+    "Mauruangi",
+    "Chawngtinleri",
+    "Thailungi"
+   ]
+  },
+  {
+   "n": 61,
+   "stem": "Who have levelled the surface of the earth in Mizo Mythology",
+   "options": [
+    "Chulteinu",
+    "Khuazingnu",
+    "Vanchung nula",
+    "Khuavang"
+   ]
+  },
+  {
+   "n": 62,
+   "stem": "Pick out the odd one of the following couples in Mizo folktales",
+   "options": [
+    "Chawngvungi and Sawngkhara",
+    "Duhmanga and Tlingi",
+    "Raldawna and Tumchhingi",
+    "Chhawrtuineihlala and Tuanpuii"
+   ]
+  },
+  {
+   "n": 63,
+   "stem": "__________ is a Chief’s kin, who can choose land for jhumming purpose after Ramhual had done.",
+   "options": [
+    "Tlangau",
+    "Khawnbawl",
+    "Zalen",
+    "Thirdeng"
+   ]
+  },
+  {
+   "n": 64,
+   "stem": "The Government of Assam declared the Mizo District as a disturbed area both under the Assam Disturbed Areas Act, 1958 and the Armed Forces Special Powers Act, 1958 on",
+   "options": [
+    "March 2, 1966",
+    "March 1, 1966",
+    "March 5, 1966",
+    "March 3, 1966"
+   ]
+  },
+  {
+   "n": 65,
+   "stem": "The most senior among the Mizo elders, the legal adviser to the chief was called as",
+   "options": [
+    "Mualkil Upa",
+    "Lal Upa",
+    "Khawnbawl Upa",
+    "Upa Min"
+   ]
+  },
+  {
+   "n": 66,
+   "stem": "T.H.Lewin wrote three Mizo folktales in Mizo language in his book",
+   "options": [
+    "A fly on the wheel",
+    "Progressive Colloquial excercise in the Lushai Dialect",
+    "Wild Races of South Eastern India",
+    "The Hill Tracts of Chittagong and the Dwellers Therein"
+   ]
+  },
+  {
+   "n": 67,
+   "stem": "The day 15th March, 1891 was important in Mizoram because of",
+   "options": [
+    "The Arthington Mission arrived in Mizoram",
+    "TH Lewin came into Mizoram",
+    "The first pioneer missionary Rev. William Williams arrived in Mizoram",
+    "The Chin Lushai Conference was held"
+   ]
+  },
+  {
+   "n": 68,
+   "stem": "The Mizo idiom “ A rana rana lo” means",
+   "options": [
+    "Thil chianglo",
+    "Ransa ni lo",
+    "Mahni ran vulh ni lo",
+    "Tlaran"
+   ]
+  },
+  {
+   "n": 69,
+   "stem": "Who among the Wales Missionary was given court case for his persistent effort toward emancipation of slaves",
+   "options": [
+    "D.E.Jones",
+    "Edwin Rowlands",
+    "Dr. Peter Frazer",
+    "Edith Chapman"
+   ]
+  },
+  {
+   "n": 70,
+   "stem": "In the Mizo marriage ceremony, a man appointed to protect a bride on her way to her husband’s house was",
+   "options": [
+    "Sadawt",
+    "Puar-ak",
+    "Palai",
+    "Lawichal"
+   ]
+  },
+  {
+   "n": 71,
+   "stem": "What is literacy Rate of Mizoram in 2011 census",
+   "options": [
+    "87.06",
+    "99.26",
+    "91.33",
+    "None of These"
+   ]
+  },
+  {
+   "n": 72,
+   "stem": "What is the area of Mizoram?",
+   "options": [
+    "8,140 sq. km",
+    "10,714 sq. km",
+    "99,142 sq. km",
+    "21,081 sq km"
+   ]
+  },
+  {
+   "n": 73,
+   "stem": "The Mizoram University was established in the year",
+   "options": [
+    "1994",
+    "2001",
+    "2002",
+    "2004"
+   ]
+  },
+  {
+   "n": 74,
+   "stem": "The first Chairman of the newly-constituted Lokayukta in Mizoram is",
+   "options": [
+    "Lalsawta",
+    "Lalmalsawma",
+    "Lalthara",
+    "Lawmkunga"
+   ]
+  },
+  {
+   "n": 75,
+   "stem": "The river ‘Tut’ is a tributary of",
+   "options": [
+    "Tuivai river",
+    "Tlawng river",
+    "Tuirial river",
+    "Tuichang river"
+   ]
+  },
+  {
+   "n": 76,
+   "stem": "A train running at the speed of 60 km/hr crosses a pole in 9 seconds. What is the length of the train?",
+   "options": [
+    "120 metres",
+    "180 metres",
+    "324 metres",
+    "150 metres"
+   ]
+  },
+  {
+   "n": 77,
+   "stem": "16, 33, 65, 131, 261, (....)",
+   "options": [
+    "523",
+    "521",
+    "613",
+    "721"
+   ]
+  },
+  {
+   "n": 78,
+   "stem": "The difference of two numbers is 1365. On dividing the larger number by the smaller, we get 6 as quotient and the 15 as remainder. What is the smaller number?",
+   "options": [
+    "240",
+    "270",
+    "295",
+    "360"
+   ]
+  },
+  {
+   "n": 79,
+   "stem": "The sum of ages of 5 children born at the intervals of 3 years each is 50 years. What is the age of the youngest child?",
+   "options": [
+    "4 years",
+    "8 years",
+    "10 years",
+    "None of these 4 2"
+   ]
+  },
+  {
+   "n": 80,
+   "stem": "A and B together have Rs. 1210. If of A’s amount is equal to of B’s amount, how much 15 5 amount does B have?",
+   "options": [
+    "Rs. 460",
+    "Rs. 484",
+    "Rs. 550",
+    "Rs. 664"
+   ]
+  },
+  {
+   "n": 81,
+   "stem": "A can lay railway track between two given stations in 16 days and B can do the same job in 12 days. With help of C, they did the job in 4 days only. Then, C alone can do the job in: 1 2",
+   "options": [
+    "9 days",
+    "9 days 5 5",
+    "9 days",
+    "10"
+   ],
+   "sourceDefect": "duplicate-options"
+  },
+  {
+   "n": 82,
+   "stem": "A fruit seller had some apples. He sells 40% apples and still has 420 apples. Originally, he had:",
+   "options": [
+    "588 apples",
+    "600 apples",
+    "672 apples",
+    "700 apples"
+   ]
+  },
+  {
+   "n": 83,
+   "stem": "A hall is 15 m long and 12 m broad. If the sum of the areas of the floor and the ceiling is equal to the sum of the areas of four walls, the volume of the hall is:",
+   "options": [
+    "720",
+    "900",
+    "1200",
+    "1800"
+   ]
+  },
+  {
+   "n": 84,
+   "stem": "A committee has been ___________ to ___________ the transformation of the city into an International finance centre.",
+   "options": [
+    "constituted, convert",
+    "appointed, oversee",
+    "converged, evaluate",
+    "inducted, change"
+   ],
+   "direction": "In each of the following sentences there are two blank spaces. Below each five pairs of words have been denoted by letters (a), (b), (c) and (d). Find out which pair of words can be filled up in the blanks in the sentence in the same sequence to make the sentence meaningfully complete."
+  },
+  {
+   "n": 85,
+   "stem": "Although he puts in ___________ of overtime and takes few holidays, he ___________ cannot support his family.",
+   "options": [
+    "sufficient, however",
+    "lot, besides",
+    "much, thus",
+    "plenty, still"
+   ],
+   "direction": "In each of the following sentences there are two blank spaces. Below each five pairs of words have been denoted by letters (a), (b), (c) and (d). Find out which pair of words can be filled up in the blanks in the sentence in the same sequence to make the sentence meaningfully complete."
+  },
+  {
+   "n": 86,
+   "stem": "Each of the loan must be approved by the Branch Manager",
+   "options": [
+    "Every loan",
+    "Each one of the loan",
+    "Any of the loans",
+    "All of the loan"
+   ],
+   "direction": "Which of the phrases (a), (b), (c) and (d) given below should replace the phrase given in bold in the following sentence to make the sentence grammatically meaningful and correct."
+  },
+  {
+   "n": 87,
+   "stem": "The issue was taken before the Municipal Corporation meeting last week—",
+   "options": [
+    "Taking place at",
+    "Taken after",
+    "Being taken in",
+    "Taken up at"
+   ],
+   "direction": "Which of the phrases (a), (b), (c) and (d) given below should replace the phrase given in bold in the following sentence to make the sentence grammatically meaningful and correct."
+  },
+  {
+   "n": 88,
+   "stem": "He doesn’t really go around with many people because he’s a bit of a lone wolf.",
+   "options": [
+    "single person",
+    "lonely person",
+    "unhappy person",
+    "simple person"
+   ],
+   "direction": "Which of the phrases (a), (b), (c) and (d) given below should replace the phrase given in bold in the following sentence to make the sentence grammatically meaningful and correct."
+  },
+  {
+   "n": 89,
+   "stem": "Nimble",
+   "options": [
+    "Clumsy",
+    "Honest",
+    "Needless",
+    "Agile"
+   ],
+   "direction": "You have to write the synonyms for the words given."
+  },
+  {
+   "n": 90,
+   "stem": "Proscribe",
+   "options": [
+    "Fix",
+    "Order",
+    "prohibit sale and publication",
+    "continue the use of"
+   ],
+   "direction": "You have to write the synonyms for the words given."
+  },
+  {
+   "n": 91,
+   "figureBased": true,
+   "stem": "Select a suitable figure from the four alternatives that would complete the figure matrix.",
+   "options": []
+  },
+  {
+   "n": 92,
+   "figureBased": true,
+   "stem": "Select a suitable figure from the four alternatives that would complete the figure matrix.",
+   "options": []
+  },
+  {
+   "n": 93,
+   "figureBased": true,
+   "stem": "Find out which of the figures",
+   "options": []
+  },
+  {
+   "n": 94,
+   "figureBased": true,
+   "stem": "Select the alternative in which the specified components of the key figure (X) are found. (X)",
+   "options": []
+  },
+  {
+   "n": 95,
+   "figureBased": true,
+   "stem": "Find out how will the key figure (X) look like after rotation. (X)",
+   "options": []
+  },
+  {
+   "n": 96,
+   "stem": "Find the number of triangles in the given figure: a large upward triangle overlapped by an inverted triangle and internal dividing lines forming a compound star shape.",
+   "options": [
+    "27",
+    "25",
+    "23",
+    "21"
+   ]
+  },
+  {
+   "n": 97,
+   "stem": "Choose the alternative which most closely resembles the mirror image of the combination '247596'.",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ]
+  },
+  {
+   "n": 98,
+   "figureBased": true,
+   "stem": "Identify the figure that completes the pattern. (X)",
+   "options": []
+  },
+  {
+   "n": 99,
+   "figureBased": true,
+   "stem": "Select a suitable figure from the four alternatives that would complete the figure matrix.",
+   "options": []
+  },
+  {
+   "n": 100,
+   "figureBased": true,
+   "stem": "Select a suitable figure from the four alternatives that would complete the figure matrix.",
+   "options": []
+  }
+ ]
+}

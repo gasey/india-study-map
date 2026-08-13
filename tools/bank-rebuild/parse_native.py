@@ -42,6 +42,9 @@ NOISE = re.compile(
     r"|.*RECRUITMENT TO THE POST.*"
     r"|INSPECTOR OF (TAXES|EXCISE).*"
     r"|UNDER (TAXATION|EXCISE).*"
+    r"|GRADE[- ]V OF (MSCS|MIZORAM).*"
+    r"|INSPECTOR UNDER F,?\s*CS\s*&\s*CA.*"
+    r"|UNDER\s+(COOPERATION|F,?\s*CS\s*&\s*CA)\s+DEPART?MENT.*"
     r"|GOVERNMENT OF MIZORAM.*"
     r"|(JANUARY|NOVEMBER|FEBRUARY),?\s*20\d\d.*"
     r"|GENERAL (ENGLISH|STUDIES|KNOWLEDGE)\s*PAPER.*"
@@ -60,13 +63,30 @@ NOISE = re.compile(
 #   "Direction (Questions No. 1 - 10) :"
 #   "Directions to Questions No. 87 & 88 :"
 #   "Directions (Question 100):"          <- a single question, no range
+#   "Directions : Question No. 91 & 92, you are given a figure ..."
+#     <- colon right after "Directions", and a COMMA (not colon) before the
+#        description -- the only paper that separates the two halves this way.
+#   "Directions : Question No. 86 & 87 some proverbs/idioms are given below"
+#     <- no separator at all before the description (colon already spent
+#        right after "Directions"). Confirmed by validate.py catching the
+#        description text leaking into the previous question's last option
+#        when this variant went unmatched.
+#   "Direction for Questions No. 98 - 100 : ..."
+#     <- "for" rather than "to". Found in the ALREADY-SHIPPED 2021 GS-III
+#        data via a long-option-text sweep (hygiene() alone missed it,
+#        since the leaked text had no marker pattern to trip on): Q97's
+#        option (d) had swallowed this exact header, still reading clean
+#        as "Between C and E" in the source PDF.
 DIRECTION = re.compile(
-    r"^\s*Directions?\s*(?:to\s*)?\(?\s*Questions?\s*(?:No[s]?\.?)?\s*"
-    r"(\d{1,3})\s*(?:(?:-|–|—|to|&)\s*(\d{1,3}))?\s*\)?\s*:\s*(.*)$",
+    r"^\s*Directions?\s*:?\s*(?:(?:to|for)\s*)?\(?\s*Questions?\s*(?:No[s]?\.?)?\s*"
+    r"(\d{1,3})\s*(?:(?:-|–|—|to|&)\s*(\d{1,3}))?\s*\)?\s*[:,]?\s*(.*)$",
     re.IGNORECASE,
 )
 
-OPT = re.compile(r"\((a|b|c|d)\)\s*")
+# FC&CAS-2019 GS-II Q76 misprints option (b) as "(b.)" -- a stray period
+# inside the parens, verified against the source PDF. Tolerated here rather
+# than treated as unparseable.
+OPT = re.compile(r"\((a|b|c|d)\.?\)\s*")
 
 
 def pdf_text(path):

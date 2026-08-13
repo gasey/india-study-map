@@ -1,0 +1,12 @@
+[
+ {"id": "mpsc-fccas-inspector-2019-gs-i-q048", "answerIndex": 2, "confidence": "high", "explanation": "In chronological order the cases run Alipore conspiracy (1908), Howrah-Dacca conspiracies (1910), Kakori case (1925), then the Central Assembly Bomb Case (1929) -- i.e. II, IV, I, III."},
+ {"id": "mpsc-fccas-inspector-2019-gs-iii-q076", "answerIndex": 3, "confidence": "high", "explanation": "Each term is half the previous one (2, 1, 1/2, 1/4...), so the next term is 1/8. Note 2/8 equals 1/4, the previous term, making it a trap."},
+ {"id": "mpsc-fccas-inspector-2019-gs-iii-q077", "answerIndex": 0, "confidence": "high", "explanation": "The series alternates +1 then +3 (3→4→7→8→11→12), so after 12 the next step is +3, giving 15."},
+ {"id": "mpsc-fccas-inspector-2019-gs-iii-q078", "answerIndex": 3, "confidence": "high", "explanation": "Each term is multiplied by an increasing factor: ×2, ×3, ×4, so the next multiplier is ×5, giving 72×5 = 360."},
+ {"id": "mpsc-fccas-inspector-2019-gs-iii-q079", "answerIndex": 2, "confidence": "high", "explanation": "This is a Fibonacci-style series where each term is the sum of the two before it (3+5=8), so the next term is 5+8 = 13."},
+ {"id": "mpsc-fccas-inspector-2019-gs-iii-q080", "answerIndex": 0, "confidence": "high", "explanation": "The differences between consecutive terms decrease by 2 each time (21, 19, 17, 15...), so the next difference is 13, giving 48-13 = 35."},
+ {"id": "mpsc-fccas-inspector-2019-gs-iii-q081", "answerIndex": 3, "confidence": "high", "explanation": "Each term is 5 times a perfect square (5×1², 5×2², 5×3², 5×4²), so the next term is 5×5² = 125."},
+ {"id": "mpsc-fccas-inspector-2019-gs-iii-q082", "answerIndex": 2, "confidence": "medium", "explanation": "11, 13 and 17 are prime numbers, while 15 (=3×5) is not, making 15 the odd one out."},
+ {"id": "mpsc-fccas-inspector-2019-gs-iii-q083", "answerIndex": 1, "confidence": "high", "explanation": "144, 196 and 256 are perfect squares (12², 14², 16²), while 168 is not, making it the odd one out."},
+ {"id": "mpsc-fccas-inspector-2019-gs-iii-q098", "answerIndex": 0, "confidence": "high", "explanation": "If n friends originally planned to share Rs. 96, and 4 dropped out raising each remaining share by Rs. 4, solving 96/(n-4) - 96/n = 4 gives n = 12, so 12-4 = 8 friends actually attended."}
+]

@@ -1,0 +1,112 @@
+[
+ {
+  "id": "mpsc-fccas-inspector-2019-gs-i-q048",
+  "direction": null,
+  "question": "What is the correct historical sequence of the following famous revolutionary cases? (I) Kakori case 1925 (II) Alipore conspiracy case 1908 (III) Central Assembly Bomb Case 1929 (IV) Cases of Howrah and Dacca conspiracies (1910) Codes:",
+  "options": [
+   "(I),(II), (III), (IV)",
+   "(IV, (III), (II), (I)",
+   "(II), (IV), (I), (III)",
+   "(IV), (II), (I), (III)"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-gs-iii-q076",
+  "direction": "Look at the following series of numbers and choose the number that should come next from the four alternatives.",
+  "question": "2, 1, (1/2), (1/4), ...",
+  "options": [
+   "(1/3)",
+   "(1/16)",
+   "(2/8)",
+   "(1/8)"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-gs-iii-q077",
+  "direction": "Look at the following series of numbers and choose the number that should come next from the four alternatives.",
+  "question": "3, 4, 7, 8, 11, 12, ...",
+  "options": [
+   "15",
+   "14",
+   "10",
+   "7"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-gs-iii-q078",
+  "direction": "Find the missing number.",
+  "question": "3, 6, 18, 72, ...............................",
+  "options": [
+   "144",
+   "216",
+   "288",
+   "360"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-gs-iii-q079",
+  "direction": "Find the missing number.",
+  "question": "1, 2, 3, 5, 8, ..............................",
+  "options": [
+   "9",
+   "11",
+   "13",
+   "15"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-gs-iii-q080",
+  "direction": "Choose the correct alternative that will continue the same pattern and replace the question mark in the given series.",
+  "question": "120, 99, 80, 63, 48, ?",
+  "options": [
+   "35",
+   "38",
+   "39",
+   "40"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-gs-iii-q081",
+  "direction": "Choose the correct alternative that will continue the same pattern and replace the question mark in the given series.",
+  "question": "5, 20, 45, 80, ?",
+  "options": [
+   "110",
+   "115",
+   "120",
+   "125"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-gs-iii-q082",
+  "direction": null,
+  "question": "Find the odd one out",
+  "options": [
+   "11",
+   "13",
+   "15",
+   "17"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-gs-iii-q083",
+  "direction": null,
+  "question": "Find the odd one out",
+  "options": [
+   "144",
+   "168",
+   "196",
+   "256"
+  ]
+ },
+ {
+  "id": "mpsc-fccas-inspector-2019-gs-iii-q098",
+  "direction": null,
+  "question": "A number of friends decided to go on a picnic and planned to spend Rs. 96 on eatables. Four of them, however, did not turn up. As a consequence, the remaining ones had to contribute Rs. 4 each extra. How many attended the picnic?",
+  "options": [
+   "8",
+   "12",
+   "16",
+   "24"
+  ]
+ }
+]

@@ -120,15 +120,20 @@ interface BankQuestionBase {
    */
   disputeNote?: string;
   /**
-   * The printed paper itself is defective for this question — most often
+   * The printed paper itself is defective for this question, or the question
+   * has a layout the standard a/b/c/d extraction can't handle safely:
    * `'duplicate-options'`, where the same option text is offered twice (2016
    * English-II Q15 lists "has worked" as both (a) and (b); 2019 GS-III Q34
-   * lists "Phosphorus" as both (a) and (d)). Verified against the source PDF,
-   * so the extraction is faithful and the text is kept as printed — but the
-   * question cannot be answered as set, so it is badged and kept out of scored
-   * mock tests rather than counting against the candidate.
+   * lists "Phosphorus" as both (a) and (d)), verified against the source PDF
+   * so the text is kept as printed but the question cannot be answered as
+   * set; or `'hand-transcribed-matching-table'`, a "match List-I with
+   * List-II via a Codes grid" question (FC&CAS-2019 GS-I Q38/43/50/56) whose
+   * real answer options are rows of a small matrix the regex-based parser
+   * would otherwise mis-split — transcribed by hand instead of guessed at.
+   * Both are kept out of scored mock tests rather than counting against the
+   * candidate.
    */
-  sourceDefect?: 'duplicate-options';
+  sourceDefect?: 'duplicate-options' | 'hand-transcribed-matching-table';
 }
 
 export interface McqBankQuestion extends BankQuestionBase {

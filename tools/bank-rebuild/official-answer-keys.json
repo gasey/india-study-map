@@ -1,40 +1,65 @@
 {
-  "_note": "Transcribed by vision from MPSC Final Answer Key PDFs in ~/Downloads/mpsc_pdfs_examination/Answer_Keys/. Letters are the official correct options (A=0,B=1,C=2,D=3).",
-
-  "group-b-combined-2024": {
-    "_source": "Final Answer Key of Mizoram Group B (Gazetted) General Service (Combined) Examination..pdf",
-    "_notification": "No. A.12024/1/2024-MPSC (CON), dated 5 September 2024",
-    "_exam": "Mizoram Group 'B' (Gazetted) General Services (Combined Competitive) Examinations, held 29-31 July 2024",
-    "_maps_to_bank_papers": [
-      "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i",
-      "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii",
-      "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
-    ],
-    "GS-I": "B B B A A B C D A C B A D C A B A C C B B B D B C D B C B C B C B A A B C B D B B C A C B A B C D A",
-    "GS-II": "B B D A C A C A D C B C A C C A D D C C B B D C B A C C A C D C C A C A A D D C B D A C C C C C B C",
-    "GS-III": "A D D A C C B A B B B B A C A C C A D B B A C D B C C B C A A A D A B C B D D C B D D C B A A COMPENSATED C A"
-  },
-
-  "inspector-excise-narcotics-2025": {
-    "_source": "Inspector under Excise & Narcotics Department Final Answer Key....pdf",
-    "_notification": "No. Inspector(DR)/19/2025 - MPSC (Exam), dated 2 September 2025",
-    "_exam": "Inspector under Excise & Narcotics Department, held 12-14 August 2025",
-    "_maps_to_bank_papers": [
-      "mpsc-inspector-of-excise-&-narcotics-2025-english",
-      "mpsc-inspector-of-excise-&-narcotics-2025-gs-i",
-      "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii",
-      "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
-    ],
-    "_corrigendum": "Applied. 'Inspetor of Excise & Narcotics - 2025 Final Answer Key Corrigendum..pdf', dated 11 September 2025: GS-III Q49 replaced B -> C. The GS-III string below already reflects this.",
-    "English-Section-B": "C D C B C B B A B A B B D A C B A C A D D B B B C C D D C C B C B D B D",
-    "GS-I": "A C B B C B D D D C B D B A D D B A C A D D B A C C B C A C C A B A B A A B A C A C B C A B A C D D",
-    "GS-II": "B B B C B B C B C A D D B B B C B D B C C B D A B B C C B D B B C D B B D A D A B C D A D B B C C C",
-    "GS-III": "A B D A A A C B A D C D C B B C C D A A A D A B A C B D C B B B C B C B B D D B B C A C D D A B C A"
-  },
-
-  "_no_official_key_available_for": [
-    "Inspector of Taxes Jan-2016 (all papers)",
-    "Inspector of Excise & Narcotics Nov-2019 (all papers)",
-    "Inspector of Excise & Narcotics Feb-2021 (all papers)"
-  ]
+ "_note": "Transcribed by vision from MPSC Final Answer Key PDFs in ~/Downloads/mpsc_pdfs_examination/Answer_Keys/. Letters are the official correct options (A=0,B=1,C=2,D=3).",
+ "group-b-combined-2024": {
+  "_source": "Final Answer Key of Mizoram Group B (Gazetted) General Service (Combined) Examination..pdf",
+  "_notification": "No. A.12024/1/2024-MPSC (CON), dated 5 September 2024",
+  "_exam": "Mizoram Group 'B' (Gazetted) General Services (Combined Competitive) Examinations, held 29-31 July 2024",
+  "_maps_to_bank_papers": [
+   "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-i",
+   "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii",
+   "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-iii"
+  ],
+  "GS-I": "B B B A A B C D A C B A D C A B A C C B B B D B C D B C B C B C B A A B C B D B B C A C B A B C D A",
+  "GS-II": "B B D A C A C A D C B C A C C A D D C C B B D C B A C C A C D C C A C A A D D C B D A C C C C C B C",
+  "GS-III": "A D D A C C B A B B B B A C A C C A D B B A C D B C C B C A A A D A B C B D D C B D D C B A A COMPENSATED C A"
+ },
+ "inspector-excise-narcotics-2025": {
+  "_source": "Inspector under Excise & Narcotics Department Final Answer Key....pdf",
+  "_notification": "No. Inspector(DR)/19/2025 - MPSC (Exam), dated 2 September 2025",
+  "_exam": "Inspector under Excise & Narcotics Department, held 12-14 August 2025",
+  "_maps_to_bank_papers": [
+   "mpsc-inspector-of-excise-&-narcotics-2025-english",
+   "mpsc-inspector-of-excise-&-narcotics-2025-gs-i",
+   "mpsc-inspector-of-excise-&-narcotics-2025-gs-ii",
+   "mpsc-inspector-of-excise-&-narcotics-2025-gs-iii"
+  ],
+  "_corrigendum": "Applied. 'Inspetor of Excise & Narcotics - 2025 Final Answer Key Corrigendum..pdf', dated 11 September 2025: GS-III Q49 replaced B -> C. The GS-III string below already reflects this.",
+  "English-Section-B": "C D C B C B B A B A B B D A C B A C A D D B B B C C D D C C B C B D B D",
+  "GS-I": "A C B B C B D D D C B D B A D D B A C A D D B A C C B C A C C A B A B A A B A C A C B C A B A C D D",
+  "GS-II": "B B B C B B C B C A D D B B B C B D B C C B D A B B C C B D B B C D B B D A D A B C D A D B B C C C",
+  "GS-III": "A B D A A A C B A D C D C B B C C D A A A D A B A C B D C B B B C B C B B D D B B C A C D D A B C A"
+ },
+ "cao-2022": {
+  "_source": "Final Answer Key of Grade V of MSCS (Cooperative Audit Officer) under Cooperation Department.pdf",
+  "_exam": "Grade V of MSCS (Cooperative Audit Officer) under Cooperation Department, held December 2022",
+  "_maps_to_bank_papers": [
+   "mpsc-cooperative-audit-officer-2022-english-ii",
+   "mpsc-cooperative-audit-officer-2022-gs-i",
+   "mpsc-cooperative-audit-officer-2022-gs-ii",
+   "mpsc-cooperative-audit-officer-2022-gs-iii"
+  ],
+  "English-II": "B A B D C A D A C A B B C D C A C B B B A A C D B D C A B C C A A B D B B C D B A A D B B D A B A C C B A D A B D C B A B A C A D B C B D A B D A B B B A D C A B A B B A B C A D A B A B D D A B C A B",
+  "GS-I": "D A C B D A A B B A D C D A B C C D A C B B D D C B D C D D A D A B A C B D A C B C D A B C D A C B B A C B C B A A D D B C A C B C A B B D C D A C B D B B A D B C A D C B D A B C D B B D B A B C A D",
+  "GS-II": "C A A B A B C A A C B B A C C A C D D A D A C A A D D B A D C B A C D D A C D B B C B B D B B A B D A A D C D B B B C D D A A B D B B D B C B C D C D B A D D C B B B B A A C B A A B A A C B C B D D D",
+  "GS-III": "A B A C C D B C C C B B C B D A C A C D B B B C C B C D C C B C B C B D A A A C B C B D C B C B D C A D C C A B A B C C C C A C D A C C A C D D B C A C A B B C D B A D D C B C A A A C D A D B A B D B"
+ },
+ "_no_official_key_available_for": [
+  "Inspector of Taxes Jan-2016 (all papers)",
+  "Inspector of Excise & Narcotics Nov-2019 (all papers)",
+  "Inspector of Excise & Narcotics Feb-2021 (all papers)",
+  "Grade-V of Mizoram FCS&CAS (Inspector), Mar-2019 (all papers) -- no answer-key PDF exists in the archive for this sitting"
+ ],
+ "cao-2026": {
+  "_source": "Final Answer key of Cooperative Audit Officer (CAO) under Cooperation Deptt., 2026.pdf",
+  "_exam": "Cooperative Audit Officer (CAO) under Cooperation Department, held 23-25 March 2026",
+  "_notes": "GS-I Q74 is COMPENSATED (marked so in the official key). GS-III Q99's key lists both A and D as accepted answers ('A & D'); recorded here as 'A' with a disputeNote flagging the dual-accepted answer, since the schema takes a single answerIndex.",
+  "_maps_to_bank_papers": [
+   "mpsc-cooperative-audit-officer-2026-gs-i",
+   "mpsc-cooperative-audit-officer-2026-gs-ii",
+   "mpsc-cooperative-audit-officer-2026-gs-iii"
+  ],
+  "GS-I": "A C D D A B A A C B A B D D A A B C B A C B D B C B C D C B D B D D C A B D D C B C B A B B D B B B D D B C A C C C B C A A D C A C D A A D C C B COMPENSATED D A B C A D C B B C A B A D C A B D A C D C D B D A",
+  "GS-II": "D C C B D C B D D A B A C B A B B B A A A B D B D A A C A D A C C D B D A A D B C C B C B C B C B B B D B B A C B B B B C A D D C B C D C B A B A D B B D B B B B C C C C D C B B C C D C D D D C C D C",
+  "GS-III": "C C C C C C C C A C B B D A A C B D C A C A C B C B B C B B A A D A C C D B D A C A B A D D A D B A A C B A D A D A C A A C A C D C B A A B A C D C A B A D C B D C B B D C C A D C A B B D B B B C A&D A"
+ }
 }

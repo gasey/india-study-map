@@ -2749,14 +2749,13 @@ const questions0: BankQuestion[] = [
       "Secondary Sector",
       "Tertiary Sector"
     ],
-    "explanation": "For revision, the standard figures are: services (tertiary) contribute roughly 54% of India's gross value added, industry (secondary) about 25-30%, and agriculture (primary) about 18%, so services are the largest contributor while the secondary sector is second. The official key for this paper marks the secondary sector, so note the key's answer for scoring purposes but carry the sectoral shares above into the exam hall, since that is what every other question on this topic will test.",
+    "explanation": "Services (tertiary) contribute roughly 54% of India's gross value added, industry (secondary) about 25-30%, and agriculture (primary) about 18%, so the tertiary sector is the largest contributor to India's GDP. The official key marks (D) Tertiary Sector, confirmed against the printed answer key page for GS Paper-II.",
     "source": "MPSC State Tax Officer / Group B Gazetted",
     "year": 2024,
     "paperId": "mpsc-group-b-combined-(state-tax-officer-/-cooperative-audit-officer)-2024-gs-ii",
-    "answerIndex": 2,
+    "answerIndex": 3,
     "answerSource": "official",
     "answerKeyRef": "MPSC Final Answer Key, No. A.12024/1/2024-MPSC (CON), 5 Sept 2024",
-    "disputeNote": "The official key marks 'Secondary Sector', but the tertiary/services sector is by a wide margin the largest contributor to India's GDP (about 54% of GVA versus roughly 25-30% for industry). Either the key is wrong or the printed option order differs from what was extracted.",
     "type": "mcq"
   },
   {

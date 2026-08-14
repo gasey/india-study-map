@@ -9,6 +9,59 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-08-14 — Fixed GS1/GS2/GS3 filter for 9 sittings in the MCQ Practice Hub
+
+**What shipped:** `public/quick-practice/mpsc-mcq-practice-hub.html` (the
+standalone PDF-extracted practice module, `/embed/mpsc-mcq-practice-hub`)
+had 24 sittings whose General Studies questions weren't filterable by
+GS1/GS2/GS3 — they were dumped in one `subject` bucket. Checked each
+against the source PDFs in `~/Downloads/mpsc_pdfs_examination/Old_Questions`
+before touching anything, per this repo's own rule about not patching
+symptoms blind:
+
+- **~15 sittings are correct as-is** (Assistant Director Town Planning,
+  CDPO, Assistant Controller of Mines, Tourist Officer, Technical Officer
+  SCERT, Circle Education Officer, Jr. Grade MES Combined, Jr. Grade MLS
+  ×2, Lecturer Serchhip, Agri & Allied, etc.) — MPSC genuinely printed
+  these as one combined GS paper, so no split should exist.
+- **9 sittings were a real extractor bug**: CAO March 2026, Inspector under
+  Excise & Narcotics (2019/2021/2025), Inspector of Taxes 2016 & 2018,
+  Labour Officer 2021, Programme Co-ordinator 2021, Lecturer (VSE) & VGO
+  Combined 2025. Source has 3 separate GS-I/II/III PDFs each, but the hub
+  concatenated them into one `"General Studies 1"` section. Confirmed the
+  concatenation was clean (each original paper's `qno` resets 1→100 at the
+  join point, verified against OCR text for a sample) so the fix was a
+  positional split — no per-question content classification needed. Split
+  each combined section back into 2–3 sections tagged `General Studies
+  1/2/3`, matching the convention already used by the sittings that were
+  extracted correctly the first time. Verified in the dev server: paper
+  chips and the global subject-filter counts (GS1: 1600, GS2: 1300, GS3:
+  1178) reflect the split; total paper/question counts (35 / 7675)
+  unchanged before vs after, so nothing was dropped.
+
+**Why:** User is actively using this hub (not the `/state-tax-officer`
+bank) for current Group B Gazetted prep, so GS-paper filtering needs to
+work now — the `tools/bank-rebuild` pipeline behind `/state-tax-officer`
+already handles CAO-2026/Labour Officer/Programme Co-ordinator correctly
+(see 2026-08-13 entry below), but the hub is a separate, independently
+extracted dataset that never got the same fix.
+
+**What's still open:**
+- 3 sittings referenced by the hub have no matching source PDF in the
+  `Old_Questions` archive under any name searched: **Librarian 2026**,
+  **Instructor ITI 2026**, **Sericulture Extension Officer 2025**. Left
+  untouched pending the user pointing at the right source file/folder.
+- The hub has no committed generator script (unlike `tools/bank-rebuild`)
+  — this fix was applied as a one-off transform directly against the
+  embedded JSON in the HTML file. If the hub is ever regenerated from
+  scratch, this fix will need to be reapplied or ported into whatever
+  produces it.
+- Long-term goal (user's, not yet started): converge the hub and the
+  `tools/bank-rebuild`-backed bank so all MPSC papers are classified once
+  in one pipeline instead of two.
+
+---
+
 ## 2026-08-13 — Four more MPSC sittings: FC&CAS-2019, CAO-2026, Labour Officer 2021, Programme Co-ordinator 2021
 
 **What shipped:** Extended `tools/bank-rebuild/` to four more previously-missing

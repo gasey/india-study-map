@@ -9,6 +9,67 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-08-14 — Cross-checked and explained all 1,500 GS answers in the 5 "not official" MCQ Practice Hub sittings
+
+**What shipped:** The hub flags 5 sittings as `notOfficial` (Grade-V
+Inspector FC&CAS 2019, Inspector under Excise & Narcotics 2019, Inspector
+of Taxes 2016, Labour Officer 2021, Programme Co-ordinator 2021) — 1,500
+GS questions with agent-derived answers and zero explanations. Rather than
+re-solving from scratch, matched every one of them by position (same
+source PDF, same order, confirmed against OCR text) to the independently
+rebuilt `tools/bank-rebuild/bank.json` dataset behind `/state-tax-officer`,
+which already carries a mandatory explanation per question and went
+through stricter validation (PDF-anchored option-order checks). 1,498 of
+1,500 matched (2 questions missing from the hub, not yet backfilled); 1,233
+already agreed with the bank's answer (explanation copied over as-is,
+`answerConfidence: 'high'`); 265 disagreed.
+
+Spawned parallel agents (general-purpose, web search enabled) to
+adjudicate each of the 265 disagreements independently rather than
+trusting either source — every question got its own fact-check, not just
+a coin flip between hub vs. bank. Outcome: 65 answers were changed to a
+newly-verified correct option (e.g. Inspector of Taxes 2016 GS-I Q57 —
+Constitution Day is Nov 26, not the hub's Jan 26/Republic Day trap-answer;
+the 72nd Santosh Trophy question had *both* candidates wrong — actual
+winner was Kerala, not West Bengal or Mizoram), 200 kept the hub's
+original answer but now have a real explanation, and a meaningful chunk
+(mostly non-verbal reasoning questions with figures not preserved in the
+extracted text, and obscure/unverifiable Mizo-specific folklore trivia)
+came back `confidence: 'low'` — per explicit instruction ("no wrong
+answers, mark the one where the answer key is wrong"), these are NOT
+silently guessed. Added an `answerConfidence` field to the question
+schema, a "⚠ Answer uncertain — verify" badge, and an "Unverified —"
+explanation prefix so low-confidence questions are visibly flagged in the
+UI rather than presented with false confidence.
+
+Also fixed a real bug found along the way: the flatten step that builds
+`ALLQ` from the raw JSON only copied a fixed field allowlist and silently
+dropped `explanation`/`answerConfidence` even after they were added to the
+source data — explanations weren't reaching the rendered cards at all
+until this was caught by manually verifying in the browser rather than
+trusting the data write.
+
+**Why:** User is actively using this hub for real Group B Gazetted exam
+prep and asked for the unofficial-answer sittings to be solved/cross-checked
+with explanations, explicitly framing it as "no wrong answers, mark the
+one where the answer key is wrong" — accuracy over speed, don't
+paper over uncertainty.
+
+**What's still open:**
+- 2 questions missing from FC&CAS 2019 GS-III (hub qno 91-92) exist in
+  `bank.json` but weren't backfilled into the hub — a straightforward
+  follow-up.
+- English-section (non-GS) MCQ questions in these 5 sittings were not
+  covered by this pass — only the General Studies sections were
+  cross-checked.
+- A recurring theme in the low-confidence set: figure-based non-verbal
+  reasoning questions whose diagrams were never preserved as text by
+  either extraction pipeline — genuinely unsolvable without the original
+  question booklet images, not a research gap that more searching would
+  close.
+
+---
+
 ## 2026-08-14 — Fixed GS1/GS2/GS3 filter for 9 sittings in the MCQ Practice Hub
 
 **What shipped:** `public/quick-practice/mpsc-mcq-practice-hub.html` (the

@@ -9,6 +9,58 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-08-15 — Recovered 5 missing reading-comprehension passages in the MCQ Practice Hub
+
+**What shipped:** User asked whether groups of questions ever share one
+underlying paragraph — checked, and found a real, recurring extraction
+bug: 5 papers had comprehension-style question sets (`"According to the
+passage..."`, `"the above passage"`, `"the crux of this passage"`) whose
+follow-up questions survived extraction but the shared source passage
+itself was silently dropped, leaving the questions technically "complete"
+(options + correct answer intact) but ungroundable — unanswerable by
+actually reading and reasoning, only by trusting the stored answer key
+blindly. Swept all 35 papers for this pattern (regex for passage/paragraph
+references, filtered out false positives like ordinary "consider the
+following statements" MCQs which already embed their own content) and
+confirmed exactly 5 affected clusters, 28 questions total:
+
+- Assistant Controller of Mines 2023 (Paper I), GS1 Q52-56 (Bengal tiger/poachers)
+- Junior Grade MLS 2023, GS Q86-90 (King of Kanchi folktale)
+- Labour Officer 2021, GS3 Q84-89 (psychology-of-stress passage)
+- Lecturer (VSE) & VGO 2025, GS3 Q89-90 (religious traditions/duties)
+- Tourist Officer 2026, English Q1-10 (sustainable livelihoods)
+
+All 5 source PDFs already had OCR text sitting in
+`~/Downloads/mpsc_pdfs_examination/Old_Questions/` from earlier pipeline
+runs, so recovery was pure grep-and-verify, no re-extraction needed. Added
+a `passage` field to the question schema, wired it through the flatten
+step (same gap as the last two entries — checked immediately this time),
+and render it in a distinct quoted-context box (`.qpassage`, blue left
+border, italic) above the question text. Cross-checked all 28 recovered
+against their existing stored answers using the now-visible passage text
+while at it — all correct, no answer changes needed here, just missing
+context restored.
+
+**Why:** A genuinely unanswerable question is worse than a wrong one for
+exam prep — the user can't learn from it or catch that they got it right
+by luck. This is the third silent-passage/data-loss flavor caught in this
+bank (see the 2026-08-04 entries), so it's worth treating "shared
+context lost during extraction" as its own recurring failure mode to
+watch for, not a one-off.
+
+**What's still open:**
+- This sweep only checked for the word "passage"/"paragraph" plus a
+  length heuristic — a differently-phrased reference (e.g. "as stated
+  above", or a shared data table instead of prose) could still hide
+  elsewhere unswept.
+- The 5 papers here are exactly the same 5 flagged `notOfficial` from the
+  earlier answer-verification pass — worth remembering that whichever
+  papers get touched next (English MCQ verification, per user's separate
+  request) should also get this same passage check applied first, since
+  the extraction bug clearly clusters in these sittings.
+
+---
+
 ## 2026-08-15 — Backfilled 2 missing questions + added figure/diagram rendering to the MCQ Practice Hub
 
 **What shipped:** Grade-V Inspector (FCS&CA) 2019 GS-III was missing qno

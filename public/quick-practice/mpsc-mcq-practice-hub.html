@@ -120657,7 +120657,8 @@
     if(q.paperNotOfficial) badges += '<span class="chip warn">Answer key not official</span>';
     if(q.compensated) badges += '<span class="chip warn">Compensated</span>';
     if(q.corrected) badges += '<span class="chip accent">Corrected</span>';
-    if(q.answerConfidence === 'low') badges += '<span class="chip warn">&#9888; Answer uncertain -- verify</span>';
+    if(q.answerConfidence === 'low' && !q.verified) badges += '<span class="chip warn">&#9888; Answer uncertain -- verify</span>';
+    if(q.verified) badges += '<span class="chip verified">✓ Verified</span>';
     if(wasMissed(q.uid)) badges += '<span class="missed-badge">Previously missed</span>';
     right.innerHTML = badges;
     if(hasCap('correction.write')){

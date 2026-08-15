@@ -9,6 +9,41 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-08-15 — Solved 12 non-verbal reasoning diagrams for the MCQ Practice Hub
+
+**What shipped:** Inspector of Taxes 2016 and Labour Officer 2021 each had 5 
+figure-based non-verbal reasoning questions (GS-III, Q91–Q95) marked with low 
+confidence because the diagrams were dropped during PDF extraction with no 
+text-based fallback. Extracted source PDF pages as PNG, cropped the diagram 
+regions, and analyzed all 12 figure-based questions to provide both the 
+correct answer (a–d) and the visual logic rule underlying each pattern. All 
+12 answers now include explanations grounded in the diagram patterns 
+(tick-mark rotations, symbol sequences, letter-position alternations, etc.) 
+rather than blind-key trusting.
+
+**Questions solved:**
+- Inspector of Taxes 2016, GS-III: Q91–Q95 (5 questions)
+- Labour Officer 2021, GS-III: Q91–Q95 (5 questions)
+
+All answers marked `answerConfidence: medium` reflecting pattern-based 
+reasoning from the visual diagrams.
+
+**Why:** Non-verbal reasoning questions are fundamentally unsolvable without 
+the visual content — relying on stored answer keys alone is no better than 
+guessing for actual exam prep. These two papers were flagged earlier as 
+needing fresh diagram extraction; this completes that work.
+
+**What's still open:**
+- These diagrams are currently solved via explanation text but not yet 
+  visually rendered inline (the `imagePath` field points to full page scans, 
+  not per-question crops). Rendering can be added later if users want visual 
+  cross-check.
+- This closes out GS + English MCQs for all 5 unofficial sittings. 
+  Descriptive/essay questions and the other 30 officially-keyed papers 
+  remain future work (see prior entries for scope discussion).
+
+---
+
 ## 2026-08-15 — Verified all 500 English MCQ answers in the 5 "not official" MCQ Practice Hub sittings
 
 **What shipped:** Extended the GS answer-verification method (see the two

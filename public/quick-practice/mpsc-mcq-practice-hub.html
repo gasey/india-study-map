@@ -120917,7 +120917,7 @@
       cn.textContent = 'Correction: ' + q.correctionNote;
       div.appendChild(cn);
     }
-    if(showAnswer && q.explanation){
+    if(q.explanation){
       var ex = document.createElement('div');
       ex.className = 'note' + (q.answerConfidence === 'low' ? ' warn' : ' correction-note');
       ex.textContent = (q.answerConfidence === 'low' ? 'Unverified -- ' : 'Explanation: ') + q.explanation;

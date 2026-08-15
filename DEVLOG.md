@@ -9,6 +9,55 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-08-15 — Backfilled 2 missing questions + added figure/diagram rendering to the MCQ Practice Hub
+
+**What shipped:** Grade-V Inspector (FCS&CA) 2019 GS-III was missing qno
+91-92 entirely (100 questions expected, only 98 present) — both are
+non-verbal-reasoning "problem figures" questions whose diagrams were
+dropped during OCR extraction with no accompanying text to reconstruct
+them from. Found the actual source page scan already sitting in
+`public/mpsc-diagrams/ce3c0da27c013ecfe043.png` (part of the existing
+297-image diagram set from the `mpsc-backend` extraction pipeline,
+previously only referenced by the React app's separate
+`QuestionsDisplay.tsx` viewer, never by this hub). Cropped and zoomed the
+relevant regions to actually read the figures pixel-by-pixel and solve
+both by hand: Q91 is a 5-symbol positional-rotation cycle (TL→TR→BL→BR→MID,
+period 5, so the answer repeats Figure A — high confidence); Q92 is a
+shape-containment series (outer shape repeats, a brand-new inner shape is
+introduced each step — medium confidence, reasoned from geometry since no
+official key exists for this sitting).
+
+Added a new `imagePath` field to the question schema and `<img class="qfigure">`
+rendering in `renderQuestionStatic` (inherited automatically by the
+click-reveal viewer), plus the flatten-step field it needs — same gap
+pattern as the `explanation` bug from the previous entry, caught earlier
+this time by checking the flatten allowlist immediately after adding the
+field. Attached the same page image to the already-existing Q93-95 in this
+section too, so users can visually cross-check the cube/circle puzzles
+that were previously solved from OCR text alone (rechecked all three
+against the image while at it — all three already correct).
+
+**Why:** User asked for these to be implemented since the source page scan
+was sitting there unused; two genuinely missing questions is data loss
+that a real exam-taker would silently never see.
+
+**What's still open:**
+- Only this one image was hand-verified this way. The manifest in
+  `mpsc-backend/data/mpsc_bank_converted.json` maps this same image to
+  all 5 of this paper's diagram-flagged questions via a generic
+  `_diagramPath` (not per-question crops) — fine here since one scan page
+  happened to hold Q91-95 together, but won't generalize automatically to
+  other figure-based questions elsewhere without checking each one.
+- Inspector of Taxes 2016 and Labour Officer 2021 also have non-verbal
+  reasoning questions marked `low` confidence (GS-III, ~90s question
+  range) with no diagram in the extraction manifest at all — these would
+  need fresh source-PDF lookup and cropping, not yet done.
+- English-section MCQs across the 5 "not official" sittings and
+  descriptive/essay-style questions are still outside this pass — see the
+  entry below for the GS-only scope of the answer-verification work.
+
+---
+
 ## 2026-08-14 — Cross-checked and explained all 1,500 GS answers in the 5 "not official" MCQ Practice Hub sittings
 
 **What shipped:** The hub flags 5 sittings as `notOfficial` (Grade-V

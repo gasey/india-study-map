@@ -9,6 +9,47 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-08-15 — Verified all 500 English MCQ answers in the 5 "not official" MCQ Practice Hub sittings
+
+**What shipped:** Extended the GS answer-verification method (see the two
+entries below) to the English sections of the same 5 unofficial-key
+sittings — 500 questions total. Matched all 500 against
+`tools/bank-rebuild/bank.json`'s `-english-ii` paper records by position
+(same 100-question count on both sides, confirmed before trusting the
+match). 400 already agreed — explanation copied over at zero token cost.
+100 disagreed; split across 5 parallel agents (20 questions each) to
+independently verify via real English grammar/vocabulary rules rather
+than trusting either source. Outcome: bank was right on 83, hub was right
+on 13, 4 were genuinely ambiguous even by grammar-textbook standards
+(marked `uncertain`, e.g. "beset by/with", "on/onto" — contested even in
+dictionaries) and marked with the `low`-confidence badge rather than
+picked arbitrarily. One question (FCS&CA-2019 English Q85, an
+"Irrelevant" antonym item) had its actual option text disagree between
+the two sources, not just the marked answer — flagged low-confidence
+since neither option set contains a true antonym of "irrelevant," which
+suggests the underlying source data itself may be corrupted; adopted
+bank's option wording as the better of two imperfect choices pending a
+manual check against the original PDF.
+
+Net: 85 of the 100 disputed answers were corrected (matching the ~85%
+hub-was-wrong rate seen in the earlier GS pass — consistent with these
+being the same known-bad "unofficial key" pipeline output), 15 confirmed
+correct with a new explanation attached.
+
+**Why:** Direct follow-up to the GS-only scope noted as still-open in the
+2026-08-14 entry — same rigor, same reason (real exam, wrong answers
+teach the user something false).
+
+**What's still open:**
+- FCS&CA-2019 English Q85's source-data corruption (hub/bank option text
+  disagreement) should be checked against the original PDF directly
+  rather than relying on either extraction.
+- This closes out GS + English for these 5 sittings. Descriptive/essay
+  questions and the other 30 officially-keyed papers' explanations remain
+  future work (see prior entries for cost/scope discussion).
+
+---
+
 ## 2026-08-15 — Recovered 5 missing reading-comprehension passages in the MCQ Practice Hub
 
 **What shipped:** User asked whether groups of questions ever share one

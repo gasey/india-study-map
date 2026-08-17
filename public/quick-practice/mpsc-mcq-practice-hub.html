@@ -121072,6 +121072,7 @@
     document.getElementById('editNote').value = q.corrected ? q.correctionNote : (q.note || '');
     document.getElementById('editError').classList.add('hidden');
     document.getElementById('editModalBackdrop').classList.remove('hidden');
+    document.getElementById('editStem').focus();
   }
   function closeEditModal(){
     document.getElementById('editModalBackdrop').classList.add('hidden');
@@ -121081,8 +121082,15 @@
   document.getElementById('editModalBackdrop').addEventListener('click', function(e){
     if(e.target === this) closeEditModal();
   });
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape' && !document.getElementById('editModalBackdrop').classList.contains('hidden')){
+      closeEditModal();
+    }
+  });
   document.getElementById('editSubmitBtn').addEventListener('click', function(){
     if(!editTargetUid || !authState) return;
+    var submitBtn = document.getElementById('editSubmitBtn');
+    if(submitBtn.disabled) return; // already saving -- ignore repeat clicks/double-Enter
     var errEl = document.getElementById('editError');
     errEl.classList.add('hidden');
     var stem = document.getElementById('editStem').value;
@@ -121096,6 +121104,8 @@
     }
     var answerIndex = parseInt(correctRadio.value, 10);
     var note = document.getElementById('editNote').value;
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Saving…';
     fetch(API_BASE + '/api/admin/corrections', {
       method: 'POST',
       headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer ' + authState.token},
@@ -121154,6 +121164,9 @@
     }).catch(function(err){
       errEl.textContent = err.message;
       errEl.classList.remove('hidden');
+    }).finally(function(){
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Save correction';
     });
   });
 

@@ -121246,7 +121246,7 @@
         card.appendChild(qid);
 
         if(e.action === 'correction'){
-          var rows = correctionDiffRows(e.before, e.after);
+          var rows = correctionDiffRows(e.before, e.after, q);
           var body = document.createElement('div');
           body.className = 'note correction-note';
           body.innerHTML = rows || '<div class="muted" style="font-size:0.85rem;">Saved without changing any field — an identical resubmission.</div>';
@@ -121958,8 +121958,25 @@
   // correctedExplanation, correctedNote) -- confirmed against real logged
   // data -- NOT the unprefixed stem/options/etc. the public
   // /api/questions/corrections read endpoint returns.
-  function correctionDiffRows(before, after){
-    before = before || {}; after = after || {};
+  // `before` is null for a question's *first-ever* correction -- there's no
+  // prior correction row to diff against. Showing that as "(blank)" reads
+  // as "there was no answer before", which is wrong: there was the
+  // original extracted answer, it just never went through this overlay.
+  // When origQ (the ALLQ entry, carrying the original pre-correction
+  // stem/options/answer) is available, fall back to it so "before" always
+  // means "what a reader would have seen right before this edit landed".
+  function correctionDiffRows(before, after, origQ){
+    after = after || {};
+    if(!before && origQ){
+      before = {
+        correctedStem: origQ.origText,
+        correctedOptions: origQ.origOptions,
+        correctedAnswerIndex: (origQ.origCorrect && origQ.origCorrect.length) ? origQ.origCorrect[0] : null,
+        correctedExplanation: origQ.note || null,
+        correctedNote: null
+      };
+    }
+    before = before || {};
     return diffRow('Question text', before.correctedStem, after.correctedStem) +
       optionDiffRows(before.correctedOptions, after.correctedOptions || []) +
       answerDiffRow(
@@ -122031,7 +122048,7 @@
           var summary = '<div class="muted" style="font-size:0.8rem;margin-bottom:6px;">' +
             entries.length + (entries.length === 1 ? ' edit' : ' edits') + ' recorded, most recent first.</div>';
           histBox.innerHTML = summary + entries.map(function(e, i){
-            var rows = correctionDiffRows(e.before, e.after);
+            var rows = correctionDiffRows(e.before, e.after, q);
             var who = escapeHtml(e.actorUsername || ('user #' + e.actorId));
             var when = escapeHtml(new Date(e.createdAt).toLocaleString());
             var recencyTag = i === 0 ? ' <span class="chip accent" style="font-size:0.68rem;">Latest</span>' : '';

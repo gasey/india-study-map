@@ -243,6 +243,7 @@
   <button data-tab="viewer">MCQ Viewer</button>
   <button data-tab="analyze">High-Yield</button>
   <button data-tab="papers">Papers</button>
+  <button data-tab="corrections">Corrections</button>
 </nav>
 
 <div class="wrap">
@@ -395,6 +396,30 @@
       <summary>Data notes / files not included</summary>
       <div id="skippedList" style="margin-top:10px;"></div>
     </details>
+  </div>
+
+  <!-- CORRECTIONS TAB -->
+  <div class="tabpanel" id="tab-corrections">
+    <h2 class="section-h">Corrections</h2>
+    <p class="muted">Every question that's been fixed after extraction — wrong answer key, OCR garble, ambiguous
+      wording — shown before &amp; after. The original extraction is never overwritten; corrections sit as an
+      overlay on top of it.</p>
+    <div class="card">
+      <div class="row">
+        <div style="flex:2; min-width:200px;">
+          <label class="field">Search</label>
+          <input type="search" id="correctionsSearch" placeholder="Search corrected questions...">
+        </div>
+        <div style="flex:1; min-width:160px;">
+          <label class="field">Subject</label>
+          <select id="correctionsSubjectSel"><option value="">All subjects</option></select>
+        </div>
+      </div>
+      <div class="row" style="margin-top:10px;">
+        <span class="muted toolbar-right" id="correctionsCount"></span>
+      </div>
+    </div>
+    <div id="correctionsList"></div>
   </div>
 
 </div>
@@ -120756,6 +120781,7 @@
         var uid = p.id + "__" + secIdx + "__" + q.qno;
         var corr = CORRECTIONS[uid];
         var text = q.text, options = q.options, correct = q.correct || [], note = q.note || "";
+        var origText = text, origOptions = options, origCorrect = correct;
         var corrected = false, correctionNote = "", correctionAt = "";
         if(corr){
           corrected = true;
@@ -120782,6 +120808,9 @@
           corrected: corrected,
           correctionNote: correctionNote,
           correctionAt: correctionAt,
+          origText: origText,
+          origOptions: origOptions,
+          origCorrect: origCorrect,
           explanation: q.explanation || "",
           answerConfidence: q.answerConfidence || "",
           imagePath: q.imagePath || "",
@@ -121858,6 +121887,159 @@
   } else {
     skippedEl.innerHTML = '<div class="muted">All source files were included.</div>';
   }
+
+  // ============ CORRECTIONS TAB ============
+  // One card per corrected question (not one row per edit event) -- the
+  // question itself is the natural browsing unit here. The before/after
+  // diff against the original extraction is always visible (it's built
+  // from public data already loaded into ALLQ); "Show full edit history"
+  // additionally fetches every past revision for that question from the
+  // audit log, gated by audit.read like the existing Edit History modal.
+  function letterOf(i){ return (letters()[i] || String(i)).toLowerCase(); }
+
+  function diffRow(label, oldVal, newVal){
+    oldVal = (oldVal || '').trim();
+    newVal = (newVal || '').trim();
+    if(oldVal === newVal) return '';
+    var oldHtml = oldVal
+      ? '<span style="text-decoration:line-through;color:var(--muted);">' + escapeHtml(oldVal) + '</span>'
+      : '<span class="muted">(blank)</span>';
+    var newHtml = newVal
+      ? '<span style="color:var(--correct-border);font-weight:600;">' + escapeHtml(newVal) + '</span>'
+      : '<span class="muted">(blank)</span>';
+    return '<div style="margin-top:4px;font-size:0.88rem;"><span class="muted" style="font-weight:600;">' +
+      escapeHtml(label) + ':</span> ' + oldHtml + ' → ' + newHtml + '</div>';
+  }
+
+  function optionDiffRows(origOptions, options){
+    return options.map(function(opt, i){
+      var orig = origOptions && origOptions[i] !== undefined ? origOptions[i] : '';
+      return orig === opt ? '' : diffRow('Option (' + letterOf(i) + ')', orig, opt);
+    }).join('');
+  }
+
+  function answerDiffRow(origCorrect, correct){
+    var a = (origCorrect || []).slice().sort();
+    var b = (correct || []).slice().sort();
+    if(JSON.stringify(a) === JSON.stringify(b)) return '';
+    var oldAns = a.length ? a.map(letterOf).join(', ') : '';
+    var newAns = b.length ? b.map(letterOf).join(', ') : '';
+    return diffRow('Correct answer', oldAns, newAns);
+  }
+
+  function renderCorrectionCard(q){
+    var div = document.createElement('div');
+    div.className = 'qcard';
+
+    var top = document.createElement('div');
+    top.className = 'qtop';
+    top.innerHTML = '<div><span class="chip">' + escapeHtml(q.paperTitle) + (q.year ? ' (' + q.year + ')' : '') + '</span>' +
+      '<span class="chip">' + escapeHtml(q.subject) + '</span><span class="chip">Q' + q.qno + '</span></div>' +
+      '<div><span class="chip accent">Corrected</span>' +
+      (q.correctionAt ? '<span class="muted" style="font-size:0.78rem;margin-left:6px;">' + escapeHtml(new Date(q.correctionAt).toLocaleString()) + '</span>' : '') + '</div>';
+    div.appendChild(top);
+
+    var qt = document.createElement('div');
+    qt.className = 'qtext';
+    qt.innerHTML = q.qno + '. ' + q.text;
+    div.appendChild(qt);
+
+    var diffHtml = diffRow('Question text', q.origText, q.text) +
+      optionDiffRows(q.origOptions, q.options) +
+      answerDiffRow(q.origCorrect, q.correct) +
+      diffRow('Explanation / note', q.note, q.correctionNote);
+
+    if(diffHtml){
+      var diffBox = document.createElement('div');
+      diffBox.className = 'note correction-note';
+      diffBox.innerHTML = diffHtml;
+      div.appendChild(diffBox);
+    }
+
+    if(hasCap('audit.read')){
+      var histBtn = document.createElement('button');
+      histBtn.type = 'button';
+      histBtn.className = 'btn ghost';
+      histBtn.style.marginTop = '8px';
+      histBtn.style.fontSize = '0.78rem';
+      histBtn.textContent = 'Show full edit history';
+      var histBox = document.createElement('div');
+      histBox.className = 'hidden';
+      histBox.style.marginTop = '8px';
+      histBtn.addEventListener('click', function(){
+        if(!histBox.classList.contains('hidden')){
+          histBox.classList.add('hidden');
+          histBtn.textContent = 'Show full edit history';
+          return;
+        }
+        histBtn.textContent = 'Hide full edit history';
+        histBox.classList.remove('hidden');
+        if(histBox.dataset.loaded) return;
+        histBox.dataset.loaded = '1';
+        histBox.textContent = 'Loading…';
+        fetch(API_BASE + '/api/admin/audit-log?bankId=' + encodeURIComponent(HUB_BANK_ID) +
+          '&questionId=' + encodeURIComponent(q.uid) + '&action=correction&limit=50', {
+          headers: {'Authorization': 'Bearer ' + authState.token}
+        }).then(function(r){
+          if(!r.ok) throw new Error('Failed to load history (status ' + r.status + ')');
+          return r.json();
+        }).then(function(data){
+          var entries = data.entries || [];
+          if(entries.length === 0){ histBox.textContent = 'No edit history recorded.'; return; }
+          histBox.innerHTML = entries.map(function(e){
+            var before = e.before || {}, after = e.after || {};
+            var rows = diffRow('Question text', before.stem, after.stem) +
+              optionDiffRows(before.options, after.options || []) +
+              answerDiffRow(before.answerIndex != null ? [before.answerIndex] : [], after.answerIndex != null ? [after.answerIndex] : []) +
+              diffRow('Explanation / note', before.explanation || before.note, after.explanation || after.note);
+            return '<div style="border-top:1px solid var(--border);padding-top:6px;margin-top:6px;">' +
+              '<span class="chip">' + escapeHtml(e.actorUsername || ('user #' + e.actorId)) + '</span>' +
+              '<span class="chip">' + escapeHtml(new Date(e.createdAt).toLocaleString()) + '</span>' +
+              (rows || '<div class="muted" style="font-size:0.85rem;">No field-level changes recorded.</div>') +
+              '<details style="margin-top:4px;"><summary class="muted" style="cursor:pointer;font-size:0.78rem;">Raw before/after</summary>' +
+              '<pre style="font-size:0.72rem;overflow-x:auto;white-space:pre-wrap;">' +
+              escapeHtml(JSON.stringify(before)) + '\n→\n' + escapeHtml(JSON.stringify(after)) + '</pre></details>' +
+              '</div>';
+          }).join('');
+        }).catch(function(err){
+          histBox.textContent = 'Failed to load: ' + err.message;
+        });
+      });
+      div.appendChild(histBtn);
+      div.appendChild(histBox);
+    }
+
+    return div;
+  }
+
+  var correctionsSubjectSel = document.getElementById('correctionsSubjectSel');
+  ALL_SUBJECTS.forEach(function(s){
+    var o = document.createElement('option'); o.value = s; o.textContent = s;
+    correctionsSubjectSel.appendChild(o);
+  });
+
+  function renderCorrections(searchText){
+    var subj = correctionsSubjectSel.value;
+    var ft = (searchText || '').toLowerCase();
+    var pool = ALLQ.filter(function(q){ return q.corrected; });
+    if(subj) pool = pool.filter(function(q){ return q.subject === subj; });
+    if(ft) pool = pool.filter(function(q){
+      return q.text.toLowerCase().indexOf(ft) >= 0 || q.paperTitle.toLowerCase().indexOf(ft) >= 0;
+    });
+    pool = pool.slice().sort(function(a, b){ return new Date(b.correctionAt || 0) - new Date(a.correctionAt || 0); });
+
+    document.getElementById('correctionsCount').textContent = pool.length + ' corrected question(s)';
+    var list = document.getElementById('correctionsList');
+    list.innerHTML = '';
+    if(pool.length === 0){
+      list.innerHTML = '<div class="card muted">No corrections match this filter.</div>';
+      return;
+    }
+    pool.forEach(function(q){ list.appendChild(renderCorrectionCard(q)); });
+  }
+  correctionsSubjectSel.addEventListener('change', function(){ renderCorrections(document.getElementById('correctionsSearch').value); });
+  document.getElementById('correctionsSearch').addEventListener('input', function(){ renderCorrections(this.value); });
+  renderCorrections('');
 
 })();
 </script>

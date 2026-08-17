@@ -9,6 +9,38 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-08-17 — Added a "Corrections" tab to the MCQ Practice Hub
+
+**What shipped:** A new nav tab in `mpsc-mcq-practice-hub.html` (alongside
+Papers/Viewer/etc.) that lists every question with a live correction,
+one card per question, with a human-readable before/after diff (question
+text, each changed option, correct answer, explanation/note — only the
+fields that actually differ from the original extraction) plus search and
+subject filtering. The diff is built entirely from data already public
+(the `/api/questions/corrections` overlay every tab already loads), so
+it's visible to everyone, not just logged-in editors. For users with the
+`audit.read` capability, each card additionally has a "Show full edit
+history" expander that lazily fetches that question's own audit-log
+entries (`?questionId=<uid>&action=correction`) and renders each past
+revision the same human-readable way, with a collapsed raw-JSON fallback
+in case a future backend entry doesn't match the expected field shape.
+
+**Why:** The Hub already had a "Corrected" chip per question and a
+logged-in-only "Edit History" modal (a flat, ungrouped audit-log dump,
+raw JSON before/after), but there was no way to browse *what's been
+fixed so far* as its own view — asked for directly by the user.
+
+**What's still open:** Verified against the 7 corrections live on the
+droplet at time of writing (3 were genuine no-op saves — same stem/
+options/answer resubmitted — and the diff correctly renders nothing for
+those). The full-history field-name mapping (`stem`/`options`/
+`answerIndex`/`explanation`/`note`) is inferred from the same shape the
+public corrections endpoint already returns, not confirmed against
+backend source (not in this repo) — the raw-JSON fallback exists
+specifically to not hide data if that inference is ever wrong.
+
+---
+
 ## 2026-08-17 — Verified and fixed 4 issues in Assistant Controller of Mines 2026 (166 Qs checked)
 
 **What shipped:** Second full manual verification pass on a 2026 paper

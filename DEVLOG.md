@@ -9,6 +9,58 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-08-17 — Verified and fixed 4 issues in Assistant Controller of Mines 2026 (166 Qs checked)
+
+**What shipped:** Second full manual verification pass on a 2026 paper
+(English 66 + General Studies 100 = 166 questions), same method as the
+CAO March 2026 pass below: hand-derived every grammar/fact answer,
+cross-checked history/polity/economy/geography/science against standard
+references, used live web search for ~5 checkable current-affairs and
+disputed-fact items.
+
+**Confirmed wrong, fixed directly in source data:**
+- GS Q15 — "Satyamev jayate" was keyed to "Mandukya Upanishad"; the phrase
+  is actually from the **Mundaka** Upanishad (mantra 3.1.6) — a completely
+  different Upanishad, not a typo of the same one. Corrected the option
+  text itself (was a wrong name that didn't even appear as a choice) and
+  kept the same correct-index.
+- GS Q19 — "Who headed the Congress commission investigating Jallianwala
+  Bagh Massacre?" was keyed to "B.V. Patel", a name that doesn't appear in
+  any source on this commission. Multiple sources (incl. a source using
+  this exact question's wording) confirm **C.R. Das** headed it — already
+  present as option (a), just pointed `correct` at the wrong index.
+- GS Q73 — data corruption, not just a wrong key: option (d)'s text was
+  literally leftover authoring scratch-notes ("only 2 (or wait, the answer
+  key states A. Let's provide A)") instead of a real answer choice, and
+  `correct` pointed at that broken option despite the question's own note
+  saying "the official answer key marks (A)". Replaced the garbled option
+  with a clean distractor and pointed `correct` at index 0 (option A,
+  "2 and 4") per the note.
+
+**Checked and confirmed correct (no changes):** all 66 English questions
+(grammar ID, vocabulary, prepositions, active/passive-style transformations,
+sentence types, reported speech, idioms — zero errors), and ~96 of the 100
+GS questions (history, polity, economy, geography, environment, science all
+matched standard references; several recent 2025-2026 current-affairs items
+independently confirmed via web search — Nepal Gen-Z protests, France's
+under-15 social media ban, Sunetra Pawar as Maharashtra's first woman
+Deputy CM).
+
+**Why:** Direct continuation of the CAO March 2026 verification pass (same
+entry, below) — user wants the hub's upcoming-exam papers checked before
+relying on them to study.
+
+**What's still open:** ~15 Mizoram-specific cultural/historical trivia
+questions (traditional instruments, grave types, clan-status terminology,
+missionary history) were left unverified — no reliable way to check these
+against general knowledge; would need the original source PDF. One mineral-
+mining match question (GS Q33, Copper–Chitradurga / Manganese–Bhilwara) was
+reviewed but not flagged — genuine ambiguity between "any documented mining
+history" vs "standard textbook association," not confident enough to touch.
+32 more papers in the hub (~6,700 questions) remain unswept.
+
+---
+
 ## 2026-08-17 — Verified and fixed 4 wrong answer keys in CAO March 2026 (all 366 Qs checked)
 
 **What shipped:** User suspected some fed-in answer keys were wrong for CAO

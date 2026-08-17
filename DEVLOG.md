@@ -9,7 +9,64 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
-## 2026-08-17 — Fixed MCQ Practice Hub editor navigation and state sync bugs
+## 2026-08-17 — Verified and fixed 4 wrong answer keys in CAO March 2026 (all 366 Qs checked)
+
+**What shipped:** User suspected some fed-in answer keys were wrong for CAO
+March 2026 (English 66 + GS-I 100 + GS-II 100 + GS-III 100 = 366 questions
+total). Went through every question by hand — independently re-derived math/
+logic answers, cross-checked historical/textbook facts against standard
+references, and used live web search to verify ~10 recent (2025-2026)
+current-affairs facts that postdate model training.
+
+**Confirmed wrong, fixed directly in source data:**
+- GS-III Q90 — number series `2,8,18,32,50,...` (pattern 2n²): key said 78,
+  correct is 72. Pure arithmetic error.
+- GS-I Q59 — "SC ruling that Governor can't exercise pocket veto — which
+  constitutional principle?": key said "Separation of powers", every legal
+  source (the SC judgment itself, law journals) frames this ruling around
+  federalism/center-state relations — changed to "Cooperative federalism".
+- English Q38 — idiom "Between the devil and the deep sea" was keyed to an
+  option meaning "to be lazy", which is not what the idiom means at all
+  (correct sense: caught in a dilemma between two dangers). No option in
+  the original set stated the real meaning, so the wrong option's *text*
+  was rewritten to state it, keeping the same correct-index.
+- English Q57 — "change to a Simple Sentence" transformation: the keyed
+  option was a comma-spliced compound, not a valid simple sentence, and
+  none of the 4 options were. Rewrote the keyed option to the actual
+  correct transformation ("Having finished his lesson, Martin put away
+  his textbooks.").
+
+**Checked and confirmed correct (no changes):** English idioms/prepositions/
+tenses/narration (64 of 66 Qs), all 100 GS-I history questions (1757-1946,
+every one matched standard textbook facts), all 100 GS-II questions (Polity/
+Economy/Geography — zero errors, every answer matched reference material),
+and ~85 of the remaining GS-III science/Mizo-culture/reasoning questions.
+
+**Why:** User is using this hub to prep for a real upcoming exam — a wrong
+key teaches false information with real stakes. Rather than guess or spot-
+check, went question-by-question since the user explicitly flagged distrust
+in the fed-in keys.
+
+**What's still open (flagged, not touched — lower confidence, needs source
+PDF or SME judgment, not a clean single fix):**
+- GS-III Q92 — "letter midway between 7th and 15th [letter]" — if read
+  against the plain alphabet the key looks off (J vs K), but the question
+  may be missing original context that got dropped during extraction (a
+  known recurring bug in this pipeline, see 2026-08-15 entries).
+- GS-III Q89 — number series `10, 41, 94, 1624, 2516, 3625` reads like
+  OCR-garbled digits (possibly a mangled `1,4,9,16,25,36`), can't verify a
+  corrupted input with confidence.
+- GS-III Q35 — LIDAR options (a) and (d) are duplicate text; cosmetic data
+  defect, doesn't affect the marked answer's correctness.
+- English Q9 — "however" tagged as Conjunction vs Adverb (conjunctive
+  adverb) is genuinely debatable grammar classification, not a clear error.
+
+Only CAO March 2026 was checked — the hub's other 34 papers (~7,300
+questions) are unverified. Given the ~1% actual error rate found here (4
+wrong out of 366, and 2 of those were flawed *options*, not just a wrong
+pick), a full-hub sweep is possible but would take significant additional
+time; the user chose to correct further papers themselves rather than sweep
+everything now.
 
 **What shipped:** Two bugs in the MCQ Practice Hub and admin console fixed:
 

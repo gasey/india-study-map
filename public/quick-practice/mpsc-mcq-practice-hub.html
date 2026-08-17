@@ -120825,6 +120825,9 @@
   var otherSubjects = Object.keys(subjectSet).filter(function(s){ return CORE_SUBJECTS.indexOf(s) < 0; });
   var ALL_SUBJECTS = CORE_SUBJECTS.filter(function(s){ return subjectSet[s]; }).concat(otherSubjects.sort());
 
+  var ALLQ_BY_UID = {};
+  ALLQ.forEach(function(q){ ALLQ_BY_UID[q.uid] = q; });
+
   document.getElementById('topbarMeta').textContent =
     RAW.papers.length + " papers · " + ALLQ.length + " questions loaded";
 
@@ -121200,6 +121203,13 @@
   });
 
   // ============ EDIT HISTORY (audit.read capability) ============
+  // Human-readable action labels, matching the React admin console's
+  // AuditLogTab so both surfaces describe the same action the same way.
+  var ACTION_LABEL_JS = {
+    correction: 'Correction', report_status: 'Report status change',
+    comment_pinned: 'Comment pinned', comment_deleted: 'Comment deleted'
+  };
+
   function openHistoryModal(){
     if(!authState) return;
     var list = document.getElementById('historyList');
@@ -121219,18 +121229,32 @@
         card.className = 'qcard';
         var head = document.createElement('div');
         head.className = 'qtop';
-        head.innerHTML = '<span class="chip">' + escapeHtml(e.action) + '</span>' +
+        head.innerHTML = '<span class="chip accent">' + escapeHtml(ACTION_LABEL_JS[e.action] || e.action) + '</span>' +
           '<span class="chip">' + escapeHtml(e.actorUsername || ('user #' + e.actorId)) + '</span>' +
           '<span class="chip">' + escapeHtml(new Date(e.createdAt).toLocaleString()) + '</span>';
         card.appendChild(head);
+
+        // The raw questionId is an opaque uid ("paperId__sectionIdx__qno") --
+        // resolve it back to something a person can actually place, same as
+        // every other card in the app (paper title, subject, question number).
+        var q = ALLQ_BY_UID[e.questionId];
         var qid = document.createElement('div');
         qid.className = 'qtext';
-        qid.textContent = e.questionId;
+        qid.innerHTML = q
+          ? escapeHtml(q.paperTitle) + (q.year ? ' (' + q.year + ')' : '') + ' · ' + escapeHtml(q.subject) + ' · Q' + q.qno
+          : escapeHtml(e.questionId);
         card.appendChild(qid);
-        if(e.after){
+
+        if(e.action === 'correction'){
+          var rows = correctionDiffRows(e.before, e.after);
+          var body = document.createElement('div');
+          body.className = 'note correction-note';
+          body.innerHTML = rows || '<div class="muted" style="font-size:0.85rem;">Saved without changing any field — an identical resubmission.</div>';
+          card.appendChild(body);
+        } else if(e.after){
           var after = document.createElement('div');
           after.className = 'note';
-          after.textContent = 'After: ' + JSON.stringify(e.after);
+          after.textContent = 'Details: ' + JSON.stringify(e.after);
           card.appendChild(after);
         }
         if(e.note){
@@ -121927,6 +121951,24 @@
     return diffRow('Correct answer', oldAns, newAns);
   }
 
+  // Shared by the Corrections tab's per-question history and the account
+  // widget's global Edit History modal. The audit log stores a
+  // 'correction' entry's before/after using the write endpoint's prefixed
+  // keys (correctedStem, correctedOptions, correctedAnswerIndex,
+  // correctedExplanation, correctedNote) -- confirmed against real logged
+  // data -- NOT the unprefixed stem/options/etc. the public
+  // /api/questions/corrections read endpoint returns.
+  function correctionDiffRows(before, after){
+    before = before || {}; after = after || {};
+    return diffRow('Question text', before.correctedStem, after.correctedStem) +
+      optionDiffRows(before.correctedOptions, after.correctedOptions || []) +
+      answerDiffRow(
+        before.correctedAnswerIndex != null ? [before.correctedAnswerIndex] : [],
+        after.correctedAnswerIndex != null ? [after.correctedAnswerIndex] : []
+      ) +
+      diffRow('Explanation / note', before.correctedExplanation || before.correctedNote, after.correctedExplanation || after.correctedNote);
+  }
+
   function renderCorrectionCard(q){
     var div = document.createElement('div');
     div.className = 'qcard';
@@ -121989,18 +122031,7 @@
           var summary = '<div class="muted" style="font-size:0.8rem;margin-bottom:6px;">' +
             entries.length + (entries.length === 1 ? ' edit' : ' edits') + ' recorded, most recent first.</div>';
           histBox.innerHTML = summary + entries.map(function(e, i){
-            var before = e.before || {}, after = e.after || {};
-            // Audit-log before/after store the correction row using the same
-            // prefixed keys the write endpoint accepts (correctedStem,
-            // correctedOptions, ...) -- NOT the unprefixed stem/options/etc.
-            // the public /api/questions/corrections read endpoint returns.
-            var rows = diffRow('Question text', before.correctedStem, after.correctedStem) +
-              optionDiffRows(before.correctedOptions, after.correctedOptions || []) +
-              answerDiffRow(
-                before.correctedAnswerIndex != null ? [before.correctedAnswerIndex] : [],
-                after.correctedAnswerIndex != null ? [after.correctedAnswerIndex] : []
-              ) +
-              diffRow('Explanation / note', before.correctedExplanation || before.correctedNote, after.correctedExplanation || after.correctedNote);
+            var rows = correctionDiffRows(e.before, e.after);
             var who = escapeHtml(e.actorUsername || ('user #' + e.actorId));
             var when = escapeHtml(new Date(e.createdAt).toLocaleString());
             var recencyTag = i === 0 ? ' <span class="chip accent" style="font-size:0.68rem;">Latest</span>' : '';
@@ -122008,8 +122039,8 @@
               '<div style="font-size:0.85rem;"><strong>' + who + '</strong> edited this on ' + when + recencyTag + '</div>' +
               (rows || '<div class="muted" style="font-size:0.85rem;margin-top:4px;">Saved without changing any field — an identical resubmission.</div>') +
               '<details style="margin-top:6px;"><summary class="muted" style="cursor:pointer;font-size:0.76rem;">Raw data (debugging)</summary>' +
-              '<pre style="font-size:0.72rem;overflow-x:auto;white-space:pre-wrap;">before: ' + escapeHtml(JSON.stringify(before)) +
-              '\nafter:  ' + escapeHtml(JSON.stringify(after)) + '</pre></details>' +
+              '<pre style="font-size:0.72rem;overflow-x:auto;white-space:pre-wrap;">before: ' + escapeHtml(JSON.stringify(e.before)) +
+              '\nafter:  ' + escapeHtml(JSON.stringify(e.after)) + '</pre></details>' +
               '</div>';
           }).join('');
         }).catch(function(err){

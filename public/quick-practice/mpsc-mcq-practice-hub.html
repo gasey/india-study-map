@@ -121986,19 +121986,23 @@
         }).then(function(data){
           var entries = data.entries || [];
           if(entries.length === 0){ histBox.textContent = 'No edit history recorded.'; return; }
-          histBox.innerHTML = entries.map(function(e){
+          var summary = '<div class="muted" style="font-size:0.8rem;margin-bottom:6px;">' +
+            entries.length + (entries.length === 1 ? ' edit' : ' edits') + ' recorded, most recent first.</div>';
+          histBox.innerHTML = summary + entries.map(function(e, i){
             var before = e.before || {}, after = e.after || {};
             var rows = diffRow('Question text', before.stem, after.stem) +
               optionDiffRows(before.options, after.options || []) +
               answerDiffRow(before.answerIndex != null ? [before.answerIndex] : [], after.answerIndex != null ? [after.answerIndex] : []) +
               diffRow('Explanation / note', before.explanation || before.note, after.explanation || after.note);
-            return '<div style="border-top:1px solid var(--border);padding-top:6px;margin-top:6px;">' +
-              '<span class="chip">' + escapeHtml(e.actorUsername || ('user #' + e.actorId)) + '</span>' +
-              '<span class="chip">' + escapeHtml(new Date(e.createdAt).toLocaleString()) + '</span>' +
-              (rows || '<div class="muted" style="font-size:0.85rem;">No field-level changes recorded.</div>') +
-              '<details style="margin-top:4px;"><summary class="muted" style="cursor:pointer;font-size:0.78rem;">Raw before/after</summary>' +
-              '<pre style="font-size:0.72rem;overflow-x:auto;white-space:pre-wrap;">' +
-              escapeHtml(JSON.stringify(before)) + '\n→\n' + escapeHtml(JSON.stringify(after)) + '</pre></details>' +
+            var who = escapeHtml(e.actorUsername || ('user #' + e.actorId));
+            var when = escapeHtml(new Date(e.createdAt).toLocaleString());
+            var recencyTag = i === 0 ? ' <span class="chip accent" style="font-size:0.68rem;">Latest</span>' : '';
+            return '<div style="border-top:1px solid var(--border);padding-top:8px;margin-top:8px;">' +
+              '<div style="font-size:0.85rem;"><strong>' + who + '</strong> edited this on ' + when + recencyTag + '</div>' +
+              (rows || '<div class="muted" style="font-size:0.85rem;margin-top:4px;">Saved without changing any field — an identical resubmission.</div>') +
+              '<details style="margin-top:6px;"><summary class="muted" style="cursor:pointer;font-size:0.76rem;">Raw data (debugging)</summary>' +
+              '<pre style="font-size:0.72rem;overflow-x:auto;white-space:pre-wrap;">before: ' + escapeHtml(JSON.stringify(before)) +
+              '\nafter:  ' + escapeHtml(JSON.stringify(after)) + '</pre></details>' +
               '</div>';
           }).join('');
         }).catch(function(err){

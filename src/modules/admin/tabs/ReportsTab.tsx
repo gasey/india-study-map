@@ -54,7 +54,7 @@ export function ReportsTab() {
     }
   };
 
-  useEffect(load, [statusFilter, issueTypes, search, fromDate, toDate, hasSuggestion, sort, offset]);
+  useEffect(() => { load(); }, [statusFilter, issueTypes, search, fromDate, toDate, hasSuggestion, sort, offset]);
   useEffect(() => setOffset(0), [statusFilter, issueTypes, search, fromDate, toDate, hasSuggestion, sort]);
 
   const toggle = (id: number) => setSelected((prev) => {

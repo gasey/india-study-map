@@ -32,21 +32,26 @@ export function ReportsTab() {
   const [busy, setBusy] = useState(false);
   const [editing, setEditing] = useState<number | null>(null);
 
-  const load = () => {
-    setReports(null);
-    setSelected(new Set());
-    // bankId omitted — cross-bank by design, same reasoning as Comments/Audit.
-    api.adminListReports({
-      status: statusFilter || undefined,
-      issueType: issueTypes.length ? issueTypes : undefined,
-      search: search || undefined,
-      fromDate: fromDate || undefined,
-      toDate: toDate || undefined,
-      hasSuggestion,
-      sort,
-      limit: PAGE_SIZE,
-      offset,
-    }).then((r) => setReports(r.reports));
+  const load = async () => {
+    // Fetch fresh data without clearing state prematurely
+    try {
+      const result = await api.adminListReports({
+        status: statusFilter || undefined,
+        issueType: issueTypes.length ? issueTypes : undefined,
+        search: search || undefined,
+        fromDate: fromDate || undefined,
+        toDate: toDate || undefined,
+        hasSuggestion,
+        sort,
+        limit: PAGE_SIZE,
+        offset,
+      });
+      setReports(result.reports);
+      setSelected(new Set());
+    } catch (err) {
+      // On error, keep the existing reports list so the UI doesn't flash blank
+      console.error('Failed to reload reports', err);
+    }
   };
 
   useEffect(load, [statusFilter, issueTypes, search, fromDate, toDate, hasSuggestion, sort, offset]);
@@ -144,7 +149,11 @@ export function ReportsTab() {
           suggestedAnswerIndex={editingReport.suggestedAnswerIndex}
           reportIds={[editingReport.id]}
           initialAdminNote={editingReport.adminNote ?? undefined}
-          onSaved={() => { setEditing(null); load(); }}
+          onSaved={() => {
+            setEditing(null);
+            // Reload reports to show updated correction status
+            load();
+          }}
           onDiscard={() => setEditing(null)}
         />
       )}

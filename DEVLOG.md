@@ -9,7 +9,23 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
-## 2026-08-15 — Solved 12 non-verbal reasoning diagrams for the MCQ Practice Hub
+## 2026-08-17 — Fixed MCQ Practice Hub editor navigation and state sync bugs
+
+**What shipped:** Two bugs in the MCQ Practice Hub and admin console fixed:
+
+1. **MCQ Practice Hub editor (public/quick-practice/mpsc-mcq-practice-hub.html):**
+   - After saving a question correction, the page was doing a full `location.reload()` which reset the view to the MCQ of the Day tab — losing context, scroll position, and user orientation.
+   - **Fix:** Instead of reloading the entire page, now updates the in-memory CORRECTIONS and ALLQ data, softly refreshes only the active tab (if it's the daily tab), and shows a ✓ success toast. Keeps user context intact.
+
+2. **Admin Reports editor (src/modules/admin/tabs/ReportsTab.tsx):**
+   - The `load()` function was setting `setReports(null)` before fetching fresh data, causing UI flashing and potential state inconsistency.
+   - **Fix:** Made `load()` async, fetches data first, then updates state. If the fetch fails, keeps existing reports list on screen instead of flashing blank. Error is logged to console.
+
+**Why:** User reported that after editing a question, the hub brought back the "quiz of the day" screen and reasoning problems were reverting. The root cause was the aggressive full-page reload — any corrections made appeared momentarily but then the page would reload, losing the edits from the UI view even though they were saved server-side. The fix keeps user context while still ensuring corrections propagate.
+
+**What's still open:**
+- The daily tab refresh is working, but other tabs (Browse, Papers, Viewer) will show updated corrections only when the user navigates to them next time. This is acceptable since corrections are rare and the data is correct server-side immediately; it's just a UI lag.
+- Consider adding a global "Corrections updated" broadcast if multiple editors might be working simultaneously, but that's a future enhancement.
 
 **What shipped:** Inspector of Taxes 2016 and Labour Officer 2021 each had 5 
 figure-based non-verbal reasoning questions (GS-III, Q91–Q95) marked with low 

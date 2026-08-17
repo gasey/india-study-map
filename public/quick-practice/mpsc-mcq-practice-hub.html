@@ -121112,8 +121112,45 @@
       if(!r.ok) return r.json().then(function(e){ throw new Error(e.detail || 'Save failed'); });
       return r.json();
     }).then(function(){
+      // Update the corrections map so future renders pick it up
+      var uid = editTargetUid;
+      CORRECTIONS[uid] = {
+        stem: stem,
+        options: options,
+        answerIndex: answerIndex,
+        explanation: note,
+        updatedAt: new Date().toISOString()
+      };
+      // Update ALLQ array in-place so existing question references pick up changes
+      ALLQ.forEach(function(q){
+        if(q.uid === uid){
+          q.text = stem;
+          q.options = options;
+          q.correct = [answerIndex];
+          q.correctionNote = note;
+          q.corrected = true;
+        }
+      });
       closeEditModal();
-      location.reload(); // reload so the corrections overlay (fetched at page load) picks it up everywhere
+      // Soft refresh: try to refresh the currently active tab without full page reload
+      // This keeps the user's context (scroll, tab position) instead of reloading to top
+      var activeTab = document.querySelector('nav.tabs button.active');
+      if(activeTab && typeof refreshDailyTab === 'function'){
+        var tabName = activeTab.getAttribute('data-tab');
+        // Only refresh daily tab since it's the one most likely being edited from
+        // Others can refresh naturally when user navigates to them
+        if(tabName === 'daily') {
+          refreshDailyTab();
+        }
+      }
+      // Show success feedback
+      var feedback = document.createElement('div');
+      feedback.textContent = '✓ Correction saved';
+      feedback.style.cssText = 'position:fixed;top:16px;right:16px;background:#2fbf71;color:#fff;padding:10px 16px;border-radius:6px;font-size:0.9rem;z-index:200;font-weight:600;';
+      document.body.appendChild(feedback);
+      setTimeout(function(){
+        if(feedback.parentNode) feedback.parentNode.removeChild(feedback);
+      }, 2500);
     }).catch(function(err){
       errEl.textContent = err.message;
       errEl.classList.remove('hidden');

@@ -121990,10 +121990,17 @@
             entries.length + (entries.length === 1 ? ' edit' : ' edits') + ' recorded, most recent first.</div>';
           histBox.innerHTML = summary + entries.map(function(e, i){
             var before = e.before || {}, after = e.after || {};
-            var rows = diffRow('Question text', before.stem, after.stem) +
-              optionDiffRows(before.options, after.options || []) +
-              answerDiffRow(before.answerIndex != null ? [before.answerIndex] : [], after.answerIndex != null ? [after.answerIndex] : []) +
-              diffRow('Explanation / note', before.explanation || before.note, after.explanation || after.note);
+            // Audit-log before/after store the correction row using the same
+            // prefixed keys the write endpoint accepts (correctedStem,
+            // correctedOptions, ...) -- NOT the unprefixed stem/options/etc.
+            // the public /api/questions/corrections read endpoint returns.
+            var rows = diffRow('Question text', before.correctedStem, after.correctedStem) +
+              optionDiffRows(before.correctedOptions, after.correctedOptions || []) +
+              answerDiffRow(
+                before.correctedAnswerIndex != null ? [before.correctedAnswerIndex] : [],
+                after.correctedAnswerIndex != null ? [after.correctedAnswerIndex] : []
+              ) +
+              diffRow('Explanation / note', before.correctedExplanation || before.correctedNote, after.correctedExplanation || after.correctedNote);
             var who = escapeHtml(e.actorUsername || ('user #' + e.actorId));
             var when = escapeHtml(new Date(e.createdAt).toLocaleString());
             var recencyTag = i === 0 ? ' <span class="chip accent" style="font-size:0.68rem;">Latest</span>' : '';

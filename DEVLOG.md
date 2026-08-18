@@ -9,6 +9,52 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-08-17 — Corrections tab: edit history inline, one request instead of N
+
+**What shipped:** The Corrections tab's per-question "Show full edit
+history" button is gone. The whole bank's correction history now loads in
+**one** `/api/admin/audit-log?bankId=…&action=correction&limit=500` call,
+gets grouped by `questionId` client-side, and every corrected question
+renders its revisions inline with no click. Same request the account
+widget's Edit History modal already makes; the promise is cached so the
+tab's search/subject filters re-render from memory instead of refetching.
+
+**Why:** the old design cost one request per question whose history you
+opened — 20 corrections meant up to 20 round-trips to read them all. This
+started as the user asking whether showing history per-question inline
+would be *costly*; it isn't, and measuring made that concrete: the Hub
+already ships **4.2 MB** of HTML per load and fetches all corrections
+(**12.7 KB**) synchronously before first render. A few dozen audit rows
+are rounding error next to that, so there was never a reason to hide
+history behind a click.
+
+**Verified against a local mock of mpsc-api** (scratchpad copy of the page
+with `API_BASE` repointed — the shipped file was never touched), because
+the real audit-log endpoint needs credentials this session didn't have:
+- **exactly 1** audit-log request on load, URL as designed — not 20
+- 3 seeded revisions grouped correctly onto 2 of the 20 cards; remaining
+  18 say "No edit history recorded"; correct "1 edit"/"2 edits" plurals;
+  "Latest" tag on the newest; nothing stuck on "Loading"
+- the oldest revision of a question (`before: null`) correctly falls back
+  to the original extraction — shows `Correct answer: a → c`, **not**
+  `(blank) → c`, i.e. the fix from earlier today still holds on this path
+- 401 path (invalid token against the real API): all 20 cards say
+  "Edit history unavailable (status 401)" and the **public** before/after
+  diff still renders, so a history failure never blanks the tab
+
+**What's still open:**
+- `limit=500` is a real ceiling. If it's ever hit, the count line appends
+  "history capped at the newest 500 edits" rather than silently implying
+  that's all there is — but there's no pagination past it.
+- The global Edit History modal still does its own separate fetch on open.
+  It could share `AUDIT_HISTORY`, but it lists *all* action types (not
+  just corrections) so the cached correction-only payload isn't a drop-in.
+- Unrelated data nit spotted while reading real corrections: one
+  explanation contains malformed markup (`<u> … <u>`, no closing tag) and
+  so renders as literal text. Content bug, not a rendering one.
+
+---
+
 ## 2026-08-17 — Per-question comment threads in the MCQ Practice Hub
 
 **What shipped:** A "Comments (n)" toggle on question cards in the Hub,

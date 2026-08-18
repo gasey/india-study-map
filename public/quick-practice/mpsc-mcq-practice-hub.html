@@ -122270,6 +122270,58 @@
       diffRow('Explanation / note', before.correctedExplanation || before.correctedNote, after.correctedExplanation || after.correctedNote);
   }
 
+  // The whole bank's correction history in ONE request, grouped by questionId
+  // client-side -- replacing a per-question lazy fetch behind a "Show full
+  // edit history" button, which cost one request per question opened. It's the
+  // same request the account widget's Edit History modal already makes, and
+  // the payload is noise next to what the page already loads (4.2 MB of HTML,
+  // 12.7 KB of corrections fetched synchronously on every load). Cheap enough
+  // that every corrected question can just show its revisions inline.
+  var AUDIT_LIMIT = 500;
+  var AUDIT_HISTORY = null;   // uid -> [entries] (server order: newest first)
+  var AUDIT_TRUNCATED = false;
+  var AUDIT_ERROR = null;
+  var auditHistoryPromise = null;
+
+  function loadAuditHistory(){
+    if(!hasCap('audit.read')) return Promise.resolve(null);
+    if(auditHistoryPromise) return auditHistoryPromise;
+    auditHistoryPromise = fetch(API_BASE + '/api/admin/audit-log?bankId=' + encodeURIComponent(HUB_BANK_ID) +
+      '&action=correction&limit=' + AUDIT_LIMIT, {
+      headers: {'Authorization': 'Bearer ' + authState.token}
+    }).then(function(r){
+      if(!r.ok) throw new Error('status ' + r.status);
+      return r.json();
+    }).then(function(data){
+      var entries = data.entries || [];
+      // Never let a hit ceiling read as "that's all the history there is".
+      AUDIT_TRUNCATED = entries.length >= AUDIT_LIMIT;
+      var byUid = {};
+      entries.forEach(function(e){ (byUid[e.questionId] = byUid[e.questionId] || []).push(e); });
+      AUDIT_HISTORY = byUid;
+      return byUid;
+    });
+    return auditHistoryPromise;
+  }
+
+  function revisionListHtml(entries, q){
+    return '<div class="muted" style="font-size:0.8rem;margin-bottom:6px;">' +
+      entries.length + (entries.length === 1 ? ' edit' : ' edits') + ' recorded, most recent first.</div>' +
+      entries.map(function(e, i){
+        var rows = correctionDiffRows(e.before, e.after, q);
+        var who = escapeHtml(e.actorUsername || ('user #' + e.actorId));
+        var when = escapeHtml(new Date(e.createdAt).toLocaleString());
+        var recencyTag = i === 0 ? ' <span class="chip accent" style="font-size:0.68rem;">Latest</span>' : '';
+        return '<div style="border-top:1px solid var(--border);padding-top:8px;margin-top:8px;">' +
+          '<div style="font-size:0.85rem;"><strong>' + who + '</strong> edited this on ' + when + recencyTag + '</div>' +
+          (rows || '<div class="muted" style="font-size:0.85rem;margin-top:4px;">Saved without changing any field — an identical resubmission.</div>') +
+          '<details style="margin-top:6px;"><summary class="muted" style="cursor:pointer;font-size:0.76rem;">Raw data (debugging)</summary>' +
+          '<pre style="font-size:0.72rem;overflow-x:auto;white-space:pre-wrap;">before: ' + escapeHtml(JSON.stringify(e.before)) +
+          '\nafter:  ' + escapeHtml(JSON.stringify(e.after)) + '</pre></details>' +
+          '</div>';
+      }).join('');
+  }
+
   function renderCorrectionCard(q){
     var div = document.createElement('div');
     div.className = 'qcard';
@@ -122300,55 +122352,24 @@
     }
 
     if(hasCap('audit.read')){
-      var histBtn = document.createElement('button');
-      histBtn.type = 'button';
-      histBtn.className = 'btn ghost';
-      histBtn.style.marginTop = '8px';
-      histBtn.style.fontSize = '0.78rem';
-      histBtn.textContent = 'Show full edit history';
       var histBox = document.createElement('div');
-      histBox.className = 'hidden';
       histBox.style.marginTop = '8px';
-      histBtn.addEventListener('click', function(){
-        if(!histBox.classList.contains('hidden')){
-          histBox.classList.add('hidden');
-          histBtn.textContent = 'Show full edit history';
-          return;
-        }
-        histBtn.textContent = 'Hide full edit history';
-        histBox.classList.remove('hidden');
-        if(histBox.dataset.loaded) return;
-        histBox.dataset.loaded = '1';
-        histBox.textContent = 'Loading…';
-        fetch(API_BASE + '/api/admin/audit-log?bankId=' + encodeURIComponent(HUB_BANK_ID) +
-          '&questionId=' + encodeURIComponent(q.uid) + '&action=correction&limit=50', {
-          headers: {'Authorization': 'Bearer ' + authState.token}
-        }).then(function(r){
-          if(!r.ok) throw new Error('Failed to load history (status ' + r.status + ')');
-          return r.json();
-        }).then(function(data){
-          var entries = data.entries || [];
-          if(entries.length === 0){ histBox.textContent = 'No edit history recorded.'; return; }
-          var summary = '<div class="muted" style="font-size:0.8rem;margin-bottom:6px;">' +
-            entries.length + (entries.length === 1 ? ' edit' : ' edits') + ' recorded, most recent first.</div>';
-          histBox.innerHTML = summary + entries.map(function(e, i){
-            var rows = correctionDiffRows(e.before, e.after, q);
-            var who = escapeHtml(e.actorUsername || ('user #' + e.actorId));
-            var when = escapeHtml(new Date(e.createdAt).toLocaleString());
-            var recencyTag = i === 0 ? ' <span class="chip accent" style="font-size:0.68rem;">Latest</span>' : '';
-            return '<div style="border-top:1px solid var(--border);padding-top:8px;margin-top:8px;">' +
-              '<div style="font-size:0.85rem;"><strong>' + who + '</strong> edited this on ' + when + recencyTag + '</div>' +
-              (rows || '<div class="muted" style="font-size:0.85rem;margin-top:4px;">Saved without changing any field — an identical resubmission.</div>') +
-              '<details style="margin-top:6px;"><summary class="muted" style="cursor:pointer;font-size:0.76rem;">Raw data (debugging)</summary>' +
-              '<pre style="font-size:0.72rem;overflow-x:auto;white-space:pre-wrap;">before: ' + escapeHtml(JSON.stringify(e.before)) +
-              '\nafter:  ' + escapeHtml(JSON.stringify(e.after)) + '</pre></details>' +
-              '</div>';
-          }).join('');
-        }).catch(function(err){
-          histBox.textContent = 'Failed to load: ' + err.message;
-        });
-      });
-      div.appendChild(histBtn);
+      var entries = AUDIT_HISTORY ? (AUDIT_HISTORY[q.uid] || []) : null;
+      if(AUDIT_ERROR){
+        histBox.className = 'muted';
+        histBox.style.fontSize = '0.8rem';
+        histBox.textContent = 'Edit history unavailable (' + AUDIT_ERROR + ').';
+      } else if(entries === null){
+        histBox.className = 'muted';
+        histBox.style.fontSize = '0.8rem';
+        histBox.textContent = 'Loading edit history…';
+      } else if(!entries.length){
+        histBox.className = 'muted';
+        histBox.style.fontSize = '0.8rem';
+        histBox.textContent = 'No edit history recorded.';
+      } else {
+        histBox.innerHTML = revisionListHtml(entries, q);
+      }
       div.appendChild(histBox);
     }
 
@@ -122372,7 +122393,8 @@
     });
     pool = pool.slice().sort(function(a, b){ return new Date(b.correctionAt || 0) - new Date(a.correctionAt || 0); });
 
-    document.getElementById('correctionsCount').textContent = pool.length + ' corrected question(s)';
+    document.getElementById('correctionsCount').textContent = pool.length + ' corrected question(s)' +
+      (AUDIT_TRUNCATED ? ' · history capped at the newest ' + AUDIT_LIMIT + ' edits' : '');
     var list = document.getElementById('correctionsList');
     list.innerHTML = '';
     if(pool.length === 0){
@@ -122383,7 +122405,19 @@
   }
   correctionsSubjectSel.addEventListener('change', function(){ renderCorrections(document.getElementById('correctionsSearch').value); });
   document.getElementById('correctionsSearch').addEventListener('input', function(){ renderCorrections(this.value); });
+
+  function rerenderCorrections(){ renderCorrections(document.getElementById('correctionsSearch').value); }
   renderCorrections('');
+  // One bulk history fetch, then one re-render so every card shows its
+  // revisions inline. A failure here is non-fatal: the public before/after
+  // diff against the original extraction is built from already-loaded data
+  // and still renders.
+  loadAuditHistory().then(function(map){
+    if(map) rerenderCorrections();
+  }).catch(function(err){
+    AUDIT_ERROR = err.message;
+    rerenderCorrections();
+  });
 
 })();
 </script>

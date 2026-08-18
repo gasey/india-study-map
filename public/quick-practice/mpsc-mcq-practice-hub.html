@@ -260,6 +260,7 @@
   <button data-tab="analyze">High-Yield</button>
   <button data-tab="papers">Papers</button>
   <button data-tab="corrections">Corrections</button>
+  <button data-tab="mistakes">Mistakes</button>
 </nav>
 
 <div class="wrap">
@@ -436,6 +437,30 @@
       </div>
     </div>
     <div id="correctionsList"></div>
+  </div>
+
+  <!-- MISTAKES TAB -->
+  <div class="tabpanel" id="tab-mistakes">
+    <h2 class="section-h">Mistakes</h2>
+    <p class="muted">Every question you've gotten wrong at least once, across Test, MCQ of the Day, and the
+      click-to-reveal Viewer — ranked by how often you've missed it, so you can see what's actually costing you
+      marks instead of guessing. Stored only in this browser (localStorage); nothing is sent anywhere.</p>
+    <div class="card">
+      <div class="row">
+        <div style="flex:2; min-width:200px;">
+          <label class="field">Search</label>
+          <input type="search" id="mistakesSearch" placeholder="Search questions you've missed...">
+        </div>
+        <div style="flex:1; min-width:160px;">
+          <label class="field">Subject</label>
+          <select id="mistakesSubjectSel"><option value="">All subjects</option></select>
+        </div>
+      </div>
+      <div class="row" style="margin-top:10px;">
+        <span class="muted toolbar-right" id="mistakesCount"></span>
+      </div>
+    </div>
+    <div id="mistakesList"></div>
   </div>
 
 </div>
@@ -120870,14 +120895,39 @@
     return !!(h && h.wrongCount > 0);
   }
 
+  // A one-line, human-readable summary of a question's attempt record --
+  // "" if it's never been attempted, so callers can skip rendering
+  // anything rather than showing an empty/zeroed line.
+  function attemptHistoryLine(uid){
+    var h = HIST[uid];
+    if(!h || !h.seenCount) return '';
+    var rate = Math.round(100 * h.wrongCount / h.seenCount);
+    return '<div class="note' + (h.wrongCount > 0 ? ' warn' : ' correction-note') + '" style="font-size:0.82rem;">' +
+      'You’ve attempted this ' + h.seenCount + (h.seenCount === 1 ? ' time' : ' times') +
+      (h.wrongCount > 0
+        ? ', missed it ' + h.wrongCount + (h.wrongCount === 1 ? ' time' : ' times') + ' (' + rate + '%)'
+        : ' -- always correct') +
+      ' · last attempt: ' + (h.lastResult === 'correct' ? 'correct' : 'incorrect') +
+      ' on ' + escapeHtml(new Date(h.lastAt).toLocaleDateString()) +
+      '</div>';
+  }
+
   // ---------- tabs ----------
   var tabButtons = document.querySelectorAll('nav.tabs button');
+  // Most tabs render once at load and only change on their own filter
+  // inputs. Mistakes is different -- its data (HIST) can change from
+  // *other* tabs (Test, Daily, Viewer) during the same session, so it
+  // needs a re-render every time it's opened, not just once. Rather than
+  // hook every recordResult() call site, tabs that need this register a
+  // callback here and it fires on activation.
+  var TAB_ACTIVATE_HOOKS = {};
   tabButtons.forEach(function(btn){
     btn.addEventListener('click', function(){
       tabButtons.forEach(function(b){ b.classList.remove('active'); });
       btn.classList.add('active');
       document.querySelectorAll('.tabpanel').forEach(function(p){ p.classList.remove('active'); });
       document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
+      if(TAB_ACTIVATE_HOOKS[btn.dataset.tab]) TAB_ACTIVATE_HOOKS[btn.dataset.tab]();
     });
   });
 
@@ -120971,6 +121021,12 @@
       ex.textContent = (q.answerConfidence === 'low' ? 'Unverified -- ' : 'Explanation: ') + q.explanation;
       div.appendChild(ex);
     }
+    // Same spoiler guard as comments below -- "you missed this last time"
+    // is itself a hint while a test/daily card is still unanswered.
+    if(showAnswer){
+      var histLine = attemptHistoryLine(q.uid);
+      if(histLine) div.insertAdjacentHTML('beforeend', histLine);
+    }
     // Only once the answer is on screen -- a comment may well name the correct
     // option, which would spoil an in-progress test or an unrevealed card.
     if(showAnswer) attachCommentsUI(div, q.uid);
@@ -120991,6 +121047,10 @@
       li.addEventListener('click', function(){
         if(revealed) return;
         revealed = true;
+        // Clicking to reveal in the Viewer IS an attempt, same as Test/Daily
+        // -- record it so "Previously missed" badges, the test pool's "only
+        // questions I've gotten wrong" filter, and the Mistakes tab all see it.
+        recordResult(q.uid, q.correct.indexOf(i) >= 0);
         Array.prototype.forEach.call(lis, function(l, j){
           l.classList.remove('clickable');
           if(q.correct.indexOf(j) >= 0) l.className = 'correct';
@@ -121002,6 +121062,8 @@
           ex.textContent = (q.answerConfidence === 'low' ? 'Unverified -- ' : 'Explanation: ') + q.explanation;
           div.appendChild(ex);
         }
+        var histLine = attemptHistoryLine(q.uid);
+        if(histLine) div.insertAdjacentHTML('beforeend', histLine);
         // Safe to offer comments now that the answer is revealed -- the base
         // card was built with showAnswer=false, so it has none yet.
         attachCommentsUI(div, q.uid);
@@ -122418,6 +122480,61 @@
     AUDIT_ERROR = err.message;
     rerenderCorrections();
   });
+
+  // ============ MISTAKES TAB ============
+  // Ranked by raw miss count first (that's literally "frequently wrong"),
+  // then by miss rate as a tiebreaker, then most-recent last -- so a
+  // question you've bombed 4 times outranks one you've only seen once and
+  // missed, even though both currently have a 100% miss rate.
+  var mistakesSubjectSel = document.getElementById('mistakesSubjectSel');
+  ALL_SUBJECTS.forEach(function(s){
+    var o = document.createElement('option'); o.value = s; o.textContent = s;
+    mistakesSubjectSel.appendChild(o);
+  });
+
+  function renderMistakes(searchText){
+    var subj = mistakesSubjectSel.value;
+    var ft = (searchText || '').toLowerCase();
+    var pool = ALLQ.map(function(q){
+      var h = HIST[q.uid];
+      return (h && h.wrongCount > 0) ? {q: q, h: h} : null;
+    }).filter(Boolean);
+    if(subj) pool = pool.filter(function(x){ return x.q.subject === subj; });
+    if(ft) pool = pool.filter(function(x){
+      return x.q.text.toLowerCase().indexOf(ft) >= 0 || x.q.paperTitle.toLowerCase().indexOf(ft) >= 0;
+    });
+    pool.sort(function(a, b){
+      if(b.h.wrongCount !== a.h.wrongCount) return b.h.wrongCount - a.h.wrongCount;
+      var ra = a.h.wrongCount / a.h.seenCount, rb = b.h.wrongCount / b.h.seenCount;
+      if(rb !== ra) return rb - ra;
+      return b.h.lastAt - a.h.lastAt;
+    });
+
+    document.getElementById('mistakesCount').textContent =
+      pool.length + (pool.length === 1 ? ' question' : ' questions') + " you've gotten wrong before";
+    var list = document.getElementById('mistakesList');
+    list.innerHTML = '';
+    if(!pool.length){
+      var hasAnyHistory = Object.keys(HIST).length > 0;
+      list.innerHTML = '<div class="card muted">' + (hasAnyHistory
+        ? 'No mistakes in this filter — nice.'
+        : "Nothing yet — take a test, do MCQ of the Day, or reveal some answers in the Viewer, and any you get wrong will show up here.") + '</div>';
+      return;
+    }
+    pool.forEach(function(x){
+      var card = renderQuestionStatic(x.q, true); // showAnswer=true also renders the fuller attempt-history line + comments
+      var rate = Math.round(100 * x.h.wrongCount / x.h.seenCount);
+      var badge = document.createElement('div');
+      badge.style.marginBottom = '6px';
+      badge.innerHTML = '<span class="chip warn">Missed ' + x.h.wrongCount + '/' + x.h.seenCount + ' (' + rate + '%)</span>';
+      card.insertBefore(badge, card.firstChild);
+      list.appendChild(card);
+    });
+  }
+  mistakesSubjectSel.addEventListener('change', function(){ renderMistakes(document.getElementById('mistakesSearch').value); });
+  document.getElementById('mistakesSearch').addEventListener('input', function(){ renderMistakes(this.value); });
+  TAB_ACTIVATE_HOOKS.mistakes = function(){ renderMistakes(document.getElementById('mistakesSearch').value); };
+  renderMistakes('');
 
 })();
 </script>

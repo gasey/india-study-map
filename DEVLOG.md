@@ -9,6 +9,61 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-08-18 — Per-question attempt history + a "Mistakes" tab in the Hub
+
+**What shipped:** Two additions to the existing localStorage attempt
+tracker (`HIST`, keyed by uid: `seenCount`/`wrongCount`/`lastResult`/
+`lastAt`) that previously only fed the terse "Previously missed" badge
+and the Test tab's "only questions I've gotten wrong" filter:
+
+1. **Click-to-reveal in the Viewer now counts as an attempt.** Only Test
+   submission and MCQ of the Day submission called `recordResult()`
+   before — revealing an answer by clicking it in the Viewer went
+   untracked. It now calls the same `recordResult(uid, isCorrect)`, so
+   Viewer browsing feeds the same history as taking a real test.
+2. **A human-readable attempt-history line** ("You've attempted this 2
+   times, missed it 2 times (100%) · last attempt: incorrect on
+   8/18/2026") appended to every question card wherever the answer is
+   already shown — same `showAnswer` gate as the comment thread, for the
+   same reason: "you missed this before" is itself a spoiler on an
+   unanswered card, so it's absent from the Daily quiz and Test while
+   in progress, and appears in Test review, Analyze, Corrections, and
+   the Viewer once revealed.
+3. **A new "Mistakes" tab** — every question with `wrongCount > 0`,
+   ranked by raw miss count first (a question missed 4 times outranks
+   one seen once and missed, even though both show 100%), miss rate as
+   tiebreaker, then most-recent. Same search/subject-filter shape as the
+   Corrections tab. Re-renders every time the tab is opened (not just
+   once at load) via a small `TAB_ACTIVATE_HOOKS` registry, since HIST
+   changes from *other* tabs during the same session and a stale list
+   would defeat the point.
+
+**Why:** asked directly — "how much we did wrong" per question, plus a
+summary of what's frequently missed, so revision time goes to actual
+weak spots instead of guesswork. All local: nothing added here talks to
+the network, matching the footer's existing "stored only in this
+browser" claim.
+
+**Verified in-browser** (dev server, real click flows, not simulated):
+first-click-correct shows "always correct"; a genuine miss shows
+"missed it 1 time (100%)"; missing the same question again correctly
+accumulates to "2 times, missed it 2 times"; the Mistakes tab picks up a
+fresh miss immediately on tab-open with no reload (the activate-hook);
+ranking puts the 2/2 question above the 1/1 question; a question
+answered correctly on first try never appears in Mistakes; the Daily
+quiz's unrevealed cards show zero attempt-history lines and zero comment
+buttons, same spoiler guard as before.
+
+**What's still open:**
+- History is per-browser localStorage only — no cross-device sync, and
+  clearing site data resets it. That's the same limitation the existing
+  progress tracking already had; not new here.
+- No decay/recency weighting — a mistake from months ago counts exactly
+  as much as one from today. Could matter once there's enough history to
+  make "recently missed" a meaningfully different signal.
+
+---
+
 ## 2026-08-17 — Corrections tab: edit history inline, one request instead of N
 
 **What shipped:** The Corrections tab's per-question "Show full edit

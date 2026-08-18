@@ -122,6 +122,22 @@
   details.datanotes summary{ cursor:pointer; font-weight:600; color:var(--muted); }
   .paper-note{ font-size:0.85rem; color:var(--muted); background:var(--chip-bg); border-radius:8px; padding:8px 12px; margin-top:8px; }
 
+  /* ---------- per-question comments ---------- */
+  .cmt-panel{ margin-top:8px; border-top:1px solid var(--border); padding-top:8px; }
+  .cmt{ padding:6px 0; font-size:0.88rem; }
+  .cmt + .cmt{ border-top:1px solid var(--border); }
+  .cmt-meta{ font-size:0.76rem; color:var(--muted); }
+  .cmt-body{ white-space:pre-wrap; margin-top:2px; overflow-wrap:break-word; }
+  .cmt-reply{ margin-left:16px; border-left:2px solid var(--border); padding-left:10px; }
+  .cmt-actions{ margin-top:4px; display:flex; gap:10px; flex-wrap:wrap; }
+  .cmt-actions button{ background:none; border:none; padding:0; color:var(--accent);
+    cursor:pointer; font-size:0.76rem; font-family:inherit; text-decoration:underline; }
+  .cmt-form{ margin-top:8px; }
+  .cmt-form textarea{ width:100%; font-family:inherit; font-size:0.88rem; padding:6px 8px;
+    border-radius:6px; border:1px solid var(--border); background:var(--bg); color:inherit; box-sizing:border-box; }
+  .cmt-form .row{ margin-top:6px; }
+  .cmt-btn{ font-size:0.78rem; padding:4px 10px; }
+
   /* ---------- mobile (iOS / Android) ---------- */
   html{ -webkit-text-size-adjust:100%; }
   .topbar{ padding-top:calc(14px + env(safe-area-inset-top)); }
@@ -120955,6 +120971,9 @@
       ex.textContent = (q.answerConfidence === 'low' ? 'Unverified -- ' : 'Explanation: ') + q.explanation;
       div.appendChild(ex);
     }
+    // Only once the answer is on screen -- a comment may well name the correct
+    // option, which would spoil an in-progress test or an unrevealed card.
+    if(showAnswer) attachCommentsUI(div, q.uid);
     return div;
   }
 
@@ -120983,6 +121002,9 @@
           ex.textContent = (q.answerConfidence === 'low' ? 'Unverified -- ' : 'Explanation: ') + q.explanation;
           div.appendChild(ex);
         }
+        // Safe to offer comments now that the answer is revealed -- the base
+        // card was built with showAnswer=false, so it has none yet.
+        attachCommentsUI(div, q.uid);
       });
     });
     return div;
@@ -120990,6 +121012,268 @@
 
   function escapeHtml(s){
     return String(s).replace(/[&<>]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;'}[c]; });
+  }
+
+  // ============ PER-QUESTION COMMENTS ============
+  // Backed by mpsc-api's existing bank-agnostic comment endpoints
+  // (bankId + questionId), so the hub's "paperId__sectionIdx__qno" uids work
+  // as keys with no backend change. Reading is public -- same as corrections
+  // -- so comments show up logged-out; posting/editing/deleting is gated on
+  // comment.create / comment.edit_own / comment.delete_own, and
+  // pin/delete-anyone on comment.moderate, matching RoleMatrix.tsx.
+  //
+  // Deliberately only attached where the answer is ALREADY visible (see
+  // renderQuestionStatic's showAnswer guard and the click-reveal handler): a
+  // comment like "the key is wrong, it's C" would otherwise spoil an
+  // in-progress test or an unrevealed card.
+  var COMMENT_CACHE = {};
+
+  function commentAuthorLabel(c){ return c.displayName || c.username || 'unknown'; }
+  function isOwnComment(c){
+    return !!(authState && authState.user && c.username === authState.user.username);
+  }
+
+  function fetchComments(uid){
+    return fetch(API_BASE + '/api/questions/comments?bankId=' + encodeURIComponent(HUB_BANK_ID) +
+      '&questionId=' + encodeURIComponent(uid))
+      .then(function(r){
+        if(!r.ok) throw new Error('status ' + r.status);
+        return r.json();
+      }).then(function(d){
+        var list = d.comments || [];
+        COMMENT_CACHE[uid] = list;
+        return list;
+      });
+  }
+
+  function commentApi(path, method, body){
+    return fetch(API_BASE + path, {
+      method: method,
+      headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer ' + (authState && authState.token)},
+      body: body ? JSON.stringify(body) : undefined
+    }).then(function(r){
+      if(r.ok) return r.status === 204 ? null : r.json().catch(function(){ return null; });
+      return r.json().then(
+        function(e){ throw new Error(e.detail || ('Request failed (' + r.status + ')')); },
+        function(){ throw new Error('Request failed (' + r.status + ')'); }
+      );
+    });
+  }
+
+  // Small inline composer reused for both a new top-level comment and a reply.
+  function buildCommentForm(uid, parentId, onDone, onCancel){
+    var form = document.createElement('div');
+    form.className = 'cmt-form';
+    var ta = document.createElement('textarea');
+    ta.rows = parentId ? 2 : 3;
+    ta.placeholder = parentId ? 'Write a reply…' : 'Add a comment on this question…';
+    var row = document.createElement('div');
+    row.className = 'row';
+    var post = document.createElement('button');
+    post.className = 'btn cmt-btn';
+    post.textContent = parentId ? 'Reply' : 'Post comment';
+    row.appendChild(post);
+    if(onCancel){
+      var cancel = document.createElement('button');
+      cancel.className = 'btn secondary cmt-btn';
+      cancel.textContent = 'Cancel';
+      cancel.addEventListener('click', onCancel);
+      row.appendChild(cancel);
+    }
+    var err = document.createElement('div');
+    err.className = 'muted';
+    err.style.cssText = 'font-size:0.78rem;margin-top:4px;color:var(--wrong-border);';
+    err.classList.add('hidden');
+    post.addEventListener('click', function(){
+      var body = ta.value.trim();
+      if(!body) return;
+      if(post.disabled) return;
+      post.disabled = true;
+      post.textContent = 'Posting…';
+      err.classList.add('hidden');
+      commentApi('/api/questions/comments', 'POST', {
+        bankId: HUB_BANK_ID, questionId: uid, body: body, parentId: parentId || null
+      }).then(function(){
+        ta.value = '';
+        onDone();
+      }).catch(function(e){
+        err.textContent = e.message;
+        err.classList.remove('hidden');
+      }).finally(function(){
+        post.disabled = false;
+        post.textContent = parentId ? 'Reply' : 'Post comment';
+      });
+    });
+    form.appendChild(ta);
+    form.appendChild(row);
+    form.appendChild(err);
+    return form;
+  }
+
+  function buildCommentNode(c, uid, isReply, refresh){
+    var el = document.createElement('div');
+    el.className = 'cmt' + (isReply ? ' cmt-reply' : '');
+
+    var meta = document.createElement('div');
+    meta.className = 'cmt-meta';
+    meta.innerHTML = '<strong style="color:var(--text);">' + escapeHtml(commentAuthorLabel(c)) + '</strong> · ' +
+      escapeHtml(new Date(c.createdAt).toLocaleString()) +
+      (c.updatedAt ? ' · edited' : '') +
+      (c.isPinned ? ' <span class="chip accent" style="font-size:0.66rem;">Pinned</span>' : '');
+    el.appendChild(meta);
+
+    var body = document.createElement('div');
+    body.className = 'cmt-body';
+    body.textContent = c.body;
+    el.appendChild(body);
+
+    var actions = document.createElement('div');
+    actions.className = 'cmt-actions';
+    function addAction(label, handler){
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.textContent = label;
+      b.addEventListener('click', handler);
+      actions.appendChild(b);
+      return b;
+    }
+
+    // Replies are one level deep (the API models parentId as a single level),
+    // so a reply itself gets no further Reply button.
+    if(!isReply && hasCap('comment.create')){
+      addAction('Reply', function(){
+        if(el.querySelector('.cmt-form')) return;
+        var f = buildCommentForm(uid, c.id, refresh, function(){ f.remove(); });
+        el.appendChild(f);
+        f.querySelector('textarea').focus();
+      });
+    }
+    if(isOwnComment(c) && hasCap('comment.edit_own')){
+      addAction('Edit', function(){
+        if(el.querySelector('.cmt-editing')) return;
+        var wrap = document.createElement('div');
+        wrap.className = 'cmt-form cmt-editing';
+        var ta = document.createElement('textarea');
+        ta.rows = 3;
+        ta.value = c.body;
+        var row = document.createElement('div');
+        row.className = 'row';
+        var save = document.createElement('button');
+        save.className = 'btn cmt-btn';
+        save.textContent = 'Save';
+        var cancel = document.createElement('button');
+        cancel.className = 'btn secondary cmt-btn';
+        cancel.textContent = 'Cancel';
+        cancel.addEventListener('click', function(){ wrap.remove(); });
+        save.addEventListener('click', function(){
+          var next = ta.value.trim();
+          if(!next || save.disabled) return;
+          save.disabled = true;
+          save.textContent = 'Saving…';
+          commentApi('/api/questions/comments/' + c.id, 'PATCH', {body: next})
+            .then(refresh)
+            .catch(function(e){ alert('Could not edit comment: ' + e.message); })
+            .finally(function(){ save.disabled = false; save.textContent = 'Save'; });
+        });
+        row.appendChild(save);
+        row.appendChild(cancel);
+        wrap.appendChild(ta);
+        wrap.appendChild(row);
+        el.appendChild(wrap);
+        ta.focus();
+      });
+    }
+    if((isOwnComment(c) && hasCap('comment.delete_own')) || hasCap('comment.moderate')){
+      addAction('Delete', function(){
+        if(!confirm('Delete this comment?')) return;
+        commentApi('/api/questions/comments/' + c.id, 'DELETE')
+          .then(refresh)
+          .catch(function(e){ alert('Could not delete comment: ' + e.message); });
+      });
+    }
+    if(!isReply && hasCap('comment.moderate')){
+      addAction(c.isPinned ? 'Unpin' : 'Pin', function(){
+        commentApi('/api/questions/comments/' + c.id + '/pin', 'POST')
+          .then(refresh)
+          .catch(function(e){ alert('Could not pin comment: ' + e.message); });
+      });
+    }
+    if(actions.children.length) el.appendChild(actions);
+    return el;
+  }
+
+  function renderCommentsPanel(panel, uid, comments, refresh){
+    panel.innerHTML = '';
+    var repliesByParent = {};
+    comments.forEach(function(c){
+      if(c.parentId) (repliesByParent[c.parentId] = repliesByParent[c.parentId] || []).push(c);
+    });
+    var byTime = function(a, b){ return new Date(a.createdAt) - new Date(b.createdAt); };
+    // Pinned first, then oldest-first so a thread reads top-to-bottom.
+    var top = comments.filter(function(c){ return !c.parentId; }).sort(function(a, b){
+      if(!!a.isPinned !== !!b.isPinned) return a.isPinned ? -1 : 1;
+      return byTime(a, b);
+    });
+
+    if(!comments.length){
+      var empty = document.createElement('div');
+      empty.className = 'muted';
+      empty.style.fontSize = '0.85rem';
+      empty.textContent = 'No comments yet.';
+      panel.appendChild(empty);
+    }
+    top.forEach(function(c){
+      panel.appendChild(buildCommentNode(c, uid, false, refresh));
+      (repliesByParent[c.id] || []).sort(byTime).forEach(function(r){
+        panel.appendChild(buildCommentNode(r, uid, true, refresh));
+      });
+    });
+
+    if(hasCap('comment.create')){
+      panel.appendChild(buildCommentForm(uid, null, refresh, null));
+    } else {
+      var hint = document.createElement('div');
+      hint.className = 'muted';
+      hint.style.cssText = 'font-size:0.78rem;margin-top:8px;';
+      hint.textContent = authState ? 'Your account cannot post comments.' : 'Log in to post a comment.';
+      panel.appendChild(hint);
+    }
+  }
+
+  // Appends a "Comments (n)" toggle + lazily-loaded thread to a question card.
+  function attachCommentsUI(cardEl, uid){
+    var btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'btn ghost';
+    btn.style.cssText = 'margin-top:8px;font-size:0.78rem;';
+    var cached = COMMENT_CACHE[uid];
+    var setLabel = function(n){ btn.textContent = 'Comments' + (typeof n === 'number' ? ' (' + n + ')' : ''); };
+    setLabel(cached ? cached.length : undefined);
+
+    var panel = document.createElement('div');
+    panel.className = 'cmt-panel hidden';
+
+    var refresh = function(){
+      return fetchComments(uid).then(function(list){
+        setLabel(list.length);
+        renderCommentsPanel(panel, uid, list, refresh);
+      });
+    };
+
+    btn.addEventListener('click', function(){
+      if(!panel.classList.contains('hidden')){
+        panel.classList.add('hidden');
+        return;
+      }
+      panel.classList.remove('hidden');
+      if(panel.dataset.loaded) return;
+      panel.dataset.loaded = '1';
+      panel.textContent = 'Loading comments…';
+      refresh().catch(function(e){ panel.textContent = 'Failed to load comments: ' + e.message; });
+    });
+
+    cardEl.appendChild(btn);
+    cardEl.appendChild(panel);
   }
 
   // ============ ACCOUNT / LOGIN ============
@@ -122068,6 +122352,7 @@
       div.appendChild(histBox);
     }
 
+    attachCommentsUI(div, q.uid);
     return div;
   }
 

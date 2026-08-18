@@ -9,6 +9,55 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-08-17 — Per-question comment threads in the MCQ Practice Hub
+
+**What shipped:** A "Comments (n)" toggle on question cards in the Hub,
+opening an inline thread. Backed entirely by mpsc-api's *existing*
+comment endpoints (`/api/questions/comments` GET/POST/PATCH/DELETE +
+`/pin`) — no backend change was needed, because that API is keyed on
+`bankId` + `questionId` and the Hub's `paperId__sectionIdx__qno` uids
+work as-is. Reading is public (verified: GET returns 200 logged-out,
+POST returns 401), matching how corrections already work, so comments
+are visible without logging in. Writes are capability-gated to match
+`RoleMatrix.tsx`: `comment.create` to post/reply, `comment.edit_own` /
+`comment.delete_own` on your own, `comment.moderate` to pin or delete
+anyone's. Pinned comments sort first, then oldest-first so a thread
+reads top-to-bottom; replies are one level deep (the API's `parentId`
+models exactly one), nested under their parent.
+
+**Why the placement rule matters:** the comment button is attached *only
+where the answer is already on screen* — `renderQuestionStatic`'s
+`showAnswer` branch, plus the click-reveal handler after reveal, plus
+Corrections tab cards. A comment saying "the key is wrong, it's (c)"
+would otherwise spoil an in-progress test or an unrevealed Viewer card.
+Verified: the daily quiz (10 cards, rendered `showAnswer=false`) gets 0
+comment buttons; High-Yield (100 cards) and Corrections (20) get one
+each; the Viewer's default click-to-reveal mode has none before the
+click and one after.
+
+**Also answered along the way** (the question that prompted this): showing
+per-question edit history is *not* costly. The Hub already ships 4.2 MB
+of HTML per load; all 20 corrections are 12.7 KB, already fetched
+synchronously on every load. History data is under 1% of that.
+
+**What's still open:**
+- The authenticated write path (post/edit/delete/pin) is **verified only
+  against a stubbed fetch**, not a real round-trip — no credentials
+  available in-session. Payload shape and capability gating are
+  confirmed; the server's actual acceptance of them is not.
+- Per-question correction history is still a click-to-expand button doing
+  **one request per question opened**. One bulk call
+  (`?bankId=…&action=correction&limit=200`, the same request the global
+  Edit History modal already makes) would let history render inline for
+  every corrected question with 1 request instead of N. Recommended but
+  not done — was scoped out in favour of comments.
+- No comment count is shown until the thread is opened (the count comes
+  from the fetch). A bulk `/api/admin/comments?bankId=` call could
+  pre-populate counts, but it's admin-gated, so not usable for the
+  public read path.
+
+---
+
 ## 2026-08-17 — Added a "Corrections" tab to the MCQ Practice Hub
 
 **What shipped:** A new nav tab in `mpsc-mcq-practice-hub.html` (alongside

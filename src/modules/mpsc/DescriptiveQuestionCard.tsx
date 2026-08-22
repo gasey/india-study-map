@@ -45,6 +45,25 @@ export function DescriptiveQuestionCard({ bankId, question, correction, renderEm
         </ul>
       )}
 
+      {/* `explanation` is required on every BankQuestion, MCQ or descriptive
+          — for a descriptive question it's the framing note or full model
+          answer, not a spoiler to gate behind a click the way a sub-part's
+          optional `modelAnswer` is. It was never rendered here at all before
+          (only per-subpart fields were), which meant EVERY top-level-only
+          descriptive question in every bank — including 4 pre-existing ones
+          in mpsc-state-tax-officer.ts — showed just a bare stem. */}
+      {question.explanation && (
+        <div className="text-sm p-2.5 rounded" style={{ background: 'var(--bg-panel-elev)', color: 'var(--text-secondary)' }}>
+          {(question.guidance || question.wordLimit) && (
+            <p className="text-xs mb-1.5" style={{ color: 'var(--text-primary)' }}>
+              {question.guidance}
+              {question.wordLimit ? ` · ~${question.wordLimit} words` : ''}
+            </p>
+          )}
+          {question.explanation}
+        </div>
+      )}
+
       {subparts && subparts.length > 0 && (
         <div className="space-y-2.5 ml-1">
           {subparts.map((sp) => (

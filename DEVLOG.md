@@ -9,6 +9,90 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-08-22 (yet later) — PYQ Practice gets a real Browse mode; bank picker is a pill row now; descriptive questions' top-level explanation finally renders
+
+**What shipped:** Prompted by the user noticing two real gaps after the
+Statistical Handbook bank shipped — "no descriptive or essay type made?"
+and "no browse questions" — plus a UX complaint about the bank `<select>`
+("bad for navigation"):
+
+1. **Bank picker is now a horizontal pill row, not a `<select>`.**
+   Switching banks is the primary navigation act on this page; a native
+   dropdown hides every option behind a click with no visual scan.
+2. **A genuine Browse mode**, alongside the existing Practice (one-at-a-
+   time, click-to-reveal, scored) mode. Browse shows the full filtered
+   list at once, answers already visible, no scoring — this is what
+   `CLAUDE.md`'s "browse, not just quiz" standing requirement actually
+   needs, which Practice's untimed-but-still-click-to-reveal loop never
+   satisfied. New `McqBrowseCard` (local to `PyqPage.tsx`) renders MCQs
+   read-only; descriptive questions render via the ALREADY bank-agnostic
+   `DescriptiveQuestionCard` — it just had no page rendering it outside
+   `StateTaxOfficerEnhanced`. Subject/topic dropdowns now source from the
+   full pool (both types) in Browse mode and the MCQ-only pool in
+   Practice mode, so Browse can reach descriptive-only topics that
+   Practice deliberately can't score.
+3. **Found and fixed a real pre-existing bug while verifying #2's
+   Mizoram essay questions**: `DescriptiveQuestionCard.tsx` never
+   rendered a descriptive question's top-level `explanation`/`guidance`/
+   `wordLimit` — only per-*subpart* versions of those fields. Every one
+   of the Mizoram bank's 6 non-subpart essay questions was showing a
+   bare stem with its entire "MODEL FRAMEWORK" answer invisible. This
+   wasn't new-content-specific: it affected `mpsc-state-tax-officer.ts`'s
+   4 pre-existing descriptive questions too (verified in the browser —
+   the 2016 essay prompt's "This is an essay question: the candidate
+   picks one topic..." framing note, and the précis/letter/idiom
+   question's "This single item bundles three separate descriptive
+   tasks..." note, were BOTH silently missing before this fix, on a page
+   that's been live a while). Fixed by rendering `explanation` always
+   (it's a required field on every `BankQuestion`, MCQ or descriptive —
+   treated as core content, not a spoiler) plus `guidance`/`wordLimit`
+   when present, in the same box, above any subparts.
+
+**Why:** The Mizoram bank's 7 descriptive/essay questions were fully
+authored data with nowhere reachable to render (see the 2026-08-22
+"later" entry above) — Practice mode structurally excludes them (no
+single answerIndex to score), and no generic page had ever wired in
+`DescriptiveQuestionCard`. Building Browse mode was the fix for "no
+module for it" that didn't require inventing a whole new page: the hard
+part (the card, the review panel, the correction overlay) already
+existed and was already bank-agnostic, just never actually used outside
+one bank-specific page.
+
+**A wasted-motion note for future browser verification in this repo:**
+several `computer` clicks in this session landed on the wrong element
+because (a) the screenshot tool downsamples to a max width, so a
+literal `(x, y)` computed from a wider viewport's DOM coordinates lands
+somewhere else in screenshot-space, and (b) firing two `computer` actions
+in one message reuses stale coordinates once the first click has already
+changed the layout. Fix: set the viewport width to match the intended
+screenshot width (e.g. 800x700) before computing click coordinates from a
+screenshot, and click-then-verify one action at a time rather than
+batching sequential UI interactions.
+
+**Verified:** typecheck clean. In the browser: pill row switches banks
+correctly across all 4; Practice mode unchanged (Polity Codex, MPSC State
+Tax Officer both drill normally); Browse mode on the Mizoram bank shows
+all 176 questions read-only, filtering to "Descriptive & Essay" surfaces
+exactly the 7 essay questions via `DescriptiveQuestionCard` with per-
+subpart flag buttons and "Study pointer" reveals on the short-notes
+question; the top-level-explanation fix confirmed live on both the new
+Mizoram essays (guidance + word limit + full framework now visible) and
+the pre-existing State Tax Officer descriptive tab (no regression, no
+duplicated content). No console errors anywhere in this pass.
+
+**What's still open:**
+- Browse mode has no pagination/virtualization — fine at 176-3479
+  questions today (State Tax Officer's own By-Exam/By-Year/By-Paper tabs
+  already render similarly large lists), but worth watching if a much
+  larger bank ever gets added.
+- Session progress/mastery tracking is Practice-only, by design — Browse
+  has no "I got this right" signal to record. If that's ever wanted,
+  it needs its own affordance (e.g. a manual "mark as reviewed"), not a
+  silent repurposing of the existing scoring path.
+- Not asked to commit/push this round — everything above is local only.
+
+---
+
 ## 2026-08-22 (later still) — New bank: Assistant Controller of Mines 2026 (166 questions)
 
 **What shipped:** A fourth bank, `assistant-controller-of-mines-2026`, built

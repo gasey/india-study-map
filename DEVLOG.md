@@ -9,6 +9,291 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-08-22 (later still) — New bank: Assistant Controller of Mines 2026 (166 questions)
+
+**What shipped:** A fourth bank, `assistant-controller-of-mines-2026`, built
+from `~/Downloads/ASSISTANT CONTROLLER OF MINES - 2026.html` — 166 MCQs
+(66 General English Part-B + 100 General Studies) for a mock MPSC
+Assistant Controller of Mines paper. Generator in
+`tools/assistant-controller-of-mines/` (`parse.py` + `build_bank.py`, own
+README). Unlike the Statistical Handbook bank, this source is clean,
+well-structured HTML with explicit ✔-marked answers, so extraction is a
+BeautifulSoup parse rather than manual page-image transcription — much
+faster, and the parser's own sanity checks (question numbers 1..N with no
+gaps, exactly 4 options, exactly one marked correct) caught nothing wrong.
+
+**Provenance, worth being honest about:** this is not a real government-
+published key. Three questions carry a leaked LLM reasoning trace directly
+in the markup — GS Q33: *"Official key marks (B) for Q33. Let's fix this to
+match the key exactly."* That's a model describing and correcting a key it
+was told about, not transcribing one. So the whole file was LLM-authored
+mock content, not sourced from an MPSC PDF. `answerSource` is `'derived'`
+throughout for exactly that reason. `parse.py` takes the corrected
+(second) answer block wherever the source self-corrects (3 questions), and
+GS Q67 keeps a `disputeNote` because even its own correction admits doubt:
+*"The Bairabi-Sairang has 32 tunnels, but options are 44-47."* Verified
+this renders as the red "Disputed:" banner in the browser.
+
+**Topics assigned by number range**, not per-question — the source has no
+topic labels, but content clusters tightly by number (verified by reading
+every question start to finish, not guessed). 19 topics: 9 English
+sub-skills (parts-of-speech, error-spotting, word-transformation,
+vocabulary, idioms, one-word-sub, antonyms, sentence-transformation,
+correct-usage) and 10 GS buckets, including two the post itself makes
+distinctive — **Mining & Minerals** and **Mizoram History & Culture /
+Mizoram Current Affairs**. `difficulty` is a flat `'medium'` default (no
+signal in the source; see tools README before mistaking it for a judged
+rating).
+
+**Two generic fixes this bank needed, both bank-agnostic, both landing in
+shared code:**
+1. **`renderEmphasis()` wired into `PyqPage.tsx`'s question stem.** 24
+   words in the English section are `<u>`-marked in the source; for the
+   word-transformation and advanced-classification questions (English
+   26-35) the underline is the *only* signal of which word is being asked
+   about, not decorative — stripping it would make the question
+   unanswerable. The `__word__` → `<u>` convention already existed
+   (`src/lib/renderEmphasis.tsx`, already used by `mpsc-state-tax-officer.ts`
+   and rendered by `StateTaxOfficerEnhanced`/`QuestionCard`) but `PyqPage`
+   never called it — every underline would have shown as literal
+   double-underscores. Verified in the browser: "fast" renders correctly
+   underlined on English Q2.
+2. **Caught and reverted a repeat of this session's earlier tagging bug.**
+   First draft tagged mining/Mizoram-culture/Mizoram-current-affairs
+   questions `['mines', 'mizoram']` for map cross-linking — same mistake
+   as the Statistical Handbook bank's first draft, except this time the
+   blanket tag was *also substantively wrong*, not just imprecise: it
+   linked GS Q68 (Singhbhum Shear Zone, which is in **Jharkhand**) to
+   "Judiciary, Writs & PIL" purely because `'mizoram'` happens to be a tag
+   on that chapter. Caught it live in the browser while spot-checking, not
+   by inspection — a reminder that this specific mistake needs an actual
+   click-through, not just a code read, to catch. Fixed by shipping the
+   whole bank with `tags: []`: there's no verified per-question
+   correspondence to real map chapters here (unlike the Statistical
+   Handbook bank, where every tag was checked against an actual
+   river/mountain/district), so wrong links are the worse failure mode
+   than no links.
+
+**Verified:** typecheck clean. In the browser: bank appears in the `/pyq`
+selector as "Assistant Controller of Mines 2026 (166)", all 19 topics
+populate with non-empty pools, underline renders correctly, the disputed
+tunnel-count question shows its banner, the Mining & Minerals topic (post-
+fix) shows zero "On the map" links on every question checked, no console
+errors, scoring/session-tracking works across a bank switch.
+
+**What's still open:**
+- Topic-range boundaries were read once, carefully, but not independently
+  re-verified — if that ever matters, re-read the source HTML rather than
+  trusting the range table blindly.
+- No admin-side review of this content yet (same `getCorrections`/
+  `QuestionReviewPanel`/Questions-tab plumbing as every other bank applies
+  automatically, untested against this bank specifically).
+- If the user has more sittings/papers in a similar HTML format, the
+  parser in `tools/assistant-controller-of-mines/parse.py` should mostly
+  reuse — the range-based topic tables would need re-deriving per paper.
+
+---
+
+## 2026-08-22 (later) — PYQ Practice gets flag/correct/comment; a new admin Questions tab; `sourceNote` for source-vs-itself contradictions
+
+**What shipped:** Three connected pieces, prompted by wanting admin-side
+editing + edit history for the Statistical Handbook bank's known
+contradictions, but built bank-agnostically since none of this existed
+for `/pyq` at all before today:
+
+1. **`PyqPage.tsx` now has the full review loop.** It previously read
+   `bank.questions` straight off the static bundle with no flag/note/
+   comment UI and no correction overlay — any bank rendered there
+   (Polity Codex, MPSC State Tax Officer, and now the Statistical
+   Handbook) was effectively uneditable from a learner's seat, because
+   there was no way to file the report that would let an admin act.
+   `PyqPage` now fetches `getCorrections(bankId)` on bank change, overlays
+   `answerIndex`/`options`/`explanation`/`stem` at render time (same
+   never-rewrite-the-original pattern as `StateTaxOfficerEnhanced.tsx`),
+   shows a "✓ corrected by admin" pill plus the admin's public note, and
+   renders `<QuestionReviewPanel>` so anyone logged in can flag/note/
+   comment on any question in any bank shown there.
+2. **New admin tab: Questions** (`src/modules/admin/tabs/QuestionsTab.tsx`,
+   registered in `AdminConsolePage.tsx`). `ReportsTab` only surfaces
+   questions someone has already flagged — `QuestionEditor.tsx`'s own
+   header comment anticipated this gap ("a bank-agnostic Reports tab —
+   and, later, a Questions browse tab — can both open it") but nothing
+   had built the second half. This tab lists every question in a
+   bank, lets an admin open the same `QuestionEditor` on any of them with
+   no pre-existing report (`reportIds` was already optional server-side,
+   so this needed zero backend change), and shows a per-question edit
+   history panel (`adminListAuditLog({bankId, questionId})`) with actor,
+   timestamp, and before/after — the "who edited it, when" that was
+   previously only visible by scrolling the *global* Audit Log tab. A
+   checkbox filters to "Only ⚠ contradictions."
+3. **New schema field `sourceNote?: string`** (`src/data/banks/types.ts`),
+   distinct from the existing `disputeNote`. `disputeNote` means "we think
+   the published exam key is wrong but keep it, that's what MPSC printed";
+   `sourceNote` means "the reference book contradicts itself across two of
+   its own tables" — a different kind of problem a self-authored bank like
+   the Statistical Handbook can actually have (there's no exam key to
+   dispute). Populated on 6 of its 176 questions: the two Census 2011
+   population/literacy figures that differ between the state chapters and
+   Table 47.1/47.3, the ISFR-2021-vs-2023 forest-cover dual figure, the
+   Table 2.1-vs-2.2 rainfall normal, the 2018-labelled-but-actually-2023
+   election table, and Table 13.6's Dampa-filed-under-"National Park"
+   defect. Renders as a distinct amber "⚠ Source note" callout on
+   `PyqPage` (separate from the red `disputeNote` banner) and surfaces in
+   the new Questions tab as a pill + a full-text callout when selected.
+   `tools/statistical-handbook/qlib.py`'s `q()` helper takes an optional
+   `source_note=` kwarg — see its docstring before adding more.
+
+**Why:** Requested directly — admin-side editing of answers/corrections
+with edit history showing who edited what, and a way to mark where the
+source material contradicts itself. The backend (`mpsc-api`) and the
+`QuestionEditor`/audit-log plumbing were already genuinely bank-agnostic
+per this repo's own earlier claim, but the *reader-facing* trigger UI and
+the *browse-without-a-report* admin entry point only existed inside
+`StateTaxOfficerEnhanced.tsx`'s bespoke card and the `mpsc-old-questions`-
+specific `QuestionCard.tsx` chain — `PyqPage`, which is what actually
+renders the Statistical Handbook bank, had none of it. Fixing that once,
+bank-agnostically, was the only way "editing the Mizoram bank's answers"
+was ever going to be reachable at all.
+
+**Verified:** typecheck clean project-wide. In the browser: selected the
+Statistical Handbook bank on `/pyq`, filtered to Population & Census, hit
+the literacy-rate question, confirmed the amber "⚠ Source note" callout
+renders with the exact contradiction text, confirmed Flag/My note/
+Comments all open and correctly gate on login ("Log in (top right) to
+flag, note, or comment"), confirmed no console errors, confirmed bank
+switching (Polity Codex ↔ Mizoram) doesn't throw despite the new
+per-bank `getCorrections` fetch. **Not verified: the admin Questions tab
+itself**, for a mundane reason — it's gated on a real `admin.stats`
+capability against the live `mpsc-api` droplet, and I don't have (and
+didn't create) an admin account on it. Confirmed the gate itself works
+(anonymous → "You don't have access to the admin console"). The tab
+reuses `AdminTable`/`QuestionEditor`/`adminListAuditLog` exactly as
+`ReportsTab`/`AuditLogTab` already do in production, so the risk surface
+is narrow, but someone with admin creds should click through it once —
+particularly the "Only ⚠ contradictions" checkbox and opening the editor
+on a question with no prior report.
+
+**What's still open:**
+- The admin Questions tab needs a real admin-credential smoke test (see
+  above).
+- `PyqPage`'s correction overlay and `sourceNote` badge are now wired for
+  *every* bank rendered there, not just the Statistical Handbook — worth
+  knowing if a future Polity Codex or State Tax Officer edit ever sets
+  `sourceNote`, it'll now show up here too, which is intended but untested
+  against those banks specifically.
+- `disputeNote` still isn't rendered anywhere in `PyqPage` for the
+  `mpsc-state-tax-officer` bank's own disputed questions when browsed via
+  `/pyq` (as opposed to `/state-tax-officer`) until now — it is now,
+  since this session added that render path, but it was never checked
+  against real disputeNote-bearing State Tax Officer rows in the browser.
+- No bulk view of `sourceNote` across all banks — the Questions tab's
+  "Only ⚠ contradictions" filter is per-bank, matching how everything else
+  in the admin console works, but a cross-bank contradiction dashboard
+  doesn't exist if that's ever wanted.
+
+---
+
+## 2026-08-22 — New bank: Mizoram Statistical Handbook 2024 (176 questions)
+
+**What shipped:** A third question bank, `mizoram-stat-handbook-2024`,
+built from the *Statistical Handbook Mizoram 2024* (Directorate of
+Economics & Statistics, 25th in the series, 279 pp., 48 chapters).
+**169 MCQs + 7 descriptive/essay prompts across 15 MCQ topics** —
+geography and boundaries, Census 2011 demography, state symbols/peaks/
+rivers/heritage, GSDP and budget, forest and wildlife, climate,
+agriculture, health and NFHS-5, education, power, transport, tourism,
+election/MPSC/local administration, crime, and all-India comparison.
+
+Generator lives in `tools/statistical-handbook/` with its own README.
+**The `.ts` is generated — edit the `q_*.py` batches, not the bank file.**
+`build_bank.py` refuses to emit unless every record passes validation
+(unique id, 4 distinct options, `answerIndex` in range, non-empty
+explanation, no duplicate question text, known topic→subject mapping).
+
+**Why:** MPSC leans heavily on Mizoram-specific statistics, and this
+handbook is the authoritative source for almost all of them. It also
+feeds Mains/essay answer-writing, which is why the 7 descriptive prompts
+carry model frameworks with figures and source tables rather than just a
+question stem. Note Table 32.1: of 133 posts MPSC advertised in 2023-24,
+all 83 persons recommended were **Group B Gazetted** — the grade this
+prep is aimed at.
+
+**On sourcing — the part worth remembering.** `pdftotext -layout` reads
+the numeric tables fine, but the handbook is bilingual and the extractor
+interleaves Devanagari into the English lines, so the pipeline strips it
+per line. Two sections defeat text extraction outright — "Mizoram at a
+Glance" (pp. v–viii) and "State Information" (pp. ix–xiv), both dense
+bordered bilingual tables — and those were read as **page images**
+instead. Every question comes from a figure verified in one of those two
+views. I first tried fanning out subagents to transcribe page-range
+slices; that burned a large amount of budget and its failure mode is a
+silently mis-transcribed number, which is precisely the class of bug
+this repo has been bitten by twice. Reading the tables directly is
+cheaper and auditable. Don't repeat the fan-out.
+
+**The handbook contradicts itself in seven places**, all documented in
+the tools README and in the bank file's header comment. The important
+ones: Mizoram's Census 2011 population is 10,97,206 in the state
+chapters but 10,91,014 in Table 47.1 (literacy likewise 91.33% vs
+91.58%); forest cover is quoted against both ISFR 2021 (84.53%) and ISFR
+2023 (85.34%); annual normal rainfall is 2,090.33 mm in Table 2.1 but
+2,213.51 mm in Table 2.2. Questions name the table rather than pretending
+one figure is canonical. Table 20.3's per-district "% electrified" column
+doesn't reconcile with its own counts (Kolasib 36/36 printed as 99.21%),
+so only counts and the state total are used; Tables 24.10 and 24.11
+(drop-out, GER) are unusable as printed and are untouched. Also: the TOC
+lists Table 31.1 as the 2018 Assembly election, but the table itself is
+**2023** — the TOC is stale.
+
+**Two fixes made along the way:**
+
+1. **Tag normalisation.** Cross-linking ("View on map") matches question
+   tags against chapter tags, and `mizoram` is carried by only three
+   *polity* chapters (judiciary, states-reorganisation, sixth-schedule).
+   Tagging all 176 questions `mizoram` therefore made a question about
+   district forest cover link to "Judiciary, Writs & PIL" — noise on
+   every single card. `build_bank.py` now keeps `mizoram` only on
+   `polity_admin` questions and content-matches the map's real
+   vocabulary (`tlawng`, `kaladan`, `karnaphuli`, `mizo-hills`,
+   `purvanchal`, `tropic-of-cancer`, `northeast`, …). The Tlawng
+   question now links to Rivers of India and Geography of Mizoram.
+2. **`PyqPage` dropdowns (pre-existing bug, first exposed here).** The
+   drill filters to MCQs (`filter(isMcqQuestion)` — correct, descriptive
+   questions can't be click-scored) but built its subject/topic
+   dropdowns from the *unfiltered* pool. This bank is the first
+   registered bank containing descriptive questions, so it surfaced a
+   "Descriptive & Essay" topic that could never match — selecting it
+   dropped the user on "No questions match these filters" with no
+   explanation. Both dropdowns now derive from the same `mcqPool` the
+   drill uses.
+
+Verified in the browser at `/pyq`: bank appears in the selector as
+"Mizoram Statistical Handbook 2024 (176)", all 15 MCQ topics populate,
+answering scores correctly, explanations and map cross-links render, and
+the console is clean. Typecheck passes.
+
+**What's still open:**
+- **The 7 descriptive questions have no UI.** `/pyq` is MCQ-only by
+  design, and `DescriptiveQuestionCard` currently only renders inside
+  the State Tax Officer module, which is bound to its own bank. They are
+  correct in the data and will render the moment any bank-agnostic view
+  picks them up — but today they're unreachable. This is the main
+  follow-up.
+- Coverage is deliberately uneven: chapters with high exam yield
+  (demography, forest, NFHS-5, all-India) are worked hard; low-yield
+  administrative chapters (co-operation, sericulture, legal metrology,
+  printing & stationery, forensic science) are untouched. Roughly 30 of
+  the 48 chapters contributed questions.
+- Figures from chapters 5–7 (banking, labour, state finance beyond the
+  At-a-Glance budget lines) were extracted but not turned into
+  questions — several of those tables have arithmetic defects that need
+  a careful pass before they're safe to quote.
+- `answerSource` is `derived` throughout, correctly: the statistics are
+  official, the question framing is not. Nothing here should ever be
+  flipped to `official`.
+
+---
+
 ## 2026-08-18 — Per-question attempt history + a "Mistakes" tab in the Hub
 
 **What shipped:** Two additions to the existing localStorage attempt

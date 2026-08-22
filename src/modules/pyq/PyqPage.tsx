@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import * as api from '@/lib/mpscApi';
+import type { Correction } from '@/lib/mpscApi';
 import { banks } from '@/data/banks';
 import { isMcqQuestion } from '@/data/banks/types';
 import type { BankQuestion } from '@/data/banks/types';
@@ -9,6 +10,8 @@ import { useApp } from '@/lib/store';
 import { ModuleSwitcher } from '@/modules/ModuleSwitcher';
 import { HomeBackLink } from '@/components/shell/HomeBackLink';
 import { useHasDesktopChrome } from '@/lib/useShellChrome';
+import { QuestionReviewPanel } from '@/modules/mpsc/QuestionReviewPanel';
+import { renderEmphasis } from '@/lib/renderEmphasis';
 
 // ============================================
 // PYQ PRACTICE — bank-driven question drill.
@@ -45,18 +48,50 @@ export function PyqPage() {
   const [difficulty, setDifficulty] = useState(ALL);
   const [seed, setSeed] = useState(0); // bump to reshuffle
 
-  const subjects = useMemo(() => [...new Set(bank.questions.map((q) => q.subject))], [bank]);
+  // Both dropdowns are built from the MCQ pool only — the same pool `filtered`
+  // draws from. Deriving them from bank.questions instead would advertise
+  // subjects/topics that exist only on descriptive questions and so can never
+  // match here, leaving the user on "No questions match these filters" with no
+  // hint why (the Statistical Handbook bank's essay topic did exactly that).
+  const mcqPool = useMemo(() => bank.questions.filter(isMcqQuestion), [bank]);
+
+  // Admin corrections overlaid at render time — the static bank file is
+  // never rewritten (see StateTaxOfficerEnhanced.tsx for the original of
+  // this pattern). Refetched whenever the bank changes; a bank with no
+  // corrections yet (or a backend hiccup) just falls back to the raw pool.
+  const [corrections, setCorrections] = useState<Record<string, Correction>>({});
+  useEffect(() => {
+    setCorrections({});
+    api.getCorrections(bankId).then(setCorrections).catch(() => {});
+  }, [bankId]);
+
+  const correctedPool = useMemo(() => {
+    if (Object.keys(corrections).length === 0) return mcqPool;
+    return mcqPool.map((q) => {
+      const c = corrections[q.id];
+      if (!c) return q;
+      return {
+        ...q,
+        question: c.stem ?? q.question,
+        options: c.options ?? q.options,
+        answerIndex: c.answerIndex ?? q.answerIndex,
+        explanation: c.explanation ?? q.explanation,
+      };
+    });
+  }, [mcqPool, corrections]);
+
+  const subjects = useMemo(() => [...new Set(correctedPool.map((q) => q.subject))], [correctedPool]);
   const topics = useMemo(() => {
-    const pool = bank.questions.filter((q) => subject === ALL || q.subject === subject);
+    const pool = correctedPool.filter((q) => subject === ALL || q.subject === subject);
     const seen = new Map<string, string>();
     pool.forEach((q) => seen.set(q.topic, q.topicLabel));
     return [...seen.entries()];
-  }, [bank, subject]);
+  }, [correctedPool, subject]);
 
   const filtered = useMemo(() => {
     // Descriptive questions (essay/case-study, no single answer) don't fit
     // this drill's answer-and-score loop.
-    const pool = bank.questions.filter(isMcqQuestion).filter(
+    const pool = correctedPool.filter(
       (q) =>
         (subject === ALL || q.subject === subject) &&
         (topic === ALL || q.topic === topic) &&
@@ -64,7 +99,7 @@ export function PyqPage() {
     );
     return shuffle(pool);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [bank, subject, topic, difficulty, seed]);
+  }, [correctedPool, subject, topic, difficulty, seed]);
 
   const [idx, setIdx] = useState(0);
   const [picked, setPicked] = useState<number | null>(null);
@@ -214,10 +249,13 @@ export function PyqPage() {
                 <span className="px-1.5 py-0.5 rounded" style={{ background: 'var(--bg-panel-elev)' }}>{q.topicLabel}</span>
                 <span className="px-1.5 py-0.5 rounded capitalize" style={{ background: 'var(--bg-panel-elev)' }}>{q.difficulty}</span>
                 {q.year && <span className="px-1.5 py-0.5 rounded" style={{ background: 'var(--bg-panel-elev)' }}>{q.source ?? 'PYQ'} {q.year}</span>}
+                {corrections[q.id] && (
+                  <span className="px-1.5 py-0.5 rounded" style={{ color: '#2e7d5b', border: '1px solid #2e7d5b' }}>✓ corrected by admin</span>
+                )}
                 <span className="ml-auto">{idx + 1} / {filtered.length}</span>
               </div>
 
-              <p className="font-medium mb-4 leading-relaxed">{q.question}</p>
+              <p className="font-medium mb-4 leading-relaxed">{renderEmphasis(q.question)}</p>
 
               <div className="space-y-2">
                 {q.options.map((opt, i) => {
@@ -248,6 +286,22 @@ export function PyqPage() {
                   <div className="rounded-lg px-4 py-3 text-sm leading-relaxed" style={{ background: 'var(--bg-panel-elev)', color: 'var(--text-secondary)' }}>
                     {q.explanation}
                   </div>
+                  {corrections[q.id]?.note && (
+                    <div className="mt-2 rounded-lg px-4 py-2.5 text-xs leading-relaxed" style={{ background: 'rgba(46,125,91,0.10)', border: '1px solid #2e7d5b' }}>
+                      <strong>Admin note:</strong> {corrections[q.id].note}
+                    </div>
+                  )}
+                  {q.disputeNote && (
+                    <div className="mt-2 rounded-lg px-4 py-2.5 text-xs leading-relaxed" style={{ background: 'rgba(165,80,74,0.10)', border: '1px solid #a5504a' }}>
+                      <strong>Disputed:</strong> {q.disputeNote}
+                    </div>
+                  )}
+                  {q.sourceNote && (
+                    <div className="mt-2 rounded-lg px-4 py-2.5 text-xs leading-relaxed" style={{ background: 'rgba(200,150,40,0.12)', border: '1px solid #c8962a' }}>
+                      <strong>⚠ Source note — the reference disagrees with itself:</strong> {q.sourceNote}
+                    </div>
+                  )}
+                  <QuestionReviewPanel bankId={bankId} questionId={q.id} options={q.options} />
                   {relatedChapters(q).length > 0 && (
                     <div className="mt-3 flex flex-wrap items-center gap-2 text-xs">
                       <span style={{ color: 'var(--text-secondary)' }}>On the map:</span>

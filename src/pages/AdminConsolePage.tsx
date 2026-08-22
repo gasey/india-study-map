@@ -1,6 +1,7 @@
 import { useSearchParams } from 'react-router-dom';
 import { hasCap, useAuthStore } from '@/lib/authStore';
 import { DashboardTab } from '@/modules/admin/tabs/DashboardTab';
+import { QuestionsTab } from '@/modules/admin/tabs/QuestionsTab';
 import { ReportsTab } from '@/modules/admin/tabs/ReportsTab';
 import { CommentsTab } from '@/modules/admin/tabs/CommentsTab';
 import { AuditLogTab } from '@/modules/admin/tabs/AuditLogTab';
@@ -22,10 +23,11 @@ import { ImportTab } from '@/modules/admin/tabs/ImportTab';
 // same admin.stats capability — matches Phase 6a's plan.
 // ============================================
 
-type AdminTabKey = 'dashboard' | 'reports' | 'comments' | 'users' | 'audit' | 'static-sets' | 'papers' | 'flags' | 'import';
+type AdminTabKey = 'dashboard' | 'questions' | 'reports' | 'comments' | 'users' | 'audit' | 'static-sets' | 'papers' | 'flags' | 'import';
 
 const TABS: { key: AdminTabKey; label: string }[] = [
   { key: 'dashboard', label: 'Dashboard' },
+  { key: 'questions', label: 'Questions' },
   { key: 'reports', label: 'Reports' },
   { key: 'comments', label: 'Comments' },
   { key: 'papers', label: 'Papers' },
@@ -80,6 +82,7 @@ export default function AdminConsolePage() {
         </div>
 
         {tab === 'dashboard' && <DashboardTab />}
+        {tab === 'questions' && <QuestionsTab />}
         {tab === 'reports' && <ReportsTab />}
         {tab === 'comments' && <CommentsTab />}
         {tab === 'papers' && <PapersTab />}

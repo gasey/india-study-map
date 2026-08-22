@@ -134,6 +134,19 @@ interface BankQuestionBase {
    * candidate.
    */
   sourceDefect?: 'duplicate-options' | 'hand-transcribed-matching-table';
+  /**
+   * The SOURCE PUBLICATION contradicts itself — two tables/sections of the
+   * same reference (not an exam key vs. our judgment, that's `disputeNote`)
+   * give different figures for what should be the same fact, e.g. a
+   * statistical handbook's district chapter and its all-India chapter
+   * printing two different population totals for the same Census. The
+   * question's `answerIndex` still holds a real, individually-sourced
+   * printed figure — this is a "the reference book disagrees with itself,
+   * here's the other number and where it's printed" flag, shown as its own
+   * badge so a learner (or an exam-setter) isn't caught out by quoting the
+   * one this app didn't pick.
+   */
+  sourceNote?: string;
 }
 
 export interface McqBankQuestion extends BankQuestionBase {

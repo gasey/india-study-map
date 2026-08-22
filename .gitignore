@@ -10,3 +10,4 @@ dist
 # Added 2026-08-02 after several got swept in by an unrelated `git add -A`.
 /*.html
 !/index.html
+__pycache__/

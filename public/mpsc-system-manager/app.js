@@ -255,7 +255,7 @@ function studyOrder(pool) {
 
 /* ================================================================= views */
 const VIEWS = {};
-let currentView = 'dash';
+let currentView = 'syllabus';
 
 function go(v, opts) {
   currentView = v;
@@ -265,6 +265,84 @@ function go(v, opts) {
   window.scrollTo(0, 0);
   (VIEWS[v] || VIEWS.dash)(main, opts || {});
 }
+
+/* -------------------------------------------------------------- syllabus */
+/* The landing view. What a candidate needs before anything else is where the
+   marks actually are — 400 of them, unevenly spread, and the unevenness is the
+   whole revision strategy. Unit I of Technical Paper I alone is 60 marks, more
+   than the entire Presentation Software and Word Processing units combined.
+   Everything here comes from data/syllabus.js, which is transcribed from the
+   official PDF; nothing is hardcoded. */
+VIEWS.syllabus = (el) => {
+  const total = SYL.papers.reduce((a, p) => a + p.marks, 0);
+  const maxUnit = Math.max(...SYL.papers.flatMap(p => p.units.map(u => u.marks)));
+
+  const unitRow = (p, u) => {
+    const qs = ANSWERABLE.filter(q => q.paper === p.id && String(q.unit) === String(u.no)).length;
+    const cs = CON.filter(c => c.paper === p.id && String(c.unit) === String(u.no)).length;
+    const known = CON.filter(c => c.paper === p.id && String(c.unit) === String(u.no)
+      && cState(c).status === 'known').length;
+    const subs = (u.subtopics || []).length;
+    return `
+      <details class="syl-unit">
+        <summary>
+          <span class="syl-bar" style="--w:${Math.round(100 * u.marks / maxUnit)}%"></span>
+          <span class="syl-no">${esc(u.no)}</span>
+          <span class="syl-title">${esc(u.title)}</span>
+          <span class="syl-marks">${u.marks}<em>marks</em></span>
+          ${u.mode ? `<span class="pill ${u.mode === 'handwritten' ? 'wn' : ''}">${esc(u.mode)}</span>` : ''}
+          <span class="syl-meta">${cs} concept${cs === 1 ? '' : 's'}${known ? ` · ${known} known` : ''} · ${qs} question${qs === 1 ? '' : 's'}</span>
+        </summary>
+        <div class="syl-body">
+          ${subs ? (u.sections || []).map(sec => `
+            <div class="syl-sec"><h5>${esc(sec.title)}</h5>
+              <ul>${sec.subtopics.map(s => `<li>${esc(s)}</li>`).join('')}</ul></div>`).join('')
+            : `<p class="dim">${esc(u.subtopics_source
+                || 'The official syllabus lists no subtopics for this component.')}</p>`}
+        </div>
+      </details>`;
+  };
+
+  el.innerHTML = `
+    <h1>Syllabus and mark distribution</h1>
+    <p class="muted">${esc(SYL.post)} · ${esc(SYL.employer)}</p>
+    <p class="muted" style="margin-top:.4rem">${esc(SYL.scoring_note || '')}</p>
+
+    <div class="syl-split mt">
+      ${SYL.papers.map(p => `
+        <div class="syl-share" style="--pct:${Math.round(100 * p.marks / total)}%">
+          <strong>${esc(shortPaper(p.id))}</strong>
+          <span>${p.marks} marks · ${Math.round(100 * p.marks / total)}%</span>
+        </div>`).join('')}
+    </div>
+
+    ${SYL.papers.map(p => `
+      <div class="card mt">
+        <div class="spread">
+          <h3 style="margin:0">${esc(p.name)}</h3>
+          <span class="pill ${p.counts_for_merit ? 'acc' : 'wn'}">${p.marks} marks${p.counts_for_merit ? ' · counts for merit' : ' · qualifying'}</span>
+        </div>
+        <p class="dim" style="margin:.4rem 0 .2rem">${esc(p.type)}</p>
+        ${p.structure_note ? `<p class="dim" style="margin:.2rem 0 .6rem">${esc(p.structure_note)}</p>` : ''}
+        <div class="syl-units">${p.units.map(u => unitRow(p, u)).join('')}</div>
+        ${p.pattern_note ? `<p class="syl-note">${esc(p.pattern_note)}</p>` : ''}
+      </div>`).join('')}
+
+    <div class="card mt">
+      <h3 style="margin:0 0 .5rem">The exam</h3>
+      <table><tbody>
+        ${[['Post', SYL.post], ['Pay', SYL.pay], ['Vacancies', SYL.vacancies],
+           ['Advertisement', SYL.advertisement],
+           ['Exam date', SYL.exam_date || 'not announced'],
+           ['Selection', (SYL.selection_stages || []).join(' → ')],
+           ['Syllabus authority', (SYL.syllabus_authority || {}).all_papers || '']]
+          .filter(r => r[1]).map(r => `<tr><th style="width:9rem">${esc(r[0])}</th><td>${esc(r[1])}</td></tr>`).join('')}
+      </tbody></table>
+      ${(SYL.eligibility || []).length ? `<h4 class="mt">Eligibility</h4>
+        <ul class="syl-elig">${SYL.eligibility.map(e => `<li>${esc(e)}</li>`).join('')}</ul>` : ''}
+      ${SYL.syllabus_closing_note ? `<p class="syl-note mt">${esc(SYL.syllabus_closing_note)}</p>` : ''}
+    </div>`;
+};
 
 /* ------------------------------------------------------------- dashboard */
 VIEWS.dash = (el) => {
@@ -1169,7 +1247,7 @@ $('#dataBtn').onclick = () => {
   $('#wipeBtn').onclick = () => {
     if (!confirm('Erase all progress, scores and streaks? This cannot be undone.')) return;
     S = blank(); localStorage.removeItem(KEY);
-    $('#modal').hidden = true; toast('Progress erased'); go('dash');
+    $('#modal').hidden = true; toast('Progress erased'); go('syllabus');   // syllabus is the landing view — marks first
   };
   $('#setCount').onclick = () => {
     S.settings.dailyCount = Math.max(5, Math.min(100, parseInt($('#dCount').value, 10) || 25));
@@ -1198,4 +1276,4 @@ function paintCountdown() {
 
 document.documentElement.dataset.theme = S.settings.theme || 'auto';
 paintCountdown();
-go('dash');
+go('syllabus');   // landing view: where the marks are, before anything else

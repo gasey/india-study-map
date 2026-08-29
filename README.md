@@ -2,6 +2,35 @@
 
 A personal-use, India-focused interactive study map.
 
+**Live:** https://india-study-map.vercel.app
+
+## Exam apps
+
+Self-contained static study apps under `public/`, launched from the module list
+(Practice → Exam guides) and each usable standalone. They share no code with the
+React shell — only a `kind: 'static'` entry in `src/modules/registry.ts`.
+
+| App | Post | Content |
+|---|---|---|
+| [System Manager](https://india-study-map.vercel.app/mpsc-system-manager/index.html) | MUDAL System Manager (400 marks) | 843 questions, 296 concepts |
+| [System Analyst](https://india-study-map.vercel.app/mpsc-system-analyst/index.html) | MPSC System Analyst (900 marks) | 857 questions, 727 concepts |
+| [JSO Cyber Forensic](https://india-study-map.vercel.app/mpsc-jso-prep/index.html) | MPSC JSO | 543 questions |
+
+Both MPSC exam apps open on a **Syllabus** view showing where the marks actually
+sit, because the distribution is uneven in ways that should drive revision —
+System Analyst's General English and General Studies are 200 marks that earn
+nothing toward merit and only need 50% to pass.
+
+**No official answer key exists for most of the past papers in these apps.**
+Every answer carries a visible provenance badge — `official key` where MPSC
+published one, otherwise `derived` with an honest confidence rating. Where an
+independent blind solve contradicted the question bank, **both candidate answers
+are shown** and the reader decides; there is no evidence available to settle it.
+
+Content pipelines live in `tools/system-manager-build/` and
+`tools/system-analyst-build/`, are re-runnable, and assert on counts at every
+stage — this bank has a documented history of losing data silently.
+
 ## Redesign — switchable shell (2026-07)
 
 The app shipped a Claude Design redesign ("Redesign for modern UX and

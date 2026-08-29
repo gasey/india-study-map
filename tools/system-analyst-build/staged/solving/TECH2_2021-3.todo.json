@@ -1,0 +1,308 @@
+{
+  "srcKey": "TECH2_2021",
+  "brief": "tools/bank-rebuild/SOLVE_BRIEF.md",
+  "has_prior_answers": false,
+  "instructions": "Answer each question independently. Write id -> {\"ans\":\"A\"|\"B\"|\"C\"|\"D\", \"conf\":\"high\"|\"medium\"|\"low\", \"exp\":\"1-3 sentences\"} to this filename with .todo.json replaced by .solved.json. No official answer key exists for this paper. Do not inflate confidence.",
+  "questions": [
+    {
+      "id": "TECH2_2021-41",
+      "srcKey": "TECH2_2021",
+      "no": 41,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "In this kind of customer relationship, the company tries to provide all the tools a customer needs, so that they can service themselves, without human assistance.",
+      "opts": {
+        "A": "Co-creation",
+        "B": "Self-service",
+        "C": "Community",
+        "D": "Personal"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-42",
+      "srcKey": "TECH2_2021",
+      "no": 42,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "What is the motto of Digital India?",
+      "opts": {
+        "A": "Digital India: Power to Empower",
+        "B": "Digital India: Power to Knowledge",
+        "C": "Digital India: Transform India",
+        "D": "Digital India: Utility to every citizen"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-43",
+      "srcKey": "TECH2_2021",
+      "no": 43,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Which is not a key area in the vision of Digital India?",
+      "opts": {
+        "A": "Governance & Services on Demand",
+        "B": "Digital Empowerment of Citizens",
+        "C": "Digital Infrastructure as a Utility to Every Citizen",
+        "D": "Technology Central to enable Change"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-44",
+      "srcKey": "TECH2_2021",
+      "no": 44,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Which of the following is a vision in area of Digital Empowerment of Citizens?",
+      "opts": {
+        "A": "Making financial transaction electronic & cashless",
+        "B": "Easy access to Common Service Centre",
+        "C": "Universal Digital Literacy",
+        "D": "Safe and secure cyber space"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-45",
+      "srcKey": "TECH2_2021",
+      "no": 45,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Which of the following is not a the structure of CSC(Common Service Centers)?",
+      "opts": {
+        "A": "VLE",
+        "B": "SCA",
+        "C": "SDA",
+        "D": "SCD"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-46",
+      "srcKey": "TECH2_2021",
+      "no": 46,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "DigiLocker provides a dedicated personal storage space linked to each resident's:",
+      "opts": {
+        "A": "Aadhaar number",
+        "B": "Voter id number",
+        "C": "Bank account number",
+        "D": "DigiLocker id number"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-47",
+      "srcKey": "TECH2_2021",
+      "no": 47,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Which of this is not included in the Nine Pillars of Digital India?",
+      "opts": {
+        "A": "Broadband highways",
+        "B": "Electronics Manufacturing",
+        "C": "Information Technology for All",
+        "D": "Universal Access to Phones"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-48",
+      "srcKey": "TECH2_2021",
+      "no": 48,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "In which year was Digital India programme launched?",
+      "opts": {
+        "A": "2013",
+        "B": "2014",
+        "C": "2015",
+        "D": "2016"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-49",
+      "srcKey": "TECH2_2021",
+      "no": 49,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "What is the name of the pilot project initiated by Ministry of Human Resource Development under its National Mission on Education through Information and Communication Technology to develop a framework of virtual repository of learning resources with a single-window search facility?",
+      "opts": {
+        "A": "Massive Open and Online Courses",
+        "B": "National Digital Library of India",
+        "C": "Swayam",
+        "D": "National Open Digital Library"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-50",
+      "srcKey": "TECH2_2021",
+      "no": 50,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "What is the full form of the mobile application, UMANG?",
+      "opts": {
+        "A": "United Mobility of Application form for New Government",
+        "B": "Unified Mobile Application for New-Age Governance",
+        "C": "Unified Mobile Application for eNGagement",
+        "D": "None of the above"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-51",
+      "srcKey": "TECH2_2021",
+      "no": 51,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "The government of India initiated instant transfer of money across accounts through virtual payment account and was developed by NPCI –",
+      "opts": {
+        "A": "Net Banking",
+        "B": "IMPS",
+        "C": "NEFT",
+        "D": "UPI"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-52",
+      "srcKey": "TECH2_2021",
+      "no": 52,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "A fire broke out in XYZ office, all important documents were lost/damaged. What option will be the best for ABC office in order to safeguard their documents?",
+      "opts": {
+        "A": "Install fire fighting equipments",
+        "B": "Build a fire resistant storeroom",
+        "C": "Photocopy all documents",
+        "D": "Data digitization"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-53",
+      "srcKey": "TECH2_2021",
+      "no": 53,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Which of the following is not a stakeholder for Digitize India Platform?",
+      "opts": {
+        "A": "Data Entry Operator",
+        "B": "User Organizations",
+        "C": "Digital Contributors",
+        "D": "Platform Operators"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-54",
+      "srcKey": "TECH2_2021",
+      "no": 54,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Name the government service, which helps patients in booking online appointments in government hospitals?",
+      "opts": {
+        "A": "Hospital Management System (HMS)",
+        "B": "Health Monitoring System (HMS)",
+        "C": "Self Service System (SSS)",
+        "D": "Online Registration System (ORS)"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-55",
+      "srcKey": "TECH2_2021",
+      "no": 55,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "What do all enterprise architecture models have in common?",
+      "opts": {
+        "A": "Nothing, they are all unique",
+        "B": "They are all optimized for mobile",
+        "C": "There is an explicit transition from business to IT",
+        "D": "IT always dictates business needs"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-56",
+      "srcKey": "TECH2_2021",
+      "no": 56,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "What would happen if different organization were given same set of requirements?",
+      "opts": {
+        "A": "It will produce same architecture",
+        "B": "It will produce different architecture",
+        "C": "It may or may not produce same architecture",
+        "D": "It will not hamper anything"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-57",
+      "srcKey": "TECH2_2021",
+      "no": 57,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Which of the following describes a message-passing taxonomy for a component-based architecture that provides services to clients upon demand?",
+      "opts": {
+        "A": "SOA",
+        "B": "EBS",
+        "C": "GEC",
+        "D": "All of the mentioned"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-58",
+      "srcKey": "TECH2_2021",
+      "no": 58,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Computer viruses, worms and Trojan Horses are examples of:",
+      "opts": {
+        "A": "Client threats",
+        "B": "Server-side masquerading",
+        "C": "Malicious code",
+        "D": "Communication channel threats"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-59",
+      "srcKey": "TECH2_2021",
+      "no": 59,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "What come between Security requirement and Security Infrastructure Specification in the Security Engineering Life Cycle?",
+      "opts": {
+        "A": "Security Policy",
+        "B": "Security Infrastructure Implementation",
+        "C": "Requirement Validation",
+        "D": "Security Policy Selection"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-60",
+      "srcKey": "TECH2_2021",
+      "no": 60,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "eSAFE stand for:",
+      "opts": {
+        "A": "e-Governance Security Availability Framework",
+        "B": "e-Governance Security Assurance Framework",
+        "C": "e-Governance Security Authenticity Framework",
+        "D": "e-Governance Security Acceptable Framework"
+      },
+      "needs_figure": false
+    }
+  ]
+}

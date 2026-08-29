@@ -1,0 +1,1454 @@
+{
+  "TECH2_2021-1": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Good governance is defined as citizen-centric: the citizen is the customer and ultimate stakeholder whose service experience measures whether governance is good. Efficiency and organisation are means, and the ARC is merely a reform body, not the core.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-2": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "A Citizens' Charter must be non-discriminatory (equal service standards for all users) and must set out the grievance/complaint redress mechanism, both being standard mandatory components. Both statements are therefore true.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-3": {
+    "ans": "C",
+    "conf": "medium",
+    "exp": "ICT's recognised structural impacts are easier access to information, online service delivery, and improved intra- and inter-governmental transactions. Centralization of services is the trap: ICT typically enables decentralised, distributed delivery (CSCs, e-District) rather than centralising it, so 'All of them' is wrong.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-4": {
+    "ans": "C",
+    "conf": "medium",
+    "exp": "The standard UNDP/UN-ESCAP attributes of good governance include transparency, responsiveness and accountability (with participation, rule of law, equity, consensus and effectiveness). Democracy is a form of political system, not itself listed as a property of good governance, so 'All of the above' is the trap.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-5": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Audit of the accounts of both the Union and the States is a Union List entry, discharged by the Comptroller and Auditor General of India. States cannot legislate on or control the audit of their own accounts, which is what makes it a union subject rather than a state or concurrent one.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-6": {
+    "ans": "D",
+    "conf": "medium",
+    "exp": "The four standard e-Governance interaction domains are G2C, G2B, G2G and G2E, all of which are government-initiated. C2G is not part of that canonical set, though some wider taxonomies do describe citizen-to-government flows, which is why the printed list is a little loose.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-7": {
+    "ans": "C",
+    "conf": "low",
+    "exp": "Adopting the right approach (right scoping, right delivery model, right sequencing) is treated as the essential precondition for an e-Governance project, while a business model, configuration management and stakeholder impact are outputs or supporting activities within it. This question is weakly worded and more than one option is arguably defensible, so treat it as uncertain.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-8": {
+    "ans": "C",
+    "conf": "medium",
+    "exp": "Identifying IT-enablement opportunities and drawing up requirements belongs to the Future State Definition phase, where the To-Be process is designed and the system requirements flow from it. Current State Assessment only documents the As-Is position; the develop-and-implement phase acts on requirements already defined.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-9": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "Current State (As-Is) Assessment yields process maps, pain points and an analysis of strengths and gaps. A data digitization strategy is a forward-looking design decision produced in the future-state/implementation planning phase, not a product of documenting what exists today.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-10": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "The Delphi technique gathers anonymous, iterative rounds of expert opinion until consensus emerges, and is the classic tool for securing expert judgement. WBS is a scope-decomposition tool and peer review checks work products, not forecasts.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-11": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "Project management doctrine holds that individual development, both managerial and technical, is the foundation on which team development is built. Motivation and conflict management are practices applied within an already-forming team.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-12": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "At project closure the complete indexed set of project records is placed in the project archive for future reference and audit. A project report is only one document within that set, not the repository.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-13": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "CV = EV - AC and SV = EV - PV, so a positive value on each means earned value exceeds both actual cost and planned value: under budget and ahead of schedule. The trap is reading 'positive variance' as overspending; positive is always favourable in earned value analysis.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-14": {
+    "ans": "D",
+    "conf": "medium",
+    "exp": "A vision statement is qualitative and aspirational, describing the conditions and ambitions the organisation wants to reach. It is not quantifiable and does not derive from business strategy, since strategy is formulated to realise the vision, not the other way round.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-15": {
+    "ans": "C",
+    "conf": "medium",
+    "exp": "Permits, along with licences and certificates, are classic Government-to-Citizen transactions. Career enhancement and professional education fall under G2E (employee-facing), while filing of returns is typically classified under G2B taxation services.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-16": {
+    "ans": "A",
+    "conf": "medium",
+    "exp": "Parallel adoption runs the legacy and new systems side by side, so the old system remains a working fallback and errors are caught by comparison, making it the least risky though the most costly. Big Bang, with no fallback, is the riskiest.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-17": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "PBC in tendering stands for Pre-Bid Conference, the meeting where bidders seek clarifications on the RFP before submitting bids, and whose minutes are issued as corrigenda. The other expansions are not procurement terms.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-18": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "e-Governance change management is explicitly people, process and technology together: it alters operational routines, introduces new technology, and must shift the attitudes and behaviour of staff. Restricting it to any one dimension is the standard misconception.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-19": {
+    "ans": "A",
+    "conf": "low",
+    "exp": "In the citizen-experience framing used in e-governance material, having to make repeated visits to a government office is the textbook symptom of poor governance and the pain point e-governance is designed to remove. The question is defective because corrupt officers is equally a sign of poor governance; option B (service as a right) describes good governance.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-20": {
+    "ans": "D",
+    "conf": "medium",
+    "exp": "The four GPR stages run problem identification and definition, process analysis of the As-Is, process re-engineering into the To-Be, and finally process implementation, so the fourth is implementation. Frameworks that split the analysis stage further would shift this, which is why the answer depends on the four-step model the options imply.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-21": {
+    "ans": "B",
+    "conf": "medium",
+    "exp": "The relationship runs the other way: every government service is supported by a set of processes, not every process supported by a set of services. The other three are standard process-orientation statements (processes rather than functions drive the organisation and are what satisfy stakeholders).",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-22": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "Intra-government re-engineering reworks the internal workflows, file movement and approvals that citizens never see, which is by definition the back office. The front office is the citizen-facing delivery channel such as a portal or CSC counter.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-23": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "Merely computerizing existing processes is automation of the As-Is and is the classic anti-pattern GPR exists to prevent, since it hard-codes the inefficiency into software. Studying current functionality, drafting the To-Be and changing approval chains are all genuine GPR steps.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-24": {
+    "ans": "A",
+    "conf": "medium",
+    "exp": "Legacy manual processes carry redundant approvals, paper artefacts and non-standard steps that cannot simply be lifted into software, so they must be re-engineered to become automation ready. The other options describe staff or compliance grievances rather than the process rationale for GPR.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-25": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "Loopholes in the current system, redundant and lengthy approval chains, and communication gaps within government are all standard triggers for undertaking GPR. Each on its own is a recognised symptom, so all of them apply.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-26": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Incremental, step-by-step improvement of existing processes using IT is Government Process Improvement; re-engineering by contrast means radical, fundamental redesign. Confusing improvement with re-engineering is the standard trap in this pair.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-27": {
+    "ans": "D",
+    "conf": "medium",
+    "exp": "Single-vendor (prime vendor) sourcing is the optimum choice when all externally sourced components can be bundled into one package under one point of accountability. Options A and C describe the multi-vendor model, which is what demands higher departmental capacity and carries coordination risk.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-28": {
+    "ans": "A",
+    "conf": "medium",
+    "exp": "In the standard model RFP structure, Volume I is Instructions to Bidders and covers the bid process, evaluation, negotiation and award of contract; Volume II carries functional and technical requirements and Volume III the draft MSA/SLA. Volume numbering does vary between departments, so this is model-dependent.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-29": {
+    "ans": "A",
+    "conf": "medium",
+    "exp": "A Request for Quotations is used where the requirement is fully standardized and specifications are settled, so selection reduces to the lowest quoted price. Rate contracts fix the price in advance rather than letting price decide, and single sourcing involves no price competition at all.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-30": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "GeM, the Government e-Marketplace, is the Government of India's online platform for procurement of common use goods and services by central and state government entities. The other two expansions are not real initiatives.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-31": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Mass customization is the standard term for tailoring products or services to individual customers while retaining the economics of mass production. Specialization refers to narrowing what an organisation does, not to per-customer tailoring.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-32": {
+    "ans": "B",
+    "conf": "medium",
+    "exp": "Training and capacity building recurs through the project's operational life as staff turn over, modules change and refresher rounds are needed, so it is budgeted as a recurring cost. Digitization and migration, installation and configuration, and ERP customization are one-time capital or implementation-phase costs.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-33": {
+    "ans": "C",
+    "conf": "medium",
+    "exp": "Portal subscription charges, transaction fees on online services and advertising are the standard revenue streams an e-Governance initiative can generate. A CSC registration fee is an entry cost paid by the operator to join the network rather than a revenue stream the initiative creates, though the option set here is loosely drafted.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-34": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "In the conventional (departmental) model the government funds, builds, owns and operates the system itself, so it retains the whole of the risk and the whole of the return. Outsourcing, PPP and BOO(T) all exist precisely to transfer some share of risk and return to a private partner.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-35": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "A defining PPP principle is that government retains responsibility for and accountability over delivery of core services even when a private partner builds and operates the infrastructure. The classic PPP tenets also hold that government need not own the infrastructure and that PPP is about services rather than assets, which rules out A and D.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-36": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Transferring construction and delivery risk to the private partner under a fixed-price, output-based contract reduces the government's exposure to cost overruns. The other options state the opposite of a benefit (maximised outgo, increased lifecycle costs) or are meaningless.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-37": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "BOOT stands for Build, Own, Operate, Transfer: the concessionaire builds and owns the asset, operates it for the concession period, then transfers ownership to government. The 'Buy' variants are not standard PPP acronyms.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-38": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Mass market, niche market, segmented, diversified and multi-sided are the five standard types of Customer Segments in the Business Model Canvas. Value proposition, key resources and the canvas as a whole are separate blocks.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-39": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Revenue stream types include asset sale, usage fee, subscription fee, lending/renting/leasing, licensing, brokerage fees and advertising. 'Value' is not a revenue stream; it belongs to the value proposition block and is the deliberate distractor.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-40": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Key Resources are the assets, physical, intellectual, human or financial, required to create the value proposition, reach markets, sustain customer relationships and earn revenue. Key activities are what the firm does with those assets, not the assets themselves.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-41": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Self-service is the Business Model Canvas relationship type where the firm supplies the tools and the customer serves themselves with no direct human contact. Co-creation involves customers producing value with the firm, and 'personal' is the opposite, being assistance from a human representative.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-42": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "The Digital India programme's tagline is 'Power to Empower'. 'Transform India' belongs to the broader slogan of transforming India into a digitally empowered society and knowledge economy, which is the programme's vision statement rather than its motto.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-43": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "Digital India is built on exactly three vision areas: Digital Infrastructure as a Utility to Every Citizen, Governance and Services on Demand, and Digital Empowerment of Citizens. 'Technology Central to enable Change' is not one of them.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-44": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "Universal digital literacy sits squarely under Digital Empowerment of Citizens, along with digitally accessible resources, documents available on the cloud and content in Indian languages. Cashless transactions belong to Governance and Services on Demand, while CSC access and a secure cyberspace fall under Digital Infrastructure as a Utility.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-45": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "The CSC scheme is structured in three tiers: the VLE (Village Level Entrepreneur) running the centre, the SCA (Service Centre Agency) managing a cluster of centres, and the SDA (State Designated Agency) overseeing implementation in the state. SCD is not a CSC entity.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-46": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "DigiLocker allots each resident cloud storage linked to their Aadhaar number, which is also what authenticates the account and enables issuers to push documents into it. The other identifiers are not the linking key.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-47": {
+    "ans": "C",
+    "conf": "medium",
+    "exp": "The nine pillars include 'Information for All' and separately 'IT for Jobs', but there is no pillar called 'Information Technology for All'. Universal Access to Phones (mobile connectivity), Broadband Highways and Electronics Manufacturing are all genuine pillars, so the trap here is the near-miss renaming of 'Information for All'.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-48": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "Digital India was formally launched on 1 July 2015, although the Cabinet had approved the programme the previous year. Answering 2014 confuses approval with launch, which is the standard trap on this date.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-49": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "The National Digital Library of India was the NMEICT pilot that built a virtual repository of learning resources with a single-window search across sources. SWAYAM and MOOCs deliver courses rather than aggregate a repository.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-50": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "UMANG expands to Unified Mobile Application for New-age Governance, the single app front-ending hundreds of central and state services. Option C is a plausible-looking invention built on forcing the letters NG.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-51": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "UPI, developed by NPCI, enables instant inter-account transfer using a virtual payment address so bank details need not be shared. IMPS, also from NPCI, predates UPI and does not use the virtual payment address, which is the distinguishing feature named in the question.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-52": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "Digitization converts records into electronic form that can be backed up and stored off-site, so a fire destroys no information. Fire equipment, fire-resistant rooms and photocopies all still leave a single physical location holding the only copies.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-53": {
+    "ans": "A",
+    "conf": "medium",
+    "exp": "The Digitize India Platform is built on crowdsourcing, so its stakeholders are the user organizations submitting scanned documents, the digital contributors who transcribe snippets, and the platform operators. The conventional data entry operator is precisely the role the crowdsourced model replaces.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-54": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "The Online Registration System (ORS) is the national portal that lets patients book OPD appointments in participating government hospitals, linked to Aadhaar. A hospital management system is internal administrative software, not a citizen-facing appointment service.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-55": {
+    "ans": "C",
+    "conf": "medium",
+    "exp": "Every enterprise architecture framework, whatever its notation, moves explicitly from the business layer (goals, processes, information) down to the technology layer, so the business-to-IT transition is the shared element. IT dictating business needs inverts the whole premise of enterprise architecture.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-56": {
+    "ans": "B",
+    "conf": "medium",
+    "exp": "Architecture is a design choice, not a mechanical derivation, so the same requirement set handed to different organisations yields different architectures shaped by their skills, constraints and preferences. Option C hedges the same point but the standard textbook statement is the definite one.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-57": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Service Oriented Architecture is defined as a component-based architecture in which loosely coupled services communicate by message passing and are consumed by clients on demand. EBS and GEC are not architectural taxonomies of this kind.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-58": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "Viruses, worms and Trojan horses are all forms of malicious code, that is, programs written to damage or subvert a system. Client threats and communication channel threats classify where an attack strikes, not what these programs are.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-59": {
+    "ans": "A",
+    "conf": "low",
+    "exp": "In the security engineering life cycle the security policy is derived from the security requirements and then drives the specification of the security infrastructure, so the policy stage sits between the two. This item is ambiguous because option D names essentially the same stage in activity form, and infrastructure implementation clearly comes later.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-60": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "eSAFE is the e-Governance Security Assurance Framework, the STQC-developed framework for assessing and certifying the security of e-governance applications. The other expansions substitute a single attribute for the assurance concept the framework is built around.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-61": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "Integrity is the standard security definition for data not being altered in an unauthorised manner during creation, transmission or storage. Encryption and electronic signatures are mechanisms that help protect integrity (and confidentiality), not the property itself.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-62": {
+    "ans": "D",
+    "conf": "medium",
+    "exp": "Application-level (proxy) firewalls do give the strongest security, but because they inspect the full application payload they are the slowest, not the fastest, so the statement is false. Note that option B is loosely worded too - comparing packets against connection-state tables actually describes stateful inspection - but D is the plainly false claim the question is after.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-63": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "PKI is built from public key cryptography, digital certificates, certifying authorities (with registration authorities and a certificate repository). ISPs and wireless network technology are just carriage infrastructure and form no part of the PKI trust framework.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-64": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "SSL/TLS gives encryption, server (and optionally client) authentication and protection against eavesdropping, but it does not provide non-repudiation - neither party is bound to the terms of the transaction. Non-repudiation requires a digital signature on the transaction content, which is the classic trap in this question.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-65": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Replying to a spam message confirms to the spammer that the address is live and monitored, which usually increases the volume of spam received. Ignoring, filtering and not forwarding are all recommended practices.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-66": {
+    "ans": "C",
+    "conf": "low",
+    "exp": "Ethical hacking is a simulated attack that probes network and system defences, so it sits within a network security audit assessment rather than a financial/internal audit or a physical walkthrough. This is a weakly framed question - ethical hacking commissioned from an outside firm can also be argued as an external audit assessment, so treat the option wording, not the taxonomy, as the guide.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-67": {
+    "ans": "C",
+    "conf": "medium",
+    "exp": "The purpose of a security audit is to find the gaps and weaknesses in the defences that are already in place, so that they can be closed before an attacker finds them. Options A and D describe controls already working (reasons you might feel safe), and B states a general risk rather than what the audit itself delivers.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-68": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "COTS stands for Commercial Off-The-Shelf software - ready-made packaged products sold, leased or licensed to end users instead of being custom built. MOOC is an online course format and BOOT is a Build-Own-Operate-Transfer project delivery model.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-69": {
+    "ans": "A",
+    "conf": "medium",
+    "exp": "The wording is the standard definition of source code used in software escrow and procurement documents - the modules, class layers, images and program pieces that are compiled together into the delivered system. 'Code' alone is too generic and 'proprietary code' describes ownership rather than composition.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-70": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "Intellectual property protects expressions and inventions - patents, copyrights, trademarks, trade secrets and designs - but a bare idea is not protectable until it is reduced to a concrete expression or invention. That distinction between idea and expression is the point being tested.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-71": {
+    "ans": "A",
+    "conf": "medium",
+    "exp": "In the standard e-Administration / e-Citizens / e-Society split, e-Administration is about improving internal government processes - cutting process costs, managing performance and making strategic connections. Better citizen interaction belongs to the e-Citizens/e-Services strand, which is the trap here.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-72": {
+    "ans": "C",
+    "conf": "medium",
+    "exp": "Both are genuine reasons governments adopt open source: development cost can be shared across a community of users, and once acquired the software can be replicated across departments and offices at no additional licence cost. Neither statement is false as written.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-73": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "The Open Source Definition explicitly requires a licence to be technology-neutral, so demanding technology dependence is the opposite of a criterion. Free redistribution, availability of source code and the licence not being specific to a product are all listed OSD criteria.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-74": {
+    "ans": "C",
+    "conf": "medium",
+    "exp": "The most commonly cited worry with FOSS adoption in government is the absence of a single accountable vendor for support, warranty and escalation. Cost is a FOSS advantage rather than a concern, and mature FOSS stacks are generally considered reliable.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-75": {
+    "ans": "A",
+    "conf": "medium",
+    "exp": "E-government projects are hard mainly because they change the way people work, so managing resistance, retraining and process re-engineering - change management - dominates the risk. Stakeholder management is part of that same problem, but change management is the umbrella term used in the NeGP capacity-building literature this question follows.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-76": {
+    "ans": "C",
+    "conf": "medium",
+    "exp": "The people side of change is normally taught through the ADKAR model - Awareness, Desire, Knowledge, Ability, Reinforcement - and only option C gives two genuine ADKAR elements. Option B mixes one real element (Reinforcement) with 'identify obstacles', which is a project activity rather than a people-dimension goal.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-77": {
+    "ans": "D",
+    "conf": "medium",
+    "exp": "Principles 1 and 3 are both plainly correct, which rules out options A, B and C, so the intended reading of Principle 2 must be the standard caution that communication is only one component of change management and cannot carry the change on its own. Awkward phrasing of Principle 2 makes this one read badly, but D is the only internally consistent choice.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-78": {
+    "ans": "C",
+    "conf": "medium",
+    "exp": "Treating every activity as equally important means nothing is prioritised, effort is spread thin and the critical changes never get the attention they need - a well-known cause of change-programme failure. The other three options describe healthy conditions (team continuity, customer requirements captured, individual benefits shown) that support success rather than cause failure.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-79": {
+    "ans": "B",
+    "conf": "medium",
+    "exp": "Training needs analysis feeds the capacity-building and training rollout that happens once the change is actually being implemented, which is Phase II - Managing Change. Phase I is about readiness assessment, stakeholder identification and forming the change team, and Phase III is about reinforcement and institutionalisation.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-80": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "A change readiness survey is a diagnostic instrument administered across the organisation precisely to gauge how prepared staff and structures are for the coming change. Identifying stakeholders and running hands-on workshops are separate change-management tools.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-81": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "Local government elections are part of the political environment surrounding an organisation, so they are an external driver of change. Human resources and skill levels, management approaches and new product development all originate inside the organisation.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-82": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "Resistance to change is driven by perceived personal cost - heavier workloads, forced relocation and the loss of established working groups and social ties are all standard causes listed in change-management literature. Since each option is a genuine cause, the combined choice is correct.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-83": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "The standard three-phase change management approach used in e-governance capacity building runs Establishing the Foundation for Change, then Managing Change, then Sustaining Change. The first phase covers readiness assessment, stakeholder identification, sponsorship and forming the change team.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-84": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "Episodic innovation is exactly the pattern described - innovation treated as an occasional burst of effort followed by a dormant period, rather than a continuous capability. Failure of perception means not recognising the need at all, and steady state innovation is the opposite problem of only improving what already exists.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-85": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Section 4 of the Information Technology Act, 2000 gives legal recognition to electronic records, satisfying any legal requirement that information be in writing or in printed form. Legal recognition of electronic/digital signatures follows separately in Section 5, which is the usual confusion here.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-86": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Signing with the sender's private key and verifying with the sender's public key gives authenticity, integrity and non-repudiation, but anyone holding the freely available public key can read the message. Confidentiality requires encrypting with the recipient's public key instead, which is a different operation.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-87": {
+    "ans": "C",
+    "conf": "medium",
+    "exp": "A Registration Authority only verifies and vouches for the identity of an applicant; certifying the subscriber's public key by issuing and signing the Digital Signature Certificate is the exclusive function of the Certifying Authority. The CCA licensing CAs, licensed CAs issuing DSCs, and subscribers applying to a licensed CA are all correctly stated.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-88": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "Class 3 certificates require the applicant to present themselves in person before the Certifying Authority or its RA, giving the highest assurance level, and are prescribed for high-value e-commerce and e-tendering. Class 1 and Class 2 rely on weaker email or database-record verification.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-89": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "The IT Act 2000 deals with electronic records, digital signatures and cybercrime, not with intellectual property rights. Copyright, trademark and patent legislation are the statutes that actually create and govern IPR in India.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-90": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Literary works - books, articles and also computer programs in India - are protected as copyright, which covers original expression. Trademarks protect marks distinguishing goods and services, patents protect inventions, and industrial design protects the visual appearance of an article.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-91": {
+    "ans": "A",
+    "conf": "medium",
+    "exp": "A patent can only be granted for something new to the world, so novelty is the defining test, whereas copyright only requires that the work be the author's own original expression and may duplicate an existing idea. Both rights confer exclusivity and can have commercial value, so those options do not separate them; the process of grant is a fair secondary difference but novelty is the substantive one.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-92": {
+    "ans": "D",
+    "conf": "medium",
+    "exp": "The financial section of a Detailed Project Report sets out what the project will cost, how that cost will be funded, and the phasing of expenditure over the project period, so all three items belong there. None of the three is a non-financial element that would need to be excluded.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-93": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "A Request For Proposal is the tender document issued to prospective bidders setting out scope, requirements and evaluation criteria. The DPR comes before it, is prepared by the implementing department (often to seek funding approval), and is not a completion report.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-94": {
+    "ans": "C",
+    "conf": "low",
+    "exp": "Warranty clauses and indemnity against third party claims both function to protect a party and cap its exposure, so they sit with the protection and limitation clauses rather than with scope or termination provisions. This grouping is specific to whichever model contract template the paper follows, and 'Liabilities of parties' is a genuinely defensible alternative - treat this answer as uncertain.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-95": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "The defining feature of a Public Private Partnership is that the private partner brings the capital investment and bears the associated financial risk, recovering it through user charges or annuity payments. The government contributes the mandate, land, regulatory support and often viability gap funding rather than the bulk of the investment.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-96": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "Monitoring is continuous, routine tracking of inputs, activities and outputs so problems can be spotted early and resources used well; judging whether the programme actually achieved its objectives is the job of evaluation. Confusing the two is the standard trap in monitoring and evaluation questions.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-97": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "Bid evaluation in e-governance procurement runs pre-qualification, then technical, then financial/commercial evaluation. 'Digital evaluation' is not a recognised stage and is the invented option here.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-98": {
+    "ans": "A",
+    "conf": "medium",
+    "exp": "In the results chain, monitoring tracks outputs while evaluation assesses outcomes - the changes actually produced for users by the delivered services. Output is what monitoring measures, and success/failure is a verdict rather than a measurement category.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-99": {
+    "ans": "A",
+    "conf": "medium",
+    "exp": "In the standard results chain, health camps are activities, the campaign is the output, reduction in polio cases is the outcome, and the long-term societal change - healthier citizens - is the impact. Reduction in polio is the classic trap because it is a real result but sits one level below impact.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH2_2021-100": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "The Ministry's assessment framework for e-governance projects uses a baseline study for projects at conceptualisation or early implementation, an impact assessment for mature projects already delivering citizen services, and a detailed assessment to explain variation in impact across locations. The other option sets are invented labels.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH3_2021-1": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "This is the textbook PMBOK example for 'Market demand' as a project-initiation driver: a car company building fuel-efficient cars because of gasoline shortages is responding to demand in the marketplace, not an internal business need.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH3_2021-2": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "PMBOK's Project Manager Competency Development (PMCD) framework groups PM competencies into three categories: Knowledge, Performance, and Personal competence.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH3_2021-3": {
+    "ans": "B",
+    "conf": "medium",
+    "exp": "Writing the detailed scope statement for a specific project and its product is the individual project manager's job, not the PMO's; the PMO instead handles coaching/oversight, shared resources, and organization-wide policy per PMBOK.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-4": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "Project resources broadly cover manpower, machinery, and materials together, so 'all of the above' is correct.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-5": {
+    "ans": "B",
+    "conf": "medium",
+    "exp": "PMBOK defines a 'process' as a set of interrelated actions performed in a sequence to achieve a specified result within the project, which matches 'networked activities aimed at project goals' better than 'project' itself does.",
+    "agreement": "disagree",
+    "bank_ans": "A",
+    "prov": "Blind solve gives (B); the bank's inferred answer was (A). They disagree, so one derivation is wrong.",
+    "note": "conflicts with bank answer (A)"
+  },
+  "TECH3_2021-6": {
+    "ans": "A",
+    "conf": "medium",
+    "exp": "PMBOK's list of organizational process/procedure assets includes financial control procedures, risk control procedures, and closure guidelines explicitly; 'guidelines of the project to specify needs of the organization' is not part of that standard list and reads as the odd option out.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH3_2021-7": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "The project life cycle spans understanding scope, setting objectives, and formulating/planning activities, so all three together describe it.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-8": {
+    "ans": "C",
+    "conf": "medium",
+    "exp": "A generic product/project development flow runs Marketing (identify need) -> Analysis and evaluation -> Design -> Inspection, testing and delivery, i.e. ii, iii, i, iv.",
+    "agreement": "disagree",
+    "bank_ans": "B",
+    "prov": "Blind solve gives (C); the bank's inferred answer was (B). They disagree, so one derivation is wrong.",
+    "note": "conflicts with bank answer (B)"
+  },
+  "TECH3_2021-9": {
+    "ans": "C",
+    "conf": "low",
+    "exp": "Per PMBOK, dedicated teams are typical of projectized organizations and part-time teams of functional ones, while matrix organizations mainly produce 'mixed' (part dedicated, part part-time) teams rather than uniformly using both types as a defining feature; the other three statements are directly supported by PMBOK's team-composition discussion. The options are close enough that this is a judgment call.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH3_2021-10": {
+    "ans": "B",
+    "conf": "medium",
+    "exp": "PMBOK treats the project life cycle as independent of the product life cycle -- a product's life cycle can span many projects across its life, so the two are not the same thing nor strictly interdependent.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-11": {
+    "ans": "A",
+    "conf": "medium",
+    "exp": "In the PMBOK process-group diagram, Initiating finishes before Closing begins, so those two do not overlap in time, whereas Planning/Executing/Monitoring-Controlling all overlap with each other and with Closing at the tail end.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-12": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "The standard PMBOK process group sequence is Initiating, Planning, Executing, Monitoring and Controlling, Closing.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-13": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "The bulk of project spend goes into producing deliverables, which happens in the Executing Process Group.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-14": {
+    "ans": "A",
+    "conf": "medium",
+    "exp": "'Interchangeable staff' is not a recognized success factor in project management literature (and undermines accountability/expertise); competent team members, client responsiveness, and control mechanisms are standard success factors.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-15": {
+    "ans": "D",
+    "conf": "medium",
+    "exp": "PMBOK's description of the Closing Process Group explicitly includes applying appropriate updates to organizational process assets as part of formally completing the project or phase.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-16": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "A Scope Statement is a project document/output, not an Enterprise Environmental Factor; organizational infrastructure, government standards, and marketplace conditions are all classic EEFs feeding Develop Project Charter.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-17": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "Bringing in an outside consultant to advise on developing the Project Charter is the PMBOK tool/technique 'Expert Judgment'; the other options are not standard PMBOK terms.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-18": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Raw, unprocessed measurements like technical performance figures, activity start/finish dates, change request counts, and defect counts are exactly PMBOK's definition of Work Performance Data, before they are analyzed into information or reports.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-19": {
+    "ans": "A",
+    "conf": "low",
+    "exp": "The Project Charter is a sponsor-authorized founding document that is not normally revised through routine change requests the way the project management plan and other project documents are, unlike the recognized change-request categories (defect repair/update, corrective/preventive action) and the fact that requests can originate internally or externally, which are all textbook-accurate. This one is a closer call than the others.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH3_2021-20": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "PMBOK defines the Change Control Board (CCB) as the formally chartered group responsible for reviewing, evaluating, and approving or rejecting changes; 'Change Configuration Board' and 'Configuration Control Board' are not the PMBOK term even though both abbreviate to CCB.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-21": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "PMBOK defines exactly this scope as Project Integration Management: identifying, defining, combining, unifying, and coordinating the processes and activities across all Process Groups.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-22": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "PMBOK states integration's nature is captured by the characteristics of unification, consolidation, communication, and interrelationship; 'review' is not one of the four named characteristics.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-23": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Defining, preparing, and organizing the subsidiary management plans and integrating them into one comprehensive project management plan is precisely the Develop Project Management Plan process.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-24": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "The Project Scope Management processes run in order: Plan Scope Management, Collect Requirements, Define Scope, Create WBS, Validate Scope, and Control Scope.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-25": {
+    "ans": "B",
+    "conf": "medium",
+    "exp": "Define Scope produces the project scope statement plus updates to project documents such as the requirements traceability matrix; the WBS is not created until the later Create WBS process, and the project charter predates Define Scope.",
+    "agreement": "disagree",
+    "bank_ans": "D",
+    "prov": "Blind solve gives (B); the bank's inferred answer was (D). They disagree, so one derivation is wrong.",
+    "note": "conflicts with bank answer (D)"
+  },
+  "TECH3_2021-26": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "Create WBS is one of the core processes of the Project Scope Management knowledge area.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-27": {
+    "ans": "D",
+    "conf": "medium",
+    "exp": "Refusing to informally absorb a suggested addition and instead insisting it be routed through the proper process is the discipline of change control, which channels all scope changes through a formal review rather than ad hoc acceptance.",
+    "agreement": "disagree",
+    "bank_ans": "B",
+    "prov": "Blind solve gives (D); the bank's inferred answer was (B). They disagree, so one derivation is wrong.",
+    "note": "conflicts with bank answer (B)"
+  },
+  "TECH3_2021-28": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "Control Scope exists mainly to prevent uncontrolled, unapproved additions to the project's deliverables -- i.e. to prevent scope creep -- not to enable it or to simply block all change.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-29": {
+    "ans": "A",
+    "conf": "medium",
+    "exp": "PMBOK's Validate Scope inputs are the project management plan, project documents, verified deliverables, and work performance data; the scope baseline is only referenced as a component nested inside the project management plan, not listed as its own standalone input.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH3_2021-30": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "The Scope Management Plan is a subsidiary plan bundled inside the overall Project Management Plan, not a standalone document like the WBS or scope statement.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-31": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Determining, documenting, and managing stakeholder needs and requirements to meet project objectives is the definition of the Collect Requirements process.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-32": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "Decomposition is the PMBOK technique for subdividing project scope/work into smaller, more manageable components such as activities; 'deconstruction' is not a PMBOK term.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-33": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "A resource calendar documents availability (working days/shifts, duration of availability) of already-identified resources; it cannot specify resources that are 'potentially unidentified', which is the false statement here.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-34": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "PMBOK names Crashing (adding resources to shorten duration) and Fast Tracking (doing activities in parallel) as the two schedule-compression techniques.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-35": {
+    "ans": "B",
+    "conf": "medium",
+    "exp": "Establishing/removing logical dependencies between activities and then updating activity attributes to reflect the change are outputs of the Sequence Activities process.",
+    "agreement": "disagree",
+    "bank_ans": "D",
+    "prov": "Blind solve gives (B); the bank's inferred answer was (D). They disagree, so one derivation is wrong.",
+    "note": "conflicts with bank answer (D)"
+  },
+  "TECH3_2021-36": {
+    "ans": "A",
+    "conf": "medium",
+    "exp": "Starting 10 days before the predecessor finishes is a Finish-to-Start relationship with a 10-day lead (a negative lag applied to an FS dependency), not a different relationship type like Start-to-Start.",
+    "agreement": "disagree",
+    "bank_ans": "C",
+    "prov": "Blind solve gives (A); the bank's inferred answer was (C). They disagree, so one derivation is wrong.",
+    "note": "conflicts with bank answer (C)"
+  },
+  "TECH3_2021-37": {
+    "ans": "C",
+    "conf": "medium",
+    "exp": "PMBOK's activity-attributes list explicitly names person responsible, geographic area/location, and leads and lags as attributes; a specific 'time when to perform' is not on that list since actual dates only get fixed later as an output of Develop Schedule.",
+    "agreement": "disagree",
+    "bank_ans": "D",
+    "prov": "Blind solve gives (C); the bank's inferred answer was (D). They disagree, so one derivation is wrong.",
+    "note": "conflicts with bank answer (D)"
+  },
+  "TECH3_2021-38": {
+    "ans": "D",
+    "conf": "low",
+    "exp": "Customer-imposed milestones bind everyone delivering the work -- both the project manager accountable for the schedule and the functional managers supplying resources against it -- so both must adhere to them, unlike internally set milestones which can be more flexible.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-39": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Rounding rules, units of measure, and variance thresholds for cost control are exactly the kind of detail specified in the Cost Management Plan.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-40": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "All subsidiary management plans, including the Cost Management Plan, are integrated together in the Develop Project Management Plan process.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-41": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Analogous estimating uses historical/similar-project data as a quick top-down proxy, which makes it generally less accurate than bottom-up or parametric methods that use more detailed data.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-42": {
+    "ans": "A",
+    "conf": "medium",
+    "exp": "The cost baseline is an output of Determine Budget, not an input to it, and the requirements traceability matrix is a scope-management artifact not used here; scope baseline, agreements, basis of estimates/cost estimates, risk register, and resource management plan are all genuine Determine Budget inputs per PMBOK's ITTO list.",
+    "agreement": "disagree",
+    "bank_ans": "B",
+    "prov": "Blind solve gives (A); the bank's inferred answer was (B). They disagree, so one derivation is wrong.",
+    "note": "conflicts with bank answer (B)"
+  },
+  "TECH3_2021-43": {
+    "ans": "A",
+    "conf": "medium",
+    "exp": "Cost Plus Fixed Fee is a cost-reimbursable contract that guarantees the contractor's costs are covered plus a fixed profit regardless of overruns, putting the least risk on the contractor -- unlike fixed-price contracts, which push cost risk onto the seller.",
+    "agreement": "disagree",
+    "bank_ans": "D",
+    "prov": "Blind solve gives (A); the bank's inferred answer was (D). They disagree, so one derivation is wrong.",
+    "note": "conflicts with bank answer (D)"
+  },
+  "TECH3_2021-44": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "PMBOK defines Determine Budget as aggregating the estimated costs of individual activities or work packages to establish an authorized cost baseline, matching option B exactly.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-45": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "Cost Management runs Plan Cost Management, Estimate Costs, Determine Budget, then Control Costs -- i.e. ii, iii, i, iv.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-46": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "Control chart upper and lower control limits are set using statistical calculations (typically plus/minus three standard deviations from the process mean), not a Pareto chart or ROM estimate.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-47": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "An outside team checking whether project work complies with organizational and PMI policies, standards, and procedures is the textbook definition of a Quality Audit.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-48": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "A component-specific tool used to verify that a defined set of required steps has been performed is a Checklist, a standard quality-management tool.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-49": {
+    "ans": "A",
+    "conf": "medium",
+    "exp": "A monitoring and evaluation framework is generally built around objectives, the assumptions underlying them, measurable indicators, and a summary of planned activities -- the most complete of the four options; the shorter options (just objectives/indicators, or goal/objectives) omit necessary elements.",
+    "agreement": "disagree",
+    "bank_ans": "D",
+    "prov": "Blind solve gives (A); the bank's inferred answer was (D). They disagree, so one derivation is wrong.",
+    "note": "conflicts with bank answer (D)"
+  },
+  "TECH3_2021-50": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "Stakeholder analysis, SWOT analysis, and problem tree analysis are all standard situational-analysis tools used before project/program planning.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-51": {
+    "ans": "B",
+    "conf": "medium",
+    "exp": "Proactive correspondence, luncheon meetings, and symposia are all named PMBOK examples of networking activities used to build professional relationships; 'organization management' is a broad management function, not a specific networking activity.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-52": {
+    "ans": "D",
+    "conf": "medium",
+    "exp": "With team members spread across Kolkata, Guwahati, Bangalore, and Aizawl, a deliberate communication plan (methods, frequency, channels for a geographically dispersed team) becomes essential to keep everyone aligned, more so than team-building or status reporting alone.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-53": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "PMBOK states that once ground rules are established, all project team members share responsibility for enforcing them, not just the project manager.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-54": {
+    "ans": "C",
+    "conf": "medium",
+    "exp": "'Recruitment and retention of qualified employees' is a fixed, widely used HR collocation describing a core employer goal; the blank needs a single word pairing naturally with 'retention', which fits recruitment far better than training or development.",
+    "agreement": "disagree",
+    "bank_ans": "D",
+    "prov": "Blind solve gives (C); the bank's inferred answer was (D). They disagree, so one derivation is wrong.",
+    "note": "conflicts with bank answer (D)"
+  },
+  "TECH3_2021-55": {
+    "ans": "C",
+    "conf": "low",
+    "exp": "Job evaluation establishes a systematic, objective basis for comparing job worth, which is the standard preventive tool used to reduce subjective disagreements among rating-committee members; this draws on general HR management terminology rather than PMBOK, so confidence is limited.",
+    "agreement": "disagree",
+    "bank_ans": "D",
+    "prov": "Blind solve gives (C); the bank's inferred answer was (D). They disagree, so one derivation is wrong.",
+    "note": "conflicts with bank answer (D)"
+  },
+  "TECH3_2021-56": {
+    "ans": "B",
+    "conf": "medium",
+    "exp": "The basic communication model runs: sender encodes the message, transmits it through a medium, the receiver decodes it, acknowledges receipt, and then provides feedback/response -- i.e. Encode, Transmit, Decode, Acknowledge, Feedback.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-57": {
+    "ans": "A",
+    "conf": "medium",
+    "exp": "PMBOK's ITTO explicitly makes Work Performance Reports an output of the Monitor and Control Project Work process, which belongs to Project Integration Management; work performance information (not reports) is what gets aggregated from the individual controlling processes.",
+    "agreement": "disagree",
+    "bank_ans": "B",
+    "prov": "Blind solve gives (A); the bank's inferred answer was (B). They disagree, so one derivation is wrong.",
+    "note": "conflicts with bank answer (B)"
+  },
+  "TECH3_2021-58": {
+    "ans": "D",
+    "conf": "medium",
+    "exp": "A detailed written report to the client documenting a major cost impact (100 lakh) from a schedule crash is a formal, official form of communication -- written, deliberate, and part of the project's documented record, not an informal or unofficial exchange.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-59": {
+    "ans": "A",
+    "conf": "medium",
+    "exp": "Communication with external parties (clients, vendors, regulators) tends to be formal and documented for accountability, so it is dominated by written documents, unlike internal communication which is often more verbal/informal.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-60": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "The project manager is the hub through which all project communication is planned, filtered, and directed, making the PM the critical element of the communication system rather than any single report or directive.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-61": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "A Risk Breakdown Structure (RBS) organizes identified project risks into a hierarchy by category, much like a WBS organizes deliverables; a risk register is only a flat list, not a hierarchy.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-62": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "Identify Risks is explicitly described as an iterative process, since new risks emerge and existing ones evolve as the project progresses through its life cycle.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-63": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "Assigning risk categories (e.g. via a Risk Breakdown Structure) during Plan Risk Management gives the team a structured way to systematically identify important risk sources, rather than relying on ad hoc brainstorming.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-64": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Perform Qualitative Risk Analysis prioritizes risks by assessing and combining their probability of occurrence and impact, typically via a probability-impact matrix; Quantitative Analysis instead numerically models overall project risk.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-65": {
+    "ans": "A",
+    "conf": "medium",
+    "exp": "Total project risk exposure is found by summing, for each individual risk, its probability multiplied by the amount at stake (impact); option (a)'s awkwardly worded 'sum of each risk times the amount at stake' describes this per-risk P x I sum, unlike (b) which sums probabilities first and multiplies by one shared consequence.",
+    "agreement": "disagree",
+    "bank_ans": "B",
+    "prov": "Blind solve gives (A); the bank's inferred answer was (B). They disagree, so one derivation is wrong.",
+    "note": "conflicts with bank answer (B)"
+  },
+  "TECH3_2021-66": {
+    "ans": "A",
+    "conf": "medium",
+    "exp": "Control Procurements most often triggers updates to the procurement management plan, schedule baseline, and cost baseline as contracts change; the quality management plan is least directly affected by procurement execution.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-67": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Treating a supplier with courtesy, honesty, and fairness builds the trust that leads sellers to consistently deliver quality goods and services at the best price -- a genuine win-win, unlike the other options which describe one-sided or exploitative arrangements.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-68": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Work performance data is produced by the Direct and Manage Project Work process and feeds directly into Control Procurements, where it is compared against agreements to assess seller performance.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-69": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "Bidder conferences are a tool of Conduct Procurements (used to clarify a solicitation with prospective sellers), not Plan Procurement Management, which instead uses make-or-buy analysis, market research, and expert judgment.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH3_2021-70": {
+    "ans": "A",
+    "conf": "medium",
+    "exp": "Time and Material (T&M) contracts are described as hybrid contract types because they combine elements of both cost-reimbursable contracts (open-ended total value) and fixed-price contracts (fixed unit rates).",
+    "agreement": "disagree",
+    "bank_ans": "D",
+    "prov": "Blind solve gives (A); the bank's inferred answer was (D). They disagree, so one derivation is wrong.",
+    "note": "conflicts with bank answer (D)"
+  },
+  "TECH3_2021-71": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "SIPOC is a process-mapping acronym for Suppliers, Inputs, Process, Outputs, and Customers, used to summarize a process at a high level before detailed mapping.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-72": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Stakeholder influence over a project's outcome is greatest at the very start (Initiating), when scope and objectives can still be shaped cheaply, and it steadily declines through Planning and Executing.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-73": {
+    "ans": "B",
+    "conf": "medium",
+    "exp": "Manage Stakeholder Engagement draws on OPAs such as issue management procedures, change control procedures, and historical information from past projects; generic project plan templates are not part of that specific OPA set, making them least important here.",
+    "agreement": "disagree",
+    "bank_ans": "D",
+    "prov": "Blind solve gives (B); the bank's inferred answer was (D). They disagree, so one derivation is wrong.",
+    "note": "conflicts with bank answer (D)"
+  },
+  "TECH3_2021-74": {
+    "ans": "B",
+    "conf": "medium",
+    "exp": "Procurement documents are a listed input to Identify Stakeholders because they reveal external parties such as contractors; the stakeholder register is actually an output of this process, not an input, so it cannot itself be a required input.",
+    "agreement": "disagree",
+    "bank_ans": "D",
+    "prov": "Blind solve gives (B); the bank's inferred answer was (D). They disagree, so one derivation is wrong.",
+    "note": "conflicts with bank answer (D)"
+  },
+  "TECH3_2021-75": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "A competitor sits outside the project and has no stake in its outcome, unlike suppliers, customers, and the PMO, all of whom are directly affected by or influence the project.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-76": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "The differences between consecutive terms are 9, 18, 27, 36 -- each 9 more than the last -- so the next difference is 45, giving 115 + 45 = 160.",
+    "agreement": "no-prior",
+    "prov": "Derived by a single solver — the bank held no answer for this question and MPSC published no key. Unverified."
+  },
+  "TECH3_2021-77": {
+    "ans": "D",
+    "conf": "medium",
+    "exp": "Converting to decimals: 7/2=3.5, 9/5=1.8, 8/5=1.6, 5/4=1.25, 4/5=0.8. In descending order that is 7/2, 9/5, 8/5, 5/4, 4/5, so the fourth term is 5/4.",
+    "agreement": "disagree",
+    "bank_ans": "A",
+    "prov": "Blind solve gives (D); the bank's inferred answer was (A). They disagree, so one derivation is wrong.",
+    "note": "conflicts with bank answer (A)"
+  },
+  "TECH3_2021-78": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Each term is the previous term divided by 5: 5, 5/5=1, 1/5, (1/5)/5=1/25, so the next term is (1/25)/5 = 1/125.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-79": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "The sequence interleaves two series: odd positions 9, 11, 13 (+2 each) and even positions 10, 11, 12 (+1 each). The 7th term continues the odd-position series: 13 + 2 = 15.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-80": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "The sequence interleaves two series: odd positions 55, 40, 25 (-15 each) and even positions 55, 35, 15 (-20 each). The 7th term continues the odd-position series: 25 - 15 = 10.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-81": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "The numbers form triples where the first minus 3 gives the second, and the third is always 5: (28,25,5), (21,18,5), (14,11,5). So the next pair is 11, 5.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-82": {
+    "ans": "D",
+    "conf": "medium",
+    "exp": "The pattern alternates divide-by-2 and add-8: 664/2=332, 332+8=340, 340/2=170, 170+8=178, 178/2=89 -- matching the given 89, so the blank is 178.",
+    "agreement": "disagree",
+    "bank_ans": "C",
+    "prov": "Blind solve gives (D); the bank's inferred answer was (C). They disagree, so one derivation is wrong.",
+    "note": "conflicts with bank answer (C)"
+  },
+  "TECH3_2021-83": {
+    "ans": "C",
+    "conf": "medium",
+    "exp": "The series is three groups of (n, n+1, n+6) starting 10 apart: 70,71,76 then 80,81,86 then 90,91,96 -- so the blank completing the second group is 80. The printed series has an apparent OCR slip (a stray '70' where '90' belongs), so this reading is reconstructed rather than certain.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-84": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "A diva is the star performer in an opera; likewise a thespian (an actor) is the performer associated with a play -- the same performer-to-performance-genre relationship.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-85": {
+    "ans": "A",
+    "conf": "medium",
+    "exp": "LIGHT relates to BLIND as the faculty a person is deprived of (a blind person cannot perceive light); analogously SPEECH relates to DUMB, since a dumb person cannot produce speech.",
+    "agreement": "disagree",
+    "bank_ans": "B",
+    "prov": "Blind solve gives (A); the bank's inferred answer was (B). They disagree, so one derivation is wrong.",
+    "note": "conflicts with bank answer (B)"
+  },
+  "TECH3_2021-86": {
+    "ans": "B",
+    "conf": "medium",
+    "exp": "Both codes drop the word's 4th letter, then write the remaining letters as [last 3][first 3]: KINETIC (K-I-N-E-T-I-C) drops E to give TIC+KIN, printed with one stray inserted letter as TICDKIN. Applying the same rule, MACHINE (M-A-C-H-I-N-E) drops H to give INE+MAC, which with the same stray-letter insertion pattern matches option (b) INEGMAC.",
+    "agreement": "disagree",
+    "bank_ans": "D",
+    "prov": "Blind solve gives (B); the bank's inferred answer was (D). They disagree, so one derivation is wrong.",
+    "note": "conflicts with bank answer (D)"
+  },
+  "TECH3_2021-87": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "All four words share the prefix MON; among those with 4th letter A (Monarchy, Monastic), Monarchy's 5th letter R precedes Monastic's S, and among those with 4th letter E (Monetary, Moneyed), Monetary's T precedes Moneyed's Y. So dictionary order is Monarchy, Monastic, Monetary, Moneyed -- Monetary is third.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-88": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "From the letters E, A, P the only valid English words using each letter once are APE and PEA -- two words.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-89": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "A camera captures and produces an image, just as a tape captures and records sound -- both are recording media for what the paired term produces.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-90": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "Essential, Vital, and Crucial are all synonyms meaning very important; Trivial means unimportant, the opposite sense, making it the odd one out.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-91": {
+    "ans": "B",
+    "conf": "low",
+    "exp": "This question depends on a printed figure the extraction did not capture, so this is a best-effort guess, not a verified answer. Read as plain text, IV stands out as the only Roman numeral among single letters E, F, and A, but the original figure may have shown something different (e.g. letters on shapes) that changes the intended logic entirely.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-92": {
+    "ans": "D",
+    "conf": "low",
+    "exp": "This question depends on a printed figure the extraction did not capture, so this is a best-effort guess, not a verified answer. Read as plain text, D stands out as the only letter with a curved stroke among the straight-line letters W, M, and N, but the real figure may test a different property.",
+    "agreement": "disagree",
+    "bank_ans": "C",
+    "prov": "Blind solve gives (D); the bank's inferred answer was (C). They disagree, so one derivation is wrong.",
+    "note": "conflicts with bank answer (C)"
+  },
+  "TECH3_2021-93": {
+    "ans": "A",
+    "conf": "low",
+    "exp": "This question may depend on a printed figure (e.g. shaded or rotated shape variants) the extraction did not capture, so this is a best-effort guess. Read as plain text, Triangle is the odd one out since it has 3 sides while Rectangle, Parallelogram, and Square are all quadrilaterals.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-94": {
+    "ans": "A",
+    "conf": "low",
+    "exp": "This question asks which numbered figure (1-4) completes a visual pattern, but the actual figures were never captured by the extraction, so no genuine reasoning is possible from the text alone. This answer is a placeholder only and should not be trusted as a real solution.",
+    "agreement": "disagree",
+    "bank_ans": "C",
+    "prov": "Blind solve gives (A); the bank's inferred answer was (C). They disagree, so one derivation is wrong.",
+    "note": "conflicts with bank answer (C)"
+  },
+  "TECH3_2021-95": {
+    "ans": "A",
+    "conf": "low",
+    "exp": "This question depends on a dice/cube figure the extraction did not capture, so this is a best-effort guess, not a verified answer. Assuming the standard die convention where opposite faces sum to 7, the face opposite 4 would be 3, but the actual printed figure may show a non-standard arrangement.",
+    "agreement": "disagree",
+    "bank_ans": "B",
+    "prov": "Blind solve gives (A); the bank's inferred answer was (B). They disagree, so one derivation is wrong.",
+    "note": "conflicts with bank answer (B)"
+  },
+  "TECH3_2021-96": {
+    "ans": "C",
+    "conf": "medium",
+    "exp": "Statement (1) alone gives 2 < x < 6.5, many possible values. Statement (2) alone gives x = 5 or x = -5, two possible values. Together, only x = 5 satisfies both, so both statements are needed and are sufficient jointly.",
+    "agreement": "disagree",
+    "bank_ans": "B",
+    "prov": "Blind solve gives (C); the bank's inferred answer was (B). They disagree, so one derivation is wrong.",
+    "note": "conflicts with bank answer (B)"
+  },
+  "TECH3_2021-97": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Facing south and turning right means facing west, then turning right again means facing north. Plotting the path -- 10 km south, 6 km west, 10 km north -- returns her to the same latitude as the start, leaving her 6 km due west of it.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-98": {
+    "ans": "A",
+    "conf": "medium",
+    "exp": "59 days is 8 weeks and 3 days (59 = 56 + 3), so the day of week advances 3 places from Thursday: Friday, Saturday, Sunday -- the answer is Sunday.",
+    "agreement": "disagree",
+    "bank_ans": "B",
+    "prov": "Blind solve gives (A); the bank's inferred answer was (B). They disagree, so one derivation is wrong.",
+    "note": "conflicts with bank answer (B)"
+  },
+  "TECH3_2021-99": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Jecob's mother is Carolyn's father's only daughter, which makes Jecob's mother and Carolyn the same person. So Carolyn's husband is Jecob's mother's husband, i.e. Jecob's father.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  },
+  "TECH3_2021-100": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "The order left to right is Esther, Remi, Angela, Puii (Esther left of Remi, Angela between Remi and Puii, Puii right of Remi), so Remi is second from the left.",
+    "agreement": "agree",
+    "prov": "Two independent derivations agree (the bank's inferred answer and a fresh blind solve). No official MPSC key exists."
+  }
+}

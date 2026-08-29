@@ -1,0 +1,308 @@
+{
+  "srcKey": "TECH2_2021",
+  "brief": "tools/bank-rebuild/SOLVE_BRIEF.md",
+  "has_prior_answers": false,
+  "instructions": "Answer each question independently. Write id -> {\"ans\":\"A\"|\"B\"|\"C\"|\"D\", \"conf\":\"high\"|\"medium\"|\"low\", \"exp\":\"1-3 sentences\"} to this filename with .todo.json replaced by .solved.json. No official answer key exists for this paper. Do not inflate confidence.",
+  "questions": [
+    {
+      "id": "TECH2_2021-61",
+      "srcKey": "TECH2_2021",
+      "no": 61,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "_________ is a property whereby data has not been altered in an unauthorized manner since it was created, transmitted, or stored.",
+      "opts": {
+        "A": "Originality",
+        "B": "Encryption",
+        "C": "Electronic signature",
+        "D": "Integrity"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-62",
+      "srcKey": "TECH2_2021",
+      "no": 62,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Which of the below is false in regards to the usage of firewall?",
+      "opts": {
+        "A": "Firewall performs application-level screening",
+        "B": "Application level firewall capture and compare packets to state information in connection tables",
+        "C": "Firewall may provide additional services such as DHCP,NAT",
+        "D": "Application level firewalls provide the strongest level of security and is the fastest"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-63",
+      "srcKey": "TECH2_2021",
+      "no": 63,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Which of the following is not one of the major components of Public Key Infrastructure (PKI)?",
+      "opts": {
+        "A": "Internet service provider and wireless fixed network technology",
+        "B": "Public key cryptography",
+        "C": "Digital certificate",
+        "D": "Certificate authority"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-64",
+      "srcKey": "TECH2_2021",
+      "no": 64,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Web sites with SSL (Secure Socket Layer) can improve the security of online transactions, but which of the following is NOT a function provided by SSL?",
+      "opts": {
+        "A": "Encrypts the contents of an online transaction",
+        "B": "Verifies the identity of the recipient",
+        "C": "Verifies that both sides have agreed to the conditions of the transaction, preventing either side from denying of ever having made such a commitment",
+        "D": "Prevents packet sniffing"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-65",
+      "srcKey": "TECH2_2021",
+      "no": 65,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Which of the following is not the proper way to handle spam emails?",
+      "opts": {
+        "A": "Ignore spam emails",
+        "B": "Reply and ask the sender to stop spamming",
+        "C": "Consider controlling spam emails by using email filtering software",
+        "D": "Do not forward spam emails"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-66",
+      "srcKey": "TECH2_2021",
+      "no": 66,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Ethical hacking is a security audit used in:",
+      "opts": {
+        "A": "External Audit Assessment",
+        "B": "Internal Audit Assessment",
+        "C": "Network Audit Assessment",
+        "D": "Physical Security Assessment"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-67",
+      "srcKey": "TECH2_2021",
+      "no": 67,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "You are the owner of a company, you got a phone call regarding security audits. You need security audit due to the following reason:",
+      "opts": {
+        "A": "Firewall is present which helps to provide security",
+        "B": "Most business is connected to the internet and it can be at risk",
+        "C": "To identify gaps in the existing defence",
+        "D": "The physical security is strong"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-68",
+      "srcKey": "TECH2_2021",
+      "no": 68,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "It is a ready-made application software , available for sale, lease or license to end users.",
+      "opts": {
+        "A": "COTS",
+        "B": "CDSW",
+        "C": "MOOC",
+        "D": "BOOT"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-69",
+      "srcKey": "TECH2_2021",
+      "no": 69,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "It is the term for individual modules, class layers, images, and pieces of computer programming that are compiled together to make up your software system.",
+      "opts": {
+        "A": "Source code",
+        "B": "Code",
+        "C": "Development code",
+        "D": "Proprietary code"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-70",
+      "srcKey": "TECH2_2021",
+      "no": 70,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Which of the following does not belong to common IPRs?",
+      "opts": {
+        "A": "patents",
+        "B": "copyrights",
+        "C": "trade secrets",
+        "D": "idea"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-71",
+      "srcKey": "TECH2_2021",
+      "no": 71,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "The main advantage of e-Administration is:",
+      "opts": {
+        "A": "Cutting process costs",
+        "B": "Provide staff motivation",
+        "C": "Better citizen interaction",
+        "D": "Data transformation"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-72",
+      "srcKey": "TECH2_2021",
+      "no": 72,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Statement 1 : Government choose Open Source System so that it can share development costs with other users\nStatement 2 : Government choose Open Source System so that it can copy repeatedly at no additional cost",
+      "opts": {
+        "A": "Both statements are false",
+        "B": "Statement 1 is true and Statement 2 is false",
+        "C": "Both statements are true",
+        "D": "Statement 1 is false and Statement 2 is true"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-73",
+      "srcKey": "TECH2_2021",
+      "no": 73,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Which of the following is not a criteria for determining whether or not a software license is open source?",
+      "opts": {
+        "A": "Free Redistribution",
+        "B": "License must be technology dependent",
+        "C": "Source code",
+        "D": "License should not be specific to a product"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-74",
+      "srcKey": "TECH2_2021",
+      "no": 74,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "The main concern in using FOSS is:",
+      "opts": {
+        "A": "Reliability",
+        "B": "Cost",
+        "C": "Support",
+        "D": "Ease of use"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-75",
+      "srcKey": "TECH2_2021",
+      "no": 75,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "E-government implementation is complex due to the following reason:",
+      "opts": {
+        "A": "Change Management",
+        "B": "Design Management",
+        "C": "Stake holder Management",
+        "D": "Effort Estimation"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-76",
+      "srcKey": "TECH2_2021",
+      "no": 76,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Effective management of people dimension of change requires the following key goals:",
+      "opts": {
+        "A": "Business Need,Design",
+        "B": "Identify Obstacles, Reinforcement",
+        "C": "Desire,Ability",
+        "D": "Determine Implementation, Re-Engineering"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-77",
+      "srcKey": "TECH2_2021",
+      "no": 77,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Key Principles of Effective Communication.\nPrinciple 1 : Organisational Change cannot occur without communication\nPrinciple 2 : Communication is a single component of change process\nPrinciple 3 : Communication planning applies to stakeholders, message delivery",
+      "opts": {
+        "A": "Principle 1 is correct, Principle 2 & 3 are wrong",
+        "B": "Principle 2 is correct, Principle 1 & 3 are wrong",
+        "C": "Principle 3 is correct, Principle 1 & 2 are wrong",
+        "D": "Principle 1,2,3 are correct"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-78",
+      "srcKey": "TECH2_2021",
+      "no": 78,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Key reason for failure in change initiative may be:",
+      "opts": {
+        "A": "There is continuity in the project team",
+        "B": "The requirement of the customer is taken into account",
+        "C": "Every activity is given equal importance and priority",
+        "D": "Benefits at individual level are demonstrated"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-79",
+      "srcKey": "TECH2_2021",
+      "no": 79,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Conduct Training Needs Analysis is an activity in what phase of change management approach?",
+      "opts": {
+        "A": "Phase I : Establishing Foundation of Change",
+        "B": "Phase II: Managing Change",
+        "C": "Phase III: Sustaining Change",
+        "D": "Phase IV: Verify Change"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-80",
+      "srcKey": "TECH2_2021",
+      "no": 80,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Change Readiness Survey is a tool which will:",
+      "opts": {
+        "A": "Facilitate discussions involve change leaders",
+        "B": "Identify key stakeholders",
+        "C": "Measures the organizational readiness to change",
+        "D": "Emphasize on exchange of information among a small number of participants through hands-on exercises"
+      },
+      "needs_figure": false
+    }
+  ]
+}

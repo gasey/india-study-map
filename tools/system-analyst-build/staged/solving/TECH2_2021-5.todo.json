@@ -1,0 +1,308 @@
+{
+  "srcKey": "TECH2_2021",
+  "brief": "tools/bank-rebuild/SOLVE_BRIEF.md",
+  "has_prior_answers": false,
+  "instructions": "Answer each question independently. Write id -> {\"ans\":\"A\"|\"B\"|\"C\"|\"D\", \"conf\":\"high\"|\"medium\"|\"low\", \"exp\":\"1-3 sentences\"} to this filename with .todo.json replaced by .solved.json. No official answer key exists for this paper. Do not inflate confidence.",
+  "questions": [
+    {
+      "id": "TECH2_2021-81",
+      "srcKey": "TECH2_2021",
+      "no": 81,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Which of the following is not an internal factor driving change?",
+      "opts": {
+        "A": "changes in human resources and skill levels",
+        "B": "new management approaches",
+        "C": "new product development",
+        "D": "changes in local government elections"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-82",
+      "srcKey": "TECH2_2021",
+      "no": 82,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Why might workers resist change?",
+      "opts": {
+        "A": "change could involve higher workloads",
+        "B": "change could involve relocation",
+        "C": "change could involve the breaking up of working groups",
+        "D": "All of the above"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-83",
+      "srcKey": "TECH2_2021",
+      "no": 83,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "What is the first stage in change management?",
+      "opts": {
+        "A": "Sustaining change",
+        "B": "Managing change",
+        "C": "Establishing foundation for change",
+        "D": "None of the above"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-84",
+      "srcKey": "TECH2_2021",
+      "no": 84,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Recognizing the need but on occasional basis, so that intensive innovation effort is followed by a period of inactivity refers to which of the following difficulties face by companies when they want to be innovative?",
+      "opts": {
+        "A": "Failure of perception",
+        "B": "Inappropriate innovation",
+        "C": "Episodic innovation",
+        "D": "Steady state innovation"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-85",
+      "srcKey": "TECH2_2021",
+      "no": 85,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Which section of the IT Act 2000 provides legal recognition to electronic records?",
+      "opts": {
+        "A": "Section 2",
+        "B": "Section 4",
+        "C": "Section 6A",
+        "D": "Section 6A(2)"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-86",
+      "srcKey": "TECH2_2021",
+      "no": 86,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Using Digital Signature, which of the service cannot be provided by signing using sender's private key, which can be verified by the recipient using the sender's public key?",
+      "opts": {
+        "A": "Privacy/Confidentiality",
+        "B": "Authenticity",
+        "C": "Non Repudiation",
+        "D": "Integrity"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-87",
+      "srcKey": "TECH2_2021",
+      "no": 87,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Which of the following is false regarding PKI infrastructure?",
+      "opts": {
+        "A": "Controller of Certifying Authorities(CCA) licence and regulate working of Certifying Authorities",
+        "B": "Licensed Certifying Authorities can issue Digital Signature Certificates to end users",
+        "C": "Registration Authorities are authorized by CA to certify the public key of the subscriber",
+        "D": "Subscribers are end users who apply for Digital Signature Certificates to Licensed CA"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-88",
+      "srcKey": "TECH2_2021",
+      "no": 88,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "This class of Digital Signature is used in e-Commerce application where high assurance of certificates is required.",
+      "opts": {
+        "A": "Class 0",
+        "B": "Class 1",
+        "C": "Class 2",
+        "D": "Class 3"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-89",
+      "srcKey": "TECH2_2021",
+      "no": 89,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Which of the laws do not govern IPR?",
+      "opts": {
+        "A": "Copyrights Act 1957",
+        "B": "Trademark Act 1999",
+        "C": "Patents Act 1970",
+        "D": "IT Act 2000"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-90",
+      "srcKey": "TECH2_2021",
+      "no": 90,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Which category will literary work belong to?",
+      "opts": {
+        "A": "Trademark",
+        "B": "Copyright",
+        "C": "Patent",
+        "D": "Industrial design"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-91",
+      "srcKey": "TECH2_2021",
+      "no": 91,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "What is the major difference between a patent and a copyright?",
+      "opts": {
+        "A": "Novelty",
+        "B": "Exclusivity",
+        "C": "Grant",
+        "D": "Commercial value"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-92",
+      "srcKey": "TECH2_2021",
+      "no": 92,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Financial part of Detailed Project Report will contain:\nP : Means of Project Finance\nQ : Cost estimates\nR : Expenditures",
+      "opts": {
+        "A": "Only P and Q",
+        "B": "Only P and R",
+        "C": "Only Q",
+        "D": "All P, Q, R"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-93",
+      "srcKey": "TECH2_2021",
+      "no": 93,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Relating to Detailed Project Report (DPR) and Request For Proposal (RFP), which of the following statement is true:",
+      "opts": {
+        "A": "DPR is the final report after completion of the project",
+        "B": "RFP is the tender document",
+        "C": "RFP is the request document to get fund from funding agency",
+        "D": "DPR is made by the funding agency"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-94",
+      "srcKey": "TECH2_2021",
+      "no": 94,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Warranties, Third Party Claims are included in what section of the contract?",
+      "opts": {
+        "A": "Project Specific Information",
+        "B": "Breach, Rectification and Termination",
+        "C": "Protections and Limitations",
+        "D": "Liabilities of parties"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-95",
+      "srcKey": "TECH2_2021",
+      "no": 95,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "In PPP, monetary investment is mainly borne by:",
+      "opts": {
+        "A": "Government",
+        "B": "General public",
+        "C": "Private partner",
+        "D": "None of the above"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-96",
+      "srcKey": "TECH2_2021",
+      "no": 96,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Which statement is false regarding Monitoring?",
+      "opts": {
+        "A": "Process of routinely gathering information on all aspects of the project",
+        "B": "Identifies and address problems",
+        "C": "Ensures effective use of resources",
+        "D": "Determines programs effectiveness"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-97",
+      "srcKey": "TECH2_2021",
+      "no": 97,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "The following steps of evaluations are carried out in e-Governance projects.\ni) Technical Evaluation\nii) Financial/Commercial evaluation\niii) Digital evaluation\niv) Pre-qualification evaluation",
+      "opts": {
+        "A": "i) and iii)",
+        "B": "ii) and iv)",
+        "C": "i), ii) and iv)",
+        "D": "All of them"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-98",
+      "srcKey": "TECH2_2021",
+      "no": 98,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "In certain e-Governance project, the Evaluation measures:",
+      "opts": {
+        "A": "Outcome",
+        "B": "Output",
+        "C": "Success",
+        "D": "Failure"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-99",
+      "srcKey": "TECH2_2021",
+      "no": 99,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "The Impact of Polio Eradication Programme is:",
+      "opts": {
+        "A": "Healthy citizens",
+        "B": "Reduction in polio",
+        "C": "Health campaign",
+        "D": "Health camps"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-100",
+      "srcKey": "TECH2_2021",
+      "no": 100,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "The three types of assessment given by the Ministry of Electronics & IT are:",
+      "opts": {
+        "A": "Impact assessment, baseline study and detailed assessment",
+        "B": "Impact assessment, economic assessment and social assessment",
+        "C": "Socio-economic assessment, impact assessment and technological assessment",
+        "D": "None of the above"
+      },
+      "needs_figure": false
+    }
+  ]
+}

@@ -1,0 +1,340 @@
+[
+  {
+    "id": "TECH3_2021-25",
+    "bank": "D",
+    "solved": "B",
+    "q": "You are the Project Manager for the production of an exotic car. You have completed the Define Scope process for your project. Which of the following may be generated through this process?",
+    "opts": {
+      "A": "Project scope statement, project charter",
+      "B": "Project scope statement, updates to requirements traceability matrix",
+      "C": "WBS, updates to requirements traceability matrix",
+      "D": "Project scope statement, WBS"
+    },
+    "exp": "Define Scope produces the project scope statement plus updates to project documents such as the requirements traceability matrix; the WBS is not created until the later Create WBS process, and the project charter predates Define Scope."
+  },
+  {
+    "id": "TECH3_2021-27",
+    "bank": "B",
+    "solved": "D",
+    "q": "During a weekly status meeting, Binoy (your team member) suggest adding a component to the project. As an project manager, you maintain that all focus should stay on the current scope and not on any enhancements. Focusing on the current scope is an example of:",
+    "opts": {
+      "A": "Gold-plating",
+      "B": "Scope management",
+      "C": "Scope verification",
+      "D": "Change control"
+    },
+    "exp": "Refusing to informally absorb a suggested addition and instead insisting it be routed through the proper process is the discipline of change control, which channels all scope changes through a formal review rather than ad hoc acceptance."
+  },
+  {
+    "id": "TECH3_2021-35",
+    "bank": "D",
+    "solved": "B",
+    "q": "A Project Manager is preparing a Project Schedule network diagram. During the diagram development, she removes a dependency between two tasks that was defined in an earlier stage. After the network diagram is completed, she updates activity attributes for the two tasks. This is an example of:",
+    "opts": {
+      "A": "Define Activities",
+      "B": "Sequence Activities",
+      "C": "Develop Schedule",
+      "D": "Lack of change control"
+    },
+    "exp": "Establishing/removing logical dependencies between activities and then updating activity attributes to reflect the change are outputs of the Sequence Activities process."
+  },
+  {
+    "id": "TECH3_2021-36",
+    "bank": "C",
+    "solved": "A",
+    "q": "A schedule activity may begin 10 days before the predecessor activity finishes. This is an example of:",
+    "opts": {
+      "A": "Finish-to-Start",
+      "B": "Start-to-Finish",
+      "C": "Start-to-Start",
+      "D": "Finish-to-Finish"
+    },
+    "exp": "Starting 10 days before the predecessor finishes is a Finish-to-Start relationship with a 10-day lead (a negative lag applied to an FS dependency), not a different relationship type like Start-to-Start."
+  },
+  {
+    "id": "TECH3_2021-37",
+    "bank": "D",
+    "solved": "C",
+    "q": "Which of the following is not an activity attribute?",
+    "opts": {
+      "A": "Person responsible for the activity",
+      "B": "Location where to perform the activity",
+      "C": "Time when to perform the activity",
+      "D": "Leads and Lags"
+    },
+    "exp": "PMBOK's activity-attributes list explicitly names person responsible, geographic area/location, and leads and lags as attributes; a specific 'time when to perform' is not on that list since actual dates only get fixed later as an output of Develop Schedule."
+  },
+  {
+    "id": "TECH3_2021-42",
+    "bank": "B",
+    "solved": "A",
+    "q": "Which of these are not inputs to the Determine Budget process?",
+    "opts": {
+      "A": "Cost baseline, requirements traceability matrix",
+      "B": "Scope baseline, agreements",
+      "C": "Basis of estimates, cost estimates",
+      "D": "Risk register, resource management plan"
+    },
+    "exp": "The cost baseline is an output of Determine Budget, not an input to it, and the requirements traceability matrix is a scope-management artifact not used here; scope baseline, agreements, basis of estimates/cost estimates, risk register, and resource management plan are all genuine Determine Budget inputs per PMBOK's ITTO list."
+  },
+  {
+    "id": "TECH3_2021-43",
+    "bank": "D",
+    "solved": "A",
+    "q": "Which of the following type of contract(s) is most preferable to the contractor doing the project work?",
+    "opts": {
+      "A": "Cost plus fixed fee",
+      "B": "Fixed price",
+      "C": "Fixed price plus incentive free",
+      "D": "Both (b) & (c)"
+    },
+    "exp": "Cost Plus Fixed Fee is a cost-reimbursable contract that guarantees the contractor's costs are covered plus a fixed profit regardless of overruns, putting the least risk on the contractor -- unlike fixed-price contracts, which push cost risk onto the seller."
+  },
+  {
+    "id": "TECH3_2021-49",
+    "bank": "D",
+    "solved": "A",
+    "q": "What does a monitoring and evaluation framework include?",
+    "opts": {
+      "A": "Objectives, assumptions, indicators and a summary of activities",
+      "B": "Objectives and indicators",
+      "C": "Goal and objectives",
+      "D": "Goal, objectives and indicators"
+    },
+    "exp": "A monitoring and evaluation framework is generally built around objectives, the assumptions underlying them, measurable indicators, and a summary of planned activities -- the most complete of the four options; the shorter options (just objectives/indicators, or goal/objectives) omit necessary elements."
+  },
+  {
+    "id": "TECH3_2021-5",
+    "bank": "A",
+    "solved": "B",
+    "q": "A __________ is a set of activities which are networked in an order and aimed towards achieving the goals of a project.",
+    "opts": {
+      "A": "Project",
+      "B": "Process",
+      "C": "Project management",
+      "D": "Project cycle"
+    },
+    "exp": "PMBOK defines a 'process' as a set of interrelated actions performed in a sequence to achieve a specified result within the project, which matches 'networked activities aimed at project goals' better than 'project' itself does."
+  },
+  {
+    "id": "TECH3_2021-54",
+    "bank": "D",
+    "solved": "C",
+    "q": "__________ and retention of qualified employees is a common goal shared by many employers.",
+    "opts": {
+      "A": "Training",
+      "B": "Development",
+      "C": "Recruitment",
+      "D": "All of the above"
+    },
+    "exp": "'Recruitment and retention of qualified employees' is a fixed, widely used HR collocation describing a core employer goal; the blank needs a single word pairing naturally with 'retention', which fits recruitment far better than training or development."
+  },
+  {
+    "id": "TECH3_2021-55",
+    "bank": "D",
+    "solved": "C",
+    "q": "What is regarded as the preventive tool in case of any differences of opinions among the members of rating committee?",
+    "opts": {
+      "A": "Job rotation",
+      "B": "Job specification",
+      "C": "Job evaluation",
+      "D": "All of the above"
+    },
+    "exp": "Job evaluation establishes a systematic, objective basis for comparing job worth, which is the standard preventive tool used to reduce subjective disagreements among rating-committee members; this draws on general HR management terminology rather than PMBOK, so confidence is limited."
+  },
+  {
+    "id": "TECH3_2021-57",
+    "bank": "B",
+    "solved": "A",
+    "q": "Along with the project communications management plan, work performance reports are vital inputs to the Manage Communications process. Where do these work performance reports come from?",
+    "opts": {
+      "A": "Project integration management process",
+      "B": "All monitoring and controlling processes",
+      "C": "Plan Communications Management processes",
+      "D": "Organizational process assets"
+    },
+    "exp": "PMBOK's ITTO explicitly makes Work Performance Reports an output of the Monitor and Control Project Work process, which belongs to Project Integration Management; work performance information (not reports) is what gets aggregated from the individual controlling processes."
+  },
+  {
+    "id": "TECH3_2021-65",
+    "bank": "B",
+    "solved": "A",
+    "q": "The total amount of risk that is calculated for a project is found by:",
+    "opts": {
+      "A": "Multiplying the sum of each the risk times the amount at stake",
+      "B": "Calculating the cumulative sum of the probability for each risk and multiplying this value times the consequence of occurrence of the risk events",
+      "C": "Cannot be calculated since all risks are not known",
+      "D": "The amount of project reserves available"
+    },
+    "exp": "Total project risk exposure is found by summing, for each individual risk, its probability multiplied by the amount at stake (impact); option (a)'s awkwardly worded 'sum of each risk times the amount at stake' describes this per-risk P x I sum, unlike (b) which sums probabilities first and multiplies by one shared consequence."
+  },
+  {
+    "id": "TECH3_2021-70",
+    "bank": "D",
+    "solved": "A",
+    "q": "The type of hybrid contracts which influences the Plan Procurement project is called:",
+    "opts": {
+      "A": "Time and Material Contracts (T&M)",
+      "B": "Cost-reimbursable Contracts",
+      "C": "Fixed Price Contracts",
+      "D": "Both (b) & (c)"
+    },
+    "exp": "Time and Material (T&M) contracts are described as hybrid contract types because they combine elements of both cost-reimbursable contracts (open-ended total value) and fixed-price contracts (fixed unit rates)."
+  },
+  {
+    "id": "TECH3_2021-73",
+    "bank": "D",
+    "solved": "B",
+    "q": "Which of the following organizational process assets is the least important consideration during the Manage Stakeholder Engagement process?",
+    "opts": {
+      "A": "Issue management procedures",
+      "B": "Project plan templates",
+      "C": "Change control procedures",
+      "D": "Historical information about previous projects"
+    },
+    "exp": "Manage Stakeholder Engagement draws on OPAs such as issue management procedures, change control procedures, and historical information from past projects; generic project plan templates are not part of that specific OPA set, making them least important here."
+  },
+  {
+    "id": "TECH3_2021-74",
+    "bank": "D",
+    "solved": "B",
+    "q": "Which of the following is/are required for identifying stakeholders:",
+    "opts": {
+      "A": "Stakeholder register",
+      "B": "Procurement documents",
+      "C": "Project management plan",
+      "D": "All of the above"
+    },
+    "exp": "Procurement documents are a listed input to Identify Stakeholders because they reveal external parties such as contractors; the stakeholder register is actually an output of this process, not an input, so it cannot itself be a required input."
+  },
+  {
+    "id": "TECH3_2021-77",
+    "bank": "A",
+    "solved": "D",
+    "q": "If the fractions 8/5, 7/2, 9/5, 5/4, 4/5 are arranged in descending order of their values, which one will be fourth?",
+    "opts": {
+      "A": "4/5",
+      "B": "8/5",
+      "C": "9/5",
+      "D": "5/4"
+    },
+    "exp": "Converting to decimals: 7/2=3.5, 9/5=1.8, 8/5=1.6, 5/4=1.25, 4/5=0.8. In descending order that is 7/2, 9/5, 8/5, 5/4, 4/5, so the fourth term is 5/4."
+  },
+  {
+    "id": "TECH3_2021-8",
+    "bank": "B",
+    "solved": "C",
+    "q": "Following are the phases of Project Management Life Cycle. Arrange them in correct order. i) Design ii) Marketing iii) Analysis and evaluation iv) Inspection, testing and delivery",
+    "opts": {
+      "A": "iii), ii), i), iv)",
+      "B": "i), ii), iii), iv)",
+      "C": "ii), iii), i), iv)",
+      "D": "iv), iii), ii), i)"
+    },
+    "exp": "A generic product/project development flow runs Marketing (identify need) -> Analysis and evaluation -> Design -> Inspection, testing and delivery, i.e. ii, iii, i, iv."
+  },
+  {
+    "id": "TECH3_2021-82",
+    "bank": "C",
+    "solved": "D",
+    "q": "Look at this series: 664, 332, 340, 170, ____, 89, ... What number should fill the blank?",
+    "opts": {
+      "A": "85",
+      "B": "97",
+      "C": "109",
+      "D": "178"
+    },
+    "exp": "The pattern alternates divide-by-2 and add-8: 664/2=332, 332+8=340, 340/2=170, 170+8=178, 178/2=89 -- matching the given 89, so the blank is 178."
+  },
+  {
+    "id": "TECH3_2021-85",
+    "bank": "B",
+    "solved": "A",
+    "q": "LIGHT: BLIND",
+    "opts": {
+      "A": "speech: dumb",
+      "B": "language: deaf",
+      "C": "tongue: sound",
+      "D": "voice: vibration"
+    },
+    "exp": "LIGHT relates to BLIND as the faculty a person is deprived of (a blind person cannot perceive light); analogously SPEECH relates to DUMB, since a dumb person cannot produce speech."
+  },
+  {
+    "id": "TECH3_2021-86",
+    "bank": "D",
+    "solved": "B",
+    "q": "In a certain code KINETIC is written as TICDKIN. How is MACHINE written in that code?",
+    "opts": {
+      "A": "ENIGMAC",
+      "B": "INEGMAC",
+      "C": "INEGCAM",
+      "D": "ENIGCAM"
+    },
+    "exp": "Both codes drop the word's 4th letter, then write the remaining letters as [last 3][first 3]: KINETIC (K-I-N-E-T-I-C) drops E to give TIC+KIN, printed with one stray inserted letter as TICDKIN. Applying the same rule, MACHINE (M-A-C-H-I-N-E) drops H to give INE+MAC, which with the same stray-letter insertion pattern matches option (b) INEGMAC."
+  },
+  {
+    "id": "TECH3_2021-92",
+    "bank": "C",
+    "solved": "D",
+    "q": "Select the odd one. W M N D",
+    "opts": {
+      "A": "W",
+      "B": "M",
+      "C": "N",
+      "D": "D"
+    },
+    "exp": "This question depends on a printed figure the extraction did not capture, so this is a best-effort guess, not a verified answer. Read as plain text, D stands out as the only letter with a curved stroke among the straight-line letters W, M, and N, but the real figure may test a different property."
+  },
+  {
+    "id": "TECH3_2021-94",
+    "bank": "C",
+    "solved": "A",
+    "q": "Identify the figure that completes the pattern.",
+    "opts": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "exp": "This question asks which numbered figure (1-4) completes a visual pattern, but the actual figures were never captured by the extraction, so no genuine reasoning is possible from the text alone. This answer is a placeholder only and should not be trusted as a real solution."
+  },
+  {
+    "id": "TECH3_2021-95",
+    "bank": "B",
+    "solved": "A",
+    "q": "Which digit will appear on the face opposite to the face with number 4?",
+    "opts": {
+      "A": "3",
+      "B": "5",
+      "C": "6",
+      "D": "2"
+    },
+    "exp": "This question depends on a dice/cube figure the extraction did not capture, so this is a best-effort guess, not a verified answer. Assuming the standard die convention where opposite faces sum to 7, the face opposite 4 would be 3, but the actual printed figure may show a non-standard arrangement."
+  },
+  {
+    "id": "TECH3_2021-96",
+    "bank": "B",
+    "solved": "C",
+    "q": "What is the exact value of x? (1) 4 < 2x < 13 (2) x² = 25",
+    "opts": {
+      "A": "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient to answer the question asked",
+      "B": "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient to answer the question asked",
+      "C": "BOTH statements (1) and (2) TOGETHER are sufficient to answer the question asked, but NEITHER statement ALONE is sufficient",
+      "D": "Statements (1) and (2) TOGETHER are NOT sufficient to answer the question asked, and additional data are needed"
+    },
+    "exp": "Statement (1) alone gives 2 < x < 6.5, many possible values. Statement (2) alone gives x = 5 or x = -5, two possible values. Together, only x = 5 satisfies both, so both statements are needed and are sufficient jointly."
+  },
+  {
+    "id": "TECH3_2021-98",
+    "bank": "B",
+    "solved": "A",
+    "q": "Today is Thursday. The day after 59 days will be?",
+    "opts": {
+      "A": "Sunday",
+      "B": "Monday",
+      "C": "Tuesday",
+      "D": "Wednesday"
+    },
+    "exp": "59 days is 8 weeks and 3 days (59 = 56 + 3), so the day of week advances 3 places from Thursday: Friday, Saturday, Sunday -- the answer is Sunday."
+  }
+]

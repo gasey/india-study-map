@@ -1,0 +1,308 @@
+{
+  "srcKey": "TECH3_2021",
+  "brief": "tools/bank-rebuild/SOLVE_BRIEF.md",
+  "has_prior_answers": true,
+  "instructions": "Answer each question independently. Write id -> {\"ans\":\"A\"|\"B\"|\"C\"|\"D\", \"conf\":\"high\"|\"medium\"|\"low\", \"exp\":\"1-3 sentences\"} to this filename with .todo.json replaced by .solved.json. No official answer key exists for this paper. Do not inflate confidence.",
+  "questions": [
+    {
+      "id": "TECH3_2021-61",
+      "srcKey": "TECH3_2021",
+      "no": 61,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "Which of the following is a hierarchical representation of project risks?",
+      "opts": {
+        "A": "Risk Register",
+        "B": "Risk Mitigation",
+        "C": "Risk Categories",
+        "D": "Risk Breakdown Structure"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-62",
+      "srcKey": "TECH3_2021",
+      "no": 62,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "Which term best describes the Identify Risks process?",
+      "opts": {
+        "A": "Finite",
+        "B": "Redundant",
+        "C": "Iterative",
+        "D": "Inconsequential"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-63",
+      "srcKey": "TECH3_2021",
+      "no": 63,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "During the Plan Risk Management process, assigning __________ will help you and the project team identify all important risks and work more effectively during the identification process.",
+      "opts": {
+        "A": "Risk factors",
+        "B": "Blame",
+        "C": "Risk mitigation plans",
+        "D": "Risk categories"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-64",
+      "srcKey": "TECH3_2021",
+      "no": 64,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "The process under Process Risk Management that prioritizes risks for further analysis or action by assessing and combining their probability of occurrence and impact is called:",
+      "opts": {
+        "A": "Perform Qualitative Risks Analysis",
+        "B": "Perform Quantitative Risk Analysis",
+        "C": "Plan Risk Management",
+        "D": "Plan Risk Responses"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-65",
+      "srcKey": "TECH3_2021",
+      "no": 65,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "The total amount of risk that is calculated for a project is found by:",
+      "opts": {
+        "A": "Multiplying the sum of each the risk times the amount at stake",
+        "B": "Calculating the cumulative sum of the probability for each risk and multiplying this value times the consequence of occurrence of the risk events",
+        "C": "Cannot be calculated since all risks are not known",
+        "D": "The amount of project reserves available"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-66",
+      "srcKey": "TECH3_2021",
+      "no": 66,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "During the Control Procurements process, a number of documents might get updated due to various reasons. Which of the following components of the project management plan is least likely to get updated during this process?",
+      "opts": {
+        "A": "Quality management plan",
+        "B": "Procurement management plan",
+        "C": "Schedule baseline",
+        "D": "Cost baseline"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-67",
+      "srcKey": "TECH3_2021",
+      "no": 67,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "Maintaining good supplier relationships should be important to all project managers. A good buyer-seller relationship is a partnership that results in a win-win situation that nurtures both parties. Which of the following is both a short and long-term benefit of treating a supplier with courtesy, honesty, and fairness?",
+      "opts": {
+        "A": "There is no need to have formal contracts in place",
+        "B": "Delivery of quality products and services at the best price",
+        "C": "The buyer can delay the payments without jeopardizing the relationship",
+        "D": "The supplier can charge a price higher than the market price"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-68",
+      "srcKey": "TECH3_2021",
+      "no": 68,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "The Control Procurements process receives a very important input from the Direct and Manage Project Work process. Identify the input from the following:",
+      "opts": {
+        "A": "Approved change requests",
+        "B": "Work performance data",
+        "C": "Procurement documents",
+        "D": "Agreements"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-69",
+      "srcKey": "TECH3_2021",
+      "no": 69,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "The tools and techniques used in the process of Plan Procurement Management includes all but:",
+      "opts": {
+        "A": "Make-or-buy analysis",
+        "B": "Market Research",
+        "C": "Bidder Conferences",
+        "D": "Expert Judgment"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-70",
+      "srcKey": "TECH3_2021",
+      "no": 70,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "The type of hybrid contracts which influences the Plan Procurement project is called:",
+      "opts": {
+        "A": "Time and Material Contracts (T&M)",
+        "B": "Cost-reimbursable Contracts",
+        "C": "Fixed Price Contracts",
+        "D": "Both (b) & (c)"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-71",
+      "srcKey": "TECH3_2021",
+      "no": 71,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "SIPOC stands for:",
+      "opts": {
+        "A": "Superior service, inferior service, peak hour service, optimized service, and client service",
+        "B": "Simple, intellectual, procedural, optimal coding",
+        "C": "Sample, information, practice, organization, and control",
+        "D": "Suppliers, inputs, process, outputs, and customers"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-72",
+      "srcKey": "TECH3_2021",
+      "no": 72,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "Key project stakeholders can significantly influence a project in many ways. During which stage of the project do these stakeholders have the maximum ability to influence a project?",
+      "opts": {
+        "A": "Planning",
+        "B": "Initiating",
+        "C": "Executing",
+        "D": "Monitoring & Controlling"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-73",
+      "srcKey": "TECH3_2021",
+      "no": 73,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "Which of the following organizational process assets is the least important consideration during the Manage Stakeholder Engagement process?",
+      "opts": {
+        "A": "Issue management procedures",
+        "B": "Project plan templates",
+        "C": "Change control procedures",
+        "D": "Historical information about previous projects"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-74",
+      "srcKey": "TECH3_2021",
+      "no": 74,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "Which of the following is/are required for identifying stakeholders:",
+      "opts": {
+        "A": "Stakeholder register",
+        "B": "Procurement documents",
+        "C": "Project management plan",
+        "D": "All of the above"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-75",
+      "srcKey": "TECH3_2021",
+      "no": 75,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "Which of the following is not a stakeholder in a project?",
+      "opts": {
+        "A": "Supplier",
+        "B": "Customer",
+        "C": "PMO",
+        "D": "Competitor"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-76",
+      "srcKey": "TECH3_2021",
+      "no": 76,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "What should come in the place of question mark (?) in the number series given below? 25, 34, 52, 79, 115, ?",
+      "opts": {
+        "A": "160",
+        "B": "140",
+        "C": "153",
+        "D": "None of these"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-77",
+      "srcKey": "TECH3_2021",
+      "no": 77,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "If the fractions 8/5, 7/2, 9/5, 5/4, 4/5 are arranged in descending order of their values, which one will be fourth?",
+      "opts": {
+        "A": "4/5",
+        "B": "8/5",
+        "C": "9/5",
+        "D": "5/4"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-78",
+      "srcKey": "TECH3_2021",
+      "no": 78,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "Look at this series: 5, 1, (1/5), (1/25), ... What number should come next?",
+      "opts": {
+        "A": "(1/13)",
+        "B": "(1/125)",
+        "C": "(2/265)",
+        "D": "(1/100)"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-79",
+      "srcKey": "TECH3_2021",
+      "no": 79,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "Look at this series: 9, 10, 11, 11, 13, 12, ... What number should come next?",
+      "opts": {
+        "A": "9",
+        "B": "15",
+        "C": "12",
+        "D": "16"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-80",
+      "srcKey": "TECH3_2021",
+      "no": 80,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "Look at this series: 55, 55, 40, 35, 25, 15, ... What number should come next?",
+      "opts": {
+        "A": "15",
+        "B": "10",
+        "C": "27",
+        "D": "55"
+      },
+      "needs_figure": false
+    }
+  ]
+}

@@ -1,0 +1,308 @@
+{
+  "srcKey": "TECH3_2021",
+  "brief": "tools/bank-rebuild/SOLVE_BRIEF.md",
+  "has_prior_answers": true,
+  "instructions": "Answer each question independently. Write id -> {\"ans\":\"A\"|\"B\"|\"C\"|\"D\", \"conf\":\"high\"|\"medium\"|\"low\", \"exp\":\"1-3 sentences\"} to this filename with .todo.json replaced by .solved.json. No official answer key exists for this paper. Do not inflate confidence.",
+  "questions": [
+    {
+      "id": "TECH3_2021-21",
+      "srcKey": "TECH3_2021",
+      "no": 21,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "What is the term used for the area that entails processes and activities that define, combine, unify and coordinate the processes and project activities carried out within the various Project Management Process Groups?",
+      "opts": {
+        "A": "Project Integration Management",
+        "B": "Strategic Management",
+        "C": "Operations Management",
+        "D": "Project Process Management"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-22",
+      "srcKey": "TECH3_2021",
+      "no": 22,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "When Integration is used under Project Management, it includes all of the following activities except for:",
+      "opts": {
+        "A": "Unification",
+        "B": "Consolidation",
+        "C": "Communication",
+        "D": "Review"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-23",
+      "srcKey": "TECH3_2021",
+      "no": 23,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "The process of defining, preparing and organizing all subsidiary plans along with integrating them into the comprehensive project plan is known as:",
+      "opts": {
+        "A": "Develop Project Charter",
+        "B": "Develop Project Management Plan",
+        "C": "Project Process Groups",
+        "D": "Strategic Management"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-24",
+      "srcKey": "TECH3_2021",
+      "no": 24,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "What is the logical sequence of the Project Scope Management processes?",
+      "opts": {
+        "A": "Create WBS, Collect Requirements, Define Scope, Validate Scope, and Control Scope",
+        "B": "Define Scope, Collect Requirements, Create WBS, Validate Scope, and Control Scope",
+        "C": "Plan Scope Management, Collect Requirements, Define Scope, Create WBS, Validate Scope, and Control Scope",
+        "D": "Plan Scope Management, Collect Requirements, Define Scope, Validate Scope, Create WBS, and Control Scope"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-25",
+      "srcKey": "TECH3_2021",
+      "no": 25,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "You are the Project Manager for the production of an exotic car. You have completed the Define Scope process for your project. Which of the following may be generated through this process?",
+      "opts": {
+        "A": "Project scope statement, project charter",
+        "B": "Project scope statement, updates to requirements traceability matrix",
+        "C": "WBS, updates to requirements traceability matrix",
+        "D": "Project scope statement, WBS"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-26",
+      "srcKey": "TECH3_2021",
+      "no": 26,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "The Work Breakdown Structure (WBS) is a deliverable-oriented hierarchical decomposition of the work the project team will execute to accomplish the project objectives and create required deliverables. The Create WBS process falls under which knowledge area?",
+      "opts": {
+        "A": "Project Schedule Management",
+        "B": "Project Integration Management",
+        "C": "Project Scope Management",
+        "D": "Project Cost Management"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-27",
+      "srcKey": "TECH3_2021",
+      "no": 27,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "During a weekly status meeting, Binoy (your team member) suggest adding a component to the project. As an project manager, you maintain that all focus should stay on the current scope and not on any enhancements. Focusing on the current scope is an example of:",
+      "opts": {
+        "A": "Gold-plating",
+        "B": "Scope management",
+        "C": "Scope verification",
+        "D": "Change control"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-28",
+      "srcKey": "TECH3_2021",
+      "no": 28,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "What is the main reason for controlling the project scope?",
+      "opts": {
+        "A": "To prevent changes from affecting the project",
+        "B": "To enable scope creep",
+        "C": "To ensure timely closure of the project",
+        "D": "Preventing scope creep"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-29",
+      "srcKey": "TECH3_2021",
+      "no": 29,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "Which of the following is not used as an input for the Validate Scope process?",
+      "opts": {
+        "A": "Scope Baseline",
+        "B": "Verified Deliverables",
+        "C": "Project Management Plan",
+        "D": "Work Performance Data"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-30",
+      "srcKey": "TECH3_2021",
+      "no": 30,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "The Scope Management Plan is included in which of the following documents?",
+      "opts": {
+        "A": "Project Management Plan",
+        "B": "The Work Breakdown Structure",
+        "C": "The Scope Statement",
+        "D": "Project Specifications"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-31",
+      "srcKey": "TECH3_2021",
+      "no": 31,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "The process of determining, documenting and managing stakeholder needs and requirements to meet project objectives is known as:",
+      "opts": {
+        "A": "Plan Scope Management",
+        "B": "Collect Requirements",
+        "C": "Control Scope",
+        "D": "Validate Scope"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-32",
+      "srcKey": "TECH3_2021",
+      "no": 32,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "As you create the Activity List, which technique is recommended for subdividing the project into smaller components called activities?",
+      "opts": {
+        "A": "Deconstruction",
+        "B": "Rolling Wave Planning",
+        "C": "Expert Judgment",
+        "D": "Decomposition"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-33",
+      "srcKey": "TECH3_2021",
+      "no": 33,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "Which of the following statement is false for resource calendar?",
+      "opts": {
+        "A": "It identifies the working days and shifts on which each specific resource is available",
+        "B": "It is used for estimating resource utilization",
+        "C": "It specify potentially unidentified project resources needed for the project",
+        "D": "It specify when and how long identified projects resources will be available"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-34",
+      "srcKey": "TECH3_2021",
+      "no": 34,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "If you want to compress a project schedule, what are the two recommended alternatives to consider?",
+      "opts": {
+        "A": "Fast Tracking and Schedule Network Analysis",
+        "B": "Crashing and Fast Tracking",
+        "C": "Resource Levelling and What-If Scenario Analysis",
+        "D": "Crashing and Schedule Network Analysis"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-35",
+      "srcKey": "TECH3_2021",
+      "no": 35,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "A Project Manager is preparing a Project Schedule network diagram. During the diagram development, she removes a dependency between two tasks that was defined in an earlier stage. After the network diagram is completed, she updates activity attributes for the two tasks. This is an example of:",
+      "opts": {
+        "A": "Define Activities",
+        "B": "Sequence Activities",
+        "C": "Develop Schedule",
+        "D": "Lack of change control"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-36",
+      "srcKey": "TECH3_2021",
+      "no": 36,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "A schedule activity may begin 10 days before the predecessor activity finishes. This is an example of:",
+      "opts": {
+        "A": "Finish-to-Start",
+        "B": "Start-to-Finish",
+        "C": "Start-to-Start",
+        "D": "Finish-to-Finish"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-37",
+      "srcKey": "TECH3_2021",
+      "no": 37,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "Which of the following is not an activity attribute?",
+      "opts": {
+        "A": "Person responsible for the activity",
+        "B": "Location where to perform the activity",
+        "C": "Time when to perform the activity",
+        "D": "Leads and Lags"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-38",
+      "srcKey": "TECH3_2021",
+      "no": 38,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "Milestones established by the customer must be adhered to by:",
+      "opts": {
+        "A": "Project manager",
+        "B": "Functional managers",
+        "C": "The customer",
+        "D": "Both (a) & (b)"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-39",
+      "srcKey": "TECH3_2021",
+      "no": 39,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "A project uses rounding of activity cost estimates data to the nearest Rs 100, uses staff hours as the unit of measure for resources, and has a variance threshold of 10 percent deviation from the baseline plan. These approaches are typically documented in the:",
+      "opts": {
+        "A": "Cost management plan",
+        "B": "Scope Statement",
+        "C": "WBS",
+        "D": "Project charter"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-40",
+      "srcKey": "TECH3_2021",
+      "no": 40,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "The Cost Management Plan is an output of the Plan Cost Management process. This plan is then integrated with other project plans in which of these processes?",
+      "opts": {
+        "A": "Develop Project Management Plan",
+        "B": "Monitor and Control Project Work",
+        "C": "Perform Integrated Change Control",
+        "D": "Direct and Manage Project Work"
+      },
+      "needs_figure": false
+    }
+  ]
+}

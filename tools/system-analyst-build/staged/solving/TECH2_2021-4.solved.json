@@ -1,0 +1,102 @@
+{
+  "TECH2_2021-61": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "Integrity is the standard security definition for data not being altered in an unauthorised manner during creation, transmission or storage. Encryption and electronic signatures are mechanisms that help protect integrity (and confidentiality), not the property itself."
+  },
+  "TECH2_2021-62": {
+    "ans": "D",
+    "conf": "medium",
+    "exp": "Application-level (proxy) firewalls do give the strongest security, but because they inspect the full application payload they are the slowest, not the fastest, so the statement is false. Note that option B is loosely worded too - comparing packets against connection-state tables actually describes stateful inspection - but D is the plainly false claim the question is after."
+  },
+  "TECH2_2021-63": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "PKI is built from public key cryptography, digital certificates, certifying authorities (with registration authorities and a certificate repository). ISPs and wireless network technology are just carriage infrastructure and form no part of the PKI trust framework."
+  },
+  "TECH2_2021-64": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "SSL/TLS gives encryption, server (and optionally client) authentication and protection against eavesdropping, but it does not provide non-repudiation - neither party is bound to the terms of the transaction. Non-repudiation requires a digital signature on the transaction content, which is the classic trap in this question."
+  },
+  "TECH2_2021-65": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Replying to a spam message confirms to the spammer that the address is live and monitored, which usually increases the volume of spam received. Ignoring, filtering and not forwarding are all recommended practices."
+  },
+  "TECH2_2021-66": {
+    "ans": "C",
+    "conf": "low",
+    "exp": "Ethical hacking is a simulated attack that probes network and system defences, so it sits within a network security audit assessment rather than a financial/internal audit or a physical walkthrough. This is a weakly framed question - ethical hacking commissioned from an outside firm can also be argued as an external audit assessment, so treat the option wording, not the taxonomy, as the guide."
+  },
+  "TECH2_2021-67": {
+    "ans": "C",
+    "conf": "medium",
+    "exp": "The purpose of a security audit is to find the gaps and weaknesses in the defences that are already in place, so that they can be closed before an attacker finds them. Options A and D describe controls already working (reasons you might feel safe), and B states a general risk rather than what the audit itself delivers."
+  },
+  "TECH2_2021-68": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "COTS stands for Commercial Off-The-Shelf software - ready-made packaged products sold, leased or licensed to end users instead of being custom built. MOOC is an online course format and BOOT is a Build-Own-Operate-Transfer project delivery model."
+  },
+  "TECH2_2021-69": {
+    "ans": "A",
+    "conf": "medium",
+    "exp": "The wording is the standard definition of source code used in software escrow and procurement documents - the modules, class layers, images and program pieces that are compiled together into the delivered system. 'Code' alone is too generic and 'proprietary code' describes ownership rather than composition."
+  },
+  "TECH2_2021-70": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "Intellectual property protects expressions and inventions - patents, copyrights, trademarks, trade secrets and designs - but a bare idea is not protectable until it is reduced to a concrete expression or invention. That distinction between idea and expression is the point being tested."
+  },
+  "TECH2_2021-71": {
+    "ans": "A",
+    "conf": "medium",
+    "exp": "In the standard e-Administration / e-Citizens / e-Society split, e-Administration is about improving internal government processes - cutting process costs, managing performance and making strategic connections. Better citizen interaction belongs to the e-Citizens/e-Services strand, which is the trap here."
+  },
+  "TECH2_2021-72": {
+    "ans": "C",
+    "conf": "medium",
+    "exp": "Both are genuine reasons governments adopt open source: development cost can be shared across a community of users, and once acquired the software can be replicated across departments and offices at no additional licence cost. Neither statement is false as written."
+  },
+  "TECH2_2021-73": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "The Open Source Definition explicitly requires a licence to be technology-neutral, so demanding technology dependence is the opposite of a criterion. Free redistribution, availability of source code and the licence not being specific to a product are all listed OSD criteria."
+  },
+  "TECH2_2021-74": {
+    "ans": "C",
+    "conf": "medium",
+    "exp": "The most commonly cited worry with FOSS adoption in government is the absence of a single accountable vendor for support, warranty and escalation. Cost is a FOSS advantage rather than a concern, and mature FOSS stacks are generally considered reliable."
+  },
+  "TECH2_2021-75": {
+    "ans": "A",
+    "conf": "medium",
+    "exp": "E-government projects are hard mainly because they change the way people work, so managing resistance, retraining and process re-engineering - change management - dominates the risk. Stakeholder management is part of that same problem, but change management is the umbrella term used in the NeGP capacity-building literature this question follows."
+  },
+  "TECH2_2021-76": {
+    "ans": "C",
+    "conf": "medium",
+    "exp": "The people side of change is normally taught through the ADKAR model - Awareness, Desire, Knowledge, Ability, Reinforcement - and only option C gives two genuine ADKAR elements. Option B mixes one real element (Reinforcement) with 'identify obstacles', which is a project activity rather than a people-dimension goal."
+  },
+  "TECH2_2021-77": {
+    "ans": "D",
+    "conf": "medium",
+    "exp": "Principles 1 and 3 are both plainly correct, which rules out options A, B and C, so the intended reading of Principle 2 must be the standard caution that communication is only one component of change management and cannot carry the change on its own. Awkward phrasing of Principle 2 makes this one read badly, but D is the only internally consistent choice."
+  },
+  "TECH2_2021-78": {
+    "ans": "C",
+    "conf": "medium",
+    "exp": "Treating every activity as equally important means nothing is prioritised, effort is spread thin and the critical changes never get the attention they need - a well-known cause of change-programme failure. The other three options describe healthy conditions (team continuity, customer requirements captured, individual benefits shown) that support success rather than cause failure."
+  },
+  "TECH2_2021-79": {
+    "ans": "B",
+    "conf": "medium",
+    "exp": "Training needs analysis feeds the capacity-building and training rollout that happens once the change is actually being implemented, which is Phase II - Managing Change. Phase I is about readiness assessment, stakeholder identification and forming the change team, and Phase III is about reinforcement and institutionalisation."
+  },
+  "TECH2_2021-80": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "A change readiness survey is a diagnostic instrument administered across the organisation precisely to gauge how prepared staff and structures are for the coming change. Identifying stakeholders and running hands-on workshops are separate change-management tools."
+  }
+}

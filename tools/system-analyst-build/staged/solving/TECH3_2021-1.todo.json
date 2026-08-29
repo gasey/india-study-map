@@ -1,0 +1,308 @@
+{
+  "srcKey": "TECH3_2021",
+  "brief": "tools/bank-rebuild/SOLVE_BRIEF.md",
+  "has_prior_answers": true,
+  "instructions": "Answer each question independently. Write id -> {\"ans\":\"A\"|\"B\"|\"C\"|\"D\", \"conf\":\"high\"|\"medium\"|\"low\", \"exp\":\"1-3 sentences\"} to this filename with .todo.json replaced by .solved.json. No official answer key exists for this paper. Do not inflate confidence.",
+  "questions": [
+    {
+      "id": "TECH3_2021-1",
+      "srcKey": "TECH3_2021",
+      "no": 1,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "A car company authorizing a project to build more fuel-efficient cars in response to gasoline shortages. Which strategic consideration is used for this project?",
+      "opts": {
+        "A": "Market demand",
+        "B": "Business need",
+        "C": "Environmental Consideration",
+        "D": "Technological Advance"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-2",
+      "srcKey": "TECH3_2021",
+      "no": 2,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "A Project Manager should possess the following competencies:",
+      "opts": {
+        "A": "Leadership, Trust Building, Motivation",
+        "B": "Influencing, Communication, Team Building",
+        "C": "Knowledge, Performance, Personal",
+        "D": "Decision Making, Negotiation, Conflict Management"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-3",
+      "srcKey": "TECH3_2021",
+      "no": 3,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "Sangeeta is part of a project management office (PMO). Her office is responsible for the centralized and coordinated management of 22 projects. Each project has its own project manager. Which of the following will not typically be a responsibility of her PMO?",
+      "opts": {
+        "A": "Coaching, mentoring, training, and oversight",
+        "B": "Development of a detailed description of each project and the product it produces",
+        "C": "Managing shared resources across all the projects administered by the PMO",
+        "D": "Developing and managing project policies"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-4",
+      "srcKey": "TECH3_2021",
+      "no": 4,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "Resources in project management refers to –",
+      "opts": {
+        "A": "Manpower",
+        "B": "Machinery",
+        "C": "Materials",
+        "D": "All of the above"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-5",
+      "srcKey": "TECH3_2021",
+      "no": 5,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "A __________ is a set of activities which are networked in an order and aimed towards achieving the goals of a project.",
+      "opts": {
+        "A": "Project",
+        "B": "Process",
+        "C": "Project management",
+        "D": "Project cycle"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-6",
+      "srcKey": "TECH3_2021",
+      "no": 6,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "The organization's process and procedures for conducting project work does not include:",
+      "opts": {
+        "A": "Guidelines of the project to specify needs of the organization",
+        "B": "Financial controls procedure",
+        "C": "Risk control procedures",
+        "D": "Project closure guidelines"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-7",
+      "srcKey": "TECH3_2021",
+      "no": 7,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "The project life cycle consists of:",
+      "opts": {
+        "A": "Understanding the scope of the project",
+        "B": "Objectives of the project",
+        "C": "Formulation and planning various activities",
+        "D": "All of the above"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-8",
+      "srcKey": "TECH3_2021",
+      "no": 8,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "Following are the phases of Project Management Life Cycle. Arrange them in correct order. i) Design ii) Marketing iii) Analysis and evaluation iv) Inspection, testing and delivery",
+      "opts": {
+        "A": "iii), ii), i), iv)",
+        "B": "i), ii), iii), iv)",
+        "C": "ii), iii), i), iv)",
+        "D": "iv), iii), ii), i)"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-9",
+      "srcKey": "TECH3_2021",
+      "no": 9,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "Which of the following statement is false in regards to project team?",
+      "opts": {
+        "A": "Basic project team composition may be dedicated or part-time",
+        "B": "Project team may vary based on organizational structure",
+        "C": "Matrix organizations use both dedicated and part-time project teams",
+        "D": "Dedicated project teams are common in projectized organizations"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-10",
+      "srcKey": "TECH3_2021",
+      "no": 10,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "Which of the following statements is correct:",
+      "opts": {
+        "A": "Project life cycles and product life cycles are interdependent.",
+        "B": "Project life cycles are independent of product life cycles.",
+        "C": "A product life cycle is the same as a project life cycle.",
+        "D": "The last life cycle for a project is generally the product's retirement."
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-11",
+      "srcKey": "TECH3_2021",
+      "no": 11,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "Which of the following Process Groups do not overlap with each other?",
+      "opts": {
+        "A": "Initiating Process Group & Closing Process Group",
+        "B": "Planning Process Group & Monitoring and Controlling Process Group",
+        "C": "Executing Process Group & Monitoring and Controlling Process Group",
+        "D": "Executing Process Group & Closing Process Group"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-12",
+      "srcKey": "TECH3_2021",
+      "no": 12,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "Which of the following is the correct logical sequence of the five process groups?",
+      "opts": {
+        "A": "Planning, Monitoring and Controlling, Initiating, Executing, Closing",
+        "B": "Planning, Initiating, Executing, Monitoring and Controlling, Closing",
+        "C": "Initiating, Monitoring and Controlling, Planning, Executing, Closing",
+        "D": "Initiating, Planning, Executing, Monitoring and Controlling, Closing"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-13",
+      "srcKey": "TECH3_2021",
+      "no": 13,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "A large portion of project's budget is spent on what Process Group?",
+      "opts": {
+        "A": "Initiating",
+        "B": "Planning",
+        "C": "Executing",
+        "D": "Monitoring and Controlling"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-14",
+      "srcKey": "TECH3_2021",
+      "no": 14,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "Successful project management does not include which of the following factors?",
+      "opts": {
+        "A": "Interchangable staff",
+        "B": "Competent team members",
+        "C": "Responsiveness to clients",
+        "D": "Control mechanisms"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-15",
+      "srcKey": "TECH3_2021",
+      "no": 15,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "Applying appropriate updates to organizational process assets is a part of what Process Group?",
+      "opts": {
+        "A": "Monitoring and Controlling",
+        "B": "Planning",
+        "C": "Executing",
+        "D": "Closing"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-16",
+      "srcKey": "TECH3_2021",
+      "no": 16,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "Which of the following would not be considered an Enterprise Environmental Factor during the Develop Project Charter process?",
+      "opts": {
+        "A": "Scope Statement",
+        "B": "Organizational infrastructure",
+        "C": "Governmental standards",
+        "D": "Marketplace conditions"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-17",
+      "srcKey": "TECH3_2021",
+      "no": 17,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "A project manager calls you in as a consultant to provide input on developing the Project Charter. Your contribution to the project could best be termed as:",
+      "opts": {
+        "A": "Professional Consultant",
+        "B": "Charter Consultant",
+        "C": "Expert Judgment",
+        "D": "Expert Consultancy"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-18",
+      "srcKey": "TECH3_2021",
+      "no": 18,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "Technical performance measure, start and finish of schedule activities, number of change requests, number of defects are examples of:",
+      "opts": {
+        "A": "Work performance data",
+        "B": "Key performance indicators",
+        "C": "Performance rating",
+        "D": "Activity rating"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-19",
+      "srcKey": "TECH3_2021",
+      "no": 19,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "Which of the following statement is false?",
+      "opts": {
+        "A": "Request for change may affect the Project Charter document",
+        "B": "Request for change may be defect repair or update",
+        "C": "Request for change can be externally or internally initiated",
+        "D": "Request for change may be corrective action or preventive action"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-20",
+      "srcKey": "TECH3_2021",
+      "no": 20,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "The project management team has determined that there are some changes to the scope of the project. Who is responsible for reviewing, evaluating, and approving documented changes to the project?",
+      "opts": {
+        "A": "Change Control Board (CCB)",
+        "B": "Change Configuration Board (CCB)",
+        "C": "Scope Control Board (SCB)",
+        "D": "Configuration Control Board (CCB)"
+      },
+      "needs_figure": false
+    }
+  ]
+}

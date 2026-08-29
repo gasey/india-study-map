@@ -1,0 +1,308 @@
+{
+  "srcKey": "TECH2_2021",
+  "brief": "tools/bank-rebuild/SOLVE_BRIEF.md",
+  "has_prior_answers": false,
+  "instructions": "Answer each question independently. Write id -> {\"ans\":\"A\"|\"B\"|\"C\"|\"D\", \"conf\":\"high\"|\"medium\"|\"low\", \"exp\":\"1-3 sentences\"} to this filename with .todo.json replaced by .solved.json. No official answer key exists for this paper. Do not inflate confidence.",
+  "questions": [
+    {
+      "id": "TECH2_2021-21",
+      "srcKey": "TECH2_2021",
+      "no": 21,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Which of the following statement is false?",
+      "opts": {
+        "A": "Government processes are processes in the government domain",
+        "B": "Every government processes is supported by a set of services",
+        "C": "Processes are key to satisfying customers and stakeholders",
+        "D": "Processes and not functions drive an organization"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-22",
+      "srcKey": "TECH2_2021",
+      "no": 22,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Intra Government Process Re-engineering in e-Government is part of:",
+      "opts": {
+        "A": "Front office",
+        "B": "Middle office",
+        "C": "Back office",
+        "D": "Intermediate office"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-23",
+      "srcKey": "TECH2_2021",
+      "no": 23,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Which of the following is not a step in Government Process Re-engineering?",
+      "opts": {
+        "A": "Studying the current functionality of a government",
+        "B": "Changing the approval process of government",
+        "C": "Drafting the expected functionality of a government",
+        "D": "Computerization of existing processes"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-24",
+      "srcKey": "TECH2_2021",
+      "no": 24,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Government Process Re-engineering is usually required because –",
+      "opts": {
+        "A": "The existing process is not automation ready",
+        "B": "The existing staff are too lazy with manual process",
+        "C": "Taking staff attendance is difficult",
+        "D": "RTI can not be enforced with the current process"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-25",
+      "srcKey": "TECH2_2021",
+      "no": 25,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "When should you go for GPR?",
+      "opts": {
+        "A": "When the current system is having loopholes",
+        "B": "When approval processes become redundant and lengthy",
+        "C": "When there is communication gap inside the government",
+        "D": "All of the above"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-26",
+      "srcKey": "TECH2_2021",
+      "no": 26,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "What is the term for incremental changes to processes in a government using information technology?",
+      "opts": {
+        "A": "Government Process Improvement",
+        "B": "Government Process Reengineering",
+        "C": "Government Process Change",
+        "D": "Government Process Advance"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-27",
+      "srcKey": "TECH2_2021",
+      "no": 27,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "The implications of having single vendor is:",
+      "opts": {
+        "A": "Better suited for large agencies with highly specific and strategic ICT functions",
+        "B": "Provides greater control over vendor performance",
+        "C": "Requires higher capacities in the department and higher coordination risk",
+        "D": "Optimum option if all the components for external sourcing can be bundled into one group"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-28",
+      "srcKey": "TECH2_2021",
+      "no": 28,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "\"Negotiation ,Contract Finalization and Award\" is usually in which volume of the RFP(Request for proposal) document?",
+      "opts": {
+        "A": "Volume I",
+        "B": "Volume II",
+        "C": "Volume III",
+        "D": "Volume IV"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-29",
+      "srcKey": "TECH2_2021",
+      "no": 29,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Based on the procurement context \"Used for standardized requirements, in which price is the only deciding factor\", what is the procurement mode?",
+      "opts": {
+        "A": "Request for quotes",
+        "B": "Procurement from rate contracts",
+        "C": "Single stage competitive process",
+        "D": "Single sourcing"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-30",
+      "srcKey": "TECH2_2021",
+      "no": 30,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "What is the name of Government of India initiative that simplifies the process of procurement of common use goods and services by government entities?",
+      "opts": {
+        "A": "Government e-Procurement (GeP)",
+        "B": "Government e-Marketplace (GeM)",
+        "C": "Online Shopping for Government (OSG)",
+        "D": "None of the above"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-31",
+      "srcKey": "TECH2_2021",
+      "no": 31,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "An organization's ability to tailor its products and services for its customers is known as –",
+      "opts": {
+        "A": "Specialization",
+        "B": "Mass customization",
+        "C": "Target Commerce",
+        "D": "Adaptation"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-32",
+      "srcKey": "TECH2_2021",
+      "no": 32,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Which of the following cost is recurring cost in e-Governance Projects?",
+      "opts": {
+        "A": "Services cost for Data digitization and migration",
+        "B": "Services cost for Training and Capacity Building",
+        "C": "Services cost for Installation and configuration",
+        "D": "Services cost for ERP customization"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-33",
+      "srcKey": "TECH2_2021",
+      "no": 33,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Which of the following is not revenue generation opportunities provided by e-Governance initiatives?",
+      "opts": {
+        "A": "Portal registration/subscription charges",
+        "B": "Transaction fee for online services",
+        "C": "Common service centre registration fee",
+        "D": "Advertising revenue from service centre"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-34",
+      "srcKey": "TECH2_2021",
+      "no": 34,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "In this business model, 100% of the project risk and returns are accrued to government only:",
+      "opts": {
+        "A": "Conventional",
+        "B": "Outsource",
+        "C": "PPP",
+        "D": "BOO(T)"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-35",
+      "srcKey": "TECH2_2021",
+      "no": 35,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Basic feature of PPP is:",
+      "opts": {
+        "A": "The government need to own infrastructure to deliver services",
+        "B": "It is novel method of developing public infrastructure",
+        "C": "Government retain responsibility for delivery of core processes/services",
+        "D": "It is concern with assets not services"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-36",
+      "srcKey": "TECH2_2021",
+      "no": 36,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "PPP benefits to Government is:",
+      "opts": {
+        "A": "Maximize financial out go",
+        "B": "Reduced risk of cost overruns",
+        "C": "Increased lifecycle costs of projects",
+        "D": "Profitize liquidity and debt funds"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-37",
+      "srcKey": "TECH2_2021",
+      "no": 37,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "The acronym BOOT expands to:",
+      "opts": {
+        "A": "Build, Own, Operate, Transfer",
+        "B": "Buy, Own, Operate, Transfer",
+        "C": "Buy, Operate, Own, Transfer",
+        "D": "Build, Operate, Own, Transfer"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-38",
+      "srcKey": "TECH2_2021",
+      "no": 38,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Mass market, niche market, segmented, diversified and multi-sided markets are all examples of:",
+      "opts": {
+        "A": "Customer segments",
+        "B": "Value proposition",
+        "C": "Key resources",
+        "D": "Business model"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-39",
+      "srcKey": "TECH2_2021",
+      "no": 39,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "These are all types of revenue streams, except:",
+      "opts": {
+        "A": "Asset sale",
+        "B": "Value",
+        "C": "Usage fee",
+        "D": "Renting"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-40",
+      "srcKey": "TECH2_2021",
+      "no": 40,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Every asset that allows an enterprise to create and offer a value proposition, reach markets, maintain relationships with customer segments and earn revenues is called:",
+      "opts": {
+        "A": "Key activities",
+        "B": "Key resources",
+        "C": "Key partners",
+        "D": "Key friends"
+      },
+      "needs_figure": false
+    }
+  ]
+}

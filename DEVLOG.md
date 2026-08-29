@@ -9,6 +9,78 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-08-29 (night) — System Analyst: recovered the 2021 Informatics Officer papers. 857 questions, and the bank's answers for that sitting turn out to be ~29% wrong
+
+**What shipped:** the two missing 2021 Informatics Officer technical papers,
+solved and added to the System Analyst app. **857 questions, up from 662**, every
+one carrying an explanation (the 2021 papers had none).
+
+| Sitting | Paper | Before | Now |
+|---|---|---|---|
+| Nov 2024 | Tech I / II / III | 275 | 275 |
+| 2021 | Technical Paper I | 100 | 100 |
+| 2021 | **Technical Paper II** | **0** | **100** |
+| 2021 | **Technical Paper III** | **0** | **95** |
+
+**My earlier estimate was wrong and the data said so.** I described Paper III as
+"pure harvest, no solving — 92 already answered". Auditing the bank showed those
+92 are `answerSource: "inferred"` — unverified, no official key — and that
+*neither paper has a single explanation*. The 8 labelled `key` have no answer at
+all; the label is aspirational. So this was ~200 derivations, not a copy job.
+
+**The headline finding: the bank's 2021 answers are far less reliable than its
+2016 ones.** Blind-solved and diffed, the agreement rate is **71% (66 agree, 26
+disagree)** against **94% for the Computer Operator papers**. Roughly one in
+three of that sitting's stored answers is wrong.
+
+Five disagreements I verified independently, and the solver is right in four:
+
+| Question | Bank | Verified | Fact |
+|---|---|---|---|
+| Define Scope outputs | scope statement + WBS | scope statement + RTM updates | WBS is created by Create WBS, a later process |
+| "begins 10 days before predecessor finishes" | Start-to-Start | **Finish-to-Start** | FS with a 10-day lead |
+| NOT an activity attribute | leads and lags | time when to perform | Leads/lags *are* attributes; dates come from Develop Schedule |
+| Thursday + 59 days | Monday | **Sunday** | 59 mod 7 = 3 |
+| Scope change routed through process | scope management | change control | genuinely arguable |
+
+The fifth is a real judgement call rather than a bank error, which is the right
+proportion — a solver that disagreed with everything would be the worrying one.
+
+**Model choice was split on whether a cross-check exists**, not on blanket cost.
+Paper III has 92 priors to diff against, so the diff is a genuine safety net and
+Sonnet solved it. Paper II has *nothing* — `answerIndex: -1` on all 100, no key,
+no prior — so the model's output is the only answer those questions will ever
+have, and Opus solved it. Haiku was not used for either; it is right for tagging
+against a fixed taxonomy, not for deriving degree-level answers with no key.
+The Paper II agents were told explicitly that nothing would check them and that a
+truthful "medium" beats a hopeful "high", since the badge is what tells a reader
+which answers to distrust.
+
+**Agent honesty held up under that instruction.** They flagged genuinely
+defective items rather than papering over them — a "signs of poor governance"
+question where two options are both correct, a security-lifecycle question whose
+options A and D name the same stage, a team-composition "false statement"
+question where all four options are defensibly true — and listed medium-confidence
+items they could not verify instead of quietly rating them high.
+
+5 figure-dependent questions were quarantined rather than shipped unanswerable.
+
+**What's still open:**
+
+- **The 195 new questions are UNTAGGED** (`unit`/`sub` null), so the Study tab
+  cannot link them to concepts. Same gap the General English questions had in the
+  System Manager app until they were re-tagged. A tagging pass would fix it.
+- **26 disagreements want a human decision** —
+  `tools/system-analyst-build/staged/disagreements.json`. Given the 71% agreement
+  rate, this list is more consequential than System Manager's was.
+- **System Analyst still has the two bugs fixed only in the System Manager fork**:
+  it shares the `mpsc_sa_v1` localStorage key logic pattern, and links questions
+  to concepts on `paper + sub` without the unit, which collides where a leaf name
+  repeats. It also has no `prov`/`conf` badge, so its 4 "single solver —
+  treat with caution" questions look identical to the 274 official-key ones.
+
+---
+
 ## 2026-08-29 (evening) — Phase 5 complete: 296/296 concepts, ~81,000 words. The whole build is done, and a subagent caught the pipeline about to silently destroy its own output
 
 **Phase 5 is finished.** Every one of the 296 syllabus subtopics has a concept —

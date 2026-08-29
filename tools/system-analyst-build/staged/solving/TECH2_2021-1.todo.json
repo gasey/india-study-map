@@ -1,0 +1,308 @@
+{
+  "srcKey": "TECH2_2021",
+  "brief": "tools/bank-rebuild/SOLVE_BRIEF.md",
+  "has_prior_answers": false,
+  "instructions": "Answer each question independently. Write id -> {\"ans\":\"A\"|\"B\"|\"C\"|\"D\", \"conf\":\"high\"|\"medium\"|\"low\", \"exp\":\"1-3 sentences\"} to this filename with .todo.json replaced by .solved.json. No official answer key exists for this paper. Do not inflate confidence.",
+  "questions": [
+    {
+      "id": "TECH2_2021-1",
+      "srcKey": "TECH2_2021",
+      "no": 1,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "_________ is/are at the core of good governance.",
+      "opts": {
+        "A": "Citizens",
+        "B": "Efficiency",
+        "C": "Organization",
+        "D": "Administrative Reforms Commission"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-2",
+      "srcKey": "TECH2_2021",
+      "no": 2,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Statement 1 : Citizens charter shall be non-discriminatory\nStatement 2 : Citizens charter describe or refer to complaint handling process",
+      "opts": {
+        "A": "Both statements are false",
+        "B": "Statement 1 is true and Statement 2 is false",
+        "C": "Statement 1 is false and Statement 2 is true",
+        "D": "Both statements are true"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-3",
+      "srcKey": "TECH2_2021",
+      "no": 3,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "What are the most important impacts of ICTs on the structure and processes of government organizations?\ni) Ease of access to information\nii) Ability to provide services online\niii) Centralization of services\niv) Intra and inter-governmental transaction",
+      "opts": {
+        "A": "i) and ii) only",
+        "B": "ii) and iii) only",
+        "C": "i), ii) and iv) only",
+        "D": "All of them"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-4",
+      "srcKey": "TECH2_2021",
+      "no": 4,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "The followings describe the property of good governance:\ni) Transparency\nii) Democracy\niii) Responsiveness\niv) Accountability",
+      "opts": {
+        "A": "i) and ii)",
+        "B": "i) and iii)",
+        "C": "i), iii) and iv)",
+        "D": "All of the above"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-5",
+      "srcKey": "TECH2_2021",
+      "no": 5,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Audit of State Government is:",
+      "opts": {
+        "A": "A state subject",
+        "B": "A union subject",
+        "C": "In the concurrent list",
+        "D": "None of these"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-6",
+      "srcKey": "TECH2_2021",
+      "no": 6,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Which of the following is not an interaction between main groups in e-Governance?",
+      "opts": {
+        "A": "G2E",
+        "B": "G2B",
+        "C": "G2G",
+        "D": "C2G"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-7",
+      "srcKey": "TECH2_2021",
+      "no": 7,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Which of the following is an essential element of e-Governance Project?",
+      "opts": {
+        "A": "Business Model",
+        "B": "Configuration Management",
+        "C": "Adoption of right approach",
+        "D": "Maximum impact to stakeholders"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-8",
+      "srcKey": "TECH2_2021",
+      "no": 8,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Identity IT enablement opportunities and requirements is an activity done at what phase of eGovernance project?",
+      "opts": {
+        "A": "e-Governance strategy development",
+        "B": "Current state assessment",
+        "C": "Future state definition",
+        "D": "Develop and implement IT system"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-9",
+      "srcKey": "TECH2_2021",
+      "no": 9,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Which of the following is not deliverable for the Current Assessment Phase in e-Governance project?",
+      "opts": {
+        "A": "Strength and gaps",
+        "B": "Process maps",
+        "C": "Pain points",
+        "D": "Data digitization strategy"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-10",
+      "srcKey": "TECH2_2021",
+      "no": 10,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Which of the following is a tool used to secure expert judgement?",
+      "opts": {
+        "A": "Work Breakdown Structure (WBS)",
+        "B": "Expected value technique",
+        "C": "Peer Review",
+        "D": "Delphi Technique"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-11",
+      "srcKey": "TECH2_2021",
+      "no": 11,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Which of the following provides the foundation for team development?",
+      "opts": {
+        "A": "Motivation",
+        "B": "Conflict management",
+        "C": "Organizational development",
+        "D": "Individual development"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-12",
+      "srcKey": "TECH2_2021",
+      "no": 12,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Once the project is complete, the complete set of project records should be put in which of the following?",
+      "opts": {
+        "A": "Project archive",
+        "B": "Project report",
+        "C": "Project database",
+        "D": "Project storage"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-13",
+      "srcKey": "TECH2_2021",
+      "no": 13,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "If the cost variance is positive and the schedule variance is also positive, then it indicates that –",
+      "opts": {
+        "A": "Project is under budget and behind schedule",
+        "B": "Project is under budget and ahead of schedule",
+        "C": "Project is over budget and behind schedule",
+        "D": "Project is over budget and ahead of schedule"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-14",
+      "srcKey": "TECH2_2021",
+      "no": 14,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "A vision statement is one of the following:",
+      "opts": {
+        "A": "It is a specific and usually quantifiable statement",
+        "B": "It is generate from business strategy",
+        "C": "It represents a quantification of program goal",
+        "D": "It represents specific conditions and ambitions of the organization"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-15",
+      "srcKey": "TECH2_2021",
+      "no": 15,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "G2C services include:",
+      "opts": {
+        "A": "Career enhancement",
+        "B": "Professional Education",
+        "C": "Permits",
+        "D": "Returns"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-16",
+      "srcKey": "TECH2_2021",
+      "no": 16,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Which is the least risky implementation process?",
+      "opts": {
+        "A": "Parallel Adoption",
+        "B": "Phased rollout",
+        "C": "Big Bang",
+        "D": "Pilot and rollout"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-17",
+      "srcKey": "TECH2_2021",
+      "no": 17,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "What does PBC refers in tendering process?",
+      "opts": {
+        "A": "Pre Bid Conference",
+        "B": "Pre Bid Candidate",
+        "C": "Pre Bid Cost",
+        "D": "Pre Bid Culture"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-18",
+      "srcKey": "TECH2_2021",
+      "no": 18,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "The e-Governance change management affects –",
+      "opts": {
+        "A": "Operational",
+        "B": "Technological",
+        "C": "The attitudes and behaviours of personnel",
+        "D": "All of the above"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-19",
+      "srcKey": "TECH2_2021",
+      "no": 19,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "Poor governance may be identified by signs of:",
+      "opts": {
+        "A": "Multiple visit to government office",
+        "B": "Service is a right",
+        "C": "Corrupt officers",
+        "D": "Personal information exchange"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH2_2021-20",
+      "srcKey": "TECH2_2021",
+      "no": 20,
+      "paper": "TECH2",
+      "sitting": "Informatics Officer, 2021 - Technical Paper II",
+      "q": "What is the fourth step involved in GPR?",
+      "opts": {
+        "A": "Process Analysis",
+        "B": "Problem Identification and Definition",
+        "C": "Process Re-engineering",
+        "D": "Process implementation"
+      },
+      "needs_figure": false
+    }
+  ]
+}

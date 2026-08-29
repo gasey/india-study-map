@@ -1,0 +1,308 @@
+{
+  "srcKey": "TECH3_2021",
+  "brief": "tools/bank-rebuild/SOLVE_BRIEF.md",
+  "has_prior_answers": true,
+  "instructions": "Answer each question independently. Write id -> {\"ans\":\"A\"|\"B\"|\"C\"|\"D\", \"conf\":\"high\"|\"medium\"|\"low\", \"exp\":\"1-3 sentences\"} to this filename with .todo.json replaced by .solved.json. No official answer key exists for this paper. Do not inflate confidence.",
+  "questions": [
+    {
+      "id": "TECH3_2021-41",
+      "srcKey": "TECH3_2021",
+      "no": 41,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "Analogous Cost Estimating is which of the following?",
+      "opts": {
+        "A": "Generally less accurate",
+        "B": "Uses statistical relationship between historical data and other variables",
+        "C": "Bottom-up estimating",
+        "D": "Used when detailed information of project is available"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-42",
+      "srcKey": "TECH3_2021",
+      "no": 42,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "Which of these are not inputs to the Determine Budget process?",
+      "opts": {
+        "A": "Cost baseline, requirements traceability matrix",
+        "B": "Scope baseline, agreements",
+        "C": "Basis of estimates, cost estimates",
+        "D": "Risk register, resource management plan"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-43",
+      "srcKey": "TECH3_2021",
+      "no": 43,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "Which of the following type of contract(s) is most preferable to the contractor doing the project work?",
+      "opts": {
+        "A": "Cost plus fixed fee",
+        "B": "Fixed price",
+        "C": "Fixed price plus incentive free",
+        "D": "Both (b) & (c)"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-44",
+      "srcKey": "TECH3_2021",
+      "no": 44,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "Determining budget can be best described by which of the following?",
+      "opts": {
+        "A": "The process of developing the future trends along with the assessment of probabilities, uncertainties, and inflation that could occur during the project",
+        "B": "The process of accumulating costs of individual activities to establish a cost baseline.",
+        "C": "The process of establishing budgets, standards, and a monitoring system by which the investment cost of the project can be measured and managed",
+        "D": "The process of gathering, accumulating, analyzing, reporting, and managing the costs on an ongoing basis"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-45",
+      "srcKey": "TECH3_2021",
+      "no": 45,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "The Project Cost Management Process comprises the following activities: i) Determine Budget ii) Plan Cost Management iii) Estimate Costs iv) Control Costs. What is the correct sequence?",
+      "opts": {
+        "A": "i), ii), iii), iv)",
+        "B": "iii), i), ii), iv)",
+        "C": "ii), iii), i), iv)",
+        "D": "i), iii), ii), iv)"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-46",
+      "srcKey": "TECH3_2021",
+      "no": 46,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "A control chart is used to determine whether a process is stable or has predictable performance. When a process is within acceptable limits, the process does not need adjustment. How are these upper and lower control limits determined?",
+      "opts": {
+        "A": "ROM estimate",
+        "B": "Variance analysis",
+        "C": "Pareto chart",
+        "D": "Statistical calculations"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-47",
+      "srcKey": "TECH3_2021",
+      "no": 47,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "Team Bravo is in the execution stage of their project, and they were informed that \"corporate\" will send in a team of consultants to review whether their project activities comply with companies and PMI's policies, standards, and procedures. This is an example of:",
+      "opts": {
+        "A": "Quality Audit",
+        "B": "Organizational Process Assets",
+        "C": "Process Analysis",
+        "D": "Recommended Corrective Actions"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-48",
+      "srcKey": "TECH3_2021",
+      "no": 48,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "A project manager creates a component-specific tool to verify that a set of required steps has been performed. This tool is called a:",
+      "opts": {
+        "A": "Risk Register",
+        "B": "Assumptions log",
+        "C": "Checklist",
+        "D": "Plan-Do-Act-Check"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-49",
+      "srcKey": "TECH3_2021",
+      "no": 49,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "What does a monitoring and evaluation framework include?",
+      "opts": {
+        "A": "Objectives, assumptions, indicators and a summary of activities",
+        "B": "Objectives and indicators",
+        "C": "Goal and objectives",
+        "D": "Goal, objectives and indicators"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-50",
+      "srcKey": "TECH3_2021",
+      "no": 50,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "Which tools are useful for a situational analysis prior to planning a project/program?",
+      "opts": {
+        "A": "Stakeholder analysis",
+        "B": "SWOT analysis",
+        "C": "Problem tree analysis",
+        "D": "All of the above"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-51",
+      "srcKey": "TECH3_2021",
+      "no": 51,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "Which of the following is not an example of human resource networking activities?",
+      "opts": {
+        "A": "Proactive correspondence",
+        "B": "Organization management",
+        "C": "Luncheon meetings",
+        "D": "Symposia"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-52",
+      "srcKey": "TECH3_2021",
+      "no": 52,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "A project involved team members situated in Kolkata, Guwahati, Bangalore, and Aizawl. Which of the following activities becomes crucial in such a team environment?",
+      "opts": {
+        "A": "Team-building",
+        "B": "Status reporting",
+        "C": "Conflict resolution",
+        "D": "Communication planning"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-53",
+      "srcKey": "TECH3_2021",
+      "no": 53,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "Ground rules are established to set clear expectations regarding acceptable behavior by the project team members. Whose responsibility is it to enforce ground rules?",
+      "opts": {
+        "A": "The project manager",
+        "B": "All project team members",
+        "C": "The HR team",
+        "D": "The project manager and senior team members"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-54",
+      "srcKey": "TECH3_2021",
+      "no": 54,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "__________ and retention of qualified employees is a common goal shared by many employers.",
+      "opts": {
+        "A": "Training",
+        "B": "Development",
+        "C": "Recruitment",
+        "D": "All of the above"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-55",
+      "srcKey": "TECH3_2021",
+      "no": 55,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "What is regarded as the preventive tool in case of any differences of opinions among the members of rating committee?",
+      "opts": {
+        "A": "Job rotation",
+        "B": "Job specification",
+        "C": "Job evaluation",
+        "D": "All of the above"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-56",
+      "srcKey": "TECH3_2021",
+      "no": 56,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "What is the sequence of steps in a basic communication model?",
+      "opts": {
+        "A": "Encode -> Decode -> Transmit -> Acknowledge -> Feedback",
+        "B": "Encode -> Transmit -> Decode -> Acknowledge -> Feedback",
+        "C": "Decode -> Encode -> Transmit -> Acknowledge -> Feedback",
+        "D": "Encode -> Transmit -> Decode -> Feedback -> Acknowledge"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-57",
+      "srcKey": "TECH3_2021",
+      "no": 57,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "Along with the project communications management plan, work performance reports are vital inputs to the Manage Communications process. Where do these work performance reports come from?",
+      "opts": {
+        "A": "Project integration management process",
+        "B": "All monitoring and controlling processes",
+        "C": "Plan Communications Management processes",
+        "D": "Organizational process assets"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-58",
+      "srcKey": "TECH3_2021",
+      "no": 58,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "Arjun is managing a construction project. The project's client is responsible for the design, while Arjun's organization is responsible for the construction. There has been a delay in the design and this can only be recovered through crashing and will cost 100 lakhs in addition to the approved budget. Arjun prepares a detailed report and emails it to the client. In this scenario, Arjun's email to the client is an example of:",
+      "opts": {
+        "A": "Informal unofficial communication",
+        "B": "Formal unofficial communication",
+        "C": "Informal official communication",
+        "D": "Formal official communication"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-59",
+      "srcKey": "TECH3_2021",
+      "no": 59,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "Most of the project manager's external communication comprises:",
+      "opts": {
+        "A": "Written documents",
+        "B": "Oral communication",
+        "C": "Tactile contact",
+        "D": "Informal contact"
+      },
+      "needs_figure": false
+    },
+    {
+      "id": "TECH3_2021-60",
+      "srcKey": "TECH3_2021",
+      "no": 60,
+      "paper": "TECH3",
+      "sitting": "Informatics Officer, 2021 - Technical Paper III",
+      "q": "The critical element in a project's communication system is the:",
+      "opts": {
+        "A": "Progress report",
+        "B": "Project directive",
+        "C": "Project manager",
+        "D": "Customer"
+      },
+      "needs_figure": false
+    }
+  ]
+}

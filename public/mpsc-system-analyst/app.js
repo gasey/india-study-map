@@ -321,6 +321,23 @@ VIEWS.syllabus = (el) => {
     <h2 class="mt">Qualifying only</h2>
     ${qual.map(paperCardSyl).join('')}
 
+    ${(SYL.reading || []).length ? `
+    <div class="card mt">
+      <h3 style="margin:0 0 .2rem">Recommended reading</h3>
+      <p class="dim" style="margin:0 0 .7rem">Books and official sources for this exam.
+        Check current editions before buying — where an edition matters it is called out.</p>
+      ${SYL.reading.map(g => `
+        <div class="read-grp">
+          <h5>${esc(g.for)}</h5>
+          ${g.items.map(b => `
+            <div class="read">
+              <div class="read-t">${esc(b.t)}</div>
+              ${b.by && b.by !== '—' ? `<div class="read-by">${esc(b.by)}</div>` : ''}
+              ${b.note ? `<div class="read-n">${esc(b.note)}</div>` : ''}
+            </div>`).join('')}
+        </div>`).join('')}
+    </div>` : ''}
+
     <div class="card mt">
       <h3 style="margin:0 0 .5rem">The exam</h3>
       <table><tbody>

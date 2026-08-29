@@ -292,6 +292,19 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
 .dispute-row .pill { flex: none; min-width: 6.5rem; text-align: center; }
 .dispute p.dim { margin: .45rem 0 0; font-size: .76rem; }
 
+/* Recommended reading */
+.read-grp { margin-bottom: .9rem; }
+.read-grp h5 {
+  margin: 0 0 .4rem; font-size: .74rem; text-transform: uppercase;
+  letter-spacing: .05em; color: var(--ink-3); font-weight: 600;
+}
+.read {
+  border-left: 2px solid var(--line); padding: .1rem 0 .5rem .7rem; margin-bottom: .5rem;
+}
+.read-t { font-weight: 600; font-size: .92rem; }
+.read-by { font-size: .8rem; color: var(--ink-2); }
+.read-n { font-size: .82rem; color: var(--ink-3); margin-top: .2rem; line-height: 1.5; }
+
 .qtext { font-size: 1.02rem; font-weight: 550; margin: .3rem 0 1rem; white-space: pre-wrap; }
 .opts { display: grid; gap: .5rem; }
 .opt {

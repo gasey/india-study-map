@@ -984,5 +984,32 @@ window.SYLLABUS = {
     "tech1_subtopics": 123,
     "tech2_subtopics": 136,
     "source": "Counted off the official syllabus PDF on 2026-08-28. BUILD_GUIDE.md's skeleton table originally said 261 - it overstated Word Processing (18 vs 17) and Electronic Spreadsheet (19 vs 18). Guide now corrected."
-  }
+  },
+  "reading": [
+    {
+      "for": "Technical Papers I and II",
+      "items": [
+        {
+          "t": "No single prescribed textbook",
+          "by": "—",
+          "note": "The technical syllabus is the 2019 Computer Operator syllabus as updated by MUDAL in July 2026. It is broad rather than deep — computer fundamentals, MS Office, networking, DBMS, web, cyber security and AI — and no one book covers it. The concept guide in this app was written against the official syllabus for exactly that reason."
+        },
+        {
+          "t": "Official syllabus PDF (MUDAL, approved 28.07.2026)",
+          "by": "udpa.mizoram.gov.in",
+          "note": "The ground truth. Everything in this app's Syllabus tab is transcribed from it."
+        }
+      ]
+    },
+    {
+      "for": "General English — Precis and Letter Writing",
+      "items": [
+        {
+          "t": "Any standard Indian official-correspondence guide",
+          "by": "—",
+          "note": "These 25 marks are handwritten and cannot be practised as MCQs. The Study tab's Precis Writing and Letter Writing concepts teach the method and include full worked examples, which is the coverage this app can offer."
+        }
+      ]
+    }
+  ]
 };

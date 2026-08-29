@@ -1,0 +1,19 @@
+{
+  "paper": "TECH2",
+  "unit": "5",
+  "unitTitle": "Procurement in E-Governance",
+  "unitMarks": 10,
+  "perTarget": 3,
+  "brief": "tools/system-manager-build/GENERATE_BRIEF.md",
+  "targets": [
+    {
+      "sub": "Objectives"
+    },
+    {
+      "sub": "Planning the procurement"
+    },
+    {
+      "sub": "PPP / transaction fee based model"
+    }
+  ]
+}

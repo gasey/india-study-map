@@ -1,0 +1,22 @@
+{
+  "paper": "TECH2",
+  "unit": "12",
+  "unitTitle": "Understanding e-Governance Applications",
+  "unitMarks": 10,
+  "perTarget": 3,
+  "brief": "tools/system-manager-build/GENERATE_BRIEF.md",
+  "targets": [
+    {
+      "sub": "Understanding licensing models for application and system software"
+    },
+    {
+      "sub": "Revenue generation options in e-Governance applications"
+    },
+    {
+      "sub": "Strategic considerations in an e-Governance application"
+    },
+    {
+      "sub": "Business model for e-Governance applications"
+    }
+  ]
+}

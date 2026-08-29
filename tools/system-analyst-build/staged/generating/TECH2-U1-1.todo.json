@@ -1,0 +1,31 @@
+{
+  "paper": "TECH2",
+  "unit": "1",
+  "unitTitle": "Understanding Government and Governance",
+  "unitMarks": 10,
+  "perTarget": 2,
+  "brief": "tools/system-manager-build/GENERATE_BRIEF.md",
+  "targets": [
+    {
+      "sub": "Introduction to Government and Governance"
+    },
+    {
+      "sub": "Introduction to Governance - self-preservation, supervision and resolution of conflicts, socio-economic development, regulation of the economy, provision of goods and services"
+    },
+    {
+      "sub": "Perception about Governance in India"
+    },
+    {
+      "sub": "Necessary pre-conditions for Good Governance"
+    },
+    {
+      "sub": "Problems faced in implementing the charters"
+    },
+    {
+      "sub": "Rationale of Citizen's Charter"
+    },
+    {
+      "sub": "Designing and implementing effective complaints handling systems"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "paper": "TECH2",
+  "unit": "15",
+  "unitTitle": "Legal and Policy Framework for e-Governance Implementation",
+  "unitMarks": 15,
+  "perTarget": 2,
+  "brief": "tools/system-manager-build/GENERATE_BRIEF.md",
+  "targets": [
+    {
+      "sub": "IT Act Amendments, 2008"
+    },
+    {
+      "sub": "Electronic Signatures - IT Act Amendments"
+    },
+    {
+      "sub": "Indian Penal Code sections 503, 499, 500, 463, 470, 472, 420, 416, 417, 383, 405, 406, 408, 409, 204, 477, 193, 167, 172, 173, 175"
+    },
+    {
+      "sub": "Indian Evidence Act"
+    },
+    {
+      "sub": "Intellectual Property laws: Trademark Act 1999"
+    },
+    {
+      "sub": "Other legal aspects"
+    },
+    {
+      "sub": "Regulatory Framework under NeGP"
+    },
+    {
+      "sub": "National Policy on Open Source"
+    }
+  ]
+}

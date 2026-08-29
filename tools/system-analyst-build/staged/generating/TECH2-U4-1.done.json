@@ -1,0 +1,41 @@
+[
+  {
+    "sub": "Service Prioritization",
+    "q": "In a Government Process Re-engineering exercise, services are normally prioritised for re-engineering on the basis of which pair of criteria?",
+    "opts": {
+      "A": "The seniority of the officer who owns the service and the age of the rules governing it",
+      "B": "The number of software licences the service will need and the vendor's preference",
+      "C": "The alphabetical order of the services and the size of the department's annual budget",
+      "D": "The volume of citizen transactions the service carries and the impact that re-engineering it would have on citizens"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Prioritisation puts scarce re-engineering effort where it produces the most relief, which is why high-volume, high-citizen-impact services are taken first, usually weighed against feasibility and the extent of process or rule change required. Ownership seniority and budget size measure the department, not the burden the service places on the public."
+  },
+  {
+    "sub": "Service Prioritization",
+    "q": "Once a high-priority service has been selected for e-enablement, why is the process re-engineered before it is automated?",
+    "opts": {
+      "A": "Because automation software is unable to read data produced by an unreformed process",
+      "B": "Because automating an unreformed process only makes its redundant steps and approvals run faster instead of removing them",
+      "C": "Because re-engineering is a precondition for the release of any project funds",
+      "D": "Because re-engineering removes the need for user acceptance testing later"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Automation reproduces whatever process it is given, so digitising a chain of unnecessary forms, affidavits and counter-signatures preserves the delay while adding cost, and the citizen's experience barely improves. Re-engineering first eliminates or merges those steps, and only the surviving process is then automated."
+  },
+  {
+    "sub": "Service Prioritization",
+    "q": "For a service shortlisted as a re-engineering priority, an as-is process study is carried out in order to",
+    "opts": {
+      "A": "establish the actual steps, hand-offs, elapsed time and pain points of the service as delivered today, giving a baseline for the to-be design",
+      "B": "record the specifications of the computer hardware currently in use at the counters",
+      "C": "assess whether the department's staff in position matches its sanctioned posts",
+      "D": "list the vendors that have previously supplied software to the department"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "The as-is map documents what really happens, including undocumented steps and waiting time between desks, which is where most of the delay usually turns out to sit, and it provides the baseline against which the to-be design and its benefits are measured. Hardware inventories and staffing returns describe resources, not the flow of the process."
+  }
+]

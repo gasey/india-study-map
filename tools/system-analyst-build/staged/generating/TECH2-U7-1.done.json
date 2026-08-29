@@ -1,0 +1,236 @@
+[
+  {
+    "sub": "Participation in digital and financial space through mobiles and banking",
+    "q": "Digital India rests part of its financial-inclusion agenda on the combination of a basic bank account, an Aadhaar number and a mobile phone. What does that combination primarily make possible?",
+    "opts": {
+      "A": "Issue of a digitally signed PAN card to every bank account holder",
+      "B": "Direct Benefit Transfer of subsidies and entitlements into the beneficiary's own bank account, with Aadhaar used to authenticate the beneficiary",
+      "C": "Storage of every citizen's certificates in an encrypted government cloud locker",
+      "D": "Mandatory linking of every land record to the owner's mobile number"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "The bank account supplies a destination for the money, Aadhaar supplies a de-duplicated identity to authenticate the claimant against, and the mobile supplies the channel for alerts and second-factor confirmation, so a benefit can reach the intended person without passing through intermediaries. Storing certificates in a locker is DigiLocker's function and belongs to a different strand of the programme."
+  },
+  {
+    "sub": "Participation in digital and financial space through mobiles and banking",
+    "q": "What distinguishes a Unified Payments Interface (UPI) payment from an ordinary netbanking transfer?",
+    "opts": {
+      "A": "It settles payments on a private ledger maintained outside the banking system",
+      "B": "It can be used only for payments to government departments and utilities",
+      "C": "It requires the payer and the payee to hold accounts with the same bank",
+      "D": "It lets a payer push a real-time transfer from a mobile app using a virtual payment address, without the payee learning the payer's account details"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "UPI layers a virtual payment address over the underlying bank account, so a transfer can be initiated instantly from a phone without exchanging account numbers or branch codes, and it works across banks rather than within one. Settlement still runs through the regular interbank system; nothing about UPI takes the money outside it."
+  },
+  {
+    "sub": "Shareable private space on a public cloud",
+    "q": "In DigiLocker, what makes a record in the 'issued documents' section different from one the citizen has placed in 'uploaded documents'?",
+    "opts": {
+      "A": "It is a digitally signed record pushed into the locker by the issuing authority itself, and is therefore treated at par with the original document",
+      "B": "It is a scanned copy that the citizen has self-attested before uploading",
+      "C": "It can be viewed only by the department that originally asked for it",
+      "D": "It is deleted automatically at the end of each financial year"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "An issued document is fetched from the issuer's own system carrying the issuer's digital signature, which is precisely what allows a verifier to accept it in place of a physical original. A file the citizen scans and uploads carries no such signature and remains an ordinary self-attested copy."
+  },
+  {
+    "sub": "Shareable private space on a public cloud",
+    "q": "In the Digital India vision area 'shareable private space on a public cloud', what does the word 'shareable' denote?",
+    "opts": {
+      "A": "That any government department may browse the documents stored by any citizen",
+      "B": "That unused cloud storage is shared between departments to reduce cost",
+      "C": "That the citizen can grant a requesting agency access to a stored document instead of producing a physical photocopy",
+      "D": "That a single login may be shared by all the members of a household"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "The vision area gives each citizen a space that the citizen controls and selectively opens to a verifier, which is what removes the need to carry, photocopy and attest originals. Departmental browsing without the citizen's consent would contradict the 'private' half of the same phrase."
+  },
+  {
+    "sub": "Safe and secure cyber-space",
+    "q": "India's cyber-security architecture assigns distinct mandates to CERT-In and to NCIIPC. What is NCIIPC specifically responsible for?",
+    "opts": {
+      "A": "Issuing digital signature certificates to government officers",
+      "B": "Protecting Critical Information Infrastructure — systems whose incapacitation would debilitate national security, the economy, public health or public safety",
+      "C": "Empanelling cloud service providers for use by government departments",
+      "D": "Handling phishing complaints received from individual retail banking customers"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "NCIIPC is the national nodal agency for Critical Information Infrastructure Protection, concerned with the sectors whose failure would have national consequences, whereas CERT-In is the general national agency for responding to computer security incidents. Issuing digital signature certificates is the business of licensed Certifying Authorities working under the Controller of Certifying Authorities."
+  },
+  {
+    "sub": "Safe and secure cyber-space",
+    "q": "The Cyber Swachhta Kendra set up under the Digital India programme functions as which of the following?",
+    "opts": {
+      "A": "The licensing authority for the Certifying Authorities that issue digital signature certificates",
+      "B": "The agency that audits and certifies government websites for accessibility compliance",
+      "C": "The registry that allots .in domain names",
+      "D": "A botnet cleaning and malware analysis centre that helps users detect and remove malicious code from their devices"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "The centre works with internet service providers and banks to notify users whose devices appear to have been drawn into a botnet, and offers free removal tools, which is why it sits within the 'safe and secure cyber-space' strand. Licensing Certifying Authorities is the Controller of Certifying Authorities' function, and .in allotment belongs to NIXI."
+  },
+  {
+    "sub": "Government and Service on demand",
+    "q": "UMANG (Unified Mobile Application for New-age Governance) is best described as which of the following?",
+    "opts": {
+      "A": "A mobile operating system built for government-issued handsets",
+      "B": "A payment gateway through which departments collect fees and fines",
+      "C": "A single mobile application that aggregates the services of many central and state departments behind one login",
+      "D": "A grievance-redress portal intended to replace departmental helplines"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "UMANG exists so that a citizen need not install a separate app for every department: departments expose their services through the common app and the citizen reaches all of them from one place with one identity. Grievance redress is handled by CPGRAMS, which is a distinct platform with a distinct purpose."
+  },
+  {
+    "sub": "Government and Service on demand",
+    "q": "Which category of services does the e-District Mission Mode Project deliver?",
+    "opts": {
+      "A": "High-volume citizen services at district level, such as income, domicile and caste certificates, social-security pensions and revenue court services",
+      "B": "Central government services relating to passports and visas",
+      "C": "Back-office human-resource services for the staff of the district administration",
+      "D": "Services connected with the collection of tolls on national highways"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "e-District targets exactly the services a citizen most often needs from the collectorate and the tehsil, so that they can be applied for and obtained online or through a nearby assisted access point instead of by repeated office visits. Passport services are delivered by a separate central Mission Mode Project, not through the district project."
+  },
+  {
+    "sub": "Seamlessly integrated across departments or jurisdictions",
+    "q": "How does API Setu support seamless integration of services across departments?",
+    "opts": {
+      "A": "By merging legacy departmental databases into a single consolidated national database",
+      "B": "By providing a common platform on which departments publish and consume APIs, so one department can fetch verified data straight from the system that holds it",
+      "C": "By providing free web hosting to state government departments",
+      "D": "By standardising the visual design of all government portals"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Integration is achieved by leaving data where it is and exposing it through published interfaces, so the holding department stays the single authoritative system of record and the consumer gets a live, verified answer. Consolidating everything into one database is the opposite design and is workable neither legally nor operationally across jurisdictions."
+  },
+  {
+    "sub": "Seamlessly integrated across departments or jurisdictions",
+    "q": "The National e-Governance Service Delivery Gateway was conceived as middleware. What was it meant to do?",
+    "opts": {
+      "A": "Host the websites of all central ministries in a single data centre",
+      "B": "Authenticate every citizen biometrically before a transaction is accepted",
+      "C": "Keep a permanent archive of the documents attached to every transaction",
+      "D": "Act as a standards-based routing and messaging switch between service-access channels and departmental back-end systems, so that every pair of systems need not be wired directly to each other"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "A gateway of this kind converts a mesh of point-to-point integrations into a hub, so a new department or a new delivery channel connects to one standard interface rather than to every counterpart separately. Biometric authentication is performed by the identity system and is not a function of the messaging middleware."
+  },
+  {
+    "sub": "All citizen entitlements available on the cloud",
+    "q": "Digital India speaks of citizen entitlements being portable and available on the cloud. What does portability mean here?",
+    "opts": {
+      "A": "That an entitlement may be transferred to another person nominated by the beneficiary",
+      "B": "That entitlements are held on the beneficiary's own device rather than on any server",
+      "C": "That an entitlement follows the beneficiary instead of remaining tied to the office or the place where it was first sanctioned",
+      "D": "That a beneficiary may exchange one entitlement for another of equal value"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Holding the entitlement record centrally rather than in a local register is what lets a person who has moved claim the same benefit at the new location, which is the whole point of the phrase. Portability moves the entitlement along with the person; it does not move it to a different person or convert it into something else."
+  },
+  {
+    "sub": "All citizen entitlements available on the cloud",
+    "q": "One Nation One Ration Card is a concrete application of cloud-held entitlements. What does it allow a migrant beneficiary to do?",
+    "opts": {
+      "A": "Draw the family's foodgrain entitlement from any fair price shop in the country, authenticating at the shop against a centrally held record",
+      "B": "Hold ration cards issued by two different states at the same time",
+      "C": "Receive the cash equivalent of the entitlement in place of grain",
+      "D": "Have the ration card transferred permanently to the state of employment"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "The scheme works by keeping the beneficiary and entitlement record centrally and authenticating at the point of sale, so the same entitlement can be claimed anywhere without surrendering the card or obtaining a second one. Holding two cards is precisely the duplication the central record is designed to prevent."
+  },
+  {
+    "sub": "Digital transformation for improving Ease of Doing Business",
+    "q": "The National Single Window System for investors is designed on which of the following principles?",
+    "opts": {
+      "A": "Only one clearance is now required to start any business in India",
+      "B": "State governments may no longer impose conditions of their own on investors",
+      "C": "Approvals are granted automatically, without departmental scrutiny",
+      "D": "The investor applies once through one portal, which routes the application to each central and state approval that the proposed activity actually requires"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "A single-window system does not abolish the underlying statutory approvals; it removes the burden of discovering and separately approaching each regulator, and lets the applicant track every pending clearance in one place. The clearances themselves continue to be granted by the departments that own them."
+  },
+  {
+    "sub": "Digital transformation for improving Ease of Doing Business",
+    "q": "MCA21, one of the earliest Mission Mode Projects aimed at ease of doing business, delivers which of these online?",
+    "opts": {
+      "A": "Filing of income tax returns by companies",
+      "B": "Company incorporation, statutory filing and public inspection of company records",
+      "C": "Assessment and collection of customs duty at ports",
+      "D": "Registration of trademarks and patents"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "MCA21 took the Registrar of Companies' work online, so incorporation, annual returns and the public inspection of company filings happen electronically — a direct ease-of-doing-business gain, because these are filings every company is obliged to make. Customs clearance is handled by a separate project belonging to the revenue departments."
+  },
+  {
+    "sub": "Leveraging GIS for decision support system and development",
+    "q": "A district administration wants to decide where to open additional sub-health centres. Which GIS operation most directly supports that decision?",
+    "opts": {
+      "A": "Buffer and service-area analysis around the existing centres, to identify habitations lying outside a defined travel distance",
+      "B": "Georeferencing the scanned survey sheets to a common coordinate system",
+      "C": "Applying a colour ramp to the elevation layer of the base map",
+      "D": "Converting the map data from raster format into vector format"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Buffer and service-area analysis answers the siting question directly by showing which settlements no existing facility reaches within an acceptable distance, which is what the decision turns on. Georeferencing and format conversion are preparatory data steps that must happen first but decide nothing by themselves."
+  },
+  {
+    "sub": "Leveraging GIS for decision support system and development",
+    "q": "Bharat Maps, hosted by the National Informatics Centre, is best described as which of the following?",
+    "opts": {
+      "A": "An archive of satellite imagery sold to private surveying firms",
+      "B": "A citizen navigation application giving turn-by-turn road directions",
+      "C": "A national GIS platform providing a common base map on which departments overlay their own thematic layers within government applications",
+      "D": "The cadastral land-record system maintained by one particular state"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Its value lies in every department plotting its data on the same base map and the same reference frame, so that layers produced by different departments can be overlaid and compared instead of each department buying a map of its own. Turn-by-turn navigation is a consumer service and not what a government decision-support platform is built to provide."
+  },
+  {
+    "sub": "Universal Digital Literacy",
+    "q": "What is the target of the Pradhan Mantri Gramin Digital Saksharta Abhiyan (PMGDISHA)?",
+    "opts": {
+      "A": "Supplying free laptop computers to rural students",
+      "B": "Training serving government employees in office automation software",
+      "C": "Certifying rural entrepreneurs to operate Common Service Centres",
+      "D": "Making at least one member of every eligible rural household digitally literate — able to operate a digital device, use the internet and transact digitally"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "The scheme is pitched at the household rather than at the individual, on the reasoning that one digitally literate member can transact for the family, and its content is device use, internet access and digital payments. Training departmental staff in office software is capacity building within government, not a rural digital-literacy mission."
+  },
+  {
+    "sub": "Universal Digital Literacy",
+    "q": "Why are Common Service Centres central to the goal of universal digital literacy?",
+    "opts": {
+      "A": "They manufacture low-cost tablet computers for rural households",
+      "B": "They are village-level access points run by local entrepreneurs that provide assisted delivery of digital services and also serve as venues for digital literacy training",
+      "C": "They are the only channel through which an Aadhaar number can be enrolled",
+      "D": "They supply a free broadband connection to every household in the village"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "A Common Service Centre closes the gap for a citizen who cannot yet transact unaided: the village-level entrepreneur completes the transaction on the citizen's behalf and, under the literacy programmes, trains the citizen to do it independently. Laying the connectivity itself is BharatNet's task, not the centre's."
+  }
+]

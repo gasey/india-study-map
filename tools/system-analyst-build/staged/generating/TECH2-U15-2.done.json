@@ -1,0 +1,41 @@
+[
+  {
+    "sub": "Indian Penal Code sections 503, 499, 500, 463, 470, 472, 420, 416, 417, 383, 405, 406, 408, 409, 204, 477, 193, 167, 172, 173, 175",
+    "q": "A person dishonestly induces someone to hand over property by deceiving them. Under the Indian Penal Code, which offence does this describe?",
+    "opts": {
+      "A": "Extortion",
+      "B": "Cheating and dishonestly inducing delivery of property",
+      "C": "Criminal breach of trust",
+      "D": "Forgery"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Cheating with dishonest inducement to deliver property is the classic Section 420 offence, and it is the provision most often invoked in online fraud cases prosecuted alongside the IT Act. Extortion involves putting a person in fear; criminal breach of trust requires property already entrusted; forgery concerns making a false document. Note the IPC has since been replaced by the Bharatiya Nyaya Sanhita, 2023 — the offence survives under a new section number."
+  },
+  {
+    "sub": "Indian Penal Code sections 503, 499, 500, 463, 470, 472, 420, 416, 417, 383, 405, 406, 408, 409, 204, 477, 193, 167, 172, 173, 175",
+    "q": "An employee entrusted with departmental funds misappropriates them for personal use. Which Indian Penal Code offence is squarely attracted?",
+    "opts": {
+      "A": "Cheating",
+      "B": "Extortion",
+      "C": "Criminal breach of trust",
+      "D": "Criminal intimidation"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Criminal breach of trust requires that the property was already lawfully entrusted to the accused and was then dishonestly misappropriated, with aggravated forms where the entrustment arose from employment or public service. The distinguishing feature against cheating is the entrustment: cheating obtains the property by deception in the first place."
+  },
+  {
+    "sub": "Indian Penal Code sections 503, 499, 500, 463, 470, 472, 420, 416, 417, 383, 405, 406, 408, 409, 204, 477, 193, 167, 172, 173, 175",
+    "q": "Why does a cyber-fraud charge sheet in India typically cite Indian Penal Code provisions alongside the Information Technology Act?",
+    "opts": {
+      "A": "The IT Act applies only to government computer systems",
+      "B": "The IT Act addresses the electronic conduct while the penal law supplies the underlying offence such as cheating or forgery",
+      "C": "The IT Act has no penal provisions of its own",
+      "D": "Penal law applies only where no electronic record is involved"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "The two are complementary rather than alternative: the IT Act governs electronic records, signatures and computer-related contraventions, while the general penal law supplies the substantive offence — cheating, forgery, criminal breach of trust, defamation — that the electronic conduct amounts to. This is why a System Analyst handling incident evidence should expect both to be cited. The IPC has since been replaced by the Bharatiya Nyaya Sanhita, 2023, but the pairing of general penal law with the IT Act is unchanged."
+  }
+]

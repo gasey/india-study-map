@@ -1,0 +1,19 @@
+{
+  "paper": "TECH2",
+  "unit": "13",
+  "unitTitle": "Free and Open Source Software (FOSS)",
+  "unitMarks": 5,
+  "perTarget": 2,
+  "brief": "tools/system-manager-build/GENERATE_BRIEF.md",
+  "targets": [
+    {
+      "sub": "Open Source Software in e-Governance"
+    },
+    {
+      "sub": "Major FOSS licences (GPL, LGPL, Apache, BSD, MIT)"
+    },
+    {
+      "sub": "National Policy on Adoption of Open Source Software for Government of India"
+    }
+  ]
+}

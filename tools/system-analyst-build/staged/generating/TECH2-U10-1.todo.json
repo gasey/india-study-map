@@ -1,0 +1,37 @@
+{
+  "paper": "TECH2",
+  "unit": "10",
+  "unitTitle": "Information Security Management in e-Governance Projects",
+  "unitMarks": 15,
+  "perTarget": 2,
+  "brief": "tools/system-manager-build/GENERATE_BRIEF.md",
+  "targets": [
+    {
+      "sub": "Information Security Technology and Operational controls"
+    },
+    {
+      "sub": "Analysis tools"
+    },
+    {
+      "sub": "Monitoring Tools"
+    },
+    {
+      "sub": "Selection of Baseline Security Controls"
+    },
+    {
+      "sub": "Impact on Organization due to Breaches of Information Security"
+    },
+    {
+      "sub": "Impact on Individual due to Breaches of Information Security"
+    },
+    {
+      "sub": "Security Control organization and structure"
+    },
+    {
+      "sub": "Information Security Risk Management Process"
+    },
+    {
+      "sub": "Information Security Risk Treatment"
+    }
+  ]
+}

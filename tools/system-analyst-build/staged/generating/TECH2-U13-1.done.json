@@ -1,0 +1,80 @@
+[
+  {
+    "sub": "Open Source Software in e-Governance",
+    "q": "Which property of open source software most directly supports independent security assurance of a government application handling citizen data?",
+    "opts": {
+      "A": "The source code is available, so the implementing agency or a third-party auditor can inspect exactly how data is processed and stored instead of relying on the vendor's assertions",
+      "B": "Open source software is released without any licence terms, so no legal review is needed",
+      "C": "Open source software cannot contain vulnerabilities because many people have read the code",
+      "D": "Open source software is exempt from the security audit requirements applicable to government applications"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Auditability is the concrete benefit: with source available, a department can commission its own code review, verify cryptography and data handling, and patch a flaw itself if the upstream project is slow. Open source code is not automatically defect-free, and it is still subject to the same government security audit and certification requirements as any other software."
+  },
+  {
+    "sub": "Open Source Software in e-Governance",
+    "q": "A department adopts an open source stack for a new e-governance application expecting the project to cost nothing. Which cost is it most likely to have overlooked?",
+    "opts": {
+      "A": "The per-user licence fee payable to the open source project",
+      "B": "Customisation, integration, migration, training and paid support, which continue regardless of whether the licence is free",
+      "C": "Royalty payable on each transaction processed by the software",
+      "D": "The purchase price of the source code from the community"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Open source removes the licence fee, not the total cost of ownership — the effort of tailoring the product, integrating it with existing systems, migrating data, training staff and buying a support contract usually dominates the budget. There is no per-user fee or royalty to pay, which is exactly why the remaining service costs are so easily left out of an estimate."
+  },
+  {
+    "sub": "Major FOSS licences (GPL, LGPL, Apache, BSD, MIT)",
+    "q": "Which licence family is described as 'strong copyleft', requiring that a modified version distributed to others be released under the same licence with source code available?",
+    "opts": {
+      "A": "MIT",
+      "B": "BSD",
+      "C": "GPL",
+      "D": "Apache License 2.0"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "The GPL's copyleft condition propagates: if you distribute a derivative work, it must carry the same licence and the corresponding source must be made available to the recipients. MIT, BSD and Apache are permissive — they allow the modified code to be redistributed under different, including proprietary, terms as long as the attribution and notice requirements are met."
+  },
+  {
+    "sub": "Major FOSS licences (GPL, LGPL, Apache, BSD, MIT)",
+    "q": "What does the Lesser GPL (LGPL) permit that the ordinary GPL does not?",
+    "opts": {
+      "A": "It allows the licensed code to be redistributed without any source code being made available at all",
+      "B": "It removes the requirement to preserve copyright notices",
+      "C": "It permits commercial use, which the GPL forbids",
+      "D": "It allows a proprietary program to link to the LGPL library without the whole program having to be released under the LGPL, while modifications to the library itself must still be shared"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "The LGPL was written for libraries: copyleft applies to the library, so improvements to it must be released, but merely linking a separate program against it does not pull that program into the licence. The GPL is not anti-commercial — commercial use and sale are permitted under it too; what it restricts is distributing derivative works under non-copyleft terms."
+  },
+  {
+    "sub": "National Policy on Adoption of Open Source Software for Government of India",
+    "q": "What is the central requirement the national policy on adoption of open source software places on government organisations procuring e-governance systems?",
+    "opts": {
+      "A": "To endeavour to adopt open source software as the preferred option compared with closed source software, and to record a justification where closed source is nevertheless selected",
+      "B": "To decommission every existing closed source system within the current financial year",
+      "C": "To publish the source code of every government application for public download",
+      "D": "To procure software only from vendors registered outside the country"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "The policy sets a preference, not an absolute prohibition: open source is to be the default consideration, and choosing closed source remains possible provided the procuring organisation documents why. That is why the requirement bites at the tender stage, where suppliers must be asked to consider open source options in their proposals."
+  },
+  {
+    "sub": "National Policy on Adoption of Open Source Software for Government of India",
+    "q": "Which rationale for a government-wide open source preference is about sovereignty and control rather than about cost?",
+    "opts": {
+      "A": "Open source products need no ongoing maintenance budget",
+      "B": "Open source products are always technically superior to commercial equivalents",
+      "C": "Open source products can be deployed without following procurement rules",
+      "D": "Access to source code lets government retain strategic control over its systems and citizen data, and reduces dependence on a single vendor's product roadmap and pricing"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Strategic control means the state can keep a critical system running, modify it, or move it to another support provider even if the original vendor withdraws, raises prices or changes direction — a lock-in argument, not a licence-fee argument. Open source does not exempt anything from procurement rules, nor is it inherently superior on technical merit."
+  }
+]

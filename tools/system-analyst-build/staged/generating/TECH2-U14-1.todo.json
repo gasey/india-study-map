@@ -1,0 +1,28 @@
+{
+  "paper": "TECH2",
+  "unit": "14",
+  "unitTitle": "Change Management and Capacity Building in e-Governance Projects",
+  "unitMarks": 20,
+  "perTarget": 2,
+  "brief": "tools/system-manager-build/GENERATE_BRIEF.md",
+  "targets": [
+    {
+      "sub": "Key principles for change management design"
+    },
+    {
+      "sub": "Understanding scope of change in an e-Governance project"
+    },
+    {
+      "sub": "Identify enablers and disablers to change"
+    },
+    {
+      "sub": "Build a change champion network"
+    },
+    {
+      "sub": "Role of a change champion"
+    },
+    {
+      "sub": "Communications Management"
+    }
+  ]
+}

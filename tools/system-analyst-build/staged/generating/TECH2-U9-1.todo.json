@@ -1,0 +1,28 @@
+{
+  "paper": "TECH2",
+  "unit": "9",
+  "unitTitle": "Enterprise Architecture and Service Oriented Architecture",
+  "unitMarks": 5,
+  "perTarget": 2,
+  "brief": "tools/system-manager-build/GENERATE_BRIEF.md",
+  "targets": [
+    {
+      "sub": "EA frameworks (Zachman, TOGAF)"
+    },
+    {
+      "sub": "India Enterprise Architecture (IndEA) framework"
+    },
+    {
+      "sub": "Services, loose coupling, reusability, discoverability"
+    },
+    {
+      "sub": "Web services, SOAP, REST, WSDL, UDDI"
+    },
+    {
+      "sub": "Middleware, ESB and interoperability"
+    },
+    {
+      "sub": "Open standards and e-Governance Standards (MSDG)"
+    }
+  ]
+}

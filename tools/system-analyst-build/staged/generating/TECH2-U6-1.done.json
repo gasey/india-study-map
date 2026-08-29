@@ -1,0 +1,236 @@
+[
+  {
+    "sub": "PPP benefit to Citizens",
+    "q": "A state delivers e-District certificate services through PPP-operated service counters instead of departmental counters. From the citizen's point of view, what is the defining benefit of this arrangement?",
+    "opts": {
+      "A": "The service becomes free of any user charge, since the private partner is paid by the government",
+      "B": "The citizen acquires a share in the facility built by the private partner",
+      "C": "Delivery from a single window at published charges, against a contractually enforceable turnaround time",
+      "D": "The statutory power to approve the application passes from the government officer to the counter operator"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "PPP for citizen services buys the citizen convenience and predictability: one window, a published fee, and a delivery time the department can be held to under the concession. User charges do not disappear, they are fixed and disclosed, and statutory approval always stays with the authorised officer."
+  },
+  {
+    "sub": "PPP benefit to Citizens",
+    "q": "Why does a penalty-linked Service Level Agreement in an e-Governance PPP matter to the citizen and not only to the two contracting parties?",
+    "opts": {
+      "A": "It converts a best-effort service into a measurable delivery commitment that costs the operator money when missed",
+      "B": "It guarantees the operator a fixed return irrespective of how the service actually performs",
+      "C": "It shifts the department's statutory liability for a wrong decision on to the citizen",
+      "D": "It removes the citizen's obligation to submit supporting documents with the application"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "An SLA with deductions gives the operator a financial reason to meet turnaround times, so what the citizen gets is an enforceable standard rather than a promise. A guaranteed return is the opposite of an SLA regime, where payment varies with measured performance."
+  },
+  {
+    "sub": "Benefits to Private sector partner",
+    "q": "Compared with a one-off supply-and-installation order, what is the principal commercial attraction of a long-tenure e-Governance PPP to a private partner?",
+    "opts": {
+      "A": "It exempts the partner from taxation on revenue earned from the project",
+      "B": "It gives the partner ownership of the citizen data captured by the service",
+      "C": "It relieves the partner of measurable performance obligations once the service goes live",
+      "D": "It gives a multi-year revenue stream from a large assured user base, over which upfront investment can be recovered"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "The bankable feature of a PPP is tenure: a concession long enough for capital and a return on it to be recovered from a captive transaction volume. Citizen data remains the government's, the partner processing it only as custodian for the term of the contract."
+  },
+  {
+    "sub": "Benefits to Private sector partner",
+    "q": "A private partner recovers its investment in an e-Governance PPP from per-transaction user charges. Which risk does it accept in exchange for that revenue benefit?",
+    "opts": {
+      "A": "Change-in-law risk, which concession agreements normally place on the government",
+      "B": "Demand risk, since actual transaction volumes may fall short of the projections used to size the investment",
+      "C": "Land acquisition risk for the sites, normally borne by the contracting authority",
+      "D": "Force majeure risk, which concession agreements normally treat as shared"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "A user-charge or revenue-share structure pays the partner only when citizens transact, so a volume shortfall hits it directly, which is demand risk. Change in law, site availability and force majeure are conventionally retained by the authority or shared, not transferred to the operator."
+  },
+  {
+    "sub": "Role of various partners",
+    "q": "In a state e-Governance PPP, what does the independent third-party agency appointed alongside the department and the operator do?",
+    "opts": {
+      "A": "It provides the debt finance the operator needs during the build phase",
+      "B": "It takes approval decisions on citizen applications on behalf of the department",
+      "C": "It independently measures the operator's performance against SLA metrics, on which payments and deductions are computed",
+      "D": "It holds title to the project assets for the duration of the concession"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "SLA-linked payment only works if the measurement is credible to both sides, so an auditor independent of both certifies performance. Financing comes from the operator's own lenders, and statutory decisions never leave the department."
+  },
+  {
+    "sub": "Role of various partners",
+    "q": "The selected bidder in a PPP project is normally required to incorporate a Special Purpose Vehicle (SPV). What does the SPV achieve in the partner structure?",
+    "opts": {
+      "A": "It ring-fences the project's assets, liabilities and cash flows in a company separate from its sponsors",
+      "B": "It transfers the contracting authority's statutory powers to the private sponsors",
+      "C": "It acts as the independent auditor of the operator's service levels",
+      "D": "It keeps the project in the public sector by holding the government's equity on its behalf"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "An SPV isolates the project so lenders can lend against the project's own cash flows and a sponsor's unrelated businesses cannot drag it down, or be dragged down by it. The SPV is the concessionaire itself rather than an auditor, and incorporating one moves no statutory power."
+  },
+  {
+    "sub": "Role of Government in PPP",
+    "q": "In an e-Governance PPP, the government's role shifts away from being the provider of the service and towards which of the following?",
+    "opts": {
+      "A": "Sole financier of the project's capital cost",
+      "B": "Direct employer of the front-end counter staff",
+      "C": "Passive shareholder with no continuing monitoring duty",
+      "D": "Enabler and regulator, setting service standards, monitoring SLAs and enforcing the contract"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "PPP moves the government up the value chain: it specifies what the service must achieve and polices the contract, while the partner decides how. The monitoring role grows rather than shrinks, so a passive stance defeats the model."
+  },
+  {
+    "sub": "Role of Government in PPP",
+    "q": "Even where an e-Governance service is delivered end to end by a private operator, which responsibility must stay with the government?",
+    "opts": {
+      "A": "Manning the helpdesk at the service delivery centres",
+      "B": "Taking the statutory decision on the citizen's application and digitally signing the certificate issued",
+      "C": "Procuring and maintaining the counters' hardware and connectivity",
+      "D": "Recruiting and training the front-end counter operators"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Statutory discretion cannot be outsourced: the authorised officer decides and signs, and the operator's system only carries the workflow up to and away from that point. Hardware, manpower and helpdesk are precisely the operational layers a PPP exists to transfer."
+  },
+  {
+    "sub": "Role of Private partner",
+    "q": "A State Data Centre is procured on a Design-Build-Finance-Operate (DBFO) basis. Which set of obligations does the private partner carry?",
+    "opts": {
+      "A": "It designs, builds, finances and operates the facility, with the authority paying for availability over the contract term",
+      "B": "It supplies the equipment against a purchase order, after which the authority operates the facility",
+      "C": "It finances the project while the authority designs, builds and operates the facility",
+      "D": "It operates a facility that the authority has designed, built and financed"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "DBFO bundles design, construction, finance and operation with one party, so the partner has a reason to build for low running cost, and the authority pays over time for the facility being available. Option D is an operations and maintenance contract and option B a plain supply contract."
+  },
+  {
+    "sub": "Role of Private partner",
+    "q": "e-Governance PPP contracts describe the private partner as carrying 'end-to-end delivery responsibility'. In operational terms this means that the partner:",
+    "opts": {
+      "A": "acquires the authority to grant or reject citizen applications on its own",
+      "B": "becomes the owner and permanent custodian of the citizen data it processes",
+      "C": "is accountable for infrastructure, application, manpower and the citizen interface as one measured service rather than as separate deliverables",
+      "D": "is paid on a time-and-materials basis for each component it supplies"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "The point of bundling delivery with one partner is that the department has a single accountable party and a single SLA instead of arbitrating between a hardware vendor, a software vendor and a manpower agency. Time-and-materials pricing splits that accountability again, which is exactly what the model avoids."
+  },
+  {
+    "sub": "Management Contract",
+    "q": "Under a management contract for an existing government facility, how are asset ownership and commercial risk allocated?",
+    "opts": {
+      "A": "The private firm owns the assets and bears the commercial risk",
+      "B": "The private firm owns the assets while the government bears the commercial risk",
+      "C": "The government owns the assets while the private firm bears the commercial risk",
+      "D": "The government owns the assets and bears the commercial risk, and the private firm is paid a management fee"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "A management contract buys managerial capability alone: the state keeps the asset and the revenue and pays a fee, sometimes partly performance-linked, for running it. Once the private party begins carrying revenue or demand risk the arrangement has become a lease or a concession instead."
+  },
+  {
+    "sub": "Management Contract",
+    "q": "A state wants a private firm to run its existing State Data Centre for five years, with no capital investment by the firm and no transfer of revenue risk to it. Which model fits?",
+    "opts": {
+      "A": "Build-Own-Operate-Transfer",
+      "B": "Management contract",
+      "C": "Concession with revenue share",
+      "D": "Joint venture company"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "No private capital and no revenue risk leaves only remuneration by fee for managing a state-owned asset, which is the management contract. BOOT and a revenue-share concession both require the partner to invest and to earn from usage, and a joint venture would require it to take equity."
+  },
+  {
+    "sub": "ASP Model - Application Service Provider Model",
+    "q": "Under the Application Service Provider (ASP) model, what does a government department actually buy?",
+    "opts": {
+      "A": "The right to use a centrally hosted application on a subscription or per-transaction basis, with the provider owning and maintaining both software and infrastructure",
+      "B": "A perpetual source-code licence, deployed and run on departmental servers",
+      "C": "Bespoke software developed to its specification and handed over as a one-time deliverable",
+      "D": "Bare compute and storage on which the department deploys and maintains its own application"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "In the ASP model the department consumes a running service and pays for use, while the application, the servers and their upkeep stay with the provider. Option D describes infrastructure hosting, where the department still owns the application and carries its maintenance burden."
+  },
+  {
+    "sub": "ASP Model - Application Service Provider Model",
+    "q": "In commercial terms, an ASP arrangement for an e-District application is closest to which of the following?",
+    "opts": {
+      "A": "A turnkey build-and-transfer software contract",
+      "B": "An annual maintenance contract on software the department already owns",
+      "C": "A software-as-a-service subscription, paying for the use of a hosted application rather than for owning it",
+      "D": "A staff augmentation contract supplying developers to the department"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "ASP is the earlier name for what is now sold as SaaS: a shared hosted application billed by subscription or by transaction. An AMC presumes the department already owns and hosts the software, which is exactly the position the ASP model avoids."
+  },
+  {
+    "sub": "Requirement to launch services in a short time frame",
+    "q": "A department must launch a citizen-facing online service within a few months, with no capital budget and no in-house technical team. Which delivery route best meets the time constraint?",
+    "opts": {
+      "A": "Tender for a bespoke system and a new departmental data centre built to its own specification",
+      "B": "Recruit and train a departmental IT cadre before beginning the rollout",
+      "C": "Build on-premise infrastructure and roll the service out in phases over three years",
+      "D": "Subscribe to an already-operational hosted platform under an ASP or PPP arrangement, configuring rather than building"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "When the binding constraint is time and the department has neither capital up front nor skills in house, the only route that keeps procurement, build and hiring off the critical path is riding on infrastructure and an application that already exist. Every other option places a full build cycle before go-live."
+  },
+  {
+    "sub": "Requirement to launch services in a short time frame",
+    "q": "Why does the PPP route usually shorten time-to-launch for an e-Governance service compared with a purely departmental build?",
+    "opts": {
+      "A": "PPP contracts are exempt from the requirement to define measurable service levels",
+      "B": "The partner brings ready infrastructure, trained manpower and proven application components, and carries out their procurement itself",
+      "C": "The department can defer defining its business rules until after go-live, because the partner owns the application",
+      "D": "PPP awards do not have to go through a competitive bidding process"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Time is saved because the partner has already done the capital procurement, the hiring and the product build that would otherwise sit on the department's critical path. Service levels still have to be specified, more tightly than in a departmental build, and business rules must be settled before the partner can configure anything."
+  },
+  {
+    "sub": "BOO - Build Own Operate Model",
+    "q": "What distinguishes a Build-Own-Operate (BOO) arrangement from Build-Own-Operate-Transfer (BOOT)?",
+    "opts": {
+      "A": "In BOO the private partner retains ownership of the asset indefinitely, whereas in BOOT ownership passes to the government at the end of the agreed term",
+      "B": "In BOO the government finances construction, whereas in BOOT the private partner finances it",
+      "C": "In BOO the asset is handed to the government at the end of the term, whereas in BOOT the partner keeps it",
+      "D": "BOO covers construction only, whereas BOOT adds an operating phase"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "The final 'T' is the whole difference: BOOT ends in a transfer of the asset to the authority and BOO does not, so under BOO the asset stays on the partner's books and it plans returns over an open horizon. Both models are privately financed and both include an operating phase."
+  },
+  {
+    "sub": "BOO - Build Own Operate Model",
+    "q": "A firm builds a cloud data centre at its own cost, keeps ownership of it permanently, and sells capacity to government departments on a pay-per-use basis. Which model is this?",
+    "opts": {
+      "A": "Build-Operate-Transfer",
+      "B": "Design-Build-Finance-Operate with availability payments",
+      "C": "Build-Own-Operate",
+      "D": "Management contract"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Private capital, permanent private ownership and revenue earned from usage together define BOO. BOT would require handing the facility over at the end of the term, and under a DBFO with availability payments the authority, not usage, would be paying the operator."
+  }
+]

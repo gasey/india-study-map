@@ -1,0 +1,80 @@
+[
+  {
+    "sub": "Dimensions of impact: citizen, government, society",
+    "q": "In an impact assessment of an e-governance project, which of the following belongs to the government or administrative dimension of impact rather than the citizen dimension?",
+    "opts": {
+      "A": "Reduction in the number of visits a citizen must make to a government office",
+      "B": "Reduction in the out-of-pocket amount a citizen spends to obtain the service",
+      "C": "Reduction in the department's cost of processing each transaction, together with better availability of reliable data for administrative decision-making",
+      "D": "Reduction in the time a citizen waits at the counter"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "The government dimension looks inward at the administration — unit processing cost, staff effort released, accuracy of records, and the quality of information now available for supervision and policy. Visits, out-of-pocket spend and waiting time are all borne by the applicant and belong to the citizen dimension, which is assessed from the user's side of the counter."
+  },
+  {
+    "sub": "Dimensions of impact: citizen, government, society",
+    "q": "Which of the following is assessed under the societal dimension of impact rather than the individual citizen or the government dimension?",
+    "opts": {
+      "A": "The number of days an individual applicant saved in obtaining a certificate",
+      "B": "The saving in the department's stationery and record-room expenditure",
+      "C": "The number of legacy records the department digitised",
+      "D": "Whether the service has become more equitably available to remote, poor and less literate populations, and whether greater transparency has narrowed the scope for rent-seeking"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "The societal dimension asks what the project did to the wider public sphere — equity of access across geography, income and literacy, transparency, accountability and trust in government — rather than what it did for one applicant or one department's costs. It is the dimension most often skipped, because it needs survey evidence and a disaggregated look at who is still being left out."
+  },
+  {
+    "sub": "Cost of access and time saved measures",
+    "q": "In impact assessment, the 'cost of access' borne by a citizen in obtaining a government service is understood to include:",
+    "opts": {
+      "A": "The direct fee paid, plus travel expenses, income foregone for the time spent, the cost of repeat visits, and any unofficial payments made",
+      "B": "Only the statutory fee prescribed for the service",
+      "C": "Only the department's own expenditure on delivering the service",
+      "D": "The capital cost of the IT infrastructure divided by the number of applicants"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "The prescribed fee is usually the smallest part of what a service actually costs a citizen; travel, lost wages, repeated trips because a document was missing, and speed money together dominate the real burden, and these are what an electronic channel is expected to cut. Confining the measure to the statutory fee would show almost no change even where the project has transformed the applicant's experience."
+  },
+  {
+    "sub": "Cost of access and time saved measures",
+    "q": "How is 'time saved' properly quantified in the impact assessment of a service delivery project?",
+    "opts": {
+      "A": "By asking departmental staff to estimate how much faster the process now feels",
+      "B": "By measuring, before and after, the number of visits made and the travel, waiting and processing time per visit, and valuing the difference at an appropriate wage rate where a monetary figure is required",
+      "C": "By counting the number of transactions the portal has recorded since it was launched",
+      "D": "By adopting the turnaround time stated in the service level agreement as the post-project value"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Time saved is a difference between two observations of the same quantity, so it requires the trip count and per-trip time to be measured on both sides of the intervention, and monetisation follows by applying a wage rate to the hours released. Taking the SLA figure instead substitutes the contractual promise for the measured reality, which is exactly the claim an impact assessment is supposed to test."
+  },
+  {
+    "sub": "eTaal, and national impact assessment studies",
+    "q": "What is eTaal in the Indian e-governance ecosystem?",
+    "opts": {
+      "A": "A national repository holding the source code of government applications",
+      "B": "A certification scheme for e-governance project managers",
+      "C": "A portal that aggregates and disseminates near real-time counts of electronic transactions delivered by central and state e-governance projects",
+      "D": "A payment gateway through which state departments collect service fees"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "eTaal collects e-transaction counts from participating national and state projects and publishes them in an aggregated, near real-time view, so the reach and usage of e-services can be seen across departments and states on a common dashboard. It neither hosts application code nor handles the money — it counts the transactions that other systems complete."
+  },
+  {
+    "sub": "eTaal, and national impact assessment studies",
+    "q": "A department cites its high eTaal transaction count as proof that its project has produced impact. What is the flaw in that argument?",
+    "opts": {
+      "A": "eTaal covers only central government departments, so a state project's figures do not appear on it",
+      "B": "eTaal figures are published only once a year and are therefore too dated to support any claim",
+      "C": "eTaal figures are estimated from a sample survey rather than taken from the systems themselves",
+      "D": "Transaction volume shows that the channel is being used, not what changed for anyone; impact still has to be demonstrated through time, cost, quality and equity of service measured against a baseline"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Usage statistics are an output measure — they can rise simply because a manual counter was closed and applicants had nowhere else to go, with no improvement in what the citizen experiences. That is why national impact assessment studies rely on citizen surveys and before-and-after comparisons of access cost and turnaround, using transaction counts only as context for reach."
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "sub": "IT audit standards and frameworks (COBIT, ISO 27001)",
+    "q": "COBIT is best described as which of the following?",
+    "opts": {
+      "A": "A framework for the governance and management of enterprise IT, against which control objectives and IT processes can be assessed",
+      "B": "A programming standard for writing secure application code",
+      "C": "A network protocol used to transfer audit logs between systems",
+      "D": "A statutory code prescribing the penalties for computer-related offences"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "COBIT gives auditors and managers a structured set of IT processes and control objectives linked to business goals, which is why it is commonly used as the reference model for an IT audit's scope. It is a governance framework, not a coding standard, a protocol or a statute.",
+    "provNote": ""
+  },
+  {
+    "sub": "IT audit standards and frameworks (COBIT, ISO 27001)",
+    "q": "ISO 27001 certification of a department's data centre tells an assessor primarily that which of the following is in place?",
+    "opts": {
+      "A": "The department's software is free of all coding defects",
+      "B": "A management system for information security, with risk assessment, selected controls and periodic review, has been established and independently certified",
+      "C": "The data centre has been guaranteed uninterrupted power supply",
+      "D": "The department's staff have all passed a technical examination"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "ISO 27001 certifies an information security management system — that risks are assessed, controls are chosen and justified, and the whole is reviewed and improved — rather than certifying any particular product or line of code. A certified organisation can still have a vulnerable application, which is why application security audit is a separate exercise.",
+    "provNote": ""
+  },
+  {
+    "sub": "Audit of application controls and general controls",
+    "q": "Which of the following is an application control rather than a general IT control?",
+    "opts": {
+      "A": "The procedure governing physical access to the server room",
+      "B": "The organisation's policy on backup and restoration",
+      "C": "A validation rule that rejects a pension claim where the claimant's age is below the eligible threshold",
+      "D": "The change management process applied to all departmental systems"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Application controls are built into a specific business process — input validation, edit checks, computation logic, exception reports — and assure the completeness and accuracy of that application's transactions. Physical access, backup policy and change management are general controls that apply across the whole IT environment and support every application at once.",
+    "provNote": ""
+  },
+  {
+    "sub": "Audit of application controls and general controls",
+    "q": "An auditor finds that a pension application's own input validations are well designed, but that developers can change the production database directly without any change record. Why does this weaken the reliance the auditor can place on the application controls?",
+    "opts": {
+      "A": "Because the validations will run more slowly on a shared database",
+      "B": "Because weak general controls mean the application's logic and data can be altered outside the controlled process, so the application controls cannot be assumed to have operated as designed",
+      "C": "Because input validations are effective only in systems written in a compiled language",
+      "D": "Because the auditor is not permitted to examine database access rights"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Application controls sit on top of the general control environment, so if change and access controls are weak the auditor cannot conclude that the validations in force at the time of testing were the ones in force throughout the period. This dependency is the reason general controls are normally evaluated before application controls.",
+    "provNote": ""
+  },
+  {
+    "sub": "Third-party audit and certification in e-Governance",
+    "q": "Why is an e-governance application usually subjected to audit by an empanelled third party rather than only by the agency that developed it?",
+    "opts": {
+      "A": "Because the developing agency lacks the technical skill to test its own product",
+      "B": "Because third-party auditors charge less than internal teams",
+      "C": "Because the law requires that every line of code be reviewed twice",
+      "D": "Because an independent auditor with no stake in the delivery gives an objective opinion, whereas the builder reviewing its own work has an inherent conflict of interest"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Independence is what gives the audit opinion its value: a party that would be blamed for the defects it reports cannot be relied on to report them all. Cost and technical capability are not the reason, since developers are often highly skilled at testing.",
+    "provNote": ""
+  },
+  {
+    "sub": "Third-party audit and certification in e-Governance",
+    "q": "A department is told its portal must be re-audited even though it obtained a clean security audit certificate two years ago. What is the strongest justification for periodic re-audit?",
+    "opts": {
+      "A": "A security audit certifies the application as it stood on a particular date, and subsequent code changes, configuration drift and newly discovered vulnerabilities can invalidate that assurance",
+      "B": "Audit certificates are printed with an arbitrary expiry to generate revenue",
+      "C": "The auditors who issued the earlier certificate are no longer employed",
+      "D": "A department is required to change its auditor every year regardless of circumstances"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "An audit is a point-in-time assurance, and both the system and the threat landscape move on — a new release or a newly published vulnerability can undo the finding without anyone touching the certificate. Staff turnover at the audit firm has no bearing on whether the assurance is still valid.",
+    "provNote": ""
+  },
+  {
+    "sub": "STQC role and application security audit",
+    "q": "In the Indian government IT context, what is the role of STQC (Standardisation Testing and Quality Certification)?",
+    "opts": {
+      "A": "It allots domain names to government websites",
+      "B": "It provides testing, quality assurance and certification services for IT systems and products used by government, including conformance and security testing",
+      "C": "It funds e-governance projects in the states",
+      "D": "It issues digital signature certificates to government officials"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "STQC is the government body that carries out independent testing and certification of IT systems and products against defined quality, conformance and security requirements. Issuing digital signature certificates is the function of licensed certifying authorities, a quite separate arrangement.",
+    "provNote": ""
+  },
+  {
+    "sub": "STQC role and application security audit",
+    "q": "What does an application security audit of a citizen-facing portal principally examine?",
+    "opts": {
+      "A": "Whether the portal's colour scheme conforms to the department's branding",
+      "B": "Whether the portal's content is factually accurate and up to date",
+      "C": "Whether the application is exploitable through weaknesses such as injection, broken authentication, insecure session handling and improper access control",
+      "D": "Whether the portal's hosting contract has been competitively tendered"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "An application security audit tries to break the application the way an attacker would, testing input handling, authentication, session management and authorisation, and reports exploitable weaknesses for remediation. Branding, content accuracy and procurement are legitimate concerns but belong to entirely different reviews.",
+    "provNote": ""
+  },
+  {
+    "sub": "Audit trail and log review",
+    "q": "What property must an audit trail have if it is to serve as reliable audit evidence of who did what in a system?",
+    "opts": {
+      "A": "It must be readable only by the system administrator",
+      "B": "It must be deleted at the end of each working day to conserve storage",
+      "C": "It must be stored in the same table as the business data it describes",
+      "D": "It must be complete and protected from alteration or deletion by the very users whose actions it records"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "A trail that the acting user can edit or erase proves nothing, so integrity protection and retention are what turn logging into evidence — typically write-once storage or forwarding to a separate log server outside the user's control. Restricting readership to the administrator actually makes matters worse if the administrator's own actions are being examined.",
+    "provNote": ""
+  },
+  {
+    "sub": "Audit trail and log review",
+    "q": "During log review of a treasury application, an auditor notices several successful logins by a senior officer's account at hours when the officer was on recorded leave. What is the appropriate immediate conclusion?",
+    "opts": {
+      "A": "The audit trail is unreliable and should be excluded from the audit",
+      "B": "This is an exception requiring investigation, since it may indicate credential sharing or a compromised account",
+      "C": "The officer's leave record must have been entered incorrectly and no further action is needed",
+      "D": "The application's clock should simply be reset to the correct time"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Log review works by identifying exceptions against expected patterns and then following them up; activity on an account whose owner could not have been present is a classic indicator of shared or stolen credentials. Explaining the exception away, or discarding the trail, would abandon the control at exactly the point where it produced a result.",
+    "provNote": ""
+  },
+  {
+    "sub": "Audit findings, reporting and follow-up",
+    "q": "In an IT audit report, what is normally expected alongside each finding?",
+    "opts": {
+      "A": "The name of the individual employee to be penalised",
+      "B": "A rewritten version of the affected source code",
+      "C": "The criterion or control expected, the condition actually found, the resulting risk, and a recommendation with the auditee's response",
+      "D": "An estimate of the market value of the audited system"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "A well-structured finding states what should be, what is, why the gap matters and what should be done, together with management's reply, so that the reader can judge both the significance and the planned remedy. Naming individuals for punishment and rewriting code are outside the auditor's role.",
+    "provNote": ""
+  },
+  {
+    "sub": "Audit findings, reporting and follow-up",
+    "q": "Why is follow-up an essential part of the IT audit cycle rather than an optional courtesy?",
+    "opts": {
+      "A": "Because an audit is complete only when a certificate has been printed",
+      "B": "Because auditors are paid per visit made to the auditee",
+      "C": "Because the auditee is entitled to a second opinion on every finding",
+      "D": "Because the audit adds value only if agreed corrective action is actually implemented, and follow-up verifies implementation rather than accepting the promise of it"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Reporting a weakness does not remove it, so the cycle closes only when the auditor independently verifies that the agreed action has been carried out and the risk is reduced. Without that step, the same finding tends to reappear in successive audit reports.",
+    "provNote": ""
+  }
+]

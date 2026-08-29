@@ -1,0 +1,210 @@
+[
+  {
+    "sub": "IT Act Amendments, 2008",
+    "q": "The 2008 amendments to the Information Technology Act, 2000 changed the Act's approach to authentication of electronic records by:",
+    "opts": {
+      "A": "Introducing the technology-neutral concept of an electronic signature alongside the existing digital signature based on asymmetric cryptography",
+      "B": "Making biometric authentication compulsory for all government electronic records",
+      "C": "Withdrawing legal recognition from digital signatures based on public key cryptography",
+      "D": "Transferring the licensing of Certifying Authorities to the Reserve Bank of India"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "The amended Act ceased to recognise only one cryptographic technique and allowed reliable authentication techniques generally to be notified as electronic signatures, with the digital signature retained as one of them. Nothing in the amendment removed recognition from public key based digital signatures or changed who licenses Certifying Authorities."
+  },
+  {
+    "sub": "IT Act Amendments, 2008",
+    "q": "A significant framework introduced into the Information Technology Act by the 2008 amendments deals with:",
+    "opts": {
+      "A": "Compulsory registration of every website with the Controller of Certifying Authorities",
+      "B": "Limiting an intermediary's liability for third-party content, conditional on its observing prescribed due diligence and not initiating, selecting the receiver of, or modifying the transmission",
+      "C": "Vesting the Comptroller and Auditor General with power to audit privately owned data centres",
+      "D": "Requiring every State Government to constitute its own cyber appellate tribunal"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "The amended Act gives intermediaries a conditional exemption, often called safe harbour, for content they merely transmit or host, provided they meet due diligence obligations and do not interfere with the transmission. Website registration with the Controller and a state-level appellate tribunal in each State are not features of the Act."
+  },
+  {
+    "sub": "Electronic Signatures - IT Act Amendments",
+    "q": "Under the Information Technology Act as amended, the essential legal effect of a valid electronic signature affixed to an electronic record is that:",
+    "opts": {
+      "A": "The record becomes exempt from disclosure under the Right to Information Act",
+      "B": "Copyright in the record vests in the Certifying Authority that issued the certificate",
+      "C": "The record is authenticated by the subscriber, and where any law requires a document to be signed, that requirement is treated as satisfied for the record",
+      "D": "The record is automatically admitted in evidence with no further requirement of any kind"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "The signature provisions exist to make an electronic record legally equivalent to a signed paper document, so a statutory signature requirement can be met electronically. Admissibility in a proceeding is governed separately by evidence law, and a signature has no bearing on copyright ownership or on disclosure obligations."
+  },
+  {
+    "sub": "Electronic Signatures - IT Act Amendments",
+    "q": "In India's statutory scheme for digital and electronic signatures, the Controller of Certifying Authorities:",
+    "opts": {
+      "A": "Issues Digital Signature Certificates directly to each individual subscriber",
+      "B": "Adjudicates civil disputes between subscribers and parties relying on a certificate",
+      "C": "Custodies a national archive of every electronically signed record in the country",
+      "D": "Licenses, regulates and supervises the Certifying Authorities that issue Digital Signature Certificates"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "The Controller sits at the top of the trust hierarchy as the licensing and supervisory authority, while the licensed Certifying Authorities are the bodies that actually issue certificates to subscribers. No authority holds an archive of all signed records, and disputes go to the adjudicating and appellate machinery, not to the Controller."
+  },
+  {
+    "sub": "Indian Penal Code sections 503, 499, 500, 463, 470, 472, 420, 416, 417, 383, 405, 406, 408, 409, 204, 477, 193, 175",
+    "q": "In prosecuting a fraud committed through a government portal, penal offences such as cheating, forgery and criminal breach of trust are commonly charged alongside offences under the Information Technology Act because:",
+    "opts": {
+      "A": "The information technology law addresses the computer resource and the electronic means used, while the general penal law supplies the substantive offence against person or property that was actually committed",
+      "B": "The information technology law applies only to offences committed outside India",
+      "C": "The general penal law applies only where no computer resource is involved in the offence",
+      "D": "A charge under the information technology law cannot be framed unless the accused holds a public office"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "The two bodies of law address different elements of the same act, so investigators charge both: the technology statute for unauthorised access or tampering with a computer resource, the general penal law for the deception, forgery or misappropriation itself. Neither statute is confined to offences abroad, to non-computer settings, or to public servants."
+  },
+  {
+    "sub": "Indian Penal Code sections 503, 499, 500, 463, 470, 472, 420, 416, 417, 383, 405, 406, 408, 409, 204, 477, 193, 175",
+    "q": "Among the penal offences relevant to computer-related crime, what distinguishes criminal breach of trust from cheating?",
+    "opts": {
+      "A": "Cheating requires the property to have been entrusted to the accused, while criminal breach of trust does not",
+      "B": "In criminal breach of trust the property is lawfully entrusted to the accused and is then dishonestly misappropriated, whereas in cheating a deception induces the delivery of the property in the first place",
+      "C": "Cheating can be committed only by a public servant, while criminal breach of trust can be committed by anyone",
+      "D": "Criminal breach of trust applies only to immovable property, while cheating applies only to movable property"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "The dividing line is when the dishonest intention operates: at the moment of obtaining the property, which is cheating, or after a lawful entrustment, which is criminal breach of trust. Option A inverts the entrustment element, which belongs to criminal breach of trust and not to cheating."
+  },
+  {
+    "sub": "Indian Evidence Act",
+    "q": "The Information Technology Act, 2000 made consequential amendments to Indian evidence law principally in order to:",
+    "opts": {
+      "A": "Shift the burden of proof onto the accused in every computer-related offence",
+      "B": "Make oral evidence inadmissible wherever an electronic record of the same fact exists",
+      "C": "Recognise electronic records as admissible documentary evidence and prescribe the conditions on which computer output may be proved",
+      "D": "Provide that an electronic record is conclusive proof of the truth of its contents"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Before the amendments, evidence law was framed around paper documents, so electronic records were given the status of documentary evidence together with conditions governing when computer output may be proved. Admissibility is not the same as conclusiveness; the court still weighs an admitted electronic record like any other evidence."
+  },
+  {
+    "sub": "Indian Evidence Act",
+    "q": "Where a printout or other copy produced by a computer is tendered in a proceeding, Indian evidence law requires, in addition to the output itself:",
+    "opts": {
+      "A": "An affidavit sworn by the Controller of Certifying Authorities",
+      "B": "A forensic examiner's report from a Government examiner of electronic evidence in every case",
+      "C": "Production of the original storage device before the court in every case",
+      "D": "A certificate identifying the electronic record and the device that produced it, and stating that the output was produced in the ordinary course of activities"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "The certificate regime is what allows secondary electronic evidence to be admitted without dragging the original server or device into court, by vouching for the record, the device and the regularity of its production. That is precisely why option C is wrong: production of the original device is the requirement the certificate substitutes for."
+  },
+  {
+    "sub": "Intellectual Property laws: Trademark Act 1999",
+    "q": "Under the Trade Marks Act, 1999, the principal legal consequence of registering a mark, as against merely using it in trade, is that:",
+    "opts": {
+      "A": "The proprietor acquires a statutory right to sue for infringement, whereas an unregistered mark is protected only by the common law action for passing off",
+      "B": "Protection is extended to the source code of any software sold under the mark",
+      "C": "No other person anywhere in the world may use a similar mark for any goods or services",
+      "D": "The mark becomes patentable as an invention"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Registration converts a reputation-based common law claim into a statutory cause of action for infringement, which is easier to establish because the registration itself proves title to the mark. Passing off remains available for unregistered marks but requires proving goodwill, misrepresentation and damage."
+  },
+  {
+    "sub": "Intellectual Property laws: Trademark Act 1999",
+    "q": "A department launches a citizen service portal under a distinctive name and logo. Which statement correctly separates what trademark law protects from what copyright protects?",
+    "opts": {
+      "A": "Trademark protects the artistic drawing of the logo, while copyright protects the portal's name",
+      "B": "Trademark protects the name and logo as indicators of the source of the service, while copyright protects original expression such as the artwork and the portal's written content",
+      "C": "Trademark protects the software's functionality, while copyright protects the underlying database schema",
+      "D": "Trademark protects the domain name registration, while copyright protects the hosting contract"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "A trademark is about origin: it stops others from using a mark in a way that misleads users about whose service they are dealing with. Copyright is about expression and subsists independently in the artwork and text, which is why option A, swapping the two subject matters, is wrong."
+  },
+  {
+    "sub": "Other legal aspects",
+    "q": "What obligation does the Right to Information Act place on the design of a government system that holds citizen service records?",
+    "opts": {
+      "A": "Every record held must be published on the internet without exception",
+      "B": "Records must be destroyed at the earliest opportunity so that requests cannot be entertained",
+      "C": "Records must be maintained, catalogued and indexed so as to facilitate the right to information, with specified categories published on the public authority's own initiative",
+      "D": "Only records relating to financial transactions need to be retrievable on request"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "The Act imposes a records management duty as well as a disclosure duty, so a system must make its holdings findable and must support suo motu publication of prescribed categories. Exempt categories exist, so blanket publication is not required, and destroying records to defeat a request would defeat the Act's purpose."
+  },
+  {
+    "sub": "Other legal aspects",
+    "q": "Under the Digital Personal Data Protection Act, 2023, a department that determines the purpose and the means of processing citizens' personal data through its application is termed:",
+    "opts": {
+      "A": "The data principal",
+      "B": "The consent manager",
+      "C": "The data processor",
+      "D": "The data fiduciary"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "The entity deciding why and how personal data is processed is the data fiduciary, and the duties of notice, purpose limitation and security safeguards attach to it. The data principal is the individual whose data it is, and a processor merely processes on the fiduciary's behalf."
+  },
+  {
+    "sub": "Regulatory Framework under NeGP",
+    "q": "A core organising principle of the framework adopted for the National e-Governance Plan was:",
+    "opts": {
+      "A": "Centralised initiative with decentralised implementation, common core infrastructure and standards being defined centrally while line departments owned their Mission Mode Projects",
+      "B": "Complete centralisation of the design and the operation of all citizen services within a single national agency",
+      "C": "Full autonomy for every department, with no common standards or shared infrastructure",
+      "D": "Delivery entirely through private concessionaires, with no departmental ownership of any project"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "The plan set common standards and built shared infrastructure centrally while leaving each Mission Mode Project with the department that owns the service, since only that department can change its own processes and rules. Full centralisation would have stripped departments of that ownership, and full autonomy would have destroyed interoperability."
+  },
+  {
+    "sub": "Regulatory Framework under NeGP",
+    "q": "Under the capacity building arrangements of the National e-Governance Plan, the body positioned within a State to give it professional programme management and technical advisory support for e-Governance was the:",
+    "opts": {
+      "A": "State Data Centre operations committee",
+      "B": "State e-Governance Mission Team",
+      "C": "State Wide Area Network network operations centre",
+      "D": "District e-Governance society"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "The State e-Governance Mission Team supplies the specialist programme, technology and change management skills a State department usually lacks in-house, working alongside departmental project teams. The data centre and wide area network bodies run infrastructure; they do not provide programme advisory capacity."
+  },
+  {
+    "sub": "National Policy on Open Source",
+    "q": "The Government of India's policy on adoption of Open Source Software for e-Governance systems requires that:",
+    "opts": {
+      "A": "All existing proprietary systems be decommissioned within a fixed transition period",
+      "B": "Open source software be used only for non-critical internal applications",
+      "C": "Government organisations endeavour to adopt open source software, and that the reason be explicitly justified where a closed source solution is selected instead",
+      "D": "Every application developed for government be released to the public under a copyleft licence"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "The policy establishes a preference rather than a prohibition: departments must genuinely consider open source, and choosing closed source is permitted but must be reasoned and recorded. It neither forces the retirement of existing systems nor confines open source to low-criticality use."
+  },
+  {
+    "sub": "National Policy on Open Source",
+    "q": "When an open source option is compared with a proprietary product during an e-Governance procurement, the correct basis of comparison is:",
+    "opts": {
+      "A": "The licence fee alone, since that is the only cost element that differs between them",
+      "B": "The number of features listed in each product's brochure",
+      "C": "The size of the developer community around each product",
+      "D": "Total cost of ownership, covering integration, customisation, support, training and long-term maintenance as well as licensing"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Absence of a licence fee does not make an open source system free to run, because integration, skilled support, training and maintenance over the system's life usually dominate the cost. Community size is one input to the sustainability assessment but is not itself the basis of financial comparison."
+  }
+]

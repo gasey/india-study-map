@@ -1,0 +1,22 @@
+{
+  "paper": "TECH2",
+  "unit": "8",
+  "unitTitle": "Data Digitization",
+  "unitMarks": 5,
+  "perTarget": 2,
+  "brief": "tools/system-manager-build/GENERATE_BRIEF.md",
+  "targets": [
+    {
+      "sub": "Legacy data digitization approaches"
+    },
+    {
+      "sub": "Metadata and data standards"
+    },
+    {
+      "sub": "Scanning, OCR and document management"
+    },
+    {
+      "sub": "Data migration strategy"
+    }
+  ]
+}

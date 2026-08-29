@@ -1,0 +1,37 @@
+{
+  "paper": "TECH2",
+  "unit": "6",
+  "unitTitle": "Business Models and Public Private Partnership (PPP)",
+  "unitMarks": 20,
+  "perTarget": 2,
+  "brief": "tools/system-manager-build/GENERATE_BRIEF.md",
+  "targets": [
+    {
+      "sub": "PPP benefit to Citizens"
+    },
+    {
+      "sub": "Benefits to Private sector partner"
+    },
+    {
+      "sub": "Role of various partners"
+    },
+    {
+      "sub": "Role of Government in PPP"
+    },
+    {
+      "sub": "Role of Private partner"
+    },
+    {
+      "sub": "Management Contract"
+    },
+    {
+      "sub": "ASP Model - Application Service Provider Model"
+    },
+    {
+      "sub": "Requirement to launch services in a short time frame"
+    },
+    {
+      "sub": "BOO - Build Own Operate Model"
+    }
+  ]
+}

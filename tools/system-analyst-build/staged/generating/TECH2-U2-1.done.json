@@ -1,0 +1,106 @@
+[
+  {
+    "sub": "Key factors contributing to current environment",
+    "q": "Which feature of early department-led computerisation in India is most often identified as the key factor that later e-governance programmes had to correct?",
+    "opts": {
+      "A": "Excessive reliance on shared national infrastructure at the cost of departmental autonomy",
+      "B": "Isolated, department-specific islands of automation holding incompatible data with no interoperability",
+      "C": "Uniform adoption of one identical application by every department, which proved too inflexible",
+      "D": "Complete outsourcing of all government computing to a single national vendor"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Early computerisation produced vertical islands of automation, each department building its own application and data definitions, so records could not be shared and a citizen still had to visit every department separately. Later programmes therefore emphasised common infrastructure, shared standards and interoperability rather than more standalone systems."
+  },
+  {
+    "sub": "Key factors contributing to current environment",
+    "q": "Which of the following is a demand-side factor, rather than a supply-side factor, shaping the present environment for e-governance in India?",
+    "opts": {
+      "A": "The falling cost of storage and network bandwidth",
+      "B": "The availability of state data centres and state-wide area networks",
+      "C": "The maturity of open-source application and middleware stacks",
+      "D": "Citizens accustomed to instant private-sector digital services now expecting the same of government"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Demand-side factors describe what citizens and businesses now expect and are willing to use, and rising expectations set by private digital services are the classic example. Cheaper bandwidth, shared data centres and mature software stacks are supply-side enablers, describing what government is now able to build."
+  },
+  {
+    "sub": "Need for a more robust approach for E-Governance",
+    "q": "The principal argument for a structured, robust approach to e-governance projects, rather than treating them as ordinary IT purchases, is that",
+    "opts": {
+      "A": "such a project changes processes, roles and the legal basis of record-keeping, so handling it as a hardware-and-software purchase leaves the hardest part unmanaged",
+      "B": "computing hardware bought by government fails more often than hardware bought by private firms",
+      "C": "a structured approach removes the need to prepare a detailed project report",
+      "D": "information technology purchases in government are exempt from competitive tendering"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "The technology is usually the smallest risk in an e-governance project; the process redesign, statutory and record-keeping changes, capacity building and stakeholder resistance are what determine success, and a procurement-only approach never addresses them. A structured approach adds artefacts such as the detailed project report rather than dispensing with them."
+  },
+  {
+    "sub": "Need for a more robust approach for E-Governance",
+    "q": "In e-governance practice, the risk commonly called 'champion dependency' is that",
+    "opts": {
+      "A": "the private partner retains ownership of the application source code",
+      "B": "citizens use only one delivery channel and ignore the alternatives provided",
+      "C": "a project carried by the personal drive of a single officer stalls when that officer is transferred",
+      "D": "the project is designed around the requirements of the most advanced district alone"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Many e-governance initiatives run on the energy of one committed officer, and lose momentum on transfer because ownership was never institutionalised in a project structure, budget line and departmental mandate. Source-code ownership is a real but separate contractual risk, addressed through intellectual property clauses rather than through governance structures."
+  },
+  {
+    "sub": "E-Governance project life cycle",
+    "q": "In the standard e-governance project life cycle, which activity immediately precedes issuing a Request for Proposal to select a system integrator?",
+    "opts": {
+      "A": "User acceptance testing of the delivered application",
+      "B": "Preparation of the detailed project report, covering the to-be process design and the functional requirements",
+      "C": "Post-implementation operations and maintenance",
+      "D": "Rollout of the system to every district in the state"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "The requirements, to-be processes, scope and service levels must be settled in the detailed project report before they can be written into a Request for Proposal; otherwise the department is asking bidders to price an undefined system. Acceptance testing, rollout and maintenance all fall after the integrator has been selected."
+  },
+  {
+    "sub": "E-Governance project life cycle",
+    "q": "Why does a well-run e-governance project pilot the system in a limited set of offices before rolling it out statewide?",
+    "opts": {
+      "A": "A pilot removes the need for formal user acceptance testing later",
+      "B": "The vendor is paid only after the pilot, which lowers the total project cost",
+      "C": "A pilot can substitute for the detailed project report at a much lower cost",
+      "D": "A pilot exposes process, data-quality and training gaps at a scale where they can still be corrected cheaply"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "A pilot is a controlled test of the whole delivery chain, so defects in the redesigned process, in legacy data and in user readiness surface while only a few offices are affected and correction is still cheap. It is an addition to acceptance testing and to the detailed project report, not a replacement for either."
+  },
+  {
+    "sub": "Change management and communication",
+    "q": "In an e-governance project, change management is chiefly concerned with",
+    "opts": {
+      "A": "preparing people, roles and working practices for the new system so that the technology is actually used as designed",
+      "B": "controlling amendments to the software requirements after the contract has been signed",
+      "C": "maintaining version control over the application source code across releases",
+      "D": "the procedure for replacing failed hardware within the warranty period"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Change management addresses the human side of transition, covering role redefinition, capacity building, incentives and resistance, because a technically sound system still fails if staff work around it. Controlling amendments to signed requirements is change control, a configuration and contract discipline that shares the word but not the meaning."
+  },
+  {
+    "sub": "Change management and communication",
+    "q": "The communication plan for an e-governance rollout exists primarily to",
+    "opts": {
+      "A": "satisfy the statutory advertising requirement that applies to public tenders",
+      "B": "document the escalation matrix agreed with the system integrator",
+      "C": "tell each stakeholder group, in terms that matter to that group, what will change, when it changes, and what is expected of them",
+      "D": "record the minutes of the project steering committee for audit purposes"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "A communication plan is segmented by stakeholder because frontline staff, supervisory officers, citizens and the vendor each need different messages, at different times, through different channels. Tender advertising, escalation matrices and steering-committee minutes are procurement and project-governance records that reach only a narrow internal audience."
+  }
+]

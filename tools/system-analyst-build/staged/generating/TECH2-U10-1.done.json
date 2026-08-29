@@ -1,0 +1,236 @@
+[
+  {
+    "sub": "Information Security Technology and Operational controls",
+    "q": "Which of the following is an operational control rather than a technical control?",
+    "opts": {
+      "A": "Enforcing role-based access rights inside the application",
+      "B": "A documented procedure requiring an employee's accounts to be disabled on the day of transfer or separation",
+      "C": "Encrypting the database at rest",
+      "D": "A firewall rule set restricting inbound traffic to the application server"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Operational controls are carried out primarily by people following defined procedures — joiner-mover-leaver handling, awareness training, media handling, physical access registers — whereas technical controls are enforced by the technology itself. Role-based access, encryption and firewall rules are all mechanisms configured in software or hardware."
+  },
+  {
+    "sub": "Information Security Technology and Operational controls",
+    "q": "A department sends backup media of a citizen database to an off-site store. Which technical control most directly protects the confidentiality of that data if the media is lost in transit?",
+    "opts": {
+      "A": "Encrypting the backup media so that the contents are unreadable without the key",
+      "B": "Signing a confidentiality clause with the transport contractor",
+      "C": "Installing fire suppression at the off-site store",
+      "D": "Maintaining a register of media movements"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Encryption is the only one of these that still protects the data after the media has physically left the department's custody, because a lost tape without the key discloses nothing. A contractual clause and a movement register are useful administrative controls but they do not prevent someone who obtains the tape from reading it."
+  },
+  {
+    "sub": "Analysis tools",
+    "q": "What does a vulnerability scanner do when run against the servers of an e-governance application?",
+    "opts": {
+      "A": "It blocks malicious traffic to those servers in real time",
+      "B": "It encrypts communication between the servers and their clients",
+      "C": "It probes the hosts and services and reports known weaknesses such as missing patches, weak configurations and exposed services",
+      "D": "It restores the servers from the most recent clean backup"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "A vulnerability scanner compares what it finds on a host against a database of known flaws and insecure settings, and produces a prioritised list of weaknesses to be remediated. Blocking traffic in real time is the job of a firewall or intrusion prevention system, which acts on live traffic rather than assessing configuration."
+  },
+  {
+    "sub": "Analysis tools",
+    "q": "How does static application security testing differ from dynamic application security testing?",
+    "opts": {
+      "A": "Static testing inspects the application's source or binary code without running it, while dynamic testing exercises the running application and observes how it responds",
+      "B": "Static testing is performed on the production system and dynamic testing only on a test system",
+      "C": "Static testing checks hardware, while dynamic testing checks software",
+      "D": "Static testing is done by an external auditor and dynamic testing by the development team"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Static analysis reads the code itself and can point to the exact line where an unsafe pattern occurs, so it can be applied early in development; dynamic analysis attacks a running instance and therefore finds problems that only appear at runtime, such as configuration and authentication flaws. Who performs the test and on which environment are separate questions."
+  },
+  {
+    "sub": "Monitoring Tools",
+    "q": "What is the primary function of a Security Information and Event Management (SIEM) system?",
+    "opts": {
+      "A": "To scan files on end-user machines for malware signatures",
+      "B": "To collect logs and events from many different systems, correlate them centrally and raise alerts on patterns that suggest an incident",
+      "C": "To take encrypted backups of application databases",
+      "D": "To manage the issue and renewal of digital certificates"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "A SIEM's value is aggregation plus correlation: individually harmless events from a firewall, a server and an application can together indicate an attack, and only a central correlating view will surface that. Malware scanning on endpoints is antivirus or endpoint detection functionality, which feeds a SIEM rather than being it."
+  },
+  {
+    "sub": "Monitoring Tools",
+    "q": "What is the essential difference between an intrusion detection system and an intrusion prevention system?",
+    "opts": {
+      "A": "An intrusion detection system works on wired networks and an intrusion prevention system on wireless networks",
+      "B": "An intrusion detection system inspects only outbound traffic and an intrusion prevention system only inbound traffic",
+      "C": "An intrusion detection system observes traffic and raises alerts, whereas an intrusion prevention system is placed in the traffic path and can drop or block the offending traffic itself",
+      "D": "An intrusion detection system requires signatures, whereas an intrusion prevention system never does"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "The distinction is between passive detection with alerting and inline enforcement that actively stops the traffic; that is why an inline prevention device carries a risk of blocking legitimate traffic on a false positive. Both can use signature-based and anomaly-based methods, and neither is restricted by medium or direction."
+  },
+  {
+    "sub": "Selection of Baseline Security Controls",
+    "q": "What is meant by a baseline set of security controls for an organisation's systems?",
+    "opts": {
+      "A": "The controls that were in place when the system was first commissioned",
+      "B": "The controls that a vendor supplies by default in its product",
+      "C": "The only controls a system is permitted to have, so that no further controls may be added",
+      "D": "A minimum mandatory set of controls applied to every system of a given category, to which additional controls are added on the basis of specific risk"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "A baseline is a floor, not a ceiling: it saves every project from re-deriving elementary protections such as patching, access control and logging, and a risk assessment then adds whatever the particular system needs on top. Treating the baseline as an exhaustive list would defeat the risk-based part of the method."
+  },
+  {
+    "sub": "Selection of Baseline Security Controls",
+    "q": "Two state systems are being commissioned — a public tourism information portal and a social welfare system holding beneficiary personal and bank details. What should mainly determine that they receive different baselines of security controls?",
+    "opts": {
+      "A": "The sensitivity and criticality of the information each holds and the harm that its compromise would cause",
+      "B": "The programming language in which each system is written",
+      "C": "The number of pages in each system's user interface",
+      "D": "The order in which the two projects were sanctioned"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Baseline selection follows from information classification and business criticality, so a system holding sensitive personal and financial data attracts stronger authentication, encryption, logging and monitoring than a public information portal. Implementation technology and project sequence carry no information about the consequences of a compromise."
+  },
+  {
+    "sub": "Impact on Organization due to Breaches of Information Security",
+    "q": "A ransomware attack encrypts the database of a state treasury application and the department finds that its backups were never test-restored. What is the most immediate organisational impact?",
+    "opts": {
+      "A": "A rise in the department's electricity consumption",
+      "B": "Suspension of the payment and disbursement services the application supports, until the data can be recovered or rebuilt",
+      "C": "The need to retrain staff on a new user interface",
+      "D": "An increase in the cost of the department's internet bandwidth"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Loss of availability of the data on which the service runs halts the service itself, and an untested backup means the recovery time is unknown at the moment it matters most. Retraining and running costs are downstream concerns that do not describe the immediate operational damage."
+  },
+  {
+    "sub": "Impact on Organization due to Breaches of Information Security",
+    "q": "Apart from the direct cost of recovery, why is a widely publicised data breach especially damaging to an e-governance programme?",
+    "opts": {
+      "A": "It forces the department to change its network topology",
+      "B": "It invalidates the department's software licences",
+      "C": "It automatically transfers ownership of the system to the vendor",
+      "D": "Loss of public confidence pushes citizens back to offline channels, undermining the adoption on which the programme's benefits depend, and invites legal and regulatory consequences"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "An e-governance system delivers value only if citizens are willing to use it, so reputational damage translates directly into reduced take-up, alongside liability, oversight scrutiny and the cost of remediation. Licences and system ownership are unaffected by a security incident."
+  },
+  {
+    "sub": "Impact on Individual due to Breaches of Information Security",
+    "q": "A leak from a departmental database exposes citizens' names, addresses, dates of birth and identity numbers. Which harm to those individuals is most characteristic of such a breach?",
+    "opts": {
+      "A": "Identity theft, in which someone impersonates the individual to obtain benefits, credit or documents in that person's name",
+      "B": "A reduction in the individual's internet connection speed",
+      "C": "The individual's inability to log in to unrelated government websites",
+      "D": "An increase in the department's hardware maintenance cost"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Exposure of a coherent set of identity attributes gives an attacker exactly what is needed to pass identity checks as the victim, which is why such leaks are followed by fraudulent applications and account takeovers. The last option describes a cost to the organisation, not a harm to the individual."
+  },
+  {
+    "sub": "Impact on Individual due to Breaches of Information Security",
+    "q": "Why is the exposure of an individual's biometric data or permanent identity attributes generally regarded as more serious than the exposure of a password?",
+    "opts": {
+      "A": "Biometric data occupies more storage space than a password",
+      "B": "Passwords are protected by law while biometrics are not",
+      "C": "A compromised password can be changed, but a fingerprint, iris pattern or date of birth cannot be reissued, so the exposure and its risk are effectively permanent",
+      "D": "Biometric data is always stored in plain text whereas passwords are always hashed"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Revocability is the key distinction: a credential that can be reset limits the damage to the period before the reset, whereas an immutable attribute stays compromised for the individual's lifetime. Storage size is irrelevant, and how each is stored depends on the implementation rather than on the type of data."
+  },
+  {
+    "sub": "Security Control organization and structure",
+    "q": "In a government department's security organisation, what is the primary role of the Chief Information Security Officer?",
+    "opts": {
+      "A": "To develop and maintain the application software used by the department",
+      "B": "To own the information security programme — policy, risk assessment, awareness, incident response and reporting to senior management",
+      "C": "To operate the departmental helpdesk and resolve user tickets",
+      "D": "To negotiate the department's hardware procurement contracts"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "The CISO is accountable for the security programme as a whole and reports on its state to leadership, which is why the role is kept distinct from day-to-day IT delivery. Building applications and running the helpdesk are IT operations functions whose work the CISO oversees but does not perform."
+  },
+  {
+    "sub": "Security Control organization and structure",
+    "q": "Why should the officer who administers a system's security settings not also be the sole reviewer of that system's security logs?",
+    "opts": {
+      "A": "Because reviewing logs requires a different software licence",
+      "B": "Because the administrator would not have technical access to the log files",
+      "C": "Because log review consumes time that administrators do not have",
+      "D": "Because segregation of duties requires that misuse or error by the administrator be capable of detection by someone independent of the administrator"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "If the same person both sets the controls and judges the evidence of their use, there is no independent check on that person's own actions, and the log ceases to be a control over privileged activity. The reason is one of independence, not of licensing, access or workload."
+  },
+  {
+    "sub": "Information Security Risk Management Process",
+    "q": "In an information security risk management process, which activity immediately follows the identification of risks?",
+    "opts": {
+      "A": "Risk analysis — estimating the likelihood of each identified risk and the impact if it materialises, so that the level of risk can be determined",
+      "B": "Certification of the organisation against a management system standard",
+      "C": "Publication of the risk register on the department's website",
+      "D": "Immediate procurement of security products for every identified risk"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Risks are first identified, then analysed for likelihood and consequence, then evaluated against risk acceptance criteria, and only then treated — the analysis step is what allows scarce effort to be directed at the risks that matter. Buying a product for every identified risk skips both the analysis and the evaluation on which proportionate treatment depends."
+  },
+  {
+    "sub": "Information Security Risk Management Process",
+    "q": "Which statement correctly expresses what an information security risk is?",
+    "opts": {
+      "A": "Any error reported by a user of the system",
+      "B": "The potential that a threat exploits a vulnerability in an asset and thereby causes harm to the organisation",
+      "C": "The total number of unpatched systems in the organisation",
+      "D": "The financial cost of the security controls the organisation has deployed"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Risk brings together three elements — an asset of value, a vulnerability in it and a threat capable of exploiting that vulnerability — expressed as the likelihood and consequence of harm. A count of unpatched systems measures exposure but says nothing on its own about likelihood or impact."
+  },
+  {
+    "sub": "Information Security Risk Treatment",
+    "q": "A department takes out a cyber insurance policy to cover part of its potential losses from a data breach. Which risk treatment option does this represent?",
+    "opts": {
+      "A": "Risk avoidance",
+      "B": "Risk acceptance",
+      "C": "Risk modification by applying controls",
+      "D": "Risk sharing, in which part of the consequence is transferred to another party"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Insurance and outsourcing share or transfer the financial consequence of a risk to a third party without reducing its likelihood, which is why it is classed as sharing rather than modification. Avoidance would mean not undertaking the activity at all, and acceptance would mean bearing the loss internally."
+  },
+  {
+    "sub": "Information Security Risk Treatment",
+    "q": "After the selected controls have been implemented, the risk that still remains is known as which of the following, and how should it be handled?",
+    "opts": {
+      "A": "Inherent risk, which must be recalculated by the vendor",
+      "B": "Residual risk, which should be formally reviewed and accepted by the responsible risk owner",
+      "C": "Transferred risk, which becomes the auditor's responsibility",
+      "D": "Zero risk, since implemented controls eliminate the exposure entirely"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "No practical set of controls reduces risk to nil, so what remains after treatment is residual risk and it must be explicitly accepted at the right level of authority rather than left unstated. Inherent risk is the level before any controls are applied, and an auditor evaluates the treatment rather than owning the risk."
+  }
+]

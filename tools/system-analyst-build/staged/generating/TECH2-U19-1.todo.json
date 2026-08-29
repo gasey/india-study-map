@@ -1,0 +1,19 @@
+{
+  "paper": "TECH2",
+  "unit": "19",
+  "unitTitle": "Impact Assessment of e-Governance Projects",
+  "unitMarks": 5,
+  "perTarget": 2,
+  "brief": "tools/system-manager-build/GENERATE_BRIEF.md",
+  "targets": [
+    {
+      "sub": "Dimensions of impact: citizen, government, society"
+    },
+    {
+      "sub": "Cost of access and time saved measures"
+    },
+    {
+      "sub": "eTaal, and national impact assessment studies"
+    }
+  ]
+}

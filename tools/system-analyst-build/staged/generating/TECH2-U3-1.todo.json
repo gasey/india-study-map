@@ -1,0 +1,37 @@
+{
+  "paper": "TECH2",
+  "unit": "3",
+  "unitTitle": "e-Governance Vision & Strategy Development",
+  "unitMarks": 10,
+  "perTarget": 2,
+  "brief": "tools/system-manager-build/GENERATE_BRIEF.md",
+  "targets": [
+    {
+      "sub": "Understanding e-Governance strategy"
+    },
+    {
+      "sub": "Key elements in e-Governance strategy"
+    },
+    {
+      "sub": "e-Governance objectives"
+    },
+    {
+      "sub": "Identifying stakeholders and services"
+    },
+    {
+      "sub": "Delivery channel"
+    },
+    {
+      "sub": "Implementation approach and plan: Big bang"
+    },
+    {
+      "sub": "Implementation approach and plan: Phased rollout"
+    },
+    {
+      "sub": "Implementation approach and plan: Parallel adoption"
+    },
+    {
+      "sub": "Programme management framework"
+    }
+  ]
+}

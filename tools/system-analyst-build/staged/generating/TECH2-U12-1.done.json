@@ -1,0 +1,158 @@
+[
+  {
+    "sub": "Understanding licensing models for application and system software",
+    "q": "What distinguishes a perpetual software licence from a subscription licence?",
+    "opts": {
+      "A": "A perpetual licence gives the right to keep using a specified version indefinitely, with support and upgrades usually bought separately as annual maintenance",
+      "B": "A perpetual licence transfers ownership of the software's copyright to the purchasing department",
+      "C": "A perpetual licence allows the department to redistribute the software to other departments at no cost",
+      "D": "A perpetual licence includes all future major versions for the life of the product at no additional charge"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "A perpetual licence buys an indefinite right to use the version purchased; continued support, patches and version upgrades are normally a separate recurring maintenance charge, whereas a subscription bundles use and support but lapses when payment stops. It never transfers copyright — the vendor remains the owner and the department is only a licensee."
+  },
+  {
+    "sub": "Understanding licensing models for application and system software",
+    "q": "A database product deployed in a State Data Centre is licensed on a per-core basis. What drives the licence cost under this model?",
+    "opts": {
+      "A": "The number of citizens registered on the application",
+      "B": "The number of processor cores on the servers the software is installed and running on, irrespective of how many people use it",
+      "C": "The number of users simultaneously logged in to the application",
+      "D": "The number of transactions the application processes in a year"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Per-core (or per-processor) licensing prices the compute capacity made available to the software, so adding cores or moving to a larger server raises cost even if the user population is unchanged. Counting simultaneous logins is concurrent-user licensing, a different metric altogether."
+  },
+  {
+    "sub": "Understanding licensing models for application and system software",
+    "q": "A directorate has 600 employees holding accounts on an application, but never more than about 150 are logged in at the same time. Which licensing metric would be billed on the 150 rather than the 600?",
+    "opts": {
+      "A": "Named-user (per-seat) licensing",
+      "B": "Per-core licensing",
+      "C": "Concurrent-user (floating) licensing",
+      "D": "Perpetual site licence"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Concurrent-user or floating licensing counts the maximum number of sessions active at one time, so a shift-working or occasional-use office pays for peak simultaneous demand rather than headcount. Named-user licensing does the opposite — every person who has an account consumes a licence whether or not they log in."
+  },
+  {
+    "sub": "Revenue generation options in e-Governance applications",
+    "q": "In the Common Service Centre model of rural service delivery, how is the Village Level Entrepreneur principally remunerated for delivering a government e-service?",
+    "opts": {
+      "A": "A monthly salary paid by the State IT department",
+      "B": "A share of the taxes collected from the village",
+      "C": "An annual capital grant paid individually to each entrepreneur",
+      "D": "A service charge per transaction for each service delivered, at rates notified by government"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "The centre operator is an entrepreneur, not an employee: income comes from a per-transaction service charge on each service rendered, with the permissible charge for government services fixed by the department so citizens are not overcharged. No salary relationship exists, which is precisely why service volume and service mix determine centre viability."
+  },
+  {
+    "sub": "Revenue generation options in e-Governance applications",
+    "q": "A state land-records portal lets a citizen view a single record free of charge, but charges banks and law firms for bulk record access through a paid interface. This revenue design is best described as:",
+    "opts": {
+      "A": "Cross-subsidy through differential pricing of the same underlying information service",
+      "B": "A build-own-operate-transfer concession",
+      "C": "Recovery of liquidated damages from data users",
+      "D": "Viability gap funding provided by commercial users"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "The same data asset is priced differently by class of user — free for the citizen entitlement, priced for high-volume commercial exploitation — so commercial users effectively subsidise citizen access. It is not a concession arrangement, since the government continues to own and operate the portal itself."
+  },
+  {
+    "sub": "Revenue generation options in e-Governance applications",
+    "q": "When an online government service levies a 'convenience fee' on top of the statutory fee for the service, what is that fee intended to cover?",
+    "opts": {
+      "A": "The department's profit margin on the service",
+      "B": "The cost of operating the electronic delivery channel — payment gateway charges, portal operation and maintenance",
+      "C": "A replacement for the statutory fee, which is waived for online applicants",
+      "D": "The capital cost of building the State Data Centre"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "The statutory fee is prescribed by law for the service itself and cannot be altered by the delivery channel; the convenience fee is a separate, channel-specific charge that funds the recurring cost of running the electronic route, including gateway and aggregator charges. It supplements rather than replaces the statutory fee."
+  },
+  {
+    "sub": "Strategic considerations in an e-Governance application",
+    "q": "Why is business process re-engineering treated as a strategic prerequisite rather than an optional refinement when an existing manual government service is computerised?",
+    "opts": {
+      "A": "Because software cannot be procured until the existing process has been abolished entirely",
+      "B": "Because re-engineering is the only way to reduce the licence cost of the application software",
+      "C": "Because automating an unreformed process merely makes the existing delays and redundant approvals faster to reproduce, without improving the service to the citizen",
+      "D": "Because departmental rules forbid running a manual and an electronic process at the same time"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Encoding an unexamined workflow into software freezes its redundant approval hops and hand-offs into the system, so the citizen's turnaround time barely improves while the process becomes harder to change. Re-engineering first — removing steps, merging forms, cutting documents demanded — is what converts computerisation into a service improvement."
+  },
+  {
+    "sub": "Strategic considerations in an e-Governance application",
+    "q": "A state mandates common data-exchange and metadata standards across all departmental e-governance applications. What is the principal strategic gain?",
+    "opts": {
+      "A": "It reduces the storage requirement of each department's database",
+      "B": "It removes the need for departments to run separate application software",
+      "C": "It guarantees that all departments will use the same vendor",
+      "D": "Applications built by different vendors at different times can exchange data without bespoke point-to-point integration for every new pair of systems"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Without shared standards, connecting n systems tends toward a custom interface for every pair, and each new application multiplies integration cost and creates dependence on whoever built the earlier one. Standards are about interoperability across independently procured systems, not about consolidating departments onto one product or one vendor."
+  },
+  {
+    "sub": "Strategic considerations in an e-Governance application",
+    "q": "A department wants an electronically signed certificate issued by its portal to fully replace the signed-and-stamped paper certificate. Beyond building the software, what strategic step does this require?",
+    "opts": {
+      "A": "Amending the governing rules and procedures so that the digitally signed electronic output is itself recognised as the valid instrument for the service",
+      "B": "Obtaining a higher bandwidth link to the State Data Centre",
+      "C": "Migrating the department's database to open source software",
+      "D": "Appointing a system integrator with prior experience of the same service in another state"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "If departmental rules still require a physically signed certificate, verifying offices will keep demanding paper and the electronic output remains a convenience copy, leaving the citizen with the same visits as before. Legal and procedural backing for the electronic instrument is what makes an end-to-end online service actually end-to-end; bandwidth and vendor choice do nothing for this."
+  },
+  {
+    "sub": "Business model for e-Governance applications",
+    "q": "Under a Build-Own-Operate-Transfer arrangement for a state e-governance service, what is the position during the concession period?",
+    "opts": {
+      "A": "The government owns the assets from day one and pays the private partner a monthly rent for operating them",
+      "B": "The private partner finances, owns and operates the assets and recovers its investment over the concession period, transferring the assets to government at the end of the term",
+      "C": "The private partner operates assets that the government has purchased, and never takes ownership at any stage",
+      "D": "Ownership is shared equally between the government and the private partner throughout the contract"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "The defining feature of BOOT is that the private partner puts up the capital and holds ownership while it earns back its investment from revenues over the concession, with a defined transfer of assets to government at expiry. Where the government owns the assets from the start and only outsources running them, the arrangement is an operate-and-maintain or managed-services contract, not BOOT."
+  },
+  {
+    "sub": "Business model for e-Governance applications",
+    "q": "In a public-private partnership e-governance project, projected user charges are not enough to make the project commercially viable for a bidder. The capital grant government provides to bridge that shortfall is known as:",
+    "opts": {
+      "A": "Liquidated damages",
+      "B": "Earnest money deposit",
+      "C": "Viability gap funding",
+      "D": "Performance bank guarantee"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Viability gap funding is the capital support extended so that a project with public value but inadequate commercial returns can still attract private investment. The other three are contractual security and remedy instruments — bid security, performance security and compensation for default — none of which improve a project's underlying financial viability."
+  },
+  {
+    "sub": "Business model for e-Governance applications",
+    "q": "Which payment model pays the vendor for each successfully delivered service rather than for the hardware, licences and manpower it has deployed?",
+    "opts": {
+      "A": "A time-and-materials engagement",
+      "B": "A cost-plus-fixed-fee contract",
+      "C": "An annual maintenance contract with a fixed monthly charge",
+      "D": "A transaction-based payment model"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Paying per successful transaction moves utilisation and availability risk to the vendor: idle capacity and downtime directly reduce its earnings, so its incentives align with keeping the service usable. Time-and-materials and cost-plus models pay for effort and inputs regardless of how many citizens were actually served."
+  }
+]

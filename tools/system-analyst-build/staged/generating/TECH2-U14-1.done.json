@@ -1,0 +1,158 @@
+[
+  {
+    "sub": "Key principles for change management design",
+    "q": "A principle common to change management frameworks used on e-Governance programmes is that the change effort should be:",
+    "opts": {
+      "A": "Initiated at the project conception stage and run in parallel with the technical implementation",
+      "B": "Started only after user acceptance testing is signed off, so that the system being described is final",
+      "C": "Delegated wholly to the implementation agency as one of its contractual deliverables",
+      "D": "Confined to the department's IT cell, since it is the cell that will operate the new system"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Change management is designed alongside the solution because the process, role and structural changes it must prepare people for are decided during design, not at rollout. Waiting for UAT sign-off leaves no time to address resistance, and by then the redesigned workflows are already frozen."
+  },
+  {
+    "sub": "Key principles for change management design",
+    "q": "Change management design principles insist on visible ownership by the senior-most administrative authority of the department rather than by the project manager alone. The main reason is that:",
+    "opts": {
+      "A": "The sponsor is the officer who countersigns the implementation agency's invoices",
+      "B": "Sponsors are expected to attend every user training session personally",
+      "C": "Redesigned workflows alter roles and accountabilities that only the department's own authority can sanction",
+      "D": "Financial rules require the senior-most officer to chair the technical evaluation committee"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "An e-Governance project changes who does what and who is answerable for it, and those are departmental decisions no project manager can make stick. Invoice signing and tender committee roles are procurement duties, not the reason sponsorship matters to change acceptance."
+  },
+  {
+    "sub": "Understanding scope of change in an e-Governance project",
+    "q": "An assessment of the scope of change in an e-Governance project that covers only the new application and the hardware to be deployed is regarded as incomplete because:",
+    "opts": {
+      "A": "Computing hardware depreciates faster than application software does",
+      "B": "Application licences normally have to be renewed every year",
+      "C": "Users generally prefer manual registers to digital records",
+      "D": "The project also changes work processes, job roles and often the departmental rules that govern them"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Scope of change is assessed across technology, process, people and the policy or procedural rules framing them; leaving out the last three understates what users are actually being asked to absorb. Licence renewal and depreciation are asset management concerns and say nothing about the extent of organisational change."
+  },
+  {
+    "sub": "Understanding scope of change in an e-Governance project",
+    "q": "Digitising an existing manual form without altering the underlying procedure, approval chain or roles is best described as which magnitude of change, compared with a project that re-engineers the procedure itself?",
+    "opts": {
+      "A": "Transformational change, because the medium of the record has changed",
+      "B": "Incremental change, since the process logic and the roles remain as they were",
+      "C": "Disruptive change, because staff must now learn new software",
+      "D": "Structural change, because additional server capacity is introduced"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Magnitude of change is judged by how far process logic, roles and accountability shift, not by how new the technology feels. Learning a data entry screen is a training need; it does not by itself make the change transformational."
+  },
+  {
+    "sub": "Identify enablers and disablers to change",
+    "q": "In a change readiness assessment for a department moving its services online, which of the following would normally be recorded as a disabler rather than an enabler?",
+    "opts": {
+      "A": "A procedural rule that still requires a physical signature on the paper file before the case is closed",
+      "B": "A budget line already sanctioned for capacity building activities",
+      "C": "A department head who personally chairs the fortnightly project review",
+      "D": "Staff who already use a departmental email system in their daily work"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "A surviving requirement for wet-ink signature forces the office to keep running the paper process in parallel, which is the classic procedural disabler of an online workflow. Sanctioned training funds, active leadership review and existing digital habits all lower the cost of change and are enablers."
+  },
+  {
+    "sub": "Identify enablers and disablers to change",
+    "q": "The chief practical purpose of separately listing enablers and disablers early in an e-Governance project is to:",
+    "opts": {
+      "A": "Decide which of the shortlisted bidders should be awarded the implementation contract",
+      "B": "Compute the liquidated damages that would become payable if the project is delayed",
+      "C": "Allow a specific intervention to be planned against each disabler while existing enablers are deliberately leveraged, before rollout",
+      "D": "Fix the number of servers to be provisioned in the state data centre"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "The list is an input to the change plan: each disabler is matched to an owner and a countermeasure, and each enabler is used rather than left idle. Bidder selection, damages and sizing are procurement and technical decisions that the enabler-disabler analysis does not drive."
+  },
+  {
+    "sub": "Build a change champion network",
+    "q": "Why is a change champion network for a state-wide e-Governance rollout usually drawn from staff spread across districts, offices and grades rather than constituted as a single team at headquarters?",
+    "opts": {
+      "A": "Because headquarters staff are generally too senior to be sent for training",
+      "B": "Because the implementation agency's contract prescribes a minimum headcount per district",
+      "C": "Because a distributed team reduces the travelling allowance charged to the project",
+      "D": "Because a peer in the same office and grade carries more credibility with users than a headquarters or vendor team does"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Acceptance travels through peer influence, so a champion who shares the users' office, grade and daily constraints is heard where an outside team is not. Travel cost and contractual headcount are incidental and would not by themselves justify the network structure."
+  },
+  {
+    "sub": "Build a change champion network",
+    "q": "When a change champion network is being constituted, the most appropriate basis for selecting its members is:",
+    "opts": {
+      "A": "Position in the departmental seniority list",
+      "B": "Informal influence among colleagues combined with genuine willingness to support the change",
+      "C": "Possession of a formal qualification in information technology",
+      "D": "Physical proximity of the member's office to the project management unit"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Champions work through credibility and persuasion, so influence with peers and personal buy-in matter more than rank or technical credentials. Nominating by seniority tends to produce members who neither believe in the change nor have informal reach."
+  },
+  {
+    "sub": "Role of a change champion",
+    "q": "Besides carrying project messages down to colleagues, the other essential function of a change champion in an e-Governance project is to:",
+    "opts": {
+      "A": "Carry ground-level concerns, workarounds and sources of resistance back to the project team",
+      "B": "Certify the implementation agency's payment milestones",
+      "C": "Draft the technical specifications for the application modules",
+      "D": "Conduct the statutory financial audit of the project accounts"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "The champion role is a two-way channel: it is the upward flow of ground realities that lets the project team correct design and communication before resistance hardens. Payment certification, specification writing and audit belong to project management, technical and finance functions respectively."
+  },
+  {
+    "sub": "Role of a change champion",
+    "q": "How does the role of a change champion differ from that of a departmental master trainer?",
+    "opts": {
+      "A": "The champion delivers classroom sessions, while the master trainer only prepares the courseware",
+      "B": "The champion is engaged by the implementation agency, while the master trainer is a departmental employee",
+      "C": "The champion operates only during the pilot phase, while the master trainer operates only after go-live",
+      "D": "The champion works on acceptance, motivation and sustained use, while the master trainer transfers specific operating skills"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "A master trainer answers 'how do I do this', whereas a champion addresses 'why should I do this at all' and keeps the new way in use once training is over. Both are usually departmental staff and both operate across phases, so employer and timing do not separate the roles."
+  },
+  {
+    "sub": "Communications Management",
+    "q": "A communications plan for an e-Governance rollout is considered adequate only when, for each identified stakeholder group, it specifies:",
+    "opts": {
+      "A": "The number of press advertisements to be released in each district",
+      "B": "The budget head from which publicity expenditure will be met",
+      "C": "The message, the channel, the frequency and the person responsible, together with a defined route for feedback",
+      "D": "The languages in which the application's user interface will be made available"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Communications management is stakeholder-wise planning of what is said, through what medium, how often, by whom, and how responses come back. Advertisement counts and budget heads are execution details, and interface language is a solution design decision."
+  },
+  {
+    "sub": "Communications Management",
+    "q": "Change management practice recommends beginning communication early in an e-Governance project even when many implementation details are still unsettled, chiefly because:",
+    "opts": {
+      "A": "Early communication is what discharges the department's proactive disclosure duty",
+      "B": "In the absence of official information, staff fill the vacuum with rumour, which is far harder to correct later",
+      "C": "It allows the tender for the implementation agency to be issued sooner",
+      "D": "It reduces the number of training days that will eventually have to be funded"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Uncertainty about job security and workload generates speculation the moment a project becomes visible, and a correction issued after a rumour has settled costs far more effort than an early honest message. Disclosure obligations and tender timelines are unrelated to the timing logic of internal change communication."
+  }
+]

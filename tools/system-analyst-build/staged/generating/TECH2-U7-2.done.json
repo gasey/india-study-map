@@ -1,0 +1,28 @@
+[
+  {
+    "sub": "e-Governance related Policies",
+    "q": "What does the National Data Sharing and Accessibility Policy require of a government department?",
+    "opts": {
+      "A": "To classify the data it generates as open or restricted, and to publish the open, non-sensitive data in machine-readable form through the common government open-data platform",
+      "B": "To disclose any data it holds, including personal data, to any citizen who asks for it",
+      "C": "To move all of its data on to a single national server maintained centrally",
+      "D": "To obtain prior sanction before purchasing any commercial database"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "The policy turns on a classification step: data generated with public funds is presumed shareable unless it falls into a restricted category, and what is shareable must be published in a form that machines can consume rather than as scanned images. Personal and sensitive data is exactly what the restricted classification exists to protect, so blanket disclosure is not what the policy directs."
+  },
+  {
+    "sub": "e-Governance related Policies",
+    "q": "Under the Government of India's policy on adoption of open source software, how must a department that chooses closed-source software proceed?",
+    "opts": {
+      "A": "It may not do so at all, because only open source software is permitted in government systems",
+      "B": "It must replace the closed-source product with an open source equivalent within a fixed period",
+      "C": "It may do so, but must record the justification for departing from the preference for open source",
+      "D": "It must obtain the software only from the National Informatics Centre"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "The policy establishes open source as the preferred option and requires the alternative to be reasoned rather than assumed, so a department retains the freedom to buy proprietary software where it genuinely fits but must say why on the file. It is a preference backed by a recorded justification, not an outright prohibition on closed-source products."
+  }
+]

@@ -1,0 +1,119 @@
+[
+  {
+    "sub": "Objectives",
+    "q": "Why must the criteria on which bids will be evaluated be stated in the tender document itself, before bids are invited?",
+    "opts": {
+      "A": "Because bidders can shape and price their offers rationally only if they know in advance how the offers will be judged, and criteria introduced after opening make the award challengeable",
+      "B": "Because the evaluation committee cannot lawfully be constituted until the criteria are published",
+      "C": "Because the criteria determine the amount of earnest money each bidder must deposit",
+      "D": "Because the criteria have to be approved by the bidders before the bids are opened"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Publishing the criteria in advance is what makes the competition meaningful and the award defensible: a bidder allocates effort and cost against the announced weightings, and an evaluator who later applies an unannounced test is deciding on a basis nobody could have bid against. Bidders are not asked to approve the criteria; they are simply entitled to know them before they commit."
+  },
+  {
+    "sub": "Objectives",
+    "q": "In e-Governance procurement, what does the objective of 'value for money' mean in practice?",
+    "opts": {
+      "A": "That the contract goes to the bidder with the largest annual turnover, as the surest guarantee of delivery",
+      "B": "That the lowest financial quotation received must be accepted in every case",
+      "C": "That the contract goes to the bidder promising the shortest implementation schedule",
+      "D": "That the award goes to the offer giving the best combination of quality and cost over the whole life of the system, which need not be the lowest quoted price"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Value for money is judged over the life of the system, so support, maintenance, scaling and exit costs count alongside the quoted price, and an offer that is cheap at signing may be dear over five years. Treating the lowest quotation as automatically correct is the error the objective is framed to prevent."
+  },
+  {
+    "sub": "Objectives",
+    "q": "A tender's technical specifications are written around the distinctive feature set of one particular vendor's product. Which procurement objective does this most directly defeat?",
+    "opts": {
+      "A": "Timely completion of the project",
+      "B": "Fair and open competition among eligible suppliers",
+      "C": "Accuracy of the departmental cost estimate",
+      "D": "Proper custody of the earnest money deposits received"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Specifications drafted around one product disqualify capable suppliers on grounds unrelated to the department's actual need, so the tender is competitive only in form, and the department loses the price and quality discipline that competition would have supplied. Specifications should describe the functional requirement and performance sought, leaving suppliers free to meet it their own way."
+  },
+  {
+    "sub": "Planning the procurement",
+    "q": "Why is a large e-Governance procurement normally specified in terms of outcomes and service levels rather than as a schedule of hardware and software items?",
+    "opts": {
+      "A": "Because item-wise specification of goods is not permitted in government purchase",
+      "B": "Because outcome-based contracts are quicker and cheaper to evaluate at the bid stage",
+      "C": "Because the department is buying a working service whose technical composition will change over the contract's life, and an itemised specification freezes technology that will date before the contract ends",
+      "D": "Because agreed service levels make acceptance testing unnecessary"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Specifying the outcome and the service levels leaves the supplier responsible for choosing and refreshing the components needed to sustain them, which matters over a multi-year contract in which the original hardware and software would otherwise be locked in by the tender. Outcome-based specification actually makes evaluation harder, not easier, because responses are no longer directly comparable line by line."
+  },
+  {
+    "sub": "Planning the procurement",
+    "q": "Where a department has planned to use Quality-and-Cost-Based Selection, which bidder is awarded the contract?",
+    "opts": {
+      "A": "The bidder with the highest combined score once the technical and financial scores are weighted in the ratio declared in the bid document",
+      "B": "The bidder with the highest technical score, irrespective of the prices quoted",
+      "C": "The lowest-priced bidder among those found technically qualified",
+      "D": "The lowest-priced bidder among all bidders who submitted a bid"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "The whole point of choosing this method at the planning stage is that quality and price are both scored and then combined using a weighting the department has announced in advance, so a technically stronger bid can prevail over a cheaper one. Picking the cheapest among the technically qualified is a different method, in which quality functions only as a pass or fail threshold and contributes nothing further to the result."
+  },
+  {
+    "sub": "Planning the procurement",
+    "q": "The Government e-Marketplace (GeM) is best described as which of the following?",
+    "opts": {
+      "A": "A portal on which departments publish tender notices for bespoke system-integration projects",
+      "B": "The central repository of cloud service providers empanelled for government use",
+      "C": "The platform through which government departments auction surplus and obsolete equipment",
+      "D": "An online marketplace on which government buyers procure common-use goods and services from registered sellers, through catalogue-based ordering, bidding or reverse auction"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "GeM serves the repeat purchase of standard, catalogue-describable goods and services, where the buyer's task is to find a competitive price for a defined item rather than to evaluate competing solution designs. A bespoke system-integration project, which needs a written requirement and a technical evaluation, is tendered through the e-procurement route instead."
+  },
+  {
+    "sub": "PPP / transaction fee based model",
+    "q": "In a transaction-fee based PPP for an e-Governance service, how does the private partner recover its investment?",
+    "opts": {
+      "A": "Through a lump-sum payment released by the department when the system goes live",
+      "B": "Through a fee charged for each transaction successfully delivered, paid by the citizen or by the department, across the concession period",
+      "C": "By retaining ownership of the hardware and software at the end of the contract",
+      "D": "Through an annual licence fee fixed at the time of signing and payable regardless of use"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "The partner funds the build itself and is repaid transaction by transaction, so its earnings accumulate only as the service is actually used. A fixed annual fee payable whether or not the service is used is an annuity-style payment, which shifts the exposure to volumes back on to the department."
+  },
+  {
+    "sub": "PPP / transaction fee based model",
+    "q": "Why is a transaction-fee model attractive to a department that has little capital budget available?",
+    "opts": {
+      "A": "Because the department is relieved of the obligation to monitor service quality",
+      "B": "Because the transaction fee is fixed for the life of the contract and cannot be revised",
+      "C": "Because the private partner meets the capital cost up front and is repaid only as transactions occur, so the department's outgo tracks service actually delivered",
+      "D": "Because ownership of the citizen data passes to the private partner, reducing the department's liability"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "The model converts a capital requirement into a stream of payments linked to delivered volumes, which suits a department that can commit revenue expenditure but cannot fund the build. It changes who finances the system, not who is accountable for it: the department still has to monitor service levels, and ownership of the citizen data remains with the government."
+  },
+  {
+    "sub": "PPP / transaction fee based model",
+    "q": "What is the principal risk borne by the private partner in a transaction-fee based e-Governance PPP?",
+    "opts": {
+      "A": "That the department may insist on the use of open source software",
+      "B": "That the technology chosen may become obsolete before the system is commissioned",
+      "C": "That the concession period may be extended beyond the term originally agreed",
+      "D": "That actual transaction volumes may fall well short of those projected, leaving the investment unrecovered"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Because revenue arises only from transactions, the partner carries the demand risk, and an over-optimistic volume projection at bid stage translates directly into an unrecovered investment. An extension of the concession period would give the partner more time to earn, so it works in the partner's favour rather than against it."
+  }
+]

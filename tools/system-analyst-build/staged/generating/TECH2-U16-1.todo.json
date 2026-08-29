@@ -1,0 +1,22 @@
+{
+  "paper": "TECH2",
+  "unit": "16",
+  "unitTitle": "Preparation of Detailed Project Report (DPR) and Request for Proposal (RFP)",
+  "unitMarks": 5,
+  "perTarget": 2,
+  "brief": "tools/system-manager-build/GENERATE_BRIEF.md",
+  "targets": [
+    {
+      "sub": "Feasibility and cost-benefit analysis in a DPR"
+    },
+    {
+      "sub": "Functional and technical requirement specification"
+    },
+    {
+      "sub": "QCBS - Quality and Cost Based Selection"
+    },
+    {
+      "sub": "Common pitfalls in RFP drafting"
+    }
+  ]
+}

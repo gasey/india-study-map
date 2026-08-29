@@ -1,0 +1,25 @@
+{
+  "paper": "TECH2",
+  "unit": "17",
+  "unitTitle": "Contract Management Aspect",
+  "unitMarks": 5,
+  "perTarget": 2,
+  "brief": "tools/system-manager-build/GENERATE_BRIEF.md",
+  "targets": [
+    {
+      "sub": "Importance of contracts in e-Governance projects"
+    },
+    {
+      "sub": "Contract aspects of software development projects"
+    },
+    {
+      "sub": "Contract aspects of IT infrastructure projects"
+    },
+    {
+      "sub": "Contract aspects of PPP and service delivery projects"
+    },
+    {
+      "sub": "Penalties, liquidated damages and exit management"
+    }
+  ]
+}

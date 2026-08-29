@@ -1,0 +1,13 @@
+{
+  "paper": "TECH2",
+  "unit": "4",
+  "unitTitle": "Government Process Re-engineering (GPR)",
+  "unitMarks": 15,
+  "perTarget": 3,
+  "brief": "tools/system-manager-build/GENERATE_BRIEF.md",
+  "targets": [
+    {
+      "sub": "Service Prioritization"
+    }
+  ]
+}

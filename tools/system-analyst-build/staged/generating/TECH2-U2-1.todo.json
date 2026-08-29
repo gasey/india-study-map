@@ -1,0 +1,22 @@
+{
+  "paper": "TECH2",
+  "unit": "2",
+  "unitTitle": "E-Governance Project Development",
+  "unitMarks": 15,
+  "perTarget": 2,
+  "brief": "tools/system-manager-build/GENERATE_BRIEF.md",
+  "targets": [
+    {
+      "sub": "Key factors contributing to current environment"
+    },
+    {
+      "sub": "Need for a more robust approach for E-Governance"
+    },
+    {
+      "sub": "E-Governance project life cycle"
+    },
+    {
+      "sub": "Change management and communication"
+    }
+  ]
+}

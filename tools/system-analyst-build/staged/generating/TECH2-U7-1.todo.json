@@ -1,0 +1,37 @@
+{
+  "paper": "TECH2",
+  "unit": "7",
+  "unitTitle": "Digital India",
+  "unitMarks": 20,
+  "perTarget": 2,
+  "brief": "tools/system-manager-build/GENERATE_BRIEF.md",
+  "targets": [
+    {
+      "sub": "Participation in digital and financial space through mobiles and banking"
+    },
+    {
+      "sub": "Shareable private space on a public cloud"
+    },
+    {
+      "sub": "Safe and secure cyber-space"
+    },
+    {
+      "sub": "Government and Service on demand"
+    },
+    {
+      "sub": "Seamlessly integrated across departments or jurisdictions"
+    },
+    {
+      "sub": "All citizen entitlements available on the cloud"
+    },
+    {
+      "sub": "Digital transformation for improving Ease of Doing Business"
+    },
+    {
+      "sub": "Leveraging GIS for decision support system and development"
+    },
+    {
+      "sub": "Universal Digital Literacy"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "sub": "JV Model",
+    "q": "What is the defining feature of the Joint Venture model when it is used for an e-Governance project?",
+    "opts": {
+      "A": "The government pays the private firm an agreed fee for operating the system while retaining full ownership of the operating entity",
+      "B": "The government and the private partner both subscribe equity in a separate company formed to execute the project, and share its risks and returns in proportion to their holdings",
+      "C": "The private firm builds the system to specification and hands it over to the government on completion, with no continuing stake",
+      "D": "Two or more private firms combine to bid for the work, with the government participating only as the purchaser"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "What makes an arrangement a joint venture is shared ownership: both sides put capital into a jointly held project company and are exposed to its profits and losses, which aligns the private partner's incentives with the project's long-run performance rather than with a fee. A group of private firms bidding together is a consortium, in which the government holds no equity at all."
+  },
+  {
+    "sub": "JV Model",
+    "q": "Which statement correctly distinguishes the Joint Venture model from the BOOT model?",
+    "opts": {
+      "A": "A Joint Venture always ends with the transfer of assets to the government, whereas a BOOT arrangement never does",
+      "B": "The Joint Venture model is used only for physical infrastructure, while BOOT is used only for software systems",
+      "C": "In a Joint Venture the private partner bears no commercial risk, while in BOOT it bears all of it",
+      "D": "In a Joint Venture the government holds equity in the project company and shares in its profits and losses; under BOOT the private party owns and operates the asset through the concession period and transfers it to the government at the end"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "The two models differ in where ownership sits: a joint venture makes the government a shareholder alongside the private partner from the outset, whereas BOOT leaves ownership entirely with the concessionaire until the transfer at the close of the concession. It is BOOT, not the joint venture, that is defined by an end-of-term transfer, so the claim that only the joint venture ends in transfer inverts both models."
+  },
+  {
+    "sub": "How to structure and implement PPP",
+    "q": "When the risks of a PPP project are being allocated between the parties during structuring, what is the governing principle?",
+    "opts": {
+      "A": "Each risk should be assigned to the party better placed to control or manage it at the lower cost",
+      "B": "Every risk should be assigned to the private partner, since it is being paid to assume risk",
+      "C": "Every risk should be retained by the government, since it remains ultimately answerable for the service",
+      "D": "All risks should be divided equally between the parties in a fixed fifty-fifty split"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Assigning a risk to whoever can actually influence it produces the lowest total cost, because a party that cannot manage a risk simply prices it into the bid as a contingency and the government pays for it anyway. Pushing every risk on to the private partner therefore raises the price rather than removing the exposure."
+  },
+  {
+    "sub": "How to structure and implement PPP",
+    "q": "In structuring the payment mechanism of an e-Governance PPP, what is the essential difference between an annuity-based structure and a revenue-share or transaction-fee structure?",
+    "opts": {
+      "A": "Annuity payments fall due only after the concession has ended, whereas revenue share is paid to the concessionaire in advance",
+      "B": "An annuity structure requires a special purpose vehicle to be incorporated, whereas a revenue-share structure does not",
+      "C": "Under an annuity the government pays the concessionaire pre-agreed periodic amounts irrespective of usage, so demand risk stays with the government; under revenue share the concessionaire is paid out of actual transaction volumes and therefore carries the demand risk",
+      "D": "Under an annuity the private partner owns the assets permanently, whereas under revenue share ownership never passes to it at any stage"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "The payment mechanism is what decides who suffers if the service is used less than projected: a fixed periodic annuity insulates the concessionaire from volumes and leaves the shortfall with the government, while payment out of transactions transfers that exposure to the concessionaire. Both structures pay the concessionaire during the concession period, not after it ends, and either can be implemented through a special purpose vehicle."
+  }
+]

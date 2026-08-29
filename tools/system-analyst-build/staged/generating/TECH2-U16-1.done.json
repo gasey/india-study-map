@@ -1,0 +1,106 @@
+[
+  {
+    "sub": "Feasibility and cost-benefit analysis in a DPR",
+    "q": "What is the primary purpose of a Detailed Project Report prepared before an e-governance project is sanctioned?",
+    "opts": {
+      "A": "To invite vendors to submit priced bids against stated requirements",
+      "B": "To establish the project's feasibility, scope, phasing, cost and expected benefits so that the competent authority can decide whether to commit funds",
+      "C": "To record the results of acceptance testing on the delivered system",
+      "D": "To define the service levels against which the selected vendor will be measured"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "A DPR is a decision document produced before money is committed: it argues that the project is feasible, bounds its scope and cost, and quantifies the benefits that justify the outlay. Inviting the market to bid is the job of the RFP, which comes afterwards and converts the approved scope into biddable requirements."
+  },
+  {
+    "sub": "Feasibility and cost-benefit analysis in a DPR",
+    "q": "A DPR concludes that the proposed system can be built with proven technology and is affordable within the department's budget, but that existing rules do not permit an electronic application to be accepted in place of a signed paper form. Which feasibility dimension has failed?",
+    "opts": {
+      "A": "Technical feasibility",
+      "B": "Financial feasibility",
+      "C": "Legal and regulatory feasibility",
+      "D": "Operational feasibility"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Legal feasibility asks whether the statutory and rule framework actually allows the proposed way of working, and here it does not — the rules would have to be amended before the electronic form can substitute for the paper one. Technical and financial feasibility have both been established by the same report, which is precisely why the legal gap becomes the binding constraint."
+  },
+  {
+    "sub": "Functional and technical requirement specification",
+    "q": "Which of the following statements in an RFP is a functional requirement rather than a technical or performance requirement?",
+    "opts": {
+      "A": "The system shall issue a provisional income certificate only after the designated revenue officer has digitally approved the application",
+      "B": "The system shall return a search result within three seconds under peak load",
+      "C": "The application shall be deployable on the State Data Centre's virtualised Linux environment",
+      "D": "The system shall maintain 99.5 percent availability measured on a monthly basis"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "A functional requirement states what the system must do as a behaviour of the business process — here, that issue is conditional on a specific officer's approval. Response time, hosting environment and availability describe how well and on what platform the system must operate, which are technical and non-functional requirements."
+  },
+  {
+    "sub": "Functional and technical requirement specification",
+    "q": "Why is a requirement written as 'the system shall have a user-friendly interface' considered defective in an RFP?",
+    "opts": {
+      "A": "Interface design falls outside the scope of any software development contract",
+      "B": "It merely duplicates something the technical specification will state in any case",
+      "C": "It commits the department in advance to a specific product",
+      "D": "It cannot be measured or tested, so acceptance cannot be demonstrated objectively and the disagreement resurfaces after delivery as a contractual dispute"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "A requirement must be verifiable: if there is no stated test that decides whether it has been met, the department cannot reject the delivery and the vendor cannot prove compliance, so the argument lands in contract administration instead. Usability can be specified properly — for example by naming the standard to be met or the task-completion criteria to be demonstrated — which is what turns the intent into an acceptable clause."
+  },
+  {
+    "sub": "QCBS - Quality and Cost Based Selection",
+    "q": "Under Quality and Cost Based Selection, how is the successful bidder determined?",
+    "opts": {
+      "A": "The bidder quoting the lowest price among all those who submitted a bid",
+      "B": "The bidder with the highest technical score, price being disregarded",
+      "C": "The bidder whose quoted price is closest to the department's own cost estimate",
+      "D": "The bidder with the highest combined score obtained by applying the published weights to the technical and the financial evaluation"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "QCBS exists precisely so that award is not automatic to the cheapest bid: technical quality and price are each scored and then combined using weights announced in the RFP, and the highest composite score wins. Award purely on lowest price is least-cost selection, a different and generally inappropriate method where solution quality varies materially between bidders."
+  },
+  {
+    "sub": "QCBS - Quality and Cost Based Selection",
+    "q": "In a QCBS procurement, what happens to the financial bid of a firm whose technical proposal scores below the minimum qualifying technical mark stated in the RFP?",
+    "opts": {
+      "A": "It is not opened at all and the firm is eliminated from further consideration",
+      "B": "It is opened but given a proportionately reduced weight in the combined score",
+      "C": "It is opened only after the firm has been allowed to improve its technical proposal",
+      "D": "It is opened and evaluated normally, because price is assessed independently of technical merit"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "The technical evaluation is a gate: proposals that fail the qualifying threshold are rejected and their sealed financial envelopes are returned or remain unopened, so an unacceptable solution cannot buy its way in with a low price. Allowing a failed bidder to revise its proposal after bids are in would breach the equal-treatment basis on which the others bid."
+  },
+  {
+    "sub": "Common pitfalls in RFP drafting",
+    "q": "An RFP for server hardware reproduces the model-specific feature list of one manufacturer's product. Why is this a serious drafting fault?",
+    "opts": {
+      "A": "Hardware cannot legitimately be specified in an RFP at all",
+      "B": "It prevents the department from issuing change requests later in the contract",
+      "C": "Specifications tailored to a single product restrict competition, invite challenge from other bidders and usually raise the price the department finally pays",
+      "D": "It obliges the department to use QCBS rather than a least-cost selection"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Requirements should be stated as the capability and performance needed, so that any product meeting them can compete; copying one product's datasheet converts an open tender into a single-source purchase in all but name. The consequences are both commercial — fewer bids and weaker price discovery — and procedural, since excluded bidders have clear grounds to contest the tender."
+  },
+  {
+    "sub": "Common pitfalls in RFP drafting",
+    "q": "Why must the evaluation criteria and their weights be stated in the RFP itself rather than settled after the bids have been received?",
+    "opts": {
+      "A": "Because bidders cannot otherwise calculate the price they should quote",
+      "B": "Because bidders must be able to shape their proposals against known criteria, and criteria fixed after opening cannot be shown to be objective, leaving the award open to challenge",
+      "C": "Because the criteria form a mandatory chapter of the Detailed Project Report",
+      "D": "Because a service level agreement cannot otherwise be included in the resulting contract"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Publishing the criteria up front is what makes the competition fair and the award defensible: every bidder optimises against the same declared yardstick, and the evaluation committee is bound by it. Criteria invented after the envelopes are open can always be alleged to have been reverse-engineered to suit a preferred bidder, which is how awards get stayed."
+  }
+]

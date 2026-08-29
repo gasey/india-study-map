@@ -1,0 +1,106 @@
+[
+  {
+    "sub": "Legacy data digitization approaches",
+    "q": "A district office wants to deliver a certificate service online, but the records that must be checked before issuing the certificate exist only as paper registers. Why is digitization of those legacy registers a prerequisite for the online service?",
+    "opts": {
+      "A": "Because the online workflow cannot verify an application against a record that the software cannot read or search",
+      "B": "Because the law does not allow paper registers to be retained once a service is offered online",
+      "C": "Because scanning reduces the physical storage cost of the registers",
+      "D": "Because digitized registers automatically satisfy the department's data protection obligations"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "An online service is only end-to-end if the back-end verification step is also electronic; as long as the authoritative record is a paper register, a clerk still has to pull the volume by hand and the service is merely a digital front-end. Reduced storage cost is a side benefit, not the reason the service depends on digitization."
+  },
+  {
+    "sub": "Legacy data digitization approaches",
+    "q": "In a records digitization programme, what does a 'day-forward' approach mean?",
+    "opts": {
+      "A": "All existing records are converted first, and only then is the new system switched on",
+      "B": "Only records created from the cut-over date onward are captured electronically, with the older backlog handled as a separate exercise",
+      "C": "Records are re-scanned every day to keep a fresh copy",
+      "D": "Only the records of the current financial year are retained and the rest are destroyed"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Day-forward capture starts the electronic record from a chosen date so that new business is born digital immediately, while the historical backlog is converted on its own timeline or on demand. Converting everything before go-live is the opposite, backlog-first approach, and it usually delays the project far longer."
+  },
+  {
+    "sub": "Metadata and data standards",
+    "q": "During digitization of departmental files, why is metadata captured for each scanned document in addition to the page images?",
+    "opts": {
+      "A": "It compresses the image so the file occupies less disk space",
+      "B": "It encrypts the document so that only authorised officers can open it",
+      "C": "It supplies the indexing attributes — such as file number, subject, date and office — by which the document can later be searched and retrieved",
+      "D": "It guarantees that the scan is a legally admissible copy of the original"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "A repository of un-indexed page images is effectively unsearchable, so capture of descriptive metadata is what turns a pile of scans into a retrievable record set. Compression and encryption are separate processing steps and neither depends on metadata."
+  },
+  {
+    "sub": "Metadata and data standards",
+    "q": "Two departments each digitize their records but define the same field differently — one stores a citizen's name as a single field, the other as first and last name, and their date formats differ. What is the main consequence for e-governance?",
+    "opts": {
+      "A": "The scanned images will be of unequal resolution",
+      "B": "The two datasets cannot be reliably exchanged or matched without a costly reconciliation, which is exactly what common data standards exist to prevent",
+      "C": "Each department will need a separate scanner model",
+      "D": "The records will lose their legal validity in both departments"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Agreed data standards fix the structure, format and meaning of shared elements so that data captured in one department is intelligible to another; without them every inter-departmental exchange needs bespoke mapping and produces matching errors. Image resolution and scanner choice are capture concerns unrelated to field definitions."
+  },
+  {
+    "sub": "Scanning, OCR and document management",
+    "q": "What does applying OCR to a scanned page add that plain scanning alone does not provide?",
+    "opts": {
+      "A": "A machine-readable text layer that makes the content searchable",
+      "B": "A higher optical resolution for the scanned image",
+      "C": "A digital signature attesting to the document's authenticity",
+      "D": "Automatic removal of duplicate pages from the batch"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "A scan produces only a picture of the page; optical character recognition interprets the shapes as characters and stores the recognised text, so full-text search and data extraction become possible. Resolution is fixed at capture time and is not changed by OCR, and signing is an entirely separate step."
+  },
+  {
+    "sub": "Scanning, OCR and document management",
+    "q": "Which capability is characteristic of a document management system rather than of an ordinary shared network folder?",
+    "opts": {
+      "A": "Allowing several users to open the same file at once",
+      "B": "Storing files in nested directories",
+      "C": "Maintaining version history and a check-in/check-out and access-control regime over each document",
+      "D": "Providing a larger amount of disk space"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "A document management system adds controlled custody over the document lifecycle — versioning, check-in/check-out to prevent conflicting edits, retention rules and per-document permissions — on top of mere storage. A shared folder gives directories and space but no managed version history."
+  },
+  {
+    "sub": "Data migration strategy",
+    "q": "Before the production cut-over of a legacy-to-new-system data migration, why is a trial or dry-run migration into a test environment normally carried out?",
+    "opts": {
+      "A": "To increase the transfer speed of the final migration run",
+      "B": "To let the vendor bill for an additional phase of work",
+      "C": "To make the legacy system read-only",
+      "D": "To surface transformation errors, rejected records and reconciliation mismatches while there is still time to correct them"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "A dry run exercises the full extract-transform-load path on real data and produces the error and reconciliation reports that reveal bad mappings and dirty source records before go-live. It is a rehearsal for correctness, not a performance tuning exercise."
+  },
+  {
+    "sub": "Data migration strategy",
+    "q": "After migrating records from a legacy application to a new one, which check most directly establishes that no data was silently lost or altered in transit?",
+    "opts": {
+      "A": "Confirming that the new application's screens load without errors",
+      "B": "Reconciling record counts and control totals of key fields between source and target, plus sample-level field comparison",
+      "C": "Confirming that the migration job finished without an operating-system error",
+      "D": "Asking users whether the new system feels faster than the old one"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Counts and control totals compared on both sides, backed by row-level sampling, are what actually prove completeness and fidelity of a migration. A job that exits cleanly can still have dropped rejected rows to a log, which is precisely how silent migration loss happens."
+  }
+]

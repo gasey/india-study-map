@@ -1,0 +1,25 @@
+{
+  "paper": "TECH2",
+  "unit": "18",
+  "unitTitle": "Monitoring and Evaluation of e-Governance Projects",
+  "unitMarks": 5,
+  "perTarget": 2,
+  "brief": "tools/system-manager-build/GENERATE_BRIEF.md",
+  "targets": [
+    {
+      "sub": "Understanding evaluation types"
+    },
+    {
+      "sub": "Approach for development of a Monitoring and Evaluation Framework"
+    },
+    {
+      "sub": "Key Performance Indicators"
+    },
+    {
+      "sub": "Baseline and target setting"
+    },
+    {
+      "sub": "Logical framework approach"
+    }
+  ]
+}

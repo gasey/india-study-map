@@ -1,0 +1,236 @@
+[
+  {
+    "sub": "Understanding e-Governance strategy",
+    "q": "In e-governance planning, what distinguishes the vision from the strategy?",
+    "opts": {
+      "A": "The vision is prepared by the vendor and the strategy by the department",
+      "B": "The vision lists the applications to be procured and the strategy fixes their delivery dates",
+      "C": "The vision states the desired future state in outcome terms, while the strategy states the choices and the route by which that state will be reached",
+      "D": "The vision is revised every quarter while the strategy stays fixed for the life of the programme"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "A vision is a short statement of the end state the government wants for its citizens, deliberately free of implementation detail, while the strategy sets out the deliberate choices, priorities and sequence that will get there. Neither is a procurement list; that belongs further down, in the roadmap and the detailed project report."
+  },
+  {
+    "sub": "Understanding e-Governance strategy",
+    "q": "Within an e-governance strategy document, the 'roadmap' is best described as",
+    "opts": {
+      "A": "the sequenced, time-bound set of initiatives, with their dependencies, that turns the strategy into a programme of work",
+      "B": "the network topology diagram of the state-wide area network",
+      "C": "the list of hardware and software licences to be purchased in the first year",
+      "D": "the escalation hierarchy used to resolve inter-departmental disputes"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "The roadmap converts strategic intent into an ordered schedule of initiatives, showing what is taken up when and what each item depends on. A licence and hardware list is a procurement plan, which is derived from the roadmap rather than being the roadmap itself."
+  },
+  {
+    "sub": "Key elements in e-Governance strategy",
+    "q": "Which of the following belongs in an e-governance strategy rather than in implementation-level design?",
+    "opts": {
+      "A": "The database schema chosen for the citizen registry",
+      "B": "The prioritisation of services for digitisation and the sequence in which they are taken up",
+      "C": "The counter layout of a common service centre",
+      "D": "The naming convention adopted for application servers"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Deciding which services matter most and in what order they will be taken up is a strategic choice about where limited capacity and money go, and it drives everything downstream. Schemas, layouts and naming conventions are design and operational decisions taken once the strategic choices are already settled."
+  },
+  {
+    "sub": "Key elements in e-Governance strategy",
+    "q": "In e-governance strategy development, the purpose of a gap analysis is to",
+    "opts": {
+      "A": "compare the bids received from the shortlisted system integrators",
+      "B": "measure the difference between budgeted and actual expenditure at the close of the year",
+      "C": "check whether the pilot's throughput matches the service levels promised by the vendor",
+      "D": "compare the present state of services, processes, infrastructure and skills with the state the vision demands, so the strategy can close the difference"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Gap analysis is the bridge between the as-is assessment and the vision: it names precisely what is missing in processes, systems, data, capacity and policy, and those gaps become the strategy's initiatives. Comparing bids or budget variance are procurement and financial exercises with no bearing on strategic direction."
+  },
+  {
+    "sub": "e-Governance objectives",
+    "q": "Which of the following is stated as an outcome-level objective of e-governance rather than as an output?",
+    "opts": {
+      "A": "Reducing the time and the number of office visits a citizen needs in order to obtain a certificate",
+      "B": "Commissioning a state data centre with a stated uptime",
+      "C": "Issuing digital signature certificates to all sanctioning officers",
+      "D": "Deploying an online application portal in every district office"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "An outcome describes the change experienced by the user, such as fewer visits and shorter turnaround, whereas an output is a deliverable the programme produces. Portals, data centres and certificates are outputs, and a programme can deliver all of them while the citizen's experience remains unchanged."
+  },
+  {
+    "sub": "e-Governance objectives",
+    "q": "Why are e-governance objectives expected to be expressed with a baseline value and a target date?",
+    "opts": {
+      "A": "Because tender documents cannot be issued until objectives are quantified by the auditor",
+      "B": "Because quantified objectives let the vendor fix the contract price",
+      "C": "Because without a baseline and a target, no one can later establish whether the programme actually delivered the intended benefit",
+      "D": "Because objectives must be quantified before any officer can be assigned to the project"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "A baseline records the position before the intervention and the target defines success, so benefit realisation can be evaluated afterwards instead of being asserted. Contract pricing rests on scope and service levels, which are separate artefacts from programme-level objectives."
+  },
+  {
+    "sub": "Identifying stakeholders and services",
+    "q": "In stakeholder analysis for an e-governance project, stakeholders are conventionally mapped along which two dimensions?",
+    "opts": {
+      "A": "Seniority in the government hierarchy and total length of service",
+      "B": "Their level of interest in the project and their power to affect it",
+      "C": "Distance of their office from the state headquarters and the population they serve",
+      "D": "Their technical skill and their willingness to attend training"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "The power-interest grid sorts stakeholders into those to manage closely, keep satisfied, keep informed or merely monitor, which determines how much engagement effort each group receives. Seniority is a poor proxy, because a low-ranking frontline clerk can have very high power to obstruct a system in daily use."
+  },
+  {
+    "sub": "Identifying stakeholders and services",
+    "q": "When a department compiles its service list for an e-governance strategy, a 'service' is best defined as",
+    "opts": {
+      "A": "a software module to be delivered by the system integrator",
+      "B": "an internal file or register maintained by the department",
+      "C": "a sanctioned post in the department's staffing pattern",
+      "D": "a distinct transaction or outcome the department delivers to an identified user, such as issuing a licence"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Services are defined from the user's side, as something a citizen, business or another agency asks for and receives, which is what makes prioritisation and service-level setting meaningful. Modules, registers and posts describe the department's internal arrangements and can exist without any user-visible service at all."
+  },
+  {
+    "sub": "Delivery channel",
+    "q": "In an e-governance strategy, a multi-channel delivery approach means that",
+    "opts": {
+      "A": "the same service is offered through several access points, such as a portal, a mobile application, a service centre and a departmental counter, over a single back-end",
+      "B": "each department runs its own separate portal for its own services",
+      "C": "the service is delivered by several vendors working under separate contracts",
+      "D": "the citizen must use one channel to apply and a different channel to pay"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Multi-channel delivery means one authoritative back-end and one set of rules, reachable through whichever front-end suits the user, so status and records stay consistent across channels. Several departmental portals is fragmentation, which is the problem multi-channel design is meant to solve."
+  },
+  {
+    "sub": "Delivery channel",
+    "q": "Why does a state e-governance strategy normally retain an assisted channel such as a common service centre alongside a self-service portal?",
+    "opts": {
+      "A": "Because an online application is invalid unless counter-signed at a centre",
+      "B": "Because portals are technically unable to accept payments",
+      "C": "Because citizens without devices, connectivity or digital literacy would otherwise be shut out of the service",
+      "D": "Because an assisted channel costs government less to run than a portal"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Assisted channels exist for inclusion: they let an operator complete the transaction on behalf of a citizen who cannot, which keeps the service universal rather than available only to the connected. Assisted delivery normally costs more per transaction than self-service, so cost is an argument against it, not for it."
+  },
+  {
+    "sub": "Implementation approach and plan: Big bang",
+    "q": "A big-bang implementation approach for a new government system means that",
+    "opts": {
+      "A": "the system is first released to a small group of volunteer users",
+      "B": "the legacy system is retired and every user moves to the new system on a single cut-over date",
+      "C": "the system is released module by module across several financial years",
+      "D": "the old and the new system both process live work until the new one is trusted"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Big bang is a single, complete changeover on a fixed date, with the old system switched off at that moment. Running both systems on live work is parallel adoption, and releasing module by module is a phased rollout."
+  },
+  {
+    "sub": "Implementation approach and plan: Big bang",
+    "q": "What is the principal risk of a big-bang cut-over in a citizen-facing government service?",
+    "opts": {
+      "A": "Training costs rise because staff must be trained twice over",
+      "B": "The vendor cannot be held to any service level agreement during cut-over",
+      "C": "Data migration becomes unnecessary, which weakens the audit trail",
+      "D": "There is no fallback, so a serious defect at go-live stops the service everywhere at once"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Because the legacy system is switched off, a big bang concentrates all risk into one moment and leaves nothing to revert to, which is why it suits small or low-criticality systems far better than statewide citizen services. Big bang in fact makes data migration more critical, since the entire legacy dataset must be correct on day one."
+  },
+  {
+    "sub": "Implementation approach and plan: Phased rollout",
+    "q": "In a phased rollout, the phases are most usefully defined by",
+    "opts": {
+      "A": "a coherent slice of geography, user group or functionality that can go live and be stabilised before the next slice starts",
+      "B": "the financial year in which each instalment of the vendor's payment falls due",
+      "C": "the alphabetical order of the districts to be covered",
+      "D": "the number of servers commissioned in the data centre each quarter"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "The value of phasing lies in learning, so each phase must be a self-contained unit that can actually operate and be stabilised, letting its lessons improve the next phase. Slicing by payment schedule or alphabetical order ignores dependencies and delivers phases that cannot stand on their own."
+  },
+  {
+    "sub": "Implementation approach and plan: Phased rollout",
+    "q": "Which of the following is a genuine disadvantage of a phased rollout compared with a single cut-over?",
+    "opts": {
+      "A": "Defects found in an early phase cannot be corrected before the later phases begin",
+      "B": "Users covered in later phases receive no training at all",
+      "C": "The old and the new arrangements must coexist for longer, adding interface, reconciliation and support effort",
+      "D": "The total number of users who must eventually be migrated increases"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "A long transition means two ways of working, sometimes two datasets, and temporary interfaces that must be built, run and later thrown away, which is the real price paid for reduced risk. Correcting defects between phases is the chief benefit of phasing, not a drawback."
+  },
+  {
+    "sub": "Implementation approach and plan: Parallel adoption",
+    "q": "Parallel adoption of a new system means that",
+    "opts": {
+      "A": "two vendors build competing versions and the better one is retained",
+      "B": "the old and the new system are run simultaneously on the same live workload until the new one is proven, after which the old one is withdrawn",
+      "C": "the system is rolled out to two districts at a time until the whole state is covered",
+      "D": "development and testing teams work at the same time in order to shorten the schedule"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Parallel running keeps the legacy system live and authoritative while the new system processes the same transactions, so the outputs can be compared and the old system remains available as a fallback. Covering two districts at a time is simply a phased rollout with small phases."
+  },
+  {
+    "sub": "Implementation approach and plan: Parallel adoption",
+    "q": "The main cost of parallel adoption is that",
+    "opts": {
+      "A": "staff must enter and reconcile the same transactions in both systems, roughly doubling the workload for the duration of the parallel run",
+      "B": "the new system cannot be exercised against real data during the run",
+      "C": "no fallback exists if the new system fails at go-live",
+      "D": "data from the legacy system can no longer be migrated"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Double entry and daily reconciliation impose a heavy, sustained burden on the same frontline staff who are also learning the new system, which is why parallel runs are kept short and are reserved for high-risk services. The absence of a fallback is the defect of a big-bang cut-over, and is precisely what parallel adoption avoids."
+  },
+  {
+    "sub": "Programme management framework",
+    "q": "What distinguishes programme management from project management in a state e-governance initiative?",
+    "opts": {
+      "A": "Programme management applies only to projects funded by the central government",
+      "B": "A programme coordinates a set of related projects towards a shared outcome and manages their interdependencies, while each project delivers its own defined output",
+      "C": "Programme management is performed by the vendor and project management by the department",
+      "D": "Programme management covers the procurement stage only, and project management everything after it"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "A programme exists because several projects, such as infrastructure, applications, capacity building and process re-engineering, must land together before any benefit appears, so its job is interdependency, shared resources and benefit realisation. A project is accountable for its own output on time and budget, whether or not the wider benefit materialises."
+  },
+  {
+    "sub": "Programme management framework",
+    "q": "In an e-governance programme management framework, the role of the programme management unit is chiefly to",
+    "opts": {
+      "A": "take the final policy decisions on behalf of the department",
+      "B": "write the application code the system integrator fails to deliver on time",
+      "C": "supply the day-to-day coordination, monitoring and technical capacity the department cannot spare, with decisions still resting with the steering committee",
+      "D": "carry out the financial bid evaluation in place of the tender committee"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "A programme management unit is a support and assurance structure that tracks progress, manages risk, checks vendor deliverables and gives the department technical depth it lacks in-house. Authority stays with the apex or steering committee, because a support unit that starts taking policy decisions has displaced the accountable department."
+  }
+]

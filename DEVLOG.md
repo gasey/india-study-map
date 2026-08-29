@@ -9,6 +9,77 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-08-29 (late) — The confidence badge was inverted on 309 questions, live. Fixed, ported to System Analyst, and both apps now lead with the syllabus
+
+**The bug: `provLine()` badged 309 derived answers as coming from an official
+answer key.** It decided by testing `/official/i` against the provenance string —
+but almost every derived string in the System Manager app *ends* "...No official
+MPSC key exists", and the regex matched the word inside the negation.
+
+So the one control whose entire job is telling a reader which answers to distrust
+was telling them the exact opposite, on 309 of 843 questions, in production.
+
+Fixed to test that an official key *exists* rather than that the word appears:
+
+    /official/i.test(prov) && !/\b(?:no|without|never)\s+official/i.test(prov)
+
+Verified in the browser: those questions now render `derived · high/medium/low`,
+and in System Analyst — which has genuinely mixed provenance — the 2024 paper
+still shows 100 blue `official key` badges while the 2021 papers show derived
+with an honest confidence split (60 high / 35 medium / 5 low).
+
+This is a good argument for building the badge before the data rather than after.
+It shipped when every answer in the app was derived, so there was no
+official-key case to contrast against and nothing looked wrong. The bug only
+became visible once a second app with real official keys existed.
+
+**Ported to System Analyst**, which `CLAUDE.md` listed as lacking the badge
+entirely:
+
+- `provLine()` with the negation fix, wired into all three render sites. That app
+  mixes four kinds of answer — 274 from MPSC's published final key, 96 agreed by
+  two independent solvers, 4 from a single unverified solver, and 195 newly
+  blind-solved — and they were previously indistinguishable.
+- The concept→question link now matches the full `paper|unit|sub` triple rather
+  than `paper + sub`. TECH1 reuses the leaf name "Threading" across units, so the
+  collision was live, if narrower than System Manager's six.
+- `rel` cross-links resolve nearest-first (same unit, then paper, then anywhere).
+- `of 727` is derived from the syllabus instead of hardcoded.
+
+`CLAUDE.md`'s known-rough-edges entry is updated, including the warning about the
+negation, since that trap will recur for anyone touching the helper.
+
+**Both apps now open on a Syllabus view.** The first question a candidate has is
+not "how am I doing" — the progress counters read zero before you start — but
+"where are the marks", and in both exams the answer is uneven in a way that
+should drive revision:
+
+- **System Manager**: Unit I of Technical Paper I is 60 of 400 marks, more than
+  Word Processing and Presentation Software combined.
+- **System Analyst**: General English and General Studies are 200 marks that earn
+  **nothing** toward merit and only need 50% to pass, while merit is decided by
+  the three technical papers plus the interview — 700 marks. Revising the wrong
+  200 is a real risk, so the view splits "counts for merit" from "qualifying
+  only" and states the merit total explicitly.
+
+Each unit renders as a row whose background bar is drawn to scale from its marks,
+expanding to the official subtopic list with concept and question counts
+attached. Everything reads from `syllabus.js`, so the marks shown are the
+paper's own.
+
+**Current totals:** System Manager 843 questions / 296 concepts; System Analyst
+857 questions / 727 concepts. Both build clean, `tsc` passes, no console errors.
+
+**What's still open:**
+
+- The 195 new System Analyst questions remain untagged (`unit`/`sub` null), so
+  the Study tab cannot link them to concepts.
+- 26 System Analyst disagreements and 16 System Manager ones await a human call.
+- System Analyst still hardcodes `EXAM_HINT = '2026-11-01'`, an invented date —
+  the same thing fixed in the System Manager fork.
+
+---
+
 ## 2026-08-29 (night) — System Analyst: recovered the 2021 Informatics Officer papers. 857 questions, and the bank's answers for that sitting turn out to be ~29% wrong
 
 **What shipped:** the two missing 2021 Informatics Officer technical papers,

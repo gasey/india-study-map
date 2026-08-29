@@ -84,8 +84,15 @@ cosmetic — a wrong answer teaches the user something false for a real exam.
 - A handful of questions are unanswerable as extracted (missing
   figures/data tables the OCR never captured) and carry low-confidence
   placeholder answers rather than being dropped.
-- Per-question `confidence` is tracked in data but not yet surfaced as a
-  UI badge.
+- ~~Per-question `confidence` is tracked in data but not yet surfaced as a
+  UI badge.~~ **Fixed 2026-08-29** in both the System Analyst and System
+  Manager static apps: a shared `provLine()` helper renders `official key`
+  (blue) when an official answer key exists, else `derived · high/medium/low`
+  from `conf`, or `derived · unrated` when `conf` is absent — so an unrated
+  answer can never read as authoritative by omission. Note the helper must
+  test that an official key *exists*, not that the word "official" appears:
+  most derived provenance strings end "...no official key for this sitting",
+  and a bare `/official/i` badged 309 derived answers as authoritative.
 
 ## Full history
 

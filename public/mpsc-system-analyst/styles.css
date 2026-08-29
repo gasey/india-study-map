@@ -225,6 +225,53 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
 .quiz-head { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-bottom: .9rem; flex-wrap: wrap; }
 .timer { font-family: var(--mono); font-size: 1.05rem; font-weight: 650; }
 .timer.low { color: var(--bad); }
+/* ------------------------------------------------------- syllabus view */
+/* Mark share across the three papers, as one proportional strip. */
+.syl-split { display: flex; gap: 2px; border-radius: var(--radius-s); overflow: hidden; }
+.syl-share {
+  flex: 0 0 var(--pct); background: var(--panel-2); padding: .55rem .7rem;
+  border-top: 3px solid var(--accent); min-width: 0;
+}
+.syl-share strong { display: block; font-size: .82rem; }
+.syl-share span { font-size: .74rem; color: var(--ink-3); }
+
+.syl-units { display: flex; flex-direction: column; gap: 2px; }
+.syl-unit { border-radius: var(--radius-s); overflow: hidden; }
+.syl-unit > summary {
+  cursor: pointer; list-style: none; position: relative;
+  display: grid; grid-template-columns: 1.4rem 1fr auto auto; gap: .5rem;
+  align-items: center; padding: .5rem .6rem; font-size: .88rem;
+  background: var(--panel-2);
+}
+.syl-unit > summary::-webkit-details-marker { display: none; }
+.syl-unit > summary:hover { background: var(--line-2); }
+/* The bar is the point of this view: unit marks, to scale, behind the row. */
+.syl-bar {
+  position: absolute; inset: 0 auto 0 0; width: var(--w);
+  background: var(--accent-soft); z-index: 0;
+}
+.syl-unit > summary > *:not(.syl-bar) { position: relative; z-index: 1; }
+.syl-no { font-weight: 700; color: var(--ink-3); font-size: .78rem; }
+.syl-title { font-weight: 550; }
+.syl-marks { font-weight: 700; font-variant-numeric: tabular-nums; }
+.syl-marks em { font-style: normal; font-weight: 400; font-size: .68rem; color: var(--ink-3); margin-left: .2rem; }
+.syl-meta { grid-column: 2 / -1; font-size: .74rem; color: var(--ink-3); }
+.syl-body { padding: .6rem .9rem .8rem 2rem; background: var(--panel); }
+.syl-sec h5 { margin: .5rem 0 .25rem; font-size: .78rem; text-transform: uppercase;
+  letter-spacing: .04em; color: var(--ink-3); font-weight: 600; }
+.syl-sec ul { margin: 0 0 .3rem; padding-left: 1.1rem; }
+.syl-sec li { font-size: .86rem; color: var(--ink-2); margin: .12rem 0; }
+.syl-elig { padding-left: 1.1rem; margin: .3rem 0 0; }
+.syl-elig li { font-size: .86rem; color: var(--ink-2); margin: .2rem 0; }
+.syl-note {
+  font-size: .78rem; color: var(--ink-3); border-left: 2px solid var(--line);
+  padding-left: .6rem; margin: .7rem 0 0;
+}
+@media (max-width: 620px) {
+  .syl-split { flex-direction: column; }
+  .syl-share { flex: 1 1 auto; }
+}
+
 .qtext { font-size: 1.02rem; font-weight: 550; margin: .3rem 0 1rem; white-space: pre-wrap; }
 .opts { display: grid; gap: .5rem; }
 .opt {

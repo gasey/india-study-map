@@ -155,7 +155,14 @@ function passageBlock(q) {
    CLAUDE.md flags the missing badge as a known gap in the System Analyst app;
    fixed here. Used by every site that renders an explanation. */
 function provLine(q) {
-  const official = q.prov && /official/i.test(q.prov);
+  // The badge must key on an official key EXISTING, not on the word appearing.
+  // Most provenance strings here end "...No official MPSC key exists", and a bare
+  // /official/i matched that negation — 309 derived answers were rendering the
+  // blue "official key" badge, the exact inverse of the truth, on the one control
+  // that tells a reader which answers to distrust.
+  const official = q.prov
+    && /official/i.test(q.prov)
+    && !/\b(?:no|without|never)\s+official/i.test(q.prov);
   const badge = official
     ? '<span class="pill acc">official key</span>'
     : ({

@@ -99,6 +99,36 @@ const shortPaper = pid => ({
 }[pid] || pid);
 
 // answerable questions only (drop voided/undetermined from tests)
+// Denominator for the concept-guide progress line, derived from the syllabus
+// rather than hardcoded so it cannot drift as data lands.
+const TOTAL_SUBTOPICS = SYL.papers.reduce(
+  (n, p) => n + p.units.reduce((m, u) => m + (u.subtopics || []).length, 0), 0);
+
+/* Provenance + confidence line under an answer explanation.
+   This app mixes three very different kinds of answer: 274 from MPSC's published
+   final answer key, 96 agreed by two independent solvers, 4 from a single
+   unverified solver, and now 195 blind-solved from the 2021 papers. Without a
+   badge they all look alike, which is precisely the failure CLAUDE.md names as a
+   known gap. Ported from the System Manager app. */
+function provLine(q) {
+  // Key on an official answer key EXISTING, not on the word appearing. Most of
+  // the derived provenance strings read "...no official key for this sitting",
+  // and a bare /official/i matches that negation — which would badge a derived
+  // answer as authoritative, the exact inverse of the truth.
+  const official = q.prov
+    && /official/i.test(q.prov)
+    && !/\b(?:no|without|never)\s+official/i.test(q.prov);
+  const badge = official
+    ? '<span class="pill acc">official key</span>'
+    : ({
+        high:   '<span class="pill ok">derived · high confidence</span>',
+        medium: '<span class="pill wn">derived · medium confidence</span>',
+        low:    '<span class="pill no">derived · low confidence</span>',
+      }[q.conf] || (q.conf ? '' : '<span class="pill wn">derived · unrated</span>'));
+  const text = esc(q.prov || '') + (q.note ? ' — ' + esc(q.note) : '');
+  return `<div class="prov">${badge}${badge && text ? ' ' : ''}${text}</div>`;
+}
+
 const ANSWERABLE = QS.filter(q => q.ans && q.ans.length === 1);
 
 const conceptKey = c => `${c.paper}|${c.unit}|${c.sub}`;
@@ -186,7 +216,7 @@ function studyOrder(pool) {
 
 /* ================================================================= views */
 const VIEWS = {};
-let currentView = 'dash';
+let currentView = 'syllabus';
 
 function go(v, opts) {
   currentView = v;
@@ -196,6 +226,95 @@ function go(v, opts) {
   window.scrollTo(0, 0);
   (VIEWS[v] || VIEWS.dash)(main, opts || {});
 }
+
+/* -------------------------------------------------------------- syllabus */
+/* The landing view. What a candidate needs before anything else is where the
+   marks are — and for this post the shape is unusual: General English and
+   General Studies are 200 marks that earn NOTHING toward merit and only need
+   50% to pass, while merit is decided entirely by the three technical papers
+   plus the interview. Getting that wrong means revising the wrong 200 marks.
+   Everything here reads from data/syllabus.js. */
+VIEWS.syllabus = (el) => {
+  const merit = SYL.papers.filter(p => p.counts_for_merit);
+  const qual = SYL.papers.filter(p => !p.counts_for_merit);
+  const meritTotal = merit.reduce((a, p) => a + p.marks, 0)
+    + ((SYL.interview && SYL.interview.counts_for_merit && SYL.interview.marks) || 0);
+  const maxUnit = Math.max(...SYL.papers.flatMap(p => p.units.map(u => u.marks)));
+
+  const unitRow = (p, u) => {
+    const qs = ANSWERABLE.filter(q => q.paper === p.id && String(q.unit) === String(u.no)).length;
+    const cs = CON.filter(c => c.paper === p.id && String(c.unit) === String(u.no));
+    const known = cs.filter(c => cState(c).status === 'known').length;
+    return `
+      <details class="syl-unit">
+        <summary>
+          <span class="syl-bar" style="--w:${Math.round(100 * u.marks / maxUnit)}%"></span>
+          <span class="syl-no">${esc(u.no)}</span>
+          <span class="syl-title">${esc(u.title)}</span>
+          <span class="syl-marks">${u.marks}<em>marks</em></span>
+          <span class="syl-meta">${cs.length} concept${cs.length === 1 ? '' : 's'}${known ? ` · ${known} known` : ''} · ${qs} question${qs === 1 ? '' : 's'}</span>
+        </summary>
+        <div class="syl-body">
+          ${(u.subtopics || []).length
+            ? `<ul>${u.subtopics.map(s => `<li>${esc(s)}</li>`).join('')}</ul>`
+            : `<p class="dim">No subtopics listed for this unit.</p>`}
+        </div>
+      </details>`;
+  };
+
+  const paperCardSyl = p => `
+    <div class="card mt">
+      <div class="spread">
+        <h3 style="margin:0">${esc(p.name)}</h3>
+        <span class="pill ${p.counts_for_merit ? 'acc' : 'wn'}">${p.marks} marks${
+          p.counts_for_merit ? ' · counts for merit'
+            : ` · qualifying only, ${p.qualifying_threshold_pct || 50}% to pass`}</span>
+      </div>
+      <p class="dim" style="margin:.4rem 0 .2rem">${esc(p.type || '')}</p>
+      ${p.scope_note ? `<p class="dim" style="margin:.2rem 0 .6rem">${esc(p.scope_note)}</p>` : ''}
+      <div class="syl-units">${p.units.map(u => unitRow(p, u)).join('')}</div>
+      ${p.authority ? `<p class="syl-note">Syllabus authority: ${esc(p.authority)}</p>` : ''}
+    </div>`;
+
+  el.innerHTML = `
+    <h1>Syllabus and mark distribution</h1>
+    <p class="muted">${esc(SYL.post)} · ${esc(SYL.employer)}</p>
+    <p class="muted" style="margin-top:.4rem"><strong>${esc(SYL.scoring_note || '')}</strong></p>
+
+    <div class="syl-split mt">
+      ${merit.map(p => `
+        <div class="syl-share" style="--pct:${Math.round(100 * p.marks / meritTotal)}%">
+          <strong>${esc(shortPaper(p.id))}</strong>
+          <span>${p.marks} marks · ${Math.round(100 * p.marks / meritTotal)}% of merit</span>
+        </div>`).join('')}
+      ${SYL.interview && SYL.interview.marks ? `
+        <div class="syl-share" style="--pct:${Math.round(100 * SYL.interview.marks / meritTotal)}%">
+          <strong>Interview</strong>
+          <span>${SYL.interview.marks} marks · ${Math.round(100 * SYL.interview.marks / meritTotal)}%</span>
+        </div>` : ''}
+    </div>
+    <p class="syl-note">Merit total ${meritTotal} marks. The ${qual.length} qualifying
+      paper${qual.length === 1 ? '' : 's'} below (${qual.reduce((a, p) => a + p.marks, 0)} marks)
+      earn no merit — they only have to be passed.</p>
+
+    <h2 class="mt">Counts for merit</h2>
+    ${merit.map(paperCardSyl).join('')}
+
+    <h2 class="mt">Qualifying only</h2>
+    ${qual.map(paperCardSyl).join('')}
+
+    <div class="card mt">
+      <h3 style="margin:0 0 .5rem">The exam</h3>
+      <table><tbody>
+        ${[['Post', SYL.post], ['Pay', SYL.pay], ['Vacancies', SYL.vacancies],
+           ['Advertisement', SYL.advertisement],
+           ['Selection', (SYL.selection_stages || []).join(' → ')]]
+          .filter(r => r[1]).map(r => `<tr><th style="width:9rem">${esc(r[0])}</th><td>${esc(r[1])}</td></tr>`).join('')}
+      </tbody></table>
+      ${(SYL.eligibility || []).length ? `<h4 class="mt">Eligibility</h4>
+        <ul class="syl-elig">${SYL.eligibility.map(e => `<li>${esc(e)}</li>`).join('')}</ul>` : ''}
+    </div>`;
+};
 
 /* ------------------------------------------------------------- dashboard */
 VIEWS.dash = (el) => {
@@ -240,7 +359,7 @@ VIEWS.dash = (el) => {
       <div class="card">
         <h3>Concept guide</h3>
         <p class="muted" style="font-size:.9rem">
-          ${CON.length} of 727 syllabus sub-topics defined.
+          ${CON.length} of ${TOTAL_SUBTOPICS} syllabus sub-topics defined.
           You have marked <strong>${known}</strong> as known.
         </p>
         <div class="bar good mb"><i style="width:${pct(known, CON.length || 1)}%"></i></div>
@@ -406,8 +525,16 @@ VIEWS.study = (el, opts) => {
     }
     touchConcept(c);
     const st = cState(c);
-    const rel = (c.rel || []).map(r => CON.find(x => x.sub === r)).filter(Boolean);
-    const qn = ANSWERABLE.filter(x => x.paper === c.paper && x.sub === c.sub);
+    // Resolve nearest-first, and match questions on the full paper|unit|sub
+    // triple — the same key conceptKey() uses. Matching paper+sub alone
+    // cross-links wherever a leaf name repeats across units (TECH1 reuses
+    // "Threading"), so a question would surface under the wrong concept.
+    const rel = (c.rel || []).map(r =>
+      CON.find(x => x.sub === r && x.paper === c.paper && x.unit === c.unit)
+      || CON.find(x => x.sub === r && x.paper === c.paper)
+      || CON.find(x => x.sub === r)).filter(Boolean);
+    const qn = ANSWERABLE.filter(x => x.paper === c.paper
+      && String(x.unit) === String(c.unit) && x.sub === c.sub);
     pane.innerHTML = `
       <div class="concept">
         <div class="qmeta mb">
@@ -641,7 +768,7 @@ function browsePaper(qs) {
         <div class="opts">${['A', 'B', 'C', 'D'].filter(k => q.opts[k] != null).map(k => `
           <div class="opt ${q.ans === k ? 'right' : ''}" style="cursor:default">
             <span class="lab">${k}</span><span>${esc(q.opts[k])}</span></div>`).join('')}</div>
-        ${q.exp ? `<div class="expl">${esc(q.exp)}<div class="prov">${esc(q.prov || '')}${q.note ? ' — ' + esc(q.note) : ''}</div></div>` : ''}
+        ${q.exp || q.prov ? `<div class="expl">${q.exp ? esc(q.exp) : ''}${provLine(q)}</div>` : ''}
       </div>`).join('')}
     <button class="btn" id="back2">Back to papers</button>`;
   $('#back').onclick = $('#back2').onclick = () => go('papers');
@@ -886,7 +1013,7 @@ function startQuiz({ title, questions, mode, seconds, onFinish, back }) {
           ${showAns ? `<div class="expl">
             <strong>${picks[i] === q.ans ? 'Correct' : `Incorrect — the answer is ${q.ans}`}.</strong>
             ${q.exp ? ' ' + esc(q.exp) : ''}
-            <div class="prov">${esc(q.prov || '')}${q.note ? ' — ' + esc(q.note) : ''}</div>
+            ${provLine(q)}
           </div>` : ''}
           <div class="row mt">
             <button class="btn" id="prev" ${i === 0 ? 'disabled' : ''}>← Previous</button>
@@ -1016,7 +1143,7 @@ function startQuiz({ title, questions, mode, seconds, onFinish, back }) {
           <div class="opts">${['A', 'B', 'C', 'D'].filter(x => q.opts[x] != null).map(x => `
             <div class="opt ${x === q.ans ? 'right' : x === picks[k] ? 'wrong' : ''}" style="cursor:default">
               <span class="lab">${x}</span><span>${esc(q.opts[x])}</span></div>`).join('')}</div>
-          ${q.exp ? `<div class="expl">${esc(q.exp)}<div class="prov">${esc(q.prov || '')}</div></div>` : ''}
+          ${q.exp || q.prov ? `<div class="expl">${q.exp ? esc(q.exp) : ''}${provLine(q)}</div>` : ''}
         </div>`).join('');
       $('#reviewAll').disabled = true;
     };
@@ -1099,4 +1226,4 @@ function paintCountdown() {
 
 document.documentElement.dataset.theme = S.settings.theme || 'auto';
 paintCountdown();
-go('dash');
+go('syllabus');   // landing view: where the marks are, before anything else

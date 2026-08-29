@@ -1,0 +1,431 @@
+[
+  {
+    "sub": "Information Security Principles",
+    "q": "Which principle of the CIA triad is violated when an attacker alters the amounts stored in a government payroll file?",
+    "opts": {
+      "A": "Confidentiality",
+      "B": "Availability",
+      "C": "Integrity",
+      "D": "Non-repudiation"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Integrity means data must remain accurate and unaltered except by authorised change, so tampering with stored figures is an integrity breach. Confidentiality would be the answer only if the attacker had merely read or disclosed the data without changing it."
+  },
+  {
+    "sub": "Information Security Principles",
+    "q": "Giving a data-entry operator only the access rights needed to do the job, and nothing more, follows which security principle?",
+    "opts": {
+      "A": "Principle of least privilege",
+      "B": "Defence in depth",
+      "C": "Separation of duties",
+      "D": "Security through obscurity"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Least privilege restricts every user, process or account to the minimum permissions required for its task, limiting the damage if that account is misused. Separation of duties is different: it splits one sensitive task between two people so no single person can complete it alone."
+  },
+  {
+    "sub": "Information Security Principles",
+    "q": "Which security service ensures that the sender of a digitally signed message cannot later deny having sent it?",
+    "opts": {
+      "A": "Confidentiality",
+      "B": "Availability",
+      "C": "Access control",
+      "D": "Non-repudiation"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Non-repudiation provides proof of origin that the sender cannot credibly disown, which is why digital signatures are given legal recognition under the IT Act. Access control decides who may reach a resource, but it says nothing about proving after the fact who performed an action."
+  },
+  {
+    "sub": "Cyber Threats and Malware",
+    "q": "Malware that encrypts a victim's files and demands payment in exchange for the decryption key is called",
+    "opts": {
+      "A": "Spyware",
+      "B": "Ransomware",
+      "C": "Adware",
+      "D": "Rootkit"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Ransomware's defining behaviour is encrypting or locking the victim's data and extorting a payment to release it. Spyware also runs secretly, but its purpose is to collect and transmit information rather than to deny the owner access to it."
+  },
+  {
+    "sub": "Cyber Threats and Malware",
+    "q": "A program that appears to be a useful utility but secretly carries malicious code inside it is best described as a",
+    "opts": {
+      "A": "Worm",
+      "B": "Logic bomb",
+      "C": "Trojan horse",
+      "D": "Boot sector virus"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "A Trojan horse is defined by disguise: the user is tricked into installing it because it looks legitimate. A worm needs no such disguise and no user action at all, since it spreads by itself across a network."
+  },
+  {
+    "sub": "Cyber Threats and Malware",
+    "q": "An email that appears to come from the user's bank and asks him to click a link and enter his net-banking password is an example of",
+    "opts": {
+      "A": "Phishing",
+      "B": "Denial-of-service attack",
+      "C": "SQL injection",
+      "D": "Session hijacking"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Phishing uses a forged but convincing message to persuade the victim to hand over credentials or open a malicious link. A denial-of-service attack is aimed at making a service unavailable, not at deceiving a user into revealing a password."
+  },
+  {
+    "sub": "Firewalls",
+    "q": "The primary function of a firewall in a network is to",
+    "opts": {
+      "A": "scan stored files against a database of virus signatures",
+      "B": "control traffic passing between networks according to a set of rules",
+      "C": "encrypt every packet that leaves the organisation",
+      "D": "take periodic backups of server data to a remote site"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "A firewall sits at a network boundary and permits or blocks traffic by comparing it with a configured rule set (addresses, ports, protocols, connection state). Encryption of traffic is the job of protocols such as TLS or a VPN, which is a separate function from filtering."
+  },
+  {
+    "sub": "Firewalls",
+    "q": "What distinguishes a stateful inspection firewall from a simple packet-filtering firewall?",
+    "opts": {
+      "A": "It filters traffic using only the source IP address of each packet",
+      "B": "It keeps a permanent copy of every packet it forwards",
+      "C": "It operates without any configured rule set",
+      "D": "It tracks active connections and judges each packet in the context of its session"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Stateful inspection maintains a connection table, so a reply packet is allowed only if it belongs to a session the firewall has already seen being established. A plain packet filter has no such memory and decides on each packet's header fields in isolation."
+  },
+  {
+    "sub": "Firewalls",
+    "q": "A firewall configured to block all traffic except that which is explicitly permitted is following a",
+    "opts": {
+      "A": "default-deny policy",
+      "B": "default-allow policy",
+      "C": "transparent bridging policy",
+      "D": "port mirroring policy"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Default-deny (implicit deny) means anything not matched by an allow rule is dropped, which is the recommended secure baseline. A default-allow policy is the opposite and leaves any service the administrator forgot to block exposed."
+  },
+  {
+    "sub": "Antivirus and Endpoint Protection",
+    "q": "Signature-based antivirus detection works by",
+    "opts": {
+      "A": "comparing the size of every file with a stored backup copy",
+      "B": "preventing all executable files from running on the machine",
+      "C": "matching files against a database of known malware patterns",
+      "D": "encrypting suspicious files so that they cannot execute"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "A signature is a pattern extracted from known malware, so detection depends on the local signature database being kept up to date. This is also its weakness: a sample the vendor has not yet catalogued will not match any signature."
+  },
+  {
+    "sub": "Antivirus and Endpoint Protection",
+    "q": "Which antivirus capability is most likely to detect a brand-new (zero-day) malware sample for which no signature has been released?",
+    "opts": {
+      "A": "On-demand scanning using the existing signature database",
+      "B": "Behaviour-based (heuristic) analysis",
+      "C": "The quarantine folder",
+      "D": "A scheduled weekly full-disk scan"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Heuristic and behavioural engines flag suspicious actions such as mass file encryption or injection into system processes, so they can catch malware that has no signature yet. Quarantine is only where a file is isolated after it has already been detected."
+  },
+  {
+    "sub": "Antivirus and Endpoint Protection",
+    "q": "In endpoint protection, the abbreviation EDR stands for",
+    "opts": {
+      "A": "Encrypted Data Recovery",
+      "B": "Enterprise Device Registry",
+      "C": "Endpoint Data Replication",
+      "D": "Endpoint Detection and Response"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "EDR is Endpoint Detection and Response: it continuously records endpoint activity so an administrator can detect, investigate and respond to an intrusion, going beyond the block-or-clean model of classic antivirus. The other expansions are not standard security terms."
+  },
+  {
+    "sub": "Multi-factor Authentication (MFA)",
+    "q": "Which of the following login methods is a genuine example of two-factor authentication?",
+    "opts": {
+      "A": "A password plus a one-time password sent to the user's registered mobile number",
+      "B": "A password plus an answer to a security question",
+      "C": "A password plus a numeric PIN",
+      "D": "A long password that the user changes every month"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Two-factor authentication needs evidence from two different categories, and a password (something you know) with an OTP on a registered phone (something you have) qualifies. A password with a PIN or a security answer is still two pieces of remembered knowledge, so it remains single-factor."
+  },
+  {
+    "sub": "Multi-factor Authentication (MFA)",
+    "q": "A fingerprint scan used at login belongs to which category of authentication factor?",
+    "opts": {
+      "A": "Something you know",
+      "B": "Something you have",
+      "C": "Something you are",
+      "D": "Something you configure"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Biometrics such as fingerprint, iris or face are inherence factors: something you are. A smart card or an OTP token would be a possession factor, something you have."
+  },
+  {
+    "sub": "Multi-factor Authentication (MFA)",
+    "q": "Why is multi-factor authentication recommended for government email and eOffice accounts?",
+    "opts": {
+      "A": "It removes the need for antivirus software on the user's computer",
+      "B": "An attacker who steals the password still cannot log in without the second factor",
+      "C": "It allows the same password to be safely reused on many systems",
+      "D": "It encrypts all mail already stored on the server"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "MFA's value is that a leaked, guessed or phished password is no longer sufficient by itself, because the attacker also lacks the registered device or biometric. It does not encrypt stored data and does not make password reuse safe, since a reused password still exposes every other account."
+  },
+  {
+    "sub": "Encryption",
+    "q": "In symmetric key encryption,",
+    "opts": {
+      "A": "the sender and receiver each use a mathematically related key pair",
+      "B": "the encryption key is published openly in a directory",
+      "C": "no key is needed at the receiver's end",
+      "D": "the same secret key is used both to encrypt and to decrypt the data"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Symmetric encryption uses one shared secret key for both operations, which makes it fast but creates the problem of distributing that key securely. A related public and private key pair is the defining feature of asymmetric (public-key) encryption instead."
+  },
+  {
+    "sub": "Encryption",
+    "q": "Which of the following is a public-key (asymmetric) encryption algorithm?",
+    "opts": {
+      "A": "AES",
+      "B": "3DES",
+      "C": "RSA",
+      "D": "Blowfish"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "RSA is a public-key algorithm built on a public/private key pair and is widely used for key exchange and digital signatures. AES, 3DES and Blowfish are all symmetric block ciphers that use a single shared key."
+  },
+  {
+    "sub": "Encryption",
+    "q": "Full-disk encryption on an office laptop mainly protects",
+    "opts": {
+      "A": "data at rest, if the laptop is lost or stolen",
+      "B": "data in transit while the user browses the internet",
+      "C": "the laptop against malware infection",
+      "D": "email attachments after they leave the laptop"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Full-disk encryption keeps the stored contents unreadable to anyone who cannot supply the key, which is why it is the standard control against theft of a device. Protecting data in transit is the job of TLS or a VPN, and once the user has logged in the operating system sees files normally, so it is no defence against malware."
+  },
+  {
+    "sub": "Digital Certificates",
+    "q": "A digital certificate primarily binds",
+    "opts": {
+      "A": "a password to a user name",
+      "B": "an IP address to a MAC address",
+      "C": "a file to its hash value",
+      "D": "a public key to the identity of its owner"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "A certificate is a signed statement from a trusted Certifying Authority that a particular public key belongs to a named person, organisation or server. Binding a file to its hash value is what a message digest or checksum does, and no certificate is required for that."
+  },
+  {
+    "sub": "Digital Certificates",
+    "q": "In India, the Certifying Authorities that issue Digital Signature Certificates are licensed and regulated by the",
+    "opts": {
+      "A": "Indian Computer Emergency Response Team (CERT-In)",
+      "B": "Controller of Certifying Authorities (CCA)",
+      "C": "Telecom Regulatory Authority of India (TRAI)",
+      "D": "Unique Identification Authority of India (UIDAI)"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "The Controller of Certifying Authorities, established under the Information Technology Act, licenses and supervises the Certifying Authorities that issue Digital Signature Certificates in India. CERT-In is the incident-response agency and has no role in licensing Certifying Authorities."
+  },
+  {
+    "sub": "Digital Certificates",
+    "q": "A digital certificate that must be treated as invalid before its stated expiry date is published in the",
+    "opts": {
+      "A": "Certificate Revocation List (CRL)",
+      "B": "Certificate Signing Request",
+      "C": "root certificate store",
+      "D": "trusted certificate chain"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "When a certificate is compromised or its holder leaves, the Certifying Authority revokes it and lists it in a Certificate Revocation List that verifiers can consult. A Certificate Signing Request runs in the opposite direction: it is the application a subscriber submits to obtain a certificate in the first place."
+  },
+  {
+    "sub": "Public Key Infrastructure (PKI)",
+    "q": "In a PKI, data that has been encrypted with a user's public key can be decrypted only with",
+    "opts": {
+      "A": "the same public key",
+      "B": "the Certifying Authority's public key",
+      "C": "that user's private key",
+      "D": "a shared session password agreed in advance"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "The two keys of a pair are complementary, so what one key locks only its partner can unlock; anyone may encrypt with the freely published public key, but only the holder of the matching private key can read the result. The public key cannot decrypt its own output, which is exactly why it can be published."
+  },
+  {
+    "sub": "Public Key Infrastructure (PKI)",
+    "q": "Which component of a Public Key Infrastructure issues and digitally signs certificates?",
+    "opts": {
+      "A": "The Registration Authority",
+      "B": "The Certifying Authority",
+      "C": "The Certificate Revocation List",
+      "D": "The key escrow service"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "The Certifying (Certificate) Authority is the trusted issuer: it signs each certificate with its own private key, and that signature is what relying parties verify. A Registration Authority only handles verification of the applicant's identity and forwards the request; it does not sign certificates."
+  },
+  {
+    "sub": "Public Key Infrastructure (PKI)",
+    "q": "When a user digitally signs a document, the signature is created using",
+    "opts": {
+      "A": "the recipient's public key",
+      "B": "a symmetric session key",
+      "C": "the recipient's private key",
+      "D": "the signer's own private key"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Signing is done with the signer's private key, and anyone can then verify the signature using the signer's public key from the certificate. The recipient's public key is used for confidentiality (encrypting a message to that recipient), which is a different operation from signing."
+  },
+  {
+    "sub": "Vulnerability Assessment",
+    "q": "The main purpose of a vulnerability assessment is to",
+    "opts": {
+      "A": "identify and rank known security weaknesses in systems and applications",
+      "B": "restore service after an unplanned outage",
+      "C": "measure the peak bandwidth utilisation of the network",
+      "D": "verify that user software licences are valid"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "A vulnerability assessment systematically discovers known weaknesses such as missing patches, weak configurations and default passwords, and prioritises them by severity so they can be remediated. Restoring service after an outage belongs to incident response and business continuity, not to assessment."
+  },
+  {
+    "sub": "Vulnerability Assessment",
+    "q": "How does penetration testing differ from a vulnerability assessment?",
+    "opts": {
+      "A": "It is performed automatically by antivirus software",
+      "B": "It examines only physical security of the server room",
+      "C": "It actively attempts to exploit weaknesses to prove they can really be used",
+      "D": "It never makes use of automated tools"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "A vulnerability assessment reports what appears weak, while a penetration test goes further and tries to exploit those weaknesses to demonstrate real, exploitable impact. Penetration testers do use automated tools; the distinction lies in active exploitation, not in the tooling."
+  },
+  {
+    "sub": "Vulnerability Assessment",
+    "q": "Which of the following is commonly used as a vulnerability scanning tool?",
+    "opts": {
+      "A": "Wireshark",
+      "B": "Nessus",
+      "C": "FileZilla",
+      "D": "PuTTY"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Nessus is a well-known vulnerability scanner that probes hosts and reports missing patches and insecure configurations. Wireshark is a packet analyser used to capture and inspect network traffic, which helps in diagnosis but does not scan systems for vulnerabilities."
+  },
+  {
+    "sub": "Patch Management",
+    "q": "The main security purpose of patch management is to",
+    "opts": {
+      "A": "add new features requested by users",
+      "B": "increase the free disk space on servers",
+      "C": "reduce the electricity consumed by the data centre",
+      "D": "close known vulnerabilities by keeping software up to date"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Patch management is the controlled process of identifying, testing and deploying vendor fixes so that publicly known vulnerabilities are removed before attackers exploit them. Patches may sometimes add features as well, but that is incidental and not the security objective."
+  },
+  {
+    "sub": "Patch Management",
+    "q": "Why should a patch normally be applied in a test environment before it is rolled out to production servers?",
+    "opts": {
+      "A": "Because patches stop working after a fixed period",
+      "B": "Because testing reduces the download size of the patch",
+      "C": "Because a patch can break compatibility with existing applications",
+      "D": "Because vendors require written permission before installation"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "A patch changes working software, so it can disrupt an in-house or legacy application; testing on a representative system first catches such breakage before it affects users. Testing has no effect on the patch's size, and no vendor permission is needed to install a released update."
+  },
+  {
+    "sub": "Patch Management",
+    "q": "Which Microsoft service allows an administrator to centrally approve and distribute Windows updates to computers on a local network?",
+    "opts": {
+      "A": "Windows Server Update Services (WSUS)",
+      "B": "Active Directory Domain Services",
+      "C": "Windows Defender Firewall",
+      "D": "Remote Desktop Services"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "WSUS downloads updates once from Microsoft and lets the administrator approve and push them to client machines, saving bandwidth and giving control over what is installed. Active Directory Domain Services handles identity, authentication and directory objects, not update distribution."
+  },
+  {
+    "sub": "Incident Response",
+    "q": "In incident response, isolating an infected machine from the network so that the problem does not spread further is part of which phase?",
+    "opts": {
+      "A": "Eradication",
+      "B": "Recovery",
+      "C": "Lessons learned",
+      "D": "Containment"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Containment is the phase that limits the damage and stops the incident spreading, typically by disconnecting or segregating affected systems. Eradication comes afterwards and means actually removing the malware or closing the flaw that was exploited."
+  },
+  {
+    "sub": "Incident Response",
+    "q": "The national nodal agency for responding to computer security incidents in India is",
+    "opts": {
+      "A": "NIC",
+      "B": "CERT-In",
+      "C": "C-DAC",
+      "D": "STQC"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "CERT-In, the Indian Computer Emergency Response Team, is the national nodal agency for cyber security incident reporting, alerts and coordinated response. NIC provides IT infrastructure and services to government departments, but it is not the incident-response nodal agency."
+  },
+  {
+    "sub": "Incident Response",
+    "q": "Why are system logs and disk images preserved while a security incident is being handled?",
+    "opts": {
+      "A": "To free up disk space on the affected server",
+      "B": "To improve the speed of the network after the attack",
+      "C": "To support forensic analysis and any later legal action",
+      "D": "To allow the antivirus to update its signature database"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Logs and forensic images are the evidence that shows how the attacker got in and what was touched, and they must be preserved intact for investigation and possible prosecution. Rebuilding a machine before capturing this evidence destroys it permanently, which is why preservation comes before cleanup."
+  }
+]

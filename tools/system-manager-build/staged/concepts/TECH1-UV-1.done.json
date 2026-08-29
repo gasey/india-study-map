@@ -1,0 +1,210 @@
+[
+  {
+    "paper": "TECH1",
+    "unit": "V",
+    "unitTitle": "Presentation Software",
+    "sub": "Presentation Design",
+    "def": "Presentation design is deciding what goes on a slide and how it is arranged, so that a room full of people can take it in while still listening to you. The governing rule is signal to noise: one idea per slide, few words, and every element on the slide earning its place.",
+    "exp": "The commonest failure is the slide written as a document. Paragraphs are pasted on, the speaker turns and reads them aloud, and the audience stops listening - people read faster than you speak, so they finish the slide and then wait. A slide carries the headline and the evidence; you supply the sentences. Detail that must be recorded belongs in the speaker notes or a handout, not on the projected slide.\n\nWorking rules. One idea per slide. Short phrases rather than full sentences. Type large enough to read from the back of the hall. Strong contrast between text and background. At most two typefaces, set once on the slide master. Leave white space; a crowded slide reads as noise.\n\nMechanics you are expected to know. PowerPoint slides default to landscape orientation, since they are meant for a wide screen; portrait must be chosen deliberately. Ctrl+M inserts a new slide. Slide Sorter view shows thumbnails of every slide on one screen, which is where you reorder and delete in bulk and where an overlong deck becomes obvious. Grouping several objects makes them behave as one, so moving, resizing or formatting acts on all of them and their relative positions are preserved. Holding Shift while dragging a corner sizing handle keeps the height-to-width ratio, so a photograph is not stretched out of shape.",
+    "facts": [
+      "The default slide orientation in PowerPoint is landscape; portrait has to be selected in slide setup",
+      "Ctrl+M inserts a new slide in the open presentation",
+      "Slide Sorter view (View, Slide Sorter) shows all slides as thumbnails on one screen for reordering and deleting",
+      "Grouping combines objects into one so that moving, resizing or formatting acts on all of them together and preserves their relative positions",
+      "Holding Shift while dragging a corner sizing handle resizes an object in proportion",
+      "Detail the audience must retain goes in the speaker notes or the handout, not on the projected slide"
+    ],
+    "traps": [
+      "Ctrl+M inserts a slide; Ctrl+N creates a whole new presentation file and Ctrl+S saves. They are not interchangeable",
+      "Slide Sorter shows all slides at once; Slide Show runs them full screen one at a time and Slide Master edits the design. Only Slide Sorter answers 'see all the slides on one screen'",
+      "Dragging a corner sizing handle on its own does not preserve the ratio - the Shift key is what constrains it",
+      "Grouping is for handling objects together, not for aligning them; alignment is a separate Arrange command"
+    ],
+    "mnem": "",
+    "rel": ["Slide Master", "Templates and Themes", "Presentation Delivery"]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "V",
+    "unitTitle": "Presentation Software",
+    "sub": "Templates and Themes",
+    "def": "A theme is a coordinated look - a colour set, a heading and body font pair, and shape and picture effects - that is applied to a presentation you already have. A template is a starting file that already contains layouts, a theme and often sample content; you create a new presentation from it. In the older PowerPoint wording still used by exam papers, the design template is what supplies ready-made font colours, background and graphics effects.",
+    "exp": "Themes. Applied from the Design tab, a theme changes the whole deck at once, and each theme offers variants that swap the colour scheme without changing the layout. Because charts, SmartArt and shapes take their colours from the theme colour slots rather than fixed colours, switching theme recolours them automatically. Fonts work the same way, through a heading font and a body font. A theme does not create a file.\n\nTemplates. A template is saved as a PowerPoint template file rather than a presentation. Opening it produces a new presentation based on it and leaves the template itself untouched, which is why a department keeps one official template carrying the emblem, department name, standard title slide and approved colours - every officer starts from the same file and the decks match. PowerPoint also ships built-in and online templates.\n\nHow they relate. Both are ultimately expressed through the slide master, which is where the background, placeholder positions and fonts actually live; a template is a file containing masters, and a theme is the look those masters carry. That is the distinction an examiner tests: a theme is a look, a template is a starting file, and the slide master is the underlying layout definition.",
+    "facts": [
+      "A theme is a set of colours, fonts and effects; a template is a file you start a new presentation from",
+      "Applying a theme changes an existing presentation; opening a template creates a new presentation and leaves the template unchanged",
+      "'Design template' is the older term for the ready-made colour scheme, fonts and background graphics applied to a presentation",
+      "Theme colours feed charts, SmartArt and shapes, so changing the theme recolours them without editing each object",
+      "A theme defines a heading font and a body font, applied through the slide master"
+    ],
+    "traps": [
+      "Theme versus template - a theme is applied to a deck you already have, a template is opened to make a new deck. A template contains a theme; a theme is not a template",
+      "Theme versus slide master - the theme is the look, the slide master is where that look is defined and edited. Answering 'master slide' to a question about ready-made colours and graphics is the standard distractor",
+      "Applying a new theme changes appearance only; it does not add, remove or rewrite your slide content"
+    ],
+    "mnem": "",
+    "rel": ["Slide Master", "Presentation Design"]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "V",
+    "unitTitle": "Presentation Software",
+    "sub": "Slide Master",
+    "def": "The slide master is the top slide in a hidden hierarchy that stores the design of the presentation - background, theme colours and fonts, the position and size of every placeholder, bullet styles, and anything that must repeat on every slide such as a logo, footer, date or slide number. Change the master once and every slide built on it follows. It is opened from View, Slide Master.",
+    "exp": "The hierarchy. One slide master sits at the top; beneath it hang the layouts - Title Slide, Title and Content, Two Content, Comparison, Blank and the rest. The master holds what is common to all of them; each layout holds the arrangement for one kind of slide. Edit the master and the change flows down to every layout and every slide using it. Edit a single layout and only slides using that layout change. A presentation can hold more than one slide master, one for each design template in use - the slide master together with its matching title master for a given template is what older papers call a slide-title master pair.\n\nThis is the highest-value habit in the unit. To put a background image, a departmental emblem or a footer on all slides, put it on the master once. Pasting it onto each slide by hand falls apart: the next new slide does not have it, one copy sits three pixels off, and correcting it means opening forty slides.\n\nOther masters. The handout master controls the layout of printed audience handouts - how many slides to a page, plus header, footer, date and page number. The notes master controls the printed notes page. Neither of them formats the slides themselves.",
+    "facts": [
+      "The slide master is opened from View, Slide Master; it defines background, placeholder positions, fonts, bullet styles and repeating items like logos, footers and slide numbers",
+      "Editing the slide master propagates the change to every slide that follows it; editing one layout affects only the slides using that layout",
+      "Adding a background image to the slide master is the correct way to give all slides a uniform appearance",
+      "The handout master defines the layout of the printed audience handout - slides per page, headers, footers, date and page numbers",
+      "A slide-title master pair is a slide master with its matching title master belonging to one design template, so a deck using several templates has several pairs",
+      "A single presentation can contain more than one slide master"
+    ],
+    "traps": [
+      "Slide master versus theme versus template - the master is the underlying layout definition stored in the file, the theme is the look it carries, and the template is a separate starting file",
+      "The handout master governs printed handouts only. It does not control slide formatting, so 'all of the above' is wrong on that question",
+      "Pasting a logo onto every slide is not the same as putting it on the master - hand-placed copies are not maintained and are missing from any slide added later",
+      "Changing one ordinary slide never changes the master; the influence runs downward only, from master to layout to slide"
+    ],
+    "mnem": "",
+    "rel": ["Templates and Themes", "Presentation Design"]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "V",
+    "unitTitle": "Presentation Software",
+    "sub": "SmartArt",
+    "def": "SmartArt is the built-in library of ready-made diagrams in PowerPoint - lists, process chains, cycles, hierarchies, relationship, matrix, pyramid and picture layouts. You type into a text pane and the shapes size themselves, space themselves and connect themselves, so a diagram is produced without drawing boxes and arrows by hand.",
+    "exp": "Choosing the category is the examinable part, because each one asserts something different about the items. List groups items that have no order. Process shows steps running in one direction from a beginning to an end - the five stages a file passes through from receipt to disposal is a Process. Cycle shows stages that return to the start and repeat with no end. Hierarchy shows reporting or containment, which is how an organisation chart is drawn. Relationship shows how items connect or overlap, including Venn layouts. Matrix splits a whole into four quadrants. Pyramid shows layers or proportional levels. Picture layouts build the diagram around images.\n\nConverting bullets. Select a text placeholder, right-click and choose Convert to SmartArt. The existing bullet text is kept and each point becomes the label inside a shape of the chosen diagram; nothing is deleted and the conversion can be reversed back to text. Indent level in the text pane maps to level in the diagram, so demoting a line turns it into a sub-shape under the one above.\n\nAfterwards you can switch to a different layout without retyping, add or remove shapes, and change colours - which follow the theme colours, so the diagram stays consistent with the rest of the deck. Use SmartArt where the relationship between points is the message; a wall of six bullets rarely is.",
+    "facts": [
+      "Process shows steps running one way from start to finish; Cycle shows stages that repeat with no end; Hierarchy is the organisation-chart layout; Relationship shows how items connect",
+      "Convert to SmartArt keeps the existing bullet text and places each point inside a shape of the chosen diagram",
+      "SmartArt content is typed and edited in a text pane, where indent level sets the shape's level in the diagram",
+      "Switching to a different SmartArt layout keeps the text - it is not retyped",
+      "SmartArt colours follow the presentation's theme colours"
+    ],
+    "traps": [
+      "Process versus Cycle - Cycle is for stages that come back round and repeat. A start-to-finish office workflow such as receipt to disposal is a Process, and Cycle is the planted distractor",
+      "Converting bullets to SmartArt does not delete the bullets or insert an empty diagram for you to fill in; the text carries over as the shape labels",
+      "SmartArt is a diagram of text and structure, not a plot of numbers. Values and quantities belong in a chart",
+      "Hierarchy shows reporting lines, not sequence; a five-step procedure drawn as a Hierarchy claims something false about the steps"
+    ],
+    "mnem": "",
+    "rel": ["Charts", "Presentation Design"]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "V",
+    "unitTitle": "Presentation Software",
+    "sub": "Charts",
+    "def": "A chart on a slide plots numbers as a picture. Insert, Chart opens a small worksheet that holds the chart's data inside the presentation. The examinable skill is not formatting but choosing the chart type that fits the question the data answers, since the type itself makes a claim about the numbers.",
+    "exp": "Matching type to data. A pie chart shows parts of one whole, so a department's annual budget split among its four heads is a pie - each head is its share of the total. It works only when the parts add up to the whole and there are few of them. A column or bar chart compares quantities across categories - spending by district, applications by office. A line chart shows change over time, read left to right; an area chart is the same idea with the space beneath filled. A scatter or XY chart shows the relationship between two numeric variables, not a sequence of categories. A stacked column shows composition and total together.\n\nGetting the data in. Charts can be built in PowerPoint, or copied from an Excel workbook. The paste options matter. Embedding stores a copy of the workbook data inside the presentation, so the deck travels complete. Linking keeps a connection to the source workbook, so when a figure in that workbook is corrected the chart on the slide can be refreshed to show it - but the link fails if the workbook is moved, renamed or not carried along. Pasting as a picture gives a fixed image that can never update.\n\nReadability. Label the axes, avoid three-dimensional effects that distort the comparison, and give each chart one message.",
+    "facts": [
+      "Pie chart - parts of a single whole; line chart - change over time; bar or column chart - comparison across categories; scatter (XY) - relationship between two numeric variables",
+      "A chart pasted with the linking option can be refreshed to show corrected figures from the source workbook",
+      "An embedded chart carries a copy of its data inside the presentation, so it travels with the file",
+      "A chart pasted as a picture is a fixed image and cannot be updated or edited",
+      "Insert, Chart in PowerPoint opens a small worksheet in which the chart's data is entered"
+    ],
+    "traps": [
+      "Pie versus line - a pie divides one total at one moment, a line tracks movement across time. A budget split is a pie; a five-year trend is not",
+      "A pasted chart is not automatically a picture. Whether it can update depends on the paste option chosen - linked updates, embedded holds its own copy, picture is frozen",
+      "A linked chart breaks the same way linked media does: move or rename the source workbook and the slide can no longer refresh from it",
+      "A pie with a dozen slices, or one whose values do not sum to a whole, is the wrong chart however neatly it is formatted"
+    ],
+    "mnem": "",
+    "rel": ["SmartArt", "Multimedia"]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "V",
+    "unitTitle": "Presentation Software",
+    "sub": "Multimedia",
+    "def": "Multimedia on a slide means inserted audio and video. The decisive question is how the media is stored: an embedded file is copied inside the presentation file itself, while a linked file is only pointed to and continues to live separately on disk.",
+    "exp": "Embed or link. Embedding makes the deck self-contained - it plays on any machine you copy it to, at the cost of a larger file. Linking stores only a path to the media, so the presentation stays small but depends on that file being where the path says. This produces the classic failure: the video plays perfectly on the computer where the slides were made, then the presentation file alone is copied to another laptop and the video will not play, because the media never travelled with it. Renaming or moving the media on the original machine breaks it the same way. The remedy is to embed it, or to keep the media file in the presentation's own folder and copy the whole folder.\n\nPlayback settings. Audio and video can start On Click, Automatically, or in click sequence. Play Across Slides lets a single audio clip keep playing as the show moves on to the following slides, which is how background music is set up - it does not copy the file onto each slide. Loop until Stopped repeats the clip, Hide During Show conceals the speaker icon, Rewind after Playing returns to the start, and Trim cuts unwanted material off the beginning and end without editing the original file.\n\nAn online video inserted by address is not stored in the deck at all and needs a working internet connection in the hall at the moment you present.",
+    "facts": [
+      "An embedded audio or video file is stored inside the presentation; a linked file is stored only as a path to a file elsewhere",
+      "'Play across slides' lets one audio clip continue playing as the show advances to later slides",
+      "Media can be set to start On Click or Automatically, and audio can be looped until stopped and hidden during the show",
+      "Trim shortens the clip as used in the presentation without altering the original media file",
+      "An online video inserted by its web address requires an internet connection at the time of delivery"
+    ],
+    "traps": [
+      "A video that plays on the authoring machine but not elsewhere is almost always linked, not embedded - the file was left behind. This is the standard scenario question",
+      "'Play across slides' does not put a copy of the audio on every slide; there is still one clip, allowed to continue",
+      "Embedding increases the presentation's file size; it does not improve or change the quality of the clip",
+      "An inserted online video is not an embedded video - no connection in the hall means no playback"
+    ],
+    "mnem": "",
+    "rel": ["Animation", "Recording Presentations"]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "V",
+    "unitTitle": "Presentation Software",
+    "sub": "Animation",
+    "def": "An animation is a motion effect applied to an object within a single slide - a title, a bullet list, a picture, a chart - governing how that object appears, is emphasised, moves or leaves while the slide stays on screen. Movement inside a slide is animation; movement from one slide to the next is a transition.",
+    "exp": "Four kinds. An Entrance effect brings an object onto the slide (Appear, Fade, Fly In). An Emphasis effect draws attention to an object already visible (Pulse, Spin, a colour change). An Exit effect takes it away. A Motion Path sends it travelling along a line you draw. Older PowerPoint calls a ready-made set of such effects an Animation Scheme, and the per-object pane a custom animation; papers drawn from those versions still use both terms.\n\nControl. The Animation Pane lists every effect in the order it will play, and effects are reordered there. Each has a Start setting - On Click, With Previous (simultaneously with the effect before it) or After Previous (automatically once that effect finishes) - plus a Duration and a Delay. Effect Options set direction and, for a text box, whether paragraphs animate one at a time or all at once. The Animation Painter copies a set of effects from one object to another.\n\nA trigger is an object on the slide that starts an animation when it is clicked, letting an effect run out of the normal sequence - the way a question slide reveals its answer only when you click the answer box.\n\nUse animation for sequencing, so a point appears at the moment you speak it. Decorative motion on every bullet slows the talk and irritates an audience.",
+    "facts": [
+      "The four animation types are Entrance, Emphasis, Exit and Motion Path",
+      "Animation applies motion effects to the objects on a slide; the older feature name for ready-made sets of these is Animation Scheme",
+      "A trigger is an object on the slide that performs an action, starting an animation, when it is clicked",
+      "Start options are On Click, With Previous and After Previous; each effect also has a Duration and a Delay",
+      "The Animation Pane shows and reorders the play sequence of the effects on a slide"
+    ],
+    "traps": [
+      "Animation acts on objects within one slide; a slide transition acts between slides. A question about motion effects on 'different objects of a slide' is animation, not transition",
+      "A trigger is an object that starts an effect when clicked. An action button that simply advances to the next slide is not a trigger",
+      "With Previous starts at the same time as the preceding effect; After Previous waits for it to finish. Choosing the wrong one is why an animation appears to be missing",
+      "Slide Design and Slide Transition are not animation features, though both appear as distractors"
+    ],
+    "mnem": "",
+    "rel": ["Morph Transition", "Presentation Design"]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "V",
+    "unitTitle": "Presentation Software",
+    "sub": "Morph Transition",
+    "def": "A transition is the special effect that plays as one slide gives way to the next. Morph is one particular transition: it compares two consecutive slides and interpolates each object that appears on both, gliding it from its old position, size, colour or rotation to the new one, so the audience sees smooth movement rather than a cut.",
+    "exp": "Transitions in general. They are applied from the Transitions tab to the incoming slide, and include Fade, Push, Wipe, Wheel, Dissolve and many others. Each has a Duration, optional sound, and Effect Options for direction. Apply To All puts the same transition on every slide. Advance Slide sets whether the show moves on when you click or automatically after a set time.\n\nHow Morph is used. Duplicate a slide, then on the copy move, resize, recolour or rotate the objects, and apply Morph to that second slide. PowerPoint matches the objects between the two slides - a duplicated object, or one carrying the same name - and animates each from where it was to where it now is. Text can be set to morph by word or by character. If no objects match, Morph has nothing to interpolate and falls back to a plain fade. It is the neat way to zoom into part of a diagram, reorder items, or walk through a process without drawing motion paths.\n\nThe examinable line is within versus between. An animation moves things inside one slide. A transition moves you from one slide to the next. Morph is confusing precisely because it looks like animation, yet it is a transition, and it is applied to the second of the two slides.",
+    "facts": [
+      "The special effects used to introduce one slide after another are called transitions; they are applied from the Transitions tab",
+      "Morph interpolates objects that exist on both of two consecutive slides, animating position, size, colour and rotation between them",
+      "Morph is applied to the second slide of the pair, after duplicating the first and rearranging it",
+      "Apply To All puts one transition on every slide; Advance Slide sets whether the show moves on by mouse click or automatically after a set time",
+      "If Morph finds no matching objects between the two slides it behaves like a fade"
+    ],
+    "traps": [
+      "Transition versus animation - transitions run between slides, animations run within a slide. 'Special effects used to introduce slides' means transitions, and 'custom animations' is the planted distractor",
+      "Morph applied to the first slide of the pair does nothing useful; the effect belongs on the slide you are moving to",
+      "Morph does not invent movement - it needs the same objects present on both slides, usually by duplicating the slide first",
+      "A transition is a property of a slide, not of an object; you cannot apply one to a picture"
+    ],
+    "mnem": "",
+    "rel": ["Animation", "Presentation Delivery"]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "V",
+    "unitTitle": "Presentation Software",
+    "sub": "Presenter View",
+    "def": "Presenter View is the two-screen delivery mode. With the laptop connected to a projector or second display, the audience screen carries only the current slide, filling the screen, while the presenter's own laptop screen shows a private panel - the current slide, a preview of what comes next, the speaker notes, the time elapsed and a timer, and controls for running the show.",
+    "exp": "What is on the presenter's screen. The current slide; a preview of the next slide or next animation, so you know what you are about to say; the speaker notes for the current slide in a pane whose text size you can enlarge; a clock and an elapsed-time timer that can be paused and reset; and delivery tools - See All Slides to jump straight to a slide by thumbnail, zoom into part of a slide, black or unblack the screen, and a pen, highlighter or laser pointer to mark up the slide live. None of this reaches the projector.\n\nSetting it up. Connect the second display and set Windows to Extend rather than Duplicate, because duplicated screens show the same image and there is then no separate presenter screen to use. Presenter View is switched on from the Slide Show tab; if the panels land on the wrong screens there is a command to swap presenter view and the slide show. It can also be previewed on a single machine while preparing.\n\nWhy it earns its place. It lets you keep detail off the slide and in the notes, which is what makes one idea per slide practical, and the elapsed timer keeps you inside your allotted minutes.",
+    "facts": [
+      "The audience sees only the current slide, full screen; the presenter's screen additionally shows speaker notes, the next slide, elapsed time and a timer",
+      "Presenter View requires the displays to be set to Extend, not Duplicate",
+      "It is enabled from the Slide Show tab, and the two screens can be swapped if they appear the wrong way round",
+      "See All Slides shows thumbnails on the presenter's screen for jumping to any slide without the audience seeing the grid",
+      "Pen, highlighter, laser pointer, zoom and blanking the screen are available from Presenter View during delivery"
+    ],
+    "traps": [
+      "Speaker notes, the timer and the next-slide preview are presenter-only. Animations, the theme and the pictures on the slide are part of the slide itself and the audience does see them",
+      "Duplicated displays cannot run Presenter View usefully - both screens show the same thing, so the notes would go up on the projector",
+      "Presenter View is a delivery mode, not a view for editing. Slide Sorter and the Notes Page are separate things",
+      "The audience screen shows the single current slide, not a thumbnail grid and not the slide plus notes"
+    ],
+    "mnem": "",
+    "rel": ["Presentation Delivery", "Recording Presentations"]
+  }
+]

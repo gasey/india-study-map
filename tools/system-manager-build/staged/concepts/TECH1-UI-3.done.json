@@ -1,0 +1,245 @@
+[
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "Network Attached Storage (NAS)",
+    "def": "A NAS is a dedicated file-serving appliance connected to the ordinary TCP/IP network. It owns its own disks and its own file system, and it hands out files - not raw disk blocks - to clients using network file-sharing protocols, chiefly NFS on Unix and Linux and SMB/CIFS on Windows. To a client machine it appears as a mounted share or a mapped network drive.",
+    "exp": "The defining point is the level at which it serves. The NAS box formats the disks, creates the file system, and answers requests like 'open this file, read these bytes'. The client never sees sectors. Because the file system lives on the appliance, several machines can safely use the same share at once - the NAS arbitrates locking - which is exactly what a departmental file share needs.\n\nIt runs over your existing Ethernet, so there is no separate cabling, no separate switches and no specialist skill required to install it. A small office NAS is a box with a few drive bays, RAID, a web admin page, user accounts, quotas, snapshots and often built-in backup targets. That cheapness and simplicity is its whole appeal.\n\nThe cost is that storage traffic shares the LAN with everything else, and file protocol overhead makes NAS a poor fit for latency-sensitive workloads such as a busy transactional database. For those you present block storage instead.\n\nTypical government-office uses: shared folders for a directorate, home directories, scan-and-archive repositories for e-Office, CCTV recording, and a first-tier backup target. Access control is usually integrated with Active Directory or LDAP so the same login governs the share.",
+    "facts": [
+      "NAS is file-level storage; it serves files over NFS (Unix/Linux) or SMB/CIFS (Windows)",
+      "The file system resides on the NAS appliance itself, not on the client",
+      "It uses the existing Ethernet LAN - no dedicated storage fabric is needed",
+      "Multiple clients can access the same file concurrently because the NAS handles locking",
+      "Common uses: departmental file shares, home directories, document archives, CCTV footage, backup targets"
+    ],
+    "traps": [
+      "NAS vs SAN - NAS serves FILES over the ordinary LAN and appears as a shared folder; SAN serves BLOCKS over a dedicated storage fabric and appears to a server as a local disk",
+      "NAS vs DAS - direct attached storage is cabled to one machine and usable only by that machine; a NAS is reachable by any client on the network",
+      "A NAS cannot give a server a raw, unformatted disk to partition - that is a SAN LUN",
+      "RAID inside the NAS is not a backup; it survives a failed drive, not a deleted or encrypted file"
+    ],
+    "mnem": "NAS = Network And Shares (files); SAN = blocks.",
+    "rel": [
+      "Storage Area Network (SAN)",
+      "Backup Concepts",
+      "HDD, SSD and NVMe Storage"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "Storage Area Network (SAN)",
+    "def": "A SAN is a separate, dedicated high-speed network whose only job is to carry storage traffic between servers and shared storage arrays. It moves data as blocks, carrying SCSI or NVMe commands over Fibre Channel or over TCP/IP as iSCSI. A slice of array capacity, called a LUN, is presented to a server and appears to that server's operating system as a local, unformatted disk.",
+    "exp": "Everything follows from block-level access. The array hands over raw blocks; the server itself partitions the LUN, puts a file system on it and mounts it. That is why a SAN suits databases, virtual-machine datastores, mail stores and any workload that wants disk-like latency and its own file system, and why the operating system cannot tell a SAN LUN from an internal drive.\n\nA server joins a Fibre Channel SAN through a host bus adapter (HBA) and FC switches; an iSCSI SAN needs only a standard NIC and an iSCSI initiator, which is why iSCSI is the affordable route for small and mid-size sites. Zoning on the switches and LUN masking on the array decide which server may see which LUN - the access control layer that replaces file permissions.\n\nBecause the array is shared, a SAN enables features that DAS cannot: boot from SAN, live migration of virtual machines between hosts, clustering, array-level snapshots and replication to a DR site.\n\nThe price is cost and skill. Fibre Channel means separate switches, adapters and cabling and staff who understand zoning. Newer deployments increasingly use NVMe over Fabrics for lower latency.",
+    "facts": [
+      "SAN is block-level storage; the server, not the array, creates the file system",
+      "A LUN (logical unit number) is the unit of capacity presented to a host",
+      "Fibre Channel hosts connect via an HBA; iSCSI hosts need only a standard NIC and an iSCSI initiator",
+      "Zoning (on the fabric) and LUN masking (on the array) control which host sees which LUN",
+      "SAN enables boot from SAN, server clustering, VM live migration and array-based replication"
+    ],
+    "traps": [
+      "SAN vs NAS - SAN gives BLOCKS over a dedicated fabric and looks like a local disk; NAS gives FILES over the ordinary LAN and looks like a shared folder",
+      "iSCSI runs over ordinary Ethernet but is still a SAN - the access level (block vs file), not the cable, decides which it is",
+      "Two servers writing to the same LUN will corrupt it unless a cluster-aware file system is used; sharing a file is a NAS job",
+      "SAN expands to Storage Area Network, not Storage Attached Network"
+    ],
+    "mnem": "",
+    "rel": [
+      "Network Attached Storage (NAS)",
+      "Disaster Recovery Concepts",
+      "HDD, SSD and NVMe Storage"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "Backup Concepts",
+    "def": "Backup is the practice of keeping additional, independently stored copies of data so it can be restored after accidental deletion, corruption, hardware failure, ransomware or physical disaster. A backup is defined by its restore: a copy that has never been test-restored is not yet a backup.",
+    "exp": "Three backup types matter for the exam. A full backup copies everything, every time - slowest to take, simplest to restore. An incremental backup copies only what changed since the last backup of any kind, so it is quick and small, but a restore needs the last full plus every incremental taken since, in order. A differential backup copies everything changed since the last full backup, so each day's differential is larger than the previous one, but a restore needs only the last full plus the most recent differential. Fast backup and slow restore, or slow backup and fast restore - that is the trade.\n\nThe 3-2-1 rule is the standard answer for how many copies: three copies of the data, on two different media or systems, with one copy offsite. Ransomware has added a fourth idea - at least one copy offline or immutable, so an attacker with admin rights cannot encrypt the backups too.\n\nAround this sit the operational details: the backup window in which jobs must finish, retention and rotation schemes such as grandfather-father-son, verification of each job, and cataloguing so a single file can be found. Distinguish backup from archive: backup is a copy kept for recovery, archive is the original moved off for long-term retention.",
+    "facts": [
+      "Incremental = changed since the last backup of ANY type; differential = changed since the last FULL backup",
+      "Restoring incrementals needs the last full plus every incremental in sequence; restoring differentials needs the last full plus only the latest differential",
+      "3-2-1 rule: three copies, on two different media, with one kept offsite",
+      "Differential backups grow in size each day until the next full backup resets them",
+      "Only a successful test restore proves a backup is usable",
+      "Backup keeps a copy for recovery; archive moves the original off for long-term retention"
+    ],
+    "traps": [
+      "Incremental vs differential - the difference is the reference point: last backup of any kind, versus last full backup",
+      "RAID is not a backup - it survives a dead drive, but a deleted, corrupted or encrypted file is instantly mirrored to every disk",
+      "A synced cloud folder is not a backup either - deletion and ransomware encryption propagate to the cloud copy",
+      "Backup vs disaster recovery - backup is copies of data; DR is the plan and capability to resume operations"
+    ],
+    "mnem": "3-2-1: three copies, two media, one offsite.",
+    "rel": [
+      "Disaster Recovery Concepts",
+      "Network Attached Storage (NAS)",
+      "Optical and Flash Storage"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "Disaster Recovery Concepts",
+    "def": "Disaster recovery is the documented plan, and the tested technical capability, to restore IT services after a disruptive event such as fire, flood, prolonged power failure, ransomware or destruction of hardware. It is about resuming operations to an agreed point within an agreed time - not merely about holding copies of data.",
+    "exp": "Two numbers drive every DR design. RPO, the recovery point objective, is how much data loss the organisation can tolerate - it looks backwards from the incident and is set by how often you back up or replicate. RTO, the recovery time objective, is how long the service may stay down - it looks forwards and is set by how fast you can bring systems up elsewhere. An RPO of fifteen minutes means replicating every fifteen minutes; an RTO of two hours means standby infrastructure, because procuring servers takes days.\n\nRecovery sites come in three grades. A hot site is fully equipped and continuously fed with current data, so failover takes minutes. A warm site has hardware and connectivity in place but data must be restored and services started, taking hours to days. A cold site is only space, power and network - equipment must be procured and installed, taking days to weeks. Cost rises sharply as RPO and RTO fall.\n\nDR is the IT component of the wider business continuity plan. The plan needs named roles, current contact lists, documented recovery order for dependent systems, an offsite copy of the plan itself, and a defined failback once the primary site returns. It must be exercised - tabletop, then simulation, then real failover.",
+    "facts": [
+      "RPO measures the maximum tolerable DATA LOSS; RTO measures the maximum tolerable DOWNTIME",
+      "RPO is achieved by backup or replication frequency; RTO is achieved by standby capacity and rehearsed procedure",
+      "Hot site: fully equipped with live data, recovery in minutes. Warm site: hardware ready, data restored on demand, hours to days. Cold site: bare space and power, days to weeks",
+      "Disaster recovery is a subset of business continuity planning (BCP)",
+      "The DR site must be far enough from the primary site not to share the same disaster"
+    ],
+    "traps": [
+      "RPO vs RTO - RPO is a point in the past (how much data you lose), RTO is a span of time forward (how long you are down)",
+      "Backup vs DR - backups are copies of data; DR is the plan, sites, procedures and people needed to run the service again",
+      "An untested DR plan is not a DR plan - a document that has never been exercised routinely fails on the day",
+      "A hot site is not the same as a warm site with backups on hand; hot means data is already current there"
+    ],
+    "mnem": "RPO looks back (how much data lost), RTO looks forward (how long down).",
+    "rel": [
+      "Backup Concepts",
+      "Storage Area Network (SAN)",
+      "Network Attached Storage (NAS)"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "Modern Input Devices",
+    "def": "Input devices convert human action or a physical signal into data the computer can process. Beyond the keyboard and mouse, current systems accept touch, stylus and pen, voice, gesture and motion, camera and sensor data, and identity input from biometric readers and card readers.",
+    "exp": "Touch is the dominant modern input. A capacitive touchscreen senses the change in an electric field caused by a conductive finger; it supports multi-touch gestures and is what phones, tablets and modern kiosks use. A resistive touchscreen registers physical pressure between two conductive layers, so it works with a gloved hand or any stylus but is normally single-touch - still found on older POS terminals and rugged field devices.\n\nA stylus may be passive, which the screen treats as a small finger, or active, containing electronics that report pressure and tilt to a digitiser and allow palm rejection. Graphics tablets give the same input on a separate surface.\n\nVoice input is a microphone plus speech recognition software that converts audio to text; the microphone is the device, the recognition is software. Indian-language support has improved considerably through national language-technology efforts. Gesture and motion input uses depth cameras, accelerometers and gyroscopes.\n\nIdentity and data-capture inputs matter most in a government office: barcode and QR scanners, RFID and NFC readers such as FASTag, magnetic stripe and smart card readers, MICR for cheque processing, and OMR sheet readers used for competitive-exam answer sheets. Field staff increasingly collect data on tablets, and citizen-facing services run on touchscreen kiosks.",
+    "facts": [
+      "Capacitive screens need a conductive touch and support multi-touch; resistive screens work by pressure with any object, usually single-touch",
+      "An active stylus reports pressure and tilt; a passive stylus does not",
+      "OMR reads pencil marks in fixed positions; OCR recognises the shapes of printed characters; MICR reads magnetic-ink characters on cheques",
+      "Voice input hardware is just a microphone - the conversion to text is speech-recognition software",
+      "RFID and NFC readers power and read a tag wirelessly; QR and barcode scanners read an optical pattern"
+    ],
+    "traps": [
+      "A touchscreen is both an input and an output device - a favourite one-mark question",
+      "Capacitive screens do not respond to an ordinary gloved finger or a plain plastic stylus; resistive ones do",
+      "OMR vs OCR vs MICR are three different technologies for three different documents - do not use them interchangeably",
+      "The mouse and keyboard are not 'obsolete' - they remain the fastest input for sustained text and precision work"
+    ],
+    "mnem": "",
+    "rel": [
+      "Biometric Devices",
+      "Smart Card Readers",
+      "Scanners"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "Biometric Devices",
+    "def": "A biometric device captures a physical or behavioural characteristic - fingerprint, iris, face, voice, palm vein, signature dynamics - converts it into a mathematical template, and matches that template against stored templates to establish identity. A well-designed system stores the template, not the original image.",
+    "exp": "Distinguish the two operations. Verification is one-to-one: the person claims an identity and the sample is matched against that one record - 'is this really you?'. Identification is one-to-many: the sample is searched against the whole database - 'who is this?'. Identification is far more expensive and far more error-prone as the database grows.\n\nModalities differ in practice. Fingerprint is cheap and ubiquitous but degrades with worn or damaged fingers. Iris is highly distinctive and stable over a lifetime, and works where fingerprints have worn away. Face is contactless and convenient and has become the growth area for last-mile services, but is the most affected by lighting, angle and ageing.\n\nAccuracy is a trade-off, not a property. FAR, the false acceptance rate, is the proportion of impostors wrongly admitted - a security failure. FRR, the false rejection rate, is the proportion of genuine users wrongly refused - a usability failure. Tightening the matching threshold cuts FAR and raises FRR; the equal error rate is where the two curves cross. Failure to enrol is a real exclusion problem in India, where manual labourers and elderly applicants often have unreadable fingerprints.\n\nIn Indian government use, Aadhaar authentication (fingerprint, iris and now face) requires STQC-certified registered devices that encrypt the biometric at the sensor; ordinary USB fingerprint readers are not permitted. Biometric attendance is standard in offices, and AePS carries banking to villages.",
+    "facts": [
+      "Verification is 1:1 matching against a claimed identity; identification is 1:N searching of the whole database",
+      "FAR is the rate of accepting impostors (security risk); FRR is the rate of rejecting genuine users (usability problem)",
+      "Raising the matching threshold lowers FAR and raises FRR; the equal error rate is the crossover point",
+      "Aadhaar biometric authentication must use STQC-certified registered devices that encrypt the sample inside the sensor",
+      "Iris is more stable over a lifetime than fingerprint; face is contactless but most affected by lighting and ageing",
+      "Failure-to-enrol from worn fingerprints is a genuine exclusion problem, which is why multi-modal and OTP fallbacks exist"
+    ],
+    "traps": [
+      "Biometrics are identifiers, not secrets - you leave fingerprints on everything, and a compromised fingerprint cannot be reissued the way a password can",
+      "FAR vs FRR - false ACCEPT lets the wrong person in; false REJECT keeps the right person out",
+      "Verification (1:1) vs identification (1:N) - papers frequently swap the two definitions",
+      "A biometric device proves that a sample was presented at the sensor, not that a specific willing person was present - hence liveness detection"
+    ],
+    "mnem": "FAR = Fraudster Allowed Right in; FRR = Fair user Rudely Refused.",
+    "rel": [
+      "Smart Card Readers",
+      "Modern Input Devices"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "Smart Card Readers",
+    "def": "A smart card is a plastic card carrying an embedded integrated circuit - either a simple memory chip or a full microprocessor with protected storage and a cryptographic engine. A smart card reader is the device that supplies power to that chip and exchanges data with it, either by contact through the gold pads (ISO/IEC 7816) or contactlessly by radio at short range (ISO/IEC 14443, the basis of NFC).",
+    "exp": "The important distinction is memory card versus microprocessor card. A memory card only stores data, which the reader reads back. A microprocessor card computes inside the chip: it can hold a private key that is generated on-card and never leaves it, and sign or decrypt on request after a PIN unlocks the card. That is what makes smart cards the standard carrier for digital signature certificates and for EMV chip payment.\n\nReaders come as contact readers on USB, contactless or NFC readers, and dual-interface readers. A PIN-pad reader has its own keypad so the PIN is entered on the reader and never reaches a possibly compromised PC. On the software side, PC/SC is the standard reader interface on Windows and Linux, and applications typically reach the card's keys through a PKCS#11 or CSP driver.\n\nIndian usage is extensive: RuPay and EMV chip debit cards, e-passports, driving licence and RC smart cards, the National Common Mobility Card, employee identity cards driving door access, and above all the USB crypto token or smart card holding a Class 3 Digital Signature Certificate used to sign e-tenders on GeM and CPP Portal and to file returns with the Income Tax Department and MCA.",
+    "facts": [
+      "Contact smart cards follow ISO/IEC 7816; contactless smart cards follow ISO/IEC 14443, which underlies NFC",
+      "A microprocessor card performs cryptography on-card so the private key is never exported",
+      "Card plus PIN is two-factor authentication: something you have plus something you know",
+      "PC/SC is the standard smart card reader interface; applications reach card keys through PKCS#11 or a CSP",
+      "In India, DSC tokens are used for e-tendering on GeM and CPP Portal and for Income Tax and MCA filings"
+    ],
+    "traps": [
+      "Smart card vs magnetic stripe - the stripe holds static data any reader can copy; the chip computes a fresh cryptogram per transaction and cannot be cloned by reading it",
+      "A contactless smart card is not a passive RFID tag - the tag just returns a fixed identifier, the card runs authenticated cryptography",
+      "The security lives in the card, not the reader; the reader is only a power supply and a data channel",
+      "Smart card = something you have; biometric = something you are. A card cannot prove who is holding it, which is why a PIN or biometric is added"
+    ],
+    "mnem": "",
+    "rel": [
+      "Biometric Devices",
+      "Modern Input Devices"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "Scanners",
+    "def": "A scanner is an input device that illuminates a document or photograph, senses the reflected light with a CCD or CIS sensor array, and produces a digital raster image of the page. The output is a picture of the page; turning it into editable, searchable text requires OCR as a separate step afterwards.",
+    "exp": "Match the type to the job. A flatbed scanner has a glass platen and a lid, so it takes bound registers, books, fragile old records and pages of odd size - one page at a time, which makes it slow for volume. A sheet-fed document scanner with an automatic document feeder pulls loose sheets through, usually scanning both sides in one pass, and is the workhorse for office record digitisation. Handheld and portable scanners trade quality for mobility. Drum scanners serve high-end pre-press work. Overhead book scanners and phone camera apps now cover much casual scanning.\n\nResolution is quoted in dpi, dots per inch. Optical resolution is what the sensor genuinely captures; interpolated resolution is software enlargement and adds no real detail. Bit depth sets how many tones or colours each pixel carries. Choosing bitonal black-and-white for plain text, grayscale for pencil and stamps, and colour only where colour matters is the main lever on file size. Save archival masters as TIFF or PDF/A, ordinary documents as searchable PDF.\n\nOCR converts the images of characters into character codes; ICR extends this to hand-printed text. Accuracy depends on scan quality, straightness and language - Indic script OCR remains weaker than English. Scanners talk to software through the TWAIN standard, WIA on Windows or SANE on Linux.",
+    "facts": [
+      "Flatbed suits bound and fragile originals; sheet-fed ADF scanners suit high-volume loose sheets and duplex scanning",
+      "Optical dpi is the sensor's true resolution; interpolated dpi is software upscaling and adds no detail",
+      "OCR converts scanned images of characters into editable text; ICR handles hand-printed characters",
+      "TWAIN is the classic cross-platform scanner driver standard; Windows also uses WIA and Linux uses SANE",
+      "Bitonal (black-and-white) output gives the smallest files for plain text; PDF/A is the format for long-term archiving"
+    ],
+    "traps": [
+      "A scanned PDF is only an image - it is not searchable or editable until OCR has been run over it",
+      "Higher dpi is not automatically better: it multiplies file size and scanning time without improving plain text legibility",
+      "Interpolated resolution figures are a marketing number - quote the optical resolution",
+      "OCR reads printed characters, OMR reads marks in fixed boxes, MICR reads magnetic-ink characters on cheques"
+    ],
+    "mnem": "",
+    "rel": [
+      "Printers and Multifunction Devices",
+      "Modern Input Devices",
+      "Display Technologies"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "Display Technologies",
+    "def": "A display converts the video signal into a visible image. Nearly every current flat panel is either an LCD, in which a liquid-crystal layer shutters light coming from a backlight, or an OLED, in which each pixel is an organic diode that emits its own light. An 'LED monitor' is an LCD panel with an LED backlight, not a separate panel technology.",
+    "exp": "LCD is the volume technology. Backlights moved from CCFL tubes to white LEDs - edge-lit for thinness, full-array with local dimming for better contrast - and more recently to mini-LED with many more dimming zones. QLED adds a quantum-dot film for a wider colour gamut but is still a backlit LCD.\n\nLCD panel types are worth knowing because they are examinable. TN is fastest and cheapest with poor viewing angles and colour. IPS gives the best colour accuracy and viewing angles and is the default office and design panel. VA sits between, with the deepest contrast of the three but slower response.\n\nOLED has no backlight, so a black pixel is simply switched off: true blacks, effectively unlimited contrast, very wide viewing angles, fast response and a thinner panel. Its weaknesses are burn-in from static images and shorter blue-emitter life. MicroLED is the emerging self-emissive successor without organic ageing.\n\nSpecify a display by resolution (Full HD 1920x1080, QHD 2560x1440, 4K UHD 3840x2160), refresh rate in Hz, response time in ms, brightness in nits and contrast ratio. Connect it by HDMI or DisplayPort, or USB-C carrying DisplayPort; VGA is analogue and DVI is legacy. CRT and plasma are obsolete.",
+    "facts": [
+      "An LED monitor is an LCD with LED backlighting; OLED is self-emissive and has no backlight at all",
+      "TN is fastest and cheapest, IPS has the best colour and viewing angles, VA has the highest contrast of the LCD types",
+      "Full HD is 1920x1080, QHD is 2560x1440, 4K UHD is 3840x2160",
+      "Refresh rate is measured in hertz (frames per second the panel can show); response time is measured in milliseconds (how fast a pixel changes)",
+      "VGA carries an analogue signal; HDMI and DisplayPort are digital, and USB-C can carry DisplayPort",
+      "QLED is a quantum-dot enhanced LCD, not an emissive technology like OLED"
+    ],
+    "traps": [
+      "LED vs OLED - an LED monitor is still an LCD; only OLED removes the backlight",
+      "QLED vs OLED - one letter apart, opposite technologies: QLED is backlit LCD, OLED is self-emissive",
+      "Burn-in affects OLED and old plasma panels, not LCD; LCDs suffer temporary image persistence instead",
+      "Refresh rate (Hz) and response time (ms) are different specifications - a high refresh rate does not by itself mean a fast pixel"
+    ],
+    "mnem": "The O in OLED is Off - the pixel switches off for true black.",
+    "rel": [
+      "Interactive Displays",
+      "Modern Input Devices"
+    ]
+  }
+]

@@ -1,0 +1,697 @@
+{
+  "paper": "GE",
+  "instructions": "For each question in `questions`, add an entry to a JSON object keyed by question id: {\"<id>\": {\"unit\": \"<unit no>\", \"sub\": \"<leaf subtopic VERBATIM>\"}}. Write it to the same filename with .todo.json replaced by .done.json. `sub` must be copied character-for-character from `allowed_leaves` — it is matched by string equality. If the paper is GE, set sub to null and tag the unit only.",
+  "allowed_units": [
+    {
+      "unit": "1",
+      "title": "Precis Writing",
+      "marks": 10
+    },
+    {
+      "unit": "2",
+      "title": "Letter Writing",
+      "marks": 15
+    },
+    {
+      "unit": "3",
+      "title": "Comprehension of given passages",
+      "marks": 15
+    },
+    {
+      "unit": "4",
+      "title": "Grammar: Parts of Speech",
+      "marks": 20
+    },
+    {
+      "unit": "5",
+      "title": "Correct Usage and Vocabularies",
+      "marks": 20
+    },
+    {
+      "unit": "6",
+      "title": "Formation of Sentence",
+      "marks": 20
+    }
+  ],
+  "allowed_leaves": [
+    {
+      "unit": "1",
+      "unitTitle": "Precis Writing",
+      "section": "(derived)",
+      "sub": "What a precis is and is not"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Precis Writing",
+      "section": "(derived)",
+      "sub": "The one-third rule and word-count discipline"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Precis Writing",
+      "section": "(derived)",
+      "sub": "Finding the controlling idea"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Precis Writing",
+      "section": "(derived)",
+      "sub": "What to cut: illustration, repetition and rhetoric"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Precis Writing",
+      "section": "(derived)",
+      "sub": "Third person and reported speech"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Precis Writing",
+      "section": "(derived)",
+      "sub": "Supplying an apt title"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Precis Writing",
+      "section": "(derived)",
+      "sub": "A worked precis, start to finish"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "Formal, official and informal letters"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "The parts of an official letter"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "Salutations and subscriptions"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "Subject line, reference and enclosures"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "Applications and representations"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "Tone and register in government correspondence"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "Common letter-writing errors that cost marks"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "A worked official letter, start to finish"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "Comprehension of given passages",
+      "section": "(derived)",
+      "sub": "How to read an unseen passage under time pressure"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "Comprehension of given passages",
+      "section": "(derived)",
+      "sub": "Main idea, tone and the author's stance"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "Comprehension of given passages",
+      "section": "(derived)",
+      "sub": "Inference questions and answering in your own words"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "Comprehension of given passages",
+      "section": "(derived)",
+      "sub": "Vocabulary-in-context questions"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "Comprehension of given passages",
+      "section": "(derived)",
+      "sub": "Why lifting sentences verbatim loses marks"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Grammar: Parts of Speech",
+      "section": "(derived)",
+      "sub": "The eight parts of speech and how to tell them apart"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Grammar: Parts of Speech",
+      "section": "(derived)",
+      "sub": "Words that change part of speech with their slot"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Grammar: Parts of Speech",
+      "section": "(derived)",
+      "sub": "Identifying the part of speech of an underlined word"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Grammar: Parts of Speech",
+      "section": "(derived)",
+      "sub": "Prepositions and their correct use"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Grammar: Parts of Speech",
+      "section": "(derived)",
+      "sub": "Verb forms and tense in context"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Correct Usage and Vocabularies",
+      "section": "(derived)",
+      "sub": "Synonyms and antonyms"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Correct Usage and Vocabularies",
+      "section": "(derived)",
+      "sub": "One-word substitution"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Correct Usage and Vocabularies",
+      "section": "(derived)",
+      "sub": "Idioms and phrases"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Correct Usage and Vocabularies",
+      "section": "(derived)",
+      "sub": "Commonly confused pairs"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Correct Usage and Vocabularies",
+      "section": "(derived)",
+      "sub": "Spelling and common misspellings"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Formation of Sentence",
+      "section": "(derived)",
+      "sub": "Simple, compound and complex sentences"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Formation of Sentence",
+      "section": "(derived)",
+      "sub": "Clause types: noun, adjective and adverb"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Formation of Sentence",
+      "section": "(derived)",
+      "sub": "Active and passive voice"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Formation of Sentence",
+      "section": "(derived)",
+      "sub": "Direct and indirect speech"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Formation of Sentence",
+      "section": "(derived)",
+      "sub": "Joining and splitting sentences"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Formation of Sentence",
+      "section": "(derived)",
+      "sub": "Subject-verb agreement and sequence of tenses"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Formation of Sentence",
+      "section": "(derived)",
+      "sub": "Sentence types by function: assertive, interrogative, imperative, exclamatory"
+    }
+  ],
+  "questions": [
+    {
+      "id": "CO2016A-GE-41",
+      "paper": "GE",
+      "q": "Identify the parts of speech for the underlined word in: Smoking has a bad effect on one's health.",
+      "opts": {
+        "A": "Preposition",
+        "B": "Verb",
+        "C": "Adverb",
+        "D": "Adjective"
+      }
+    },
+    {
+      "id": "CO2016A-GE-42",
+      "paper": "GE",
+      "q": "Identify the parts of speech for the underlined word in: I have supported you a lot in the past, but not anymore.",
+      "opts": {
+        "A": "Pronoun",
+        "B": "Adverb",
+        "C": "Adjective",
+        "D": "Verb"
+      }
+    },
+    {
+      "id": "CO2016A-GE-43",
+      "paper": "GE",
+      "q": "Identify the parts of speech for the underlined word in: He came yesterday to see you, but you were out.",
+      "opts": {
+        "A": "Adverb",
+        "B": "Adjective",
+        "C": "Verb",
+        "D": "Noun"
+      }
+    },
+    {
+      "id": "CO2016A-GE-44",
+      "paper": "GE",
+      "q": "Identify the parts of speech for the underlined word in: She coloured her hair green.",
+      "opts": {
+        "A": "Noun",
+        "B": "Adverb",
+        "C": "Adjective",
+        "D": "Preposition"
+      }
+    },
+    {
+      "id": "CO2016A-GE-45",
+      "paper": "GE",
+      "q": "Identify the correct verb-form to fill in the blank: I __________ my medications since last week.",
+      "opts": {
+        "A": "have missed",
+        "B": "was missing",
+        "C": "have been missing",
+        "D": "miss"
+      }
+    },
+    {
+      "id": "CO2016A-GE-46",
+      "paper": "GE",
+      "q": "Identify the correct verb-form to fill in the blank: The plane __________ by the time you get to the airport.",
+      "opts": {
+        "A": "will be arriving",
+        "B": "shall arrive",
+        "C": "had arrived",
+        "D": "will have arrived"
+      }
+    },
+    {
+      "id": "CO2016A-GE-47",
+      "paper": "GE",
+      "q": "Identify the correct verb-form to fill in the blank: She __________________ several jobs since graduating from college.",
+      "opts": {
+        "A": "has had",
+        "B": "has",
+        "C": "will have",
+        "D": "had had"
+      }
+    },
+    {
+      "id": "CO2016A-GE-48",
+      "paper": "GE",
+      "q": "Identify the correct verb-form to fill in the blank: ________________________ your umbrella with you when you leave?",
+      "opts": {
+        "A": "Will you be taking",
+        "B": "Will you have taken",
+        "C": "Will you take",
+        "D": "You will take"
+      }
+    },
+    {
+      "id": "CO2016A-GE-49",
+      "paper": "GE",
+      "q": "Analyse the given sentence and choose the correct option: The poor labourer came to me with his starving family.",
+      "opts": {
+        "A": "Simple Sentence",
+        "B": "Compound Sentence",
+        "C": "Complex Sentence"
+      }
+    },
+    {
+      "id": "CO2016A-GE-50",
+      "paper": "GE",
+      "q": "Analyse the given sentence and choose the correct option: I could not come, for I was down with fever.",
+      "opts": {
+        "A": "Compound Sentence",
+        "B": "Complex Sentence",
+        "C": "Simple sentence"
+      }
+    },
+    {
+      "id": "CO2016A-GE-51",
+      "paper": "GE",
+      "q": "Analyse the given sentence and choose the correct option: Finishing my book, I placed it on the table.",
+      "opts": {
+        "A": "Compound Sentence",
+        "B": "Simple sentence",
+        "C": "Complex sentence"
+      }
+    },
+    {
+      "id": "CO2016A-GE-52",
+      "paper": "GE",
+      "q": "Analyse the given sentence and choose the correct option: The poor man paid off his debts in time, but that still failed to satisfy his creditors who demanded more.",
+      "opts": {
+        "A": "Simple sentence",
+        "B": "Complex sentence",
+        "C": "Compound sentence"
+      }
+    },
+    {
+      "id": "CO2016A-GE-53",
+      "paper": "GE",
+      "q": "Analyse the given sentence and choose the correct option: I have sold my car which was red in colour.",
+      "opts": {
+        "A": "Compound sentence",
+        "B": "Simple sentence",
+        "C": "Complex sentence"
+      }
+    },
+    {
+      "id": "CO2016A-GE-54",
+      "paper": "GE",
+      "q": "Pick the correct clause of the underlined words in the sentence: Where is the money that I gave you yesterday?",
+      "opts": {
+        "A": "noun clause",
+        "B": "adjective clause",
+        "C": "co-ordinate clause",
+        "D": "adverb clause"
+      }
+    },
+    {
+      "id": "CO2016A-GE-55",
+      "paper": "GE",
+      "q": "Pick the correct clause of the underlined words in the sentence: The book which was stolen was mine.",
+      "opts": {
+        "A": "adverb clause",
+        "B": "adjective clause",
+        "C": "co-ordinate clause",
+        "D": "noun clause"
+      }
+    },
+    {
+      "id": "CO2016A-GE-56",
+      "paper": "GE",
+      "q": "Pick the correct clause of the underlined words in the sentence: I have been ill since I came here three days ago.",
+      "opts": {
+        "A": "adverb clause",
+        "B": "co-ordinate clause",
+        "C": "noun clause",
+        "D": "adjective clause"
+      }
+    },
+    {
+      "id": "CO2016A-GE-57",
+      "paper": "GE",
+      "q": "Pick the correct clause of the underlined words in the sentence: I am happy to know that you have succeeded.",
+      "opts": {
+        "A": "noun clause",
+        "B": "adverb clause",
+        "C": "co-ordinate clause",
+        "D": "adjective clause"
+      }
+    },
+    {
+      "id": "CO2016A-GE-58",
+      "paper": "GE",
+      "q": "Pick the correct clause of the underlined words in the sentence: He carried his laptop with him wherever he went.",
+      "opts": {
+        "A": "co-ordinate clause",
+        "B": "adjective clause",
+        "C": "noun clause",
+        "D": "adverb clause"
+      }
+    },
+    {
+      "id": "CO2016A-GE-59",
+      "paper": "GE",
+      "q": "Identify the correct notion expressed by the sentence: He did not fail to turn up.",
+      "opts": {
+        "A": "assertive",
+        "B": "interrogative",
+        "C": "negative",
+        "D": "imperative"
+      }
+    },
+    {
+      "id": "CO2016A-GE-60",
+      "paper": "GE",
+      "q": "Identify the correct notion expressed by the sentence: That a mere beggar should scorn his king!",
+      "opts": {
+        "A": "imperative",
+        "B": "exclamatory",
+        "C": "interrogative",
+        "D": "assertive"
+      }
+    },
+    {
+      "id": "CO2016A-GE-61",
+      "paper": "GE",
+      "q": "Identify the correct notion expressed by the sentence: Leave the room this instant!",
+      "opts": {
+        "A": "interrogative",
+        "B": "exclamatory",
+        "C": "assertive",
+        "D": "imperative"
+      }
+    },
+    {
+      "id": "CO2016A-GE-62",
+      "paper": "GE",
+      "q": "Identify the correct notion expressed by the sentence: We were unable to complete our task.",
+      "opts": {
+        "A": "negative",
+        "B": "exclamatory",
+        "C": "assertive",
+        "D": "interrogative"
+      }
+    },
+    {
+      "id": "CO2016A-GE-63",
+      "paper": "GE",
+      "q": "Identify the correct notion expressed by the sentence: Would that I were a rich man, what riches I would shower upon you!",
+      "opts": {
+        "A": "exclamatory",
+        "B": "interrogative",
+        "C": "assertive",
+        "D": "negative"
+      }
+    },
+    {
+      "id": "CO2016A-GE-64",
+      "paper": "GE",
+      "q": "Identify the correct notion expressed by the sentence: How dare you disobey my orders?",
+      "opts": {
+        "A": "exclamatory",
+        "B": "negative",
+        "C": "imperative",
+        "D": "interrogative"
+      }
+    },
+    {
+      "id": "CO2016A-GE-65",
+      "paper": "GE",
+      "q": "The Director said that he was sorry for my ________________.",
+      "opts": {
+        "A": "lost",
+        "B": "loose",
+        "C": "loss",
+        "D": "lose"
+      }
+    },
+    {
+      "id": "CO2016A-GE-66",
+      "paper": "GE",
+      "q": "The furious boss shouted at the drunken clerk, \"__________________ fired!\"",
+      "opts": {
+        "A": "You're",
+        "B": "Your",
+        "C": "You",
+        "D": "You'll"
+      }
+    },
+    {
+      "id": "CO2016A-GE-67",
+      "paper": "GE",
+      "q": "May God have _____________ on you.",
+      "opts": {
+        "A": "sympathy",
+        "B": "compassion",
+        "C": "sorry",
+        "D": "mercy"
+      }
+    },
+    {
+      "id": "CO2016A-GE-68",
+      "paper": "GE",
+      "q": "What a _________________ garden you have!",
+      "opts": {
+        "A": "lovely",
+        "B": "beloved",
+        "C": "lovable",
+        "D": "loving"
+      }
+    },
+    {
+      "id": "CO2016A-GE-69",
+      "paper": "GE",
+      "q": "___________________ an example to support your answer.",
+      "opts": {
+        "A": "Sight",
+        "B": "Site",
+        "C": "Cite",
+        "D": "Side"
+      }
+    },
+    {
+      "id": "CO2016A-GE-70",
+      "paper": "GE",
+      "q": "Your notes are ______________ because your handwriting is so untidy.",
+      "opts": {
+        "A": "ineligible",
+        "B": "inedible",
+        "C": "illegible",
+        "D": "indelible"
+      }
+    },
+    {
+      "id": "CO2016A-GE-71",
+      "paper": "GE",
+      "q": "The son vowed to ____________ the murder of his father.",
+      "opts": {
+        "A": "vengeance",
+        "B": "revenge",
+        "C": "violence",
+        "D": "avenge"
+      }
+    },
+    {
+      "id": "CO2016A-GE-72",
+      "paper": "GE",
+      "q": "The father gave his _____________ to the marriage of his daughter.",
+      "opts": {
+        "A": "ascent",
+        "B": "assent",
+        "C": "accent",
+        "D": "ascension"
+      }
+    },
+    {
+      "id": "CO2016A-GE-73",
+      "paper": "GE",
+      "q": "I'm not sure whether her story was credible or not.",
+      "opts": {
+        "A": "amazing",
+        "B": "believable",
+        "C": "interesting",
+        "D": "dull"
+      }
+    },
+    {
+      "id": "CO2016A-GE-74",
+      "paper": "GE",
+      "q": "The Queen's dragons are fierce and invincible.",
+      "opts": {
+        "A": "cannot be seen",
+        "B": "cannot be tamed",
+        "C": "cannot be defeated",
+        "D": "cannot be controlled"
+      }
+    },
+    {
+      "id": "CO2016A-GE-75",
+      "paper": "GE",
+      "q": "The office disposed of its obsolete computers.",
+      "opts": {
+        "A": "outdated",
+        "B": "damaged",
+        "C": "excess",
+        "D": "repaired"
+      }
+    },
+    {
+      "id": "CO2016A-GE-76",
+      "paper": "GE",
+      "q": "After the death of her husband, she became a recluse.",
+      "opts": {
+        "A": "widow",
+        "B": "one who lives a solitary life",
+        "C": "one who does charity work",
+        "D": "a bitter person"
+      }
+    },
+    {
+      "id": "CO2016A-GE-77",
+      "paper": "GE",
+      "q": "The Board was unanimous in its decision regarding the election of a new Chairman.",
+      "opts": {
+        "A": "unable to agree",
+        "B": "undecided",
+        "C": "fully in agreement",
+        "D": "voting by secret ballot"
+      }
+    },
+    {
+      "id": "CO2016A-GE-78",
+      "paper": "GE",
+      "q": "She stood with her hands folded before her like a penitent child.",
+      "opts": {
+        "A": "repentant",
+        "B": "penniless",
+        "C": "punished",
+        "D": "rebellious"
+      }
+    },
+    {
+      "id": "CO2016A-GE-79",
+      "paper": "GE",
+      "q": "He was quite tenacious in his pursuit of the young lady.",
+      "opts": {
+        "A": "confident",
+        "B": "subtle",
+        "C": "persistent",
+        "D": "charming"
+      }
+    },
+    {
+      "id": "CO2016A-GE-80",
+      "paper": "GE",
+      "q": "The Resource Person was given a modest honorarium for presenting a paper at the Seminar.",
+      "opts": {
+        "A": "bouquet",
+        "B": "certificate",
+        "C": "memento",
+        "D": "payment"
+      }
+    }
+  ]
+}

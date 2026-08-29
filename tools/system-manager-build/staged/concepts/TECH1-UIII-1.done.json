@@ -1,0 +1,246 @@
+[
+  {
+    "paper": "TECH1",
+    "unit": "III",
+    "unitTitle": "Word Processing",
+    "sub": "Document Creation",
+    "def": "The basic production cycle of a word-processed document: start a new file, type and edit the text, format it, save it, and print or issue it. Word saves documents in the .docx format by default, with .docm for macro-enabled files. What appears on screen matches the printed page closely, which is what WYSIWYG means.",
+    "exp": "Typing relies on word wrap: when a word will not fit before the right margin, Word moves it to the next line by itself. Enter is pressed only to end a paragraph, never to end a line. Pressing Enter at every visible line break creates a document made of dozens of one-line paragraphs, which then behaves badly under justification, spacing and styles. Editing runs on select-then-act: Ctrl+A selects the whole document, a double-click selects a word, and cut, copy, paste, Undo and Find and Replace act on the selection.\n\nSaving has two distinct commands. Save writes back over the existing file. Save As creates a new file, and it is the only route that lets you change the name, folder or file format; F12 opens the Save As dialog. On a document that has never been saved, Save behaves like Save As because there is no existing file to overwrite. AutoRecover keeps periodic recovery copies, but it is not a substitute for saving.\n\nPrinting is done through the print pane, which shows a preview alongside options for printer, page range and number of copies. Quick Print is the shortcut version: it sends the entire document straight to the default printer with no dialog, so you cannot restrict it to selected pages. In an office where circulars run to many pages, that difference matters.",
+    "facts": [
+      "Word's default document format is .docx; macro-enabled documents are saved as .docm",
+      "Ctrl+A selects the entire document; F12 opens the Save As dialog",
+      "Word wrap automatically moves a word that will not fit to the next line; Enter is used only to end a paragraph",
+      "Quick Print sends the whole document to the default printer immediately, without offering page range or copies",
+      "Save As is the only command that lets you save under a new name, location or file format"
+    ],
+    "traps": [
+      "Save vs Save As: Save overwrites the current file, Save As creates a new one. On a never-saved document both do the same thing, which is why the distinction is easy to miss",
+      "Word wrap is automatic. Pressing Enter at the end of every line is not word wrap and leaves the text as many short paragraphs",
+      "Quick Print prints everything with no dialog; the ordinary Print command lets you choose printer, range and copies",
+      "Print Preview shows how the document will print but does not print it"
+    ],
+    "mnem": "",
+    "rel": [
+      "Page Layout",
+      "Templates",
+      "Styles and Themes"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "III",
+    "unitTitle": "Word Processing",
+    "sub": "Templates",
+    "def": "A template is a ready-made document used as the starting point for new documents. It supplies the page layout, styles, theme, headers and footers and any standing boilerplate text. Word templates use the .dotx extension, or .dotm when they contain macros, as against .docx for ordinary documents.",
+    "exp": "Using a template creates a new, unnamed copy of it. You edit and save that copy under its own name; the template file itself is untouched. This is the whole point: the office keeps one master letterhead, memo, circular or notice format, and every document issued from it starts out with the correct emblem, office name, reference-number block, margins and fonts already in place. Nobody has to rebuild the format, and nobody quietly invents their own.\n\nThe consequence to remember is that the link is one-way and applies only at creation. Editing a document made from a template never changes the template. Editing the template never changes documents already created from it; it only affects new ones. So if the standard circular format has to change, the template is edited and redistributed, and documents already issued stay as they were.\n\nEvery blank Word document is in fact based on the Normal template, which holds the default font, margins and style definitions. Change Normal and every new blank document inherits the change. Because a template carries the style definitions and the theme with it, a template is the practical way to enforce consistent heading structure across a department, not just a consistent look. Reusable fragments such as an approving officer's signature block can be stored as building blocks and dropped into any document.",
+    "facts": [
+      "Word templates use .dotx, or .dotm if macro-enabled; documents use .docx or .docm",
+      "Creating a document from a template produces a new unsaved copy; the template file is not modified",
+      "Every blank Word document is based on the Normal template, which supplies the default font, margins and styles",
+      "A template can carry page layout, styles, theme, headers and footers and boilerplate text",
+      "Editing a template affects only documents created after the edit"
+    ],
+    "traps": [
+      "Editing a document created from a template does not change the template, and editing the template does not retro-fit documents already created from it",
+      "A template is not a theme. The template is the whole starting document including content and layout; a theme is only the coordinated set of fonts, colours and effects",
+      "Opening a template normally starts a new document based on it; to change the template itself you must open the template file for editing",
+      "Saving a template-based document under a new name creates an ordinary .docx, not another template"
+    ],
+    "mnem": "",
+    "rel": [
+      "Styles and Themes",
+      "Document Creation",
+      "Page Layout"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "III",
+    "unitTitle": "Word Processing",
+    "sub": "Styles and Themes",
+    "def": "A style is a named, saved set of formatting - font, size, colour, spacing, indentation and outline level - applied to text in one action. Heading 1, Heading 2, Normal, Title and Quote are built-in styles. A theme is the coordinated set of fonts, colours and effects applied across the whole document.",
+    "exp": "This is the load-bearing idea of the unit. Selecting a heading and making it bold and 16 point is direct formatting: it changes appearance only. Applying the Heading 1 style changes appearance and also records that this paragraph is a heading at level one. Everything downstream depends on that record. The automatic Table of Contents is built from heading styles. The Navigation Pane lists them, so you can jump around a hundred-page report and drag whole sections into a new order. Cross-references and automatic numbering attach to them. A screen reader announces them, so a blind reader can move heading to heading instead of listening to the entire file. Hand-bolded text gives you none of this. The second gain is maintenance: redefine the style once and every paragraph using it changes across the document.\n\nStyles come in paragraph styles, which apply to a whole paragraph, and character styles, which apply to selected words inside it. Note that font style in the strict sense means Regular, Bold, Italic or Bold Italic; superscript, strikethrough and small caps are font effects, not font styles. A bullet is the dot or other symbol placed at the start of a listed paragraph, and list formatting belongs to the paragraph.\n\nA theme swaps the heading font, body font, colour palette and effects for the whole document at once, without touching content, because styles refer to theme fonts and colours rather than to fixed ones.",
+    "facts": [
+      "Heading 1, Heading 2 and so on are built-in paragraph styles; the Table of Contents, the Navigation Pane and screen-reader navigation all depend on them",
+      "Redefining a style updates every paragraph that uses it in one step",
+      "A theme is a coordinated set of fonts, colours and effects for the whole document",
+      "In the Font dialog, font style means Regular, Bold, Italic or Bold Italic",
+      "Word's font size list runs from 8 to 72 points, but a size of up to 1638 points can be typed in",
+      "A bullet is the dot or other symbol positioned at the beginning of a listed paragraph"
+    ],
+    "traps": [
+      "Bolding and enlarging text by hand is not applying a heading style. It looks identical on paper but produces no Table of Contents entry, no Navigation Pane entry and no heading for a screen reader",
+      "Styles and themes are not the same thing: a style is named formatting for a part of the document, a theme swaps the fonts and colours that styles draw on across the whole document",
+      "Superscript, strikethrough and small caps are font effects, not font styles",
+      "The largest size in the font-size drop-down list, 72, is not the largest size Word allows, which is 1638"
+    ],
+    "mnem": "",
+    "rel": [
+      "Table of Contents",
+      "Templates",
+      "Accessibility Features"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "III",
+    "unitTitle": "Word Processing",
+    "sub": "Page Layout",
+    "def": "Page layout covers everything that controls the printed page rather than the words on it: paper size and orientation, margins, columns, page and section breaks, headers and footers, page numbers, page borders and watermarks. These settings belong to a section of the document, not to individual characters.",
+    "exp": "Orientation is either portrait, which is taller than it is wide and is the default, or landscape, which is wider than it is tall and is used for broad tables and statements. Paper size in Indian government offices is A4. Margins set the blank border around the text; a gutter adds extra space on the binding edge so text is not swallowed when the file is stitched or punched.\n\nBreaks are where candidates lose marks. A page break simply starts a new page with the same layout. A section break creates a separate layout region, and it is the only way to have part of a document differ - one landscape page in a portrait report, different margins for an annexure, a different header, or page numbering that restarts. Headers and footers repeat automatically on every page of their section, with options for a different first page and different odd and even pages.\n\nPage numbers are inserted into the header or footer as a field, so Word supplies the value. To show them as a, b, c or i, ii, iii instead of 1, 2, 3, you change the number format in the page number formatting dialog and, if needed, set the starting number - you never retype the numbers. Columns arrange text newspaper style, and a watermark such as DRAFT sits behind the text on every page.",
+    "facts": [
+      "Portrait and landscape are the two page orientations; portrait is the default",
+      "Page numbers are inserted in the header or footer as a field, and the format (1, i or a) is changed through the page number format dialog",
+      "A section break is required to change orientation, margins, columns, headers or page numbering for only part of a document",
+      "The gutter is extra margin space added on the binding edge",
+      "Watermarks, page borders and page colour are page-level settings, not character formatting"
+    ],
+    "traps": [
+      "Page break versus section break: a page break only starts a new page with identical layout; only a section break permits different orientation, margins, headers or numbering",
+      "Page numbers are field results. Changing 1 to a is a change of number format, not retyping the character",
+      "Header and footer content repeats automatically for the whole section; typing the same line at the top of each page manually is not a header",
+      "Orientation and margins are properties of a section, not of the whole document, once section breaks exist"
+    ],
+    "mnem": "",
+    "rel": [
+      "Document Creation",
+      "Table of Contents",
+      "Templates"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "III",
+    "unitTitle": "Word Processing",
+    "sub": "Tables",
+    "def": "A table is a grid of rows and columns whose intersections are cells, used to align data that would be unreadable as running text - pay statements, seniority lists, tender comparisons. Tables are created from the Insert Table dialog or grid, by drawing, or by converting existing text that is separated by tabs or commas.",
+    "exp": "The Insert Table dialog allows a maximum of 63 columns, and the smallest possible table is one row by one column. The number of rows is not fixed in the same way; rows are added as you go, and pressing Tab in the last cell adds a new row.\n\nColumn width is set by dragging a boundary or by AutoFit. AutoFit to Contents shrinks each column to just fit what is typed in it, AutoFit to Window spreads the table across the page width, and Fixed Column Width leaves your settings alone. Double-clicking a column boundary autofits that one column. Cells can be merged into one, or split into several, and a table itself can be split into two tables.\n\nFor official documents the setting that matters most is Repeat Header Rows. Mark the heading row as a header and it reappears at the top of every page the table runs over, so a twelve-page list stays readable. Retyping the heading instead breaks sorting and any later editing. Tables can be sorted on a chosen column, and simple formulas such as =SUM(ABOVE) can total a column. But Word is not a spreadsheet: those formulas are fields that must be updated after the numbers change, and real calculation belongs in Excel, pasted or linked in.",
+    "facts": [
+      "The Insert Table dialog in Word allows a maximum of 63 columns; the smallest table is 1 row by 1 column",
+      "AutoFit to Contents sizes each column to its text; double-clicking a column boundary autofits that column",
+      "Repeat Header Rows makes the heading row reappear at the top of each page a long table spans",
+      "Text separated by tabs or commas can be converted into a table, and a table converted back to text",
+      "Word supports simple in-cell formulas such as =SUM(ABOVE)"
+    ],
+    "traps": [
+      "63 is the column limit in the Insert Table dialog. It is not a row limit and not a limit on anything else",
+      "Merging joins selected cells into one cell; splitting a table divides it into two separate tables. Different operations with similar-sounding names",
+      "A repeated header row is a table property. Typing the heading again on the next page produces text that will not move when the table does",
+      "A formula in a Word table is a field, not a live spreadsheet cell - it does not recalculate on its own when the figures change"
+    ],
+    "mnem": "",
+    "rel": [
+      "Page Layout",
+      "Graphics",
+      "Styles and Themes"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "III",
+    "unitTitle": "Word Processing",
+    "sub": "SmartArt",
+    "def": "In Word, SmartArt is a library of ready-made diagram layouts - lists, processes, cycles, hierarchies, relationships, matrices and pyramids - inserted into a document to present information visually. You type into a Text Pane and the shapes size and arrange themselves; you do not draw or align anything by hand.",
+    "exp": "The everyday office use is conversion. A note already contains a typed bulleted list of, say, five approval steps. Select those paragraphs and convert them to SmartArt: each bullet becomes a shape, and the indent level of a bullet becomes its level in the diagram. A sequence of steps becomes a Process graphic without retyping. The reverse is also possible - the text can be recovered from the Text Pane.\n\nChoose the layout by the relationship you want to show, not by looks. List layouts show items with no order. Process layouts show steps in sequence, usually with arrows. Cycle shows a repeating loop. Hierarchy is the organisation chart, showing reporting lines. Relationship, Matrix and Pyramid show connection, quadrants and proportion. Switching layout later keeps the text you already entered, so it costs nothing to try another. Colours and fonts follow the document theme, so a SmartArt graphic matches the rest of the document automatically.\n\nKeep SmartArt distinct from its neighbours. A chart plots numeric data. Shapes are individual drawing objects you position yourself. WordArt is only decorative text. And because a diagram is an image to assistive technology, a SmartArt graphic still needs alt text describing what it conveys; the words sitting inside the shapes are not a substitute.",
+    "facts": [
+      "SmartArt converts text into a diagram; text is entered in the Text Pane and the shapes resize automatically",
+      "An existing bulleted list can be converted directly into SmartArt, with bullet indent levels becoming diagram levels",
+      "Hierarchy layouts produce organisation charts, Process layouts show sequential steps, Cycle layouts show repeating loops",
+      "Changing the SmartArt layout preserves the text already entered",
+      "SmartArt takes its colours and fonts from the document theme"
+    ],
+    "traps": [
+      "SmartArt is not a chart. A chart plots numeric data; SmartArt arranges text into a diagram",
+      "SmartArt is not the same as drawing with Shapes - SmartArt lays itself out, Shapes must be sized and aligned by hand",
+      "The same SmartArt feature exists in PowerPoint, where it goes on a slide. In Word it sits in the document body and is handled as a graphic object with text wrapping",
+      "A SmartArt graphic still requires alt text; the text visible inside the shapes does not make the diagram accessible"
+    ],
+    "mnem": "",
+    "rel": [
+      "Graphics",
+      "Accessibility Features",
+      "Styles and Themes"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "III",
+    "unitTitle": "Word Processing",
+    "sub": "Graphics",
+    "def": "Graphics are the non-text objects placed in a document: pictures from a file or an online source, shapes, icons, screenshots, charts, WordArt and SmartArt. Once inserted, an object is selected as a whole and handled with its own picture or drawing tools rather than as characters of text.",
+    "exp": "A selected graphic is surrounded by a selection rectangle carrying small squares called sizing handles, at the four corners and the middle of each side. Dragging a handle resizes the object: a corner handle scales it proportionally, a side handle stretches one dimension and distorts the picture. A separate rotation handle turns it. Exact height and width can also be typed in, which is what you do when several pictures must match. Cropping trims what is shown without scaling the image, and the trimmed part is hidden rather than removed.\n\nText wrapping decides how the surrounding text behaves. In Line with Text is the default and treats the picture as one very large character sitting in the line, which is why such a picture refuses to be dragged freely. Square, Tight and Through flow text around the object. Behind Text and In Front of Text let it float over or under the text. A floating object is anchored to a paragraph and moves when that paragraph moves.\n\nPictures are inserted from a file on disk, from an online source, or by pasting. Before a document is emailed or uploaded, Compress Pictures cuts the file size substantially. Every picture that carries meaning needs alt text so a screen reader can describe it; purely decorative images should be marked as decorative instead.",
+    "facts": [
+      "The small squares on the selection rectangle around a graphic are called sizing handles and are used to resize it",
+      "Dragging a corner handle resizes proportionally; a side handle stretches only one dimension",
+      "In Line with Text is the default wrapping, in which the picture behaves like a character in the line",
+      "Cropping hides part of a picture without scaling it; resizing scales the whole picture",
+      "Compress Pictures reduces the document's file size before it is emailed or uploaded"
+    ],
+    "traps": [
+      "Sizing handles resize the object; the separate rotation handle rotates it. The exam asks for the name of the small squares - sizing handles",
+      "Cropping is not resizing. Cropping cuts off part of the image, resizing changes the size of the whole image",
+      "A picture that will not move where you want it is almost always still In Line with Text, not broken",
+      "A visible caption under a picture is not alt text. The caption is read by everyone; alt text is what a screen reader announces"
+    ],
+    "mnem": "",
+    "rel": [
+      "SmartArt",
+      "Accessibility Features",
+      "References"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "III",
+    "unitTitle": "Word Processing",
+    "sub": "References",
+    "def": "The reference apparatus of a long document: footnotes and endnotes, captions, cross-references, a table of figures, an index, and citations feeding a bibliography. All of these are inserted as fields, so their numbers and page references are generated by Word and can be regenerated when the document changes.",
+    "exp": "A footnote is placed at the bottom of the same page as its reference mark. An endnote holds the same kind of content but is collected at the end of the document, or of the section. Both are numbered automatically, so inserting one in the middle renumbers every note after it - which is exactly why they are not typed by hand.\n\nA caption is a numbered label attached to a table, figure or equation, giving you Table 4 or Figure 7. A cross-reference is a field that points at a captioned item, a heading, a bookmark or a numbered paragraph. This is what keeps a sentence like see Table 4 on page 12 correct: insert another table earlier, or add a paragraph that pushes the page, and updating the fields corrects both the number and the page. Type that sentence as plain text and it is wrong the first time the document is edited. A table of figures is generated from captions in the same way a table of contents is generated from heading styles.\n\nAn index is built by marking index entries in the text and then generating the index, which lists each entry with its page numbers. The governing habit for all of it: fields do not refresh continuously, so update them as the last step before printing, converting to PDF or issuing the document.",
+    "facts": [
+      "A footnote appears at the foot of the page carrying its reference mark; an endnote appears at the end of the document or section",
+      "Footnotes and endnotes renumber automatically when one is inserted or deleted",
+      "A cross-reference is a field pointing at a heading, caption, bookmark or numbered item, and updates to the correct number and page",
+      "A table of figures is generated from captions, as a table of contents is generated from heading styles",
+      "An index is compiled from marked index entries and lists page numbers against each entry"
+    ],
+    "traps": [
+      "Footnote versus endnote: the difference is placement, not content - bottom of the page against end of the document",
+      "A typed see page 12 is plain text and becomes wrong on the next repagination. Only a cross-reference field corrects itself",
+      "Fields do not update themselves as you type; they must be updated before the document is printed or issued",
+      "A table of figures comes from captions and a table of contents from heading styles - different sources, similar names"
+    ],
+    "mnem": "",
+    "rel": [
+      "Table of Contents",
+      "Citations and Bibliography",
+      "Styles and Themes"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "III",
+    "unitTitle": "Word Processing",
+    "sub": "Table of Contents",
+    "def": "An automatically generated list of the document's headings with the page number each falls on, placed at the front of a report. Word builds it by collecting the paragraphs formatted with heading styles or given outline levels. It is inserted as a field and generated by Word, not typed out by the author.",
+    "exp": "Its source is heading styles - see Styles and Themes. Heading 1 paragraphs become level one entries, Heading 2 paragraphs become level two, and so on down as many levels as you ask for. If the headings in a report were formatted by selecting the text and bolding it, the automatic table of contents comes out empty or missing those headings, and the fix is to apply the heading styles properly and then insert it. Nothing else will make it work.\n\nA table of contents does not track the document as you edit it. Add three new sections and the headings and page numbers change, but the table already on page one keeps showing what it showed when it was generated. You have to update it. Update Page Numbers Only refreshes the page numbers against the existing entries and is used when only the pagination has shifted. Update Entire Table rebuilds the list, picking up headings that are new, renamed or deleted. In office practice, updating the table of contents is the last step before converting the final document to PDF and putting it on record.\n\nEntries are hyperlinks, so a reader can click a line and jump to that heading, and that navigation carries over into the PDF.",
+    "facts": [
+      "Word's automatic table of contents is generated from paragraphs formatted with heading styles or carrying outline levels",
+      "A table of contents is a field; it does not update itself and must be refreshed explicitly",
+      "Update Page Numbers Only keeps the existing entries and refreshes pagination; Update Entire Table rebuilds the entries",
+      "The number of heading levels shown in the table of contents can be set when it is inserted",
+      "Table of contents entries are hyperlinks to the headings and remain navigable after conversion to PDF"
+    ],
+    "traps": [
+      "If headings were bolded manually instead of styled, the automatic table of contents will not find them at all",
+      "Adding new sections does not change the table of contents by itself; an unupdated table shows the old page numbers",
+      "Update Page Numbers Only will not add a newly inserted heading - that requires Update Entire Table",
+      "A manual table of contents is ordinary typed text. It looks the same on the page but never updates"
+    ],
+    "mnem": "",
+    "rel": [
+      "Styles and Themes",
+      "References",
+      "Integration of e-Office"
+    ]
+  }
+]

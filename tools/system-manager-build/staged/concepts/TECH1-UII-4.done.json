@@ -1,0 +1,57 @@
+[
+  {
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "PowerShell Fundamentals",
+    "def": "PowerShell is the modern Windows command-line shell and scripting language. Its commands, called cmdlets, are named as an approved verb, a hyphen and a singular noun, giving predictable names such as Get-Process, Get-Service and Stop-Service. Its defining feature is that a cmdlet emits structured objects rather than text, and the pipeline passes those objects to the next cmdlet.",
+    "exp": "The Verb-Noun rule makes the command set guessable. Once you know Get-Service, you can reasonably expect Start-Service, Stop-Service, Restart-Service and Set-Service to exist. Common verbs are Get, Set, New, Remove, Start, Stop and Restart. The noun is always singular, even when the cmdlet returns many items.\n\nThe object pipeline is the examinable difference from Command Prompt. When cmd pipes, it passes a stream of characters, so the receiving command must parse the text by column position or by searching for strings, which breaks the moment the format changes. When PowerShell pipes, it passes objects that carry named properties, so the next cmdlet filters, sorts or selects on a property by name. Get-Process piped to Sort-Object works on a genuine CPU property, not on a column of digits scraped out of a line of text.\n\nThree cmdlets carry a beginner. Get-Command finds cmdlets, Get-Help explains one with examples, and Get-Member lists the properties and methods of whatever an object actually is, which is how you discover what you can filter on.\n\nScripts are saved with the .ps1 extension. Execution policy governs whether a script may run at all, and is a safety setting rather than a security boundary.\n\nPowerShell is the interpreter. Windows Terminal is only a window that can host it, cmd or WSL in tabs.",
+    "facts": [
+      "Cmdlets follow the pattern approved verb, hyphen, singular noun, for example Get-Process, Get-Service, Stop-Service",
+      "The PowerShell pipeline passes objects with named properties; the Command Prompt pipeline passes plain text",
+      "Get-Command lists available cmdlets, Get-Help documents one, and Get-Member shows an object's properties and methods",
+      "PowerShell scripts use the .ps1 file extension",
+      "Execution policy controls whether PowerShell scripts are allowed to run",
+      "PowerShell can run most ordinary Command Prompt commands, so it does not force an administrator to relearn everything at once"
+    ],
+    "traps": [
+      "The central distinction: PowerShell pipes objects, cmd pipes text. PowerShell is not simply a cmd window with more commands",
+      "Verb-Noun, not Noun-Verb, and the noun stays singular. Get-Process is correct; Process-Get and Get-Processes are not",
+      "PowerShell is a shell, Windows Terminal is a host application. Terminal displays PowerShell in a tab; it is not itself a shell",
+      "Execution policy is a guard against running a script by accident, not a security control. It does not stop a determined user"
+    ],
+    "mnem": "Verb first, noun singular: Get-Service, not Get-Services",
+    "rel": [
+      "Command Prompt",
+      "Basic Batch Files",
+      "Windows Terminal"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Basic Batch Files",
+    "def": "A batch file is a plain text file containing a list of Command Prompt commands, saved with the .bat extension (or .cmd), which the command interpreter then executes one line after another. It is the oldest and simplest form of Windows automation, created in any text editor and run by double-clicking it or typing its name.",
+    "exp": "Its purpose is repetition. A sequence you would otherwise type every morning, such as mapping a drive, copying a folder to a backup location and clearing a temporary directory, is written once into a batch file and afterwards run with one command or from a scheduled task.\n\nA few elements cover most basic scripts. @ECHO OFF on the first line stops the interpreter printing each command before it executes, and the leading @ suppresses that line itself, so the output is clean; the commands still run and their own output still appears. REM marks a comment line. ECHO prints a message to the screen. PAUSE stops and waits for a keypress, which is what keeps the window open long enough to read. SET creates a variable, and a variable is used by wrapping its name in percent signs. Parameters passed on the command line arrive as %1, %2 and so on.\n\nControl flow uses IF for tests, GOTO with a label for jumps, and FOR to repeat a command over a set of files.\n\nBatch files remain in wide everyday use in offices because they are trivial to write and need nothing installed. For anything with real logic, error handling or structured output, PowerShell is the better tool, and a batch file can simply call a PowerShell script.",
+    "facts": [
+      "A batch file is a plain text file of commands saved with the .bat extension; .cmd is the equivalent modern extension",
+      "@ECHO OFF stops each command being displayed before it runs, and the leading @ hides that line itself; the commands still execute normally",
+      "REM marks a comment, ECHO prints a message, and PAUSE waits for a keypress before continuing",
+      "Command-line arguments passed to a batch file are available as %1, %2 and so on",
+      "IF, GOTO with a label, and FOR provide the basic control flow"
+    ],
+    "traps": [
+      "@ECHO OFF suppresses the display of the commands, not their execution and not their output. The script still does everything it was going to do",
+      "ECHO OFF alone still prints that first ECHO OFF line. The @ is what hides it",
+      ".bat is a batch file, .ps1 is a PowerShell script and .exe is a compiled program. They are not interchangeable",
+      "A batch file is interpreted line by line by the command interpreter; it is not compiled, and it needs no separate runtime installed"
+    ],
+    "mnem": "",
+    "rel": [
+      "Command Prompt",
+      "PowerShell Fundamentals",
+      "Windows Terminal"
+    ]
+  }
+]

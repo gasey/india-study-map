@@ -1,0 +1,165 @@
+[
+  {
+    "paper": "TECH2",
+    "unit": "IV",
+    "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+    "sub": "e-Office Security",
+    "def": "e-Office security is the set of controls that decides who may open, note on, move, download or sign a government file in the eOffice system, and that permanently records what each user did to it. It rests on three things: an individual login tied to the officer's post, permissions granted by role rather than by person, and an audit trail the user cannot edit.",
+    "exp": "Access is granted to the post, not to the human being. Every user is mapped to a designation in the hierarchy and the rights follow that designation, so on transfer the individual login is deactivated and the successor inherits the post's rights. A dealing assistant may create a receipt and put up a note; only the officer holding the delegated power can approve it. A file marked confidential is visible only to users on its movement path.\n\nEvery action is stamped with the acting officer's digital identity - the login, a second factor where enforced, and a Digital Signature Certificate where the file must be signed. Nothing in eOffice is anonymous.\n\nThat is why an electronic file is more traceable than a paper one. Each movement, each note version, each attachment carries a user id with date and time. A page can quietly disappear from a paper file; in eOffice the earlier version survives and the attempt is logged. Traceability is the real security gain and also the discipline burden.\n\nIn a shared office room the actual breaches are rarely hacking. They are a password lent to a colleague to clear a file during leave, an unattended machine left logged in, credentials saved in a shared browser. Lock the session, keep the password personal, and use formal delegation instead of lending a login.",
+    "facts": [
+      "eOffice access control is role-based: permissions attach to the post or designation, and are inherited by whoever holds that post.",
+      "The audit trail records user id, date and time for every file movement, note version and attachment, and cannot be edited by the user who generated it.",
+      "Notes in eOffice are versioned rather than overwritten, so an earlier draft of a note remains recoverable.",
+      "A confidential file is restricted to users on its movement path; ordinary users of the same section cannot open it.",
+      "Where a file requires signing, the officer's Digital Signature Certificate supplies the identity, not merely the login password."
+    ],
+    "traps": [
+      "Role-based access is not the same as the officer personally owning the file - on transfer, rights pass to the successor in the post while the individual login is disabled.",
+      "An audit trail detects and proves misuse after the fact; it does not prevent it. Prevention comes from access control, not from logging.",
+      "Sharing a login during leave is not delegation. Formal delegation keeps the audit trail correct; a shared password destroys it and makes both officers liable.",
+      "Encrypting a file protects its confidentiality, but it does nothing about who is authorised to open it - that is access control's job."
+    ],
+    "mnem": "",
+    "rel": [
+      "Digital Signature Certificate (DSC)",
+      "NIC eOffice",
+      "Workflow Configuration"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "IV",
+    "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+    "sub": "Digital Signature Certificate (DSC)",
+    "def": "A Digital Signature Certificate is an electronic credential issued to a named person by a Certifying Authority licensed by the Controller of Certifying Authorities (CCA), binding that person's verified identity to a public key. Holding the matching private key, usually on a PIN-protected USB crypto token, the person signs an electronic record; anyone can verify that signature against the certificate.",
+    "exp": "A digital signature assures three things. Authenticity - the record genuinely came from the named holder. Integrity - the content has not changed since signing, because any alteration breaks verification. Non-repudiation - the signer cannot later deny signing, since only they hold the private key. Under the Information Technology Act a digitally signed electronic record has legal recognition, which lets an eOffice approval stand in place of ink on paper.\n\nSigning is not encryption. Signing uses the signer's private key and protects against forgery and tampering; the signed note stays fully readable to anyone. Encryption uses the recipient's public key and protects confidentiality. The same infrastructure supports both, but they are separate operations using opposite keys.\n\nA digital signature is also not an electronic signature in general. An electronic signature is any electronic mark of intent - a scanned image of your signature, a typed name, a tick box - and carries no cryptographic proof. A DSC-based digital signature is mathematically verifiable. Aadhaar-based eSign sits between them: a legally recognised electronic signature using a certificate generated on demand instead of a token you carry.\n\nThe token is personal and PIN-protected; handing it to a subordinate to sign a file defeats non-repudiation entirely. Certificates are revoked on compromise or when the holder demits office, and verification includes a revocation check.",
+    "facts": [
+      "A DSC is issued by a Certifying Authority licensed by the Controller of Certifying Authorities under the Information Technology Act.",
+      "A digital signature provides authenticity, integrity and non-repudiation - it does not provide confidentiality.",
+      "Signing uses the signer's private key; verification uses the signer's public key from the certificate.",
+      "The certificate binds an identity to a public key; the private key stays with the holder, normally on a PIN-protected USB crypto token.",
+      "A compromised or superseded certificate is revoked, and signature verification includes checking revocation status."
+    ],
+    "traps": [
+      "Digital signature vs electronic signature - a scanned image of a handwritten signature is an electronic signature with no cryptographic proof; a DSC-based digital signature is verifiable.",
+      "Signing vs encrypting - signing uses the sender's private key and leaves content readable; encrypting uses the recipient's public key and hides content. A signed document is not a secret document.",
+      "The certificate holds only the public key. If a question says the DSC contains the private key, it is wrong.",
+      "Non-repudiation holds only if the private key stayed with the holder. Lending the token to a subordinate destroys the very property the DSC exists to give."
+    ],
+    "mnem": "AIN - Authenticity, Integrity, Non-repudiation.",
+    "rel": [
+      "Digital Certificates",
+      "Public Key Infrastructure (PKI)",
+      "e-Office Security"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "IV",
+    "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+    "sub": "Workflow Configuration",
+    "def": "Workflow configuration is the setting up, inside the eOffice system, of the path a receipt or file follows: which posts exist, who reports to whom, who may create, mark, sign or approve, and where an item goes at each step. It turns the department's channel of submission and its delegation of powers into rules the software enforces.",
+    "exp": "Configuration starts from the employee and post master. Every user is attached to a designation, and rights are set on the designation. Moving a file is called marking it forward: you send it to another user's inbox with a remark, it drops off your pending list and appears on theirs. Nothing physically changes hands, but the channel of submission is exactly the paper one.\n\nMovement is sequential or parallel. Sequential is the normal noting route - dealing hand, section officer, branch officer, head of office - each recording a note before the next sees the file. Parallel movement sends the file for concurrent comment to another wing, typically finance or legal, while the main line continues; the consulted officer records views, but the competent authority still approves the single main file. Parallel is the usual answer where two departments must be consulted at once.\n\nLeave is handled by delegation, not password sharing. A post's inbox can be delegated to a link officer for a period, or pending files re-marked in bulk. Actions still log the real user id, so the trail shows who acted and under whose delegation.\n\nConfiguration also fixes file numbering heads, which section may open which file series, and escalation alerts for items pending too long. Bad configuration shows up as files stuck with no valid next recipient.",
+    "facts": [
+      "Workflow rights in eOffice are configured against the post or designation, so the hierarchy master drives the movement path.",
+      "Marking a file forward moves it from the sender's pending list to the recipient's inbox with a remark recorded in the movement history.",
+      "Sequential movement passes a file one desk at a time up the hierarchy; parallel movement sends it for concurrent comment to another section while the main line continues.",
+      "During leave, the correct mechanism is delegating the inbox to a link officer, not sharing credentials; the audit trail still records the actual acting user.",
+      "Escalation and pendency alerts are configuration settings, not a separate module - they fire on files idle beyond a set period."
+    ],
+    "traps": [
+      "Parallel movement is for concurrent consultation, not for parallel approval - final approval still rests with the single competent authority on the main file.",
+      "Delegation transfers the ability to act, not the accountability or the identity - the log names the delegate, not the officer on leave.",
+      "Configuring a workflow does not change who is legally competent to sanction; the software only enforces the delegation of powers already laid down.",
+      "Marking a file forward is not the same as closing it. A file leaves your inbox on marking but stays open until it is formally closed and recorded."
+    ],
+    "mnem": "",
+    "rel": [
+      "Office Procedure in Digital Environment",
+      "e-Office Security",
+      "NIC eOffice"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "IV",
+    "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+    "sub": "Metadata Management",
+    "def": "Metadata is the structured data that describes a file or receipt rather than forming its content. Metadata management is the practice of capturing those fields correctly and consistently when the record is created, and keeping them current, so that the record can later be retrieved, routed, reported on and retained or weeded by rule instead of by someone's memory.",
+    "exp": "On a government file the metadata is concrete and listable: the file number, which itself encodes department, section, subject head and year; the subject or title; the main head and sub head; the originating section and the post that opened it; date of opening; date of last movement and current holder; status - active, closed or parked; security classification such as normal, confidential or secret; keywords; linked and referenced file numbers; and the retention category assigned at closure.\n\nRetrieval is the first reason it matters. Much of the content is scanned correspondence, so full-text search may return nothing; search runs on subject, keywords and file number. A file titled Misc. with no keywords is effectively lost even though it sits on the server.\n\nRouting is the second. Category and section decide the default movement path and whose inbox a receipt lands in; classification decides who may open it at all.\n\nRetention is the third. Whether a closed file is weeded or preserved is decided from its recorded category and closing date, and the rule can only run if the field was filled honestly.\n\nPendency statements, RTI searches and audit queries all run on metadata. It is cheap to enter at creation and expensive to reconstruct years later.",
+    "facts": [
+      "Metadata describes the record; it is not the record's content. A file's subject, category, dates, section and keywords are metadata.",
+      "In eOffice the file number itself carries metadata - department, section, subject head and year are encoded in it.",
+      "Search and retrieval in eOffice run mainly on metadata fields, because much of the correspondence is scanned images rather than searchable text.",
+      "The retention category recorded at closure is the metadata field that drives later weeding or preservation decisions.",
+      "Security classification is metadata that controls access, deciding who may open the file at all."
+    ],
+    "traps": [
+      "Metadata is not a summary of the file. A precis of the case goes in the note; metadata is the fixed descriptive fields.",
+      "Auto-generated metadata such as dates and current holder is reliable; the human-entered fields - subject, keywords, category - are where quality is actually lost.",
+      "Poor metadata does not delete a record; it makes an existing record unfindable, which in an RTI or audit context has the same practical effect.",
+      "Metadata management is not indexing done at the end of the year - the fields must be captured at creation, because that is the only time the facts are known."
+    ],
+    "mnem": "",
+    "rel": [
+      "Record Retention and Archival",
+      "Office Procedure in Digital Environment",
+      "Knowledge Management System (KMS)"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "IV",
+    "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+    "sub": "Record Retention and Archival",
+    "def": "Record retention is the rule-based decision on how long each closed record must be kept before it may be destroyed or preserved permanently; every file is assigned a retention category when it is closed. Archival is the transfer of records of continuing legal, evidential or historical value out of the live working system into a repository meant for long-term preservation.",
+    "exp": "Distinguish three states. An active file is open and moving between desks, being noted on. A closed or recorded file has had its action completed and no longer moves, but still sits in the working system and can be called up for reference. An archived record has been moved out of the working system into preservation storage; it is consulted rarely and normally read-only.\n\nCategorisation exists because records are not equal. Policy decisions, precedent-setting orders, service and land records, and anything of lasting legal or historical value are preserved. Routine correspondence and ephemeral papers are weeded once their purpose is served. Without categorisation a department either destroys something it needs in a later court case or RTI, or keeps everything forever, which drives up cost and makes retrieval useless. The category is fixed at closure, so retention quality depends on metadata quality.\n\nArchival is not backup, and this is the favourite examination point. A backup is a copy of live data kept so the system can be restored after failure or corruption; it is short-lived and overwritten on a cycle. An archive is the record itself, moved for preservation and kept for its evidential value. Backup answers can we recover; archive answers can we still produce this record. Preservation must also survive format obsolescence and media decay, so open formats, periodic migration and integrity checks matter.",
+    "facts": [
+      "A retention category is assigned to a file when it is closed, and that category drives later weeding or permanent preservation.",
+      "Active file, closed or recorded file, and archived record are three distinct states - closing a file does not archive it.",
+      "Archival is for preservation and legal or historical obligation; backup is for recovery after failure or corruption.",
+      "Backups are cycled and overwritten; archived records are kept for their full retention life and must stay readable and verifiable.",
+      "Digital preservation requires stable open formats, periodic migration to current media, and integrity checks to prove the record was not altered."
+    ],
+    "traps": [
+      "Archive vs backup - if a question offers backup as the way to meet a legal record-keeping obligation, it is wrong; backups are recovery copies, not preserved records.",
+      "Deleting a file from the live system does not remove it from the archive, and after a cycle or two it will not be on the backups either.",
+      "Weeding is not a storage-saving measure taken at will - it is the destruction of records whose retention period has expired, done by rule and recorded.",
+      "A closed file is still in the live system and retrievable; only transfer to the repository makes it archived. The two are commonly offered as the same thing."
+    ],
+    "mnem": "Backup restores the system; archive preserves the record.",
+    "rel": [
+      "Metadata Management",
+      "Office Procedure in Digital Environment",
+      "e-Office Security"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "IV",
+    "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+    "sub": "Office Procedure in Digital Environment",
+    "def": "Office procedure is the standard sequence by which government business is transacted: a communication is received and diarised, a note is put up on it, the papers are placed on a file, and a draft reply is put up for approval before issue. In eOffice the same sequence is followed on screen - the terminology, the noting discipline and the channel of submission are unchanged; only the medium is.",
+    "exp": "A receipt is an incoming communication - letter, email, tapal - scanned or captured and diarised, which gives it a unique receipt number. Once attached to a file it becomes the paper under consideration, the PUC on which the case is argued.\n\nA note is where the dealing official sets out the facts, the rules and precedent position, and a clear recommendation, then marks the file up the channel. The noting portion and the correspondence portion remain two separate sides of the same file. Notes are numbered and versioned; a submitted note cannot be silently altered, and a correction is made by a fresh note.\n\nA file is the set of receipts, notes and drafts on one subject, opened under a file number drawn from the department's subject heads. Earlier files are linked or referenced rather than copied in.\n\nA draft for approval, the DFA, is the proposed outgoing letter put up along with the note. The competent authority approves and digitally signs it, and only then is it issued and given a despatch number.\n\nWhat changes in eOffice: no physical movement, several officers can consult the same papers, pendency is tracked automatically. What does not change: who is competent to approve, the requirement that a note be self-contained, and correct file numbering.",
+    "facts": [
+      "The basic sequence is receipt, note, file, draft for approval, then issue and despatch.",
+      "PUC means paper under consideration - the receipt on which action is being taken, attached to the file.",
+      "A file has a noting side and a correspondence side; they remain distinct in eOffice.",
+      "A draft for approval is signed by the competent authority before issue; approval and despatch are separate steps, each recorded.",
+      "eOffice notes are versioned and cannot be silently altered after submission - a correction is made by a subsequent note.",
+      "Earlier files are linked or referenced by file number rather than duplicated into the new file."
+    ],
+    "traps": [
+      "eOffice changes the medium, not the procedure - competence to approve, channel of submission and noting discipline come from the office manual, not from the software.",
+      "A receipt is not a file. A receipt is diarised on arrival and only becomes part of a case when attached to a file.",
+      "Approving a draft is not issuing it. The letter goes out only after despatch, with its own despatch number.",
+      "Noting and drafting are different acts: a note argues the case internally, a draft is the communication that will leave the office."
+    ],
+    "mnem": "",
+    "rel": [
+      "Workflow Configuration",
+      "Metadata Management",
+      "e-Office Concept and Digital Office Environment"
+    ]
+  }
+]

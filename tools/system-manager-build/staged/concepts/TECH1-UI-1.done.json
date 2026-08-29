@@ -1,0 +1,247 @@
+[
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "Evolution and Generations of Computers",
+    "def": "Computers are conventionally divided into five generations, and the thing that defines each generation is the switching technology used to build its processing circuits: vacuum tube, transistor, integrated circuit, microprocessor (LSI/VLSI), and artificial intelligence with massively parallel processing. Each shift made machines smaller, cheaper, cooler and more reliable while raising speed.",
+    "exp": "First generation used vacuum tubes, machine language, punched cards and magnetic drum memory. Machines were room-sized, hot and failure-prone: ENIAC, EDVAC, EDSAC, UNIVAC I.\n\nSecond generation replaced tubes with transistors, added magnetic core memory and magnetic tape, and introduced assembly and the first high-level languages, FORTRAN and COBOL.\n\nThird generation used integrated circuits, putting many transistors on one chip. Keyboards and monitors replaced cards, and operating systems brought multiprogramming and time-sharing. IBM System/360 is the standard example.\n\nFourth generation is the microprocessor era: LSI and then VLSI put the entire CPU on a single chip, starting with the Intel 4004 in 1971. This produced the personal computer, the graphical interface and networking.\n\nFifth generation is the current and ongoing one: ULSI, parallel processing, natural language processing and AI or knowledge-based systems. The term comes from Japan's Fifth Generation Computer Systems project.\n\nBefore any of this sits a mechanical pre-history that papers still ask about: the abacus, Pascal's Pascaline, Leibniz's stepped reckoner, the Jacquard loom, and Charles Babbage's Difference Engine and Analytical Engine. Babbage is called the Father of the Computer; Ada Lovelace, who wrote algorithms for the Analytical Engine, is called the first programmer. Herman Hollerith's punched-card tabulator, used for the US census, led to the company that became IBM.",
+    "facts": [
+      "Switching technology by generation: 1st vacuum tube, 2nd transistor, 3rd integrated circuit, 4th microprocessor (VLSI), 5th AI and parallel processing (ULSI).",
+      "The transistor was invented at Bell Laboratories in 1947; the integrated circuit is credited to Jack Kilby and Robert Noyce in 1958-59.",
+      "The Intel 4004, released in 1971, was the first commercial microprocessor and marks the fourth generation.",
+      "UNIVAC I was the first commercially available electronic computer; ENIAC was an earlier vacuum-tube machine programmed by rewiring.",
+      "Charles Babbage is called the Father of the Computer for the Analytical Engine; Ada Lovelace is regarded as the first programmer.",
+      "FORTRAN and COBOL belong to the second generation; multiprogramming and time-sharing operating systems belong to the third."
+    ],
+    "traps": [
+      "Generation is defined by the switching or circuit technology, not by decade and not by programming language. A question naming a decade is still asking which device was used.",
+      "IC (3rd generation) versus microprocessor (4th): both are chips, but a 3rd-generation IC holds part of the circuitry, while the 4th-generation microprocessor holds the whole CPU on one chip.",
+      "The abacus and Babbage's engines are mechanical pre-history, not first generation. First generation means electronic vacuum-tube machines.",
+      "ENIAC was not a stored-program computer; EDVAC and EDSAC embodied the von Neumann stored-program concept. Options crediting ENIAC with the stored program are wrong."
+    ],
+    "mnem": "Very Tiny Insects Make Ants: Vacuum tube, Transistor, IC, Microprocessor, AI.",
+    "rel": [
+      "Classification of Computers",
+      "Characteristics and Applications of Computers",
+      "Functional Components of a Computer"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "Characteristics and Applications of Computers",
+    "def": "The standard characteristics of a computer are speed, accuracy, diligence, versatility, storage capacity, automation and reliability. Against these are set its limitations: it has no intelligence or judgement of its own, no emotion or intuition, and its output is only as good as the data and program it is given.",
+    "exp": "Speed is measured in fractions of a second: millisecond, microsecond, nanosecond, picosecond. Supercomputer speed is rated in FLOPS, floating-point operations per second.\n\nAccuracy means the computation itself is exact; errors in output almost always trace back to human error in data entry or programming. This is the GIGO principle, Garbage In Garbage Out.\n\nDiligence means the machine performs the millionth calculation exactly as it performed the first, with no fatigue, boredom or loss of concentration. Versatility means the same hardware does payroll in the morning and weather modelling in the afternoon simply by changing the program. Automation means it continues without human intervention once a program is started. Storage capacity means large volumes of data can be held and retrieved accurately for years.\n\nApplications span education, banking (core banking, ATMs, NEFT, RTGS and UPI), healthcare and diagnostics, railway reservation, weather forecasting, defence, scientific research, industrial process control, publishing and entertainment.\n\nIn Indian government work the applications you should be able to name are e-governance service delivery, digitisation of land records, e-District and Common Service Centres, Direct Benefit Transfer, GST filing, Aadhaar-based authentication and eKYC, computerised treasury and payroll, and the National Informatics Centre's departmental applications.",
+    "facts": [
+      "Units of computer speed in order: millisecond (10^-3 s), microsecond (10^-6 s), nanosecond (10^-9 s), picosecond (10^-12 s).",
+      "GIGO stands for Garbage In, Garbage Out: the accuracy of output depends on the accuracy of input.",
+      "Diligence means performing a repeated task with the same accuracy and no fatigue.",
+      "Versatility means the same machine performs entirely different tasks by changing the program, not the hardware.",
+      "Supercomputer performance is expressed in FLOPS (floating-point operations per second)."
+    ],
+    "traps": [
+      "Accuracy versus reliability: accuracy is correctness of a computation, reliability is consistent failure-free operation over time. They are separate characteristics.",
+      "Diligence versus automation: diligence is no loss of accuracy over repetition, automation is running without human intervention. Papers offer both as options for the same stem.",
+      "\"A computer is 100 percent accurate\" holds only for correct input and a correct program. GIGO is the standard distractor against this claim.",
+      "Lack of intelligence, decision-making and intuition is listed as a limitation of a computer, not a characteristic. Do not pick it from a characteristics list."
+    ],
+    "mnem": "",
+    "rel": [
+      "Classification of Computers",
+      "Evolution and Generations of Computers",
+      "Digital Transformation and e-Governance"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "Classification of Computers",
+    "def": "Computers are classified on three independent axes. By the type of data handled: analog, digital and hybrid. By size and processing capability: supercomputer, mainframe, minicomputer and microcomputer. By purpose: general-purpose and special-purpose. Confusing the size axis with the data axis is the most common error in this topic.",
+    "exp": "By data handled. An analog computer measures continuously varying physical quantities such as voltage, pressure or temperature: the classic examples are the slide rule, a speedometer and an analog voltmeter. A digital computer counts discrete values represented in binary, and is what we normally mean by a computer. A hybrid computer combines both, taking analog measurements and converting them for digital processing; an ICU patient monitor and a petrol-pump dispenser are the standard examples.\n\nBy size and capability. Supercomputers are the fastest, rated in FLOPS, and are used for weather forecasting, nuclear and molecular simulation and aerodynamic modelling. India's indigenous line is the PARAM series developed by C-DAC, Pune, beginning with PARAM 8000 in 1991; the National Supercomputing Mission continues it. Mainframes serve large organisations with thousands of concurrent users and enormous transaction throughput and uptime: banks, insurers, railway reservation. Minicomputers, or midrange systems, sit between mainframe and micro and served departments. Microcomputers are built around a single microprocessor, and include the desktop, laptop, tablet, smartphone, workstation and embedded controller.\n\nBy purpose. A general-purpose computer runs any program; a special-purpose computer is built for one task, such as the embedded controller in a washing machine or a traffic signal.",
+    "facts": [
+      "Analog measures continuous quantities; digital counts discrete values; hybrid does both.",
+      "Order by size and capability, largest to smallest: supercomputer, mainframe, minicomputer, microcomputer.",
+      "India's PARAM supercomputer series was developed by C-DAC, Pune; PARAM 8000 was the first, in 1991.",
+      "A microcomputer is defined as a computer built around a single microprocessor chip, so laptops, tablets and smartphones are all microcomputers.",
+      "A workstation is a high-end single-user microcomputer used for CAD, engineering and graphics work."
+    ],
+    "traps": [
+      "Supercomputer versus mainframe: a supercomputer maximises raw calculation speed on one large problem (weather forecasting); a mainframe maximises transaction throughput, concurrent users and uptime (railway reservation, banking). Both are large, and the exam picks the application to separate them.",
+      "Analog versus hybrid: a device that only measures a continuous quantity is analog. Hybrid requires both analog input and digital processing.",
+      "A server is a role, not a size class. A server can be a microcomputer, a midrange system or a mainframe.",
+      "Size and data-handling are separate classifications. \"Digital\" is not a size and \"mini\" is not a data type; an option mixing the two axes is wrong."
+    ],
+    "mnem": "Super, Main, Mini, Micro: largest to smallest. ADH for Analog, Digital, Hybrid.",
+    "rel": [
+      "Evolution and Generations of Computers",
+      "Characteristics and Applications of Computers",
+      "Functional Components of a Computer"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "Digital Transformation and e-Governance",
+    "def": "Digital transformation is the redesign of an organisation's processes, services and operating model around digital technology, not merely the moving of existing paper procedures onto a computer. e-Governance is that idea applied to the state: using information and communication technology to deliver public services, share information and conduct transactions with citizens, businesses, other government bodies and employees.",
+    "exp": "Three levels are routinely confused. Digitisation converts analog content into digital form, such as scanning a land record into a PDF. Digitalisation uses digital technology to change how a process runs, such as replacing the counter form with an online application. Digital transformation changes what the organisation does and how it is structured, reorganising delivery around the citizen instead of the department.\n\ne-Governance is described through four interaction models. G2C, Government to Citizen, covers certificates, pensions, utility payments and grievance redressal. G2B, Government to Business, covers licences, tenders, procurement and tax filing. G2G, Government to Government, covers inter-departmental and centre-state data exchange. G2E, Government to Employee, covers payroll, service records, HR systems and e-learning.\n\nDistinguish e-Government from e-Governance. e-Government is the electronic apparatus and infrastructure of service delivery. e-Governance is the wider change in the process of governing that it enables: transparency, accountability, citizen participation and efficiency. The Indian formulation is SMART governance, meaning Simple, Moral, Accountable, Responsive and Transparent.\n\nMaturity is usually described in stages: information, where the department publishes online; interaction, where forms can be downloaded and queries raised; transaction, where a service is completed end to end including payment; and integration or transformation, where a single window spans departments.",
+    "facts": [
+      "Digitisation converts analog to digital, digitalisation changes the process, digital transformation changes the organisational model.",
+      "The four e-governance interaction models are G2C, G2B, G2G and G2E.",
+      "SMART governance stands for Simple, Moral, Accountable, Responsive and Transparent.",
+      "e-Government refers to the electronic delivery mechanism; e-Governance refers to the broader process of governing that it supports.",
+      "The usual e-governance maturity stages are information, interaction, transaction, and integration or transformation."
+    ],
+    "traps": [
+      "Digitisation versus digitalisation is a one-word distractor: scanning files is digitisation, redesigning the workflow around those files is digitalisation.",
+      "G2C versus G2B: an individual paying income tax is G2C, a firm filing GST returns is G2B. The counterparty decides the model, not the tax.",
+      "e-Governance and e-Government are not interchangeable. One is the process of governing, the other is the electronic machinery.",
+      "Putting a form online is not digital transformation if the back-office process behind it is unchanged; that is only digitalisation of the front end."
+    ],
+    "mnem": "C, B, G, E: Citizen, Business, Government, Employee are the four counterparties of e-governance.",
+    "rel": [
+      "Digital India and e-Governance",
+      "Emerging Technologies: Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Big Data, Cloud Computing and Edge Computing",
+      "Green Computing and Sustainable IT"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "Emerging Technologies: Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Big Data, Cloud Computing and Edge Computing",
+    "def": "Six technologies the syllabus groups together. AI makes machines perform tasks that would need human reasoning. IoT puts networked sensors into ordinary physical objects. Blockchain is a distributed, append-only ledger whose blocks are cryptographically chained. Big data is data too large, too fast or too varied for conventional tools. Cloud computing rents computing as an on-demand service. Edge computing pushes that processing back close to where the data is produced.",
+    "exp": "AI covers systems that learn from data or apply rules to classify, predict or generate. Machine learning is a subset of AI, and deep learning using neural networks is a subset of machine learning. Generative AI and large language models are the current mainstream form.\n\nIoT devices carry sensors, embedded processing and connectivity, reporting readings and accepting remote commands: smart electricity meters, streetlights, soil sensors, wearables. IoT is a major source of big data.\n\nBlockchain groups transactions into blocks, each storing the hash of the previous block, replicated across nodes and agreed by a consensus mechanism. Altering one block breaks every hash after it, which is what makes it tamper-evident. Public chains such as Bitcoin are permissionless; government land-registry and certificate pilots use permissioned chains.\n\nBig data is characterised by the Vs: Volume, Velocity and Variety, with Veracity and Value commonly added. It is handled by distributed frameworks such as Hadoop, HDFS, MapReduce and Spark.\n\nCloud versus edge is the distinction worth learning properly. Cloud centralises computation in large remote data centres, sold pay-as-you-go and scaled elastically; you accept network latency and bandwidth cost in exchange for capacity. Edge does the reverse, processing on or beside the device so a response takes milliseconds and raw data need not leave the site. They are complementary: the edge filters and reacts, the cloud trains models and stores history. Fog computing is the intermediate layer.",
+    "facts": [
+      "Machine learning is a subset of AI, and deep learning is a subset of machine learning.",
+      "Big data's three core Vs are Volume, Velocity and Variety; Veracity and Value are commonly added.",
+      "Each blockchain block stores the cryptographic hash of the previous block, which is what makes tampering detectable.",
+      "Cloud service models are IaaS, PaaS and SaaS; deployment models are public, private, hybrid and community.",
+      "Edge computing's primary benefits are reduced latency and reduced bandwidth use, achieved by processing data near its source.",
+      "Fog computing sits between the edge devices and the cloud as an intermediate processing layer."
+    ],
+    "traps": [
+      "Cloud versus edge: both are off-the-desktop computing, but cloud is centralised and distant while edge is distributed and local. Latency-critical work such as a factory safety cut-off or an autonomous vehicle belongs at the edge.",
+      "AI, machine learning and deep learning are nested, not parallel alternatives. Any question listing them side by side is testing the nesting.",
+      "Blockchain is not cryptocurrency. Cryptocurrency is one application of blockchain; land records, supply chain and certificates are others.",
+      "Big data is defined by the Vs, not by a threshold in gigabytes. There is no size number that makes data \"big\", and IoT feeds it rather than being a kind of it."
+    ],
+    "mnem": "Big data's three Vs: Volume, Velocity, Variety.",
+    "rel": [
+      "Digital Transformation and e-Governance",
+      "Green Computing and Sustainable IT",
+      "Classification of Computers"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "Green Computing and Sustainable IT",
+    "def": "Green computing is the design, manufacture, use and disposal of computers and related systems with minimum environmental impact: cutting energy consumption, reducing hazardous materials, and handling end-of-life equipment responsibly. Sustainable IT extends this across the whole lifecycle and supply chain, and also covers using IT to reduce emissions in other sectors.",
+    "exp": "Four pillars are conventionally listed: green design, green manufacturing, green use and green disposal.\n\nIn practice the measures are virtualisation and server consolidation, so that one physical host runs many virtual machines instead of a rack of under-used servers; migration to cloud data centres that run at higher utilisation; power management such as sleep, hibernate, CPU throttling and display timeout; thin clients in place of full desktops; efficient cooling with hot and cold aisle containment; buying certified equipment; and reducing printing.\n\nThe standard data-centre metric is PUE, Power Usage Effectiveness, calculated as total facility power divided by IT equipment power. The theoretical ideal is 1.0 and lower is better.\n\nCertifications and standards worth naming: ENERGY STAR from the US EPA and EPEAT both rate energy efficiency and environmental performance, while RoHS restricts hazardous substances such as lead, mercury, cadmium and hexavalent chromium in electrical and electronic equipment.\n\nFor e-waste in India, the governing instrument is the E-Waste (Management) Rules made under the Environment (Protection) Act. They are built on Extended Producer Responsibility, which makes the producer accountable for collecting and recycling end-of-life products through collection centres and authorised dismantlers and recyclers. The Central Pollution Control Board is the implementing regulator.\n\nFinally, distinguish greening of IT, making the IT itself less wasteful, from greening by IT, using video-conferencing, e-governance and smart grids to cut emissions elsewhere.",
+    "facts": [
+      "PUE = total facility energy divided by IT equipment energy; 1.0 is the theoretical ideal and lower values are better.",
+      "The four pillars of green computing are green design, green manufacturing, green use and green disposal.",
+      "RoHS restricts hazardous substances in electronic equipment; ENERGY STAR and EPEAT rate energy efficiency and environmental performance.",
+      "India's E-Waste (Management) Rules operate on Extended Producer Responsibility (EPR), with the Central Pollution Control Board as regulator.",
+      "Virtualisation and server consolidation give the largest practical energy saving in a server room, by raising utilisation of fewer physical machines."
+    ],
+    "traps": [
+      "PUE is inverted by candidates constantly. Lower is better: a PUE of 2.0 means as much power goes to cooling and losses as to the computers themselves.",
+      "Green computing is not only about saving electricity. Disposal and hazardous materials are equally part of the definition.",
+      "ENERGY STAR rates energy efficiency, RoHS restricts hazardous substances. Different purposes, routinely swapped in options.",
+      "Greening of IT versus greening by IT: replacing a CRT with an LED monitor is greening of IT; replacing travel with video-conferencing is greening by IT."
+    ],
+    "mnem": "Four greens: Design, Manufacture, Use, Dispose.",
+    "rel": [
+      "Emerging Technologies: Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Big Data, Cloud Computing and Edge Computing",
+      "Digital Transformation and e-Governance"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "Functional Components of a Computer",
+    "def": "Every computer, whatever its size, is organised into five functional units: input, memory, arithmetic-logic unit, control unit and output. The ALU and the control unit, together with the registers, form the CPU. This is the von Neumann organisation, in which program and data share a single memory and instructions are fetched from it one at a time.",
+    "exp": "The input unit accepts data and instructions from outside and converts them into machine-readable form: keyboard, mouse, scanner, barcode reader, biometric scanner, touch screen, microphone.\n\nThe memory unit holds data, instructions and intermediate results. Primary memory (RAM, ROM and cache) is directly accessible to the CPU. Secondary storage (hard disk, SSD, optical disc, tape) is non-volatile and much larger, but its contents must be loaded into primary memory before the CPU can use them.\n\nThe arithmetic-logic unit performs arithmetic operations such as add, subtract, multiply and divide, and logical or comparison operations such as AND, OR, NOT and greater-than. All actual computation happens here.\n\nThe control unit decodes each instruction and issues the timing and control signals that direct every other unit. It processes no data itself; it only directs, which is why it is described as the nervous system of the computer.\n\nThe output unit converts results from machine form to human-readable form: monitor, printer, plotter, speaker.\n\nData flows from input into memory, from memory to the ALU for processing, back to memory, and out through the output unit, with the control unit supervising throughout. The three system buses, data, address and control, carry the traffic between units.",
+    "facts": [
+      "CPU = ALU + control unit + registers.",
+      "The five functional units are input, memory, ALU, control unit and output.",
+      "The control unit issues control and timing signals but performs no arithmetic or logical operation itself.",
+      "Primary memory is directly accessible by the CPU; secondary storage is not, and must be loaded into primary memory first.",
+      "Von Neumann architecture stores program and data in the same memory; Harvard architecture uses separate instruction and data memories."
+    ],
+    "traps": [
+      "In exam usage the CPU is the ALU plus control unit plus registers, not the cabinet or system unit that people casually call \"the CPU\".",
+      "Control unit versus ALU: the CU sequences and controls, the ALU computes. Any option saying the control unit performs calculations is wrong.",
+      "Memory is a functional unit in its own right and is not part of the CPU, even though registers and cache physically sit inside the processor chip.",
+      "A hard disk is a storage device, not an input or output device, even though it connects through an I/O interface."
+    ],
+    "mnem": "I-M-A-C-O: Input, Memory, ALU, Control, Output.",
+    "rel": [
+      "CPU Architecture and Instruction Cycle",
+      "Motherboard and Chipset",
+      "Memory Hierarchy"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "CPU Architecture and Instruction Cycle",
+    "def": "The CPU is built from an arithmetic-logic unit, a control unit and a set of registers, linked by internal buses. It runs a program by repeating the instruction cycle: fetch the next instruction from memory, decode it, execute it, write back the result, then check for interrupts and start again.",
+    "exp": "The registers you must be able to name. The program counter holds the address of the next instruction. The memory address register holds the address currently being accessed and drives the address bus. The memory data or buffer register holds the data or instruction in transit on the data bus. The instruction register holds the instruction currently being decoded. The accumulator holds intermediate ALU results, alongside general-purpose registers and a flag or status register.\n\nThe cycle. In fetch, the address in the program counter is placed in the MAR, memory returns the instruction into the MDR and then into the instruction register, and the program counter is incremented. In decode, the control unit interprets the opcode and identifies the operands and addressing mode. In execute, the ALU performs the operation, or a data transfer or branch takes place. In writeback, the result is stored to a register or back to memory. The processor then tests for pending interrupts before the next fetch.\n\nOne instruction cycle may need several machine cycles (memory read, memory write, I/O), and each machine cycle takes one or more clock cycles.\n\nPipelining overlaps the stages so that one instruction executes while the next is decoded and a third is fetched. Modern processors add superscalar issue, multiple cores and on-chip cache. CISC designs such as x86 use many variable-length instructions; RISC designs such as ARM use few fixed-length ones.",
+    "facts": [
+      "The instruction cycle is fetch, decode, execute, with writeback and interrupt check commonly listed as further steps.",
+      "The program counter holds the address of the next instruction; the instruction register holds the instruction currently being executed.",
+      "MAR holds an address and connects to the address bus; MDR or MBR holds data and connects to the data bus.",
+      "One instruction cycle contains one or more machine cycles, and each machine cycle takes one or more clock cycles.",
+      "Pipelining increases instruction throughput; it does not shorten the execution time of any single instruction.",
+      "RISC uses a small set of fixed-length instructions and relies on the compiler; CISC uses a large set of complex variable-length instructions."
+    ],
+    "traps": [
+      "PC versus IR is the most-asked register question: the program counter holds the address of the NEXT instruction, the instruction register holds the CURRENT one.",
+      "Instruction cycle, machine cycle and clock cycle are nested, not synonyms. An option equating them is wrong.",
+      "Pipelining improves throughput, not the latency of one instruction. Options saying it \"makes each instruction faster\" are the standard distractor.",
+      "Decoding is done by the control unit, not the ALU. The ALU only executes arithmetic and logic."
+    ],
+    "mnem": "FDE: Fetch, Decode, Execute.",
+    "rel": [
+      "Functional Components of a Computer",
+      "Cache Memory",
+      "Motherboard and Chipset"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "Motherboard and Chipset",
+    "def": "The motherboard, also called the system board or mainboard, is the main printed circuit board that carries the CPU socket, memory slots, expansion slots, chipset, firmware ROM, power and I/O connectors, and the buses linking them. The chipset is the set of controller chips on that board which determines which CPUs, memory types, buses and peripherals it can support.",
+    "exp": "What sits on the board: the CPU socket, RAM slots (DIMM on desktops, SO-DIMM on laptops), expansion slots (PCI Express today, with ISA, PCI and AGP on older boards), storage connectors such as SATA and M.2, rear I/O ports for USB, Ethernet, display and audio, power connectors from the SMPS, the flash chip holding the BIOS or UEFI firmware, the CMOS coin-cell battery that preserves firmware settings and the real-time clock, and headers for front-panel switches, LEDs and fans.\n\nThe chipset was traditionally split in two. The northbridge sat on the high-speed side, handling CPU-to-memory and CPU-to-graphics traffic. The southbridge handled slower peripheral I/O: SATA, USB, audio, LAN and legacy buses. On current platforms the memory controller and the PCIe lanes have moved onto the CPU die, so the northbridge has effectively disappeared and only a southbridge-like chip remains, called the Platform Controller Hub on Intel platforms. Older question papers still test the northbridge and southbridge split, so know both the historical and the modern arrangement.\n\nForm factor fixes the physical size, mounting-hole pattern and port layout, not the performance: ATX, microATX and Mini-ITX are current, with AT and Baby AT historical.",
+    "facts": [
+      "The chipset determines which CPU families, memory speeds and expansion interfaces a motherboard supports.",
+      "Northbridge handled high-speed memory and graphics traffic; southbridge handled slower peripheral I/O such as USB, SATA, audio and LAN.",
+      "The CMOS coin-cell battery maintains BIOS/UEFI settings and the real-time clock while the system is powered off.",
+      "Common form factors from largest to smallest are ATX, microATX and Mini-ITX.",
+      "On modern platforms the memory controller is integrated into the CPU, and the surviving chipset chip on Intel boards is the Platform Controller Hub (PCH)."
+    ],
+    "traps": [
+      "Northbridge versus southbridge: north is fast (RAM, graphics), south is slow (USB, SATA, audio). Any option attaching a keyboard or USB port to the northbridge is wrong.",
+      "BIOS/UEFI is the firmware held in a flash chip; CMOS is the small volatile memory holding its settings, kept alive by the battery. They are not the same thing, and a dead battery loses settings but not the firmware.",
+      "The chipset is neither the CPU nor the motherboard itself; it is the controller silicon in between.",
+      "Form factor is about physical dimensions and mounting, not about speed or chipset capability. A Mini-ITX board is not inherently slower than an ATX board."
+    ],
+    "mnem": "North is fast and near the CPU; South is slow and far.",
+    "rel": [
+      "System Bus and Expansion Slots",
+      "BIOS/UEFI Firmware",
+      "Functional Components of a Computer"
+    ]
+  }
+]

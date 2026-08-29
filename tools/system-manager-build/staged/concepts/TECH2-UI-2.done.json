@@ -1,0 +1,216 @@
+[
+  {
+    "paper": "TECH2",
+    "unit": "I",
+    "unitTitle": "Computer Networking",
+    "sub": "Routers",
+    "def": "A router is a Layer 3 (network layer) device that forwards packets between different IP networks. For each packet it reads the destination IP address, looks it up in a routing table, and sends the packet out of the interface towards the next hop. Each router interface belongs to a different subnet, so a router is also the boundary between broadcast domains.",
+    "exp": "The routing table lists destination networks with a next hop and an outgoing interface. Lookup uses longest prefix match: for destination 192.168.10.5, an entry for 192.168.10.0/24 wins over 192.168.0.0/16 because it is more specific. Entries come from three sources — directly connected interfaces, static routes typed in by the administrator, and dynamic routing protocols such as RIP, OSPF and BGP. A default route (0.0.0.0/0) catches everything not matched elsewhere and normally points at the ISP link.\n\nA router does not forward broadcasts. This is the practical difference from a switch, which forwards frames by MAC address within a single broadcast domain. If you want to stop broadcast storms crossing between departments, you need routing between them, not more switching.\n\nEvery router decrements the TTL field and discards the packet when TTL reaches zero, which is what makes traceroute work and what stops routing loops burning the network. Routers rewrite the Layer 2 frame header at each hop while the source and destination IP addresses stay unchanged end to end.\n\nIn a small office the box sold as a router is a combined unit: routing plus NAT, a DHCP server, a firewall and often a wireless access point. Knowing that these are separate functions bundled into one chassis is exactly the distinction an examiner tests.",
+    "facts": [
+      "A router operates at Layer 3 of the OSI model and forwards on IP address, not MAC address.",
+      "Routing table lookup uses longest prefix match — the most specific matching route wins.",
+      "Routes are learned from connected interfaces, static configuration, or dynamic protocols (RIP, OSPF, BGP).",
+      "0.0.0.0/0 is the default route, used when no more specific entry matches.",
+      "A router separates broadcast domains; it does not forward IP broadcasts between its interfaces.",
+      "Each hop decrements the IP TTL; at zero the packet is dropped."
+    ],
+    "traps": [
+      "Router vs switch — a switch forwards frames by MAC address inside one broadcast domain (Layer 2); a router forwards packets by IP address between networks (Layer 3) and blocks broadcasts.",
+      "The home 'router' is really router + NAT + DHCP + firewall + access point in one box. A question about what a router does means the routing function only.",
+      "Source and destination IP addresses do not change as a packet is routed (unless NAT is applied); the MAC addresses change at every hop.",
+      "Longest prefix match, not first match in the table and not lowest metric, decides which route is used."
+    ],
+    "mnem": "",
+    "rel": ["Routing and Switching", "Switches", "IP Addressing"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "I",
+    "unitTitle": "Computer Networking",
+    "sub": "Gateways",
+    "def": "A gateway is a device or software that joins two networks using different protocols, data formats or architectures, translating traffic so each side understands the other. Unlike a router, which forwards IP packets between IP networks that already speak the same protocol, a gateway converts. It can operate at any layer and often works right up at the application layer.",
+    "exp": "The clearest examples are the ones that clearly convert something. A VoIP gateway converts between IP telephony and the analogue or digital circuits of the public telephone network. An email gateway takes mail from an internal messaging system and re-formats it as SMTP for the internet. A payment gateway sits between a merchant application and the banking network, translating a web transaction into the format the bank switch accepts. An IoT gateway collects readings from sensors on a short-range wireless protocol and forwards them over IP.\n\nThe confusion the exam exploits comes from the term default gateway. Your PC's default gateway is the IP address it sends packets to when the destination is outside its own subnet — and on almost every LAN that address belongs to a router, not to a protocol translator. So in everyday and home usage every router is loosely called a gateway. Both statements can be true in the same question: the default gateway is a router doing routing; a gateway in the strict sense is doing translation.\n\nPractically, a gateway is slower than a router for the same traffic because translation costs processing, and it is usually a single point of failure — if the gateway is down, the two systems it joins cannot talk at all.",
+    "facts": [
+      "A gateway translates between different protocols or architectures; a router forwards between IP networks using the same protocol.",
+      "A gateway may operate at any OSI layer, including the application layer — it is not restricted to Layer 3.",
+      "The default gateway configured on a host is the address it sends off-subnet traffic to, and is normally a router interface.",
+      "Common real gateways: VoIP gateway, email gateway, payment gateway, IoT gateway.",
+      "Because it does protocol conversion, a gateway is typically slower per packet than a router."
+    ],
+    "traps": [
+      "Default gateway is not a protocol-translating gateway. It is the router address a host uses to leave its own subnet — the name is historical.",
+      "Gateway vs router — the exam answer is 'a router connects similar networks (IP to IP), a gateway connects dissimilar ones by translating'.",
+      "A gateway is not the same as a bridge. A bridge joins two segments of the same network at Layer 2 without translating protocols.",
+      "'Every gateway is a router' is false. The reverse loose usage — calling a home router a gateway — is what people actually do."
+    ],
+    "mnem": "Gateway = translate, Router = route.",
+    "rel": ["Routers", "IP Addressing", "OSI Model"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "I",
+    "unitTitle": "Computer Networking",
+    "sub": "Firewalls",
+    "def": "A firewall is a network device or software component placed at a boundary between networks that inspects traffic passing through it and permits or blocks it against a configured rule set. As a device it normally sits between the trusted internal LAN and the untrusted external link, so that all traffic between the two is forced through it and can be examined.",
+    "exp": "Placement decides what a firewall can see. The classic position is the perimeter, between the internal LAN and the internet router. Where a network hosts public services, a third interface carries a DMZ (demilitarised zone) so that web and mail servers reachable from outside are not on the same segment as internal file servers. Internal firewalls can also segment departments from each other. Traffic that bypasses the firewall — a rogue modem or an unmanaged wireless link — is not filtered at all, which is why the firewall must be the only path.\n\nThree generations are examinable. A packet-filtering firewall is stateless: it decides on each packet in isolation using the header five-tuple (source address, destination address, source port, destination port, protocol). A stateful inspection firewall keeps a connection table, so return traffic belonging to a connection the inside started is allowed automatically. An application-layer or proxy firewall terminates the session and understands the protocol content — it can allow HTTP but block a particular request pattern.\n\nRules are written as allow or deny plus direction, source and destination address or subnet, protocol and port: for example, allow TCP from any to 10.0.0.5 port 443. Rules are evaluated top down and the first match wins, and the list ends in an implicit deny-all.",
+    "facts": [
+      "A packet-filtering firewall is stateless and decides per packet using the five-tuple: source IP, destination IP, source port, destination port, protocol.",
+      "A stateful firewall maintains a connection state table and automatically permits return traffic for connections it has already seen.",
+      "An application-layer (proxy) firewall terminates the connection and inspects protocol content, so it can filter within an allowed protocol.",
+      "Firewall rules are processed top down, first match wins, with an implicit deny-all at the end of the list.",
+      "A hardware firewall is an appliance protecting a whole segment; a host-based firewall is software protecting only the machine it runs on.",
+      "A DMZ interface holds publicly reachable servers so external users never need a path into the internal LAN."
+    ],
+    "traps": [
+      "Stateless vs stateful — the stateless filter needs an explicit rule for the reply traffic; the stateful one derives it from its connection table. That is the whole difference.",
+      "A firewall is not an antivirus and not an IDS. It permits or blocks traffic against rules; it does not scan files for malware signatures or merely alert on suspicious activity.",
+      "A host-based firewall does not protect other machines on the LAN, and an appliance at the perimeter does not filter traffic between two PCs on the same internal switch.",
+      "Blocking a port blocks the service only if the service uses that port. A packet filter cannot tell which application generated the traffic — an application-layer firewall can."
+    ],
+    "mnem": "",
+    "rel": ["Proxy Servers", "NAT", "Routers"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "I",
+    "unitTitle": "Computer Networking",
+    "sub": "Wireless Access Points",
+    "def": "A wireless access point (AP) is a Layer 2 device that lets Wi-Fi clients join a wired LAN. It bridges between the radio medium and the Ethernet cable: frames arriving from a laptop over the air are put onto the wired segment and vice versa. An AP extends an existing LAN; on its own it does not route, assign addresses or connect you to the internet.",
+    "exp": "The AP advertises a network name, the SSID, in periodic beacon frames. Clients scan, associate with one AP, authenticate, and then send all their traffic through it. Wireless clients on the same AP do not talk to each other directly by default — every frame goes client to AP and back out, which is why wireless throughput per user falls as more clients associate. Each radio also has a hardware identifier, the BSSID, which is effectively the AP radio's MAC address.\n\nSeveral APs can share one SSID so that a user walking through a building roams from one to the next without reconnecting. Neighbouring APs should be on non-overlapping channels to avoid interfering with each other. APs are commonly powered over the Ethernet cable itself (PoE), which is why they can be mounted on ceilings with no mains socket.\n\nA standalone AP is configured individually; in a campus or office deployment thin APs are managed centrally by a wireless controller that pushes one configuration, handles roaming and monitors channels.\n\nThe distinction to hold: a home wireless router is a router plus a switch plus an AP in one box. Buy a plain AP and plug it into an existing office switch, and it adds Wi-Fi coverage without creating a new network.",
+    "facts": [
+      "An access point operates at Layer 2 and bridges wireless clients onto a wired LAN; it does not route between IP networks.",
+      "The SSID is the advertised network name; the BSSID is the AP radio's MAC address.",
+      "Multiple APs can share one SSID to allow roaming across a building.",
+      "Adjacent APs should use non-overlapping channels to limit co-channel interference.",
+      "APs are frequently powered by Power over Ethernet (PoE) over the same cable that carries data.",
+      "In controller-based deployments, thin APs receive configuration from a central wireless LAN controller."
+    ],
+    "traps": [
+      "AP vs wireless router — a wireless router routes, runs DHCP and NAT, and includes an AP. A plain AP only bridges; plugged into a LAN it hands clients onto the existing network and existing DHCP server.",
+      "An AP extends a LAN, it does not extend range by itself. A repeater or mesh node relays an existing signal and roughly halves throughput; adding a cabled AP does not.",
+      "Two APs with the same SSID make one roaming network, not two networks. Different SSIDs on one AP are separate logical networks, usually mapped to different VLANs.",
+      "Wireless clients on the same AP share the medium — quoted Wi-Fi speeds are the total for the cell, not per user."
+    ],
+    "mnem": "",
+    "rel": ["Wi-Fi Standards", "Wireless Security", "Switches"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "I",
+    "unitTitle": "Computer Networking",
+    "sub": "DNS",
+    "def": "The Domain Name System (DNS) is the distributed directory service that resolves human-readable domain names such as mizoram.gov.in into IP addresses, and back. It is a hierarchy: a root level, top-level domains (.in, .com), then delegated zones. DNS normally runs over UDP port 53, falling back to TCP port 53 for large responses and zone transfers.",
+    "exp": "Resolution works through two kinds of server. A recursive resolver is the one your PC is configured with; it does the chasing on your behalf, asking a root server, then the .in servers, then the servers for the zone, and returns a single final answer. An authoritative server is the one that actually holds the zone file for a domain and answers with authority for it. Your ISP or office resolver is recursive; the organisation's own name server is authoritative for its domain.\n\nEvery record carries a TTL, the number of seconds a resolver may cache it. Short TTLs make changes propagate quickly; long TTLs cut query load. A recently changed record may still resolve to the old address until the TTL expires everywhere — that is what people mean by propagation delay.\n\nThe record types to know: A maps a name to an IPv4 address, AAAA to an IPv6 address, CNAME makes one name an alias of another, MX names the mail server for a domain with a preference value, NS delegates a zone to its name servers, and PTR maps an address back to a name for reverse lookups.\n\nOperationally, DNS failure looks exactly like the network being down for users, even when routing is fine.",
+    "facts": [
+      "DNS uses port 53, over UDP for ordinary queries and TCP for zone transfers and oversized responses.",
+      "A recursive resolver queries other servers on the client's behalf; an authoritative server holds the zone and answers for it directly.",
+      "A record types: A (IPv4), AAAA (IPv6), CNAME (alias), MX (mail exchanger, with a preference value), NS (delegation), PTR (reverse lookup).",
+      "TTL is the time in seconds a record may be cached by resolvers.",
+      "The namespace is hierarchical: root, then top-level domains, then delegated zones.",
+      "nslookup and dig are the standard tools for querying DNS directly."
+    ],
+    "traps": [
+      "Recursive vs authoritative — the resolver you configure on a client is recursive; it is not authoritative for anything. Only the domain's own name servers are authoritative.",
+      "A CNAME is an alias to another name, not to an IP address. A record pointing straight to an IP is an A or AAAA record.",
+      "MX gives the mail server's name, not its IP, and the lower preference number is preferred.",
+      "Changes do not take effect instantly — cached copies live until their TTL expires. Flushing your own cache does not flush anyone else's."
+    ],
+    "mnem": "MX = Mail eXchanger; the smaller the preference number, the higher the priority.",
+    "rel": ["DHCP", "IP Addressing", "Proxy Servers"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "I",
+    "unitTitle": "Computer Networking",
+    "sub": "DHCP",
+    "def": "The Dynamic Host Configuration Protocol (DHCP) automatically assigns IP configuration to hosts as they join a network — IP address, subnet mask, default gateway and DNS servers — instead of an administrator typing them into each machine. Addresses are leased for a fixed period rather than given permanently. DHCP uses UDP, with the server on port 67 and the client on port 68.",
+    "exp": "A new client obtains its address through four messages, remembered as DORA. Discover: the client broadcasts, having no address yet. Offer: a server replies with an available address from its pool. Request: the client broadcasts that it accepts that particular offer, which also tells any other server its offer was declined. Acknowledge: the server confirms and records the lease. That order is directly examinable.\n\nThe pool of addresses a server hands out for a subnet is a scope. Within it you exclude the static addresses used by routers, servers and printers. A reservation ties one specific address to one client's MAC address, so that device always gets the same address while still being configured by DHCP — this is the correct way to give a printer a fixed address, not configuring it by hand.\n\nLease duration is a trade-off: short leases suit a public counter or guest Wi-Fi where devices come and go, long leases suit a stable office. A client tries to renew at roughly half the lease, directly to the server that issued it.\n\nBecause Discover is a broadcast, it does not cross a router. A DHCP relay agent on the router forwards these requests to a central server, which is how one server can serve many subnets.",
+    "facts": [
+      "DHCP runs over UDP: server port 67, client port 68.",
+      "The address assignment sequence is Discover, Offer, Request, Acknowledge (DORA).",
+      "A scope is the range of addresses a DHCP server can hand out on a subnet; exclusions keep static addresses out of it.",
+      "A reservation binds a fixed IP address to a client's MAC address.",
+      "DHCP supplies not just an address but also the subnet mask, default gateway and DNS server addresses.",
+      "A DHCP relay agent forwards client broadcasts across a router so one server can serve multiple subnets."
+    ],
+    "traps": [
+      "Discover and Request are broadcasts and do not cross a router by themselves — without a relay agent, a remote subnet gets no addresses.",
+      "A reservation is not a static IP. The client still uses DHCP; the server just always gives it the same address. A static IP is typed into the client and the server knows nothing about it.",
+      "A Windows client that gets no reply self-assigns an APIPA address in 169.254.x.x. Seeing 169.254 means the DHCP server was unreachable, not that DHCP worked.",
+      "DHCP hands out the DNS server address; it does not resolve names itself."
+    ],
+    "mnem": "DORA — Discover, Offer, Request, Acknowledge.",
+    "rel": ["DNS", "IP Addressing", "Routers"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "I",
+    "unitTitle": "Computer Networking",
+    "sub": "VPN",
+    "def": "A Virtual Private Network (VPN) carries private network traffic across a public network such as the internet by wrapping it in an encrypted tunnel. The original packet is encapsulated inside a new packet, encrypted, sent over the public path, then decrypted and delivered at the far end. The result behaves like a private leased line without the cost of one.",
+    "exp": "Two things make a VPN: tunnelling and encryption. Tunnelling means the inner packet, with its private addresses, is carried as payload inside an outer packet addressed between the two VPN endpoints — so private addressing works end to end across the internet. Encryption means anyone who captures the outer packet in transit sees only ciphertext. Authentication of the endpoints, by certificate or pre-shared key, stops an attacker impersonating one side.\n\nThere are two deployment types. Site-to-site joins two whole networks — a district office to headquarters — through gateway devices at each end; users on either LAN reach the other transparently and need no software of their own. Remote-access connects one user's laptop or phone to the office network through client software, so a staff member on a home broadband link reaches internal servers as though on the LAN. The same server can support both.\n\nCommon technologies are IPsec, usually for site-to-site; SSL/TLS-based VPNs, which suit remote access because they work through browsers and restrictive networks; and WireGuard, a newer and simpler design. The older PPTP is obsolete and considered insecure — do not offer it as a correct modern choice.\n\nA VPN costs latency and throughput, because every packet is encrypted, encapsulated and routed via the endpoint.",
+    "facts": [
+      "A VPN provides confidentiality by encryption and private addressing by tunnelling (encapsulation) over a public network.",
+      "Site-to-site VPNs join two networks via gateway devices; remote-access VPNs connect an individual client device.",
+      "IPsec is the usual site-to-site technology; SSL/TLS VPNs are common for remote access; WireGuard is a modern lightweight option.",
+      "PPTP is obsolete and regarded as insecure.",
+      "Endpoints authenticate each other with certificates or pre-shared keys before the tunnel is established."
+    ],
+    "traps": [
+      "Tunnelling alone is not a VPN. Encapsulation without encryption (plain GRE, for example) gives private addressing but no confidentiality.",
+      "Site-to-site vs remote-access — site-to-site needs no client software on user machines; remote-access does.",
+      "A VPN protects traffic in transit between the endpoints. It does not protect data at rest, and traffic is in the clear again once it leaves the far endpoint.",
+      "A VPN is not a firewall and not a proxy, even though a VPN concentrator is often the same appliance as the firewall."
+    ],
+    "mnem": "",
+    "rel": ["Firewalls", "IP Addressing", "Proxy Servers"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "I",
+    "unitTitle": "Computer Networking",
+    "sub": "NAT",
+    "def": "Network Address Translation (NAT) rewrites the IP addresses (and usually the port numbers) in packet headers as they cross a router, so that hosts using private addresses inside a network can communicate through one or a few public addresses outside it. It works at the network layer on headers only; the connection itself is not terminated and the payload is not examined.",
+    "exp": "The everyday form is PAT, also called NAT overload or many-to-one NAT. The router replaces each internal host's private source address with its single public address, and gives each connection a distinct source port. It records the mapping — internal address and port to public address and port — in a translation table. When the reply comes back to that public port, the router looks up the table and rewrites the destination back to the correct internal host. This is how a whole office of 10.x.x.x machines shares one public address from the ISP.\n\nStatic NAT maps one private address permanently to one public address, used for a server that must be reachable from outside. Port forwarding is the narrower version: incoming traffic on a specific public port is sent to a fixed internal host and port.\n\nNAT was adopted because IPv4 addresses ran out, and it conserves them well. The cost is that inbound connections do not work by default — there is no table entry until the inside starts the conversation — which breaks peer-to-peer applications, some VoIP and some gaming, and complicates IPsec. IPv6, with enough addresses for every host, largely removes the need for NAT.",
+    "facts": [
+      "NAT operates at the network layer and rewrites IP header addresses, and with PAT the transport-layer port numbers too.",
+      "PAT (NAT overload) lets many internal hosts share one public IP by giving each connection a unique source port.",
+      "The router keeps a translation table mapping internal address and port to public address and port.",
+      "Static NAT is a permanent one-to-one mapping; port forwarding directs a specific inbound public port to an internal host.",
+      "NAT was widely adopted to conserve scarce IPv4 addresses; IPv6 largely removes the need for it.",
+      "Private ranges typically translated are 10.0.0.0/8, 172.16.0.0/12 and 192.168.0.0/16."
+    ],
+    "traps": [
+      "NAT vs proxy — NAT rewrites addresses in headers at the network layer and passes the same connection through. A proxy terminates the client's connection at the application layer and opens a separate one of its own, and can cache and filter content. NAT does neither.",
+      "NAT is not a security feature, though it incidentally hides internal addresses. It does not inspect traffic; a firewall does the permitting and blocking.",
+      "Inbound connections fail under NAT unless a static mapping or port forward exists, because no translation entry exists until the inside host sends first.",
+      "NAT is not the same as subnetting. Subnetting divides an address space; NAT translates between address spaces."
+    ],
+    "mnem": "",
+    "rel": ["Proxy Servers", "Routers", "IP Addressing"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "I",
+    "unitTitle": "Computer Networking",
+    "sub": "Proxy Servers",
+    "def": "A proxy server is an application-layer intermediary that accepts a client's request, terminates that connection, and makes its own separate request to the destination server on the client's behalf. The reply returns to the proxy, which passes it back to the client. Because it sits at the application layer it can read, cache, filter and log the content it is relaying.",
+    "exp": "A forward proxy serves clients: office PCs are configured to send web requests to it, and it fetches pages on their behalf. This is the usual arrangement in a government office, because everything can be enforced in one place — block categories of site, restrict downloads by file type, require authentication, and keep an access log per user. It also caches: a page or file requested by one user is served from local storage to the next, saving bandwidth on an expensive link.\n\nA reverse proxy serves servers. It stands in front of one or more web servers, receives all incoming requests, and distributes them — handling TLS termination, load balancing and caching so the backend servers do less work and are not directly exposed.\n\nProxies can be explicit, where each client is configured with the proxy address and port, or transparent, where the network redirects traffic to the proxy and clients need no configuration at all.\n\nThe distinction to fix: NAT rewrites addresses in the header at the network layer and lets the original connection continue; a proxy ends the client's connection and starts a new one of its own, which is why it can inspect and cache what NAT cannot.",
+    "facts": [
+      "A proxy operates at the application layer and terminates the client connection, originating a separate request itself.",
+      "A forward proxy acts on behalf of internal clients; a reverse proxy acts on behalf of servers, in front of them.",
+      "Caching at a proxy serves repeated requests from local storage and reduces bandwidth on the internet link.",
+      "Proxies provide per-user authentication, content filtering and access logging in one place.",
+      "An explicit proxy requires client configuration with its address and port; a transparent proxy needs none because traffic is redirected to it.",
+      "Reverse proxies are commonly used for TLS termination and load balancing."
+    ],
+    "traps": [
+      "Proxy vs NAT — the proxy works at the application layer, ends the connection and re-originates it, and can cache and filter. NAT works at the network layer, only rewrites header addresses and ports, and can do neither.",
+      "Forward vs reverse — a forward proxy protects and controls clients going out; a reverse proxy fronts servers taking requests in. Same technology, opposite direction.",
+      "A proxy is not a VPN. A proxy handles one application's traffic (typically web) and a VPN carries all traffic through an encrypted tunnel.",
+      "A caching proxy can serve stale content. Cached objects are only as fresh as their expiry allows, which is why a user may still see an old page after the site is updated."
+    ],
+    "mnem": "",
+    "rel": ["NAT", "Firewalls", "DNS"]
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "paper": "TECH1",
+    "unit": "III",
+    "unitTitle": "Word Processing",
+    "sub": "Citations and Bibliography",
+    "def": "A citation is the short in-text reference to a source that has been consulted; the bibliography, or reference list, is the full list of those sources at the end of the document. In Word each source is entered once into a source manager, cited wherever it is used, and the bibliography is then generated as a field from those citations.",
+    "exp": "The sequence is: add a source, giving its type - book, journal article, report, website - and its author, title, year and publisher; then insert a citation at the point in the text where it is used. The in-text citation is a compressed pointer. The bibliography entry is the full description of the same source. Because the bibliography is generated from the sources actually cited, the two can never drift apart, and no detail is typed twice.\n\nA citation style is a published set of rules for what elements appear in a citation and an entry, in what order and with what punctuation, and how the list is sorted. APA, MLA and Chicago are the common examples offered in Word; several others exist. Selecting a style reformats every citation and the whole bibliography at once, which is the practical reason for using the tool at all. Styles are revised from edition to edition, so follow the style and edition your department, university or journal prescribes rather than assuming a particular rule.\n\nA placeholder can be inserted where the full details of a source are not yet to hand, and completed later. The bibliography is a field, so after new citations are added it must be updated before the document is printed or issued. In government drafting the same discipline appears as citing an order, notification or circular by its number and date.",
+    "facts": [
+      "A citation is the short in-text pointer to a source; the bibliography is the full list of sources at the end of the document",
+      "The bibliography is generated from the sources cited in the document, so the two stay consistent automatically",
+      "APA, MLA and Chicago are examples of citation styles",
+      "Changing the selected citation style reformats all citations and the bibliography together",
+      "A placeholder can stand in for a source whose full details are not yet available, and be completed later"
+    ],
+    "traps": [
+      "APA, MLA and Chicago are citation styles. They are not Word paragraph styles and not file formats",
+      "A citation is not a footnote. A footnote is a note printed at the foot of the page; a citation is a reference to a source, although some styles choose to place citations in footnotes",
+      "The bibliography is a field: adding a citation does not make the entry appear until the bibliography is updated",
+      "A reference list typed by hand is not linked to anything, so a later change of citation style will not reformat it"
+    ],
+    "mnem": "",
+    "rel": [
+      "References",
+      "Table of Contents",
+      "Review Tools"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "III",
+    "unitTitle": "Word Processing",
+    "sub": "Review Tools",
+    "def": "The proofing and checking tools used on a document before it goes out: spelling and grammar check, thesaurus, word count, AutoCorrect, translation and read-aloud, together with comments and track changes. They deal with the quality and correctness of the text rather than its layout.",
+    "exp": "The spelling checker compares each word against a dictionary and marks anything it does not recognise. Names, Mizo place names and departmental terms can be added to a custom dictionary so they stop being flagged. The grammar checker looks at sentence construction and usage. Neither is a substitute for reading the draft: a correctly spelled wrong word passes through untouched, which is how form appears where from was meant.\n\nAutoCorrect works while you type. It was originally designed to replace commonly misspelled words as you type, and now also fixes two initial capitals, capitalises the first letter of a sentence, and substitutes symbols for typed sequences. You can add your own entries: select the symbol or the block of text first, then open AutoCorrect Options and add it under a short trigger name. A long office designation or a standard signature block can then be typed with a few letters.\n\nThe Thesaurus supplies synonyms, and often antonyms, for a selected word. It is what you reach for when the same word has been used in several places, or when the word chosen is not quite appropriate - not when a word is misspelled. Word Count reports pages, words, characters with and without spaces, paragraphs and lines, and counts only the selection if text is selected. Comments and Track Changes sit in the same group and are covered separately.",
+    "facts": [
+      "AutoCorrect was originally designed to replace commonly misspelled words as you type",
+      "To create an AutoCorrect entry, select the symbol or text first, then add it under a short name in AutoCorrect Options",
+      "The Thesaurus supplies synonyms, and usually antonyms, for a selected word",
+      "Word Count reports pages, words, characters with and without spaces, paragraphs and lines",
+      "The spelling checker works by comparison against a dictionary; unrecognised names can be added to a custom dictionary"
+    ],
+    "traps": [
+      "Spell check and thesaurus solve different problems: spell check finds misspelled words, the thesaurus offers alternatives for a word that is spelled correctly but repeated or ill-chosen",
+      "The spelling checker cannot detect a correctly spelled wrong word, so it never replaces a human proofread",
+      "AutoCorrect changes text silently as you type; AutoText and building blocks are inserted only when you ask for them",
+      "Word Count counts the whole document unless text is selected, in which case it counts the selection"
+    ],
+    "mnem": "",
+    "rel": [
+      "Track Changes",
+      "Document Creation",
+      "Accessibility Features"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "III",
+    "unitTitle": "Word Processing",
+    "sub": "Track Changes",
+    "def": "Track Changes records every edit made to a document as a revision, attributed to the reviewer and timestamped, instead of applying it silently. Each revision stays visible as a revision mark until someone accepts it, making it permanent, or rejects it, restoring the original text.",
+    "exp": "With Track Changes turned on, deleting a sentence does not remove it. The sentence is marked as deleted - struck through in place, or shown in a balloon in the margin - and it remains in the file until the deletion is accepted. Inserted text is underlined and coloured, and formatting changes are noted as well. Each reviewer is given a different colour, so a draft that has passed through three officers shows who did what. Turning Track Changes off stops new edits being recorded; it does nothing to the revisions already recorded.\n\nRevisions are cleared by accepting or rejecting them, singly or all at once. The display setting is separate and is where candidates go wrong: All Markup shows the revision marks, Simple Markup shows the document as it would read if the changes were accepted with only a change bar in the margin, No Markup shows a clean result, and Original shows the text before editing. No Markup only hides the marks on screen. The revisions are still in the file and will reappear for the next person who opens it.\n\nA comment is not a tracked change. It is a note attached to a piece of text - a query or an instruction to the drafter - and it alters nothing; comments are resolved or deleted, never accepted or rejected. Before a document leaves the office it must be checked for leftover tracked changes and comments, and inspected for hidden metadata such as author names and document properties, then issued as PDF.",
+    "facts": [
+      "Track Changes records insertions, deletions and formatting changes as revision marks attributed to a named reviewer",
+      "Accepting a change makes it permanent; rejecting it restores the original text",
+      "A sentence deleted with Track Changes on stays in the file, marked as deleted, until the deletion is accepted",
+      "Turning Track Changes off stops further recording but leaves existing revisions in the document",
+      "The Document Inspector finds hidden content such as comments, revisions, author names and document properties"
+    ],
+    "traps": [
+      "A comment is not a tracked change. A comment alters nothing and is resolved or deleted; a tracked change is a real edit that is accepted or rejected",
+      "Selecting No Markup only hides revision marks from view. The revisions remain in the file",
+      "Turning off Track Changes is not the same as accepting the changes already made",
+      "A document issued with tracked changes or comments still inside it exposes internal drafting and remarks, which is why the check before issue is a governance requirement and not a tidiness habit"
+    ],
+    "mnem": "",
+    "rel": [
+      "Review Tools",
+      "Integration of e-Office",
+      "Microsoft 365 Collaboration"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "III",
+    "unitTitle": "Word Processing",
+    "sub": "Mail Merge",
+    "def": "Mail merge combines a main document holding the fixed text with a data source holding one record per recipient, to produce many personalised copies in one operation. The two essential components are the main document and the data source; merge fields in the main document mark where each item of data is dropped in.",
+    "exp": "The main document is the letter, notice, certificate, envelope or label containing everything that stays the same, plus merge fields such as Name, Designation and Address at the points that vary. The data source is a table with a header row of field names and one row per recipient. It can be an Excel worksheet, a table in a Word file, an Access table or a contacts list. The field names in the data source must match the merge fields inserted, otherwise those positions come out blank or as errors.\n\nThe working order is: prepare or attach the data source, insert the merge fields, preview the results by paging through actual records, then finish the merge. Finishing can produce a new document containing all the personalised copies, send the output straight to a printer, or send each record as an email. Merging to a new document is usually the safer choice in an office, because a record with a wrong address can be corrected before anything is printed. The recipient list can also be sorted and filtered so only part of it is merged.\n\nThis is one of the genuinely useful features for a government office: the same office memorandum to three hundred employees, transfer orders, meeting invitations, salary intimations, address labels. The data source holds personal data, so it should not be circulated along with the issued document.",
+    "facts": [
+      "A mail merge requires a main document and a data source; merge fields in the main document mark where data is inserted",
+      "The data source is a table with a header row of field names and one record per row, and may be an Excel sheet, a Word table, an Access table or a contacts list",
+      "The finished merge can go to a new document, directly to the printer, or out as email messages",
+      "Letters, envelopes, labels, directories and email are the standard main document types",
+      "Preview Results fills the main document with real records before the merge is completed"
+    ],
+    "traps": [
+      "A printer is not an essential component of a mail merge - the merge can be completed to a new document or to email",
+      "Merge field names must match the column headings in the data source; a mismatch produces blank or error results, not a warning",
+      "The main document and the data source stay separate files. Editing the merged output changes neither of them",
+      "Mail merge creates one personalised copy per record. It is not the same as sending a single email to a list of addresses"
+    ],
+    "mnem": "",
+    "rel": [
+      "Document Creation",
+      "Templates",
+      "Review Tools"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "III",
+    "unitTitle": "Word Processing",
+    "sub": "Accessibility Features",
+    "def": "The features that make a document usable by people with disabilities, particularly readers using a screen reader or a magnifier: alternative text on images, real heading structure, meaningful link text, table header rows, sufficient colour contrast, and the built-in Accessibility Checker that reports what is missing.",
+    "exp": "Alternative text, or alt text, is a short written description of a picture, chart or diagram which a screen reader announces in place of the image. Its purpose is to convey to a reader who cannot see the image what the image conveys to everyone else. It is not a visible caption and it is not the file name. Images that carry no information are marked as decorative so the screen reader skips them.\n\nStructure carries most of the weight. Headings must be applied as real heading styles rather than bolded text - see Styles and Themes - because a screen reader user moves through a long document by jumping from heading to heading, and hand-bolded text is not a heading to any software. Tables need a designated header row, and merged or split cells make them hard to read out. Links should carry text describing where they go, such as the name of the notification, because assistive software can list all the links out of context, where click here and a bare URL say nothing. Colour must never be the only thing carrying meaning.\n\nThe Accessibility Checker scans the document and lists problems such as missing alt text, missing table headers, unclear link text and poor contrast. Indian government websites and documents are expected to be accessible, under the Guidelines for Indian Government Websites and the Rights of Persons with Disabilities Act, 2016.",
+    "facts": [
+      "Alt text is a text description of an image that a screen reader announces in place of the image",
+      "Screen reader users navigate a long document by its headings, which must be applied as real heading styles",
+      "Meaningful link text names the destination; click here and a bare URL are unusable out of context",
+      "The Accessibility Checker reports issues such as missing alt text, missing table header rows and unclear link text",
+      "Indian government websites and documents are expected to be accessible under the Guidelines for Indian Government Websites and the Rights of Persons with Disabilities Act, 2016"
+    ],
+    "traps": [
+      "Alt text is not a caption. A caption is printed and visible to everyone; alt text is announced only by assistive technology",
+      "Bolding and enlarging a line does not make it a heading. Only a heading style makes it a heading for a screen reader",
+      "An accessible PDF depends on the Word file being structured correctly first. Converting a badly structured document does not repair it",
+      "Colour alone must not carry meaning - marking rejected entries only in red fails for a reader who cannot distinguish it; add a word or symbol as well"
+    ],
+    "mnem": "",
+    "rel": [
+      "Styles and Themes",
+      "Graphics",
+      "Integration of e-Office"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "III",
+    "unitTitle": "Word Processing",
+    "sub": "Microsoft 365 Collaboration",
+    "def": "Working on one shared copy of a document in Microsoft 365: the file is stored in OneDrive or SharePoint rather than on a local drive, shared by link with controlled permission, edited by several people at the same time through co-authoring, and protected by an automatic version history.",
+    "exp": "Co-authoring requires the file to be in OneDrive or SharePoint. Once it is, two or more people can open it and edit at the same time. Each person's cursor and selection appear labelled with their name, and edits show up for the others as they are made, so everyone is always looking at the current text. This replaces the cycle of emailing attachments back and forth, where each recipient ends up with a separate copy and nobody can say which one is the latest. AutoSave writes changes back to the stored copy continuously.\n\nSharing is by link, and the link carries the permission. It can be view-only or allow editing, be limited to named people or to the organisation, and be revoked afterwards - which is something an emailed attachment can never be. Comments with an at-mention notify the colleague concerned inside the document rather than in a separate mail.\n\nVersion history is the feature with the most direct value for official work. The service keeps earlier saved versions of the file, which can be opened, compared with the current one, and restored. An accidental deletion or a bad edit is therefore recoverable, and the record shows who changed the file and when. Files can also be synced to the local machine and reconciled with the stored copy on reconnection.",
+    "facts": [
+      "Co-authoring requires the document to be stored in OneDrive or SharePoint, not on a local drive",
+      "During co-authoring each editor's presence and changes are visible to the others, labelled with their name",
+      "A sharing link can be set to view-only or editing, restricted to named people, and revoked later",
+      "Version history stores earlier versions of a file, which can be opened, compared and restored",
+      "AutoSave writes changes back to the stored copy continuously rather than on a manual save"
+    ],
+    "traps": [
+      "Emailing a document as an attachment is not collaboration. Each recipient receives a separate copy and the copies diverge; co-authoring keeps one file",
+      "Version history and Track Changes are different: version history keeps saved versions of the whole file over time, Track Changes marks individual edits inside the current file",
+      "A file on a local drive or an ordinary shared network folder cannot be co-authored in real time; it has to be in OneDrive or SharePoint",
+      "Sharing with anyone who has the link is far wider than sharing with named people, and for official documents the narrower permission is the correct default"
+    ],
+    "mnem": "",
+    "rel": [
+      "Track Changes",
+      "Integration of e-Office",
+      "Review Tools"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "III",
+    "unitTitle": "Word Processing",
+    "sub": "Integration of e-Office",
+    "def": "e-Office is the NIC-developed suite used by central and state government offices to run files, receipts, notings, drafts and approvals electronically instead of on paper. Word processing feeds into it: officials draft in Word, attach the draft to the electronic file for approval, and place the approved version on record as a signed PDF.",
+    "exp": "The workflow is the paper office made electronic. A case is opened as an electronic file. Remarks and recommendations are recorded on the note sheet, and the communication being proposed is attached to the file as a Draft for Approval. So a letter typed in Word is uploaded as the draft for approval and the file is moved electronically to the senior officer, who reads the noting, edits or returns the draft, and approves it. Every movement of the file is logged, which is the real gain - who held the file, for how long, and what was recorded at each stage.\n\nThe approved document is converted to PDF before it is issued or put on record. PDF holds the layout fixed on any machine, printer or screen, resists casual editing, is suitable for long-term retention, and can carry a digital signature. A .docx sent out instead can reflow with different fonts and still contains whatever tracked changes, comments and properties were left in it.\n\nA digital signature applied with a Digital Signature Certificate identifies the signatory and reveals any alteration made after signing, which is what gives the electronic document standing in place of an ink signature. The practical checklist before issue: apply heading styles, update the table of contents and other fields, clear tracked changes and comments, run the Accessibility Checker, then export to PDF and sign.",
+    "facts": [
+      "e-Office is the NIC-developed suite used by Indian government offices for electronic files, notings and drafts",
+      "A letter drafted in Word is attached to the electronic file as a Draft for Approval and routed to the approving officer",
+      "Documents are converted to PDF before issue because PDF preserves layout across machines, resists casual editing and suits long-term record keeping",
+      "A digital signature identifies the signatory and reveals any change made to the document after signing",
+      "Movement of an electronic file is logged, giving an audit trail of who handled it and when"
+    ],
+    "traps": [
+      "Converting to PDF is not encryption and not security. It fixes the layout and discourages casual editing, nothing more",
+      "PDF conversion does not reliably strip tracked changes, comments and hidden metadata - the Word file has to be cleaned first",
+      "A scanned image of a handwritten signature is not a digital signature. A digital signature is certificate-based and also detects tampering",
+      "e-Office replaces the paper file and its movement, not the word processor. The draft is still written in Word and then attached"
+    ],
+    "mnem": "",
+    "rel": [
+      "Track Changes",
+      "Table of Contents",
+      "Accessibility Features"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "III",
+    "unitTitle": "Word Processing",
+    "sub": "AI-assisted Document Creation (Microsoft Copilot - Concept)",
+    "def": "An AI writing assistant built into the word processor, working on the document in front of you. In concept it drafts text from a short instruction, summarises a long document, rewrites a passage to be shorter or more formal, and answers questions about the content. It proposes; the official remains the author and carries the responsibility.",
+    "exp": "The useful cases in an office are easy to name. Produce a first draft of a circular or a reply from a one-line instruction, so the officer starts from something rather than a blank page. Reduce a forty-page report to a set of key points before a meeting. Rewrite a paragraph in a more formal register, or cut it to half its length. Turn rough notes into a structured document with headings. Answer a question about what a long file says. It is driven by ordinary-language instructions, so a specific instruction produces a usable draft and a vague one produces filler.\n\nThe limitation is not a small one. These systems generate fluent text that can be confidently wrong - invented rules, invented figures, references to orders that do not exist. Nothing generated may be issued without being checked against the actual rule, notification or file. The assistant does not know your office's current instructions unless it is given them.\n\nThe governance rule matters more than any feature. Official documents, file notings, and personal data of citizens or employees must not be pasted into a public AI chat service. That is a disclosure of official information to a third party outside government control, and the text may be retained. Use only tools the department has approved, on data it has approved.",
+    "facts": [
+      "An in-application AI assistant can draft, summarise, rewrite and answer questions about the document being worked on",
+      "It is driven by natural-language instructions, and output quality depends on how specific the instruction is",
+      "AI-generated text can contain fabricated facts and references and must be verified against the source rule, order or file",
+      "Responsibility for an issued official document stays with the officer who signs it, not with the tool",
+      "Official, confidential or personal data must not be entered into a public AI service"
+    ],
+    "traps": [
+      "An AI assistant drafts and summarises; it does not verify. Fluent, confident wording is not evidence that the content is correct",
+      "Pasting an internal office note into a public AI chat service is disclosure of official information to an outside party whatever the intention, and deleting the chat afterwards does not undo it",
+      "Using a departmentally approved AI tool is not the same as using any AI website - the approval is about where the data goes, not about the quality of the writing",
+      "AI assistance does not remove the ordinary checks before issue: proofreading, updating fields, and clearing tracked changes and comments"
+    ],
+    "mnem": "",
+    "rel": [
+      "Review Tools",
+      "Integration of e-Office",
+      "Microsoft 365 Collaboration"
+    ]
+  }
+]

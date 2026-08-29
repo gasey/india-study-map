@@ -1,0 +1,54 @@
+{
+  "paper": "TECH1",
+  "unit": "I",
+  "unitTitle": "Fundamentals of Computer",
+  "unitMarks": 60,
+  "perTarget": 2,
+  "brief": "tools/system-manager-build/GENERATE_BRIEF.md",
+  "targets": [
+    {
+      "sub": "Digital Transformation and e-Governance",
+      "section": "Introduction to Computing"
+    },
+    {
+      "sub": "Emerging Technologies: Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Big Data, Cloud Computing and Edge Computing",
+      "section": "Introduction to Computing"
+    },
+    {
+      "sub": "Green Computing and Sustainable IT",
+      "section": "Introduction to Computing"
+    },
+    {
+      "sub": "Motherboard and Chipset",
+      "section": "Computer Architecture"
+    },
+    {
+      "sub": "Multi-core and Multi-threaded Processors",
+      "section": "Processor and Memory"
+    },
+    {
+      "sub": "Network Attached Storage (NAS)",
+      "section": "Storage Technologies"
+    },
+    {
+      "sub": "Storage Area Network (SAN)",
+      "section": "Storage Technologies"
+    },
+    {
+      "sub": "Backup Concepts",
+      "section": "Storage Technologies"
+    },
+    {
+      "sub": "Disaster Recovery Concepts",
+      "section": "Storage Technologies"
+    },
+    {
+      "sub": "Modern Input Devices",
+      "section": "Input and Output Devices"
+    },
+    {
+      "sub": "Biometric Devices",
+      "section": "Input and Output Devices"
+    }
+  ]
+}

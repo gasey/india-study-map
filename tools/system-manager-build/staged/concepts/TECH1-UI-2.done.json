@@ -1,0 +1,252 @@
+[
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "System Bus and Expansion Slots",
+    "def": "The system bus is the set of shared electrical pathways over which the CPU, memory and I/O controllers exchange information. It is conventionally split into three: the address bus, which carries the location being accessed; the data bus, which carries the data itself; and the control bus, which carries the command and timing signals that say what is happening. Expansion slots are the motherboard connectors that let add-on cards join that bus.",
+    "exp": "The address bus is unidirectional: the CPU puts an address on it and memory or an I/O port responds. Its width fixes how much memory can be addressed, since n address lines select 2 to the power n locations, so 20 lines reach 1 MB and 32 lines reach 4 GB. The data bus is bidirectional and its width is how many bits move in a single transfer. The control bus carries memory read, memory write, I/O read, I/O write, interrupt request, bus grant, clock and reset.\n\nExpansion slots let capability be added after purchase: graphics, network, RAID and sound cards. The obsolete generations are ISA, then PCI, a shared parallel bus, then AGP, a graphics-only slot. Current boards use PCI Express, which despite the name is not a shared parallel bus but a set of serial point-to-point lanes, sized x1, x4, x8 and x16. A longer slot carries more lanes and so more bandwidth, and a shorter card in a longer slot simply negotiates down. Laptops and small boards use M.2 and Mini PCIe instead of full-size slots.\n\nBus bandwidth is roughly bus width times transfer rate. Because the bus is shared, a slow bus starves a fast CPU. That is the von Neumann bottleneck.",
+    "facts": [
+      "An address bus of n lines can address 2 to the power n locations; the address bus width therefore fixes maximum addressable memory.",
+      "The address bus is unidirectional (CPU to memory/IO); the data bus is bidirectional.",
+      "The data bus width decides how many bits are transferred per bus cycle, not how much memory can be addressed.",
+      "Slot generations in order: ISA, PCI, AGP (graphics only), PCI Express.",
+      "PCI Express uses serial point-to-point lanes in x1, x4, x8 and x16 widths; more lanes means more bandwidth.",
+      "The control bus carries read/write, interrupt and clock signals; it carries no data or addresses."
+    ],
+    "traps": [
+      "Address bus versus data bus: examiners ask which one determines memory capacity. The answer is the address bus. The data bus determines transfer size per cycle.",
+      "PCI Express is serial and point-to-point, while PCI was parallel and shared. Both are called buses, but only PCI is a bus in the shared-wire sense.",
+      "AGP was for graphics only and is obsolete; it is not a general-purpose slot and PCIe x16 replaced it.",
+      "'System bus' sometimes means only the CPU-to-memory front-side bus and sometimes all three buses together. Read the question stem for which is meant."
+    ],
+    "mnem": "Address = where, Data = what, Control = when.",
+    "rel": [
+      "Motherboard and Chipset",
+      "Functional Components of a Computer",
+      "CPU Architecture and Instruction Cycle"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "BIOS/UEFI Firmware",
+    "def": "Firmware held in non-volatile memory on the motherboard that runs the instant power is applied, before any operating system exists. It initialises and tests the hardware, then locates a bootloader on a storage device and hands control to it. BIOS, the Basic Input/Output System, is the legacy form; UEFI, the Unified Extensible Firmware Interface, is the modern replacement now standard on every new machine.",
+    "exp": "The first thing the firmware does is POST, the Power-On Self-Test: it checks the CPU, memory and essential devices and reports failures by beep codes or diagnostic LEDs, because a fault may occur before display output is available. If POST passes, the firmware consults the boot order and loads the bootloader, which then loads the operating system kernel.\n\nFirmware settings, including boot order, clock and enabled devices, live in a small battery-backed CMOS RAM. When the coin cell dies, the clock resets and settings return to default. The firmware code itself was once in true ROM but now sits in flash, so it can be updated, which is what 'flashing the BIOS' means.\n\nUEFI differs from legacy BIOS in several examinable ways. It uses GPT partitioning rather than MBR, so it boots disks beyond MBR's roughly 2 TB limit and supports far more partitions than MBR's four primaries. It loads its bootloader as a file from a FAT-formatted EFI System Partition rather than from a single boot sector. It supports Secure Boot, which refuses to run a bootloader without a trusted signature. It runs in 32- or 64-bit mode with its own drivers and a graphical, mouse-driven setup, and boots faster. A Compatibility Support Module allows legacy booting where needed.",
+    "facts": [
+      "POST (Power-On Self-Test) is the first firmware activity at power-on; beep codes report faults before video is available.",
+      "BIOS/UEFI settings are stored in battery-backed CMOS RAM; a dead coin cell resets the clock and settings.",
+      "Legacy BIOS boots from the MBR, which allows four primary partitions and disks up to roughly 2 TB.",
+      "UEFI boots from an EFI System Partition (FAT-formatted) on a GPT disk and supports Secure Boot.",
+      "Firmware today is stored in flash, not mask ROM, which is why it can be updated in place.",
+      "The bootstrap sequence is POST, then firmware loads the bootloader, then the bootloader loads the OS kernel."
+    ],
+    "traps": [
+      "BIOS versus CMOS: the BIOS/UEFI is the firmware program, CMOS is the small battery-backed RAM that stores its settings. Questions phrase this as 'where are BIOS settings stored'.",
+      "UEFI is not just a prettier BIOS setup screen. The examinable distinction is GPT versus MBR, Secure Boot, and larger disk support.",
+      "The firmware does not load the operating system directly; it loads a bootloader, which loads the OS.",
+      "POST is not booting. POST is the hardware self-check; booting is loading the OS afterwards."
+    ],
+    "mnem": "POST before boot; CMOS holds the settings, BIOS is the code.",
+    "rel": [
+      "Motherboard and Chipset",
+      "Functional Components of a Computer"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "Multi-core and Multi-threaded Processors",
+    "def": "A multi-core processor places two or more complete execution cores on a single chip, each with its own control unit, ALU, registers and private cache, so several instruction streams genuinely execute at the same time. Multi-threading is a core's ability to hold and interleave more than one thread; in simultaneous multi-threading, marketed by Intel as Hyper-Threading, one physical core presents itself to the operating system as two logical processors that share the core's execution units.",
+    "exp": "Dual, quad, hexa and octa-core are just core counts on one die. Each core normally keeps its own L1 and L2 cache while all cores share an L3 cache, the memory controller and the on-chip interconnect. Because the cores are physically separate, this is true parallelism.\n\nSimultaneous multi-threading is not. It fills execution slots that a single thread leaves idle, typically while waiting on memory. A 4-core, 8-thread chip has four cores; the extra four are logical, and the real gain is a useful fraction rather than a doubling. Many recent chips also mix performance and efficiency cores on one die, so not all cores are equal.\n\nThreads of one process share the same address space, making them cheaper to create and switch than processes, but requiring locking to avoid race conditions. Multitasking is an operating-system technique for interleaving work on any number of cores; multiprocessing means genuinely executing on more than one core or CPU.\n\nAmdahl's Law bounds what extra cores deliver: the serial fraction of a program cannot be sped up, so a workload that is only half parallel can never be more than twice as fast no matter how many cores you add.",
+    "facts": [
+      "A quad-core processor with simultaneous multi-threading appears to the OS as eight logical processors.",
+      "Each core typically has private L1 and L2 cache and shares L3 with the other cores.",
+      "Hyper-Threading is Intel's brand name for simultaneous multi-threading.",
+      "Amdahl's Law: overall speedup is capped by the fraction of the program that must run serially.",
+      "Threads within a process share the address space; separate processes do not.",
+      "Multi-core means several cores on one chip; multiprocessor means several physical CPU chips or sockets."
+    ],
+    "traps": [
+      "In '4C/8T' notation, 8 is the thread count, not a core count. Logical processors are not physical cores.",
+      "Adding cores raises throughput on parallel work but does not make a single-threaded program run faster.",
+      "Multi-core is not the same as multiprocessor: multi-core is one chip with several cores, multiprocessor is several chips.",
+      "Multitasking is an OS scheduling illusion and works on a single core; multiprocessing needs real parallel hardware."
+    ],
+    "mnem": "",
+    "rel": [
+      "CPU Architecture and Instruction Cycle",
+      "Performance Measurement",
+      "Cache Memory"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "Cache Memory",
+    "def": "A small, very fast memory placed between the CPU and main memory that holds recently and frequently used instructions and data, so the processor is not made to wait for slower DRAM. It is built from SRAM. It works only because of locality of reference: temporal locality, meaning a location just accessed is likely to be accessed again soon, and spatial locality, meaning locations near a just-accessed address are likely to be needed next.",
+    "exp": "Cache is organised in levels. L1 is smallest and fastest, private to each core and usually split into separate instruction and data caches. L2 is larger and slower, normally also per-core. L3 is largest and slowest and is shared between all cores. Its place in the wider ordering is covered under Memory Hierarchy.\n\nWhen the CPU requests a word, a hit means the data is already in cache; a miss means it must be fetched from main memory. Hit ratio is hits divided by total accesses, and average access time is hit time plus miss ratio times miss penalty. A high hit ratio is what makes the scheme worth having.\n\nData is brought in as a block or line, not a single byte, which is how spatial locality is exploited. Every cache line stores tag bits alongside the data, identifying which main-memory block currently occupies it, so a cache word is wider than the data word it holds. The mapping scheme decides how many tag bits are needed. Direct mapping splits the address into tag, line number and word offset. Fully associative mapping lets a block sit anywhere, so the whole block address becomes the tag, giving the largest tag and the most expensive comparison hardware. Set-associative mapping is the compromise used in practice.",
+    "facts": [
+      "Cache works because of locality of reference: temporal (reuse in time) and spatial (nearby addresses).",
+      "L1 is smallest, fastest and per-core, often split into instruction and data caches; L3 is largest and shared between cores.",
+      "Cache is SRAM; main memory is DRAM.",
+      "Hit ratio = number of hits / total accesses; average access time = hit time + (miss ratio x miss penalty).",
+      "The three mapping techniques are direct, fully associative and set-associative.",
+      "A cache line stores tag bits plus the data block, so the cache word is wider than the data word; fully associative mapping needs the largest tag."
+    ],
+    "traps": [
+      "Cache is not a buffer. A cache anticipates reuse of the same data; a buffer smooths a speed mismatch between two devices.",
+      "Fully associative mapping is the most flexible in placement but the most expensive in comparators and tag bits. Direct mapping is cheapest but suffers conflict misses.",
+      "Cache makes memory look faster; virtual memory makes it look larger. They are opposite ideas and are frequently swapped in options.",
+      "Cache size is not part of RAM capacity, and 'L1' has nothing to do with disk levels."
+    ],
+    "mnem": "Locality: temporal = same place again, spatial = next place along.",
+    "rel": [
+      "Memory Hierarchy",
+      "RAM, ROM and Virtual Memory",
+      "Performance Measurement"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "RAM, ROM and Virtual Memory",
+    "def": "RAM is volatile read/write main memory whose contents are lost when power is removed. ROM is non-volatile memory that retains its contents without power and is read during normal operation. Virtual memory is an operating-system technique that uses reserved space on secondary storage, the page file or swap area, as an extension of physical RAM, so a program may occupy an address space larger than the installed memory.",
+    "exp": "RAM comes in two families. SRAM holds each bit in a flip-flop of about six transistors, needs no refreshing, is faster, costs more per bit and is less dense, which is why it is used for cache. DRAM holds each bit as charge on a tiny capacitor that leaks, so it must be refreshed constantly; it is denser and much cheaper per bit but slower than SRAM, which is why it is used for main memory. DDR SDRAM is the current main-memory family.\n\nROM variants form a progression. Mask ROM is written at manufacture and can never be changed. PROM is programmed once by the user by blowing fuse links. EPROM is erased by ultraviolet light through a quartz window, and erases entirely. EEPROM is erased and rewritten electrically, in place on the board. Flash is a block-erased form of EEPROM.\n\nVirtual memory divides the logical address space into fixed-size pages and physical memory into frames of the same size. A page table records the mapping, the MMU performs translation, and a TLB caches recent translations. Referencing a page that is not resident raises a page fault, and the OS loads it from disk, evicting another page. When the combined working sets exceed RAM, the system spends more time swapping pages than executing instructions. That state is thrashing.",
+    "facts": [
+      "SRAM is faster, needs no refresh, is costlier and less dense, and is used for cache; DRAM is slower, needs periodic refresh, is denser and cheaper, and is used for main memory.",
+      "RAM is volatile; ROM is non-volatile.",
+      "PROM is user-programmable once, EPROM is erased by ultraviolet light, EEPROM is erased electrically byte by byte; flash is block-erased EEPROM.",
+      "Virtual memory uses secondary storage as an extension of RAM; the unit of transfer in paging is a fixed-size page.",
+      "A page fault is a reference to a page not currently in physical memory; thrashing is excessive paging that starves useful work.",
+      "Paging uses fixed-size blocks; segmentation uses variable-size logical segments."
+    ],
+    "traps": [
+      "DRAM is SLOWER than SRAM. 'Dynamic' refers to the refresh requirement, not to speed. Options claiming DRAM is faster are wrong, and this error appears in real papers.",
+      "Virtual memory increases usable address space, not speed. Enlarging the page file does not substitute for buying RAM; disk is orders of magnitude slower.",
+      "ROM is no longer 'memory that cannot be written'. EEPROM and flash are rewritable while remaining non-volatile.",
+      "Cache versus virtual memory: cache makes memory faster, virtual memory makes it bigger."
+    ],
+    "mnem": "SRAM is Static, it stays; DRAM is Dynamic, it must be refreshed.",
+    "rel": [
+      "Memory Hierarchy",
+      "Cache Memory"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "Memory Hierarchy",
+    "def": "The arrangement of a computer's storage into levels ranked by speed, cost per bit and capacity. From the top down: CPU registers, then cache (L1, L2, L3), then main memory or DRAM, then secondary storage such as SSD and hard disk, then tertiary and offline storage such as optical discs, magnetic tape and network or cloud archives. Descending the hierarchy, access time and capacity increase while speed and cost per bit decrease.",
+    "exp": "The hierarchy exists because fast memory is expensive, so you cannot afford much of it, and cheap memory is slow, so you cannot run from it directly. Layering the two gives the illusion of a memory nearly as fast as the top level and nearly as large as the bottom one. That illusion holds only because programs obey locality of reference: at any moment a program touches a small working set, which the upper levels can hold.\n\nThe scale of the gap matters more than exact figures. Registers sit inside the CPU and are read within a single clock cycle. Cache responds in a few nanoseconds, main memory in tens of nanoseconds, an SSD in tens of microseconds, a hard disk in milliseconds, and tape or optical in seconds once loaded.\n\nTwo dividing lines are examined, and both fall below main memory. The volatility line: registers, cache and RAM lose their contents at power-off, while secondary storage and below retain them. The addressability line: the CPU can address primary memory directly, but cannot execute from secondary storage. A program or file on disk must first be copied into main memory before the CPU can use it.",
+    "facts": [
+      "The order fastest to slowest is registers, cache, main memory, secondary storage, tertiary/offline storage.",
+      "Going down the hierarchy: capacity and access time increase, speed and cost per bit decrease.",
+      "Registers are the fastest storage in a computer and are accessed in about one clock cycle.",
+      "Registers, cache and RAM are volatile; secondary storage and below are non-volatile.",
+      "The CPU can address primary memory directly; secondary storage contents must be loaded into main memory first.",
+      "Typical access times: cache and RAM in nanoseconds, SSD in microseconds, HDD in milliseconds."
+    ],
+    "traps": [
+      "Two properties move in opposite directions. Capacity rises as you descend while speed falls, so 'largest and fastest' is never the same level.",
+      "Cost per bit falls as you descend, but the total money spent on a level can still be higher because there is far more of it. Read whether the question says cost per bit or total cost.",
+      "Primary memory is not only RAM. Registers and cache are internal memory too, and cache is not a portion of RAM.",
+      "Access time and transfer rate are different measures. A hard disk has poor access time yet respectable sequential transfer rate."
+    ],
+    "mnem": "",
+    "rel": [
+      "Cache Memory",
+      "RAM, ROM and Virtual Memory",
+      "HDD, SSD and NVMe Storage"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "Performance Measurement",
+    "def": "Quantifying how much useful work a computer does per unit time so that systems can be compared. The governing relation is the CPU performance equation: CPU time equals instruction count multiplied by cycles per instruction, divided by clock rate. Clock speed, cycles per instruction (or its reciprocal, instructions per cycle), and the number of instructions a program needs together determine execution time; benchmarks measure the combined result on real or synthetic workloads.",
+    "exp": "Clock speed is simply cycles per second, so 1 GHz is one thousand million cycles per second and the clock period is its reciprocal. Clock speed alone settles nothing. A chip at a higher clock rate can be slower overall if its microarchitecture completes fewer instructions per cycle, if it stalls on cache misses, or if it throttles thermally. Comparing gigahertz across different designs is the megahertz myth; the comparison is only fair within the same microarchitecture.\n\nCore count raises throughput on parallel workloads but not the speed of a single-threaded task, and Amdahl's Law caps the benefit.\n\nOther measures each have a purpose. MIPS counts millions of instructions per second and is a poor cross-architecture measure because different instruction sets do different amounts of work per instruction. FLOPS counts floating-point operations per second and is the standard rating for scientific and supercomputing workloads. Benchmarks may be synthetic, such as Dhrystone, Whetstone and Linpack, or application-based suites such as SPEC CPU.\n\nFinally, distinguish response time, how long one job takes, from throughput, how many jobs complete per unit time. Real system performance is set by the bottleneck, which is often memory bandwidth, disk IOPS or the network rather than the CPU.",
+    "facts": [
+      "CPU time = instruction count x cycles per instruction / clock rate.",
+      "IPC (instructions per cycle) is the reciprocal of CPI (cycles per instruction).",
+      "1 GHz equals one thousand million clock cycles per second; clock period is 1 divided by clock frequency.",
+      "MIPS measures instruction throughput; FLOPS measures floating-point throughput and is used to rank supercomputers.",
+      "Linpack, Dhrystone and Whetstone are synthetic benchmarks; SPEC CPU is an application benchmark suite.",
+      "Response time is the latency of one task; throughput is the number of tasks completed per unit time."
+    ],
+    "traps": [
+      "Clock speed alone does not determine performance. A 3 GHz processor of one design can beat a 3.5 GHz processor of another because of higher IPC.",
+      "MIPS compared across different instruction sets is meaningless, since a RISC and a CISC instruction do different amounts of work.",
+      "Doubling the core count does not halve the runtime. Amdahl's Law and the serial fraction limit the gain.",
+      "Bandwidth is not latency. A device can move a lot of data per second and still respond slowly to each individual request."
+    ],
+    "mnem": "",
+    "rel": [
+      "Multi-core and Multi-threaded Processors",
+      "Cache Memory",
+      "Memory Hierarchy"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "HDD, SSD and NVMe Storage",
+    "def": "A hard disk drive is electromechanical: data is recorded magnetically on rotating platters and read by heads on a moving actuator arm, addressed by track, sector and cylinder. A solid-state drive has no moving parts and stores data in NAND flash chips managed by a controller. NVMe, Non-Volatile Memory Express, is neither of these; it is a host interface and command protocol designed for flash and carried over PCI Express lanes.",
+    "exp": "Hard disk access time is the sum of seek time, moving the head to the right track, rotational latency, waiting for the sector to come round, and transfer time. Rotational latency falls as spindle speed rises, which is why 7200 RPM drives beat 5400 RPM ones and enterprise drives spin faster still. HDDs remain the cheapest cost per gigabyte at large capacity, but they are slow in milliseconds, noisy, and vulnerable to shock while spinning.\n\nSSDs answer in microseconds, are silent, draw less power and survive being knocked. Flash cannot be overwritten in place: it is programmed in pages and erased in larger blocks, so the controller performs wear levelling, garbage collection and TRIM. Cells tolerate a finite number of program/erase cycles, quoted as terabytes written or drive writes per day. SLC, MLC, TLC and QLC store one, two, three and four bits per cell; more bits mean cheaper and denser but slower and less durable.\n\nThe interface is a separate question from the medium. SATA was designed for hard disks and caps an SSD well below what its flash can deliver. NVMe over PCIe removes that ceiling with deep parallel command queues and far lower protocol overhead. Form factors include 2.5-inch, M.2 and U.2.",
+    "facts": [
+      "HDD access time = seek time + rotational latency + transfer time.",
+      "Higher spindle speed (RPM) reduces rotational latency; common speeds are 5400 and 7200 RPM.",
+      "An SSD has no moving parts and stores data in NAND flash; flash is erased in blocks but programmed in pages.",
+      "NVMe is an interface/protocol that runs over PCI Express lanes, not a type of storage medium.",
+      "SLC, MLC, TLC and QLC hold 1, 2, 3 and 4 bits per cell respectively; more bits per cell means lower endurance and speed.",
+      "TRIM and wear levelling are SSD controller functions; defragmentation benefits HDDs and is pointless on an SSD."
+    ],
+    "traps": [
+      "NVMe is not a different kind of flash. An NVMe SSD is an ordinary NAND SSD addressed over PCIe instead of SATA, and this is the single most-missed distinction here.",
+      "M.2 is a form factor, not a protocol. An M.2 drive may speak SATA or NVMe, and the two perform very differently in the same slot.",
+      "SSDs do fail. Flash cells have a limited number of program/erase cycles, so an SSD is not a substitute for backup.",
+      "Seek time, rotational latency and access time are three different quantities; access time is the total, not just the seek."
+    ],
+    "mnem": "Medium versus interface: NAND is what it is, NVMe is how you talk to it.",
+    "rel": [
+      "Memory Hierarchy",
+      "Optical and Flash Storage",
+      "Network Attached Storage (NAS)"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "Optical and Flash Storage",
+    "def": "Optical storage records data as pits and lands along a single spiral track in a reflective layer of a disc, read by a laser that detects the change in reflection: CD, DVD and Blu-ray. Flash storage is non-volatile solid-state semiconductor memory, a block-erasable form of EEPROM, used in USB pen drives, SD and microSD cards, and as the NAND inside SSDs.",
+    "exp": "Optical capacity is set by how small the pits can be, which is set by the laser wavelength. A CD uses an infrared laser at 780 nm and holds about 700 MB. A DVD uses a red laser at 650 nm and holds 4.7 GB on a single layer. Blu-ray uses a blue-violet laser at 405 nm, which is where the name comes from, and holds 25 GB on a single layer or 50 GB dual-layer. Each family comes in three write modes: ROM, pressed at the factory and read-only; R, recordable once; and RW or RE, rewritable a limited number of times. Optical media are cheap, removable and long-lived if stored well, which is why they persist in archival and distribution use even as drives disappear from new machines.\n\nFlash comes in two types. NOR flash allows random byte-level reads and is used to hold firmware such as the BIOS/UEFI image. NAND flash is far denser, is read and written in pages and erased in blocks, and is used for all mass storage. Both are non-volatile and both wear out after a finite number of erase cycles. USB drives use the standard mass-storage class and need no driver; SD cards are graded by capacity family (SD, SDHC, SDXC) and by speed class.",
+    "facts": [
+      "Capacities: CD about 700 MB, single-layer DVD 4.7 GB, single-layer Blu-ray 25 GB (50 GB dual-layer).",
+      "Laser wavelengths: CD 780 nm infrared, DVD 650 nm red, Blu-ray 405 nm blue-violet; a shorter wavelength allows smaller pits and more capacity.",
+      "Optical discs store data as pits and lands on one continuous spiral track, read by reflected laser light.",
+      "R media are write-once; RW/RE media are rewritable; ROM media are factory-pressed and read-only.",
+      "NOR flash is byte-addressable for reads and is used for firmware; NAND flash is page-programmed, block-erased and used for mass storage.",
+      "Flash memory is a form of EEPROM and is non-volatile despite being semiconductor memory."
+    ],
+    "traps": [
+      "Optical storage is not magnetic. CDs, DVDs and Blu-ray are read optically; floppy disks, hard disks and tape are magnetic.",
+      "Semiconductor memory is not automatically volatile. Flash is a chip like RAM but keeps its contents without power.",
+      "Blu-ray's higher capacity comes from a shorter-wavelength laser, not from a larger or thicker disc; all three are 120 mm.",
+      "DVD-R writes once and DVD-RW rewrites. Examiners set R against RW directly in the options."
+    ],
+    "mnem": "Shorter wavelength, smaller pits, bigger capacity: 780 to 650 to 405 nm.",
+    "rel": [
+      "HDD, SSD and NVMe Storage",
+      "Memory Hierarchy",
+      "Backup Concepts"
+    ]
+  }
+]

@@ -1,0 +1,252 @@
+[
+  {
+    "paper": "TECH2",
+    "unit": "II",
+    "unitTitle": "Database Management System",
+    "sub": "Database Concepts",
+    "def": "A database is an organised, persistent collection of related data stored so that it can be retrieved and updated efficiently. A Database Management System (DBMS) is the software layer between users and that stored data, controlling its definition, storage, retrieval, integrity, security and recovery. Together they replace the older file-processing approach in which every application kept its own private files.",
+    "exp": "The case for a DBMS is normally taught as the list of problems with file processing: data redundancy (the same address held in five files), inconsistency (four of them updated, one not), difficulty of access, isolation of data across incompatible formats, integrity problems, atomicity failures on a crash, concurrent-access anomalies and weak security. A DBMS attacks all of these from one place.\n\nIts defining properties: the data is self-describing, because a data dictionary or system catalog stores metadata about every table and column; programs are insulated from storage details; several different views of the same data can be supported at once; and concurrency control lets many users work simultaneously without corrupting each other's work.\n\nPeople involved: the DBA (database administrator) defines the schema and storage structure, grants access authorisation and tunes performance. Below the DBA sit database designers, application programmers, and end users (naive, casual and sophisticated).\n\nTwo pairs of terms are examined constantly. Data is raw facts; information is processed data that carries meaning. Schema is the structure or design of the database and changes rarely; instance is the data actually present at a given moment and changes with every update.\n\nWidely used relational products are Oracle, MySQL, PostgreSQL, Microsoft SQL Server and IBM Db2, with MS Access as a desktop DBMS. NoSQL systems such as MongoDB, Redis and Cassandra store documents, key-value pairs or column families and deliberately relax the relational model.",
+    "facts": [
+      "The data dictionary or system catalog stores metadata, that is, descriptions of the database structure, not the user data itself.",
+      "Schema is the design and changes rarely; instance is the data present at a given moment and changes constantly.",
+      "The DBA is responsible for schema definition, storage structure, granting access authorisation, backup and performance tuning.",
+      "Advantages of a DBMS over file processing: controlled redundancy, consistency, data sharing, enforced integrity, backup and recovery, and security.",
+      "Oracle, MySQL, PostgreSQL, SQL Server and Db2 are relational DBMSs; MongoDB, Redis and Cassandra are NoSQL systems."
+    ],
+    "traps": [
+      "Database versus DBMS. The database is the stored data; the DBMS is the software that manages it. An MCQ asking what Oracle is wants DBMS or RDBMS, not database.",
+      "Redundancy in a DBMS is controlled, not eliminated. Indexes and replicas duplicate data on purpose.",
+      "Data is raw facts, information is processed data with meaning. Exam options routinely reverse the two.",
+      "MS Access is a DBMS product; Excel is a spreadsheet and is not a DBMS, however much data it holds."
+    ],
+    "mnem": "",
+    "rel": [
+      "Database Architecture",
+      "Data Models",
+      "Relational Database Management System"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "II",
+    "unitTitle": "Database Management System",
+    "sub": "Database Architecture",
+    "def": "The three-schema or three-level architecture, proposed by ANSI/SPARC, separates a database into an external level, a conceptual level and an internal level, so that individual users' views, the overall logical design and the physical storage can each change with the least possible disturbance to the others.",
+    "exp": "The mapping asked head-on in this exam: the external level is the view level, the conceptual level is the logical level, and the internal level is the physical level.\n\nExternal or view level: what one user or one application sees, a partial and possibly reshaped picture of the database. A database has many external schemas, one per user group.\n\nConceptual or logical level: a single schema describing all entities, attributes, relationships and constraints for the whole database, without saying how anything is stored. There is exactly one conceptual schema.\n\nInternal or physical level: a single schema describing how the data is actually stored, covering files, pages, record layout, indexes and compression.\n\nBetween the levels sit two mappings, external-to-conceptual and conceptual-to-internal. These mappings are what deliver data independence, the whole point of the architecture. Logical data independence means the conceptual schema can be changed, for example by adding a column or a table, without changing external schemas or rewriting application programs. Physical data independence means the internal storage can be changed, for example by adding an index or moving files to a different disk, without changing the conceptual schema. Physical data independence is the easier of the two to achieve, because applications depend heavily on logical structure.\n\nThe same phrase also describes deployment tiers: 1-tier (the user works directly on the DBMS), 2-tier (a client application talks to the database server through ODBC or JDBC) and 3-tier (client to application server to database server), which is the normal shape for web applications.",
+    "facts": [
+      "External level = view level, conceptual level = logical level, internal level = physical level.",
+      "A database has many external schemas, exactly one conceptual schema and one internal schema.",
+      "Logical data independence: the conceptual schema can change without changing external schemas or application programs.",
+      "Physical data independence: the internal or storage schema can change without changing the conceptual schema.",
+      "The three-schema architecture is credited to ANSI/SPARC.",
+      "In a 3-tier architecture the client never talks to the database server directly; an application server sits in between."
+    ],
+    "traps": [
+      "External is the view level, not the physical level. Working downwards from the user the order is external, conceptual, internal, that is view, logical, physical.",
+      "Physical data independence is the easier one to achieve, logical data independence the harder. Options often swap them.",
+      "The conceptual level says what data is stored and how it is related; only the internal level says how it is stored.",
+      "Three-schema architecture and three-tier architecture are different things. The first is about levels of abstraction, the second about where software runs."
+    ],
+    "mnem": "Top to bottom: View, Logical, Physical. The user sees the View, the designer owns the Logical, the disk holds the Physical.",
+    "rel": [
+      "Database Concepts",
+      "Data Models",
+      "Views"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "II",
+    "unitTitle": "Database Management System",
+    "sub": "Data Models",
+    "def": "A data model is a set of concepts for describing the structure of a database: the data, the relationships among it, the constraints on it and its meaning. Models are grouped by level of abstraction into high-level or conceptual models (the ER model), representational or implementation models (relational, network, hierarchical) and low-level physical models.",
+    "exp": "Hierarchical model: data arranged as a tree, where each child record has exactly one parent. It supports one-to-many naturally but cannot express many-to-many directly. IBM's IMS is the standard example and it is the oldest of the three.\n\nNetwork model: data arranged as a graph of owner and member records, where a record may have several parents, so many-to-many is supported. It was standardised by the CODASYL DBTG committee.\n\nRelational model: proposed by E. F. Codd in 1970 and now dominant. Data is held in relations, that is tables of tuples (rows) and attributes (columns). Links between tables are made by matching values through foreign keys, not by physical pointers, which is exactly what makes it easier to reorganise than the older two. SQL implements this model.\n\nEntity-Relationship model: a conceptual design model drawn as a diagram and then converted into relational tables. It is a design tool, not something you can query.\n\nObject-oriented and object-relational models add objects, classes and inheritance for complex data. The NoSQL families, document, key-value, column-family and graph, are the modern additions, chosen where schema flexibility or horizontal scale matters more than strict relational structure.\n\nRelational terminology worth memorising: relation is the table, tuple the row, attribute the column, domain the set of permitted values for an attribute, degree the number of attributes and cardinality the number of tuples.",
+    "facts": [
+      "The relational model was proposed by E. F. Codd in 1970.",
+      "Hierarchical model is a tree with one parent per child; the network model is a graph and allows multiple parents, so it supports many-to-many.",
+      "Relation = table, tuple = row, attribute = column, degree = number of columns, cardinality = number of rows.",
+      "Domain is the set of permitted values for an attribute.",
+      "The ER model is a conceptual (high-level) model; relational, network and hierarchical are representational or implementation models.",
+      "The network model was standardised by CODASYL."
+    ],
+    "traps": [
+      "Degree versus cardinality. Degree counts columns, cardinality counts rows. These are swapped in options more often than any other pair here.",
+      "Hierarchical versus network: only the network model allows a record to have more than one parent.",
+      "The relational model connects tables by values (foreign keys); the hierarchical and network models connect records by physical pointers.",
+      "The ER model is a design notation, not an implementation model. You convert it into relational tables before anything can be queried."
+    ],
+    "mnem": "",
+    "rel": [
+      "ER Modelling",
+      "Relational Database Management System",
+      "Database Architecture"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "II",
+    "unitTitle": "Database Management System",
+    "sub": "ER Modelling",
+    "def": "Entity-Relationship modelling, introduced by Peter Chen, represents the conceptual design of a database as entities (the things about which data is kept), attributes (their properties) and relationships (the associations between entities). The result is an ER diagram, which is then converted into relational tables for implementation.",
+    "exp": "The symbols are examined directly, so learn them exactly. Rectangle is an entity set. Double rectangle is a weak entity. Ellipse is an attribute. Double ellipse is a multivalued attribute. Dashed ellipse is a derived attribute. An underlined attribute name is the key attribute. Diamond is a relationship set. Double diamond is the identifying relationship of a weak entity. A plain line links an attribute to its entity and an entity to a relationship, and a double line marks total participation, meaning every entity in the set must take part; a single line means partial participation.\n\nStrong versus weak entity: a strong entity has a key attribute of its own. A weak entity has no key attribute of its own and can be identified only through its owner entity together with a partial key, also called a discriminator, shown with a dashed underline.\n\nThe cardinality ratios of a binary relationship are one-to-one, one-to-many, many-to-one and many-to-many.\n\nThe extended ER features are the other favourite. Specialisation is top-down: you start from a higher-level entity set and split it into lower-level subsets, for example Employee into Manager and Clerk. Generalisation is bottom-up: you take the union of two or more lower-level entity sets that share attributes and form one higher-level entity set from them, for example Car and Truck into Vehicle. Aggregation is different again: it treats a whole relationship set as if it were a single higher-level entity, so that the relationship itself can take part in another relationship.",
+    "facts": [
+      "Rectangle = entity, ellipse = attribute, diamond = relationship, line = link; an underlined attribute is the key attribute.",
+      "Double rectangle = weak entity, double diamond = its identifying relationship, double ellipse = multivalued attribute, dashed ellipse = derived attribute.",
+      "A weak entity has no key attribute of its own and depends on an owner entity plus a partial key for identification.",
+      "Generalisation is bottom-up and forms the union of lower-level entity sets into a higher-level entity set; specialisation is top-down.",
+      "A double line between an entity and a relationship means total participation; a single line means partial participation.",
+      "The ER model is credited to Peter Chen."
+    ],
+    "traps": [
+      "Generalisation versus specialisation. If the stem describes taking the union of lower-level entity sets into a higher-level entity set, the answer is generalisation (bottom-up). Specialisation is the top-down split.",
+      "Aggregation is not generalisation. Aggregation turns a whole relationship into something that behaves like an entity so it can join another relationship.",
+      "Diamond is the relationship and ellipse is the attribute. Under time pressure candidates reverse these two.",
+      "Derived attribute (age, computed from date of birth) is not stored; multivalued attribute (several phone numbers) is stored several times. Different symbols, different meanings."
+    ],
+    "mnem": "Generalisation Goes up (bottom-up, many into one); Specialisation Splits down (top-down, one into many).",
+    "rel": [
+      "Data Models",
+      "Relational Database Management System",
+      "Database Concepts"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "II",
+    "unitTitle": "Database Management System",
+    "sub": "Relational Database Management System",
+    "def": "An RDBMS is a DBMS built on Codd's relational model: all data is presented to the user as relations, that is tables of rows and columns; relationships between tables are expressed by matching key values rather than pointers; and the database is defined, queried and updated through SQL. Oracle, MySQL, PostgreSQL, SQL Server and Db2 are RDBMSs.",
+    "exp": "Codd published twelve rules, numbered 1 to 12, preceded by Rule 0 (the foundation rule), which a product must satisfy to be called genuinely relational. Rule 1 is the Information Rule: all information in a relational database is represented explicitly at the logical level in exactly one way, as values in tables. Rule 2 is the Guaranteed Access Rule: every atomic value is reachable by giving the table name, the primary key value and the column name. No commercial product satisfies all twelve.\n\nKeys. A super key is any set of attributes that uniquely identifies a row. A candidate key is a minimal super key. The primary key is the candidate key chosen to identify rows; it can neither be NULL nor repeat. A candidate key not chosen is an alternate key. A foreign key is an attribute referring to the primary key of another table, and it may be NULL. A composite key is made up of two or more columns.\n\nIntegrity constraints: entity integrity (no NULL in the primary key), referential integrity (a foreign key value must match an existing primary key value or be NULL) and domain integrity.\n\nNormalisation removes redundancy and update anomalies. 1NF requires every attribute value to be atomic, with no repeating groups. 2NF is 1NF with no partial dependency of a non-key attribute on part of a composite primary key. 3NF is 2NF with no transitive dependency. BCNF requires that for every functional dependency, the determinant is a super key. BCNF is stricter than 3NF, so every BCNF relation is in 3NF but not every 3NF relation is in BCNF.",
+    "facts": [
+      "Codd's Rule 1 is the Information Rule: all information is represented at the logical level in exactly one way, as values in tables.",
+      "A primary key cannot be NULL and cannot contain duplicates; a foreign key may be NULL.",
+      "A candidate key is a minimal super key; the primary key is the one candidate key chosen.",
+      "1NF requires all attribute values to be atomic, with no repeating groups.",
+      "BCNF is stricter than 3NF: every relation in BCNF is in 3NF, but not every relation in 3NF is in BCNF.",
+      "Entity integrity means no NULL in the primary key; referential integrity means a foreign key value must exist in the referenced table or be NULL."
+    ],
+    "traps": [
+      "3NF versus BCNF. BCNF is the stronger condition, so the true statement is that every BCNF relation is in 3NF, not the reverse. Read the direction of the implication in each option carefully, as options on this point are sometimes printed carelessly.",
+      "2NF removes partial dependency, 3NF removes transitive dependency. These two are constantly swapped in options.",
+      "Candidate key versus primary key. A table may have several candidate keys but only one primary key.",
+      "Codd's rules are twelve numbered rules plus Rule 0, which is why both twelve and thirteen appear in different question papers."
+    ],
+    "mnem": "",
+    "rel": [
+      "Data Models",
+      "Data Definition Language (DDL)",
+      "Tables"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "II",
+    "unitTitle": "Database Management System",
+    "sub": "Data Definition Language (DDL)",
+    "def": "DDL is the subset of SQL used to define and modify the structure of database objects such as tables, views, indexes and schemas, rather than the data inside them. Its commands are CREATE, ALTER, DROP, TRUNCATE and RENAME. DDL statements are auto-committed, so the structural change becomes permanent the moment the statement runs.",
+    "exp": "CREATE makes a new object: CREATE TABLE, CREATE VIEW, CREATE INDEX, CREATE DATABASE.\n\nALTER changes the structure of an existing object. ALTER TABLE is used to add a column, drop a column, modify a column's data type or size, and add or drop a constraint.\n\nDROP removes the object completely. The structure and the data both disappear and the object no longer exists in the data dictionary.\n\nTRUNCATE removes every row but keeps the empty table structure in place. It deallocates the storage rather than deleting row by row, so it is far faster than DELETE on a large table, it does not fire row-level triggers, and it cannot take a WHERE clause because it is all or nothing.\n\nRENAME changes the name of an existing object.\n\nConstraints are declared through DDL: PRIMARY KEY, FOREIGN KEY, UNIQUE, NOT NULL, CHECK and DEFAULT, either in the CREATE TABLE statement or added later with ALTER TABLE.\n\nWhat DDL actually writes is metadata, and that metadata lives in the system catalog or data dictionary. This is the clean way to remember the split across the four SQL sub-languages: DDL changes the description of the database, DML changes its contents, DCL changes who may touch it, and TCL decides whether the content changes stand.",
+    "facts": [
+      "DDL commands: CREATE, ALTER, DROP, TRUNCATE, RENAME.",
+      "DDL statements are auto-committed, so no explicit COMMIT is needed and an ordinary ROLLBACK will not undo them.",
+      "DROP removes both the structure and the data; TRUNCATE removes all rows but keeps the table structure.",
+      "TRUNCATE cannot take a WHERE clause; DELETE can.",
+      "Constraints such as PRIMARY KEY, FOREIGN KEY, UNIQUE, NOT NULL and CHECK are defined using DDL.",
+      "DDL updates the system catalog or data dictionary, which holds the database's metadata."
+    ],
+    "traps": [
+      "TRUNCATE is DDL, not DML. This is the single most common trap on this topic. DELETE is the DML command.",
+      "Because TRUNCATE is DDL and auto-commits, it normally cannot be rolled back, whereas a DELETE inside an open transaction can be.",
+      "DROP TABLE, TRUNCATE TABLE and DELETE FROM are three different things: destroy the object, empty it while keeping the structure, and remove selected rows.",
+      "ALTER changes a table's structure, UPDATE changes the data in it. ALTER is DDL, UPDATE is DML."
+    ],
+    "mnem": "DDL is the define-and-destroy set: CREATE, ALTER, DROP, TRUNCATE.",
+    "rel": [
+      "Data Manipulation Language (DML)",
+      "Relational Database Management System",
+      "Tables"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "II",
+    "unitTitle": "Database Management System",
+    "sub": "Data Manipulation Language (DML)",
+    "def": "DML is the subset of SQL used to work with the data held inside existing objects: retrieving rows, inserting new ones, changing values and removing rows. Its commands are SELECT, INSERT, UPDATE and DELETE. DML changes are not permanent until committed, which is why they can be undone with ROLLBACK.",
+    "exp": "SELECT retrieves rows. Its clauses are evaluated in a fixed logical order: FROM, then WHERE, then GROUP BY, then HAVING, then SELECT, then ORDER BY. WHERE filters individual rows before grouping; HAVING filters groups after aggregation, which is why an aggregate condition belongs in HAVING and not in WHERE. ORDER BY sorts, ascending by default, with DESC needed for descending. DISTINCT removes duplicate rows from the result.\n\nINSERT adds new rows, either with a VALUES list or by feeding in the result of a SELECT.\n\nUPDATE changes values in existing rows. An UPDATE with no WHERE clause changes every row in the table.\n\nDELETE removes rows. A DELETE with no WHERE clause empties the table but leaves the structure and can still be rolled back.\n\nAggregate functions used with SELECT are COUNT, SUM, AVG, MIN and MAX. COUNT with an asterisk counts all rows including those holding NULLs, while COUNT of a named column ignores rows where that column is NULL.\n\nJoins combine rows from more than one table: INNER JOIN returns only matching rows, LEFT, RIGHT and FULL OUTER JOIN keep unmatched rows from one or both sides, and CROSS JOIN produces the Cartesian product.\n\nSome textbooks pull SELECT out as a fifth sub-language, DQL. In the four-way split used by this syllabus, SELECT sits in DML.",
+    "facts": [
+      "DML commands: SELECT, INSERT, UPDATE, DELETE.",
+      "WHERE filters rows before grouping; HAVING filters after grouping and is where aggregate conditions go.",
+      "ORDER BY sorts in ascending order by default.",
+      "COUNT of all rows includes NULLs; COUNT of a named column excludes rows where that column is NULL.",
+      "DML changes are not permanent until COMMIT and can be undone with ROLLBACK.",
+      "A CROSS JOIN, or a join with no join condition, produces the Cartesian product of the two tables."
+    ],
+    "traps": [
+      "DELETE versus TRUNCATE. DELETE is DML, works row by row, accepts a WHERE clause and can be rolled back; TRUNCATE is DDL, removes all rows, accepts no WHERE clause and auto-commits.",
+      "UPDATE changes data, ALTER changes structure. UPDATE is DML, ALTER is DDL.",
+      "An aggregate function cannot appear in a WHERE clause; the condition has to move to HAVING.",
+      "If both DML and DQL appear as options for SELECT, read the stem. A question that names only four SQL sub-languages puts SELECT under DML."
+    ],
+    "mnem": "DML touches the rows; DDL touches the table itself.",
+    "rel": [
+      "Data Definition Language (DDL)",
+      "Transaction Control Language (TCL)",
+      "Tables"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "II",
+    "unitTitle": "Database Management System",
+    "sub": "Data Control Language (DCL)",
+    "def": "DCL is the subset of SQL that controls access rights to database objects. It has exactly two commands: GRANT, which gives a user or role a privilege, and REVOKE, which takes that privilege back. DCL is how a DBMS enforces authorisation, that is what a user is allowed to do, as opposed to authentication, which is proving who the user is.",
+    "exp": "GRANT gives named privileges such as SELECT, INSERT, UPDATE, DELETE, EXECUTE or ALL PRIVILEGES on a named object to a named user or role. REVOKE withdraws them again.\n\nAdding WITH GRANT OPTION lets the receiving user pass the same privilege on to other users. That creates a chain of grants, and revoking the original privilege can cascade, withdrawing the privileges that user granted onward.\n\nPrivileges come in two broad kinds. System privileges are the right to perform an action within the database generally, such as creating a table or a session. Object privileges are the right to act on one named table, view or stored procedure.\n\nRoles are how this is managed in practice. Rather than granting a long list of privileges to each user one at a time, the DBA creates a role, grants the privileges to the role, and then grants the role to users. Adding or removing a privilege for a whole class of staff then becomes one statement. This is role-based access control.\n\nViews are the standard partner to DCL. Instead of granting access to a base table, you create a view exposing only the permitted columns or rows and grant SELECT on the view. That is how partial access is normally given, for example letting a clerk see employee names but not salaries.",
+    "facts": [
+      "The DCL commands are GRANT and REVOKE.",
+      "GRANT gives privileges to a user or role; REVOKE withdraws them.",
+      "WITH GRANT OPTION allows the grantee to grant the same privilege to other users.",
+      "System privileges cover actions across the database; object privileges cover a specific table, view or procedure.",
+      "Granting privileges to a role and the role to users is the standard way to manage access for many users."
+    ],
+    "traps": [
+      "Authentication versus authorisation. Logging in with a password is authentication; GRANT and REVOKE control authorisation. DCL is authorisation only.",
+      "COMMIT and ROLLBACK are TCL, not DCL. Some older textbooks lump them under DCL, but in the four-way DDL, DML, DCL, TCL split they belong to TCL.",
+      "DCL has exactly two commands. An option that adds UPDATE, COMMIT or CREATE to the GRANT and REVOKE pair is wrong.",
+      "REVOKE withdraws a privilege; it does not delete the user account or anything the user created."
+    ],
+    "mnem": "",
+    "rel": [
+      "Transaction Control Language (TCL)",
+      "Data Definition Language (DDL)",
+      "Authorization"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "II",
+    "unitTitle": "Database Management System",
+    "sub": "Transaction Control Language (TCL)",
+    "def": "TCL is the subset of SQL that manages transactions, using the commands COMMIT, ROLLBACK and SAVEPOINT, with SET TRANSACTION included in some listings. A transaction is a logical unit of work made up of one or more DML statements which must either all take effect or none of them.",
+    "exp": "COMMIT makes every change since the last commit permanent and releases the locks held. Once committed, a change cannot be undone by ROLLBACK.\n\nROLLBACK undoes all changes made since the last COMMIT, returning the database to its previous consistent state.\n\nSAVEPOINT marks an intermediate point inside a transaction so that a partial rollback is possible. Rolling back to a named savepoint undoes work only as far back as that mark, leaving earlier work in the transaction intact, and it does not end the transaction.\n\nSET TRANSACTION sets properties of the current transaction, such as making it read-only or setting its isolation level.\n\nTransactions must satisfy the ACID properties. Atomicity: all or nothing. Consistency: the database moves from one valid state to another, with all constraints still satisfied. Isolation: concurrent transactions do not see each other's intermediate results. Durability: once committed, the changes survive a system failure.\n\nThe standard example is a funds transfer between two accounts, which is one transaction containing a debit and a credit. If the system fails between the two, atomicity requires the debit to be undone; durability requires that a transfer already committed is still there after restart. Recovery uses the transaction log to redo committed work and undo uncommitted work.\n\nNote the interaction with DDL: a DDL statement issues an implicit commit and so closes the open transaction, which is why a TRUNCATE, DROP or CREATE run mid-transaction normally cannot be reversed by a later ROLLBACK.",
+    "facts": [
+      "TCL commands: COMMIT, ROLLBACK and SAVEPOINT, with SET TRANSACTION in fuller listings.",
+      "ACID stands for Atomicity, Consistency, Isolation, Durability.",
+      "SAVEPOINT allows a partial rollback within a transaction; ROLLBACK on its own undoes the whole transaction.",
+      "After COMMIT the changes are permanent and cannot be reversed by ROLLBACK.",
+      "Durability is delivered through the transaction log, which is used to redo committed and undo uncommitted transactions after a failure.",
+      "A transaction is a logical unit of work that must execute entirely or not at all."
+    ],
+    "traps": [
+      "COMMIT, ROLLBACK and SAVEPOINT are TCL, not DCL. GRANT and REVOKE are the DCL pair.",
+      "A DDL statement carries an implicit commit, so a DELETE can be rolled back but a TRUNCATE normally cannot.",
+      "Atomicity versus Consistency. Atomicity is all or nothing; consistency is that the database is left in a valid state satisfying every constraint.",
+      "Rolling back to a savepoint does not end the transaction. It only undoes work back to that mark, and you still have to COMMIT or ROLLBACK afterwards."
+    ],
+    "mnem": "ACID: Atomicity, Consistency, Isolation, Durability.",
+    "rel": [
+      "Transactions",
+      "Concurrency Control",
+      "Data Manipulation Language (DML)"
+    ]
+  }
+]

@@ -1,0 +1,288 @@
+[
+  {
+    "sub": "IT Service Management (ITSM)",
+    "q": "What is the main purpose of a service desk in IT Service Management?",
+    "opts": {
+      "A": "To design the physical layout of the server room",
+      "B": "To write the source code of the organisation's business applications",
+      "C": "To act as the single point of contact between users and the IT organisation",
+      "D": "To negotiate hardware purchase prices with vendors"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "A service desk exists so that users have one known place to report faults, raise requests and get status updates, and so that all such contacts are logged and tracked. Negotiating with vendors is procurement work, not the service desk's function."
+  },
+  {
+    "sub": "IT Service Management (ITSM)",
+    "q": "IT Service Management (ITSM) is best described as",
+    "opts": {
+      "A": "managing IT end to end as a set of services delivered to meet the needs of the business",
+      "B": "installing and configuring operating systems on user desktops",
+      "C": "writing the technical manuals that accompany IT equipment",
+      "D": "monitoring only the network hardware of an organisation"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "ITSM takes a service view of IT: what the organisation receives is a service with an agreed quality, and the technology, people and processes behind it are managed to deliver that service. Installing desktop operating systems is one technical activity inside ITSM, not a definition of it."
+  },
+  {
+    "sub": "ITIL Fundamentals",
+    "q": "In ITIL practice, what distinguishes a problem from an incident?",
+    "opts": {
+      "A": "A problem is reported by a user, while an incident is detected only by monitoring tools",
+      "B": "An incident is a single disruption of service that must be restored, while a problem is the underlying cause that must be eliminated",
+      "C": "A problem always affects only one user, while an incident affects many users",
+      "D": "An incident must be recorded in writing, while a problem is handled verbally"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Incident handling aims at restoring normal service as quickly as possible, even by a temporary workaround, whereas problem handling investigates why the incidents keep happening and removes the cause. Both incidents and problems may be raised by users or by monitoring, so the source is not the distinction."
+  },
+  {
+    "sub": "ITIL Fundamentals",
+    "q": "Within ITIL, the main purpose of change management is to",
+    "opts": {
+      "A": "restore normal service as quickly as possible after an outage",
+      "B": "maintain a record of every hardware item owned by the organisation",
+      "C": "measure how satisfied users are with the service desk",
+      "D": "ensure that changes to IT services are assessed, authorised and implemented in a controlled way"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Change management exists to reduce the risk that a modification to a live service causes an unplanned outage, by requiring assessment, authorisation, scheduling and a fallback plan. Restoring service quickly after an outage is incident management, a separate practice."
+  },
+  {
+    "sub": "IT Asset Management",
+    "q": "IT Asset Management is primarily concerned with",
+    "opts": {
+      "A": "tracking and managing IT assets through their whole lifecycle, from acquisition through use to disposal",
+      "B": "writing user manuals for newly purchased equipment",
+      "C": "encrypting the data stored on organisational servers",
+      "D": "training staff to use office productivity software"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "IT Asset Management covers the full lifecycle of hardware and software assets: planning and purchase, deployment, maintenance, and secure disposal or write-off. Encrypting stored data is an information security control and is not what asset management is for."
+  },
+  {
+    "sub": "IT Asset Management",
+    "q": "Which of the following is the strongest reason for an office to maintain an up-to-date IT asset register?",
+    "opts": {
+      "A": "It removes the need to install antivirus software on the machines listed",
+      "B": "It guarantees that the listed hardware will not fail",
+      "C": "It records what equipment the office owns, where each item is and who is accountable for it",
+      "D": "It increases the speed of the office network"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "An asset register answers what, where and whose, which is what makes maintenance, audit, insurance and eventual disposal possible. Recording a machine in a register does nothing to protect it from malware or from hardware failure."
+  },
+  {
+    "sub": "Software Asset Management",
+    "q": "Software Asset Management is chiefly concerned with",
+    "opts": {
+      "A": "designing the user interface of software developed in house",
+      "B": "managing software licences and entitlements so that actual use stays within what has been purchased",
+      "C": "physically labelling desktop computers with inventory numbers",
+      "D": "repairing faulty printers and scanners"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Software Asset Management is the licensing and compliance side of asset management: knowing what is installed, what has been bought, and whether the two agree. Attaching inventory labels to hardware belongs to physical IT asset management."
+  },
+  {
+    "sub": "Software Asset Management",
+    "q": "An office has purchased 40 licences of a software package but has installed it on 55 computers. This situation is best described as",
+    "opts": {
+      "A": "over-licensing, in which money has been wasted on unused licences",
+      "B": "a backup failure",
+      "C": "a document version control problem",
+      "D": "under-licensing, a compliance breach that can expose the office to penalties on audit"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Installations exceed entitlements, so 15 copies are being used without a licence, which is exactly what a vendor or departmental audit penalises. Over-licensing is the opposite failure, where far more licences are bought than are ever installed, and it wastes money rather than creating legal exposure."
+  },
+  {
+    "sub": "Business Continuity Planning",
+    "q": "The main aim of Business Continuity Planning is to",
+    "opts": {
+      "A": "ensure that the organisation's essential functions can continue during and after a serious disruption",
+      "B": "replace all IT equipment on a fixed five-year cycle",
+      "C": "recover files that a user has accidentally deleted",
+      "D": "reduce the cost of purchasing new software licences"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Business continuity planning identifies the functions the organisation cannot stop performing and arranges alternative staff, premises, suppliers and procedures to keep them going. Recovering an individual deleted file is routine support work, not the subject of a continuity plan."
+  },
+  {
+    "sub": "Business Continuity Planning",
+    "q": "How does Business Continuity Planning differ from Disaster Recovery Planning?",
+    "opts": {
+      "A": "Business continuity applies only to natural disasters, while disaster recovery applies only to cyber attacks",
+      "B": "Business continuity covers keeping the organisation's overall functions running, while disaster recovery focuses on restoring IT systems and data",
+      "C": "Business continuity is prepared only after an incident, while disaster recovery is prepared before it",
+      "D": "Business continuity is the vendor's responsibility, while disaster recovery is the customer's"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Business continuity is the wider organisational discipline, covering people, premises, processes and suppliers, and disaster recovery is the IT-focused part of it that restores systems, applications and data. Both are prepared in advance, and both apply to any cause of disruption, whether natural, technical or malicious."
+  },
+  {
+    "sub": "Disaster Recovery Planning",
+    "q": "In a disaster recovery plan, the Recovery Time Objective (RTO) specifies",
+    "opts": {
+      "A": "the amount of data, measured as a period of work, that the organisation can afford to lose",
+      "B": "the number of backup copies that must be kept at an off-site location",
+      "C": "the maximum acceptable time for which a service may remain unavailable before it is restored",
+      "D": "the total cost of rebuilding the data centre after a disaster"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "RTO is a downtime target: it states how long the organisation can function without the service before the consequences become unacceptable, and it drives the choice of standby arrangements. The amount of tolerable data loss is the Recovery Point Objective, a separate measure."
+  },
+  {
+    "sub": "Disaster Recovery Planning",
+    "q": "An office states that if its server fails it can afford to lose at most one hour of data. This statement defines the office's",
+    "opts": {
+      "A": "Recovery Time Objective",
+      "B": "Mean Time Between Failures",
+      "C": "Service Level Agreement uptime percentage",
+      "D": "Recovery Point Objective"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "The Recovery Point Objective is the maximum tolerable data loss expressed as a period of time, and it determines how frequently backups or replication must run, here at least hourly. The Recovery Time Objective would instead state how long the office can remain without the server."
+  },
+  {
+    "sub": "IT Procurement",
+    "q": "GeM, widely used by government departments in India, is",
+    "opts": {
+      "A": "an online marketplace portal through which government buyers procure goods and services",
+      "B": "a software licence audit tool supplied to state departments",
+      "C": "a national register of serving government employees",
+      "D": "a standard format for writing technical specifications"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "The Government e-Marketplace is an online platform where registered sellers list goods and services and government buyers place orders, with the aim of making public purchasing faster and more transparent. It is a buying platform, not an audit tool or a personnel database."
+  },
+  {
+    "sub": "IT Procurement",
+    "q": "In a two-bid tender for IT equipment, a bidder's financial bid is normally opened only when",
+    "opts": {
+      "A": "the bidder has supplied to the same department before",
+      "B": "the bidder's technical bid has been evaluated and found to meet the required specifications",
+      "C": "the bidder quoted the lowest price in an earlier tender",
+      "D": "the bidder submits a bank guarantee after the closing date"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "The two-bid system keeps price hidden until technical suitability has been judged, so that the evaluation of specifications cannot be influenced by the quoted amount. Past supply to the department is not by itself a ground for opening the financial bid."
+  },
+  {
+    "sub": "Documentation Standards",
+    "q": "Why should official IT documents carry a version number and a date?",
+    "opts": {
+      "A": "It reduces the file size of the document",
+      "B": "It prevents the document from being printed",
+      "C": "It makes clear which revision is current, so that readers do not act on a superseded copy",
+      "D": "It encrypts the contents of the document automatically"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Versioning and dating let anyone holding a copy tell whether it is the latest one, which matters when procedures, configurations or contact details change. Version information has no effect on file size, printing or security."
+  },
+  {
+    "sub": "Documentation Standards",
+    "q": "What is the main benefit of following an organisation-wide documentation standard?",
+    "opts": {
+      "A": "Documents can be produced faster because no review is required",
+      "B": "Documents automatically become legally binding contracts",
+      "C": "Documents no longer need to be retained once a project ends",
+      "D": "Documents share a consistent structure and style, so any reader can locate information quickly"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "A documentation standard fixes the expected sections, headings, terminology and layout, so a reader who knows the standard can find the needed information in any document without relearning its arrangement. Standards do not remove the need for review or for retaining records."
+  },
+  {
+    "sub": "Project Management Fundamentals",
+    "q": "The 'triple constraint' commonly referred to in project management is the balance between",
+    "opts": {
+      "A": "scope, time and cost",
+      "B": "people, process and technology",
+      "C": "risk, reward and reputation",
+      "D": "hardware, software and network"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Scope, time and cost are interlinked, so enlarging the scope of a project normally forces either the schedule or the budget to grow, and quality suffers if neither is allowed to move. People, process and technology is a general management triad, not the project constraint model."
+  },
+  {
+    "sub": "Project Management Fundamentals",
+    "q": "Which statement best distinguishes a project from routine operations?",
+    "opts": {
+      "A": "A project involves computers, while operations do not",
+      "B": "A project is a temporary effort with a defined start, end and deliverable, while operations are ongoing and repetitive",
+      "C": "A project is always carried out by an external vendor",
+      "D": "A project has no budget limit, while operations always do"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "A project is temporary and produces a unique result, such as rolling out a new office network, after which it closes; operations are the continuing day-to-day running of that network. Projects may be executed in house and are certainly bound by a budget."
+  },
+  {
+    "sub": "Technical Report Writing",
+    "q": "In a technical report, the executive summary is intended to",
+    "opts": {
+      "A": "list every source consulted while preparing the report",
+      "B": "present the detailed calculations that support the findings",
+      "C": "give the reader a short overview of the purpose, main findings and recommendations",
+      "D": "record the names of everyone who worked on the report"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "An executive summary is written for a senior reader who may not read the whole report, so it condenses why the work was done, what was found and what is recommended. Detailed calculations belong in the body or the appendices, and sources belong in the references."
+  },
+  {
+    "sub": "Technical Report Writing",
+    "q": "Detailed data tables, raw survey forms and long configuration listings that support a technical report are best placed",
+    "opts": {
+      "A": "in the introduction",
+      "B": "inside the executive summary",
+      "C": "in the covering letter",
+      "D": "in an appendix at the end of the report"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Supporting material is put in an appendix so that the main text stays readable while the evidence remains available to anyone who wants to check it. Placing bulk data in the executive summary defeats its purpose of being brief."
+  },
+  {
+    "sub": "Email Etiquette",
+    "q": "In official email, the Bcc field should be used when",
+    "opts": {
+      "A": "the addresses of some recipients must be kept hidden from the other recipients",
+      "B": "the message needs to reach the recipient more quickly",
+      "C": "the message must be marked as high priority",
+      "D": "the sender wants a delivery receipt for the message"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Recipients placed in Bcc receive the message but their addresses are not shown to anyone else, which is why it is used for large circulars where addresses should not be disclosed. Bcc has no bearing on delivery speed, priority marking or receipts."
+  },
+  {
+    "sub": "Email Etiquette",
+    "q": "Why should an official government email be drafted as carefully as a formal letter?",
+    "opts": {
+      "A": "Because an email cannot be deleted once it has been sent",
+      "B": "Because official email is an official record and may later be produced in an audit or an inquiry",
+      "C": "Because email is automatically published on the department's website",
+      "D": "Because email software refuses to send informal language"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Official correspondence sent by email forms part of the office record and can be called for during audit, inspection or an information request, so its tone, accuracy and completeness matter. Email is certainly deletable and is not published automatically anywhere."
+  }
+]

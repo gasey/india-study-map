@@ -1,0 +1,248 @@
+[
+  {
+    "paper": "TECH1",
+    "unit": "IV",
+    "unitTitle": "Electronic Spreadsheet",
+    "sub": "Pivot Charts",
+    "def": "A pivot chart is a chart built on a pivot table rather than on a plain range. It plots the summarised figures, and it stays tied to the pivot table underneath, so filtering or rearranging one changes the other immediately.",
+    "exp": "Create it from Insert, PivotChart, either on an existing pivot table or on the source list, in which case Excel builds both together. The pivot table's Rows field becomes the chart's category axis, the Values field becomes the plotted series, and a field in Columns splits the data into multiple series.\n\nThe link runs both ways. Drag a field into a different area of the pivot table and the chart redraws. Use the field buttons on the chart itself, or a slicer, and the pivot table filters to match. This is why a pivot chart is the natural building block of a management dashboard - one slicer can drive several pivot charts at once when they share the same source.\n\nThe ordinary chart types are all available: column and bar for comparing categories, line for a trend over time, pie for the share of a single total, area, scatter, and combination charts that put two series on different axes. Choose by what is being shown - pie only for parts of one whole, line only where the horizontal axis is genuinely sequential.\n\nTwo practical points. A pivot chart carries the same refresh dependency as its pivot table: change the source data and neither updates until the pivot table is refreshed. And a pivot chart cannot be a scatter, bubble or stock chart, because those need paired raw values rather than a summarised category and a total. If a scatter is wanted, chart the underlying data directly instead.",
+    "facts": [
+      "A pivot chart is always tied to a pivot table; filtering or rearranging either one updates the other",
+      "The pivot table's Rows field becomes the chart's category axis and its Values field becomes the plotted series",
+      "Column, bar, line, pie, area and combination charts can all be used as pivot charts",
+      "A pivot chart cannot be created as a scatter, bubble or stock chart",
+      "Changing the source data leaves the pivot chart showing old figures until the pivot table is refreshed"
+    ],
+    "traps": [
+      "A pivot chart is not an ordinary chart. An ordinary chart plots whatever cells it points at; a pivot chart plots a pivot table's summary and moves with it",
+      "Filtering the chart filters the pivot table too - the two cannot be filtered independently while they are linked",
+      "Deleting the pivot table destroys the pivot chart, or leaves it as a static picture of the last state; deleting the chart leaves the pivot table intact",
+      "Pie charts are for the parts of one total. Using a pie for several unrelated series is a standard wrong answer in chart-selection questions"
+    ],
+    "mnem": "",
+    "rel": [
+      "Pivot Tables",
+      "Dashboards"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "IV",
+    "unitTitle": "Electronic Spreadsheet",
+    "sub": "Dashboards",
+    "def": "A dashboard is a single screen that presents the key figures of an activity together - charts, summary tables and headline numbers - so that the position can be read at a glance without opening the underlying data. In Excel it is built out of ordinary features: pivot tables, pivot charts, slicers and formulas, arranged on one worksheet.",
+    "exp": "It is a layout, not a separate Excel object. There is no Insert Dashboard command. The usual structure separates three layers into different sheets: a data sheet holding the raw records or the query output, a calculation layer of pivot tables and formulas, and the dashboard sheet itself, which shows only the results. Keeping them apart means the presentation can be rearranged without disturbing the calculations.\n\nSlicers and timelines are what make it interactive. A slicer is a panel of clickable buttons that filters a pivot table or table; a timeline does the same for dates. Connect one slicer to several pivot tables through Report Connections and a single click on a district name refilters every chart on the screen together. That is the behaviour a dashboard question is usually testing.\n\nOther common components are conditional formatting to flag values outside a limit, sparklines - miniature charts inside a single cell showing a trend - and formula-driven headline figures for totals, percentages achieved and variance against target.\n\nDesign discipline matters as much as the mechanics. Show a small number of measures that someone can act on, fit them on one screen without scrolling, label units and the period covered, and state when the data was last refreshed. A dashboard is only as current as its last refresh, and an unlabelled out-of-date dashboard is worse than no dashboard, because it is believed.",
+    "facts": [
+      "A dashboard in Excel is an arrangement of existing features on one sheet, not a distinct object type - there is no single command that creates one",
+      "A slicer is a set of clickable buttons that filters a pivot table or an Excel table visually",
+      "One slicer can be connected to several pivot tables through Report Connections, so one click refilters all of them",
+      "A timeline is the date-specific equivalent of a slicer",
+      "Sparklines are miniature charts drawn inside a single cell to show a trend",
+      "Good practice separates the data sheet, the calculation layer and the dashboard sheet"
+    ],
+    "traps": [
+      "A slicer filters; it does not calculate. The figures still come from the pivot tables and formulas behind it",
+      "A dashboard shows only as much as its last refresh. Nothing on it updates by itself when the source records change",
+      "A dashboard is not a report. A report is a printed or fixed document; a dashboard is a live, filterable summary screen",
+      "Slicers only drive pivot tables or charts they have been explicitly connected to - adding a second pivot table does not automatically bring it under an existing slicer"
+    ],
+    "mnem": "",
+    "rel": [
+      "Pivot Tables",
+      "Pivot Charts",
+      "Conditional Formatting"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "IV",
+    "unitTitle": "Electronic Spreadsheet",
+    "sub": "What-if Analysis",
+    "def": "What-if analysis is the group of Excel tools that work a model backwards or sideways - changing input values to see what happens to a result, or fixing a result and finding the input needed to reach it. On the Data tab, the What-If Analysis button offers three tools: Scenario Manager, Goal Seek and Data Table.",
+    "exp": "All three assume you already have a working model: input cells feeding formula cells. What-if analysis does not build the model, it exercises it.\n\nScenario Manager stores named sets of input values for the same cells - a best case, a worst case, an expected case - and switches between them, putting each set into the sheet on demand. It handles up to several changing cells at once and can produce a summary report comparing every scenario side by side. Use it when the question is what happens under different assumptions.\n\nGoal Seek runs the other way. Set the result you want in a formula cell and name one input cell, and Excel adjusts that input until the formula reaches the target. One target, one input.\n\nA Data Table lays out the results of a formula across a grid of input values so the effect can be read off directly. A one-variable data table varies a single input down a column or across a row; a two-variable data table varies two inputs at once, one down the side and one along the top, with the formula in the corner. It shows the whole range of outcomes rather than one answer.\n\nSolver is the separate add-in for genuine optimisation - many changing cells, an objective to maximise or minimise, and constraints. It is not one of the three built-in what-if tools and must be enabled as an add-in.",
+    "facts": [
+      "The three what-if analysis tools on the Data tab are Scenario Manager, Goal Seek and Data Table",
+      "Scenario Manager stores named sets of values for several input cells and can produce a comparison summary",
+      "Goal Seek adjusts one input cell to make one formula cell reach a stated target value",
+      "A one-variable data table varies one input; a two-variable data table varies two inputs, with the formula placed in the corner cell",
+      "Solver is a separate add-in for optimisation with multiple variables and constraints, not one of the three what-if tools"
+    ],
+    "traps": [
+      "Solver is not listed under What-If Analysis. Questions asking for the three what-if tools want Scenario Manager, Goal Seek and Data Table",
+      "Scenario Manager changes several inputs at once but shows results one scenario at a time; a data table shows many results simultaneously",
+      "What-if tools need a formula linking input to result. Typing numbers with no formula between them gives them nothing to work on",
+      "A data table returns results as an array and its cells cannot be edited or deleted individually - the whole table must be cleared"
+    ],
+    "mnem": "Three tools: Scenario, Goal Seek, Data Table.",
+    "rel": [
+      "Goal Seek",
+      "Financial Functions",
+      "Formulae and Functions"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "IV",
+    "unitTitle": "Electronic Spreadsheet",
+    "sub": "Goal Seek",
+    "def": "Goal Seek works a formula backwards. You state the answer you want from a formula cell and name one input cell that Excel may change, and it adjusts that input by repeated trial until the formula returns the target. It is on the Data tab under What-If Analysis.",
+    "exp": "The dialog has exactly three boxes. Set cell must contain a formula - this is the cell whose result you are fixing. To value is the target result, typed in as a plain number, not a cell reference. By changing cell must be an input cell holding a value, not a formula, and the Set cell's formula must depend on it directly or through other formulas.\n\nThe typical office use is a loan: a repayment model computes the monthly instalment from principal, rate and tenure. The instalment cannot exceed a fixed figure, so set the instalment cell to that figure and let Goal Seek change the principal. It reports the loan amount that fits. The same pattern gives the marks needed in a last paper to reach a required aggregate, or the sales figure needed to break even.\n\nExcel solves it by iteration, converging on a value, so the answer may be very slightly off the exact target on awkward models. Clicking OK writes the found value permanently into the input cell; Cancel restores the original.\n\nThe examinable limit is that Goal Seek handles one changing cell and one target only. It cannot adjust two inputs together, cannot honour constraints such as keeping a value whole or non-negative, and cannot maximise or minimise anything. Solver, a separate add-in, does all of those: multiple changing cells, an objective to maximise, minimise or set to a value, and constraints.",
+    "facts": [
+      "Goal Seek is reached from the Data tab, What-If Analysis, Goal Seek",
+      "Its three inputs are Set cell, To value and By changing cell",
+      "The Set cell must contain a formula; the By changing cell must contain a value, not a formula",
+      "The target in To value is typed as a number, not entered as a cell reference",
+      "Goal Seek reaches its answer by iteration, so the result may differ very slightly from the exact target",
+      "Goal Seek changes exactly one input cell and cannot apply constraints"
+    ],
+    "traps": [
+      "Goal Seek is single-variable. Solver is the tool for several changing cells, constraints, and maximising or minimising an objective - this is the standard comparison question",
+      "The Set cell and the By changing cell cannot be swapped. Putting the formula in the changing cell gives an error",
+      "Accepting the result overwrites the input cell permanently; it is not a preview that reverts by itself",
+      "Goal Seek finds an input for a target, it does not test different assumptions. Comparing best and worst cases is Scenario Manager's job"
+    ],
+    "mnem": "Set cell holds the formula, changing cell holds the value.",
+    "rel": [
+      "What-if Analysis",
+      "Financial Functions"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "IV",
+    "unitTitle": "Electronic Spreadsheet",
+    "sub": "Power Query (Introduction)",
+    "def": "Power Query is Excel's get-and-transform tool. It connects to a data source, applies a recorded sequence of cleaning and reshaping steps, and loads the tidied result into the workbook. The steps are saved with the query, so the next time the source changes you press Refresh and the entire cleaning runs again by itself.",
+    "exp": "It is reached from the Data tab, under Get Data or Get and Transform Data. Sources include Excel workbooks, CSV and text files, a whole folder of files with the same layout, databases, and web pages and online services.\n\nWork is done in the Power Query Editor, a separate window. There you remove blank or unwanted rows, delete or rename columns, split a column into two, change data types, trim stray spaces, replace values, unpivot a cross-tab back into a proper list, filter rows, group and total, and merge or append queries. Merge joins two tables on a matching column; append stacks tables with the same columns one under the other.\n\nEvery action is recorded as a named step in the Applied Steps list on the right. That list is the query - it can be reordered, edited or deleted, and it is what replays on refresh. This is the whole point. Manual cleaning has to be redone for every new file; a query is built once and rerun in one click on next month's file.\n\nLoading puts the result into a worksheet as a table, or into the data model, or keeps it as a connection only. Power Query does not alter the source file; it reads it and produces a cleaned copy.\n\nThe division of labour worth remembering: Power Query gets and cleans the data, Power Pivot models and analyses it.",
+    "facts": [
+      "Power Query is reached from the Data tab under Get Data or Get and Transform Data, and its work is done in the Power Query Editor window",
+      "Every transformation is recorded as a step in the Applied Steps list, and those steps replay automatically when the query is refreshed",
+      "It can combine files from an entire folder, merge two queries on a matching column, or append queries with the same columns",
+      "Loading options are to a worksheet table, to the data model, or as connection only",
+      "Power Query does not change the original source file - it reads the source and produces a transformed result",
+      "Power Query gets and cleans data; Power Pivot models and analyses it"
+    ],
+    "traps": [
+      "Refreshing a query re-runs the recorded steps against the current source. It does not repeat the old output, and it does not need the cleaning to be done by hand again",
+      "Editing the loaded output table by hand is pointless - the next refresh overwrites it. Corrections belong in the query steps or in the source",
+      "Power Query is not the same as a formula. Formulas recalculate live; a query only re-runs when refreshed",
+      "Removing a column in Power Query removes it from the loaded result, not from the source file"
+    ],
+    "mnem": "Query gets and cleans, Pivot models and calculates.",
+    "rel": [
+      "Power Pivot (Overview)",
+      "Pivot Tables",
+      "Sorting and Filtering"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "IV",
+    "unitTitle": "Electronic Spreadsheet",
+    "sub": "Power Pivot (Overview)",
+    "def": "Power Pivot is Excel's data modelling engine. Instead of forcing everything into one flat worksheet, it holds several tables in an in-memory data model, lets you define relationships between them, and lets pivot tables and charts report across all of them at once. Calculations in the model are written in a formula language called DAX.",
+    "exp": "The problem it solves is the flat-table problem. Ordinary Excel analysis needs every field in one sheet, so a transaction list has to be padded out with VLOOKUP columns pulling in the district name, the scheme name and the department for every row. Power Pivot instead keeps the transaction table and the small reference tables separately and joins them by a relationship on the shared key column, exactly as a database does. One table is on the many side, the reference table on the one side, and a pivot table can then use fields from any of them together.\n\nThe model also handles far more rows than a worksheet can display, because the data is held in a compressed in-memory store rather than in cells. Diagram View shows the tables and the relationship lines between them, and is where relationships are created or edited.\n\nDAX, Data Analysis Expressions, is the language for calculated columns, which add a value to every row of a table, and for measures, which are aggregations evaluated in the context of whatever the pivot table is currently showing. Measures are the more powerful of the two.\n\nAt this level know the division of labour and leave the syntax alone. Power Query gets and transforms the data; Power Pivot relates and calculates over it; the pivot table and chart present the result.",
+    "facts": [
+      "Power Pivot holds multiple tables in an in-memory data model and lets relationships be defined between them",
+      "The formula language used for calculated columns and measures in Power Pivot is DAX, Data Analysis Expressions",
+      "A relationship joins two tables on a shared key column, removing the need for lookup columns to flatten the data",
+      "Diagram View displays the model's tables and the relationship lines between them",
+      "A calculated column adds a value to every row; a measure is an aggregation evaluated in the context of the current pivot table view",
+      "Power Query gets and transforms data, Power Pivot models and calculates over it"
+    ],
+    "traps": [
+      "DAX is not the same as ordinary Excel formulas. Some function names look alike, but DAX works over whole tables and columns, not over cell addresses",
+      "Power Pivot is not a bigger pivot table. It is the data model beneath one, which any number of pivot tables can then report from",
+      "Power Query and Power Pivot are commonly swapped in options. Cleaning and reshaping is Power Query; relationships and DAX are Power Pivot",
+      "A calculated column is stored row by row in the model; a measure is worked out at the moment the pivot table is viewed and changes with the filters applied"
+    ],
+    "mnem": "",
+    "rel": [
+      "Power Query (Introduction)",
+      "Pivot Tables",
+      "Lookup Functions"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "IV",
+    "unitTitle": "Electronic Spreadsheet",
+    "sub": "Macros (Introduction)",
+    "def": "A macro is a stored sequence of actions that Excel can replay on command, so a repetitive job is done in one keystroke instead of twenty. Macros are usually created with the macro recorder, which watches what you do and writes the equivalent code, and that code is in VBA, Visual Basic for Applications.",
+    "exp": "Recording is on the Developer tab, or from the status bar. Give the macro a name with no spaces, optionally a shortcut key, and choose where to store it - this workbook, or the Personal Macro Workbook if the macro should be available in every workbook you open. Then perform the steps and stop recording. Run it afterwards from the Macros dialog, the shortcut key, or a button placed on the sheet.\n\nThe recorded code can be opened and edited in the Visual Basic Editor. Recording is enough for fixed sequences of formatting and layout; anything with a condition or a loop has to be written or amended by hand.\n\nOne recording habit matters. By default the recorder writes absolute cell addresses, so the macro always acts on the same cells regardless of where the cursor is. Use Relative References while recording and it acts relative to the selected cell instead, which is what you want for a macro to be applied wherever the cursor happens to be.\n\nFile format is the exam point. The ordinary .xlsx format cannot store macros - save a workbook containing macros as .xlsx and the code is stripped out, with a warning. Macro-enabled workbooks use the .xlsm extension.\n\nSecurity is the other. VBA can create, alter and delete files, so macros are a genuine malware route. Excel therefore disables macros in files from e-mail or the internet and shows a warning bar. Enable them only in a file whose origin you trust.",
+    "facts": [
+      "A macro records a sequence of actions for replay; the underlying language is VBA, Visual Basic for Applications",
+      "Recording and the Visual Basic Editor are on the Developer tab, which may have to be switched on in the ribbon options",
+      "A workbook containing macros must be saved in the macro-enabled .xlsm format; the ordinary .xlsx format cannot hold macros",
+      "Storing a macro in the Personal Macro Workbook makes it available in every workbook opened on that computer",
+      "The recorder writes absolute cell references unless Use Relative References is switched on before recording",
+      "Excel disables macros by default in workbooks received by e-mail or downloaded, and shows a security warning bar"
+    ],
+    "traps": [
+      "Saving a macro-containing workbook as .xlsx does not raise an error and does not stop the save - it silently discards the macro code after a warning",
+      "Macros are disabled by default for security, not because the file is damaged. Enabling content on a file from an unknown sender is a real infection risk",
+      "The macro recorder cannot record decisions or loops. Anything conditional has to be written in the Visual Basic Editor",
+      "A macro recorded with absolute references always works on the cells that were used during recording, whatever is selected when it is run"
+    ],
+    "mnem": "The m in .xlsm is the macro.",
+    "rel": [
+      "Workbook Management",
+      "Microsoft 365 Collaboration"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "IV",
+    "unitTitle": "Electronic Spreadsheet",
+    "sub": "Microsoft 365 Collaboration",
+    "def": "Microsoft 365 collaboration on a workbook means the file is stored on OneDrive or a SharePoint or Teams site rather than on one officer's machine, so several people can open and edit the same workbook at the same time and see each other's changes as they are made. That live shared editing is called co-authoring.",
+    "exp": "The cloud location is the requirement. A workbook saved on a local drive or a shared network folder cannot be co-authored; it opens read-only for the second person, or produces conflicting copies. Move it to OneDrive or a Teams or SharePoint library and use Share to give named colleagues edit or view-only access, or a link. AutoSave then switches on and writes changes continuously.\n\nWhile co-authoring, each person's cursor appears in a distinct colour with their name against it, and edits show up in the others' windows within moments. Comments are threaded, so a query can be replied to and then resolved, and typing an at sign followed by a colleague's name mentions them and sends a notification.\n\nVersion History is the safety net that gets examined. Because AutoSave writes continuously there is no unsaved copy to fall back on, so a wrong change noticed the next day is recovered by opening File, Info, Version History, viewing an earlier version and restoring it. Undo will not reach that far.\n\nControls worth knowing: sharing links can be set to view-only, given an expiry, or restricted to people inside the organisation, and a sheet or range can be protected so only some cells are editable. For official Mizoram government data, share within the department tenancy rather than by an open link, and check what a link grants before sending it.\n\nCo-authoring is limited on macro-enabled workbooks and on files using older features.",
+    "facts": [
+      "Co-authoring requires the workbook to be stored on OneDrive, SharePoint or Teams; a file on a local or network drive cannot be co-authored",
+      "Each co-author's cursor is shown in a different colour with their name, and edits appear to the others within moments",
+      "AutoSave saves changes continuously when the file is in a cloud location",
+      "Version History, under File and Info, allows an earlier version to be viewed and restored",
+      "Threaded comments can be replied to and resolved, and an at-mention notifies the named colleague",
+      "Sharing links can be restricted to view-only, to people inside the organisation, or given an expiry date"
+    ],
+    "traps": [
+      "E-mailing a copy of a workbook is not collaboration. It creates separate copies that then have to be merged by hand; co-authoring keeps one file",
+      "With AutoSave on there is no unsaved draft to discard. Reverting a bad change means Version History, not closing without saving",
+      "Undo is limited to the current session and to your own edits; it will not recover a change noticed a day later",
+      "Sharing a workbook by link is not the same as giving edit rights - permission on the link decides whether the recipient can change anything"
+    ],
+    "mnem": "",
+    "rel": [
+      "Workbook Management",
+      "AI-assisted Spreadsheet Analysis",
+      "Macros (Introduction)"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "IV",
+    "unitTitle": "Electronic Spreadsheet",
+    "sub": "AI-assisted Spreadsheet Analysis",
+    "def": "AI-assisted spreadsheet analysis is the use of a built-in assistant that takes an instruction in ordinary language and responds with an analysis of the data on the sheet - summarising it, highlighting trends and outliers, proposing charts and pivot tables, or writing the formula that would answer the question. Copilot in Excel is the current Microsoft implementation.",
+    "exp": "Four things such an assistant does. It summarises: asked what the expenditure data shows, it describes the totals, the largest and smallest contributors and any obvious trend. It suggests analysis: it proposes a pivot table or a chart and can insert it. It writes formulas: describe the calculation in words and it returns a working formula, with an explanation. And it highlights - flagging outliers, gaps and values that break the pattern.\n\nIt works best on clean, well-shaped data: a single header row of clear names, one record per row, consistent data types, no merged cells and no blank rows in the middle. Untidy input produces confidently wrong answers, because the assistant has misread which column means what.\n\nTwo rules apply in a government office and both are examinable.\n\nFirst, official data must not be pasted into a public, consumer AI service. Citizens' personal details, staff records and unpublished departmental figures are protected under service conduct rules and India's data protection law, and pasting them into a public chatbot is an unauthorised disclosure regardless of intent. Use only a tool approved by the department and operating inside its own tenancy, where the data does not leave the organisation.\n\nSecond, a generated formula or summary is a suggestion, not a verified result. AI systems produce plausible wrong output. Check every formula against a small case whose answer you already know before it goes into a report that will be signed.",
+    "facts": [
+      "An AI spreadsheet assistant accepts instructions in ordinary language and returns summaries, suggested charts and pivot tables, and drafted formulas",
+      "Copilot in Excel is Microsoft's implementation and works on data stored in the Microsoft 365 environment",
+      "It works reliably only on clean tabular data - one clear header row, one record per row, consistent types, no merged cells or blank rows",
+      "Output must be verified: AI-generated formulas and summaries can be confidently wrong",
+      "Official, personal or unpublished government data must not be entered into a public AI service; only a departmentally approved tool operating within the organisation may be used"
+    ],
+    "traps": [
+      "The assistant does not replace knowing the functions. It drafts a formula; the officer signing the report is still answerable for whether it is correct",
+      "Anonymising a file by deleting the name column is not enough - district, designation and date together can still identify an individual",
+      "A confident, fluent answer is not a checked answer. Fluency is not accuracy, and this is the distinction the question usually tests",
+      "Consent or departmental approval to use an AI tool is not the same as approval to upload the data into it; the data classification is a separate question from the tool"
+    ],
+    "mnem": "",
+    "rel": [
+      "Microsoft 365 Collaboration",
+      "Formulae and Functions",
+      "Pivot Tables"
+    ]
+  }
+]

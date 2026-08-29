@@ -1,0 +1,214 @@
+[
+  {
+    "paper": "TECH2",
+    "unit": "I",
+    "unitTitle": "Computer Networking",
+    "sub": "Wi-Fi Standards",
+    "def": "Wi-Fi standards are the IEEE 802.11 family of specifications defining how wireless LAN devices communicate over unlicensed radio bands. Each amendment carries a letter suffix - 802.11a, b, g, n, ac, ax, be - and fixes the radio band, channel width and modulation the devices use. The Wi-Fi Alliance certifies equipment against them and markets the recent ones under generation numbers: Wi-Fi 4, 5, 6 and 7.",
+    "exp": "Learn the family in order, with the band each one uses. 802.11b and 802.11g run on 2.4 GHz. 802.11a runs on 5 GHz. 802.11n (Wi-Fi 4) was the first to work on both 2.4 and 5 GHz and introduced MIMO, using multiple antennas to send parallel streams. 802.11ac (Wi-Fi 5) is 5 GHz only. 802.11ax (Wi-Fi 6) returns to both bands and adds OFDMA, so one transmission can carry data for several clients at once; Wi-Fi 6E is the same standard extended into the 6 GHz band. 802.11be (Wi-Fi 7) spans 2.4, 5 and 6 GHz.\n\nThe band matters more than the letter in daily work. 2.4 GHz travels further and passes through walls better, but has only three non-overlapping channels (1, 6 and 11) and shares the air with Bluetooth, cordless phones and microwave ovens. 5 GHz and 6 GHz give many more channels and far less interference at shorter range. In an office you plan 2.4 GHz for coverage and 5 GHz for capacity, and you set channels manually where access points overlap.\n\nAn access point on a newer standard stays backward compatible, but one old client can drag shared airtime down for everyone. Note that not every 802.11 amendment is about speed: 802.11i defines security and 802.11e defines quality of service.",
+    "facts": [
+      "802.11b and 802.11g operate in the 2.4 GHz band; 802.11a operates in the 5 GHz band.",
+      "802.11n (Wi-Fi 4) was the first standard to use both 2.4 GHz and 5 GHz, and introduced MIMO.",
+      "802.11ac (Wi-Fi 5) operates in the 5 GHz band only.",
+      "802.11ax is marketed as Wi-Fi 6; Wi-Fi 6E is 802.11ax extended into 6 GHz, and 802.11be is Wi-Fi 7.",
+      "The 2.4 GHz band has three non-overlapping channels: 1, 6 and 11.",
+      "802.11i is the security amendment and 802.11e the quality-of-service amendment - neither is a data-rate standard."
+    ],
+    "traps": [
+      "802.11a versus 802.11b - the alphabet misleads. 802.11a is the 5 GHz one, 802.11b the 2.4 GHz one, and the two are mutually incompatible.",
+      "802.11ac is 5 GHz only. Dual-band operation arrived with 802.11n, not with ac.",
+      "Wi-Fi 6 and Wi-Fi 6E are not separate standards. 6E is the same 802.11ax radio operating in the newly opened 6 GHz band.",
+      "Higher frequency does not mean longer range. 5 GHz carries more data but covers less distance through walls than 2.4 GHz."
+    ],
+    "mnem": "a is Above - 802.11a is the 5 GHz one; b and g stay down at 2.4 GHz.",
+    "rel": ["Wireless Security", "Wireless Access Points"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "I",
+    "unitTitle": "Computer Networking",
+    "sub": "Wireless Security",
+    "def": "Wireless security is the set of authentication and encryption mechanisms that stop an outsider within radio range from joining a wireless LAN or reading its traffic. On Wi-Fi it is a succession of standards - WEP, then WPA, WPA2 and WPA3 - each fixing weaknesses in the one before, supported by controls such as guest network isolation and disabling insecure convenience features.",
+    "exp": "WEP (Wired Equivalent Privacy) used RC4 with a short static key and a reused initialisation vector. It is comprehensively broken: the key can be recovered from captured traffic in minutes. Never recommend, configure or accept WEP as a secure option. WPA was an interim fix that kept RC4 but added TKIP with per-packet keying. WPA2, standardised as 802.11i, replaced that with AES-CCMP and was the baseline for over a decade. WPA3 is the current standard - it replaces the pre-shared key handshake with SAE (Simultaneous Authentication of Equals), which resists offline dictionary attacks on a captured handshake, and requires protected management frames.\n\nWPA, WPA2 and WPA3 each come in Personal and Enterprise modes. Personal uses one pre-shared passphrase shared by every user: anyone who leaves takes it with them, and changing it means reconfiguring every device. Enterprise uses 802.1X with a RADIUS server, so each user authenticates with their own credentials - typically against Active Directory - and each session gets its own encryption key. Revoking one employee's wireless access then becomes a single account change. For a government office with staff turnover, Enterprise is the correct design.\n\nMAC address filtering and hiding the SSID are not security. MAC addresses travel in clear and are trivially cloned, and a hidden SSID is revealed the moment a client associates.",
+    "facts": [
+      "The order of Wi-Fi security standards is WEP, WPA, WPA2, WPA3.",
+      "WEP uses RC4 with a static key and is considered completely broken.",
+      "WPA2 corresponds to IEEE 802.11i and uses AES-CCMP encryption; WPA used TKIP with RC4.",
+      "WPA3 uses SAE (Simultaneous Authentication of Equals) in place of the WPA2 pre-shared key handshake.",
+      "Enterprise mode uses 802.1X with a RADIUS server for per-user credentials; Personal mode uses one shared passphrase."
+    ],
+    "traps": [
+      "WPA versus WPA2 - the difference is the cipher. WPA is TKIP over RC4, WPA2 is AES-CCMP. Saying WPA2 is just a longer WPA key is wrong.",
+      "Personal versus Enterprise - Personal shares one passphrase among all users, Enterprise authenticates each user separately against a RADIUS server. Both exist for WPA2 and WPA3.",
+      "MAC filtering and SSID hiding encrypt nothing. They are obstacles, not security controls, and are frequently offered as a distractor for 'strongest protection'.",
+      "WPS is a weakness, not a feature. Leaving WPS PIN enabled undermines even a strong WPA2 passphrase."
+    ],
+    "mnem": "",
+    "rel": ["Wi-Fi Standards", "Wireless Access Points", "Active Directory"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "I",
+    "unitTitle": "Computer Networking",
+    "sub": "Mobile Networks",
+    "def": "Mobile networks are cellular radio systems that give phones and other devices voice and data service over licensed spectrum. The coverage area is divided into cells, each served by a base station, and a moving user is handed from one cell to the next without dropping the call. They are described by generation - 1G to 5G - where each generation is a new radio interface and core network design, not merely a speed increase.",
+    "exp": "1G was analogue, voice only, with no encryption. 2G made the radio digital: GSM is the dominant 2G family, and it brought SMS, SIM cards and usable call encryption. Data came later as an add-on to 2G through GPRS and then EDGE, sometimes labelled 2.5G. 3G (UMTS/WCDMA, and CDMA2000) was designed for packet data from the start, which made mobile internet and video calling practical; HSPA improved it further.\n\n4G LTE moved the whole network to IP. There is no separate circuit-switched voice path, so calls run over the data network as VoLTE. Broadband speeds and much lower latency are what made video streaming and always-on apps such as UPI payments normal. 5G NR adds three things beyond raw speed: very low latency for real-time control, massive device density for IoT, and network slicing, where one physical network is partitioned into logical networks with different guarantees. 5G uses sub-6 GHz spectrum, which carries distance, and millimetre wave, which is very fast but short range and easily blocked.\n\nIn India 4G is the practical baseline and 5G is layered on top, commonly in non-standalone mode where the 5G radio still relies on a 4G core network.",
+    "facts": [
+      "1G was analogue voice only; 2G was the first digital generation, with GSM as its dominant family, adding SMS and SIM cards.",
+      "GPRS and EDGE are data enhancements to 2G, not 3G.",
+      "3G (UMTS/WCDMA) was the first generation designed for packet-switched data.",
+      "4G LTE is an all-IP network with no circuit-switched voice; voice is carried as VoLTE.",
+      "5G's defining additions are ultra-low latency, massive machine-type/IoT device density, and network slicing.",
+      "5G runs on both sub-6 GHz spectrum and millimetre wave; mmWave gives the highest speed but the shortest range."
+    ],
+    "traps": [
+      "GSM is 2G. It is regularly offered as a 3G technology - 3G is UMTS/WCDMA and CDMA2000.",
+      "4G is not simply faster 3G. The examinable change is the move to an all-IP network with voice carried over data.",
+      "5G questions that ask 'what is new' expect slicing, latency and device density, not just higher bandwidth.",
+      "Millimetre wave does not extend coverage. Higher frequency means shorter reach and poorer wall penetration, which is why 5G still needs sub-6 GHz."
+    ],
+    "mnem": "",
+    "rel": ["Wi-Fi Standards", "Wireless Security"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "I",
+    "unitTitle": "Computer Networking",
+    "sub": "Windows Server Concepts",
+    "def": "Windows Server is Microsoft's server operating system - the same Windows kernel as the desktop edition, but licensed and tuned to run shared services for many users at once. Functionality is added as roles (Active Directory Domain Services, DNS, DHCP, File and Storage Services, Print and Document Services, Hyper-V, Remote Desktop Services) and as features, which are supporting components such as failover clustering or backup. Both are installed and managed through Server Manager or PowerShell.",
+    "exp": "The first decision on any Windows network is workgroup or domain. In a workgroup every machine keeps its own local account database, so a user needs a separate account and password on each computer and there is no central control - workable for five PCs, unmanageable for fifty. A domain moves accounts into Active Directory on a domain controller, so one account signs in anywhere and policy is applied centrally. A government office network is always a domain.\n\nWindows Server can be installed with the full desktop experience or as Server Core, which has no graphical shell and is administered remotely with PowerShell or the management consoles run from another machine. Server Core presents a smaller attack surface and needs fewer patches and reboots. Remote administration is normal practice either way: you install the administration tools on an admin workstation and rarely touch the server console.\n\nServers are usually virtualised under the Hyper-V role, so several logical servers share one physical box and can be backed up or moved as files. Note that client access to the server is licensed separately from the server operating system itself, through client access licences - a point that matters when you are costing a departmental deployment.",
+    "facts": [
+      "Windows Server functionality is added as roles (major services such as AD DS, DNS, DHCP, Hyper-V) and features (supporting components such as failover clustering).",
+      "Server Manager and PowerShell are the primary management interfaces; Server Core is an installation with no graphical shell.",
+      "In a workgroup each computer holds its own local accounts; in a domain accounts are central in Active Directory.",
+      "Hyper-V is the built-in hypervisor role used to run virtual machines.",
+      "Client access licences are purchased in addition to the server operating system licence."
+    ],
+    "traps": [
+      "Role versus feature - a role is the service the server provides, a feature is a supporting component. Hyper-V and AD DS are roles, not features.",
+      "Installing the AD DS role does not make a server a domain controller. The server must then be promoted; until then it is only a member server holding no directory copy.",
+      "Server Core is not a cut-down or 'lite' edition. It has full server functionality and simply lacks the GUI.",
+      "A workgroup has no central authentication. Any answer describing a workgroup as having a shared account database or centrally applied policy is wrong."
+    ],
+    "mnem": "",
+    "rel": ["Active Directory", "Remote Desktop Services", "DNS"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "I",
+    "unitTitle": "Computer Networking",
+    "sub": "Active Directory",
+    "def": "Active Directory is the directory service in Windows Server that stores every user, computer, group, printer and shared resource on a network in one hierarchical database, and uses it to perform central authentication (proving who a user is) and authorisation (deciding what that user may access). A server holding a writable copy of that database and answering logon requests is a domain controller. Clients query the directory over LDAP and authenticate by default using Kerberos.",
+    "exp": "The structure runs domain, tree, forest. A domain is the basic unit of administration and replication - one account database, one set of policies, one DNS name such as mudal.local. A tree is a set of domains sharing a contiguous DNS namespace, joined by automatic two-way trusts. A forest is one or more trees sharing a common schema and global catalog, and the forest, not the domain, is the true security boundary of a deployment.\n\nInside a domain you subdivide using organisational units. An OU is a container: you place user and computer objects in it so you can link a Group Policy Object to them and delegate administration of just those objects to a junior administrator. A group is not a container - it is a named list of members that you then grant permissions to on a folder, printer or application. So: OU for policy and delegation, group for permissions. You do not link a GPO to a group the way you link it to an OU, and simply moving a user into an OU grants that user no access to anything.\n\nActive Directory depends completely on DNS. Clients find domain controllers by looking up service records, so broken DNS looks exactly like a broken domain - check name resolution first when logons fail.",
+    "facts": [
+      "Active Directory Domain Services is the role; a server promoted to hold a writable copy of the directory is a domain controller.",
+      "The directory is queried and updated over LDAP; the default authentication protocol inside an AD domain is Kerberos, with NTLM as the older fallback.",
+      "Hierarchy: domain, then tree (domains sharing a contiguous DNS namespace), then forest (trees sharing a schema and global catalog).",
+      "The forest is the security boundary; the domain is the unit of administration and replication.",
+      "An organisational unit exists to link Group Policy and to delegate administration; a group exists to be assigned permissions.",
+      "Active Directory requires DNS - clients locate domain controllers through DNS service (SRV) records."
+    ],
+    "traps": [
+      "OU versus group, the classic. An OU applies policy and allows delegation; a group receives permissions. Putting a user in an OU gives no permissions, and a GPO is not linked to a group.",
+      "Domain versus forest as the security boundary. The domain is an administrative boundary, but the forest is the security boundary - a domain administrator is not automatically contained by the domain.",
+      "LDAP versus Kerberos. LDAP is how the directory is read and written; Kerberos is how a user proves identity. They are not alternatives to each other.",
+      "Domain controller versus global catalog server. Every DC holds its own domain in full; a global catalog server additionally holds a partial, searchable copy of every domain in the forest."
+    ],
+    "mnem": "Domain, tree, forest - smallest to largest, the way real trees make a forest. OU for policy, group for permissions.",
+    "rel": ["Group Policy", "User and Group Management", "DNS"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "I",
+    "unitTitle": "Computer Networking",
+    "sub": "Group Policy",
+    "def": "Group Policy is the Windows Server mechanism for centrally configuring and enforcing settings on domain-joined computers and users. Settings are collected into Group Policy Objects, and a GPO is linked to a site, a domain or an organisational unit. Every computer and user within that scope applies it automatically at startup, at logon and on a periodic background refresh, without an administrator visiting the machine.",
+    "exp": "Every GPO has two halves. Computer Configuration applies to the machine whoever logs on to it - password and lockout policy, service settings, firewall rules, software installed for all users - and is processed at boot. User Configuration applies to the account wherever it logs on - desktop settings, mapped drives, Start menu restrictions, folder redirection - and is processed at logon. A setting placed in the wrong half simply never takes effect.\n\nProcessing order is examinable: Local policy first, then Site, then Domain, then OU, and within nested OUs the one closest to the object last. Remember it as LSDOU. Later processing overwrites earlier, so on a conflict the OU-level GPO normally wins. Two settings reverse this. Block Inheritance on an OU stops higher-level GPOs flowing down, and Enforced (formerly 'No Override') on a higher-level link makes that link apply regardless - Enforced beats Block Inheritance.\n\nPolicy refreshes in the background on a schedule; gpupdate /force applies changes immediately and gpresult reports what actually applied to a given user and machine. Because the setting is enforced from the domain, a user who changes a controlled option locally has it silently reverted at the next refresh. That is precisely the point: configuration is decided centrally, not per machine.",
+    "facts": [
+      "A GPO is linked at site, domain or organisational unit level.",
+      "Processing order is Local, Site, Domain, OU (LSDOU); later-processed policy overwrites earlier on a conflict.",
+      "Enforced on a higher-level link overrides Block Inheritance set on a lower OU.",
+      "Computer Configuration is applied at startup; User Configuration is applied at logon.",
+      "gpupdate /force reapplies policy immediately; gpresult reports the resultant set of policy for a user and computer."
+    ],
+    "traps": [
+      "You cannot link a GPO to a security group. Links are to site, domain or OU; a group is then used for security filtering to narrow who inside that scope applies it.",
+      "LSDOU and 'last wins' get reversed constantly. Local policy is processed first and is therefore overridden by site, domain and OU policy, not the other way round.",
+      "Block Inheritance does not defeat everything. An Enforced link from above still applies.",
+      "Computer Configuration versus User Configuration - a computer setting placed under User Configuration, or vice versa, has no effect at all rather than an error."
+    ],
+    "mnem": "LSDOU - Local, Site, Domain, OU. Last applied wins.",
+    "rel": ["Active Directory", "User and Group Management", "Windows Server Concepts"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "I",
+    "unitTitle": "Computer Networking",
+    "sub": "User and Group Management",
+    "def": "User and group management is the administration of the accounts that people and services log on with, and of the groups those accounts are placed in so that permissions can be assigned collectively. In practice it means creating, disabling and removing accounts, setting password and lockout policy, choosing the right group type and scope, and following the rule that permissions are granted to groups rather than to individual users.",
+    "exp": "A local account exists in the SAM database of one computer and works only on that computer - useful for a standalone machine or an emergency administrator login. A domain account lives in Active Directory and works on any machine joined to the domain, with one password and one place to disable it. When a staff member is transferred or leaves, you disable the single domain account; with local accounts you would have to visit every PC.\n\nGroups come in two types. Security groups can be assigned permissions on files, printers and applications. Distribution groups are mailing lists only and carry no permissions whatsoever. Security groups also have a scope - domain local, global and universal - which controls where members may come from and where the group may be used. The standard practice is to place user accounts into a global group, place that global group into a domain local group, and grant the permission to the domain local group.\n\nAlways assign permissions to groups. Granting a right directly to a named user is quick on the day and unauditable a year later, and it is the first thing an access review misses when that person leaves. Disable rather than delete a departing employee's account so their files and mail stay reachable.",
+    "facts": [
+      "Local accounts live in one computer's SAM database and work only on that computer; domain accounts live in Active Directory and work on every domain-joined machine.",
+      "Security groups can be assigned permissions; distribution groups are mailing lists only.",
+      "Security group scopes are domain local, global and universal.",
+      "The recommended practice is accounts into global groups, global groups into domain local groups, permissions granted to the domain local group.",
+      "Domain Admins is a domain-wide administrative group; Enterprise Admins is forest-wide."
+    ],
+    "traps": [
+      "Security group versus distribution group - only a security group can be given permissions. A distribution group with 'permissions' is a wrong option.",
+      "A group is not an OU. Group membership grants permissions; OU membership determines which Group Policy applies.",
+      "Local Administrator on a workstation is not a Domain Admin. Adding a user to one PC's local Administrators group gives them no rights anywhere else.",
+      "Disabling is not deleting. Deleting an account destroys its SID, so recreating the same username later restores none of its old permissions."
+    ],
+    "mnem": "AGDLP - Accounts into Global groups, Global groups into Domain Local groups, Permissions on the domain local group.",
+    "rel": ["Active Directory", "Group Policy", "File and Printer Sharing"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "I",
+    "unitTitle": "Computer Networking",
+    "sub": "File and Printer Sharing",
+    "def": "File and printer sharing makes a folder or a printer on one Windows machine available to others across the network using the SMB protocol. A shared folder is published under a share name and reached by its UNC path, \\\\server\\share; a printer is published from a print server which also supplies the driver to clients. Access to a shared folder is governed by two independent permission sets: share permissions and NTFS permissions.",
+    "exp": "Share permissions apply only to access arriving over the network. There are three - Read, Change and Full Control - and they are set on the share as a whole, so they cannot protect one subfolder differently from another.\n\nNTFS permissions are stored on the file system itself, apply to each folder and file individually, and apply whether the user is sitting at the console or coming across the network. They are far finer grained: Full Control, Modify, Read and Execute, List Folder Contents, Read, Write, plus special permissions. They inherit downwards unless inheritance is deliberately broken.\n\nWhen a user reaches a shared folder over the network both sets are evaluated and the more restrictive result wins. Share Full Control plus NTFS Read gives Read. Share Read plus NTFS Full Control also gives Read. Within either set, permissions from a user's several group memberships accumulate, but an explicit Deny overrides any Allow. The usual working configuration is to give Authenticated Users Full Control on the share and do all the real control in NTFS.\n\nPrinter permissions follow the same idea at three levels: Print, Manage Documents (control the queue and other users' jobs) and Manage This Printer. Sharing from a print server means one queue and one driver to maintain instead of a driver on every PC.",
+    "facts": [
+      "File and printer sharing on Windows uses SMB; shares are addressed by UNC path in the form \\\\server\\share.",
+      "There are three share permissions: Read, Change and Full Control.",
+      "Share permissions affect network access only; NTFS permissions apply both locally and over the network.",
+      "Where share and NTFS permissions differ, the effective permission is the more restrictive of the two.",
+      "Within a permission set, group permissions accumulate, but an explicit Deny overrides any Allow.",
+      "Printer permission levels are Print, Manage Documents and Manage This Printer."
+    ],
+    "traps": [
+      "The combination rule: share and NTFS are compared and the most restrictive wins. Candidates often add them or take the more generous one. Share Full Control with NTFS Read gives Read.",
+      "Share permissions do nothing to a user logged on at the machine itself. Only NTFS restricts local access.",
+      "Two group memberships, one Allow and one Deny, results in denial. Deny always wins over accumulated Allows.",
+      "Copy versus move: a file copied anywhere, or moved to a different volume, inherits the destination's permissions; moved within the same NTFS volume it keeps its original permissions."
+    ],
+    "mnem": "Share plus NTFS - the most restrictive wins.",
+    "rel": ["User and Group Management", "Windows Server Concepts", "Active Directory"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "I",
+    "unitTitle": "Computer Networking",
+    "sub": "Remote Desktop Services",
+    "def": "Remote Desktop Services is the Windows Server role that lets users run a full Windows desktop or a single published application on the server while interacting with it from their own device, with only screen updates, keystrokes and mouse movement crossing the network. It uses the Remote Desktop Protocol (RDP), which listens on TCP port 3389. The two-session administrative form built into Windows Server is Remote Desktop for Administration; RDS proper is the licensed multi-user deployment.",
+    "exp": "A full deployment separates distinct roles. The Session Host actually runs the users' sessions. The Connection Broker directs each user to the right host and reconnects a disconnected user to their existing session rather than starting a new one. RD Web Access publishes the available desktops and applications through a browser. The RD Gateway lets remote users tunnel RDP inside HTTPS, so port 3389 need never face the internet. RD Licensing issues the client access licences, which are sold per user or per device.\n\nThe attraction for a government office is central control. Applications and data stay on the server, so an old or low-specification PC still works as a client, backup covers one machine instead of forty, and a departing employee's access ends with their account. RemoteApp publishes a single application that appears in its own window on the user's desktop instead of an entire remote desktop.\n\nOn security: never expose RDP directly to the internet. Brute-forced RDP is one of the most common entry points for ransomware. Put it behind an RD Gateway or a VPN, and enable Network Level Authentication so the user must authenticate before any session is created on the server.",
+    "facts": [
+      "RDP uses TCP port 3389.",
+      "RDS components include the Session Host, Connection Broker, RD Web Access, RD Gateway and RD Licensing.",
+      "RDS client access licences are issued per user or per device.",
+      "RemoteApp publishes an individual application in its own window rather than a full remote desktop.",
+      "RD Gateway tunnels RDP inside HTTPS so that port 3389 need not be exposed externally.",
+      "Network Level Authentication requires the user to authenticate before a session is created on the server."
+    ],
+    "traps": [
+      "Remote Desktop for Administration (a small fixed number of admin sessions, no RDS licence needed) is not the same as a full RDS deployment for many users, which requires RDS CALs.",
+      "An RDS CAL does not replace the Windows Server CAL. A user needs both.",
+      "RD Gateway versus VPN - the Gateway carries RDP inside HTTPS to a specific server; a VPN places the client on the network generally. They solve the same exposure problem differently.",
+      "Remote Desktop is not Remote Assistance. Remote Assistance shares the user's own existing session so both parties see the same screen; RDP creates a separate session the user cannot watch."
+    ],
+    "mnem": "",
+    "rel": ["VPN", "Windows Server Concepts", "Cloud Infrastructure"]
+  }
+]

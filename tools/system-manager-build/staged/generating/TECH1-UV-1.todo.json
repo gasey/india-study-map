@@ -1,0 +1,42 @@
+{
+  "paper": "TECH1",
+  "unit": "V",
+  "unitTitle": "Presentation Software",
+  "unitMarks": 20,
+  "perTarget": 2,
+  "brief": "tools/system-manager-build/GENERATE_BRIEF.md",
+  "targets": [
+    {
+      "sub": "SmartArt",
+      "section": "Microsoft PowerPoint"
+    },
+    {
+      "sub": "Charts",
+      "section": "Microsoft PowerPoint"
+    },
+    {
+      "sub": "Multimedia",
+      "section": "Microsoft PowerPoint"
+    },
+    {
+      "sub": "Presenter View",
+      "section": "Microsoft PowerPoint"
+    },
+    {
+      "sub": "Recording Presentations",
+      "section": "Microsoft PowerPoint"
+    },
+    {
+      "sub": "Collaboration Features",
+      "section": "Microsoft PowerPoint"
+    },
+    {
+      "sub": "Accessibility Features",
+      "section": "Microsoft PowerPoint"
+    },
+    {
+      "sub": "AI-assisted Presentation Design (Microsoft Copilot - Concept)",
+      "section": "Microsoft PowerPoint"
+    }
+  ]
+}

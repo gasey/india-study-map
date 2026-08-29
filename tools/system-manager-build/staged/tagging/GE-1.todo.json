@@ -1,0 +1,702 @@
+{
+  "paper": "GE",
+  "instructions": "For each question in `questions`, add an entry to a JSON object keyed by question id: {\"<id>\": {\"unit\": \"<unit no>\", \"sub\": \"<leaf subtopic VERBATIM>\"}}. Write it to the same filename with .todo.json replaced by .done.json. `sub` must be copied character-for-character from `allowed_leaves` — it is matched by string equality. If the paper is GE, set sub to null and tag the unit only.",
+  "allowed_units": [
+    {
+      "unit": "1",
+      "title": "Precis Writing",
+      "marks": 10
+    },
+    {
+      "unit": "2",
+      "title": "Letter Writing",
+      "marks": 15
+    },
+    {
+      "unit": "3",
+      "title": "Comprehension of given passages",
+      "marks": 15
+    },
+    {
+      "unit": "4",
+      "title": "Grammar: Parts of Speech",
+      "marks": 20
+    },
+    {
+      "unit": "5",
+      "title": "Correct Usage and Vocabularies",
+      "marks": 20
+    },
+    {
+      "unit": "6",
+      "title": "Formation of Sentence",
+      "marks": 20
+    }
+  ],
+  "allowed_leaves": [
+    {
+      "unit": "1",
+      "unitTitle": "Precis Writing",
+      "section": "(derived)",
+      "sub": "What a precis is and is not"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Precis Writing",
+      "section": "(derived)",
+      "sub": "The one-third rule and word-count discipline"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Precis Writing",
+      "section": "(derived)",
+      "sub": "Finding the controlling idea"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Precis Writing",
+      "section": "(derived)",
+      "sub": "What to cut: illustration, repetition and rhetoric"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Precis Writing",
+      "section": "(derived)",
+      "sub": "Third person and reported speech"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Precis Writing",
+      "section": "(derived)",
+      "sub": "Supplying an apt title"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Precis Writing",
+      "section": "(derived)",
+      "sub": "A worked precis, start to finish"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "Formal, official and informal letters"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "The parts of an official letter"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "Salutations and subscriptions"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "Subject line, reference and enclosures"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "Applications and representations"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "Tone and register in government correspondence"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "Common letter-writing errors that cost marks"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "A worked official letter, start to finish"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "Comprehension of given passages",
+      "section": "(derived)",
+      "sub": "How to read an unseen passage under time pressure"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "Comprehension of given passages",
+      "section": "(derived)",
+      "sub": "Main idea, tone and the author's stance"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "Comprehension of given passages",
+      "section": "(derived)",
+      "sub": "Inference questions and answering in your own words"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "Comprehension of given passages",
+      "section": "(derived)",
+      "sub": "Vocabulary-in-context questions"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "Comprehension of given passages",
+      "section": "(derived)",
+      "sub": "Why lifting sentences verbatim loses marks"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Grammar: Parts of Speech",
+      "section": "(derived)",
+      "sub": "The eight parts of speech and how to tell them apart"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Grammar: Parts of Speech",
+      "section": "(derived)",
+      "sub": "Words that change part of speech with their slot"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Grammar: Parts of Speech",
+      "section": "(derived)",
+      "sub": "Identifying the part of speech of an underlined word"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Grammar: Parts of Speech",
+      "section": "(derived)",
+      "sub": "Prepositions and their correct use"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Grammar: Parts of Speech",
+      "section": "(derived)",
+      "sub": "Verb forms and tense in context"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Correct Usage and Vocabularies",
+      "section": "(derived)",
+      "sub": "Synonyms and antonyms"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Correct Usage and Vocabularies",
+      "section": "(derived)",
+      "sub": "One-word substitution"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Correct Usage and Vocabularies",
+      "section": "(derived)",
+      "sub": "Idioms and phrases"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Correct Usage and Vocabularies",
+      "section": "(derived)",
+      "sub": "Commonly confused pairs"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Correct Usage and Vocabularies",
+      "section": "(derived)",
+      "sub": "Spelling and common misspellings"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Formation of Sentence",
+      "section": "(derived)",
+      "sub": "Simple, compound and complex sentences"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Formation of Sentence",
+      "section": "(derived)",
+      "sub": "Clause types: noun, adjective and adverb"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Formation of Sentence",
+      "section": "(derived)",
+      "sub": "Active and passive voice"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Formation of Sentence",
+      "section": "(derived)",
+      "sub": "Direct and indirect speech"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Formation of Sentence",
+      "section": "(derived)",
+      "sub": "Joining and splitting sentences"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Formation of Sentence",
+      "section": "(derived)",
+      "sub": "Subject-verb agreement and sequence of tenses"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Formation of Sentence",
+      "section": "(derived)",
+      "sub": "Sentence types by function: assertive, interrogative, imperative, exclamatory"
+    }
+  ],
+  "questions": [
+    {
+      "id": "CO2016A-GE-1",
+      "paper": "GE",
+      "q": "The political candidate won the election because he had the gift of the gab.",
+      "opts": {
+        "A": "money to bribe people",
+        "B": "a talent for speaking",
+        "C": "an attractive physique",
+        "D": "good political connections"
+      }
+    },
+    {
+      "id": "CO2016A-GE-2",
+      "paper": "GE",
+      "q": "My grandfather was a man of letters:",
+      "opts": {
+        "A": "a writer",
+        "B": "a good speaker",
+        "C": "a correspondent",
+        "D": "a learned man"
+      }
+    },
+    {
+      "id": "CO2016A-GE-3",
+      "paper": "GE",
+      "q": "Mrs. Malley was always tired because her young son was a ball of fire.",
+      "opts": {
+        "A": "energetic and active",
+        "B": "feverish and sick",
+        "C": "crying incessantly",
+        "D": "disobedient"
+      }
+    },
+    {
+      "id": "CO2016A-GE-4",
+      "paper": "GE",
+      "q": "John hated to attend parties because he always felt like a bull in a China shop at social events,",
+      "opts": {
+        "A": "unwanted",
+        "B": "clumsy and awkward",
+        "C": "quiet and silent person",
+        "D": "too popular"
+      }
+    },
+    {
+      "id": "CO2016A-GE-5",
+      "paper": "GE",
+      "q": "I could not attend church yesterday because I was out of sorts.",
+      "opts": {
+        "A": "too busy with work",
+        "B": "feeling unwell",
+        "C": "out of the country",
+        "D": "having a quarrel with someone"
+      }
+    },
+    {
+      "id": "CO2016A-GE-6",
+      "paper": "GE",
+      "q": "The late singer David Bowie cast a long shadow over other musicians.",
+      "opts": {
+        "A": "blocked other's success",
+        "B": "is above average height",
+        "C": "encouraged other people",
+        "D": "had a great influence"
+      }
+    },
+    {
+      "id": "CO2016A-GE-7",
+      "paper": "GE",
+      "q": "Despite his brave words, the soldier had a hidden yellow streak.",
+      "opts": {
+        "A": "a secret",
+        "B": "cruelty",
+        "C": "a weapon",
+        "D": "cowardliness"
+      }
+    },
+    {
+      "id": "CO2016A-GE-8",
+      "paper": "GE",
+      "q": "I got this second-hand car for a song.",
+      "opts": {
+        "A": "for free",
+        "B": "for a musical performance",
+        "C": "cheaply",
+        "D": "in exchange for something"
+      }
+    },
+    {
+      "id": "CO2016A-GE-9",
+      "paper": "GE",
+      "q": "After working for three straight hours on the report, I decided to call it a day.",
+      "opts": {
+        "A": "it is now night-time",
+        "B": "the day's work is done",
+        "C": "to give up on it",
+        "D": "it needs to be redone"
+      }
+    },
+    {
+      "id": "CO2016A-GE-10",
+      "paper": "GE",
+      "q": "Learning to cook is child's play; all it takes is practice.",
+      "opts": {
+        "A": "very easy",
+        "B": "a relaxing pastime",
+        "C": "very hectic",
+        "D": "very tricky"
+      }
+    },
+    {
+      "id": "CO2016A-GE-11",
+      "paper": "GE",
+      "q": "The outing would have been much better if the guide had not been such a wet blanket.",
+      "opts": {
+        "A": "sick person",
+        "B": "overweight person",
+        "C": "dull or depressing person",
+        "D": "fast talker"
+      }
+    },
+    {
+      "id": "CO2016A-GE-12",
+      "paper": "GE",
+      "q": "The lawyer promised to help the defendant, no strings attached.",
+      "opts": {
+        "A": "secretly",
+        "B": "for a small fee",
+        "C": "in exchange for favours",
+        "D": "without any conditions"
+      }
+    },
+    {
+      "id": "CO2016A-GE-13",
+      "paper": "GE",
+      "q": "It was an open secret that the vacant post had already been promised to the Chairman's son.",
+      "opts": {
+        "A": "known to everybody",
+        "B": "not known to anyone",
+        "C": "known to some",
+        "D": "declared to everyone"
+      }
+    },
+    {
+      "id": "CO2016A-GE-14",
+      "paper": "GE",
+      "q": "Despite being a huge celebrity, she was really down to earth.",
+      "opts": {
+        "A": "plain-looking",
+        "B": "sensible and practical",
+        "C": "not very rich",
+        "D": "generous and fun"
+      }
+    },
+    {
+      "id": "CO2016A-GE-15",
+      "paper": "GE",
+      "q": "Looking at the state of the world nowadays, I feel it is all going to the dogs.",
+      "opts": {
+        "A": "deteriorating",
+        "B": "progressing",
+        "C": "class-separation",
+        "D": "destroyed"
+      }
+    },
+    {
+      "id": "CO2016A-GE-16",
+      "paper": "GE",
+      "q": "He had been recently divorced so we had to skirt around the topic of relationships.",
+      "opts": {
+        "A": "constantly talk about",
+        "B": "sympathize with",
+        "C": "inform everyone",
+        "D": "avoid talking about"
+      }
+    },
+    {
+      "id": "CO2016A-GE-17",
+      "paper": "GE",
+      "q": "Manners may be defined as:",
+      "opts": {
+        "A": "success in playing one's role in society",
+        "B": "how we act when we are at home",
+        "C": "standard of conduct in society",
+        "D": "something you are born with"
+      }
+    },
+    {
+      "id": "CO2016A-GE-18",
+      "paper": "GE",
+      "q": "One should cultivate manners at home because",
+      "opts": {
+        "A": "we should respect our family",
+        "B": "it is a miniature society",
+        "C": "we do not learn manners anywhere else",
+        "D": "living in society is not an easy job"
+      }
+    },
+    {
+      "id": "CO2016A-GE-19",
+      "paper": "GE",
+      "q": "Children learn their manners through",
+      "opts": {
+        "A": "lessons",
+        "B": "imitation",
+        "C": "society",
+        "D": "instructions"
+      }
+    },
+    {
+      "id": "CO2016A-GE-20",
+      "paper": "GE",
+      "q": "How do teachers cultivate good manners?",
+      "opts": {
+        "A": "by their ideal behaviour",
+        "B": "by lecturing the students",
+        "C": "by giving notes",
+        "D": "by cultivation"
+      }
+    },
+    {
+      "id": "CO2016A-GE-21",
+      "paper": "GE",
+      "q": "The well-mannered person speaks to his social inferiors",
+      "opts": {
+        "A": "only when necessary",
+        "B": "in a rude and offensive way",
+        "C": "the same way as everyone else",
+        "D": "in a soft, pleasant tone"
+      }
+    },
+    {
+      "id": "CO2016A-GE-22",
+      "paper": "GE",
+      "q": "When someone does not agree with you,",
+      "opts": {
+        "A": "avoid becoming agitated",
+        "B": "monopolise the conversation",
+        "C": "interrupt them respectfully",
+        "D": "avoid speaking"
+      }
+    },
+    {
+      "id": "CO2016A-GE-23",
+      "paper": "GE",
+      "q": "The word \"monopolise\" means",
+      "opts": {
+        "A": "a board game",
+        "B": "to speak in a rough tone",
+        "C": "to overpower someone",
+        "D": "to obtain exclusive control"
+      }
+    },
+    {
+      "id": "CO2016A-GE-24",
+      "paper": "GE",
+      "q": "When criticising someone, it is best to do so in a",
+      "opts": {
+        "A": "civilised manner",
+        "B": "soft voice",
+        "C": "pleasant tone",
+        "D": "quiet manner"
+      }
+    },
+    {
+      "id": "CO2016A-GE-25",
+      "paper": "GE",
+      "q": "Find the word in the passage which means 'intruding beyond acceptable limits'.",
+      "opts": {
+        "A": "amass",
+        "B": "interacts",
+        "C": "encroaching",
+        "D": "offensive"
+      }
+    },
+    {
+      "id": "CO2016A-GE-26",
+      "paper": "GE",
+      "q": "What does 'manners maketh man' mean?",
+      "opts": {
+        "A": "only men are capable of manners",
+        "B": "your manners reveal who you are",
+        "C": "good manners make us civilised",
+        "D": "you are a confident, reliable individual"
+      }
+    },
+    {
+      "id": "CO2016A-GE-27",
+      "paper": "GE",
+      "q": "Living in society is not an easy job because:",
+      "opts": {
+        "A": "one must interact with all sorts of people",
+        "B": "man is a social animal and cannot live alone",
+        "C": "one has to play his role in society",
+        "D": "one must follow socially-accepted codes of conduct"
+      }
+    },
+    {
+      "id": "CO2016A-GE-28",
+      "paper": "GE",
+      "q": "Good manners are",
+      "opts": {
+        "A": "inherent",
+        "B": "acquired",
+        "C": "imitated",
+        "D": "taught"
+      }
+    },
+    {
+      "id": "CO2016A-GE-29",
+      "paper": "GE",
+      "q": "The well-mannered individual interacts with different people",
+      "opts": {
+        "A": "in the same polite way",
+        "B": "in a low, pleasant voice",
+        "C": "according to their status",
+        "D": "with polite gestures and actions"
+      }
+    },
+    {
+      "id": "CO2016A-GE-30",
+      "paper": "GE",
+      "q": "A person can earn respect by",
+      "opts": {
+        "A": "amassing great wealth",
+        "B": "first treating others with respect",
+        "C": "giving everyone an opportunity to speak",
+        "D": "appearing confident and capable"
+      }
+    },
+    {
+      "id": "CO2016A-GE-31",
+      "paper": "GE",
+      "q": "People judge us on the way we speak because",
+      "opts": {
+        "A": "we interact with all kinds of people",
+        "B": "it is a reflection of our personality",
+        "C": "it reveals our role in society",
+        "D": "it is a way to cultivate good manners"
+      }
+    },
+    {
+      "id": "CO2016A-GE-32",
+      "paper": "GE",
+      "q": "One can become the person that he wishes to be by",
+      "opts": {
+        "A": "developing good manners",
+        "B": "by treating others respectfully",
+        "C": "by being a civilised person",
+        "D": "by gaining wealth and fame"
+      }
+    },
+    {
+      "id": "CO2016A-GE-33",
+      "paper": "GE",
+      "q": "The boy jumped __________ the wall.",
+      "opts": {
+        "A": "upon",
+        "B": "over",
+        "C": "to",
+        "D": "above"
+      }
+    },
+    {
+      "id": "CO2016A-GE-34",
+      "paper": "GE",
+      "q": "I am indifferent __________ your malicious lies.",
+      "opts": {
+        "A": "about",
+        "B": "with",
+        "C": "of",
+        "D": "to"
+      }
+    },
+    {
+      "id": "CO2016A-GE-35",
+      "paper": "GE",
+      "q": "I have made full preparation __________ the function.",
+      "opts": {
+        "A": "for",
+        "B": "of",
+        "C": "to",
+        "D": "on"
+      }
+    },
+    {
+      "id": "CO2016A-GE-36",
+      "paper": "GE",
+      "q": "I have complete faith __________ your decision.",
+      "opts": {
+        "A": "with",
+        "B": "upon",
+        "C": "in",
+        "D": "of"
+      }
+    },
+    {
+      "id": "CO2016A-GE-37",
+      "paper": "GE",
+      "q": "The drunk driver ran __________ the puppy.",
+      "opts": {
+        "A": "into",
+        "B": "over",
+        "C": "against",
+        "D": "on"
+      }
+    },
+    {
+      "id": "CO2016A-GE-38",
+      "paper": "GE",
+      "q": "I shall return __________ this week itself.",
+      "opts": {
+        "A": "within",
+        "B": "by",
+        "C": "on",
+        "D": "at"
+      }
+    },
+    {
+      "id": "CO2016A-GE-39",
+      "paper": "GE",
+      "q": "Identify the parts of speech for the underlined word in: This phone is much better than that.",
+      "opts": {
+        "A": "Pronoun",
+        "B": "Adverb",
+        "C": "Adjective",
+        "D": "Noun"
+      }
+    },
+    {
+      "id": "CO2016A-GE-40",
+      "paper": "GE",
+      "q": "Identify the parts of speech for the underlined word in: Poverty is a huge problem in India.",
+      "opts": {
+        "A": "Adverb",
+        "B": "Verb",
+        "C": "Noun",
+        "D": "Adjective"
+      }
+    }
+  ]
+}

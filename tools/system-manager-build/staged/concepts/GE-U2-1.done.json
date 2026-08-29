@@ -1,0 +1,215 @@
+[
+  {
+    "paper": "GE",
+    "unit": "2",
+    "unitTitle": "Letter Writing",
+    "sub": "Formal, official and informal letters",
+    "def": "Indian official correspondence distinguishes several named forms, each with its own layout and register. Knowing only the school division of formal and informal is not enough: the paper can name a demi-official letter, an office memorandum or a representation, and each has a fixed shape.",
+    "exp": "The official letter is the standard form for correspondence between a government office and an outside body or individual. It is written in the third person, addresses the recipient by designation, and is signed by an officer on behalf of the office.\n\nThe demi-official or D.O. letter is written officer-to-officer, in the first person, when the matter needs a personal approach rather than a departmental one. It is addressed to the officer by name and takes 'Dear Shri' rather than 'Sir'.\n\nThe office memorandum is used between offices of the same government, usually for routine matters. It is impersonal, carries no salutation and no subscription, and is written entirely in the third person.\n\nThe circular goes to many addressees at once; the notification announces something with legal effect and is published; the representation is submitted by an individual to an authority seeking redress; the application requests something the applicant is entitled to seek.\n\nThe informal or personal letter is the only one with a free layout, and it is the least likely to appear on this paper. Read the prompt carefully - it usually names the form, and choosing the wrong one loses the format marks before you have written a sentence.",
+    "facts": [
+      "The official letter is third person and addresses the recipient by designation",
+      "A D.O. letter is first person, officer to officer, and uses the recipient's name",
+      "An office memorandum carries no salutation and no subscription",
+      "A circular addresses many recipients at once; a notification has legal effect",
+      "A representation seeks redress; an application requests something one may claim"
+    ],
+    "traps": [
+      "Treating 'formal versus informal' as the whole distinction, and missing the D.O. and memorandum forms entirely",
+      "Writing a D.O. letter in the third person, which defeats its purpose",
+      "Adding a salutation to an office memorandum, which does not take one",
+      "Not reading the prompt for the named form before choosing a layout"
+    ],
+    "mnem": "",
+    "rel": [
+      "The parts of an official letter",
+      "Salutations and subscriptions",
+      "Applications and representations"
+    ]
+  },
+  {
+    "paper": "GE",
+    "unit": "2",
+    "unitTitle": "Letter Writing",
+    "sub": "The parts of an official letter",
+    "def": "An official letter has a fixed sequence of parts. Marks are awarded for the layout independently of the prose, so a candidate who reproduces the sequence accurately banks those marks before writing the body.",
+    "exp": "The order is: sender's designation and office address at the top left; the letter number and the date below it; then the addressee's designation and address; then the subject line; then the reference line where one applies; then the salutation; then the body; then the subscription; then the signature block giving name and designation; then enclosures; and finally the copy-to list where the letter is being endorsed elsewhere.\n\nThe body itself has three movements and they should be visible. The opening states why you are writing and refers to any earlier correspondence. The substance sets out the facts in the order the reader needs them. The close states precisely what action is sought, and from whom.\n\nTwo of these parts are easy marks that candidates lose. The letter number and date belong together under the sender's address, and a letter without a date is incomplete. The signature block must give the designation as well as the name, because an official letter is signed by an office-holder, not by a private person.\n\nUnder time pressure, lay the skeleton out first - all the parts, in order, before any prose. It takes a minute and it guarantees nothing is missing.",
+    "facts": [
+      "Order: sender's address, number and date, addressee, subject, reference, salutation, body, subscription, signature block, enclosures, copy-to",
+      "The body runs opening, substance, action sought",
+      "The signature block gives both name and designation",
+      "The letter number and date sit together beneath the sender's address",
+      "Enclosures are listed at the end as 'Encl.'"
+    ],
+    "traps": [
+      "Omitting the date or the letter number, which leaves the letter formally incomplete",
+      "Signing with a name but no designation in an official letter",
+      "Burying the action sought in the middle of the body instead of stating it at the close",
+      "Writing the body first and running out of time for the layout, when the layout carries its own marks"
+    ],
+    "mnem": "",
+    "rel": [
+      "Subject line, reference and enclosures",
+      "Salutations and subscriptions",
+      "A worked official letter, start to finish"
+    ]
+  },
+  {
+    "paper": "GE",
+    "unit": "2",
+    "unitTitle": "Letter Writing",
+    "sub": "Salutations and subscriptions",
+    "def": "The salutation opens the letter and the subscription closes it, and the two are paired. Using a salutation with the wrong subscription is one of the most frequently penalised errors in the paper, because it is unambiguous and easy to spot.",
+    "exp": "In an official letter, 'Sir' or 'Madam' pairs with 'Yours faithfully'. This is the default for correspondence addressed to a designation rather than a person, and it is what the paper expects unless the prompt says otherwise.\n\nIn a demi-official letter, 'Dear Shri Lalthanga' or 'Dear Dr Lalrinpuii' pairs with 'Yours sincerely'. The rule underneath is simple: where you have named the recipient, you close sincerely; where you have addressed an office, you close faithfully.\n\nAn office memorandum takes neither. It opens with the subject and closes with the signature block.\n\nPoints of form. 'Yours' never carries an apostrophe - 'Your's' is simply wrong. Only the first word of the subscription is capitalised: 'Yours faithfully', not 'Yours Faithfully'. The subscription is followed by a comma, then the signature, then the name and designation. Where a letter is addressed to a body rather than an individual, 'Sir' remains correct and 'Dear Sirs' is avoided in Indian official usage.",
+    "facts": [
+      "Sir or Madam pairs with Yours faithfully",
+      "Dear Shri or Dear Madam with a name pairs with Yours sincerely",
+      "An office memorandum has neither salutation nor subscription",
+      "Only the first word of the subscription is capitalised",
+      "'Yours' never takes an apostrophe"
+    ],
+    "traps": [
+      "Pairing 'Sir' with 'Yours sincerely' - the single most penalised format error",
+      "Writing 'Your's faithfully', which is never correct",
+      "Capitalising both words as 'Yours Faithfully'",
+      "Adding a salutation to an office memorandum out of habit"
+    ],
+    "mnem": "Named recipient - sincerely. Named office - faithfully.",
+    "rel": [
+      "The parts of an official letter",
+      "Formal, official and informal letters",
+      "Common letter-writing errors that cost marks"
+    ]
+  },
+  {
+    "paper": "GE",
+    "unit": "2",
+    "unitTitle": "Letter Writing",
+    "sub": "Subject line, reference and enclosures",
+    "def": "The subject line states the letter's purpose in one phrase, the reference line cites the correspondence it answers, and the enclosures list names the documents travelling with it. All three are conventions of Indian official correspondence and all three are examinable.",
+    "exp": "The subject line follows the addressee's address and is introduced by 'Subject:' or 'Sub:'. It is a noun phrase, not a sentence, and it is usually underlined. It should be specific enough that a file clerk can route the letter without reading the body: 'Subject: Request for sanction of funds for repair of the office generator' rather than 'Subject: Regarding a request'. Ending it with a hyphen and a colon - 'reg.:' - is common Indian usage and not required.\n\nThe reference line cites what came before: 'Reference: This office letter No. ... dated ...' or 'Reference: Your letter No. ... dated ...'. Include it whenever the letter continues an exchange; omit it when the letter opens one. Getting this right signals that you understand a letter sits inside a file.\n\nEnclosures are listed after the signature block as 'Encl.' followed by the items, numbered if there is more than one. Anything referred to in the body as attached must appear here.\n\nWhere copies go to other offices, a 'Copy to:' list follows the enclosures, each recipient given by designation.",
+    "facts": [
+      "The subject line is a noun phrase, introduced by 'Subject:' and usually underlined",
+      "It sits after the addressee's address and before the salutation",
+      "The reference line cites the letter number and date being replied to",
+      "Enclosures are listed after the signature block as 'Encl.'",
+      "A 'Copy to:' list names further recipients by designation"
+    ],
+    "traps": [
+      "Writing the subject as a full sentence rather than a noun phrase",
+      "A subject so vague it does not identify the matter - the point is routing without reading",
+      "Referring to an attachment in the body but omitting it from the enclosures list",
+      "Placing the subject line before the addressee's address rather than after it"
+    ],
+    "mnem": "",
+    "rel": [
+      "The parts of an official letter",
+      "A worked official letter, start to finish"
+    ]
+  },
+  {
+    "paper": "GE",
+    "unit": "2",
+    "unitTitle": "Letter Writing",
+    "sub": "Applications and representations",
+    "def": "An application requests something the writer is entitled to ask for - leave, a post, a certificate. A representation asks an authority to reconsider or redress something the writer believes to be wrong. Both are submitted upward, and both are commonly set on this paper.",
+    "exp": "An application is short and factual. State what is sought in the first sentence, give the grounds and the relevant dates, state the period where one applies, and close with the request. Leave applications are routed through the immediate superior, so the address block carries 'Through: The ...' naming that officer. Documents supporting the claim go in the enclosures.\n\nA representation is longer and must be careful in tone, because it disputes something. Set out the facts in date order first, without argument. Then state plainly what you believe is wrong and on what basis - a rule, an order, a precedent. Then state the specific relief sought. Do not editorialise, do not attribute motive, and do not threaten to escalate; a representation that reads as a complaint invites a refusal on tone alone.\n\nBoth forms open with the writer's standing: name, designation and office, so the recipient knows who is asking and in what capacity. Both close with the standard subscription, and both are signed with name and designation.\n\nThe single most useful habit in either is to make the ask unmistakable. An authority should be able to read the first and last sentences and know exactly what is wanted.",
+    "facts": [
+      "An application requests an entitlement; a representation seeks redress",
+      "Leave applications are routed through the immediate superior, marked 'Through:'",
+      "A representation sets out facts in date order before making any argument",
+      "Both open by stating the writer's name, designation and office",
+      "Supporting documents are listed in the enclosures"
+    ],
+    "traps": [
+      "Arguing before stating the facts in a representation, which reads as a grievance rather than a case",
+      "Attributing motive to an officer, which loses marks for register and invites refusal",
+      "Omitting the 'Through:' line on an application that must be routed via a superior",
+      "Leaving the specific relief sought implied rather than stated"
+    ],
+    "mnem": "",
+    "rel": [
+      "Formal, official and informal letters",
+      "Tone and register in government correspondence"
+    ]
+  },
+  {
+    "paper": "GE",
+    "unit": "2",
+    "unitTitle": "Letter Writing",
+    "sub": "Tone and register in government correspondence",
+    "def": "Official correspondence uses a restrained, impersonal register: courteous, specific, and free of both informality and inflated formality. Register is marked, and it is where candidates who know the format still lose marks.",
+    "exp": "The governing principle is that an official letter is written by an office, not a person. That produces the characteristic constructions: 'I am directed to inform you that...', 'It is requested that...', 'This office is unable to accede to the request'. The passive and the impersonal are correct here, even though they would be weak in other writing.\n\nBe courteous without being servile. 'I request you to kindly consider' is acceptable; 'I most humbly beg your kind indulgence' is not - the flowery register reads as dated and is penalised. Equally, do not slip into conversational English: no contractions, no 'thanks', no exclamation marks, no rhetorical questions.\n\nBe specific. Dates, file numbers, amounts and designations belong in the body, not vague references to 'the matter discussed earlier'. Specificity is what makes a letter actionable, and it is a marker of competence the examiner can see.\n\nBe brief. An official letter makes its point in as few paragraphs as the matter allows. Length is not respect.\n\nAnd keep the person consistent: an official letter stays in the third person about its subject matter, whatever the salutation. Drifting into 'you should have' partway through is a common and visible slip.",
+    "facts": [
+      "Standard formulations include 'I am directed to inform you' and 'It is requested that'",
+      "The impersonal and passive voice are correct in official letters",
+      "Contractions, exclamation marks and rhetorical questions are avoided",
+      "Dates, file numbers and designations are stated rather than referred to vaguely",
+      "Person and register stay consistent from salutation to subscription"
+    ],
+    "traps": [
+      "Over-formal, dated phrasing such as 'I humbly beg to state', which is penalised rather than rewarded",
+      "Sliding into conversational register partway through the body",
+      "Referring to 'the matter discussed earlier' instead of citing the letter number and date",
+      "Mistaking length for courtesy"
+    ],
+    "mnem": "",
+    "rel": [
+      "Applications and representations",
+      "Common letter-writing errors that cost marks"
+    ]
+  },
+  {
+    "paper": "GE",
+    "unit": "2",
+    "unitTitle": "Letter Writing",
+    "sub": "Common letter-writing errors that cost marks",
+    "def": "A short list of the recurring, avoidable losses. Every one of these is visible to an examiner at a glance, which is precisely why they are marked, and every one can be eliminated by checking the letter for thirty seconds before moving on.",
+    "exp": "Format errors first, because they are the cheapest to fix. Mismatched salutation and subscription. No subject line. No date, or a date without the letter number. A signature with a name but no designation. An attachment mentioned in the body but absent from the enclosures.\n\nStructural errors next. Burying the request so the reader finishes the letter unsure what is being asked. Setting out an argument before the facts in a representation. Running several unrelated matters into one letter - official practice is one subject per letter, which is why the subject line is singular.\n\nRegister errors. Flowery archaism at one extreme, conversational English at the other. Attributing motive. Using the first person in a letter that should be impersonal, or the third person in a D.O. that should be personal.\n\nAnd the error of the last minute: writing the body beautifully and leaving no time for the layout. The format carries its own marks, and they are awarded whether or not the prose is elegant. Lay the skeleton out first.\n\nThirty seconds of checking at the end recovers most of these. Read only the frame - salutation against subscription, subject present, date present, designation present, enclosures matching the body.",
+    "facts": [
+      "One subject per letter is the official convention",
+      "Format marks are awarded independently of the quality of the prose",
+      "The action sought belongs in the closing sentence of the body",
+      "An attachment named in the body must appear in the enclosures",
+      "A final check of the frame alone catches most avoidable losses"
+    ],
+    "traps": [
+      "Mismatching salutation and subscription, the most common single error",
+      "Combining several unrelated matters in one letter",
+      "Spending the available time on prose and leaving the layout incomplete",
+      "Mentioning an enclosure in the body and forgetting the 'Encl.' line"
+    ],
+    "mnem": "Check the frame: salutation, subject, date, designation, enclosures.",
+    "rel": [
+      "Salutations and subscriptions",
+      "The parts of an official letter",
+      "Tone and register in government correspondence"
+    ]
+  },
+  {
+    "paper": "GE",
+    "unit": "2",
+    "unitTitle": "Letter Writing",
+    "sub": "A worked official letter, start to finish",
+    "def": "A complete specimen: a plausible prompt, the letter laid out correctly, and a note on why each part sits where it does. Format is learnt by seeing one done, not by reading about it.",
+    "exp": "THE PROMPT\n\nYou are the System Manager, Mizoram Urban Development Agency Ltd., Aizawl. Write to the Deputy Commissioner, Aizawl District, requesting allotment of a room in the District Complex to house the Agency's server equipment, referring to a discussion held earlier.\n\nTHE LETTER\n\nFrom:\nThe System Manager,\nMizoram Urban Development Agency Ltd.,\nAizawl - 796001\n\nNo. MUDAL/IT/2026/47\nDated Aizawl, the 28th August, 2026\n\nTo:\nThe Deputy Commissioner,\nAizawl District,\nAizawl - 796001\n\nSubject: Request for allotment of a room in the District Complex for installation of server equipment\n\nReference: Discussion held in your office on the 12th August, 2026\n\nSir,\n\nWith reference to the discussion cited above, I am directed to request the allotment of one room of approximately 200 square feet in the District Complex for the installation of server and networking equipment of this Agency.\n\nThe Agency proposes to shift its server from the present rented premises, where the power supply is unstable and the room cannot be secured after office hours. A room on the ground floor with an independent electrical connection would be suitable. The Agency will meet the cost of air-conditioning and access control.\n\nIt is therefore requested that the allotment may kindly be sanctioned at an early date, so that the shifting may be completed before the close of the current financial year.\n\nYours faithfully,\n\n(A. Lalthanga)\nSystem Manager\nMizoram Urban Development Agency Ltd.\n\nEncl.: 1. Layout plan of the proposed room\n       2. Estimate of installation cost\n\nCopy to: The Managing Director, MUDAL, for information.\n\nWHY EACH PART SITS WHERE IT DOES\n\nThe sender's block and the letter number come first because the file is identified before the content. The subject follows the addressee so a clerk can route the letter without reading the body, and it is a noun phrase. The reference cites the earlier discussion, which is why the body can open with 'With reference to the discussion cited above' instead of re-narrating it.\n\n'Sir' pairs with 'Yours faithfully' because the letter is addressed to a designation, not a named person. The body runs opening, substance, action sought - and the request is restated explicitly in the closing paragraph so the reader cannot finish unsure what is wanted. The signature block carries the designation, because the office signs, not the individual. Both enclosures are named in the body and listed below.",
+    "facts": [
+      "The subject line follows the addressee's address and precedes the salutation",
+      "'Sir' pairs with 'Yours faithfully' because the addressee is a designation",
+      "The reference line lets the body open without re-narrating earlier correspondence",
+      "The action sought is restated in the closing paragraph of the body",
+      "Enclosures named in the body are listed after the signature block"
+    ],
+    "traps": [
+      "Placing the subject line above the addressee's address",
+      "Closing 'Yours sincerely' after 'Sir'",
+      "Signing without the designation, which makes an official letter read as a personal one",
+      "Leaving the request implied by the narrative instead of stating it in the close"
+    ],
+    "mnem": "",
+    "rel": [
+      "The parts of an official letter",
+      "Subject line, reference and enclosures",
+      "Salutations and subscriptions"
+    ]
+  }
+]

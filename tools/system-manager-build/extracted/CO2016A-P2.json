@@ -1,0 +1,832 @@
+[
+  {
+    "no": 1,
+    "q": "The rules followed by interconnected computers to communicate between them is",
+    "opts": { "A": "Hop", "B": "Consensus", "C": "Agreement", "D": "Protocols" },
+    "ans": "D",
+    "conf": "high",
+    "exp": "A protocol is the agreed set of rules governing format, timing, sequencing and error handling for data exchange between hosts. A hop is one router traversal; consensus and agreement are ordinary words with no such networking meaning.",
+    "needs_figure": false,
+    "page": 1
+  },
+  {
+    "no": 2,
+    "q": "What is the principle of optical fiber?",
+    "opts": { "A": "Total internal reflection", "B": "Reflection", "C": "Scattering", "D": "Refraction" },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Light entering the fibre core strikes the core-cladding boundary beyond the critical angle and is totally internally reflected, so it propagates along the fibre with almost no loss. Plain reflection and refraction describe only part of the effect; scattering is a loss mechanism, not the operating principle.",
+    "needs_figure": false,
+    "page": 1
+  },
+  {
+    "no": 3,
+    "q": "Which device transfers message in the form of broadcast?",
+    "opts": { "A": "Switch", "B": "Repeater", "C": "Hub", "D": "Bridge" },
+    "ans": "C",
+    "conf": "high",
+    "exp": "A hub is a dumb multiport repeater: a frame arriving on one port is flooded out of every other port, so all traffic is effectively broadcast. Switches and bridges learn MAC addresses and forward selectively, which is exactly the trap here.",
+    "needs_figure": false,
+    "page": 1
+  },
+  {
+    "no": 4,
+    "q": "What is the transmission mode that allowed data to travel only in one direction?",
+    "opts": { "A": "Simplex", "B": "Half Duplex", "C": "Full Duplex", "D": "Unimode" },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Simplex transmission is strictly unidirectional, like a keyboard to a CPU or a broadcast radio link. Half duplex allows both directions but only one at a time, and \"Unimode\" is not a transmission mode at all.",
+    "needs_figure": false,
+    "page": 1
+  },
+  {
+    "no": 5,
+    "q": "In OSI reference model, which layer is responsible for error checking between Source and Destination?",
+    "opts": { "A": "Application Layer", "B": "Presentation Layer", "C": "Session Layer", "D": "Transport Layer" },
+    "ans": "D",
+    "conf": "high",
+    "exp": "The Transport layer provides end-to-end (source-to-destination) reliability: checksums, acknowledgements and retransmission, as in TCP. The Data Link layer also does error checking, but only hop-by-hop between adjacent nodes, not source to destination.",
+    "needs_figure": false,
+    "page": 1
+  },
+  {
+    "no": 6,
+    "q": "Which topology gives the maximum connectivity?",
+    "opts": { "A": "Ring Topology", "B": "Star Topology", "C": "Mesh Topology", "D": "Bus Topology" },
+    "ans": "C",
+    "conf": "high",
+    "exp": "In a full mesh every node has a dedicated link to every other node, n(n-1)/2 links in all, giving maximum connectivity and redundancy. Ring, star and bus each give every node only one or two links.",
+    "needs_figure": false,
+    "page": 1
+  },
+  {
+    "no": 7,
+    "q": "All computers in a __________ need not be in a same network.",
+    "opts": { "A": "Work Group", "B": "Domain", "C": "Home Group", "D": "None of these" },
+    "ans": "B",
+    "conf": "medium",
+    "exp": "A Windows domain is a centrally managed logical grouping whose member computers can sit on different subnets or physical networks, since membership is defined by the domain controller. Workgroups and HomeGroups are peer-to-peer groupings that require the machines to be on the same local network.",
+    "needs_figure": false,
+    "page": 1
+  },
+  {
+    "no": 8,
+    "q": "To configure Static Client in Windows XP, you have to perform",
+    "opts": {
+      "A": "Click Start, Click Control Panel, Click Network and Internet connections and then Click Network connections",
+      "B": "Click Start, Click Setting, Click System Settings then click Network",
+      "C": "Right Click on My Computer, Click setting then Click Network Setting",
+      "D": "Click Start, Click run type Network setting.exe then press Enter"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "In Windows XP a static IP is set through Start > Control Panel > Network and Internet Connections > Network Connections, then the adapter's TCP/IP properties. The other three paths name applets and executables that do not exist in XP. Note this is period-specific: modern Windows uses Settings > Network & Internet.",
+    "needs_figure": false,
+    "page": 1
+  },
+  {
+    "no": 9,
+    "q": "Storing several copies of data in database System is called",
+    "opts": { "A": "Populated", "B": "Redundancy", "C": "Multiplica", "D": "Uncontrolled growth" },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Data redundancy is the storage of the same data in more than one place, the classic problem that normalisation and a DBMS are meant to control. \"Multiplica\" is not a term, and \"populated\" merely means a table has rows in it.",
+    "needs_figure": false,
+    "page": 2
+  },
+  {
+    "no": 10,
+    "q": "Which of the following will be useful in case of Hardware or Software failure in Distributed database system?",
+    "opts": { "A": "Data Replication", "B": "Robust Data", "C": "Encrypted Data", "D": "Data encapsulation" },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Replication keeps copies of a relation at several sites, so if one site's hardware or software fails the data is still reachable from another, which is exactly the availability benefit distributed DBMS texts cite. Encryption addresses confidentiality, not failure tolerance.",
+    "needs_figure": false,
+    "page": 2
+  },
+  {
+    "no": 11,
+    "q": "What is the primary goal of database System?",
+    "opts": {
+      "A": "To retrieve information from and store new information in database efficiently",
+      "B": "To utilise available hardware efficiently",
+      "C": "To satisfy user requirement in simple form",
+      "D": "To relate different data according to the user requirement"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Standard DBMS texts state the primary goal as providing a way to store and retrieve database information that is both convenient and efficient. Hardware utilisation and relating data are means or side effects, not the stated primary goal.",
+    "needs_figure": false,
+    "page": 2
+  },
+  {
+    "no": 12,
+    "q": "What is the field in the record that holds unique data in database system?",
+    "opts": { "A": "Unique field", "B": "Key field", "C": "Specific field", "D": "Critical field" },
+    "ans": "B",
+    "conf": "high",
+    "exp": "The key field (primary key) is the attribute whose value uniquely identifies each record in a table. \"Unique field\", \"specific field\" and \"critical field\" are not standard database terminology.",
+    "needs_figure": false,
+    "page": 2
+  },
+  {
+    "no": 13,
+    "q": "In Hierarchical Database Management system, how many parents can each child record have?",
+    "opts": { "A": "One parent", "B": "Two Parents", "C": "Three parents", "D": "Unlimited number of parents" },
+    "ans": "A",
+    "conf": "high",
+    "exp": "The hierarchical model is a tree, so every child segment has exactly one parent while a parent may have many children. Allowing a child several parents is what distinguishes the network (CODASYL) model from the hierarchical one.",
+    "needs_figure": false,
+    "page": 2
+  },
+  {
+    "no": 14,
+    "q": "What is the meaning of Integrity Constraint in Relational Database Management System?",
+    "opts": { "A": "No Candidate Key can be Null", "B": "No Primary Key can be Null", "C": "No Foreign Key can be Null", "D": "No Super Key can be Null" },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Entity integrity, the core integrity constraint of the relational model, requires that no attribute of a primary key may be null. Foreign keys, by contrast, are explicitly allowed to be null when no relationship exists, which makes (c) the trap.",
+    "needs_figure": false,
+    "page": 2
+  },
+  {
+    "no": 15,
+    "q": "In object Oriented Database Management System, object of a class contains variable defined in its super class is called",
+    "opts": { "A": "Linkage", "B": "Relation", "C": "Connectivity", "D": "Inheritance" },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Inheritance is the mechanism by which a subclass automatically acquires the variables and methods declared in its superclass. Linkage and connectivity are not object-oriented concepts, and \"relation\" belongs to the relational model.",
+    "needs_figure": false,
+    "page": 2
+  },
+  {
+    "no": 16,
+    "q": "Distributed Database Management System in which all sites have identical Database Management System Software is called",
+    "opts": { "A": "Unified Database", "B": "Homogenous Database", "C": "Single Mode Database", "D": "Universal Database" },
+    "ans": "B",
+    "conf": "high",
+    "exp": "A homogeneous distributed DBMS is one in which every site runs the same DBMS software and schema; when the sites run different products it is heterogeneous. The other three names are not standard terms.",
+    "needs_figure": false,
+    "page": 2
+  },
+  {
+    "no": 17,
+    "q": "In Three Level architecture, which level describes the Physical storage structure of database?",
+    "opts": { "A": "Internal level", "B": "Conceptual level", "C": "External level", "D": "Intermediate level" },
+    "ans": "A",
+    "conf": "high",
+    "exp": "The internal (physical) level of the ANSI/SPARC three-level architecture describes how the data is actually stored: file organisation, indexes, record layout. The conceptual level is the logical community view and the external level is a per-user view.",
+    "needs_figure": false,
+    "page": 2
+  },
+  {
+    "no": 18,
+    "q": "The capability to change the internal Schema without having to change the conceptual schema is called",
+    "opts": { "A": "Logical data independence", "B": "Physical data independence", "C": "Single data independence", "D": "One way data independence" },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Physical data independence insulates the conceptual schema from changes to the internal (storage) schema. Logical data independence is the other direction, insulating external views from changes to the conceptual schema.",
+    "needs_figure": false,
+    "page": 2
+  },
+  {
+    "no": 19,
+    "q": "In three Schema architecture, the process of transforming request and result between levels are called",
+    "opts": { "A": "Transformation", "B": "Interchange", "C": "Communication", "D": "Mapping" },
+    "ans": "D",
+    "conf": "high",
+    "exp": "The DBMS uses mappings (external/conceptual and conceptual/internal) to translate a request issued at one level into terms of the level below and to translate results back up. \"Transformation\" is the plausible-sounding distractor, but the textbook term is mapping.",
+    "needs_figure": false,
+    "page": 2
+  },
+  {
+    "no": 20,
+    "q": "Which one is the responsibility of Database administrator?",
+    "opts": { "A": "Retrieving Data", "B": "Storing Data", "C": "Defining Language", "D": "Authorising access" },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Granting and revoking access rights (authorisation and security administration) is a listed DBA duty. Storing and retrieving data is what the DBMS and end users do, and defining the data language is the job of the DBMS vendor or standards body.",
+    "needs_figure": false,
+    "page": 3
+  },
+  {
+    "no": 21,
+    "q": "In E-R diagram, which symbol is used to represent attribute?",
+    "opts": { "A": "Rectangle", "B": "Diamond", "C": "Oval", "D": "Arrow" },
+    "ans": "C",
+    "conf": "high",
+    "exp": "In Chen notation an ellipse or oval denotes an attribute. Rectangles denote entity sets and diamonds denote relationship sets, which is the pairing most often mixed up.",
+    "needs_figure": false,
+    "page": 3
+  },
+  {
+    "no": 22,
+    "q": "What is the entity that do not have key attribute of their own?",
+    "opts": { "A": "Weak entity type", "B": "Regular entity type", "C": "Strong entity type", "D": "Discrete entity type" },
+    "ans": "A",
+    "conf": "high",
+    "exp": "A weak entity type has no key attribute of its own and must be identified by combining its partial key with the primary key of an owning (identifying) entity. Regular and strong entity types are the same thing, and both do have their own keys.",
+    "needs_figure": false,
+    "page": 3
+  },
+  {
+    "no": 23,
+    "q": "If a class takes the properties of more than one super class, it is called",
+    "opts": { "A": "Multiple Inheritance", "B": "Multi Value Inheritance", "C": "Multi Level Inheritance", "D": "Multi Dimensional Inheritance" },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Multiple inheritance is a class deriving directly from two or more superclasses. Multi-level inheritance is the classic trap: that is a chain A to B to C, where each class still has only one immediate parent.",
+    "needs_figure": false,
+    "page": 3
+  },
+  {
+    "no": 24,
+    "q": "Taking the union of two or more disjoint entity set to produce higher level entity set is called",
+    "opts": { "A": "Specialisation", "B": "Aggregation", "C": "Generalisation", "D": "Categorisation" },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Generalisation is the bottom-up process of combining several disjoint lower-level entity sets into a single higher-level entity set on the basis of common features. Specialisation is the exact reverse (top-down), and aggregation treats a relationship as a higher-level entity.",
+    "needs_figure": false,
+    "page": 3
+  },
+  {
+    "no": 25,
+    "q": "The process of decomposing tables in Database to eliminate redundancy and undesirable characteristics is called",
+    "opts": { "A": "Analysis", "B": "Synthesis", "C": "Structuring", "D": "Normalisation" },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Normalisation is the stepwise decomposition of relations into smaller relations to remove redundancy and the insertion, update and deletion anomalies that follow from it. The other three are generic words, not database processes.",
+    "needs_figure": false,
+    "page": 3
+  },
+  {
+    "no": 26,
+    "q": "The First Normal Form (1NF) says that",
+    "opts": {
+      "A": "There should be no partial dependency",
+      "B": "Multivalue attribute must be a key",
+      "C": "An attribute value must be atomic",
+      "D": "There should not be more than one candidate Key"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "1NF requires every attribute value to be atomic (single-valued and indivisible), i.e. no repeating groups or multivalued attributes. Removing partial dependency on a composite key is the rule for 2NF, which is the common mix-up here.",
+    "needs_figure": false,
+    "page": 3
+  },
+  {
+    "no": 27,
+    "q": "Which statement is true?",
+    "opts": {
+      "A": "Every relation in 3NF is also BCNF",
+      "B": "Every relation in BCNF and 3NF are equivalent",
+      "C": "Every relation in 3NF is also BCNF",
+      "D": "Every relation in BCNF can be converted to its equivalent 3NF"
+    },
+    "ans": "D",
+    "conf": "low",
+    "exp": "BCNF is strictly stronger than 3NF, so every BCNF relation already satisfies 3NF and (d) is the only true statement; a 3NF relation need not be in BCNF. This question is misprinted: (a) and (c) carry word-for-word identical text, so the paper effectively offers only three distinct choices.",
+    "needs_figure": false,
+    "page": 3
+  },
+  {
+    "no": 28,
+    "q": "What is the Rule 1 of Codd's twelve rules?",
+    "opts": { "A": "Guaranteed access rule", "B": "View updating rule", "C": "Information rule", "D": "Comprehensive Data Sub sublanguage rule" },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Codd's Rule 1 is the Information Rule: all information in a relational database must be represented explicitly as values in tables. Guaranteed Access is Rule 2, the comprehensive data sublanguage is Rule 4 and view updating is Rule 6.",
+    "needs_figure": false,
+    "page": 3
+  },
+  {
+    "no": 29,
+    "q": "The upper part of query design window in Microsoft Access shows",
+    "opts": { "A": "Name of field, Field type and Size", "B": "Table with Field and Relationship", "C": "Criteria", "D": "Sorting Check Boxes" },
+    "ans": "B",
+    "conf": "high",
+    "exp": "The upper pane of Access query design view is the table/diagram pane, showing the source tables with their field lists and the join lines between them. Criteria and Sort rows belong to the lower design grid, and field type and size belong to table design view.",
+    "needs_figure": false,
+    "page": 3
+  },
+  {
+    "no": 30,
+    "q": "In Microsoft Access 2007, when creating table with table design the size of a field with number data type cannot be",
+    "opts": { "A": "Single", "B": "Double", "C": "Integer", "D": "Floating point" },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Access 2007 offers Byte, Integer, Long Integer, Single, Double, Replication ID and Decimal as Field Size choices for a Number field; \"Floating point\" is not one of them, even though Single and Double are themselves floating-point types. The question asks which cannot be chosen.",
+    "needs_figure": false,
+    "page": 3
+  },
+  {
+    "no": 31,
+    "q": "When creating a new table, in Microsoft Access 2003, which method can be used to choose fields from standard databases and tables?",
+    "opts": { "A": "Create table in design view", "B": "Create table using wizard", "C": "Create table by entering data", "D": "None of these" },
+    "ans": "B",
+    "conf": "high",
+    "exp": "The Table Wizard in Access 2003 presents ready-made sample business and personal tables and lets you pick individual fields from them. Design view and datasheet entry both require you to define your own fields from scratch.",
+    "needs_figure": false,
+    "page": 4
+  },
+  {
+    "no": 32,
+    "q": "Which of the following is not a type of Microsoft Access data object?",
+    "opts": { "A": "Table", "B": "Form", "C": "Worksheet", "D": "Modules" },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Access database objects are Tables, Queries, Forms, Reports, Macros and Modules. \"Worksheet\" is an Excel concept, not an Access object.",
+    "needs_figure": false,
+    "page": 4
+  },
+  {
+    "no": 33,
+    "q": "Microsoft Access is which type of Database system?",
+    "opts": {
+      "A": "Relational Database management system",
+      "B": "Object Oriented Database management system",
+      "C": "Object Relational Database management system",
+      "D": "Network Database Model"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Access stores data in related tables with primary and foreign keys and is marketed and taught as a relational DBMS (RDBMS). It has no class hierarchies or user-defined object types, so the object-oriented and object-relational choices do not apply.",
+    "needs_figure": false,
+    "page": 4
+  },
+  {
+    "no": 34,
+    "q": "How many heading tags are there in HTML?",
+    "opts": { "A": "5", "B": "6", "C": "7", "D": "8" },
+    "ans": "B",
+    "conf": "high",
+    "exp": "HTML defines six heading levels, <H1> through <H6>, with H1 the largest and most important. Still true in HTML5.",
+    "needs_figure": false,
+    "page": 4
+  },
+  {
+    "no": 35,
+    "q": "What is cookie?",
+    "opts": {
+      "A": "Computer code used to show animations and play sound",
+      "B": "Information sent to your computer that is used later to give information back to visited website",
+      "C": "Computer code that automatically records all purchases and payments made from a computer",
+      "D": "An advertisement that will at sometime be display on a computer"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "A cookie is a small piece of data a web server stores on the client and which the browser sends back on subsequent requests, letting the site recognise the user or session. It is inert data, not executable code, which rules out the two \"computer code\" choices.",
+    "needs_figure": false,
+    "page": 4
+  },
+  {
+    "no": 36,
+    "q": "The pages of the web sites are connected by",
+    "opts": { "A": "Hyperlink", "B": "Proxy Server", "C": "HTML server", "D": "Web Crawler" },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Hyperlinks (anchor elements) are what connect one web page to another and make the web a navigable hypertext. A crawler merely follows those links to index pages; it does not create the connection.",
+    "needs_figure": false,
+    "page": 4
+  },
+  {
+    "no": 37,
+    "q": "With the help of ......................, Web pages can be seen as stored on the web server.",
+    "opts": {
+      "A": "Hypertext Transfer Protocol (HTTP)",
+      "B": "Hypertext Transfer Protocol Secure (HTTPS)",
+      "C": "Browser",
+      "D": "ISP (Internet Service Provider)"
+    },
+    "ans": "C",
+    "conf": "medium",
+    "exp": "The browser is the client program that fetches a page and renders it so it appears as it was authored and stored on the server. HTTP is the transfer protocol underneath and an ISP only supplies connectivity; neither displays anything. The wording is loose, so HTTP is arguably defensible.",
+    "needs_figure": false,
+    "page": 4
+  },
+  {
+    "no": 38,
+    "q": "When a client connects to the server, makes a request, gets response, and then maintains connections to handle future request, this type of connection protocol is called",
+    "opts": { "A": "Stateless Protocol", "B": "Connectionless Protocol", "C": "Stateful Protocol", "D": "Connection Oriented Protocol" },
+    "ans": "C",
+    "conf": "medium",
+    "exp": "A stateful protocol retains session information and keeps the connection alive across successive requests, which is the behaviour described; HTTP is the standard counter-example of a stateless protocol. \"Connection Oriented Protocol\" is a fair competing reading, since TCP also maintains a connection, so this item is genuinely ambiguous.",
+    "needs_figure": false,
+    "page": 4
+  },
+  {
+    "no": 39,
+    "q": "Who is responsible for replying request coming from web browser for a file?",
+    "opts": { "A": "Network Administrator", "B": "File Transfer Protocol", "C": "Web Server", "D": "Internet" },
+    "ans": "C",
+    "conf": "high",
+    "exp": "The web server process (Apache, IIS, nginx) receives the browser's HTTP request and returns the requested file as the response. FTP is a separate protocol for file transfer and is not what a browser's page request uses.",
+    "needs_figure": false,
+    "page": 4
+  },
+  {
+    "no": 40,
+    "q": "Transferring a file from a computer to Net server is",
+    "opts": { "A": "File Handling", "B": "Uploading", "C": "Downloading", "D": "Server Feeding" },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Sending a file from your own machine up to a remote server is uploading; downloading is the opposite direction, server to client. \"Server feeding\" is not a term.",
+    "needs_figure": false,
+    "page": 4
+  },
+  {
+    "no": 41,
+    "q": "One of the several considerations to be made while designing web page is",
+    "opts": {
+      "A": "Used compressed images so that a web page gets quickly loaded",
+      "B": "Make button and link as much as possible so that user can navigate to other web sites",
+      "C": "Make the page that is compatible with specific browser",
+      "D": "Each web page must be divided into two parts one for title another for description"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Compressing images to cut page weight and load time is a standard web-design guideline. Piling on links, targeting only one browser (good practice is cross-browser compatibility) and forcing a two-part layout are all bad or invented advice.",
+    "needs_figure": false,
+    "page": 5
+  },
+  {
+    "no": 42,
+    "q": "One of the important points of planning web site is",
+    "opts": {
+      "A": "Identify where the server is located",
+      "B": "Define the target audience",
+      "C": "Define number of links so that it is not required to update in future",
+      "D": "Identify Number of users"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Website planning starts with purpose and audience: knowing who the site is for drives content, structure and design. Server location is a hosting detail, and fixing the link count to avoid future updates contradicts how sites are maintained.",
+    "needs_figure": false,
+    "page": 5
+  },
+  {
+    "no": 43,
+    "q": "Which of the following is not internet search engine?",
+    "opts": { "A": "Google", "B": "Infoseek", "C": "Excite", "D": "Scientreans" },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Google, Infoseek and Excite were all real search engines of the 1990s and 2000s; \"Scientreans\" is not a search engine and appears to be invented. Infoseek and Excite are period references and no longer operate as search engines today.",
+    "needs_figure": false,
+    "page": 5
+  },
+  {
+    "no": 44,
+    "q": "An HTML file starts with the tag",
+    "opts": { "A": "<TITLE>", "B": "<HEAD>", "C": "<BODY>", "D": "<HTML>" },
+    "ans": "D",
+    "conf": "high",
+    "exp": "<HTML> is the root element that encloses the whole document; <HEAD>, <TITLE> and <BODY> all sit inside it. (In modern practice a <!DOCTYPE html> declaration precedes it, but that is a declaration, not a tag.)",
+    "needs_figure": false,
+    "page": 5
+  },
+  {
+    "no": 45,
+    "q": "Which of the following is used as a dimension in a frame?",
+    "opts": { "A": "Relative", "B": "Percentage", "C": "Absolute", "D": "All of these" },
+    "ans": "D",
+    "conf": "high",
+    "exp": "The ROWS and COLS attributes of <FRAMESET> accept absolute pixel values, percentages and relative values using the asterisk, so all three forms are valid. Frames themselves are obsolete and were dropped in HTML5.",
+    "needs_figure": false,
+    "page": 5
+  },
+  {
+    "no": 46,
+    "q": "VRML code is based on",
+    "opts": { "A": "BCD", "B": "ASCII", "C": "Unicode", "D": "Hex Code" },
+    "ans": "B",
+    "conf": "medium",
+    "exp": "A VRML world file is a plain human-readable text file, and textbooks of this era describe VRML code as ASCII text, which is how the paper frames it. Strictly, the VRML97 specification mandates UTF-8, so the Unicode answer is technically defensible.",
+    "needs_figure": false,
+    "page": 5
+  },
+  {
+    "no": 47,
+    "q": "Which of the following gives the equivalence between VRML and HTML?",
+    "opts": {
+      "A": "VRML is 1D equivalent to HTML",
+      "B": "VRML is 2D equivalent to HTML",
+      "C": "VRML is 3D equivalent to HTML",
+      "D": "VRML is Multidimensional equivalent to HTML"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "VRML (Virtual Reality Modeling Language) is routinely described as the 3D analogue of HTML: it describes three-dimensional scenes for the web the way HTML describes 2D documents.",
+    "needs_figure": false,
+    "page": 5
+  },
+  {
+    "no": 48,
+    "q": "What part of the web page should the <TITLE> tag be used in?",
+    "opts": { "A": "Head", "B": "Footnote", "C": "Body", "D": "Anywhere" },
+    "ans": "A",
+    "conf": "high",
+    "exp": "<TITLE> is metadata and belongs inside <HEAD>; it supplies the text shown in the browser title bar or tab, not content in the page. Placing it in <BODY> is invalid HTML.",
+    "needs_figure": false,
+    "page": 5
+  },
+  {
+    "no": 49,
+    "q": "Which of the following is an italic tag?",
+    "opts": { "A": "<IT>", "B": "<LI>", "C": "<I>", "D": "<ILI>" },
+    "ans": "C",
+    "conf": "high",
+    "exp": "<I> renders text in italics. <LI> is a list item, and <IT> and <ILI> are not HTML tags at all.",
+    "needs_figure": false,
+    "page": 5
+  },
+  {
+    "no": 50,
+    "q": "What is the tag to be used to create an ordered list?",
+    "opts": { "A": "<UL> </UL>", "B": "<P> </P>", "C": "<A> </A>", "D": "<OL> </OL>" },
+    "ans": "D",
+    "conf": "high",
+    "exp": "<OL> creates an ordered (numbered) list; <UL> creates an unordered (bulleted) one, which is the standard trap in this pair.",
+    "needs_figure": false,
+    "page": 5
+  },
+  {
+    "no": 51,
+    "q": "Which of the following does not require closing tag?",
+    "opts": { "A": "<H1>", "B": "<SUB>", "C": "<BR>", "D": "<P>" },
+    "ans": "C",
+    "conf": "high",
+    "exp": "<BR> is an empty (void) element that inserts a line break and has no content, so it has no closing tag. <P>'s closing tag is optional in HTML but the element still exists as a container, whereas <H1> and <SUB> genuinely require closing.",
+    "needs_figure": false,
+    "page": 5
+  },
+  {
+    "no": 52,
+    "q": "The <ADDRESS> tag is similar to",
+    "opts": { "A": "Italic and Bold facing", "B": "Emphasis or Bold facing", "C": "Color Alignment", "D": "Italic or Emphasis" },
+    "ans": "D",
+    "conf": "medium",
+    "exp": "Browsers render the <ADDRESS> element in italics by default, the same visual effect as <I> or <EM>, so its appearance matches italic/emphasis rather than bold. No bolding is applied, which eliminates the two \"bold facing\" choices.",
+    "needs_figure": false,
+    "page": 6
+  },
+  {
+    "no": 53,
+    "q": "Which script is designed to receive value from the web user?",
+    "opts": { "A": "WebScript", "B": "CGIScript", "C": "JavaScript", "D": "ShellScript" },
+    "ans": "B",
+    "conf": "medium",
+    "exp": "A CGI script is the server-side program a form POSTs to; it exists specifically to receive the values a web user submits and act on them. JavaScript can read form fields but runs on the client, and \"WebScript\" is not a real technology.",
+    "needs_figure": false,
+    "page": 6
+  },
+  {
+    "no": 54,
+    "q": "The environment provided by ASP is based on",
+    "opts": { "A": "Client/Server", "B": "Network", "C": "Centralised System", "D": "Distributed System" },
+    "ans": "A",
+    "conf": "medium",
+    "exp": "Active Server Pages execute on the web server and return generated HTML to a requesting browser, the textbook client/server arrangement. \"Network\" and \"centralised\" are too vague to be the intended term.",
+    "needs_figure": false,
+    "page": 6
+  },
+  {
+    "no": 55,
+    "q": "VB Script can perform",
+    "opts": { "A": "Calculation on Data", "B": "Create 3D animation effect", "C": "Presentation of Fixed information", "D": "All of these" },
+    "ans": "A",
+    "conf": "medium",
+    "exp": "VBScript is a lightweight scripting language for validation, logic and arithmetic on data; it has no 3D graphics capability, so \"All of these\" cannot hold. Presenting fixed information needs no script at all, which is why plain calculation is the intended answer.",
+    "needs_figure": false,
+    "page": 6
+  },
+  {
+    "no": 56,
+    "q": "What is the key difference between Java and JavaScript?",
+    "opts": {
+      "A": "The JavaScript language structure is simpler than java",
+      "B": "JavaScript is high level language where Java is not",
+      "C": "JavaScript is suitable for internet while Java is not",
+      "D": "JavaScript provide Applet while Java is not"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "JavaScript is an interpreted, loosely typed scripting language with a much simpler structure than Java, which is a compiled, strongly typed, class-based language. Java is also high level and internet-capable, and it is Java (not JavaScript) that provides applets, so the other three are factually false.",
+    "needs_figure": false,
+    "page": 6
+  },
+  {
+    "no": 57,
+    "q": "For Non Programmer, the tool for developing website is",
+    "opts": { "A": "Microsoft Front Page", "B": "Adobe After Effect", "C": "Netscape Navigator", "D": "Corel Draw" },
+    "ans": "A",
+    "conf": "high",
+    "exp": "FrontPage was Microsoft's WYSIWYG web authoring tool, letting non-programmers build sites without hand-coding HTML. After Effects and CorelDRAW are graphics packages and Netscape Navigator was a browser, not an authoring tool. FrontPage was discontinued in 2006, so this is a period answer.",
+    "needs_figure": false,
+    "page": 6
+  },
+  {
+    "no": 58,
+    "q": "What type of object can be drawn using Macromedia Flash?",
+    "opts": { "A": "Scalar based", "B": "Vector based", "C": "Matrix based", "D": "Array based" },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Flash drawings are vector graphics, which is why Flash animations scale without pixellation and stay small in file size. Bitmap (raster) images could be imported but were not what Flash's drawing tools produced.",
+    "needs_figure": false,
+    "page": 6
+  },
+  {
+    "no": 59,
+    "q": "What are the two methods of interview?",
+    "opts": {
+      "A": "Structured and Unstructured interview",
+      "B": "Problem and Periodical Interview",
+      "C": "Selection and Group interview",
+      "D": "Situational and Sequential interview"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "The standard two-way classification of interviews is structured (fixed, pre-planned questions) versus unstructured (open, free-flowing). The other pairs mix up interview types that are not a two-method classification.",
+    "needs_figure": false,
+    "page": 6
+  },
+  {
+    "no": 60,
+    "q": "The First Step in interview preparation is",
+    "opts": {
+      "A": "Practice the interview",
+      "B": "Dress appropriately on the day of interview",
+      "C": "Learn as much as you can about the organisation",
+      "D": "Identify your key skills"
+    },
+    "ans": "C",
+    "conf": "medium",
+    "exp": "Interview-preparation checklists open with researching the employer, since knowing the organisation shapes what you rehearse and which of your skills you highlight. Dressing appropriately happens on the day, not in preparation, and practising comes after you know what you are practising for. Identifying your key skills is a close second-best answer.",
+    "needs_figure": false,
+    "page": 6
+  },
+  {
+    "no": 61,
+    "q": "What is the letter layout that does not have indention from left margin so that every line begins at the left margin?",
+    "opts": { "A": "Hanging indent form", "B": "Full block form", "C": "Semi indent form", "D": "NOMA form" },
+    "ans": "B",
+    "conf": "high",
+    "exp": "In the full block letter style every element, including date, address, salutation and paragraphs, is flush with the left margin with no indentation. A hanging indent indents all lines after the first, and the semi-block/modified forms indent paragraphs or shift the date and closing right.",
+    "needs_figure": false,
+    "page": 6
+  },
+  {
+    "no": 62,
+    "q": "If you are to send a letter to an organisation, and you know the person who is handling the matter and you want your letter to go to that person without delay. Which part of the letter should be included?",
+    "opts": { "A": "Inside address", "B": "Special marking", "C": "Attention line", "D": "The reference" },
+    "ans": "C",
+    "conf": "medium",
+    "exp": "An attention line (\"Attention: Mr X\" / \"Kind attention of\") is placed below the inside address precisely to route a letter addressed to an organisation to a named individual. Special markings such as \"Confidential\" or \"Urgent\" affect handling, not the recipient, and the inside address names the organisation itself.",
+    "needs_figure": false,
+    "page": 6
+  },
+  {
+    "no": 63,
+    "q": "In a resume, in what order should the professional experience be written?",
+    "opts": {
+      "A": "Ascending order (no particular focus)",
+      "B": "Alphabetical order (focus on all experience equally)",
+      "C": "Chronological order (focus on first experience)",
+      "D": "Reverse chronological order (focus on the last experience)"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Resumes list work history in reverse chronological order, most recent position first, because the latest role is the most relevant to a recruiter. Plain chronological order buries current experience at the bottom, and alphabetical order is never used for jobs.",
+    "needs_figure": false,
+    "page": 7
+  },
+  {
+    "no": 64,
+    "q": "What are the two types of correspondences?",
+    "opts": {
+      "A": "Internal and External correspondences",
+      "B": "Local and Outside correspondences",
+      "C": "Single and Multiple correspondences",
+      "D": "Upward and Downward correspondences"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Office correspondence is classified as internal (within the organisation: memos, circulars, notes) and external (with outside parties: customers, suppliers, government). Upward and downward describe the direction of internal communication, a sub-division rather than the main two types.",
+    "needs_figure": false,
+    "page": 7
+  },
+  {
+    "no": 65,
+    "q": "What are the classifications of mail in an office?",
+    "opts": {
+      "A": "Priority and Standard mails",
+      "B": "Personal and Official mails",
+      "C": "Physical and Electronic mails",
+      "D": "Incoming and Outgoing mails"
+    },
+    "ans": "D",
+    "conf": "medium",
+    "exp": "Office-practice texts classify mail handling as inward (incoming) and outward (outgoing), each with its own register and routine. The other splits are real distinctions but are not the standard office-mail classification.",
+    "needs_figure": false,
+    "page": 7
+  },
+  {
+    "no": 66,
+    "q": "Fill in the next number in the series: 2, 5, 11, 23, 47, ___",
+    "opts": { "A": "59", "B": "70", "C": "95", "D": "98" },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Each term is double the previous term plus one: 2x2+1=5, 5x2+1=11, 11x2+1=23, 23x2+1=47, so 47x2+1=95. Equivalently the gaps 3, 6, 12, 24, 48 double each time, and 47+48=95.",
+    "needs_figure": false,
+    "page": 7
+  },
+  {
+    "no": 67,
+    "q": "Liana and Sanga together can finish a job in eight days. Liana can do the same job on his own in 12 days. How long will Sanga take to do the job by himself?",
+    "opts": { "A": "16", "B": "24", "C": "26", "D": "30" },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Combined rate = 1/8 of the job per day; Liana's rate = 1/12 per day. Sanga's rate = 1/8 - 1/12 = 3/24 - 2/24 = 1/24, so he needs 24 days alone.",
+    "needs_figure": false,
+    "page": 7
+  },
+  {
+    "no": 68,
+    "q": "Rearrange the parts which are labeled P, Q, R, and S to produce the correct sentence. Choose the proper sequence. It was — P: in keeping with my mood; Q: a soft summer evening; R: as I walked sedately; S: in the direction of new house. The proper sequence should be:",
+    "opts": { "A": "SRPQ", "B": "QRPS", "C": "QPRS", "D": "SQRP" },
+    "ans": "C",
+    "conf": "medium",
+    "exp": "\"It was a soft summer evening (Q), in keeping with my mood (P), as I walked sedately (R) in the direction of new house (S)\" is the only reading in which the noun phrase Q completes \"It was\" and S attaches to the verb \"walked\" in R. Sequences beginning with S leave \"It was in the direction of...\" ungrammatical.",
+    "needs_figure": false,
+    "page": 7
+  },
+  {
+    "no": 69,
+    "q": "Choose the correct meaning of proverb/idiom — 'To drive home'",
+    "opts": { "A": "To find one's roots", "B": "To return to place of rest", "C": "Back to original position", "D": "To emphasise" },
+    "ans": "D",
+    "conf": "high",
+    "exp": "\"To drive home\" means to state something forcefully so that it is fully understood, i.e. to emphasise a point. The literal-sounding choices about returning home are the trap in every idiom question of this type.",
+    "needs_figure": false,
+    "page": 7
+  },
+  {
+    "no": 70,
+    "q": "Which figure is the odd one out? (Four boxed figures labelled A, B, C, D, each a cross with four small squares — two filled, two hollow — attached at the arm ends.)",
+    "opts": { "A": "A", "B": "B", "C": "C", "D": "D" },
+    "ans": "C",
+    "conf": "low",
+    "exp": "Comparing each figure under all four rotations, B and D are exact rotations of one another (180 degrees) and A matches each of them to within a single square, whereas C differs from B and from D in two squares each and is a mirror rather than a rotation. Reading the small filled/hollow squares off this 1-bit fax scan is genuinely marginal, so treat this as tentative.",
+    "needs_figure": true,
+    "page": 7
+  },
+  {
+    "no": 71,
+    "q": "Which figure is next in series? (A row of six dominoes followed by a seventh showing '?' in both halves, then four domino options A, B, C, D.)",
+    "opts": { "A": "A", "B": "B", "C": "C", "D": "D" },
+    "ans": "B",
+    "conf": "medium",
+    "exp": "The dominoes read 6/2, 2/5, 4/1, 1/3, 2/0, 0/1, so the odd-numbered dominoes run 6/2, 4/1, 2/0 — top halves falling 6, 4, 2 and bottom halves falling 2, 1, 0. The seventh continues that thread with a top of 0 and a bottom of 6 once the count wraps round the 0-6 domino range, and B is the only option with an empty top half.",
+    "needs_figure": true,
+    "page": 8
+  },
+  {
+    "no": 72,
+    "q": "Which figure complete the series? (Four rectangles, each a 3x3 grid partly filled with solid black and hollow white squares, then four options A, B, C, D.)",
+    "opts": { "A": "A", "B": "B", "C": "C", "D": "D" },
+    "ans": "A",
+    "conf": "medium",
+    "exp": "At each step every square already present flips colour (black to white, white to black) and one new black square is added, the new squares appearing along the bottom row left to right and then up the right column. Applying both rules to the fourth figure gives black-blank-black on top, white-blank-white in the middle and black-white-black along the bottom, which is A; B is that same pattern with every colour inverted.",
+    "needs_figure": true,
+    "page": 8
+  },
+  {
+    "no": 73,
+    "q": "A man starts walking towards south. After walking 10m he turns left at right angles. Then after 15m he again turns left at right angles. In what direction is he finally walking?",
+    "opts": { "A": "north", "B": "south", "C": "east", "D": "west" },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Facing south, a left turn points him east; walking 15 m and turning left again from east points him north. Two successive left turns always reverse the original direction, and the reverse of south is north.",
+    "needs_figure": false,
+    "page": 8
+  },
+  {
+    "no": 74,
+    "q": "A clock shows the time as 12:25. What is the angle the hour hand makes with the minutes' hand?",
+    "opts": { "A": "130", "B": "140", "C": "150", "D": "160" },
+    "ans": "B",
+    "conf": "low",
+    "exp": "In 25 minutes the minute hand sweeps 25x6 = 150 degrees while the hour hand creeps 25x0.5 = 12.5 degrees past the 12, so the true angle is 150 - 12.5 = 137.5 degrees. No printed choice equals that; 140 is the nearest, while 150 is what you get only by wrongly treating the hour hand as fixed on the 12. The options are defective.",
+    "needs_figure": false,
+    "page": 8
+  },
+  {
+    "no": 75,
+    "q": "What comes next in the following letter series: BEI, DGK, FIM, HKO....",
+    "opts": { "A": "JMN", "B": "JMQ", "C": "JMP", "D": "KMP" },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Each position advances by two letters per term: first letters B, D, F, H then J; second letters E, G, I, K then M; third letters I, K, M, O then Q. That gives JMQ.",
+    "needs_figure": false,
+    "page": 8
+  }
+]

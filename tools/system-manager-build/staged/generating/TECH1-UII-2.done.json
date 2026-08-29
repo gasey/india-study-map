@@ -1,0 +1,262 @@
+[
+  {
+    "sub": "File Recovery",
+    "q": "A user has emptied the Recycle Bin and now needs an important file back. What is the most important immediate step to improve the chance of recovering it?",
+    "opts": {
+      "A": "Defragment the drive so the deleted file is moved back together",
+      "B": "Stop writing any new data to that drive and attempt recovery as soon as possible",
+      "C": "Format the drive and then run a file recovery program on it",
+      "D": "Run a full disk check with repair options on the drive first"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Deleting a file usually only marks its space as free; the data survives until something else is written over that space, so every further write reduces the chance of recovery. Defragmenting, formatting or running repair utilities all write to the drive and therefore make recovery less likely, not more."
+  },
+  {
+    "sub": "File Recovery",
+    "q": "Which Windows feature lets a user restore an earlier saved copy of a file or folder taken from a shadow copy or restore point?",
+    "opts": {
+      "A": "Recycle Bin",
+      "B": "Disk Cleanup",
+      "C": "Previous Versions",
+      "D": "Quick Format"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Previous Versions exposes older copies of a file or folder captured by shadow copies or restore points, so a file can be rolled back even if it was overwritten rather than deleted. The Recycle Bin only holds files that were deleted through Explorer and keeps just the one deleted copy, not a history of earlier versions."
+  },
+  {
+    "sub": "Device Manager",
+    "q": "A newly connected scanner is not working and the driver is suspected. Which tool is opened to check the device's status and update its driver?",
+    "opts": {
+      "A": "Device Manager",
+      "B": "Disk Management",
+      "C": "Event Viewer",
+      "D": "Resource Monitor"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Device Manager is the console that lists the hardware attached to the computer along with its drivers, and it is where drivers are updated, rolled back, disabled or uninstalled. Event Viewer may record that the device failed, but it cannot manage the driver itself."
+  },
+  {
+    "sub": "Device Manager",
+    "q": "In Device Manager, a device listed with a yellow warning marker beside it indicates that:",
+    "opts": {
+      "A": "The device has been switched off to save power",
+      "B": "The device is being shared with other users on the network",
+      "C": "The device is newer than the installed version of Windows",
+      "D": "The device has a problem, typically a missing or malfunctioning driver"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "The yellow warning marker in Device Manager flags a device that Windows has detected but cannot use correctly, most often because its driver is missing, wrong or has failed to start. Power saving and network sharing are not shown by this marker at all."
+  },
+  {
+    "sub": "Disk Management",
+    "q": "A second hard disk has been fitted to a PC but does not appear in File Explorer. Which tool is used to bring it online, create a volume on it and assign a drive letter?",
+    "opts": {
+      "A": "Device Manager",
+      "B": "Task Manager",
+      "C": "Disk Management",
+      "D": "Services"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Disk Management is the console for disks, partitions and volumes, and it handles initialising a new disk, creating and formatting volumes, and assigning or changing drive letters. Device Manager would show that the disk hardware is present, but it cannot partition or format it."
+  },
+  {
+    "sub": "Disk Management",
+    "q": "In Disk Management, the ordinary default disk type used by Windows, which stores data in primary and logical partitions, is called a:",
+    "opts": {
+      "A": "Basic disk",
+      "B": "Dynamic disk",
+      "C": "Spanned volume",
+      "D": "Mounted folder"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "A basic disk is the standard disk type, organised into ordinary partitions, and it is what a newly initialised disk becomes by default. A dynamic disk is the alternative type that must be converted to before advanced layouts such as spanned volumes can be created."
+  },
+  {
+    "sub": "Task Manager",
+    "q": "An application has stopped responding and will not close normally. Which tool gives the quickest way to force it to close?",
+    "opts": {
+      "A": "Event Viewer",
+      "B": "Disk Management",
+      "C": "Performance Monitor",
+      "D": "Task Manager"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Task Manager lists the running applications and processes and provides the End task option that terminates a hung program immediately. Event Viewer would only record the crash afterwards, and Performance Monitor merely collects measurements without controlling processes."
+  },
+  {
+    "sub": "Task Manager",
+    "q": "Which tab of Task Manager lists the programs configured to run automatically when Windows starts, and allows them to be disabled?",
+    "opts": {
+      "A": "Processes",
+      "B": "Startup",
+      "C": "Performance",
+      "D": "Details"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "The Startup tab shows the programs that launch at sign-in together with their impact on boot time, and lets each one be enabled or disabled. The Processes and Details tabs list what is running at this moment, which is not the same as what is set to start later."
+  },
+  {
+    "sub": "Resource Monitor",
+    "q": "You must identify the single process causing continuous heavy disk activity, including the exact files it is reading and writing. Which tool provides this level of detail?",
+    "opts": {
+      "A": "Resource Monitor",
+      "B": "Task Manager",
+      "C": "Device Manager",
+      "D": "Event Viewer"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Resource Monitor drills down per process and per resource, listing the individual files a process is reading or writing and the network connections it holds. Task Manager will show that disk usage is high and which process is busiest, but it does not name the files involved."
+  },
+  {
+    "sub": "Resource Monitor",
+    "q": "Compared with Task Manager, what does Resource Monitor mainly add?",
+    "opts": {
+      "A": "It lists all installed hardware together with their driver versions",
+      "B": "It stores the System, Application and Security logs for later reading",
+      "C": "It breaks activity down per process, showing the files, handles and network connections each one is using",
+      "D": "It records counter readings to a log file for several weeks of trend analysis"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Resource Monitor sits between the quick summary of Task Manager and long-term logging, giving a detailed live breakdown of CPU, disk, network and memory activity attributed to individual processes. Listing hardware is Device Manager's job, storing logs is Event Viewer's, and long-term counter logging is what Performance Monitor is designed for."
+  },
+  {
+    "sub": "Event Viewer",
+    "q": "A Windows computer restarted unexpectedly overnight with no explanation. Which tool should be checked first for recorded errors and shutdown messages from that time?",
+    "opts": {
+      "A": "Task Manager",
+      "B": "Event Viewer",
+      "C": "Disk Management",
+      "D": "Device Manager"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Event Viewer keeps the timestamped logs of errors, warnings and information messages raised by Windows and applications, so it is the standard first place to look after an unexplained failure. Task Manager only shows the present moment and keeps no history of what happened overnight."
+  },
+  {
+    "sub": "Event Viewer",
+    "q": "In Event Viewer, failed logon attempts on a computer are recorded in which log?",
+    "opts": {
+      "A": "Application",
+      "B": "System",
+      "C": "Setup",
+      "D": "Security"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "The Security log holds audit records such as successful and failed logon attempts and other access events, which makes it the log examined during a security investigation. The System log records events raised by Windows components and drivers, and the Application log records events raised by installed programs."
+  },
+  {
+    "sub": "Services",
+    "q": "Which service startup type means the service will not run at all, and cannot even be started manually, until the setting is changed?",
+    "opts": {
+      "A": "Automatic",
+      "B": "Manual",
+      "C": "Disabled",
+      "D": "Automatic (Delayed Start)"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Disabled blocks the service from starting by any means until an administrator changes the startup type back. Manual is the type that keeps the service stopped at boot but still allows it to be started on demand, which is the distinction being tested."
+  },
+  {
+    "sub": "Services",
+    "q": "In Windows, a service is best described as:",
+    "opts": {
+      "A": "A program that runs in the background, usually with no user interface, and can start automatically when the computer boots",
+      "B": "A shortcut that a user has placed in the Startup folder",
+      "C": "A driver file supplied by a hardware manufacturer",
+      "D": "A batch file that has been scheduled to run once each day"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Services are long-running background programs, such as the print spooler or a database engine, that present no window and are usually configured to start with the operating system rather than with a user session. A shortcut in the Startup folder runs only after a particular user logs on and is an ordinary application, not a service."
+  },
+  {
+    "sub": "Performance Monitoring",
+    "q": "An administrator wants to collect CPU, memory and disk counter readings continuously for two weeks in order to establish a baseline. Which tool is designed for this?",
+    "opts": {
+      "A": "Task Manager",
+      "B": "Resource Monitor",
+      "C": "Event Viewer",
+      "D": "Performance Monitor"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Performance Monitor selects specific counters and logs their values over time, which is what makes long-term trend analysis and baselining possible. Task Manager and Resource Monitor both display live activity and are not intended to record weeks of data for later comparison."
+  },
+  {
+    "sub": "Performance Monitoring",
+    "q": "Why does an administrator record a performance baseline for a server?",
+    "opts": {
+      "A": "To free disk space by removing old log files automatically",
+      "B": "To know what the normal readings are, so that later abnormal figures can be recognised",
+      "C": "To install any missing device drivers without user intervention",
+      "D": "To restore files that were deleted from the Recycle Bin"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "A baseline is a record of how the system behaves under normal conditions, and without it a later reading such as 70 per cent memory use cannot be judged as acceptable or alarming. Baselining measures the system; it neither cleans up disk space nor changes any configuration."
+  },
+  {
+    "sub": "PowerShell Fundamentals",
+    "q": "PowerShell commands are called cmdlets and follow a standard naming pattern. Which pattern is it?",
+    "opts": {
+      "A": "Verb-Noun, such as Get-Process",
+      "B": "Noun-Verb, such as Process-Get",
+      "C": "An abbreviation of the full command, such as gtprc",
+      "D": "A verb on its own, such as Get"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Every cmdlet is named as an approved verb followed by a hyphen and a singular noun, giving predictable names such as Get-Process, Get-Service and Stop-Service. This consistency lets an administrator guess a command's name from what it does, which is one of PowerShell's design goals."
+  },
+  {
+    "sub": "PowerShell Fundamentals",
+    "q": "What is the key difference between the PowerShell pipeline and the Command Prompt pipeline?",
+    "opts": {
+      "A": "PowerShell can run only one command at a time, so it has no pipeline",
+      "B": "Command Prompt passes objects between commands while PowerShell passes plain text",
+      "C": "PowerShell passes structured objects between commands, while Command Prompt passes plain text",
+      "D": "Both pass plain text, but PowerShell shows it in colour"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "In PowerShell the output of one cmdlet is a set of objects with named properties, so the next cmdlet can filter or sort on those properties directly. Command Prompt pipes only a stream of characters, which is why text there has to be parsed with tools such as find before it can be used."
+  },
+  {
+    "sub": "Basic Batch Files",
+    "q": "A simple script containing a list of Windows commands that are run one after another is traditionally saved with which file extension?",
+    "opts": {
+      "A": ".exe",
+      "B": ".bat",
+      "C": ".ps1",
+      "D": ".txt"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "A batch file is a plain text file of commands saved with the .bat extension, which the command interpreter then executes line by line. The .ps1 extension belongs to PowerShell scripts and .exe is a compiled program, neither of which is a batch file."
+  },
+  {
+    "sub": "Basic Batch Files",
+    "q": "In a batch file, what is the effect of placing @ECHO OFF on the first line?",
+    "opts": {
+      "A": "All output produced by the batch file is suppressed",
+      "B": "The batch file stops running at the first command that fails",
+      "C": "The batch file is run with administrator rights",
+      "D": "The commands themselves are not displayed on screen as the file runs"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "ECHO OFF stops the interpreter from printing each command before executing it, and the leading @ hides that line itself, giving clean output. The commands still run and their own output still appears, so this is not the same as suppressing all output."
+  }
+]

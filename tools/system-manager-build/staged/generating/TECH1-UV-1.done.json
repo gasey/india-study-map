@@ -1,0 +1,210 @@
+[
+  {
+    "sub": "SmartArt",
+    "q": "A slide must show the five stages a file passes through in an office, one after another from receipt to disposal. Which SmartArt layout category is designed for this?",
+    "opts": {
+      "A": "Cycle",
+      "B": "Hierarchy",
+      "C": "Process",
+      "D": "Relationship"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Process layouts show steps moving in one direction from a beginning to an end, which is exactly a start-to-finish workflow. Cycle is the tempting alternative, but it is meant for stages that return to the beginning and repeat, which a receipt-to-disposal sequence does not."
+  },
+  {
+    "sub": "SmartArt",
+    "q": "A slide contains a text placeholder with six bullet points. What does the 'Convert to SmartArt' option do to it?",
+    "opts": {
+      "A": "It keeps the bullet text and places each point inside a shape of the chosen diagram",
+      "B": "It deletes the bullets and inserts an empty diagram for the user to fill in",
+      "C": "It turns the bullets into a chart whose bars are sized by the length of each line",
+      "D": "It moves the bullets into the notes pane and puts a picture on the slide instead"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Converting to SmartArt reuses the existing bullet text as the labels of the diagram's shapes, so a wall of bullets becomes a visual that shows how the points relate. The text is not discarded, and the conversion is reversible back to a bulleted list."
+  },
+  {
+    "sub": "Charts",
+    "q": "A slide has to show how a department's annual budget is divided among its four heads of expenditure. Which chart type suits this best?",
+    "opts": {
+      "A": "Line chart",
+      "B": "Pie chart",
+      "C": "Scatter (XY) chart",
+      "D": "Stacked area chart"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "A pie chart shows parts of a single whole, so each head appears as its share of the total budget. Line and area charts are built to show movement over time, which is not what a one-year split of a total is about."
+  },
+  {
+    "sub": "Charts",
+    "q": "A chart was copied from an Excel workbook and pasted into a slide with the option that links the data to the workbook. A figure in the workbook is later corrected. What can be said about the chart on the slide?",
+    "opts": {
+      "A": "It can never change, because a pasted chart becomes a picture",
+      "B": "Its colours will change but its plotted values will not",
+      "C": "The whole presentation must be made again to show the new figure",
+      "D": "It can be refreshed to show the corrected figure, because it is linked to the workbook"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "A linked chart keeps a connection to its source workbook, so updating the link brings the corrected data onto the slide. Pasting as a picture is a different choice and is the one that freezes the chart permanently."
+  },
+  {
+    "sub": "Multimedia",
+    "q": "A video plays correctly in a presentation on the computer where the slides were made, but will not play when only the presentation file is copied to another laptop. What is the most likely reason?",
+    "opts": {
+      "A": "The video was linked to a file on the original computer instead of being embedded in the presentation",
+      "B": "Video can be played only from Presenter View",
+      "C": "Copying a presentation turns all of its videos into still images",
+      "D": "The video's playback was set to 'On Click' instead of 'Automatically'"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "A linked video is not stored inside the presentation, only pointed to, so the link breaks when the file travels without the media; embedding stores the video in the file itself and avoids this. A playback setting of 'On Click' would still play the video when clicked, so it does not explain a video that will not play at all."
+  },
+  {
+    "sub": "Multimedia",
+    "q": "An audio clip inserted on the first slide is set to 'Play across slides'. What does this setting do?",
+    "opts": {
+      "A": "It copies the audio file onto every slide of the presentation",
+      "B": "It plays the audio only for as long as the first slide is on screen",
+      "C": "It lets the audio keep playing as the show moves on to the following slides",
+      "D": "It adds an audio icon to the printed handout of every slide"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "'Play across slides' allows one clip to continue over slide changes, which is how background music is set up for a show. Stopping when the slide changes is the default behaviour that this option is chosen to override."
+  },
+  {
+    "sub": "Presenter View",
+    "q": "A presentation is being delivered with Presenter View in use on a laptop connected to a projector. What does the audience see on the projected screen?",
+    "opts": {
+      "A": "The current slide together with the speaker's notes",
+      "B": "Only the current slide, filling the screen",
+      "C": "The current slide, the next slide and a timer",
+      "D": "A grid of thumbnails of all the slides"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Presenter View splits the two displays: the audience screen carries only the slide, while the extra information is kept on the presenter's own screen. Notes, the next slide and the timer are exactly the items that stay private to the speaker."
+  },
+  {
+    "sub": "Presenter View",
+    "q": "Which of the following appears on the presenter's own screen in Presenter View but is not shown to the audience?",
+    "opts": {
+      "A": "The animations applied to the current slide",
+      "B": "The design theme used by the presentation",
+      "C": "The pictures placed on the current slide",
+      "D": "The speaker notes for the current slide and the time elapsed"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Speaker notes, the elapsed-time clock, a timer and a preview of the next slide are the presenter-only part of Presenter View. Animations, the theme and the pictures are part of the slide itself and are therefore seen by the audience."
+  },
+  {
+    "sub": "Recording Presentations",
+    "q": "A presentation must run on its own at an exhibition stall, speaking its commentary and changing slides with nobody operating it. Which combination makes this possible?",
+    "opts": {
+      "A": "Recorded narration together with recorded slide timings",
+      "B": "Presenter View together with a second monitor",
+      "C": "Transitions set to 'On Click' together with a printed handout",
+      "D": "Comments on every slide together with edit permission for viewers"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Recording a presentation captures narration slide by slide and stores how long each slide was displayed, so the show can then advance and speak by itself. Presenter View is the opposite situation, since it assumes a live speaker standing at the machine."
+  },
+  {
+    "sub": "Recording Presentations",
+    "q": "A recorded presentation is exported as a video file. What does the resulting video contain?",
+    "opts": {
+      "A": "The slide images only, with no sound",
+      "B": "The recorded narration only, as an audio track",
+      "C": "The slides advancing on their recorded timings, along with the recorded narration",
+      "D": "An editable copy of the slides that the viewer can change"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Exporting to video turns the recorded show into a single playable file that carries both the timed slide sequence and the narration, so it can be watched without PowerPoint. A video is a finished playback file, not an editable copy of the slides."
+  },
+  {
+    "sub": "Collaboration Features",
+    "q": "Two officers open the same presentation stored in a shared cloud location and work on different slides at the same time, each seeing the other's changes appear. This way of working is called",
+    "opts": {
+      "A": "version history",
+      "B": "co-authoring",
+      "C": "Presenter View",
+      "D": "exporting to PDF"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Co-authoring is several people editing one cloud-stored file at the same time, with each person's edits visible to the others. Version history is a related collaboration feature but it looks backwards at earlier saved copies rather than allowing simultaneous editing."
+  },
+  {
+    "sub": "Collaboration Features",
+    "q": "What is the purpose of version history for a presentation kept in a shared cloud location?",
+    "opts": {
+      "A": "It counts how many times the slide show has been presented",
+      "B": "It lists everyone who has opened the file, without recording their changes",
+      "C": "It saves each slide as a separate file so slides can be reused elsewhere",
+      "D": "It lets an earlier saved version of the file be opened and restored"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Version history keeps earlier saved states of the file so that wording removed in later editing can be recovered, which matters when several people are editing the same deck. It is about the content of past versions, not merely a record of who opened the file."
+  },
+  {
+    "sub": "Accessibility Features",
+    "q": "Why is alternative text (alt text) added to a photograph or a chart on a slide?",
+    "opts": {
+      "A": "So that a screen reader can describe the image to a person who cannot see it",
+      "B": "So that the image is compressed to reduce the size of the file",
+      "C": "So that the image appears in the handout but not on the projected slide",
+      "D": "So that the image is automatically translated into another language"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Alt text is a short written description that assistive software reads out in place of the image, which is why accessible government presentations are expected to carry it on every meaningful picture and chart. It has nothing to do with compression, since file size is controlled separately."
+  },
+  {
+    "sub": "Accessibility Features",
+    "q": "Why does the reading order of the objects on a slide matter for accessibility?",
+    "opts": {
+      "A": "It fixes the order in which the objects are printed in the handout",
+      "B": "It sets the sequence in which animations play for the audience",
+      "C": "A screen reader announces the slide's items in that order, so a wrong order makes the slide confusing to follow",
+      "D": "It controls the order in which the slides advance during the show"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Assistive software works through a slide object by object in its stored reading order, so a title read after the body text leaves a listener without context. Animation order is a separate setting and changing it does not correct the order in which a screen reader reads the slide."
+  },
+  {
+    "sub": "AI-assisted Presentation Design (Microsoft Copilot - Concept)",
+    "q": "In an AI-assisted presentation tool, what is meant by generating a deck from an outline?",
+    "opts": {
+      "A": "The outline is printed as speaker notes for the person delivering the talk",
+      "B": "The tool produces a draft set of slides, with headings and suggested layouts, from the topics the user supplies",
+      "C": "The finished slides are converted back into a plain text outline for editing",
+      "D": "The finished slides are checked for spelling and grammar mistakes"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "The assistant takes a short description or list of topics and drafts the slides, headings and layout suggestions, which the author then edits. Turning slides back into an outline is the reverse operation and is a long-standing feature unrelated to AI generation."
+  },
+  {
+    "sub": "AI-assisted Presentation Design (Microsoft Copilot - Concept)",
+    "q": "An officer plans to use a public AI assistant to help prepare a presentation on a departmental scheme. Which practice is correct?",
+    "opts": {
+      "A": "Paste the full list of beneficiaries with their details so that the draft is accurate",
+      "B": "Treat the generated slides as final, since AI output does not need checking",
+      "C": "Upload the internal note marked confidential, because AI services are private by default",
+      "D": "Keep confidential and personal data out of the public service, and verify the generated content before using it"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Official records and personal data should not be entered into a public AI service, and anything it produces is a draft that must be checked for accuracy before it goes out in a government presentation. Assuming such a service is private by default is unsafe, because the data leaves the department's control once it is pasted in."
+  }
+]

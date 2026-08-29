@@ -1,0 +1,80 @@
+[
+  {
+    "sub": "Microsoft Azure Fundamentals (Concept)",
+    "q": "In Microsoft Azure, a resource group is best described as",
+    "opts": {
+      "A": "A geographic area containing one or more Azure data centres",
+      "B": "The billing boundary against which all usage charges accumulate",
+      "C": "A logical container holding related resources, to which permissions can be applied and whose deletion removes everything inside it",
+      "D": "A physically separate data centre with independent power, cooling and networking"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "A resource group is a management container that groups the resources of one application or department; access permissions are applied at group level and deleting the group deletes its contents. The billing boundary is the subscription, not the resource group, and every resource belongs to exactly one resource group."
+  },
+  {
+    "sub": "Microsoft Azure Fundamentals (Concept)",
+    "q": "Deploying an application across two availability zones inside the same Azure region mainly protects the application against",
+    "opts": {
+      "A": "Failure of a single data centre, since zones have independent power, cooling and networking",
+      "B": "Loss of the entire region in which the application is deployed",
+      "C": "Accidental deletion of the resource group containing the application",
+      "D": "Exceeding the service limits and quotas that apply to the subscription"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Availability zones are physically separate data centres within one region, each with its own power, cooling and networking, so spreading across zones keeps the application running when one data centre fails. Surviving the loss of a whole region is a different scale of problem and requires deployment into a second region."
+  },
+  {
+    "sub": "Network Monitoring",
+    "q": "In SNMP-based network monitoring, an SNMP trap is",
+    "opts": {
+      "A": "A request sent by the monitoring station to read a counter from a device",
+      "B": "A text event message written to a central syslog server",
+      "C": "A threshold value configured on the monitoring station",
+      "D": "An unsolicited message pushed by the device's agent to the manager when an event occurs"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "A trap travels from the agent on the device to the manager the moment an event happens, so a link failure is reported immediately instead of waiting for the next poll. Polling is the opposite direction — the manager queries the agent's MIB counters on a schedule."
+  },
+  {
+    "sub": "Network Monitoring",
+    "q": "Recording a network's normal traffic and performance values over a representative period, so that alert thresholds can later be set relative to normal behaviour, is called",
+    "opts": {
+      "A": "Polling",
+      "B": "Baselining",
+      "C": "Trapping",
+      "D": "Log rotation"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Baselining establishes what normal looks like, which is what makes an abnormal reading recognisable — without it, high utilisation cannot be distinguished from a merely busy period. Polling is the act of querying devices for counters and is how the baseline data is collected, not the recording of normal behaviour itself."
+  },
+  {
+    "sub": "Network Troubleshooting",
+    "q": "A user cannot reach a remote server, and the administrator wants to see each router along the way and identify the point at which traffic stops. Which command is most appropriate?",
+    "opts": {
+      "A": "ping",
+      "B": "netstat",
+      "C": "tracert",
+      "D": "ipconfig"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Tracert on Windows (traceroute on Linux) lists every router hop on the path to the destination, so the hop at which replies stop isolates the faulty link or router. Ping only reports end-to-end reachability and round-trip time; it says nothing about where along the path the failure occurs."
+  },
+  {
+    "sub": "Network Troubleshooting",
+    "q": "A workstation successfully pings a web server by its IP address but fails when the server's name is used. Which command should the administrator use next to check name resolution specifically?",
+    "opts": {
+      "A": "nslookup",
+      "B": "netstat",
+      "C": "traceroute",
+      "D": "ifconfig"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Nslookup queries DNS and shows whether the name resolves and which server answered, which is exactly the fault indicated when the IP address works but the name does not. Netstat lists active connections, listening ports and the routing table, and would not reveal a DNS failure."
+  }
+]

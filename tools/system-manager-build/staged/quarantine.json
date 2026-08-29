@@ -1,0 +1,205 @@
+[
+  {
+    "id": "CO2016A-P2-70",
+    "src": "past",
+    "srcKey": "CO2016A-P2",
+    "sitting": "Computer Operator (Contract) under SAD, 2016 - Technical Paper II",
+    "no": 70,
+    "paper": "TECH2",
+    "unit": "V",
+    "sub": "Analytical Reasoning",
+    "q": "Which figure is the odd one out? (Four boxed figures labelled A, B, C, D, each a cross with four small squares — two filled, two hollow — attached at the arm ends.)",
+    "opts": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "ans": "C",
+    "exp": "Comparing each figure under all four rotations, B and D are exact rotations of one another (180 degrees) and A matches each of them to within a single square, whereas C differs from B and from D in two squares each and is a mirror rather than a rotation. Reading the small filled/hollow squares off this 1-bit fax scan is genuinely marginal, so treat this as tentative.",
+    "conf": "low",
+    "prov": "Transcribed and answered from the scanned Computer Operator (Contract) under SAD, 2016 - Technical Paper II. MPSC published no answer key for this paper.",
+    "needs_verify": false,
+    "needs_figure": true,
+    "note": "",
+    "_tier": 1,
+    "_page": 7,
+    "_quarantine": [
+      "depends on a printed figure the text-only schema cannot carry"
+    ]
+  },
+  {
+    "id": "CO2016A-P2-71",
+    "src": "past",
+    "srcKey": "CO2016A-P2",
+    "sitting": "Computer Operator (Contract) under SAD, 2016 - Technical Paper II",
+    "no": 71,
+    "paper": "TECH2",
+    "unit": "V",
+    "sub": "Analytical Reasoning",
+    "q": "Which figure is next in series? (A row of six dominoes followed by a seventh showing '?' in both halves, then four domino options A, B, C, D.)",
+    "opts": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "ans": "B",
+    "exp": "The dominoes read 6/2, 2/5, 4/1, 1/3, 2/0, 0/1, so the odd-numbered dominoes run 6/2, 4/1, 2/0 — top halves falling 6, 4, 2 and bottom halves falling 2, 1, 0. The seventh continues that thread with a top of 0 and a bottom of 6 once the count wraps round the 0-6 domino range, and B is the only option with an empty top half.",
+    "conf": "medium",
+    "prov": "Transcribed and answered from the scanned Computer Operator (Contract) under SAD, 2016 - Technical Paper II. MPSC published no answer key for this paper.",
+    "needs_verify": false,
+    "needs_figure": true,
+    "note": "",
+    "_tier": 1,
+    "_page": 8,
+    "_quarantine": [
+      "depends on a printed figure the text-only schema cannot carry"
+    ]
+  },
+  {
+    "id": "CO2016A-P2-72",
+    "src": "past",
+    "srcKey": "CO2016A-P2",
+    "sitting": "Computer Operator (Contract) under SAD, 2016 - Technical Paper II",
+    "no": 72,
+    "paper": "TECH2",
+    "unit": "V",
+    "sub": "Analytical Reasoning",
+    "q": "Which figure complete the series? (Four rectangles, each a 3x3 grid partly filled with solid black and hollow white squares, then four options A, B, C, D.)",
+    "opts": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "ans": "A",
+    "exp": "At each step every square already present flips colour (black to white, white to black) and one new black square is added, the new squares appearing along the bottom row left to right and then up the right column. Applying both rules to the fourth figure gives black-blank-black on top, white-blank-white in the middle and black-white-black along the bottom, which is A; B is that same pattern with every colour inverted.",
+    "conf": "medium",
+    "prov": "Transcribed and answered from the scanned Computer Operator (Contract) under SAD, 2016 - Technical Paper II. MPSC published no answer key for this paper.",
+    "needs_verify": false,
+    "needs_figure": true,
+    "note": "",
+    "_tier": 1,
+    "_page": 8,
+    "_quarantine": [
+      "depends on a printed figure the text-only schema cannot carry"
+    ]
+  },
+  {
+    "id": "CO2016B-P2-72",
+    "src": "past",
+    "srcKey": "CO2016B-P2",
+    "sitting": "Computer Operator (CB) under Mizoram Information Commission, 2016 - Paper II",
+    "no": 72,
+    "paper": "TECH2",
+    "unit": "V",
+    "sub": "Analytical Reasoning",
+    "q": "Each problem in this test consists of one figure on the left of a vertical line and four figures on the right. You are to decide which of the four figures on the right is the same as the figure on the left. [Figure 1: a double-outlined isosceles trapezoid, long side uppermost, with four candidate quadrilaterals A-D at various rotations.]",
+    "opts": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "ans": "A",
+    "exp": "The test allows rotation but not reflection, so the answer must be the one figure that superimposes on the reference after a pure turn. Overlaying the outlines numerically, A matches at about 164 degrees of rotation with roughly 96 percent area agreement, while B and C only match once flipped and D is distorted; the printed diagram is needed to check this by eye.",
+    "conf": "medium",
+    "prov": "Transcribed and answered from the scanned Computer Operator (CB) under Mizoram Information Commission, 2016 - Paper II. MPSC published no answer key for this paper.",
+    "needs_verify": false,
+    "needs_figure": true,
+    "note": "",
+    "_tier": 1,
+    "_page": 7,
+    "_quarantine": [
+      "depends on a printed figure the text-only schema cannot carry"
+    ]
+  },
+  {
+    "id": "CO2016B-P2-73",
+    "src": "past",
+    "srcKey": "CO2016B-P2",
+    "sitting": "Computer Operator (CB) under Mizoram Information Commission, 2016 - Paper II",
+    "no": 73,
+    "paper": "TECH2",
+    "unit": "V",
+    "sub": "Analytical Reasoning",
+    "q": "Each problem in this test consists of one figure on the left of a vertical line and four figures on the right. You are to decide which of the four figures on the right is the same as the figure on the left. [Figure 2: an asymmetric bowtie/flag shape - a narrow tapering tail joined at a waist to a larger triangle - with four candidates A-D at various rotations.]",
+    "opts": {
+      "A": "A",
+      "B": "B",
+      "C": "C",
+      "D": "D"
+    },
+    "ans": "B",
+    "exp": "Because the shape is asymmetric, a reflected copy can never be rotated onto it, so only a true turn counts. Filling the outlines and overlaying them, B is by far the best pure rotation (about 87 percent area agreement at roughly 193 degrees) while A is essentially B's mirror image and C and D match only when flipped; the printed figures are required to verify.",
+    "conf": "medium",
+    "prov": "Transcribed and answered from the scanned Computer Operator (CB) under Mizoram Information Commission, 2016 - Paper II. MPSC published no answer key for this paper.",
+    "needs_verify": false,
+    "needs_figure": true,
+    "note": "",
+    "_tier": 1,
+    "_page": 7,
+    "_quarantine": [
+      "depends on a printed figure the text-only schema cannot carry"
+    ]
+  },
+  {
+    "id": "CO2016B-P2-74",
+    "src": "past",
+    "srcKey": "CO2016B-P2",
+    "sitting": "Computer Operator (CB) under Mizoram Information Commission, 2016 - Paper II",
+    "no": 74,
+    "paper": "TECH2",
+    "unit": "V",
+    "sub": "Logical Reasoning",
+    "q": "Look at the following sets of pictures. Put them in the right order so that they will tell a story. [Six numbered cartoon panels: 1 - mother and child together in the lit kitchen, child eating; 2 - dark bedroom, child sitting up in bed eating, 'CHOMP! CHOMP!'; 3 - kitchen, child alone on tiptoe at the counter eating; 4 - dark bedroom, child asleep with a dream bubble showing a monstrous figure; 5 - mother tucking the child into bed, bedside lamp lit; 6 - dark bedroom, child sitting up reaching towards the bedside table.]",
+    "opts": {
+      "A": "5 6 1 3 4 2",
+      "B": "1 5 6 2 4 3",
+      "C": "3 1 5 4 6 2",
+      "D": "1 5 3 6 2 4"
+    },
+    "ans": "D",
+    "exp": "The nightmare panel is the consequence and so belongs last, and the eating-in-bed panel must come immediately before it, which rules out the orders that place the dream in the middle or end on a kitchen scene. That leaves the reading: snack with mother, tucked in, sneaks back to the kitchen, sits up in bed, eats, bad dream. The alternative order 1 5 6 2 4 3 is also arguable if the lit kitchen panel is meant as the next morning, so this is a genuine judgement call and the printed panels are needed.",
+    "conf": "low",
+    "prov": "Transcribed and answered from the scanned Computer Operator (CB) under Mizoram Information Commission, 2016 - Paper II. MPSC published no answer key for this paper.",
+    "needs_verify": false,
+    "needs_figure": true,
+    "note": "",
+    "_tier": 1,
+    "_page": 8,
+    "_quarantine": [
+      "depends on a printed figure the text-only schema cannot carry"
+    ]
+  },
+  {
+    "id": "CO2016B-P2-75",
+    "src": "past",
+    "srcKey": "CO2016B-P2",
+    "sitting": "Computer Operator (CB) under Mizoram Information Commission, 2016 - Paper II",
+    "no": 75,
+    "paper": "TECH2",
+    "unit": "V",
+    "sub": "Analytical Reasoning",
+    "q": "In this test, parts of a well known object are placed in the wrong order. You have to choose the correct order, from left to right, in which these parts should be placed in order to form the object. The parts of each object are numbered. [Six black silhouette fragments of an animal: 1 - slab with a horn/ear spur on top and a foreleg below; 2 - plain torso slab with one leg; 3 - hindquarters with a straight hind leg and a second hind leg bent back at the hock; 4 - head with horns and a muzzle facing right; 5 - large torso block with a raised back and one leg; 6 - narrow slab with a tufted lower edge.]",
+    "opts": {
+      "A": "3 2 6 1 5 4",
+      "B": "1 4 2 3 5 6",
+      "C": "3 2 1 5 6 4",
+      "D": "3 6 2 5 1 4"
+    },
+    "ans": "D",
+    "exp": "The object is a cow facing right: fragment 4 is the horned head with the muzzle on the right and a straight cut on its left, so it goes last, and fragment 3 carries the bent hind leg, so it goes first. Fragment 1 has the second horn spur on its upper edge, which forces it next to the head - reassembling the fragments in this order produces a continuous cow silhouette, whereas the other orders leave a horn standing up in the middle of the animal's back. The printed fragments are needed to confirm.",
+    "conf": "medium",
+    "prov": "Transcribed and answered from the scanned Computer Operator (CB) under Mizoram Information Commission, 2016 - Paper II. MPSC published no answer key for this paper.",
+    "needs_verify": false,
+    "needs_figure": true,
+    "note": "",
+    "_tier": 1,
+    "_page": 9,
+    "_quarantine": [
+      "depends on a printed figure the text-only schema cannot carry"
+    ]
+  }
+]

@@ -1,0 +1,54 @@
+{
+  "paper": "TECH2",
+  "unit": "II",
+  "unitTitle": "Database Management System",
+  "unitMarks": 35,
+  "perTarget": 2,
+  "brief": "tools/system-manager-build/GENERATE_BRIEF.md",
+  "targets": [
+    {
+      "sub": "Transaction Control Language (TCL)",
+      "section": "SQL"
+    },
+    {
+      "sub": "Views",
+      "section": "Database Administration"
+    },
+    {
+      "sub": "Indexes",
+      "section": "Database Administration"
+    },
+    {
+      "sub": "Stored Procedures (Concept)",
+      "section": "Database Administration"
+    },
+    {
+      "sub": "Concurrency Control",
+      "section": "Database Administration"
+    },
+    {
+      "sub": "Authentication",
+      "section": "Database Security"
+    },
+    {
+      "sub": "Encryption",
+      "section": "Database Security"
+    },
+    {
+      "sub": "Auditing",
+      "section": "Database Security"
+    },
+    {
+      "sub": "Microsoft SQL Server (Concept)",
+      "section": "Modern Databases"
+    },
+    {
+      "sub": "PostgreSQL (Concept)",
+      "section": "Modern Databases"
+    },
+    {
+      "sub": "NoSQL Databases (Introduction)",
+      "section": "Modern Databases"
+    }
+  ]
+}

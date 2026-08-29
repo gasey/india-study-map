@@ -1,0 +1,262 @@
+[
+  {
+    "sub": "Templates",
+    "q": "An office wants every circular it issues to open with the same letterhead, margins, fonts and heading layout. Which Word feature is designed for this?",
+    "opts": {
+      "A": "Mail Merge",
+      "B": "A document template",
+      "C": "A section break",
+      "D": "An AutoCorrect entry"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "A template is a reusable starting document that already carries the required page setup, styles and boilerplate, so every new circular begins identically. Mail Merge is for producing many copies of one letter with different names and addresses, which is a different problem."
+  },
+  {
+    "sub": "Templates",
+    "q": "A clerk creates a new document from the office's standard template, edits it heavily and saves it under a new name. What happens to the template file itself?",
+    "opts": {
+      "A": "The template is updated to include all the edits",
+      "B": "The template is locked and cannot be used again",
+      "C": "The template is unchanged; the new document is a separate copy",
+      "D": "The template is replaced by the newly saved document"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Creating a document from a template copies the template's content and formatting into a fresh document, leaving the template untouched. To change the office standard you must open and edit the template file itself, not a document made from it."
+  },
+  {
+    "sub": "SmartArt",
+    "q": "In Word, SmartArt is used to",
+    "opts": {
+      "A": "insert a ready-made diagram such as a process, cycle, hierarchy or relationship graphic",
+      "B": "apply artistic effects and corrections to a photograph",
+      "C": "plot a graph from a table of numeric data",
+      "D": "convert a document into a web page"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "SmartArt supplies pre-designed diagram layouts — lists, processes, cycles, hierarchies and relationship graphics — into which you type text. Plotting numeric data is the job of a chart, which is a separate feature."
+  },
+  {
+    "sub": "SmartArt",
+    "q": "A note already contains a typed bulleted list of five approval steps, and the officer wants it shown as a process diagram. What is the quickest way in Word?",
+    "opts": {
+      "A": "Draw each box and arrow manually using shapes and text boxes",
+      "B": "Insert each step as separate WordArt text",
+      "C": "Take a screenshot of the list and insert it as a picture",
+      "D": "Select the list and convert it to a SmartArt graphic"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Word can convert selected list text directly into a SmartArt graphic, placing each bullet into a shape of the chosen layout, and the text stays editable afterwards. Drawing the shapes by hand gives the same look but is slow and the result is not linked to the list text."
+  },
+  {
+    "sub": "References",
+    "q": "A long report contains the sentence \"see Table 4 on page 12\". Which Word feature keeps that pointer correct if another table is inserted earlier and the numbering and pagination shift?",
+    "opts": {
+      "A": "A footnote placed at that point",
+      "B": "A cross-reference to the numbered table caption",
+      "C": "A hyperlink to an external website",
+      "D": "Typing the number in bold so it is easy to spot later"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "A cross-reference is a field that points at a captioned item, so when the document is updated it re-reads the item's current number and page. Text typed by hand, however it is formatted, does not change when the document does."
+  },
+  {
+    "sub": "References",
+    "q": "In Word, a footnote is",
+    "opts": {
+      "A": "a note printed at the bottom of the same page as its reference mark",
+      "B": "a note collected at the end of the whole document",
+      "C": "text that repeats at the bottom of every page, such as a page number",
+      "D": "a remark visible only to reviewers and never printed"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "A footnote sits at the foot of the page carrying its reference mark, and Word renumbers footnotes automatically as they are added or removed. A note gathered at the end of the document is an endnote, and repeating text at the bottom of every page is the footer."
+  },
+  {
+    "sub": "Table of Contents",
+    "q": "Word's automatic Table of Contents is generated from",
+    "opts": {
+      "A": "bookmarks the user inserts at each section",
+      "B": "any text that has been made bold and given a larger font size",
+      "C": "the heading styles applied to the document's headings",
+      "D": "the page numbers placed in the header or footer"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Word collects the text of paragraphs formatted with heading styles and builds the contents list from them, with the style level deciding the indent level. A heading merely made bold and enlarged carries no style, so Word cannot see it and it will be left out."
+  },
+  {
+    "sub": "Table of Contents",
+    "q": "New sections have been added to a report, so the headings and page numbers have changed but the automatic Table of Contents still shows the old ones. What should be done?",
+    "opts": {
+      "A": "Retype the contents page by hand to match",
+      "B": "Nothing — the contents list always changes as you type",
+      "C": "Convert the contents list to a table before it will refresh",
+      "D": "Update the Table of Contents so it re-reads the headings and page numbers"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "An automatic Table of Contents is a field, and a field shows the values captured when it was last built, so it must be updated to pick up new headings and changed pagination. It does not refresh continuously while you type, which is exactly why documents are so often issued with a stale contents page."
+  },
+  {
+    "sub": "Citations and Bibliography",
+    "q": "In Word, what is the relationship between the citations inserted in the text and the bibliography at the end?",
+    "opts": {
+      "A": "Word builds the bibliography automatically from the sources cited in the document",
+      "B": "The bibliography must be typed separately and has no link to the citations",
+      "C": "The bibliography is generated from the document's heading styles",
+      "D": "A bibliography can only be created if the document already has a table of contents"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Each citation is attached to a stored source record, and the bibliography is generated from those records, so adding a citation adds its source to the list. Typing the list by hand defeats the feature and lets the text and the list drift apart."
+  },
+  {
+    "sub": "Citations and Bibliography",
+    "q": "In Word's citation tools, APA, MLA and Chicago are examples of",
+    "opts": {
+      "A": "file formats in which a document can be saved",
+      "B": "citation styles that decide how references are formatted",
+      "C": "built-in font and colour schemes",
+      "D": "proofing languages for the spelling checker"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "A citation style is a set of formatting conventions for references, and selecting one reformats every citation and the whole bibliography consistently. They control presentation of sources only; they have nothing to do with how the file is saved."
+  },
+  {
+    "sub": "Track Changes",
+    "q": "With Track Changes turned on, what happens when a reviewer deletes a sentence from the document?",
+    "opts": {
+      "A": "The sentence is removed permanently and at once",
+      "B": "The sentence is moved to the clipboard for later use",
+      "C": "The deletion is recorded as a revision that can later be accepted or rejected",
+      "D": "The sentence is automatically copied into a comment"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Track Changes records every insertion, deletion and formatting change as a revision mark, so the author can go through them one by one and accept or reject each. The text only really goes when the deletion is accepted."
+  },
+  {
+    "sub": "Track Changes",
+    "q": "Why should an official Word document be checked for remaining tracked changes and comments before it is sent outside the office?",
+    "opts": {
+      "A": "Because unaccepted revisions and comments stay in the file and can expose internal drafting to the recipient",
+      "B": "Because comments prevent the file from being opened on another computer",
+      "C": "Because tracked changes stop the document from being printed",
+      "D": "Because revision marks increase the file size beyond the e-mail limit"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Revisions and comments are stored inside the file, so a recipient can display them and read internal remarks and rejected wording — a real risk in official correspondence. Accepting or rejecting all changes and removing comments before issue is the standard precaution."
+  },
+  {
+    "sub": "Accessibility Features",
+    "q": "The main purpose of adding alternative text (alt text) to a picture in a document is to",
+    "opts": {
+      "A": "give a description that a screen reader can read out to a visually impaired user",
+      "B": "reduce the file size of the picture",
+      "C": "make the picture print more sharply",
+      "D": "lock the picture so it cannot be moved"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Alt text carries the meaning of an image in words, so assistive software can convey it to a reader who cannot see the picture. It affects accessibility only, not the image's size, print quality or position."
+  },
+  {
+    "sub": "Accessibility Features",
+    "q": "Which of the following makes an official document more accessible?",
+    "opts": {
+      "A": "Marking section titles by making them large and bold by hand",
+      "B": "Writing every link as \"click here\"",
+      "C": "Applying the built-in heading styles so the document has a real navigable structure",
+      "D": "Using colour alone to show which paragraphs are important"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Heading styles give the document a structure that screen readers can announce and navigate, which text merely made bold and large does not. Word's Accessibility Checker flags exactly these problems — missing headings, vague link text and reliance on colour — before the document is issued."
+  },
+  {
+    "sub": "Microsoft 365 Collaboration",
+    "q": "Two officers in different sections must work on the same Word document at the same time and always see each other's latest text. What makes this possible?",
+    "opts": {
+      "A": "E-mailing the document back and forth as an attachment",
+      "B": "Storing the file in OneDrive or SharePoint and co-authoring it in Word",
+      "C": "Each keeping a copy on a pen drive and merging at the end",
+      "D": "Turning on Track Changes in two separate local copies"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Co-authoring works because the file lives in cloud storage, so both people open the one copy and edits are synchronised as they type. Attachments and pen drives create separate copies that immediately diverge and then have to be reconciled by hand."
+  },
+  {
+    "sub": "Microsoft 365 Collaboration",
+    "q": "What is the main benefit of version history for a document stored in OneDrive or SharePoint?",
+    "opts": {
+      "A": "It keeps several files with different names in the same folder",
+      "B": "It compresses the document a little more at every save",
+      "C": "It prevents anyone other than the author from editing the document",
+      "D": "It keeps earlier versions of the file so an older one can be viewed or restored"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Version history stores successive saved states of the same file, so a wrong or unwanted edit can be undone by restoring an earlier version. It records changes rather than restricting who may edit, which is the separate job of sharing permissions."
+  },
+  {
+    "sub": "Integration of e-Office",
+    "q": "A draft letter has been prepared in Word and now needs the approval of a senior officer through eOffice. What is the normal way to do this?",
+    "opts": {
+      "A": "Upload the draft into the relevant electronic file as a draft for approval so it moves up the hierarchy",
+      "B": "Paste the text into a personal e-mail to the officer",
+      "C": "Keep the file on the local desktop and inform the officer verbally",
+      "D": "Share the file through a public file-sharing website"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "In eOffice the draft is attached to the electronic file and routed for approval, so the noting, the approval and the audit trail all stay inside the system. Sending the text by personal e-mail or a public link leaves no official record and takes departmental content outside the government network."
+  },
+  {
+    "sub": "Integration of e-Office",
+    "q": "Why is a finalised Word document usually converted to PDF before it is issued or placed on record in eOffice?",
+    "opts": {
+      "A": "Because PDF files can be edited more easily than Word files",
+      "B": "Because a Word file cannot be uploaded to eOffice at all",
+      "C": "Because PDF fixes the layout across different computers and gives a stable record that can carry a digital signature",
+      "D": "Because spelling and grammar can only be checked in PDF"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "PDF preserves fonts, pagination and layout wherever it is opened and is the usual format for a signed, final record, so what is signed is exactly what the recipient sees. Being harder to alter than an editable Word file is a reason for using it, not against it."
+  },
+  {
+    "sub": "AI-assisted Document Creation (Microsoft Copilot - Concept)",
+    "q": "In concept, what does an AI writing assistant such as Microsoft Copilot do inside a word processor?",
+    "opts": {
+      "A": "It replaces the need for any human review, because its output is always factually correct",
+      "B": "It helps draft, summarise and rewrite text, which the user must still read, verify and edit",
+      "C": "It converts documents into spreadsheets and databases",
+      "D": "It only corrects spelling and grammar mistakes"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "An AI assistant produces suggested drafts, summaries and rewordings from a user's instruction, and responsibility for accuracy stays with the officer who signs the document. It goes well beyond a spelling checker, but its output can be wrong or invented and therefore always needs checking."
+  },
+  {
+    "sub": "AI-assisted Document Creation (Microsoft Copilot - Concept)",
+    "q": "An official wants to paste the text of an internal office note into a public AI chat service to have it reworded. What is the main concern?",
+    "opts": {
+      "A": "The reply may come back in a different font",
+      "B": "The document will lose its page numbering",
+      "C": "AI tools are unable to produce formal language",
+      "D": "Confidential and personal data would leave departmental control and may be retained by the service"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Anything pasted into a public AI service is sent to an outside provider and may be stored there, so official records and personal data must not be put into one. Formatting problems are trivial by comparison and easily fixed after the text is brought back."
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "paper": "TECH2",
+    "unit": "IV",
+    "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+    "sub": "Large Language Models (LLMs)",
+    "def": "A Large Language Model is a machine learning model trained on very large amounts of text to predict the next token (piece of text) given everything before it. Scaled up, that single ability produces answers, summaries, translations, drafts and code. It is a statistical predictor of plausible text, not a verified store of facts.",
+    "exp": "Two limits decide how you use one. The context window is the fixed amount of text - your prompt plus the reply - that the model can hold at once; go past it and the earliest material is dropped, which is why a long chat forgets its own beginning. The knowledge cutoff is the date its training text ends; anything later has to be pasted in or fetched for it.\n\nHallucination is the central risk: fluent, confident output that is simply wrong - an invented circular number, a section that does not exist, a fabricated citation. It is not a fixable bug but a consequence of predicting plausible text. Any figure, rule or reference an LLM gives you must be checked against the original document before it goes into a file.\n\nFor a System Manager the LLM is a drafting, explaining and code-writing assistant, not an authority. Remember that a public LLM service sends whatever you type to an outside company's servers: official noting, citizen data, credentials and internal network detail must not be pasted into one.",
+    "facts": [
+      "An LLM works on tokens, not whole words; the context window caps the total tokens in prompt plus response.",
+      "Knowledge cutoff is the end date of the training data - the model does not know later events unless they are supplied to it.",
+      "Hallucination means confident, fluent output that is factually wrong or invented.",
+      "LLMs are a form of generative AI; the GPT family name stands for Generative Pre-trained Transformer.",
+      "Fine-tuning changes the model's weights using extra data; prompting changes only the input and leaves the model unchanged.",
+      "Retrieval-augmented generation (RAG) supplies the model with relevant documents at query time so answers rest on actual source text."
+    ],
+    "traps": [
+      "Context window vs knowledge cutoff - the window is how much text it can read right now, the cutoff is how recent its training data is. Two different limits, routinely swapped in options.",
+      "Hallucination vs bias - hallucination is inventing something false; bias is a skewed but genuine pattern learned from training data. Do not use one word for the other.",
+      "An LLM is not a search engine. It generates text from learned patterns; it does not look up and return a stored document unless it has been explicitly connected to search or a document store.",
+      "Training vs inference - training is the one-time learning phase, inference is answering your prompt. Chatting does not retrain the model, but the provider may still store and log what you send."
+    ],
+    "mnem": "",
+    "rel": ["Prompt Engineering", "Generative AI", "AI Ethics and Responsible AI"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "IV",
+    "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+    "sub": "Prompt Engineering",
+    "def": "Prompt engineering is the practice of writing and structuring the input given to a language model so that it reliably produces the output you actually want - correct content, in the right format, with fewer errors. It changes only the input; the model itself is untouched.",
+    "exp": "A usable prompt has four parts: role, task, input and constraints. Compare \"write a note\" with \"You are a section officer. Draft a four-line noting recommending approval of the purchase proposal below, in formal official English, and do not invent any figure not present in the text.\" The second gets a usable draft; the first gets filler.\n\nZero-shot means you give instructions only. One-shot and few-shot mean you include one or several worked examples of input and the output you want, inside the prompt itself; the model imitates the pattern. Few-shot is the fix when the format keeps coming out inconsistent. For multi-step problems, asking the model to work through its reasoning step by step improves accuracy. Treat prompting as iterative - read the output, name what is wrong, and tighten the prompt.\n\nBuild guardrails in: ask for the source of any claim, and instruct the model to say it does not have enough information rather than guess. None of this eliminates hallucination, so factual output is still verified. And remember the prompt is data you are sending out - official file content and personal details do not belong in a public service's prompt box.",
+    "facts": [
+      "Zero-shot prompting gives instructions with no worked examples; one-shot gives one example; few-shot gives several.",
+      "Few-shot examples sit in the prompt itself - no retraining occurs and the model's weights are unchanged.",
+      "Chain-of-thought prompting asks the model to show its reasoning steps and improves multi-step problems.",
+      "A well-formed prompt specifies role, task, input data, output format and constraints.",
+      "A system prompt sets standing behaviour for the whole conversation; a user prompt is the individual request."
+    ],
+    "traps": [
+      "Few-shot vs fine-tuning - few-shot puts examples in the prompt and lasts only for that request; fine-tuning retrains the model's weights and is persistent. This is the most common MCQ swap on the topic.",
+      "Zero-shot does not mean 'no instruction'. It means no worked examples; the instruction is still there.",
+      "Longer is not better. Specificity and structure beat length - a long vague prompt performs worse than a short precise one.",
+      "Good prompting reduces hallucination but never removes it; output still has to be verified against source."
+    ],
+    "mnem": "RTFC - Role, Task, Format, Constraints: the four parts of a good prompt.",
+    "rel": ["Large Language Models (LLMs)", "AI-assisted System Administration", "Generative AI"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "IV",
+    "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+    "sub": "AI Ethics and Responsible AI",
+    "def": "AI ethics is the set of principles governing how AI systems should be built and used so that they do not cause unfair or unaccountable harm. Responsible AI is the practice of applying them - fairness, transparency and explainability, accountability, privacy, safety and reliability, and meaningful human oversight - checked before deployment and monitored afterwards.",
+    "exp": "Bias is the first concern. A model learns from historical data, so historical unfairness is reproduced and then applied at scale - in recruitment screening, credit scoring or welfare eligibility. Bias is usually not intended; it hides in skewed training data and in groups that are under-represented in it.\n\nTransparency and explainability follow. A citizen affected by an automated decision should be able to be told that AI was used and why the outcome was what it was; a black-box model makes this hard. Accountability does not move to the software or the vendor - the deploying officer and department stay answerable. Hence the human-in-the-loop rule: AI recommends, a human decides, particularly where rights, money or entitlement are at stake.\n\nData protection sits underneath all of it. Personal data used to train or query a system needs a lawful basis, should be minimised to what is required, and must be secured. Under India's data protection law the body deciding the purpose and means of processing is the data fiduciary and the individual is the data principal. At policy level, NITI Aayog's Responsible AI for All approach papers set out the principles expected of public-sector AI.",
+    "facts": [
+      "Core responsible-AI principles: fairness and non-discrimination, transparency, explainability, accountability, privacy, safety and reliability, and human oversight.",
+      "Bias enters an AI system mainly through the training data, not through deliberate coding.",
+      "Human-in-the-loop means the human retains the decision and the AI only recommends.",
+      "NITI Aayog's Responsible AI for All approach papers are India's principal national policy statement on responsible AI.",
+      "Under India's data protection law the entity deciding purpose and means of processing is the data fiduciary; the individual whose data it is, is the data principal.",
+      "Explainability is the ability to give reasons for a specific output; a black-box model is one whose internal reasoning cannot be inspected."
+    ],
+    "traps": [
+      "Bias vs hallucination - bias is a systematically skewed but data-derived pattern; hallucination is fabricated content. Different failures, different fixes.",
+      "Transparency vs explainability - transparency is disclosing that AI is used and how the system works overall; explainability is giving the reason for one particular output.",
+      "Accountability is not transferable. Buying the model from a vendor does not move responsibility for the decision away from the department that deployed it.",
+      "Lawful is not the same as ethical. A use can comply with every rule and still be unfair, opaque or unaccountable."
+    ],
+    "mnem": "FATE - Fairness, Accountability, Transparency, Ethics.",
+    "rel": ["AI Applications in Government", "AI-assisted Data Analysis", "Large Language Models (LLMs)"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "IV",
+    "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+    "sub": "AI Applications in Government",
+    "def": "AI applications in government are the uses of machine learning and generative AI in public administration and service delivery - citizen-facing chatbots, OCR and translation of records, document summarisation, satellite and drone image analysis, duplicate and fraud detection in beneficiary databases, grievance routing, demand forecasting, and speech transcription of proceedings.",
+    "exp": "Indian instances worth naming: Bhashini, the national mission for Indian-language translation, speech recognition and text-to-speech; chatbots on citizen portals and grievance systems that classify and route complaints; automatic number-plate recognition in traffic enforcement; facial recognition for paperless airport entry under DigiYatra; satellite and drone imagery analysed for crop, forest and land-use monitoring; duplicate and ghost-beneficiary detection in direct benefit transfer rolls; and in the judiciary, SUVAS for translating judgments into Indian languages and SUPACE for assisting judges with case documents. NITI Aayog's National Strategy for Artificial Intelligence set the national direction under the tagline AI for All.\n\nFor a state department or PSU, the realistic first uses are internal rather than glamorous: drafting and summarising, translating circulars, categorising grievances, helpdesk and log triage, and extracting data from scanned records. The binding constraint is almost never access to a model - it is whether the department's own data is digitised, clean and consistent.\n\nGovernance travels with every deployment: data residency and procurement conditions, no personal or official data in public tools, an identified human decision-maker for anything affecting entitlement, and an auditable record of what the system recommended.",
+    "facts": [
+      "NITI Aayog's National Strategy for Artificial Intelligence (AI for All) identified focus sectors including healthcare, agriculture, education, smart cities and infrastructure, and smart mobility and transportation.",
+      "Bhashini is India's national mission for Indian-language translation, speech recognition and text-to-speech.",
+      "SUVAS is the Supreme Court's software for translating judgments into Indian languages; SUPACE assists judges by processing case documents.",
+      "DigiYatra uses facial recognition to provide paperless, contactless entry at airports.",
+      "Typical government AI use cases: chatbots, OCR of legacy records, language translation, duplicate and fraud detection in beneficiary data, and analysis of satellite or drone imagery."
+    ],
+    "traps": [
+      "AI in government assists; it does not decide. A statutory decision - sanction, eligibility, penalty - is taken by the competent authority, with the AI output as one input.",
+      "Bhashini is a language platform (translation, speech, text-to-speech). It is not a chatbot service, a payments system or an identity system.",
+      "Digitisation is not AI. Scanning files or putting a form online is e-governance; AI is involved only when a model infers or generates something from the data.",
+      "A pilot is not a deployment. Many named government AI initiatives are limited pilots, so beware options claiming nationwide rollout."
+    ],
+    "mnem": "",
+    "rel": ["AI Ethics and Responsible AI", "AI-assisted Data Analysis", "Machine Learning"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "IV",
+    "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+    "sub": "AI-assisted System Administration",
+    "def": "AI-assisted system administration is the use of AI tools - mainly LLMs plus anomaly-detection models - to help run servers and networks: triaging logs, explaining errors, generating and reviewing scripts, drafting configuration, suggesting root causes and flagging behaviour that fixed-threshold alerts would miss. The administrator still executes the change and remains responsible for it.",
+    "exp": "The practical uses are ordinary. Paste a stack trace or a slice of a log and ask what failed and what to check next. Ask for a shell, PowerShell or Python script to rotate logs, parse a report or bulk-create users - then read it line by line before running it. Ask it to explain an unfamiliar firewall rule, cron expression or config directive, and to draft the runbook and the post-incident note afterwards.\n\nThe second strand is anomaly detection, often labelled AIOps. Instead of \"alert if CPU is above ninety percent\", a model learns what is normal for that host at that hour and alerts on deviation. That catches slow memory leaks, off-hours logins and unusual outbound transfer, and it reduces alert fatigue by correlating many related alerts into one incident. Trend-based prediction warns of a disk filling or a drive degrading before it fails.\n\nThe governance line matters as much as the technique. Production configuration, IP addressing, credentials, keys and citizen data must never be pasted into a public AI service - sanitise the text or use an approved internal deployment. And never run a generated command with elevated privileges on production without reading and testing it; the tool will produce a destructive command as confidently as a correct one.",
+    "facts": [
+      "Common AI-assisted admin tasks: log triage, error explanation, script and config generation, root-cause suggestion, and documentation drafting.",
+      "Anomaly detection learns a baseline of normal behaviour and flags deviation from it, rather than firing on a fixed threshold.",
+      "AIOps is the application of machine learning to IT operations data - logs, metrics, traces and events - for alert correlation and faster incident resolution.",
+      "Predictive maintenance uses trend data such as disk growth or drive health attributes to warn before a failure occurs.",
+      "Credentials, keys, IP schemes and citizen data must not be pasted into a public AI service; sanitise first or use an approved internal deployment."
+    ],
+    "traps": [
+      "Automation vs AI - a cron job or an Ansible playbook is scripted automation running fixed steps; AI-assisted administration involves a model inferring or generating something. Options often present plain scripting as AI.",
+      "Anomaly detection flags what is unusual, not what is malicious. An anomaly is a trigger for investigation, not proof of an attack.",
+      "AI-generated scripts are drafts, not verified code. Responsibility for any command you run stays with you.",
+      "An LLM has no live view of your systems. It reasons only from the text you give it, so it cannot 'check the server' unless it is connected to a monitoring tool."
+    ],
+    "mnem": "",
+    "rel": ["AI-assisted Data Analysis", "Large Language Models (LLMs)", "Prompt Engineering"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "IV",
+    "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+    "sub": "AI-assisted Data Analysis",
+    "def": "AI-assisted data analysis is the use of AI tools to work on datasets: summarising and describing a table, writing the SQL, Python or spreadsheet formula that answers a question, cleaning and standardising messy fields, detecting outliers and trends, classifying free text such as grievances, and drafting the explanation of a chart. The analyst frames the question and validates the result.",
+    "exp": "In departmental work this is concrete. Given a scheme's beneficiary sheet, an LLM can write the pivot or the SQL for a district-wise count, suggest how to detect duplicate account entries, standardise inconsistent village spellings, or bucket a year of grievance text into categories for a review meeting. Forecasting revenue, demand or load is classical machine learning rather than an LLM job - know which tool does which.\n\nThere are two failure modes to guard against. First, an LLM handed a long table as plain text will produce a plausible but wrong total; it generates text, it does not compute. Ask it to write the formula or query and run that yourself, then reconcile the totals against the source. Second, a model surfaces correlations - it does not establish cause, and it cannot tell you why a number moved.\n\nGovernance is the same rule as everywhere else in this unit. Beneficiary lists, salary data, health records and complaint text containing names do not go into a public AI service. Analyse locally, use an approved internal tool, or strip identifiers first - remembering that de-identified data can often be re-identified by combining a few columns.",
+    "facts": [
+      "Uses: summarisation, query and formula generation, data cleaning and standardisation, outlier detection, text classification, and chart explanation.",
+      "Forecasting and clustering are classical machine learning tasks; text drafting and code generation are LLM tasks.",
+      "Outlier and anomaly detection flags records far from the normal pattern - useful for spotting duplicate or ghost beneficiaries.",
+      "Data quality comes first: AI analysis of dirty, inconsistent data produces confident nonsense - garbage in, garbage out.",
+      "Personal and official data must not be uploaded to a public AI service; use an approved internal tool or de-identify the data first."
+    ],
+    "traps": [
+      "Correlation vs causation - AI finds correlations in data. It cannot establish that one thing caused another.",
+      "Descriptive vs predictive analysis - describing what has happened (totals, trends to date) is not the same as predicting what will happen. Options mix the two freely.",
+      "An LLM asked to add up a long table may return a plausible wrong total; it is a text generator, not a calculator. Have it write the query and run the query.",
+      "Anonymised is not automatically safe. Combining a few apparently harmless columns can re-identify an individual."
+    ],
+    "mnem": "",
+    "rel": ["AI-assisted System Administration", "AI Ethics and Responsible AI", "Machine Learning"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "IV",
+    "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+    "sub": "NIC eOffice",
+    "def": "eOffice is the digital workplace product suite built by the National Informatics Centre (NIC) for central and state government offices. It replaces the paper file and physical dak with electronic receipts, files and notings moving through the same official hierarchy, and bundles supporting modules for knowledge, leave and personnel records around that core.",
+    "exp": "The core module is eFile: diarising incoming dak as receipts, creating electronic files, recording notings, preparing drafts, and moving files between officers. Around it sit KMS, the knowledge repository for circulars and orders; eLeave for online leave application and sanction; PIMS, the Personnel Information Management System holding service records; and collaboration and tour modules depending on the deployment. Employee master data underpins them all - every user is an employee record mapped to a designation, so a file moves to a post, not to a person's name, and survives a transfer.\n\nInside eFile the structure is fixed. An incoming communication is diarised as a receipt. Receipts are attached to a file. Every file has two sides: the noting portion, where officers record their views and the competent authority records the decision, and the correspondence portion holding the letters and enclosures. A Draft for Approval is prepared in the file and, once approved, issued as the outgoing letter. Notings and approvals are authenticated with a Digital Signature Certificate or e-Sign, and every action is time-stamped and logged.\n\nA nodal officer or system administrator - in practice the System Manager - creates users, maps designations, configures file heads and maintains the hierarchy.",
+    "facts": [
+      "eOffice is developed by the National Informatics Centre (NIC), under MeitY.",
+      "eFile is the core module; other modules include KMS, eLeave and PIMS (Personnel Information Management System).",
+      "An eFile has two parts - the noting portion and the correspondence portion.",
+      "Incoming communication is diarised as a receipt, and receipts are attached to a file.",
+      "A Draft for Approval (DFA) is prepared within the file and issued as the outgoing letter once approved.",
+      "Notings and approvals in eOffice are authenticated using a Digital Signature Certificate (DSC) or e-Sign."
+    ],
+    "traps": [
+      "eOffice vs eFile - eOffice is the whole suite; eFile is the file-management module within it. A question naming KMS, eLeave or PIMS is asking about eOffice's components.",
+      "Receipt vs file vs noting - a receipt is one incoming communication, a file is the folder holding receipts and correspondence, and a noting is an officer's recorded remark inside that file.",
+      "NIC builds and hosts eOffice; it is a government product, not a commercial licence, and not merely a shared drive or generic document management system.",
+      "Files are marked to a designation, not to an individual's personal account - which is why pendency survives an officer's transfer and can be reassigned."
+    ],
+    "mnem": "",
+    "rel": ["e-Office Concept and Digital Office Environment", "Knowledge Management System (KMS)", "Digital Signature Certificate (DSC)"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "IV",
+    "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+    "sub": "e-Office Concept and Digital Office Environment",
+    "def": "The e-Office concept is the shift from a paper-file office to one where dak, files, notings and approvals are created and moved electronically. The digital office environment is the result: far less paper, files reachable from any authorised location, every action time-stamped and attributable, and procedures expressed as configured workflows rather than the physical movement of a folder.",
+    "exp": "What actually changes is worth stating precisely. Traceability: you can see where a file is, with whom, and how long it has been lying there - a paper file simply disappears into a drawer. Parallel access: a paper file exists in one place at a time, whereas an electronic file can be referenced by several officers at once without the original being lost. Audit trail: every movement, edit, noting and approval is logged with user identity and timestamp, and cannot be quietly backdated. Continuity: a transferred officer's pending files remain visible and reassignable. Searchability: past precedents and circulars can be found rather than reconstructed from memory.\n\nWhat it demands in return is standardised file numbering and file heads, defined channels of submission, DSC or e-Sign for authentication, dependable connectivity and power, backup and archival arrangements, and staff who will actually note inside the system.\n\nThe legal foundation is the Information Technology Act, which gives electronic records and electronic and digital signatures legal recognition - that recognition is what makes an electronic noting and an electronic approval valid rather than merely convenient.",
+    "facts": [
+      "Core gains of electronic file movement: traceability of file location, parallel access, a complete audit trail, faster movement, searchable records and reduced physical storage.",
+      "Electronic records and electronic or digital signatures derive their legal recognition from the Information Technology Act.",
+      "An audit trail is a time-stamped log of every action - creation, movement, noting, approval - carrying the identity of the user who performed it.",
+      "A digital office still requires standardised file numbering, defined channels of submission and a designated system administrator.",
+      "Backup, archival and record retention obligations continue unchanged after going electronic."
+    ],
+    "traps": [
+      "Paperless is the objective, not the definition. Running eOffice while maintaining a parallel paper file yields none of the benefit and doubles the work - it is the commonest failure in practice.",
+      "e-Office vs e-Governance - e-Office is internal, how the office runs its own files (government-to-employee and government-to-government). e-Governance in the citizen sense is outward service delivery (government-to-citizen). Options swap the two.",
+      "Electronic movement changes the medium, not the hierarchy. A file still travels through the prescribed channel of submission to the competent authority.",
+      "An audit trail records what was done; it does not prevent a wrong decision. Its value is attribution, not correctness."
+    ],
+    "mnem": "TAPS - Traceability, Audit trail, Parallel access, Search: the four things electronic file movement adds.",
+    "rel": ["NIC eOffice", "Workflow Configuration", "Record Retention and Archival"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "IV",
+    "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+    "sub": "Knowledge Management System (KMS)",
+    "def": "KMS is the eOffice module that holds the office's central, searchable repository of reference material - circulars, office orders, notifications, guidelines, rules, acts, forms and templates - arranged in a category hierarchy, so that an officer drafting a note can find the governing instruction instead of hunting through old files or asking a colleague.",
+    "exp": "Documents are uploaded into categories by an authorised user, tagged with metadata such as subject, number, date and issuing authority, and retrieved by keyword or metadata search. Access can be restricted by category where the material is not for general circulation. From within eFile a KMS document can be referenced or attached while noting, so the circular you are relying on travels with the file and the reader can see it. Superseded instructions are marked as superseded and retained rather than deleted, which keeps the chain of amendments traceable.\n\nThe wider point is institutional memory. Knowledge in an office is of two kinds - explicit knowledge, which is written down (circulars, manuals, standard operating procedures), and tacit knowledge, which sits in an experienced officer's head. A KMS captures the explicit kind well, and it is the main defence against knowledge walking out of the office on transfer or retirement. Tacit knowledge has to be converted deliberately, by writing handover notes and SOPs.\n\nA KMS only works if someone owns it - uploading, categorising, tagging and retiring documents. Left un-curated it degrades into an unsearchable dump, which is worse than useless because officers stop trusting it.",
+    "facts": [
+      "KMS is a module of NIC's eOffice suite and holds reference material - circulars, orders, notifications, guidelines, acts, rules, forms - not live case files.",
+      "KMS documents are organised in a category hierarchy and retrieved by keyword and metadata search, with access controllable by category.",
+      "A KMS document can be referenced or attached from within eFile while noting on a file.",
+      "Explicit knowledge is documented and directly transferable; tacit knowledge is experience-based and must be deliberately written down to be shared.",
+      "Superseded circulars should be marked superseded and retained, not deleted, so the sequence of instructions remains traceable."
+    ],
+    "traps": [
+      "KMS vs eFile - KMS is the shared reference library; eFile holds the live case files. The circular sits in KMS, the file deciding a case sits in eFile.",
+      "Knowledge management is more than storage. A shared folder is storage; a KMS adds categorisation, metadata, search, access control and supersession handling.",
+      "Explicit vs tacit knowledge - a KMS captures explicit knowledge only. Tacit knowledge transfers through mentoring, handover notes and documented SOPs, not by uploading a file.",
+      "KMS is a repository of instructions, not a decision-making system - it tells you what the rule is, it does not apply it."
+    ],
+    "mnem": "",
+    "rel": ["NIC eOffice", "e-Office Concept and Digital Office Environment", "Record Retention and Archival"]
+  }
+]

@@ -1,0 +1,54 @@
+{
+  "paper": "TECH2",
+  "unit": "I",
+  "unitTitle": "Computer Networking",
+  "unitMarks": 35,
+  "perTarget": 2,
+  "brief": "tools/system-manager-build/GENERATE_BRIEF.md",
+  "targets": [
+    {
+      "sub": "Subnetting",
+      "section": "Network Fundamentals"
+    },
+    {
+      "sub": "Routing and Switching",
+      "section": "Network Fundamentals"
+    },
+    {
+      "sub": "Switches",
+      "section": "Network Devices"
+    },
+    {
+      "sub": "Routers",
+      "section": "Network Devices"
+    },
+    {
+      "sub": "Gateways",
+      "section": "Network Devices"
+    },
+    {
+      "sub": "Firewalls",
+      "section": "Network Devices"
+    },
+    {
+      "sub": "Wireless Access Points",
+      "section": "Network Devices"
+    },
+    {
+      "sub": "DNS",
+      "section": "Network Services"
+    },
+    {
+      "sub": "DHCP",
+      "section": "Network Services"
+    },
+    {
+      "sub": "VPN",
+      "section": "Network Services"
+    },
+    {
+      "sub": "NAT",
+      "section": "Network Services"
+    }
+  ]
+}

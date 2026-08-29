@@ -1,0 +1,211 @@
+[
+  {
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "Images",
+    "def": "A picture is put on a web page with the IMG element. It is an empty element - no content, no closing tag - and it does not contain the picture itself. The SRC attribute holds the path or URL of a separate image file, which the browser fetches in an extra request and draws in place.",
+    "exp": "In practice two attributes matter. SRC gives the location of the file. ALT gives alternative text describing the image: the browser shows it when the file is missing or images are switched off, a screen reader reads it aloud to a blind user, and search engines index it. Giving WIDTH and HEIGHT lets the browser reserve the right amount of space before the file arrives, so the page does not jump about while loading. TITLE produces a tooltip on hover.\n\nChoose the format by the job. JPEG suits photographs and compresses hard with some loss of quality. PNG suits screenshots, diagrams and anything needing transparency. GIF handles a few colours and simple animation. SVG is vector, so logos and icons stay sharp at any size. WebP is a modern format giving smaller files. Every image is a separate HTTP request, so oversized pictures are the usual reason a page crawls on a weak connection.\n\nAn image becomes clickable by placing it inside an anchor element. A purely decorative image should still carry ALT with an empty value so a screen reader skips it rather than reading the file name. Decorative background pictures belong in CSS as a background image, not in the markup.",
+    "facts": [
+      "The IMG tag displays a picture on a web page.",
+      "IMG is an empty element: it has no closing tag.",
+      "SRC gives the file name or URL of the image; the image itself stays a separate file.",
+      "ALT supplies alternative text shown when the image cannot be displayed, read by screen readers and used by search engines.",
+      "JPEG for photographs, PNG for transparency, GIF for simple animation, SVG for scalable vector graphics."
+    ],
+    "traps": [
+      "The IMG element does not store the picture, it only points at the file - move or rename the file and the image breaks.",
+      "ALT vs TITLE - ALT replaces the image when it cannot be shown; TITLE is only a hover tooltip.",
+      "IMG needs no closing tag, unlike most elements; questions on 'which tag has no closing tag' often use it.",
+      "An image is not a link by itself; the anchor element wrapped around it is what makes it clickable."
+    ],
+    "mnem": "SRC = source of the file, ALT = alternative text.",
+    "rel": ["Hyperlinks", "Multimedia", "Text Formatting"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "Multimedia",
+    "def": "Multimedia on the web means everything beyond text and still pictures: audio, video, animation and 3D. HTML5 plays sound and video natively through the AUDIO and VIDEO elements, whose SRC attribute names the file and whose CONTROLS attribute shows the play bar. This replaced the plug-in era of Flash, RealPlayer and Java applets.",
+    "exp": "Common formats are MP3 and AAC for audio and MP4 (H.264) and WebM for video. Media files are large, so they are streamed - played while still arriving - rather than downloaded in full first. Most sites do not host video themselves; they embed a YouTube or similar player through an IFRAME, which shifts the bandwidth and the format conversion elsewhere.\n\nMacromedia Flash, later Adobe Flash, dominated web animation, games and video for a decade. Flash drew vector graphics: shapes described mathematically by points and curves, so they scale to any size without losing quality and stay small in file size, unlike bitmap images made of pixels. It needed a browser plug-in, was a repeated security problem, and Adobe ended support for it at the end of 2020. Its work is now done by HTML5 video, CSS animation, SVG and the CANVAS element.\n\nVRML, the Virtual Reality Modeling Language, describes interactive 3D worlds in a plain text file that a viewer or plug-in renders. The standard comparison is that VRML is to 3D scenes what HTML is to hypertext documents: a text-based markup describing the content, sent over the web and displayed by the client. VRML was succeeded by X3D, and 3D in the browser today is done with WebGL.",
+    "facts": [
+      "HTML5 plays media with the AUDIO and VIDEO elements, removing the need for a plug-in; CONTROLS shows the play bar.",
+      "MP3 is the common web audio format; MP4 with H.264 and WebM are the common video formats.",
+      "Flash drew vector graphics - mathematically defined shapes that scale without loss - and Adobe discontinued it at the end of 2020.",
+      "VRML is a text-based language for describing 3D worlds; VRML stands to 3D as HTML stands to hypertext documents.",
+      "Streaming plays the file while it downloads instead of waiting for the whole file."
+    ],
+    "traps": [
+      "Flash objects are vector, not bitmap - that is why Flash animations scaled cleanly and stayed small.",
+      "VRML source is plain readable text like HTML, not a compiled binary.",
+      "Streaming vs downloading - streaming does not leave a copy of the file on the machine.",
+      "Plug-ins, applets and Flash are dead technologies but still appear in older question papers; know them without using them."
+    ],
+    "mnem": "VRML : 3D worlds :: HTML : hypertext pages.",
+    "rel": ["Images", "World Wide Web", "Layouts"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "Forms",
+    "def": "A form is the part of a page that collects input from the visitor and sends it to the server. The FORM element wraps the controls and carries two key attributes: ACTION, the URL of the program that will receive the data, and METHOD, which is either GET or POST. Every control needs a NAME, because data arrives at the server as name-and-value pairs.",
+    "exp": "Most controls are INPUT elements distinguished by their TYPE attribute: text, password, radio, checkbox, submit, reset, hidden and file, plus the HTML5 types email, number, date and tel, which bring up the right mobile keyboard and add a basic check. SELECT with OPTION makes a drop-down, TEXTAREA a multi-line box, BUTTON a clickable button. A LABEL tied to a control by its ID makes the caption clickable and is what a screen reader announces.\n\nGET appends the data to the URL as a query string: visible in the address bar, bookmarkable, length limited, right for a search. POST puts the data in the body of the request: not shown in the address bar, no practical size limit, and the correct choice for logins, file uploads and anything that changes data on the server. Never send a password by GET.\n\nThe receiving side is a server-side program - historically a CGI script, now PHP, ASP.NET, JSP or an API endpoint. HTML5 attributes such as REQUIRED, PATTERN, MIN and MAX, and JavaScript checks, validate in the browser. That is a convenience for the user, not security: anyone can disable script or send a request directly, so every check must be repeated on the server.",
+    "facts": [
+      "The FORM tag's main attributes are ACTION (where the data goes) and METHOD (how it is sent).",
+      "METHOD is GET or POST; GET puts values in the URL query string, POST puts them in the request body.",
+      "The NAME attribute of each control becomes the key under which its value reaches the server.",
+      "The TYPE attribute of INPUT selects the control: text, password, radio, checkbox, submit, file and others.",
+      "A LABEL linked to a control by ID improves usability and is required for accessibility."
+    ],
+    "traps": [
+      "Client-side validation is a convenience, never a security control - the same checks must be done again on the server.",
+      "GET vs POST - GET data is visible and bookmarkable, POST data is not; a login must use POST.",
+      "NAME vs ID - NAME is what gets submitted, ID is used by the label, CSS and script.",
+      "Radio buttons sharing one NAME allow only one choice; checkboxes are independent even when related."
+    ],
+    "mnem": "",
+    "rel": ["Events", "Document Structure", "Styling"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "Styling",
+    "def": "CSS, Cascading Style Sheets, controls how the marked-up content looks - colour, font, size, spacing, borders, position - keeping presentation separate from the structure in the HTML. A stylesheet is a set of rules, and each rule is a selector naming which elements it applies to, followed by a declaration block of property and value pairs.",
+    "exp": "A rule reads h1 { color: navy; font-size: 24px; }. Here h1 is the selector and the braces hold two declarations, each a property, a colon, a value and a semicolon. Selectors can be an element name, a class written with a leading dot, an ID written with a leading hash, or combinations of these.\n\nThere are three ways to attach CSS. Inline: a STYLE attribute on one tag, which is how the classic exam answer sets a page background - a background-color declaration inside the STYLE attribute of the BODY tag, replacing the obsolete BGCOLOR attribute. Internal: a STYLE element in the head, styling that one document. External: a separate .css file linked from the head with the LINK element. External is what a real site uses - one file styles every page, a change is made once, and the browser caches it, so the pages are smaller and consistent.\n\nCascading is the rule for settling conflicts: inline beats internal and external, a more specific selector beats a general one, and among equals the later rule wins. Many properties, such as font and colour, are inherited by child elements. Finally, every element is a box - content, then padding, then border, then margin - and that box model is where most sizing confusion begins.",
+    "facts": [
+      "A CSS rule is a selector plus a declaration block of property: value pairs.",
+      "CSS can be attached three ways: inline STYLE attribute, internal STYLE element in the head, external .css file linked from the head.",
+      "External stylesheets are preferred: one change restyles the whole site and the file is cached.",
+      "Precedence: inline overrides internal and external; more specific selectors override general ones.",
+      "Box model order from the inside out: content, padding, border, margin.",
+      "A class selector is written with a dot and an ID selector with a hash."
+    ],
+    "traps": [
+      "HTML attribute vs CSS property - BGCOLOR is an old attribute, background-color is the CSS property that replaced it.",
+      "If a stylesheet seems to be ignored, look for an inline style: inline wins over the external file.",
+      "Padding is inside the border, margin is outside it - regularly swapped in options.",
+      "'Cascading' refers to resolving conflicting rules, not to styles flowing down the page."
+    ],
+    "mnem": "",
+    "rel": ["Layouts", "Responsive Design", "Document Structure"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "Layouts",
+    "def": "Layout is the arrangement of blocks on a page - header, navigation, main content, sidebar, footer. HTML supplies the containers and CSS positions them. DIV is the general-purpose block-level container: it has no appearance of its own and exists to group elements into one division that can be styled or positioned as a unit. SPAN is its inline counterpart for a run of text.",
+    "exp": "A block-level element begins on a new line and takes the full width available: DIV, P, the headings, lists and tables. An inline element sits within a line and is only as wide as its content: SPAN, the anchor, IMG and the phrase elements. The CSS display property can change this, and inline-block gives a box that flows along a line yet accepts a width and height.\n\nHTML5 added semantic containers that do a DIV's job while stating what the section is: HEADER, NAV, MAIN, SECTION, ARTICLE, ASIDE and FOOTER. Use them where they fit - they help search engines and screen readers understand the page - and fall back to DIV when nothing fits.\n\nModern layout uses Flexbox to arrange items along one axis, which suits a navigation bar or a row of cards, and CSS Grid for a genuine two-dimensional arrangement of rows and columns. Older sites used the FLOAT property, and before that nested tables and frames. Laying out a page with tables or frames is obsolete practice: it is hard for screen readers, it fixes the design to one screen width, and it mixes structure with presentation, which is precisely what CSS exists to prevent.",
+    "facts": [
+      "DIV is a block-level container used to group and divide page content; it has no visual effect until styled.",
+      "SPAN is the inline equivalent of DIV, used for part of a line of text.",
+      "A block element starts on a new line and fills the available width; an inline element does not.",
+      "HTML5 semantic layout elements are HEADER, NAV, MAIN, SECTION, ARTICLE, ASIDE and FOOTER.",
+      "Flexbox lays items out in one dimension; CSS Grid handles two dimensions, rows and columns together."
+    ],
+    "traps": [
+      "DIV vs SPAN - block versus inline; using DIV inside a sentence breaks the line.",
+      "A DIV is invisible by itself; if nothing changes on screen the styling, not the DIV, is missing.",
+      "Semantic elements differ from DIV in meaning, not appearance - a browser renders SECTION and DIV the same way.",
+      "Do not use tables or frames for page layout; tables are for tabular data, CSS is for layout."
+    ],
+    "mnem": "DIV divides blocks; SPAN spans text within a line.",
+    "rel": ["Styling", "Responsive Design", "Document Structure"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "Responsive Design",
+    "def": "Responsive web design means one set of pages that adapts its layout to whatever is viewing it - phone, tablet, laptop or large monitor - rather than a separate mobile site. It rests on three things: a fluid grid sized in percentages instead of fixed pixels, flexible images that shrink to fit their container, and CSS media queries that change the layout at chosen screen widths.",
+    "exp": "Screen size and resolution is one of the first considerations when designing a page, alongside who the audience is, what connection speed they have and which browsers and devices they use. A page fixed to a designer's monitor width breaks on a phone, and most traffic to Indian government sites now comes from phones on mobile data.\n\nA media query applies a block of CSS only when a condition is true, normally a minimum or maximum viewport width, so a three-column layout can stack into one column on a narrow screen. The widths at which the layout changes are called breakpoints. Images are kept flexible by capping their width at 100 per cent of the container so they never overflow. The viewport META tag in the head tells a mobile browser to use the real device width instead of pretending to be a desktop - leave it out and a responsive stylesheet has almost no effect on a phone.\n\nMobile-first means writing the small-screen layout first and adding rules for larger screens, which keeps the phone version light. Budget for slow links too: compress images, keep the page small, and make tap targets big enough for a finger.",
+    "facts": [
+      "Responsive design = fluid grids + flexible images + media queries.",
+      "A media query switches CSS on according to a condition, usually the viewport width.",
+      "The widths where the layout changes are called breakpoints.",
+      "The viewport META tag in the head is required for a responsive layout to work on a phone.",
+      "Mobile-first means designing the smallest screen first, then adding rules for wider screens."
+    ],
+    "traps": [
+      "Responsive is one adaptable page set; a separate mobile site at a different address is the older, different approach.",
+      "Media queries alone are not enough - without the viewport META tag a phone renders the desktop layout scaled down.",
+      "Fluid means percentage or relative widths; a layout in fixed pixels is not responsive however many media queries it has.",
+      "Responsive design concerns layout adapting to screen size, not the speed at which the page loads, though a heavy page hurts mobile users most."
+    ],
+    "mnem": "",
+    "rel": ["Styling", "Layouts", "Images"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "Variables",
+    "def": "A variable is a named container holding a value that a script can read and change. In JavaScript you declare one with let for a value that will change, const for one that will not, and var in older code. JavaScript is dynamically typed: you never state the type, the variable takes the type of whatever you assign, and the same name can later hold a different type.",
+    "exp": "The basic types are number - there is no separate integer and decimal type - string, boolean, null and undefined, together with objects and arrays. A variable that has been declared but not assigned holds undefined. Names are case sensitive, so total and Total are two different variables; they may contain letters, digits, underscore and the dollar sign, cannot begin with a digit and cannot be a reserved word. camelCase is the convention.\n\nWhere a variable is declared decides where it can be used. One declared inside a function is local to that function; one declared outside is global and visible everywhere, which is why sloppy code collides with itself. let and const are limited to the block they sit in. Prefer const, then let, and avoid creating globals by accident.\n\nJavaScript is interpreted by the browser: the client machine runs the source in its own JavaScript engine, with no compilation step by the developer, which is also why a user can read or disable it. Despite the name it is not Java and not a simplified Java. Java is a separate compiled, strongly typed, class-based language running on a virtual machine; JavaScript is an interpreted, dynamically typed scripting language made for the browser, and the similar name was a marketing decision.",
+    "facts": [
+      "JavaScript declares variables with let, const or the older var.",
+      "JavaScript is dynamically (loosely) typed - the type comes from the value assigned.",
+      "JavaScript identifiers are case sensitive.",
+      "JavaScript is interpreted by the browser on the client machine, not compiled by the developer.",
+      "A variable declared inside a function is local to it; one declared outside is global.",
+      "A declared but unassigned variable holds undefined."
+    ],
+    "traps": [
+      "Java and JavaScript are unrelated languages - compiled and strongly typed versus interpreted and loosely typed; only the name is shared.",
+      "Client side, not server side: browser JavaScript runs on the user's machine (Node.js on a server is the separate case).",
+      "Declaring a variable is not the same as assigning it a value.",
+      "Because names are case sensitive, a mistyped capital creates a second variable rather than an error."
+    ],
+    "mnem": "",
+    "rel": ["Functions", "Events", "Forms"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "Functions",
+    "def": "A function is a named block of statements that runs only when something calls it. Defining it does nothing on its own; calling it by name with parentheses executes the code. A function takes parameters - values handed in - and can send a value back with return, so one piece of logic is written once and reused wherever it is needed.",
+    "exp": "A declaration is the keyword function, the name, a parenthesised list of parameters and the body in braces. The names written in the definition are parameters; the actual values supplied at the call are arguments. A function with no return statement gives back undefined. Functions may also be written without a name and stored in a variable, or as arrow functions in modern code.\n\nThe browser provides built-in functions. Alert, prompt and confirm put up dialog boxes. ParseInt and parseFloat convert a string to a number, isNaN tests whether a value is not a number, and Number converts as well. These matter because everything typed into a form arrives as text: adding \"10\" and \"5\" as strings joins them into \"105\", so test with isNaN and convert with parseInt or parseFloat before doing arithmetic.\n\nScript lives inside a SCRIPT element or in a separate .js file. An external file is pulled in by giving the SCRIPT tag a SRC attribute naming the file, for instance SRC=\"abc.js\", with nothing written between the tags. External files are cached and shared across pages. VBScript was Microsoft's competing scripting language, able to do the same calculations and validation but only inside Internet Explorer; it is obsolete.",
+    "facts": [
+      "A function must be called to run; defining it only stores the code.",
+      "Parameters are the names in the definition; arguments are the values passed at the call.",
+      "Return sends a value back to the caller; without it the function returns undefined.",
+      "An external JavaScript file is included by setting the SRC attribute of the SCRIPT tag to the file name, with nothing between the tags.",
+      "isNaN tests whether a value is not a number; parseInt and parseFloat convert text to numbers."
+    ],
+    "traps": [
+      "Defining a function does not execute it - a script that appears to do nothing is often a function never called.",
+      "Parameter versus argument: the placeholder in the definition versus the real value at the call.",
+      "Form input is a string, so arithmetic on it concatenates unless you convert first - this is why isNaN and parseInt appear in exam questions.",
+      "VBScript works only in Internet Explorer; JavaScript is the cross-browser language."
+    ],
+    "mnem": "",
+    "rel": ["Variables", "Events", "Forms"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "Events",
+    "def": "An event is something that happens which a script can react to: the user clicks a button, moves the mouse over a link, presses a key, submits a form, or the page finishes loading. Event-driven programming means the code does not simply run top to bottom - it waits, and a handler function is executed when the event it is attached to fires.",
+    "exp": "Common events are onclick and ondblclick, onmouseover and onmouseout, onkeypress, onchange when a field's value is altered, onfocus and onblur as a control is entered and left, onsubmit on a form, and onload when the page and its images have finished loading. Most events are generated by a user action through mouse, keyboard or touch, but some are raised by the browser or system: the page loading, a timer expiring, a response arriving from the network.\n\nA handler can be attached in three ways: as an on-event attribute written in the markup, by assigning a function to the element's onclick property in script, or by calling addEventListener on the element. The last is preferred, because several handlers can be attached to one event without overwriting each other.\n\nThe handler is given an event object describing what happened and which element it happened on. Calling preventDefault, or returning false from a form's submit handler, cancels the default action - that is how a form is stopped from submitting when validation fails. Events also bubble upward, so a click on a button also reaches the elements containing it. This event-driven model is what makes a page interactive rather than a static document.",
+    "facts": [
+      "JavaScript supports event-driven programming: code runs in response to events, not in a fixed top-to-bottom order.",
+      "Common handlers are onclick, onmouseover, onkeypress, onchange, onsubmit and onload.",
+      "Events are generated mostly by user actions, and also by the browser or system - page load, timers, network responses.",
+      "addEventListener attaches a handler and allows more than one handler for the same event.",
+      "preventDefault, or returning false from a submit handler, stops the browser's default action."
+    ],
+    "traps": [
+      "Event-driven does not mean multithreaded - handlers are queued and run one at a time.",
+      "onload fires after the page and its images have loaded, so code needing an element must not run before it.",
+      "Assigning to the onclick property replaces any earlier handler; addEventListener adds to them.",
+      "JavaScript being event-driven is a property of the language in the browser and has nothing to do with Java, which shares only part of the name."
+    ],
+    "mnem": "",
+    "rel": ["Functions", "Variables", "Forms"]
+  }
+]

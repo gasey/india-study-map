@@ -1,0 +1,241 @@
+[
+  {
+    "paper": "TECH2",
+    "unit": "II",
+    "unitTitle": "Database Management System",
+    "sub": "Tables",
+    "def": "In a relational database a table (formally a relation) is the structure that actually stores the data: a named grid of rows and columns. A row - also called a tuple or a record - is one occurrence of the thing the table describes, such as one employee. A column - also called an attribute or a field - holds one named item of data, and every value in that column must fit the data type declared for it.",
+    "exp": "You create a table with CREATE TABLE, naming each column, giving it a data type, and attaching any rules. Common data types are integer and decimal numbers, fixed-length character (CHAR) and variable-length character (VARCHAR), date and time, boolean, and binary or large-object types for files. A desktop RDBMS such as MS Access gives you the same thing through a graphical Table Design view: you type the field name in one column, choose the Data Type from a drop-down, and set properties such as Field Size, Format, Caption and Default Value in the pane below, then mark the primary key with the key button.\n\nConstraints are the rules the DBMS itself enforces on every insert and update, so bad data cannot get in whatever the application does. PRIMARY KEY uniquely identifies each row, cannot be NULL, and there is only one per table (though it may span several columns as a composite key). FOREIGN KEY requires the value to match a key in another table - this is referential integrity. NOT NULL means a value is compulsory. UNIQUE forbids duplicates. CHECK requires the value to satisfy a stated condition, such as age greater than 18. DEFAULT supplies a value when the insert does not give one.\n\nRows in a table have no guaranteed physical order; if you want a particular sequence you must say ORDER BY in the query.",
+    "facts": [
+      "A row is also called a tuple or record; a column is also called an attribute or field.",
+      "A table has at most one PRIMARY KEY (which may be composite), but it can carry many UNIQUE constraints.",
+      "A FOREIGN KEY gives referential integrity: the value must already exist as a key in the referenced table.",
+      "In MS Access, Field Size for a Number data type offers numeric choices such as Byte, Integer, Long Integer, Single, Double and Decimal - a text-style size is not a valid choice for a Number field.",
+      "CREATE TABLE defines a table, ALTER TABLE changes its structure, DROP TABLE removes the table together with its data."
+    ],
+    "traps": [
+      "PRIMARY KEY vs UNIQUE - both block duplicates, but a primary key also forbids NULL and there is only one per table, while UNIQUE columns generally accept a NULL and a table may have several.",
+      "NOT NULL vs UNIQUE - NOT NULL only says a value must be supplied; the same value may repeat in every row.",
+      "Field Size is a property of a data type, not a data type itself. For Number it fixes the numeric range and precision; for Text it is a character count.",
+      "Row order is not a property of a table. A question that assumes rows come back in insertion order without ORDER BY is testing exactly this."
+    ],
+    "mnem": "",
+    "rel": [
+      "Relational Database Management System",
+      "Data Definition Language (DDL)",
+      "Indexes"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "II",
+    "unitTitle": "Database Management System",
+    "sub": "Views",
+    "def": "A view is a stored SELECT query that is given a name and afterwards behaves like a table: it has rows and columns and you can query it with SELECT. But it holds no data of its own. It is a virtual table - the rows are produced by running the underlying query against the current contents of the base tables each time the view is referenced. Only the query definition is stored, in the data dictionary.",
+    "exp": "You create one with CREATE VIEW name AS SELECT ..., and remove it with DROP VIEW, which leaves the base tables untouched.\n\nThere are three reasons to use views. First, simplification: a complicated join across five tables with filters and calculated columns is written once, and everyone afterwards writes SELECT * FROM that view. Second, security: privileges can be granted on the view instead of on the base tables, so a clerk can be given a view that exposes name and department but not the salary column (column-level restriction), or only the rows belonging to their own district (row-level restriction, achieved with a WHERE clause in the view). They never touch the base table at all. Third, stability: if the underlying tables are reorganised, the view can be redefined to produce the same columns, and the applications reading it keep working.\n\nNot every view can be written to. A simple view over a single table, with no aggregate function, no GROUP BY and no DISTINCT, is usually updatable and INSERT, UPDATE and DELETE pass through to the base table. Views built on joins, aggregates or set operators generally are not. A materialised view is a different object: it physically stores the result set and must be refreshed, so its data can be out of date.",
+    "facts": [
+      "A view stores the query definition, not the data; the query runs each time the view is used.",
+      "CREATE VIEW ... AS SELECT ... defines it; DROP VIEW removes only the definition.",
+      "Views are a standard access-control mechanism - grant on the view, not on the base table, to restrict columns or rows.",
+      "Simple single-table views are usually updatable; views with joins, GROUP BY or aggregates generally are not.",
+      "Altering or dropping a base table can break a view that depends on it."
+    ],
+    "traps": [
+      "A view does not make a query faster - it still runs the same query underneath. Speeding up retrieval is what an index does.",
+      "View vs materialised view - an ordinary view computes on demand and is always current; a materialised view stores a physical copy that can be stale until refreshed.",
+      "Dropping a view deletes no data. Dropping a table does.",
+      "A view is not a temporary table. A temporary table holds real rows for the session; a view holds none at any time."
+    ],
+    "mnem": "",
+    "rel": [
+      "Tables",
+      "Authorization",
+      "Indexes"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "II",
+    "unitTitle": "Database Management System",
+    "sub": "Indexes",
+    "def": "An index is a separate data structure built on one or more columns of a table that lets the DBMS find the rows matching a value without reading every row. It holds the indexed values in sorted order, each with a pointer to the row that contains it - the same idea as the index at the back of a book. Most are B-tree structures. Without a usable index the DBMS must do a full table scan.",
+    "exp": "What an index speeds up: lookups in a WHERE clause, joins on the indexed column, range searches, sorting and grouping that match the index order, and the enforcement of uniqueness. On a large table the difference between an indexed lookup and a full scan is the difference between a fraction of a second and minutes.\n\nWhat it costs: extra disk space, and slower writes. Every INSERT, UPDATE and DELETE must maintain each index on the table as well as the table itself, so a table with ten indexes is expensive to write to. An index on a column with very few distinct values, such as a yes/no flag, usually buys little because it still points at a large share of the table. The working rule is to index the columns that appear in WHERE clauses and join conditions, not every column.\n\nA clustered index determines the physical order in which the rows are stored, so a table can have only one - the data is the index. A non-clustered index is a separate structure of key values and row pointers, and a table can have many. Declaring a PRIMARY KEY normally makes the DBMS create a unique index on those columns automatically, and a UNIQUE constraint does the same. Use CREATE INDEX and DROP INDEX; dropping an index never removes data.",
+    "facts": [
+      "A table can have at most one clustered index because it fixes the physical row order, but many non-clustered indexes.",
+      "Declaring a PRIMARY KEY normally creates a unique index on those columns automatically.",
+      "Indexes speed up reads and slow down INSERT, UPDATE and DELETE, and they consume extra storage.",
+      "With no usable index the DBMS performs a full table scan.",
+      "CREATE INDEX builds one and DROP INDEX removes it; the table's data is unaffected."
+    ],
+    "traps": [
+      "\"More indexes make the database faster\" is the classic wrong answer - each extra index is a write-time and storage cost.",
+      "Index vs key - a key is a logical constraint (a rule about uniqueness or reference); an index is a physical access structure. A primary key usually gets an index, but you can index a column that is not a key at all.",
+      "Clustered vs non-clustered - the clustered index reorders the table's own rows, which is why there can be only one; a non-clustered index is a separate structure holding pointers.",
+      "An index never changes the result of a query, only the time taken to get it."
+    ],
+    "mnem": "Think of a book index: it finds a page instantly, but it takes extra pages and has to be redone whenever the book changes.",
+    "rel": [
+      "Tables",
+      "Views"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "II",
+    "unitTitle": "Database Management System",
+    "sub": "Stored Procedures (Concept)",
+    "def": "A stored procedure is a named block of SQL, together with procedural logic such as variables, IF conditions and loops, that is written once, compiled and stored inside the database, and then run on demand by calling its name. It can take input parameters, return output parameters or result sets, and it executes on the database server. The key point is that it runs only when something explicitly calls it.",
+    "exp": "You invoke one with CALL or EXECUTE and its name, passing arguments. Nothing runs it by itself.\n\nFour reasons they are used. Performance and network load: one call replaces a long conversation of individual statements between the application and the server, and the execution plan is normally parsed and cached once rather than on every run. Reuse and consistency: a business rule such as \"transfer money between two accounts\" is written in one place, so every application that needs it behaves identically. Security: a user can be granted the right to execute a procedure without being granted any rights on the underlying tables, so they can only touch the data in the ways the procedure allows, and passing values as parameters resists SQL injection. Maintenance: the procedure can be corrected on the server without rebuilding and redeploying every client application.\n\nA function is the related object: it returns a single value and can be used inside a SQL expression, for example in a SELECT list or a WHERE clause. A procedure is called as a statement in its own right and may return several results or none. The syntax is heavily vendor specific - PL/SQL in Oracle, T-SQL in SQL Server - which is why the syllabus marks this item \"(Concept)\": know what a procedure is, why it is used, and how it differs from a trigger.",
+    "facts": [
+      "A stored procedure is stored inside the database and executed with CALL or EXECUTE.",
+      "It accepts input parameters and can return output parameters or result sets.",
+      "It reduces network traffic because one call replaces many separate statements sent from the client.",
+      "EXECUTE permission on a procedure can be granted without granting any permission on the tables it uses.",
+      "A function returns a value usable inside an expression; a procedure is invoked as a statement."
+    ],
+    "traps": [
+      "Procedure vs trigger - the examinable difference. A procedure must be called explicitly by a user or application; a trigger fires automatically in response to a data event.",
+      "Procedure vs function - a function returns a value and can appear inside a SELECT or WHERE; a procedure cannot be used that way.",
+      "A stored procedure lives on the database server, not in the application code, and is compiled and stored there."
+    ],
+    "mnem": "",
+    "rel": [
+      "Triggers (Concept)",
+      "Transaction Control Language (TCL)",
+      "Authorization"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "II",
+    "unitTitle": "Database Management System",
+    "sub": "Triggers (Concept)",
+    "def": "A trigger is a block of code stored in the database and attached to a table, which the DBMS executes automatically whenever a specified data event happens on that table - an INSERT, an UPDATE or a DELETE. You do not call a trigger; you cause it. The application issues an ordinary statement and the trigger's code runs as part of that operation, without the application asking for it or even knowing it exists.",
+    "exp": "A trigger definition states three things. The event: which of INSERT, UPDATE or DELETE it responds to. The timing: BEFORE the change is applied, or AFTER; many systems also support INSTEAD OF triggers, defined on a view so that writes to an otherwise non-updatable view are redirected to the base tables. The granularity: a row-level trigger runs once for each affected row, a statement-level trigger runs once for the whole statement no matter how many rows it touched. Inside the body, the code can normally see both the old and the new version of the row being changed.\n\nWhat they are used for: enforcing business rules too complex for a CHECK constraint, especially rules that span more than one table; keeping derived or summary columns in step with the detail rows; and writing audit trails, recording who changed which value and when into a separate log table.\n\nThe caution is that triggers are invisible. An application runs one UPDATE and a chain of extra work happens with nothing in the calling code to show it, which makes both bugs and performance problems hard to trace, and one trigger's write can fire another. Where a declarative constraint can express the rule, prefer the constraint.",
+    "facts": [
+      "A trigger fires automatically on an INSERT, UPDATE or DELETE; it is never called by name.",
+      "Triggers have a timing (BEFORE or AFTER) and a granularity (row-level, once per row, or statement-level, once per statement).",
+      "INSTEAD OF triggers are typically defined on a view to make it updatable.",
+      "Common uses are auditing changes and enforcing business rules that a CHECK constraint cannot express.",
+      "A trigger is attached to a specific table and a specific event."
+    ],
+    "traps": [
+      "Trigger vs stored procedure - the most-asked distinction in this unit: automatic on an event versus explicitly called.",
+      "Trigger vs constraint - a constraint is a declarative rule the DBMS optimises around; a trigger is procedural code that runs. Use a constraint when it can do the job.",
+      "A trigger is fired by a data event, not by the clock. A task that runs at 2 a.m. every night is a scheduled job, not a trigger.",
+      "BEFORE vs AFTER is about when the trigger body runs relative to the change, not about which rows it sees - both can normally read old and new values."
+    ],
+    "mnem": "A procedure is called; a trigger is triggered.",
+    "rel": [
+      "Stored Procedures (Concept)",
+      "Tables",
+      "Auditing"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "II",
+    "unitTitle": "Database Management System",
+    "sub": "Transactions",
+    "def": "A transaction is a single logical unit of work made up of one or more database operations that must all succeed or all fail together. The standard example is a bank transfer: debit one account, credit another. Either both happen or neither does, because a system crash between the two would otherwise destroy money. A transaction begins, does its work, and ends with COMMIT, which makes every change permanent, or ROLLBACK, which undoes them all.",
+    "exp": "A transaction must satisfy the four ACID properties.\n\nAtomicity - all or nothing. A transaction that fails part-way is undone completely, leaving no half-finished work.\n\nConsistency - a transaction moves the database from one valid state to another, with every constraint and business rule still satisfied at the end.\n\nIsolation - concurrently running transactions must not see each other's incomplete work; the net effect must be as though they had run one after another.\n\nDurability - once COMMIT has returned, the changes survive a crash or power failure, because they have been secured in the transaction log on disk.\n\nA transaction passes through states: active while it runs, partially committed once its last statement is done, then committed; or, if something goes wrong, failed and then aborted, after which it may be restarted. SAVEPOINT marks a point inside a transaction so that ROLLBACK TO SAVEPOINT can undo part of the work without abandoning the whole thing.\n\nCOMMIT, ROLLBACK and SAVEPOINT are the Transaction Control Language statements. Many systems autocommit each statement unless a transaction is explicitly started. Atomicity and durability are delivered by the recovery manager using the log; isolation is delivered by the concurrency-control mechanism.",
+    "facts": [
+      "ACID stands for Atomicity, Consistency, Isolation and Durability.",
+      "COMMIT makes changes permanent, ROLLBACK undoes them, SAVEPOINT allows a partial rollback within a transaction.",
+      "Durability rests on the transaction log: recovery replays the log after a crash.",
+      "The transaction states are active, partially committed, committed, failed and aborted.",
+      "A committed transaction cannot be rolled back; the only remedy is a further compensating transaction."
+    ],
+    "traps": [
+      "Consistency vs Isolation - consistency is about rules and constraints still holding; isolation is about concurrent transactions not interfering with each other. Question papers routinely swap these two definitions.",
+      "Atomicity vs Durability - atomicity is all-or-nothing during execution; durability is survival of committed changes after a crash.",
+      "COMMIT vs SAVEPOINT - a savepoint makes nothing permanent, it only marks a position to roll back to.",
+      "Isolation is guaranteed by concurrency control, not by the backup system - do not attribute it to recovery."
+    ],
+    "mnem": "ACID - Atomicity, Consistency, Isolation, Durability.",
+    "rel": [
+      "Concurrency Control",
+      "Transaction Control Language (TCL)",
+      "Backup and Recovery"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "II",
+    "unitTitle": "Database Management System",
+    "sub": "Concurrency Control",
+    "def": "Concurrency control is the set of DBMS mechanisms that allow many transactions to run at the same time while still producing the same result as if they had run one after another. That correctness criterion is called serialisability. Without concurrency control, interleaved reads and writes on the same data corrupt the result even when every individual transaction is written correctly. It is the mechanism that delivers the Isolation property of ACID.",
+    "exp": "Four classic problems arise when control is absent. Lost update: two transactions read the same value, both compute a new one and write it, and the second overwrites the first, whose change disappears. Dirty read, or uncommitted dependency: T2 reads a value that T1 has written but not yet committed, and T1 then rolls back, so T2 has acted on data that never really existed. Non-repeatable read: T1 reads a row, T2 updates and commits it, and T1 reading the same row again gets a different value. Phantom read: T1 runs a query returning a set of rows, T2 inserts a new row that matches the same condition, and when T1 repeats the query an extra row has appeared.\n\nThe main mechanism is locking. A shared lock (S, read lock) lets other transactions read the item too but not write it; an exclusive lock (X, write lock) is held by one transaction and excludes everyone else, readers included. Two-phase locking guarantees serialisable schedules by dividing each transaction into a growing phase, in which it may only acquire locks, and a shrinking phase, in which it may only release them - once it has released any lock it may take no more. Strict two-phase locking holds all locks until commit.\n\nLocking brings deadlock: T1 holds what T2 wants while T2 holds what T1 wants, and both wait forever. Systems either prevent it by ordering or timestamps, or detect it with a wait-for graph - a cycle means deadlock - and abort a victim transaction to be restarted.",
+    "facts": [
+      "The four concurrency problems are lost update, dirty read, non-repeatable read and phantom read.",
+      "A shared lock permits several concurrent readers; an exclusive lock permits only its holder and blocks readers as well as writers.",
+      "Two-phase locking has a growing phase (acquire only) and a shrinking phase (release only), and guarantees serialisability.",
+      "Deadlock is detected by finding a cycle in the wait-for graph; one transaction is chosen as victim and rolled back.",
+      "Serialisability is the correctness standard: the interleaved schedule must give the same result as some serial order."
+    ],
+    "traps": [
+      "Two-phase locking is not two-phase commit. 2PL is concurrency control inside one database; two-phase commit coordinates COMMIT across several databases in a distributed transaction.",
+      "Dirty read vs non-repeatable read - a dirty read is reading uncommitted data; a non-repeatable read is re-reading data that was committed by someone else in between.",
+      "Non-repeatable read vs phantom read - the first is an existing row's value changing, the second is new rows appearing in a repeated query's result set.",
+      "Deadlock vs starvation - deadlock is a circular wait that never resolves on its own; starvation is one transaction being repeatedly passed over while others get the lock."
+    ],
+    "mnem": "",
+    "rel": [
+      "Transactions",
+      "Backup and Recovery"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "II",
+    "unitTitle": "Database Management System",
+    "sub": "Backup and Recovery",
+    "def": "Backup means taking a copy of the database and its transaction log so that it can be restored after loss. Recovery is the process of using those copies, together with the log, to bring the database back to a correct and consistent state after a failure - a disk or media failure, a system crash, or a human error such as a mistaken DELETE. Together they are what makes the durability property of a transaction true in practice.",
+    "exp": "The standard backup types. A full backup is a complete copy of the whole database and is the base for everything else. A differential backup copies only what has changed since the last full backup, so restoring needs the last full plus the most recent differential. An incremental backup copies only what has changed since the previous backup of any kind, so it is smaller but restoring needs the full backup plus every incremental in the chain, in order. A transaction-log backup copies the log records written since the last log backup, and it is what makes point-in-time recovery possible: restore the full backup, apply the differentials, then replay the log up to a chosen moment, such as the instant before the wrong DELETE was run.\n\nThe log is central. The DBMS writes a log record describing each change before that change is written to the data files - write-ahead logging. After a crash the recovery manager reads the log and does two things: it redoes, or rolls forward, the changes of transactions that had committed but may not have reached disk, and it undoes, or rolls back, the changes of transactions that were still in progress. Checkpoints limit how far back the log must be read.\n\nIn practice, keep backups on separate media and off-site, follow your office's own retention policy, and test-restore them. A backup that has never been restored is not yet proven.",
+    "facts": [
+      "The four standard backup types are full, differential, incremental and transaction-log.",
+      "Restoring from a differential needs the last full plus the latest differential; incremental needs the full plus every incremental since.",
+      "Point-in-time recovery requires transaction-log backups - a full backup alone cannot give it.",
+      "Write-ahead logging means the log record is written before the corresponding data change reaches disk.",
+      "Crash recovery redoes (rolls forward) committed transactions and undoes (rolls back) uncommitted ones."
+    ],
+    "traps": [
+      "Differential vs incremental - differential is always measured from the last full backup and grows larger each day; incremental is measured from the previous backup of any kind, stays small, but needs the whole chain intact to restore.",
+      "Backup vs mirroring or RAID - mirroring protects against a disk failing, but it faithfully copies a mistaken DELETE too. Only a backup lets you go back to an earlier state.",
+      "Roll forward vs roll back - redo is applied to committed transactions, undo to uncommitted ones. Papers frequently reverse these.",
+      "A full backup taken nightly does not protect the day's work; without log backups everything since the last full backup is lost."
+    ],
+    "mnem": "",
+    "rel": [
+      "Transactions",
+      "Auditing"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "II",
+    "unitTitle": "Database Management System",
+    "sub": "Authentication",
+    "def": "Authentication in a database system is the step of verifying the identity of whoever is trying to connect - proving that the connection really belongs to the user or application it claims to be - before any SQL statement is accepted. It answers the question \"who are you?\". What that identity is then permitted to do with the data is a separate step, authorization, and it happens afterwards.",
+    "exp": "There are two main models, and most servers can be configured for either or for both at once.\n\nDatabase authentication, sometimes called native authentication, keeps the account and its password inside the database itself. The client supplies a username and password when it connects and the DBMS checks them against its own catalogue of logins. It is simple and self-contained and works the same wherever the database is installed, but those passwords are managed separately from every other password in the office.\n\nOperating-system or integrated authentication makes the database trust the operating system or a directory service - Windows and Active Directory, or LDAP or Kerberos - to have already identified the user, and maps that identity to a database login. The user connects without retyping a password, which is single sign-on, and password strength, expiry, lockout and de-provisioning when someone leaves are all handled centrally in the directory. For a government office where staff already have domain accounts, this is usually the stronger arrangement.\n\nWhatever the model: change the passwords on the well-known administrative accounts the DBMS ships with, give each application its own low-privilege service account rather than letting it connect as administrator, encrypt the connection so credentials are not readable on the network, and log both successful and failed login attempts.",
+    "facts": [
+      "Authentication establishes who you are; authorization decides what you may do. Authentication always comes first.",
+      "Database (native) authentication stores logins and passwords inside the database; OS or integrated authentication delegates identity checking to Windows/Active Directory or a similar directory service.",
+      "Integrated authentication provides single sign-on and central control of password policy and account de-provisioning.",
+      "Multi-factor authentication adds a second factor - something you have or something you are - on top of the password.",
+      "Default administrative accounts must have their passwords changed, and applications should connect using a dedicated low-privilege account."
+    ],
+    "traps": [
+      "Authentication vs authorization - the examiner's favourite pair. Checking a username and password is authentication; GRANT and REVOKE are authorization.",
+      "Authentication vs auditing - authentication decides who gets in, auditing records what they did once inside.",
+      "Authentication is not encryption. A correct password does nothing to protect a data file that has been copied off the server; that needs encryption.",
+      "Identification vs authentication - supplying a username is identification (a claim); proving it with a password or key is authentication."
+    ],
+    "mnem": "Authentication asks who; authorization asks what.",
+    "rel": [
+      "Authorization",
+      "Encryption",
+      "Auditing"
+    ]
+  }
+]

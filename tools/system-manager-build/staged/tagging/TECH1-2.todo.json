@@ -1,0 +1,1213 @@
+{
+  "paper": "TECH1",
+  "instructions": "For each question in `questions`, add an entry to a JSON object keyed by question id: {\"<id>\": {\"unit\": \"<unit no>\", \"sub\": \"<leaf subtopic VERBATIM>\"}}. Write it to the same filename with .todo.json replaced by .done.json. `sub` must be copied character-for-character from `allowed_leaves` — it is matched by string equality. If the paper is GE, set sub to null and tag the unit only.",
+  "allowed_units": [
+    {
+      "unit": "I",
+      "title": "Fundamentals of Computer",
+      "marks": 60
+    },
+    {
+      "unit": "II",
+      "title": "Operating Systems",
+      "marks": 25
+    },
+    {
+      "unit": "III",
+      "title": "Word Processing",
+      "marks": 20
+    },
+    {
+      "unit": "IV",
+      "title": "Electronic Spreadsheet",
+      "marks": 25
+    },
+    {
+      "unit": "V",
+      "title": "Presentation Software",
+      "marks": 20
+    }
+  ],
+  "allowed_leaves": [
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Introduction to Computing",
+      "sub": "Evolution and Generations of Computers"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Introduction to Computing",
+      "sub": "Characteristics and Applications of Computers"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Introduction to Computing",
+      "sub": "Classification of Computers"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Introduction to Computing",
+      "sub": "Digital Transformation and e-Governance"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Introduction to Computing",
+      "sub": "Emerging Technologies: Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Big Data, Cloud Computing and Edge Computing"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Introduction to Computing",
+      "sub": "Green Computing and Sustainable IT"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Computer Architecture",
+      "sub": "Functional Components of a Computer"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Computer Architecture",
+      "sub": "CPU Architecture and Instruction Cycle"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Computer Architecture",
+      "sub": "Motherboard and Chipset"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Computer Architecture",
+      "sub": "System Bus and Expansion Slots"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Computer Architecture",
+      "sub": "BIOS/UEFI Firmware"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Processor and Memory",
+      "sub": "Multi-core and Multi-threaded Processors"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Processor and Memory",
+      "sub": "Cache Memory"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Processor and Memory",
+      "sub": "RAM, ROM and Virtual Memory"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Processor and Memory",
+      "sub": "Memory Hierarchy"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Processor and Memory",
+      "sub": "Performance Measurement"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Storage Technologies",
+      "sub": "HDD, SSD and NVMe Storage"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Storage Technologies",
+      "sub": "Optical and Flash Storage"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Storage Technologies",
+      "sub": "Network Attached Storage (NAS)"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Storage Technologies",
+      "sub": "Storage Area Network (SAN)"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Storage Technologies",
+      "sub": "Backup Concepts"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Storage Technologies",
+      "sub": "Disaster Recovery Concepts"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Input and Output Devices",
+      "sub": "Modern Input Devices"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Input and Output Devices",
+      "sub": "Biometric Devices"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Input and Output Devices",
+      "sub": "Smart Card Readers"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Input and Output Devices",
+      "sub": "Scanners"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Input and Output Devices",
+      "sub": "Display Technologies"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Input and Output Devices",
+      "sub": "Printers and Multifunction Devices"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Input and Output Devices",
+      "sub": "Interactive Displays"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Computer Software",
+      "sub": "System Software"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Computer Software",
+      "sub": "Application Software"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Computer Software",
+      "sub": "Open Source and Proprietary Software"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Computer Software",
+      "sub": "Software Licensing"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Computer Software",
+      "sub": "Software Development Life Cycle (SDLC)"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Computer Software",
+      "sub": "Virtualization and Containerization (Concept)"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Programming Fundamentals",
+      "sub": "Programming Languages"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Programming Fundamentals",
+      "sub": "Object-Oriented Programming Concepts"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Programming Fundamentals",
+      "sub": "Scripting Languages"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Programming Fundamentals",
+      "sub": "APIs and Software Integration (Concept)"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Information Technology and Society",
+      "sub": "Digital India and e-Governance"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Information Technology and Society",
+      "sub": "Electronic Records management"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Information Technology and Society",
+      "sub": "Data Privacy and Personal Data Protection"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Information Technology and Society",
+      "sub": "Cyber Ethics"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Information Technology and Society",
+      "sub": "AI Ethics"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Information Technology and Society",
+      "sub": "Digital Inclusion and Accessibility"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "Operating System Fundamentals",
+      "sub": "Types and Functions of Operating Systems"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "Operating System Fundamentals",
+      "sub": "Process Management"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "Operating System Fundamentals",
+      "sub": "Memory Management"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "Operating System Fundamentals",
+      "sub": "File Systems"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "Microsoft Windows",
+      "sub": "Windows Operating Systems"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "Microsoft Windows",
+      "sub": "User Accounts"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "Microsoft Windows",
+      "sub": "Windows Security"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "Microsoft Windows",
+      "sub": "Windows Terminal"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "Microsoft Windows",
+      "sub": "Registry"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "Microsoft Windows",
+      "sub": "Windows Utilities"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "Linux Fundamentals",
+      "sub": "Linux Architecture"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "Linux Fundamentals",
+      "sub": "Linux File System"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "Linux Fundamentals",
+      "sub": "Basic Linux Commands"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "Linux Fundamentals",
+      "sub": "Open-source Ecosystem"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "File and Storage Management",
+      "sub": "Files and Folders"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "File and Storage Management",
+      "sub": "Compression"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "File and Storage Management",
+      "sub": "Encryption"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "File and Storage Management",
+      "sub": "Backup and Restore"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "File and Storage Management",
+      "sub": "File Recovery"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "System Administration",
+      "sub": "Device Manager"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "System Administration",
+      "sub": "Disk Management"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "System Administration",
+      "sub": "Task Manager"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "System Administration",
+      "sub": "Resource Monitor"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "System Administration",
+      "sub": "Event Viewer"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "System Administration",
+      "sub": "Services"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "System Administration",
+      "sub": "Performance Monitoring"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "Command Line",
+      "sub": "Command Prompt"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "Command Line",
+      "sub": "PowerShell Fundamentals"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "Command Line",
+      "sub": "Basic Batch Files"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Word Processing",
+      "section": "Microsoft Word",
+      "sub": "Document Creation"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Word Processing",
+      "section": "Microsoft Word",
+      "sub": "Templates"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Word Processing",
+      "section": "Microsoft Word",
+      "sub": "Styles and Themes"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Word Processing",
+      "section": "Microsoft Word",
+      "sub": "Page Layout"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Word Processing",
+      "section": "Microsoft Word",
+      "sub": "Tables"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Word Processing",
+      "section": "Microsoft Word",
+      "sub": "SmartArt"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Word Processing",
+      "section": "Microsoft Word",
+      "sub": "Graphics"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Word Processing",
+      "section": "Microsoft Word",
+      "sub": "References"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Word Processing",
+      "section": "Microsoft Word",
+      "sub": "Table of Contents"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Word Processing",
+      "section": "Microsoft Word",
+      "sub": "Citations and Bibliography"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Word Processing",
+      "section": "Microsoft Word",
+      "sub": "Review Tools"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Word Processing",
+      "section": "Microsoft Word",
+      "sub": "Track Changes"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Word Processing",
+      "section": "Microsoft Word",
+      "sub": "Mail Merge"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Word Processing",
+      "section": "Microsoft Word",
+      "sub": "Accessibility Features"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Word Processing",
+      "section": "Microsoft Word",
+      "sub": "Microsoft 365 Collaboration"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Word Processing",
+      "section": "Microsoft Word",
+      "sub": "Integration of e-Office"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Word Processing",
+      "section": "Microsoft Word",
+      "sub": "AI-assisted Document Creation (Microsoft Copilot - Concept)"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Electronic Spreadsheet",
+      "section": "Microsoft Excel",
+      "sub": "Workbook Management"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Electronic Spreadsheet",
+      "section": "Microsoft Excel",
+      "sub": "Formulae and Functions"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Electronic Spreadsheet",
+      "section": "Microsoft Excel",
+      "sub": "Lookup Functions"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Electronic Spreadsheet",
+      "section": "Microsoft Excel",
+      "sub": "Statistical Functions"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Electronic Spreadsheet",
+      "section": "Microsoft Excel",
+      "sub": "Financial Functions"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Electronic Spreadsheet",
+      "section": "Microsoft Excel",
+      "sub": "Data Validation"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Electronic Spreadsheet",
+      "section": "Microsoft Excel",
+      "sub": "Sorting and Filtering"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Electronic Spreadsheet",
+      "section": "Microsoft Excel",
+      "sub": "Conditional Formatting"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Electronic Spreadsheet",
+      "section": "Microsoft Excel",
+      "sub": "Pivot Tables"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Electronic Spreadsheet",
+      "section": "Microsoft Excel",
+      "sub": "Pivot Charts"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Electronic Spreadsheet",
+      "section": "Microsoft Excel",
+      "sub": "Dashboards"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Electronic Spreadsheet",
+      "section": "Microsoft Excel",
+      "sub": "What-if Analysis"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Electronic Spreadsheet",
+      "section": "Microsoft Excel",
+      "sub": "Goal Seek"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Electronic Spreadsheet",
+      "section": "Microsoft Excel",
+      "sub": "Power Query (Introduction)"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Electronic Spreadsheet",
+      "section": "Microsoft Excel",
+      "sub": "Power Pivot (Overview)"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Electronic Spreadsheet",
+      "section": "Microsoft Excel",
+      "sub": "Macros (Introduction)"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Electronic Spreadsheet",
+      "section": "Microsoft Excel",
+      "sub": "Microsoft 365 Collaboration"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Electronic Spreadsheet",
+      "section": "Microsoft Excel",
+      "sub": "AI-assisted Spreadsheet Analysis"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "Presentation Software",
+      "section": "Microsoft PowerPoint",
+      "sub": "Presentation Design"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "Presentation Software",
+      "section": "Microsoft PowerPoint",
+      "sub": "Templates and Themes"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "Presentation Software",
+      "section": "Microsoft PowerPoint",
+      "sub": "Slide Master"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "Presentation Software",
+      "section": "Microsoft PowerPoint",
+      "sub": "SmartArt"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "Presentation Software",
+      "section": "Microsoft PowerPoint",
+      "sub": "Charts"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "Presentation Software",
+      "section": "Microsoft PowerPoint",
+      "sub": "Multimedia"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "Presentation Software",
+      "section": "Microsoft PowerPoint",
+      "sub": "Animation"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "Presentation Software",
+      "section": "Microsoft PowerPoint",
+      "sub": "Morph Transition"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "Presentation Software",
+      "section": "Microsoft PowerPoint",
+      "sub": "Presenter View"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "Presentation Software",
+      "section": "Microsoft PowerPoint",
+      "sub": "Recording Presentations"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "Presentation Software",
+      "section": "Microsoft PowerPoint",
+      "sub": "Presentation Delivery"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "Presentation Software",
+      "section": "Microsoft PowerPoint",
+      "sub": "Collaboration Features"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "Presentation Software",
+      "section": "Microsoft PowerPoint",
+      "sub": "Accessibility Features"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "Presentation Software",
+      "section": "Microsoft PowerPoint",
+      "sub": "AI-assisted Presentation Design (Microsoft Copilot - Concept)"
+    }
+  ],
+  "questions": [
+    {
+      "id": "CO2016A-P1-41",
+      "paper": "TECH1",
+      "q": "From where can you show or hide files and folders?",
+      "opts": {
+        "A": "View setting in Folder Options",
+        "B": "File/Folder setting in Folder Options",
+        "C": "User account setting in Folder Options",
+        "D": "Display Setting in Folder Options"
+      }
+    },
+    {
+      "id": "CO2016A-P1-42",
+      "paper": "TECH1",
+      "q": "Which statement is true?",
+      "opts": {
+        "A": "Deleting shortcut will make target file/folder inaccessible",
+        "B": "Deleting shortcut will only remove shortcut and do nothing to target file/folder",
+        "C": "Renaming shortcut will rename the target file",
+        "D": "Deleting target file will remove shortcut automatically"
+      }
+    },
+    {
+      "id": "CO2016A-P1-43",
+      "paper": "TECH1",
+      "q": "If you want your windows settings to be as an earlier state, which tool you have to use?",
+      "opts": {
+        "A": "Task Scheduler",
+        "B": "System Information",
+        "C": "System Restore",
+        "D": "Windows easy transfer"
+      }
+    },
+    {
+      "id": "CO2016A-P1-44",
+      "paper": "TECH1",
+      "q": "What is the command that shows all files and directories in current directory?",
+      "opts": {
+        "A": "REN",
+        "B": "RD",
+        "C": "MD",
+        "D": "DIR"
+      }
+    },
+    {
+      "id": "CO2016A-P1-45",
+      "paper": "TECH1",
+      "q": "In Microsoft Word, quick print will print",
+      "opts": {
+        "A": "Only the first page of the document once",
+        "B": "All pages of the document once",
+        "C": "All Odd pages of the document once",
+        "D": "All even pages of the document once"
+      }
+    },
+    {
+      "id": "CO2016A-P1-46",
+      "paper": "TECH1",
+      "q": "What is the Maximum font size that can be applied to any character?",
+      "opts": {
+        "A": "16",
+        "B": "163",
+        "C": "1638",
+        "D": "16038"
+      }
+    },
+    {
+      "id": "CO2016A-P1-47",
+      "paper": "TECH1",
+      "q": "By default, Word document print with",
+      "opts": {
+        "A": "1 inch top and bottom margin",
+        "B": "Landscape orientation",
+        "C": "Page number at lower left corner",
+        "D": "Font size 16"
+      }
+    },
+    {
+      "id": "CO2016A-P1-48",
+      "paper": "TECH1",
+      "q": "What is the largest and smallest font size in Microsoft Word formatting tool bar?",
+      "opts": {
+        "A": "8 and 82",
+        "B": "12 and 82",
+        "C": "12 and 72",
+        "D": "8 and 72"
+      }
+    },
+    {
+      "id": "CO2016A-P1-49",
+      "paper": "TECH1",
+      "q": "If you want to convert a symbol or several lines of text into an Auto Correct entry, you should",
+      "opts": {
+        "A": "Insert the symbol or type the text in word document first. Then, select the text or symbol and go to the Auto Correct dialog box.",
+        "B": "Click the tools menu and choose Auto Correct options. Then, Click the Insert menu and choose symbol (or Click the format menu and choose paragraph) to add the symbol or paragraph to Autocorrect.",
+        "C": "Auto correct can only accommodate one line of text. It is not possible to convert a symbol or multiple lines of text into an Auto Correct entry.",
+        "D": "Insert the symbol or type the text in a word document first. Then, Select the text or symbol and click the edit menu followed by Paste special. Select New Auto Correct Entry and then Click OK."
+      }
+    },
+    {
+      "id": "CO2016A-P1-50",
+      "paper": "TECH1",
+      "q": "A __________ is a dot or other symbol positioned at the beginning of the paragraph",
+      "opts": {
+        "A": "Bullet",
+        "B": "Logo",
+        "C": "Cell",
+        "D": "Target"
+      }
+    },
+    {
+      "id": "CO2016A-P1-51",
+      "paper": "TECH1",
+      "q": "Ctrl+ A is a shortcut for",
+      "opts": {
+        "A": "Align Right",
+        "B": "Select All",
+        "C": "Change Font",
+        "D": "Save Document"
+      }
+    },
+    {
+      "id": "CO2016A-P1-52",
+      "paper": "TECH1",
+      "q": "When inserting page number in footer it appeared 1 but you wish to show a. How can you do that?",
+      "opts": {
+        "A": "From format menus choose Bullets and Numbering and configure necessary setting",
+        "B": "From insert menu choose page number and specify necessary setting",
+        "C": "Click on Page number format tool and specify required setting",
+        "D": "From preference menu, select page number and specify necessary setting"
+      }
+    },
+    {
+      "id": "CO2016A-P1-53",
+      "paper": "TECH1",
+      "q": "In a document, what is the maximum number of columns that can be inserted in MS Word table?",
+      "opts": {
+        "A": "35",
+        "B": "45",
+        "C": "63",
+        "D": "65"
+      }
+    },
+    {
+      "id": "CO2016A-P1-54",
+      "paper": "TECH1",
+      "q": "When same word is used in multiple locations or a word is used that was not quite appropriate, a thesaurus can be used to look up a(n) __________ or a word in similar meaning",
+      "opts": {
+        "A": "Synonym",
+        "B": "Homonym",
+        "C": "Antonym",
+        "D": "Metronym"
+      }
+    },
+    {
+      "id": "CO2016A-P1-55",
+      "paper": "TECH1",
+      "q": "Which of the following is not essential component to perform a mail merge operation?",
+      "opts": {
+        "A": "Main document",
+        "B": "Data source",
+        "C": "Merge fields",
+        "D": "Word fields"
+      }
+    },
+    {
+      "id": "CO2016A-P1-56",
+      "paper": "TECH1",
+      "q": "Which way is to be followed to insert picture in Word document?",
+      "opts": {
+        "A": "Click Home in menu bar, then setting, and select InsertPicture",
+        "B": "Click picture in menu bar, then click insert",
+        "C": "Click insert in menu bar, then click insert",
+        "D": "Right Click on the place you want, and then click InsertPicture"
+      }
+    },
+    {
+      "id": "CO2016A-P1-57",
+      "paper": "TECH1",
+      "q": "How do you select entire cells in particular column of worksheet?",
+      "opts": {
+        "A": "Pressing Ctrl+A",
+        "B": "Click Column heading letter",
+        "C": "Click Edit, Then Click Select All",
+        "D": "Typing same letter as Column heading letter"
+      }
+    },
+    {
+      "id": "CO2016A-P1-58",
+      "paper": "TECH1",
+      "q": "What will you do to save existing Excel workbook in different name?",
+      "opts": {
+        "A": "Ctrl+s",
+        "B": "Save",
+        "C": "Save as",
+        "D": "Shift + s"
+      }
+    },
+    {
+      "id": "CO2016A-P1-59",
+      "paper": "TECH1",
+      "q": "If you have a list of numbers in cells B2 through B20 and you wanted the average of these numbers, what would be the formula?",
+      "opts": {
+        "A": "=AVERAGE(B2-B20)",
+        "B": "=AVERAGE(B2:B20)/18",
+        "C": "=AVERAGE((B2:B20)/18)",
+        "D": "=AVERAGE(B2:B20)"
+      }
+    },
+    {
+      "id": "CO2016A-P1-60",
+      "paper": "TECH1",
+      "q": "Which of the following is not a way to complete a cell entry?",
+      "opts": {
+        "A": "Pressing enter",
+        "B": "Pressing any arrow key on the keyboard",
+        "C": "Clicking the Enter button on the Formula bar",
+        "D": "Pressing spacebar"
+      }
+    },
+    {
+      "id": "CO2016A-P1-61",
+      "paper": "TECH1",
+      "q": "Comments put in cells are called",
+      "opts": {
+        "A": "Smart tip",
+        "B": "Cell tip",
+        "C": "Web tip",
+        "D": "Soft tip"
+      }
+    },
+    {
+      "id": "CO2016A-P1-62",
+      "paper": "TECH1",
+      "q": "To create a formula, you first:",
+      "opts": {
+        "A": "Select all the cells you want to place the formula into",
+        "B": "Type the equals sign (=) to tell Excel that you're about to enter a formula in a cell",
+        "C": "Enter the formula using any input values and the appropriate mathematical operators that make up your formula",
+        "D": "Choose the new command from the file menu"
+      }
+    },
+    {
+      "id": "CO2016A-P1-63",
+      "paper": "TECH1",
+      "q": "Which area in an Excel window allows entering values and formula?",
+      "opts": {
+        "A": "Title bar",
+        "B": "Menu bar",
+        "C": "Formula bar",
+        "D": "Standard toolbar"
+      }
+    },
+    {
+      "id": "CO2016A-P1-64",
+      "paper": "TECH1",
+      "q": "What is the correct formula to round sum of data from cell D4 to D17 without decimal point?",
+      "opts": {
+        "A": "=round(sum(D4:D17),0)",
+        "B": "= sum(round(D4:D17))",
+        "C": "=round(sum(D4:D17))",
+        "D": "= sum(round(D4:D17),0)"
+      }
+    },
+    {
+      "id": "CO2016A-P1-65",
+      "paper": "TECH1",
+      "q": "The numbers in our worksheet look like 1000, You want them to look like $1,000.00. How can you accomplish this?",
+      "opts": {
+        "A": "Select Money>US Dollar",
+        "B": "Select Format > Money from the menu",
+        "C": "Click the Currency Style button on the formatting toolbar",
+        "D": "You have to retype everything and manually add the dollar signs, commas, and decimals."
+      }
+    },
+    {
+      "id": "CO2016A-P1-66",
+      "paper": "TECH1",
+      "q": "Which of the following is an absolute cell reference?",
+      "opts": {
+        "A": "!A!1",
+        "B": "$A$1",
+        "C": "#a#1",
+        "D": "A1"
+      }
+    },
+    {
+      "id": "CO2016A-P1-67",
+      "paper": "TECH1",
+      "q": "If a variable is to be created in Excel, the variable and value must be in",
+      "opts": {
+        "A": "same cell",
+        "B": "same row next to each other",
+        "C": "same column next to each other",
+        "D": "same row or same column next to each other"
+      }
+    },
+    {
+      "id": "CO2016A-P1-68",
+      "paper": "TECH1",
+      "q": "What are the three tools in what-if analysis in Excel?",
+      "opts": {
+        "A": "Scenarios, Data tables and Goal seek",
+        "B": "Scenarios, Data tables and Target",
+        "C": "Scenarios, Data Set and Prediction",
+        "D": "Scenario, Prediction and Future Value"
+      }
+    },
+    {
+      "id": "CO2016A-P1-69",
+      "paper": "TECH1",
+      "q": "What lets you to create new presentation by selecting ready-made font color and graphics effects?",
+      "opts": {
+        "A": "Presentation Template",
+        "B": "Master Slide",
+        "C": "Design Template",
+        "D": "Animation Scheme"
+      }
+    },
+    {
+      "id": "CO2016A-P1-70",
+      "paper": "TECH1",
+      "q": "What PowerPoint feature will you use to apply motion effects to different objects of a slide?",
+      "opts": {
+        "A": "Slide Transition",
+        "B": "Slide Design",
+        "C": "Animation Objects",
+        "D": "Animation Scheme"
+      }
+    },
+    {
+      "id": "CO2016A-P1-71",
+      "paper": "TECH1",
+      "q": "Which short cut key inserts a new slide in current presentation?",
+      "opts": {
+        "A": "Ctrl+N",
+        "B": "Ctrl+M",
+        "C": "Ctrl+S",
+        "D": "All of above"
+      }
+    },
+    {
+      "id": "CO2016A-P1-72",
+      "paper": "TECH1",
+      "q": "What is the tool for recording the amount of time spent for slide presentation?",
+      "opts": {
+        "A": "Rehearse timing",
+        "B": "Slide time setting",
+        "C": "Slide timer",
+        "D": "Timing recorder"
+      }
+    },
+    {
+      "id": "CO2016A-P1-73",
+      "paper": "TECH1",
+      "q": "Grouping of pictures is used for",
+      "opts": {
+        "A": "Moving grouped picture at the same time",
+        "B": "Arranging grouped picture at corner of the slide",
+        "C": "Aligning grouped picture vertically",
+        "D": "Aligning grouped picture horizontally"
+      }
+    },
+    {
+      "id": "CO2016A-P1-74",
+      "paper": "TECH1",
+      "q": "Which of the following is the default page setup orientation of slide in PowerPoint?",
+      "opts": {
+        "A": "Grid",
+        "B": "Landscape",
+        "C": "Portrait",
+        "D": "Tile"
+      }
+    },
+    {
+      "id": "CO2016A-P1-75",
+      "paper": "TECH1",
+      "q": "In Microsoft PowerPoint in order to see all the slides on one screen use",
+      "opts": {
+        "A": "view, slide sorter",
+        "B": "view, slide",
+        "C": "view, master",
+        "D": "view, slide show"
+      }
+    },
+    {
+      "id": "CO2016B-P1-1",
+      "paper": "TECH1",
+      "q": "In analog computer",
+      "opts": {
+        "A": "Input is first converted to digital form",
+        "B": "Input is never converted to digital form",
+        "C": "Output is displayed in digital form",
+        "D": "None of these"
+      }
+    },
+    {
+      "id": "CO2016B-P1-2",
+      "paper": "TECH1",
+      "q": "Which of the following computer generation uses the concept of artificial intelligence?",
+      "opts": {
+        "A": "First Generation",
+        "B": "Second Generation",
+        "C": "Third Generation",
+        "D": "Fourth Generation"
+      }
+    },
+    {
+      "id": "CO2016B-P1-3",
+      "paper": "TECH1",
+      "q": "Main component of first generation computer was",
+      "opts": {
+        "A": "Transistors",
+        "B": "Vacuum Tubes and Valves",
+        "C": "Integrated Circuits",
+        "D": "None of these"
+      }
+    },
+    {
+      "id": "CO2016B-P1-4",
+      "paper": "TECH1",
+      "q": "The section of the CPU that is responsible for performing mathematical operations",
+      "opts": {
+        "A": "Memory",
+        "B": "Register Unit",
+        "C": "Control Unit",
+        "D": "ALU"
+      }
+    },
+    {
+      "id": "CO2016B-P1-5",
+      "paper": "TECH1",
+      "q": "CPU consists of",
+      "opts": {
+        "A": "ALU+CU",
+        "B": "ROM+ALU",
+        "C": "RAM+ROM",
+        "D": "None of these"
+      }
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+[
+  {
+    "paper": "TECH2",
+    "unit": "V",
+    "unitTitle": "IT Governance, Business Communication and Aptitude",
+    "sub": "Official Correspondence",
+    "def": "The written exchange by which an office conducts its business. It divides two ways: internal correspondence, within the organisation (office memorandum, office order, circular), and external correspondence, with other departments, other governments, firms and the public (the official letter, the demi-official letter, notifications, tenders). Office mail is classified as incoming and outgoing, entered in a receipt or despatch register so it can be traced.",
+    "exp": "The Indian official forms are told apart by tone and by their salutation-subscription pairing. An official letter is formal and impersonal, addressed to a post rather than to a person: it opens with Sir or Madam and closes Yours faithfully. A demi-official (D.O.) letter is officer to officer, written in the first person and signed personally: Dear Shri Lalthanga, closing Yours sincerely. It is used to draw an individual officer's personal attention. An office memorandum carries no salutation and no subscription, and is written in the third person. A circular sends identical content to many addressees inside the organisation; a notification is published in the Gazette to give a decision legal effect.\n\nEvery official communication carries a file or reference number and a date, and a subject line stating the matter in one line, which is what an officer files by. Enclosures are listed at the end. An attention line names the individual dealing with the matter, so the letter is not delayed in the general dak. In full block form every line, including the date and the subscription, begins flush at the left margin with no indentation.\n\nThe General English paper's Letter Writing topic covers parts and layout in drafting detail. A resume follows different rules: professional experience in reverse chronological order, most recent first, and its purpose is to secure an interview, not the post itself.",
+    "facts": [
+      "The two basic types of correspondence are internal and external; office mail is classified as incoming and outgoing.",
+      "An official letter pairs Sir or Madam with Yours faithfully; a demi-official (D.O.) letter pairs Dear Shri or Smt plus the name with Yours sincerely, and is written in the first person.",
+      "An office memorandum has no salutation and no subscription and is written in the third person.",
+      "Full block form places every line flush at the left margin with no indentation.",
+      "An attention line routes a letter to the individual handling the matter within the addressee organisation.",
+      "In a resume, professional experience is listed in reverse chronological order, the most recent post first."
+    ],
+    "traps": [
+      "D.O. letter versus official letter: the D.O. is personal and first person, closing Yours sincerely; the official letter is impersonal, closing Yours faithfully. Swapping the two subscriptions is the standard distractor.",
+      "Attention line versus inside address: the inside address is the organisation written to; the attention line names the individual within it. Only the attention line speeds up routing.",
+      "A circular goes to many addressees inside the organisation; a notification is published in the Gazette to give legal effect. They are not interchangeable.",
+      "The purpose of a resume is to secure an interview, not to secure the job — the offer follows the interview, not the paper."
+    ],
+    "mnem": "Faithfully follows Sir; Sincerely follows a name.",
+    "rel": [
+      "Technical Report Writing",
+      "Email Etiquette",
+      "Documentation Standards"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "V",
+    "unitTitle": "IT Governance, Business Communication and Aptitude",
+    "sub": "Technical Report Writing",
+    "def": "A structured written account of technical work — a site survey, a system evaluation, a feasibility study, a post-incident review — written so that the officer receiving it can act on it. The standard order is title page, executive summary, introduction and scope, body (method, findings, analysis), conclusions, recommendations, and annexures. It is written to produce a decision, not to display technical detail.",
+    "exp": "Write for the reader who will act. The approving officer is usually not a technical person and will read the executive summary and the recommendations and very little else. So put the substance where it will be found. The executive summary is a standalone condensation of the whole report — what was examined, what was found, what you recommend — and it must make sense to someone who never reads the body. It is not an introduction and not a statement of what the report is about.\n\nSeparate finding from opinion. The body states what was measured or observed and by what method; the analysis interprets it; the conclusion states what the evidence shows and introduces nothing new. A recommendation that cannot be traced back to a finding is the commonest weakness in a departmental report.\n\nRecommendations must be actionable: specific, with an owner and a timeframe. Security should be improved is not a recommendation. Replace the two unsupported servers in the district office within the current financial year, by the Assistant Engineer (IT), is one.\n\nBulk goes to the annexures. Detailed data tables, raw survey forms, long configuration listings, log extracts, questionnaires and vendor quotations belong at the end, referenced from the body, so the main report stays readable while the supporting evidence remains available for audit and verification.",
+    "facts": [
+      "The standard structure is title page, executive summary, introduction and scope, body (method and findings), conclusions, recommendations, annexures.",
+      "The executive summary is a standalone condensation of the entire report, including its findings and recommendations, written for a reader who will not read the body.",
+      "Annexures hold the supporting bulk — raw data tables, survey forms, configuration listings, quotations — and are referred to from the body.",
+      "Conclusions must follow from the findings and introduce no new material.",
+      "A recommendation is stated as a specific action with a responsible officer and a timeframe."
+    ],
+    "traps": [
+      "Executive summary versus introduction: the introduction gives background and scope; the summary gives the findings and the recommendations. A summary that only says what the report is about has failed its purpose.",
+      "Conclusion versus recommendation: the conclusion says what the evidence shows; the recommendation says what should now be done about it.",
+      "Annexures are not a dump for material the body could not fit — every annexure must be referenced from the body.",
+      "Placing the recommendation only on the last page is a genuine failure of a technical report; a busy officer reads the front matter and stops."
+    ],
+    "mnem": "",
+    "rel": [
+      "Documentation Standards",
+      "Official Correspondence",
+      "Data Interpretation"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "V",
+    "unitTitle": "IT Governance, Business Communication and Aptitude",
+    "sub": "Email Etiquette",
+    "def": "The conventions governing official email: an informative subject line, an appropriate salutation and a sign-off carrying name and designation, correct use of the To, Cc and Bcc fields, restraint in replying to all, and the recognition that an official email is an official record. In a government office an email is drafted with the same care as a formal letter, because it carries comparable weight and can be produced later.",
+    "exp": "The three address fields do different jobs. To carries the people who are expected to act. Cc, carbon copy, carries those who only need to know — putting an officer in Cc informs them, it does not ask them for anything. Bcc, blind carbon copy, hides a recipient's address from every other recipient. Its legitimate use is a circular sent to a large list of unrelated addressees, where exposing everyone's address would be a privacy breach.\n\nThe subject line is how the mail is later found and filed. Important and Regarding the matter are useless. Renewal of AMC for district office printers — approval sought tells the reader the file, the action and the urgency in one line. When the topic changes, start a fresh mail rather than replying under an old subject.\n\nReply to the sender, not to all, unless every recipient genuinely needs your answer. An approved sent to forty addressees is forty interruptions.\n\nThe governance point matters most in a government post. Official email on a departmental domain is an official record: it is retained, it can be audited, and it can be called for later. Write nothing you would not put in a file noting, do not conduct official business from a personal mail account, and check the address before attaching anything sensitive.",
+    "facts": [
+      "To lists those expected to act, Cc lists those who need only to be informed, and Bcc lists recipients hidden from all other recipients.",
+      "Bcc's legitimate use is mailing a large list of unrelated addressees without exposing their addresses to each other.",
+      "An official email is an official record — retained, auditable and capable of being produced later — so it is drafted as carefully as a formal letter.",
+      "The subject line should state the matter and the action sought, so the mail can be retrieved and filed.",
+      "Attachments should be named meaningfully and mentioned in the body of the mail."
+    ],
+    "traps": [
+      "Cc versus Bcc: Cc addresses are visible to every recipient, Bcc addresses are not. Bcc does not encrypt the mail or make it confidential in any other way.",
+      "A Bcc'd recipient who presses reply-all exposes the fact that they were copied. Bcc is not a guarantee of secrecy.",
+      "Reply-all goes to every To and Cc recipient. It is a deliberate choice, not the safe default.",
+      "Typing Confidential in the subject line gives no protection: the mail remains a record and can still be forwarded."
+    ],
+    "mnem": "",
+    "rel": [
+      "Official Correspondence",
+      "Cyber Safety Awareness",
+      "Documentation Standards"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "V",
+    "unitTitle": "IT Governance, Business Communication and Aptitude",
+    "sub": "Presentation Skills",
+    "def": "Delivering spoken information to an audience so that it achieves a defined purpose — approval for a proposal, training users on a new system, briefing officers on a procurement. Every choice about content, depth and language follows from two questions: who is the audience, and what do I want them to do at the end. A talk pitched at the wrong audience fails however sound the material is.",
+    "exp": "Structure carries a presentation. State the purpose and the ask at the start rather than saving them for the end — a decision-making audience needs to know early what is being sought from it. Then the substance, then a short close restating the decision required. Slides support the speech, they are not the speech: a few lines per slide, readable from the back of the room, nothing read aloud verbatim.\n\nDelivery is eye contact, an audible unhurried pace, and enough rehearsal that you know your timing. Anticipate the questions and decide in advance what you will say when you do not know an answer — I will check and revert is a legitimate answer, inventing one is not.\n\nAn interview is a presentation of yourself. It differs from ordinary conversation in being held for a specific reason and aimed at a particular outcome. The two methods are the structured interview, where every candidate is asked the same fixed set of questions so answers can be compared, and the unstructured interview, which is open-ended and follows the candidate. The first step in preparing is to learn as much as you can about the organisation and the role. To a point-blank question such as are you analytical, answer yes and give one specific example — the example is the evidence.",
+    "facts": [
+      "Audience and purpose decide the content, depth and language of a presentation.",
+      "Slides carry keywords and visuals; the speaker carries the explanation.",
+      "The two methods of interview are the structured interview and the unstructured interview.",
+      "An interview differs from ordinary conversation in being held for a specific reason and aimed at a particular outcome.",
+      "The first step in interview preparation is learning as much as possible about the organisation and the role."
+    ],
+    "traps": [
+      "Rehearsing is not memorising. A memorised script collapses the moment a question interrupts it.",
+      "To a point-blank question such as can you work under pressure, a bare yes, or a yes with a vague explanation, is weaker than yes plus one concrete example.",
+      "More slides is not more content, and reading the slides aloud is the commonest fault in a technical briefing.",
+      "Knowing little about the organisation or the role is the classic interview mistake, and it becomes visible within the first minute."
+    ],
+    "mnem": "",
+    "rel": [
+      "Meeting Documentation",
+      "Technical Report Writing",
+      "Official Correspondence"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "V",
+    "unitTitle": "IT Governance, Business Communication and Aptitude",
+    "sub": "Meeting Documentation",
+    "def": "The written record of a meeting, in two documents. The agenda is circulated to the members before the meeting, listing the items to be taken up along with the date, time, venue and any papers to be read in advance. The minutes are written after the meeting, recording who attended, what was decided on each item, and the action points with the officer responsible and the date by which each is to be completed.",
+    "exp": "Minutes record decisions, not conversation. They are not a transcript and not a round-up of every speaker's view. The workable form for each item is one line on what was placed before the meeting, then the decision, then the action point: decided to procure fifteen UPS units through GeM; action, Assistant Engineer (IT), by the end of November. A dissent is recorded only where the member asks for it to be recorded.\n\nAn action point without a named owner and a date is not an action point, it is a wish. Producing those owned, dated actions is the whole reason minutes exist.\n\nThe standard elements are the title of the meeting with date, time and venue; the names of members present, of officers in attendance, and of those who sought leave of absence; confirmation of the minutes of the previous meeting; an action-taken report on earlier decisions; the item-wise decisions; and the signature of the chairperson. Draft minutes are circulated for correction and are confirmed at the following meeting, after which they are the authoritative record of what was decided.\n\nWrite them impersonally, in the third person and past tense, and circulate them within days. Minutes that reach members a month later cannot drive any action.",
+    "facts": [
+      "The agenda is circulated to members before the meeting; the minutes are written after it.",
+      "Minutes primarily record the decisions taken and the action points, each with a responsible officer and a deadline.",
+      "Minutes are confirmed at the following meeting and signed by the chairperson.",
+      "Standard content: date, time and venue, members present and officers in attendance, confirmation of the previous minutes, action-taken report, and item-wise decisions.",
+      "Minutes are written in the third person and the past tense."
+    ],
+    "traps": [
+      "Agenda versus minutes: the agenda is what will be discussed, circulated in advance; the minutes are what was decided, recorded afterwards.",
+      "Minutes are not a verbatim transcript and should not attribute every remark to a speaker.",
+      "Draft minutes are not yet the record — they become authoritative only on confirmation at the next meeting.",
+      "Writing that a matter was discussed, with no decision and no owner, is the commonest defect in departmental minutes."
+    ],
+    "mnem": "",
+    "rel": [
+      "Documentation Standards",
+      "Presentation Skills",
+      "Official Correspondence"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "V",
+    "unitTitle": "IT Governance, Business Communication and Aptitude",
+    "sub": "Numerical Ability",
+    "def": "Basic arithmetic applied quickly and accurately: percentages, ratio and proportion, averages, time and work, profit and loss, simple and compound interest, squares and roots, and number series. None of it needs advanced mathematics. What is tested is whether you can pick the right method and execute it in under a minute without a calculator, so learn the methods rather than trying to remember answers.",
+    "exp": "Percentage change equals the new value minus the old, divided by the old, times 100. The denominator is always the original figure. A rise from 1,250 to 1,500 is 250 divided by 1,250, times 100, which is 20 per cent. Dividing by 1,500 instead gives 16.67 per cent, and that wrong answer is nearly always offered as an option.\n\nAverage equals the sum divided by the number of items. Bills of 8,000, 9,500, 7,000, 10,500 and 10,000 total 45,000, and 45,000 divided by 5 is 9,000. The fast method is to guess a base, average the deviations from it, and add back: against a base of 9,000 the deviations are minus 1,000, plus 500, minus 2,000, plus 1,500 and plus 1,000, which sum to zero, so 9,000 is exact.\n\nTime and work is done in one-day fractions. If two people together finish in 8 days they complete one-eighth a day; if the first alone takes 12 days he does one-twelfth a day. The second does one-eighth minus one-twelfth, which is three-twenty-fourths minus two-twenty-fourths, or one-twenty-fourth a day, so he needs 24 days alone.\n\nFor profit and loss, the percentage is on cost price unless stated otherwise. For a number series, test the differences, then the ratios, then a mixed rule: 2, 5, 11, 23, 47 is each term doubled plus one, giving 95.",
+    "facts": [
+      "Percentage change = (new value minus original value) divided by the original value, times 100.",
+      "Average = the sum of the values divided by the number of values.",
+      "Time and work problems are solved by converting to one-day work fractions and adding or subtracting them.",
+      "Profit and loss percentages are calculated on cost price unless the question says otherwise.",
+      "In clock problems the minute hand moves 6 degrees a minute and the hour hand moves 0.5 degrees a minute."
+    ],
+    "traps": [
+      "Percentage change divides by the ORIGINAL value. Dividing by the new value is the planted wrong option in almost every such question.",
+      "The square root of 16 is 4, and 4 is 2 squared. The distractor 4 squared equals 16, which is the number you started with.",
+      "In time and work, never average the days: 8 days and 12 days does not give 10. Add or subtract the daily work fractions instead.",
+      "In clock problems the hour hand keeps moving between the hour marks, so at 12:25 the gap is not the full 150 degrees swept by the minute hand."
+    ],
+    "mnem": "",
+    "rel": [
+      "Data Interpretation",
+      "Logical Reasoning",
+      "Digital Reasoning"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "V",
+    "unitTitle": "IT Governance, Business Communication and Aptitude",
+    "sub": "Logical Reasoning",
+    "def": "Reasoning items that need no calculation: number and letter series, coding and decoding, odd one out, analogies, syllogisms, direction sense and blood relations. In this paper the section also carries verbal items drawn from older question papers — idioms and proverbs, one-word substitution, antonyms and synonyms, and rearranging jumbled sentence parts — so prepare both sides of it.",
+    "exp": "For a number series, test the differences first. In 108, 100, 92, 90, 82, 74 the differences are minus 8, minus 8, minus 2, minus 8, minus 8, so the rule repeats in a cycle of three and the next step is minus 2, giving 72. If the differences do not settle, test the ratio: 102, 204, 408, 816 doubles each time, giving 1,632. Alternating series interleave two rules, so read the odd and even positions separately.\n\nFor a letter series, number the alphabet A equals 1 through Z equals 26 and work in numbers. BEI, DGK, FIM, HKO: every letter advances by 2 from one group to the next, so HKO, which is 8, 11, 15, becomes 10, 13, 17, that is JMQ.\n\nCoding and decoding by letter shift is solved by comparing each coded letter with its original. COMPUTER written as DPNQVUFS is a plus one shift: C to D, O to P, and so on. Apply the same shift to PRINTER — P to Q, R to S, I to J, N to O, T to U, E to F, R to S — giving QSJOUFS. Shifts wrap round, so Z plus one is A.\n\nDirection problems should be drawn. Facing south, a left turn faces you east; a second left faces you north. In syllogisms, accept the premises as true even if absurd, and conclude only what must follow, never what merely could.",
+    "facts": [
+      "Number series method: check the differences first, then the ratios, then alternating or mixed rules.",
+      "A plus one letter shift codes COMPUTER as DPNQVUFS and PRINTER as QSJOUFS.",
+      "In letter series, converting letters to their positions A equals 1 to Z equals 26 exposes the rule.",
+      "Facing south, a left turn faces you east, and a further left turn faces you north.",
+      "A syllogism conclusion is valid only if it must follow from the premises, not merely if it could."
+    ],
+    "traps": [
+      "An alternating series looks broken: 108, 100, 92, 90 subtracts 8 twice and then 2. Abandoning the pattern at the first irregular difference loses the question.",
+      "Letter shifts wrap round — after Z comes A. The usual distractors are the correct shift applied in the wrong direction, or one letter altered.",
+      "Some A are B does not license the certain conclusion that some A are not B.",
+      "In direction problems, left and right are from the walker's point of view, not from the reader's view of the page."
+    ],
+    "mnem": "",
+    "rel": [
+      "Analytical Reasoning",
+      "Digital Reasoning",
+      "Numerical Ability"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "V",
+    "unitTitle": "IT Governance, Business Communication and Aptitude",
+    "sub": "Analytical Reasoning",
+    "def": "Reasoning over a set of stated conditions to fix an arrangement or an assignment: seating in a row or a circle, allotting flats to floors, matching people to professions, departments or cities, ordering by rank, age or score, and small set-based puzzles. Nothing is hidden — the answer is forced by the clues given, and the whole skill is representing them on paper so that the force becomes visible.",
+    "exp": "Draw the frame before you reason. A row of six seats, or a building of five floors numbered from the bottom, sketched on the rough sheet, and only then read the clues again. Place the definite clues first — C sits at the extreme right, the doctor lives on the top floor. Relative clues go in afterwards.\n\nTurn each statement into something you can physically place. A is immediately left of B becomes the block AB, which then moves as a single unit. P is not adjacent to Q is a negative clue, and it carries real information: record it as a cross rather than trying to hold it in your head. For matching puzzles use a grid with the people down the side and the attributes across the top, ticking and crossing cells as each clue is applied — a confirmed tick knocks out the rest of that row and the rest of that column.\n\nWhen the clues run out and the arrangement is still open, take the smallest remaining choice, assume one branch, and follow it until it either completes or contradicts a clue. A contradiction proves the other branch.\n\nBefore answering, check the finished diagram against every clue once. A clue you never used almost always means the arrangement is not actually forced.",
+    "facts": [
+      "Definite clues that fix a position are placed before relative clues that only order two elements.",
+      "Immediately left or immediately right fixes adjacency as well as order; to the left of fixes order only.",
+      "In a matching grid, a confirmed pairing eliminates every other cell in its row and in its column.",
+      "A circular arrangement needs a stated facing direction, because facing the centre reverses left and right compared with facing outward."
+    ],
+    "traps": [
+      "In a circle facing the centre, a person's left is the reader's right. Ignoring the facing direction is the standard error in circular seating puzzles.",
+      "A is to the left of B does not mean immediately left — others may sit between them unless the clue says immediately.",
+      "Negative clues such as X is not on the top floor carry information and must be recorded on the diagram, not skipped.",
+      "Answering from a half-built arrangement: if any clue is still unused, the arrangement is not yet forced and your answer is a guess."
+    ],
+    "mnem": "",
+    "rel": [
+      "Logical Reasoning",
+      "Digital Reasoning",
+      "Data Interpretation"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "V",
+    "unitTitle": "IT Governance, Business Communication and Aptitude",
+    "sub": "Data Interpretation",
+    "def": "Reading quantitative information presented as a table, a bar chart, a pie chart, a line graph, or simply as figures given inside the question, and answering on it — totals, averages, ratios, percentage change, and which category is largest or grew fastest. The arithmetic is deliberately simple. The marks are lost by misreading the unit, the year, or the base of a percentage.",
+    "exp": "Read the headings and the unit before you touch the numbers. Figures in lakh and figures in thousand change every absolute answer, and a pie chart usually gives shares, so you cannot convert a share to a number without the total.\n\nPercentage change equals the new figure minus the old, divided by the old, times 100, and the denominator is the earlier figure. Applications rising from 1,250 in 2024 to 1,500 in 2025 is 250 divided by 1,250, times 100, which is 20 per cent. Note how the same two numbers give something else if the question changes: 1,250 as a percentage of 1,500 is 83.3 per cent, because the denominator has changed.\n\nMean and median are not the same summary. The mean is the sum over the count: bills of 8,000, 9,500, 7,000, 10,500 and 10,000 total 45,000, so the mean is 9,000. The median is the middle value after sorting — 7,000, 8,000, 9,500, 10,000, 10,500 — which is 9,500. One extreme value drags the mean but not the median, so the median describes a lopsided set better.\n\nPercentage points and per cent are different quantities. A share moving from 20 per cent to 25 per cent has risen by 5 percentage points, which is an increase of 25 per cent. Both numbers will appear among the options.",
+    "facts": [
+      "Percentage change = (new minus old) divided by old, times 100, with the original figure as the denominator.",
+      "Mean = sum divided by the number of items; median = the middle value once the figures are sorted.",
+      "The five values 8,000, 9,500, 7,000, 10,500 and 10,000 have a mean of 9,000 and a median of 9,500.",
+      "A move from 20 per cent to 25 per cent is a rise of 5 percentage points, and that is a 25 per cent increase.",
+      "A pie chart shows shares; converting a share into an absolute number requires the total."
+    ],
+    "traps": [
+      "The wrong denominator is the commonest error: 250 on 1,500 gives 16.67 per cent and is offered as an option, but the correct base is the original 1,250, giving 20 per cent.",
+      "Percentage points are not per cent, and questions test the confusion deliberately.",
+      "The mean is pulled by a single extreme value while the median is not, so a question asking for the typical or representative figure may want the median.",
+      "Check the unit line — in lakh, in thousand, in crore — before computing. Ratio answers survive a missed unit; absolute answers do not."
+    ],
+    "mnem": "",
+    "rel": [
+      "Numerical Ability",
+      "Technical Report Writing",
+      "Analytical Reasoning"
+    ]
+  }
+]

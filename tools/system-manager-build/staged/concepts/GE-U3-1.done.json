@@ -1,0 +1,135 @@
+[
+  {
+    "paper": "GE",
+    "unit": "3",
+    "unitTitle": "Comprehension of given passages",
+    "sub": "How to read an unseen passage under time pressure",
+    "def": "Comprehension in this paper is a block of objective questions set on a passage you have not seen before, carrying 15 marks. The task is not to understand the passage completely; it is to answer its questions accurately and quickly. That makes your reading a controlled search rather than ordinary reading.",
+    "exp": "Skim the question stems first - just the stems, not the options. Thirty seconds of that tells you what the passage is about and what you are hunting for. In the 2016 papers a single passage carried five to sixteen questions, so it pays back many times over.\n\nThen read the passage once, straight through, at normal speed. Do not stop at unfamiliar words. You are after the shape of the argument: what is claimed, what is offered as evidence, and where the author turns. Put a light number in the margin whenever you pass something a question asked about.\n\nNow answer, using a second targeted pass. Comprehension questions are normally set in the order the material appears, so the answer to question four sits between the answers to three and five. Use that to locate lines instead of re-reading the whole passage for each question.\n\nAnswer only from the passage. If you already know the topic, your own knowledge becomes a liability: the examiner builds distractors that are true in the world but absent from the text.\n\nBudget roughly a third of your comprehension time on reading and two thirds on answering and verifying. If a question resists after two lookups, mark it, move on and come back. One hard inference question carries the same mark as an easy detail question.",
+    "facts": [
+      "Comprehension carries 15 marks in the General English paper",
+      "Questions are normally set in the order the material appears in the passage",
+      "Every answer must be provable from the passage alone, not from prior knowledge",
+      "The recurring question types are main idea, detail, inference, meaning-of-a-word and find-the-word-in-the-passage",
+      "In the 2016 papers one sitting set a single long passage with sixteen questions and the other set three shorter passages sharing the same total"
+    ],
+    "traps": [
+      "Reading the four options before the passage - they plant ideas you then go looking for",
+      "Answering from general knowledge: a statement can be perfectly true and still not be what the passage says",
+      "Spending three minutes on one inference question and running out of time for four easy detail questions",
+      "Assuming a word carries its usual meaning instead of the one the passage gives it"
+    ],
+    "mnem": "Stems, sweep, search - skim the stems, sweep the passage once, then search for each answer.",
+    "rel": [
+      "Main idea, tone and the author's stance",
+      "Vocabulary-in-context questions",
+      "Why lifting sentences verbatim loses marks"
+    ]
+  },
+  {
+    "paper": "GE",
+    "unit": "3",
+    "unitTitle": "Comprehension of given passages",
+    "sub": "Main idea, tone and the author's stance",
+    "def": "The main idea is the single claim the passage exists to advance. Tone is the author's attitude to the material - approving, critical, detached, ironic. Stance is the position the author takes on the question at issue. Questions on all three give you four statements that could all be true, and ask which one the passage actually commits to.",
+    "exp": "The working test is simple: which of these four sentences would the author sign their name to? Not which is true, and not which you agree with.\n\nSeparate the topic from the main idea. Good manners is a topic. That good manners are acquired at home by imitation and are what make a person civilised is a main idea. Distractors are usually written at topic level, which is why they read as reasonable.\n\nWatch scope. The 2016 manners passage asks whether good manners are inherent, acquired, imitated or taught. Imitation and teaching are both mentioned as mechanisms, so they feel supported - but the question asks what good manners are, and the passage's claim is that they are acquired rather than inborn. A true detail answered at the wrong scope is the commonest wrong answer in this unit.\n\nTone is read off word choice. The 2016 passage on the origins of religion describes early man creating gods out of fear, and priests gaining political power by joining hands with despotic rulers. That is an analytical, sceptical stance, and it rules out every option phrased in the believer's vocabulary - spiritual revelation, the dictates of religious faith. Once you have fixed the stance, whole options fall away without further checking.",
+    "facts": [
+      "The main idea is the claim the whole passage serves; the topic is only what it is about",
+      "Tone is inferred from the author's word choice and is almost never stated outright",
+      "A distractor can be factually true and still wrong, because the passage does not assert it",
+      "Fixing the author's stance eliminates options written from the opposing viewpoint",
+      "The same skill is tested on the written side when you supply a title or write a precis"
+    ],
+    "traps": [
+      "Topic-level options - broad, true, and not the claim this passage makes",
+      "Offering a memorable detail or example as the main idea; the vivid illustration is rarely the thesis",
+      "Choosing the option that matches your own view of the subject rather than the author's",
+      "Missing a turn in the argument and stating the position the author was arguing against"
+    ],
+    "mnem": "",
+    "rel": [
+      "Finding the controlling idea",
+      "Inference questions and answering in your own words",
+      "How to read an unseen passage under time pressure"
+    ]
+  },
+  {
+    "paper": "GE",
+    "unit": "3",
+    "unitTitle": "Comprehension of given passages",
+    "sub": "Inference questions and answering in your own words",
+    "def": "An inference question asks for something the passage supports but never states in those words. The stems are Why, How, What made, What is meant by. A valid answer follows from the text in one short step; anything that needs an assumption you brought from outside is a guess, not an inference.",
+    "exp": "Apply the one-step rule. Find the line the question points at, then ask what it forces you to conclude. If you can defend your answer by quoting a sentence or two and adding nothing, it is an inference. If your defence begins with words like normally a king would, it is speculation - and speculation is what the wrong options are made of.\n\nTake the 2016 jester passage. Why did the jester joke at the king's expense? Real life suggests malice, an old score, or a lesson for the courtiers - and three options say exactly that. The passage supports only that he expected the king to enjoy it as usual. In the same passage nobody could complain about his arrogance, not because the king was powerful but because the king was fond of him; the passage states the fondness and the reader supplies the rest.\n\nOn the written side the same questions appear as short answers, with the instruction to answer in your own words. Build the answer by turning the question stem into a statement and completing it: the jester joked at the king's expense because he expected the king to appreciate it. One or two sentences is right. Do not write out the whole paragraph hoping the marker will find the answer inside; unasked material earns nothing and can contradict the part that was right.",
+    "facts": [
+      "Inference stems in this paper are Why, How, What made and What is meant by",
+      "A valid inference requires no fact from outside the passage",
+      "Short-answer comprehension normally carries the instruction to answer in your own words",
+      "Turning the question stem into the opening of your sentence keeps the answer on the asked point",
+      "Inference questions carry the same mark as detail questions, so they are not worth extra time"
+    ],
+    "traps": [
+      "Real-world plausibility - options describing how people usually behave rather than what this passage says",
+      "Over-inference: an answer two or three steps from the text is no longer supported by it",
+      "Padding the written answer so the point is buried; surplus material earns no marks",
+      "Copying the sentence you located instead of restating it in your own construction"
+    ],
+    "mnem": "",
+    "rel": [
+      "Why lifting sentences verbatim loses marks",
+      "Main idea, tone and the author's stance"
+    ]
+  },
+  {
+    "paper": "GE",
+    "unit": "3",
+    "unitTitle": "Comprehension of given passages",
+    "sub": "Vocabulary-in-context questions",
+    "def": "Two shapes appear. In the first, a word from the passage is quoted and you give its meaning as used there. In the second, a meaning is supplied and you must find the word in the passage that carries it. Both are answered by going back to the line, not by recalling a dictionary entry.",
+    "exp": "Take the find-the-word type first, because it is where marks are lost. Find the word in the passage which means intruding beyond acceptable limits - options amass, interacts, encroaching, offensive. Every option is a word that appears in the passage, so general vocabulary cannot separate them. The method is mechanical. Split the gloss into its parts, intruding plus beyond acceptable limits. Locate each candidate in the passage and read its sentence. Amass is to pile up, usually wealth. Interacts is neutral contact. Offensive names an effect, not an intrusion. Encroaching is the only word carrying both halves of the gloss. Grammar narrows it further: a gloss written as a participle, intruding, points to a participle answer.\n\nFor the meaning-of-a-word type, substitute each option into the passage sentence and read it in your head. Do not monopolise the conversation takes to obtain exclusive control. A board game is the best-known literal sense, planted for the candidate who never went back to the line. To overpower someone overshoots - monopolising is about taking the whole of something, not defeating a person.\n\nNever answer these from vocabulary alone. The examiner picks words whose ordinary sense and passage sense differ just enough to punish exactly that, and the passage sentence settles it in seconds.",
+    "facts": [
+      "In a find-the-word question all four options are words drawn from the passage itself",
+      "The answer to a find-the-word question must actually appear in the passage - an option that does not appear cannot be right",
+      "Monopolise means to obtain exclusive control",
+      "Encroaching means intruding beyond acceptable limits",
+      "The grammatical form of the gloss usually matches the grammatical form of the answer word"
+    ],
+    "traps": [
+      "Answering from a remembered dictionary meaning instead of the sentence in front of you",
+      "The literal or best-known sense planted as a distractor - monopolise offered as a board game",
+      "A near-synonym that is stronger or weaker than the gloss - overpower for monopolise",
+      "Picking a word that names the effect rather than the act - offensive for encroaching"
+    ],
+    "mnem": "",
+    "rel": [
+      "How to read an unseen passage under time pressure",
+      "Inference questions and answering in your own words"
+    ]
+  },
+  {
+    "paper": "GE",
+    "unit": "3",
+    "unitTitle": "Comprehension of given passages",
+    "sub": "Why lifting sentences verbatim loses marks",
+    "def": "Copying a sentence out of the passage proves you found the right place. It does not prove you understood it. Comprehension marks are awarded for reformulation, so a verbatim lift is at best part-credited on a short answer, and in a precis it is penalised outright.",
+    "exp": "The skill under test is transformation - taking what the author said and saying it yourself, shorter and in your own construction. A copied sentence demonstrates none of that, and a marker spots it instantly.\n\nThe damage differs by task. In a precis you have roughly a third of the original word count, so one lifted sentence spends much of the budget on the author's phrasing, illustration and rhetoric - the things the precis was meant to remove. In a short comprehension answer the lifted sentence almost always carries material the question did not ask for, and the surplus can contradict the part that was right.\n\nThe reliable technique is: find the line, look away from the paper, then write. Change the sentence frame - if the author used a passive, use an active; if the author gave a list, name the category. Keep technical terms, proper nouns, numbers and quoted phrases exactly as they stand, because paraphrasing those introduces error.\n\nThe same principle bites on the objective side. An option that repeats the passage's exact wording is often a distractor lifted from the wrong sentence. In the 2016 manners passage, the question on why living in society is not an easy job offers the familiar phrase about man being a social animal, but the passage's actual reason is that one must follow socially accepted codes of conduct.",
+    "facts": [
+      "Comprehension and precis marks are given for reformulation, not for locating the sentence",
+      "A precis runs to about one third of the original passage, which no verbatim answer can respect",
+      "Technical terms, proper nouns, numbers and quoted phrases are kept as they stand",
+      "A precis must be in the third person and in reported speech, which by itself blocks most verbatim lifting",
+      "Changing the sentence frame - passive to active, list to category name - is the fastest way to reformulate"
+    ],
+    "traps": [
+      "Lifting the passage's topic sentence as the precis opening instead of writing the controlling idea yourself",
+      "Assuming that familiar passage wording in an MCQ option marks it correct; it is often lifted from the wrong sentence",
+      "Paraphrasing so hard that a technical term or proper noun is changed and the meaning shifts",
+      "Copying a long sentence for a short answer, so unasked material dilutes or contradicts the right part"
+    ],
+    "mnem": "",
+    "rel": [
+      "What a precis is and is not",
+      "Third person and reported speech",
+      "Inference questions and answering in your own words"
+    ]
+  }
+]

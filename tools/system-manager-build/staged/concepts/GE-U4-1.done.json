@@ -1,0 +1,81 @@
+[
+  {
+    "paper": "GE",
+    "unit": "4",
+    "unitTitle": "Grammar: Parts of Speech",
+    "sub": "The eight parts of speech and how to tell them apart",
+    "def": "The traditional eight classes English words are sorted into: noun, pronoun, verb, adjective, adverb, preposition, conjunction and interjection. The exam expects these eight. A word belongs to a class by the job it does in its sentence, not by its meaning, so every reliable test is a test of function.",
+    "exp": "Noun - names something and can head a subject or an object. Test: it takes the, or a plural, or answers who or what. Abstract nouns take no article and still pass: Poverty is a huge problem in India.\n\nPronoun - stands in for a noun phrase already known. Test: put the full noun phrase back and the sentence still works. In This phone is much better than that, that stands for the other phone.\n\nVerb - predicates something and carries tense. Test: change the tense and see whether the word changes. Auxiliaries count: in I have supported you, have is a verb.\n\nAdjective - describes a noun. Test: it fits before a noun, after a linking verb, or as a complement. In She coloured her hair green, green describes the hair.\n\nAdverb - modifies a verb, an adjective, another adverb or a whole clause, and answers how, when, where, how often or how much. In He came yesterday, yesterday answers when.\n\nPreposition - stands in front of a noun phrase and relates it to the rest: jumped over the wall, faith in your decision, indifferent to your lies, preparation for the function. Test: something noun-like must follow it.\n\nConjunction - joins words or clauses: and, but, or, because, although, if.\n\nInterjection - a standalone exclamation: Hello, Oh, Alas.",
+    "facts": [
+      "The eight are noun, pronoun, verb, adjective, adverb, preposition, conjunction and interjection",
+      "A preposition always takes an object - a noun, a pronoun or an -ing form must follow it",
+      "Auxiliaries and modals (have, be, do, will, can) are classed as verbs, not as a ninth class",
+      "In the traditional eight, articles a, an and the are counted as adjectives; modern grammars call them determiners",
+      "Adverbs answer how, when, where, how often and to what degree",
+      "Class is decided by function in the sentence, not by the word's dictionary meaning"
+    ],
+    "traps": [
+      "Calling an abstract noun an adjective because it names a quality - Poverty heads the subject, so it is a noun",
+      "Reading green in coloured her hair green as a noun because green is a colour; it describes the hair, so adjective",
+      "Yesterday, today and tomorrow answer when and are adverbs there, but are nouns in yesterday's news",
+      "Treating an auxiliary as somehow not a verb - in I have supported you, the underlined have is a verb"
+    ],
+    "mnem": "",
+    "rel": [
+      "Words that change part of speech with their slot",
+      "Identifying the part of speech of an underlined word"
+    ]
+  },
+  {
+    "paper": "GE",
+    "unit": "4",
+    "unitTitle": "Grammar: Parts of Speech",
+    "sub": "Words that change part of speech with their slot",
+    "def": "English marks word class by position, not by form. The same string of letters is a different part of speech in a different slot. So the question a paper actually asks is never what class this word belongs to, but what job it is doing here - and the neighbouring words settle it.",
+    "exp": "Book is the standard demonstration. Book a ticket is a verb. Read the book is a noun. A book review is a noun modifying a noun, which the traditional eight class as an adjective. Nothing about the word changed; only its slot did.\n\nThat is the one that decides real questions. In This phone is much better than that, that stands in for a noun phrase, so it is a pronoun. In that phone, it points at the noun that follows, so it is a demonstrative adjective, or determiner in modern terms. In He said that he would come, it introduces a clause, so it is a conjunction. One word, three classes, decided by what comes after it.\n\nThe same pattern runs through the paper. Over is a preposition in jumped over the wall because a noun phrase follows, and an adverb in the game is over, where nothing follows. Fast is an adjective in a fast car and an adverb in he ran fast, with no change of form. Green is an adjective in green hair and a noun in green is my favourite colour.\n\nSo check the neighbours. What sits immediately before and after the word identifies its class faster than any reasoning from meaning: a noun phrase after it points to preposition or determiner, a subject before it points to verb, a noun after it points to adjective.",
+    "facts": [
+      "Word class in English is fixed by syntactic slot, not by the spelling of the word",
+      "That functions as a pronoun, as a demonstrative adjective or determiner, and as a subordinating conjunction",
+      "Over is a preposition when a noun phrase follows it and an adverb when nothing follows",
+      "Fast, hard, late and early keep the same form as adjective and as adverb",
+      "A noun used to modify another noun (book review, bus stop) is classed as an adjective in that slot"
+    ],
+    "traps": [
+      "Memorising a word as belonging to one class for good - over is not always a preposition, that is not always a conjunction",
+      "Assuming -ly means adverb: fast, hard and yesterday are adverbs without it, while friendly, lovely and likely are adjectives with it",
+      "Reasoning from meaning rather than position - green names a colour in either slot, but only the slot fixes its class",
+      "Forgetting that a preposition needs an object, so a word with nothing noun-like after it is not one"
+    ],
+    "mnem": "Slot, not spelling.",
+    "rel": [
+      "The eight parts of speech and how to tell them apart",
+      "Identifying the part of speech of an underlined word"
+    ]
+  },
+  {
+    "paper": "GE",
+    "unit": "4",
+    "unitTitle": "Grammar: Parts of Speech",
+    "sub": "Identifying the part of speech of an underlined word",
+    "def": "The recurring format is one short sentence with a single word underlined, and four class names as the options. It is a pure function question: read the sentence, ask what job that position is doing, then name the class. Six of these appeared in a single 2016 sitting, so the format repays drilling.",
+    "exp": "Work it in three steps. Read the whole sentence, never just the underlined word. Ask what the word does to its neighbours - naming, replacing, predicating, modifying, relating or joining. Then check your answer against the options actually printed, because the four offered classes narrow the field on their own.\n\nRun the 2016 set through it. Poverty is a huge problem in India: Poverty heads the subject, so noun. This phone is much better than that: that replaces a noun phrase and no noun follows it, so pronoun rather than adjective. I have supported you a lot in the past: have carries the tense, so verb. He came yesterday to see you: yesterday answers when he came, so adverb. She coloured her hair green: green describes her hair after the verb, so adjective.\n\nUse elimination when you are unsure. If nothing noun-like follows, it is not a preposition. If it will not change with the tense of the sentence, it is not a verb. If deleting it leaves a complete clause, it is more likely an adverb than a noun or adjective.\n\nDo not linger on any one of these. They carry one mark each, the same as every other objective question, and a printed question is not always sound - see the traps.",
+    "facts": [
+      "The format is one sentence, one underlined word, four part-of-speech names as options",
+      "Six such questions appeared in a single 2016 General English sitting",
+      "Elimination works: no following noun phrase rules out preposition, no tense change rules out verb",
+      "The underlined word alone is never enough; the class comes from the slot it occupies",
+      "Each question carries one mark, the same as every other objective question in the paper"
+    ],
+    "traps": [
+      "A printed question can have no correct option at all. One question in this bank underlines effect in Smoking has a bad effect on one's health, where effect is plainly a noun, but offers only Preposition, Verb, Adverb and Adjective; the recorded key is Preposition, which fits the word on rather than effect, so the underlining almost certainly slipped in the original paper. Pick the closest option, move on, and do not lose time trying to make a defective question work.",
+      "that as pronoun versus that as determiner - the test is simply whether a noun follows it",
+      "Reading green in She coloured her hair green as a noun; it is a complement describing hair, so adjective",
+      "Answering with the word's usual class instead of its class here - yesterday can be a noun, but it is an adverb in He came yesterday"
+    ],
+    "mnem": "",
+    "rel": [
+      "The eight parts of speech and how to tell them apart",
+      "Words that change part of speech with their slot"
+    ]
+  }
+]

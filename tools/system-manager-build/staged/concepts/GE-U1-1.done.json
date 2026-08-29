@@ -1,0 +1,186 @@
+[
+  {
+    "paper": "GE",
+    "unit": "1",
+    "unitTitle": "Precis Writing",
+    "sub": "What a precis is and is not",
+    "def": "A precis is a compressed restatement of a passage in your own words, keeping every essential idea and the author's line of argument, and discarding everything that merely illustrates or decorates it. It is a faithful miniature of the original, not a comment on it.",
+    "exp": "The three things a precis is not are the three ways candidates lose marks. It is not a summary of the parts you found interesting: you must keep the author's emphasis, even where you disagree. It is not a review: no praise, no criticism, no 'the author rightly says'. And it is not an abridgement made by deletion: crossing out sentences and joining what is left is not a precis, because the result reads as fragments of someone else's prose.\n\nThe test of a good precis is that a reader who has never seen the original would come away with the same understanding of the argument, in less time. That means the logical connectives matter as much as the content. If the passage runs 'although X, nevertheless Y, and therefore Z', your precis must preserve that shape. Compression that turns an argument into a list of assertions has lost the thing worth keeping.\n\nWrite it as a single continuous paragraph unless the paper says otherwise. Do not use headings, bullet points or numbering. Do not quote. Do not address the reader. Give it a title.",
+    "facts": [
+      "A precis keeps the author's order of ideas and their relative emphasis",
+      "It is written in the candidate's own words, not stitched from the original's sentences",
+      "It carries no opinion, praise or criticism of the passage",
+      "It is normally one continuous paragraph, with a title above it",
+      "Connectives such as although, therefore and however must survive compression"
+    ],
+    "traps": [
+      "Confusing a precis with a summary of only the striking points - the author's emphasis, not yours, decides what stays",
+      "Adding evaluation ('the writer convincingly argues') - a precis reports, it does not judge",
+      "Producing an abridgement by deleting sentences and joining the remainder, which leaves the original's wording intact",
+      "Splitting into bullet points or several paragraphs when one continuous paragraph is expected"
+    ],
+    "mnem": "",
+    "rel": [
+      "The one-third rule and word-count discipline",
+      "Finding the controlling idea",
+      "A worked precis, start to finish"
+    ]
+  },
+  {
+    "paper": "GE",
+    "unit": "1",
+    "unitTitle": "Precis Writing",
+    "sub": "The one-third rule and word-count discipline",
+    "def": "The standard expectation is that a precis runs to about one third of the original. Where the question paper states a word limit instead, that figure overrides the rule and must be obeyed within a narrow margin.",
+    "exp": "Work the arithmetic before you write, not after. Count or estimate the passage length, divide by three, and write that number at the top of your rough sheet as a target. A 300-word passage wants roughly 100 words; a 450-word passage wants about 150. Treat plus or minus ten per cent as the safe band.\n\nEstimating length is faster than counting every word and accurate enough. Count the words in three full lines, take the average, and multiply by the number of lines. Do this for the original, and again for your own draft.\n\nDiscipline matters because the limit is examinable in itself. A precis that is too long has not done the work of compression, and one that is far too short has dropped ideas. Both lose marks even when the prose is good. Draft first, count second, then cut - cutting is easier and safer than padding, and a first draft that comes out a little long is a better starting point than one that is short.\n\nIf the paper gives a word count, write it in the margin and state your own count at the end. Many examiners expect it, and none penalise it.",
+    "facts": [
+      "The conventional length is one third of the original passage",
+      "An explicit word limit in the question overrides the one-third convention",
+      "Plus or minus ten per cent of the target is the usual safe margin",
+      "Estimate length by averaging the words in three lines and multiplying by the line count",
+      "Stating your word count at the end is expected practice and never penalised"
+    ],
+    "traps": [
+      "Applying the one-third rule when the paper has specified a word limit - the stated limit always wins",
+      "Counting words only after writing, leaving no room to cut",
+      "Padding a short precis with filler rather than checking whether an idea was dropped",
+      "Assuming a very short precis is safe because it is 'concise' - dropped ideas cost more than length does"
+    ],
+    "mnem": "Estimate, target, draft, count, cut.",
+    "rel": [
+      "What a precis is and is not",
+      "What to cut: illustration, repetition and rhetoric"
+    ]
+  },
+  {
+    "paper": "GE",
+    "unit": "1",
+    "unitTitle": "Precis Writing",
+    "sub": "Finding the controlling idea",
+    "def": "The controlling idea is the single claim the whole passage exists to advance. Everything else in the passage either supports it, qualifies it, or illustrates it. Identifying it correctly is the one decision that determines whether the precis succeeds.",
+    "exp": "Read the passage twice. The first reading is for sense: do not underline anything, just follow the argument. The second is analytical, and it has one question - what is this passage trying to get me to accept?\n\nThe controlling idea is often stated outright, and when it is, it usually sits in the first or last sentence of the passage or of its opening paragraph. But it is not always stated. In a passage built entirely from examples, the controlling idea is the generalisation the examples add up to, and you will have to phrase it yourself.\n\nA reliable check: write the idea in one sentence, then take each paragraph in turn and ask what it does to that sentence. If every paragraph supports, qualifies or illustrates it, you have the right idea. If a paragraph seems to be doing something unrelated, either you have the wrong controlling idea or you have missed a turn in the argument - and a turn is exactly what a well-set passage hides.\n\nOnce you have it, write it first. The rest of the precis arranges itself around that sentence in the order the author used.",
+    "facts": [
+      "The controlling idea is the claim every other part of the passage serves",
+      "It is most often found in the opening or closing sentence when stated explicitly",
+      "In a passage made of examples it is implied and must be phrased by the candidate",
+      "The check is that every paragraph supports, qualifies or illustrates it",
+      "Two readings are standard: one for sense, one for analysis"
+    ],
+    "traps": [
+      "Mistaking a vivid example for the main point - the memorable illustration is rarely the thesis",
+      "Taking the first sentence as the controlling idea by default, when it is often only the topic",
+      "Missing a turn in the argument, so the precis states the position the author was arguing against",
+      "Choosing a controlling idea so broad that it fits any passage on the subject"
+    ],
+    "mnem": "",
+    "rel": [
+      "What a precis is and is not",
+      "Supplying an apt title",
+      "A worked precis, start to finish"
+    ]
+  },
+  {
+    "paper": "GE",
+    "unit": "1",
+    "unitTitle": "Precis Writing",
+    "sub": "What to cut: illustration, repetition and rhetoric",
+    "def": "Compression is done by category, not by taste. Illustrations, repetitions and rhetorical decoration go first; the argument's claims and its connectives stay. Cutting in a fixed order stops you removing something essential under time pressure.",
+    "exp": "Cut in this order and the one-third target usually arrives on its own.\n\nFirst, examples and illustrations. A passage that says manners are learnt at home and then spends four sentences on a child copying a parent has given you one idea and one picture of it. Keep the idea, drop the picture. Where several examples make the same point, replace them with the generalisation they share.\n\nSecond, repetition. Formal prose restates its thesis at the start and again at the end, often in different words. Say it once. Watch for the same idea returning inside a paragraph in a slightly altered form.\n\nThird, rhetoric. Rhetorical questions become statements. Quotations, proverbs, direct address to the reader and figures of speech all go. So do intensifiers - 'very', 'extremely', 'truly' - which carry attitude but no content.\n\nWhat never gets cut: the controlling idea, each distinct supporting claim, any qualification the author made, and the connectives that hold them together. If cutting has left a list of statements with no 'although' or 'because', you have compressed away the argument itself and kept only its conclusions.",
+    "facts": [
+      "Cut in a fixed order: illustrations, then repetition, then rhetoric",
+      "Several examples making one point collapse into the generalisation",
+      "Rhetorical questions are rewritten as plain statements",
+      "Quotations, proverbs and figures of speech are always dropped",
+      "Connectives and the author's qualifications are never dropped"
+    ],
+    "traps": [
+      "Cutting the author's qualification and turning a careful claim into an absolute one",
+      "Removing connectives, which leaves assertions where there was an argument",
+      "Keeping a striking example because it is memorable, at the cost of a real point",
+      "Retaining intensifiers such as 'very' and 'truly', which spend words without adding content"
+    ],
+    "mnem": "Cut IRR: Illustration, Repetition, Rhetoric.",
+    "rel": [
+      "The one-third rule and word-count discipline",
+      "Finding the controlling idea"
+    ]
+  },
+  {
+    "paper": "GE",
+    "unit": "1",
+    "unitTitle": "Precis Writing",
+    "sub": "Third person and reported speech",
+    "def": "A precis is written in the third person and in reported speech, in the past tense where the original reports or argues. First-person pronouns from the passage become third-person references to the author, and direct speech becomes indirect.",
+    "exp": "If the passage says 'I have always believed that our schools neglect this', the precis does not repeat 'I' or 'our'. It says the writer believed that schools neglected it. This is not a stylistic preference - it follows from the precis being your report of someone else's argument rather than a reproduction of it.\n\nThe conversions are mechanical once you see them. First person becomes third: I becomes the writer or the author, we and our become they and their or a named group. Direct speech loses its quotation marks and takes 'that'. Present tense in reported argument generally shifts to past. Words tied to the speaker's position - here, now, today, this - become there, then, at that time, that.\n\nOne caution. Where the passage states a permanent truth or a general fact rather than a personal claim, the present tense is normally kept: a passage explaining that water boils at a hundred degrees does not become 'water boiled'. Shift the tense of the reporting, not of standing facts.\n\nAnd never let your own voice in. No 'in my view', no 'we can see that'. The only person present in a precis is the author of the passage, referred to in the third person.",
+    "facts": [
+      "A precis is written in the third person throughout",
+      "Direct speech becomes indirect, dropping quotation marks and taking 'that'",
+      "First-person pronouns become 'the writer', 'the author' or a named group",
+      "Words tied to the speaker - here, now, today - shift to there, then, that time",
+      "Permanent or general truths keep the present tense despite the reporting shift"
+    ],
+    "traps": [
+      "Backshifting a general truth into the past, which changes a standing fact into a past claim",
+      "Letting the candidate's own voice in with 'in my opinion' or 'we can see'",
+      "Keeping 'we' and 'our' from the original, which silently makes the candidate a party to the argument",
+      "Retaining quotation marks, which turns the precis into a partial transcription"
+    ],
+    "mnem": "",
+    "rel": [
+      "What a precis is and is not",
+      "A worked precis, start to finish"
+    ]
+  },
+  {
+    "paper": "GE",
+    "unit": "1",
+    "unitTitle": "Precis Writing",
+    "sub": "Supplying an apt title",
+    "def": "A precis carries a short title placed above it, naming the passage's subject. It is expected as part of the answer, and omitting it costs marks that are trivially easy to keep.",
+    "exp": "The title is a label, not a sentence and not a summary. Three to six words is the right length. It names what the passage is about, and where possible it hints at the author's angle on it: 'Manners and Civilised Society' is better than 'Manners', because the passage is not merely about manners but about their social function.\n\nDerive it from the controlling idea. If you have already written that idea as a single sentence, the title is usually a noun phrase carved out of it. This is why finding the controlling idea first pays twice.\n\nWhat to avoid: a full sentence with a finite verb; a question; anything catchy or journalistic; and anything that announces the form rather than the content, such as 'A Precis' or 'Summary of the Passage'. Do not use the first line of the passage as the title.\n\nWrite it before the precis, centred or on its own line, and do not include its words in your word count. Then read it once against your finished precis - if the title no longer fits what you actually wrote, the precis has drifted from the controlling idea, and the title has just caught it for you.",
+    "facts": [
+      "The title sits above the precis and is expected as part of the answer",
+      "Three to six words is the conventional length",
+      "It is a noun phrase, not a sentence and not a question",
+      "It is derived from the controlling idea, not from the passage's first line",
+      "Title words are not counted in the precis word limit"
+    ],
+    "traps": [
+      "Omitting the title entirely - the single most avoidable loss of marks in the whole answer",
+      "Writing a full sentence with a finite verb instead of a noun phrase",
+      "Naming the form ('Summary of the Passage') rather than the subject",
+      "Copying the passage's opening line, which usually states the topic rather than the argument"
+    ],
+    "mnem": "",
+    "rel": [
+      "Finding the controlling idea",
+      "A worked precis, start to finish"
+    ]
+  },
+  {
+    "paper": "GE",
+    "unit": "1",
+    "unitTitle": "Precis Writing",
+    "sub": "A worked precis, start to finish",
+    "def": "A complete example: a source passage, the precis made from it at roughly one third, and a note on what was cut and why. Reading one precis being made teaches more than any list of rules.",
+    "exp": "THE PASSAGE (about 210 words)\n\nEvery town in the hills owes more to its buses than its residents usually admit. Before the first regular service ran, a journey to the district headquarters meant a full day on foot, and for many families it meant simply not going at all. Traders carried what they could lift. Patients arrived late or not at all. When the buses came, the change was not merely one of speed; it altered who was able to participate in public life. A farmer could sell in a market thirty kilometres away and return the same evening. A student could attend a school her village could not support.\n\nYet public transport is persistently undervalued, because its benefits are diffuse and its failures are visible. A late bus is noticed by everyone waiting for it; the hundred journeys that ran to time are noticed by nobody. Planners, who see only the subsidy in the accounts, are tempted to treat the service as a cost to be trimmed. This is a mistake. The correct comparison is not between the subsidy and zero, but between the subsidy and the cost of the isolation that would return without it.\n\nTHE PRECIS (70 words - one third)\n\nTitle: The Undervalued Hill Bus\n\nThe writer argued that regular bus services transformed hill towns, replacing day-long journeys on foot with same-day travel and so widening access to markets, schools and medical care. He held that the service was nonetheless undervalued, because its successes went unnoticed while its failures did not, and planners saw only the subsidy. The proper comparison, he maintained, was with the cost of the isolation that would otherwise return.\n\nWHAT WAS CUT AND WHY\n\nThe illustrations went first: the trader lifting goods, the farmer thirty kilometres away, the student and her village. Each pictures a single idea - that the buses widened participation - which the precis states once. The late bus and the hundred punctual journeys are one illustration of one point, so they became 'its successes went unnoticed while its failures did not'.\n\nThe argument's shape was kept. 'Yet' survives as 'nonetheless', and the closing correction survives as 'the proper comparison'. Without those two joints the precis would be three assertions instead of an argument.\n\nNote the person and tense: 'the writer argued', 'he held', 'he maintained' - third person, reported, past.",
+    "facts": [
+      "The example compresses 210 words to 70, close to the one-third target",
+      "Illustrations are cut first and replaced by the single idea they picture",
+      "The connectives 'yet' and the closing correction are preserved as 'nonetheless' and 'the proper comparison'",
+      "Reporting verbs - argued, held, maintained - carry the third person and past tense",
+      "The title is a four-word noun phrase drawn from the controlling idea"
+    ],
+    "traps": [
+      "Keeping the farmer and the student because they are concrete, which would spend a third of the budget on one idea",
+      "Dropping 'yet', which collapses a two-part argument into a list of claims",
+      "Writing 'the buses are undervalued' in the present tense, losing the reporting shift"
+    ],
+    "mnem": "",
+    "rel": [
+      "Finding the controlling idea",
+      "What to cut: illustration, repetition and rhetoric",
+      "Third person and reported speech"
+    ]
+  }
+]

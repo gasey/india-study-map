@@ -1,0 +1,38 @@
+{
+  "paper": "TECH2",
+  "unit": "III",
+  "unitTitle": "Web Technologies",
+  "unitMarks": 25,
+  "perTarget": 2,
+  "brief": "tools/system-manager-build/GENERATE_BRIEF.md",
+  "targets": [
+    {
+      "sub": "Domain Name System",
+      "section": "Internet Technologies"
+    },
+    {
+      "sub": "DOM Manipulation",
+      "section": "JavaScript"
+    },
+    {
+      "sub": "REST APIs (Concept)",
+      "section": "Modern Web Concepts"
+    },
+    {
+      "sub": "JSON",
+      "section": "Modern Web Concepts"
+    },
+    {
+      "sub": "Progressive Web Applications (Introduction)",
+      "section": "Modern Web Concepts"
+    },
+    {
+      "sub": "Web Accessibility",
+      "section": "Modern Web Concepts"
+    },
+    {
+      "sub": "Web Security Fundamentals",
+      "section": "Modern Web Concepts"
+    }
+  ]
+}

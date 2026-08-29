@@ -1,0 +1,63 @@
+{
+  "paper": "TECH2",
+  "unit": "V",
+  "unitTitle": "IT Governance, Business Communication and Aptitude",
+  "derived": false,
+  "brief": "tools/system-manager-build/CONCEPT_BRIEF.md",
+  "targets": [
+    {
+      "paper": "TECH2",
+      "unit": "V",
+      "unitTitle": "IT Governance, Business Communication and Aptitude",
+      "sub": "Official Correspondence"
+    },
+    {
+      "paper": "TECH2",
+      "unit": "V",
+      "unitTitle": "IT Governance, Business Communication and Aptitude",
+      "sub": "Technical Report Writing"
+    },
+    {
+      "paper": "TECH2",
+      "unit": "V",
+      "unitTitle": "IT Governance, Business Communication and Aptitude",
+      "sub": "Email Etiquette"
+    },
+    {
+      "paper": "TECH2",
+      "unit": "V",
+      "unitTitle": "IT Governance, Business Communication and Aptitude",
+      "sub": "Presentation Skills"
+    },
+    {
+      "paper": "TECH2",
+      "unit": "V",
+      "unitTitle": "IT Governance, Business Communication and Aptitude",
+      "sub": "Meeting Documentation"
+    },
+    {
+      "paper": "TECH2",
+      "unit": "V",
+      "unitTitle": "IT Governance, Business Communication and Aptitude",
+      "sub": "Numerical Ability"
+    },
+    {
+      "paper": "TECH2",
+      "unit": "V",
+      "unitTitle": "IT Governance, Business Communication and Aptitude",
+      "sub": "Logical Reasoning"
+    },
+    {
+      "paper": "TECH2",
+      "unit": "V",
+      "unitTitle": "IT Governance, Business Communication and Aptitude",
+      "sub": "Analytical Reasoning"
+    },
+    {
+      "paper": "TECH2",
+      "unit": "V",
+      "unitTitle": "IT Governance, Business Communication and Aptitude",
+      "sub": "Data Interpretation"
+    }
+  ]
+}

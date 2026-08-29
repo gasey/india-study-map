@@ -1,0 +1,307 @@
+{
+  "srcKey": "CO2016B-GE",
+  "brief": "tools/bank-rebuild/SOLVE_BRIEF.md",
+  "instructions": "Answer each question independently. Write a JSON object keyed by question id: {\"<id>\": {\"ans\": \"A\"|\"B\"|\"C\"|\"D\", \"conf\": \"high\"|\"medium\"|\"low\", \"exp\": \"1-3 sentences\"}} to this filename with .todo.json replaced by .solved.json. No official answer key exists for these papers - your answer becomes the app's answer. Do not inflate confidence.",
+  "questions": [
+    {
+      "id": "CO2016B-GE-21",
+      "srcKey": "CO2016B-GE",
+      "no": 21,
+      "paper": "GE",
+      "q": "How did the priests come to acquire political power?",
+      "opts": {
+        "A": "By joining hand with the despotic rulers",
+        "B": "By protecting the believers against despotic rulers",
+        "C": "By generating fear of the unknown in the minds of the rulers",
+        "D": "By giving blessings to political rulers"
+      },
+      "passageTitle": "Religious thought and human need",
+      "passage": "Everything that men do or think concerns either the satisfaction of the needs they feel or the need to escape from pain. This must be kept in mind when we seek to understand spiritual or intellectual movements and the way in which they develop, for feeling and longing are the motive forces of all human striving and productivity – however nobly these latter may display themselves to us. What, then, are the feelings and the needs which have brought mankind to religious thought and to faith in the widest sense? A moment's consideration shows that the most varied emotions stand at the cradle of religious thought and experience. In primitive people it is, first of all fear that awakens religious ideas – fear of hunger, of wild animals, of illness and of death. Since the understanding of casual connections is usually limited on this level of existence, the human soul forges a being, more or less like itself, on whose will and activities depend the experiences which it fears. One hopes to win the favour of this being, by deeds and sacrifices, which according to the tradition of the race are supposed to appease the being or to make him well disposed to man. I call this the religion of fear. This religion is considerably established, though not caused, by the formation of priestly caste which claims to mediate between the people and the being they fear and so attains a position of power. Often a leader or despot will combine the function of the priesthood with its own temporal rule for the sake of greater security; or an alliance may exist between the interests of political power and the priestly caste."
+    },
+    {
+      "id": "CO2016B-GE-22",
+      "srcKey": "CO2016B-GE",
+      "no": 22,
+      "paper": "GE",
+      "q": "What offer did the king make to the jester?",
+      "opts": {
+        "A": "To leave the kingdom and settle down in another kingdom",
+        "B": "To abstain from cutting jokes at the expense of the king",
+        "C": "To allow him to die the death of his choice",
+        "D": "To tender an unconditional apology to the king"
+      },
+      "passageTitle": "The jester and the king",
+      "passage": "Once there was a jester in the court of a king. He entertained everyone in the court with his sparkling wit and interesting jokes. He became very popular as the favourite jester of the court. This made the jester arrogant and conceited. He frequently made fun of the courtiers and offended them. But none dared to complain against him to the king as he was the royal favorite they bore the humiliation quietly. One day he went too far. In a misguided moment, he cut an insulting joke at the expense of the king himself. He thought that the king would appreciate it. But he was wrong. The king felt offended and highly insulted. He became wild with rage. He ordered his servants to hang the jester. The jester was immediately put behind bars. He wept and waited for his death in his dark cell. The jester now repented. He entreated the king to forgive him and spare his life. He begged for mercy. All this had no effect on the king. He remained firm. Some admirers of the jester then intervened for the him. They implored the king to show mercy to the condemned jester and spare his life. The king now relented a bit. He said he would not withdraw the sentence of death penalty. He would, however, allow him to die the death of his choice. The jester could choose the way of his death. On hearing this, the witty fellow said, \"Your Highness, I am grateful to you for granting me a chance to choose the manner of my death. I want to make it clear to you that I want to die of old age. Kindly grant me my wish\". The king was highly pleased with this intelligent reply and granted him his request. All the courtiers praised the presence of mind of the popular jester. They were happy. The jester was pulled out of the jaws of death."
+    },
+    {
+      "id": "CO2016B-GE-23",
+      "srcKey": "CO2016B-GE",
+      "no": 23,
+      "paper": "GE",
+      "q": "Why did the jester cut a joke at the expense of the king?",
+      "opts": {
+        "A": "He wanted to settle an old score with the king",
+        "B": "He thought it would be a good opportunity to teach a lesson to the courtiers",
+        "C": "He was offended and insulted",
+        "D": "He thought the king would appreciate it"
+      },
+      "passageTitle": "The jester and the king",
+      "passage": "Once there was a jester in the court of a king. He entertained everyone in the court with his sparkling wit and interesting jokes. He became very popular as the favourite jester of the court. This made the jester arrogant and conceited. He frequently made fun of the courtiers and offended them. But none dared to complain against him to the king as he was the royal favorite they bore the humiliation quietly. One day he went too far. In a misguided moment, he cut an insulting joke at the expense of the king himself. He thought that the king would appreciate it. But he was wrong. The king felt offended and highly insulted. He became wild with rage. He ordered his servants to hang the jester. The jester was immediately put behind bars. He wept and waited for his death in his dark cell. The jester now repented. He entreated the king to forgive him and spare his life. He begged for mercy. All this had no effect on the king. He remained firm. Some admirers of the jester then intervened for the him. They implored the king to show mercy to the condemned jester and spare his life. The king now relented a bit. He said he would not withdraw the sentence of death penalty. He would, however, allow him to die the death of his choice. The jester could choose the way of his death. On hearing this, the witty fellow said, \"Your Highness, I am grateful to you for granting me a chance to choose the manner of my death. I want to make it clear to you that I want to die of old age. Kindly grant me my wish\". The king was highly pleased with this intelligent reply and granted him his request. All the courtiers praised the presence of mind of the popular jester. They were happy. The jester was pulled out of the jaws of death."
+    },
+    {
+      "id": "CO2016B-GE-24",
+      "srcKey": "CO2016B-GE",
+      "no": 24,
+      "paper": "GE",
+      "q": "Why was the jester very popular?",
+      "opts": {
+        "A": "He made fun of the courtiers",
+        "B": "He entertained everyone with his intelligent jokes",
+        "C": "He was very intelligent and crafty",
+        "D": "He was kind and sympathetic to all"
+      },
+      "passageTitle": "The jester and the king",
+      "passage": "Once there was a jester in the court of a king. He entertained everyone in the court with his sparkling wit and interesting jokes. He became very popular as the favourite jester of the court. This made the jester arrogant and conceited. He frequently made fun of the courtiers and offended them. But none dared to complain against him to the king as he was the royal favorite they bore the humiliation quietly. One day he went too far. In a misguided moment, he cut an insulting joke at the expense of the king himself. He thought that the king would appreciate it. But he was wrong. The king felt offended and highly insulted. He became wild with rage. He ordered his servants to hang the jester. The jester was immediately put behind bars. He wept and waited for his death in his dark cell. The jester now repented. He entreated the king to forgive him and spare his life. He begged for mercy. All this had no effect on the king. He remained firm. Some admirers of the jester then intervened for the him. They implored the king to show mercy to the condemned jester and spare his life. The king now relented a bit. He said he would not withdraw the sentence of death penalty. He would, however, allow him to die the death of his choice. The jester could choose the way of his death. On hearing this, the witty fellow said, \"Your Highness, I am grateful to you for granting me a chance to choose the manner of my death. I want to make it clear to you that I want to die of old age. Kindly grant me my wish\". The king was highly pleased with this intelligent reply and granted him his request. All the courtiers praised the presence of mind of the popular jester. They were happy. The jester was pulled out of the jaws of death."
+    },
+    {
+      "id": "CO2016B-GE-25",
+      "srcKey": "CO2016B-GE",
+      "no": 25,
+      "paper": "GE",
+      "q": "Why did the king become angry with the jester?",
+      "opts": {
+        "A": "One day the jester refused to entertain the courtiers",
+        "B": "He jester humiliated the courtiers",
+        "C": "The king was in a wretched mood",
+        "D": "The king felt insulted and offended"
+      },
+      "passageTitle": "The jester and the king",
+      "passage": "Once there was a jester in the court of a king. He entertained everyone in the court with his sparkling wit and interesting jokes. He became very popular as the favourite jester of the court. This made the jester arrogant and conceited. He frequently made fun of the courtiers and offended them. But none dared to complain against him to the king as he was the royal favorite they bore the humiliation quietly. One day he went too far. In a misguided moment, he cut an insulting joke at the expense of the king himself. He thought that the king would appreciate it. But he was wrong. The king felt offended and highly insulted. He became wild with rage. He ordered his servants to hang the jester. The jester was immediately put behind bars. He wept and waited for his death in his dark cell. The jester now repented. He entreated the king to forgive him and spare his life. He begged for mercy. All this had no effect on the king. He remained firm. Some admirers of the jester then intervened for the him. They implored the king to show mercy to the condemned jester and spare his life. The king now relented a bit. He said he would not withdraw the sentence of death penalty. He would, however, allow him to die the death of his choice. The jester could choose the way of his death. On hearing this, the witty fellow said, \"Your Highness, I am grateful to you for granting me a chance to choose the manner of my death. I want to make it clear to you that I want to die of old age. Kindly grant me my wish\". The king was highly pleased with this intelligent reply and granted him his request. All the courtiers praised the presence of mind of the popular jester. They were happy. The jester was pulled out of the jaws of death."
+    },
+    {
+      "id": "CO2016B-GE-26",
+      "srcKey": "CO2016B-GE",
+      "no": 26,
+      "paper": "GE",
+      "q": "What made the jester arrogant and conceited?",
+      "opts": {
+        "A": "His power of making interesting jokes",
+        "B": "His excellent manners and sophistication",
+        "C": "His sky-rocketing popularity",
+        "D": "His powerful imagination and forceful vocabulary"
+      },
+      "passageTitle": "The jester and the king",
+      "passage": "Once there was a jester in the court of a king. He entertained everyone in the court with his sparkling wit and interesting jokes. He became very popular as the favourite jester of the court. This made the jester arrogant and conceited. He frequently made fun of the courtiers and offended them. But none dared to complain against him to the king as he was the royal favorite they bore the humiliation quietly. One day he went too far. In a misguided moment, he cut an insulting joke at the expense of the king himself. He thought that the king would appreciate it. But he was wrong. The king felt offended and highly insulted. He became wild with rage. He ordered his servants to hang the jester. The jester was immediately put behind bars. He wept and waited for his death in his dark cell. The jester now repented. He entreated the king to forgive him and spare his life. He begged for mercy. All this had no effect on the king. He remained firm. Some admirers of the jester then intervened for the him. They implored the king to show mercy to the condemned jester and spare his life. The king now relented a bit. He said he would not withdraw the sentence of death penalty. He would, however, allow him to die the death of his choice. The jester could choose the way of his death. On hearing this, the witty fellow said, \"Your Highness, I am grateful to you for granting me a chance to choose the manner of my death. I want to make it clear to you that I want to die of old age. Kindly grant me my wish\". The king was highly pleased with this intelligent reply and granted him his request. All the courtiers praised the presence of mind of the popular jester. They were happy. The jester was pulled out of the jaws of death."
+    },
+    {
+      "id": "CO2016B-GE-27",
+      "srcKey": "CO2016B-GE",
+      "no": 27,
+      "paper": "GE",
+      "q": "Why could nobody complain to the king about the jester's arrogance?",
+      "opts": {
+        "A": "The king was benevolent and powerful",
+        "B": "The jester was immensely liked by the king",
+        "C": "The king was hand-in-glove with the jester",
+        "D": "The jester's intelligence was acknowledged by the courtiers"
+      },
+      "passageTitle": "The jester and the king",
+      "passage": "Once there was a jester in the court of a king. He entertained everyone in the court with his sparkling wit and interesting jokes. He became very popular as the favourite jester of the court. This made the jester arrogant and conceited. He frequently made fun of the courtiers and offended them. But none dared to complain against him to the king as he was the royal favorite they bore the humiliation quietly. One day he went too far. In a misguided moment, he cut an insulting joke at the expense of the king himself. He thought that the king would appreciate it. But he was wrong. The king felt offended and highly insulted. He became wild with rage. He ordered his servants to hang the jester. The jester was immediately put behind bars. He wept and waited for his death in his dark cell. The jester now repented. He entreated the king to forgive him and spare his life. He begged for mercy. All this had no effect on the king. He remained firm. Some admirers of the jester then intervened for the him. They implored the king to show mercy to the condemned jester and spare his life. The king now relented a bit. He said he would not withdraw the sentence of death penalty. He would, however, allow him to die the death of his choice. The jester could choose the way of his death. On hearing this, the witty fellow said, \"Your Highness, I am grateful to you for granting me a chance to choose the manner of my death. I want to make it clear to you that I want to die of old age. Kindly grant me my wish\". The king was highly pleased with this intelligent reply and granted him his request. All the courtiers praised the presence of mind of the popular jester. They were happy. The jester was pulled out of the jaws of death."
+    },
+    {
+      "id": "CO2016B-GE-28",
+      "srcKey": "CO2016B-GE",
+      "no": 28,
+      "paper": "GE",
+      "q": "Which of the following statements is correct? Harnessing energy from sea waves",
+      "opts": {
+        "A": "undermines ecological balance.",
+        "B": "requires huge capital.",
+        "C": "requires high technical expertise.",
+        "D": "results in saving of useful land area."
+      },
+      "passageTitle": "Wave energy as a power source",
+      "passage": "According to the research findings of a team of American scientists published recently, the sea waves contain as much energy as the world is consuming at present. Scientists have found that through the application of two major devices called land-based systems and offshore devices, this source of energy can provide huge amount of electricity without cooling towers and pollution. Land-based systems include tapered channels and fixed Oscillating Water Column (OWC) devices, whereas, offshore devices include floating OWC devices, buoys, etc. Through these devices the mechanical energy of ocean waves is absorbed and converted into electrical energy. The wave power potential depends on numerous factors such as the device's capability to harness long wavelengths, period of waves and depth of water where they arise. Compared to conventional power stations which require greater space and are difficult to maintain in critical situations, wave power devices are highly modular, cost effective and easier to upgrade. As the recent findings suggest, sea wave energy has much greater potential to be used for electricity generation than the hitherto known sources of renewable energy. Moreover, most of the renewable energy systems require hundreds of square acres of useful land for their installation. But in case of wave energy devices, 'space crunch' can never be a serious problem."
+    },
+    {
+      "id": "CO2016B-GE-29",
+      "srcKey": "CO2016B-GE",
+      "no": 29,
+      "paper": "GE",
+      "q": "Which of the following statements is correct? Wave power devices",
+      "opts": {
+        "A": "convert wind energy into mechanical power.",
+        "B": "convert mechanical energy of ocean waves into electrical energy.",
+        "C": "require costly transmission mechanism.",
+        "D": "entail risk to human life."
+      },
+      "passageTitle": "Wave energy as a power source",
+      "passage": "According to the research findings of a team of American scientists published recently, the sea waves contain as much energy as the world is consuming at present. Scientists have found that through the application of two major devices called land-based systems and offshore devices, this source of energy can provide huge amount of electricity without cooling towers and pollution. Land-based systems include tapered channels and fixed Oscillating Water Column (OWC) devices, whereas, offshore devices include floating OWC devices, buoys, etc. Through these devices the mechanical energy of ocean waves is absorbed and converted into electrical energy. The wave power potential depends on numerous factors such as the device's capability to harness long wavelengths, period of waves and depth of water where they arise. Compared to conventional power stations which require greater space and are difficult to maintain in critical situations, wave power devices are highly modular, cost effective and easier to upgrade. As the recent findings suggest, sea wave energy has much greater potential to be used for electricity generation than the hitherto known sources of renewable energy. Moreover, most of the renewable energy systems require hundreds of square acres of useful land for their installation. But in case of wave energy devices, 'space crunch' can never be a serious problem."
+    },
+    {
+      "id": "CO2016B-GE-30",
+      "srcKey": "CO2016B-GE",
+      "no": 30,
+      "paper": "GE",
+      "q": "Which of the following statements is correct?",
+      "opts": {
+        "A": "Fixed as well as floating oscillating water column devices are required to harness ocean wave energy.",
+        "B": "Fixed oscillating water column devices are required for offshore.",
+        "C": "Floating oscillating water column devices are required for land-based system.",
+        "D": "Electricity generated from oceans is independent of the depth of water where waves arise."
+      },
+      "passageTitle": "Wave energy as a power source",
+      "passage": "According to the research findings of a team of American scientists published recently, the sea waves contain as much energy as the world is consuming at present. Scientists have found that through the application of two major devices called land-based systems and offshore devices, this source of energy can provide huge amount of electricity without cooling towers and pollution. Land-based systems include tapered channels and fixed Oscillating Water Column (OWC) devices, whereas, offshore devices include floating OWC devices, buoys, etc. Through these devices the mechanical energy of ocean waves is absorbed and converted into electrical energy. The wave power potential depends on numerous factors such as the device's capability to harness long wavelengths, period of waves and depth of water where they arise. Compared to conventional power stations which require greater space and are difficult to maintain in critical situations, wave power devices are highly modular, cost effective and easier to upgrade. As the recent findings suggest, sea wave energy has much greater potential to be used for electricity generation than the hitherto known sources of renewable energy. Moreover, most of the renewable energy systems require hundreds of square acres of useful land for their installation. But in case of wave energy devices, 'space crunch' can never be a serious problem."
+    },
+    {
+      "id": "CO2016B-GE-31",
+      "srcKey": "CO2016B-GE",
+      "no": 31,
+      "paper": "GE",
+      "q": "Which of the following statements is correct? The capacity of system to generate electricity from ocean waves",
+      "opts": {
+        "A": "can be increased only at exorbitant cost.",
+        "B": "can be easily upgraded.",
+        "C": "can be increased but it requires a great space.",
+        "D": "is only a few megawatts."
+      },
+      "passageTitle": "Wave energy as a power source",
+      "passage": "According to the research findings of a team of American scientists published recently, the sea waves contain as much energy as the world is consuming at present. Scientists have found that through the application of two major devices called land-based systems and offshore devices, this source of energy can provide huge amount of electricity without cooling towers and pollution. Land-based systems include tapered channels and fixed Oscillating Water Column (OWC) devices, whereas, offshore devices include floating OWC devices, buoys, etc. Through these devices the mechanical energy of ocean waves is absorbed and converted into electrical energy. The wave power potential depends on numerous factors such as the device's capability to harness long wavelengths, period of waves and depth of water where they arise. Compared to conventional power stations which require greater space and are difficult to maintain in critical situations, wave power devices are highly modular, cost effective and easier to upgrade. As the recent findings suggest, sea wave energy has much greater potential to be used for electricity generation than the hitherto known sources of renewable energy. Moreover, most of the renewable energy systems require hundreds of square acres of useful land for their installation. But in case of wave energy devices, 'space crunch' can never be a serious problem."
+    },
+    {
+      "id": "CO2016B-GE-32",
+      "srcKey": "CO2016B-GE",
+      "no": 32,
+      "paper": "GE",
+      "q": "Which of the following statements is NOT correct?",
+      "opts": {
+        "A": "Conventional power stations require cooling towers.",
+        "B": "Power generation from ocean waves also adds to pollution like conventional stations.",
+        "C": "Ocean wave energy can meet all the present energy of the world.",
+        "D": "Period of waves is one of the relevant factors in power generation from ocean waters."
+      },
+      "passageTitle": "Wave energy as a power source",
+      "passage": "According to the research findings of a team of American scientists published recently, the sea waves contain as much energy as the world is consuming at present. Scientists have found that through the application of two major devices called land-based systems and offshore devices, this source of energy can provide huge amount of electricity without cooling towers and pollution. Land-based systems include tapered channels and fixed Oscillating Water Column (OWC) devices, whereas, offshore devices include floating OWC devices, buoys, etc. Through these devices the mechanical energy of ocean waves is absorbed and converted into electrical energy. The wave power potential depends on numerous factors such as the device's capability to harness long wavelengths, period of waves and depth of water where they arise. Compared to conventional power stations which require greater space and are difficult to maintain in critical situations, wave power devices are highly modular, cost effective and easier to upgrade. As the recent findings suggest, sea wave energy has much greater potential to be used for electricity generation than the hitherto known sources of renewable energy. Moreover, most of the renewable energy systems require hundreds of square acres of useful land for their installation. But in case of wave energy devices, 'space crunch' can never be a serious problem."
+    },
+    {
+      "id": "CO2016B-GE-33",
+      "srcKey": "CO2016B-GE",
+      "no": 33,
+      "paper": "GE",
+      "q": "Hello, Robert. I __________ seen you for ages.",
+      "opts": {
+        "A": "haven't",
+        "B": "hasn't",
+        "C": "hadn't",
+        "D": "wasn't"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-GE-34",
+      "srcKey": "CO2016B-GE",
+      "no": 34,
+      "paper": "GE",
+      "q": "Hello, Tessa. Great to see you. What have you __________ doing lately?",
+      "opts": {
+        "A": "been",
+        "B": "had",
+        "C": "has",
+        "D": "was"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-GE-35",
+      "srcKey": "CO2016B-GE",
+      "no": 35,
+      "paper": "GE",
+      "q": "__________ just started a new job in computer sales and services.",
+      "opts": {
+        "A": "I'd",
+        "B": "I'll",
+        "C": "I'm",
+        "D": "I've"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-GE-36",
+      "srcKey": "CO2016B-GE",
+      "no": 36,
+      "paper": "GE",
+      "q": "You __________ working for 'Sam Enterprises' when we last met.",
+      "opts": {
+        "A": "did",
+        "B": "had",
+        "C": "have",
+        "D": "were"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-GE-37",
+      "srcKey": "CO2016B-GE",
+      "no": 37,
+      "paper": "GE",
+      "q": "That's right. I had __________ working there but I got fed up.",
+      "opts": {
+        "A": "be",
+        "B": "been",
+        "C": "done",
+        "D": "had"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-GE-38",
+      "srcKey": "CO2016B-GE",
+      "no": 38,
+      "paper": "GE",
+      "q": "Tom could hear shouts from the flat next door. His neighbours __________ again.",
+      "opts": {
+        "A": "were arguing",
+        "B": "arguing",
+        "C": "argues",
+        "D": "argued"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-GE-39",
+      "srcKey": "CO2016B-GE",
+      "no": 39,
+      "paper": "GE",
+      "q": "Rupert had __________ his credit card.",
+      "opts": {
+        "A": "forgot",
+        "B": "forgotten",
+        "C": "forget",
+        "D": "forgets"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-GE-40",
+      "srcKey": "CO2016B-GE",
+      "no": 40,
+      "paper": "GE",
+      "q": "I didn't want to go until I __________ taken a photo.",
+      "opts": {
+        "A": "has",
+        "B": "have",
+        "C": "had",
+        "D": "was"
+      },
+      "passageTitle": null,
+      "passage": null
+    }
+  ]
+}

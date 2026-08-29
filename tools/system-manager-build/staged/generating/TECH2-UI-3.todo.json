@@ -1,0 +1,22 @@
+{
+  "paper": "TECH2",
+  "unit": "I",
+  "unitTitle": "Computer Networking",
+  "unitMarks": 35,
+  "perTarget": 2,
+  "brief": "tools/system-manager-build/GENERATE_BRIEF.md",
+  "targets": [
+    {
+      "sub": "Microsoft Azure Fundamentals (Concept)",
+      "section": "Cloud Networking"
+    },
+    {
+      "sub": "Network Monitoring",
+      "section": "Cloud Networking"
+    },
+    {
+      "sub": "Network Troubleshooting",
+      "section": "Cloud Networking"
+    }
+  ]
+}

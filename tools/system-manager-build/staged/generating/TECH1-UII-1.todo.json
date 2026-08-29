@@ -1,0 +1,54 @@
+{
+  "paper": "TECH1",
+  "unit": "II",
+  "unitTitle": "Operating Systems",
+  "unitMarks": 25,
+  "perTarget": 2,
+  "brief": "tools/system-manager-build/GENERATE_BRIEF.md",
+  "targets": [
+    {
+      "sub": "User Accounts",
+      "section": "Microsoft Windows"
+    },
+    {
+      "sub": "Windows Security",
+      "section": "Microsoft Windows"
+    },
+    {
+      "sub": "Windows Terminal",
+      "section": "Microsoft Windows"
+    },
+    {
+      "sub": "Registry",
+      "section": "Microsoft Windows"
+    },
+    {
+      "sub": "Linux Architecture",
+      "section": "Linux Fundamentals"
+    },
+    {
+      "sub": "Linux File System",
+      "section": "Linux Fundamentals"
+    },
+    {
+      "sub": "Basic Linux Commands",
+      "section": "Linux Fundamentals"
+    },
+    {
+      "sub": "Open-source Ecosystem",
+      "section": "Linux Fundamentals"
+    },
+    {
+      "sub": "Compression",
+      "section": "File and Storage Management"
+    },
+    {
+      "sub": "Encryption",
+      "section": "File and Storage Management"
+    },
+    {
+      "sub": "Backup and Restore",
+      "section": "File and Storage Management"
+    }
+  ]
+}

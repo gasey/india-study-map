@@ -1,0 +1,50 @@
+{
+  "paper": "TECH1",
+  "unit": "III",
+  "unitTitle": "Word Processing",
+  "unitMarks": 20,
+  "perTarget": 2,
+  "brief": "tools/system-manager-build/GENERATE_BRIEF.md",
+  "targets": [
+    {
+      "sub": "Templates",
+      "section": "Microsoft Word"
+    },
+    {
+      "sub": "SmartArt",
+      "section": "Microsoft Word"
+    },
+    {
+      "sub": "References",
+      "section": "Microsoft Word"
+    },
+    {
+      "sub": "Table of Contents",
+      "section": "Microsoft Word"
+    },
+    {
+      "sub": "Citations and Bibliography",
+      "section": "Microsoft Word"
+    },
+    {
+      "sub": "Track Changes",
+      "section": "Microsoft Word"
+    },
+    {
+      "sub": "Accessibility Features",
+      "section": "Microsoft Word"
+    },
+    {
+      "sub": "Microsoft 365 Collaboration",
+      "section": "Microsoft Word"
+    },
+    {
+      "sub": "Integration of e-Office",
+      "section": "Microsoft Word"
+    },
+    {
+      "sub": "AI-assisted Document Creation (Microsoft Copilot - Concept)",
+      "section": "Microsoft Word"
+    }
+  ]
+}

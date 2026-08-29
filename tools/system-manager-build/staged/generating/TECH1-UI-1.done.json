@@ -1,0 +1,310 @@
+[
+  {
+    "sub": "Digital Transformation and e-Governance",
+    "q": "A private firm logs into a government portal to file its GST returns. Which e-governance interaction model does this represent?",
+    "opts": {
+      "A": "G2C",
+      "B": "G2B",
+      "C": "G2G",
+      "D": "G2E"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "The counterparty decides the model, and here the government is dealing with a business, so it is G2B (Government to Business), which covers licences, tenders, procurement and tax filing. G2C would apply if an individual citizen were paying his own income tax; the type of tax does not decide the model.",
+    "why": "Tests the four e-governance interaction models and the trap that the counterparty, not the service, fixes the model."
+  },
+  {
+    "sub": "Digital Transformation and e-Governance",
+    "q": "A district office scans its old paper land records and stores them as PDF files, while the approval workflow continues exactly as before. This activity is best described as",
+    "opts": {
+      "A": "digitalisation",
+      "B": "digital transformation",
+      "C": "digitisation",
+      "D": "business process re-engineering"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Digitisation is simply converting analog content into digital form, which is exactly what scanning records into PDF does. Digitalisation would mean using the digital record to change how the process runs, and digital transformation goes further still by reorganising what the office does around the citizen.",
+    "why": "Tests the digitisation / digitalisation / digital transformation ladder, the most common one-word distractor in this subtopic."
+  },
+  {
+    "sub": "Emerging Technologies: Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Big Data, Cloud Computing and Edge Computing",
+    "q": "A factory safety system must shut down a machine within milliseconds of a sensor reading, and the plant has a slow internet link. Which approach best suits this requirement?",
+    "opts": {
+      "A": "Edge computing, processing the sensor data on or beside the machine",
+      "B": "Cloud computing, sending every reading to a remote data centre for analysis",
+      "C": "Blockchain, recording every sensor reading in a distributed ledger",
+      "D": "Big data analytics, storing the readings for later batch processing"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Edge computing processes data at or near its source, which cuts both latency and bandwidth use and is why latency-critical work such as a safety cut-off belongs at the edge. Cloud computing centralises processing in distant data centres, so the network round trip alone would exceed the millisecond budget.",
+    "why": "Tests the cloud-versus-edge distinction from the scenario side, which the concept flags as the confusion worth learning properly."
+  },
+  {
+    "sub": "Emerging Technologies: Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Big Data, Cloud Computing and Edge Computing",
+    "q": "Volume, Velocity and Variety are the three core characteristics used to define",
+    "opts": {
+      "A": "edge computing",
+      "B": "blockchain",
+      "C": "the Internet of Things",
+      "D": "big data"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Big data is characterised by the three Vs of Volume, Velocity and Variety, with Veracity and Value commonly added; it is defined by these properties and not by any threshold in gigabytes. IoT is a major source that feeds big data, but it is not itself defined by the Vs.",
+    "why": "Tests a defining property that separates big data from the other five bundled technologies, especially IoT."
+  },
+  {
+    "sub": "Green Computing and Sustainable IT",
+    "q": "A government server room runs twelve lightly loaded physical servers. Which green computing measure would give the largest practical energy saving?",
+    "opts": {
+      "A": "Replacing the CRT monitors on the admin consoles with LED monitors",
+      "B": "Virtualisation and server consolidation onto a few well-utilised hosts",
+      "C": "Enabling display timeout on the administrator workstations",
+      "D": "Switching to double-sided printing for server documentation"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Virtualisation and server consolidation raise the utilisation of a small number of physical machines and retire the rest, which is the largest practical energy saving available in a server room. The other measures are genuine green practices but affect peripherals and paper, not the racks that consume most of the power.",
+    "why": "Tests virtualisation as consolidation, the highest-impact green computing measure named in the concept."
+  },
+  {
+    "sub": "Green Computing and Sustainable IT",
+    "q": "Which statement correctly describes the purpose of these environmental marks and standards?",
+    "opts": {
+      "A": "ENERGY STAR restricts hazardous substances, while RoHS rates energy efficiency",
+      "B": "Both ENERGY STAR and RoHS rate the energy efficiency of equipment",
+      "C": "ENERGY STAR and EPEAT rate energy efficiency and environmental performance, while RoHS restricts hazardous substances",
+      "D": "EPEAT restricts hazardous substances, while ENERGY STAR governs e-waste collection"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "ENERGY STAR and EPEAT are ratings for energy efficiency and environmental performance of equipment, whereas RoHS is a restriction on hazardous substances such as lead, mercury and cadmium in electrical and electronic goods. The two purposes are routinely swapped in options, so read which one rates and which one restricts.",
+    "why": "Tests the ENERGY STAR / EPEAT versus RoHS swap, listed explicitly as a trap in the concept."
+  },
+  {
+    "sub": "Motherboard and Chipset",
+    "q": "In the traditional two-chip motherboard chipset design, which group of interfaces was handled by the southbridge?",
+    "opts": {
+      "A": "The connection between the CPU and main memory",
+      "B": "The AGP or PCI Express graphics interface",
+      "C": "The CPU's internal cache and register file",
+      "D": "USB, SATA, audio and LAN"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "The southbridge handled the slower peripheral I/O such as USB, SATA, audio, LAN and legacy buses, while the northbridge sat on the high-speed side handling CPU-to-memory and CPU-to-graphics traffic. Any option attaching a USB port or keyboard to the northbridge is wrong.",
+    "why": "Tests the northbridge/southbridge split, still examined even though modern platforms have absorbed the northbridge into the CPU."
+  },
+  {
+    "sub": "Motherboard and Chipset",
+    "q": "The chipset of a motherboard mainly determines",
+    "opts": {
+      "A": "which CPU families, memory types and expansion interfaces the board can support",
+      "B": "the clock speed at which the processor executes instructions",
+      "C": "the physical dimensions and mounting-hole pattern of the board",
+      "D": "the amount of cache memory available inside the processor"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "The chipset is the controller silicon between the CPU and the rest of the board, and it fixes which CPU families, memory speeds and expansion interfaces the board can take. Physical dimensions and mounting are decided by the form factor such as ATX or Mini-ITX, while clock speed and cache are properties of the processor itself.",
+    "why": "Tests the role of the chipset and separates it from form factor and from CPU properties."
+  },
+  {
+    "sub": "Multi-core and Multi-threaded Processors",
+    "q": "A processor is described as 4C/8T. How will the operating system see it?",
+    "opts": {
+      "A": "As eight physical cores, each running one thread",
+      "B": "As four physical processors in four separate sockets",
+      "C": "As eight logical processors provided by four physical cores",
+      "D": "As four cores that can each run only one thread at a time"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "In 4C/8T notation the 8 is the thread count, so four physical cores using simultaneous multi-threading present themselves to the operating system as eight logical processors. Logical processors are not physical cores; they fill execution slots a single thread leaves idle, so the gain is a useful fraction rather than a doubling.",
+    "why": "Tests cores versus threads and the 4C/8T notation trap named directly in the concept."
+  },
+  {
+    "sub": "Multi-core and Multi-threaded Processors",
+    "q": "An office replaces a dual-core PC with an octa-core PC, but the accounting application it runs is entirely single-threaded. What is the most likely outcome for that application?",
+    "opts": {
+      "A": "It will run about four times faster because there are four times as many cores",
+      "B": "Its speed will change little, since a single-threaded program can use only one core at a time",
+      "C": "It will run slower, because work must be divided among eight cores",
+      "D": "It will automatically be split across all eight cores by the processor"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Extra cores raise throughput only for software written to use them, so a single-threaded program still executes on one core and sees little benefit. Amdahl's Law makes the same point generally: the serial fraction of a program cannot be sped up by adding cores.",
+    "why": "Tests the key practical point that more cores help only parallel-aware software."
+  },
+  {
+    "sub": "Network Attached Storage (NAS)",
+    "q": "Which protocols does a NAS appliance typically use to serve data to its clients?",
+    "opts": {
+      "A": "NFS and SMB/CIFS",
+      "B": "iSCSI and Fibre Channel",
+      "C": "SMTP and IMAP",
+      "D": "SNMP and SSH"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "A NAS is file-level storage and serves files using network file-sharing protocols: NFS on Unix and Linux, SMB/CIFS on Windows. iSCSI and Fibre Channel are block-level storage protocols and belong to a SAN, which presents raw disk rather than files.",
+    "why": "Tests the file-serving protocols that define NAS and contrasts them with the SAN block protocols."
+  },
+  {
+    "sub": "Network Attached Storage (NAS)",
+    "q": "A directorate wants a single place where several clerks can open and save the same documents over the existing office LAN, appearing on each PC as a mapped network drive. Which is the most appropriate solution?",
+    "opts": {
+      "A": "A Fibre Channel SAN with a LUN presented to each PC",
+      "B": "An external USB hard disk attached to the head clerk's PC",
+      "C": "An additional internal hard disk in each clerk's PC",
+      "D": "A NAS appliance on the office Ethernet network"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "A NAS serves files over the ordinary Ethernet LAN and appears to each client as a shared folder or mapped drive, with the appliance handling locking so several clerks can use the same share at once. A SAN would present raw blocks that look like a local disk, and two machines writing to the same LUN would corrupt it without a cluster-aware file system.",
+    "why": "Tests the NAS use case from the requirements side, forcing the file-versus-block choice against a SAN distractor."
+  },
+  {
+    "sub": "Storage Area Network (SAN)",
+    "q": "When a LUN from a SAN is presented to a server, how does it appear to that server's operating system?",
+    "opts": {
+      "A": "As a shared folder that must be mounted with NFS or SMB",
+      "B": "As a web page served by the storage array's management interface",
+      "C": "As a local, unformatted disk that the server itself partitions and formats",
+      "D": "As a read-only archive that cannot hold a file system"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "A SAN provides block-level access, so the array hands over raw blocks and the server partitions the LUN, creates the file system on it and mounts it, exactly as it would an internal drive. Appearing as a shared folder reached over NFS or SMB is the behaviour of a NAS, which serves files rather than blocks.",
+    "why": "Tests block-level access and the SAN half of the NAS/SAN pair the concept draws hardest."
+  },
+  {
+    "sub": "Storage Area Network (SAN)",
+    "q": "An office deploys iSCSI storage that runs over its ordinary Ethernet network using standard NICs. Is this a SAN or a NAS, and why?",
+    "opts": {
+      "A": "A NAS, because it uses ordinary Ethernet rather than a dedicated fabric",
+      "B": "A SAN, because access is at block level even though the cabling is Ethernet",
+      "C": "A NAS, because no Fibre Channel host bus adapters are involved",
+      "D": "Neither, because a SAN must always use Fibre Channel"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "It is the access level, block versus file, that decides whether storage is a SAN or a NAS, not the type of cable, so iSCSI over ordinary Ethernet is still a SAN. iSCSI needs only a standard NIC and an iSCSI initiator instead of a Fibre Channel HBA, which is why it is the affordable route for small and mid-size sites.",
+    "why": "Tests the cabling-versus-access-level trap, the most common way candidates misclassify iSCSI."
+  },
+  {
+    "sub": "Backup Concepts",
+    "q": "A server is backed up fully every Sunday and differentially on every other day. To restore the server after a failure on Thursday, what is needed?",
+    "opts": {
+      "A": "The Sunday full backup plus only Wednesday's differential backup",
+      "B": "The Sunday full backup plus every differential backup from Monday to Wednesday in order",
+      "C": "Only Wednesday's differential backup",
+      "D": "Every full backup taken since the server was commissioned"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "A differential backup copies everything changed since the last full backup, so a restore needs only the last full plus the most recent differential. Needing the full plus every intervening backup in sequence is the incremental scheme, where each job copies only what changed since the last backup of any kind.",
+    "why": "Tests the incremental-versus-differential restore chain, the central distinction of this subtopic."
+  },
+  {
+    "sub": "Backup Concepts",
+    "q": "The 3-2-1 rule of backup states that an organisation should keep",
+    "opts": {
+      "A": "three full backups, two incremental backups and one differential backup",
+      "B": "three backups a day, two verifications a week and one test restore a month",
+      "C": "three years of retention, two catalogues and one archive copy",
+      "D": "three copies of the data, on two different media, with one copy offsite"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "The 3-2-1 rule means three copies of the data, held on two different media or systems, with at least one copy kept offsite so a single site disaster cannot destroy everything. Ransomware has added a further idea that one copy should be offline or immutable, but the rule itself is about copies, media and location, not about backup types or schedules.",
+    "why": "Tests the 3-2-1 rule verbatim, with distractors drawn from other backup vocabulary so it cannot be guessed by elimination."
+  },
+  {
+    "sub": "Disaster Recovery Concepts",
+    "q": "A department decides that after any failure it can afford to lose at most fifteen minutes of transactions, and therefore replicates its database every fifteen minutes. Which disaster recovery objective is it setting?",
+    "opts": {
+      "A": "Recovery Time Objective (RTO)",
+      "B": "Recovery Point Objective (RPO)",
+      "C": "Mean Time Between Failures (MTBF)",
+      "D": "Service Level Agreement (SLA)"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "RPO is the maximum tolerable data loss, looking backwards from the incident, and it is achieved by setting backup or replication frequency, which is exactly what a fifteen-minute replication interval does. RTO is the different question of how long the service may remain down, and is achieved by standby capacity and rehearsed procedure.",
+    "why": "Tests RPO through the replication-frequency link the concept uses, against RTO as the intended distractor."
+  },
+  {
+    "sub": "Disaster Recovery Concepts",
+    "q": "A DR plan specifies RPO = 1 hour and RTO = 4 hours. Which statement interprets this correctly?",
+    "opts": {
+      "A": "Up to 4 hours of data may be lost, and the service must be restored within 1 hour",
+      "B": "The service must be restored within 5 hours in total, with no data loss permitted",
+      "C": "Up to 1 hour of data may be lost, and the service must be restored within 4 hours",
+      "D": "Backups must be taken every 4 hours and tested every hour"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "RPO is the data-loss tolerance and RTO is the downtime tolerance, so an RPO of one hour permits losing at most an hour's data while an RTO of four hours requires the service to be running again within four hours. Swapping the two is the standard error: RPO looks back at data, RTO looks forward at time.",
+    "why": "Tests RPO and RTO together as an applied reading, since papers most often examine this pair by swapping the definitions."
+  },
+  {
+    "sub": "Modern Input Devices",
+    "q": "A rugged handheld terminal must be operated by field staff wearing gloves. Which touchscreen technology is suitable?",
+    "opts": {
+      "A": "A capacitive touchscreen, because it senses a change in an electric field",
+      "B": "A capacitive touchscreen, because it supports multi-touch gestures",
+      "C": "An optical touchscreen, because gloves reflect infrared light",
+      "D": "A resistive touchscreen, because it registers physical pressure from any object"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "A resistive screen works by pressure between two conductive layers, so it responds to a gloved hand or any stylus, which is why it survives on rugged field devices and older POS terminals. A capacitive screen needs a conductive touch such as a bare finger and will not respond to an ordinary glove, whatever its multi-touch advantages.",
+    "why": "Tests capacitive versus resistive from the use-case side, the practical distinction the concept flags."
+  },
+  {
+    "sub": "Modern Input Devices",
+    "q": "Which technology is used to read the answer sheets of a competitive examination, where candidates darken bubbles with a pencil?",
+    "opts": {
+      "A": "OMR",
+      "B": "OCR",
+      "C": "MICR",
+      "D": "RFID"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "OMR, optical mark recognition, detects the presence of marks at fixed positions on a form, which is exactly how bubble answer sheets are read. OCR recognises the shapes of printed or written characters and MICR reads magnetic-ink characters on cheques, so the three are not interchangeable.",
+    "why": "Tests OMR versus OCR versus MICR in the Indian examination context the concept names."
+  },
+  {
+    "sub": "Biometric Devices",
+    "q": "A genuine, enrolled employee repeatedly fails to be recognised by the office fingerprint attendance device. This is an instance of",
+    "opts": {
+      "A": "a false acceptance, measured by the FAR",
+      "B": "an equal error, measured by the EER",
+      "C": "a false rejection, measured by the FRR",
+      "D": "a failure to enrol, measured by the FTE"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "FRR, the false rejection rate, is the proportion of genuine users wrongly refused, which is a usability failure of exactly this kind. FAR is the opposite error of admitting an impostor, and failure to enrol describes a person whose biometric could not be registered in the first place, not one already enrolled who is being turned away.",
+    "why": "Tests FAR versus FRR by which side the error falls on, using an office scenario rather than a definition recall."
+  },
+  {
+    "sub": "Biometric Devices",
+    "q": "Why is the compromise of a person's stored fingerprint data considered more serious than the compromise of that person's password?",
+    "opts": {
+      "A": "Fingerprint data occupies far more storage space than a password",
+      "B": "A fingerprint is an identifier that cannot be changed or reissued, whereas a password can be replaced",
+      "C": "Fingerprint matching is performed without any encryption of the sample",
+      "D": "A fingerprint can be used only for identification and never for verification"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Biometrics are identifiers rather than secrets: you leave fingerprints on everything you touch, and a compromised fingerprint cannot be reissued the way a password can simply be reset. Encryption is in fact required in Indian practice, where Aadhaar authentication must use STQC-certified registered devices that encrypt the sample inside the sensor.",
+    "why": "Tests the identifiers-not-secrets point, which is the security lesson of the subtopic and the reason biometric breaches are permanent."
+  }
+]

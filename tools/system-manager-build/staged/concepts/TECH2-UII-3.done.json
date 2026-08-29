@@ -1,0 +1,143 @@
+[
+  {
+    "paper": "TECH2",
+    "unit": "II",
+    "unitTitle": "Database Management System",
+    "sub": "Authorization",
+    "def": "Authorization is the stage of database security that decides what an already-identified user is allowed to do: which tables they may read, which rows they may change, which commands they may run. It comes after authentication and is enforced through privileges granted to database accounts and roles.",
+    "exp": "Privileges come in two kinds. Object privileges apply to a specific table, view or procedure — SELECT, INSERT, UPDATE, DELETE, EXECUTE. System privileges apply to the server — CREATE TABLE, CREATE USER, take a backup, shut down. Both are handed out with GRANT and taken back with REVOKE, the Data Control Language commands: GRANT SELECT, INSERT ON employee TO clerk. Adding WITH GRANT OPTION lets the grantee pass the privilege on, and revoking it cascades down that chain.\n\nGranting to each user individually does not scale. Role-based access control creates a role for a job — clerk, auditor, report_user — grants privileges to the role, and grants the role to people. When the job's needs change you edit one role, not two hundred accounts. A user may hold several roles at once.\n\nLeast privilege is the governing principle: an account gets exactly the privileges its work requires and nothing more. The practical consequence is that an application must not connect to the database as a superuser (sa, postgres, root). It should use an ordinary account restricted to its own tables, so that a leaked connection string or a successful SQL injection is bounded by what that account could already do. Views and column-level grants narrow it further — give a clerk a view of name and department rather than SELECT on the whole table including salary.",
+    "facts": [
+      "GRANT and REVOKE are DCL (Data Control Language) commands; GRANT gives a privilege, REVOKE withdraws it.",
+      "Object privileges apply to a named object (SELECT, INSERT, UPDATE, DELETE, EXECUTE); system privileges apply server-wide (CREATE TABLE, CREATE USER).",
+      "WITH GRANT OPTION allows the receiver to grant the privilege onward; revoking the original privilege cascades down that chain.",
+      "Role-based access control grants privileges to a role and the role to users, so one edit changes access for every holder.",
+      "Least privilege means an application should connect with a limited account, never as a database superuser."
+    ],
+    "traps": [
+      "Authentication vs authorization — authentication proves who you are (login, password, certificate); authorization decides what you may then do. Authentication always comes first; a user can be authenticated and still authorized for nothing.",
+      "GRANT vs REVOKE vs DENY — GRANT allows, REVOKE simply removes a previously granted privilege, and an explicit DENY (SQL Server) blocks even if a role would otherwise allow it. Revoking is not the same as denying.",
+      "A role is not a user. A role has no login of its own; it is a named bundle of privileges that users are given.",
+      "Privileges are not encryption. Access control stops a legitimate login from over-reaching; it does nothing for someone who reads the datafile or backup directly."
+    ],
+    "mnem": "Authentication asks 'who?', authorization asks 'what?' — both start with Auth, and they run in that order.",
+    "rel": ["Authentication", "Data Control Language (DCL)", "Encryption"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "II",
+    "unitTitle": "Database Management System",
+    "sub": "Encryption",
+    "def": "In a database, encryption converts stored or transmitted data into ciphertext, so that anyone who obtains the datafiles, a backup copy or the network traffic cannot read the contents without the key. It is the layer that still protects data once access control has been bypassed or gone around.",
+    "exp": "A database needs encryption in two distinct places. At rest covers the datafiles on disk, the backups and any exported dump. In transit covers the client-to-server connection, normally protected with TLS. The two are independent: encrypting the files does nothing for a sniffed connection, and encrypting the connection does nothing for a backup tape carried out of the building.\n\nAt rest there are two granularities. Transparent Data Encryption encrypts the whole datafile and its backups at the storage layer; the engine decrypts pages as it reads them, so no application or SQL change is needed — and any user who logs in legitimately still sees plaintext. TDE defeats the stolen-disk and stolen-backup case, not the compromised-account case. Column-level encryption encrypts only chosen sensitive fields — Aadhaar number, salary, account number — so even a privileged user querying the table sees ciphertext. The price: indexing, sorting and range searches on that column stop working normally, and the application carries the encrypt and decrypt logic.\n\nKey management is the hard part. Ciphertext is only as safe as its key, so the key must not live beside the data — not in a table in the same database, not in a config file on the same server. Keys belong in a separate keystore, HSM or key-management service, with rotation and their own protected backup. Lose the key and the data is gone.",
+    "facts": [
+      "Encryption at rest protects datafiles and backups; encryption in transit protects the client-server connection, normally using TLS.",
+      "Transparent Data Encryption encrypts the entire datafile and its backups and requires no change to the application or its SQL.",
+      "Column-level encryption protects only named sensitive columns but breaks normal indexing, sorting and range searching on those columns.",
+      "Encryption keys must be stored separately from the encrypted data, in a keystore, HSM or key-management service.",
+      "Losing the encryption key makes the data permanently unrecoverable, so key backup is part of the backup plan."
+    ],
+    "traps": [
+      "TDE vs column-level encryption — TDE stops someone who steals the disk or the backup, but a logged-in user still sees plaintext; column-level encryption also hides the value from a privileged user querying the table.",
+      "At rest vs in transit — enabling one does not cover the other. TDE leaves the network traffic readable; TLS leaves the backup tape readable.",
+      "Encryption is not access control. It does not decide who may query what; that is authorization. An over-privileged account on a TDE-protected database reads everything in the clear.",
+      "Storing the key in the database it protects, or in a file on the same server, defeats the whole exercise — an attacker who takes the server takes both halves."
+    ],
+    "mnem": "Two states, two questions: at rest asks 'who has my disk?', in transit asks 'who is on my wire?'",
+    "rel": ["Authorization", "Authentication", "Backup and Recovery"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "II",
+    "unitTitle": "Database Management System",
+    "sub": "Auditing",
+    "def": "Database auditing is the recording of activity — who connected, what statement they ran, against which object, when, and whether it succeeded — into an audit trail that can be examined afterwards. Auditing prevents nothing by itself; its job is to make every action attributable to a named account.",
+    "exp": "What gets audited is a policy decision, because auditing costs performance and disk. A sensible policy captures logon attempts including the failures, all schema changes, every GRANT and REVOKE, activity by privileged accounts, and access to a small set of genuinely sensitive tables. Auditing every statement on every table produces a trail nobody can search and slows the system for no gain.\n\nThe trail serves three purposes. Accountability: each change has a named owner, which by itself deters casual misuse. Forensics: after an incident you can reconstruct what was read or altered, by whom, and when it began. Compliance: government departments and audit bodies expect an evidential record of access to citizen and financial data, kept for a stated retention period.\n\nThe critical design point is that audit logs must be protected from the very people they audit. A DBA who can edit or truncate the trail can erase the evidence of his own actions, and it is then worth nothing. Standard practice is separation of duty: write audit records where the DBA has no control — a separate log server, append-only storage, an external syslog collector — and audit access to the audit trail itself. Note also that an audit trail is not a transaction log: the transaction log exists so the engine can roll back and recover, the audit trail so a human can hold someone responsible.",
+    "facts": [
+      "An audit trail records who did what, to which object, and when — including failed attempts, not only successful ones.",
+      "The three standard purposes of auditing are accountability, forensic investigation, and regulatory or departmental compliance.",
+      "Audit logs must be written to storage the audited administrators cannot alter, and access to the audit trail should itself be audited.",
+      "Auditing has a measurable performance and storage cost, so audit policy is targeted at sensitive objects and privileged accounts.",
+      "Auditing is detective control, not preventive — it detects and attributes misuse after the fact rather than blocking it."
+    ],
+    "traps": [
+      "Audit trail vs transaction log — the transaction log supports rollback and recovery and is consumed by the engine; the audit trail supports accountability and is read by people. Neither substitutes for the other.",
+      "Auditing does not prevent an unauthorised action; it records it. Prevention is authorization's job.",
+      "Failed login attempts are among the most valuable audit records — a policy that logs only successful actions misses the attack in progress.",
+      "If the DBA can delete or edit the audit records, the audit is not independent. Separation of duty is part of the definition, not an optional extra."
+    ],
+    "mnem": "An audit answers Who, What, When, Where — never Why. The reason has to come from the human.",
+    "rel": ["Authorization", "Authentication", "Encryption"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "II",
+    "unitTitle": "Database Management System",
+    "sub": "Microsoft SQL Server (Concept)",
+    "def": "Microsoft SQL Server is a proprietary, commercially licensed relational database management system developed by Microsoft. It stores data in tables, is queried with SQL, supports ACID transactions, and is the database at the centre of the Microsoft server stack. It runs on Windows Server and, in current releases, on Linux and in containers as well.",
+    "exp": "Its SQL dialect is T-SQL, Transact-SQL — standard SQL plus Microsoft's procedural extensions for variables, control flow, error handling and cursors, which is what stored procedures, triggers and user-defined functions are written in. Day-to-day administration is done through SQL Server Management Studio, the graphical client, or through command-line and scripting tools.\n\nWhere you meet it matters more than its feature list. It is the default choice for Windows-based departmental and enterprise systems and for applications built on the .NET framework, because the integration is tight. It authenticates either through Windows and Active Directory accounts or through logins it manages itself, which is a genuine convenience in an organisation that already runs a Windows domain. Around the engine sits a bundled ecosystem — integration services for ETL and data loading, reporting services for report generation, analysis services for OLAP and analytics.\n\nBeing proprietary is the defining commercial fact. Production use is licensed and paid for, editions differ in capability, and a free entry-level Express edition exists with capacity limits for small applications and learning. Set against a peer like PostgreSQL, the engine is not doing anything conceptually different — both are relational, both use SQL, both give transactions, roles, backup and recovery. What separates them is dialect, tooling, ecosystem and the licensing model, not the relational model itself.",
+    "facts": [
+      "Microsoft SQL Server is a proprietary RDBMS from Microsoft; production use requires a paid licence, and a free Express edition exists with capacity limits.",
+      "Its procedural SQL dialect is T-SQL (Transact-SQL), used for stored procedures, triggers and functions.",
+      "SQL Server Management Studio (SSMS) is the standard graphical administration and query tool.",
+      "It supports Windows Authentication using Active Directory accounts as well as SQL Server logins it manages itself.",
+      "The default TCP port for a default SQL Server instance is 1433.",
+      "It ships alongside integration services (ETL), reporting services and analysis services as part of the Microsoft data platform."
+    ],
+    "traps": [
+      "SQL Server is a product; SQL is the language. Any RDBMS uses SQL — naming the product 'SQL Server' does not make it the only one that speaks SQL.",
+      "SQL Server vs MySQL — different products from different vendors. MySQL is open source and now owned by Oracle; SQL Server is Microsoft's proprietary product.",
+      "T-SQL is Microsoft's dialect, not the ANSI standard. PL/SQL is Oracle's and PL/pgSQL is PostgreSQL's; procedural code does not port between them unchanged.",
+      "It is no longer Windows-only. Current releases run on Linux and in containers, so 'SQL Server requires Windows' is a dated statement."
+    ],
+    "mnem": "",
+    "rel": ["PostgreSQL (Concept)", "Relational Database Management System", "Authentication"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "II",
+    "unitTitle": "Database Management System",
+    "sub": "PostgreSQL (Concept)",
+    "def": "PostgreSQL, commonly called Postgres, is a free and open-source object-relational database management system developed by a worldwide community under a permissive licence rather than by a single vendor. It is fully relational, ACID-compliant, strongly standards-oriented in its SQL, and runs on Linux, Windows and macOS.",
+    "exp": "'Object-relational' means it goes beyond plain tables while remaining relational: user-defined data types, table inheritance, arrays and a rich built-in type set, plus JSON storage so semi-structured documents can sit inside a relational table and still be queried. It is deliberately extensible — PostGIS, the geographic extension, turns it into a full spatial database, which is why it shows up in land-records, survey and mapping work.\n\nIts procedural language is PL/pgSQL, used for stored procedures, triggers and functions; other languages can be plugged in. The command-line client is psql and pgAdmin is the usual graphical tool. For concurrency it uses multi-version concurrency control, so a reader sees a consistent snapshot and readers do not block writers.\n\nThe commercial fact is that there is no licence to buy and no per-core cost, and no vendor can withdraw the software. That matters for government and public-sector deployments, where licence cost, procurement and long-term vendor lock-in are real constraints, and it is a large part of why Postgres is common in Indian e-governance stacks and in Linux-based web application deployments. Support is optional and bought from a company if wanted, rather than bundled into the product price. Conceptually it offers what any serious RDBMS offers — transactions, roles and privileges, backup and recovery, replication; the differences from a proprietary peer lie in dialect, tooling and licensing.",
+    "facts": [
+      "PostgreSQL is free and open-source, released under a permissive licence, and is maintained by a community rather than owned by one vendor.",
+      "It is described as an object-relational DBMS: it supports user-defined types, table inheritance, arrays and JSON alongside ordinary relational tables.",
+      "Its procedural language is PL/pgSQL; psql is the command-line client and pgAdmin the common GUI tool.",
+      "It uses multi-version concurrency control (MVCC), so readers do not block writers.",
+      "The default TCP port for PostgreSQL is 5432.",
+      "PostGIS is the extension that adds geographic and spatial data support."
+    ],
+    "traps": [
+      "Open source does not mean 'no cost at all' — you still pay for hardware, administration skills and, if you want it, commercial support. It means no licence fee and no vendor lock-in.",
+      "PostgreSQL vs MySQL — both are open source, but they are separate products with different licences, dialects and governance. MySQL is under Oracle's ownership; PostgreSQL is community-governed.",
+      "Storing JSON does not make PostgreSQL a NoSQL database. It remains relational and ACID-compliant; JSON is one column type among many.",
+      "PL/pgSQL, PL/SQL and T-SQL are three different procedural dialects (PostgreSQL, Oracle, SQL Server). The similar names are the trap."
+    ],
+    "mnem": "",
+    "rel": ["Microsoft SQL Server (Concept)", "Relational Database Management System", "Concurrency Control"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "II",
+    "unitTitle": "Database Management System",
+    "sub": "NoSQL Databases (Introduction)",
+    "def": "NoSQL databases are non-relational data stores that drop the fixed table-and-row schema and, usually, part of the strict consistency guarantee of a relational system, in exchange for horizontal scale-out across many ordinary servers and a schema that can change without a migration. The name is read as 'Not Only SQL', not 'no SQL at all'.",
+    "exp": "There are four families. Key-value stores fetch a value by its key alone, like a dictionary — session data, caching, shopping carts; Redis. Document stores hold self-describing JSON-style documents whose fields may vary from one document to the next — product catalogues, content management, user profiles; MongoDB. Column-family or wide-column stores group columns into families and absorb very heavy write volumes across a cluster — time-series, sensor and log data; Cassandra. Graph databases treat nodes and the relationships between them as first-class and traverse those relationships directly — social networks, fraud-ring detection, recommendation; Neo4j.\n\nThey exist because scaling a relational database mainly means scaling up onto a bigger machine, and because joins and a fixed schema are awkward when data volume is enormous and its shape keeps changing. The honest trade-off is stated as BASE — Basically Available, Soft state, Eventual consistency — the counterpart to relational ACID: a read taken immediately after a write may return the old value, and the copies converge shortly afterwards.\n\nNoSQL is not better than SQL. It makes a different trade, and money, ledgers and anything needing guaranteed integrity across related tables still belong in a relational database. The line has also blurred: relational engines now store JSON, and several NoSQL products offer tunable or strong consistency.",
+    "facts": [
+      "The four families of NoSQL databases are key-value, document, column-family (wide-column) and graph.",
+      "NoSQL stands for 'Not Only SQL'; many NoSQL products expose SQL-like query languages.",
+      "BASE (Basically Available, Soft state, Eventual consistency) is the NoSQL counterpart to the relational ACID properties.",
+      "NoSQL systems scale horizontally by adding commodity servers, whereas relational systems traditionally scale vertically with a bigger machine.",
+      "Typical examples by family: Redis (key-value), MongoDB (document), Cassandra (column-family), Neo4j (graph).",
+      "Graph databases store relationships as first-class objects, which makes traversing connections faster than repeated relational joins."
+    ],
+    "traps": [
+      "NoSQL is not 'better than SQL'. It trades strict consistency and join power for scale and schema flexibility; transactional and financial data still belongs in a relational database.",
+      "NoSQL does not mean 'no SQL language'. It means not only SQL — the defining break is with the relational model, not with the query language.",
+      "Eventual consistency vs strict consistency — under eventual consistency a read straight after a write can return stale data. A relational system guarantees you read what you just wrote.",
+      "ACID vs BASE — ACID is Atomicity, Consistency, Isolation, Durability (relational); BASE is Basically Available, Soft state, Eventual consistency (NoSQL). Do not mix the expansions."
+    ],
+    "mnem": "The four families: Key, Document, Column, Graph. And chemistry gives the trade-off free — relational is ACID, NoSQL is BASE.",
+    "rel": ["Relational Database Management System", "Transactions", "Concurrency Control"]
+  }
+]

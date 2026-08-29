@@ -1,0 +1,30 @@
+{
+  "paper": "TECH2",
+  "unit": "V",
+  "unitTitle": "IT Governance, Business Communication and Aptitude",
+  "unitMarks": 25,
+  "perTarget": 2,
+  "brief": "tools/system-manager-build/GENERATE_BRIEF.md",
+  "targets": [
+    {
+      "sub": "Meeting Documentation",
+      "section": "Business Communication"
+    },
+    {
+      "sub": "Data Interpretation",
+      "section": "Aptitude and Analytical Ability"
+    },
+    {
+      "sub": "Digital Reasoning",
+      "section": "Aptitude and Analytical Ability"
+    },
+    {
+      "sub": "Interpretation of AI-generated Outputs",
+      "section": "Aptitude and Analytical Ability"
+    },
+    {
+      "sub": "Cyber Safety Awareness",
+      "section": "Aptitude and Analytical Ability"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+[
+  {
+    "sub": "Meeting Documentation",
+    "q": "Which document is normally circulated to members before an official meeting, listing the items to be taken up and the order in which they will be discussed?",
+    "opts": {
+      "A": "Minutes",
+      "B": "Agenda",
+      "C": "Action Taken Report",
+      "D": "Attendance sheet"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "The agenda is prepared and circulated in advance so members know what will be discussed and can come prepared. Minutes are the opposite in timing — they are written after the meeting to record what was decided."
+  },
+  {
+    "sub": "Meeting Documentation",
+    "q": "Minutes of an official meeting are primarily expected to record:",
+    "opts": {
+      "A": "A word-for-word transcript of everything each member said",
+      "B": "Only the names and designations of those who attended",
+      "C": "The decisions taken and the action points with the officer responsible for each",
+      "D": "The chairperson's personal assessment of each member's contribution"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Minutes are a summary record of outcomes — decisions, action points with owners and timelines, along with attendance and apologies for absence. They are deliberately not a verbatim transcript; capturing every spoken word is the job of proceedings or a recording, not of minutes."
+  },
+  {
+    "sub": "Data Interpretation",
+    "q": "The number of applications processed at a district e-District centre rose from 1,250 in 2024 to 1,500 in 2025. The percentage increase is:",
+    "opts": {
+      "A": "20%",
+      "B": "16.67%",
+      "C": "25%",
+      "D": "12.5%"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "The rise is 1,500 - 1,250 = 250, and percentage increase is taken on the original value: 250 / 1,250 x 100 = 20%. Dividing 250 by the new figure 1,500 gives 16.67%, which is the common error — percentage increase is always measured against the earlier value."
+  },
+  {
+    "sub": "Data Interpretation",
+    "q": "A department's internet bills for five successive months were Rs 8,000, Rs 9,500, Rs 7,000, Rs 10,500 and Rs 10,000. The average monthly bill was:",
+    "opts": {
+      "A": "Rs 8,800",
+      "B": "Rs 9,500",
+      "C": "Rs 9,200",
+      "D": "Rs 9,000"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "The five bills total 8,000 + 9,500 + 7,000 + 10,500 + 10,000 = Rs 45,000, and 45,000 / 5 = Rs 9,000. Rs 9,500 is the middle value when the figures are arranged in order, which is the median, not the average."
+  },
+  {
+    "sub": "Digital Reasoning",
+    "q": "Find the next term in the series: 5, 11, 23, 47, ___",
+    "opts": {
+      "A": "92",
+      "B": "93",
+      "C": "95",
+      "D": "96"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Each term is double the previous term plus one: 5x2+1 = 11, 11x2+1 = 23, 23x2+1 = 47, so the next term is 47x2+1 = 95. Simply doubling gives 94 and doubling with no adjustment does not reproduce the earlier terms."
+  },
+  {
+    "sub": "Digital Reasoning",
+    "q": "In a certain code, COMPUTER is written as DPNQVUFS. In the same code, PRINTER will be written as:",
+    "opts": {
+      "A": "QSJOUFS",
+      "B": "OQHMSDQ",
+      "C": "QSJOUFR",
+      "D": "QSJNUFS"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Each letter of the word is replaced by the next letter of the alphabet (C to D, O to P, M to N, and so on), so PRINTER becomes Q, S, J, O, U, F, S — that is QSJOUFS. OQHMSDQ is what you get by moving one letter backwards instead of forwards."
+  },
+  {
+    "sub": "Interpretation of AI-generated Outputs",
+    "q": "An officer asks an AI chatbot about a welfare scheme, and the reply confidently cites an office memorandum with a number and date that do not exist in any departmental record. This behaviour of a generative AI model is known as:",
+    "opts": {
+      "A": "Prompt injection",
+      "B": "Data mining",
+      "C": "Overfitting",
+      "D": "Hallucination"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "A hallucination is output that is fluent and plausible-looking but factually invented, such as a fabricated citation, circular number or case reference. Prompt injection is different — it is an attack in which hidden instructions in the input make the model behave against its operator's intent."
+  },
+  {
+    "sub": "Interpretation of AI-generated Outputs",
+    "q": "An AI tool produces a fluent, confidently worded summary of a 40-page tender document. Before circulating the summary to the tender committee, the System Manager should:",
+    "opts": {
+      "A": "Accept it as it is, because the language is fluent and free of hesitation",
+      "B": "Check the summary's statements against the original tender document",
+      "C": "Run the same prompt again and circulate whichever output is longer",
+      "D": "Ask the AI to rate its own confidence and accept it if the rating is high"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "An AI summary is only a draft until it has been verified against the source, because a confident tone is a property of the model's writing style and not evidence that the content is accurate. A model's self-reported confidence is generated the same way as the rest of its text and is therefore not an independent check."
+  },
+  {
+    "sub": "Cyber Safety Awareness",
+    "q": "In India, financial cyber fraud and other cyber crimes can be reported on the national cyber crime helpline number:",
+    "opts": {
+      "A": "1091",
+      "B": "112",
+      "C": "1930",
+      "D": "155260"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "1930 is the national cyber crime helpline, and complaints can also be filed online at cybercrime.gov.in; reporting a financial fraud quickly improves the chance of the money being held. 155260 was the earlier helpline number for financial cyber fraud and has since been replaced by 1930, while 1091 is the women's helpline and 112 is the general emergency number."
+  },
+  {
+    "sub": "Cyber Safety Awareness",
+    "q": "An employee receives an email that appears to be from the Treasury Department, warning that his account will be suspended within two hours unless he clicks a link and re-enters his login details; the sender's address ends in a domain unconnected with the government. The strongest indication that this is a phishing attempt is:",
+    "opts": {
+      "A": "The email arrived as plain text rather than in HTML format",
+      "B": "It manufactures urgency and asks for credentials from a non-official sender domain",
+      "C": "The email addresses the recipient by his designation instead of his name",
+      "D": "The email contains a hyperlink to an external website"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "The classic phishing signature is artificial time pressure combined with a request for credentials from an address that does not belong to the genuine organisation's domain; a real department never asks for a password by email. A hyperlink on its own is not suspicious, since legitimate official mail routinely contains links."
+  }
+]

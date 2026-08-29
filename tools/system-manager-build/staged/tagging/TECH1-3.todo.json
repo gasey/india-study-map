@@ -1,0 +1,1213 @@
+{
+  "paper": "TECH1",
+  "instructions": "For each question in `questions`, add an entry to a JSON object keyed by question id: {\"<id>\": {\"unit\": \"<unit no>\", \"sub\": \"<leaf subtopic VERBATIM>\"}}. Write it to the same filename with .todo.json replaced by .done.json. `sub` must be copied character-for-character from `allowed_leaves` — it is matched by string equality. If the paper is GE, set sub to null and tag the unit only.",
+  "allowed_units": [
+    {
+      "unit": "I",
+      "title": "Fundamentals of Computer",
+      "marks": 60
+    },
+    {
+      "unit": "II",
+      "title": "Operating Systems",
+      "marks": 25
+    },
+    {
+      "unit": "III",
+      "title": "Word Processing",
+      "marks": 20
+    },
+    {
+      "unit": "IV",
+      "title": "Electronic Spreadsheet",
+      "marks": 25
+    },
+    {
+      "unit": "V",
+      "title": "Presentation Software",
+      "marks": 20
+    }
+  ],
+  "allowed_leaves": [
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Introduction to Computing",
+      "sub": "Evolution and Generations of Computers"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Introduction to Computing",
+      "sub": "Characteristics and Applications of Computers"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Introduction to Computing",
+      "sub": "Classification of Computers"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Introduction to Computing",
+      "sub": "Digital Transformation and e-Governance"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Introduction to Computing",
+      "sub": "Emerging Technologies: Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Big Data, Cloud Computing and Edge Computing"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Introduction to Computing",
+      "sub": "Green Computing and Sustainable IT"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Computer Architecture",
+      "sub": "Functional Components of a Computer"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Computer Architecture",
+      "sub": "CPU Architecture and Instruction Cycle"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Computer Architecture",
+      "sub": "Motherboard and Chipset"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Computer Architecture",
+      "sub": "System Bus and Expansion Slots"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Computer Architecture",
+      "sub": "BIOS/UEFI Firmware"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Processor and Memory",
+      "sub": "Multi-core and Multi-threaded Processors"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Processor and Memory",
+      "sub": "Cache Memory"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Processor and Memory",
+      "sub": "RAM, ROM and Virtual Memory"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Processor and Memory",
+      "sub": "Memory Hierarchy"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Processor and Memory",
+      "sub": "Performance Measurement"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Storage Technologies",
+      "sub": "HDD, SSD and NVMe Storage"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Storage Technologies",
+      "sub": "Optical and Flash Storage"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Storage Technologies",
+      "sub": "Network Attached Storage (NAS)"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Storage Technologies",
+      "sub": "Storage Area Network (SAN)"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Storage Technologies",
+      "sub": "Backup Concepts"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Storage Technologies",
+      "sub": "Disaster Recovery Concepts"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Input and Output Devices",
+      "sub": "Modern Input Devices"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Input and Output Devices",
+      "sub": "Biometric Devices"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Input and Output Devices",
+      "sub": "Smart Card Readers"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Input and Output Devices",
+      "sub": "Scanners"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Input and Output Devices",
+      "sub": "Display Technologies"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Input and Output Devices",
+      "sub": "Printers and Multifunction Devices"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Input and Output Devices",
+      "sub": "Interactive Displays"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Computer Software",
+      "sub": "System Software"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Computer Software",
+      "sub": "Application Software"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Computer Software",
+      "sub": "Open Source and Proprietary Software"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Computer Software",
+      "sub": "Software Licensing"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Computer Software",
+      "sub": "Software Development Life Cycle (SDLC)"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Computer Software",
+      "sub": "Virtualization and Containerization (Concept)"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Programming Fundamentals",
+      "sub": "Programming Languages"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Programming Fundamentals",
+      "sub": "Object-Oriented Programming Concepts"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Programming Fundamentals",
+      "sub": "Scripting Languages"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Programming Fundamentals",
+      "sub": "APIs and Software Integration (Concept)"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Information Technology and Society",
+      "sub": "Digital India and e-Governance"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Information Technology and Society",
+      "sub": "Electronic Records management"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Information Technology and Society",
+      "sub": "Data Privacy and Personal Data Protection"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Information Technology and Society",
+      "sub": "Cyber Ethics"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Information Technology and Society",
+      "sub": "AI Ethics"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Fundamentals of Computer",
+      "section": "Information Technology and Society",
+      "sub": "Digital Inclusion and Accessibility"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "Operating System Fundamentals",
+      "sub": "Types and Functions of Operating Systems"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "Operating System Fundamentals",
+      "sub": "Process Management"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "Operating System Fundamentals",
+      "sub": "Memory Management"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "Operating System Fundamentals",
+      "sub": "File Systems"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "Microsoft Windows",
+      "sub": "Windows Operating Systems"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "Microsoft Windows",
+      "sub": "User Accounts"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "Microsoft Windows",
+      "sub": "Windows Security"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "Microsoft Windows",
+      "sub": "Windows Terminal"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "Microsoft Windows",
+      "sub": "Registry"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "Microsoft Windows",
+      "sub": "Windows Utilities"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "Linux Fundamentals",
+      "sub": "Linux Architecture"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "Linux Fundamentals",
+      "sub": "Linux File System"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "Linux Fundamentals",
+      "sub": "Basic Linux Commands"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "Linux Fundamentals",
+      "sub": "Open-source Ecosystem"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "File and Storage Management",
+      "sub": "Files and Folders"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "File and Storage Management",
+      "sub": "Compression"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "File and Storage Management",
+      "sub": "Encryption"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "File and Storage Management",
+      "sub": "Backup and Restore"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "File and Storage Management",
+      "sub": "File Recovery"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "System Administration",
+      "sub": "Device Manager"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "System Administration",
+      "sub": "Disk Management"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "System Administration",
+      "sub": "Task Manager"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "System Administration",
+      "sub": "Resource Monitor"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "System Administration",
+      "sub": "Event Viewer"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "System Administration",
+      "sub": "Services"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "System Administration",
+      "sub": "Performance Monitoring"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "Command Line",
+      "sub": "Command Prompt"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "Command Line",
+      "sub": "PowerShell Fundamentals"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Operating Systems",
+      "section": "Command Line",
+      "sub": "Basic Batch Files"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Word Processing",
+      "section": "Microsoft Word",
+      "sub": "Document Creation"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Word Processing",
+      "section": "Microsoft Word",
+      "sub": "Templates"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Word Processing",
+      "section": "Microsoft Word",
+      "sub": "Styles and Themes"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Word Processing",
+      "section": "Microsoft Word",
+      "sub": "Page Layout"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Word Processing",
+      "section": "Microsoft Word",
+      "sub": "Tables"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Word Processing",
+      "section": "Microsoft Word",
+      "sub": "SmartArt"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Word Processing",
+      "section": "Microsoft Word",
+      "sub": "Graphics"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Word Processing",
+      "section": "Microsoft Word",
+      "sub": "References"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Word Processing",
+      "section": "Microsoft Word",
+      "sub": "Table of Contents"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Word Processing",
+      "section": "Microsoft Word",
+      "sub": "Citations and Bibliography"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Word Processing",
+      "section": "Microsoft Word",
+      "sub": "Review Tools"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Word Processing",
+      "section": "Microsoft Word",
+      "sub": "Track Changes"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Word Processing",
+      "section": "Microsoft Word",
+      "sub": "Mail Merge"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Word Processing",
+      "section": "Microsoft Word",
+      "sub": "Accessibility Features"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Word Processing",
+      "section": "Microsoft Word",
+      "sub": "Microsoft 365 Collaboration"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Word Processing",
+      "section": "Microsoft Word",
+      "sub": "Integration of e-Office"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Word Processing",
+      "section": "Microsoft Word",
+      "sub": "AI-assisted Document Creation (Microsoft Copilot - Concept)"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Electronic Spreadsheet",
+      "section": "Microsoft Excel",
+      "sub": "Workbook Management"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Electronic Spreadsheet",
+      "section": "Microsoft Excel",
+      "sub": "Formulae and Functions"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Electronic Spreadsheet",
+      "section": "Microsoft Excel",
+      "sub": "Lookup Functions"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Electronic Spreadsheet",
+      "section": "Microsoft Excel",
+      "sub": "Statistical Functions"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Electronic Spreadsheet",
+      "section": "Microsoft Excel",
+      "sub": "Financial Functions"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Electronic Spreadsheet",
+      "section": "Microsoft Excel",
+      "sub": "Data Validation"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Electronic Spreadsheet",
+      "section": "Microsoft Excel",
+      "sub": "Sorting and Filtering"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Electronic Spreadsheet",
+      "section": "Microsoft Excel",
+      "sub": "Conditional Formatting"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Electronic Spreadsheet",
+      "section": "Microsoft Excel",
+      "sub": "Pivot Tables"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Electronic Spreadsheet",
+      "section": "Microsoft Excel",
+      "sub": "Pivot Charts"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Electronic Spreadsheet",
+      "section": "Microsoft Excel",
+      "sub": "Dashboards"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Electronic Spreadsheet",
+      "section": "Microsoft Excel",
+      "sub": "What-if Analysis"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Electronic Spreadsheet",
+      "section": "Microsoft Excel",
+      "sub": "Goal Seek"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Electronic Spreadsheet",
+      "section": "Microsoft Excel",
+      "sub": "Power Query (Introduction)"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Electronic Spreadsheet",
+      "section": "Microsoft Excel",
+      "sub": "Power Pivot (Overview)"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Electronic Spreadsheet",
+      "section": "Microsoft Excel",
+      "sub": "Macros (Introduction)"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Electronic Spreadsheet",
+      "section": "Microsoft Excel",
+      "sub": "Microsoft 365 Collaboration"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Electronic Spreadsheet",
+      "section": "Microsoft Excel",
+      "sub": "AI-assisted Spreadsheet Analysis"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "Presentation Software",
+      "section": "Microsoft PowerPoint",
+      "sub": "Presentation Design"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "Presentation Software",
+      "section": "Microsoft PowerPoint",
+      "sub": "Templates and Themes"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "Presentation Software",
+      "section": "Microsoft PowerPoint",
+      "sub": "Slide Master"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "Presentation Software",
+      "section": "Microsoft PowerPoint",
+      "sub": "SmartArt"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "Presentation Software",
+      "section": "Microsoft PowerPoint",
+      "sub": "Charts"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "Presentation Software",
+      "section": "Microsoft PowerPoint",
+      "sub": "Multimedia"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "Presentation Software",
+      "section": "Microsoft PowerPoint",
+      "sub": "Animation"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "Presentation Software",
+      "section": "Microsoft PowerPoint",
+      "sub": "Morph Transition"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "Presentation Software",
+      "section": "Microsoft PowerPoint",
+      "sub": "Presenter View"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "Presentation Software",
+      "section": "Microsoft PowerPoint",
+      "sub": "Recording Presentations"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "Presentation Software",
+      "section": "Microsoft PowerPoint",
+      "sub": "Presentation Delivery"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "Presentation Software",
+      "section": "Microsoft PowerPoint",
+      "sub": "Collaboration Features"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "Presentation Software",
+      "section": "Microsoft PowerPoint",
+      "sub": "Accessibility Features"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "Presentation Software",
+      "section": "Microsoft PowerPoint",
+      "sub": "AI-assisted Presentation Design (Microsoft Copilot - Concept)"
+    }
+  ],
+  "questions": [
+    {
+      "id": "CO2016B-P1-6",
+      "paper": "TECH1",
+      "q": "Information retrieval is faster from",
+      "opts": {
+        "A": "Floppy disk",
+        "B": "Magnetic tape",
+        "C": "Hard disk",
+        "D": "None of these"
+      }
+    },
+    {
+      "id": "CO2016B-P1-7",
+      "paper": "TECH1",
+      "q": "The memory location address are limited to a range of values from",
+      "opts": {
+        "A": "00000 to 9ffff(16)",
+        "B": "00001 to 9ffff(16)",
+        "C": "00010 to 9ffff(16)",
+        "D": "10000 to 9ffff(16)"
+      }
+    },
+    {
+      "id": "CO2016B-P1-8",
+      "paper": "TECH1",
+      "q": "Result of logical operation is",
+      "opts": {
+        "A": "Boolean",
+        "B": "Integer",
+        "C": "Character",
+        "D": "String"
+      }
+    },
+    {
+      "id": "CO2016B-P1-9",
+      "paper": "TECH1",
+      "q": "Register is a group of",
+      "opts": {
+        "A": "OR gates",
+        "B": "OR & AND gate",
+        "C": "Flip-flops",
+        "D": "None of these"
+      }
+    },
+    {
+      "id": "CO2016B-P1-10",
+      "paper": "TECH1",
+      "q": "The address bus flow in",
+      "opts": {
+        "A": "Bidirection",
+        "B": "Unidirection",
+        "C": "Mulidirection",
+        "D": "Circular"
+      }
+    },
+    {
+      "id": "CO2016B-P1-11",
+      "paper": "TECH1",
+      "q": "Status register is also called as",
+      "opts": {
+        "A": "Accumulator",
+        "B": "Stack",
+        "C": "Counter",
+        "D": "Flags"
+      }
+    },
+    {
+      "id": "CO2016B-P1-12",
+      "paper": "TECH1",
+      "q": "The difference between memory and storage is that the memory is __________ and storage is __________.",
+      "opts": {
+        "A": "Temporary, permanent",
+        "B": "Permanent, temporary",
+        "C": "Slow, fast",
+        "D": "None of these"
+      }
+    },
+    {
+      "id": "CO2016B-P1-13",
+      "paper": "TECH1",
+      "q": "__________ is Volatile Memory",
+      "opts": {
+        "A": "ROM",
+        "B": "EPROME",
+        "C": "RAM",
+        "D": "None of these"
+      }
+    },
+    {
+      "id": "CO2016B-P1-14",
+      "paper": "TECH1",
+      "q": "EEPROM stands for",
+      "opts": {
+        "A": "Electrically Erasable Programmable Read Only Memory",
+        "B": "Easily Erasable Programmable Read Only Memory",
+        "C": "Electronic Erasable Programmable Read Only Memory",
+        "D": "None of these"
+      }
+    },
+    {
+      "id": "CO2016B-P1-15",
+      "paper": "TECH1",
+      "q": "What characteristic of RAM memory makes it not suitable for permanent storage?",
+      "opts": {
+        "A": "too slow",
+        "B": "unreliable",
+        "C": "it is volatile",
+        "D": "too bulky"
+      }
+    },
+    {
+      "id": "CO2016B-P1-16",
+      "paper": "TECH1",
+      "q": "The average time required to reach a storage location in memory and obtain its contents is called the",
+      "opts": {
+        "A": "seek time",
+        "B": "turnaround time",
+        "C": "access time",
+        "D": "transfer time"
+      }
+    },
+    {
+      "id": "CO2016B-P1-17",
+      "paper": "TECH1",
+      "q": "The idea of cache memory is based",
+      "opts": {
+        "A": "on the property of locality of reference",
+        "B": "on the heuristic 90-10 rule",
+        "C": "on the fact that references generally tend to cluster",
+        "D": "all of the above"
+      }
+    },
+    {
+      "id": "CO2016B-P1-18",
+      "paper": "TECH1",
+      "q": "Cache memory acts between",
+      "opts": {
+        "A": "CPU and RAM",
+        "B": "RAM and ROM",
+        "C": "CPU and Hard Disk",
+        "D": "None of these"
+      }
+    },
+    {
+      "id": "CO2016B-P1-19",
+      "paper": "TECH1",
+      "q": "Generally Dynamic RAM is used as main memory in a computer system as it",
+      "opts": {
+        "A": "consumes less power",
+        "B": "has higher speed",
+        "C": "has lower cell density",
+        "D": "needs refreshing circuitary"
+      }
+    },
+    {
+      "id": "CO2016B-P1-20",
+      "paper": "TECH1",
+      "q": "If the main memory is of 8K bytes and the cache memory is of 2K words. It uses associative mapping. Then each word of cache memory shall be",
+      "opts": {
+        "A": "11 bits",
+        "B": "21 bits",
+        "C": "16 bits",
+        "D": "20 bits"
+      }
+    },
+    {
+      "id": "CO2016B-P1-21",
+      "paper": "TECH1",
+      "q": "The communication between the components in a microcomputer takes place via the address and",
+      "opts": {
+        "A": "I/O bus",
+        "B": "Data bus",
+        "C": "Address bus",
+        "D": "Control lines"
+      }
+    },
+    {
+      "id": "CO2016B-P1-22",
+      "paper": "TECH1",
+      "q": "The maximum addressing capacity of a micro processor which uses 16 bit database and 32 bit address base is",
+      "opts": {
+        "A": "64 K",
+        "B": "4 GB",
+        "C": "both (a) & (b)",
+        "D": "None of these"
+      }
+    },
+    {
+      "id": "CO2016B-P1-23",
+      "paper": "TECH1",
+      "q": "The major goal of requirement determination phase of information system development is to",
+      "opts": {
+        "A": "determine whether information is needed by an organisation",
+        "B": "determine what information is needed by an organisation",
+        "C": "determine how information needed by an organisation can be provided",
+        "D": "determine when information is to be given"
+      }
+    },
+    {
+      "id": "CO2016B-P1-24",
+      "paper": "TECH1",
+      "q": "The main objective of system modification is to",
+      "opts": {
+        "A": "use the latest software tools",
+        "B": "meet the user's new/changed needs",
+        "C": "use the latest hardware",
+        "D": "have the most modern system"
+      }
+    },
+    {
+      "id": "CO2016B-P1-25",
+      "paper": "TECH1",
+      "q": "__________ is computer software designed to operate the computer hardware and to provide platform for running application software",
+      "opts": {
+        "A": "Application software",
+        "B": "System software",
+        "C": "Software",
+        "D": "Utility software"
+      }
+    },
+    {
+      "id": "CO2016B-P1-26",
+      "paper": "TECH1",
+      "q": "What is Data and Information?",
+      "opts": {
+        "A": "Raw facts and figures that has no meaning processed via a set of instructions and meaning attached to data letters, pictures, symbols or sounds",
+        "B": "Raw information and meaningful data",
+        "C": "Symbols, pictures or sounds",
+        "D": "All of these"
+      }
+    },
+    {
+      "id": "CO2016B-P1-27",
+      "paper": "TECH1",
+      "q": "The tool used to convert a 'C' program to machine language is called as",
+      "opts": {
+        "A": "Linker",
+        "B": "Language translator",
+        "C": "Compiler",
+        "D": "Preprocessor"
+      }
+    },
+    {
+      "id": "CO2016B-P1-28",
+      "paper": "TECH1",
+      "q": "Find the output of the following program:\n#include<stdio.h>\n#include<conio.h>\nvoid main()\n{\nint i=4;\nclrscr();\nprintf(\"%d\",i);\nprintf(\"\\n%d\",i--);\nprintf(\"\\n%d\",--i);\ngetch();\n}",
+      "opts": {
+        "A": "4 4 2",
+        "B": "4 4 3",
+        "C": "4 4 4",
+        "D": "4 3 2"
+      }
+    },
+    {
+      "id": "CO2016B-P1-29",
+      "paper": "TECH1",
+      "q": "In Java, which component is machine dependent?",
+      "opts": {
+        "A": "Java Source File",
+        "B": "Java Class / (Byte code) File",
+        "C": "Java Virtual Machine (JVM)",
+        "D": "All of these"
+      }
+    },
+    {
+      "id": "CO2016B-P1-30",
+      "paper": "TECH1",
+      "q": "Which of the following is NOT a key component of object oriented programming?",
+      "opts": {
+        "A": "Inheritance",
+        "B": "Encapsulation",
+        "C": "Polymorphism",
+        "D": "Parallelism"
+      }
+    },
+    {
+      "id": "CO2016B-P1-31",
+      "paper": "TECH1",
+      "q": "What type of computers are client computers (most of the time) in a client-server system?",
+      "opts": {
+        "A": "Mainframe",
+        "B": "Mini-computer",
+        "C": "Microcomputer",
+        "D": "PDA"
+      }
+    },
+    {
+      "id": "CO2016B-P1-32",
+      "paper": "TECH1",
+      "q": "The term 'Intellectual Property Rights' covers",
+      "opts": {
+        "A": "Copyrights",
+        "B": "Know-how",
+        "C": "Trade dress",
+        "D": "All of these"
+      }
+    },
+    {
+      "id": "CO2016B-P1-33",
+      "paper": "TECH1",
+      "q": "The primary purpose of an operating system is to",
+      "opts": {
+        "A": "make the most efficient use of the computer hardware",
+        "B": "allow people to use the computer",
+        "C": "keep systems programmers employed",
+        "D": "make computers easier to use"
+      }
+    },
+    {
+      "id": "CO2016B-P1-34",
+      "paper": "TECH1",
+      "q": "Which command is used to see the sub-directory structure of drive?",
+      "opts": {
+        "A": "Tree",
+        "B": "List",
+        "C": "Subdir",
+        "D": "Subtree"
+      }
+    },
+    {
+      "id": "CO2016B-P1-35",
+      "paper": "TECH1",
+      "q": "Which DOS command is used to see the contents of a file?",
+      "opts": {
+        "A": "Type",
+        "B": "Copy",
+        "C": "Ed",
+        "D": "None of these"
+      }
+    },
+    {
+      "id": "CO2016B-P1-36",
+      "paper": "TECH1",
+      "q": "Which DOS command displays only file and directory names without size, date and time information?",
+      "opts": {
+        "A": "Dir/w",
+        "B": "Dir a:",
+        "C": "Dir /b",
+        "D": "Dir /s"
+      }
+    },
+    {
+      "id": "CO2016B-P1-37",
+      "paper": "TECH1",
+      "q": "Which DOS command should be used to display all files within the specified subordinate directory of the subdirectory?",
+      "opts": {
+        "A": "Dir \\pathname",
+        "B": "Dir \\pathname\\pathname",
+        "C": "Dir /ch",
+        "D": "Dir \\pathname\\filename"
+      }
+    },
+    {
+      "id": "CO2016B-P1-38",
+      "paper": "TECH1",
+      "q": "Which DOS command creates a directory or subdirectory?",
+      "opts": {
+        "A": "Dir",
+        "B": "Mkdir",
+        "C": "Md",
+        "D": "Both (b) and (c)"
+      }
+    },
+    {
+      "id": "CO2016B-P1-39",
+      "paper": "TECH1",
+      "q": "Which command is used to delete the directory that is empty?",
+      "opts": {
+        "A": "Del *.*",
+        "B": "RD",
+        "C": "Erase",
+        "D": "MD"
+      }
+    },
+    {
+      "id": "CO2016B-P1-40",
+      "paper": "TECH1",
+      "q": "A system program that sets up an executable program in main memory ready for execution is",
+      "opts": {
+        "A": "Assembler",
+        "B": "Linker",
+        "C": "Loader",
+        "D": "Compiler"
+      }
+    },
+    {
+      "id": "CO2016B-P1-41",
+      "paper": "TECH1",
+      "q": "Which of the following are loaded into main memory when the computer is booted?",
+      "opts": {
+        "A": "internal command instructions",
+        "B": "external command instructions",
+        "C": "utility programs",
+        "D": "word processing instructions"
+      }
+    },
+    {
+      "id": "CO2016B-P1-42",
+      "paper": "TECH1",
+      "q": "Fragmentation of the file system",
+      "opts": {
+        "A": "can always be prevented",
+        "B": "can be temporarily removed by compaction",
+        "C": "is a characteristic of all file systems",
+        "D": "None of these"
+      }
+    },
+    {
+      "id": "CO2016B-P1-43",
+      "paper": "TECH1",
+      "q": "When you start up the computer the boot up storage at which the BIOS versions manufacturer and data are displayed on the monitor is called",
+      "opts": {
+        "A": "Bootstrap",
+        "B": "Power on self test (POST)",
+        "C": "System configuration",
+        "D": "Kernel loading"
+      }
+    },
+    {
+      "id": "CO2016B-P1-44",
+      "paper": "TECH1",
+      "q": "Which of the following is not a multitasking operating system?",
+      "opts": {
+        "A": "DOS",
+        "B": "Windows",
+        "C": "Unix",
+        "D": "Linux"
+      }
+    },
+    {
+      "id": "CO2016B-P1-45",
+      "paper": "TECH1",
+      "q": "What type of software would you need to create an invitation to your birthday party?",
+      "opts": {
+        "A": "Spreadsheet",
+        "B": "Database",
+        "C": "Word processing",
+        "D": "Desktop publishing"
+      }
+    }
+  ]
+}

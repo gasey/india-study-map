@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="auto">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MUDAL System Manager — Study Trainer</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-mark">SM</span>
+    <span class="brand-text">
+      <strong>MUDAL System Manager</strong>
+      <em id="countdown">—</em>
+    </span>
+  </div>
+  <nav class="tabs" id="tabs">
+    <button data-view="dash"    class="on">Dashboard</button>
+    <button data-view="study">Study</button>
+    <button data-view="daily">Daily Test</button>
+    <button data-view="practice">Practice</button>
+    <button data-view="papers">Past Papers</button>
+    <button data-view="mock">Mock Test</button>
+    <button data-view="review">Review</button>
+    <button data-view="progress">Progress</button>
+  </nav>
+  <div class="topbar-right">
+    <button id="themeBtn" class="icon-btn" title="Toggle theme">◐</button>
+    <button id="dataBtn"  class="icon-btn" title="Backup / restore progress">⛁</button>
+  </div>
+</header>
+
+<main id="main"></main>
+
+<div id="modal" class="modal" hidden>
+  <div class="modal-card">
+    <button class="modal-x" id="modalX">×</button>
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+<div id="toast" class="toast" hidden></div>
+
+<script src="data/syllabus.js"></script>
+<script src="data/concepts.js"></script>
+<script src="data/questions.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -16517,7 +16517,8 @@ window.QUESTIONS = [
   "conf": "medium",
   "exp": "Define Scope produces the project scope statement plus updates to project documents such as the requirements traceability matrix; the WBS is not created until the later Create WBS process, and the project charter predates Define Scope.",
   "prov": "Blind solve gives (B); the bank's inferred answer was (D). They disagree, so one derivation is wrong.",
-  "note": "conflicts with bank answer (D)"
+  "note": "conflicts with bank answer (D)",
+  "alt": "D"
  },
  {
   "id": "TECH3_2021-26",
@@ -16561,7 +16562,8 @@ window.QUESTIONS = [
   "conf": "medium",
   "exp": "Refusing to informally absorb a suggested addition and instead insisting it be routed through the proper process is the discipline of change control, which channels all scope changes through a formal review rather than ad hoc acceptance.",
   "prov": "Blind solve gives (D); the bank's inferred answer was (B). They disagree, so one derivation is wrong.",
-  "note": "conflicts with bank answer (B)"
+  "note": "conflicts with bank answer (B)",
+  "alt": "B"
  },
  {
   "id": "TECH3_2021-28",
@@ -16759,7 +16761,8 @@ window.QUESTIONS = [
   "conf": "medium",
   "exp": "Establishing/removing logical dependencies between activities and then updating activity attributes to reflect the change are outputs of the Sequence Activities process.",
   "prov": "Blind solve gives (B); the bank's inferred answer was (D). They disagree, so one derivation is wrong.",
-  "note": "conflicts with bank answer (D)"
+  "note": "conflicts with bank answer (D)",
+  "alt": "D"
  },
  {
   "id": "TECH3_2021-36",
@@ -16781,7 +16784,8 @@ window.QUESTIONS = [
   "conf": "medium",
   "exp": "Starting 10 days before the predecessor finishes is a Finish-to-Start relationship with a 10-day lead (a negative lag applied to an FS dependency), not a different relationship type like Start-to-Start.",
   "prov": "Blind solve gives (A); the bank's inferred answer was (C). They disagree, so one derivation is wrong.",
-  "note": "conflicts with bank answer (C)"
+  "note": "conflicts with bank answer (C)",
+  "alt": "C"
  },
  {
   "id": "TECH3_2021-37",
@@ -16803,7 +16807,8 @@ window.QUESTIONS = [
   "conf": "medium",
   "exp": "PMBOK's activity-attributes list explicitly names person responsible, geographic area/location, and leads and lags as attributes; a specific 'time when to perform' is not on that list since actual dates only get fixed later as an output of Develop Schedule.",
   "prov": "Blind solve gives (C); the bank's inferred answer was (D). They disagree, so one derivation is wrong.",
-  "note": "conflicts with bank answer (D)"
+  "note": "conflicts with bank answer (D)",
+  "alt": "D"
  },
  {
   "id": "TECH3_2021-38",
@@ -16935,7 +16940,8 @@ window.QUESTIONS = [
   "conf": "medium",
   "exp": "The cost baseline is an output of Determine Budget, not an input to it, and the requirements traceability matrix is a scope-management artifact not used here; scope baseline, agreements, basis of estimates/cost estimates, risk register, and resource management plan are all genuine Determine Budget inputs per PMBOK's ITTO list.",
   "prov": "Blind solve gives (A); the bank's inferred answer was (B). They disagree, so one derivation is wrong.",
-  "note": "conflicts with bank answer (B)"
+  "note": "conflicts with bank answer (B)",
+  "alt": "B"
  },
  {
   "id": "TECH3_2021-43",
@@ -16957,7 +16963,8 @@ window.QUESTIONS = [
   "conf": "medium",
   "exp": "Cost Plus Fixed Fee is a cost-reimbursable contract that guarantees the contractor's costs are covered plus a fixed profit regardless of overruns, putting the least risk on the contractor -- unlike fixed-price contracts, which push cost risk onto the seller.",
   "prov": "Blind solve gives (A); the bank's inferred answer was (D). They disagree, so one derivation is wrong.",
-  "note": "conflicts with bank answer (D)"
+  "note": "conflicts with bank answer (D)",
+  "alt": "D"
  },
  {
   "id": "TECH3_2021-44",
@@ -17089,7 +17096,8 @@ window.QUESTIONS = [
   "conf": "medium",
   "exp": "A monitoring and evaluation framework is generally built around objectives, the assumptions underlying them, measurable indicators, and a summary of planned activities -- the most complete of the four options; the shorter options (just objectives/indicators, or goal/objectives) omit necessary elements.",
   "prov": "Blind solve gives (A); the bank's inferred answer was (D). They disagree, so one derivation is wrong.",
-  "note": "conflicts with bank answer (D)"
+  "note": "conflicts with bank answer (D)",
+  "alt": "D"
  },
  {
   "id": "TECH3_2021-5",
@@ -17111,7 +17119,8 @@ window.QUESTIONS = [
   "conf": "medium",
   "exp": "PMBOK defines a 'process' as a set of interrelated actions performed in a sequence to achieve a specified result within the project, which matches 'networked activities aimed at project goals' better than 'project' itself does.",
   "prov": "Blind solve gives (B); the bank's inferred answer was (A). They disagree, so one derivation is wrong.",
-  "note": "conflicts with bank answer (A)"
+  "note": "conflicts with bank answer (A)",
+  "alt": "A"
  },
  {
   "id": "TECH3_2021-50",
@@ -17221,7 +17230,8 @@ window.QUESTIONS = [
   "conf": "medium",
   "exp": "'Recruitment and retention of qualified employees' is a fixed, widely used HR collocation describing a core employer goal; the blank needs a single word pairing naturally with 'retention', which fits recruitment far better than training or development.",
   "prov": "Blind solve gives (C); the bank's inferred answer was (D). They disagree, so one derivation is wrong.",
-  "note": "conflicts with bank answer (D)"
+  "note": "conflicts with bank answer (D)",
+  "alt": "D"
  },
  {
   "id": "TECH3_2021-55",
@@ -17243,7 +17253,8 @@ window.QUESTIONS = [
   "conf": "low",
   "exp": "Job evaluation establishes a systematic, objective basis for comparing job worth, which is the standard preventive tool used to reduce subjective disagreements among rating-committee members; this draws on general HR management terminology rather than PMBOK, so confidence is limited.",
   "prov": "Blind solve gives (C); the bank's inferred answer was (D). They disagree, so one derivation is wrong.",
-  "note": "conflicts with bank answer (D)"
+  "note": "conflicts with bank answer (D)",
+  "alt": "D"
  },
  {
   "id": "TECH3_2021-56",
@@ -17287,7 +17298,8 @@ window.QUESTIONS = [
   "conf": "medium",
   "exp": "PMBOK's ITTO explicitly makes Work Performance Reports an output of the Monitor and Control Project Work process, which belongs to Project Integration Management; work performance information (not reports) is what gets aggregated from the individual controlling processes.",
   "prov": "Blind solve gives (A); the bank's inferred answer was (B). They disagree, so one derivation is wrong.",
-  "note": "conflicts with bank answer (B)"
+  "note": "conflicts with bank answer (B)",
+  "alt": "B"
  },
  {
   "id": "TECH3_2021-58",
@@ -17485,7 +17497,8 @@ window.QUESTIONS = [
   "conf": "medium",
   "exp": "Total project risk exposure is found by summing, for each individual risk, its probability multiplied by the amount at stake (impact); option (a)'s awkwardly worded 'sum of each risk times the amount at stake' describes this per-risk P x I sum, unlike (b) which sums probabilities first and multiplies by one shared consequence.",
   "prov": "Blind solve gives (A); the bank's inferred answer was (B). They disagree, so one derivation is wrong.",
-  "note": "conflicts with bank answer (B)"
+  "note": "conflicts with bank answer (B)",
+  "alt": "B"
  },
  {
   "id": "TECH3_2021-66",
@@ -17617,7 +17630,8 @@ window.QUESTIONS = [
   "conf": "medium",
   "exp": "Time and Material (T&M) contracts are described as hybrid contract types because they combine elements of both cost-reimbursable contracts (open-ended total value) and fixed-price contracts (fixed unit rates).",
   "prov": "Blind solve gives (A); the bank's inferred answer was (D). They disagree, so one derivation is wrong.",
-  "note": "conflicts with bank answer (D)"
+  "note": "conflicts with bank answer (D)",
+  "alt": "D"
  },
  {
   "id": "TECH3_2021-71",
@@ -17683,7 +17697,8 @@ window.QUESTIONS = [
   "conf": "medium",
   "exp": "Manage Stakeholder Engagement draws on OPAs such as issue management procedures, change control procedures, and historical information from past projects; generic project plan templates are not part of that specific OPA set, making them least important here.",
   "prov": "Blind solve gives (B); the bank's inferred answer was (D). They disagree, so one derivation is wrong.",
-  "note": "conflicts with bank answer (D)"
+  "note": "conflicts with bank answer (D)",
+  "alt": "D"
  },
  {
   "id": "TECH3_2021-74",
@@ -17705,7 +17720,8 @@ window.QUESTIONS = [
   "conf": "medium",
   "exp": "Procurement documents are a listed input to Identify Stakeholders because they reveal external parties such as contractors; the stakeholder register is actually an output of this process, not an input, so it cannot itself be a required input.",
   "prov": "Blind solve gives (B); the bank's inferred answer was (D). They disagree, so one derivation is wrong.",
-  "note": "conflicts with bank answer (D)"
+  "note": "conflicts with bank answer (D)",
+  "alt": "D"
  },
  {
   "id": "TECH3_2021-75",
@@ -17771,7 +17787,8 @@ window.QUESTIONS = [
   "conf": "medium",
   "exp": "Converting to decimals: 7/2=3.5, 9/5=1.8, 8/5=1.6, 5/4=1.25, 4/5=0.8. In descending order that is 7/2, 9/5, 8/5, 5/4, 4/5, so the fourth term is 5/4.",
   "prov": "Blind solve gives (D); the bank's inferred answer was (A). They disagree, so one derivation is wrong.",
-  "note": "conflicts with bank answer (A)"
+  "note": "conflicts with bank answer (A)",
+  "alt": "A"
  },
  {
   "id": "TECH3_2021-78",
@@ -17837,7 +17854,8 @@ window.QUESTIONS = [
   "conf": "medium",
   "exp": "A generic product/project development flow runs Marketing (identify need) -> Analysis and evaluation -> Design -> Inspection, testing and delivery, i.e. ii, iii, i, iv.",
   "prov": "Blind solve gives (C); the bank's inferred answer was (B). They disagree, so one derivation is wrong.",
-  "note": "conflicts with bank answer (B)"
+  "note": "conflicts with bank answer (B)",
+  "alt": "B"
  },
  {
   "id": "TECH3_2021-80",
@@ -17903,7 +17921,8 @@ window.QUESTIONS = [
   "conf": "medium",
   "exp": "The pattern alternates divide-by-2 and add-8: 664/2=332, 332+8=340, 340/2=170, 170+8=178, 178/2=89 -- matching the given 89, so the blank is 178.",
   "prov": "Blind solve gives (D); the bank's inferred answer was (C). They disagree, so one derivation is wrong.",
-  "note": "conflicts with bank answer (C)"
+  "note": "conflicts with bank answer (C)",
+  "alt": "C"
  },
  {
   "id": "TECH3_2021-83",
@@ -17969,7 +17988,8 @@ window.QUESTIONS = [
   "conf": "medium",
   "exp": "LIGHT relates to BLIND as the faculty a person is deprived of (a blind person cannot perceive light); analogously SPEECH relates to DUMB, since a dumb person cannot produce speech.",
   "prov": "Blind solve gives (A); the bank's inferred answer was (B). They disagree, so one derivation is wrong.",
-  "note": "conflicts with bank answer (B)"
+  "note": "conflicts with bank answer (B)",
+  "alt": "B"
  },
  {
   "id": "TECH3_2021-86",
@@ -17991,7 +18011,8 @@ window.QUESTIONS = [
   "conf": "medium",
   "exp": "Both codes drop the word's 4th letter, then write the remaining letters as [last 3][first 3]: KINETIC (K-I-N-E-T-I-C) drops E to give TIC+KIN, printed with one stray inserted letter as TICDKIN. Applying the same rule, MACHINE (M-A-C-H-I-N-E) drops H to give INE+MAC, which with the same stray-letter insertion pattern matches option (b) INEGMAC.",
   "prov": "Blind solve gives (B); the bank's inferred answer was (D). They disagree, so one derivation is wrong.",
-  "note": "conflicts with bank answer (D)"
+  "note": "conflicts with bank answer (D)",
+  "alt": "D"
  },
  {
   "id": "TECH3_2021-87",
@@ -18122,7 +18143,8 @@ window.QUESTIONS = [
   "conf": "medium",
   "exp": "Statement (1) alone gives 2 < x < 6.5, many possible values. Statement (2) alone gives x = 5 or x = -5, two possible values. Together, only x = 5 satisfies both, so both statements are needed and are sufficient jointly.",
   "prov": "Blind solve gives (C); the bank's inferred answer was (B). They disagree, so one derivation is wrong.",
-  "note": "conflicts with bank answer (B)"
+  "note": "conflicts with bank answer (B)",
+  "alt": "B"
  },
  {
   "id": "TECH3_2021-97",
@@ -18166,7 +18188,8 @@ window.QUESTIONS = [
   "conf": "medium",
   "exp": "59 days is 8 weeks and 3 days (59 = 56 + 3), so the day of week advances 3 places from Thursday: Friday, Saturday, Sunday -- the answer is Sunday.",
   "prov": "Blind solve gives (A); the bank's inferred answer was (B). They disagree, so one derivation is wrong.",
-  "note": "conflicts with bank answer (B)"
+  "note": "conflicts with bank answer (B)",
+  "alt": "B"
  },
  {
   "id": "TECH3_2021-99",

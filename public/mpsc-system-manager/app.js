@@ -147,6 +147,24 @@ function passageBlock(q) {
   </details>`;
 }
 
+/* Disputed answer: the blind solve and the question bank disagree, so BOTH
+   candidates are shown rather than the conflict being buried in a prose
+   provenance line. No official key exists for these papers — one of the two
+   derivations is simply wrong, and the reader is better placed than either to
+   judge, so the app presents the evidence instead of pretending to settle it. */
+function disputeBlock(q) {
+  if (!q.alt || !q.opts || !q.opts[q.alt]) return '';
+  return `<div class="dispute">
+    <h4>Disputed — two derivations disagree</h4>
+    <div class="dispute-row"><span class="pill ok">this app</span>
+      <span class="lab">${esc(q.ans)}</span><span>${esc(q.opts[q.ans] || '')}</span></div>
+    <div class="dispute-row"><span class="pill wn">question bank</span>
+      <span class="lab">${esc(q.alt)}</span><span>${esc(q.opts[q.alt])}</span></div>
+    <p class="dim">No official answer key exists for this paper. Read the explanation
+      and decide for yourself which is right.</p>
+  </div>`;
+}
+
 /* Provenance + confidence line under an answer explanation.
    No official answer key exists for the 2016 Computer Operator papers, so most
    answers in this app are derived. `conf` is set honestly at derivation time and
@@ -811,7 +829,7 @@ function browsePaper(qs) {
         <div class="opts">${['A', 'B', 'C', 'D'].filter(k => q.opts[k] != null).map(k => `
           <div class="opt ${q.ans === k ? 'right' : ''}" style="cursor:default">
             <span class="lab">${k}</span><span>${esc(q.opts[k])}</span></div>`).join('')}</div>
-        ${q.exp || q.prov ? `<div class="expl">${q.exp ? esc(q.exp) : ''}${provLine(q)}</div>` : ''}
+        ${q.exp || q.prov ? `<div class="expl">${q.exp ? esc(q.exp) : ''}${disputeBlock(q)}${provLine(q)}</div>` : ''}
       </div>`).join('')}
     <button class="btn" id="back2">Back to papers</button>`;
   $('#back').onclick = $('#back2').onclick = () => go('papers');
@@ -1063,7 +1081,7 @@ function startQuiz({ title, questions, mode, seconds, onFinish, back }) {
           ${showAns ? `<div class="expl">
             <strong>${picks[i] === q.ans ? 'Correct' : `Incorrect — the answer is ${q.ans}`}.</strong>
             ${q.exp ? ' ' + esc(q.exp) : ''}
-            ${provLine(q)}
+            ${disputeBlock(q)}${provLine(q)}
           </div>` : ''}
           <div class="row mt">
             <button class="btn" id="prev" ${i === 0 ? 'disabled' : ''}>← Previous</button>
@@ -1193,7 +1211,7 @@ function startQuiz({ title, questions, mode, seconds, onFinish, back }) {
           <div class="opts">${['A', 'B', 'C', 'D'].filter(x => q.opts[x] != null).map(x => `
             <div class="opt ${x === q.ans ? 'right' : x === picks[k] ? 'wrong' : ''}" style="cursor:default">
               <span class="lab">${x}</span><span>${esc(q.opts[x])}</span></div>`).join('')}</div>
-          ${q.exp || q.prov ? `<div class="expl">${q.exp ? esc(q.exp) : ''}${provLine(q)}</div>` : ''}
+          ${q.exp || q.prov ? `<div class="expl">${q.exp ? esc(q.exp) : ''}${disputeBlock(q)}${provLine(q)}</div>` : ''}
         </div>`).join('');
       $('#reviewAll').disabled = true;
     };

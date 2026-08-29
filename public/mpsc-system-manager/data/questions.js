@@ -464,7 +464,8 @@ window.QUESTIONS = [
     "exp": "The evolutionary (incremental) model deliberately builds a working skeleton of the system first and then grows its capability through successive versions delivered to the user. Prototyping is the near-miss: its early build is a throwaway used to clarify requirements, not the skeleton that becomes the product.",
     "conf": "medium",
     "prov": "Blind solve gives (C); the bank's inferred answer was (D). They disagree, so one derivation is wrong — treat with caution. No official MPSC key exists.",
-    "note": "conflicts with bank answer (D)"
+    "note": "conflicts with bank answer (D)",
+    "alt": "D"
   },
   {
     "id": "CO2016A-P1-22",
@@ -684,7 +685,8 @@ window.QUESTIONS = [
     "exp": "The Information Technology Act, 2000 as enacted was arranged in 13 chapters containing 94 sections, with 4 schedules. The chapter count is the standard examinable figure alongside the 94 sections.",
     "conf": "medium",
     "prov": "Blind solve gives (D); the bank's inferred answer was (B). They disagree, so one derivation is wrong — treat with caution. No official MPSC key exists.",
-    "note": "conflicts with bank answer (B)"
+    "note": "conflicts with bank answer (B)",
+    "alt": "B"
   },
   {
     "id": "CO2016A-P1-32",
@@ -706,7 +708,8 @@ window.QUESTIONS = [
     "exp": "The amendment cleared both Houses in December 2008 — Lok Sabha on 22 December and Rajya Sabha on 23 December 2008 — becoming the IT (Amendment) Act, 2008. It received presidential assent in February 2009 and came into force in October 2009, which is why other dates get quoted loosely.",
     "conf": "medium",
     "prov": "Blind solve gives (C); the bank's inferred answer was (A). They disagree, so one derivation is wrong — treat with caution. No official MPSC key exists.",
-    "note": "conflicts with bank answer (A)"
+    "note": "conflicts with bank answer (A)",
+    "alt": "A"
   },
   {
     "id": "CO2016A-P1-33",
@@ -816,7 +819,8 @@ window.QUESTIONS = [
     "exp": "Windows does not ship a virus scanner among its system tools — antivirus is separate third-party software, whereas Backup, Disk Defragmenter and Disk Cleanup are all built in. The item is arguable if read very strictly, because in Windows 7 Backup was moved out of the Accessories > System Tools folder into Control Panel (Backup and Restore); it is still a Windows tool, so virus scanning remains the odd one out.",
     "conf": "medium",
     "prov": "Blind solve gives (A); the bank's inferred answer was (B). They disagree, so one derivation is wrong — treat with caution. No official MPSC key exists.",
-    "note": "conflicts with bank answer (B)"
+    "note": "conflicts with bank answer (B)",
+    "alt": "B"
   },
   {
     "id": "CO2016A-P1-38",
@@ -1168,7 +1172,8 @@ window.QUESTIONS = [
     "exp": "A Word table is limited to 63 columns, while rows are effectively unlimited. The number comes from Word's internal table structure, and 63 is the figure regularly asked in these papers.",
     "conf": "medium",
     "prov": "Blind solve gives (C); the bank's inferred answer was (D). They disagree, so one derivation is wrong — treat with caution. No official MPSC key exists.",
-    "note": "conflicts with bank answer (D)"
+    "note": "conflicts with bank answer (D)",
+    "alt": "D"
   },
   {
     "id": "CO2016A-P1-54",
@@ -2070,7 +2075,8 @@ window.QUESTIONS = [
     "exp": "Of the four properties listed, lower power consumption is the only genuine advantage DRAM has over SRAM; its one-transistor-one-capacitor cell also makes it denser and cheaper per bit. Needing refresh circuitry is a drawback, DRAM is slower than SRAM, and its cell density is higher, not lower.",
     "conf": "medium",
     "prov": "Blind solve gives (A); the bank's inferred answer was (B). They disagree, so one derivation is wrong — treat with caution. No official MPSC key exists.",
-    "note": "conflicts with bank answer (B)"
+    "note": "conflicts with bank answer (B)",
+    "alt": "B"
   },
   {
     "id": "CO2016B-P1-20",
@@ -2092,7 +2098,8 @@ window.QUESTIONS = [
     "exp": "8K bytes of main memory needs 13 address bits (2^13 = 8192), and fully associative mapping stores the entire address as the tag alongside the data, so each cache word is 13 tag bits + 8 data bits = 21 bits. The trap is forgetting the tag and counting only the data byte.",
     "conf": "medium",
     "prov": "Blind solve gives (B); the bank's inferred answer was (D). They disagree, so one derivation is wrong — treat with caution. No official MPSC key exists.",
-    "note": "conflicts with bank answer (D)"
+    "note": "conflicts with bank answer (D)",
+    "alt": "D"
   },
   {
     "id": "CO2016B-P1-21",
@@ -2906,7 +2913,8 @@ window.QUESTIONS = [
     "exp": "Selecting the two seed cells and dragging the fill handle lets Excel infer the step and extend the series to 20. Edit > Fill > Down merely copies a value rather than incrementing it, and Paste Special cannot generate a series at all - so All of the above fails. The stem lost the figure showing the two starting cells, which makes it read oddly.",
     "conf": "medium",
     "prov": "Blind solve gives (A); the bank's inferred answer was (D). They disagree, so one derivation is wrong — treat with caution. No official MPSC key exists.",
-    "note": "conflicts with bank answer (D)"
+    "note": "conflicts with bank answer (D)",
+    "alt": "D"
   },
   {
     "id": "CO2016B-P1-58",
@@ -3082,7 +3090,8 @@ window.QUESTIONS = [
     "exp": "The Series dialog offers exactly four types: Linear, Growth, Date and AutoFill. Time is not one of them - it is only a Date unit distinction, which is what makes this option the plausible-looking wrong one.",
     "conf": "medium",
     "prov": "Blind solve gives (D); the bank's inferred answer was (C). They disagree, so one derivation is wrong — treat with caution. No official MPSC key exists.",
-    "note": "conflicts with bank answer (C)"
+    "note": "conflicts with bank answer (C)",
+    "alt": "C"
   },
   {
     "id": "CO2016B-P1-66",
@@ -4252,7 +4261,8 @@ window.QUESTIONS = [
     "exp": "The underlined word 'effect' is a NOUN — 'a bad effect'. None of the four printed options (Preposition, Verb, Adverb, Adjective) is correct, so this question is defective as printed. Note the classic trap it gestures at: 'effect' is the noun, 'affect' the verb.",
     "conf": "low",
     "prov": "Underline marker recovered from a 300dpi render of the source PDF — the question bank lost it, leaving the question unanswerable. Answer derived from the recovered text; no official MPSC key exists.",
-    "note": "defective as printed: the underlined word is a noun, which is not among the options"
+    "note": "defective as printed: the underlined word is a noun, which is not among the options",
+    "alt": "B"
   },
   {
     "id": "CO2016A-GE-42",
@@ -4490,7 +4500,8 @@ window.QUESTIONS = [
     "exp": "At the top level two independent clauses are coordinated by 'but', which makes the sentence compound; the relative clause 'who demanded more' is merely embedded in the second of them. Strictly this is a compound-complex sentence, and since that label is not offered, 'compound' is the closest available answer.",
     "conf": "medium",
     "prov": "Blind solve gives (C); the bank's inferred answer was (B). They disagree, so one derivation is wrong — treat with caution. No official MPSC key exists.",
-    "note": "conflicts with bank answer (B)"
+    "note": "conflicts with bank answer (B)",
+    "alt": "B"
   },
   {
     "id": "CO2016A-GE-53",
@@ -4709,7 +4720,8 @@ window.QUESTIONS = [
     "exp": "Although the form is a plain statement, 'unable' carries the negation, so the notion conveyed is negative - the task was not completed. This pairs with question 59, where a double negative gives an affirmative notion despite negative wording; here affirmative wording gives a negative notion.",
     "conf": "medium",
     "prov": "Blind solve gives (A); the bank's inferred answer was (C). They disagree, so one derivation is wrong — treat with caution. No official MPSC key exists.",
-    "note": "conflicts with bank answer (C)"
+    "note": "conflicts with bank answer (C)",
+    "alt": "C"
   },
   {
     "id": "CO2016A-GE-63",
@@ -4753,7 +4765,8 @@ window.QUESTIONS = [
     "exp": "No information is being sought - 'How dare you...' is a rebuke voicing indignation, so the notion expressed is exclamatory even though the form is a question. This run of items consistently rewards notion over form (compare 61, where an exclamation mark still yields 'imperative'), though some textbooks would class this sentence as interrogative on its punctuation alone.",
     "conf": "medium",
     "prov": "Blind solve gives (A); the bank's inferred answer was (D). They disagree, so one derivation is wrong — treat with caution. No official MPSC key exists.",
-    "note": "conflicts with bank answer (D)"
+    "note": "conflicts with bank answer (D)",
+    "alt": "D"
   },
   {
     "id": "CO2016A-GE-65",
@@ -6251,7 +6264,8 @@ window.QUESTIONS = [
     "exp": "As printed these are two independent statements, each with a single subject-verb pair and no subordinate or coordinate clause attached, so each is a simple sentence — this is the unjoined raw material for the synthesis exercise. It cannot be compound, since no coordinating conjunction links them.",
     "conf": "medium",
     "prov": "Blind solve gives (A); the bank's inferred answer was (C). They disagree, so one derivation is wrong — treat with caution. No official MPSC key exists.",
-    "note": "conflicts with bank answer (C)"
+    "note": "conflicts with bank answer (C)",
+    "alt": "C"
   },
   {
     "id": "CO2016B-GE-51",
@@ -6335,7 +6349,8 @@ window.QUESTIONS = [
     "exp": "Both printed statements contain a single subject and verb with no subordinate clause, so each is a simple sentence — the starting point for the combinations in items 55 and 56.",
     "conf": "medium",
     "prov": "Blind solve gives (A); the bank's inferred answer was (C). They disagree, so one derivation is wrong — treat with caution. No official MPSC key exists.",
-    "note": "conflicts with bank answer (C)"
+    "note": "conflicts with bank answer (C)",
+    "alt": "C"
   },
   {
     "id": "CO2016B-GE-55",
@@ -6399,7 +6414,8 @@ window.QUESTIONS = [
     "exp": "'Thanga', the first-named, becomes 'the former' as plain subject, while 'Mawia's father' needs the possessive 'the latter's father'. Only option (a) supplies the non-possessive former with the possessive latter's.",
     "conf": "medium",
     "prov": "Blind solve gives (A); the bank's inferred answer was (B). They disagree, so one derivation is wrong — treat with caution. No official MPSC key exists.",
-    "note": "conflicts with bank answer (B)"
+    "note": "conflicts with bank answer (B)",
+    "alt": "B"
   },
   {
     "id": "CO2016B-GE-58",

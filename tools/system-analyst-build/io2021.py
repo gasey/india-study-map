@@ -260,6 +260,10 @@ def do_apply():
                "no": r["no"], "paper": r["paper"], "unit": None, "sub": None,
                "q": r["q"], "opts": r["opts"], "ans": s["ans"], "conf": s["conf"],
                "exp": s["exp"], "prov": s["prov"], "note": s.get("note", "")}
+        # Carry the rival answer where the two derivations disagree, so the app
+        # can present both and let a human decide instead of hiding the conflict.
+        if s.get("agreement") == "disagree" and s.get("bank_ans"):
+            rec["alt"] = s["bank_ans"]
         added.append(rec)
 
     out = existing + added

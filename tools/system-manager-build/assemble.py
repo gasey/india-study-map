@@ -154,6 +154,11 @@ def main():
         r["conf"] = s["conf"]
         r["exp"] = s["exp"]
         r["prov"] = s["prov"]
+        # Where the blind solve and the bank disagree, carry the rival answer as
+        # `alt` so the app can show BOTH and let a human judge, rather than
+        # burying the conflict in a prose provenance line.
+        if s.get("agreement") == "disagree" and s.get("bank_ans"):
+            r["alt"] = s["bank_ans"]
         if s.get("note"):
             r["note"] = s["note"]
         r["needs_verify"] = False
@@ -291,6 +296,10 @@ def main():
     # --- write ---
     public = [{k: v for k, v in r.items() if not k.startswith("_")
                and k not in ("needs_verify", "needs_figure")} for r in ship]
+    n_alt = sum(1 for r in public if r.get("alt"))
+    if n_alt:
+        notes.append(f"{n_alt} question(s) ship with a disputed alternative answer "
+                     f"(`alt`) for the reader to judge")
 
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, "w", encoding="utf-8") as f:

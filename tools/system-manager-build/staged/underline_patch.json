@@ -1,0 +1,90 @@
+{
+  "CO2016A-GE-39": {
+    "underline": "that",
+    "ans": "A",
+    "conf": "high",
+    "exp": "Here 'that' stands in for the noun 'phone' in a comparison — 'better than that [phone]' — so it is a demonstrative pronoun. It would be a determiner only if it were followed by the noun, as in 'that phone'.",
+    "prov": "Underline marker recovered from a 300dpi render of the source PDF — the question bank lost it, leaving the question unanswerable. Answer derived from the recovered text; no official MPSC key exists.",
+    "note": "underline recovered from the source PDF"
+  },
+  "CO2016A-GE-40": {
+    "underline": "Poverty",
+    "ans": "C",
+    "conf": "high",
+    "exp": "'Poverty' is an abstract noun and the subject of the sentence. The adjective form is 'poor'; there is no verb or adverb form in play here.",
+    "prov": "Underline marker recovered from a 300dpi render of the source PDF — the question bank lost it, leaving the question unanswerable. Answer derived from the recovered text; no official MPSC key exists.",
+    "note": "underline recovered from the source PDF"
+  },
+  "CO2016A-GE-41": {
+    "underline": "effect",
+    "ans": "A",
+    "conf": "low",
+    "exp": "The underlined word 'effect' is a NOUN — 'a bad effect'. None of the four printed options (Preposition, Verb, Adverb, Adjective) is correct, so this question is defective as printed. Note the classic trap it gestures at: 'effect' is the noun, 'affect' the verb.",
+    "prov": "Underline marker recovered from a 300dpi render of the source PDF — the question bank lost it, leaving the question unanswerable. Answer derived from the recovered text; no official MPSC key exists.",
+    "note": "defective as printed: the underlined word is a noun, which is not among the options"
+  },
+  "CO2016A-GE-42": {
+    "underline": "have",
+    "ans": "D",
+    "conf": "high",
+    "exp": "'have' is the auxiliary verb forming the present perfect 'have supported'. Auxiliaries are verbs, so the part of speech is verb.",
+    "prov": "Underline marker recovered from a 300dpi render of the source PDF — the question bank lost it, leaving the question unanswerable. Answer derived from the recovered text; no official MPSC key exists.",
+    "note": "underline recovered from the source PDF"
+  },
+  "CO2016A-GE-43": {
+    "underline": "yesterday",
+    "ans": "A",
+    "conf": "high",
+    "exp": "'yesterday' modifies the verb 'came' by telling us when, which makes it an adverb of time. It can be a noun elsewhere ('yesterday was cold'), but not in this slot.",
+    "prov": "Underline marker recovered from a 300dpi render of the source PDF — the question bank lost it, leaving the question unanswerable. Answer derived from the recovered text; no official MPSC key exists.",
+    "note": "underline recovered from the source PDF"
+  },
+  "CO2016A-GE-44": {
+    "underline": "green",
+    "ans": "C",
+    "conf": "high",
+    "exp": "'green' is an object complement describing the resulting state of 'her hair', so it is an adjective. It would be a noun only as a colour name in its own right, as in 'green is my favourite colour'.",
+    "prov": "Underline marker recovered from a 300dpi render of the source PDF — the question bank lost it, leaving the question unanswerable. Answer derived from the recovered text; no official MPSC key exists.",
+    "note": "underline recovered from the source PDF"
+  },
+  "CO2016A-GE-54": {
+    "underline": "gave you yesterday",
+    "ans": "B",
+    "conf": "high",
+    "exp": "The underlined words belong to the relative clause 'that I gave you yesterday', which modifies the noun 'money' — that is an adjective (relative) clause. A noun clause would itself be a subject or object, not a modifier.",
+    "prov": "Underline marker recovered from a 300dpi render of the source PDF — the question bank lost it, leaving the question unanswerable. Answer derived from the recovered text; no official MPSC key exists.",
+    "note": "underline recovered from the source PDF"
+  },
+  "CO2016A-GE-55": {
+    "underline": "which was stolen",
+    "ans": "B",
+    "conf": "high",
+    "exp": "'which was stolen' modifies the noun 'book', so it is an adjective (relative) clause. The relative pronoun 'which' introducing a modifier is the giveaway.",
+    "prov": "Underline marker recovered from a 300dpi render of the source PDF — the question bank lost it, leaving the question unanswerable. Answer derived from the recovered text; no official MPSC key exists.",
+    "note": "underline recovered from the source PDF"
+  },
+  "CO2016A-GE-56": {
+    "underline": "since I came here",
+    "ans": "A",
+    "conf": "high",
+    "exp": "'since I came here' answers 'since when' about the state 'have been ill', so it modifies the verb and is an adverb clause of time. 'Since' here is a subordinating conjunction of time, not a preposition.",
+    "prov": "Underline marker recovered from a 300dpi render of the source PDF — the question bank lost it, leaving the question unanswerable. Answer derived from the recovered text; no official MPSC key exists.",
+    "note": "underline recovered from the source PDF"
+  },
+  "CO2016A-GE-57": {
+    "underline": "that you have succeeded",
+    "ans": "A",
+    "conf": "high",
+    "exp": "'that you have succeeded' is the object of 'to know' — it fills a noun slot, so it is a noun clause. Contrast the 'that' of a relative clause, which modifies a noun instead of replacing one.",
+    "prov": "Underline marker recovered from a 300dpi render of the source PDF — the question bank lost it, leaving the question unanswerable. Answer derived from the recovered text; no official MPSC key exists.",
+    "note": "underline recovered from the source PDF"
+  },
+  "CO2016A-GE-58": {
+    "underline": "wherever he went",
+    "ans": "D",
+    "conf": "high",
+    "exp": "'wherever he went' tells us where he carried the laptop, modifying the verb, so it is an adverb clause of place. 'Wherever' is a subordinating conjunction here.",
+    "prov": "Underline marker recovered from a 300dpi render of the source PDF — the question bank lost it, leaving the question unanswerable. Answer derived from the recovered text; no official MPSC key exists.",
+    "note": "underline recovered from the source PDF"
+  }
+}

@@ -1,0 +1,288 @@
+[
+  {
+    "sub": "Lookup Functions",
+    "q": "In a VLOOKUP formula, what is the effect of setting the last argument (range_lookup) to FALSE or 0?",
+    "opts": {
+      "A": "The function searches from right to left across the table",
+      "B": "The function returns a result only for an exact match, and #N/A if none is found",
+      "C": "The function returns the closest smaller value when no exact match exists",
+      "D": "The function returns the whole matching row instead of a single value"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "FALSE (or 0) asks VLOOKUP for an exact match, so an unmatched lookup value produces #N/A rather than a wrong answer. TRUE (or 1, or omitting the argument) is the approximate match, which returns the nearest lower value and requires the first column to be sorted in ascending order."
+  },
+  {
+    "sub": "Lookup Functions",
+    "q": "Why do experienced users often prefer INDEX together with MATCH instead of VLOOKUP?",
+    "opts": {
+      "A": "VLOOKUP cannot be used on text values, only on numbers",
+      "B": "VLOOKUP can only be used within a single worksheet",
+      "C": "VLOOKUP can only return a value from a column to the right of the lookup column, while INDEX with MATCH can fetch a value on either side",
+      "D": "VLOOKUP always requires the lookup table to be converted into a chart first"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "VLOOKUP searches the leftmost column of its table and can only return a value from a column further right, so it fails when the required value sits to the left of the key. INDEX with MATCH separates the search from the retrieval, so the returned column may lie on either side; VLOOKUP handles text perfectly well and can refer to other sheets, so those are not the reason."
+  },
+  {
+    "sub": "Financial Functions",
+    "q": "Which Excel function calculates the fixed periodic instalment payable on a loan taken at a constant interest rate for a fixed number of periods?",
+    "opts": {
+      "A": "PMT",
+      "B": "NPER",
+      "C": "RATE",
+      "D": "FV"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "PMT returns the constant payment for each period of a loan or investment. NPER returns how many periods are needed, RATE returns the interest rate per period, and FV returns the accumulated future value, so none of them gives the instalment amount."
+  },
+  {
+    "sub": "Financial Functions",
+    "q": "What does the PV function in Excel return?",
+    "opts": {
+      "A": "The number of payment periods in a loan or investment",
+      "B": "The interest rate charged for each period",
+      "C": "The value an investment will grow to at the end of the term",
+      "D": "The amount that a series of future payments is worth in today's money at a given interest rate"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "PV stands for present value and discounts a stream of future payments back to what it is worth now at the stated rate per period. The value at the end of the term is what FV returns, while NPER and RATE give the number of periods and the periodic rate respectively."
+  },
+  {
+    "sub": "Data Validation",
+    "q": "A department wants its data-entry operators to be able to enter only approved district names in a column, chosen from a fixed list. Which Excel feature enforces this?",
+    "opts": {
+      "A": "Conditional Formatting",
+      "B": "Data Validation with the List criterion",
+      "C": "Protect Workbook",
+      "D": "Text to Columns"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Data Validation with the List criterion attaches a drop-down of permitted entries to the cells and rejects anything outside that list, which is exactly how data-entry is constrained to valid values. Conditional Formatting can only colour a wrong entry after it has been typed; it cannot prevent it."
+  },
+  {
+    "sub": "Data Validation",
+    "q": "In the Data Validation dialog box, what does the Input Message do?",
+    "opts": {
+      "A": "It shows a small note as soon as the cell is selected, telling the user what may be entered",
+      "B": "It appears only after an invalid value has been typed and stops the entry",
+      "C": "It draws red circles around cells that already contain invalid values",
+      "D": "It records the name of the user who entered each value"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "The Input Message is a prompt that pops up when the cell is selected, so it guides the operator before anything is typed. The message that appears after a wrong entry and blocks or warns about it is the Error Alert, which is a separate tab in the same dialog box."
+  },
+  {
+    "sub": "Sorting and Filtering",
+    "q": "A clerk selects only the Name column of an employee table, sorts it A to Z and chooses to continue with the current selection. What is the result?",
+    "opts": {
+      "A": "The entire table is rearranged so each row stays with its own name",
+      "B": "Excel refuses to sort because the selection is incomplete",
+      "C": "Only the names are reordered, so each name is now lined up against another employee's details",
+      "D": "The remaining columns are cleared and must be re-entered"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Sorting a single selected column moves only that column's values while every other column stays where it is, silently breaking the link between each record's fields. Choosing to expand the selection instead keeps whole rows together, which is why that option should always be taken on a table of records."
+  },
+  {
+    "sub": "Sorting and Filtering",
+    "q": "Which capability does Advanced Filter provide that AutoFilter does not?",
+    "opts": {
+      "A": "Applying criteria to more than one column of the list",
+      "B": "Temporarily hiding the rows that do not match the criteria",
+      "C": "Filtering columns that contain text rather than numbers",
+      "D": "Using a separate criteria range on the sheet and copying the matching rows to another location"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Advanced Filter reads its conditions from a criteria range written on the worksheet and can extract the matching rows to a different area instead of merely hiding the rest. AutoFilter already handles several columns, text values and hiding non-matching rows, so those are not the distinguishing features."
+  },
+  {
+    "sub": "Pivot Tables",
+    "q": "An officer has a list of several thousand expenditure records and needs district-wise totals of the amounts. Which Excel feature produces this summary without writing any formulas?",
+    "opts": {
+      "A": "PivotTable",
+      "B": "Advanced Filter",
+      "C": "Conditional Formatting",
+      "D": "Goal Seek"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "A PivotTable groups a long list by a chosen field and aggregates the numeric fields automatically, so district-wise totals appear by dragging District into the Rows area and Amount into the Values area. Advanced Filter can only select rows that meet criteria; it does not aggregate them."
+  },
+  {
+    "sub": "Pivot Tables",
+    "q": "Several values in the source data of an existing pivot table are corrected. What must be done for the pivot table to display the corrected totals?",
+    "opts": {
+      "A": "Nothing, because a pivot table always reflects its source data instantly",
+      "B": "The pivot table must be refreshed",
+      "C": "The pivot table must be deleted and built again from scratch",
+      "D": "The source data must be sorted before the pivot table will recalculate"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "A pivot table works from a cached copy of the source data, so edits to the source appear only after a refresh. It does not update live the way an ordinary formula does, but it also does not need to be rebuilt, since Refresh re-reads the same source range."
+  },
+  {
+    "sub": "Dashboards",
+    "q": "In Excel, a dashboard is best described as",
+    "opts": {
+      "A": "a worksheet holding the raw transaction records for the whole year",
+      "B": "a protected worksheet in which no cell can be edited",
+      "C": "a template that fixes the page layout used for printing",
+      "D": "a single view that brings together the key figures of a dataset using pivot tables, charts and other summary elements"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "A dashboard is a consolidated summary screen, usually built from pivot tables and charts driven by data held on other sheets, so a reader sees the important numbers at a glance. The raw records normally sit on a separate data sheet that feeds the dashboard rather than on the dashboard itself."
+  },
+  {
+    "sub": "Dashboards",
+    "q": "On an Excel dashboard, what is the purpose of a slicer?",
+    "opts": {
+      "A": "It keeps the heading rows visible while the sheet is scrolled",
+      "B": "It converts a chart into a static picture so it cannot change",
+      "C": "It provides clickable buttons that filter the pivot tables and charts connected to it",
+      "D": "It recalculates every formula in the workbook when clicked"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "A slicer is a visual filter: each button represents a value of a field, and clicking it filters every pivot table or chart the slicer is connected to, which is what makes a dashboard interactive. Keeping headings on screen while scrolling is done with Freeze Panes instead."
+  },
+  {
+    "sub": "Goal Seek",
+    "q": "Which Excel tool finds the value that must be placed in one input cell so that a formula in another cell reaches a specified result?",
+    "opts": {
+      "A": "Goal Seek",
+      "B": "Scenario Manager",
+      "C": "Conditional Formatting",
+      "D": "Data Validation"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Goal Seek works backwards from a desired formula result to the input value that produces it, for example finding the sales figure needed to reach a target profit. Scenario Manager only stores and displays sets of input values that the user supplies; it does not solve for one."
+  },
+  {
+    "sub": "Goal Seek",
+    "q": "What is the main limitation of Goal Seek compared with Solver?",
+    "opts": {
+      "A": "Goal Seek cannot be used on formulas that refer to other cells",
+      "B": "Goal Seek can adjust only one input cell and cannot apply constraints",
+      "C": "Goal Seek works only on whole numbers",
+      "D": "Goal Seek requires the worksheet to be sorted before it will run"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Goal Seek changes a single variable cell to hit one target value and accepts no additional conditions, whereas Solver can vary several cells at once and honour constraints while maximising, minimising or targeting a result. Goal Seek needs a formula referring to the changing cell in order to work at all, so that is a requirement rather than a limitation."
+  },
+  {
+    "sub": "Power Query (Introduction)",
+    "q": "What is the main purpose of Power Query in Excel?",
+    "opts": {
+      "A": "To summarise a table by dragging fields into rows, columns and values areas",
+      "B": "To store recorded keystrokes as VBA code for later replay",
+      "C": "To connect to external data sources and clean and reshape the data before it is loaded into the workbook",
+      "D": "To protect a workbook so that only authorised users can open it"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Power Query is the get-and-transform layer of Excel: it imports data from files, databases and other sources and lets the user remove, split, filter and reshape columns before loading the tidied result. Summarising with rows, columns and values areas is what a pivot table does after the data has been loaded."
+  },
+  {
+    "sub": "Power Query (Introduction)",
+    "q": "A user builds a Power Query that removes blank rows and splits a column, then loads the result. The source file is later updated with new records. What happens when the query is refreshed?",
+    "opts": {
+      "A": "The saved transformation steps are applied again automatically to the updated data",
+      "B": "The transformations have to be carried out by hand each time the data changes",
+      "C": "Refreshing reloads the raw data and discards all the steps that were applied",
+      "D": "A second copy of the untransformed data is added beside the existing result"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Power Query records each transformation as a step in the query, so a refresh re-runs the whole sequence against the current source data, which is why it suits reports that must be produced repeatedly. This repeatability is the main advantage over cleaning the data manually every month."
+  },
+  {
+    "sub": "Power Pivot (Overview)",
+    "q": "Power Pivot extends Excel mainly by allowing the user to",
+    "opts": {
+      "A": "import a table from a web page into a worksheet",
+      "B": "automate repetitive formatting by recording the steps taken",
+      "C": "work backwards from a target result to the input value that produces it",
+      "D": "build a data model of several related tables and analyse them together"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Power Pivot holds a data model in which multiple tables are linked by relationships, so figures can be summarised across tables without pulling everything into one sheet with lookup formulas, and it copes with far larger datasets than a plain worksheet. Importing and cleaning the data is Power Query's job; Power Pivot is what models and analyses it afterwards."
+  },
+  {
+    "sub": "Power Pivot (Overview)",
+    "q": "Which formula language is used to write calculated columns and measures in a Power Pivot data model?",
+    "opts": {
+      "A": "VBA",
+      "B": "DAX",
+      "C": "SQL",
+      "D": "HTML"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "DAX, short for Data Analysis Expressions, is the language of calculated columns and measures in the Power Pivot data model. VBA is the language behind Excel macros and is not used for data-model calculations."
+  },
+  {
+    "sub": "Macros (Introduction)",
+    "q": "A workbook containing recorded macros must be saved in which file format if the macros are to be kept?",
+    "opts": {
+      "A": ".xlsx",
+      "B": ".csv",
+      "C": ".xlsm",
+      "D": ".xltx"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": ".xlsm is the macro-enabled workbook format and is the one that stores the VBA code along with the sheets. Saving the same workbook as .xlsx discards the macros, because the ordinary workbook format is defined not to carry executable code."
+  },
+  {
+    "sub": "Macros (Introduction)",
+    "q": "Why does Excel disable macros by default in a workbook received by e-mail or downloaded from the internet?",
+    "opts": {
+      "A": "Because macros make the file too large to open quickly",
+      "B": "Because macros run only in the exact version of Excel that created them",
+      "C": "Because a workbook containing macros cannot be shared with other users",
+      "D": "Because macro code can perform harmful actions on the computer, so macros from an untrusted source are a security risk"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "A macro is program code stored inside the file, and malicious macros are a well-known way of delivering malware, so Excel blocks them until the user confirms the source is trusted. File size and version compatibility are not the reason for the warning."
+  },
+  {
+    "sub": "Microsoft 365 Collaboration",
+    "q": "Two officers need to work on the same Excel workbook at the same time and see each other's changes as they are made. Which Microsoft 365 capability makes this possible?",
+    "opts": {
+      "A": "Co-authoring on a workbook stored in OneDrive or SharePoint",
+      "B": "Sending the workbook to each officer as an e-mail attachment",
+      "C": "Protecting the worksheet with a password before editing",
+      "D": "Keeping separate copies and merging them at the end of the day"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Co-authoring requires the workbook to live in cloud storage such as OneDrive or SharePoint, after which several users can edit it simultaneously and see one another's changes and cell selections. Mailing attachments or keeping separate copies produces exactly the divergent versions that co-authoring is meant to avoid."
+  },
+  {
+    "sub": "Microsoft 365 Collaboration",
+    "q": "A shared Microsoft 365 workbook has been changed wrongly and the mistake is noticed only the next day. Which feature allows an earlier saved state of the file to be examined and restored?",
+    "opts": {
+      "A": "AutoRecover",
+      "B": "Version History",
+      "C": "Undo",
+      "D": "Freeze Panes"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Version History keeps earlier saved versions of a file held in OneDrive or SharePoint, so an older version can be opened, compared and restored long after the editing session has ended. Undo only reverses actions within the current session and is lost once the workbook is closed."
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "paper": "TECH2",
+  "unit": "I",
+  "unitTitle": "Computer Networking",
+  "derived": false,
+  "brief": "tools/system-manager-build/CONCEPT_BRIEF.md",
+  "targets": [
+    {
+      "paper": "TECH2",
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "sub": "Cloud Infrastructure"
+    },
+    {
+      "paper": "TECH2",
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "sub": "Virtual Networks"
+    },
+    {
+      "paper": "TECH2",
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "sub": "Microsoft Azure Fundamentals (Concept)"
+    },
+    {
+      "paper": "TECH2",
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "sub": "Network Monitoring"
+    },
+    {
+      "paper": "TECH2",
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "sub": "Network Troubleshooting"
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+#!/usr/bin/env python3
+"""
+Phase 3 — verify the answers the bank marked `answerSource: "inferred"`.
+
+308 questions (Computer Operator Technical Paper I x2 and General English x2)
+arrive from the bank with an answer but NO explanation, NO confidence rating,
+and no official key behind them. MPSC never published one. Right now they ship
+badged `derived - unrated`, which is honest but not useful.
+
+DESIGN: SOLVE BLIND, THEN COMPARE.
+The export deliberately does NOT show the solver the bank's existing answer.
+Rubber-stamping a wrong answer is the failure mode that matters here - a solver
+shown "the answer is (b)" will tend to justify (b). Solving independently and
+then diffing gives real evidence:
+
+  agree    -> two independent derivations concur. Corroborated; keep, and the
+              solver's confidence stands.
+  disagree -> genuine uncertainty. Flagged for review and forced to at most
+              "medium" confidence regardless of what the solver claimed, because
+              one of the two derivations is definitely wrong.
+
+That distinction is only available if the solve is blind. Don't "help" the
+solver by including the bank answer.
+
+Comprehension questions carry their recovered passage (see extract_passages.py)
+- without it they are unanswerable and a solver would be guessing.
+
+Usage:
+  python3 tools/system-manager-build/solve.py --export
+  # ...solver agents fill staged/solving/<name>.todo.json -> .solved.json...
+  python3 tools/system-manager-build/solve.py --merge
+"""
+
+import argparse
+import glob
+import json
+import os
+import sys
+from collections import Counter
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+STAGED = os.path.join(HERE, "staged")
+BATCHES = os.path.join(STAGED, "solving")
+LETTERS = ["A", "B", "C", "D"]
+BATCH_SIZE = 20
+CONFS = {"high", "medium", "low"}
+
+
+def unverified():
+    """Questions from the bank needing verification, with passages attached."""
+    hp = os.path.join(STAGED, "harvest.json")
+    if not os.path.isfile(hp):
+        sys.exit("FAIL: staged/harvest.json missing — run harvest.py first")
+    rows = json.load(open(hp, encoding="utf-8"))
+
+    passages = {}
+    pp = os.path.join(STAGED, "passages.json")
+    if os.path.isfile(pp):
+        for pid, p in json.load(open(pp, encoding="utf-8")).items():
+            for qno in p["questions"]:
+                passages[(p["srcKey"], qno)] = p
+
+    out = []
+    for r in rows:
+        if not r.get("needs_verify"):
+            continue
+        p = passages.get((r["srcKey"], r["no"]))
+        out.append({
+            "id": r["id"], "srcKey": r["srcKey"], "no": r["no"], "paper": r["paper"],
+            "q": r["q"], "opts": r["opts"],
+            "passageTitle": p["title"] if p else None,
+            "passage": p["text"] if p else None,
+            "_bank_ans": r.get("ans"),      # stripped before export
+        })
+    return out
+
+
+def do_export():
+    rows = unverified()
+    os.makedirs(BATCHES, exist_ok=True)
+    for stale in glob.glob(os.path.join(BATCHES, "*.todo.json")):
+        os.remove(stale)
+
+    by_src = {}
+    for r in rows:
+        by_src.setdefault(r["srcKey"], []).append(r)
+
+    written = []
+    for src, qs in sorted(by_src.items()):
+        qs.sort(key=lambda r: r["no"])
+        for i in range(0, len(qs), BATCH_SIZE):
+            chunk = qs[i:i + BATCH_SIZE]
+            n = i // BATCH_SIZE + 1
+            path = os.path.join(BATCHES, f"{src}-{n}.todo.json")
+            # strip the bank answer — the solve must be blind
+            export = [{k: v for k, v in q.items() if not k.startswith("_")} for q in chunk]
+            with open(path, "w", encoding="utf-8") as f:
+                json.dump({
+                    "srcKey": src,
+                    "brief": "tools/bank-rebuild/SOLVE_BRIEF.md",
+                    "instructions": (
+                        "Answer each question independently. Write a JSON object keyed by "
+                        "question id: {\"<id>\": {\"ans\": \"A\"|\"B\"|\"C\"|\"D\", "
+                        "\"conf\": \"high\"|\"medium\"|\"low\", \"exp\": \"1-3 sentences\"}} "
+                        "to this filename with .todo.json replaced by .solved.json. "
+                        "No official answer key exists for these papers - your answer "
+                        "becomes the app's answer. Do not inflate confidence."
+                    ),
+                    "questions": export,
+                }, f, indent=2, ensure_ascii=False)
+            written.append((path, len(chunk)))
+
+    print(f"exported {len(written)} batch(es) -> {os.path.relpath(BATCHES, os.getcwd())}/")
+    for path, n in written:
+        print(f"  {n:>3}  {os.path.basename(path)}")
+    n_psg = sum(1 for r in rows if r["passage"])
+    print(f"\n{len(rows)} questions to verify ({n_psg} carry a comprehension passage)")
+    print("Bank answers are NOT included — the solve is blind, then diffed on merge.")
+
+
+def do_merge():
+    rows = {r["id"]: r for r in unverified()}
+    done = sorted(glob.glob(os.path.join(BATCHES, "*.solved.json")))
+    if not done:
+        sys.exit(f"FAIL: no *.solved.json in {os.path.relpath(BATCHES, os.getcwd())}/")
+
+    problems, solved = [], {}
+    for path in done:
+        data = json.load(open(path, encoding="utf-8"))
+        entries = data.get("answers", data) if isinstance(data, dict) else {}
+        for qid, a in entries.items():
+            if qid in solved:
+                problems.append(f"{qid}: solved twice")
+            r = rows.get(qid)
+            if not r:
+                problems.append(f"{qid}: not a question awaiting verification")
+                continue
+            ans, conf, exp = a.get("ans"), a.get("conf"), (a.get("exp") or "").strip()
+            if ans not in LETTERS:
+                problems.append(f"{qid}: ans={ans!r}")
+                continue
+            if conf not in CONFS:
+                problems.append(f"{qid}: conf={conf!r}")
+                continue
+            if len(exp) < 25:
+                problems.append(f"{qid}: explanation too short")
+                continue
+            solved[qid] = {"ans": ans, "conf": conf, "exp": exp}
+
+    # --- the whole point: diff blind answer against the bank's inferred one ---
+    agree, disagree, no_bank = [], [], []
+    final = {}
+    for qid, s in solved.items():
+        bank = rows[qid]["_bank_ans"]
+        if bank is None:
+            no_bank.append(qid)
+            final[qid] = {**s, "agreement": "no-bank-answer",
+                          "prov": "Derived independently; the bank held no answer for this "
+                                  "question and MPSC published no key."}
+        elif bank == s["ans"]:
+            agree.append(qid)
+            final[qid] = {**s, "agreement": "agree",
+                          "prov": "Two independent derivations agree (the bank's inferred "
+                                  "answer and a fresh blind solve). No official MPSC key exists."}
+        else:
+            disagree.append(qid)
+            # One of the two is wrong. Cap confidence — the solver doesn't get to
+            # claim "high" on a question where an independent pass disagreed.
+            capped = "medium" if s["conf"] == "high" else s["conf"]
+            final[qid] = {**s, "conf": capped, "agreement": "disagree",
+                          "bank_ans": bank,
+                          "prov": f"Blind solve gives ({s['ans']}); the bank's inferred "
+                                  f"answer was ({bank}). They disagree, so one derivation is "
+                                  f"wrong — treat with caution. No official MPSC key exists.",
+                          "note": f"conflicts with bank answer ({bank})"}
+
+    os.makedirs(STAGED, exist_ok=True)
+    with open(os.path.join(STAGED, "solved.json"), "w", encoding="utf-8") as f:
+        json.dump(final, f, indent=2, ensure_ascii=False)
+
+    total = len(rows)
+    print(f"merged {len(final)}/{total} verified answers -> staged/solved.json\n")
+    print(f"  agree with bank      {len(agree):>4}"
+          f"  ({100 * len(agree) // max(1, len(final))}%)")
+    print(f"  DISAGREE with bank   {len(disagree):>4}   <-- one derivation is wrong")
+    print(f"  bank had no answer   {len(no_bank):>4}")
+    conf = Counter(v["conf"] for v in final.values())
+    print(f"\n  confidence: " + "  ".join(f"{c} {conf.get(c, 0)}" for c in ("high", "medium", "low")))
+
+    if disagree:
+        path = os.path.join(STAGED, "disagreements.json")
+        out = [{"id": q, "bank": rows[q]["_bank_ans"], "solved": final[q]["ans"],
+                "conf": final[q]["conf"], "q": rows[q]["q"],
+                "opts": rows[q]["opts"], "exp": final[q]["exp"]} for q in sorted(disagree)]
+        json.dump(out, open(path, "w", encoding="utf-8"), indent=2, ensure_ascii=False)
+        print(f"\n  {len(disagree)} disagreement(s) -> staged/disagreements.json "
+              f"(worth a human read — these are where the bank was probably wrong)")
+        for q in sorted(disagree)[:12]:
+            print(f"    {q}: bank ({rows[q]['_bank_ans']}) vs solved ({final[q]['ans']})"
+                  f"  {rows[q]['q'][:58]}")
+
+    remaining = [q for q in rows if q not in final]
+    if remaining:
+        print(f"\n  {len(remaining)} still unverified")
+
+    if problems:
+        print(f"\n{len(problems)} PROBLEM(S):", file=sys.stderr)
+        for p in problems[:30]:
+            print(f"  - {p}", file=sys.stderr)
+        sys.exit(1)
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--export", action="store_true")
+    ap.add_argument("--merge", action="store_true")
+    a = ap.parse_args()
+    if a.export:
+        do_export()
+    elif a.merge:
+        do_merge()
+    else:
+        ap.error("pass --export or --merge")
+
+
+if __name__ == "__main__":
+    main()

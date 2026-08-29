@@ -1,0 +1,288 @@
+[
+  {
+    "sub": "Scanners",
+    "q": "A paper letter has been scanned and saved as a PDF. What further step is needed before the text in that PDF can be searched and edited?",
+    "opts": {
+      "A": "Compressing the PDF so that its file size is reduced",
+      "B": "Running OCR (Optical Character Recognition) over the scanned image",
+      "C": "Rescanning the page at a higher dpi setting",
+      "D": "Converting the file to PDF/A for long-term archiving"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "A scanner produces only a picture of the page, so the characters are dots, not text; OCR is the separate step that converts those images of characters into character codes that can be searched and edited. Raising the dpi produces a sharper image but still an image, and PDF/A conversion only fixes the preservation format."
+  },
+  {
+    "sub": "Scanners",
+    "q": "In a scanner's specifications, which resolution figure represents the detail the sensor genuinely captures?",
+    "opts": {
+      "A": "Interpolated resolution",
+      "B": "Enhanced resolution",
+      "C": "Optical resolution",
+      "D": "Output resolution of the attached printer"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Optical resolution is what the CCD or CIS sensor array actually records, and it is the figure worth quoting. Interpolated or 'enhanced' resolution is software enlargement of the captured image and adds no real detail, which is why it is treated as a marketing number."
+  },
+  {
+    "sub": "Interactive Displays",
+    "q": "Which statement correctly distinguishes a resistive touchscreen from an ordinary capacitive touchscreen?",
+    "opts": {
+      "A": "A resistive screen responds to pressure from any object, while a capacitive screen needs a conductive touch such as a bare finger",
+      "B": "A capacitive screen responds to any object, while a resistive screen works only with a bare finger",
+      "C": "Both need a conductive object, but only the resistive type can register a touch at all",
+      "D": "A resistive screen gives better clarity and native multi-touch than a capacitive screen"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "A resistive screen has two conductive layers pressed together at the point of contact, so a gloved finger or a plastic stylus works; a capacitive screen senses a change in an electrostatic field and therefore needs a conductive touch. The trade-off runs the other way on quality: capacitive screens give the better clarity and easy multi-touch."
+  },
+  {
+    "sub": "Interactive Displays",
+    "q": "What is the correct difference between an interactive whiteboard and an interactive flat panel display?",
+    "opts": {
+      "A": "They are two names for the same device",
+      "B": "An interactive whiteboard cannot accept touch input; it is an output device only",
+      "C": "An interactive flat panel needs an external projector, while a whiteboard has its own screen",
+      "D": "An interactive whiteboard needs an external projector, while an interactive flat panel is a self-contained display"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "An interactive whiteboard is a projection surface, so it depends on a separate projector and computer and washes out in a bright room. An interactive flat panel display carries the screen, touch layer and speakers in one unit, which is why it has become the default choice for smart classrooms."
+  },
+  {
+    "sub": "Open Source and Proprietary Software",
+    "q": "In the term 'free software', what does the word 'free' refer to?",
+    "opts": {
+      "A": "That the program can always be downloaded at no cost",
+      "B": "That the program carries no copyright at all",
+      "C": "The user's freedom to run, study, modify and redistribute the program",
+      "D": "That the program may be used without payment for a trial period"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Free software is defined by the four freedoms - to run the program for any purpose, to study and change it, to redistribute copies, and to distribute modified versions - which is why access to the source code is essential. Free here means freedom, not price: copies of GPL-licensed software may lawfully be sold."
+  },
+  {
+    "sub": "Open Source and Proprietary Software",
+    "q": "Software that is distributed at no cost, but without its source code and without any right to modify it, is called",
+    "opts": {
+      "A": "freeware",
+      "B": "open source software",
+      "C": "public domain software",
+      "D": "free software"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Freeware is proprietary software given away at zero price - vendor document readers and drivers are the usual examples - and the user receives only the binary. Open source and free software both require the source code and the right to modify, while public domain software carries no copyright and so imposes no conditions at all."
+  },
+  {
+    "sub": "Virtualization and Containerization (Concept)",
+    "q": "What is the essential difference between a virtual machine and a container?",
+    "opts": {
+      "A": "A container runs its own complete guest operating system, while a virtual machine does not",
+      "B": "A virtual machine starts in a few seconds, while a container boots like a physical computer",
+      "C": "A container provides stronger isolation than a virtual machine",
+      "D": "A virtual machine runs a full guest operating system, while a container shares the host operating system's kernel"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "A virtual machine carries an entire guest operating system on top of a hypervisor, so it is sized in gigabytes and boots like a physical machine; a container packages only the application and its dependencies and calls the shared host kernel, so it is sized in megabytes and starts in seconds. That sharing also means a container's isolation is weaker, not stronger, than a virtual machine's."
+  },
+  {
+    "sub": "Virtualization and Containerization (Concept)",
+    "q": "VMware ESXi and Microsoft Hyper-V are examples of",
+    "opts": {
+      "A": "Type 2 (hosted) hypervisors",
+      "B": "Type 1 (bare-metal) hypervisors",
+      "C": "container runtimes",
+      "D": "container orchestration platforms"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "A Type 1 or bare-metal hypervisor runs directly on the hardware with no host operating system beneath it, which is what data centres deploy; ESXi, Hyper-V, Xen and KVM are of this kind. VirtualBox and VMware Workstation are Type 2, running as applications on a desktop operating system, while Docker is a container runtime and Kubernetes an orchestrator."
+  },
+  {
+    "sub": "Scripting Languages",
+    "q": "Which statement about Java and JavaScript is correct?",
+    "opts": {
+      "A": "They are unrelated languages that merely share part of their name",
+      "B": "JavaScript is a lightweight version of Java meant for use inside the browser",
+      "C": "JavaScript programs are compiled to Java bytecode and executed on the JVM",
+      "D": "Java is the browser's client-side scripting language and JavaScript is its server-side counterpart"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "The shared name is a marketing accident: Java is statically typed and compiled to bytecode for the JVM, while JavaScript is dynamically typed, standardised as ECMAScript, and runs in browser engines and on servers through Node.js. Neither language is a version or subset of the other."
+  },
+  {
+    "sub": "Scripting Languages",
+    "q": "Why must data validation done by JavaScript in the browser always be repeated on the server?",
+    "opts": {
+      "A": "Because JavaScript is unable to check numeric values",
+      "B": "Because the server executes the same script much faster",
+      "C": "Because client-side script is visible to the user and can be altered or bypassed",
+      "D": "Because browsers keep JavaScript disabled by default"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Client-side script is delivered to the user's machine and can be read through view-source or developer tools and switched off or edited, so it is only a convenience that gives quick feedback. Server-side code is never sent to the browser, so the server is the only place a validation rule can actually be enforced."
+  },
+  {
+    "sub": "APIs and Software Integration (Concept)",
+    "q": "In a REST API, which HTTP method is normally used to read an existing resource?",
+    "opts": {
+      "A": "POST",
+      "B": "GET",
+      "C": "DELETE",
+      "D": "PUT"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "REST maps operations onto standard HTTP methods: GET reads a resource, POST creates one, PUT or PATCH updates one, and DELETE removes one. POST is the common wrong pick because forms on web pages usually submit with it, but submitting a form is creating or sending data, not reading."
+  },
+  {
+    "sub": "APIs and Software Integration (Concept)",
+    "q": "A REST API is described as 'stateless'. What does that mean?",
+    "opts": {
+      "A": "The API is forbidden from storing any data in a database",
+      "B": "The API returns an identical response to every request it receives",
+      "C": "The client must hold a permanent connection open to the server",
+      "D": "The server keeps no session information between calls, so each request carries everything needed to serve it"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Statelessness is about the conversation, not about storage: the server remembers nothing between one call and the next, so every request must include its own identification and parameters. The application behind the API may still read and write a database quite normally."
+  },
+  {
+    "sub": "Digital India and e-Governance",
+    "q": "Under the Digital India programme, a document fetched into DigiLocker directly from its issuing authority",
+    "opts": {
+      "A": "is accepted for online applications only and never for physical verification",
+      "B": "must still be self-attested or attested by a gazetted officer",
+      "C": "is legally at par with the original physical document",
+      "D": "is treated only as a scanned copy with no legal standing"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "A document pulled from the issuer into DigiLocker is issued electronically by that authority, so it carries the same legal standing as the original physical document and needs no further attestation. That is the distinction from a document a citizen has merely scanned and uploaded himself."
+  },
+  {
+    "sub": "Digital India and e-Governance",
+    "q": "MeghRaj is the name of",
+    "opts": {
+      "A": "the Government of India's cloud computing initiative, the GI Cloud",
+      "B": "the network carrying broadband to gram panchayats",
+      "C": "the mobile app that aggregates central and state government services",
+      "D": "the government's online public procurement marketplace"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "MeghRaj is the GI Cloud initiative, under which departmental applications are hosted on government cloud infrastructure. The other options describe BharatNet, UMANG and GeM respectively."
+  },
+  {
+    "sub": "Electronic Records management",
+    "q": "Which Indian law gives legal recognition to electronic records and to digital signatures, so that an electronic file is admissible in the same way as a paper one?",
+    "opts": {
+      "A": "The Public Records Act, 1993",
+      "B": "The Right to Information Act, 2005",
+      "C": "The Digital Personal Data Protection Act, 2023",
+      "D": "The Information Technology Act, 2000"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "The Information Technology Act, 2000 is the statute that confers legal recognition on electronic records and on electronic and digital signatures. The Public Records Act, 1993 is a genuine records law but governs the management, retention and disposal of central government public records rather than the legal validity of electronic form."
+  },
+  {
+    "sub": "Electronic Records management",
+    "q": "In electronic records management, what is the difference between taking a backup and archiving a record?",
+    "opts": {
+      "A": "They are the same operation described by two different names",
+      "B": "A backup is a short-term copy kept for recovery, while archiving moves a record into preservation with metadata and a retention rule",
+      "C": "A backup is kept permanently, while an archive is deleted after a fixed period",
+      "D": "A backup carries metadata and retention rules, while an archive stores only the raw file"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "A backup exists so that a system can be restored after failure and is overwritten on a cycle; archiving is a records action that places the record under a classification, metadata set and retention schedule so it stays authentic and retrievable for as long as required. Treating backups as an archive is the classic mistake, because a backup carries no retention rule and no index."
+  },
+  {
+    "sub": "Data Privacy and Personal Data Protection",
+    "q": "Under the Digital Personal Data Protection Act, 2023, the individual to whom the personal data relates is called the",
+    "opts": {
+      "A": "data principal",
+      "B": "data fiduciary",
+      "C": "data processor",
+      "D": "data protection officer"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "The data principal is the human being the data is about; a parent or lawful guardian acts as principal for a child. The data fiduciary is the organisation that determines the purpose and means of processing and holds the data in trust, and a data processor only acts on that fiduciary's instructions."
+  },
+  {
+    "sub": "Data Privacy and Personal Data Protection",
+    "q": "A department collects citizens' mobile numbers in order to send examination admit cards, and later uses the same numbers for an unrelated publicity campaign. Which data protection principle has been breached?",
+    "opts": {
+      "A": "Data minimisation",
+      "B": "Storage limitation",
+      "C": "Purpose limitation",
+      "D": "Reasonable security safeguards"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Purpose limitation requires personal data to be used only for the purpose for which it was notified and consented to, so reusing the numbers for a different purpose breaches it even though nothing was leaked. Data minimisation concerns collecting more fields than the purpose needs, and storage limitation concerns keeping data after the purpose is served."
+  },
+  {
+    "sub": "AI Ethics",
+    "q": "An AI system used to shortlist applicants is found to consistently disadvantage one group. Where does such algorithmic bias most commonly originate?",
+    "opts": {
+      "A": "A coding error in the way the algorithm was implemented",
+      "B": "Skewed or unrepresentative data used to train the model",
+      "C": "Insufficient processing power on the server running the model",
+      "D": "The absence of encryption on the model's output"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "A model learns the patterns present in its training data, so past unfairness or under-representation is reproduced and then applied at scale; the algorithm can be implemented perfectly and still discriminate. This is why removing names from the data does not cure bias - correlated features carry the same pattern."
+  },
+  {
+    "sub": "AI Ethics",
+    "q": "In AI ethics, the expression 'human-in-the-loop' means that",
+    "opts": {
+      "A": "the system is trained only on data typed in manually by human operators",
+      "B": "responsibility for the outcome passes to the vendor who supplied the system",
+      "C": "humans may query the system but are not shown its output",
+      "D": "the AI produces a recommendation and a human being takes the final decision"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Human-in-the-loop keeps a person as the decision-maker with the AI acting only as an aid, and it is the expected safeguard wherever rights, money, liberty or entitlement are at stake. Accountability stays with the deploying officer and department; it does not shift to the model or the vendor."
+  },
+  {
+    "sub": "Digital Inclusion and Accessibility",
+    "q": "The Web Content Accessibility Guidelines (WCAG) are built on four principles. They are",
+    "opts": {
+      "A": "Availability, Affordability, Skills and Language",
+      "B": "Authenticity, Integrity, Reliability and Usability",
+      "C": "Perceivable, Operable, Understandable and Robust",
+      "D": "Confidentiality, Integrity, Availability and Accountability"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "WCAG, issued by the W3C, organises its requirements under Perceivable, Operable, Understandable and Robust, with conformance levels A, AA and AAA, of which AA is the usual target. The other sets belong elsewhere: the four axes of the digital divide, the qualities an electronic record must retain, and information-security principles."
+  },
+  {
+    "sub": "Digital Inclusion and Accessibility",
+    "q": "Which Indian law makes it an obligation for government information, services and websites to be accessible to persons with disabilities?",
+    "opts": {
+      "A": "The Rights of Persons with Disabilities Act, 2016",
+      "B": "The Information Technology Act, 2000",
+      "C": "The Right to Information Act, 2005",
+      "D": "The Digital Personal Data Protection Act, 2023"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "The Rights of Persons with Disabilities Act, 2016 requires government information and services, websites included, to be made accessible, so accessibility is a statutory duty rather than good practice. GIGW, the Guidelines for Indian Government Websites, is the compliance standard through which departments meet it."
+  }
+]

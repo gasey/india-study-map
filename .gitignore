@@ -11,3 +11,9 @@ dist
 /*.html
 !/index.html
 __pycache__/
+
+# Page images rendered from the Computer Operator scans for the System Manager
+# vision extraction pass (16 MB of 400dpi PNGs). Regenerate on demand with
+# `python3 tools/system-manager-build/render_pages.py` — the source PDFs live in
+# the mpsc-question-bank repo, so these are a derived artifact, not an input.
+/tools/system-manager-build/pages/

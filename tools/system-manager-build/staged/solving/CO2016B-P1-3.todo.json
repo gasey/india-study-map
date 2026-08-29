@@ -1,0 +1,307 @@
+{
+  "srcKey": "CO2016B-P1",
+  "brief": "tools/bank-rebuild/SOLVE_BRIEF.md",
+  "instructions": "Answer each question independently. Write a JSON object keyed by question id: {\"<id>\": {\"ans\": \"A\"|\"B\"|\"C\"|\"D\", \"conf\": \"high\"|\"medium\"|\"low\", \"exp\": \"1-3 sentences\"}} to this filename with .todo.json replaced by .solved.json. No official answer key exists for these papers - your answer becomes the app's answer. Do not inflate confidence.",
+  "questions": [
+    {
+      "id": "CO2016B-P1-41",
+      "srcKey": "CO2016B-P1",
+      "no": 41,
+      "paper": "TECH1",
+      "q": "Which of the following are loaded into main memory when the computer is booted?",
+      "opts": {
+        "A": "internal command instructions",
+        "B": "external command instructions",
+        "C": "utility programs",
+        "D": "word processing instructions"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-42",
+      "srcKey": "CO2016B-P1",
+      "no": 42,
+      "paper": "TECH1",
+      "q": "Fragmentation of the file system",
+      "opts": {
+        "A": "can always be prevented",
+        "B": "can be temporarily removed by compaction",
+        "C": "is a characteristic of all file systems",
+        "D": "None of these"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-43",
+      "srcKey": "CO2016B-P1",
+      "no": 43,
+      "paper": "TECH1",
+      "q": "When you start up the computer the boot up storage at which the BIOS versions manufacturer and data are displayed on the monitor is called",
+      "opts": {
+        "A": "Bootstrap",
+        "B": "Power on self test (POST)",
+        "C": "System configuration",
+        "D": "Kernel loading"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-44",
+      "srcKey": "CO2016B-P1",
+      "no": 44,
+      "paper": "TECH1",
+      "q": "Which of the following is not a multitasking operating system?",
+      "opts": {
+        "A": "DOS",
+        "B": "Windows",
+        "C": "Unix",
+        "D": "Linux"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-45",
+      "srcKey": "CO2016B-P1",
+      "no": 45,
+      "paper": "TECH1",
+      "q": "What type of software would you need to create an invitation to your birthday party?",
+      "opts": {
+        "A": "Spreadsheet",
+        "B": "Database",
+        "C": "Word processing",
+        "D": "Desktop publishing"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-46",
+      "srcKey": "CO2016B-P1",
+      "no": 46,
+      "paper": "TECH1",
+      "q": "In MS Word, the key F12 opens a",
+      "opts": {
+        "A": "Save As dialog box",
+        "B": "Open dialog box",
+        "C": "Save dialog box",
+        "D": "Close dialog box"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-47",
+      "srcKey": "CO2016B-P1",
+      "no": 47,
+      "paper": "TECH1",
+      "q": "Portrait and Landscape are",
+      "opts": {
+        "A": "Page Orientation",
+        "B": "Paper Size",
+        "C": "Page Layout",
+        "D": "All of above"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-48",
+      "srcKey": "CO2016B-P1",
+      "no": 48,
+      "paper": "TECH1",
+      "q": "Which of the following is not a font style?",
+      "opts": {
+        "A": "Bold",
+        "B": "Italics",
+        "C": "Regular",
+        "D": "Superscript"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-49",
+      "srcKey": "CO2016B-P1",
+      "no": 49,
+      "paper": "TECH1",
+      "q": "Which of the following is not essential component to perform a mail merge operation in MS Word?",
+      "opts": {
+        "A": "Main document",
+        "B": "Data source",
+        "C": "Merge fields",
+        "D": "Word fields"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-50",
+      "srcKey": "CO2016B-P1",
+      "no": 50,
+      "paper": "TECH1",
+      "q": "Small squares, called __________, on the selection rectangle that surrounds a graphic can be used to change the dimensions of the graphic.",
+      "opts": {
+        "A": "scroll boxes",
+        "B": "sizing handles",
+        "C": "status indicators",
+        "D": "move handles"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-51",
+      "srcKey": "CO2016B-P1",
+      "no": 51,
+      "paper": "TECH1",
+      "q": "The minimum number of rows and columns in MS Word document is",
+      "opts": {
+        "A": "1 and 1",
+        "B": "2 and 1",
+        "C": "1 and 2",
+        "D": "2 and 2"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-52",
+      "srcKey": "CO2016B-P1",
+      "no": 52,
+      "paper": "TECH1",
+      "q": "MS-Word automatically moves the text to the next line when it reaches the right edge of the screen, this is called",
+      "opts": {
+        "A": "Carriage Return",
+        "B": "Enter",
+        "C": "Word Wrap",
+        "D": "None of these"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-53",
+      "srcKey": "CO2016B-P1",
+      "no": 53,
+      "paper": "TECH1",
+      "q": "Thesaurus tool in MS Word is used for",
+      "opts": {
+        "A": "Deletion",
+        "B": "Synonyms and Antonyms words",
+        "C": "Grammar options",
+        "D": "All of above"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-54",
+      "srcKey": "CO2016B-P1",
+      "no": 54,
+      "paper": "TECH1",
+      "q": "To autofit the width of column in MS Word",
+      "opts": {
+        "A": "Double click the left border of column",
+        "B": "Double click the right border of column",
+        "C": "Double click the column header",
+        "D": "All of these"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-55",
+      "srcKey": "CO2016B-P1",
+      "no": 55,
+      "paper": "TECH1",
+      "q": "AutoCorrect was originally designed to replace __________ words as you type.",
+      "opts": {
+        "A": "Grammatically incorrect",
+        "B": "Sentence incorrect",
+        "C": "Misspelled",
+        "D": "None of these"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-56",
+      "srcKey": "CO2016B-P1",
+      "no": 56,
+      "paper": "TECH1",
+      "q": "The Word Count command on the Tools menu displays the number of words as well as the number of __________ in the current document.",
+      "opts": {
+        "A": "Lines",
+        "B": "Characters",
+        "C": "Paragraphs",
+        "D": "All of these"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-57",
+      "srcKey": "CO2016B-P1",
+      "no": 57,
+      "paper": "TECH1",
+      "q": "What is a quick way to extend these numbers to a longer sequence, for instance 1 through 20?",
+      "opts": {
+        "A": "Select both cells, and then drag the fill handle over the range you want, for instance 18 more rows",
+        "B": "Select the range you want, include both cells, point to fill on the Edit menu, and then click down.",
+        "C": "Copy the second cell, click in the cell below it, on the standard toolbar click the down arrow on the Paste button, and then click Paste Special",
+        "D": "All of the above"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-58",
+      "srcKey": "CO2016B-P1",
+      "no": 58,
+      "paper": "TECH1",
+      "q": "Formulas in Excel start with",
+      "opts": {
+        "A": "%",
+        "B": "=",
+        "C": "+",
+        "D": "–"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-59",
+      "srcKey": "CO2016B-P1",
+      "no": 59,
+      "paper": "TECH1",
+      "q": "The cell reference for cell range of K2 to N12 is",
+      "opts": {
+        "A": "K2.N12",
+        "B": "K2;N12",
+        "C": "K2:N12",
+        "D": "K2-N12"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-60",
+      "srcKey": "CO2016B-P1",
+      "no": 60,
+      "paper": "TECH1",
+      "q": "What is the AutoComplete feature of Excel?",
+      "opts": {
+        "A": "It automatically completes abbreviated words",
+        "B": "It completes text entries that match an existing entry in the same column",
+        "C": "It completes text and numeric entries that match an existing entry in the same column",
+        "D": "It completes text entries that match an existing entry in the same worksheet"
+      },
+      "passageTitle": null,
+      "passage": null
+    }
+  ]
+}

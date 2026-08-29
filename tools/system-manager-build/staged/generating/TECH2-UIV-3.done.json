@@ -1,0 +1,431 @@
+[
+  {
+    "sub": "AI-assisted System Administration",
+    "q": "In IT operations, the term 'AIOps' refers to:",
+    "opts": {
+      "A": "A scripting language used to automate server maintenance jobs",
+      "B": "A hardware appliance that replaces the network firewall",
+      "C": "The use of artificial intelligence and machine learning on operations data such as logs, metrics and alerts",
+      "D": "A rule requiring every server to be rebooted on a fixed schedule"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "AIOps applies machine learning to the large volume of monitoring data an IT estate produces, so that alerts can be correlated and faults diagnosed faster. It is an approach to analysing operations data, not a scripting language or a physical appliance."
+  },
+  {
+    "sub": "AI-assisted System Administration",
+    "q": "A monitoring tool learns a server's usual CPU and network usage pattern and raises an alert when current behaviour departs sharply from that pattern. This is an example of:",
+    "opts": {
+      "A": "Load balancing",
+      "B": "Anomaly detection",
+      "C": "Patch management",
+      "D": "Disk defragmentation"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Anomaly detection builds a baseline of normal behaviour and flags statistically unusual deviations from it, which is why it catches problems no fixed threshold was written for. Load balancing only distributes traffic; it never judges whether behaviour is unusual."
+  },
+  {
+    "sub": "AI-assisted System Administration",
+    "q": "An AI assistant suggests a command to free up disk space on a production server. What is the correct practice for a System Manager?",
+    "opts": {
+      "A": "Run it at once, since AI suggestions are pre-validated by the tool vendor",
+      "B": "Run it on the busiest day of the month so the benefit is clearly visible",
+      "C": "Forward it to users so that each of them runs it on their own machine",
+      "D": "Review and test the suggested command first, with the administrator remaining accountable for the result"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "AI suggestions are generated without full knowledge of the local environment and can be wrong or destructive, so a human must review, test and stay answerable for what is executed. Vendors do not validate individual generated outputs."
+  },
+  {
+    "sub": "AI-assisted Data Analysis",
+    "q": "Which Microsoft Excel feature examines a selected range of data and automatically suggests trends, patterns and ready-made charts?",
+    "opts": {
+      "A": "Analyze Data (earlier called 'Ideas')",
+      "B": "Goal Seek",
+      "C": "Flash Fill",
+      "D": "Freeze Panes"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Analyze Data scans the selected range and proposes summaries, trends and suggested visualisations in plain language. Goal Seek works backwards from a target value in a single formula and does not describe a dataset at all."
+  },
+  {
+    "sub": "AI-assisted Data Analysis",
+    "q": "An officer types 'show total expenditure district-wise for last year' into a reporting tool and it produces the corresponding chart. This capability is called:",
+    "opts": {
+      "A": "Macro recording",
+      "B": "Data validation",
+      "C": "Natural language query",
+      "D": "Conditional formatting"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Natural language query lets the user ask a question in ordinary words, which the tool translates into a query against the dataset and renders as a result or chart. Macro recording can only replay steps that were recorded earlier."
+  },
+  {
+    "sub": "AI-assisted Data Analysis",
+    "q": "An AI tool produces a summary, with totals, of a departmental expenditure sheet. Before those figures go into an official note, the System Manager should:",
+    "opts": {
+      "A": "Accept them as final, because the tool read the actual file",
+      "B": "Verify the figures against the source data, because AI tools can state plausible but incorrect numbers",
+      "C": "Delete the source file so that two versions of the data do not exist",
+      "D": "Convert the summary into an image so that it cannot be edited"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Generative AI can produce confident-sounding but wrong figures, so any number destined for an official record must be reconciled with the source. Having read the file is no guarantee that the arithmetic or the interpretation is right."
+  },
+  {
+    "sub": "NIC eOffice",
+    "q": "The eOffice product suite used by Indian government offices is developed by:",
+    "opts": {
+      "A": "National Informatics Centre (NIC)",
+      "B": "Unique Identification Authority of India (UIDAI)",
+      "C": "Telecom Regulatory Authority of India (TRAI)",
+      "D": "National Payments Corporation of India (NPCI)"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "eOffice is a product of the National Informatics Centre, the government's IT services organisation under the Ministry of Electronics and Information Technology. UIDAI runs Aadhaar and NPCI runs payment systems such as UPI; neither builds office automation software."
+  },
+  {
+    "sub": "NIC eOffice",
+    "q": "Which module of NIC eOffice handles electronic receipts, electronic files and noting?",
+    "opts": {
+      "A": "KMS",
+      "B": "eFile",
+      "C": "eLeave",
+      "D": "CAMS"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "eFile is the file management module: it diarises receipts, creates and moves electronic files, records notes and handles drafts and dispatch. KMS is the knowledge repository, eLeave handles leave applications and CAMS provides messaging and collaboration."
+  },
+  {
+    "sub": "NIC eOffice",
+    "q": "Which eOffice module maintains employee personnel and service record information?",
+    "opts": {
+      "A": "eFile",
+      "B": "KMS",
+      "C": "CAMS",
+      "D": "PIMS"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "PIMS, the Personnel Information Management System, holds employee master and service-record data that other modules such as eLeave draw upon. eFile deals with files and receipts, not with establishment records."
+  },
+  {
+    "sub": "e-Office Concept and Digital Office Environment",
+    "q": "What is the main objective of the e-Office initiative in government offices?",
+    "opts": {
+      "A": "To provide free internet connectivity to every government employee",
+      "B": "To host the department's public website and social media accounts",
+      "C": "To shift file handling and decision-making from paper to a transparent, traceable electronic workflow",
+      "D": "To computerise salary and pension payments only"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "e-Office replaces the manual movement of dak and files with an electronic workflow that is faster, traceable and auditable end to end. Payroll and pension computerisation is a separate class of application and not the purpose of e-Office."
+  },
+  {
+    "sub": "e-Office Concept and Digital Office Environment",
+    "q": "In an e-Office environment, a 'receipt' means:",
+    "opts": {
+      "A": "An incoming communication (dak) that has been diarised in the system",
+      "B": "An acknowledgement issued to a party after a payment is made",
+      "C": "A remark recorded by an officer on a file",
+      "D": "A letter issued by the office to an outside party"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Incoming dak is scanned and diarised, at which point it becomes an electronic receipt that can be marked to an officer or attached to a file. An officer's remark is a note, and an outgoing communication is an issue or dispatch."
+  },
+  {
+    "sub": "e-Office Concept and Digital Office Environment",
+    "q": "The e-Office programme is often described as creating a 'less paper office'. This wording means that:",
+    "opts": {
+      "A": "Paper files become legally invalid once e-Office is installed",
+      "B": "Printing is permitted only on both sides of the sheet",
+      "C": "Files may be created electronically but must still be moved physically for approval",
+      "D": "Dependence on paper is progressively reduced as more work shifts to the electronic system"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "'Less paper' is deliberate wording: the aim is a steady reduction in paper as processes move online, while some documents legitimately continue to exist on paper. Nothing in e-Office invalidates paper records outright."
+  },
+  {
+    "sub": "Knowledge Management System (KMS)",
+    "q": "The Knowledge Management System (KMS) module of eOffice is primarily used to:",
+    "opts": {
+      "A": "Apply for and sanction leave online",
+      "B": "Maintain a central, searchable repository of Acts, rules, circulars and guidelines",
+      "C": "Exchange instant messages between officers",
+      "D": "Record annual performance appraisals of officers"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "KMS is the department's shared document repository, holding reference material such as Acts, rules, office memoranda and circulars for authorised users to search. Leave is handled by eLeave and messaging by CAMS."
+  },
+  {
+    "sub": "Knowledge Management System (KMS)",
+    "q": "How is content typically organised in the eOffice Knowledge Management System?",
+    "opts": {
+      "A": "As a single flat list ordered only by the time of upload",
+      "B": "As one compressed archive file for each financial year",
+      "C": "Under a hierarchy of categories and sub-categories, with access controlled by role",
+      "D": "Inside each officer's personal mailbox"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "KMS arranges documents in a category and sub-category tree with role-based permissions and search, so an officer can locate the right circular quickly. A flat list ordered by upload time would defeat the whole purpose of retrieval."
+  },
+  {
+    "sub": "Knowledge Management System (KMS)",
+    "q": "Which benefit is most directly associated with a Knowledge Management System in a government department?",
+    "opts": {
+      "A": "Institutional memory is preserved, so knowledge is not lost when officers are transferred",
+      "B": "Files move automatically to the next officer without being marked",
+      "C": "Salary bills are generated without any manual data entry",
+      "D": "The office needs less internet bandwidth than before"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "A KMS captures rules, precedents and guidance in a shared repository, so an incoming officer can find them instead of depending on a predecessor's personal papers. Automatic movement of files is a workflow feature of eFile, not of KMS."
+  },
+  {
+    "sub": "e-Office Security",
+    "q": "Role-based access control in eOffice means that:",
+    "opts": {
+      "A": "Every user can open every file, but all actions are logged",
+      "B": "A user's rights are determined by the post and role assigned to that user",
+      "C": "Access is granted in proportion to the user's length of service",
+      "D": "Each user selects the required access rights from a settings menu"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Rights follow the post and role mapped to a user, so a change of posting automatically changes what that person can see and do. Users cannot grant rights to themselves, and open access to all files would defeat the control entirely."
+  },
+  {
+    "sub": "e-Office Security",
+    "q": "What is the main purpose of the audit trail maintained by eOffice for each file?",
+    "opts": {
+      "A": "To compress older files so that they occupy less storage",
+      "B": "To keep a spare copy in case the server fails",
+      "C": "To translate notes into regional languages",
+      "D": "To record who acted on the file, what action was taken and when"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "The audit trail is a chronological, tamper-evident history of every action on a file, which is what makes accountability and non-repudiation possible. Backup and compression are storage functions and establish nothing about who did what."
+  },
+  {
+    "sub": "e-Office Security",
+    "q": "An officer is proceeding on two weeks' leave, and files marked to that post must continue to be processed. The correct approach is to:",
+    "opts": {
+      "A": "Share the eOffice password with a trusted colleague",
+      "B": "Hand over the DSC token along with its PIN to the section assistant",
+      "C": "Use the delegation facility so that files reach the officer holding charge",
+      "D": "Ask users to email documents directly instead of using eOffice"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Delegation passes the workload to the officer holding charge while keeping every action attributable to the person who actually took it. Sharing a password or a signing token destroys non-repudiation and is a serious security breach."
+  },
+  {
+    "sub": "Digital Signature Certificate (DSC)",
+    "q": "In India, a Digital Signature Certificate is issued by:",
+    "opts": {
+      "A": "A Certifying Authority licensed by the Controller of Certifying Authorities under the Information Technology Act",
+      "B": "Any commercial bank in which the applicant holds an account",
+      "C": "The office or department in which the applicant is employed",
+      "D": "The Registrar of Companies of the applicant's state"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "DSCs are issued only by licensed Certifying Authorities, which operate under the Controller of Certifying Authorities established by the Information Technology Act, 2000. Employers, banks and the Registrar of Companies may require a DSC but cannot issue one."
+  },
+  {
+    "sub": "Digital Signature Certificate (DSC)",
+    "q": "When a document is digitally signed using a DSC, which key is used for signing and which for verification?",
+    "opts": {
+      "A": "The signer's public key signs, and the signer's private key verifies",
+      "B": "The signer's private key signs, and the signer's public key verifies",
+      "C": "The recipient's public key signs, and the recipient's private key verifies",
+      "D": "One shared secret key is used both to sign and to verify"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Only the signer holds the private key, so only the signer can create the signature, while anyone can verify it using the public key carried in the certificate. A shared secret key could not prove which of the parties signed."
+  },
+  {
+    "sub": "Digital Signature Certificate (DSC)",
+    "q": "A note in eOffice is approved by signing it with a Digital Signature Certificate. What does that digital signature primarily assure?",
+    "opts": {
+      "A": "That the note cannot be read by anyone other than the addressee",
+      "B": "That the note will be delivered within a fixed time limit",
+      "C": "That the note genuinely came from the signer and has not been altered since signing",
+      "D": "That the note has been backed up on the departmental server"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "A digital signature provides authentication of the signer, integrity of the content and non-repudiation of the act of signing. Keeping the content secret from others is encryption, which is a different use of the same key pair."
+  },
+  {
+    "sub": "Workflow Configuration",
+    "q": "In eOffice, a workflow is best described as:",
+    "opts": {
+      "A": "The bandwidth allotted to each section of the office",
+      "B": "The list of reference documents stored in the knowledge repository",
+      "C": "The timetable on which the server is backed up",
+      "D": "The defined sequence of officers and steps through which a receipt or file moves for noting and approval"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "A workflow is the configured route and set of steps a receipt or file follows, level by level, up to the competent authority and back. The stored reference documents are KMS content and have nothing to do with routing."
+  },
+  {
+    "sub": "Workflow Configuration",
+    "q": "Which of the following is a workflow configuration task for an eOffice administrator?",
+    "opts": {
+      "A": "Mapping employees to posts and sections in the organisational hierarchy so that files can be marked to a post",
+      "B": "Drafting the reply letter to be issued on a file",
+      "C": "Recording the officer's remarks in the note portion of a file",
+      "D": "Scanning the incoming letter at the receipt counter"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Administrators set up the master data — sections, posts and the employee-to-post mapping — that determines where a file can be routed. Drafting, noting and scanning are day-to-day user actions performed within the workflow, not configuration of it."
+  },
+  {
+    "sub": "Workflow Configuration",
+    "q": "Setting a time limit after which a file still pending with an officer is highlighted to a higher authority is an example of configuring:",
+    "opts": {
+      "A": "A metadata standard",
+      "B": "A record retention schedule",
+      "C": "An escalation or pendency rule in the workflow",
+      "D": "A digital signature policy"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Escalation rules convert elapsed time into a management alert, so that files held beyond the permitted period surface for review instead of lying unnoticed. A retention schedule governs how long closed records are kept and says nothing about pendency."
+  },
+  {
+    "sub": "Metadata Management",
+    "q": "Metadata is best defined as:",
+    "opts": {
+      "A": "A backup copy of a document kept on a separate server",
+      "B": "Data that describes other data, such as its title, author, date and category",
+      "C": "Data that has been encrypted for secure transmission",
+      "D": "The temporary data held in a computer's main memory"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Metadata is descriptive information about a resource — who created it, when, and under what subject — and it is what makes the resource findable and manageable. An encrypted copy is still the data itself, not a description of it."
+  },
+  {
+    "sub": "Metadata Management",
+    "q": "Which of the following is metadata of an electronic file in eOffice, rather than its content?",
+    "opts": {
+      "A": "The scanned copy of the letter received from a member of the public",
+      "B": "The file number, subject and category assigned to the file",
+      "C": "The remarks recorded by the officer in the note",
+      "D": "The draft reply prepared for approval"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "The file number, subject and category describe the file and are what the system uses to index, search and route it. The scanned letter, the notes and the draft are the substantive content that the file carries."
+  },
+  {
+    "sub": "Metadata Management",
+    "q": "Why do e-governance projects insist on common metadata standards across departments?",
+    "opts": {
+      "A": "Because they reduce the storage space each document occupies",
+      "B": "Because they remove the need to sign documents digitally",
+      "C": "Because they increase the speed of the office internet connection",
+      "D": "Because consistent description makes records reliably searchable and lets different systems exchange data"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "When every department describes a record in the same way, search results become dependable and data can pass between systems without manual re-keying, which is the aim of the government's metadata and data standards work. Metadata does not compress files or affect bandwidth."
+  },
+  {
+    "sub": "Record Retention and Archival",
+    "q": "A record retention schedule is:",
+    "opts": {
+      "A": "A statement of how long each class of record must be kept before it is destroyed or transferred to archives",
+      "B": "A list of officers authorised to sign outgoing letters",
+      "C": "The timetable on which the file server is backed up each night",
+      "D": "A register of the files currently pending with each section"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "A retention schedule assigns a retention period to each category of record, so that weeding and archiving follow a rule rather than individual judgement. A backup timetable protects against data loss and is an entirely separate control."
+  },
+  {
+    "sub": "Record Retention and Archival",
+    "q": "Public records of the Central Government that are of permanent value are ultimately transferred to the custody of:",
+    "opts": {
+      "A": "The National Informatics Centre",
+      "B": "The Central Information Commission",
+      "C": "The National Archives of India",
+      "D": "The Comptroller and Auditor General of India"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Under the Public Records Act, the National Archives of India is the custodian of non-current Central Government records of permanent value. The Central Information Commission decides RTI appeals and the CAG audits accounts; neither is a records repository."
+  },
+  {
+    "sub": "Record Retention and Archival",
+    "q": "How does an archive differ from a backup?",
+    "opts": {
+      "A": "There is no difference; the two terms mean the same thing",
+      "B": "A backup must be kept offline, whereas an archive must always remain online",
+      "C": "A backup keeps records permanently, whereas an archive is deleted every year",
+      "D": "A backup is a copy kept to recover from failure or loss, while an archive is long-term retention of records that have lasting value"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Backups exist to restore recent working data after a failure and are overwritten in cycles, whereas archives preserve records of enduring value for as long as the retention rules require. Treating backups as an archive risks losing records when the backup cycle rolls over."
+  },
+  {
+    "sub": "Office Procedure in Digital Environment",
+    "q": "In a digital office, an incoming letter has just been scanned at the central registry. What is the next step in office procedure?",
+    "opts": {
+      "A": "It is diarised in the system, creating an electronic receipt",
+      "B": "It is dispatched to an addressee outside the office",
+      "C": "It is recorded and assigned a retention category",
+      "D": "It is signed with a Digital Signature Certificate by the dealing hand"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Scanning is followed by diarisation, which registers the communication as a receipt that can then be marked to an officer or attached to a file. Recording happens only at the other end of the process, when action on a file is complete."
+  },
+  {
+    "sub": "Office Procedure in Digital Environment",
+    "q": "In office procedure, the part of a file that carries the officers' remarks, analysis and recommendations on the issue under consideration is called the:",
+    "opts": {
+      "A": "Correspondence portion",
+      "B": "Note portion",
+      "C": "Appendix to correspondence",
+      "D": "Dispatch register"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "The note portion holds the successive notes recorded by officers as a case moves up for decision, while the correspondence portion holds the letters received and issued. The dispatch register records outgoing communications and is not part of the file."
+  },
+  {
+    "sub": "Office Procedure in Digital Environment",
+    "q": "In office procedure, 'recording' a file means:",
+    "opts": {
+      "A": "Marking the file to a senior officer for orders",
+      "B": "Entering an incoming letter in the diary",
+      "C": "Closing the file after action on it is complete and assigning it a retention category",
+      "D": "Making a photocopy of the file for the section's reference"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Recording is the closing action: once the issues in a file have been disposed of, the file is closed, indexed and categorised so that its retention period is fixed. Entering an incoming letter is diarisation, which happens at the start of the process."
+  }
+]

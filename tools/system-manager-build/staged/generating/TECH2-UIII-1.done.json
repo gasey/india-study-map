@@ -1,0 +1,184 @@
+[
+  {
+    "sub": "Domain Name System",
+    "q": "When a user types www.mizoram.gov.in into a web browser, what is the main job of the Domain Name System?",
+    "opts": {
+      "A": "To encrypt the data sent between the browser and the website",
+      "B": "To translate the typed domain name into the IP address of the server hosting the site",
+      "C": "To compress the web pages so that they download faster",
+      "D": "To check that the content of the website is safe to view"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "DNS is the naming service that maps human-readable domain names to the numeric IP addresses that computers actually use to connect, so the browser can reach the correct server. Encryption of the connection is done by HTTPS/TLS, which is a separate mechanism from name resolution."
+  },
+  {
+    "sub": "Domain Name System",
+    "q": "In the web address www.mizoram.gov.in, which part is the top-level domain (TLD)?",
+    "opts": {
+      "A": "www",
+      "B": "mizoram",
+      "C": "gov",
+      "D": "in"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Domain names are read from right to left, so the last label, in, is the top-level domain, in this case India's country-code TLD. Under it, gov.in is the second-level domain reserved for government bodies, while www is only a host label at the front of the name."
+  },
+  {
+    "sub": "DOM Manipulation",
+    "q": "What is the Document Object Model (DOM) of a web page?",
+    "opts": {
+      "A": "A file format used to store web pages on the server's hard disk",
+      "B": "A style sheet language used to control the layout of a page",
+      "C": "A tree-structured representation of the page's elements that a script can read and change",
+      "D": "A protocol used to transfer web pages from the server to the browser"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "When a browser loads a page it builds the DOM, a tree of objects in which each element, attribute and piece of text is a node that JavaScript can inspect, modify, add or remove, with the display updating immediately. Controlling layout and appearance is the job of CSS, which is a separate language from the DOM."
+  },
+  {
+    "sub": "DOM Manipulation",
+    "q": "In JavaScript, what is an event listener attached to a DOM element used for?",
+    "opts": {
+      "A": "To run a piece of code whenever a specified action, such as a click, happens on that element",
+      "B": "To load an external style sheet into the page",
+      "C": "To check the page's HTML for spelling and syntax errors before it is displayed",
+      "D": "To measure how long the page takes to download from the server"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "An event listener registers a function that the browser calls when a named event, such as a click, key press or form submission, occurs on the element, which is how a page responds to the user without reloading. Downloading and rendering the page itself happens before any listener fires and is not what a listener controls."
+  },
+  {
+    "sub": "REST APIs (Concept)",
+    "q": "In a REST API, which HTTP method is normally used to fetch a resource without changing it?",
+    "opts": {
+      "A": "POST",
+      "B": "GET",
+      "C": "PUT",
+      "D": "DELETE"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "GET simply requests a copy of the resource identified by the URL and is meant to be safe, that is, repeating it leaves the data on the server unchanged. POST is used to send new data to the server and may create a record each time it is repeated, so it is not a read-only method."
+  },
+  {
+    "sub": "REST APIs (Concept)",
+    "q": "A REST API is described as 'stateless'. What does this mean?",
+    "opts": {
+      "A": "The API can return only data that never changes",
+      "B": "The server stores each client's session details between requests",
+      "C": "Each request carries all the information needed to process it, and the server keeps no memory of the client's earlier requests",
+      "D": "The API works only when the client and the server are on the same local network"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Statelessness means every request is self-contained, carrying its own identification and parameters, so any server in a pool can handle it and nothing about the previous request needs to be remembered. Keeping a per-client session on the server is exactly the stateful behaviour that REST avoids."
+  },
+  {
+    "sub": "JSON",
+    "q": "What does the abbreviation JSON stand for?",
+    "opts": {
+      "A": "JavaScript Object Notation",
+      "B": "Java Standard Object Naming",
+      "C": "JavaScript Online Network",
+      "D": "Joined Structured Object Notation"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "JSON stands for JavaScript Object Notation, a lightweight text format for exchanging data, most commonly between a web page and a server. It has nothing to do with the Java language, which is a different language from JavaScript."
+  },
+  {
+    "sub": "JSON",
+    "q": "Although its name mentions JavaScript, which of the following statements about JSON is correct?",
+    "opts": {
+      "A": "JSON data can be opened only inside a web browser",
+      "B": "JSON data can be produced and read only by programs written in JavaScript",
+      "C": "JSON is a compiled binary format and cannot be read as ordinary text",
+      "D": "JSON is a plain-text data format that programs written in almost any language can produce and read"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "JSON only borrowed its notation from JavaScript; it is a language-independent text format, and Python, Java, C#, PHP and most other languages have built-in support for reading and writing it. Because it is plain text made up of objects, arrays, strings, numbers, true, false and null, it can also be opened in any ordinary text editor."
+  },
+  {
+    "sub": "Progressive Web Applications (Introduction)",
+    "q": "Which of the following best describes a Progressive Web Application (PWA)?",
+    "opts": {
+      "A": "A website whose images gradually load from top to bottom as the user scrolls",
+      "B": "A web application built with standard web technologies that can be installed on a device's home screen and behave much like a native app",
+      "C": "A desktop program written in C++ whose only purpose is to display web pages",
+      "D": "A server-side program that generates HTML pages on demand from a database"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "A PWA is an ordinary web app, delivered over the web and built with HTML, CSS and JavaScript, that additionally can be added to the home screen, run in its own window, work offline and show notifications, so it bridges the gap between web and native apps. Generating HTML on the server describes a conventional dynamic website, which is not what makes an app 'progressive'."
+  },
+  {
+    "sub": "Progressive Web Applications (Introduction)",
+    "q": "Which component of a Progressive Web Application makes it possible for the app to keep working when the device has no internet connection?",
+    "opts": {
+      "A": "The site's CSS style sheet",
+      "B": "The DNS resolver on the device",
+      "C": "The service worker, a background script that can store and serve cached files",
+      "D": "The web server's access log"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "A service worker is a script the browser runs in the background, separate from the page, which can intercept network requests and answer them from a local cache, allowing the app to open and function offline. A style sheet only controls appearance and cannot supply the app's data or pages."
+  },
+  {
+    "sub": "Web Accessibility",
+    "q": "The Web Content Accessibility Guidelines (WCAG) are organised around four principles. Which set names them correctly?",
+    "opts": {
+      "A": "Perceivable, Operable, Understandable, Robust",
+      "B": "Portable, Optimised, Uniform, Responsive",
+      "C": "Public, Open, Usable, Reliable",
+      "D": "Perceivable, Ordered, Universal, Readable"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "WCAG groups its requirements under Perceivable, Operable, Understandable and Robust, often remembered as POUR, covering things such as text alternatives for images, full keyboard operation, clear language and adequate colour contrast. The other lists mix in performance and design terms that are not accessibility principles."
+  },
+  {
+    "sub": "Web Accessibility",
+    "q": "Which Indian law requires that information and communication services, including government websites, be made accessible to persons with disabilities?",
+    "opts": {
+      "A": "The Information Technology Act, 2000",
+      "B": "The Rights of Persons with Disabilities Act, 2016",
+      "C": "The Right to Information Act, 2005",
+      "D": "The Digital Personal Data Protection Act, 2023"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "The Rights of Persons with Disabilities Act, 2016 obliges the government to ensure that information and communication technology, including websites and electronic services, is accessible, and the Guidelines for Indian Government Websites (GIGW) set out how departments should meet this in practice. The Information Technology Act deals with electronic records, digital signatures and cyber offences, not accessibility."
+  },
+  {
+    "sub": "Web Security Fundamentals",
+    "q": "A padlock icon shown beside a website's address in the browser indicates that",
+    "opts": {
+      "A": "the website has been inspected and approved by the government",
+      "B": "the website cannot be attacked by hackers",
+      "C": "the connection between the browser and the website is encrypted using HTTPS",
+      "D": "the website does not store any cookies on the user's computer"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "The padlock only means the traffic is protected by TLS, so data such as passwords cannot be read or altered in transit by anyone intercepting the connection. It says nothing about whether the site itself is honest, and fraudulent sites can and do obtain valid certificates, so a padlock is not a guarantee of trustworthiness."
+  },
+  {
+    "sub": "Web Security Fundamentals",
+    "q": "Which description best fits an SQL injection attack on a website?",
+    "opts": {
+      "A": "Flooding the web server with so many requests that it stops responding to genuine users",
+      "B": "Automatically trying large numbers of password combinations until one works",
+      "C": "Intercepting and reading data while it travels between the browser and the server",
+      "D": "Entering specially crafted text in an input field so that it is treated as part of a database command"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "In SQL injection the attacker supplies input that the application pastes straight into a database query, so the input is executed as instructions and can reveal or destroy data; the defence is to validate input and use parameterised queries on the server, never relying on browser-side checks alone. Overwhelming a server with traffic is a denial-of-service attack, which is a different category of threat."
+  }
+]

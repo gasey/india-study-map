@@ -1,0 +1,232 @@
+{
+  "srcKey": "CO2016B-P1",
+  "brief": "tools/bank-rebuild/SOLVE_BRIEF.md",
+  "instructions": "Answer each question independently. Write a JSON object keyed by question id: {\"<id>\": {\"ans\": \"A\"|\"B\"|\"C\"|\"D\", \"conf\": \"high\"|\"medium\"|\"low\", \"exp\": \"1-3 sentences\"}} to this filename with .todo.json replaced by .solved.json. No official answer key exists for these papers - your answer becomes the app's answer. Do not inflate confidence.",
+  "questions": [
+    {
+      "id": "CO2016B-P1-61",
+      "srcKey": "CO2016B-P1",
+      "no": 61,
+      "paper": "TECH1",
+      "q": "Which of the following is correct syntax in Excel?",
+      "opts": {
+        "A": "IF(LogicalTest, TrueResult, FalseResult)",
+        "B": "IF(LogicalTest, (TrueResult, FalseResult))",
+        "C": "IF(LogicalTest, TrueResult) (LogicalTest, FalseResult)",
+        "D": "IF(LogicalTest, TrueResult), IF(LogicalTest, FalseResult)"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-62",
+      "srcKey": "CO2016B-P1",
+      "no": 62,
+      "paper": "TECH1",
+      "q": "If the cell B1 contains the formula =$A$1, which of the following statements is true?",
+      "opts": {
+        "A": "There is a relative reference to cell A1",
+        "B": "There is an absolute reference to cell A1",
+        "C": "Further changes in value of A1 will not affect the value of B1",
+        "D": "Further changes in value of B1 will affect the value of A1"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-63",
+      "srcKey": "CO2016B-P1",
+      "no": 63,
+      "paper": "TECH1",
+      "q": "When all the numbers between 0 and 100 in a range should be displayed in Red Color,",
+      "opts": {
+        "A": "Use =if() function to format the required numbers red",
+        "B": "Apply Conditional Formatting command on Format menu",
+        "C": "Select the cells that contain number between 0 and 100 then click Red color on Text Color tool",
+        "D": "All of above"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-64",
+      "srcKey": "CO2016B-P1",
+      "no": 64,
+      "paper": "TECH1",
+      "q": "Which of the following can you paste selectively using Paste Special command?",
+      "opts": {
+        "A": "Validation",
+        "B": "Formats",
+        "C": "Formulas",
+        "D": "All of these"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-65",
+      "srcKey": "CO2016B-P1",
+      "no": 65,
+      "paper": "TECH1",
+      "q": "Which of the following series type is not valid for Fill Series dialog box?",
+      "opts": {
+        "A": "Linear",
+        "B": "Growth",
+        "C": "Autofill",
+        "D": "Time"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-66",
+      "srcKey": "CO2016B-P1",
+      "no": 66,
+      "paper": "TECH1",
+      "q": "A numeric value can be treated as label value if __________ precedes it.",
+      "opts": {
+        "A": "Apostrophe (')",
+        "B": "Exclamation (!)",
+        "C": "Hash (#)",
+        "D": "Tilde (~)"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-67",
+      "srcKey": "CO2016B-P1",
+      "no": 67,
+      "paper": "TECH1",
+      "q": "Which Chart can be created in Excel?",
+      "opts": {
+        "A": "Area",
+        "B": "Line",
+        "C": "Pie",
+        "D": "All of these"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-68",
+      "srcKey": "CO2016B-P1",
+      "no": 68,
+      "paper": "TECH1",
+      "q": "Getting data from a cell located in a different sheet is called",
+      "opts": {
+        "A": "Accessing",
+        "B": "Referencing",
+        "C": "Updating",
+        "D": "Functioning"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-69",
+      "srcKey": "CO2016B-P1",
+      "no": 69,
+      "paper": "TECH1",
+      "q": "What is a slide-title master pair?",
+      "opts": {
+        "A": "The title area and text area of a specific slide",
+        "B": "A slide master and title master merged into a single slide",
+        "C": "A slide master and title master for a specific design template",
+        "D": "All of the above"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-70",
+      "srcKey": "CO2016B-P1",
+      "no": 70,
+      "paper": "TECH1",
+      "q": "In the context of animations, what is a trigger?",
+      "opts": {
+        "A": "An action button that advances to the next slide",
+        "B": "An item on the slide that performs an action when clicked",
+        "C": "The name of a motion path",
+        "D": "All of above"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-71",
+      "srcKey": "CO2016B-P1",
+      "no": 71,
+      "paper": "TECH1",
+      "q": "Special effects used to introduce slides in a presentation are called",
+      "opts": {
+        "A": "Effects",
+        "B": "Custom animations",
+        "C": "Transitions",
+        "D": "Present animations"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-72",
+      "srcKey": "CO2016B-P1",
+      "no": 72,
+      "paper": "TECH1",
+      "q": "How can you create a uniform appearance by adding a background image to all slides?",
+      "opts": {
+        "A": "Create a template",
+        "B": "Edit the slide master",
+        "C": "Use the autocorrect wizard",
+        "D": "All of these"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-73",
+      "srcKey": "CO2016B-P1",
+      "no": 73,
+      "paper": "TECH1",
+      "q": "What is defined by the handout master?",
+      "opts": {
+        "A": "Slide formatting",
+        "B": "Layout of audience handout notes",
+        "C": "Handout content formatting for Microsoft Word export",
+        "D": "All of the above"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-74",
+      "srcKey": "CO2016B-P1",
+      "no": 74,
+      "paper": "TECH1",
+      "q": "Which command brings you to the first slide in your presentation?",
+      "opts": {
+        "A": "Next slide button",
+        "B": "Page up",
+        "C": "Ctrl + Home",
+        "D": "Ctrl + End"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-75",
+      "srcKey": "CO2016B-P1",
+      "no": 75,
+      "paper": "TECH1",
+      "q": "To maintain the perspective (height and width ratio) of an object when resizing, you need to",
+      "opts": {
+        "A": "Press and hold the shift key while dragging a corner sizing handle",
+        "B": "Press and hold the alt + ctrl keys while dragging a middle handle",
+        "C": "Drag a corner sizing handle",
+        "D": "(a) and (c)"
+      },
+      "passageTitle": null,
+      "passage": null
+    }
+  ]
+}

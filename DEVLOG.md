@@ -9,6 +9,646 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-08-29 — System Manager Phase 4 complete: 843 questions, every technical subtopic covered, and the app can finally run a full-length mock
+
+**What shipped:** Phase 4 finished — **363 authored questions** across all nine
+uncovered units, bringing the bank to **843 questions, every one carrying an
+explanation** (453 past-paper, 390 authored).
+
+**Every unit now has at least 1.5 questions per mark:**
+
+| Unit | Marks | Questions | Q/mark |
+|---|---|---|---|
+| TECH1 I Fundamentals | 60 | 115 | 1.9 |
+| TECH1 II Operating Systems | 25 | 74 | 3.0 |
+| TECH1 III Word | 20 | 43 | 2.1 |
+| TECH1 IV Excel | 25 | 48 | 1.9 |
+| TECH1 V PowerPoint | 20 | 30 | 1.5 |
+| TECH2 I Networking | 35 | 66 | 1.9 |
+| TECH2 II DBMS | 35 | 85 | 2.4 |
+| TECH2 III Web | 25 | 64 | 2.6 |
+| TECH2 IV Cyber/AI | 30 | 99 | 3.3 |
+| TECH2 V IT Governance | 25 | 59 | 2.4 |
+
+TECH2 Unit I — the worst ratio this morning at 35 marks and 16 questions — is now
+at 66. The only zero rows left are GE Précis and Letter Writing, which are
+**handwritten in the real exam and can never have MCQs**; they are covered by
+concepts instead.
+
+**The app can now simulate the real paper.** Verified in the browser: a
+75-question, 2-hour Technical Paper II mock runs in exam mode. Previously every
+paper was short of its target and the mock sampled whatever existed. All three
+papers now exceed 75 answerable questions (GE 160, TECH1 294, TECH2 373).
+
+**Concepts with drillable questions went from 76 to 134 of 149** — the
+alternation was the right call. A concept with no questions is half a feature,
+and finishing all 293 concepts first would have left most of them that way.
+
+**Why the concept-first ordering mattered.** Six of the ten batches were told to
+read `concepts.js` and test what the existing concepts teach — same terminology,
+same flagged traps. Agents reported doing exactly that, citing concept ids and
+reusing their near-miss distractors: two-phase commit against 2PL, transaction
+log against audit trail with the names swapped, JSON-in-PostgreSQL not making it
+NoSQL, "containers are more secure" as a deliberately wrong option. The result is
+a closed loop — read the concept, drill questions that test that concept's own
+stated traps.
+
+**Phase 3's corrections propagated all the way through.** Agents were told any
+SRAM/DRAM question must have DRAM slower, and prototyping-vs-evolutionary must
+follow the corrected reading. So the bank's wrong answers, the blind-solve
+corrections, the concepts and now the generated questions all agree.
+
+**Answer-letter spread across all 363: A 26% / B 24% / C 26% / D 22%** — no
+letter dominant, so the set cannot be gamed by pattern-matching.
+
+**Judgement the agents showed, worth recording as evidence the brief works:**
+- One recast a resistive-vs-capacitive touchscreen question because "responds to
+  any object" would have made infrared equally correct.
+- The aptitude agent kept Data Interpretation figures inline ("1,250 rising to
+  1,500") because the schema is text-only and "refer to the table below" would
+  have produced an unusable question — the same failure mode that quarantined 7
+  figure-dependent past questions.
+- Several declined to name Azure products, Copilot licensing, ITIL version
+  numbers, GFR rule numbers or Wi-Fi throughput figures, per the
+  no-invented-specifics rule, and said so.
+
+**What's still open:**
+
+- **144 of 293 concepts remain**: TECH1 Units II–V, TECH2 Units III and V, and
+  the four MCQ General English units. 15 concepts still have no questions.
+- **`generate.py --merge` silently drops unknown fields.** One agent added a
+  non-schema `why` key; output was correct, but a genuine typo (`exp` vs
+  `explanation`) would vanish just as quietly. Worth warning on unknown keys.
+- The 16 Phase 3 disagreements still want a human decision, and the MIC General
+  English paper's lost direction lines are still unrecovered.
+
+---
+
+## 2026-08-28 (night) — System Manager Phase 5 begins: the Study tab is no longer empty, and the 25 handwritten General English marks finally have material
+
+**What shipped:** the Phase 5 concept pipeline, and the first and most important
+slice of its content — **15 concepts covering Précis Writing (10 marks) and
+Letter Writing (15 marks)**.
+
+1. **`concepts.py` + `CONCEPT_BRIEF.md`.** Export/merge either the whole 293-item
+   set or a named slice (`--only GE:1,GE:2`). The merge validates word count
+   (90–520 across `def`+`exp`, target ~240), rejects HTML leakage — `app.js`
+   escapes these strings so a stray tag renders literally — checks facts/traps
+   counts, requires every `sub` to match a target verbatim, and verifies that
+   every `rel` cross-link resolves to a concept that exists, since an unresolved
+   one renders as an empty "Study alongside" chip.
+
+2. **The General English breakdown is derived, and says so.** The official
+   syllabus lists GE's six components with their marks and enumerates *no*
+   subtopics. Rather than invent leaves and pass them off as official, the
+   derived breakdown lives in `concepts.py`, and every GE concept ships with
+   `derived: true` plus a provenance string stating that the official syllabus
+   enumerates none. Technical concepts still map 1:1 onto the 259 real leaves.
+
+3. **Why these 15 first.** Précis and Letter Writing are handwritten in the real
+   exam. They cannot be drilled as MCQs, so there is not one practice question
+   for them anywhere in the app and there never can be — these concepts are the
+   only place 25 of the exam's 400 marks are taught. Both units end with a full
+   worked example (a 210-word passage compressed to 70 with a note on what was
+   cut and why; a complete official letter to a Deputy Commissioner with a note
+   on why each part sits where it does), because format and compression are learnt
+   by seeing one done.
+
+4. **Fixed the `rel` cross-link resolution.** It matched on `sub` alone, so with
+   six leaf names reused across units a link to "Encryption" could resolve to
+   Cyber Security when the author meant Database Security. Now resolves
+   nearest-first: same unit, then same paper, then anywhere. Same bug class as
+   the question↔concept link fixed earlier today.
+
+**Why:** with 579 questions all carrying explanations, practice was reasonably
+served and the Study tab was the one tab with nothing in it — the app was
+practice-only. Within that gap, the handwritten GE marks were the sharpest point:
+not under-covered but *entirely* uncovered, and uncoverable by any amount of
+further question generation.
+
+Verified in the browser: 15 concepts in the tree, detail pane renders def, three
+explanation paragraphs, 5 facts, 4 traps and 3 working cross-link chips; the
+worked précis renders as 10 paragraphs and the worked letter as 19 with its
+layout intact; no HTML leakage. The pane correctly says "No questions tagged to
+this sub-topic yet" for these — which is honest, not a gap: there will never be
+MCQs for a handwritten component.
+
+**Follow-up the same night — TECH2 Unit IV concepts done, 48/293 total.** All 33
+Unit IV subtopics now have a concept, so the 30-mark block that had nothing this
+morning now has 99 questions *and* 12,600 words explaining them. **The
+study→practice loop is closed for it**: every one of the 33 concepts resolves to
+its 3 authored questions on the full `paper|unit|sub` triple, and the "Practise 3
+questions" button drills straight from the concept into them — verified in the
+browser end to end.
+
+Run as one agent per batch, each told to write its file before doing anything
+else. After three session-limit deaths today that granularity matters: a death
+now costs one batch, and `--export` skips concepts already on disk.
+
+The batching was by confusion cluster, not just by count — Encryption / Digital
+Certificates / PKI to one author so they stay distinct rather than overlapping,
+and the AI ⊃ ML ⊃ Deep Learning nesting to another so it is stated consistently.
+
+**Factual spot-check passed.** The agents reached for Indian-government specifics
+and every one I checked is correct: CERT-In under §70B of the IT Act 2000 with
+its 2022 six-hour incident reporting and 180-day log directions, NCIIPC for
+critical information infrastructure, 1930 as the cyber-fraud helpline, Cyber
+Swachhta Kendra as the Botnet Cleaning and Malware Analysis Centre, the CCA
+licensing CAs and operating the Root Certifying Authority of India, Class 3 as the
+surviving DSC class, Bhashini under MeitY, and the DPDP Act's data fiduciary /
+data principal terms. They also hedged where told to — no DSC validity periods, no
+retention-period years, no model parameter counts or release dates.
+
+**Second follow-up — TECH1 Unit I done, 93/293 concepts, ~24,800 words.** The
+exam's largest unit (60 marks, 45 leaves) is now fully written. Unlike Unit IV
+these concepts back onto *real past questions* — all 71 of Unit I's tagged
+questions sit under 23 of the 45 concepts, so "Practise 5 questions" on Cache
+Memory drills genuine 2016 Computer Operator items.
+
+Five agents, one batch each, all five survived. Batching was again by confusion
+cluster: NAS/SAN and backup-vs-DR to one author, the SRAM/DRAM and NVMe
+distinctions to another, system-vs-application software and
+prototyping-vs-evolutionary to a third.
+
+**Phase 3's findings were fed back into Phase 5, and it paid off.** Two of the
+blind solve's disagreements with the bank became explicit traps in the study
+material: the SRAM/DRAM concept now carries "options claiming DRAM is faster are
+wrong, and this error appears in real papers", and the SDLC concept distinguishes
+throwaway from evolutionary prototyping — the two questions where the bank's
+stored answer was wrong. Study material and corrected answers now agree instead
+of contradicting each other.
+
+**Two agents did better than instructed, worth noting as pattern.** One checked
+the already-written TECH2 "AI Ethics and Responsible AI" file before writing its
+own Unit I "AI Ethics", and deliberately kept to the Unit I framing rather than
+duplicating. Another flagged DBMS classification (system or application software)
+as genuinely textbook-dependent rather than asserting one side. Both are the
+right instinct for content someone will revise from.
+
+Factual spot-checks passed again: optical media specs (CD 780 nm/700 MB, DVD
+650 nm/4.7 GB, Blu-ray 405 nm/25 GB), ISO/IEC 7816 and 14443 for contact and
+contactless smart cards, API Setu, MeghRaj, GIGW, C-DAC's BOSS, the Public
+Records Act 1993 and RPwD Act 2016, and Indian copyright protecting a computer
+programme as a literary work. Agents again hedged where told — no dpi figures, no
+licence version numbers, no DPDP sections, no Digital India launch years.
+
+Current totals: 579 questions, 93 concepts, 5.5 facts and 4.0 traps per concept,
+every concept carrying at least one cross-link. `tsc` clean, no console errors.
+
+**Third follow-up — TECH2 Units I and II done. 149/293 concepts, ~40,400 words,
+185 of the exam's 400 marks now carrying study material.**
+
+| Unit | Marks | Concepts |
+|---|---|---|
+| TECH1 I — Fundamentals | 60 | 45/45 |
+| TECH2 I — Computer Networking | 35 | 32/32 |
+| TECH2 II — Database Management | 35 | 24/24 |
+| TECH2 IV — Cyber Security / AI | 30 | 33/33 |
+| GE 1–2 — Précis + Letter Writing | 25 | 15/15 |
+
+**The write-first instruction is now proven, and should be standard here.** A
+session limit hit mid-round and the harness reported four agents as failed — but
+three of them had already written their JSON and only one batch was actually
+lost. Contrast the first tagging round this morning, where two agents died
+holding everything in memory and lost all of it. Tell every long-running agent to
+write its output before verifying, and make the batch the unit of loss.
+
+**Handling the duplicate leaf names from the authoring side, not just the lookup
+side.** Earlier today the *lookup* was fixed so a question doesn't surface under
+the wrong unit's concept. This round the *prompts* were fixed too: the Unit I
+agent was told to write `Firewalls` as a network device and explicitly not the
+security control, the Unit II agent to write `Tables` as a database relation and
+not the HTML tag, and `Encryption` as at-rest/in-transit/TDE/key-management
+rather than general cryptography. Verified in the shipped data — the two
+`Encryption` concepts read differently and drill different question pools (Unit
+II has 0 tagged, Unit IV has 3), which is exactly what the unit-aware fix was for.
+
+**Past-paper questions were fed into the concept prompts again**, so the study
+material answers what the papers actually ask: which OSI layer does source-to-
+destination error checking (transport), which device broadcasts (hub), which
+topology gives maximum connectivity (mesh), what the external level maps to
+(view level), and that BCNF is stricter than 3NF.
+
+Spot-checks passed: SQL Server 1433 and PostgreSQL 5432, the DORA sequence,
+share-vs-NTFS permissions resolving to the most restrictive, the NIST five
+essential cloud characteristics. Agents again declined to invent — no Azure
+product names, no Windows Server edition matrices, no per-standard Wi-Fi
+throughput figures, no licence version numbers.
+
+**What's still open:**
+
+- **144 of 293 concepts remain**: TECH1 Units II–V (Operating Systems 25, Word
+  20, Excel 25, PowerPoint 20), TECH2 Units III and V (Web 25, IT Governance 25),
+  and the four MCQ General English units.
+- **Only 76 of 149 concepts have questions tagged to them.** The rest wait on
+  Phase 4's remaining 264 authored questions. Worth alternating now rather than
+  finishing all concepts first — a concept with no drill is half a feature.
+- **Phase 4 has five of six units left** — 264 questions, worst ratio being
+  TECH2 Unit I (35 marks, 16 questions, 25 of 32 leaves bare).
+- **Session limits interrupted this three times today.** Both concept agents died
+  before writing anything, so these 15 were authored inline instead. For a small
+  high-value slice that was the right call; for the remaining 278 it will not
+  scale, so those want the incremental-write agent pattern that worked for
+  tagging and solving, run in mark-weighted slices.
+
+---
+
+## 2026-08-28 (evening) — System Manager Phase 4 closes the 30-mark hole; two more bank data-loss classes found (phantom options, lost underlines); 579 questions live
+
+**What shipped:**
+
+1. **Phase 4 — TECH2 Unit IV authored from zero to 99 questions.** 30 of the
+   exam's 400 marks had no past-paper coverage at all: MUDAL added Cyber
+   Security / AI / Digital Governance in the July 2026 syllabus update and the
+   2016 Computer Operator papers predate all of it. `generate.py --export` sizes
+   each unit's allocation from unit marks *and* existing coverage (a 30-mark unit
+   with nothing gets more per leaf than a 20-mark unit already half covered), and
+   `--merge` validates every `sub` against the taxonomy, rejects duplicate
+   options / "all of the above" / short explanations, and warns on answer-letter
+   skew. Result: **all 33 leaves covered, answer spread A 25% / B 25% / C 26% /
+   D 23%.** `GENERATE_BRIEF.md` puts the difficulty calibration first, because
+   pitching at CS-degree level is the obvious failure mode here — the bar for
+   this post is any graduate plus a one-year computer diploma.
+
+2. **Found a fabricated-content bug I had introduced.** The sentence-analysis
+   blocks in both General English papers print only three options, and the bank
+   pads `options` to length 4 with a literal `null`. `harvest.py` ran that
+   through `str()`, producing **13 questions with a phantom option D reading
+   "None"** — which looks exactly like "None of these" and is pickable. Both my
+   validators missed it: four keys were present and `"None"` is truthy. Now
+   filtered at source with the `answerIndex` remapped onto the surviving options,
+   and `assemble.py` rejects placeholder option text and any `ans` pointing
+   outside the options that exist. `app.js` already handled 3-option questions.
+   Verified: 13 questions render with exactly three options, zero bare "None",
+   and no solver had picked the phantom D.
+
+3. **Fourth bank data-loss class: underline markers.** `SOLVE_BRIEF.md` says
+   underlined words arrive as `__like this__`. The bank carries them for 18 of
+   the SAD General English questions but **lost them for Q39–44 and Q54–58 — the
+   two blocks where the underline IS the question.** "Identify the parts of
+   speech for the underlined word in: This phone is much better than that" is
+   unanswerable as stored; much/better/than/that are four different parts of
+   speech and the options offer four different answers. Recovered by reading a
+   300dpi render of pages 5–6 (pdftotext cannot see underlining) into
+   `patch_underlines.py`. `assemble.py` now **fails the build** if any question
+   mentions an underlined word with no marker surviving — that check is what
+   found the second block after the first was fixed.
+
+   **One of them is provably defective:** Q41 underlines "effect", a noun, but
+   the printed options are Preposition / Verb / Adverb / Adjective. No correct
+   answer exists. The bank said Verb, the blind solve said Preposition — both
+   wrong. It now ships low-confidence with the defect stated.
+
+4. **`qText()` renders `__markers__` as real underlines** — and the first cut of
+   it was wrong in a way only the browser showed. `/__(.+?)__/` matched five
+   underscores inside a fill-in-the-blank run (`preparation __________ the
+   function`), rendering 54 stray underlined `_` characters. The capture has to
+   exclude underscores. Verified: 11 correct underlines, 18 blanks intact, zero
+   strays.
+
+**Why:** Phase 4 exists because roughly half of Technical Paper II's syllabus
+postdates the only past papers that match it. Unit IV was the extreme case —
+30 marks, nothing. The two bugs above were both found *while* doing Phase 4
+rather than by looking for them, which is the pattern for this bank: every time
+a new consumer touches the data, another thing the extractor dropped surfaces.
+Four classes so far — questions, passages, underline markers, and option lists
+padded with nulls. Assume there are more.
+
+**Current state:** 579 questions, all 579 with explanations, 485 high confidence /
+58 medium / 9 low / 27 unrated (the authored jso-prep ones). 419 tagged to a leaf.
+7 quarantined, all figure-dependent. `tsc` clean, no console errors, all 8 tabs
+render.
+
+**What's still open:**
+
+- **Phase 4 is one unit of six.** Still uncovered: TECH2 Unit I (35 marks, only
+  16 questions, 25 of 32 leaves bare) is the worst remaining ratio, then TECH1
+  Unit II (21 of 29 leaves), TECH1 Unit I (22 of 45), TECH2 Unit V (16 of 21).
+  `generate.py --export` with no `--unit` plans all of them.
+- **The MIC General English paper lost its direction lines.** The bank schema has
+  no `direction` field at all, so the shared instruction above each block is gone.
+  The SAD paper survived only because its extractor folded the direction into each
+  question stem. This left the MIC sentence-analysis block (Q49–56) ambiguous and
+  the solver had to infer the task — it flagged this itself, and its answers there
+  disagree with the bank in three places. Worth recovering the way the underlines
+  were.
+- **One solver self-reported a compromised blind diff:** while hunting for the
+  missing underline markers it opened `staged/harvest.json` and saw the withheld
+  bank answers for CO2016A-GE-39–48. It stopped, re-reasoned independently, and
+  in fact disagrees with the bank on GE-41 — but the agreement figure for those
+  10 questions is not fully independent evidence and shouldn't be counted as such.
+  GE-39–44 have since been overridden by the underline recovery anyway.
+- **Concepts are still empty** (Phase 5) — the Study tab is the one tab with
+  nothing in it, and the only place the 25 handwritten GE marks can be taught.
+
+---
+
+## 2026-08-28 (later still) — System Manager: all 487 questions tagged; Phase 3 verification finds the bank's answers are ~6% wrong; a leaf-name collision was cross-linking DBMS questions to HTML concepts
+
+**What shipped:**
+
+1. **Every question tagged — 487/487.** `tagging.py --export/--merge` splits into
+   40-question batches carrying only that paper's allowed leaves, and the merge
+   rejects any tag that isn't an exact `(paper, unit, sub)` leaf. Spread:
+   TECH1 Unit I 70 / II 32 / III 22 / IV 24 / V 14; TECH2 Unit I 16 / II 63 /
+   III 50 / V 27; GE unit 5 (vocabulary) 63 / 6 (sentence formation) 33 /
+   3 (comprehension) 32 / 4 (parts of speech) 32. TECH1's distribution tracks the
+   real mark weighting well — Unit I is 60 of 150 marks (40%) and drew 43% of the
+   questions.
+
+2. **TECH2 Unit IV has zero questions, confirmed from data.** Cyber Security /
+   AI / Digital Governance is 30 marks and the 2016 papers contain nothing for
+   it. The guide predicted this from reading the syllabus; it is now measured.
+   `tagging.py --merge` writes `staged/coverage-gaps-*.json` — 70 of 120 TECH1
+   leaves and 90 of 133 TECH2 leaves have no question at all. That is Phase 4's
+   target list, derived rather than guessed.
+
+3. **Fixed a live cross-linking bug: six leaf names are reused across units.**
+   `conceptKey` is `paper|unit|sub`, but the reverse lookup at app.js:455 matched
+   `paper` + `sub` only. In the shipped data `TECH2`/`Tables` is 2 MS-Access
+   questions (Unit II, Database Administration) **and** 3 HTML `<table>`
+   questions (Unit III, HTML5) — all five surfaced under both concepts, so
+   someone studying HTML tables got served MS Access questions. Also affects
+   `Encryption` (Database Security / Cyber Security), `Firewalls` (Network
+   Devices / Cyber Security), and TECH1's `SmartArt`, `Accessibility Features`,
+   `Microsoft 365 Collaboration`. Now matches the full triple. **The System
+   Analyst app has the identical line and the same latent bug.**
+
+4. **Phase 3 solve pass: blind, then diffed.** `solve.py` exports questions
+   *without* the bank's existing answer. Rubber-stamping is the failure mode that
+   matters — a solver shown "the answer is (b)" will tend to justify (b). Solving
+   independently and diffing gives real evidence: agreement means two independent
+   derivations concur; disagreement means one is definitely wrong, so the merge
+   **caps confidence at medium** regardless of what the solver claimed and writes
+   a prov string admitting the conflict. Comprehension questions carry their
+   recovered passage, without which a solver would be guessing.
+
+   Both Technical Paper I sittings done — 150 answers, 94% agreement with the
+   bank, **9 disagreements**.
+
+**Why this mattered — the bank's inferred answers are roughly 6% wrong,** and every
+one of those would have taught a false fact before a real exam. Four I verified
+independently and the solver is right in all four:
+
+| Question | Bank | Verified | Fact |
+|---|---|---|---|
+| Max columns in a Word table | 65 | **63** | Word's limit is 63 |
+| 8 KB memory, associative cache word size | 20 bits | **21 bits** | 13 tag + 8 data |
+| Chapters in the IT Act 2000 | 11 | **13** | 13 chapters, 94 sections, 4 schedules |
+| Why DRAM is used as main memory | "higher speed" | "less power" | DRAM is *slower* than SRAM |
+
+The IT Amendment Bill one is the nicest catch: the bank said October 2008, but the
+bill *passed* in December 2008 and came into *force* in October 2009 — the bank had
+conflated the two. That is exactly the class of error a confirm-the-existing-answer
+pass would have rubber-stamped.
+
+**What's still open:**
+
+- **120 General English answers still verifying** (2 agents running). 27 jso-prep
+  questions stay `unrated` by design — they were authored with explanations, not
+  derived from a paper.
+- **The 9 disagreements need a human decision.** They ship with the verified
+  answer, capped confidence, and a visible "conflicts with bank answer" note, so
+  they are safe as-is — but `staged/disagreements.json` is the list to review.
+  Two are genuinely arguable rather than clear bank errors (P1-37 "not a system
+  tool", where Backup did move out of System Tools in Windows 7; and P1-57 Fill
+  Series).
+- **Concepts are still empty** (Phase 5). The Study tab remains the one tab with
+  nothing in it, and it is where the 25 handwritten General English marks have to
+  be taught.
+- Session limits interrupted the first tagging attempt and cost all its work;
+  every agent now writes each batch before starting the next. That pattern should
+  be the default for anything long-running here.
+
+---
+
+## 2026-08-28 (later) — System Manager Phase 2: the OCR sidecars turned out to be unusable, so Paper II is recovered by vision instead; 407 questions shipping; prov/conf badge built
+
+**What shipped:** the Phase 2 harvest pipeline under `tools/system-manager-build/`,
+and `data/questions.js` now holds **407 questions** (rising to ~480 once the
+second Paper II sitting lands).
+
+1. **`harvest.py`** — Tier 1 from `mpsc_bank_v2.json` (Computer Operator
+   Technical Paper I ×2 = 150, General English ×2 = 160) plus Tier 4 from
+   `mpsc-jso-prep`. Handles two schema traps that would have shipped broken
+   data: this app's `opts` is an **object keyed A–D** with a **letter** `ans`
+   (every other bank in the repo uses an array + 0-based index), and jso-prep
+   explanations are **HTML** while `app.js` renders `exp` through `esc()`, so
+   tags would have displayed literally to the reader.
+2. **Paper II recovered by a vision pass, not from the OCR sidecars.** This is
+   the significant change from the plan. Measured, each paper holds exactly 75
+   questions and text extraction cannot find them all: the existing `.ocr.txt`
+   sidecars yield 61/75 and 63/75, and re-OCR is *worse* — `tesseract --psm 3`
+   58, `--psm 6` 42, `--psm 4` 53, `--psm 11/12` 32/33. The missing questions
+   **are in the scan**; only their numbers are mangled (`» §.` for 5, `22°` for
+   22), so a numbering-gap check catches the loss but cannot repair it. These are
+   1-bit CCITTFax scans throwing `Bad RTC code` errors with two-column options,
+   which is what defeats tesseract. `render_pages.py` renders them at 400dpi
+   instead, and the pages are cleanly legible — so extraction and answer
+   derivation happen in one vision pass, absorbing Phase 3 for these two papers.
+3. **`validate_extract.py`, written before the extraction ran** so the checks
+   couldn't be shaped to fit the output: 75 per paper, contiguous 1–75, four
+   distinct non-empty options, valid `ans`/`conf`, explanation present and not
+   opening with "the correct answer", and an explanation that names only a
+   different option than `ans` is flagged as a possible contradiction.
+4. **Both sittings extracted: 150/150 questions, 143 shippable.** CO2016A-P2
+   high 58 / medium 12 / low 2; CO2016B-P2 high 63 / medium 6 / low 2. Verified
+   against the source images rather than trusting the agents' reports — page 1 of
+   each paper checked question by question, all correct including the
+   **two-column option mapping** (the one error that would have silently
+   corrupted every answer) and the mid-paper switches to single-column layout.
+   Defect claims verified real, not invented to dodge hard questions: CO2016A-P2
+   Q27 genuinely prints options (a) and (c) as word-for-word identical; its Q74
+   clock angle at 12:25 is genuinely 137.5° with no matching printed option; and
+   CO2016B-P2 Q34's stem really is just "HTML is a" with no correct option among
+   the four (HTML is a markup language). 7 figure-dependent reasoning questions
+   quarantined across the two papers.
+
+   **The validator earned its keep and then cost some.** It caught CO2016B-P2
+   Q34 as "question text missing or too short" — but that was a false positive
+   from a `len < 10` threshold against a legitimate 9-character stem. Confirmed
+   against the page image, then split the check: under 5 chars is a hard failure,
+   5–15 is a warning for a human to eyeball, because genuine brevity and OCR
+   truncation are indistinguishable from inside the script. Same lesson as the
+   HTML check in `assemble.py`, which flagged eight Web Technologies
+   explanations for containing "HTML" — they legitimately *discuss* `<H1>`,
+   `<OL>` etc. in prose, and since `app.js` escapes `exp` those render correctly
+   as visible text. Narrowed to closing tags only (`</p>`), which is the thing
+   prose never writes and real leftover markup always does.
+5. **`prov`/`conf` badge built** — `CLAUDE.md` lists this as a known gap. One
+   shared `provLine()` helper used at all three explanation render sites:
+   `official key` (blue), `derived · high/medium/low` (green/amber/red), and
+   `derived · unrated` (amber) when `conf` is absent, so an unrated answer can
+   never read as authoritative by omission. Verified in the browser against real
+   data — the rendered counts match the validator exactly.
+6. **`export_taxonomy.py`** — the 259 leaves as tagging input, and
+   **`assemble.py`** — merges every source into `questions.js` with a quarantine
+   policy: figure-dependent and answerless questions are excluded from the app
+   but written to `staged/quarantine.json` rather than dropped. Low-confidence
+   answers *do* ship, behind their badge, which is the honest presentation.
+
+**Why:** `BUILD_GUIDE.md` was a plan that had never been run, so its claims about
+the sources had never been tested. Four more of them were wrong, all now marked
+⚠️CORRECTED in the guide:
+
+- **The two 2016 sittings do not "overlap substantially"** — exact-text dedup
+  finds 0 duplicates, fuzzy matching at 0.85 finds 1 near-pair in 5,625 for
+  Paper I and 0 for GE. They are essentially disjoint, so Paper I yields 150
+  distinct questions, not ~100 post-dedup.
+- **Only 2 of the 5 jso-prep files are on-syllabus** (27 questions, not 67) —
+  there is no forensics anywhere in the System Manager syllabus.
+- **Tier 2 was scoped ~30× too narrow** — 6,321 GE questions in the bank across
+  ~125 papers, not the 199 in three named JE papers.
+- **The guide's own `questions.js` example tags `sub` to a *section* name**
+  ("Introduction to Computing"). `app.js` matches `sub` by string equality
+  (app.js:410), so a question tagged that way links to no concept at all. Tags
+  must be leaves.
+
+**Also corrected: the paper structure is 75 × 2 marks, not the 150 × 1 I assumed
+in Phase 1.** All six 2016 Computer Operator papers state "Time Allowed: 2 hours
+/ Full Marks: 150 / equal marks of 2 each" ⇒ 75 questions, and GE states 3 hours
+/ 100 marks / 1 mark each. The bank's Paper I records independently confirm it
+(75 questions, contiguous 1–75). `gen_syllabus.py` now asserts
+`questions × marks_per_question == mcq_marks` per paper.
+
+7. **Found and fixed a third silent-data-loss case in the bank: every
+   comprehension passage is missing.** 32 of the 160 General English questions
+   are passage-attached comprehension items, and `mpsc_bank_v2.json` holds no
+   passage for any of them. As extracted they were unanswerable — "Find the word
+   *in the passage* which means 'intruding beyond acceptable limits'", and five
+   consecutive "Which of the following statements is correct?" items with no
+   statements to check. This sits alongside the two incidents in DEVLOG
+   2026-08-04; the pattern is now established enough to assume it. Surfaced only
+   because the GE tagging pass put 32 questions under "Comprehension" and the
+   earlier bank audit had shown zero passages — the two facts together didn't add
+   up.
+
+   Per `CLAUDE.md`, went to the source PDFs rather than patching the UI. The
+   passages are all there and these are text-layer PDFs, so `pdftotext` recovers
+   them cleanly. `extract_passages.py` pulls all four (the SAD paper prints
+   **one** passage for 16 questions; the MIC paper prints **three**, for 5/6/5 —
+   so "one passage per paper" would have been the wrong assumption).
+   `assemble.py` attaches them and now **fails the build** if any question
+   references a passage without one attached, so it can't regress silently.
+   `app.js` renders them via `passageBlock()` — collapsible, open by default,
+   height-capped with its own scroll. Verified in the browser: 16 blocks on the
+   SAD paper, and the MIC paper's three distinct passages land on exactly the
+   right question ranges.
+
+**What's still open:**
+- **Nothing is tagged yet** (0/407 have a `unit`/`sub`). Until the tagging pass
+  runs, Practice can't filter by unit and no question links to a concept. This is
+  the next step and needs a model.
+- **308 of 407 have no explanation** — the bank's Tier 1 records ship with empty
+  `exp` and `conf: null`, showing `derived · unrated`. Phase 3 has to verify
+  those 300 answers and write explanations; that is now the bulk of the
+  remaining question work.
+- **2 questions have no answer at all** in the bank (`CO2016B-P1-1`, `-51`),
+  quarantined.
+- The `anthropic` SDK is **not installed**. Phases 4–5 (~250k output tokens) need
+  it for Batch + prompt caching; the extraction and tagging passes don't, since
+  they follow the repo's existing agent-plus-brief convention
+  (`SOLVE_BRIEF.md`, now joined by `EXTRACT_BRIEF.md`).
+- Sonnet 5's introductory pricing ends **2026-08-31**.
+
+---
+
+## 2026-08-28 — MUDAL System Manager: Phase 1 foundation. Shell cloned, syllabus generated from the PDF, module registered — and the "reuse app.js as-is" assumption turned out to be false in 7 places
+
+**What shipped:** Phase 1 of `tools/system-manager-build/BUILD_GUIDE.md` — a
+new static app at `/mpsc-system-manager/index.html` for the MUDAL System
+Manager post (400 marks: General English 100, Technical Paper I 150,
+Technical Paper II 150; all three count for merit).
+
+1. **`tools/system-manager-build/gen_syllabus.py`** — generates
+   `data/syllabus.js` with the technical syllabus transcribed verbatim from
+   the official PDF (approved by the MUDAL Board 28.07.2026). Written as a
+   self-verifying generator rather than a hand-authored JSON blob: it asserts
+   every per-section leaf count, both 150-mark unit totals, GE's 100, and the
+   grand total before it writes. Re-running it *is* the check.
+2. **The syllabus has 259 technical subtopics, not the 261 the build guide
+   claimed.** Word Processing has 17 leaves (guide said 18), Electronic
+   Spreadsheet 18 (said 19). Everything else matched. Found by counting off
+   the PDF instead of trusting the guide's own skeleton table — the same
+   instinct `CLAUDE.md` asks for with question content.
+3. **Each unit carries both `sections[]` and a flat `subtopics[]`.** The PDF
+   groups leaves under numbered sections; `app.js` ignores `unit.subtopics`
+   entirely, but Phases 2/5 need a taxonomy to classify against. Sections give
+   the tagging prompt context, the flat list is the 259-item target. All 259
+   `paper|unit|sub` keys verified unique — that tuple is `app.js`'s concept key.
+4. **Seven hardcoded System Analyst assumptions fixed in the cloned `app.js`.**
+   The guide said "reuse as-is, no changes expected". Two were real bugs, not
+   cosmetics:
+   - `KEY = 'mpsc_sa_v1'` — both apps are served from the **same origin**, so
+     System Manager would have read and written System Analyst's localStorage
+     progress store. Silent cross-app data corruption. Now `mpsc_sm_v1`.
+   - The quick mock filtered on `counts_for_merit` as a stand-in for
+     "technical". For System Analyst that worked because GE/GS were
+     qualifying-only; for System Manager **every** paper counts for merit, so
+     General English leaked into the technical quick mock. Now filters
+     `TECH1`/`TECH2` explicitly.
+   - Plus: an invented exam date (`EXAM_HINT = '2026-11-01'` — no date has been
+     announced; now reads `SYL.exam_date`/`application_deadline` and renders
+     "exam date not announced"), a dashboard line claiming 600 merit marks and
+     a 50% qualifying cutoff that don't exist for this post (now renders
+     `SYL.scoring_note`), `of 727` subtopics hardcoded (now derived from `SYL`),
+     the `shortPaper` map including a `TECH3` this post doesn't have, and empty
+     states pointing at a `build/build.py` that doesn't exist.
+5. **Registered in `src/modules/registry.ts`** after `system-analyst`.
+   `concepts.js`/`questions.js` stubbed as empty arrays, each carrying its
+   schema and the phase that fills it as a header comment.
+
+**Why:** The build guide was written as a plan and never executed, so its
+numbers had never been checked against source. Doing Phase 1 was the cheapest
+way to find out which of its claims held — and three didn't. Recording the
+corrections inline in the guide (marked ⚠️CORRECTED) matters more than the
+code here, because Phases 2–5 are the expensive model-driven ones and they
+were about to be run against a taxonomy that was wrong by two entries and an
+`app.js` that would have silently merged two apps' progress.
+
+Worth naming: **both real bugs were caught by loading the page, not by reading
+the code.** `npx tsc --noEmit` is clean either way — these are static assets,
+TypeScript never sees them. Exactly what `CLAUDE.md` means by "typecheck
+passing is necessary but not sufficient."
+
+**Also corrected in the guide:** its Tier 2 question inventory named 3 Junior
+Engineer General English papers (199 questions). The bank actually holds
+**6,321 GE questions across ~125 papers** — MPSC largely reuses a common GE
+paper across posts, and System Manager's GE components are exactly what those
+test. So General English is selection-constrained, not supply-constrained;
+Phase 2 should target ~600–800 well-matched questions weighted to the four MCQ
+components, dedup on normalised question text, and prefer the ~80-question
+Paper-I sittings over the harder 100-question Paper-IIs.
+
+**What's still open:**
+
+- 🔴 **The application deadline is 29 Aug 2026, 4:00 PM — tomorrow.** Confirm
+  the application actually went in before spending anything on Phases 2–5.
+  All of it is worthless if it didn't.
+- ⏳ Sonnet 5's introductory pricing ends 2026-08-31; Phases 2 and 4 are the
+  Sonnet-heavy ones.
+- **Verification gap:** all 8 tabs were confirmed rendering with zero console
+  errors via page-text and DOM inspection, through both the direct route and
+  the SPA's `/embed/system-manager` iframe. Screenshots were **not** captured —
+  the Browser pane's screenshot action timed out three times. No visual
+  confirmation of layout/theming was obtained.
+- Two paper-structure figures are **assumptions, not source**: MUDAL publishes
+  marks and "All MCQ" only, no question count and no duration. `questions: 150`
+  / `marks_per_question: 1` / `duration_hours: 2` exist so the mock has a
+  target length; every paper carries a `pattern_note` saying so and the
+  mock-test tab states it on screen.
+- **GE units carry `subtopics: []` deliberately** — the official syllabus
+  enumerates none. Phase 5 must author a derived breakdown and label it
+  derived rather than backfilling it into `syllabus.js` as official.
+- `app.js` is now a **fork**, not a shared module. Shared-logic fixes need
+  patching in both copies. Extracting the common core is unjudged work — worth
+  it only if a third exam app appears.
+- The `prov`/`conf` UI badge is still not built (both this app and System
+  Analyst). Deferred to the start of Phase 3, when derived answers exist to
+  render it against.
+
+---
+
 ## 2026-08-22 (yet later) — PYQ Practice gets a real Browse mode; bank picker is a pill row now; descriptive questions' top-level explanation finally renders
 
 **What shipped:** Prompted by the user noticing two real gaps after the

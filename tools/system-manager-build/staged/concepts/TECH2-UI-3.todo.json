@@ -1,0 +1,63 @@
+{
+  "paper": "TECH2",
+  "unit": "I",
+  "unitTitle": "Computer Networking",
+  "derived": false,
+  "brief": "tools/system-manager-build/CONCEPT_BRIEF.md",
+  "targets": [
+    {
+      "paper": "TECH2",
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "sub": "Wi-Fi Standards"
+    },
+    {
+      "paper": "TECH2",
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "sub": "Wireless Security"
+    },
+    {
+      "paper": "TECH2",
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "sub": "Mobile Networks"
+    },
+    {
+      "paper": "TECH2",
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "sub": "Windows Server Concepts"
+    },
+    {
+      "paper": "TECH2",
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "sub": "Active Directory"
+    },
+    {
+      "paper": "TECH2",
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "sub": "Group Policy"
+    },
+    {
+      "paper": "TECH2",
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "sub": "User and Group Management"
+    },
+    {
+      "paper": "TECH2",
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "sub": "File and Printer Sharing"
+    },
+    {
+      "paper": "TECH2",
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "sub": "Remote Desktop Services"
+    }
+  ]
+}

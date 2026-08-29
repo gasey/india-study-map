@@ -1,0 +1,54 @@
+{
+  "paper": "TECH1",
+  "unit": "IV",
+  "unitTitle": "Electronic Spreadsheet",
+  "unitMarks": 25,
+  "perTarget": 2,
+  "brief": "tools/system-manager-build/GENERATE_BRIEF.md",
+  "targets": [
+    {
+      "sub": "Lookup Functions",
+      "section": "Microsoft Excel"
+    },
+    {
+      "sub": "Financial Functions",
+      "section": "Microsoft Excel"
+    },
+    {
+      "sub": "Data Validation",
+      "section": "Microsoft Excel"
+    },
+    {
+      "sub": "Sorting and Filtering",
+      "section": "Microsoft Excel"
+    },
+    {
+      "sub": "Pivot Tables",
+      "section": "Microsoft Excel"
+    },
+    {
+      "sub": "Dashboards",
+      "section": "Microsoft Excel"
+    },
+    {
+      "sub": "Goal Seek",
+      "section": "Microsoft Excel"
+    },
+    {
+      "sub": "Power Query (Introduction)",
+      "section": "Microsoft Excel"
+    },
+    {
+      "sub": "Power Pivot (Overview)",
+      "section": "Microsoft Excel"
+    },
+    {
+      "sub": "Macros (Introduction)",
+      "section": "Microsoft Excel"
+    },
+    {
+      "sub": "Microsoft 365 Collaboration",
+      "section": "Microsoft Excel"
+    }
+  ]
+}

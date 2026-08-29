@@ -1,0 +1,250 @@
+[
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "Object-Oriented Programming Concepts",
+    "def": "Object-oriented programming organises a program around objects - bundles of data (attributes) together with the code that acts on that data (methods) - instead of around procedures operating on shared global data. A class is the blueprint: it is written once and defines what attributes and methods the type has. An object is an instance of that class created at run time, with its own values in its own memory.",
+    "exp": "Four pillars. Encapsulation binds data and methods into one unit and hides the internal state behind methods: a BankAccount keeps balance private and exposes deposit() and withdraw(), so no outside code can set a negative balance directly. Access modifiers private, protected and public are how it is enforced.\n\nAbstraction exposes only what the caller needs and hides how the work is done: you call send() on an SMS class without knowing the network code behind it. Abstract classes and interfaces are the usual tools.\n\nInheritance lets a child class reuse and extend a parent: SavingsAccount inherits Account's balance and deposit(), and adds interest calculation. The relationship is is-a.\n\nPolymorphism means one interface taking many forms: a single draw() call on Circle, Square and Triangle runs each shape's own version. Overloading gives the same method name different parameter lists and is resolved at compile time; overriding lets a subclass replace an inherited method and is resolved at run time.\n\nObjects communicate by calling each other's methods, which is why the paradigm is described as message passing. C++, Java, C# and Python are object-oriented; C is procedural. The payoff is reuse, easier maintenance and code that maps onto the real entities a system handles - Employee, Challan, Ward - rather than onto steps in a process.",
+    "facts": [
+      "A class is a blueprint or template; an object is a run-time instance of a class with memory allocated to it",
+      "The four pillars are encapsulation, abstraction, inheritance and polymorphism",
+      "Overloading is same method name with different parameter lists, resolved at compile time (early binding); overriding is a subclass redefining an inherited method, resolved at run time (late binding)",
+      "Access modifiers private, protected and public implement encapsulation",
+      "C++ allows multiple inheritance of classes; Java does not, and achieves a similar effect through interfaces",
+      "C is a procedural language, not object-oriented; C++, Java, C# and Python are object-oriented"
+    ],
+    "traps": [
+      "Class vs object reversed - 'an object is a blueprint for a class' is the standard wrong option; the class is the definition, the object is the instance",
+      "Encapsulation vs abstraction - encapsulation bundles data with methods and hides the data (access modifiers); abstraction hides complexity and exposes only essential behaviour (interfaces, abstract classes)",
+      "Overloading vs overriding - overloading happens within one class at compile time, overriding happens between parent and child at run time",
+      "Inheritance is is-a, composition is has-a - a Car has-a Engine, so Car should not inherit from Engine"
+    ],
+    "mnem": "A PIE - Abstraction, Polymorphism, Inheritance, Encapsulation",
+    "rel": [
+      "Programming Languages",
+      "Scripting Languages",
+      "Software Development Life Cycle (SDLC)"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "Scripting Languages",
+    "def": "A scripting language is a programming language whose programs are normally read and executed by an interpreter at run time rather than compiled into a standalone executable first, and which is used mainly to automate repetitive tasks, glue existing components together, and add behaviour to a host environment such as a shell, a browser or an application. Python, JavaScript, PHP, Perl, Ruby, Bash and PowerShell are the common examples.",
+    "exp": "What makes a language a scripting language is how it is used and run, not its syntax. There is no separate compile-and-link step, typing is usually dynamic, and the edit-run cycle is immediate. Scripts run slower than compiled C or C++ because translation happens every run, but they are written in a fraction of the time - which is why system administration lives on them. Bash on Linux and PowerShell on Windows drive backups, user creation, log rotation and scheduled jobs; Python is the general-purpose glue between tools, files and APIs.\n\nClient-side scripting runs on the user's machine inside the browser. JavaScript validates a form, shows a dropdown and updates part of a page without a round trip to the server. Its source is visible through view-source and developer tools, so it must never hold a password and must never be the only validation. Server-side scripting - PHP, Python, Node.js, ASP.NET - runs on the web server, reaches the database, and sends back HTML; its source is never delivered to the browser.\n\nJava and JavaScript are unrelated languages that share a name for marketing reasons. Java is compiled to bytecode and run on the JVM and is statically typed; JavaScript is dynamically typed, standardised as ECMAScript, and runs in browser engines and on servers through Node.js.",
+    "facts": [
+      "Scripting languages are interpreted at run time; no separate compiled executable is produced",
+      "JavaScript is the client-side scripting language of the browser; PHP, Python, Node.js and ASP.NET are server-side",
+      "JavaScript is standardised as ECMAScript and is unrelated to Java",
+      "Bash is the standard shell scripting language on Linux, PowerShell on Windows",
+      "Client-side script source is visible to the user, so validation must always be repeated on the server"
+    ],
+    "traps": [
+      "'JavaScript is a lightweight version of Java' - false; only the name is shared, the languages, runtimes and type systems are different",
+      "Compiled vs interpreted - a compiled program is translated once into machine code for one platform; a script is translated each run, so it is slower but more portable",
+      "Client-side vs server-side validation - client-side is only for user convenience and can be bypassed; the server decides",
+      "Node.js does not turn JavaScript into a compiled language - it is a server-side JavaScript runtime"
+    ],
+    "mnem": "",
+    "rel": [
+      "Programming Languages",
+      "Object-Oriented Programming Concepts",
+      "APIs and Software Integration (Concept)"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "APIs and Software Integration (Concept)",
+    "def": "An API (Application Programming Interface) is a published set of operations, with defined inputs, outputs and error responses, through which one piece of software requests a service from another without knowing how that other software is built. It is a contract between programs. Software integration is making separate systems work as one by having them call each other's APIs instead of exchanging files by hand.",
+    "exp": "The contract is the whole point. The provider publishes what may be called, what must be sent and what comes back; it may then rewrite its internals freely, and callers keep working as long as the contract holds. Two departments integrating through APIs exchange live data on request, instead of one emailing the other a spreadsheet every month.\n\nREST is the dominant style for web APIs. Resources are addressed by URL, and standard HTTP methods act on them: GET reads, POST creates, PUT or PATCH updates, DELETE removes. REST is stateless - the server keeps no session between calls, so each request carries everything needed to serve it. Outcomes come back as HTTP status codes: 200 OK, 401 Unauthorized, 404 Not Found, 500 server error.\n\nJSON is the usual payload - a light, readable text format of keys and values that has largely replaced the XML used by the older SOAP protocol. Calls are authorised by API keys, tokens or OAuth, and an API gateway sits in front to route, throttle and log them.\n\nThis is how Indian digital public infrastructure is built. Aadhaar e-KYC and e-Sign, UPI, and DigiLocker's issuer and requester interfaces are all consumed as APIs, and API Setu publishes government APIs for departments to reuse rather than rebuild.",
+    "facts": [
+      "REST maps operations to HTTP methods: GET read, POST create, PUT/PATCH update, DELETE remove",
+      "REST is stateless - the server holds no session between requests",
+      "JSON is the usual REST payload format; SOAP is an older XML-based messaging protocol",
+      "API keys, tokens and OAuth authorise API calls; an API gateway adds routing, rate limiting and logging",
+      "Aadhaar e-KYC, UPI and DigiLocker are exposed to other applications as APIs; API Setu is the government's API exchange platform"
+    ],
+    "traps": [
+      "An API is not a user interface - it has no screen, and its user is another program",
+      "REST vs SOAP - REST is an architectural style over HTTP normally carrying JSON; SOAP is a strict protocol with a mandatory XML envelope",
+      "Endpoint vs API - an endpoint is one URL the API exposes; the API is the full set of endpoints plus its rules",
+      "JSON is not JavaScript - it borrows JavaScript's object syntax but is inert data and is language-independent"
+    ],
+    "mnem": "",
+    "rel": [
+      "Scripting Languages",
+      "Digital India and e-Governance",
+      "Programming Languages"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "Digital India and e-Governance",
+    "def": "Digital India is the Government of India's flagship programme to deliver government services to citizens electronically, build the digital infrastructure that makes this possible, and raise digital literacy - stated as transforming India into a digitally empowered society and knowledge economy. It absorbed and extended the earlier National e-Governance Plan (NeGP), which had created the first mission mode projects and the shared delivery infrastructure.",
+    "exp": "Three vision areas: digital infrastructure as a utility to every citizen, governance and services on demand, and digital empowerment of citizens. These are broken into nine pillars - broadband highways, universal access to mobile connectivity, public internet access, e-Governance (reforming government through technology), eKranti (electronic delivery of services), information for all, electronics manufacturing, IT for jobs, and early harvest programmes. Note that manufacturing and employment sit inside the programme; it is wider than online service delivery.\n\nWhat a citizen actually meets: Aadhaar as the identity layer with e-KYC and e-Sign built on it; DigiLocker, where a document fetched from its issuer carries the same legal standing as the physical original; UMANG, a single mobile app aggregating central and state services; UPI for payments; Direct Benefit Transfer paying subsidies into bank accounts; and Common Service Centres, run by village level entrepreneurs, giving assisted access where a citizen cannot transact alone - the main delivery channel in hill and rural districts.\n\nBehind that sits the plumbing: BharatNet carrying broadband to gram panchayats, MeghRaj (the GI Cloud) hosting departmental applications on government cloud, NIC running NICNET, data centres and eOffice, GeM for procurement, and at state level the State Wide Area Network, State Data Centre and State Service Delivery Gateway inherited from NeGP.",
+    "facts": [
+      "Digital India's three vision areas are digital infrastructure as a utility, governance and services on demand, and digital empowerment of citizens",
+      "NeGP (National e-Governance Plan) was the predecessor; its service-delivery thrust continues as the eKranti pillar",
+      "MeghRaj is the Government of India cloud initiative (GI Cloud)",
+      "A DigiLocker document fetched from the issuing authority is legally at par with the original physical document",
+      "SWAN, State Data Centre and Common Service Centres are the three core infrastructure pillars at state level",
+      "Common Service Centres deliver government services in rural areas through village level entrepreneurs"
+    ],
+    "traps": [
+      "Digital India is the programme, e-governance is one pillar within it - the programme also covers electronics manufacturing, jobs and digital literacy",
+      "UMANG vs DigiLocker - UMANG is an app aggregating services from many departments; DigiLocker stores and fetches issued documents",
+      "NeGP was not scrapped when Digital India launched; its mission mode projects were subsumed and expanded",
+      "Aadhaar is an identity number issued by UIDAI, not a benefit scheme - DBT uses it for authentication, it does not disburse anything itself"
+    ],
+    "mnem": "",
+    "rel": [
+      "Digital Transformation and e-Governance",
+      "Electronic Records management",
+      "Digital Inclusion and Accessibility"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "Electronic Records management",
+    "def": "Electronic records management is the systematic control of records held in digital form across their whole life - capture, classification, storage, retrieval, retention and final disposal or permanent preservation - so that they remain authentic, reliable, complete and usable for as long as they are needed. A record is evidence of a transaction or decision: in government it is the file, the noting, the order, the sanction and the correspondence that prove what was done and by whom.",
+    "exp": "The legal footing is the Information Technology Act, 2000, which gives legal recognition to electronic records and to electronic and digital signatures, so an e-file is admissible in the same way as paper. The Public Records Act, 1993 governs the management and disposal of central government public records. In practice the working system is NIC's eOffice, whose eFile module carries the electronic file through the same noting and approval route as a physical file.\n\nFour qualities have to survive: authenticity (it is what it claims and came from who it claims), integrity (unaltered - protected by audit trails, version control and digital signatures), reliability, and usability (still retrievable and readable years later).\n\nMetadata is what makes this work. File number, subject, creator, date, department, security classification and retention category are what let a record be found, proved and disposed of correctly. Without them a scanned PDF is only a file on a disk.\n\nDigital preservation has problems paper does not: file format obsolescence, media decay, and dependence on software that no longer exists. The answers are migration to open standard formats such as PDF/A, periodic refresh of storage media, and checksums to detect silent corruption.",
+    "facts": [
+      "The IT Act, 2000 gives legal recognition to electronic records and to electronic and digital signatures",
+      "The Public Records Act, 1993 governs the management, retention and disposal of central government public records",
+      "Authenticity, integrity, reliability and usability are the four qualities an electronic record must retain",
+      "Audit trails, version control and digital signatures are the standard controls for proving record integrity",
+      "PDF/A is the preferred format for long-term preservation because it is self-contained and embeds its fonts",
+      "NIC's eOffice, through its eFile module, is the standard electronic file system in Indian government offices"
+    ],
+    "traps": [
+      "A record is not just any document - a record evidences a transaction and is fixed once created; a draft is still a working document",
+      "Backup is not archiving - a backup is a short-term copy taken for recovery; archiving moves a record into preservation with metadata and a retention rule",
+      "Digitisation is not records management - scanning paper without indexing, metadata and a retention category produces images, not managed records",
+      "Deleting the visible copy is not disposal - the record survives in backups, mailboxes and shared drives until every copy is authorised and destroyed"
+    ],
+    "mnem": "",
+    "rel": [
+      "Digital India and e-Governance",
+      "Data Privacy and Personal Data Protection",
+      "Backup Concepts"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "Data Privacy and Personal Data Protection",
+    "def": "Data privacy is an individual's right to control how information about them is collected, used, shared and retained; personal data protection is the legal and technical machinery that enforces that right. India's governing statute is the Digital Personal Data Protection Act, 2023, which applies to digital personal data - data about an identifiable individual - and places duties on whoever decides why and how it is processed, including government departments.",
+    "exp": "Learn the two roles first. The data principal is the individual the data is about; for a child, the parent or lawful guardian acts for them. The data fiduciary is the person or body that determines the purpose and means of processing. The word fiduciary is deliberate: the data is held in trust for the principal, not owned. A data processor only processes on a fiduciary's instructions, and organisations handling data at scale or higher risk can be notified as significant data fiduciaries with extra duties.\n\nConsent must be free, specific, informed, unconditional and unambiguous, given by a clear affirmative act, preceded by a plain-language notice, and withdrawable as easily as it was given. It is not the only lawful route - certain legitimate uses, including the State providing a subsidy, benefit, certificate or service, do not need fresh consent.\n\nThe operating principles are purpose limitation (use it only for the purpose stated), data minimisation (collect only what that purpose needs), storage limitation (erase once the purpose is served), accuracy, and reasonable security safeguards, with notification of a breach to the Board and to the affected individuals.\n\nThe data principal's rights are access to information about processing, correction and erasure, grievance redressal, and nomination of someone to exercise the rights on death or incapacity. The Data Protection Board of India adjudicates.",
+    "facts": [
+      "The Digital Personal Data Protection Act, 2023 is India's law on digital personal data",
+      "Data principal = the individual the data is about; data fiduciary = whoever decides the purpose and means of processing",
+      "Consent must be free, specific, informed, unconditional and unambiguous, and withdrawable as easily as given",
+      "Purpose limitation, data minimisation and storage limitation are core obligations of a data fiduciary",
+      "Rights of a data principal include access, correction, erasure, grievance redressal and nomination",
+      "The Data Protection Board of India handles complaints and adjudicates on breaches"
+    ],
+    "traps": [
+      "Data principal and data fiduciary reversed in the options - the principal is the human being, the fiduciary is the organisation holding the data",
+      "Privacy is not security - security keeps data from unauthorised access; privacy limits even authorised staff to the purpose the data was collected for. Encrypted data used for a new purpose is still a privacy breach.",
+      "The Act covers digital personal data about identifiable individuals - not company or business data, and not truly anonymised data",
+      "Consent is not the only lawful basis - certain legitimate uses, notably the State delivering a subsidy, benefit or service, are permitted without fresh consent"
+    ],
+    "mnem": "",
+    "rel": [
+      "Cyber Ethics",
+      "Electronic Records management",
+      "Digital India and e-Governance"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "Cyber Ethics",
+    "def": "Cyber ethics is the code of right conduct in the use of computers, networks and digital content - what you may copy, publish and access, how you behave towards other people online, and how you treat systems and data belonging to others. It governs behaviour rather than controls: technical safeguards stop what they can, and ethics decides everything they cannot.",
+    "exp": "Intellectual property comes first because it is the most examined. Plagiarism is presenting another person's text, code, design or idea as your own; the remedy is attribution. Software piracy is using unlicensed copies, sharing licence keys, or running a single-user licence across an office. Copyright infringement is copying or distributing protected work - films, books, question papers - without permission. Freely downloadable does not mean free to reuse; the licence decides.\n\nNetiquette covers conduct: no flaming or trolling, no spam, no impersonation, no cyberbullying, no forwarding unverified messages, and no posting someone's photographs, phone number or documents without consent.\n\nResponsible use of official systems is the part that touches the job. Office computers and internet connections are provided for official work, and misuse policies typically bar personal commercial use, unlicensed installations and objectionable downloads. Never share your login: every action is logged against your account, so lending credentials transfers the blame to you. Do not open citizen records you have no work reason to see, even where your access rights technically permit it, and do not move official data onto a personal pen drive or personal email account.\n\nUnauthorised access to a computer resource is an offence under the Information Technology Act, 2000, whether or not anything is altered.",
+    "facts": [
+      "Plagiarism is passing off another's work as your own; piracy is unlicensed copying or use of software or content",
+      "Netiquette is the set of conventions for online conduct - no flaming, spamming, trolling, impersonation or cyberbullying",
+      "Sharing login credentials destroys accountability because system logs attribute every action to the account owner",
+      "Unauthorised access to a computer resource is an offence under the IT Act, 2000 even if no data is changed or copied",
+      "Freely downloadable is not the same as free to copy, modify or redistribute - the licence terms decide"
+    ],
+    "traps": [
+      "Ethics vs law - everything illegal is unethical, but much unethical use (reading a colleague's file you have rights to, gossiping about citizen data) is not itself an offence",
+      "Plagiarism vs copyright infringement - plagiarism is failing to credit the author; infringement is copying without permission. Crediting the author does not make an unlicensed copy legal.",
+      "Open source does not mean no rules - GPL and similar licences impose conditions, and ignoring them is a licence violation",
+      "Having technical access rights is not the same as being authorised - need-to-know limits what you may legitimately look at"
+    ],
+    "mnem": "",
+    "rel": [
+      "Data Privacy and Personal Data Protection",
+      "Software Licensing",
+      "AI Ethics"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "AI Ethics",
+    "def": "AI ethics is the set of principles for building and deploying artificial intelligence so that it does not cause unfair, opaque or unaccountable harm. The standard principles are fairness, transparency and explainability, accountability, privacy, safety and reliability, and meaningful human oversight.",
+    "exp": "Bias is the first concern. A model learns patterns from past data, so past unfairness is reproduced and then applied at scale and at speed - a shortlisting model trained on who was hired before, an eligibility model trained on data that under-represents remote districts. The bias is rarely written into the code; it sits in skewed or unrepresentative training data, which is why an algorithm can be mathematically correct and still discriminatory.\n\nTransparency and explainability follow. A citizen refused a benefit by an automated system should be able to be told that AI was used and why the outcome was what it was. A model that cannot give a reason is difficult to defend in an appeal, an RTI reply or a court.\n\nAccountability does not shift to the software or the vendor. The officer and the department that deploy a system remain answerable for its output. That is the argument for human oversight, usually stated as human-in-the-loop: AI recommends, a human decides, particularly where rights, money, liberty or entitlement are involved.\n\nPrivacy sits underneath, because training and querying use personal data. Generative AI adds hallucination - fluent output that is simply false - and deepfakes, so AI output must be verified before official use. India has no dedicated AI statute; NITI Aayog's Responsible AI for All principles guide practice, and existing law applies.",
+    "facts": [
+      "Fairness, transparency and explainability, accountability, privacy, safety and human oversight are the standard AI ethics principles",
+      "Algorithmic bias usually originates in skewed or unrepresentative training data, not in the code",
+      "Human-in-the-loop means the AI recommends and a human takes the decision - the norm for decisions affecting rights or entitlements",
+      "NITI Aayog issued India's Responsible AI for All principles; India has no dedicated AI statute, so AI use is governed by existing law",
+      "Generative AI can hallucinate - produce confident, fluent output that is factually wrong - so output must be verified before official use"
+    ],
+    "traps": [
+      "Bias is not a coding bug - it comes from the data and survives even when the algorithm is implemented correctly",
+      "Accountability does not transfer to the vendor or the model; the deploying officer and department stay answerable",
+      "Transparency vs explainability - transparency is disclosing that AI was used and how the system works; explainability is giving the reason for one particular decision",
+      "Removing names from training data does not remove bias - the discriminatory pattern survives anonymisation through correlated features"
+    ],
+    "mnem": "",
+    "rel": [
+      "Cyber Ethics",
+      "Digital Inclusion and Accessibility",
+      "Emerging Technologies: Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Big Data, Cloud Computing and Edge Computing"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "Digital Inclusion and Accessibility",
+    "def": "Digital inclusion is ensuring that everyone can actually use digital services, whatever their income, location, age, education, language or disability. Accessibility is the narrower and legally enforceable part of it: that a website, application or document can be used by persons with disabilities, working correctly with assistive technology such as screen readers.",
+    "exp": "The digital divide has four axes, and connectivity is only the first. Availability - no reliable broadband or mobile coverage in remote hill and border areas. Affordability - the cost of a device and of data. Skills - a citizen who has a smartphone but cannot complete an online application. And language - a portal published only in English or Hindi excludes speakers of Mizo and other state languages, so local-language interfaces and content are an inclusion measure, not a courtesy. Assisted access through Common Service Centres is the standard mitigation where a citizen cannot transact alone.\n\nAccessibility has a defined standard: WCAG, the Web Content Accessibility Guidelines from the W3C, built on four principles - Perceivable, Operable, Understandable, Robust - with conformance levels A, AA and AAA, of which AA is the usual target. In practice that means alternative text on images so a screen reader such as NVDA, JAWS or TalkBack can describe them, full operation from the keyboard without a mouse, sufficient colour contrast, captions and transcripts for audio and video, properly labelled form fields, and never conveying meaning by colour alone.\n\nIn India this is an obligation, not a preference. The Rights of Persons with Disabilities Act, 2016 requires government information and services, including websites, to be accessible, and GIGW is the compliance standard for government sites.",
+    "facts": [
+      "WCAG's four principles are Perceivable, Operable, Understandable and Robust, with conformance levels A, AA and AAA",
+      "The Rights of Persons with Disabilities Act, 2016 requires government websites, information and services to be accessible",
+      "GIGW, the Guidelines for Indian Government Websites, is the accessibility and quality standard for government sites and builds on WCAG",
+      "NVDA, JAWS and Android TalkBack are screen readers; they depend on alternative text and correct heading structure",
+      "The digital divide has availability, affordability, skill and language dimensions, not connectivity alone",
+      "Common Service Centres provide assisted access for citizens who cannot complete a transaction themselves"
+    ],
+    "traps": [
+      "Accessibility vs usability - usability is ease of use for everyone; accessibility is specifically use by persons with disabilities, and for government sites it is a statutory duty",
+      "Access is not inclusion - providing connectivity achieves nothing if the citizen lacks the skill or cannot read the interface language",
+      "A scanned PDF is an image and a screen reader cannot read it; an accessible document needs real, tagged text",
+      "Alt text is not a caption - alt text describes an image for users who cannot see it, captions transcribe audio for users who cannot hear it"
+    ],
+    "mnem": "POUR - Perceivable, Operable, Understandable, Robust",
+    "rel": [
+      "Digital India and e-Governance",
+      "Cyber Ethics",
+      "Digital Transformation and e-Governance"
+    ]
+  }
+]

@@ -1,0 +1,54 @@
+{
+  "paper": "TECH2",
+  "unit": "I",
+  "unitTitle": "Computer Networking",
+  "unitMarks": 35,
+  "perTarget": 2,
+  "brief": "tools/system-manager-build/GENERATE_BRIEF.md",
+  "targets": [
+    {
+      "sub": "Proxy Servers",
+      "section": "Network Services"
+    },
+    {
+      "sub": "Wi-Fi Standards",
+      "section": "Wireless Networking"
+    },
+    {
+      "sub": "Wireless Security",
+      "section": "Wireless Networking"
+    },
+    {
+      "sub": "Mobile Networks",
+      "section": "Wireless Networking"
+    },
+    {
+      "sub": "Windows Server Concepts",
+      "section": "Windows Server Administration"
+    },
+    {
+      "sub": "Group Policy",
+      "section": "Windows Server Administration"
+    },
+    {
+      "sub": "User and Group Management",
+      "section": "Windows Server Administration"
+    },
+    {
+      "sub": "File and Printer Sharing",
+      "section": "Windows Server Administration"
+    },
+    {
+      "sub": "Remote Desktop Services",
+      "section": "Windows Server Administration"
+    },
+    {
+      "sub": "Cloud Infrastructure",
+      "section": "Cloud Networking"
+    },
+    {
+      "sub": "Virtual Networks",
+      "section": "Cloud Networking"
+    }
+  ]
+}

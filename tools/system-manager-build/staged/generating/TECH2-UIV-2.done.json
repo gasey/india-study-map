@@ -1,0 +1,431 @@
+[
+  {
+    "sub": "Cyber Hygiene",
+    "q": "Which of the following daily practices in a government office is an example of good cyber hygiene?",
+    "opts": {
+      "A": "Using one common login shared by all the staff of a section",
+      "B": "Turning off automatic security updates so that the computer never restarts during work",
+      "C": "Locking the workstation screen whenever the user leaves the desk",
+      "D": "Keeping the network password written on a slip pasted on the monitor"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Cyber hygiene means the routine habits that keep systems safe, and locking the screen stops anyone from using an already authenticated session. A shared login may look convenient but it destroys accountability, since no action can be traced to a particular user."
+  },
+  {
+    "sub": "Cyber Hygiene",
+    "q": "Why is it recommended that office staff do their day-to-day work from a standard (non-administrator) user account?",
+    "opts": {
+      "A": "Malware that runs in that session cannot easily install itself across the whole system",
+      "B": "The computer boots faster when a standard account is used",
+      "C": "Activity from standard accounts is not written to audit logs",
+      "D": "Antivirus software scans only standard user accounts"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Working with least privilege limits the damage of a successful attack, because system-wide changes need administrator rights that the session does not have. Standard accounts are logged just like any other; privilege level has nothing to do with whether activity is recorded."
+  },
+  {
+    "sub": "Cyber Hygiene",
+    "q": "A staff member receives an email claiming to be from the treasury and asking him to log in through a link. Which response best reflects good cyber hygiene?",
+    "opts": {
+      "A": "Reply to the mail asking the sender whether it is genuine",
+      "B": "Forward the mail to colleagues to get their opinion",
+      "C": "Open the attachment first to see whether it looks official",
+      "D": "Check the sender's actual address and reach the site by typing the known official URL instead of clicking the link"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Phishing works by getting the victim to follow the attacker's link, so verifying the sender and navigating independently to the known address defeats it. Replying is useless because a spoofed or attacker-controlled address will simply confirm that the mail is genuine."
+  },
+  {
+    "sub": "Fundamentals of Artificial Intelligence",
+    "q": "Artificial Intelligence is best described as",
+    "opts": {
+      "A": "any software that stores and retrieves large volumes of data",
+      "B": "the branch of computer science concerned with building systems that perform tasks normally requiring human intelligence",
+      "C": "the technique of connecting computers so that they can exchange messages",
+      "D": "a method of increasing the clock speed of a processor"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "AI is defined by the kind of task a system performs - perceiving, reasoning, learning, deciding, using language - not by the volume of data involved. Simply holding a large database is data management, not intelligence, because no inference or learning takes place."
+  },
+  {
+    "sub": "Fundamentals of Artificial Intelligence",
+    "q": "An AI system built to do one specific job well, such as reading vehicle number plates from camera images, is described as",
+    "opts": {
+      "A": "General AI",
+      "B": "Super AI",
+      "C": "Narrow AI",
+      "D": "Autonomous AI"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Narrow AI, also called weak AI, is limited to the single task it was designed and trained for, and essentially all AI in practical use today is of this kind. General AI would mean a system able to transfer its ability across any intellectual task, which does not yet exist."
+  },
+  {
+    "sub": "Fundamentals of Artificial Intelligence",
+    "q": "The Turing Test was proposed as a way of judging whether",
+    "opts": {
+      "A": "a machine can compute faster than a human being",
+      "B": "a program is free from logical errors",
+      "C": "a robot can find its way through an unknown environment",
+      "D": "a machine's replies in a conversation are indistinguishable from those of a human"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "The test judges behaviour in conversation: if a human questioner cannot tell the machine's replies from a person's, the machine passes. Speed of calculation was never the criterion, since ordinary computers already far exceed humans at arithmetic without being called intelligent."
+  },
+  {
+    "sub": "Machine Learning",
+    "q": "Which of the following is a supervised learning task?",
+    "opts": {
+      "A": "Classifying incoming email as spam or not spam, using a collection of emails already marked spam or not spam",
+      "B": "Grouping customers into segments when no group labels exist in the data",
+      "C": "Reducing the number of columns in a dataset while preserving most of its variation",
+      "D": "An agent learning to play a game by receiving rewards and penalties for its moves"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Supervised learning needs labelled examples, that is, inputs paired with the correct output, which is exactly what the pre-marked email collection provides. Grouping unlabelled customers is clustering, an unsupervised task, and learning from rewards is reinforcement learning."
+  },
+  {
+    "sub": "Machine Learning",
+    "q": "In machine learning, 'overfitting' means that the model",
+    "opts": {
+      "A": "is too simple to capture the pattern present in the data",
+      "B": "fits the training data very closely but performs poorly on new, unseen data",
+      "C": "has been trained on too many different datasets at the same time",
+      "D": "gives the same output whatever input it is given"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "An overfitted model has learned the noise and peculiarities of the training set instead of the general pattern, so its accuracy collapses on fresh data. A model that is too simple to capture the pattern is the opposite fault, underfitting."
+  },
+  {
+    "sub": "Machine Learning",
+    "q": "Which type of machine learning is used when the data carries no labels and the aim is to discover natural groupings within it?",
+    "opts": {
+      "A": "Supervised learning",
+      "B": "Reinforcement learning",
+      "C": "Unsupervised learning",
+      "D": "Transfer learning"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Unsupervised learning works on unlabelled data and finds structure in it, clustering being its commonest form. Supervised learning cannot be used here at all, because it requires the correct answer to be supplied with every training example."
+  },
+  {
+    "sub": "Deep Learning",
+    "q": "Deep learning is a form of machine learning that works through",
+    "opts": {
+      "A": "hand-written if-then rules maintained by domain experts",
+      "B": "spreadsheets linked together by formulas",
+      "C": "queries run against indexed relational database tables",
+      "D": "artificial neural networks having many layers of processing units"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "The word 'deep' refers to the number of layers in the neural network, each layer building a more abstract representation than the one before. Systems driven by expert-written if-then rules are rule-based or expert systems, which do not learn from data at all."
+  },
+  {
+    "sub": "Deep Learning",
+    "q": "On tasks such as image recognition, one practical advantage of deep learning over traditional machine learning is that",
+    "opts": {
+      "A": "it can learn the useful features directly from the raw data instead of needing features designed by hand",
+      "B": "it needs far less training data than traditional methods",
+      "C": "it always runs faster on an ordinary desktop processor",
+      "D": "its internal decisions are easier for a human to explain"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Deep networks learn their own feature representations from raw pixels, which removes much of the manual feature engineering that older methods required. The other options state the reverse of reality: deep learning is generally more data-hungry, more compute-hungry and harder to interpret."
+  },
+  {
+    "sub": "Deep Learning",
+    "q": "Which piece of hardware is most commonly used to speed up the training of deep learning models?",
+    "opts": {
+      "A": "A larger capacity hard disk drive",
+      "B": "A graphics processing unit (GPU)",
+      "C": "A high-quality sound card",
+      "D": "A UPS of higher rating"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Training a neural network is largely repeated matrix arithmetic, and a GPU performs thousands of such operations in parallel, which is why GPUs (and similar accelerators) dominate this work. A bigger disk only helps in storing the dataset; it does not make the computation faster."
+  },
+  {
+    "sub": "Natural Language Processing",
+    "q": "Natural Language Processing (NLP) is the field of AI concerned with",
+    "opts": {
+      "A": "converting analogue signals into digital form",
+      "B": "designing compilers for programming languages",
+      "C": "enabling computers to process, understand and generate human language",
+      "D": "translating machine code back into assembly language"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "NLP covers tasks on ordinary human language such as translation, summarisation, question answering and sentiment analysis. Compiler design is a tempting choice but deals with formal artificial languages, which have a fixed unambiguous grammar unlike natural language."
+  },
+  {
+    "sub": "Natural Language Processing",
+    "q": "In NLP, breaking up a piece of text into individual words or word-pieces before any further processing is called",
+    "opts": {
+      "A": "Tokenisation",
+      "B": "Summarisation",
+      "C": "Transcription",
+      "D": "Compression"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Tokenisation is the first step of most NLP pipelines and produces the tokens on which later stages operate. Summarisation shortens the meaning of a text and transcription converts spoken audio into text, so neither describes the splitting step."
+  },
+  {
+    "sub": "Natural Language Processing",
+    "q": "A department processes thousands of citizen feedback messages to judge whether each one is positive, negative or neutral in tone. This NLP task is called",
+    "opts": {
+      "A": "Speech synthesis",
+      "B": "Named entity recognition",
+      "C": "Optical character recognition",
+      "D": "Sentiment analysis"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Sentiment analysis classifies text according to the opinion or emotion it expresses, which is exactly what judging tone amounts to. Named entity recognition also works on the same text but only pulls out names of persons, places and organisations; it says nothing about tone."
+  },
+  {
+    "sub": "Computer Vision",
+    "q": "Computer vision is the branch of AI concerned with",
+    "opts": {
+      "A": "improving the resolution of computer monitors",
+      "B": "enabling computers to extract meaning from digital images and video",
+      "C": "designing attractive graphics for websites",
+      "D": "storing image files efficiently in a database"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Computer vision is about interpretation - recognising, locating and describing what appears in an image or video stream. Producing or displaying images is computer graphics and display technology, which is the reverse problem of understanding them."
+  },
+  {
+    "sub": "Computer Vision",
+    "q": "In a traffic enforcement system, reading a vehicle's registration number out of a camera image relies mainly on",
+    "opts": {
+      "A": "text-to-speech conversion",
+      "B": "speech recognition",
+      "C": "optical character recognition",
+      "D": "data warehousing"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Optical character recognition converts the characters visible in an image into machine-readable text, which is what number-plate reading requires. Speech recognition is the analogous task for audio input and has no role where the input is a photograph."
+  },
+  {
+    "sub": "Computer Vision",
+    "q": "A model that draws a box around every person visible in a CCTV frame and labels each box 'person' is performing",
+    "opts": {
+      "A": "object detection",
+      "B": "image classification",
+      "C": "image compression",
+      "D": "face verification"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Object detection both locates each instance with a bounding box and assigns it a class label. Image classification is the close distractor, but it gives a single label to the whole image without telling you where in the frame the object is."
+  },
+  {
+    "sub": "Generative AI",
+    "q": "Generative AI differs from traditional classification-type AI mainly in that it",
+    "opts": {
+      "A": "can run only on cloud servers and never on local hardware",
+      "B": "produces new content such as text, images, audio or code, instead of only classifying or predicting",
+      "C": "works without needing any training data at all",
+      "D": "always gives exactly the same output for the same input"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "The defining feature of generative AI is that its output is fresh content rather than a label, score or category. It is still trained on very large quantities of existing data, so the claim that it needs no training data is false."
+  },
+  {
+    "sub": "Generative AI",
+    "q": "Which of the following is the best example of using generative AI in office work?",
+    "opts": {
+      "A": "Sorting a spreadsheet of applications by date of receipt",
+      "B": "Checking whether a password meets the complexity rules",
+      "C": "Blocking incoming traffic from a blacklisted IP address",
+      "D": "Producing a first draft of an office note from a few bullet points"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Drafting new prose from an outline is content creation, which is precisely what a generative model does. Sorting, rule-checking and traffic blocking are ordinary deterministic operations that conventional software has always handled without any AI."
+  },
+  {
+    "sub": "Generative AI",
+    "q": "Why must the output of a generative AI tool be checked by a human before it is placed on an official file?",
+    "opts": {
+      "A": "It can produce fluent, confident text that is factually wrong or entirely invented",
+      "B": "It always answers in a language other than the one requested",
+      "C": "Its output cannot be copied into a word processor",
+      "D": "It refuses to produce more than one paragraph at a time"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Generative models optimise for plausible-sounding output, not verified truth, so wrong facts, invented references and outdated rules can appear stated with full confidence. Fluency is what makes this dangerous, because the error carries no visible warning sign."
+  },
+  {
+    "sub": "Large Language Models (LLMs)",
+    "q": "A Large Language Model (LLM) is trained mainly to",
+    "opts": {
+      "A": "store documents so that they can be searched by keyword",
+      "B": "convert SQL queries into printed report formats",
+      "C": "predict the most likely continuation of a piece of text, having been trained on very large quantities of text",
+      "D": "compress text files so that they occupy less storage"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "An LLM learns statistical patterns of language by repeatedly predicting the next token in text, and its abilities in answering, summarising and drafting emerge from that objective. It is not a document store, and it does not retrieve a saved copy of any text it was trained on."
+  },
+  {
+    "sub": "Large Language Models (LLMs)",
+    "q": "In the context of LLMs, the term 'hallucination' refers to a situation where",
+    "opts": {
+      "A": "the model refuses to answer the question put to it",
+      "B": "the model produces information that sounds plausible but is false or invented",
+      "C": "the model's reply is delayed because of network congestion",
+      "D": "the model repeats the user's question back word for word"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "A hallucination is confidently asserted content with no basis in fact, such as a non-existent circular number or a made-up citation. A refusal to answer is a different behaviour altogether and is usually a safety or policy response, not a hallucination."
+  },
+  {
+    "sub": "Large Language Models (LLMs)",
+    "q": "What is meant by the 'context window' of a large language model?",
+    "opts": {
+      "A": "The area of the screen in which the chat conversation is displayed",
+      "B": "The period for which the vendor retains the user's conversation history",
+      "C": "The number of users who may query the model at the same time",
+      "D": "The amount of text the model can take into account at one time"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "The context window is the limit on how much text - prompt, attached material and the reply being generated - the model can consider together, and material beyond it is effectively out of view. It is a property of the model, not of the user interface or of the vendor's data-retention policy."
+  },
+  {
+    "sub": "Prompt Engineering",
+    "q": "Prompt engineering is best described as",
+    "opts": {
+      "A": "writing and refining the instructions given to an AI model so that it produces more useful output",
+      "B": "modifying the model's source code to change how it behaves",
+      "C": "training the model again on the organisation's own data",
+      "D": "reducing the size of a model so that it will run on a laptop"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Prompt engineering works entirely through the input given to the model, by stating the task, context, format and constraints clearly. Retraining on the organisation's own data is fine-tuning, which changes the model itself and is a quite different exercise."
+  },
+  {
+    "sub": "Prompt Engineering",
+    "q": "Placing two or three worked examples inside the prompt so that the model can infer the pattern required is known as",
+    "opts": {
+      "A": "Zero-shot prompting",
+      "B": "Fine-tuning",
+      "C": "Few-shot prompting",
+      "D": "Chain-of-thought prompting"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Few-shot prompting supplies a handful of input-output examples in the prompt itself, leaving the model's weights untouched. Zero-shot prompting gives the instruction with no examples, and fine-tuning would involve actually retraining the model on example data."
+  },
+  {
+    "sub": "Prompt Engineering",
+    "q": "A user gets poor results from the vague prompt 'write about our office'. Which is the most effective way to improve it?",
+    "opts": {
+      "A": "Repeat the same prompt several times until a good answer happens to appear",
+      "B": "State the purpose, the intended reader, the required length and the format wanted",
+      "C": "Type the whole prompt in capital letters for emphasis",
+      "D": "Add a request that the model answer as quickly as possible"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "A good prompt removes ambiguity by specifying task, audience, scope and output format, which leaves the model far less to guess. Merely repeating a vague prompt changes nothing about the instruction and only produces different guesses."
+  },
+  {
+    "sub": "AI Ethics and Responsible AI",
+    "q": "Bias in an AI model most commonly arises from",
+    "opts": {
+      "A": "the speed of the processor used during training",
+      "B": "the use of too many programming languages in the codebase",
+      "C": "storing the trained model on a public cloud server",
+      "D": "training data that under-represents some groups or reflects past unfair practice"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "A model learns the patterns present in its training data, so historical imbalance or discrimination in that data is reproduced and often amplified in its predictions. Hardware speed and choice of programming language affect cost and maintainability, not fairness of the output."
+  },
+  {
+    "sub": "AI Ethics and Responsible AI",
+    "q": "Which of the following reflects the approach to Responsible AI set out by NITI Aayog for India?",
+    "opts": {
+      "A": "Safety and reliability, inclusiveness and non-discrimination, privacy, transparency and accountability in the design and use of AI",
+      "B": "Compulsory adoption of AI by every government department within a fixed deadline",
+      "C": "A prohibition on private sector participation in AI research",
+      "D": "A preference for the largest available model in every application"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "NITI Aayog's Responsible AI approach is a set of principles about how AI should be built and used - safely, inclusively, transparently and with clear accountability, while protecting privacy. It is guidance on responsible practice, not a mandate to deploy AI everywhere or a restriction on who may do AI research."
+  },
+  {
+    "sub": "AI Ethics and Responsible AI",
+    "q": "An office wishes to use an AI tool on citizens' personal data. Under the Digital Personal Data Protection Act, 2023, it is primarily expected to",
+    "opts": {
+      "A": "publish the personal data on its website in the interest of transparency",
+      "B": "retain all the personal data indefinitely so that audit is possible",
+      "C": "process the data only for a lawful purpose, normally with the individual's consent, and keep it secure",
+      "D": "hand the data over to the AI vendor as a condition of using the tool"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "The Act requires personal data to be processed for a lawful purpose on the basis of consent or a permitted legitimate use, with the data fiduciary responsible for security safeguards and for not keeping data longer than needed. Publishing personal data would breach the very confidentiality the law is meant to protect."
+  },
+  {
+    "sub": "AI Applications in Government",
+    "q": "Which of the following is the Government of India's national initiative for building up the country's artificial intelligence ecosystem?",
+    "opts": {
+      "A": "BharatNet",
+      "B": "IndiaAI",
+      "C": "UMANG",
+      "D": "GeM"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "IndiaAI is the national mission covering AI compute capacity, datasets, skilling, startups and safe and trusted AI. The others are genuine government programmes in different areas: BharatNet for rural broadband, UMANG as a unified mobile app for government services, and GeM for public procurement."
+  },
+  {
+    "sub": "AI Applications in Government",
+    "q": "A state government adds an AI chatbot to its citizen services portal. The main benefit expected is that it",
+    "opts": {
+      "A": "removes the need to keep the underlying service records accurate",
+      "B": "makes protection of citizens' personal data unnecessary",
+      "C": "replaces the legal requirement of a signed application",
+      "D": "answers routine, repetitive queries at any hour, letting staff concentrate on complex cases"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "The value of such a chatbot lies in handling high-volume standard questions instantly and round the clock, which shortens waiting and frees staff for cases needing judgement. It changes none of the underlying obligations - accurate records, data protection and prescribed procedure all continue to apply."
+  },
+  {
+    "sub": "AI Applications in Government",
+    "q": "In a government office, which of these tasks is LEAST suitable to be left to an AI system without human review?",
+    "opts": {
+      "A": "Taking the final decision to reject a citizen's application for a welfare benefit",
+      "B": "Sorting incoming letters into likely departments for a clerk to confirm",
+      "C": "Suggesting a first draft of a reply for an officer to edit",
+      "D": "Flagging unusually large bills so that an auditor can examine them"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "A decision that affects a citizen's rights or entitlement needs a human decision-maker who can give reasons and be held answerable on appeal, so AI may assist but must not decide. In the other three the AI only sorts, drafts or flags, and a human official remains the one who decides."
+  }
+]

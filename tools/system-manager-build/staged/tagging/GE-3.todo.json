@@ -1,0 +1,479 @@
+{
+  "paper": "GE",
+  "instructions": "For each question in `questions`, add an entry to a JSON object keyed by question id: {\"<id>\": {\"unit\": \"<unit no>\", \"sub\": \"<leaf subtopic VERBATIM>\"}}. Write it to the same filename with .todo.json replaced by .done.json. `sub` must be copied character-for-character from `allowed_leaves` — it is matched by string equality. If the paper is GE, set sub to null and tag the unit only.",
+  "allowed_units": [
+    {
+      "unit": "1",
+      "title": "Precis Writing",
+      "marks": 10
+    },
+    {
+      "unit": "2",
+      "title": "Letter Writing",
+      "marks": 15
+    },
+    {
+      "unit": "3",
+      "title": "Comprehension of given passages",
+      "marks": 15
+    },
+    {
+      "unit": "4",
+      "title": "Grammar: Parts of Speech",
+      "marks": 20
+    },
+    {
+      "unit": "5",
+      "title": "Correct Usage and Vocabularies",
+      "marks": 20
+    },
+    {
+      "unit": "6",
+      "title": "Formation of Sentence",
+      "marks": 20
+    }
+  ],
+  "allowed_leaves": [],
+  "questions": [
+    {
+      "id": "CO2016B-GE-1",
+      "paper": "GE",
+      "q": "To be taken aback",
+      "opts": {
+        "A": "surprised",
+        "B": "angered",
+        "C": "cared",
+        "D": "paired"
+      }
+    },
+    {
+      "id": "CO2016B-GE-2",
+      "paper": "GE",
+      "q": "To give oneself airs",
+      "opts": {
+        "A": "to be arrogant",
+        "B": "to make a garland",
+        "C": "to link together",
+        "D": "to do freely"
+      }
+    },
+    {
+      "id": "CO2016B-GE-3",
+      "paper": "GE",
+      "q": "All and sundry",
+      "opts": {
+        "A": "everyone",
+        "B": "destroy",
+        "C": "watchful",
+        "D": "final"
+      }
+    },
+    {
+      "id": "CO2016B-GE-4",
+      "paper": "GE",
+      "q": "Alpha and Omega",
+      "opts": {
+        "A": "the beginning and the end",
+        "B": "befitting a woman",
+        "C": "a verbal message",
+        "D": "article for sale"
+      }
+    },
+    {
+      "id": "CO2016B-GE-5",
+      "paper": "GE",
+      "q": "Apple-pie order",
+      "opts": {
+        "A": "a sudden shock",
+        "B": "perfect order",
+        "C": "all belongings",
+        "D": "cause of contention"
+      }
+    },
+    {
+      "id": "CO2016B-GE-6",
+      "paper": "GE",
+      "q": "Apple of one's eye",
+      "opts": {
+        "A": "to charge fairly",
+        "B": "much prized treasure",
+        "C": "to achieve two results",
+        "D": "to pass a crisis"
+      }
+    },
+    {
+      "id": "CO2016B-GE-7",
+      "paper": "GE",
+      "q": "To put the cart before the horse",
+      "opts": {
+        "A": "to imagine a fine future",
+        "B": "to do things the wrong way",
+        "C": "to have a private end to serve",
+        "D": "to have bitter enemies"
+      }
+    },
+    {
+      "id": "CO2016B-GE-8",
+      "paper": "GE",
+      "q": "To fall flat",
+      "opts": {
+        "A": "to flatter",
+        "B": "to fail",
+        "C": "to pass",
+        "D": "to do all in one's power"
+      }
+    },
+    {
+      "id": "CO2016B-GE-9",
+      "paper": "GE",
+      "q": "In spite of all his brag he had to eat __________.",
+      "opts": {
+        "A": "humble pie",
+        "B": "the cake",
+        "C": "the last pie",
+        "D": "the last bite"
+      }
+    },
+    {
+      "id": "CO2016B-GE-10",
+      "paper": "GE",
+      "q": "I am prepared to meet you __________.",
+      "opts": {
+        "A": "half-way",
+        "B": "middle way",
+        "C": "no way",
+        "D": "final way"
+      }
+    },
+    {
+      "id": "CO2016B-GE-11",
+      "paper": "GE",
+      "q": "This is __________ the rest of his conduct.",
+      "opts": {
+        "A": "in touch with",
+        "B": "to live with",
+        "C": "of a piece with",
+        "D": "a becoming"
+      }
+    },
+    {
+      "id": "CO2016B-GE-12",
+      "paper": "GE",
+      "q": "He is __________ if he fails at this juncture.",
+      "opts": {
+        "A": "not this time",
+        "B": "to go forward",
+        "C": "not worth his salt",
+        "D": "with all encouragement"
+      }
+    },
+    {
+      "id": "CO2016B-GE-13",
+      "paper": "GE",
+      "q": "The cost of living has increased, he finds it difficult __________.",
+      "opts": {
+        "A": "to make both ends meet",
+        "B": "to maintain his standard",
+        "C": "to make matters worse",
+        "D": "to maintain appearances"
+      }
+    },
+    {
+      "id": "CO2016B-GE-14",
+      "paper": "GE",
+      "q": "Fools rush in where __________ fear to tread.",
+      "opts": {
+        "A": "women",
+        "B": "devils",
+        "C": "lunatics",
+        "D": "angels"
+      }
+    },
+    {
+      "id": "CO2016B-GE-15",
+      "paper": "GE",
+      "q": "He is determined to achieve his object __________.",
+      "opts": {
+        "A": "by his laurels",
+        "B": "by his supporters",
+        "C": "by hook or by crook",
+        "D": "by good relationship"
+      }
+    },
+    {
+      "id": "CO2016B-GE-16",
+      "paper": "GE",
+      "q": "He turned __________ to my advice.",
+      "opts": {
+        "A": "now and then",
+        "B": "a deaf ear",
+        "C": "around and again",
+        "D": "left and right"
+      }
+    },
+    {
+      "id": "CO2016B-GE-17",
+      "paper": "GE",
+      "q": "What motivates man's actions or thinking?",
+      "opts": {
+        "A": "To satisfy his needs or to escape pain",
+        "B": "His desire for progress or to rule",
+        "C": "His spiritual urge",
+        "D": "To carry out the dictates of his religious faith"
+      }
+    },
+    {
+      "id": "CO2016B-GE-18",
+      "paper": "GE",
+      "q": "What feeling promoted primitive man to create religion?",
+      "opts": {
+        "A": "Love",
+        "B": "Anger",
+        "C": "Fear",
+        "D": "Spiritual revelation"
+      }
+    },
+    {
+      "id": "CO2016B-GE-19",
+      "paper": "GE",
+      "q": "\"Human soul forges a being\" means",
+      "opts": {
+        "A": "that ghosts and witches are a creation of human mind",
+        "B": "that the concept of God is a creation of human mind",
+        "C": "both (a) and (b)",
+        "D": "neither (a) nor (b)"
+      }
+    },
+    {
+      "id": "CO2016B-GE-20",
+      "paper": "GE",
+      "q": "How did religion become firmly established?",
+      "opts": {
+        "A": "Through the constant fear of death",
+        "B": "Through the perpetuation of faith in God",
+        "C": "Through the establishment of religious practices",
+        "D": "Through the growth of a priestly class"
+      }
+    },
+    {
+      "id": "CO2016B-GE-21",
+      "paper": "GE",
+      "q": "How did the priests come to acquire political power?",
+      "opts": {
+        "A": "By joining hand with the despotic rulers",
+        "B": "By protecting the believers against despotic rulers",
+        "C": "By generating fear of the unknown in the minds of the rulers",
+        "D": "By giving blessings to political rulers"
+      }
+    },
+    {
+      "id": "CO2016B-GE-22",
+      "paper": "GE",
+      "q": "What offer did the king make to the jester?",
+      "opts": {
+        "A": "To leave the kingdom and settle down in another kingdom",
+        "B": "To abstain from cutting jokes at the expense of the king",
+        "C": "To allow him to die the death of his choice",
+        "D": "To tender an unconditional apology to the king"
+      }
+    },
+    {
+      "id": "CO2016B-GE-23",
+      "paper": "GE",
+      "q": "Why did the jester cut a joke at the expense of the king?",
+      "opts": {
+        "A": "He wanted to settle an old score with the king",
+        "B": "He thought it would be a good opportunity to teach a lesson to the courtiers",
+        "C": "He was offended and insulted",
+        "D": "He thought the king would appreciate it"
+      }
+    },
+    {
+      "id": "CO2016B-GE-24",
+      "paper": "GE",
+      "q": "Why was the jester very popular?",
+      "opts": {
+        "A": "He made fun of the courtiers",
+        "B": "He entertained everyone with his intelligent jokes",
+        "C": "He was very intelligent and crafty",
+        "D": "He was kind and sympathetic to all"
+      }
+    },
+    {
+      "id": "CO2016B-GE-25",
+      "paper": "GE",
+      "q": "Why did the king become angry with the jester?",
+      "opts": {
+        "A": "One day the jester refused to entertain the courtiers",
+        "B": "He jester humiliated the courtiers",
+        "C": "The king was in a wretched mood",
+        "D": "The king felt insulted and offended"
+      }
+    },
+    {
+      "id": "CO2016B-GE-26",
+      "paper": "GE",
+      "q": "What made the jester arrogant and conceited?",
+      "opts": {
+        "A": "His power of making interesting jokes",
+        "B": "His excellent manners and sophistication",
+        "C": "His sky-rocketing popularity",
+        "D": "His powerful imagination and forceful vocabulary"
+      }
+    },
+    {
+      "id": "CO2016B-GE-27",
+      "paper": "GE",
+      "q": "Why could nobody complain to the king about the jester's arrogance?",
+      "opts": {
+        "A": "The king was benevolent and powerful",
+        "B": "The jester was immensely liked by the king",
+        "C": "The king was hand-in-glove with the jester",
+        "D": "The jester's intelligence was acknowledged by the courtiers"
+      }
+    },
+    {
+      "id": "CO2016B-GE-28",
+      "paper": "GE",
+      "q": "Which of the following statements is correct? Harnessing energy from sea waves",
+      "opts": {
+        "A": "undermines ecological balance.",
+        "B": "requires huge capital.",
+        "C": "requires high technical expertise.",
+        "D": "results in saving of useful land area."
+      }
+    },
+    {
+      "id": "CO2016B-GE-29",
+      "paper": "GE",
+      "q": "Which of the following statements is correct? Wave power devices",
+      "opts": {
+        "A": "convert wind energy into mechanical power.",
+        "B": "convert mechanical energy of ocean waves into electrical energy.",
+        "C": "require costly transmission mechanism.",
+        "D": "entail risk to human life."
+      }
+    },
+    {
+      "id": "CO2016B-GE-30",
+      "paper": "GE",
+      "q": "Which of the following statements is correct?",
+      "opts": {
+        "A": "Fixed as well as floating oscillating water column devices are required to harness ocean wave energy.",
+        "B": "Fixed oscillating water column devices are required for offshore.",
+        "C": "Floating oscillating water column devices are required for land-based system.",
+        "D": "Electricity generated from oceans is independent of the depth of water where waves arise."
+      }
+    },
+    {
+      "id": "CO2016B-GE-31",
+      "paper": "GE",
+      "q": "Which of the following statements is correct? The capacity of system to generate electricity from ocean waves",
+      "opts": {
+        "A": "can be increased only at exorbitant cost.",
+        "B": "can be easily upgraded.",
+        "C": "can be increased but it requires a great space.",
+        "D": "is only a few megawatts."
+      }
+    },
+    {
+      "id": "CO2016B-GE-32",
+      "paper": "GE",
+      "q": "Which of the following statements is NOT correct?",
+      "opts": {
+        "A": "Conventional power stations require cooling towers.",
+        "B": "Power generation from ocean waves also adds to pollution like conventional stations.",
+        "C": "Ocean wave energy can meet all the present energy of the world.",
+        "D": "Period of waves is one of the relevant factors in power generation from ocean waters."
+      }
+    },
+    {
+      "id": "CO2016B-GE-33",
+      "paper": "GE",
+      "q": "Hello, Robert. I __________ seen you for ages.",
+      "opts": {
+        "A": "haven't",
+        "B": "hasn't",
+        "C": "hadn't",
+        "D": "wasn't"
+      }
+    },
+    {
+      "id": "CO2016B-GE-34",
+      "paper": "GE",
+      "q": "Hello, Tessa. Great to see you. What have you __________ doing lately?",
+      "opts": {
+        "A": "been",
+        "B": "had",
+        "C": "has",
+        "D": "was"
+      }
+    },
+    {
+      "id": "CO2016B-GE-35",
+      "paper": "GE",
+      "q": "__________ just started a new job in computer sales and services.",
+      "opts": {
+        "A": "I'd",
+        "B": "I'll",
+        "C": "I'm",
+        "D": "I've"
+      }
+    },
+    {
+      "id": "CO2016B-GE-36",
+      "paper": "GE",
+      "q": "You __________ working for 'Sam Enterprises' when we last met.",
+      "opts": {
+        "A": "did",
+        "B": "had",
+        "C": "have",
+        "D": "were"
+      }
+    },
+    {
+      "id": "CO2016B-GE-37",
+      "paper": "GE",
+      "q": "That's right. I had __________ working there but I got fed up.",
+      "opts": {
+        "A": "be",
+        "B": "been",
+        "C": "done",
+        "D": "had"
+      }
+    },
+    {
+      "id": "CO2016B-GE-38",
+      "paper": "GE",
+      "q": "Tom could hear shouts from the flat next door. His neighbours __________ again.",
+      "opts": {
+        "A": "were arguing",
+        "B": "arguing",
+        "C": "argues",
+        "D": "argued"
+      }
+    },
+    {
+      "id": "CO2016B-GE-39",
+      "paper": "GE",
+      "q": "Rupert had __________ his credit card.",
+      "opts": {
+        "A": "forgot",
+        "B": "forgotten",
+        "C": "forget",
+        "D": "forgets"
+      }
+    },
+    {
+      "id": "CO2016B-GE-40",
+      "paper": "GE",
+      "q": "I didn't want to go until I __________ taken a photo.",
+      "opts": {
+        "A": "has",
+        "B": "have",
+        "C": "had",
+        "D": "was"
+      }
+    }
+  ]
+}

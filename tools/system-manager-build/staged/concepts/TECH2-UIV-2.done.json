@@ -1,0 +1,218 @@
+[
+  {
+    "paper": "TECH2",
+    "unit": "IV",
+    "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+    "sub": "Patch Management",
+    "def": "Patch management is the controlled process of tracking, testing, approving, deploying and verifying vendor-supplied updates to operating systems, applications, firmware and network devices, so that known vulnerabilities are closed before an attacker exploits them. It is a continuing operational cycle, not a one-time activity.",
+    "exp": "The cycle runs: maintain an asset inventory (you cannot patch what you do not know you own); track vendor advisories and CERT-In notes; assess and prioritise by severity and exposure; test on a pilot or staging group; deploy in rings to the rest; verify installation; record exceptions. A rollback plan and a declared maintenance window are part of the deployment, not optional extras.\n\nPrioritisation is by risk, not by date. An internet-facing server with a critical remote-code-execution flaw is patched within days; a low-severity flaw on an isolated internal machine can wait for the monthly cycle. Microsoft ships scheduled updates monthly on Patch Tuesday, plus out-of-band fixes when a flaw is being actively exploited. Linux distributions push updates through apt or dnf repositories; desktops and mobile devices are handled through tools such as WSUS, SCCM/Intune or an MDM.\n\nPatching is not only the operating system. Firmware, BIOS, routers, switches, printers, hypervisors, databases and third-party applications such as browsers and PDF readers are where unpatched holes usually survive. Where a system genuinely cannot be patched, for example legacy departmental software or end-of-life hardware, the answer is a compensating control: network segmentation, or virtual patching by an IPS or WAF rule that blocks the exploit traffic.\n\nIn a state government setting the System Manager runs this under departmental change management, with approvals recorded, users notified and the result reported.",
+    "facts": [
+      "A hotfix is an urgent single-issue fix; a cumulative update or service pack bundles many patches together.",
+      "A CVE identifier names the vulnerability; a CVSS score rates its severity on a 0.0 to 10.0 scale.",
+      "Microsoft releases scheduled security updates monthly on the second Tuesday, known as Patch Tuesday, with out-of-band releases for actively exploited flaws.",
+      "A zero-day is a vulnerability being exploited before any patch exists, so patch management cannot address it until the vendor ships a fix.",
+      "End-of-life software receives no patches at all; the remedies are upgrade, replacement or isolation.",
+      "Virtual patching, an IPS or WAF rule that blocks exploit traffic, is the standard compensating control for systems that cannot be patched."
+    ],
+    "traps": [
+      "Patch management versus vulnerability assessment: assessment discovers and rates weaknesses, patch management remediates them. Discovery and fix are separate stages.",
+      "Patching is not confined to the OS. Firmware, BIOS, network devices, hypervisors and third-party applications are the commonly missed layer.",
+      "Turning on automatic updates is not a patch management programme: it has no inventory, no testing, no verification and no exception handling.",
+      "Applying every patch instantly is not best practice on servers. Untested patches cause outages; the correct answer is a test ring plus a short remediation SLA, not zero delay."
+    ],
+    "mnem": "",
+    "rel": ["Vulnerability Assessment", "Incident Response", "Cyber Hygiene"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "IV",
+    "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+    "sub": "Incident Response",
+    "def": "Incident response is the organised set of procedures by which an organisation prepares for, detects, contains, eradicates and recovers from a cyber security incident, and then learns from it. It is governed by a written incident response plan and executed by a designated team, usually called a CSIRT or CERT.",
+    "exp": "Two lifecycle models are examined. NIST states four phases: Preparation; Detection and Analysis; Containment, Eradication and Recovery; Post-Incident Activity. SANS states six: Preparation, Identification, Containment, Eradication, Recovery, Lessons Learned. They describe the same work split differently, so read the option list before answering how many phases there are.\n\nIn practice: preparation builds the plan, the contact and escalation matrix, the playbooks, the logging and the backups. Detection and analysis turns raw events and alerts into a confirmed incident with a severity rating. Containment stops the spread, first short-term by isolating the host or blocking the source, then long-term while a clean rebuild is prepared. Eradication removes the cause, malware, a web shell, a compromised account. Recovery restores service from known-good backups and monitors for reinfection. Post-incident review produces the root cause and the changes that stop a repeat.\n\nEvidence handling runs alongside: preserve logs and take a forensic image before wiping, and maintain chain of custody if the matter may go to police or court.\n\nIndian context matters here. CERT-In, constituted under Section 70B of the IT Act 2000, is the national nodal agency for incident response, and its 2022 directions require covered entities to report specified incidents within six hours of noticing them and to retain ICT logs for 180 days within India.",
+    "facts": [
+      "The NIST incident response lifecycle has four phases: Preparation; Detection and Analysis; Containment, Eradication and Recovery; Post-Incident Activity.",
+      "The SANS model states six steps: Preparation, Identification, Containment, Eradication, Recovery, Lessons Learned.",
+      "CERT-In, constituted under Section 70B of the Information Technology Act 2000, is India's national nodal agency for computer security incident response.",
+      "CERT-In's 2022 directions require covered entities to report specified cyber incidents within six hours of noticing them, and to maintain ICT system logs for a rolling 180 days within India.",
+      "Under the Digital Personal Data Protection Act 2023, a Data Fiduciary must notify the Data Protection Board and each affected Data Principal of a personal data breach.",
+      "Containment always precedes eradication: the spread is stopped before the cause is removed."
+    ],
+    "traps": [
+      "The first action on a compromised server is to isolate it from the network, not to power it off. Shutting down destroys volatile memory evidence.",
+      "Incident versus breach: an incident is any event threatening confidentiality, integrity or availability; a breach is confirmed unauthorised access to or disclosure of data. Every breach is an incident, not every incident is a breach.",
+      "Recovery is not the final phase. Post-incident review or lessons learned is, and it is the step scenario questions most often expect you to name.",
+      "Preparation is counted inside the lifecycle as its first phase, not as something done before incident response begins."
+    ],
+    "mnem": "PICERL for the SANS six: Preparation, Identification, Containment, Eradication, Recovery, Lessons learned.",
+    "rel": ["Patch Management", "Cyber Hygiene", "Information Security Principles"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "IV",
+    "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+    "sub": "Cyber Hygiene",
+    "def": "Cyber hygiene is the set of routine, repeated practices by which users and organisations keep systems and data healthy and shrink the attack surface: strong unique credentials with multi-factor authentication, timely updates, tested backups, least privilege, careful handling of links, attachments and removable media, and regular awareness training. Like personal hygiene, it is small habits done consistently that prevent most infections.",
+    "exp": "Credentials first, because stolen or reused passwords cause most compromises. Current guidance favours long passphrases and screening against known-breached password lists over forced character-class rules and routine expiry. Use a password manager, never reuse a password across sites, and add multi-factor authentication. Not all second factors are equal: hardware keys and passkeys resist phishing, an authenticator app is next, and SMS OTP is weakest because SIM swap and interception defeat it.\n\nBackups are the ransomware answer. The 3-2-1 rule is three copies, on two different media, with one off-site; modern practice adds that at least one copy must be offline or immutable, because malware encrypts whatever is mounted.\n\nDaily discipline: work from a standard user account and use administrative rights only for administrative tasks; lock the screen; encrypt laptops and phones; avoid unknown USB drives; treat unexpected links, attachments and payment requests as hostile until verified; never share an OTP with anyone, including a caller claiming to be from a bank or a government office.\n\nOrganisationally the same habits become asset inventory, standard builds, removal of unused software, disabling of dormant accounts and endpoint protection. In India, CERT-In runs Cyber Swachhta Kendra, the Botnet Cleaning and Malware Analysis Centre, which distributes free removal tools, and fraud is reported at cybercrime.gov.in or on helpline 1930.",
+    "facts": [
+      "The 3-2-1 backup rule means three copies of the data, on two different media types, with one copy off-site.",
+      "Current password guidance, following NIST SP 800-63B, prefers long passphrases and breached-password screening to forced periodic expiry and complexity rules.",
+      "MFA strength order: phishing-resistant hardware keys and passkeys, then authenticator-app codes, then SMS OTP, which is vulnerable to SIM swap.",
+      "Cyber Swachhta Kendra, India's Botnet Cleaning and Malware Analysis Centre, operates under CERT-In and MeitY and provides free malware removal tools.",
+      "Cybercrime and online financial fraud in India are reported through cybercrime.gov.in or the national helpline number 1930.",
+      "Least privilege means routine work is done from a standard user account, with administrator rights used only when an administrative task requires them."
+    ],
+    "traps": [
+      "Antivirus alone is not cyber hygiene. Updates, backups, MFA, least privilege and user awareness carry at least as much weight.",
+      "Forcing a password change every 30 or 90 days is outdated advice. Current standards drop routine expiry and change credentials on evidence of compromise instead.",
+      "A backup that stays permanently connected is not ransomware protection, because the malware encrypts it too. The offline or immutable copy is the point.",
+      "HTTPS and a padlock mean the connection is encrypted, not that the site is genuine. Phishing sites routinely hold valid certificates."
+    ],
+    "mnem": "",
+    "rel": ["Patch Management", "Incident Response", "Information Security Principles"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "IV",
+    "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+    "sub": "Fundamentals of Artificial Intelligence",
+    "def": "Artificial intelligence is the field of building systems that perform tasks normally requiring human intelligence: perceiving, reasoning, learning, understanding language, planning and acting. AI is the umbrella term. Machine learning is one approach inside AI, and deep learning is one approach inside machine learning. Natural language processing and computer vision are application areas of AI, named by the kind of data they handle.",
+    "exp": "There are two traditions. Symbolic or rule-based AI encodes knowledge that humans write down: expert systems, logic, search algorithms, knowledge bases. A rule-based medical triage system contains a human-written rule such as \"if temperature is above 38 and cough is present, flag fever\". Learned or statistical AI does not receive the rule; it is shown thousands of labelled past cases and works out its own decision boundary. Both are genuinely AI. Since roughly the 2010s the learned approach has dominated, because large datasets and cheap parallel compute arrived together.\n\nThe second division is by scope. Narrow or weak AI is bound to one task, and everything actually deployed in 2026 is narrow, however impressive it looks. Artificial general intelligence, human-level competence across arbitrary domains, does not exist. The Turing Test is the classic behavioural benchmark, and note what it actually tests: whether a machine's conversation is distinguishable from a human's, not whether it understands anything.\n\nClassic subfields to be able to list: search and problem solving, knowledge representation, planning, machine learning, natural language processing, computer vision, robotics and expert systems.\n\nIn India, the IndiaAI Mission under MeitY funds shared GPU compute, datasets, skilling and safe-and-trusted AI research, and NITI Aayog's National Strategy for Artificial Intelligence is titled \"AI for All\".",
+    "facts": [
+      "The nesting is: artificial intelligence contains machine learning, which contains deep learning. NLP and computer vision are application domains of AI, today mostly built with deep learning.",
+      "The term artificial intelligence was coined for the 1956 Dartmouth workshop, associated with John McCarthy.",
+      "Symbolic AI and expert systems apply human-written rules; machine learning derives its rules from data. Both count as AI.",
+      "All AI in production use today is narrow or weak AI, bound to a specific task. Artificial general intelligence does not exist.",
+      "The Turing Test judges whether a machine's conversational responses can be distinguished from a human's.",
+      "India's IndiaAI Mission sits under MeitY; NITI Aayog's national AI strategy is titled \"AI for All\"."
+    ],
+    "traps": [
+      "AI and machine learning are not synonyms. ML is a subset of AI. A hand-coded expert system, or a chess program that only searches, is AI with no learning in it at all.",
+      "Narrow versus general AI is about breadth, not skill. A system that beats every human at Go is still narrow AI.",
+      "The Turing Test measures indistinguishability of output, not understanding, consciousness or correctness.",
+      "AI is not a synonym for chatbot or for generative AI. Generation is one recent capability within the field, not the field itself."
+    ],
+    "mnem": "Three rings from outside in: AI, then ML inside it, then DL inside that.",
+    "rel": ["Machine Learning", "Deep Learning", "AI Ethics and Responsible AI"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "IV",
+    "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+    "sub": "Machine Learning",
+    "def": "Machine learning is the branch of artificial intelligence in which a system improves at a task by learning patterns from data rather than being given explicit rules. You supply examples, an algorithm fits a model to them, and the model then makes predictions on data it has never seen. Deep learning is a subset of machine learning; machine learning is a subset of AI.",
+    "exp": "There are three main types, and the distinction is about what the data carries.\n\nSupervised learning uses labelled data: every example carries its correct answer, and the model learns the mapping from input to output. Take ten thousand past loan applications, each marked repaid or defaulted. The algorithm works out which combinations of income, age and credit history precede default; feed it a new application and it predicts. Supervised learning splits into classification, where the output is a category (spam or not spam, which crop disease), and regression, where the output is a continuous number (tomorrow's electricity load, a property price).\n\nUnsupervised learning has no labels. Nobody says what the right answer is; the algorithm finds structure by itself. Given the same customers with no groupings supplied, clustering discovers segments that nobody defined in advance. Anomaly detection and dimensionality reduction also live here.\n\nReinforcement learning has neither labels nor a fixed dataset. An agent acts in an environment, receives reward or penalty, and learns a policy by trial. Game playing, robot control and adaptive traffic signal timing are typical.\n\nThe workflow is constant: collect, clean, split into training and test sets, train, evaluate on the held-out test set, deploy, monitor. Overfitting is the standard failure, where the model memorises the training data including its noise and then performs badly on new data.",
+    "facts": [
+      "The three broad types are supervised (labelled data), unsupervised (unlabelled data) and reinforcement learning (reward signal from an environment).",
+      "Supervised learning divides into classification, which predicts a category, and regression, which predicts a continuous value.",
+      "k-means is a clustering algorithm and is unsupervised; k-nearest neighbours is a supervised classifier. The similar names hide different families.",
+      "Overfitting means excellent performance on training data and poor performance on unseen data; it is diagnosed by comparing training with test performance.",
+      "A model is always evaluated on held-out data that it was not trained on.",
+      "Arthur Samuel, working on a checkers-playing program, is credited with coining the term machine learning in 1959."
+    ],
+    "traps": [
+      "Supervised versus unsupervised is decided purely by whether the training data carries labels, not by whether a human supervises the process or how hard the task is.",
+      "Classification versus regression: \"will it rain, yes or no\" is classification; \"how many millimetres of rain\" is regression. Same problem, different output type.",
+      "Reinforcement learning is not unsupervised learning even though it uses no labels; it learns from rewards. Semi-supervised learning, a small labelled set plus a large unlabelled one, is a further category examiners add.",
+      "More data or a bigger model does not automatically cure overfitting. Overfitting is about the gap between training and test performance, not about scale."
+    ],
+    "mnem": "Labels present, supervised. Labels absent, unsupervised. Rewards instead of labels, reinforcement.",
+    "rel": ["Fundamentals of Artificial Intelligence", "Deep Learning", "Natural Language Processing"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "IV",
+    "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+    "sub": "Deep Learning",
+    "def": "Deep learning is the subset of machine learning that uses artificial neural networks with many layers. \"Deep\" refers to the depth of the network, that is the number of hidden layers stacked between input and output. Its defining property is that the network learns useful features from raw data by itself, instead of a human designing those features first.",
+    "exp": "Take the word literally. A network with an input layer, one hidden layer and an output layer is a shallow neural network. Stack many hidden layers and it is deep. Each layer converts the previous layer's output into a slightly more abstract representation.\n\nThe intuition that makes this click is the feature hierarchy in face recognition. Early layers respond to edges and colour gradients. Middle layers respond to combinations that look like corners, eyes and noses. Later layers respond to whole faces. Nobody wrote down what an eye looks like; the hierarchy emerged from training on labelled images. In classical machine learning a human engineer would have had to hand-design those features before any algorithm could use them. That removal of manual feature engineering is the practical difference between deep learning and the machine learning that came before it.\n\nThe cost is data and compute. Deep networks need large training sets and heavy parallel processing on GPUs or TPUs, which is why the approach only became practical once both were cheap.\n\nArchitectures follow the shape of the data: convolutional neural networks for grid data such as images, recurrent networks and LSTMs for sequences, and transformers, which now dominate language and increasingly vision too. Deep learning remains machine learning, with the same supervised and unsupervised framing, the same overfitting risk, and the same interpretability problem often called the black box.",
+    "facts": [
+      "\"Deep\" refers to the number of hidden layers in the neural network, not to model size, dataset size or task difficulty.",
+      "Deep learning performs automatic feature extraction; classical machine learning generally requires manual feature engineering.",
+      "CNNs are the standard architecture for images, RNNs and LSTMs for sequential data, and transformers now dominate language and much of vision.",
+      "Deep learning typically needs far more training data and compute, usually GPUs or TPUs, than classical machine learning algorithms.",
+      "Deep learning is a subset of machine learning, which is a subset of artificial intelligence.",
+      "An artificial neuron takes weighted inputs, sums them and applies a non-linear activation function; without non-linearity, stacked layers would collapse to a single linear one."
+    ],
+    "traps": [
+      "\"Deep\" does not mean large, advanced or accurate. A badly trained twenty-layer network is still deep, and an enormous random forest is not deep at all.",
+      "Deep learning is not an alternative to machine learning, it is inside it. An option list offering machine learning or deep learning as mutually exclusive is misleading.",
+      "A neural network is not automatically deep. A single-hidden-layer network is a neural network but shallow.",
+      "Deep learning removes hand-designed features, not the need for data quality and correct labels. Bad labels still produce a bad model."
+    ],
+    "mnem": "Deep means many layers. Count layers, not parameters.",
+    "rel": ["Machine Learning", "Computer Vision", "Natural Language Processing"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "IV",
+    "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+    "sub": "Natural Language Processing",
+    "def": "Natural language processing is the area of artificial intelligence concerned with letting computers process, understand and produce human language in text and speech. It is an application domain, defined by the kind of data it handles, not by the technique used to handle it. NLP problems can be solved by hand-written rules, by statistics, or, as is now standard, by deep learning.",
+    "exp": "What it is used for: machine translation, spam filtering, sentiment analysis, named entity recognition, question answering, chatbots and voice assistants, summarisation, speech-to-text and text-to-speech, autocorrect and predictive text, and search.\n\nThe classic pipeline is worth memorising in order. Tokenisation splits text into words or tokens. Stop-word removal drops high-frequency words carrying little meaning. Stemming chops a word to a crude root, so \"studies\" becomes \"studi\", which need not be a real word. Lemmatisation instead maps it to a valid dictionary form, so \"studies\" becomes \"study\". Then part-of-speech tagging, parsing, named entity recognition, and above them semantics and pragmatics. Older systems used hand-written grammars and bag-of-words counts. Modern systems convert text into embeddings, numeric vectors positioned so that words and sentences with similar meanings sit close together, and process them with transformer-based neural models.\n\nLanguage is hard because of ambiguity (\"bank\" as riverbank or as a financial institution), sarcasm, context and coreference, idiom, and code-mixing, where English and Hindi or English and Mizo appear in one sentence, which is normal Indian usage.\n\nIndia's linguistic spread makes this a distinct national problem. Bhashini, the National Language Translation Mission under MeitY, provides translation and speech services across Indian languages, and the AI4Bharat programme builds open Indian-language models and datasets.",
+    "facts": [
+      "NLP covers both natural language understanding, which extracts meaning, and natural language generation, which produces fluent text.",
+      "Tokenisation is normally the first step in a text processing pipeline.",
+      "Stemming truncates a word to a rough root and may yield a non-word; lemmatisation uses vocabulary and grammar to return a valid dictionary form.",
+      "Word embeddings represent words as numeric vectors so that semantically similar words lie close together in the vector space.",
+      "Bhashini is India's National Language Translation Mission under MeitY, providing translation and speech services across Indian languages.",
+      "The Eighth Schedule of the Constitution lists 22 scheduled languages, which sets the practical scope of Indian-language NLP."
+    ],
+    "traps": [
+      "NLP is not a type of deep learning. It is a problem area. Most modern NLP uses deep learning, but the two are different categories of thing.",
+      "Stemming versus lemmatisation: the test is whether the output must be a real word. Lemmatisation must produce one, stemming need not.",
+      "NLP is much broader than chatbots and large language models. Spam filters, machine translation and speech recognition are NLP with no chat involved.",
+      "Speech recognition converts audio into text; the understanding that follows is NLP proper. Questions frequently conflate the front-end with the language processing."
+    ],
+    "mnem": "",
+    "rel": ["Fundamentals of Artificial Intelligence", "Deep Learning", "Large Language Models (LLMs)"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "IV",
+    "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+    "sub": "Computer Vision",
+    "def": "Computer vision is the area of artificial intelligence that lets machines extract meaning from images and video: what is present, where it is, and what is happening. Like natural language processing, it is an application domain named by its data type, not by its method. It predates deep learning and can be done with classical algorithms, though deep learning now dominates it.",
+    "exp": "Learn the task ladder in order of granularity. Image classification gives one label for the whole image: this is a tractor. Object detection gives what and where, several objects each inside a bounding box: three cars, at these coordinates. Segmentation labels every pixel, with semantic segmentation grouping all pixels of a class together and instance segmentation separating individual objects of the same class. Above these sit face recognition, optical character recognition, pose estimation, object tracking across video frames and depth estimation.\n\nThe pipeline is acquire, pre-process (resize, denoise, normalise), extract features, then classify or detect, then post-process. Classical computer vision used hand-designed detectors for edges, corners and keypoints feeding a conventional classifier. Convolutional neural networks replaced that by learning the features themselves, and transformer-based vision models are now common as well.\n\nIndian applications are easy to name: automatic number plate recognition at toll plazas and in traffic enforcement, biometric face, iris and fingerprint matching, OCR for record digitisation, crop and disease monitoring from drone and satellite imagery, medical imaging triage and industrial defect inspection.\n\nKnow the limits. Accuracy falls with poor lighting, occlusion, motion blur and unusual angles. Models trained on unrepresentative data perform worse on under-represented groups, which is why face recognition in policing is contested. Facial images are personal data, so processing them attracts obligations under the DPDP Act 2023.",
+    "facts": [
+      "Image classification gives one label per image, object detection gives labels plus bounding boxes, and segmentation assigns a class to every pixel.",
+      "Semantic segmentation labels all pixels of a class together; instance segmentation distinguishes separate objects of the same class.",
+      "CNNs are the standard deep architecture for vision because convolution exploits the spatial structure of an image.",
+      "OCR, optical character recognition, converts images of text into machine-readable text and is a computer vision task that commonly feeds an NLP stage.",
+      "Automatic number plate recognition is a computer vision application widely used in Indian toll collection and traffic enforcement.",
+      "Facial images and other biometrics are personal data, so their processing attracts obligations under the Digital Personal Data Protection Act 2023."
+    ],
+    "traps": [
+      "Classification versus detection versus segmentation: the discriminator is granularity, whole image against bounding boxes against individual pixels. Distractors routinely swap these three.",
+      "Computer vision is not image processing. Image processing turns an image into another image, by filtering, sharpening or compression; computer vision extracts meaning from it.",
+      "Computer vision is not a subset of deep learning. It is an application domain that today mostly uses deep learning but existed long before it.",
+      "Face detection asks whether a face is present and where; face recognition asks whose face it is. Detection comes first and is a different task."
+    ],
+    "mnem": "Classify, detect, segment: image, box, pixel.",
+    "rel": ["Deep Learning", "Natural Language Processing", "AI Ethics and Responsible AI"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "IV",
+    "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+    "sub": "Generative AI",
+    "def": "Generative AI is artificial intelligence that produces new content, such as text, images, audio, video or code, that resembles its training data without being copied from it. The contrast is with discriminative or predictive AI, which classifies, scores or forecasts from existing input rather than creating anything. Generative models are built with deep learning, so generative AI sits inside deep learning, inside machine learning, inside AI.",
+    "exp": "What \"generative\" adds is best seen as a change of question. A discriminative model answers a question about an input: is this email spam, which crop disease is in this photo, will this customer default. A generative model produces the artefact instead: write the reply, draw the photo, draft the note. The underlying machinery is the same family of deep networks; the job is different.\n\nMechanically, the model learns the statistical structure of its training data and then samples from it, producing output step by step, each step conditioned on what it has already produced. Three families matter: transformer-based large language models for text, diffusion models for images and video, and GANs, which pit a generator against a discriminator and were the leading image approach before diffusion. Multimodal systems take in or emit more than one content type, describing an image or generating one from a text prompt.\n\nThe risks are examinable. Hallucination is fluent, confident output that is simply false, and it follows from how sampling works rather than being a bug awaiting a patch. Deepfakes and voice cloning enable fraud and impersonation. Training data raises copyright and provenance questions, and bias in that data is reproduced in the output. For government use the operational rule is direct: official records and citizen data must not be pasted into public AI services, and generated output needs human verification before action.",
+    "facts": [
+      "Generative models create new content; discriminative models classify, score or predict from content that already exists.",
+      "Transformer-based LLMs dominate text generation, diffusion models dominate image and video generation, and GANs pair a generator with a discriminator.",
+      "Hallucination is the term for fluent output that is factually wrong, and it arises from how generative models sample rather than from a correctable defect.",
+      "Generative AI is a subset of deep learning, and therefore of machine learning and of artificial intelligence.",
+      "Multimodal generative systems handle more than one content type, such as text and images, in their input, their output or both.",
+      "Personal data typed into a third-party AI service is a disclosure, and under the DPDP Act 2023 the Data Fiduciary remains accountable for it."
+    ],
+    "traps": [
+      "Generative AI is not all of AI or even all of deep learning. Spam filters, demand forecasting and face recognition are AI that generate nothing.",
+      "A GAN's discriminator is a component of a generative system. Its presence does not make the model discriminative.",
+      "Fluency is not accuracy. A well-written, confident answer from a generative model is no evidence that the content is correct.",
+      "Generative AI and large language model are not synonyms. An LLM is one kind of generative model, specialised to text; image and audio generators are generative AI too."
+    ],
+    "mnem": "Discriminative decides, generative creates.",
+    "rel": ["Large Language Models (LLMs)", "Prompt Engineering", "AI Ethics and Responsible AI"]
+  }
+]

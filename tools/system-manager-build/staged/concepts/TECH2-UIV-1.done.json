@@ -1,0 +1,248 @@
+[
+  {
+    "paper": "TECH2",
+    "unit": "IV",
+    "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+    "sub": "Information Security Principles",
+    "def": "The rules that define what \"secure\" means for a system. The core is the CIA triad: Confidentiality (only authorised parties can read the data), Integrity (data cannot be altered without detection) and Availability (authorised users can reach the system when they need it). Authentication, authorisation, accountability and non-repudiation are the standard supporting principles.",
+    "exp": "Use the triad to classify an incident. A leaked database breaks confidentiality. A tampered payroll record breaks integrity. A DDoS flood breaks availability. Ransomware breaks all three at once, which is why it is the standard exam example.\n\nKeep the AAA terms apart. Authentication asks who you are, authorisation asks what you are allowed to do once identified, and accounting or auditing records what you actually did. Non-repudiation means the actor cannot later deny the act; it is delivered cryptographically by digital signatures, not by a password.\n\nThe design principles that follow are least privilege (give the minimum rights needed for the job), need-to-know, separation of duties, defence in depth (layered controls so one failure is not fatal), fail-secure defaults and security by design rather than bolted on afterwards. Controls are classified as preventive, detective and corrective, and as administrative, technical or physical.\n\nIn the Indian government context, CERT-In under MeitY is the national nodal agency for computer security incidents, and the Digital Personal Data Protection Act, 2023 places a statutory duty on a data fiduciary to apply reasonable security safeguards to personal data. Risk is the standard framing: threat plus vulnerability plus asset value, managed by accepting, avoiding, transferring or mitigating it.",
+    "facts": [
+      "CIA triad = Confidentiality, Integrity, Availability. Some texts add Authenticity and Non-repudiation, giving the five-pillar model.",
+      "Least privilege: a user or process gets only the minimum access needed to do its job, for the minimum time.",
+      "Defence in depth means multiple independent layers of control, so the failure of any one layer does not expose the asset.",
+      "CERT-In, under the Ministry of Electronics and Information Technology (MeitY), is India's national agency for responding to cyber security incidents.",
+      "The Digital Personal Data Protection Act, 2023 obliges a data fiduciary to safeguard personal data it processes.",
+      "Risk treatment options: accept, avoid, transfer (e.g. cyber insurance) or mitigate."
+    ],
+    "traps": [
+      "Authentication vs authorisation: authentication proves identity, authorisation grants permissions. Logging in is authentication; being refused a file afterwards is authorisation.",
+      "Availability is a security property, not just an uptime target. A DDoS is a security incident even though nothing is stolen or altered.",
+      "Non-repudiation is not the same as integrity. Integrity says the message was not changed; non-repudiation says a specific party cannot deny sending it, and needs a private-key signature.",
+      "Least privilege is about scope of rights; need-to-know is about scope of information. An admin may have rights to a file server yet no business need to read a particular HR folder."
+    ],
+    "mnem": "CIA for the triad; AAA for Authentication, Authorisation, Accounting.",
+    "rel": [
+      "Encryption",
+      "Vulnerability Assessment",
+      "Cyber Threats and Malware"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "IV",
+    "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+    "sub": "Cyber Threats and Malware",
+    "def": "Malware is any software written to damage, disrupt, spy on or gain unauthorised access to a system. Cyber threat is the wider term, covering malware plus attacks aimed at people and protocols. The main malware families are virus, worm, trojan, ransomware, spyware, adware, rootkit, keylogger and bot.",
+    "exp": "The classic three are separated by how they spread. A virus attaches itself to a host file and needs the user to run that file. A worm is self-replicating and travels across a network by itself, with no host file and no user action, which is why worms cause the fastest outbreaks. A trojan does not replicate at all; it is disguised as useful software and the user installs it willingly.\n\nThe rest are separated by purpose. Ransomware encrypts files and demands payment, and modern strains steal the data first and threaten to publish it, called double extortion. Spyware and keyloggers harvest data quietly. A rootkit hides at a deep level of the operating system so other malware stays invisible. A bot enrols the machine into a botnet controlled from a command-and-control server.\n\nNon-malware threats you must name: phishing by email, spear phishing when targeted, vishing by voice call and smishing by SMS; social engineering generally; DoS and the distributed DDoS launched from a botnet; man-in-the-middle interception; SQL injection and cross-site scripting against web applications; a zero-day, for which no patch yet exists; and an Advanced Persistent Threat, a long, stealthy, well-resourced intrusion. Insiders remain a major source of loss.\n\nIn India, CERT-In issues advisories and coordinates response, NCIIPC protects critical information infrastructure, and financial cyber fraud is reported on the national cybercrime portal or helpline 1930.",
+    "facts": [
+      "Virus needs a host file and user execution; worm is self-replicating and spreads over a network unaided; trojan is disguised and does not replicate.",
+      "Ransomware attacks confidentiality, integrity and availability together; double extortion adds data theft and threatened publication.",
+      "A DDoS attack is launched from many compromised machines forming a botnet, directed by a command-and-control server.",
+      "A zero-day is a vulnerability exploited before a vendor patch exists; an APT is a prolonged, stealthy, targeted intrusion.",
+      "NCIIPC is India's nodal agency for protection of Critical Information Infrastructure; CERT-In handles general incident response.",
+      "1930 is the national cyber financial fraud helpline number in India."
+    ],
+    "traps": [
+      "Worm vs virus is the most-asked distinction: self-replicating and network-spreading (worm) versus needing a host file and user action (virus). A trojan is neither, it does not self-replicate.",
+      "Phishing is not malware. It is social engineering; the malware, if any, arrives in the attachment or link.",
+      "DoS vs DDoS: one source versus many distributed sources. Both target availability, neither steals data by itself.",
+      "A rootkit hides malware; it is not itself the payload. Ransomware encrypts data; spyware copies it. Do not treat all malware as data-stealing."
+    ],
+    "mnem": "",
+    "rel": [
+      "Antivirus and Endpoint Protection",
+      "Incident Response",
+      "Cyber Hygiene"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "IV",
+    "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+    "sub": "Firewalls",
+    "def": "A firewall is a control placed at a network boundary that inspects traffic crossing it and permits or blocks each packet or connection against a configured rule set. It may be a dedicated appliance, a router feature or software running on a host. The correct default posture is default-deny: block everything, then allow only what is required.",
+    "exp": "Learn the generations in order. A packet-filtering firewall reads headers only, source and destination IP address, port and protocol, and holds no memory of past packets. Being stateless, it is fast but easy to evade. A stateful inspection firewall keeps a connection state table, so return traffic belonging to a session it already allowed is permitted automatically and unsolicited inbound packets are not. An application-layer or proxy firewall terminates the connection itself and inspects the payload, so it understands HTTP or FTP commands and can filter on content. A next-generation firewall (NGFW) adds application identification, user identity, TLS inspection and an integrated intrusion prevention engine. A Web Application Firewall sits in front of a web application and blocks SQL injection and cross-site scripting.\n\nPlacement matters as much as type. A network firewall guards the perimeter; a host-based firewall such as Windows Defender Firewall or iptables and nftables on Linux protects one machine and still applies to traffic inside the LAN. Public-facing servers go in a DMZ, a screened segment, so that compromising the web server does not put the attacker on the internal network.\n\nA firewall filters traffic. An IDS detects and alerts out of band; an IPS sits inline and blocks. Rules are evaluated top down, so ordering changes behaviour.",
+    "facts": [
+      "Packet filtering is stateless and header-only; stateful inspection tracks connections in a state table and allows matching return traffic.",
+      "A proxy or application-layer firewall terminates the connection and can inspect the payload, so it operates at the application layer.",
+      "A DMZ is a screened network segment for public-facing servers, isolated from the internal LAN.",
+      "IDS detects and alerts; IPS is inline and blocks; a firewall enforces an allow/deny policy on traffic.",
+      "Default-deny (implicit deny at the end of the rule base) is the recommended posture; rules are matched top down and the first match wins."
+    ],
+    "traps": [
+      "A firewall is not antivirus. It filters traffic by rules and does not scan files on a device for malware; that is endpoint protection's job.",
+      "Stateful vs stateless is the classic distinction: only a stateful firewall remembers that an outbound connection was allowed and permits its replies.",
+      "NAT hides internal addressing and is often mistaken for a firewall. It is an address-translation function, not a security policy engine.",
+      "A firewall cannot inspect traffic that never crosses it, so it does nothing about attacks between two machines on the same internal segment or about malware brought in on a USB drive."
+    ],
+    "mnem": "",
+    "rel": [
+      "Cyber Threats and Malware",
+      "Antivirus and Endpoint Protection"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "IV",
+    "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+    "sub": "Antivirus and Endpoint Protection",
+    "def": "Antivirus scans files, memory and processes on a device for malware and then quarantines, cleans or deletes what it finds. Endpoint protection is the broader modern product: an Endpoint Protection Platform bundling antivirus with a host firewall, device and application control, web filtering and disk-encryption management, all run from one central console.",
+    "exp": "Three detection methods, and you should be able to rank them. Signature-based detection compares a file against a database of known malware patterns or hashes; it is accurate and cheap but blind to anything new and needs constant definition updates. Heuristic detection looks for suspicious code structure and known-bad instruction patterns, so it can flag a variant of an existing family. Behaviour-based or dynamic detection watches what a program actually does at runtime, such as mass file encryption or writing to a registry startup key, and is the only one of the three that reliably catches a genuine zero-day. Sandboxing detonates a suspicious file in an isolated environment first; cloud reputation lookups and machine-learning classifiers now sit above all of this.\n\nEDR, Endpoint Detection and Response, records detailed endpoint telemetry so an analyst can hunt, investigate and reconstruct an intrusion, and lets a compromised machine be isolated from the network remotely. XDR extends the same correlation across email, network, cloud and identity. EDR complements the antivirus engine; it does not replace it.\n\nOperationally: real-time on-access scanning versus scheduled on-demand scans, quarantine rather than immediate deletion so a false positive can be restored, and central policy so users cannot disable protection.",
+    "facts": [
+      "Signature-based detection cannot catch unknown or polymorphic malware; behaviour-based detection can, because it judges runtime actions.",
+      "EDR adds telemetry recording, investigation and remote host isolation on top of an Endpoint Protection Platform; XDR correlates across endpoint, email, network, cloud and identity.",
+      "Quarantine isolates a suspect file in an encrypted store instead of deleting it, so a false positive can be restored.",
+      "A false positive is clean software flagged as malicious; a false negative is malware the product misses.",
+      "Sandboxing runs the suspect file in an isolated environment to observe its behaviour before allowing it on the real system."
+    ],
+    "traps": [
+      "Updating virus definitions is not the same as patching the operating system. Definitions teach the scanner new malware; patches close the vulnerability the malware exploits.",
+      "Installing two real-time antivirus engines does not double protection; they conflict, each flagging the other, and typically degrade both performance and detection.",
+      "Antivirus is host-based and inspects files and processes; a firewall is network-based and inspects traffic. Exam options often swap the two.",
+      "Heuristic and behaviour-based detection are not interchangeable: heuristics examine the code statically for suspicious structure, behavioural analysis judges what the program does when it runs."
+    ],
+    "mnem": "",
+    "rel": [
+      "Cyber Threats and Malware",
+      "Patch Management",
+      "Firewalls"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "IV",
+    "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+    "sub": "Multi-factor Authentication (MFA)",
+    "def": "Multi-factor authentication grants access only after the user presents two or more independent proofs of identity drawn from different factor categories: something you know (password, PIN), something you have (phone, hardware token, smart card) and something you are (fingerprint, face, iris). Two proofs from the same category is not MFA.",
+    "exp": "Password plus an OTP on a registered mobile is genuine two-factor: knowledge plus possession. Password plus a security question is knowledge plus knowledge, so it is two-step verification but still single-factor. That distinction is the most commonly tested point. Location (somewhere you are) and behaviour (something you do, such as keystroke rhythm) are sometimes listed as further factors, but the classic three are what the examiner wants.\n\nRank the possession methods by strength. SMS and email OTP are the weakest in common use because a SIM swap or mailbox compromise defeats them. A TOTP authenticator app derives a code from a shared secret plus the current time, refreshes every few tens of seconds and works offline; HOTP is the counter-based variant. Push approval is convenient but vulnerable to prompt-bombing until number matching is added. A FIDO2 or WebAuthn hardware security key is the strongest widely deployed option, because the cryptographic response is bound to the website's domain, so a phishing site cannot relay it. Passkeys apply the same mechanism and remove the password entirely.\n\nIn India, the Reserve Bank has long required an additional factor of authentication for online card payments, which is why the OTP step is universal, and Aadhaar authentication itself supports OTP, fingerprint and iris modes.",
+    "facts": [
+      "The three classic factors: something you know, something you have, something you are. MFA requires factors from at least two different categories.",
+      "TOTP is time-based and works offline from a shared secret; HOTP is counter-based. Both are generated by an authenticator app or token.",
+      "FIDO2/WebAuthn security keys and passkeys resist phishing because the credential is cryptographically bound to the site's domain.",
+      "SMS OTP is the weakest common second factor, defeated by SIM swap, malware on the phone or interception.",
+      "RBI requires an additional factor of authentication for online card transactions in India; Aadhaar authentication supports OTP, biometric and iris modes."
+    ],
+    "traps": [
+      "Password plus security question is not MFA. Both are knowledge factors. Two-step verification and multi-factor authentication are not synonyms.",
+      "2FA is exactly two factors; MFA is two or more. Every 2FA is MFA, but not every MFA is 2FA.",
+      "A fingerprint alone unlocking a phone is single-factor (inherence), not MFA, however strong it feels.",
+      "MFA blocks credential stuffing and stolen-password reuse but does not stop session-token theft, malware on an already-authenticated device, or a real-time relay attack on OTP-based methods."
+    ],
+    "mnem": "Know, Have, Are.",
+    "rel": [
+      "Information Security Principles",
+      "Cyber Hygiene"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "IV",
+    "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+    "sub": "Encryption",
+    "def": "Encryption transforms plaintext into ciphertext using an algorithm (cipher) and a key, so that only a holder of the correct key can recover the original. Its direct security service is confidentiality. The two families are symmetric encryption, where one shared key both encrypts and decrypts, and asymmetric or public-key encryption, which uses a mathematically linked key pair.",
+    "exp": "Symmetric ciphers are fast and carry the bulk of real data. AES is the standard, with 128, 192 or 256-bit keys and a 128-bit block; DES with its 56-bit key is broken and 3DES is deprecated. Block ciphers work on fixed-size blocks and need a mode of operation; stream ciphers work bit by bit. The weakness is key distribution: the key must reach the other party over some already-secure channel, and a group of n users needs n(n-1)/2 distinct keys.\n\nAsymmetric encryption solves that. RSA rests on the difficulty of factoring large integers, ECC on elliptic curves and gives equivalent strength with much shorter keys. Encrypt with the recipient's public key and only their private key can decrypt: confidentiality. Sign with your own private key and anyone can verify with your public key: authenticity, integrity and non-repudiation, which is the digital signature. Asymmetric maths is slow, so TLS uses it only to authenticate the server and agree a session key, typically by Diffie-Hellman exchange, then encrypts the actual traffic symmetrically. That combination is hybrid encryption.\n\nSeparate the neighbours. Hashing such as SHA-256 is one-way, keyless and irreversible, giving integrity rather than confidentiality. Encoding such as Base64 provides no security at all. Distinguish data at rest from data in transit and from end-to-end encryption.",
+    "facts": [
+      "Symmetric: one shared key, fast, used for bulk data (AES). Asymmetric: public/private key pair, slow, used for key exchange and signatures (RSA, ECC).",
+      "AES supports 128, 192 and 256-bit keys; DES uses a 56-bit key and is considered broken.",
+      "n users needing pairwise symmetric keys require n(n-1)/2 keys; asymmetric cryptography needs only one key pair per user.",
+      "Encrypting with the recipient's public key gives confidentiality; signing with the sender's private key gives authenticity and non-repudiation.",
+      "Diffie-Hellman is a key-exchange algorithm, not an encryption algorithm; TLS is hybrid, using asymmetric for setup and symmetric for the session.",
+      "Hashing (SHA-256) is one-way and keyless and serves integrity; it is not encryption because nothing can be decrypted back."
+    ],
+    "traps": [
+      "Hashing is not encryption. There is no key and no way back. If a question says data was hashed and later recovered, it is wrong.",
+      "Encryption alone gives confidentiality, not integrity or authenticity. Ciphertext can still be corrupted or replayed unless a MAC or signature is added.",
+      "Signing and encrypting use the key pair in opposite directions: encrypt with the public key, decrypt with the private key; sign with the private key, verify with the public key. Reversing this is the standard distractor.",
+      "Encryption is the mechanism only. It says nothing about whose public key you are holding, which is what Digital Certificates and Public Key Infrastructure (PKI) exist to answer."
+    ],
+    "mnem": "Public key locks, private key opens; private key signs, public key verifies.",
+    "rel": [
+      "Digital Certificates",
+      "Public Key Infrastructure (PKI)",
+      "Information Security Principles"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "IV",
+    "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+    "sub": "Digital Certificates",
+    "def": "A digital certificate is an electronic document that binds a public key to a verified identity, that is a person, an organisation or a server hostname, and is digitally signed by a trusted Certifying Authority. The standard format is X.509. It exists to answer one question: whose public key is this?",
+    "exp": "Know the contents. A certificate carries the subject's name, the subject's public key, the issuing CA's name, a serial number, a validity window with not-before and not-after dates, key usage and extended key usage fields stating what the key may be used for, subject alternative names listing the hostnames covered, and the CA's signature over all of the above. Verifying it means checking the CA's signature, checking today falls inside the validity window, checking the name matches what you connected to, and checking it has not been revoked.\n\nTypes worth naming: TLS server certificates, graded domain-validated, organisation-validated and extended-validation by how thoroughly the CA checked the applicant; client or personal certificates; code-signing certificates; and, in India, the Digital Signature Certificate or DSC used for income-tax and corporate filings, GST, e-tendering and government e-marketplace transactions. Indian Certifying Authorities are licensed by the Controller of Certifying Authorities under the Information Technology Act, 2000, and eMudhra, (n)Code Solutions, Sify and NSDL are familiar names. DSCs are issued in classes, with Class 3 now the working standard for e-tendering and most filings after the lower classes were withdrawn; the private key is normally held on a USB crypto token.\n\nThe IT Act, 2000 gives digital signatures legal recognition equivalent to a handwritten signature for most purposes.",
+    "facts": [
+      "X.509 is the standard certificate format; the certificate binds a public key to a verified identity and is signed by the issuing CA.",
+      "A certificate contains subject name, subject public key, issuer name, serial number, validity dates, key usage and the CA's digital signature.",
+      "TLS server certificates come as DV, OV and EV, differing in how much identity checking the CA performs, not in encryption strength.",
+      "In India, Certifying Authorities are licensed by the Controller of Certifying Authorities (CCA) under the Information Technology Act, 2000.",
+      "A Digital Signature Certificate (DSC) is used for income-tax and MCA filings, GST, e-tendering and GeM; Class 3 is the current working standard.",
+      "The IT Act, 2000 gives digital signatures legal recognition in India."
+    ],
+    "traps": [
+      "A certificate never contains the private key. It publishes the public key; the private key stays with the holder, often on a crypto token. Anything claiming a certificate carries both is wrong.",
+      "Expired and revoked are different states. Expiry is the validity window running out; revocation is the CA cancelling the certificate early, and it is checked separately, as covered under Public Key Infrastructure (PKI).",
+      "A self-signed certificate provides exactly the same encryption on the wire but no identity assurance, because no third party vouches for it. Browsers warn about trust, not about weak cryptography.",
+      "Digital signature versus digital certificate: the signature is the cryptographic output over a message; the certificate is the document that proves the signing key belongs to a named holder."
+    ],
+    "mnem": "",
+    "rel": [
+      "Public Key Infrastructure (PKI)",
+      "Encryption"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "IV",
+    "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+    "sub": "Public Key Infrastructure (PKI)",
+    "def": "Public Key Infrastructure is the complete framework of policies, procedures, roles, hardware and software that creates, distributes, stores, validates and revokes digital certificates, so that public keys can be trusted at scale between parties who have never met. PKI is the system; a certificate is one artefact it produces.",
+    "exp": "The roles are examinable. The Certifying Authority issues, signs and revokes certificates and is the root of trust. The Registration Authority verifies the applicant's identity and approves or rejects requests, but never signs a certificate itself. A repository publishes issued certificates and revocation data. The subscriber holds the key pair; the relying party validates the certificate before trusting it. The Certification Practice Statement documents how all of this is done.\n\nTrust is delivered by a chain. A root CA's self-signed certificate is pre-installed in an operating system or browser trust store and is trusted a priori. It signs intermediate CA certificates, which in turn sign end-entity certificates. Validation walks the chain from the leaf up to a trusted root, and if any link fails the whole chain fails. Root keys are kept offline, often in a hardware security module, so that a compromise of an intermediate can be contained by revoking just that intermediate.\n\nRevocation handles cancellation before expiry, after a key compromise or a staff departure. A Certificate Revocation List is a signed list of revoked serial numbers fetched periodically; OCSP queries the issuer for one certificate's status in real time; OCSP stapling has the server present a recent signed status itself.\n\nIn India the Controller of Certifying Authorities operates the Root Certifying Authority of India, the apex root that licences and signs the licensed CAs.",
+    "facts": [
+      "CA issues and signs certificates; RA verifies identity and approves requests but does not issue or sign.",
+      "The trust chain runs root CA to intermediate CA to end-entity (leaf) certificate; the root certificate is self-signed and lives in the trust store.",
+      "Root CA private keys are kept offline, typically in a hardware security module, and intermediates do the day-to-day signing.",
+      "CRL is a periodically published signed list of revoked serial numbers; OCSP checks a single certificate's status in real time; OCSP stapling has the server supply the signed status.",
+      "The Controller of Certifying Authorities (CCA) operates the Root Certifying Authority of India (RCAI), the apex of India's PKI, and licenses the Certifying Authorities under it.",
+      "The Certification Practice Statement is the published document describing how a CA operates its PKI."
+    ],
+    "traps": [
+      "CA versus RA is the standard MCQ: the RA only performs identity verification and registration, the CA alone signs and issues.",
+      "PKI versus digital certificate: PKI is the whole issuing, validating and revoking framework; the certificate is a single signed document it produces. Do not use the words interchangeably.",
+      "Revocation is not automatic. A relying party must actively check a CRL or OCSP, and if it skips that check a revoked certificate will still appear valid.",
+      "A root CA does not normally sign end-user certificates directly; intermediates do, precisely so the offline root is not exposed."
+    ],
+    "mnem": "",
+    "rel": [
+      "Digital Certificates",
+      "Encryption",
+      "Information Security Principles"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "IV",
+    "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+    "sub": "Vulnerability Assessment",
+    "def": "Vulnerability assessment is the systematic process of discovering, classifying and prioritising known weaknesses in systems, networks and applications, normally using automated scanners, and reporting each with a severity rating and remediation advice. It identifies and ranks flaws; it deliberately stops short of exploiting them.",
+    "exp": "The cycle is scope and asset inventory, scan, validate and triage to remove false positives, rank by risk, report, remediate by patching, reconfiguring or applying a compensating control, then rescan to confirm the fix. It is a continuing programme, not a once-a-year exercise, because new vulnerabilities are published daily.\n\nDistinguish it from penetration testing. Vulnerability assessment is broad, largely automated, mostly non-intrusive and lists everything it can find. A penetration test is narrow, manual and demonstrates real impact by actually exploiting flaws and chaining them together. Government and PSU tenders usually procure the two together as VAPT. Red teaming goes further still, adding stealth, physical access and social engineering against an unprepared defending team.\n\nThe supporting standards matter. A CVE identifier uniquely names a specific publicly disclosed vulnerability; CVSS assigns it a severity score from 0.0 to 10.0 mapped onto None, Low, Medium, High and Critical; the National Vulnerability Database publishes enriched CVE records. A credentialed or authenticated scan logs into the target and reads actual installed patch levels, producing far fewer false positives than an unauthenticated scan probing from outside. Common tools are Nessus, OpenVAS, Qualys, Nmap, Nikto, OWASP ZAP and Burp Suite.\n\nIn India, CERT-In empanels information security auditing organisations, and government departments commonly require an audit by an empanelled auditor before an application is hosted.",
+    "facts": [
+      "Vulnerability assessment identifies and ranks weaknesses without exploiting them; penetration testing exploits them to prove impact.",
+      "CVE is the unique identifier for a publicly disclosed vulnerability; CVSS is the severity score from 0.0 to 10.0; the NVD publishes enriched CVE data.",
+      "Authenticated (credentialed) scans log into the host and read patch levels, giving fewer false positives than unauthenticated scans.",
+      "Typical tools: Nessus, OpenVAS and Qualys for vulnerability scanning, Nmap for port and service discovery, Nikto, OWASP ZAP and Burp Suite for web applications.",
+      "CERT-In empanels information security auditing organisations used by Indian government departments for security audits.",
+      "The assessment cycle ends with remediation and a rescan to verify the fix, not with the report."
+    ],
+    "traps": [
+      "Vulnerability assessment versus penetration testing: breadth and automation versus depth and exploitation. VAPT is the two combined, not another name for either.",
+      "A vulnerability scanner reports what may be exploitable; it does not confirm exploitability. Every finding needs triage, and false positives are normal.",
+      "Vulnerability, threat and risk are different: the vulnerability is the weakness, the threat is what could act on it, the risk is the likelihood and impact combined.",
+      "A clean scan does not mean secure. Scanners find known, published vulnerabilities only, so a zero-day, a business-logic flaw or a misconfigured process can pass unnoticed."
+    ],
+    "mnem": "",
+    "rel": [
+      "Patch Management",
+      "Incident Response",
+      "Information Security Principles"
+    ]
+  }
+]

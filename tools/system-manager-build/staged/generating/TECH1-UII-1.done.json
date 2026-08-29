@@ -1,0 +1,288 @@
+[
+  {
+    "sub": "User Accounts",
+    "q": "On a Windows computer, what is the main difference between a Standard user account and an Administrator account?",
+    "opts": {
+      "A": "A Standard account cannot run applications that are already installed on the computer",
+      "B": "A Standard account may install software but may not change its own desktop settings",
+      "C": "A Standard account can run programs and change its own settings, but cannot install software or make system-wide changes without administrator approval",
+      "D": "A Standard account has full control of the computer but no access to the network"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "The account type controls privilege, not capability: a Standard user works normally with applications and personal settings, but any change affecting the whole system requires an administrator's consent or credentials. Standard users can certainly run installed programs and reach the network, so the restriction is on system-wide change alone."
+  },
+  {
+    "sub": "User Accounts",
+    "q": "Why is it recommended that day-to-day work on a Windows machine be done from a Standard account rather than from an Administrator account?",
+    "opts": {
+      "A": "Malware or a mistaken action running under a Standard account cannot make system-wide changes without an explicit administrator approval",
+      "B": "Standard accounts make the computer start up faster",
+      "C": "Files created by a Standard account are automatically encrypted",
+      "D": "Standard accounts receive software updates before administrator accounts do"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "This is the principle of least privilege: anything you run inherits your privileges, so working as a Standard user limits the damage a malicious or accidental action can do. Account type has no bearing on boot speed, encryption or update order."
+  },
+  {
+    "sub": "Windows Security",
+    "q": "What is the purpose of User Account Control (UAC) in Windows?",
+    "opts": {
+      "A": "It encrypts the contents of the hard disk so a stolen drive cannot be read",
+      "B": "It prompts for consent or for administrator credentials before an action that would change system settings is allowed to proceed",
+      "C": "It scans incoming email attachments for viruses",
+      "D": "It blocks unauthorised devices from connecting to the network"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "UAC keeps even administrators running with reduced privilege and raises the familiar consent prompt whenever a program asks to elevate, so system-level changes cannot happen silently. Disk encryption is BitLocker's job and malware scanning is Microsoft Defender Antivirus's; UAC does neither."
+  },
+  {
+    "sub": "Windows Security",
+    "q": "Which built-in Windows feature encrypts an entire drive so that its data cannot be read if the disk is removed and attached to another computer?",
+    "opts": {
+      "A": "Windows Defender Firewall",
+      "B": "Microsoft Defender Antivirus",
+      "C": "User Account Control",
+      "D": "BitLocker Drive Encryption"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "BitLocker performs full-volume encryption, so the contents remain unreadable without the correct credentials or recovery key even when the physical disk is moved to another machine. The firewall filters network traffic and the antivirus detects malicious files; neither protects a drive that has been physically taken."
+  },
+  {
+    "sub": "Windows Terminal",
+    "q": "What is Windows Terminal?",
+    "opts": {
+      "A": "A terminal application that can host several command-line shells, such as Command Prompt and PowerShell, in tabs within a single window",
+      "B": "A replacement for File Explorer that browses files graphically",
+      "C": "A remote desktop client used to connect to other Windows computers",
+      "D": "A new scripting language that replaces PowerShell"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Windows Terminal is a host, not a shell: it provides the window, tabs, panes and appearance settings, while the actual command interpreter running inside a tab may be Command Prompt, PowerShell or a Linux shell under WSL. It neither replaces Explorer nor introduces a language of its own."
+  },
+  {
+    "sub": "Windows Terminal",
+    "q": "Within Windows Terminal, which statement best describes PowerShell compared with the older Command Prompt (cmd.exe)?",
+    "opts": {
+      "A": "PowerShell runs only graphical applications, while Command Prompt runs only text ones",
+      "B": "PowerShell is a file manager, while Command Prompt is a shell",
+      "C": "PowerShell is a modern shell and scripting environment that passes structured objects between commands and has a far larger command set, while Command Prompt is the older, simpler batch-file shell",
+      "D": "PowerShell and Command Prompt are two names for exactly the same program"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "PowerShell's cmdlets pass .NET objects along the pipeline instead of plain text, which is why it can do administrative work that batch files cannot. Command Prompt is retained mainly for compatibility with legacy batch scripts and is the effectively legacy option for new administrative scripting."
+  },
+  {
+    "sub": "Registry",
+    "q": "What does the Windows Registry contain?",
+    "opts": {
+      "A": "The installation files of every program on the computer",
+      "B": "A central hierarchical database of configuration settings for Windows, hardware, installed applications and user profiles",
+      "C": "A log of every web page visited from the computer",
+      "D": "The user's documents, pictures and other personal files"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "The Registry is a settings database organised into hives and keys, replacing the scattered INI files used by very early Windows versions. It records configuration only; program files live in Program Files and personal data lives in the user's profile folders."
+  },
+  {
+    "sub": "Registry",
+    "q": "Why are users warned to be careful when editing the Windows Registry with Registry Editor?",
+    "opts": {
+      "A": "Every edit is automatically broadcast to the other computers on the network",
+      "B": "The Registry can be edited only once, after which it becomes permanently read-only",
+      "C": "Editing the Registry removes all installed applications from the computer",
+      "D": "An incorrect change can stop Windows or an installed application from working, so the affected keys should be exported or a restore point created before editing"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Registry Editor applies changes immediately with no undo and no validation, so a wrong value in a system key can leave Windows unbootable. Exporting the branch first, or creating a system restore point, gives you a way back."
+  },
+  {
+    "sub": "Linux Architecture",
+    "q": "In the layered architecture of a Linux system, which component interacts directly with the hardware and manages memory, processes and devices?",
+    "opts": {
+      "A": "The kernel",
+      "B": "The shell",
+      "C": "The desktop environment",
+      "D": "The package manager"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "The kernel is the core layer sitting between the hardware and everything else, handling process scheduling, memory management and device drivers through its device-driver and system-call interfaces. The shell is only a user-level program that asks the kernel to do this work on the user's behalf."
+  },
+  {
+    "sub": "Linux Architecture",
+    "q": "What is the role of the shell, such as bash, in a Linux system?",
+    "opts": {
+      "A": "It stores the system's configuration files",
+      "B": "It provides the graphical desktop and window manager",
+      "C": "It interprets the commands the user types and passes the requests to the operating system for execution",
+      "D": "It allocates memory directly to running processes"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "The shell is the command interpreter: it reads a command line, locates the program, and asks the kernel to run it, which is why it is described as the layer between the user and the kernel. Memory allocation is the kernel's responsibility, not the shell's."
+  },
+  {
+    "sub": "Linux File System",
+    "q": "In the standard Linux directory layout, which directory holds system-wide configuration files?",
+    "opts": {
+      "A": "/var",
+      "B": "/etc",
+      "C": "/home",
+      "D": "/bin"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "By the Filesystem Hierarchy Standard, /etc is the location for host-specific configuration files. /var holds variable data such as logs and spool files, /home holds users' personal directories, and /bin holds essential command binaries."
+  },
+  {
+    "sub": "Linux File System",
+    "q": "How does the Linux file system differ from the way Windows presents storage to the user?",
+    "opts": {
+      "A": "Linux permits only one partition on each physical disk",
+      "B": "Linux keeps all files in a single flat directory with no subdirectories",
+      "C": "Linux uses drive letters such as C: and D: but allows no more than two of them",
+      "D": "Linux presents everything as one tree starting at the root directory /, with additional disks and partitions attached at mount points instead of being given drive letters"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Linux has a single rooted hierarchy: a second disk does not become a new lettered drive but appears as a directory such as /mnt/data once it is mounted. Linux supports multiple partitions and a full directory hierarchy just as Windows does; only the naming model differs."
+  },
+  {
+    "sub": "Basic Linux Commands",
+    "q": "Which Linux command displays the full path of the directory you are currently working in?",
+    "opts": {
+      "A": "pwd",
+      "B": "ls",
+      "C": "cd",
+      "D": "mkdir"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "pwd stands for 'print working directory' and outputs the absolute path of your current location. ls lists the contents of a directory, cd changes to a different one, and mkdir creates a new one."
+  },
+  {
+    "sub": "Basic Linux Commands",
+    "q": "Which Linux command searches for lines containing a given text pattern inside a file?",
+    "opts": {
+      "A": "cat",
+      "B": "chmod",
+      "C": "grep",
+      "D": "mv"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "grep scans its input and prints only the lines that match the pattern given, for example grep error logfile.txt. cat displays a whole file without filtering it, chmod changes file permissions, and mv moves or renames files."
+  },
+  {
+    "sub": "Open-source Ecosystem",
+    "q": "What does it mean for software to be released under an open-source licence?",
+    "opts": {
+      "A": "The software is always written by unpaid volunteers and may never be sold commercially",
+      "B": "The source code is made available so that anyone may study, modify and redistribute it, subject to the conditions of the licence",
+      "C": "The software carries no licence at all and is therefore in the public domain",
+      "D": "The software may be used free of charge, but the source code remains with the vendor"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Open source is about the availability of the source code and the rights granted over it, not about price; open-source software is still copyrighted and still licensed, and it may be sold or supported commercially. Software that is free of charge but keeps its source closed is freeware, which is a different thing."
+  },
+  {
+    "sub": "Open-source Ecosystem",
+    "q": "In the Linux world, what is a 'distribution' such as Ubuntu, Debian, Fedora or Red Hat Enterprise Linux?",
+    "opts": {
+      "A": "A complete packaged operating system that combines the Linux kernel with system tools, a package manager and a selected set of applications",
+      "B": "A separate kernel written from scratch by each vendor",
+      "C": "A licence that governs the terms on which Linux may be copied",
+      "D": "The mirror server from which the Linux source code is downloaded"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "All distributions share the same Linux kernel; what distinguishes them is the packaging, the package manager, the default software selection, the release cadence and the support arrangement, which may be community-based as with Debian or vendor-backed with paid subscriptions as with Red Hat Enterprise Linux."
+  },
+  {
+    "sub": "Compression",
+    "q": "What is the essential difference between lossless and lossy compression?",
+    "opts": {
+      "A": "Lossless compression works only on text files and lossy compression only on numeric data",
+      "B": "Lossless compression always produces smaller files than lossy compression",
+      "C": "Lossy compression can be reversed exactly, whereas lossless compression cannot",
+      "D": "Lossless compression restores the original data exactly when decompressed, while lossy compression permanently discards some data in order to achieve a smaller size"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Lossless methods such as ZIP and PNG reconstruct the original bit for bit, which is essential for documents, programs and archives; lossy methods such as JPEG and MP3 throw away detail the eye or ear is unlikely to notice. Because it discards data, lossy compression normally achieves the smaller file, not the larger one."
+  },
+  {
+    "sub": "Compression",
+    "q": "A user adds a folder of JPEG photographs to a ZIP archive and finds the archive is barely smaller than the original folder. What is the most likely reason?",
+    "opts": {
+      "A": "ZIP archives can compress only plain text files",
+      "B": "The photographs must be encrypted before they can be compressed",
+      "C": "JPEG files are already compressed, so little redundancy remains for a general-purpose compressor to remove",
+      "D": "ZIP compresses only the file names and never the file contents"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Compression works by removing redundancy, and a JPEG has already had most of its redundancy squeezed out, so a second pass gains almost nothing. ZIP handles any file type, but it can only shrink data that still contains repetition."
+  },
+  {
+    "sub": "Encryption",
+    "q": "A laptop's system drive is protected with BitLocker. What protection does this actually provide?",
+    "opts": {
+      "A": "It prevents viruses from running while Windows is loaded",
+      "B": "If the laptop is stolen and the drive is removed and connected to another machine, the data on it cannot be read without the correct credentials or the recovery key",
+      "C": "It stops other users of the same laptop from opening the owner's files after they have signed in with their own accounts",
+      "D": "It automatically uploads a copy of every file to OneDrive for safe keeping"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Full-volume encryption defends data at rest against physical theft of the disk; once Windows has unlocked the volume and the user has signed in, the files are readable as normal. Keeping one signed-in user out of another's files is the job of NTFS permissions and EFS, not BitLocker."
+  },
+  {
+    "sub": "Encryption",
+    "q": "What is the main difference between the Encrypting File System (EFS) and BitLocker in Windows?",
+    "opts": {
+      "A": "EFS encrypts individual files and folders and ties them to a particular user account, while BitLocker encrypts an entire volume",
+      "B": "EFS encrypts entire volumes, while BitLocker encrypts only individual files",
+      "C": "EFS protects data while it travels over the network, while BitLocker protects data stored on disk",
+      "D": "EFS is a backup utility, while BitLocker is a compression utility"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "EFS works at the level of the file or folder, using keys tied to a user's account so that other signed-in users cannot read the content; BitLocker works at the level of the whole volume and protects against the disk being removed. Neither protects data in transit, which is the role of protocols such as TLS."
+  },
+  {
+    "sub": "Backup and Restore",
+    "q": "What does an incremental backup copy?",
+    "opts": {
+      "A": "Every file on the system, on each occasion that it runs",
+      "B": "Only the files the user picks by hand at the time the backup runs",
+      "C": "All files changed since the last full backup, however many backup runs ago that was",
+      "D": "Only the files that have changed since the previous backup of any kind, whether that was a full or an incremental one"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "An incremental backup measures change from the most recent backup of any type, which keeps each run small and fast but means a restore needs the full backup plus every incremental since. Option C describes a differential backup, which always measures from the last full backup and therefore grows larger each day."
+  },
+  {
+    "sub": "Backup and Restore",
+    "q": "Why should a test restore be carried out from backup media from time to time?",
+    "opts": {
+      "A": "Restoring compresses the backup so that it occupies less space",
+      "B": "A backup that is never restored expires and is deleted automatically",
+      "C": "It is the only way to confirm the backup is complete and readable, because a backup job can report success while producing media that cannot in fact be restored",
+      "D": "A test restore is required before an incremental backup can be converted into a full backup"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Media faults, silent job errors and incomplete file selections often surface only at restore time, so an untested backup is an assumption rather than a protection. This is why a recovery drill is treated as part of the backup process itself, alongside the practice of keeping copies on more than one medium and one of them off site."
+  }
+]

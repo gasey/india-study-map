@@ -1,0 +1,218 @@
+[
+  {
+    "paper": "TECH2",
+    "unit": "I",
+    "unitTitle": "Computer Networking",
+    "sub": "Types of Networks",
+    "def": "A network is two or more devices linked to share data and resources. Networks are classified three ways, and exam questions draw from all three: by geographic span (PAN, LAN, MAN, WAN), by the role each node plays (client-server or peer-to-peer), and by physical layout or topology (bus, star, ring, mesh).",
+    "exp": "By span: a PAN covers one person's working area, a few metres, typically over Bluetooth or USB. A LAN covers a single building or campus, is privately owned, and runs at high speed with very low error rates. A MAN covers a city or a group of nearby sites. A WAN spans cities, countries or the globe and usually runs over leased carrier links; the Internet is the largest WAN.\n\nBy role: in a client-server network, dedicated servers hold the data and services and clients request them, which centralises security and backup but creates a single point of failure. In a peer-to-peer network every machine is both client and server, which is cheap and simple for a small office but has no central administration.\n\nBy topology: bus uses one shared backbone cable with terminators at each end, so a break in the backbone kills the whole segment. Star wires every node to a central hub or switch and is what Ethernet actually uses today; one bad cable affects only that node, but the central device is critical. Ring passes data in one direction from node to node, often controlled by a token. Mesh connects every node to every other node, giving maximum connectivity and redundancy at the cost of the most cabling: a full mesh of n nodes needs n(n-1)/2 links.",
+    "facts": [
+      "Increasing order of geographic span: PAN, LAN, MAN, WAN.",
+      "Mesh topology gives maximum connectivity and fault tolerance; a full mesh of n nodes needs n(n-1)/2 links.",
+      "Star is the topology of modern Ethernet LANs, with every node cabled to a central switch.",
+      "The Internet is the largest example of a WAN.",
+      "Bus topology needs a terminator at each end of the backbone to absorb the signal and stop reflection.",
+      "Client-server centralises data on dedicated servers; peer-to-peer has no dedicated server at all."
+    ],
+    "traps": [
+      "MAN vs WAN: a MAN is city-sized; a WAN crosses cities and countries. A multi-building campus is still a LAN (or CAN), not a MAN.",
+      "Maximum connectivity or reliability is mesh, not star. Star has one central point of failure; a full mesh has none.",
+      "Star vs bus in cost terms: bus uses the least cable, star uses more but is far easier to fault-isolate. Do not answer 'star' for 'least cabling'.",
+      "Physical vs logical topology: hub-based Ethernet was physically a star but logically a bus (one shared collision domain)."
+    ],
+    "mnem": "PAN, LAN, MAN, WAN - Personal, Local, Metropolitan, Wide. The middle word tells you the size.",
+    "rel": ["Hubs", "Switches", "Routing and Switching"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "I",
+    "unitTitle": "Computer Networking",
+    "sub": "OSI Model",
+    "def": "The OSI (Open Systems Interconnection) model, defined by ISO, splits network communication into seven layers, numbered 1 at the bottom to 7 at the top: Physical, Data Link, Network, Transport, Session, Presentation, Application. Each layer serves the layer above and uses the layer below. It is a reference model - real networks run TCP/IP - but exams test it layer by layer.",
+    "exp": "Layer 1 Physical moves raw bits over the medium. It defines voltage levels, connectors, cabling and the transmission data rate in bits per second. Devices: cable, repeater, hub.\n\nLayer 2 Data Link packages bits into frames, adds MAC (physical) addressing, and detects errors on a single link using a CRC. Devices: switch, bridge. Protocols: Ethernet, PPP. It has two sublayers, LLC and MAC.\n\nLayer 3 Network does logical addressing and routes packets between different networks. Device: router. Protocols: IP, ICMP.\n\nLayer 4 Transport gives end-to-end delivery between the source host and the destination host: segmentation, sequencing, flow control and error checking across the whole path. Protocols: TCP and UDP. It uses port numbers.\n\nLayer 5 Session opens, manages and closes sessions between applications, with dialog control and checkpointing.\n\nLayer 6 Presentation translates data formats and performs encryption and compression. Examples: ASCII, JPEG, TLS.\n\nLayer 7 Application is the interface to the user's programs. Protocols: HTTP, FTP, SMTP, DNS.\n\nThe data unit changes by layer: bits at 1, frames at 2, packets at 3, segments at 4.",
+    "facts": [
+      "Seven layers bottom to top: Physical, Data Link, Network, Transport, Session, Presentation, Application.",
+      "Error checking between source and destination end to end is the Transport layer; the Data Link layer only checks errors across one hop.",
+      "The Physical layer decides the transmission data rate, voltage levels and cable/connector specification.",
+      "Protocol data units: bits (Physical), frames (Data Link), packets (Network), segments (Transport).",
+      "Encryption and compression belong to the Presentation layer; routing belongs to the Network layer.",
+      "Canonical devices by layer: hub at 1, switch at 2, router at 3."
+    ],
+    "traps": [
+      "Transport vs Data Link error control: Data Link detects errors on one link via the frame CRC; Transport guarantees error-free delivery from source host to destination host. A question worded 'between source and destination' means Transport.",
+      "Network vs Data Link addressing: Network uses logical IP addresses, Data Link uses physical MAC addresses.",
+      "Layer 1 is Physical and layer 7 is Application. Candidates reverse the numbering - Physical is at the bottom.",
+      "Which layer sets the data rate? Physical. Flow control is Transport, but the raw bit rate is Physical."
+    ],
+    "mnem": "Bottom-up: Please Do Not Throw Sausage Pizza Away (Physical, Data Link, Network, Transport, Session, Presentation, Application). Top-down: All People Seem To Need Data Processing.",
+    "rel": ["TCP/IP Model", "Switches", "Routers"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "I",
+    "unitTitle": "Computer Networking",
+    "sub": "TCP/IP Model",
+    "def": "The TCP/IP model, also called the DoD model, is the four-layer architecture the Internet actually runs on: Application, Transport, Internet, and Network Access (also called Link or Network Interface). It is named after its two core protocols, TCP and IP, and it existed as a working system before OSI was written.",
+    "exp": "Network Access puts frames onto the physical medium. It covers everything OSI splits into Physical and Data Link: cabling, NICs, MAC addressing, Ethernet, Wi-Fi.\n\nInternet handles logical addressing and routes packets between networks. Its protocols are IP, ICMP and ARP. It maps one-to-one onto OSI layer 3.\n\nTransport gives host-to-host delivery and maps one-to-one onto OSI layer 4. TCP is connection-oriented and reliable: it opens a connection with a three-way handshake, numbers segments, acknowledges them and retransmits what is lost. UDP is connectionless and unreliable but has low overhead, which suits DNS queries, streaming and voice.\n\nApplication covers everything OSI puts in Session, Presentation and Application: HTTP, FTP, SMTP, DNS, Telnet, SNMP.\n\nThe mapping is asked directly, so learn it as a table. OSI layers 1 and 2 together equal Network Access. OSI layer 3 equals Internet. OSI layer 4 equals Transport. OSI layers 5, 6 and 7 together equal Application.\n\nSome textbooks teach a five-layer hybrid that keeps Physical and Data Link separate. If a question offers five layers, it is using that hybrid, not the classic four-layer TCP/IP model.",
+    "facts": [
+      "Four layers, top to bottom: Application, Transport, Internet, Network Access.",
+      "OSI's Session, Presentation and Application layers all collapse into TCP/IP's Application layer.",
+      "OSI's Physical and Data Link layers both collapse into TCP/IP's Network Access layer.",
+      "TCP is connection-oriented and reliable; UDP is connectionless and unreliable.",
+      "TCP opens a connection with a three-way handshake: SYN, SYN-ACK, ACK.",
+      "TCP/IP's Internet layer corresponds exactly to OSI's Network layer."
+    ],
+    "traps": [
+      "OSI has 7 layers, TCP/IP has 4. Mixing up the counts is the single most common error on this topic.",
+      "TCP/IP has no Session and no Presentation layer - encryption and session control are the application's own job.",
+      "The layer is called Internet in TCP/IP and Network in OSI. Different name, same function (IP addressing and routing).",
+      "TCP/IP was developed first and independently; it is not a simplification derived from OSI."
+    ],
+    "mnem": "",
+    "rel": ["OSI Model", "IP Addressing", "IPv4 and IPv6"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "I",
+    "unitTitle": "Computer Networking",
+    "sub": "IPv4 and IPv6",
+    "def": "IPv4 is the 32-bit Internet Protocol addressing scheme written as four decimal octets separated by dots, such as 192.168.1.1, giving about 4.3 billion addresses. IPv6 is its 128-bit successor, written as eight groups of four hexadecimal digits separated by colons. IPv6 exists because the IPv4 address space ran out.",
+    "exp": "An IPv4 address is 32 bits: four octets, each 0 to 255. Two to the power 32 is roughly 4.3 billion addresses, and the global free pool was exhausted at the top level in 2011. NAT, private address ranges and CIDR stretched IPv4's life but did not solve the shortage.\n\nAn IPv6 address is 128 bits, written as eight hextets, for example 2001:0db8:0000:0000:0000:ff00:0042:8329. Two shorthand rules apply: leading zeros inside a hextet may be dropped, and one run of consecutive all-zero hextets may be replaced by a double colon, but only once per address. That example compresses to 2001:db8::ff00:42:8329. The IPv6 loopback address is ::1, against IPv4's 127.0.0.1.\n\nOther examinable differences: IPv6 has no broadcast at all - it uses unicast, multicast and anycast, with multicast doing broadcast's work. IPv6 has a fixed-length header and no header checksum, so routers forward faster. An IPv6 host can configure its own address without a DHCP server (stateless autoconfiguration). IPv6 uses Neighbour Discovery in place of ARP.\n\nThe two are not directly interoperable, so migration uses dual-stack hosts, tunnelling IPv6 inside IPv4, and translation. India is among the world's highest-adoption IPv6 countries, driven mainly by mobile networks.",
+    "facts": [
+      "IPv4 is 32 bits (about 4.3 billion addresses); IPv6 is 128 bits.",
+      "IPv4 uses dotted decimal notation; IPv6 uses colon-separated hexadecimal.",
+      "IPv6 has no broadcast address; multicast and anycast replace it.",
+      "The double colon may appear only once in an IPv6 address.",
+      "IPv6 loopback is ::1; IPv4 loopback is 127.0.0.1.",
+      "IPv6 supports stateless address autoconfiguration, so a host can address itself without DHCP."
+    ],
+    "traps": [
+      "IPv6 is 128 bits, not 64 and not 128 bytes. Candidates routinely halve or double the figure.",
+      "IPv6 is hexadecimal separated by colons, not decimal separated by dots.",
+      "There is no deployed IPv5; the version number jumps from 4 to 6.",
+      "Any option referring to an 'IPv6 broadcast address' is wrong by construction - IPv6 dropped broadcast."
+    ],
+    "mnem": "Four has dots and decimal; six has colons and hex.",
+    "rel": ["IP Addressing", "NAT", "Subnetting"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "I",
+    "unitTitle": "Computer Networking",
+    "sub": "IP Addressing",
+    "def": "An IP address is the logical layer-3 address identifying a host's interface on a network. An IPv4 address is 32 bits split into a network portion and a host portion. Where that split falls is set by the address class in the older classful scheme, or by the subnet mask written in CIDR notation in modern practice.",
+    "exp": "Classful addressing divides the IPv4 space by the value of the first octet. Class A runs 1 to 126 with a default mask of 255.0.0.0 (/8). Class B runs 128 to 191 with 255.255.0.0 (/16). Class C runs 192 to 223 with 255.255.255.0 (/24). Class D, 224 to 239, is multicast and has no network/host split. Class E, 240 to 255, is reserved for experimental use. The 127 block is loopback, which is why Class A stops at 126.\n\nPrivate ranges are not routed on the public Internet and need NAT to reach it: 10.0.0.0 to 10.255.255.255, 172.16.0.0 to 172.31.255.255, and 192.168.0.0 to 192.168.255.255. Separately, 169.254.x.x is the self-assigned APIPA range a host takes when no DHCP server answers - seeing it on a workstation means DHCP failed.\n\nInside any network two addresses cannot be given to a host: the all-zeros host portion is the network address, and the all-ones host portion is the broadcast address. A /24 therefore has 256 addresses but only 254 usable hosts.\n\nCIDR notation writes the mask as a slash plus the count of network bits, so 192.168.1.10/24 means the first 24 bits are network. CIDR replaced classful allocation because the class boundaries wasted enormous blocks.",
+    "facts": [
+      "Default masks: Class A 255.0.0.0 (/8), Class B 255.255.0.0 (/16), Class C 255.255.255.0 (/24).",
+      "First-octet ranges: A 1-126, B 128-191, C 192-223, D 224-239 (multicast), E 240-255 (experimental).",
+      "Private ranges are 10.0.0.0/8, 172.16.0.0 to 172.31.255.255, and 192.168.0.0/16.",
+      "In every IPv4 network the all-zeros host address is the network ID and the all-ones host address is the broadcast, so a /24 has 254 usable hosts.",
+      "An address in 169.254.x.x (APIPA) means the host failed to obtain an address from DHCP.",
+      "127.0.0.1 is the loopback address, used to test the local TCP/IP stack."
+    ],
+    "traps": [
+      "Class D is multicast and Class E is experimental. Neither has a default subnet mask and neither is assigned to hosts.",
+      "127 is loopback, not Class A. Class A's usable first octet range ends at 126.",
+      "The private 172 range is only 172.16 through 172.31, not all of 172.x.x.x.",
+      "A Class C network has 256 addresses but 254 assignable hosts - subtract the network and broadcast addresses."
+    ],
+    "mnem": "Class first-octet boundaries step 128, 192, 224, 240 - each adds half of what remains.",
+    "rel": ["Subnetting", "IPv4 and IPv6", "DHCP"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "I",
+    "unitTitle": "Computer Networking",
+    "sub": "Subnetting",
+    "def": "Subnetting is dividing one IP network into several smaller logical networks by borrowing bits from the host portion of the address and adding them to the network portion. The subnet mask records where the network/host boundary now falls, and is written either in dotted decimal or as a CIDR prefix length.",
+    "exp": "A subnet mask is 32 bits: contiguous 1s covering the network portion, contiguous 0s covering the host portion. A host ANDs a destination address with its own mask to get the network address, and that is exactly how it decides whether to deliver directly on the LAN or hand the packet to its default gateway.\n\nBorrowing n host bits creates 2 to the power n subnets. If h host bits remain, each subnet holds 2 to the power h addresses, of which 2^h minus 2 are assignable, because the all-zeros and all-ones host values are the network and broadcast addresses.\n\nWorked example. Take 192.168.1.0/24 and borrow 2 bits. You get /26, mask 255.255.255.192: four subnets of 64 addresses, 62 usable hosts each. The ranges are 192.168.1.0-63, .64-127, .128-191 and .192-255. In the first, 192.168.1.0 is the network address, 192.168.1.63 is the broadcast, and .1 to .62 are hosts. The block size 64 is 256 minus the mask's interesting octet (256 - 192), and subnets always start at multiples of the block size.\n\nWhy subnet: contain broadcast traffic, separate departments for security, and stop wasting addresses. VLSM extends this by letting different subnets of the same network carry different prefix lengths.",
+    "facts": [
+      "Borrowing n bits creates 2^n subnets; h remaining host bits give 2^h minus 2 usable hosts per subnet.",
+      "The network address is the bitwise AND of the IP address and the subnet mask.",
+      "/26 is mask 255.255.255.192: four subnets of 64 addresses with 62 usable hosts each.",
+      "Block size equals 256 minus the value of the interesting octet of the mask.",
+      "A /30 leaves only 2 usable addresses, which is why it is the standard mask for point-to-point router links.",
+      "A valid subnet mask is always contiguous 1s followed by contiguous 0s - no gaps."
+    ],
+    "traps": [
+      "Total addresses vs usable hosts: subtract 2 when asked for hosts, do not subtract when asked for the size of the block.",
+      "More subnet bits means more subnets but fewer hosts in each. The two trade off directly against each other.",
+      "A longer prefix is a smaller network. /26 is smaller than /24 even though the number is larger.",
+      "Subnetting only moves the network/host boundary. It does not change the address class or whether the address is public or private."
+    ],
+    "mnem": "Longer prefix, smaller network, fewer hosts.",
+    "rel": ["IP Addressing", "Routing and Switching", "IPv4 and IPv6"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "I",
+    "unitTitle": "Computer Networking",
+    "sub": "Routing and Switching",
+    "def": "Switching moves frames within a single network using MAC addresses, at OSI layer 2. Routing moves packets between different networks using IP addresses, at OSI layer 3. A switch consults a MAC address table; a router consults a routing table. The layer and the address type are what separate the two operations.",
+    "exp": "A layer-2 switch learns the source MAC of every frame it receives and records it against the port it arrived on. When that MAC later appears as a destination, the switch forwards the frame out only that one port. A frame addressed to an unknown MAC, or a broadcast, is flooded out every other port. A switching decision never inspects the IP header.\n\nA router reads the destination IP address, picks the longest matching prefix in its routing table, decrements the TTL, rebuilds the layer-2 frame and forwards the packet to the next hop. Routers stop broadcasts, so each router interface bounds a separate broadcast domain. A host sends anything outside its own subnet to its default gateway, which is a router interface.\n\nRoutes are either static, typed in by the administrator, or dynamic, learned from a routing protocol. Distance-vector protocols such as RIP pick the path with the fewest hops and RIP will not accept a route beyond 15 hops. Link-state protocols such as OSPF build a map of the area and run Dijkstra's shortest-path algorithm on a cost derived from bandwidth. BGP is the path-vector protocol that routes between autonomous systems and holds the Internet together.\n\nLayer-3 switches blur the boundary: they switch inside VLANs at wire speed and route between them.",
+    "facts": [
+      "Switching is layer 2 on MAC addresses; routing is layer 3 on IP addresses.",
+      "A switch floods a frame out all other ports when the destination MAC is unknown or the frame is a broadcast.",
+      "Routers separate broadcast domains; a plain switch does not unless VLANs are configured.",
+      "RIP is distance-vector with a 15-hop maximum; OSPF is link-state and uses Dijkstra's algorithm; BGP routes between autonomous systems.",
+      "A router forwards using the longest-prefix match in its routing table and decrements the TTL on each hop.",
+      "A host sends any packet destined outside its own subnet to its default gateway."
+    ],
+    "traps": [
+      "Routing vs switching is decided by the OSI layer and the address type, not by speed or by the size of the box.",
+      "Switches break up collision domains but not broadcast domains. Only a router or a VLAN breaks a broadcast domain.",
+      "RIP's metric is hop count and ignores link speed, so it can prefer a slow two-hop path over a fast three-hop one. OSPF, costing on bandwidth, would not.",
+      "A router with no matching route and no default route drops the packet - it does not flood it the way a switch floods an unknown frame."
+    ],
+    "mnem": "Switch means MAC and local; route means IP and remote.",
+    "rel": ["Switches", "Routers", "OSI Model"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "I",
+    "unitTitle": "Computer Networking",
+    "sub": "Hubs",
+    "def": "A hub is a layer-1 (Physical layer) device that joins several Ethernet devices into one segment. It is a multiport repeater: it regenerates the incoming signal and pushes it out of every other port, with no knowledge of addresses. Every frame reaching a hub is delivered to every attached device - a hub transfers a message by broadcasting it.",
+    "exp": "Because a hub only repeats bits, it makes no forwarding decision at all. If host A sends a frame to host B, every host on the hub receives a copy; only B's NIC accepts it and the others discard it. That wastes bandwidth and is trivially insecure, since any machine set to promiscuous mode can read all the traffic on the segment.\n\nEvery port on a hub belongs to one collision domain and one broadcast domain. Two hosts transmitting at the same instant collide, both back off, and throughput collapses as more hosts are added. A hub is therefore half-duplex, and its bandwidth is shared rather than per-port: a 10 Mbps hub with ten busy hosts gives each about 1 Mbps.\n\nHubs come in three named forms. A passive hub only joins the wires and does not regenerate the signal. An active hub amplifies and regenerates the signal, and is the ordinary Ethernet hub. An intelligent or manageable hub adds monitoring and management on top of that.\n\nHubs are obsolete in practice - switches cost about the same and are strictly better, so no current network is built with them. They survive on exam papers as the canonical layer-1 device and the canonical broadcast-to-all-ports device.",
+    "facts": [
+      "A hub operates at OSI layer 1, the Physical layer, and is defined as a multiport repeater.",
+      "A hub forwards an incoming frame to all other ports by broadcast; it does not read MAC addresses.",
+      "All ports of a hub form a single collision domain and a single broadcast domain.",
+      "Hub bandwidth is shared among all connected hosts, and hub operation is half-duplex.",
+      "Hub types: passive (no regeneration), active (regenerates the signal), intelligent (adds management).",
+      "A hub has no MAC address table, so it cannot filter or segment traffic."
+    ],
+    "traps": [
+      "'Which device transfers a message by broadcasting it to every port?' is the hub, not the switch. A switch sends a known unicast to one port only.",
+      "A hub does not break up collision domains. A switch gives every port its own collision domain; a hub gives all ports one shared domain.",
+      "Layer assignment is the standard distractor: hub is layer 1, switch is layer 2, router is layer 3.",
+      "A hub is not a 'cheap switch'. It cannot learn, filter, or run full duplex, so adding hosts to a hub degrades everyone's throughput."
+    ],
+    "mnem": "Hub broadcasts, switch selects.",
+    "rel": ["Switches", "Types of Networks", "Routing and Switching"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "I",
+    "unitTitle": "Computer Networking",
+    "sub": "Switches",
+    "def": "A switch is a layer-2 (Data Link) device that connects devices within a LAN and forwards Ethernet frames using MAC addresses. It learns which MAC address sits behind which port, stores that in a MAC address table (also called the CAM table), and delivers a known unicast frame only to the destination port instead of to every port.",
+    "exp": "Three functions define a switch. Learning: record the source MAC of each incoming frame against the port it arrived on. Forwarding and filtering: send a known unicast out only its own port, and discard it if source and destination are on the same port. Flooding: send broadcasts, multicasts and unknown unicasts out of every other port. Redundant links are handled by Spanning Tree Protocol, which blocks alternate paths so frames do not loop forever.\n\nEach switch port is its own collision domain, so on full-duplex links collisions effectively disappear and every port gets dedicated bandwidth rather than a share. But by default all ports remain in one broadcast domain, so a broadcast still reaches everyone. VLANs are how you split that broadcast domain without adding a router.\n\nForwarding methods differ in how much of the frame is read before forwarding. Store-and-forward takes the whole frame and checks the CRC first: slowest but it never forwards a corrupt frame. Cut-through reads only the destination MAC and starts sending immediately: fastest, but it forwards errors too. Fragment-free reads the first 64 bytes as a compromise.\n\nAn unmanaged switch simply works. A managed switch adds VLANs, port mirroring, link aggregation and SNMP. A layer-3 switch adds IP routing between VLANs.",
+    "facts": [
+      "A switch operates at OSI layer 2 and forwards on MAC addresses held in its MAC or CAM table.",
+      "Every switch port is a separate collision domain; all ports share one broadcast domain unless VLANs are configured.",
+      "A switch's three functions are learning, forwarding/filtering and flooding; Spanning Tree Protocol prevents loops.",
+      "Forwarding modes: store-and-forward (checks the CRC), cut-through (reads the destination MAC only), fragment-free (reads the first 64 bytes).",
+      "A layer-3 switch can route between VLANs; a plain layer-2 switch cannot.",
+      "Port mirroring on a managed switch is how traffic is copied to a monitoring station."
+    ],
+    "traps": [
+      "Switch vs hub: the switch forwards a known unicast to one port, the hub broadcasts to all. Only the hub is the answer to 'broadcasts to every port'.",
+      "A switch breaks collision domains but not broadcast domains. Routers and VLANs break broadcast domains.",
+      "A switch floods, rather than drops, a frame whose destination MAC it has not yet learned. Flooding is normal behaviour, not a fault.",
+      "Switches use MAC addresses and routers use IP addresses. A layer-2 switch holds no routing table and no IP forwarding logic."
+    ],
+    "mnem": "A switch does three things: Learn, Forward, Flood.",
+    "rel": ["Hubs", "Routing and Switching", "Network Monitoring"]
+  }
+]

@@ -1,0 +1,307 @@
+{
+  "srcKey": "CO2016B-P1",
+  "brief": "tools/bank-rebuild/SOLVE_BRIEF.md",
+  "instructions": "Answer each question independently. Write a JSON object keyed by question id: {\"<id>\": {\"ans\": \"A\"|\"B\"|\"C\"|\"D\", \"conf\": \"high\"|\"medium\"|\"low\", \"exp\": \"1-3 sentences\"}} to this filename with .todo.json replaced by .solved.json. No official answer key exists for these papers - your answer becomes the app's answer. Do not inflate confidence.",
+  "questions": [
+    {
+      "id": "CO2016B-P1-1",
+      "srcKey": "CO2016B-P1",
+      "no": 1,
+      "paper": "TECH1",
+      "q": "In analog computer",
+      "opts": {
+        "A": "Input is first converted to digital form",
+        "B": "Input is never converted to digital form",
+        "C": "Output is displayed in digital form",
+        "D": "None of these"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-2",
+      "srcKey": "CO2016B-P1",
+      "no": 2,
+      "paper": "TECH1",
+      "q": "Which of the following computer generation uses the concept of artificial intelligence?",
+      "opts": {
+        "A": "First Generation",
+        "B": "Second Generation",
+        "C": "Third Generation",
+        "D": "Fourth Generation"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-3",
+      "srcKey": "CO2016B-P1",
+      "no": 3,
+      "paper": "TECH1",
+      "q": "Main component of first generation computer was",
+      "opts": {
+        "A": "Transistors",
+        "B": "Vacuum Tubes and Valves",
+        "C": "Integrated Circuits",
+        "D": "None of these"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-4",
+      "srcKey": "CO2016B-P1",
+      "no": 4,
+      "paper": "TECH1",
+      "q": "The section of the CPU that is responsible for performing mathematical operations",
+      "opts": {
+        "A": "Memory",
+        "B": "Register Unit",
+        "C": "Control Unit",
+        "D": "ALU"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-5",
+      "srcKey": "CO2016B-P1",
+      "no": 5,
+      "paper": "TECH1",
+      "q": "CPU consists of",
+      "opts": {
+        "A": "ALU+CU",
+        "B": "ROM+ALU",
+        "C": "RAM+ROM",
+        "D": "None of these"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-6",
+      "srcKey": "CO2016B-P1",
+      "no": 6,
+      "paper": "TECH1",
+      "q": "Information retrieval is faster from",
+      "opts": {
+        "A": "Floppy disk",
+        "B": "Magnetic tape",
+        "C": "Hard disk",
+        "D": "None of these"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-7",
+      "srcKey": "CO2016B-P1",
+      "no": 7,
+      "paper": "TECH1",
+      "q": "The memory location address are limited to a range of values from",
+      "opts": {
+        "A": "00000 to 9ffff(16)",
+        "B": "00001 to 9ffff(16)",
+        "C": "00010 to 9ffff(16)",
+        "D": "10000 to 9ffff(16)"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-8",
+      "srcKey": "CO2016B-P1",
+      "no": 8,
+      "paper": "TECH1",
+      "q": "Result of logical operation is",
+      "opts": {
+        "A": "Boolean",
+        "B": "Integer",
+        "C": "Character",
+        "D": "String"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-9",
+      "srcKey": "CO2016B-P1",
+      "no": 9,
+      "paper": "TECH1",
+      "q": "Register is a group of",
+      "opts": {
+        "A": "OR gates",
+        "B": "OR & AND gate",
+        "C": "Flip-flops",
+        "D": "None of these"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-10",
+      "srcKey": "CO2016B-P1",
+      "no": 10,
+      "paper": "TECH1",
+      "q": "The address bus flow in",
+      "opts": {
+        "A": "Bidirection",
+        "B": "Unidirection",
+        "C": "Mulidirection",
+        "D": "Circular"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-11",
+      "srcKey": "CO2016B-P1",
+      "no": 11,
+      "paper": "TECH1",
+      "q": "Status register is also called as",
+      "opts": {
+        "A": "Accumulator",
+        "B": "Stack",
+        "C": "Counter",
+        "D": "Flags"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-12",
+      "srcKey": "CO2016B-P1",
+      "no": 12,
+      "paper": "TECH1",
+      "q": "The difference between memory and storage is that the memory is __________ and storage is __________.",
+      "opts": {
+        "A": "Temporary, permanent",
+        "B": "Permanent, temporary",
+        "C": "Slow, fast",
+        "D": "None of these"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-13",
+      "srcKey": "CO2016B-P1",
+      "no": 13,
+      "paper": "TECH1",
+      "q": "__________ is Volatile Memory",
+      "opts": {
+        "A": "ROM",
+        "B": "EPROME",
+        "C": "RAM",
+        "D": "None of these"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-14",
+      "srcKey": "CO2016B-P1",
+      "no": 14,
+      "paper": "TECH1",
+      "q": "EEPROM stands for",
+      "opts": {
+        "A": "Electrically Erasable Programmable Read Only Memory",
+        "B": "Easily Erasable Programmable Read Only Memory",
+        "C": "Electronic Erasable Programmable Read Only Memory",
+        "D": "None of these"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-15",
+      "srcKey": "CO2016B-P1",
+      "no": 15,
+      "paper": "TECH1",
+      "q": "What characteristic of RAM memory makes it not suitable for permanent storage?",
+      "opts": {
+        "A": "too slow",
+        "B": "unreliable",
+        "C": "it is volatile",
+        "D": "too bulky"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-16",
+      "srcKey": "CO2016B-P1",
+      "no": 16,
+      "paper": "TECH1",
+      "q": "The average time required to reach a storage location in memory and obtain its contents is called the",
+      "opts": {
+        "A": "seek time",
+        "B": "turnaround time",
+        "C": "access time",
+        "D": "transfer time"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-17",
+      "srcKey": "CO2016B-P1",
+      "no": 17,
+      "paper": "TECH1",
+      "q": "The idea of cache memory is based",
+      "opts": {
+        "A": "on the property of locality of reference",
+        "B": "on the heuristic 90-10 rule",
+        "C": "on the fact that references generally tend to cluster",
+        "D": "all of the above"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-18",
+      "srcKey": "CO2016B-P1",
+      "no": 18,
+      "paper": "TECH1",
+      "q": "Cache memory acts between",
+      "opts": {
+        "A": "CPU and RAM",
+        "B": "RAM and ROM",
+        "C": "CPU and Hard Disk",
+        "D": "None of these"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-19",
+      "srcKey": "CO2016B-P1",
+      "no": 19,
+      "paper": "TECH1",
+      "q": "Generally Dynamic RAM is used as main memory in a computer system as it",
+      "opts": {
+        "A": "consumes less power",
+        "B": "has higher speed",
+        "C": "has lower cell density",
+        "D": "needs refreshing circuitary"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016B-P1-20",
+      "srcKey": "CO2016B-P1",
+      "no": 20,
+      "paper": "TECH1",
+      "q": "If the main memory is of 8K bytes and the cache memory is of 2K words. It uses associative mapping. Then each word of cache memory shall be",
+      "opts": {
+        "A": "11 bits",
+        "B": "21 bits",
+        "C": "16 bits",
+        "D": "20 bits"
+      },
+      "passageTitle": null,
+      "passage": null
+    }
+  ]
+}

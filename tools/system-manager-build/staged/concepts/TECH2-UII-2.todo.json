@@ -1,0 +1,63 @@
+{
+  "paper": "TECH2",
+  "unit": "II",
+  "unitTitle": "Database Management System",
+  "derived": false,
+  "brief": "tools/system-manager-build/CONCEPT_BRIEF.md",
+  "targets": [
+    {
+      "paper": "TECH2",
+      "unit": "II",
+      "unitTitle": "Database Management System",
+      "sub": "Tables"
+    },
+    {
+      "paper": "TECH2",
+      "unit": "II",
+      "unitTitle": "Database Management System",
+      "sub": "Views"
+    },
+    {
+      "paper": "TECH2",
+      "unit": "II",
+      "unitTitle": "Database Management System",
+      "sub": "Indexes"
+    },
+    {
+      "paper": "TECH2",
+      "unit": "II",
+      "unitTitle": "Database Management System",
+      "sub": "Stored Procedures (Concept)"
+    },
+    {
+      "paper": "TECH2",
+      "unit": "II",
+      "unitTitle": "Database Management System",
+      "sub": "Triggers (Concept)"
+    },
+    {
+      "paper": "TECH2",
+      "unit": "II",
+      "unitTitle": "Database Management System",
+      "sub": "Transactions"
+    },
+    {
+      "paper": "TECH2",
+      "unit": "II",
+      "unitTitle": "Database Management System",
+      "sub": "Concurrency Control"
+    },
+    {
+      "paper": "TECH2",
+      "unit": "II",
+      "unitTitle": "Database Management System",
+      "sub": "Backup and Recovery"
+    },
+    {
+      "paper": "TECH2",
+      "unit": "II",
+      "unitTitle": "Database Management System",
+      "sub": "Authentication"
+    }
+  ]
+}

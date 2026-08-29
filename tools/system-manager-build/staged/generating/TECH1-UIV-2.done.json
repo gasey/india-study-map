@@ -1,0 +1,28 @@
+[
+  {
+    "sub": "AI-assisted Spreadsheet Analysis",
+    "q": "Which of the following best describes what an AI assistant built into a modern spreadsheet is designed to do?",
+    "opts": {
+      "A": "Guarantee that the data contains no errors before any analysis is done",
+      "B": "Remove the need to save or back up the workbook",
+      "C": "Describe trends in a selected range in plain language and suggest suitable formulas or charts",
+      "D": "Convert the workbook automatically into a relational database with enforced keys"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Spreadsheet AI assistants take a natural-language question about a range and answer it by summarising the data, pointing out patterns and proposing formulas or charts the user can accept. They work on the data as given and cannot certify that it is accurate, so any suggested formula still has to be checked by the user before it is relied on."
+  },
+  {
+    "sub": "AI-assisted Spreadsheet Analysis",
+    "q": "A government department wants to paste a spreadsheet of citizens' personal details into a free public AI chat service to get a quick analysis. What is the main objection to this?",
+    "opts": {
+      "A": "Official personal data would be sent outside government control to a third party, which breaches data protection and confidentiality obligations",
+      "B": "Public AI services are unable to read data that is arranged in rows and columns",
+      "C": "The workbook would permanently lose its formulas once the data was pasted",
+      "D": "The analysis would take longer than doing the same work by hand"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Pasting official records into a public AI service transfers personal data to an outside provider that may retain or process it, which conflicts with the department's duty to keep such data confidential and within approved systems. The technical objections are not the issue, since such services can read tabular data perfectly well; the problem is where the data ends up."
+  }
+]

@@ -1,0 +1,288 @@
+[
+  {
+    "sub": "Transaction Control Language (TCL)",
+    "q": "Which group of SQL commands makes up the Transaction Control Language (TCL)?",
+    "opts": {
+      "A": "CREATE, ALTER, DROP",
+      "B": "COMMIT, ROLLBACK, SAVEPOINT",
+      "C": "GRANT, REVOKE",
+      "D": "SELECT, INSERT, UPDATE"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "TCL manages transactions, and its commands are COMMIT (make the changes permanent), ROLLBACK (undo them) and SAVEPOINT (mark a point for a partial rollback). GRANT and REVOKE are the tempting wrong pick: they are DCL, the Data Control Language used for privileges, not for transactions."
+  },
+  {
+    "sub": "Transaction Control Language (TCL)",
+    "q": "A transaction deletes rows from a table and then issues ROLLBACK. Which statement about DELETE and TRUNCATE is correct?",
+    "opts": {
+      "A": "Both DELETE and TRUNCATE can always be reversed by ROLLBACK",
+      "B": "Neither DELETE nor TRUNCATE can ever be reversed by ROLLBACK",
+      "C": "A DELETE can be rolled back, but TRUNCATE is DDL and carries an implicit commit, so it normally cannot",
+      "D": "A TRUNCATE can be rolled back, but a DELETE writes directly to disk and cannot"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "DELETE is a DML statement and its work stays inside the open transaction until COMMIT, so ROLLBACK undoes it. TRUNCATE is DDL, and a DDL statement issues an implicit commit that closes the transaction, which is why the rows are normally gone for good."
+  },
+  {
+    "sub": "Views",
+    "q": "In a relational database, a view is best described as",
+    "opts": {
+      "A": "a virtual table defined by a stored SELECT query, which holds no data of its own",
+      "B": "a physical copy of selected rows kept in a separate table",
+      "C": "a temporary table that stores rows for the duration of the session",
+      "D": "an index structure that speeds up retrieval from a large table"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Only the query definition is stored, in the data dictionary; the rows are produced by running that query against the base tables each time the view is used. A temporary table is the tempting distractor, but it really holds rows for the session, whereas a view holds none at any time."
+  },
+  {
+    "sub": "Views",
+    "q": "A clerk must be able to read employee names and departments but not the salary column. What is the standard way to arrange this using a view?",
+    "opts": {
+      "A": "Encrypt the salary column and give the clerk SELECT on the base table",
+      "B": "Create an index on name and department and grant it to the clerk",
+      "C": "Delete the salary column from the table whenever the clerk logs in",
+      "D": "Create a view selecting only name and department, and grant SELECT on the view instead of on the base table"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Granting privileges on a view rather than on the base table is a standard access-control mechanism: the view exposes only the chosen columns (or, with a WHERE clause, only the chosen rows) and the clerk never touches the base table. An index is a performance structure and grants no access at all."
+  },
+  {
+    "sub": "Indexes",
+    "q": "What is the main disadvantage of creating an index on many columns of a heavily updated table?",
+    "opts": {
+      "A": "Queries return incorrect results because the index changes the row order",
+      "B": "The table can no longer be joined to other tables",
+      "C": "Every INSERT, UPDATE and DELETE must also maintain each index, so writes slow down and extra storage is used",
+      "D": "The primary key constraint is dropped automatically"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "An index has to be kept in step with the table, so each additional index adds work to every write and occupies extra disk space. \"More indexes always make the database faster\" is the classic wrong answer; an index never alters the result of a query, only the time taken to get it."
+  },
+  {
+    "sub": "Indexes",
+    "q": "Why can a table have only one clustered index?",
+    "opts": {
+      "A": "Because a clustered index determines the physical order in which the table's rows are stored",
+      "B": "Because a clustered index can be built on only one column",
+      "C": "Because the DBMS reserves the remaining index slots for foreign keys",
+      "D": "Because a clustered index stores a copy of the whole table and space allows only one copy"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "A clustered index fixes the physical sequence of the rows themselves, and rows can be laid out in only one order at a time. A non-clustered index is a separate structure of key values and row pointers, so a table may carry many of those."
+  },
+  {
+    "sub": "Stored Procedures (Concept)",
+    "q": "What is the key difference between a stored procedure and a trigger?",
+    "opts": {
+      "A": "A stored procedure is written in SQL while a trigger is written in the application's programming language",
+      "B": "A stored procedure must be called explicitly, whereas a trigger fires automatically when a data event occurs on a table",
+      "C": "A stored procedure runs on the client machine while a trigger runs on the server",
+      "D": "A stored procedure can read data only, whereas a trigger can also modify data"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "A procedure is invoked by name with CALL or EXECUTE and does nothing until something asks for it; a trigger is attached to a table and is set off by an INSERT, UPDATE or DELETE without the application asking. Both live and run on the database server, so the client-versus-server option is wrong."
+  },
+  {
+    "sub": "Stored Procedures (Concept)",
+    "q": "Which of the following is a genuine security advantage of using stored procedures?",
+    "opts": {
+      "A": "They encrypt the data in the tables they read",
+      "B": "They remove the need for users to authenticate to the database",
+      "C": "They automatically create an audit trail of every statement executed",
+      "D": "A user can be granted EXECUTE on the procedure without being granted any privilege on the underlying tables"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Granting EXECUTE lets a user touch the data only in the controlled ways the procedure allows, while the tables themselves stay closed to them, and passing values as parameters also resists SQL injection. Procedures neither encrypt data nor log activity by themselves; that is the work of encryption and auditing."
+  },
+  {
+    "sub": "Concurrency Control",
+    "q": "Transaction T2 reads a value that T1 has changed but not yet committed, and T1 then rolls back. What is this concurrency problem called?",
+    "opts": {
+      "A": "Dirty read",
+      "B": "Lost update",
+      "C": "Non-repeatable read",
+      "D": "Phantom read"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Reading uncommitted data that is later rolled back is a dirty read, also called an uncommitted dependency, because T2 has acted on a value that never really existed. A non-repeatable read is different: there the second transaction did commit, and the problem is that a re-read of the same row now returns a different value."
+  },
+  {
+    "sub": "Concurrency Control",
+    "q": "Under the two-phase locking protocol, a transaction",
+    "opts": {
+      "A": "acquires all its locks at the very start and releases them one at a time as it works",
+      "B": "must write its changes to two separate disks before committing",
+      "C": "has a growing phase in which it only acquires locks and a shrinking phase in which it only releases them",
+      "D": "coordinates its COMMIT across two or more databases before the change becomes permanent"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Two-phase locking divides a transaction into a growing phase, where locks may only be taken, and a shrinking phase, where they may only be released; once any lock has been released no further lock may be acquired, and this guarantees a serialisable schedule. Option D describes two-phase commit, a distributed-transaction protocol with a confusingly similar name."
+  },
+  {
+    "sub": "Authentication",
+    "q": "In database security, what is the difference between authentication and authorization?",
+    "opts": {
+      "A": "Authentication decides what a user may do; authorization checks the user's password",
+      "B": "Authentication verifies who is connecting; authorization decides what that identity is then permitted to do",
+      "C": "Authentication applies to administrators only; authorization applies to ordinary users",
+      "D": "Authentication converts stored data into ciphertext; authorization decrypts it for approved users"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Authentication answers \"who are you?\" and always comes first; authorization, enforced through GRANT and REVOKE, then answers \"what may you do?\". A user can be perfectly authenticated and still be authorized for nothing at all."
+  },
+  {
+    "sub": "Authentication",
+    "q": "A government office runs a Windows domain and configures its database to accept Windows / Active Directory accounts instead of passwords stored in the database. What is the main advantage of this integrated authentication?",
+    "opts": {
+      "A": "The data files on disk become encrypted automatically",
+      "B": "Users no longer need any privileges granted to them on the tables",
+      "C": "The database can then be installed without a database administrator",
+      "D": "Password policy, expiry and de-provisioning when staff leave are handled centrally in the directory, and users get single sign-on"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Delegating identity checking to the operating system or directory service means password strength, expiry, lockout and account removal are managed once for the whole organisation, and the user connects without retyping a password. Authorization is unaffected: those directory identities still have to be mapped to logins and granted privileges."
+  },
+  {
+    "sub": "Encryption",
+    "q": "Transparent Data Encryption (TDE) in a database protects against which situation?",
+    "opts": {
+      "A": "Someone who steals the disk or a backup copy of the database files",
+      "B": "A legitimately logged-in user querying a table they should not see",
+      "C": "An attacker capturing the client-to-server network traffic",
+      "D": "A database administrator deleting rows from a sensitive table"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "TDE encrypts the whole datafile and its backups at the storage layer, so a stolen disk or backup tape is unreadable, but the engine decrypts pages transparently for anyone who logs in legitimately. Hiding a value from an authorised or privileged user querying the table requires column-level encryption instead, and network traffic needs TLS."
+  },
+  {
+    "sub": "Encryption",
+    "q": "Which practice is essential for database encryption to be of any real value?",
+    "opts": {
+      "A": "Storing the encryption key in a table inside the same database it protects",
+      "B": "Keeping the key in a configuration file on the database server for fast access",
+      "C": "Keeping the key in a separate keystore, HSM or key-management service, with its own protected backup",
+      "D": "Changing the encryption algorithm every time a backup is taken"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Ciphertext is only as safe as its key, so an attacker who takes the server must not take both halves; keys belong in a separate protected store with rotation and their own backup, because losing the key makes the data permanently unrecoverable. Storing the key beside the data, in the database or in a file on the same machine, defeats the whole exercise."
+  },
+  {
+    "sub": "Auditing",
+    "q": "Database auditing is best described as which kind of security control?",
+    "opts": {
+      "A": "A preventive control that blocks unauthorised statements before they run",
+      "B": "A detective control that records activity so misuse can be attributed afterwards",
+      "C": "A recovery control that restores rows deleted by mistake",
+      "D": "A corrective control that automatically revokes a user's privileges on misuse"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "An audit trail records who did what, to which object, and when — including failed attempts — so that every action is attributable to a named account, but it stops nothing by itself. Preventing an unauthorised action is authorization's job, and restoring lost rows is backup and recovery's."
+  },
+  {
+    "sub": "Auditing",
+    "q": "How does a database audit trail differ from the transaction log?",
+    "opts": {
+      "A": "They are two names for the same file",
+      "B": "The audit trail is used by the engine for rollback, while the transaction log is read by investigators",
+      "C": "The audit trail records only failed statements, while the transaction log records only successful ones",
+      "D": "The transaction log exists so the engine can roll back and recover, while the audit trail exists so a human can hold someone accountable"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "The transaction log is consumed by the recovery manager to redo committed and undo uncommitted work; the audit trail is read by people to establish accountability and support forensic investigation. Option B states the correct facts with the two names swapped, which is exactly the trap. Neither file substitutes for the other."
+  },
+  {
+    "sub": "Microsoft SQL Server (Concept)",
+    "q": "Which statement about Microsoft SQL Server is correct?",
+    "opts": {
+      "A": "It is a proprietary relational DBMS whose procedural SQL dialect is T-SQL",
+      "B": "It is an open-source relational DBMS released under a community licence",
+      "C": "It is a NoSQL document store and does not use SQL",
+      "D": "It is the only database product in which the SQL language can be used"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "SQL Server is Microsoft's commercially licensed relational product, and Transact-SQL is its dialect for stored procedures, triggers and functions. The name misleads: SQL is a language every RDBMS uses, so calling the product \"SQL Server\" does not make it the only one that speaks SQL."
+  },
+  {
+    "sub": "Microsoft SQL Server (Concept)",
+    "q": "Which tool is the standard graphical client for administering and querying Microsoft SQL Server?",
+    "opts": {
+      "A": "pgAdmin",
+      "B": "psql",
+      "C": "SQL Server Management Studio (SSMS)",
+      "D": "Microsoft Access"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "SSMS is Microsoft's graphical administration and query environment for SQL Server. pgAdmin and psql belong to PostgreSQL, and MS Access is a separate desktop database product, not the management console for a SQL Server instance."
+  },
+  {
+    "sub": "PostgreSQL (Concept)",
+    "q": "PostgreSQL is best described as",
+    "opts": {
+      "A": "a proprietary database sold by a single vendor under a per-core licence",
+      "B": "a free and open-source object-relational DBMS maintained by a worldwide community",
+      "C": "a non-relational key-value store used mainly for caching",
+      "D": "a spreadsheet-based desktop database for single users"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "PostgreSQL is community-governed and released under a permissive open-source licence, and it is called object-relational because it adds user-defined types, table inheritance, arrays and JSON on top of ordinary relational tables. Open source means no licence fee and no vendor lock-in, not that running it costs nothing at all."
+  },
+  {
+    "sub": "PostgreSQL (Concept)",
+    "q": "PostgreSQL can store and query JSON documents inside a column. What does this mean?",
+    "opts": {
+      "A": "PostgreSQL has become a NoSQL database and no longer supports transactions",
+      "B": "JSON columns in PostgreSQL cannot be queried, only stored as plain text",
+      "C": "PostgreSQL must be run alongside MongoDB to use JSON data",
+      "D": "PostgreSQL remains relational and ACID-compliant; JSON is simply one of its column types"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Storing semi-structured documents is one of PostgreSQL's object-relational extras, and the engine still enforces the relational model and full ACID transactions. Relational products supporting JSON is exactly why the SQL/NoSQL line has blurred, but it does not reclassify PostgreSQL as a NoSQL store."
+  },
+  {
+    "sub": "NoSQL Databases (Introduction)",
+    "q": "Which type of NoSQL database is the natural choice for storing a social network and quickly traversing the connections between people?",
+    "opts": {
+      "A": "Graph database",
+      "B": "Key-value store",
+      "C": "Column-family (wide-column) store",
+      "D": "Document store"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "A graph database treats nodes and the relationships between them as first-class objects, so following connections is direct rather than a chain of joins — Neo4j is the standard example, and fraud-ring detection and recommendation are the same shape of problem. A key-value store fetches a value by its key alone and has no notion of relationships between entries."
+  },
+  {
+    "sub": "NoSQL Databases (Introduction)",
+    "q": "Relational databases are described as ACID and many NoSQL systems as BASE. What does the BASE trade-off mean in practice?",
+    "opts": {
+      "A": "The database performs no validation of the data written to it",
+      "B": "Transactions are committed twice, once on each of two servers",
+      "C": "A read taken immediately after a write may return the old value, with the copies converging shortly afterwards",
+      "D": "The database can never lose data, even if every server fails at once"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "BASE stands for Basically Available, Soft state, Eventual consistency, so consistency is reached after a short delay rather than guaranteed at the instant of the read. A relational ACID system guarantees you read exactly what you just wrote, which is why money, ledgers and other integrity-critical data still belong there."
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "CO2016B-GE-61": {"ans": "C", "conf": "medium", "exp": "'Both ... and' correctly joins the two batsmen, and since two separate hundreds were made the plural 'centuries' agrees with the plural subject. Option (a) keeps the singular 'a century' for two scorers, and (b) and (d) are ungrammatical ('scores a centuries', 'scored century')."},
+  "CO2016B-GE-62": {"ans": "C", "conf": "high", "exp": "'Meanwhile' signals something done in the intervening time, which fits having soup while the dinner is still being prepared. 'Finally' would need a concluding action and 'Since' cannot stand alone as a sentence connector here."},
+  "CO2016B-GE-63": {"ans": "D", "conf": "high", "exp": "Facing a veteran politician makes victory surprising, so a contrast marker is needed and 'Unexpectedly' supplies it. 'Therefore' and 'Thus' would wrongly present the win as the natural consequence of facing a veteran."},
+  "CO2016B-GE-64": {"ans": "D", "conf": "high", "exp": "'Conversely' introduces the exact opposite of what was predicted — speaking in our favour rather than against us. 'Otherwise' would mean 'if not, then', and 'Besides'/'Equally' add rather than contrast."},
+  "CO2016B-GE-65": {"ans": "C", "conf": "high", "exp": "'Besides' means 'in addition to' and takes a gerund, giving 'an MBA degree besides being a post graduate'. 'Also' and 'yet' cannot govern the gerund phrase, and 'since' would make it causal."},
+  "CO2016B-GE-66": {"ans": "A", "conf": "high", "exp": "To 'abate' means to become less intense, to subside — so the fever will grow less. 'Be over' and 'be gone' overstate it as complete disappearance, which abate does not mean."},
+  "CO2016B-GE-67": {"ans": "A", "conf": "high", "exp": "An 'allusion' is an indirect reference to something, so it is the word meaning reference. 'Illusion' (a false impression) is the standard confusable pair here, and effect/affect are unrelated."},
+  "CO2016B-GE-68": {"ans": "C", "conf": "high", "exp": "An illusion is a false impression that misleads the senses, so 'deception' is the closest meaning for the mirage. 'Allusion' is the sound-alike trap meaning an indirect reference."},
+  "CO2016B-GE-69": {"ans": "B", "conf": "high", "exp": "'Apathy' means lack of feeling or concern, i.e. indifference — the miser feels nothing for others' suffering. Dislike implies active aversion, which is stronger than apathy."},
+  "CO2016B-GE-70": {"ans": "B", "conf": "high", "exp": "'Credible' means capable of being believed, so a story that is not credible is not believable. Good, bad and fair are value judgements, not the meaning of the word."},
+  "CO2016B-GE-71": {"ans": "C", "conf": "high", "exp": "To 'defy' is to openly resist or challenge authority, so 'challenge' is the nearest substitute. Delay and postpone concern timing, not resistance."},
+  "CO2016B-GE-72": {"ans": "A", "conf": "high", "exp": "'Abandon' means to give up or desert something completely, which is exactly what 'forsake' means."},
+  "CO2016B-GE-73": {"ans": "B", "conf": "high", "exp": "'Ardent' means burning with enthusiasm or passion, hence eager. 'Ancient' and 'old' are traps on the similar sound of ardent/antiquated."},
+  "CO2016B-GE-74": {"ans": "C", "conf": "high", "exp": "'Colossal' means immense or huge — from the Colossus of Rhodes — so 'gigantic' is the synonym."},
+  "CO2016B-GE-75": {"ans": "D", "conf": "high", "exp": "'Deceit' is dishonest trickery, and 'guile' means cunning deceitfulness, so the two match. 'Demise' (death) is only a look-alike beginning with de-."},
+  "CO2016B-GE-76": {"ans": "A", "conf": "high", "exp": "'Impetuous' describes acting quickly without thought or care, i.e. hasty and impulsive. 'Dormant' means inactive, the opposite of the required sense."},
+  "CO2016B-GE-77": {"ans": "D", "conf": "high", "exp": "This block asks for opposites: enmity means hostility or ill will, so its antonym is friendship. 'Enemy' is the same idea in noun form, not the opposite."},
+  "CO2016B-GE-78": {"ans": "D", "conf": "high", "exp": "'Docile' means submissive and easily managed, so its opposite is 'stubborn'. 'Agile' (nimble) is a rhyming distractor, not an antonym."},
+  "CO2016B-GE-79": {"ans": "A", "conf": "high", "exp": "'Rash' means acting without thought of the consequences, so its opposite is 'cautious'."},
+  "CO2016B-GE-80": {"ans": "A", "conf": "high", "exp": "'Tame' means domesticated or subdued, so its antonym is 'wild'. 'Gentle' is a synonym of tame and is the trap in this antonym set."}
+}

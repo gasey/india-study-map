@@ -190,6 +190,16 @@ export const modules: AppModule[] = [
     kind: 'static',
     path: '/mpsc-system-analyst/index.html',
   },
+  {
+    id: 'system-manager',
+    title: 'MUDAL System Manager',
+    category: 'Practice',
+    subgroup: 'Exam guides',
+    tagline: '259 syllabus subtopics — shell built, content pending',
+    glyph: '🗂️',
+    kind: 'static',
+    path: '/mpsc-system-manager/index.html',
+  },
 
   // ---- Practice: Labs ----
   {

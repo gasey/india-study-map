@@ -1,0 +1,119 @@
+[
+  {
+    "paper": "TECH2",
+    "unit": "I",
+    "unitTitle": "Computer Networking",
+    "sub": "Cloud Infrastructure",
+    "def": "Cloud infrastructure is computing capacity — servers, storage, networking and the virtualisation layer above them — owned and operated by a provider and delivered to the customer over a network as a metered, on-demand service instead of as hardware the customer buys and racks. The customer rents capacity, pays for what is consumed, and can grow or shrink it without procuring equipment.",
+    "exp": "Five characteristics define it. On-demand self-service: the user provisions a server himself through a portal or API, with no human on the provider's side. Broad network access. Resource pooling: one physical pool shared among many tenants, who do not know the exact location. Rapid elasticity: capacity scales up and back down quickly. Measured service: usage is metered and billed.\n\nThree service models, distinguished by where responsibility stops. IaaS gives raw virtual machines, disks and networks — the provider maintains the hardware, hypervisor and facility; you install and patch the operating system and application. PaaS gives a managed runtime, such as a web-app hosting service or a managed database, where the provider also owns OS and platform patching and you supply only the application and its data. SaaS gives finished software over a browser, such as webmail or an office suite, where the provider runs everything and you manage only your data and users. That is the shared responsibility model: responsibility shifts to the provider from IaaS to PaaS to SaaS, but the customer always retains his own data and user access.\n\nFour deployment models: public (shared, provider-owned), private (dedicated to one organisation), hybrid (public and private joined so workloads can move between them) and community (shared by several organisations with a common requirement, such as a group of government departments).\n\nIn India, MeghRaj — the GI Cloud initiative — is the Government of India's programme to deliver cloud services to government departments, which are expected to procure from empanelled cloud service providers rather than any vendor.",
+    "facts": [
+      "The five essential characteristics of cloud computing are on-demand self-service, broad network access, resource pooling, rapid elasticity and measured service.",
+      "IaaS delivers virtual machines, storage and networks; PaaS delivers a managed application runtime; SaaS delivers finished application software.",
+      "Under the shared responsibility model the provider's share grows from IaaS to PaaS to SaaS, but the customer always remains responsible for his own data and user access.",
+      "The four deployment models are public, private, hybrid and community cloud.",
+      "MeghRaj is the Government of India's GI Cloud initiative; government departments are expected to use empanelled cloud service providers.",
+      "Measured service is what makes pay-per-use billing possible — usage is metered by the provider."
+    ],
+    "traps": [
+      "Service model and deployment model are different axes. IaaS/PaaS/SaaS is what you get; public/private/hybrid/community is where it runs. A private cloud can still be IaaS.",
+      "A private cloud is not the same as a traditional on-premises data centre. It only counts as cloud if it has self-service provisioning, pooling, elasticity and metering.",
+      "In IaaS the provider does not patch your operating system — that is the customer's job. Only from PaaS upward does the provider own OS patching.",
+      "Rapid elasticity means scaling both up and down automatically; simply buying a bigger server is scalability, not elasticity."
+    ],
+    "mnem": "IaaS-PaaS-SaaS = you manage less each step: I Provide, Provider Supplies All.",
+    "rel": ["Virtual Networks", "Microsoft Azure Fundamentals (Concept)", "Types of Networks"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "I",
+    "unitTitle": "Computer Networking",
+    "sub": "Virtual Networks",
+    "def": "A virtual network is a network built in software over shared physical hardware, so that logically separate networks run on the same cables, switches and servers without seeing each other's traffic. It covers virtual switches inside a hypervisor, VLANs on physical switches, and the software-defined virtual networks that a cloud provider gives each customer.",
+    "exp": "A virtual switch is a software switch inside a virtualisation host. Virtual machines connect their virtual adapters to it, and it forwards frames between VMs on the same host and out through the host's physical adapter. To the VM it looks exactly like a physical switch port.\n\nA VLAN is layer 2 segmentation on physical switching equipment. One physical switch is divided into several broadcast domains, each a separate VLAN identified by a tag carried in the frame. Ports in different VLANs cannot reach each other at layer 2 even though they sit in the same switch; traffic between VLANs must pass through a router or a layer 3 switch. This is how one office switch stack carries the accounts department, the public counter and the CCTV system without them mixing. A trunk link carries several tagged VLANs between switches.\n\nA cloud virtual network is different in scope: an isolated address space you define for your own account across the provider's data centre, software-defined rather than a tag on a physical switch. Inside it you carve out subnets and place virtual machines into them. Routing between subnets of the same virtual network is automatic; reaching the internet or another virtual network needs an explicit gateway or peering.\n\nSecurity groups act as virtual firewalls attached to a subnet or to a single VM's network interface. They are stateful rule lists permitting or denying traffic by source, destination, protocol and port, and are the normal way to control traffic inside a cloud virtual network.",
+    "facts": [
+      "A VLAN is layer 2 segmentation and splits one physical switch into multiple broadcast domains; traffic between VLANs requires a router or layer 3 switch.",
+      "A trunk port carries traffic for multiple VLANs between switches using a VLAN tag in the frame.",
+      "A virtual switch runs inside the hypervisor and connects virtual machines to each other and to the physical adapter.",
+      "A cloud virtual network is an isolated, software-defined address space subdivided into subnets; subnets in the same virtual network route to each other by default.",
+      "Security groups are stateful virtual firewalls applied to a subnet or a network interface, filtering by source, destination, protocol and port."
+    ],
+    "traps": [
+      "VLAN and cloud virtual network are not synonyms. A VLAN is a layer 2 tag on physical switch ports; a cloud virtual network is a software-defined layer 3 address space in a provider's data centre.",
+      "A VLAN segments broadcast domains, not IP subnets by itself — you normally map one subnet per VLAN, but they are separate concepts and the exam tests that.",
+      "A security group is not a substitute for a network firewall appliance; it filters traffic at the instance or subnet level and does not do deep inspection or content filtering.",
+      "Subnets in the same virtual network can reach each other by default. Isolation between them comes from security groups, not from the subnet boundary."
+    ],
+    "mnem": "",
+    "rel": ["Cloud Infrastructure", "Subnetting", "Firewalls"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "I",
+    "unitTitle": "Computer Networking",
+    "sub": "Microsoft Azure Fundamentals (Concept)",
+    "def": "Microsoft Azure is Microsoft's public cloud platform, offering compute, storage, networking and identity services on a pay-per-use basis from data centres worldwide. The syllabus marks this topic \"(Concept)\", so what is examinable is how Azure is organised — regions, availability zones, subscriptions and resource groups — and the broad service categories, not individual product names.",
+    "exp": "The physical layout has two levels. A region is a geographic area containing one or more data centres; you choose it when creating a resource, and it decides latency for your users and where the data resides. Within a region, availability zones are physically separate data centres with independent power, cooling and networking. Spreading an application across zones keeps it running when one data centre fails; recovering from the loss of a whole region needs a second region.\n\nThe management hierarchy runs downward. An account holds one or more subscriptions. A subscription is the billing and boundary unit — costs accumulate against it and service limits apply per subscription. Inside a subscription, resources sit in resource groups. A resource group is a logical container for the resources of one application or department: permissions are applied at group level, and deleting the group deletes everything in it. Every resource belongs to exactly one resource group.\n\nFour service categories cover the rest. Compute: virtual machines, container hosting, serverless functions. Storage: object, file and disk storage plus managed databases. Networking: virtual networks, load balancing, gateways and links back to your own premises. Identity: the cloud directory service that authenticates users and applications and governs access to everything else.\n\nAzure spans all three service models — virtual machines are IaaS, managed app and database services are PaaS, and Microsoft's cloud office suite is SaaS on the same identity platform. Azure operates data centre regions in India.",
+    "facts": [
+      "A region is a geographic area of one or more Azure data centres; availability zones are physically separate data centres within a region with independent power, cooling and networking.",
+      "A subscription is the billing boundary; service limits and quotas apply per subscription.",
+      "A resource group is a logical container for related resources — every resource belongs to exactly one resource group, and deleting the group deletes its contents.",
+      "The main Azure service categories are compute, storage, networking and identity.",
+      "Azure virtual machines are IaaS; managed application and database services are PaaS."
+    ],
+    "traps": [
+      "Region and availability zone are different scales. Zones protect against a single data centre failure inside one region; surviving the loss of an entire region needs a second region.",
+      "A resource group is a management and permissions container, not a network or security boundary — resources in different resource groups can still talk to each other over the network.",
+      "Subscription and account are not the same. One account can hold several subscriptions, and the subscription is what carries the billing and the quotas.",
+      "Choosing a region is not only about latency — it also determines where the data physically resides, which matters for government data-residency requirements."
+    ],
+    "mnem": "Downward: Account, Subscription, Resource group, Resource.",
+    "rel": ["Cloud Infrastructure", "Virtual Networks", "Windows Server Concepts"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "I",
+    "unitTitle": "Computer Networking",
+    "sub": "Network Monitoring",
+    "def": "Network monitoring is the continuous collection of status and performance data from network devices, links and services so that faults and degradation are detected by the administrator before users report them. It combines polling devices for counters, receiving event messages from them, checking that services are reachable, and raising alerts when a measurement crosses a threshold.",
+    "exp": "SNMP is the standard polling protocol. An agent on each router, switch, server or printer maintains counters — interface traffic, errors, CPU, memory, uptime — organised in a MIB, and the monitoring station queries these at intervals. The device can also send a trap, an unsolicited message pushed the moment something happens, so a link failure is reported immediately rather than at the next poll. Modern practice uses the authenticated and encrypted version of SNMP; older versions pass a community string in clear text.\n\nSyslog is the complement. Devices and servers send event messages, each with a facility and a severity level, to a central syslog server. Centralising logs lets you correlate an interface flap on a switch with authentication failures on a server, and preserves evidence when the device itself is rebooted or compromised.\n\nUptime monitoring checks availability — ping, TCP port checks, application probes — and yields the availability percentage a service level agreement is measured against. Bandwidth monitoring reads interface counters to show utilisation over time, identifying saturated links and, with flow data, which hosts are consuming them.\n\nBaselining makes the rest useful. You record normal values over a representative period, then set thresholds and alerts relative to that baseline rather than to arbitrary numbers. Without a baseline you cannot say whether today's traffic is a problem. Alerting must also be tuned — too many alerts and staff stop reading them.",
+    "facts": [
+      "SNMP polls devices for counters held in a MIB; an SNMP trap is an unsolicited message pushed by the device when an event occurs.",
+      "Syslog messages carry a facility and a severity level and are collected on a central syslog server.",
+      "Baselining means recording normal performance over time so that thresholds and alerts can be set relative to normal behaviour.",
+      "Uptime monitoring produces the availability percentage used to measure a service level agreement.",
+      "Later SNMP versions add authentication and encryption; earlier ones send the community string in plain text."
+    ],
+    "traps": [
+      "Polling and traps are opposite directions. The manager polls the agent on a schedule; the agent sends a trap to the manager on an event.",
+      "SNMP and syslog do different jobs — SNMP carries numeric counters and state, syslog carries text event messages. Monitoring normally needs both.",
+      "Monitoring is not troubleshooting. Monitoring tells you something is wrong and when it started; troubleshooting finds the cause.",
+      "High bandwidth utilisation is not automatically a fault. Without a baseline you cannot distinguish a busy period from an abnormal one."
+    ],
+    "mnem": "",
+    "rel": ["Network Troubleshooting", "Types of Networks", "Firewalls"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "I",
+    "unitTitle": "Computer Networking",
+    "sub": "Network Troubleshooting",
+    "def": "Network troubleshooting is the structured diagnosis of a network fault: define the problem precisely, gather information, form a hypothesis about the likely cause, test it, apply a fix, verify that the fault is gone, and document what was done. The structure matters more than the tools — guessing at random wastes time and can introduce a second fault.",
+    "exp": "The standard method is layered, working upward from the physical layer. Check cabling, link lights, port status and power first — that is where most faults are and it is the cheapest thing to eliminate. Then layer 2: is the port in the right VLAN, is the switch learning the MAC address. Then layer 3: does the host have a correct IP address, mask and default gateway, can it reach the gateway, can it reach a host beyond it. Then name resolution, then the application. Working bottom-up avoids debugging an application that is failing only because a cable is unseated. Also establish what changed — most faults follow a change — and how many users are affected, which localises the fault to a host, a switch or an uplink.\n\nThe command-line toolset is directly examinable. Ping sends ICMP echo requests and reports whether a host is reachable and the round-trip time; success proves connectivity up to layer 3. Tracert on Windows, traceroute on Linux, lists each router hop along the path and where the path stops, isolating the faulty link or router. Ipconfig on Windows and ifconfig or ip on Linux display the local address, mask, gateway and DNS settings, and can release and renew a DHCP lease. Nslookup queries DNS and shows whether a name resolves and which server answered — this separates a DNS fault from a connectivity fault. Netstat lists active connections, listening ports and the routing table, showing whether a service is actually listening.",
+    "facts": [
+      "The layered approach troubleshoots from the physical layer upward, eliminating cabling and link problems before higher-layer causes.",
+      "Ping uses ICMP echo request and echo reply to test reachability and measure round-trip time.",
+      "Tracert (Windows) and traceroute (Linux) show each router hop along the path to a destination.",
+      "Ipconfig on Windows and ifconfig or ip on Linux show the local IP address, subnet mask, default gateway and DNS servers, and can release and renew a DHCP lease.",
+      "Nslookup queries DNS to check name resolution; netstat shows active connections, listening ports and the routing table.",
+      "Troubleshooting ends with verifying the fix and documenting the cause and the action taken."
+    ],
+    "traps": [
+      "A failed ping does not prove the host is down. Firewalls and host security policy commonly block ICMP while the service itself is running — test the actual port before concluding.",
+      "If a host answers by IP address but not by name, the fault is DNS, not connectivity. Ping by IP and by name to separate the two.",
+      "Tracert and ping test different things: ping tests end-to-end reachability, tracert identifies where along the path the failure occurs.",
+      "A 169.254.x.x address on Windows means the client failed to get a DHCP lease and self-assigned — it is a DHCP fault, not a cabling fault at the client."
+    ],
+    "mnem": "Bottom-up: Cable, VLAN, IP, DNS, Application.",
+    "rel": ["Network Monitoring", "IP Addressing", "Subnetting"]
+  }
+]

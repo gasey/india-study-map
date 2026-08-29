@@ -1,0 +1,226 @@
+[
+  {
+    "id": "CO2016A-GE-41",
+    "bank": "B",
+    "solved": "A",
+    "conf": "low",
+    "q": "Identify the parts of speech for the underlined word in: Smoking has a bad effect on one's health.",
+    "opts": {
+      "A": "Preposition",
+      "B": "Verb",
+      "C": "Adverb",
+      "D": "Adjective"
+    },
+    "exp": "Reading the underlined word as 'on', it is a preposition linking 'effect' to 'one's health'. Confidence is low because the underlining was lost in extraction; note that across questions 39-44 each item's answer is a different part of speech, and 'Preposition' appears here but not in Q42's options, which points to 'on'."
+  },
+  {
+    "id": "CO2016A-GE-52",
+    "bank": "B",
+    "solved": "C",
+    "conf": "medium",
+    "q": "Analyse the given sentence and choose the correct option: The poor man paid off his debts in time, but that still failed to satisfy his creditors who demanded more.",
+    "opts": {
+      "A": "Simple sentence",
+      "B": "Complex sentence",
+      "C": "Compound sentence",
+      "D": "None"
+    },
+    "exp": "At the top level two independent clauses are coordinated by 'but', which makes the sentence compound; the relative clause 'who demanded more' is merely embedded in the second of them. Strictly this is a compound-complex sentence, and since that label is not offered, 'compound' is the closest available answer."
+  },
+  {
+    "id": "CO2016A-GE-62",
+    "bank": "C",
+    "solved": "A",
+    "conf": "medium",
+    "q": "Identify the correct notion expressed by the sentence: We were unable to complete our task.",
+    "opts": {
+      "A": "negative",
+      "B": "exclamatory",
+      "C": "assertive",
+      "D": "interrogative"
+    },
+    "exp": "Although the form is a plain statement, 'unable' carries the negation, so the notion conveyed is negative - the task was not completed. This pairs with question 59, where a double negative gives an affirmative notion despite negative wording; here affirmative wording gives a negative notion."
+  },
+  {
+    "id": "CO2016A-GE-64",
+    "bank": "D",
+    "solved": "A",
+    "conf": "medium",
+    "q": "Identify the correct notion expressed by the sentence: How dare you disobey my orders?",
+    "opts": {
+      "A": "exclamatory",
+      "B": "negative",
+      "C": "imperative",
+      "D": "interrogative"
+    },
+    "exp": "No information is being sought - 'How dare you...' is a rebuke voicing indignation, so the notion expressed is exclamatory even though the form is a question. This run of items consistently rewards notion over form (compare 61, where an exclamation mark still yields 'imperative'), though some textbooks would class this sentence as interrogative on its punctuation alone."
+  },
+  {
+    "id": "CO2016A-P1-21",
+    "bank": "D",
+    "solved": "C",
+    "conf": "medium",
+    "q": "What is the software model that describes skeleton first and refined to increase its capability?",
+    "opts": {
+      "A": "Water fall model",
+      "B": "Spiral model",
+      "C": "Evolutionary model",
+      "D": "Prototyping model"
+    },
+    "exp": "The evolutionary (incremental) model deliberately builds a working skeleton of the system first and then grows its capability through successive versions delivered to the user. Prototyping is the near-miss: its early build is a throwaway used to clarify requirements, not the skeleton that becomes the product."
+  },
+  {
+    "id": "CO2016A-P1-31",
+    "bank": "B",
+    "solved": "D",
+    "conf": "medium",
+    "q": "The Information Technology Act 2000 contains",
+    "opts": {
+      "A": "10 Chapters",
+      "B": "11 Chapters",
+      "C": "12 Chapters",
+      "D": "13 Chapters"
+    },
+    "exp": "The Information Technology Act, 2000 as enacted was arranged in 13 chapters containing 94 sections, with 4 schedules. The chapter count is the standard examinable figure alongside the 94 sections."
+  },
+  {
+    "id": "CO2016A-P1-32",
+    "bank": "A",
+    "solved": "C",
+    "conf": "medium",
+    "q": "The Information Technology Amendment Bill 2006 was passed in both Lok Sabha and Rajya Sabha on",
+    "opts": {
+      "A": "October 2008",
+      "B": "November 2008",
+      "C": "December 2008",
+      "D": "January 2009"
+    },
+    "exp": "The amendment cleared both Houses in December 2008 — Lok Sabha on 22 December and Rajya Sabha on 23 December 2008 — becoming the IT (Amendment) Act, 2008. It received presidential assent in February 2009 and came into force in October 2009, which is why other dates get quoted loosely."
+  },
+  {
+    "id": "CO2016A-P1-37",
+    "bank": "B",
+    "solved": "A",
+    "conf": "medium",
+    "q": "Which one is not a system tools?",
+    "opts": {
+      "A": "Virus scanning",
+      "B": "Back Up",
+      "C": "Disk Defragment",
+      "D": "Disk Cleanup"
+    },
+    "exp": "Windows does not ship a virus scanner among its system tools — antivirus is separate third-party software, whereas Backup, Disk Defragmenter and Disk Cleanup are all built in. The item is arguable if read very strictly, because in Windows 7 Backup was moved out of the Accessories > System Tools folder into Control Panel (Backup and Restore); it is still a Windows tool, so virus scanning remains the odd one out."
+  },
+  {
+    "id": "CO2016A-P1-53",
+    "bank": "D",
+    "solved": "C",
+    "conf": "medium",
+    "q": "In a document, what is the maximum number of columns that can be inserted in MS Word table?",
+    "opts": {
+      "A": "35",
+      "B": "45",
+      "C": "63",
+      "D": "65"
+    },
+    "exp": "A Word table is limited to 63 columns, while rows are effectively unlimited. The number comes from Word's internal table structure, and 63 is the figure regularly asked in these papers."
+  },
+  {
+    "id": "CO2016B-GE-50",
+    "bank": "C",
+    "solved": "A",
+    "conf": "medium",
+    "q": "She will stand first. I am sure.",
+    "opts": {
+      "A": "Simple sentence",
+      "B": "Complex sentence",
+      "C": "Compound sentence",
+      "D": "None"
+    },
+    "exp": "As printed these are two independent statements, each with a single subject-verb pair and no subordinate or coordinate clause attached, so each is a simple sentence — this is the unjoined raw material for the synthesis exercise. It cannot be compound, since no coordinating conjunction links them."
+  },
+  {
+    "id": "CO2016B-GE-54",
+    "bank": "C",
+    "solved": "A",
+    "conf": "medium",
+    "q": "He is punctual. He is intelligent.",
+    "opts": {
+      "A": "Simple sentence",
+      "B": "Complex sentence",
+      "C": "Compound sentence",
+      "D": "None"
+    },
+    "exp": "Both printed statements contain a single subject and verb with no subordinate clause, so each is a simple sentence — the starting point for the combinations in items 55 and 56."
+  },
+  {
+    "id": "CO2016B-GE-57",
+    "bank": "B",
+    "solved": "A",
+    "conf": "medium",
+    "q": "Thanga likes History and Mawia likes Math. It is interesting to note that Thanga is the son of a Math teacher while Mawia's father is a teacher of History",
+    "opts": {
+      "A": "the former, the latter's",
+      "B": "the former's, the latter",
+      "C": "the formers, the latters",
+      "D": "the former, the latter"
+    },
+    "exp": "'Thanga', the first-named, becomes 'the former' as plain subject, while 'Mawia's father' needs the possessive 'the latter's father'. Only option (a) supplies the non-possessive former with the possessive latter's."
+  },
+  {
+    "id": "CO2016B-P1-19",
+    "bank": "B",
+    "solved": "A",
+    "conf": "medium",
+    "q": "Generally Dynamic RAM is used as main memory in a computer system as it",
+    "opts": {
+      "A": "consumes less power",
+      "B": "has higher speed",
+      "C": "has lower cell density",
+      "D": "needs refreshing circuitary"
+    },
+    "exp": "Of the four properties listed, lower power consumption is the only genuine advantage DRAM has over SRAM; its one-transistor-one-capacitor cell also makes it denser and cheaper per bit. Needing refresh circuitry is a drawback, DRAM is slower than SRAM, and its cell density is higher, not lower."
+  },
+  {
+    "id": "CO2016B-P1-20",
+    "bank": "D",
+    "solved": "B",
+    "conf": "medium",
+    "q": "If the main memory is of 8K bytes and the cache memory is of 2K words. It uses associative mapping. Then each word of cache memory shall be",
+    "opts": {
+      "A": "11 bits",
+      "B": "21 bits",
+      "C": "16 bits",
+      "D": "20 bits"
+    },
+    "exp": "8K bytes of main memory needs 13 address bits (2^13 = 8192), and fully associative mapping stores the entire address as the tag alongside the data, so each cache word is 13 tag bits + 8 data bits = 21 bits. The trap is forgetting the tag and counting only the data byte."
+  },
+  {
+    "id": "CO2016B-P1-57",
+    "bank": "D",
+    "solved": "A",
+    "conf": "medium",
+    "q": "What is a quick way to extend these numbers to a longer sequence, for instance 1 through 20?",
+    "opts": {
+      "A": "Select both cells, and then drag the fill handle over the range you want, for instance 18 more rows",
+      "B": "Select the range you want, include both cells, point to fill on the Edit menu, and then click down.",
+      "C": "Copy the second cell, click in the cell below it, on the standard toolbar click the down arrow on the Paste button, and then click Paste Special",
+      "D": "All of the above"
+    },
+    "exp": "Selecting the two seed cells and dragging the fill handle lets Excel infer the step and extend the series to 20. Edit > Fill > Down merely copies a value rather than incrementing it, and Paste Special cannot generate a series at all - so All of the above fails. The stem lost the figure showing the two starting cells, which makes it read oddly."
+  },
+  {
+    "id": "CO2016B-P1-65",
+    "bank": "C",
+    "solved": "D",
+    "conf": "medium",
+    "q": "Which of the following series type is not valid for Fill Series dialog box?",
+    "opts": {
+      "A": "Linear",
+      "B": "Growth",
+      "C": "Autofill",
+      "D": "Time"
+    },
+    "exp": "The Series dialog offers exactly four types: Linear, Growth, Date and AutoFill. Time is not one of them - it is only a Date unit distinction, which is what makes this option the plausible-looking wrong one."
+  }
+]

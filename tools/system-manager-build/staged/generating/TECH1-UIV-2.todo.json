@@ -1,0 +1,14 @@
+{
+  "paper": "TECH1",
+  "unit": "IV",
+  "unitTitle": "Electronic Spreadsheet",
+  "unitMarks": 25,
+  "perTarget": 2,
+  "brief": "tools/system-manager-build/GENERATE_BRIEF.md",
+  "targets": [
+    {
+      "sub": "AI-assisted Spreadsheet Analysis",
+      "section": "Microsoft Excel"
+    }
+  ]
+}

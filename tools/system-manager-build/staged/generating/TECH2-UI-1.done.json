@@ -1,0 +1,288 @@
+[
+  {
+    "sub": "Subnetting",
+    "q": "A network is subnetted using a /26 prefix. How many usable host addresses does each resulting subnet contain?",
+    "opts": {
+      "A": "64",
+      "B": "30",
+      "C": "62",
+      "D": "126"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "A /26 leaves 6 host bits, so each subnet holds 2^6 = 64 addresses, of which the all-zeros network address and the all-ones broadcast address cannot be assigned, giving 62 usable hosts. 64 is the total block size, not the usable count - subtract 2 whenever the question asks for hosts."
+  },
+  {
+    "sub": "Subnetting",
+    "q": "How does a host decide whether a destination IP address lies on its own local network or must be sent to the default gateway?",
+    "opts": {
+      "A": "It compares the first octet of the destination address with its own to identify the address class",
+      "B": "It performs a bitwise AND of the destination address with its own subnet mask and compares the result with its own network address",
+      "C": "It broadcasts an ARP request to every router until one replies",
+      "D": "It looks the destination up in its DNS cache to see if the name is local"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "The subnet mask is 32 bits of contiguous 1s over the network portion, and ANDing an address with it yields the network address; if the destination's network address matches the host's own, delivery is direct on the LAN, otherwise the packet goes to the default gateway. Address class is irrelevant here - subnetting moves the network/host boundary away from the classful position."
+  },
+  {
+    "sub": "Routing and Switching",
+    "q": "Which statement correctly distinguishes switching from routing?",
+    "opts": {
+      "A": "Switching forwards frames at Layer 2 using MAC addresses; routing forwards packets at Layer 3 using IP addresses",
+      "B": "Switching forwards packets at Layer 3 using IP addresses; routing forwards frames at Layer 2 using MAC addresses",
+      "C": "Both use MAC addresses; switching is simply the faster of the two operations",
+      "D": "Switching consults a routing table while routing consults a MAC address table"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "The OSI layer and the address type are what separate the two: a switch reads MAC addresses from its MAC (CAM) table at the Data Link layer, while a router reads destination IP addresses from its routing table at the Network layer. Speed or the physical size of the device has nothing to do with the distinction."
+  },
+  {
+    "sub": "Routing and Switching",
+    "q": "A PC sends a broadcast frame onto the LAN. Which device will stop that broadcast from going any further?",
+    "opts": {
+      "A": "A hub",
+      "B": "A Layer-2 switch in its default configuration",
+      "C": "A repeater",
+      "D": "A router"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Routers do not forward broadcasts, so each router interface bounds a separate broadcast domain. A switch breaks up collision domains but keeps all its ports in one broadcast domain unless VLANs are configured, and hubs and repeaters simply pass everything on."
+  },
+  {
+    "sub": "Switches",
+    "q": "What does a switch do with a frame whose destination MAC address is not yet in its MAC address table?",
+    "opts": {
+      "A": "It discards the frame and sends an error back to the sender",
+      "B": "It floods the frame out of every port except the one it arrived on",
+      "C": "It forwards the frame to the default gateway for routing",
+      "D": "It holds the frame until an administrator adds a static entry"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Flooding an unknown unicast out of all other ports is normal switch behaviour, alongside learning and forwarding/filtering, and the switch learns the correct port when the reply comes back. Dropping the frame is what a router does when no route matches - a switch does not behave that way."
+  },
+  {
+    "sub": "Switches",
+    "q": "Which switch forwarding method reads the entire frame and checks its CRC before forwarding it?",
+    "opts": {
+      "A": "Store-and-forward",
+      "B": "Cut-through",
+      "C": "Fragment-free",
+      "D": "Pass-through"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Store-and-forward buffers the whole frame and verifies the frame check sequence, so it is the slowest method but never forwards a corrupt frame. Cut-through starts sending as soon as it has read the destination MAC and therefore forwards errors too, while fragment-free reads only the first 64 bytes as a compromise."
+  },
+  {
+    "sub": "Routers",
+    "q": "A router's table holds both 192.168.10.0/24 and 192.168.0.0/16. A packet arrives destined for 192.168.10.5. Which route is used, and why?",
+    "opts": {
+      "A": "192.168.0.0/16, because it was configured first",
+      "B": "192.168.0.0/16, because it covers the larger range of addresses",
+      "C": "192.168.10.0/24, because it is the longest (most specific) prefix match",
+      "D": "Neither; the router floods the packet out of all its interfaces"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Routing table lookup uses longest prefix match, so the most specific route that covers the destination wins regardless of its position in the table. A router never floods - if nothing matches and there is no default route, it simply drops the packet."
+  },
+  {
+    "sub": "Routers",
+    "q": "Which routing table entry is used when no more specific route matches a packet's destination?",
+    "opts": {
+      "A": "127.0.0.1",
+      "B": "255.255.255.255",
+      "C": "224.0.0.1",
+      "D": "0.0.0.0/0"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "0.0.0.0/0 is the default route, the least specific entry possible, and in a typical office it points at the ISP link so that all unknown destinations leave through it. 127.0.0.1 is the loopback address and 255.255.255.255 is the limited broadcast address; neither appears as a forwarding destination."
+  },
+  {
+    "sub": "Gateways",
+    "q": "What is the essential difference between a gateway and a router?",
+    "opts": {
+      "A": "A gateway forwards traffic faster because it does not need to read the IP header",
+      "B": "A gateway translates between networks using different protocols or data formats, while a router forwards between IP networks that already use the same protocol",
+      "C": "A gateway works only at Layer 2 while a router works only at Layer 3",
+      "D": "A gateway can join only two LANs of exactly the same type"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "A gateway converts - a VoIP gateway between IP telephony and the telephone network, an email gateway between an internal messaging system and SMTP - whereas a router simply forwards IP packets between IP networks. Because translation costs processing, a gateway is typically slower per packet than a router, and it is not confined to any one OSI layer."
+  },
+  {
+    "sub": "Gateways",
+    "q": "The 'default gateway' setting on a PC holds which of the following?",
+    "opts": {
+      "A": "The IP address of a router interface on the PC's own subnet, to which it sends traffic bound for other networks",
+      "B": "The address of the DNS server that resolves names outside the organisation",
+      "C": "A protocol-translating appliance that converts Ethernet frames into IP packets",
+      "D": "The broadcast address of the PC's local subnet"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "The default gateway is the next-hop address a host uses for any destination outside its own subnet, and on almost every LAN that address belongs to a router interface. The name is historical - the default gateway is doing routing, not the protocol translation that defines a gateway in the strict sense."
+  },
+  {
+    "sub": "Firewalls",
+    "q": "Which type of firewall keeps a connection state table, so that return traffic belonging to a session started from inside the network is permitted without a separate rule?",
+    "opts": {
+      "A": "A packet-filtering firewall",
+      "B": "An application-layer (proxy) firewall",
+      "C": "A stateful inspection firewall",
+      "D": "A host-based antivirus scanner"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Stateful inspection records each connection the inside initiates and derives permission for the reply traffic from that table. A stateless packet filter judges every packet in isolation on the five-tuple and therefore needs an explicit rule for the return direction; an antivirus scanner is not a firewall at all, as it inspects files for malware rather than permitting or blocking traffic."
+  },
+  {
+    "sub": "Firewalls",
+    "q": "How is a firewall's rule list normally processed?",
+    "opts": {
+      "A": "The most specific rule is applied first, wherever it appears in the list",
+      "B": "From the bottom of the list upwards, and the last match wins",
+      "C": "Every rule is evaluated and any deny overrides all the allows",
+      "D": "From the top of the list downwards, the first matching rule wins, and an implicit deny-all ends the list"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Rules are evaluated top down and processing stops at the first match, which is why rule order changes behaviour and a broad allow placed above a narrow deny makes the deny useless. Anything reaching the end of the list without matching is dropped by the implicit deny-all."
+  },
+  {
+    "sub": "Wireless Access Points",
+    "q": "What is the primary function of a wireless access point?",
+    "opts": {
+      "A": "To bridge Wi-Fi clients onto an existing wired LAN",
+      "B": "To route packets between two different IP networks",
+      "C": "To assign IP addresses to wireless clients from its own pool",
+      "D": "To translate private internal addresses into a single public address"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "An access point is a Layer 2 device that puts frames arriving over the radio onto the wired segment and vice versa, extending an existing LAN. Routing, DHCP and NAT belong to the wireless router sold for home use, which is a router plus a switch plus an AP bundled into one box."
+  },
+  {
+    "sub": "Wireless Access Points",
+    "q": "Two access points in an office building are configured with the same SSID and set to non-overlapping channels. What is the result?",
+    "opts": {
+      "A": "Two separate wireless networks, between which a user must manually choose",
+      "B": "Clients are refused association because the SSID is duplicated",
+      "C": "A single wireless network across which a user can roam without reconnecting",
+      "D": "The second AP becomes a repeater and halves the throughput of the first"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Sharing one SSID across several cabled APs is exactly how roaming is provided - the client re-associates to whichever AP it hears best while staying on the same network. Halved throughput belongs to a repeater or mesh node relaying an existing signal; an AP with its own Ethernet uplink has no such penalty."
+  },
+  {
+    "sub": "DNS",
+    "q": "Which DNS record type maps a domain name to an IPv4 address?",
+    "opts": {
+      "A": "CNAME",
+      "B": "A",
+      "C": "MX",
+      "D": "PTR"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "An A record holds an IPv4 address for a name, and AAAA does the same job for IPv6. A CNAME is only an alias pointing at another name rather than at an address, MX names the mail server for a domain, and PTR is used for reverse lookups from address back to name."
+  },
+  {
+    "sub": "DNS",
+    "q": "With nothing in its cache, in what order does a recursive resolver query servers to resolve www.mizoram.gov.in?",
+    "opts": {
+      "A": "The authoritative server, then the TLD server, then a root server",
+      "B": "The client's hosts file, then the office router, then the web server itself",
+      "C": "A TLD server, then a root server, then the authoritative server",
+      "D": "A root server, then the .in TLD servers, then the authoritative server for the zone"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "The namespace is hierarchical, so resolution walks down it - root, then the top-level domain, then the delegated zone's own name servers - and the recursive resolver does all that chasing on the client's behalf before returning one final answer. Only the domain's own name servers are authoritative; the resolver a client is configured with is not authoritative for anything."
+  },
+  {
+    "sub": "DHCP",
+    "q": "What is the correct order of the four messages exchanged when a client obtains an address from a DHCP server?",
+    "opts": {
+      "A": "Discover, Offer, Request, Acknowledge",
+      "B": "Discover, Request, Offer, Acknowledge",
+      "C": "Request, Offer, Discover, Acknowledge",
+      "D": "Offer, Discover, Request, Acknowledge"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "The sequence is remembered as DORA: the client broadcasts a Discover because it has no address yet, a server replies with an Offer of an available address, the client broadcasts a Request accepting that particular offer, and the server sends an Acknowledge recording the lease. The client cannot Request before an Offer exists, which rules out the other orders."
+  },
+  {
+    "sub": "DHCP",
+    "q": "A Windows PC on an office LAN shows the IP address 169.254.14.7. What does this indicate?",
+    "opts": {
+      "A": "The DHCP server has issued it an address from its reserved range",
+      "B": "An administrator has configured a static address on the machine",
+      "C": "The PC could not reach a DHCP server and has self-assigned an APIPA address",
+      "D": "The PC received an address but no default gateway from DHCP"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "169.254.x.x is the APIPA range a Windows client assigns itself when no DHCP server answers, so it is a symptom of DHCP failure rather than of DHCP working. A reservation still comes out of the server's own scope and would appear as a normal address on the office subnet."
+  },
+  {
+    "sub": "VPN",
+    "q": "Which pair of mechanisms together define a VPN?",
+    "opts": {
+      "A": "Compression and caching",
+      "B": "Tunnelling (encapsulation) and encryption",
+      "C": "Address translation and port forwarding",
+      "D": "Load balancing and failover"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Tunnelling carries the original packet, private addresses and all, as payload inside an outer packet between the two VPN endpoints, and encryption makes the captured traffic unreadable in transit. Encapsulation on its own gives private addressing but no confidentiality, so it is not a VPN."
+  },
+  {
+    "sub": "VPN",
+    "q": "A district office LAN is permanently joined to the headquarters LAN through VPN devices at each end, and staff on either side reach the other network without installing any software. What kind of VPN is this?",
+    "opts": {
+      "A": "A remote-access VPN",
+      "B": "A client-to-client VPN",
+      "C": "A split-tunnel remote-access VPN",
+      "D": "A site-to-site VPN"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "A site-to-site VPN joins two whole networks through gateway devices, so the tunnel is built between those devices and individual user machines need no client of their own. A remote-access VPN is the opposite case - one user's laptop or phone connecting in through client software."
+  },
+  {
+    "sub": "NAT",
+    "q": "How does PAT (NAT overload) allow many internal hosts to share a single public IP address?",
+    "opts": {
+      "A": "It gives each connection a distinct source port number and records the mapping in a translation table",
+      "B": "It lends the public address to each internal host in turn for a few seconds at a time",
+      "C": "It compresses the traffic of several hosts into a single packet before sending it",
+      "D": "It issues each host its own public address from a pool of spare public addresses"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "PAT rewrites the private source address to the router's public address and assigns each connection a unique source port, so the translation table can steer each reply back to the right internal host. Handing out separate public addresses from a pool is a different mechanism and would defeat the purpose of conserving IPv4 addresses."
+  },
+  {
+    "sub": "NAT",
+    "q": "What is the essential difference between NAT and a proxy server?",
+    "opts": {
+      "A": "NAT operates at the application layer while a proxy operates at the network layer",
+      "B": "Both terminate the client's connection, but NAT additionally caches the content it passes",
+      "C": "NAT rewrites addresses in packet headers at the network layer and passes the same connection through, while a proxy terminates the client's connection at the application layer and opens its own",
+      "D": "NAT can filter websites by URL, whereas a proxy cannot"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "NAT is a header rewrite: the connection itself is never broken and the payload is never examined, which is why NAT cannot cache or filter content. A proxy accepts the client's request as a server, then makes its own separate request outward, and that application-layer position is what lets it cache pages and block particular URLs."
+  }
+]

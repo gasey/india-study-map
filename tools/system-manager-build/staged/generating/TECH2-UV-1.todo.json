@@ -1,0 +1,54 @@
+{
+  "paper": "TECH2",
+  "unit": "V",
+  "unitTitle": "IT Governance, Business Communication and Aptitude",
+  "unitMarks": 25,
+  "perTarget": 2,
+  "brief": "tools/system-manager-build/GENERATE_BRIEF.md",
+  "targets": [
+    {
+      "sub": "IT Service Management (ITSM)",
+      "section": "IT Governance"
+    },
+    {
+      "sub": "ITIL Fundamentals",
+      "section": "IT Governance"
+    },
+    {
+      "sub": "IT Asset Management",
+      "section": "IT Governance"
+    },
+    {
+      "sub": "Software Asset Management",
+      "section": "IT Governance"
+    },
+    {
+      "sub": "Business Continuity Planning",
+      "section": "IT Governance"
+    },
+    {
+      "sub": "Disaster Recovery Planning",
+      "section": "IT Governance"
+    },
+    {
+      "sub": "IT Procurement",
+      "section": "IT Governance"
+    },
+    {
+      "sub": "Documentation Standards",
+      "section": "IT Governance"
+    },
+    {
+      "sub": "Project Management Fundamentals",
+      "section": "IT Governance"
+    },
+    {
+      "sub": "Technical Report Writing",
+      "section": "Business Communication"
+    },
+    {
+      "sub": "Email Etiquette",
+      "section": "Business Communication"
+    }
+  ]
+}

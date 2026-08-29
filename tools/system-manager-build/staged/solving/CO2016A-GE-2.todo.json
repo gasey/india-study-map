@@ -1,0 +1,307 @@
+{
+  "srcKey": "CO2016A-GE",
+  "brief": "tools/bank-rebuild/SOLVE_BRIEF.md",
+  "instructions": "Answer each question independently. Write a JSON object keyed by question id: {\"<id>\": {\"ans\": \"A\"|\"B\"|\"C\"|\"D\", \"conf\": \"high\"|\"medium\"|\"low\", \"exp\": \"1-3 sentences\"}} to this filename with .todo.json replaced by .solved.json. No official answer key exists for these papers - your answer becomes the app's answer. Do not inflate confidence.",
+  "questions": [
+    {
+      "id": "CO2016A-GE-21",
+      "srcKey": "CO2016A-GE",
+      "no": 21,
+      "paper": "GE",
+      "q": "The well-mannered person speaks to his social inferiors",
+      "opts": {
+        "A": "only when necessary",
+        "B": "in a rude and offensive way",
+        "C": "the same way as everyone else",
+        "D": "in a soft, pleasant tone"
+      },
+      "passageTitle": "Manners and civilised society",
+      "passage": "Man is a social animal. But living in society is not an easy job. There are social codes of conduct to be followed if one is to live in civilised society. How one behaves with others, how he approaches another person and how far he is successful in playing his role in the society indicates his manners. So, broadly speaking, we can define manners to be well established standard of conduct on the social life.\n\nNobody is born with inherent good manners. Everyone either learns or acquires them. The best place to cultivate manners and etiquettes is the home which is a miniature society and where the child spends most of its time. Children try to imitate their parents and elders in their behaviour and slowly learn and acquire certain traits of character that they have learnt at home. In the school, the teacher plays an important role in cultivation of good manners and etiquettes. Teachers with their ideal behaviour imbibe good manners in the school students. Anywhere we go, we are judged by the way we speak because it is a good indicator of our character and personality. How we speak, both to people who are younger and older than us, reflects our personality. More than anything, our manner of speaking to people who are socially inferior to us speaks a great deal about our character. The well-mannered person interacts with everyone in the same polite manner, regardless of age, sex, class, gender or religion. He does not discriminate, but respects each individual regardless of their status. He always tries to avoid offensive and harsh words and always shows respect to others. It is also equally important to be very careful about one's behaviour in any social gathering. Not only our words, but our action and gestures should also be polite. Polite actions include opening doors for others, greeting them, giving up our seats in public transportations, not encroaching on their personal space, etc. Give everybody an equal opportunity to speak and never try to speak while another person is speaking. Respect the person who is speaking. Do not get agitated if one does not agree with you or when you disagree with others. In a group of people always wait for your turn to speak. Do not monopolise the whole conversation. If ever you want to criticise anybody, do it in a manner that it does not hurt the person. Do it in a polite and civilised manner. It has often been said that 'manners maketh man'. It is good manners that define us as civilised persons. We judge people based on their words and actions and the polite, well-mannered individual is immediately perceived as mature, confident and capable. One may amass great wealth or fame, but if his manners are unpleasant, he does not command respect. Therefore, if one wants to be considered as a respectable and confident person, he first has to treat others in a respectable manner. By cultivating good manners, one can thereby, become the person that he wishes to be."
+    },
+    {
+      "id": "CO2016A-GE-22",
+      "srcKey": "CO2016A-GE",
+      "no": 22,
+      "paper": "GE",
+      "q": "When someone does not agree with you,",
+      "opts": {
+        "A": "avoid becoming agitated",
+        "B": "monopolise the conversation",
+        "C": "interrupt them respectfully",
+        "D": "avoid speaking"
+      },
+      "passageTitle": "Manners and civilised society",
+      "passage": "Man is a social animal. But living in society is not an easy job. There are social codes of conduct to be followed if one is to live in civilised society. How one behaves with others, how he approaches another person and how far he is successful in playing his role in the society indicates his manners. So, broadly speaking, we can define manners to be well established standard of conduct on the social life.\n\nNobody is born with inherent good manners. Everyone either learns or acquires them. The best place to cultivate manners and etiquettes is the home which is a miniature society and where the child spends most of its time. Children try to imitate their parents and elders in their behaviour and slowly learn and acquire certain traits of character that they have learnt at home. In the school, the teacher plays an important role in cultivation of good manners and etiquettes. Teachers with their ideal behaviour imbibe good manners in the school students. Anywhere we go, we are judged by the way we speak because it is a good indicator of our character and personality. How we speak, both to people who are younger and older than us, reflects our personality. More than anything, our manner of speaking to people who are socially inferior to us speaks a great deal about our character. The well-mannered person interacts with everyone in the same polite manner, regardless of age, sex, class, gender or religion. He does not discriminate, but respects each individual regardless of their status. He always tries to avoid offensive and harsh words and always shows respect to others. It is also equally important to be very careful about one's behaviour in any social gathering. Not only our words, but our action and gestures should also be polite. Polite actions include opening doors for others, greeting them, giving up our seats in public transportations, not encroaching on their personal space, etc. Give everybody an equal opportunity to speak and never try to speak while another person is speaking. Respect the person who is speaking. Do not get agitated if one does not agree with you or when you disagree with others. In a group of people always wait for your turn to speak. Do not monopolise the whole conversation. If ever you want to criticise anybody, do it in a manner that it does not hurt the person. Do it in a polite and civilised manner. It has often been said that 'manners maketh man'. It is good manners that define us as civilised persons. We judge people based on their words and actions and the polite, well-mannered individual is immediately perceived as mature, confident and capable. One may amass great wealth or fame, but if his manners are unpleasant, he does not command respect. Therefore, if one wants to be considered as a respectable and confident person, he first has to treat others in a respectable manner. By cultivating good manners, one can thereby, become the person that he wishes to be."
+    },
+    {
+      "id": "CO2016A-GE-23",
+      "srcKey": "CO2016A-GE",
+      "no": 23,
+      "paper": "GE",
+      "q": "The word \"monopolise\" means",
+      "opts": {
+        "A": "a board game",
+        "B": "to speak in a rough tone",
+        "C": "to overpower someone",
+        "D": "to obtain exclusive control"
+      },
+      "passageTitle": "Manners and civilised society",
+      "passage": "Man is a social animal. But living in society is not an easy job. There are social codes of conduct to be followed if one is to live in civilised society. How one behaves with others, how he approaches another person and how far he is successful in playing his role in the society indicates his manners. So, broadly speaking, we can define manners to be well established standard of conduct on the social life.\n\nNobody is born with inherent good manners. Everyone either learns or acquires them. The best place to cultivate manners and etiquettes is the home which is a miniature society and where the child spends most of its time. Children try to imitate their parents and elders in their behaviour and slowly learn and acquire certain traits of character that they have learnt at home. In the school, the teacher plays an important role in cultivation of good manners and etiquettes. Teachers with their ideal behaviour imbibe good manners in the school students. Anywhere we go, we are judged by the way we speak because it is a good indicator of our character and personality. How we speak, both to people who are younger and older than us, reflects our personality. More than anything, our manner of speaking to people who are socially inferior to us speaks a great deal about our character. The well-mannered person interacts with everyone in the same polite manner, regardless of age, sex, class, gender or religion. He does not discriminate, but respects each individual regardless of their status. He always tries to avoid offensive and harsh words and always shows respect to others. It is also equally important to be very careful about one's behaviour in any social gathering. Not only our words, but our action and gestures should also be polite. Polite actions include opening doors for others, greeting them, giving up our seats in public transportations, not encroaching on their personal space, etc. Give everybody an equal opportunity to speak and never try to speak while another person is speaking. Respect the person who is speaking. Do not get agitated if one does not agree with you or when you disagree with others. In a group of people always wait for your turn to speak. Do not monopolise the whole conversation. If ever you want to criticise anybody, do it in a manner that it does not hurt the person. Do it in a polite and civilised manner. It has often been said that 'manners maketh man'. It is good manners that define us as civilised persons. We judge people based on their words and actions and the polite, well-mannered individual is immediately perceived as mature, confident and capable. One may amass great wealth or fame, but if his manners are unpleasant, he does not command respect. Therefore, if one wants to be considered as a respectable and confident person, he first has to treat others in a respectable manner. By cultivating good manners, one can thereby, become the person that he wishes to be."
+    },
+    {
+      "id": "CO2016A-GE-24",
+      "srcKey": "CO2016A-GE",
+      "no": 24,
+      "paper": "GE",
+      "q": "When criticising someone, it is best to do so in a",
+      "opts": {
+        "A": "civilised manner",
+        "B": "soft voice",
+        "C": "pleasant tone",
+        "D": "quiet manner"
+      },
+      "passageTitle": "Manners and civilised society",
+      "passage": "Man is a social animal. But living in society is not an easy job. There are social codes of conduct to be followed if one is to live in civilised society. How one behaves with others, how he approaches another person and how far he is successful in playing his role in the society indicates his manners. So, broadly speaking, we can define manners to be well established standard of conduct on the social life.\n\nNobody is born with inherent good manners. Everyone either learns or acquires them. The best place to cultivate manners and etiquettes is the home which is a miniature society and where the child spends most of its time. Children try to imitate their parents and elders in their behaviour and slowly learn and acquire certain traits of character that they have learnt at home. In the school, the teacher plays an important role in cultivation of good manners and etiquettes. Teachers with their ideal behaviour imbibe good manners in the school students. Anywhere we go, we are judged by the way we speak because it is a good indicator of our character and personality. How we speak, both to people who are younger and older than us, reflects our personality. More than anything, our manner of speaking to people who are socially inferior to us speaks a great deal about our character. The well-mannered person interacts with everyone in the same polite manner, regardless of age, sex, class, gender or religion. He does not discriminate, but respects each individual regardless of their status. He always tries to avoid offensive and harsh words and always shows respect to others. It is also equally important to be very careful about one's behaviour in any social gathering. Not only our words, but our action and gestures should also be polite. Polite actions include opening doors for others, greeting them, giving up our seats in public transportations, not encroaching on their personal space, etc. Give everybody an equal opportunity to speak and never try to speak while another person is speaking. Respect the person who is speaking. Do not get agitated if one does not agree with you or when you disagree with others. In a group of people always wait for your turn to speak. Do not monopolise the whole conversation. If ever you want to criticise anybody, do it in a manner that it does not hurt the person. Do it in a polite and civilised manner. It has often been said that 'manners maketh man'. It is good manners that define us as civilised persons. We judge people based on their words and actions and the polite, well-mannered individual is immediately perceived as mature, confident and capable. One may amass great wealth or fame, but if his manners are unpleasant, he does not command respect. Therefore, if one wants to be considered as a respectable and confident person, he first has to treat others in a respectable manner. By cultivating good manners, one can thereby, become the person that he wishes to be."
+    },
+    {
+      "id": "CO2016A-GE-25",
+      "srcKey": "CO2016A-GE",
+      "no": 25,
+      "paper": "GE",
+      "q": "Find the word in the passage which means 'intruding beyond acceptable limits'.",
+      "opts": {
+        "A": "amass",
+        "B": "interacts",
+        "C": "encroaching",
+        "D": "offensive"
+      },
+      "passageTitle": "Manners and civilised society",
+      "passage": "Man is a social animal. But living in society is not an easy job. There are social codes of conduct to be followed if one is to live in civilised society. How one behaves with others, how he approaches another person and how far he is successful in playing his role in the society indicates his manners. So, broadly speaking, we can define manners to be well established standard of conduct on the social life.\n\nNobody is born with inherent good manners. Everyone either learns or acquires them. The best place to cultivate manners and etiquettes is the home which is a miniature society and where the child spends most of its time. Children try to imitate their parents and elders in their behaviour and slowly learn and acquire certain traits of character that they have learnt at home. In the school, the teacher plays an important role in cultivation of good manners and etiquettes. Teachers with their ideal behaviour imbibe good manners in the school students. Anywhere we go, we are judged by the way we speak because it is a good indicator of our character and personality. How we speak, both to people who are younger and older than us, reflects our personality. More than anything, our manner of speaking to people who are socially inferior to us speaks a great deal about our character. The well-mannered person interacts with everyone in the same polite manner, regardless of age, sex, class, gender or religion. He does not discriminate, but respects each individual regardless of their status. He always tries to avoid offensive and harsh words and always shows respect to others. It is also equally important to be very careful about one's behaviour in any social gathering. Not only our words, but our action and gestures should also be polite. Polite actions include opening doors for others, greeting them, giving up our seats in public transportations, not encroaching on their personal space, etc. Give everybody an equal opportunity to speak and never try to speak while another person is speaking. Respect the person who is speaking. Do not get agitated if one does not agree with you or when you disagree with others. In a group of people always wait for your turn to speak. Do not monopolise the whole conversation. If ever you want to criticise anybody, do it in a manner that it does not hurt the person. Do it in a polite and civilised manner. It has often been said that 'manners maketh man'. It is good manners that define us as civilised persons. We judge people based on their words and actions and the polite, well-mannered individual is immediately perceived as mature, confident and capable. One may amass great wealth or fame, but if his manners are unpleasant, he does not command respect. Therefore, if one wants to be considered as a respectable and confident person, he first has to treat others in a respectable manner. By cultivating good manners, one can thereby, become the person that he wishes to be."
+    },
+    {
+      "id": "CO2016A-GE-26",
+      "srcKey": "CO2016A-GE",
+      "no": 26,
+      "paper": "GE",
+      "q": "What does 'manners maketh man' mean?",
+      "opts": {
+        "A": "only men are capable of manners",
+        "B": "your manners reveal who you are",
+        "C": "good manners make us civilised",
+        "D": "you are a confident, reliable individual"
+      },
+      "passageTitle": "Manners and civilised society",
+      "passage": "Man is a social animal. But living in society is not an easy job. There are social codes of conduct to be followed if one is to live in civilised society. How one behaves with others, how he approaches another person and how far he is successful in playing his role in the society indicates his manners. So, broadly speaking, we can define manners to be well established standard of conduct on the social life.\n\nNobody is born with inherent good manners. Everyone either learns or acquires them. The best place to cultivate manners and etiquettes is the home which is a miniature society and where the child spends most of its time. Children try to imitate their parents and elders in their behaviour and slowly learn and acquire certain traits of character that they have learnt at home. In the school, the teacher plays an important role in cultivation of good manners and etiquettes. Teachers with their ideal behaviour imbibe good manners in the school students. Anywhere we go, we are judged by the way we speak because it is a good indicator of our character and personality. How we speak, both to people who are younger and older than us, reflects our personality. More than anything, our manner of speaking to people who are socially inferior to us speaks a great deal about our character. The well-mannered person interacts with everyone in the same polite manner, regardless of age, sex, class, gender or religion. He does not discriminate, but respects each individual regardless of their status. He always tries to avoid offensive and harsh words and always shows respect to others. It is also equally important to be very careful about one's behaviour in any social gathering. Not only our words, but our action and gestures should also be polite. Polite actions include opening doors for others, greeting them, giving up our seats in public transportations, not encroaching on their personal space, etc. Give everybody an equal opportunity to speak and never try to speak while another person is speaking. Respect the person who is speaking. Do not get agitated if one does not agree with you or when you disagree with others. In a group of people always wait for your turn to speak. Do not monopolise the whole conversation. If ever you want to criticise anybody, do it in a manner that it does not hurt the person. Do it in a polite and civilised manner. It has often been said that 'manners maketh man'. It is good manners that define us as civilised persons. We judge people based on their words and actions and the polite, well-mannered individual is immediately perceived as mature, confident and capable. One may amass great wealth or fame, but if his manners are unpleasant, he does not command respect. Therefore, if one wants to be considered as a respectable and confident person, he first has to treat others in a respectable manner. By cultivating good manners, one can thereby, become the person that he wishes to be."
+    },
+    {
+      "id": "CO2016A-GE-27",
+      "srcKey": "CO2016A-GE",
+      "no": 27,
+      "paper": "GE",
+      "q": "Living in society is not an easy job because:",
+      "opts": {
+        "A": "one must interact with all sorts of people",
+        "B": "man is a social animal and cannot live alone",
+        "C": "one has to play his role in society",
+        "D": "one must follow socially-accepted codes of conduct"
+      },
+      "passageTitle": "Manners and civilised society",
+      "passage": "Man is a social animal. But living in society is not an easy job. There are social codes of conduct to be followed if one is to live in civilised society. How one behaves with others, how he approaches another person and how far he is successful in playing his role in the society indicates his manners. So, broadly speaking, we can define manners to be well established standard of conduct on the social life.\n\nNobody is born with inherent good manners. Everyone either learns or acquires them. The best place to cultivate manners and etiquettes is the home which is a miniature society and where the child spends most of its time. Children try to imitate their parents and elders in their behaviour and slowly learn and acquire certain traits of character that they have learnt at home. In the school, the teacher plays an important role in cultivation of good manners and etiquettes. Teachers with their ideal behaviour imbibe good manners in the school students. Anywhere we go, we are judged by the way we speak because it is a good indicator of our character and personality. How we speak, both to people who are younger and older than us, reflects our personality. More than anything, our manner of speaking to people who are socially inferior to us speaks a great deal about our character. The well-mannered person interacts with everyone in the same polite manner, regardless of age, sex, class, gender or religion. He does not discriminate, but respects each individual regardless of their status. He always tries to avoid offensive and harsh words and always shows respect to others. It is also equally important to be very careful about one's behaviour in any social gathering. Not only our words, but our action and gestures should also be polite. Polite actions include opening doors for others, greeting them, giving up our seats in public transportations, not encroaching on their personal space, etc. Give everybody an equal opportunity to speak and never try to speak while another person is speaking. Respect the person who is speaking. Do not get agitated if one does not agree with you or when you disagree with others. In a group of people always wait for your turn to speak. Do not monopolise the whole conversation. If ever you want to criticise anybody, do it in a manner that it does not hurt the person. Do it in a polite and civilised manner. It has often been said that 'manners maketh man'. It is good manners that define us as civilised persons. We judge people based on their words and actions and the polite, well-mannered individual is immediately perceived as mature, confident and capable. One may amass great wealth or fame, but if his manners are unpleasant, he does not command respect. Therefore, if one wants to be considered as a respectable and confident person, he first has to treat others in a respectable manner. By cultivating good manners, one can thereby, become the person that he wishes to be."
+    },
+    {
+      "id": "CO2016A-GE-28",
+      "srcKey": "CO2016A-GE",
+      "no": 28,
+      "paper": "GE",
+      "q": "Good manners are",
+      "opts": {
+        "A": "inherent",
+        "B": "acquired",
+        "C": "imitated",
+        "D": "taught"
+      },
+      "passageTitle": "Manners and civilised society",
+      "passage": "Man is a social animal. But living in society is not an easy job. There are social codes of conduct to be followed if one is to live in civilised society. How one behaves with others, how he approaches another person and how far he is successful in playing his role in the society indicates his manners. So, broadly speaking, we can define manners to be well established standard of conduct on the social life.\n\nNobody is born with inherent good manners. Everyone either learns or acquires them. The best place to cultivate manners and etiquettes is the home which is a miniature society and where the child spends most of its time. Children try to imitate their parents and elders in their behaviour and slowly learn and acquire certain traits of character that they have learnt at home. In the school, the teacher plays an important role in cultivation of good manners and etiquettes. Teachers with their ideal behaviour imbibe good manners in the school students. Anywhere we go, we are judged by the way we speak because it is a good indicator of our character and personality. How we speak, both to people who are younger and older than us, reflects our personality. More than anything, our manner of speaking to people who are socially inferior to us speaks a great deal about our character. The well-mannered person interacts with everyone in the same polite manner, regardless of age, sex, class, gender or religion. He does not discriminate, but respects each individual regardless of their status. He always tries to avoid offensive and harsh words and always shows respect to others. It is also equally important to be very careful about one's behaviour in any social gathering. Not only our words, but our action and gestures should also be polite. Polite actions include opening doors for others, greeting them, giving up our seats in public transportations, not encroaching on their personal space, etc. Give everybody an equal opportunity to speak and never try to speak while another person is speaking. Respect the person who is speaking. Do not get agitated if one does not agree with you or when you disagree with others. In a group of people always wait for your turn to speak. Do not monopolise the whole conversation. If ever you want to criticise anybody, do it in a manner that it does not hurt the person. Do it in a polite and civilised manner. It has often been said that 'manners maketh man'. It is good manners that define us as civilised persons. We judge people based on their words and actions and the polite, well-mannered individual is immediately perceived as mature, confident and capable. One may amass great wealth or fame, but if his manners are unpleasant, he does not command respect. Therefore, if one wants to be considered as a respectable and confident person, he first has to treat others in a respectable manner. By cultivating good manners, one can thereby, become the person that he wishes to be."
+    },
+    {
+      "id": "CO2016A-GE-29",
+      "srcKey": "CO2016A-GE",
+      "no": 29,
+      "paper": "GE",
+      "q": "The well-mannered individual interacts with different people",
+      "opts": {
+        "A": "in the same polite way",
+        "B": "in a low, pleasant voice",
+        "C": "according to their status",
+        "D": "with polite gestures and actions"
+      },
+      "passageTitle": "Manners and civilised society",
+      "passage": "Man is a social animal. But living in society is not an easy job. There are social codes of conduct to be followed if one is to live in civilised society. How one behaves with others, how he approaches another person and how far he is successful in playing his role in the society indicates his manners. So, broadly speaking, we can define manners to be well established standard of conduct on the social life.\n\nNobody is born with inherent good manners. Everyone either learns or acquires them. The best place to cultivate manners and etiquettes is the home which is a miniature society and where the child spends most of its time. Children try to imitate their parents and elders in their behaviour and slowly learn and acquire certain traits of character that they have learnt at home. In the school, the teacher plays an important role in cultivation of good manners and etiquettes. Teachers with their ideal behaviour imbibe good manners in the school students. Anywhere we go, we are judged by the way we speak because it is a good indicator of our character and personality. How we speak, both to people who are younger and older than us, reflects our personality. More than anything, our manner of speaking to people who are socially inferior to us speaks a great deal about our character. The well-mannered person interacts with everyone in the same polite manner, regardless of age, sex, class, gender or religion. He does not discriminate, but respects each individual regardless of their status. He always tries to avoid offensive and harsh words and always shows respect to others. It is also equally important to be very careful about one's behaviour in any social gathering. Not only our words, but our action and gestures should also be polite. Polite actions include opening doors for others, greeting them, giving up our seats in public transportations, not encroaching on their personal space, etc. Give everybody an equal opportunity to speak and never try to speak while another person is speaking. Respect the person who is speaking. Do not get agitated if one does not agree with you or when you disagree with others. In a group of people always wait for your turn to speak. Do not monopolise the whole conversation. If ever you want to criticise anybody, do it in a manner that it does not hurt the person. Do it in a polite and civilised manner. It has often been said that 'manners maketh man'. It is good manners that define us as civilised persons. We judge people based on their words and actions and the polite, well-mannered individual is immediately perceived as mature, confident and capable. One may amass great wealth or fame, but if his manners are unpleasant, he does not command respect. Therefore, if one wants to be considered as a respectable and confident person, he first has to treat others in a respectable manner. By cultivating good manners, one can thereby, become the person that he wishes to be."
+    },
+    {
+      "id": "CO2016A-GE-30",
+      "srcKey": "CO2016A-GE",
+      "no": 30,
+      "paper": "GE",
+      "q": "A person can earn respect by",
+      "opts": {
+        "A": "amassing great wealth",
+        "B": "first treating others with respect",
+        "C": "giving everyone an opportunity to speak",
+        "D": "appearing confident and capable"
+      },
+      "passageTitle": "Manners and civilised society",
+      "passage": "Man is a social animal. But living in society is not an easy job. There are social codes of conduct to be followed if one is to live in civilised society. How one behaves with others, how he approaches another person and how far he is successful in playing his role in the society indicates his manners. So, broadly speaking, we can define manners to be well established standard of conduct on the social life.\n\nNobody is born with inherent good manners. Everyone either learns or acquires them. The best place to cultivate manners and etiquettes is the home which is a miniature society and where the child spends most of its time. Children try to imitate their parents and elders in their behaviour and slowly learn and acquire certain traits of character that they have learnt at home. In the school, the teacher plays an important role in cultivation of good manners and etiquettes. Teachers with their ideal behaviour imbibe good manners in the school students. Anywhere we go, we are judged by the way we speak because it is a good indicator of our character and personality. How we speak, both to people who are younger and older than us, reflects our personality. More than anything, our manner of speaking to people who are socially inferior to us speaks a great deal about our character. The well-mannered person interacts with everyone in the same polite manner, regardless of age, sex, class, gender or religion. He does not discriminate, but respects each individual regardless of their status. He always tries to avoid offensive and harsh words and always shows respect to others. It is also equally important to be very careful about one's behaviour in any social gathering. Not only our words, but our action and gestures should also be polite. Polite actions include opening doors for others, greeting them, giving up our seats in public transportations, not encroaching on their personal space, etc. Give everybody an equal opportunity to speak and never try to speak while another person is speaking. Respect the person who is speaking. Do not get agitated if one does not agree with you or when you disagree with others. In a group of people always wait for your turn to speak. Do not monopolise the whole conversation. If ever you want to criticise anybody, do it in a manner that it does not hurt the person. Do it in a polite and civilised manner. It has often been said that 'manners maketh man'. It is good manners that define us as civilised persons. We judge people based on their words and actions and the polite, well-mannered individual is immediately perceived as mature, confident and capable. One may amass great wealth or fame, but if his manners are unpleasant, he does not command respect. Therefore, if one wants to be considered as a respectable and confident person, he first has to treat others in a respectable manner. By cultivating good manners, one can thereby, become the person that he wishes to be."
+    },
+    {
+      "id": "CO2016A-GE-31",
+      "srcKey": "CO2016A-GE",
+      "no": 31,
+      "paper": "GE",
+      "q": "People judge us on the way we speak because",
+      "opts": {
+        "A": "we interact with all kinds of people",
+        "B": "it is a reflection of our personality",
+        "C": "it reveals our role in society",
+        "D": "it is a way to cultivate good manners"
+      },
+      "passageTitle": "Manners and civilised society",
+      "passage": "Man is a social animal. But living in society is not an easy job. There are social codes of conduct to be followed if one is to live in civilised society. How one behaves with others, how he approaches another person and how far he is successful in playing his role in the society indicates his manners. So, broadly speaking, we can define manners to be well established standard of conduct on the social life.\n\nNobody is born with inherent good manners. Everyone either learns or acquires them. The best place to cultivate manners and etiquettes is the home which is a miniature society and where the child spends most of its time. Children try to imitate their parents and elders in their behaviour and slowly learn and acquire certain traits of character that they have learnt at home. In the school, the teacher plays an important role in cultivation of good manners and etiquettes. Teachers with their ideal behaviour imbibe good manners in the school students. Anywhere we go, we are judged by the way we speak because it is a good indicator of our character and personality. How we speak, both to people who are younger and older than us, reflects our personality. More than anything, our manner of speaking to people who are socially inferior to us speaks a great deal about our character. The well-mannered person interacts with everyone in the same polite manner, regardless of age, sex, class, gender or religion. He does not discriminate, but respects each individual regardless of their status. He always tries to avoid offensive and harsh words and always shows respect to others. It is also equally important to be very careful about one's behaviour in any social gathering. Not only our words, but our action and gestures should also be polite. Polite actions include opening doors for others, greeting them, giving up our seats in public transportations, not encroaching on their personal space, etc. Give everybody an equal opportunity to speak and never try to speak while another person is speaking. Respect the person who is speaking. Do not get agitated if one does not agree with you or when you disagree with others. In a group of people always wait for your turn to speak. Do not monopolise the whole conversation. If ever you want to criticise anybody, do it in a manner that it does not hurt the person. Do it in a polite and civilised manner. It has often been said that 'manners maketh man'. It is good manners that define us as civilised persons. We judge people based on their words and actions and the polite, well-mannered individual is immediately perceived as mature, confident and capable. One may amass great wealth or fame, but if his manners are unpleasant, he does not command respect. Therefore, if one wants to be considered as a respectable and confident person, he first has to treat others in a respectable manner. By cultivating good manners, one can thereby, become the person that he wishes to be."
+    },
+    {
+      "id": "CO2016A-GE-32",
+      "srcKey": "CO2016A-GE",
+      "no": 32,
+      "paper": "GE",
+      "q": "One can become the person that he wishes to be by",
+      "opts": {
+        "A": "developing good manners",
+        "B": "by treating others respectfully",
+        "C": "by being a civilised person",
+        "D": "by gaining wealth and fame"
+      },
+      "passageTitle": "Manners and civilised society",
+      "passage": "Man is a social animal. But living in society is not an easy job. There are social codes of conduct to be followed if one is to live in civilised society. How one behaves with others, how he approaches another person and how far he is successful in playing his role in the society indicates his manners. So, broadly speaking, we can define manners to be well established standard of conduct on the social life.\n\nNobody is born with inherent good manners. Everyone either learns or acquires them. The best place to cultivate manners and etiquettes is the home which is a miniature society and where the child spends most of its time. Children try to imitate their parents and elders in their behaviour and slowly learn and acquire certain traits of character that they have learnt at home. In the school, the teacher plays an important role in cultivation of good manners and etiquettes. Teachers with their ideal behaviour imbibe good manners in the school students. Anywhere we go, we are judged by the way we speak because it is a good indicator of our character and personality. How we speak, both to people who are younger and older than us, reflects our personality. More than anything, our manner of speaking to people who are socially inferior to us speaks a great deal about our character. The well-mannered person interacts with everyone in the same polite manner, regardless of age, sex, class, gender or religion. He does not discriminate, but respects each individual regardless of their status. He always tries to avoid offensive and harsh words and always shows respect to others. It is also equally important to be very careful about one's behaviour in any social gathering. Not only our words, but our action and gestures should also be polite. Polite actions include opening doors for others, greeting them, giving up our seats in public transportations, not encroaching on their personal space, etc. Give everybody an equal opportunity to speak and never try to speak while another person is speaking. Respect the person who is speaking. Do not get agitated if one does not agree with you or when you disagree with others. In a group of people always wait for your turn to speak. Do not monopolise the whole conversation. If ever you want to criticise anybody, do it in a manner that it does not hurt the person. Do it in a polite and civilised manner. It has often been said that 'manners maketh man'. It is good manners that define us as civilised persons. We judge people based on their words and actions and the polite, well-mannered individual is immediately perceived as mature, confident and capable. One may amass great wealth or fame, but if his manners are unpleasant, he does not command respect. Therefore, if one wants to be considered as a respectable and confident person, he first has to treat others in a respectable manner. By cultivating good manners, one can thereby, become the person that he wishes to be."
+    },
+    {
+      "id": "CO2016A-GE-33",
+      "srcKey": "CO2016A-GE",
+      "no": 33,
+      "paper": "GE",
+      "q": "The boy jumped __________ the wall.",
+      "opts": {
+        "A": "upon",
+        "B": "over",
+        "C": "to",
+        "D": "above"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016A-GE-34",
+      "srcKey": "CO2016A-GE",
+      "no": 34,
+      "paper": "GE",
+      "q": "I am indifferent __________ your malicious lies.",
+      "opts": {
+        "A": "about",
+        "B": "with",
+        "C": "of",
+        "D": "to"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016A-GE-35",
+      "srcKey": "CO2016A-GE",
+      "no": 35,
+      "paper": "GE",
+      "q": "I have made full preparation __________ the function.",
+      "opts": {
+        "A": "for",
+        "B": "of",
+        "C": "to",
+        "D": "on"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016A-GE-36",
+      "srcKey": "CO2016A-GE",
+      "no": 36,
+      "paper": "GE",
+      "q": "I have complete faith __________ your decision.",
+      "opts": {
+        "A": "with",
+        "B": "upon",
+        "C": "in",
+        "D": "of"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016A-GE-37",
+      "srcKey": "CO2016A-GE",
+      "no": 37,
+      "paper": "GE",
+      "q": "The drunk driver ran __________ the puppy.",
+      "opts": {
+        "A": "into",
+        "B": "over",
+        "C": "against",
+        "D": "on"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016A-GE-38",
+      "srcKey": "CO2016A-GE",
+      "no": 38,
+      "paper": "GE",
+      "q": "I shall return __________ this week itself.",
+      "opts": {
+        "A": "within",
+        "B": "by",
+        "C": "on",
+        "D": "at"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016A-GE-39",
+      "srcKey": "CO2016A-GE",
+      "no": 39,
+      "paper": "GE",
+      "q": "Identify the parts of speech for the underlined word in: This phone is much better than that.",
+      "opts": {
+        "A": "Pronoun",
+        "B": "Adverb",
+        "C": "Adjective",
+        "D": "Noun"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016A-GE-40",
+      "srcKey": "CO2016A-GE",
+      "no": 40,
+      "paper": "GE",
+      "q": "Identify the parts of speech for the underlined word in: Poverty is a huge problem in India.",
+      "opts": {
+        "A": "Adverb",
+        "B": "Verb",
+        "C": "Noun",
+        "D": "Adjective"
+      },
+      "passageTitle": null,
+      "passage": null
+    }
+  ]
+}

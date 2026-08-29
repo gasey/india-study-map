@@ -1,0 +1,54 @@
+{
+  "paper": "TECH1",
+  "unit": "I",
+  "unitTitle": "Fundamentals of Computer",
+  "unitMarks": 60,
+  "perTarget": 2,
+  "brief": "tools/system-manager-build/GENERATE_BRIEF.md",
+  "targets": [
+    {
+      "sub": "Scanners",
+      "section": "Input and Output Devices"
+    },
+    {
+      "sub": "Interactive Displays",
+      "section": "Input and Output Devices"
+    },
+    {
+      "sub": "Open Source and Proprietary Software",
+      "section": "Computer Software"
+    },
+    {
+      "sub": "Virtualization and Containerization (Concept)",
+      "section": "Computer Software"
+    },
+    {
+      "sub": "Scripting Languages",
+      "section": "Programming Fundamentals"
+    },
+    {
+      "sub": "APIs and Software Integration (Concept)",
+      "section": "Programming Fundamentals"
+    },
+    {
+      "sub": "Digital India and e-Governance",
+      "section": "Information Technology and Society"
+    },
+    {
+      "sub": "Electronic Records management",
+      "section": "Information Technology and Society"
+    },
+    {
+      "sub": "Data Privacy and Personal Data Protection",
+      "section": "Information Technology and Society"
+    },
+    {
+      "sub": "AI Ethics",
+      "section": "Information Technology and Society"
+    },
+    {
+      "sub": "Digital Inclusion and Accessibility",
+      "section": "Information Technology and Society"
+    }
+  ]
+}

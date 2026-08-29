@@ -1,0 +1,752 @@
+[
+  {
+    "no": 1,
+    "q": "In OSI network architecture, the routing is performed by",
+    "opts": { "A": "network layer", "B": "data link layer", "C": "transport layer", "D": "session layer" },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Routing — choosing a path across interconnected networks and forwarding packets hop by hop — is the defining job of OSI layer 3, the network layer. The data link layer only moves frames across a single link, so it switches rather than routes.",
+    "needs_figure": false,
+    "page": 1
+  },
+  {
+    "no": 2,
+    "q": "Which color coding of cable is used to connect similar devices?",
+    "opts": { "A": "Straight cable", "B": "Cross over cable", "C": "Serial cable", "D": "None of these" },
+    "ans": "B",
+    "conf": "high",
+    "exp": "A crossover cable swaps the transmit and receive pairs, which is what like-to-like connections (PC-to-PC, switch-to-switch, router-to-router) need. Straight-through cabling is for unlike devices such as PC-to-switch; modern auto-MDI/MDIX ports hide this distinction, but the 2016 exam answer is crossover.",
+    "needs_figure": false,
+    "page": 1
+  },
+  {
+    "no": 3,
+    "q": "Which of the following is an advantage to using fiber optics data transmission?",
+    "opts": { "A": "Resistance to data theft", "B": "Fast data transmission rate", "C": "Low noise level", "D": "All of these" },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Optical fibre carries light rather than current, so it is immune to electromagnetic interference (low noise), very hard to tap without detection, and supports far higher bandwidth than copper. All three listed benefits are genuine.",
+    "needs_figure": false,
+    "page": 1
+  },
+  {
+    "no": 4,
+    "q": "An effective way to prevent attenuation is",
+    "opts": { "A": "Adding repeaters or amplifiers to a circuit", "B": "Shorting a circuit", "C": "Half duplex", "D": "Shielding wires" },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Attenuation is the loss of signal strength over distance, and the standard remedy is to regenerate the signal periodically with repeaters (digital) or amplifiers (analogue). Shielding is the classic trap here — it suppresses noise and crosstalk, not attenuation.",
+    "needs_figure": false,
+    "page": 1
+  },
+  {
+    "no": 5,
+    "q": "Which address identifies a process on a host?",
+    "opts": { "A": "physical address", "B": "logical address", "C": "port address", "D": "specific address" },
+    "ans": "C",
+    "conf": "high",
+    "exp": "A 16-bit port number is the transport-layer address that distinguishes one process (one application endpoint) from another on the same machine. The MAC address identifies a NIC and the IP address identifies a host, not a process.",
+    "needs_figure": false,
+    "page": 1
+  },
+  {
+    "no": 6,
+    "q": "Transmission data rate is decided by",
+    "opts": { "A": "network layer", "B": "physical layer", "C": "data link layer", "D": "transport layer" },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Bit rate, signalling, encoding, voltage levels and the physical medium are all physical-layer concerns, so the raw transmission rate is set there. The data link layer controls flow and error handling on top of whatever rate the physical layer provides.",
+    "needs_figure": false,
+    "page": 1
+  },
+  {
+    "no": 7,
+    "q": "User datagram protocol is called connectionless because",
+    "opts": { "A": "all UDP packets are treated independently by transport layer", "B": "it sends data as a stream of related packets", "C": "both (a) and (b)", "D": "none of these" },
+    "ans": "A",
+    "conf": "high",
+    "exp": "UDP performs no handshake and keeps no per-conversation state, so each datagram is delivered and processed on its own with no relation to the ones before or after it. The 'stream of related packets' description belongs to TCP, which is connection-oriented.",
+    "needs_figure": false,
+    "page": 1
+  },
+  {
+    "no": 8,
+    "q": "In IPv4, what should be the flag value to indicate the last fragment?",
+    "opts": { "A": "0", "B": "1", "C": "TTL value", "D": "None of these" },
+    "ans": "A",
+    "conf": "high",
+    "exp": "The More Fragments (MF) bit in the IPv4 header is set to 1 on every fragment except the final one, where it is cleared to 0 — that is how the receiver knows reassembly is complete. TTL is unrelated; it counts router hops.",
+    "needs_figure": false,
+    "page": 1
+  },
+  {
+    "no": 9,
+    "q": "In the architecture of a database system, external level is the",
+    "opts": { "A": "Physical level", "B": "Logical level", "C": "Conceptual level", "D": "View level" },
+    "ans": "D",
+    "conf": "high",
+    "exp": "In the three-schema (ANSI/SPARC) architecture the external level is the user/view level, describing the part of the database a particular user or application sees. Conceptual maps to the logical level and internal maps to the physical level.",
+    "needs_figure": false,
+    "page": 1
+  },
+  {
+    "no": 10,
+    "q": "In a Hierarchical model records are organised as",
+    "opts": { "A": "Graph", "B": "List", "C": "Links", "D": "Tree" },
+    "ans": "D",
+    "conf": "high",
+    "exp": "The hierarchical model arranges records as a tree of parent-child links, where every child has exactly one parent. Graph organisation is the distinguishing feature of the network model, which is the usual distractor here.",
+    "needs_figure": false,
+    "page": 2
+  },
+  {
+    "no": 11,
+    "q": "The language used in application programs to request data from the DBMS is referred to as the",
+    "opts": { "A": "DML", "B": "DDL", "C": "VDL", "D": "SDL" },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Data Manipulation Language is the sublanguage used to retrieve, insert, update and delete data — that is, to request data from the DBMS. DDL defines schema structure; VDL and SDL define views and storage respectively.",
+    "needs_figure": false,
+    "page": 2
+  },
+  {
+    "no": 12,
+    "q": "Related fields in a database are grouped to form a",
+    "opts": { "A": "Data file", "B": "Data record", "C": "Menu", "D": "Bank" },
+    "ans": "B",
+    "conf": "high",
+    "exp": "The classical data hierarchy runs bit, character, field, record, file, database — so a group of related fields is a record. A data file is the next level up, a collection of related records.",
+    "needs_figure": false,
+    "page": 2
+  },
+  {
+    "no": 13,
+    "q": "An advantage of the database management approach is",
+    "opts": { "A": "Data is dependent on programs", "B": "Data redundancy increases", "C": "Data is integrated and can be accessed by multiple programs", "D": "None of these" },
+    "ans": "C",
+    "conf": "high",
+    "exp": "A DBMS centralises data so many programs share one integrated copy, which is exactly what the older file-per-application approach could not do. The other two statements are the drawbacks of file processing (program-data dependence and redundancy) that a DBMS removes.",
+    "needs_figure": false,
+    "page": 2
+  },
+  {
+    "no": 14,
+    "q": "E-R model uses this symbol to represent weak entity set?",
+    "opts": { "A": "Dotted rectangle", "B": "Diamond", "C": "Doubly outlined rectangle", "D": "None of these" },
+    "ans": "C",
+    "conf": "high",
+    "exp": "In standard E-R notation a weak entity set is drawn as a double (doubly outlined) rectangle, and its identifying relationship as a double diamond. A plain diamond is any relationship set, not a weak entity.",
+    "needs_figure": false,
+    "page": 2
+  },
+  {
+    "no": 15,
+    "q": "The RDBMS terminology for a row is",
+    "opts": { "A": "tuple", "B": "relation", "C": "attribute", "D": "degree" },
+    "ans": "A",
+    "conf": "high",
+    "exp": "In relational theory a row is a tuple; the table itself is the relation, a column is an attribute, and the degree is the number of attributes. Confusing tuple with relation is the standard slip.",
+    "needs_figure": false,
+    "page": 2
+  },
+  {
+    "no": 16,
+    "q": "Which are the two ways in which entities can participate in a relationship?",
+    "opts": { "A": "Passive and Active", "B": "Total and Partial", "C": "Simple and Complex", "D": "All of these" },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Participation is either total (every entity in the set must take part, drawn as a double line) or partial (participation is optional). The other pairs are not E-R participation constraints at all.",
+    "needs_figure": false,
+    "page": 2
+  },
+  {
+    "no": 17,
+    "q": "A set of possible data values is called",
+    "opts": { "A": "Attribute", "B": "Degree", "C": "Tuple", "D": "Domain" },
+    "ans": "D",
+    "conf": "high",
+    "exp": "The domain of an attribute is the set of permitted values it may take. The attribute is the column itself; the domain is the value set behind it.",
+    "needs_figure": false,
+    "page": 2
+  },
+  {
+    "no": 18,
+    "q": "A primary key combined with a foreign key creates",
+    "opts": { "A": "Parent-Child relationship between the tables that connect them", "B": "Many-to-many relationship between the tables that connect them", "C": "Network model between the tables that connect them", "D": "None of these" },
+    "ans": "A",
+    "conf": "high",
+    "exp": "A foreign key referencing another table's primary key makes the referenced table the parent and the referencing table the child — a one-to-many parent-child link. A many-to-many relationship needs an extra bridging table, so it is not created by a single key pair.",
+    "needs_figure": false,
+    "page": 2
+  },
+  {
+    "no": 19,
+    "q": "Business rules can be represented in the database through:",
+    "opts": { "A": "associations (or relationships)", "B": "attributes", "C": "properties", "D": "secondary keys" },
+    "ans": "A",
+    "conf": "medium",
+    "exp": "Business rules of the form 'a customer may place many orders' or 'every order must belong to one customer' are captured in the data model as associations between entities, together with their cardinality and participation constraints. Attributes only record facts about a single entity, so they cannot express a rule linking two of them.",
+    "needs_figure": false,
+    "page": 2
+  },
+  {
+    "no": 20,
+    "q": "The purpose of an n-ary association is:",
+    "opts": { "A": "To capture a parent-child relationship", "B": "To deal with one-to-many relationships", "C": "To deal with relationships that involve more than two tables", "D": "To represent an inheritance relationship" },
+    "ans": "C",
+    "conf": "high",
+    "exp": "'n-ary' means degree n, so an n-ary association exists precisely to model a relationship among three or more entity sets (for example supplier-part-project). Binary associations already cover parent-child and one-to-many cases.",
+    "needs_figure": false,
+    "page": 2
+  },
+  {
+    "no": 21,
+    "q": "To include integrity constraint in an existing relation use :",
+    "opts": { "A": "Create table", "B": "Modify table", "C": "Alter table", "D": "Drop table" },
+    "ans": "C",
+    "conf": "high",
+    "exp": "ALTER TABLE ... ADD CONSTRAINT is the SQL statement that adds a constraint to a table that already exists. CREATE TABLE only applies at creation time, and MODIFY TABLE is not standard SQL.",
+    "needs_figure": false,
+    "page": 2
+  },
+  {
+    "no": 22,
+    "q": "Select emp_name from department where dept_name like '_____ Computer Science'; In the SQL given above, which of the following has to be added into the blank to select the dept_name which has Computer Science as its ending string?",
+    "opts": { "A": "%", "B": "_", "C": "||", "D": "$" },
+    "ans": "A",
+    "conf": "high",
+    "exp": "In SQL's LIKE patterns % matches any sequence of zero or more characters, so '%Computer Science' matches any value that ends with that string. The underscore matches exactly one character, || is string concatenation, and $ is not a SQL wildcard.",
+    "needs_figure": false,
+    "page": 3
+  },
+  {
+    "no": 23,
+    "q": "In a database structure, the basic data type char(n) is a __________ length character string and varchar(n) is __________ length character.",
+    "opts": { "A": "Fixed, equal", "B": "Equal, variable", "C": "Fixed, variable", "D": "Variable, equal" },
+    "ans": "C",
+    "conf": "high",
+    "exp": "char(n) always occupies n characters and pads with blanks, so it is fixed length; varchar(n) stores only the characters supplied up to a maximum of n, so it is variable length.",
+    "needs_figure": false,
+    "page": 3
+  },
+  {
+    "no": 24,
+    "q": "For a weak entity set to be meaningful, it must be associated with another entity set, called the",
+    "opts": { "A": "Identifying set", "B": "Owner set", "C": "Neighbour set", "D": "Strong entity set" },
+    "ans": "A",
+    "conf": "medium",
+    "exp": "A weak entity has no primary key of its own, so it borrows the key of the entity set it depends on; Silberschatz calls that set the identifying entity set (linked by an identifying relationship). Some other textbooks call the same thing the 'owner' entity set, which makes the second choice defensible too — this paper follows the identifying-set wording.",
+    "needs_figure": false,
+    "page": 3
+  },
+  {
+    "no": 25,
+    "q": "A __________ integrity constraint requires that the values appearing in specified attributes of any tuple in the referencing relation also appear in specified attributes of at least one tuple in the referenced relation.",
+    "opts": { "A": "Referential", "B": "Referencing", "C": "Specific", "D": "Primary" },
+    "ans": "A",
+    "conf": "high",
+    "exp": "That sentence is the textbook definition of referential integrity, enforced in SQL by a foreign key. 'Referencing' names the relation that holds the foreign key, not the constraint itself.",
+    "needs_figure": false,
+    "page": 3
+  },
+  {
+    "no": 26,
+    "q": "Indicate roles in E-R diagrams by labelling the lines that connect __________ to __________ .",
+    "opts": { "A": "Diamond, diamond", "B": "Rectangle, diamond", "C": "Rectangle, rectangle", "D": "Diamond, rectangle" },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Entity sets are rectangles and relationship sets are diamonds, so a role name is written on the line joining an entity rectangle to a relationship diamond — this is how recursive relationships label the two ends (e.g. manager/worker).",
+    "needs_figure": false,
+    "page": 3
+  },
+  {
+    "no": 27,
+    "q": "How many tables may be included with a join?",
+    "opts": { "A": "One", "B": "Two", "C": "Three", "D": "All of these" },
+    "ans": "D",
+    "conf": "high",
+    "exp": "SQL places no fixed limit on the number of tables in a join — one (a self-join), two, three or more are all valid — so every listed count is possible. Answering 'two' is the trap, since two is only the minimum for an ordinary join.",
+    "needs_figure": false,
+    "page": 3
+  },
+  {
+    "no": 28,
+    "q": "What are the correct features of a distributed database?",
+    "opts": { "A": "Is always connected to the internet", "B": "Always requires more than three machines", "C": "Users see the data in one global schema", "D": "Have to specify the physical location of the data when an update is done" },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Distribution transparency is the point of a distributed DBMS: data is physically spread over sites but users query a single global schema and never state where a row lives. That also rules out the last choice, and internet connectivity and a machine count are not defining features.",
+    "needs_figure": false,
+    "page": 3
+  },
+  {
+    "no": 29,
+    "q": "Delete from r where P; The above command",
+    "opts": { "A": "Deletes a particular tuple from the relation", "B": "Deletes the relation", "C": "Clears all entries from the relation", "D": "All of these" },
+    "ans": "A",
+    "conf": "high",
+    "exp": "DELETE removes rows, never the table definition, and the WHERE P clause restricts removal to the tuples satisfying P. Dropping the relation would need DROP TABLE, and clearing every row would need DELETE with no WHERE clause.",
+    "needs_figure": false,
+    "page": 3
+  },
+  {
+    "no": 30,
+    "q": "Update instructor ______ salary= salary * 1.05; Fill in with correct keyword to update the instructor relation.",
+    "opts": { "A": "Where", "B": "Set", "C": "In", "D": "Select" },
+    "ans": "B",
+    "conf": "high",
+    "exp": "The SQL update syntax is UPDATE <table> SET <column> = <expression> [WHERE <predicate>], so the keyword introducing the assignment is SET. WHERE would come later and only filters which rows are updated.",
+    "needs_figure": false,
+    "page": 3
+  },
+  {
+    "no": 31,
+    "q": "The entity set person is classified as student and employee. This process is called",
+    "opts": { "A": "Generalisation", "B": "Specialisation", "C": "Inheritance", "D": "Constraint generalisation" },
+    "ans": "B",
+    "conf": "high",
+    "exp": "Working top-down from a higher-level entity set to distinct subgroupings is specialisation. Generalisation is the reverse, bottom-up direction — combining student and employee into person — which is the trap pairing here.",
+    "needs_figure": false,
+    "page": 3
+  },
+  {
+    "no": 32,
+    "q": "Functional dependencies are a generalisation of",
+    "opts": { "A": "Key dependencies", "B": "Relation dependencies", "C": "Database dependencies", "D": "None of these" },
+    "ans": "A",
+    "conf": "high",
+    "exp": "A superkey K of relation R is exactly the case where K functionally determines every attribute of R, so keys are a special case of functional dependency — the FD is the generalisation. The other two phrases are not standard normalisation terms.",
+    "needs_figure": false,
+    "page": 3
+  },
+  {
+    "no": 33,
+    "q": "There are similarities between the instructor entity set and the secretary entity set in the sense that they have several attributes that are conceptually the same across the two entity sets: namely, the identifier, name, and salary attributes. This process is called",
+    "opts": { "A": "Commonality", "B": "Specialisation", "C": "Generalisation", "D": "Similarity" },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Recognising shared attributes across several entity sets and factoring them into a common higher-level entity set (here, employee) is generalisation — the bottom-up direction. Specialisation would be splitting one entity set downward into subgroups instead.",
+    "needs_figure": false,
+    "page": 4
+  },
+  {
+    "no": 34,
+    "q": "HTML is a ...",
+    "opts": { "A": "Programming Language", "B": "Scripting Language", "C": "Web Browser", "D": "Network Protocol" },
+    "ans": "B",
+    "conf": "low",
+    "exp": "HTML is strictly a markup language — it describes document structure and has no variables, conditionals or loops — so none of the four printed choices is actually correct and the item is defective. Of the four, 'Scripting Language' is the least wrong (it at least names a client-side web text format), whereas a browser and a protocol are plainly different kinds of thing.",
+    "needs_figure": false,
+    "page": 4
+  },
+  {
+    "no": 35,
+    "q": "A webpage displays a picture. What tag was used to display that picture?",
+    "opts": { "A": "picture", "B": "image", "C": "img", "D": "src" },
+    "ans": "C",
+    "conf": "high",
+    "exp": "The HTML element for an inline image is <img>, with the file named in its src attribute. 'src' is that attribute, not a tag, and <image> is a non-standard alias browsers merely tolerate.",
+    "needs_figure": false,
+    "page": 4
+  },
+  {
+    "no": 36,
+    "q": "Which tag allows you to add a row in a table?",
+    "opts": { "A": "<td> and </td>", "B": "<cr> and </cr>", "C": "<th> and </th>", "D": "<tr> and </tr>" },
+    "ans": "D",
+    "conf": "high",
+    "exp": "<tr> is the table-row element; <td> and <th> create data and header cells inside a row, and <cr> is not HTML at all. Choosing <td> is the usual slip, since a cell sits inside a row rather than being one.",
+    "needs_figure": false,
+    "page": 4
+  },
+  {
+    "no": 37,
+    "q": "Cascading Style Sheets define style and appearance using:",
+    "opts": { "A": "functions with parameters and return values", "B": "rules with selectors, properties and their values", "C": "techniques with block and inline elements", "D": "heuristics with rules and maps" },
+    "ans": "B",
+    "conf": "high",
+    "exp": "A CSS rule is a selector followed by a declaration block of property:value pairs — for example h1 { color: red; }. Functions with parameters and returns describe a programming language, not a style sheet.",
+    "needs_figure": false,
+    "page": 4
+  },
+  {
+    "no": 38,
+    "q": "JavaScript is a programming language that:",
+    "opts": { "A": "is strict about variable type and declaration", "B": "is a web-specific version of Java", "C": "supports event-driven programming", "D": "is executed on the server" },
+    "ans": "C",
+    "conf": "high",
+    "exp": "JavaScript's core model in the browser is event-driven: handlers such as onclick and onload run in response to user and document events. It is loosely typed (not strict), unrelated to Java despite the name, and in this 2016 context runs client-side — note that Node.js does also run JavaScript on servers today.",
+    "needs_figure": false,
+    "page": 4
+  },
+  {
+    "no": 39,
+    "q": "How can you make a bulleted list?",
+    "opts": { "A": "<list>", "B": "<nl>", "C": "<ul>", "D": "<ol>" },
+    "ans": "C",
+    "conf": "high",
+    "exp": "<ul> creates an unordered (bulleted) list of <li> items. <ol> is the numbered/ordered list — the standard trap — while <list> and <nl> are not HTML elements.",
+    "needs_figure": false,
+    "page": 4
+  },
+  {
+    "no": 40,
+    "q": "What is the correct HTML for making a hyperlink?",
+    "opts": { "A": "<a href=\"http:// abc.com\">abc</a>", "B": "<a name=\"http://abc.com\">abc</a>", "C": "<http://abc.com</a>", "D": "url=\"http://abc.com\">" },
+    "ans": "A",
+    "conf": "high",
+    "exp": "A hyperlink is an anchor element whose href attribute holds the destination URL and whose content is the clickable text. The name attribute defined a bookmark target inside a page, not a link destination.",
+    "needs_figure": false,
+    "page": 4
+  },
+  {
+    "no": 41,
+    "q": "What is the correct HTML for adding a background color?",
+    "opts": { "A": "<body color=\"yellow\">", "B": "<body bgcolor=\"yellow\">", "C": "<background>yellow</background>", "D": "<body background=\"yellow\">" },
+    "ans": "B",
+    "conf": "high",
+    "exp": "The legacy attribute for a page background colour is bgcolor on <body>; 'background' took an image URL, and 'color' was never a body attribute. Both bgcolor and background are deprecated in HTML5, where you would write body { background-color: yellow; } in CSS instead.",
+    "needs_figure": false,
+    "page": 4
+  },
+  {
+    "no": 42,
+    "q": "The HTML <div> element is:",
+    "opts": { "A": "Inline element", "B": "Outline element", "C": "Block level element", "D": "None of these" },
+    "ans": "C",
+    "conf": "high",
+    "exp": "<div> is the generic block-level container: it starts on a new line and fills the available width. <span> is its inline counterpart, and 'outline element' is not an HTML category.",
+    "needs_figure": false,
+    "page": 4
+  },
+  {
+    "no": 43,
+    "q": "Which attribute is used to name an element uniquely?",
+    "opts": { "A": "class", "B": "id", "C": "dot", "D": "all of these" },
+    "ans": "B",
+    "conf": "high",
+    "exp": "The id attribute must be unique within a document, which is why it is the hook for fragment links and getElementById. A class is deliberately reusable across many elements, and 'dot' is only the CSS selector prefix for a class.",
+    "needs_figure": false,
+    "page": 4
+  },
+  {
+    "no": 44,
+    "q": "The way the browser displays the object can be modified by",
+    "opts": { "A": "attributes", "B": "parameters", "C": "modifiers", "D": "None of these" },
+    "ans": "A",
+    "conf": "medium",
+    "exp": "In HTML the rendering of an element is adjusted by writing attributes inside its start tag (align, width, style, and so on), so 'attributes' is the term the paper is after. 'Parameters' and 'modifiers' are not HTML markup terminology, though the question is loosely worded since CSS is the modern way to change presentation.",
+    "needs_figure": false,
+    "page": 4
+  },
+  {
+    "no": 45,
+    "q": "Which of the following is an attribute of <Table> tag?",
+    "opts": { "A": "SRC", "B": "LINK", "C": "CELLPADDING", "D": "BOLD" },
+    "ans": "C",
+    "conf": "high",
+    "exp": "cellpadding (with cellspacing, border, width and align) is a classic <table> attribute controlling the space between a cell's border and its content. SRC belongs to <img>, LINK to <body>, and BOLD is not an attribute at all.",
+    "needs_figure": false,
+    "page": 5
+  },
+  {
+    "no": 46,
+    "q": "Choose the correct HTML to left-align the content inside a table cell",
+    "opts": { "A": "<td valign=\"left\">", "B": "<tdleft>", "C": "<td leftalign>", "D": "<td align=\"left\">" },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Horizontal alignment inside a cell used the align attribute, so align=\"left\" is correct. valign controls vertical alignment and only takes top/middle/bottom, which makes the first choice the deliberate trap.",
+    "needs_figure": false,
+    "page": 5
+  },
+  {
+    "no": 47,
+    "q": "Which file controls how your frames will appear?",
+    "opts": { "A": "Frameset", "B": "Master Document", "C": "Template", "D": "Timeline" },
+    "ans": "A",
+    "conf": "high",
+    "exp": "The frameset document holds the <frameset> element that defines how the window is divided into rows and columns and which file loads into each frame. Frames and framesets were removed in HTML5, so this is period knowledge only.",
+    "needs_figure": false,
+    "page": 5
+  },
+  {
+    "no": 48,
+    "q": "__________ provides the largest text.",
+    "opts": { "A": "H6", "B": "24", "C": "H1", "D": "Bold" },
+    "ans": "C",
+    "conf": "high",
+    "exp": "HTML headings run from <h1>, the largest and most important, down to <h6>, the smallest — so H1 gives the largest text. Bold changes weight rather than size.",
+    "needs_figure": false,
+    "page": 5
+  },
+  {
+    "no": 49,
+    "q": "What is the use of alt attribute in HTML?",
+    "opts": { "A": "alt attribute specifies an alternate text for an image", "B": "alt attribute specifies an alternate link for an image", "C": "alt attribute specifies an alternate image for an image", "D": "alt attribute specifies an alternate source for an image" },
+    "ans": "A",
+    "conf": "high",
+    "exp": "alt supplies text shown in place of an image when it cannot load and read aloud by screen readers, which is why it matters for accessibility. It never points at another file — a substitute source would be a different src, not alt.",
+    "needs_figure": false,
+    "page": 5
+  },
+  {
+    "no": 50,
+    "q": "The attribute of the <form> tag?",
+    "opts": { "A": "Method", "B": "Action", "C": "Both (a) and (b)", "D": "None of these" },
+    "ans": "C",
+    "conf": "high",
+    "exp": "A form needs action, the URL that receives the submission, and method, the HTTP verb (GET or POST) used to send it — both are <form> attributes. Since each of the first two is genuine, the combined choice is the right one.",
+    "needs_figure": false,
+    "page": 5
+  },
+  {
+    "no": 51,
+    "q": "In event-driven programming an event is generated by:",
+    "opts": { "A": "the system", "B": "a user's action", "C": "the program itself", "D": "all of these" },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Events come from user input (clicks, keystrokes), from the system or runtime (timers, page load, network completion) and from the program raising them itself. All three sources are legitimate, so the combined choice holds.",
+    "needs_figure": false,
+    "page": 5
+  },
+  {
+    "no": 52,
+    "q": "HTML is a subset of",
+    "opts": { "A": "SGML", "B": "SGMT", "C": "SGMD", "D": "None of these" },
+    "ans": "A",
+    "conf": "high",
+    "exp": "HTML was defined as an application (a specific document type) of Standard Generalized Markup Language, ISO 8879. The other two acronyms are invented distractors; note that HTML5 finally dropped the SGML lineage.",
+    "needs_figure": false,
+    "page": 5
+  },
+  {
+    "no": 53,
+    "q": "Which function should be used to validate that input is not a string before performing arithmetic operations?",
+    "opts": { "A": "IsArithmetic", "B": "IsNotString", "C": "IsNumeric", "D": "IsString" },
+    "ans": "C",
+    "conf": "high",
+    "exp": "IsNumeric() is the standard VBScript/VB validation function that returns True when a value can be treated as a number, which is exactly the pre-arithmetic check wanted here. IsArithmetic and IsNotString do not exist, and IsString would test the opposite condition.",
+    "needs_figure": false,
+    "page": 5
+  },
+  {
+    "no": 54,
+    "q": "The stateless HTTP protocol refers to web pages created:",
+    "opts": { "A": "on a web server", "B": "without information from a database", "C": "without knowledge of previous web pages", "D": "before a request from a client" },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Statelessness means the server treats each HTTP request in isolation and retains nothing about earlier requests from the same client — hence the need for cookies, sessions and view state to fake continuity. Database use and where a page is generated are separate issues.",
+    "needs_figure": false,
+    "page": 5
+  },
+  {
+    "no": 55,
+    "q": "Which client-side technique can be disabled by the end-user?",
+    "opts": { "A": "Cookies", "B": "Query string", "C": "View state", "D": "Both (a) and (b)" },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Cookies are stored by the browser, so any user can refuse or delete them in browser settings — which is why applications must cope with cookies being off. A query string is part of the URL itself and view state is a hidden form field; neither can simply be switched off by the user.",
+    "needs_figure": false,
+    "page": 5
+  },
+  {
+    "no": 56,
+    "q": "A Session variable is created:",
+    "opts": { "A": "when the application is first placed on a web server", "B": "when the web server is first started", "C": "when the first client requests a URL resource", "D": "every time a new client interacts with the web application" },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Session state is per-client, so a new session (and its variables) is created for each new visitor who interacts with the application, and it expires on timeout or abandonment. Application-level state, not session state, is what is created once when the application or server starts.",
+    "needs_figure": false,
+    "page": 5
+  },
+  {
+    "no": 57,
+    "q": "What is the correct syntax for referring to an external script called \"abc.js\"?",
+    "opts": { "A": "<script href=\"abc.js\">", "B": "<script name=\"abc.js\">", "C": "<script src=\"abc.js\">", "D": "None of these" },
+    "ans": "C",
+    "conf": "high",
+    "exp": "An external JavaScript file is loaded with the src attribute of <script>. href belongs to <a> and <link>, which is the attribute most often confused here.",
+    "needs_figure": false,
+    "page": 6
+  },
+  {
+    "no": 58,
+    "q": "JavaScript is interpreted by",
+    "opts": { "A": "Client", "B": "Server", "C": "Object", "D": "None of these" },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Browser JavaScript is downloaded as source and interpreted by the client's own engine, which is why behaviour can vary between browsers. Server-side execution would describe ASP or PHP in this paper's era, though Node.js now runs JavaScript on servers too.",
+    "needs_figure": false,
+    "page": 6
+  },
+  {
+    "no": 59,
+    "q": "The purpose of a resume is to",
+    "opts": { "A": "Establish a candidate's qualifications for a position - in order to secure an interview", "B": "Establish a candidate's qualifications for a position - in order to secure employment", "C": "Establish a candidate's qualifications for a position - in order to eliminate the competition", "D": "None of these" },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Business-communication texts are explicit that a resume's job is to win an interview, not the post itself — the interview is what secures employment. Reading the resume as a hiring instrument rather than a screening document is the trap in the second choice.",
+    "needs_figure": false,
+    "page": 6
+  },
+  {
+    "no": 60,
+    "q": "When writing resume, the main focus should be on",
+    "opts": { "A": "Who will be reading the resume", "B": "Presenting my best skills, experiences and achievements in priority", "C": "The readability and visual presentation of my document", "D": "None of these" },
+    "ans": "A",
+    "conf": "medium",
+    "exp": "Audience analysis is the first principle of business writing: you tailor content and emphasis to the specific employer who will read it, which is why the same candidate writes different resumes for different posts. The self-focused and formatting-focused choices are real concerns but subordinate to the reader, so a key that preferred the second choice would be arguable.",
+    "needs_figure": false,
+    "page": 6
+  },
+  {
+    "no": 61,
+    "q": "Interview differs from other conversation in that they:",
+    "opts": { "A": "Are held for a very specific reason", "B": "Aim at a particular outcome", "C": "Are usually recorded", "D": "All of these" },
+    "ans": "D",
+    "conf": "medium",
+    "exp": "An interview is distinguished from ordinary talk by being purposive (a stated reason), goal-directed (a decision or outcome) and documented — notes, rating sheets or a recording form part of the process. 'Usually recorded' is the weakest of the three claims, which makes the combined choice a little generous.",
+    "needs_figure": false,
+    "page": 6
+  },
+  {
+    "no": 62,
+    "q": "In an organisation, the two basic types of correspondence are",
+    "opts": { "A": "External and international", "B": "International and regional", "C": "Internal and external", "D": "Internal and regional" },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Business correspondence divides by direction of flow: internal (memos, circulars, notices within the organisation) and external (letters to customers, suppliers, government). International and regional are geographic labels, not the basic classification.",
+    "needs_figure": false,
+    "page": 6
+  },
+  {
+    "no": 63,
+    "q": "When considering resume, employers",
+    "opts": { "A": "look for what the company can provide for the applicant.", "B": "spend at least 1/2 hour reviewing each resume.", "C": "look for resume that look good, are easy to read, and provide the information an employer needs to assess an applicant's qualifications.", "D": "ignore mechanical flaws." },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Recruiters skim, so a resume must be visually clean, quickly scannable and complete on the points that matter for the vacancy. The other three are the standard myths — employers look for what the applicant offers them, spend well under a minute on first screening, and treat typos as disqualifying.",
+    "needs_figure": false,
+    "page": 6
+  },
+  {
+    "no": 64,
+    "q": "Common mistakes people make in job interviews include",
+    "opts": { "A": "knowing little about the company or the role they would play at the company.", "B": "having little idea of how their education prepares them for work.", "C": "having only vague ideas about how they could benefit the employer.", "D": "All of these." },
+    "ans": "D",
+    "conf": "high",
+    "exp": "All three are textbook interview failures, and they share one root cause: no preparation. Since each listed item is a genuine mistake, the combined choice is the only complete answer.",
+    "needs_figure": false,
+    "page": 6
+  },
+  {
+    "no": 65,
+    "q": "If asked a point blank question such as: Are you creative? Are you analytical? Can you work under pressure? etc. What is the best way to answer?",
+    "opts": { "A": "Answer yes or no", "B": "Answer yes and give a specific example", "C": "Answer yes and give an explanation", "D": "None of these" },
+    "ans": "B",
+    "conf": "medium",
+    "exp": "Interview coaching is consistent on this: assert the quality and then prove it with a concrete instance from your experience, since evidence is what an interviewer can actually assess. A bare yes says nothing, and a general explanation is closer but still weaker than a specific example, so the third choice is the near-miss distractor.",
+    "needs_figure": false,
+    "page": 6
+  },
+  {
+    "no": 66,
+    "q": "Study carefully the following series of numbers. Choose the correct number which would go next in the series. 108, 100, 92, 90, 82, 74, ...",
+    "opts": { "A": "65", "B": "66", "C": "72", "D": "76" },
+    "ans": "C",
+    "conf": "high",
+    "exp": "The differences repeat in a three-step cycle of -8, -8, -2: 108-8=100, 100-8=92, 92-2=90, then 90-8=82, 82-8=74, so the next step is the -2 one, giving 74-2=72. Assuming a plain -8 throughout is what yields the wrong 66.",
+    "needs_figure": false,
+    "page": 7
+  },
+  {
+    "no": 67,
+    "q": "Study carefully the following series of numbers. Choose the correct number which would go next in the series. 102, 204, 408, 816, ...",
+    "opts": { "A": "1532", "B": "1432", "C": "1632", "D": "1832" },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Each term is double the one before: 102x2=204, 204x2=408, 408x2=816, so the next term is 816x2=1632. The near-miss 1532 is 100 short and does not fit the doubling rule.",
+    "needs_figure": false,
+    "page": 7
+  },
+  {
+    "no": 68,
+    "q": "Which one is equal to √16 ?",
+    "opts": { "A": "√2", "B": "2²", "C": "4³", "D": "4²" },
+    "ans": "B",
+    "conf": "high",
+    "exp": "√16 = 4, and 2² = 4, so the two are equal. The classic trap is 4², which is 16 — the number under the root sign, not its root; 4³ is 64 and √2 is about 1.414.",
+    "needs_figure": false,
+    "page": 7
+  },
+  {
+    "no": 69,
+    "q": "What does it mean to say \"Man does not live by bread alone\"?",
+    "opts": { "A": "Having too much of any one food is not good.", "B": "There are other important things in life besides material wealth.", "C": "Variety is important in one's life.", "D": "Man should work in order to get his bread." },
+    "ans": "B",
+    "conf": "high",
+    "exp": "The proverb uses 'bread' figuratively for material necessities, and says that human beings also need spiritual, emotional and intellectual sustenance. The other three readings all take 'bread' literally as food, which is exactly the trap the idiom sets.",
+    "needs_figure": false,
+    "page": 7
+  },
+  {
+    "no": 70,
+    "q": "A substitute for \"one who likes to send time with others\" in one word can be",
+    "opts": { "A": "Introvert", "B": "Extraordinary", "C": "Extrovert", "D": "Commoner" },
+    "ans": "C",
+    "conf": "high",
+    "exp": "An extrovert is an outgoing person who draws energy from company, which is the intended sense (the paper misprints 'spend' as 'send'). An introvert is the exact opposite — the deliberate distractor — while extraordinary and commoner are unrelated.",
+    "needs_figure": false,
+    "page": 7
+  },
+  {
+    "no": 71,
+    "q": "What is the opposite word of coward?",
+    "opts": { "A": "Weak", "B": "Quarrelsome", "C": "Valiant", "D": "Brave" },
+    "ans": "D",
+    "conf": "low",
+    "exp": "'Brave' is the everyday antonym of coward and is almost certainly what the setter keyed, but 'Valiant' means courageous too, so the paper prints two defensible answers and the item is defective. Weak is a synonym-adjacent trap and quarrelsome is unrelated to courage.",
+    "needs_figure": false,
+    "page": 7
+  },
+  {
+    "no": 72,
+    "q": "Each problem in this test consists of one figure on the left of a vertical line and four figures on the right. You are to decide which of the four figures on the right is the same as the figure on the left. [Figure 1: a double-outlined isosceles trapezoid, long side uppermost, with four candidate quadrilaterals A-D at various rotations.]",
+    "opts": { "A": "A", "B": "B", "C": "C", "D": "D" },
+    "ans": "A",
+    "conf": "medium",
+    "exp": "The test allows rotation but not reflection, so the answer must be the one figure that superimposes on the reference after a pure turn. Overlaying the outlines numerically, A matches at about 164 degrees of rotation with roughly 96 percent area agreement, while B and C only match once flipped and D is distorted; the printed diagram is needed to check this by eye.",
+    "needs_figure": true,
+    "page": 7
+  },
+  {
+    "no": 73,
+    "q": "Each problem in this test consists of one figure on the left of a vertical line and four figures on the right. You are to decide which of the four figures on the right is the same as the figure on the left. [Figure 2: an asymmetric bowtie/flag shape - a narrow tapering tail joined at a waist to a larger triangle - with four candidates A-D at various rotations.]",
+    "opts": { "A": "A", "B": "B", "C": "C", "D": "D" },
+    "ans": "B",
+    "conf": "medium",
+    "exp": "Because the shape is asymmetric, a reflected copy can never be rotated onto it, so only a true turn counts. Filling the outlines and overlaying them, B is by far the best pure rotation (about 87 percent area agreement at roughly 193 degrees) while A is essentially B's mirror image and C and D match only when flipped; the printed figures are required to verify.",
+    "needs_figure": true,
+    "page": 7
+  },
+  {
+    "no": 74,
+    "q": "Look at the following sets of pictures. Put them in the right order so that they will tell a story. [Six numbered cartoon panels: 1 - mother and child together in the lit kitchen, child eating; 2 - dark bedroom, child sitting up in bed eating, 'CHOMP! CHOMP!'; 3 - kitchen, child alone on tiptoe at the counter eating; 4 - dark bedroom, child asleep with a dream bubble showing a monstrous figure; 5 - mother tucking the child into bed, bedside lamp lit; 6 - dark bedroom, child sitting up reaching towards the bedside table.]",
+    "opts": { "A": "5 6 1 3 4 2", "B": "1 5 6 2 4 3", "C": "3 1 5 4 6 2", "D": "1 5 3 6 2 4" },
+    "ans": "D",
+    "conf": "low",
+    "exp": "The nightmare panel is the consequence and so belongs last, and the eating-in-bed panel must come immediately before it, which rules out the orders that place the dream in the middle or end on a kitchen scene. That leaves the reading: snack with mother, tucked in, sneaks back to the kitchen, sits up in bed, eats, bad dream. The alternative order 1 5 6 2 4 3 is also arguable if the lit kitchen panel is meant as the next morning, so this is a genuine judgement call and the printed panels are needed.",
+    "needs_figure": true,
+    "page": 8
+  },
+  {
+    "no": 75,
+    "q": "In this test, parts of a well known object are placed in the wrong order. You have to choose the correct order, from left to right, in which these parts should be placed in order to form the object. The parts of each object are numbered. [Six black silhouette fragments of an animal: 1 - slab with a horn/ear spur on top and a foreleg below; 2 - plain torso slab with one leg; 3 - hindquarters with a straight hind leg and a second hind leg bent back at the hock; 4 - head with horns and a muzzle facing right; 5 - large torso block with a raised back and one leg; 6 - narrow slab with a tufted lower edge.]",
+    "opts": { "A": "3 2 6 1 5 4", "B": "1 4 2 3 5 6", "C": "3 2 1 5 6 4", "D": "3 6 2 5 1 4" },
+    "ans": "D",
+    "conf": "medium",
+    "exp": "The object is a cow facing right: fragment 4 is the horned head with the muzzle on the right and a straight cut on its left, so it goes last, and fragment 3 carries the bent hind leg, so it goes first. Fragment 1 has the second horn spur on its upper edge, which forces it next to the head - reassembling the fragments in this order produces a continuous cow silhouette, whereas the other orders leave a horn standing up in the middle of the animal's back. The printed fragments are needed to confirm.",
+    "needs_figure": true,
+    "page": 9
+  }
+]

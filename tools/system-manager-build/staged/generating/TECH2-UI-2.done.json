@@ -1,0 +1,310 @@
+[
+  {
+    "sub": "Proxy Servers",
+    "q": "In a government office all staff PCs are configured to send their web requests to one server, which fetches the pages on their behalf, blocks certain categories of site and keeps an access log per user. That server is acting as",
+    "opts": {
+      "A": "A forward proxy",
+      "B": "A reverse proxy",
+      "C": "A NAT router",
+      "D": "A DNS forwarder"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "A forward proxy acts on behalf of internal clients going out to the internet, which is what allows content filtering, per-user authentication, logging and caching to be enforced in one place. A reverse proxy is the opposite direction: it sits in front of servers and receives requests coming in.",
+    "src": "generated"
+  },
+  {
+    "sub": "Proxy Servers",
+    "q": "Which statement correctly distinguishes a proxy server from NAT?",
+    "opts": {
+      "A": "NAT works at the application layer while a proxy works at the data link layer",
+      "B": "Both terminate the client's connection, but only NAT is able to cache content",
+      "C": "A proxy terminates the client's connection and originates its own request at the application layer, while NAT only rewrites addresses and ports in the packet header",
+      "D": "NAT can filter web content by category, while a proxy can only translate port numbers"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "A proxy ends the client's connection and makes a fresh request of its own at the application layer, which is exactly why it can read, cache and filter the content it relays. NAT operates at the network layer and merely rewrites header addresses, letting the original connection continue, so it can do neither.",
+    "src": "generated"
+  },
+  {
+    "sub": "Wi-Fi Standards",
+    "q": "Which of the following correctly pairs an 802.11 standard with the frequency band it uses?",
+    "opts": {
+      "A": "802.11a operates in the 2.4 GHz band",
+      "B": "802.11a operates in the 5 GHz band",
+      "C": "802.11b operates in the 5 GHz band",
+      "D": "802.11g operates in the 5 GHz band"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "802.11a is the 5 GHz standard, while 802.11b and 802.11g both work in 2.4 GHz, which is why 802.11a equipment is not compatible with b/g equipment. The alphabetical order misleads candidates into assuming 'a' came first and must therefore be the 2.4 GHz one.",
+    "src": "generated"
+  },
+  {
+    "sub": "Wi-Fi Standards",
+    "q": "Which Wi-Fi standard was the first to operate in both the 2.4 GHz and 5 GHz bands and introduced MIMO with multiple antennas?",
+    "opts": {
+      "A": "802.11g",
+      "B": "802.11a",
+      "C": "802.11ac",
+      "D": "802.11n"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "802.11n, marketed as Wi-Fi 4, was the first amendment to work on both bands and the first to use MIMO for parallel data streams. 802.11ac (Wi-Fi 5) is a later standard but operates in the 5 GHz band only, so dual-band operation did not begin with it.",
+    "src": "generated"
+  },
+  {
+    "sub": "Wireless Security",
+    "q": "Which sequence lists Wi-Fi security standards from the oldest and weakest to the newest and strongest?",
+    "opts": {
+      "A": "WEP, WPA, WPA2, WPA3",
+      "B": "WPA, WEP, WPA2, WPA3",
+      "C": "WEP, WPA2, WPA, WPA3",
+      "D": "WPA2, WPA, WEP, WPA3"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "The succession is WEP, then WPA, then WPA2, then WPA3, each correcting weaknesses in the one before. WEP is comprehensively broken and must never be configured, WPA was an interim fix using TKIP, WPA2 introduced AES-CCMP, and WPA3 replaces the pre-shared key handshake with SAE.",
+    "src": "generated"
+  },
+  {
+    "sub": "Wireless Security",
+    "q": "What does WPA2-Enterprise provide that WPA2-Personal does not?",
+    "opts": {
+      "A": "AES encryption in place of TKIP",
+      "B": "Automatic hiding of the SSID from scanning devices",
+      "C": "Per-user authentication using 802.1X and a RADIUS server instead of one shared passphrase",
+      "D": "MAC address filtering enforced at the access point"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "Enterprise mode authenticates every user separately through 802.1X against a RADIUS server, typically backed by Active Directory, so one employee's wireless access can be revoked by a single account change. AES-CCMP is not the difference: both Personal and Enterprise modes of WPA2 use it, and Personal simply shares one passphrase among all users.",
+    "src": "generated"
+  },
+  {
+    "sub": "Mobile Networks",
+    "q": "GSM belongs to which generation of mobile networks?",
+    "opts": {
+      "A": "3G",
+      "B": "1G",
+      "C": "4G",
+      "D": "2G"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "GSM is the dominant 2G family, the first digital generation, and it brought SIM cards, SMS and usable call encryption. It is regularly mis-offered as 3G, but 3G means UMTS/WCDMA and CDMA2000; GPRS and EDGE are data add-ons to 2G, not a separate generation.",
+    "src": "generated"
+  },
+  {
+    "sub": "Mobile Networks",
+    "q": "What is the key architectural change introduced by 4G LTE?",
+    "opts": {
+      "A": "It introduced SIM cards and SMS messaging for the first time",
+      "B": "It was the first generation to use digital radio instead of analogue",
+      "C": "It moved the network to all-IP, with voice carried over the data network as VoLTE",
+      "D": "It introduced network slicing and millimetre-wave spectrum"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "4G LTE is an all-IP network with no separate circuit-switched voice path, so calls run over the data network as VoLTE. Network slicing and millimetre wave are the defining additions of 5G, not 4G, and SIM cards and digital radio arrived with 2G.",
+    "src": "generated"
+  },
+  {
+    "sub": "Windows Server Concepts",
+    "q": "In Windows Server, major services such as Active Directory Domain Services, DNS and Hyper-V are installed as",
+    "opts": {
+      "A": "Roles",
+      "B": "Features",
+      "C": "Snap-ins",
+      "D": "Editions"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "A role is the main service a server provides and is added through Server Manager or PowerShell. A feature is a supporting component such as failover clustering or Windows Server Backup, so calling Hyper-V or AD DS a feature is the standard error.",
+    "src": "generated"
+  },
+  {
+    "sub": "Windows Server Concepts",
+    "q": "Which statement about a Windows workgroup is correct?",
+    "opts": {
+      "A": "All member computers share one account database held on a domain controller",
+      "B": "Each computer keeps its own local accounts, so a user needs an account on every machine",
+      "C": "Group Policy is applied centrally to every workgroup member at logon",
+      "D": "A workgroup requires Active Directory and DNS service records to function"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "In a workgroup every computer holds its own local account database, so there is no central authentication and no central policy; that is workable for a handful of PCs and unmanageable for fifty. A central account store, Group Policy and dependence on DNS service records all belong to a domain, which is why a government office network is always a domain.",
+    "src": "generated"
+  },
+  {
+    "sub": "Group Policy",
+    "q": "What is the correct order in which Group Policy Objects are processed?",
+    "opts": {
+      "A": "Site, Local, Domain, Organisational Unit",
+      "B": "Domain, Site, Organisational Unit, Local",
+      "C": "Local, Site, Domain, Organisational Unit",
+      "D": "Organisational Unit, Domain, Site, Local"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "The order is Local, Site, Domain, Organisational Unit, remembered as LSDOU, and later processing overwrites earlier on a conflict, so the OU-level GPO normally wins. Candidates commonly reverse it and assume local policy is applied last, when in fact it is applied first and is overridden by everything above it.",
+    "src": "generated"
+  },
+  {
+    "sub": "Group Policy",
+    "q": "An administrator wants a password and account-lockout policy to apply to a set of machines regardless of which user logs on. In which half of the Group Policy Object should the setting be placed, and when is it applied?",
+    "opts": {
+      "A": "User Configuration, applied at logon",
+      "B": "User Configuration, applied at startup",
+      "C": "Computer Configuration, applied at logon",
+      "D": "Computer Configuration, applied at startup"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Computer Configuration applies to the machine whoever signs in to it and is processed at startup; User Configuration applies to the account wherever it signs in and is processed at logon. A setting placed in the wrong half does not raise an error, it simply never takes effect.",
+    "src": "generated"
+  },
+  {
+    "sub": "User and Group Management",
+    "q": "What is the recommended way to give an entire department access to a shared folder in an Active Directory domain?",
+    "opts": {
+      "A": "Grant the permission to each user account individually",
+      "B": "Grant the permission to a distribution group containing those users",
+      "C": "Grant the permission to the organisational unit that contains those users",
+      "D": "Grant the permission to a security group and add the users to that group"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "Permissions are assigned to security groups, and access is then granted or removed simply by changing group membership, which stays auditable a year later. A distribution group is a mailing list and can hold no permissions at all, and an organisational unit is a container for applying Group Policy and delegating administration, not something you grant folder rights to.",
+    "src": "generated"
+  },
+  {
+    "sub": "User and Group Management",
+    "q": "An account that exists only in the SAM database of one computer and cannot be used to log on to any other machine is",
+    "opts": {
+      "A": "A domain account",
+      "B": "A local account",
+      "C": "A universal group",
+      "D": "A global catalog account"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "A local account lives in the SAM database of a single computer and works only there, which is why it suits a standalone machine or an emergency administrator login. A domain account lives in Active Directory and works on every domain-joined machine, with one password and one place to disable it when a staff member leaves.",
+    "src": "generated"
+  },
+  {
+    "sub": "File and Printer Sharing",
+    "q": "A user reaches a shared folder across the network. The share permission is Full Control and the NTFS permission on the folder is Read. What is the user's effective permission?",
+    "opts": {
+      "A": "Full Control",
+      "B": "Change",
+      "C": "Read",
+      "D": "No access"
+    },
+    "ans": "C",
+    "conf": "high",
+    "exp": "When both sets are evaluated for network access, the more restrictive result wins, so Full Control on the share combined with Read on NTFS gives Read. Candidates often add the two together or take the more generous one; the rule is the opposite.",
+    "src": "generated"
+  },
+  {
+    "sub": "File and Printer Sharing",
+    "q": "Which statement about share permissions and NTFS permissions is correct?",
+    "opts": {
+      "A": "Share permissions apply only to access arriving over the network, while NTFS permissions apply both locally and over the network",
+      "B": "NTFS permissions apply only over the network, while share permissions also apply to a user sitting at the machine",
+      "C": "Both share and NTFS permissions apply only to access over the network",
+      "D": "Share permissions can be set separately on each file and subfolder inside the share"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "Share permissions govern network access only and are set on the share as a whole, offering just Read, Change and Full Control. NTFS permissions are stored on the file system, are far finer grained, and restrict a user whether they come across the network or log on at the console, which is why only NTFS can control local access.",
+    "src": "generated"
+  },
+  {
+    "sub": "Remote Desktop Services",
+    "q": "Remote Desktop Protocol listens on which TCP port by default?",
+    "opts": {
+      "A": "21",
+      "B": "443",
+      "C": "8080",
+      "D": "3389"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "RDP uses TCP port 3389. Port 443 is associated with RDS only indirectly, because an RD Gateway tunnels RDP inside HTTPS so that 3389 need never be exposed to the internet.",
+    "src": "generated"
+  },
+  {
+    "sub": "Remote Desktop Services",
+    "q": "Which Remote Desktop Services capability publishes a single application so that it appears in its own window on the user's own desktop, instead of presenting a whole remote desktop?",
+    "opts": {
+      "A": "RemoteApp",
+      "B": "RD Gateway",
+      "C": "Connection Broker",
+      "D": "RD Licensing"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "RemoteApp publishes an individual program that runs on the session host but appears in a normal window alongside the user's local applications. RD Gateway tunnels RDP inside HTTPS for external users, the Connection Broker directs users to the right session host and reconnects existing sessions, and RD Licensing issues the client access licences.",
+    "src": "generated"
+  },
+  {
+    "sub": "Cloud Infrastructure",
+    "q": "Under the shared responsibility model, who patches the guest operating system of a virtual machine running in an IaaS cloud?",
+    "opts": {
+      "A": "The cloud provider, as part of maintaining the hypervisor",
+      "B": "The customer, who owns the operating system and the application on it",
+      "C": "The hardware vendor who supplied the provider's servers",
+      "D": "Nobody, because IaaS virtual machines do not require operating system patches"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "In IaaS the provider maintains the facility, hardware and hypervisor, while the customer installs and patches the operating system and application. Only from PaaS upwards does the provider take over OS and platform patching, and in every model the customer still remains responsible for his own data and user access.",
+    "src": "generated"
+  },
+  {
+    "sub": "Cloud Infrastructure",
+    "q": "A department keeps sensitive records on a private cloud dedicated to itself, runs its public website on a shared public cloud, and connects the two so workloads can move between them. This arrangement is called",
+    "opts": {
+      "A": "Public cloud",
+      "B": "Private cloud",
+      "C": "Community cloud",
+      "D": "Hybrid cloud"
+    },
+    "ans": "D",
+    "conf": "high",
+    "exp": "A hybrid cloud joins public and private cloud so that workloads can move between them. A community cloud is different: it is shared by several organisations with a common requirement, such as a group of government departments, rather than combining two deployment models used by one organisation.",
+    "src": "generated"
+  },
+  {
+    "sub": "Virtual Networks",
+    "q": "Two computers are plugged into the same physical switch but have been placed in different VLANs. What is required for them to communicate with each other?",
+    "opts": {
+      "A": "Nothing, because they are on the same switch they communicate directly at layer 2",
+      "B": "A router or a layer 3 switch to route between the two VLANs",
+      "C": "A repeater installed between the two switch ports",
+      "D": "A trunk port configured on the switch"
+    },
+    "ans": "B",
+    "conf": "high",
+    "exp": "A VLAN is layer 2 segmentation, so ports in different VLANs are in separate broadcast domains and cannot reach each other even on the same switch; traffic between them must pass through a router or layer 3 switch. A trunk port is not the answer: it carries several tagged VLANs between switches but performs no routing.",
+    "src": "generated"
+  },
+  {
+    "sub": "Virtual Networks",
+    "q": "In a cloud virtual network, what is a security group?",
+    "opts": {
+      "A": "A stateful set of rules acting as a virtual firewall on a subnet or a network interface",
+      "B": "A group of user accounts permitted to create virtual machines",
+      "C": "A set of virtual machines that share a single public IP address",
+      "D": "A physical firewall appliance installed in the provider's data centre"
+    },
+    "ans": "A",
+    "conf": "high",
+    "exp": "A cloud security group is a stateful rule list attached to a subnet or a virtual machine's network interface, permitting or denying traffic by source, destination, protocol and port. It is not the same thing as an Active Directory security group of user accounts, and it does not replace a firewall appliance since it performs no deep inspection or content filtering.",
+    "src": "generated"
+  }
+]

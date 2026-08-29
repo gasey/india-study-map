@@ -1,0 +1,45 @@
+{
+  "paper": "TECH2",
+  "unit": "II",
+  "unitTitle": "Database Management System",
+  "derived": false,
+  "brief": "tools/system-manager-build/CONCEPT_BRIEF.md",
+  "targets": [
+    {
+      "paper": "TECH2",
+      "unit": "II",
+      "unitTitle": "Database Management System",
+      "sub": "Authorization"
+    },
+    {
+      "paper": "TECH2",
+      "unit": "II",
+      "unitTitle": "Database Management System",
+      "sub": "Encryption"
+    },
+    {
+      "paper": "TECH2",
+      "unit": "II",
+      "unitTitle": "Database Management System",
+      "sub": "Auditing"
+    },
+    {
+      "paper": "TECH2",
+      "unit": "II",
+      "unitTitle": "Database Management System",
+      "sub": "Microsoft SQL Server (Concept)"
+    },
+    {
+      "paper": "TECH2",
+      "unit": "II",
+      "unitTitle": "Database Management System",
+      "sub": "PostgreSQL (Concept)"
+    },
+    {
+      "paper": "TECH2",
+      "unit": "II",
+      "unitTitle": "Database Management System",
+      "sub": "NoSQL Databases (Introduction)"
+    }
+  ]
+}

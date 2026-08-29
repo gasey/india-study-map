@@ -1,0 +1,352 @@
+SYSTEM MANAGER TAGGING TAXONOMY
+
+Tag every question to exactly one (paper, unit, sub) triple below.
+`sub` MUST be copied VERBATIM — it is matched by string equality against
+the concept guide, so a paraphrase links to nothing. Section headings in
+[brackets] are context only; never use one as `sub`.
+
+259 leaf subtopics across 3 papers.
+
+=== PAPER GE — General English (100 marks) ===
+  NOTE: the official syllabus enumerates NO subtopics for General
+  English. Tag GE questions to the unit only; leave `sub` null.
+
+  UNIT 1 — Precis Writing (10 marks)
+    (no leaf subtopics in the official syllabus)
+
+  UNIT 2 — Letter Writing (15 marks)
+    (no leaf subtopics in the official syllabus)
+
+  UNIT 3 — Comprehension of given passages (15 marks)
+    (no leaf subtopics in the official syllabus)
+
+  UNIT 4 — Grammar: Parts of Speech (20 marks)
+    (no leaf subtopics in the official syllabus)
+
+  UNIT 5 — Correct Usage and Vocabularies (20 marks)
+    (no leaf subtopics in the official syllabus)
+
+  UNIT 6 — Formation of Sentence (20 marks)
+    (no leaf subtopics in the official syllabus)
+
+=== PAPER TECH1 — Technical Paper I (150 marks) ===
+
+  UNIT I — Fundamentals of Computer (60 marks)
+    [1] Introduction to Computing
+        - Evolution and Generations of Computers
+        - Characteristics and Applications of Computers
+        - Classification of Computers
+        - Digital Transformation and e-Governance
+        - Emerging Technologies: Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Big Data, Cloud Computing and Edge Computing
+        - Green Computing and Sustainable IT
+    [2] Computer Architecture
+        - Functional Components of a Computer
+        - CPU Architecture and Instruction Cycle
+        - Motherboard and Chipset
+        - System Bus and Expansion Slots
+        - BIOS/UEFI Firmware
+    [3] Processor and Memory
+        - Multi-core and Multi-threaded Processors
+        - Cache Memory
+        - RAM, ROM and Virtual Memory
+        - Memory Hierarchy
+        - Performance Measurement
+    [4] Storage Technologies
+        - HDD, SSD and NVMe Storage
+        - Optical and Flash Storage
+        - Network Attached Storage (NAS)
+        - Storage Area Network (SAN)
+        - Backup Concepts
+        - Disaster Recovery Concepts
+    [5] Input and Output Devices
+        - Modern Input Devices
+        - Biometric Devices
+        - Smart Card Readers
+        - Scanners
+        - Display Technologies
+        - Printers and Multifunction Devices
+        - Interactive Displays
+    [6] Computer Software
+        - System Software
+        - Application Software
+        - Open Source and Proprietary Software
+        - Software Licensing
+        - Software Development Life Cycle (SDLC)
+        - Virtualization and Containerization (Concept)
+    [7] Programming Fundamentals
+        - Programming Languages
+        - Object-Oriented Programming Concepts
+        - Scripting Languages
+        - APIs and Software Integration (Concept)
+    [8] Information Technology and Society
+        - Digital India and e-Governance
+        - Electronic Records management
+        - Data Privacy and Personal Data Protection
+        - Cyber Ethics
+        - AI Ethics
+        - Digital Inclusion and Accessibility
+
+  UNIT II — Operating Systems (25 marks)
+    [1] Operating System Fundamentals
+        - Types and Functions of Operating Systems
+        - Process Management
+        - Memory Management
+        - File Systems
+    [2] Microsoft Windows
+        - Windows Operating Systems
+        - User Accounts
+        - Windows Security
+        - Windows Terminal
+        - Registry
+        - Windows Utilities
+    [3] Linux Fundamentals
+        - Linux Architecture
+        - Linux File System
+        - Basic Linux Commands
+        - Open-source Ecosystem
+    [4] File and Storage Management
+        - Files and Folders
+        - Compression
+        - Encryption
+        - Backup and Restore
+        - File Recovery
+    [5] System Administration
+        - Device Manager
+        - Disk Management
+        - Task Manager
+        - Resource Monitor
+        - Event Viewer
+        - Services
+        - Performance Monitoring
+    [6] Command Line
+        - Command Prompt
+        - PowerShell Fundamentals
+        - Basic Batch Files
+
+  UNIT III — Word Processing (20 marks)
+    [1] Microsoft Word
+        - Document Creation
+        - Templates
+        - Styles and Themes
+        - Page Layout
+        - Tables
+        - SmartArt
+        - Graphics
+        - References
+        - Table of Contents
+        - Citations and Bibliography
+        - Review Tools
+        - Track Changes
+        - Mail Merge
+        - Accessibility Features
+        - Microsoft 365 Collaboration
+        - Integration of e-Office
+        - AI-assisted Document Creation (Microsoft Copilot - Concept)
+
+  UNIT IV — Electronic Spreadsheet (25 marks)
+    [1] Microsoft Excel
+        - Workbook Management
+        - Formulae and Functions
+        - Lookup Functions
+        - Statistical Functions
+        - Financial Functions
+        - Data Validation
+        - Sorting and Filtering
+        - Conditional Formatting
+        - Pivot Tables
+        - Pivot Charts
+        - Dashboards
+        - What-if Analysis
+        - Goal Seek
+        - Power Query (Introduction)
+        - Power Pivot (Overview)
+        - Macros (Introduction)
+        - Microsoft 365 Collaboration
+        - AI-assisted Spreadsheet Analysis
+
+  UNIT V — Presentation Software (20 marks)
+    [1] Microsoft PowerPoint
+        - Presentation Design
+        - Templates and Themes
+        - Slide Master
+        - SmartArt
+        - Charts
+        - Multimedia
+        - Animation
+        - Morph Transition
+        - Presenter View
+        - Recording Presentations
+        - Presentation Delivery
+        - Collaboration Features
+        - Accessibility Features
+        - AI-assisted Presentation Design (Microsoft Copilot - Concept)
+
+=== PAPER TECH2 — Technical Paper II (150 marks) ===
+
+  UNIT I — Computer Networking (35 marks)
+    [1] Network Fundamentals
+        - Types of Networks
+        - OSI Model
+        - TCP/IP Model
+        - IPv4 and IPv6
+        - IP Addressing
+        - Subnetting
+        - Routing and Switching
+    [2] Network Devices
+        - Hubs
+        - Switches
+        - Routers
+        - Gateways
+        - Firewalls
+        - Wireless Access Points
+    [3] Network Services
+        - DNS
+        - DHCP
+        - VPN
+        - NAT
+        - Proxy Servers
+    [4] Wireless Networking
+        - Wi-Fi Standards
+        - Wireless Security
+        - Mobile Networks
+    [5] Windows Server Administration
+        - Windows Server Concepts
+        - Active Directory
+        - Group Policy
+        - User and Group Management
+        - File and Printer Sharing
+        - Remote Desktop Services
+    [6] Cloud Networking
+        - Cloud Infrastructure
+        - Virtual Networks
+        - Microsoft Azure Fundamentals (Concept)
+        - Network Monitoring
+        - Network Troubleshooting
+
+  UNIT II — Database Management System (35 marks)
+    [1] Database Fundamentals
+        - Database Concepts
+        - Database Architecture
+        - Data Models
+        - ER Modelling
+        - Relational Database Management System
+    [2] SQL
+        - Data Definition Language (DDL)
+        - Data Manipulation Language (DML)
+        - Data Control Language (DCL)
+        - Transaction Control Language (TCL)
+    [3] Database Administration
+        - Tables
+        - Views
+        - Indexes
+        - Stored Procedures (Concept)
+        - Triggers (Concept)
+        - Transactions
+        - Concurrency Control
+        - Backup and Recovery
+    [4] Database Security
+        - Authentication
+        - Authorization
+        - Encryption
+        - Auditing
+    [5] Modern Databases
+        - Microsoft SQL Server (Concept)
+        - PostgreSQL (Concept)
+        - NoSQL Databases (Introduction)
+
+  UNIT III — Web Technologies (25 marks)
+    [1] Internet Technologies
+        - Internet Architecture
+        - World Wide Web
+        - Domain Name System
+        - Web Hosting
+    [2] HTML5
+        - Document Structure
+        - Text Formatting
+        - Hyperlinks
+        - Lists
+        - Tables
+        - Images
+        - Multimedia
+        - Forms
+    [3] CSS3
+        - Styling
+        - Layouts
+        - Responsive Design
+    [4] JavaScript
+        - Variables
+        - Functions
+        - Events
+        - DOM Manipulation
+        - Client-side Validation
+    [5] Modern Web Concepts
+        - REST APIs (Concept)
+        - JSON
+        - Progressive Web Applications (Introduction)
+        - Web Accessibility
+        - Search Engine Optimization (Basic)
+        - Web Security Fundamentals
+
+  UNIT IV — Cyber Security, Artificial Intelligence and Emerging Technologies (30 marks)
+    [A] Cyber Security
+        - Information Security Principles
+        - Cyber Threats and Malware
+        - Firewalls
+        - Antivirus and Endpoint Protection
+        - Multi-factor Authentication (MFA)
+        - Encryption
+        - Digital Certificates
+        - Public Key Infrastructure (PKI)
+        - Vulnerability Assessment
+        - Patch Management
+        - Incident Response
+        - Cyber Hygiene
+    [B] Artificial Intelligence
+        - Fundamentals of Artificial Intelligence
+        - Machine Learning
+        - Deep Learning
+        - Natural Language Processing
+        - Computer Vision
+        - Generative AI
+        - Large Language Models (LLMs)
+        - Prompt Engineering
+        - AI Ethics and Responsible AI
+        - AI Applications in Government
+        - AI-assisted System Administration
+        - AI-assisted Data Analysis
+    [C] Digital Governance Systems (Emerging Technologies)
+        - NIC eOffice
+        - e-Office Concept and Digital Office Environment
+        - Knowledge Management System (KMS)
+        - e-Office Security
+        - Digital Signature Certificate (DSC)
+        - Workflow Configuration
+        - Metadata Management
+        - Record Retention and Archival
+        - Office Procedure in Digital Environment
+
+  UNIT V — IT Governance, Business Communication and Aptitude (25 marks)
+    [A] IT Governance
+        - IT Service Management (ITSM)
+        - ITIL Fundamentals
+        - IT Asset Management
+        - Software Asset Management
+        - Business Continuity Planning
+        - Disaster Recovery Planning
+        - IT Procurement
+        - Documentation Standards
+        - Project Management Fundamentals
+    [B] Business Communication
+        - Official Correspondence
+        - Technical Report Writing
+        - Email Etiquette
+        - Presentation Skills
+        - Meeting Documentation
+    [C] Aptitude and Analytical Ability
+        - Numerical Ability
+        - Logical Reasoning
+        - Analytical Reasoning
+        - Data Interpretation
+        - Digital Reasoning
+        - Interpretation of AI-generated Outputs
+        - Cyber Safety Awareness

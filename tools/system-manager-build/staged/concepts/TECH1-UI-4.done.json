@@ -1,0 +1,244 @@
+[
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "Printers and Multifunction Devices",
+    "def": "Output devices that produce a permanent hard copy of data on paper. They divide first into impact printers, which strike an inked ribbon against the paper, and non-impact printers, which deposit ink or toner without striking it. A multifunction device (MFD or MFP) combines printing, scanning, copying and often faxing in one networked machine.",
+    "exp": "The impact family is now effectively just the dot matrix printer, which forms characters from a matrix of pins driven against a ribbon. It is noisy and low quality, but it is the only common printer that can print through multi-part carbon stationery in a single pass, which is why it survives at railway counters, treasury offices and billing windows.\n\nNon-impact printers dominate everywhere else. A laser printer is a page printer: the laser writes an electrostatic image on a photosensitive drum, the drum picks up powdered toner, the toner is transferred to the paper, and a fuser bonds it with heat and pressure. An inkjet sprays liquid ink through fine nozzles; it is cheaper to buy and better at photographs but costlier per page. Thermal printers use heat-sensitive paper and are standard for POS bills and ATM slips.\n\nResolution is measured in dots per inch and speed in pages per minute. The computer reaches the printer through a driver and a print spooler, which queues jobs so the CPU is not held up waiting; page description languages such as PCL and PostScript describe the page to the device. Office MFDs add an automatic document feeder, duplex printing, scan-to-email and per-user codes, and are commonly taken on cost-per-copy contracts by government offices rather than bought outright.",
+    "facts": [
+      "Dot matrix is an impact printer; inkjet, laser and thermal are non-impact",
+      "Only impact printers can produce carbon copies on multi-part stationery in one pass",
+      "A laser printer's fuser bonds the toner to the paper using heat and pressure",
+      "Print quality is measured in dots per inch (dpi); print speed in pages per minute (ppm)",
+      "A print spooler queues print jobs so the CPU is not tied up waiting for the printer",
+      "An MFD/MFP combines printer, scanner, copier and often fax in one networked unit"
+    ],
+    "traps": [
+      "Laser is a page printer, printing a whole page at a time, while dot matrix and inkjet build the output character or line at a time",
+      "Toner is dry powder used by laser printers; ink is liquid and used by inkjets - options routinely swap the two",
+      "dpi measures quality and ppm measures speed; a question giving dpi is not giving you a throughput figure",
+      "A plotter is not a kind of printer for text - it draws continuous lines for maps and engineering drawings"
+    ],
+    "mnem": "",
+    "rel": [
+      "Interactive Displays",
+      "Scanners"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "Interactive Displays",
+    "def": "Display devices that also act as input devices: the user touches, writes on or gestures at the screen and the system responds. The category covers touchscreen monitors, interactive whiteboards driven by a projector, and interactive flat panel displays - self-contained large touch screens used in classrooms, conference rooms and control centres.",
+    "exp": "Touch is sensed in one of a few ways. A resistive screen has two conductive layers separated by a thin gap; pressure from any object, including a gloved finger or a plastic stylus, pushes them together at one point. A capacitive screen senses a change in an electrostatic field, so it needs a conductive touch - bare skin or a capacitive stylus - but gives better clarity and easy multi-touch, which is why phones and tablets use it. Large panels usually use infrared: a grid of beams across the bezel that any opaque object interrupts, because infrared scales cheaply to big sizes and accepts any pointer.\n\nAn interactive whiteboard needs a separate projector and computer and washes out in a bright room. An interactive flat panel puts the display, touch layer, speakers and often a slot-in PC module in one unit, and is now the default purchase for smart classrooms. Typical connections are HDMI or DisplayPort for video plus a USB cable carrying touch data back to the computer, alongside wireless screen casting.\n\nIn state government work these turn up in smart classrooms, e-office meeting rooms, video-conferencing suites and public information kiosks, where the annotation, whiteboarding and screen-recording software bundled with the panel matters as much as the hardware.",
+    "facts": [
+      "A touchscreen is simultaneously an input and an output device",
+      "Resistive touch responds to pressure from any object; capacitive touch requires a conductive object such as a bare finger",
+      "Capacitive screens give better clarity and native multi-touch; resistive screens are cheaper and effectively single-touch",
+      "Large interactive panels commonly sense touch with an infrared beam grid across the bezel",
+      "An interactive flat panel display is self-contained; an interactive whiteboard depends on an external projector"
+    ],
+    "traps": [
+      "Capacitive vs resistive - a gloved finger works on resistive and fails on ordinary capacitive; that one difference is the usual MCQ",
+      "Interactive whiteboard and interactive flat panel are not synonyms: the whiteboard is a projection surface, the panel is a display",
+      "In a list of input devices, the touchscreen belongs there even though it is physically a monitor",
+      "Multi-touch is a property of the sensing technology, not something the operating system alone provides"
+    ],
+    "mnem": "",
+    "rel": [
+      "Display Technologies",
+      "Printers and Multifunction Devices"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "System Software",
+    "def": "Software that manages and controls the computer's hardware and provides the platform on which application software runs. The standard classification has four families: the operating system, device drivers, utility programs, and language translators such as compilers, assemblers and interpreters. Firmware like the BIOS or UEFI is also system software.",
+    "exp": "System software is written for the machine rather than for a task the user has in mind. Most of it starts at boot and keeps running whether or not anyone is working: the operating system schedules processes and manages memory, files and devices; a device driver translates generic operating system requests into the specific commands one class of hardware understands; utilities such as disk defragmenters, backup tools, file compressors, disk cleanup and antivirus maintain the machine itself.\n\nLanguage translators belong here because they serve the machine, not the user's business problem. A compiler, an assembler, an interpreter, and the linker and loader that follow them are all system software. This is the single most repeated trap in the unit: candidates see that a programmer runs the compiler and answer application software.\n\nThe boundaries are worth knowing. Firmware sits in ROM or flash on the board itself, not on secondary storage, and is still software. A DBMS is classified differently by different textbooks - system software because it manages a shared resource on behalf of other programs, or application software because a user works in it - so read the rest of the options before choosing. Utility software is sometimes listed as a third category alongside system and application software; in the four-family scheme above it sits inside system software.",
+    "facts": [
+      "The four standard categories of system software are operating system, device drivers, utility programs and language translators",
+      "A compiler, assembler and interpreter are system software, not application software",
+      "A device driver converts operating system calls into hardware-specific instructions for one class of device",
+      "Firmware such as BIOS/UEFI is stored in ROM or flash memory on the board, not on the hard disk",
+      "A linker joins object modules into one executable; a loader places that executable in main memory to run"
+    ],
+    "traps": [
+      "Compiler and interpreter are system software - the commonest wrong answer in this unit is 'application software'",
+      "Antivirus, defragmenters and backup tools are utilities and therefore system software, even though the user launches them like apps",
+      "The operating system is system software, but not all system software is part of the operating system - drivers and translators are separate",
+      "Firmware is software stored on a chip; it is not hardware, and it is not part of the applications on disk"
+    ],
+    "mnem": "System software = OS + Drivers + Utilities + Translators",
+    "rel": [
+      "Application Software",
+      "Programming Languages"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "Application Software",
+    "def": "Software written to do a job the user cares about rather than to run the machine: word processors, spreadsheets, browsers, accounting packages, media players, a department's payroll system. It sits on top of the operating system and reaches the hardware only by asking the operating system for services.",
+    "exp": "The usual split is general-purpose or packaged software, sold ready-made to anybody - a word processor, spreadsheet, presentation tool, browser - versus customised or tailor-made software, built or configured for one organisation, such as a treasury's bill-processing system or a district land-records application. An application suite bundles several packages that share a common interface and exchange data easily, as Microsoft Office and LibreOffice do.\n\nA second split appears often in question papers: horizontal versus vertical application software. Horizontal software is useful in every sector - a spreadsheet serves a hospital and a tax office equally. Vertical software targets one sector: hospital management, library automation, a public distribution system.\n\nIn state government work most of what a System Manager supports is customised application software - e-office file movement, treasury and payroll, service-delivery portals - and it is increasingly delivered as a web application served centrally rather than installed on each desk. That shifts the support job away from per-machine installation towards browsers, network reachability, user accounts and access rights, while the licensing and version questions move to the server side.",
+    "facts": [
+      "Application software cannot address hardware directly; it requests services from the operating system",
+      "General-purpose (packaged) software is ready-made for anyone; customised (tailor-made) software is built for one organisation",
+      "Horizontal application software serves all sectors; vertical application software serves one sector",
+      "An application suite is a set of applications sharing a common interface and data exchange, such as LibreOffice",
+      "Word processors, spreadsheets, browsers and DTP packages are the standard examples of general-purpose application software"
+    ],
+    "traps": [
+      "A compiler is used by programmers but is system software, not application software",
+      "Antivirus and disk cleanup tools are utilities, hence system software, though they look and launch like applications",
+      "Packaged software is not the same as free software - 'package' only means ready-made, and it may be expensive",
+      "A web browser is application software, but the network protocol stack it relies on is part of the operating system"
+    ],
+    "mnem": "",
+    "rel": [
+      "System Software",
+      "Open Source and Proprietary Software",
+      "APIs and Software Integration (Concept)"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "Open Source and Proprietary Software",
+    "def": "Open source software is distributed with its source code under a licence that lets anyone run, study, modify and redistribute it. Proprietary or closed source software keeps the source code secret and grants only a limited right to use the compiled program under an end user licence agreement. The difference is about source code and rights, not about price.",
+    "exp": "The Free Software Foundation defines free software by four freedoms: to run the program for any purpose, to study and change it (which requires access to the source), to redistribute copies, and to distribute modified versions. Free here means freedom, not zero cost - you may lawfully charge money for copies of GPL-licensed software. The Open Source Initiative certifies licences against a similar definition with a more practical, development-methodology emphasis. For exam purposes FOSS covers both.\n\nFour terms get confused. Freeware costs nothing but is closed source - vendor document readers and drivers are typical. Shareware is proprietary software supplied on trial, limited by time or features until you pay. Public domain software carries no copyright at all, so anyone may do anything with it, including taking it proprietary. FOSS is copyrighted, and the licence is what grants the freedoms. Common FOSS: GNU/Linux, LibreOffice, Apache HTTP Server, PostgreSQL, Firefox, GIMP. Common proprietary: Windows, Microsoft Office, Oracle Database, Photoshop.\n\nFor a government post, note that the Government of India's policy on adoption of open source software for e-governance directs departments to prefer open source in new e-governance systems and to record reasons where closed source is chosen. C-DAC's BOSS is an Indian GNU/Linux distribution built for that purpose.",
+    "facts": [
+      "Open source requires availability of source code; the four freedoms are to run, study, modify and redistribute",
+      "Freeware is free of cost but closed source; shareware is a time-limited or feature-limited trial of proprietary software",
+      "Public domain software has no copyright holder and imposes no licence conditions",
+      "Open source software may lawfully be sold - open source does not mean free of charge",
+      "Government of India policy directs a preference for open source software in new e-governance applications",
+      "BOSS is a GNU/Linux distribution developed in India by C-DAC"
+    ],
+    "traps": [
+      "'Free' in free software means freedom, not price - the classic distractor is 'free means it costs nothing'",
+      "Freeware is not open source: you get the binary at no cost but no source and no right to modify",
+      "Public domain is not the same as open source - public domain has no licence, so anyone may close it again",
+      "Shareware is proprietary throughout; paying converts the trial into a full licence, it does not release the source"
+    ],
+    "mnem": "Free as in freedom, not free as in beer.",
+    "rel": [
+      "Software Licensing",
+      "Application Software"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "Software Licensing",
+    "def": "A software licence is the permission a copyright holder grants for using, copying, modifying or redistributing a program, together with the conditions attached. Buying software normally buys a licence, not ownership of the software. Indian copyright law protects a computer programme as a literary work, so copying outside the licence is infringement.",
+    "exp": "Open source licences fall into two families. Copyleft licences, of which the GNU General Public Licence is the model, permit modification and redistribution but require derivative works to be released under the same licence with source available - hence the description of GPL as viral. The LGPL relaxes this so that proprietary software may link to a library, and the AGPL extends the obligation to software offered to users over a network. Permissive licences - MIT, BSD, Apache - let the code be used inside closed-source products provided copyright notices are kept; Apache additionally grants an express patent licence.\n\nProprietary licensing runs through an EULA accepted at installation. The common forms are: OEM licences tied to the machine they shipped with and not transferable; retail licences that can be moved to another machine; per-user and per-device licences; concurrent or floating licences capping simultaneous users; client access licences for server products; volume licensing, where one agreement and key cover many installations, which is the normal route for a government department; and subscription or SaaS licensing, where the right to use ends when payment stops, as against a perpetual licence which does not expire. Matching installed copies to entitlements, and being able to survive a licence audit, is routine System Manager work.",
+    "facts": [
+      "GPL is a copyleft licence: derivative works must be distributed under the same terms with source code",
+      "MIT, BSD and Apache are permissive licences and allow inclusion in closed-source products",
+      "An EULA is the contract governing proprietary use; accepting it grants a right to use, not ownership",
+      "An OEM licence is tied to the hardware it was supplied with and cannot be transferred to another machine",
+      "Volume licensing covers many installations in an organisation under a single agreement rather than one key per box",
+      "A subscription licence lapses when payment stops; a perpetual licence continues to permit use"
+    ],
+    "traps": [
+      "GPL vs MIT - both are open source, but only GPL forces derivative works to stay open",
+      "Buying software buys a licence to use it; the copyright remains with the vendor",
+      "Creative Commons licences are meant for content and documentation, not as standard source code licences",
+      "Freeware carries a licence too - free of cost does not mean unrestricted, and redistribution is often forbidden"
+    ],
+    "mnem": "Copyleft keeps it open; permissive lets it close.",
+    "rel": [
+      "Open Source and Proprietary Software",
+      "Application Software"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "Software Development Life Cycle (SDLC)",
+    "def": "The Software Development Life Cycle is the structured sequence of phases a software product passes through from the first statement of need to its retirement: requirement analysis, design, coding, testing, deployment and maintenance. A process model - Waterfall, Prototyping, Spiral, Agile - is a particular way of ordering and repeating those phases, not an alternative to them.",
+    "exp": "The classic phase list runs: feasibility study (technical, economic, operational, legal, schedule); requirement analysis, whose output is the SRS; design, split into high-level design of architecture and modules and detailed low-level design; coding; testing at unit, integration, system and acceptance levels; deployment; and maintenance, normally the longest and costliest phase of the product's life. A defect costs more to fix the later it is caught.\n\nWaterfall is linear and sequential: each phase is completed and signed off before the next begins, requirements are frozen early, and documentation carries the project. It suits stable, well-understood requirements, which is why government tenders are written around it, and it fails badly when requirements change. The V-model is Waterfall bent into a V, pairing every development phase with the test level that validates it. Iterative and incremental development repeats the cycle, delivering a usable part of the system each pass. The Spiral model, from Barry Boehm, is iterative with explicit risk analysis in each loop. Agile works in short timeboxed iterations, prefers working software to documentation, keeps the customer involved throughout and welcomes changing requirements; Scrum, XP and Kanban are Agile methods.\n\nPrototyping needs care. A throwaway prototype exists only to draw requirements out of the user and is then discarded, the real system being built afresh. An evolutionary prototype is refined repeatedly until it becomes the delivered product.",
+    "facts": [
+      "Phase order: requirement analysis, design, coding, testing, deployment, maintenance",
+      "Maintenance is normally the longest and costliest phase of the life cycle",
+      "The SRS (software requirement specification) is the output of the requirement analysis phase",
+      "Feasibility is assessed on technical, economic, operational, legal and schedule grounds",
+      "The Spiral model is risk-driven and is credited to Barry Boehm",
+      "The V-model pairs each development phase with a matching level of testing"
+    ],
+    "traps": [
+      "Throwaway vs evolutionary prototype - the throwaway one is discarded once requirements are captured, the evolutionary one is refined into the final product",
+      "Waterfall vs V-model - the V-model is still sequential; it only plans the testing alongside development",
+      "Agile does not mean no documentation and no design; it means less documentation and design done continuously rather than once up front",
+      "SDLC is the set of phases; Waterfall and Agile are models for traversing them, so 'SDLC or Agile' is a false choice"
+    ],
+    "mnem": "",
+    "rel": [
+      "Programming Languages",
+      "Object-Oriented Programming Concepts"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "Virtualization and Containerization (Concept)",
+    "def": "Virtualization creates software abstractions of a physical resource so several logical machines share one physical machine. A virtual machine is a complete simulated computer running its own guest operating system on top of a hypervisor. Containerization virtualises at the operating system level: a container packages an application with its libraries but shares the host's kernel.",
+    "exp": "The hypervisor, or virtual machine monitor, allocates CPU, memory, disk and network to each virtual machine and keeps them apart. A Type 1 or bare-metal hypervisor runs directly on the hardware with no host operating system beneath it - VMware ESXi, Microsoft Hyper-V, Xen, KVM - and is what data centres run. A Type 2 or hosted hypervisor runs as an application on a desktop operating system - VirtualBox, VMware Workstation - and is slower, since every request passes through the host.\n\nThe examinable contrast: a virtual machine carries a full guest operating system, so it is large in gigabytes, boots like a physical machine, and is strongly isolated - a compromise in one guest does not reach another. A container carries only the application and its dependencies and calls the shared host kernel, so it is measured in megabytes, starts in seconds, and packs far more densely on the same hardware, but isolation is weaker because a kernel-level compromise affects every container on that host. A container also cannot run an operating system needing a different kernel from the host's. Docker is the common container runtime and image format; Kubernetes orchestrates containers across many hosts.\n\nThe payoff is server consolidation, snapshots, live migration and fast provisioning - the basis of State Data Centres and of MeghRaj, the Government of India's GI Cloud initiative. Storage, networks and desktops (VDI) are virtualised on the same principle.",
+    "facts": [
+      "A virtual machine runs its own guest operating system; a container shares the host operating system's kernel",
+      "Type 1 hypervisors run directly on bare metal; Type 2 hypervisors run as an application on a host operating system",
+      "VMware ESXi, Hyper-V, Xen and KVM are Type 1; VirtualBox and VMware Workstation are Type 2",
+      "Containers are sized in megabytes and start in seconds; virtual machines are sized in gigabytes and boot like a physical computer",
+      "Docker is a container platform; Kubernetes is a container orchestration platform",
+      "MeghRaj is the Government of India's GI Cloud initiative, built on virtualised infrastructure"
+    ],
+    "traps": [
+      "Docker is not a hypervisor and does not create virtual machines - it creates containers sharing the host kernel",
+      "Containers are lighter but less isolated than virtual machines; do not answer that containers are more secure",
+      "Type 1 vs Type 2 - the defining difference is the absence of a host operating system in Type 1, not raw performance",
+      "Emulation is not virtualization: an emulator reproduces a different hardware architecture in software and is far slower"
+    ],
+    "mnem": "VM virtualises the hardware; a container virtualises the OS.",
+    "rel": [
+      "System Software",
+      "Application Software"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "unitTitle": "Fundamentals of Computer",
+    "sub": "Programming Languages",
+    "def": "A programming language is a notation for writing instructions that a computer can be made to execute. Languages are graded by level - machine, assembly, high-level - and by generation, 1GL to 5GL. Since only machine code executes directly on the processor, every other language needs a translator: an assembler, a compiler or an interpreter.",
+    "exp": "First generation is machine language: binary opcodes executed directly by the CPU, fastest to run but machine-dependent and unreadable. Second generation is assembly language, which replaces binary with mnemonics such as ADD and MOV and needs an assembler to convert it; it is still tied to one processor family. Third generation languages - C, C++, Java, Python - are English-like, machine independent and portable through their translators, and are what a question means by high-level language. Fourth generation languages are non-procedural: you state what you want rather than how to get it, as SQL and report generators do. Fifth generation languages are associated with logic programming and AI, Prolog being the standard example.\n\nA compiler translates the whole source program at once into object code, reports all errors together, and leaves an executable that runs quickly thereafter. An interpreter translates and executes one statement at a time, halts at the first error, produces no separate object file, and runs more slowly but is easier to debug. Java is deliberately both: javac compiles source to bytecode, and the JVM then executes that bytecode, so one compiled file runs on any machine with a JVM. Modern interpreted languages often add just-in-time compilation, so the old compiled-versus-interpreted line is blurrier in practice than in a question paper.",
+    "facts": [
+      "Only machine language executes directly on the CPU; every other language must be translated",
+      "An assembler translates assembly language mnemonics into machine code",
+      "A compiler translates the entire program and lists all errors together; an interpreter works statement by statement and stops at the first error",
+      "SQL is a fourth generation, non-procedural language; Prolog is the usual fifth generation example",
+      "Java source is compiled to bytecode and the bytecode is executed by the JVM, so Java is both compiled and interpreted",
+      "Compilers, interpreters and assemblers are all classed as system software"
+    ],
+    "traps": [
+      "Assembly language is not machine language - it uses mnemonics and requires an assembler to run",
+      "A compiler leaves a separate object or executable file; an interpreter does not, which is why an interpreted program needs the interpreter present every time it runs",
+      "High-level does not automatically mean slow - it means further from the hardware and portable across machines",
+      "Classifying a compiler as application software is the standard trap; a translator is system software"
+    ],
+    "mnem": "",
+    "rel": [
+      "System Software",
+      "Object-Oriented Programming Concepts",
+      "Scripting Languages"
+    ]
+  }
+]

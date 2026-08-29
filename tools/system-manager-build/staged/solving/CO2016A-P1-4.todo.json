@@ -1,0 +1,232 @@
+{
+  "srcKey": "CO2016A-P1",
+  "brief": "tools/bank-rebuild/SOLVE_BRIEF.md",
+  "instructions": "Answer each question independently. Write a JSON object keyed by question id: {\"<id>\": {\"ans\": \"A\"|\"B\"|\"C\"|\"D\", \"conf\": \"high\"|\"medium\"|\"low\", \"exp\": \"1-3 sentences\"}} to this filename with .todo.json replaced by .solved.json. No official answer key exists for these papers - your answer becomes the app's answer. Do not inflate confidence.",
+  "questions": [
+    {
+      "id": "CO2016A-P1-61",
+      "srcKey": "CO2016A-P1",
+      "no": 61,
+      "paper": "TECH1",
+      "q": "Comments put in cells are called",
+      "opts": {
+        "A": "Smart tip",
+        "B": "Cell tip",
+        "C": "Web tip",
+        "D": "Soft tip"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016A-P1-62",
+      "srcKey": "CO2016A-P1",
+      "no": 62,
+      "paper": "TECH1",
+      "q": "To create a formula, you first:",
+      "opts": {
+        "A": "Select all the cells you want to place the formula into",
+        "B": "Type the equals sign (=) to tell Excel that you're about to enter a formula in a cell",
+        "C": "Enter the formula using any input values and the appropriate mathematical operators that make up your formula",
+        "D": "Choose the new command from the file menu"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016A-P1-63",
+      "srcKey": "CO2016A-P1",
+      "no": 63,
+      "paper": "TECH1",
+      "q": "Which area in an Excel window allows entering values and formula?",
+      "opts": {
+        "A": "Title bar",
+        "B": "Menu bar",
+        "C": "Formula bar",
+        "D": "Standard toolbar"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016A-P1-64",
+      "srcKey": "CO2016A-P1",
+      "no": 64,
+      "paper": "TECH1",
+      "q": "What is the correct formula to round sum of data from cell D4 to D17 without decimal point?",
+      "opts": {
+        "A": "=round(sum(D4:D17),0)",
+        "B": "= sum(round(D4:D17))",
+        "C": "=round(sum(D4:D17))",
+        "D": "= sum(round(D4:D17),0)"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016A-P1-65",
+      "srcKey": "CO2016A-P1",
+      "no": 65,
+      "paper": "TECH1",
+      "q": "The numbers in our worksheet look like 1000, You want them to look like $1,000.00. How can you accomplish this?",
+      "opts": {
+        "A": "Select Money>US Dollar",
+        "B": "Select Format > Money from the menu",
+        "C": "Click the Currency Style button on the formatting toolbar",
+        "D": "You have to retype everything and manually add the dollar signs, commas, and decimals."
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016A-P1-66",
+      "srcKey": "CO2016A-P1",
+      "no": 66,
+      "paper": "TECH1",
+      "q": "Which of the following is an absolute cell reference?",
+      "opts": {
+        "A": "!A!1",
+        "B": "$A$1",
+        "C": "#a#1",
+        "D": "A1"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016A-P1-67",
+      "srcKey": "CO2016A-P1",
+      "no": 67,
+      "paper": "TECH1",
+      "q": "If a variable is to be created in Excel, the variable and value must be in",
+      "opts": {
+        "A": "same cell",
+        "B": "same row next to each other",
+        "C": "same column next to each other",
+        "D": "same row or same column next to each other"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016A-P1-68",
+      "srcKey": "CO2016A-P1",
+      "no": 68,
+      "paper": "TECH1",
+      "q": "What are the three tools in what-if analysis in Excel?",
+      "opts": {
+        "A": "Scenarios, Data tables and Goal seek",
+        "B": "Scenarios, Data tables and Target",
+        "C": "Scenarios, Data Set and Prediction",
+        "D": "Scenario, Prediction and Future Value"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016A-P1-69",
+      "srcKey": "CO2016A-P1",
+      "no": 69,
+      "paper": "TECH1",
+      "q": "What lets you to create new presentation by selecting ready-made font color and graphics effects?",
+      "opts": {
+        "A": "Presentation Template",
+        "B": "Master Slide",
+        "C": "Design Template",
+        "D": "Animation Scheme"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016A-P1-70",
+      "srcKey": "CO2016A-P1",
+      "no": 70,
+      "paper": "TECH1",
+      "q": "What PowerPoint feature will you use to apply motion effects to different objects of a slide?",
+      "opts": {
+        "A": "Slide Transition",
+        "B": "Slide Design",
+        "C": "Animation Objects",
+        "D": "Animation Scheme"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016A-P1-71",
+      "srcKey": "CO2016A-P1",
+      "no": 71,
+      "paper": "TECH1",
+      "q": "Which short cut key inserts a new slide in current presentation?",
+      "opts": {
+        "A": "Ctrl+N",
+        "B": "Ctrl+M",
+        "C": "Ctrl+S",
+        "D": "All of above"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016A-P1-72",
+      "srcKey": "CO2016A-P1",
+      "no": 72,
+      "paper": "TECH1",
+      "q": "What is the tool for recording the amount of time spent for slide presentation?",
+      "opts": {
+        "A": "Rehearse timing",
+        "B": "Slide time setting",
+        "C": "Slide timer",
+        "D": "Timing recorder"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016A-P1-73",
+      "srcKey": "CO2016A-P1",
+      "no": 73,
+      "paper": "TECH1",
+      "q": "Grouping of pictures is used for",
+      "opts": {
+        "A": "Moving grouped picture at the same time",
+        "B": "Arranging grouped picture at corner of the slide",
+        "C": "Aligning grouped picture vertically",
+        "D": "Aligning grouped picture horizontally"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016A-P1-74",
+      "srcKey": "CO2016A-P1",
+      "no": 74,
+      "paper": "TECH1",
+      "q": "Which of the following is the default page setup orientation of slide in PowerPoint?",
+      "opts": {
+        "A": "Grid",
+        "B": "Landscape",
+        "C": "Portrait",
+        "D": "Tile"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2016A-P1-75",
+      "srcKey": "CO2016A-P1",
+      "no": 75,
+      "paper": "TECH1",
+      "q": "In Microsoft PowerPoint in order to see all the slides on one screen use",
+      "opts": {
+        "A": "view, slide sorter",
+        "B": "view, slide",
+        "C": "view, master",
+        "D": "view, slide show"
+      },
+      "passageTitle": null,
+      "passage": null
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+[
+  {
+    "paper": "GE",
+    "unit": "6",
+    "unitTitle": "Formation of Sentence",
+    "sub": "Simple, compound and complex sentences",
+    "def": "A classification by structure. A simple sentence has one finite clause. A compound sentence has two or more independent clauses joined by co-ordination. A complex sentence has one main clause plus at least one subordinate clause joined by subordination. This is the most heavily examined item in the unit, set as 'Analyse the given sentence and choose the correct option'.",
+    "exp": "Use a fixed two-step procedure and do not judge by length or by the presence of a comma.\n\nStep one: count the finite verbs. Each finite verb heads a clause; participles and infinitives are not finite and head nothing. 'The poor labourer came to me with his starving family' has one finite verb, came - starving is a participle - so it is simple. 'Finishing my book, I placed it on the table' has one finite verb, placed, so it is also simple, however long the opening looks.\n\nStep two, only if there are two or more finite clauses: check the joining word. And, but, or, nor, for, so, either...or and not only...but also are co-ordinating, and give a compound sentence - 'I could not come, for I was down with fever'; 'He went to France in 1992, and came back in 1995', where the second subject is understood but the second finite verb is real. That, which, who, when, since, because, if, though and wherever are subordinating, and give a complex sentence - 'I have sold my car which was red in colour'; 'That you are rich does not make you great'.\n\nThe recurring error is treating any 'and' as compound. In 'He is both punctual and intelligent' the and joins two adjectives, not two clauses; one finite verb, so the sentence is simple.\n\nThe papers also classify by notion, meaning function: assertive (a statement), interrogative (a question), imperative (a command or request), exclamatory (strong feeling).",
+    "facts": [
+      "Simple = one finite clause; compound = two or more independent clauses co-ordinated; complex = main clause plus a subordinate clause",
+      "Count finite verbs to count clauses - participles and infinitives are not finite and do not create a clause",
+      "Co-ordinators giving a compound sentence: and, but, or, nor, for, so, either...or, neither...nor, not only...but also",
+      "Subordinators giving a complex sentence: that, which, who, when, while, since, because, if, though, unless, wherever",
+      "By notion a sentence is assertive, interrogative, imperative or exclamatory; 'Leave the room this instant!' is imperative"
+    ],
+    "traps": [
+      "An 'and' joining two words or phrases does not make a compound sentence - 'He is both punctual and intelligent' has one finite verb and is simple, while 'He went to France in 1992, and came back in 1995' has two and is compound",
+      "'for' is a co-ordinating conjunction here, not a subordinator: 'I could not come, for I was down with fever' is compound, not complex",
+      "A participial opening looks like a clause but is not: 'Finishing my book, I placed it on the table' is simple",
+      "In notion items a question mark does not make a sentence interrogative - 'How dare you disobey my orders?' is exclamatory, and a statement containing not or unable is still assertive"
+    ],
+    "mnem": "One finite verb, simple. Two verbs and a co-ordinator, compound. Two verbs and a subordinator, complex.",
+    "rel": [
+      "Clause types: noun, adjective and adverb",
+      "Joining and splitting sentences"
+    ]
+  },
+  {
+    "paper": "GE",
+    "unit": "6",
+    "unitTitle": "Formation of Sentence",
+    "sub": "Clause types: noun, adjective and adverb",
+    "def": "A clause is a group of words with its own subject and finite verb. A subordinate clause is named for the job it does inside the main clause: a noun clause fills a noun slot, an adjective clause qualifies a noun, an adverb clause modifies the verb. The paper underlines a stretch of words and asks which of the three it is.",
+    "exp": "Each type has a test question you can put to the main clause.\n\nNoun clause - ask 'what?'. It fills the place a noun would occupy: subject, object or complement, and usually opens with that, what, whether, why or how. 'I am happy to know that you have succeeded' - know what? 'That you are rich does not make you great' - what does not make you great? A noun clause as subject.\n\nAdjective clause - ask 'which one?' or 'what kind?'. It sits immediately after the noun it qualifies and opens with who, whom, whose, which or that. 'The book which was stolen was mine' - which book? 'Where is the money that I gave you yesterday?' - which money?\n\nAdverb clause - ask 'when, where, why, how, on what condition?'. It opens with when, while, since, before, after, because, as, if, though, unless, wherever or so that. 'I have been ill since I came here' - ill since when? 'He carried his laptop with him wherever he went' - carried where?\n\nThe fourth option in every one of these items is 'co-ordinate clause'. A co-ordinate clause is an independent clause joined by and, but, or or for; it does no job inside another clause. So if the underlined words begin with who, which, that, since or wherever, co-ordinate is impossible and you are down to three options before you start.",
+    "facts": [
+      "Noun clause answers 'what?' and fills a subject, object or complement slot; typical openers are that, what, whether, why, how",
+      "Adjective clause answers 'which one?' and follows the noun it qualifies; typical openers are who, whom, whose, which, that",
+      "Adverb clause answers when, where, why, how or on what condition; typical openers are when, since, because, if, though, wherever",
+      "A co-ordinate clause is independent and joined by and, but, or, for - it is never a subordinate clause",
+      "Every clause, of whatever type, must contain its own subject and finite verb"
+    ],
+    "traps": [
+      "'that' introduces both kinds: 'that I gave you yesterday' qualifies money and is an adjective clause, while 'that you have succeeded' is the object of know and is a noun clause",
+      "Test by function, not by the opening word - the same conjunction can head different clause types in different sentences",
+      "'co-ordinate clause' is offered in every item as a free distractor; it is ruled out the moment the underlined words start with a relative or subordinating word",
+      "A phrase without a finite verb is not a clause at all: 'with his starving family' modifies like an adverb but has no verb, so it is a phrase"
+    ],
+    "mnem": "Noun asks what, adjective asks which one, adverb asks when or why.",
+    "rel": [
+      "Simple, compound and complex sentences",
+      "Joining and splitting sentences"
+    ]
+  },
+  {
+    "paper": "GE",
+    "unit": "6",
+    "unitTitle": "Formation of Sentence",
+    "sub": "Active and passive voice",
+    "def": "Voice shows whether the subject of the sentence does the action or receives it. In the active voice the subject acts - the clerk typed the letter. In the passive the object of the active becomes the subject and the doer, if kept at all, moves into a by-phrase - the letter was typed by the clerk.",
+    "exp": "The conversion has three mechanical moves: the active object becomes the passive subject, the verb becomes the matching form of be plus the past participle, and the active subject becomes by plus the agent. Pronouns change case in the move - I becomes by me, he becomes by him.\n\nKeep the tense. Writes becomes is written; is writing becomes is being written; wrote becomes was written; was writing becomes was being written; has written becomes has been written; had written becomes had been written; will write becomes will be written; can write becomes can be written. The perfect continuous and future continuous have no natural passive and are not set.\n\nSpecial forms. An imperative goes to let: 'Open the door' becomes 'Let the door be opened'. A question keeps its question form: 'Who wrote this?' becomes 'By whom was this written?'. A verb with two objects gives two passives: 'He gave me a book' becomes 'I was given a book' or 'A book was given to me'. An intransitive verb has no passive at all - there is no passive of 'He slept'.\n\nThis is not only an exam item. Indian official correspondence runs on the passive - sanction is hereby accorded, the applicant is directed to appear, it is requested that - so the same transformation is what you will be writing in the descriptive letter question.",
+    "facts": [
+      "Passive = the correct form of be plus the past participle; the tense of the original is preserved",
+      "wrote becomes was written; has written becomes has been written; will write becomes will be written; can write becomes can be written",
+      "An imperative takes the form 'Let ... be ...': Open the door becomes Let the door be opened",
+      "A verb with two objects yields two possible passives, one for each object",
+      "Intransitive verbs have no passive form, because there is no object to promote to subject"
+    ],
+    "traps": [
+      "Changing the tense during conversion - wrote must become was written, not is written; this is the most frequent error in the transformation items",
+      "Forgetting the case change on the agent: by me and by him, never by I or by he",
+      "Not every be plus participle is passive - 'The gate is closed' can describe a state rather than report an action",
+      "The by-phrase is dropped when the doer is unknown or unimportant, so a passive sentence with no by-phrase is still fully passive"
+    ],
+    "mnem": "",
+    "rel": [
+      "Direct and indirect speech",
+      "Subject-verb agreement and sequence of tenses",
+      "Third person and reported speech"
+    ]
+  },
+  {
+    "paper": "GE",
+    "unit": "6",
+    "unitTitle": "Formation of Sentence",
+    "sub": "Direct and indirect speech",
+    "def": "Direct speech reproduces a speaker's exact words inside quotation marks. Indirect or reported speech gives the substance of what was said in the reporter's own construction, without quotation marks. Converting from one to the other is a set of fixed changes to the conjunction, the pronouns, the tense and the words of time and place.",
+    "exp": "Four changes, applied in order. First, drop the quotation marks and join with that for a statement. Second, change the pronouns to the reporter's point of view: 'He said, \"I have lost my pen\"' becomes 'He said that he had lost his pen'. Third, backshift the tense if the reporting verb is in the past. Fourth, shift the words anchored to the speaker's position.\n\nThe backshift: present simple to past simple, present continuous to past continuous, present perfect to past perfect, past simple to past perfect, will to would, can to could, may to might, shall to should. Must and ought usually stay.\n\nThe anchored words: now becomes then, today becomes that day, tomorrow becomes the next day, yesterday becomes the previous day, here becomes there, this becomes that, ago becomes before.\n\nSentence type decides the reporting verb and the joiner. A question takes asked or enquired, loses its question mark and returns to statement order; a wh-question keeps its wh-word, a yes-or-no question takes if or whether. 'He said to me, \"Where are you going?\"' becomes 'He asked me where I was going'. A command takes ordered, told or requested plus to and the infinitive. An exclamation takes exclaimed with joy or sorrow plus that.\n\nThe exception: a universal truth or a permanent fact keeps its present tense even after a past reporting verb.",
+    "facts": [
+      "Statements are joined with that; questions take asked or enquired; commands take ordered or requested plus to plus infinitive",
+      "Backshift: present simple to past simple, present perfect to past perfect, past simple to past perfect, will to would, can to could, may to might",
+      "A yes-or-no question is reported with if or whether; a wh-question keeps its question word",
+      "now becomes then, today becomes that day, tomorrow becomes the next day, here becomes there, this becomes that, ago becomes before",
+      "A universal truth keeps the present tense even after a past reporting verb",
+      "If the reporting verb is present or future, no backshift takes place at all"
+    ],
+    "traps": [
+      "Keeping the question mark and the inverted word order after asked - the reported question is a statement in form, so 'where I was going', not 'where was I going'",
+      "Backshifting a universal truth, which turns a standing fact into a past claim: the earth is round stays present tense",
+      "Applying backshift when the reporting verb is 'says' or 'will say' - backshift is triggered only by a past reporting verb",
+      "Getting the pronoun shift wrong when the reporter is one of the parties: 'He said to me, \"I will help you\"' becomes 'He said that he would help me'"
+    ],
+    "mnem": "Four moves in order: conjunction, pronoun, tense, time-and-place.",
+    "rel": [
+      "Active and passive voice",
+      "Third person and reported speech",
+      "Subject-verb agreement and sequence of tenses"
+    ]
+  },
+  {
+    "paper": "GE",
+    "unit": "6",
+    "unitTitle": "Formation of Sentence",
+    "sub": "Joining and splitting sentences",
+    "def": "Joining, or synthesis, is combining two or more short sentences into one without losing any of the sense. Splitting is the reverse - breaking a long sentence into shorter independent ones. The paper sets both, plus the substitution words that let you join without repeating a noun.",
+    "exp": "Three ways to join, and the paper tests which one you produced. Into one simple sentence, using both...and, a participle or a phrase: 'He is punctual. He is intelligent.' becomes 'He is both punctual and intelligent', which is still simple because there is still only one finite verb. Into a compound sentence with and, but, so or for: 'He went to France in 1992, and came back in 1995'. Into a complex sentence with that, which, when or because: 'She will stand first. I am sure.' becomes 'I am sure that she will stand first'.\n\nWatch the agreement when you join. 'The host welcomed us. The hostess also welcomed us.' becomes 'Both the host and hostess welcomed us' - plural subject, and the past tense of the originals preserved. 'Laxman scored a century and Dravid scored a century' becomes 'Both Laxman and Dravid scored centuries', with the noun going plural too.\n\nSubstitution words carry the joining. The former means the first of the two mentioned, the latter the second. Respectively means in the order just given - it is not respectfully, which means with respect. And a repeated noun is replaced by one or the other: 'A light bat was ineffective but the heavier one was difficult to get'.\n\nLinking words between two sentences are set as gap-fills: meanwhile for the intervening time, unexpectedly for a result contrary to expectation, conversely for the opposite case, besides for an addition.",
+    "facts": [
+      "Joining with both...and across two adjectives keeps the sentence simple, because only one finite verb remains",
+      "the former = the first of two mentioned; the latter = the second",
+      "respectively = in the order given; respectfully = with respect - they are different words",
+      "meanwhile = in the intervening time, conversely = the other way round, besides = in addition, unexpectedly = contrary to expectation",
+      "When two singular subjects are joined by both...and, the verb becomes plural"
+    ],
+    "traps": [
+      "The tense of the originals must survive the join: two past-tense sentences give 'Both the host and hostess welcomed us', not 'welcome' or 'welcomes'",
+      "Joining two people who each scored a century gives 'scored centuries' - the object goes plural along with the subject",
+      "respectively and respectfully are both offered in the same option set; only respectively means in the order stated",
+      "Assuming a joined sentence must be compound - joining with both...and or with a participle produces a simple sentence, and joining with that or which produces a complex one"
+    ],
+    "mnem": "",
+    "rel": [
+      "Simple, compound and complex sentences",
+      "Subject-verb agreement and sequence of tenses"
+    ]
+  },
+  {
+    "paper": "GE",
+    "unit": "6",
+    "unitTitle": "Formation of Sentence",
+    "sub": "Subject-verb agreement and sequence of tenses",
+    "def": "Agreement, or concord, is the rule that a verb matches its subject in number and person. Sequence of tenses is the rule that the tense of a verb in a subordinate clause is governed by the tense of the verb in the main clause. Both are tested by gap-fill and by spot-the-error.",
+    "exp": "Agreement, the rules that actually get set. The verb agrees with the subject, never with a noun that merely stands between them: 'The quality of the papers is poor'. Two subjects joined by and take a plural verb, unless they name one person or one thing - 'Bread and butter is my breakfast'. Both...and always takes a plural verb. But either...or, neither...nor and plain or make the verb agree with the nearer subject: 'Neither the clerks nor the manager was present'. Each, every, everyone, anyone, nobody and one take a singular verb. Phrases opening with with, along with, as well as or in addition to do not change the number of the subject - 'The Director, along with his officers, was present'. News, mathematics, physics and politics look plural but take a singular verb. A collective noun takes a singular verb when the body acts as one.\n\nSequence of tenses. A past main verb normally requires a past subordinate verb: 'He said that he was ill', 'I found that he had left'. Three exceptions override it. A universal or permanent truth stays in the present - 'The teacher said that the earth is round'. A habitual fact stays present. A comparison after than keeps its own tense. When the main verb is present or future, the subordinate clause may take any tense the sense requires.",
+    "facts": [
+      "The verb agrees with the subject, not with an intervening phrase: 'The quality of the papers is poor'",
+      "both...and takes a plural verb; either...or and neither...nor make the verb agree with the nearer subject",
+      "each, every, everyone, anyone, nobody and one always take a singular verb",
+      "with, along with, as well as and in addition to do not change the number of the subject",
+      "news, mathematics, physics and politics take singular verbs despite the final s",
+      "A past main verb takes a past subordinate verb, except for a universal truth, a habitual fact or a comparison after than"
+    ],
+    "traps": [
+      "Agreeing the verb with the nearest noun instead of the real subject - the classic 'The quality of the papers are poor' error",
+      "Treating neither...nor like both...and: both...and is always plural, neither...nor follows the nearer subject",
+      "Backshifting a universal truth in a that-clause: 'The teacher said that the earth is round' keeps the present tense",
+      "'One of the officers who have applied' - the verb in the relative clause agrees with officers, not with one"
+    ],
+    "mnem": "",
+    "rel": [
+      "Direct and indirect speech",
+      "Joining and splitting sentences",
+      "Simple, compound and complex sentences"
+    ]
+  }
+]

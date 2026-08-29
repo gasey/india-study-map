@@ -1,0 +1,27 @@
+{
+  "paper": "TECH2",
+  "unit": "V",
+  "unitTitle": "IT Governance, Business Communication and Aptitude",
+  "derived": false,
+  "brief": "tools/system-manager-build/CONCEPT_BRIEF.md",
+  "targets": [
+    {
+      "paper": "TECH2",
+      "unit": "V",
+      "unitTitle": "IT Governance, Business Communication and Aptitude",
+      "sub": "Digital Reasoning"
+    },
+    {
+      "paper": "TECH2",
+      "unit": "V",
+      "unitTitle": "IT Governance, Business Communication and Aptitude",
+      "sub": "Interpretation of AI-generated Outputs"
+    },
+    {
+      "paper": "TECH2",
+      "unit": "V",
+      "unitTitle": "IT Governance, Business Communication and Aptitude",
+      "sub": "Cyber Safety Awareness"
+    }
+  ]
+}

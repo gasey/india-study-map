@@ -1,5 +1,301 @@
 [
   {
+    "paper": "GE",
+    "unit": "1",
+    "unitTitle": "Precis Writing",
+    "section": "(derived)",
+    "sub": "What a precis is and is not",
+    "derived": true
+  },
+  {
+    "paper": "GE",
+    "unit": "1",
+    "unitTitle": "Precis Writing",
+    "section": "(derived)",
+    "sub": "The one-third rule and word-count discipline",
+    "derived": true
+  },
+  {
+    "paper": "GE",
+    "unit": "1",
+    "unitTitle": "Precis Writing",
+    "section": "(derived)",
+    "sub": "Finding the controlling idea",
+    "derived": true
+  },
+  {
+    "paper": "GE",
+    "unit": "1",
+    "unitTitle": "Precis Writing",
+    "section": "(derived)",
+    "sub": "What to cut: illustration, repetition and rhetoric",
+    "derived": true
+  },
+  {
+    "paper": "GE",
+    "unit": "1",
+    "unitTitle": "Precis Writing",
+    "section": "(derived)",
+    "sub": "Third person and reported speech",
+    "derived": true
+  },
+  {
+    "paper": "GE",
+    "unit": "1",
+    "unitTitle": "Precis Writing",
+    "section": "(derived)",
+    "sub": "Supplying an apt title",
+    "derived": true
+  },
+  {
+    "paper": "GE",
+    "unit": "1",
+    "unitTitle": "Precis Writing",
+    "section": "(derived)",
+    "sub": "A worked precis, start to finish",
+    "derived": true
+  },
+  {
+    "paper": "GE",
+    "unit": "2",
+    "unitTitle": "Letter Writing",
+    "section": "(derived)",
+    "sub": "Formal, official and informal letters",
+    "derived": true
+  },
+  {
+    "paper": "GE",
+    "unit": "2",
+    "unitTitle": "Letter Writing",
+    "section": "(derived)",
+    "sub": "The parts of an official letter",
+    "derived": true
+  },
+  {
+    "paper": "GE",
+    "unit": "2",
+    "unitTitle": "Letter Writing",
+    "section": "(derived)",
+    "sub": "Salutations and subscriptions",
+    "derived": true
+  },
+  {
+    "paper": "GE",
+    "unit": "2",
+    "unitTitle": "Letter Writing",
+    "section": "(derived)",
+    "sub": "Subject line, reference and enclosures",
+    "derived": true
+  },
+  {
+    "paper": "GE",
+    "unit": "2",
+    "unitTitle": "Letter Writing",
+    "section": "(derived)",
+    "sub": "Applications and representations",
+    "derived": true
+  },
+  {
+    "paper": "GE",
+    "unit": "2",
+    "unitTitle": "Letter Writing",
+    "section": "(derived)",
+    "sub": "Tone and register in government correspondence",
+    "derived": true
+  },
+  {
+    "paper": "GE",
+    "unit": "2",
+    "unitTitle": "Letter Writing",
+    "section": "(derived)",
+    "sub": "Common letter-writing errors that cost marks",
+    "derived": true
+  },
+  {
+    "paper": "GE",
+    "unit": "2",
+    "unitTitle": "Letter Writing",
+    "section": "(derived)",
+    "sub": "A worked official letter, start to finish",
+    "derived": true
+  },
+  {
+    "paper": "GE",
+    "unit": "3",
+    "unitTitle": "Comprehension of given passages",
+    "section": "(derived)",
+    "sub": "How to read an unseen passage under time pressure",
+    "derived": true
+  },
+  {
+    "paper": "GE",
+    "unit": "3",
+    "unitTitle": "Comprehension of given passages",
+    "section": "(derived)",
+    "sub": "Main idea, tone and the author's stance",
+    "derived": true
+  },
+  {
+    "paper": "GE",
+    "unit": "3",
+    "unitTitle": "Comprehension of given passages",
+    "section": "(derived)",
+    "sub": "Inference questions and answering in your own words",
+    "derived": true
+  },
+  {
+    "paper": "GE",
+    "unit": "3",
+    "unitTitle": "Comprehension of given passages",
+    "section": "(derived)",
+    "sub": "Vocabulary-in-context questions",
+    "derived": true
+  },
+  {
+    "paper": "GE",
+    "unit": "3",
+    "unitTitle": "Comprehension of given passages",
+    "section": "(derived)",
+    "sub": "Why lifting sentences verbatim loses marks",
+    "derived": true
+  },
+  {
+    "paper": "GE",
+    "unit": "4",
+    "unitTitle": "Grammar: Parts of Speech",
+    "section": "(derived)",
+    "sub": "The eight parts of speech and how to tell them apart",
+    "derived": true
+  },
+  {
+    "paper": "GE",
+    "unit": "4",
+    "unitTitle": "Grammar: Parts of Speech",
+    "section": "(derived)",
+    "sub": "Words that change part of speech with their slot",
+    "derived": true
+  },
+  {
+    "paper": "GE",
+    "unit": "4",
+    "unitTitle": "Grammar: Parts of Speech",
+    "section": "(derived)",
+    "sub": "Identifying the part of speech of an underlined word",
+    "derived": true
+  },
+  {
+    "paper": "GE",
+    "unit": "4",
+    "unitTitle": "Grammar: Parts of Speech",
+    "section": "(derived)",
+    "sub": "Prepositions and their correct use",
+    "derived": true
+  },
+  {
+    "paper": "GE",
+    "unit": "4",
+    "unitTitle": "Grammar: Parts of Speech",
+    "section": "(derived)",
+    "sub": "Verb forms and tense in context",
+    "derived": true
+  },
+  {
+    "paper": "GE",
+    "unit": "5",
+    "unitTitle": "Correct Usage and Vocabularies",
+    "section": "(derived)",
+    "sub": "Synonyms and antonyms",
+    "derived": true
+  },
+  {
+    "paper": "GE",
+    "unit": "5",
+    "unitTitle": "Correct Usage and Vocabularies",
+    "section": "(derived)",
+    "sub": "One-word substitution",
+    "derived": true
+  },
+  {
+    "paper": "GE",
+    "unit": "5",
+    "unitTitle": "Correct Usage and Vocabularies",
+    "section": "(derived)",
+    "sub": "Idioms and phrases",
+    "derived": true
+  },
+  {
+    "paper": "GE",
+    "unit": "5",
+    "unitTitle": "Correct Usage and Vocabularies",
+    "section": "(derived)",
+    "sub": "Commonly confused pairs",
+    "derived": true
+  },
+  {
+    "paper": "GE",
+    "unit": "5",
+    "unitTitle": "Correct Usage and Vocabularies",
+    "section": "(derived)",
+    "sub": "Spelling and common misspellings",
+    "derived": true
+  },
+  {
+    "paper": "GE",
+    "unit": "6",
+    "unitTitle": "Formation of Sentence",
+    "section": "(derived)",
+    "sub": "Simple, compound and complex sentences",
+    "derived": true
+  },
+  {
+    "paper": "GE",
+    "unit": "6",
+    "unitTitle": "Formation of Sentence",
+    "section": "(derived)",
+    "sub": "Clause types: noun, adjective and adverb",
+    "derived": true
+  },
+  {
+    "paper": "GE",
+    "unit": "6",
+    "unitTitle": "Formation of Sentence",
+    "section": "(derived)",
+    "sub": "Active and passive voice",
+    "derived": true
+  },
+  {
+    "paper": "GE",
+    "unit": "6",
+    "unitTitle": "Formation of Sentence",
+    "section": "(derived)",
+    "sub": "Direct and indirect speech",
+    "derived": true
+  },
+  {
+    "paper": "GE",
+    "unit": "6",
+    "unitTitle": "Formation of Sentence",
+    "section": "(derived)",
+    "sub": "Joining and splitting sentences",
+    "derived": true
+  },
+  {
+    "paper": "GE",
+    "unit": "6",
+    "unitTitle": "Formation of Sentence",
+    "section": "(derived)",
+    "sub": "Subject-verb agreement and sequence of tenses",
+    "derived": true
+  },
+  {
+    "paper": "GE",
+    "unit": "6",
+    "unitTitle": "Formation of Sentence",
+    "section": "(derived)",
+    "sub": "Sentence types by function: assertive, interrogative, imperative, exclamatory",
+    "derived": true
+  },
+  {
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",

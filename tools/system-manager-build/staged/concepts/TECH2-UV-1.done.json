@@ -1,0 +1,248 @@
+[
+  {
+    "paper": "TECH2",
+    "unit": "V",
+    "unitTitle": "IT Governance, Business Communication and Aptitude",
+    "sub": "IT Service Management (ITSM)",
+    "def": "Managing IT end to end as a set of services delivered to meet the needs of the organisation, rather than as a collection of machines. A service is what the user actually consumes — email, the file server, the counter application — at an agreed level of quality, and ITSM organises the people, processes and technology behind it to keep delivering that quality.",
+    "exp": "The shift is from systems to services. Nobody in the office asks for a server; they ask to be able to issue a certificate today. So IT is measured by what the user experiences: is the service available, is it fast enough, and is it restored quickly when it breaks.\n\nThe service desk is the single point of contact between users and the IT organisation. One known place to report a fault, raise a request or ask for status, and every contact logged as a ticket that can be tracked, prioritised and reported on. It is not a procurement office and not a programming team.\n\nFour kinds of work run through it, handled differently. An incident is an unplanned disruption and the aim is fast restoration. A service request is routine and pre-approved — a new mailbox, a password reset. A problem is the underlying cause behind repeated incidents. A change is a controlled modification to a live service.\n\nService levels are agreed in writing: availability, response time and resolution time per service, usually in the contract with the vendor or hosting agency.\n\nIn a government office the payoff is continuity. Staff are transferred, but the ticket history, the service catalogue and documented procedures stay behind — and that record is the evidence when a vendor is not performing.",
+    "facts": [
+      "ITSM manages IT as services delivered at an agreed quality, not as isolated items of hardware.",
+      "The service desk is the single point of contact between users and IT, and every contact is logged as a ticket.",
+      "Incident management restores service, problem management removes the cause, change management controls modifications, and request fulfilment handles routine standard requests.",
+      "A Service Level Agreement (SLA) states the agreed availability and the response and resolution targets for a service.",
+      "A workaround restores service without fixing the cause; the cause stays open as a problem."
+    ],
+    "traps": [
+      "ITSM is not system administration. Installing and configuring desktops is one technical activity inside ITSM, not a definition of it.",
+      "Incident vs service request — an incident is something broken and unplanned; a request is a routine, pre-approved ask such as a new mailbox. Both arrive through the service desk, which is why they get confused.",
+      "The service desk exists for users; negotiating hardware prices with vendors is procurement work, and designing the server room is infrastructure work."
+    ],
+    "mnem": "",
+    "rel": [
+      "ITIL Fundamentals",
+      "IT Asset Management",
+      "Documentation Standards"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "V",
+    "unitTitle": "IT Governance, Business Communication and Aptitude",
+    "sub": "ITIL Fundamentals",
+    "def": "ITIL is the most widely used published framework of good practice for IT Service Management. It is not a statute and not a product: it is a body of guidance describing how to run IT services — handling incidents, problems, changes and requests, agreeing service levels, keeping configuration records and improving continually. Organisations adopt it and adapt it to their size and need.",
+    "exp": "The distinction examiners test most is incident against problem. An incident is a single disruption of service, and the objective is to restore normal service as quickly as possible, even by a temporary workaround. A problem is the underlying cause of one or more incidents, and the objective is to eliminate it so the incidents stop recurring. Restoring the printer is incident work; finding out why that printer fails every Monday is problem work.\n\nChange management exists to stop a planned modification causing an unplanned outage. Every change to a live service is assessed for risk, authorised, scheduled, and implemented with a fallback plan. Low-risk repetitive changes can be pre-approved as standard changes; urgent ones follow expedited authorisation and are recorded afterwards.\n\nService request fulfilment covers the routine and pre-defined, so a password reset does not need a fresh risk assessment. Service level management agrees and reports the targets. Configuration records describe what components make up a service and how they depend on one another, which is what makes impact assessment possible.\n\nPriority is derived from impact combined with urgency, not from who is shouting loudest, and unresolved items escalate on a defined path. Running through all of it is continual improvement: measure, review what went wrong, and change the practice rather than repeat the failure.",
+    "facts": [
+      "ITIL is a framework of good practice for ITSM, adopted and adapted by an organisation, not a legal standard.",
+      "Incident management aims at restoring normal service as quickly as possible, including by a temporary workaround.",
+      "Problem management investigates the underlying cause of incidents and removes it so they stop recurring.",
+      "Change management ensures changes to IT services are assessed, authorised, scheduled and implemented in a controlled way, with a fallback plan.",
+      "Incident priority is normally set from impact combined with urgency.",
+      "A standard change is pre-authorised because it is low risk and repetitive; an emergency change gets expedited authorisation."
+    ],
+    "traps": [
+      "Incident vs problem — an incident is a single disruption to be restored, a problem is the cause to be eliminated. Both can be raised by a user or by monitoring, so the source is not the distinction, and neither is the number of users affected.",
+      "Change management is not incident management. Restoring service after an outage is incident work; controlling a planned modification is change work.",
+      "Closing the incident does not close the problem. A workaround gets the user working again while the cause remains open.",
+      "ITIL certification is awarded to individuals. An organisation adopts ITIL practices; there is no licence it must hold to operate."
+    ],
+    "mnem": "Incident = Immediate restore. Problem = root cause Permanently removed.",
+    "rel": [
+      "IT Service Management (ITSM)",
+      "IT Asset Management",
+      "Documentation Standards"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "V",
+    "unitTitle": "IT Governance, Business Communication and Aptitude",
+    "sub": "IT Asset Management",
+    "def": "The discipline of tracking and controlling every IT asset the office holds — desktops, laptops, printers, servers, network equipment, UPS and software — through its whole lifecycle: planning and procurement, receipt and tagging, deployment, maintenance and upgrade, and finally secure disposal or write-off. Its central record is the asset register.",
+    "exp": "The asset register answers three questions for every item: what do we own, where is it, and who is accountable for it. Around that sit the purchase date and cost, the warranty or AMC status, and the current condition. Each item carries a unique inventory number, physically labelled, matching its register entry, and periodic physical verification reconciles the register against what is actually on the floor.\n\nThat record makes everything else possible. AMC renewals can be planned instead of missed. Replacement can be budgeted before machines fail. Audit and departmental inspection expect the stock position to match reality. When a serious vulnerability is announced, the register tells you in minutes how many affected machines you have and where.\n\nDisposal is part of the discipline, not the end of it. Before any machine leaves the office — condemned, transferred or handed back to a vendor — its storage must be sanitised, by secure wiping or physical destruction of the drive, because an old hard disk carries official records and personal data. The equipment is then e-waste and goes to an authorised recycler, not to a scrap dealer or a store room, and the write-off is recorded against the asset entry through the prescribed condemnation procedure.\n\nHardware and software both fall inside asset management; the licence-entitlement half of the software side is handled specifically as Software Asset Management.",
+    "facts": [
+      "IT Asset Management covers the full lifecycle: acquisition, deployment, maintenance, and secure disposal or write-off.",
+      "The asset register records what the office owns, where each item is and who is accountable for it.",
+      "Data-bearing devices must be securely wiped or physically destroyed before disposal, transfer or vendor return.",
+      "End-of-life IT equipment is e-waste and should go to an authorised recycler, with the disposal recorded against the asset entry.",
+      "Physical verification periodically reconciles the register against the equipment actually present.",
+      "Each asset carries a unique inventory or asset number linking the physical item to its register entry."
+    ],
+    "traps": [
+      "ITAM vs SAM — ITAM is the whole lifecycle of hardware and software assets; SAM is specifically licence entitlement and compliance.",
+      "An asset register is an accountability record, not a security control. Listing a machine does not protect it from malware and does not stop it failing.",
+      "Asset register vs configuration record — the register is about ownership, custody and value; the configuration record describes which components make up a service and how they depend on each other.",
+      "An item stays on the register until it is formally condemned or written off. Physically removing it from the room does not remove it from the books."
+    ],
+    "mnem": "",
+    "rel": [
+      "Software Asset Management",
+      "IT Procurement",
+      "IT Service Management (ITSM)"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "V",
+    "unitTitle": "IT Governance, Business Communication and Aptitude",
+    "sub": "Software Asset Management",
+    "def": "The licensing and compliance side of asset management. It is concerned with knowing what software is actually installed across the office, what has actually been purchased, and whether the two agree — so that use stays within purchased entitlement, and spending stays within what is actually used.",
+    "exp": "The core activity is reconciliation. Build an installation inventory, from a discovery tool or a manual audit of every machine, and match it against the purchase records: invoices, licence certificates and keys. The difference between installs and entitlements is the compliance position.\n\nIt can go wrong in both directions, and in a government office both are failures. Under-licensing means more installations than licences — forty licences bought, fifty-five machines running it, so fifteen copies are in use with no entitlement. That is a compliance breach, the thing a vendor or departmental audit penalises, and unlicensed software in a public office is a legal and disciplinary exposure, not just an accounting error. Over-purchase is the opposite: licences bought or renewed year after year for users who have retired or transferred. Nothing illegal happens, but it is wasted public money.\n\nLicence models decide what counts. Perpetual against subscription; per-device against per-named-user against concurrent-user; volume or site licences for a whole department. OEM licences are tied to the machine they shipped with and generally cannot be moved to another one. A product that is free for personal or non-commercial use still needs a paid licence for office use.\n\nKeep certificates, invoices and keys with the asset record, and when a machine is retired, formally reassign the freed licence instead of leaving it stranded and re-buying it.",
+    "facts": [
+      "SAM matches installations against entitlements; the gap in either direction is the finding.",
+      "Under-licensing means more installations than licences held — a compliance breach that can attract penalties on audit.",
+      "Over-licensing or over-purchase means licences bought and never used — wasted public money, not a legal exposure.",
+      "Common licence models: perpetual vs subscription, and per-device vs per-named-user vs concurrent-user.",
+      "OEM licences are tied to the machine they were supplied with and normally cannot be transferred to another machine.",
+      "Software offered free for personal or non-commercial use still requires a paid licence for government office use."
+    ],
+    "traps": [
+      "Under-licensing vs over-licensing — 55 installs against 40 licences is under-licensing, a breach. 40 licences with 10 installs is over-purchase, a waste. Examiners routinely swap the two labels.",
+      "\"Free to download\" is not \"free to use in an office\". Read the licence condition, not the price.",
+      "SAM is not ITAM. Physically labelling and tracking the desktop is asset management; tracking the licence installed on it is software asset management.",
+      "Uninstalling the software does not by itself recover the licence — the entitlement has to be reassigned in the records, or the office keeps paying for a seat nobody uses."
+    ],
+    "mnem": "",
+    "rel": [
+      "IT Asset Management",
+      "IT Procurement"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "V",
+    "unitTitle": "IT Governance, Business Communication and Aptitude",
+    "sub": "Business Continuity Planning",
+    "def": "The organisation-wide discipline of arranging in advance so that the office's essential functions can continue during and after a serious disruption — fire, flood, landslide, prolonged power failure, a cyber attack, loss of the building or loss of key staff. It covers people, premises, processes, suppliers and information, not only IT.",
+    "exp": "It begins with a Business Impact Analysis. List the functions the office actually performs, work out what happens if each one stops, and for how long that is bearable. That sorts functions into critical and deferrable and produces the recovery targets everything else must meet. A pension counter or a licence-issuing window cannot pause for three days; the annual report can.\n\nThen come the strategies for each critical function: an alternate premises or work-from-home arrangement, a manual or paper fallback procedure for when the system is down, cross-trained staff and a named deputy for every key role, an alternate supplier, standby power, and a pre-agreed line of communication to citizens and to higher authority.\n\nThe plan document itself has to say who is authorised to declare an emergency, who calls whom, what each person does, and in what order. It is only as good as its currency: contact lists go stale within months, and staff transfer.\n\nAn untested plan is not a plan. Rehearse it — a walkthrough, a tabletop exercise, or a live drill — record what failed, and correct the document.\n\nDisaster Recovery Planning sits inside this, as the IT workstream. Restoring the server achieves nothing if there is nowhere for staff to sit and nobody remembers the manual procedure. Ownership therefore rests with the head of office, not with the IT section.",
+    "facts": [
+      "BCP keeps the organisation's essential functions running; it covers people, premises, processes and suppliers, not only IT systems.",
+      "Business Impact Analysis identifies the critical functions and how long each can be down before consequences become unacceptable, and it feeds the recovery targets.",
+      "Disaster Recovery Planning is the IT-focused component sitting inside the wider business continuity plan.",
+      "A continuity plan must be tested — walkthrough, tabletop exercise or live drill — and the call tree and contact details kept current.",
+      "Both BCP and DRP are prepared in advance and apply to any cause of disruption, whether natural, technical or malicious."
+    ],
+    "traps": [
+      "BCP vs DRP — BCP keeps the organisation's overall functions running; DRP restores IT systems and data. DRP is a part of BCP, not a parallel alternative to it.",
+      "Neither is limited by cause: business continuity is not \"only for natural disasters\" and disaster recovery is not \"only for cyber attacks\".",
+      "Neither is written after the event. Both are prepared beforehand; a plan drafted during the crisis is not a plan.",
+      "BCP is not backup. Backup is a technical measure the DRP relies on; continuity also needs premises, staff and manual procedures."
+    ],
+    "mnem": "BCP keeps the Business working; DRP brings the Data and systems back.",
+    "rel": [
+      "Disaster Recovery Planning",
+      "Disaster Recovery Concepts"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "V",
+    "unitTitle": "IT Governance, Business Communication and Aptitude",
+    "sub": "Disaster Recovery Planning",
+    "def": "The planning discipline that sets out in advance how IT systems, applications and data will be restored after a disruptive event, and how fast. It names the critical systems, fixes a recovery target for each, specifies the standby arrangement that will meet that target, and gives the step-by-step restoration procedure. It is the IT workstream of business continuity.",
+    "exp": "Two targets carry the whole subject, and they must be learnt side by side.\n\nRecovery Point Objective is the amount of data, expressed as a period of work, that the office can afford to lose. \"If the server fails we can lose at most one hour of data\" is an RPO of one hour, and it dictates how often backups or replication must run — here, at least hourly.\n\nRecovery Time Objective is the maximum acceptable time a service may remain unavailable before it is restored. It dictates the standby arrangement: restoring from off-site media, a warm standby with equipment ready, or continuous replication to a second site that can take over immediately.\n\nRPO looks backwards from the moment of failure and measures data loss. RTO looks forwards from it and measures downtime. Tighter targets cost more, so each system gets its own, set from the Business Impact Analysis rather than applied uniformly.\n\nThe plan must also state who is authorised to declare a disaster and invoke it, the order in which systems come back given their dependencies, where the off-site copies and credentials are held, and how normal working is resumed.\n\nFinally, a restore that has never been tested is an assumption, not a capability. Run periodic test restores and failover drills, and compare the time actually taken against the stated RTO.",
+    "facts": [
+      "RPO (Recovery Point Objective) is the maximum tolerable data loss expressed as a period of time, and it sets how often backups or replication must run.",
+      "RTO (Recovery Time Objective) is the maximum acceptable time a service may remain unavailable before it is restored, and it drives the choice of standby arrangement.",
+      "\"We can afford to lose at most one hour of data\" states an RPO of one hour, not an RTO.",
+      "DRP is the IT component of business continuity and takes its priorities from the Business Impact Analysis.",
+      "A recovery site may be cold (space and power only), warm (equipment in place, data loaded periodically) or hot (running and able to take over).",
+      "Systems must be recovered in dependency order, and the off-site copy must be far enough away not to be destroyed by the same event."
+    ],
+    "traps": [
+      "RPO vs RTO — RPO is data loss looking back from the failure, RTO is downtime looking forward from it. Swapping the two is the standard distractor.",
+      "RTO is not Mean Time Between Failures and not the SLA uptime percentage. Those describe reliability and availability; RTO is a recovery target.",
+      "DRP restores IT; it does not by itself keep the office functioning. Staff, premises and manual fallback belong to business continuity.",
+      "A backup that has never been test-restored proves neither the RPO nor the RTO. Backup success messages are not evidence of recovery."
+    ],
+    "mnem": "RPO = the Point in the past you fall back to (data lost). RTO = the Time taken to get back up (downtime).",
+    "rel": [
+      "Business Continuity Planning",
+      "Disaster Recovery Concepts",
+      "Backup Concepts"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "V",
+    "unitTitle": "IT Governance, Business Communication and Aptitude",
+    "sub": "IT Procurement",
+    "def": "How a government office acquires IT goods and services — hardware, software licences, networking, AMC, manpower, hosting — from identifying the need and writing the specification, through inviting and evaluating offers, to award of contract, delivery, acceptance and payment. Being public money, it is bound by procurement rules and must be competitive, transparent and documented at every step.",
+    "exp": "For standard items — laptops, printers, UPS, consumables — the usual route is GeM, the Government e-Marketplace. It is an online marketplace portal on which registered sellers list goods and services and government buyers place orders directly, with bidding and reverse-auction facilities for larger quantities. Its purpose is faster and more transparent public purchasing. It is a buying platform, not a licence-audit tool and not an employee register.\n\nWhere the requirement is large or non-standard, a tender is floated on an e-procurement portal, with an RFP or RFQ setting out the scope, technical specification, evaluation criteria, delivery schedule and contract terms. The specification must be generic and brand-neutral, or competition is reduced to one supplier and the tender will not survive scrutiny.\n\nThe two-bid system is directly examinable. The technical bid and the financial bid are submitted together but in separate sealed covers. Technical bids are opened and evaluated first against the specification, and only a bidder found technically qualified has its financial bid opened — so the quoted price cannot influence the technical judgement.\n\nAward is commonly to L1, the lowest price among the technically qualified. Where capability matters more than price, as in software development or consultancy, a combined quality-and-cost score is used instead.\n\nProcurement is not finished at delivery: inspection and acceptance testing, installation, warranty and AMC terms, and entry in the asset register all follow.",
+    "facts": [
+      "GeM (Government e-Marketplace) is an online portal through which government buyers procure goods and services from registered sellers.",
+      "In a two-bid tender the financial bid is opened only after the technical bid has been evaluated and found to meet the specification.",
+      "The purpose of the two-bid system is that the quoted price cannot influence the technical evaluation.",
+      "L1 is the lowest-priced offer among technically qualified bidders; quality-and-cost-based selection scores capability and price together and is used where capability matters more.",
+      "Specifications must be generic and brand-neutral so that competition is not restricted to one supplier.",
+      "Procurement concludes only after inspection and acceptance, and the delivered item is then entered in the asset register."
+    ],
+    "traps": [
+      "In a two-bid tender both bids are submitted at the same time in separate covers; only the opening is staged. The bidder does not send the financial bid later.",
+      "L1 is not simply the lowest quotation received — it is the lowest among bidders already found technically qualified. A cheap but non-compliant bid is never opened for price.",
+      "Having supplied to the department before is not a ground for qualifying a bidder or opening its financial bid.",
+      "An RFP invites offers against a stated requirement; the purchase order is the separate instrument that actually places the order after award."
+    ],
+    "mnem": "",
+    "rel": [
+      "IT Asset Management",
+      "Software Asset Management",
+      "Project Management Fundamentals"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "V",
+    "unitTitle": "IT Governance, Business Communication and Aptitude",
+    "sub": "Documentation Standards",
+    "def": "An organisation-wide set of rules for how official IT documents are written, structured, named, versioned, approved and stored — expected sections and headings, consistent terminology and layout, a file-naming convention, a version number and date, a named author and approver, and a review cycle. The result is that any reader who knows the standard can locate information in any document without relearning its arrangement.",
+    "exp": "Documentation is an asset, not overhead, and there is a practical test of whether yours works. While you are on leave, or after your transfer, can a colleague run the system from what you wrote? If not, it has failed however neat it looks.\n\nEvery document has an audience and a purpose, and those decide the content. A runbook for the operator on duty is a numbered procedure with exact commands, expected output and an escalation contact. A design note for your successor explains why the system is built as it is. A user manual for a clerk avoids jargon. Writing one when the reader needed another is the common failure.\n\nVersion control is the second pillar. A version number and date on the face of the document let anyone holding a copy tell whether it is current, so nobody acts on a superseded procedure after configurations, contacts or rules have changed. Keep a revision history — version, date, author, what changed, who approved — and clearly mark or withdraw superseded copies.\n\nNaming conventions and one controlled storage location make documents findable, instead of copies scattered across mailboxes and pen drives.\n\nCurrency matters most. A runbook listing last year's IP addresses is worse than no runbook, because it is trusted and followed. Update the document as part of the change, not afterwards.",
+    "facts": [
+      "A documentation standard fixes the expected sections, headings, terminology and layout, so a reader can find information quickly in any document.",
+      "A version number and date identify which revision is current and stop readers acting on a superseded copy.",
+      "A revision history records the version, the date, the author, what changed and who approved it.",
+      "A runbook is the step-by-step operational procedure for running or recovering a system, and must be updated whenever the system changes.",
+      "Audience and purpose decide a document's content: operator, successor administrator, or end user."
+    ],
+    "traps": [
+      "Versioning only identifies the current revision. It does not reduce file size, encrypt the contents, prevent printing or make the document legally binding.",
+      "A standard does not remove the need for review and approval, and it does not mean documents can be discarded once a project ends.",
+      "Out-of-date documentation is more dangerous than missing documentation, because people follow it.",
+      "Documentation standards govern form — structure, naming, versioning, approval. They do not certify that the technical content is correct."
+    ],
+    "mnem": "",
+    "rel": [
+      "Technical Report Writing",
+      "Official Correspondence",
+      "Meeting Documentation"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "V",
+    "unitTitle": "IT Governance, Business Communication and Aptitude",
+    "sub": "Project Management Fundamentals",
+    "def": "A project is a temporary effort with a defined start, end and deliverable, producing a unique result — cabling a new office network, migrating records into a new application. Operations are the ongoing, repetitive running of what the project handed over. Project management is planning, executing, monitoring and closing that temporary effort within agreed constraints.",
+    "exp": "The triple constraint is scope, time and cost, with quality as what suffers when they are squeezed. They trade against each other: enlarge the scope and either the schedule or the budget must grow, and if neither is allowed to move, quality falls. Fixing all three and then adding work is the standard way projects fail.\n\nThe phases run initiation, planning, execution, monitoring and control, and closure. Initiation establishes the need, justification and sponsor, and a project charter formally authorises the work. Planning produces the work breakdown, schedule, budget, resource plan and risk register. Execution does the work; monitoring compares progress against plan and routes change requests through change control. Closure — handover to operations, final acceptance, settlement of payments, documentation and lessons recorded — is the phase most often skipped.\n\nStakeholders are everyone affected: the sponsor, the user department, staff whose working method changes, the vendor, the citizens served. Identify them early and agree who decides what, because unidentified stakeholders surface late with requirements.\n\nRisk is a possible future event, assessed on likelihood and impact, answered by avoiding, mitigating, transferring or accepting it, and reviewed throughout. An issue is already happening.\n\nScope creep is work added little by little with no matching change to time, cost or approval. The cure is a written scope and a change-control route, not refusing all change.",
+    "facts": [
+      "A project is temporary, with a defined start, end and unique deliverable; operations are ongoing and repetitive.",
+      "The triple constraint is scope, time and cost, and quality degrades when they are traded badly.",
+      "The usual phases are initiation, planning, execution, monitoring and control, and closure.",
+      "A project charter formally authorises the project and names the sponsor and the high-level scope.",
+      "A risk is a possible future event, handled by avoid, mitigate, transfer or accept; an issue is a problem already occurring.",
+      "Scope creep is the uncontrolled addition of work without a matching adjustment to time, cost or formal approval."
+    ],
+    "traps": [
+      "Project vs operations — the distinction is temporary-and-unique against ongoing-and-repetitive. It is not whether computers are involved, not whether a vendor executes it, and projects certainly do have budget limits.",
+      "The triple constraint is scope, time and cost. It is not people-process-technology and not risk-reward-reputation, which are the usual distractors.",
+      "Scope creep is not the same as an approved change. A change goes through change control and adjusts time and cost; creep does neither.",
+      "A project does not end at go-live. Closure, with handover, acceptance, documentation and lessons learned, is a distinct phase."
+    ],
+    "mnem": "",
+    "rel": [
+      "IT Procurement",
+      "Documentation Standards",
+      "IT Service Management (ITSM)"
+    ]
+  }
+]

@@ -1,0 +1,210 @@
+[
+  {
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "Internet Architecture",
+    "def": "The internet is a global network of networks carrying data with the TCP/IP protocol suite. The web sits on top of it as a client-server system: a browser (the client) sends an HTTP request for a resource and a web server returns a response. Architecture here means who talks to whom, over which protocol, and where the processing is done.",
+    "exp": "Every page fetch is a request-response cycle. The browser resolves the host name to an IP address, opens a TCP connection to the server (port 80 for HTTP, 443 for HTTPS), sends a request naming the resource, and the server replies with a status code and the file. Early HTTP closed the connection after each file. A persistent connection, also called keep-alive, stays open so the same connection carries the page and all its images and stylesheets, and handles future requests.\n\nHTTP is stateless: the server treats each request as independent and remembers nothing of the previous one. Because a login or a shopping cart needs memory, state is added on top. A cookie is stored on the client and sent back with later requests; a session is held on the server and identified by a session ID the browser returns. The session variable is created on the server when that user's session begins.\n\nWork splits into client side and server side. HTML, CSS and JavaScript run inside the browser. Server-side technologies such as ASP and ASP.NET, PHP, JSP and Node run on the server and build the page before it is sent. Larger systems use three tiers: browser, web or application server, and database server. ASP is Microsoft's server-side environment and runs on the IIS web server under Windows.",
+    "facts": [
+      "The web uses a client-server model: the browser is the client, the web server answers the request.",
+      "HTTP normally uses TCP port 80 and HTTPS port 443.",
+      "HTTP is stateless - each request is independent; cookies and server-side sessions supply the missing memory.",
+      "A persistent (keep-alive) connection stays open after the response so later requests reuse it.",
+      "ASP and ASP.NET are Microsoft server-side technologies running on the IIS web server."
+    ],
+    "traps": [
+      "Internet vs World Wide Web - the internet is the network; the web is one service running on it, alongside email and FTP.",
+      "Stateless does not mean a site cannot recognise you; it means HTTP itself does not, so cookies and session IDs carry identity.",
+      "Cookies are stored on the client machine; session variables live on the server and the browser only carries the session ID.",
+      "Client-side script runs in the browser and the user can disable or read it; server-side script runs on the server and the user never sees its source."
+    ],
+    "mnem": "",
+    "rel": ["World Wide Web", "Domain Name System", "Web Hosting"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "World Wide Web",
+    "def": "The World Wide Web is a service running over the internet: a worldwide collection of hypertext documents identified by URLs, transferred by HTTP and rendered by a browser. Tim Berners-Lee proposed it at CERN in 1989. Its three founding pieces are HTML for the markup, HTTP for the transfer, and the URL for the address.",
+    "exp": "A website is a set of related pages under one domain, kept on a web server; the home page is its entry point, and hyperlinks join pages to one another and to other sites. The browser fetches a page, parses the HTML, requests the images, stylesheets and scripts it names, and displays the result. Search engines discover pages by following those same links.\n\nPlanning comes before markup. Decide the purpose and the intended audience, then the content, then the structure and navigation; layout and coding come last. Non-programmers build sites with WYSIWYG editors and content management systems - Dreamweaver historically, WordPress and hosted site builders now - instead of hand-writing HTML.\n\nA cookie is a small text file the server asks the browser to store on the user's machine and receives back on later requests to that site. Cookies carry login sessions, preferences and tracking data. Cookies and JavaScript are client-side, so the end user can block, delete or switch them off in browser settings, and a site should still work in a basic way without them. Web 2.0 is the name given to the shift from static pages to interactive, user-generated sites.",
+    "facts": [
+      "The web = HTML + HTTP + URL, proposed by Tim Berners-Lee at CERN in 1989.",
+      "A cookie is a small text file stored on the client machine at the server's request.",
+      "WYSIWYG editors and CMS platforms let a non-programmer build a website without writing HTML.",
+      "Website planning order: purpose and audience, then content, then structure and navigation, then design and coding.",
+      "Cookies and JavaScript are client-side and can be disabled by the end user."
+    ],
+    "traps": [
+      "The web is not the internet - the internet is the underlying network; email, FTP and the web are separate services on it.",
+      "A cookie is a text file, not a program: it cannot execute or by itself infect a machine.",
+      "Web page vs home page vs website - one document, the entry document, and the whole collection.",
+      "The user can disable client-side things (JavaScript, cookies, images); server-side processing cannot be switched off by the visitor."
+    ],
+    "mnem": "",
+    "rel": ["Internet Architecture", "Hyperlinks", "Web Hosting"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "Domain Name System",
+    "def": "DNS is the distributed directory that turns a human-readable domain name such as www.mizoram.gov.in into the numeric IP address of the machine holding that site. Without it the browser would not know which server to contact. Name resolution is the first step of every page load, happening before any HTTP request is sent.",
+    "exp": "Read a domain name from right to left. In www.mizoram.gov.in, the rightmost label .in is the top-level domain, India's country-code TLD; gov.in is the second level marking an Indian government body; mizoram is the registered name; and www is the host name of the web server inside that domain. Generic TLDs include .com, .org, .net and .edu; country-code TLDs include .in, .uk and .us. Names under gov.in are not open registration - they are issued through NIC to government offices.\n\nResolution works down a hierarchy. The browser checks its own cache and the operating system cache, then asks a recursive resolver, usually the ISP's. If that has no answer it queries a root server, which refers it to the .in TLD servers, which refer it to the authoritative name server for the domain, which returns the A record holding the IP address. The answer is cached for the period set by its TTL. DNS runs on port 53.\n\nIn the full URL https://www.mizoram.gov.in/notice/index.html, https is the scheme or protocol, www.mizoram.gov.in is the host or domain, /notice/ is the path and index.html the file requested.",
+    "facts": [
+      "The top-level domain is the rightmost label of a name: in www.mizoram.gov.in it is .in.",
+      ".in is India's country-code TLD; .gov.in sits under it as a restricted second-level domain.",
+      "DNS maps a domain name to an IP address; the A record holds the IPv4 address.",
+      "Lookup order: browser and OS cache, recursive resolver, root server, TLD server, authoritative server.",
+      "DNS uses port 53."
+    ],
+    "traps": [
+      "The TLD is .in, not .gov or .gov.in - gov is the second-level label, not the top level.",
+      "DNS only resolves the name; it does not store or serve the web page - the web server does that.",
+      "www is a host name chosen by the site owner, not a compulsory part of a domain name.",
+      "Domain name, URL and IP address are three different things: the URL contains the domain, the domain resolves to the IP."
+    ],
+    "mnem": "Read a domain name backwards: the last piece is the TOP-level domain.",
+    "rel": ["Web Hosting", "Internet Architecture", "World Wide Web"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "Web Hosting",
+    "def": "Web hosting is the service of keeping a website's files on a server that is permanently connected to the internet and running web server software, so that any browser can request them at any time. Registering a domain name and buying hosting are two separate purchases: the name is registered, the space is rented, and DNS records tie the two together.",
+    "exp": "The web server software - Apache, Nginx or Microsoft IIS - listens for incoming HTTP requests and replies with the requested file, or with a page produced by a server-side script. When a browser asks for a file, it is the web server that is responsible for the reply. The word server means both that software and the machine it runs on.\n\nYou publish by uploading the files from your own computer to that server. Historically this was done with FTP, now with SFTP or SSH, a control panel file manager, or an automated deployment. Uploading goes from your computer to the server; downloading is the other direction, server to your computer.\n\nHosting comes in grades: shared hosting puts many sites on one server and is cheapest, a VPS gives a guaranteed slice, a dedicated server gives the whole machine, and cloud hosting scales resources on demand. What you are paying for is disk space, monthly bandwidth or data transfer, databases and mailboxes, an uptime guarantee, and normally an SSL/TLS certificate so the site can run over HTTPS. Indian government sites are commonly hosted on NIC infrastructure or a State Data Centre rather than with a commercial host.",
+    "facts": [
+      "The web server answers a browser's request for a file; common web server software is Apache, Nginx and Microsoft IIS.",
+      "Uploading means transferring a file from your computer to the server; downloading is server to your computer.",
+      "FTP is the classic file transfer protocol used to publish a site; SFTP adds encryption.",
+      "Hosting sells disk space, bandwidth, uptime and usually an SSL certificate for HTTPS.",
+      "Shared, VPS, dedicated and cloud are the usual hosting grades, cheapest to most controllable."
+    ],
+    "traps": [
+      "Web server vs web browser - the server sends the file, the browser requests and displays it.",
+      "Buying a domain name is not buying hosting; you can hold a name with no site behind it.",
+      "Upload and download are asked as a direction question - to the server is upload.",
+      "Shared hosting means one server's resources are divided among many customers, not that your site is copied to many servers."
+    ],
+    "mnem": "",
+    "rel": ["Domain Name System", "Internet Architecture", "World Wide Web"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "Document Structure",
+    "def": "An HTML document is a tree: a DOCTYPE declaration, then a single root HTML element that contains exactly two children - HEAD, holding information about the page, and BODY, holding everything the visitor actually sees. Content is marked up with elements written as tags, and attributes on those tags modify them.",
+    "exp": "The file opens with the DOCTYPE line, which tells the browser which version of HTML to expect; in HTML5 it is simply doctype html. The first actual tag is the root HTML element. Inside HEAD go TITLE, META tags for character set, description and viewport, LINK to stylesheets and SCRIPT references - none of which appears in the page area. TITLE is the one item every head must have: it names the document and is what the browser shows in its tab and title bar, and what a bookmark or a search result displays. Inside BODY go headings, paragraphs, images, links, tables and forms.\n\nAn element is an opening tag, its content, and a closing tag. Tag names are not case sensitive, though lower case is standard practice. Attributes are written inside the opening tag as name=\"value\" and change how the browser treats or displays that element. The ID attribute names one element uniquely and must not repeat on a page; CLASS labels a group and may be reused.\n\nOlder papers ask about FRAMESET, which divided a window into frames sized by ROWS and COLS in pixels or percentages, with a separate frameset file controlling the arrangement. Frames are obsolete in HTML5 - recognise them for the exam, do not build with them. HTML was historically defined as an application of SGML; HTML5 no longer is.",
+    "facts": [
+      "The root element is HTML; it contains HEAD and then BODY.",
+      "TITLE belongs in the HEAD and is shown in the browser tab and title bar, not inside the page.",
+      "The ID attribute names an element uniquely; CLASS can be shared by many elements.",
+      "Attributes go inside the opening tag and modify how the browser renders the element.",
+      "HTML is a markup language, historically defined as an application (subset) of SGML.",
+      "In a frameset, frame sizes were given as pixel values or percentages using ROWS and COLS."
+    ],
+    "traps": [
+      "HTML is a markup language, not a programming language - it has no logic, loops or variables.",
+      "The DOCTYPE is a declaration, not an element; the first tag of the file is HTML.",
+      "TITLE goes in the head; the big visible heading on the page is H1, a different thing.",
+      "Frames and FRAMESET still appear in old papers but are removed from HTML5 - CSS layout replaced them."
+    ],
+    "mnem": "HEAD is about the page; BODY is the page.",
+    "rel": ["Text Formatting", "Styling", "Layouts"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "Text Formatting",
+    "def": "The elements that give text structure and appearance: six heading levels H1 to H6, paragraphs, line breaks, and the phrase elements for bold, italic and underline. HTML5 prefers elements that carry meaning, such as STRONG and EM, over purely visual ones, but the visual tags still work and older question papers ask about them directly.",
+    "exp": "There are six heading tags, H1 through H6. H1 renders largest and H6 smallest, and every heading is a block element with space above and below it. Headings are meant for real document hierarchy - a section title - not as a quick way to enlarge text.\n\nP wraps a paragraph of text. BR forces a line break inside it and HR draws a horizontal rule. Both are empty elements: they have no content and therefore no closing tag. IMG and INPUT are empty in the same way.\n\nFor appearance there is B for bold, I for italic and U for underline, plus SUB and SUP for subscript and superscript. For meaning there is STRONG, which marks strong importance and is rendered bold, and EM, which marks emphasis and is rendered italic. PRE keeps your spacing and line breaks exactly as typed. ADDRESS marks contact details for the page or its author, and browsers render it in italics by default, which is why a paper asks which tag it resembles. The old FONT tag with its SIZE, COLOR and FACE attributes is obsolete - typeface, size and colour are now set with CSS.",
+    "facts": [
+      "HTML has six heading tags, H1 to H6; H1 gives the largest text and H6 the smallest.",
+      "BR, HR, IMG and INPUT are empty elements and need no closing tag.",
+      "I and EM both display as italic; B and STRONG both display as bold.",
+      "ADDRESS is displayed in italics by default, like the italic element.",
+      "The FONT tag is obsolete; text appearance is CSS work now."
+    ],
+    "traps": [
+      "H1 is the largest, not the smallest - the higher the number, the smaller the text.",
+      "B vs STRONG and I vs EM look identical on screen but differ in meaning: STRONG and EM carry importance and are read out by screen readers.",
+      "BR is a break, not a paragraph: P creates a new block with spacing, BR only moves to the next line.",
+      "A question asking which tag needs no closing tag is testing empty elements such as BR and HR."
+    ],
+    "mnem": "H1 to H6: the bigger the number, the smaller the heading.",
+    "rel": ["Document Structure", "Lists", "Styling"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "Hyperlinks",
+    "def": "A hyperlink is a reference from one document to another that the reader follows by clicking. It is created with the anchor element A, and the destination address is given by its HREF attribute; whatever sits between the opening and closing anchor tags - text or an image - is the clickable part. Hyperlinks are what connect the pages of a website to each other and to the rest of the web.",
+    "exp": "The correct markup is an opening A tag carrying HREF set to the destination URL, then the link text, then the closing anchor. Without HREF there is no link. Exam distractors invent an HREF tag or put the address in a NAME attribute: HREF is an attribute of A, never a tag of its own.\n\nAn absolute URL gives the complete address including protocol and domain and is used for other sites. A relative URL gives a path from the current page and is used inside your own site, so the links keep working when the site is moved. TARGET=\"_blank\" opens the destination in a new tab. An HREF of mailto: followed by an address opens the user's mail client. An HREF of # followed by an ID jumps to that element on the same page, which is an internal or bookmark link.\n\nBrowsers underline links and colour them differently when unvisited, visited and active; CSS can change all of that. Search engines and screen readers use the link text itself, so wording the link \"Download the recruitment notification\" is better than \"click here\".",
+    "facts": [
+      "A hyperlink is made with the anchor element A and its HREF attribute holding the destination.",
+      "Absolute URL = full address with protocol and domain; relative URL = path from the current page.",
+      "TARGET=\"_blank\" opens the link in a new tab or window.",
+      "An HREF beginning with # links to an element with that ID on the same page; mailto: opens a mail client.",
+      "The pages of a website are connected to one another by hyperlinks."
+    ],
+    "traps": [
+      "HREF is an attribute, not a tag - options showing an HREF tag are wrong.",
+      "Absolute vs relative links: relative links survive moving the site to another domain, absolute ones do not.",
+      "The link text goes between the tags; the address goes in the attribute - candidates reverse these in the multiple-choice options.",
+      "An image can be a link, but the linking is still done by the anchor element wrapped around it."
+    ],
+    "mnem": "A for anchor, HREF for hypertext reference.",
+    "rel": ["World Wide Web", "Document Structure", "Images"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "Lists",
+    "def": "HTML has three list types. UL is an unordered list, displayed with bullets. OL is an ordered list, displayed with numbers. DL is a description or definition list. In an unordered or ordered list every item is an LI element; a description list instead pairs a DT term with a DD description.",
+    "exp": "Unordered means sequence does not matter, so the browser marks each item with a bullet, a filled disc by default. Ordered means sequence does matter, so the browser numbers the items 1, 2, 3. The item element is LI in both cases - only the container tag changes, which is exactly what the examiner tests.\n\nThe numbering of an ordered list is controlled by the TYPE attribute: 1 for numerals, A or a for letters, I or i for Roman numerals, with START setting a first value other than 1. On an unordered list TYPE could be disc, circle or square. All of this is better done in CSS today with list-style-type, but the attributes still turn up in past papers.\n\nLists nest: place a complete UL or OL inside an LI of the outer list and the browser indents it and changes the marker. Because a list is structural rather than decorative, navigation menus are normally built as an unordered list and then styled with CSS into a horizontal bar - so a list is a layout tool as much as a way of showing bullet points.",
+    "facts": [
+      "UL produces a bulleted (unordered) list; OL produces a numbered (ordered) list.",
+      "Every item in a UL or OL is an LI element.",
+      "A description list uses DL with DT for the term and DD for its description.",
+      "The default bullet of an unordered list is a filled disc.",
+      "TYPE sets the marker style and START sets the beginning number of an ordered list."
+    ],
+    "traps": [
+      "UL vs OL is the classic swap - bulleted is Unordered, numbered is Ordered.",
+      "LI is the list item, not the list; a question asking how to make a bulleted list wants UL, not LI.",
+      "A description list uses DT and DD, not LI.",
+      "Bullets and numbers come from the container tag, not from typing dashes or digits into the text."
+    ],
+    "mnem": "U = Unordered = bullets; O = Ordered = 1, 2, 3.",
+    "rel": ["Text Formatting", "Document Structure", "Styling"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "Tables",
+    "def": "An HTML table displays data in rows and columns. TABLE is the container, TR defines a row, TH a header cell and TD an ordinary data cell. Cells exist only inside a row, so a table is built row by row, each row filled with its cells from left to right.",
+    "exp": "A row is added with the TR tag. Inside it go the cells: TH for a heading cell, which browsers render bold and centred, and TD for data. The number of columns is simply the number of cells in a row; there is no tag that creates a column. CAPTION gives the table a title, and THEAD, TBODY and TFOOT group rows for heading, body and footer.\n\nClassic attributes of the TABLE tag are BORDER for the line thickness, CELLPADDING for the space inside each cell, CELLSPACING for the gap between cells, plus WIDTH, ALIGN and BGCOLOR. On an individual cell, ALIGN sets horizontal alignment and VALIGN vertical, so older markup left-aligns a cell's contents by putting ALIGN=\"left\" on the TD. HTML5 removes these presentational attributes in favour of CSS - border, padding and text-align: left. Both styles appear in past papers; when the question says \"the correct HTML\", it wants the ALIGN attribute on the cell.\n\nCOLSPAN makes one cell stretch across several columns and ROWSPAN down several rows. Tables were once used to lay out whole pages; that is poor practice - use a table for tabular data and CSS for layout.",
+    "facts": [
+      "A row is added with TR; TD holds a data cell and TH a header cell.",
+      "TH content is displayed bold and centred by default.",
+      "BORDER, CELLPADDING, CELLSPACING, WIDTH and ALIGN are attributes of the TABLE tag.",
+      "COLSPAN merges a cell across columns; ROWSPAN merges it down rows.",
+      "In old HTML a cell's contents are left-aligned with ALIGN=\"left\" on the cell; in CSS it is text-align: left."
+    ],
+    "traps": [
+      "TR vs TD - the row is TR, the cell inside it is TD; a question asking which tag adds a row wants TR.",
+      "CELLPADDING is space inside a cell, CELLSPACING is the gap between cells - routinely swapped in options.",
+      "This is the HTML table of rows and cells on a web page, a completely different topic from a database table.",
+      "There is no column tag creating columns: the column count follows from how many cells you put in each row."
+    ],
+    "mnem": "TR = Table Row, TD = Table Data, TH = Table Heading.",
+    "rel": ["Document Structure", "Layouts", "Styling"]
+  }
+]

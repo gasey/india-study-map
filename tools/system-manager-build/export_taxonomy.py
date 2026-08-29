@@ -44,16 +44,39 @@ def main():
     syl = load_syllabus()
     os.makedirs(STAGED, exist_ok=True)
 
+    # General English has no official subtopics, but Phase 5 authored a DERIVED
+    # breakdown and the concepts are keyed to it. Import that single source of
+    # truth so GE questions can be tagged to the same strings — otherwise the
+    # 34 GE concepts can never link to their 160 questions.
+    sys.path.insert(0, HERE)
+    from concepts import GE_DERIVED
+
     flat, lines, seen = [], [], set()
     for p in syl["papers"]:
         pid = p["id"]
-        mcq_only = pid == "GE"
+        derived = pid == "GE"
         lines.append(f"\n=== PAPER {pid} — {p['name']} ({p['marks']} marks) ===")
-        if mcq_only:
+        if derived:
             lines.append("  NOTE: the official syllabus enumerates NO subtopics for General")
-            lines.append("  English. Tag GE questions to the unit only; leave `sub` null.")
+            lines.append("  English. The subtopics below are DERIVED (authored in")
+            lines.append("  concepts.py) so that questions and concepts can be linked.")
+            lines.append("  They are not official and must not be presented as such.")
         for u in p["units"]:
             lines.append(f"\n  UNIT {u['no']} — {u['title']} ({u['marks']} marks)")
+            if derived:
+                _, subs = GE_DERIVED.get(str(u["no"]), (u["title"], []))
+                for sub in subs:
+                    key = (pid, str(u["no"]), sub)
+                    if key in seen:
+                        sys.exit(f"FAIL: duplicate taxonomy key {key}")
+                    seen.add(key)
+                    flat.append({"paper": pid, "unit": str(u["no"]),
+                                 "unitTitle": u["title"], "section": "(derived)",
+                                 "sub": sub, "derived": True})
+                    lines.append(f"        - {sub}")
+                if not subs:
+                    lines.append("    (no derived subtopics for this unit)")
+                continue
             if not u.get("subtopics"):
                 lines.append("    (no leaf subtopics in the official syllabus)")
                 continue

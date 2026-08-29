@@ -1,0 +1,191 @@
+[
+  {
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "DOM Manipulation",
+    "def": "The Document Object Model is the tree of objects a browser builds in memory when it parses a page: every element, attribute and piece of text becomes a node with a parent and children. DOM manipulation is JavaScript reading and changing that tree while the page is open — selecting nodes, editing their text, attributes or styles, creating or removing elements — with the browser redrawing the page immediately and no reload.",
+    "exp": "The DOM is live. Change a node and the user sees the change at once, but nothing on the server changes; reload and the original markup comes back. This is the basis of every interactive page: a menu opens, a total updates, a table row disappears, all without a fresh request.\n\nThe working pattern is select, then act. A script selects a node by its id, by class, by tag name or by a CSS selector, then reads or writes it. The three things most often changed are the text inside an element, an attribute value such as an image source or a link target, and the CSS classes on the element — adding or removing a class is usually cleaner than setting style properties one at a time. New elements can also be created and inserted, and existing ones detached.\n\nManipulation is normally driven by events: the script registers a listener on a node and the browser calls that function when the user clicks, types or submits. Events cover that half of the story.\n\nBecause each change can force the browser to recalculate layout, updating hundreds of nodes one at a time is slow; build the change and apply it in one go. Frameworks such as React exist largely to manage this for you, but underneath they are still manipulating the same DOM.",
+    "facts": [
+      "The browser builds the DOM from the HTML as it loads the page; the DOM is the live in-memory tree, not the source file.",
+      "Every element, attribute and text fragment is a node in the tree, and the document object is its root.",
+      "Scripts select nodes by id, class, tag name or CSS selector, then read or change text, attributes and styles.",
+      "An event listener is a function registered on a node that the browser runs when a named event, such as a click or key press, occurs on it.",
+      "DOM changes live only in the browser's memory; reloading discards them unless they were sent to the server."
+    ],
+    "traps": [
+      "The DOM is not the HTML source. The source is text delivered once; the DOM is the live object tree built from it, so after a script runs the two differ — view-source shows the original, the inspector shows the current DOM.",
+      "Role swaps in options: HTML supplies structure, CSS controls appearance, HTTP transfers the page. A 'tree-structured representation of the page that a script can read and change' is the DOM, none of the other three.",
+      "An event listener runs code when something happens on an element. It does not load style sheets, check the markup for syntax errors, or measure download time — those are the standard distractors.",
+      "Manipulating the DOM does not edit the file on the server. Persisting a change needs a request back to the server."
+    ],
+    "mnem": "Select, then act: find the node, then change it.",
+    "rel": ["Events", "Client-side Validation", "Document Structure"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "Client-side Validation",
+    "def": "Checking form input in the browser — with HTML5 form attributes such as required, type and pattern, or with JavaScript — before the data is sent to the server. Its purpose is speed and convenience: the user is told about a blank mandatory field or a malformed email address instantly, instead of waiting for a round trip and a reloaded page. It is a usability feature, not a security control.",
+    "exp": "Two mechanisms. Built-in HTML5 validation uses attributes on the input element — required, a type such as email, number, url or date, min and max, maxlength, and pattern for a regular expression — and the browser enforces them and shows its own message on submit. JavaScript validation runs your own function on submit or as the user types, and is what you need for rules the attributes cannot express: confirm-password must match, an age derived from a date of birth, a check digit on an account number.\n\nThe examinable point is that client-side validation can always be bypassed. It runs on the user's machine, under the user's control. An attacker can turn off JavaScript, edit the page in the browser's developer tools, or ignore the page entirely and send a crafted request straight to the server endpoint. So every rule enforced in the browser must be enforced again on the server, which is the copy the attacker cannot touch. For a government system taking applications, grievances or payments, server-side validation is the real gate; the browser check merely saves honest users a wasted trip.\n\nKeep the two rule sets in step, so a form is never accepted by one side and rejected by the other.",
+    "facts": [
+      "HTML5 validation attributes include required, type (email, number, url, date), min, max, minlength, maxlength and pattern.",
+      "Client-side validation exists to give the user immediate feedback and to cut needless requests to the server.",
+      "JavaScript validation handles rules attributes cannot express, such as matching two fields or a custom check digit.",
+      "Every rule checked in the browser must be checked again on the server, because the browser copy is under the user's control.",
+      "Server-side validation is the security boundary; client-side validation is a convenience layer on top of it."
+    ],
+    "traps": [
+      "'Client-side validation makes the form secure' is false. It is bypassed by disabling JavaScript, editing the page in developer tools, or posting directly to the server URL.",
+      "Client-side vs server-side: client-side is fast but untrustworthy, server-side is authoritative but costs a round trip. The correct answer is almost always 'do both', not 'pick one'.",
+      "The required attribute is HTML, not JavaScript. A question asking which technology validates without any scripting wants HTML5 form attributes.",
+      "Validating input is not the same as making it safe to store or display. Parameterised queries and output escaping are separate defences — see Web Security Fundamentals."
+    ],
+    "mnem": "Client for comfort, server for safety.",
+    "rel": ["Forms", "Web Security Fundamentals", "DOM Manipulation"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "REST APIs (Concept)",
+    "def": "REST, Representational State Transfer, is an architectural style for web APIs. Data is exposed as resources, each addressed by its own URL, and the standard HTTP methods act on them: GET to read, POST to create, PUT or PATCH to update, DELETE to remove. Every request is stateless, meaning self-contained, and the response is a representation of the resource — in practice almost always JSON.",
+    "exp": "Resources are nouns, methods are verbs. A URL such as /applications/1234 names one application record; what happens to it is decided by the method, not by the URL. That is why REST endpoints are not named getApplication and deleteApplication.\n\nStateless means the server keeps no memory of the client between requests. Each request carries everything needed — the identifier, the parameters, and the token proving who is calling. The payoff is scale and resilience: any server behind a load balancer can answer any request, and a restart loses nothing. Session state is held by the client and presented on every call.\n\nGET is safe and idempotent: it changes nothing, and repeating it has the same effect as making it once. PUT and DELETE are idempotent but not safe. POST is neither — send it twice and you may create two records, which is why a browser warns before re-submitting a form. The reply carries a status code: 200 for success, 201 for created, 400 for a bad request, 401 unauthorised, 404 not found, 500 for a server-side failure.\n\nIndian government data is increasingly published this way. API Setu is the Union Government's platform for publishing and discovering government APIs, and the India Stack services — Aadhaar authentication, DigiLocker document fetch, UPI — are consumed as APIs, so a department integrates by calling a documented endpoint instead of exchanging files.",
+    "facts": [
+      "REST stands for Representational State Transfer; it is an architectural style layered on HTTP, not a protocol of its own.",
+      "GET reads a resource, POST creates, PUT or PATCH updates, DELETE removes.",
+      "Stateless means each request carries all the information needed to process it and the server keeps no session for the client between requests.",
+      "GET is safe and idempotent; POST is neither, so repeating it may create duplicate records.",
+      "Responses are usually JSON, with the HTTP status code reporting the outcome: 200 OK, 201 Created, 404 Not Found, 500 Internal Server Error.",
+      "API Setu is the Government of India platform for publishing and discovering government APIs; Aadhaar authentication, DigiLocker and UPI are all API-based."
+    ],
+    "traps": [
+      "Stateless does not mean the data never changes, and it does not mean there is no login. It means the server holds no per-client session; identity travels with each request, normally as a token.",
+      "GET vs POST: GET asks for a copy and must not modify data; POST submits data and is not repeat-safe. Using GET to delete a record is a REST violation, not a shortcut.",
+      "REST is a style, not a language or a product. It is contrasted with SOAP, a heavier XML-based protocol with its own envelope and standards.",
+      "JSON is the usual response format but is not part of the definition of REST — a REST API may equally return XML or plain text."
+    ],
+    "mnem": "Nouns in the URL, verbs in the method.",
+    "rel": ["JSON", "Web Security Fundamentals", "World Wide Web"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "JSON",
+    "def": "JavaScript Object Notation: a lightweight, plain-text format for exchanging structured data between programs. Data is written as objects — comma-separated key and value pairs inside braces — and as arrays, ordered lists inside square brackets, nested to any depth. Despite the name it is language-independent: almost every modern language reads and writes it, and it is the default payload format for web APIs.",
+    "exp": "The value types are exactly six: string, number, object, array, the literals true and false, and null. Strings and keys must use double quotes. There is no comment syntax, no trailing comma after the last item, and no date type — dates travel as strings, usually in ISO 8601 form. The quoted-key rule is the one JavaScript object literals do not impose, and it is the commonest reason a hand-written file fails to parse.\n\nWhy it displaced XML for APIs: it is compact, it maps directly onto the dictionary and list types most languages already have, and parsing is a single library call. XML is still used where documents need namespaces, schemas and formal validation. For configuration files YAML is often preferred instead, mainly because it allows comments.\n\nIn practice you meet JSON as the body of a REST API response, in configuration files, in browser storage and in log pipelines. Parsing turns the text into in-memory objects; serialising goes the other way. Because it is plain text, a JSON response can be read in a browser, a text editor or a terminal with no special tool — useful when you are debugging an integration and need to see exactly what the server sent.",
+    "facts": [
+      "JSON stands for JavaScript Object Notation.",
+      "It is a plain-text, language-independent format; Python, Java, C#, PHP and most other languages have built-in support.",
+      "Values may only be a string, a number, an object, an array, true, false or null.",
+      "Objects use braces with double-quoted string keys; arrays use square brackets and preserve order.",
+      "JSON has no comment syntax and no separate date or binary type.",
+      "JSON is the usual response format of REST APIs and has largely replaced XML in that role."
+    ],
+    "traps": [
+      "The name is the trap. JSON is neither part of JavaScript nor anything to do with Java. It borrowed JavaScript's notation only; any language can produce and consume it.",
+      "JSON is ordinary text, not a compiled or binary format, and needs no browser — it opens in any text editor.",
+      "Keys must be double-quoted strings. Unquoted keys, single quotes and a trailing comma are all legal JavaScript but invalid JSON.",
+      "JSON vs XML: JSON is lighter and adequate for data interchange; XML carries attributes, namespaces and schema validation and remains in use for formal documents."
+    ],
+    "mnem": "Braces for objects, brackets for arrays, quotes on every key.",
+    "rel": ["REST APIs (Concept)", "Variables"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "Progressive Web Applications (Introduction)",
+    "def": "A Progressive Web Application is an ordinary web application — HTML, CSS and JavaScript delivered over the web — built so that it can also be installed on a device, launched from the home screen in its own window, keep working with no network, and receive push notifications. It bridges web and native: one codebase, no app store, but much of the behaviour of an installed app.",
+    "exp": "Three pieces make it work. A service worker is a script the browser runs in the background, separate from any page and still alive after the page is closed; it can intercept the app's network requests and answer them from a local cache, which is what lets the app open and function offline or on a weak connection. A web app manifest is a small JSON file declaring the app's name, icons, start URL and display mode, and it is what allows the browser to offer installation and give the app a home-screen icon. HTTPS is required, because a service worker is powerful enough that browsers permit it only on a secure origin.\n\n'Progressive' refers to progressive enhancement: the same application still works as a normal website where the extra capabilities are not available, so no user is locked out.\n\nThe government relevance is offline use and distribution cost. Field staff collecting data in low-connectivity parts of Mizoram can work against a cached PWA and sync when a signal returns, and one build serves every platform with no store approval and no separate Android and iOS releases. The trade-off is that deep hardware and operating-system integration stays weaker than in a true native app.",
+    "facts": [
+      "A PWA is built with standard web technologies but can be installed to the home screen, run offline and receive push notifications.",
+      "The service worker is the background script that caches files and intercepts network requests, which is what makes offline operation possible.",
+      "The web app manifest is a JSON file giving the app's name, icons, start URL and display mode, and it drives the install prompt.",
+      "Service workers are permitted only on a secure origin, so a PWA needs HTTPS.",
+      "One PWA codebase serves all platforms and is distributed from the web rather than through an app store."
+    ],
+    "traps": [
+      "'Progressive' means progressive enhancement — degrading gracefully to an ordinary website. It has nothing to do with images or content loading gradually as you scroll.",
+      "Service worker vs web worker: a service worker sits between the app and the network and outlives the page; a web worker simply runs a script off the main thread for one page.",
+      "Offline capability comes from the service worker and its cache — not from the style sheet, the DNS resolver or the server's access log.",
+      "A PWA is not a native app compiled for the device, and it is not server-side page generation; the code runs in the browser engine."
+    ],
+    "mnem": "",
+    "rel": ["Web Security Fundamentals", "Responsive Design", "JSON"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "Web Accessibility",
+    "def": "Building websites so that people with disabilities can perceive, understand, navigate and interact with them — including users who are blind and use a screen reader, users with low vision or colour blindness, deaf users, and users who cannot operate a mouse. The reference standard is WCAG, the Web Content Accessibility Guidelines, published by the World Wide Web Consortium.",
+    "exp": "WCAG is organised under four principles, remembered as POUR. Perceivable: content must reach the senses — text alternatives for images, captions for video, adequate colour contrast. Operable: everything reachable and usable by keyboard alone, no time traps, no flashing that can trigger seizures. Understandable: plain language, predictable behaviour, clear error messages. Robust: valid semantic markup that assistive technology can interpret reliably. Conformance is graded A, AA and AAA, and AA is the level normally cited as the requirement.\n\nThe working checklist: alt text on meaningful images and empty alt on decorative ones; headings used in order to carry structure rather than to make text look big; every control reachable by keyboard with a visible focus indicator; form fields with proper labels; enough contrast between text and background; captions or transcripts for media; and never using colour alone to carry meaning.\n\nThe Indian context is directly examinable. The Rights of Persons with Disabilities Act, 2016 obliges the government to make information and communication technology, including websites and electronic services, accessible to persons with disabilities. The Guidelines for Indian Government Websites, GIGW, translate that duty into the standard a government site must meet and are built on WCAG, so a state department's site is expected to comply.",
+    "facts": [
+      "WCAG stands for Web Content Accessibility Guidelines and is published by the World Wide Web Consortium (W3C).",
+      "The four WCAG principles are Perceivable, Operable, Understandable and Robust — POUR.",
+      "WCAG conformance levels are A, AA and AAA; AA is the level normally required of public-sector sites.",
+      "The Rights of Persons with Disabilities Act, 2016 requires government information and communication services, including websites, to be accessible.",
+      "GIGW, the Guidelines for Indian Government Websites, set the accessibility and quality standard for Indian government sites and are based on WCAG.",
+      "Alt text describes an image for screen-reader users; a decorative image takes an empty alt so the reader skips it."
+    ],
+    "traps": [
+      "POUR is Perceivable, Operable, Understandable, Robust. Distractor lists swap in performance and design words — Portable, Optimised, Uniform, Responsive, Ordered, Readable.",
+      "The accessibility statute is the Rights of Persons with Disabilities Act, 2016. The usual distractors cover other ground: the IT Act 2000 (cybercrime and electronic records), the RTI Act 2005 (disclosure of information) and the DPDP Act 2023 (personal data).",
+      "Accessibility is not responsive design. A site can render perfectly on a phone and still be impossible to use with a screen reader or by keyboard alone.",
+      "Alt text belongs on meaningful images only. Describing purely decorative graphics makes screen-reader output noisier, not more accessible."
+    ],
+    "mnem": "POUR — Perceivable, Operable, Understandable, Robust.",
+    "rel": ["Search Engine Optimization (Basic)", "Document Structure", "Responsive Design"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "Search Engine Optimization (Basic)",
+    "def": "Structuring a site's content and markup so search engines can find, understand and rank its pages, and so a user scanning the results chooses it. It splits into on-page work (titles, headings, content, internal links), technical work (crawlability, mobile-friendliness, speed, HTTPS) and off-page work (links from other sites). SEO targets the free organic listings, not paid advertising.",
+    "exp": "Search works in three stages. Crawling: a bot follows links and fetches pages; a robots.txt file tells it which paths not to fetch and an XML sitemap lists the URLs the site wants crawled. Indexing: the engine parses each page, extracts its text and structure and stores it. Ranking: on a query the index is searched and results are ordered by relevance, quality and usability signals.\n\nThe basics that matter for a departmental site. Give every page a unique, descriptive title element — that is the clickable headline in the results list. Write a meta description; it does not set the ranking but it is the snippet a user reads before deciding to click. Use one main heading per page with nested headings in order, so the topic hierarchy is machine-readable. Make link text describe its destination: 'download the recruitment notification', not 'click here'. Then serve over HTTPS, work properly on a phone, and load fast — slow pages lose both rank and readers.\n\nNotice how much of this overlaps with accessibility. Descriptive titles, ordered headings, meaningful link text, alt text and clean semantic markup help a crawler and a screen reader for the same reason: both are non-visual readers of the page. Build accessibly and you get most of basic SEO for nothing.",
+    "facts": [
+      "Search engines operate in three stages: crawling (fetching pages by following links), indexing (storing what they contain) and ranking (ordering results for a query).",
+      "The title element supplies the clickable headline shown in search results; each page should have its own.",
+      "The meta description is not a ranking factor but supplies the snippet displayed beneath the title.",
+      "robots.txt tells crawlers which paths not to fetch; an XML sitemap lists the URLs the site wants crawled.",
+      "Mobile-friendliness, HTTPS and page load speed are recognised technical ranking signals.",
+      "SEO improves organic (unpaid) results; buying placement in results is search advertising, a separate activity."
+    ],
+    "traps": [
+      "SEO vs paid search: SEO works on the free organic listings. Paying for an ad slot puts you above the results but does not raise your organic rank.",
+      "The meta description influences click-through, not ranking. The old meta keywords tag is ignored by the major engines, so keyword stuffing there achieves nothing.",
+      "robots.txt is a request not to crawl, not a security measure. The file itself is public, and listing a path there advertises it — anything sensitive needs authentication.",
+      "Headings mark structure, not font size. Skipping levels or using a heading purely to enlarge text damages both SEO and screen-reader navigation."
+    ],
+    "mnem": "Crawl, index, rank.",
+    "rel": ["Web Accessibility", "Document Structure", "Responsive Design"]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "Web Security Fundamentals",
+    "def": "The baseline defences a public web application needs: an encrypted transport (HTTPS/TLS), untrusted input treated as untrusted, output escaped before it goes back into a page, sound authentication and session handling, and error messages that leak nothing about the internals. The governing assumption is that everything arriving from a browser — form fields, URL parameters, headers, cookies — was written by an attacker until the server proves otherwise.",
+    "exp": "HTTPS is HTTP carried inside TLS. It gives confidentiality (nobody on the network path can read the traffic), integrity (nobody can alter it undetected) and server authentication (the certificate says you reached the host named in the address bar). What it does not give is any verdict on the site itself. The padlock means encrypted, not trustworthy — a fraudulent site can obtain a valid certificate in minutes, which makes 'it has a padlock so it must be genuine' both a common public misconception and a favourite exam question.\n\nTwo injection classes to know conceptually. SQL injection: user-supplied text is pasted into a database query and ends up executed as part of the command, letting an attacker read or destroy data. The defence is parameterised queries, in which supplied data can never be read as instructions. Cross-site scripting: user-supplied text is written back into a page and the browser executes it as script, letting an attacker act as other visitors and take over their sessions. The defence is escaping output for wherever it lands.\n\nBoth share one root cause — data was trusted as code. Hence the rule that all validation is repeated on the server. Add hashed and salted passwords, least privilege for the database account, and prompt patching. CERT-In is India's nodal agency for reporting such incidents.",
+    "facts": [
+      "HTTPS is HTTP inside TLS; it protects confidentiality and integrity of the connection and authenticates the server through its certificate.",
+      "The padlock indicates an encrypted connection only — it is no statement about the honesty or safety of the site.",
+      "SQL injection means crafted input is treated as part of a database command; the defence is parameterised queries plus server-side validation.",
+      "Cross-site scripting means attacker-supplied text is executed as script in another user's browser; the defence is escaping output.",
+      "All input validation must be repeated on the server, because anything enforced in the browser can be bypassed.",
+      "CERT-In is India's national nodal agency for reporting and responding to cyber security incidents."
+    ],
+    "traps": [
+      "Padlock equals encrypted channel, not a trustworthy site. Phishing sites routinely run on HTTPS, and the padlock says nothing about government approval or freedom from cookies.",
+      "SQL injection is not a request flood, not password guessing and not interception in transit — those are denial of service, brute force and man-in-the-middle. Injection is input being executed as a command.",
+      "SQL injection hits the server's database; cross-site scripting hits other users' browsers. Both stem from unvalidated input but the victim differs.",
+      "HTTPS protects data only in transit. An encrypted connection to an application with injection flaws, weak passwords or an exposed database is still an insecure system."
+    ],
+    "mnem": "",
+    "rel": ["Client-side Validation", "REST APIs (Concept)", "World Wide Web"]
+  }
+]

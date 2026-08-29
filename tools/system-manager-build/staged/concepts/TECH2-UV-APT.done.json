@@ -1,0 +1,85 @@
+[
+  {
+    "paper": "TECH2",
+    "unit": "V",
+    "unitTitle": "IT Governance, Business Communication and Aptitude",
+    "sub": "Digital Reasoning",
+    "def": "The reasoning items a computer-post paper actually sets: number series, letter series, coding and decoding, simple logical deduction, and pattern recognition of the kind a person who works with data is expected to do fast. It is the same machinery as logical reasoning, framed for a technical candidate — find the rule that generates the sequence, then apply it once more.",
+    "exp": "A number series is solved by testing rules in a fixed order. First the differences: constant, or themselves forming a pattern. Then the ratio. Then a mixed rule of the form multiply and add. The series 5, 11, 23, 47 has differences 6, 12, 24, which are doubling, and each term is in fact twice the previous term plus one — so the next term is 47 times 2 plus 1, which is 95. Squares, cubes and prime sequences are the other common generators, and 1, 4, 9, 16 or 2, 3, 5, 7, 11 should be recognised on sight.\n\nLetter series work the same way once letters are replaced by positions, A equals 1 through Z equals 26. Coding by letter shift is read off by comparing the code with the original word letter by letter: COMPUTER coded as DPNQVUFS is a plus one shift, so PRINTER becomes QSJOUFS. Shifts wrap round from Z to A, and a shift can be negative, so always check the direction on two letters before committing.\n\nDeduction items give you statements and ask what must follow. Take the statements as true, however odd, and reject any conclusion that is merely possible or merely likely. If a conclusion needs one extra assumption of your own, it does not follow.\n\nWhen a rule fits every term but one, you have the wrong rule, not a misprint.",
+    "facts": [
+      "Series method: test differences first, then ratios, then a mixed rule such as double and add one.",
+      "In 5, 11, 23, 47 each term is twice the previous term plus one, so the next term is 95.",
+      "A plus one letter shift codes COMPUTER as DPNQVUFS and PRINTER as QSJOUFS.",
+      "Letter positions run A equals 1 to Z equals 26, and shifts wrap round from Z back to A.",
+      "In a deduction item, only a conclusion that must follow from the given statements is correct."
+    ],
+    "traps": [
+      "The doubling series 2, 5, 11, 23, 47 and 5, 11, 23, 47 both continue by doubling and adding one; simply doubling gives 94, which is offered as a near-miss option.",
+      "Coded options often differ in a single letter — QSJOUFS versus QSJOUFR — so check the last letter as carefully as the first.",
+      "A plus one shift and a minus one shift look alike at a glance. Verify the direction on at least two letters.",
+      "A conclusion that is probably true is still wrong if it does not follow necessarily from the statements given."
+    ],
+    "mnem": "",
+    "rel": [
+      "Logical Reasoning",
+      "Numerical Ability",
+      "Analytical Reasoning"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "V",
+    "unitTitle": "IT Governance, Business Communication and Aptitude",
+    "sub": "Interpretation of AI-generated Outputs",
+    "def": "Judging what a generative AI tool produces instead of trusting it: checking claims against a source, recognising a hallucination, understanding that fluency and confidence are not evidence, and knowing what must never be pasted into a public AI service. In a department the System Manager is the person asked whether an AI tool's output can be relied on, so this is an operational duty, not a curiosity.",
+    "exp": "A language model predicts plausible text. It does not look anything up unless it has been connected to a source, and it has no internal sense of whether a statement is true. It will produce a fluent, well-formatted, confidently worded answer whether or not the content is correct, so confident tone carries no information about accuracy.\n\nHallucinated citations are the sharpest case. A model will readily quote an office memorandum with a plausible number and date, or a section of an Act, that does not exist. Any citation, figure, date or rule from an AI must be checked against the actual document on the issuing department's own site. Nothing goes into a file on an AI's word.\n\nSummaries need verification against the source. A summary of a forty-page tender can be fluent and still drop a qualifying condition or invert an eligibility clause. Treat a summary as a reading aid, never as the record, and check it against the original on the points that matter.\n\nThe same prompt can return different answers on different runs, because the output is sampled rather than looked up, so an AI answer is not evidence in a file.\n\nGovernance: official records, citizen data, personnel files, tender documents and passwords must not be pasted into a public AI service. The text leaves the department's control and may be retained or used for training.",
+    "facts": [
+      "A generative model predicts plausible text and has no built-in check that a statement is true.",
+      "A hallucination is a confident, fluent output that is factually wrong — invented citations, memorandum numbers, dates and case references are the typical form.",
+      "Fluency, formatting and a confident tone say nothing about accuracy.",
+      "The same prompt can produce different answers on different runs, so AI output is not reproducible evidence.",
+      "Official records, citizen or personnel data and tender documents must not be entered into a public AI service, because the data leaves departmental control.",
+      "Every citation, figure or rule from an AI must be verified against the original document before use."
+    ],
+    "traps": [
+      "Confidence is not evidence. The wrong instinct is to accept an answer because it is fluent and specific; specificity is exactly what a hallucination supplies.",
+      "The correct response to a plausible-looking cited memorandum is to look it up on the issuing department's site, not to reword it or to ask the same AI whether it is sure.",
+      "Verifying a summary means checking it against the source document, not asking the model to summarise again or to confirm its own work.",
+      "A tool being paid for, or branded as enterprise, does not make it safe for official data — what matters is where the data goes and whether it is retained."
+    ],
+    "mnem": "",
+    "rel": [
+      "Cyber Safety Awareness",
+      "Documentation Standards",
+      "Data Interpretation"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "V",
+    "unitTitle": "IT Governance, Business Communication and Aptitude",
+    "sub": "Cyber Safety Awareness",
+    "def": "The everyday practices that keep an individual and an office out of trouble online: recognising phishing, managing passwords and second factors, treating public Wi-Fi as hostile, limiting what is shared publicly, keeping devices patched, and knowing how and where to report an incident. In India, cyber crime including financial fraud is reported on the national helpline 1930 and at cybercrime.gov.in.",
+    "exp": "Phishing is the entry point for most incidents. The pattern is constant: an urgent threat or reward, an appeal to authority, a link, and a deadline. Your account will be blocked today unless you verify. Real recognition signals are the sender's actual address rather than the display name, a link whose true destination differs from its text, unexpected attachments, and above all the request itself — no bank, treasury or department asks for a password, PIN or OTP by mail, phone or message. Do not click: open the site yourself, or telephone the office on a number you already had.\n\nPasswords: long and unique for each account, never reused across official and personal logins, never shared or written on a slip under the keyboard, and changed at once if a service is breached. Enable two-factor authentication where it exists — it stops an attacker who already has your password. Never share an OTP with anyone, including a caller claiming to be from the bank or IT support.\n\nPublic Wi-Fi in a hotel or cafe is an untrusted network, and rogue hotspots imitating the real one are common. Avoid banking and official logins on it, or use the department's VPN.\n\nOversharing on social media supplies the raw material for targeted attacks — dates of birth, family names, travel dates, office photographs showing screens or identity cards.\n\nReport promptly. Delay is what makes financial fraud unrecoverable.",
+    "facts": [
+      "India's national cyber crime helpline number is 1930, and complaints are filed at cybercrime.gov.in.",
+      "No bank, department or genuine IT support ever asks for a password, PIN or OTP by email, phone or message.",
+      "Phishing mail is recognised by urgency, an authority claim, a mismatched sender address, and a link whose destination differs from its displayed text.",
+      "Two-factor authentication protects an account even when the password is already known to an attacker.",
+      "Public Wi-Fi is an untrusted network; banking and official logins should be avoided on it or tunnelled through a VPN.",
+      "Reporting financial cyber fraud quickly matters, because the chance of recovering the money falls as time passes."
+    ],
+    "traps": [
+      "The correct response to a threatening mail about your account is to open the organisation's site yourself or telephone a number you already had — not to click the link, and not to reply to the mail asking whether it is genuine.",
+      "A padlock and https mean the connection is encrypted, not that the site is genuine. Phishing sites carry padlocks too.",
+      "A familiar display name proves nothing; the actual sender address, and lookalike domains with a changed or extra letter, are what to check.",
+      "Antivirus software does not stop phishing, because the user is being persuaded to hand over credentials rather than being infected."
+    ],
+    "mnem": "",
+    "rel": [
+      "Interpretation of AI-generated Outputs",
+      "Email Etiquette",
+      "Business Continuity Planning"
+    ]
+  }
+]

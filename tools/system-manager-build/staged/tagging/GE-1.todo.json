@@ -33,7 +33,230 @@
       "marks": 20
     }
   ],
-  "allowed_leaves": [],
+  "allowed_leaves": [
+    {
+      "unit": "1",
+      "unitTitle": "Precis Writing",
+      "section": "(derived)",
+      "sub": "What a precis is and is not"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Precis Writing",
+      "section": "(derived)",
+      "sub": "The one-third rule and word-count discipline"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Precis Writing",
+      "section": "(derived)",
+      "sub": "Finding the controlling idea"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Precis Writing",
+      "section": "(derived)",
+      "sub": "What to cut: illustration, repetition and rhetoric"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Precis Writing",
+      "section": "(derived)",
+      "sub": "Third person and reported speech"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Precis Writing",
+      "section": "(derived)",
+      "sub": "Supplying an apt title"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Precis Writing",
+      "section": "(derived)",
+      "sub": "A worked precis, start to finish"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "Formal, official and informal letters"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "The parts of an official letter"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "Salutations and subscriptions"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "Subject line, reference and enclosures"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "Applications and representations"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "Tone and register in government correspondence"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "Common letter-writing errors that cost marks"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "A worked official letter, start to finish"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "Comprehension of given passages",
+      "section": "(derived)",
+      "sub": "How to read an unseen passage under time pressure"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "Comprehension of given passages",
+      "section": "(derived)",
+      "sub": "Main idea, tone and the author's stance"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "Comprehension of given passages",
+      "section": "(derived)",
+      "sub": "Inference questions and answering in your own words"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "Comprehension of given passages",
+      "section": "(derived)",
+      "sub": "Vocabulary-in-context questions"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "Comprehension of given passages",
+      "section": "(derived)",
+      "sub": "Why lifting sentences verbatim loses marks"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Grammar: Parts of Speech",
+      "section": "(derived)",
+      "sub": "The eight parts of speech and how to tell them apart"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Grammar: Parts of Speech",
+      "section": "(derived)",
+      "sub": "Words that change part of speech with their slot"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Grammar: Parts of Speech",
+      "section": "(derived)",
+      "sub": "Identifying the part of speech of an underlined word"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Grammar: Parts of Speech",
+      "section": "(derived)",
+      "sub": "Prepositions and their correct use"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Grammar: Parts of Speech",
+      "section": "(derived)",
+      "sub": "Verb forms and tense in context"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Correct Usage and Vocabularies",
+      "section": "(derived)",
+      "sub": "Synonyms and antonyms"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Correct Usage and Vocabularies",
+      "section": "(derived)",
+      "sub": "One-word substitution"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Correct Usage and Vocabularies",
+      "section": "(derived)",
+      "sub": "Idioms and phrases"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Correct Usage and Vocabularies",
+      "section": "(derived)",
+      "sub": "Commonly confused pairs"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Correct Usage and Vocabularies",
+      "section": "(derived)",
+      "sub": "Spelling and common misspellings"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Formation of Sentence",
+      "section": "(derived)",
+      "sub": "Simple, compound and complex sentences"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Formation of Sentence",
+      "section": "(derived)",
+      "sub": "Clause types: noun, adjective and adverb"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Formation of Sentence",
+      "section": "(derived)",
+      "sub": "Active and passive voice"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Formation of Sentence",
+      "section": "(derived)",
+      "sub": "Direct and indirect speech"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Formation of Sentence",
+      "section": "(derived)",
+      "sub": "Joining and splitting sentences"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Formation of Sentence",
+      "section": "(derived)",
+      "sub": "Subject-verb agreement and sequence of tenses"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Formation of Sentence",
+      "section": "(derived)",
+      "sub": "Sentence types by function: assertive, interrogative, imperative, exclamatory"
+    }
+  ],
   "questions": [
     {
       "id": "CO2016A-GE-1",

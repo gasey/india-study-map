@@ -861,7 +861,7 @@
     {
       "id": "CO2016B-P2-34",
       "paper": "TECH2",
-      "q": "HTML is a",
+      "q": "HTML is a ...",
       "opts": {
         "A": "Programming Language",
         "B": "Scripting Language",
@@ -1235,12 +1235,12 @@
     {
       "id": "CO2016B-P2-68",
       "paper": "TECH2",
-      "q": "Which one is equal to the square root of 16?",
+      "q": "Which one is equal to √16 ?",
       "opts": {
-        "A": "square root of 2",
-        "B": "2 squared",
-        "C": "4 cubed",
-        "D": "4 squared"
+        "A": "√2",
+        "B": "2²",
+        "C": "4³",
+        "D": "4²"
       }
     },
     {

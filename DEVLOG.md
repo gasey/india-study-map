@@ -9,6 +9,132 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-08-29 (evening) — Phase 5 complete: 296/296 concepts, ~81,000 words. The whole build is done, and a subagent caught the pipeline about to silently destroy its own output
+
+**Phase 5 is finished.** Every one of the 296 syllabus subtopics has a concept —
+259 official technical leaves plus the 37-item derived General English breakdown.
+**~81,000 words, mean 273 per concept**, every unit of every paper covered.
+
+| Paper | Units | Concepts |
+|---|---|---|
+| General English | 6/6 | 37 |
+| Technical Paper I | 5/5 | 123 |
+| Technical Paper II | 5/5 | 136 |
+
+Final state: **843 questions, all tagged and all explained; 296 concepts, 275 of
+them with drillable questions attached.** The 21 without are correct by design —
+Précis and Letter Writing can never have MCQs, and a handful of vocabulary
+subtopics simply were not set in these two papers.
+
+**A subagent caught a bug that would have destroyed finished work silently.**
+`concepts.py --export` numbers batches over *remaining* work, so once a unit is
+partly done a re-export restarts at `-1` — a filename whose `.done.json` already
+exists. The IT Governance agent noticed mid-task that the todo files had been
+re-partitioned under it and wrote: "any agent handed that recycled filename would
+write over my TECH2-UV-1.done.json." I had already dispatched exactly that agent.
+
+Backed up the file, redirected the running agent to safe paths, and fixed
+`--export` to skip past any batch number already claimed by a `.done.json`. The
+second agent had independently spotted it too and never touched the file, so
+nothing was lost.
+
+Worth recording *why* this one matters: **the loss would have been silent.** No
+error, no count mismatch — nine finished concepts replaced by nine different ones
+under the same name, and the merge would have reported a plausible total. The
+pipeline asserts hard on question counts at every stage because this bank has a
+history of losing data quietly; it had no equivalent protection against
+clobbering its own output. Same failure family as the four bank data-loss classes
+found earlier, and the fifth time today that writing output early or checking a
+count was what saved the work.
+
+**Two validator fixes, both the same lesson twice.** `concepts.py`'s HTML check
+flagged any tag-like token, so the Web Technologies concepts could not name an
+element while teaching HTML — narrowed to closing tags only, exactly as
+`assemble.py` was narrowed earlier after it false-positived on eight explanations.
+A web agent hit this and worked around it by dropping angle brackets entirely
+before I fixed it.
+
+**And one display bug caught in the browser, not by tsc.** The dashboard read
+"296 of 259 syllabus sub-topics defined" — `TOTAL_SUBTOPICS` counted only official
+syllabus leaves while the guide now includes the derived General English
+breakdown. The denominator now derives from both sources: the syllabus's own
+leaves plus whatever derived subtopics the concepts define. Reads 296 of 296.
+
+**What's still open:**
+
+- The 16 Phase 3 disagreements still want a human decision (they ship safely with
+  the corrected answer, capped confidence and a visible conflict note).
+- The MIC General English paper's lost direction lines are unrecovered.
+- `generate.py --merge` still silently drops unknown fields.
+- 20 of the 37 derived General English subtopics have no questions, listed in
+  `staged/coverage-gaps-GE.json` — mostly correct by design, but one-word
+  substitution and spelling could be filled from the ~6,300 GE questions in the
+  bank if that ever seems worth doing.
+
+---
+
+## 2026-08-29 (later) — All 34 General English concepts were orphaned; found by an agent, not by me. 218/296 concepts, 843/843 questions now tagged
+
+**The bug.** Every General English concept was unreachable from its questions.
+`app.js` links concept to questions on `paper + unit + sub`, and all 160 GE
+questions carried `sub: null` — so not one of the 34 GE concepts could show a
+"Practise N questions" button. **75 marks of study material with no drill
+attached.**
+
+I introduced it. When the tagging pass ran, GE had no concepts, so I instructed
+that agent to tag the unit only and leave `sub` null — correct then, because the
+official MUDAL syllabus enumerates no GE subtopics and inventing them would have
+misrepresented it. It became wrong the moment Phase 5 authored a derived
+breakdown, and nothing re-checked the assumption. Two concept-writing agents
+flagged it independently, one citing the exact source line.
+
+**The fix.** `export_taxonomy.py` now imports `GE_DERIVED` from `concepts.py`
+instead of treating General English as subtopic-less, so concepts and questions
+share one source of truth. The validator immediately did its job — it began
+rejecting all 40 null GE tags rather than passing them silently.
+
+**The derived breakdown was also wrong, and the questions proved it.** Reading
+the tagged bank showed Unit 4 is mostly preposition gap-fills and verb-form
+choices, with only ~6 of ~28 items being parts-of-speech identification, and that
+six Unit 6 marks ask what *notion* a sentence expresses — none of which the
+existing subtopics covered. Added three: "Prepositions and their correct use",
+"Verb forms and tense in context", and "Sentence types by function: assertive,
+interrogative, imperative, exclamatory". That is the derived list being corrected
+by evidence rather than by my guess at what General English contains. Total
+targets went 293 → 296.
+
+**Result, verified in the browser:** 160/160 GE questions re-tagged, **843/843
+questions now carry a leaf subtopic** (was 683), and clicking the "Idioms and
+phrases" concept offers "Practise 32 questions" and drills into them. 198 of 218
+concepts now have questions attached.
+
+The 20 GE concepts still without questions are almost all correct-by-design:
+Précis and Letter Writing can never have MCQs, and one-word substitution,
+spelling, active/passive and direct/indirect simply were not set in these two
+papers. They are listed in `staged/coverage-gaps-GE.json`.
+
+**Also completed this round:** all 37 General English concepts (Units 1–6) and
+TECH1 Unit II Operating Systems at 29/29. 218 of 296 concepts, ~59,500 words.
+
+**Judgement worth recording.** The Unit II agent kept the four monitoring tools
+distinct by giving each an anchoring sentence plus a cross-cutting "X versus Y"
+trap naming the others, so the boundary is taught from both sides — Task Manager
+is *now*, Resource Monitor is *which file or connection*, Performance Monitor is
+*counters over time*, Event Viewer is *the past record*. It also wrote Command
+Prompt against the bank's actual DOS-era question set rather than as a modern
+shell overview, which is the right call when the questions are what the candidate
+will meet.
+
+**What's still open:**
+
+- **78 concepts remain**: TECH1 Word (8 of 17 left), Excel (9 of 18 left),
+  PowerPoint (14), TECH2 Web (26) and IT Governance (21). Word and Excel are
+  mid-flight.
+- The `--merge` unknown-field warning is still unwritten.
+- The 16 Phase 3 disagreements and the MIC paper's lost direction lines remain.
+
+---
+
 ## 2026-08-29 — System Manager Phase 4 complete: 843 questions, every technical subtopic covered, and the app can finally run a full-length mock
 
 **What shipped:** Phase 4 finished — **363 authored questions** across all nine

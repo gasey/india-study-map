@@ -1,0 +1,63 @@
+{
+  "paper": "TECH2",
+  "unit": "III",
+  "unitTitle": "Web Technologies",
+  "derived": false,
+  "brief": "tools/system-manager-build/CONCEPT_BRIEF.md",
+  "targets": [
+    {
+      "paper": "TECH2",
+      "unit": "III",
+      "unitTitle": "Web Technologies",
+      "sub": "Images"
+    },
+    {
+      "paper": "TECH2",
+      "unit": "III",
+      "unitTitle": "Web Technologies",
+      "sub": "Multimedia"
+    },
+    {
+      "paper": "TECH2",
+      "unit": "III",
+      "unitTitle": "Web Technologies",
+      "sub": "Forms"
+    },
+    {
+      "paper": "TECH2",
+      "unit": "III",
+      "unitTitle": "Web Technologies",
+      "sub": "Styling"
+    },
+    {
+      "paper": "TECH2",
+      "unit": "III",
+      "unitTitle": "Web Technologies",
+      "sub": "Layouts"
+    },
+    {
+      "paper": "TECH2",
+      "unit": "III",
+      "unitTitle": "Web Technologies",
+      "sub": "Responsive Design"
+    },
+    {
+      "paper": "TECH2",
+      "unit": "III",
+      "unitTitle": "Web Technologies",
+      "sub": "Variables"
+    },
+    {
+      "paper": "TECH2",
+      "unit": "III",
+      "unitTitle": "Web Technologies",
+      "sub": "Functions"
+    },
+    {
+      "paper": "TECH2",
+      "unit": "III",
+      "unitTitle": "Web Technologies",
+      "sub": "Events"
+    }
+  ]
+}

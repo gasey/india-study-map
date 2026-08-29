@@ -1,0 +1,118 @@
+[
+  {
+    "paper": "TECH1",
+    "unit": "V",
+    "unitTitle": "Presentation Software",
+    "sub": "Recording Presentations",
+    "def": "Recording a presentation captures the show as you deliver it - your spoken narration slide by slide, how long each slide stayed on screen, and any ink you draw with the pen or laser pointer. Those recorded timings and that narration are stored with the slides, so the deck can afterwards play itself without a presenter.",
+    "exp": "How it works. Recording starts from a chosen slide or from the beginning, the show runs full screen, and the narration is stored as an audio clip attached to each slide with that slide's display time saved alongside it. Because it is per slide, a slide you fluff can be re-recorded on its own without redoing the whole deck; recorded narration and timings can also be cleared. Webcam video of the speaker can be captured too where a camera is present.\n\nWhat it is for. An unattended show at an exhibition stall, a counter or a departmental open day needs exactly two things: recorded narration so it speaks, and recorded slide timings so it advances by itself. Set up that way, the deck runs the whole loop with nobody operating it. The related manual tool is Rehearse Timings, which records how long you spend on each slide without capturing your voice.\n\nExporting. The recorded show can be exported to a video file. The result is a single playable video containing the slides advancing on their recorded timings together with the recorded narration - it is a recording, not a copy of the slides, so a viewer can watch it but cannot edit it. That is what you send to someone who does not have PowerPoint or who missed the session.",
+    "facts": [
+      "Recording a presentation captures narration slide by slide together with the time each slide was displayed, and can also capture pen and laser-pointer ink",
+      "Recorded narration plus recorded slide timings is what lets a presentation run unattended, speaking and advancing by itself",
+      "Narration can be re-recorded for an individual slide, and existing narration or timings can be cleared",
+      "Exporting a recorded presentation to video produces one file containing the slides advancing on their recorded timings along with the narration",
+      "Rehearse Timings records how long is spent on each slide but does not record the voice"
+    ],
+    "traps": [
+      "An exported video carries both picture and sound - it is neither a silent slideshow nor an audio-only track, and it is not an editable copy of the slides",
+      "Presenter View with a second monitor helps a live speaker; it does nothing for an unattended kiosk show, which needs narration and timings",
+      "Timings without narration gives a silent self-advancing deck; narration without timings still waits for someone to click. Both are required",
+      "Recording stores narration per slide, not as one long track over the deck"
+    ],
+    "mnem": "",
+    "rel": ["Presentation Delivery", "Multimedia", "Presenter View"]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "V",
+    "unitTitle": "Presentation Software",
+    "sub": "Presentation Delivery",
+    "def": "Presentation delivery is the act of giving the talk - running the slide show, controlling it from the keyboard, keeping to the allotted time, and speaking to the audience rather than at the screen. The deck supports the talk; it is not the talk.",
+    "exp": "Preparing. Rehearse Timings is the tool that records the amount of time spent on each slide: it runs the show while timing you and then offers to save those timings, which is how you find out that your twenty-minute talk actually takes thirty-one. Rehearsing also tells you which slides you cannot explain, and those are usually the slides that should not be there.\n\nRunning it. F5 starts the show from the first slide and Shift+F5 from the current one. Ctrl+Home jumps to the very first slide and Ctrl+End to the last. Page Down, Enter, the space bar or a right arrow advance one slide; Page Up steps back one. Typing a slide number and pressing Enter jumps straight to it. B blanks the screen to black and W to white, which is how you pull attention back to yourself during a discussion. Esc ends the show. Check the projector, the resolution and any sound before the room fills.\n\nSpeaking. Do not read the slides aloud - the audience has already read them and you sound like a caption. Face the room, not the screen. Use the slide as a cue and give the reasoning in your own words. Pause after a point instead of filling the gap. Leave the detail in the handout and take questions at a point you have decided in advance.",
+    "facts": [
+      "Rehearse Timings runs the show while recording the time spent on each slide, and offers to save those timings for automatic playback",
+      "Ctrl+Home moves to the first slide of the presentation and Ctrl+End to the last",
+      "F5 starts the slide show from the beginning; Shift+F5 starts it from the current slide; Esc ends it",
+      "During a show, B blanks the screen to black and W to white",
+      "Typing a slide number and pressing Enter during a show jumps directly to that slide"
+    ],
+    "traps": [
+      "Page Up steps back only one slide at a time; it is Ctrl+Home that goes to the first slide, and 'next slide button' does the opposite",
+      "The tool that records time per slide is Rehearse Timings - names like 'slide timer', 'slide time setting' and 'timing recorder' are invented distractors",
+      "Reading the slides aloud is not delivery. The audience finishes reading before you finish speaking, and then stops listening",
+      "Rehearse Timings only measures and stores times; recording the spoken commentary is a separate feature"
+    ],
+    "mnem": "",
+    "rel": ["Presenter View", "Recording Presentations", "Presentation Design"]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "V",
+    "unitTitle": "Presentation Software",
+    "sub": "Collaboration Features",
+    "def": "Collaboration features let several people work on one presentation without emailing copies around. The file is kept in a shared cloud location - OneDrive or a SharePoint or Teams site - and the tools built on that are co-authoring, comments, version history and controlled sharing links.",
+    "exp": "Co-authoring is two or more people editing the same cloud-stored file at the same time, each seeing the others' changes appear and a marker showing which slide each person is on. It removes the worst office pattern in presentation work: three versions named final, final2 and final_revised, with nobody sure which one carries the Director's correction.\n\nComments attach a remark to a slide or an object without altering the content, and support replies and resolution, so a review conversation stays with the deck instead of being scattered across email. Comments do not appear when the show is delivered.\n\nVersion history keeps earlier saved states of the file, so a version can be opened and restored after wording was cut or a slide was overwritten. It answers 'who removed that paragraph and can we get it back', not 'how many times has this been shown'.\n\nSharing is controlled by link. A link can grant editing or view-only access, be limited to named people or to the organisation, and be revoked later. For government work, treat that as the security control it is: a presentation carrying draft policy or personal data must not be shared by an open link that anyone with the address can open, and access should be reviewed once the work is done.",
+    "facts": [
+      "Co-authoring is several people editing one cloud-stored presentation at the same time, with each person's edits visible to the others",
+      "Version history stores earlier saved versions so an earlier one can be opened and restored",
+      "Comments attach review remarks to a slide or object, support replies, and are not shown to the audience during the slide show",
+      "Co-authoring requires the file to be stored in a shared cloud location such as OneDrive, SharePoint or Teams, not on a local drive",
+      "A sharing link can grant edit or view-only access, be restricted to named people, and be revoked"
+    ],
+    "traps": [
+      "Co-authoring versus version history - co-authoring is simultaneous editing now, version history is recovering an earlier saved state. Both are collaboration features and are routinely swapped in the options",
+      "Version history does not count how often a deck was presented, and it does not merely log who opened the file; it restores content",
+      "Emailing a copy of the file is not collaboration - each recipient now edits a separate deck and the versions have to be merged by hand",
+      "A view-only link still lets the recipient read everything on the slides; restricting editing is not the same as restricting access"
+    ],
+    "mnem": "",
+    "rel": ["Accessibility Features", "Presentation Design"]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "V",
+    "unitTitle": "Presentation Software",
+    "sub": "Accessibility Features",
+    "def": "Accessibility features make a presentation usable by people with visual, hearing or motor impairments - chiefly by someone using a screen reader. The main ones are alternative text on images, a correct reading order for the objects on each slide, a real slide title on every slide, sufficient colour contrast, readable type, and captions for embedded audio and video.",
+    "exp": "Alt text. A short written description attached to a picture, chart or SmartArt diagram. Assistive software reads it out in place of the image, so a listener who cannot see the photograph still knows what it shows. Describe what the image conveys, not the file name. Purely decorative shapes can be marked as decorative so the reader skips them.\n\nReading order. A screen reader works through a slide object by object in the order the objects are stored, not in the order they look arranged on screen. If a text box added last is announced before the title, the listener hears the content with no context. The Reading Order or Selection pane is where that sequence is checked and fixed. It is a different thing from the animation order and from the order slides advance.\n\nSlide titles. Every slide should have a meaningful title in the title placeholder, because that is what a screen reader announces on arrival and what navigation by slide relies on. A title hidden off the canvas still works for the reader.\n\nContrast and media. Keep strong contrast between text and background and avoid colour as the only way of distinguishing anything, since colour-blind viewers lose it. Provide captions or a transcript for embedded audio and video. The built-in Accessibility Checker lists these problems with the slide numbers.",
+    "facts": [
+      "Alt text is a short description of an image that assistive software reads out in place of the picture",
+      "A screen reader announces the objects on a slide in their stored reading order, so a wrong order makes the slide confusing to follow",
+      "Every slide should carry a meaningful title in the title placeholder; screen-reader navigation relies on it",
+      "Colour must not be the only means of conveying information, and text needs sufficient contrast against its background",
+      "Embedded audio and video should carry captions or a transcript for viewers who cannot hear them",
+      "The Accessibility Checker reports missing alt text, unnamed slides and reading-order problems"
+    ],
+    "traps": [
+      "Alt text exists for assistive software. It does not compress the image, translate it, or keep it off the projected slide",
+      "Reading order is the order a screen reader announces objects. It is not the animation sequence, not the handout print order, and not the order slides advance",
+      "Arranging objects neatly on screen does not fix reading order - the stored order is separate from the visual layout and has to be checked",
+      "Marking a meaningful image as decorative silently hides it from the listener; only genuine ornament should be marked that way"
+    ],
+    "mnem": "",
+    "rel": ["Presentation Design", "Multimedia", "Collaboration Features"]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "V",
+    "unitTitle": "Presentation Software",
+    "sub": "AI-assisted Presentation Design (Microsoft Copilot - Concept)",
+    "def": "AI-assisted presentation design means using a generative AI assistant, such as Microsoft Copilot inside Office, to draft and improve a deck: turning a topic or an outline into a first set of slides, suggesting layouts and images, condensing wordy slides, and summarising a long deck. The syllabus marks this as a concept - what such tools do and how they should be governed, not which button to press.",
+    "exp": "Generating a deck from an outline. You supply a short description or a list of topics, or point the assistant at an existing document, and it produces a draft set of slides - headings, bullet text and suggested layouts - which you then edit. That is the whole claim: a draft that saves the blank-page stage. It is not a finished presentation, and turning slides back into an outline is a different operation.\n\nDesign assistance. These tools also propose layouts and formatting for content you have already typed, tidy a text-heavy slide, suggest images, and produce speaker notes or a summary of a long deck.\n\nGovernance, which is the examinable part for a government post. Anything typed into a public AI service leaves the department's control, so confidential files, internal notes and personal data such as lists of beneficiaries must not be pasted in. Use the outline and generic phrasing instead, and keep official records inside sanctioned systems. Generated content is a draft: figures, scheme names, dates and legal wording have to be verified against the source before the slide goes out, because a fluent wrong number is still a wrong number, and the officer who presents it owns it. Follow whatever departmental or state IT policy applies to AI tools.",
+    "facts": [
+      "Generating a deck from an outline means the tool drafts slides, headings and suggested layouts from the topics the user supplies",
+      "AI assistance in presentation software also covers layout and design suggestions, rewriting wordy slides, drafting speaker notes and summarising a deck",
+      "Confidential records and personal data must not be entered into a public AI service",
+      "AI-generated slide content is a draft and must be verified for accuracy before it is used officially",
+      "Responsibility for the content of a presentation stays with the officer presenting it, not the tool that drafted it"
+    ],
+    "traps": [
+      "Generating a deck from an outline drafts slides from topics. It is not printing the outline as speaker notes, not converting finished slides back to an outline, and not a spelling and grammar check",
+      "A public AI service is not private by default. Uploading a note marked confidential 'because the service is private' is the wrong answer in every form it is asked",
+      "Fluent, well-formatted output is not verified output. Treating generated slides as final because they read well is the trap the scenario questions are built on",
+      "Design suggestion is a different capability from content generation - one arranges what you wrote, the other writes a draft for you"
+    ],
+    "mnem": "",
+    "rel": ["Presentation Design", "Templates and Themes", "Collaboration Features"]
+  }
+]

@@ -103,11 +103,23 @@ const shortPaper = pid => ({
   TECH2: 'Technical II · Networking, DBMS, Web, Cyber & AI',
 }[pid] || pid);
 
-// Derived from the syllabus, not hardcoded — the concept-guide progress bar
-// stays honest as data lands. GE units carry no subtopics (the official
-// syllabus enumerates none), so this counts the technical syllabus.
-const TOTAL_SUBTOPICS = SYL.papers.reduce(
-  (n, p) => n + p.units.reduce((m, u) => m + (u.subtopics || []).length, 0), 0);
+// Denominator for the concept-guide progress line, derived rather than
+// hardcoded so it stays honest as data lands.
+//
+// Two sources, because the syllabus is uneven: the technical papers enumerate
+// their own leaf subtopics, but the official syllabus lists General English's
+// components with marks and NO subtopics — that breakdown is derived, and the
+// concepts themselves define it. Counting only `u.subtopics` gave 259 while the
+// guide held 296 concepts, so the dashboard read "296 of 259".
+const TOTAL_SUBTOPICS = (() => {
+  const official = SYL.papers.reduce(
+    (n, p) => n + p.units.reduce((m, u) => m + (u.subtopics || []).length, 0), 0);
+  const derived = new Set(
+    CON.filter(c => !(paperById[c.paper]?.units || [])
+      .some(u => (u.subtopics || []).includes(c.sub)))
+      .map(c => `${c.paper}|${c.unit}|${c.sub}`)).size;
+  return official + derived;
+})();
 
 /* Question stem, with __underline__ markers rendered as actual underlines.
    Several General English questions ask about "the underlined word", and the

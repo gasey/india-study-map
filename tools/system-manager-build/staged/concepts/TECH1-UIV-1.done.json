@@ -1,0 +1,251 @@
+[
+  {
+    "paper": "TECH1",
+    "unit": "IV",
+    "unitTitle": "Electronic Spreadsheet",
+    "sub": "Workbook Management",
+    "def": "A workbook is the Excel file itself; the worksheets inside it are the grids you work in. Workbook management is the everyday handling of that file and its sheets - creating, naming, saving under the right name and format, selecting cells, and controlling how an entry is stored and how it is displayed.",
+    "exp": "Structure first. A worksheet is a grid of lettered columns and numbered rows; their intersection is a cell, addressed by column letter then row number, such as B7. The Name Box on the left shows the active cell's address. The Formula Bar beside it is where values and formulas are typed and edited, and it shows the formula behind a cell while the cell itself shows the result. Clicking a column heading letter selects the whole column.\n\nEntry. Finish a cell entry with Enter, Tab, an arrow key, or the tick on the Formula Bar. Esc abandons it instead. Anything Excel can read as a number is stored as a number and right-aligned; typing an apostrophe before it forces storage as text, which is how a code keeps its leading zeros. AutoComplete offers to finish a text entry matching one already used in the same column.\n\nFilling. Dragging the fill handle at the bottom right corner of a selection extends a sequence. Home, Fill, Series opens the dialog with Linear, Growth, Date and AutoFill types plus a step and stop value.\n\nHousekeeping. Save As writes the workbook under a new name or format, leaving the original as it was. Number formatting changes only display, never the stored value. Paste Special pastes chosen parts of what was copied - values, formats, formulas, column widths, or transposed. Comments, now called notes, attach a remark to a cell without occupying it.",
+    "facts": [
+      "The workbook is the file; the worksheets are the sheets inside it. A cell address is the column letter followed by the row number",
+      "The Formula Bar is where values and formulas are entered and edited; the Name Box shows the active cell's address",
+      "An apostrophe typed before a number forces Excel to store it as text, so it is treated as a label and left-aligned",
+      "Enter, Tab, an arrow key or the Formula Bar tick all complete a cell entry; Esc cancels it",
+      "The Fill Series dialog offers Linear, Growth, Date and AutoFill series types",
+      "Save As stores the workbook under a different name or file format, leaving the existing file untouched"
+    ],
+    "traps": [
+      "Formatting a number as currency or with no decimals changes only what is shown. The stored value is unchanged and every calculation still uses the full value",
+      "Save overwrites the existing file; Save As creates a new one. Only Save As gives the workbook a different name",
+      "A number stored as text because of an apostrophe prefix is ignored by SUM, so the total comes out silently too low",
+      "AutoComplete only suggests text entries already present in the same column; it does not complete numbers or formulas"
+    ],
+    "mnem": "",
+    "rel": [
+      "Formulae and Functions",
+      "Conditional Formatting",
+      "Data Validation"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "IV",
+    "unitTitle": "Electronic Spreadsheet",
+    "sub": "Formulae and Functions",
+    "def": "A formula is an instruction typed into a cell that calculates a result, and every formula begins with an equals sign. A function is a built-in named formula, such as SUM, ROUND or IF, that takes its arguments in brackets and returns a value. The cell displays the result; the Formula Bar displays the formula behind it.",
+    "exp": "Operators are evaluated in a fixed order: brackets first, then exponentiation, then multiplication and division, then addition and subtraction, working left to right within the same level, with comparison operators last. A range is written with a colon, so K2:N12 is every cell from K2 to N12. A reference to a cell on another sheet carries the sheet name and an exclamation mark before the address.\n\nReferencing is the core of the unit. A relative reference such as A1 shifts when the formula is copied - copied one row down it becomes A2, which is what you want when filling a column of row-by-row calculations. An absolute reference, $A$1, does not move at all. A mixed reference locks one half only: $A1 fixes the column and lets the row change, A$1 fixes the row and lets the column change. Use an absolute reference for a single constant, such as one tax-rate cell every row divides by. F4 cycles a reference through the four forms.\n\nError values name the fault. DIV/0 means division by zero. VALUE means the wrong type of data, typically text where a number was needed. REF means the formula points at a cell that no longer exists. NAME means an unrecognised function name or unquoted text. N/A means a lookup found nothing. A circular reference warning means a formula depends on its own cell.",
+    "facts": [
+      "Every formula starts with an equals sign; a function is a named built-in formula whose arguments are enclosed in brackets",
+      "Order of evaluation: brackets, exponentiation, multiplication and division, addition and subtraction, then comparison operators",
+      "$A$1 is an absolute reference, A1 is relative, and $A1 and A$1 are mixed references",
+      "A colon defines a range: K2:N12 covers every cell from K2 to N12",
+      "DIV/0 is division by zero, VALUE is a wrong data type, REF is a deleted or missing reference, NAME is an unrecognised name, and N/A means a value was not found",
+      "A reference to another sheet uses the sheet name, an exclamation mark, then the cell address"
+    ],
+    "traps": [
+      "The dollar sign locks only what immediately follows it. $A1 fixes column A while the row still moves; A$1 fixes row 1 while the column still moves",
+      "Relative and absolute references behave identically until the formula is copied. In its original cell, =A1 and =$A$1 return the same value, so the difference only appears on copying",
+      "NAME and VALUE are different faults. NAME is a spelling or naming problem in the formula; VALUE is a data-type problem in the operands",
+      "REF appears once a row, column or sheet is deleted from under a formula, and the original reference is not restored simply by re-inserting a blank row"
+    ],
+    "mnem": "The dollar sign locks whatever comes straight after it - before the letter it locks the column, before the number it locks the row.",
+    "rel": [
+      "Lookup Functions",
+      "Statistical Functions",
+      "Workbook Management"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "IV",
+    "unitTitle": "Electronic Spreadsheet",
+    "sub": "Lookup Functions",
+    "def": "Lookup functions search a table for a value and return the matching value from the same row or column, so one sheet can pull details out of another instead of them being retyped. VLOOKUP, HLOOKUP, INDEX used with MATCH, and XLOOKUP are the ones that matter here.",
+    "exp": "VLOOKUP takes four arguments: the value to find, the table range to search, the number of the column within that range whose value is to be returned, and a final true or false argument controlling the match.\n\nThat last argument is the examinable one. FALSE, or zero, demands an exact match and returns N/A when the value is absent - what you want for an employee number, a district code or a name. TRUE, or one, means approximate match, and it is what you get if the argument is omitted. Approximate match assumes the first column is sorted ascending and returns the largest entry not exceeding the lookup value. That is correct for grade bands and slab rates and quietly wrong for identifiers, because on unsorted data it returns a plausible neighbouring value rather than an error.\n\nVLOOKUP has two structural limits. It only looks rightward, so the key must sit in the leftmost column of the table range and nothing to its left can be returned. And the column number is a fixed count, so inserting a column inside the table shifts the fields while the formula keeps pointing at the same position.\n\nINDEX with MATCH escapes both. MATCH returns the position of the value in a row or column; INDEX returns whatever sits at that position in any column, left or right. XLOOKUP is the single modern function that searches in either direction and takes its own argument for what to show when nothing is found. HLOOKUP is the horizontal equivalent, searching across the first row.",
+    "facts": [
+      "VLOOKUP searches the leftmost column of the given table range and returns a value from the column number specified",
+      "FALSE or zero as the last argument means exact match; TRUE or one means approximate match and is the default when the argument is omitted",
+      "Approximate match requires the lookup column to be sorted in ascending order to give correct results",
+      "VLOOKUP cannot return a value from a column to the left of the lookup column",
+      "HLOOKUP searches across the first row of the range instead of down the first column",
+      "An exact-match lookup that finds nothing returns the N/A error"
+    ],
+    "traps": [
+      "Leaving out the last argument gives approximate match, not exact match. On an unsorted list this returns a wrong value silently instead of raising N/A",
+      "The column index number is counted from the first column of the table range, not from column A of the worksheet",
+      "Inserting or deleting a column inside the lookup table moves the fields but not the hard-coded index number, so the formula keeps calculating and returns the wrong field",
+      "INDEX with MATCH and XLOOKUP are preferred not for speed of typing but because they can look leftward and survive column insertion, which VLOOKUP cannot"
+    ],
+    "mnem": "V for vertical, down the first column. H for horizontal, across the first row.",
+    "rel": [
+      "Formulae and Functions",
+      "Statistical Functions",
+      "Sorting and Filtering"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "IV",
+    "unitTitle": "Electronic Spreadsheet",
+    "sub": "Statistical Functions",
+    "def": "Statistical functions summarise a range of values - counting them, averaging them, finding extremes and applying conditions. In an office spreadsheet they are what turn a list of records into a single figure that can be reported. For the exam, know what each one returns rather than trying to evaluate it by hand.",
+    "exp": "The counting family is where marks are won and lost. COUNT counts only cells that contain numbers. COUNTA counts every cell that is not empty, whatever it holds - numbers, text, dates, even error values. COUNTBLANK counts the empty cells. COUNTIF counts cells in one range that satisfy a single stated condition, and COUNTIFS applies several conditions across several ranges at once.\n\nAVERAGE returns the arithmetic mean of the numeric cells in a range, with AVERAGEIF and AVERAGEIFS adding conditions. SUM adds a range, with SUMIF and SUMIFS as its conditional forms. MAX and MIN return the largest and smallest numeric values, while LARGE and SMALL return the nth largest and nth smallest.\n\nMEDIAN returns the middle value once the values are placed in order, and is far less distorted by one extreme figure than the mean is. MODE returns the value that occurs most often. STDEV and VAR measure spread, that is how widely the values scatter around the mean, with separate forms for a sample and for an entire population. RANK gives a value's position within a list.\n\nA condition in COUNTIF or SUMIF is written as a criterion - a plain value, or a comparison in quotation marks, with wildcards allowed in text criteria. The distinctions actually tested are COUNT against COUNTA, mean against median, and the single-condition IF functions against their plural IFS forms.",
+    "facts": [
+      "COUNT counts numeric cells only, COUNTA counts all non-empty cells including text, and COUNTBLANK counts empty cells",
+      "COUNTIF and SUMIF take exactly one condition; COUNTIFS and SUMIFS take several conditions, each paired with its own range",
+      "AVERAGE returns the arithmetic mean of the numeric values in the range",
+      "MEDIAN returns the middle value of the ordered values and MODE returns the most frequently occurring value",
+      "MAX and MIN return the largest and smallest values; LARGE and SMALL return the nth largest and nth smallest",
+      "STDEV and VAR measure how widely values are spread about the mean, with separate sample and population forms"
+    ],
+    "traps": [
+      "COUNT against COUNTA is the standard distractor: a column of names gives zero from COUNT and the full count from COUNTA",
+      "AVERAGE skips genuinely empty cells but treats a cell holding zero as a value, which drags the mean down",
+      "Mean and median are not interchangeable. A single very large entry moves the mean substantially and the median barely at all",
+      "COUNTIFS does not test several conditions against one range. Each condition is paired with its own range, and a row must satisfy all of them"
+    ],
+    "mnem": "COUNT counts numbers, COUNTA counts anything.",
+    "rel": [
+      "Formulae and Functions",
+      "Financial Functions",
+      "Pivot Tables"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "IV",
+    "unitTitle": "Electronic Spreadsheet",
+    "sub": "Financial Functions",
+    "def": "Financial functions calculate the standard quantities of loan and investment arithmetic - instalment, present value, future value, interest rate and number of periods - from the other variables. In a government office they are used for loan and advance recovery schedules, provident fund projections, and depreciation of assets.",
+    "exp": "Five functions form one family, each returning a different unknown of the same time-value-of-money relationship. Supply any four of the quantities and the function returns the fifth.\n\nPMT returns the fixed periodic payment on a loan - the EMI. PV returns present value, the lump sum today that is equivalent to a stream of future payments. FV returns future value, what a series of deposits or a single sum will grow to by a stated date. RATE returns the interest rate per period. NPER returns how many periods are needed.\n\nThe arguments are the rate per period, the number of periods, and the payment or the present value, with an optional future value and a type argument stating whether payment falls at the start or the end of each period. The consistency rule catches most people: rate and periods must be on the same time basis. For a monthly instalment, the annual rate is divided by twelve and the number of years multiplied by twelve. Money paid out is entered as a negative amount, which is why PMT normally returns a negative figure.\n\nIPMT and PPMT split a single instalment into its interest and principal portions, which is how an amortisation schedule is built. NPV and IRR appraise a project: NPV discounts future cash flows back to today's value, IRR returns the rate at which that net present value becomes zero. SLN and DB compute depreciation, straight-line and declining-balance.",
+    "facts": [
+      "PMT returns the fixed periodic instalment on a loan, PV returns present value, FV returns future value, RATE returns the interest rate per period and NPER returns the number of periods",
+      "Rate and number of periods must share the same unit: for a monthly instalment, divide the annual rate by 12 and multiply the number of years by 12",
+      "IPMT returns the interest portion and PPMT the principal portion of a specified instalment",
+      "NPV discounts a series of future cash flows to present value; IRR is the rate at which NPV equals zero",
+      "SLN computes straight-line depreciation, spreading cost evenly over the asset's life"
+    ],
+    "traps": [
+      "PMT returning a negative number is the sign convention for money going out, not an error",
+      "Present value and future value are the same calculation run in opposite directions: PV discounts backwards to today, FV compounds forwards to a later date",
+      "Feeding an annual rate together with a monthly period count is the commonest mistake; the instalment then comes out absurdly large",
+      "PMT gives the whole instalment and says nothing about how it splits between interest and principal - that is IPMT and PPMT"
+    ],
+    "mnem": "",
+    "rel": [
+      "Statistical Functions",
+      "Formulae and Functions",
+      "What-if Analysis"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "IV",
+    "unitTitle": "Electronic Spreadsheet",
+    "sub": "Data Validation",
+    "def": "Data validation is a rule attached to a cell or range that controls what may be entered there. Excel checks each entry against the rule and rejects, or warns about, anything that does not fit. It is the practical way to stop a data-entry operator typing nonsense into a register that others will later total and report.",
+    "exp": "The rule is set from the Data tab, Data Validation. The Settings tab chooses what is allowed: Whole number, Decimal, List, Date, Time, Text length, or Custom, which takes a formula that must evaluate to true. Each type then takes a condition - between, not between, equal to, greater than, less than - with limits typed in or pointed at cells.\n\nList is the type used most. Give the permitted entries, either typed and separated by commas or, better, as a reference to a range of cells holding the approved values, and the cell gains a drop-down arrow. The operator picks a district name from the approved list instead of spelling it three different ways, and the lookups and pivot tables downstream then actually match.\n\nThe Input Message tab shows a prompt when the cell is selected. That is guidance offered before typing, not a check on anything. The Error Alert tab decides what happens after a bad entry. Stop refuses the entry outright. Warning lets it through after a confirmation. Information merely notes it. Only Stop actually prevents bad data.\n\nThe limits matter. Validation tests typed entries; pasting into a validated cell can overwrite the rule along with the value. Values already in the cells before the rule was created are not re-checked, though Circle Invalid Data will mark them.",
+    "facts": [
+      "Data Validation sits on the Data tab, and its Settings tab chooses the allowed type of entry",
+      "Allowed types include Whole number, Decimal, List, Date, Time, Text length and Custom",
+      "List validation produces a drop-down in the cell; its source may be a typed list or a reference to a range of approved values",
+      "The Input Message appears when the cell is selected and is purely guidance - it validates nothing",
+      "The Error Alert styles are Stop, Warning and Information, and only Stop refuses the entry",
+      "Circle Invalid Data marks existing values that break a validation rule"
+    ],
+    "traps": [
+      "Input Message and Error Alert are separate tabs doing different jobs: the message appears before typing, the alert only after a non-conforming entry",
+      "Warning and Information alerts still allow the wrong value into the cell; only Stop blocks it",
+      "Applying a validation rule does not clean up data already entered - the existing wrong values stay until they are found",
+      "Data validation controls entry; conditional formatting only colours what is already there. They are frequently swapped in options"
+    ],
+    "mnem": "",
+    "rel": [
+      "Workbook Management",
+      "Conditional Formatting",
+      "Sorting and Filtering"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "IV",
+    "unitTitle": "Electronic Spreadsheet",
+    "sub": "Sorting and Filtering",
+    "def": "Sorting rearranges rows into an order based on one or more columns. Filtering hides the rows that do not meet a stated condition, leaving the matching ones visible without deleting anything. Both live on the Data tab and both assume a list in which the first row holds headers and every row below is one record.",
+    "exp": "Ascending sort runs A to Z, smallest to largest, oldest to newest; descending is the reverse. Multi-level sorting is done from the Sort dialog by adding levels - sort by district first, then by department within each district, then by amount. The first level is the primary key, and later levels only break ties inside it. Sorting is also possible by cell colour, font colour or a custom list such as month names.\n\nAutoFilter is the Filter button that drops an arrow onto every header. From it you tick the values to show, or use text, number and date filters such as greater than, top ten, or this month. Conditions applied to different columns combine with AND. Advanced Filter is the separate tool that reads a criteria range written out on the worksheet, and that is what lets it express OR conditions across different columns, accept formula criteria, and copy the matching rows to another location. AutoFilter does none of those.\n\nThe classic disaster is worth stating plainly. Select only one column of a table, sort it, and that column alone is reordered while every other column stays put. Every record now carries another record's data. Nothing is flagged and it can go unnoticed for months. Excel usually offers to expand the selection - accepting that keeps the rows intact. Safer still, click a single cell inside the list and let Excel detect the whole block.",
+    "facts": [
+      "Sorting reorders rows; filtering only hides non-matching rows and deletes nothing",
+      "The Sort dialog supports multiple levels; the first level is the primary key and later levels break ties within it",
+      "AutoFilter places a drop-down on each column header, and conditions on different columns combine with AND",
+      "Advanced Filter uses a criteria range typed on the worksheet, can express OR across different columns, and can copy the results to another location",
+      "Sorting can be done by cell colour or font colour, not only by cell value"
+    ],
+    "traps": [
+      "Sorting one selected column without expanding the selection reorders that column alone and silently corrupts every record in the table. It raises no error at all",
+      "Filtering hides rows but does not remove them, so SUM over a filtered range still includes the hidden rows. SUBTOTAL is the function that ignores rows hidden by a filter",
+      "AutoFilter cannot express OR across two different columns; only Advanced Filter's criteria range can",
+      "A completely blank row or column inside a list breaks Excel's detection of the block, so only part of the data gets sorted or filtered"
+    ],
+    "mnem": "",
+    "rel": [
+      "Workbook Management",
+      "Pivot Tables",
+      "Data Validation"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "IV",
+    "unitTitle": "Electronic Spreadsheet",
+    "sub": "Conditional Formatting",
+    "def": "Conditional formatting applies a format - fill colour, font colour, border or number format - to a cell only while a stated condition about its value is true, and withdraws it automatically when the value changes. It makes a pattern visible across a large sheet without anyone having to read every figure.",
+    "exp": "It sits on the Home tab. The built-in rules cover most needs. Highlight Cells Rules test the value: greater than, less than, between, equal to, text that contains, a date occurring within a period, or duplicate values. Top and Bottom Rules highlight the top or bottom ten items or ten percent, or values above or below the average. Data Bars draw a bar inside each cell proportional to its value. Colour Scales shade the range across a two-colour or three-colour gradient so high and low stand out. Icon Sets place arrows, traffic lights or flags according to which band the value falls into.\n\nNew Rule, then Use a formula to determine which cells to format, is the flexible option. The formula must return true or false and is written as it applies to the top-left cell of the selected range; Excel then applies it relatively across the rest. This is how a whole row is shaded from the value in one column - lock the column with a dollar sign and leave the row relative.\n\nRules are listed in Manage Rules, evaluated in the order shown, and Stop If True halts evaluation once a rule matches. Clear Rules removes them from the selection or the whole sheet.\n\nThe format is display only. The underlying values are untouched, so a red cell still sums, sorts and filters as the ordinary number it is.",
+    "facts": [
+      "Conditional formatting is on the Home tab and reapplies itself automatically whenever the cell values change",
+      "The built-in categories are Highlight Cells Rules, Top and Bottom Rules, Data Bars, Colour Scales and Icon Sets",
+      "A formula-based rule must evaluate to TRUE or FALSE and is written for the top-left cell of the selected range",
+      "Manage Rules shows the rules and their order of evaluation, and Stop If True prevents later rules being applied",
+      "Duplicate and unique values can be highlighted directly from Highlight Cells Rules"
+    ],
+    "traps": [
+      "Conditional formatting changes appearance only. It cannot prevent a wrong entry being made - restricting what may be entered is Data Validation's job",
+      "A colour applied by hand and a colour applied by a rule look identical, but only the rule's colour changes by itself when the value changes",
+      "To shade an entire row from one column's value, the column in the rule formula must be absolute (dollar sign before the letter) with the row left relative; getting this wrong shades a diagonal instead",
+      "Rule order matters. Where two rules set the same property on the same cell, the one higher in Manage Rules wins unless the order is changed"
+    ],
+    "mnem": "",
+    "rel": [
+      "Data Validation",
+      "Formulae and Functions",
+      "Workbook Management"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "IV",
+    "unitTitle": "Electronic Spreadsheet",
+    "sub": "Pivot Tables",
+    "def": "A pivot table is an interactive summary of a list, built by dragging fields rather than by writing formulas. It groups records by the values in chosen columns and aggregates a numeric column for each group - district-wise expenditure totals out of ten thousand records, in seconds, with no formula typed.",
+    "exp": "Insert, PivotTable, on a list whose first row holds unique headers and whose rows are records. The field list then offers four drop areas. Rows places each distinct value of the chosen field down the left as a row heading. Columns does the same across the top. Values holds the field being aggregated, with Sum, Count, Average, Max, Min and others chosen through Value Field Settings. Filters puts a field above the table so the whole summary can be restricted to one value.\n\nMoving a field between those areas is what pivoting means: the same data re-summarised along a different axis with nothing rebuilt. Fields can be grouped - dates into months, quarters and years, numbers into bands. Show Values As converts a figure into a percentage of the row, column or grand total. Double-clicking a summary figure drills through to the underlying records on a new sheet. Slicers give clickable filter buttons.\n\nThe operational point that gets examined: a pivot table is a snapshot of its source taken when it was built or last refreshed. Correcting values in the source data does not update it. It must be refreshed - Refresh on the PivotTable Analyze tab, or right-click and Refresh. And if rows have been added beyond the original range, Refresh alone will not pick them up; the data source has to be changed, unless it was defined as an Excel table or a dynamic named range.",
+    "facts": [
+      "A pivot table summarises data without formulas, using the Rows, Columns, Values and Filters areas",
+      "The default aggregation is Sum for a numeric field and Count for a text field, changed through Value Field Settings",
+      "A pivot table does not update when its source data changes; it must be refreshed",
+      "Rows added beyond the original source range need the data source to be changed, unless the source is an Excel table or a dynamic named range",
+      "Double-clicking a value in a pivot table drills through to the source records on a new sheet",
+      "The source list must have a header row with unique, non-blank column names"
+    ],
+    "traps": [
+      "Refresh is not automatic. Corrected source figures keep showing the old totals until the pivot table is refreshed - a favourite exam question and a genuine reporting error in offices",
+      "Refresh re-reads the existing source range only; it does not stretch that range to cover newly appended rows",
+      "A pivot table is not a filter. Filtering hides rows and leaves the records intact; a pivot table aggregates records into groups",
+      "Blank or duplicated header names in the source stop the pivot table being created at all"
+    ],
+    "mnem": "Four areas: Rows, Columns, Values, Filters.",
+    "rel": [
+      "Pivot Charts",
+      "Dashboards",
+      "Sorting and Filtering"
+    ]
+  }
+]

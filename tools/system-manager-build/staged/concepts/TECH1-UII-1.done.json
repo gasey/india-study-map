@@ -1,0 +1,215 @@
+[
+  {
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Types and Functions of Operating Systems",
+    "def": "An operating system is the system software that sits between the hardware and the user's applications. It manages the machine's resources, provides an environment in which programs run, and gives the user an interface to work through. It is loaded into main memory at boot and stays resident; without it every application would have to drive the hardware itself.",
+    "exp": "The OS has five core functions, and the whole unit hangs off this list. Process management creates, schedules, switches and terminates running programs. Memory management decides which process occupies which part of RAM and provides virtual memory. File management organises data on disk into files and directories and controls access to them. Device management drives printers, disks, keyboards and network cards through device drivers. And it provides the user interface, either a command line or a graphical one. Security and protection, and accounting of resource use, are usually listed alongside these.\n\nTypes are classified by how work reaches the machine. A batch OS collects jobs and runs them one after another with no user interaction during the run. A time-sharing or multi-user OS switches the CPU rapidly between users so each appears to have the machine to themselves; Unix, Linux and Windows Server work this way. A real-time OS guarantees a response within a fixed deadline and is used in industrial control, medical equipment and avionics. A distributed OS presents several networked computers as one system. An embedded OS is small and fixed-function, burnt into a router, ATM or smart TV. Android and iOS are mobile operating systems.\n\nThe kernel is the core of the OS, holding the scheduler, memory manager and drivers. The shell or GUI is only the outer interface layer, which is why the same Linux kernel appears under many different desktops.",
+    "facts": [
+      "An operating system is system software, not application software; the resident kernel is loaded into main memory when the computer boots",
+      "The five core functions are process management, memory management, file management, device management and providing the user interface",
+      "MS-DOS is a single-user, single-tasking OS; Windows, Linux, Unix and macOS are multitasking",
+      "A real-time OS is judged on meeting deadlines, not on average throughput or fairness",
+      "The kernel is the core of the OS; the shell or GUI is the interface layer around it"
+    ],
+    "traps": [
+      "Multiprogramming, multitasking and multiprocessing are different: multiprogramming keeps several jobs in memory, multitasking switches the CPU between them fast enough to feel interactive, multiprocessing means more than one physical CPU or core",
+      "Time-sharing is not real-time. Time-sharing shares the CPU fairly; a real-time OS guarantees a deadline. 'Fast' does not mean 'real-time'",
+      "A distributed OS makes many machines behave as one system; a network OS merely lets separate machines share files and printers over a network",
+      "Utilities such as antivirus, disk cleanup and defragmenter are utility software running on the OS, not parts of the kernel"
+    ],
+    "mnem": "Functions: Process, Memory, File, Device, Interface.",
+    "rel": ["Process Management", "Memory Management", "File Systems"]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Process Management",
+    "def": "A process is a program in execution. The program is the passive file sitting on disk; the process is the active instance in memory with its own address space, program counter, register contents and open files. Process management is the OS function that creates, schedules, switches and terminates processes and keeps them from interfering with one another.",
+    "exp": "A thread is a unit of execution inside a process. Threads of the same process share its memory and open files, so switching between threads is cheaper than switching between processes. A modern application is typically one process with many threads.\n\nA process moves through five states. New, while it is being created. Ready, when it has everything it needs except the CPU and is queued for it. Running, when it is actually executing, which only one process per core can do at a time. Waiting or blocked, when it is stopped for input or output and could not use the CPU even if offered it. Terminated, when it has finished. Everything the OS knows about a process, including its state and saved registers, is held in its Process Control Block.\n\nA context switch saves the running process's state into its PCB and loads another's. It is pure overhead: during a switch no useful work is done.\n\nThe scheduler picks which ready process runs next, using policies such as first-come-first-served, shortest job first, round robin with a fixed time slice, or priority. Preemptive scheduling can take the CPU away mid-run; non-preemptive waits for the process to yield.\n\nDeadlock is the classic failure: each process holds a resource and waits for one held by another, so none can proceed.",
+    "facts": [
+      "Program is passive and on disk; process is active and in memory. One program can be running as several processes at once",
+      "The five process states are new, ready, running, waiting (blocked) and terminated",
+      "The Process Control Block holds a process's state, program counter, registers and resource list, and is what a context switch saves and restores",
+      "Deadlock needs four conditions together: mutual exclusion, hold and wait, no preemption, and circular wait. Breaking any one prevents it",
+      "The Banker's algorithm is a deadlock avoidance technique: it grants a request only if the system stays in a safe state",
+      "Threads of one process share its address space and open files; separate processes do not"
+    ],
+    "traps": [
+      "Ready is not waiting. A ready process needs only the CPU; a waiting (blocked) process is stopped for I/O and would not use the CPU even if given it",
+      "Deadlock is not starvation. In deadlock a circular wait means no process can ever proceed; in starvation a low-priority process is indefinitely postponed but could still run if the load eases",
+      "The Banker's algorithm avoids deadlock, it does not detect or recover from an existing one",
+      "A context switch is overhead, not work. More frequent switching improves responsiveness but reduces total throughput"
+    ],
+    "mnem": "",
+    "rel": ["Types and Functions of Operating Systems", "Memory Management", "Task Manager"]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Memory Management",
+    "def": "Memory management is the OS's control of main memory: deciding which process gets which part of RAM, keeping each process out of the others' space, reclaiming memory when a process ends, and creating the illusion of more memory than is physically fitted. The hardware side of RAM and virtual memory is covered separately in Unit I; this concept is about what the OS does with it.",
+    "exp": "In contiguous allocation each process gets one unbroken block. Loading and unloading processes over time leaves free memory scattered in pieces individually too small to use, which is external fragmentation. With fixed-size partitions the opposite happens: a process gets a block larger than it needs and the leftover inside that block is wasted, which is internal fragmentation.\n\nPaging removes external fragmentation. Physical memory is divided into fixed-size frames and each process's address space into pages of the same size. Any page can go into any free frame, and a page table maps page numbers to frame numbers. Only the last page is partly empty, so a little internal fragmentation remains.\n\nSegmentation divides a program by logical unit instead: code, data and stack as variable-size segments. This matches the programmer's view but brings external fragmentation back.\n\nVirtual memory keeps only the pages currently in use in RAM and leaves the rest on disk, in pagefile.sys on Windows or a swap partition or file on Linux. A reference to a page not resident causes a page fault; the OS fetches that page, evicting another chosen by a replacement policy such as FIFO or LRU.\n\nThrashing is over-commitment showing itself: too many processes for the RAM available, so the system spends nearly all its time paging and almost none executing. The disk runs constantly and throughput collapses. The fixes are fewer running processes or more RAM.",
+    "facts": [
+      "Paging uses fixed-size pages and frames; segmentation uses variable-size logical segments matching program structure",
+      "Internal fragmentation belongs to fixed-size allocation (paging, fixed partitions); external fragmentation belongs to variable-size allocation (contiguous allocation, segmentation)",
+      "A page fault occurs when a referenced page is not present in RAM and must be brought in from the swap area",
+      "Windows keeps its swap area in the file pagefile.sys; Linux uses a swap partition or swap file",
+      "Belady's anomaly is the case where adding more page frames increases page faults; it can occur with FIFO replacement but not with LRU or optimal",
+      "Thrashing is excessive paging that leaves the CPU nearly idle while the disk stays busy"
+    ],
+    "traps": [
+      "Internal vs external fragmentation is the standard MCQ. Internal is waste inside an allocated block; external is unusable gaps between blocks",
+      "Virtual memory does not make the machine faster or add real RAM. It is disk-backed and far slower than RAM; it only lets larger or more numerous programs run",
+      "Thrashing is not an out-of-memory error. The system keeps running, just uselessly slowly, because it is paging constantly",
+      "Paging is done by the OS with hardware support and is invisible to the program; segmentation reflects the program's own logical divisions"
+    ],
+    "mnem": "Internal = wasted Inside a block. External = wasted between blocks.",
+    "rel": ["Process Management", "Types and Functions of Operating Systems", "File Systems"]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "File Systems",
+    "def": "A file system is the scheme an operating system uses to organise data on a storage volume: how files are named, where their contents are placed in clusters on the medium, and what metadata such as size, dates, ownership and permissions is kept about each one. Formatting a volume means writing an empty file-system structure onto it.",
+    "exp": "FAT32 is old and simple. It has no journal and no per-file permissions, but almost every operating system and device can read it, so it survives on USB sticks and camera cards. Its hard limit is 4 GB for any single file: that is why a large ISO or video refuses to copy to a FAT32 pen drive even when gigabytes of free space remain.\n\nNTFS is the default for Windows system drives. It is journaled, meaning it logs pending metadata changes so the volume can be returned to a consistent state after a crash or power cut. It supports per-file and per-folder permissions, compression, EFS encryption, disk quotas and very large files. Metadata for every file and directory on the volume lives in the Master File Table.\n\nexFAT was designed for flash media. It keeps FAT's simplicity and cross-platform reach but removes the 4 GB file limit. It has no journal and no permissions, and it is the right choice for a large USB drive shared between Windows, macOS and Linux.\n\next4 is the usual Linux default: journaled, with POSIX owner, group and other read/write/execute permissions. Windows cannot read ext4 without extra software.\n\nThe cluster is the smallest chunk given to a file; the unused remainder of the last cluster is slack space. Fragmentation is a file's clusters ending up scattered, which slows reads on a mechanical disk.",
+    "facts": [
+      "The maximum size of a single file on a FAT32 volume is 4 GB",
+      "NTFS provides journaling and per-file permissions; FAT32 provides neither",
+      "The Master File Table (MFT) stores the metadata for every file and directory on an NTFS volume",
+      "exFAT is intended for flash media: cross-platform, no 4 GB file limit, but no journaling and no permissions",
+      "ext4 is the common default Linux file system, journaled and using POSIX owner/group/other permissions",
+      "Slack space is the unused portion of the last cluster allocated to a file"
+    ],
+    "traps": [
+      "exFAT is not 'FAT32 with permissions'. It lifts the file-size limit but still has no journal and no access permissions",
+      "The FAT32 4 GB figure is a per-file limit, not a volume-size limit",
+      "Defragmentation helps mechanical hard disks. SSDs are not defragmented; Windows maintains them with TRIM instead",
+      "A quick format only rewrites the file-system structure and leaves the old data recoverable on the medium; it is not secure erasure"
+    ],
+    "mnem": "",
+    "rel": ["Windows Operating Systems", "Files and Folders", "Memory Management"]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Windows Operating Systems",
+    "def": "Windows is Microsoft's family of graphical, multitasking operating systems built on the NT kernel. The client versions, Windows 10 and Windows 11, run on desktops and laptops; the Windows Server line runs network roles such as domain controller, file, print and web server. NTFS is the default file system on the system drive.",
+    "exp": "Editions matter in an office. Home covers a personal PC. Pro and Enterprise add the features an organisation needs: joining a domain, Group Policy management, BitLocker drive encryption and hosting Remote Desktop sessions. That is the practical reason a government office specifies Pro machines rather than Home.\n\nArchitecture: 32-bit Windows can address only about 4 GB of RAM, while 64-bit editions address far more. A 64-bit Windows runs 32-bit applications, but a 32-bit Windows cannot run 64-bit applications.\n\nThe user-facing shell is File Explorer, with the Start menu, taskbar and notification area. Configuration is split between the modern Settings app and the older Control Panel; both still exist and some legacy items are only reachable through Control Panel.\n\nStartup runs firmware (BIOS or UEFI), then the boot loader, then the Windows kernel and drivers, then the sign-in screen. The power states are commonly examined: sleep keeps the session in RAM and resumes in seconds but still draws power and loses the session if power fails; hibernate writes the session to disk and uses no power, resuming more slowly.\n\nWindows Update delivers security patches and feature updates. Keeping it current is the single most effective routine defence on an office machine, and modern Windows is serviced with rolling updates rather than replaced by a new product every few years.",
+    "facts": [
+      "Windows 10 and Windows 11 are the client versions; Windows Server is the separate server line, both built on the NT kernel",
+      "32-bit Windows is limited to roughly 4 GB of addressable RAM; 64-bit editions support far more",
+      "Domain join, Group Policy and BitLocker are Pro and Enterprise features, not available in Home",
+      "Sleep holds the session in RAM and needs power; hibernate writes the session to disk and needs none",
+      "File Explorer is the graphical shell, and NTFS is the default file system for the Windows system drive"
+    ],
+    "traps": [
+      "Sleep versus hibernate is a standard question. Sleep is fast resume but power-dependent; hibernate is slower resume but survives a power cut",
+      "Settings has not replaced Control Panel. Both are present, and some older configuration exists only in Control Panel",
+      "A 64-bit Windows runs 32-bit software, but 32-bit Windows cannot run 64-bit software. The compatibility runs one way only",
+      "Windows Home cannot be joined to a domain, however much RAM or how new the machine is"
+    ],
+    "mnem": "",
+    "rel": ["File Systems", "User Accounts", "Types and Functions of Operating Systems"]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "User Accounts",
+    "def": "A Windows user account is the identity a person signs in with. It owns a profile holding that person's desktop, documents and settings, and it carries a set of rights. Two things are decided separately: the account type, Standard or Administrator, which sets what the person may change; and the account source, a local account stored on that PC, a Microsoft account, or a domain account managed centrally.",
+    "exp": "A Standard user can run programs, use and save their own files, and change settings that affect only themselves. They cannot install software for all users, change other people's accounts, alter system-wide settings or write to protected system areas without an administrator's credentials. An Administrator has full control: install and uninstall software, change any setting, manage other accounts and take ownership of files.\n\nThe principle of least privilege says do daily work from a Standard account and use an administrator account only when a task genuinely needs it. The reason is concrete. Malware runs with the rights of the account that started it. In a Standard session it cannot install itself system-wide, cannot alter Windows itself and cannot reach other users' profiles. In an administrator session it can do all three.\n\nRights are normally granted through group membership rather than one account at a time. Administrators, Users, Guests and Remote Desktop Users are the standard local groups. Local accounts and groups are managed through Settings, Control Panel's User Accounts, Computer Management's Local Users and Groups node, or the net user command.\n\nEach person on a shared machine should have their own named account. Shared logins destroy accountability: the logs then show only that the office PC did something, not who.",
+    "facts": [
+      "Account type (Standard or Administrator) and account source (local, Microsoft or domain) are independent choices",
+      "A Standard user cannot install software for all users or change system-wide settings without administrator credentials",
+      "Rights are normally assigned by adding an account to a group such as Administrators or Users",
+      "The Guest account is disabled by default in modern Windows",
+      "Each account gets its own profile folder holding its desktop, documents and settings",
+      "Local Users and Groups, inside Computer Management, is the console for managing local accounts on a Windows machine"
+    ],
+    "traps": [
+      "Standard is not Guest. A Standard account is a normal named user with a full profile; Guest is a restricted, disabled-by-default account",
+      "A Microsoft account is not automatically an administrator, and a local account is not automatically standard. The two attributes are set separately",
+      "Disabling an account is not deleting it. Deleting can remove the profile and the user's data with it; disabling just blocks sign-in",
+      "Running as administrator does not remove the need to sign in as that user's own identity; shared administrator logins break audit trails"
+    ],
+    "mnem": "",
+    "rel": ["Windows Security", "Windows Operating Systems", "Event Viewer"]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Windows Security",
+    "def": "Windows Security is the set of protections built into the operating system for the machine and its data: User Account Control, Microsoft Defender antivirus and firewall, BitLocker drive encryption, NTFS permissions, Windows Update, and the local security policy that sets password and audit rules.",
+    "exp": "User Account Control is the elevation gate. When an action needs administrative rights, Windows dims the screen and asks: an administrator gives consent, a standard user must supply an administrator's credentials. An administrator normally runs with a filtered, standard-level token, and the full token is used only after that prompt. UAC is therefore not a nuisance dialog; it is what stops software elevating silently. Right-clicking and choosing Run as administrator requests elevation explicitly.\n\nMicrosoft Defender Antivirus is built in and on by default, scanning in real time with definitions delivered through Windows Update, and it steps aside when a third-party antivirus is installed. Microsoft Defender Firewall filters network traffic with a separate rule set per network profile: domain, private or public.\n\nBitLocker encrypts an entire volume, typically with keys protected by the TPM chip. A drive pulled out of a stolen laptop yields nothing readable. It protects data at rest only: once the machine is unlocked and running, files are readable as normal. EFS, by contrast, encrypts individual files and folders per user on an NTFS volume.\n\nNTFS permissions and share permissions together decide who reads or writes what over the network, and where they differ the more restrictive one wins.\n\nLocal Security Policy, and Group Policy on a domain, sets password length and complexity, account lockout after failed sign-ins, and audit policy. Audited events, including failed logons, go to the Security log in Event Viewer.",
+    "facts": [
+      "UAC asks an administrator for consent and asks a standard user for administrator credentials",
+      "BitLocker encrypts a whole volume; EFS encrypts individual files and folders for a particular user on NTFS",
+      "BitLocker protects data at rest, for example a lost or stolen machine or a drive removed from it",
+      "Microsoft Defender Antivirus is enabled by default and disables itself when a third-party antivirus is installed",
+      "Failed logon attempts are recorded in the Security log in Event Viewer",
+      "Where NTFS permissions and share permissions differ, the more restrictive permission takes effect"
+    ],
+    "traps": [
+      "BitLocker is not antivirus and does not stop malware. It only makes the drive unreadable without the key",
+      "BitLocker versus EFS: whole drive versus selected files. Encrypting the drive does not hide files from another user signed in on that same running machine",
+      "Turning UAC off does not remove the requirement for administrative rights; it removes the prompt, so elevation happens silently. That is a loss of security, not a convenience setting",
+      "Antivirus and firewall are different jobs. Antivirus inspects files and behaviour on the machine; the firewall filters network traffic in and out"
+    ],
+    "mnem": "",
+    "rel": ["User Accounts", "Windows Operating Systems", "Event Viewer"]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Windows Terminal",
+    "def": "Windows Terminal is a terminal application, a host window that displays and manages command-line shells. It is not itself a shell and has no commands of its own. Command Prompt, PowerShell, Azure Cloud Shell or a WSL Linux distribution run inside it and supply the commands. It is the default terminal application on current Windows.",
+    "exp": "Grasp the distinction and the exam question answers itself. The terminal is the window: it draws the text, handles the keyboard, manages tabs and colours. The shell is the program running inside it that interprets what you type. Swap the terminal and your commands are unchanged; swap the shell, from Command Prompt to PowerShell, and the command language changes. The command dir works in both, but Get-ChildItem works only in PowerShell.\n\nWhat Windows Terminal adds over the old console window: multiple tabs and split panes in one window, a profile for each shell with its own starting directory, colour scheme, font and command line, full Unicode and UTF-8 support, GPU-accelerated text rendering, search, and settings held in a JSON file that can also be edited through a settings interface.\n\nThe two shells you will meet inside it. Command Prompt (cmd.exe) is the legacy DOS-style interpreter that passes plain text between commands. PowerShell is object-based: its cmdlets follow a Verb-Noun naming pattern, such as Get-Process or Set-Service, and pass structured objects down the pipeline, so you can filter on a property without parsing text.\n\nWindows Terminal is launched from the Start menu or by running wt. Starting it as administrator elevates every shell opened in that window, so elevation is a property of the terminal window rather than of an individual tab's shell.",
+    "facts": [
+      "Windows Terminal is a terminal host or emulator, not a shell and not a command language",
+      "It hosts Command Prompt, PowerShell, WSL Linux distributions and Azure Cloud Shell, each configured as a profile",
+      "It provides multiple tabs and split panes within a single window, which the old console window could not do",
+      "Its configuration is stored in a JSON settings file, editable directly or through the settings UI",
+      "It is launched by the command wt"
+    ],
+    "traps": [
+      "Terminal versus shell is the examinable point. Windows Terminal displays a shell; Command Prompt and PowerShell are the shells that interpret commands",
+      "Windows Terminal does not replace PowerShell and introduces no new commands. Installing it changes nothing about what you can type",
+      "Windows PowerShell (built into Windows) and the newer cross-platform PowerShell are separate products, and both can appear as profiles in the same terminal",
+      "Running the terminal as administrator elevates all tabs opened in that window; you cannot mix elevated and non-elevated shells in one window"
+    ],
+    "mnem": "Terminal = the window. Shell = the brain inside it.",
+    "rel": ["Command Prompt", "PowerShell Fundamentals", "Windows Operating Systems"]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Registry",
+    "def": "The Windows Registry is the central hierarchical database in which Windows and installed applications store configuration settings: hardware and driver information, installed software, file associations, service definitions and per-user preferences. It replaced the scattered INI text files of early Windows, and it is read at boot and continuously while the system runs.",
+    "exp": "The structure resembles File Explorer. Root keys, also called hives, contain keys and subkeys, and each key holds values. A value has a name, a data type such as string, DWORD (numeric) or binary, and its data. Keys behave like folders and values like the files inside them.\n\nThe root keys at a high level: HKEY_LOCAL_MACHINE holds settings for the computer that apply to everyone who signs in; HKEY_CURRENT_USER holds settings for the account currently signed in; HKEY_USERS holds the loaded profiles of all users; HKEY_CLASSES_ROOT holds file associations and component registration; HKEY_CURRENT_CONFIG holds the current hardware profile. Changing anything machine-wide requires administrative rights; a user's own branch does not.\n\nPhysically the hives are protected files in the Windows system folder and, for each user, in that user's profile. They are not one visible file you can copy. Registry Editor (regedit) browses and edits them; the reg command and PowerShell can script changes.\n\nWhy editing is risky: there is no undo and no confirmation step. A wrong value or a deleted key takes effect immediately and can leave an application broken or Windows unbootable, with nothing recorded to say what changed. Before any edit, export the key to a .reg backup file and set a System Restore point.\n\nThe rule for practice: change settings through Settings, Control Panel or Group Policy, which write the same values correctly. Edit the registry directly only when a documented fix requires it.",
+    "facts": [
+      "The Registry is a hierarchical database of configuration settings that replaced the INI files used by early Windows",
+      "Registry Editor, launched as regedit, is the tool for viewing and editing it",
+      "HKEY_LOCAL_MACHINE holds machine-wide settings for all users; HKEY_CURRENT_USER holds settings for the signed-in user only",
+      "Keys contain values, and each value has a name, a data type such as string, DWORD or binary, and data",
+      "Registry Editor has no undo; the standard precaution is exporting the key to a .reg file and setting a System Restore point first",
+      "Group Policy configures machines centrally by writing registry settings, which is why it is preferred on domain-joined office PCs"
+    ],
+    "traps": [
+      "HKLM versus HKCU is the standard question. HKLM applies to the whole computer; HKCU applies only to the account currently signed in",
+      "The Registry is not a single file. The hives are several protected system files, so it cannot simply be copied or edited in a text editor",
+      "Registry editing is not a performance tune. So-called registry cleaner utilities promise speed gains they do not deliver and can break working software",
+      "System Restore rolls back registry and system files, not personal data. It is not a substitute for a real backup"
+    ],
+    "mnem": "HKLM = Local Machine, everyone. HKCU = Current User, just you.",
+    "rel": ["Windows Operating Systems", "Windows Security", "Services"]
+  }
+]

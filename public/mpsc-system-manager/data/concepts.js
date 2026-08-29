@@ -447,6 +447,662 @@ window.CONCEPTS = [
   },
   {
     "id": "c16",
+    "paper": "GE",
+    "unit": "3",
+    "unitTitle": "Comprehension of given passages",
+    "sub": "How to read an unseen passage under time pressure",
+    "def": "Comprehension in this paper is a block of objective questions set on a passage you have not seen before, carrying 15 marks. The task is not to understand the passage completely; it is to answer its questions accurately and quickly. That makes your reading a controlled search rather than ordinary reading.",
+    "exp": "Skim the question stems first - just the stems, not the options. Thirty seconds of that tells you what the passage is about and what you are hunting for. In the 2016 papers a single passage carried five to sixteen questions, so it pays back many times over.\n\nThen read the passage once, straight through, at normal speed. Do not stop at unfamiliar words. You are after the shape of the argument: what is claimed, what is offered as evidence, and where the author turns. Put a light number in the margin whenever you pass something a question asked about.\n\nNow answer, using a second targeted pass. Comprehension questions are normally set in the order the material appears, so the answer to question four sits between the answers to three and five. Use that to locate lines instead of re-reading the whole passage for each question.\n\nAnswer only from the passage. If you already know the topic, your own knowledge becomes a liability: the examiner builds distractors that are true in the world but absent from the text.\n\nBudget roughly a third of your comprehension time on reading and two thirds on answering and verifying. If a question resists after two lookups, mark it, move on and come back. One hard inference question carries the same mark as an easy detail question.",
+    "facts": [
+      "Comprehension carries 15 marks in the General English paper",
+      "Questions are normally set in the order the material appears in the passage",
+      "Every answer must be provable from the passage alone, not from prior knowledge",
+      "The recurring question types are main idea, detail, inference, meaning-of-a-word and find-the-word-in-the-passage",
+      "In the 2016 papers one sitting set a single long passage with sixteen questions and the other set three shorter passages sharing the same total"
+    ],
+    "traps": [
+      "Reading the four options before the passage - they plant ideas you then go looking for",
+      "Answering from general knowledge: a statement can be perfectly true and still not be what the passage says",
+      "Spending three minutes on one inference question and running out of time for four easy detail questions",
+      "Assuming a word carries its usual meaning instead of the one the passage gives it"
+    ],
+    "mnem": "Stems, sweep, search - skim the stems, sweep the passage once, then search for each answer.",
+    "rel": [
+      "Main idea, tone and the author's stance",
+      "Vocabulary-in-context questions",
+      "Why lifting sentences verbatim loses marks"
+    ],
+    "derived": true,
+    "prov": "The official syllabus lists this General English component with its marks only and enumerates no subtopics. This breakdown is derived, not official."
+  },
+  {
+    "id": "c17",
+    "paper": "GE",
+    "unit": "3",
+    "unitTitle": "Comprehension of given passages",
+    "sub": "Main idea, tone and the author's stance",
+    "def": "The main idea is the single claim the passage exists to advance. Tone is the author's attitude to the material - approving, critical, detached, ironic. Stance is the position the author takes on the question at issue. Questions on all three give you four statements that could all be true, and ask which one the passage actually commits to.",
+    "exp": "The working test is simple: which of these four sentences would the author sign their name to? Not which is true, and not which you agree with.\n\nSeparate the topic from the main idea. Good manners is a topic. That good manners are acquired at home by imitation and are what make a person civilised is a main idea. Distractors are usually written at topic level, which is why they read as reasonable.\n\nWatch scope. The 2016 manners passage asks whether good manners are inherent, acquired, imitated or taught. Imitation and teaching are both mentioned as mechanisms, so they feel supported - but the question asks what good manners are, and the passage's claim is that they are acquired rather than inborn. A true detail answered at the wrong scope is the commonest wrong answer in this unit.\n\nTone is read off word choice. The 2016 passage on the origins of religion describes early man creating gods out of fear, and priests gaining political power by joining hands with despotic rulers. That is an analytical, sceptical stance, and it rules out every option phrased in the believer's vocabulary - spiritual revelation, the dictates of religious faith. Once you have fixed the stance, whole options fall away without further checking.",
+    "facts": [
+      "The main idea is the claim the whole passage serves; the topic is only what it is about",
+      "Tone is inferred from the author's word choice and is almost never stated outright",
+      "A distractor can be factually true and still wrong, because the passage does not assert it",
+      "Fixing the author's stance eliminates options written from the opposing viewpoint",
+      "The same skill is tested on the written side when you supply a title or write a precis"
+    ],
+    "traps": [
+      "Topic-level options - broad, true, and not the claim this passage makes",
+      "Offering a memorable detail or example as the main idea; the vivid illustration is rarely the thesis",
+      "Choosing the option that matches your own view of the subject rather than the author's",
+      "Missing a turn in the argument and stating the position the author was arguing against"
+    ],
+    "mnem": "",
+    "rel": [
+      "Finding the controlling idea",
+      "Inference questions and answering in your own words",
+      "How to read an unseen passage under time pressure"
+    ],
+    "derived": true,
+    "prov": "The official syllabus lists this General English component with its marks only and enumerates no subtopics. This breakdown is derived, not official."
+  },
+  {
+    "id": "c18",
+    "paper": "GE",
+    "unit": "3",
+    "unitTitle": "Comprehension of given passages",
+    "sub": "Inference questions and answering in your own words",
+    "def": "An inference question asks for something the passage supports but never states in those words. The stems are Why, How, What made, What is meant by. A valid answer follows from the text in one short step; anything that needs an assumption you brought from outside is a guess, not an inference.",
+    "exp": "Apply the one-step rule. Find the line the question points at, then ask what it forces you to conclude. If you can defend your answer by quoting a sentence or two and adding nothing, it is an inference. If your defence begins with words like normally a king would, it is speculation - and speculation is what the wrong options are made of.\n\nTake the 2016 jester passage. Why did the jester joke at the king's expense? Real life suggests malice, an old score, or a lesson for the courtiers - and three options say exactly that. The passage supports only that he expected the king to enjoy it as usual. In the same passage nobody could complain about his arrogance, not because the king was powerful but because the king was fond of him; the passage states the fondness and the reader supplies the rest.\n\nOn the written side the same questions appear as short answers, with the instruction to answer in your own words. Build the answer by turning the question stem into a statement and completing it: the jester joked at the king's expense because he expected the king to appreciate it. One or two sentences is right. Do not write out the whole paragraph hoping the marker will find the answer inside; unasked material earns nothing and can contradict the part that was right.",
+    "facts": [
+      "Inference stems in this paper are Why, How, What made and What is meant by",
+      "A valid inference requires no fact from outside the passage",
+      "Short-answer comprehension normally carries the instruction to answer in your own words",
+      "Turning the question stem into the opening of your sentence keeps the answer on the asked point",
+      "Inference questions carry the same mark as detail questions, so they are not worth extra time"
+    ],
+    "traps": [
+      "Real-world plausibility - options describing how people usually behave rather than what this passage says",
+      "Over-inference: an answer two or three steps from the text is no longer supported by it",
+      "Padding the written answer so the point is buried; surplus material earns no marks",
+      "Copying the sentence you located instead of restating it in your own construction"
+    ],
+    "mnem": "",
+    "rel": [
+      "Why lifting sentences verbatim loses marks",
+      "Main idea, tone and the author's stance"
+    ],
+    "derived": true,
+    "prov": "The official syllabus lists this General English component with its marks only and enumerates no subtopics. This breakdown is derived, not official."
+  },
+  {
+    "id": "c19",
+    "paper": "GE",
+    "unit": "3",
+    "unitTitle": "Comprehension of given passages",
+    "sub": "Vocabulary-in-context questions",
+    "def": "Two shapes appear. In the first, a word from the passage is quoted and you give its meaning as used there. In the second, a meaning is supplied and you must find the word in the passage that carries it. Both are answered by going back to the line, not by recalling a dictionary entry.",
+    "exp": "Take the find-the-word type first, because it is where marks are lost. Find the word in the passage which means intruding beyond acceptable limits - options amass, interacts, encroaching, offensive. Every option is a word that appears in the passage, so general vocabulary cannot separate them. The method is mechanical. Split the gloss into its parts, intruding plus beyond acceptable limits. Locate each candidate in the passage and read its sentence. Amass is to pile up, usually wealth. Interacts is neutral contact. Offensive names an effect, not an intrusion. Encroaching is the only word carrying both halves of the gloss. Grammar narrows it further: a gloss written as a participle, intruding, points to a participle answer.\n\nFor the meaning-of-a-word type, substitute each option into the passage sentence and read it in your head. Do not monopolise the conversation takes to obtain exclusive control. A board game is the best-known literal sense, planted for the candidate who never went back to the line. To overpower someone overshoots - monopolising is about taking the whole of something, not defeating a person.\n\nNever answer these from vocabulary alone. The examiner picks words whose ordinary sense and passage sense differ just enough to punish exactly that, and the passage sentence settles it in seconds.",
+    "facts": [
+      "In a find-the-word question all four options are words drawn from the passage itself",
+      "The answer to a find-the-word question must actually appear in the passage - an option that does not appear cannot be right",
+      "Monopolise means to obtain exclusive control",
+      "Encroaching means intruding beyond acceptable limits",
+      "The grammatical form of the gloss usually matches the grammatical form of the answer word"
+    ],
+    "traps": [
+      "Answering from a remembered dictionary meaning instead of the sentence in front of you",
+      "The literal or best-known sense planted as a distractor - monopolise offered as a board game",
+      "A near-synonym that is stronger or weaker than the gloss - overpower for monopolise",
+      "Picking a word that names the effect rather than the act - offensive for encroaching"
+    ],
+    "mnem": "",
+    "rel": [
+      "How to read an unseen passage under time pressure",
+      "Inference questions and answering in your own words"
+    ],
+    "derived": true,
+    "prov": "The official syllabus lists this General English component with its marks only and enumerates no subtopics. This breakdown is derived, not official."
+  },
+  {
+    "id": "c20",
+    "paper": "GE",
+    "unit": "3",
+    "unitTitle": "Comprehension of given passages",
+    "sub": "Why lifting sentences verbatim loses marks",
+    "def": "Copying a sentence out of the passage proves you found the right place. It does not prove you understood it. Comprehension marks are awarded for reformulation, so a verbatim lift is at best part-credited on a short answer, and in a precis it is penalised outright.",
+    "exp": "The skill under test is transformation - taking what the author said and saying it yourself, shorter and in your own construction. A copied sentence demonstrates none of that, and a marker spots it instantly.\n\nThe damage differs by task. In a precis you have roughly a third of the original word count, so one lifted sentence spends much of the budget on the author's phrasing, illustration and rhetoric - the things the precis was meant to remove. In a short comprehension answer the lifted sentence almost always carries material the question did not ask for, and the surplus can contradict the part that was right.\n\nThe reliable technique is: find the line, look away from the paper, then write. Change the sentence frame - if the author used a passive, use an active; if the author gave a list, name the category. Keep technical terms, proper nouns, numbers and quoted phrases exactly as they stand, because paraphrasing those introduces error.\n\nThe same principle bites on the objective side. An option that repeats the passage's exact wording is often a distractor lifted from the wrong sentence. In the 2016 manners passage, the question on why living in society is not an easy job offers the familiar phrase about man being a social animal, but the passage's actual reason is that one must follow socially accepted codes of conduct.",
+    "facts": [
+      "Comprehension and precis marks are given for reformulation, not for locating the sentence",
+      "A precis runs to about one third of the original passage, which no verbatim answer can respect",
+      "Technical terms, proper nouns, numbers and quoted phrases are kept as they stand",
+      "A precis must be in the third person and in reported speech, which by itself blocks most verbatim lifting",
+      "Changing the sentence frame - passive to active, list to category name - is the fastest way to reformulate"
+    ],
+    "traps": [
+      "Lifting the passage's topic sentence as the precis opening instead of writing the controlling idea yourself",
+      "Assuming that familiar passage wording in an MCQ option marks it correct; it is often lifted from the wrong sentence",
+      "Paraphrasing so hard that a technical term or proper noun is changed and the meaning shifts",
+      "Copying a long sentence for a short answer, so unasked material dilutes or contradicts the right part"
+    ],
+    "mnem": "",
+    "rel": [
+      "What a precis is and is not",
+      "Third person and reported speech",
+      "Inference questions and answering in your own words"
+    ],
+    "derived": true,
+    "prov": "The official syllabus lists this General English component with its marks only and enumerates no subtopics. This breakdown is derived, not official."
+  },
+  {
+    "id": "c21",
+    "paper": "GE",
+    "unit": "4",
+    "unitTitle": "Grammar: Parts of Speech",
+    "sub": "The eight parts of speech and how to tell them apart",
+    "def": "The traditional eight classes English words are sorted into: noun, pronoun, verb, adjective, adverb, preposition, conjunction and interjection. The exam expects these eight. A word belongs to a class by the job it does in its sentence, not by its meaning, so every reliable test is a test of function.",
+    "exp": "Noun - names something and can head a subject or an object. Test: it takes the, or a plural, or answers who or what. Abstract nouns take no article and still pass: Poverty is a huge problem in India.\n\nPronoun - stands in for a noun phrase already known. Test: put the full noun phrase back and the sentence still works. In This phone is much better than that, that stands for the other phone.\n\nVerb - predicates something and carries tense. Test: change the tense and see whether the word changes. Auxiliaries count: in I have supported you, have is a verb.\n\nAdjective - describes a noun. Test: it fits before a noun, after a linking verb, or as a complement. In She coloured her hair green, green describes the hair.\n\nAdverb - modifies a verb, an adjective, another adverb or a whole clause, and answers how, when, where, how often or how much. In He came yesterday, yesterday answers when.\n\nPreposition - stands in front of a noun phrase and relates it to the rest: jumped over the wall, faith in your decision, indifferent to your lies, preparation for the function. Test: something noun-like must follow it.\n\nConjunction - joins words or clauses: and, but, or, because, although, if.\n\nInterjection - a standalone exclamation: Hello, Oh, Alas.",
+    "facts": [
+      "The eight are noun, pronoun, verb, adjective, adverb, preposition, conjunction and interjection",
+      "A preposition always takes an object - a noun, a pronoun or an -ing form must follow it",
+      "Auxiliaries and modals (have, be, do, will, can) are classed as verbs, not as a ninth class",
+      "In the traditional eight, articles a, an and the are counted as adjectives; modern grammars call them determiners",
+      "Adverbs answer how, when, where, how often and to what degree",
+      "Class is decided by function in the sentence, not by the word's dictionary meaning"
+    ],
+    "traps": [
+      "Calling an abstract noun an adjective because it names a quality - Poverty heads the subject, so it is a noun",
+      "Reading green in coloured her hair green as a noun because green is a colour; it describes the hair, so adjective",
+      "Yesterday, today and tomorrow answer when and are adverbs there, but are nouns in yesterday's news",
+      "Treating an auxiliary as somehow not a verb - in I have supported you, the underlined have is a verb"
+    ],
+    "mnem": "",
+    "rel": [
+      "Words that change part of speech with their slot",
+      "Identifying the part of speech of an underlined word"
+    ],
+    "derived": true,
+    "prov": "The official syllabus lists this General English component with its marks only and enumerates no subtopics. This breakdown is derived, not official."
+  },
+  {
+    "id": "c22",
+    "paper": "GE",
+    "unit": "4",
+    "unitTitle": "Grammar: Parts of Speech",
+    "sub": "Words that change part of speech with their slot",
+    "def": "English marks word class by position, not by form. The same string of letters is a different part of speech in a different slot. So the question a paper actually asks is never what class this word belongs to, but what job it is doing here - and the neighbouring words settle it.",
+    "exp": "Book is the standard demonstration. Book a ticket is a verb. Read the book is a noun. A book review is a noun modifying a noun, which the traditional eight class as an adjective. Nothing about the word changed; only its slot did.\n\nThat is the one that decides real questions. In This phone is much better than that, that stands in for a noun phrase, so it is a pronoun. In that phone, it points at the noun that follows, so it is a demonstrative adjective, or determiner in modern terms. In He said that he would come, it introduces a clause, so it is a conjunction. One word, three classes, decided by what comes after it.\n\nThe same pattern runs through the paper. Over is a preposition in jumped over the wall because a noun phrase follows, and an adverb in the game is over, where nothing follows. Fast is an adjective in a fast car and an adverb in he ran fast, with no change of form. Green is an adjective in green hair and a noun in green is my favourite colour.\n\nSo check the neighbours. What sits immediately before and after the word identifies its class faster than any reasoning from meaning: a noun phrase after it points to preposition or determiner, a subject before it points to verb, a noun after it points to adjective.",
+    "facts": [
+      "Word class in English is fixed by syntactic slot, not by the spelling of the word",
+      "That functions as a pronoun, as a demonstrative adjective or determiner, and as a subordinating conjunction",
+      "Over is a preposition when a noun phrase follows it and an adverb when nothing follows",
+      "Fast, hard, late and early keep the same form as adjective and as adverb",
+      "A noun used to modify another noun (book review, bus stop) is classed as an adjective in that slot"
+    ],
+    "traps": [
+      "Memorising a word as belonging to one class for good - over is not always a preposition, that is not always a conjunction",
+      "Assuming -ly means adverb: fast, hard and yesterday are adverbs without it, while friendly, lovely and likely are adjectives with it",
+      "Reasoning from meaning rather than position - green names a colour in either slot, but only the slot fixes its class",
+      "Forgetting that a preposition needs an object, so a word with nothing noun-like after it is not one"
+    ],
+    "mnem": "Slot, not spelling.",
+    "rel": [
+      "The eight parts of speech and how to tell them apart",
+      "Identifying the part of speech of an underlined word"
+    ],
+    "derived": true,
+    "prov": "The official syllabus lists this General English component with its marks only and enumerates no subtopics. This breakdown is derived, not official."
+  },
+  {
+    "id": "c23",
+    "paper": "GE",
+    "unit": "4",
+    "unitTitle": "Grammar: Parts of Speech",
+    "sub": "Identifying the part of speech of an underlined word",
+    "def": "The recurring format is one short sentence with a single word underlined, and four class names as the options. It is a pure function question: read the sentence, ask what job that position is doing, then name the class. Six of these appeared in a single 2016 sitting, so the format repays drilling.",
+    "exp": "Work it in three steps. Read the whole sentence, never just the underlined word. Ask what the word does to its neighbours - naming, replacing, predicating, modifying, relating or joining. Then check your answer against the options actually printed, because the four offered classes narrow the field on their own.\n\nRun the 2016 set through it. Poverty is a huge problem in India: Poverty heads the subject, so noun. This phone is much better than that: that replaces a noun phrase and no noun follows it, so pronoun rather than adjective. I have supported you a lot in the past: have carries the tense, so verb. He came yesterday to see you: yesterday answers when he came, so adverb. She coloured her hair green: green describes her hair after the verb, so adjective.\n\nUse elimination when you are unsure. If nothing noun-like follows, it is not a preposition. If it will not change with the tense of the sentence, it is not a verb. If deleting it leaves a complete clause, it is more likely an adverb than a noun or adjective.\n\nDo not linger on any one of these. They carry one mark each, the same as every other objective question, and a printed question is not always sound - see the traps.",
+    "facts": [
+      "The format is one sentence, one underlined word, four part-of-speech names as options",
+      "Six such questions appeared in a single 2016 General English sitting",
+      "Elimination works: no following noun phrase rules out preposition, no tense change rules out verb",
+      "The underlined word alone is never enough; the class comes from the slot it occupies",
+      "Each question carries one mark, the same as every other objective question in the paper"
+    ],
+    "traps": [
+      "A printed question can have no correct option at all. One question in this bank underlines effect in Smoking has a bad effect on one's health, where effect is plainly a noun, but offers only Preposition, Verb, Adverb and Adjective; the recorded key is Preposition, which fits the word on rather than effect, so the underlining almost certainly slipped in the original paper. Pick the closest option, move on, and do not lose time trying to make a defective question work.",
+      "that as pronoun versus that as determiner - the test is simply whether a noun follows it",
+      "Reading green in She coloured her hair green as a noun; it is a complement describing hair, so adjective",
+      "Answering with the word's usual class instead of its class here - yesterday can be a noun, but it is an adverb in He came yesterday"
+    ],
+    "mnem": "",
+    "rel": [
+      "The eight parts of speech and how to tell them apart",
+      "Words that change part of speech with their slot"
+    ],
+    "derived": true,
+    "prov": "The official syllabus lists this General English component with its marks only and enumerates no subtopics. This breakdown is derived, not official."
+  },
+  {
+    "id": "c24",
+    "paper": "GE",
+    "unit": "4",
+    "unitTitle": "Grammar: Parts of Speech",
+    "sub": "Prepositions and their correct use",
+    "def": "A preposition is a word placed before a noun, pronoun or gerund to show its relation to the rest of the sentence: place, time, direction, agency or manner. In this paper it almost always appears as a gap-fill in an otherwise complete sentence, so the question is only whether you know which preposition that particular verb, adjective or noun takes.",
+    "exp": "Take the honest position first: preposition choice in English is mostly collocation, not rule. Faith in, preparation for, indifferent to. No principle predicts them. Learn them as pairs - verb plus preposition, adjective plus preposition - and never reason the preposition out on its own.\n\nA working set drawn from the sentences set here: complete faith in, belief in, confidence in; preparation for, ready for, eager for; indifferent to, similar to, superior to; capable of, afraid of, aware of, guilty of; comply with, deal with, quarrel with; agree with a person but agree to a proposal; differ from a thing but differ with a person; run over what a vehicle crushes, run into what it collides with.\n\nThe few genuine patterns are worth memorising. Time: at for clock time (at 5 p.m.), on for days and dates (on Monday), in for months and years (in July, in 1992). Place: at a point, on a surface, in an enclosed space. Direction: over implies passage across, so you jump over a wall, while above states only higher position and cannot describe the leap. Within this week means before the week ends; by Friday means not later than Friday.\n\nMethod under time pressure: find the word governing the blank, normally the verb or adjective just before it, and recall its partner. Test each option against that governing word rather than picking what sounds smoothest.",
+    "facts": [
+      "Faith in, preparation for, indifferent to, capable of and comply with are fixed collocations: the preposition is set by the head word, not by the meaning of the sentence.",
+      "Agree with takes a person; agree to takes a proposal, plan or condition.",
+      "Differ from states unlikeness between things; differ with states disagreement with a person.",
+      "Time prepositions: at for clock times, on for days and dates, in for months, years and centuries.",
+      "Within a period means before that period ends; by a time means not later than that point.",
+      "A preposition always has an object - a noun, pronoun or gerund - and a pronoun object takes the objective case: someone with whom I agree, never with who."
+    ],
+    "traps": [
+      "Run over versus run into: a vehicle runs over what it crushes beneath it and runs into what it collides with. The drunk driver ran over the puppy.",
+      "Jumped over the wall versus above the wall: over allows crossing, above only states higher position, so above cannot describe the jump.",
+      "Indifferent to, not indifferent about or indifferent with. The distractors are all real prepositions attached to the wrong head word, so they read plausibly.",
+      "In gap-fills after a verb plus preposition, the preposition may already be at the end of the sentence: the information that I was looking for takes for alone, not for it or for that."
+    ],
+    "mnem": "Learn the pair, not the preposition: faith IN, preparation FOR, capable OF, comply WITH.",
+    "rel": [
+      "The eight parts of speech and how to tell them apart",
+      "Words that change part of speech with their slot",
+      "Commonly confused pairs"
+    ],
+    "derived": true,
+    "prov": "The official syllabus lists this General English component with its marks only and enumerates no subtopics. This breakdown is derived, not official."
+  },
+  {
+    "id": "c25",
+    "paper": "GE",
+    "unit": "4",
+    "unitTitle": "Grammar: Parts of Speech",
+    "sub": "Verb forms and tense in context",
+    "def": "These questions give a sentence with one verb slot blank and four forms of the same verb in the options. The sentence always carries a time marker - since last week, by the time you get there, when we last met - and that marker, not your ear, decides the tense. Read the marker first, then select the form it demands.",
+    "exp": "What the markers force:\n\nSince or for with a starting point, where the situation still runs into the present, forces the present perfect or present perfect continuous. Use the continuous for an ongoing or repeated action (I have been missing my medications since last week) and the simple perfect when counting completed instances (she has had several jobs since graduating). Lately and for ages behave the same way: I haven't seen you for ages.\n\nBy the time you get there, or by plus any future point, forces the future perfect: the plane will have arrived. The action must be finished before that future moment.\n\nWhen we last met, or any fixed past reference, forces the past continuous for an action in progress then (you were working for Sam Enterprises) or the past perfect for one already finished before it (I had been working there). Until plus a past clause takes the past perfect in the earlier action: I didn't want to go until I had taken a photo.\n\nThen check the mechanics. After have, has or had you need the past participle - written, forgotten, taken, been - never the past simple. After have been or had been you need the -ing form: I have been waiting.\n\nProcedure: underline the time expression; decide past, present-connected or future; decide complete or in progress; assemble auxiliary and participle to match.",
+    "facts": [
+      "Since plus a point in time, in a present frame, requires the present perfect or present perfect continuous - never the present simple or the past continuous.",
+      "By the time you get to the airport is a future reference, so an action completed before it takes the future perfect: will have arrived.",
+      "After have, has or had the verb must be the past participle: has written, had forgotten, had taken.",
+      "Present perfect continuous is have or has + been + -ing; past perfect is had + past participle; past perfect continuous is had been + -ing; future perfect is will have + past participle.",
+      "Present perfect links a past action to now, so it cannot be used with a finished past time expression such as yesterday or in 1992."
+    ],
+    "traps": [
+      "Have missed versus have been missing with since last week: a repeated or continuing lapse takes the continuous; the simple perfect suggests one completed instance.",
+      "Will be arriving versus will have arrived after by the time: the future continuous puts the action at that moment, only the future perfect puts it before.",
+      "Past simple offered where a past participle is needed: had forgot and has wrote are wrong; had forgotten, has written.",
+      "Will you take versus will you be taking: both are grammatical, so decide by function - the future continuous enquires about an already-settled plan, the future simple makes a request or a decision on the spot."
+    ],
+    "mnem": "Marker first, form second.",
+    "rel": [
+      "Subject-verb agreement and sequence of tenses",
+      "The eight parts of speech and how to tell them apart",
+      "Active and passive voice"
+    ],
+    "derived": true,
+    "prov": "The official syllabus lists this General English component with its marks only and enumerates no subtopics. This breakdown is derived, not official."
+  },
+  {
+    "id": "c26",
+    "paper": "GE",
+    "unit": "5",
+    "unitTitle": "Correct Usage and Vocabularies",
+    "sub": "Synonyms and antonyms",
+    "def": "A synonym is a word with the same or nearly the same meaning as another; an antonym is a word of opposite meaning. The paper sets them as short runs: a word is given on its own, or underlined inside a short sentence, and you choose the option closest in meaning - or, in an antonym run, the option furthest from it.",
+    "exp": "The sentence-embedded form gives you context, so use it. 'The office disposed of its obsolete computers' points at outdated rather than damaged or excess. 'After the death of her husband she became a recluse' points at one who lives a solitary life rather than widow. Other words the papers have set this way: credible (believable), invincible (cannot be defeated), unanimous (fully in agreement), penitent (repentant), tenacious (persistent), abate (grow less), apathy (indifference), defy (challenge).\n\nThe bare-word form gives no context at all - Abandon, Ardent, Colossal, Deceit, Impetuous - and the answers are forsake, eager, gigantic, guile, hasty. Here you are relying on stored vocabulary, so read the whole option set before choosing; the near-miss is usually placed first.\n\nAntonym runs are where marks are actually lost, because the instruction line changes but the layout does not. Enmity is friendship, Docile is stubborn, Rash is cautious, Tame is wild.\n\nWhen the word is unfamiliar, work from the root and prefix. The prefixes in-, im-, un-, dis- and a- reverse what follows: in-vincible is what cannot be conquered, a-pathy is without feeling, il-legible is what cannot be read. That will not always give you the exact shade, but it usually eliminates two options.",
+    "facts": [
+      "A synonym has the same or nearly the same meaning; an antonym has the opposite meaning",
+      "Set from the papers: invincible = cannot be defeated, obsolete = outdated, unanimous = fully in agreement, penitent = repentant, tenacious = persistent",
+      "abate = grow less, apathy = indifference, defy = challenge, colossal = gigantic, impetuous = hasty, deceit = guile",
+      "Antonym pairs already used: enmity/friendship, docile/stubborn, rash/cautious, tame/wild",
+      "The prefixes in-, im-, il-, un-, dis- and a- reverse the root: invincible, illegible, apathy"
+    ],
+    "traps": [
+      "Read the instruction line first: the same layout of four options serves both synonym and antonym runs, and answering an antonym item with the closest meaning is the commonest single loss in this unit",
+      "The same-root decoy: the antonym of Enmity is friendship, but 'enemy' is placed in the list to catch the eye",
+      "In an antonym item one option is usually a synonym - Tame offers both 'gentle' (synonym) and 'wild' (the answer)",
+      "A distractor may be true of the situation but not of the word: an honorarium is a payment, though a certificate and a memento are also things a speaker receives"
+    ],
+    "mnem": "Antonym starts ant-, as in anti-, against: the meaning goes against.",
+    "rel": [
+      "One-word substitution",
+      "Commonly confused pairs"
+    ],
+    "derived": true,
+    "prov": "The official syllabus lists this General English component with its marks only and enumerates no subtopics. This breakdown is derived, not official."
+  },
+  {
+    "id": "c27",
+    "paper": "GE",
+    "unit": "5",
+    "unitTitle": "Correct Usage and Vocabularies",
+    "sub": "One-word substitution",
+    "def": "One word used in place of a whole descriptive phrase - a recluse for one who lives a solitary life, a quorum for the minimum number of members required to make a meeting valid. The paper sets it in both directions: a phrase is given and you choose the word, or a word is given and you choose the phrase that defines it.",
+    "exp": "Learn these in groups rather than as a flat list, because the options in an item are almost always drawn from the same group.\n\nPeople by habit or belief: misanthrope, one who hates mankind; philanthropist, one who loves and helps mankind; teetotaller, one who never drinks alcohol; bibliophile, a lover of books; connoisseur, an expert judge in matters of taste; novice, a beginner; amateur, one who does something for love rather than payment; hypocrite, one who pretends to virtues he does not have.\n\nThe omni- and in- sets: omniscient, all-knowing; omnipotent, all-powerful; omnipresent, present everywhere; invincible, that cannot be conquered; indelible, that cannot be erased; inevitable, that cannot be avoided.\n\nOffice and government vocabulary, worth extra attention for this post: quorum, the minimum members needed for valid business; agenda, the list of items to be taken up at a meeting; ex officio, by virtue of the office a person holds; verbatim, word for word; posthumous, occurring after a person's death; honorarium, a payment made for a service for which no fee is fixed.\n\nWhen the word is new, split it. Omni is all, -cide is killing, -phile is lover of, -phobia is fear of, -cracy is rule or government.",
+    "facts": [
+      "quorum = the minimum number of members required for a meeting's business to be valid",
+      "ex officio = by virtue of the office a person holds; verbatim = word for word",
+      "honorarium = a payment for a service for which no fee is fixed",
+      "omniscient = all-knowing, omnipotent = all-powerful, omnipresent = present everywhere",
+      "Word endings: -cide = killing, -phile = lover of, -phobia = fear of, -cracy = rule or government",
+      "recluse = one who lives a solitary life; misanthrope = one who hates mankind"
+    ],
+    "traps": [
+      "The three omni- words are normally offered together, so match all-knowing, all-powerful and present-everywhere exactly rather than picking the familiar one",
+      "honorarium is money actually paid; honorary describes a post held without payment - they are not the same word",
+      "amateur, novice and connoisseur get set against each other: unpaid enthusiast, beginner, and expert judge respectively",
+      "Distractors sit in the same life-situation as the answer - beside recluse the paper offers widow, a bitter person and one who does charity work, none of which is the definition"
+    ],
+    "mnem": "",
+    "rel": [
+      "Synonyms and antonyms",
+      "Spelling and common misspellings"
+    ],
+    "derived": true,
+    "prov": "The official syllabus lists this General English component with its marks only and enumerates no subtopics. This breakdown is derived, not official."
+  },
+  {
+    "id": "c28",
+    "paper": "GE",
+    "unit": "5",
+    "unitTitle": "Correct Usage and Vocabularies",
+    "sub": "Idioms and phrases",
+    "def": "An idiom is a fixed group of words whose meaning cannot be worked out from the words themselves. A ball of fire contains no fire and child's play involves no child. Because the meaning is not derivable, there is no rule to fall back on - each idiom has to be learnt as a single unit, and the only preparation that works is exposure.",
+    "exp": "This is the biggest single block in the unit. One sitting opens with sixteen idiom items in a row, and another sets a further sixteen, some as complete-the-idiom gaps rather than choose-the-meaning.\n\nA worked handful, all taken from the papers: gift of the gab, a talent for speaking; a man of letters, a learned man; a bull in a china shop, clumsy and awkward; out of sorts, feeling unwell; a yellow streak, cowardice; for a song, very cheaply; call it a day, stop because the day's work is done; a wet blanket, a dull person who spoils other people's enjoyment; no strings attached, without conditions; an open secret, something supposedly secret but known to everybody; down to earth, sensible and practical; going to the dogs, deteriorating; taken aback, surprised; apple-pie order, perfect order; put the cart before the horse, do things in the wrong order; eat humble pie, admit you were wrong; not worth his salt, not worth what is paid to him; by hook or by crook, by any means available.\n\nMethod under time pressure: strike out the literal option first, because it is always planted, then recall a sentence you have actually heard the idiom used in and test each remaining option against it.",
+    "facts": [
+      "An idiom's meaning cannot be deduced from its individual words, so idioms must be memorised, not reasoned out",
+      "gift of the gab = a talent for speaking; a man of letters = a learned man; a wet blanket = one who spoils others' enjoyment",
+      "for a song = very cheaply; call it a day = stop work for the day; child's play = very easy",
+      "eat humble pie = admit you were wrong; not worth his salt = not worth what is paid to him",
+      "Completion items exist too: 'Fools rush in where angels fear to tread' is tested by removing the word angels"
+    ],
+    "traps": [
+      "The literal reading is always among the options: 'cast a long shadow' offers 'is above average height', 'for a song' offers 'for a musical performance'",
+      "A man of letters is a learned man, not a correspondent or a letter-writer - the letter-based decoy is deliberate",
+      "An open secret is known to everybody; 'known to some' and 'not known to anyone' are both offered",
+      "cast a long shadow means had a great influence, not blocked others' success - the plausible negative reading is the planted near-miss"
+    ],
+    "mnem": "",
+    "rel": [
+      "Synonyms and antonyms",
+      "Commonly confused pairs"
+    ],
+    "derived": true,
+    "prov": "The official syllabus lists this General English component with its marks only and enumerates no subtopics. This breakdown is derived, not official."
+  },
+  {
+    "id": "c29",
+    "paper": "GE",
+    "unit": "5",
+    "unitTitle": "Correct Usage and Vocabularies",
+    "sub": "Commonly confused pairs",
+    "def": "Words that sound alike or look alike but differ in meaning, in part of speech, or in both. The paper sets them as a gap-fill with the whole confusable set sitting in the options, so it is the grammar of the sentence as much as its sense that decides the answer.",
+    "exp": "The core pairs, and what actually separates them. affect is the verb, effect the noun - the rain affected the crop, the effect of the rain was severe; effect can also be a verb meaning to bring about, as in to effect a change. principal means chief, or the head of an institution, or a sum of money lent; principle is a rule or a truth. stationary means not moving; stationery is paper and pens. complement completes something; compliment is praise. its is the possessive; it's is only it is or it has. lose is the verb, loose the adjective meaning not tight, loss the noun. your is possessive, you're is you are.\n\nHomophone sets the papers have used: cite (quote), site (a place), sight (vision); assent (agreement), ascent (a climb), accent; allusion (an indirect reference), illusion (a deception of the senses); illegible (cannot be read), ineligible (not qualified), indelible (cannot be erased), inedible (not fit to eat); avenge (to exact just retribution for a wrong done to another) against revenge (personal retaliation, usually a noun).\n\nMethod: decide what part of speech the blank needs before you weigh the meanings. 'The Director was sorry for my ____' needs a noun, which settles it as loss. '____ fired!' needs you are, so you're.",
+    "facts": [
+      "affect is normally the verb and effect the noun; effect as a verb means to bring about",
+      "stationary = not moving; stationery = writing materials",
+      "principal = chief or head of an institution; principle = a rule or a truth",
+      "its is possessive; it's is only the contraction of it is or it has",
+      "illegible = cannot be read, ineligible = not qualified, indelible = cannot be erased, inedible = not fit to eat",
+      "assent = consent, ascent = a climb; cite = quote, site = a place, sight = vision"
+    ],
+    "traps": [
+      "affect/effect items are decided by the slot, not the meaning: where the blank needs a noun, effect is right and affect is wrong however well affect fits the sense",
+      "its and it's run backwards from ordinary nouns - the apostrophe marks the contraction, never possession",
+      "lose, loose and loss are three different parts of speech, so identify verb, adjective or noun first and two options disappear at once",
+      "illegible and ineligible are one letter apart: untidy handwriting is illegible, a disqualified candidate is ineligible"
+    ],
+    "mnem": "StationEry has an E, as in Envelope; stationAry has an A, as in At rest.",
+    "rel": [
+      "Spelling and common misspellings",
+      "Synonyms and antonyms",
+      "Words that change part of speech with their slot"
+    ],
+    "derived": true,
+    "prov": "The official syllabus lists this General English component with its marks only and enumerates no subtopics. This breakdown is derived, not official."
+  },
+  {
+    "id": "c30",
+    "paper": "GE",
+    "unit": "5",
+    "unitTitle": "Correct Usage and Vocabularies",
+    "sub": "Spelling and common misspellings",
+    "def": "The standard written form of a word. It is examined directly as pick-the-correctly-spelt-word or spot-the-misspelt-one, and indirectly every time a confusable set appears in a gap-fill. Indian official English follows British spelling, and a Mizoram government paper is set to that standard.",
+    "exp": "British forms to write by default: programme, organisation, honour, labour, favour, defence, centre, travelled, enrolment, catalogue, cheque. The noun-verb splits matter - licence and practice are the nouns, license and practise the verbs. The one genuine exception is technical: a computer program keeps the short American form, while a programme of events does not.\n\nThe words that actually get misspelt, with what to watch: accommodation (two c and two m), occurrence (two c and two r), committee (two m, two t, two e), necessary (one c, two s), embarrass (two r, two s) beside harass (one r), separate (not seperate), definitely (not definately), privilege (no d anywhere), maintenance (spelt -ten-, though the verb is maintain), liaison, questionnaire, acknowledgement, correspondence, government (the n is written even though it is barely heard), until (one l), argument (no e after argu).\n\nThe rule that mostly holds is i before e except after c when the sound is ee: receive, deceive, perceive, ceiling against believe, achieve, relieve, grief. Seize, weird and foreign break it.\n\nAnd keep personnel apart from personal. Personnel is the staff of an office - the word you will meet in service rules and office orders; personal means private.",
+    "facts": [
+      "accommodation has two c and two m; occurrence has two c and two r; committee has two m, two t and two e",
+      "necessary has one c and two s; embarrass has two r and two s, but harass has one r",
+      "i before e except after c when the sound is ee: receive, ceiling against believe, achieve; seize and weird are exceptions",
+      "British spelling is expected: programme, organisation, honour, defence, centre, travelled",
+      "licence and practice are the nouns; license and practise are the verbs",
+      "maintenance is spelt with -ten- even though the verb is maintain"
+    ],
+    "traps": [
+      "personnel means the staff of an office and personal means private - one letter apart and constantly swapped in official writing",
+      "program versus programme: the short form is correct only for a computer program, and American spellings are otherwise the planted wrong option",
+      "Doubling errors are the most common single fault - accommodation, occurrence and committee are the three the examiner reaches for",
+      "A spelling item and a confused-pair item look identical on the page; check whether the options differ in meaning or only in letters before answering"
+    ],
+    "mnem": "Accommodation is roomy enough to hold two Cs and two Ms.",
+    "rel": [
+      "Commonly confused pairs",
+      "One-word substitution"
+    ],
+    "derived": true,
+    "prov": "The official syllabus lists this General English component with its marks only and enumerates no subtopics. This breakdown is derived, not official."
+  },
+  {
+    "id": "c31",
+    "paper": "GE",
+    "unit": "6",
+    "unitTitle": "Formation of Sentence",
+    "sub": "Simple, compound and complex sentences",
+    "def": "A classification by structure. A simple sentence has one finite clause. A compound sentence has two or more independent clauses joined by co-ordination. A complex sentence has one main clause plus at least one subordinate clause joined by subordination. This is the most heavily examined item in the unit, set as 'Analyse the given sentence and choose the correct option'.",
+    "exp": "Use a fixed two-step procedure and do not judge by length or by the presence of a comma.\n\nStep one: count the finite verbs. Each finite verb heads a clause; participles and infinitives are not finite and head nothing. 'The poor labourer came to me with his starving family' has one finite verb, came - starving is a participle - so it is simple. 'Finishing my book, I placed it on the table' has one finite verb, placed, so it is also simple, however long the opening looks.\n\nStep two, only if there are two or more finite clauses: check the joining word. And, but, or, nor, for, so, either...or and not only...but also are co-ordinating, and give a compound sentence - 'I could not come, for I was down with fever'; 'He went to France in 1992, and came back in 1995', where the second subject is understood but the second finite verb is real. That, which, who, when, since, because, if, though and wherever are subordinating, and give a complex sentence - 'I have sold my car which was red in colour'; 'That you are rich does not make you great'.\n\nThe recurring error is treating any 'and' as compound. In 'He is both punctual and intelligent' the and joins two adjectives, not two clauses; one finite verb, so the sentence is simple.\n\nThe papers also classify by notion, meaning function: assertive (a statement), interrogative (a question), imperative (a command or request), exclamatory (strong feeling).",
+    "facts": [
+      "Simple = one finite clause; compound = two or more independent clauses co-ordinated; complex = main clause plus a subordinate clause",
+      "Count finite verbs to count clauses - participles and infinitives are not finite and do not create a clause",
+      "Co-ordinators giving a compound sentence: and, but, or, nor, for, so, either...or, neither...nor, not only...but also",
+      "Subordinators giving a complex sentence: that, which, who, when, while, since, because, if, though, unless, wherever",
+      "By notion a sentence is assertive, interrogative, imperative or exclamatory; 'Leave the room this instant!' is imperative"
+    ],
+    "traps": [
+      "An 'and' joining two words or phrases does not make a compound sentence - 'He is both punctual and intelligent' has one finite verb and is simple, while 'He went to France in 1992, and came back in 1995' has two and is compound",
+      "'for' is a co-ordinating conjunction here, not a subordinator: 'I could not come, for I was down with fever' is compound, not complex",
+      "A participial opening looks like a clause but is not: 'Finishing my book, I placed it on the table' is simple",
+      "In notion items a question mark does not make a sentence interrogative - 'How dare you disobey my orders?' is exclamatory, and a statement containing not or unable is still assertive"
+    ],
+    "mnem": "One finite verb, simple. Two verbs and a co-ordinator, compound. Two verbs and a subordinator, complex.",
+    "rel": [
+      "Clause types: noun, adjective and adverb",
+      "Joining and splitting sentences"
+    ],
+    "derived": true,
+    "prov": "The official syllabus lists this General English component with its marks only and enumerates no subtopics. This breakdown is derived, not official."
+  },
+  {
+    "id": "c32",
+    "paper": "GE",
+    "unit": "6",
+    "unitTitle": "Formation of Sentence",
+    "sub": "Clause types: noun, adjective and adverb",
+    "def": "A clause is a group of words with its own subject and finite verb. A subordinate clause is named for the job it does inside the main clause: a noun clause fills a noun slot, an adjective clause qualifies a noun, an adverb clause modifies the verb. The paper underlines a stretch of words and asks which of the three it is.",
+    "exp": "Each type has a test question you can put to the main clause.\n\nNoun clause - ask 'what?'. It fills the place a noun would occupy: subject, object or complement, and usually opens with that, what, whether, why or how. 'I am happy to know that you have succeeded' - know what? 'That you are rich does not make you great' - what does not make you great? A noun clause as subject.\n\nAdjective clause - ask 'which one?' or 'what kind?'. It sits immediately after the noun it qualifies and opens with who, whom, whose, which or that. 'The book which was stolen was mine' - which book? 'Where is the money that I gave you yesterday?' - which money?\n\nAdverb clause - ask 'when, where, why, how, on what condition?'. It opens with when, while, since, before, after, because, as, if, though, unless, wherever or so that. 'I have been ill since I came here' - ill since when? 'He carried his laptop with him wherever he went' - carried where?\n\nThe fourth option in every one of these items is 'co-ordinate clause'. A co-ordinate clause is an independent clause joined by and, but, or or for; it does no job inside another clause. So if the underlined words begin with who, which, that, since or wherever, co-ordinate is impossible and you are down to three options before you start.",
+    "facts": [
+      "Noun clause answers 'what?' and fills a subject, object or complement slot; typical openers are that, what, whether, why, how",
+      "Adjective clause answers 'which one?' and follows the noun it qualifies; typical openers are who, whom, whose, which, that",
+      "Adverb clause answers when, where, why, how or on what condition; typical openers are when, since, because, if, though, wherever",
+      "A co-ordinate clause is independent and joined by and, but, or, for - it is never a subordinate clause",
+      "Every clause, of whatever type, must contain its own subject and finite verb"
+    ],
+    "traps": [
+      "'that' introduces both kinds: 'that I gave you yesterday' qualifies money and is an adjective clause, while 'that you have succeeded' is the object of know and is a noun clause",
+      "Test by function, not by the opening word - the same conjunction can head different clause types in different sentences",
+      "'co-ordinate clause' is offered in every item as a free distractor; it is ruled out the moment the underlined words start with a relative or subordinating word",
+      "A phrase without a finite verb is not a clause at all: 'with his starving family' modifies like an adverb but has no verb, so it is a phrase"
+    ],
+    "mnem": "Noun asks what, adjective asks which one, adverb asks when or why.",
+    "rel": [
+      "Simple, compound and complex sentences",
+      "Joining and splitting sentences"
+    ],
+    "derived": true,
+    "prov": "The official syllabus lists this General English component with its marks only and enumerates no subtopics. This breakdown is derived, not official."
+  },
+  {
+    "id": "c33",
+    "paper": "GE",
+    "unit": "6",
+    "unitTitle": "Formation of Sentence",
+    "sub": "Active and passive voice",
+    "def": "Voice shows whether the subject of the sentence does the action or receives it. In the active voice the subject acts - the clerk typed the letter. In the passive the object of the active becomes the subject and the doer, if kept at all, moves into a by-phrase - the letter was typed by the clerk.",
+    "exp": "The conversion has three mechanical moves: the active object becomes the passive subject, the verb becomes the matching form of be plus the past participle, and the active subject becomes by plus the agent. Pronouns change case in the move - I becomes by me, he becomes by him.\n\nKeep the tense. Writes becomes is written; is writing becomes is being written; wrote becomes was written; was writing becomes was being written; has written becomes has been written; had written becomes had been written; will write becomes will be written; can write becomes can be written. The perfect continuous and future continuous have no natural passive and are not set.\n\nSpecial forms. An imperative goes to let: 'Open the door' becomes 'Let the door be opened'. A question keeps its question form: 'Who wrote this?' becomes 'By whom was this written?'. A verb with two objects gives two passives: 'He gave me a book' becomes 'I was given a book' or 'A book was given to me'. An intransitive verb has no passive at all - there is no passive of 'He slept'.\n\nThis is not only an exam item. Indian official correspondence runs on the passive - sanction is hereby accorded, the applicant is directed to appear, it is requested that - so the same transformation is what you will be writing in the descriptive letter question.",
+    "facts": [
+      "Passive = the correct form of be plus the past participle; the tense of the original is preserved",
+      "wrote becomes was written; has written becomes has been written; will write becomes will be written; can write becomes can be written",
+      "An imperative takes the form 'Let ... be ...': Open the door becomes Let the door be opened",
+      "A verb with two objects yields two possible passives, one for each object",
+      "Intransitive verbs have no passive form, because there is no object to promote to subject"
+    ],
+    "traps": [
+      "Changing the tense during conversion - wrote must become was written, not is written; this is the most frequent error in the transformation items",
+      "Forgetting the case change on the agent: by me and by him, never by I or by he",
+      "Not every be plus participle is passive - 'The gate is closed' can describe a state rather than report an action",
+      "The by-phrase is dropped when the doer is unknown or unimportant, so a passive sentence with no by-phrase is still fully passive"
+    ],
+    "mnem": "",
+    "rel": [
+      "Direct and indirect speech",
+      "Subject-verb agreement and sequence of tenses",
+      "Third person and reported speech"
+    ],
+    "derived": true,
+    "prov": "The official syllabus lists this General English component with its marks only and enumerates no subtopics. This breakdown is derived, not official."
+  },
+  {
+    "id": "c34",
+    "paper": "GE",
+    "unit": "6",
+    "unitTitle": "Formation of Sentence",
+    "sub": "Direct and indirect speech",
+    "def": "Direct speech reproduces a speaker's exact words inside quotation marks. Indirect or reported speech gives the substance of what was said in the reporter's own construction, without quotation marks. Converting from one to the other is a set of fixed changes to the conjunction, the pronouns, the tense and the words of time and place.",
+    "exp": "Four changes, applied in order. First, drop the quotation marks and join with that for a statement. Second, change the pronouns to the reporter's point of view: 'He said, \"I have lost my pen\"' becomes 'He said that he had lost his pen'. Third, backshift the tense if the reporting verb is in the past. Fourth, shift the words anchored to the speaker's position.\n\nThe backshift: present simple to past simple, present continuous to past continuous, present perfect to past perfect, past simple to past perfect, will to would, can to could, may to might, shall to should. Must and ought usually stay.\n\nThe anchored words: now becomes then, today becomes that day, tomorrow becomes the next day, yesterday becomes the previous day, here becomes there, this becomes that, ago becomes before.\n\nSentence type decides the reporting verb and the joiner. A question takes asked or enquired, loses its question mark and returns to statement order; a wh-question keeps its wh-word, a yes-or-no question takes if or whether. 'He said to me, \"Where are you going?\"' becomes 'He asked me where I was going'. A command takes ordered, told or requested plus to and the infinitive. An exclamation takes exclaimed with joy or sorrow plus that.\n\nThe exception: a universal truth or a permanent fact keeps its present tense even after a past reporting verb.",
+    "facts": [
+      "Statements are joined with that; questions take asked or enquired; commands take ordered or requested plus to plus infinitive",
+      "Backshift: present simple to past simple, present perfect to past perfect, past simple to past perfect, will to would, can to could, may to might",
+      "A yes-or-no question is reported with if or whether; a wh-question keeps its question word",
+      "now becomes then, today becomes that day, tomorrow becomes the next day, here becomes there, this becomes that, ago becomes before",
+      "A universal truth keeps the present tense even after a past reporting verb",
+      "If the reporting verb is present or future, no backshift takes place at all"
+    ],
+    "traps": [
+      "Keeping the question mark and the inverted word order after asked - the reported question is a statement in form, so 'where I was going', not 'where was I going'",
+      "Backshifting a universal truth, which turns a standing fact into a past claim: the earth is round stays present tense",
+      "Applying backshift when the reporting verb is 'says' or 'will say' - backshift is triggered only by a past reporting verb",
+      "Getting the pronoun shift wrong when the reporter is one of the parties: 'He said to me, \"I will help you\"' becomes 'He said that he would help me'"
+    ],
+    "mnem": "Four moves in order: conjunction, pronoun, tense, time-and-place.",
+    "rel": [
+      "Active and passive voice",
+      "Third person and reported speech",
+      "Subject-verb agreement and sequence of tenses"
+    ],
+    "derived": true,
+    "prov": "The official syllabus lists this General English component with its marks only and enumerates no subtopics. This breakdown is derived, not official."
+  },
+  {
+    "id": "c35",
+    "paper": "GE",
+    "unit": "6",
+    "unitTitle": "Formation of Sentence",
+    "sub": "Joining and splitting sentences",
+    "def": "Joining, or synthesis, is combining two or more short sentences into one without losing any of the sense. Splitting is the reverse - breaking a long sentence into shorter independent ones. The paper sets both, plus the substitution words that let you join without repeating a noun.",
+    "exp": "Three ways to join, and the paper tests which one you produced. Into one simple sentence, using both...and, a participle or a phrase: 'He is punctual. He is intelligent.' becomes 'He is both punctual and intelligent', which is still simple because there is still only one finite verb. Into a compound sentence with and, but, so or for: 'He went to France in 1992, and came back in 1995'. Into a complex sentence with that, which, when or because: 'She will stand first. I am sure.' becomes 'I am sure that she will stand first'.\n\nWatch the agreement when you join. 'The host welcomed us. The hostess also welcomed us.' becomes 'Both the host and hostess welcomed us' - plural subject, and the past tense of the originals preserved. 'Laxman scored a century and Dravid scored a century' becomes 'Both Laxman and Dravid scored centuries', with the noun going plural too.\n\nSubstitution words carry the joining. The former means the first of the two mentioned, the latter the second. Respectively means in the order just given - it is not respectfully, which means with respect. And a repeated noun is replaced by one or the other: 'A light bat was ineffective but the heavier one was difficult to get'.\n\nLinking words between two sentences are set as gap-fills: meanwhile for the intervening time, unexpectedly for a result contrary to expectation, conversely for the opposite case, besides for an addition.",
+    "facts": [
+      "Joining with both...and across two adjectives keeps the sentence simple, because only one finite verb remains",
+      "the former = the first of two mentioned; the latter = the second",
+      "respectively = in the order given; respectfully = with respect - they are different words",
+      "meanwhile = in the intervening time, conversely = the other way round, besides = in addition, unexpectedly = contrary to expectation",
+      "When two singular subjects are joined by both...and, the verb becomes plural"
+    ],
+    "traps": [
+      "The tense of the originals must survive the join: two past-tense sentences give 'Both the host and hostess welcomed us', not 'welcome' or 'welcomes'",
+      "Joining two people who each scored a century gives 'scored centuries' - the object goes plural along with the subject",
+      "respectively and respectfully are both offered in the same option set; only respectively means in the order stated",
+      "Assuming a joined sentence must be compound - joining with both...and or with a participle produces a simple sentence, and joining with that or which produces a complex one"
+    ],
+    "mnem": "",
+    "rel": [
+      "Simple, compound and complex sentences",
+      "Subject-verb agreement and sequence of tenses"
+    ],
+    "derived": true,
+    "prov": "The official syllabus lists this General English component with its marks only and enumerates no subtopics. This breakdown is derived, not official."
+  },
+  {
+    "id": "c36",
+    "paper": "GE",
+    "unit": "6",
+    "unitTitle": "Formation of Sentence",
+    "sub": "Subject-verb agreement and sequence of tenses",
+    "def": "Agreement, or concord, is the rule that a verb matches its subject in number and person. Sequence of tenses is the rule that the tense of a verb in a subordinate clause is governed by the tense of the verb in the main clause. Both are tested by gap-fill and by spot-the-error.",
+    "exp": "Agreement, the rules that actually get set. The verb agrees with the subject, never with a noun that merely stands between them: 'The quality of the papers is poor'. Two subjects joined by and take a plural verb, unless they name one person or one thing - 'Bread and butter is my breakfast'. Both...and always takes a plural verb. But either...or, neither...nor and plain or make the verb agree with the nearer subject: 'Neither the clerks nor the manager was present'. Each, every, everyone, anyone, nobody and one take a singular verb. Phrases opening with with, along with, as well as or in addition to do not change the number of the subject - 'The Director, along with his officers, was present'. News, mathematics, physics and politics look plural but take a singular verb. A collective noun takes a singular verb when the body acts as one.\n\nSequence of tenses. A past main verb normally requires a past subordinate verb: 'He said that he was ill', 'I found that he had left'. Three exceptions override it. A universal or permanent truth stays in the present - 'The teacher said that the earth is round'. A habitual fact stays present. A comparison after than keeps its own tense. When the main verb is present or future, the subordinate clause may take any tense the sense requires.",
+    "facts": [
+      "The verb agrees with the subject, not with an intervening phrase: 'The quality of the papers is poor'",
+      "both...and takes a plural verb; either...or and neither...nor make the verb agree with the nearer subject",
+      "each, every, everyone, anyone, nobody and one always take a singular verb",
+      "with, along with, as well as and in addition to do not change the number of the subject",
+      "news, mathematics, physics and politics take singular verbs despite the final s",
+      "A past main verb takes a past subordinate verb, except for a universal truth, a habitual fact or a comparison after than"
+    ],
+    "traps": [
+      "Agreeing the verb with the nearest noun instead of the real subject - the classic 'The quality of the papers are poor' error",
+      "Treating neither...nor like both...and: both...and is always plural, neither...nor follows the nearer subject",
+      "Backshifting a universal truth in a that-clause: 'The teacher said that the earth is round' keeps the present tense",
+      "'One of the officers who have applied' - the verb in the relative clause agrees with officers, not with one"
+    ],
+    "mnem": "",
+    "rel": [
+      "Direct and indirect speech",
+      "Joining and splitting sentences",
+      "Simple, compound and complex sentences"
+    ],
+    "derived": true,
+    "prov": "The official syllabus lists this General English component with its marks only and enumerates no subtopics. This breakdown is derived, not official."
+  },
+  {
+    "id": "c37",
+    "paper": "GE",
+    "unit": "6",
+    "unitTitle": "Formation of Sentence",
+    "sub": "Sentence types by function: assertive, interrogative, imperative, exclamatory",
+    "def": "Classifying a sentence by what it does rather than how it is built. Assertive (declarative) sentences state something, interrogative sentences ask, imperative sentences command, request or advise, and exclamatory sentences express sudden strong feeling. This is a separate axis from simple, compound and complex, which classify by clause structure: every sentence carries one label on each axis.",
+    "exp": "Assertive: states a fact or opinion, subject before verb, full stop. It divides further into affirmative and negative.\n\nInterrogative: seeks information. It opens with an auxiliary (Have you finished?) or a wh-word and ends in a question mark.\n\nImperative: commands, orders, requests or advises. The subject you is understood and left out, so the sentence begins with the bare verb - Leave the room this instant. It may end in a full stop or an exclamation mark depending on force.\n\nExclamatory: expresses sudden emotion - wonder, wish, regret, indignation. Typical openings are How, What, That ... should, and Would that. That a mere beggar should scorn his king and Would that I were a rich man are both exclamatory.\n\nThe examinable point is that punctuation does not decide the type. An imperative can end in an exclamation mark. A rebuke worded as a question - How dare you disobey my orders? - seeks no information and is exclamatory. Ask what the sentence does to the listener: tells, asks, orders or vents.\n\nThese questions also test affirmative versus negative notion, where form and sense part company. We were unable to complete our task holds no negative word but is negative in sense, since unable means not able. He did not fail to turn up holds two negatives that cancel, so it affirms that he came. Count the negatives, including those hidden in un-, in-, dis-, fail, deny, hardly and scarcely: an even number leaves the sense affirmative.",
+    "facts": [
+      "The four functional types are assertive or declarative, interrogative, imperative and exclamatory.",
+      "An imperative has no stated subject: you is understood, so the sentence opens with the bare form of the verb.",
+      "Exclamatory sentences commonly open with How, What, That ... should, or Would that.",
+      "Function fixes the type, not the final punctuation mark: an imperative may end in an exclamation mark and a rhetorical rebuke may end in a question mark.",
+      "Functional type is independent of structural type, so a single sentence is both, for example imperative and simple.",
+      "Two negatives in the same clause cancel each other, so did not fail to turn up asserts that he did turn up."
+    ],
+    "traps": [
+      "Leave the room this instant! ends in an exclamation mark but is a command, so it is imperative, not exclamatory.",
+      "How dare you disobey my orders? has a wh-opening and a question mark but demands no answer; it is an exclamation of indignation, not an interrogative.",
+      "When assertive and negative both appear among the options, the paper is testing sense: unable to complete is negative in sense with no negative word, while a double negative comes out affirmative and so counts as assertive.",
+      "Do not answer a notion question with a structural label (simple, compound, complex) or an analyse-the-sentence question with a functional label - the two question stems look alike in this unit."
+    ],
+    "mnem": "Four things a sentence can do to you: tell you, ask you, order you, or shout at you.",
+    "rel": [
+      "Simple, compound and complex sentences",
+      "Clause types: noun, adjective and adverb",
+      "Direct and indirect speech"
+    ],
+    "derived": true,
+    "prov": "The official syllabus lists this General English component with its marks only and enumerates no subtopics. This breakdown is derived, not official."
+  },
+  {
+    "id": "c38",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -475,7 +1131,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c17",
+    "id": "c39",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -503,7 +1159,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c18",
+    "id": "c40",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -531,7 +1187,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c19",
+    "id": "c41",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -559,7 +1215,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c20",
+    "id": "c42",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -588,7 +1244,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c21",
+    "id": "c43",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -615,7 +1271,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c22",
+    "id": "c44",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -643,7 +1299,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c23",
+    "id": "c45",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -672,7 +1328,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c24",
+    "id": "c46",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -700,7 +1356,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c25",
+    "id": "c47",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -729,7 +1385,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c26",
+    "id": "c48",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -757,7 +1413,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c27",
+    "id": "c49",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -786,7 +1442,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c28",
+    "id": "c50",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -815,7 +1471,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c29",
+    "id": "c51",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -843,7 +1499,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c30",
+    "id": "c52",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -872,7 +1528,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c31",
+    "id": "c53",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -901,7 +1557,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c32",
+    "id": "c54",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -930,7 +1586,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c33",
+    "id": "c55",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -959,7 +1615,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c34",
+    "id": "c56",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -987,7 +1643,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c35",
+    "id": "c57",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -1015,7 +1671,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c36",
+    "id": "c58",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -1044,7 +1700,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c37",
+    "id": "c59",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -1072,7 +1728,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c38",
+    "id": "c60",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -1100,7 +1756,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c39",
+    "id": "c61",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -1128,7 +1784,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c40",
+    "id": "c62",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -1155,7 +1811,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c41",
+    "id": "c63",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -1183,7 +1839,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c42",
+    "id": "c64",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -1211,7 +1867,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c43",
+    "id": "c65",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -1239,7 +1895,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c44",
+    "id": "c66",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -1266,7 +1922,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c45",
+    "id": "c67",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -1293,7 +1949,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c46",
+    "id": "c68",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -1321,7 +1977,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c47",
+    "id": "c69",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -1349,7 +2005,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c48",
+    "id": "c70",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -1377,7 +2033,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c49",
+    "id": "c71",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -1405,7 +2061,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c50",
+    "id": "c72",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -1433,7 +2089,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c51",
+    "id": "c73",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -1462,7 +2118,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c52",
+    "id": "c74",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -1491,7 +2147,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c53",
+    "id": "c75",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -1519,7 +2175,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c54",
+    "id": "c76",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -1547,7 +2203,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c55",
+    "id": "c77",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -1576,7 +2232,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c56",
+    "id": "c78",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -1605,7 +2261,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c57",
+    "id": "c79",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -1634,7 +2290,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c58",
+    "id": "c80",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -1662,7 +2318,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c59",
+    "id": "c81",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -1690,7 +2346,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c60",
+    "id": "c82",
     "paper": "TECH1",
     "unit": "I",
     "unitTitle": "Fundamentals of Computer",
@@ -1719,7 +2375,2207 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c61",
+    "id": "c83",
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Types and Functions of Operating Systems",
+    "def": "An operating system is the system software that sits between the hardware and the user's applications. It manages the machine's resources, provides an environment in which programs run, and gives the user an interface to work through. It is loaded into main memory at boot and stays resident; without it every application would have to drive the hardware itself.",
+    "exp": "The OS has five core functions, and the whole unit hangs off this list. Process management creates, schedules, switches and terminates running programs. Memory management decides which process occupies which part of RAM and provides virtual memory. File management organises data on disk into files and directories and controls access to them. Device management drives printers, disks, keyboards and network cards through device drivers. And it provides the user interface, either a command line or a graphical one. Security and protection, and accounting of resource use, are usually listed alongside these.\n\nTypes are classified by how work reaches the machine. A batch OS collects jobs and runs them one after another with no user interaction during the run. A time-sharing or multi-user OS switches the CPU rapidly between users so each appears to have the machine to themselves; Unix, Linux and Windows Server work this way. A real-time OS guarantees a response within a fixed deadline and is used in industrial control, medical equipment and avionics. A distributed OS presents several networked computers as one system. An embedded OS is small and fixed-function, burnt into a router, ATM or smart TV. Android and iOS are mobile operating systems.\n\nThe kernel is the core of the OS, holding the scheduler, memory manager and drivers. The shell or GUI is only the outer interface layer, which is why the same Linux kernel appears under many different desktops.",
+    "facts": [
+      "An operating system is system software, not application software; the resident kernel is loaded into main memory when the computer boots",
+      "The five core functions are process management, memory management, file management, device management and providing the user interface",
+      "MS-DOS is a single-user, single-tasking OS; Windows, Linux, Unix and macOS are multitasking",
+      "A real-time OS is judged on meeting deadlines, not on average throughput or fairness",
+      "The kernel is the core of the OS; the shell or GUI is the interface layer around it"
+    ],
+    "traps": [
+      "Multiprogramming, multitasking and multiprocessing are different: multiprogramming keeps several jobs in memory, multitasking switches the CPU between them fast enough to feel interactive, multiprocessing means more than one physical CPU or core",
+      "Time-sharing is not real-time. Time-sharing shares the CPU fairly; a real-time OS guarantees a deadline. 'Fast' does not mean 'real-time'",
+      "A distributed OS makes many machines behave as one system; a network OS merely lets separate machines share files and printers over a network",
+      "Utilities such as antivirus, disk cleanup and defragmenter are utility software running on the OS, not parts of the kernel"
+    ],
+    "mnem": "Functions: Process, Memory, File, Device, Interface.",
+    "rel": [
+      "Process Management",
+      "Memory Management",
+      "File Systems"
+    ]
+  },
+  {
+    "id": "c84",
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Process Management",
+    "def": "A process is a program in execution. The program is the passive file sitting on disk; the process is the active instance in memory with its own address space, program counter, register contents and open files. Process management is the OS function that creates, schedules, switches and terminates processes and keeps them from interfering with one another.",
+    "exp": "A thread is a unit of execution inside a process. Threads of the same process share its memory and open files, so switching between threads is cheaper than switching between processes. A modern application is typically one process with many threads.\n\nA process moves through five states. New, while it is being created. Ready, when it has everything it needs except the CPU and is queued for it. Running, when it is actually executing, which only one process per core can do at a time. Waiting or blocked, when it is stopped for input or output and could not use the CPU even if offered it. Terminated, when it has finished. Everything the OS knows about a process, including its state and saved registers, is held in its Process Control Block.\n\nA context switch saves the running process's state into its PCB and loads another's. It is pure overhead: during a switch no useful work is done.\n\nThe scheduler picks which ready process runs next, using policies such as first-come-first-served, shortest job first, round robin with a fixed time slice, or priority. Preemptive scheduling can take the CPU away mid-run; non-preemptive waits for the process to yield.\n\nDeadlock is the classic failure: each process holds a resource and waits for one held by another, so none can proceed.",
+    "facts": [
+      "Program is passive and on disk; process is active and in memory. One program can be running as several processes at once",
+      "The five process states are new, ready, running, waiting (blocked) and terminated",
+      "The Process Control Block holds a process's state, program counter, registers and resource list, and is what a context switch saves and restores",
+      "Deadlock needs four conditions together: mutual exclusion, hold and wait, no preemption, and circular wait. Breaking any one prevents it",
+      "The Banker's algorithm is a deadlock avoidance technique: it grants a request only if the system stays in a safe state",
+      "Threads of one process share its address space and open files; separate processes do not"
+    ],
+    "traps": [
+      "Ready is not waiting. A ready process needs only the CPU; a waiting (blocked) process is stopped for I/O and would not use the CPU even if given it",
+      "Deadlock is not starvation. In deadlock a circular wait means no process can ever proceed; in starvation a low-priority process is indefinitely postponed but could still run if the load eases",
+      "The Banker's algorithm avoids deadlock, it does not detect or recover from an existing one",
+      "A context switch is overhead, not work. More frequent switching improves responsiveness but reduces total throughput"
+    ],
+    "mnem": "",
+    "rel": [
+      "Types and Functions of Operating Systems",
+      "Memory Management",
+      "Task Manager"
+    ]
+  },
+  {
+    "id": "c85",
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Memory Management",
+    "def": "Memory management is the OS's control of main memory: deciding which process gets which part of RAM, keeping each process out of the others' space, reclaiming memory when a process ends, and creating the illusion of more memory than is physically fitted. The hardware side of RAM and virtual memory is covered separately in Unit I; this concept is about what the OS does with it.",
+    "exp": "In contiguous allocation each process gets one unbroken block. Loading and unloading processes over time leaves free memory scattered in pieces individually too small to use, which is external fragmentation. With fixed-size partitions the opposite happens: a process gets a block larger than it needs and the leftover inside that block is wasted, which is internal fragmentation.\n\nPaging removes external fragmentation. Physical memory is divided into fixed-size frames and each process's address space into pages of the same size. Any page can go into any free frame, and a page table maps page numbers to frame numbers. Only the last page is partly empty, so a little internal fragmentation remains.\n\nSegmentation divides a program by logical unit instead: code, data and stack as variable-size segments. This matches the programmer's view but brings external fragmentation back.\n\nVirtual memory keeps only the pages currently in use in RAM and leaves the rest on disk, in pagefile.sys on Windows or a swap partition or file on Linux. A reference to a page not resident causes a page fault; the OS fetches that page, evicting another chosen by a replacement policy such as FIFO or LRU.\n\nThrashing is over-commitment showing itself: too many processes for the RAM available, so the system spends nearly all its time paging and almost none executing. The disk runs constantly and throughput collapses. The fixes are fewer running processes or more RAM.",
+    "facts": [
+      "Paging uses fixed-size pages and frames; segmentation uses variable-size logical segments matching program structure",
+      "Internal fragmentation belongs to fixed-size allocation (paging, fixed partitions); external fragmentation belongs to variable-size allocation (contiguous allocation, segmentation)",
+      "A page fault occurs when a referenced page is not present in RAM and must be brought in from the swap area",
+      "Windows keeps its swap area in the file pagefile.sys; Linux uses a swap partition or swap file",
+      "Belady's anomaly is the case where adding more page frames increases page faults; it can occur with FIFO replacement but not with LRU or optimal",
+      "Thrashing is excessive paging that leaves the CPU nearly idle while the disk stays busy"
+    ],
+    "traps": [
+      "Internal vs external fragmentation is the standard MCQ. Internal is waste inside an allocated block; external is unusable gaps between blocks",
+      "Virtual memory does not make the machine faster or add real RAM. It is disk-backed and far slower than RAM; it only lets larger or more numerous programs run",
+      "Thrashing is not an out-of-memory error. The system keeps running, just uselessly slowly, because it is paging constantly",
+      "Paging is done by the OS with hardware support and is invisible to the program; segmentation reflects the program's own logical divisions"
+    ],
+    "mnem": "Internal = wasted Inside a block. External = wasted between blocks.",
+    "rel": [
+      "Process Management",
+      "Types and Functions of Operating Systems",
+      "File Systems"
+    ]
+  },
+  {
+    "id": "c86",
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "File Systems",
+    "def": "A file system is the scheme an operating system uses to organise data on a storage volume: how files are named, where their contents are placed in clusters on the medium, and what metadata such as size, dates, ownership and permissions is kept about each one. Formatting a volume means writing an empty file-system structure onto it.",
+    "exp": "FAT32 is old and simple. It has no journal and no per-file permissions, but almost every operating system and device can read it, so it survives on USB sticks and camera cards. Its hard limit is 4 GB for any single file: that is why a large ISO or video refuses to copy to a FAT32 pen drive even when gigabytes of free space remain.\n\nNTFS is the default for Windows system drives. It is journaled, meaning it logs pending metadata changes so the volume can be returned to a consistent state after a crash or power cut. It supports per-file and per-folder permissions, compression, EFS encryption, disk quotas and very large files. Metadata for every file and directory on the volume lives in the Master File Table.\n\nexFAT was designed for flash media. It keeps FAT's simplicity and cross-platform reach but removes the 4 GB file limit. It has no journal and no permissions, and it is the right choice for a large USB drive shared between Windows, macOS and Linux.\n\next4 is the usual Linux default: journaled, with POSIX owner, group and other read/write/execute permissions. Windows cannot read ext4 without extra software.\n\nThe cluster is the smallest chunk given to a file; the unused remainder of the last cluster is slack space. Fragmentation is a file's clusters ending up scattered, which slows reads on a mechanical disk.",
+    "facts": [
+      "The maximum size of a single file on a FAT32 volume is 4 GB",
+      "NTFS provides journaling and per-file permissions; FAT32 provides neither",
+      "The Master File Table (MFT) stores the metadata for every file and directory on an NTFS volume",
+      "exFAT is intended for flash media: cross-platform, no 4 GB file limit, but no journaling and no permissions",
+      "ext4 is the common default Linux file system, journaled and using POSIX owner/group/other permissions",
+      "Slack space is the unused portion of the last cluster allocated to a file"
+    ],
+    "traps": [
+      "exFAT is not 'FAT32 with permissions'. It lifts the file-size limit but still has no journal and no access permissions",
+      "The FAT32 4 GB figure is a per-file limit, not a volume-size limit",
+      "Defragmentation helps mechanical hard disks. SSDs are not defragmented; Windows maintains them with TRIM instead",
+      "A quick format only rewrites the file-system structure and leaves the old data recoverable on the medium; it is not secure erasure"
+    ],
+    "mnem": "",
+    "rel": [
+      "Windows Operating Systems",
+      "Files and Folders",
+      "Memory Management"
+    ]
+  },
+  {
+    "id": "c87",
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Windows Operating Systems",
+    "def": "Windows is Microsoft's family of graphical, multitasking operating systems built on the NT kernel. The client versions, Windows 10 and Windows 11, run on desktops and laptops; the Windows Server line runs network roles such as domain controller, file, print and web server. NTFS is the default file system on the system drive.",
+    "exp": "Editions matter in an office. Home covers a personal PC. Pro and Enterprise add the features an organisation needs: joining a domain, Group Policy management, BitLocker drive encryption and hosting Remote Desktop sessions. That is the practical reason a government office specifies Pro machines rather than Home.\n\nArchitecture: 32-bit Windows can address only about 4 GB of RAM, while 64-bit editions address far more. A 64-bit Windows runs 32-bit applications, but a 32-bit Windows cannot run 64-bit applications.\n\nThe user-facing shell is File Explorer, with the Start menu, taskbar and notification area. Configuration is split between the modern Settings app and the older Control Panel; both still exist and some legacy items are only reachable through Control Panel.\n\nStartup runs firmware (BIOS or UEFI), then the boot loader, then the Windows kernel and drivers, then the sign-in screen. The power states are commonly examined: sleep keeps the session in RAM and resumes in seconds but still draws power and loses the session if power fails; hibernate writes the session to disk and uses no power, resuming more slowly.\n\nWindows Update delivers security patches and feature updates. Keeping it current is the single most effective routine defence on an office machine, and modern Windows is serviced with rolling updates rather than replaced by a new product every few years.",
+    "facts": [
+      "Windows 10 and Windows 11 are the client versions; Windows Server is the separate server line, both built on the NT kernel",
+      "32-bit Windows is limited to roughly 4 GB of addressable RAM; 64-bit editions support far more",
+      "Domain join, Group Policy and BitLocker are Pro and Enterprise features, not available in Home",
+      "Sleep holds the session in RAM and needs power; hibernate writes the session to disk and needs none",
+      "File Explorer is the graphical shell, and NTFS is the default file system for the Windows system drive"
+    ],
+    "traps": [
+      "Sleep versus hibernate is a standard question. Sleep is fast resume but power-dependent; hibernate is slower resume but survives a power cut",
+      "Settings has not replaced Control Panel. Both are present, and some older configuration exists only in Control Panel",
+      "A 64-bit Windows runs 32-bit software, but 32-bit Windows cannot run 64-bit software. The compatibility runs one way only",
+      "Windows Home cannot be joined to a domain, however much RAM or how new the machine is"
+    ],
+    "mnem": "",
+    "rel": [
+      "File Systems",
+      "User Accounts",
+      "Types and Functions of Operating Systems"
+    ]
+  },
+  {
+    "id": "c88",
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "User Accounts",
+    "def": "A Windows user account is the identity a person signs in with. It owns a profile holding that person's desktop, documents and settings, and it carries a set of rights. Two things are decided separately: the account type, Standard or Administrator, which sets what the person may change; and the account source, a local account stored on that PC, a Microsoft account, or a domain account managed centrally.",
+    "exp": "A Standard user can run programs, use and save their own files, and change settings that affect only themselves. They cannot install software for all users, change other people's accounts, alter system-wide settings or write to protected system areas without an administrator's credentials. An Administrator has full control: install and uninstall software, change any setting, manage other accounts and take ownership of files.\n\nThe principle of least privilege says do daily work from a Standard account and use an administrator account only when a task genuinely needs it. The reason is concrete. Malware runs with the rights of the account that started it. In a Standard session it cannot install itself system-wide, cannot alter Windows itself and cannot reach other users' profiles. In an administrator session it can do all three.\n\nRights are normally granted through group membership rather than one account at a time. Administrators, Users, Guests and Remote Desktop Users are the standard local groups. Local accounts and groups are managed through Settings, Control Panel's User Accounts, Computer Management's Local Users and Groups node, or the net user command.\n\nEach person on a shared machine should have their own named account. Shared logins destroy accountability: the logs then show only that the office PC did something, not who.",
+    "facts": [
+      "Account type (Standard or Administrator) and account source (local, Microsoft or domain) are independent choices",
+      "A Standard user cannot install software for all users or change system-wide settings without administrator credentials",
+      "Rights are normally assigned by adding an account to a group such as Administrators or Users",
+      "The Guest account is disabled by default in modern Windows",
+      "Each account gets its own profile folder holding its desktop, documents and settings",
+      "Local Users and Groups, inside Computer Management, is the console for managing local accounts on a Windows machine"
+    ],
+    "traps": [
+      "Standard is not Guest. A Standard account is a normal named user with a full profile; Guest is a restricted, disabled-by-default account",
+      "A Microsoft account is not automatically an administrator, and a local account is not automatically standard. The two attributes are set separately",
+      "Disabling an account is not deleting it. Deleting can remove the profile and the user's data with it; disabling just blocks sign-in",
+      "Running as administrator does not remove the need to sign in as that user's own identity; shared administrator logins break audit trails"
+    ],
+    "mnem": "",
+    "rel": [
+      "Windows Security",
+      "Windows Operating Systems",
+      "Event Viewer"
+    ]
+  },
+  {
+    "id": "c89",
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Windows Security",
+    "def": "Windows Security is the set of protections built into the operating system for the machine and its data: User Account Control, Microsoft Defender antivirus and firewall, BitLocker drive encryption, NTFS permissions, Windows Update, and the local security policy that sets password and audit rules.",
+    "exp": "User Account Control is the elevation gate. When an action needs administrative rights, Windows dims the screen and asks: an administrator gives consent, a standard user must supply an administrator's credentials. An administrator normally runs with a filtered, standard-level token, and the full token is used only after that prompt. UAC is therefore not a nuisance dialog; it is what stops software elevating silently. Right-clicking and choosing Run as administrator requests elevation explicitly.\n\nMicrosoft Defender Antivirus is built in and on by default, scanning in real time with definitions delivered through Windows Update, and it steps aside when a third-party antivirus is installed. Microsoft Defender Firewall filters network traffic with a separate rule set per network profile: domain, private or public.\n\nBitLocker encrypts an entire volume, typically with keys protected by the TPM chip. A drive pulled out of a stolen laptop yields nothing readable. It protects data at rest only: once the machine is unlocked and running, files are readable as normal. EFS, by contrast, encrypts individual files and folders per user on an NTFS volume.\n\nNTFS permissions and share permissions together decide who reads or writes what over the network, and where they differ the more restrictive one wins.\n\nLocal Security Policy, and Group Policy on a domain, sets password length and complexity, account lockout after failed sign-ins, and audit policy. Audited events, including failed logons, go to the Security log in Event Viewer.",
+    "facts": [
+      "UAC asks an administrator for consent and asks a standard user for administrator credentials",
+      "BitLocker encrypts a whole volume; EFS encrypts individual files and folders for a particular user on NTFS",
+      "BitLocker protects data at rest, for example a lost or stolen machine or a drive removed from it",
+      "Microsoft Defender Antivirus is enabled by default and disables itself when a third-party antivirus is installed",
+      "Failed logon attempts are recorded in the Security log in Event Viewer",
+      "Where NTFS permissions and share permissions differ, the more restrictive permission takes effect"
+    ],
+    "traps": [
+      "BitLocker is not antivirus and does not stop malware. It only makes the drive unreadable without the key",
+      "BitLocker versus EFS: whole drive versus selected files. Encrypting the drive does not hide files from another user signed in on that same running machine",
+      "Turning UAC off does not remove the requirement for administrative rights; it removes the prompt, so elevation happens silently. That is a loss of security, not a convenience setting",
+      "Antivirus and firewall are different jobs. Antivirus inspects files and behaviour on the machine; the firewall filters network traffic in and out"
+    ],
+    "mnem": "",
+    "rel": [
+      "User Accounts",
+      "Windows Operating Systems",
+      "Event Viewer"
+    ]
+  },
+  {
+    "id": "c90",
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Windows Terminal",
+    "def": "Windows Terminal is a terminal application, a host window that displays and manages command-line shells. It is not itself a shell and has no commands of its own. Command Prompt, PowerShell, Azure Cloud Shell or a WSL Linux distribution run inside it and supply the commands. It is the default terminal application on current Windows.",
+    "exp": "Grasp the distinction and the exam question answers itself. The terminal is the window: it draws the text, handles the keyboard, manages tabs and colours. The shell is the program running inside it that interprets what you type. Swap the terminal and your commands are unchanged; swap the shell, from Command Prompt to PowerShell, and the command language changes. The command dir works in both, but Get-ChildItem works only in PowerShell.\n\nWhat Windows Terminal adds over the old console window: multiple tabs and split panes in one window, a profile for each shell with its own starting directory, colour scheme, font and command line, full Unicode and UTF-8 support, GPU-accelerated text rendering, search, and settings held in a JSON file that can also be edited through a settings interface.\n\nThe two shells you will meet inside it. Command Prompt (cmd.exe) is the legacy DOS-style interpreter that passes plain text between commands. PowerShell is object-based: its cmdlets follow a Verb-Noun naming pattern, such as Get-Process or Set-Service, and pass structured objects down the pipeline, so you can filter on a property without parsing text.\n\nWindows Terminal is launched from the Start menu or by running wt. Starting it as administrator elevates every shell opened in that window, so elevation is a property of the terminal window rather than of an individual tab's shell.",
+    "facts": [
+      "Windows Terminal is a terminal host or emulator, not a shell and not a command language",
+      "It hosts Command Prompt, PowerShell, WSL Linux distributions and Azure Cloud Shell, each configured as a profile",
+      "It provides multiple tabs and split panes within a single window, which the old console window could not do",
+      "Its configuration is stored in a JSON settings file, editable directly or through the settings UI",
+      "It is launched by the command wt"
+    ],
+    "traps": [
+      "Terminal versus shell is the examinable point. Windows Terminal displays a shell; Command Prompt and PowerShell are the shells that interpret commands",
+      "Windows Terminal does not replace PowerShell and introduces no new commands. Installing it changes nothing about what you can type",
+      "Windows PowerShell (built into Windows) and the newer cross-platform PowerShell are separate products, and both can appear as profiles in the same terminal",
+      "Running the terminal as administrator elevates all tabs opened in that window; you cannot mix elevated and non-elevated shells in one window"
+    ],
+    "mnem": "Terminal = the window. Shell = the brain inside it.",
+    "rel": [
+      "Command Prompt",
+      "PowerShell Fundamentals",
+      "Windows Operating Systems"
+    ]
+  },
+  {
+    "id": "c91",
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Registry",
+    "def": "The Windows Registry is the central hierarchical database in which Windows and installed applications store configuration settings: hardware and driver information, installed software, file associations, service definitions and per-user preferences. It replaced the scattered INI text files of early Windows, and it is read at boot and continuously while the system runs.",
+    "exp": "The structure resembles File Explorer. Root keys, also called hives, contain keys and subkeys, and each key holds values. A value has a name, a data type such as string, DWORD (numeric) or binary, and its data. Keys behave like folders and values like the files inside them.\n\nThe root keys at a high level: HKEY_LOCAL_MACHINE holds settings for the computer that apply to everyone who signs in; HKEY_CURRENT_USER holds settings for the account currently signed in; HKEY_USERS holds the loaded profiles of all users; HKEY_CLASSES_ROOT holds file associations and component registration; HKEY_CURRENT_CONFIG holds the current hardware profile. Changing anything machine-wide requires administrative rights; a user's own branch does not.\n\nPhysically the hives are protected files in the Windows system folder and, for each user, in that user's profile. They are not one visible file you can copy. Registry Editor (regedit) browses and edits them; the reg command and PowerShell can script changes.\n\nWhy editing is risky: there is no undo and no confirmation step. A wrong value or a deleted key takes effect immediately and can leave an application broken or Windows unbootable, with nothing recorded to say what changed. Before any edit, export the key to a .reg backup file and set a System Restore point.\n\nThe rule for practice: change settings through Settings, Control Panel or Group Policy, which write the same values correctly. Edit the registry directly only when a documented fix requires it.",
+    "facts": [
+      "The Registry is a hierarchical database of configuration settings that replaced the INI files used by early Windows",
+      "Registry Editor, launched as regedit, is the tool for viewing and editing it",
+      "HKEY_LOCAL_MACHINE holds machine-wide settings for all users; HKEY_CURRENT_USER holds settings for the signed-in user only",
+      "Keys contain values, and each value has a name, a data type such as string, DWORD or binary, and data",
+      "Registry Editor has no undo; the standard precaution is exporting the key to a .reg file and setting a System Restore point first",
+      "Group Policy configures machines centrally by writing registry settings, which is why it is preferred on domain-joined office PCs"
+    ],
+    "traps": [
+      "HKLM versus HKCU is the standard question. HKLM applies to the whole computer; HKCU applies only to the account currently signed in",
+      "The Registry is not a single file. The hives are several protected system files, so it cannot simply be copied or edited in a text editor",
+      "Registry editing is not a performance tune. So-called registry cleaner utilities promise speed gains they do not deliver and can break working software",
+      "System Restore rolls back registry and system files, not personal data. It is not a substitute for a real backup"
+    ],
+    "mnem": "HKLM = Local Machine, everyone. HKCU = Current User, just you.",
+    "rel": [
+      "Windows Operating Systems",
+      "Windows Security",
+      "Services"
+    ]
+  },
+  {
+    "id": "c92",
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Windows Utilities",
+    "def": "Windows Utilities are the maintenance and diagnostic tools bundled with Windows for managing disks, processes, devices and system health without buying third-party software. The ones worth knowing are Disk Cleanup, Optimize Drives (defragmentation), Task Manager, Device Manager, Event Viewer, Resource Monitor, System Configuration and System File Checker. They are administrative tools, not applications you produce work in.",
+    "exp": "Disk Cleanup frees space by removing temporary files, cached update files, thumbnails and the contents of the Recycle Bin. Optimize Drives handles fragmentation: on a mechanical hard disk it re-collects the scattered pieces of each file so the head makes fewer seeks. On an SSD it does not defragment. It issues TRIM, telling the drive which blocks the file system no longer needs so the controller can erase them in advance. Defragmenting an SSD gains no speed and consumes write cycles.\n\nTask Manager shows running processes, CPU, memory, disk and network use and startup programs, and lets you end an unresponsive process. Device Manager lists hardware and driver status, where a yellow warning marker means a missing or failed driver. Event Viewer holds the System, Application and Security logs and is the first place to look after an unexplained crash or reboot. Resource Monitor gives the per-process detail Task Manager summarises, including which process is holding a locked file.\n\nTwo repair tools are asked about constantly. chkdsk checks a volume for file-system errors and bad sectors; sfc /scannow verifies and repairs protected Windows system files. Most of these tools need an elevated Run as administrator prompt before they will act.",
+    "facts": [
+      "Disk Cleanup removes temporary files, update caches and Recycle Bin contents to free disk space.",
+      "Optimize Drives defragments mechanical hard disks but sends TRIM commands to SSDs.",
+      "Event Viewer stores the System, Application and Security logs.",
+      "chkdsk checks a volume for file-system errors and bad sectors; sfc /scannow repairs protected Windows system files.",
+      "Device Manager reports driver problems; Task Manager ends unresponsive processes and manages startup items."
+    ],
+    "traps": [
+      "Defragmentation vs TRIM: an SSD is never defragmented. Optimize Drives keeps the same button but issues TRIM instead, and forcing a real defragmentation on an SSD wastes write cycles for no gain.",
+      "Disk Cleanup frees space, Optimize Drives rearranges existing data. Neither one does the other's job.",
+      "Task Manager vs Resource Monitor: Task Manager gives the summary and the kill switch, Resource Monitor gives per-process detail such as which process holds a file open.",
+      "chkdsk vs sfc: chkdsk repairs the disk and file system, sfc repairs corrupted Windows system files. A bad sector and a corrupted system file are different failures."
+    ],
+    "mnem": "",
+    "rel": [
+      "Files and Folders",
+      "Disk Management",
+      "Command Prompt"
+    ]
+  },
+  {
+    "id": "c93",
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Linux Architecture",
+    "def": "Linux is built in layers: hardware at the bottom, then the kernel, then the shell and system utilities, and applications on top. The kernel is the only part that is strictly Linux; everything above it is supplied by the distribution. Code runs either in kernel space, with unrestricted hardware access, or in user space, which must request privileged services through system calls.",
+    "exp": "The kernel manages processes and scheduling, memory, storage through a virtual file system layer, device drivers and networking. It is monolithic, meaning these subsystems run together in one address space, but it is modular: drivers can be loaded and unloaded at runtime as kernel modules rather than being compiled in permanently.\n\nThe shell is the command interpreter between the user and the kernel. It reads a typed line, locates the program, and asks the kernel to run it. bash is the usual default; sh, zsh and others exist and can be swapped in. The shell is an ordinary user-space program with no special privilege of its own, which is why sudo exists.\n\nA distribution bundles the kernel with the GNU utilities, a C library, an init system, a package manager, and usually a desktop environment and an installer. Debian, Ubuntu, Red Hat Enterprise Linux, Fedora and SUSE differ in which versions and components they choose and in what support they offer, not in being fundamentally different operating systems. Because so much of a working system comes from the GNU project rather than the kernel, the Free Software Foundation asks for the name GNU/Linux. On a server the graphical layer is often not installed at all, and nothing breaks: the GUI sits in user space above the utilities, not inside the kernel.",
+    "facts": [
+      "The layers are hardware, kernel, shell and utilities, and applications.",
+      "Kernel space has unrestricted hardware access; user-space programs reach it only through system calls.",
+      "The Linux kernel is monolithic but supports loadable kernel modules, so drivers need not be compiled in.",
+      "bash is the default shell on most distributions, and the shell runs in user space like any other program.",
+      "A distribution is the kernel plus GNU utilities, a C library, an init system, a package manager and usually a desktop environment."
+    ],
+    "traps": [
+      "Linux vs a distribution: Linux strictly names the kernel. Ubuntu and Fedora are distributions that ship that kernel. A question about what Linus Torvalds wrote means the kernel.",
+      "Shell vs kernel: the shell interprets your commands, the kernel performs the privileged work. The shell is replaceable and unprivileged.",
+      "Monolithic vs microkernel: Linux is a modular monolithic kernel, not a microkernel. Being modular is not the same claim as being a microkernel.",
+      "The graphical desktop is not part of the kernel. A headless server with no GUI is a complete Linux system."
+    ],
+    "mnem": "",
+    "rel": [
+      "Linux File System",
+      "Basic Linux Commands",
+      "Types and Functions of Operating Systems"
+    ]
+  },
+  {
+    "id": "c94",
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Linux File System",
+    "def": "Linux presents all storage in a single tree rooted at /. There are no drive letters: a second disk, a USB stick or a network share is attached at a mount point, an existing directory, and its contents appear from there downwards. The arrangement of directories under / follows the Filesystem Hierarchy Standard, so /etc means the same thing on every distribution.",
+    "exp": "The directories to know: /etc holds configuration files; /home holds users' personal directories, one per user; /root is the superuser's own home directory, which is not the same as /; /var holds variable data, with logs in /var/log; /bin and /usr/bin hold executable programs and /sbin and /usr/sbin the administrative ones; /tmp is scratch space cleared on reboot; /dev contains device files; /proc exposes kernel and process information as files; /boot holds the kernel and boot loader.\n\nEvery file has an owner and a group, and three permission sets, for owner, group and other, each carrying read, write and execute. ls -l prints them as a string like rwxr-xr-x. Numerically read is 4, write 2 and execute 1, added within each triad, so chmod 755 gives the owner read, write and execute and gives group and others read and execute. chmod also takes a symbolic form such as chmod u+x script.sh.\n\nOn a directory the bits mean something slightly different: execute is the right to enter the directory and reach what is inside, while read only permits listing the names. A directory you can read but not enter is therefore a list you cannot open.",
+    "facts": [
+      "Everything sits under one root, /; extra devices appear at mount points rather than as drive letters.",
+      "/etc is configuration, /home is user files, /var is logs and variable data, /bin and /usr/bin are executables, /tmp is scratch space.",
+      "/root is the superuser's home directory and is different from /, the top of the tree.",
+      "Permissions are three triads (owner, group, other), each with read = 4, write = 2, execute = 1.",
+      "chmod 755 means owner rwx, group r-x, other r-x.",
+      "Execute permission on a directory allows entering it; read permission only allows listing its contents."
+    ],
+    "traps": [
+      "Drive letters vs mount points: there is no Linux equivalent of D:. A second disk is mounted into the same tree, commonly under /mnt or /media.",
+      "/ vs /root: / is the root of the whole hierarchy, /root is one user's home folder. MCQs pair these two deliberately.",
+      "chmod 777 grants everyone full access. It is a common shortcut and a security failure, never the right answer to a permissions question.",
+      "The directory hierarchy is not the on-disk format. ext4, XFS and Btrfs are file-system formats; /etc and /var exist whichever format you use."
+    ],
+    "mnem": "Permission digits add up within a triad: read 4, write 2, execute 1, so 7 is all three and 5 is read plus execute.",
+    "rel": [
+      "Linux Architecture",
+      "Basic Linux Commands",
+      "File Systems"
+    ]
+  },
+  {
+    "id": "c95",
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Basic Linux Commands",
+    "def": "A Linux command has three parts: the command name, options that modify its behaviour (short options with one hyphen, long options with two), and arguments naming what to act on, as in ls -l /var/log. Commands and file names are case-sensitive, so LS is not ls and Report.txt is not report.txt. Most commands print nothing at all when they succeed.",
+    "exp": "Moving around and handling files: pwd prints the directory you are in; cd changes it; ls lists a directory, with -l for the long listing showing permissions, owner, size and date, and -a to include hidden dot-files. mkdir creates a directory, rm removes a file with -r for a whole directory tree, cp copies, and mv both moves and renames.\n\nReading and searching: cat prints an entire file to the screen and is also used to join files together; less pages through a long file and lets you scroll and search inside it; grep searches for a text pattern inside files; find searches for files themselves by name, type, size or age beneath a starting directory.\n\nSystem and help: ps lists running processes; chmod changes permissions; man opens the manual page for a command and is the answer to almost any question about how to use one; sudo runs a single command with superuser privileges, prompting for your own password rather than root's. Output can be redirected into a file with > or piped into another command with |, as in ps aux | grep ssh, which is how these small commands are combined into useful work.",
+    "facts": [
+      "Command syntax is command, then options, then arguments.",
+      "Linux commands and file names are case-sensitive; Windows file names are not.",
+      "pwd prints the working directory, cd changes it, ls lists it; ls -l is the long listing and ls -a shows hidden files.",
+      "man displays a command's manual page; sudo runs one command with superuser rights.",
+      "grep searches for text inside files; find searches for files by their attributes.",
+      "A pipe (|) sends one command's output into the next; > redirects output into a file."
+    ],
+    "traps": [
+      "grep vs find: grep looks inside files for text, find looks for the files themselves. Swapping them is the standard MCQ trap.",
+      "cat vs less: cat dumps the whole file and the top of a long one scrolls away; less pages through it and lets you go back.",
+      "mv performs both moving and renaming. There is no separate rename command in the basic set.",
+      "rm has no Recycle Bin. rm -rf deletes recursively without asking and there is no undo."
+    ],
+    "mnem": "",
+    "rel": [
+      "Linux File System",
+      "Command Prompt",
+      "Linux Architecture"
+    ]
+  },
+  {
+    "id": "c96",
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Open-source Ecosystem",
+    "def": "Open-source software is distributed with its source code under a licence permitting anyone to read, modify and redistribute it. Free software in this sense means freedom, not price: you may legitimately be charged for a copy, for media or for support. The ecosystem is everything built around that, namely the licences, the distributions and their families, the upstream projects, and the vendors who sell support rather than the software itself.",
+    "exp": "Licences fall into two broad kinds. Copyleft licences, chiefly the GNU GPL, require that anything you distribute built from the code is released under the same terms, so the freedom propagates downstream. Permissive licences such as MIT, BSD and Apache let you fold the code into a closed product provided you keep the copyright notices. Open source is never the same thing as public domain or as having no licence at all: the licence is precisely what makes the use lawful.\n\nDistributions cluster into families sharing packaging and tooling. Debian and its derivatives Ubuntu and Linux Mint use .deb packages and apt. The Red Hat family, including Fedora, RHEL and rebuilds such as Rocky and AlmaLinux, uses .rpm packages and dnf. SUSE forms a third family. Community distributions are backed by forums, mailing lists and documentation; vendor distributions come with a paid support contract, hardware certification and a guaranteed patch lifetime, which is usually what a government department is actually buying.\n\nIn India, C-DAC develops BOSS, Bharat Operating System Solutions, a Debian-derived Indian distribution with Indian-language support, and government policy for e-governance favours open standards and open-source software to reduce vendor lock-in and licence cost.",
+    "facts": [
+      "Free in free software means freedom to run, study, modify and redistribute, not zero price.",
+      "The GPL is a copyleft licence: distributed derived works must carry the same licence. MIT, BSD and Apache are permissive.",
+      "Debian-family distributions use .deb packages with apt; Red Hat-family distributions use .rpm packages with dnf.",
+      "Ubuntu and Linux Mint derive from Debian; Fedora, RHEL, Rocky and AlmaLinux belong to the Red Hat family.",
+      "BOSS (Bharat Operating System Solutions) is an Indian Debian-based distribution developed by C-DAC."
+    ],
+    "traps": [
+      "Open source vs freeware: freeware costs nothing but its source stays closed. Open source is defined by the availability of the source and the licence, not by the price.",
+      "Open source vs public domain: open-source code is copyrighted and licensed with conditions attached. Public domain has no owner and no conditions.",
+      "Copyleft vs permissive: the GPL forces the same licence on redistributed derived works, MIT does not. That difference is what the exam actually tests.",
+      "Red Hat charges subscription fees for RHEL and the software is still open source. Selling support does not make software proprietary."
+    ],
+    "mnem": "",
+    "rel": [
+      "Linux Architecture",
+      "Linux File System"
+    ]
+  },
+  {
+    "id": "c97",
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Files and Folders",
+    "def": "A file is a named collection of data stored and handled as one unit; a folder, called a directory on Linux, is a container holding files and other folders, which gives storage its tree structure. A file is located by its path, the sequence of folders from the root down to the name, such as C:\\Users\\Lalu\\Documents\\report.docx or /home/lalu/report.txt.",
+    "exp": "A path is absolute when it starts from the root, C:\\ or /, and relative when it starts from wherever you currently are; within a relative path, a single dot means the current folder and two dots the parent. Windows separates components with a backslash and organises storage by drive letter; Linux uses a forward slash and one rooted tree. The extension after the last dot, such as .docx, .pdf, .exe or .jpg, tells Windows which program should open the file. It is only a label, so renaming a .txt to .jpg converts nothing and simply produces a file the image viewer cannot read.\n\nFile Explorer is the Windows tool for browsing this tree, with Quick Access, an address bar showing the path, and view options. Hidden files are hidden by a file attribute in Windows and by a leading dot in the name on Linux. Either can be revealed on request, so hiding is presentation, not protection.\n\nDeleting sends an item to the Recycle Bin, which is itself a folder: the file still occupies disk space and can be put back. Shift+Delete, deleting from a network location, and emptying the Bin all bypass it. Even then only the directory entry is removed, and the data blocks survive until something overwrites them.",
+    "facts": [
+      "An absolute path starts at the root; a relative path starts at the current directory, where . is current and .. is parent.",
+      "Windows uses backslash separators and drive letters; Linux uses forward slashes and a single rooted tree.",
+      "The extension only tells the OS which program opens a file; renaming it does not convert the file's format.",
+      "Items deleted normally go to the Recycle Bin and still occupy disk space; Shift+Delete bypasses the Bin.",
+      "Hidden files use a file attribute in Windows and a leading dot in the filename on Linux."
+    ],
+    "traps": [
+      "Deleting vs permanently deleting: a Recycle Bin deletion is reversible from the Bin itself. A permanent delete still only removes the directory entry, so the content is often recoverable until it is overwritten.",
+      "Changing a file's extension does not change its format. The bytes are untouched and the newly associated program will fail to open it.",
+      "Hidden is not secure. Any user can switch on show hidden items; only permissions and encryption actually restrict access.",
+      "Windows file names are case-insensitive but case-preserving, while Linux names are case-sensitive, so report.txt and Report.txt are two different files on Linux only."
+    ],
+    "mnem": "",
+    "rel": [
+      "Linux File System",
+      "File Recovery",
+      "Windows Utilities"
+    ]
+  },
+  {
+    "id": "c98",
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Compression",
+    "def": "Compression re-encodes data so it occupies fewer bytes, either by removing statistical redundancy, which is lossless, or by discarding detail the human recipient will not notice, which is lossy. Lossless compression reconstructs the original bit for bit; lossy compression does not, and what was discarded is gone for good. An archive is the related idea of bundling many files into one container, usually with compression applied.",
+    "exp": "Lossless is compulsory wherever every byte matters: programs, documents, spreadsheets, databases and source code. ZIP, 7z, gzip and RAR are lossless archive formats, and PNG and FLAC are lossless media formats. Lossy is for images, audio and video intended for human perception, where a far smaller file is worth an imperceptible loss of detail: JPEG for photographs, MP3 and AAC for audio, MP4 with H.264 for video.\n\nLinux separates the two jobs. tar bundles many files into a single .tar archive without compressing anything; gzip, bzip2 or xz then compresses that one file, producing .tar.gz or .tar.bz2. Windows ZIP does both at once, and File Explorer creates and opens ZIP files without extra software.\n\nAlready-compressed data barely compresses again. Zipping a folder of JPEGs, MP4 videos or an existing ZIP file gains almost nothing, because the redundancy the algorithm hunts for has already been removed. Plain text, uncompressed bitmaps, log files and database dumps compress heavily by comparison. Finally, compression is neither encryption nor backup: a ZIP is readable by anyone who has it unless you deliberately set a password on it.",
+    "facts": [
+      "Lossless compression restores the original exactly; lossy discards data permanently.",
+      "ZIP, 7z, gzip and RAR are lossless; JPEG, MP3 and MP4 are lossy.",
+      "PNG is a lossless image format and FLAC a lossless audio format.",
+      "tar bundles files without compressing them; gzip then compresses the bundle, giving .tar.gz.",
+      "Already-compressed files such as JPEG, MP4 and ZIP gain almost nothing from further compression."
+    ],
+    "traps": [
+      "Lossless vs lossy: never apply lossy compression to a document, executable or database. Lossy is acceptable only for images, audio and video.",
+      "tar is an archiver, not a compressor. A .tar file is a bundle; a .tar.gz file is a bundle that has then been compressed.",
+      "Compression is not encryption. A ZIP conceals nothing unless a password is set on it.",
+      "Zipping a file repeatedly does not keep shrinking it. After the first pass there is no redundancy left to remove and the size can even grow slightly."
+    ],
+    "mnem": "",
+    "rel": [
+      "Backup and Restore",
+      "Files and Folders"
+    ]
+  },
+  {
+    "id": "c99",
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Encryption",
+    "def": "In file and storage management, encryption means protecting data at rest by converting files or whole drives into ciphertext that only a holder of the correct key can read back. Windows provides two tools: BitLocker, which encrypts an entire volume, and EFS, the Encrypting File System, which encrypts selected files and folders on NTFS. The purpose is that data on a lost or stolen machine remains unreadable.",
+    "exp": "BitLocker encrypts a whole drive, operating system and all, and unlocks it during boot. The key is normally held in the machine's TPM chip, optionally with a PIN or USB key as well, so pulling the disk out and attaching it to another computer yields nothing readable. BitLocker To Go applies the same protection to USB and external drives. The Linux equivalent is LUKS with dm-crypt, usually configured when the system is installed.\n\nEFS works per file and is tied to the user account's certificate, so another user signing into the same machine can see the file name but cannot open its contents. It is finer-grained than BitLocker, but it protects nothing else on the volume if the disk is removed and read outside Windows.\n\nThe recovery key is the real operational problem. Full-disk encryption issues a recovery key to be printed, saved to a Microsoft account, or escrowed in Active Directory, and the machine will demand it if the TPM state changes after a firmware or hardware change. Lose that key and the data is gone permanently. There is no reset and no support desk that can bypass it, and that is the design working correctly rather than a fault.",
+    "facts": [
+      "BitLocker encrypts an entire volume; EFS encrypts individual files and folders on NTFS.",
+      "BitLocker To Go encrypts removable drives such as USB sticks.",
+      "BitLocker typically stores its key in the TPM; the recovery key can be printed, saved to a Microsoft account or escrowed in Active Directory.",
+      "LUKS with dm-crypt is the standard full-disk encryption on Linux.",
+      "Losing the recovery key means permanent, unrecoverable loss of the encrypted data."
+    ],
+    "traps": [
+      "BitLocker vs EFS: whole volume versus selected files. EFS also protects a file from other users of the same running machine, whereas BitLocker does not, because once the system has booted the volume is unlocked for everyone signed in.",
+      "Full-disk encryption protects a powered-off or stolen machine. It gives no protection against someone using the machine while you are logged in, or against malware running inside your session.",
+      "Encrypting a file is not the same as setting permissions on it. Permissions are enforced by the running OS and can be bypassed by booting a different OS from a USB stick; encryption cannot.",
+      "Copying a protected file out, to a FAT32 USB drive or as an email attachment, generally leaves it as plaintext. The protection belongs to the volume or file system, not to the bytes once they leave it."
+    ],
+    "mnem": "",
+    "rel": [
+      "Backup and Restore",
+      "User Accounts",
+      "Files and Folders"
+    ]
+  },
+  {
+    "id": "c100",
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Backup and Restore",
+    "def": "A backup is a separate copy of data kept so it can be restored after accidental deletion, corruption, hardware failure, theft or ransomware. Restore is the other half and the half that matters: a backup that has never been restored successfully is an assumption, not a safeguard. The three backup types are full, incremental and differential, and they trade the time taken to back up against the time taken to restore.",
+    "exp": "A full backup copies everything every time. It is the slowest to take and the largest to store, but the simplest to restore from because one set is enough. An incremental backup copies only what has changed since the last backup of any kind, so it is the quickest and smallest to take, but restoring needs the last full backup plus every incremental since it, applied in order. A differential backup copies everything changed since the last full backup, so it grows each day but restores from only two sets: the full plus the most recent differential.\n\nThe 3-2-1 rule is the standard practice: keep three copies of the data, on two different kinds of media, with one copy off site. The off-site copy is what survives a fire, a flood, or ransomware that reaches every machine on the office network.\n\nAt OS level, Windows offers File History for versions of user files, a system image for a whole-volume copy, and System Restore, which rolls back system files, drivers and the registry but is not a backup of your documents. On Linux the same work is done with tar, rsync and scheduled scripts. Whichever tool is used, schedule a test restore.",
+    "facts": [
+      "Full copies everything; incremental copies changes since the last backup of any type; differential copies changes since the last full backup.",
+      "Restoring from incrementals needs the last full plus every incremental in sequence; restoring from differentials needs the last full plus one differential.",
+      "3-2-1 means three copies of the data, on two types of media, with one copy off site.",
+      "System Restore rolls back Windows system files, drivers and the registry, not personal documents.",
+      "A backup is unverified until a test restore has actually been carried out."
+    ],
+    "traps": [
+      "Incremental vs differential: incremental is faster to take and slower to restore, differential is the reverse. The deciding question is what each measures change against, the last backup of any kind or the last full backup.",
+      "RAID is not a backup. A mirror copies a deletion or a ransomware encryption to both disks instantly; it only protects against a disk dying.",
+      "System Restore is not File History. Recovering a deleted document is File History's job, and a candidate who answers System Restore has answered wrongly.",
+      "A backup drive left permanently connected, whether a mapped network drive or an attached USB disk, is reachable by ransomware. That is the reason for the offline or off-site copy."
+    ],
+    "mnem": "3-2-1: three copies, two media types, one off site.",
+    "rel": [
+      "Compression",
+      "File Recovery",
+      "Encryption"
+    ]
+  },
+  {
+    "id": "c101",
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "File Recovery",
+    "def": "File recovery is the set of Windows facilities and working practices used to get a file back after it has been deleted, overwritten or corrupted: the Recycle Bin for ordinary deletions, Previous Versions for an earlier saved state, restoration from backup media, and undelete tools for files whose directory entry has already gone.",
+    "exp": "Deleting a file through File Explorer from a local fixed drive moves it to the Recycle Bin, where it still occupies space on the same volume and can be restored to its original folder. Shift+Delete bypasses the bin, and so do deletions from a network share, from the command line and usually from removable drives.\n\nPrevious Versions handles what the Recycle Bin cannot. It exposes older copies of a file or folder captured by a shadow copy or restore point, so a file that was overwritten with wrong content rather than deleted can be rolled back.\n\nThe governing principle is worth memorising. A normal delete erases nothing. It removes the directory entry and marks the clusters free, and the data stays physically on the disk until something else is written over that space. Recovery odds collapse the moment the freed space is reused.\n\nSo the correct immediate step after an accidental deletion is to stop writing to that disk. Do not install recovery software onto it and do not save recovered files back onto it; if the data matters, power the machine down and recover the disk from another computer. Defragmenting, disk-checking or reformatting all write to the disk and destroy what you are trying to save.\n\nOn SSDs, TRIM discards deleted blocks soon after deletion, so undelete is far less reliable there. A tested backup remains the only dependable answer.",
+    "facts": [
+      "The Recycle Bin holds files deleted through File Explorer from a local fixed drive and restores them to their original folder; Shift+Delete bypasses it",
+      "Previous Versions restores an earlier saved copy of a file or folder taken from a shadow copy or restore point, so it can recover an overwritten file, not only a deleted one",
+      "An ordinary delete removes the directory entry and marks the clusters free; the data survives on disk until it is overwritten",
+      "The single most important immediate step after an accidental deletion is to stop writing to that disk",
+      "Files deleted from a network share do not go into the local Recycle Bin",
+      "On SSDs, TRIM discards deleted blocks soon after deletion, which makes undelete much less reliable than on a mechanical hard disk"
+    ],
+    "traps": [
+      "Recycle Bin and Previous Versions are not the same. The Recycle Bin returns files deleted through Explorer and only until it is emptied; Previous Versions returns an older saved state of a file, including one that was overwritten rather than deleted",
+      "Emptying the Recycle Bin does not wipe the data, it only releases the space. Recovery stays possible until that space is reused",
+      "Defragmenting, formatting or running a disk check is never a recovery first step. All three write to the disk and destroy recoverable data",
+      "File recovery is not backup. It is a salvage attempt with no guarantee; backup is the planned protection"
+    ],
+    "mnem": "",
+    "rel": [
+      "Backup and Restore",
+      "Files and Folders",
+      "File Systems"
+    ]
+  },
+  {
+    "id": "c102",
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Device Manager",
+    "def": "Device Manager (devmgmt.msc) is the Windows console that lists every piece of hardware the system has detected, grouped by category, together with the driver bound to each device. It is where you check a device's status and where drivers are updated, rolled back, disabled or uninstalled. It deals with hardware and drivers only.",
+    "exp": "The display is a tree of categories such as Display adapters, Network adapters, Disk drives and Printers. Expanding one lists the individual devices, and a device's Properties gives its status message plus a Driver tab showing the provider, version and date, with buttons to update, roll back, disable or uninstall.\n\nThe status markers are the examinable part. A yellow warning marker beside a device means Windows has detected the hardware but cannot use it correctly, most often because the driver is missing, wrong or has failed to start. A disabled device carries a different marker and is not the same fault. An entry under Other devices, listed as an unknown device, means Windows found hardware for which it has no matching driver at all.\n\nRoll Back Driver is the specific fix for a device that worked until a driver was updated and then stopped. It reinstates the previous driver and is available only while Windows still holds a copy of it. Updating again is the wrong instinct there.\n\nScan for hardware changes forces Windows to re-enumerate, which helps when a newly attached device has not been picked up.\n\nKeep the boundary clear. Device Manager shows a hard disk as hardware with a driver; it does not create partitions, format volumes or assign drive letters, which is Disk Management's job.",
+    "facts": [
+      "Device Manager is opened as devmgmt.msc, or from within Computer Management",
+      "A yellow warning marker means the device is present but not functioning correctly, most often a driver problem",
+      "Roll Back Driver reinstates the previously installed driver and is the correct response when a device fails immediately after a driver update",
+      "Disabling a device stops Windows using it but leaves it installed; uninstalling removes its driver",
+      "Device Manager is the tool used to check hardware status and update drivers; it does not manage partitions or volumes"
+    ],
+    "traps": [
+      "Device Manager versus Disk Management. Device Manager shows the physical disk and its driver; Disk Management creates volumes, formats them and assigns drive letters. A new disk missing from File Explorer is a Disk Management job",
+      "The yellow warning marker does not mean the device is switched off, disabled or unpowered. A disabled device shows a separate marker",
+      "Updating the driver is not always the fix. If the fault appeared right after an update, roll back instead",
+      "Uninstalling a device in Device Manager does not remove the hardware. A reboot or a scan for hardware changes normally reinstalls it with a default driver"
+    ],
+    "mnem": "",
+    "rel": [
+      "Disk Management",
+      "Windows Utilities",
+      "Event Viewer"
+    ]
+  },
+  {
+    "id": "c103",
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Disk Management",
+    "def": "Disk Management (diskmgmt.msc) is the Windows console for physical disks and the volumes on them. It initialises a new disk, creates, deletes and formats partitions and volumes, extends and shrinks them, and assigns or changes drive letters and mount points. Its command-line equivalent is diskpart.",
+    "exp": "The console has two panes: a list of volumes with their file system, capacity and free space, and a graphical map of each physical disk showing its partitions and unallocated space.\n\nA newly fitted disk shows as not initialised and does not appear in File Explorer. The sequence is: initialise the disk, choosing a partition style; create a New Simple Volume on the unallocated space; format it, normally with NTFS; and assign a drive letter. Only after all four steps is it usable.\n\nBasic and dynamic are the two disk types. A basic disk is the ordinary default, storing data in primary and logical partitions, and is what a newly initialised disk becomes. A dynamic disk is the alternative you must deliberately convert to, supporting volumes that span, stripe or mirror across several physical disks. Dynamic disks are now largely legacy; Storage Spaces is the modern replacement.\n\nMBR and GPT are the two partition styles, chosen at initialisation. MBR is the older scheme, limited to disks of about 2 TB and to four primary partitions. GPT handles far larger disks and many more partitions, and is required to boot a UEFI system.\n\nA volume can be extended only into unallocated space that follows it on the same disk; shrinking releases space from the end. Formatting destroys the volume's contents, whereas changing a drive letter does not.",
+    "facts": [
+      "Disk Management is opened as diskmgmt.msc; diskpart is the command-line equivalent",
+      "A new disk must be initialised, given a volume, formatted and assigned a drive letter before it appears in File Explorer",
+      "A basic disk is the default type, using primary and logical partitions; a dynamic disk is the alternative that must be converted to",
+      "MBR is limited to roughly 2 TB and four primary partitions; GPT supports much larger disks and is required for UEFI booting",
+      "A volume can be extended only into unallocated space that follows it on the same physical disk",
+      "Formatting a volume erases its contents; changing its drive letter does not"
+    ],
+    "traps": [
+      "Partition style is not file system. MBR and GPT are chosen when the disk is initialised; NTFS, FAT32 and exFAT are chosen when the volume is formatted",
+      "Basic versus dynamic. Basic is the default; converting basic to dynamic is easy, but returning to basic generally means deleting the volumes first",
+      "Disk Management versus Device Manager. Bringing a new disk online and giving it a drive letter is Disk Management; a driver problem on the disk controller is Device Manager",
+      "Quick format only writes a fresh file table; a full format also checks for bad sectors. Neither is a secure wipe, and data may still be recoverable"
+    ],
+    "mnem": "",
+    "rel": [
+      "File Systems",
+      "Device Manager",
+      "Windows Utilities"
+    ]
+  },
+  {
+    "id": "c104",
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Task Manager",
+    "def": "Task Manager is the quick-look tool for what a Windows machine is doing at this moment: which applications and processes are running, how much CPU, memory, disk and network each is consuming, and the End task button that force-closes a program which has stopped responding. It also controls which programs start automatically with Windows.",
+    "exp": "Ctrl+Shift+Esc opens it directly. Ctrl+Alt+Del opens the security screen from which it can be chosen, and it can also be launched by right-clicking the taskbar or Start button.\n\nThe tabs divide the work. Processes lists apps and background processes with live CPU, memory, disk and network columns; clicking a column heading sorts by that resource and immediately identifies the heaviest consumer. Performance draws whole-machine graphs for CPU, memory, disk, network and GPU, and carries the link that opens Resource Monitor. Startup lists the programs configured to run automatically when Windows starts, shows each one's startup impact and lets each be enabled or disabled, which is the standard first fix for a slow boot. Details is a flat list of processes with their process IDs and priorities, and Services gives a quick start and stop view.\n\nEnd task is the standard way to force a hung application to close. It terminates the process at once, so anything unsaved in that program is lost.\n\nUnderstand its limit. Task Manager tells you that a resource is saturated and which process is responsible. It will not say which file that process has open, and it keeps no history, so it cannot tell you whether today's figure is worse than last month's. Those belong to Resource Monitor and Performance Monitor.",
+    "facts": [
+      "Ctrl+Shift+Esc opens Task Manager directly; Ctrl+Alt+Del opens the security screen from which it can be selected",
+      "End task force-closes a hung application, and unsaved work in that application is lost",
+      "The Startup tab lists programs that run automatically when Windows starts and allows each to be disabled",
+      "The Details tab shows each process's process ID (PID); the Processes tab shows friendly application names",
+      "Task Manager displays live values only and keeps no logged history for comparison"
+    ],
+    "traps": [
+      "Task Manager versus Resource Monitor. Task Manager shows that a process is hammering the disk; Resource Monitor names the individual files it is reading and writing and the connections it holds",
+      "Task Manager versus Performance Monitor. Task Manager shows the present instant; Performance Monitor logs counters over time so a reading can be compared with a baseline",
+      "The Startup tab is not the Services console. Startup items are user programs launched at sign-in; services are background system programs configured in services.msc",
+      "Disabling a startup item does not uninstall the program. It only stops it launching automatically; the program can still be run by hand"
+    ],
+    "mnem": "",
+    "rel": [
+      "Resource Monitor",
+      "Performance Monitoring",
+      "Services"
+    ]
+  },
+  {
+    "id": "c105",
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Resource Monitor",
+    "def": "Resource Monitor (resmon) is the live drill-down tool that attributes CPU, memory, disk and network activity to individual processes in detail. You go to it once Task Manager has told you that a resource is saturated but not exactly what is doing it: Resource Monitor names the specific files a process is reading and writing and the specific network connections and ports it holds.",
+    "exp": "It opens by running resmon, or from the link on Task Manager's Performance tab, and presents five tabs: Overview, CPU, Memory, Disk and Network.\n\nThe Disk tab is the one that earns its keep. It breaks disk activity down per process and then per file, showing the full path of each file being read or written with read and write bytes per second. That is how you identify the single process behind continuous heavy disk activity and see exactly what it is churning through.\n\nThe Network tab does the same for the network: per process, the remote addresses it is talking to, the TCP connections open, and the ports it is listening on with their firewall status. This is the tool for tracing unexpected outbound traffic to its owner.\n\nThe CPU tab lists threads and services per process and includes a search of associated handles. Typing a file name there names the process holding that file open, which resolves a file in use by another program without rebooting.\n\nThe Memory tab shows physical memory per process and the system-wide split into in use, modified, standby and free.\n\nIts limit is time. Resource Monitor shows a detailed present but logs nothing. Close it and the detail is gone. Counters collected over days or weeks are Performance Monitor's job.",
+    "facts": [
+      "Resource Monitor is launched by running resmon, or from Task Manager's Performance tab",
+      "The Disk tab lists disk activity per process and per file, showing the full path of each file being read or written",
+      "The CPU tab's associated handle search names the process locking a given file, so it can be released without a reboot",
+      "The Network tab shows, per process, the remote addresses, TCP connections and listening ports in use",
+      "Resource Monitor gives live detail; it does not log counter values over days or weeks"
+    ],
+    "traps": [
+      "Resource Monitor versus Task Manager. Task Manager tells you which process is busy; Resource Monitor tells you what it is actually doing, file by file and connection by connection",
+      "Resource Monitor versus Performance Monitor. Resource Monitor is live detail with no history; Performance Monitor collects counters over time through data collector sets for baselining",
+      "Resource Monitor shows current activity, not past failures. A crash or service failure that already happened is an Event Viewer matter",
+      "It is a diagnostic view, not a fix. It identifies the offending process; you still stop or reconfigure it elsewhere"
+    ],
+    "mnem": "",
+    "rel": [
+      "Task Manager",
+      "Performance Monitoring",
+      "Event Viewer"
+    ]
+  },
+  {
+    "id": "c106",
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Event Viewer",
+    "def": "Event Viewer (eventvwr.msc) is the console for reading the Windows event logs, the timestamped record of what the operating system, its services and its applications have already done and reported. It is the first place to look after an unexplained crash, an unexpected restart, a service that failed to start or a security question, because it is the tool that reports the past.",
+    "exp": "Under Windows Logs sit the main logs. The System log records events raised by Windows components, drivers and services, including service start failures, disk errors and unexpected shutdowns. The Application log records events raised by installed programs. The Security log holds audit records: successful and failed logon attempts, object access and policy changes. Setup and Forwarded Events complete the set, and Applications and Services Logs holds detailed per-component logs.\n\nEach entry carries a level, a date and time, a source, an Event ID, and the user and computer concerned. Levels are Information, Warning, Error and Critical, while Security entries are recorded instead as Audit Success or Audit Failure. Source together with Event ID is what identifies a fault and what you search on.\n\nBecause a busy machine generates thousands of entries, filtering matters. Filter Current Log narrows by level, time window, source or Event ID, and a Custom View saves that filter for reuse.\n\nLogs have a maximum size and overwrite their oldest entries when full, so an old failure may already have rolled off. Investigate promptly, and save a log out to a file when it is needed as a record. In a government office the Security log is the evidence trail of who signed in, when, and what failed.",
+    "facts": [
+      "Event Viewer is opened as eventvwr.msc; the three main Windows logs are System, Application and Security",
+      "Successful and failed logon attempts are recorded in the Security log, not the System log",
+      "Event levels are Information, Warning, Error and Critical; Security log entries are Audit Success or Audit Failure",
+      "Every event carries a source and an Event ID, which together identify the specific fault",
+      "Event Viewer reports events that have already happened; it shows no live resource usage",
+      "Logs are size-capped and overwrite the oldest entries once full"
+    ],
+    "traps": [
+      "Security log versus System log. Security holds audit records of logons and access; System holds events from Windows components, drivers and services, including an unexpected shutdown",
+      "Event Viewer records a crash after the fact. It cannot end a hung task or show current CPU use, which is Task Manager's role",
+      "The Security log is only as complete as the audit policy. Anything not configured for auditing is never logged at all",
+      "An Error entry is not always the cause of a failure. Machines log routine errors constantly, so match the timestamp to the incident before concluding"
+    ],
+    "mnem": "SAS: System, Application, Security are the three logs to check first",
+    "rel": [
+      "Windows Security",
+      "Services",
+      "Task Manager"
+    ]
+  },
+  {
+    "id": "c107",
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Services",
+    "def": "A service is a long-running background program that Windows starts and manages independently of any user logging on, such as the print spooler, Windows Update or a database engine. Services have no window and no user interface. They are configured in the Services console (services.msc), which lists each service's name, description, current status, startup type and log-on account.",
+    "exp": "The startup type decides when, or whether, a service runs. Automatic means Windows starts it during boot. Automatic (Delayed Start) means it starts shortly after boot, once the critical services are up, so it does not lengthen the wait at sign-in; it suits services that are needed but not urgent. Manual means it does not start at boot but can be started by an administrator or on demand by a program that needs it. Disabled means it will not run at all and cannot even be started manually until the type is changed back.\n\nThe status column shows Running or Stopped, and a service can be started, stopped, paused or restarted. Restarting a stuck service, the print spooler being the classic case, is a routine fix that avoids rebooting the machine.\n\nThe Log On tab sets the account the service runs under, typically Local System, Local Service, Network Service or a named account. Least privilege applies: give it the weakest account that still works.\n\nThe Dependencies tab lists the services this one requires and those that require it. Stopping or disabling a service also stops everything depending on it, which is why one careless change can break several unrelated things.\n\nThe Recovery tab defines what Windows does if the service fails: restart it, run a program, or restart the computer.",
+    "facts": [
+      "The Services console is opened as services.msc; services also appear on a tab of Task Manager and in Computer Management",
+      "The four startup types are Automatic, Automatic (Delayed Start), Manual and Disabled",
+      "Disabled means the service cannot be started even manually until the startup type is changed",
+      "Automatic (Delayed Start) begins after boot has completed, to shorten sign-in time",
+      "The Dependencies tab shows which services this service needs and which services depend on it",
+      "A service runs under an account such as Local System, Local Service or Network Service, set on the Log On tab"
+    ],
+    "traps": [
+      "Manual versus Disabled. Manual leaves the service stopped at boot but it can still be started on demand; Disabled blocks it from starting by any means",
+      "Automatic versus Automatic (Delayed Start). Both start without any intervention; delayed simply waits until boot has finished",
+      "Services are not startup programs. Startup apps are per-user programs launched at sign-in and managed on Task Manager's Startup tab; a service runs with no user logged on at all",
+      "Stopping a service also stops every service that depends on it. Check the Dependencies tab before changing anything"
+    ],
+    "mnem": "",
+    "rel": [
+      "Task Manager",
+      "Event Viewer",
+      "Windows Utilities"
+    ]
+  },
+  {
+    "id": "c108",
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Performance Monitoring",
+    "def": "Performance monitoring is the practice of collecting named performance counters over a period of time so that a system's behaviour can be compared with how it normally behaves. In Windows the tool is Performance Monitor (perfmon), which charts selected counters live and, through Data Collector Sets, logs them continuously to a file for later analysis.",
+    "exp": "A counter is a named measurement identified by three parts: object, counter and instance. Processor, % Processor Time, _Total is the typical example; Memory Available MBytes, PhysicalDisk Avg. Disk Queue Length and Network Interface Bytes Total/sec are the others an administrator usually starts with.\n\nData Collector Sets are what separate this tool from every other monitoring tool in Windows. A collector set logs chosen counters to a file continuously or on a schedule, so readings can be gathered for a fortnight, a month or a quarter and reported on afterwards. Watching a live graph cannot do this.\n\nThat gives you a baseline: a recorded picture of how the system behaves under normal conditions and known load. Without one a single reading means nothing. Seventy per cent memory use is unremarkable on a server that always sits at sixty-eight and alarming on one that normally sits at thirty. A baseline must be retaken after any significant change to hardware, software or workload, or it stops representing normal.\n\nThis is also the only tool that supports capacity planning, projecting from the trend when a disk or a server will run out of headroom.\n\nThe boundary is time. Task Manager and Resource Monitor show the present instant, Event Viewer shows discrete past events, and only Performance Monitor produces a continuous measured history.",
+    "facts": [
+      "Performance Monitor is launched as perfmon",
+      "A counter is identified by object, counter name and instance, for example Processor / % Processor Time / _Total",
+      "Data Collector Sets log selected counters to a file continuously or on a schedule, which is what makes long-term trend analysis and baselining possible",
+      "A baseline is a record of how a system behaves normally, used as the yardstick against which a later reading is judged",
+      "A baseline must be retaken after any significant change in hardware, software or user load",
+      "Performance Monitor is the Windows tool used for capacity planning"
+    ],
+    "traps": [
+      "Performance Monitor versus Task Manager and Resource Monitor. Both of those show live values and keep no comparable history; only Performance Monitor logs counters over days and weeks",
+      "A baseline is not a target or a threshold. It records normal behaviour; the threshold is a judgement you make against it",
+      "Logging too many counters at too short an interval itself consumes CPU and disk and distorts the measurement",
+      "Performance Monitor measures resource usage, not errors. A service that failed to start is an Event Viewer question, not a counter question"
+    ],
+    "mnem": "",
+    "rel": [
+      "Task Manager",
+      "Resource Monitor",
+      "Event Viewer"
+    ]
+  },
+  {
+    "id": "c109",
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Command Prompt",
+    "def": "Command Prompt (cmd.exe) is the legacy Windows command-line interpreter, descended from the MS-DOS command interpreter. You type a command, it runs and prints text, and that text can be redirected into a file or piped to another command as a stream of characters. It runs batch files and is still shipped in current Windows alongside PowerShell.",
+    "exp": "Commands divide into internal and external. Internal commands are built into the interpreter itself, which is loaded into main memory when the computer boots and stays resident, so they run without any disk access: DIR, CD, MD, RD, COPY, DEL, TYPE, REN and CLS. External commands are separate executable files fetched from disk only when called, such as TREE, XCOPY, CHKDSK, FORMAT, PING and IPCONFIG.\n\nThe file and directory commands are the examinable core. DIR lists files and directories; DIR /B gives bare output, names only with no heading, size, date or byte summary; DIR /W arranges names in columns; DIR /S includes subdirectories. CD changes directory and CD .. moves up one level. MD, also written MKDIR, creates a directory. RD, also written RMDIR, removes one, and only when it is already empty. DEL, also written ERASE, deletes files. COPY duplicates a file, TYPE displays a text file's contents on screen, REN renames, and TREE draws the directory and subdirectory structure of a drive or path.\n\nNetwork and disk work uses PING, IPCONFIG, NETSTAT, TRACERT, CHKDSK, SFC and DISKPART, most needing Run as administrator.\n\nRedirection sends output where you want it: > writes to a file and overwrites, >> appends, and | pipes text to the next command. That pipe carries characters, not objects, which is the essential difference from PowerShell.",
+    "facts": [
+      "Internal commands are built into the command interpreter, which is loaded into main memory at boot and stays resident; external commands are separate files loaded from disk when run",
+      "DIR lists files and directories; DIR /B gives bare output of names only, while DIR /W lists names in columns",
+      "MD and MKDIR are two names for the same command that creates a directory; RD and RMDIR remove one, and only if it is empty",
+      "DEL and ERASE delete files, not directories; TYPE displays the contents of a text file on screen",
+      "TREE displays the directory and subdirectory structure of a drive or path",
+      "In Command Prompt the pipe symbol passes plain text between commands"
+    ],
+    "traps": [
+      "RD removes only an empty directory and DEL removes only files. Neither does the other's job",
+      "DIR /B versus DIR /W. Both suppress size, date and time, but /B is bare, one name per line with no heading or summary, while /W lays the names out in columns",
+      "MD and MKDIR are the same command, as are RD and RMDIR and DEL and ERASE. A question may legitimately have both spellings as correct",
+      "Command Prompt is not Windows Terminal. Terminal is the window that hosts a shell in tabs; cmd.exe is the interpreter itself. Nor is it PowerShell, which passes objects rather than text"
+    ],
+    "mnem": "",
+    "rel": [
+      "PowerShell Fundamentals",
+      "Basic Batch Files",
+      "Windows Terminal"
+    ]
+  },
+  {
+    "id": "c110",
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "PowerShell Fundamentals",
+    "def": "PowerShell is the modern Windows command-line shell and scripting language. Its commands, called cmdlets, are named as an approved verb, a hyphen and a singular noun, giving predictable names such as Get-Process, Get-Service and Stop-Service. Its defining feature is that a cmdlet emits structured objects rather than text, and the pipeline passes those objects to the next cmdlet.",
+    "exp": "The Verb-Noun rule makes the command set guessable. Once you know Get-Service, you can reasonably expect Start-Service, Stop-Service, Restart-Service and Set-Service to exist. Common verbs are Get, Set, New, Remove, Start, Stop and Restart. The noun is always singular, even when the cmdlet returns many items.\n\nThe object pipeline is the examinable difference from Command Prompt. When cmd pipes, it passes a stream of characters, so the receiving command must parse the text by column position or by searching for strings, which breaks the moment the format changes. When PowerShell pipes, it passes objects that carry named properties, so the next cmdlet filters, sorts or selects on a property by name. Get-Process piped to Sort-Object works on a genuine CPU property, not on a column of digits scraped out of a line of text.\n\nThree cmdlets carry a beginner. Get-Command finds cmdlets, Get-Help explains one with examples, and Get-Member lists the properties and methods of whatever an object actually is, which is how you discover what you can filter on.\n\nScripts are saved with the .ps1 extension. Execution policy governs whether a script may run at all, and is a safety setting rather than a security boundary.\n\nPowerShell is the interpreter. Windows Terminal is only a window that can host it, cmd or WSL in tabs.",
+    "facts": [
+      "Cmdlets follow the pattern approved verb, hyphen, singular noun, for example Get-Process, Get-Service, Stop-Service",
+      "The PowerShell pipeline passes objects with named properties; the Command Prompt pipeline passes plain text",
+      "Get-Command lists available cmdlets, Get-Help documents one, and Get-Member shows an object's properties and methods",
+      "PowerShell scripts use the .ps1 file extension",
+      "Execution policy controls whether PowerShell scripts are allowed to run",
+      "PowerShell can run most ordinary Command Prompt commands, so it does not force an administrator to relearn everything at once"
+    ],
+    "traps": [
+      "The central distinction: PowerShell pipes objects, cmd pipes text. PowerShell is not simply a cmd window with more commands",
+      "Verb-Noun, not Noun-Verb, and the noun stays singular. Get-Process is correct; Process-Get and Get-Processes are not",
+      "PowerShell is a shell, Windows Terminal is a host application. Terminal displays PowerShell in a tab; it is not itself a shell",
+      "Execution policy is a guard against running a script by accident, not a security control. It does not stop a determined user"
+    ],
+    "mnem": "Verb first, noun singular: Get-Service, not Get-Services",
+    "rel": [
+      "Command Prompt",
+      "Basic Batch Files",
+      "Windows Terminal"
+    ]
+  },
+  {
+    "id": "c111",
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Basic Batch Files",
+    "def": "A batch file is a plain text file containing a list of Command Prompt commands, saved with the .bat extension (or .cmd), which the command interpreter then executes one line after another. It is the oldest and simplest form of Windows automation, created in any text editor and run by double-clicking it or typing its name.",
+    "exp": "Its purpose is repetition. A sequence you would otherwise type every morning, such as mapping a drive, copying a folder to a backup location and clearing a temporary directory, is written once into a batch file and afterwards run with one command or from a scheduled task.\n\nA few elements cover most basic scripts. @ECHO OFF on the first line stops the interpreter printing each command before it executes, and the leading @ suppresses that line itself, so the output is clean; the commands still run and their own output still appears. REM marks a comment line. ECHO prints a message to the screen. PAUSE stops and waits for a keypress, which is what keeps the window open long enough to read. SET creates a variable, and a variable is used by wrapping its name in percent signs. Parameters passed on the command line arrive as %1, %2 and so on.\n\nControl flow uses IF for tests, GOTO with a label for jumps, and FOR to repeat a command over a set of files.\n\nBatch files remain in wide everyday use in offices because they are trivial to write and need nothing installed. For anything with real logic, error handling or structured output, PowerShell is the better tool, and a batch file can simply call a PowerShell script.",
+    "facts": [
+      "A batch file is a plain text file of commands saved with the .bat extension; .cmd is the equivalent modern extension",
+      "@ECHO OFF stops each command being displayed before it runs, and the leading @ hides that line itself; the commands still execute normally",
+      "REM marks a comment, ECHO prints a message, and PAUSE waits for a keypress before continuing",
+      "Command-line arguments passed to a batch file are available as %1, %2 and so on",
+      "IF, GOTO with a label, and FOR provide the basic control flow"
+    ],
+    "traps": [
+      "@ECHO OFF suppresses the display of the commands, not their execution and not their output. The script still does everything it was going to do",
+      "ECHO OFF alone still prints that first ECHO OFF line. The @ is what hides it",
+      ".bat is a batch file, .ps1 is a PowerShell script and .exe is a compiled program. They are not interchangeable",
+      "A batch file is interpreted line by line by the command interpreter; it is not compiled, and it needs no separate runtime installed"
+    ],
+    "mnem": "",
+    "rel": [
+      "Command Prompt",
+      "PowerShell Fundamentals",
+      "Windows Terminal"
+    ]
+  },
+  {
+    "id": "c112",
+    "paper": "TECH1",
+    "unit": "III",
+    "unitTitle": "Word Processing",
+    "sub": "Document Creation",
+    "def": "The basic production cycle of a word-processed document: start a new file, type and edit the text, format it, save it, and print or issue it. Word saves documents in the .docx format by default, with .docm for macro-enabled files. What appears on screen matches the printed page closely, which is what WYSIWYG means.",
+    "exp": "Typing relies on word wrap: when a word will not fit before the right margin, Word moves it to the next line by itself. Enter is pressed only to end a paragraph, never to end a line. Pressing Enter at every visible line break creates a document made of dozens of one-line paragraphs, which then behaves badly under justification, spacing and styles. Editing runs on select-then-act: Ctrl+A selects the whole document, a double-click selects a word, and cut, copy, paste, Undo and Find and Replace act on the selection.\n\nSaving has two distinct commands. Save writes back over the existing file. Save As creates a new file, and it is the only route that lets you change the name, folder or file format; F12 opens the Save As dialog. On a document that has never been saved, Save behaves like Save As because there is no existing file to overwrite. AutoRecover keeps periodic recovery copies, but it is not a substitute for saving.\n\nPrinting is done through the print pane, which shows a preview alongside options for printer, page range and number of copies. Quick Print is the shortcut version: it sends the entire document straight to the default printer with no dialog, so you cannot restrict it to selected pages. In an office where circulars run to many pages, that difference matters.",
+    "facts": [
+      "Word's default document format is .docx; macro-enabled documents are saved as .docm",
+      "Ctrl+A selects the entire document; F12 opens the Save As dialog",
+      "Word wrap automatically moves a word that will not fit to the next line; Enter is used only to end a paragraph",
+      "Quick Print sends the whole document to the default printer immediately, without offering page range or copies",
+      "Save As is the only command that lets you save under a new name, location or file format"
+    ],
+    "traps": [
+      "Save vs Save As: Save overwrites the current file, Save As creates a new one. On a never-saved document both do the same thing, which is why the distinction is easy to miss",
+      "Word wrap is automatic. Pressing Enter at the end of every line is not word wrap and leaves the text as many short paragraphs",
+      "Quick Print prints everything with no dialog; the ordinary Print command lets you choose printer, range and copies",
+      "Print Preview shows how the document will print but does not print it"
+    ],
+    "mnem": "",
+    "rel": [
+      "Page Layout",
+      "Templates",
+      "Styles and Themes"
+    ]
+  },
+  {
+    "id": "c113",
+    "paper": "TECH1",
+    "unit": "III",
+    "unitTitle": "Word Processing",
+    "sub": "Templates",
+    "def": "A template is a ready-made document used as the starting point for new documents. It supplies the page layout, styles, theme, headers and footers and any standing boilerplate text. Word templates use the .dotx extension, or .dotm when they contain macros, as against .docx for ordinary documents.",
+    "exp": "Using a template creates a new, unnamed copy of it. You edit and save that copy under its own name; the template file itself is untouched. This is the whole point: the office keeps one master letterhead, memo, circular or notice format, and every document issued from it starts out with the correct emblem, office name, reference-number block, margins and fonts already in place. Nobody has to rebuild the format, and nobody quietly invents their own.\n\nThe consequence to remember is that the link is one-way and applies only at creation. Editing a document made from a template never changes the template. Editing the template never changes documents already created from it; it only affects new ones. So if the standard circular format has to change, the template is edited and redistributed, and documents already issued stay as they were.\n\nEvery blank Word document is in fact based on the Normal template, which holds the default font, margins and style definitions. Change Normal and every new blank document inherits the change. Because a template carries the style definitions and the theme with it, a template is the practical way to enforce consistent heading structure across a department, not just a consistent look. Reusable fragments such as an approving officer's signature block can be stored as building blocks and dropped into any document.",
+    "facts": [
+      "Word templates use .dotx, or .dotm if macro-enabled; documents use .docx or .docm",
+      "Creating a document from a template produces a new unsaved copy; the template file is not modified",
+      "Every blank Word document is based on the Normal template, which supplies the default font, margins and styles",
+      "A template can carry page layout, styles, theme, headers and footers and boilerplate text",
+      "Editing a template affects only documents created after the edit"
+    ],
+    "traps": [
+      "Editing a document created from a template does not change the template, and editing the template does not retro-fit documents already created from it",
+      "A template is not a theme. The template is the whole starting document including content and layout; a theme is only the coordinated set of fonts, colours and effects",
+      "Opening a template normally starts a new document based on it; to change the template itself you must open the template file for editing",
+      "Saving a template-based document under a new name creates an ordinary .docx, not another template"
+    ],
+    "mnem": "",
+    "rel": [
+      "Styles and Themes",
+      "Document Creation",
+      "Page Layout"
+    ]
+  },
+  {
+    "id": "c114",
+    "paper": "TECH1",
+    "unit": "III",
+    "unitTitle": "Word Processing",
+    "sub": "Styles and Themes",
+    "def": "A style is a named, saved set of formatting - font, size, colour, spacing, indentation and outline level - applied to text in one action. Heading 1, Heading 2, Normal, Title and Quote are built-in styles. A theme is the coordinated set of fonts, colours and effects applied across the whole document.",
+    "exp": "This is the load-bearing idea of the unit. Selecting a heading and making it bold and 16 point is direct formatting: it changes appearance only. Applying the Heading 1 style changes appearance and also records that this paragraph is a heading at level one. Everything downstream depends on that record. The automatic Table of Contents is built from heading styles. The Navigation Pane lists them, so you can jump around a hundred-page report and drag whole sections into a new order. Cross-references and automatic numbering attach to them. A screen reader announces them, so a blind reader can move heading to heading instead of listening to the entire file. Hand-bolded text gives you none of this. The second gain is maintenance: redefine the style once and every paragraph using it changes across the document.\n\nStyles come in paragraph styles, which apply to a whole paragraph, and character styles, which apply to selected words inside it. Note that font style in the strict sense means Regular, Bold, Italic or Bold Italic; superscript, strikethrough and small caps are font effects, not font styles. A bullet is the dot or other symbol placed at the start of a listed paragraph, and list formatting belongs to the paragraph.\n\nA theme swaps the heading font, body font, colour palette and effects for the whole document at once, without touching content, because styles refer to theme fonts and colours rather than to fixed ones.",
+    "facts": [
+      "Heading 1, Heading 2 and so on are built-in paragraph styles; the Table of Contents, the Navigation Pane and screen-reader navigation all depend on them",
+      "Redefining a style updates every paragraph that uses it in one step",
+      "A theme is a coordinated set of fonts, colours and effects for the whole document",
+      "In the Font dialog, font style means Regular, Bold, Italic or Bold Italic",
+      "Word's font size list runs from 8 to 72 points, but a size of up to 1638 points can be typed in",
+      "A bullet is the dot or other symbol positioned at the beginning of a listed paragraph"
+    ],
+    "traps": [
+      "Bolding and enlarging text by hand is not applying a heading style. It looks identical on paper but produces no Table of Contents entry, no Navigation Pane entry and no heading for a screen reader",
+      "Styles and themes are not the same thing: a style is named formatting for a part of the document, a theme swaps the fonts and colours that styles draw on across the whole document",
+      "Superscript, strikethrough and small caps are font effects, not font styles",
+      "The largest size in the font-size drop-down list, 72, is not the largest size Word allows, which is 1638"
+    ],
+    "mnem": "",
+    "rel": [
+      "Table of Contents",
+      "Templates",
+      "Accessibility Features"
+    ]
+  },
+  {
+    "id": "c115",
+    "paper": "TECH1",
+    "unit": "III",
+    "unitTitle": "Word Processing",
+    "sub": "Page Layout",
+    "def": "Page layout covers everything that controls the printed page rather than the words on it: paper size and orientation, margins, columns, page and section breaks, headers and footers, page numbers, page borders and watermarks. These settings belong to a section of the document, not to individual characters.",
+    "exp": "Orientation is either portrait, which is taller than it is wide and is the default, or landscape, which is wider than it is tall and is used for broad tables and statements. Paper size in Indian government offices is A4. Margins set the blank border around the text; a gutter adds extra space on the binding edge so text is not swallowed when the file is stitched or punched.\n\nBreaks are where candidates lose marks. A page break simply starts a new page with the same layout. A section break creates a separate layout region, and it is the only way to have part of a document differ - one landscape page in a portrait report, different margins for an annexure, a different header, or page numbering that restarts. Headers and footers repeat automatically on every page of their section, with options for a different first page and different odd and even pages.\n\nPage numbers are inserted into the header or footer as a field, so Word supplies the value. To show them as a, b, c or i, ii, iii instead of 1, 2, 3, you change the number format in the page number formatting dialog and, if needed, set the starting number - you never retype the numbers. Columns arrange text newspaper style, and a watermark such as DRAFT sits behind the text on every page.",
+    "facts": [
+      "Portrait and landscape are the two page orientations; portrait is the default",
+      "Page numbers are inserted in the header or footer as a field, and the format (1, i or a) is changed through the page number format dialog",
+      "A section break is required to change orientation, margins, columns, headers or page numbering for only part of a document",
+      "The gutter is extra margin space added on the binding edge",
+      "Watermarks, page borders and page colour are page-level settings, not character formatting"
+    ],
+    "traps": [
+      "Page break versus section break: a page break only starts a new page with identical layout; only a section break permits different orientation, margins, headers or numbering",
+      "Page numbers are field results. Changing 1 to a is a change of number format, not retyping the character",
+      "Header and footer content repeats automatically for the whole section; typing the same line at the top of each page manually is not a header",
+      "Orientation and margins are properties of a section, not of the whole document, once section breaks exist"
+    ],
+    "mnem": "",
+    "rel": [
+      "Document Creation",
+      "Table of Contents",
+      "Templates"
+    ]
+  },
+  {
+    "id": "c116",
+    "paper": "TECH1",
+    "unit": "III",
+    "unitTitle": "Word Processing",
+    "sub": "Tables",
+    "def": "A table is a grid of rows and columns whose intersections are cells, used to align data that would be unreadable as running text - pay statements, seniority lists, tender comparisons. Tables are created from the Insert Table dialog or grid, by drawing, or by converting existing text that is separated by tabs or commas.",
+    "exp": "The Insert Table dialog allows a maximum of 63 columns, and the smallest possible table is one row by one column. The number of rows is not fixed in the same way; rows are added as you go, and pressing Tab in the last cell adds a new row.\n\nColumn width is set by dragging a boundary or by AutoFit. AutoFit to Contents shrinks each column to just fit what is typed in it, AutoFit to Window spreads the table across the page width, and Fixed Column Width leaves your settings alone. Double-clicking a column boundary autofits that one column. Cells can be merged into one, or split into several, and a table itself can be split into two tables.\n\nFor official documents the setting that matters most is Repeat Header Rows. Mark the heading row as a header and it reappears at the top of every page the table runs over, so a twelve-page list stays readable. Retyping the heading instead breaks sorting and any later editing. Tables can be sorted on a chosen column, and simple formulas such as =SUM(ABOVE) can total a column. But Word is not a spreadsheet: those formulas are fields that must be updated after the numbers change, and real calculation belongs in Excel, pasted or linked in.",
+    "facts": [
+      "The Insert Table dialog in Word allows a maximum of 63 columns; the smallest table is 1 row by 1 column",
+      "AutoFit to Contents sizes each column to its text; double-clicking a column boundary autofits that column",
+      "Repeat Header Rows makes the heading row reappear at the top of each page a long table spans",
+      "Text separated by tabs or commas can be converted into a table, and a table converted back to text",
+      "Word supports simple in-cell formulas such as =SUM(ABOVE)"
+    ],
+    "traps": [
+      "63 is the column limit in the Insert Table dialog. It is not a row limit and not a limit on anything else",
+      "Merging joins selected cells into one cell; splitting a table divides it into two separate tables. Different operations with similar-sounding names",
+      "A repeated header row is a table property. Typing the heading again on the next page produces text that will not move when the table does",
+      "A formula in a Word table is a field, not a live spreadsheet cell - it does not recalculate on its own when the figures change"
+    ],
+    "mnem": "",
+    "rel": [
+      "Page Layout",
+      "Graphics",
+      "Styles and Themes"
+    ]
+  },
+  {
+    "id": "c117",
+    "paper": "TECH1",
+    "unit": "III",
+    "unitTitle": "Word Processing",
+    "sub": "SmartArt",
+    "def": "In Word, SmartArt is a library of ready-made diagram layouts - lists, processes, cycles, hierarchies, relationships, matrices and pyramids - inserted into a document to present information visually. You type into a Text Pane and the shapes size and arrange themselves; you do not draw or align anything by hand.",
+    "exp": "The everyday office use is conversion. A note already contains a typed bulleted list of, say, five approval steps. Select those paragraphs and convert them to SmartArt: each bullet becomes a shape, and the indent level of a bullet becomes its level in the diagram. A sequence of steps becomes a Process graphic without retyping. The reverse is also possible - the text can be recovered from the Text Pane.\n\nChoose the layout by the relationship you want to show, not by looks. List layouts show items with no order. Process layouts show steps in sequence, usually with arrows. Cycle shows a repeating loop. Hierarchy is the organisation chart, showing reporting lines. Relationship, Matrix and Pyramid show connection, quadrants and proportion. Switching layout later keeps the text you already entered, so it costs nothing to try another. Colours and fonts follow the document theme, so a SmartArt graphic matches the rest of the document automatically.\n\nKeep SmartArt distinct from its neighbours. A chart plots numeric data. Shapes are individual drawing objects you position yourself. WordArt is only decorative text. And because a diagram is an image to assistive technology, a SmartArt graphic still needs alt text describing what it conveys; the words sitting inside the shapes are not a substitute.",
+    "facts": [
+      "SmartArt converts text into a diagram; text is entered in the Text Pane and the shapes resize automatically",
+      "An existing bulleted list can be converted directly into SmartArt, with bullet indent levels becoming diagram levels",
+      "Hierarchy layouts produce organisation charts, Process layouts show sequential steps, Cycle layouts show repeating loops",
+      "Changing the SmartArt layout preserves the text already entered",
+      "SmartArt takes its colours and fonts from the document theme"
+    ],
+    "traps": [
+      "SmartArt is not a chart. A chart plots numeric data; SmartArt arranges text into a diagram",
+      "SmartArt is not the same as drawing with Shapes - SmartArt lays itself out, Shapes must be sized and aligned by hand",
+      "The same SmartArt feature exists in PowerPoint, where it goes on a slide. In Word it sits in the document body and is handled as a graphic object with text wrapping",
+      "A SmartArt graphic still requires alt text; the text visible inside the shapes does not make the diagram accessible"
+    ],
+    "mnem": "",
+    "rel": [
+      "Graphics",
+      "Accessibility Features",
+      "Styles and Themes"
+    ]
+  },
+  {
+    "id": "c118",
+    "paper": "TECH1",
+    "unit": "III",
+    "unitTitle": "Word Processing",
+    "sub": "Graphics",
+    "def": "Graphics are the non-text objects placed in a document: pictures from a file or an online source, shapes, icons, screenshots, charts, WordArt and SmartArt. Once inserted, an object is selected as a whole and handled with its own picture or drawing tools rather than as characters of text.",
+    "exp": "A selected graphic is surrounded by a selection rectangle carrying small squares called sizing handles, at the four corners and the middle of each side. Dragging a handle resizes the object: a corner handle scales it proportionally, a side handle stretches one dimension and distorts the picture. A separate rotation handle turns it. Exact height and width can also be typed in, which is what you do when several pictures must match. Cropping trims what is shown without scaling the image, and the trimmed part is hidden rather than removed.\n\nText wrapping decides how the surrounding text behaves. In Line with Text is the default and treats the picture as one very large character sitting in the line, which is why such a picture refuses to be dragged freely. Square, Tight and Through flow text around the object. Behind Text and In Front of Text let it float over or under the text. A floating object is anchored to a paragraph and moves when that paragraph moves.\n\nPictures are inserted from a file on disk, from an online source, or by pasting. Before a document is emailed or uploaded, Compress Pictures cuts the file size substantially. Every picture that carries meaning needs alt text so a screen reader can describe it; purely decorative images should be marked as decorative instead.",
+    "facts": [
+      "The small squares on the selection rectangle around a graphic are called sizing handles and are used to resize it",
+      "Dragging a corner handle resizes proportionally; a side handle stretches only one dimension",
+      "In Line with Text is the default wrapping, in which the picture behaves like a character in the line",
+      "Cropping hides part of a picture without scaling it; resizing scales the whole picture",
+      "Compress Pictures reduces the document's file size before it is emailed or uploaded"
+    ],
+    "traps": [
+      "Sizing handles resize the object; the separate rotation handle rotates it. The exam asks for the name of the small squares - sizing handles",
+      "Cropping is not resizing. Cropping cuts off part of the image, resizing changes the size of the whole image",
+      "A picture that will not move where you want it is almost always still In Line with Text, not broken",
+      "A visible caption under a picture is not alt text. The caption is read by everyone; alt text is what a screen reader announces"
+    ],
+    "mnem": "",
+    "rel": [
+      "SmartArt",
+      "Accessibility Features",
+      "References"
+    ]
+  },
+  {
+    "id": "c119",
+    "paper": "TECH1",
+    "unit": "III",
+    "unitTitle": "Word Processing",
+    "sub": "References",
+    "def": "The reference apparatus of a long document: footnotes and endnotes, captions, cross-references, a table of figures, an index, and citations feeding a bibliography. All of these are inserted as fields, so their numbers and page references are generated by Word and can be regenerated when the document changes.",
+    "exp": "A footnote is placed at the bottom of the same page as its reference mark. An endnote holds the same kind of content but is collected at the end of the document, or of the section. Both are numbered automatically, so inserting one in the middle renumbers every note after it - which is exactly why they are not typed by hand.\n\nA caption is a numbered label attached to a table, figure or equation, giving you Table 4 or Figure 7. A cross-reference is a field that points at a captioned item, a heading, a bookmark or a numbered paragraph. This is what keeps a sentence like see Table 4 on page 12 correct: insert another table earlier, or add a paragraph that pushes the page, and updating the fields corrects both the number and the page. Type that sentence as plain text and it is wrong the first time the document is edited. A table of figures is generated from captions in the same way a table of contents is generated from heading styles.\n\nAn index is built by marking index entries in the text and then generating the index, which lists each entry with its page numbers. The governing habit for all of it: fields do not refresh continuously, so update them as the last step before printing, converting to PDF or issuing the document.",
+    "facts": [
+      "A footnote appears at the foot of the page carrying its reference mark; an endnote appears at the end of the document or section",
+      "Footnotes and endnotes renumber automatically when one is inserted or deleted",
+      "A cross-reference is a field pointing at a heading, caption, bookmark or numbered item, and updates to the correct number and page",
+      "A table of figures is generated from captions, as a table of contents is generated from heading styles",
+      "An index is compiled from marked index entries and lists page numbers against each entry"
+    ],
+    "traps": [
+      "Footnote versus endnote: the difference is placement, not content - bottom of the page against end of the document",
+      "A typed see page 12 is plain text and becomes wrong on the next repagination. Only a cross-reference field corrects itself",
+      "Fields do not update themselves as you type; they must be updated before the document is printed or issued",
+      "A table of figures comes from captions and a table of contents from heading styles - different sources, similar names"
+    ],
+    "mnem": "",
+    "rel": [
+      "Table of Contents",
+      "Citations and Bibliography",
+      "Styles and Themes"
+    ]
+  },
+  {
+    "id": "c120",
+    "paper": "TECH1",
+    "unit": "III",
+    "unitTitle": "Word Processing",
+    "sub": "Table of Contents",
+    "def": "An automatically generated list of the document's headings with the page number each falls on, placed at the front of a report. Word builds it by collecting the paragraphs formatted with heading styles or given outline levels. It is inserted as a field and generated by Word, not typed out by the author.",
+    "exp": "Its source is heading styles - see Styles and Themes. Heading 1 paragraphs become level one entries, Heading 2 paragraphs become level two, and so on down as many levels as you ask for. If the headings in a report were formatted by selecting the text and bolding it, the automatic table of contents comes out empty or missing those headings, and the fix is to apply the heading styles properly and then insert it. Nothing else will make it work.\n\nA table of contents does not track the document as you edit it. Add three new sections and the headings and page numbers change, but the table already on page one keeps showing what it showed when it was generated. You have to update it. Update Page Numbers Only refreshes the page numbers against the existing entries and is used when only the pagination has shifted. Update Entire Table rebuilds the list, picking up headings that are new, renamed or deleted. In office practice, updating the table of contents is the last step before converting the final document to PDF and putting it on record.\n\nEntries are hyperlinks, so a reader can click a line and jump to that heading, and that navigation carries over into the PDF.",
+    "facts": [
+      "Word's automatic table of contents is generated from paragraphs formatted with heading styles or carrying outline levels",
+      "A table of contents is a field; it does not update itself and must be refreshed explicitly",
+      "Update Page Numbers Only keeps the existing entries and refreshes pagination; Update Entire Table rebuilds the entries",
+      "The number of heading levels shown in the table of contents can be set when it is inserted",
+      "Table of contents entries are hyperlinks to the headings and remain navigable after conversion to PDF"
+    ],
+    "traps": [
+      "If headings were bolded manually instead of styled, the automatic table of contents will not find them at all",
+      "Adding new sections does not change the table of contents by itself; an unupdated table shows the old page numbers",
+      "Update Page Numbers Only will not add a newly inserted heading - that requires Update Entire Table",
+      "A manual table of contents is ordinary typed text. It looks the same on the page but never updates"
+    ],
+    "mnem": "",
+    "rel": [
+      "Styles and Themes",
+      "References",
+      "Integration of e-Office"
+    ]
+  },
+  {
+    "id": "c121",
+    "paper": "TECH1",
+    "unit": "III",
+    "unitTitle": "Word Processing",
+    "sub": "Citations and Bibliography",
+    "def": "A citation is the short in-text reference to a source that has been consulted; the bibliography, or reference list, is the full list of those sources at the end of the document. In Word each source is entered once into a source manager, cited wherever it is used, and the bibliography is then generated as a field from those citations.",
+    "exp": "The sequence is: add a source, giving its type - book, journal article, report, website - and its author, title, year and publisher; then insert a citation at the point in the text where it is used. The in-text citation is a compressed pointer. The bibliography entry is the full description of the same source. Because the bibliography is generated from the sources actually cited, the two can never drift apart, and no detail is typed twice.\n\nA citation style is a published set of rules for what elements appear in a citation and an entry, in what order and with what punctuation, and how the list is sorted. APA, MLA and Chicago are the common examples offered in Word; several others exist. Selecting a style reformats every citation and the whole bibliography at once, which is the practical reason for using the tool at all. Styles are revised from edition to edition, so follow the style and edition your department, university or journal prescribes rather than assuming a particular rule.\n\nA placeholder can be inserted where the full details of a source are not yet to hand, and completed later. The bibliography is a field, so after new citations are added it must be updated before the document is printed or issued. In government drafting the same discipline appears as citing an order, notification or circular by its number and date.",
+    "facts": [
+      "A citation is the short in-text pointer to a source; the bibliography is the full list of sources at the end of the document",
+      "The bibliography is generated from the sources cited in the document, so the two stay consistent automatically",
+      "APA, MLA and Chicago are examples of citation styles",
+      "Changing the selected citation style reformats all citations and the bibliography together",
+      "A placeholder can stand in for a source whose full details are not yet available, and be completed later"
+    ],
+    "traps": [
+      "APA, MLA and Chicago are citation styles. They are not Word paragraph styles and not file formats",
+      "A citation is not a footnote. A footnote is a note printed at the foot of the page; a citation is a reference to a source, although some styles choose to place citations in footnotes",
+      "The bibliography is a field: adding a citation does not make the entry appear until the bibliography is updated",
+      "A reference list typed by hand is not linked to anything, so a later change of citation style will not reformat it"
+    ],
+    "mnem": "",
+    "rel": [
+      "References",
+      "Table of Contents",
+      "Review Tools"
+    ]
+  },
+  {
+    "id": "c122",
+    "paper": "TECH1",
+    "unit": "III",
+    "unitTitle": "Word Processing",
+    "sub": "Review Tools",
+    "def": "The proofing and checking tools used on a document before it goes out: spelling and grammar check, thesaurus, word count, AutoCorrect, translation and read-aloud, together with comments and track changes. They deal with the quality and correctness of the text rather than its layout.",
+    "exp": "The spelling checker compares each word against a dictionary and marks anything it does not recognise. Names, Mizo place names and departmental terms can be added to a custom dictionary so they stop being flagged. The grammar checker looks at sentence construction and usage. Neither is a substitute for reading the draft: a correctly spelled wrong word passes through untouched, which is how form appears where from was meant.\n\nAutoCorrect works while you type. It was originally designed to replace commonly misspelled words as you type, and now also fixes two initial capitals, capitalises the first letter of a sentence, and substitutes symbols for typed sequences. You can add your own entries: select the symbol or the block of text first, then open AutoCorrect Options and add it under a short trigger name. A long office designation or a standard signature block can then be typed with a few letters.\n\nThe Thesaurus supplies synonyms, and often antonyms, for a selected word. It is what you reach for when the same word has been used in several places, or when the word chosen is not quite appropriate - not when a word is misspelled. Word Count reports pages, words, characters with and without spaces, paragraphs and lines, and counts only the selection if text is selected. Comments and Track Changes sit in the same group and are covered separately.",
+    "facts": [
+      "AutoCorrect was originally designed to replace commonly misspelled words as you type",
+      "To create an AutoCorrect entry, select the symbol or text first, then add it under a short name in AutoCorrect Options",
+      "The Thesaurus supplies synonyms, and usually antonyms, for a selected word",
+      "Word Count reports pages, words, characters with and without spaces, paragraphs and lines",
+      "The spelling checker works by comparison against a dictionary; unrecognised names can be added to a custom dictionary"
+    ],
+    "traps": [
+      "Spell check and thesaurus solve different problems: spell check finds misspelled words, the thesaurus offers alternatives for a word that is spelled correctly but repeated or ill-chosen",
+      "The spelling checker cannot detect a correctly spelled wrong word, so it never replaces a human proofread",
+      "AutoCorrect changes text silently as you type; AutoText and building blocks are inserted only when you ask for them",
+      "Word Count counts the whole document unless text is selected, in which case it counts the selection"
+    ],
+    "mnem": "",
+    "rel": [
+      "Track Changes",
+      "Document Creation",
+      "Accessibility Features"
+    ]
+  },
+  {
+    "id": "c123",
+    "paper": "TECH1",
+    "unit": "III",
+    "unitTitle": "Word Processing",
+    "sub": "Track Changes",
+    "def": "Track Changes records every edit made to a document as a revision, attributed to the reviewer and timestamped, instead of applying it silently. Each revision stays visible as a revision mark until someone accepts it, making it permanent, or rejects it, restoring the original text.",
+    "exp": "With Track Changes turned on, deleting a sentence does not remove it. The sentence is marked as deleted - struck through in place, or shown in a balloon in the margin - and it remains in the file until the deletion is accepted. Inserted text is underlined and coloured, and formatting changes are noted as well. Each reviewer is given a different colour, so a draft that has passed through three officers shows who did what. Turning Track Changes off stops new edits being recorded; it does nothing to the revisions already recorded.\n\nRevisions are cleared by accepting or rejecting them, singly or all at once. The display setting is separate and is where candidates go wrong: All Markup shows the revision marks, Simple Markup shows the document as it would read if the changes were accepted with only a change bar in the margin, No Markup shows a clean result, and Original shows the text before editing. No Markup only hides the marks on screen. The revisions are still in the file and will reappear for the next person who opens it.\n\nA comment is not a tracked change. It is a note attached to a piece of text - a query or an instruction to the drafter - and it alters nothing; comments are resolved or deleted, never accepted or rejected. Before a document leaves the office it must be checked for leftover tracked changes and comments, and inspected for hidden metadata such as author names and document properties, then issued as PDF.",
+    "facts": [
+      "Track Changes records insertions, deletions and formatting changes as revision marks attributed to a named reviewer",
+      "Accepting a change makes it permanent; rejecting it restores the original text",
+      "A sentence deleted with Track Changes on stays in the file, marked as deleted, until the deletion is accepted",
+      "Turning Track Changes off stops further recording but leaves existing revisions in the document",
+      "The Document Inspector finds hidden content such as comments, revisions, author names and document properties"
+    ],
+    "traps": [
+      "A comment is not a tracked change. A comment alters nothing and is resolved or deleted; a tracked change is a real edit that is accepted or rejected",
+      "Selecting No Markup only hides revision marks from view. The revisions remain in the file",
+      "Turning off Track Changes is not the same as accepting the changes already made",
+      "A document issued with tracked changes or comments still inside it exposes internal drafting and remarks, which is why the check before issue is a governance requirement and not a tidiness habit"
+    ],
+    "mnem": "",
+    "rel": [
+      "Review Tools",
+      "Integration of e-Office",
+      "Microsoft 365 Collaboration"
+    ]
+  },
+  {
+    "id": "c124",
+    "paper": "TECH1",
+    "unit": "III",
+    "unitTitle": "Word Processing",
+    "sub": "Mail Merge",
+    "def": "Mail merge combines a main document holding the fixed text with a data source holding one record per recipient, to produce many personalised copies in one operation. The two essential components are the main document and the data source; merge fields in the main document mark where each item of data is dropped in.",
+    "exp": "The main document is the letter, notice, certificate, envelope or label containing everything that stays the same, plus merge fields such as Name, Designation and Address at the points that vary. The data source is a table with a header row of field names and one row per recipient. It can be an Excel worksheet, a table in a Word file, an Access table or a contacts list. The field names in the data source must match the merge fields inserted, otherwise those positions come out blank or as errors.\n\nThe working order is: prepare or attach the data source, insert the merge fields, preview the results by paging through actual records, then finish the merge. Finishing can produce a new document containing all the personalised copies, send the output straight to a printer, or send each record as an email. Merging to a new document is usually the safer choice in an office, because a record with a wrong address can be corrected before anything is printed. The recipient list can also be sorted and filtered so only part of it is merged.\n\nThis is one of the genuinely useful features for a government office: the same office memorandum to three hundred employees, transfer orders, meeting invitations, salary intimations, address labels. The data source holds personal data, so it should not be circulated along with the issued document.",
+    "facts": [
+      "A mail merge requires a main document and a data source; merge fields in the main document mark where data is inserted",
+      "The data source is a table with a header row of field names and one record per row, and may be an Excel sheet, a Word table, an Access table or a contacts list",
+      "The finished merge can go to a new document, directly to the printer, or out as email messages",
+      "Letters, envelopes, labels, directories and email are the standard main document types",
+      "Preview Results fills the main document with real records before the merge is completed"
+    ],
+    "traps": [
+      "A printer is not an essential component of a mail merge - the merge can be completed to a new document or to email",
+      "Merge field names must match the column headings in the data source; a mismatch produces blank or error results, not a warning",
+      "The main document and the data source stay separate files. Editing the merged output changes neither of them",
+      "Mail merge creates one personalised copy per record. It is not the same as sending a single email to a list of addresses"
+    ],
+    "mnem": "",
+    "rel": [
+      "Document Creation",
+      "Templates",
+      "Review Tools"
+    ]
+  },
+  {
+    "id": "c125",
+    "paper": "TECH1",
+    "unit": "III",
+    "unitTitle": "Word Processing",
+    "sub": "Accessibility Features",
+    "def": "The features that make a document usable by people with disabilities, particularly readers using a screen reader or a magnifier: alternative text on images, real heading structure, meaningful link text, table header rows, sufficient colour contrast, and the built-in Accessibility Checker that reports what is missing.",
+    "exp": "Alternative text, or alt text, is a short written description of a picture, chart or diagram which a screen reader announces in place of the image. Its purpose is to convey to a reader who cannot see the image what the image conveys to everyone else. It is not a visible caption and it is not the file name. Images that carry no information are marked as decorative so the screen reader skips them.\n\nStructure carries most of the weight. Headings must be applied as real heading styles rather than bolded text - see Styles and Themes - because a screen reader user moves through a long document by jumping from heading to heading, and hand-bolded text is not a heading to any software. Tables need a designated header row, and merged or split cells make them hard to read out. Links should carry text describing where they go, such as the name of the notification, because assistive software can list all the links out of context, where click here and a bare URL say nothing. Colour must never be the only thing carrying meaning.\n\nThe Accessibility Checker scans the document and lists problems such as missing alt text, missing table headers, unclear link text and poor contrast. Indian government websites and documents are expected to be accessible, under the Guidelines for Indian Government Websites and the Rights of Persons with Disabilities Act, 2016.",
+    "facts": [
+      "Alt text is a text description of an image that a screen reader announces in place of the image",
+      "Screen reader users navigate a long document by its headings, which must be applied as real heading styles",
+      "Meaningful link text names the destination; click here and a bare URL are unusable out of context",
+      "The Accessibility Checker reports issues such as missing alt text, missing table header rows and unclear link text",
+      "Indian government websites and documents are expected to be accessible under the Guidelines for Indian Government Websites and the Rights of Persons with Disabilities Act, 2016"
+    ],
+    "traps": [
+      "Alt text is not a caption. A caption is printed and visible to everyone; alt text is announced only by assistive technology",
+      "Bolding and enlarging a line does not make it a heading. Only a heading style makes it a heading for a screen reader",
+      "An accessible PDF depends on the Word file being structured correctly first. Converting a badly structured document does not repair it",
+      "Colour alone must not carry meaning - marking rejected entries only in red fails for a reader who cannot distinguish it; add a word or symbol as well"
+    ],
+    "mnem": "",
+    "rel": [
+      "Styles and Themes",
+      "Graphics",
+      "Integration of e-Office"
+    ]
+  },
+  {
+    "id": "c126",
+    "paper": "TECH1",
+    "unit": "III",
+    "unitTitle": "Word Processing",
+    "sub": "Microsoft 365 Collaboration",
+    "def": "Working on one shared copy of a document in Microsoft 365: the file is stored in OneDrive or SharePoint rather than on a local drive, shared by link with controlled permission, edited by several people at the same time through co-authoring, and protected by an automatic version history.",
+    "exp": "Co-authoring requires the file to be in OneDrive or SharePoint. Once it is, two or more people can open it and edit at the same time. Each person's cursor and selection appear labelled with their name, and edits show up for the others as they are made, so everyone is always looking at the current text. This replaces the cycle of emailing attachments back and forth, where each recipient ends up with a separate copy and nobody can say which one is the latest. AutoSave writes changes back to the stored copy continuously.\n\nSharing is by link, and the link carries the permission. It can be view-only or allow editing, be limited to named people or to the organisation, and be revoked afterwards - which is something an emailed attachment can never be. Comments with an at-mention notify the colleague concerned inside the document rather than in a separate mail.\n\nVersion history is the feature with the most direct value for official work. The service keeps earlier saved versions of the file, which can be opened, compared with the current one, and restored. An accidental deletion or a bad edit is therefore recoverable, and the record shows who changed the file and when. Files can also be synced to the local machine and reconciled with the stored copy on reconnection.",
+    "facts": [
+      "Co-authoring requires the document to be stored in OneDrive or SharePoint, not on a local drive",
+      "During co-authoring each editor's presence and changes are visible to the others, labelled with their name",
+      "A sharing link can be set to view-only or editing, restricted to named people, and revoked later",
+      "Version history stores earlier versions of a file, which can be opened, compared and restored",
+      "AutoSave writes changes back to the stored copy continuously rather than on a manual save"
+    ],
+    "traps": [
+      "Emailing a document as an attachment is not collaboration. Each recipient receives a separate copy and the copies diverge; co-authoring keeps one file",
+      "Version history and Track Changes are different: version history keeps saved versions of the whole file over time, Track Changes marks individual edits inside the current file",
+      "A file on a local drive or an ordinary shared network folder cannot be co-authored in real time; it has to be in OneDrive or SharePoint",
+      "Sharing with anyone who has the link is far wider than sharing with named people, and for official documents the narrower permission is the correct default"
+    ],
+    "mnem": "",
+    "rel": [
+      "Track Changes",
+      "Integration of e-Office",
+      "Review Tools"
+    ]
+  },
+  {
+    "id": "c127",
+    "paper": "TECH1",
+    "unit": "III",
+    "unitTitle": "Word Processing",
+    "sub": "Integration of e-Office",
+    "def": "e-Office is the NIC-developed suite used by central and state government offices to run files, receipts, notings, drafts and approvals electronically instead of on paper. Word processing feeds into it: officials draft in Word, attach the draft to the electronic file for approval, and place the approved version on record as a signed PDF.",
+    "exp": "The workflow is the paper office made electronic. A case is opened as an electronic file. Remarks and recommendations are recorded on the note sheet, and the communication being proposed is attached to the file as a Draft for Approval. So a letter typed in Word is uploaded as the draft for approval and the file is moved electronically to the senior officer, who reads the noting, edits or returns the draft, and approves it. Every movement of the file is logged, which is the real gain - who held the file, for how long, and what was recorded at each stage.\n\nThe approved document is converted to PDF before it is issued or put on record. PDF holds the layout fixed on any machine, printer or screen, resists casual editing, is suitable for long-term retention, and can carry a digital signature. A .docx sent out instead can reflow with different fonts and still contains whatever tracked changes, comments and properties were left in it.\n\nA digital signature applied with a Digital Signature Certificate identifies the signatory and reveals any alteration made after signing, which is what gives the electronic document standing in place of an ink signature. The practical checklist before issue: apply heading styles, update the table of contents and other fields, clear tracked changes and comments, run the Accessibility Checker, then export to PDF and sign.",
+    "facts": [
+      "e-Office is the NIC-developed suite used by Indian government offices for electronic files, notings and drafts",
+      "A letter drafted in Word is attached to the electronic file as a Draft for Approval and routed to the approving officer",
+      "Documents are converted to PDF before issue because PDF preserves layout across machines, resists casual editing and suits long-term record keeping",
+      "A digital signature identifies the signatory and reveals any change made to the document after signing",
+      "Movement of an electronic file is logged, giving an audit trail of who handled it and when"
+    ],
+    "traps": [
+      "Converting to PDF is not encryption and not security. It fixes the layout and discourages casual editing, nothing more",
+      "PDF conversion does not reliably strip tracked changes, comments and hidden metadata - the Word file has to be cleaned first",
+      "A scanned image of a handwritten signature is not a digital signature. A digital signature is certificate-based and also detects tampering",
+      "e-Office replaces the paper file and its movement, not the word processor. The draft is still written in Word and then attached"
+    ],
+    "mnem": "",
+    "rel": [
+      "Track Changes",
+      "Table of Contents",
+      "Accessibility Features"
+    ]
+  },
+  {
+    "id": "c128",
+    "paper": "TECH1",
+    "unit": "III",
+    "unitTitle": "Word Processing",
+    "sub": "AI-assisted Document Creation (Microsoft Copilot - Concept)",
+    "def": "An AI writing assistant built into the word processor, working on the document in front of you. In concept it drafts text from a short instruction, summarises a long document, rewrites a passage to be shorter or more formal, and answers questions about the content. It proposes; the official remains the author and carries the responsibility.",
+    "exp": "The useful cases in an office are easy to name. Produce a first draft of a circular or a reply from a one-line instruction, so the officer starts from something rather than a blank page. Reduce a forty-page report to a set of key points before a meeting. Rewrite a paragraph in a more formal register, or cut it to half its length. Turn rough notes into a structured document with headings. Answer a question about what a long file says. It is driven by ordinary-language instructions, so a specific instruction produces a usable draft and a vague one produces filler.\n\nThe limitation is not a small one. These systems generate fluent text that can be confidently wrong - invented rules, invented figures, references to orders that do not exist. Nothing generated may be issued without being checked against the actual rule, notification or file. The assistant does not know your office's current instructions unless it is given them.\n\nThe governance rule matters more than any feature. Official documents, file notings, and personal data of citizens or employees must not be pasted into a public AI chat service. That is a disclosure of official information to a third party outside government control, and the text may be retained. Use only tools the department has approved, on data it has approved.",
+    "facts": [
+      "An in-application AI assistant can draft, summarise, rewrite and answer questions about the document being worked on",
+      "It is driven by natural-language instructions, and output quality depends on how specific the instruction is",
+      "AI-generated text can contain fabricated facts and references and must be verified against the source rule, order or file",
+      "Responsibility for an issued official document stays with the officer who signs it, not with the tool",
+      "Official, confidential or personal data must not be entered into a public AI service"
+    ],
+    "traps": [
+      "An AI assistant drafts and summarises; it does not verify. Fluent, confident wording is not evidence that the content is correct",
+      "Pasting an internal office note into a public AI chat service is disclosure of official information to an outside party whatever the intention, and deleting the chat afterwards does not undo it",
+      "Using a departmentally approved AI tool is not the same as using any AI website - the approval is about where the data goes, not about the quality of the writing",
+      "AI assistance does not remove the ordinary checks before issue: proofreading, updating fields, and clearing tracked changes and comments"
+    ],
+    "mnem": "",
+    "rel": [
+      "Review Tools",
+      "Integration of e-Office",
+      "Microsoft 365 Collaboration"
+    ]
+  },
+  {
+    "id": "c129",
+    "paper": "TECH1",
+    "unit": "IV",
+    "unitTitle": "Electronic Spreadsheet",
+    "sub": "Workbook Management",
+    "def": "A workbook is the Excel file itself; the worksheets inside it are the grids you work in. Workbook management is the everyday handling of that file and its sheets - creating, naming, saving under the right name and format, selecting cells, and controlling how an entry is stored and how it is displayed.",
+    "exp": "Structure first. A worksheet is a grid of lettered columns and numbered rows; their intersection is a cell, addressed by column letter then row number, such as B7. The Name Box on the left shows the active cell's address. The Formula Bar beside it is where values and formulas are typed and edited, and it shows the formula behind a cell while the cell itself shows the result. Clicking a column heading letter selects the whole column.\n\nEntry. Finish a cell entry with Enter, Tab, an arrow key, or the tick on the Formula Bar. Esc abandons it instead. Anything Excel can read as a number is stored as a number and right-aligned; typing an apostrophe before it forces storage as text, which is how a code keeps its leading zeros. AutoComplete offers to finish a text entry matching one already used in the same column.\n\nFilling. Dragging the fill handle at the bottom right corner of a selection extends a sequence. Home, Fill, Series opens the dialog with Linear, Growth, Date and AutoFill types plus a step and stop value.\n\nHousekeeping. Save As writes the workbook under a new name or format, leaving the original as it was. Number formatting changes only display, never the stored value. Paste Special pastes chosen parts of what was copied - values, formats, formulas, column widths, or transposed. Comments, now called notes, attach a remark to a cell without occupying it.",
+    "facts": [
+      "The workbook is the file; the worksheets are the sheets inside it. A cell address is the column letter followed by the row number",
+      "The Formula Bar is where values and formulas are entered and edited; the Name Box shows the active cell's address",
+      "An apostrophe typed before a number forces Excel to store it as text, so it is treated as a label and left-aligned",
+      "Enter, Tab, an arrow key or the Formula Bar tick all complete a cell entry; Esc cancels it",
+      "The Fill Series dialog offers Linear, Growth, Date and AutoFill series types",
+      "Save As stores the workbook under a different name or file format, leaving the existing file untouched"
+    ],
+    "traps": [
+      "Formatting a number as currency or with no decimals changes only what is shown. The stored value is unchanged and every calculation still uses the full value",
+      "Save overwrites the existing file; Save As creates a new one. Only Save As gives the workbook a different name",
+      "A number stored as text because of an apostrophe prefix is ignored by SUM, so the total comes out silently too low",
+      "AutoComplete only suggests text entries already present in the same column; it does not complete numbers or formulas"
+    ],
+    "mnem": "",
+    "rel": [
+      "Formulae and Functions",
+      "Conditional Formatting",
+      "Data Validation"
+    ]
+  },
+  {
+    "id": "c130",
+    "paper": "TECH1",
+    "unit": "IV",
+    "unitTitle": "Electronic Spreadsheet",
+    "sub": "Formulae and Functions",
+    "def": "A formula is an instruction typed into a cell that calculates a result, and every formula begins with an equals sign. A function is a built-in named formula, such as SUM, ROUND or IF, that takes its arguments in brackets and returns a value. The cell displays the result; the Formula Bar displays the formula behind it.",
+    "exp": "Operators are evaluated in a fixed order: brackets first, then exponentiation, then multiplication and division, then addition and subtraction, working left to right within the same level, with comparison operators last. A range is written with a colon, so K2:N12 is every cell from K2 to N12. A reference to a cell on another sheet carries the sheet name and an exclamation mark before the address.\n\nReferencing is the core of the unit. A relative reference such as A1 shifts when the formula is copied - copied one row down it becomes A2, which is what you want when filling a column of row-by-row calculations. An absolute reference, $A$1, does not move at all. A mixed reference locks one half only: $A1 fixes the column and lets the row change, A$1 fixes the row and lets the column change. Use an absolute reference for a single constant, such as one tax-rate cell every row divides by. F4 cycles a reference through the four forms.\n\nError values name the fault. DIV/0 means division by zero. VALUE means the wrong type of data, typically text where a number was needed. REF means the formula points at a cell that no longer exists. NAME means an unrecognised function name or unquoted text. N/A means a lookup found nothing. A circular reference warning means a formula depends on its own cell.",
+    "facts": [
+      "Every formula starts with an equals sign; a function is a named built-in formula whose arguments are enclosed in brackets",
+      "Order of evaluation: brackets, exponentiation, multiplication and division, addition and subtraction, then comparison operators",
+      "$A$1 is an absolute reference, A1 is relative, and $A1 and A$1 are mixed references",
+      "A colon defines a range: K2:N12 covers every cell from K2 to N12",
+      "DIV/0 is division by zero, VALUE is a wrong data type, REF is a deleted or missing reference, NAME is an unrecognised name, and N/A means a value was not found",
+      "A reference to another sheet uses the sheet name, an exclamation mark, then the cell address"
+    ],
+    "traps": [
+      "The dollar sign locks only what immediately follows it. $A1 fixes column A while the row still moves; A$1 fixes row 1 while the column still moves",
+      "Relative and absolute references behave identically until the formula is copied. In its original cell, =A1 and =$A$1 return the same value, so the difference only appears on copying",
+      "NAME and VALUE are different faults. NAME is a spelling or naming problem in the formula; VALUE is a data-type problem in the operands",
+      "REF appears once a row, column or sheet is deleted from under a formula, and the original reference is not restored simply by re-inserting a blank row"
+    ],
+    "mnem": "The dollar sign locks whatever comes straight after it - before the letter it locks the column, before the number it locks the row.",
+    "rel": [
+      "Lookup Functions",
+      "Statistical Functions",
+      "Workbook Management"
+    ]
+  },
+  {
+    "id": "c131",
+    "paper": "TECH1",
+    "unit": "IV",
+    "unitTitle": "Electronic Spreadsheet",
+    "sub": "Lookup Functions",
+    "def": "Lookup functions search a table for a value and return the matching value from the same row or column, so one sheet can pull details out of another instead of them being retyped. VLOOKUP, HLOOKUP, INDEX used with MATCH, and XLOOKUP are the ones that matter here.",
+    "exp": "VLOOKUP takes four arguments: the value to find, the table range to search, the number of the column within that range whose value is to be returned, and a final true or false argument controlling the match.\n\nThat last argument is the examinable one. FALSE, or zero, demands an exact match and returns N/A when the value is absent - what you want for an employee number, a district code or a name. TRUE, or one, means approximate match, and it is what you get if the argument is omitted. Approximate match assumes the first column is sorted ascending and returns the largest entry not exceeding the lookup value. That is correct for grade bands and slab rates and quietly wrong for identifiers, because on unsorted data it returns a plausible neighbouring value rather than an error.\n\nVLOOKUP has two structural limits. It only looks rightward, so the key must sit in the leftmost column of the table range and nothing to its left can be returned. And the column number is a fixed count, so inserting a column inside the table shifts the fields while the formula keeps pointing at the same position.\n\nINDEX with MATCH escapes both. MATCH returns the position of the value in a row or column; INDEX returns whatever sits at that position in any column, left or right. XLOOKUP is the single modern function that searches in either direction and takes its own argument for what to show when nothing is found. HLOOKUP is the horizontal equivalent, searching across the first row.",
+    "facts": [
+      "VLOOKUP searches the leftmost column of the given table range and returns a value from the column number specified",
+      "FALSE or zero as the last argument means exact match; TRUE or one means approximate match and is the default when the argument is omitted",
+      "Approximate match requires the lookup column to be sorted in ascending order to give correct results",
+      "VLOOKUP cannot return a value from a column to the left of the lookup column",
+      "HLOOKUP searches across the first row of the range instead of down the first column",
+      "An exact-match lookup that finds nothing returns the N/A error"
+    ],
+    "traps": [
+      "Leaving out the last argument gives approximate match, not exact match. On an unsorted list this returns a wrong value silently instead of raising N/A",
+      "The column index number is counted from the first column of the table range, not from column A of the worksheet",
+      "Inserting or deleting a column inside the lookup table moves the fields but not the hard-coded index number, so the formula keeps calculating and returns the wrong field",
+      "INDEX with MATCH and XLOOKUP are preferred not for speed of typing but because they can look leftward and survive column insertion, which VLOOKUP cannot"
+    ],
+    "mnem": "V for vertical, down the first column. H for horizontal, across the first row.",
+    "rel": [
+      "Formulae and Functions",
+      "Statistical Functions",
+      "Sorting and Filtering"
+    ]
+  },
+  {
+    "id": "c132",
+    "paper": "TECH1",
+    "unit": "IV",
+    "unitTitle": "Electronic Spreadsheet",
+    "sub": "Statistical Functions",
+    "def": "Statistical functions summarise a range of values - counting them, averaging them, finding extremes and applying conditions. In an office spreadsheet they are what turn a list of records into a single figure that can be reported. For the exam, know what each one returns rather than trying to evaluate it by hand.",
+    "exp": "The counting family is where marks are won and lost. COUNT counts only cells that contain numbers. COUNTA counts every cell that is not empty, whatever it holds - numbers, text, dates, even error values. COUNTBLANK counts the empty cells. COUNTIF counts cells in one range that satisfy a single stated condition, and COUNTIFS applies several conditions across several ranges at once.\n\nAVERAGE returns the arithmetic mean of the numeric cells in a range, with AVERAGEIF and AVERAGEIFS adding conditions. SUM adds a range, with SUMIF and SUMIFS as its conditional forms. MAX and MIN return the largest and smallest numeric values, while LARGE and SMALL return the nth largest and nth smallest.\n\nMEDIAN returns the middle value once the values are placed in order, and is far less distorted by one extreme figure than the mean is. MODE returns the value that occurs most often. STDEV and VAR measure spread, that is how widely the values scatter around the mean, with separate forms for a sample and for an entire population. RANK gives a value's position within a list.\n\nA condition in COUNTIF or SUMIF is written as a criterion - a plain value, or a comparison in quotation marks, with wildcards allowed in text criteria. The distinctions actually tested are COUNT against COUNTA, mean against median, and the single-condition IF functions against their plural IFS forms.",
+    "facts": [
+      "COUNT counts numeric cells only, COUNTA counts all non-empty cells including text, and COUNTBLANK counts empty cells",
+      "COUNTIF and SUMIF take exactly one condition; COUNTIFS and SUMIFS take several conditions, each paired with its own range",
+      "AVERAGE returns the arithmetic mean of the numeric values in the range",
+      "MEDIAN returns the middle value of the ordered values and MODE returns the most frequently occurring value",
+      "MAX and MIN return the largest and smallest values; LARGE and SMALL return the nth largest and nth smallest",
+      "STDEV and VAR measure how widely values are spread about the mean, with separate sample and population forms"
+    ],
+    "traps": [
+      "COUNT against COUNTA is the standard distractor: a column of names gives zero from COUNT and the full count from COUNTA",
+      "AVERAGE skips genuinely empty cells but treats a cell holding zero as a value, which drags the mean down",
+      "Mean and median are not interchangeable. A single very large entry moves the mean substantially and the median barely at all",
+      "COUNTIFS does not test several conditions against one range. Each condition is paired with its own range, and a row must satisfy all of them"
+    ],
+    "mnem": "COUNT counts numbers, COUNTA counts anything.",
+    "rel": [
+      "Formulae and Functions",
+      "Financial Functions",
+      "Pivot Tables"
+    ]
+  },
+  {
+    "id": "c133",
+    "paper": "TECH1",
+    "unit": "IV",
+    "unitTitle": "Electronic Spreadsheet",
+    "sub": "Financial Functions",
+    "def": "Financial functions calculate the standard quantities of loan and investment arithmetic - instalment, present value, future value, interest rate and number of periods - from the other variables. In a government office they are used for loan and advance recovery schedules, provident fund projections, and depreciation of assets.",
+    "exp": "Five functions form one family, each returning a different unknown of the same time-value-of-money relationship. Supply any four of the quantities and the function returns the fifth.\n\nPMT returns the fixed periodic payment on a loan - the EMI. PV returns present value, the lump sum today that is equivalent to a stream of future payments. FV returns future value, what a series of deposits or a single sum will grow to by a stated date. RATE returns the interest rate per period. NPER returns how many periods are needed.\n\nThe arguments are the rate per period, the number of periods, and the payment or the present value, with an optional future value and a type argument stating whether payment falls at the start or the end of each period. The consistency rule catches most people: rate and periods must be on the same time basis. For a monthly instalment, the annual rate is divided by twelve and the number of years multiplied by twelve. Money paid out is entered as a negative amount, which is why PMT normally returns a negative figure.\n\nIPMT and PPMT split a single instalment into its interest and principal portions, which is how an amortisation schedule is built. NPV and IRR appraise a project: NPV discounts future cash flows back to today's value, IRR returns the rate at which that net present value becomes zero. SLN and DB compute depreciation, straight-line and declining-balance.",
+    "facts": [
+      "PMT returns the fixed periodic instalment on a loan, PV returns present value, FV returns future value, RATE returns the interest rate per period and NPER returns the number of periods",
+      "Rate and number of periods must share the same unit: for a monthly instalment, divide the annual rate by 12 and multiply the number of years by 12",
+      "IPMT returns the interest portion and PPMT the principal portion of a specified instalment",
+      "NPV discounts a series of future cash flows to present value; IRR is the rate at which NPV equals zero",
+      "SLN computes straight-line depreciation, spreading cost evenly over the asset's life"
+    ],
+    "traps": [
+      "PMT returning a negative number is the sign convention for money going out, not an error",
+      "Present value and future value are the same calculation run in opposite directions: PV discounts backwards to today, FV compounds forwards to a later date",
+      "Feeding an annual rate together with a monthly period count is the commonest mistake; the instalment then comes out absurdly large",
+      "PMT gives the whole instalment and says nothing about how it splits between interest and principal - that is IPMT and PPMT"
+    ],
+    "mnem": "",
+    "rel": [
+      "Statistical Functions",
+      "Formulae and Functions",
+      "What-if Analysis"
+    ]
+  },
+  {
+    "id": "c134",
+    "paper": "TECH1",
+    "unit": "IV",
+    "unitTitle": "Electronic Spreadsheet",
+    "sub": "Data Validation",
+    "def": "Data validation is a rule attached to a cell or range that controls what may be entered there. Excel checks each entry against the rule and rejects, or warns about, anything that does not fit. It is the practical way to stop a data-entry operator typing nonsense into a register that others will later total and report.",
+    "exp": "The rule is set from the Data tab, Data Validation. The Settings tab chooses what is allowed: Whole number, Decimal, List, Date, Time, Text length, or Custom, which takes a formula that must evaluate to true. Each type then takes a condition - between, not between, equal to, greater than, less than - with limits typed in or pointed at cells.\n\nList is the type used most. Give the permitted entries, either typed and separated by commas or, better, as a reference to a range of cells holding the approved values, and the cell gains a drop-down arrow. The operator picks a district name from the approved list instead of spelling it three different ways, and the lookups and pivot tables downstream then actually match.\n\nThe Input Message tab shows a prompt when the cell is selected. That is guidance offered before typing, not a check on anything. The Error Alert tab decides what happens after a bad entry. Stop refuses the entry outright. Warning lets it through after a confirmation. Information merely notes it. Only Stop actually prevents bad data.\n\nThe limits matter. Validation tests typed entries; pasting into a validated cell can overwrite the rule along with the value. Values already in the cells before the rule was created are not re-checked, though Circle Invalid Data will mark them.",
+    "facts": [
+      "Data Validation sits on the Data tab, and its Settings tab chooses the allowed type of entry",
+      "Allowed types include Whole number, Decimal, List, Date, Time, Text length and Custom",
+      "List validation produces a drop-down in the cell; its source may be a typed list or a reference to a range of approved values",
+      "The Input Message appears when the cell is selected and is purely guidance - it validates nothing",
+      "The Error Alert styles are Stop, Warning and Information, and only Stop refuses the entry",
+      "Circle Invalid Data marks existing values that break a validation rule"
+    ],
+    "traps": [
+      "Input Message and Error Alert are separate tabs doing different jobs: the message appears before typing, the alert only after a non-conforming entry",
+      "Warning and Information alerts still allow the wrong value into the cell; only Stop blocks it",
+      "Applying a validation rule does not clean up data already entered - the existing wrong values stay until they are found",
+      "Data validation controls entry; conditional formatting only colours what is already there. They are frequently swapped in options"
+    ],
+    "mnem": "",
+    "rel": [
+      "Workbook Management",
+      "Conditional Formatting",
+      "Sorting and Filtering"
+    ]
+  },
+  {
+    "id": "c135",
+    "paper": "TECH1",
+    "unit": "IV",
+    "unitTitle": "Electronic Spreadsheet",
+    "sub": "Sorting and Filtering",
+    "def": "Sorting rearranges rows into an order based on one or more columns. Filtering hides the rows that do not meet a stated condition, leaving the matching ones visible without deleting anything. Both live on the Data tab and both assume a list in which the first row holds headers and every row below is one record.",
+    "exp": "Ascending sort runs A to Z, smallest to largest, oldest to newest; descending is the reverse. Multi-level sorting is done from the Sort dialog by adding levels - sort by district first, then by department within each district, then by amount. The first level is the primary key, and later levels only break ties inside it. Sorting is also possible by cell colour, font colour or a custom list such as month names.\n\nAutoFilter is the Filter button that drops an arrow onto every header. From it you tick the values to show, or use text, number and date filters such as greater than, top ten, or this month. Conditions applied to different columns combine with AND. Advanced Filter is the separate tool that reads a criteria range written out on the worksheet, and that is what lets it express OR conditions across different columns, accept formula criteria, and copy the matching rows to another location. AutoFilter does none of those.\n\nThe classic disaster is worth stating plainly. Select only one column of a table, sort it, and that column alone is reordered while every other column stays put. Every record now carries another record's data. Nothing is flagged and it can go unnoticed for months. Excel usually offers to expand the selection - accepting that keeps the rows intact. Safer still, click a single cell inside the list and let Excel detect the whole block.",
+    "facts": [
+      "Sorting reorders rows; filtering only hides non-matching rows and deletes nothing",
+      "The Sort dialog supports multiple levels; the first level is the primary key and later levels break ties within it",
+      "AutoFilter places a drop-down on each column header, and conditions on different columns combine with AND",
+      "Advanced Filter uses a criteria range typed on the worksheet, can express OR across different columns, and can copy the results to another location",
+      "Sorting can be done by cell colour or font colour, not only by cell value"
+    ],
+    "traps": [
+      "Sorting one selected column without expanding the selection reorders that column alone and silently corrupts every record in the table. It raises no error at all",
+      "Filtering hides rows but does not remove them, so SUM over a filtered range still includes the hidden rows. SUBTOTAL is the function that ignores rows hidden by a filter",
+      "AutoFilter cannot express OR across two different columns; only Advanced Filter's criteria range can",
+      "A completely blank row or column inside a list breaks Excel's detection of the block, so only part of the data gets sorted or filtered"
+    ],
+    "mnem": "",
+    "rel": [
+      "Workbook Management",
+      "Pivot Tables",
+      "Data Validation"
+    ]
+  },
+  {
+    "id": "c136",
+    "paper": "TECH1",
+    "unit": "IV",
+    "unitTitle": "Electronic Spreadsheet",
+    "sub": "Conditional Formatting",
+    "def": "Conditional formatting applies a format - fill colour, font colour, border or number format - to a cell only while a stated condition about its value is true, and withdraws it automatically when the value changes. It makes a pattern visible across a large sheet without anyone having to read every figure.",
+    "exp": "It sits on the Home tab. The built-in rules cover most needs. Highlight Cells Rules test the value: greater than, less than, between, equal to, text that contains, a date occurring within a period, or duplicate values. Top and Bottom Rules highlight the top or bottom ten items or ten percent, or values above or below the average. Data Bars draw a bar inside each cell proportional to its value. Colour Scales shade the range across a two-colour or three-colour gradient so high and low stand out. Icon Sets place arrows, traffic lights or flags according to which band the value falls into.\n\nNew Rule, then Use a formula to determine which cells to format, is the flexible option. The formula must return true or false and is written as it applies to the top-left cell of the selected range; Excel then applies it relatively across the rest. This is how a whole row is shaded from the value in one column - lock the column with a dollar sign and leave the row relative.\n\nRules are listed in Manage Rules, evaluated in the order shown, and Stop If True halts evaluation once a rule matches. Clear Rules removes them from the selection or the whole sheet.\n\nThe format is display only. The underlying values are untouched, so a red cell still sums, sorts and filters as the ordinary number it is.",
+    "facts": [
+      "Conditional formatting is on the Home tab and reapplies itself automatically whenever the cell values change",
+      "The built-in categories are Highlight Cells Rules, Top and Bottom Rules, Data Bars, Colour Scales and Icon Sets",
+      "A formula-based rule must evaluate to TRUE or FALSE and is written for the top-left cell of the selected range",
+      "Manage Rules shows the rules and their order of evaluation, and Stop If True prevents later rules being applied",
+      "Duplicate and unique values can be highlighted directly from Highlight Cells Rules"
+    ],
+    "traps": [
+      "Conditional formatting changes appearance only. It cannot prevent a wrong entry being made - restricting what may be entered is Data Validation's job",
+      "A colour applied by hand and a colour applied by a rule look identical, but only the rule's colour changes by itself when the value changes",
+      "To shade an entire row from one column's value, the column in the rule formula must be absolute (dollar sign before the letter) with the row left relative; getting this wrong shades a diagonal instead",
+      "Rule order matters. Where two rules set the same property on the same cell, the one higher in Manage Rules wins unless the order is changed"
+    ],
+    "mnem": "",
+    "rel": [
+      "Data Validation",
+      "Formulae and Functions",
+      "Workbook Management"
+    ]
+  },
+  {
+    "id": "c137",
+    "paper": "TECH1",
+    "unit": "IV",
+    "unitTitle": "Electronic Spreadsheet",
+    "sub": "Pivot Tables",
+    "def": "A pivot table is an interactive summary of a list, built by dragging fields rather than by writing formulas. It groups records by the values in chosen columns and aggregates a numeric column for each group - district-wise expenditure totals out of ten thousand records, in seconds, with no formula typed.",
+    "exp": "Insert, PivotTable, on a list whose first row holds unique headers and whose rows are records. The field list then offers four drop areas. Rows places each distinct value of the chosen field down the left as a row heading. Columns does the same across the top. Values holds the field being aggregated, with Sum, Count, Average, Max, Min and others chosen through Value Field Settings. Filters puts a field above the table so the whole summary can be restricted to one value.\n\nMoving a field between those areas is what pivoting means: the same data re-summarised along a different axis with nothing rebuilt. Fields can be grouped - dates into months, quarters and years, numbers into bands. Show Values As converts a figure into a percentage of the row, column or grand total. Double-clicking a summary figure drills through to the underlying records on a new sheet. Slicers give clickable filter buttons.\n\nThe operational point that gets examined: a pivot table is a snapshot of its source taken when it was built or last refreshed. Correcting values in the source data does not update it. It must be refreshed - Refresh on the PivotTable Analyze tab, or right-click and Refresh. And if rows have been added beyond the original range, Refresh alone will not pick them up; the data source has to be changed, unless it was defined as an Excel table or a dynamic named range.",
+    "facts": [
+      "A pivot table summarises data without formulas, using the Rows, Columns, Values and Filters areas",
+      "The default aggregation is Sum for a numeric field and Count for a text field, changed through Value Field Settings",
+      "A pivot table does not update when its source data changes; it must be refreshed",
+      "Rows added beyond the original source range need the data source to be changed, unless the source is an Excel table or a dynamic named range",
+      "Double-clicking a value in a pivot table drills through to the source records on a new sheet",
+      "The source list must have a header row with unique, non-blank column names"
+    ],
+    "traps": [
+      "Refresh is not automatic. Corrected source figures keep showing the old totals until the pivot table is refreshed - a favourite exam question and a genuine reporting error in offices",
+      "Refresh re-reads the existing source range only; it does not stretch that range to cover newly appended rows",
+      "A pivot table is not a filter. Filtering hides rows and leaves the records intact; a pivot table aggregates records into groups",
+      "Blank or duplicated header names in the source stop the pivot table being created at all"
+    ],
+    "mnem": "Four areas: Rows, Columns, Values, Filters.",
+    "rel": [
+      "Pivot Charts",
+      "Dashboards",
+      "Sorting and Filtering"
+    ]
+  },
+  {
+    "id": "c138",
+    "paper": "TECH1",
+    "unit": "IV",
+    "unitTitle": "Electronic Spreadsheet",
+    "sub": "Pivot Charts",
+    "def": "A pivot chart is a chart built on a pivot table rather than on a plain range. It plots the summarised figures, and it stays tied to the pivot table underneath, so filtering or rearranging one changes the other immediately.",
+    "exp": "Create it from Insert, PivotChart, either on an existing pivot table or on the source list, in which case Excel builds both together. The pivot table's Rows field becomes the chart's category axis, the Values field becomes the plotted series, and a field in Columns splits the data into multiple series.\n\nThe link runs both ways. Drag a field into a different area of the pivot table and the chart redraws. Use the field buttons on the chart itself, or a slicer, and the pivot table filters to match. This is why a pivot chart is the natural building block of a management dashboard - one slicer can drive several pivot charts at once when they share the same source.\n\nThe ordinary chart types are all available: column and bar for comparing categories, line for a trend over time, pie for the share of a single total, area, scatter, and combination charts that put two series on different axes. Choose by what is being shown - pie only for parts of one whole, line only where the horizontal axis is genuinely sequential.\n\nTwo practical points. A pivot chart carries the same refresh dependency as its pivot table: change the source data and neither updates until the pivot table is refreshed. And a pivot chart cannot be a scatter, bubble or stock chart, because those need paired raw values rather than a summarised category and a total. If a scatter is wanted, chart the underlying data directly instead.",
+    "facts": [
+      "A pivot chart is always tied to a pivot table; filtering or rearranging either one updates the other",
+      "The pivot table's Rows field becomes the chart's category axis and its Values field becomes the plotted series",
+      "Column, bar, line, pie, area and combination charts can all be used as pivot charts",
+      "A pivot chart cannot be created as a scatter, bubble or stock chart",
+      "Changing the source data leaves the pivot chart showing old figures until the pivot table is refreshed"
+    ],
+    "traps": [
+      "A pivot chart is not an ordinary chart. An ordinary chart plots whatever cells it points at; a pivot chart plots a pivot table's summary and moves with it",
+      "Filtering the chart filters the pivot table too - the two cannot be filtered independently while they are linked",
+      "Deleting the pivot table destroys the pivot chart, or leaves it as a static picture of the last state; deleting the chart leaves the pivot table intact",
+      "Pie charts are for the parts of one total. Using a pie for several unrelated series is a standard wrong answer in chart-selection questions"
+    ],
+    "mnem": "",
+    "rel": [
+      "Pivot Tables",
+      "Dashboards"
+    ]
+  },
+  {
+    "id": "c139",
+    "paper": "TECH1",
+    "unit": "IV",
+    "unitTitle": "Electronic Spreadsheet",
+    "sub": "Dashboards",
+    "def": "A dashboard is a single screen that presents the key figures of an activity together - charts, summary tables and headline numbers - so that the position can be read at a glance without opening the underlying data. In Excel it is built out of ordinary features: pivot tables, pivot charts, slicers and formulas, arranged on one worksheet.",
+    "exp": "It is a layout, not a separate Excel object. There is no Insert Dashboard command. The usual structure separates three layers into different sheets: a data sheet holding the raw records or the query output, a calculation layer of pivot tables and formulas, and the dashboard sheet itself, which shows only the results. Keeping them apart means the presentation can be rearranged without disturbing the calculations.\n\nSlicers and timelines are what make it interactive. A slicer is a panel of clickable buttons that filters a pivot table or table; a timeline does the same for dates. Connect one slicer to several pivot tables through Report Connections and a single click on a district name refilters every chart on the screen together. That is the behaviour a dashboard question is usually testing.\n\nOther common components are conditional formatting to flag values outside a limit, sparklines - miniature charts inside a single cell showing a trend - and formula-driven headline figures for totals, percentages achieved and variance against target.\n\nDesign discipline matters as much as the mechanics. Show a small number of measures that someone can act on, fit them on one screen without scrolling, label units and the period covered, and state when the data was last refreshed. A dashboard is only as current as its last refresh, and an unlabelled out-of-date dashboard is worse than no dashboard, because it is believed.",
+    "facts": [
+      "A dashboard in Excel is an arrangement of existing features on one sheet, not a distinct object type - there is no single command that creates one",
+      "A slicer is a set of clickable buttons that filters a pivot table or an Excel table visually",
+      "One slicer can be connected to several pivot tables through Report Connections, so one click refilters all of them",
+      "A timeline is the date-specific equivalent of a slicer",
+      "Sparklines are miniature charts drawn inside a single cell to show a trend",
+      "Good practice separates the data sheet, the calculation layer and the dashboard sheet"
+    ],
+    "traps": [
+      "A slicer filters; it does not calculate. The figures still come from the pivot tables and formulas behind it",
+      "A dashboard shows only as much as its last refresh. Nothing on it updates by itself when the source records change",
+      "A dashboard is not a report. A report is a printed or fixed document; a dashboard is a live, filterable summary screen",
+      "Slicers only drive pivot tables or charts they have been explicitly connected to - adding a second pivot table does not automatically bring it under an existing slicer"
+    ],
+    "mnem": "",
+    "rel": [
+      "Pivot Tables",
+      "Pivot Charts",
+      "Conditional Formatting"
+    ]
+  },
+  {
+    "id": "c140",
+    "paper": "TECH1",
+    "unit": "IV",
+    "unitTitle": "Electronic Spreadsheet",
+    "sub": "What-if Analysis",
+    "def": "What-if analysis is the group of Excel tools that work a model backwards or sideways - changing input values to see what happens to a result, or fixing a result and finding the input needed to reach it. On the Data tab, the What-If Analysis button offers three tools: Scenario Manager, Goal Seek and Data Table.",
+    "exp": "All three assume you already have a working model: input cells feeding formula cells. What-if analysis does not build the model, it exercises it.\n\nScenario Manager stores named sets of input values for the same cells - a best case, a worst case, an expected case - and switches between them, putting each set into the sheet on demand. It handles up to several changing cells at once and can produce a summary report comparing every scenario side by side. Use it when the question is what happens under different assumptions.\n\nGoal Seek runs the other way. Set the result you want in a formula cell and name one input cell, and Excel adjusts that input until the formula reaches the target. One target, one input.\n\nA Data Table lays out the results of a formula across a grid of input values so the effect can be read off directly. A one-variable data table varies a single input down a column or across a row; a two-variable data table varies two inputs at once, one down the side and one along the top, with the formula in the corner. It shows the whole range of outcomes rather than one answer.\n\nSolver is the separate add-in for genuine optimisation - many changing cells, an objective to maximise or minimise, and constraints. It is not one of the three built-in what-if tools and must be enabled as an add-in.",
+    "facts": [
+      "The three what-if analysis tools on the Data tab are Scenario Manager, Goal Seek and Data Table",
+      "Scenario Manager stores named sets of values for several input cells and can produce a comparison summary",
+      "Goal Seek adjusts one input cell to make one formula cell reach a stated target value",
+      "A one-variable data table varies one input; a two-variable data table varies two inputs, with the formula placed in the corner cell",
+      "Solver is a separate add-in for optimisation with multiple variables and constraints, not one of the three what-if tools"
+    ],
+    "traps": [
+      "Solver is not listed under What-If Analysis. Questions asking for the three what-if tools want Scenario Manager, Goal Seek and Data Table",
+      "Scenario Manager changes several inputs at once but shows results one scenario at a time; a data table shows many results simultaneously",
+      "What-if tools need a formula linking input to result. Typing numbers with no formula between them gives them nothing to work on",
+      "A data table returns results as an array and its cells cannot be edited or deleted individually - the whole table must be cleared"
+    ],
+    "mnem": "Three tools: Scenario, Goal Seek, Data Table.",
+    "rel": [
+      "Goal Seek",
+      "Financial Functions",
+      "Formulae and Functions"
+    ]
+  },
+  {
+    "id": "c141",
+    "paper": "TECH1",
+    "unit": "IV",
+    "unitTitle": "Electronic Spreadsheet",
+    "sub": "Goal Seek",
+    "def": "Goal Seek works a formula backwards. You state the answer you want from a formula cell and name one input cell that Excel may change, and it adjusts that input by repeated trial until the formula returns the target. It is on the Data tab under What-If Analysis.",
+    "exp": "The dialog has exactly three boxes. Set cell must contain a formula - this is the cell whose result you are fixing. To value is the target result, typed in as a plain number, not a cell reference. By changing cell must be an input cell holding a value, not a formula, and the Set cell's formula must depend on it directly or through other formulas.\n\nThe typical office use is a loan: a repayment model computes the monthly instalment from principal, rate and tenure. The instalment cannot exceed a fixed figure, so set the instalment cell to that figure and let Goal Seek change the principal. It reports the loan amount that fits. The same pattern gives the marks needed in a last paper to reach a required aggregate, or the sales figure needed to break even.\n\nExcel solves it by iteration, converging on a value, so the answer may be very slightly off the exact target on awkward models. Clicking OK writes the found value permanently into the input cell; Cancel restores the original.\n\nThe examinable limit is that Goal Seek handles one changing cell and one target only. It cannot adjust two inputs together, cannot honour constraints such as keeping a value whole or non-negative, and cannot maximise or minimise anything. Solver, a separate add-in, does all of those: multiple changing cells, an objective to maximise, minimise or set to a value, and constraints.",
+    "facts": [
+      "Goal Seek is reached from the Data tab, What-If Analysis, Goal Seek",
+      "Its three inputs are Set cell, To value and By changing cell",
+      "The Set cell must contain a formula; the By changing cell must contain a value, not a formula",
+      "The target in To value is typed as a number, not entered as a cell reference",
+      "Goal Seek reaches its answer by iteration, so the result may differ very slightly from the exact target",
+      "Goal Seek changes exactly one input cell and cannot apply constraints"
+    ],
+    "traps": [
+      "Goal Seek is single-variable. Solver is the tool for several changing cells, constraints, and maximising or minimising an objective - this is the standard comparison question",
+      "The Set cell and the By changing cell cannot be swapped. Putting the formula in the changing cell gives an error",
+      "Accepting the result overwrites the input cell permanently; it is not a preview that reverts by itself",
+      "Goal Seek finds an input for a target, it does not test different assumptions. Comparing best and worst cases is Scenario Manager's job"
+    ],
+    "mnem": "Set cell holds the formula, changing cell holds the value.",
+    "rel": [
+      "What-if Analysis",
+      "Financial Functions"
+    ]
+  },
+  {
+    "id": "c142",
+    "paper": "TECH1",
+    "unit": "IV",
+    "unitTitle": "Electronic Spreadsheet",
+    "sub": "Power Query (Introduction)",
+    "def": "Power Query is Excel's get-and-transform tool. It connects to a data source, applies a recorded sequence of cleaning and reshaping steps, and loads the tidied result into the workbook. The steps are saved with the query, so the next time the source changes you press Refresh and the entire cleaning runs again by itself.",
+    "exp": "It is reached from the Data tab, under Get Data or Get and Transform Data. Sources include Excel workbooks, CSV and text files, a whole folder of files with the same layout, databases, and web pages and online services.\n\nWork is done in the Power Query Editor, a separate window. There you remove blank or unwanted rows, delete or rename columns, split a column into two, change data types, trim stray spaces, replace values, unpivot a cross-tab back into a proper list, filter rows, group and total, and merge or append queries. Merge joins two tables on a matching column; append stacks tables with the same columns one under the other.\n\nEvery action is recorded as a named step in the Applied Steps list on the right. That list is the query - it can be reordered, edited or deleted, and it is what replays on refresh. This is the whole point. Manual cleaning has to be redone for every new file; a query is built once and rerun in one click on next month's file.\n\nLoading puts the result into a worksheet as a table, or into the data model, or keeps it as a connection only. Power Query does not alter the source file; it reads it and produces a cleaned copy.\n\nThe division of labour worth remembering: Power Query gets and cleans the data, Power Pivot models and analyses it.",
+    "facts": [
+      "Power Query is reached from the Data tab under Get Data or Get and Transform Data, and its work is done in the Power Query Editor window",
+      "Every transformation is recorded as a step in the Applied Steps list, and those steps replay automatically when the query is refreshed",
+      "It can combine files from an entire folder, merge two queries on a matching column, or append queries with the same columns",
+      "Loading options are to a worksheet table, to the data model, or as connection only",
+      "Power Query does not change the original source file - it reads the source and produces a transformed result",
+      "Power Query gets and cleans data; Power Pivot models and analyses it"
+    ],
+    "traps": [
+      "Refreshing a query re-runs the recorded steps against the current source. It does not repeat the old output, and it does not need the cleaning to be done by hand again",
+      "Editing the loaded output table by hand is pointless - the next refresh overwrites it. Corrections belong in the query steps or in the source",
+      "Power Query is not the same as a formula. Formulas recalculate live; a query only re-runs when refreshed",
+      "Removing a column in Power Query removes it from the loaded result, not from the source file"
+    ],
+    "mnem": "Query gets and cleans, Pivot models and calculates.",
+    "rel": [
+      "Power Pivot (Overview)",
+      "Pivot Tables",
+      "Sorting and Filtering"
+    ]
+  },
+  {
+    "id": "c143",
+    "paper": "TECH1",
+    "unit": "IV",
+    "unitTitle": "Electronic Spreadsheet",
+    "sub": "Power Pivot (Overview)",
+    "def": "Power Pivot is Excel's data modelling engine. Instead of forcing everything into one flat worksheet, it holds several tables in an in-memory data model, lets you define relationships between them, and lets pivot tables and charts report across all of them at once. Calculations in the model are written in a formula language called DAX.",
+    "exp": "The problem it solves is the flat-table problem. Ordinary Excel analysis needs every field in one sheet, so a transaction list has to be padded out with VLOOKUP columns pulling in the district name, the scheme name and the department for every row. Power Pivot instead keeps the transaction table and the small reference tables separately and joins them by a relationship on the shared key column, exactly as a database does. One table is on the many side, the reference table on the one side, and a pivot table can then use fields from any of them together.\n\nThe model also handles far more rows than a worksheet can display, because the data is held in a compressed in-memory store rather than in cells. Diagram View shows the tables and the relationship lines between them, and is where relationships are created or edited.\n\nDAX, Data Analysis Expressions, is the language for calculated columns, which add a value to every row of a table, and for measures, which are aggregations evaluated in the context of whatever the pivot table is currently showing. Measures are the more powerful of the two.\n\nAt this level know the division of labour and leave the syntax alone. Power Query gets and transforms the data; Power Pivot relates and calculates over it; the pivot table and chart present the result.",
+    "facts": [
+      "Power Pivot holds multiple tables in an in-memory data model and lets relationships be defined between them",
+      "The formula language used for calculated columns and measures in Power Pivot is DAX, Data Analysis Expressions",
+      "A relationship joins two tables on a shared key column, removing the need for lookup columns to flatten the data",
+      "Diagram View displays the model's tables and the relationship lines between them",
+      "A calculated column adds a value to every row; a measure is an aggregation evaluated in the context of the current pivot table view",
+      "Power Query gets and transforms data, Power Pivot models and calculates over it"
+    ],
+    "traps": [
+      "DAX is not the same as ordinary Excel formulas. Some function names look alike, but DAX works over whole tables and columns, not over cell addresses",
+      "Power Pivot is not a bigger pivot table. It is the data model beneath one, which any number of pivot tables can then report from",
+      "Power Query and Power Pivot are commonly swapped in options. Cleaning and reshaping is Power Query; relationships and DAX are Power Pivot",
+      "A calculated column is stored row by row in the model; a measure is worked out at the moment the pivot table is viewed and changes with the filters applied"
+    ],
+    "mnem": "",
+    "rel": [
+      "Power Query (Introduction)",
+      "Pivot Tables",
+      "Lookup Functions"
+    ]
+  },
+  {
+    "id": "c144",
+    "paper": "TECH1",
+    "unit": "IV",
+    "unitTitle": "Electronic Spreadsheet",
+    "sub": "Macros (Introduction)",
+    "def": "A macro is a stored sequence of actions that Excel can replay on command, so a repetitive job is done in one keystroke instead of twenty. Macros are usually created with the macro recorder, which watches what you do and writes the equivalent code, and that code is in VBA, Visual Basic for Applications.",
+    "exp": "Recording is on the Developer tab, or from the status bar. Give the macro a name with no spaces, optionally a shortcut key, and choose where to store it - this workbook, or the Personal Macro Workbook if the macro should be available in every workbook you open. Then perform the steps and stop recording. Run it afterwards from the Macros dialog, the shortcut key, or a button placed on the sheet.\n\nThe recorded code can be opened and edited in the Visual Basic Editor. Recording is enough for fixed sequences of formatting and layout; anything with a condition or a loop has to be written or amended by hand.\n\nOne recording habit matters. By default the recorder writes absolute cell addresses, so the macro always acts on the same cells regardless of where the cursor is. Use Relative References while recording and it acts relative to the selected cell instead, which is what you want for a macro to be applied wherever the cursor happens to be.\n\nFile format is the exam point. The ordinary .xlsx format cannot store macros - save a workbook containing macros as .xlsx and the code is stripped out, with a warning. Macro-enabled workbooks use the .xlsm extension.\n\nSecurity is the other. VBA can create, alter and delete files, so macros are a genuine malware route. Excel therefore disables macros in files from e-mail or the internet and shows a warning bar. Enable them only in a file whose origin you trust.",
+    "facts": [
+      "A macro records a sequence of actions for replay; the underlying language is VBA, Visual Basic for Applications",
+      "Recording and the Visual Basic Editor are on the Developer tab, which may have to be switched on in the ribbon options",
+      "A workbook containing macros must be saved in the macro-enabled .xlsm format; the ordinary .xlsx format cannot hold macros",
+      "Storing a macro in the Personal Macro Workbook makes it available in every workbook opened on that computer",
+      "The recorder writes absolute cell references unless Use Relative References is switched on before recording",
+      "Excel disables macros by default in workbooks received by e-mail or downloaded, and shows a security warning bar"
+    ],
+    "traps": [
+      "Saving a macro-containing workbook as .xlsx does not raise an error and does not stop the save - it silently discards the macro code after a warning",
+      "Macros are disabled by default for security, not because the file is damaged. Enabling content on a file from an unknown sender is a real infection risk",
+      "The macro recorder cannot record decisions or loops. Anything conditional has to be written in the Visual Basic Editor",
+      "A macro recorded with absolute references always works on the cells that were used during recording, whatever is selected when it is run"
+    ],
+    "mnem": "The m in .xlsm is the macro.",
+    "rel": [
+      "Workbook Management",
+      "Microsoft 365 Collaboration"
+    ]
+  },
+  {
+    "id": "c145",
+    "paper": "TECH1",
+    "unit": "IV",
+    "unitTitle": "Electronic Spreadsheet",
+    "sub": "Microsoft 365 Collaboration",
+    "def": "Microsoft 365 collaboration on a workbook means the file is stored on OneDrive or a SharePoint or Teams site rather than on one officer's machine, so several people can open and edit the same workbook at the same time and see each other's changes as they are made. That live shared editing is called co-authoring.",
+    "exp": "The cloud location is the requirement. A workbook saved on a local drive or a shared network folder cannot be co-authored; it opens read-only for the second person, or produces conflicting copies. Move it to OneDrive or a Teams or SharePoint library and use Share to give named colleagues edit or view-only access, or a link. AutoSave then switches on and writes changes continuously.\n\nWhile co-authoring, each person's cursor appears in a distinct colour with their name against it, and edits show up in the others' windows within moments. Comments are threaded, so a query can be replied to and then resolved, and typing an at sign followed by a colleague's name mentions them and sends a notification.\n\nVersion History is the safety net that gets examined. Because AutoSave writes continuously there is no unsaved copy to fall back on, so a wrong change noticed the next day is recovered by opening File, Info, Version History, viewing an earlier version and restoring it. Undo will not reach that far.\n\nControls worth knowing: sharing links can be set to view-only, given an expiry, or restricted to people inside the organisation, and a sheet or range can be protected so only some cells are editable. For official Mizoram government data, share within the department tenancy rather than by an open link, and check what a link grants before sending it.\n\nCo-authoring is limited on macro-enabled workbooks and on files using older features.",
+    "facts": [
+      "Co-authoring requires the workbook to be stored on OneDrive, SharePoint or Teams; a file on a local or network drive cannot be co-authored",
+      "Each co-author's cursor is shown in a different colour with their name, and edits appear to the others within moments",
+      "AutoSave saves changes continuously when the file is in a cloud location",
+      "Version History, under File and Info, allows an earlier version to be viewed and restored",
+      "Threaded comments can be replied to and resolved, and an at-mention notifies the named colleague",
+      "Sharing links can be restricted to view-only, to people inside the organisation, or given an expiry date"
+    ],
+    "traps": [
+      "E-mailing a copy of a workbook is not collaboration. It creates separate copies that then have to be merged by hand; co-authoring keeps one file",
+      "With AutoSave on there is no unsaved draft to discard. Reverting a bad change means Version History, not closing without saving",
+      "Undo is limited to the current session and to your own edits; it will not recover a change noticed a day later",
+      "Sharing a workbook by link is not the same as giving edit rights - permission on the link decides whether the recipient can change anything"
+    ],
+    "mnem": "",
+    "rel": [
+      "Workbook Management",
+      "AI-assisted Spreadsheet Analysis",
+      "Macros (Introduction)"
+    ]
+  },
+  {
+    "id": "c146",
+    "paper": "TECH1",
+    "unit": "IV",
+    "unitTitle": "Electronic Spreadsheet",
+    "sub": "AI-assisted Spreadsheet Analysis",
+    "def": "AI-assisted spreadsheet analysis is the use of a built-in assistant that takes an instruction in ordinary language and responds with an analysis of the data on the sheet - summarising it, highlighting trends and outliers, proposing charts and pivot tables, or writing the formula that would answer the question. Copilot in Excel is the current Microsoft implementation.",
+    "exp": "Four things such an assistant does. It summarises: asked what the expenditure data shows, it describes the totals, the largest and smallest contributors and any obvious trend. It suggests analysis: it proposes a pivot table or a chart and can insert it. It writes formulas: describe the calculation in words and it returns a working formula, with an explanation. And it highlights - flagging outliers, gaps and values that break the pattern.\n\nIt works best on clean, well-shaped data: a single header row of clear names, one record per row, consistent data types, no merged cells and no blank rows in the middle. Untidy input produces confidently wrong answers, because the assistant has misread which column means what.\n\nTwo rules apply in a government office and both are examinable.\n\nFirst, official data must not be pasted into a public, consumer AI service. Citizens' personal details, staff records and unpublished departmental figures are protected under service conduct rules and India's data protection law, and pasting them into a public chatbot is an unauthorised disclosure regardless of intent. Use only a tool approved by the department and operating inside its own tenancy, where the data does not leave the organisation.\n\nSecond, a generated formula or summary is a suggestion, not a verified result. AI systems produce plausible wrong output. Check every formula against a small case whose answer you already know before it goes into a report that will be signed.",
+    "facts": [
+      "An AI spreadsheet assistant accepts instructions in ordinary language and returns summaries, suggested charts and pivot tables, and drafted formulas",
+      "Copilot in Excel is Microsoft's implementation and works on data stored in the Microsoft 365 environment",
+      "It works reliably only on clean tabular data - one clear header row, one record per row, consistent types, no merged cells or blank rows",
+      "Output must be verified: AI-generated formulas and summaries can be confidently wrong",
+      "Official, personal or unpublished government data must not be entered into a public AI service; only a departmentally approved tool operating within the organisation may be used"
+    ],
+    "traps": [
+      "The assistant does not replace knowing the functions. It drafts a formula; the officer signing the report is still answerable for whether it is correct",
+      "Anonymising a file by deleting the name column is not enough - district, designation and date together can still identify an individual",
+      "A confident, fluent answer is not a checked answer. Fluency is not accuracy, and this is the distinction the question usually tests",
+      "Consent or departmental approval to use an AI tool is not the same as approval to upload the data into it; the data classification is a separate question from the tool"
+    ],
+    "mnem": "",
+    "rel": [
+      "Microsoft 365 Collaboration",
+      "Formulae and Functions",
+      "Pivot Tables"
+    ]
+  },
+  {
+    "id": "c147",
+    "paper": "TECH1",
+    "unit": "V",
+    "unitTitle": "Presentation Software",
+    "sub": "Presentation Design",
+    "def": "Presentation design is deciding what goes on a slide and how it is arranged, so that a room full of people can take it in while still listening to you. The governing rule is signal to noise: one idea per slide, few words, and every element on the slide earning its place.",
+    "exp": "The commonest failure is the slide written as a document. Paragraphs are pasted on, the speaker turns and reads them aloud, and the audience stops listening - people read faster than you speak, so they finish the slide and then wait. A slide carries the headline and the evidence; you supply the sentences. Detail that must be recorded belongs in the speaker notes or a handout, not on the projected slide.\n\nWorking rules. One idea per slide. Short phrases rather than full sentences. Type large enough to read from the back of the hall. Strong contrast between text and background. At most two typefaces, set once on the slide master. Leave white space; a crowded slide reads as noise.\n\nMechanics you are expected to know. PowerPoint slides default to landscape orientation, since they are meant for a wide screen; portrait must be chosen deliberately. Ctrl+M inserts a new slide. Slide Sorter view shows thumbnails of every slide on one screen, which is where you reorder and delete in bulk and where an overlong deck becomes obvious. Grouping several objects makes them behave as one, so moving, resizing or formatting acts on all of them and their relative positions are preserved. Holding Shift while dragging a corner sizing handle keeps the height-to-width ratio, so a photograph is not stretched out of shape.",
+    "facts": [
+      "The default slide orientation in PowerPoint is landscape; portrait has to be selected in slide setup",
+      "Ctrl+M inserts a new slide in the open presentation",
+      "Slide Sorter view (View, Slide Sorter) shows all slides as thumbnails on one screen for reordering and deleting",
+      "Grouping combines objects into one so that moving, resizing or formatting acts on all of them together and preserves their relative positions",
+      "Holding Shift while dragging a corner sizing handle resizes an object in proportion",
+      "Detail the audience must retain goes in the speaker notes or the handout, not on the projected slide"
+    ],
+    "traps": [
+      "Ctrl+M inserts a slide; Ctrl+N creates a whole new presentation file and Ctrl+S saves. They are not interchangeable",
+      "Slide Sorter shows all slides at once; Slide Show runs them full screen one at a time and Slide Master edits the design. Only Slide Sorter answers 'see all the slides on one screen'",
+      "Dragging a corner sizing handle on its own does not preserve the ratio - the Shift key is what constrains it",
+      "Grouping is for handling objects together, not for aligning them; alignment is a separate Arrange command"
+    ],
+    "mnem": "",
+    "rel": [
+      "Slide Master",
+      "Templates and Themes",
+      "Presentation Delivery"
+    ]
+  },
+  {
+    "id": "c148",
+    "paper": "TECH1",
+    "unit": "V",
+    "unitTitle": "Presentation Software",
+    "sub": "Templates and Themes",
+    "def": "A theme is a coordinated look - a colour set, a heading and body font pair, and shape and picture effects - that is applied to a presentation you already have. A template is a starting file that already contains layouts, a theme and often sample content; you create a new presentation from it. In the older PowerPoint wording still used by exam papers, the design template is what supplies ready-made font colours, background and graphics effects.",
+    "exp": "Themes. Applied from the Design tab, a theme changes the whole deck at once, and each theme offers variants that swap the colour scheme without changing the layout. Because charts, SmartArt and shapes take their colours from the theme colour slots rather than fixed colours, switching theme recolours them automatically. Fonts work the same way, through a heading font and a body font. A theme does not create a file.\n\nTemplates. A template is saved as a PowerPoint template file rather than a presentation. Opening it produces a new presentation based on it and leaves the template itself untouched, which is why a department keeps one official template carrying the emblem, department name, standard title slide and approved colours - every officer starts from the same file and the decks match. PowerPoint also ships built-in and online templates.\n\nHow they relate. Both are ultimately expressed through the slide master, which is where the background, placeholder positions and fonts actually live; a template is a file containing masters, and a theme is the look those masters carry. That is the distinction an examiner tests: a theme is a look, a template is a starting file, and the slide master is the underlying layout definition.",
+    "facts": [
+      "A theme is a set of colours, fonts and effects; a template is a file you start a new presentation from",
+      "Applying a theme changes an existing presentation; opening a template creates a new presentation and leaves the template unchanged",
+      "'Design template' is the older term for the ready-made colour scheme, fonts and background graphics applied to a presentation",
+      "Theme colours feed charts, SmartArt and shapes, so changing the theme recolours them without editing each object",
+      "A theme defines a heading font and a body font, applied through the slide master"
+    ],
+    "traps": [
+      "Theme versus template - a theme is applied to a deck you already have, a template is opened to make a new deck. A template contains a theme; a theme is not a template",
+      "Theme versus slide master - the theme is the look, the slide master is where that look is defined and edited. Answering 'master slide' to a question about ready-made colours and graphics is the standard distractor",
+      "Applying a new theme changes appearance only; it does not add, remove or rewrite your slide content"
+    ],
+    "mnem": "",
+    "rel": [
+      "Slide Master",
+      "Presentation Design"
+    ]
+  },
+  {
+    "id": "c149",
+    "paper": "TECH1",
+    "unit": "V",
+    "unitTitle": "Presentation Software",
+    "sub": "Slide Master",
+    "def": "The slide master is the top slide in a hidden hierarchy that stores the design of the presentation - background, theme colours and fonts, the position and size of every placeholder, bullet styles, and anything that must repeat on every slide such as a logo, footer, date or slide number. Change the master once and every slide built on it follows. It is opened from View, Slide Master.",
+    "exp": "The hierarchy. One slide master sits at the top; beneath it hang the layouts - Title Slide, Title and Content, Two Content, Comparison, Blank and the rest. The master holds what is common to all of them; each layout holds the arrangement for one kind of slide. Edit the master and the change flows down to every layout and every slide using it. Edit a single layout and only slides using that layout change. A presentation can hold more than one slide master, one for each design template in use - the slide master together with its matching title master for a given template is what older papers call a slide-title master pair.\n\nThis is the highest-value habit in the unit. To put a background image, a departmental emblem or a footer on all slides, put it on the master once. Pasting it onto each slide by hand falls apart: the next new slide does not have it, one copy sits three pixels off, and correcting it means opening forty slides.\n\nOther masters. The handout master controls the layout of printed audience handouts - how many slides to a page, plus header, footer, date and page number. The notes master controls the printed notes page. Neither of them formats the slides themselves.",
+    "facts": [
+      "The slide master is opened from View, Slide Master; it defines background, placeholder positions, fonts, bullet styles and repeating items like logos, footers and slide numbers",
+      "Editing the slide master propagates the change to every slide that follows it; editing one layout affects only the slides using that layout",
+      "Adding a background image to the slide master is the correct way to give all slides a uniform appearance",
+      "The handout master defines the layout of the printed audience handout - slides per page, headers, footers, date and page numbers",
+      "A slide-title master pair is a slide master with its matching title master belonging to one design template, so a deck using several templates has several pairs",
+      "A single presentation can contain more than one slide master"
+    ],
+    "traps": [
+      "Slide master versus theme versus template - the master is the underlying layout definition stored in the file, the theme is the look it carries, and the template is a separate starting file",
+      "The handout master governs printed handouts only. It does not control slide formatting, so 'all of the above' is wrong on that question",
+      "Pasting a logo onto every slide is not the same as putting it on the master - hand-placed copies are not maintained and are missing from any slide added later",
+      "Changing one ordinary slide never changes the master; the influence runs downward only, from master to layout to slide"
+    ],
+    "mnem": "",
+    "rel": [
+      "Templates and Themes",
+      "Presentation Design"
+    ]
+  },
+  {
+    "id": "c150",
+    "paper": "TECH1",
+    "unit": "V",
+    "unitTitle": "Presentation Software",
+    "sub": "SmartArt",
+    "def": "SmartArt is the built-in library of ready-made diagrams in PowerPoint - lists, process chains, cycles, hierarchies, relationship, matrix, pyramid and picture layouts. You type into a text pane and the shapes size themselves, space themselves and connect themselves, so a diagram is produced without drawing boxes and arrows by hand.",
+    "exp": "Choosing the category is the examinable part, because each one asserts something different about the items. List groups items that have no order. Process shows steps running in one direction from a beginning to an end - the five stages a file passes through from receipt to disposal is a Process. Cycle shows stages that return to the start and repeat with no end. Hierarchy shows reporting or containment, which is how an organisation chart is drawn. Relationship shows how items connect or overlap, including Venn layouts. Matrix splits a whole into four quadrants. Pyramid shows layers or proportional levels. Picture layouts build the diagram around images.\n\nConverting bullets. Select a text placeholder, right-click and choose Convert to SmartArt. The existing bullet text is kept and each point becomes the label inside a shape of the chosen diagram; nothing is deleted and the conversion can be reversed back to text. Indent level in the text pane maps to level in the diagram, so demoting a line turns it into a sub-shape under the one above.\n\nAfterwards you can switch to a different layout without retyping, add or remove shapes, and change colours - which follow the theme colours, so the diagram stays consistent with the rest of the deck. Use SmartArt where the relationship between points is the message; a wall of six bullets rarely is.",
+    "facts": [
+      "Process shows steps running one way from start to finish; Cycle shows stages that repeat with no end; Hierarchy is the organisation-chart layout; Relationship shows how items connect",
+      "Convert to SmartArt keeps the existing bullet text and places each point inside a shape of the chosen diagram",
+      "SmartArt content is typed and edited in a text pane, where indent level sets the shape's level in the diagram",
+      "Switching to a different SmartArt layout keeps the text - it is not retyped",
+      "SmartArt colours follow the presentation's theme colours"
+    ],
+    "traps": [
+      "Process versus Cycle - Cycle is for stages that come back round and repeat. A start-to-finish office workflow such as receipt to disposal is a Process, and Cycle is the planted distractor",
+      "Converting bullets to SmartArt does not delete the bullets or insert an empty diagram for you to fill in; the text carries over as the shape labels",
+      "SmartArt is a diagram of text and structure, not a plot of numbers. Values and quantities belong in a chart",
+      "Hierarchy shows reporting lines, not sequence; a five-step procedure drawn as a Hierarchy claims something false about the steps"
+    ],
+    "mnem": "",
+    "rel": [
+      "Charts",
+      "Presentation Design"
+    ]
+  },
+  {
+    "id": "c151",
+    "paper": "TECH1",
+    "unit": "V",
+    "unitTitle": "Presentation Software",
+    "sub": "Charts",
+    "def": "A chart on a slide plots numbers as a picture. Insert, Chart opens a small worksheet that holds the chart's data inside the presentation. The examinable skill is not formatting but choosing the chart type that fits the question the data answers, since the type itself makes a claim about the numbers.",
+    "exp": "Matching type to data. A pie chart shows parts of one whole, so a department's annual budget split among its four heads is a pie - each head is its share of the total. It works only when the parts add up to the whole and there are few of them. A column or bar chart compares quantities across categories - spending by district, applications by office. A line chart shows change over time, read left to right; an area chart is the same idea with the space beneath filled. A scatter or XY chart shows the relationship between two numeric variables, not a sequence of categories. A stacked column shows composition and total together.\n\nGetting the data in. Charts can be built in PowerPoint, or copied from an Excel workbook. The paste options matter. Embedding stores a copy of the workbook data inside the presentation, so the deck travels complete. Linking keeps a connection to the source workbook, so when a figure in that workbook is corrected the chart on the slide can be refreshed to show it - but the link fails if the workbook is moved, renamed or not carried along. Pasting as a picture gives a fixed image that can never update.\n\nReadability. Label the axes, avoid three-dimensional effects that distort the comparison, and give each chart one message.",
+    "facts": [
+      "Pie chart - parts of a single whole; line chart - change over time; bar or column chart - comparison across categories; scatter (XY) - relationship between two numeric variables",
+      "A chart pasted with the linking option can be refreshed to show corrected figures from the source workbook",
+      "An embedded chart carries a copy of its data inside the presentation, so it travels with the file",
+      "A chart pasted as a picture is a fixed image and cannot be updated or edited",
+      "Insert, Chart in PowerPoint opens a small worksheet in which the chart's data is entered"
+    ],
+    "traps": [
+      "Pie versus line - a pie divides one total at one moment, a line tracks movement across time. A budget split is a pie; a five-year trend is not",
+      "A pasted chart is not automatically a picture. Whether it can update depends on the paste option chosen - linked updates, embedded holds its own copy, picture is frozen",
+      "A linked chart breaks the same way linked media does: move or rename the source workbook and the slide can no longer refresh from it",
+      "A pie with a dozen slices, or one whose values do not sum to a whole, is the wrong chart however neatly it is formatted"
+    ],
+    "mnem": "",
+    "rel": [
+      "SmartArt",
+      "Multimedia"
+    ]
+  },
+  {
+    "id": "c152",
+    "paper": "TECH1",
+    "unit": "V",
+    "unitTitle": "Presentation Software",
+    "sub": "Multimedia",
+    "def": "Multimedia on a slide means inserted audio and video. The decisive question is how the media is stored: an embedded file is copied inside the presentation file itself, while a linked file is only pointed to and continues to live separately on disk.",
+    "exp": "Embed or link. Embedding makes the deck self-contained - it plays on any machine you copy it to, at the cost of a larger file. Linking stores only a path to the media, so the presentation stays small but depends on that file being where the path says. This produces the classic failure: the video plays perfectly on the computer where the slides were made, then the presentation file alone is copied to another laptop and the video will not play, because the media never travelled with it. Renaming or moving the media on the original machine breaks it the same way. The remedy is to embed it, or to keep the media file in the presentation's own folder and copy the whole folder.\n\nPlayback settings. Audio and video can start On Click, Automatically, or in click sequence. Play Across Slides lets a single audio clip keep playing as the show moves on to the following slides, which is how background music is set up - it does not copy the file onto each slide. Loop until Stopped repeats the clip, Hide During Show conceals the speaker icon, Rewind after Playing returns to the start, and Trim cuts unwanted material off the beginning and end without editing the original file.\n\nAn online video inserted by address is not stored in the deck at all and needs a working internet connection in the hall at the moment you present.",
+    "facts": [
+      "An embedded audio or video file is stored inside the presentation; a linked file is stored only as a path to a file elsewhere",
+      "'Play across slides' lets one audio clip continue playing as the show advances to later slides",
+      "Media can be set to start On Click or Automatically, and audio can be looped until stopped and hidden during the show",
+      "Trim shortens the clip as used in the presentation without altering the original media file",
+      "An online video inserted by its web address requires an internet connection at the time of delivery"
+    ],
+    "traps": [
+      "A video that plays on the authoring machine but not elsewhere is almost always linked, not embedded - the file was left behind. This is the standard scenario question",
+      "'Play across slides' does not put a copy of the audio on every slide; there is still one clip, allowed to continue",
+      "Embedding increases the presentation's file size; it does not improve or change the quality of the clip",
+      "An inserted online video is not an embedded video - no connection in the hall means no playback"
+    ],
+    "mnem": "",
+    "rel": [
+      "Animation",
+      "Recording Presentations"
+    ]
+  },
+  {
+    "id": "c153",
+    "paper": "TECH1",
+    "unit": "V",
+    "unitTitle": "Presentation Software",
+    "sub": "Animation",
+    "def": "An animation is a motion effect applied to an object within a single slide - a title, a bullet list, a picture, a chart - governing how that object appears, is emphasised, moves or leaves while the slide stays on screen. Movement inside a slide is animation; movement from one slide to the next is a transition.",
+    "exp": "Four kinds. An Entrance effect brings an object onto the slide (Appear, Fade, Fly In). An Emphasis effect draws attention to an object already visible (Pulse, Spin, a colour change). An Exit effect takes it away. A Motion Path sends it travelling along a line you draw. Older PowerPoint calls a ready-made set of such effects an Animation Scheme, and the per-object pane a custom animation; papers drawn from those versions still use both terms.\n\nControl. The Animation Pane lists every effect in the order it will play, and effects are reordered there. Each has a Start setting - On Click, With Previous (simultaneously with the effect before it) or After Previous (automatically once that effect finishes) - plus a Duration and a Delay. Effect Options set direction and, for a text box, whether paragraphs animate one at a time or all at once. The Animation Painter copies a set of effects from one object to another.\n\nA trigger is an object on the slide that starts an animation when it is clicked, letting an effect run out of the normal sequence - the way a question slide reveals its answer only when you click the answer box.\n\nUse animation for sequencing, so a point appears at the moment you speak it. Decorative motion on every bullet slows the talk and irritates an audience.",
+    "facts": [
+      "The four animation types are Entrance, Emphasis, Exit and Motion Path",
+      "Animation applies motion effects to the objects on a slide; the older feature name for ready-made sets of these is Animation Scheme",
+      "A trigger is an object on the slide that performs an action, starting an animation, when it is clicked",
+      "Start options are On Click, With Previous and After Previous; each effect also has a Duration and a Delay",
+      "The Animation Pane shows and reorders the play sequence of the effects on a slide"
+    ],
+    "traps": [
+      "Animation acts on objects within one slide; a slide transition acts between slides. A question about motion effects on 'different objects of a slide' is animation, not transition",
+      "A trigger is an object that starts an effect when clicked. An action button that simply advances to the next slide is not a trigger",
+      "With Previous starts at the same time as the preceding effect; After Previous waits for it to finish. Choosing the wrong one is why an animation appears to be missing",
+      "Slide Design and Slide Transition are not animation features, though both appear as distractors"
+    ],
+    "mnem": "",
+    "rel": [
+      "Morph Transition",
+      "Presentation Design"
+    ]
+  },
+  {
+    "id": "c154",
+    "paper": "TECH1",
+    "unit": "V",
+    "unitTitle": "Presentation Software",
+    "sub": "Morph Transition",
+    "def": "A transition is the special effect that plays as one slide gives way to the next. Morph is one particular transition: it compares two consecutive slides and interpolates each object that appears on both, gliding it from its old position, size, colour or rotation to the new one, so the audience sees smooth movement rather than a cut.",
+    "exp": "Transitions in general. They are applied from the Transitions tab to the incoming slide, and include Fade, Push, Wipe, Wheel, Dissolve and many others. Each has a Duration, optional sound, and Effect Options for direction. Apply To All puts the same transition on every slide. Advance Slide sets whether the show moves on when you click or automatically after a set time.\n\nHow Morph is used. Duplicate a slide, then on the copy move, resize, recolour or rotate the objects, and apply Morph to that second slide. PowerPoint matches the objects between the two slides - a duplicated object, or one carrying the same name - and animates each from where it was to where it now is. Text can be set to morph by word or by character. If no objects match, Morph has nothing to interpolate and falls back to a plain fade. It is the neat way to zoom into part of a diagram, reorder items, or walk through a process without drawing motion paths.\n\nThe examinable line is within versus between. An animation moves things inside one slide. A transition moves you from one slide to the next. Morph is confusing precisely because it looks like animation, yet it is a transition, and it is applied to the second of the two slides.",
+    "facts": [
+      "The special effects used to introduce one slide after another are called transitions; they are applied from the Transitions tab",
+      "Morph interpolates objects that exist on both of two consecutive slides, animating position, size, colour and rotation between them",
+      "Morph is applied to the second slide of the pair, after duplicating the first and rearranging it",
+      "Apply To All puts one transition on every slide; Advance Slide sets whether the show moves on by mouse click or automatically after a set time",
+      "If Morph finds no matching objects between the two slides it behaves like a fade"
+    ],
+    "traps": [
+      "Transition versus animation - transitions run between slides, animations run within a slide. 'Special effects used to introduce slides' means transitions, and 'custom animations' is the planted distractor",
+      "Morph applied to the first slide of the pair does nothing useful; the effect belongs on the slide you are moving to",
+      "Morph does not invent movement - it needs the same objects present on both slides, usually by duplicating the slide first",
+      "A transition is a property of a slide, not of an object; you cannot apply one to a picture"
+    ],
+    "mnem": "",
+    "rel": [
+      "Animation",
+      "Presentation Delivery"
+    ]
+  },
+  {
+    "id": "c155",
+    "paper": "TECH1",
+    "unit": "V",
+    "unitTitle": "Presentation Software",
+    "sub": "Presenter View",
+    "def": "Presenter View is the two-screen delivery mode. With the laptop connected to a projector or second display, the audience screen carries only the current slide, filling the screen, while the presenter's own laptop screen shows a private panel - the current slide, a preview of what comes next, the speaker notes, the time elapsed and a timer, and controls for running the show.",
+    "exp": "What is on the presenter's screen. The current slide; a preview of the next slide or next animation, so you know what you are about to say; the speaker notes for the current slide in a pane whose text size you can enlarge; a clock and an elapsed-time timer that can be paused and reset; and delivery tools - See All Slides to jump straight to a slide by thumbnail, zoom into part of a slide, black or unblack the screen, and a pen, highlighter or laser pointer to mark up the slide live. None of this reaches the projector.\n\nSetting it up. Connect the second display and set Windows to Extend rather than Duplicate, because duplicated screens show the same image and there is then no separate presenter screen to use. Presenter View is switched on from the Slide Show tab; if the panels land on the wrong screens there is a command to swap presenter view and the slide show. It can also be previewed on a single machine while preparing.\n\nWhy it earns its place. It lets you keep detail off the slide and in the notes, which is what makes one idea per slide practical, and the elapsed timer keeps you inside your allotted minutes.",
+    "facts": [
+      "The audience sees only the current slide, full screen; the presenter's screen additionally shows speaker notes, the next slide, elapsed time and a timer",
+      "Presenter View requires the displays to be set to Extend, not Duplicate",
+      "It is enabled from the Slide Show tab, and the two screens can be swapped if they appear the wrong way round",
+      "See All Slides shows thumbnails on the presenter's screen for jumping to any slide without the audience seeing the grid",
+      "Pen, highlighter, laser pointer, zoom and blanking the screen are available from Presenter View during delivery"
+    ],
+    "traps": [
+      "Speaker notes, the timer and the next-slide preview are presenter-only. Animations, the theme and the pictures on the slide are part of the slide itself and the audience does see them",
+      "Duplicated displays cannot run Presenter View usefully - both screens show the same thing, so the notes would go up on the projector",
+      "Presenter View is a delivery mode, not a view for editing. Slide Sorter and the Notes Page are separate things",
+      "The audience screen shows the single current slide, not a thumbnail grid and not the slide plus notes"
+    ],
+    "mnem": "",
+    "rel": [
+      "Presentation Delivery",
+      "Recording Presentations"
+    ]
+  },
+  {
+    "id": "c156",
+    "paper": "TECH1",
+    "unit": "V",
+    "unitTitle": "Presentation Software",
+    "sub": "Recording Presentations",
+    "def": "Recording a presentation captures the show as you deliver it - your spoken narration slide by slide, how long each slide stayed on screen, and any ink you draw with the pen or laser pointer. Those recorded timings and that narration are stored with the slides, so the deck can afterwards play itself without a presenter.",
+    "exp": "How it works. Recording starts from a chosen slide or from the beginning, the show runs full screen, and the narration is stored as an audio clip attached to each slide with that slide's display time saved alongside it. Because it is per slide, a slide you fluff can be re-recorded on its own without redoing the whole deck; recorded narration and timings can also be cleared. Webcam video of the speaker can be captured too where a camera is present.\n\nWhat it is for. An unattended show at an exhibition stall, a counter or a departmental open day needs exactly two things: recorded narration so it speaks, and recorded slide timings so it advances by itself. Set up that way, the deck runs the whole loop with nobody operating it. The related manual tool is Rehearse Timings, which records how long you spend on each slide without capturing your voice.\n\nExporting. The recorded show can be exported to a video file. The result is a single playable video containing the slides advancing on their recorded timings together with the recorded narration - it is a recording, not a copy of the slides, so a viewer can watch it but cannot edit it. That is what you send to someone who does not have PowerPoint or who missed the session.",
+    "facts": [
+      "Recording a presentation captures narration slide by slide together with the time each slide was displayed, and can also capture pen and laser-pointer ink",
+      "Recorded narration plus recorded slide timings is what lets a presentation run unattended, speaking and advancing by itself",
+      "Narration can be re-recorded for an individual slide, and existing narration or timings can be cleared",
+      "Exporting a recorded presentation to video produces one file containing the slides advancing on their recorded timings along with the narration",
+      "Rehearse Timings records how long is spent on each slide but does not record the voice"
+    ],
+    "traps": [
+      "An exported video carries both picture and sound - it is neither a silent slideshow nor an audio-only track, and it is not an editable copy of the slides",
+      "Presenter View with a second monitor helps a live speaker; it does nothing for an unattended kiosk show, which needs narration and timings",
+      "Timings without narration gives a silent self-advancing deck; narration without timings still waits for someone to click. Both are required",
+      "Recording stores narration per slide, not as one long track over the deck"
+    ],
+    "mnem": "",
+    "rel": [
+      "Presentation Delivery",
+      "Multimedia",
+      "Presenter View"
+    ]
+  },
+  {
+    "id": "c157",
+    "paper": "TECH1",
+    "unit": "V",
+    "unitTitle": "Presentation Software",
+    "sub": "Presentation Delivery",
+    "def": "Presentation delivery is the act of giving the talk - running the slide show, controlling it from the keyboard, keeping to the allotted time, and speaking to the audience rather than at the screen. The deck supports the talk; it is not the talk.",
+    "exp": "Preparing. Rehearse Timings is the tool that records the amount of time spent on each slide: it runs the show while timing you and then offers to save those timings, which is how you find out that your twenty-minute talk actually takes thirty-one. Rehearsing also tells you which slides you cannot explain, and those are usually the slides that should not be there.\n\nRunning it. F5 starts the show from the first slide and Shift+F5 from the current one. Ctrl+Home jumps to the very first slide and Ctrl+End to the last. Page Down, Enter, the space bar or a right arrow advance one slide; Page Up steps back one. Typing a slide number and pressing Enter jumps straight to it. B blanks the screen to black and W to white, which is how you pull attention back to yourself during a discussion. Esc ends the show. Check the projector, the resolution and any sound before the room fills.\n\nSpeaking. Do not read the slides aloud - the audience has already read them and you sound like a caption. Face the room, not the screen. Use the slide as a cue and give the reasoning in your own words. Pause after a point instead of filling the gap. Leave the detail in the handout and take questions at a point you have decided in advance.",
+    "facts": [
+      "Rehearse Timings runs the show while recording the time spent on each slide, and offers to save those timings for automatic playback",
+      "Ctrl+Home moves to the first slide of the presentation and Ctrl+End to the last",
+      "F5 starts the slide show from the beginning; Shift+F5 starts it from the current slide; Esc ends it",
+      "During a show, B blanks the screen to black and W to white",
+      "Typing a slide number and pressing Enter during a show jumps directly to that slide"
+    ],
+    "traps": [
+      "Page Up steps back only one slide at a time; it is Ctrl+Home that goes to the first slide, and 'next slide button' does the opposite",
+      "The tool that records time per slide is Rehearse Timings - names like 'slide timer', 'slide time setting' and 'timing recorder' are invented distractors",
+      "Reading the slides aloud is not delivery. The audience finishes reading before you finish speaking, and then stops listening",
+      "Rehearse Timings only measures and stores times; recording the spoken commentary is a separate feature"
+    ],
+    "mnem": "",
+    "rel": [
+      "Presenter View",
+      "Recording Presentations",
+      "Presentation Design"
+    ]
+  },
+  {
+    "id": "c158",
+    "paper": "TECH1",
+    "unit": "V",
+    "unitTitle": "Presentation Software",
+    "sub": "Collaboration Features",
+    "def": "Collaboration features let several people work on one presentation without emailing copies around. The file is kept in a shared cloud location - OneDrive or a SharePoint or Teams site - and the tools built on that are co-authoring, comments, version history and controlled sharing links.",
+    "exp": "Co-authoring is two or more people editing the same cloud-stored file at the same time, each seeing the others' changes appear and a marker showing which slide each person is on. It removes the worst office pattern in presentation work: three versions named final, final2 and final_revised, with nobody sure which one carries the Director's correction.\n\nComments attach a remark to a slide or an object without altering the content, and support replies and resolution, so a review conversation stays with the deck instead of being scattered across email. Comments do not appear when the show is delivered.\n\nVersion history keeps earlier saved states of the file, so a version can be opened and restored after wording was cut or a slide was overwritten. It answers 'who removed that paragraph and can we get it back', not 'how many times has this been shown'.\n\nSharing is controlled by link. A link can grant editing or view-only access, be limited to named people or to the organisation, and be revoked later. For government work, treat that as the security control it is: a presentation carrying draft policy or personal data must not be shared by an open link that anyone with the address can open, and access should be reviewed once the work is done.",
+    "facts": [
+      "Co-authoring is several people editing one cloud-stored presentation at the same time, with each person's edits visible to the others",
+      "Version history stores earlier saved versions so an earlier one can be opened and restored",
+      "Comments attach review remarks to a slide or object, support replies, and are not shown to the audience during the slide show",
+      "Co-authoring requires the file to be stored in a shared cloud location such as OneDrive, SharePoint or Teams, not on a local drive",
+      "A sharing link can grant edit or view-only access, be restricted to named people, and be revoked"
+    ],
+    "traps": [
+      "Co-authoring versus version history - co-authoring is simultaneous editing now, version history is recovering an earlier saved state. Both are collaboration features and are routinely swapped in the options",
+      "Version history does not count how often a deck was presented, and it does not merely log who opened the file; it restores content",
+      "Emailing a copy of the file is not collaboration - each recipient now edits a separate deck and the versions have to be merged by hand",
+      "A view-only link still lets the recipient read everything on the slides; restricting editing is not the same as restricting access"
+    ],
+    "mnem": "",
+    "rel": [
+      "Accessibility Features",
+      "Presentation Design"
+    ]
+  },
+  {
+    "id": "c159",
+    "paper": "TECH1",
+    "unit": "V",
+    "unitTitle": "Presentation Software",
+    "sub": "Accessibility Features",
+    "def": "Accessibility features make a presentation usable by people with visual, hearing or motor impairments - chiefly by someone using a screen reader. The main ones are alternative text on images, a correct reading order for the objects on each slide, a real slide title on every slide, sufficient colour contrast, readable type, and captions for embedded audio and video.",
+    "exp": "Alt text. A short written description attached to a picture, chart or SmartArt diagram. Assistive software reads it out in place of the image, so a listener who cannot see the photograph still knows what it shows. Describe what the image conveys, not the file name. Purely decorative shapes can be marked as decorative so the reader skips them.\n\nReading order. A screen reader works through a slide object by object in the order the objects are stored, not in the order they look arranged on screen. If a text box added last is announced before the title, the listener hears the content with no context. The Reading Order or Selection pane is where that sequence is checked and fixed. It is a different thing from the animation order and from the order slides advance.\n\nSlide titles. Every slide should have a meaningful title in the title placeholder, because that is what a screen reader announces on arrival and what navigation by slide relies on. A title hidden off the canvas still works for the reader.\n\nContrast and media. Keep strong contrast between text and background and avoid colour as the only way of distinguishing anything, since colour-blind viewers lose it. Provide captions or a transcript for embedded audio and video. The built-in Accessibility Checker lists these problems with the slide numbers.",
+    "facts": [
+      "Alt text is a short description of an image that assistive software reads out in place of the picture",
+      "A screen reader announces the objects on a slide in their stored reading order, so a wrong order makes the slide confusing to follow",
+      "Every slide should carry a meaningful title in the title placeholder; screen-reader navigation relies on it",
+      "Colour must not be the only means of conveying information, and text needs sufficient contrast against its background",
+      "Embedded audio and video should carry captions or a transcript for viewers who cannot hear them",
+      "The Accessibility Checker reports missing alt text, unnamed slides and reading-order problems"
+    ],
+    "traps": [
+      "Alt text exists for assistive software. It does not compress the image, translate it, or keep it off the projected slide",
+      "Reading order is the order a screen reader announces objects. It is not the animation sequence, not the handout print order, and not the order slides advance",
+      "Arranging objects neatly on screen does not fix reading order - the stored order is separate from the visual layout and has to be checked",
+      "Marking a meaningful image as decorative silently hides it from the listener; only genuine ornament should be marked that way"
+    ],
+    "mnem": "",
+    "rel": [
+      "Presentation Design",
+      "Multimedia",
+      "Collaboration Features"
+    ]
+  },
+  {
+    "id": "c160",
+    "paper": "TECH1",
+    "unit": "V",
+    "unitTitle": "Presentation Software",
+    "sub": "AI-assisted Presentation Design (Microsoft Copilot - Concept)",
+    "def": "AI-assisted presentation design means using a generative AI assistant, such as Microsoft Copilot inside Office, to draft and improve a deck: turning a topic or an outline into a first set of slides, suggesting layouts and images, condensing wordy slides, and summarising a long deck. The syllabus marks this as a concept - what such tools do and how they should be governed, not which button to press.",
+    "exp": "Generating a deck from an outline. You supply a short description or a list of topics, or point the assistant at an existing document, and it produces a draft set of slides - headings, bullet text and suggested layouts - which you then edit. That is the whole claim: a draft that saves the blank-page stage. It is not a finished presentation, and turning slides back into an outline is a different operation.\n\nDesign assistance. These tools also propose layouts and formatting for content you have already typed, tidy a text-heavy slide, suggest images, and produce speaker notes or a summary of a long deck.\n\nGovernance, which is the examinable part for a government post. Anything typed into a public AI service leaves the department's control, so confidential files, internal notes and personal data such as lists of beneficiaries must not be pasted in. Use the outline and generic phrasing instead, and keep official records inside sanctioned systems. Generated content is a draft: figures, scheme names, dates and legal wording have to be verified against the source before the slide goes out, because a fluent wrong number is still a wrong number, and the officer who presents it owns it. Follow whatever departmental or state IT policy applies to AI tools.",
+    "facts": [
+      "Generating a deck from an outline means the tool drafts slides, headings and suggested layouts from the topics the user supplies",
+      "AI assistance in presentation software also covers layout and design suggestions, rewriting wordy slides, drafting speaker notes and summarising a deck",
+      "Confidential records and personal data must not be entered into a public AI service",
+      "AI-generated slide content is a draft and must be verified for accuracy before it is used officially",
+      "Responsibility for the content of a presentation stays with the officer presenting it, not the tool that drafted it"
+    ],
+    "traps": [
+      "Generating a deck from an outline drafts slides from topics. It is not printing the outline as speaker notes, not converting finished slides back to an outline, and not a spelling and grammar check",
+      "A public AI service is not private by default. Uploading a note marked confidential 'because the service is private' is the wrong answer in every form it is asked",
+      "Fluent, well-formatted output is not verified output. Treating generated slides as final because they read well is the trap the scenario questions are built on",
+      "Design suggestion is a different capability from content generation - one arranges what you wrote, the other writes a draft for you"
+    ],
+    "mnem": "",
+    "rel": [
+      "Presentation Design",
+      "Templates and Themes",
+      "Collaboration Features"
+    ]
+  },
+  {
+    "id": "c161",
     "paper": "TECH2",
     "unit": "I",
     "unitTitle": "Computer Networking",
@@ -1748,7 +4604,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c62",
+    "id": "c162",
     "paper": "TECH2",
     "unit": "I",
     "unitTitle": "Computer Networking",
@@ -1777,7 +4633,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c63",
+    "id": "c163",
     "paper": "TECH2",
     "unit": "I",
     "unitTitle": "Computer Networking",
@@ -1806,7 +4662,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c64",
+    "id": "c164",
     "paper": "TECH2",
     "unit": "I",
     "unitTitle": "Computer Networking",
@@ -1835,7 +4691,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c65",
+    "id": "c165",
     "paper": "TECH2",
     "unit": "I",
     "unitTitle": "Computer Networking",
@@ -1864,7 +4720,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c66",
+    "id": "c166",
     "paper": "TECH2",
     "unit": "I",
     "unitTitle": "Computer Networking",
@@ -1893,7 +4749,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c67",
+    "id": "c167",
     "paper": "TECH2",
     "unit": "I",
     "unitTitle": "Computer Networking",
@@ -1922,7 +4778,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c68",
+    "id": "c168",
     "paper": "TECH2",
     "unit": "I",
     "unitTitle": "Computer Networking",
@@ -1951,7 +4807,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c69",
+    "id": "c169",
     "paper": "TECH2",
     "unit": "I",
     "unitTitle": "Computer Networking",
@@ -1980,7 +4836,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c70",
+    "id": "c170",
     "paper": "TECH2",
     "unit": "I",
     "unitTitle": "Computer Networking",
@@ -2009,7 +4865,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c71",
+    "id": "c171",
     "paper": "TECH2",
     "unit": "I",
     "unitTitle": "Computer Networking",
@@ -2037,7 +4893,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c72",
+    "id": "c172",
     "paper": "TECH2",
     "unit": "I",
     "unitTitle": "Computer Networking",
@@ -2066,7 +4922,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c73",
+    "id": "c173",
     "paper": "TECH2",
     "unit": "I",
     "unitTitle": "Computer Networking",
@@ -2095,7 +4951,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c74",
+    "id": "c174",
     "paper": "TECH2",
     "unit": "I",
     "unitTitle": "Computer Networking",
@@ -2124,7 +4980,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c75",
+    "id": "c175",
     "paper": "TECH2",
     "unit": "I",
     "unitTitle": "Computer Networking",
@@ -2153,7 +5009,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c76",
+    "id": "c176",
     "paper": "TECH2",
     "unit": "I",
     "unitTitle": "Computer Networking",
@@ -2181,7 +5037,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c77",
+    "id": "c177",
     "paper": "TECH2",
     "unit": "I",
     "unitTitle": "Computer Networking",
@@ -2210,7 +5066,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c78",
+    "id": "c178",
     "paper": "TECH2",
     "unit": "I",
     "unitTitle": "Computer Networking",
@@ -2239,7 +5095,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c79",
+    "id": "c179",
     "paper": "TECH2",
     "unit": "I",
     "unitTitle": "Computer Networking",
@@ -2267,7 +5123,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c80",
+    "id": "c180",
     "paper": "TECH2",
     "unit": "I",
     "unitTitle": "Computer Networking",
@@ -2295,7 +5151,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c81",
+    "id": "c181",
     "paper": "TECH2",
     "unit": "I",
     "unitTitle": "Computer Networking",
@@ -2323,7 +5179,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c82",
+    "id": "c182",
     "paper": "TECH2",
     "unit": "I",
     "unitTitle": "Computer Networking",
@@ -2351,7 +5207,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c83",
+    "id": "c183",
     "paper": "TECH2",
     "unit": "I",
     "unitTitle": "Computer Networking",
@@ -2380,7 +5236,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c84",
+    "id": "c184",
     "paper": "TECH2",
     "unit": "I",
     "unitTitle": "Computer Networking",
@@ -2408,7 +5264,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c85",
+    "id": "c185",
     "paper": "TECH2",
     "unit": "I",
     "unitTitle": "Computer Networking",
@@ -2436,7 +5292,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c86",
+    "id": "c186",
     "paper": "TECH2",
     "unit": "I",
     "unitTitle": "Computer Networking",
@@ -2465,7 +5321,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c87",
+    "id": "c187",
     "paper": "TECH2",
     "unit": "I",
     "unitTitle": "Computer Networking",
@@ -2494,7 +5350,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c88",
+    "id": "c188",
     "paper": "TECH2",
     "unit": "I",
     "unitTitle": "Computer Networking",
@@ -2523,7 +5379,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c89",
+    "id": "c189",
     "paper": "TECH2",
     "unit": "I",
     "unitTitle": "Computer Networking",
@@ -2551,7 +5407,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c90",
+    "id": "c190",
     "paper": "TECH2",
     "unit": "I",
     "unitTitle": "Computer Networking",
@@ -2579,7 +5435,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c91",
+    "id": "c191",
     "paper": "TECH2",
     "unit": "I",
     "unitTitle": "Computer Networking",
@@ -2607,7 +5463,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c92",
+    "id": "c192",
     "paper": "TECH2",
     "unit": "I",
     "unitTitle": "Computer Networking",
@@ -2636,7 +5492,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c93",
+    "id": "c193",
     "paper": "TECH2",
     "unit": "II",
     "unitTitle": "Database Management System",
@@ -2664,7 +5520,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c94",
+    "id": "c194",
     "paper": "TECH2",
     "unit": "II",
     "unitTitle": "Database Management System",
@@ -2693,7 +5549,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c95",
+    "id": "c195",
     "paper": "TECH2",
     "unit": "II",
     "unitTitle": "Database Management System",
@@ -2722,7 +5578,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c96",
+    "id": "c196",
     "paper": "TECH2",
     "unit": "II",
     "unitTitle": "Database Management System",
@@ -2751,7 +5607,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c97",
+    "id": "c197",
     "paper": "TECH2",
     "unit": "II",
     "unitTitle": "Database Management System",
@@ -2780,7 +5636,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c98",
+    "id": "c198",
     "paper": "TECH2",
     "unit": "II",
     "unitTitle": "Database Management System",
@@ -2809,7 +5665,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c99",
+    "id": "c199",
     "paper": "TECH2",
     "unit": "II",
     "unitTitle": "Database Management System",
@@ -2838,7 +5694,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c100",
+    "id": "c200",
     "paper": "TECH2",
     "unit": "II",
     "unitTitle": "Database Management System",
@@ -2866,7 +5722,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c101",
+    "id": "c201",
     "paper": "TECH2",
     "unit": "II",
     "unitTitle": "Database Management System",
@@ -2895,7 +5751,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c102",
+    "id": "c202",
     "paper": "TECH2",
     "unit": "II",
     "unitTitle": "Database Management System",
@@ -2923,7 +5779,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c103",
+    "id": "c203",
     "paper": "TECH2",
     "unit": "II",
     "unitTitle": "Database Management System",
@@ -2951,7 +5807,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c104",
+    "id": "c204",
     "paper": "TECH2",
     "unit": "II",
     "unitTitle": "Database Management System",
@@ -2978,7 +5834,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c105",
+    "id": "c205",
     "paper": "TECH2",
     "unit": "II",
     "unitTitle": "Database Management System",
@@ -3005,7 +5861,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c106",
+    "id": "c206",
     "paper": "TECH2",
     "unit": "II",
     "unitTitle": "Database Management System",
@@ -3033,7 +5889,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c107",
+    "id": "c207",
     "paper": "TECH2",
     "unit": "II",
     "unitTitle": "Database Management System",
@@ -3061,7 +5917,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c108",
+    "id": "c208",
     "paper": "TECH2",
     "unit": "II",
     "unitTitle": "Database Management System",
@@ -3088,7 +5944,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c109",
+    "id": "c209",
     "paper": "TECH2",
     "unit": "II",
     "unitTitle": "Database Management System",
@@ -3115,7 +5971,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c110",
+    "id": "c210",
     "paper": "TECH2",
     "unit": "II",
     "unitTitle": "Database Management System",
@@ -3143,7 +5999,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c111",
+    "id": "c211",
     "paper": "TECH2",
     "unit": "II",
     "unitTitle": "Database Management System",
@@ -3171,7 +6027,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c112",
+    "id": "c212",
     "paper": "TECH2",
     "unit": "II",
     "unitTitle": "Database Management System",
@@ -3199,7 +6055,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c113",
+    "id": "c213",
     "paper": "TECH2",
     "unit": "II",
     "unitTitle": "Database Management System",
@@ -3227,7 +6083,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c114",
+    "id": "c214",
     "paper": "TECH2",
     "unit": "II",
     "unitTitle": "Database Management System",
@@ -3256,7 +6112,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c115",
+    "id": "c215",
     "paper": "TECH2",
     "unit": "II",
     "unitTitle": "Database Management System",
@@ -3285,7 +6141,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c116",
+    "id": "c216",
     "paper": "TECH2",
     "unit": "II",
     "unitTitle": "Database Management System",
@@ -3314,7 +6170,742 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c117",
+    "id": "c217",
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "Internet Architecture",
+    "def": "The internet is a global network of networks carrying data with the TCP/IP protocol suite. The web sits on top of it as a client-server system: a browser (the client) sends an HTTP request for a resource and a web server returns a response. Architecture here means who talks to whom, over which protocol, and where the processing is done.",
+    "exp": "Every page fetch is a request-response cycle. The browser resolves the host name to an IP address, opens a TCP connection to the server (port 80 for HTTP, 443 for HTTPS), sends a request naming the resource, and the server replies with a status code and the file. Early HTTP closed the connection after each file. A persistent connection, also called keep-alive, stays open so the same connection carries the page and all its images and stylesheets, and handles future requests.\n\nHTTP is stateless: the server treats each request as independent and remembers nothing of the previous one. Because a login or a shopping cart needs memory, state is added on top. A cookie is stored on the client and sent back with later requests; a session is held on the server and identified by a session ID the browser returns. The session variable is created on the server when that user's session begins.\n\nWork splits into client side and server side. HTML, CSS and JavaScript run inside the browser. Server-side technologies such as ASP and ASP.NET, PHP, JSP and Node run on the server and build the page before it is sent. Larger systems use three tiers: browser, web or application server, and database server. ASP is Microsoft's server-side environment and runs on the IIS web server under Windows.",
+    "facts": [
+      "The web uses a client-server model: the browser is the client, the web server answers the request.",
+      "HTTP normally uses TCP port 80 and HTTPS port 443.",
+      "HTTP is stateless - each request is independent; cookies and server-side sessions supply the missing memory.",
+      "A persistent (keep-alive) connection stays open after the response so later requests reuse it.",
+      "ASP and ASP.NET are Microsoft server-side technologies running on the IIS web server."
+    ],
+    "traps": [
+      "Internet vs World Wide Web - the internet is the network; the web is one service running on it, alongside email and FTP.",
+      "Stateless does not mean a site cannot recognise you; it means HTTP itself does not, so cookies and session IDs carry identity.",
+      "Cookies are stored on the client machine; session variables live on the server and the browser only carries the session ID.",
+      "Client-side script runs in the browser and the user can disable or read it; server-side script runs on the server and the user never sees its source."
+    ],
+    "mnem": "",
+    "rel": [
+      "World Wide Web",
+      "Domain Name System",
+      "Web Hosting"
+    ]
+  },
+  {
+    "id": "c218",
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "World Wide Web",
+    "def": "The World Wide Web is a service running over the internet: a worldwide collection of hypertext documents identified by URLs, transferred by HTTP and rendered by a browser. Tim Berners-Lee proposed it at CERN in 1989. Its three founding pieces are HTML for the markup, HTTP for the transfer, and the URL for the address.",
+    "exp": "A website is a set of related pages under one domain, kept on a web server; the home page is its entry point, and hyperlinks join pages to one another and to other sites. The browser fetches a page, parses the HTML, requests the images, stylesheets and scripts it names, and displays the result. Search engines discover pages by following those same links.\n\nPlanning comes before markup. Decide the purpose and the intended audience, then the content, then the structure and navigation; layout and coding come last. Non-programmers build sites with WYSIWYG editors and content management systems - Dreamweaver historically, WordPress and hosted site builders now - instead of hand-writing HTML.\n\nA cookie is a small text file the server asks the browser to store on the user's machine and receives back on later requests to that site. Cookies carry login sessions, preferences and tracking data. Cookies and JavaScript are client-side, so the end user can block, delete or switch them off in browser settings, and a site should still work in a basic way without them. Web 2.0 is the name given to the shift from static pages to interactive, user-generated sites.",
+    "facts": [
+      "The web = HTML + HTTP + URL, proposed by Tim Berners-Lee at CERN in 1989.",
+      "A cookie is a small text file stored on the client machine at the server's request.",
+      "WYSIWYG editors and CMS platforms let a non-programmer build a website without writing HTML.",
+      "Website planning order: purpose and audience, then content, then structure and navigation, then design and coding.",
+      "Cookies and JavaScript are client-side and can be disabled by the end user."
+    ],
+    "traps": [
+      "The web is not the internet - the internet is the underlying network; email, FTP and the web are separate services on it.",
+      "A cookie is a text file, not a program: it cannot execute or by itself infect a machine.",
+      "Web page vs home page vs website - one document, the entry document, and the whole collection.",
+      "The user can disable client-side things (JavaScript, cookies, images); server-side processing cannot be switched off by the visitor."
+    ],
+    "mnem": "",
+    "rel": [
+      "Internet Architecture",
+      "Hyperlinks",
+      "Web Hosting"
+    ]
+  },
+  {
+    "id": "c219",
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "Domain Name System",
+    "def": "DNS is the distributed directory that turns a human-readable domain name such as www.mizoram.gov.in into the numeric IP address of the machine holding that site. Without it the browser would not know which server to contact. Name resolution is the first step of every page load, happening before any HTTP request is sent.",
+    "exp": "Read a domain name from right to left. In www.mizoram.gov.in, the rightmost label .in is the top-level domain, India's country-code TLD; gov.in is the second level marking an Indian government body; mizoram is the registered name; and www is the host name of the web server inside that domain. Generic TLDs include .com, .org, .net and .edu; country-code TLDs include .in, .uk and .us. Names under gov.in are not open registration - they are issued through NIC to government offices.\n\nResolution works down a hierarchy. The browser checks its own cache and the operating system cache, then asks a recursive resolver, usually the ISP's. If that has no answer it queries a root server, which refers it to the .in TLD servers, which refer it to the authoritative name server for the domain, which returns the A record holding the IP address. The answer is cached for the period set by its TTL. DNS runs on port 53.\n\nIn the full URL https://www.mizoram.gov.in/notice/index.html, https is the scheme or protocol, www.mizoram.gov.in is the host or domain, /notice/ is the path and index.html the file requested.",
+    "facts": [
+      "The top-level domain is the rightmost label of a name: in www.mizoram.gov.in it is .in.",
+      ".in is India's country-code TLD; .gov.in sits under it as a restricted second-level domain.",
+      "DNS maps a domain name to an IP address; the A record holds the IPv4 address.",
+      "Lookup order: browser and OS cache, recursive resolver, root server, TLD server, authoritative server.",
+      "DNS uses port 53."
+    ],
+    "traps": [
+      "The TLD is .in, not .gov or .gov.in - gov is the second-level label, not the top level.",
+      "DNS only resolves the name; it does not store or serve the web page - the web server does that.",
+      "www is a host name chosen by the site owner, not a compulsory part of a domain name.",
+      "Domain name, URL and IP address are three different things: the URL contains the domain, the domain resolves to the IP."
+    ],
+    "mnem": "Read a domain name backwards: the last piece is the TOP-level domain.",
+    "rel": [
+      "Web Hosting",
+      "Internet Architecture",
+      "World Wide Web"
+    ]
+  },
+  {
+    "id": "c220",
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "Web Hosting",
+    "def": "Web hosting is the service of keeping a website's files on a server that is permanently connected to the internet and running web server software, so that any browser can request them at any time. Registering a domain name and buying hosting are two separate purchases: the name is registered, the space is rented, and DNS records tie the two together.",
+    "exp": "The web server software - Apache, Nginx or Microsoft IIS - listens for incoming HTTP requests and replies with the requested file, or with a page produced by a server-side script. When a browser asks for a file, it is the web server that is responsible for the reply. The word server means both that software and the machine it runs on.\n\nYou publish by uploading the files from your own computer to that server. Historically this was done with FTP, now with SFTP or SSH, a control panel file manager, or an automated deployment. Uploading goes from your computer to the server; downloading is the other direction, server to your computer.\n\nHosting comes in grades: shared hosting puts many sites on one server and is cheapest, a VPS gives a guaranteed slice, a dedicated server gives the whole machine, and cloud hosting scales resources on demand. What you are paying for is disk space, monthly bandwidth or data transfer, databases and mailboxes, an uptime guarantee, and normally an SSL/TLS certificate so the site can run over HTTPS. Indian government sites are commonly hosted on NIC infrastructure or a State Data Centre rather than with a commercial host.",
+    "facts": [
+      "The web server answers a browser's request for a file; common web server software is Apache, Nginx and Microsoft IIS.",
+      "Uploading means transferring a file from your computer to the server; downloading is server to your computer.",
+      "FTP is the classic file transfer protocol used to publish a site; SFTP adds encryption.",
+      "Hosting sells disk space, bandwidth, uptime and usually an SSL certificate for HTTPS.",
+      "Shared, VPS, dedicated and cloud are the usual hosting grades, cheapest to most controllable."
+    ],
+    "traps": [
+      "Web server vs web browser - the server sends the file, the browser requests and displays it.",
+      "Buying a domain name is not buying hosting; you can hold a name with no site behind it.",
+      "Upload and download are asked as a direction question - to the server is upload.",
+      "Shared hosting means one server's resources are divided among many customers, not that your site is copied to many servers."
+    ],
+    "mnem": "",
+    "rel": [
+      "Domain Name System",
+      "Internet Architecture",
+      "World Wide Web"
+    ]
+  },
+  {
+    "id": "c221",
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "Document Structure",
+    "def": "An HTML document is a tree: a DOCTYPE declaration, then a single root HTML element that contains exactly two children - HEAD, holding information about the page, and BODY, holding everything the visitor actually sees. Content is marked up with elements written as tags, and attributes on those tags modify them.",
+    "exp": "The file opens with the DOCTYPE line, which tells the browser which version of HTML to expect; in HTML5 it is simply doctype html. The first actual tag is the root HTML element. Inside HEAD go TITLE, META tags for character set, description and viewport, LINK to stylesheets and SCRIPT references - none of which appears in the page area. TITLE is the one item every head must have: it names the document and is what the browser shows in its tab and title bar, and what a bookmark or a search result displays. Inside BODY go headings, paragraphs, images, links, tables and forms.\n\nAn element is an opening tag, its content, and a closing tag. Tag names are not case sensitive, though lower case is standard practice. Attributes are written inside the opening tag as name=\"value\" and change how the browser treats or displays that element. The ID attribute names one element uniquely and must not repeat on a page; CLASS labels a group and may be reused.\n\nOlder papers ask about FRAMESET, which divided a window into frames sized by ROWS and COLS in pixels or percentages, with a separate frameset file controlling the arrangement. Frames are obsolete in HTML5 - recognise them for the exam, do not build with them. HTML was historically defined as an application of SGML; HTML5 no longer is.",
+    "facts": [
+      "The root element is HTML; it contains HEAD and then BODY.",
+      "TITLE belongs in the HEAD and is shown in the browser tab and title bar, not inside the page.",
+      "The ID attribute names an element uniquely; CLASS can be shared by many elements.",
+      "Attributes go inside the opening tag and modify how the browser renders the element.",
+      "HTML is a markup language, historically defined as an application (subset) of SGML.",
+      "In a frameset, frame sizes were given as pixel values or percentages using ROWS and COLS."
+    ],
+    "traps": [
+      "HTML is a markup language, not a programming language - it has no logic, loops or variables.",
+      "The DOCTYPE is a declaration, not an element; the first tag of the file is HTML.",
+      "TITLE goes in the head; the big visible heading on the page is H1, a different thing.",
+      "Frames and FRAMESET still appear in old papers but are removed from HTML5 - CSS layout replaced them."
+    ],
+    "mnem": "HEAD is about the page; BODY is the page.",
+    "rel": [
+      "Text Formatting",
+      "Styling",
+      "Layouts"
+    ]
+  },
+  {
+    "id": "c222",
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "Text Formatting",
+    "def": "The elements that give text structure and appearance: six heading levels H1 to H6, paragraphs, line breaks, and the phrase elements for bold, italic and underline. HTML5 prefers elements that carry meaning, such as STRONG and EM, over purely visual ones, but the visual tags still work and older question papers ask about them directly.",
+    "exp": "There are six heading tags, H1 through H6. H1 renders largest and H6 smallest, and every heading is a block element with space above and below it. Headings are meant for real document hierarchy - a section title - not as a quick way to enlarge text.\n\nP wraps a paragraph of text. BR forces a line break inside it and HR draws a horizontal rule. Both are empty elements: they have no content and therefore no closing tag. IMG and INPUT are empty in the same way.\n\nFor appearance there is B for bold, I for italic and U for underline, plus SUB and SUP for subscript and superscript. For meaning there is STRONG, which marks strong importance and is rendered bold, and EM, which marks emphasis and is rendered italic. PRE keeps your spacing and line breaks exactly as typed. ADDRESS marks contact details for the page or its author, and browsers render it in italics by default, which is why a paper asks which tag it resembles. The old FONT tag with its SIZE, COLOR and FACE attributes is obsolete - typeface, size and colour are now set with CSS.",
+    "facts": [
+      "HTML has six heading tags, H1 to H6; H1 gives the largest text and H6 the smallest.",
+      "BR, HR, IMG and INPUT are empty elements and need no closing tag.",
+      "I and EM both display as italic; B and STRONG both display as bold.",
+      "ADDRESS is displayed in italics by default, like the italic element.",
+      "The FONT tag is obsolete; text appearance is CSS work now."
+    ],
+    "traps": [
+      "H1 is the largest, not the smallest - the higher the number, the smaller the text.",
+      "B vs STRONG and I vs EM look identical on screen but differ in meaning: STRONG and EM carry importance and are read out by screen readers.",
+      "BR is a break, not a paragraph: P creates a new block with spacing, BR only moves to the next line.",
+      "A question asking which tag needs no closing tag is testing empty elements such as BR and HR."
+    ],
+    "mnem": "H1 to H6: the bigger the number, the smaller the heading.",
+    "rel": [
+      "Document Structure",
+      "Lists",
+      "Styling"
+    ]
+  },
+  {
+    "id": "c223",
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "Hyperlinks",
+    "def": "A hyperlink is a reference from one document to another that the reader follows by clicking. It is created with the anchor element A, and the destination address is given by its HREF attribute; whatever sits between the opening and closing anchor tags - text or an image - is the clickable part. Hyperlinks are what connect the pages of a website to each other and to the rest of the web.",
+    "exp": "The correct markup is an opening A tag carrying HREF set to the destination URL, then the link text, then the closing anchor. Without HREF there is no link. Exam distractors invent an HREF tag or put the address in a NAME attribute: HREF is an attribute of A, never a tag of its own.\n\nAn absolute URL gives the complete address including protocol and domain and is used for other sites. A relative URL gives a path from the current page and is used inside your own site, so the links keep working when the site is moved. TARGET=\"_blank\" opens the destination in a new tab. An HREF of mailto: followed by an address opens the user's mail client. An HREF of # followed by an ID jumps to that element on the same page, which is an internal or bookmark link.\n\nBrowsers underline links and colour them differently when unvisited, visited and active; CSS can change all of that. Search engines and screen readers use the link text itself, so wording the link \"Download the recruitment notification\" is better than \"click here\".",
+    "facts": [
+      "A hyperlink is made with the anchor element A and its HREF attribute holding the destination.",
+      "Absolute URL = full address with protocol and domain; relative URL = path from the current page.",
+      "TARGET=\"_blank\" opens the link in a new tab or window.",
+      "An HREF beginning with # links to an element with that ID on the same page; mailto: opens a mail client.",
+      "The pages of a website are connected to one another by hyperlinks."
+    ],
+    "traps": [
+      "HREF is an attribute, not a tag - options showing an HREF tag are wrong.",
+      "Absolute vs relative links: relative links survive moving the site to another domain, absolute ones do not.",
+      "The link text goes between the tags; the address goes in the attribute - candidates reverse these in the multiple-choice options.",
+      "An image can be a link, but the linking is still done by the anchor element wrapped around it."
+    ],
+    "mnem": "A for anchor, HREF for hypertext reference.",
+    "rel": [
+      "World Wide Web",
+      "Document Structure",
+      "Images"
+    ]
+  },
+  {
+    "id": "c224",
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "Lists",
+    "def": "HTML has three list types. UL is an unordered list, displayed with bullets. OL is an ordered list, displayed with numbers. DL is a description or definition list. In an unordered or ordered list every item is an LI element; a description list instead pairs a DT term with a DD description.",
+    "exp": "Unordered means sequence does not matter, so the browser marks each item with a bullet, a filled disc by default. Ordered means sequence does matter, so the browser numbers the items 1, 2, 3. The item element is LI in both cases - only the container tag changes, which is exactly what the examiner tests.\n\nThe numbering of an ordered list is controlled by the TYPE attribute: 1 for numerals, A or a for letters, I or i for Roman numerals, with START setting a first value other than 1. On an unordered list TYPE could be disc, circle or square. All of this is better done in CSS today with list-style-type, but the attributes still turn up in past papers.\n\nLists nest: place a complete UL or OL inside an LI of the outer list and the browser indents it and changes the marker. Because a list is structural rather than decorative, navigation menus are normally built as an unordered list and then styled with CSS into a horizontal bar - so a list is a layout tool as much as a way of showing bullet points.",
+    "facts": [
+      "UL produces a bulleted (unordered) list; OL produces a numbered (ordered) list.",
+      "Every item in a UL or OL is an LI element.",
+      "A description list uses DL with DT for the term and DD for its description.",
+      "The default bullet of an unordered list is a filled disc.",
+      "TYPE sets the marker style and START sets the beginning number of an ordered list."
+    ],
+    "traps": [
+      "UL vs OL is the classic swap - bulleted is Unordered, numbered is Ordered.",
+      "LI is the list item, not the list; a question asking how to make a bulleted list wants UL, not LI.",
+      "A description list uses DT and DD, not LI.",
+      "Bullets and numbers come from the container tag, not from typing dashes or digits into the text."
+    ],
+    "mnem": "U = Unordered = bullets; O = Ordered = 1, 2, 3.",
+    "rel": [
+      "Text Formatting",
+      "Document Structure",
+      "Styling"
+    ]
+  },
+  {
+    "id": "c225",
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "Tables",
+    "def": "An HTML table displays data in rows and columns. TABLE is the container, TR defines a row, TH a header cell and TD an ordinary data cell. Cells exist only inside a row, so a table is built row by row, each row filled with its cells from left to right.",
+    "exp": "A row is added with the TR tag. Inside it go the cells: TH for a heading cell, which browsers render bold and centred, and TD for data. The number of columns is simply the number of cells in a row; there is no tag that creates a column. CAPTION gives the table a title, and THEAD, TBODY and TFOOT group rows for heading, body and footer.\n\nClassic attributes of the TABLE tag are BORDER for the line thickness, CELLPADDING for the space inside each cell, CELLSPACING for the gap between cells, plus WIDTH, ALIGN and BGCOLOR. On an individual cell, ALIGN sets horizontal alignment and VALIGN vertical, so older markup left-aligns a cell's contents by putting ALIGN=\"left\" on the TD. HTML5 removes these presentational attributes in favour of CSS - border, padding and text-align: left. Both styles appear in past papers; when the question says \"the correct HTML\", it wants the ALIGN attribute on the cell.\n\nCOLSPAN makes one cell stretch across several columns and ROWSPAN down several rows. Tables were once used to lay out whole pages; that is poor practice - use a table for tabular data and CSS for layout.",
+    "facts": [
+      "A row is added with TR; TD holds a data cell and TH a header cell.",
+      "TH content is displayed bold and centred by default.",
+      "BORDER, CELLPADDING, CELLSPACING, WIDTH and ALIGN are attributes of the TABLE tag.",
+      "COLSPAN merges a cell across columns; ROWSPAN merges it down rows.",
+      "In old HTML a cell's contents are left-aligned with ALIGN=\"left\" on the cell; in CSS it is text-align: left."
+    ],
+    "traps": [
+      "TR vs TD - the row is TR, the cell inside it is TD; a question asking which tag adds a row wants TR.",
+      "CELLPADDING is space inside a cell, CELLSPACING is the gap between cells - routinely swapped in options.",
+      "This is the HTML table of rows and cells on a web page, a completely different topic from a database table.",
+      "There is no column tag creating columns: the column count follows from how many cells you put in each row."
+    ],
+    "mnem": "TR = Table Row, TD = Table Data, TH = Table Heading.",
+    "rel": [
+      "Document Structure",
+      "Layouts",
+      "Styling"
+    ]
+  },
+  {
+    "id": "c226",
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "Images",
+    "def": "A picture is put on a web page with the IMG element. It is an empty element - no content, no closing tag - and it does not contain the picture itself. The SRC attribute holds the path or URL of a separate image file, which the browser fetches in an extra request and draws in place.",
+    "exp": "In practice two attributes matter. SRC gives the location of the file. ALT gives alternative text describing the image: the browser shows it when the file is missing or images are switched off, a screen reader reads it aloud to a blind user, and search engines index it. Giving WIDTH and HEIGHT lets the browser reserve the right amount of space before the file arrives, so the page does not jump about while loading. TITLE produces a tooltip on hover.\n\nChoose the format by the job. JPEG suits photographs and compresses hard with some loss of quality. PNG suits screenshots, diagrams and anything needing transparency. GIF handles a few colours and simple animation. SVG is vector, so logos and icons stay sharp at any size. WebP is a modern format giving smaller files. Every image is a separate HTTP request, so oversized pictures are the usual reason a page crawls on a weak connection.\n\nAn image becomes clickable by placing it inside an anchor element. A purely decorative image should still carry ALT with an empty value so a screen reader skips it rather than reading the file name. Decorative background pictures belong in CSS as a background image, not in the markup.",
+    "facts": [
+      "The IMG tag displays a picture on a web page.",
+      "IMG is an empty element: it has no closing tag.",
+      "SRC gives the file name or URL of the image; the image itself stays a separate file.",
+      "ALT supplies alternative text shown when the image cannot be displayed, read by screen readers and used by search engines.",
+      "JPEG for photographs, PNG for transparency, GIF for simple animation, SVG for scalable vector graphics."
+    ],
+    "traps": [
+      "The IMG element does not store the picture, it only points at the file - move or rename the file and the image breaks.",
+      "ALT vs TITLE - ALT replaces the image when it cannot be shown; TITLE is only a hover tooltip.",
+      "IMG needs no closing tag, unlike most elements; questions on 'which tag has no closing tag' often use it.",
+      "An image is not a link by itself; the anchor element wrapped around it is what makes it clickable."
+    ],
+    "mnem": "SRC = source of the file, ALT = alternative text.",
+    "rel": [
+      "Hyperlinks",
+      "Multimedia",
+      "Text Formatting"
+    ]
+  },
+  {
+    "id": "c227",
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "Multimedia",
+    "def": "Multimedia on the web means everything beyond text and still pictures: audio, video, animation and 3D. HTML5 plays sound and video natively through the AUDIO and VIDEO elements, whose SRC attribute names the file and whose CONTROLS attribute shows the play bar. This replaced the plug-in era of Flash, RealPlayer and Java applets.",
+    "exp": "Common formats are MP3 and AAC for audio and MP4 (H.264) and WebM for video. Media files are large, so they are streamed - played while still arriving - rather than downloaded in full first. Most sites do not host video themselves; they embed a YouTube or similar player through an IFRAME, which shifts the bandwidth and the format conversion elsewhere.\n\nMacromedia Flash, later Adobe Flash, dominated web animation, games and video for a decade. Flash drew vector graphics: shapes described mathematically by points and curves, so they scale to any size without losing quality and stay small in file size, unlike bitmap images made of pixels. It needed a browser plug-in, was a repeated security problem, and Adobe ended support for it at the end of 2020. Its work is now done by HTML5 video, CSS animation, SVG and the CANVAS element.\n\nVRML, the Virtual Reality Modeling Language, describes interactive 3D worlds in a plain text file that a viewer or plug-in renders. The standard comparison is that VRML is to 3D scenes what HTML is to hypertext documents: a text-based markup describing the content, sent over the web and displayed by the client. VRML was succeeded by X3D, and 3D in the browser today is done with WebGL.",
+    "facts": [
+      "HTML5 plays media with the AUDIO and VIDEO elements, removing the need for a plug-in; CONTROLS shows the play bar.",
+      "MP3 is the common web audio format; MP4 with H.264 and WebM are the common video formats.",
+      "Flash drew vector graphics - mathematically defined shapes that scale without loss - and Adobe discontinued it at the end of 2020.",
+      "VRML is a text-based language for describing 3D worlds; VRML stands to 3D as HTML stands to hypertext documents.",
+      "Streaming plays the file while it downloads instead of waiting for the whole file."
+    ],
+    "traps": [
+      "Flash objects are vector, not bitmap - that is why Flash animations scaled cleanly and stayed small.",
+      "VRML source is plain readable text like HTML, not a compiled binary.",
+      "Streaming vs downloading - streaming does not leave a copy of the file on the machine.",
+      "Plug-ins, applets and Flash are dead technologies but still appear in older question papers; know them without using them."
+    ],
+    "mnem": "VRML : 3D worlds :: HTML : hypertext pages.",
+    "rel": [
+      "Images",
+      "World Wide Web",
+      "Layouts"
+    ]
+  },
+  {
+    "id": "c228",
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "Forms",
+    "def": "A form is the part of a page that collects input from the visitor and sends it to the server. The FORM element wraps the controls and carries two key attributes: ACTION, the URL of the program that will receive the data, and METHOD, which is either GET or POST. Every control needs a NAME, because data arrives at the server as name-and-value pairs.",
+    "exp": "Most controls are INPUT elements distinguished by their TYPE attribute: text, password, radio, checkbox, submit, reset, hidden and file, plus the HTML5 types email, number, date and tel, which bring up the right mobile keyboard and add a basic check. SELECT with OPTION makes a drop-down, TEXTAREA a multi-line box, BUTTON a clickable button. A LABEL tied to a control by its ID makes the caption clickable and is what a screen reader announces.\n\nGET appends the data to the URL as a query string: visible in the address bar, bookmarkable, length limited, right for a search. POST puts the data in the body of the request: not shown in the address bar, no practical size limit, and the correct choice for logins, file uploads and anything that changes data on the server. Never send a password by GET.\n\nThe receiving side is a server-side program - historically a CGI script, now PHP, ASP.NET, JSP or an API endpoint. HTML5 attributes such as REQUIRED, PATTERN, MIN and MAX, and JavaScript checks, validate in the browser. That is a convenience for the user, not security: anyone can disable script or send a request directly, so every check must be repeated on the server.",
+    "facts": [
+      "The FORM tag's main attributes are ACTION (where the data goes) and METHOD (how it is sent).",
+      "METHOD is GET or POST; GET puts values in the URL query string, POST puts them in the request body.",
+      "The NAME attribute of each control becomes the key under which its value reaches the server.",
+      "The TYPE attribute of INPUT selects the control: text, password, radio, checkbox, submit, file and others.",
+      "A LABEL linked to a control by ID improves usability and is required for accessibility."
+    ],
+    "traps": [
+      "Client-side validation is a convenience, never a security control - the same checks must be done again on the server.",
+      "GET vs POST - GET data is visible and bookmarkable, POST data is not; a login must use POST.",
+      "NAME vs ID - NAME is what gets submitted, ID is used by the label, CSS and script.",
+      "Radio buttons sharing one NAME allow only one choice; checkboxes are independent even when related."
+    ],
+    "mnem": "",
+    "rel": [
+      "Events",
+      "Document Structure",
+      "Styling"
+    ]
+  },
+  {
+    "id": "c229",
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "Styling",
+    "def": "CSS, Cascading Style Sheets, controls how the marked-up content looks - colour, font, size, spacing, borders, position - keeping presentation separate from the structure in the HTML. A stylesheet is a set of rules, and each rule is a selector naming which elements it applies to, followed by a declaration block of property and value pairs.",
+    "exp": "A rule reads h1 { color: navy; font-size: 24px; }. Here h1 is the selector and the braces hold two declarations, each a property, a colon, a value and a semicolon. Selectors can be an element name, a class written with a leading dot, an ID written with a leading hash, or combinations of these.\n\nThere are three ways to attach CSS. Inline: a STYLE attribute on one tag, which is how the classic exam answer sets a page background - a background-color declaration inside the STYLE attribute of the BODY tag, replacing the obsolete BGCOLOR attribute. Internal: a STYLE element in the head, styling that one document. External: a separate .css file linked from the head with the LINK element. External is what a real site uses - one file styles every page, a change is made once, and the browser caches it, so the pages are smaller and consistent.\n\nCascading is the rule for settling conflicts: inline beats internal and external, a more specific selector beats a general one, and among equals the later rule wins. Many properties, such as font and colour, are inherited by child elements. Finally, every element is a box - content, then padding, then border, then margin - and that box model is where most sizing confusion begins.",
+    "facts": [
+      "A CSS rule is a selector plus a declaration block of property: value pairs.",
+      "CSS can be attached three ways: inline STYLE attribute, internal STYLE element in the head, external .css file linked from the head.",
+      "External stylesheets are preferred: one change restyles the whole site and the file is cached.",
+      "Precedence: inline overrides internal and external; more specific selectors override general ones.",
+      "Box model order from the inside out: content, padding, border, margin.",
+      "A class selector is written with a dot and an ID selector with a hash."
+    ],
+    "traps": [
+      "HTML attribute vs CSS property - BGCOLOR is an old attribute, background-color is the CSS property that replaced it.",
+      "If a stylesheet seems to be ignored, look for an inline style: inline wins over the external file.",
+      "Padding is inside the border, margin is outside it - regularly swapped in options.",
+      "'Cascading' refers to resolving conflicting rules, not to styles flowing down the page."
+    ],
+    "mnem": "",
+    "rel": [
+      "Layouts",
+      "Responsive Design",
+      "Document Structure"
+    ]
+  },
+  {
+    "id": "c230",
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "Layouts",
+    "def": "Layout is the arrangement of blocks on a page - header, navigation, main content, sidebar, footer. HTML supplies the containers and CSS positions them. DIV is the general-purpose block-level container: it has no appearance of its own and exists to group elements into one division that can be styled or positioned as a unit. SPAN is its inline counterpart for a run of text.",
+    "exp": "A block-level element begins on a new line and takes the full width available: DIV, P, the headings, lists and tables. An inline element sits within a line and is only as wide as its content: SPAN, the anchor, IMG and the phrase elements. The CSS display property can change this, and inline-block gives a box that flows along a line yet accepts a width and height.\n\nHTML5 added semantic containers that do a DIV's job while stating what the section is: HEADER, NAV, MAIN, SECTION, ARTICLE, ASIDE and FOOTER. Use them where they fit - they help search engines and screen readers understand the page - and fall back to DIV when nothing fits.\n\nModern layout uses Flexbox to arrange items along one axis, which suits a navigation bar or a row of cards, and CSS Grid for a genuine two-dimensional arrangement of rows and columns. Older sites used the FLOAT property, and before that nested tables and frames. Laying out a page with tables or frames is obsolete practice: it is hard for screen readers, it fixes the design to one screen width, and it mixes structure with presentation, which is precisely what CSS exists to prevent.",
+    "facts": [
+      "DIV is a block-level container used to group and divide page content; it has no visual effect until styled.",
+      "SPAN is the inline equivalent of DIV, used for part of a line of text.",
+      "A block element starts on a new line and fills the available width; an inline element does not.",
+      "HTML5 semantic layout elements are HEADER, NAV, MAIN, SECTION, ARTICLE, ASIDE and FOOTER.",
+      "Flexbox lays items out in one dimension; CSS Grid handles two dimensions, rows and columns together."
+    ],
+    "traps": [
+      "DIV vs SPAN - block versus inline; using DIV inside a sentence breaks the line.",
+      "A DIV is invisible by itself; if nothing changes on screen the styling, not the DIV, is missing.",
+      "Semantic elements differ from DIV in meaning, not appearance - a browser renders SECTION and DIV the same way.",
+      "Do not use tables or frames for page layout; tables are for tabular data, CSS is for layout."
+    ],
+    "mnem": "DIV divides blocks; SPAN spans text within a line.",
+    "rel": [
+      "Styling",
+      "Responsive Design",
+      "Document Structure"
+    ]
+  },
+  {
+    "id": "c231",
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "Responsive Design",
+    "def": "Responsive web design means one set of pages that adapts its layout to whatever is viewing it - phone, tablet, laptop or large monitor - rather than a separate mobile site. It rests on three things: a fluid grid sized in percentages instead of fixed pixels, flexible images that shrink to fit their container, and CSS media queries that change the layout at chosen screen widths.",
+    "exp": "Screen size and resolution is one of the first considerations when designing a page, alongside who the audience is, what connection speed they have and which browsers and devices they use. A page fixed to a designer's monitor width breaks on a phone, and most traffic to Indian government sites now comes from phones on mobile data.\n\nA media query applies a block of CSS only when a condition is true, normally a minimum or maximum viewport width, so a three-column layout can stack into one column on a narrow screen. The widths at which the layout changes are called breakpoints. Images are kept flexible by capping their width at 100 per cent of the container so they never overflow. The viewport META tag in the head tells a mobile browser to use the real device width instead of pretending to be a desktop - leave it out and a responsive stylesheet has almost no effect on a phone.\n\nMobile-first means writing the small-screen layout first and adding rules for larger screens, which keeps the phone version light. Budget for slow links too: compress images, keep the page small, and make tap targets big enough for a finger.",
+    "facts": [
+      "Responsive design = fluid grids + flexible images + media queries.",
+      "A media query switches CSS on according to a condition, usually the viewport width.",
+      "The widths where the layout changes are called breakpoints.",
+      "The viewport META tag in the head is required for a responsive layout to work on a phone.",
+      "Mobile-first means designing the smallest screen first, then adding rules for wider screens."
+    ],
+    "traps": [
+      "Responsive is one adaptable page set; a separate mobile site at a different address is the older, different approach.",
+      "Media queries alone are not enough - without the viewport META tag a phone renders the desktop layout scaled down.",
+      "Fluid means percentage or relative widths; a layout in fixed pixels is not responsive however many media queries it has.",
+      "Responsive design concerns layout adapting to screen size, not the speed at which the page loads, though a heavy page hurts mobile users most."
+    ],
+    "mnem": "",
+    "rel": [
+      "Styling",
+      "Layouts",
+      "Images"
+    ]
+  },
+  {
+    "id": "c232",
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "Variables",
+    "def": "A variable is a named container holding a value that a script can read and change. In JavaScript you declare one with let for a value that will change, const for one that will not, and var in older code. JavaScript is dynamically typed: you never state the type, the variable takes the type of whatever you assign, and the same name can later hold a different type.",
+    "exp": "The basic types are number - there is no separate integer and decimal type - string, boolean, null and undefined, together with objects and arrays. A variable that has been declared but not assigned holds undefined. Names are case sensitive, so total and Total are two different variables; they may contain letters, digits, underscore and the dollar sign, cannot begin with a digit and cannot be a reserved word. camelCase is the convention.\n\nWhere a variable is declared decides where it can be used. One declared inside a function is local to that function; one declared outside is global and visible everywhere, which is why sloppy code collides with itself. let and const are limited to the block they sit in. Prefer const, then let, and avoid creating globals by accident.\n\nJavaScript is interpreted by the browser: the client machine runs the source in its own JavaScript engine, with no compilation step by the developer, which is also why a user can read or disable it. Despite the name it is not Java and not a simplified Java. Java is a separate compiled, strongly typed, class-based language running on a virtual machine; JavaScript is an interpreted, dynamically typed scripting language made for the browser, and the similar name was a marketing decision.",
+    "facts": [
+      "JavaScript declares variables with let, const or the older var.",
+      "JavaScript is dynamically (loosely) typed - the type comes from the value assigned.",
+      "JavaScript identifiers are case sensitive.",
+      "JavaScript is interpreted by the browser on the client machine, not compiled by the developer.",
+      "A variable declared inside a function is local to it; one declared outside is global.",
+      "A declared but unassigned variable holds undefined."
+    ],
+    "traps": [
+      "Java and JavaScript are unrelated languages - compiled and strongly typed versus interpreted and loosely typed; only the name is shared.",
+      "Client side, not server side: browser JavaScript runs on the user's machine (Node.js on a server is the separate case).",
+      "Declaring a variable is not the same as assigning it a value.",
+      "Because names are case sensitive, a mistyped capital creates a second variable rather than an error."
+    ],
+    "mnem": "",
+    "rel": [
+      "Functions",
+      "Events",
+      "Forms"
+    ]
+  },
+  {
+    "id": "c233",
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "Functions",
+    "def": "A function is a named block of statements that runs only when something calls it. Defining it does nothing on its own; calling it by name with parentheses executes the code. A function takes parameters - values handed in - and can send a value back with return, so one piece of logic is written once and reused wherever it is needed.",
+    "exp": "A declaration is the keyword function, the name, a parenthesised list of parameters and the body in braces. The names written in the definition are parameters; the actual values supplied at the call are arguments. A function with no return statement gives back undefined. Functions may also be written without a name and stored in a variable, or as arrow functions in modern code.\n\nThe browser provides built-in functions. Alert, prompt and confirm put up dialog boxes. ParseInt and parseFloat convert a string to a number, isNaN tests whether a value is not a number, and Number converts as well. These matter because everything typed into a form arrives as text: adding \"10\" and \"5\" as strings joins them into \"105\", so test with isNaN and convert with parseInt or parseFloat before doing arithmetic.\n\nScript lives inside a SCRIPT element or in a separate .js file. An external file is pulled in by giving the SCRIPT tag a SRC attribute naming the file, for instance SRC=\"abc.js\", with nothing written between the tags. External files are cached and shared across pages. VBScript was Microsoft's competing scripting language, able to do the same calculations and validation but only inside Internet Explorer; it is obsolete.",
+    "facts": [
+      "A function must be called to run; defining it only stores the code.",
+      "Parameters are the names in the definition; arguments are the values passed at the call.",
+      "Return sends a value back to the caller; without it the function returns undefined.",
+      "An external JavaScript file is included by setting the SRC attribute of the SCRIPT tag to the file name, with nothing between the tags.",
+      "isNaN tests whether a value is not a number; parseInt and parseFloat convert text to numbers."
+    ],
+    "traps": [
+      "Defining a function does not execute it - a script that appears to do nothing is often a function never called.",
+      "Parameter versus argument: the placeholder in the definition versus the real value at the call.",
+      "Form input is a string, so arithmetic on it concatenates unless you convert first - this is why isNaN and parseInt appear in exam questions.",
+      "VBScript works only in Internet Explorer; JavaScript is the cross-browser language."
+    ],
+    "mnem": "",
+    "rel": [
+      "Variables",
+      "Events",
+      "Forms"
+    ]
+  },
+  {
+    "id": "c234",
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "Events",
+    "def": "An event is something that happens which a script can react to: the user clicks a button, moves the mouse over a link, presses a key, submits a form, or the page finishes loading. Event-driven programming means the code does not simply run top to bottom - it waits, and a handler function is executed when the event it is attached to fires.",
+    "exp": "Common events are onclick and ondblclick, onmouseover and onmouseout, onkeypress, onchange when a field's value is altered, onfocus and onblur as a control is entered and left, onsubmit on a form, and onload when the page and its images have finished loading. Most events are generated by a user action through mouse, keyboard or touch, but some are raised by the browser or system: the page loading, a timer expiring, a response arriving from the network.\n\nA handler can be attached in three ways: as an on-event attribute written in the markup, by assigning a function to the element's onclick property in script, or by calling addEventListener on the element. The last is preferred, because several handlers can be attached to one event without overwriting each other.\n\nThe handler is given an event object describing what happened and which element it happened on. Calling preventDefault, or returning false from a form's submit handler, cancels the default action - that is how a form is stopped from submitting when validation fails. Events also bubble upward, so a click on a button also reaches the elements containing it. This event-driven model is what makes a page interactive rather than a static document.",
+    "facts": [
+      "JavaScript supports event-driven programming: code runs in response to events, not in a fixed top-to-bottom order.",
+      "Common handlers are onclick, onmouseover, onkeypress, onchange, onsubmit and onload.",
+      "Events are generated mostly by user actions, and also by the browser or system - page load, timers, network responses.",
+      "addEventListener attaches a handler and allows more than one handler for the same event.",
+      "preventDefault, or returning false from a submit handler, stops the browser's default action."
+    ],
+    "traps": [
+      "Event-driven does not mean multithreaded - handlers are queued and run one at a time.",
+      "onload fires after the page and its images have loaded, so code needing an element must not run before it.",
+      "Assigning to the onclick property replaces any earlier handler; addEventListener adds to them.",
+      "JavaScript being event-driven is a property of the language in the browser and has nothing to do with Java, which shares only part of the name."
+    ],
+    "mnem": "",
+    "rel": [
+      "Functions",
+      "Variables",
+      "Forms"
+    ]
+  },
+  {
+    "id": "c235",
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "DOM Manipulation",
+    "def": "The Document Object Model is the tree of objects a browser builds in memory when it parses a page: every element, attribute and piece of text becomes a node with a parent and children. DOM manipulation is JavaScript reading and changing that tree while the page is open — selecting nodes, editing their text, attributes or styles, creating or removing elements — with the browser redrawing the page immediately and no reload.",
+    "exp": "The DOM is live. Change a node and the user sees the change at once, but nothing on the server changes; reload and the original markup comes back. This is the basis of every interactive page: a menu opens, a total updates, a table row disappears, all without a fresh request.\n\nThe working pattern is select, then act. A script selects a node by its id, by class, by tag name or by a CSS selector, then reads or writes it. The three things most often changed are the text inside an element, an attribute value such as an image source or a link target, and the CSS classes on the element — adding or removing a class is usually cleaner than setting style properties one at a time. New elements can also be created and inserted, and existing ones detached.\n\nManipulation is normally driven by events: the script registers a listener on a node and the browser calls that function when the user clicks, types or submits. Events cover that half of the story.\n\nBecause each change can force the browser to recalculate layout, updating hundreds of nodes one at a time is slow; build the change and apply it in one go. Frameworks such as React exist largely to manage this for you, but underneath they are still manipulating the same DOM.",
+    "facts": [
+      "The browser builds the DOM from the HTML as it loads the page; the DOM is the live in-memory tree, not the source file.",
+      "Every element, attribute and text fragment is a node in the tree, and the document object is its root.",
+      "Scripts select nodes by id, class, tag name or CSS selector, then read or change text, attributes and styles.",
+      "An event listener is a function registered on a node that the browser runs when a named event, such as a click or key press, occurs on it.",
+      "DOM changes live only in the browser's memory; reloading discards them unless they were sent to the server."
+    ],
+    "traps": [
+      "The DOM is not the HTML source. The source is text delivered once; the DOM is the live object tree built from it, so after a script runs the two differ — view-source shows the original, the inspector shows the current DOM.",
+      "Role swaps in options: HTML supplies structure, CSS controls appearance, HTTP transfers the page. A 'tree-structured representation of the page that a script can read and change' is the DOM, none of the other three.",
+      "An event listener runs code when something happens on an element. It does not load style sheets, check the markup for syntax errors, or measure download time — those are the standard distractors.",
+      "Manipulating the DOM does not edit the file on the server. Persisting a change needs a request back to the server."
+    ],
+    "mnem": "Select, then act: find the node, then change it.",
+    "rel": [
+      "Events",
+      "Client-side Validation",
+      "Document Structure"
+    ]
+  },
+  {
+    "id": "c236",
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "Client-side Validation",
+    "def": "Checking form input in the browser — with HTML5 form attributes such as required, type and pattern, or with JavaScript — before the data is sent to the server. Its purpose is speed and convenience: the user is told about a blank mandatory field or a malformed email address instantly, instead of waiting for a round trip and a reloaded page. It is a usability feature, not a security control.",
+    "exp": "Two mechanisms. Built-in HTML5 validation uses attributes on the input element — required, a type such as email, number, url or date, min and max, maxlength, and pattern for a regular expression — and the browser enforces them and shows its own message on submit. JavaScript validation runs your own function on submit or as the user types, and is what you need for rules the attributes cannot express: confirm-password must match, an age derived from a date of birth, a check digit on an account number.\n\nThe examinable point is that client-side validation can always be bypassed. It runs on the user's machine, under the user's control. An attacker can turn off JavaScript, edit the page in the browser's developer tools, or ignore the page entirely and send a crafted request straight to the server endpoint. So every rule enforced in the browser must be enforced again on the server, which is the copy the attacker cannot touch. For a government system taking applications, grievances or payments, server-side validation is the real gate; the browser check merely saves honest users a wasted trip.\n\nKeep the two rule sets in step, so a form is never accepted by one side and rejected by the other.",
+    "facts": [
+      "HTML5 validation attributes include required, type (email, number, url, date), min, max, minlength, maxlength and pattern.",
+      "Client-side validation exists to give the user immediate feedback and to cut needless requests to the server.",
+      "JavaScript validation handles rules attributes cannot express, such as matching two fields or a custom check digit.",
+      "Every rule checked in the browser must be checked again on the server, because the browser copy is under the user's control.",
+      "Server-side validation is the security boundary; client-side validation is a convenience layer on top of it."
+    ],
+    "traps": [
+      "'Client-side validation makes the form secure' is false. It is bypassed by disabling JavaScript, editing the page in developer tools, or posting directly to the server URL.",
+      "Client-side vs server-side: client-side is fast but untrustworthy, server-side is authoritative but costs a round trip. The correct answer is almost always 'do both', not 'pick one'.",
+      "The required attribute is HTML, not JavaScript. A question asking which technology validates without any scripting wants HTML5 form attributes.",
+      "Validating input is not the same as making it safe to store or display. Parameterised queries and output escaping are separate defences — see Web Security Fundamentals."
+    ],
+    "mnem": "Client for comfort, server for safety.",
+    "rel": [
+      "Forms",
+      "Web Security Fundamentals",
+      "DOM Manipulation"
+    ]
+  },
+  {
+    "id": "c237",
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "REST APIs (Concept)",
+    "def": "REST, Representational State Transfer, is an architectural style for web APIs. Data is exposed as resources, each addressed by its own URL, and the standard HTTP methods act on them: GET to read, POST to create, PUT or PATCH to update, DELETE to remove. Every request is stateless, meaning self-contained, and the response is a representation of the resource — in practice almost always JSON.",
+    "exp": "Resources are nouns, methods are verbs. A URL such as /applications/1234 names one application record; what happens to it is decided by the method, not by the URL. That is why REST endpoints are not named getApplication and deleteApplication.\n\nStateless means the server keeps no memory of the client between requests. Each request carries everything needed — the identifier, the parameters, and the token proving who is calling. The payoff is scale and resilience: any server behind a load balancer can answer any request, and a restart loses nothing. Session state is held by the client and presented on every call.\n\nGET is safe and idempotent: it changes nothing, and repeating it has the same effect as making it once. PUT and DELETE are idempotent but not safe. POST is neither — send it twice and you may create two records, which is why a browser warns before re-submitting a form. The reply carries a status code: 200 for success, 201 for created, 400 for a bad request, 401 unauthorised, 404 not found, 500 for a server-side failure.\n\nIndian government data is increasingly published this way. API Setu is the Union Government's platform for publishing and discovering government APIs, and the India Stack services — Aadhaar authentication, DigiLocker document fetch, UPI — are consumed as APIs, so a department integrates by calling a documented endpoint instead of exchanging files.",
+    "facts": [
+      "REST stands for Representational State Transfer; it is an architectural style layered on HTTP, not a protocol of its own.",
+      "GET reads a resource, POST creates, PUT or PATCH updates, DELETE removes.",
+      "Stateless means each request carries all the information needed to process it and the server keeps no session for the client between requests.",
+      "GET is safe and idempotent; POST is neither, so repeating it may create duplicate records.",
+      "Responses are usually JSON, with the HTTP status code reporting the outcome: 200 OK, 201 Created, 404 Not Found, 500 Internal Server Error.",
+      "API Setu is the Government of India platform for publishing and discovering government APIs; Aadhaar authentication, DigiLocker and UPI are all API-based."
+    ],
+    "traps": [
+      "Stateless does not mean the data never changes, and it does not mean there is no login. It means the server holds no per-client session; identity travels with each request, normally as a token.",
+      "GET vs POST: GET asks for a copy and must not modify data; POST submits data and is not repeat-safe. Using GET to delete a record is a REST violation, not a shortcut.",
+      "REST is a style, not a language or a product. It is contrasted with SOAP, a heavier XML-based protocol with its own envelope and standards.",
+      "JSON is the usual response format but is not part of the definition of REST — a REST API may equally return XML or plain text."
+    ],
+    "mnem": "Nouns in the URL, verbs in the method.",
+    "rel": [
+      "JSON",
+      "Web Security Fundamentals",
+      "World Wide Web"
+    ]
+  },
+  {
+    "id": "c238",
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "JSON",
+    "def": "JavaScript Object Notation: a lightweight, plain-text format for exchanging structured data between programs. Data is written as objects — comma-separated key and value pairs inside braces — and as arrays, ordered lists inside square brackets, nested to any depth. Despite the name it is language-independent: almost every modern language reads and writes it, and it is the default payload format for web APIs.",
+    "exp": "The value types are exactly six: string, number, object, array, the literals true and false, and null. Strings and keys must use double quotes. There is no comment syntax, no trailing comma after the last item, and no date type — dates travel as strings, usually in ISO 8601 form. The quoted-key rule is the one JavaScript object literals do not impose, and it is the commonest reason a hand-written file fails to parse.\n\nWhy it displaced XML for APIs: it is compact, it maps directly onto the dictionary and list types most languages already have, and parsing is a single library call. XML is still used where documents need namespaces, schemas and formal validation. For configuration files YAML is often preferred instead, mainly because it allows comments.\n\nIn practice you meet JSON as the body of a REST API response, in configuration files, in browser storage and in log pipelines. Parsing turns the text into in-memory objects; serialising goes the other way. Because it is plain text, a JSON response can be read in a browser, a text editor or a terminal with no special tool — useful when you are debugging an integration and need to see exactly what the server sent.",
+    "facts": [
+      "JSON stands for JavaScript Object Notation.",
+      "It is a plain-text, language-independent format; Python, Java, C#, PHP and most other languages have built-in support.",
+      "Values may only be a string, a number, an object, an array, true, false or null.",
+      "Objects use braces with double-quoted string keys; arrays use square brackets and preserve order.",
+      "JSON has no comment syntax and no separate date or binary type.",
+      "JSON is the usual response format of REST APIs and has largely replaced XML in that role."
+    ],
+    "traps": [
+      "The name is the trap. JSON is neither part of JavaScript nor anything to do with Java. It borrowed JavaScript's notation only; any language can produce and consume it.",
+      "JSON is ordinary text, not a compiled or binary format, and needs no browser — it opens in any text editor.",
+      "Keys must be double-quoted strings. Unquoted keys, single quotes and a trailing comma are all legal JavaScript but invalid JSON.",
+      "JSON vs XML: JSON is lighter and adequate for data interchange; XML carries attributes, namespaces and schema validation and remains in use for formal documents."
+    ],
+    "mnem": "Braces for objects, brackets for arrays, quotes on every key.",
+    "rel": [
+      "REST APIs (Concept)",
+      "Variables"
+    ]
+  },
+  {
+    "id": "c239",
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "Progressive Web Applications (Introduction)",
+    "def": "A Progressive Web Application is an ordinary web application — HTML, CSS and JavaScript delivered over the web — built so that it can also be installed on a device, launched from the home screen in its own window, keep working with no network, and receive push notifications. It bridges web and native: one codebase, no app store, but much of the behaviour of an installed app.",
+    "exp": "Three pieces make it work. A service worker is a script the browser runs in the background, separate from any page and still alive after the page is closed; it can intercept the app's network requests and answer them from a local cache, which is what lets the app open and function offline or on a weak connection. A web app manifest is a small JSON file declaring the app's name, icons, start URL and display mode, and it is what allows the browser to offer installation and give the app a home-screen icon. HTTPS is required, because a service worker is powerful enough that browsers permit it only on a secure origin.\n\n'Progressive' refers to progressive enhancement: the same application still works as a normal website where the extra capabilities are not available, so no user is locked out.\n\nThe government relevance is offline use and distribution cost. Field staff collecting data in low-connectivity parts of Mizoram can work against a cached PWA and sync when a signal returns, and one build serves every platform with no store approval and no separate Android and iOS releases. The trade-off is that deep hardware and operating-system integration stays weaker than in a true native app.",
+    "facts": [
+      "A PWA is built with standard web technologies but can be installed to the home screen, run offline and receive push notifications.",
+      "The service worker is the background script that caches files and intercepts network requests, which is what makes offline operation possible.",
+      "The web app manifest is a JSON file giving the app's name, icons, start URL and display mode, and it drives the install prompt.",
+      "Service workers are permitted only on a secure origin, so a PWA needs HTTPS.",
+      "One PWA codebase serves all platforms and is distributed from the web rather than through an app store."
+    ],
+    "traps": [
+      "'Progressive' means progressive enhancement — degrading gracefully to an ordinary website. It has nothing to do with images or content loading gradually as you scroll.",
+      "Service worker vs web worker: a service worker sits between the app and the network and outlives the page; a web worker simply runs a script off the main thread for one page.",
+      "Offline capability comes from the service worker and its cache — not from the style sheet, the DNS resolver or the server's access log.",
+      "A PWA is not a native app compiled for the device, and it is not server-side page generation; the code runs in the browser engine."
+    ],
+    "mnem": "",
+    "rel": [
+      "Web Security Fundamentals",
+      "Responsive Design",
+      "JSON"
+    ]
+  },
+  {
+    "id": "c240",
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "Web Accessibility",
+    "def": "Building websites so that people with disabilities can perceive, understand, navigate and interact with them — including users who are blind and use a screen reader, users with low vision or colour blindness, deaf users, and users who cannot operate a mouse. The reference standard is WCAG, the Web Content Accessibility Guidelines, published by the World Wide Web Consortium.",
+    "exp": "WCAG is organised under four principles, remembered as POUR. Perceivable: content must reach the senses — text alternatives for images, captions for video, adequate colour contrast. Operable: everything reachable and usable by keyboard alone, no time traps, no flashing that can trigger seizures. Understandable: plain language, predictable behaviour, clear error messages. Robust: valid semantic markup that assistive technology can interpret reliably. Conformance is graded A, AA and AAA, and AA is the level normally cited as the requirement.\n\nThe working checklist: alt text on meaningful images and empty alt on decorative ones; headings used in order to carry structure rather than to make text look big; every control reachable by keyboard with a visible focus indicator; form fields with proper labels; enough contrast between text and background; captions or transcripts for media; and never using colour alone to carry meaning.\n\nThe Indian context is directly examinable. The Rights of Persons with Disabilities Act, 2016 obliges the government to make information and communication technology, including websites and electronic services, accessible to persons with disabilities. The Guidelines for Indian Government Websites, GIGW, translate that duty into the standard a government site must meet and are built on WCAG, so a state department's site is expected to comply.",
+    "facts": [
+      "WCAG stands for Web Content Accessibility Guidelines and is published by the World Wide Web Consortium (W3C).",
+      "The four WCAG principles are Perceivable, Operable, Understandable and Robust — POUR.",
+      "WCAG conformance levels are A, AA and AAA; AA is the level normally required of public-sector sites.",
+      "The Rights of Persons with Disabilities Act, 2016 requires government information and communication services, including websites, to be accessible.",
+      "GIGW, the Guidelines for Indian Government Websites, set the accessibility and quality standard for Indian government sites and are based on WCAG.",
+      "Alt text describes an image for screen-reader users; a decorative image takes an empty alt so the reader skips it."
+    ],
+    "traps": [
+      "POUR is Perceivable, Operable, Understandable, Robust. Distractor lists swap in performance and design words — Portable, Optimised, Uniform, Responsive, Ordered, Readable.",
+      "The accessibility statute is the Rights of Persons with Disabilities Act, 2016. The usual distractors cover other ground: the IT Act 2000 (cybercrime and electronic records), the RTI Act 2005 (disclosure of information) and the DPDP Act 2023 (personal data).",
+      "Accessibility is not responsive design. A site can render perfectly on a phone and still be impossible to use with a screen reader or by keyboard alone.",
+      "Alt text belongs on meaningful images only. Describing purely decorative graphics makes screen-reader output noisier, not more accessible."
+    ],
+    "mnem": "POUR — Perceivable, Operable, Understandable, Robust.",
+    "rel": [
+      "Search Engine Optimization (Basic)",
+      "Document Structure",
+      "Responsive Design"
+    ]
+  },
+  {
+    "id": "c241",
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "Search Engine Optimization (Basic)",
+    "def": "Structuring a site's content and markup so search engines can find, understand and rank its pages, and so a user scanning the results chooses it. It splits into on-page work (titles, headings, content, internal links), technical work (crawlability, mobile-friendliness, speed, HTTPS) and off-page work (links from other sites). SEO targets the free organic listings, not paid advertising.",
+    "exp": "Search works in three stages. Crawling: a bot follows links and fetches pages; a robots.txt file tells it which paths not to fetch and an XML sitemap lists the URLs the site wants crawled. Indexing: the engine parses each page, extracts its text and structure and stores it. Ranking: on a query the index is searched and results are ordered by relevance, quality and usability signals.\n\nThe basics that matter for a departmental site. Give every page a unique, descriptive title element — that is the clickable headline in the results list. Write a meta description; it does not set the ranking but it is the snippet a user reads before deciding to click. Use one main heading per page with nested headings in order, so the topic hierarchy is machine-readable. Make link text describe its destination: 'download the recruitment notification', not 'click here'. Then serve over HTTPS, work properly on a phone, and load fast — slow pages lose both rank and readers.\n\nNotice how much of this overlaps with accessibility. Descriptive titles, ordered headings, meaningful link text, alt text and clean semantic markup help a crawler and a screen reader for the same reason: both are non-visual readers of the page. Build accessibly and you get most of basic SEO for nothing.",
+    "facts": [
+      "Search engines operate in three stages: crawling (fetching pages by following links), indexing (storing what they contain) and ranking (ordering results for a query).",
+      "The title element supplies the clickable headline shown in search results; each page should have its own.",
+      "The meta description is not a ranking factor but supplies the snippet displayed beneath the title.",
+      "robots.txt tells crawlers which paths not to fetch; an XML sitemap lists the URLs the site wants crawled.",
+      "Mobile-friendliness, HTTPS and page load speed are recognised technical ranking signals.",
+      "SEO improves organic (unpaid) results; buying placement in results is search advertising, a separate activity."
+    ],
+    "traps": [
+      "SEO vs paid search: SEO works on the free organic listings. Paying for an ad slot puts you above the results but does not raise your organic rank.",
+      "The meta description influences click-through, not ranking. The old meta keywords tag is ignored by the major engines, so keyword stuffing there achieves nothing.",
+      "robots.txt is a request not to crawl, not a security measure. The file itself is public, and listing a path there advertises it — anything sensitive needs authentication.",
+      "Headings mark structure, not font size. Skipping levels or using a heading purely to enlarge text damages both SEO and screen-reader navigation."
+    ],
+    "mnem": "Crawl, index, rank.",
+    "rel": [
+      "Web Accessibility",
+      "Document Structure",
+      "Responsive Design"
+    ]
+  },
+  {
+    "id": "c242",
+    "paper": "TECH2",
+    "unit": "III",
+    "unitTitle": "Web Technologies",
+    "sub": "Web Security Fundamentals",
+    "def": "The baseline defences a public web application needs: an encrypted transport (HTTPS/TLS), untrusted input treated as untrusted, output escaped before it goes back into a page, sound authentication and session handling, and error messages that leak nothing about the internals. The governing assumption is that everything arriving from a browser — form fields, URL parameters, headers, cookies — was written by an attacker until the server proves otherwise.",
+    "exp": "HTTPS is HTTP carried inside TLS. It gives confidentiality (nobody on the network path can read the traffic), integrity (nobody can alter it undetected) and server authentication (the certificate says you reached the host named in the address bar). What it does not give is any verdict on the site itself. The padlock means encrypted, not trustworthy — a fraudulent site can obtain a valid certificate in minutes, which makes 'it has a padlock so it must be genuine' both a common public misconception and a favourite exam question.\n\nTwo injection classes to know conceptually. SQL injection: user-supplied text is pasted into a database query and ends up executed as part of the command, letting an attacker read or destroy data. The defence is parameterised queries, in which supplied data can never be read as instructions. Cross-site scripting: user-supplied text is written back into a page and the browser executes it as script, letting an attacker act as other visitors and take over their sessions. The defence is escaping output for wherever it lands.\n\nBoth share one root cause — data was trusted as code. Hence the rule that all validation is repeated on the server. Add hashed and salted passwords, least privilege for the database account, and prompt patching. CERT-In is India's nodal agency for reporting such incidents.",
+    "facts": [
+      "HTTPS is HTTP inside TLS; it protects confidentiality and integrity of the connection and authenticates the server through its certificate.",
+      "The padlock indicates an encrypted connection only — it is no statement about the honesty or safety of the site.",
+      "SQL injection means crafted input is treated as part of a database command; the defence is parameterised queries plus server-side validation.",
+      "Cross-site scripting means attacker-supplied text is executed as script in another user's browser; the defence is escaping output.",
+      "All input validation must be repeated on the server, because anything enforced in the browser can be bypassed.",
+      "CERT-In is India's national nodal agency for reporting and responding to cyber security incidents."
+    ],
+    "traps": [
+      "Padlock equals encrypted channel, not a trustworthy site. Phishing sites routinely run on HTTPS, and the padlock says nothing about government approval or freedom from cookies.",
+      "SQL injection is not a request flood, not password guessing and not interception in transit — those are denial of service, brute force and man-in-the-middle. Injection is input being executed as a command.",
+      "SQL injection hits the server's database; cross-site scripting hits other users' browsers. Both stem from unvalidated input but the victim differs.",
+      "HTTPS protects data only in transit. An encrypted connection to an application with injection flaws, weak passwords or an exposed database is still an insecure system."
+    ],
+    "mnem": "",
+    "rel": [
+      "Client-side Validation",
+      "REST APIs (Concept)",
+      "World Wide Web"
+    ]
+  },
+  {
+    "id": "c243",
     "paper": "TECH2",
     "unit": "IV",
     "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
@@ -3343,7 +6934,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c118",
+    "id": "c244",
     "paper": "TECH2",
     "unit": "IV",
     "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
@@ -3372,7 +6963,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c119",
+    "id": "c245",
     "paper": "TECH2",
     "unit": "IV",
     "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
@@ -3399,7 +6990,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c120",
+    "id": "c246",
     "paper": "TECH2",
     "unit": "IV",
     "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
@@ -3427,7 +7018,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c121",
+    "id": "c247",
     "paper": "TECH2",
     "unit": "IV",
     "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
@@ -3454,7 +7045,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c122",
+    "id": "c248",
     "paper": "TECH2",
     "unit": "IV",
     "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
@@ -3483,7 +7074,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c123",
+    "id": "c249",
     "paper": "TECH2",
     "unit": "IV",
     "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
@@ -3511,7 +7102,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c124",
+    "id": "c250",
     "paper": "TECH2",
     "unit": "IV",
     "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
@@ -3540,7 +7131,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c125",
+    "id": "c251",
     "paper": "TECH2",
     "unit": "IV",
     "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
@@ -3569,7 +7160,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c126",
+    "id": "c252",
     "paper": "TECH2",
     "unit": "IV",
     "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
@@ -3598,7 +7189,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c127",
+    "id": "c253",
     "paper": "TECH2",
     "unit": "IV",
     "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
@@ -3627,7 +7218,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c128",
+    "id": "c254",
     "paper": "TECH2",
     "unit": "IV",
     "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
@@ -3656,7 +7247,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c129",
+    "id": "c255",
     "paper": "TECH2",
     "unit": "IV",
     "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
@@ -3685,7 +7276,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c130",
+    "id": "c256",
     "paper": "TECH2",
     "unit": "IV",
     "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
@@ -3714,7 +7305,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c131",
+    "id": "c257",
     "paper": "TECH2",
     "unit": "IV",
     "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
@@ -3743,7 +7334,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c132",
+    "id": "c258",
     "paper": "TECH2",
     "unit": "IV",
     "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
@@ -3772,7 +7363,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c133",
+    "id": "c259",
     "paper": "TECH2",
     "unit": "IV",
     "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
@@ -3801,7 +7392,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c134",
+    "id": "c260",
     "paper": "TECH2",
     "unit": "IV",
     "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
@@ -3830,7 +7421,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c135",
+    "id": "c261",
     "paper": "TECH2",
     "unit": "IV",
     "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
@@ -3859,7 +7450,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c136",
+    "id": "c262",
     "paper": "TECH2",
     "unit": "IV",
     "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
@@ -3887,7 +7478,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c137",
+    "id": "c263",
     "paper": "TECH2",
     "unit": "IV",
     "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
@@ -3916,7 +7507,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c138",
+    "id": "c264",
     "paper": "TECH2",
     "unit": "IV",
     "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
@@ -3944,7 +7535,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c139",
+    "id": "c265",
     "paper": "TECH2",
     "unit": "IV",
     "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
@@ -3972,7 +7563,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c140",
+    "id": "c266",
     "paper": "TECH2",
     "unit": "IV",
     "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
@@ -4000,7 +7591,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c141",
+    "id": "c267",
     "paper": "TECH2",
     "unit": "IV",
     "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
@@ -4029,7 +7620,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c142",
+    "id": "c268",
     "paper": "TECH2",
     "unit": "IV",
     "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
@@ -4057,7 +7648,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c143",
+    "id": "c269",
     "paper": "TECH2",
     "unit": "IV",
     "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
@@ -4085,7 +7676,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c144",
+    "id": "c270",
     "paper": "TECH2",
     "unit": "IV",
     "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
@@ -4113,7 +7704,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c145",
+    "id": "c271",
     "paper": "TECH2",
     "unit": "IV",
     "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
@@ -4141,7 +7732,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c146",
+    "id": "c272",
     "paper": "TECH2",
     "unit": "IV",
     "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
@@ -4169,7 +7760,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c147",
+    "id": "c273",
     "paper": "TECH2",
     "unit": "IV",
     "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
@@ -4197,7 +7788,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c148",
+    "id": "c274",
     "paper": "TECH2",
     "unit": "IV",
     "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
@@ -4225,7 +7816,7 @@ window.CONCEPTS = [
     ]
   },
   {
-    "id": "c149",
+    "id": "c275",
     "paper": "TECH2",
     "unit": "IV",
     "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
@@ -4251,6 +7842,599 @@ window.CONCEPTS = [
       "Workflow Configuration",
       "Metadata Management",
       "e-Office Concept and Digital Office Environment"
+    ]
+  },
+  {
+    "id": "c276",
+    "paper": "TECH2",
+    "unit": "V",
+    "unitTitle": "IT Governance, Business Communication and Aptitude",
+    "sub": "IT Service Management (ITSM)",
+    "def": "Managing IT end to end as a set of services delivered to meet the needs of the organisation, rather than as a collection of machines. A service is what the user actually consumes — email, the file server, the counter application — at an agreed level of quality, and ITSM organises the people, processes and technology behind it to keep delivering that quality.",
+    "exp": "The shift is from systems to services. Nobody in the office asks for a server; they ask to be able to issue a certificate today. So IT is measured by what the user experiences: is the service available, is it fast enough, and is it restored quickly when it breaks.\n\nThe service desk is the single point of contact between users and the IT organisation. One known place to report a fault, raise a request or ask for status, and every contact logged as a ticket that can be tracked, prioritised and reported on. It is not a procurement office and not a programming team.\n\nFour kinds of work run through it, handled differently. An incident is an unplanned disruption and the aim is fast restoration. A service request is routine and pre-approved — a new mailbox, a password reset. A problem is the underlying cause behind repeated incidents. A change is a controlled modification to a live service.\n\nService levels are agreed in writing: availability, response time and resolution time per service, usually in the contract with the vendor or hosting agency.\n\nIn a government office the payoff is continuity. Staff are transferred, but the ticket history, the service catalogue and documented procedures stay behind — and that record is the evidence when a vendor is not performing.",
+    "facts": [
+      "ITSM manages IT as services delivered at an agreed quality, not as isolated items of hardware.",
+      "The service desk is the single point of contact between users and IT, and every contact is logged as a ticket.",
+      "Incident management restores service, problem management removes the cause, change management controls modifications, and request fulfilment handles routine standard requests.",
+      "A Service Level Agreement (SLA) states the agreed availability and the response and resolution targets for a service.",
+      "A workaround restores service without fixing the cause; the cause stays open as a problem."
+    ],
+    "traps": [
+      "ITSM is not system administration. Installing and configuring desktops is one technical activity inside ITSM, not a definition of it.",
+      "Incident vs service request — an incident is something broken and unplanned; a request is a routine, pre-approved ask such as a new mailbox. Both arrive through the service desk, which is why they get confused.",
+      "The service desk exists for users; negotiating hardware prices with vendors is procurement work, and designing the server room is infrastructure work."
+    ],
+    "mnem": "",
+    "rel": [
+      "ITIL Fundamentals",
+      "IT Asset Management",
+      "Documentation Standards"
+    ]
+  },
+  {
+    "id": "c277",
+    "paper": "TECH2",
+    "unit": "V",
+    "unitTitle": "IT Governance, Business Communication and Aptitude",
+    "sub": "ITIL Fundamentals",
+    "def": "ITIL is the most widely used published framework of good practice for IT Service Management. It is not a statute and not a product: it is a body of guidance describing how to run IT services — handling incidents, problems, changes and requests, agreeing service levels, keeping configuration records and improving continually. Organisations adopt it and adapt it to their size and need.",
+    "exp": "The distinction examiners test most is incident against problem. An incident is a single disruption of service, and the objective is to restore normal service as quickly as possible, even by a temporary workaround. A problem is the underlying cause of one or more incidents, and the objective is to eliminate it so the incidents stop recurring. Restoring the printer is incident work; finding out why that printer fails every Monday is problem work.\n\nChange management exists to stop a planned modification causing an unplanned outage. Every change to a live service is assessed for risk, authorised, scheduled, and implemented with a fallback plan. Low-risk repetitive changes can be pre-approved as standard changes; urgent ones follow expedited authorisation and are recorded afterwards.\n\nService request fulfilment covers the routine and pre-defined, so a password reset does not need a fresh risk assessment. Service level management agrees and reports the targets. Configuration records describe what components make up a service and how they depend on one another, which is what makes impact assessment possible.\n\nPriority is derived from impact combined with urgency, not from who is shouting loudest, and unresolved items escalate on a defined path. Running through all of it is continual improvement: measure, review what went wrong, and change the practice rather than repeat the failure.",
+    "facts": [
+      "ITIL is a framework of good practice for ITSM, adopted and adapted by an organisation, not a legal standard.",
+      "Incident management aims at restoring normal service as quickly as possible, including by a temporary workaround.",
+      "Problem management investigates the underlying cause of incidents and removes it so they stop recurring.",
+      "Change management ensures changes to IT services are assessed, authorised, scheduled and implemented in a controlled way, with a fallback plan.",
+      "Incident priority is normally set from impact combined with urgency.",
+      "A standard change is pre-authorised because it is low risk and repetitive; an emergency change gets expedited authorisation."
+    ],
+    "traps": [
+      "Incident vs problem — an incident is a single disruption to be restored, a problem is the cause to be eliminated. Both can be raised by a user or by monitoring, so the source is not the distinction, and neither is the number of users affected.",
+      "Change management is not incident management. Restoring service after an outage is incident work; controlling a planned modification is change work.",
+      "Closing the incident does not close the problem. A workaround gets the user working again while the cause remains open.",
+      "ITIL certification is awarded to individuals. An organisation adopts ITIL practices; there is no licence it must hold to operate."
+    ],
+    "mnem": "Incident = Immediate restore. Problem = root cause Permanently removed.",
+    "rel": [
+      "IT Service Management (ITSM)",
+      "IT Asset Management",
+      "Documentation Standards"
+    ]
+  },
+  {
+    "id": "c278",
+    "paper": "TECH2",
+    "unit": "V",
+    "unitTitle": "IT Governance, Business Communication and Aptitude",
+    "sub": "IT Asset Management",
+    "def": "The discipline of tracking and controlling every IT asset the office holds — desktops, laptops, printers, servers, network equipment, UPS and software — through its whole lifecycle: planning and procurement, receipt and tagging, deployment, maintenance and upgrade, and finally secure disposal or write-off. Its central record is the asset register.",
+    "exp": "The asset register answers three questions for every item: what do we own, where is it, and who is accountable for it. Around that sit the purchase date and cost, the warranty or AMC status, and the current condition. Each item carries a unique inventory number, physically labelled, matching its register entry, and periodic physical verification reconciles the register against what is actually on the floor.\n\nThat record makes everything else possible. AMC renewals can be planned instead of missed. Replacement can be budgeted before machines fail. Audit and departmental inspection expect the stock position to match reality. When a serious vulnerability is announced, the register tells you in minutes how many affected machines you have and where.\n\nDisposal is part of the discipline, not the end of it. Before any machine leaves the office — condemned, transferred or handed back to a vendor — its storage must be sanitised, by secure wiping or physical destruction of the drive, because an old hard disk carries official records and personal data. The equipment is then e-waste and goes to an authorised recycler, not to a scrap dealer or a store room, and the write-off is recorded against the asset entry through the prescribed condemnation procedure.\n\nHardware and software both fall inside asset management; the licence-entitlement half of the software side is handled specifically as Software Asset Management.",
+    "facts": [
+      "IT Asset Management covers the full lifecycle: acquisition, deployment, maintenance, and secure disposal or write-off.",
+      "The asset register records what the office owns, where each item is and who is accountable for it.",
+      "Data-bearing devices must be securely wiped or physically destroyed before disposal, transfer or vendor return.",
+      "End-of-life IT equipment is e-waste and should go to an authorised recycler, with the disposal recorded against the asset entry.",
+      "Physical verification periodically reconciles the register against the equipment actually present.",
+      "Each asset carries a unique inventory or asset number linking the physical item to its register entry."
+    ],
+    "traps": [
+      "ITAM vs SAM — ITAM is the whole lifecycle of hardware and software assets; SAM is specifically licence entitlement and compliance.",
+      "An asset register is an accountability record, not a security control. Listing a machine does not protect it from malware and does not stop it failing.",
+      "Asset register vs configuration record — the register is about ownership, custody and value; the configuration record describes which components make up a service and how they depend on each other.",
+      "An item stays on the register until it is formally condemned or written off. Physically removing it from the room does not remove it from the books."
+    ],
+    "mnem": "",
+    "rel": [
+      "Software Asset Management",
+      "IT Procurement",
+      "IT Service Management (ITSM)"
+    ]
+  },
+  {
+    "id": "c279",
+    "paper": "TECH2",
+    "unit": "V",
+    "unitTitle": "IT Governance, Business Communication and Aptitude",
+    "sub": "Software Asset Management",
+    "def": "The licensing and compliance side of asset management. It is concerned with knowing what software is actually installed across the office, what has actually been purchased, and whether the two agree — so that use stays within purchased entitlement, and spending stays within what is actually used.",
+    "exp": "The core activity is reconciliation. Build an installation inventory, from a discovery tool or a manual audit of every machine, and match it against the purchase records: invoices, licence certificates and keys. The difference between installs and entitlements is the compliance position.\n\nIt can go wrong in both directions, and in a government office both are failures. Under-licensing means more installations than licences — forty licences bought, fifty-five machines running it, so fifteen copies are in use with no entitlement. That is a compliance breach, the thing a vendor or departmental audit penalises, and unlicensed software in a public office is a legal and disciplinary exposure, not just an accounting error. Over-purchase is the opposite: licences bought or renewed year after year for users who have retired or transferred. Nothing illegal happens, but it is wasted public money.\n\nLicence models decide what counts. Perpetual against subscription; per-device against per-named-user against concurrent-user; volume or site licences for a whole department. OEM licences are tied to the machine they shipped with and generally cannot be moved to another one. A product that is free for personal or non-commercial use still needs a paid licence for office use.\n\nKeep certificates, invoices and keys with the asset record, and when a machine is retired, formally reassign the freed licence instead of leaving it stranded and re-buying it.",
+    "facts": [
+      "SAM matches installations against entitlements; the gap in either direction is the finding.",
+      "Under-licensing means more installations than licences held — a compliance breach that can attract penalties on audit.",
+      "Over-licensing or over-purchase means licences bought and never used — wasted public money, not a legal exposure.",
+      "Common licence models: perpetual vs subscription, and per-device vs per-named-user vs concurrent-user.",
+      "OEM licences are tied to the machine they were supplied with and normally cannot be transferred to another machine.",
+      "Software offered free for personal or non-commercial use still requires a paid licence for government office use."
+    ],
+    "traps": [
+      "Under-licensing vs over-licensing — 55 installs against 40 licences is under-licensing, a breach. 40 licences with 10 installs is over-purchase, a waste. Examiners routinely swap the two labels.",
+      "\"Free to download\" is not \"free to use in an office\". Read the licence condition, not the price.",
+      "SAM is not ITAM. Physically labelling and tracking the desktop is asset management; tracking the licence installed on it is software asset management.",
+      "Uninstalling the software does not by itself recover the licence — the entitlement has to be reassigned in the records, or the office keeps paying for a seat nobody uses."
+    ],
+    "mnem": "",
+    "rel": [
+      "IT Asset Management",
+      "IT Procurement"
+    ]
+  },
+  {
+    "id": "c280",
+    "paper": "TECH2",
+    "unit": "V",
+    "unitTitle": "IT Governance, Business Communication and Aptitude",
+    "sub": "Business Continuity Planning",
+    "def": "The organisation-wide discipline of arranging in advance so that the office's essential functions can continue during and after a serious disruption — fire, flood, landslide, prolonged power failure, a cyber attack, loss of the building or loss of key staff. It covers people, premises, processes, suppliers and information, not only IT.",
+    "exp": "It begins with a Business Impact Analysis. List the functions the office actually performs, work out what happens if each one stops, and for how long that is bearable. That sorts functions into critical and deferrable and produces the recovery targets everything else must meet. A pension counter or a licence-issuing window cannot pause for three days; the annual report can.\n\nThen come the strategies for each critical function: an alternate premises or work-from-home arrangement, a manual or paper fallback procedure for when the system is down, cross-trained staff and a named deputy for every key role, an alternate supplier, standby power, and a pre-agreed line of communication to citizens and to higher authority.\n\nThe plan document itself has to say who is authorised to declare an emergency, who calls whom, what each person does, and in what order. It is only as good as its currency: contact lists go stale within months, and staff transfer.\n\nAn untested plan is not a plan. Rehearse it — a walkthrough, a tabletop exercise, or a live drill — record what failed, and correct the document.\n\nDisaster Recovery Planning sits inside this, as the IT workstream. Restoring the server achieves nothing if there is nowhere for staff to sit and nobody remembers the manual procedure. Ownership therefore rests with the head of office, not with the IT section.",
+    "facts": [
+      "BCP keeps the organisation's essential functions running; it covers people, premises, processes and suppliers, not only IT systems.",
+      "Business Impact Analysis identifies the critical functions and how long each can be down before consequences become unacceptable, and it feeds the recovery targets.",
+      "Disaster Recovery Planning is the IT-focused component sitting inside the wider business continuity plan.",
+      "A continuity plan must be tested — walkthrough, tabletop exercise or live drill — and the call tree and contact details kept current.",
+      "Both BCP and DRP are prepared in advance and apply to any cause of disruption, whether natural, technical or malicious."
+    ],
+    "traps": [
+      "BCP vs DRP — BCP keeps the organisation's overall functions running; DRP restores IT systems and data. DRP is a part of BCP, not a parallel alternative to it.",
+      "Neither is limited by cause: business continuity is not \"only for natural disasters\" and disaster recovery is not \"only for cyber attacks\".",
+      "Neither is written after the event. Both are prepared beforehand; a plan drafted during the crisis is not a plan.",
+      "BCP is not backup. Backup is a technical measure the DRP relies on; continuity also needs premises, staff and manual procedures."
+    ],
+    "mnem": "BCP keeps the Business working; DRP brings the Data and systems back.",
+    "rel": [
+      "Disaster Recovery Planning",
+      "Disaster Recovery Concepts"
+    ]
+  },
+  {
+    "id": "c281",
+    "paper": "TECH2",
+    "unit": "V",
+    "unitTitle": "IT Governance, Business Communication and Aptitude",
+    "sub": "Disaster Recovery Planning",
+    "def": "The planning discipline that sets out in advance how IT systems, applications and data will be restored after a disruptive event, and how fast. It names the critical systems, fixes a recovery target for each, specifies the standby arrangement that will meet that target, and gives the step-by-step restoration procedure. It is the IT workstream of business continuity.",
+    "exp": "Two targets carry the whole subject, and they must be learnt side by side.\n\nRecovery Point Objective is the amount of data, expressed as a period of work, that the office can afford to lose. \"If the server fails we can lose at most one hour of data\" is an RPO of one hour, and it dictates how often backups or replication must run — here, at least hourly.\n\nRecovery Time Objective is the maximum acceptable time a service may remain unavailable before it is restored. It dictates the standby arrangement: restoring from off-site media, a warm standby with equipment ready, or continuous replication to a second site that can take over immediately.\n\nRPO looks backwards from the moment of failure and measures data loss. RTO looks forwards from it and measures downtime. Tighter targets cost more, so each system gets its own, set from the Business Impact Analysis rather than applied uniformly.\n\nThe plan must also state who is authorised to declare a disaster and invoke it, the order in which systems come back given their dependencies, where the off-site copies and credentials are held, and how normal working is resumed.\n\nFinally, a restore that has never been tested is an assumption, not a capability. Run periodic test restores and failover drills, and compare the time actually taken against the stated RTO.",
+    "facts": [
+      "RPO (Recovery Point Objective) is the maximum tolerable data loss expressed as a period of time, and it sets how often backups or replication must run.",
+      "RTO (Recovery Time Objective) is the maximum acceptable time a service may remain unavailable before it is restored, and it drives the choice of standby arrangement.",
+      "\"We can afford to lose at most one hour of data\" states an RPO of one hour, not an RTO.",
+      "DRP is the IT component of business continuity and takes its priorities from the Business Impact Analysis.",
+      "A recovery site may be cold (space and power only), warm (equipment in place, data loaded periodically) or hot (running and able to take over).",
+      "Systems must be recovered in dependency order, and the off-site copy must be far enough away not to be destroyed by the same event."
+    ],
+    "traps": [
+      "RPO vs RTO — RPO is data loss looking back from the failure, RTO is downtime looking forward from it. Swapping the two is the standard distractor.",
+      "RTO is not Mean Time Between Failures and not the SLA uptime percentage. Those describe reliability and availability; RTO is a recovery target.",
+      "DRP restores IT; it does not by itself keep the office functioning. Staff, premises and manual fallback belong to business continuity.",
+      "A backup that has never been test-restored proves neither the RPO nor the RTO. Backup success messages are not evidence of recovery."
+    ],
+    "mnem": "RPO = the Point in the past you fall back to (data lost). RTO = the Time taken to get back up (downtime).",
+    "rel": [
+      "Business Continuity Planning",
+      "Disaster Recovery Concepts",
+      "Backup Concepts"
+    ]
+  },
+  {
+    "id": "c282",
+    "paper": "TECH2",
+    "unit": "V",
+    "unitTitle": "IT Governance, Business Communication and Aptitude",
+    "sub": "IT Procurement",
+    "def": "How a government office acquires IT goods and services — hardware, software licences, networking, AMC, manpower, hosting — from identifying the need and writing the specification, through inviting and evaluating offers, to award of contract, delivery, acceptance and payment. Being public money, it is bound by procurement rules and must be competitive, transparent and documented at every step.",
+    "exp": "For standard items — laptops, printers, UPS, consumables — the usual route is GeM, the Government e-Marketplace. It is an online marketplace portal on which registered sellers list goods and services and government buyers place orders directly, with bidding and reverse-auction facilities for larger quantities. Its purpose is faster and more transparent public purchasing. It is a buying platform, not a licence-audit tool and not an employee register.\n\nWhere the requirement is large or non-standard, a tender is floated on an e-procurement portal, with an RFP or RFQ setting out the scope, technical specification, evaluation criteria, delivery schedule and contract terms. The specification must be generic and brand-neutral, or competition is reduced to one supplier and the tender will not survive scrutiny.\n\nThe two-bid system is directly examinable. The technical bid and the financial bid are submitted together but in separate sealed covers. Technical bids are opened and evaluated first against the specification, and only a bidder found technically qualified has its financial bid opened — so the quoted price cannot influence the technical judgement.\n\nAward is commonly to L1, the lowest price among the technically qualified. Where capability matters more than price, as in software development or consultancy, a combined quality-and-cost score is used instead.\n\nProcurement is not finished at delivery: inspection and acceptance testing, installation, warranty and AMC terms, and entry in the asset register all follow.",
+    "facts": [
+      "GeM (Government e-Marketplace) is an online portal through which government buyers procure goods and services from registered sellers.",
+      "In a two-bid tender the financial bid is opened only after the technical bid has been evaluated and found to meet the specification.",
+      "The purpose of the two-bid system is that the quoted price cannot influence the technical evaluation.",
+      "L1 is the lowest-priced offer among technically qualified bidders; quality-and-cost-based selection scores capability and price together and is used where capability matters more.",
+      "Specifications must be generic and brand-neutral so that competition is not restricted to one supplier.",
+      "Procurement concludes only after inspection and acceptance, and the delivered item is then entered in the asset register."
+    ],
+    "traps": [
+      "In a two-bid tender both bids are submitted at the same time in separate covers; only the opening is staged. The bidder does not send the financial bid later.",
+      "L1 is not simply the lowest quotation received — it is the lowest among bidders already found technically qualified. A cheap but non-compliant bid is never opened for price.",
+      "Having supplied to the department before is not a ground for qualifying a bidder or opening its financial bid.",
+      "An RFP invites offers against a stated requirement; the purchase order is the separate instrument that actually places the order after award."
+    ],
+    "mnem": "",
+    "rel": [
+      "IT Asset Management",
+      "Software Asset Management",
+      "Project Management Fundamentals"
+    ]
+  },
+  {
+    "id": "c283",
+    "paper": "TECH2",
+    "unit": "V",
+    "unitTitle": "IT Governance, Business Communication and Aptitude",
+    "sub": "Documentation Standards",
+    "def": "An organisation-wide set of rules for how official IT documents are written, structured, named, versioned, approved and stored — expected sections and headings, consistent terminology and layout, a file-naming convention, a version number and date, a named author and approver, and a review cycle. The result is that any reader who knows the standard can locate information in any document without relearning its arrangement.",
+    "exp": "Documentation is an asset, not overhead, and there is a practical test of whether yours works. While you are on leave, or after your transfer, can a colleague run the system from what you wrote? If not, it has failed however neat it looks.\n\nEvery document has an audience and a purpose, and those decide the content. A runbook for the operator on duty is a numbered procedure with exact commands, expected output and an escalation contact. A design note for your successor explains why the system is built as it is. A user manual for a clerk avoids jargon. Writing one when the reader needed another is the common failure.\n\nVersion control is the second pillar. A version number and date on the face of the document let anyone holding a copy tell whether it is current, so nobody acts on a superseded procedure after configurations, contacts or rules have changed. Keep a revision history — version, date, author, what changed, who approved — and clearly mark or withdraw superseded copies.\n\nNaming conventions and one controlled storage location make documents findable, instead of copies scattered across mailboxes and pen drives.\n\nCurrency matters most. A runbook listing last year's IP addresses is worse than no runbook, because it is trusted and followed. Update the document as part of the change, not afterwards.",
+    "facts": [
+      "A documentation standard fixes the expected sections, headings, terminology and layout, so a reader can find information quickly in any document.",
+      "A version number and date identify which revision is current and stop readers acting on a superseded copy.",
+      "A revision history records the version, the date, the author, what changed and who approved it.",
+      "A runbook is the step-by-step operational procedure for running or recovering a system, and must be updated whenever the system changes.",
+      "Audience and purpose decide a document's content: operator, successor administrator, or end user."
+    ],
+    "traps": [
+      "Versioning only identifies the current revision. It does not reduce file size, encrypt the contents, prevent printing or make the document legally binding.",
+      "A standard does not remove the need for review and approval, and it does not mean documents can be discarded once a project ends.",
+      "Out-of-date documentation is more dangerous than missing documentation, because people follow it.",
+      "Documentation standards govern form — structure, naming, versioning, approval. They do not certify that the technical content is correct."
+    ],
+    "mnem": "",
+    "rel": [
+      "Technical Report Writing",
+      "Official Correspondence",
+      "Meeting Documentation"
+    ]
+  },
+  {
+    "id": "c284",
+    "paper": "TECH2",
+    "unit": "V",
+    "unitTitle": "IT Governance, Business Communication and Aptitude",
+    "sub": "Project Management Fundamentals",
+    "def": "A project is a temporary effort with a defined start, end and deliverable, producing a unique result — cabling a new office network, migrating records into a new application. Operations are the ongoing, repetitive running of what the project handed over. Project management is planning, executing, monitoring and closing that temporary effort within agreed constraints.",
+    "exp": "The triple constraint is scope, time and cost, with quality as what suffers when they are squeezed. They trade against each other: enlarge the scope and either the schedule or the budget must grow, and if neither is allowed to move, quality falls. Fixing all three and then adding work is the standard way projects fail.\n\nThe phases run initiation, planning, execution, monitoring and control, and closure. Initiation establishes the need, justification and sponsor, and a project charter formally authorises the work. Planning produces the work breakdown, schedule, budget, resource plan and risk register. Execution does the work; monitoring compares progress against plan and routes change requests through change control. Closure — handover to operations, final acceptance, settlement of payments, documentation and lessons recorded — is the phase most often skipped.\n\nStakeholders are everyone affected: the sponsor, the user department, staff whose working method changes, the vendor, the citizens served. Identify them early and agree who decides what, because unidentified stakeholders surface late with requirements.\n\nRisk is a possible future event, assessed on likelihood and impact, answered by avoiding, mitigating, transferring or accepting it, and reviewed throughout. An issue is already happening.\n\nScope creep is work added little by little with no matching change to time, cost or approval. The cure is a written scope and a change-control route, not refusing all change.",
+    "facts": [
+      "A project is temporary, with a defined start, end and unique deliverable; operations are ongoing and repetitive.",
+      "The triple constraint is scope, time and cost, and quality degrades when they are traded badly.",
+      "The usual phases are initiation, planning, execution, monitoring and control, and closure.",
+      "A project charter formally authorises the project and names the sponsor and the high-level scope.",
+      "A risk is a possible future event, handled by avoid, mitigate, transfer or accept; an issue is a problem already occurring.",
+      "Scope creep is the uncontrolled addition of work without a matching adjustment to time, cost or formal approval."
+    ],
+    "traps": [
+      "Project vs operations — the distinction is temporary-and-unique against ongoing-and-repetitive. It is not whether computers are involved, not whether a vendor executes it, and projects certainly do have budget limits.",
+      "The triple constraint is scope, time and cost. It is not people-process-technology and not risk-reward-reputation, which are the usual distractors.",
+      "Scope creep is not the same as an approved change. A change goes through change control and adjusts time and cost; creep does neither.",
+      "A project does not end at go-live. Closure, with handover, acceptance, documentation and lessons learned, is a distinct phase."
+    ],
+    "mnem": "",
+    "rel": [
+      "IT Procurement",
+      "Documentation Standards",
+      "IT Service Management (ITSM)"
+    ]
+  },
+  {
+    "id": "c285",
+    "paper": "TECH2",
+    "unit": "V",
+    "unitTitle": "IT Governance, Business Communication and Aptitude",
+    "sub": "Official Correspondence",
+    "def": "The written exchange by which an office conducts its business. It divides two ways: internal correspondence, within the organisation (office memorandum, office order, circular), and external correspondence, with other departments, other governments, firms and the public (the official letter, the demi-official letter, notifications, tenders). Office mail is classified as incoming and outgoing, entered in a receipt or despatch register so it can be traced.",
+    "exp": "The Indian official forms are told apart by tone and by their salutation-subscription pairing. An official letter is formal and impersonal, addressed to a post rather than to a person: it opens with Sir or Madam and closes Yours faithfully. A demi-official (D.O.) letter is officer to officer, written in the first person and signed personally: Dear Shri Lalthanga, closing Yours sincerely. It is used to draw an individual officer's personal attention. An office memorandum carries no salutation and no subscription, and is written in the third person. A circular sends identical content to many addressees inside the organisation; a notification is published in the Gazette to give a decision legal effect.\n\nEvery official communication carries a file or reference number and a date, and a subject line stating the matter in one line, which is what an officer files by. Enclosures are listed at the end. An attention line names the individual dealing with the matter, so the letter is not delayed in the general dak. In full block form every line, including the date and the subscription, begins flush at the left margin with no indentation.\n\nThe General English paper's Letter Writing topic covers parts and layout in drafting detail. A resume follows different rules: professional experience in reverse chronological order, most recent first, and its purpose is to secure an interview, not the post itself.",
+    "facts": [
+      "The two basic types of correspondence are internal and external; office mail is classified as incoming and outgoing.",
+      "An official letter pairs Sir or Madam with Yours faithfully; a demi-official (D.O.) letter pairs Dear Shri or Smt plus the name with Yours sincerely, and is written in the first person.",
+      "An office memorandum has no salutation and no subscription and is written in the third person.",
+      "Full block form places every line flush at the left margin with no indentation.",
+      "An attention line routes a letter to the individual handling the matter within the addressee organisation.",
+      "In a resume, professional experience is listed in reverse chronological order, the most recent post first."
+    ],
+    "traps": [
+      "D.O. letter versus official letter: the D.O. is personal and first person, closing Yours sincerely; the official letter is impersonal, closing Yours faithfully. Swapping the two subscriptions is the standard distractor.",
+      "Attention line versus inside address: the inside address is the organisation written to; the attention line names the individual within it. Only the attention line speeds up routing.",
+      "A circular goes to many addressees inside the organisation; a notification is published in the Gazette to give legal effect. They are not interchangeable.",
+      "The purpose of a resume is to secure an interview, not to secure the job — the offer follows the interview, not the paper."
+    ],
+    "mnem": "Faithfully follows Sir; Sincerely follows a name.",
+    "rel": [
+      "Technical Report Writing",
+      "Email Etiquette",
+      "Documentation Standards"
+    ]
+  },
+  {
+    "id": "c286",
+    "paper": "TECH2",
+    "unit": "V",
+    "unitTitle": "IT Governance, Business Communication and Aptitude",
+    "sub": "Technical Report Writing",
+    "def": "A structured written account of technical work — a site survey, a system evaluation, a feasibility study, a post-incident review — written so that the officer receiving it can act on it. The standard order is title page, executive summary, introduction and scope, body (method, findings, analysis), conclusions, recommendations, and annexures. It is written to produce a decision, not to display technical detail.",
+    "exp": "Write for the reader who will act. The approving officer is usually not a technical person and will read the executive summary and the recommendations and very little else. So put the substance where it will be found. The executive summary is a standalone condensation of the whole report — what was examined, what was found, what you recommend — and it must make sense to someone who never reads the body. It is not an introduction and not a statement of what the report is about.\n\nSeparate finding from opinion. The body states what was measured or observed and by what method; the analysis interprets it; the conclusion states what the evidence shows and introduces nothing new. A recommendation that cannot be traced back to a finding is the commonest weakness in a departmental report.\n\nRecommendations must be actionable: specific, with an owner and a timeframe. Security should be improved is not a recommendation. Replace the two unsupported servers in the district office within the current financial year, by the Assistant Engineer (IT), is one.\n\nBulk goes to the annexures. Detailed data tables, raw survey forms, long configuration listings, log extracts, questionnaires and vendor quotations belong at the end, referenced from the body, so the main report stays readable while the supporting evidence remains available for audit and verification.",
+    "facts": [
+      "The standard structure is title page, executive summary, introduction and scope, body (method and findings), conclusions, recommendations, annexures.",
+      "The executive summary is a standalone condensation of the entire report, including its findings and recommendations, written for a reader who will not read the body.",
+      "Annexures hold the supporting bulk — raw data tables, survey forms, configuration listings, quotations — and are referred to from the body.",
+      "Conclusions must follow from the findings and introduce no new material.",
+      "A recommendation is stated as a specific action with a responsible officer and a timeframe."
+    ],
+    "traps": [
+      "Executive summary versus introduction: the introduction gives background and scope; the summary gives the findings and the recommendations. A summary that only says what the report is about has failed its purpose.",
+      "Conclusion versus recommendation: the conclusion says what the evidence shows; the recommendation says what should now be done about it.",
+      "Annexures are not a dump for material the body could not fit — every annexure must be referenced from the body.",
+      "Placing the recommendation only on the last page is a genuine failure of a technical report; a busy officer reads the front matter and stops."
+    ],
+    "mnem": "",
+    "rel": [
+      "Documentation Standards",
+      "Official Correspondence",
+      "Data Interpretation"
+    ]
+  },
+  {
+    "id": "c287",
+    "paper": "TECH2",
+    "unit": "V",
+    "unitTitle": "IT Governance, Business Communication and Aptitude",
+    "sub": "Email Etiquette",
+    "def": "The conventions governing official email: an informative subject line, an appropriate salutation and a sign-off carrying name and designation, correct use of the To, Cc and Bcc fields, restraint in replying to all, and the recognition that an official email is an official record. In a government office an email is drafted with the same care as a formal letter, because it carries comparable weight and can be produced later.",
+    "exp": "The three address fields do different jobs. To carries the people who are expected to act. Cc, carbon copy, carries those who only need to know — putting an officer in Cc informs them, it does not ask them for anything. Bcc, blind carbon copy, hides a recipient's address from every other recipient. Its legitimate use is a circular sent to a large list of unrelated addressees, where exposing everyone's address would be a privacy breach.\n\nThe subject line is how the mail is later found and filed. Important and Regarding the matter are useless. Renewal of AMC for district office printers — approval sought tells the reader the file, the action and the urgency in one line. When the topic changes, start a fresh mail rather than replying under an old subject.\n\nReply to the sender, not to all, unless every recipient genuinely needs your answer. An approved sent to forty addressees is forty interruptions.\n\nThe governance point matters most in a government post. Official email on a departmental domain is an official record: it is retained, it can be audited, and it can be called for later. Write nothing you would not put in a file noting, do not conduct official business from a personal mail account, and check the address before attaching anything sensitive.",
+    "facts": [
+      "To lists those expected to act, Cc lists those who need only to be informed, and Bcc lists recipients hidden from all other recipients.",
+      "Bcc's legitimate use is mailing a large list of unrelated addressees without exposing their addresses to each other.",
+      "An official email is an official record — retained, auditable and capable of being produced later — so it is drafted as carefully as a formal letter.",
+      "The subject line should state the matter and the action sought, so the mail can be retrieved and filed.",
+      "Attachments should be named meaningfully and mentioned in the body of the mail."
+    ],
+    "traps": [
+      "Cc versus Bcc: Cc addresses are visible to every recipient, Bcc addresses are not. Bcc does not encrypt the mail or make it confidential in any other way.",
+      "A Bcc'd recipient who presses reply-all exposes the fact that they were copied. Bcc is not a guarantee of secrecy.",
+      "Reply-all goes to every To and Cc recipient. It is a deliberate choice, not the safe default.",
+      "Typing Confidential in the subject line gives no protection: the mail remains a record and can still be forwarded."
+    ],
+    "mnem": "",
+    "rel": [
+      "Official Correspondence",
+      "Cyber Safety Awareness",
+      "Documentation Standards"
+    ]
+  },
+  {
+    "id": "c288",
+    "paper": "TECH2",
+    "unit": "V",
+    "unitTitle": "IT Governance, Business Communication and Aptitude",
+    "sub": "Presentation Skills",
+    "def": "Delivering spoken information to an audience so that it achieves a defined purpose — approval for a proposal, training users on a new system, briefing officers on a procurement. Every choice about content, depth and language follows from two questions: who is the audience, and what do I want them to do at the end. A talk pitched at the wrong audience fails however sound the material is.",
+    "exp": "Structure carries a presentation. State the purpose and the ask at the start rather than saving them for the end — a decision-making audience needs to know early what is being sought from it. Then the substance, then a short close restating the decision required. Slides support the speech, they are not the speech: a few lines per slide, readable from the back of the room, nothing read aloud verbatim.\n\nDelivery is eye contact, an audible unhurried pace, and enough rehearsal that you know your timing. Anticipate the questions and decide in advance what you will say when you do not know an answer — I will check and revert is a legitimate answer, inventing one is not.\n\nAn interview is a presentation of yourself. It differs from ordinary conversation in being held for a specific reason and aimed at a particular outcome. The two methods are the structured interview, where every candidate is asked the same fixed set of questions so answers can be compared, and the unstructured interview, which is open-ended and follows the candidate. The first step in preparing is to learn as much as you can about the organisation and the role. To a point-blank question such as are you analytical, answer yes and give one specific example — the example is the evidence.",
+    "facts": [
+      "Audience and purpose decide the content, depth and language of a presentation.",
+      "Slides carry keywords and visuals; the speaker carries the explanation.",
+      "The two methods of interview are the structured interview and the unstructured interview.",
+      "An interview differs from ordinary conversation in being held for a specific reason and aimed at a particular outcome.",
+      "The first step in interview preparation is learning as much as possible about the organisation and the role."
+    ],
+    "traps": [
+      "Rehearsing is not memorising. A memorised script collapses the moment a question interrupts it.",
+      "To a point-blank question such as can you work under pressure, a bare yes, or a yes with a vague explanation, is weaker than yes plus one concrete example.",
+      "More slides is not more content, and reading the slides aloud is the commonest fault in a technical briefing.",
+      "Knowing little about the organisation or the role is the classic interview mistake, and it becomes visible within the first minute."
+    ],
+    "mnem": "",
+    "rel": [
+      "Meeting Documentation",
+      "Technical Report Writing",
+      "Official Correspondence"
+    ]
+  },
+  {
+    "id": "c289",
+    "paper": "TECH2",
+    "unit": "V",
+    "unitTitle": "IT Governance, Business Communication and Aptitude",
+    "sub": "Meeting Documentation",
+    "def": "The written record of a meeting, in two documents. The agenda is circulated to the members before the meeting, listing the items to be taken up along with the date, time, venue and any papers to be read in advance. The minutes are written after the meeting, recording who attended, what was decided on each item, and the action points with the officer responsible and the date by which each is to be completed.",
+    "exp": "Minutes record decisions, not conversation. They are not a transcript and not a round-up of every speaker's view. The workable form for each item is one line on what was placed before the meeting, then the decision, then the action point: decided to procure fifteen UPS units through GeM; action, Assistant Engineer (IT), by the end of November. A dissent is recorded only where the member asks for it to be recorded.\n\nAn action point without a named owner and a date is not an action point, it is a wish. Producing those owned, dated actions is the whole reason minutes exist.\n\nThe standard elements are the title of the meeting with date, time and venue; the names of members present, of officers in attendance, and of those who sought leave of absence; confirmation of the minutes of the previous meeting; an action-taken report on earlier decisions; the item-wise decisions; and the signature of the chairperson. Draft minutes are circulated for correction and are confirmed at the following meeting, after which they are the authoritative record of what was decided.\n\nWrite them impersonally, in the third person and past tense, and circulate them within days. Minutes that reach members a month later cannot drive any action.",
+    "facts": [
+      "The agenda is circulated to members before the meeting; the minutes are written after it.",
+      "Minutes primarily record the decisions taken and the action points, each with a responsible officer and a deadline.",
+      "Minutes are confirmed at the following meeting and signed by the chairperson.",
+      "Standard content: date, time and venue, members present and officers in attendance, confirmation of the previous minutes, action-taken report, and item-wise decisions.",
+      "Minutes are written in the third person and the past tense."
+    ],
+    "traps": [
+      "Agenda versus minutes: the agenda is what will be discussed, circulated in advance; the minutes are what was decided, recorded afterwards.",
+      "Minutes are not a verbatim transcript and should not attribute every remark to a speaker.",
+      "Draft minutes are not yet the record — they become authoritative only on confirmation at the next meeting.",
+      "Writing that a matter was discussed, with no decision and no owner, is the commonest defect in departmental minutes."
+    ],
+    "mnem": "",
+    "rel": [
+      "Documentation Standards",
+      "Presentation Skills",
+      "Official Correspondence"
+    ]
+  },
+  {
+    "id": "c290",
+    "paper": "TECH2",
+    "unit": "V",
+    "unitTitle": "IT Governance, Business Communication and Aptitude",
+    "sub": "Numerical Ability",
+    "def": "Basic arithmetic applied quickly and accurately: percentages, ratio and proportion, averages, time and work, profit and loss, simple and compound interest, squares and roots, and number series. None of it needs advanced mathematics. What is tested is whether you can pick the right method and execute it in under a minute without a calculator, so learn the methods rather than trying to remember answers.",
+    "exp": "Percentage change equals the new value minus the old, divided by the old, times 100. The denominator is always the original figure. A rise from 1,250 to 1,500 is 250 divided by 1,250, times 100, which is 20 per cent. Dividing by 1,500 instead gives 16.67 per cent, and that wrong answer is nearly always offered as an option.\n\nAverage equals the sum divided by the number of items. Bills of 8,000, 9,500, 7,000, 10,500 and 10,000 total 45,000, and 45,000 divided by 5 is 9,000. The fast method is to guess a base, average the deviations from it, and add back: against a base of 9,000 the deviations are minus 1,000, plus 500, minus 2,000, plus 1,500 and plus 1,000, which sum to zero, so 9,000 is exact.\n\nTime and work is done in one-day fractions. If two people together finish in 8 days they complete one-eighth a day; if the first alone takes 12 days he does one-twelfth a day. The second does one-eighth minus one-twelfth, which is three-twenty-fourths minus two-twenty-fourths, or one-twenty-fourth a day, so he needs 24 days alone.\n\nFor profit and loss, the percentage is on cost price unless stated otherwise. For a number series, test the differences, then the ratios, then a mixed rule: 2, 5, 11, 23, 47 is each term doubled plus one, giving 95.",
+    "facts": [
+      "Percentage change = (new value minus original value) divided by the original value, times 100.",
+      "Average = the sum of the values divided by the number of values.",
+      "Time and work problems are solved by converting to one-day work fractions and adding or subtracting them.",
+      "Profit and loss percentages are calculated on cost price unless the question says otherwise.",
+      "In clock problems the minute hand moves 6 degrees a minute and the hour hand moves 0.5 degrees a minute."
+    ],
+    "traps": [
+      "Percentage change divides by the ORIGINAL value. Dividing by the new value is the planted wrong option in almost every such question.",
+      "The square root of 16 is 4, and 4 is 2 squared. The distractor 4 squared equals 16, which is the number you started with.",
+      "In time and work, never average the days: 8 days and 12 days does not give 10. Add or subtract the daily work fractions instead.",
+      "In clock problems the hour hand keeps moving between the hour marks, so at 12:25 the gap is not the full 150 degrees swept by the minute hand."
+    ],
+    "mnem": "",
+    "rel": [
+      "Data Interpretation",
+      "Logical Reasoning",
+      "Digital Reasoning"
+    ]
+  },
+  {
+    "id": "c291",
+    "paper": "TECH2",
+    "unit": "V",
+    "unitTitle": "IT Governance, Business Communication and Aptitude",
+    "sub": "Logical Reasoning",
+    "def": "Reasoning items that need no calculation: number and letter series, coding and decoding, odd one out, analogies, syllogisms, direction sense and blood relations. In this paper the section also carries verbal items drawn from older question papers — idioms and proverbs, one-word substitution, antonyms and synonyms, and rearranging jumbled sentence parts — so prepare both sides of it.",
+    "exp": "For a number series, test the differences first. In 108, 100, 92, 90, 82, 74 the differences are minus 8, minus 8, minus 2, minus 8, minus 8, so the rule repeats in a cycle of three and the next step is minus 2, giving 72. If the differences do not settle, test the ratio: 102, 204, 408, 816 doubles each time, giving 1,632. Alternating series interleave two rules, so read the odd and even positions separately.\n\nFor a letter series, number the alphabet A equals 1 through Z equals 26 and work in numbers. BEI, DGK, FIM, HKO: every letter advances by 2 from one group to the next, so HKO, which is 8, 11, 15, becomes 10, 13, 17, that is JMQ.\n\nCoding and decoding by letter shift is solved by comparing each coded letter with its original. COMPUTER written as DPNQVUFS is a plus one shift: C to D, O to P, and so on. Apply the same shift to PRINTER — P to Q, R to S, I to J, N to O, T to U, E to F, R to S — giving QSJOUFS. Shifts wrap round, so Z plus one is A.\n\nDirection problems should be drawn. Facing south, a left turn faces you east; a second left faces you north. In syllogisms, accept the premises as true even if absurd, and conclude only what must follow, never what merely could.",
+    "facts": [
+      "Number series method: check the differences first, then the ratios, then alternating or mixed rules.",
+      "A plus one letter shift codes COMPUTER as DPNQVUFS and PRINTER as QSJOUFS.",
+      "In letter series, converting letters to their positions A equals 1 to Z equals 26 exposes the rule.",
+      "Facing south, a left turn faces you east, and a further left turn faces you north.",
+      "A syllogism conclusion is valid only if it must follow from the premises, not merely if it could."
+    ],
+    "traps": [
+      "An alternating series looks broken: 108, 100, 92, 90 subtracts 8 twice and then 2. Abandoning the pattern at the first irregular difference loses the question.",
+      "Letter shifts wrap round — after Z comes A. The usual distractors are the correct shift applied in the wrong direction, or one letter altered.",
+      "Some A are B does not license the certain conclusion that some A are not B.",
+      "In direction problems, left and right are from the walker's point of view, not from the reader's view of the page."
+    ],
+    "mnem": "",
+    "rel": [
+      "Analytical Reasoning",
+      "Digital Reasoning",
+      "Numerical Ability"
+    ]
+  },
+  {
+    "id": "c292",
+    "paper": "TECH2",
+    "unit": "V",
+    "unitTitle": "IT Governance, Business Communication and Aptitude",
+    "sub": "Analytical Reasoning",
+    "def": "Reasoning over a set of stated conditions to fix an arrangement or an assignment: seating in a row or a circle, allotting flats to floors, matching people to professions, departments or cities, ordering by rank, age or score, and small set-based puzzles. Nothing is hidden — the answer is forced by the clues given, and the whole skill is representing them on paper so that the force becomes visible.",
+    "exp": "Draw the frame before you reason. A row of six seats, or a building of five floors numbered from the bottom, sketched on the rough sheet, and only then read the clues again. Place the definite clues first — C sits at the extreme right, the doctor lives on the top floor. Relative clues go in afterwards.\n\nTurn each statement into something you can physically place. A is immediately left of B becomes the block AB, which then moves as a single unit. P is not adjacent to Q is a negative clue, and it carries real information: record it as a cross rather than trying to hold it in your head. For matching puzzles use a grid with the people down the side and the attributes across the top, ticking and crossing cells as each clue is applied — a confirmed tick knocks out the rest of that row and the rest of that column.\n\nWhen the clues run out and the arrangement is still open, take the smallest remaining choice, assume one branch, and follow it until it either completes or contradicts a clue. A contradiction proves the other branch.\n\nBefore answering, check the finished diagram against every clue once. A clue you never used almost always means the arrangement is not actually forced.",
+    "facts": [
+      "Definite clues that fix a position are placed before relative clues that only order two elements.",
+      "Immediately left or immediately right fixes adjacency as well as order; to the left of fixes order only.",
+      "In a matching grid, a confirmed pairing eliminates every other cell in its row and in its column.",
+      "A circular arrangement needs a stated facing direction, because facing the centre reverses left and right compared with facing outward."
+    ],
+    "traps": [
+      "In a circle facing the centre, a person's left is the reader's right. Ignoring the facing direction is the standard error in circular seating puzzles.",
+      "A is to the left of B does not mean immediately left — others may sit between them unless the clue says immediately.",
+      "Negative clues such as X is not on the top floor carry information and must be recorded on the diagram, not skipped.",
+      "Answering from a half-built arrangement: if any clue is still unused, the arrangement is not yet forced and your answer is a guess."
+    ],
+    "mnem": "",
+    "rel": [
+      "Logical Reasoning",
+      "Digital Reasoning",
+      "Data Interpretation"
+    ]
+  },
+  {
+    "id": "c293",
+    "paper": "TECH2",
+    "unit": "V",
+    "unitTitle": "IT Governance, Business Communication and Aptitude",
+    "sub": "Data Interpretation",
+    "def": "Reading quantitative information presented as a table, a bar chart, a pie chart, a line graph, or simply as figures given inside the question, and answering on it — totals, averages, ratios, percentage change, and which category is largest or grew fastest. The arithmetic is deliberately simple. The marks are lost by misreading the unit, the year, or the base of a percentage.",
+    "exp": "Read the headings and the unit before you touch the numbers. Figures in lakh and figures in thousand change every absolute answer, and a pie chart usually gives shares, so you cannot convert a share to a number without the total.\n\nPercentage change equals the new figure minus the old, divided by the old, times 100, and the denominator is the earlier figure. Applications rising from 1,250 in 2024 to 1,500 in 2025 is 250 divided by 1,250, times 100, which is 20 per cent. Note how the same two numbers give something else if the question changes: 1,250 as a percentage of 1,500 is 83.3 per cent, because the denominator has changed.\n\nMean and median are not the same summary. The mean is the sum over the count: bills of 8,000, 9,500, 7,000, 10,500 and 10,000 total 45,000, so the mean is 9,000. The median is the middle value after sorting — 7,000, 8,000, 9,500, 10,000, 10,500 — which is 9,500. One extreme value drags the mean but not the median, so the median describes a lopsided set better.\n\nPercentage points and per cent are different quantities. A share moving from 20 per cent to 25 per cent has risen by 5 percentage points, which is an increase of 25 per cent. Both numbers will appear among the options.",
+    "facts": [
+      "Percentage change = (new minus old) divided by old, times 100, with the original figure as the denominator.",
+      "Mean = sum divided by the number of items; median = the middle value once the figures are sorted.",
+      "The five values 8,000, 9,500, 7,000, 10,500 and 10,000 have a mean of 9,000 and a median of 9,500.",
+      "A move from 20 per cent to 25 per cent is a rise of 5 percentage points, and that is a 25 per cent increase.",
+      "A pie chart shows shares; converting a share into an absolute number requires the total."
+    ],
+    "traps": [
+      "The wrong denominator is the commonest error: 250 on 1,500 gives 16.67 per cent and is offered as an option, but the correct base is the original 1,250, giving 20 per cent.",
+      "Percentage points are not per cent, and questions test the confusion deliberately.",
+      "The mean is pulled by a single extreme value while the median is not, so a question asking for the typical or representative figure may want the median.",
+      "Check the unit line — in lakh, in thousand, in crore — before computing. Ratio answers survive a missed unit; absolute answers do not."
+    ],
+    "mnem": "",
+    "rel": [
+      "Numerical Ability",
+      "Technical Report Writing",
+      "Analytical Reasoning"
+    ]
+  },
+  {
+    "id": "c294",
+    "paper": "TECH2",
+    "unit": "V",
+    "unitTitle": "IT Governance, Business Communication and Aptitude",
+    "sub": "Digital Reasoning",
+    "def": "The reasoning items a computer-post paper actually sets: number series, letter series, coding and decoding, simple logical deduction, and pattern recognition of the kind a person who works with data is expected to do fast. It is the same machinery as logical reasoning, framed for a technical candidate — find the rule that generates the sequence, then apply it once more.",
+    "exp": "A number series is solved by testing rules in a fixed order. First the differences: constant, or themselves forming a pattern. Then the ratio. Then a mixed rule of the form multiply and add. The series 5, 11, 23, 47 has differences 6, 12, 24, which are doubling, and each term is in fact twice the previous term plus one — so the next term is 47 times 2 plus 1, which is 95. Squares, cubes and prime sequences are the other common generators, and 1, 4, 9, 16 or 2, 3, 5, 7, 11 should be recognised on sight.\n\nLetter series work the same way once letters are replaced by positions, A equals 1 through Z equals 26. Coding by letter shift is read off by comparing the code with the original word letter by letter: COMPUTER coded as DPNQVUFS is a plus one shift, so PRINTER becomes QSJOUFS. Shifts wrap round from Z to A, and a shift can be negative, so always check the direction on two letters before committing.\n\nDeduction items give you statements and ask what must follow. Take the statements as true, however odd, and reject any conclusion that is merely possible or merely likely. If a conclusion needs one extra assumption of your own, it does not follow.\n\nWhen a rule fits every term but one, you have the wrong rule, not a misprint.",
+    "facts": [
+      "Series method: test differences first, then ratios, then a mixed rule such as double and add one.",
+      "In 5, 11, 23, 47 each term is twice the previous term plus one, so the next term is 95.",
+      "A plus one letter shift codes COMPUTER as DPNQVUFS and PRINTER as QSJOUFS.",
+      "Letter positions run A equals 1 to Z equals 26, and shifts wrap round from Z back to A.",
+      "In a deduction item, only a conclusion that must follow from the given statements is correct."
+    ],
+    "traps": [
+      "The doubling series 2, 5, 11, 23, 47 and 5, 11, 23, 47 both continue by doubling and adding one; simply doubling gives 94, which is offered as a near-miss option.",
+      "Coded options often differ in a single letter — QSJOUFS versus QSJOUFR — so check the last letter as carefully as the first.",
+      "A plus one shift and a minus one shift look alike at a glance. Verify the direction on at least two letters.",
+      "A conclusion that is probably true is still wrong if it does not follow necessarily from the statements given."
+    ],
+    "mnem": "",
+    "rel": [
+      "Logical Reasoning",
+      "Numerical Ability",
+      "Analytical Reasoning"
+    ]
+  },
+  {
+    "id": "c295",
+    "paper": "TECH2",
+    "unit": "V",
+    "unitTitle": "IT Governance, Business Communication and Aptitude",
+    "sub": "Interpretation of AI-generated Outputs",
+    "def": "Judging what a generative AI tool produces instead of trusting it: checking claims against a source, recognising a hallucination, understanding that fluency and confidence are not evidence, and knowing what must never be pasted into a public AI service. In a department the System Manager is the person asked whether an AI tool's output can be relied on, so this is an operational duty, not a curiosity.",
+    "exp": "A language model predicts plausible text. It does not look anything up unless it has been connected to a source, and it has no internal sense of whether a statement is true. It will produce a fluent, well-formatted, confidently worded answer whether or not the content is correct, so confident tone carries no information about accuracy.\n\nHallucinated citations are the sharpest case. A model will readily quote an office memorandum with a plausible number and date, or a section of an Act, that does not exist. Any citation, figure, date or rule from an AI must be checked against the actual document on the issuing department's own site. Nothing goes into a file on an AI's word.\n\nSummaries need verification against the source. A summary of a forty-page tender can be fluent and still drop a qualifying condition or invert an eligibility clause. Treat a summary as a reading aid, never as the record, and check it against the original on the points that matter.\n\nThe same prompt can return different answers on different runs, because the output is sampled rather than looked up, so an AI answer is not evidence in a file.\n\nGovernance: official records, citizen data, personnel files, tender documents and passwords must not be pasted into a public AI service. The text leaves the department's control and may be retained or used for training.",
+    "facts": [
+      "A generative model predicts plausible text and has no built-in check that a statement is true.",
+      "A hallucination is a confident, fluent output that is factually wrong — invented citations, memorandum numbers, dates and case references are the typical form.",
+      "Fluency, formatting and a confident tone say nothing about accuracy.",
+      "The same prompt can produce different answers on different runs, so AI output is not reproducible evidence.",
+      "Official records, citizen or personnel data and tender documents must not be entered into a public AI service, because the data leaves departmental control.",
+      "Every citation, figure or rule from an AI must be verified against the original document before use."
+    ],
+    "traps": [
+      "Confidence is not evidence. The wrong instinct is to accept an answer because it is fluent and specific; specificity is exactly what a hallucination supplies.",
+      "The correct response to a plausible-looking cited memorandum is to look it up on the issuing department's site, not to reword it or to ask the same AI whether it is sure.",
+      "Verifying a summary means checking it against the source document, not asking the model to summarise again or to confirm its own work.",
+      "A tool being paid for, or branded as enterprise, does not make it safe for official data — what matters is where the data goes and whether it is retained."
+    ],
+    "mnem": "",
+    "rel": [
+      "Cyber Safety Awareness",
+      "Documentation Standards",
+      "Data Interpretation"
+    ]
+  },
+  {
+    "id": "c296",
+    "paper": "TECH2",
+    "unit": "V",
+    "unitTitle": "IT Governance, Business Communication and Aptitude",
+    "sub": "Cyber Safety Awareness",
+    "def": "The everyday practices that keep an individual and an office out of trouble online: recognising phishing, managing passwords and second factors, treating public Wi-Fi as hostile, limiting what is shared publicly, keeping devices patched, and knowing how and where to report an incident. In India, cyber crime including financial fraud is reported on the national helpline 1930 and at cybercrime.gov.in.",
+    "exp": "Phishing is the entry point for most incidents. The pattern is constant: an urgent threat or reward, an appeal to authority, a link, and a deadline. Your account will be blocked today unless you verify. Real recognition signals are the sender's actual address rather than the display name, a link whose true destination differs from its text, unexpected attachments, and above all the request itself — no bank, treasury or department asks for a password, PIN or OTP by mail, phone or message. Do not click: open the site yourself, or telephone the office on a number you already had.\n\nPasswords: long and unique for each account, never reused across official and personal logins, never shared or written on a slip under the keyboard, and changed at once if a service is breached. Enable two-factor authentication where it exists — it stops an attacker who already has your password. Never share an OTP with anyone, including a caller claiming to be from the bank or IT support.\n\nPublic Wi-Fi in a hotel or cafe is an untrusted network, and rogue hotspots imitating the real one are common. Avoid banking and official logins on it, or use the department's VPN.\n\nOversharing on social media supplies the raw material for targeted attacks — dates of birth, family names, travel dates, office photographs showing screens or identity cards.\n\nReport promptly. Delay is what makes financial fraud unrecoverable.",
+    "facts": [
+      "India's national cyber crime helpline number is 1930, and complaints are filed at cybercrime.gov.in.",
+      "No bank, department or genuine IT support ever asks for a password, PIN or OTP by email, phone or message.",
+      "Phishing mail is recognised by urgency, an authority claim, a mismatched sender address, and a link whose destination differs from its displayed text.",
+      "Two-factor authentication protects an account even when the password is already known to an attacker.",
+      "Public Wi-Fi is an untrusted network; banking and official logins should be avoided on it or tunnelled through a VPN.",
+      "Reporting financial cyber fraud quickly matters, because the chance of recovering the money falls as time passes."
+    ],
+    "traps": [
+      "The correct response to a threatening mail about your account is to open the organisation's site yourself or telephone a number you already had — not to click the link, and not to reply to the mail asking whether it is genuine.",
+      "A padlock and https mean the connection is encrypted, not that the site is genuine. Phishing sites carry padlocks too.",
+      "A familiar display name proves nothing; the actual sender address, and lookalike domains with a changed or extra letter, are what to check.",
+      "Antivirus software does not stop phishing, because the user is being persuaded to hand over credentials rather than being infected."
+    ],
+    "mnem": "",
+    "rel": [
+      "Interpretation of AI-generated Outputs",
+      "Email Etiquette",
+      "Business Continuity Planning"
     ]
   }
 ];

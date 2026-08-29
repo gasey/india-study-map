@@ -3312,7 +3312,7 @@ window.QUESTIONS = [
     "no": 1,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Idioms and phrases",
     "q": "The political candidate won the election because he had the gift of the gab.",
     "opts": {
       "A": "money to bribe people",
@@ -3334,7 +3334,7 @@ window.QUESTIONS = [
     "no": 2,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Idioms and phrases",
     "q": "My grandfather was a man of letters:",
     "opts": {
       "A": "a writer",
@@ -3356,7 +3356,7 @@ window.QUESTIONS = [
     "no": 3,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Idioms and phrases",
     "q": "Mrs. Malley was always tired because her young son was a ball of fire.",
     "opts": {
       "A": "energetic and active",
@@ -3378,7 +3378,7 @@ window.QUESTIONS = [
     "no": 4,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Idioms and phrases",
     "q": "John hated to attend parties because he always felt like a bull in a China shop at social events,",
     "opts": {
       "A": "unwanted",
@@ -3400,7 +3400,7 @@ window.QUESTIONS = [
     "no": 5,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Idioms and phrases",
     "q": "I could not attend church yesterday because I was out of sorts.",
     "opts": {
       "A": "too busy with work",
@@ -3422,7 +3422,7 @@ window.QUESTIONS = [
     "no": 6,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Idioms and phrases",
     "q": "The late singer David Bowie cast a long shadow over other musicians.",
     "opts": {
       "A": "blocked other's success",
@@ -3444,7 +3444,7 @@ window.QUESTIONS = [
     "no": 7,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Idioms and phrases",
     "q": "Despite his brave words, the soldier had a hidden yellow streak.",
     "opts": {
       "A": "a secret",
@@ -3466,7 +3466,7 @@ window.QUESTIONS = [
     "no": 8,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Idioms and phrases",
     "q": "I got this second-hand car for a song.",
     "opts": {
       "A": "for free",
@@ -3488,7 +3488,7 @@ window.QUESTIONS = [
     "no": 9,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Idioms and phrases",
     "q": "After working for three straight hours on the report, I decided to call it a day.",
     "opts": {
       "A": "it is now night-time",
@@ -3510,7 +3510,7 @@ window.QUESTIONS = [
     "no": 10,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Idioms and phrases",
     "q": "Learning to cook is child's play; all it takes is practice.",
     "opts": {
       "A": "very easy",
@@ -3532,7 +3532,7 @@ window.QUESTIONS = [
     "no": 11,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Idioms and phrases",
     "q": "The outing would have been much better if the guide had not been such a wet blanket.",
     "opts": {
       "A": "sick person",
@@ -3554,7 +3554,7 @@ window.QUESTIONS = [
     "no": 12,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Idioms and phrases",
     "q": "The lawyer promised to help the defendant, no strings attached.",
     "opts": {
       "A": "secretly",
@@ -3576,7 +3576,7 @@ window.QUESTIONS = [
     "no": 13,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Idioms and phrases",
     "q": "It was an open secret that the vacant post had already been promised to the Chairman's son.",
     "opts": {
       "A": "known to everybody",
@@ -3598,7 +3598,7 @@ window.QUESTIONS = [
     "no": 14,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Idioms and phrases",
     "q": "Despite being a huge celebrity, she was really down to earth.",
     "opts": {
       "A": "plain-looking",
@@ -3620,7 +3620,7 @@ window.QUESTIONS = [
     "no": 15,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Idioms and phrases",
     "q": "Looking at the state of the world nowadays, I feel it is all going to the dogs.",
     "opts": {
       "A": "deteriorating",
@@ -3642,7 +3642,7 @@ window.QUESTIONS = [
     "no": 16,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Idioms and phrases",
     "q": "He had been recently divorced so we had to skirt around the topic of relationships.",
     "opts": {
       "A": "constantly talk about",
@@ -3664,7 +3664,7 @@ window.QUESTIONS = [
     "no": 17,
     "paper": "GE",
     "unit": "3",
-    "sub": null,
+    "sub": "Main idea, tone and the author's stance",
     "q": "Manners may be defined as:",
     "opts": {
       "A": "success in playing one's role in society",
@@ -3689,7 +3689,7 @@ window.QUESTIONS = [
     "no": 18,
     "paper": "GE",
     "unit": "3",
-    "sub": null,
+    "sub": "Inference questions and answering in your own words",
     "q": "One should cultivate manners at home because",
     "opts": {
       "A": "we should respect our family",
@@ -3714,7 +3714,7 @@ window.QUESTIONS = [
     "no": 19,
     "paper": "GE",
     "unit": "3",
-    "sub": null,
+    "sub": "How to read an unseen passage under time pressure",
     "q": "Children learn their manners through",
     "opts": {
       "A": "lessons",
@@ -3739,7 +3739,7 @@ window.QUESTIONS = [
     "no": 20,
     "paper": "GE",
     "unit": "3",
-    "sub": null,
+    "sub": "How to read an unseen passage under time pressure",
     "q": "How do teachers cultivate good manners?",
     "opts": {
       "A": "by their ideal behaviour",
@@ -3764,7 +3764,7 @@ window.QUESTIONS = [
     "no": 21,
     "paper": "GE",
     "unit": "3",
-    "sub": null,
+    "sub": "How to read an unseen passage under time pressure",
     "q": "The well-mannered person speaks to his social inferiors",
     "opts": {
       "A": "only when necessary",
@@ -3789,7 +3789,7 @@ window.QUESTIONS = [
     "no": 22,
     "paper": "GE",
     "unit": "3",
-    "sub": null,
+    "sub": "How to read an unseen passage under time pressure",
     "q": "When someone does not agree with you,",
     "opts": {
       "A": "avoid becoming agitated",
@@ -3814,7 +3814,7 @@ window.QUESTIONS = [
     "no": 23,
     "paper": "GE",
     "unit": "3",
-    "sub": null,
+    "sub": "Vocabulary-in-context questions",
     "q": "The word \"monopolise\" means",
     "opts": {
       "A": "a board game",
@@ -3839,7 +3839,7 @@ window.QUESTIONS = [
     "no": 24,
     "paper": "GE",
     "unit": "3",
-    "sub": null,
+    "sub": "How to read an unseen passage under time pressure",
     "q": "When criticising someone, it is best to do so in a",
     "opts": {
       "A": "civilised manner",
@@ -3864,7 +3864,7 @@ window.QUESTIONS = [
     "no": 25,
     "paper": "GE",
     "unit": "3",
-    "sub": null,
+    "sub": "Vocabulary-in-context questions",
     "q": "Find the word in the passage which means 'intruding beyond acceptable limits'.",
     "opts": {
       "A": "amass",
@@ -3889,7 +3889,7 @@ window.QUESTIONS = [
     "no": 26,
     "paper": "GE",
     "unit": "3",
-    "sub": null,
+    "sub": "Why lifting sentences verbatim loses marks",
     "q": "What does 'manners maketh man' mean?",
     "opts": {
       "A": "only men are capable of manners",
@@ -3914,7 +3914,7 @@ window.QUESTIONS = [
     "no": 27,
     "paper": "GE",
     "unit": "3",
-    "sub": null,
+    "sub": "Inference questions and answering in your own words",
     "q": "Living in society is not an easy job because:",
     "opts": {
       "A": "one must interact with all sorts of people",
@@ -3939,7 +3939,7 @@ window.QUESTIONS = [
     "no": 28,
     "paper": "GE",
     "unit": "3",
-    "sub": null,
+    "sub": "Main idea, tone and the author's stance",
     "q": "Good manners are",
     "opts": {
       "A": "inherent",
@@ -3964,7 +3964,7 @@ window.QUESTIONS = [
     "no": 29,
     "paper": "GE",
     "unit": "3",
-    "sub": null,
+    "sub": "How to read an unseen passage under time pressure",
     "q": "The well-mannered individual interacts with different people",
     "opts": {
       "A": "in the same polite way",
@@ -3989,7 +3989,7 @@ window.QUESTIONS = [
     "no": 30,
     "paper": "GE",
     "unit": "3",
-    "sub": null,
+    "sub": "How to read an unseen passage under time pressure",
     "q": "A person can earn respect by",
     "opts": {
       "A": "amassing great wealth",
@@ -4014,7 +4014,7 @@ window.QUESTIONS = [
     "no": 31,
     "paper": "GE",
     "unit": "3",
-    "sub": null,
+    "sub": "Inference questions and answering in your own words",
     "q": "People judge us on the way we speak because",
     "opts": {
       "A": "we interact with all kinds of people",
@@ -4039,7 +4039,7 @@ window.QUESTIONS = [
     "no": 32,
     "paper": "GE",
     "unit": "3",
-    "sub": null,
+    "sub": "Inference questions and answering in your own words",
     "q": "One can become the person that he wishes to be by",
     "opts": {
       "A": "developing good manners",
@@ -4064,7 +4064,7 @@ window.QUESTIONS = [
     "no": 33,
     "paper": "GE",
     "unit": "4",
-    "sub": null,
+    "sub": "Prepositions and their correct use",
     "q": "The boy jumped __________ the wall.",
     "opts": {
       "A": "upon",
@@ -4086,7 +4086,7 @@ window.QUESTIONS = [
     "no": 34,
     "paper": "GE",
     "unit": "4",
-    "sub": null,
+    "sub": "Prepositions and their correct use",
     "q": "I am indifferent __________ your malicious lies.",
     "opts": {
       "A": "about",
@@ -4108,7 +4108,7 @@ window.QUESTIONS = [
     "no": 35,
     "paper": "GE",
     "unit": "4",
-    "sub": null,
+    "sub": "Prepositions and their correct use",
     "q": "I have made full preparation __________ the function.",
     "opts": {
       "A": "for",
@@ -4130,7 +4130,7 @@ window.QUESTIONS = [
     "no": 36,
     "paper": "GE",
     "unit": "4",
-    "sub": null,
+    "sub": "Prepositions and their correct use",
     "q": "I have complete faith __________ your decision.",
     "opts": {
       "A": "with",
@@ -4152,7 +4152,7 @@ window.QUESTIONS = [
     "no": 37,
     "paper": "GE",
     "unit": "4",
-    "sub": null,
+    "sub": "Prepositions and their correct use",
     "q": "The drunk driver ran __________ the puppy.",
     "opts": {
       "A": "into",
@@ -4174,7 +4174,7 @@ window.QUESTIONS = [
     "no": 38,
     "paper": "GE",
     "unit": "4",
-    "sub": null,
+    "sub": "Prepositions and their correct use",
     "q": "I shall return __________ this week itself.",
     "opts": {
       "A": "within",
@@ -4196,7 +4196,7 @@ window.QUESTIONS = [
     "no": 39,
     "paper": "GE",
     "unit": "4",
-    "sub": null,
+    "sub": "Identifying the part of speech of an underlined word",
     "q": "Identify the parts of speech for the underlined word in: This phone is much better than __that__.",
     "opts": {
       "A": "Pronoun",
@@ -4218,7 +4218,7 @@ window.QUESTIONS = [
     "no": 40,
     "paper": "GE",
     "unit": "4",
-    "sub": null,
+    "sub": "Identifying the part of speech of an underlined word",
     "q": "Identify the parts of speech for the underlined word in: __Poverty__ is a huge problem in India.",
     "opts": {
       "A": "Adverb",
@@ -4240,7 +4240,7 @@ window.QUESTIONS = [
     "no": 41,
     "paper": "GE",
     "unit": "4",
-    "sub": null,
+    "sub": "Identifying the part of speech of an underlined word",
     "q": "Identify the parts of speech for the underlined word in: Smoking has a bad __effect__ on one's health.",
     "opts": {
       "A": "Preposition",
@@ -4262,7 +4262,7 @@ window.QUESTIONS = [
     "no": 42,
     "paper": "GE",
     "unit": "4",
-    "sub": null,
+    "sub": "Identifying the part of speech of an underlined word",
     "q": "Identify the parts of speech for the underlined word in: I __have__ supported you a lot in the past, but not anymore.",
     "opts": {
       "A": "Pronoun",
@@ -4284,7 +4284,7 @@ window.QUESTIONS = [
     "no": 43,
     "paper": "GE",
     "unit": "4",
-    "sub": null,
+    "sub": "Identifying the part of speech of an underlined word",
     "q": "Identify the parts of speech for the underlined word in: He came __yesterday__ to see you, but you were out.",
     "opts": {
       "A": "Adverb",
@@ -4306,7 +4306,7 @@ window.QUESTIONS = [
     "no": 44,
     "paper": "GE",
     "unit": "4",
-    "sub": null,
+    "sub": "Identifying the part of speech of an underlined word",
     "q": "Identify the parts of speech for the underlined word in: She coloured her hair __green__.",
     "opts": {
       "A": "Noun",
@@ -4328,7 +4328,7 @@ window.QUESTIONS = [
     "no": 45,
     "paper": "GE",
     "unit": "4",
-    "sub": null,
+    "sub": "Verb forms and tense in context",
     "q": "Identify the correct verb-form to fill in the blank: I __________ my medications since last week.",
     "opts": {
       "A": "have missed",
@@ -4350,7 +4350,7 @@ window.QUESTIONS = [
     "no": 46,
     "paper": "GE",
     "unit": "4",
-    "sub": null,
+    "sub": "Verb forms and tense in context",
     "q": "Identify the correct verb-form to fill in the blank: The plane __________ by the time you get to the airport.",
     "opts": {
       "A": "will be arriving",
@@ -4372,7 +4372,7 @@ window.QUESTIONS = [
     "no": 47,
     "paper": "GE",
     "unit": "4",
-    "sub": null,
+    "sub": "Verb forms and tense in context",
     "q": "Identify the correct verb-form to fill in the blank: She __________________ several jobs since graduating from college.",
     "opts": {
       "A": "has had",
@@ -4394,7 +4394,7 @@ window.QUESTIONS = [
     "no": 48,
     "paper": "GE",
     "unit": "4",
-    "sub": null,
+    "sub": "Verb forms and tense in context",
     "q": "Identify the correct verb-form to fill in the blank: ________________________ your umbrella with you when you leave?",
     "opts": {
       "A": "Will you be taking",
@@ -4416,7 +4416,7 @@ window.QUESTIONS = [
     "no": 49,
     "paper": "GE",
     "unit": "6",
-    "sub": null,
+    "sub": "Simple, compound and complex sentences",
     "q": "Analyse the given sentence and choose the correct option: The poor labourer came to me with his starving family.",
     "opts": {
       "A": "Simple Sentence",
@@ -4437,7 +4437,7 @@ window.QUESTIONS = [
     "no": 50,
     "paper": "GE",
     "unit": "6",
-    "sub": null,
+    "sub": "Simple, compound and complex sentences",
     "q": "Analyse the given sentence and choose the correct option: I could not come, for I was down with fever.",
     "opts": {
       "A": "Compound Sentence",
@@ -4458,7 +4458,7 @@ window.QUESTIONS = [
     "no": 51,
     "paper": "GE",
     "unit": "6",
-    "sub": null,
+    "sub": "Simple, compound and complex sentences",
     "q": "Analyse the given sentence and choose the correct option: Finishing my book, I placed it on the table.",
     "opts": {
       "A": "Compound Sentence",
@@ -4479,7 +4479,7 @@ window.QUESTIONS = [
     "no": 52,
     "paper": "GE",
     "unit": "6",
-    "sub": null,
+    "sub": "Simple, compound and complex sentences",
     "q": "Analyse the given sentence and choose the correct option: The poor man paid off his debts in time, but that still failed to satisfy his creditors who demanded more.",
     "opts": {
       "A": "Simple sentence",
@@ -4500,7 +4500,7 @@ window.QUESTIONS = [
     "no": 53,
     "paper": "GE",
     "unit": "6",
-    "sub": null,
+    "sub": "Simple, compound and complex sentences",
     "q": "Analyse the given sentence and choose the correct option: I have sold my car which was red in colour.",
     "opts": {
       "A": "Compound sentence",
@@ -4521,7 +4521,7 @@ window.QUESTIONS = [
     "no": 54,
     "paper": "GE",
     "unit": "6",
-    "sub": null,
+    "sub": "Clause types: noun, adjective and adverb",
     "q": "Pick the correct clause of the underlined words in the sentence: Where is the money that I __gave you yesterday__?",
     "opts": {
       "A": "noun clause",
@@ -4543,7 +4543,7 @@ window.QUESTIONS = [
     "no": 55,
     "paper": "GE",
     "unit": "6",
-    "sub": null,
+    "sub": "Clause types: noun, adjective and adverb",
     "q": "Pick the correct clause of the underlined words in the sentence: The book __which was stolen__ was mine.",
     "opts": {
       "A": "adverb clause",
@@ -4565,7 +4565,7 @@ window.QUESTIONS = [
     "no": 56,
     "paper": "GE",
     "unit": "6",
-    "sub": null,
+    "sub": "Clause types: noun, adjective and adverb",
     "q": "Pick the correct clause of the underlined words in the sentence: I have been ill __since I came here__ three days ago.",
     "opts": {
       "A": "adverb clause",
@@ -4587,7 +4587,7 @@ window.QUESTIONS = [
     "no": 57,
     "paper": "GE",
     "unit": "6",
-    "sub": null,
+    "sub": "Clause types: noun, adjective and adverb",
     "q": "Pick the correct clause of the underlined words in the sentence: I am happy to know __that you have succeeded__.",
     "opts": {
       "A": "noun clause",
@@ -4609,7 +4609,7 @@ window.QUESTIONS = [
     "no": 58,
     "paper": "GE",
     "unit": "6",
-    "sub": null,
+    "sub": "Clause types: noun, adjective and adverb",
     "q": "Pick the correct clause of the underlined words in the sentence: He carried his laptop with him __wherever he went__.",
     "opts": {
       "A": "co-ordinate clause",
@@ -4631,7 +4631,7 @@ window.QUESTIONS = [
     "no": 59,
     "paper": "GE",
     "unit": "6",
-    "sub": null,
+    "sub": "Sentence types by function: assertive, interrogative, imperative, exclamatory",
     "q": "Identify the correct notion expressed by the sentence: He did not fail to turn up.",
     "opts": {
       "A": "assertive",
@@ -4653,7 +4653,7 @@ window.QUESTIONS = [
     "no": 60,
     "paper": "GE",
     "unit": "6",
-    "sub": null,
+    "sub": "Sentence types by function: assertive, interrogative, imperative, exclamatory",
     "q": "Identify the correct notion expressed by the sentence: That a mere beggar should scorn his king!",
     "opts": {
       "A": "imperative",
@@ -4675,7 +4675,7 @@ window.QUESTIONS = [
     "no": 61,
     "paper": "GE",
     "unit": "6",
-    "sub": null,
+    "sub": "Sentence types by function: assertive, interrogative, imperative, exclamatory",
     "q": "Identify the correct notion expressed by the sentence: Leave the room this instant!",
     "opts": {
       "A": "interrogative",
@@ -4697,7 +4697,7 @@ window.QUESTIONS = [
     "no": 62,
     "paper": "GE",
     "unit": "6",
-    "sub": null,
+    "sub": "Sentence types by function: assertive, interrogative, imperative, exclamatory",
     "q": "Identify the correct notion expressed by the sentence: We were unable to complete our task.",
     "opts": {
       "A": "negative",
@@ -4719,7 +4719,7 @@ window.QUESTIONS = [
     "no": 63,
     "paper": "GE",
     "unit": "6",
-    "sub": null,
+    "sub": "Sentence types by function: assertive, interrogative, imperative, exclamatory",
     "q": "Identify the correct notion expressed by the sentence: Would that I were a rich man, what riches I would shower upon you!",
     "opts": {
       "A": "exclamatory",
@@ -4741,7 +4741,7 @@ window.QUESTIONS = [
     "no": 64,
     "paper": "GE",
     "unit": "6",
-    "sub": null,
+    "sub": "Sentence types by function: assertive, interrogative, imperative, exclamatory",
     "q": "Identify the correct notion expressed by the sentence: How dare you disobey my orders?",
     "opts": {
       "A": "exclamatory",
@@ -4763,7 +4763,7 @@ window.QUESTIONS = [
     "no": 65,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Commonly confused pairs",
     "q": "The Director said that he was sorry for my ________________.",
     "opts": {
       "A": "lost",
@@ -4785,7 +4785,7 @@ window.QUESTIONS = [
     "no": 66,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Commonly confused pairs",
     "q": "The furious boss shouted at the drunken clerk, \"__________________ fired!\"",
     "opts": {
       "A": "You're",
@@ -4807,7 +4807,7 @@ window.QUESTIONS = [
     "no": 67,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Commonly confused pairs",
     "q": "May God have _____________ on you.",
     "opts": {
       "A": "sympathy",
@@ -4829,7 +4829,7 @@ window.QUESTIONS = [
     "no": 68,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Commonly confused pairs",
     "q": "What a _________________ garden you have!",
     "opts": {
       "A": "lovely",
@@ -4851,7 +4851,7 @@ window.QUESTIONS = [
     "no": 69,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Commonly confused pairs",
     "q": "___________________ an example to support your answer.",
     "opts": {
       "A": "Sight",
@@ -4873,7 +4873,7 @@ window.QUESTIONS = [
     "no": 70,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Commonly confused pairs",
     "q": "Your notes are ______________ because your handwriting is so untidy.",
     "opts": {
       "A": "ineligible",
@@ -4895,7 +4895,7 @@ window.QUESTIONS = [
     "no": 71,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Commonly confused pairs",
     "q": "The son vowed to ____________ the murder of his father.",
     "opts": {
       "A": "vengeance",
@@ -4917,7 +4917,7 @@ window.QUESTIONS = [
     "no": 72,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Commonly confused pairs",
     "q": "The father gave his _____________ to the marriage of his daughter.",
     "opts": {
       "A": "ascent",
@@ -4939,7 +4939,7 @@ window.QUESTIONS = [
     "no": 73,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Synonyms and antonyms",
     "q": "I'm not sure whether her story was credible or not.",
     "opts": {
       "A": "amazing",
@@ -4961,7 +4961,7 @@ window.QUESTIONS = [
     "no": 74,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Synonyms and antonyms",
     "q": "The Queen's dragons are fierce and invincible.",
     "opts": {
       "A": "cannot be seen",
@@ -4983,7 +4983,7 @@ window.QUESTIONS = [
     "no": 75,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Synonyms and antonyms",
     "q": "The office disposed of its obsolete computers.",
     "opts": {
       "A": "outdated",
@@ -5005,7 +5005,7 @@ window.QUESTIONS = [
     "no": 76,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Synonyms and antonyms",
     "q": "After the death of her husband, she became a recluse.",
     "opts": {
       "A": "widow",
@@ -5027,7 +5027,7 @@ window.QUESTIONS = [
     "no": 77,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Synonyms and antonyms",
     "q": "The Board was unanimous in its decision regarding the election of a new Chairman.",
     "opts": {
       "A": "unable to agree",
@@ -5049,7 +5049,7 @@ window.QUESTIONS = [
     "no": 78,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Synonyms and antonyms",
     "q": "She stood with her hands folded before her like a penitent child.",
     "opts": {
       "A": "repentant",
@@ -5071,7 +5071,7 @@ window.QUESTIONS = [
     "no": 79,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Synonyms and antonyms",
     "q": "He was quite tenacious in his pursuit of the young lady.",
     "opts": {
       "A": "confident",
@@ -5093,7 +5093,7 @@ window.QUESTIONS = [
     "no": 80,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Synonyms and antonyms",
     "q": "The Resource Person was given a modest honorarium for presenting a paper at the Seminar.",
     "opts": {
       "A": "bouquet",
@@ -5115,7 +5115,7 @@ window.QUESTIONS = [
     "no": 1,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Idioms and phrases",
     "q": "To be taken aback",
     "opts": {
       "A": "surprised",
@@ -5137,7 +5137,7 @@ window.QUESTIONS = [
     "no": 2,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Idioms and phrases",
     "q": "To give oneself airs",
     "opts": {
       "A": "to be arrogant",
@@ -5159,7 +5159,7 @@ window.QUESTIONS = [
     "no": 3,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Idioms and phrases",
     "q": "All and sundry",
     "opts": {
       "A": "everyone",
@@ -5181,7 +5181,7 @@ window.QUESTIONS = [
     "no": 4,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Idioms and phrases",
     "q": "Alpha and Omega",
     "opts": {
       "A": "the beginning and the end",
@@ -5203,7 +5203,7 @@ window.QUESTIONS = [
     "no": 5,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Idioms and phrases",
     "q": "Apple-pie order",
     "opts": {
       "A": "a sudden shock",
@@ -5225,7 +5225,7 @@ window.QUESTIONS = [
     "no": 6,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Idioms and phrases",
     "q": "Apple of one's eye",
     "opts": {
       "A": "to charge fairly",
@@ -5247,7 +5247,7 @@ window.QUESTIONS = [
     "no": 7,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Idioms and phrases",
     "q": "To put the cart before the horse",
     "opts": {
       "A": "to imagine a fine future",
@@ -5269,7 +5269,7 @@ window.QUESTIONS = [
     "no": 8,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Idioms and phrases",
     "q": "To fall flat",
     "opts": {
       "A": "to flatter",
@@ -5291,7 +5291,7 @@ window.QUESTIONS = [
     "no": 9,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Idioms and phrases",
     "q": "In spite of all his brag he had to eat __________.",
     "opts": {
       "A": "humble pie",
@@ -5313,7 +5313,7 @@ window.QUESTIONS = [
     "no": 10,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Idioms and phrases",
     "q": "I am prepared to meet you __________.",
     "opts": {
       "A": "half-way",
@@ -5335,7 +5335,7 @@ window.QUESTIONS = [
     "no": 11,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Idioms and phrases",
     "q": "This is __________ the rest of his conduct.",
     "opts": {
       "A": "in touch with",
@@ -5357,7 +5357,7 @@ window.QUESTIONS = [
     "no": 12,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Idioms and phrases",
     "q": "He is __________ if he fails at this juncture.",
     "opts": {
       "A": "not this time",
@@ -5379,7 +5379,7 @@ window.QUESTIONS = [
     "no": 13,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Idioms and phrases",
     "q": "The cost of living has increased, he finds it difficult __________.",
     "opts": {
       "A": "to make both ends meet",
@@ -5401,7 +5401,7 @@ window.QUESTIONS = [
     "no": 14,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Idioms and phrases",
     "q": "Fools rush in where __________ fear to tread.",
     "opts": {
       "A": "women",
@@ -5423,7 +5423,7 @@ window.QUESTIONS = [
     "no": 15,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Idioms and phrases",
     "q": "He is determined to achieve his object __________.",
     "opts": {
       "A": "by his laurels",
@@ -5445,7 +5445,7 @@ window.QUESTIONS = [
     "no": 16,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Idioms and phrases",
     "q": "He turned __________ to my advice.",
     "opts": {
       "A": "now and then",
@@ -5467,7 +5467,7 @@ window.QUESTIONS = [
     "no": 17,
     "paper": "GE",
     "unit": "3",
-    "sub": null,
+    "sub": "Main idea, tone and the author's stance",
     "q": "What motivates man's actions or thinking?",
     "opts": {
       "A": "To satisfy his needs or to escape pain",
@@ -5492,7 +5492,7 @@ window.QUESTIONS = [
     "no": 18,
     "paper": "GE",
     "unit": "3",
-    "sub": null,
+    "sub": "How to read an unseen passage under time pressure",
     "q": "What feeling promoted primitive man to create religion?",
     "opts": {
       "A": "Love",
@@ -5517,7 +5517,7 @@ window.QUESTIONS = [
     "no": 19,
     "paper": "GE",
     "unit": "3",
-    "sub": null,
+    "sub": "Vocabulary-in-context questions",
     "q": "\"Human soul forges a being\" means",
     "opts": {
       "A": "that ghosts and witches are a creation of human mind",
@@ -5542,7 +5542,7 @@ window.QUESTIONS = [
     "no": 20,
     "paper": "GE",
     "unit": "3",
-    "sub": null,
+    "sub": "How to read an unseen passage under time pressure",
     "q": "How did religion become firmly established?",
     "opts": {
       "A": "Through the constant fear of death",
@@ -5567,7 +5567,7 @@ window.QUESTIONS = [
     "no": 21,
     "paper": "GE",
     "unit": "3",
-    "sub": null,
+    "sub": "Inference questions and answering in your own words",
     "q": "How did the priests come to acquire political power?",
     "opts": {
       "A": "By joining hand with the despotic rulers",
@@ -5592,7 +5592,7 @@ window.QUESTIONS = [
     "no": 22,
     "paper": "GE",
     "unit": "3",
-    "sub": null,
+    "sub": "How to read an unseen passage under time pressure",
     "q": "What offer did the king make to the jester?",
     "opts": {
       "A": "To leave the kingdom and settle down in another kingdom",
@@ -5617,7 +5617,7 @@ window.QUESTIONS = [
     "no": 23,
     "paper": "GE",
     "unit": "3",
-    "sub": null,
+    "sub": "Inference questions and answering in your own words",
     "q": "Why did the jester cut a joke at the expense of the king?",
     "opts": {
       "A": "He wanted to settle an old score with the king",
@@ -5642,7 +5642,7 @@ window.QUESTIONS = [
     "no": 24,
     "paper": "GE",
     "unit": "3",
-    "sub": null,
+    "sub": "How to read an unseen passage under time pressure",
     "q": "Why was the jester very popular?",
     "opts": {
       "A": "He made fun of the courtiers",
@@ -5667,7 +5667,7 @@ window.QUESTIONS = [
     "no": 25,
     "paper": "GE",
     "unit": "3",
-    "sub": null,
+    "sub": "Inference questions and answering in your own words",
     "q": "Why did the king become angry with the jester?",
     "opts": {
       "A": "One day the jester refused to entertain the courtiers",
@@ -5692,7 +5692,7 @@ window.QUESTIONS = [
     "no": 26,
     "paper": "GE",
     "unit": "3",
-    "sub": null,
+    "sub": "How to read an unseen passage under time pressure",
     "q": "What made the jester arrogant and conceited?",
     "opts": {
       "A": "His power of making interesting jokes",
@@ -5717,7 +5717,7 @@ window.QUESTIONS = [
     "no": 27,
     "paper": "GE",
     "unit": "3",
-    "sub": null,
+    "sub": "Inference questions and answering in your own words",
     "q": "Why could nobody complain to the king about the jester's arrogance?",
     "opts": {
       "A": "The king was benevolent and powerful",
@@ -5742,7 +5742,7 @@ window.QUESTIONS = [
     "no": 28,
     "paper": "GE",
     "unit": "3",
-    "sub": null,
+    "sub": "Why lifting sentences verbatim loses marks",
     "q": "Which of the following statements is correct? Harnessing energy from sea waves",
     "opts": {
       "A": "undermines ecological balance.",
@@ -5767,7 +5767,7 @@ window.QUESTIONS = [
     "no": 29,
     "paper": "GE",
     "unit": "3",
-    "sub": null,
+    "sub": "Why lifting sentences verbatim loses marks",
     "q": "Which of the following statements is correct? Wave power devices",
     "opts": {
       "A": "convert wind energy into mechanical power.",
@@ -5792,7 +5792,7 @@ window.QUESTIONS = [
     "no": 30,
     "paper": "GE",
     "unit": "3",
-    "sub": null,
+    "sub": "Why lifting sentences verbatim loses marks",
     "q": "Which of the following statements is correct?",
     "opts": {
       "A": "Fixed as well as floating oscillating water column devices are required to harness ocean wave energy.",
@@ -5817,7 +5817,7 @@ window.QUESTIONS = [
     "no": 31,
     "paper": "GE",
     "unit": "3",
-    "sub": null,
+    "sub": "Why lifting sentences verbatim loses marks",
     "q": "Which of the following statements is correct? The capacity of system to generate electricity from ocean waves",
     "opts": {
       "A": "can be increased only at exorbitant cost.",
@@ -5842,7 +5842,7 @@ window.QUESTIONS = [
     "no": 32,
     "paper": "GE",
     "unit": "3",
-    "sub": null,
+    "sub": "Why lifting sentences verbatim loses marks",
     "q": "Which of the following statements is NOT correct?",
     "opts": {
       "A": "Conventional power stations require cooling towers.",
@@ -5867,7 +5867,7 @@ window.QUESTIONS = [
     "no": 33,
     "paper": "GE",
     "unit": "4",
-    "sub": null,
+    "sub": "Verb forms and tense in context",
     "q": "Hello, Robert. I __________ seen you for ages.",
     "opts": {
       "A": "haven't",
@@ -5889,7 +5889,7 @@ window.QUESTIONS = [
     "no": 34,
     "paper": "GE",
     "unit": "4",
-    "sub": null,
+    "sub": "Verb forms and tense in context",
     "q": "Hello, Tessa. Great to see you. What have you __________ doing lately?",
     "opts": {
       "A": "been",
@@ -5911,7 +5911,7 @@ window.QUESTIONS = [
     "no": 35,
     "paper": "GE",
     "unit": "4",
-    "sub": null,
+    "sub": "Verb forms and tense in context",
     "q": "__________ just started a new job in computer sales and services.",
     "opts": {
       "A": "I'd",
@@ -5933,7 +5933,7 @@ window.QUESTIONS = [
     "no": 36,
     "paper": "GE",
     "unit": "4",
-    "sub": null,
+    "sub": "Verb forms and tense in context",
     "q": "You __________ working for 'Sam Enterprises' when we last met.",
     "opts": {
       "A": "did",
@@ -5955,7 +5955,7 @@ window.QUESTIONS = [
     "no": 37,
     "paper": "GE",
     "unit": "4",
-    "sub": null,
+    "sub": "Verb forms and tense in context",
     "q": "That's right. I had __________ working there but I got fed up.",
     "opts": {
       "A": "be",
@@ -5977,7 +5977,7 @@ window.QUESTIONS = [
     "no": 38,
     "paper": "GE",
     "unit": "4",
-    "sub": null,
+    "sub": "Verb forms and tense in context",
     "q": "Tom could hear shouts from the flat next door. His neighbours __________ again.",
     "opts": {
       "A": "were arguing",
@@ -5999,7 +5999,7 @@ window.QUESTIONS = [
     "no": 39,
     "paper": "GE",
     "unit": "4",
-    "sub": null,
+    "sub": "Verb forms and tense in context",
     "q": "Rupert had __________ his credit card.",
     "opts": {
       "A": "forgot",
@@ -6021,7 +6021,7 @@ window.QUESTIONS = [
     "no": 40,
     "paper": "GE",
     "unit": "4",
-    "sub": null,
+    "sub": "Verb forms and tense in context",
     "q": "I didn't want to go until I __________ taken a photo.",
     "opts": {
       "A": "has",
@@ -6043,7 +6043,7 @@ window.QUESTIONS = [
     "no": 41,
     "paper": "GE",
     "unit": "4",
-    "sub": null,
+    "sub": "Verb forms and tense in context",
     "q": "Nancy has __________ the report.",
     "opts": {
       "A": "writing",
@@ -6065,7 +6065,7 @@ window.QUESTIONS = [
     "no": 42,
     "paper": "GE",
     "unit": "4",
-    "sub": null,
+    "sub": "Verb forms and tense in context",
     "q": "I have been __________ in the queue for forty minutes.",
     "opts": {
       "A": "waiting",
@@ -6087,7 +6087,7 @@ window.QUESTIONS = [
     "no": 43,
     "paper": "GE",
     "unit": "4",
-    "sub": null,
+    "sub": "The eight parts of speech and how to tell them apart",
     "q": "__________ I really need is a long holiday.",
     "opts": {
       "A": "that",
@@ -6109,7 +6109,7 @@ window.QUESTIONS = [
     "no": 44,
     "paper": "GE",
     "unit": "4",
-    "sub": null,
+    "sub": "Prepositions and their correct use",
     "q": "At last I've found the information that I was looking __________.",
     "opts": {
       "A": "for",
@@ -6131,7 +6131,7 @@ window.QUESTIONS = [
     "no": 45,
     "paper": "GE",
     "unit": "4",
-    "sub": null,
+    "sub": "Verb forms and tense in context",
     "q": "Everyone __________ the building was searched by the police.",
     "opts": {
       "A": "enter",
@@ -6153,7 +6153,7 @@ window.QUESTIONS = [
     "no": 46,
     "paper": "GE",
     "unit": "4",
-    "sub": null,
+    "sub": "The eight parts of speech and how to tell them apart",
     "q": "The plane __________ has just taken off is an hour late.",
     "opts": {
       "A": "it",
@@ -6175,7 +6175,7 @@ window.QUESTIONS = [
     "no": 47,
     "paper": "GE",
     "unit": "4",
-    "sub": null,
+    "sub": "The eight parts of speech and how to tell them apart",
     "q": "I had just one reply. ABCD was the __________ company to reply to my letter.",
     "opts": {
       "A": "last",
@@ -6197,7 +6197,7 @@ window.QUESTIONS = [
     "no": 48,
     "paper": "GE",
     "unit": "4",
-    "sub": null,
+    "sub": "The eight parts of speech and how to tell them apart",
     "q": "Martin is someone with __________ I usually agree.",
     "opts": {
       "A": "him",
@@ -6219,7 +6219,7 @@ window.QUESTIONS = [
     "no": 49,
     "paper": "GE",
     "unit": "6",
-    "sub": null,
+    "sub": "Simple, compound and complex sentences",
     "q": "I am sure that she will stand first.",
     "opts": {
       "A": "Simple sentence",
@@ -6240,7 +6240,7 @@ window.QUESTIONS = [
     "no": 50,
     "paper": "GE",
     "unit": "6",
-    "sub": null,
+    "sub": "Simple, compound and complex sentences",
     "q": "She will stand first. I am sure.",
     "opts": {
       "A": "Simple sentence",
@@ -6261,7 +6261,7 @@ window.QUESTIONS = [
     "no": 51,
     "paper": "GE",
     "unit": "6",
-    "sub": null,
+    "sub": "Simple, compound and complex sentences",
     "q": "That you are rich does not make you great.",
     "opts": {
       "A": "Simple sentence",
@@ -6282,7 +6282,7 @@ window.QUESTIONS = [
     "no": 52,
     "paper": "GE",
     "unit": "6",
-    "sub": null,
+    "sub": "Simple, compound and complex sentences",
     "q": "He went to France in 1992. He came back in 1995.",
     "opts": {
       "A": "Simple sentence",
@@ -6303,7 +6303,7 @@ window.QUESTIONS = [
     "no": 53,
     "paper": "GE",
     "unit": "6",
-    "sub": null,
+    "sub": "Simple, compound and complex sentences",
     "q": "He went to France in 1992, and came back in 1995.",
     "opts": {
       "A": "Simple sentence",
@@ -6324,7 +6324,7 @@ window.QUESTIONS = [
     "no": 54,
     "paper": "GE",
     "unit": "6",
-    "sub": null,
+    "sub": "Simple, compound and complex sentences",
     "q": "He is punctual. He is intelligent.",
     "opts": {
       "A": "Simple sentence",
@@ -6345,7 +6345,7 @@ window.QUESTIONS = [
     "no": 55,
     "paper": "GE",
     "unit": "6",
-    "sub": null,
+    "sub": "Simple, compound and complex sentences",
     "q": "He is both punctual and intelligent.",
     "opts": {
       "A": "Simple sentence",
@@ -6366,7 +6366,7 @@ window.QUESTIONS = [
     "no": 56,
     "paper": "GE",
     "unit": "6",
-    "sub": null,
+    "sub": "Simple, compound and complex sentences",
     "q": "He is not only punctual but also intelligent.",
     "opts": {
       "A": "Simple sentence",
@@ -6387,7 +6387,7 @@ window.QUESTIONS = [
     "no": 57,
     "paper": "GE",
     "unit": "6",
-    "sub": null,
+    "sub": "Joining and splitting sentences",
     "q": "Thanga likes History and Mawia likes Math. It is interesting to note that Thanga is the son of a Math teacher while Mawia's father is a teacher of History",
     "opts": {
       "A": "the former, the latter's",
@@ -6409,7 +6409,7 @@ window.QUESTIONS = [
     "no": 58,
     "paper": "GE",
     "unit": "6",
-    "sub": null,
+    "sub": "Joining and splitting sentences",
     "q": "Sangi, the monitor of class XI and Sanga, the monitor of class XII were asked to meet the principal.",
     "opts": {
       "A": "the monitors of class XI and XII respectively",
@@ -6431,7 +6431,7 @@ window.QUESTIONS = [
     "no": 59,
     "paper": "GE",
     "unit": "6",
-    "sub": null,
+    "sub": "Subject-verb agreement and sequence of tenses",
     "q": "The host welcomed us. The hostess also welcomed us.",
     "opts": {
       "A": "Both the host and hostess welcomes us.",
@@ -6453,7 +6453,7 @@ window.QUESTIONS = [
     "no": 60,
     "paper": "GE",
     "unit": "6",
-    "sub": null,
+    "sub": "Joining and splitting sentences",
     "q": "A light bat was ineffective but the heavier bat was difficult to get.",
     "opts": {
       "A": "bat",
@@ -6475,7 +6475,7 @@ window.QUESTIONS = [
     "no": 61,
     "paper": "GE",
     "unit": "6",
-    "sub": null,
+    "sub": "Subject-verb agreement and sequence of tenses",
     "q": "Laxman scored a century and Dravid scored a century.",
     "opts": {
       "A": "Both Laxman and Dravid scored a century",
@@ -6497,7 +6497,7 @@ window.QUESTIONS = [
     "no": 62,
     "paper": "GE",
     "unit": "6",
-    "sub": null,
+    "sub": "Joining and splitting sentences",
     "q": "The dinner will take some time to be ready. __________ we can have some soup.",
     "opts": {
       "A": "Finally",
@@ -6519,7 +6519,7 @@ window.QUESTIONS = [
     "no": 63,
     "paper": "GE",
     "unit": "6",
-    "sub": null,
+    "sub": "Joining and splitting sentences",
     "q": "He was facing a veteran politician. __________ he emerged a winner.",
     "opts": {
       "A": "Therefore",
@@ -6541,7 +6541,7 @@ window.QUESTIONS = [
     "no": 64,
     "paper": "GE",
     "unit": "6",
-    "sub": null,
+    "sub": "Joining and splitting sentences",
     "q": "You said Diana would speak against us. __________, she spoke in our favour.",
     "opts": {
       "A": "Besides",
@@ -6563,7 +6563,7 @@ window.QUESTIONS = [
     "no": 65,
     "paper": "GE",
     "unit": "6",
-    "sub": null,
+    "sub": "Joining and splitting sentences",
     "q": "The candidate was preferred because he had an MBA degree __________ being a post graduate.",
     "opts": {
       "A": "yet",
@@ -6585,7 +6585,7 @@ window.QUESTIONS = [
     "no": 66,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Synonyms and antonyms",
     "q": "The fever will soon abate.",
     "opts": {
       "A": "grow less",
@@ -6607,7 +6607,7 @@ window.QUESTIONS = [
     "no": 67,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Commonly confused pairs",
     "q": "What is the reference in this passage?",
     "opts": {
       "A": "Allusion",
@@ -6629,7 +6629,7 @@ window.QUESTIONS = [
     "no": 68,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Commonly confused pairs",
     "q": "The mirage is but an illusion of the eyes.",
     "opts": {
       "A": "Trouble",
@@ -6651,7 +6651,7 @@ window.QUESTIONS = [
     "no": 69,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Synonyms and antonyms",
     "q": "A miser's apathy to human sufferings in no surprise.",
     "opts": {
       "A": "Shout",
@@ -6673,7 +6673,7 @@ window.QUESTIONS = [
     "no": 70,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Synonyms and antonyms",
     "q": "This is not a credible story.",
     "opts": {
       "A": "good",
@@ -6695,7 +6695,7 @@ window.QUESTIONS = [
     "no": 71,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Synonyms and antonyms",
     "q": "You can not defy his orders.",
     "opts": {
       "A": "delay",
@@ -6717,7 +6717,7 @@ window.QUESTIONS = [
     "no": 72,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Synonyms and antonyms",
     "q": "Abandon",
     "opts": {
       "A": "forsake",
@@ -6739,7 +6739,7 @@ window.QUESTIONS = [
     "no": 73,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Synonyms and antonyms",
     "q": "Ardent",
     "opts": {
       "A": "ancient",
@@ -6761,7 +6761,7 @@ window.QUESTIONS = [
     "no": 74,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Synonyms and antonyms",
     "q": "Colossal",
     "opts": {
       "A": "reveal",
@@ -6783,7 +6783,7 @@ window.QUESTIONS = [
     "no": 75,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Synonyms and antonyms",
     "q": "Deceit",
     "opts": {
       "A": "demise",
@@ -6805,7 +6805,7 @@ window.QUESTIONS = [
     "no": 76,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Synonyms and antonyms",
     "q": "Impetuous",
     "opts": {
       "A": "hasty",
@@ -6827,7 +6827,7 @@ window.QUESTIONS = [
     "no": 77,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Synonyms and antonyms",
     "q": "Enmity",
     "opts": {
       "A": "enemy",
@@ -6849,7 +6849,7 @@ window.QUESTIONS = [
     "no": 78,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Synonyms and antonyms",
     "q": "Docile",
     "opts": {
       "A": "agile",
@@ -6871,7 +6871,7 @@ window.QUESTIONS = [
     "no": 79,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Synonyms and antonyms",
     "q": "Rash",
     "opts": {
       "A": "cautious",
@@ -6893,7 +6893,7 @@ window.QUESTIONS = [
     "no": 80,
     "paper": "GE",
     "unit": "5",
-    "sub": null,
+    "sub": "Synonyms and antonyms",
     "q": "Tame",
     "opts": {
       "A": "wild",

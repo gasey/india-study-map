@@ -74,6 +74,12 @@ GE_DERIVED = {
         "The eight parts of speech and how to tell them apart",
         "Words that change part of speech with their slot",
         "Identifying the part of speech of an underlined word",
+        # Added after reading the tagged questions: the real Unit 4 bank is
+        # mostly preposition choice and verb-form gap-fills, and only ~6 of ~28
+        # items are parts-of-speech identification. Without these two the
+        # majority of the unit's questions have no concept to attach to.
+        "Prepositions and their correct use",
+        "Verb forms and tense in context",
     ]),
     "5": ("Correct Usage and Vocabularies", [
         "Synonyms and antonyms",
@@ -89,6 +95,10 @@ GE_DERIVED = {
         "Direct and indirect speech",
         "Joining and splitting sentences",
         "Subject-verb agreement and sequence of tenses",
+        # Six real marks ask assertive / interrogative / imperative /
+        # exclamatory, which none of the structural subtopics covers. Added so
+        # those questions have a home rather than being taught as an aside.
+        "Sentence types by function: assertive, interrogative, imperative, exclamatory",
     ]),
 }
 
@@ -143,6 +153,14 @@ def do_export(only):
         for i in range(0, len(ts), BATCH_SIZE):
             chunk = ts[i:i + BATCH_SIZE]
             n = i // BATCH_SIZE + 1
+            # Batch numbers are assigned over REMAINING work, so a second export
+            # would otherwise reuse a name whose .done.json already exists — and
+            # the agent handed that name overwrites finished concepts. Skip past
+            # any number already claimed. (Hit for real on TECH2-UV-1, where a
+            # re-export handed the business-communication batch the filename
+            # holding nine finished IT Governance concepts.)
+            while os.path.exists(os.path.join(BATCHES, f"{paper}-U{unit}-{n}.done.json")):
+                n += 1
             name = f"{paper}-U{unit}-{n}"
             path = os.path.join(BATCHES, f"{name}.todo.json")
             with open(path, "w", encoding="utf-8") as f:
@@ -197,10 +215,18 @@ def do_merge():
             if words > 520:
                 problems.append(f"{tag}: {words} words across def+exp — too long (want ~240)")
                 continue
+            # Detect leftover FORMATTING markup, not element names in prose. The
+            # Web Technologies concepts legitimately teach HTML and must be able
+            # to write an element name in angle brackets — the app escapes these
+            # strings, so it renders as visible text, which is exactly right.
+            # Match only CLOSING tags: real markup always has one, prose naming an
+            # element never does. Same narrowing already applied in assemble.py
+            # after it false-positived on eight Web Technologies explanations.
             for field in ("def", "exp"):
                 v = c.get(field) or ""
-                if re.search(r"</?[a-z][^>]*>", v):
-                    problems.append(f"{tag}: {field} contains HTML — the app escapes it")
+                if re.search(r"</[a-z]+\s*>", v, re.I):
+                    problems.append(f"{tag}: {field} contains HTML formatting markup — "
+                                    f"the app escapes it, so tags render literally")
             facts = c.get("facts") or []
             traps = c.get("traps") or []
             if not 2 <= len(facts) <= 8:

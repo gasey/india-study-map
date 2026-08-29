@@ -1,0 +1,251 @@
+[
+  {
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "File Recovery",
+    "def": "File recovery is the set of Windows facilities and working practices used to get a file back after it has been deleted, overwritten or corrupted: the Recycle Bin for ordinary deletions, Previous Versions for an earlier saved state, restoration from backup media, and undelete tools for files whose directory entry has already gone.",
+    "exp": "Deleting a file through File Explorer from a local fixed drive moves it to the Recycle Bin, where it still occupies space on the same volume and can be restored to its original folder. Shift+Delete bypasses the bin, and so do deletions from a network share, from the command line and usually from removable drives.\n\nPrevious Versions handles what the Recycle Bin cannot. It exposes older copies of a file or folder captured by a shadow copy or restore point, so a file that was overwritten with wrong content rather than deleted can be rolled back.\n\nThe governing principle is worth memorising. A normal delete erases nothing. It removes the directory entry and marks the clusters free, and the data stays physically on the disk until something else is written over that space. Recovery odds collapse the moment the freed space is reused.\n\nSo the correct immediate step after an accidental deletion is to stop writing to that disk. Do not install recovery software onto it and do not save recovered files back onto it; if the data matters, power the machine down and recover the disk from another computer. Defragmenting, disk-checking or reformatting all write to the disk and destroy what you are trying to save.\n\nOn SSDs, TRIM discards deleted blocks soon after deletion, so undelete is far less reliable there. A tested backup remains the only dependable answer.",
+    "facts": [
+      "The Recycle Bin holds files deleted through File Explorer from a local fixed drive and restores them to their original folder; Shift+Delete bypasses it",
+      "Previous Versions restores an earlier saved copy of a file or folder taken from a shadow copy or restore point, so it can recover an overwritten file, not only a deleted one",
+      "An ordinary delete removes the directory entry and marks the clusters free; the data survives on disk until it is overwritten",
+      "The single most important immediate step after an accidental deletion is to stop writing to that disk",
+      "Files deleted from a network share do not go into the local Recycle Bin",
+      "On SSDs, TRIM discards deleted blocks soon after deletion, which makes undelete much less reliable than on a mechanical hard disk"
+    ],
+    "traps": [
+      "Recycle Bin and Previous Versions are not the same. The Recycle Bin returns files deleted through Explorer and only until it is emptied; Previous Versions returns an older saved state of a file, including one that was overwritten rather than deleted",
+      "Emptying the Recycle Bin does not wipe the data, it only releases the space. Recovery stays possible until that space is reused",
+      "Defragmenting, formatting or running a disk check is never a recovery first step. All three write to the disk and destroy recoverable data",
+      "File recovery is not backup. It is a salvage attempt with no guarantee; backup is the planned protection"
+    ],
+    "mnem": "",
+    "rel": [
+      "Backup and Restore",
+      "Files and Folders",
+      "File Systems"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Device Manager",
+    "def": "Device Manager (devmgmt.msc) is the Windows console that lists every piece of hardware the system has detected, grouped by category, together with the driver bound to each device. It is where you check a device's status and where drivers are updated, rolled back, disabled or uninstalled. It deals with hardware and drivers only.",
+    "exp": "The display is a tree of categories such as Display adapters, Network adapters, Disk drives and Printers. Expanding one lists the individual devices, and a device's Properties gives its status message plus a Driver tab showing the provider, version and date, with buttons to update, roll back, disable or uninstall.\n\nThe status markers are the examinable part. A yellow warning marker beside a device means Windows has detected the hardware but cannot use it correctly, most often because the driver is missing, wrong or has failed to start. A disabled device carries a different marker and is not the same fault. An entry under Other devices, listed as an unknown device, means Windows found hardware for which it has no matching driver at all.\n\nRoll Back Driver is the specific fix for a device that worked until a driver was updated and then stopped. It reinstates the previous driver and is available only while Windows still holds a copy of it. Updating again is the wrong instinct there.\n\nScan for hardware changes forces Windows to re-enumerate, which helps when a newly attached device has not been picked up.\n\nKeep the boundary clear. Device Manager shows a hard disk as hardware with a driver; it does not create partitions, format volumes or assign drive letters, which is Disk Management's job.",
+    "facts": [
+      "Device Manager is opened as devmgmt.msc, or from within Computer Management",
+      "A yellow warning marker means the device is present but not functioning correctly, most often a driver problem",
+      "Roll Back Driver reinstates the previously installed driver and is the correct response when a device fails immediately after a driver update",
+      "Disabling a device stops Windows using it but leaves it installed; uninstalling removes its driver",
+      "Device Manager is the tool used to check hardware status and update drivers; it does not manage partitions or volumes"
+    ],
+    "traps": [
+      "Device Manager versus Disk Management. Device Manager shows the physical disk and its driver; Disk Management creates volumes, formats them and assigns drive letters. A new disk missing from File Explorer is a Disk Management job",
+      "The yellow warning marker does not mean the device is switched off, disabled or unpowered. A disabled device shows a separate marker",
+      "Updating the driver is not always the fix. If the fault appeared right after an update, roll back instead",
+      "Uninstalling a device in Device Manager does not remove the hardware. A reboot or a scan for hardware changes normally reinstalls it with a default driver"
+    ],
+    "mnem": "",
+    "rel": [
+      "Disk Management",
+      "Windows Utilities",
+      "Event Viewer"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Disk Management",
+    "def": "Disk Management (diskmgmt.msc) is the Windows console for physical disks and the volumes on them. It initialises a new disk, creates, deletes and formats partitions and volumes, extends and shrinks them, and assigns or changes drive letters and mount points. Its command-line equivalent is diskpart.",
+    "exp": "The console has two panes: a list of volumes with their file system, capacity and free space, and a graphical map of each physical disk showing its partitions and unallocated space.\n\nA newly fitted disk shows as not initialised and does not appear in File Explorer. The sequence is: initialise the disk, choosing a partition style; create a New Simple Volume on the unallocated space; format it, normally with NTFS; and assign a drive letter. Only after all four steps is it usable.\n\nBasic and dynamic are the two disk types. A basic disk is the ordinary default, storing data in primary and logical partitions, and is what a newly initialised disk becomes. A dynamic disk is the alternative you must deliberately convert to, supporting volumes that span, stripe or mirror across several physical disks. Dynamic disks are now largely legacy; Storage Spaces is the modern replacement.\n\nMBR and GPT are the two partition styles, chosen at initialisation. MBR is the older scheme, limited to disks of about 2 TB and to four primary partitions. GPT handles far larger disks and many more partitions, and is required to boot a UEFI system.\n\nA volume can be extended only into unallocated space that follows it on the same disk; shrinking releases space from the end. Formatting destroys the volume's contents, whereas changing a drive letter does not.",
+    "facts": [
+      "Disk Management is opened as diskmgmt.msc; diskpart is the command-line equivalent",
+      "A new disk must be initialised, given a volume, formatted and assigned a drive letter before it appears in File Explorer",
+      "A basic disk is the default type, using primary and logical partitions; a dynamic disk is the alternative that must be converted to",
+      "MBR is limited to roughly 2 TB and four primary partitions; GPT supports much larger disks and is required for UEFI booting",
+      "A volume can be extended only into unallocated space that follows it on the same physical disk",
+      "Formatting a volume erases its contents; changing its drive letter does not"
+    ],
+    "traps": [
+      "Partition style is not file system. MBR and GPT are chosen when the disk is initialised; NTFS, FAT32 and exFAT are chosen when the volume is formatted",
+      "Basic versus dynamic. Basic is the default; converting basic to dynamic is easy, but returning to basic generally means deleting the volumes first",
+      "Disk Management versus Device Manager. Bringing a new disk online and giving it a drive letter is Disk Management; a driver problem on the disk controller is Device Manager",
+      "Quick format only writes a fresh file table; a full format also checks for bad sectors. Neither is a secure wipe, and data may still be recoverable"
+    ],
+    "mnem": "",
+    "rel": [
+      "File Systems",
+      "Device Manager",
+      "Windows Utilities"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Task Manager",
+    "def": "Task Manager is the quick-look tool for what a Windows machine is doing at this moment: which applications and processes are running, how much CPU, memory, disk and network each is consuming, and the End task button that force-closes a program which has stopped responding. It also controls which programs start automatically with Windows.",
+    "exp": "Ctrl+Shift+Esc opens it directly. Ctrl+Alt+Del opens the security screen from which it can be chosen, and it can also be launched by right-clicking the taskbar or Start button.\n\nThe tabs divide the work. Processes lists apps and background processes with live CPU, memory, disk and network columns; clicking a column heading sorts by that resource and immediately identifies the heaviest consumer. Performance draws whole-machine graphs for CPU, memory, disk, network and GPU, and carries the link that opens Resource Monitor. Startup lists the programs configured to run automatically when Windows starts, shows each one's startup impact and lets each be enabled or disabled, which is the standard first fix for a slow boot. Details is a flat list of processes with their process IDs and priorities, and Services gives a quick start and stop view.\n\nEnd task is the standard way to force a hung application to close. It terminates the process at once, so anything unsaved in that program is lost.\n\nUnderstand its limit. Task Manager tells you that a resource is saturated and which process is responsible. It will not say which file that process has open, and it keeps no history, so it cannot tell you whether today's figure is worse than last month's. Those belong to Resource Monitor and Performance Monitor.",
+    "facts": [
+      "Ctrl+Shift+Esc opens Task Manager directly; Ctrl+Alt+Del opens the security screen from which it can be selected",
+      "End task force-closes a hung application, and unsaved work in that application is lost",
+      "The Startup tab lists programs that run automatically when Windows starts and allows each to be disabled",
+      "The Details tab shows each process's process ID (PID); the Processes tab shows friendly application names",
+      "Task Manager displays live values only and keeps no logged history for comparison"
+    ],
+    "traps": [
+      "Task Manager versus Resource Monitor. Task Manager shows that a process is hammering the disk; Resource Monitor names the individual files it is reading and writing and the connections it holds",
+      "Task Manager versus Performance Monitor. Task Manager shows the present instant; Performance Monitor logs counters over time so a reading can be compared with a baseline",
+      "The Startup tab is not the Services console. Startup items are user programs launched at sign-in; services are background system programs configured in services.msc",
+      "Disabling a startup item does not uninstall the program. It only stops it launching automatically; the program can still be run by hand"
+    ],
+    "mnem": "",
+    "rel": [
+      "Resource Monitor",
+      "Performance Monitoring",
+      "Services"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Resource Monitor",
+    "def": "Resource Monitor (resmon) is the live drill-down tool that attributes CPU, memory, disk and network activity to individual processes in detail. You go to it once Task Manager has told you that a resource is saturated but not exactly what is doing it: Resource Monitor names the specific files a process is reading and writing and the specific network connections and ports it holds.",
+    "exp": "It opens by running resmon, or from the link on Task Manager's Performance tab, and presents five tabs: Overview, CPU, Memory, Disk and Network.\n\nThe Disk tab is the one that earns its keep. It breaks disk activity down per process and then per file, showing the full path of each file being read or written with read and write bytes per second. That is how you identify the single process behind continuous heavy disk activity and see exactly what it is churning through.\n\nThe Network tab does the same for the network: per process, the remote addresses it is talking to, the TCP connections open, and the ports it is listening on with their firewall status. This is the tool for tracing unexpected outbound traffic to its owner.\n\nThe CPU tab lists threads and services per process and includes a search of associated handles. Typing a file name there names the process holding that file open, which resolves a file in use by another program without rebooting.\n\nThe Memory tab shows physical memory per process and the system-wide split into in use, modified, standby and free.\n\nIts limit is time. Resource Monitor shows a detailed present but logs nothing. Close it and the detail is gone. Counters collected over days or weeks are Performance Monitor's job.",
+    "facts": [
+      "Resource Monitor is launched by running resmon, or from Task Manager's Performance tab",
+      "The Disk tab lists disk activity per process and per file, showing the full path of each file being read or written",
+      "The CPU tab's associated handle search names the process locking a given file, so it can be released without a reboot",
+      "The Network tab shows, per process, the remote addresses, TCP connections and listening ports in use",
+      "Resource Monitor gives live detail; it does not log counter values over days or weeks"
+    ],
+    "traps": [
+      "Resource Monitor versus Task Manager. Task Manager tells you which process is busy; Resource Monitor tells you what it is actually doing, file by file and connection by connection",
+      "Resource Monitor versus Performance Monitor. Resource Monitor is live detail with no history; Performance Monitor collects counters over time through data collector sets for baselining",
+      "Resource Monitor shows current activity, not past failures. A crash or service failure that already happened is an Event Viewer matter",
+      "It is a diagnostic view, not a fix. It identifies the offending process; you still stop or reconfigure it elsewhere"
+    ],
+    "mnem": "",
+    "rel": [
+      "Task Manager",
+      "Performance Monitoring",
+      "Event Viewer"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Event Viewer",
+    "def": "Event Viewer (eventvwr.msc) is the console for reading the Windows event logs, the timestamped record of what the operating system, its services and its applications have already done and reported. It is the first place to look after an unexplained crash, an unexpected restart, a service that failed to start or a security question, because it is the tool that reports the past.",
+    "exp": "Under Windows Logs sit the main logs. The System log records events raised by Windows components, drivers and services, including service start failures, disk errors and unexpected shutdowns. The Application log records events raised by installed programs. The Security log holds audit records: successful and failed logon attempts, object access and policy changes. Setup and Forwarded Events complete the set, and Applications and Services Logs holds detailed per-component logs.\n\nEach entry carries a level, a date and time, a source, an Event ID, and the user and computer concerned. Levels are Information, Warning, Error and Critical, while Security entries are recorded instead as Audit Success or Audit Failure. Source together with Event ID is what identifies a fault and what you search on.\n\nBecause a busy machine generates thousands of entries, filtering matters. Filter Current Log narrows by level, time window, source or Event ID, and a Custom View saves that filter for reuse.\n\nLogs have a maximum size and overwrite their oldest entries when full, so an old failure may already have rolled off. Investigate promptly, and save a log out to a file when it is needed as a record. In a government office the Security log is the evidence trail of who signed in, when, and what failed.",
+    "facts": [
+      "Event Viewer is opened as eventvwr.msc; the three main Windows logs are System, Application and Security",
+      "Successful and failed logon attempts are recorded in the Security log, not the System log",
+      "Event levels are Information, Warning, Error and Critical; Security log entries are Audit Success or Audit Failure",
+      "Every event carries a source and an Event ID, which together identify the specific fault",
+      "Event Viewer reports events that have already happened; it shows no live resource usage",
+      "Logs are size-capped and overwrite the oldest entries once full"
+    ],
+    "traps": [
+      "Security log versus System log. Security holds audit records of logons and access; System holds events from Windows components, drivers and services, including an unexpected shutdown",
+      "Event Viewer records a crash after the fact. It cannot end a hung task or show current CPU use, which is Task Manager's role",
+      "The Security log is only as complete as the audit policy. Anything not configured for auditing is never logged at all",
+      "An Error entry is not always the cause of a failure. Machines log routine errors constantly, so match the timestamp to the incident before concluding"
+    ],
+    "mnem": "SAS: System, Application, Security are the three logs to check first",
+    "rel": [
+      "Windows Security",
+      "Services",
+      "Task Manager"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Services",
+    "def": "A service is a long-running background program that Windows starts and manages independently of any user logging on, such as the print spooler, Windows Update or a database engine. Services have no window and no user interface. They are configured in the Services console (services.msc), which lists each service's name, description, current status, startup type and log-on account.",
+    "exp": "The startup type decides when, or whether, a service runs. Automatic means Windows starts it during boot. Automatic (Delayed Start) means it starts shortly after boot, once the critical services are up, so it does not lengthen the wait at sign-in; it suits services that are needed but not urgent. Manual means it does not start at boot but can be started by an administrator or on demand by a program that needs it. Disabled means it will not run at all and cannot even be started manually until the type is changed back.\n\nThe status column shows Running or Stopped, and a service can be started, stopped, paused or restarted. Restarting a stuck service, the print spooler being the classic case, is a routine fix that avoids rebooting the machine.\n\nThe Log On tab sets the account the service runs under, typically Local System, Local Service, Network Service or a named account. Least privilege applies: give it the weakest account that still works.\n\nThe Dependencies tab lists the services this one requires and those that require it. Stopping or disabling a service also stops everything depending on it, which is why one careless change can break several unrelated things.\n\nThe Recovery tab defines what Windows does if the service fails: restart it, run a program, or restart the computer.",
+    "facts": [
+      "The Services console is opened as services.msc; services also appear on a tab of Task Manager and in Computer Management",
+      "The four startup types are Automatic, Automatic (Delayed Start), Manual and Disabled",
+      "Disabled means the service cannot be started even manually until the startup type is changed",
+      "Automatic (Delayed Start) begins after boot has completed, to shorten sign-in time",
+      "The Dependencies tab shows which services this service needs and which services depend on it",
+      "A service runs under an account such as Local System, Local Service or Network Service, set on the Log On tab"
+    ],
+    "traps": [
+      "Manual versus Disabled. Manual leaves the service stopped at boot but it can still be started on demand; Disabled blocks it from starting by any means",
+      "Automatic versus Automatic (Delayed Start). Both start without any intervention; delayed simply waits until boot has finished",
+      "Services are not startup programs. Startup apps are per-user programs launched at sign-in and managed on Task Manager's Startup tab; a service runs with no user logged on at all",
+      "Stopping a service also stops every service that depends on it. Check the Dependencies tab before changing anything"
+    ],
+    "mnem": "",
+    "rel": [
+      "Task Manager",
+      "Event Viewer",
+      "Windows Utilities"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Performance Monitoring",
+    "def": "Performance monitoring is the practice of collecting named performance counters over a period of time so that a system's behaviour can be compared with how it normally behaves. In Windows the tool is Performance Monitor (perfmon), which charts selected counters live and, through Data Collector Sets, logs them continuously to a file for later analysis.",
+    "exp": "A counter is a named measurement identified by three parts: object, counter and instance. Processor, % Processor Time, _Total is the typical example; Memory Available MBytes, PhysicalDisk Avg. Disk Queue Length and Network Interface Bytes Total/sec are the others an administrator usually starts with.\n\nData Collector Sets are what separate this tool from every other monitoring tool in Windows. A collector set logs chosen counters to a file continuously or on a schedule, so readings can be gathered for a fortnight, a month or a quarter and reported on afterwards. Watching a live graph cannot do this.\n\nThat gives you a baseline: a recorded picture of how the system behaves under normal conditions and known load. Without one a single reading means nothing. Seventy per cent memory use is unremarkable on a server that always sits at sixty-eight and alarming on one that normally sits at thirty. A baseline must be retaken after any significant change to hardware, software or workload, or it stops representing normal.\n\nThis is also the only tool that supports capacity planning, projecting from the trend when a disk or a server will run out of headroom.\n\nThe boundary is time. Task Manager and Resource Monitor show the present instant, Event Viewer shows discrete past events, and only Performance Monitor produces a continuous measured history.",
+    "facts": [
+      "Performance Monitor is launched as perfmon",
+      "A counter is identified by object, counter name and instance, for example Processor / % Processor Time / _Total",
+      "Data Collector Sets log selected counters to a file continuously or on a schedule, which is what makes long-term trend analysis and baselining possible",
+      "A baseline is a record of how a system behaves normally, used as the yardstick against which a later reading is judged",
+      "A baseline must be retaken after any significant change in hardware, software or user load",
+      "Performance Monitor is the Windows tool used for capacity planning"
+    ],
+    "traps": [
+      "Performance Monitor versus Task Manager and Resource Monitor. Both of those show live values and keep no comparable history; only Performance Monitor logs counters over days and weeks",
+      "A baseline is not a target or a threshold. It records normal behaviour; the threshold is a judgement you make against it",
+      "Logging too many counters at too short an interval itself consumes CPU and disk and distorts the measurement",
+      "Performance Monitor measures resource usage, not errors. A service that failed to start is an Event Viewer question, not a counter question"
+    ],
+    "mnem": "",
+    "rel": [
+      "Task Manager",
+      "Resource Monitor",
+      "Event Viewer"
+    ]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Command Prompt",
+    "def": "Command Prompt (cmd.exe) is the legacy Windows command-line interpreter, descended from the MS-DOS command interpreter. You type a command, it runs and prints text, and that text can be redirected into a file or piped to another command as a stream of characters. It runs batch files and is still shipped in current Windows alongside PowerShell.",
+    "exp": "Commands divide into internal and external. Internal commands are built into the interpreter itself, which is loaded into main memory when the computer boots and stays resident, so they run without any disk access: DIR, CD, MD, RD, COPY, DEL, TYPE, REN and CLS. External commands are separate executable files fetched from disk only when called, such as TREE, XCOPY, CHKDSK, FORMAT, PING and IPCONFIG.\n\nThe file and directory commands are the examinable core. DIR lists files and directories; DIR /B gives bare output, names only with no heading, size, date or byte summary; DIR /W arranges names in columns; DIR /S includes subdirectories. CD changes directory and CD .. moves up one level. MD, also written MKDIR, creates a directory. RD, also written RMDIR, removes one, and only when it is already empty. DEL, also written ERASE, deletes files. COPY duplicates a file, TYPE displays a text file's contents on screen, REN renames, and TREE draws the directory and subdirectory structure of a drive or path.\n\nNetwork and disk work uses PING, IPCONFIG, NETSTAT, TRACERT, CHKDSK, SFC and DISKPART, most needing Run as administrator.\n\nRedirection sends output where you want it: > writes to a file and overwrites, >> appends, and | pipes text to the next command. That pipe carries characters, not objects, which is the essential difference from PowerShell.",
+    "facts": [
+      "Internal commands are built into the command interpreter, which is loaded into main memory at boot and stays resident; external commands are separate files loaded from disk when run",
+      "DIR lists files and directories; DIR /B gives bare output of names only, while DIR /W lists names in columns",
+      "MD and MKDIR are two names for the same command that creates a directory; RD and RMDIR remove one, and only if it is empty",
+      "DEL and ERASE delete files, not directories; TYPE displays the contents of a text file on screen",
+      "TREE displays the directory and subdirectory structure of a drive or path",
+      "In Command Prompt the pipe symbol passes plain text between commands"
+    ],
+    "traps": [
+      "RD removes only an empty directory and DEL removes only files. Neither does the other's job",
+      "DIR /B versus DIR /W. Both suppress size, date and time, but /B is bare, one name per line with no heading or summary, while /W lays the names out in columns",
+      "MD and MKDIR are the same command, as are RD and RMDIR and DEL and ERASE. A question may legitimately have both spellings as correct",
+      "Command Prompt is not Windows Terminal. Terminal is the window that hosts a shell in tabs; cmd.exe is the interpreter itself. Nor is it PowerShell, which passes objects rather than text"
+    ],
+    "mnem": "",
+    "rel": [
+      "PowerShell Fundamentals",
+      "Basic Batch Files",
+      "Windows Terminal"
+    ]
+  }
+]

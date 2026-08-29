@@ -1,0 +1,85 @@
+[
+  {
+    "paper": "GE",
+    "unit": "4",
+    "unitTitle": "Grammar: Parts of Speech",
+    "sub": "Prepositions and their correct use",
+    "def": "A preposition is a word placed before a noun, pronoun or gerund to show its relation to the rest of the sentence: place, time, direction, agency or manner. In this paper it almost always appears as a gap-fill in an otherwise complete sentence, so the question is only whether you know which preposition that particular verb, adjective or noun takes.",
+    "exp": "Take the honest position first: preposition choice in English is mostly collocation, not rule. Faith in, preparation for, indifferent to. No principle predicts them. Learn them as pairs - verb plus preposition, adjective plus preposition - and never reason the preposition out on its own.\n\nA working set drawn from the sentences set here: complete faith in, belief in, confidence in; preparation for, ready for, eager for; indifferent to, similar to, superior to; capable of, afraid of, aware of, guilty of; comply with, deal with, quarrel with; agree with a person but agree to a proposal; differ from a thing but differ with a person; run over what a vehicle crushes, run into what it collides with.\n\nThe few genuine patterns are worth memorising. Time: at for clock time (at 5 p.m.), on for days and dates (on Monday), in for months and years (in July, in 1992). Place: at a point, on a surface, in an enclosed space. Direction: over implies passage across, so you jump over a wall, while above states only higher position and cannot describe the leap. Within this week means before the week ends; by Friday means not later than Friday.\n\nMethod under time pressure: find the word governing the blank, normally the verb or adjective just before it, and recall its partner. Test each option against that governing word rather than picking what sounds smoothest.",
+    "facts": [
+      "Faith in, preparation for, indifferent to, capable of and comply with are fixed collocations: the preposition is set by the head word, not by the meaning of the sentence.",
+      "Agree with takes a person; agree to takes a proposal, plan or condition.",
+      "Differ from states unlikeness between things; differ with states disagreement with a person.",
+      "Time prepositions: at for clock times, on for days and dates, in for months, years and centuries.",
+      "Within a period means before that period ends; by a time means not later than that point.",
+      "A preposition always has an object - a noun, pronoun or gerund - and a pronoun object takes the objective case: someone with whom I agree, never with who."
+    ],
+    "traps": [
+      "Run over versus run into: a vehicle runs over what it crushes beneath it and runs into what it collides with. The drunk driver ran over the puppy.",
+      "Jumped over the wall versus above the wall: over allows crossing, above only states higher position, so above cannot describe the jump.",
+      "Indifferent to, not indifferent about or indifferent with. The distractors are all real prepositions attached to the wrong head word, so they read plausibly.",
+      "In gap-fills after a verb plus preposition, the preposition may already be at the end of the sentence: the information that I was looking for takes for alone, not for it or for that."
+    ],
+    "mnem": "Learn the pair, not the preposition: faith IN, preparation FOR, capable OF, comply WITH.",
+    "rel": [
+      "The eight parts of speech and how to tell them apart",
+      "Words that change part of speech with their slot",
+      "Commonly confused pairs"
+    ]
+  },
+  {
+    "paper": "GE",
+    "unit": "4",
+    "unitTitle": "Grammar: Parts of Speech",
+    "sub": "Verb forms and tense in context",
+    "def": "These questions give a sentence with one verb slot blank and four forms of the same verb in the options. The sentence always carries a time marker - since last week, by the time you get there, when we last met - and that marker, not your ear, decides the tense. Read the marker first, then select the form it demands.",
+    "exp": "What the markers force:\n\nSince or for with a starting point, where the situation still runs into the present, forces the present perfect or present perfect continuous. Use the continuous for an ongoing or repeated action (I have been missing my medications since last week) and the simple perfect when counting completed instances (she has had several jobs since graduating). Lately and for ages behave the same way: I haven't seen you for ages.\n\nBy the time you get there, or by plus any future point, forces the future perfect: the plane will have arrived. The action must be finished before that future moment.\n\nWhen we last met, or any fixed past reference, forces the past continuous for an action in progress then (you were working for Sam Enterprises) or the past perfect for one already finished before it (I had been working there). Until plus a past clause takes the past perfect in the earlier action: I didn't want to go until I had taken a photo.\n\nThen check the mechanics. After have, has or had you need the past participle - written, forgotten, taken, been - never the past simple. After have been or had been you need the -ing form: I have been waiting.\n\nProcedure: underline the time expression; decide past, present-connected or future; decide complete or in progress; assemble auxiliary and participle to match.",
+    "facts": [
+      "Since plus a point in time, in a present frame, requires the present perfect or present perfect continuous - never the present simple or the past continuous.",
+      "By the time you get to the airport is a future reference, so an action completed before it takes the future perfect: will have arrived.",
+      "After have, has or had the verb must be the past participle: has written, had forgotten, had taken.",
+      "Present perfect continuous is have or has + been + -ing; past perfect is had + past participle; past perfect continuous is had been + -ing; future perfect is will have + past participle.",
+      "Present perfect links a past action to now, so it cannot be used with a finished past time expression such as yesterday or in 1992."
+    ],
+    "traps": [
+      "Have missed versus have been missing with since last week: a repeated or continuing lapse takes the continuous; the simple perfect suggests one completed instance.",
+      "Will be arriving versus will have arrived after by the time: the future continuous puts the action at that moment, only the future perfect puts it before.",
+      "Past simple offered where a past participle is needed: had forgot and has wrote are wrong; had forgotten, has written.",
+      "Will you take versus will you be taking: both are grammatical, so decide by function - the future continuous enquires about an already-settled plan, the future simple makes a request or a decision on the spot."
+    ],
+    "mnem": "Marker first, form second.",
+    "rel": [
+      "Subject-verb agreement and sequence of tenses",
+      "The eight parts of speech and how to tell them apart",
+      "Active and passive voice"
+    ]
+  },
+  {
+    "paper": "GE",
+    "unit": "6",
+    "unitTitle": "Formation of Sentence",
+    "sub": "Sentence types by function: assertive, interrogative, imperative, exclamatory",
+    "def": "Classifying a sentence by what it does rather than how it is built. Assertive (declarative) sentences state something, interrogative sentences ask, imperative sentences command, request or advise, and exclamatory sentences express sudden strong feeling. This is a separate axis from simple, compound and complex, which classify by clause structure: every sentence carries one label on each axis.",
+    "exp": "Assertive: states a fact or opinion, subject before verb, full stop. It divides further into affirmative and negative.\n\nInterrogative: seeks information. It opens with an auxiliary (Have you finished?) or a wh-word and ends in a question mark.\n\nImperative: commands, orders, requests or advises. The subject you is understood and left out, so the sentence begins with the bare verb - Leave the room this instant. It may end in a full stop or an exclamation mark depending on force.\n\nExclamatory: expresses sudden emotion - wonder, wish, regret, indignation. Typical openings are How, What, That ... should, and Would that. That a mere beggar should scorn his king and Would that I were a rich man are both exclamatory.\n\nThe examinable point is that punctuation does not decide the type. An imperative can end in an exclamation mark. A rebuke worded as a question - How dare you disobey my orders? - seeks no information and is exclamatory. Ask what the sentence does to the listener: tells, asks, orders or vents.\n\nThese questions also test affirmative versus negative notion, where form and sense part company. We were unable to complete our task holds no negative word but is negative in sense, since unable means not able. He did not fail to turn up holds two negatives that cancel, so it affirms that he came. Count the negatives, including those hidden in un-, in-, dis-, fail, deny, hardly and scarcely: an even number leaves the sense affirmative.",
+    "facts": [
+      "The four functional types are assertive or declarative, interrogative, imperative and exclamatory.",
+      "An imperative has no stated subject: you is understood, so the sentence opens with the bare form of the verb.",
+      "Exclamatory sentences commonly open with How, What, That ... should, or Would that.",
+      "Function fixes the type, not the final punctuation mark: an imperative may end in an exclamation mark and a rhetorical rebuke may end in a question mark.",
+      "Functional type is independent of structural type, so a single sentence is both, for example imperative and simple.",
+      "Two negatives in the same clause cancel each other, so did not fail to turn up asserts that he did turn up."
+    ],
+    "traps": [
+      "Leave the room this instant! ends in an exclamation mark but is a command, so it is imperative, not exclamatory.",
+      "How dare you disobey my orders? has a wh-opening and a question mark but demands no answer; it is an exclamation of indignation, not an interrogative.",
+      "When assertive and negative both appear among the options, the paper is testing sense: unable to complete is negative in sense with no negative word, while a double negative comes out affirmative and so counts as assertive.",
+      "Do not answer a notion question with a structural label (simple, compound, complex) or an analyse-the-sentence question with a functional label - the two question stems look alike in this unit."
+    ],
+    "mnem": "Four things a sentence can do to you: tell you, ask you, order you, or shout at you.",
+    "rel": [
+      "Simple, compound and complex sentences",
+      "Clause types: noun, adjective and adverb",
+      "Direct and indirect speech"
+    ]
+  }
+]

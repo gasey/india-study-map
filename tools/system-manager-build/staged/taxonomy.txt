@@ -5,29 +5,62 @@ Tag every question to exactly one (paper, unit, sub) triple below.
 the concept guide, so a paraphrase links to nothing. Section headings in
 [brackets] are context only; never use one as `sub`.
 
-259 leaf subtopics across 3 papers.
+296 leaf subtopics across 3 papers.
 
 === PAPER GE — General English (100 marks) ===
   NOTE: the official syllabus enumerates NO subtopics for General
-  English. Tag GE questions to the unit only; leave `sub` null.
+  English. The subtopics below are DERIVED (authored in
+  concepts.py) so that questions and concepts can be linked.
+  They are not official and must not be presented as such.
 
   UNIT 1 — Precis Writing (10 marks)
-    (no leaf subtopics in the official syllabus)
+        - What a precis is and is not
+        - The one-third rule and word-count discipline
+        - Finding the controlling idea
+        - What to cut: illustration, repetition and rhetoric
+        - Third person and reported speech
+        - Supplying an apt title
+        - A worked precis, start to finish
 
   UNIT 2 — Letter Writing (15 marks)
-    (no leaf subtopics in the official syllabus)
+        - Formal, official and informal letters
+        - The parts of an official letter
+        - Salutations and subscriptions
+        - Subject line, reference and enclosures
+        - Applications and representations
+        - Tone and register in government correspondence
+        - Common letter-writing errors that cost marks
+        - A worked official letter, start to finish
 
   UNIT 3 — Comprehension of given passages (15 marks)
-    (no leaf subtopics in the official syllabus)
+        - How to read an unseen passage under time pressure
+        - Main idea, tone and the author's stance
+        - Inference questions and answering in your own words
+        - Vocabulary-in-context questions
+        - Why lifting sentences verbatim loses marks
 
   UNIT 4 — Grammar: Parts of Speech (20 marks)
-    (no leaf subtopics in the official syllabus)
+        - The eight parts of speech and how to tell them apart
+        - Words that change part of speech with their slot
+        - Identifying the part of speech of an underlined word
+        - Prepositions and their correct use
+        - Verb forms and tense in context
 
   UNIT 5 — Correct Usage and Vocabularies (20 marks)
-    (no leaf subtopics in the official syllabus)
+        - Synonyms and antonyms
+        - One-word substitution
+        - Idioms and phrases
+        - Commonly confused pairs
+        - Spelling and common misspellings
 
   UNIT 6 — Formation of Sentence (20 marks)
-    (no leaf subtopics in the official syllabus)
+        - Simple, compound and complex sentences
+        - Clause types: noun, adjective and adverb
+        - Active and passive voice
+        - Direct and indirect speech
+        - Joining and splitting sentences
+        - Subject-verb agreement and sequence of tenses
+        - Sentence types by function: assertive, interrogative, imperative, exclamatory
 
 === PAPER TECH1 — Technical Paper I (150 marks) ===
 

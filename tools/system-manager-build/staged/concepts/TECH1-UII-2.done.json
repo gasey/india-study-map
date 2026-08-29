@@ -1,0 +1,211 @@
+[
+  {
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Windows Utilities",
+    "def": "Windows Utilities are the maintenance and diagnostic tools bundled with Windows for managing disks, processes, devices and system health without buying third-party software. The ones worth knowing are Disk Cleanup, Optimize Drives (defragmentation), Task Manager, Device Manager, Event Viewer, Resource Monitor, System Configuration and System File Checker. They are administrative tools, not applications you produce work in.",
+    "exp": "Disk Cleanup frees space by removing temporary files, cached update files, thumbnails and the contents of the Recycle Bin. Optimize Drives handles fragmentation: on a mechanical hard disk it re-collects the scattered pieces of each file so the head makes fewer seeks. On an SSD it does not defragment. It issues TRIM, telling the drive which blocks the file system no longer needs so the controller can erase them in advance. Defragmenting an SSD gains no speed and consumes write cycles.\n\nTask Manager shows running processes, CPU, memory, disk and network use and startup programs, and lets you end an unresponsive process. Device Manager lists hardware and driver status, where a yellow warning marker means a missing or failed driver. Event Viewer holds the System, Application and Security logs and is the first place to look after an unexplained crash or reboot. Resource Monitor gives the per-process detail Task Manager summarises, including which process is holding a locked file.\n\nTwo repair tools are asked about constantly. chkdsk checks a volume for file-system errors and bad sectors; sfc /scannow verifies and repairs protected Windows system files. Most of these tools need an elevated Run as administrator prompt before they will act.",
+    "facts": [
+      "Disk Cleanup removes temporary files, update caches and Recycle Bin contents to free disk space.",
+      "Optimize Drives defragments mechanical hard disks but sends TRIM commands to SSDs.",
+      "Event Viewer stores the System, Application and Security logs.",
+      "chkdsk checks a volume for file-system errors and bad sectors; sfc /scannow repairs protected Windows system files.",
+      "Device Manager reports driver problems; Task Manager ends unresponsive processes and manages startup items."
+    ],
+    "traps": [
+      "Defragmentation vs TRIM: an SSD is never defragmented. Optimize Drives keeps the same button but issues TRIM instead, and forcing a real defragmentation on an SSD wastes write cycles for no gain.",
+      "Disk Cleanup frees space, Optimize Drives rearranges existing data. Neither one does the other's job.",
+      "Task Manager vs Resource Monitor: Task Manager gives the summary and the kill switch, Resource Monitor gives per-process detail such as which process holds a file open.",
+      "chkdsk vs sfc: chkdsk repairs the disk and file system, sfc repairs corrupted Windows system files. A bad sector and a corrupted system file are different failures."
+    ],
+    "mnem": "",
+    "rel": ["Files and Folders", "Disk Management", "Command Prompt"]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Linux Architecture",
+    "def": "Linux is built in layers: hardware at the bottom, then the kernel, then the shell and system utilities, and applications on top. The kernel is the only part that is strictly Linux; everything above it is supplied by the distribution. Code runs either in kernel space, with unrestricted hardware access, or in user space, which must request privileged services through system calls.",
+    "exp": "The kernel manages processes and scheduling, memory, storage through a virtual file system layer, device drivers and networking. It is monolithic, meaning these subsystems run together in one address space, but it is modular: drivers can be loaded and unloaded at runtime as kernel modules rather than being compiled in permanently.\n\nThe shell is the command interpreter between the user and the kernel. It reads a typed line, locates the program, and asks the kernel to run it. bash is the usual default; sh, zsh and others exist and can be swapped in. The shell is an ordinary user-space program with no special privilege of its own, which is why sudo exists.\n\nA distribution bundles the kernel with the GNU utilities, a C library, an init system, a package manager, and usually a desktop environment and an installer. Debian, Ubuntu, Red Hat Enterprise Linux, Fedora and SUSE differ in which versions and components they choose and in what support they offer, not in being fundamentally different operating systems. Because so much of a working system comes from the GNU project rather than the kernel, the Free Software Foundation asks for the name GNU/Linux. On a server the graphical layer is often not installed at all, and nothing breaks: the GUI sits in user space above the utilities, not inside the kernel.",
+    "facts": [
+      "The layers are hardware, kernel, shell and utilities, and applications.",
+      "Kernel space has unrestricted hardware access; user-space programs reach it only through system calls.",
+      "The Linux kernel is monolithic but supports loadable kernel modules, so drivers need not be compiled in.",
+      "bash is the default shell on most distributions, and the shell runs in user space like any other program.",
+      "A distribution is the kernel plus GNU utilities, a C library, an init system, a package manager and usually a desktop environment."
+    ],
+    "traps": [
+      "Linux vs a distribution: Linux strictly names the kernel. Ubuntu and Fedora are distributions that ship that kernel. A question about what Linus Torvalds wrote means the kernel.",
+      "Shell vs kernel: the shell interprets your commands, the kernel performs the privileged work. The shell is replaceable and unprivileged.",
+      "Monolithic vs microkernel: Linux is a modular monolithic kernel, not a microkernel. Being modular is not the same claim as being a microkernel.",
+      "The graphical desktop is not part of the kernel. A headless server with no GUI is a complete Linux system."
+    ],
+    "mnem": "",
+    "rel": ["Linux File System", "Basic Linux Commands", "Types and Functions of Operating Systems"]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Linux File System",
+    "def": "Linux presents all storage in a single tree rooted at /. There are no drive letters: a second disk, a USB stick or a network share is attached at a mount point, an existing directory, and its contents appear from there downwards. The arrangement of directories under / follows the Filesystem Hierarchy Standard, so /etc means the same thing on every distribution.",
+    "exp": "The directories to know: /etc holds configuration files; /home holds users' personal directories, one per user; /root is the superuser's own home directory, which is not the same as /; /var holds variable data, with logs in /var/log; /bin and /usr/bin hold executable programs and /sbin and /usr/sbin the administrative ones; /tmp is scratch space cleared on reboot; /dev contains device files; /proc exposes kernel and process information as files; /boot holds the kernel and boot loader.\n\nEvery file has an owner and a group, and three permission sets, for owner, group and other, each carrying read, write and execute. ls -l prints them as a string like rwxr-xr-x. Numerically read is 4, write 2 and execute 1, added within each triad, so chmod 755 gives the owner read, write and execute and gives group and others read and execute. chmod also takes a symbolic form such as chmod u+x script.sh.\n\nOn a directory the bits mean something slightly different: execute is the right to enter the directory and reach what is inside, while read only permits listing the names. A directory you can read but not enter is therefore a list you cannot open.",
+    "facts": [
+      "Everything sits under one root, /; extra devices appear at mount points rather than as drive letters.",
+      "/etc is configuration, /home is user files, /var is logs and variable data, /bin and /usr/bin are executables, /tmp is scratch space.",
+      "/root is the superuser's home directory and is different from /, the top of the tree.",
+      "Permissions are three triads (owner, group, other), each with read = 4, write = 2, execute = 1.",
+      "chmod 755 means owner rwx, group r-x, other r-x.",
+      "Execute permission on a directory allows entering it; read permission only allows listing its contents."
+    ],
+    "traps": [
+      "Drive letters vs mount points: there is no Linux equivalent of D:. A second disk is mounted into the same tree, commonly under /mnt or /media.",
+      "/ vs /root: / is the root of the whole hierarchy, /root is one user's home folder. MCQs pair these two deliberately.",
+      "chmod 777 grants everyone full access. It is a common shortcut and a security failure, never the right answer to a permissions question.",
+      "The directory hierarchy is not the on-disk format. ext4, XFS and Btrfs are file-system formats; /etc and /var exist whichever format you use."
+    ],
+    "mnem": "Permission digits add up within a triad: read 4, write 2, execute 1, so 7 is all three and 5 is read plus execute.",
+    "rel": ["Linux Architecture", "Basic Linux Commands", "File Systems"]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Basic Linux Commands",
+    "def": "A Linux command has three parts: the command name, options that modify its behaviour (short options with one hyphen, long options with two), and arguments naming what to act on, as in ls -l /var/log. Commands and file names are case-sensitive, so LS is not ls and Report.txt is not report.txt. Most commands print nothing at all when they succeed.",
+    "exp": "Moving around and handling files: pwd prints the directory you are in; cd changes it; ls lists a directory, with -l for the long listing showing permissions, owner, size and date, and -a to include hidden dot-files. mkdir creates a directory, rm removes a file with -r for a whole directory tree, cp copies, and mv both moves and renames.\n\nReading and searching: cat prints an entire file to the screen and is also used to join files together; less pages through a long file and lets you scroll and search inside it; grep searches for a text pattern inside files; find searches for files themselves by name, type, size or age beneath a starting directory.\n\nSystem and help: ps lists running processes; chmod changes permissions; man opens the manual page for a command and is the answer to almost any question about how to use one; sudo runs a single command with superuser privileges, prompting for your own password rather than root's. Output can be redirected into a file with > or piped into another command with |, as in ps aux | grep ssh, which is how these small commands are combined into useful work.",
+    "facts": [
+      "Command syntax is command, then options, then arguments.",
+      "Linux commands and file names are case-sensitive; Windows file names are not.",
+      "pwd prints the working directory, cd changes it, ls lists it; ls -l is the long listing and ls -a shows hidden files.",
+      "man displays a command's manual page; sudo runs one command with superuser rights.",
+      "grep searches for text inside files; find searches for files by their attributes.",
+      "A pipe (|) sends one command's output into the next; > redirects output into a file."
+    ],
+    "traps": [
+      "grep vs find: grep looks inside files for text, find looks for the files themselves. Swapping them is the standard MCQ trap.",
+      "cat vs less: cat dumps the whole file and the top of a long one scrolls away; less pages through it and lets you go back.",
+      "mv performs both moving and renaming. There is no separate rename command in the basic set.",
+      "rm has no Recycle Bin. rm -rf deletes recursively without asking and there is no undo."
+    ],
+    "mnem": "",
+    "rel": ["Linux File System", "Command Prompt", "Linux Architecture"]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Open-source Ecosystem",
+    "def": "Open-source software is distributed with its source code under a licence permitting anyone to read, modify and redistribute it. Free software in this sense means freedom, not price: you may legitimately be charged for a copy, for media or for support. The ecosystem is everything built around that, namely the licences, the distributions and their families, the upstream projects, and the vendors who sell support rather than the software itself.",
+    "exp": "Licences fall into two broad kinds. Copyleft licences, chiefly the GNU GPL, require that anything you distribute built from the code is released under the same terms, so the freedom propagates downstream. Permissive licences such as MIT, BSD and Apache let you fold the code into a closed product provided you keep the copyright notices. Open source is never the same thing as public domain or as having no licence at all: the licence is precisely what makes the use lawful.\n\nDistributions cluster into families sharing packaging and tooling. Debian and its derivatives Ubuntu and Linux Mint use .deb packages and apt. The Red Hat family, including Fedora, RHEL and rebuilds such as Rocky and AlmaLinux, uses .rpm packages and dnf. SUSE forms a third family. Community distributions are backed by forums, mailing lists and documentation; vendor distributions come with a paid support contract, hardware certification and a guaranteed patch lifetime, which is usually what a government department is actually buying.\n\nIn India, C-DAC develops BOSS, Bharat Operating System Solutions, a Debian-derived Indian distribution with Indian-language support, and government policy for e-governance favours open standards and open-source software to reduce vendor lock-in and licence cost.",
+    "facts": [
+      "Free in free software means freedom to run, study, modify and redistribute, not zero price.",
+      "The GPL is a copyleft licence: distributed derived works must carry the same licence. MIT, BSD and Apache are permissive.",
+      "Debian-family distributions use .deb packages with apt; Red Hat-family distributions use .rpm packages with dnf.",
+      "Ubuntu and Linux Mint derive from Debian; Fedora, RHEL, Rocky and AlmaLinux belong to the Red Hat family.",
+      "BOSS (Bharat Operating System Solutions) is an Indian Debian-based distribution developed by C-DAC."
+    ],
+    "traps": [
+      "Open source vs freeware: freeware costs nothing but its source stays closed. Open source is defined by the availability of the source and the licence, not by the price.",
+      "Open source vs public domain: open-source code is copyrighted and licensed with conditions attached. Public domain has no owner and no conditions.",
+      "Copyleft vs permissive: the GPL forces the same licence on redistributed derived works, MIT does not. That difference is what the exam actually tests.",
+      "Red Hat charges subscription fees for RHEL and the software is still open source. Selling support does not make software proprietary."
+    ],
+    "mnem": "",
+    "rel": ["Linux Architecture", "Linux File System"]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Files and Folders",
+    "def": "A file is a named collection of data stored and handled as one unit; a folder, called a directory on Linux, is a container holding files and other folders, which gives storage its tree structure. A file is located by its path, the sequence of folders from the root down to the name, such as C:\\Users\\Lalu\\Documents\\report.docx or /home/lalu/report.txt.",
+    "exp": "A path is absolute when it starts from the root, C:\\ or /, and relative when it starts from wherever you currently are; within a relative path, a single dot means the current folder and two dots the parent. Windows separates components with a backslash and organises storage by drive letter; Linux uses a forward slash and one rooted tree. The extension after the last dot, such as .docx, .pdf, .exe or .jpg, tells Windows which program should open the file. It is only a label, so renaming a .txt to .jpg converts nothing and simply produces a file the image viewer cannot read.\n\nFile Explorer is the Windows tool for browsing this tree, with Quick Access, an address bar showing the path, and view options. Hidden files are hidden by a file attribute in Windows and by a leading dot in the name on Linux. Either can be revealed on request, so hiding is presentation, not protection.\n\nDeleting sends an item to the Recycle Bin, which is itself a folder: the file still occupies disk space and can be put back. Shift+Delete, deleting from a network location, and emptying the Bin all bypass it. Even then only the directory entry is removed, and the data blocks survive until something overwrites them.",
+    "facts": [
+      "An absolute path starts at the root; a relative path starts at the current directory, where . is current and .. is parent.",
+      "Windows uses backslash separators and drive letters; Linux uses forward slashes and a single rooted tree.",
+      "The extension only tells the OS which program opens a file; renaming it does not convert the file's format.",
+      "Items deleted normally go to the Recycle Bin and still occupy disk space; Shift+Delete bypasses the Bin.",
+      "Hidden files use a file attribute in Windows and a leading dot in the filename on Linux."
+    ],
+    "traps": [
+      "Deleting vs permanently deleting: a Recycle Bin deletion is reversible from the Bin itself. A permanent delete still only removes the directory entry, so the content is often recoverable until it is overwritten.",
+      "Changing a file's extension does not change its format. The bytes are untouched and the newly associated program will fail to open it.",
+      "Hidden is not secure. Any user can switch on show hidden items; only permissions and encryption actually restrict access.",
+      "Windows file names are case-insensitive but case-preserving, while Linux names are case-sensitive, so report.txt and Report.txt are two different files on Linux only."
+    ],
+    "mnem": "",
+    "rel": ["Linux File System", "File Recovery", "Windows Utilities"]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Compression",
+    "def": "Compression re-encodes data so it occupies fewer bytes, either by removing statistical redundancy, which is lossless, or by discarding detail the human recipient will not notice, which is lossy. Lossless compression reconstructs the original bit for bit; lossy compression does not, and what was discarded is gone for good. An archive is the related idea of bundling many files into one container, usually with compression applied.",
+    "exp": "Lossless is compulsory wherever every byte matters: programs, documents, spreadsheets, databases and source code. ZIP, 7z, gzip and RAR are lossless archive formats, and PNG and FLAC are lossless media formats. Lossy is for images, audio and video intended for human perception, where a far smaller file is worth an imperceptible loss of detail: JPEG for photographs, MP3 and AAC for audio, MP4 with H.264 for video.\n\nLinux separates the two jobs. tar bundles many files into a single .tar archive without compressing anything; gzip, bzip2 or xz then compresses that one file, producing .tar.gz or .tar.bz2. Windows ZIP does both at once, and File Explorer creates and opens ZIP files without extra software.\n\nAlready-compressed data barely compresses again. Zipping a folder of JPEGs, MP4 videos or an existing ZIP file gains almost nothing, because the redundancy the algorithm hunts for has already been removed. Plain text, uncompressed bitmaps, log files and database dumps compress heavily by comparison. Finally, compression is neither encryption nor backup: a ZIP is readable by anyone who has it unless you deliberately set a password on it.",
+    "facts": [
+      "Lossless compression restores the original exactly; lossy discards data permanently.",
+      "ZIP, 7z, gzip and RAR are lossless; JPEG, MP3 and MP4 are lossy.",
+      "PNG is a lossless image format and FLAC a lossless audio format.",
+      "tar bundles files without compressing them; gzip then compresses the bundle, giving .tar.gz.",
+      "Already-compressed files such as JPEG, MP4 and ZIP gain almost nothing from further compression."
+    ],
+    "traps": [
+      "Lossless vs lossy: never apply lossy compression to a document, executable or database. Lossy is acceptable only for images, audio and video.",
+      "tar is an archiver, not a compressor. A .tar file is a bundle; a .tar.gz file is a bundle that has then been compressed.",
+      "Compression is not encryption. A ZIP conceals nothing unless a password is set on it.",
+      "Zipping a file repeatedly does not keep shrinking it. After the first pass there is no redundancy left to remove and the size can even grow slightly."
+    ],
+    "mnem": "",
+    "rel": ["Backup and Restore", "Files and Folders"]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Encryption",
+    "def": "In file and storage management, encryption means protecting data at rest by converting files or whole drives into ciphertext that only a holder of the correct key can read back. Windows provides two tools: BitLocker, which encrypts an entire volume, and EFS, the Encrypting File System, which encrypts selected files and folders on NTFS. The purpose is that data on a lost or stolen machine remains unreadable.",
+    "exp": "BitLocker encrypts a whole drive, operating system and all, and unlocks it during boot. The key is normally held in the machine's TPM chip, optionally with a PIN or USB key as well, so pulling the disk out and attaching it to another computer yields nothing readable. BitLocker To Go applies the same protection to USB and external drives. The Linux equivalent is LUKS with dm-crypt, usually configured when the system is installed.\n\nEFS works per file and is tied to the user account's certificate, so another user signing into the same machine can see the file name but cannot open its contents. It is finer-grained than BitLocker, but it protects nothing else on the volume if the disk is removed and read outside Windows.\n\nThe recovery key is the real operational problem. Full-disk encryption issues a recovery key to be printed, saved to a Microsoft account, or escrowed in Active Directory, and the machine will demand it if the TPM state changes after a firmware or hardware change. Lose that key and the data is gone permanently. There is no reset and no support desk that can bypass it, and that is the design working correctly rather than a fault.",
+    "facts": [
+      "BitLocker encrypts an entire volume; EFS encrypts individual files and folders on NTFS.",
+      "BitLocker To Go encrypts removable drives such as USB sticks.",
+      "BitLocker typically stores its key in the TPM; the recovery key can be printed, saved to a Microsoft account or escrowed in Active Directory.",
+      "LUKS with dm-crypt is the standard full-disk encryption on Linux.",
+      "Losing the recovery key means permanent, unrecoverable loss of the encrypted data."
+    ],
+    "traps": [
+      "BitLocker vs EFS: whole volume versus selected files. EFS also protects a file from other users of the same running machine, whereas BitLocker does not, because once the system has booted the volume is unlocked for everyone signed in.",
+      "Full-disk encryption protects a powered-off or stolen machine. It gives no protection against someone using the machine while you are logged in, or against malware running inside your session.",
+      "Encrypting a file is not the same as setting permissions on it. Permissions are enforced by the running OS and can be bypassed by booting a different OS from a USB stick; encryption cannot.",
+      "Copying a protected file out, to a FAT32 USB drive or as an email attachment, generally leaves it as plaintext. The protection belongs to the volume or file system, not to the bytes once they leave it."
+    ],
+    "mnem": "",
+    "rel": ["Backup and Restore", "User Accounts", "Files and Folders"]
+  },
+  {
+    "paper": "TECH1",
+    "unit": "II",
+    "unitTitle": "Operating Systems",
+    "sub": "Backup and Restore",
+    "def": "A backup is a separate copy of data kept so it can be restored after accidental deletion, corruption, hardware failure, theft or ransomware. Restore is the other half and the half that matters: a backup that has never been restored successfully is an assumption, not a safeguard. The three backup types are full, incremental and differential, and they trade the time taken to back up against the time taken to restore.",
+    "exp": "A full backup copies everything every time. It is the slowest to take and the largest to store, but the simplest to restore from because one set is enough. An incremental backup copies only what has changed since the last backup of any kind, so it is the quickest and smallest to take, but restoring needs the last full backup plus every incremental since it, applied in order. A differential backup copies everything changed since the last full backup, so it grows each day but restores from only two sets: the full plus the most recent differential.\n\nThe 3-2-1 rule is the standard practice: keep three copies of the data, on two different kinds of media, with one copy off site. The off-site copy is what survives a fire, a flood, or ransomware that reaches every machine on the office network.\n\nAt OS level, Windows offers File History for versions of user files, a system image for a whole-volume copy, and System Restore, which rolls back system files, drivers and the registry but is not a backup of your documents. On Linux the same work is done with tar, rsync and scheduled scripts. Whichever tool is used, schedule a test restore.",
+    "facts": [
+      "Full copies everything; incremental copies changes since the last backup of any type; differential copies changes since the last full backup.",
+      "Restoring from incrementals needs the last full plus every incremental in sequence; restoring from differentials needs the last full plus one differential.",
+      "3-2-1 means three copies of the data, on two types of media, with one copy off site.",
+      "System Restore rolls back Windows system files, drivers and the registry, not personal documents.",
+      "A backup is unverified until a test restore has actually been carried out."
+    ],
+    "traps": [
+      "Incremental vs differential: incremental is faster to take and slower to restore, differential is the reverse. The deciding question is what each measures change against, the last backup of any kind or the last full backup.",
+      "RAID is not a backup. A mirror copies a deletion or a ransomware encryption to both disks instantly; it only protects against a disk dying.",
+      "System Restore is not File History. Recovering a deleted document is File History's job, and a candidate who answers System Restore has answered wrongly.",
+      "A backup drive left permanently connected, whether a mapped network drive or an attached USB disk, is reachable by ransomware. That is the reason for the offline or off-site copy."
+    ],
+    "mnem": "3-2-1: three copies, two media types, one off site.",
+    "rel": ["Compression", "File Recovery", "Encryption"]
+  }
+]

@@ -788,8 +788,11 @@ function browsePaper(qs) {
   el.innerHTML = `
     <div class="spread mb">
       <div><h1 style="margin:0">${esc(list[0].sitting)}</h1>
-        <p class="dim" style="margin:0">${esc(shortPaper(list[0].paper))} — all ${list.length} questions with answers and explanations</p></div>
-      <button class="btn" id="back">Back</button>
+        <p class="dim" style="margin:0">${esc(shortPaper(list[0].paper))} — all ${list.length} questions</p></div>
+      <div class="row">
+        <button class="btn sm" id="revealAll">${S.settings.hideAnswers ? 'Reveal all answers' : 'Hide all answers'}</button>
+        <button class="btn" id="back">Back</button>
+      </div>
     </div>
     ${list.map(q => `
       <div class="card mb">
@@ -800,12 +803,38 @@ function browsePaper(qs) {
           ${q.ans === 'COMPENSATED' ? `<span class="pill wn">voided by MPSC</span>` : ''}
         </div>
         <div class="qtext">${esc(q.q)}</div>
-        <div class="opts">${['A', 'B', 'C', 'D'].filter(k => q.opts[k] != null).map(k => `
+        <div class="opts" data-opts="${q.id}">${['A', 'B', 'C', 'D'].filter(k => q.opts[k] != null).map(k => `
           <div class="opt ${q.ans === k ? 'right' : ''}" style="cursor:default">
             <span class="lab">${k}</span><span>${esc(q.opts[k])}</span></div>`).join('')}</div>
+        <button class="btn sm reveal-one" data-reveal="${q.id}">Show answer</button>
         ${q.exp || q.prov ? `<div class="expl">${q.exp ? esc(q.exp) : ''}${disputeBlock(q)}${provLine(q)}</div>` : ''}
       </div>`).join('')}
     <button class="btn" id="back2">Back to papers</button>`;
+  // Hide/reveal answers. Browsing a past paper is only a self-test if the
+  // answer is not already highlighted — so the answer key and explanation can be
+  // collapsed per question or for the whole paper, and the choice persists.
+  const paintHidden = () => {
+    const hidden = !!S.settings.hideAnswers;
+    el.classList.toggle('answers-hidden', hidden);
+    $$('.reveal-one', el).forEach(b => {
+      b.hidden = !hidden || el.querySelector(`[data-opts="${b.dataset.reveal}"]`)?.classList.contains('shown');
+    });
+    const rb = $('#revealAll');
+    if (rb) rb.textContent = hidden ? 'Reveal all answers' : 'Hide all answers';
+  };
+  $('#revealAll').onclick = () => {
+    S.settings.hideAnswers = !S.settings.hideAnswers;
+    if (!S.settings.hideAnswers) $$('[data-opts]', el).forEach(o => o.classList.remove('shown'));
+    save(); paintHidden();
+  };
+  el.addEventListener('click', e => {
+    const r = e.target.closest('[data-reveal]');
+    if (!r) return;
+    el.querySelector(`[data-opts="${r.dataset.reveal}"]`)?.classList.add('shown');
+    r.closest('.card')?.classList.add('shown');
+    r.hidden = true;
+  });
+  paintHidden();
   $('#back').onclick = $('#back2').onclick = () => go('papers');
   window.scrollTo(0, 0);
 }

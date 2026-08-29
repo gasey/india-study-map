@@ -305,6 +305,18 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
 .read-by { font-size: .8rem; color: var(--ink-2); }
 .read-n { font-size: .82rem; color: var(--ink-3); margin-top: .2rem; line-height: 1.5; }
 
+/* Browse mode: answers hidden until revealed, so a past paper can be used as a
+   self-test rather than a read-through. The correct-answer highlight and the
+   explanation are suppressed together — revealing one without the other would
+   give the answer away. */
+.answers-hidden .opt.right { background: inherit; border-color: var(--line); }
+.answers-hidden .opt.right .lab { background: var(--panel-2); color: var(--ink-2); }
+.answers-hidden .expl { display: none; }
+.answers-hidden .card.shown .expl { display: block; }
+.answers-hidden .opts.shown .opt.right { background: var(--good-soft); border-color: var(--good); }
+.answers-hidden .opts.shown .opt.right .lab { background: var(--good); color: #fff; }
+.reveal-one { margin-bottom: .6rem; }
+
 .qtext { font-size: 1.02rem; font-weight: 550; margin: .3rem 0 1rem; white-space: pre-wrap; }
 .opts { display: grid; gap: .5rem; }
 .opt {

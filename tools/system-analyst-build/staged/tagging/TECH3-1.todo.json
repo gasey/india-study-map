@@ -1,0 +1,1238 @@
+{
+  "paper": "TECH3",
+  "instructions": "Tag each question to one (unit, sub) from allowed_leaves. Write {\"<id>\": {\"unit\": \"...\", \"sub\": \"...\"}} to this filename with .todo.json replaced by .done.json. `sub` must be copied VERBATIM — it is matched by exact string equality.",
+  "allowed_leaves": [
+    {
+      "unit": "1",
+      "unitTitle": "Introduction to Project Management",
+      "sub": "What is a Project and what is Project Management"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Introduction to Project Management",
+      "sub": "Relationships among portfolio management, program management, project management and organizational project management"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Introduction to Project Management",
+      "sub": "Role of the project manager"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Introduction to Project Management",
+      "sub": "Project management office/unit (PMO) - supportive, controlling, directive"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Organizational Influences and Project Life Cycle",
+      "sub": "Organizational influences on Project Management"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Organizational Influences and Project Life Cycle",
+      "sub": "Organizational structures: functional, matrix (weak, balanced, strong), projectized"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Organizational Influences and Project Life Cycle",
+      "sub": "Organizational culture, styles and communications"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Organizational Influences and Project Life Cycle",
+      "sub": "Organizational process assets and Enterprise Environmental Factors"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Organizational Influences and Project Life Cycle",
+      "sub": "Project Stakeholders and Governance"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Organizational Influences and Project Life Cycle",
+      "sub": "Project Team"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Organizational Influences and Project Life Cycle",
+      "sub": "Project Life Cycle - predictive, iterative, incremental, adaptive"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Organizational Influences and Project Life Cycle",
+      "sub": "Project phases and phase gates"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Organizational Influences and Project Life Cycle",
+      "sub": "Cost and staffing levels across the life cycle"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Organizational Influences and Project Life Cycle",
+      "sub": "Influence of stakeholders, risk and uncertainty over time"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "Project Management Processes",
+      "sub": "Common Project Management Process Interactions"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "Project Management Processes",
+      "sub": "The five Project Management Process Groups"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "Project Management Processes",
+      "sub": "Initiating Process Group"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "Project Management Processes",
+      "sub": "Planning Process Group"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "Project Management Processes",
+      "sub": "Executing Process Group"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "Project Management Processes",
+      "sub": "Monitoring and Controlling Process Group"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "Project Management Processes",
+      "sub": "Closing Process Group"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "Project Management Processes",
+      "sub": "Project Information: work performance data, information and reports"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "Project Management Processes",
+      "sub": "Role of the ten Knowledge Areas"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "Project Management Processes",
+      "sub": "The 47-process mapping of process groups to knowledge areas"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Project Integration Management",
+      "sub": "Develop Project Charter: Inputs"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Project Integration Management",
+      "sub": "Develop Project Charter: Tools and Techniques"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Project Integration Management",
+      "sub": "Develop Project Charter: Outputs"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Project Integration Management",
+      "sub": "Develop Project Management Plan: Inputs"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Project Integration Management",
+      "sub": "Develop Project Management Plan: Tools and Techniques"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Project Integration Management",
+      "sub": "Develop Project Management Plan: Outputs"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Project Integration Management",
+      "sub": "Direct and Manage Project Work: Inputs"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Project Integration Management",
+      "sub": "Direct and Manage Project Work: Tools and Techniques"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Project Integration Management",
+      "sub": "Direct and Manage Project Work: Outputs"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Project Integration Management",
+      "sub": "Monitor and Control Project Work: Inputs"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Project Integration Management",
+      "sub": "Monitor and Control Project Work: Tools and Techniques"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Project Integration Management",
+      "sub": "Monitor and Control Project Work: Outputs"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Project Integration Management",
+      "sub": "Perform Integrated Change Control: Inputs"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Project Integration Management",
+      "sub": "Perform Integrated Change Control: Tools and Techniques"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Project Integration Management",
+      "sub": "Perform Integrated Change Control: Outputs"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Project Integration Management",
+      "sub": "Close Project or Phase: Inputs"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Project Integration Management",
+      "sub": "Close Project or Phase: Tools and Techniques"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Project Integration Management",
+      "sub": "Close Project or Phase: Outputs"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Project Scope Management",
+      "sub": "Plan Scope Management: Inputs, Tools and Techniques, Outputs"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Project Scope Management",
+      "sub": "Collect Requirements: Inputs, Tools and Techniques, Outputs"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Project Scope Management",
+      "sub": "Define Scope: Inputs, Tools and Techniques, Outputs"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Project Scope Management",
+      "sub": "Create WBS: Inputs, Tools and Techniques, Outputs"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Project Scope Management",
+      "sub": "Validate Scope: Inputs, Tools and Techniques, Outputs"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Project Scope Management",
+      "sub": "Control Scope: Inputs, Tools and Techniques, Outputs"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Project Scope Management",
+      "sub": "Product scope vs project scope"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Project Scope Management",
+      "sub": "WBS, work package, control account, WBS dictionary"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Project Scope Management",
+      "sub": "Scope baseline"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Project Scope Management",
+      "sub": "Requirements traceability matrix"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Project Scope Management",
+      "sub": "Scope creep and gold plating"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Project Time Management",
+      "sub": "Plan Schedule Management: Inputs, Tools and Techniques, Outputs"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Project Time Management",
+      "sub": "Define Activities: Inputs, Tools and Techniques, Outputs"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Project Time Management",
+      "sub": "Sequence Activities: Inputs, Tools and Techniques, Outputs"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Project Time Management",
+      "sub": "Estimate Activity Resources: Inputs, Tools and Techniques, Outputs"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Project Time Management",
+      "sub": "Estimate Activity Durations: Inputs, Tools and Techniques, Outputs"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Project Time Management",
+      "sub": "Develop Schedule: Inputs, Tools and Techniques, Outputs"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Project Time Management",
+      "sub": "Control Schedule: Inputs, Tools and Techniques, Outputs"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Project Time Management",
+      "sub": "Precedence Diagramming Method and dependency types (FS, SS, FF, SF)"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Project Time Management",
+      "sub": "Leads and lags"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Project Time Management",
+      "sub": "Critical Path Method, float and slack"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Project Time Management",
+      "sub": "Critical Chain Method and buffers"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Project Time Management",
+      "sub": "Schedule compression: crashing and fast tracking"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Project Time Management",
+      "sub": "Resource levelling and resource smoothing"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Project Time Management",
+      "sub": "Three-point estimating, PERT and beta distribution"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Project Time Management",
+      "sub": "Gantt chart, milestone chart, network diagram"
+    },
+    {
+      "unit": "7",
+      "unitTitle": "Project Cost Management",
+      "sub": "Plan Cost Management: Inputs, Tools and Techniques, Outputs"
+    },
+    {
+      "unit": "7",
+      "unitTitle": "Project Cost Management",
+      "sub": "Estimate Costs: Inputs, Tools and Techniques, Outputs"
+    },
+    {
+      "unit": "7",
+      "unitTitle": "Project Cost Management",
+      "sub": "Determine Budget: Inputs, Tools and Techniques, Outputs"
+    },
+    {
+      "unit": "7",
+      "unitTitle": "Project Cost Management",
+      "sub": "Control Costs: Inputs, Tools and Techniques, Outputs"
+    },
+    {
+      "unit": "7",
+      "unitTitle": "Project Cost Management",
+      "sub": "Cost types: direct, indirect, fixed, variable, sunk, opportunity"
+    },
+    {
+      "unit": "7",
+      "unitTitle": "Project Cost Management",
+      "sub": "Estimating techniques: analogous, parametric, bottom-up, three-point"
+    },
+    {
+      "unit": "7",
+      "unitTitle": "Project Cost Management",
+      "sub": "Cost baseline, cost aggregation, contingency and management reserve"
+    },
+    {
+      "unit": "7",
+      "unitTitle": "Project Cost Management",
+      "sub": "Earned Value Management: PV, EV, AC, BAC"
+    },
+    {
+      "unit": "7",
+      "unitTitle": "Project Cost Management",
+      "sub": "Variances: CV, SV; Indices: CPI, SPI"
+    },
+    {
+      "unit": "7",
+      "unitTitle": "Project Cost Management",
+      "sub": "Forecasting: EAC, ETC, VAC, TCPI"
+    },
+    {
+      "unit": "7",
+      "unitTitle": "Project Cost Management",
+      "sub": "Life cycle costing and value engineering"
+    },
+    {
+      "unit": "7",
+      "unitTitle": "Project Cost Management",
+      "sub": "Net Present Value, IRR, payback period, benefit-cost ratio"
+    },
+    {
+      "unit": "8",
+      "unitTitle": "Project Quality Management",
+      "sub": "Plan Quality Management: Inputs, Tools and Techniques, Outputs"
+    },
+    {
+      "unit": "8",
+      "unitTitle": "Project Quality Management",
+      "sub": "Perform Quality Assurance: Inputs, Tools and Techniques, Outputs"
+    },
+    {
+      "unit": "8",
+      "unitTitle": "Project Quality Management",
+      "sub": "Control Quality: Inputs, Tools and Techniques, Outputs"
+    },
+    {
+      "unit": "8",
+      "unitTitle": "Project Quality Management",
+      "sub": "Quality vs grade; precision vs accuracy"
+    },
+    {
+      "unit": "8",
+      "unitTitle": "Project Quality Management",
+      "sub": "Cost of quality: prevention, appraisal, internal and external failure"
+    },
+    {
+      "unit": "8",
+      "unitTitle": "Project Quality Management",
+      "sub": "Seven basic quality tools: cause-and-effect, flowchart, check sheet, Pareto, histogram, control chart, scatter diagram"
+    },
+    {
+      "unit": "8",
+      "unitTitle": "Project Quality Management",
+      "sub": "Control chart concepts: control limits, specification limits, rule of seven"
+    },
+    {
+      "unit": "8",
+      "unitTitle": "Project Quality Management",
+      "sub": "Design of experiments, statistical sampling, benchmarking"
+    },
+    {
+      "unit": "8",
+      "unitTitle": "Project Quality Management",
+      "sub": "Quality audits and process analysis"
+    },
+    {
+      "unit": "8",
+      "unitTitle": "Project Quality Management",
+      "sub": "Quality gurus and philosophies: Deming, Juran, Crosby, TQM, Six Sigma, Kaizen"
+    },
+    {
+      "unit": "9",
+      "unitTitle": "Project Human Resource Management",
+      "sub": "Plan Human Resource Management: Inputs, Tools and Techniques, Outputs"
+    },
+    {
+      "unit": "9",
+      "unitTitle": "Project Human Resource Management",
+      "sub": "Acquire Project Team: Inputs, Tools and Techniques, Outputs"
+    },
+    {
+      "unit": "9",
+      "unitTitle": "Project Human Resource Management",
+      "sub": "Develop Project Team: Inputs, Tools and Techniques, Outputs"
+    },
+    {
+      "unit": "9",
+      "unitTitle": "Project Human Resource Management",
+      "sub": "Manage Project Team: Inputs, Tools and Techniques, Outputs"
+    },
+    {
+      "unit": "9",
+      "unitTitle": "Project Human Resource Management",
+      "sub": "Roles and responsibilities, RACI and responsibility assignment matrix"
+    },
+    {
+      "unit": "9",
+      "unitTitle": "Project Human Resource Management",
+      "sub": "Organization charts and position descriptions"
+    },
+    {
+      "unit": "9",
+      "unitTitle": "Project Human Resource Management",
+      "sub": "Resource histogram and staffing management plan"
+    },
+    {
+      "unit": "9",
+      "unitTitle": "Project Human Resource Management",
+      "sub": "Team development: Tuckman model (forming, storming, norming, performing, adjourning)"
+    },
+    {
+      "unit": "9",
+      "unitTitle": "Project Human Resource Management",
+      "sub": "Motivation theories: Maslow, Herzberg, McGregor Theory X and Y, McClelland, Vroom"
+    },
+    {
+      "unit": "9",
+      "unitTitle": "Project Human Resource Management",
+      "sub": "Leadership and power types: legitimate, reward, expert, referent, punishment"
+    },
+    {
+      "unit": "9",
+      "unitTitle": "Project Human Resource Management",
+      "sub": "Conflict management approaches: withdraw, smooth, compromise, force, collaborate, confront"
+    },
+    {
+      "unit": "9",
+      "unitTitle": "Project Human Resource Management",
+      "sub": "Virtual teams and colocation, tight matrix, war room"
+    },
+    {
+      "unit": "10",
+      "unitTitle": "Project Communications Management",
+      "sub": "Plan Communications Management: Inputs, Tools and Techniques, Outputs"
+    },
+    {
+      "unit": "10",
+      "unitTitle": "Project Communications Management",
+      "sub": "Manage Communications: Inputs, Tools and Techniques, Outputs"
+    },
+    {
+      "unit": "10",
+      "unitTitle": "Project Communications Management",
+      "sub": "Control Communications: Inputs, Tools and Techniques, Outputs"
+    },
+    {
+      "unit": "10",
+      "unitTitle": "Project Communications Management",
+      "sub": "Communication model: sender, encode, transmit, decode, receiver, feedback, noise"
+    },
+    {
+      "unit": "10",
+      "unitTitle": "Project Communications Management",
+      "sub": "Communication methods: interactive, push, pull"
+    },
+    {
+      "unit": "10",
+      "unitTitle": "Project Communications Management",
+      "sub": "Number of communication channels formula n(n-1)/2"
+    },
+    {
+      "unit": "10",
+      "unitTitle": "Project Communications Management",
+      "sub": "Communication dimensions: formal/informal, written/verbal, vertical/horizontal"
+    },
+    {
+      "unit": "10",
+      "unitTitle": "Project Communications Management",
+      "sub": "Communications requirements analysis and technology"
+    },
+    {
+      "unit": "10",
+      "unitTitle": "Project Communications Management",
+      "sub": "Performance reporting"
+    },
+    {
+      "unit": "11",
+      "unitTitle": "Project Risk Management",
+      "sub": "Plan Risk Management: Inputs, Tools and Techniques, Outputs"
+    },
+    {
+      "unit": "11",
+      "unitTitle": "Project Risk Management",
+      "sub": "Identify Risks: Inputs, Tools and Techniques, Outputs"
+    },
+    {
+      "unit": "11",
+      "unitTitle": "Project Risk Management",
+      "sub": "Perform Qualitative Risk Analysis: Inputs, Tools and Techniques, Outputs"
+    },
+    {
+      "unit": "11",
+      "unitTitle": "Project Risk Management",
+      "sub": "Perform Quantitative Risk Analysis: Inputs, Tools and Techniques, Outputs"
+    },
+    {
+      "unit": "11",
+      "unitTitle": "Project Risk Management",
+      "sub": "Plan Risk Responses: Inputs, Tools and Techniques, Outputs"
+    },
+    {
+      "unit": "11",
+      "unitTitle": "Project Risk Management",
+      "sub": "Control Risks: Inputs, Tools and Techniques, Outputs"
+    },
+    {
+      "unit": "11",
+      "unitTitle": "Project Risk Management",
+      "sub": "Risk vs issue vs problem; known unknowns and unknown unknowns"
+    },
+    {
+      "unit": "11",
+      "unitTitle": "Project Risk Management",
+      "sub": "Risk attitude: risk appetite, tolerance, threshold; risk averse and risk seeker"
+    },
+    {
+      "unit": "11",
+      "unitTitle": "Project Risk Management",
+      "sub": "Risk identification techniques: brainstorming, Delphi, SWOT, root cause analysis, checklists, assumption analysis"
+    },
+    {
+      "unit": "11",
+      "unitTitle": "Project Risk Management",
+      "sub": "Risk register and risk breakdown structure"
+    },
+    {
+      "unit": "11",
+      "unitTitle": "Project Risk Management",
+      "sub": "Probability and impact matrix, risk data quality assessment, risk urgency"
+    },
+    {
+      "unit": "11",
+      "unitTitle": "Project Risk Management",
+      "sub": "Expected Monetary Value, decision tree analysis, Monte Carlo simulation, sensitivity analysis and tornado diagram"
+    },
+    {
+      "unit": "11",
+      "unitTitle": "Project Risk Management",
+      "sub": "Threat responses: avoid, transfer, mitigate, accept"
+    },
+    {
+      "unit": "11",
+      "unitTitle": "Project Risk Management",
+      "sub": "Opportunity responses: exploit, share, enhance, accept"
+    },
+    {
+      "unit": "11",
+      "unitTitle": "Project Risk Management",
+      "sub": "Contingent response strategies, fallback plan, residual and secondary risk"
+    },
+    {
+      "unit": "11",
+      "unitTitle": "Project Risk Management",
+      "sub": "Contingency reserve vs management reserve"
+    },
+    {
+      "unit": "12",
+      "unitTitle": "Project Procurement Management",
+      "sub": "Plan Procurement Management: Inputs, Tools and Techniques, Outputs"
+    },
+    {
+      "unit": "12",
+      "unitTitle": "Project Procurement Management",
+      "sub": "Conduct Procurements: Inputs, Tools and Techniques, Outputs"
+    },
+    {
+      "unit": "12",
+      "unitTitle": "Project Procurement Management",
+      "sub": "Control Procurements: Inputs, Tools and Techniques, Outputs"
+    },
+    {
+      "unit": "12",
+      "unitTitle": "Project Procurement Management",
+      "sub": "Close Procurements: Inputs, Tools and Techniques, Outputs"
+    },
+    {
+      "unit": "12",
+      "unitTitle": "Project Procurement Management",
+      "sub": "Make-or-buy analysis and decision"
+    },
+    {
+      "unit": "12",
+      "unitTitle": "Project Procurement Management",
+      "sub": "Contract types: Fixed Price (FFP, FPIF, FP-EPA)"
+    },
+    {
+      "unit": "12",
+      "unitTitle": "Project Procurement Management",
+      "sub": "Contract types: Cost Reimbursable (CPFF, CPIF, CPAF)"
+    },
+    {
+      "unit": "12",
+      "unitTitle": "Project Procurement Management",
+      "sub": "Contract types: Time and Material"
+    },
+    {
+      "unit": "12",
+      "unitTitle": "Project Procurement Management",
+      "sub": "Risk allocation between buyer and seller by contract type"
+    },
+    {
+      "unit": "12",
+      "unitTitle": "Project Procurement Management",
+      "sub": "Procurement documents: RFI, RFQ, RFP, IFB"
+    },
+    {
+      "unit": "12",
+      "unitTitle": "Project Procurement Management",
+      "sub": "Statement of Work and Terms of Reference"
+    },
+    {
+      "unit": "12",
+      "unitTitle": "Project Procurement Management",
+      "sub": "Source selection criteria, bidder conferences, proposal evaluation techniques"
+    },
+    {
+      "unit": "12",
+      "unitTitle": "Project Procurement Management",
+      "sub": "Point of Total Assumption and incentive fee calculation"
+    },
+    {
+      "unit": "12",
+      "unitTitle": "Project Procurement Management",
+      "sub": "Claims administration, procurement audits, records management"
+    },
+    {
+      "unit": "13",
+      "unitTitle": "Project Stakeholder Management",
+      "sub": "Identify Stakeholders: Inputs, Tools and Techniques, Outputs"
+    },
+    {
+      "unit": "13",
+      "unitTitle": "Project Stakeholder Management",
+      "sub": "Plan Stakeholder Management: Inputs, Tools and Techniques, Outputs"
+    },
+    {
+      "unit": "13",
+      "unitTitle": "Project Stakeholder Management",
+      "sub": "Manage Stakeholder Engagement: Inputs, Tools and Techniques, Outputs"
+    },
+    {
+      "unit": "13",
+      "unitTitle": "Project Stakeholder Management",
+      "sub": "Control Stakeholder Engagement: Inputs, Tools and Techniques, Outputs"
+    },
+    {
+      "unit": "13",
+      "unitTitle": "Project Stakeholder Management",
+      "sub": "Stakeholder analysis and classification models: power/interest grid, power/influence grid, influence/impact grid, salience model"
+    },
+    {
+      "unit": "13",
+      "unitTitle": "Project Stakeholder Management",
+      "sub": "Stakeholder register"
+    },
+    {
+      "unit": "13",
+      "unitTitle": "Project Stakeholder Management",
+      "sub": "Stakeholder engagement assessment matrix: unaware, resistant, neutral, supportive, leading"
+    },
+    {
+      "unit": "13",
+      "unitTitle": "Project Stakeholder Management",
+      "sub": "Stakeholder engagement plan"
+    },
+    {
+      "unit": "A",
+      "unitTitle": "Aptitude Test - Numerical and Figurework",
+      "sub": "Number series completion"
+    },
+    {
+      "unit": "A",
+      "unitTitle": "Aptitude Test - Numerical and Figurework",
+      "sub": "Missing number in a figure or matrix"
+    },
+    {
+      "unit": "A",
+      "unitTitle": "Aptitude Test - Numerical and Figurework",
+      "sub": "Arithmetic reasoning"
+    },
+    {
+      "unit": "A",
+      "unitTitle": "Aptitude Test - Numerical and Figurework",
+      "sub": "Percentage, ratio and proportion"
+    },
+    {
+      "unit": "A",
+      "unitTitle": "Aptitude Test - Numerical and Figurework",
+      "sub": "Average"
+    },
+    {
+      "unit": "A",
+      "unitTitle": "Aptitude Test - Numerical and Figurework",
+      "sub": "Simple and compound interest"
+    },
+    {
+      "unit": "A",
+      "unitTitle": "Aptitude Test - Numerical and Figurework",
+      "sub": "Profit and loss"
+    },
+    {
+      "unit": "A",
+      "unitTitle": "Aptitude Test - Numerical and Figurework",
+      "sub": "Time and work"
+    },
+    {
+      "unit": "A",
+      "unitTitle": "Aptitude Test - Numerical and Figurework",
+      "sub": "Time, speed and distance"
+    },
+    {
+      "unit": "A",
+      "unitTitle": "Aptitude Test - Numerical and Figurework",
+      "sub": "Data interpretation from tables and charts"
+    },
+    {
+      "unit": "A",
+      "unitTitle": "Aptitude Test - Numerical and Figurework",
+      "sub": "Simplification and approximation"
+    },
+    {
+      "unit": "A",
+      "unitTitle": "Aptitude Test - Numerical and Figurework",
+      "sub": "Number system, HCF and LCM"
+    },
+    {
+      "unit": "B",
+      "unitTitle": "Aptitude Test - Verbal Analysis and Vocabulary",
+      "sub": "Verbal analogy"
+    },
+    {
+      "unit": "B",
+      "unitTitle": "Aptitude Test - Verbal Analysis and Vocabulary",
+      "sub": "Odd one out among words"
+    },
+    {
+      "unit": "B",
+      "unitTitle": "Aptitude Test - Verbal Analysis and Vocabulary",
+      "sub": "Synonyms"
+    },
+    {
+      "unit": "B",
+      "unitTitle": "Aptitude Test - Verbal Analysis and Vocabulary",
+      "sub": "Antonyms"
+    },
+    {
+      "unit": "B",
+      "unitTitle": "Aptitude Test - Verbal Analysis and Vocabulary",
+      "sub": "Sentence completion"
+    },
+    {
+      "unit": "B",
+      "unitTitle": "Aptitude Test - Verbal Analysis and Vocabulary",
+      "sub": "Idioms and phrases"
+    },
+    {
+      "unit": "B",
+      "unitTitle": "Aptitude Test - Verbal Analysis and Vocabulary",
+      "sub": "Spotting grammatical errors"
+    },
+    {
+      "unit": "B",
+      "unitTitle": "Aptitude Test - Verbal Analysis and Vocabulary",
+      "sub": "Word meaning in context"
+    },
+    {
+      "unit": "B",
+      "unitTitle": "Aptitude Test - Verbal Analysis and Vocabulary",
+      "sub": "Verbal classification"
+    },
+    {
+      "unit": "B",
+      "unitTitle": "Aptitude Test - Verbal Analysis and Vocabulary",
+      "sub": "Logical sequence of words"
+    },
+    {
+      "unit": "B",
+      "unitTitle": "Aptitude Test - Verbal Analysis and Vocabulary",
+      "sub": "Reading comprehension short passages"
+    },
+    {
+      "unit": "C",
+      "unitTitle": "Aptitude Test - Visual and Spatial / 3-D Ability",
+      "sub": "Odd figure out"
+    },
+    {
+      "unit": "C",
+      "unitTitle": "Aptitude Test - Visual and Spatial / 3-D Ability",
+      "sub": "Next figure in a sequence"
+    },
+    {
+      "unit": "C",
+      "unitTitle": "Aptitude Test - Visual and Spatial / 3-D Ability",
+      "sub": "Figure analogy"
+    },
+    {
+      "unit": "C",
+      "unitTitle": "Aptitude Test - Visual and Spatial / 3-D Ability",
+      "sub": "Mirror images and water images"
+    },
+    {
+      "unit": "C",
+      "unitTitle": "Aptitude Test - Visual and Spatial / 3-D Ability",
+      "sub": "Paper folding and paper cutting"
+    },
+    {
+      "unit": "C",
+      "unitTitle": "Aptitude Test - Visual and Spatial / 3-D Ability",
+      "sub": "Cubes and dice"
+    },
+    {
+      "unit": "C",
+      "unitTitle": "Aptitude Test - Visual and Spatial / 3-D Ability",
+      "sub": "Embedded and hidden figures"
+    },
+    {
+      "unit": "C",
+      "unitTitle": "Aptitude Test - Visual and Spatial / 3-D Ability",
+      "sub": "Counting figures"
+    },
+    {
+      "unit": "C",
+      "unitTitle": "Aptitude Test - Visual and Spatial / 3-D Ability",
+      "sub": "Rotation of solids and mental rotation"
+    },
+    {
+      "unit": "C",
+      "unitTitle": "Aptitude Test - Visual and Spatial / 3-D Ability",
+      "sub": "Nets of solids"
+    },
+    {
+      "unit": "C",
+      "unitTitle": "Aptitude Test - Visual and Spatial / 3-D Ability",
+      "sub": "Pattern completion"
+    },
+    {
+      "unit": "D",
+      "unitTitle": "Aptitude Test - Abstract Reasoning",
+      "sub": "Identifying logical rules in abstract figure sets"
+    },
+    {
+      "unit": "D",
+      "unitTitle": "Aptitude Test - Abstract Reasoning",
+      "sub": "Matrix reasoning"
+    },
+    {
+      "unit": "D",
+      "unitTitle": "Aptitude Test - Abstract Reasoning",
+      "sub": "Series with multiple simultaneous transformations"
+    },
+    {
+      "unit": "D",
+      "unitTitle": "Aptitude Test - Abstract Reasoning",
+      "sub": "Coding-decoding"
+    },
+    {
+      "unit": "D",
+      "unitTitle": "Aptitude Test - Abstract Reasoning",
+      "sub": "Syllogism"
+    },
+    {
+      "unit": "D",
+      "unitTitle": "Aptitude Test - Abstract Reasoning",
+      "sub": "Statement and assumption, statement and conclusion"
+    },
+    {
+      "unit": "D",
+      "unitTitle": "Aptitude Test - Abstract Reasoning",
+      "sub": "Cause and effect"
+    },
+    {
+      "unit": "D",
+      "unitTitle": "Aptitude Test - Abstract Reasoning",
+      "sub": "Blood relations"
+    },
+    {
+      "unit": "D",
+      "unitTitle": "Aptitude Test - Abstract Reasoning",
+      "sub": "Direction sense"
+    },
+    {
+      "unit": "D",
+      "unitTitle": "Aptitude Test - Abstract Reasoning",
+      "sub": "Ranking and ordering"
+    },
+    {
+      "unit": "D",
+      "unitTitle": "Aptitude Test - Abstract Reasoning",
+      "sub": "Seating arrangement"
+    },
+    {
+      "unit": "D",
+      "unitTitle": "Aptitude Test - Abstract Reasoning",
+      "sub": "Venn diagrams"
+    },
+    {
+      "unit": "D",
+      "unitTitle": "Aptitude Test - Abstract Reasoning",
+      "sub": "Data sufficiency"
+    }
+  ],
+  "questions": [
+    {
+      "id": "TECH3_2021-1",
+      "q": "A car company authorizing a project to build more fuel-efficient cars in response to gasoline shortages. Which strategic consideration is used for this project?",
+      "opts": {
+        "A": "Market demand",
+        "B": "Business need",
+        "C": "Environmental Consideration",
+        "D": "Technological Advance"
+      }
+    },
+    {
+      "id": "TECH3_2021-10",
+      "q": "Which of the following statements is correct:",
+      "opts": {
+        "A": "Project life cycles and product life cycles are interdependent.",
+        "B": "Project life cycles are independent of product life cycles.",
+        "C": "A product life cycle is the same as a project life cycle.",
+        "D": "The last life cycle for a project is generally the product's retirement."
+      }
+    },
+    {
+      "id": "TECH3_2021-100",
+      "q": "Four girls are sitting on a bench to be photographed. Esther is to the left of Remi. Puii is to the right of Remi. Angela is between Remi and Puii. Who would be second from the left in the photograph?",
+      "opts": {
+        "A": "Remi",
+        "B": "Esther",
+        "C": "Puii",
+        "D": "Angela"
+      }
+    },
+    {
+      "id": "TECH3_2021-11",
+      "q": "Which of the following Process Groups do not overlap with each other?",
+      "opts": {
+        "A": "Initiating Process Group & Closing Process Group",
+        "B": "Planning Process Group & Monitoring and Controlling Process Group",
+        "C": "Executing Process Group & Monitoring and Controlling Process Group",
+        "D": "Executing Process Group & Closing Process Group"
+      }
+    },
+    {
+      "id": "TECH3_2021-12",
+      "q": "Which of the following is the correct logical sequence of the five process groups?",
+      "opts": {
+        "A": "Planning, Monitoring and Controlling, Initiating, Executing, Closing",
+        "B": "Planning, Initiating, Executing, Monitoring and Controlling, Closing",
+        "C": "Initiating, Monitoring and Controlling, Planning, Executing, Closing",
+        "D": "Initiating, Planning, Executing, Monitoring and Controlling, Closing"
+      }
+    },
+    {
+      "id": "TECH3_2021-13",
+      "q": "A large portion of project's budget is spent on what Process Group?",
+      "opts": {
+        "A": "Initiating",
+        "B": "Planning",
+        "C": "Executing",
+        "D": "Monitoring and Controlling"
+      }
+    },
+    {
+      "id": "TECH3_2021-14",
+      "q": "Successful project management does not include which of the following factors?",
+      "opts": {
+        "A": "Interchangable staff",
+        "B": "Competent team members",
+        "C": "Responsiveness to clients",
+        "D": "Control mechanisms"
+      }
+    },
+    {
+      "id": "TECH3_2021-15",
+      "q": "Applying appropriate updates to organizational process assets is a part of what Process Group?",
+      "opts": {
+        "A": "Monitoring and Controlling",
+        "B": "Planning",
+        "C": "Executing",
+        "D": "Closing"
+      }
+    },
+    {
+      "id": "TECH3_2021-16",
+      "q": "Which of the following would not be considered an Enterprise Environmental Factor during the Develop Project Charter process?",
+      "opts": {
+        "A": "Scope Statement",
+        "B": "Organizational infrastructure",
+        "C": "Governmental standards",
+        "D": "Marketplace conditions"
+      }
+    },
+    {
+      "id": "TECH3_2021-17",
+      "q": "A project manager calls you in as a consultant to provide input on developing the Project Charter. Your contribution to the project could best be termed as:",
+      "opts": {
+        "A": "Professional Consultant",
+        "B": "Charter Consultant",
+        "C": "Expert Judgment",
+        "D": "Expert Consultancy"
+      }
+    },
+    {
+      "id": "TECH3_2021-18",
+      "q": "Technical performance measure, start and finish of schedule activities, number of change requests, number of defects are examples of:",
+      "opts": {
+        "A": "Work performance data",
+        "B": "Key performance indicators",
+        "C": "Performance rating",
+        "D": "Activity rating"
+      }
+    },
+    {
+      "id": "TECH3_2021-19",
+      "q": "Which of the following statement is false?",
+      "opts": {
+        "A": "Request for change may affect the Project Charter document",
+        "B": "Request for change may be defect repair or update",
+        "C": "Request for change can be externally or internally initiated",
+        "D": "Request for change may be corrective action or preventive action"
+      }
+    },
+    {
+      "id": "TECH3_2021-2",
+      "q": "A Project Manager should possess the following competencies:",
+      "opts": {
+        "A": "Leadership, Trust Building, Motivation",
+        "B": "Influencing, Communication, Team Building",
+        "C": "Knowledge, Performance, Personal",
+        "D": "Decision Making, Negotiation, Conflict Management"
+      }
+    },
+    {
+      "id": "TECH3_2021-20",
+      "q": "The project management team has determined that there are some changes to the scope of the project. Who is responsible for reviewing, evaluating, and approving documented changes to the project?",
+      "opts": {
+        "A": "Change Control Board (CCB)",
+        "B": "Change Configuration Board (CCB)",
+        "C": "Scope Control Board (SCB)",
+        "D": "Configuration Control Board (CCB)"
+      }
+    },
+    {
+      "id": "TECH3_2021-21",
+      "q": "What is the term used for the area that entails processes and activities that define, combine, unify and coordinate the processes and project activities carried out within the various Project Management Process Groups?",
+      "opts": {
+        "A": "Project Integration Management",
+        "B": "Strategic Management",
+        "C": "Operations Management",
+        "D": "Project Process Management"
+      }
+    },
+    {
+      "id": "TECH3_2021-22",
+      "q": "When Integration is used under Project Management, it includes all of the following activities except for:",
+      "opts": {
+        "A": "Unification",
+        "B": "Consolidation",
+        "C": "Communication",
+        "D": "Review"
+      }
+    },
+    {
+      "id": "TECH3_2021-23",
+      "q": "The process of defining, preparing and organizing all subsidiary plans along with integrating them into the comprehensive project plan is known as:",
+      "opts": {
+        "A": "Develop Project Charter",
+        "B": "Develop Project Management Plan",
+        "C": "Project Process Groups",
+        "D": "Strategic Management"
+      }
+    },
+    {
+      "id": "TECH3_2021-24",
+      "q": "What is the logical sequence of the Project Scope Management processes?",
+      "opts": {
+        "A": "Create WBS, Collect Requirements, Define Scope, Validate Scope, and Control Scope",
+        "B": "Define Scope, Collect Requirements, Create WBS, Validate Scope, and Control Scope",
+        "C": "Plan Scope Management, Collect Requirements, Define Scope, Create WBS, Validate Scope, and Control Scope",
+        "D": "Plan Scope Management, Collect Requirements, Define Scope, Validate Scope, Create WBS, and Control Scope"
+      }
+    },
+    {
+      "id": "TECH3_2021-25",
+      "q": "You are the Project Manager for the production of an exotic car. You have completed the Define Scope process for your project. Which of the following may be generated through this process?",
+      "opts": {
+        "A": "Project scope statement, project charter",
+        "B": "Project scope statement, updates to requirements traceability matrix",
+        "C": "WBS, updates to requirements traceability matrix",
+        "D": "Project scope statement, WBS"
+      }
+    },
+    {
+      "id": "TECH3_2021-26",
+      "q": "The Work Breakdown Structure (WBS) is a deliverable-oriented hierarchical decomposition of the work the project team will execute to accomplish the project objectives and create required deliverables. The Create WBS process falls under which knowledge area?",
+      "opts": {
+        "A": "Project Schedule Management",
+        "B": "Project Integration Management",
+        "C": "Project Scope Management",
+        "D": "Project Cost Management"
+      }
+    },
+    {
+      "id": "TECH3_2021-27",
+      "q": "During a weekly status meeting, Binoy (your team member) suggest adding a component to the project. As an project manager, you maintain that all focus should stay on the current scope and not on any enhancements. Focusing on the current scope is an example of:",
+      "opts": {
+        "A": "Gold-plating",
+        "B": "Scope management",
+        "C": "Scope verification",
+        "D": "Change control"
+      }
+    },
+    {
+      "id": "TECH3_2021-28",
+      "q": "What is the main reason for controlling the project scope?",
+      "opts": {
+        "A": "To prevent changes from affecting the project",
+        "B": "To enable scope creep",
+        "C": "To ensure timely closure of the project",
+        "D": "Preventing scope creep"
+      }
+    },
+    {
+      "id": "TECH3_2021-29",
+      "q": "Which of the following is not used as an input for the Validate Scope process?",
+      "opts": {
+        "A": "Scope Baseline",
+        "B": "Verified Deliverables",
+        "C": "Project Management Plan",
+        "D": "Work Performance Data"
+      }
+    },
+    {
+      "id": "TECH3_2021-3",
+      "q": "Sangeeta is part of a project management office (PMO). Her office is responsible for the centralized and coordinated management of 22 projects. Each project has its own project manager. Which of the following will not typically be a responsibility of her PMO?",
+      "opts": {
+        "A": "Coaching, mentoring, training, and oversight",
+        "B": "Development of a detailed description of each project and the product it produces",
+        "C": "Managing shared resources across all the projects administered by the PMO",
+        "D": "Developing and managing project policies"
+      }
+    },
+    {
+      "id": "TECH3_2021-30",
+      "q": "The Scope Management Plan is included in which of the following documents?",
+      "opts": {
+        "A": "Project Management Plan",
+        "B": "The Work Breakdown Structure",
+        "C": "The Scope Statement",
+        "D": "Project Specifications"
+      }
+    }
+  ]
+}

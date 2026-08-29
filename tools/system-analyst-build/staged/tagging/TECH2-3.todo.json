@@ -1,0 +1,1318 @@
+{
+  "paper": "TECH2",
+  "instructions": "Tag each question to one (unit, sub) from allowed_leaves. Write {\"<id>\": {\"unit\": \"...\", \"sub\": \"...\"}} to this filename with .todo.json replaced by .done.json. `sub` must be copied VERBATIM — it is matched by exact string equality.",
+  "allowed_leaves": [
+    {
+      "unit": "1",
+      "unitTitle": "Understanding Government and Governance",
+      "sub": "Introduction to Government and Governance"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Understanding Government and Governance",
+      "sub": "Defining Good Governance"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Understanding Government and Governance",
+      "sub": "Service delivery, time taken to deliver service, cost of getting service, customer experience, complexity, transparency"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Understanding Government and Governance",
+      "sub": "Introduction to Governance - self-preservation, supervision and resolution of conflicts, socio-economic development, regulation of the economy, provision of goods and services"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Understanding Government and Governance",
+      "sub": "Citizen Centric Administration"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Understanding Government and Governance",
+      "sub": "Perception about Governance in India"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Understanding Government and Governance",
+      "sub": "Necessary pre-conditions for Good Governance"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Understanding Government and Governance",
+      "sub": "Need for Governance Reform and Citizen Charter - basic concept, origin and principles"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Understanding Government and Governance",
+      "sub": "Problems faced in implementing the charters"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Understanding Government and Governance",
+      "sub": "Charter criteria"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Understanding Government and Governance",
+      "sub": "Rationale of Citizen's Charter"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Understanding Government and Governance",
+      "sub": "Designing and implementing effective complaints handling systems"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "E-Governance Project Development",
+      "sub": "Introduction to e-Government and e-Governance"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "E-Governance Project Development",
+      "sub": "Challenges in current environment"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "E-Governance Project Development",
+      "sub": "Key factors contributing to current environment"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "E-Governance Project Development",
+      "sub": "Need for a more robust approach for E-Governance"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "E-Governance Project Development",
+      "sub": "Essential elements of E-Governance Project"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "E-Governance Project Development",
+      "sub": "E-Governance project life cycle"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "E-Governance Project Development",
+      "sub": "E-Governance strategy development"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "E-Governance Project Development",
+      "sub": "Current state assessment"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "E-Governance Project Development",
+      "sub": "Define future state (to-be definition)"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "E-Governance Project Development",
+      "sub": "Implementation approach and sourcing"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "E-Governance Project Development",
+      "sub": "Develop and implement IT system"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "E-Governance Project Development",
+      "sub": "Operate and sustain"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "E-Governance Project Development",
+      "sub": "Project management office/unit"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "E-Governance Project Development",
+      "sub": "Change management and communication"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "e-Governance Vision & Strategy Development",
+      "sub": "Understanding e-Governance strategy"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "e-Governance Vision & Strategy Development",
+      "sub": "Key elements in e-Governance strategy"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "e-Governance Vision & Strategy Development",
+      "sub": "e-Governance vision"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "e-Governance Vision & Strategy Development",
+      "sub": "e-Governance objectives"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "e-Governance Vision & Strategy Development",
+      "sub": "Identifying stakeholders and services"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "e-Governance Vision & Strategy Development",
+      "sub": "Categories of Government services (G2C, G2B, G2E, G2G)"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "e-Governance Vision & Strategy Development",
+      "sub": "Delivery channel"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "e-Governance Vision & Strategy Development",
+      "sub": "Implementation approach and plan: Big bang"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "e-Governance Vision & Strategy Development",
+      "sub": "Implementation approach and plan: Phased rollout"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "e-Governance Vision & Strategy Development",
+      "sub": "Implementation approach and plan: Parallel adoption"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "e-Governance Vision & Strategy Development",
+      "sub": "Implementation approach and plan: Pilot and rollout"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "e-Governance Vision & Strategy Development",
+      "sub": "Programme management framework"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Government Process Re-engineering (GPR)",
+      "sub": "Objectives of GPR"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Government Process Re-engineering (GPR)",
+      "sub": "Service Prioritization"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Government Process Re-engineering (GPR)",
+      "sub": "Benefit of service prioritization"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Government Process Re-engineering (GPR)",
+      "sub": "E-Governance and traditional approach to e-Governance"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Government Process Re-engineering (GPR)",
+      "sub": "Symptoms of Poor Governance"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Government Process Re-engineering (GPR)",
+      "sub": "GPR and Quality initiatives"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Procurement in E-Governance",
+      "sub": "Objectives"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Procurement in E-Governance",
+      "sub": "Introduction to Government Procurement"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Procurement in E-Governance",
+      "sub": "Procurement in e-Governance projects"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Procurement in E-Governance",
+      "sub": "Deciding on procurement strategy"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Procurement in E-Governance",
+      "sub": "Planning the procurement"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Procurement in E-Governance",
+      "sub": "Request for Proposal (RFP)"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Procurement in E-Governance",
+      "sub": "Considerations for commercial bid formats"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Procurement in E-Governance",
+      "sub": "PPP / transaction fee based model"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Business Models and Public Private Partnership (PPP)",
+      "sub": "Business Models for implementation of e-Governance"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Business Models and Public Private Partnership (PPP)",
+      "sub": "Costs in e-Governance projects"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Business Models and Public Private Partnership (PPP)",
+      "sub": "Revenue opportunities in e-Governance projects"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Business Models and Public Private Partnership (PPP)",
+      "sub": "Approach for development of Business Model"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Business Models and Public Private Partnership (PPP)",
+      "sub": "Net Present Value (NPV) and Internal Rate of Return (IRR)"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Business Models and Public Private Partnership (PPP)",
+      "sub": "Public Finance and Private Finance"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Business Models and Public Private Partnership (PPP)",
+      "sub": "Rationale for PPP"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Business Models and Public Private Partnership (PPP)",
+      "sub": "PPP benefit to Citizens"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Business Models and Public Private Partnership (PPP)",
+      "sub": "PPP benefit to Government"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Business Models and Public Private Partnership (PPP)",
+      "sub": "Benefits to Private sector partner"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Business Models and Public Private Partnership (PPP)",
+      "sub": "Key design principle for PPP"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Business Models and Public Private Partnership (PPP)",
+      "sub": "Role of various partners"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Business Models and Public Private Partnership (PPP)",
+      "sub": "Role of Government in PPP"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Business Models and Public Private Partnership (PPP)",
+      "sub": "Role of Private partner"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Business Models and Public Private Partnership (PPP)",
+      "sub": "Management Contract"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Business Models and Public Private Partnership (PPP)",
+      "sub": "ASP Model - Application Service Provider Model"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Business Models and Public Private Partnership (PPP)",
+      "sub": "Requirement to launch services in a short time frame"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Business Models and Public Private Partnership (PPP)",
+      "sub": "BOOT - Build Own Operate and Transfer Model"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Business Models and Public Private Partnership (PPP)",
+      "sub": "BOO - Build Own Operate Model"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Business Models and Public Private Partnership (PPP)",
+      "sub": "JV Model"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Business Models and Public Private Partnership (PPP)",
+      "sub": "How to structure and implement PPP"
+    },
+    {
+      "unit": "7",
+      "unitTitle": "Digital India",
+      "sub": "Digital India as the umbrella programme"
+    },
+    {
+      "unit": "7",
+      "unitTitle": "Digital India",
+      "sub": "Key Vision Areas"
+    },
+    {
+      "unit": "7",
+      "unitTitle": "Digital India",
+      "sub": "Participation in digital and financial space through mobiles and banking"
+    },
+    {
+      "unit": "7",
+      "unitTitle": "Digital India",
+      "sub": "Easy access to a Common Service Centre"
+    },
+    {
+      "unit": "7",
+      "unitTitle": "Digital India",
+      "sub": "Shareable private space on a public cloud"
+    },
+    {
+      "unit": "7",
+      "unitTitle": "Digital India",
+      "sub": "Safe and secure cyber-space"
+    },
+    {
+      "unit": "7",
+      "unitTitle": "Digital India",
+      "sub": "Government and Service on demand"
+    },
+    {
+      "unit": "7",
+      "unitTitle": "Digital India",
+      "sub": "Seamlessly integrated across departments or jurisdictions"
+    },
+    {
+      "unit": "7",
+      "unitTitle": "Digital India",
+      "sub": "Service available in real time from online and mobile platform"
+    },
+    {
+      "unit": "7",
+      "unitTitle": "Digital India",
+      "sub": "All citizen entitlements available on the cloud"
+    },
+    {
+      "unit": "7",
+      "unitTitle": "Digital India",
+      "sub": "Digital transformation for improving Ease of Doing Business"
+    },
+    {
+      "unit": "7",
+      "unitTitle": "Digital India",
+      "sub": "Making financial transactions electronic and cashless"
+    },
+    {
+      "unit": "7",
+      "unitTitle": "Digital India",
+      "sub": "Leveraging GIS for decision support system and development"
+    },
+    {
+      "unit": "7",
+      "unitTitle": "Digital India",
+      "sub": "Digital empowerment of citizens"
+    },
+    {
+      "unit": "7",
+      "unitTitle": "Digital India",
+      "sub": "Universal Digital Literacy"
+    },
+    {
+      "unit": "7",
+      "unitTitle": "Digital India",
+      "sub": "Universally accessible digital resources"
+    },
+    {
+      "unit": "7",
+      "unitTitle": "Digital India",
+      "sub": "Nine pillars of Digital India"
+    },
+    {
+      "unit": "7",
+      "unitTitle": "Digital India",
+      "sub": "e-Governance related Policies"
+    },
+    {
+      "unit": "7",
+      "unitTitle": "Digital India",
+      "sub": "Digital Lockers and e-Sign"
+    },
+    {
+      "unit": "8",
+      "unitTitle": "Data Digitization",
+      "sub": "What data digitization means and why it precedes service delivery"
+    },
+    {
+      "unit": "8",
+      "unitTitle": "Data Digitization",
+      "sub": "Legacy data digitization approaches"
+    },
+    {
+      "unit": "8",
+      "unitTitle": "Data Digitization",
+      "sub": "Data quality, validation and cleansing"
+    },
+    {
+      "unit": "8",
+      "unitTitle": "Data Digitization",
+      "sub": "Metadata and data standards"
+    },
+    {
+      "unit": "8",
+      "unitTitle": "Data Digitization",
+      "sub": "Scanning, OCR and document management"
+    },
+    {
+      "unit": "8",
+      "unitTitle": "Data Digitization",
+      "sub": "Digitization project planning and outsourcing"
+    },
+    {
+      "unit": "8",
+      "unitTitle": "Data Digitization",
+      "sub": "Data migration strategy"
+    },
+    {
+      "unit": "9",
+      "unitTitle": "Enterprise Architecture and Service Oriented Architecture",
+      "sub": "What Enterprise Architecture is"
+    },
+    {
+      "unit": "9",
+      "unitTitle": "Enterprise Architecture and Service Oriented Architecture",
+      "sub": "EA frameworks (Zachman, TOGAF)"
+    },
+    {
+      "unit": "9",
+      "unitTitle": "Enterprise Architecture and Service Oriented Architecture",
+      "sub": "India Enterprise Architecture (IndEA) framework"
+    },
+    {
+      "unit": "9",
+      "unitTitle": "Enterprise Architecture and Service Oriented Architecture",
+      "sub": "Business, data, application and technology architecture layers"
+    },
+    {
+      "unit": "9",
+      "unitTitle": "Enterprise Architecture and Service Oriented Architecture",
+      "sub": "Service Oriented Architecture principles"
+    },
+    {
+      "unit": "9",
+      "unitTitle": "Enterprise Architecture and Service Oriented Architecture",
+      "sub": "Services, loose coupling, reusability, discoverability"
+    },
+    {
+      "unit": "9",
+      "unitTitle": "Enterprise Architecture and Service Oriented Architecture",
+      "sub": "Web services, SOAP, REST, WSDL, UDDI"
+    },
+    {
+      "unit": "9",
+      "unitTitle": "Enterprise Architecture and Service Oriented Architecture",
+      "sub": "Middleware, ESB and interoperability"
+    },
+    {
+      "unit": "9",
+      "unitTitle": "Enterprise Architecture and Service Oriented Architecture",
+      "sub": "Open standards and e-Governance Standards (MSDG)"
+    },
+    {
+      "unit": "10",
+      "unitTitle": "Information Security Management in e-Governance Projects",
+      "sub": "Information Security Threats"
+    },
+    {
+      "unit": "10",
+      "unitTitle": "Information Security Management in e-Governance Projects",
+      "sub": "Improving Information Security in e-Governance"
+    },
+    {
+      "unit": "10",
+      "unitTitle": "Information Security Management in e-Governance Projects",
+      "sub": "Security Policy"
+    },
+    {
+      "unit": "10",
+      "unitTitle": "Information Security Management in e-Governance Projects",
+      "sub": "Security Practices and procedures"
+    },
+    {
+      "unit": "10",
+      "unitTitle": "Information Security Management in e-Governance Projects",
+      "sub": "Information Security Technology and Operational controls"
+    },
+    {
+      "unit": "10",
+      "unitTitle": "Information Security Management in e-Governance Projects",
+      "sub": "Cryptography"
+    },
+    {
+      "unit": "10",
+      "unitTitle": "Information Security Management in e-Governance Projects",
+      "sub": "Firewall"
+    },
+    {
+      "unit": "10",
+      "unitTitle": "Information Security Management in e-Governance Projects",
+      "sub": "Analysis tools"
+    },
+    {
+      "unit": "10",
+      "unitTitle": "Information Security Management in e-Governance Projects",
+      "sub": "Monitoring Tools"
+    },
+    {
+      "unit": "10",
+      "unitTitle": "Information Security Management in e-Governance Projects",
+      "sub": "Information Security Assurance Framework"
+    },
+    {
+      "unit": "10",
+      "unitTitle": "Information Security Management in e-Governance Projects",
+      "sub": "Selection of Baseline Security Controls"
+    },
+    {
+      "unit": "10",
+      "unitTitle": "Information Security Management in e-Governance Projects",
+      "sub": "Security Attributes"
+    },
+    {
+      "unit": "10",
+      "unitTitle": "Information Security Management in e-Governance Projects",
+      "sub": "Impact on Organization due to Breaches of Information Security"
+    },
+    {
+      "unit": "10",
+      "unitTitle": "Information Security Management in e-Governance Projects",
+      "sub": "Impact on Individual due to Breaches of Information Security"
+    },
+    {
+      "unit": "10",
+      "unitTitle": "Information Security Management in e-Governance Projects",
+      "sub": "Security Control organization and structure"
+    },
+    {
+      "unit": "10",
+      "unitTitle": "Information Security Management in e-Governance Projects",
+      "sub": "Information Security Risk Management Process"
+    },
+    {
+      "unit": "10",
+      "unitTitle": "Information Security Management in e-Governance Projects",
+      "sub": "Information Security Risk Treatment"
+    },
+    {
+      "unit": "11",
+      "unitTitle": "IT Audit of E-Governance Projects",
+      "sub": "Purpose and scope of IT audit"
+    },
+    {
+      "unit": "11",
+      "unitTitle": "IT Audit of E-Governance Projects",
+      "sub": "Types of IT audit"
+    },
+    {
+      "unit": "11",
+      "unitTitle": "IT Audit of E-Governance Projects",
+      "sub": "IT audit standards and frameworks (COBIT, ISO 27001)"
+    },
+    {
+      "unit": "11",
+      "unitTitle": "IT Audit of E-Governance Projects",
+      "sub": "Audit of application controls and general controls"
+    },
+    {
+      "unit": "11",
+      "unitTitle": "IT Audit of E-Governance Projects",
+      "sub": "Third-party audit and certification in e-Governance"
+    },
+    {
+      "unit": "11",
+      "unitTitle": "IT Audit of E-Governance Projects",
+      "sub": "STQC role and application security audit"
+    },
+    {
+      "unit": "11",
+      "unitTitle": "IT Audit of E-Governance Projects",
+      "sub": "Audit trail and log review"
+    },
+    {
+      "unit": "11",
+      "unitTitle": "IT Audit of E-Governance Projects",
+      "sub": "Audit findings, reporting and follow-up"
+    },
+    {
+      "unit": "12",
+      "unitTitle": "Understanding e-Governance Applications",
+      "sub": "Key characteristics of e-Governance application development projects"
+    },
+    {
+      "unit": "12",
+      "unitTitle": "Understanding e-Governance Applications",
+      "sub": "Investment needed in e-Governance applications"
+    },
+    {
+      "unit": "12",
+      "unitTitle": "Understanding e-Governance Applications",
+      "sub": "Understanding custom development vs COTS models"
+    },
+    {
+      "unit": "12",
+      "unitTitle": "Understanding e-Governance Applications",
+      "sub": "Understanding licensing models for application and system software"
+    },
+    {
+      "unit": "12",
+      "unitTitle": "Understanding e-Governance Applications",
+      "sub": "Understanding source code ownership and IPR"
+    },
+    {
+      "unit": "12",
+      "unitTitle": "Understanding e-Governance Applications",
+      "sub": "Revenue generation options in e-Governance applications"
+    },
+    {
+      "unit": "12",
+      "unitTitle": "Understanding e-Governance Applications",
+      "sub": "Strategic considerations in an e-Governance application"
+    },
+    {
+      "unit": "12",
+      "unitTitle": "Understanding e-Governance Applications",
+      "sub": "Business model for e-Governance applications"
+    },
+    {
+      "unit": "13",
+      "unitTitle": "Free and Open Source Software (FOSS)",
+      "sub": "Understanding Open Source"
+    },
+    {
+      "unit": "13",
+      "unitTitle": "Free and Open Source Software (FOSS)",
+      "sub": "Defining Open Source"
+    },
+    {
+      "unit": "13",
+      "unitTitle": "Free and Open Source Software (FOSS)",
+      "sub": "Typical concerns about open source software"
+    },
+    {
+      "unit": "13",
+      "unitTitle": "Free and Open Source Software (FOSS)",
+      "sub": "Open Source Software in e-Governance"
+    },
+    {
+      "unit": "13",
+      "unitTitle": "Free and Open Source Software (FOSS)",
+      "sub": "Major FOSS licences (GPL, LGPL, Apache, BSD, MIT)"
+    },
+    {
+      "unit": "13",
+      "unitTitle": "Free and Open Source Software (FOSS)",
+      "sub": "Copyleft and permissive licensing"
+    },
+    {
+      "unit": "13",
+      "unitTitle": "Free and Open Source Software (FOSS)",
+      "sub": "Total cost of ownership arguments"
+    },
+    {
+      "unit": "13",
+      "unitTitle": "Free and Open Source Software (FOSS)",
+      "sub": "National Policy on Adoption of Open Source Software for Government of India"
+    },
+    {
+      "unit": "14",
+      "unitTitle": "Change Management and Capacity Building in e-Governance Projects",
+      "sub": "Introduction and objectives of change management"
+    },
+    {
+      "unit": "14",
+      "unitTitle": "Change Management and Capacity Building in e-Governance Projects",
+      "sub": "ADKAR Model for Change Management"
+    },
+    {
+      "unit": "14",
+      "unitTitle": "Change Management and Capacity Building in e-Governance Projects",
+      "sub": "Key principles for change management design"
+    },
+    {
+      "unit": "14",
+      "unitTitle": "Change Management and Capacity Building in e-Governance Projects",
+      "sub": "Organizational dimension of change"
+    },
+    {
+      "unit": "14",
+      "unitTitle": "Change Management and Capacity Building in e-Governance Projects",
+      "sub": "People dimension of change"
+    },
+    {
+      "unit": "14",
+      "unitTitle": "Change Management and Capacity Building in e-Governance Projects",
+      "sub": "Communication in change management"
+    },
+    {
+      "unit": "14",
+      "unitTitle": "Change Management and Capacity Building in e-Governance Projects",
+      "sub": "Key reasons for failures in change initiatives"
+    },
+    {
+      "unit": "14",
+      "unitTitle": "Change Management and Capacity Building in e-Governance Projects",
+      "sub": "Approach for change management"
+    },
+    {
+      "unit": "14",
+      "unitTitle": "Change Management and Capacity Building in e-Governance Projects",
+      "sub": "Guiding principles for change planning"
+    },
+    {
+      "unit": "14",
+      "unitTitle": "Change Management and Capacity Building in e-Governance Projects",
+      "sub": "General tools in change management"
+    },
+    {
+      "unit": "14",
+      "unitTitle": "Change Management and Capacity Building in e-Governance Projects",
+      "sub": "Understanding scope of change in an e-Governance project"
+    },
+    {
+      "unit": "14",
+      "unitTitle": "Change Management and Capacity Building in e-Governance Projects",
+      "sub": "Identify enablers and disablers to change"
+    },
+    {
+      "unit": "14",
+      "unitTitle": "Change Management and Capacity Building in e-Governance Projects",
+      "sub": "Build a change champion network"
+    },
+    {
+      "unit": "14",
+      "unitTitle": "Change Management and Capacity Building in e-Governance Projects",
+      "sub": "Role of a change champion"
+    },
+    {
+      "unit": "14",
+      "unitTitle": "Change Management and Capacity Building in e-Governance Projects",
+      "sub": "Overview of approach for training in e-Governance projects"
+    },
+    {
+      "unit": "14",
+      "unitTitle": "Change Management and Capacity Building in e-Governance Projects",
+      "sub": "Training needs assessment"
+    },
+    {
+      "unit": "14",
+      "unitTitle": "Change Management and Capacity Building in e-Governance Projects",
+      "sub": "Communications Management"
+    },
+    {
+      "unit": "15",
+      "unitTitle": "Legal and Policy Framework for e-Governance Implementation",
+      "sub": "Legal aspects of e-Commerce and e-Governance"
+    },
+    {
+      "unit": "15",
+      "unitTitle": "Legal and Policy Framework for e-Governance Implementation",
+      "sub": "Legal and regulatory framework in India"
+    },
+    {
+      "unit": "15",
+      "unitTitle": "Legal and Policy Framework for e-Governance Implementation",
+      "sub": "Recognition of electronic records"
+    },
+    {
+      "unit": "15",
+      "unitTitle": "Legal and Policy Framework for e-Governance Implementation",
+      "sub": "IT Act Amendments, 2008"
+    },
+    {
+      "unit": "15",
+      "unitTitle": "Legal and Policy Framework for e-Governance Implementation",
+      "sub": "Introduction to Digital Signature"
+    },
+    {
+      "unit": "15",
+      "unitTitle": "Legal and Policy Framework for e-Governance Implementation",
+      "sub": "PKI based Digital Signature basics"
+    },
+    {
+      "unit": "15",
+      "unitTitle": "Legal and Policy Framework for e-Governance Implementation",
+      "sub": "PKI Infrastructure"
+    },
+    {
+      "unit": "15",
+      "unitTitle": "Legal and Policy Framework for e-Governance Implementation",
+      "sub": "Electronic Signatures - IT Act Amendments"
+    },
+    {
+      "unit": "15",
+      "unitTitle": "Legal and Policy Framework for e-Governance Implementation",
+      "sub": "Cyber Crime provisions in IT Act (sections 43, 47, 65, 66, 67, 73)"
+    },
+    {
+      "unit": "15",
+      "unitTitle": "Legal and Policy Framework for e-Governance Implementation",
+      "sub": "Indian Penal Code sections 503, 499, 500, 463, 470, 472, 420, 416, 417, 383, 405, 406, 408, 409, 204, 477, 193, 167, 172, 173, 175"
+    },
+    {
+      "unit": "15",
+      "unitTitle": "Legal and Policy Framework for e-Governance Implementation",
+      "sub": "Indian Evidence Act"
+    },
+    {
+      "unit": "15",
+      "unitTitle": "Legal and Policy Framework for e-Governance Implementation",
+      "sub": "Intellectual Property laws: Copyright Act 1957"
+    },
+    {
+      "unit": "15",
+      "unitTitle": "Legal and Policy Framework for e-Governance Implementation",
+      "sub": "Intellectual Property laws: Patents Act 1970"
+    },
+    {
+      "unit": "15",
+      "unitTitle": "Legal and Policy Framework for e-Governance Implementation",
+      "sub": "Intellectual Property laws: Trademark Act 1999"
+    },
+    {
+      "unit": "15",
+      "unitTitle": "Legal and Policy Framework for e-Governance Implementation",
+      "sub": "Other legal aspects"
+    },
+    {
+      "unit": "15",
+      "unitTitle": "Legal and Policy Framework for e-Governance Implementation",
+      "sub": "Regulatory Framework under NeGP"
+    },
+    {
+      "unit": "15",
+      "unitTitle": "Legal and Policy Framework for e-Governance Implementation",
+      "sub": "National Policy on Open Source"
+    },
+    {
+      "unit": "16",
+      "unitTitle": "Preparation of Detailed Project Report (DPR) and Request for Proposal (RFP)",
+      "sub": "Purpose and contents of a DPR"
+    },
+    {
+      "unit": "16",
+      "unitTitle": "Preparation of Detailed Project Report (DPR) and Request for Proposal (RFP)",
+      "sub": "Feasibility and cost-benefit analysis in a DPR"
+    },
+    {
+      "unit": "16",
+      "unitTitle": "Preparation of Detailed Project Report (DPR) and Request for Proposal (RFP)",
+      "sub": "Structure of an RFP"
+    },
+    {
+      "unit": "16",
+      "unitTitle": "Preparation of Detailed Project Report (DPR) and Request for Proposal (RFP)",
+      "sub": "Functional and technical requirement specification"
+    },
+    {
+      "unit": "16",
+      "unitTitle": "Preparation of Detailed Project Report (DPR) and Request for Proposal (RFP)",
+      "sub": "Evaluation criteria: pre-qualification, technical, financial"
+    },
+    {
+      "unit": "16",
+      "unitTitle": "Preparation of Detailed Project Report (DPR) and Request for Proposal (RFP)",
+      "sub": "QCBS - Quality and Cost Based Selection"
+    },
+    {
+      "unit": "16",
+      "unitTitle": "Preparation of Detailed Project Report (DPR) and Request for Proposal (RFP)",
+      "sub": "Bid process management"
+    },
+    {
+      "unit": "16",
+      "unitTitle": "Preparation of Detailed Project Report (DPR) and Request for Proposal (RFP)",
+      "sub": "Common pitfalls in RFP drafting"
+    },
+    {
+      "unit": "17",
+      "unitTitle": "Contract Management Aspect",
+      "sub": "Importance of contracts in e-Governance projects"
+    },
+    {
+      "unit": "17",
+      "unitTitle": "Contract Management Aspect",
+      "sub": "Key components of e-Governance contracts"
+    },
+    {
+      "unit": "17",
+      "unitTitle": "Contract Management Aspect",
+      "sub": "Common terms of contract"
+    },
+    {
+      "unit": "17",
+      "unitTitle": "Contract Management Aspect",
+      "sub": "Contract aspects of software development projects"
+    },
+    {
+      "unit": "17",
+      "unitTitle": "Contract Management Aspect",
+      "sub": "Contract aspects of IT infrastructure projects"
+    },
+    {
+      "unit": "17",
+      "unitTitle": "Contract Management Aspect",
+      "sub": "Contract aspects of PPP and service delivery projects"
+    },
+    {
+      "unit": "17",
+      "unitTitle": "Contract Management Aspect",
+      "sub": "SLA and Service Level Management"
+    },
+    {
+      "unit": "17",
+      "unitTitle": "Contract Management Aspect",
+      "sub": "Penalties, liquidated damages and exit management"
+    },
+    {
+      "unit": "18",
+      "unitTitle": "Monitoring and Evaluation of e-Governance Projects",
+      "sub": "Difference between outputs and outcomes"
+    },
+    {
+      "unit": "18",
+      "unitTitle": "Monitoring and Evaluation of e-Governance Projects",
+      "sub": "Difference between monitoring and evaluation"
+    },
+    {
+      "unit": "18",
+      "unitTitle": "Monitoring and Evaluation of e-Governance Projects",
+      "sub": "Understanding evaluation types"
+    },
+    {
+      "unit": "18",
+      "unitTitle": "Monitoring and Evaluation of e-Governance Projects",
+      "sub": "Approach for development of a Monitoring and Evaluation Framework"
+    },
+    {
+      "unit": "18",
+      "unitTitle": "Monitoring and Evaluation of e-Governance Projects",
+      "sub": "Key Performance Indicators"
+    },
+    {
+      "unit": "18",
+      "unitTitle": "Monitoring and Evaluation of e-Governance Projects",
+      "sub": "Baseline and target setting"
+    },
+    {
+      "unit": "18",
+      "unitTitle": "Monitoring and Evaluation of e-Governance Projects",
+      "sub": "Logical framework approach"
+    },
+    {
+      "unit": "19",
+      "unitTitle": "Impact Assessment of e-Governance Projects",
+      "sub": "Purpose of impact assessment"
+    },
+    {
+      "unit": "19",
+      "unitTitle": "Impact Assessment of e-Governance Projects",
+      "sub": "Dimensions of impact: citizen, government, society"
+    },
+    {
+      "unit": "19",
+      "unitTitle": "Impact Assessment of e-Governance Projects",
+      "sub": "Cost of access and time saved measures"
+    },
+    {
+      "unit": "19",
+      "unitTitle": "Impact Assessment of e-Governance Projects",
+      "sub": "Impact assessment methodologies and sampling"
+    },
+    {
+      "unit": "19",
+      "unitTitle": "Impact Assessment of e-Governance Projects",
+      "sub": "eTaal, and national impact assessment studies"
+    },
+    {
+      "unit": "19",
+      "unitTitle": "Impact Assessment of e-Governance Projects",
+      "sub": "Attributing impact to the intervention"
+    }
+  ],
+  "questions": [
+    {
+      "id": "TECH2_2021-54",
+      "q": "Name the government service, which helps patients in booking online appointments in government hospitals?",
+      "opts": {
+        "A": "Hospital Management System (HMS)",
+        "B": "Health Monitoring System (HMS)",
+        "C": "Self Service System (SSS)",
+        "D": "Online Registration System (ORS)"
+      }
+    },
+    {
+      "id": "TECH2_2021-55",
+      "q": "What do all enterprise architecture models have in common?",
+      "opts": {
+        "A": "Nothing, they are all unique",
+        "B": "They are all optimized for mobile",
+        "C": "There is an explicit transition from business to IT",
+        "D": "IT always dictates business needs"
+      }
+    },
+    {
+      "id": "TECH2_2021-56",
+      "q": "What would happen if different organization were given same set of requirements?",
+      "opts": {
+        "A": "It will produce same architecture",
+        "B": "It will produce different architecture",
+        "C": "It may or may not produce same architecture",
+        "D": "It will not hamper anything"
+      }
+    },
+    {
+      "id": "TECH2_2021-57",
+      "q": "Which of the following describes a message-passing taxonomy for a component-based architecture that provides services to clients upon demand?",
+      "opts": {
+        "A": "SOA",
+        "B": "EBS",
+        "C": "GEC",
+        "D": "All of the mentioned"
+      }
+    },
+    {
+      "id": "TECH2_2021-58",
+      "q": "Computer viruses, worms and Trojan Horses are examples of:",
+      "opts": {
+        "A": "Client threats",
+        "B": "Server-side masquerading",
+        "C": "Malicious code",
+        "D": "Communication channel threats"
+      }
+    },
+    {
+      "id": "TECH2_2021-59",
+      "q": "What come between Security requirement and Security Infrastructure Specification in the Security Engineering Life Cycle?",
+      "opts": {
+        "A": "Security Policy",
+        "B": "Security Infrastructure Implementation",
+        "C": "Requirement Validation",
+        "D": "Security Policy Selection"
+      }
+    },
+    {
+      "id": "TECH2_2021-6",
+      "q": "Which of the following is not an interaction between main groups in e-Governance?",
+      "opts": {
+        "A": "G2E",
+        "B": "G2B",
+        "C": "G2G",
+        "D": "C2G"
+      }
+    },
+    {
+      "id": "TECH2_2021-60",
+      "q": "eSAFE stand for:",
+      "opts": {
+        "A": "e-Governance Security Availability Framework",
+        "B": "e-Governance Security Assurance Framework",
+        "C": "e-Governance Security Authenticity Framework",
+        "D": "e-Governance Security Acceptable Framework"
+      }
+    },
+    {
+      "id": "TECH2_2021-61",
+      "q": "_________ is a property whereby data has not been altered in an unauthorized manner since it was created, transmitted, or stored.",
+      "opts": {
+        "A": "Originality",
+        "B": "Encryption",
+        "C": "Electronic signature",
+        "D": "Integrity"
+      }
+    },
+    {
+      "id": "TECH2_2021-62",
+      "q": "Which of the below is false in regards to the usage of firewall?",
+      "opts": {
+        "A": "Firewall performs application-level screening",
+        "B": "Application level firewall capture and compare packets to state information in connection tables",
+        "C": "Firewall may provide additional services such as DHCP,NAT",
+        "D": "Application level firewalls provide the strongest level of security and is the fastest"
+      }
+    },
+    {
+      "id": "TECH2_2021-63",
+      "q": "Which of the following is not one of the major components of Public Key Infrastructure (PKI)?",
+      "opts": {
+        "A": "Internet service provider and wireless fixed network technology",
+        "B": "Public key cryptography",
+        "C": "Digital certificate",
+        "D": "Certificate authority"
+      }
+    },
+    {
+      "id": "TECH2_2021-64",
+      "q": "Web sites with SSL (Secure Socket Layer) can improve the security of online transactions, but which of the following is NOT a function provided by SSL?",
+      "opts": {
+        "A": "Encrypts the contents of an online transaction",
+        "B": "Verifies the identity of the recipient",
+        "C": "Verifies that both sides have agreed to the conditions of the transaction, preventing either side from denying of ever having made such a commitment",
+        "D": "Prevents packet sniffing"
+      }
+    },
+    {
+      "id": "TECH2_2021-65",
+      "q": "Which of the following is not the proper way to handle spam emails?",
+      "opts": {
+        "A": "Ignore spam emails",
+        "B": "Reply and ask the sender to stop spamming",
+        "C": "Consider controlling spam emails by using email filtering software",
+        "D": "Do not forward spam emails"
+      }
+    },
+    {
+      "id": "TECH2_2021-66",
+      "q": "Ethical hacking is a security audit used in:",
+      "opts": {
+        "A": "External Audit Assessment",
+        "B": "Internal Audit Assessment",
+        "C": "Network Audit Assessment",
+        "D": "Physical Security Assessment"
+      }
+    },
+    {
+      "id": "TECH2_2021-67",
+      "q": "You are the owner of a company, you got a phone call regarding security audits. You need security audit due to the following reason:",
+      "opts": {
+        "A": "Firewall is present which helps to provide security",
+        "B": "Most business is connected to the internet and it can be at risk",
+        "C": "To identify gaps in the existing defence",
+        "D": "The physical security is strong"
+      }
+    },
+    {
+      "id": "TECH2_2021-68",
+      "q": "It is a ready-made application software , available for sale, lease or license to end users.",
+      "opts": {
+        "A": "COTS",
+        "B": "CDSW",
+        "C": "MOOC",
+        "D": "BOOT"
+      }
+    },
+    {
+      "id": "TECH2_2021-69",
+      "q": "It is the term for individual modules, class layers, images, and pieces of computer programming that are compiled together to make up your software system.",
+      "opts": {
+        "A": "Source code",
+        "B": "Code",
+        "C": "Development code",
+        "D": "Proprietary code"
+      }
+    },
+    {
+      "id": "TECH2_2021-7",
+      "q": "Which of the following is an essential element of e-Governance Project?",
+      "opts": {
+        "A": "Business Model",
+        "B": "Configuration Management",
+        "C": "Adoption of right approach",
+        "D": "Maximum impact to stakeholders"
+      }
+    },
+    {
+      "id": "TECH2_2021-70",
+      "q": "Which of the following does not belong to common IPRs?",
+      "opts": {
+        "A": "patents",
+        "B": "copyrights",
+        "C": "trade secrets",
+        "D": "idea"
+      }
+    },
+    {
+      "id": "TECH2_2021-71",
+      "q": "The main advantage of e-Administration is:",
+      "opts": {
+        "A": "Cutting process costs",
+        "B": "Provide staff motivation",
+        "C": "Better citizen interaction",
+        "D": "Data transformation"
+      }
+    },
+    {
+      "id": "TECH2_2021-72",
+      "q": "Statement 1 : Government choose Open Source System so that it can share development costs with other users\nStatement 2 : Government choose Open Source System so that it can copy repeatedly at no additional cost",
+      "opts": {
+        "A": "Both statements are false",
+        "B": "Statement 1 is true and Statement 2 is false",
+        "C": "Both statements are true",
+        "D": "Statement 1 is false and Statement 2 is true"
+      }
+    },
+    {
+      "id": "TECH2_2021-73",
+      "q": "Which of the following is not a criteria for determining whether or not a software license is open source?",
+      "opts": {
+        "A": "Free Redistribution",
+        "B": "License must be technology dependent",
+        "C": "Source code",
+        "D": "License should not be specific to a product"
+      }
+    },
+    {
+      "id": "TECH2_2021-74",
+      "q": "The main concern in using FOSS is:",
+      "opts": {
+        "A": "Reliability",
+        "B": "Cost",
+        "C": "Support",
+        "D": "Ease of use"
+      }
+    },
+    {
+      "id": "TECH2_2021-75",
+      "q": "E-government implementation is complex due to the following reason:",
+      "opts": {
+        "A": "Change Management",
+        "B": "Design Management",
+        "C": "Stake holder Management",
+        "D": "Effort Estimation"
+      }
+    },
+    {
+      "id": "TECH2_2021-76",
+      "q": "Effective management of people dimension of change requires the following key goals:",
+      "opts": {
+        "A": "Business Need,Design",
+        "B": "Identify Obstacles, Reinforcement",
+        "C": "Desire,Ability",
+        "D": "Determine Implementation, Re-Engineering"
+      }
+    }
+  ]
+}

@@ -180,17 +180,19 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
 .tree { position: sticky; top: 4.2rem; max-height: calc(100vh - 6rem); overflow-y: auto; }
 .tree details { margin-bottom: .2rem; }
 .tree summary {
-  cursor: pointer; padding: .35rem .5rem; border-radius: var(--radius-s);
-  font-size: .85rem; font-weight: 600; list-style: none;
+  cursor: pointer; padding: .55rem .5rem; border-radius: var(--radius-s);
+  font-size: .95rem; font-weight: 600; list-style: none;
 }
 .tree summary::-webkit-details-marker { display: none; }
 .tree summary:hover { background: var(--panel-2); }
 .tree summary::before { content: "▸ "; color: var(--ink-3); }
 .tree details[open] > summary::before { content: "▾ "; }
 .tree .u { margin-left: .5rem; }
+/* Concept links are the main thing pressed in this app, so they get a real
+   touch target rather than the 12.8px/24px-high rows they started with. */
 .tree a {
-  display: block; padding: .28rem .5rem .28rem 1.4rem;
-  font-size: .8rem; color: var(--ink-2); text-decoration: none;
+  display: block; padding: .5rem .55rem .5rem 1.4rem; min-height: 2.4rem;
+  font-size: .9rem; line-height: 1.4; color: var(--ink-2); text-decoration: none;
   border-radius: var(--radius-s); border-left: 2px solid transparent;
 }
 .tree a:hover { background: var(--panel-2); color: var(--ink); }

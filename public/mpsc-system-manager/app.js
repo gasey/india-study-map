@@ -542,19 +542,27 @@ VIEWS.study = (el, opts) => {
 
   const state = { paper: opts.paper || SYL.papers.find(p => CON.some(c => c.paper === p.id))?.id, sel: opts.sub || null, q: '' };
 
+  // Which branches the reader has opened. The tree is re-rendered from scratch
+  // on every selection, so without this every open unit snapped shut the moment
+  // you picked a concept from it — making the list unbrowsable, since getting
+  // back to the next concept meant reopening the paper and the unit each time.
+  state.open = state.open || new Set([`p:${state.paper}`]);
+
   function drawTree() {
     const t = $('#tree');
     const q = state.q.toLowerCase();
+    const isOpen = k => !!q || state.open.has(k);
     let html = '';
     SYL.papers.forEach(p => {
       const cs = CON.filter(c => c.paper === p.id && (!q || matches(c, q)));
       if (!cs.length) return;
-      const open = p.id === state.paper || !!q;
-      html += `<details ${open ? 'open' : ''}><summary>${esc(shortPaper(p.id))} <span class="dim">${cs.length}</span></summary>`;
+      const pk = `p:${p.id}`;
+      html += `<details data-k="${pk}" ${isOpen(pk) ? 'open' : ''}><summary>${esc(shortPaper(p.id))} <span class="dim">${cs.length}</span></summary>`;
       p.units.forEach(u => {
         const us = cs.filter(c => c.unit === String(u.no));
         if (!us.length) return;
-        html += `<details class="u" ${q ? 'open' : ''}><summary>${esc(u.no)}. ${esc(u.title)} <span class="dim">${u.marks}m</span></summary>`;
+        const uk = `u:${p.id}:${u.no}`;
+        html += `<details class="u" data-k="${uk}" ${isOpen(uk) ? 'open' : ''}><summary>${esc(u.no)}. ${esc(u.title)} <span class="dim">${u.marks}m</span></summary>`;
         us.forEach(c => {
           const st = cState(c);
           html += `<a href="#" data-id="${c.id}" class="${state.sel === c.id ? 'on' : ''} ${st.status}">${esc(c.sub)}</a>`;
@@ -564,6 +572,12 @@ VIEWS.study = (el, opts) => {
       html += `</details>`;
     });
     t.innerHTML = html || `<p class="dim">No matches.</p>`;
+    // `toggle` does not bubble, so bind per element rather than delegating.
+    $$('details[data-k]', t).forEach(d => {
+      d.ontoggle = () => {
+        if (d.open) state.open.add(d.dataset.k); else state.open.delete(d.dataset.k);
+      };
+    });
   }
   function matches(c, q) {
     return (c.sub + ' ' + c.def + ' ' + c.exp + ' ' + (c.facts || []).join(' ')).toLowerCase().includes(q);

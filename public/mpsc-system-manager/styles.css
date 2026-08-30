@@ -400,3 +400,24 @@ label.fld { display: flex; flex-direction: column; gap: .25rem; font-size: .78re
 .heat i.l3 { background: var(--accent); opacity: .8; }
 .heat i.l4 { background: var(--accent); }
 @media print { .topbar, .pager, .tabs { display: none; } }
+
+/* ------------------------------------------------------------- calc lab */
+/* Generated drill items (data/calc.js). The worked-solution list is the point
+   of the feature, so it gets more visual weight than a bank question's one-line
+   explanation does. */
+.drill-row{display:flex;align-items:center;justify-content:space-between;gap:.75rem;
+  padding:.5rem 0;border-bottom:1px solid var(--line)}
+.drill-row:last-child{border-bottom:0}
+.drill-main{display:flex;flex-direction:column;gap:.15rem;min-width:0}
+.drill-main .dim{font-size:.85rem}
+
+.steps{margin:.6rem 0 0;padding-left:1.35rem;display:flex;flex-direction:column;gap:.45rem}
+.steps li{line-height:1.55}
+.steps li::marker{color:var(--accent);font-weight:600}
+
+.trapbox{margin-top:.75rem;padding:.6rem .75rem;border-radius:var(--radius-s);
+  border-left:3px solid var(--warn);background:var(--warn-soft);
+  font-size:.92rem;line-height:1.5}
+
+/* Code listings and dependency lists inside a generated stem. */
+.quiz .qtext{white-space:normal}

@@ -9,6 +9,116 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-08-30 — Calc Lab: the procedural topics had concepts but no practice. 38 generators, plus two derived concept cards
+
+**The gap, measured before writing anything.** The concept guide explains
+subnetting, IP addressing and ER modelling well — worked /26 examples, the
+block-size shortcut, every Chen symbol. What it could not do is build fluency,
+because the question bank had nothing to drill against:
+
+| Topic | Real calculation questions in the 843-question bank |
+|---|---|
+| Subnetting | **1** |
+| Hex / base conversion | **1** — and borrowed from `mpsc-jso-prep`, its own `prov` says "Not a past System Manager question" |
+| Memory allocation | 0 |
+
+Subnetting and base conversion are procedural skills. Reading a 250-word card
+once teaches nothing durable, and a pool of one teaches you that one answer.
+
+**What shipped: `public/mpsc-system-manager/data/calc.js`** — 38 seeded
+generators across 6 groups, producing unlimited items, each with a worked
+step-by-step solution and a named trap:
+
+- **IP addressing & subnetting** (12) — hosts per subnet, network/broadcast/host
+  range, subnet count, mask↔prefix, wildcard masks, same-subnet decision, VLSM
+  sizing, route summarisation, class identification, private/APIPA/loopback
+- **IPv6** (3) — compress, expand, address type
+- **Number systems** (5) — base conversion all directions, binary→hex by nibbles,
+  two's complement, storage units, bit capacity
+- **DBMS** (4) — highest normal form, dependency type, ER→table mapping, degree
+  vs cardinality
+- **Memory allocation, paging & cache** (7) — first/best/worst fit, internal and
+  external fragmentation, page counts, address splitting, address lines, EAT
+- **Programming traps** (7) — integer division/modulo (including the C-vs-Python
+  sign difference), operator precedence, loop off-by-one, exception types,
+  try/catch/finally, short-circuit evaluation, pass-by-value
+
+Every generator computes its answer arithmetically and derives distractors from
+*named* mistakes, so nothing carries a hardcoded key that could drift from the
+stem. The nine normalisation scenarios are the deliberate exception, hand-authored
+verbatim — substituting random attribute names into a dependency structure is
+exactly how you silently produce a scenario whose stated answer is no longer true.
+
+**Fuzzing caught three real bugs that reading the code did not.** 76,000 generated
+items checked for structural validity, then 8,000 re-derived by an independent
+second implementation (`scratchpad/verify.js`) that parses the question text and
+recomputes the answer from scratch:
+
+- `network-address` — `netOf(ip, p-1)`, `netOf(ip, 24)` and `net + 1` all
+  collapse onto the correct answer for many (ip, prefix) pairs. Three-option items.
+- `ipv6-compress` — when every hextet is already four digits wide, the "leading
+  zeros wrongly retained" distractor is textually identical to the answer.
+- `integer-division` and `loop-iterations` — trunc/round, and `end` vs
+  `end - start`, collapse in the common cases.
+
+All four produced **duplicate options**, which means two letters correct. Exactly
+the class of silent-wrong-content `CLAUDE.md` exists to prevent, and invisible to
+inspection. Fixed by supplying distractor candidates that are distinct by
+construction; the fuzz + independent-verify pair now runs clean.
+
+**Two derived concept cards**, because two drills had no concept behind them:
+
+- `Number Systems and Data Representation` (TECH1 Unit I) — the syllabus lists no
+  number-system leaf, and `Functional Components of a Computer` contains zero
+  mentions of binary, hex, byte or nibble. But the 2016 Computer Operator Paper I
+  — which *is* this syllabus — asks "A group of four bits is also called"
+  (`CO2016A-P1-4`).
+- `Normalisation` (TECH2 Unit II) — the syllabus lists Data Models and ER
+  Modelling but no normalisation leaf, while five 1NF/2NF/3NF/BCNF questions
+  already sat in the bank orphaned under "Relational Database Management System".
+
+Added via a new `TECH_DERIVED` map in `concepts.py`, not by hand-editing the
+generated `.js`. They ship `derived: true` with their own provenance string,
+placed at the end of their unit so every official concept keeps its id. 296 → 298.
+
+**Also fixed, found while wiring the drill's "read the concept" link:**
+
+- `VIEWS.study` takes an option named `sub` but reads it as a concept **id** —
+  passing the actual subtopic string silently lands on the paper overview instead
+  of the concept. Now resolved through `conceptFor()`, matching the full
+  `paper|unit|sub` triple because six leaf names are reused across units.
+- **The Study pane never surfaced `derived`/`prov` at all.** All 37 General
+  English derived cards have read as official since Phase 5. Same failure mode as
+  the inverted confidence badge fixed yesterday: derived content presented as
+  authoritative by omission. The pane now shows a `derived — not in the official
+  syllabus` pill and the provenance note.
+
+Calc Lab progress lives in `S.calc`, keyed by generator id, deliberately **not**
+merged into `S.questions` — generated items have no stable id, so a Leitner box
+cannot apply and would corrupt the due counts.
+
+**Verified in the browser**, per the standing rule: all tabs render, console clean,
+dashboard reads 298 of 298, drills reveal answer + steps + trap, the concept link
+lands on the right card, and the derived badge shows.
+
+**What's still open:**
+
+- **The System Analyst port.** The CCNA topics the user actually asked about —
+  `IP Routing`, `Spanning Tree Protocol`, `EIGRP and OSPF`, `IOS and Security
+  Device Manager`, `Virtual LANs`, `Network Address Translation` — are **SA
+  TECH1 Unit 1 leaves and are not in the System Manager syllabus at all**. SM's
+  networking unit stops at generic `Routing and Switching`. Those generators
+  (OSPF/EIGRP metric calculation, STP root-bridge election, VLAN/trunk, NAT
+  translation tables, IOS command syntax) belong in the SA Calc Lab, along with
+  a port of the 26 generators that are syllabus-neutral.
+- `calc.js` and the two `app.js` copies remain a **fork, not a shared module**.
+  The Calc Lab view will need patching in both.
+- Aptitude generators (percentage/ratio/time-and-work for TECH2 Unit V
+  `Numerical Ability`) were scoped out deliberately — the existing Aptitude Hub
+  module covers that ground.
+
+---
+
 ## 2026-08-29 (late) — The confidence badge was inverted on 309 questions, live. Fixed, ported to System Analyst, and both apps now lead with the syllabus
 
 **The bug: `provLine()` badged 309 derived answers as coming from an official

@@ -195,7 +195,7 @@ export const modules: AppModule[] = [
     title: 'MUDAL System Manager',
     category: 'Practice',
     subgroup: 'Exam guides',
-    tagline: '259 syllabus subtopics — shell built, content pending',
+    tagline: '298 concepts, 843 questions, 38 calc drills — Study, Daily test, Calc Lab, Mock test',
     glyph: '🗂️',
     kind: 'static',
     path: '/mpsc-system-manager/index.html',

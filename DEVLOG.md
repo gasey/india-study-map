@@ -9,6 +9,144 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-08-30 — Calc Lab in the System Analyst app: 32 generators ported, 21 written for the routing/switching leaves the other syllabus does not have
+
+Follows the System Manager Calc Lab shipped earlier the same day (its own entry
+sits below this one once that work is committed). This is the System Analyst
+half: same feature, a different syllabus, and a third of the content is new.
+
+**The gap, measured before writing anything.** The System Manager entry counted
+one subnetting calculation in 843 questions. The System Analyst bank is worse
+where it matters most, because TECH1 is a *merit-bearing* paper and its Unit 1
+is the entire networking core:
+
+| TECH1 Unit 1 leaf | Questions in the 1,082-question bank |
+|---|---|
+| EIGRP and OSPF | 4 |
+| Sub-netting | **2** — and only `TECH1_2024-7` is a real calculation |
+| Spanning Tree Protocol | 2 |
+| Network Address Translation | 2 |
+| Virtual LANs | 1 |
+| IOS and Security Device Manager | 1 |
+| **IP Routing** | **0** |
+
+40 questions across all seventeen leaves. Six of them cannot be drilled from the
+bank at all. The concept cards for these topics are good — they were written in
+the Phase 5 pass and carry the real cost tables, AD values and election rules —
+but reading a card does not build the fluency an OSPF cost question wants.
+
+**What shipped: `public/mpsc-system-analyst/data/calc.js`** — 53 generators in
+11 groups. 32 are ported from the System Manager file, 21 are new:
+
+- **OSPF & EIGRP** (6, new) — OSPF cost from bandwidth (10^8 ÷ bw, truncated,
+  floored at 1), the EIGRP composite metric with default K-values, DR/BDR
+  election, the five area types by what each one blocks, the `network` statement's
+  wildcard, and AD comparison between two protocols offering the same prefix
+- **Spanning Tree Protocol** (4, new) — root bridge election, Root Port by
+  cumulative path cost, 802.1D states and timers, PortFast/BPDU Guard/RSTP
+- **IP routing & path selection** (3, new) — longest-prefix match against a real
+  four-entry table, default AD values, the default route
+- **VLANs & trunking** (3, new) — 802.1Q tagging and the native-VLAN exception,
+  native-VLAN mismatch, counting broadcast domains
+- **Network Address Translation** (3, new) — choosing the variant, reading a
+  translation table under PAT and static NAT, the inside/outside local/global grid
+- **Cisco IOS command modes** (2, new) — prompt-to-mode, and which command does what
+- plus the 32 ported: subnetting (12), IPv6 (3), number systems (6), DBMS (4),
+  Java traps (7)
+
+**Retagging was the substance of the port, not a find-and-replace.** The two
+syllabi genuinely differ and `conceptFor()` matches the full `paper|unit|sub`
+triple, so a stale tag silently breaks the "read the concept" link rather than
+erroring:
+
+- The leaf is `Sub-netting`, hyphenated — not `Subnetting`.
+- IPv6 is its own TECH1 Unit 1 leaf here, not folded into an `IPv4 and IPv6` leaf.
+- The System Manager's `IP Addressing` leaf does not exist. Address classes and
+  the RFC 1918 ranges both live inside the `Sub-netting` concept's own facts here,
+  so that is where those two generators point.
+- Number systems went to `Basic Computer System`, whose facts already carry
+  "1 byte = 8 bits; 1 KB = 1024 bytes". No derived concept was needed — unlike
+  the System Manager, which had to invent one.
+- The Java traps went to TECH1 Unit 4 `OOPS and Core Java`, a real leaf, rather
+  than the System Manager's three-leaf spread.
+- **Six generators were dropped**: first/best/worst fit, internal and external
+  fragmentation, page count, address splitting and cache EAT. This syllabus has
+  no operating-systems or computer-organisation unit, so they have no leaf to
+  hang from and would have been orphans. `address-lines` survived because the
+  `Basic Computer System` concept does teach the address bus.
+
+A check that every generator's triple resolves against **both** `syllabus.js`
+and `concepts.js` runs as part of the build notes; all 53 resolve.
+
+**Testing: 132,500 fuzzed items and 88,757 independently re-derived answers.**
+Two harnesses in `tools/system-analyst-build/`, reusing the pattern that caught
+four duplicate-option bugs in the System Manager build:
+
+- `calc-fuzz.mjs` — every generator over 2,500 seeds, asserting four *distinct*
+  options, an answer key that points at a real option, no leaked placeholders,
+  and at least three worked steps. Duplicate options are the headline check:
+  they mean two letters are correct and the item marks a right answer wrong.
+- `calc-verify.mjs` — parses each generated question's **text** and recomputes
+  the answer from scratch, sharing no code with `calc.js`. Its IPv4 arithmetic
+  works on decimal octet arrays where `calc.js` uses 32-bit ints; its IPv6
+  routines work on strings where `calc.js` uses arrays of numbers; expressions
+  go through a hand-written recursive-descent parser rather than JavaScript.
+
+**Honest result: the suites found two bugs, and both were in the tests.** Unlike
+the System Manager run, no generator was wrong — the new distractors were built
+distinct-by-construction from the start precisely because that run had already
+named the failure mode. What the suites did catch:
+
+- The fuzzer's placeholder detector flagged `exception-type` and `pass-semantics`
+  on ~1,300 seeds. Both were **real content**: one teaches that floating-point
+  division by zero yields `NaN`, the other offers Java's `null` as a distractor.
+  Fixed by making the check *stricter and explicit* — an allowlist naming which
+  generator may say `NaN` and why — rather than loosening the regex for everyone.
+- The verifier's own regexes were wrong twice: `[\d.]+` greedily swallowed a
+  sentence's full stop out of a NAT address, and the OSPF bandwidth pattern
+  missed `a T1 serial link (1544 kbps)` where the speed sits in parentheses.
+
+`calc-verify.mjs` covers **36 of 53** generators. The other 17 are lookup items —
+"which exception does this throw", "which OSPF area type is described" — whose
+answers are hand-authored facts, not arithmetic; re-deriving them would mean
+writing the same table twice and proving nothing. The tool prints them as
+`n/a — unverified` with a reason each, and **fails** if a generator has neither a
+verifier nor a declared reason, so the coverage gap cannot widen silently.
+
+**The Study pane had the same `derived`/`prov` gap the System Manager did.** It
+rendered neither the pill nor the provenance note. No System Analyst concept
+currently carries `derived: true`, so nothing is mis-presented today — but the
+gap was latent, and the first derived card added would have read as official by
+omission, which is the exact failure mode fixed twice already this week. Both
+lines are now in place.
+
+**Verified in the browser**, per the standing rule: dev server, the real route
+(`/mpsc-system-analyst/index.html`), all **53 generators driven through the
+actual drill UI** — four options rendered, a stem, a worked solution of at least
+three steps after answering. Console clean. The "read the concept" link was
+followed and lands on TECH1 Unit 1 `EIGRP and OSPF`, confirming the `sub`-as-id
+resolution ported correctly. One caveat: the screenshot tool timed out
+repeatedly in this environment, so the visual check is text-extraction and DOM
+assertions rather than an image.
+
+**What's still open:**
+
+- The 17 lookup-only generators are unverified by construction. A future pass
+  could cross-check their hand-authored facts against the concept cards' `facts`
+  arrays, which is where those claims already live — that would be a real check
+  rather than a duplicated table.
+- Calc Lab progress (`S.calc`) is per-generator and deliberately outside the
+  Leitner schedule, so a topic you are weak at in Calc Lab does not raise its
+  weight in Daily Test. Linking the two is the obvious next step.
+- `.claude/launch.json` briefly carried a second config on port 5273 so this
+  worktree could run alongside another session's server. It has been reverted;
+  if you hit "port 5173 in use" again, that is why.
+- The two `app.js` files and the two `calc.js` files remain a deliberate fork
+  (BUILD_GUIDE.md §4). Three ported bug-fix-shaped edits now have to be made
+  twice. Worth revisiting if a fourth appears.
+
+---
+
 ## 2026-08-29 (late) — The confidence badge was inverted on 309 questions, live. Fixed, ported to System Analyst, and both apps now lead with the syllabus
 
 **The bug: `provLine()` badged 309 derived answers as coming from an official

@@ -1,0 +1,171 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 11,
+ "questions": [
+  {
+   "id": "TECH3_2024-29",
+   "paper": "TECH3",
+   "unit": "10",
+   "sub": "Manage Communications: Inputs, Tools and Techniques, Outputs",
+   "question": "Communication between stakeholders, project teams, activity incharges etc will be managed in the —",
+   "options": {
+    "A": "Sustainability management",
+    "B": "Project human-resource management",
+    "C": "Project plan management",
+    "D": "Project communication management"
+   },
+   "answer": "D",
+   "explanation": "Coordinating the flow of information among stakeholders, project teams and activity in-charges is precisely the mandate of Project Communications Management, whose processes (Plan/Manage/Control Communications) exist to ensure the right information reaches the right people at the right time. 'Sustainability management' is not a PMBOK knowledge area at all; Project Human-Resource Management concerns staffing and motivation, not information flow; and 'project plan management' is not a defined knowledge area either. By definition and elimination, Project Communications Management is correct."
+  },
+  {
+   "id": "TECH3_2024-30",
+   "paper": "TECH3",
+   "unit": "10",
+   "sub": "Communication dimensions: formal/informal, written/verbal, vertical/horizontal",
+   "question": "________ communication is communication of team members, with different level of hierarchy in the organization, whereas ________ communication involves interaction with clients, vendors or public.",
+   "options": {
+    "A": "Unofficial, official",
+    "B": "Internal, external",
+    "C": "Bottom-up, top-down",
+    "D": "Oral, written"
+   },
+   "answer": "B",
+   "explanation": "PMBOK's communication dimensions include internal (within the project/organization, across hierarchy levels between team members and managers) and external (directed outward to clients, vendors, regulators, or the public). The sentence's two clauses map exactly onto this pair: hierarchy-level exchange inside the organization is internal, while dealing with clients/vendors/public is external. Bottom-up/top-down describes the direction of vertical communication and oral/written describes the medium — both are tempting distractors but they classify communication along a different axis than the one described here."
+  },
+  {
+   "id": "TECH3_2024-31",
+   "paper": "TECH3",
+   "unit": "10",
+   "sub": "Control Communications: Inputs, Tools and Techniques, Outputs",
+   "question": "The process of managing communications in the project lifetime to make sure there is proper communication amongst activities, teams and interdependent entities such as resources is done by —",
+   "options": {
+    "A": "Plan communication management",
+    "B": "Control communication management",
+    "C": "Communication reengineering management",
+    "D": "Informal communication management"
+   },
+   "answer": "B",
+   "explanation": "The description — continuously ensuring communication stays proper among activities, teams and dependent resources throughout the project — matches the ongoing monitoring role of Control Communications, which checks that information needs are actually being met and triggers corrective action if not. Plan Communications Management only sets up the approach at the very start of the project; 'communication reengineering' and 'informal communication management' are not recognized PMBOK processes. This question could also be read as describing the execution-phase 'Manage Communications' process, and the option wording is imprecise, so the choice should be treated cautiously."
+  },
+  {
+   "id": "TECH3_2024-32",
+   "paper": "TECH3",
+   "unit": "10",
+   "sub": "Communication methods: interactive, push, pull",
+   "question": "What type of communication method is suitable for very large volumes of information or large audiences where recipients access the information at their discretion?",
+   "options": {
+    "A": "Push communication",
+    "B": "Pull communication",
+    "C": "Interactive communication",
+    "D": "Static communication"
+   },
+   "answer": "B",
+   "explanation": "Pull communication is used for large volumes of information or large audiences, where material (intranet sites, e-learning, knowledge repositories, lessons-learned databases) is made available and recipients retrieve it whenever they choose. Push communication is sent directly to specific recipients who must actively be reached (emails, memos); interactive communication is a real-time exchange between two or more parties (meetings, calls); and 'static communication' is not a recognized PMBOK method. The discretionary-access, high-volume, large-audience description is the textbook definition of pull communication."
+  },
+  {
+   "id": "TECH3_2024-33",
+   "paper": "TECH3",
+   "unit": "10",
+   "sub": "Communication dimensions: formal/informal, written/verbal, vertical/horizontal",
+   "question": "Which of the following is NOT a dimension of communication in Project Communications Management?",
+   "options": {
+    "A": "Internal and external",
+    "B": "Vertical and horizontal",
+    "C": "Formal and informal",
+    "D": "Dynamic and static"
+   },
+   "answer": "D",
+   "explanation": "PMBOK recognizes internal/external, formal/informal, vertical/horizontal, and written/oral (and verbal/non-verbal) as the standard dimensions along which project communication is classified. 'Dynamic and static' is not one of these categories — it is a plausible-sounding but invented pairing, not a real PMBOK dimension — which is exactly why it is the correct 'NOT' answer while the other three are genuine, textbook-listed dimensions."
+  },
+  {
+   "id": "TECH3_2021-49",
+   "paper": "TECH3",
+   "unit": "10",
+   "sub": "Performance reporting",
+   "question": "What does a monitoring and evaluation framework include?",
+   "options": {
+    "A": "Objectives, assumptions, indicators and a summary of activities",
+    "B": "Objectives and indicators",
+    "C": "Goal and objectives",
+    "D": "Goal, objectives and indicators"
+   },
+   "answer": "A",
+   "explanation": "A monitoring and evaluation framework is generally built around objectives, the assumptions underlying them, measurable indicators, and a summary of planned activities -- the most complete of the four options; the shorter options (just objectives/indicators, or goal/objectives) omit necessary elements."
+  },
+  {
+   "id": "TECH3_2021-56",
+   "paper": "TECH3",
+   "unit": "10",
+   "sub": "Communication model: sender, encode, transmit, decode, receiver, feedback, noise",
+   "question": "What is the sequence of steps in a basic communication model?",
+   "options": {
+    "A": "Encode -> Decode -> Transmit -> Acknowledge -> Feedback",
+    "B": "Encode -> Transmit -> Decode -> Acknowledge -> Feedback",
+    "C": "Decode -> Encode -> Transmit -> Acknowledge -> Feedback",
+    "D": "Encode -> Transmit -> Decode -> Feedback -> Acknowledge"
+   },
+   "answer": "B",
+   "explanation": "The basic communication model runs: sender encodes the message, transmits it through a medium, the receiver decodes it, acknowledges receipt, and then provides feedback/response -- i.e. Encode, Transmit, Decode, Acknowledge, Feedback."
+  },
+  {
+   "id": "TECH3_2021-57",
+   "paper": "TECH3",
+   "unit": "10",
+   "sub": "Manage Communications: Inputs, Tools and Techniques, Outputs",
+   "question": "Along with the project communications management plan, work performance reports are vital inputs to the Manage Communications process. Where do these work performance reports come from?",
+   "options": {
+    "A": "Project integration management process",
+    "B": "All monitoring and controlling processes",
+    "C": "Plan Communications Management processes",
+    "D": "Organizational process assets"
+   },
+   "answer": "A",
+   "explanation": "PMBOK's ITTO explicitly makes Work Performance Reports an output of the Monitor and Control Project Work process, which belongs to Project Integration Management; work performance information (not reports) is what gets aggregated from the individual controlling processes."
+  },
+  {
+   "id": "TECH3_2021-58",
+   "paper": "TECH3",
+   "unit": "10",
+   "sub": "Communication dimensions: formal/informal, written/verbal, vertical/horizontal",
+   "question": "Arjun is managing a construction project. The project's client is responsible for the design, while Arjun's organization is responsible for the construction. There has been a delay in the design and this can only be recovered through crashing and will cost 100 lakhs in addition to the approved budget. Arjun prepares a detailed report and emails it to the client. In this scenario, Arjun's email to the client is an example of:",
+   "options": {
+    "A": "Informal unofficial communication",
+    "B": "Formal unofficial communication",
+    "C": "Informal official communication",
+    "D": "Formal official communication"
+   },
+   "answer": "D",
+   "explanation": "A detailed written report to the client documenting a major cost impact (100 lakh) from a schedule crash is a formal, official form of communication -- written, deliberate, and part of the project's documented record, not an informal or unofficial exchange."
+  },
+  {
+   "id": "TECH3_2021-59",
+   "paper": "TECH3",
+   "unit": "10",
+   "sub": "Communication dimensions: formal/informal, written/verbal, vertical/horizontal",
+   "question": "Most of the project manager's external communication comprises:",
+   "options": {
+    "A": "Written documents",
+    "B": "Oral communication",
+    "C": "Tactile contact",
+    "D": "Informal contact"
+   },
+   "answer": "A",
+   "explanation": "Communication with external parties (clients, vendors, regulators) tends to be formal and documented for accountability, so it is dominated by written documents, unlike internal communication which is often more verbal/informal."
+  },
+  {
+   "id": "TECH3_2021-60",
+   "paper": "TECH3",
+   "unit": "10",
+   "sub": "Plan Communications Management: Inputs, Tools and Techniques, Outputs",
+   "question": "The critical element in a project's communication system is the:",
+   "options": {
+    "A": "Progress report",
+    "B": "Project directive",
+    "C": "Project manager",
+    "D": "Customer"
+   },
+   "answer": "C",
+   "explanation": "The project manager is the hub through which all project communication is planned, filtered, and directed, making the PM the critical element of the communication system rather than any single report or directive."
+  }
+ ]
+}

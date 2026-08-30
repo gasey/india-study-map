@@ -1,0 +1,276 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 18,
+ "questions": [
+  {
+   "id": "TECH2_2024-52",
+   "paper": "TECH2",
+   "unit": "9",
+   "sub": "Business, data, application and technology architecture layers",
+   "question": "Which of the following may not be included in the components of enterprise architecture?",
+   "options": {
+    "A": "Business architecture",
+    "B": "Information architecture",
+    "C": "Technology architecture",
+    "D": "Application architecture"
+   },
+   "answer": "COMPENSATED",
+   "explanation": "Standard EA frameworks (TOGAF/Zachman, and this very syllabus's own wording 'Business, data, application and technology architecture layers') name the four architecture domains as Business, Data, Application and Technology — not 'Information' architecture. So among the four options, 'Information architecture' is the odd one out by strict terminology, even though in loose usage many treat 'information' and 'data' architecture as synonyms. This is a terminology trap rather than a conceptual test; the question is arguably defective since all four choices name plausible EA layers."
+  },
+  {
+   "id": "TECH2_2024-53",
+   "paper": "TECH2",
+   "unit": "9",
+   "sub": "Service Oriented Architecture principles",
+   "question": "Which type of architectural platform makes use of existing reusable services available in the internet/network to build applications?",
+   "options": {
+    "A": "Service Oriented Architecture",
+    "B": "Software Operating Procedure",
+    "C": "Standard Application Package",
+    "D": "Standard Layered Architecture"
+   },
+   "answer": "A",
+   "explanation": "Service Oriented Architecture (SOA) is defined precisely by building applications out of loosely-coupled, reusable, discoverable services exposed over a network (via SOAP/REST, WSDL, UDDI etc.), matching the question exactly. The other three options are invented terms with no standard meaning in enterprise-architecture literature; they exist only to distract a candidate who recognises 'reusable services' but has not studied the actual name of the pattern."
+  },
+  {
+   "id": "TECH2_2024-55",
+   "paper": "TECH2",
+   "unit": "9",
+   "sub": "What Enterprise Architecture is",
+   "question": "What is the primary goal of Enterprise Architecture (EA) in an organization?",
+   "options": {
+    "A": "To define the physical layout of the office buildings",
+    "B": "To develop mobile applications for the organization",
+    "C": "To enhance the organization's social media presence",
+    "D": "To align the organization's IT strategy with its business goals and improve overall efficiency"
+   },
+   "answer": "D",
+   "explanation": "Enterprise Architecture exists to bridge business strategy and IT capability — mapping business processes, data, applications and technology so that IT investment directly serves organisational goals and removes duplication/inefficiency. Options A, B and C describe narrow operational activities (facilities, app development, social media) that are never the 'primary goal' of EA; they are, at best, small downstream artefacts that might be informed by an EA effort, not its purpose."
+  },
+  {
+   "id": "TECH2_2021-55",
+   "paper": "TECH2",
+   "unit": "9",
+   "sub": "What Enterprise Architecture is",
+   "question": "What do all enterprise architecture models have in common?",
+   "options": {
+    "A": "Nothing, they are all unique",
+    "B": "They are all optimized for mobile",
+    "C": "There is an explicit transition from business to IT",
+    "D": "IT always dictates business needs"
+   },
+   "answer": "C",
+   "explanation": "Every enterprise architecture framework, whatever its notation, moves explicitly from the business layer (goals, processes, information) down to the technology layer, so the business-to-IT transition is the shared element. IT dictating business needs inverts the whole premise of enterprise architecture."
+  },
+  {
+   "id": "TECH2_2021-56",
+   "paper": "TECH2",
+   "unit": "9",
+   "sub": "What Enterprise Architecture is",
+   "question": "What would happen if different organization were given same set of requirements?",
+   "options": {
+    "A": "It will produce same architecture",
+    "B": "It will produce different architecture",
+    "C": "It may or may not produce same architecture",
+    "D": "It will not hamper anything"
+   },
+   "answer": "B",
+   "explanation": "Architecture is a design choice, not a mechanical derivation, so the same requirement set handed to different organisations yields different architectures shaped by their skills, constraints and preferences. Option C hedges the same point but the standard textbook statement is the definite one."
+  },
+  {
+   "id": "TECH2_2021-57",
+   "paper": "TECH2",
+   "unit": "9",
+   "sub": "Service Oriented Architecture principles",
+   "question": "Which of the following describes a message-passing taxonomy for a component-based architecture that provides services to clients upon demand?",
+   "options": {
+    "A": "SOA",
+    "B": "EBS",
+    "C": "GEC",
+    "D": "All of the mentioned"
+   },
+   "answer": "A",
+   "explanation": "Service Oriented Architecture is defined as a component-based architecture in which loosely coupled services communicate by message passing and are consumed by clients on demand. EBS and GEC are not architectural taxonomies of this kind."
+  },
+  {
+   "id": "GEN-TECH2-U9-214",
+   "paper": "TECH2",
+   "unit": "9",
+   "sub": "EA frameworks (Zachman, TOGAF)",
+   "question": "What is the primary purpose of an enterprise architecture framework such as TOGAF in a large government department?",
+   "options": {
+    "A": "To provide a structured method and common vocabulary for describing and evolving the organisation's business processes, data, applications and technology as one coherent whole",
+    "B": "To provide a programming language in which departmental applications must be written",
+    "C": "To serve as a project management methodology replacing the departmental tender process",
+    "D": "To act as a database engine for storing departmental records"
+   },
+   "answer": "A",
+   "explanation": "An EA framework supplies the viewpoints, method and shared terminology that let an organisation describe its current state, define a target state and plan the transition across all layers together, so that individual projects stop optimising in isolation. It is deliberately technology-neutral and prescribes no language or product."
+  },
+  {
+   "id": "GEN-TECH2-U9-215",
+   "paper": "TECH2",
+   "unit": "9",
+   "sub": "EA frameworks (Zachman, TOGAF)",
+   "question": "The Zachman Framework is best described as which of the following?",
+   "options": {
+    "A": "A step-by-step development lifecycle for building software",
+    "B": "A classification schema that organises architecture descriptions as a matrix of stakeholder perspectives against the questions what, how, where, who, when and why",
+    "C": "A security control catalogue for government networks",
+    "D": "A protocol for exchanging data between two web services"
+   },
+   "answer": "B",
+   "explanation": "Zachman is an ontology or classification schema: rows are perspectives from the planner down to the implementer, columns are the interrogatives, and each cell holds a distinct architectural artefact. It deliberately does not prescribe a process, which is the main way it differs from a method-oriented framework like TOGAF."
+  },
+  {
+   "id": "GEN-TECH2-U9-216",
+   "paper": "TECH2",
+   "unit": "9",
+   "sub": "India Enterprise Architecture (IndEA) framework",
+   "question": "What problem in Indian e-governance is the India Enterprise Architecture (IndEA) framework primarily intended to address?",
+   "options": {
+    "A": "The shortage of fibre-optic backbone capacity between districts",
+    "B": "The absence of a national programming standard for mobile applications",
+    "C": "The proliferation of departmental systems built in isolation, which cannot share data or present a unified view of services to the citizen",
+    "D": "The high cost of procuring desktop hardware for government offices"
+   },
+   "answer": "C",
+   "explanation": "IndEA offers government entities a common enterprise architecture reference so that separately built departmental systems align on business, data, application, technology and security views and can therefore interoperate and deliver integrated services. Bandwidth and hardware procurement are infrastructure matters that an architecture framework does not solve."
+  },
+  {
+   "id": "GEN-TECH2-U9-217",
+   "paper": "TECH2",
+   "unit": "9",
+   "sub": "India Enterprise Architecture (IndEA) framework",
+   "question": "An enterprise architecture for a state government is usually described in several layers. Which set of layers reflects that standard structure?",
+   "options": {
+    "A": "Presentation, session, transport and network layers",
+    "B": "Business, data, application and technology layers",
+    "C": "Development, testing, staging and production layers",
+    "D": "Strategic, tactical, operational and clerical layers"
+   },
+   "answer": "B",
+   "explanation": "Enterprise architecture is conventionally decomposed into a business layer of functions and processes, a data layer of information entities, an application layer of the systems that support them, and a technology layer of the infrastructure beneath, with security and governance running across all of them. The presentation-to-network list belongs to the OSI communication model, not to EA."
+  },
+  {
+   "id": "GEN-TECH2-U9-218",
+   "paper": "TECH2",
+   "unit": "9",
+   "sub": "Services, loose coupling, reusability, discoverability",
+   "question": "In service-oriented architecture, what does it mean to say that two services are 'loosely coupled'?",
+   "options": {
+    "A": "They must be deployed on the same physical server to communicate",
+    "B": "They exchange data only once a day in a batch file",
+    "C": "They share a common database schema so that either can read the other's tables directly",
+    "D": "Each interacts with the other only through a published interface, so the internal implementation of one can change without forcing a change in the other"
+   },
+   "answer": "D",
+   "explanation": "Loose coupling means the dependency is on the contract, not on the internals, so a service can be rewritten, re-platformed or relocated as long as it keeps honouring its interface. Sharing a database schema is the classic tight coupling that SOA is trying to eliminate, because a table change then breaks every consumer."
+  },
+  {
+   "id": "GEN-TECH2-U9-219",
+   "paper": "TECH2",
+   "unit": "9",
+   "sub": "Services, loose coupling, reusability, discoverability",
+   "question": "A state builds a single citizen-verification service that the transport, revenue and social welfare departments all call instead of each writing its own. Which SOA principle does this best illustrate, and what is its main benefit?",
+   "options": {
+    "A": "Reusability — one authoritative implementation is maintained and improved once, and every consuming department inherits the correction",
+    "B": "Redundancy — three independent copies of the logic reduce the risk of failure",
+    "C": "Encryption — routing all calls through one service makes the data confidential by default",
+    "D": "Normalisation — the citizen data is decomposed into third normal form"
+   },
+   "answer": "A",
+   "explanation": "A reusable service concentrates a common capability in one place, so a rule change or defect fix is applied once and propagates to every consumer, and the departments avoid three divergent implementations of the same logic. Confidentiality still depends on separately applied transport and access controls, not on centralisation itself."
+  },
+  {
+   "id": "GEN-TECH2-U9-220",
+   "paper": "TECH2",
+   "unit": "9",
+   "sub": "Web services, SOAP, REST, WSDL, UDDI",
+   "question": "What information does a WSDL document provide about a web service?",
+   "options": {
+    "A": "The physical location of the servers on which the service is hosted",
+    "B": "A machine-readable description of the operations the service offers, their input and output message formats, and the endpoint at which it is reachable",
+    "C": "The commercial licensing terms under which the service may be consumed",
+    "D": "The performance benchmark results measured for the service"
+   },
+   "answer": "B",
+   "explanation": "WSDL is the interface contract of a web service, describing operations, message types, bindings and the address to invoke, so that client code can be generated against it. It says nothing about licensing or measured performance, which are governance concerns kept outside the technical contract."
+  },
+  {
+   "id": "GEN-TECH2-U9-221",
+   "paper": "TECH2",
+   "unit": "9",
+   "sub": "Web services, SOAP, REST, WSDL, UDDI",
+   "question": "Which statement correctly distinguishes REST from SOAP?",
+   "options": {
+    "A": "REST can only be used inside a single organisation, whereas SOAP works across organisations",
+    "B": "REST requires a WSDL contract, whereas SOAP does not use any interface description",
+    "C": "REST is an architectural style that operates on resources identified by URIs using standard HTTP methods, while SOAP is a protocol that exchanges XML envelopes with its own messaging rules",
+    "D": "REST guarantees message delivery, whereas SOAP is inherently unreliable"
+   },
+   "answer": "C",
+   "explanation": "REST is a style built on HTTP semantics, addressing resources by URI and using the HTTP verbs, typically with JSON or XML payloads; SOAP is a formal protocol defining an XML envelope and a family of extensions for security, addressing and reliability. Neither is confined to one organisation, and it is SOAP rather than REST that is normally paired with a WSDL contract."
+  },
+  {
+   "id": "GEN-TECH2-U9-222",
+   "paper": "TECH2",
+   "unit": "9",
+   "sub": "Middleware, ESB and interoperability",
+   "question": "What is the principal role of an enterprise service bus in a government system landscape?",
+   "options": {
+    "A": "To store the master copy of all departmental data in a single database",
+    "B": "To act as a shared integration backbone that routes, transforms and mediates messages between applications, so each system connects to the bus rather than point-to-point with every other system",
+    "C": "To replace the departmental local area network with a wide area network",
+    "D": "To generate the user interface screens of each participating application"
+   },
+   "answer": "B",
+   "explanation": "An ESB removes the combinatorial explosion of point-to-point interfaces by giving every application one connection to a common bus that handles routing, protocol bridging and message transformation. It is an integration layer, not a consolidated data store and not a network replacement."
+  },
+  {
+   "id": "GEN-TECH2-U9-223",
+   "paper": "TECH2",
+   "unit": "9",
+   "sub": "Middleware, ESB and interoperability",
+   "question": "In the context of inter-departmental government systems, interoperability is best defined as which of the following?",
+   "options": {
+    "A": "The ability of two or more systems to exchange information and to use the information that has been exchanged, in a meaningful way",
+    "B": "The ability of a system to continue running after a hardware failure",
+    "C": "The ability of a system to serve an increasing number of users without degradation",
+    "D": "The ability of a system to be operated by users who have received no training"
+   },
+   "answer": "A",
+   "explanation": "Interoperability has two halves: the exchange must be technically possible and the receiving system must be able to interpret and act on what it receives, which is why it needs agreed data as well as agreed protocols. Surviving a hardware failure is availability and serving more users is scalability — different quality attributes altogether."
+  },
+  {
+   "id": "GEN-TECH2-U9-224",
+   "paper": "TECH2",
+   "unit": "9",
+   "sub": "Open standards and e-Governance Standards (MSDG)",
+   "question": "Why does a government prefer open standards over a vendor's proprietary format when specifying an e-governance system?",
+   "options": {
+    "A": "Open standards are always technically superior to proprietary alternatives",
+    "B": "Open standards make the software free of cost",
+    "C": "Publicly available specifications that any supplier can implement avoid dependence on a single vendor and keep long-lived public records readable in the future",
+    "D": "Open standards remove the need to test interoperability between systems"
+   },
+   "answer": "C",
+   "explanation": "The case for open standards rests on avoiding lock-in and preserving long-term access to public records, because any supplier can implement a published specification and data does not become hostage to one product. An open standard says nothing about price and does not remove the need for conformance testing."
+  },
+  {
+   "id": "GEN-TECH2-U9-225",
+   "paper": "TECH2",
+   "unit": "9",
+   "sub": "Open standards and e-Governance Standards (MSDG)",
+   "question": "Government e-governance standards prescribe common metadata, data elements and interoperability specifications across departments. What is their main intended effect?",
+   "options": {
+    "A": "That data captured by one department can be understood and reused by another without bespoke translation for each pair of systems",
+    "B": "That every department is required to buy hardware from the same supplier",
+    "C": "That departmental applications are all written by the same development agency",
+    "D": "That citizens are charged a uniform fee for every online service"
+   },
+   "answer": "A",
+   "explanation": "Common metadata and data element standards give shared meaning and format to information that crosses departmental boundaries, which is what makes integrated, single-window service delivery feasible. They constrain how data is described, not who builds the system or what hardware is bought."
+  }
+ ]
+}

@@ -1,0 +1,351 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 23,
+ "questions": [
+  {
+   "id": "TECH2_2024-1",
+   "paper": "TECH2",
+   "unit": "1",
+   "sub": "Defining Good Governance",
+   "question": "Which of the following is/are regarded as the properties of good governance?\ni. Accountability\nii. Transparency\niii. Consensus",
+   "options": {
+    "A": "i only",
+    "B": "i and ii only",
+    "C": "ii and iii only",
+    "D": "i, ii and iii"
+   },
+   "answer": "D",
+   "explanation": "Good governance, per UN/World Bank frameworks, has core characteristics including accountability (officials answerable for actions), transparency (open, accessible information), and consensus-orientation (mediating differing interests to reach broad agreement). All three listed items are recognized properties, so no single item or pair captures the full set. Options A-C each omit at least one valid characteristic, making them incomplete; only D, which includes all three, correctly reflects that governance frameworks list these together as core, complementary attributes rather than alternatives."
+  },
+  {
+   "id": "TECH2_2024-2",
+   "paper": "TECH2",
+   "unit": "1",
+   "sub": "Citizen Centric Administration",
+   "question": "Government services such as obtaining driving license, property registration etc which are directly utilized by the people are collectively termed as —",
+   "options": {
+    "A": "B2C services",
+    "B": "Citizen Common Services",
+    "C": "Citizen Centric Services",
+    "D": "Citizen Prioritized Services"
+   },
+   "answer": "C",
+   "explanation": "Services like driving licenses and property registration are consumed directly by ordinary people rather than routed through intermediaries, so administration built around them is called Citizen Centric Services — the delivery model that puts the citizen's convenience at the center. B2C is a private-sector marketing term, not a government service classification; Citizen Common Services and Citizen Prioritized Services are plausible-sounding distractors, not the standard term used in e-governance literature, which consistently uses 'citizen-centric' for direct-to-public services."
+  },
+  {
+   "id": "TECH2_2024-3",
+   "paper": "TECH2",
+   "unit": "1",
+   "sub": "Service delivery, time taken to deliver service, cost of getting service, customer experience, complexity, transparency",
+   "question": "Which of the following could be a trade-off and challenge when services are to be provided to people?",
+   "options": {
+    "A": "Consensus vs Transparency",
+    "B": "Accountability vs Moral reform",
+    "C": "Responsiveness and inclusiveness",
+    "D": "Ease of getting service vs Security"
+   },
+   "answer": "D",
+   "explanation": "In service delivery, making a service very easy and fast to obtain (minimal documentation, self-service, remote access) often weakens the verification/authentication safeguards that protect against fraud and misuse, so simplicity/ease trades off against security — a genuine dilemma governments face when digitizing services. The other pairs are not established trade-offs: consensus and transparency reinforce each other, accountability and moral reform are unrelated concepts, and responsiveness/inclusiveness are complementary goals, not competing ones."
+  },
+  {
+   "id": "TECH2_2024-4",
+   "paper": "TECH2",
+   "unit": "1",
+   "sub": "Defining Good Governance",
+   "question": "In good governance, what does the term \"responsiveness\" refer to?",
+   "options": {
+    "A": "The ability of government to respond to the needs and preferences of the public in a timely and effective manner.",
+    "B": "The speed at which laws are enacted and enforced.",
+    "C": "The level of government control over private enterprises.",
+    "D": "The degree of government surveillance and regulation."
+   },
+   "answer": "A",
+   "explanation": "Responsiveness in good governance specifically means institutions and processes serve all stakeholders within a reasonable timeframe, adapting to genuine public needs. Option A captures this precisely. B confuses responsiveness with legislative speed, C with government's regulatory reach, and D with surveillance — none of which relate to serving citizen needs promptly; they describe unrelated aspects of state power rather than the citizen-facing quality that responsiveness denotes."
+  },
+  {
+   "id": "TECH2_2024-5",
+   "paper": "TECH2",
+   "unit": "1",
+   "sub": "Need for Governance Reform and Citizen Charter - basic concept, origin and principles",
+   "question": "Which of the following is a key principle of a Citizen Charter?",
+   "options": {
+    "A": "Secrecy",
+    "B": "Exclusivity",
+    "C": "Centralization",
+    "D": "Accountability"
+   },
+   "answer": "D",
+   "explanation": "Citizen Charters are built on principles such as accountability, transparency, participation, and standard-setting so that citizens know what service quality to expect and who is answerable if it fails. Accountability is explicitly one of these founding principles. Secrecy, exclusivity, and centralization are the opposite of what a Charter promotes — Charters exist precisely to open up service delivery, make it accessible, and decentralize responsiveness to the citizen, so these three options contradict the very purpose of the instrument."
+  },
+  {
+   "id": "TECH2_2024-64",
+   "paper": "TECH2",
+   "unit": "1",
+   "sub": "Citizen Centric Administration",
+   "question": "Policy makers and people's representatives should maintain one of the following decreasing lists of priorities when reviewing status of e-Governance is concerned —",
+   "options": {
+    "A": "Department, Resources, Recruitment",
+    "B": "Financial, Manpower, Infrastructures",
+    "C": "Technical position, financial position, current status",
+    "D": "Citizen, Services, Implementation"
+   },
+   "answer": "D",
+   "explanation": "The citizen-centric philosophy underlying e-Governance (emphasised throughout Unit 1 of this syllabus) holds that the citizen's needs must be the first priority, then the services designed to meet them, and only then the technical/implementation detail of delivering those services — i.e., Citizen > Services > Implementation. The other option sets list internal administrative concerns (department, finance, manpower) that a citizen-centric reform is meant to subordinate, not lead with."
+  },
+  {
+   "id": "TECH2_2021-1",
+   "paper": "TECH2",
+   "unit": "1",
+   "sub": "Citizen Centric Administration",
+   "question": "_________ is/are at the core of good governance.",
+   "options": {
+    "A": "Citizens",
+    "B": "Efficiency",
+    "C": "Organization",
+    "D": "Administrative Reforms Commission"
+   },
+   "answer": "A",
+   "explanation": "Good governance is defined as citizen-centric: the citizen is the customer and ultimate stakeholder whose service experience measures whether governance is good. Efficiency and organisation are means, and the ARC is merely a reform body, not the core."
+  },
+  {
+   "id": "TECH2_2021-2",
+   "paper": "TECH2",
+   "unit": "1",
+   "sub": "Charter criteria",
+   "question": "Statement 1 : Citizens charter shall be non-discriminatory\nStatement 2 : Citizens charter describe or refer to complaint handling process",
+   "options": {
+    "A": "Both statements are false",
+    "B": "Statement 1 is true and Statement 2 is false",
+    "C": "Statement 1 is false and Statement 2 is true",
+    "D": "Both statements are true"
+   },
+   "answer": "D",
+   "explanation": "A Citizens' Charter must be non-discriminatory (equal service standards for all users) and must set out the grievance/complaint redress mechanism, both being standard mandatory components. Both statements are therefore true."
+  },
+  {
+   "id": "TECH2_2021-4",
+   "paper": "TECH2",
+   "unit": "1",
+   "sub": "Defining Good Governance",
+   "question": "The followings describe the property of good governance:\ni) Transparency\nii) Democracy\niii) Responsiveness\niv) Accountability",
+   "options": {
+    "A": "i) and ii)",
+    "B": "i) and iii)",
+    "C": "i), iii) and iv)",
+    "D": "All of the above"
+   },
+   "answer": "C",
+   "explanation": "The standard UNDP/UN-ESCAP attributes of good governance include transparency, responsiveness and accountability (with participation, rule of law, equity, consensus and effectiveness). Democracy is a form of political system, not itself listed as a property of good governance, so 'All of the above' is the trap."
+  },
+  {
+   "id": "GEN-TECH2-U1-001",
+   "paper": "TECH2",
+   "unit": "1",
+   "sub": "Introduction to Government and Governance",
+   "question": "Which statement best captures the distinction between 'government' and 'governance'?",
+   "options": {
+    "A": "Governance is the formal legal term for government, used in written constitutions",
+    "B": "Government is the institutional machinery of the state, while governance is the wider process of exercising authority, involving the state, the market and civil society",
+    "C": "Government operates at the national level while governance operates only at the local level",
+    "D": "Government refers to the permanent civil service while governance refers to the elected legislature"
+   },
+   "answer": "B",
+   "explanation": "Governance is the broader concept: it describes how decisions are taken and authority exercised across state, market and civil-society actors, whereas government is one actor within that process, namely the formal apparatus of the state. Government is not merely the permanent civil service, which is administration."
+  },
+  {
+   "id": "GEN-TECH2-U1-002",
+   "paper": "TECH2",
+   "unit": "1",
+   "sub": "Introduction to Government and Governance",
+   "question": "An application that lets a state treasury exchange payment and budget data directly with a line department's accounting system belongs to which e-governance service domain?",
+   "options": {
+    "A": "G2C",
+    "B": "G2B",
+    "C": "G2G",
+    "D": "G2E"
+   },
+   "answer": "C",
+   "explanation": "G2G covers information and service exchange between government agencies or between tiers of government, which is exactly what treasury-to-department data exchange is. G2E is reserved for services government delivers to its own employees, such as payroll, leave or pension records."
+  },
+  {
+   "id": "GEN-TECH2-U1-003",
+   "paper": "TECH2",
+   "unit": "1",
+   "sub": "Introduction to Governance - self-preservation, supervision and resolution of conflicts, socio-economic development, regulation of the economy, provision of goods and services",
+   "question": "Among the classical functions of governance, 'self-preservation' refers principally to the state's task of",
+   "options": {
+    "A": "delivering welfare entitlements to vulnerable groups",
+    "B": "raising revenue through the taxation of economic activity",
+    "C": "correcting market failure through economic regulation",
+    "D": "maintaining its own existence, internal order and security against internal and external threats"
+   },
+   "answer": "D",
+   "explanation": "Self-preservation is the most basic function of the state: defending its territory, sovereignty and internal order so that every other function remains possible at all. Welfare delivery and market correction belong to the separate functions of socio-economic development and regulation of the economy."
+  },
+  {
+   "id": "GEN-TECH2-U1-004",
+   "paper": "TECH2",
+   "unit": "1",
+   "sub": "Introduction to Governance - self-preservation, supervision and resolution of conflicts, socio-economic development, regulation of the economy, provision of goods and services",
+   "question": "Government provides goods such as street lighting and public health surveillance directly, rather than leaving them to the market, mainly because such goods are",
+   "options": {
+    "A": "profitable enough to attract private investment without any subsidy",
+    "B": "non-excludable and non-rival, so private markets under-supply them",
+    "C": "consumed only by government employees in the course of official duty",
+    "D": "barred from private ownership by the Constitution"
+   },
+   "answer": "B",
+   "explanation": "Public goods are non-excludable, meaning no one who declines to pay can be kept from benefiting, and non-rival, meaning one person's use does not reduce another's, so no private firm can charge adequately for them and they are under-supplied. Constitutional prohibition of private ownership is not the reason and generally does not apply."
+  },
+  {
+   "id": "GEN-TECH2-U1-005",
+   "paper": "TECH2",
+   "unit": "1",
+   "sub": "Perception about Governance in India",
+   "question": "Why is citizen perception of governance treated as a measure distinct from a department's own service-delivery statistics?",
+   "options": {
+    "A": "Perception data may be collected only by international agencies, never by governments themselves",
+    "B": "Perception findings are legally binding on administrators whereas statistics are advisory",
+    "C": "A service can perform well on output counts and still be experienced by its users as inaccessible, opaque or unresponsive",
+    "D": "Perception surveys invariably return more favourable results than statistical measures"
+   },
+   "answer": "C",
+   "explanation": "Perception captures the citizen's experience of the interface itself, including waiting, official discretion, opacity and the need to follow up, none of which is visible in an output count such as 'applications processed'. Governance assessment therefore uses both, instead of treating throughput data as sufficient evidence of good service."
+  },
+  {
+   "id": "GEN-TECH2-U1-006",
+   "paper": "TECH2",
+   "unit": "1",
+   "sub": "Perception about Governance in India",
+   "question": "In discussions of governance in India, the term 'red tape' describes",
+   "options": {
+    "A": "excessive procedural formality and documentation that delays a decision without adding value",
+    "B": "the illegal demand for a payment to complete a routine public service",
+    "C": "the practice of opening government files to public inspection",
+    "D": "the transfer of a public service from a department to a private operator"
+   },
+   "answer": "A",
+   "explanation": "Red tape is procedural excess, that is rules, forms and sign-offs retained beyond any purpose they still serve, and it is analytically distinct from corruption, which is the illegal extraction of payment. The two often coexist because delay creates the opportunity for rent, but they are different problems needing different remedies."
+  },
+  {
+   "id": "GEN-TECH2-U1-007",
+   "paper": "TECH2",
+   "unit": "1",
+   "sub": "Necessary pre-conditions for Good Governance",
+   "question": "Which pair of good-governance attributes corresponds to 'decisions and the basis for them are open to public scrutiny' and 'decision-makers must answer for their decisions to an identifiable authority'?",
+   "options": {
+    "A": "Equity and inclusiveness",
+    "B": "Responsiveness and effectiveness",
+    "C": "Participation and consensus orientation",
+    "D": "Transparency and accountability"
+   },
+   "answer": "D",
+   "explanation": "Transparency is the openness of information and of the reasoning behind a decision, while accountability is answerability for that decision to a defined authority or to the public. Responsiveness concerns how promptly institutions serve stakeholders, which is a different attribute from who must answer for the outcome."
+  },
+  {
+   "id": "GEN-TECH2-U1-008",
+   "paper": "TECH2",
+   "unit": "1",
+   "sub": "Necessary pre-conditions for Good Governance",
+   "question": "The good-governance pre-condition described as 'rule of law' requires above all that",
+   "options": {
+    "A": "every citizen receives an identical level of every public service",
+    "B": "laws are fair, publicly known and impartially enforced by an independent judiciary, with officials themselves subject to them",
+    "C": "the executive can amend legislation quickly in response to public demand",
+    "D": "administrative decisions are taken by consensus among all affected stakeholders"
+   },
+   "answer": "B",
+   "explanation": "Rule of law means a known and fair legal framework, impartially enforced, under which office-holders are as bound as citizens and disputes are settled by an independent judiciary. Consensus among stakeholders is the separate attribute of consensus orientation and is no substitute for legality."
+  },
+  {
+   "id": "GEN-TECH2-U1-009",
+   "paper": "TECH2",
+   "unit": "1",
+   "sub": "Problems faced in implementing the charters",
+   "question": "Which of the following is the most frequently cited reason that Citizen's Charters in India fail to change actual service delivery?",
+   "options": {
+    "A": "Charters are drafted centrally as a formality, without consulting the frontline staff who must meet the standards, so no one owns them",
+    "B": "Charters become legally unenforceable in any state that enacts a service-guarantee law",
+    "C": "Charters may not lawfully be published in more than one language",
+    "D": "Charters must be revised every month, a burden no department can sustain"
+   },
+   "answer": "A",
+   "explanation": "Charters typically fail as one-off, top-down drafting exercises: standards are announced without the staff, process change or resources needed to meet them, and are then neither monitored nor revised, so the document has no operational effect. Service-guarantee legislation works the other way, adding enforceability where it exists rather than removing it."
+  },
+  {
+   "id": "GEN-TECH2-U1-010",
+   "paper": "TECH2",
+   "unit": "1",
+   "sub": "Problems faced in implementing the charters",
+   "question": "Which weakness in a Citizen's Charter most directly makes it impossible to hold a department to the charter?",
+   "options": {
+    "A": "Publishing the charter on the department's website rather than on an office notice board",
+    "B": "Covering the services of several related departments in one combined charter",
+    "C": "Stating commitments in vague terms such as 'prompt service' instead of as measurable time limits",
+    "D": "Listing the documents an applicant is required to submit"
+   },
+   "answer": "C",
+   "explanation": "A commitment that cannot be measured can never be shown to have been breached, which defeats the charter's central purpose of setting an auditable standard. Listing required documents or choosing a publication channel are ordinary charter design decisions, not defects that destroy enforceability."
+  },
+  {
+   "id": "GEN-TECH2-U1-011",
+   "paper": "TECH2",
+   "unit": "1",
+   "sub": "Rationale of Citizen's Charter",
+   "question": "The core rationale of a Citizen's Charter is to",
+   "options": {
+    "A": "create a statutory right to monetary compensation for every delayed service",
+    "B": "declare publicly the standard of service a citizen may expect, shifting the relationship from favour to entitlement",
+    "C": "record the internal file-movement rules of a department for audit purposes",
+    "D": "publish the qualifications and seniority of the officers posted in the department"
+   },
+   "answer": "B",
+   "explanation": "A charter's purpose is to make the department's promise explicit and public, namely which service, to what standard and within what time, converting an opaque discretionary transaction into a stated entitlement the citizen can invoke. Charters are ordinarily non-justiciable declarations and do not by themselves create a right to compensation."
+  },
+  {
+   "id": "GEN-TECH2-U1-012",
+   "paper": "TECH2",
+   "unit": "1",
+   "sub": "Rationale of Citizen's Charter",
+   "question": "Which element is essential to a Citizen's Charter and distinguishes it from an ordinary departmental information brochure?",
+   "options": {
+    "A": "An account of the department's history and its organisational chart",
+    "B": "A map showing the location of the department's offices",
+    "C": "A list of the schemes the department administers",
+    "D": "A stated time limit for each service together with the grievance-redress route if that limit is missed"
+   },
+   "answer": "D",
+   "explanation": "The defining content of a charter is a measurable service standard coupled with a remedy when the standard is missed; without both it is merely an information document. Office locations and scheme lists are useful to citizens but commit the department to nothing."
+  },
+  {
+   "id": "GEN-TECH2-U1-013",
+   "paper": "TECH2",
+   "unit": "1",
+   "sub": "Designing and implementing effective complaints handling systems",
+   "question": "In a well-designed public grievance-handling system, the principle of 'closing the loop' means that",
+   "options": {
+    "A": "the complainant is told the outcome and the case is closed only after that communication, not when the file is marked disposed internally",
+    "B": "every grievance is escalated to the head of the department before it can be disposed of",
+    "C": "the grievance register is closed at the end of each financial year and reopened afresh",
+    "D": "the complainant must lodge the grievance again if no reply arrives within a month"
+   },
+   "answer": "A",
+   "explanation": "Closing the loop means the citizen learns what was done and why, so that 'disposal' records a resolved grievance rather than a cleared queue; a system measured only on internal disposal counts produces closure without redress. Escalating every case to the department head would simply overload the top of the hierarchy without improving resolution."
+  },
+  {
+   "id": "GEN-TECH2-U1-014",
+   "paper": "TECH2",
+   "unit": "1",
+   "sub": "Designing and implementing effective complaints handling systems",
+   "question": "Beyond settling individual cases, the most valuable output of a well-designed complaints-handling system for a government department is",
+   "options": {
+    "A": "a ranking of officers by the number of complaints recorded against them",
+    "B": "evidence supporting a reduction in the department's public-facing staff",
+    "C": "analysis of recurring complaint categories that identifies the process defect generating them",
+    "D": "a monthly count of grievances received and grievances disposed"
+   },
+   "answer": "C",
+   "explanation": "Grievance data is diagnostic: clustering complaints by cause exposes the rule or process step that keeps producing them, so the correction is systemic rather than case-by-case. Receipt-and-disposal counts measure workload only and say nothing about whether the underlying defect was ever removed."
+  }
+ ]
+}

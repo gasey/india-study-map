@@ -1,0 +1,141 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 9,
+ "questions": [
+  {
+   "id": "TECH3_2024-19",
+   "paper": "TECH3",
+   "unit": "8",
+   "sub": "Control Quality: Inputs, Tools and Techniques, Outputs",
+   "question": "Which one of the following may least likely be a phase in quality management?",
+   "options": {
+    "A": "Quality planning",
+    "B": "Quality assurance",
+    "C": "Quality control",
+    "D": "Quality testing"
+   },
+   "answer": "D",
+   "explanation": "PMBOK defines exactly three Quality Management processes: Plan Quality Management, Perform Quality Assurance, and Control Quality - options A, B and C map directly onto these. 'Quality testing' is not a distinct PMBOK phase; testing activities are actually carried out as part of the Control Quality process (inspection, verification) rather than being named as a separate top-level phase, making it the correct 'least likely' answer."
+  },
+  {
+   "id": "TECH3_2024-20",
+   "paper": "TECH3",
+   "unit": "8",
+   "sub": "Cost of quality: prevention, appraisal, internal and external failure",
+   "question": "Consider the following statements:\nI. Too much stress on quality makes inefficient operation\nII. Negligence on quality makes inefficient operation\nIII. There should be balance in stressing on quality of a project\nIV. There is no 'too much' stress on quality, more is always better\n\nWhich of the statements are correct?",
+   "options": {
+    "A": "I and II are correct",
+    "B": "II and III are correct",
+    "C": "I, II and III are correct",
+    "D": "All are correct"
+   },
+   "answer": "C",
+   "explanation": "Quality management recognizes diminishing and even negative returns: over-investing in quality (gold-plating, excessive inspection) wastes resources and slows delivery (I), while neglecting quality causes rework and failures (II) - both make operations inefficient, so the sensible position is a balanced approach (III). Statement IV directly contradicts both I and III by claiming 'more quality is always better' with no ceiling, so it cannot be correct alongside them, ruling out option D (all correct) and leaving C as the consistent set."
+  },
+  {
+   "id": "TECH3_2024-21",
+   "paper": "TECH3",
+   "unit": "8",
+   "sub": "Perform Quality Assurance: Inputs, Tools and Techniques, Outputs",
+   "question": "A process in quality management wherein certain steps will be taken to ensure the quality of product and follow correct track during the development or execution of the project is done in the phase —",
+   "options": {
+    "A": "Quality control",
+    "B": "Quality assurance",
+    "C": "Quality description",
+    "D": "Customer satisfaction survey"
+   },
+   "answer": "A",
+   "explanation": "Quality Assurance is the proactive, process-focused activity of confirming that the project is using the correct quality standards, procedures and processes throughout development and execution ('following correct track'), as opposed to Quality Control, which is the reactive inspection of completed deliverables/outputs against requirements. 'Quality description' is not a recognized PMBOK term, and a customer satisfaction survey is just one possible input/tool, not the overarching phase being described."
+  },
+  {
+   "id": "TECH3_2024-22",
+   "paper": "TECH3",
+   "unit": "8",
+   "sub": "Plan Quality Management: Inputs, Tools and Techniques, Outputs",
+   "question": "Defining how quality may be measured will be documented as —",
+   "options": {
+    "A": "Processes to be followed",
+    "B": "Defining quality metrics",
+    "C": "Defining quality requirements",
+    "D": "Defining acceptance criteria"
+   },
+   "answer": "B",
+   "explanation": "A quality metric is PMBOK's specific term for an operational definition that describes, in precise terms, what something is and how the Control Quality process measures it (e.g., defect density, failure rate). 'Quality requirements' describe what must be achieved, not how it is measured; 'acceptance criteria' define conditions for deliverable sign-off, not measurement method; 'processes to be followed' is too generic to capture the specific idea of measurement definition, leaving quality metrics as the best fit."
+  },
+  {
+   "id": "TECH3_2024-23",
+   "paper": "TECH3",
+   "unit": "8",
+   "sub": "Quality vs grade; precision vs accuracy",
+   "question": "What is the key difference between accuracy and precision?",
+   "options": {
+    "A": "Both accuracy and precision are measures of correctness",
+    "B": "Both accuracy and precision are measures of exactness",
+    "C": "Accuracy measures exactness, while precision measures correctness",
+    "D": "Precision measures exactness, while accuracy measures correctness"
+   },
+   "answer": "D",
+   "explanation": "In PMBOK's quality terminology, accuracy means the measured value is close to the true/correct value (correctness), while precision means repeated measurements are tightly clustered together regardless of whether they are correct (exactness/consistency). A dartboard analogy helps: hitting tightly clustered darts off-center is precise but not accurate; hitting scattered darts around the bullseye is accurate but not precise. Only option D correctly assigns exactness to precision and correctness to accuracy; A and B collapse the distinction, and C reverses it."
+  },
+  {
+   "id": "TECH3_2021-46",
+   "paper": "TECH3",
+   "unit": "8",
+   "sub": "Control chart concepts: control limits, specification limits, rule of seven",
+   "question": "A control chart is used to determine whether a process is stable or has predictable performance. When a process is within acceptable limits, the process does not need adjustment. How are these upper and lower control limits determined?",
+   "options": {
+    "A": "ROM estimate",
+    "B": "Variance analysis",
+    "C": "Pareto chart",
+    "D": "Statistical calculations"
+   },
+   "answer": "D",
+   "explanation": "Control chart upper and lower control limits are set using statistical calculations (typically plus/minus three standard deviations from the process mean), not a Pareto chart or ROM estimate."
+  },
+  {
+   "id": "TECH3_2021-47",
+   "paper": "TECH3",
+   "unit": "8",
+   "sub": "Quality audits and process analysis",
+   "question": "Team Bravo is in the execution stage of their project, and they were informed that \"corporate\" will send in a team of consultants to review whether their project activities comply with companies and PMI's policies, standards, and procedures. This is an example of:",
+   "options": {
+    "A": "Quality Audit",
+    "B": "Organizational Process Assets",
+    "C": "Process Analysis",
+    "D": "Recommended Corrective Actions"
+   },
+   "answer": "A",
+   "explanation": "An outside team checking whether project work complies with organizational and PMI policies, standards, and procedures is the textbook definition of a Quality Audit."
+  },
+  {
+   "id": "TECH3_2021-48",
+   "paper": "TECH3",
+   "unit": "8",
+   "sub": "Perform Quality Assurance: Inputs, Tools and Techniques, Outputs",
+   "question": "A project manager creates a component-specific tool to verify that a set of required steps has been performed. This tool is called a:",
+   "options": {
+    "A": "Risk Register",
+    "B": "Assumptions log",
+    "C": "Checklist",
+    "D": "Plan-Do-Act-Check"
+   },
+   "answer": "C",
+   "explanation": "A component-specific tool used to verify that a defined set of required steps has been performed is a Checklist, a standard quality-management tool."
+  },
+  {
+   "id": "TECH3_2021-71",
+   "paper": "TECH3",
+   "unit": "8",
+   "sub": "Quality gurus and philosophies: Deming, Juran, Crosby, TQM, Six Sigma, Kaizen",
+   "question": "SIPOC stands for:",
+   "options": {
+    "A": "Superior service, inferior service, peak hour service, optimized service, and client service",
+    "B": "Simple, intellectual, procedural, optimal coding",
+    "C": "Sample, information, practice, organization, and control",
+    "D": "Suppliers, inputs, process, outputs, and customers"
+   },
+   "answer": "D",
+   "explanation": "SIPOC is a process-mapping acronym for Suppliers, Inputs, Process, Outputs, and Customers, used to summarize a process at a high level before detailed mapping."
+  }
+ ]
+}

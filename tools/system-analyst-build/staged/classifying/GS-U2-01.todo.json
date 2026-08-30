@@ -1,0 +1,291 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 19,
+ "questions": [
+  {
+   "id": "GEN-128",
+   "paper": "GS",
+   "unit": "2",
+   "sub": "National income concepts: GDP, GNP, NNP, per capita income",
+   "question": "Gross National Product (GNP) differs from Gross Domestic Product (GDP) by the inclusion of:",
+   "options": {
+    "A": "Depreciation",
+    "B": "Net factor income from abroad",
+    "C": "Indirect taxes",
+    "D": "Subsidies only"
+   },
+   "answer": "B",
+   "explanation": "GNP = GDP + Net Factor Income from Abroad (income earned by residents abroad minus income earned by non-residents domestically)."
+  },
+  {
+   "id": "GEN-129",
+   "paper": "GS",
+   "unit": "2",
+   "sub": "National income concepts: GDP, GNP, NNP, per capita income",
+   "question": "Net National Product (NNP) is derived from Gross National Product (GNP) by subtracting:",
+   "options": {
+    "A": "Net factor income from abroad",
+    "B": "Depreciation",
+    "C": "Indirect taxes",
+    "D": "Government expenditure"
+   },
+   "answer": "B",
+   "explanation": "NNP = GNP minus Depreciation (consumption of fixed capital)."
+  },
+  {
+   "id": "GEN-130",
+   "paper": "GS",
+   "unit": "2",
+   "sub": "Planning in India and NITI Aayog",
+   "question": "NITI Aayog, which replaced the Planning Commission, was formed in which year?",
+   "options": {
+    "A": "2014",
+    "B": "2015",
+    "C": "2016",
+    "D": "2017"
+   },
+   "answer": "B",
+   "explanation": "NITI Aayog (National Institution for Transforming India) was constituted on 1 January 2015, replacing the Planning Commission."
+  },
+  {
+   "id": "GEN-131",
+   "paper": "GS",
+   "unit": "2",
+   "sub": "Planning in India and NITI Aayog",
+   "question": "Who is the ex-officio Chairperson of NITI Aayog?",
+   "options": {
+    "A": "The Finance Minister",
+    "B": "The Prime Minister",
+    "C": "The President",
+    "D": "The Vice-Chairperson"
+   },
+   "answer": "B",
+   "explanation": "The Prime Minister of India serves as the ex-officio Chairperson of NITI Aayog."
+  },
+  {
+   "id": "GEN-132",
+   "paper": "GS",
+   "unit": "2",
+   "sub": "Budget, fiscal deficit, revenue deficit",
+   "question": "Fiscal deficit is defined as:",
+   "options": {
+    "A": "Total revenue minus total expenditure",
+    "B": "Total expenditure minus total receipts excluding borrowings",
+    "C": "Revenue expenditure minus revenue receipts",
+    "D": "Capital expenditure minus capital receipts"
+   },
+   "answer": "B",
+   "explanation": "Fiscal deficit is the excess of total expenditure over total receipts excluding borrowings, indicating the government's total borrowing requirement."
+  },
+  {
+   "id": "GEN-133",
+   "paper": "GS",
+   "unit": "2",
+   "sub": "Budget, fiscal deficit, revenue deficit",
+   "question": "Revenue deficit refers to the excess of:",
+   "options": {
+    "A": "Revenue expenditure over revenue receipts",
+    "B": "Capital expenditure over capital receipts",
+    "C": "Total expenditure over total receipts",
+    "D": "Imports over exports"
+   },
+   "answer": "A",
+   "explanation": "Revenue deficit is the excess of revenue expenditure over revenue receipts, indicating dissaving on the government's current account."
+  },
+  {
+   "id": "GEN-134",
+   "paper": "GS",
+   "unit": "2",
+   "sub": "Taxation: direct and indirect, GST",
+   "question": "Which of the following is an example of a direct tax?",
+   "options": {
+    "A": "Goods and Services Tax",
+    "B": "Customs duty",
+    "C": "Income tax",
+    "D": "Excise duty"
+   },
+   "answer": "C",
+   "explanation": "Income tax is a direct tax, levied directly on the income of individuals and entities and borne by the taxpayer themselves."
+  },
+  {
+   "id": "GEN-135",
+   "paper": "GS",
+   "unit": "2",
+   "sub": "Taxation: direct and indirect, GST",
+   "question": "The Goods and Services Tax (GST) was implemented in India with effect from which date?",
+   "options": {
+    "A": "1 April 2016",
+    "B": "1 July 2017",
+    "C": "1 January 2018",
+    "D": "1 July 2019"
+   },
+   "answer": "B",
+   "explanation": "GST was rolled out across India with effect from 1 July 2017, subsuming most indirect taxes into a single tax regime."
+  },
+  {
+   "id": "GEN-136",
+   "paper": "GS",
+   "unit": "2",
+   "sub": "Money and banking, RBI functions, monetary policy",
+   "question": "Which institution acts as the 'lender of last resort' for commercial banks in India?",
+   "options": {
+    "A": "State Bank of India",
+    "B": "NABARD",
+    "C": "Reserve Bank of India",
+    "D": "Ministry of Finance"
+   },
+   "answer": "C",
+   "explanation": "The Reserve Bank of India acts as the banker's bank and lender of last resort, providing emergency liquidity to commercial banks."
+  },
+  {
+   "id": "GEN-137",
+   "paper": "GS",
+   "unit": "2",
+   "sub": "Money and banking, RBI functions, monetary policy",
+   "question": "The rate at which the RBI lends short-term funds to commercial banks against approved securities is called:",
+   "options": {
+    "A": "Reverse repo rate",
+    "B": "Repo rate",
+    "C": "Bank rate",
+    "D": "Statutory Liquidity Ratio"
+   },
+   "answer": "B",
+   "explanation": "The repo (repurchase) rate is the rate at which the RBI lends short-term funds to commercial banks against government securities."
+  },
+  {
+   "id": "GEN-138",
+   "paper": "GS",
+   "unit": "2",
+   "sub": "Inflation: types, measurement, WPI and CPI",
+   "question": "In India, which price index is used by the RBI as the primary target for its inflation-targeting monetary policy framework?",
+   "options": {
+    "A": "Wholesale Price Index (WPI)",
+    "B": "Consumer Price Index (CPI)",
+    "C": "GDP Deflator",
+    "D": "Producer Price Index (PPI)"
+   },
+   "answer": "B",
+   "explanation": "Since 2016, the RBI's flexible inflation targeting framework uses the Consumer Price Index (Combined) as the target, with a band of 4% +/- 2%."
+  },
+  {
+   "id": "GEN-139",
+   "paper": "GS",
+   "unit": "2",
+   "sub": "Inflation: types, measurement, WPI and CPI",
+   "question": "A situation of persistently rising prices combined with stagnant economic growth and high unemployment is termed:",
+   "options": {
+    "A": "Deflation",
+    "B": "Disinflation",
+    "C": "Stagflation",
+    "D": "Reflation"
+   },
+   "answer": "C",
+   "explanation": "Stagflation describes the simultaneous occurrence of high inflation, stagnant growth and high unemployment."
+  },
+  {
+   "id": "GEN-140",
+   "paper": "GS",
+   "unit": "2",
+   "sub": "Banking sector reforms and financial inclusion",
+   "question": "The Pradhan Mantri Jan Dhan Yojana, launched in 2014, primarily aims at:",
+   "options": {
+    "A": "Providing crop insurance to farmers",
+    "B": "Universal access to banking facilities and financial inclusion",
+    "C": "Skill development for urban youth",
+    "D": "Housing for the urban poor"
+   },
+   "answer": "B",
+   "explanation": "PMJDY, launched on 28 August 2014, aims at ensuring access to financial services such as bank accounts, credit and insurance for all households, furthering financial inclusion."
+  },
+  {
+   "id": "GEN-141",
+   "paper": "GS",
+   "unit": "2",
+   "sub": "Agriculture, industry and services sectors",
+   "question": "Which sector currently contributes the largest share to India's Gross Value Added (GVA)?",
+   "options": {
+    "A": "Agriculture sector",
+    "B": "Industry sector",
+    "C": "Services sector",
+    "D": "Mining sector"
+   },
+   "answer": "C",
+   "explanation": "The services sector contributes over half of India's Gross Value Added, making it the largest contributor to the economy."
+  },
+  {
+   "id": "GEN-142",
+   "paper": "GS",
+   "unit": "2",
+   "sub": "Poverty and unemployment",
+   "question": "The 'poverty line' in India has traditionally been estimated primarily on the basis of:",
+   "options": {
+    "A": "Per capita calorie consumption / expenditure",
+    "B": "Literacy rate",
+    "C": "Life expectancy",
+    "D": "Per capita electricity consumption"
+   },
+   "answer": "A",
+   "explanation": "India's poverty line estimation, following committees like Lakdawala and Tendulkar, has traditionally been based on per capita calorie intake and consumption expenditure."
+  },
+  {
+   "id": "GEN-143",
+   "paper": "GS",
+   "unit": "2",
+   "sub": "Foreign trade, balance of payments, FDI",
+   "question": "The Balance of Payments (BoP) account of a country is divided mainly into which two accounts?",
+   "options": {
+    "A": "Fiscal account and Monetary account",
+    "B": "Current account and Capital account",
+    "C": "Trade account and Service account",
+    "D": "Revenue account and Expenditure account"
+   },
+   "answer": "B",
+   "explanation": "The Balance of Payments comprises the Current Account (trade in goods/services, income, transfers) and the Capital Account (capital transfers, investments, loans)."
+  },
+  {
+   "id": "GEN-144",
+   "paper": "GS",
+   "unit": "2",
+   "sub": "Foreign trade, balance of payments, FDI",
+   "question": "Foreign Direct Investment (FDI) up to 100% under the automatic route is permitted, subject to conditions, in which of the following sectors?",
+   "options": {
+    "A": "Lottery business",
+    "B": "Atomic energy",
+    "C": "E-commerce marketplace model",
+    "D": "Gambling and betting"
+   },
+   "answer": "C",
+   "explanation": "100% FDI under the automatic route is permitted in B2B e-commerce marketplace model entities, subject to conditions, whereas lottery, gambling and atomic energy are prohibited/restricted sectors."
+  },
+  {
+   "id": "GEN-145",
+   "paper": "GS",
+   "unit": "2",
+   "sub": "Infrastructure and public utilities",
+   "question": "The 'National Infrastructure Pipeline' (NIP), launched by the Government of India, primarily aims to:",
+   "options": {
+    "A": "Provide free electricity to farmers",
+    "B": "Outline a project pipeline for infrastructure investment across sectors",
+    "C": "Regulate stock markets",
+    "D": "Set minimum support prices for crops"
+   },
+   "answer": "B",
+   "explanation": "The National Infrastructure Pipeline (2019) lays out a multi-year project pipeline covering economic and social infrastructure to boost investment."
+  },
+  {
+   "id": "GEN-146",
+   "paper": "GS",
+   "unit": "2",
+   "sub": "Urban economy and municipal finance",
+   "question": "Which of the following is a major source of a municipality's own tax revenue in Indian cities?",
+   "options": {
+    "A": "Corporate income tax",
+    "B": "Property tax",
+    "C": "Customs duty",
+    "D": "GST compensation cess"
+   },
+   "answer": "B",
+   "explanation": "Property tax is one of the principal sources of own tax revenue for urban local bodies/municipalities in India."
+  }
+ ]
+}

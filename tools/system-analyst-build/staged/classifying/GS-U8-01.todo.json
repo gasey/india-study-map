@@ -1,0 +1,156 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 10,
+ "questions": [
+  {
+   "id": "GEN-210",
+   "paper": "GS",
+   "unit": "8",
+   "sub": "Ecosystems, food chains and biodiversity",
+   "question": "In a grassland food chain — grass → grasshopper → frog → snake — the grasshopper occupies which trophic level?",
+   "options": {
+    "A": "Producer",
+    "B": "Primary consumer",
+    "C": "Secondary consumer",
+    "D": "Tertiary consumer"
+   },
+   "answer": "B",
+   "explanation": "Grass, as a producer, occupies the first trophic level. The grasshopper, which eats grass directly, is a primary consumer (herbivore) at the second trophic level. The frog (eating the grasshopper) is a secondary consumer, and the snake is a tertiary consumer."
+  },
+  {
+   "id": "GEN-211",
+   "paper": "GS",
+   "unit": "8",
+   "sub": "Pollution: air, water, soil, noise",
+   "question": "Biochemical Oxygen Demand (BOD) is commonly used as an indicator of:",
+   "options": {
+    "A": "Air pollution levels",
+    "B": "The degree of organic pollution in water",
+    "C": "Soil fertility",
+    "D": "Noise pollution intensity"
+   },
+   "answer": "B",
+   "explanation": "BOD measures the amount of dissolved oxygen consumed by microorganisms while decomposing organic matter in water; higher BOD indicates greater organic pollution and lower water quality."
+  },
+  {
+   "id": "GEN-212",
+   "paper": "GS",
+   "unit": "8",
+   "sub": "Climate change, global warming, greenhouse gases",
+   "question": "Which of the following greenhouse gases is emitted in the largest quantity from human activities and is considered the primary driver of anthropogenic global warming?",
+   "options": {
+    "A": "Methane",
+    "B": "Carbon dioxide",
+    "C": "Nitrous oxide",
+    "D": "Ozone"
+   },
+   "answer": "B",
+   "explanation": "Carbon dioxide, released mainly from burning fossil fuels, deforestation, and industrial processes, is emitted in far larger quantities than other greenhouse gases and is the largest single contributor to human-caused global warming."
+  },
+  {
+   "id": "GEN-213",
+   "paper": "GS",
+   "unit": "8",
+   "sub": "Environmental laws and regulatory bodies in India",
+   "question": "The Central Pollution Control Board (CPCB) in India functions under the overall administrative control of which ministry?",
+   "options": {
+    "A": "Ministry of Environment, Forest and Climate Change",
+    "B": "Ministry of Home Affairs",
+    "C": "Ministry of Rural Development",
+    "D": "Ministry of Water Resources, River Development and Ganga Rejuvenation"
+   },
+   "answer": "A",
+   "explanation": "The CPCB, a statutory body constituted under the Water (Prevention and Control of Pollution) Act, 1974, operates under the administrative control of the Ministry of Environment, Forest and Climate Change (MoEFCC)."
+  },
+  {
+   "id": "GEN-214",
+   "paper": "GS",
+   "unit": "8",
+   "sub": "International agreements: UNFCCC, Paris Agreement, CBD, Ramsar",
+   "question": "The Paris Agreement, adopted in 2015 under the UNFCCC, primarily aims to limit the rise in global average temperature to:",
+   "options": {
+    "A": "1°C above pre-industrial levels",
+    "B": "Well below 2°C above pre-industrial levels, while pursuing efforts to limit it to 1.5°C",
+    "C": "5°C above pre-industrial levels",
+    "D": "3.5°C above current levels"
+   },
+   "answer": "B",
+   "explanation": "The Paris Agreement's central goal is to hold the increase in global average temperature to well below 2°C above pre-industrial levels, while pursuing efforts to limit the increase to 1.5°C."
+  },
+  {
+   "id": "GEN-215",
+   "paper": "GS",
+   "unit": "8",
+   "sub": "Sustainable Development Goals",
+   "question": "How many Sustainable Development Goals (SDGs) were adopted by United Nations member states in 2015 as part of the 2030 Agenda for Sustainable Development?",
+   "options": {
+    "A": "8",
+    "B": "15",
+    "C": "17",
+    "D": "20"
+   },
+   "answer": "C",
+   "explanation": "The 2030 Agenda for Sustainable Development, adopted by UN member states in 2015, consists of 17 Sustainable Development Goals (SDGs) with 169 associated targets, succeeding the earlier Millennium Development Goals (MDGs)."
+  },
+  {
+   "id": "GEN-216",
+   "paper": "GS",
+   "unit": "8",
+   "sub": "Solid waste management and urban sanitation",
+   "question": "As per the widely promoted solid waste management hierarchy, which of the following represents the most preferred approach to managing waste?",
+   "options": {
+    "A": "Landfilling",
+    "B": "Incineration",
+    "C": "Reduce, reuse and recycle (source reduction)",
+    "D": "Open dumping"
+   },
+   "answer": "C",
+   "explanation": "The waste management hierarchy ranks source reduction and reuse/recycling as the most preferred options, since they prevent or minimise waste generation, followed by treatment/recovery methods like incineration, with landfilling and open dumping as the least preferred, most environmentally damaging options."
+  },
+  {
+   "id": "GEN-217",
+   "paper": "GS",
+   "unit": "8",
+   "sub": "Renewable energy",
+   "question": "Which of the following is NOT considered a renewable source of energy?",
+   "options": {
+    "A": "Solar energy",
+    "B": "Wind energy",
+    "C": "Natural gas",
+    "D": "Biomass energy"
+   },
+   "answer": "C",
+   "explanation": "Natural gas is a fossil fuel formed over millions of years from decomposed organic matter and is a non-renewable resource, unlike solar, wind, and biomass energy, which are naturally replenished."
+  },
+  {
+   "id": "GEN-218",
+   "paper": "GS",
+   "unit": "8",
+   "sub": "Forest conservation and protected areas",
+   "question": "Under India's protected area network, which category generally provides the highest degree of legal protection, prohibiting activities such as grazing, forestry, and human habitation?",
+   "options": {
+    "A": "Biosphere Reserve",
+    "B": "Wildlife Sanctuary",
+    "C": "National Park",
+    "D": "Reserved Forest"
+   },
+   "answer": "C",
+   "explanation": "National Parks in India are accorded the highest level of legal protection under the Wildlife Protection Act, 1972, with no rights permitted for grazing or forestry, unlike Wildlife Sanctuaries (where some regulated human activity may be allowed) or Reserved Forests."
+  },
+  {
+   "id": "GEN-219",
+   "paper": "GS",
+   "unit": "8",
+   "sub": "Environmental Impact Assessment",
+   "question": "Environmental Impact Assessment (EIA) is a process undertaken primarily to:",
+   "options": {
+    "A": "Calculate the tax liability of an industrial project",
+    "B": "Evaluate and predict the likely environmental consequences of a proposed project before it is approved",
+    "C": "Determine the market value of land",
+    "D": "Audit a company's financial statements"
+   },
+   "answer": "B",
+   "explanation": "EIA is a systematic process used to identify, predict, and evaluate the likely environmental (and sometimes social) impacts of a proposed development project, allowing decision-makers to consider these effects before granting approval."
+  }
+ ]
+}

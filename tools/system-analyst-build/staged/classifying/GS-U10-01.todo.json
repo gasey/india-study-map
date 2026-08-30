@@ -1,0 +1,156 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 10,
+ "questions": [
+  {
+   "id": "GEN-230",
+   "paper": "GS",
+   "unit": "10",
+   "sub": "Number series and letter series",
+   "question": "Find the next number in the series: 2, 6, 12, 20, 30, ?",
+   "options": {
+    "A": "36",
+    "B": "40",
+    "C": "42",
+    "D": "44"
+   },
+   "answer": "C",
+   "explanation": "The differences between consecutive terms increase by 2 each time: 4, 6, 8, 10, 12. So the next term is 30 + 12 = 42. (Equivalently, each term equals n(n+1) for n = 1, 2, 3...: 1×2=2, 2×3=6, 3×4=12, 4×5=20, 5×6=30, 6×7=42.)"
+  },
+  {
+   "id": "GEN-231",
+   "paper": "GS",
+   "unit": "10",
+   "sub": "Coding-decoding",
+   "question": "In a certain code, 'CAT' is written as 'DBU'. How would 'DOG' be written in that same code?",
+   "options": {
+    "A": "EPH",
+    "B": "EPG",
+    "C": "DPH",
+    "D": "EPI"
+   },
+   "answer": "A",
+   "explanation": "Each letter of the word is shifted forward by one position in the alphabet: C→D, A→B, T→U gives 'DBU'. Applying the same rule to DOG: D→E, O→P, G→H gives 'EPH'."
+  },
+  {
+   "id": "GEN-232",
+   "paper": "GS",
+   "unit": "10",
+   "sub": "Analogy and classification",
+   "question": "Book is to Library as Painting is to:",
+   "options": {
+    "A": "Frame",
+    "B": "Gallery",
+    "C": "Artist",
+    "D": "Wall"
+   },
+   "answer": "B",
+   "explanation": "A Library is a place where books are collected and displayed/stored; analogously, a Gallery is a place where paintings are collected and displayed. A frame merely holds a painting, and an artist creates it, neither matching the 'place of collection' relationship."
+  },
+  {
+   "id": "GEN-233",
+   "paper": "GS",
+   "unit": "10",
+   "sub": "Blood relations and direction sense",
+   "question": "Pointing to a photograph, a man said, 'She is the daughter of my grandfather's only son.' How is the woman in the photograph related to the man?",
+   "options": {
+    "A": "Mother",
+    "B": "Sister",
+    "C": "Daughter",
+    "D": "Niece"
+   },
+   "answer": "B",
+   "explanation": "The man's grandfather's only son (having no brothers) must be the man's own father. The daughter of the man's father is therefore the man's sister."
+  },
+  {
+   "id": "GEN-234",
+   "paper": "GS",
+   "unit": "10",
+   "sub": "Syllogism",
+   "question": "Statements: All pens are books. All books are tables. Conclusions: I. All pens are tables. II. Some tables are pens. Which of the conclusions logically follow(s)?",
+   "options": {
+    "A": "Only conclusion I follows",
+    "B": "Only conclusion II follows",
+    "C": "Both conclusions I and II follow",
+    "D": "Neither conclusion follows"
+   },
+   "answer": "C",
+   "explanation": "Since all pens are books and all books are tables, it follows that all pens are tables (Conclusion I). Since the set of pens is a non-empty subset of tables, it also follows that some tables are pens (Conclusion II). Both conclusions are valid."
+  },
+  {
+   "id": "GEN-235",
+   "paper": "GS",
+   "unit": "10",
+   "sub": "Seating arrangement and puzzles",
+   "question": "Five friends A, B, C, D and E are sitting in a row facing North. D is immediately to the left of A. A is immediately to the left of B. B is immediately to the left of C. E is immediately to the left of D. Who is sitting at the extreme left end of the row?",
+   "options": {
+    "A": "A",
+    "B": "B",
+    "C": "D",
+    "D": "E"
+   },
+   "answer": "D",
+   "explanation": "Chaining the clues: E is left of D, D is left of A, A is left of B, and B is left of C, giving the seating order from left to right as E, D, A, B, C. The person at the extreme left end is therefore E."
+  },
+  {
+   "id": "GEN-236",
+   "paper": "GS",
+   "unit": "10",
+   "sub": "Percentage, ratio and proportion",
+   "question": "A student needs to score 40% marks to pass an examination. He scored 178 marks and failed by 22 marks. What is the maximum (total) marks of the examination?",
+   "options": {
+    "A": "450",
+    "B": "480",
+    "C": "500",
+    "D": "520"
+   },
+   "answer": "C",
+   "explanation": "The passing marks = marks scored + marks short = 178 + 22 = 200. Since passing marks are 40% of the total, total marks = 200 ÷ 0.40 = 500."
+  },
+  {
+   "id": "GEN-237",
+   "paper": "GS",
+   "unit": "10",
+   "sub": "Average, profit and loss",
+   "question": "A shopkeeper bought an article for Rs. 800 and sold it for Rs. 920. What was his profit percentage?",
+   "options": {
+    "A": "10%",
+    "B": "12%",
+    "C": "15%",
+    "D": "20%"
+   },
+   "answer": "C",
+   "explanation": "Profit = Selling Price − Cost Price = 920 − 800 = Rs. 120. Profit percentage = (Profit ÷ Cost Price) × 100 = (120 ÷ 800) × 100 = 15%."
+  },
+  {
+   "id": "GEN-238",
+   "paper": "GS",
+   "unit": "10",
+   "sub": "Time and work, time speed distance",
+   "question": "A can complete a piece of work in 15 days, and B can complete the same work in 10 days. If they work together, in how many days will the work be completed?",
+   "options": {
+    "A": "5 days",
+    "B": "6 days",
+    "C": "8 days",
+    "D": "25 days"
+   },
+   "answer": "B",
+   "explanation": "A's one-day work = 1/15, B's one-day work = 1/10. Combined one-day work = 1/15 + 1/10 = 2/30 + 3/30 = 5/30 = 1/6. So together they complete the work in 6 days."
+  },
+  {
+   "id": "GEN-239",
+   "paper": "GS",
+   "unit": "10",
+   "sub": "Simple and compound interest",
+   "question": "What is the difference between the compound interest and the simple interest on a sum of Rs. 10,000 for 2 years at 10% per annum, with interest compounded annually?",
+   "options": {
+    "A": "Rs. 50",
+    "B": "Rs. 100",
+    "C": "Rs. 200",
+    "D": "Rs. 1000"
+   },
+   "answer": "B",
+   "explanation": "Simple Interest = (10000 × 10 × 2) / 100 = Rs. 2000. Compound Interest = 10000 × [(1 + 0.10)² − 1] = 10000 × 0.21 = Rs. 2100. The difference is 2100 − 2000 = Rs. 100."
+  }
+ ]
+}

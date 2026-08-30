@@ -1,0 +1,20 @@
+[
+ { "id": "TECH2_2024-96", "mode": "understand", "confidence": "low",
+   "why": "Attribution reasoning in form, but the item is broken as printed — the bank's explanation argues for Impact Evaluation while the key records Outcome Evaluation." },
+ { "id": "TECH2_2021-100", "mode": "memorise", "confidence": "high",
+   "why": "The named three-way list a specific ministry framework prescribes; pure enumeration." },
+ { "id": "TECH2_2021-99", "mode": "understand", "confidence": "medium",
+   "why": "Requires placing each option on the activity-output-outcome-impact chain, though 'reduction in polio' is a genuinely tempting one-level-down answer." },
+ { "id": "GEN-TECH2-U19-120", "mode": "understand", "confidence": "high",
+   "why": "The dimension follows from who bears the effect — the applicant or the administration." },
+ { "id": "GEN-TECH2-U19-121", "mode": "understand", "confidence": "high",
+   "why": "Equity and transparency are recognisably public-sphere effects rather than individual or departmental ones." },
+ { "id": "GEN-TECH2-U19-122", "mode": "understand", "confidence": "high",
+   "why": "Follows from reasoning about what a citizen actually spends to obtain a service, not from a recalled list." },
+ { "id": "GEN-TECH2-U19-123", "mode": "understand", "confidence": "high",
+   "why": "Method reasoning about before-and-after measurement; no figure is actually computed from the stem." },
+ { "id": "GEN-TECH2-U19-124", "mode": "memorise", "confidence": "medium",
+   "why": "What a specific named national portal does is an institutional fact, though elimination narrows it." },
+ { "id": "GEN-TECH2-U19-125", "mode": "understand", "confidence": "high",
+   "why": "The usage-is-not-impact argument follows from the difference between an output measure and an outcome." }
+]

@@ -1,0 +1,152 @@
+[
+ {
+  "id": "TECH2_2024-13",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "The vision/objective distinction is conceptual, but the question is loosely framed and other options are arguable."
+ },
+ {
+  "id": "TECH2_2024-17",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Applying the G2B label follows from identifying who consumes the service."
+ },
+ {
+  "id": "TECH2_2024-18",
+  "mode": "understand",
+  "confidence": "low",
+  "why": "Taxonomy application, but the record is defective: the key says B while the explanation argues A, and the options are poorly discriminated."
+ },
+ {
+  "id": "TECH2_2021-14",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Follows from what a vision statement is as against a quantified target."
+ },
+ {
+  "id": "TECH2_2021-15",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "Turns on the textbook allocation of items across G2C/G2B/G2E, which reasoning alone does not settle."
+ },
+ {
+  "id": "TECH2_2021-16",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Risk ranking follows from what fallback each changeover approach leaves in place."
+ },
+ {
+  "id": "TECH2_2021-6",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "Membership of the canonical four-domain set; C2G is excluded only by convention."
+ },
+ {
+  "id": "GEN-TECH2-U3-134",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The vision-versus-strategy distinction is conceptual."
+ },
+ {
+  "id": "GEN-TECH2-U3-135",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "What a roadmap is follows from its position between strategy and procurement."
+ },
+ {
+  "id": "GEN-TECH2-U3-136",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Turns on the strategic-versus-design altitude of each option."
+ },
+ {
+  "id": "GEN-TECH2-U3-137",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Purpose of gap analysis follows from its position between as-is and vision."
+ },
+ {
+  "id": "GEN-TECH2-U3-138",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Requires only the outcome-versus-output distinction."
+ },
+ {
+  "id": "GEN-TECH2-U3-139",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Follows from what is needed to evaluate benefit after the fact."
+ },
+ {
+  "id": "GEN-TECH2-U3-140",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "Power and interest are the sensible dimensions on reasoning, though the grid is a named tool."
+ },
+ {
+  "id": "GEN-TECH2-U3-141",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Definition follows from taking the user's side of the transaction."
+ },
+ {
+  "id": "GEN-TECH2-U3-142",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Meaning follows from what 'multi-channel' implies for the back-end."
+ },
+ {
+  "id": "GEN-TECH2-U3-143",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The inclusion rationale follows from who cannot use a self-service channel."
+ },
+ {
+  "id": "GEN-TECH2-U3-144",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "A single cut-over follows from the contrast with the other named approaches."
+ },
+ {
+  "id": "GEN-TECH2-U3-145",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The risk follows from having switched off the fallback."
+ },
+ {
+  "id": "GEN-TECH2-U3-146",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Follows from why phasing is done at all, namely learning between phases."
+ },
+ {
+  "id": "GEN-TECH2-U3-147",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The cost of a long coexistence follows from running two arrangements at once."
+ },
+ {
+  "id": "GEN-TECH2-U3-148",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Definition follows from contrasting with big-bang and phased approaches."
+ },
+ {
+  "id": "GEN-TECH2-U3-149",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Double entry follows directly from running both systems on the same live workload."
+ },
+ {
+  "id": "GEN-TECH2-U3-150",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The programme-versus-project distinction is conceptual."
+ },
+ {
+  "id": "GEN-TECH2-U3-151",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Follows from a support unit's role relative to the accountable department."
+ }
+]

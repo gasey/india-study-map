@@ -1,0 +1,186 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 12,
+ "questions": [
+  {
+   "id": "TECH3_2024-39",
+   "paper": "TECH3",
+   "unit": "12",
+   "sub": "Make-or-buy analysis and decision",
+   "question": "Project procurement management determines the external resource required at which process?",
+   "options": {
+    "A": "Planning procurement",
+    "B": "Conducting Procurement",
+    "C": "Identification of requirements",
+    "D": "Stakeholder meeting"
+   },
+   "answer": "A",
+   "explanation": "Plan Procurement Management is the process where the project team performs make-or-buy analysis and decides which goods or services must be obtained from outside the organization, documenting this in the procurement management plan. Conduct Procurements is where those already-planned needs are turned into actual contracts (obtaining and selecting seller responses), not where the need itself is determined; 'identification of requirements' and 'stakeholder meeting' are not formal procurement process names and are plausible-sounding distractors."
+  },
+  {
+   "id": "TECH3_2024-40",
+   "paper": "TECH3",
+   "unit": "12",
+   "sub": "Procurement documents: RFI, RFQ, RFP, IFB",
+   "question": "The key procurement documents such as Request for Proposal (RFP), Statement of Work (SOW), Change Request Forms etc are created at the time of —",
+   "options": {
+    "A": "Procurement planning",
+    "B": "Conducting procurement",
+    "C": "Requirement analysis",
+    "D": "Stakeholder meeting"
+   },
+   "answer": "A",
+   "explanation": "RFPs, Statements of Work, and similar bid documents are outputs of Plan Procurement Management — they must already exist before any solicitation can begin. Conducting procurement is when these already-prepared documents are sent out to obtain seller proposals, not when they are first created. 'Requirement analysis' and 'stakeholder meeting' are not formal procurement process names, so although they sound reasonable, the documents originate during procurement planning, not at those points."
+  },
+  {
+   "id": "TECH3_2024-41",
+   "paper": "TECH3",
+   "unit": "12",
+   "sub": "Procurement documents: RFI, RFQ, RFP, IFB",
+   "question": "A kind of procurement system wherein the client does not have a very clear intention on how or what procurement is to be done, but invites proposals, and the interested party may not quote a fixed price but is required to submit a proposal so that some kind of procurement contract may be signed in the future, is called —",
+   "options": {
+    "A": "Request for Proposal",
+    "B": "Expression of Interest",
+    "C": "Detailed Project Proposal",
+    "D": "E-Tendering"
+   },
+   "answer": "B",
+   "explanation": "An Expression of Interest (EOI) is used precisely when the buyer has not yet finalized a clear scope or fixed price — it invites interested parties to signal capability and interest, often to shortlist bidders before a formal, tightly-scoped RFP is issued later. An RFP, by contrast, is used once requirements are reasonably well defined and firms are asked to propose solutions and pricing. Detailed Project Proposal and E-Tendering both presuppose a defined scope and formal bidding process, which contradicts the 'not clear intention' premise stated in the question."
+  },
+  {
+   "id": "TECH3_2024-42",
+   "paper": "TECH3",
+   "unit": "12",
+   "sub": "Conduct Procurements: Inputs, Tools and Techniques, Outputs",
+   "question": "Which role in a project is most likely to handle negotiations related to procurements during the Conduct Procurements phase?",
+   "options": {
+    "A": "Procurement administrator",
+    "B": "Project coordinator",
+    "C": "Project manager",
+    "D": "Project sponsor"
+   },
+   "answer": "A",
+   "explanation": "In organizations with a formal contracts function, the Procurement/Contract Administrator is the specialist role responsible for conducting seller negotiations during Conduct Procurements, since this requires contractual and commercial expertise the project manager may not have. Project coordinators and sponsors are not typically the negotiating party. However, in smaller organizations without dedicated procurement staff, the project manager often does take on this duty directly, so the intended answer is genuinely uncertain without the official key."
+  },
+  {
+   "id": "TECH3_2024-43",
+   "paper": "TECH3",
+   "unit": "12",
+   "sub": "Contract types: Fixed Price (FFP, FPIF, FP-EPA)",
+   "question": "Which type of contract provides a fixed total price for a defined product or service, but may include financial incentives?",
+   "options": {
+    "A": "Time and Materials Contract",
+    "B": "Cost Plus Fixed Fee Contract",
+    "C": "Cost Plus Award Fee Contract",
+    "D": "Firm Fixed Price Contract"
+   },
+   "answer": "D",
+   "explanation": "Contracts in the fixed-price family set a single agreed total price for clearly defined work, and variants such as Fixed Price Incentive Fee add financial incentives for meeting targets like cost or schedule. Of the four options, only the Firm Fixed Price family belongs to the fixed-total-price category being described; Time and Materials and both Cost-Plus variants pay the seller's actual costs plus a fee, so their price is not fixed. The 'may include financial incentives' phrase points toward the incentive variant within the fixed-price family, making (d) the best available match even though it is labelled plainly 'Firm'."
+  },
+  {
+   "id": "TECH3_2024-44",
+   "paper": "TECH3",
+   "unit": "12",
+   "sub": "Control Procurements: Inputs, Tools and Techniques, Outputs",
+   "question": "A project procurement process within which to ensure the procurement processes flow smoothly and do not interrupt operations is taken care of in the phase —",
+   "options": {
+    "A": "Planning Procurement",
+    "B": "Procurement Analysis",
+    "C": "Controlling Procurement",
+    "D": "Closing Procurement"
+   },
+   "answer": "C",
+   "explanation": "Control Procurements is the monitoring process that manages the buyer-seller relationship throughout contract performance, reviews progress, approves payments, and manages changes — it exists specifically to keep procurement running smoothly without disrupting ongoing project operations. Planning Procurement occurs before any contract is active, Closing Procurement only happens once the work is finished, and 'Procurement Analysis' is not a defined PMBOK process, making it a plausible-sounding but invented distractor."
+  },
+  {
+   "id": "TECH3_2021-43",
+   "paper": "TECH3",
+   "unit": "12",
+   "sub": "Risk allocation between buyer and seller by contract type",
+   "question": "Which of the following type of contract(s) is most preferable to the contractor doing the project work?",
+   "options": {
+    "A": "Cost plus fixed fee",
+    "B": "Fixed price",
+    "C": "Fixed price plus incentive free",
+    "D": "Both (b) & (c)"
+   },
+   "answer": "A",
+   "explanation": "Cost Plus Fixed Fee is a cost-reimbursable contract that guarantees the contractor's costs are covered plus a fixed profit regardless of overruns, putting the least risk on the contractor -- unlike fixed-price contracts, which push cost risk onto the seller."
+  },
+  {
+   "id": "TECH3_2021-66",
+   "paper": "TECH3",
+   "unit": "12",
+   "sub": "Control Procurements: Inputs, Tools and Techniques, Outputs",
+   "question": "During the Control Procurements process, a number of documents might get updated due to various reasons. Which of the following components of the project management plan is least likely to get updated during this process?",
+   "options": {
+    "A": "Quality management plan",
+    "B": "Procurement management plan",
+    "C": "Schedule baseline",
+    "D": "Cost baseline"
+   },
+   "answer": "A",
+   "explanation": "Control Procurements most often triggers updates to the procurement management plan, schedule baseline, and cost baseline as contracts change; the quality management plan is least directly affected by procurement execution."
+  },
+  {
+   "id": "TECH3_2021-67",
+   "paper": "TECH3",
+   "unit": "12",
+   "sub": "Conduct Procurements: Inputs, Tools and Techniques, Outputs",
+   "question": "Maintaining good supplier relationships should be important to all project managers. A good buyer-seller relationship is a partnership that results in a win-win situation that nurtures both parties. Which of the following is both a short and long-term benefit of treating a supplier with courtesy, honesty, and fairness?",
+   "options": {
+    "A": "There is no need to have formal contracts in place",
+    "B": "Delivery of quality products and services at the best price",
+    "C": "The buyer can delay the payments without jeopardizing the relationship",
+    "D": "The supplier can charge a price higher than the market price"
+   },
+   "answer": "B",
+   "explanation": "Treating a supplier with courtesy, honesty, and fairness builds the trust that leads sellers to consistently deliver quality goods and services at the best price -- a genuine win-win, unlike the other options which describe one-sided or exploitative arrangements."
+  },
+  {
+   "id": "TECH3_2021-68",
+   "paper": "TECH3",
+   "unit": "12",
+   "sub": "Control Procurements: Inputs, Tools and Techniques, Outputs",
+   "question": "The Control Procurements process receives a very important input from the Direct and Manage Project Work process. Identify the input from the following:",
+   "options": {
+    "A": "Approved change requests",
+    "B": "Work performance data",
+    "C": "Procurement documents",
+    "D": "Agreements"
+   },
+   "answer": "B",
+   "explanation": "Work performance data is produced by the Direct and Manage Project Work process and feeds directly into Control Procurements, where it is compared against agreements to assess seller performance."
+  },
+  {
+   "id": "TECH3_2021-69",
+   "paper": "TECH3",
+   "unit": "12",
+   "sub": "Plan Procurement Management: Inputs, Tools and Techniques, Outputs",
+   "question": "The tools and techniques used in the process of Plan Procurement Management includes all but:",
+   "options": {
+    "A": "Make-or-buy analysis",
+    "B": "Market Research",
+    "C": "Bidder Conferences",
+    "D": "Expert Judgment"
+   },
+   "answer": "C",
+   "explanation": "Bidder conferences are a tool of Conduct Procurements (used to clarify a solicitation with prospective sellers), not Plan Procurement Management, which instead uses make-or-buy analysis, market research, and expert judgment."
+  },
+  {
+   "id": "TECH3_2021-70",
+   "paper": "TECH3",
+   "unit": "12",
+   "sub": "Contract types: Time and Material",
+   "question": "The type of hybrid contracts which influences the Plan Procurement project is called:",
+   "options": {
+    "A": "Time and Material Contracts (T&M)",
+    "B": "Cost-reimbursable Contracts",
+    "C": "Fixed Price Contracts",
+    "D": "Both (b) & (c)"
+   },
+   "answer": "A",
+   "explanation": "Time and Material (T&M) contracts are described as hybrid contract types because they combine elements of both cost-reimbursable contracts (open-ended total value) and fixed-price contracts (fixed unit rates)."
+  }
+ ]
+}

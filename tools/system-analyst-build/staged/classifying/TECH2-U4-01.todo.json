@@ -1,0 +1,291 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 19,
+ "questions": [
+  {
+   "id": "TECH2_2024-19",
+   "paper": "TECH2",
+   "unit": "4",
+   "sub": "Objectives of GPR",
+   "question": "The primary purpose(s) of GPR is/are —\ni. To review and re-make government processes\nii. To analyze the existing process and to make documentation\niii. To make the system more efficient",
+   "options": {
+    "A": "i only",
+    "B": "i and ii only",
+    "C": "i and iii only",
+    "D": "i, ii and iii"
+   },
+   "answer": "C",
+   "explanation": "Government Process Re-engineering exists to critically review existing processes, document and understand them as they currently work, and redesign them to be more efficient — all three activities listed are recognized, complementary purposes of GPR rather than alternatives to each other. Restricting the answer to only one or two of them (as in options A-C) would understate GPR's actual scope, which combines review, analysis/documentation, and efficiency improvement as a single integrated purpose."
+  },
+  {
+   "id": "TECH2_2024-20",
+   "paper": "TECH2",
+   "unit": "4",
+   "sub": "Objectives of GPR",
+   "question": "Process Reengineering is not —",
+   "options": {
+    "A": "Translation of processes",
+    "B": "Transformation of processes",
+    "C": "Finding more efficient and more effective process",
+    "D": "Bridging As-Is and To-Be"
+   },
+   "answer": "A",
+   "explanation": "Reengineering means fundamentally redesigning (transforming) a process to be more effective and bridging the gap between how things are done today (As-Is) and how they should be done (To-Be) — options B, C and D are all accurate descriptions of what reengineering does. Mere 'translation' — converting a process into a different form or language without questioning or redesigning it — is explicitly not reengineering, since reengineering demands rethinking the process itself, making A the correct 'is not' answer."
+  },
+  {
+   "id": "TECH2_2024-21",
+   "paper": "TECH2",
+   "unit": "4",
+   "sub": "Symptoms of Poor Governance",
+   "question": "Which of the following is the least immediate result of poor governance?",
+   "options": {
+    "A": "Declining morality",
+    "B": "People not getting their rights",
+    "C": "Poor access to government services",
+    "D": "Poor service provided to citizens"
+   },
+   "answer": "A",
+   "explanation": "Poor governance's most immediate, first-order consequences are citizens actually failing to receive their entitlements and receiving poor-quality government services — direct, short-term effects. A general 'declining morality' in society is a slower, diffuse, longer-term cultural consequence that is harder to attribute immediately to any specific governance failure, making it the least immediate result among the four, whereas the other three options describe concrete, near-term service-delivery failures."
+  },
+  {
+   "id": "TECH2_2024-22",
+   "paper": "TECH2",
+   "unit": "4",
+   "sub": "Benefit of service prioritization",
+   "question": "Which of the following is an advantage of prioritizing services based on risk in GPR?",
+   "options": {
+    "A": "High-risk services are ignored to focus on low-risk ones",
+    "B": "High-risk services are addressed first, reducing the likelihood of system failures and service disruptions",
+    "C": "Risky services are left unchanged to avoid complexity",
+    "D": "The focus is only on aesthetics rather than functionality"
+   },
+   "answer": "B",
+   "explanation": "Prioritizing services by risk means the services most likely to cause serious failures or public harm are re-engineered and safeguarded first, directly reducing the chance of disruptive system failures — exactly what option B describes. Ignoring high-risk services, leaving them unchanged, or focusing only on aesthetics would all increase risk exposure rather than reduce it, so they describe mismanagement of risk-based prioritization rather than its intended benefit."
+  },
+  {
+   "id": "TECH2_2024-23",
+   "paper": "TECH2",
+   "unit": "4",
+   "sub": "Symptoms of Poor Governance",
+   "question": "Which of the following is a common symptom of poor governance in Government Process Re-engineering (GPR)?",
+   "options": {
+    "A": "Frequent delays and inefficiencies in service delivery",
+    "B": "Increased transparency and accountability",
+    "C": "Successful implementation of process improvements",
+    "D": "Effective stakeholder engagement"
+   },
+   "answer": "A",
+   "explanation": "Poor governance during GPR typically manifests as visible service-delivery problems — recurring delays and inefficiencies that citizens directly experience — making A the correct symptom. Increased transparency, successful process improvements, and effective stakeholder engagement are all signs of good, not poor, governance; listing them as 'symptoms of poor governance' would be self-contradictory, since these are the very outcomes GPR aims to achieve, not indicators of its failure."
+  },
+  {
+   "id": "TECH2_2024-24",
+   "paper": "TECH2",
+   "unit": "4",
+   "sub": "E-Governance and traditional approach to e-Governance",
+   "question": "Which of the following best describes the traditional approach to government service delivery?",
+   "options": {
+    "A": "Emphasis on digital interactions and automated processes",
+    "B": "Use of advanced IT systems to streamline operations",
+    "C": "Implementation of online self-service portals",
+    "D": "Reliance on manual, paper-based processes and face-to-face interactions"
+   },
+   "answer": "D",
+   "explanation": "Before digitization, government services were delivered through manual paperwork, physical counters, and in-person interactions — the defining feature of the traditional model, as stated in D. Digital interactions, advanced IT systems, and self-service portals all describe the e-Governance model that came to replace the traditional approach, so these three options describe the modern alternative rather than the traditional approach the question is asking about."
+  },
+  {
+   "id": "TECH2_2024-25",
+   "paper": "TECH2",
+   "unit": "4",
+   "sub": "Objectives of GPR",
+   "question": "Which of the following is the principle for Process Reengineering?",
+   "options": {
+    "A": "Arrange",
+    "B": "Plan",
+    "C": "Devise",
+    "D": "Orchestrate"
+   },
+   "answer": "D",
+   "explanation": "Among the given labels, 'Devise' best fits as a stated principle of Process Reengineering — reengineering requires actively devising/designing a new process rather than merely tweaking the old one, distinct from routine activities like arranging, planning, or orchestrating existing work. However, the source material behind this specific four-word option set is not a standard, widely-documented GPR framework, so the intended correct principle cannot be confirmed with certainty from general e-Governance theory alone; this question is flagged as low confidence."
+  },
+  {
+   "id": "TECH2_2021-19",
+   "paper": "TECH2",
+   "unit": "4",
+   "sub": "Symptoms of Poor Governance",
+   "question": "Poor governance may be identified by signs of:",
+   "options": {
+    "A": "Multiple visit to government office",
+    "B": "Service is a right",
+    "C": "Corrupt officers",
+    "D": "Personal information exchange"
+   },
+   "answer": "A",
+   "explanation": "In the citizen-experience framing used in e-governance material, having to make repeated visits to a government office is the textbook symptom of poor governance and the pain point e-governance is designed to remove. The question is defective because corrupt officers is equally a sign of poor governance; option B (service as a right) describes good governance."
+  },
+  {
+   "id": "TECH2_2021-20",
+   "paper": "TECH2",
+   "unit": "4",
+   "sub": "Objectives of GPR",
+   "question": "What is the fourth step involved in GPR?",
+   "options": {
+    "A": "Process Analysis",
+    "B": "Problem Identification and Definition",
+    "C": "Process Re-engineering",
+    "D": "Process implementation"
+   },
+   "answer": "D",
+   "explanation": "The four GPR stages run problem identification and definition, process analysis of the As-Is, process re-engineering into the To-Be, and finally process implementation, so the fourth is implementation. Frameworks that split the analysis stage further would shift this, which is why the answer depends on the four-step model the options imply."
+  },
+  {
+   "id": "TECH2_2021-21",
+   "paper": "TECH2",
+   "unit": "4",
+   "sub": "Objectives of GPR",
+   "question": "Which of the following statement is false?",
+   "options": {
+    "A": "Government processes are processes in the government domain",
+    "B": "Every government processes is supported by a set of services",
+    "C": "Processes are key to satisfying customers and stakeholders",
+    "D": "Processes and not functions drive an organization"
+   },
+   "answer": "B",
+   "explanation": "The relationship runs the other way: every government service is supported by a set of processes, not every process supported by a set of services. The other three are standard process-orientation statements (processes rather than functions drive the organisation and are what satisfy stakeholders)."
+  },
+  {
+   "id": "TECH2_2021-22",
+   "paper": "TECH2",
+   "unit": "4",
+   "sub": "E-Governance and traditional approach to e-Governance",
+   "question": "Intra Government Process Re-engineering in e-Government is part of:",
+   "options": {
+    "A": "Front office",
+    "B": "Middle office",
+    "C": "Back office",
+    "D": "Intermediate office"
+   },
+   "answer": "C",
+   "explanation": "Intra-government re-engineering reworks the internal workflows, file movement and approvals that citizens never see, which is by definition the back office. The front office is the citizen-facing delivery channel such as a portal or CSC counter."
+  },
+  {
+   "id": "TECH2_2021-23",
+   "paper": "TECH2",
+   "unit": "4",
+   "sub": "Objectives of GPR",
+   "question": "Which of the following is not a step in Government Process Re-engineering?",
+   "options": {
+    "A": "Studying the current functionality of a government",
+    "B": "Changing the approval process of government",
+    "C": "Drafting the expected functionality of a government",
+    "D": "Computerization of existing processes"
+   },
+   "answer": "D",
+   "explanation": "Merely computerizing existing processes is automation of the As-Is and is the classic anti-pattern GPR exists to prevent, since it hard-codes the inefficiency into software. Studying current functionality, drafting the To-Be and changing approval chains are all genuine GPR steps."
+  },
+  {
+   "id": "TECH2_2021-24",
+   "paper": "TECH2",
+   "unit": "4",
+   "sub": "Symptoms of Poor Governance",
+   "question": "Government Process Re-engineering is usually required because –",
+   "options": {
+    "A": "The existing process is not automation ready",
+    "B": "The existing staff are too lazy with manual process",
+    "C": "Taking staff attendance is difficult",
+    "D": "RTI can not be enforced with the current process"
+   },
+   "answer": "A",
+   "explanation": "Legacy manual processes carry redundant approvals, paper artefacts and non-standard steps that cannot simply be lifted into software, so they must be re-engineered to become automation ready. The other options describe staff or compliance grievances rather than the process rationale for GPR."
+  },
+  {
+   "id": "TECH2_2021-25",
+   "paper": "TECH2",
+   "unit": "4",
+   "sub": "Symptoms of Poor Governance",
+   "question": "When should you go for GPR?",
+   "options": {
+    "A": "When the current system is having loopholes",
+    "B": "When approval processes become redundant and lengthy",
+    "C": "When there is communication gap inside the government",
+    "D": "All of the above"
+   },
+   "answer": "D",
+   "explanation": "Loopholes in the current system, redundant and lengthy approval chains, and communication gaps within government are all standard triggers for undertaking GPR. Each on its own is a recognised symptom, so all of them apply."
+  },
+  {
+   "id": "TECH2_2021-26",
+   "paper": "TECH2",
+   "unit": "4",
+   "sub": "GPR and Quality initiatives",
+   "question": "What is the term for incremental changes to processes in a government using information technology?",
+   "options": {
+    "A": "Government Process Improvement",
+    "B": "Government Process Reengineering",
+    "C": "Government Process Change",
+    "D": "Government Process Advance"
+   },
+   "answer": "A",
+   "explanation": "Incremental, step-by-step improvement of existing processes using IT is Government Process Improvement; re-engineering by contrast means radical, fundamental redesign. Confusing improvement with re-engineering is the standard trap in this pair."
+  },
+  {
+   "id": "TECH2_2021-71",
+   "paper": "TECH2",
+   "unit": "4",
+   "sub": "E-Governance and traditional approach to e-Governance",
+   "question": "The main advantage of e-Administration is:",
+   "options": {
+    "A": "Cutting process costs",
+    "B": "Provide staff motivation",
+    "C": "Better citizen interaction",
+    "D": "Data transformation"
+   },
+   "answer": "A",
+   "explanation": "In the standard e-Administration / e-Citizens / e-Society split, e-Administration is about improving internal government processes - cutting process costs, managing performance and making strategic connections. Better citizen interaction belongs to the e-Citizens/e-Services strand, which is the trap here."
+  },
+  {
+   "id": "GEN-TECH2-U4-152",
+   "paper": "TECH2",
+   "unit": "4",
+   "sub": "Service Prioritization",
+   "question": "In a Government Process Re-engineering exercise, services are normally prioritised for re-engineering on the basis of which pair of criteria?",
+   "options": {
+    "A": "The seniority of the officer who owns the service and the age of the rules governing it",
+    "B": "The number of software licences the service will need and the vendor's preference",
+    "C": "The alphabetical order of the services and the size of the department's annual budget",
+    "D": "The volume of citizen transactions the service carries and the impact that re-engineering it would have on citizens"
+   },
+   "answer": "D",
+   "explanation": "Prioritisation puts scarce re-engineering effort where it produces the most relief, which is why high-volume, high-citizen-impact services are taken first, usually weighed against feasibility and the extent of process or rule change required. Ownership seniority and budget size measure the department, not the burden the service places on the public."
+  },
+  {
+   "id": "GEN-TECH2-U4-153",
+   "paper": "TECH2",
+   "unit": "4",
+   "sub": "Service Prioritization",
+   "question": "Once a high-priority service has been selected for e-enablement, why is the process re-engineered before it is automated?",
+   "options": {
+    "A": "Because automation software is unable to read data produced by an unreformed process",
+    "B": "Because automating an unreformed process only makes its redundant steps and approvals run faster instead of removing them",
+    "C": "Because re-engineering is a precondition for the release of any project funds",
+    "D": "Because re-engineering removes the need for user acceptance testing later"
+   },
+   "answer": "B",
+   "explanation": "Automation reproduces whatever process it is given, so digitising a chain of unnecessary forms, affidavits and counter-signatures preserves the delay while adding cost, and the citizen's experience barely improves. Re-engineering first eliminates or merges those steps, and only the surviving process is then automated."
+  },
+  {
+   "id": "GEN-TECH2-U4-154",
+   "paper": "TECH2",
+   "unit": "4",
+   "sub": "Service Prioritization",
+   "question": "For a service shortlisted as a re-engineering priority, an as-is process study is carried out in order to",
+   "options": {
+    "A": "establish the actual steps, hand-offs, elapsed time and pain points of the service as delivered today, giving a baseline for the to-be design",
+    "B": "record the specifications of the computer hardware currently in use at the counters",
+    "C": "assess whether the department's staff in position matches its sanctioned posts",
+    "D": "list the vendors that have previously supplied software to the department"
+   },
+   "answer": "A",
+   "explanation": "The as-is map documents what really happens, including undocumented steps and waiting time between desks, which is where most of the delay usually turns out to sit, and it provides the baseline against which the to-be design and its benefits are measured. Hardware inventories and staffing returns describe resources, not the flow of the process."
+  }
+ ]
+}

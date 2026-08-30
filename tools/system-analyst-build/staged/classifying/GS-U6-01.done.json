@@ -1,0 +1,22 @@
+[
+ { "id": "GEN-190", "mode": "memorise", "confidence": "high",
+   "why": "Unit names honour people; which quantity 'watt' attaches to is convention, not derivation." },
+ { "id": "GEN-191", "mode": "calculate", "confidence": "high",
+   "why": "a = F/m applied to the stem's numbers; regenerate with any mass and force and the method still works." },
+ { "id": "GEN-192", "mode": "memorise", "confidence": "high",
+   "why": "A remembered physical constant; the magnitude cannot be reasoned out." },
+ { "id": "GEN-193", "mode": "understand", "confidence": "high",
+   "why": "Follows from what identifies an element; the mass-number distractor falls away on understanding, not recall." },
+ { "id": "GEN-194", "mode": "memorise", "confidence": "medium",
+   "why": "The neutral value is read off a remembered scale; deriving it needs the equally remembered ionic product of water." },
+ { "id": "GEN-195", "mode": "understand", "confidence": "medium",
+   "why": "The stem states the function, and organelle function is conceptual cell biology rather than an arbitrary list." },
+ { "id": "GEN-196", "mode": "understand", "confidence": "high",
+   "why": "Follows from what immunity is; each distractor describes a mechanism a vaccine plainly is not." },
+ { "id": "GEN-197", "mode": "understand", "confidence": "medium",
+   "why": "The term's meaning follows from 'hetero' versus 'homo' and from what an allele pair is." },
+ { "id": "GEN-198", "mode": "memorise", "confidence": "high",
+   "why": "A specific mission's landing site and date; a current-affairs particular." },
+ { "id": "GEN-199", "mode": "understand", "confidence": "high",
+   "why": "Follows from what reactors actually do; fusion and plasma confinement are excluded by understanding, not recall." }
+]

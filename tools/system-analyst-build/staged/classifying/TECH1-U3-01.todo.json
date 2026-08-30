@@ -1,0 +1,456 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 30,
+ "questions": [
+  {
+   "id": "TECH1_2024-41",
+   "paper": "TECH1",
+   "unit": "3",
+   "sub": "Application Deployment",
+   "question": "A web server software from Microsoft that runs on windows platform is —",
+   "options": {
+    "A": "WAMPP",
+    "B": "IIS",
+    "C": "Apache",
+    "D": "WinServ"
+   },
+   "answer": "B",
+   "explanation": "Internet Information Services (IIS) is Microsoft's own web-server software, built into Windows Server/Windows and used to host ASP.NET and other web applications. WAMPP is an open-source Apache/MySQL/PHP/Perl stack for Windows, not a Microsoft product. Apache is open-source and cross-platform, not Microsoft-specific. 'WinServ' is not a real product name, a fabricated distractor. Since the question specifically asks for a Microsoft-authored web server for Windows, IIS is the only genuine match once the OCR garbling is corrected."
+  },
+  {
+   "id": "TECH1_2024-42",
+   "paper": "TECH1",
+   "unit": "3",
+   "sub": "Basic .NET Framework",
+   "question": "As ___ is for Java, ___ is for .net.",
+   "options": {
+    "A": "Bytecode, Intermediate code",
+    "B": "Source code, XML",
+    "C": "Bytecode, XML",
+    "D": "XML, CSV"
+   },
+   "answer": "A",
+   "explanation": "Java source code compiles to bytecode, a platform-independent intermediate format executed by the JVM. .NET source code (C#, VB.NET, etc.) similarly compiles to Common Intermediate Language (CIL/MSIL) - 'Intermediate code' - executed by the Common Language Runtime (CLR) via JIT compilation. Both ecosystems use this compile-then-execute-on-a-virtual-machine model. The other pairings mix in unrelated concepts (source code, XML, CSV) that are not the direct architectural analogue of Java bytecode. 'Bytecode, Intermediate code' correctly captures the parallel platform-independent execution formats of Java and .NET."
+  },
+  {
+   "id": "TECH1_2024-43",
+   "paper": "TECH1",
+   "unit": "3",
+   "sub": "Windows Workflow Foundation",
+   "question": "Which of the following is Microsoft technology that helps developers build interactive, workflow engines and a rehostable designer to implement long-running processes?",
+   "options": {
+    "A": "Windows Workflow Foundation",
+    "B": "Microsoft Workflow Engine",
+    "C": "Microsoft Process Workflow",
+    "D": "Windows Server System"
+   },
+   "answer": "A",
+   "explanation": "Windows Workflow Foundation (WWF/WF) is a Microsoft .NET technology specifically designed to let developers model, execute, and manage long-running workflows and business processes using a rehostable, visual workflow designer plus a runtime engine. 'Microsoft Workflow Engine' and 'Microsoft Process Workflow' are not real product names, plausible-sounding decoys. 'Windows Server System' is an unrelated broader Microsoft server product branding, not a workflow-authoring technology. Since the description matches WWF's actual documented purpose precisely, option (a) is correct."
+  },
+  {
+   "id": "TECH1_2024-44",
+   "paper": "TECH1",
+   "unit": "3",
+   "sub": "Basic .NET Framework",
+   "question": ".NET framework is basically —",
+   "options": {
+    "A": "Operating System",
+    "B": "Application Software",
+    "C": "Language",
+    "D": "Platform"
+   },
+   "answer": "D",
+   "explanation": ".NET Framework is a software development platform - it bundles a runtime (the CLR), a large class library (FCL/BCL), and supporting services on which other applications and languages (C#, VB.NET, F#) are built and executed. It is not an operating system (it runs atop Windows), nor a single application, nor merely 'a language' (it hosts multiple languages). Because it provides the whole execution/development environment rather than being any one program or OS, 'Platform' is the accurate, standard classification."
+  },
+  {
+   "id": "TECH1_2024-45",
+   "paper": "TECH1",
+   "unit": "3",
+   "sub": "Language-Integrated Query (LINQ)",
+   "question": "A set of technologies based on the integration of query capabilities directly into the C# language is —",
+   "options": {
+    "A": "Language-Integrated Query (LINQ)",
+    "B": "Microsoft Structured Query Language (Microsoft SQL)",
+    "C": "Unified Modelling Language (UML)",
+    "D": "Extensible Markup Language (XML)"
+   },
+   "answer": "A",
+   "explanation": "Language-Integrated Query (LINQ) is Microsoft's technology that embeds query syntax directly into .NET languages like C#, allowing developers to query collections, XML, and databases using consistent, language-native syntax rather than separate query strings. Microsoft SQL is a database query language used inside SQL Server, not integrated into C# syntax. UML is a modelling notation, unrelated to querying. XML is a markup/data format, not a query technology. Because the question specifically describes query capability built into the C# language itself, LINQ is the only correct match."
+  },
+  {
+   "id": "TECH1_2024-46",
+   "paper": "TECH1",
+   "unit": "3",
+   "sub": "Remoting, Web Services and WCF",
+   "question": "What is Windows Communication Foundation?",
+   "options": {
+    "A": "Framework for building service-oriented applications",
+    "B": "Framework for building web applications",
+    "C": "Framework for building database applications",
+    "D": "Framework for building secured network"
+   },
+   "answer": "A",
+   "explanation": "Windows Communication Foundation (WCF) is Microsoft's unified framework for building service-oriented applications - components communicate via various protocols (HTTP, TCP, named pipes, MSMQ) using SOAP/REST-style services, replacing older separate technologies like Remoting and ASMX web services. It is not primarily a web-application framework (that's ASP.NET/MVC), a database framework (that's ADO.NET/Entity Framework), or a dedicated network-security framework (security is one feature among many, not its defining purpose). Because service-orientation is WCF's core design goal, option (a) is correct."
+  },
+  {
+   "id": "TECH1_2024-47",
+   "paper": "TECH1",
+   "unit": "3",
+   "sub": "WPF and Silverlight",
+   "question": "A free and open-source user interface framework for Windows-based desktop applications is —",
+   "options": {
+    "A": "Windows Presentation Foundation",
+    "B": "Windows Desktop AppDev",
+    "C": "Microsoft Store",
+    "D": "Microsoft Azure"
+   },
+   "answer": "A",
+   "explanation": "Windows Presentation Foundation (WPF) is Microsoft's UI framework for building rich Windows desktop applications using XAML; since .NET Core 3.0 (2019) Microsoft open-sourced WPF, making it free and open-source, matching the question's description. 'Windows Desktop AppDev' is not a real named framework. Microsoft Store is an app distribution platform, not a UI framework. Microsoft Azure is a cloud computing platform, unrelated to desktop UI. Because WPF specifically fits both the 'UI framework for Windows desktop apps' and the 'open-source' criteria, option (a) is correct."
+  },
+  {
+   "id": "TECH1_2024-48",
+   "paper": "TECH1",
+   "unit": "3",
+   "sub": ".NET Assemblies",
+   "question": "Which of the following components of the .NET framework provide an extensible set of classes that can be used by any .NET compliant programming language?",
+   "options": {
+    "A": ".NET class libraries",
+    "B": "Common Language Executables",
+    "C": "Common Class Library",
+    "D": ".NET Lib"
+   },
+   "answer": "A",
+   "explanation": ".NET class libraries (the Framework/Base Class Library) provide an extensible, reusable set of pre-built classes, interfaces, and value types that any language targeting the Common Language Runtime - C#, VB.NET, F# - can call into, covering collections, I/O, networking, and more. 'Common Language Executables' and 'Common Class Library' are not real, standard .NET component names; they are decoys resembling genuine terms like CLR and CLS. '.NET Lib' is likewise not an official component name. Because class libraries are explicitly documented as the reusable, language-agnostic class set, option (a) is correct."
+  },
+  {
+   "id": "TECH1_2024-49",
+   "paper": "TECH1",
+   "unit": "3",
+   "sub": "ADO.NET",
+   "question": "How can you manage connection pooling in ADO.NET?",
+   "options": {
+    "A": "By configuring connection pooling settings in the connection string",
+    "B": "By manually creating and destroying connections",
+    "C": "By using a DataAdapter",
+    "D": "By implementing custom connection classes"
+   },
+   "answer": "A",
+   "explanation": "ADO.NET manages connection pooling automatically and transparently based on settings embedded in the connection string (e.g., Min Pool Size, Max Pool Size, Pooling=true/false); developers configure pooling behaviour there rather than writing custom pooling logic. Manually creating/destroying connections defeats the purpose of pooling (reusing connections), which is exactly what pooling is meant to avoid. A DataAdapter is for filling/updating DataSets, unrelated to pool management. Implementing custom connection classes is unnecessary since ADO.NET's built-in provider already handles pooling. Hence configuring the connection string is the correct, documented approach."
+  },
+  {
+   "id": "TECH1_2024-50",
+   "paper": "TECH1",
+   "unit": "3",
+   "sub": "ASP.NET",
+   "question": "In ASP.NET MVC, what is the purpose of the ViewModel?",
+   "options": {
+    "A": "To handle the logic of the view",
+    "B": "To serve as a data transfer object between the controller and the view",
+    "C": "To manage the state of the model",
+    "D": "To provide methods for data access"
+   },
+   "answer": "B",
+   "explanation": "In ASP.NET MVC, a ViewModel is a plain object specifically shaped to carry exactly the data a view needs, acting as a data-transfer object between the Controller (which populates it) and the View (which renders it), often combining/reshaping data from one or more domain models. It does not itself contain view logic (that's the view/Razor code), does not manage the domain model's persistence state, and is not a data-access mechanism. Because its defining role is transporting tailored data from controller to view, option (b) is correct."
+  },
+  {
+   "id": "TECH1_2024-51",
+   "paper": "TECH1",
+   "unit": "3",
+   "sub": ".NET Programming Concepts",
+   "question": "What is the role of the Garbage Collector in .NET?",
+   "options": {
+    "A": "To manage application security",
+    "B": "To handle file I/O operations",
+    "C": "To automatically reclaim memory occupied by unused objects",
+    "D": "To compile intermediate language code into machine code"
+   },
+   "answer": "C",
+   "explanation": "The .NET Garbage Collector (GC) automatically tracks managed heap objects and reclaims memory from objects that are no longer reachable by the running program, freeing the developer from manual memory deallocation. (A) confuses it with the Code Access Security/CLR security subsystem. (B) describes file/stream classes, unrelated to memory. (D) describes the JIT compiler, which converts CIL/MSIL into native machine code at runtime -- a completely separate CLR service from garbage collection."
+  },
+  {
+   "id": "TECH1_2024-52",
+   "paper": "TECH1",
+   "unit": "3",
+   "sub": "ASP.NET AJAX",
+   "question": "Which ASP.NET AJAX control is used to periodically update content on the page without user interaction?",
+   "options": {
+    "A": "UpdatePanel",
+    "B": "ScriptManager",
+    "C": "AsyncPostBackTrigger",
+    "D": "Timer"
+   },
+   "answer": "D",
+   "explanation": "The Timer control raises an asynchronous postback at a configurable interval automatically, with no click or other user action needed -- typically wired as a trigger for an UpdatePanel to refresh a ticker or dashboard region on a schedule. UpdatePanel (A) is merely the container whose contents get refreshed; it needs something else to fire the update. ScriptManager (B) is the required page-level manager that enables partial-page rendering but does not itself trigger updates. AsyncPostBackTrigger (C) links a specific control's event to an UpdatePanel, it does not generate periodic events on its own."
+  },
+  {
+   "id": "TECH1_2024-53",
+   "paper": "TECH1",
+   "unit": "3",
+   "sub": "XML",
+   "question": "What does the xmlns attribute define in an XML document?",
+   "options": {
+    "A": "The version of XML being used",
+    "B": "The encoding used in the XML document",
+    "C": "The namespace for XML elements and attributes",
+    "D": "The schema for XML validation"
+   },
+   "answer": "C",
+   "explanation": "xmlns declares an XML namespace, associating a URI with a prefix so element and attribute names from different vocabularies can coexist in one document without name collisions. The XML version (A) is stated in the <?xml version=\"1.0\"?> declaration, encoding (B) is the encoding attribute of that same declaration, and validation schema references (D) use xsi:schemaLocation or a DOCTYPE, not xmlns itself, though xmlns is often used alongside them to identify the schema's namespace."
+  },
+  {
+   "id": "TECH1_2024-54",
+   "paper": "TECH1",
+   "unit": "3",
+   "sub": "WPF and Silverlight",
+   "question": "What is the main difference between WPF and Silverlight regarding control templates?",
+   "options": {
+    "A": "WPF supports control templates but Silverlight does not.",
+    "B": "Silverlight uses XAML for control templates, while WPF uses C#.",
+    "C": "Silverlight has a limited set of controls and therefore fewer control templates.",
+    "D": "WPF and Silverlight use identical control templates with no differences."
+   },
+   "answer": "C",
+   "explanation": "Silverlight was designed as a lightweight, browser-plugin subset of WPF for cross-platform web delivery, so it ships with fewer built-in controls and consequently a smaller library of default control templates than the full desktop WPF framework. (A) is wrong because Silverlight does support templating. (B) is wrong because both platforms use XAML for templates, not C# (C# is used for code-behind logic in both). (D) is wrong because the two frameworks diverge precisely in control coverage and template richness, which is the point being tested."
+  },
+  {
+   "id": "TECH1_2024-55",
+   "paper": "TECH1",
+   "unit": "3",
+   "sub": "WPF and Silverlight",
+   "question": "In WPF, what does the ICommand interface represent?",
+   "options": {
+    "A": "A command that can be executed, usually from a button or menu item",
+    "B": "A method that performs data binding",
+    "C": "An interface for handling mouse and keyboard events",
+    "D": "A class that handles the layout of UI elements"
+   },
+   "answer": "A",
+   "explanation": "ICommand is the core of WPF's Command pattern-based input model: it exposes Execute() and CanExecute() plus a CanExecuteChanged event, letting a single command object be bound to multiple UI triggers (a Button, a MenuItem, a key gesture) so the UI stays decoupled from the logic it invokes. (B) describes data-binding infrastructure like Binding/INotifyPropertyChanged, not ICommand. (C) describes routed input events (MouseDown, KeyDown), and (D) describes layout panels (Grid, StackPanel) -- both unrelated to the command abstraction."
+  },
+  {
+   "id": "TECH1_OLD-41",
+   "paper": "TECH1",
+   "unit": "3",
+   "sub": "ADO.NET",
+   "question": "Syntax for opening and closing the connection in ADO.net is:",
+   "options": {
+    "A": "sqlConn.Open() and sqlConn.close()",
+    "B": "sqlConn.open() and sqlConn.Close()",
+    "C": "sqlConn.Open() and sqlConn.Close()",
+    "D": "None of the mentioned"
+   },
+   "answer": "C",
+   "explanation": "In ADO.NET, SqlConnection exposes the methods Open() and Close(), both capitalized, following the .NET/C# convention that public method names use PascalCase. Option (a) lowercases 'close()' and option (b) lowercases 'open()', both of which are invalid method names in C# (case-sensitive language) and would fail to compile/resolve. Only option (c), with both Open() and Close() correctly capitalized, matches the actual SqlConnection API surface, so it is the correct syntax."
+  },
+  {
+   "id": "TECH1_OLD-42",
+   "paper": "TECH1",
+   "unit": "3",
+   "sub": "ASP.NET AJAX",
+   "question": "Which interface you will use wrap an AJAX client control into a custom server control?",
+   "options": {
+    "A": "IScriptManager",
+    "B": "IScriptControl",
+    "C": "IScriptAJAX",
+    "D": "None of the above"
+   },
+   "answer": "B",
+   "explanation": "ASP.NET AJAX provides the IScriptControl interface specifically so a server control can wrap/expose a client-side (JavaScript) AJAX control, by implementing methods like GetScriptDescriptors() and GetScriptReferences(). IScriptManager is not a real .NET interface (ScriptManager is a control, not implemented via such an interface for this purpose), and IScriptAJAX does not exist in the framework at all. Since IScriptControl is the documented, purpose-built interface for this exact scenario, (b) is correct."
+  },
+  {
+   "id": "TECH1_OLD-43",
+   "paper": "TECH1",
+   "unit": "3",
+   "sub": "Ajax",
+   "question": "Which of the following is true?\n1. AJAX is a platform-independent technology\n2. AJAX can work with web application\n3. AJAX can only work with ASP.NET\n4. AJAX is a platform-dependent technology",
+   "options": {
+    "A": "1, 2",
+    "B": "1, 2, 3",
+    "C": "1, 3, 4",
+    "D": "None of the above"
+   },
+   "answer": "A",
+   "explanation": "AJAX (Asynchronous JavaScript and XML) is built on standard browser technologies (JavaScript, XMLHttpRequest/fetch, DOM, XML/JSON) that work across operating systems, browsers and server-side platforms, so it is genuinely platform-independent (statement 1) and can be used with any web application (statement 2), not just .NET ones. Statement 3 is false since AJAX works equally with PHP, Java, Node.js etc., not only ASP.NET, and statement 4 directly contradicts statement 1 and is false. Since exactly statements 1 and 2 are true, the correct option is (a)."
+  },
+  {
+   "id": "TECH1_OLD-44",
+   "paper": "TECH1",
+   "unit": "3",
+   "sub": "Language-Integrated Query (LINQ)",
+   "question": "What types of Objects can you query using LINQ?",
+   "options": {
+    "A": "DataTables and DataSets",
+    "B": "Any .NET Framework collection that implements IEnumerable(T)",
+    "C": "Collections that implement interfaces that inherit from IEnumerable(T)",
+    "D": "All of the above"
+   },
+   "answer": "D",
+   "explanation": "LINQ (Language-Integrated Query) can query any data source that exposes an IEnumerable<T> (or IQueryable<T>) surface: this includes plain .NET collections implementing IEnumerable<T> directly, collections implementing other interfaces that themselves inherit from IEnumerable<T> (e.g., IList<T>, ICollection<T>), and ADO.NET DataTables/DataSets via LINQ to DataSet extension methods. Since all three listed categories are genuinely queryable with LINQ and none of them is exclusive of the others, the umbrella answer 'All of the above' is correct."
+  },
+  {
+   "id": "TECH1_OLD-45",
+   "paper": "TECH1",
+   "unit": "3",
+   "sub": "Basic .NET Framework",
+   "question": "Which of the following are NOT true about .NET Framework?\n1. It provides a consistent object-oriented programming environment whether object code is stored and executed locally, executed locally but Internet-distributed, or executed remotely.\n2. It provides a code-execution environment that minimizes software deployment and versioning conflicts.\n3. It provides a code-execution environment that promotes safe execution of code, including code created by an unknown or semi-trusted third party.\n4. It provides different programming models for Windows-based applications and Web-based applications.\n5. It provides an event driven programming model for building Windows Device Drivers.",
+   "options": {
+    "A": "1, 2",
+    "B": "2, 4",
+    "C": "4, 5",
+    "D": "1, 2, 4"
+   },
+   "answer": "C",
+   "explanation": "Statements 1, 2 and 3 are verbatim from Microsoft's own description of the .NET Framework's goals and are true. Statement 4 is false as worded: .NET's actual stated benefit is providing a CONSISTENT programming model across Windows-based and Web-based applications (so developers can move skills between them), not 'different' models -- 'different' inverts the real design goal. Statement 5 is false because the .NET Framework's managed, garbage-collected runtime is not used to build kernel-mode Windows device drivers (those use WDM/KMDF/C in unmanaged code), so .NET does not provide an event-driven model for drivers. Since 4 and 5 are the false statements, (c) is correct."
+  },
+  {
+   "id": "TECH1_OLD-46",
+   "paper": "TECH1",
+   "unit": "3",
+   "sub": "WPF and Silverlight",
+   "question": "Windows Presentation Foundation (WPF) introduces __________ events that can invoke handlers that exist on various listeners in the element tree of an application.",
+   "options": {
+    "A": "routed",
+    "B": "bubbled",
+    "C": "child",
+    "D": "None of above"
+   },
+   "answer": "A",
+   "explanation": "WPF's signature event model is the Routed Event, which can travel through the visual/logical element tree via tunneling (from root down) or bubbling (from source up), invoking handlers registered on any listener along that path, not just the element where the event originated. 'Bubbling' is only one of the two traversal directions a routed event can take, so it is a subset concept, not the framework-level term being asked for. 'Child' events and a bare 'None' are not WPF terminology at all, making 'routed' the precise and complete answer."
+  },
+  {
+   "id": "TECH1_OLD-47",
+   "paper": "TECH1",
+   "unit": "3",
+   "sub": "WPF and Silverlight",
+   "question": "What are the components of Silverlight?",
+   "options": {
+    "A": "Silverlight Plug-in",
+    "B": "Silverlight Host, the Web Page",
+    "C": "Silverlight Application File (.XAP)",
+    "D": "All of these"
+   },
+   "answer": "D",
+   "explanation": "A Silverlight application is composed of several cooperating pieces: the Silverlight browser Plug-in that executes the runtime inside the browser, the Host web page that embeds the plug-in via an object/embed tag, and the packaged Application File (.XAP) that bundles the compiled assemblies, XAML and resources delivered to the client. Since each of (a), (b) and (c) names a genuine, necessary component of a working Silverlight deployment rather than an alternative to the others, 'All of these' is the correct, complete answer."
+  },
+  {
+   "id": "TECH1_OLD-48",
+   "paper": "TECH1",
+   "unit": "3",
+   "sub": "XML",
+   "question": "Comment in XML document is given by:",
+   "options": {
+    "A": "<?-- -->",
+    "B": "<!-- --!>",
+    "C": "<!-- -->",
+    "D": "</-- -- >"
+   },
+   "answer": "C",
+   "explanation": "The XML (and HTML/SGML) comment syntax is <!-- comment text -->, opening with '<!--' and closing with '-->'. Option (a) wrongly uses '<?--' (confusing it with a processing instruction marker '<?'), option (b) wrongly closes with '--!>' instead of '-->', and option (d) uses an invalid closing-tag-like syntax '</--'. Only option (c) reproduces the exact, well-formed XML comment delimiters, so it is correct."
+  },
+  {
+   "id": "TECH1_OLD-49",
+   "paper": "TECH1",
+   "unit": "3",
+   "sub": "Basic .NET Framework",
+   "question": "Which of the following statements are TRUE about the .NET CLR?\ni) It provides a language-neutral development & execution environment.\nii) It ensures that an application would not be able to access memory that it is not authorized to access.\niii) It provides services to run \"managed\" applications.\niv) The resources are garbage collected.",
+   "options": {
+    "A": "Only i) and ii)",
+    "B": "Only i), ii) and iv)",
+    "C": "Only iii) and iv)",
+    "D": "All of them"
+   },
+   "answer": "D",
+   "explanation": "The Common Language Runtime is designed precisely to deliver all four listed capabilities: it is language-neutral, hosting C#, VB.NET, F# and others against the same runtime (i); it enforces type safety and memory-access boundaries so managed code cannot read/write arbitrary unauthorized memory (ii); its entire purpose is to execute 'managed' applications under its services such as JIT compilation, exception handling and security (iii); and it uses an automatic garbage collector to reclaim unused memory (iv). Since none of these four statements is false, 'All of them' is correct."
+  },
+  {
+   "id": "TECH1_OLD-50",
+   "paper": "TECH1",
+   "unit": "3",
+   "sub": ".NET Assemblies",
+   "question": "Which of the following components of the .NET framework provide an extensible set of classes that can be used by any .NET compliant programming language?",
+   "options": {
+    "A": ".NET class libraries",
+    "B": "Common Language Runtime",
+    "C": "Common Language Infrastructure",
+    "D": "Component Object Model"
+   },
+   "answer": "A",
+   "explanation": "The .NET (Framework) Class Libraries are the extensible collections of reusable, pre-built classes, interfaces and value types (for I/O, collections, networking, etc.) that any language targeting the Common Language Runtime -- C#, VB.NET, F#, managed C++ -- can consume identically. The Common Language Runtime (b) is the execution engine that runs the code, not the source of the class set itself. The Common Language Infrastructure (c) is the underlying specification/standard the CLR implements, an abstract spec rather than a set of usable classes. COM (d) is an older, pre-.NET binary component model unrelated to the managed class library. Hence (a) is correct."
+  },
+  {
+   "id": "TECH1_OLD-51",
+   "paper": "TECH1",
+   "unit": "3",
+   "sub": "ASP.NET",
+   "question": "In ASP.NET, which commands are used to specify settings of an .aspx file?",
+   "options": {
+    "A": "Class",
+    "B": "Directives",
+    "C": "Events",
+    "D": "Validation"
+   },
+   "answer": "B",
+   "explanation": "Directives such as @Page, @Import and @Register appear at the top of an .aspx file and configure how ASP.NET parses and processes the page (language, buffering, master page, imported namespaces, etc.). 'Class' is a code-level construct, not a page directive; 'Events' are runtime callbacks like Page_Load; 'Validation' refers to input validator controls. None of those three configure the file's page-level settings the way directives do."
+  },
+  {
+   "id": "TECH1_OLD-52",
+   "paper": "TECH1",
+   "unit": "3",
+   "sub": "ASP.NET",
+   "question": "Which of the following statement is correct in ASP.NET?",
+   "options": {
+    "A": "Anonymous types are class types that derive directly from object.",
+    "B": "Anonymous types are not class types that derive directly from object.",
+    "C": "Anonymous types are class types that derive directly from System.Class.",
+    "D": "None of the above"
+   },
+   "answer": "A",
+   "explanation": "In .NET, an anonymous type (created with 'new { ... }') is compiler-generated but is still a genuine reference (class) type, and like every class it derives directly from System.Object. Option (B) contradicts this. Option (C) invents a non-existent base type named 'System.Class' (C# has no such type - classes are described via System.Type, not System.Class), so it is a distractor built on a plausible-sounding but fake name."
+  },
+  {
+   "id": "TECH1_OLD-53",
+   "paper": "TECH1",
+   "unit": "3",
+   "sub": "Application Deployment",
+   "question": "Which of the following web server is developed by Microsoft?",
+   "options": {
+    "A": "Apache Tomcat",
+    "B": "Caudium",
+    "C": "Internet Information Service (IIS)",
+    "D": "WEBrick"
+   },
+   "answer": "C",
+   "explanation": "Internet Information Services (IIS) is Microsoft's own web server, bundled with Windows and Windows Server, and is the standard host for ASP.NET applications. Apache Tomcat is an Apache Software Foundation Java servlet/JSP container, Caudium is an open-source server built on the Pike language, and WEBrick is Ruby's built-in HTTP server library - none of these three belong to Microsoft, so they are eliminated even without deep familiarity with each product."
+  },
+  {
+   "id": "TECH1_OLD-54",
+   "paper": "TECH1",
+   "unit": "3",
+   "sub": "ADO.NET",
+   "question": "To use the .NET Framework Data Provider for SQL Server, an application must reference the __________ namespace.",
+   "options": {
+    "A": "System.Data.Client",
+    "B": "System.Data.SqlClient",
+    "C": "System.Data.Sql",
+    "D": "None of the mentioned"
+   },
+   "answer": "B",
+   "explanation": "ADO.NET's SQL Server data provider classes (SqlConnection, SqlCommand, SqlDataReader, etc.) live in the System.Data.SqlClient namespace. 'System.Data.Client' and 'System.Data.Sql' are near-miss names that do not exist as the actual provider namespace in classic .NET Framework - the reliable pattern is 'provider name + Client' (SqlClient, OleDbClient, OdbcClient), which resolves any similar ADO.NET naming question."
+  },
+  {
+   "id": "TECH1_OLD-55",
+   "paper": "TECH1",
+   "unit": "3",
+   "sub": "Basic .NET Framework",
+   "question": "Which of the following are parts of the .NET Framework?\ni) The Common Language Runtime (CLR)\nii) The Framework Class Libraries (FCL)\niii) Microsoft Published Web Services\niv) Applications deployed on IIS\nv) Mobile Applications",
+   "options": {
+    "A": "Only 1, 2, 3",
+    "B": "Only 1, 2",
+    "C": "Only 1, 2, 4",
+    "D": "Only 4, 5"
+   },
+   "answer": "A",
+   "explanation": "Microsoft's original description of the .NET Framework names three constituent parts: the Common Language Runtime (the execution engine), the Framework Class Library (the shared class hierarchy), and a set of Microsoft-published web services for building distributed applications - all three ship as part of the platform itself. Applications deployed on IIS and mobile applications are things built ON TOP of the framework using its runtime and libraries - they are consumers of .NET, not components of it, so answers including item iv or v mistake users of the platform for the platform."
+  }
+ ]
+}

@@ -1,0 +1,186 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 12,
+ "questions": [
+  {
+   "id": "GEN-264",
+   "paper": "TECH3",
+   "unit": "C",
+   "sub": "Odd figure out",
+   "question": "Four figures are described below. In figure A, a square has both of its diagonals drawn (2 internal lines). In figure B, a square has both of its diagonals drawn (2 internal lines). In figure C, a square has only one diagonal drawn (1 internal line). In figure D, a square has both of its diagonals drawn (2 internal lines). Which figure is the odd one out?",
+   "options": {
+    "A": "Figure A",
+    "B": "Figure B",
+    "C": "Figure C",
+    "D": "Figure D"
+   },
+   "answer": "C",
+   "explanation": "Figures A, B and D each have exactly 2 internal diagonal lines drawn inside the square. Figure C has only 1 diagonal line, breaking the shared pattern, so it is the odd one out."
+  },
+  {
+   "id": "GEN-265",
+   "paper": "TECH3",
+   "unit": "C",
+   "sub": "Next figure in a sequence",
+   "question": "A square has a dot marked in its top-left corner in figure 1. In figure 2, the dot has moved to the top-right corner. In figure 3, the dot has moved to the bottom-right corner. If the dot continues moving in the same rotational pattern, where will it be in figure 4?",
+   "options": {
+    "A": "Top-left corner",
+    "B": "Top-right corner",
+    "C": "Bottom-right corner",
+    "D": "Bottom-left corner"
+   },
+   "answer": "D",
+   "explanation": "The dot is moving one corner clockwise at each step: top-left -> top-right -> bottom-right -> (next clockwise corner) bottom-left. So in figure 4 the dot will be at the bottom-left corner."
+  },
+  {
+   "id": "GEN-266",
+   "paper": "TECH3",
+   "unit": "C",
+   "sub": "Figure analogy",
+   "question": "Circle is to Sphere as Square is to ?",
+   "options": {
+    "A": "Cube",
+    "B": "Cylinder",
+    "C": "Cone",
+    "D": "Rectangle"
+   },
+   "answer": "A",
+   "explanation": "A sphere is the 3-D solid whose every cross-section (in the relevant sense) corresponds to a 2-D circle; analogously, a cube is the 3-D solid built from square faces. The relationship is '2-D shape : corresponding 3-D solid', so Square : Cube."
+  },
+  {
+   "id": "GEN-267",
+   "paper": "TECH3",
+   "unit": "C",
+   "sub": "Mirror images and water images",
+   "question": "The capital letter 'F' is held up in front of a plane mirror placed to its right (a vertical mirror). Which of the following best describes the mirror image?",
+   "options": {
+    "A": "A left-right reversed (backward) F",
+    "B": "An upside-down F",
+    "C": "The image looks exactly like the original F",
+    "D": "The image is F rotated by 180 degrees"
+   },
+   "answer": "A",
+   "explanation": "A vertical mirror reflects left-right (as if flipping about a vertical axis) while keeping up-down unchanged. 'F' has its vertical spine on the left with horizontal arms extending to the right; its mirror image has the spine on the right with the arms extending to the left -- a left-right reversed, 'backward' F. This is different from an upside-down F (which would result from flipping top-to-bottom) or a 180-degree rotation (which flips both left-right and top-bottom)."
+  },
+  {
+   "id": "GEN-268",
+   "paper": "TECH3",
+   "unit": "C",
+   "sub": "Mirror images and water images",
+   "question": "For the word 'CODE', which statement correctly describes its water image (its reflection as seen in still water directly below the word)?",
+   "options": {
+    "A": "The letters stay in the same left-to-right order C-O-D-E, but each letter appears upside down",
+    "B": "The letters appear in the reversed order E-D-O-C",
+    "C": "The water image is identical to the mirror image of the word",
+    "D": "The letters remain completely unchanged"
+   },
+   "answer": "A",
+   "explanation": "A water image is a top-to-bottom (vertical) reflection, as if the word were reflected in a horizontal water surface below it. This inverts each letter upside down but does NOT reverse the left-to-right order of the letters (that reversal only happens in a left-right mirror image). So the water image shows C-O-D-E in the same order, each letter upside down."
+  },
+  {
+   "id": "GEN-269",
+   "paper": "TECH3",
+   "unit": "C",
+   "sub": "Paper folding and paper cutting",
+   "question": "A square sheet of paper is folded once from left to right (the left edge is brought exactly onto the right edge), and then folded once more from top to bottom (the top edge is brought exactly onto the bottom edge). This produces a small folded square with four layers of paper. The corner of this small folded square that corresponds to the exact center of the original sheet is now punched with a single hole. When the sheet is completely unfolded, how many holes appear on it, and where?",
+   "options": {
+    "A": "Four holes, one in each quadrant of the sheet",
+    "B": "One hole, exactly at the center of the original sheet",
+    "C": "Two holes, along the vertical fold line",
+    "D": "Four holes, one at each corner of the sheet"
+   },
+   "answer": "B",
+   "explanation": "Each of the two folds brings a point closer to the center. The corner of the small folded square that lies at the meeting point of both fold lines corresponds to the exact center of the original, unfolded sheet -- and in all four layers, that corner is the very same physical point (the center). A hole punched there therefore appears in all four layers at the identical location, producing just one hole, located at the center of the sheet (not four separate holes, which would only happen if the hole were punched away from the fold-intersection corner)."
+  },
+  {
+   "id": "GEN-270",
+   "paper": "TECH3",
+   "unit": "C",
+   "sub": "Cubes and dice",
+   "question": "On a cube, opposite faces are numbered so that 1 is opposite 6, 2 is opposite 5, and 3 is opposite 4 (as on a standard die). The cube is placed on a table so that face '2' points straight up and face '3' faces the observer (i.e., points south). Which number faces north?",
+   "options": {
+    "A": "1",
+    "B": "4",
+    "C": "5",
+    "D": "6"
+   },
+   "answer": "B",
+   "explanation": "North is directly opposite south. The face pointing south (toward the observer) is '3', and it is given that 3 is opposite 4. Therefore the face pointing north must be '4'. (This holds regardless of the cube's rotation about the vertical axis, since the question only asks about the face directly opposite the given south-facing face.)"
+  },
+  {
+   "id": "GEN-271",
+   "paper": "TECH3",
+   "unit": "C",
+   "sub": "Embedded and hidden figures",
+   "question": "In the string 'XCATCATXCATY', how many times does the hidden sequence of letters 'CAT' appear as a run of three consecutive letters (occurrences may not overlap with each other)?",
+   "options": {
+    "A": "2",
+    "B": "3",
+    "C": "4",
+    "D": "5"
+   },
+   "answer": "B",
+   "explanation": "Writing out the string with positions: X(1) C(2) A(3) T(4) C(5) A(6) T(7) X(8) C(9) A(10) T(11) Y(12). 'CAT' appears at positions 2-4, at positions 5-7, and at positions 9-11 -- three non-overlapping occurrences in total."
+  },
+  {
+   "id": "GEN-272",
+   "paper": "TECH3",
+   "unit": "C",
+   "sub": "Counting figures",
+   "question": "A rectangle is divided by 2 evenly spaced vertical lines and 1 horizontal line drawn inside it, creating a grid of 3 columns and 2 rows (6 smallest cells in total). Counting rectangles of every possible size, including the outer rectangle itself, how many rectangles are there in the figure?",
+   "options": {
+    "A": "6",
+    "B": "12",
+    "C": "18",
+    "D": "24"
+   },
+   "answer": "C",
+   "explanation": "With 3 columns there are 4 vertical lines in total (2 drawn + 2 outer edges), and with 2 rows there are 3 horizontal lines in total (1 drawn + 2 outer edges). Any rectangle is formed by choosing 2 of the vertical lines and 2 of the horizontal lines: C(4,2) x C(3,2) = 6 x 3 = 18 rectangles."
+  },
+  {
+   "id": "GEN-273",
+   "paper": "TECH3",
+   "unit": "C",
+   "sub": "Rotation of solids and mental rotation",
+   "question": "A cube has a red dot painted on its top face and a blue dot painted on its front face. The cube is rotated 90 degrees about the vertical axis so that the face that was pointing to the front now points to the right. After this rotation, on which faces are the red and blue dots located?",
+   "options": {
+    "A": "Red dot on the top face; blue dot on the right face",
+    "B": "Red dot on the bottom face; blue dot on the left face",
+    "C": "Red dot on the top face; blue dot on the back face",
+    "D": "Red dot on the right face; blue dot on the top face"
+   },
+   "answer": "A",
+   "explanation": "A rotation about the vertical axis only swaps the four side faces (front, right, back, left) among each other and never moves the top or bottom faces. So the red dot, being on the top face, stays on the top face. The blue dot was on the front face, and since the rotation is defined as sending the front face to the right-face position, the blue dot ends up on the right face."
+  },
+  {
+   "id": "GEN-274",
+   "paper": "TECH3",
+   "unit": "C",
+   "sub": "Nets of solids",
+   "question": "A flat net is made of six equal squares: four squares joined in a straight horizontal row (call them squares 1, 2, 3, 4 from left to right), plus one extra square attached to the top edge of square 2, plus one extra square attached to the bottom edge of square 3. When this net is folded along all the edges to form a closed solid, what solid results?",
+   "options": {
+    "A": "A cube",
+    "B": "A rectangular box (cuboid) that is not a cube",
+    "C": "A triangular prism",
+    "D": "A square pyramid"
+   },
+   "answer": "A",
+   "explanation": "The row of 4 squares folds around to form 4 side (lateral) faces of a cube, meeting back where square 4 joins square 1 to close the loop. The extra square attached to square 2's top edge folds up to become the top face, and the extra square attached to square 3's bottom edge folds down to become the bottom face. This gives exactly 6 square faces correctly enclosing a cube, with no overlaps -- this is one of the 11 standard nets of a cube."
+  },
+  {
+   "id": "GEN-275",
+   "paper": "TECH3",
+   "unit": "C",
+   "sub": "Pattern completion",
+   "question": "A sequence of shapes repeats this pattern of 6: filled circle, empty circle, filled square, empty square, filled triangle, empty triangle, and then repeats from filled circle again. What is the 15th shape in the sequence?",
+   "options": {
+    "A": "Empty circle",
+    "B": "Filled square",
+    "C": "Empty square",
+    "D": "Filled triangle"
+   },
+   "answer": "B",
+   "explanation": "The pattern repeats every 6 shapes. Dividing 15 by 6 gives a remainder of 3 (15 = 2 x 6 + 3), so the 15th shape is the same as the 3rd shape in the cycle, which is 'filled square'."
+  }
+ ]
+}

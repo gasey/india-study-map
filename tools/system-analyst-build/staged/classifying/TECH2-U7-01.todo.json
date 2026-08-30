@@ -1,0 +1,621 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 41,
+ "questions": [
+  {
+   "id": "TECH2_2024-40",
+   "paper": "TECH2",
+   "unit": "7",
+   "sub": "Making financial transactions electronic and cashless",
+   "question": "Which mobile payment system, launched under Digital India, enables users to make payments using their smartphones by scanning QR codes?",
+   "options": {
+    "A": "UPI (Unified Payments Interface)",
+    "B": "Paytm",
+    "C": "BHIM (Bharat Interface for Money)",
+    "D": "Google Pay"
+   },
+   "answer": "C",
+   "explanation": "BHIM is the mobile application built by NPCI and officially launched by the Government of India in 2016 under the Digital India umbrella, specifically to let users pay by scanning QR codes over the UPI rails. UPI (A) is the underlying interface/protocol rather than a distinct app that was 'launched'. Paytm (B) and Google Pay (D) are private-company products, not government-launched Digital India initiatives, even though they also support UPI QR payments — making them tempting but incorrect since the question asks specifically what was launched under Digital India."
+  },
+  {
+   "id": "TECH2_2024-42",
+   "paper": "TECH2",
+   "unit": "7",
+   "sub": "Universally accessible digital resources",
+   "question": "Which platform was developed by Ministry of Education for open access to academic resources?",
+   "options": {
+    "A": "Indian Open Access Library",
+    "B": "e-Library",
+    "C": "National Digital Library of India",
+    "D": "e-PG Pathshala"
+   },
+   "answer": "C",
+   "explanation": "The National Digital Library of India (NDLI), developed under the Ministry of Education (then MHRD) through IIT Kharagpur, is a single-window platform aggregating free educational content across school, college and research levels for open access. 'e-PG Pathshala' (D) is a real, related MHRD initiative but is narrower — postgraduate e-content only — not the general open-access digital library described. 'Indian Open Access Library' and generic 'e-Library' (A, B) are not the actual official platform names, included as plausible-sounding distractors."
+  },
+  {
+   "id": "TECH2_2024-43",
+   "paper": "TECH2",
+   "unit": "7",
+   "sub": "Digital Lockers and e-Sign",
+   "question": "Platform through which documents such as educational, insurance, vehicle documents, driving license etc were made available digitally and accepted by government is —",
+   "options": {
+    "A": "mParivahan",
+    "B": "Digilocker",
+    "C": "E-Digits",
+    "D": "National Document Library"
+   },
+   "answer": "B",
+   "explanation": "DigiLocker is the Government of India's flagship cloud-based document wallet under Digital India, storing and issuing digitally signed academic certificates, insurance papers, vehicle registration certificates and driving licenses, all legally accepted as valid by government departments. mParivahan (A) is narrower — a transport-department app for vehicle/license verification only, not a general document repository. 'E-Digits' and 'National Document Library' (C, D) are invented names not corresponding to any real government platform."
+  },
+  {
+   "id": "TECH2_2024-44",
+   "paper": "TECH2",
+   "unit": "7",
+   "sub": "Digital Lockers and e-Sign",
+   "question": "Signing and authenticating documents over online system by means of e-KYC can be done with the provision called —",
+   "options": {
+    "A": "eSign",
+    "B": "eSignature",
+    "C": "Verisign",
+    "D": "SureSign"
+   },
+   "answer": "A",
+   "explanation": "eSign is the official Government of India online electronic signature service that lets a citizen digitally sign a document instantly using Aadhaar-based e-KYC authentication, without needing a pre-issued physical digital signature certificate/token. 'eSignature' (B) is a generic descriptive term, not the named government service. Verisign (C) is a real-world commercial certificate authority unrelated to India's e-Governance eSign framework, and SureSign (D) is a fabricated distractor name."
+  },
+  {
+   "id": "TECH2_2024-45",
+   "paper": "TECH2",
+   "unit": "7",
+   "sub": "Digital empowerment of citizens",
+   "question": "Which of the following is an initiative under NEP 2020 in which a centralized bank of students' academic records that allows students to carry their credits over different universities and institutions?",
+   "options": {
+    "A": "Swayam",
+    "B": "MOOCS",
+    "C": "E-Panchshala",
+    "D": "ABC"
+   },
+   "answer": "D",
+   "explanation": "ABC (Academic Bank of Credits) is the NEP 2020 initiative that stores students' earned academic credits in a centralized digital repository, letting them transfer and accumulate credits across institutions for multiple entry/exit flexibility. SWAYAM (A) and MOOCs (B) are online course-delivery platforms, not credit-storage systems, so they answer a different need. 'E-Panchshala' (C) is not a real recognised NEP platform and appears to be a distractor built from unrelated 'Panchayat/Shala' terms."
+  },
+  {
+   "id": "TECH2_2024-46",
+   "paper": "TECH2",
+   "unit": "7",
+   "sub": "Key Vision Areas",
+   "question": "Which of the following is a key vision area under the Digital India Program?",
+   "options": {
+    "A": "Manufacturing excellence",
+    "B": "Digital infrastructure as a core utility for every citizen",
+    "C": "Promoting international trade",
+    "D": "Strengthening foreign relations"
+   },
+   "answer": "B",
+   "explanation": "Digital India's officially stated vision areas are: Digital Infrastructure as a Core Utility to Every Citizen, Governance and Services on Demand, and Digital Empowerment of Citizens. Option B directly matches the first of these three vision pillars verbatim. Manufacturing excellence, international trade and foreign relations (A, C, D) belong to entirely different government programmes (Make in India, trade policy, external affairs) and are not part of the Digital India vision statement at all."
+  },
+  {
+   "id": "TECH2_2024-47",
+   "paper": "TECH2",
+   "unit": "7",
+   "sub": "Making financial transactions electronic and cashless",
+   "question": "Which program under Digital India focuses on providing universal access to banking facilities, particularly through mobile banking and financial services?",
+   "options": {
+    "A": "Pradhan Mantri Jan Dhan Yojana (PMJDY)",
+    "B": "Digital Literacy Mission",
+    "C": "Make in India",
+    "D": "Startup India"
+   },
+   "answer": "A",
+   "explanation": "PMJDY is the national financial-inclusion mission that opened zero-balance bank accounts for every household and, paired with mobile/UPI banking, gave the previously unbanked universal access to formal financial services — a cornerstone of the 'cashless economy' vision under Digital India. Digital Literacy Mission (B) targets digital skills training, not banking access. Make in India (C) and Startup India (D) are entirely separate flagship programmes about manufacturing and entrepreneurship, unrelated to banking inclusion."
+  },
+  {
+   "id": "TECH2_2024-48",
+   "paper": "TECH2",
+   "unit": "7",
+   "sub": "Easy access to a Common Service Centre",
+   "question": "How do Common Service Centers (CSCs) contribute to the Digital India vision?",
+   "options": {
+    "A": "By centralizing urban internet services",
+    "B": "By offering free mobile phones to every citizen",
+    "C": "By providing government jobs to local citizens",
+    "D": "By bridging the digital divide through access to e-governance services, banking, and other digital services in rural areas"
+   },
+   "answer": "D",
+   "explanation": "CSCs are last-mile physical access points, mostly in rural and remote areas, run by Village Level Entrepreneurs, that let citizens without personal internet or digital literacy still access e-Governance services, banking, insurance and other digital services — directly closing the digital divide, which is their core stated purpose. Option A is wrong because CSCs specifically target rural, not urban, access. B and C describe benefits (free phones, employment) that are not the defining function of a CSC as a service delivery channel."
+  },
+  {
+   "id": "TECH2_2024-49",
+   "paper": "TECH2",
+   "unit": "7",
+   "sub": "Nine pillars of Digital India",
+   "question": "Which of the following is NOT one of the nine pillars of the Digital India program?",
+   "options": {
+    "A": "Digital Infrastructure as a Utility to Every Citizen",
+    "B": "Governance and Services on Demand",
+    "C": "Promotion of Industrial Manufacturing",
+    "D": "Digital Empowerment of Citizens"
+   },
+   "answer": "C",
+   "explanation": "The nine pillars of Digital India are: Broadband Highways, Universal Access to Mobile Connectivity, Public Internet Access Programme, e-Governance, e-Kranti, Information for All, Electronics Manufacturing, IT for Jobs, and Early Harvest Programmes — the umbrella outcomes of which include A, B and D as commonly cited restatements. 'Promotion of Industrial Manufacturing' as a general phrase is not one of the nine named pillars; the closest real pillar is the narrower 'Electronics Manufacturing', so C is correctly identified as not on the list."
+  },
+  {
+   "id": "TECH2_2024-50",
+   "paper": "TECH2",
+   "unit": "7",
+   "sub": "Universally accessible digital resources",
+   "question": "Which platform under Digital India provides free and accessible educational resources for students across the country?",
+   "options": {
+    "A": "SWAYAM",
+    "B": "Digi Locker",
+    "C": "UMANG",
+    "D": "MyGov"
+   },
+   "answer": "A",
+   "explanation": "SWAYAM (Study Webs of Active Learning for Young Aspiring Minds) is the Government of India's MOOC platform offering free online courses from school to postgraduate level, directly matching 'free and accessible educational resources for students'. DigiLocker (B) stores documents, not course content. UMANG (C) is a unified app for accessing multiple government services (utility bills, pensions, etc.), and MyGov (D) is a citizen-engagement/crowdsourcing platform — neither is an educational-content platform."
+  },
+  {
+   "id": "TECH2_2024-51",
+   "paper": "TECH2",
+   "unit": "7",
+   "sub": "Digital empowerment of citizens",
+   "question": "A 12-digit unique number which is designed for identification of each student in India and is supposed to be linked with institutions' roll number so that students' records may be centralized in a platform is called —",
+   "options": {
+    "A": "Automated Permanent Academic Account Registry",
+    "B": "Unique Identification of Students",
+    "C": "National Identification Number for Academicians",
+    "D": "Students' Identification Number"
+   },
+   "answer": "A",
+   "explanation": "APAAR (Automated Permanent Academic Account Registry), the 'One Nation One Student ID', is the real scheme launched under NEP 2020 as part of the Academic Bank of Credits ecosystem. Each learner gets a lifelong 12-digit ID linked to DigiLocker so credits and records from every institution consolidate on one platform. Options B, C and D are plausible-sounding but fictitious names invented as distractors — MPSC tests whether the candidate knows the exact official scheme name from Digital India/NEP material, not just the general concept of a student ID."
+  },
+  {
+   "id": "TECH2_2021-42",
+   "paper": "TECH2",
+   "unit": "7",
+   "sub": "Digital India as the umbrella programme",
+   "question": "What is the motto of Digital India?",
+   "options": {
+    "A": "Digital India: Power to Empower",
+    "B": "Digital India: Power to Knowledge",
+    "C": "Digital India: Transform India",
+    "D": "Digital India: Utility to every citizen"
+   },
+   "answer": "A",
+   "explanation": "The Digital India programme's tagline is 'Power to Empower'. 'Transform India' belongs to the broader slogan of transforming India into a digitally empowered society and knowledge economy, which is the programme's vision statement rather than its motto."
+  },
+  {
+   "id": "TECH2_2021-43",
+   "paper": "TECH2",
+   "unit": "7",
+   "sub": "Key Vision Areas",
+   "question": "Which is not a key area in the vision of Digital India?",
+   "options": {
+    "A": "Governance & Services on Demand",
+    "B": "Digital Empowerment of Citizens",
+    "C": "Digital Infrastructure as a Utility to Every Citizen",
+    "D": "Technology Central to enable Change"
+   },
+   "answer": "D",
+   "explanation": "Digital India is built on exactly three vision areas: Digital Infrastructure as a Utility to Every Citizen, Governance and Services on Demand, and Digital Empowerment of Citizens. 'Technology Central to enable Change' is not one of them."
+  },
+  {
+   "id": "TECH2_2021-44",
+   "paper": "TECH2",
+   "unit": "7",
+   "sub": "Digital empowerment of citizens",
+   "question": "Which of the following is a vision in area of Digital Empowerment of Citizens?",
+   "options": {
+    "A": "Making financial transaction electronic & cashless",
+    "B": "Easy access to Common Service Centre",
+    "C": "Universal Digital Literacy",
+    "D": "Safe and secure cyber space"
+   },
+   "answer": "C",
+   "explanation": "Universal digital literacy sits squarely under Digital Empowerment of Citizens, along with digitally accessible resources, documents available on the cloud and content in Indian languages. Cashless transactions belong to Governance and Services on Demand, while CSC access and a secure cyberspace fall under Digital Infrastructure as a Utility."
+  },
+  {
+   "id": "TECH2_2021-45",
+   "paper": "TECH2",
+   "unit": "7",
+   "sub": "Easy access to a Common Service Centre",
+   "question": "Which of the following is not a the structure of CSC(Common Service Centers)?",
+   "options": {
+    "A": "VLE",
+    "B": "SCA",
+    "C": "SDA",
+    "D": "SCD"
+   },
+   "answer": "D",
+   "explanation": "The CSC scheme is structured in three tiers: the VLE (Village Level Entrepreneur) running the centre, the SCA (Service Centre Agency) managing a cluster of centres, and the SDA (State Designated Agency) overseeing implementation in the state. SCD is not a CSC entity."
+  },
+  {
+   "id": "TECH2_2021-46",
+   "paper": "TECH2",
+   "unit": "7",
+   "sub": "Digital Lockers and e-Sign",
+   "question": "DigiLocker provides a dedicated personal storage space linked to each resident's:",
+   "options": {
+    "A": "Aadhaar number",
+    "B": "Voter id number",
+    "C": "Bank account number",
+    "D": "DigiLocker id number"
+   },
+   "answer": "A",
+   "explanation": "DigiLocker allots each resident cloud storage linked to their Aadhaar number, which is also what authenticates the account and enables issuers to push documents into it. The other identifiers are not the linking key."
+  },
+  {
+   "id": "TECH2_2021-47",
+   "paper": "TECH2",
+   "unit": "7",
+   "sub": "Nine pillars of Digital India",
+   "question": "Which of this is not included in the Nine Pillars of Digital India?",
+   "options": {
+    "A": "Broadband highways",
+    "B": "Electronics Manufacturing",
+    "C": "Information Technology for All",
+    "D": "Universal Access to Phones"
+   },
+   "answer": "C",
+   "explanation": "The nine pillars include 'Information for All' and separately 'IT for Jobs', but there is no pillar called 'Information Technology for All'. Universal Access to Phones (mobile connectivity), Broadband Highways and Electronics Manufacturing are all genuine pillars, so the trap here is the near-miss renaming of 'Information for All'."
+  },
+  {
+   "id": "TECH2_2021-48",
+   "paper": "TECH2",
+   "unit": "7",
+   "sub": "Digital India as the umbrella programme",
+   "question": "In which year was Digital India programme launched?",
+   "options": {
+    "A": "2013",
+    "B": "2014",
+    "C": "2015",
+    "D": "2016"
+   },
+   "answer": "C",
+   "explanation": "Digital India was formally launched on 1 July 2015, although the Cabinet had approved the programme the previous year. Answering 2014 confuses approval with launch, which is the standard trap on this date."
+  },
+  {
+   "id": "TECH2_2021-49",
+   "paper": "TECH2",
+   "unit": "7",
+   "sub": "Universally accessible digital resources",
+   "question": "What is the name of the pilot project initiated by Ministry of Human Resource Development under its National Mission on Education through Information and Communication Technology to develop a framework of virtual repository of learning resources with a single-window search facility?",
+   "options": {
+    "A": "Massive Open and Online Courses",
+    "B": "National Digital Library of India",
+    "C": "Swayam",
+    "D": "National Open Digital Library"
+   },
+   "answer": "B",
+   "explanation": "The National Digital Library of India was the NMEICT pilot that built a virtual repository of learning resources with a single-window search across sources. SWAYAM and MOOCs deliver courses rather than aggregate a repository."
+  },
+  {
+   "id": "TECH2_2021-50",
+   "paper": "TECH2",
+   "unit": "7",
+   "sub": "Service available in real time from online and mobile platform",
+   "question": "What is the full form of the mobile application, UMANG?",
+   "options": {
+    "A": "United Mobility of Application form for New Government",
+    "B": "Unified Mobile Application for New-Age Governance",
+    "C": "Unified Mobile Application for eNGagement",
+    "D": "None of the above"
+   },
+   "answer": "B",
+   "explanation": "UMANG expands to Unified Mobile Application for New-age Governance, the single app front-ending hundreds of central and state services. Option C is a plausible-looking invention built on forcing the letters NG."
+  },
+  {
+   "id": "TECH2_2021-51",
+   "paper": "TECH2",
+   "unit": "7",
+   "sub": "Making financial transactions electronic and cashless",
+   "question": "The government of India initiated instant transfer of money across accounts through virtual payment account and was developed by NPCI –",
+   "options": {
+    "A": "Net Banking",
+    "B": "IMPS",
+    "C": "NEFT",
+    "D": "UPI"
+   },
+   "answer": "D",
+   "explanation": "UPI, developed by NPCI, enables instant inter-account transfer using a virtual payment address so bank details need not be shared. IMPS, also from NPCI, predates UPI and does not use the virtual payment address, which is the distinguishing feature named in the question."
+  },
+  {
+   "id": "GEN-TECH2-U7-186",
+   "paper": "TECH2",
+   "unit": "7",
+   "sub": "Participation in digital and financial space through mobiles and banking",
+   "question": "Digital India rests part of its financial-inclusion agenda on the combination of a basic bank account, an Aadhaar number and a mobile phone. What does that combination primarily make possible?",
+   "options": {
+    "A": "Issue of a digitally signed PAN card to every bank account holder",
+    "B": "Direct Benefit Transfer of subsidies and entitlements into the beneficiary's own bank account, with Aadhaar used to authenticate the beneficiary",
+    "C": "Storage of every citizen's certificates in an encrypted government cloud locker",
+    "D": "Mandatory linking of every land record to the owner's mobile number"
+   },
+   "answer": "B",
+   "explanation": "The bank account supplies a destination for the money, Aadhaar supplies a de-duplicated identity to authenticate the claimant against, and the mobile supplies the channel for alerts and second-factor confirmation, so a benefit can reach the intended person without passing through intermediaries. Storing certificates in a locker is DigiLocker's function and belongs to a different strand of the programme."
+  },
+  {
+   "id": "GEN-TECH2-U7-187",
+   "paper": "TECH2",
+   "unit": "7",
+   "sub": "Participation in digital and financial space through mobiles and banking",
+   "question": "What distinguishes a Unified Payments Interface (UPI) payment from an ordinary netbanking transfer?",
+   "options": {
+    "A": "It settles payments on a private ledger maintained outside the banking system",
+    "B": "It can be used only for payments to government departments and utilities",
+    "C": "It requires the payer and the payee to hold accounts with the same bank",
+    "D": "It lets a payer push a real-time transfer from a mobile app using a virtual payment address, without the payee learning the payer's account details"
+   },
+   "answer": "D",
+   "explanation": "UPI layers a virtual payment address over the underlying bank account, so a transfer can be initiated instantly from a phone without exchanging account numbers or branch codes, and it works across banks rather than within one. Settlement still runs through the regular interbank system; nothing about UPI takes the money outside it."
+  },
+  {
+   "id": "GEN-TECH2-U7-188",
+   "paper": "TECH2",
+   "unit": "7",
+   "sub": "Shareable private space on a public cloud",
+   "question": "In DigiLocker, what makes a record in the 'issued documents' section different from one the citizen has placed in 'uploaded documents'?",
+   "options": {
+    "A": "It is a digitally signed record pushed into the locker by the issuing authority itself, and is therefore treated at par with the original document",
+    "B": "It is a scanned copy that the citizen has self-attested before uploading",
+    "C": "It can be viewed only by the department that originally asked for it",
+    "D": "It is deleted automatically at the end of each financial year"
+   },
+   "answer": "A",
+   "explanation": "An issued document is fetched from the issuer's own system carrying the issuer's digital signature, which is precisely what allows a verifier to accept it in place of a physical original. A file the citizen scans and uploads carries no such signature and remains an ordinary self-attested copy."
+  },
+  {
+   "id": "GEN-TECH2-U7-189",
+   "paper": "TECH2",
+   "unit": "7",
+   "sub": "Shareable private space on a public cloud",
+   "question": "In the Digital India vision area 'shareable private space on a public cloud', what does the word 'shareable' denote?",
+   "options": {
+    "A": "That any government department may browse the documents stored by any citizen",
+    "B": "That unused cloud storage is shared between departments to reduce cost",
+    "C": "That the citizen can grant a requesting agency access to a stored document instead of producing a physical photocopy",
+    "D": "That a single login may be shared by all the members of a household"
+   },
+   "answer": "C",
+   "explanation": "The vision area gives each citizen a space that the citizen controls and selectively opens to a verifier, which is what removes the need to carry, photocopy and attest originals. Departmental browsing without the citizen's consent would contradict the 'private' half of the same phrase."
+  },
+  {
+   "id": "GEN-TECH2-U7-190",
+   "paper": "TECH2",
+   "unit": "7",
+   "sub": "Safe and secure cyber-space",
+   "question": "India's cyber-security architecture assigns distinct mandates to CERT-In and to NCIIPC. What is NCIIPC specifically responsible for?",
+   "options": {
+    "A": "Issuing digital signature certificates to government officers",
+    "B": "Protecting Critical Information Infrastructure — systems whose incapacitation would debilitate national security, the economy, public health or public safety",
+    "C": "Empanelling cloud service providers for use by government departments",
+    "D": "Handling phishing complaints received from individual retail banking customers"
+   },
+   "answer": "B",
+   "explanation": "NCIIPC is the national nodal agency for Critical Information Infrastructure Protection, concerned with the sectors whose failure would have national consequences, whereas CERT-In is the general national agency for responding to computer security incidents. Issuing digital signature certificates is the business of licensed Certifying Authorities working under the Controller of Certifying Authorities."
+  },
+  {
+   "id": "GEN-TECH2-U7-191",
+   "paper": "TECH2",
+   "unit": "7",
+   "sub": "Safe and secure cyber-space",
+   "question": "The Cyber Swachhta Kendra set up under the Digital India programme functions as which of the following?",
+   "options": {
+    "A": "The licensing authority for the Certifying Authorities that issue digital signature certificates",
+    "B": "The agency that audits and certifies government websites for accessibility compliance",
+    "C": "The registry that allots .in domain names",
+    "D": "A botnet cleaning and malware analysis centre that helps users detect and remove malicious code from their devices"
+   },
+   "answer": "D",
+   "explanation": "The centre works with internet service providers and banks to notify users whose devices appear to have been drawn into a botnet, and offers free removal tools, which is why it sits within the 'safe and secure cyber-space' strand. Licensing Certifying Authorities is the Controller of Certifying Authorities' function, and .in allotment belongs to NIXI."
+  },
+  {
+   "id": "GEN-TECH2-U7-192",
+   "paper": "TECH2",
+   "unit": "7",
+   "sub": "Government and Service on demand",
+   "question": "UMANG (Unified Mobile Application for New-age Governance) is best described as which of the following?",
+   "options": {
+    "A": "A mobile operating system built for government-issued handsets",
+    "B": "A payment gateway through which departments collect fees and fines",
+    "C": "A single mobile application that aggregates the services of many central and state departments behind one login",
+    "D": "A grievance-redress portal intended to replace departmental helplines"
+   },
+   "answer": "C",
+   "explanation": "UMANG exists so that a citizen need not install a separate app for every department: departments expose their services through the common app and the citizen reaches all of them from one place with one identity. Grievance redress is handled by CPGRAMS, which is a distinct platform with a distinct purpose."
+  },
+  {
+   "id": "GEN-TECH2-U7-193",
+   "paper": "TECH2",
+   "unit": "7",
+   "sub": "Government and Service on demand",
+   "question": "Which category of services does the e-District Mission Mode Project deliver?",
+   "options": {
+    "A": "High-volume citizen services at district level, such as income, domicile and caste certificates, social-security pensions and revenue court services",
+    "B": "Central government services relating to passports and visas",
+    "C": "Back-office human-resource services for the staff of the district administration",
+    "D": "Services connected with the collection of tolls on national highways"
+   },
+   "answer": "A",
+   "explanation": "e-District targets exactly the services a citizen most often needs from the collectorate and the tehsil, so that they can be applied for and obtained online or through a nearby assisted access point instead of by repeated office visits. Passport services are delivered by a separate central Mission Mode Project, not through the district project."
+  },
+  {
+   "id": "GEN-TECH2-U7-194",
+   "paper": "TECH2",
+   "unit": "7",
+   "sub": "Seamlessly integrated across departments or jurisdictions",
+   "question": "How does API Setu support seamless integration of services across departments?",
+   "options": {
+    "A": "By merging legacy departmental databases into a single consolidated national database",
+    "B": "By providing a common platform on which departments publish and consume APIs, so one department can fetch verified data straight from the system that holds it",
+    "C": "By providing free web hosting to state government departments",
+    "D": "By standardising the visual design of all government portals"
+   },
+   "answer": "B",
+   "explanation": "Integration is achieved by leaving data where it is and exposing it through published interfaces, so the holding department stays the single authoritative system of record and the consumer gets a live, verified answer. Consolidating everything into one database is the opposite design and is workable neither legally nor operationally across jurisdictions."
+  },
+  {
+   "id": "GEN-TECH2-U7-195",
+   "paper": "TECH2",
+   "unit": "7",
+   "sub": "Seamlessly integrated across departments or jurisdictions",
+   "question": "The National e-Governance Service Delivery Gateway was conceived as middleware. What was it meant to do?",
+   "options": {
+    "A": "Host the websites of all central ministries in a single data centre",
+    "B": "Authenticate every citizen biometrically before a transaction is accepted",
+    "C": "Keep a permanent archive of the documents attached to every transaction",
+    "D": "Act as a standards-based routing and messaging switch between service-access channels and departmental back-end systems, so that every pair of systems need not be wired directly to each other"
+   },
+   "answer": "D",
+   "explanation": "A gateway of this kind converts a mesh of point-to-point integrations into a hub, so a new department or a new delivery channel connects to one standard interface rather than to every counterpart separately. Biometric authentication is performed by the identity system and is not a function of the messaging middleware."
+  },
+  {
+   "id": "GEN-TECH2-U7-196",
+   "paper": "TECH2",
+   "unit": "7",
+   "sub": "All citizen entitlements available on the cloud",
+   "question": "Digital India speaks of citizen entitlements being portable and available on the cloud. What does portability mean here?",
+   "options": {
+    "A": "That an entitlement may be transferred to another person nominated by the beneficiary",
+    "B": "That entitlements are held on the beneficiary's own device rather than on any server",
+    "C": "That an entitlement follows the beneficiary instead of remaining tied to the office or the place where it was first sanctioned",
+    "D": "That a beneficiary may exchange one entitlement for another of equal value"
+   },
+   "answer": "C",
+   "explanation": "Holding the entitlement record centrally rather than in a local register is what lets a person who has moved claim the same benefit at the new location, which is the whole point of the phrase. Portability moves the entitlement along with the person; it does not move it to a different person or convert it into something else."
+  },
+  {
+   "id": "GEN-TECH2-U7-197",
+   "paper": "TECH2",
+   "unit": "7",
+   "sub": "All citizen entitlements available on the cloud",
+   "question": "One Nation One Ration Card is a concrete application of cloud-held entitlements. What does it allow a migrant beneficiary to do?",
+   "options": {
+    "A": "Draw the family's foodgrain entitlement from any fair price shop in the country, authenticating at the shop against a centrally held record",
+    "B": "Hold ration cards issued by two different states at the same time",
+    "C": "Receive the cash equivalent of the entitlement in place of grain",
+    "D": "Have the ration card transferred permanently to the state of employment"
+   },
+   "answer": "A",
+   "explanation": "The scheme works by keeping the beneficiary and entitlement record centrally and authenticating at the point of sale, so the same entitlement can be claimed anywhere without surrendering the card or obtaining a second one. Holding two cards is precisely the duplication the central record is designed to prevent."
+  },
+  {
+   "id": "GEN-TECH2-U7-198",
+   "paper": "TECH2",
+   "unit": "7",
+   "sub": "Digital transformation for improving Ease of Doing Business",
+   "question": "The National Single Window System for investors is designed on which of the following principles?",
+   "options": {
+    "A": "Only one clearance is now required to start any business in India",
+    "B": "State governments may no longer impose conditions of their own on investors",
+    "C": "Approvals are granted automatically, without departmental scrutiny",
+    "D": "The investor applies once through one portal, which routes the application to each central and state approval that the proposed activity actually requires"
+   },
+   "answer": "D",
+   "explanation": "A single-window system does not abolish the underlying statutory approvals; it removes the burden of discovering and separately approaching each regulator, and lets the applicant track every pending clearance in one place. The clearances themselves continue to be granted by the departments that own them."
+  },
+  {
+   "id": "GEN-TECH2-U7-199",
+   "paper": "TECH2",
+   "unit": "7",
+   "sub": "Digital transformation for improving Ease of Doing Business",
+   "question": "MCA21, one of the earliest Mission Mode Projects aimed at ease of doing business, delivers which of these online?",
+   "options": {
+    "A": "Filing of income tax returns by companies",
+    "B": "Company incorporation, statutory filing and public inspection of company records",
+    "C": "Assessment and collection of customs duty at ports",
+    "D": "Registration of trademarks and patents"
+   },
+   "answer": "B",
+   "explanation": "MCA21 took the Registrar of Companies' work online, so incorporation, annual returns and the public inspection of company filings happen electronically — a direct ease-of-doing-business gain, because these are filings every company is obliged to make. Customs clearance is handled by a separate project belonging to the revenue departments."
+  },
+  {
+   "id": "GEN-TECH2-U7-200",
+   "paper": "TECH2",
+   "unit": "7",
+   "sub": "Leveraging GIS for decision support system and development",
+   "question": "A district administration wants to decide where to open additional sub-health centres. Which GIS operation most directly supports that decision?",
+   "options": {
+    "A": "Buffer and service-area analysis around the existing centres, to identify habitations lying outside a defined travel distance",
+    "B": "Georeferencing the scanned survey sheets to a common coordinate system",
+    "C": "Applying a colour ramp to the elevation layer of the base map",
+    "D": "Converting the map data from raster format into vector format"
+   },
+   "answer": "A",
+   "explanation": "Buffer and service-area analysis answers the siting question directly by showing which settlements no existing facility reaches within an acceptable distance, which is what the decision turns on. Georeferencing and format conversion are preparatory data steps that must happen first but decide nothing by themselves."
+  },
+  {
+   "id": "GEN-TECH2-U7-201",
+   "paper": "TECH2",
+   "unit": "7",
+   "sub": "Leveraging GIS for decision support system and development",
+   "question": "Bharat Maps, hosted by the National Informatics Centre, is best described as which of the following?",
+   "options": {
+    "A": "An archive of satellite imagery sold to private surveying firms",
+    "B": "A citizen navigation application giving turn-by-turn road directions",
+    "C": "A national GIS platform providing a common base map on which departments overlay their own thematic layers within government applications",
+    "D": "The cadastral land-record system maintained by one particular state"
+   },
+   "answer": "C",
+   "explanation": "Its value lies in every department plotting its data on the same base map and the same reference frame, so that layers produced by different departments can be overlaid and compared instead of each department buying a map of its own. Turn-by-turn navigation is a consumer service and not what a government decision-support platform is built to provide."
+  },
+  {
+   "id": "GEN-TECH2-U7-202",
+   "paper": "TECH2",
+   "unit": "7",
+   "sub": "Universal Digital Literacy",
+   "question": "What is the target of the Pradhan Mantri Gramin Digital Saksharta Abhiyan (PMGDISHA)?",
+   "options": {
+    "A": "Supplying free laptop computers to rural students",
+    "B": "Training serving government employees in office automation software",
+    "C": "Certifying rural entrepreneurs to operate Common Service Centres",
+    "D": "Making at least one member of every eligible rural household digitally literate — able to operate a digital device, use the internet and transact digitally"
+   },
+   "answer": "D",
+   "explanation": "The scheme is pitched at the household rather than at the individual, on the reasoning that one digitally literate member can transact for the family, and its content is device use, internet access and digital payments. Training departmental staff in office software is capacity building within government, not a rural digital-literacy mission."
+  },
+  {
+   "id": "GEN-TECH2-U7-203",
+   "paper": "TECH2",
+   "unit": "7",
+   "sub": "Universal Digital Literacy",
+   "question": "Why are Common Service Centres central to the goal of universal digital literacy?",
+   "options": {
+    "A": "They manufacture low-cost tablet computers for rural households",
+    "B": "They are village-level access points run by local entrepreneurs that provide assisted delivery of digital services and also serve as venues for digital literacy training",
+    "C": "They are the only channel through which an Aadhaar number can be enrolled",
+    "D": "They supply a free broadband connection to every household in the village"
+   },
+   "answer": "B",
+   "explanation": "A Common Service Centre closes the gap for a citizen who cannot yet transact unaided: the village-level entrepreneur completes the transaction on the citizen's behalf and, under the literacy programmes, trains the citizen to do it independently. Laying the connectivity itself is BharatNet's task, not the centre's."
+  },
+  {
+   "id": "GEN-TECH2-U7-204",
+   "paper": "TECH2",
+   "unit": "7",
+   "sub": "e-Governance related Policies",
+   "question": "What does the National Data Sharing and Accessibility Policy require of a government department?",
+   "options": {
+    "A": "To classify the data it generates as open or restricted, and to publish the open, non-sensitive data in machine-readable form through the common government open-data platform",
+    "B": "To disclose any data it holds, including personal data, to any citizen who asks for it",
+    "C": "To move all of its data on to a single national server maintained centrally",
+    "D": "To obtain prior sanction before purchasing any commercial database"
+   },
+   "answer": "A",
+   "explanation": "The policy turns on a classification step: data generated with public funds is presumed shareable unless it falls into a restricted category, and what is shareable must be published in a form that machines can consume rather than as scanned images. Personal and sensitive data is exactly what the restricted classification exists to protect, so blanket disclosure is not what the policy directs."
+  },
+  {
+   "id": "GEN-TECH2-U7-205",
+   "paper": "TECH2",
+   "unit": "7",
+   "sub": "e-Governance related Policies",
+   "question": "Under the Government of India's policy on adoption of open source software, how must a department that chooses closed-source software proceed?",
+   "options": {
+    "A": "It may not do so at all, because only open source software is permitted in government systems",
+    "B": "It must replace the closed-source product with an open source equivalent within a fixed period",
+    "C": "It may do so, but must record the justification for departing from the preference for open source",
+    "D": "It must obtain the software only from the National Informatics Centre"
+   },
+   "answer": "C",
+   "explanation": "The policy establishes open source as the preferred option and requires the alternative to be reasoned rather than assumed, so a department retains the freedom to buy proprietary software where it genuinely fits but must say why on the file. It is a preference backed by a recorded justification, not an outright prohibition on closed-source products."
+  }
+ ]
+}

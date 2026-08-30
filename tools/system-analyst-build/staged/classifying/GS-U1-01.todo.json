@@ -1,0 +1,411 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 27,
+ "questions": [
+  {
+   "id": "GEN-101",
+   "paper": "GS",
+   "unit": "1",
+   "sub": "Making of the Constitution",
+   "question": "Who was the Chairman of the Drafting Committee of the Indian Constitution?",
+   "options": {
+    "A": "Jawaharlal Nehru",
+    "B": "Dr. B. R. Ambedkar",
+    "C": "Rajendra Prasad",
+    "D": "Sardar Vallabhbhai Patel"
+   },
+   "answer": "B",
+   "explanation": "Dr. B. R. Ambedkar chaired the Drafting Committee of the Constituent Assembly, which was constituted on 29 August 1947."
+  },
+  {
+   "id": "GEN-102",
+   "paper": "GS",
+   "unit": "1",
+   "sub": "Making of the Constitution",
+   "question": "On which date did the Constitution of India come into force?",
+   "options": {
+    "A": "15 August 1947",
+    "B": "26 November 1949",
+    "C": "26 January 1950",
+    "D": "2 October 1950"
+   },
+   "answer": "C",
+   "explanation": "The Constitution was adopted on 26 November 1949 but came into force on 26 January 1950, celebrated as Republic Day."
+  },
+  {
+   "id": "GEN-103",
+   "paper": "GS",
+   "unit": "1",
+   "sub": "Preamble",
+   "question": "The words 'Socialist' and 'Secular' were added to the Preamble of the Indian Constitution by which amendment?",
+   "options": {
+    "A": "24th Amendment, 1971",
+    "B": "42nd Amendment, 1976",
+    "C": "44th Amendment, 1978",
+    "D": "52nd Amendment, 1985"
+   },
+   "answer": "B",
+   "explanation": "The 42nd Constitutional Amendment Act, 1976, inserted 'Socialist', 'Secular' and 'Integrity' into the Preamble."
+  },
+  {
+   "id": "GEN-104",
+   "paper": "GS",
+   "unit": "1",
+   "sub": "Fundamental Rights",
+   "question": "Which Article of the Constitution abolishes untouchability and forbids its practice in any form?",
+   "options": {
+    "A": "Article 15",
+    "B": "Article 17",
+    "C": "Article 19",
+    "D": "Article 21"
+   },
+   "answer": "B",
+   "explanation": "Article 17 abolishes 'untouchability' and forbids its practice in any form; its enforcement is a punishable offence."
+  },
+  {
+   "id": "GEN-105",
+   "paper": "GS",
+   "unit": "1",
+   "sub": "Fundamental Rights",
+   "question": "The Right to Constitutional Remedies, which allows a citizen to move the Supreme Court for enforcement of Fundamental Rights, is guaranteed under which Article?",
+   "options": {
+    "A": "Article 32",
+    "B": "Article 40",
+    "C": "Article 44",
+    "D": "Article 356"
+   },
+   "answer": "A",
+   "explanation": "Article 32 guarantees the Right to Constitutional Remedies; Dr. Ambedkar called it the 'heart and soul' of the Constitution."
+  },
+  {
+   "id": "GEN-106",
+   "paper": "GS",
+   "unit": "1",
+   "sub": "Directive Principles of State Policy",
+   "question": "The Directive Principles of State Policy are contained in which Part of the Indian Constitution?",
+   "options": {
+    "A": "Part III",
+    "B": "Part IV",
+    "C": "Part IVA",
+    "D": "Part V"
+   },
+   "answer": "B",
+   "explanation": "Part IV (Articles 36-51) of the Constitution contains the Directive Principles of State Policy, which are non-justiciable."
+  },
+  {
+   "id": "GEN-107",
+   "paper": "GS",
+   "unit": "1",
+   "sub": "Fundamental Duties",
+   "question": "Fundamental Duties were added to the Indian Constitution on the recommendation of which committee, through the 42nd Amendment?",
+   "options": {
+    "A": "Sarkaria Commission",
+    "B": "Swaran Singh Committee",
+    "C": "Balwant Rai Mehta Committee",
+    "D": "Rajamannar Committee"
+   },
+   "answer": "B",
+   "explanation": "The Swaran Singh Committee recommended inclusion of Fundamental Duties, added as Part IVA (Article 51A) by the 42nd Amendment, 1976."
+  },
+  {
+   "id": "GEN-108",
+   "paper": "GS",
+   "unit": "1",
+   "sub": "Union Executive: President, Vice-President, PM, Council of Ministers",
+   "question": "The minimum age required to be eligible for election as President of India is:",
+   "options": {
+    "A": "25 years",
+    "B": "30 years",
+    "C": "35 years",
+    "D": "40 years"
+   },
+   "answer": "C",
+   "explanation": "Article 58 requires a candidate for President to have completed 35 years of age."
+  },
+  {
+   "id": "GEN-109",
+   "paper": "GS",
+   "unit": "1",
+   "sub": "Union Executive: President, Vice-President, PM, Council of Ministers",
+   "question": "Who acts as the ex-officio Chairman of the Rajya Sabha?",
+   "options": {
+    "A": "The President of India",
+    "B": "The Vice-President of India",
+    "C": "The Speaker of the Lok Sabha",
+    "D": "The Chief Justice of India"
+   },
+   "answer": "B",
+   "explanation": "Under Article 64, the Vice-President of India is the ex-officio Chairman of the Rajya Sabha."
+  },
+  {
+   "id": "GEN-110",
+   "paper": "GS",
+   "unit": "1",
+   "sub": "Parliament: Lok Sabha, Rajya Sabha, legislative procedure",
+   "question": "A Money Bill, as defined under Article 110, can be introduced only in:",
+   "options": {
+    "A": "The Rajya Sabha",
+    "B": "The Lok Sabha",
+    "C": "Either House with prior Presidential assent",
+    "D": "A joint sitting of both Houses"
+   },
+   "answer": "B",
+   "explanation": "Article 110 read with Article 109 provides that a Money Bill can be introduced only in the Lok Sabha, on the recommendation of the President."
+  },
+  {
+   "id": "GEN-111",
+   "paper": "GS",
+   "unit": "1",
+   "sub": "Parliament: Lok Sabha, Rajya Sabha, legislative procedure",
+   "question": "What is the maximum permissible gap between two sessions of Parliament?",
+   "options": {
+    "A": "3 months",
+    "B": "6 months",
+    "C": "9 months",
+    "D": "1 year"
+   },
+   "answer": "B",
+   "explanation": "Article 85 requires that not more than six months shall intervene between the last sitting of one session and the first sitting of the next."
+  },
+  {
+   "id": "GEN-112",
+   "paper": "GS",
+   "unit": "1",
+   "sub": "Judiciary: Supreme Court, High Courts, judicial review",
+   "question": "In which case did the Supreme Court of India propound the 'Basic Structure' doctrine?",
+   "options": {
+    "A": "Golaknath v. State of Punjab (1967)",
+    "B": "Kesavananda Bharati v. State of Kerala (1973)",
+    "C": "Minerva Mills v. Union of India (1980)",
+    "D": "S.R. Bommai v. Union of India (1994)"
+   },
+   "answer": "B",
+   "explanation": "The 13-judge bench in Kesavananda Bharati v. State of Kerala (1973) held that Parliament cannot amend the 'basic structure' of the Constitution."
+  },
+  {
+   "id": "GEN-113",
+   "paper": "GS",
+   "unit": "1",
+   "sub": "Judiciary: Supreme Court, High Courts, judicial review",
+   "question": "The Gauhati High Court, which has jurisdiction over Mizoram, has a permanent Bench located at:",
+   "options": {
+    "A": "Kohima",
+    "B": "Aizawl",
+    "C": "Imphal",
+    "D": "Shillong"
+   },
+   "answer": "B",
+   "explanation": "The Gauhati High Court has a permanent Bench at Aizawl for Mizoram, along with Benches at Kohima (Nagaland) and Itanagar (Arunachal Pradesh); the erstwhile Imphal and Agartala benches became the separate Manipur and Tripura High Courts in 2013."
+  },
+  {
+   "id": "GEN-114",
+   "paper": "GS",
+   "unit": "1",
+   "sub": "Federalism and Centre-State relations",
+   "question": "Under which List of the Seventh Schedule does 'Police' fall, making it primarily a state subject?",
+   "options": {
+    "A": "Union List",
+    "B": "State List",
+    "C": "Concurrent List",
+    "D": "Residuary List"
+   },
+   "answer": "B",
+   "explanation": "'Police' is Entry 2 of the State List (List II) of the Seventh Schedule, making law and order primarily a state responsibility."
+  },
+  {
+   "id": "GEN-115",
+   "paper": "GS",
+   "unit": "1",
+   "sub": "Emergency provisions",
+   "question": "Under which Article can the President declare a National Emergency on grounds of war, external aggression or armed rebellion?",
+   "options": {
+    "A": "Article 352",
+    "B": "Article 356",
+    "C": "Article 360",
+    "D": "Article 365"
+   },
+   "answer": "A",
+   "explanation": "Article 352 empowers the President to proclaim a National Emergency on grounds of war, external aggression, or armed rebellion (the term 'internal disturbance' was replaced by 'armed rebellion' via the 44th Amendment)."
+  },
+  {
+   "id": "GEN-116",
+   "paper": "GS",
+   "unit": "1",
+   "sub": "Emergency provisions",
+   "question": "A Proclamation of Financial Emergency is issued under which Article of the Constitution?",
+   "options": {
+    "A": "Article 356",
+    "B": "Article 360",
+    "C": "Article 362",
+    "D": "Article 368"
+   },
+   "answer": "B",
+   "explanation": "Article 360 empowers the President to proclaim a Financial Emergency if the financial stability or credit of India is threatened; it has never been invoked so far."
+  },
+  {
+   "id": "GEN-117",
+   "paper": "GS",
+   "unit": "1",
+   "sub": "Constitutional amendments",
+   "question": "Which amendment to the Constitution is known as the 'Mini Constitution' due to the extent of changes it introduced?",
+   "options": {
+    "A": "The 42nd Amendment, 1976",
+    "B": "The 44th Amendment, 1978",
+    "C": "The 61st Amendment, 1988",
+    "D": "The 73rd Amendment, 1992"
+   },
+   "answer": "A",
+   "explanation": "The 42nd Constitutional Amendment Act, 1976, made sweeping changes to the Constitution and is popularly known as the 'Mini Constitution'."
+  },
+  {
+   "id": "GEN-118",
+   "paper": "GS",
+   "unit": "1",
+   "sub": "Panchayati Raj and urban local bodies (73rd and 74th Amendments)",
+   "question": "The 73rd Constitutional Amendment Act, 1992, which gave constitutional status to Panchayati Raj Institutions, inserted which new Part into the Constitution?",
+   "options": {
+    "A": "Part IX",
+    "B": "Part IXA",
+    "C": "Part X",
+    "D": "Part XIV"
+   },
+   "answer": "A",
+   "explanation": "The 73rd Amendment inserted Part IX (Articles 243 to 243-O) titled 'The Panchayats' and added the Eleventh Schedule."
+  },
+  {
+   "id": "GEN-119",
+   "paper": "GS",
+   "unit": "1",
+   "sub": "Panchayati Raj and urban local bodies (73rd and 74th Amendments)",
+   "question": "The 74th Constitutional Amendment Act, 1992, deals with which subject?",
+   "options": {
+    "A": "Panchayati Raj Institutions",
+    "B": "Urban local bodies / Municipalities",
+    "C": "Autonomous District Councils",
+    "D": "Cooperative societies"
+   },
+   "answer": "B",
+   "explanation": "The 74th Amendment Act, 1992, gave constitutional status to Municipalities by inserting Part IXA and the Twelfth Schedule."
+  },
+  {
+   "id": "GEN-120",
+   "paper": "GS",
+   "unit": "1",
+   "sub": "Constitutional bodies: EC, CAG, UPSC, Finance Commission",
+   "question": "The Comptroller and Auditor General (CAG) of India is appointed by:",
+   "options": {
+    "A": "The Prime Minister",
+    "B": "The Chief Justice of India",
+    "C": "The President of India",
+    "D": "The Parliament by resolution"
+   },
+   "answer": "C",
+   "explanation": "Under Article 148, the CAG is appointed by the President of India by warrant under his hand and seal."
+  },
+  {
+   "id": "GEN-121",
+   "paper": "GS",
+   "unit": "1",
+   "sub": "Constitutional bodies: EC, CAG, UPSC, Finance Commission",
+   "question": "The Finance Commission of India is constituted by the President under which Article, typically every five years?",
+   "options": {
+    "A": "Article 262",
+    "B": "Article 275",
+    "C": "Article 280",
+    "D": "Article 292"
+   },
+   "answer": "C",
+   "explanation": "Article 280 provides for the constitution of a Finance Commission every five years to recommend distribution of tax revenues between the Union and the States."
+  },
+  {
+   "id": "GEN-122",
+   "paper": "GS",
+   "unit": "1",
+   "sub": "Article 371G and the special provisions for Mizoram",
+   "question": "Article 371G, which contains special provisions for the State of Mizoram, protects the application of which of the following without the concurrence of the State Legislative Assembly?",
+   "options": {
+    "A": "Mizo religious or social practices, Mizo customary law and procedure, administration of civil and criminal justice involving Mizo customary law, and ownership and transfer of land",
+    "B": "Only the Mizo language as the medium of instruction",
+    "C": "Only reservation of seats in the Assembly for Scheduled Tribes",
+    "D": "Only the boundaries of Aizawl district"
+   },
+   "answer": "A",
+   "explanation": "Article 371G, inserted by the 53rd Amendment Act, 1986, along with the Mizoram Peace Accord, provides that Acts of Parliament shall not apply to Mizoram in respect of Mizo religious/social practices, customary law and procedure, administration of civil/criminal justice involving Mizo customary law, and ownership/transfer of land, unless the State Legislative Assembly by resolution so decides."
+  },
+  {
+   "id": "GEN-123",
+   "paper": "GS",
+   "unit": "1",
+   "sub": "Article 371G and the special provisions for Mizoram",
+   "question": "Article 371G was inserted into the Constitution by which Constitutional Amendment Act, as part of the arrangement that created the State of Mizoram?",
+   "options": {
+    "A": "51st Amendment Act, 1984",
+    "B": "53rd Amendment Act, 1986",
+    "C": "55th Amendment Act, 1986",
+    "D": "56th Amendment Act, 1987"
+   },
+   "answer": "B",
+   "explanation": "The 53rd Constitutional Amendment Act, 1986, inserted Article 371G, giving effect to special provisions for Mizoram as agreed in the Mizoram Peace Accord."
+  },
+  {
+   "id": "GEN-124",
+   "paper": "GS",
+   "unit": "1",
+   "sub": "Sixth Schedule and Autonomous District Councils",
+   "question": "The Sixth Schedule of the Indian Constitution provides for the administration of tribal areas in which states?",
+   "options": {
+    "A": "Assam, Meghalaya, Tripura and Mizoram",
+    "B": "Mizoram, Manipur, Nagaland and Sikkim",
+    "C": "Assam, Arunachal Pradesh, Nagaland and Manipur",
+    "D": "Meghalaya, Tripura, Sikkim and Nagaland"
+   },
+   "answer": "A",
+   "explanation": "Article 244(2) and the Sixth Schedule provide for the administration of tribal areas in the states of Assam, Meghalaya, Tripura and Mizoram through Autonomous District Councils."
+  },
+  {
+   "id": "GEN-125",
+   "paper": "GS",
+   "unit": "1",
+   "sub": "Sixth Schedule and Autonomous District Councils",
+   "question": "How many Autonomous District Councils, constituted under the Sixth Schedule, exist in Mizoram?",
+   "options": {
+    "A": "One",
+    "B": "Two",
+    "C": "Three",
+    "D": "Four"
+   },
+   "answer": "C",
+   "explanation": "Mizoram has three Autonomous District Councils under the Sixth Schedule: the Chakma Autonomous District Council, the Mara Autonomous District Council, and the Lai Autonomous District Council."
+  },
+  {
+   "id": "GEN-126",
+   "paper": "GS",
+   "unit": "1",
+   "sub": "Right to Information Act",
+   "question": "The Right to Information Act, which mandates timely response to citizen requests for information, was enacted in which year?",
+   "options": {
+    "A": "2002",
+    "B": "2005",
+    "C": "2008",
+    "D": "2011"
+   },
+   "answer": "B",
+   "explanation": "The Right to Information Act, 2005, came into force on 12 October 2005, replacing the earlier Freedom of Information Act, 2002."
+  },
+  {
+   "id": "GEN-127",
+   "paper": "GS",
+   "unit": "1",
+   "sub": "Right to Information Act",
+   "question": "Under the RTI Act, 2005, within how many days must a Public Information Officer normally furnish the requested information?",
+   "options": {
+    "A": "15 days",
+    "B": "20 days",
+    "C": "30 days",
+    "D": "45 days"
+   },
+   "answer": "C",
+   "explanation": "Section 7 of the RTI Act, 2005, requires information to be provided within 30 days of the receipt of the request (48 hours where life or liberty is involved)."
+  }
+ ]
+}

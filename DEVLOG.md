@@ -9,6 +9,129 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-08-31 — Every question now says how to study it: calculate, understand, or memorise
+
+**Why.** The app had three ways to learn something — the Calc Lab drills a
+method, the Study pane explains a concept, the Leitner boxes rehearse a fact —
+and no idea which of the 1,082 questions belonged to which. So all three got the
+same treatment: read the explanation, tick the box, come back in 3 days. That is
+the right treatment for none of them. "Which section of the IT Act recognises
+digital records" and "why does a five-year data centre contract include a
+technology-refresh clause" are not the same kind of problem and do not reward the
+same kind of revision.
+
+**What shipped.** `public/mpsc-system-analyst/data/modes.js` — all 1,082
+questions labelled, each with a mode, a confidence and a one-line reason:
+
+| mode | n | share | what it means |
+|---|---|---|---|
+| `calculate` | 63 | 5.8% | a method produces the answer — route to Calc Lab |
+| `understand` | 681 | 62.9% | reason it from the concept — route to the Study pane |
+| `memorise` | 338 | 31.2% | no derivation path — route to the review boxes |
+
+Confidence: 646 high, 385 medium, 51 low.
+
+Four behaviours in the app, all four requested:
+
+- **A badge** on every question card, in the quiz runner, the post-quiz review
+  list and the paper browser.
+- **A study-mode filter** in Practice, plus three one-click drills ("drill the
+  by-heart ones") that respect the paper/unit selection and ignore the rest.
+  The pool line now also shows the mix of whatever is selected, so you see the
+  split *before* committing to a session.
+- **Mode-paced spaced repetition.** The same Leitner box no longer buys every
+  question the same interval: `memorise` comes back at 0.6× and `understand` at
+  1.4×, because an arbitrary section number decays far faster than a principle
+  you actually follow. Verified in the browser — same box 2, three different
+  intervals: 1.0d / 1.4d / 0.6d. A question you get *wrong* still returns
+  immediately whatever its mode.
+- **A per-unit mix table on the dashboard**, sorted grind-first, so you can see
+  which units need calendar time and which need insight before starting them.
+
+**The rubric did the work, not the model.** `CLASSIFY_BRIEF.md` follows
+`SOLVE_BRIEF.md`'s precedent and turns on two rules that make the hard boundary
+decidable:
+
+1. *Judge against a competent practitioner, not yourself.* You may know HTTP is
+   port 80, but that came from memorising it, not from understanding HTTP. Ask
+   where the knowledge comes from, not whether you happen to have it.
+2. *When honestly torn, choose `memorise`* — because the two errors are not
+   symmetrical. Mislabel a memorise item as understand and the reader forgets it
+   and drops a mark; mislabel the other way and they merely see it a bit too
+   often. Bias to the cheaper mistake, and set `confidence: medium` so the bias
+   is visible rather than hidden.
+
+**The rule pre-pass is a cross-check, not a classifier — and it lost.**
+`classify.py` carries a deliberately narrow regex pass whose only job is to
+disagree with the agents on `--merge`. It disagreed **4 times in 1,082 (0.4%)**,
+and the agents were right in all four: my heuristic counted "how many bytes is
+the IPv6 header" and "how many districts does Mizoram have" as *calculations*.
+They are remembered constants.
+
+That same heuristic is why the brief originally told agents `calculate` was
+"about 12%" of the bank. The real figure is **5.8%**. The brief has been
+corrected, with the wrong guess left in it as a note — it is the clearest
+possible argument for why the two opinions are kept separate.
+
+**Honest about what this label is.** Unlike an answer key, it cannot be verified
+against the source PDF. "Is this rote?" is partly a judgement and partly depends
+on what the reader already knows. So it does not meet CLAUDE.md's
+verify-against-source bar, and it is not claimed to. What makes that acceptable
+is the failure mode: a mis-labelled question sends you to the wrong study mode,
+it does not teach you a false fact. Different risk class from solving, and the
+reason this was safe to automate at all.
+
+**Why a side-file and not a field on the question.** `generate.py --merge` is
+idempotent by dropping every `GEN-` question and rebuilding it from
+`staged/generating/`. A `mode` written into `questions.js` would have survived on
+the past-paper questions and been silently erased from the ~425 generated ones on
+the next run — a partial, invisible loss of exactly the kind this project has
+already been bitten by twice. The labels live in their own file keyed on question
+id, which no other pipeline touches, and which ports to the System Manager bank
+with no schema change.
+
+**Found in passing, and worth its own session: ~20 questions whose answer key
+contradicts their own explanation.** Five agents independently reported these
+without being asked to look — `TECH3_2024-21` is keyed "Quality control" while
+its explanation argues Quality assurance throughout; `TECH1_2024-89` and
+`TECH1_OLD-100` are the same question verbatim keyed to different answers. One of
+each pair is wrong, and this is the real thing CLAUDE.md is about. Spawned as a
+separate task with the full list, and asked for a *systematic* detector rather
+than working the anecdotal list, since GE and GS were tagged by an agent that was
+not looking for it.
+
+**Interrupted by a session limit mid-run and resumed without loss** — because the
+pipeline writes per batch. 29 of 56 batches were on disk when three agents were
+cut off; those were validated (693 labels, zero problems) and only the missing 27
+were re-run. The relaunched agents were told explicitly to write each file as
+soon as it was labelled rather than holding everything to the end.
+
+**Verified in the browser:** dashboard mix table ranks GS Indian History at 100%
+by-heart and TECH3 abstract reasoning at 0%, which is the right answer; Practice
+filters report 63 / 681 / 337 and re-slice correctly per paper; the mode drills
+respect the paper scope; badges render in all three places; the Review tab's
+due-by-mode buttons filter the due pool. Console clean. Screenshot tool timed out
+again in this environment, so this is DOM assertions rather than an image.
+
+**What's still open:**
+
+- **The System Manager bank (843) is not labelled yet.** The brief, the pipeline
+  and the side-file design all port with no changes; only `classify.py`'s paths
+  are System Analyst-specific.
+- The `understand` / `memorise` boundary is a line, not a fact. The agents flagged
+  their own least stable calls — the FOSS licence-family items, PMBOK
+  ITTO questions with an off-domain distractor, and scheme-name-to-objective
+  mappings. 51 items are `low` confidence and would be the place to start a
+  review pass.
+- The mode pace multipliers (0.6 / 1.0 / 1.4) are a judgement, not a measurement.
+  Once there is enough answer history, the honest version is to derive them from
+  observed forgetting rates per mode rather than asserting them.
+- Nothing yet uses the label to *route* the reader — a `memorise` question you
+  keep failing could offer a mnemonic, and a `calculate` one could offer the
+  matching Calc Lab generator by name. The data is now there to do it.
+
+---
+
 ## 2026-08-30 — Calc Lab in the System Analyst app: 32 generators ported, 21 written for the routing/switching leaves the other syllabus does not have
 
 Follows the System Manager Calc Lab shipped earlier the same day (its own entry

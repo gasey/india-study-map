@@ -1,0 +1,696 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 46,
+ "questions": [
+  {
+   "id": "TECH2_2024-30",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "Rationale for PPP",
+   "question": "Which of the following is not considered as the strength of using PPP?",
+   "options": {
+    "A": "Ability to deliver value for money service",
+    "B": "Utilizing one's skill on agreement basis rather than recruitment",
+    "C": "Possibility of keeping government's confidential files",
+    "D": "Simplifying offering of services from the viewpoint of government"
+   },
+   "answer": "C",
+   "explanation": "PPP's recognised strengths are value-for-money delivery, access to private expertise without permanent recruitment, and simplified service delivery for government. Confidentiality of government files is actually a recognised risk of PPP, not a strength — handing operations to a private partner increases exposure of sensitive data, which is precisely the concern raised elsewhere in this same syllabus unit (risk of PPP). So C inverts a known weakness into a false 'strength', making it the correct choice for 'not a strength'."
+  },
+  {
+   "id": "TECH2_2024-31",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "Rationale for PPP",
+   "question": "PPP must satisfy the following(s) —\ni. Win-win situation for both public and private\nii. It should save troubles for public\niii. Cost of service should remain same\niv. Private should have monetary benefits",
+   "options": {
+    "A": "i and ii only",
+    "B": "ii and iii only",
+    "C": "i, ii and iv only",
+    "D": "i, ii, iii and iv"
+   },
+   "answer": "C",
+   "explanation": "A workable PPP is built on a win-win arrangement (i), reduced hassle for the public in accessing services (ii), and a genuine profit motive for the private partner (iv) — without private monetary benefit, no private firm would participate. Statement iii is not a necessary condition: service cost to the public can rise, fall or stay flat depending on the model; PPP does not guarantee unchanged pricing. Hence only i, ii and iv are must-conditions, making D (all four) too broad and C the correct set."
+  },
+  {
+   "id": "TECH2_2024-32",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "Key design principle for PPP",
+   "question": "Which of the following is considered incorrect when risk concern is addressed in PPP?",
+   "options": {
+    "A": "Public sector may lose managerial control over its services",
+    "B": "Confidential matters may be leaked to public",
+    "C": "Procurements in PPP may be time consuming and complicate",
+    "D": "Proper agreement may not be signed between the parties"
+   },
+   "answer": "C",
+   "explanation": "Loss of managerial control, confidentiality leakage, and complex/time-consuming procurement are all genuinely documented risk concerns raised against PPP arrangements in e-Governance. Option D, however, describes a contract-drafting failure rather than an inherent structural risk of the PPP model itself — signing a proper agreement is a project-management safeguard, not a category of risk that PPP as a model creates. This makes D the odd one out; flagged low confidence because the question's phrasing is ambiguous about what 'incorrect' is being asked to identify."
+  },
+  {
+   "id": "TECH2_2024-34",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "Costs in e-Governance projects",
+   "question": "This is a one-time cost associated with costs related to the software design, development and maintenance projects.",
+   "options": {
+    "A": "Application cost for ERPs solution",
+    "B": "AMC for software licenses",
+    "C": "Training and Capacity Building",
+    "D": "Software maintenance and support"
+   },
+   "answer": "A",
+   "explanation": "Building/customising an ERP/application (design and development) is a capital, one-time expenditure incurred once at project inception. In contrast, AMC (Annual Maintenance Contract) for licenses and ongoing software maintenance/support are recurring operational costs paid year after year, and capacity-building/training is also typically repeated as staff turn over. So among the four, only the application development cost (A) is genuinely a one-time cost, while B, C and D are recurring costs across the project lifecycle."
+  },
+  {
+   "id": "TECH2_2024-35",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "Revenue opportunities in e-Governance projects",
+   "question": "Which of the following is a potential revenue stream for e-Governance initiatives?",
+   "options": {
+    "A": "Fees for accessing public records at physical locations",
+    "B": "Costs associated with physical infrastructure maintenance",
+    "C": "Advertising revenue from government service centres",
+    "D": "Tax deductions for digital service providers"
+   },
+   "answer": "C",
+   "explanation": "Advertising space sold on portals, kiosks and Common Service Centres is a genuine, commonly cited revenue-generation mechanism for e-Governance projects, helping recover operating costs. Option A describes a physical, non-digital fee unrelated to the e-Governance channel itself. B and D are both costs/liabilities, not income — infrastructure maintenance is an expense, and tax deductions reduce government revenue rather than generate it for the project. Only C represents money actually flowing in because of the e-Governance initiative."
+  },
+  {
+   "id": "TECH2_2024-36",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "Public Finance and Private Finance",
+   "question": "In the Project Finance model, how is the project typically funded?",
+   "options": {
+    "A": "Through the project's assets and potential future earnings",
+    "B": "By issuing government bonds",
+    "C": "Through government taxes and tariffs",
+    "D": "Through public-private partnerships without debt financing"
+   },
+   "answer": "A",
+   "explanation": "Project Finance is a non-recourse or limited-recourse financing structure where lenders are repaid primarily from the cash flows and assets generated by the project itself, rather than from the sponsor's general balance sheet or the state exchequer. Government bonds (B) and taxes/tariffs (C) describe public-finance funding routes, the opposite of project finance. Option D is self-contradictory since PPPs commonly do use debt financing, so it misdescribes the model. Only A captures the defining feature of project finance."
+  },
+  {
+   "id": "TECH2_2024-37",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "Public Finance and Private Finance",
+   "question": "What is the role of a “Concessionaire” in the Private Finance model?",
+   "options": {
+    "A": "A government agency responsible for financing the project",
+    "B": "The private partner who enters into a concession agreement with the government",
+    "C": "The entity responsible for overseeing the bidding process",
+    "D": "The legal advisor for the project"
+   },
+   "answer": "B",
+   "explanation": "A Concessionaire is, by definition, the private party granted a concession (right) by government to finance, build and/or operate a public asset or service for a defined period under a concession agreement, in return for user fees or annuity payments. It is not a government body (A), not the bid-management authority (C), and not a legal advisor (D) — those are all separate, distinct roles in a PPP structure. The term specifically names the private counterparty to the concession contract."
+  },
+  {
+   "id": "TECH2_2024-38",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "BOOT - Build Own Operate and Transfer Model",
+   "question": "An e-governance business model in which public sector hired private partner to build the service model, take care as its own, operate and after running smoothly, transfer the working model to the government is —",
+   "options": {
+    "A": "BOO",
+    "B": "PPP",
+    "C": "BOOT",
+    "D": "TOT"
+   },
+   "answer": "C",
+   "explanation": "BOOT stands for Build-Own-Operate-Transfer: the private partner builds the asset, owns and operates it for a concession period, and finally transfers it back to government once it is running smoothly — exactly matching the sequence described. BOO (A) stops at 'own-operate' with no transfer back, so it is the closest wrong distractor. PPP (B) is the umbrella category, too generic to be the specific answer. TOT (Transfer-Operate-Transfer) (D) implies the asset already exists and is handed over first, which does not match 'build' being the first step here."
+  },
+  {
+   "id": "TECH2_2024-39",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "Rationale for PPP",
+   "question": "What is a key feature of the Public-Private Partnership (PPP) model?",
+   "options": {
+    "A": "The private sector owns the infrastructure permanently",
+    "B": "The government funds the entire project alone",
+    "C": "The government does not retain any responsibility for service delivery",
+    "D": "The private sector delivers services and finances or part-finances the project"
+   },
+   "answer": "D",
+   "explanation": "The defining feature of PPP is shared risk and shared investment: the private partner brings capital (full or partial financing) and delivers the service, while government retains oversight, regulatory responsibility and often ultimate ownership. 'Permanent' private ownership (A) contradicts the transfer-back principle common to most PPP variants (BOOT/BOO). Government funding the whole project alone (B) defeats the purpose of a partnership. Government having zero responsibility (C) is false since PPP explicitly keeps government accountable for public service outcomes even when delivery is outsourced."
+  },
+  {
+   "id": "TECH2_2024-41",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "Net Present Value (NPV) and Internal Rate of Return (IRR)",
+   "question": "Net investment of private entity on equipment is best described by —",
+   "options": {
+    "A": "Gross investment minus unexpected damage of capital",
+    "B": "Gross investment minus damage of capital due to natural calamity",
+    "C": "Gross investment minus loss of value over time",
+    "D": "Gross investment only"
+   },
+   "answer": "C",
+   "explanation": "In standard economics/finance, Net Investment = Gross Investment − Depreciation, where depreciation is the normal, predictable loss of an asset's value over time due to wear, use and obsolescence. Options A and B describe unexpected/accidental losses (damage, natural calamity), which are not what 'depreciation' captures — those are abnormal losses, not routine value decay. Option D ignores depreciation entirely, which would overstate the true net addition to productive capital. Only C matches the standard formula."
+  },
+  {
+   "id": "TECH2_2024-66",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "Revenue opportunities in e-Governance projects",
+   "question": "To ensure the sustainability of e-Governance projects, which of the following is crucial?",
+   "options": {
+    "A": "Revenue model",
+    "B": "Technical model",
+    "C": "Data flow diagram",
+    "D": "Use case diagram"
+   },
+   "answer": "A",
+   "explanation": "A project can only keep running after the initial grant/budget is exhausted if it has a clear revenue model — user fees, PPP transaction fees, government budget allocation, or advertising — to fund ongoing operations, maintenance and upgrades. A technical model, data-flow diagram and use-case diagram are design/documentation artefacts describing how the system works, not mechanisms that keep it financially and operationally alive over time."
+  },
+  {
+   "id": "TECH2_2024-67",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "Costs in e-Governance projects",
+   "question": "The initial investment in implementing e-Governance is largest from —",
+   "options": {
+    "A": "Corporations",
+    "B": "State Bank of India",
+    "C": "PPP",
+    "D": "Government"
+   },
+   "answer": "D",
+   "explanation": "Most e-Governance initiatives begin as government-funded public infrastructure projects (data centres, connectivity, base applications) before any private or PPP revenue-sharing model can be layered on top, so the government typically bears the largest share of the initial capital outlay. Corporations and a specific bank are not general funders of public e-Governance rollouts, and PPP arrangements usually come in after the government has already committed the bulk of seed investment, so D is the best fit among the given options."
+  },
+  {
+   "id": "TECH2_2021-31",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "Business Models for implementation of e-Governance",
+   "question": "An organization's ability to tailor its products and services for its customers is known as –",
+   "options": {
+    "A": "Specialization",
+    "B": "Mass customization",
+    "C": "Target Commerce",
+    "D": "Adaptation"
+   },
+   "answer": "B",
+   "explanation": "Mass customization is the standard term for tailoring products or services to individual customers while retaining the economics of mass production. Specialization refers to narrowing what an organisation does, not to per-customer tailoring."
+  },
+  {
+   "id": "TECH2_2021-32",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "Costs in e-Governance projects",
+   "question": "Which of the following cost is recurring cost in e-Governance Projects?",
+   "options": {
+    "A": "Services cost for Data digitization and migration",
+    "B": "Services cost for Training and Capacity Building",
+    "C": "Services cost for Installation and configuration",
+    "D": "Services cost for ERP customization"
+   },
+   "answer": "B",
+   "explanation": "Training and capacity building recurs through the project's operational life as staff turn over, modules change and refresher rounds are needed, so it is budgeted as a recurring cost. Digitization and migration, installation and configuration, and ERP customization are one-time capital or implementation-phase costs."
+  },
+  {
+   "id": "TECH2_2021-33",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "Revenue opportunities in e-Governance projects",
+   "question": "Which of the following is not revenue generation opportunities provided by e-Governance initiatives?",
+   "options": {
+    "A": "Portal registration/subscription charges",
+    "B": "Transaction fee for online services",
+    "C": "Common service centre registration fee",
+    "D": "Advertising revenue from service centre"
+   },
+   "answer": "C",
+   "explanation": "Portal subscription charges, transaction fees on online services and advertising are the standard revenue streams an e-Governance initiative can generate. A CSC registration fee is an entry cost paid by the operator to join the network rather than a revenue stream the initiative creates, though the option set here is loosely drafted."
+  },
+  {
+   "id": "TECH2_2021-34",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "Business Models for implementation of e-Governance",
+   "question": "In this business model, 100% of the project risk and returns are accrued to government only:",
+   "options": {
+    "A": "Conventional",
+    "B": "Outsource",
+    "C": "PPP",
+    "D": "BOO(T)"
+   },
+   "answer": "A",
+   "explanation": "In the conventional (departmental) model the government funds, builds, owns and operates the system itself, so it retains the whole of the risk and the whole of the return. Outsourcing, PPP and BOO(T) all exist precisely to transfer some share of risk and return to a private partner."
+  },
+  {
+   "id": "TECH2_2021-35",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "Rationale for PPP",
+   "question": "Basic feature of PPP is:",
+   "options": {
+    "A": "The government need to own infrastructure to deliver services",
+    "B": "It is novel method of developing public infrastructure",
+    "C": "Government retain responsibility for delivery of core processes/services",
+    "D": "It is concern with assets not services"
+   },
+   "answer": "C",
+   "explanation": "A defining PPP principle is that government retains responsibility for and accountability over delivery of core services even when a private partner builds and operates the infrastructure. The classic PPP tenets also hold that government need not own the infrastructure and that PPP is about services rather than assets, which rules out A and D."
+  },
+  {
+   "id": "TECH2_2021-36",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "PPP benefit to Government",
+   "question": "PPP benefits to Government is:",
+   "options": {
+    "A": "Maximize financial out go",
+    "B": "Reduced risk of cost overruns",
+    "C": "Increased lifecycle costs of projects",
+    "D": "Profitize liquidity and debt funds"
+   },
+   "answer": "B",
+   "explanation": "Transferring construction and delivery risk to the private partner under a fixed-price, output-based contract reduces the government's exposure to cost overruns. The other options state the opposite of a benefit (maximised outgo, increased lifecycle costs) or are meaningless."
+  },
+  {
+   "id": "TECH2_2021-37",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "BOOT - Build Own Operate and Transfer Model",
+   "question": "The acronym BOOT expands to:",
+   "options": {
+    "A": "Build, Own, Operate, Transfer",
+    "B": "Buy, Own, Operate, Transfer",
+    "C": "Buy, Operate, Own, Transfer",
+    "D": "Build, Operate, Own, Transfer"
+   },
+   "answer": "A",
+   "explanation": "BOOT stands for Build, Own, Operate, Transfer: the concessionaire builds and owns the asset, operates it for the concession period, then transfers ownership to government. The 'Buy' variants are not standard PPP acronyms."
+  },
+  {
+   "id": "TECH2_2021-38",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "Approach for development of Business Model",
+   "question": "Mass market, niche market, segmented, diversified and multi-sided markets are all examples of:",
+   "options": {
+    "A": "Customer segments",
+    "B": "Value proposition",
+    "C": "Key resources",
+    "D": "Business model"
+   },
+   "answer": "A",
+   "explanation": "Mass market, niche market, segmented, diversified and multi-sided are the five standard types of Customer Segments in the Business Model Canvas. Value proposition, key resources and the canvas as a whole are separate blocks."
+  },
+  {
+   "id": "TECH2_2021-39",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "Revenue opportunities in e-Governance projects",
+   "question": "These are all types of revenue streams, except:",
+   "options": {
+    "A": "Asset sale",
+    "B": "Value",
+    "C": "Usage fee",
+    "D": "Renting"
+   },
+   "answer": "B",
+   "explanation": "Revenue stream types include asset sale, usage fee, subscription fee, lending/renting/leasing, licensing, brokerage fees and advertising. 'Value' is not a revenue stream; it belongs to the value proposition block and is the deliberate distractor."
+  },
+  {
+   "id": "TECH2_2021-40",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "Approach for development of Business Model",
+   "question": "Every asset that allows an enterprise to create and offer a value proposition, reach markets, maintain relationships with customer segments and earn revenues is called:",
+   "options": {
+    "A": "Key activities",
+    "B": "Key resources",
+    "C": "Key partners",
+    "D": "Key friends"
+   },
+   "answer": "B",
+   "explanation": "Key Resources are the assets, physical, intellectual, human or financial, required to create the value proposition, reach markets, sustain customer relationships and earn revenue. Key activities are what the firm does with those assets, not the assets themselves."
+  },
+  {
+   "id": "TECH2_2021-41",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "Approach for development of Business Model",
+   "question": "In this kind of customer relationship, the company tries to provide all the tools a customer needs, so that they can service themselves, without human assistance.",
+   "options": {
+    "A": "Co-creation",
+    "B": "Self-service",
+    "C": "Community",
+    "D": "Personal"
+   },
+   "answer": "B",
+   "explanation": "Self-service is the Business Model Canvas relationship type where the firm supplies the tools and the customer serves themselves with no direct human contact. Co-creation involves customers producing value with the firm, and 'personal' is the opposite, being assistance from a human representative."
+  },
+  {
+   "id": "TECH2_2021-95",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "Public Finance and Private Finance",
+   "question": "In PPP, monetary investment is mainly borne by:",
+   "options": {
+    "A": "Government",
+    "B": "General public",
+    "C": "Private partner",
+    "D": "None of the above"
+   },
+   "answer": "C",
+   "explanation": "The defining feature of a Public Private Partnership is that the private partner brings the capital investment and bears the associated financial risk, recovering it through user charges or annuity payments. The government contributes the mandate, land, regulatory support and often viability gap funding rather than the bulk of the investment."
+  },
+  {
+   "id": "GEN-TECH2-U6-164",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "PPP benefit to Citizens",
+   "question": "A state delivers e-District certificate services through PPP-operated service counters instead of departmental counters. From the citizen's point of view, what is the defining benefit of this arrangement?",
+   "options": {
+    "A": "The service becomes free of any user charge, since the private partner is paid by the government",
+    "B": "The citizen acquires a share in the facility built by the private partner",
+    "C": "Delivery from a single window at published charges, against a contractually enforceable turnaround time",
+    "D": "The statutory power to approve the application passes from the government officer to the counter operator"
+   },
+   "answer": "C",
+   "explanation": "PPP for citizen services buys the citizen convenience and predictability: one window, a published fee, and a delivery time the department can be held to under the concession. User charges do not disappear, they are fixed and disclosed, and statutory approval always stays with the authorised officer."
+  },
+  {
+   "id": "GEN-TECH2-U6-165",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "PPP benefit to Citizens",
+   "question": "Why does a penalty-linked Service Level Agreement in an e-Governance PPP matter to the citizen and not only to the two contracting parties?",
+   "options": {
+    "A": "It converts a best-effort service into a measurable delivery commitment that costs the operator money when missed",
+    "B": "It guarantees the operator a fixed return irrespective of how the service actually performs",
+    "C": "It shifts the department's statutory liability for a wrong decision on to the citizen",
+    "D": "It removes the citizen's obligation to submit supporting documents with the application"
+   },
+   "answer": "A",
+   "explanation": "An SLA with deductions gives the operator a financial reason to meet turnaround times, so what the citizen gets is an enforceable standard rather than a promise. A guaranteed return is the opposite of an SLA regime, where payment varies with measured performance."
+  },
+  {
+   "id": "GEN-TECH2-U6-166",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "Benefits to Private sector partner",
+   "question": "Compared with a one-off supply-and-installation order, what is the principal commercial attraction of a long-tenure e-Governance PPP to a private partner?",
+   "options": {
+    "A": "It exempts the partner from taxation on revenue earned from the project",
+    "B": "It gives the partner ownership of the citizen data captured by the service",
+    "C": "It relieves the partner of measurable performance obligations once the service goes live",
+    "D": "It gives a multi-year revenue stream from a large assured user base, over which upfront investment can be recovered"
+   },
+   "answer": "D",
+   "explanation": "The bankable feature of a PPP is tenure: a concession long enough for capital and a return on it to be recovered from a captive transaction volume. Citizen data remains the government's, the partner processing it only as custodian for the term of the contract."
+  },
+  {
+   "id": "GEN-TECH2-U6-167",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "Benefits to Private sector partner",
+   "question": "A private partner recovers its investment in an e-Governance PPP from per-transaction user charges. Which risk does it accept in exchange for that revenue benefit?",
+   "options": {
+    "A": "Change-in-law risk, which concession agreements normally place on the government",
+    "B": "Demand risk, since actual transaction volumes may fall short of the projections used to size the investment",
+    "C": "Land acquisition risk for the sites, normally borne by the contracting authority",
+    "D": "Force majeure risk, which concession agreements normally treat as shared"
+   },
+   "answer": "B",
+   "explanation": "A user-charge or revenue-share structure pays the partner only when citizens transact, so a volume shortfall hits it directly, which is demand risk. Change in law, site availability and force majeure are conventionally retained by the authority or shared, not transferred to the operator."
+  },
+  {
+   "id": "GEN-TECH2-U6-168",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "Role of various partners",
+   "question": "In a state e-Governance PPP, what does the independent third-party agency appointed alongside the department and the operator do?",
+   "options": {
+    "A": "It provides the debt finance the operator needs during the build phase",
+    "B": "It takes approval decisions on citizen applications on behalf of the department",
+    "C": "It independently measures the operator's performance against SLA metrics, on which payments and deductions are computed",
+    "D": "It holds title to the project assets for the duration of the concession"
+   },
+   "answer": "C",
+   "explanation": "SLA-linked payment only works if the measurement is credible to both sides, so an auditor independent of both certifies performance. Financing comes from the operator's own lenders, and statutory decisions never leave the department."
+  },
+  {
+   "id": "GEN-TECH2-U6-169",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "Role of various partners",
+   "question": "The selected bidder in a PPP project is normally required to incorporate a Special Purpose Vehicle (SPV). What does the SPV achieve in the partner structure?",
+   "options": {
+    "A": "It ring-fences the project's assets, liabilities and cash flows in a company separate from its sponsors",
+    "B": "It transfers the contracting authority's statutory powers to the private sponsors",
+    "C": "It acts as the independent auditor of the operator's service levels",
+    "D": "It keeps the project in the public sector by holding the government's equity on its behalf"
+   },
+   "answer": "A",
+   "explanation": "An SPV isolates the project so lenders can lend against the project's own cash flows and a sponsor's unrelated businesses cannot drag it down, or be dragged down by it. The SPV is the concessionaire itself rather than an auditor, and incorporating one moves no statutory power."
+  },
+  {
+   "id": "GEN-TECH2-U6-170",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "Role of Government in PPP",
+   "question": "In an e-Governance PPP, the government's role shifts away from being the provider of the service and towards which of the following?",
+   "options": {
+    "A": "Sole financier of the project's capital cost",
+    "B": "Direct employer of the front-end counter staff",
+    "C": "Passive shareholder with no continuing monitoring duty",
+    "D": "Enabler and regulator, setting service standards, monitoring SLAs and enforcing the contract"
+   },
+   "answer": "D",
+   "explanation": "PPP moves the government up the value chain: it specifies what the service must achieve and polices the contract, while the partner decides how. The monitoring role grows rather than shrinks, so a passive stance defeats the model."
+  },
+  {
+   "id": "GEN-TECH2-U6-171",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "Role of Government in PPP",
+   "question": "Even where an e-Governance service is delivered end to end by a private operator, which responsibility must stay with the government?",
+   "options": {
+    "A": "Manning the helpdesk at the service delivery centres",
+    "B": "Taking the statutory decision on the citizen's application and digitally signing the certificate issued",
+    "C": "Procuring and maintaining the counters' hardware and connectivity",
+    "D": "Recruiting and training the front-end counter operators"
+   },
+   "answer": "B",
+   "explanation": "Statutory discretion cannot be outsourced: the authorised officer decides and signs, and the operator's system only carries the workflow up to and away from that point. Hardware, manpower and helpdesk are precisely the operational layers a PPP exists to transfer."
+  },
+  {
+   "id": "GEN-TECH2-U6-172",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "Role of Private partner",
+   "question": "A State Data Centre is procured on a Design-Build-Finance-Operate (DBFO) basis. Which set of obligations does the private partner carry?",
+   "options": {
+    "A": "It designs, builds, finances and operates the facility, with the authority paying for availability over the contract term",
+    "B": "It supplies the equipment against a purchase order, after which the authority operates the facility",
+    "C": "It finances the project while the authority designs, builds and operates the facility",
+    "D": "It operates a facility that the authority has designed, built and financed"
+   },
+   "answer": "A",
+   "explanation": "DBFO bundles design, construction, finance and operation with one party, so the partner has a reason to build for low running cost, and the authority pays over time for the facility being available. Option D is an operations and maintenance contract and option B a plain supply contract."
+  },
+  {
+   "id": "GEN-TECH2-U6-173",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "Role of Private partner",
+   "question": "e-Governance PPP contracts describe the private partner as carrying 'end-to-end delivery responsibility'. In operational terms this means that the partner:",
+   "options": {
+    "A": "acquires the authority to grant or reject citizen applications on its own",
+    "B": "becomes the owner and permanent custodian of the citizen data it processes",
+    "C": "is accountable for infrastructure, application, manpower and the citizen interface as one measured service rather than as separate deliverables",
+    "D": "is paid on a time-and-materials basis for each component it supplies"
+   },
+   "answer": "C",
+   "explanation": "The point of bundling delivery with one partner is that the department has a single accountable party and a single SLA instead of arbitrating between a hardware vendor, a software vendor and a manpower agency. Time-and-materials pricing splits that accountability again, which is exactly what the model avoids."
+  },
+  {
+   "id": "GEN-TECH2-U6-174",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "Management Contract",
+   "question": "Under a management contract for an existing government facility, how are asset ownership and commercial risk allocated?",
+   "options": {
+    "A": "The private firm owns the assets and bears the commercial risk",
+    "B": "The private firm owns the assets while the government bears the commercial risk",
+    "C": "The government owns the assets while the private firm bears the commercial risk",
+    "D": "The government owns the assets and bears the commercial risk, and the private firm is paid a management fee"
+   },
+   "answer": "D",
+   "explanation": "A management contract buys managerial capability alone: the state keeps the asset and the revenue and pays a fee, sometimes partly performance-linked, for running it. Once the private party begins carrying revenue or demand risk the arrangement has become a lease or a concession instead."
+  },
+  {
+   "id": "GEN-TECH2-U6-175",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "Management Contract",
+   "question": "A state wants a private firm to run its existing State Data Centre for five years, with no capital investment by the firm and no transfer of revenue risk to it. Which model fits?",
+   "options": {
+    "A": "Build-Own-Operate-Transfer",
+    "B": "Management contract",
+    "C": "Concession with revenue share",
+    "D": "Joint venture company"
+   },
+   "answer": "B",
+   "explanation": "No private capital and no revenue risk leaves only remuneration by fee for managing a state-owned asset, which is the management contract. BOOT and a revenue-share concession both require the partner to invest and to earn from usage, and a joint venture would require it to take equity."
+  },
+  {
+   "id": "GEN-TECH2-U6-176",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "ASP Model - Application Service Provider Model",
+   "question": "Under the Application Service Provider (ASP) model, what does a government department actually buy?",
+   "options": {
+    "A": "The right to use a centrally hosted application on a subscription or per-transaction basis, with the provider owning and maintaining both software and infrastructure",
+    "B": "A perpetual source-code licence, deployed and run on departmental servers",
+    "C": "Bespoke software developed to its specification and handed over as a one-time deliverable",
+    "D": "Bare compute and storage on which the department deploys and maintains its own application"
+   },
+   "answer": "A",
+   "explanation": "In the ASP model the department consumes a running service and pays for use, while the application, the servers and their upkeep stay with the provider. Option D describes infrastructure hosting, where the department still owns the application and carries its maintenance burden."
+  },
+  {
+   "id": "GEN-TECH2-U6-177",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "ASP Model - Application Service Provider Model",
+   "question": "In commercial terms, an ASP arrangement for an e-District application is closest to which of the following?",
+   "options": {
+    "A": "A turnkey build-and-transfer software contract",
+    "B": "An annual maintenance contract on software the department already owns",
+    "C": "A software-as-a-service subscription, paying for the use of a hosted application rather than for owning it",
+    "D": "A staff augmentation contract supplying developers to the department"
+   },
+   "answer": "C",
+   "explanation": "ASP is the earlier name for what is now sold as SaaS: a shared hosted application billed by subscription or by transaction. An AMC presumes the department already owns and hosts the software, which is exactly the position the ASP model avoids."
+  },
+  {
+   "id": "GEN-TECH2-U6-178",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "Requirement to launch services in a short time frame",
+   "question": "A department must launch a citizen-facing online service within a few months, with no capital budget and no in-house technical team. Which delivery route best meets the time constraint?",
+   "options": {
+    "A": "Tender for a bespoke system and a new departmental data centre built to its own specification",
+    "B": "Recruit and train a departmental IT cadre before beginning the rollout",
+    "C": "Build on-premise infrastructure and roll the service out in phases over three years",
+    "D": "Subscribe to an already-operational hosted platform under an ASP or PPP arrangement, configuring rather than building"
+   },
+   "answer": "D",
+   "explanation": "When the binding constraint is time and the department has neither capital up front nor skills in house, the only route that keeps procurement, build and hiring off the critical path is riding on infrastructure and an application that already exist. Every other option places a full build cycle before go-live."
+  },
+  {
+   "id": "GEN-TECH2-U6-179",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "Requirement to launch services in a short time frame",
+   "question": "Why does the PPP route usually shorten time-to-launch for an e-Governance service compared with a purely departmental build?",
+   "options": {
+    "A": "PPP contracts are exempt from the requirement to define measurable service levels",
+    "B": "The partner brings ready infrastructure, trained manpower and proven application components, and carries out their procurement itself",
+    "C": "The department can defer defining its business rules until after go-live, because the partner owns the application",
+    "D": "PPP awards do not have to go through a competitive bidding process"
+   },
+   "answer": "B",
+   "explanation": "Time is saved because the partner has already done the capital procurement, the hiring and the product build that would otherwise sit on the department's critical path. Service levels still have to be specified, more tightly than in a departmental build, and business rules must be settled before the partner can configure anything."
+  },
+  {
+   "id": "GEN-TECH2-U6-180",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "BOO - Build Own Operate Model",
+   "question": "What distinguishes a Build-Own-Operate (BOO) arrangement from Build-Own-Operate-Transfer (BOOT)?",
+   "options": {
+    "A": "In BOO the private partner retains ownership of the asset indefinitely, whereas in BOOT ownership passes to the government at the end of the agreed term",
+    "B": "In BOO the government finances construction, whereas in BOOT the private partner finances it",
+    "C": "In BOO the asset is handed to the government at the end of the term, whereas in BOOT the partner keeps it",
+    "D": "BOO covers construction only, whereas BOOT adds an operating phase"
+   },
+   "answer": "A",
+   "explanation": "The final 'T' is the whole difference: BOOT ends in a transfer of the asset to the authority and BOO does not, so under BOO the asset stays on the partner's books and it plans returns over an open horizon. Both models are privately financed and both include an operating phase."
+  },
+  {
+   "id": "GEN-TECH2-U6-181",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "BOO - Build Own Operate Model",
+   "question": "A firm builds a cloud data centre at its own cost, keeps ownership of it permanently, and sells capacity to government departments on a pay-per-use basis. Which model is this?",
+   "options": {
+    "A": "Build-Operate-Transfer",
+    "B": "Design-Build-Finance-Operate with availability payments",
+    "C": "Build-Own-Operate",
+    "D": "Management contract"
+   },
+   "answer": "C",
+   "explanation": "Private capital, permanent private ownership and revenue earned from usage together define BOO. BOT would require handing the facility over at the end of the term, and under a DBFO with availability payments the authority, not usage, would be paying the operator."
+  },
+  {
+   "id": "GEN-TECH2-U6-182",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "JV Model",
+   "question": "What is the defining feature of the Joint Venture model when it is used for an e-Governance project?",
+   "options": {
+    "A": "The government pays the private firm an agreed fee for operating the system while retaining full ownership of the operating entity",
+    "B": "The government and the private partner both subscribe equity in a separate company formed to execute the project, and share its risks and returns in proportion to their holdings",
+    "C": "The private firm builds the system to specification and hands it over to the government on completion, with no continuing stake",
+    "D": "Two or more private firms combine to bid for the work, with the government participating only as the purchaser"
+   },
+   "answer": "B",
+   "explanation": "What makes an arrangement a joint venture is shared ownership: both sides put capital into a jointly held project company and are exposed to its profits and losses, which aligns the private partner's incentives with the project's long-run performance rather than with a fee. A group of private firms bidding together is a consortium, in which the government holds no equity at all."
+  },
+  {
+   "id": "GEN-TECH2-U6-183",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "JV Model",
+   "question": "Which statement correctly distinguishes the Joint Venture model from the BOOT model?",
+   "options": {
+    "A": "A Joint Venture always ends with the transfer of assets to the government, whereas a BOOT arrangement never does",
+    "B": "The Joint Venture model is used only for physical infrastructure, while BOOT is used only for software systems",
+    "C": "In a Joint Venture the private partner bears no commercial risk, while in BOOT it bears all of it",
+    "D": "In a Joint Venture the government holds equity in the project company and shares in its profits and losses; under BOOT the private party owns and operates the asset through the concession period and transfers it to the government at the end"
+   },
+   "answer": "D",
+   "explanation": "The two models differ in where ownership sits: a joint venture makes the government a shareholder alongside the private partner from the outset, whereas BOOT leaves ownership entirely with the concessionaire until the transfer at the close of the concession. It is BOOT, not the joint venture, that is defined by an end-of-term transfer, so the claim that only the joint venture ends in transfer inverts both models."
+  },
+  {
+   "id": "GEN-TECH2-U6-184",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "How to structure and implement PPP",
+   "question": "When the risks of a PPP project are being allocated between the parties during structuring, what is the governing principle?",
+   "options": {
+    "A": "Each risk should be assigned to the party better placed to control or manage it at the lower cost",
+    "B": "Every risk should be assigned to the private partner, since it is being paid to assume risk",
+    "C": "Every risk should be retained by the government, since it remains ultimately answerable for the service",
+    "D": "All risks should be divided equally between the parties in a fixed fifty-fifty split"
+   },
+   "answer": "A",
+   "explanation": "Assigning a risk to whoever can actually influence it produces the lowest total cost, because a party that cannot manage a risk simply prices it into the bid as a contingency and the government pays for it anyway. Pushing every risk on to the private partner therefore raises the price rather than removing the exposure."
+  },
+  {
+   "id": "GEN-TECH2-U6-185",
+   "paper": "TECH2",
+   "unit": "6",
+   "sub": "How to structure and implement PPP",
+   "question": "In structuring the payment mechanism of an e-Governance PPP, what is the essential difference between an annuity-based structure and a revenue-share or transaction-fee structure?",
+   "options": {
+    "A": "Annuity payments fall due only after the concession has ended, whereas revenue share is paid to the concessionaire in advance",
+    "B": "An annuity structure requires a special purpose vehicle to be incorporated, whereas a revenue-share structure does not",
+    "C": "Under an annuity the government pays the concessionaire pre-agreed periodic amounts irrespective of usage, so demand risk stays with the government; under revenue share the concessionaire is paid out of actual transaction volumes and therefore carries the demand risk",
+    "D": "Under an annuity the private partner owns the assets permanently, whereas under revenue share ownership never passes to it at any stage"
+   },
+   "answer": "C",
+   "explanation": "The payment mechanism is what decides who suffers if the service is used less than projected: a fixed periodic annuity insulates the concessionaire from volumes and leaves the shortfall with the government, while payment out of transactions transfers that exposure to the concessionaire. Both structures pay the concessionaire during the concession period, not after it ends, and either can be implemented through a special purpose vehicle."
+  }
+ ]
+}

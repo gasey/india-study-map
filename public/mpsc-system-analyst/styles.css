@@ -399,3 +399,13 @@ label.fld { display: flex; flex-direction: column; gap: .25rem; font-size: .78re
 
 /* Code listings, routing tables and switch tables inside a generated stem. */
 .quiz .qtext{white-space:normal}
+
+/* --------------------------------------------------------- study-mode mix */
+/* Per-unit calculate/understand/memorise proportions on the dashboard. Colours
+   match the pill each mode uses elsewhere, so the bar and the badges read as
+   the same vocabulary. */
+.mixbar{display:flex;height:9px;border-radius:99px;overflow:hidden;background:var(--panel-2);min-width:140px}
+.mixbar .seg{display:block;height:100%}
+.mixbar .seg.calculate{background:var(--accent)}
+.mixbar .seg.understand{background:var(--good)}
+.mixbar .seg.memorise{background:var(--warn)}

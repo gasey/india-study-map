@@ -1,0 +1,246 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 16,
+ "questions": [
+  {
+   "id": "TECH2_2024-26",
+   "paper": "TECH2",
+   "unit": "5",
+   "sub": "Procurement in e-Governance projects",
+   "question": "In order to streamline procurement by government entities, the following has been devised and implemented —",
+   "options": {
+    "A": "GeM",
+    "B": "E-Market",
+    "C": "E-GovMarket",
+    "D": "Digilocker"
+   },
+   "answer": "A",
+   "explanation": "GeM (Government e-Marketplace) is the actual online platform launched by the Government of India in 2016 to let government departments, PSUs and organisations procure common-use goods and services in a transparent, efficient manner, cutting out manual tendering delays. 'E-Market' and 'E-GovMarket' are distractor names invented to sound plausible but do not exist as the named platform. Digilocker is unrelated — it is a document storage/e-KYC service, not a procurement system, so it is a tempting wrong answer only because it is another real Digital India brand name."
+  },
+  {
+   "id": "TECH2_2024-27",
+   "paper": "TECH2",
+   "unit": "5",
+   "sub": "Request for Proposal (RFP)",
+   "question": "Request for Proposal (RFP) is basically —",
+   "options": {
+    "A": "Tender document",
+    "B": "Detailed Project Report (DPR)",
+    "C": "Employment notice",
+    "D": "Job application"
+   },
+   "answer": "A",
+   "explanation": "An RFP is the formal solicitation document floated by government to invite bids/proposals from vendors for a project — in substance it is a type of tender document specifying scope, eligibility, evaluation criteria and submission process. A DPR (B) is prepared before the RFP to justify and plan the project; it is an internal planning document, not a bidding invitation, so it is the main distractor. Employment notice and job application are unrelated HR concepts included only as obviously wrong filler options."
+  },
+  {
+   "id": "TECH2_2024-28",
+   "paper": "TECH2",
+   "unit": "5",
+   "sub": "Considerations for commercial bid formats",
+   "question": "In a three-bid format for implementing e-governance, the bids are evaluated in the order —",
+   "options": {
+    "A": "Technical, Financial and Final Selection Criteria",
+    "B": "DPR, Tender and Selection",
+    "C": "Pre-qualification, Technical and Financial",
+    "D": "Tender, Selection and Award"
+   },
+   "answer": "C",
+   "explanation": "The standard three-bid/three-envelope evaluation sequence used in e-Governance procurement is Pre-qualification (eligibility screening) → Technical bid (approach, team, methodology) → Financial bid (commercial quote), opened strictly in that order so cost never influences technical scoring. Option A wrongly starts with Technical instead of Pre-qualification and invents a non-standard 'Final Selection Criteria' stage. B and D describe generic project stages (DPR, Tender, Award) rather than the bid-evaluation sequence itself, so they answer a different question."
+  },
+  {
+   "id": "TECH2_2024-29",
+   "paper": "TECH2",
+   "unit": "5",
+   "sub": "Considerations for commercial bid formats",
+   "question": "Which of the following is false regarding commercial bid?",
+   "options": {
+    "A": "It contains details for software license cost etc.",
+    "B": "It contains the detailed plan for the proposed implementation steps",
+    "C": "It contains financial quote from the potential service provider",
+    "D": "It is a practice to be opened last"
+   },
+   "answer": "B",
+   "explanation": "The commercial (financial) bid is purely about money — license costs, service charges, the vendor's price quote — and by convention is opened last, only after technical qualification, so as not to bias technical evaluation. The 'detailed plan for proposed implementation steps' belongs to the technical bid, which describes methodology and approach, not pricing. So statement B wrongly attributes technical-bid content to the commercial bid, making it the false statement; A, C and D correctly describe commercial-bid content and sequencing."
+  },
+  {
+   "id": "TECH2_2024-33",
+   "paper": "TECH2",
+   "unit": "5",
+   "sub": "Procurement in e-Governance projects",
+   "question": "Name of web application for Government's online tendering that allows downloading of tender document and to submit it online is—",
+   "options": {
+    "A": "e-Procurement",
+    "B": "e-Tendering",
+    "C": "Government e-Tendering",
+    "D": "Government e-Marketplace"
+   },
+   "answer": "A",
+   "explanation": "The Government e-Tendering System (GePNIC), built by NIC, is the specifically named portal used by government departments to publish tender documents for download and accept bids submitted online end-to-end. Generic 'e-Procurement' (A) and 'e-Tendering' (B) are broader umbrella terms rather than the actual named application. Government e-Marketplace (D) is GeM — a catalogue-based purchase portal for goods/services (see Q26), distinct from competitive tendering. Confidence is low because A/B/C are close synonyms and the paper may intend a looser reading."
+  },
+  {
+   "id": "TECH2_2021-29",
+   "paper": "TECH2",
+   "unit": "5",
+   "sub": "Deciding on procurement strategy",
+   "question": "Based on the procurement context \"Used for standardized requirements, in which price is the only deciding factor\", what is the procurement mode?",
+   "options": {
+    "A": "Request for quotes",
+    "B": "Procurement from rate contracts",
+    "C": "Single stage competitive process",
+    "D": "Single sourcing"
+   },
+   "answer": "A",
+   "explanation": "A Request for Quotations is used where the requirement is fully standardized and specifications are settled, so selection reduces to the lowest quoted price. Rate contracts fix the price in advance rather than letting price decide, and single sourcing involves no price competition at all."
+  },
+  {
+   "id": "TECH2_2021-30",
+   "paper": "TECH2",
+   "unit": "5",
+   "sub": "Introduction to Government Procurement",
+   "question": "What is the name of Government of India initiative that simplifies the process of procurement of common use goods and services by government entities?",
+   "options": {
+    "A": "Government e-Procurement (GeP)",
+    "B": "Government e-Marketplace (GeM)",
+    "C": "Online Shopping for Government (OSG)",
+    "D": "None of the above"
+   },
+   "answer": "B",
+   "explanation": "GeM, the Government e-Marketplace, is the Government of India's online platform for procurement of common use goods and services by central and state government entities. The other two expansions are not real initiatives."
+  },
+  {
+   "id": "GEN-TECH2-U5-155",
+   "paper": "TECH2",
+   "unit": "5",
+   "sub": "Objectives",
+   "question": "Why must the criteria on which bids will be evaluated be stated in the tender document itself, before bids are invited?",
+   "options": {
+    "A": "Because bidders can shape and price their offers rationally only if they know in advance how the offers will be judged, and criteria introduced after opening make the award challengeable",
+    "B": "Because the evaluation committee cannot lawfully be constituted until the criteria are published",
+    "C": "Because the criteria determine the amount of earnest money each bidder must deposit",
+    "D": "Because the criteria have to be approved by the bidders before the bids are opened"
+   },
+   "answer": "A",
+   "explanation": "Publishing the criteria in advance is what makes the competition meaningful and the award defensible: a bidder allocates effort and cost against the announced weightings, and an evaluator who later applies an unannounced test is deciding on a basis nobody could have bid against. Bidders are not asked to approve the criteria; they are simply entitled to know them before they commit."
+  },
+  {
+   "id": "GEN-TECH2-U5-156",
+   "paper": "TECH2",
+   "unit": "5",
+   "sub": "Objectives",
+   "question": "In e-Governance procurement, what does the objective of 'value for money' mean in practice?",
+   "options": {
+    "A": "That the contract goes to the bidder with the largest annual turnover, as the surest guarantee of delivery",
+    "B": "That the lowest financial quotation received must be accepted in every case",
+    "C": "That the contract goes to the bidder promising the shortest implementation schedule",
+    "D": "That the award goes to the offer giving the best combination of quality and cost over the whole life of the system, which need not be the lowest quoted price"
+   },
+   "answer": "D",
+   "explanation": "Value for money is judged over the life of the system, so support, maintenance, scaling and exit costs count alongside the quoted price, and an offer that is cheap at signing may be dear over five years. Treating the lowest quotation as automatically correct is the error the objective is framed to prevent."
+  },
+  {
+   "id": "GEN-TECH2-U5-157",
+   "paper": "TECH2",
+   "unit": "5",
+   "sub": "Objectives",
+   "question": "A tender's technical specifications are written around the distinctive feature set of one particular vendor's product. Which procurement objective does this most directly defeat?",
+   "options": {
+    "A": "Timely completion of the project",
+    "B": "Fair and open competition among eligible suppliers",
+    "C": "Accuracy of the departmental cost estimate",
+    "D": "Proper custody of the earnest money deposits received"
+   },
+   "answer": "B",
+   "explanation": "Specifications drafted around one product disqualify capable suppliers on grounds unrelated to the department's actual need, so the tender is competitive only in form, and the department loses the price and quality discipline that competition would have supplied. Specifications should describe the functional requirement and performance sought, leaving suppliers free to meet it their own way."
+  },
+  {
+   "id": "GEN-TECH2-U5-158",
+   "paper": "TECH2",
+   "unit": "5",
+   "sub": "Planning the procurement",
+   "question": "Why is a large e-Governance procurement normally specified in terms of outcomes and service levels rather than as a schedule of hardware and software items?",
+   "options": {
+    "A": "Because item-wise specification of goods is not permitted in government purchase",
+    "B": "Because outcome-based contracts are quicker and cheaper to evaluate at the bid stage",
+    "C": "Because the department is buying a working service whose technical composition will change over the contract's life, and an itemised specification freezes technology that will date before the contract ends",
+    "D": "Because agreed service levels make acceptance testing unnecessary"
+   },
+   "answer": "C",
+   "explanation": "Specifying the outcome and the service levels leaves the supplier responsible for choosing and refreshing the components needed to sustain them, which matters over a multi-year contract in which the original hardware and software would otherwise be locked in by the tender. Outcome-based specification actually makes evaluation harder, not easier, because responses are no longer directly comparable line by line."
+  },
+  {
+   "id": "GEN-TECH2-U5-159",
+   "paper": "TECH2",
+   "unit": "5",
+   "sub": "Planning the procurement",
+   "question": "Where a department has planned to use Quality-and-Cost-Based Selection, which bidder is awarded the contract?",
+   "options": {
+    "A": "The bidder with the highest combined score once the technical and financial scores are weighted in the ratio declared in the bid document",
+    "B": "The bidder with the highest technical score, irrespective of the prices quoted",
+    "C": "The lowest-priced bidder among those found technically qualified",
+    "D": "The lowest-priced bidder among all bidders who submitted a bid"
+   },
+   "answer": "A",
+   "explanation": "The whole point of choosing this method at the planning stage is that quality and price are both scored and then combined using a weighting the department has announced in advance, so a technically stronger bid can prevail over a cheaper one. Picking the cheapest among the technically qualified is a different method, in which quality functions only as a pass or fail threshold and contributes nothing further to the result."
+  },
+  {
+   "id": "GEN-TECH2-U5-160",
+   "paper": "TECH2",
+   "unit": "5",
+   "sub": "Planning the procurement",
+   "question": "The Government e-Marketplace (GeM) is best described as which of the following?",
+   "options": {
+    "A": "A portal on which departments publish tender notices for bespoke system-integration projects",
+    "B": "The central repository of cloud service providers empanelled for government use",
+    "C": "The platform through which government departments auction surplus and obsolete equipment",
+    "D": "An online marketplace on which government buyers procure common-use goods and services from registered sellers, through catalogue-based ordering, bidding or reverse auction"
+   },
+   "answer": "D",
+   "explanation": "GeM serves the repeat purchase of standard, catalogue-describable goods and services, where the buyer's task is to find a competitive price for a defined item rather than to evaluate competing solution designs. A bespoke system-integration project, which needs a written requirement and a technical evaluation, is tendered through the e-procurement route instead."
+  },
+  {
+   "id": "GEN-TECH2-U5-161",
+   "paper": "TECH2",
+   "unit": "5",
+   "sub": "PPP / transaction fee based model",
+   "question": "In a transaction-fee based PPP for an e-Governance service, how does the private partner recover its investment?",
+   "options": {
+    "A": "Through a lump-sum payment released by the department when the system goes live",
+    "B": "Through a fee charged for each transaction successfully delivered, paid by the citizen or by the department, across the concession period",
+    "C": "By retaining ownership of the hardware and software at the end of the contract",
+    "D": "Through an annual licence fee fixed at the time of signing and payable regardless of use"
+   },
+   "answer": "B",
+   "explanation": "The partner funds the build itself and is repaid transaction by transaction, so its earnings accumulate only as the service is actually used. A fixed annual fee payable whether or not the service is used is an annuity-style payment, which shifts the exposure to volumes back on to the department."
+  },
+  {
+   "id": "GEN-TECH2-U5-162",
+   "paper": "TECH2",
+   "unit": "5",
+   "sub": "PPP / transaction fee based model",
+   "question": "Why is a transaction-fee model attractive to a department that has little capital budget available?",
+   "options": {
+    "A": "Because the department is relieved of the obligation to monitor service quality",
+    "B": "Because the transaction fee is fixed for the life of the contract and cannot be revised",
+    "C": "Because the private partner meets the capital cost up front and is repaid only as transactions occur, so the department's outgo tracks service actually delivered",
+    "D": "Because ownership of the citizen data passes to the private partner, reducing the department's liability"
+   },
+   "answer": "C",
+   "explanation": "The model converts a capital requirement into a stream of payments linked to delivered volumes, which suits a department that can commit revenue expenditure but cannot fund the build. It changes who finances the system, not who is accountable for it: the department still has to monitor service levels, and ownership of the citizen data remains with the government."
+  },
+  {
+   "id": "GEN-TECH2-U5-163",
+   "paper": "TECH2",
+   "unit": "5",
+   "sub": "PPP / transaction fee based model",
+   "question": "What is the principal risk borne by the private partner in a transaction-fee based e-Governance PPP?",
+   "options": {
+    "A": "That the department may insist on the use of open source software",
+    "B": "That the technology chosen may become obsolete before the system is commissioned",
+    "C": "That the concession period may be extended beyond the term originally agreed",
+    "D": "That actual transaction volumes may fall well short of those projected, leaving the investment unrecovered"
+   },
+   "answer": "D",
+   "explanation": "Because revenue arises only from transactions, the partner carries the demand risk, and an over-optimistic volume projection at bid stage translates directly into an unrecovered investment. An extension of the concession period would give the partner more time to earn, so it works in the partner's favour rather than against it."
+  }
+ ]
+}

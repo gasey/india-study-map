@@ -1,0 +1,261 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 17,
+ "questions": [
+  {
+   "id": "TECH2_2024-63",
+   "paper": "TECH2",
+   "unit": "11",
+   "sub": "Purpose and scope of IT audit",
+   "question": "To check whether organizational network and systems are secure or not, whether software serve their purpose or not, the organization may conduct —",
+   "options": {
+    "A": "Fault search",
+    "B": "Physical audit",
+    "C": "IT audit of e-Governance",
+    "D": "Financial checking"
+   },
+   "answer": "C",
+   "explanation": "An IT audit is exactly the formal, structured review of an organisation's systems, networks and software controls to confirm they are secure and functioning as intended, matching both clauses of the question. 'Fault search' and 'physical audit' are vague or narrowly physical-asset concepts, and 'financial checking' addresses money flows, not system security or software fitness-for-purpose — none of these substitute for a dedicated IT audit."
+  },
+  {
+   "id": "TECH2_2024-65",
+   "paper": "TECH2",
+   "unit": "11",
+   "sub": "Purpose and scope of IT audit",
+   "question": "Which of the following is the most critical risk to assess during an IT audit of an e-Governance project?",
+   "options": {
+    "A": "Financial instability of the vendor",
+    "B": "Lack of user adoption",
+    "C": "Data privacy and confidentiality breaches",
+    "D": "Vendor contract fulfillment"
+   },
+   "answer": "C",
+   "explanation": "E-Governance systems hold sensitive citizen data (identity, financial, health, land records), so data privacy and confidentiality breaches carry the most severe consequences — legal liability, loss of public trust, and harm to citizens — making it the most critical risk an IT audit must assess. Vendor instability, low adoption and contract fulfilment are real project risks too, but they are business/operational risks, not the security-critical risk category an IT audit is specifically designed to surface."
+  },
+  {
+   "id": "TECH2_2021-5",
+   "paper": "TECH2",
+   "unit": "11",
+   "sub": "Purpose and scope of IT audit",
+   "question": "Audit of State Government is:",
+   "options": {
+    "A": "A state subject",
+    "B": "A union subject",
+    "C": "In the concurrent list",
+    "D": "None of these"
+   },
+   "answer": "B",
+   "explanation": "Audit of the accounts of both the Union and the States is a Union List entry, discharged by the Comptroller and Auditor General of India. States cannot legislate on or control the audit of their own accounts, which is what makes it a union subject rather than a state or concurrent one."
+  },
+  {
+   "id": "TECH2_2021-66",
+   "paper": "TECH2",
+   "unit": "11",
+   "sub": "Types of IT audit",
+   "question": "Ethical hacking is a security audit used in:",
+   "options": {
+    "A": "External Audit Assessment",
+    "B": "Internal Audit Assessment",
+    "C": "Network Audit Assessment",
+    "D": "Physical Security Assessment"
+   },
+   "answer": "C",
+   "explanation": "Ethical hacking is a simulated attack that probes network and system defences, so it sits within a network security audit assessment rather than a financial/internal audit or a physical walkthrough. This is a weakly framed question - ethical hacking commissioned from an outside firm can also be argued as an external audit assessment, so treat the option wording, not the taxonomy, as the guide."
+  },
+  {
+   "id": "TECH2_2021-67",
+   "paper": "TECH2",
+   "unit": "11",
+   "sub": "Purpose and scope of IT audit",
+   "question": "You are the owner of a company, you got a phone call regarding security audits. You need security audit due to the following reason:",
+   "options": {
+    "A": "Firewall is present which helps to provide security",
+    "B": "Most business is connected to the internet and it can be at risk",
+    "C": "To identify gaps in the existing defence",
+    "D": "The physical security is strong"
+   },
+   "answer": "C",
+   "explanation": "The purpose of a security audit is to find the gaps and weaknesses in the defences that are already in place, so that they can be closed before an attacker finds them. Options A and D describe controls already working (reasons you might feel safe), and B states a general risk rather than what the audit itself delivers."
+  },
+  {
+   "id": "GEN-TECH2-U11-033",
+   "paper": "TECH2",
+   "unit": "11",
+   "sub": "IT audit standards and frameworks (COBIT, ISO 27001)",
+   "question": "COBIT is best described as which of the following?",
+   "options": {
+    "A": "A framework for the governance and management of enterprise IT, against which control objectives and IT processes can be assessed",
+    "B": "A programming standard for writing secure application code",
+    "C": "A network protocol used to transfer audit logs between systems",
+    "D": "A statutory code prescribing the penalties for computer-related offences"
+   },
+   "answer": "A",
+   "explanation": "COBIT gives auditors and managers a structured set of IT processes and control objectives linked to business goals, which is why it is commonly used as the reference model for an IT audit's scope. It is a governance framework, not a coding standard, a protocol or a statute."
+  },
+  {
+   "id": "GEN-TECH2-U11-034",
+   "paper": "TECH2",
+   "unit": "11",
+   "sub": "IT audit standards and frameworks (COBIT, ISO 27001)",
+   "question": "ISO 27001 certification of a department's data centre tells an assessor primarily that which of the following is in place?",
+   "options": {
+    "A": "The department's software is free of all coding defects",
+    "B": "A management system for information security, with risk assessment, selected controls and periodic review, has been established and independently certified",
+    "C": "The data centre has been guaranteed uninterrupted power supply",
+    "D": "The department's staff have all passed a technical examination"
+   },
+   "answer": "B",
+   "explanation": "ISO 27001 certifies an information security management system — that risks are assessed, controls are chosen and justified, and the whole is reviewed and improved — rather than certifying any particular product or line of code. A certified organisation can still have a vulnerable application, which is why application security audit is a separate exercise."
+  },
+  {
+   "id": "GEN-TECH2-U11-035",
+   "paper": "TECH2",
+   "unit": "11",
+   "sub": "Audit of application controls and general controls",
+   "question": "Which of the following is an application control rather than a general IT control?",
+   "options": {
+    "A": "The procedure governing physical access to the server room",
+    "B": "The organisation's policy on backup and restoration",
+    "C": "A validation rule that rejects a pension claim where the claimant's age is below the eligible threshold",
+    "D": "The change management process applied to all departmental systems"
+   },
+   "answer": "C",
+   "explanation": "Application controls are built into a specific business process — input validation, edit checks, computation logic, exception reports — and assure the completeness and accuracy of that application's transactions. Physical access, backup policy and change management are general controls that apply across the whole IT environment and support every application at once."
+  },
+  {
+   "id": "GEN-TECH2-U11-036",
+   "paper": "TECH2",
+   "unit": "11",
+   "sub": "Audit of application controls and general controls",
+   "question": "An auditor finds that a pension application's own input validations are well designed, but that developers can change the production database directly without any change record. Why does this weaken the reliance the auditor can place on the application controls?",
+   "options": {
+    "A": "Because the validations will run more slowly on a shared database",
+    "B": "Because weak general controls mean the application's logic and data can be altered outside the controlled process, so the application controls cannot be assumed to have operated as designed",
+    "C": "Because input validations are effective only in systems written in a compiled language",
+    "D": "Because the auditor is not permitted to examine database access rights"
+   },
+   "answer": "B",
+   "explanation": "Application controls sit on top of the general control environment, so if change and access controls are weak the auditor cannot conclude that the validations in force at the time of testing were the ones in force throughout the period. This dependency is the reason general controls are normally evaluated before application controls."
+  },
+  {
+   "id": "GEN-TECH2-U11-037",
+   "paper": "TECH2",
+   "unit": "11",
+   "sub": "Third-party audit and certification in e-Governance",
+   "question": "Why is an e-governance application usually subjected to audit by an empanelled third party rather than only by the agency that developed it?",
+   "options": {
+    "A": "Because the developing agency lacks the technical skill to test its own product",
+    "B": "Because third-party auditors charge less than internal teams",
+    "C": "Because the law requires that every line of code be reviewed twice",
+    "D": "Because an independent auditor with no stake in the delivery gives an objective opinion, whereas the builder reviewing its own work has an inherent conflict of interest"
+   },
+   "answer": "D",
+   "explanation": "Independence is what gives the audit opinion its value: a party that would be blamed for the defects it reports cannot be relied on to report them all. Cost and technical capability are not the reason, since developers are often highly skilled at testing."
+  },
+  {
+   "id": "GEN-TECH2-U11-038",
+   "paper": "TECH2",
+   "unit": "11",
+   "sub": "Third-party audit and certification in e-Governance",
+   "question": "A department is told its portal must be re-audited even though it obtained a clean security audit certificate two years ago. What is the strongest justification for periodic re-audit?",
+   "options": {
+    "A": "A security audit certifies the application as it stood on a particular date, and subsequent code changes, configuration drift and newly discovered vulnerabilities can invalidate that assurance",
+    "B": "Audit certificates are printed with an arbitrary expiry to generate revenue",
+    "C": "The auditors who issued the earlier certificate are no longer employed",
+    "D": "A department is required to change its auditor every year regardless of circumstances"
+   },
+   "answer": "A",
+   "explanation": "An audit is a point-in-time assurance, and both the system and the threat landscape move on — a new release or a newly published vulnerability can undo the finding without anyone touching the certificate. Staff turnover at the audit firm has no bearing on whether the assurance is still valid."
+  },
+  {
+   "id": "GEN-TECH2-U11-039",
+   "paper": "TECH2",
+   "unit": "11",
+   "sub": "STQC role and application security audit",
+   "question": "In the Indian government IT context, what is the role of STQC (Standardisation Testing and Quality Certification)?",
+   "options": {
+    "A": "It allots domain names to government websites",
+    "B": "It provides testing, quality assurance and certification services for IT systems and products used by government, including conformance and security testing",
+    "C": "It funds e-governance projects in the states",
+    "D": "It issues digital signature certificates to government officials"
+   },
+   "answer": "B",
+   "explanation": "STQC is the government body that carries out independent testing and certification of IT systems and products against defined quality, conformance and security requirements. Issuing digital signature certificates is the function of licensed certifying authorities, a quite separate arrangement."
+  },
+  {
+   "id": "GEN-TECH2-U11-040",
+   "paper": "TECH2",
+   "unit": "11",
+   "sub": "STQC role and application security audit",
+   "question": "What does an application security audit of a citizen-facing portal principally examine?",
+   "options": {
+    "A": "Whether the portal's colour scheme conforms to the department's branding",
+    "B": "Whether the portal's content is factually accurate and up to date",
+    "C": "Whether the application is exploitable through weaknesses such as injection, broken authentication, insecure session handling and improper access control",
+    "D": "Whether the portal's hosting contract has been competitively tendered"
+   },
+   "answer": "C",
+   "explanation": "An application security audit tries to break the application the way an attacker would, testing input handling, authentication, session management and authorisation, and reports exploitable weaknesses for remediation. Branding, content accuracy and procurement are legitimate concerns but belong to entirely different reviews."
+  },
+  {
+   "id": "GEN-TECH2-U11-041",
+   "paper": "TECH2",
+   "unit": "11",
+   "sub": "Audit trail and log review",
+   "question": "What property must an audit trail have if it is to serve as reliable audit evidence of who did what in a system?",
+   "options": {
+    "A": "It must be readable only by the system administrator",
+    "B": "It must be deleted at the end of each working day to conserve storage",
+    "C": "It must be stored in the same table as the business data it describes",
+    "D": "It must be complete and protected from alteration or deletion by the very users whose actions it records"
+   },
+   "answer": "D",
+   "explanation": "A trail that the acting user can edit or erase proves nothing, so integrity protection and retention are what turn logging into evidence — typically write-once storage or forwarding to a separate log server outside the user's control. Restricting readership to the administrator actually makes matters worse if the administrator's own actions are being examined."
+  },
+  {
+   "id": "GEN-TECH2-U11-042",
+   "paper": "TECH2",
+   "unit": "11",
+   "sub": "Audit trail and log review",
+   "question": "During log review of a treasury application, an auditor notices several successful logins by a senior officer's account at hours when the officer was on recorded leave. What is the appropriate immediate conclusion?",
+   "options": {
+    "A": "The audit trail is unreliable and should be excluded from the audit",
+    "B": "This is an exception requiring investigation, since it may indicate credential sharing or a compromised account",
+    "C": "The officer's leave record must have been entered incorrectly and no further action is needed",
+    "D": "The application's clock should simply be reset to the correct time"
+   },
+   "answer": "B",
+   "explanation": "Log review works by identifying exceptions against expected patterns and then following them up; activity on an account whose owner could not have been present is a classic indicator of shared or stolen credentials. Explaining the exception away, or discarding the trail, would abandon the control at exactly the point where it produced a result."
+  },
+  {
+   "id": "GEN-TECH2-U11-043",
+   "paper": "TECH2",
+   "unit": "11",
+   "sub": "Audit findings, reporting and follow-up",
+   "question": "In an IT audit report, what is normally expected alongside each finding?",
+   "options": {
+    "A": "The name of the individual employee to be penalised",
+    "B": "A rewritten version of the affected source code",
+    "C": "The criterion or control expected, the condition actually found, the resulting risk, and a recommendation with the auditee's response",
+    "D": "An estimate of the market value of the audited system"
+   },
+   "answer": "C",
+   "explanation": "A well-structured finding states what should be, what is, why the gap matters and what should be done, together with management's reply, so that the reader can judge both the significance and the planned remedy. Naming individuals for punishment and rewriting code are outside the auditor's role."
+  },
+  {
+   "id": "GEN-TECH2-U11-044",
+   "paper": "TECH2",
+   "unit": "11",
+   "sub": "Audit findings, reporting and follow-up",
+   "question": "Why is follow-up an essential part of the IT audit cycle rather than an optional courtesy?",
+   "options": {
+    "A": "Because an audit is complete only when a certificate has been printed",
+    "B": "Because auditors are paid per visit made to the auditee",
+    "C": "Because the auditee is entitled to a second opinion on every finding",
+    "D": "Because the audit adds value only if agreed corrective action is actually implemented, and follow-up verifies implementation rather than accepting the promise of it"
+   },
+   "answer": "D",
+   "explanation": "Reporting a weakness does not remove it, so the cycle closes only when the auditor independently verifies that the agreed action has been carried out and the risk is reduced. Without that step, the same finding tends to reappear in successive audit reports."
+  }
+ ]
+}

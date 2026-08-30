@@ -1,0 +1,216 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 14,
+ "questions": [
+  {
+   "id": "TECH2_2024-71",
+   "paper": "TECH2",
+   "unit": "13",
+   "sub": "Understanding Open Source",
+   "question": "Why has open-source software gained significant popularity and influence in recent years?",
+   "options": {
+    "A": "It is solely used by large IT corporations.",
+    "B": "It is more expensive than proprietary software.",
+    "C": "It is primarily used for hardware development.",
+    "D": "It offers independence from software producers and supports the 'free-of-charge principle.'"
+   },
+   "answer": "D",
+   "explanation": "Open-source software's core appeal is freedom from vendor lock-in (users are not dependent on a single producer for updates/support) combined with typically zero or low licence cost, which drives adoption everywhere from individual developers to governments seeking to cut IT spend. The other options are simply false: open source is used far beyond large corporations, it is generally cheaper (not more expensive) than proprietary software, and it is not 'primarily' a hardware-development tool."
+  },
+  {
+   "id": "TECH2_2024-72",
+   "paper": "TECH2",
+   "unit": "13",
+   "sub": "Copyleft and permissive licensing",
+   "question": "In the context of open-source licensing, what is required if modifications are made to the source code?",
+   "options": {
+    "A": "The modified software must be distributed under a different license",
+    "B": "The modifications must be kept confidential",
+    "C": "The modifications must be distributed under the same terms as the original license",
+    "D": "The modified software cannot be distributed"
+   },
+   "answer": "C",
+   "explanation": "This describes the 'copyleft' principle used by licences such as the GPL: if you modify and redistribute copyleft-licensed code, your modified version must be released under the same licence terms as the original, so the freedoms (to view, modify, redistribute) propagate forward. Requiring a different licence (A), secrecy (B), or banning redistribution entirely (D) all contradict the fundamental open-source requirement of preserving the same open terms downstream."
+  },
+  {
+   "id": "TECH2_2024-73",
+   "paper": "TECH2",
+   "unit": "13",
+   "sub": "Defining Open Source",
+   "question": "What distinguishes the Proprietary Model from the Open Source Model in software licensing?",
+   "options": {
+    "A": "Proprietary licenses allow sublicensing and modifications",
+    "B": "Open Source licenses restrict modifications and upgrades",
+    "C": "Proprietary licenses prohibit modifications and generally do not allow sublicensing",
+    "D": "Open Source licenses charge fees for the source code"
+   },
+   "answer": "C",
+   "explanation": "Proprietary software licences typically forbid the licensee from viewing, modifying, or resubmitting/sublicensing the source code — the vendor retains exclusive control — which is the exact opposite of what open source permits (free access to source, modification, and redistribution rights). Options A, B and D reverse the actual relationship (they describe proprietary restrictions as open-source ones and vice versa), which is the classic trap in this kind of 'distinguish the two models' question."
+  },
+  {
+   "id": "TECH2_2024-76",
+   "paper": "TECH2",
+   "unit": "13",
+   "sub": "Defining Open Source",
+   "question": "Software whose source code is available publicly and could provide freedom for developers and users to modify for their needs is termed as —",
+   "options": {
+    "A": "FOSS",
+    "B": "PHP",
+    "C": "FOPS",
+    "D": "XAMPP"
+   },
+   "answer": "A",
+   "explanation": "FOSS (Free and Open Source Software) is software distributed with its source code openly available, giving users and developers the freedom to view, modify and redistribute it. PHP is a scripting language, not a licensing category, so it cannot be 'the term' being defined. FOPS is not a real term (a scrambled distractor of FOSS). XAMPP is a specific open-source software bundle (Apache/MySQL/PHP/Perl), an example of a FOSS product, not the general term for openness of source code."
+  },
+  {
+   "id": "TECH2_2024-77",
+   "paper": "TECH2",
+   "unit": "13",
+   "sub": "Typical concerns about open source software",
+   "question": "What could be the main concern in using Open Source software for e-Governance implementation?",
+   "options": {
+    "A": "Reliability",
+    "B": "Support",
+    "C": "Cost",
+    "D": "Ease of use"
+   },
+   "answer": "B",
+   "explanation": "A recurring concern government agencies raise about adopting FOSS is the lack of a single accountable vendor providing dedicated, contractually-backed support and maintenance, unlike COTS products which come with vendor SLAs and helplines. Cost is usually cited as an advantage of FOSS (low/no licence fee), not a concern, ruling out (c). Reliability and ease-of-use are not the primary documented worries in e-Governance FOSS-adoption literature, which instead centres on support, accountability and skilled-manpower availability."
+  },
+  {
+   "id": "TECH2_2021-72",
+   "paper": "TECH2",
+   "unit": "13",
+   "sub": "Total cost of ownership arguments",
+   "question": "Statement 1 : Government choose Open Source System so that it can share development costs with other users\nStatement 2 : Government choose Open Source System so that it can copy repeatedly at no additional cost",
+   "options": {
+    "A": "Both statements are false",
+    "B": "Statement 1 is true and Statement 2 is false",
+    "C": "Both statements are true",
+    "D": "Statement 1 is false and Statement 2 is true"
+   },
+   "answer": "C",
+   "explanation": "Both are genuine reasons governments adopt open source: development cost can be shared across a community of users, and once acquired the software can be replicated across departments and offices at no additional licence cost. Neither statement is false as written."
+  },
+  {
+   "id": "TECH2_2021-73",
+   "paper": "TECH2",
+   "unit": "13",
+   "sub": "Defining Open Source",
+   "question": "Which of the following is not a criteria for determining whether or not a software license is open source?",
+   "options": {
+    "A": "Free Redistribution",
+    "B": "License must be technology dependent",
+    "C": "Source code",
+    "D": "License should not be specific to a product"
+   },
+   "answer": "B",
+   "explanation": "The Open Source Definition explicitly requires a licence to be technology-neutral, so demanding technology dependence is the opposite of a criterion. Free redistribution, availability of source code and the licence not being specific to a product are all listed OSD criteria."
+  },
+  {
+   "id": "TECH2_2021-74",
+   "paper": "TECH2",
+   "unit": "13",
+   "sub": "Typical concerns about open source software",
+   "question": "The main concern in using FOSS is:",
+   "options": {
+    "A": "Reliability",
+    "B": "Cost",
+    "C": "Support",
+    "D": "Ease of use"
+   },
+   "answer": "C",
+   "explanation": "The most commonly cited worry with FOSS adoption in government is the absence of a single accountable vendor for support, warranty and escalation. Cost is a FOSS advantage rather than a concern, and mature FOSS stacks are generally considered reliable."
+  },
+  {
+   "id": "GEN-TECH2-U13-057",
+   "paper": "TECH2",
+   "unit": "13",
+   "sub": "Open Source Software in e-Governance",
+   "question": "Which property of open source software most directly supports independent security assurance of a government application handling citizen data?",
+   "options": {
+    "A": "The source code is available, so the implementing agency or a third-party auditor can inspect exactly how data is processed and stored instead of relying on the vendor's assertions",
+    "B": "Open source software is released without any licence terms, so no legal review is needed",
+    "C": "Open source software cannot contain vulnerabilities because many people have read the code",
+    "D": "Open source software is exempt from the security audit requirements applicable to government applications"
+   },
+   "answer": "A",
+   "explanation": "Auditability is the concrete benefit: with source available, a department can commission its own code review, verify cryptography and data handling, and patch a flaw itself if the upstream project is slow. Open source code is not automatically defect-free, and it is still subject to the same government security audit and certification requirements as any other software."
+  },
+  {
+   "id": "GEN-TECH2-U13-058",
+   "paper": "TECH2",
+   "unit": "13",
+   "sub": "Open Source Software in e-Governance",
+   "question": "A department adopts an open source stack for a new e-governance application expecting the project to cost nothing. Which cost is it most likely to have overlooked?",
+   "options": {
+    "A": "The per-user licence fee payable to the open source project",
+    "B": "Customisation, integration, migration, training and paid support, which continue regardless of whether the licence is free",
+    "C": "Royalty payable on each transaction processed by the software",
+    "D": "The purchase price of the source code from the community"
+   },
+   "answer": "B",
+   "explanation": "Open source removes the licence fee, not the total cost of ownership — the effort of tailoring the product, integrating it with existing systems, migrating data, training staff and buying a support contract usually dominates the budget. There is no per-user fee or royalty to pay, which is exactly why the remaining service costs are so easily left out of an estimate."
+  },
+  {
+   "id": "GEN-TECH2-U13-059",
+   "paper": "TECH2",
+   "unit": "13",
+   "sub": "Major FOSS licences (GPL, LGPL, Apache, BSD, MIT)",
+   "question": "Which licence family is described as 'strong copyleft', requiring that a modified version distributed to others be released under the same licence with source code available?",
+   "options": {
+    "A": "MIT",
+    "B": "BSD",
+    "C": "GPL",
+    "D": "Apache License 2.0"
+   },
+   "answer": "C",
+   "explanation": "The GPL's copyleft condition propagates: if you distribute a derivative work, it must carry the same licence and the corresponding source must be made available to the recipients. MIT, BSD and Apache are permissive — they allow the modified code to be redistributed under different, including proprietary, terms as long as the attribution and notice requirements are met."
+  },
+  {
+   "id": "GEN-TECH2-U13-060",
+   "paper": "TECH2",
+   "unit": "13",
+   "sub": "Major FOSS licences (GPL, LGPL, Apache, BSD, MIT)",
+   "question": "What does the Lesser GPL (LGPL) permit that the ordinary GPL does not?",
+   "options": {
+    "A": "It allows the licensed code to be redistributed without any source code being made available at all",
+    "B": "It removes the requirement to preserve copyright notices",
+    "C": "It permits commercial use, which the GPL forbids",
+    "D": "It allows a proprietary program to link to the LGPL library without the whole program having to be released under the LGPL, while modifications to the library itself must still be shared"
+   },
+   "answer": "D",
+   "explanation": "The LGPL was written for libraries: copyleft applies to the library, so improvements to it must be released, but merely linking a separate program against it does not pull that program into the licence. The GPL is not anti-commercial — commercial use and sale are permitted under it too; what it restricts is distributing derivative works under non-copyleft terms."
+  },
+  {
+   "id": "GEN-TECH2-U13-061",
+   "paper": "TECH2",
+   "unit": "13",
+   "sub": "National Policy on Adoption of Open Source Software for Government of India",
+   "question": "What is the central requirement the national policy on adoption of open source software places on government organisations procuring e-governance systems?",
+   "options": {
+    "A": "To endeavour to adopt open source software as the preferred option compared with closed source software, and to record a justification where closed source is nevertheless selected",
+    "B": "To decommission every existing closed source system within the current financial year",
+    "C": "To publish the source code of every government application for public download",
+    "D": "To procure software only from vendors registered outside the country"
+   },
+   "answer": "A",
+   "explanation": "The policy sets a preference, not an absolute prohibition: open source is to be the default consideration, and choosing closed source remains possible provided the procuring organisation documents why. That is why the requirement bites at the tender stage, where suppliers must be asked to consider open source options in their proposals."
+  },
+  {
+   "id": "GEN-TECH2-U13-062",
+   "paper": "TECH2",
+   "unit": "13",
+   "sub": "National Policy on Adoption of Open Source Software for Government of India",
+   "question": "Which rationale for a government-wide open source preference is about sovereignty and control rather than about cost?",
+   "options": {
+    "A": "Open source products need no ongoing maintenance budget",
+    "B": "Open source products are always technically superior to commercial equivalents",
+    "C": "Open source products can be deployed without following procurement rules",
+    "D": "Access to source code lets government retain strategic control over its systems and citizen data, and reduces dependence on a single vendor's product roadmap and pricing"
+   },
+   "answer": "D",
+   "explanation": "Strategic control means the state can keep a critical system running, modify it, or move it to another support provider even if the original vendor withdraws, raises prices or changes direction — a lock-in argument, not a licence-fee argument. Open source does not exempt anything from procurement rules, nor is it inherently superior on technical merit."
+  }
+ ]
+}

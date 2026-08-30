@@ -1,0 +1,141 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 9,
+ "questions": [
+  {
+   "id": "TECH3_2024-1",
+   "paper": "TECH3",
+   "unit": "1",
+   "sub": "What is a Project and what is Project Management",
+   "question": "What is a project?",
+   "options": {
+    "A": "An ongoing work effort with no specific objectives",
+    "B": "A temporary endeavour undertaken to create a unique product, service, or result",
+    "C": "A repetitive process that follows an organization's procedures",
+    "D": "A continuous effort to improve business operations"
+   },
+   "answer": "B",
+   "explanation": "This is the standard PMBOK definition: a project is a temporary endeavour (has a defined start and end) undertaken to create a unique product, service or result. Option A is wrong because a project always has specific objectives. Option C describes routine/repetitive operations, which is precisely what a project is NOT - projects are unique, not repetitive. Option D describes ongoing operations or continuous improvement, which lacks the 'temporary' and 'unique' characteristics that distinguish a project from business-as-usual work."
+  },
+  {
+   "id": "TECH3_2024-4",
+   "paper": "TECH3",
+   "unit": "1",
+   "sub": "Relationships among portfolio management, program management, project management and organizational project management",
+   "question": "Which term refers to a collection of projects, programs, sub portfolios, and operations managed as a group?",
+   "options": {
+    "A": "Project management",
+    "B": "Program management",
+    "C": "Portfolio management",
+    "D": "Strategic management"
+   },
+   "answer": "C",
+   "explanation": "This is PMBOK's exact definition of a portfolio: projects, programs, sub-portfolios, and operations managed as a group to achieve strategic objectives. Program management is narrower - it groups only related projects/programs, not full operations. Project management concerns a single temporary endeavour. Strategic management is a general business-management term, not the PMI-defined term for this specific grouping concept."
+  },
+  {
+   "id": "TECH3_2024-5",
+   "paper": "TECH3",
+   "unit": "1",
+   "sub": "Project management office/unit (PMO) - supportive, controlling, directive",
+   "question": "Which type of PMO has the highest degree of control over projects?",
+   "options": {
+    "A": "Supportive",
+    "B": "Controlling",
+    "C": "Directive",
+    "D": "Advisory"
+   },
+   "answer": "C",
+   "explanation": "PMBOK defines three PMO types on a spectrum of control: Supportive (low control, consultative/advisory role, provides templates and lessons learned), Controlling (moderate control, requires compliance with frameworks/methodologies), and Directive (high control, takes direct control by actually managing the projects itself). 'Advisory' is not a standard PMI PMO type and is a distractor mimicking the supportive role. Since Directive PMOs actually run the projects, they exert the greatest control."
+  },
+  {
+   "id": "TECH3_2024-49",
+   "paper": "TECH3",
+   "unit": "1",
+   "sub": "What is a Project and what is Project Management",
+   "question": "Which of the following is not included in the important 7 C's for success of a project as defined by the Project Management Institute?",
+   "options": {
+    "A": "Customers",
+    "B": "Competitors",
+    "C": "Cost",
+    "D": "Communication"
+   },
+   "answer": "C",
+   "explanation": "Popular '7 C's of project success' checklists used in project management training typically include factors such as Customer/Client satisfaction, Cost, Communication, Control, Co-operation, Coordination, and Completion — all inward-facing concerns about how a project is executed and delivered. Competitors are an external market factor unrelated to how a project team manages and delivers its own work, so it is the one option that does not belong among the internally-managed 'C' success factors."
+  },
+  {
+   "id": "TECH3_2024-72",
+   "paper": "TECH3",
+   "unit": "1",
+   "sub": "What is a Project and what is Project Management",
+   "question": "The traditional project management triangle consists of the following constraints —",
+   "options": {
+    "A": "Time, cost and scope",
+    "B": "Manager, team and customer",
+    "C": "Resource, time and cost",
+    "D": "Schedule, quality and profit"
+   },
+   "answer": "A",
+   "explanation": "The classic 'iron triangle' of project management is Time, Cost and Scope (with quality often shown at the centre, affected by changes to any of the three): tightening one constraint forces trade-offs in the others. Options B, C and D substitute plausible-sounding project terms (manager/team/customer, resource, profit) that are not the three vertices of the traditional triangle taught in every PM foundations course."
+  },
+  {
+   "id": "TECH3_2021-14",
+   "paper": "TECH3",
+   "unit": "1",
+   "sub": "What is a Project and what is Project Management",
+   "question": "Successful project management does not include which of the following factors?",
+   "options": {
+    "A": "Interchangable staff",
+    "B": "Competent team members",
+    "C": "Responsiveness to clients",
+    "D": "Control mechanisms"
+   },
+   "answer": "A",
+   "explanation": "'Interchangeable staff' is not a recognized success factor in project management literature (and undermines accountability/expertise); competent team members, client responsiveness, and control mechanisms are standard success factors."
+  },
+  {
+   "id": "TECH3_2021-2",
+   "paper": "TECH3",
+   "unit": "1",
+   "sub": "Role of the project manager",
+   "question": "A Project Manager should possess the following competencies:",
+   "options": {
+    "A": "Leadership, Trust Building, Motivation",
+    "B": "Influencing, Communication, Team Building",
+    "C": "Knowledge, Performance, Personal",
+    "D": "Decision Making, Negotiation, Conflict Management"
+   },
+   "answer": "C",
+   "explanation": "PMBOK's Project Manager Competency Development (PMCD) framework groups PM competencies into three categories: Knowledge, Performance, and Personal competence."
+  },
+  {
+   "id": "TECH3_2021-3",
+   "paper": "TECH3",
+   "unit": "1",
+   "sub": "Project management office/unit (PMO) - supportive, controlling, directive",
+   "question": "Sangeeta is part of a project management office (PMO). Her office is responsible for the centralized and coordinated management of 22 projects. Each project has its own project manager. Which of the following will not typically be a responsibility of her PMO?",
+   "options": {
+    "A": "Coaching, mentoring, training, and oversight",
+    "B": "Development of a detailed description of each project and the product it produces",
+    "C": "Managing shared resources across all the projects administered by the PMO",
+    "D": "Developing and managing project policies"
+   },
+   "answer": "B",
+   "explanation": "Writing the detailed scope statement for a specific project and its product is the individual project manager's job, not the PMO's; the PMO instead handles coaching/oversight, shared resources, and organization-wide policy per PMBOK."
+  },
+  {
+   "id": "TECH3_2021-5",
+   "paper": "TECH3",
+   "unit": "1",
+   "sub": "What is a Project and what is Project Management",
+   "question": "A __________ is a set of activities which are networked in an order and aimed towards achieving the goals of a project.",
+   "options": {
+    "A": "Project",
+    "B": "Process",
+    "C": "Project management",
+    "D": "Project cycle"
+   },
+   "answer": "B",
+   "explanation": "PMBOK defines a 'process' as a set of interrelated actions performed in a sequence to achieve a specified result within the project, which matches 'networked activities aimed at project goals' better than 'project' itself does."
+  }
+ ]
+}

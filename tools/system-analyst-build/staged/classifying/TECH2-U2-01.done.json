@@ -1,0 +1,146 @@
+[
+ {
+  "id": "TECH2_2024-6",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Cause follows from what the digital divide is; the other options are implausible on their face."
+ },
+ {
+  "id": "TECH2_2024-7",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Reasoning about which listed factor could plausibly slow an approval chain."
+ },
+ {
+  "id": "TECH2_2024-8",
+  "mode": "memorise",
+  "confidence": "low",
+  "why": "Membership in a named framework's Phase-1 activity list, with no derivation path; the record is also defective, the key saying D while the explanation argues C."
+ },
+ {
+  "id": "TECH2_2024-9",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Legacy incompatibility follows from what integrating with pre-existing systems means."
+ },
+ {
+  "id": "TECH2_2024-10",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Gap assessment follows logically from comparing as-is with to-be."
+ },
+ {
+  "id": "TECH2_2024-11",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "Turns on separating personal rapport from institutional criteria; two options are near-duplicates."
+ },
+ {
+  "id": "TECH2_2024-12",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "Attributes a fixed four-stage sequence to a named model; the escalation logic only partly derives it."
+ },
+ {
+  "id": "TECH2_2024-16",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The objective follows from what e-Governance is; the other options are its opposite."
+ },
+ {
+  "id": "TECH2_2021-10",
+  "mode": "memorise",
+  "confidence": "high",
+  "why": "A named technique; understanding expert judgement does not yield the word 'Delphi'."
+ },
+ {
+  "id": "TECH2_2021-12",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "The settled term for the closure repository; 'database' and 'storage' are equally reasonable to a pure reasoner."
+ },
+ {
+  "id": "TECH2_2021-13",
+  "mode": "calculate",
+  "confidence": "medium",
+  "why": "Sign of each variance derives mechanically from CV = EV - AC and SV = EV - PV; any combination could be generated and worked out cold."
+ },
+ {
+  "id": "TECH2_2021-27",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Follows from what bundling under one prime vendor does to accountability and coordination."
+ },
+ {
+  "id": "TECH2_2021-3",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "Reasoning about distributed versus centralised delivery, though the centralisation item is genuinely arguable."
+ },
+ {
+  "id": "TECH2_2021-7",
+  "mode": "memorise",
+  "confidence": "low",
+  "why": "List membership from a textbook's 'essential elements'; the wording is weak and several options are defensible."
+ },
+ {
+  "id": "TECH2_2021-8",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "The phase follows from the fact that IT-enablement opportunities describe the to-be."
+ },
+ {
+  "id": "TECH2_2021-9",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "Derivable from as-is documenting the present against a forward-looking strategy."
+ },
+ {
+  "id": "GEN-TECH2-U2-126",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Reasoning about why standalone departmental systems could not interoperate."
+ },
+ {
+  "id": "GEN-TECH2-U2-127",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Turns on applying the demand/supply distinction to the listed factors."
+ },
+ {
+  "id": "GEN-TECH2-U2-128",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Reasoning about why process and legal change, not the technology, is the hard part."
+ },
+ {
+  "id": "GEN-TECH2-U2-129",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The risk is derivable from what dependence on one individual implies."
+ },
+ {
+  "id": "GEN-TECH2-U2-130",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Sequence follows from an RFP needing a defined scope to price."
+ },
+ {
+  "id": "GEN-TECH2-U2-131",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Purpose of a pilot follows from limiting the blast radius of defects."
+ },
+ {
+  "id": "GEN-TECH2-U2-132",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Turns on separating change management from change control conceptually."
+ },
+ {
+  "id": "GEN-TECH2-U2-133",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Purpose follows from why different stakeholder groups need different messages."
+ }
+]

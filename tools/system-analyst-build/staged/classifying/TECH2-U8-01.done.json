@@ -1,0 +1,68 @@
+[
+ {
+  "id": "TECH2_2024-56",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Cost and accuracy follow from what conversion actually involves; the other options are backwards."
+ },
+ {
+  "id": "TECH2_2021-52",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Scenario reasoning about off-site copies versus a single physical location."
+ },
+ {
+  "id": "TECH2_2021-53",
+  "mode": "memorise",
+  "confidence": "high",
+  "why": "Stakeholder list of a named platform; the odd one out is wrong only by not being on it."
+ },
+ {
+  "id": "GEN-TECH2-U8-206",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Follows from the back-end verification step needing a machine-readable record."
+ },
+ {
+  "id": "GEN-TECH2-U8-207",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "The term largely describes itself, though 'day-forward' is a coined label."
+ },
+ {
+  "id": "GEN-TECH2-U8-208",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Follows from un-indexed page images being unsearchable."
+ },
+ {
+  "id": "GEN-TECH2-U8-209",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The consequence follows from what inconsistent field definitions do to data exchange."
+ },
+ {
+  "id": "GEN-TECH2-U8-210",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "What OCR adds follows from the difference between an image and text."
+ },
+ {
+  "id": "GEN-TECH2-U8-211",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Follows from what managed custody adds over plain storage."
+ },
+ {
+  "id": "GEN-TECH2-U8-212",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Purpose of a rehearsal follows from wanting errors surfaced before go-live."
+ },
+ {
+  "id": "GEN-TECH2-U8-213",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Counts and control totals follow from what proving completeness actually requires."
+ }
+]

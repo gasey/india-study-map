@@ -1,0 +1,22 @@
+[
+ { "id": "TECH3_2024-24", "mode": "understand", "confidence": "high",
+   "why": "Causal reasoning about what uneven allocation does to a team; the excluded statement is recognisably about a different subject." },
+ { "id": "TECH3_2024-25", "mode": "understand", "confidence": "high",
+   "why": "'Optimal' implies trade-off across several factors, so the single-factor and punitive options fail on their own terms." },
+ { "id": "TECH3_2024-26", "mode": "understand", "confidence": "low",
+   "why": "Reasoning about which tier does day-to-day people work, but the item is genuinely ambiguous — the guide assigns Manage Project Team to the project manager, as the bank's own note concedes." },
+ { "id": "TECH3_2024-27", "mode": "memorise", "confidence": "high",
+   "why": "Recognising commercial product names; no amount of resource-management understanding tells you which vendors exist." },
+ { "id": "TECH3_2024-28", "mode": "understand", "confidence": "high",
+   "why": "Follows from what distance does to communication; the other options are advantages, wrong on their face." },
+ { "id": "TECH3_2021-51", "mode": "memorise", "confidence": "medium",
+   "why": "Negative form over the guide's named examples of networking; the odd one out is off-list rather than logically inconsistent." },
+ { "id": "TECH3_2021-52", "mode": "understand", "confidence": "medium",
+   "why": "Reasoning from geographic dispersion to what it most threatens, though team-building is a defensible competing read." },
+ { "id": "TECH3_2021-53", "mode": "memorise", "confidence": "medium",
+   "why": "A practitioner could reasonably answer 'the project manager'; only the guide's explicit statement fixes shared enforcement." },
+ { "id": "TECH3_2021-54", "mode": "understand", "confidence": "medium",
+   "why": "Turns on which word pairs with 'retention' to cover the whole employment cycle — a language judgement, not a recalled fact." },
+ { "id": "TECH3_2021-55", "mode": "memorise", "confidence": "low",
+   "why": "Maps a situation onto a named HR technique with no derivation path, and the bank flags its own answer as uncertain outside PMBOK terminology." }
+]

@@ -1,0 +1,171 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 11,
+ "questions": [
+  {
+   "id": "TECH3_2024-11",
+   "paper": "TECH3",
+   "unit": "3",
+   "sub": "The five Project Management Process Groups",
+   "question": "Project management process phases in general may be —",
+   "options": {
+    "A": "Initiation, planning, execution, monitoring, conclusion",
+    "B": "DPR, funding, tendering, contract",
+    "C": "Initiation, approval, advertisement, recruitment, joining",
+    "D": "Proposal, approval, execution, termination"
+   },
+   "answer": "A",
+   "explanation": "PMBOK organizes every project into five Process Groups: Initiating, Planning, Executing, Monitoring & Controlling, and Closing - option A names this sequence (using 'conclusion' loosely for closing). Option B lists steps specific to a government infrastructure/DPR-tendering workflow, not the generic PM process groups. Option C describes a recruitment/hiring workflow, and option D is an incomplete, non-standard four-step list missing the monitoring dimension entirely."
+  },
+  {
+   "id": "TECH3_2024-13",
+   "paper": "TECH3",
+   "unit": "3",
+   "sub": "Executing Process Group",
+   "question": "Which Process Group involves coordinating people and resources to complete the work defined in the project management plan?",
+   "options": {
+    "A": "Initiating Process Group",
+    "B": "Planning Process Group",
+    "C": "Executing Process Group",
+    "D": "Monitoring and Controlling Process Group"
+   },
+   "answer": "C",
+   "explanation": "PMBOK's own definition of the Executing Process Group is 'those processes performed to complete the work defined in the project management plan to satisfy the project specifications,' which explicitly involves coordinating people and resources. Initiating authorizes the project/phase, Planning establishes scope and objectives, and Monitoring & Controlling tracks, reviews and regulates progress - none of these involve the actual coordination of resources to perform the work itself."
+  },
+  {
+   "id": "TECH3_2024-14",
+   "paper": "TECH3",
+   "unit": "3",
+   "sub": "Project Information: work performance data, information and reports",
+   "question": "What term describes the raw observations and measurements identified during activities performed to carry out project work?",
+   "options": {
+    "A": "Work performance information",
+    "B": "Work performance data",
+    "C": "Work performance reports",
+    "D": "Project deliverables"
+   },
+   "answer": "B",
+   "explanation": "PMBOK's information flow is: raw work performance data (unprocessed observations/measurements, e.g. percent complete, actual costs) is collected during Direct and Manage Project Work, then analyzed and turned into work performance information (in context, with implications), which is then compiled into work performance reports for stakeholders. Project deliverables are the actual outputs/products, not measurement data, so B is the only correct match for 'raw observations and measurements'."
+  },
+  {
+   "id": "TECH3_2024-51",
+   "paper": "TECH3",
+   "unit": "3",
+   "sub": "Monitoring and Controlling Process Group",
+   "question": "A phase within a project lifecycle that is conducted in order to make sure the project follows the correct track to complete the project is —",
+   "options": {
+    "A": "Tracking and Evaluation",
+    "B": "Monitoring and Control",
+    "C": "Monitoring and Satisfaction survey",
+    "D": "Evaluation and Monitoring"
+   },
+   "answer": "B",
+   "explanation": "The Monitoring and Controlling Process Group is the standard PMBOK term for tracking, reviewing and regulating project progress and performance so the project stays on the planned track, triggering changes where needed. 'Tracking and Evaluation' and 'Evaluation and Monitoring' are plausible-sounding but not the recognised process-group name, and 'Monitoring and Satisfaction survey' wrongly narrows the phase to customer feedback only, which is a small part of quality/stakeholder work, not the whole control function."
+  },
+  {
+   "id": "TECH3_2021-11",
+   "paper": "TECH3",
+   "unit": "3",
+   "sub": "The five Project Management Process Groups",
+   "question": "Which of the following Process Groups do not overlap with each other?",
+   "options": {
+    "A": "Initiating Process Group & Closing Process Group",
+    "B": "Planning Process Group & Monitoring and Controlling Process Group",
+    "C": "Executing Process Group & Monitoring and Controlling Process Group",
+    "D": "Executing Process Group & Closing Process Group"
+   },
+   "answer": "A",
+   "explanation": "In the PMBOK process-group diagram, Initiating finishes before Closing begins, so those two do not overlap in time, whereas Planning/Executing/Monitoring-Controlling all overlap with each other and with Closing at the tail end."
+  },
+  {
+   "id": "TECH3_2021-12",
+   "paper": "TECH3",
+   "unit": "3",
+   "sub": "The five Project Management Process Groups",
+   "question": "Which of the following is the correct logical sequence of the five process groups?",
+   "options": {
+    "A": "Planning, Monitoring and Controlling, Initiating, Executing, Closing",
+    "B": "Planning, Initiating, Executing, Monitoring and Controlling, Closing",
+    "C": "Initiating, Monitoring and Controlling, Planning, Executing, Closing",
+    "D": "Initiating, Planning, Executing, Monitoring and Controlling, Closing"
+   },
+   "answer": "D",
+   "explanation": "The standard PMBOK process group sequence is Initiating, Planning, Executing, Monitoring and Controlling, Closing."
+  },
+  {
+   "id": "TECH3_2021-13",
+   "paper": "TECH3",
+   "unit": "3",
+   "sub": "Executing Process Group",
+   "question": "A large portion of project's budget is spent on what Process Group?",
+   "options": {
+    "A": "Initiating",
+    "B": "Planning",
+    "C": "Executing",
+    "D": "Monitoring and Controlling"
+   },
+   "answer": "C",
+   "explanation": "The bulk of project spend goes into producing deliverables, which happens in the Executing Process Group."
+  },
+  {
+   "id": "TECH3_2021-15",
+   "paper": "TECH3",
+   "unit": "3",
+   "sub": "Closing Process Group",
+   "question": "Applying appropriate updates to organizational process assets is a part of what Process Group?",
+   "options": {
+    "A": "Monitoring and Controlling",
+    "B": "Planning",
+    "C": "Executing",
+    "D": "Closing"
+   },
+   "answer": "D",
+   "explanation": "PMBOK's description of the Closing Process Group explicitly includes applying appropriate updates to organizational process assets as part of formally completing the project or phase."
+  },
+  {
+   "id": "TECH3_2021-18",
+   "paper": "TECH3",
+   "unit": "3",
+   "sub": "Project Information: work performance data, information and reports",
+   "question": "Technical performance measure, start and finish of schedule activities, number of change requests, number of defects are examples of:",
+   "options": {
+    "A": "Work performance data",
+    "B": "Key performance indicators",
+    "C": "Performance rating",
+    "D": "Activity rating"
+   },
+   "answer": "A",
+   "explanation": "Raw, unprocessed measurements like technical performance figures, activity start/finish dates, change request counts, and defect counts are exactly PMBOK's definition of Work Performance Data, before they are analyzed into information or reports."
+  },
+  {
+   "id": "TECH3_2021-21",
+   "paper": "TECH3",
+   "unit": "3",
+   "sub": "Role of the ten Knowledge Areas",
+   "question": "What is the term used for the area that entails processes and activities that define, combine, unify and coordinate the processes and project activities carried out within the various Project Management Process Groups?",
+   "options": {
+    "A": "Project Integration Management",
+    "B": "Strategic Management",
+    "C": "Operations Management",
+    "D": "Project Process Management"
+   },
+   "answer": "A",
+   "explanation": "PMBOK defines exactly this scope as Project Integration Management: identifying, defining, combining, unifying, and coordinating the processes and activities across all Process Groups."
+  },
+  {
+   "id": "TECH3_2021-22",
+   "paper": "TECH3",
+   "unit": "3",
+   "sub": "Role of the ten Knowledge Areas",
+   "question": "When Integration is used under Project Management, it includes all of the following activities except for:",
+   "options": {
+    "A": "Unification",
+    "B": "Consolidation",
+    "C": "Communication",
+    "D": "Review"
+   },
+   "answer": "D",
+   "explanation": "PMBOK states integration's nature is captured by the characteristics of unification, consolidation, communication, and interrelationship; 'review' is not one of the four named characteristics."
+  }
+ ]
+}

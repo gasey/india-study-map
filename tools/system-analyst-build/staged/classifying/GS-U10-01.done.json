@@ -1,0 +1,22 @@
+[
+ { "id": "GEN-230", "mode": "calculate", "confidence": "high",
+   "why": "The difference rule is derived from the stem and applied; regenerate with any series and the method holds." },
+ { "id": "GEN-231", "mode": "calculate", "confidence": "high",
+   "why": "A mechanical letter-shift rule is inferred from the sample and applied to a new word." },
+ { "id": "GEN-232", "mode": "understand", "confidence": "high",
+   "why": "Turns on recognising the semantic relation between the pair; no procedure and nothing to recall." },
+ { "id": "GEN-233", "mode": "calculate", "confidence": "high",
+   "why": "The relation resolves deterministically by chaining the stated links; swap the relations and the same method works." },
+ { "id": "GEN-234", "mode": "calculate", "confidence": "high",
+   "why": "Validity is decided by a formal procedure over the premises, independent of the terms used." },
+ { "id": "GEN-235", "mode": "calculate", "confidence": "high",
+   "why": "Ordering follows mechanically from chaining the positional constraints." },
+ { "id": "GEN-236", "mode": "calculate", "confidence": "high",
+   "why": "Pass mark equals score plus shortfall, then divide by the percentage; a reusable method." },
+ { "id": "GEN-237", "mode": "calculate", "confidence": "high",
+   "why": "Profit over cost price times 100; computable from the stem's numbers alone." },
+ { "id": "GEN-238", "mode": "calculate", "confidence": "high",
+   "why": "Sum the reciprocal rates and invert; the standard time-and-work procedure." },
+ { "id": "GEN-239", "mode": "calculate", "confidence": "high",
+   "why": "Both interest formulas applied to the stem's figures and differenced." }
+]

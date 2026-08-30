@@ -1,0 +1,606 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 40,
+ "questions": [
+  {
+   "id": "GEN-21",
+   "paper": "GE",
+   "unit": "3",
+   "sub": "Subject-verb agreement / concord",
+   "question": "Choose the option that correctly completes the sentence: \"Neither the manager nor the clerks ____ aware of the new policy.\"",
+   "options": {
+    "A": "was",
+    "B": "were",
+    "C": "is",
+    "D": "have been being"
+   },
+   "answer": "B",
+   "explanation": "With 'neither...nor' joining a singular and a plural subject, the verb agrees with the subject nearer to it -- here 'the clerks' (plural) -- so 'were' is correct."
+  },
+  {
+   "id": "GEN-22",
+   "paper": "GE",
+   "unit": "3",
+   "sub": "Tense and sequence of tenses",
+   "question": "Choose the correctly formed sentence:",
+   "options": {
+    "A": "By the time the officer arrived, the meeting had already ended.",
+    "B": "By the time the officer arrived, the meeting has already ended.",
+    "C": "By the time the officer arrived, the meeting already ends.",
+    "D": "By the time the officer arrived, the meeting is already ending."
+   },
+   "answer": "A",
+   "explanation": "When one past action (the meeting ending) is completed before another past action (the officer arriving), the past perfect ('had ended') must be used for the earlier action, making A the only grammatically correct sequence of tenses."
+  },
+  {
+   "id": "GEN-23",
+   "paper": "GE",
+   "unit": "3",
+   "sub": "Articles and determiners",
+   "question": "Fill in the blank with the correct article: \"She is ____ honest and ____ efficient officer.\"",
+   "options": {
+    "A": "a; a",
+    "B": "an; an",
+    "C": "a; an",
+    "D": "the; the"
+   },
+   "answer": "B",
+   "explanation": "\"Honest\" begins with a silent 'h', so it takes 'an'; \"efficient\" begins with a vowel sound, so it also takes 'an' -- article choice depends on the initial sound of the following word, not its spelling."
+  },
+  {
+   "id": "GEN-24",
+   "paper": "GE",
+   "unit": "3",
+   "sub": "Prepositions and phrasal verbs",
+   "question": "Choose the correct preposition: \"The committee is responsible ____ implementing the new guidelines.\"",
+   "options": {
+    "A": "of",
+    "B": "for",
+    "C": "with",
+    "D": "at"
+   },
+   "answer": "B",
+   "explanation": "The adjective 'responsible' conventionally takes the preposition 'for' when followed by a task or duty ('responsible for doing something'); the other prepositions do not collocate correctly with 'responsible' in this sense."
+  },
+  {
+   "id": "GEN-25",
+   "paper": "GE",
+   "unit": "3",
+   "sub": "Voice: active and passive",
+   "question": "Change the following sentence to passive voice: \"The committee will review the proposal next week.\"",
+   "options": {
+    "A": "The proposal will be reviewed by the committee next week.",
+    "B": "The proposal was reviewed by the committee next week.",
+    "C": "The proposal is reviewed by the committee next week.",
+    "D": "The proposal will review the committee next week."
+   },
+   "answer": "A",
+   "explanation": "The active sentence uses future simple ('will review'); the passive equivalent must preserve this tense as 'will be reviewed', with the object 'the proposal' becoming the subject and 'the committee' introduced by 'by' -- matching option A exactly."
+  },
+  {
+   "id": "GEN-26",
+   "paper": "GE",
+   "unit": "3",
+   "sub": "Narration: direct and indirect speech",
+   "question": "Convert to indirect speech: The officer said, \"I will submit the report tomorrow.\"",
+   "options": {
+    "A": "The officer said that he will submit the report tomorrow.",
+    "B": "The officer said that he would submit the report the next day.",
+    "C": "The officer said that he submits the report tomorrow.",
+    "D": "The officer says that he would submit the report tomorrow."
+   },
+   "answer": "B",
+   "explanation": "In reported speech with a past reporting verb ('said'), 'will' shifts to 'would' and the time expression 'tomorrow' shifts to 'the next day', which is exactly the transformation in option B; the other options fail to shift tense or the time reference correctly."
+  },
+  {
+   "id": "GEN-27",
+   "paper": "GE",
+   "unit": "3",
+   "sub": "One-word substitution",
+   "question": "Choose the one word that means \"a person who knows many languages\":",
+   "options": {
+    "A": "Philanthropist",
+    "B": "Polyglot",
+    "C": "Bibliophile",
+    "D": "Misanthrope"
+   },
+   "answer": "B",
+   "explanation": "\"Polyglot\" specifically means a person who knows and can use several languages; 'philanthropist' is one who does charitable good, 'bibliophile' is a lover of books, and 'misanthrope' is one who dislikes people."
+  },
+  {
+   "id": "GEN-28",
+   "paper": "GE",
+   "unit": "3",
+   "sub": "Synonyms and antonyms",
+   "question": "Choose the word closest in meaning to \"MERIDIAN\" as used in the phrase \"the meridian of his career\":",
+   "options": {
+    "A": "Decline",
+    "B": "Peak",
+    "C": "Beginning",
+    "D": "Failure"
+   },
+   "answer": "B",
+   "explanation": "\"Meridian\" figuratively refers to the highest point or peak (as in the sun's meridian, or zenith, in the sky), so 'the meridian of his career' means the peak of his career, making B the correct synonym."
+  },
+  {
+   "id": "GEN-29",
+   "paper": "GE",
+   "unit": "3",
+   "sub": "Synonyms and antonyms",
+   "question": "Choose the word most nearly OPPOSITE in meaning to \"FRUGAL\":",
+   "options": {
+    "A": "Thrifty",
+    "B": "Extravagant",
+    "C": "Economical",
+    "D": "Sparing"
+   },
+   "answer": "B",
+   "explanation": "\"Frugal\" means economical or careful with resources; its opposite is 'extravagant', meaning wasteful or excessive in spending. 'Thrifty', 'economical', and 'sparing' are all synonyms of frugal, not antonyms."
+  },
+  {
+   "id": "GEN-30",
+   "paper": "GE",
+   "unit": "3",
+   "sub": "Spelling",
+   "question": "Identify the correctly spelled word:",
+   "options": {
+    "A": "Occassion",
+    "B": "Occasion",
+    "C": "Ocasion",
+    "D": "Occasoin"
+   },
+   "answer": "B",
+   "explanation": "The correct spelling is 'Occasion' -- double 'c' but only a single 's' (o-c-c-a-s-i-o-n). The other three options are common misspellings with incorrect letter doubling or transposition."
+  },
+  {
+   "id": "GEN-31",
+   "paper": "GE",
+   "unit": "3",
+   "sub": "Punctuation",
+   "question": "Choose the correctly punctuated sentence:",
+   "options": {
+    "A": "The director said, \"submit the file by Friday.\"",
+    "B": "The director said, \"Submit the file by Friday.\"",
+    "C": "The director said \"Submit the file by Friday\".",
+    "D": "The director said: \"submit the file by friday.\""
+   },
+   "answer": "B",
+   "explanation": "Direct speech requires a comma before the opening quotation mark, a capital letter at the start of the quoted sentence, and the closing punctuation placed inside the closing quotation mark -- option B follows all these rules correctly, while the others miss capitalisation, the introductory comma, or proper mark placement."
+  },
+  {
+   "id": "GEN-32",
+   "paper": "GE",
+   "unit": "3",
+   "sub": "Common errors and confusables",
+   "question": "Choose the correct word to complete the sentence: \"The new regulation will ____ the number of eligible applicants.\"",
+   "options": {
+    "A": "affect",
+    "B": "effect",
+    "C": "affects",
+    "D": "effects"
+   },
+   "answer": "A",
+   "explanation": "\"Affect\" is a verb meaning to influence something, which fits the sentence's need for an action verb after 'will'; 'effect' is primarily a noun meaning result, so 'affect' (base form, since it follows the modal 'will') is correct."
+  },
+  {
+   "id": "GEN-33",
+   "paper": "GE",
+   "unit": "3",
+   "sub": "Idioms and phrases",
+   "question": "Choose the meaning closest to the idiom \"to shelve a proposal\":",
+   "options": {
+    "A": "To implement a proposal immediately",
+    "B": "To postpone or set aside a proposal for later consideration",
+    "C": "To reject a proposal permanently and destroy the file",
+    "D": "To publicly praise a proposal"
+   },
+   "answer": "B",
+   "explanation": "\"To shelve\" something idiomatically means to postpone or set it aside, typically for an indefinite period, without necessarily rejecting it outright -- matching option B."
+  },
+  {
+   "id": "GEN-34",
+   "paper": "GE",
+   "unit": "3",
+   "sub": "Transformation of sentences",
+   "question": "Choose the sentence that correctly transforms \"He is too weak to walk\" into a sentence using \"so...that\":",
+   "options": {
+    "A": "He is so weak that he cannot walk.",
+    "B": "He is so weak that he can walk.",
+    "C": "He is so weak so he cannot walk.",
+    "D": "He is too so weak that he cannot walk."
+   },
+   "answer": "A",
+   "explanation": "The 'too...to' construction expressing a negative result ('too weak to walk' = 'cannot walk') transforms correctly into 'so...that' by making the result clause explicitly negative: 'so weak that he cannot walk', as in option A."
+  },
+  {
+   "id": "GEN-35",
+   "paper": "GE",
+   "unit": "3",
+   "sub": "Synthesis of sentences",
+   "question": "Combine the following two sentences into one using an appropriate connector: \"The rain stopped. The match resumed.\"",
+   "options": {
+    "A": "The rain stopped, but the match resumed.",
+    "B": "As soon as the rain stopped, the match resumed.",
+    "C": "The rain stopped although the match resumed.",
+    "D": "The match resumed, so the rain stopped."
+   },
+   "answer": "B",
+   "explanation": "The two events are sequential and causally linked in time (the match resumed immediately after the rain stopped), which is best expressed by the time connector 'as soon as'; 'but' and 'although' wrongly suggest contrast, and D reverses the logical cause-effect order."
+  },
+  {
+   "id": "GEN-36",
+   "paper": "GE",
+   "unit": "3",
+   "sub": "Analysis of complex and compound sentences",
+   "question": "Identify the type of the following sentence: \"Although the report was delayed, the committee approved the budget.\"",
+   "options": {
+    "A": "Simple sentence",
+    "B": "Compound sentence",
+    "C": "Complex sentence",
+    "D": "Compound-complex sentence"
+   },
+   "answer": "C",
+   "explanation": "The sentence contains one independent clause ('the committee approved the budget') and one dependent/subordinate clause introduced by 'Although' ('the report was delayed'), which is the defining structure of a complex sentence; it is not compound (no two independent clauses joined by a coordinator) nor simple (more than one clause)."
+  },
+  {
+   "id": "GEN-37",
+   "paper": "GE",
+   "unit": "3",
+   "sub": "Parts of speech in use",
+   "question": "In the sentence \"The board approved the plan swiftly,\" the word \"swiftly\" functions as:",
+   "options": {
+    "A": "An adjective modifying \"plan\"",
+    "B": "An adverb modifying the verb \"approved\"",
+    "C": "A noun acting as the object",
+    "D": "A preposition"
+   },
+   "answer": "B",
+   "explanation": "\"Swiftly\" describes how the action of approving was carried out, modifying the verb 'approved'; words ending in '-ly' that describe manner are typically adverbs, not adjectives, nouns, or prepositions."
+  },
+  {
+   "id": "GEN-67",
+   "paper": "GE",
+   "unit": "3",
+   "sub": "Conditionals and the subjunctive",
+   "question": "Choose the option that correctly completes the sentence: \"The board recommended that every officer ____ present at the review meeting.\"",
+   "options": {
+    "A": "is",
+    "B": "be",
+    "C": "was",
+    "D": "will be"
+   },
+   "answer": "B",
+   "explanation": "After verbs of recommendation, demand or insistence ('recommended that...'), English uses the mandative subjunctive, which is the base form of the verb regardless of the subject; hence 'that every officer be present' is correct."
+  },
+  {
+   "id": "GEN-68",
+   "paper": "GE",
+   "unit": "3",
+   "sub": "Conditionals and the subjunctive",
+   "question": "Choose the correct completion: \"If she had revised the chapter, she ____ the question easily.\"",
+   "options": {
+    "A": "would have answered",
+    "B": "would answer",
+    "C": "will answer",
+    "D": "had answered"
+   },
+   "answer": "A",
+   "explanation": "This is a third (past unreal) conditional: the 'if' clause uses the past perfect ('had revised'), so the main clause must take 'would have + past participle' -- 'would have answered'. The other forms belong to different conditional types."
+  },
+  {
+   "id": "GEN-69",
+   "paper": "GE",
+   "unit": "3",
+   "sub": "Modals",
+   "question": "Choose the modal that best completes the sentence: \"The office lights are off and the door is locked; everyone ____ have left for the day.\"",
+   "options": {
+    "A": "can",
+    "B": "must",
+    "C": "need",
+    "D": "shall"
+   },
+   "answer": "B",
+   "explanation": "The evidence (lights off, door locked) supports a confident logical deduction, expressed by 'must have' ('must have left'); 'can', 'need' and 'shall' do not convey this near-certain inference about a past situation."
+  },
+  {
+   "id": "GEN-70",
+   "paper": "GE",
+   "unit": "3",
+   "sub": "Modals",
+   "question": "Choose the correct modal to complete the sentence: \"Passengers ____ cross the railway tracks; it is strictly prohibited.\"",
+   "options": {
+    "A": "must not",
+    "B": "need not",
+    "C": "would rather not",
+    "D": "may not always"
+   },
+   "answer": "A",
+   "explanation": "A strict prohibition is expressed by 'must not' ('must not cross'); 'need not' means absence of obligation, and the other options do not convey the required prohibition."
+  },
+  {
+   "id": "GEN-71",
+   "paper": "GE",
+   "unit": "3",
+   "sub": "Non-finites: infinitive, gerund, participle",
+   "question": "Choose the correct form to complete the sentence: \"She is very good at ____ complex problems quickly.\"",
+   "options": {
+    "A": "solve",
+    "B": "solving",
+    "C": "to solve",
+    "D": "solved"
+   },
+   "answer": "B",
+   "explanation": "A verb that immediately follows a preposition ('at') must take the gerund (-ing) form; hence 'good at solving'. The infinitive or base form cannot follow a preposition here."
+  },
+  {
+   "id": "GEN-72",
+   "paper": "GE",
+   "unit": "3",
+   "sub": "Non-finites: infinitive, gerund, participle",
+   "question": "Choose the correct completion: \"The supervisor made the trainee ____ the form once more.\"",
+   "options": {
+    "A": "to fill",
+    "B": "fill",
+    "C": "filling",
+    "D": "filled"
+   },
+   "answer": "B",
+   "explanation": "The causative verb 'make' in the active voice is followed by the bare infinitive (without 'to'): 'made the trainee fill'. Using 'to fill', the gerund, or the past participle would be incorrect after active 'make'."
+  },
+  {
+   "id": "GEN-73",
+   "paper": "GE",
+   "unit": "3",
+   "sub": "Subject-verb agreement / concord",
+   "question": "Choose the option that correctly completes the sentence: \"Each of the applicants ____ required to submit two references.\"",
+   "options": {
+    "A": "are",
+    "B": "is",
+    "C": "were",
+    "D": "have"
+   },
+   "answer": "B",
+   "explanation": "The subject is 'Each', which is singular and takes a singular verb, regardless of the plural noun in the 'of' phrase; hence 'Each of the applicants is required'."
+  },
+  {
+   "id": "GEN-74",
+   "paper": "GE",
+   "unit": "3",
+   "sub": "Tense and sequence of tenses",
+   "question": "Choose the correct verb form: \"I ____ in Aizawl since 2015.\"",
+   "options": {
+    "A": "lived",
+    "B": "have lived",
+    "C": "live",
+    "D": "am living"
+   },
+   "answer": "B",
+   "explanation": "An action beginning in the past and continuing up to the present, marked by 'since', requires the present perfect tense: 'have lived'. The simple past, simple present, and present continuous do not correctly express this duration up to now."
+  },
+  {
+   "id": "GEN-75",
+   "paper": "GE",
+   "unit": "3",
+   "sub": "Articles and determiners",
+   "question": "Fill in the blanks with the correct articles: \"____ Brahmaputra is one of ____ largest rivers in Asia.\"",
+   "options": {
+    "A": "A; the",
+    "B": "The; the",
+    "C": "The; a",
+    "D": "An; the"
+   },
+   "answer": "B",
+   "explanation": "Names of rivers take the definite article ('the Brahmaputra'), and a superlative ('largest') also requires 'the'; hence 'The Brahmaputra is one of the largest rivers'."
+  },
+  {
+   "id": "GEN-76",
+   "paper": "GE",
+   "unit": "3",
+   "sub": "Prepositions and phrasal verbs",
+   "question": "The phrasal verb in \"The management called off the strike negotiations\" most nearly means that the negotiations were:",
+   "options": {
+    "A": "Postponed to a later date",
+    "B": "Cancelled",
+    "C": "Concluded successfully",
+    "D": "Made longer"
+   },
+   "answer": "B",
+   "explanation": "The phrasal verb 'call off' means to cancel something that was planned or in progress; it is not the same as merely postponing, successfully concluding, or extending the negotiations."
+  },
+  {
+   "id": "GEN-77",
+   "paper": "GE",
+   "unit": "3",
+   "sub": "Voice: active and passive",
+   "question": "Change to the passive voice: \"Someone has stolen my bicycle.\"",
+   "options": {
+    "A": "My bicycle has been stolen.",
+    "B": "My bicycle was stolen.",
+    "C": "My bicycle has stolen.",
+    "D": "My bicycle is stealing."
+   },
+   "answer": "A",
+   "explanation": "The active verb is in the present perfect ('has stolen'); its passive form must retain that tense as 'has been stolen', with 'my bicycle' becoming the subject. Option B changes the tense, and C and D are ungrammatical passives."
+  },
+  {
+   "id": "GEN-78",
+   "paper": "GE",
+   "unit": "3",
+   "sub": "Narration: direct and indirect speech",
+   "question": "Convert to indirect speech: He said to me, \"Where are you going?\"",
+   "options": {
+    "A": "He asked me where I was going.",
+    "B": "He asked me where was I going.",
+    "C": "He said to me where I am going.",
+    "D": "He asked me where you were going."
+   },
+   "answer": "A",
+   "explanation": "A reported 'wh-' question keeps the question word, changes to statement word order ('I was going', not 'was I going'), shifts 'are' to 'was' after the past reporting verb, and changes 'you' to 'I'; only option A does all of this correctly."
+  },
+  {
+   "id": "GEN-79",
+   "paper": "GE",
+   "unit": "3",
+   "sub": "One-word substitution",
+   "question": "Choose the single word for \"a person who totally abstains from alcoholic drink\":",
+   "options": {
+    "A": "Connoisseur",
+    "B": "Teetotaller",
+    "C": "Gourmet",
+    "D": "Incumbent"
+   },
+   "answer": "B",
+   "explanation": "A 'teetotaller' is one who abstains completely from alcohol; a 'connoisseur' is an expert judge of taste, a 'gourmet' is a lover of fine food, and an 'incumbent' is the current holder of an office."
+  },
+  {
+   "id": "GEN-80",
+   "paper": "GE",
+   "unit": "3",
+   "sub": "Synonyms and antonyms",
+   "question": "Choose the word closest in meaning to \"PRAGMATIC\":",
+   "options": {
+    "A": "Idealistic",
+    "B": "Practical",
+    "C": "Careless",
+    "D": "Theoretical"
+   },
+   "answer": "B",
+   "explanation": "'Pragmatic' means dealing with things sensibly and realistically, i.e. practical; 'idealistic' and 'theoretical' are near-opposites, and 'careless' is unrelated."
+  },
+  {
+   "id": "GEN-81",
+   "paper": "GE",
+   "unit": "3",
+   "sub": "Synonyms and antonyms",
+   "question": "Choose the word most nearly OPPOSITE in meaning to \"TRANSIENT\":",
+   "options": {
+    "A": "Fleeting",
+    "B": "Momentary",
+    "C": "Permanent",
+    "D": "Brief"
+   },
+   "answer": "C",
+   "explanation": "'Transient' means lasting only a short time; its opposite is 'permanent', meaning lasting or enduring. 'Fleeting', 'momentary' and 'brief' are all synonyms of transient, not antonyms."
+  },
+  {
+   "id": "GEN-82",
+   "paper": "GE",
+   "unit": "3",
+   "sub": "Common errors and confusables",
+   "question": "Choose the correct word to complete the sentence: \"Honesty was the guiding ____ of her career.\"",
+   "options": {
+    "A": "principal",
+    "B": "principle",
+    "C": "principled",
+    "D": "principals"
+   },
+   "answer": "B",
+   "explanation": "'Principle' is a noun meaning a fundamental rule or belief, which fits the sentence; 'principal' means chief or a head of an institution, 'principled' is an adjective, and 'principals' is a plural noun -- none of which suits this context."
+  },
+  {
+   "id": "GEN-83",
+   "paper": "GE",
+   "unit": "3",
+   "sub": "Idioms and phrases",
+   "question": "Choose the meaning closest to the idiom \"to let the cat out of the bag\":",
+   "options": {
+    "A": "To reveal a secret, often unintentionally",
+    "B": "To start an unnecessary quarrel",
+    "C": "To buy something worthless",
+    "D": "To escape from a difficult situation"
+   },
+   "answer": "A",
+   "explanation": "'To let the cat out of the bag' idiomatically means to disclose a secret, frequently by accident; the other options describe unrelated idiomatic meanings."
+  },
+  {
+   "id": "GEN-84",
+   "paper": "GE",
+   "unit": "3",
+   "sub": "Transformation of sentences",
+   "question": "Transform into the superlative degree: \"Mount Everest is higher than any other mountain in the world.\"",
+   "options": {
+    "A": "Mount Everest is the highest mountain in the world.",
+    "B": "Mount Everest is as high as other mountains in the world.",
+    "C": "No mountain is higher than Mount Everest sometimes.",
+    "D": "Mount Everest is higher than all mountains in the world."
+   },
+   "answer": "A",
+   "explanation": "A comparative statement of the form 'X is higher than any other Y' converts to the superlative 'X is the highest Y'; hence 'Mount Everest is the highest mountain in the world'. The other options change or distort the meaning."
+  },
+  {
+   "id": "GEN-85",
+   "paper": "GE",
+   "unit": "3",
+   "sub": "Synthesis of sentences",
+   "question": "Combine into a single sentence using a participle: \"He finished his work. He went home.\"",
+   "options": {
+    "A": "Having finished his work, he went home.",
+    "B": "He finished his work but he went home.",
+    "C": "He went home so he finished his work.",
+    "D": "Finishing his work he go home."
+   },
+   "answer": "A",
+   "explanation": "Two sequential actions by the same subject can be synthesised with a perfect participle phrase: 'Having finished his work, he went home', showing the first action was completed before the second. The other options misuse connectors or verb forms."
+  },
+  {
+   "id": "GEN-86",
+   "paper": "GE",
+   "unit": "3",
+   "sub": "Analysis of complex and compound sentences",
+   "question": "Which of the following is a compound sentence?",
+   "options": {
+    "A": "When the sun set, the stars appeared.",
+    "B": "The sun set, and the stars appeared.",
+    "C": "Because the sun set, the air grew cold.",
+    "D": "The sun set slowly behind the hills."
+   },
+   "answer": "B",
+   "explanation": "A compound sentence joins two independent clauses with a coordinating conjunction; 'The sun set, and the stars appeared' does exactly this. Options A and C are complex (they contain subordinate clauses), and D is a simple sentence."
+  },
+  {
+   "id": "GEN-87",
+   "paper": "GE",
+   "unit": "3",
+   "sub": "Punctuation",
+   "question": "Choose the correctly punctuated sentence:",
+   "options": {
+    "A": "Its a long way to the office from here.",
+    "B": "It's a long way to the office from here.",
+    "C": "Its' a long way to the office from here.",
+    "D": "Its a long way to the office from here'."
+   },
+   "answer": "B",
+   "explanation": "'It's' is the contraction of 'it is', which the sentence requires, and it takes an apostrophe before the 's'. 'Its' (no apostrophe) is the possessive form and does not fit here; the other options misplace the apostrophe."
+  },
+  {
+   "id": "GEN-88",
+   "paper": "GE",
+   "unit": "3",
+   "sub": "Parts of speech in use",
+   "question": "In the sentence \"She sang beautifully and danced gracefully,\" the word \"and\" is:",
+   "options": {
+    "A": "A preposition",
+    "B": "A conjunction",
+    "C": "An adverb",
+    "D": "An interjection"
+   },
+   "answer": "B",
+   "explanation": "'And' joins two clauses/verb phrases of equal rank, which is the function of a coordinating conjunction; it is not a preposition, adverb, or interjection."
+  },
+  {
+   "id": "GEN-89",
+   "paper": "GE",
+   "unit": "3",
+   "sub": "Spelling",
+   "question": "Identify the correctly spelled word:",
+   "options": {
+    "A": "Definately",
+    "B": "Definitely",
+    "C": "Definitly",
+    "D": "Defenitely"
+   },
+   "answer": "B",
+   "explanation": "The correct spelling is 'Definitely' (from 'finite'), with an 'i' after 'defin' and no 'a'; the other three are common misspellings."
+  }
+ ]
+}

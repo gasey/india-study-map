@@ -1,0 +1,22 @@
+[
+ { "id": "GEN-210", "mode": "understand", "confidence": "high",
+   "why": "The chain is given in the stem; the level follows from what a trophic level means, with nothing to recall." },
+ { "id": "GEN-211", "mode": "understand", "confidence": "medium",
+   "why": "Follows from what the measurement is — oxygen consumed by decomposers — which fixes it to water quality." },
+ { "id": "GEN-212", "mode": "understand", "confidence": "medium",
+   "why": "Follows from where emissions come from; fossil-fuel combustion dominates by volume." },
+ { "id": "GEN-213", "mode": "understand", "confidence": "medium",
+   "why": "Subject-matter fit places a pollution regulator under the environment ministry; the distractors are unrelated portfolios." },
+ { "id": "GEN-214", "mode": "memorise", "confidence": "high",
+   "why": "Specific negotiated target figures; the numbers are stipulated, not derivable." },
+ { "id": "GEN-215", "mode": "memorise", "confidence": "high",
+   "why": "A count of items on an agreed list; arbitrary." },
+ { "id": "GEN-216", "mode": "understand", "confidence": "high",
+   "why": "The ranking follows from the principle that preventing waste beats disposing of it." },
+ { "id": "GEN-217", "mode": "understand", "confidence": "high",
+   "why": "Negative form where the odd one out is inconsistent with what 'renewable' means, not merely off a list." },
+ { "id": "GEN-218", "mode": "memorise", "confidence": "medium",
+   "why": "The relative strictness of statutory protected-area categories is a legal convention a reader must be told." },
+ { "id": "GEN-219", "mode": "understand", "confidence": "high",
+   "why": "The purpose is what the term names; the distractors are different disciplines entirely." }
+]

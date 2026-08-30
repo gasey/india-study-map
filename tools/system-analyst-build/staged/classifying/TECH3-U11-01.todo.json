@@ -1,0 +1,171 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 11,
+ "questions": [
+  {
+   "id": "TECH3_2024-34",
+   "paper": "TECH3",
+   "unit": "11",
+   "sub": "Risk register and risk breakdown structure",
+   "question": "Project risk due to organizational change is a type of —",
+   "options": {
+    "A": "Internal risk",
+    "B": "External risk",
+    "C": "Management risk",
+    "D": "Strategic risk"
+   },
+   "answer": "A",
+   "explanation": "A risk stemming from a change inside the organization implementing the project — such as reorganization, a policy shift, or a resourcing change — originates from within the performing organization itself, which is why it is classed as an internal risk, as opposed to external risks arising from outside the project's own environment (markets, regulation, competitors). 'Management risk' and 'strategic risk' are not the standard internal/external classification used in typical risk-source frameworks and are constructed as plausible-sounding but non-standard distractors here."
+  },
+  {
+   "id": "TECH3_2024-35",
+   "paper": "TECH3",
+   "unit": "11",
+   "sub": "Risk register and risk breakdown structure",
+   "question": "Which one of the following is not considered as external risk?",
+   "options": {
+    "A": "Environmental factors",
+    "B": "Market fluctuations",
+    "C": "Performance risk",
+    "D": "Legal and regulatory change"
+   },
+   "answer": "C",
+   "explanation": "Environmental factors, market fluctuations, and legal/regulatory changes all originate outside the project team's control, in the external business or natural environment — classic external risks in any risk breakdown structure. Performance risk (the project or product failing to meet its technical, functional, or quality requirements) arises from within the project's own design and execution choices, making it an internal risk rather than an external one, so it is the option that does not belong in this external-risk list."
+  },
+  {
+   "id": "TECH3_2024-36",
+   "paper": "TECH3",
+   "unit": "11",
+   "sub": "Identify Risks: Inputs, Tools and Techniques, Outputs",
+   "question": "Which of the following is closest to a subset and order of risk management?",
+   "options": {
+    "A": "Analyze, Prioritize, Assign, Respond",
+    "B": "Assign, Prioritize, Respond",
+    "C": "Monitor, Prioritize, Respond",
+    "D": "Prioritize, Identify, Analyze"
+   },
+   "answer": "A",
+   "explanation": "Once risks have been identified, the logical next steps are to analyze them (qualitatively/quantitatively), prioritize by probability and impact, assign an owner and a response, and then respond by executing the chosen strategy — option (a) preserves this order best among the choices given. Option (d) illogically reverses identify and prioritize, while (b) and (c) skip the analysis step that must precede prioritization. Because none of the options fully reproduce the standard PMBOK sequence (identify, analyze, plan response, monitor and control), this question's phrasing is imprecise and the chosen answer is partly judgment-based."
+  },
+  {
+   "id": "TECH3_2024-37",
+   "paper": "TECH3",
+   "unit": "11",
+   "sub": "Risk identification techniques: brainstorming, Delphi, SWOT, root cause analysis, checklists, assumption analysis",
+   "question": "Which of the following is a key technique for categorizing risks in a project?",
+   "options": {
+    "A": "Brainstorming",
+    "B": "SWOT analysis",
+    "C": "Risk probability assessment",
+    "D": "Root cause analysis"
+   },
+   "answer": "B",
+   "explanation": "SWOT analysis is listed among PMBOK's risk-identification techniques precisely because it structures findings into internal (strengths/weaknesses) and external (opportunities/threats) buckets, effectively categorizing risk sources by origin. Brainstorming and root cause analysis are used to surface or trace the origin of risks rather than sort them into categories, and probability assessment is an analysis step (part of qualitative risk analysis) rather than a categorization technique. SWOT's built-in categorical structure is what makes it the best fit for 'categorizing'."
+  },
+  {
+   "id": "TECH3_2024-38",
+   "paper": "TECH3",
+   "unit": "11",
+   "sub": "Threat responses: avoid, transfer, mitigate, accept",
+   "question": "Which of the following is an example of a mitigation action?",
+   "options": {
+    "A": "Purchasing insurance for financial risks",
+    "B": "Accepting a risk and taking no action",
+    "C": "Cancelling a risky project",
+    "D": "Redesigning a system to include redundancy"
+   },
+   "answer": "D",
+   "explanation": "Mitigation means reducing the probability or impact of a threat before it materializes. Redesigning a system to add redundancy directly lowers the impact of a component failure — a textbook mitigation action. Buying insurance is risk transfer (moving the financial consequence to a third party), taking no action is risk acceptance, and cancelling the project altogether is risk avoidance. Each wrong option corresponds to a different, specifically named risk-response strategy, which is exactly why they are tempting but wrong for 'mitigation'."
+  },
+  {
+   "id": "TECH3_2021-50",
+   "paper": "TECH3",
+   "unit": "11",
+   "sub": "Risk identification techniques: brainstorming, Delphi, SWOT, root cause analysis, checklists, assumption analysis",
+   "question": "Which tools are useful for a situational analysis prior to planning a project/program?",
+   "options": {
+    "A": "Stakeholder analysis",
+    "B": "SWOT analysis",
+    "C": "Problem tree analysis",
+    "D": "All of the above"
+   },
+   "answer": "D",
+   "explanation": "Stakeholder analysis, SWOT analysis, and problem tree analysis are all standard situational-analysis tools used before project/program planning."
+  },
+  {
+   "id": "TECH3_2021-61",
+   "paper": "TECH3",
+   "unit": "11",
+   "sub": "Risk register and risk breakdown structure",
+   "question": "Which of the following is a hierarchical representation of project risks?",
+   "options": {
+    "A": "Risk Register",
+    "B": "Risk Mitigation",
+    "C": "Risk Categories",
+    "D": "Risk Breakdown Structure"
+   },
+   "answer": "D",
+   "explanation": "A Risk Breakdown Structure (RBS) organizes identified project risks into a hierarchy by category, much like a WBS organizes deliverables; a risk register is only a flat list, not a hierarchy."
+  },
+  {
+   "id": "TECH3_2021-62",
+   "paper": "TECH3",
+   "unit": "11",
+   "sub": "Identify Risks: Inputs, Tools and Techniques, Outputs",
+   "question": "Which term best describes the Identify Risks process?",
+   "options": {
+    "A": "Finite",
+    "B": "Redundant",
+    "C": "Iterative",
+    "D": "Inconsequential"
+   },
+   "answer": "C",
+   "explanation": "Identify Risks is explicitly described as an iterative process, since new risks emerge and existing ones evolve as the project progresses through its life cycle."
+  },
+  {
+   "id": "TECH3_2021-63",
+   "paper": "TECH3",
+   "unit": "11",
+   "sub": "Plan Risk Management: Inputs, Tools and Techniques, Outputs",
+   "question": "During the Plan Risk Management process, assigning __________ will help you and the project team identify all important risks and work more effectively during the identification process.",
+   "options": {
+    "A": "Risk factors",
+    "B": "Blame",
+    "C": "Risk mitigation plans",
+    "D": "Risk categories"
+   },
+   "answer": "D",
+   "explanation": "Assigning risk categories (e.g. via a Risk Breakdown Structure) during Plan Risk Management gives the team a structured way to systematically identify important risk sources, rather than relying on ad hoc brainstorming."
+  },
+  {
+   "id": "TECH3_2021-64",
+   "paper": "TECH3",
+   "unit": "11",
+   "sub": "Perform Qualitative Risk Analysis: Inputs, Tools and Techniques, Outputs",
+   "question": "The process under Process Risk Management that prioritizes risks for further analysis or action by assessing and combining their probability of occurrence and impact is called:",
+   "options": {
+    "A": "Perform Qualitative Risks Analysis",
+    "B": "Perform Quantitative Risk Analysis",
+    "C": "Plan Risk Management",
+    "D": "Plan Risk Responses"
+   },
+   "answer": "A",
+   "explanation": "Perform Qualitative Risk Analysis prioritizes risks by assessing and combining their probability of occurrence and impact, typically via a probability-impact matrix; Quantitative Analysis instead numerically models overall project risk."
+  },
+  {
+   "id": "TECH3_2021-65",
+   "paper": "TECH3",
+   "unit": "11",
+   "sub": "Expected Monetary Value, decision tree analysis, Monte Carlo simulation, sensitivity analysis and tornado diagram",
+   "question": "The total amount of risk that is calculated for a project is found by:",
+   "options": {
+    "A": "Multiplying the sum of each the risk times the amount at stake",
+    "B": "Calculating the cumulative sum of the probability for each risk and multiplying this value times the consequence of occurrence of the risk events",
+    "C": "Cannot be calculated since all risks are not known",
+    "D": "The amount of project reserves available"
+   },
+   "answer": "A",
+   "explanation": "Total project risk exposure is found by summing, for each individual risk, its probability multiplied by the amount at stake (impact); option (a)'s awkwardly worded 'sum of each risk times the amount at stake' describes this per-risk P x I sum, unlike (b) which sums probabilities first and multiplies by one shared consequence."
+  }
+ ]
+}

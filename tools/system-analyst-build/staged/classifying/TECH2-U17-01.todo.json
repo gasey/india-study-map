@@ -1,0 +1,231 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 15,
+ "questions": [
+  {
+   "id": "TECH2_2024-93",
+   "paper": "TECH2",
+   "unit": "17",
+   "sub": "Common terms of contract",
+   "question": "In the context of e-Governance contracts, what is a 'Force Majeure' clause designed to address?",
+   "options": {
+    "A": "Compensation for project delays",
+    "B": "Extraordinary events that release both parties from liability or obligation",
+    "C": "Confidentiality of project data",
+    "D": "Quality assurance for deliverables"
+   },
+   "answer": "B",
+   "explanation": "A Force Majeure clause covers extraordinary, unforeseeable events beyond either party's control — natural disasters, war, pandemics, etc. — that excuse both parties from contractual obligations or liability for resulting non-performance while the event lasts. Compensation for ordinary delays (a) is normally handled by a separate liquidated-damages/penalty clause, confidentiality (c) is covered by a non-disclosure clause, and quality assurance (d) is covered by acceptance-testing/SLA clauses — each addressed by different, distinct contract sections."
+  },
+  {
+   "id": "TECH2_2024-94",
+   "paper": "TECH2",
+   "unit": "17",
+   "sub": "Common terms of contract",
+   "question": "Clause(s) in contract agreement that deals with the procedure when natural catastrophe or unforeseen situation arises is usually put under the head —",
+   "options": {
+    "A": "Force Majeure",
+    "B": "Terms and Conditions",
+    "C": "Background",
+    "D": "Arbitration"
+   },
+   "answer": "A",
+   "explanation": "This is simply the naming question for the same concept as the previous item: clauses covering natural catastrophes and unforeseen events are grouped under the head 'Force Majeure' (French for 'superior force'), a standard, universally recognised contract-drafting term. 'Terms and Conditions' (b) and 'Background' (c) are generic contract sections that do not specifically address disaster/unforeseen-event procedures, and 'Arbitration' (d) covers dispute resolution mechanisms, not disaster contingencies."
+  },
+  {
+   "id": "TECH2_2024-95",
+   "paper": "TECH2",
+   "unit": "17",
+   "sub": "SLA and Service Level Management",
+   "question": "What does Service Level Management (SLM) ensure in the context of SLAs?",
+   "options": {
+    "A": "The drafting of legal contracts and agreements",
+    "B": "Selection and evaluation of service providers",
+    "C": "Financial management and cost control of the project",
+    "D": "Effective implementation of service levels and enforcement of SLAs"
+   },
+   "answer": "D",
+   "explanation": "Service Level Management is the ongoing operational process of monitoring actual service performance against agreed Service Level Agreement (SLA) targets and enforcing remedies (penalties, escalation) when they are breached — this is precisely option (d). Drafting contracts (a) is a legal/procurement function that happens before SLM begins; vendor selection (b) is part of procurement/bid evaluation; and cost control (c) is a financial management function — none of these is what SLM itself does once a contract is running."
+  },
+  {
+   "id": "TECH2_2024-99",
+   "paper": "TECH2",
+   "unit": "17",
+   "sub": "SLA and Service Level Management",
+   "question": "An abbreviated form for the specific agreement that is signed by the client (Government) and the third party contractor for services to be provided in terms of quality, delivery mode, time etc is —",
+   "options": {
+    "A": "SLA",
+    "B": "EOI",
+    "C": "RFP",
+    "D": "CA"
+   },
+   "answer": "A",
+   "explanation": "A Service Level Agreement (SLA) is precisely the agreement between a government client and a service-providing contractor that specifies measurable service parameters — quality, delivery mode, turnaround time, uptime, etc. EOI (Expression of Interest) is a pre-bidding step, RFP (Request for Proposal) is the bid-solicitation document issued before a contractor is even chosen, and 'CA' as a generic 'Contract Agreement' abbreviation lacks the specific quality/time/delivery-mode service-parameter focus that defines an SLA."
+  },
+  {
+   "id": "TECH2_2021-94",
+   "paper": "TECH2",
+   "unit": "17",
+   "sub": "Key components of e-Governance contracts",
+   "question": "Warranties, Third Party Claims are included in what section of the contract?",
+   "options": {
+    "A": "Project Specific Information",
+    "B": "Breach, Rectification and Termination",
+    "C": "Protections and Limitations",
+    "D": "Liabilities of parties"
+   },
+   "answer": "C",
+   "explanation": "Warranty clauses and indemnity against third party claims both function to protect a party and cap its exposure, so they sit with the protection and limitation clauses rather than with scope or termination provisions. This grouping is specific to whichever model contract template the paper follows, and 'Liabilities of parties' is a genuinely defensible alternative - treat this answer as uncertain."
+  },
+  {
+   "id": "GEN-TECH2-U17-100",
+   "paper": "TECH2",
+   "unit": "17",
+   "sub": "Importance of contracts in e-Governance projects",
+   "question": "During a pre-award demonstration a bidder's representative assures the department that a particular reporting module will be provided free of cost, but the RFP, the bid and the signed agreement say nothing about it. What is the department's position?",
+   "options": {
+    "A": "The assurance is enforceable because it was made in the presence of the evaluation committee",
+    "B": "The assurance is enforceable because a demonstration forms part of the technical evaluation",
+    "C": "The assurance is not enforceable; only what the contract documents record binds the vendor, which is why commitments must be written into the agreement before signature",
+    "D": "The assurance is enforceable for the first year of the contract only"
+   },
+   "answer": "C",
+   "explanation": "The agreement, together with the documents it expressly incorporates such as the RFP, the accepted bid and the SLA schedule, is the whole of what can be enforced; anything promised orally and left out is unrecoverable once the contract is signed. This is why an e-governance contract's schedule of deliverables must be reconciled against every commitment made during evaluation and negotiation."
+  },
+  {
+   "id": "GEN-TECH2-U17-101",
+   "paper": "TECH2",
+   "unit": "17",
+   "sub": "Importance of contracts in e-Governance projects",
+   "question": "Why is an explicit clause on ownership of data and of custom-developed software considered essential in an e-governance contract?",
+   "options": {
+    "A": "Because in its absence the department may find that citizen data and the application built for it sit with the vendor, leaving the state unable to migrate, audit or continue the service on its own terms",
+    "B": "Because ownership clauses reduce the licence cost of the third-party products used in the solution",
+    "C": "Because such clauses are what allow the contract to be extended beyond its original term",
+    "D": "Because without them the vendor cannot be asked to sign a non-disclosure agreement"
+   },
+   "answer": "A",
+   "explanation": "Government data is a public asset and bespoke software paid for from public funds is normally intended to vest in the state, but neither happens automatically — it has to be written down, or the department negotiates from a position of dependence at renewal. Ownership clauses have nothing to do with the price of the underlying third-party licences, which are governed by their own terms."
+  },
+  {
+   "id": "GEN-TECH2-U17-102",
+   "paper": "TECH2",
+   "unit": "17",
+   "sub": "Contract aspects of software development projects",
+   "question": "In a bespoke application development contract, what problem does a source code escrow arrangement address?",
+   "options": {
+    "A": "It reduces the effort of acceptance testing by giving the department the test scripts in advance",
+    "B": "It ensures the department can obtain the current source code and build instructions from a neutral third party if the vendor becomes insolvent or defaults, so the system can still be maintained",
+    "C": "It transfers the copyright in the software to the department at the moment of deposit",
+    "D": "It removes the need for a warranty or defect liability period"
+   },
+   "answer": "B",
+   "explanation": "Escrow is a continuity safeguard: a neutral agent holds the code and it is released to the department on defined trigger events such as vendor insolvency or abandonment of support. It is not the same as owning the code — where the department wants unrestricted rights it must take an assignment of intellectual property, and escrow is the fallback used when the vendor retains ownership."
+  },
+  {
+   "id": "GEN-TECH2-U17-103",
+   "paper": "TECH2",
+   "unit": "17",
+   "sub": "Contract aspects of software development projects",
+   "question": "Midway through development a department asks for a substantial new report and an additional approval step. How should a well-drafted software development contract handle this?",
+   "options": {
+    "A": "The vendor must absorb it, since all changes are covered by the fixed contract value",
+    "B": "The change should be implemented immediately and its cost negotiated after the system goes live",
+    "C": "The requirement should be deferred to a fresh procurement after the current contract closes",
+    "D": "Through the contractual change control procedure: the request is documented, its impact on cost, effort, timeline and service levels is assessed, and work begins only after the change is approved and the baseline is revised"
+   },
+   "answer": "D",
+   "explanation": "Change control keeps a live contract governable — every accepted change explicitly re-baselines scope, price and schedule, so neither side can later claim the other caused the overrun. Implementing first and pricing later is how uncontrolled scope creep and disputed invoices arise, and refusing all change makes the delivered system irrelevant to the process it is meant to serve."
+  },
+  {
+   "id": "GEN-TECH2-U17-104",
+   "paper": "TECH2",
+   "unit": "17",
+   "sub": "Contract aspects of IT infrastructure projects",
+   "question": "An IT infrastructure contract fixes a monthly availability service level for a hosted application. Which element must the contract define for that service level to be enforceable in practice?",
+   "options": {
+    "A": "The measurement method, the measurement window, and the exclusions such as approved planned maintenance and force majeure, along with the tool or log that constitutes the agreed evidence",
+    "B": "The internal reporting hierarchy of the vendor's operations team",
+    "C": "The list of employees the vendor will deploy on the project by name",
+    "D": "The vendor's audited annual turnover for each year of the contract"
+   },
+   "answer": "A",
+   "explanation": "An availability figure means nothing until the parties agree what is being measured, over what period, from what data source, and what downtime does not count against the vendor — otherwise every penalty claim becomes an argument about the numbers. Staffing details and turnover are qualification and manpower matters, not the mechanics of measuring performance."
+  },
+  {
+   "id": "GEN-TECH2-U17-105",
+   "paper": "TECH2",
+   "unit": "17",
+   "sub": "Contract aspects of IT infrastructure projects",
+   "question": "Why does a five-year data centre or network contract normally include a technology refresh and OEM support-availability clause?",
+   "options": {
+    "A": "To allow the department to terminate the contract at will in any year",
+    "B": "To fix the price of hardware for the whole contract period",
+    "C": "Because equipment supplied at the start will approach end-of-support during the term, and without an obligation to refresh or to guarantee spares and patches the department is left running unsupported infrastructure",
+    "D": "Because it is the mechanism through which liquidated damages are recovered"
+   },
+   "answer": "C",
+   "explanation": "Hardware and platform software have finite vendor support lifecycles that are shorter than many government contract terms, so obsolescence must be contracted for rather than discovered in year four. Without such a clause the department is exposed to unpatched systems and unavailable spares while still bound by its availability service levels."
+  },
+  {
+   "id": "GEN-TECH2-U17-106",
+   "paper": "TECH2",
+   "unit": "17",
+   "sub": "Contract aspects of PPP and service delivery projects",
+   "question": "Which principle should govern the allocation of risk between the government and the private partner in a PPP e-governance contract?",
+   "options": {
+    "A": "All risk should be transferred to the private partner, since it is being paid to run the service",
+    "B": "Each risk should be assigned to the party better placed to control or absorb it, because risk pushed onto a party that cannot manage it simply returns as a higher price or as a failed project",
+    "C": "All risk should be retained by the government, since the service is a public function",
+    "D": "Risk should be divided equally between the parties irrespective of its nature"
+   },
+   "answer": "B",
+   "explanation": "Efficient risk allocation is the core discipline of PPP structuring: technology, delivery and operations risk sits naturally with the operator, while policy change, statutory approvals and citizen demand generally sit with government. Dumping uncontrollable risk on the private partner does not make it disappear — it is priced into the bid or it eventually collapses the concession."
+  },
+  {
+   "id": "GEN-TECH2-U17-107",
+   "paper": "TECH2",
+   "unit": "17",
+   "sub": "Contract aspects of PPP and service delivery projects",
+   "question": "A state contracts a private operator to run citizen service centres delivering statutory certificates. What does the contract have to preserve regardless of the operator's role?",
+   "options": {
+    "A": "The operator's freedom to set its own service charges for statutory services",
+    "B": "The operator's ownership of the citizen records created at the centres",
+    "C": "The operator's discretion over which of the notified services it will offer",
+    "D": "The government's accountability for the service, its ownership of the data, and its ability to step in or transfer the service to another operator on default"
+   },
+   "answer": "D",
+   "explanation": "Outsourcing the delivery channel does not outsource the state's obligation to the citizen, so the contract must retain government ownership of data, prescribe the tariff for notified services and provide step-in and substitution rights on operator default. Leaving service charges, data ownership or service coverage to the operator's discretion converts a public entitlement into a commercial offering."
+  },
+  {
+   "id": "GEN-TECH2-U17-108",
+   "paper": "TECH2",
+   "unit": "17",
+   "sub": "Penalties, liquidated damages and exit management",
+   "question": "What are liquidated damages in a contract for an e-governance project?",
+   "options": {
+    "A": "A sum agreed in the contract in advance as the compensation payable for a defined default such as delay, so that the department can recover it without separately proving the exact loss suffered",
+    "B": "An amount fixed unilaterally by the department after the default has occurred, according to the severity it perceives",
+    "C": "A criminal fine imposed on the vendor's officers for non-performance",
+    "D": "The refund of the performance bank guarantee to the vendor on successful completion"
+   },
+   "answer": "A",
+   "explanation": "Liquidated damages are pre-estimated at the time of contracting — typically as a stated rate per period of delay with an overall cap — which is what makes them straightforward to apply when the trigger event occurs. An amount decided after the event has no contractual basis, and the performance guarantee is separate security, not damages."
+  },
+  {
+   "id": "GEN-TECH2-U17-109",
+   "paper": "TECH2",
+   "unit": "17",
+   "sub": "Penalties, liquidated damages and exit management",
+   "question": "What is the purpose of exit management provisions in an e-governance contract?",
+   "options": {
+    "A": "To specify the notice period the vendor's employees must serve before resigning",
+    "B": "To bind the outgoing vendor to hand over data in a usable format, along with documentation, source code or licences, configurations and knowledge transfer, and to keep the service running through a defined transition to the department or a successor",
+    "C": "To determine the penalty payable if the department terminates the contract early",
+    "D": "To require the department to purchase the vendor's hardware at book value when the contract ends"
+   },
+   "answer": "B",
+   "explanation": "Exit management is the answer to vendor lock-in: it makes an orderly, non-disruptive handover a contractual obligation of the incumbent rather than something to be negotiated from weakness when the relationship has already broken down. Termination compensation and asset transfer are dealt with in their own clauses; the essence of exit management is continuity of the citizen-facing service through the change of provider."
+  }
+ ]
+}

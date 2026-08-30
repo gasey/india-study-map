@@ -1,0 +1,261 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 17,
+ "questions": [
+  {
+   "id": "TECH3_2024-2",
+   "paper": "TECH3",
+   "unit": "6",
+   "sub": "Develop Schedule: Inputs, Tools and Techniques, Outputs",
+   "question": "Keeping schedules for different tasks within a project is called —",
+   "options": {
+    "A": "Task scheduling",
+    "B": "Process scheduling",
+    "C": "Project scheduling",
+    "D": "Process management"
+   },
+   "answer": "A",
+   "explanation": "Maintaining the timeline of all tasks/activities across a project is called project scheduling - the output of the Develop Schedule process, usually shown as a Gantt chart or network diagram. 'Task scheduling' is a plausible distractor but is not the formal project-management term used for coordinating schedules across an entire project. 'Process scheduling' and 'Process management' are operations/computing terms unrelated to managing project timelines, making them clearly wrong in this context."
+  },
+  {
+   "id": "TECH3_2024-12",
+   "paper": "TECH3",
+   "unit": "6",
+   "sub": "Gantt chart, milestone chart, network diagram",
+   "question": "Which of the following is not a project management software?",
+   "options": {
+    "A": "Wrike",
+    "B": "Asana",
+    "C": "Angino",
+    "D": "Trello"
+   },
+   "answer": "C",
+   "explanation": "Wrike, Asana and Trello are all well-known commercial project/task management platforms. Option (c) as printed, 'Angino', does not correspond to any known project-management software and is almost certainly an OCR-garbled name of an unrelated product or a non-existent tool inserted as the odd one out, making it the intended answer by elimination. The OCR corruption in this option could not be reliably reconstructed to its original word, so the answer rests on elimination rather than confirmed identification."
+  },
+  {
+   "id": "TECH3_2024-60",
+   "paper": "TECH3",
+   "unit": "6",
+   "sub": "Plan Schedule Management: Inputs, Tools and Techniques, Outputs",
+   "question": "Which one of the following may not be included in the project time management?",
+   "options": {
+    "A": "Activity definition",
+    "B": "Schedule development",
+    "C": "Scope requirement",
+    "D": "Resource estimation"
+   },
+   "answer": "C",
+   "explanation": "Project Time Management covers Define Activities (A), Sequence Activities, Estimate Activity Resources (D), Estimate Activity Durations, Develop Schedule (B) and Control Schedule. 'Scope requirement' belongs to Scope Management (Collect Requirements/Define Scope), a different knowledge area entirely, making it the correct odd-one-out."
+  },
+  {
+   "id": "TECH3_2024-64",
+   "paper": "TECH3",
+   "unit": "6",
+   "sub": "Develop Schedule: Inputs, Tools and Techniques, Outputs",
+   "question": "The process of plotting the start and end dates for each activity as well as the analysis of the order of activities, timelines, resources, and schedule barriers to having an accurate schedule is termed as —",
+   "options": {
+    "A": "Activity sequencing",
+    "B": "Schedule controlling and monitoring",
+    "C": "Schedule development",
+    "D": "Draft schedule for approval"
+   },
+   "answer": "C",
+   "explanation": "Develop Schedule is exactly the process that analyses activity sequences, durations, resource requirements and constraints to produce the project schedule model with start/finish dates for every activity. Activity sequencing (A) is only one input step (ordering activities via dependencies), not the full date-plotting analysis; 'Schedule controlling and monitoring' (B) happens later, after the schedule already exists; 'Draft schedule for approval' (D) is not a recognised PMBOK process name."
+  },
+  {
+   "id": "TECH3_2024-65",
+   "paper": "TECH3",
+   "unit": "6",
+   "sub": "Develop Schedule: Inputs, Tools and Techniques, Outputs",
+   "question": "Among the following, which one may be least affected by bad project time management?",
+   "options": {
+    "A": "Productivity",
+    "B": "Stakeholder satisfaction",
+    "C": "Resource optimization",
+    "D": "Team member satisfaction"
+   },
+   "answer": "D",
+   "explanation": "Poor scheduling directly reduces productivity (idle or rushed work), wrecks resource optimisation (resources are levelled/smoothed against the schedule), and disappoints stakeholders when milestones slip — these are the direct, textbook consequences of bad time management. Team member satisfaction is affected too (through overtime and rework) but more indirectly, through those other factors, rather than being a direct output of the time-management processes themselves, which is why it is the 'least' affected among the four. This question's intent is subjective and the printed key may differ."
+  },
+  {
+   "id": "TECH3_2024-66",
+   "paper": "TECH3",
+   "unit": "6",
+   "sub": "Define Activities: Inputs, Tools and Techniques, Outputs",
+   "question": "The project team should identify and schedule different activities and tasks to be done during the project life cycle in the project time management phase —",
+   "options": {
+    "A": "Activity definition",
+    "B": "Activity requirement",
+    "C": "Activity scheduling",
+    "D": "Activity duration estimation"
+   },
+   "answer": "A",
+   "explanation": "Define Activities is the PMBOK process that identifies and documents the specific actions to be performed to produce the project deliverables — the 'identify' half of the question's wording matches this process name precisely, and it is the first, foundational step of time management from which sequencing and scheduling later follow. 'Activity requirement' (B) and 'Activity scheduling' (C) are not standard PMBOK process names, and Activity duration estimation (D) happens after activities are already identified, not during identification."
+  },
+  {
+   "id": "TECH3_2024-67",
+   "paper": "TECH3",
+   "unit": "6",
+   "sub": "Precedence Diagramming Method and dependency types (FS, SS, FF, SF)",
+   "question": "Dependencies in project time management is not directly related to—",
+   "options": {
+    "A": "Resources required for activity to start",
+    "B": "Activities to be done before the activity under consideration",
+    "C": "Finding list of activities which are depending on the activity under consideration",
+    "D": "Activity that requires revision"
+   },
+   "answer": "D",
+   "explanation": "Dependencies in scheduling describe predecessor relationships (B), successor relationships (C), and resource dependencies that gate when an activity can start (A) — all are recognised dependency concepts (mandatory, discretionary, external, and resource dependencies). 'Activity that requires revision' describes rework/change management, not a sequencing or resource dependency relationship, so it does not belong with the other three."
+  },
+  {
+   "id": "TECH3_2024-69",
+   "paper": "TECH3",
+   "unit": "6",
+   "sub": "Estimate Activity Resources: Inputs, Tools and Techniques, Outputs",
+   "question": "Which process is closely coordinated with Estimate Activity Resources?",
+   "options": {
+    "A": "Develop Project Charter",
+    "B": "Define Resources",
+    "C": "Estimate Costs",
+    "D": "Plan Quality Management"
+   },
+   "answer": "C",
+   "explanation": "Estimate Activity Resources determines the types and quantities of resources needed, and this output feeds directly into Estimate Costs, since cost estimates are built by pricing out the resources required for each activity — PMBOK explicitly notes the close coordination between these two processes. 'Develop Project Charter' (A) happens much earlier at project authorisation, 'Define Resources' (B) is not a standard PMBOK process name, and Plan Quality Management (D) is a parallel planning process not specifically tied to resource quantities. (PMBOK also closely links Estimate Activity Resources with Estimate Activity Durations, which is not offered as an option here.)"
+  },
+  {
+   "id": "TECH3_2024-71",
+   "paper": "TECH3",
+   "unit": "6",
+   "sub": "Three-point estimating, PERT and beta distribution",
+   "question": "A three-point estimate method of a project budget includes —",
+   "options": {
+    "A": "Best-case, worst-case and most likely",
+    "B": "Manpower cost, material cost and running cost",
+    "C": "Revenue expenditure, capital expenditure and unforeseen expenditure",
+    "D": "Estimate, adapt and re-estimate"
+   },
+   "answer": "A",
+   "explanation": "Three-point estimating (used in PERT/beta-distribution calculations) combines an Optimistic (best-case), Pessimistic (worst-case) and Most Likely estimate into a weighted or simple average to produce a more realistic cost or duration figure. The other options list types of cost categories (B, C) or a generic iterative process (D), none of which describe the specific three-value estimating technique the question names."
+  },
+  {
+   "id": "TECH3_2021-32",
+   "paper": "TECH3",
+   "unit": "6",
+   "sub": "Define Activities: Inputs, Tools and Techniques, Outputs",
+   "question": "As you create the Activity List, which technique is recommended for subdividing the project into smaller components called activities?",
+   "options": {
+    "A": "Deconstruction",
+    "B": "Rolling Wave Planning",
+    "C": "Expert Judgment",
+    "D": "Decomposition"
+   },
+   "answer": "D",
+   "explanation": "Decomposition is the PMBOK technique for subdividing project scope/work into smaller, more manageable components such as activities; 'deconstruction' is not a PMBOK term."
+  },
+  {
+   "id": "TECH3_2021-33",
+   "paper": "TECH3",
+   "unit": "6",
+   "sub": "Estimate Activity Resources: Inputs, Tools and Techniques, Outputs",
+   "question": "Which of the following statement is false for resource calendar?",
+   "options": {
+    "A": "It identifies the working days and shifts on which each specific resource is available",
+    "B": "It is used for estimating resource utilization",
+    "C": "It specify potentially unidentified project resources needed for the project",
+    "D": "It specify when and how long identified projects resources will be available"
+   },
+   "answer": "C",
+   "explanation": "A resource calendar documents availability (working days/shifts, duration of availability) of already-identified resources; it cannot specify resources that are 'potentially unidentified', which is the false statement here."
+  },
+  {
+   "id": "TECH3_2021-34",
+   "paper": "TECH3",
+   "unit": "6",
+   "sub": "Schedule compression: crashing and fast tracking",
+   "question": "If you want to compress a project schedule, what are the two recommended alternatives to consider?",
+   "options": {
+    "A": "Fast Tracking and Schedule Network Analysis",
+    "B": "Crashing and Fast Tracking",
+    "C": "Resource Levelling and What-If Scenario Analysis",
+    "D": "Crashing and Schedule Network Analysis"
+   },
+   "answer": "B",
+   "explanation": "PMBOK names Crashing (adding resources to shorten duration) and Fast Tracking (doing activities in parallel) as the two schedule-compression techniques."
+  },
+  {
+   "id": "TECH3_2021-35",
+   "paper": "TECH3",
+   "unit": "6",
+   "sub": "Sequence Activities: Inputs, Tools and Techniques, Outputs",
+   "question": "A Project Manager is preparing a Project Schedule network diagram. During the diagram development, she removes a dependency between two tasks that was defined in an earlier stage. After the network diagram is completed, she updates activity attributes for the two tasks. This is an example of:",
+   "options": {
+    "A": "Define Activities",
+    "B": "Sequence Activities",
+    "C": "Develop Schedule",
+    "D": "Lack of change control"
+   },
+   "answer": "B",
+   "explanation": "Establishing/removing logical dependencies between activities and then updating activity attributes to reflect the change are outputs of the Sequence Activities process."
+  },
+  {
+   "id": "TECH3_2021-36",
+   "paper": "TECH3",
+   "unit": "6",
+   "sub": "Leads and lags",
+   "question": "A schedule activity may begin 10 days before the predecessor activity finishes. This is an example of:",
+   "options": {
+    "A": "Finish-to-Start",
+    "B": "Start-to-Finish",
+    "C": "Start-to-Start",
+    "D": "Finish-to-Finish"
+   },
+   "answer": "A",
+   "explanation": "Starting 10 days before the predecessor finishes is a Finish-to-Start relationship with a 10-day lead (a negative lag applied to an FS dependency), not a different relationship type like Start-to-Start."
+  },
+  {
+   "id": "TECH3_2021-37",
+   "paper": "TECH3",
+   "unit": "6",
+   "sub": "Define Activities: Inputs, Tools and Techniques, Outputs",
+   "question": "Which of the following is not an activity attribute?",
+   "options": {
+    "A": "Person responsible for the activity",
+    "B": "Location where to perform the activity",
+    "C": "Time when to perform the activity",
+    "D": "Leads and Lags"
+   },
+   "answer": "C",
+   "explanation": "PMBOK's activity-attributes list explicitly names person responsible, geographic area/location, and leads and lags as attributes; a specific 'time when to perform' is not on that list since actual dates only get fixed later as an output of Develop Schedule."
+  },
+  {
+   "id": "TECH3_2021-38",
+   "paper": "TECH3",
+   "unit": "6",
+   "sub": "Gantt chart, milestone chart, network diagram",
+   "question": "Milestones established by the customer must be adhered to by:",
+   "options": {
+    "A": "Project manager",
+    "B": "Functional managers",
+    "C": "The customer",
+    "D": "Both (a) & (b)"
+   },
+   "answer": "D",
+   "explanation": "Customer-imposed milestones bind everyone delivering the work -- both the project manager accountable for the schedule and the functional managers supplying resources against it -- so both must adhere to them, unlike internally set milestones which can be more flexible."
+  },
+  {
+   "id": "TECH3_2021-4",
+   "paper": "TECH3",
+   "unit": "6",
+   "sub": "Estimate Activity Resources: Inputs, Tools and Techniques, Outputs",
+   "question": "Resources in project management refers to –",
+   "options": {
+    "A": "Manpower",
+    "B": "Machinery",
+    "C": "Materials",
+    "D": "All of the above"
+   },
+   "answer": "D",
+   "explanation": "Project resources broadly cover manpower, machinery, and materials together, so 'all of the above' is correct."
+  }
+ ]
+}

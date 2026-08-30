@@ -1,0 +1,116 @@
+[
+ {
+  "id": "TECH2_2024-19",
+  "mode": "memorise",
+  "confidence": "low",
+  "why": "Turns on the textbook's exact statement of GPR purposes; the record is defective, since the key excludes documentation while the explanation endorses it."
+ },
+ {
+  "id": "TECH2_2024-20",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Follows from what redesign means as against mere restatement."
+ },
+ {
+  "id": "TECH2_2024-21",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "Ranking by immediacy is reasoning, but the judgement is genuinely fuzzy."
+ },
+ {
+  "id": "TECH2_2024-22",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The benefit follows from what risk-based prioritisation does."
+ },
+ {
+  "id": "TECH2_2024-23",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The three wrong options are good-governance outcomes, so reasoning eliminates them."
+ },
+ {
+  "id": "TECH2_2024-24",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Follows from what preceded digitisation."
+ },
+ {
+  "id": "TECH2_2024-25",
+  "mode": "memorise",
+  "confidence": "low",
+  "why": "One arbitrary word from a framework's principle list with no derivation path; the record is broken, the key saying D while the explanation argues C."
+ },
+ {
+  "id": "TECH2_2021-19",
+  "mode": "understand",
+  "confidence": "low",
+  "why": "Symptom reasoning, but the question is defective: 'corrupt officers' is an equally valid sign of poor governance."
+ },
+ {
+  "id": "TECH2_2021-20",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "Asks the ordinal position within an enumerated step list; the logical sequence only partly rescues it."
+ },
+ {
+  "id": "TECH2_2021-21",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The false statement inverts the service-process relation, which reasoning catches."
+ },
+ {
+  "id": "TECH2_2021-22",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Internal, citizen-invisible workflow is by definition the back office."
+ },
+ {
+  "id": "TECH2_2021-23",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Automating the as-is is recognisably the anti-pattern GPR exists to prevent."
+ },
+ {
+  "id": "TECH2_2021-24",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Follows from why legacy manual steps cannot simply be lifted into software."
+ },
+ {
+  "id": "TECH2_2021-25",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Each listed trigger is recognisable as a process failure on reasoning."
+ },
+ {
+  "id": "TECH2_2021-26",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "Turns on the settled improvement-versus-reengineering naming convention."
+ },
+ {
+  "id": "TECH2_2021-71",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "Depends on the textbook e-Administration / e-Citizens / e-Society allocation, which is what excludes the citizen-interaction trap."
+ },
+ {
+  "id": "GEN-TECH2-U4-152",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Prioritisation criteria follow from where re-engineering effort yields the most relief."
+ },
+ {
+  "id": "GEN-TECH2-U4-153",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Follows from the fact that automation reproduces whatever process it is given."
+ },
+ {
+  "id": "GEN-TECH2-U4-154",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Purpose of an as-is map follows from needing a baseline for the to-be."
+ }
+]

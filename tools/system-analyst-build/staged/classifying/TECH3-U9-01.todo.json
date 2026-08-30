@@ -1,0 +1,156 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 10,
+ "questions": [
+  {
+   "id": "TECH3_2024-24",
+   "paper": "TECH3",
+   "unit": "9",
+   "sub": "Resource histogram and staffing management plan",
+   "question": "Improper management of human resource negatively results to —\nI. Some worked overload while others relax\nII. Low productivity and dissatisfaction among employees\nIII. High salary of CEOs\n\nWhich of the following are correct?",
+   "options": {
+    "A": "I only",
+    "B": "I and II only",
+    "C": "II and III only",
+    "D": "All of them"
+   },
+   "answer": "B",
+   "explanation": "Poor HR/resource allocation directly causes uneven workload distribution - some team members overloaded while others are underutilized (I) - and this imbalance in turn drives low productivity and employee dissatisfaction (II), both textbook consequences of weak resource/staffing management. CEO salary levels (III) are a separate compensation-governance matter unrelated to day-to-day team resource allocation, so it does not belong in the set of consequences, ruling out options C and D and leaving B as correct."
+  },
+  {
+   "id": "TECH3_2024-25",
+   "paper": "TECH3",
+   "unit": "9",
+   "sub": "Resource histogram and staffing management plan",
+   "question": "Optimal human resource allocation means —",
+   "options": {
+    "A": "High efficiency and workability of employees alone",
+    "B": "Balance of work efficiency, satisfaction and pay",
+    "C": "Felicitation of good performing employees",
+    "D": "Withholding salary of bad performing employees"
+   },
+   "answer": "B",
+   "explanation": "Optimal human resource allocation in project management means balancing multiple factors together - work efficiency, employee satisfaction, and fair compensation - rather than optimizing for output alone. Option A isolates only efficiency and ignores people's wellbeing/motivation, which undermines sustainable performance. Options C and D describe narrow reward/punishment tactics for individual performers, not a holistic allocation strategy, so neither captures the balanced, systemic meaning of 'optimal' resource allocation."
+  },
+  {
+   "id": "TECH3_2024-26",
+   "paper": "TECH3",
+   "unit": "9",
+   "sub": "Manage Project Team: Inputs, Tools and Techniques, Outputs",
+   "question": "Which level of hierarchy is tasked with detailed-level human resource management such as efficiency, team work, motivation etc?",
+   "options": {
+    "A": "Project Manager",
+    "B": "Team Manager",
+    "C": "CEO",
+    "D": "Vice Chairman"
+   },
+   "answer": "B",
+   "explanation": "In project hierarchies, the Project Manager owns overall HR planning and the broader 'Manage Project Team' process, while a Team Manager/team lead sits closest to daily operations, tracking individual efficiency, resolving friction, and keeping morale up. The CEO and Vice Chairman sit at a strategic, organization-wide level and are not involved in operational team dynamics. The 'detailed, day-to-day' HR tasks named in the question (efficiency, teamwork, motivation) point to the hands-on Team Manager rather than the broader PM or top executives, though PMBOK itself formally assigns Manage Project Team to the PM, so the intended distinction here is debatable."
+  },
+  {
+   "id": "TECH3_2024-27",
+   "paper": "TECH3",
+   "unit": "9",
+   "sub": "Resource histogram and staffing management plan",
+   "question": "Followings are the resource management tools, except —",
+   "options": {
+    "A": "Ganttic",
+    "B": "Teamdeck",
+    "C": "Toggl Plan",
+    "D": "resMange"
+   },
+   "answer": "D",
+   "explanation": "Ganttic, Teamdeck and Toggl Plan are established resource-scheduling/capacity-planning SaaS tools used to visualize team allocation and workload in real project management practice. The fourth option is badly OCR-damaged ('resMange') and does not correspond to any known resource-management product, consistent with it being the 'except' answer the paper intends. Because OCR damage prevents certain identification of what the original word was, this answer must be treated as tentative rather than a confirmed exclusion."
+  },
+  {
+   "id": "TECH3_2024-28",
+   "paper": "TECH3",
+   "unit": "9",
+   "sub": "Virtual teams and colocation, tight matrix, war room",
+   "question": "What is a disadvantage of working with virtual teams?",
+   "options": {
+    "A": "Improved collaboration",
+    "B": "Enhanced team cohesion",
+    "C": "Reduced communication needs",
+    "D": "Increased possibility of misunderstandings"
+   },
+   "answer": "D",
+   "explanation": "Virtual teams work across distance, time zones, and often different cultures, relying heavily on written/digital channels that strip out tone and body language, making miscommunication and misunderstandings genuinely more likely - the one true drawback listed. The other three options describe positive outcomes phrased as if they were negatives: collaboration and cohesion are usually harder, not improved, in virtual settings, and communication needs actually increase (more deliberate check-ins are required), they do not reduce. The question tests whether a candidate can spot the single option that is a real drawback among reworded advantages."
+  },
+  {
+   "id": "TECH3_2021-51",
+   "paper": "TECH3",
+   "unit": "9",
+   "sub": "Acquire Project Team: Inputs, Tools and Techniques, Outputs",
+   "question": "Which of the following is not an example of human resource networking activities?",
+   "options": {
+    "A": "Proactive correspondence",
+    "B": "Organization management",
+    "C": "Luncheon meetings",
+    "D": "Symposia"
+   },
+   "answer": "B",
+   "explanation": "Proactive correspondence, luncheon meetings, and symposia are all named PMBOK examples of networking activities used to build professional relationships; 'organization management' is a broad management function, not a specific networking activity."
+  },
+  {
+   "id": "TECH3_2021-52",
+   "paper": "TECH3",
+   "unit": "9",
+   "sub": "Virtual teams and colocation, tight matrix, war room",
+   "question": "A project involved team members situated in Kolkata, Guwahati, Bangalore, and Aizawl. Which of the following activities becomes crucial in such a team environment?",
+   "options": {
+    "A": "Team-building",
+    "B": "Status reporting",
+    "C": "Conflict resolution",
+    "D": "Communication planning"
+   },
+   "answer": "D",
+   "explanation": "With team members spread across Kolkata, Guwahati, Bangalore, and Aizawl, a deliberate communication plan (methods, frequency, channels for a geographically dispersed team) becomes essential to keep everyone aligned, more so than team-building or status reporting alone."
+  },
+  {
+   "id": "TECH3_2021-53",
+   "paper": "TECH3",
+   "unit": "9",
+   "sub": "Develop Project Team: Inputs, Tools and Techniques, Outputs",
+   "question": "Ground rules are established to set clear expectations regarding acceptable behavior by the project team members. Whose responsibility is it to enforce ground rules?",
+   "options": {
+    "A": "The project manager",
+    "B": "All project team members",
+    "C": "The HR team",
+    "D": "The project manager and senior team members"
+   },
+   "answer": "B",
+   "explanation": "PMBOK states that once ground rules are established, all project team members share responsibility for enforcing them, not just the project manager."
+  },
+  {
+   "id": "TECH3_2021-54",
+   "paper": "TECH3",
+   "unit": "9",
+   "sub": "Acquire Project Team: Inputs, Tools and Techniques, Outputs",
+   "question": "__________ and retention of qualified employees is a common goal shared by many employers.",
+   "options": {
+    "A": "Training",
+    "B": "Development",
+    "C": "Recruitment",
+    "D": "All of the above"
+   },
+   "answer": "C",
+   "explanation": "'Recruitment and retention of qualified employees' is a fixed, widely used HR collocation describing a core employer goal; the blank needs a single word pairing naturally with 'retention', which fits recruitment far better than training or development."
+  },
+  {
+   "id": "TECH3_2021-55",
+   "paper": "TECH3",
+   "unit": "9",
+   "sub": "Manage Project Team: Inputs, Tools and Techniques, Outputs",
+   "question": "What is regarded as the preventive tool in case of any differences of opinions among the members of rating committee?",
+   "options": {
+    "A": "Job rotation",
+    "B": "Job specification",
+    "C": "Job evaluation",
+    "D": "All of the above"
+   },
+   "answer": "C",
+   "explanation": "Job evaluation establishes a systematic, objective basis for comparing job worth, which is the standard preventive tool used to reduce subjective disagreements among rating-committee members; this draws on general HR management terminology rather than PMBOK, so confidence is limited."
+  }
+ ]
+}

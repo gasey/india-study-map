@@ -158,6 +158,37 @@ function provLine(q) {
 
 const ANSWERABLE = QS.filter(q => q.ans && q.ans.length === 1);
 
+/* ------------------------------------------------------------ study modes */
+/* How each question should be STUDIED, not what its answer is. Three modes,
+   each routing to a tool this app already has: `calculate` to the Calc Lab,
+   `understand` to the concept guide, `memorise` to the review boxes.
+
+   Lives in its own file keyed on question id rather than as a field on the
+   question, because generate.py --merge rebuilds every GEN- question from its
+   staged batch files and would silently erase a field added here — a partial,
+   invisible loss across ~425 of the 1,082. See classify.py's header. */
+const MODES = window.QUESTION_MODES || {};
+const modeOf = id => (MODES[id] || {}).mode || null;
+
+const MODE_META = {
+  calculate:  { pill: 'acc', short: 'calculate',  hint: 'a method gets you there — drill it' },
+  understand: { pill: 'ok',  short: 'understand', hint: 'reason it from the concept' },
+  memorise:   { pill: 'wn',  short: 'memorise',   hint: 'no derivation — this one has to be committed' },
+};
+
+/* Spaced-repetition multiplier per mode. An arbitrary section number decays far
+   faster than a principle you actually understand, so the same Leitner box
+   should not buy them the same interval. Applied to BOX_DAYS, so the box
+   sequence stays recognisable and only its pace changes. */
+const MODE_PACE = { calculate: 1, understand: 1.4, memorise: 0.6 };
+
+const modeBadge = id => {
+  const m = modeOf(id);
+  if (!m) return '';
+  const meta = MODE_META[m];
+  return `<span class="pill ${meta.pill}" title="${esc(meta.hint)}">${esc(meta.short)}</span>`;
+};
+
 const conceptKey = c => `${c.paper}|${c.unit}|${c.sub}`;
 const cState = c => S.concepts[conceptKey(c)] || { status: 'new', views: 0 };
 const qState = id => S.questions[id] || { att: 0, ok: 0, box: 1, due: 0, star: false };
@@ -178,7 +209,10 @@ function recordAnswer(q, picked) {
   st.last = Date.now();
   st.lastPick = picked;
   st.lastOk = correct;
-  st.due = Date.now() + BOX_DAYS[st.box - 1] * DAY;
+  // Paced by study mode: a remembered section number comes back sooner than a
+  // principle at the same box level. Box 1 is 0 days either way, so a question
+  // you just got wrong still returns immediately whatever its mode.
+  st.due = Date.now() + BOX_DAYS[st.box - 1] * DAY * (MODE_PACE[modeOf(q.id)] || 1);
   S.questions[q.id] = st;
   save();
   return correct;
@@ -415,6 +449,7 @@ VIEWS.dash = (el) => {
     <div class="grid g2">${SYL.papers.map(paperCard).join('')}</div>
 
     ${weakestBlock()}
+    ${modeMixBlock()}
   `;
   el.addEventListener('click', e => {
     const g = e.target.closest('[data-go]');
@@ -478,6 +513,48 @@ function weakestBlock() {
           <td class="num"><span class="pill ${r.acc >= 70 ? 'ok' : r.acc >= 45 ? 'wn' : 'no'}">${r.acc}%</span></td>
           <td><button class="btn sm" data-go="practice" data-opts='${JSON.stringify({ paper: r.paper, unit: r.no })}'>Drill</button></td>
         </tr>`).join('')}</tbody>
+    </table></div></div>`;
+}
+
+/* What KIND of work each unit is, before you start it. A unit that is 80%
+   memorise wants flashcard time and a unit that is mostly understand wants the
+   concept guide — knowing which is which is the point of the whole labelling
+   pass, and it is invisible from a question count alone. */
+function modeMixBlock() {
+  const rows = [];
+  SYL.papers.forEach(p => p.units.forEach(u => {
+    const pool = ANSWERABLE.filter(q => q.paper === p.id && q.unit === String(u.no));
+    const mix = pool.reduce((a, q) => { const m = modeOf(q.id); if (m) a[m] = (a[m] || 0) + 1; return a; }, {});
+    const labelled = Object.values(mix).reduce((a, b) => a + b, 0);
+    if (labelled < 5) return;   // too few to say anything honest about the mix
+    rows.push({ paper: p.id, no: u.no, title: u.title, marks: u.marks, n: labelled, mix });
+  }));
+  if (!rows.length) return '';
+  // Grind first — the units where there is most to commit to memory are the
+  // ones worth knowing about early, because they need calendar time, not insight.
+  rows.sort((a, b) => (b.mix.memorise || 0) / b.n - (a.mix.memorise || 0) / a.n);
+  const bar = r => Object.keys(MODE_META).filter(m => r.mix[m]).map(m =>
+    `<i class="seg ${m}" style="width:${100 * r.mix[m] / r.n}%" title="${r.mix[m]} ${MODE_META[m].short}"></i>`).join('');
+  return `
+    <h2 class="mt">What kind of work each unit is</h2>
+    <p class="muted" style="margin-top:-.4rem">Sorted by how much of it has to be committed to
+    memory. ${Object.keys(MODE_META).map(m =>
+      `<span class="pill ${MODE_META[m].pill}">${esc(MODE_META[m].short)}</span>`).join(' ')}</p>
+    <div class="card"><div class="scroll-x"><table>
+      <thead><tr><th>Paper</th><th>Unit</th><th class="num">Marks</th><th class="num">Qs</th>
+        <th style="min-width:160px">Mix</th><th class="num">By heart</th><th></th></tr></thead>
+      <tbody>${rows.map(r => {
+        const memPct = pct(r.mix.memorise || 0, r.n);
+        return `<tr>
+          <td class="dim">${esc(r.paper)}</td>
+          <td>${esc(r.no)}. ${esc(r.title)}</td>
+          <td class="num">${r.marks}</td>
+          <td class="num">${r.n}</td>
+          <td><div class="mixbar">${bar(r)}</div></td>
+          <td class="num"><span class="pill ${memPct >= 60 ? 'no' : memPct >= 30 ? 'wn' : 'ok'}">${memPct}%</span></td>
+          <td><button class="btn sm" data-go="practice" data-opts='${JSON.stringify({ paper: r.paper, unit: r.no })}'>Drill</button></td>
+        </tr>`;
+      }).join('')}</tbody>
     </table></div></div>`;
 }
 
@@ -714,6 +791,12 @@ VIEWS.practice = (el, opts) => {
           <option value="wrong">Previously wrong</option>
           <option value="star">Starred</option>
         </select></label>
+        <label class="fld">Study mode<select id="fMode">
+          <option value="">Any</option>
+          <option value="calculate">Calculate — a method gets you there</option>
+          <option value="understand">Understand — reason from the concept</option>
+          <option value="memorise">Memorise — no derivation available</option>
+        </select></label>
         <label class="fld">Count<input type="number" id="fN" value="20" min="1" max="200" style="width:80px"></label>
       </div>
       <hr class="sep">
@@ -721,9 +804,19 @@ VIEWS.practice = (el, opts) => {
         <div id="poolInfo" class="dim"></div>
         <button class="btn pri" id="startP">Start practice</button>
       </div>
+      <hr class="sep">
+      <div class="row">
+        <span class="dim">Straight to a mode:</span>
+        <button class="btn sm" data-mode-drill="memorise">Drill the by-heart ones</button>
+        <button class="btn sm" data-mode-drill="calculate">Drill the calculations</button>
+        <button class="btn sm" data-mode-drill="understand">Drill the concepts</button>
+      </div>
+      <p class="dim" style="margin:.5rem 0 0">These respect the paper and unit above, ignore the other
+      filters, and pull the whole matching pool in review order.</p>
     </div>`;
 
-  const sel = { paper: $('#fPaper'), unit: $('#fUnit'), src: $('#fSrc'), only: $('#fOnly'), n: $('#fN') };
+  const sel = { paper: $('#fPaper'), unit: $('#fUnit'), src: $('#fSrc'), only: $('#fOnly'),
+    mode: $('#fMode'), n: $('#fN') };
   sel.paper.value = f.paper;
 
   function fillUnits() {
@@ -739,6 +832,7 @@ VIEWS.practice = (el, opts) => {
       if (sel.paper.value && q.paper !== sel.paper.value) return false;
       if (sel.unit.value && q.unit !== sel.unit.value) return false;
       if (sel.src.value && q.src !== sel.src.value) return false;
+      if (sel.mode.value && modeOf(q.id) !== sel.mode.value) return false;
       const st = S.questions[q.id];
       switch (sel.only.value) {
         case 'due': return isDue(q.id);
@@ -751,12 +845,31 @@ VIEWS.practice = (el, opts) => {
   }
   function refresh() {
     const p = pool();
-    $('#poolInfo').textContent = `${p.length} question${p.length === 1 ? '' : 's'} match`;
+    // Show the mode mix of whatever is currently selected, so the split is
+    // visible before you commit to a session rather than only afterwards.
+    const mix = p.reduce((a, q) => { const m = modeOf(q.id); if (m) a[m] = (a[m] || 0) + 1; return a; }, {});
+    const parts = Object.keys(MODE_META).filter(m => mix[m])
+      .map(m => `${mix[m]} ${MODE_META[m].short}`);
+    $('#poolInfo').innerHTML = `${p.length} question${p.length === 1 ? '' : 's'} match`
+      + (parts.length > 1 ? ` <span class="dim">— ${esc(parts.join(' · '))}</span>` : '');
     $('#startP').disabled = !p.length;
   }
   fillUnits(); refresh();
   sel.paper.onchange = () => { fillUnits(); refresh(); };
-  [sel.unit, sel.src, sel.only].forEach(s => { s.onchange = refresh; });
+  [sel.unit, sel.src, sel.only, sel.mode].forEach(s => { s.onchange = refresh; });
+  el.addEventListener('click', e => {
+    const b = e.target.closest('[data-mode-drill]');
+    if (!b) return;
+    const m = b.dataset.modeDrill;
+    const qs = ANSWERABLE.filter(q => modeOf(q.id) === m
+      && (!sel.paper.value || q.paper === sel.paper.value)
+      && (!sel.unit.value || q.unit === sel.unit.value));
+    if (!qs.length) { toast(`No ${m} questions in that selection`); return; }
+    startQuiz({
+      title: `${MODE_META[m].short} — ${qs.length} question${qs.length === 1 ? '' : 's'}`,
+      questions: studyOrder(qs), mode: 'practice', back: () => go('practice'),
+    });
+  });
   $('#startP').onclick = () => {
     const n = Math.max(1, Math.min(200, parseInt(sel.n.value, 10) || 20));
     const qs = studyOrder(pool()).slice(0, n);
@@ -825,6 +938,7 @@ function browsePaper(qs) {
           <strong style="color:var(--ink)">Q${q.no}</strong>
           ${q.unit ? `<span class="pill">Unit ${esc(q.unit)}</span>` : ''}
           ${q.sub ? `<span class="pill">${esc(q.sub)}</span>` : ''}
+          ${modeBadge(q.id)}
           ${q.ans === 'COMPENSATED' ? `<span class="pill wn">voided by MPSC</span>` : ''}
         </div>
         <div class="qtext">${esc(q.q)}</div>
@@ -923,11 +1037,18 @@ VIEWS.review = (el) => {
   const wrong = ANSWERABLE.filter(q => { const s = S.questions[q.id]; return s && s.att && s.ok < s.att; });
   const starred = ANSWERABLE.filter(q => S.questions[q.id]?.star);
   const never = ANSWERABLE.filter(q => !S.questions[q.id]?.att);
+  const dueByMode = due.reduce((a, q) => {
+    const m = modeOf(q.id); if (m) a[m] = (a[m] || 0) + 1; return a;
+  }, {});
 
   el.innerHTML = `
     <h1>Review</h1>
     <p class="muted">Spaced repetition: a question you get right moves to a longer interval
-    (${BOX_DAYS.slice(1).map(d => d + 'd').join(' → ')}); a question you get wrong drops back to daily.</p>
+    (${BOX_DAYS.slice(1).map(d => d + 'd').join(' → ')}); a question you get wrong drops back to daily.
+    Those intervals are now <strong>paced by study mode</strong> — a <em>memorise</em> question comes
+    back at ${Math.round(MODE_PACE.memorise * 100)}% of the interval and an <em>understand</em> one at
+    ${Math.round(MODE_PACE.understand * 100)}%, because an arbitrary section number decays a great deal
+    faster than a principle you actually follow.</p>
     <div class="grid g4 mt mb">
       ${stat('Due now', String(due.length), 'scheduled revision')}
       ${stat('Ever wrong', String(wrong.length), 'your mistake log')}
@@ -940,6 +1061,12 @@ VIEWS.review = (el) => {
       ${starred.length ? `<button class="btn" data-set="star">Starred (${starred.length})</button>` : ''}
       ${never.length ? `<button class="btn" data-set="never">New questions (${never.length})</button>` : ''}
     </div>
+    ${Object.keys(MODE_META).some(m => dueByMode[m]) ? `
+      <div class="row mt">
+        <span class="dim">Due, by study mode:</span>
+        ${Object.keys(MODE_META).filter(m => dueByMode[m]).map(m =>
+          `<button class="btn sm" data-set="mode:${m}">${esc(MODE_META[m].short)} (${dueByMode[m]})</button>`).join('')}
+      </div>` : ''}
     ${wrong.length ? `
       <h2 class="mt">Mistake log</h2>
       <div class="card"><div class="scroll-x"><table>
@@ -959,9 +1086,15 @@ VIEWS.review = (el) => {
   el.onclick = e => {
     const b = e.target.closest('[data-set]');
     if (!b) return;
+    const key = b.dataset.set;
+    const m = key.startsWith('mode:') ? key.slice(5) : null;
     const map = { due, wrong, star: starred, never };
-    const qs = studyOrder(map[b.dataset.set]).slice(0, 40);
-    startQuiz({ title: 'Review — ' + b.dataset.set, questions: qs, mode: 'practice', back: () => go('review') });
+    const src = m ? due.filter(q => modeOf(q.id) === m) : map[key];
+    const qs = studyOrder(src).slice(0, 40);
+    startQuiz({
+      title: 'Review — ' + (m ? `due · ${MODE_META[m].short}` : key),
+      questions: qs, mode: 'practice', back: () => go('review'),
+    });
   };
 };
 
@@ -1343,6 +1476,7 @@ function startQuiz({ title, questions, mode, seconds, onFinish, back }) {
             <span class="pill">${esc(shortPaper(q.paper))}</span>
             ${q.unit ? `<span class="pill">Unit ${esc(q.unit)}</span>` : ''}
             ${q.src === 'past' ? `<span class="pill acc">${esc(q.sitting)} Q${q.no}</span>` : `<span class="pill">practice</span>`}
+            ${modeBadge(q.id)}
             ${stq.att ? `<span class="dim">seen ${stq.att}× · ${stq.ok}/${stq.att} right · box ${stq.box}</span>` : ''}
           </div>
           <div class="qtext">${esc(q.q)}</div>
@@ -1485,6 +1619,7 @@ function startQuiz({ title, questions, mode, seconds, onFinish, back }) {
           <div class="qmeta mb"><strong style="color:var(--ink)">${k + 1}.</strong>
             ${picks[k] === q.ans ? '<span class="pill ok">correct</span>' : picks[k] ? '<span class="pill no">wrong</span>' : '<span class="pill wn">skipped</span>'}
             ${q.src === 'past' ? `<span class="pill acc">${esc(q.sitting)} Q${q.no}</span>` : ''}
+            ${modeBadge(q.id)}
           </div>
           <div class="qtext">${esc(q.q)}</div>
           <div class="opts">${['A', 'B', 'C', 'D'].filter(x => q.opts[x] != null).map(x => `

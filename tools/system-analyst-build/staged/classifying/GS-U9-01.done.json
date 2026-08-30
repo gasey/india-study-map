@@ -1,0 +1,22 @@
+[
+ { "id": "GEN-220", "mode": "understand", "confidence": "high",
+   "why": "Follows from what the forum is; every distractor is a different kind of body altogether." },
+ { "id": "GEN-221", "mode": "memorise", "confidence": "high",
+   "why": "An acronym expansion — the canonical memorise case." },
+ { "id": "GEN-222", "mode": "memorise", "confidence": "medium",
+   "why": "Scheme-to-objective mapping; the pairing is a convention even though the name hints at housing." },
+ { "id": "GEN-223", "mode": "memorise", "confidence": "medium",
+   "why": "Scheme-to-objective mapping; the stated components are drawn from the mission document." },
+ { "id": "GEN-224", "mode": "memorise", "confidence": "medium",
+   "why": "The mission's stated scope is a policy definition to be recalled, though the distractors are weak enough to eliminate." },
+ { "id": "GEN-225", "mode": "memorise", "confidence": "medium",
+   "why": "The award's eligibility rule is a stipulation in its statutes rather than an inference." },
+ { "id": "GEN-226", "mode": "memorise", "confidence": "high",
+   "why": "Number of classes and their order of precedence; an arbitrary enumeration." },
+ { "id": "GEN-227", "mode": "memorise", "confidence": "high",
+   "why": "A count of categories fixed by a will; recall-only." },
+ { "id": "GEN-228", "mode": "memorise", "confidence": "high",
+   "why": "An acronym expansion into member countries." },
+ { "id": "GEN-229", "mode": "memorise", "confidence": "high",
+   "why": "An observance date, with three other real observance dates as distractors." }
+]

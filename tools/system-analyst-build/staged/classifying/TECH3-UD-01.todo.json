@@ -1,0 +1,261 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 17,
+ "questions": [
+  {
+   "id": "GEN-276",
+   "paper": "TECH3",
+   "unit": "D",
+   "sub": "Identifying logical rules in abstract figure sets",
+   "question": "In a sequence of figures, figure 1 is a triangle (3 sides) containing 1 dot, figure 2 is a square (4 sides) containing 2 dots, figure 3 is a pentagon (5 sides) containing 3 dots, and figure 4 is a hexagon (6 sides) containing 4 dots. Following the same two rules (sides increase by 1 each time; dots equal the figure's position number), how many sides and how many dots will figure 6 have?",
+   "options": {
+    "A": "7 sides and 6 dots",
+    "B": "8 sides and 6 dots",
+    "C": "8 sides and 7 dots",
+    "D": "9 sides and 6 dots"
+   },
+   "answer": "B",
+   "explanation": "The number of sides in figure n is n + 2 (figure 1 has 3, figure 2 has 4, and so on), so figure 6 has 6 + 2 = 8 sides (an octagon). The number of dots in figure n equals n, so figure 6 has 6 dots."
+  },
+  {
+   "id": "GEN-277",
+   "paper": "TECH3",
+   "unit": "D",
+   "sub": "Matrix reasoning",
+   "question": "A 3x3 matrix of cells is described, where each cell contains a certain number of dots. Row 1: 1, 2, 3. Row 2: 2, 4, 6. Row 3: 3, 6, ?. The number of dots in each cell equals (its row number) multiplied by (its column number). How many dots are in the missing cell (row 3, column 3)?",
+   "options": {
+    "A": "6",
+    "B": "8",
+    "C": "9",
+    "D": "12"
+   },
+   "answer": "C",
+   "explanation": "Each cell value = row number x column number. For row 3, column 3: 3 x 3 = 9. (Check: row 3, column 1 = 3 x 1 = 3 -- matches; row 3, column 2 = 3 x 2 = 6 -- matches.)"
+  },
+  {
+   "id": "GEN-278",
+   "paper": "TECH3",
+   "unit": "D",
+   "sub": "Series with multiple simultaneous transformations",
+   "question": "A sequence of shapes undergoes two simultaneous transformations at every step: the shape rotates 90 degrees clockwise, AND its shading alternates between fully black and fully white. Shape 1 is a black triangle pointing up. What will shape 4 in the sequence look like (direction it points, and its shading)?",
+   "options": {
+    "A": "A black triangle pointing down",
+    "B": "A white triangle pointing right",
+    "C": "A white triangle pointing left",
+    "D": "A black triangle pointing left"
+   },
+   "answer": "C",
+   "explanation": "Rotating a shape 90 degrees clockwise moves its pointing direction: up -> right -> down -> left, one step at a time. So shape 1 points up, shape 2 points right, shape 3 points down, and shape 4 points left. Shading alternates starting from black: shape 1 black, shape 2 white, shape 3 black, shape 4 white. So shape 4 is a white triangle pointing left."
+  },
+  {
+   "id": "GEN-279",
+   "paper": "TECH3",
+   "unit": "D",
+   "sub": "Coding-decoding",
+   "question": "In a certain code, 'COMPUTER' is written as 'DPNQVUFS'. Using the same coding rule, how would 'SYSTEM' be written?",
+   "options": {
+    "A": "TZTUFN",
+    "B": "RXRSDL",
+    "C": "TZTUFM",
+    "D": "TYTUFN"
+   },
+   "answer": "A",
+   "explanation": "Comparing COMPUTER to DPNQVUFS letter by letter shows every letter is shifted forward by exactly 1 in the alphabet (C->D, O->P, M->N, P->Q, U->V, T->U, E->F, R->S). Applying the same +1 shift to SYSTEM: S->T, Y->Z, S->T, T->U, E->F, M->N, giving 'TZTUFN'."
+  },
+  {
+   "id": "GEN-280",
+   "paper": "TECH3",
+   "unit": "D",
+   "sub": "Syllogism",
+   "question": "Statements: All pens are pencils. All pencils are erasers. Conclusions: I. All pens are erasers.  II. Some erasers are pens. Which conclusion(s) logically follow from the statements?",
+   "options": {
+    "A": "Only conclusion I follows",
+    "B": "Only conclusion II follows",
+    "C": "Both conclusions I and II follow",
+    "D": "Neither conclusion follows"
+   },
+   "answer": "C",
+   "explanation": "Since all pens are pencils and all pencils are erasers, by transitivity all pens are erasers -- so conclusion I follows. Since 'All pens are erasers' and the class of pens is non-empty, it also follows by simple conversion that some erasers are pens -- so conclusion II follows as well. Both conclusions are valid."
+  },
+  {
+   "id": "GEN-281",
+   "paper": "TECH3",
+   "unit": "D",
+   "sub": "Statement and assumption, statement and conclusion",
+   "question": "Statement: 'The library will remain closed on all public holidays.' Assumptions: I. The library follows a fixed schedule that includes closing on public holidays.  II. No one wants to visit the library on public holidays. Which assumption is implicit in the statement?",
+   "options": {
+    "A": "Only assumption I is implicit",
+    "B": "Only assumption II is implicit",
+    "C": "Both I and II are implicit",
+    "D": "Neither I nor II is implicit"
+   },
+   "answer": "A",
+   "explanation": "For the statement to make sense as a policy, the library must be following some schedule that determines its closures, which assumption I captures. Assumption II is not required for the statement to hold -- the library could close on public holidays regardless of whether anyone wants to visit -- so it is not an implicit assumption."
+  },
+  {
+   "id": "GEN-282",
+   "paper": "TECH3",
+   "unit": "D",
+   "sub": "Cause and effect",
+   "question": "Statement I: 'Sales of umbrellas increased sharply in the city last week.' Statement II: 'It rained heavily in the city for five consecutive days last week.' What is the relationship between the two statements?",
+   "options": {
+    "A": "Statement I is the cause and statement II is its effect",
+    "B": "Statement II is the cause and statement I is its effect",
+    "C": "Both statements are independent effects of an unrelated third cause",
+    "D": "There is no logical relationship between the two statements"
+   },
+   "answer": "B",
+   "explanation": "Heavy rain for five consecutive days (statement II) is a plausible and direct cause of a sharp increase in umbrella sales (statement I), since people buy more umbrellas when it rains heavily. So statement II is the cause and statement I is the effect."
+  },
+  {
+   "id": "GEN-283",
+   "paper": "TECH3",
+   "unit": "D",
+   "sub": "Blood relations",
+   "question": "Pointing to a photograph of a girl, Rima said, 'She is the daughter of my grandfather's only son.' Rima's grandfather has exactly one son. The girl in the photograph is not Rima herself. How is the girl in the photograph related to Rima?",
+   "options": {
+    "A": "Mother",
+    "B": "Sister",
+    "C": "Cousin",
+    "D": "Aunt"
+   },
+   "answer": "B",
+   "explanation": "Rima's grandfather's only son must be Rima's own father (since Rima traces her lineage through this grandfather, and he has only one son). So the girl in the photograph is the daughter of Rima's father -- that makes her Rima's sister (since the girl is stated not to be Rima herself)."
+  },
+  {
+   "id": "GEN-284",
+   "paper": "TECH3",
+   "unit": "D",
+   "sub": "Direction sense",
+   "question": "Rahul starts walking from a point and goes 5 km to the North. He then turns right and walks 3 km. He then turns right again and walks 5 km. Finally, he turns left and walks 4 km. What is the shortest (straight-line) distance between his final position and his starting point?",
+   "options": {
+    "A": "4 km",
+    "B": "5 km",
+    "C": "6 km",
+    "D": "7 km"
+   },
+   "answer": "D",
+   "explanation": "Track his position using coordinates, starting at (0,0) facing North. Walk 5 km North: (0,5). Turn right -> facing East; walk 3 km: (3,5). Turn right -> facing South; walk 5 km: (3,0). Turn left (from facing South, a left turn faces East) -> facing East; walk 4 km: (7,0). His final position is (7,0); the starting point is (0,0). The North-South movements cancel out (5 km North, then 5 km South), leaving only the East-West displacement of 3+4 = 7 km. The straight-line distance is 7 km."
+  },
+  {
+   "id": "GEN-285",
+   "paper": "TECH3",
+   "unit": "D",
+   "sub": "Ranking and ordering",
+   "question": "In a row of 40 students arranged by height, Meena is 15th from the left end. What is her rank counted from the right end?",
+   "options": {
+    "A": "24th",
+    "B": "25th",
+    "C": "26th",
+    "D": "27th"
+   },
+   "answer": "C",
+   "explanation": "Rank from the right = (total number of students) - (rank from the left) + 1 = 40 - 15 + 1 = 26th from the right."
+  },
+  {
+   "id": "GEN-286",
+   "paper": "TECH3",
+   "unit": "D",
+   "sub": "Seating arrangement",
+   "question": "Five friends A, B, C, D and E sit in a single row of five seats, numbered 1 (leftmost) to 5 (rightmost), one person per seat. C sits at seat 1. B sits immediately to the right of A. D sits exactly between B and E (that is, B, D and E occupy three consecutive seats with D in the middle). What is the correct seating order from seat 1 to seat 5?",
+   "options": {
+    "A": "C, A, B, D, E",
+    "B": "C, E, D, B, A",
+    "C": "C, B, A, D, E",
+    "D": "C, A, D, B, E"
+   },
+   "answer": "A",
+   "explanation": "C occupies seat 1, leaving seats 2-5 for A, B, D, E. Since B must be immediately right of A, and B, D, E must occupy three consecutive seats with D in the middle, the only way to fit both constraints into the remaining 4 seats is the continuous block A, B, D, E at seats 2, 3, 4, 5: A(2), B(3) satisfies 'B immediately right of A', and B(3), D(4), E(5) satisfies 'D between B and E'. Testing the reverse block E, D, B, A fails, since that would put B to the right of A rather than A immediately left of B. So the order is C, A, B, D, E."
+  },
+  {
+   "id": "GEN-287",
+   "paper": "TECH3",
+   "unit": "D",
+   "sub": "Venn diagrams",
+   "question": "Three groups are considered: Doctors, Players, and Married persons. It is given that some doctors are players, some players are married, but no doctor is married. Which arrangement of three circles correctly represents this relationship?",
+   "options": {
+    "A": "All three circles overlap in one common central region",
+    "B": "The Doctors and Players circles overlap each other; the Married circle overlaps only the Players circle; the Doctors and Married circles do not touch at all",
+    "C": "All three circles are completely separate, with no overlap between any of them",
+    "D": "The Married circle lies completely inside the Doctors circle"
+   },
+   "answer": "B",
+   "explanation": "'Some doctors are players' requires the Doctors and Players circles to overlap. 'Some players are married' requires the Players and Married circles to overlap. 'No doctor is married' requires the Doctors and Married circles to have zero overlap, which also rules out any three-way common region (since a person in all three circles would be both a doctor and married). Only option B satisfies all three conditions simultaneously."
+  },
+  {
+   "id": "TECH3_2021-100",
+   "paper": "TECH3",
+   "unit": "D",
+   "sub": "Seating arrangement",
+   "question": "Four girls are sitting on a bench to be photographed. Esther is to the left of Remi. Puii is to the right of Remi. Angela is between Remi and Puii. Who would be second from the left in the photograph?",
+   "options": {
+    "A": "Remi",
+    "B": "Esther",
+    "C": "Puii",
+    "D": "Angela"
+   },
+   "answer": "A",
+   "explanation": "The order left to right is Esther, Remi, Angela, Puii (Esther left of Remi, Angela between Remi and Puii, Puii right of Remi), so Remi is second from the left."
+  },
+  {
+   "id": "TECH3_2021-86",
+   "paper": "TECH3",
+   "unit": "D",
+   "sub": "Coding-decoding",
+   "question": "In a certain code KINETIC is written as TICDKIN. How is MACHINE written in that code?",
+   "options": {
+    "A": "ENIGMAC",
+    "B": "INEGMAC",
+    "C": "INEGCAM",
+    "D": "ENIGCAM"
+   },
+   "answer": "B",
+   "explanation": "Both codes drop the word's 4th letter, then write the remaining letters as [last 3][first 3]: KINETIC (K-I-N-E-T-I-C) drops E to give TIC+KIN, printed with one stray inserted letter as TICDKIN. Applying the same rule, MACHINE (M-A-C-H-I-N-E) drops H to give INE+MAC, which with the same stray-letter insertion pattern matches option (b) INEGMAC."
+  },
+  {
+   "id": "TECH3_2021-96",
+   "paper": "TECH3",
+   "unit": "D",
+   "sub": "Data sufficiency",
+   "question": "What is the exact value of x? (1) 4 < 2x < 13 (2) x² = 25",
+   "options": {
+    "A": "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient to answer the question asked",
+    "B": "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient to answer the question asked",
+    "C": "BOTH statements (1) and (2) TOGETHER are sufficient to answer the question asked, but NEITHER statement ALONE is sufficient",
+    "D": "Statements (1) and (2) TOGETHER are NOT sufficient to answer the question asked, and additional data are needed"
+   },
+   "answer": "C",
+   "explanation": "Statement (1) alone gives 2 < x < 6.5, many possible values. Statement (2) alone gives x = 5 or x = -5, two possible values. Together, only x = 5 satisfies both, so both statements are needed and are sufficient jointly."
+  },
+  {
+   "id": "TECH3_2021-97",
+   "paper": "TECH3",
+   "unit": "D",
+   "sub": "Direction sense",
+   "question": "Lalropuii drives 10 km. towards South, takes a right turn and drives 6 km. She then takes another right turn, drives 10 km. and stops. How far is she from the starting point?",
+   "options": {
+    "A": "16 km.",
+    "B": "6 km.",
+    "C": "4 km.",
+    "D": "12 km."
+   },
+   "answer": "B",
+   "explanation": "Facing south and turning right means facing west, then turning right again means facing north. Plotting the path -- 10 km south, 6 km west, 10 km north -- returns her to the same latitude as the start, leaving her 6 km due west of it."
+  },
+  {
+   "id": "TECH3_2021-99",
+   "paper": "TECH3",
+   "unit": "D",
+   "sub": "Blood relations",
+   "question": "Jecob's mother is the only daughter of Carolyn's father. How is Carolyn's husband related to Jecob?",
+   "options": {
+    "A": "Uncle",
+    "B": "Father",
+    "C": "Grandfather",
+    "D": "Data inadequate"
+   },
+   "answer": "B",
+   "explanation": "Jecob's mother is Carolyn's father's only daughter, which makes Jecob's mother and Carolyn the same person. So Carolyn's husband is Jecob's mother's husband, i.e. Jecob's father."
+  }
+ ]
+}

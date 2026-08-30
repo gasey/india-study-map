@@ -1,0 +1,140 @@
+[
+ {
+  "id": "TECH2_2024-1",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "Accountability, transparency and consensus all follow from what good governance is; only mild list-membership risk."
+ },
+ {
+  "id": "TECH2_2024-2",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "The standard term itself is the answer; the invented distractor names are equally plausible without recall."
+ },
+ {
+  "id": "TECH2_2024-3",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The trade-off follows from what easing access does to verification safeguards."
+ },
+ {
+  "id": "TECH2_2024-4",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Definition follows from the concept; distractors describe unrelated state powers."
+ },
+ {
+  "id": "TECH2_2024-5",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The three wrong options contradict the purpose of a charter, so reasoning eliminates them."
+ },
+ {
+  "id": "TECH2_2024-64",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "Ordering follows from the citizen-centric premise, though the exact triple is textbook phrasing."
+ },
+ {
+  "id": "TECH2_2021-1",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Follows directly from the citizen-centric definition of good governance."
+ },
+ {
+  "id": "TECH2_2021-2",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Both statements restate properties implied by what a charter is."
+ },
+ {
+  "id": "TECH2_2021-4",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "Turns on membership of the canonical good-governance attribute list; 'democracy' is excluded only by not being on it."
+ },
+ {
+  "id": "GEN-TECH2-U1-001",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Conceptual distinction between institution and process, derivable without recall."
+ },
+ {
+  "id": "GEN-TECH2-U1-002",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Applying the G2G label follows from reading who the two actors are."
+ },
+ {
+  "id": "GEN-TECH2-U1-003",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Meaning is derivable from the term and contrasts cleanly with the other listed functions."
+ },
+ {
+  "id": "GEN-TECH2-U1-004",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Answer follows from the economic definition of a public good."
+ },
+ {
+  "id": "GEN-TECH2-U1-005",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Reasoning about what an output count cannot capture."
+ },
+ {
+  "id": "GEN-TECH2-U1-006",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Turns on separating procedural excess from corruption, a conceptual distinction."
+ },
+ {
+  "id": "GEN-TECH2-U1-007",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Each description is the definition of the attribute named."
+ },
+ {
+  "id": "GEN-TECH2-U1-008",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Content of rule of law follows from the concept; consensus is a separate attribute."
+ },
+ {
+  "id": "GEN-TECH2-U1-009",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Reasoning about why a top-down document fails to change behaviour."
+ },
+ {
+  "id": "GEN-TECH2-U1-010",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "An unmeasurable commitment cannot be breached; follows from what enforceability requires."
+ },
+ {
+  "id": "GEN-TECH2-U1-011",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Rationale follows from what publishing a service standard does to the relationship."
+ },
+ {
+  "id": "GEN-TECH2-U1-012",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Derivable from what distinguishes a commitment from mere information."
+ },
+ {
+  "id": "GEN-TECH2-U1-013",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The principle follows from the gap between internal disposal and actual redress."
+ },
+ {
+  "id": "GEN-TECH2-U1-014",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Reasoning about diagnostic versus workload data."
+ }
+]

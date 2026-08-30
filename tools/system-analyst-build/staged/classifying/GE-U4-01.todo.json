@@ -1,0 +1,306 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 20,
+ "questions": [
+  {
+   "id": "GEN-38",
+   "paper": "GE",
+   "unit": "4",
+   "sub": "Structuring a short essay: introduction, body, conclusion",
+   "question": "The conventional three-part structure of a short essay consists of:",
+   "options": {
+    "A": "Title, bibliography, appendix",
+    "B": "Introduction, body, conclusion",
+    "C": "Abstract, methodology, results",
+    "D": "Preface, index, glossary"
+   },
+   "answer": "B",
+   "explanation": "A short essay is conventionally structured into an introduction that presents the topic, a body that develops the argument with supporting points, and a conclusion that sums up the discussion -- the standard three-part essay structure."
+  },
+  {
+   "id": "GEN-39",
+   "paper": "GE",
+   "unit": "4",
+   "sub": "Thesis statement",
+   "question": "A thesis statement in a short essay is best described as:",
+   "options": {
+    "A": "A list of every fact the writer knows about the topic",
+    "B": "A single sentence, usually near the start, that states the essay's central claim or argument",
+    "C": "A footnote citing sources used",
+    "D": "The final sentence that merely restates the essay title"
+   },
+   "answer": "B",
+   "explanation": "The thesis statement is a concise sentence, typically placed early (often at the end of the introduction), that clearly states the main argument or position the essay will develop and defend -- not a fact list, citation, or mere restatement."
+  },
+  {
+   "id": "GEN-40",
+   "paper": "GE",
+   "unit": "4",
+   "sub": "Paragraph unity and coherence",
+   "question": "A paragraph in a short essay is said to have \"unity\" when:",
+   "options": {
+    "A": "It contains as many different ideas as possible",
+    "B": "Every sentence in it relates to and supports a single central idea",
+    "C": "It is exactly five sentences long",
+    "D": "It uses only short, simple sentences"
+   },
+   "answer": "B",
+   "explanation": "Paragraph unity means all sentences within a paragraph work together to support one single controlling idea; a paragraph that wanders across unrelated ideas lacks unity, regardless of its length or sentence complexity."
+  },
+  {
+   "id": "GEN-41",
+   "paper": "GE",
+   "unit": "4",
+   "sub": "Linking devices and transitions",
+   "question": "Which of the following words would be the most appropriate linking device to introduce a contrasting point in an essay?",
+   "options": {
+    "A": "Furthermore",
+    "B": "Similarly",
+    "C": "However",
+    "D": "For example"
+   },
+   "answer": "C",
+   "explanation": "\"However\" is a contrast connector used to introduce an idea that opposes or qualifies the preceding point; 'furthermore' and 'similarly' add or compare supporting ideas, and 'for example' introduces an illustration, none of which signal contrast."
+  },
+  {
+   "id": "GEN-42",
+   "paper": "GE",
+   "unit": "4",
+   "sub": "Marshalling arguments and evidence",
+   "question": "\"Marshalling arguments\" in essay writing refers to the skill of:",
+   "options": {
+    "A": "Randomly listing ideas without any order",
+    "B": "Organising supporting points and evidence in a logical, persuasive sequence",
+    "C": "Copying arguments verbatim from a source text",
+    "D": "Avoiding any evidence and relying only on opinion"
+   },
+   "answer": "B",
+   "explanation": "Marshalling arguments means arranging one's points and supporting evidence in a coherent, logically ordered and persuasive sequence to build a convincing case -- the opposite of a random list, verbatim copying, or unsupported opinion."
+  },
+  {
+   "id": "GEN-43",
+   "paper": "GE",
+   "unit": "4",
+   "sub": "Formal register and avoiding colloquialism",
+   "question": "Which of the following sentences is most appropriate for the formal register expected in a short essay?",
+   "options": {
+    "A": "The scheme's rollout was, like, super slow and kind of a mess.",
+    "B": "The scheme's implementation was significantly delayed and poorly coordinated.",
+    "C": "Honestly, the scheme was a total disaster, no cap.",
+    "D": "The scheme kinda flopped, y'know."
+   },
+   "answer": "B",
+   "explanation": "Formal essay writing requires precise, standard vocabulary and complete grammatical sentences, avoiding slang and colloquial fillers such as 'like', 'kind of', 'no cap', and 'y'know'; only option B maintains a consistently formal register."
+  },
+  {
+   "id": "GEN-44",
+   "paper": "GE",
+   "unit": "4",
+   "sub": "Time and word budgeting",
+   "question": "In an examination setting with a strict word limit for a short essay, the most advisable approach to time budgeting is to:",
+   "options": {
+    "A": "Spend almost all the available time writing without any planning, and stop wherever time runs out",
+    "B": "Allocate a brief period to plan the structure and thesis before writing, then write within the remaining time to stay within the word limit",
+    "C": "Write as many words as possible regardless of the prescribed limit",
+    "D": "Skip the conclusion entirely to save time"
+   },
+   "answer": "B",
+   "explanation": "Good essay-writing technique under time pressure involves briefly planning the thesis and structure first, then drafting within the remaining time while respecting the prescribed word limit -- skipping planning, ignoring the limit, or omitting the conclusion are recognised weaknesses, not good practice."
+  },
+  {
+   "id": "GEN-45",
+   "paper": "GE",
+   "unit": "4",
+   "sub": "Structuring a short essay: introduction, body, conclusion",
+   "question": "The primary purpose of an essay's conclusion is to:",
+   "options": {
+    "A": "Introduce entirely new arguments not discussed earlier",
+    "B": "Summarise the main points and restate the thesis in light of the discussion",
+    "C": "List sources consulted in alphabetical order",
+    "D": "Pose a series of unrelated questions for the reader"
+   },
+   "answer": "B",
+   "explanation": "A conclusion should draw together and summarise the essay's main points and restate the thesis in a way that reflects the discussion presented, providing closure; introducing new arguments, listing sources, or posing unrelated questions is inappropriate for a conclusion."
+  },
+  {
+   "id": "GEN-46",
+   "paper": "GE",
+   "unit": "4",
+   "sub": "Paragraph unity and coherence",
+   "question": "Which technique most effectively improves \"coherence\" between paragraphs in a short essay?",
+   "options": {
+    "A": "Starting every paragraph with an unrelated fact",
+    "B": "Using transitional phrases and echoing key terms from the previous paragraph at the start of the next",
+    "C": "Making each paragraph a different length with no connection to others",
+    "D": "Avoiding any reference to earlier points in the essay"
+   },
+   "answer": "B",
+   "explanation": "Coherence between paragraphs is achieved through transitional phrases and by linking back to ideas or key terms from the previous paragraph, guiding the reader smoothly from one point to the next; starting with unrelated facts or avoiding references to earlier points undermines coherence."
+  },
+  {
+   "id": "GEN-90",
+   "paper": "GE",
+   "unit": "4",
+   "sub": "Paragraph unity and coherence",
+   "question": "In a well-constructed body paragraph, the \"topic sentence\" is the sentence that:",
+   "options": {
+    "A": "Lists the references used in the paragraph",
+    "B": "States the single main idea that the rest of the paragraph will develop",
+    "C": "Always appears as the last sentence and asks a question",
+    "D": "Introduces a completely new subject unrelated to the paragraph"
+   },
+   "answer": "B",
+   "explanation": "A topic sentence expresses the paragraph's central idea, which the remaining sentences then explain, support or illustrate; it is not a reference list, an unrelated new subject, or necessarily a final question."
+  },
+  {
+   "id": "GEN-91",
+   "paper": "GE",
+   "unit": "4",
+   "sub": "Linking devices and transitions",
+   "question": "Which linking expression is most appropriate for introducing the first point in a sequence of arguments?",
+   "options": {
+    "A": "In conclusion",
+    "B": "Firstly",
+    "C": "However",
+    "D": "For instance"
+   },
+   "answer": "B",
+   "explanation": "'Firstly' signals the first item in an ordered sequence of points; 'In conclusion' closes an essay, 'However' signals contrast, and 'For instance' introduces an example -- none of which begins a sequence."
+  },
+  {
+   "id": "GEN-92",
+   "paper": "GE",
+   "unit": "4",
+   "sub": "Linking devices and transitions",
+   "question": "Which of the following transitions best signals a cause-and-effect relationship between two points in an essay?",
+   "options": {
+    "A": "On the other hand",
+    "B": "Therefore",
+    "C": "Meanwhile",
+    "D": "For example"
+   },
+   "answer": "B",
+   "explanation": "'Therefore' introduces a result or consequence that follows logically from what precedes, expressing cause and effect; 'on the other hand' marks contrast, 'meanwhile' marks time, and 'for example' introduces an illustration."
+  },
+  {
+   "id": "GEN-93",
+   "paper": "GE",
+   "unit": "4",
+   "sub": "Formal register and avoiding colloquialism",
+   "question": "To maintain a formal register in a short essay, contractions such as \"don't\" and \"can't\" should be:",
+   "options": {
+    "A": "Used as often as possible to sound natural",
+    "B": "Written out in full as \"do not\" and \"cannot\"",
+    "C": "Replaced with slang equivalents",
+    "D": "Used only in the conclusion"
+   },
+   "answer": "B",
+   "explanation": "Formal written English generally avoids contractions, writing 'do not' and 'cannot' in full; using contractions frequently or replacing them with slang lowers the register expected in an essay."
+  },
+  {
+   "id": "GEN-94",
+   "paper": "GE",
+   "unit": "4",
+   "sub": "Thesis statement",
+   "question": "Which of the following is the most effective thesis statement for a short essay?",
+   "options": {
+    "A": "Water is a chemical compound made of hydrogen and oxygen.",
+    "B": "Municipalities should prioritise rainwater harvesting because it is the most cost-effective way to ease urban water shortages.",
+    "C": "This essay is about water.",
+    "D": "There are many different opinions about water."
+   },
+   "answer": "B",
+   "explanation": "An effective thesis makes a specific, arguable claim that the essay can defend; option B states a clear position and reason. Option A is a mere fact, C simply announces the topic, and D is vague and takes no position."
+  },
+  {
+   "id": "GEN-95",
+   "paper": "GE",
+   "unit": "4",
+   "sub": "Marshalling arguments and evidence",
+   "question": "When arranging several supporting arguments in an essay, the technique of \"climactic order\" means:",
+   "options": {
+    "A": "Presenting the arguments in random order",
+    "B": "Building up from weaker points to the strongest, most convincing argument last",
+    "C": "Giving only one argument and ignoring the rest",
+    "D": "Placing the conclusion before the introduction"
+   },
+   "answer": "B",
+   "explanation": "Climactic order arranges points so that the essay builds toward its strongest argument, which is placed last for maximum impact; this is a recognised way of marshalling arguments persuasively."
+  },
+  {
+   "id": "GEN-96",
+   "paper": "GE",
+   "unit": "4",
+   "sub": "Structuring a short essay: introduction, body, conclusion",
+   "question": "A common and effective way to structure an essay's introduction is the \"funnel\" approach, which means:",
+   "options": {
+    "A": "Beginning with a broad, general opening and narrowing down to the specific thesis",
+    "B": "Beginning with the conclusion and then widening out to general remarks",
+    "C": "Listing every point the body will make in bullet form",
+    "D": "Filling the introduction only with quotations"
+   },
+   "answer": "A",
+   "explanation": "The funnel introduction moves from a broad, general statement about the topic toward a narrow, specific thesis at the end of the paragraph; the other options reverse or distort this structure."
+  },
+  {
+   "id": "GEN-97",
+   "paper": "GE",
+   "unit": "4",
+   "sub": "Marshalling arguments and evidence",
+   "question": "In a balanced argumentative essay, the most effective way to deal with an opposing viewpoint is to:",
+   "options": {
+    "A": "Ignore it entirely so as not to weaken one's own case",
+    "B": "Acknowledge it fairly and then respond with reasons or evidence that answer it",
+    "C": "Misrepresent it so it is easy to dismiss",
+    "D": "Devote the entire essay to it and never state one's own view"
+   },
+   "answer": "B",
+   "explanation": "A balanced, persuasive essay acknowledges a genuine counter-argument and then rebuts it with reasoning or evidence, which strengthens the writer's credibility; ignoring or distorting the opposing view weakens the argument."
+  },
+  {
+   "id": "GEN-98",
+   "paper": "GE",
+   "unit": "4",
+   "sub": "Time and word budgeting",
+   "question": "For a short essay with a fixed word limit, sound word budgeting usually means allotting the greatest share of words to the:",
+   "options": {
+    "A": "Introduction",
+    "B": "Body paragraphs, where the argument is developed",
+    "C": "Conclusion",
+    "D": "Title"
+   },
+   "answer": "B",
+   "explanation": "The body is where the argument is developed with supporting points and evidence, so it should receive the largest share of the word budget, while the introduction and conclusion are kept comparatively brief."
+  },
+  {
+   "id": "GEN-99",
+   "paper": "GE",
+   "unit": "4",
+   "sub": "Paragraph unity and coherence",
+   "question": "A paragraph argues that cycling to work saves money. Which of the following sentences most clearly breaks the paragraph's unity and should be removed?",
+   "options": {
+    "A": "It eliminates daily fuel and parking costs.",
+    "B": "Over a year, the savings can be substantial.",
+    "C": "My cousin recently visited Paris on holiday.",
+    "D": "There are no bus fares to pay when one cycles."
+   },
+   "answer": "C",
+   "explanation": "Paragraph unity requires every sentence to support the single controlling idea -- here, the money saved by cycling. Sentences A, B and D all relate to cost savings, whereas the remark about a cousin's holiday in Paris is irrelevant and breaks unity."
+  },
+  {
+   "id": "GEN-100",
+   "paper": "GE",
+   "unit": "4",
+   "sub": "Paragraph unity and coherence",
+   "question": "Which of the following most improves coherence within a single paragraph?",
+   "options": {
+    "A": "Switching the point of view and verb tense from sentence to sentence",
+    "B": "Keeping a consistent point of view and using pronouns and connectives that clearly link each sentence to the last",
+    "C": "Making every sentence the same length regardless of meaning",
+    "D": "Avoiding any connecting words between sentences"
+   },
+   "answer": "B",
+   "explanation": "Coherence within a paragraph comes from a consistent point of view and clear links between sentences through pronoun reference and connectives; shifting viewpoint and tense or dropping all connectives makes the paragraph disjointed."
+  }
+ ]
+}

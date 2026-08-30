@@ -1,0 +1,231 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 15,
+ "questions": [
+  {
+   "id": "GEN-147",
+   "paper": "GS",
+   "unit": "3",
+   "sub": "Physical geography of India: relief, drainage, climate",
+   "question": "Which of the following is the highest peak in India?",
+   "options": {
+    "A": "Nanda Devi",
+    "B": "Kanchenjunga",
+    "C": "K2 (Godwin Austen)",
+    "D": "Anamudi"
+   },
+   "answer": "B",
+   "explanation": "Kanchenjunga (8,586 m), on the India-Nepal border in Sikkim, is the highest peak located within India; K2 lies in Pakistan-administered territory."
+  },
+  {
+   "id": "GEN-148",
+   "paper": "GS",
+   "unit": "3",
+   "sub": "Physical geography of India: relief, drainage, climate",
+   "question": "The river Brahmaputra is known as which name in Tibet before entering India?",
+   "options": {
+    "A": "Sutlej",
+    "B": "Tsangpo",
+    "C": "Indus",
+    "D": "Karnali"
+   },
+   "answer": "B",
+   "explanation": "The Brahmaputra originates in Tibet as the Tsangpo, enters India through Arunachal Pradesh (as the Dihang/Siang), and flows through Assam."
+  },
+  {
+   "id": "GEN-149",
+   "paper": "GS",
+   "unit": "3",
+   "sub": "Monsoon mechanism",
+   "question": "The southwest monsoon typically first hits the Indian mainland at which coast?",
+   "options": {
+    "A": "Coromandel Coast",
+    "B": "Kerala coast",
+    "C": "Gujarat coast",
+    "D": "Konkan coast"
+   },
+   "answer": "B",
+   "explanation": "The southwest monsoon typically makes its onset over the Kerala coast around the first week of June, then advances further into the mainland."
+  },
+  {
+   "id": "GEN-150",
+   "paper": "GS",
+   "unit": "3",
+   "sub": "Monsoon mechanism",
+   "question": "The withdrawal of the southwest monsoon from India typically begins from which region?",
+   "options": {
+    "A": "Kerala",
+    "B": "West Rajasthan",
+    "C": "West Bengal",
+    "D": "Tamil Nadu"
+   },
+   "answer": "B",
+   "explanation": "The southwest monsoon begins its withdrawal from West Rajasthan (northwest India) around early September."
+  },
+  {
+   "id": "GEN-151",
+   "paper": "GS",
+   "unit": "3",
+   "sub": "Soils, natural vegetation and forests",
+   "question": "Which soil type, found extensively in the Deccan Plateau and formed from weathered basaltic lava, is well suited for cotton cultivation?",
+   "options": {
+    "A": "Alluvial soil",
+    "B": "Red soil",
+    "C": "Black (regur) soil",
+    "D": "Laterite soil"
+   },
+   "answer": "C",
+   "explanation": "Black soil (regur soil), derived from Deccan Trap basaltic rocks, has high moisture-retention capacity and is ideal for cotton, hence also called 'black cotton soil'."
+  },
+  {
+   "id": "GEN-152",
+   "paper": "GS",
+   "unit": "3",
+   "sub": "Mineral and energy resources",
+   "question": "India's largest reserves of iron ore are found predominantly in which state?",
+   "options": {
+    "A": "Odisha",
+    "B": "Rajasthan",
+    "C": "Kerala",
+    "D": "Punjab"
+   },
+   "answer": "A",
+   "explanation": "Odisha holds the largest share of India's iron ore reserves, along with Chhattisgarh and Jharkhand as other major producers."
+  },
+  {
+   "id": "GEN-153",
+   "paper": "GS",
+   "unit": "3",
+   "sub": "Agriculture and cropping patterns",
+   "question": "The 'Rabi' crops in India are sown around which season and harvested in spring?",
+   "options": {
+    "A": "Sown in June-July (onset of monsoon), harvested in September-October",
+    "B": "Sown in October-December (winter), harvested in March-April",
+    "C": "Sown year-round with irrigation only",
+    "D": "Sown in April-May, harvested in July-August"
+   },
+   "answer": "B",
+   "explanation": "Rabi crops (e.g., wheat, barley, mustard) are sown in winter (October-December) and harvested in spring (March-April)."
+  },
+  {
+   "id": "GEN-154",
+   "paper": "GS",
+   "unit": "3",
+   "sub": "Population distribution and urbanisation",
+   "question": "As per the 2011 Census, which Indian state/UT recorded the highest population density?",
+   "options": {
+    "A": "West Bengal",
+    "B": "Bihar",
+    "C": "Kerala",
+    "D": "Delhi (NCT)"
+   },
+   "answer": "D",
+   "explanation": "Among states, Bihar had the highest density in the 2011 Census, but overall Delhi (a Union Territory) recorded the highest population density in the country."
+  },
+  {
+   "id": "GEN-155",
+   "paper": "GS",
+   "unit": "3",
+   "sub": "Transport and communication networks",
+   "question": "Which is the longest National Highway in India, connecting Srinagar to Kanyakumari?",
+   "options": {
+    "A": "NH 44",
+    "B": "NH 48",
+    "C": "NH 27",
+    "D": "NH 16"
+   },
+   "answer": "A",
+   "explanation": "NH 44 (formerly NH 7), running from Srinagar to Kanyakumari, is the longest national highway in India."
+  },
+  {
+   "id": "GEN-156",
+   "paper": "GS",
+   "unit": "3",
+   "sub": "Geography of Mizoram: location, relief, rivers, climate, districts",
+   "question": "Mizoram is bordered internationally by which two countries?",
+   "options": {
+    "A": "Bangladesh and Myanmar",
+    "B": "Bhutan and Myanmar",
+    "C": "Bangladesh and China",
+    "D": "Myanmar and Nepal"
+   },
+   "answer": "A",
+   "explanation": "Mizoram shares international borders with Bangladesh to the west and Myanmar to the east and south."
+  },
+  {
+   "id": "GEN-157",
+   "paper": "GS",
+   "unit": "3",
+   "sub": "Geography of Mizoram: location, relief, rivers, climate, districts",
+   "question": "Which is the largest and most important river of Mizoram, flowing from Myanmar through the south of the state before re-entering Myanmar?",
+   "options": {
+    "A": "Tlawng (Dhaleswari)",
+    "B": "Kolodyne (Chhimtuipui)",
+    "C": "Tuirial (Sonai)",
+    "D": "Tuivai"
+   },
+   "answer": "B",
+   "explanation": "The Kolodyne (locally Chhimtuipui) is the largest and most important river of Mizoram, flowing from Myanmar through the south of the state before re-entering Myanmar."
+  },
+  {
+   "id": "GEN-158",
+   "paper": "GS",
+   "unit": "3",
+   "sub": "Geography of Mizoram: location, relief, rivers, climate, districts",
+   "question": "As of the reorganisation completed in 2019, how many districts does Mizoram have?",
+   "options": {
+    "A": "8",
+    "B": "9",
+    "C": "10",
+    "D": "11"
+   },
+   "answer": "D",
+   "explanation": "Mizoram has 11 districts (following the 2019 reorganisation which created new districts such as Khawzawl, Saitual and Hnahthial in addition to the original 8)."
+  },
+  {
+   "id": "GEN-159",
+   "paper": "GS",
+   "unit": "3",
+   "sub": "Geography of Mizoram: location, relief, rivers, climate, districts",
+   "question": "Which is the capital and largest city of Mizoram, located on a ridge in Aizawl district?",
+   "options": {
+    "A": "Lunglei",
+    "B": "Champhai",
+    "C": "Aizawl",
+    "D": "Kolasib"
+   },
+   "answer": "C",
+   "explanation": "Aizawl, situated on a ridge at an average elevation of about 1,132 metres, is the capital and largest city of Mizoram."
+  },
+  {
+   "id": "GEN-160",
+   "paper": "GS",
+   "unit": "3",
+   "sub": "Disaster-prone zones, seismic zonation of the North East",
+   "question": "As per the seismic zonation map of India, the entire North Eastern region, including Mizoram, falls under which seismic zone?",
+   "options": {
+    "A": "Zone II (low risk)",
+    "B": "Zone III (moderate risk)",
+    "C": "Zone IV (high risk)",
+    "D": "Zone V (very high risk)"
+   },
+   "answer": "D",
+   "explanation": "The entire North Eastern region of India, including Mizoram, lies in Seismic Zone V, the zone of highest earthquake risk as per the Bureau of Indian Standards classification."
+  },
+  {
+   "id": "GEN-161",
+   "paper": "GS",
+   "unit": "3",
+   "sub": "Map and location-based questions",
+   "question": "The Tropic of Cancer passes through which of the following Indian states?",
+   "options": {
+    "A": "Kerala, Tamil Nadu",
+    "B": "Gujarat, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura, Mizoram",
+    "C": "Punjab, Haryana, Himachal Pradesh",
+    "D": "Karnataka, Andhra Pradesh"
+   },
+   "answer": "B",
+   "explanation": "The Tropic of Cancer (23.5 degrees N) passes through eight Indian states: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram."
+  }
+ ]
+}

@@ -1,0 +1,278 @@
+[
+ {
+  "id": "TECH2_2024-30",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Confidentiality exposure is recognisably a PPP risk rather than a strength."
+ },
+ {
+  "id": "TECH2_2024-31",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "Reasoning eliminates the unchanged-cost condition, though the list is loosely drafted."
+ },
+ {
+  "id": "TECH2_2024-32",
+  "mode": "understand",
+  "confidence": "low",
+  "why": "Reasoning about structural risk versus a contracting failure, but the record is defective: the key says C while the explanation argues D."
+ },
+ {
+  "id": "TECH2_2024-34",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "One-time versus recurring follows from what each cost item actually is."
+ },
+ {
+  "id": "TECH2_2024-35",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Only one option is money flowing in because of the digital channel."
+ },
+ {
+  "id": "TECH2_2024-36",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "Follows from what 'project finance' means as against funding from the exchequer."
+ },
+ {
+  "id": "TECH2_2024-37",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "The role follows from being the counterparty to a concession agreement."
+ },
+ {
+  "id": "TECH2_2024-38",
+  "mode": "memorise",
+  "confidence": "high",
+  "why": "Maps a described sequence onto an arbitrary model acronym; BOO, BOOT and TOT are naming conventions."
+ },
+ {
+  "id": "TECH2_2024-39",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Shared financing with retained government accountability follows from what a partnership is."
+ },
+ {
+  "id": "TECH2_2024-41",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "'Net' means net of value lost over time; definitional reasoning rather than a computation."
+ },
+ {
+  "id": "TECH2_2024-66",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Follows from what keeps a system funded once the initial grant is exhausted."
+ },
+ {
+  "id": "TECH2_2024-67",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "Reasoning about who seeds public infrastructure, though the option set is weak."
+ },
+ {
+  "id": "TECH2_2021-31",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "A named term; 'adaptation' and 'specialization' are equally plausible to someone who never learned it."
+ },
+ {
+  "id": "TECH2_2021-32",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "Recurrence follows from staff turnover, but the classification is genuinely arguable."
+ },
+ {
+  "id": "TECH2_2021-33",
+  "mode": "understand",
+  "confidence": "low",
+  "why": "Revenue-in versus operator-cost reasoning, but the option set is loosely drafted and the CSC fee is arguable either way."
+ },
+ {
+  "id": "TECH2_2021-34",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Retaining all risk and return follows from government building and running it itself."
+ },
+ {
+  "id": "TECH2_2021-35",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Retained accountability follows from what a PPP does and does not transfer."
+ },
+ {
+  "id": "TECH2_2021-36",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The three wrong options state the opposite of a benefit."
+ },
+ {
+  "id": "TECH2_2021-37",
+  "mode": "memorise",
+  "confidence": "high",
+  "why": "An acronym expansion; the 'Buy' variants are wrong only by convention."
+ },
+ {
+  "id": "TECH2_2021-38",
+  "mode": "memorise",
+  "confidence": "high",
+  "why": "Membership of a named framework's building block; the five segment types are an enumerated list."
+ },
+ {
+  "id": "TECH2_2021-39",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "'Value' is recognisably not a way of receiving money, so reasoning suffices despite the canvas framing."
+ },
+ {
+  "id": "TECH2_2021-40",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "Matches a definition to a named canvas block; 'resources' is guessable but the block names are conventions."
+ },
+ {
+  "id": "TECH2_2021-41",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The described behaviour names itself: customers serving themselves."
+ },
+ {
+  "id": "TECH2_2021-95",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Follows from what distinguishes a PPP from a departmental build."
+ },
+ {
+  "id": "GEN-TECH2-U6-164",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The citizen benefit follows from a single window at published charges under an enforceable time."
+ },
+ {
+  "id": "GEN-TECH2-U6-165",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Follows from what a financial penalty does to an operator's incentives."
+ },
+ {
+  "id": "GEN-TECH2-U6-166",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Tenure and assured volumes follow from what makes an upfront investment recoverable."
+ },
+ {
+  "id": "GEN-TECH2-U6-167",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Demand risk follows from being paid per transaction."
+ },
+ {
+  "id": "GEN-TECH2-U6-168",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Independent measurement follows from SLA-linked payment needing a credible referee."
+ },
+ {
+  "id": "GEN-TECH2-U6-169",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Ring-fencing follows from what a separate project company achieves for lenders."
+ },
+ {
+  "id": "GEN-TECH2-U6-170",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The regulator role follows from transferring delivery but not accountability."
+ },
+ {
+  "id": "GEN-TECH2-U6-171",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Statutory discretion cannot be outsourced; follows from what a statutory power is."
+ },
+ {
+  "id": "GEN-TECH2-U6-172",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The acronym is expanded in the stem, so the obligation set follows by reading it."
+ },
+ {
+  "id": "GEN-TECH2-U6-173",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "A single accountable party follows from bundling delivery under one contract."
+ },
+ {
+  "id": "GEN-TECH2-U6-174",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "The name states the arrangement, though the exact risk allocation is a model convention."
+ },
+ {
+  "id": "GEN-TECH2-U6-175",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "No private capital and no revenue risk leaves only fee-for-management."
+ },
+ {
+  "id": "GEN-TECH2-U6-176",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "Follows from the expansion of Application Service Provider, which the stem supplies."
+ },
+ {
+  "id": "GEN-TECH2-U6-177",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "Hosted-and-subscribed follows from the model, though the ASP/SaaS equivalence is a learned association."
+ },
+ {
+  "id": "GEN-TECH2-U6-178",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Follows from which route keeps build and hiring off the critical path."
+ },
+ {
+  "id": "GEN-TECH2-U6-179",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Time saved follows from the partner having already done the procurement and the build."
+ },
+ {
+  "id": "GEN-TECH2-U6-180",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "Both acronyms are expanded in the stem, so the trailing 'Transfer' follows by reading rather than recall."
+ },
+ {
+  "id": "GEN-TECH2-U6-181",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "Permanent private ownership plus usage revenue maps onto the model names written out in the options."
+ },
+ {
+  "id": "GEN-TECH2-U6-182",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "Shared equity follows from what 'joint venture' means, though model definitions are otherwise conventions."
+ },
+ {
+  "id": "GEN-TECH2-U6-183",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "Turns on where ownership sits in each model, derivable from the expanded names."
+ },
+ {
+  "id": "GEN-TECH2-U6-184",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The allocation principle follows from a party pricing in any risk it cannot manage."
+ },
+ {
+  "id": "GEN-TECH2-U6-185",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Who bears demand risk follows from whether payment is fixed or volume-linked."
+ }
+]

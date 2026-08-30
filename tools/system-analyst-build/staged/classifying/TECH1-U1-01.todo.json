@@ -1,0 +1,606 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 40,
+ "questions": [
+  {
+   "id": "TECH1_2024-1",
+   "paper": "TECH1",
+   "unit": "1",
+   "sub": "Basic Computer System",
+   "question": "In which of the following, the operand field contains the operand itself?",
+   "options": {
+    "A": "Immediate addressing",
+    "B": "Direct addressing",
+    "C": "Indexed addressing",
+    "D": "Register addressing"
+   },
+   "answer": "A",
+   "explanation": "In immediate addressing, the operand itself (the actual data value) is encoded directly inside the instruction's operand field, so no memory access is needed to fetch it. Direct addressing instead stores the memory address of the operand (tested next in Q2). Indexed addressing computes an effective address by adding an index register to a base address, and register addressing names a CPU register holding the operand -- both still point to where the value is, rather than being the value itself."
+  },
+  {
+   "id": "TECH1_2024-2",
+   "paper": "TECH1",
+   "unit": "1",
+   "sub": "Basic Computer System",
+   "question": "When the operand field contains the address of the operand, then it is called —",
+   "options": {
+    "A": "Immediate addressing",
+    "B": "Direct addressing",
+    "C": "Indexed addressing",
+    "D": "Register addressing"
+   },
+   "answer": "B",
+   "explanation": "Direct addressing means the instruction's operand field holds the memory address where the actual data resides, requiring one memory reference to fetch the operand. This is the defining contrast with Q1's immediate addressing (value stored directly). Indexed addressing adds an offset/index to a base address rather than storing a plain address, and register addressing names a register, not a memory address, so both are ruled out."
+  },
+  {
+   "id": "TECH1_2024-3",
+   "paper": "TECH1",
+   "unit": "1",
+   "sub": "Basic Networking",
+   "question": "A packet-switching network —",
+   "options": {
+    "A": "is free",
+    "B": "can reduce the cost of using an information utility",
+    "C": "allows communications channel to be shared among more than one user",
+    "D": "both (b) & (c)"
+   },
+   "answer": "D",
+   "explanation": "Packet switching breaks data into packets that share a common communications channel with many other users' traffic (statistical multiplexing), rather than dedicating a circuit end-to-end. Because the channel is shared rather than reserved, the per-user cost of accessing shared information utilities/networks falls -- so both (b) and (c) are true properties, making (d) correct. Option (a) is wrong because packet-switched networks are not free to build or operate; they simply share cost across users."
+  },
+  {
+   "id": "TECH1_2024-4",
+   "paper": "TECH1",
+   "unit": "1",
+   "sub": "Wireless Technologies",
+   "question": "WPA2 is more secure then WPA because of its use of —",
+   "options": {
+    "A": "Temporal Key Integrity Protocol (TKIP) encryption",
+    "B": "Counter Mode Cipher Block Chaining Message Authentication Code",
+    "C": "Symmetric Key Encryption",
+    "D": "Shorter length password"
+   },
+   "answer": "B",
+   "explanation": "WPA2 mandates CCMP (Counter Mode Cipher Block Chaining Message Authentication Code Protocol), built on AES, which is far stronger than the RC4-based TKIP that WPA used as a stop-gap fix for WEP. Option (a) is actually the older WPA mechanism, not what makes WPA2 stronger. (c) is too generic -- both WPA and WPA2 use symmetric keys, so it doesn't explain the security gain -- and (d) is nonsensical since a shorter password weakens, not strengthens, security."
+  },
+  {
+   "id": "TECH1_2024-5",
+   "paper": "TECH1",
+   "unit": "1",
+   "sub": "Basic Networking",
+   "question": "In this layer, Hamming Distance is used for error correcting codes.",
+   "options": {
+    "A": "Physical Layer",
+    "B": "Data Link Layer",
+    "C": "Network Layer",
+    "D": "The Transport Layer"
+   },
+   "answer": "B",
+   "explanation": "The Data Link layer is responsible for framing and for error detection/correction on the physical link, and Hamming-distance-based codes (like Hamming codes) are the classic technique taught for this layer's error correction. The Physical layer only deals with raw bit transmission (no framing/error logic), while Network and Transport layers handle routing and end-to-end/process-to-process delivery respectively, not link-level bit-error correction."
+  },
+  {
+   "id": "TECH1_2024-6",
+   "paper": "TECH1",
+   "unit": "1",
+   "sub": "IPv6",
+   "question": "The number of hosts that can be handled by IPv6 is approximately —",
+   "options": {
+    "A": "3.6x10^8",
+    "B": "2.8x10^12",
+    "C": "9.7x10^18",
+    "D": "3.4x10^38"
+   },
+   "answer": "D",
+   "explanation": "IPv6 uses 128-bit addresses, giving 2^128 possible addresses. Calculating: 2^128 ≈ 3.4 x 10^38, which matches option (d) exactly. The other options are far too small -- they correspond to nowhere near 128 bits of address space (for comparison, IPv4's 32 bits gives only about 4.3x10^9 addresses), so they are decoys of the wrong order of magnitude."
+  },
+  {
+   "id": "TECH1_2024-7",
+   "paper": "TECH1",
+   "unit": "1",
+   "sub": "Sub-netting",
+   "question": "IPv4 address having subnet mask 255.255.224.0 can support ______ hosts.",
+   "options": {
+    "A": "8190",
+    "B": "8192",
+    "C": "9056",
+    "D": "1024"
+   },
+   "answer": "A",
+   "explanation": "Subnet mask 255.255.224.0 is /19 (8+8+3=19 network bits), leaving 32-19=13 host bits. Usable hosts = 2^13 - 2 = 8192 - 2 = 8190 (subtracting the network address and the broadcast address). Option (b) 8192 is the common trap of forgetting to subtract the two reserved addresses; (c) and (d) do not correspond to any clean power-of-two host count for this mask."
+  },
+  {
+   "id": "TECH1_2024-8",
+   "paper": "TECH1",
+   "unit": "1",
+   "sub": "TCP/IP",
+   "question": "How many class A, B and C network IDs can exist?",
+   "options": {
+    "A": "2,113,658",
+    "B": "16,382",
+    "C": "126",
+    "D": "128"
+   },
+   "answer": "A",
+   "explanation": "Summing the classful network ID space: Class A gives 2^7-2=126 usable network IDs (excluding all-0s and the 127 loopback block), Class B gives 2^14=16,384 network IDs, and Class C gives 2^21=2,097,152 network IDs. Adding these (126+16,384+2,097,152) gives a total in the 2.1-million range, matching option (a); the other options are just the individual per-class figures (126 for A, ~16,382/16,384 for B) rather than the combined total the question asks for."
+  },
+  {
+   "id": "TECH1_2024-9",
+   "paper": "TECH1",
+   "unit": "1",
+   "sub": "TCP/IP",
+   "question": "Which of the following TCP/IP protocol is used for file transfer with minimal capability and minimal overhead?",
+   "options": {
+    "A": "RARP",
+    "B": "FTP",
+    "C": "TFTP",
+    "D": "TELNET"
+   },
+   "answer": "C",
+   "explanation": "TFTP (Trivial File Transfer Protocol) runs over UDP with no authentication, no directory listing, and a minimal command set -- exactly the 'minimal capability, minimal overhead' file-transfer protocol used for tasks like bootstrapping network devices. FTP (b) is the full-featured, higher-overhead TCP-based file transfer protocol, RARP (a) resolves MAC-to-IP addresses (not file transfer), and TELNET (d) is a remote terminal protocol, not a file-transfer protocol."
+  },
+  {
+   "id": "TECH1_2024-10",
+   "paper": "TECH1",
+   "unit": "1",
+   "sub": "EIGRP and OSPF",
+   "question": "Which OSPF command can you use to view the OSPF routing table on a Cisco router?",
+   "options": {
+    "A": "show ospf route",
+    "B": "show ip route ospf",
+    "C": "show ip ospf",
+    "D": "show ip ospf database"
+   },
+   "answer": "B",
+   "explanation": "'show ip route ospf' filters the router's IP routing table to display only the routes learned via OSPF, which is what 'view the OSPF routing table' asks for. 'show ip ospf' (c) and 'show ip ospf database' (d) instead show OSPF process parameters and the link-state database (topology information), not the actual routing table, and 'show ospf route' (a) is not valid Cisco IOS syntax."
+  },
+  {
+   "id": "TECH1_2024-11",
+   "paper": "TECH1",
+   "unit": "1",
+   "sub": "Wireless Technologies",
+   "question": "Which Wi-Fi standard introduced the 5 GHz band to improve wireless network performance?",
+   "options": {
+    "A": "802.11ac",
+    "B": "802.11b",
+    "C": "802.11g",
+    "D": "802.11n"
+   },
+   "answer": "D",
+   "explanation": "Among the four options, 802.11n (2009) was the first to add optional dual-band operation, letting devices use the less-congested 5 GHz band alongside 2.4 GHz plus MIMO to boost throughput. 802.11b and 802.11g operate only in the 2.4 GHz band, so they are excluded. Note: strictly speaking, 802.11a (not listed here) was the very first IEEE standard to use 5 GHz back in 1999; since it is absent from the choices, 802.11n is the best fit among the given options, but this question is flagged as ambiguous because 802.11ac (5 GHz-only, higher throughput) is also a defensible reading of 'introduced 5 GHz... to improve performance.'"
+  },
+  {
+   "id": "TECH1_2024-12",
+   "paper": "TECH1",
+   "unit": "1",
+   "sub": "Spanning Tree Protocol",
+   "question": "What is the role of a Designated Port in Spanning Tree Protocol?",
+   "options": {
+    "A": "To prevent network loops",
+    "B": "To forward traffic towards and from the root bridge",
+    "C": "To calculate the shortest path to the root bridge",
+    "D": "To handle network address translation"
+   },
+   "answer": "B",
+   "explanation": "On each LAN segment, STP elects one Designated Port (on the switch with the best path cost to the root) to forward traffic to and from that segment toward the root bridge; all other ports on that segment go into a blocking/discarding state. Option (a) describes STP's overall goal, not the designated port's specific job; (c) describes the root-port-selection calculation, which happens on each non-root switch, not what a designated port does; (d) (NAT) is unrelated to Layer-2 STP entirely."
+  },
+  {
+   "id": "TECH1_2024-13",
+   "paper": "TECH1",
+   "unit": "1",
+   "sub": "Basic Networking",
+   "question": "Which of the following access control methods is probabilistic?",
+   "options": {
+    "A": "polling",
+    "B": "contention",
+    "C": "token passing",
+    "D": "sliding window"
+   },
+   "answer": "D",
+   "explanation": "Contention-based access (e.g., CSMA/CD, CSMA/CA) lets stations transmit whenever they believe the medium is free, so collisions/success are governed by probability -- there is no guaranteed turn. Polling and token passing are deterministic: a controller or a circulating token explicitly grants each station its turn in a defined order. Sliding window is a flow-control mechanism, not a medium access control method, so it does not belong in this comparison at all."
+  },
+  {
+   "id": "TECH1_2024-14",
+   "paper": "TECH1",
+   "unit": "1",
+   "sub": "Network Address Translation",
+   "question": "What is the primary purpose of Network Address Translation (NAT)?",
+   "options": {
+    "A": "To increase network speed",
+    "B": "To encrypt data transmitted over the network",
+    "C": "To provide a secure connection between two remote networks",
+    "D": "To allow multiple devices on a private network to share a single public IP address"
+   },
+   "answer": "D",
+   "explanation": "NAT's core function is translating many private, internal IP addresses to one (or a few) public IP address(es) at the network boundary, letting an entire private network reach the internet through a single registered address -- this also conserves scarce public IPv4 addresses. It does not inherently speed up traffic (a), encrypt data (b -- that is the job of protocols like IPsec/TLS), or itself establish a secure tunnel between two networks (c, which describes a VPN)."
+  },
+  {
+   "id": "TECH1_2024-15",
+   "paper": "TECH1",
+   "unit": "1",
+   "sub": "TCP/IP",
+   "question": "The IP address which is never routed outside the host computer is —",
+   "options": {
+    "A": "192.168.0.1",
+    "B": "169.178.0.1",
+    "C": "10.0.0.1",
+    "D": "127.0.0.1"
+   },
+   "answer": "D",
+   "explanation": "127.0.0.1 falls in the 127.0.0.0/8 loopback block, reserved so a host can send traffic to itself for testing; routers never forward loopback-addressed packets onto the network. 192.168.0.1 (a) and 10.0.0.1 (c) are private-network addresses -- they are routed within a private LAN, just not on the public internet, so they are not 'never routed'. 169.178.0.1 (b) is not the reserved APIPA/link-local block (which is 169.254.0.0/16), making it a plain routable-looking address here."
+  },
+  {
+   "id": "TECH1_2024-16",
+   "paper": "TECH1",
+   "unit": "1",
+   "sub": "Virtual LANs",
+   "question": "Virtual LAN is implemented in which layer?",
+   "options": {
+    "A": "Physical layer",
+    "B": "Datalink layer",
+    "C": "Network layer",
+    "D": "Session layer"
+   },
+   "answer": "B",
+   "explanation": "VLANs are implemented at the Data Link layer (Layer 2), where switches tag Ethernet frames (e.g., IEEE 802.1Q tagging) to logically separate broadcast domains without needing separate physical switches. The Physical layer (a) only deals with raw signaling/cabling and has no concept of frames or tags, the Network layer (c) handles IP routing between different networks/subnets (a separate concern from VLAN segmentation), and the Session layer (d) is an OSI layer with no role in switch-level frame tagging."
+  },
+  {
+   "id": "TECH1_2024-17",
+   "paper": "TECH1",
+   "unit": "1",
+   "sub": "EIGRP and OSPF",
+   "question": "How does EIGRP ensure that routing information is synchronized across routers?",
+   "options": {
+    "A": "By using periodic updates",
+    "B": "By sending updates only when there is a topology change",
+    "C": "By using the Reliable Transport Protocol (RTP)",
+    "D": "By manually configuring synchronization settings"
+   },
+   "answer": "C",
+   "explanation": "EIGRP's own Reliable Transport Protocol (RTP) is the mechanism that guarantees ordered, acknowledged delivery of EIGRP packets (updates, queries, replies) between neighbors, which is what keeps their topology/routing information synchronized. Option (b) is true of EIGRP's triggered-update behavior but describes when updates are sent, not the reliability mechanism that keeps routers in sync; (a) is actually characteristic of older distance-vector protocols like RIP, not EIGRP; and (d) is not how any dynamic routing protocol operates."
+  },
+  {
+   "id": "TECH1_2024-18",
+   "paper": "TECH1",
+   "unit": "1",
+   "sub": "Basic Networking",
+   "question": "Start and stop bits are used in serial communication for —",
+   "options": {
+    "A": "Error detection",
+    "B": "Error correction",
+    "C": "Synchronization",
+    "D": "Slowing down the communication"
+   },
+   "answer": "C",
+   "explanation": "In asynchronous serial communication, each data byte is framed by a start bit (signaling the beginning) and one or more stop bits (signaling the end), letting the receiver's clock synchronize to the incoming byte without a shared clock line. They carry no parity/checksum information, so they play no role in error detection (a) or correction (b), and while they do add slight overhead, their purpose is framing/synchronization, not deliberately slowing transmission (d)."
+  },
+  {
+   "id": "TECH1_2024-19",
+   "paper": "TECH1",
+   "unit": "1",
+   "sub": "Security",
+   "question": "In network security, what is a \"honeypot\"?",
+   "options": {
+    "A": "A secure area for storing sensitive data",
+    "B": "A software that updates security patches",
+    "C": "A network segment designed to attract and trap malicious activity",
+    "D": "A tool for encrypting network traffic"
+   },
+   "answer": "C",
+   "explanation": "A honeypot is a deliberately exposed decoy system or network segment designed to lure attackers, so their techniques can be observed and their activity contained/studied away from real assets. It is not a data vault (a), a patch-management tool (b), or an encryption tool (d) -- its value comes specifically from attracting and isolating malicious behavior, the opposite of hiding data securely."
+  },
+  {
+   "id": "TECH1_2024-20",
+   "paper": "TECH1",
+   "unit": "1",
+   "sub": "Basic Networking",
+   "question": "As layer 2 is for ______, layer 3 is for ______.",
+   "options": {
+    "A": "Routing, end-to-end connection",
+    "B": "Security, Switching",
+    "C": "Switching, Routing",
+    "D": "Switching, Data correction"
+   },
+   "answer": "C",
+   "explanation": "In the OSI model, Layer 2 (Data Link) is where switches forward frames within a LAN based on MAC addresses -- switching -- while Layer 3 (Network) is where routers forward packets between different networks based on IP addresses -- routing. Option (a) reverses the pairing (routing is Layer 3's job, not Layer 2's), (b) and (d) both misassign 'Switching' to Layer 3 or pair Layer 2 with unrelated functions (security, data correction) that are not its defining role."
+  },
+  {
+   "id": "TECH1_OLD-1",
+   "paper": "TECH1",
+   "unit": "1",
+   "sub": "IPv6",
+   "question": "How long is an IPv6 address?",
+   "options": {
+    "A": "32 bits",
+    "B": "128 bytes",
+    "C": "64 bits",
+    "D": "128 bits"
+   },
+   "answer": "D",
+   "explanation": "An IPv6 address is 128 bits (16 bytes) long, written as eight 16-bit hextets in hexadecimal, giving 2^128 possible addresses. Option (a) 32 bits is actually the length of an IPv4 address, a classic mix-up between the two protocol versions. Option (b) 128 bytes confuses bytes with bits — that would be 1024 bits, far larger than the real address. Option (c) 64 bits is only the size of the interface identifier (host) portion of an IPv6 address, not the whole address, which also has a 64-bit network prefix."
+  },
+  {
+   "id": "TECH1_OLD-2",
+   "paper": "TECH1",
+   "unit": "1",
+   "sub": "TCP/IP",
+   "question": "Which address is used in an internet employing the TCP/IP protocols?",
+   "options": {
+    "A": "Physical address and logical address",
+    "B": "Port address",
+    "C": "Specific address",
+    "D": "All of the mentioned"
+   },
+   "answer": "D",
+   "explanation": "TCP/IP communication uses a different address type at each layer: the physical (MAC) address at the data link layer for node-to-node delivery, the logical (IP) address at the network layer for host-to-host routing, the port address at the transport layer to identify a specific process, and a specific/application address (such as an e-mail address) at the application layer. Since real TCP/IP networks genuinely use all four address types simultaneously for different purposes, none of (a), (b), or (c) alone captures the full picture, making (d) All of the mentioned the only complete and correct answer."
+  },
+  {
+   "id": "TECH1_OLD-3",
+   "paper": "TECH1",
+   "unit": "1",
+   "sub": "IPv6",
+   "question": "What is the header length of an IPv6 datagram?",
+   "options": {
+    "A": "10 bytes",
+    "B": "25 bytes",
+    "C": "30 bytes",
+    "D": "40 bytes"
+   },
+   "answer": "D",
+   "explanation": "The IPv6 base header has a fixed length of 40 bytes, unlike IPv4's header which varies from 20 to 60 bytes because of optional fields. IPv6 simplified this by moving optional information into separate extension headers chained after the fixed 40-byte header, which speeds up router processing since routers no longer need to parse variable-length option fields. Options (a) 10 bytes, (b) 25 bytes, and (c) 30 bytes do not correspond to any real IPv6 or IPv4 header size and are simply distractor numbers."
+  },
+  {
+   "id": "TECH1_OLD-4",
+   "paper": "TECH1",
+   "unit": "1",
+   "sub": "Network Address Translation",
+   "question": "Which command would you place on interface on a private network?",
+   "options": {
+    "A": "ip nat inside",
+    "B": "ip nat outside",
+    "C": "ip outside global",
+    "D": "ip inside local"
+   },
+   "answer": "A",
+   "explanation": "In Cisco NAT configuration, the interface-level command \"ip nat inside\" is applied to the interface that connects to the private (inside) network, while \"ip nat outside\" is applied to the interface facing the public (outside) network such as the internet. \"ip outside global\" and \"ip inside local\" are not valid Cisco commands at all — inside local/global and outside local/global are merely the four NAT address-type terms, not command syntax. Since the question asks specifically about the private-network-facing interface, the correct command is (a) ip nat inside."
+  },
+  {
+   "id": "TECH1_OLD-5",
+   "paper": "TECH1",
+   "unit": "1",
+   "sub": "Wireless Technologies",
+   "question": "What is the maximum distance with maximum data rate for 802.11a?",
+   "options": {
+    "A": "About 65-75 feet",
+    "B": "About 90-100 feet",
+    "C": "About 150 feet",
+    "D": "Over 200 feet"
+   },
+   "answer": "A",
+   "explanation": "802.11a operates in the 5 GHz band and, because higher frequencies attenuate faster and penetrate obstacles poorly, its usable range at its maximum data rate (54 Mbps) is quite short indoors — commonly cited as roughly 25-75 feet in Cisco/CCNA wireless comparison tables, versus the much longer ranges of 802.11b/g at their top speeds. Of the given choices, only (a) About 65-75 feet falls within that commonly quoted range; the larger distances in (b), (c), and (d) describe either lower-speed fallback range or other standards like 802.11b/g/n. This value varies across sources, so treat it as approximate."
+  },
+  {
+   "id": "TECH1_OLD-6",
+   "paper": "TECH1",
+   "unit": "1",
+   "sub": "Basic Networking",
+   "question": "For a 10Mbps Ethernet link, if the length of the packet is 32 bits, the transmission delay is (in microseconds):",
+   "options": {
+    "A": "3.2",
+    "B": "32",
+    "C": "0.32",
+    "D": "320"
+   },
+   "answer": "A",
+   "explanation": "Transmission delay is packet size divided by link bandwidth: 32 bits / (10 x 10^6 bits per second) = 3.2 x 10^-6 seconds = 3.2 microseconds. Option (b) 32 results from forgetting to divide by the 10 Mbps rate at all (treating it as 1 bps). Option (c) 0.32 comes from mistakenly using 100 Mbps instead of 10 Mbps in the denominator. Option (d) 320 results from an inverted calculation (multiplying instead of dividing, or a misplaced decimal). Always keep units consistent (bits and bits-per-second) before dividing."
+  },
+  {
+   "id": "TECH1_OLD-7",
+   "paper": "TECH1",
+   "unit": "1",
+   "sub": "Basic Networking",
+   "question": "__________ is a high performance fiber optic token ring LAN running at 100 Mbps over distances upto 1000 stations connected.",
+   "options": {
+    "A": "FDDI",
+    "B": "FDDT",
+    "C": "FDDR",
+    "D": "FOTR"
+   },
+   "answer": "A",
+   "explanation": "FDDI (Fiber Distributed Data Interface) is exactly this: a token-ring-based LAN standard using fiber optic cable, running at 100 Mbps, capable of spanning up to 200 km and supporting up to about 500-1000 stations, typically deployed as a dual counter-rotating ring for fault tolerance. Options (b) FDDT, (c) FDDR, and (d) FOTR are invented acronyms that do not correspond to any real networking standard — they exist purely to test whether the candidate actually recognizes the correct FDDI acronym rather than pattern-matching similar-looking letters."
+  },
+  {
+   "id": "TECH1_OLD-8",
+   "paper": "TECH1",
+   "unit": "1",
+   "sub": "IPv6",
+   "question": "IPv6 does not use __________ type of address which is used by IPv4.",
+   "options": {
+    "A": "Broadcast",
+    "B": "Multicast",
+    "C": "Anycast",
+    "D": "None of the mentioned"
+   },
+   "answer": "A",
+   "explanation": "IPv6 eliminated the broadcast address type entirely; its functions are handled instead by multicast addresses (sending to a defined group of interfaces), which is more efficient because only interested nodes process the traffic. Multicast (b) is retained and expanded in IPv6, and anycast (c) is actually a new address type introduced by IPv6 (routing to the nearest of a group of interfaces), so both are incorrect as \"not used\" answers. Since broadcast is genuinely the address type IPv4 has that IPv6 dropped, (a) Broadcast is correct."
+  },
+  {
+   "id": "TECH1_OLD-9",
+   "paper": "TECH1",
+   "unit": "1",
+   "sub": "Network Devices - Switches, Router, Firewall, etc.",
+   "question": "A switch in a datagram network uses a:",
+   "options": {
+    "A": "destination address",
+    "B": "sender address",
+    "C": "routing table",
+    "D": "header"
+   },
+   "answer": "C",
+   "explanation": "In a datagram (connectionless, packet-switched) network, each switch/router makes an independent per-packet forwarding decision by consulting a routing (forwarding) table that maps destination address ranges to output ports; this table can change between packets of the same flow because there is no pre-established path. The destination address (a) is looked up IN that table rather than being the thing the switch \"uses\" as a mechanism, and sender address (b) and header (d) play no role in the forwarding decision itself. The wording of this question is compressed from its usual textbook form, so treat the answer as reasoned rather than certain."
+  },
+  {
+   "id": "TECH1_OLD-10",
+   "paper": "TECH1",
+   "unit": "1",
+   "sub": "Sub-netting",
+   "question": "You need to subnet a network that has 5 subnets, each with at least 16 hosts. Which classful subnet mask would you use?",
+   "options": {
+    "A": "255.255.255.192",
+    "B": "255.255.255.224",
+    "C": "255.255.255.240",
+    "D": "255.255.255.248"
+   },
+   "answer": "B",
+   "explanation": "Starting from a Class C network (default mask 255.255.255.0), we need enough subnet bits for >=5 subnets and enough host bits for >=16 hosts each. Mask .224 (11100000) borrows 3 bits for subnetting (up to 8 subnets, well over 5) and leaves 5 host bits, giving 2^5-2=30 usable hosts per subnet, satisfying both requirements. Mask .240 (option c) leaves only 4 host bits (2^4-2=14 hosts), which fails the \"at least 16 hosts\" requirement. Mask .192 (option a) gives only 2 subnet bits (up to 4 subnets), too few for 5 subnets. Mask .248 (option d) leaves just 3 host bits (6 hosts), also too few."
+  },
+  {
+   "id": "TECH1_OLD-11",
+   "paper": "TECH1",
+   "unit": "1",
+   "sub": "IOS and Security Device Manager",
+   "question": "Which command loads a new version of the Cisco IOS into a router?",
+   "options": {
+    "A": "copy flash ftp",
+    "B": "copy ftp flash",
+    "C": "copy flash tftp",
+    "D": "copy tftp flash"
+   },
+   "answer": "D",
+   "explanation": "Cisco's copy command syntax is \"copy <source> <destination>\", so to load a new IOS image FROM a TFTP server INTO the router's flash memory, the command is \"copy tftp flash\". Option (a) \"copy flash ftp\" and (c) \"copy flash tftp\" both go the wrong direction — they back up the existing IOS image out of flash onto a server, rather than loading a new one in. Option (b) \"copy ftp flash\" uses FTP rather than the standard TFTP file-transfer method typically used for IOS upgrades in this exam context, making (d) the intended answer."
+  },
+  {
+   "id": "TECH1_OLD-12",
+   "paper": "TECH1",
+   "unit": "1",
+   "sub": "TCP/IP",
+   "question": "In which layer are segments made?",
+   "options": {
+    "A": "Session layer",
+    "B": "Transport layer",
+    "C": "Application layer",
+    "D": "Network layer"
+   },
+   "answer": "B",
+   "explanation": "The transport layer (e.g., TCP) breaks application data into segments, each carrying a header with source/destination port numbers and sequencing information, before handing them down to the network layer. The network layer instead works with \"packets\" (adding IP addressing), the data link layer works with \"frames\", and the physical layer works with raw \"bits\" — segment is specifically the transport-layer term. Session layer (a) and application layer (c) don't perform this specific data-unit segmentation function, so (b) Transport layer is correct."
+  },
+  {
+   "id": "TECH1_OLD-13",
+   "paper": "TECH1",
+   "unit": "1",
+   "sub": "Spanning Tree Protocol",
+   "question": "In a network of LANs connected by bridges, packets are sent from one LAN to another through intermediate bridges. Since more than one path may exist between two LANs, packets may have to be routed through multiple bridges. Why is the spanning tree algorithm used for bridge-routing?",
+   "options": {
+    "A": "For shortest path routing between LANs",
+    "B": "For avoiding loops in the routing paths",
+    "C": "For fault tolerance",
+    "D": "For minimizing collisions"
+   },
+   "answer": "B",
+   "explanation": "When multiple bridges create redundant paths between LAN segments, forwarded frames could circulate endlessly, causing broadcast storms and MAC table instability. The Spanning Tree Protocol solves this by logically disabling redundant links so that only a single loop-free tree of active paths remains between any two LANs, re-enabling backup links only if the active path fails. It is not primarily about finding the shortest path (a) — it may block a shorter path to keep the tree loop-free — nor about fault tolerance (c) or collision avoidance (d) directly, though loop prevention indirectly supports both."
+  },
+  {
+   "id": "TECH1_OLD-14",
+   "paper": "TECH1",
+   "unit": "1",
+   "sub": "Internetworking",
+   "question": "The Identifier that is used for data transfer in virtual circuit network is:",
+   "options": {
+    "A": "Global address",
+    "B": "Virtual circuit identifier",
+    "C": "Network identifier",
+    "D": "IP identifier"
+   },
+   "answer": "B",
+   "explanation": "In a virtual-circuit (connection-oriented) network, a global address is only used once, at connection-setup time, to establish the path; after that, every switch along the path assigns a small locally-significant Virtual Circuit Identifier (VCI), and subsequent data packets carry only this short VCI in their header instead of the full source/destination address. This is more efficient than carrying full addresses on every packet (as datagram networks do). \"Network identifier\" (c) and \"IP identifier\" (d) are not real terms used in virtual-circuit switching, and \"global address\" (a) is used only once during setup, not for ongoing data transfer."
+  },
+  {
+   "id": "TECH1_OLD-15",
+   "paper": "TECH1",
+   "unit": "1",
+   "sub": "Wireless Technologies",
+   "question": "Wireless transmission can be done via:",
+   "options": {
+    "A": "Radio waves",
+    "B": "Microwaves",
+    "C": "Infrared",
+    "D": "all of the mentioned"
+   },
+   "answer": "D",
+   "explanation": "Wireless transmission spans several parts of the electromagnetic spectrum, all of which are used in practice: radio waves (e.g., Wi-Fi, AM/FM broadcast), microwaves (satellite links, terrestrial point-to-point and Wi-Fi/Bluetooth at higher frequencies), and infrared (short-range remote controls, some LAN and IR data links). Since all three are genuine, real-world wireless transmission media, no single option among (a), (b), or (c) alone is the complete answer; the correct choice is (d) all of the mentioned."
+  },
+  {
+   "id": "TECH1_OLD-16",
+   "paper": "TECH1",
+   "unit": "1",
+   "sub": "Basic Networking",
+   "question": "Transmission data rate is primarily decided by:",
+   "options": {
+    "A": "Network layer",
+    "B": "Physical layer",
+    "C": "Datalink layer",
+    "D": "Transport layer"
+   },
+   "answer": "B",
+   "explanation": "The physical layer is responsible for the actual electrical, optical, or radio signaling used to transmit raw bits over a medium, and it is the physical medium and signaling scheme (cable type, modulation, bandwidth, encoding) that determines the achievable bit rate (e.g., 100 Mbps Fast Ethernet vs 1000 Mbps Gigabit Ethernet). The network layer (a), data link layer (c), and transport layer (d) work with logically higher-level data units (packets, frames, segments) and do not themselves set the raw signaling rate of the underlying link."
+  },
+  {
+   "id": "TECH1_OLD-17",
+   "paper": "TECH1",
+   "unit": "1",
+   "sub": "TCP/IP",
+   "question": "A DNS client is called __________.",
+   "options": {
+    "A": "DNS updater",
+    "B": "DNS resolver",
+    "C": "DNS handler",
+    "D": "None of the mentioned"
+   },
+   "answer": "B",
+   "explanation": "The software component on a client machine (or embedded in an application/OS) that formulates DNS queries and sends them to a DNS server, then interprets the responses, is called a DNS resolver. \"DNS updater\" (a) and \"DNS handler\" (c) are not standard networking terminology for this role — they are plausible-sounding but fabricated distractor terms, which is a common technique in MCQ writing to test precise vocabulary recall rather than general concept understanding."
+  },
+  {
+   "id": "TECH1_OLD-18",
+   "paper": "TECH1",
+   "unit": "1",
+   "sub": "EIGRP and OSPF",
+   "question": "Open Shortest Path First (OSPF) is also called as __________.",
+   "options": {
+    "A": "Link state protocol",
+    "B": "Error-correction protocol",
+    "C": "Routing information protocol",
+    "D": "All of the mentioned"
+   },
+   "answer": "A",
+   "explanation": "OSPF is the classic example of a link-state routing protocol: every router builds a complete map (topology database) of the network by flooding link-state advertisements to all routers, then independently runs Dijkstra's shortest-path-first algorithm on that map. \"Error-correction protocol\" (b) describes something entirely different (like CRC or FEC schemes), and \"Routing Information Protocol\" (c) is actually RIP, a distinct and older distance-vector protocol, not another name for OSPF. So (a) Link state protocol is the only accurate synonym."
+  },
+  {
+   "id": "TECH1_OLD-19",
+   "paper": "TECH1",
+   "unit": "1",
+   "sub": "EIGRP and OSPF",
+   "question": "Which command will display all the EIGRP feasible successor routes known to a router?",
+   "options": {
+    "A": "show ip routes *",
+    "B": "show ip EIGRP summary",
+    "C": "show ip EIGRP topology",
+    "D": "show ip EIGRP adjacencies"
+   },
+   "answer": "C",
+   "explanation": "The \"show ip eigrp topology\" command displays the router's EIGRP topology table, which lists every destination network along with its successor route (the currently used best path) and any feasible successor routes (backup loop-free paths kept ready for instant use if the successor fails). \"show ip eigrp adjacencies\" (d) instead lists neighboring EIGRP routers, not routes; \"show ip eigrp summary\" (b) gives aggregate statistics, not per-route detail; and \"show ip routes *\" (a) is not valid EIGRP-specific syntax at all."
+  },
+  {
+   "id": "TECH1_OLD-20",
+   "paper": "TECH1",
+   "unit": "1",
+   "sub": "Basic Networking",
+   "question": "In OSI reference model, the lowest layer for end-to-end communication is:",
+   "options": {
+    "A": "Physical layer",
+    "B": "Datalink layer",
+    "C": "Network Layer",
+    "D": "Transport layer"
+   },
+   "answer": "C",
+   "explanation": "In OSI terminology, the physical and data link layers operate only hop-by-hop (node-to-adjacent-node) across a single physical link, not across the whole path to the final destination. The network layer is the lowest layer whose addressing and routing genuinely span from the original source host all the way to the final destination host (end-to-end delivery of packets), even though it does this through multiple hops. The transport layer (d) also provides end-to-end (process-to-process) service, but it sits above the network layer, so it is not the \"lowest\" layer offering end-to-end semantics. This question is a known point of debate in textbooks, hence lower confidence."
+  }
+ ]
+}

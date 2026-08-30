@@ -1,0 +1,231 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 15,
+ "questions": [
+  {
+   "id": "GEN-175",
+   "paper": "GS",
+   "unit": "5",
+   "sub": "Origin and migration of the Mizo people",
+   "question": "According to widely accepted oral tradition, the Mizo people trace their earliest legendary origin to emergence from a place/rock called:",
+   "options": {
+    "A": "Sinlung (Chhinlung)",
+    "B": "Kabaw Valley",
+    "C": "Champhai plains",
+    "D": "Lentlang range"
+   },
+   "answer": "A",
+   "explanation": "Mizo oral tradition holds that their ancestors emerged from a place called Chhinlung (Sinlung), often associated with a legendary site in present-day China, before their long migration."
+  },
+  {
+   "id": "GEN-176",
+   "paper": "GS",
+   "unit": "5",
+   "sub": "Origin and migration of the Mizo people",
+   "question": "The Mizo people are generally believed to belong to which broader ethnic/linguistic group?",
+   "options": {
+    "A": "Indo-Aryan",
+    "B": "Tibeto-Burman",
+    "C": "Dravidian",
+    "D": "Austroasiatic"
+   },
+   "answer": "B",
+   "explanation": "The Mizo, along with other Kuki-Chin-Mizo groups, belong to the Tibeto-Burman linguistic and ethnic family, having migrated from the Chin Hills/Myanmar region into present-day Mizoram."
+  },
+  {
+   "id": "GEN-177",
+   "paper": "GS",
+   "unit": "5",
+   "sub": "Traditional Mizo society, chieftainship and Zawlbuk",
+   "question": "In traditional Mizo village society, the village chief was known as:",
+   "options": {
+    "A": "Upa",
+    "B": "Lal",
+    "C": "Puithiam",
+    "D": "Tlangau"
+   },
+   "answer": "B",
+   "explanation": "In traditional Mizo society, the village chief was called 'Lal', who administered the village with the help of a council of elders (Upa)."
+  },
+  {
+   "id": "GEN-178",
+   "paper": "GS",
+   "unit": "5",
+   "sub": "Traditional Mizo society, chieftainship and Zawlbuk",
+   "question": "The 'Zawlbuk' in traditional Mizo village life was primarily:",
+   "options": {
+    "A": "The chief's granary",
+    "B": "A bachelors' dormitory that trained unmarried young men and served as a defence post",
+    "C": "A sacred worship hall for the priest",
+    "D": "The village marketplace"
+   },
+   "answer": "B",
+   "explanation": "The Zawlbuk was a communal bachelors' dormitory where unmarried young men lived, received informal training in discipline, warfare and social duties, and helped defend the village."
+  },
+  {
+   "id": "GEN-179",
+   "paper": "GS",
+   "unit": "5",
+   "sub": "Advent of the British and annexation of the Lushai Hills",
+   "question": "The Lushai Hills (present-day Mizoram) came under formal British control following which military expedition?",
+   "options": {
+    "A": "The Anglo-Burmese War",
+    "B": "The Lushai Expedition of 1871-72",
+    "C": "The Naga Hills Expedition",
+    "D": "The Jaintia Expedition"
+   },
+   "answer": "B",
+   "explanation": "The Lushai Expedition of 1871-72, launched after Lushai raids on British tea gardens and the abduction of Mary Winchester, was a key step leading to British annexation of the Lushai Hills, formally completed in 1890-95."
+  },
+  {
+   "id": "GEN-180",
+   "paper": "GS",
+   "unit": "5",
+   "sub": "Advent of the British and annexation of the Lushai Hills",
+   "question": "The Lushai Hills District was formally constituted and placed under British administration as part of which province?",
+   "options": {
+    "A": "Bengal Presidency",
+    "B": "Assam",
+    "C": "Manipur State",
+    "D": "Burma"
+   },
+   "answer": "B",
+   "explanation": "After annexation in the 1890s, the Lushai Hills District was administered as part of the province of Assam under British rule."
+  },
+  {
+   "id": "GEN-181",
+   "paper": "GS",
+   "unit": "5",
+   "sub": "Christian missionaries, literacy and social change",
+   "question": "Which two pioneer Christian missionaries are credited with arriving in the Lushai Hills in 1894 and establishing the foundation of modern education and the Mizo written script?",
+   "options": {
+    "A": "William Carey and Alexander Duff",
+    "B": "F. W. Savidge and J. H. Lorrain",
+    "C": "J. N. Farquhar and C. F. Andrews",
+    "D": "Robert Morrison and William Ward"
+   },
+   "answer": "B",
+   "explanation": "F. W. Savidge and J. H. Lorrain, pioneer Welsh/British missionaries, arrived in Aizawl on 11 January 1894 and are regarded as founders of modern education, the Mizo alphabet/script and literature; 11 January is observed as Missionary Day in Mizoram."
+  },
+  {
+   "id": "GEN-182",
+   "paper": "GS",
+   "unit": "5",
+   "sub": "The Mizo National Front movement and the 1966 uprising",
+   "question": "The Mizo National Famine Front, precursor to the Mizo National Front, was formed in 1959-60 in response to which crisis?",
+   "options": {
+    "A": "The Bamboo Flowering Famine (Mautam)",
+    "B": "A major earthquake",
+    "C": "A cholera epidemic",
+    "D": "Severe drought in the Chittagong Hill Tracts"
+   },
+   "answer": "A",
+   "explanation": "The Mizo National Famine Front was formed in 1959 to coordinate relief during the Mautam famine caused by bamboo flowering and the resulting rodent infestation destroying crops; perceived government inaction fuelled the later demand for a separate Mizo state."
+  },
+  {
+   "id": "GEN-183",
+   "paper": "GS",
+   "unit": "5",
+   "sub": "The Mizo National Front movement and the 1966 uprising",
+   "question": "Who led the Mizo National Front (MNF) and declared independence, triggering the armed uprising against the Indian government on 1 March 1966?",
+   "options": {
+    "A": "Laldenga",
+    "B": "R. Zamawia",
+    "C": "Vanlawma",
+    "D": "Lalthanhawla"
+   },
+   "answer": "A",
+   "explanation": "Laldenga, founder-leader of the Mizo National Front, declared independence and launched the armed insurgency (Operation Jericho) on 1 March 1966, leading to two decades of insurgency."
+  },
+  {
+   "id": "GEN-184",
+   "paper": "GS",
+   "unit": "5",
+   "sub": "Mizoram Peace Accord 1986 and attainment of statehood 1987",
+   "question": "The Mizoram Peace Accord, which ended the two-decade-long insurgency, was signed between the Government of India and the Mizo National Front in which year?",
+   "options": {
+    "A": "1972",
+    "B": "1978",
+    "C": "1986",
+    "D": "1990"
+   },
+   "answer": "C",
+   "explanation": "The Mizoram Peace Accord was signed on 30 June 1986 between the Government of India, represented by Home Secretary R. D. Pradhan, and Laldenga of the MNF."
+  },
+  {
+   "id": "GEN-185",
+   "paper": "GS",
+   "unit": "5",
+   "sub": "Mizoram Peace Accord 1986 and attainment of statehood 1987",
+   "question": "Mizoram was granted full statehood as the 23rd state of the Indian Union on which date?",
+   "options": {
+    "A": "21 January 1972",
+    "B": "20 February 1987",
+    "C": "30 June 1986",
+    "D": "26 January 1987"
+   },
+   "answer": "B",
+   "explanation": "Mizoram became the 23rd state of India on 20 February 1987, under the State of Mizoram Act, 1986, following the Peace Accord; it had earlier been a Union Territory since 1972."
+  },
+  {
+   "id": "GEN-186",
+   "paper": "GS",
+   "unit": "5",
+   "sub": "Districts, administrative structure and local government of Mizoram",
+   "question": "Which district of Mizoram shares a trade border town, Zokhawthar, with Myanmar and is a key border trade point?",
+   "options": {
+    "A": "Lunglei",
+    "B": "Champhai",
+    "C": "Mamit",
+    "D": "Siaha"
+   },
+   "answer": "B",
+   "explanation": "Zokhawthar, a village in Champhai district, is a major India-Myanmar border trade point located on the Tiau river."
+  },
+  {
+   "id": "GEN-187",
+   "paper": "GS",
+   "unit": "5",
+   "sub": "Mizo festivals, dances, dress, cuisine and folklore",
+   "question": "Which of the following is a traditional Mizo harvest/agricultural festival?",
+   "options": {
+    "A": "Chapchar Kut",
+    "B": "Bihu",
+    "C": "Wangala",
+    "D": "Losar"
+   },
+   "answer": "A",
+   "explanation": "Chapchar Kut is one of the most important and popular traditional Mizo festivals, celebrated after jhum (shifting cultivation) clearing operations, marking the beginning of spring."
+  },
+  {
+   "id": "GEN-188",
+   "paper": "GS",
+   "unit": "5",
+   "sub": "Mizo festivals, dances, dress, cuisine and folklore",
+   "question": "The famous Mizo bamboo dance, in which dancers step between crossed bamboo staves to rhythmic beats, is known as:",
+   "options": {
+    "A": "Cheraw",
+    "B": "Khuallam",
+    "C": "Chheihlam",
+    "D": "Sarlamkai"
+   },
+   "answer": "A",
+   "explanation": "Cheraw, popularly called the bamboo dance, is one of the oldest and most iconic traditional Mizo dances, performed with pairs of horizontal bamboo staves."
+  },
+  {
+   "id": "GEN-189",
+   "paper": "GS",
+   "unit": "5",
+   "sub": "Prominent personalities of Mizoram",
+   "question": "Who signed the 1986 Mizoram Peace Accord on behalf of the Mizo National Front and went on to become the first Chief Minister of the State of Mizoram?",
+   "options": {
+    "A": "Lalthanhawla",
+    "B": "Ch. Chhunga",
+    "C": "Laldenga",
+    "D": "Zoramthanga"
+   },
+   "answer": "C",
+   "explanation": "Laldenga, MNF leader, became the first Chief Minister of Mizoram after statehood in 1987 following the Peace Accord he signed in 1986; Ch. Chhunga had earlier served as Chief Minister of the Union Territory formed in 1972."
+  }
+ ]
+}

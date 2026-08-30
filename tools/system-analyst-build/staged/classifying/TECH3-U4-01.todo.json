@@ -1,0 +1,216 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 14,
+ "questions": [
+  {
+   "id": "TECH3_2024-15",
+   "paper": "TECH3",
+   "unit": "4",
+   "sub": "Develop Project Management Plan: Outputs",
+   "question": "The project management in which different sub-components of the project such as tasks, resources and stakeholders are coordinated to ensure the success of a project is termed as —",
+   "options": {
+    "A": "Aggregation Management",
+    "B": "Sub-to-Major Phasing",
+    "C": "Generalization Phasing",
+    "D": "Project Integration Management"
+   },
+   "answer": "D",
+   "explanation": "Project Integration Management is the PMBOK knowledge area dedicated to identifying, defining, combining, unifying and coordinating the various processes and activities - tasks, resources, stakeholders, plans - within the project management process groups, precisely as described in the stem. The other three options ('Aggregation Management', 'Sub-to-Major Phasing', 'Generalization Phasing') are invented-sounding terms with no basis in PMBOK terminology and exist purely as distractors."
+  },
+  {
+   "id": "TECH3_2024-16",
+   "paper": "TECH3",
+   "unit": "4",
+   "sub": "Direct and Manage Project Work: Tools and Techniques",
+   "question": "Which of the following tools and techniques is used in the Direct and Manage Project Work process to facilitate project execution?",
+   "options": {
+    "A": "Meetings",
+    "B": "Risk Analysis",
+    "C": "Resource Levelling",
+    "D": "Earned Value Management (EVM)"
+   },
+   "answer": "A",
+   "explanation": "PMBOK lists Meetings as one of the core tools and techniques of the Direct and Manage Project Work process, used to discuss and act on project matters as work is executed. Resource Levelling is a scheduling tool used in Develop Schedule; Earned Value Management is a technique used in Control Costs/Control Schedule for performance measurement; Risk Analysis belongs to the Risk Management processes. None of these three are ITTO elements of Direct and Manage Project Work."
+  },
+  {
+   "id": "TECH3_2024-17",
+   "paper": "TECH3",
+   "unit": "4",
+   "sub": "Monitor and Control Project Work: Outputs",
+   "question": "Which of the following is an output of the Monitor and Control Project Work process?",
+   "options": {
+    "A": "Project Charter",
+    "B": "Change Requests",
+    "C": "Project Schedule Network Diagram",
+    "D": "Stakeholder Engagement Plan"
+   },
+   "answer": "B",
+   "explanation": "PMBOK lists Change Requests (along with work performance reports and project management plan/document updates) as outputs of Monitor and Control Project Work, since monitoring often surfaces the need for corrective/preventive action or defect repair. The Project Charter is an output of Develop Project Charter (Initiating); the Project Schedule Network Diagram is an output of Sequence Activities; the Stakeholder Engagement Plan is an output of Plan Stakeholder Engagement - none belong to this monitoring process."
+  },
+  {
+   "id": "TECH3_2024-52",
+   "paper": "TECH3",
+   "unit": "4",
+   "sub": "Develop Project Charter: Outputs",
+   "question": "The project charter is typically authored by which entity?",
+   "options": {
+    "A": "Project Manager",
+    "B": "Project Sponsor",
+    "C": "Project Management Office (PMO)",
+    "D": "External Consultant"
+   },
+   "answer": "B",
+   "explanation": "PMBOK states the project charter is developed by the project initiator or sponsor (someone external to the project who has the authority to fund and authorise it), not by the project manager — the PM is usually named IN the charter and may only assist in drafting it. The PMO or an external consultant may facilitate the process but do not hold the authorising power a charter requires, which is why they are wrong. In real practice the PM often drafts the text, which is why this question is sometimes debated."
+  },
+  {
+   "id": "TECH3_2024-53",
+   "paper": "TECH3",
+   "unit": "4",
+   "sub": "Develop Project Management Plan: Outputs",
+   "question": "Which of the following is a key benefit of the \"Develop Project Management Plan\" process?\n(a) It defines the project procurement processes.\n(b) It identifies key stakeholders and their roles in the project.\n(c) It provides a central document that defines the basis of all project work.\n(d) It outlines the detailed project schedule and budget.",
+   "options": {
+    "A": "It defines the project procurement processes.",
+    "B": "It identifies key stakeholders and their roles in the project.",
+    "C": "It provides a central document that defines the basis of all project work.",
+    "D": "It outlines the detailed project schedule and budget."
+   },
+   "answer": "C",
+   "explanation": "The Project Management Plan is the single integrating document (a 'plan of plans') that consolidates all subsidiary plans and baselines and becomes the basis against which all project work and decisions are executed and measured — that is its defining benefit. Procurement processes (A) and stakeholder identification (B) are outputs of separate knowledge areas, not this process's key benefit, and the schedule/budget (D) are only two of many components rolled into the plan, not the whole of it."
+  },
+  {
+   "id": "TECH3_2024-54",
+   "paper": "TECH3",
+   "unit": "4",
+   "sub": "Perform Integrated Change Control: Tools and Techniques",
+   "question": "Which of the following describes the process for making changes to the Project Management Plan after it has been baselined?\n(a) Changes are made through a formal change request and approved through the Perform Integrated Change Control process.\n(b) All changes are made informally by the project team.\n(c) Changes are made only by the project sponsor without any formal process.\n(d) No changes are allowed once the plan is baselined.",
+   "options": {
+    "A": "Changes are made through a formal change request and approved through the Perform Integrated Change Control process.",
+    "B": "All changes are made informally by the project team.",
+    "C": "Changes are made only by the project sponsor without any formal process.",
+    "D": "No changes are allowed once the plan is baselined."
+   },
+   "answer": "A",
+   "explanation": "Once baselined, any change to the Project Management Plan must go through Perform Integrated Change Control: a formal change request is logged, evaluated (often by a Change Control Board) and either approved, rejected or deferred before implementation. Options B and C wrongly claim changes bypass this formal gate, and D is wrong because baselines can always change through the proper controlled process — a baseline is not frozen forever, only informally uncontrolled."
+  },
+  {
+   "id": "TECH3_2024-55",
+   "paper": "TECH3",
+   "unit": "4",
+   "sub": "Perform Integrated Change Control: Tools and Techniques",
+   "question": "Which of the following configuration management activities ensures that a project's configuration items are correct and that corresponding changes are tracked and implemented properly?",
+   "options": {
+    "A": "Configuration Identification",
+    "B": "Configuration Status Accounting",
+    "C": "Configuration Verification and Audit",
+    "D": "Configuration Baseline Management"
+   },
+   "answer": "C",
+   "explanation": "PMBOK defines Configuration Verification and Audit as the activity that ensures the composition of a project's configuration items is correct and that corresponding changes are registered, assessed, approved, tracked and correctly implemented — an exact match to the question's wording. Configuration Identification (A) only selects and labels items; Status Accounting (B) just records and reports the current status/history of items without verifying correctness; 'Configuration Baseline Management' (D) is not one of PMBOK's four named configuration activities."
+  },
+  {
+   "id": "TECH3_2021-1",
+   "paper": "TECH3",
+   "unit": "4",
+   "sub": "Develop Project Charter: Inputs",
+   "question": "A car company authorizing a project to build more fuel-efficient cars in response to gasoline shortages. Which strategic consideration is used for this project?",
+   "options": {
+    "A": "Market demand",
+    "B": "Business need",
+    "C": "Environmental Consideration",
+    "D": "Technological Advance"
+   },
+   "answer": "A",
+   "explanation": "This is the textbook PMBOK example for 'Market demand' as a project-initiation driver: a car company building fuel-efficient cars because of gasoline shortages is responding to demand in the marketplace, not an internal business need."
+  },
+  {
+   "id": "TECH3_2021-16",
+   "paper": "TECH3",
+   "unit": "4",
+   "sub": "Develop Project Charter: Inputs",
+   "question": "Which of the following would not be considered an Enterprise Environmental Factor during the Develop Project Charter process?",
+   "options": {
+    "A": "Scope Statement",
+    "B": "Organizational infrastructure",
+    "C": "Governmental standards",
+    "D": "Marketplace conditions"
+   },
+   "answer": "A",
+   "explanation": "A Scope Statement is a project document/output, not an Enterprise Environmental Factor; organizational infrastructure, government standards, and marketplace conditions are all classic EEFs feeding Develop Project Charter."
+  },
+  {
+   "id": "TECH3_2021-17",
+   "paper": "TECH3",
+   "unit": "4",
+   "sub": "Develop Project Charter: Tools and Techniques",
+   "question": "A project manager calls you in as a consultant to provide input on developing the Project Charter. Your contribution to the project could best be termed as:",
+   "options": {
+    "A": "Professional Consultant",
+    "B": "Charter Consultant",
+    "C": "Expert Judgment",
+    "D": "Expert Consultancy"
+   },
+   "answer": "C",
+   "explanation": "Bringing in an outside consultant to advise on developing the Project Charter is the PMBOK tool/technique 'Expert Judgment'; the other options are not standard PMBOK terms."
+  },
+  {
+   "id": "TECH3_2021-19",
+   "paper": "TECH3",
+   "unit": "4",
+   "sub": "Perform Integrated Change Control: Inputs",
+   "question": "Which of the following statement is false?",
+   "options": {
+    "A": "Request for change may affect the Project Charter document",
+    "B": "Request for change may be defect repair or update",
+    "C": "Request for change can be externally or internally initiated",
+    "D": "Request for change may be corrective action or preventive action"
+   },
+   "answer": "A",
+   "explanation": "The Project Charter is a sponsor-authorized founding document that is not normally revised through routine change requests the way the project management plan and other project documents are, unlike the recognized change-request categories (defect repair/update, corrective/preventive action) and the fact that requests can originate internally or externally, which are all textbook-accurate. This one is a closer call than the others."
+  },
+  {
+   "id": "TECH3_2021-20",
+   "paper": "TECH3",
+   "unit": "4",
+   "sub": "Perform Integrated Change Control: Tools and Techniques",
+   "question": "The project management team has determined that there are some changes to the scope of the project. Who is responsible for reviewing, evaluating, and approving documented changes to the project?",
+   "options": {
+    "A": "Change Control Board (CCB)",
+    "B": "Change Configuration Board (CCB)",
+    "C": "Scope Control Board (SCB)",
+    "D": "Configuration Control Board (CCB)"
+   },
+   "answer": "A",
+   "explanation": "PMBOK defines the Change Control Board (CCB) as the formally chartered group responsible for reviewing, evaluating, and approving or rejecting changes; 'Change Configuration Board' and 'Configuration Control Board' are not the PMBOK term even though both abbreviate to CCB."
+  },
+  {
+   "id": "TECH3_2021-23",
+   "paper": "TECH3",
+   "unit": "4",
+   "sub": "Develop Project Management Plan: Outputs",
+   "question": "The process of defining, preparing and organizing all subsidiary plans along with integrating them into the comprehensive project plan is known as:",
+   "options": {
+    "A": "Develop Project Charter",
+    "B": "Develop Project Management Plan",
+    "C": "Project Process Groups",
+    "D": "Strategic Management"
+   },
+   "answer": "B",
+   "explanation": "Defining, preparing, and organizing the subsidiary management plans and integrating them into one comprehensive project management plan is precisely the Develop Project Management Plan process."
+  },
+  {
+   "id": "TECH3_2021-40",
+   "paper": "TECH3",
+   "unit": "4",
+   "sub": "Develop Project Management Plan: Inputs",
+   "question": "The Cost Management Plan is an output of the Plan Cost Management process. This plan is then integrated with other project plans in which of these processes?",
+   "options": {
+    "A": "Develop Project Management Plan",
+    "B": "Monitor and Control Project Work",
+    "C": "Perform Integrated Change Control",
+    "D": "Direct and Manage Project Work"
+   },
+   "answer": "A",
+   "explanation": "All subsidiary management plans, including the Cost Management Plan, are integrated together in the Develop Project Management Plan process."
+  }
+ ]
+}

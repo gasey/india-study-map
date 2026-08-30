@@ -1,0 +1,96 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 6,
+ "questions": [
+  {
+   "id": "TECH3_2024-45",
+   "paper": "TECH3",
+   "unit": "13",
+   "sub": "Identify Stakeholders: Inputs, Tools and Techniques, Outputs",
+   "question": "Which of the following best describes a stakeholder?",
+   "options": {
+    "A": "People directly involved with the project or whose interests may be impacted by the project or its outcomes.",
+    "B": "A group of people or an individual impacted by the project's outcomes or directly involved with the project.",
+    "C": "A group of people or an individual directly involved with the project or whose interests may be impacted by the project, its outcomes, or decisions made during the course of the project by its stakeholders.",
+    "D": "A group of people or an individual directly involved with the project or whose interests may impact the project or its outcomes."
+   },
+   "answer": "C",
+   "explanation": "PMI's core definition of a stakeholder centres on two groups: people actively involved in doing the project's work, and people or organizations whose interests are affected by the project or its outcome. Option (a) states this cleanly and matches standard textbook phrasing. Options (b) and (c) rephrase nearly the same idea with reordered or nested wording (e.g. circularly referencing 'decisions made ... by its stakeholders'), while (d) narrows the affected-party clause to only those who 'impact' the project, dropping the 'affected by' half of the definition. The near-duplicate phrasing across all four options makes this a genuinely difficult, low-confidence pick."
+  },
+  {
+   "id": "TECH3_2024-46",
+   "paper": "TECH3",
+   "unit": "13",
+   "sub": "Stakeholder analysis and classification models: power/interest grid, power/influence grid, influence/impact grid, salience model",
+   "question": "The stakeholders' ability to influence a project is highest in which of the stages?",
+   "options": {
+    "A": "In the early stages",
+    "B": "Half-way through",
+    "C": "Depends on their role and position",
+    "D": "Just before final delivery"
+   },
+   "answer": "A",
+   "explanation": "A foundational PMBOK principle is that stakeholder influence, along with risk and uncertainty, is highest at the start of a project and steadily declines as the project progresses, while the cost of making changes rises over the same period. This is why front-loading stakeholder engagement and requirements-gathering is emphasized in good project management. 'Depends on role/position' sounds reasonable but the question asks about the general life-cycle trend rather than role-specific variation, so the textbook answer is the early stages."
+  },
+  {
+   "id": "TECH3_2024-47",
+   "paper": "TECH3",
+   "unit": "13",
+   "sub": "Identify Stakeholders: Inputs, Tools and Techniques, Outputs",
+   "question": "In a road building project, which one of the following may not be a stakeholder?",
+   "options": {
+    "A": "Villagers whose village is connected by that road",
+    "B": "Competing contractor who didn't get the project",
+    "C": "Public Works Department",
+    "D": "Contractor selected to execute road making"
+   },
+   "answer": "B",
+   "explanation": "A stakeholder must currently have an interest in, or be affected by, a project's execution or outcome. Villagers gain direct access and benefit from the road, the Public Works Department is the executing/owning government body, and the selected contractor is directly delivering the work — all are genuine stakeholders. A competing contractor who lost the bid has no further involvement in or exposure to this particular project's outcomes once excluded, so they are not a stakeholder of this project."
+  },
+  {
+   "id": "TECH3_2024-48",
+   "paper": "TECH3",
+   "unit": "13",
+   "sub": "Manage Stakeholder Engagement: Inputs, Tools and Techniques, Outputs",
+   "question": "The process of identifying, analyzing, and managing the needs of people or groups who have an interest in a project, with a goal to build strong relationships with interested persons or groups, communicate effectively, and ensure the project's success, is called —",
+   "options": {
+    "A": "Project manpower management",
+    "B": "Resource management",
+    "C": "Stakeholder management",
+    "D": "Project revenue management"
+   },
+   "answer": "C",
+   "explanation": "This is the textbook definition of Stakeholder Management: identifying who has an interest in the project, analyzing their needs and influence, and managing engagement to build relationships, communicate effectively, and secure project success. Manpower and resource management deal with staffing and physical/human resource allocation, not relationship-building with interested parties, and 'project revenue management' is not a recognized project management discipline at all."
+  },
+  {
+   "id": "TECH3_2021-73",
+   "paper": "TECH3",
+   "unit": "13",
+   "sub": "Manage Stakeholder Engagement: Inputs, Tools and Techniques, Outputs",
+   "question": "Which of the following organizational process assets is the least important consideration during the Manage Stakeholder Engagement process?",
+   "options": {
+    "A": "Issue management procedures",
+    "B": "Project plan templates",
+    "C": "Change control procedures",
+    "D": "Historical information about previous projects"
+   },
+   "answer": "B",
+   "explanation": "Manage Stakeholder Engagement draws on OPAs such as issue management procedures, change control procedures, and historical information from past projects; generic project plan templates are not part of that specific OPA set, making them least important here."
+  },
+  {
+   "id": "TECH3_2021-74",
+   "paper": "TECH3",
+   "unit": "13",
+   "sub": "Identify Stakeholders: Inputs, Tools and Techniques, Outputs",
+   "question": "Which of the following is/are required for identifying stakeholders:",
+   "options": {
+    "A": "Stakeholder register",
+    "B": "Procurement documents",
+    "C": "Project management plan",
+    "D": "All of the above"
+   },
+   "answer": "B",
+   "explanation": "Procurement documents are a listed input to Identify Stakeholders because they reveal external parties such as contractors; the stakeholder register is actually an output of this process, not an input, so it cannot itself be a required input."
+  }
+ ]
+}

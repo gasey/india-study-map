@@ -1,0 +1,20 @@
+[
+ { "id": "TECH3_2024-19", "mode": "memorise", "confidence": "medium",
+   "why": "Membership of the three named quality processes; testing is a real quality activity and is excluded only for not carrying a process label." },
+ { "id": "TECH3_2024-20", "mode": "understand", "confidence": "high",
+   "why": "Solvable by internal consistency — the fourth statement contradicts the first and third — with no list to recall." },
+ { "id": "TECH3_2024-21", "mode": "understand", "confidence": "low",
+   "why": "Tests the proactive-assurance versus inspection-control distinction, but the item is broken: the key says quality control while its own explanation argues quality assurance." },
+ { "id": "TECH3_2024-22", "mode": "understand", "confidence": "medium",
+   "why": "How something is measured is what a metric is, as against a requirement (what must hold) or an acceptance criterion (when to sign off)." },
+ { "id": "TECH3_2024-23", "mode": "understand", "confidence": "medium",
+   "why": "The clustered-versus-centred distinction follows from what measurement means, though the exactness/correctness wording is the guide's own." },
+ { "id": "TECH3_2021-46", "mode": "understand", "confidence": "high",
+   "why": "Follows from a control chart being a statistical device; nothing is computed and the distractors are not limit-setting methods." },
+ { "id": "TECH3_2021-47", "mode": "understand", "confidence": "high",
+   "why": "An independent check of compliance against standards is what auditing means; the answer follows from the scenario's description." },
+ { "id": "TECH3_2021-48", "mode": "understand", "confidence": "high",
+   "why": "A list used to confirm required steps were done is what a checklist is; the distractors serve visibly different purposes." },
+ { "id": "TECH3_2021-71", "mode": "memorise", "confidence": "high",
+   "why": "An acronym expansion — arbitrary letters with no derivation path." }
+]

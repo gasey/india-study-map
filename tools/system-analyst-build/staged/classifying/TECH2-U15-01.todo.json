@@ -1,0 +1,501 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 33,
+ "questions": [
+  {
+   "id": "TECH2_2024-84",
+   "paper": "TECH2",
+   "unit": "15",
+   "sub": "Legal and regulatory framework in India",
+   "question": "Which framework is necessary to take care of change of laws, codes, regulations when implementing e-Governance?",
+   "options": {
+    "A": "Law framework",
+    "B": "Legal framework",
+    "C": "Court regulations",
+    "D": "Justice framework"
+   },
+   "answer": "B",
+   "explanation": "The correct and standard term used across e-Governance literature and this syllabus (Unit: 'Legal and Policy Framework for e-Governance Implementation') is 'Legal framework' — the structured set of laws, rules and regulations (IT Act, IPC, Evidence Act, etc.) that must be aligned when digitising government services. 'Law framework', 'Court regulations' and 'Justice framework' are not established terms of art in this domain and are distractors built from similar-sounding words."
+  },
+  {
+   "id": "TECH2_2024-85",
+   "paper": "TECH2",
+   "unit": "15",
+   "sub": "Legal aspects of e-Commerce and e-Governance",
+   "question": "Information Technology Act ___ is mainly responsible for incorporation of IT related laws, rules and regulations such as e-Commerce, cybercrime etc.",
+   "options": {
+    "A": "1998",
+    "B": "2000",
+    "C": "2005",
+    "D": "2015"
+   },
+   "answer": "B",
+   "explanation": "India's Information Technology Act was enacted in the year 2000, giving legal recognition to electronic records and digital signatures and creating offences for cybercrime, thereby enabling e-Commerce and e-Governance. 1998 predates any such legislation in India. 2005 and 2015 are unrelated years sometimes confused with the Right to Information Act (2005) or the Shreya Singhal judgment striking down Section 66A (2015) — neither is the enactment year of the IT Act itself."
+  },
+  {
+   "id": "TECH2_2024-86",
+   "paper": "TECH2",
+   "unit": "15",
+   "sub": "Cyber Crime provisions in IT Act (sections 43, 47, 65, 66, 67, 73)",
+   "question": "Which section of the Information Technology Act criminalizes sending offensive messages through computer or other communication devices but has been struck down by the Supreme Court in 2015?",
+   "options": {
+    "A": "Section 66A",
+    "B": "Section 56B",
+    "C": "Section 66C",
+    "D": "Section 55A"
+   },
+   "answer": "A",
+   "explanation": "Section 66A of the IT Act, 2000 penalised sending 'offensive' or 'menacing' messages via communication devices; it was struck down as unconstitutional and violative of free speech (Article 19(1)(a)) by the Supreme Court in Shreya Singhal v. Union of India (2015). Section 66C deals with identity theft (a different offence, still in force), while 'Section 56B' and 'Section 55A' are fictitious sections that do not exist in the Act — clear distractors."
+  },
+  {
+   "id": "TECH2_2024-87",
+   "paper": "TECH2",
+   "unit": "15",
+   "sub": "PKI based Digital Signature basics",
+   "question": "The digital signature accepted by Section 5 of Information Technology Act is —",
+   "options": {
+    "A": "Scanned signature which can be verified in the public database",
+    "B": "Digital form of signature that is based on private-public key pair",
+    "C": "Fingerprint stored in the UID database",
+    "D": "Combination of facial, fingerprint and iris scan in personal social media account"
+   },
+   "answer": "B",
+   "explanation": "Section 5 of the IT Act, 2000 gives legal recognition to digital signatures created using an asymmetric cryptosystem and hash function — i.e., a private key used by the signer and a corresponding public key used for verification (PKI-based). A scanned handwritten signature (a) has no cryptographic basis and is not what Section 5 recognises; fingerprints in a UID/Aadhaar database (c) and biometric combinations on social media (d) are biometric identifiers unrelated to the PKI digital-signature mechanism the Act defines."
+  },
+  {
+   "id": "TECH2_2024-88",
+   "paper": "TECH2",
+   "unit": "15",
+   "sub": "Legal and regulatory framework in India",
+   "question": "The IT Act, 2000 was modelled on which international framework?",
+   "options": {
+    "A": "WTO Law",
+    "B": "European Union Directives",
+    "C": "UNCITRAL Model Law",
+    "D": "OECD Guidelines"
+   },
+   "answer": "C",
+   "explanation": "India's IT Act, 2000 was drafted based on the UNCITRAL Model Law on Electronic Commerce (1996), adopted by the UN General Assembly to give countries a template for recognising electronic records, digital signatures and e-commerce transactions in domestic law. WTO Law governs international trade rules, EU Directives are the European Union's own regional legal instruments, and OECD Guidelines are policy recommendations — none of these is the specific model India's IT Act was based on."
+  },
+  {
+   "id": "TECH2_2024-89",
+   "paper": "TECH2",
+   "unit": "15",
+   "sub": "Recognition of electronic records",
+   "question": "What exception is extended to the applicability of the IT Act, 2000?",
+   "options": {
+    "A": "Power-of-attorney documents",
+    "B": "Electronic filing of government documents",
+    "C": "e-Payments",
+    "D": "Admissibility of digital signatures"
+   },
+   "answer": "A",
+   "explanation": "The First Schedule of the IT Act, 2000 explicitly excludes certain document classes from the Act's applicability, including negotiable instruments, powers-of-attorney, trusts, wills, and contracts for sale/conveyance of immovable property — meaning such documents cannot be validly executed only in electronic form under this Act. Options (b), (c) and (d) are all things the Act actively enables and supports (electronic filing, digital signatures, and by extension e-payments), the opposite of an exception/exclusion."
+  },
+  {
+   "id": "TECH2_2024-90",
+   "paper": "TECH2",
+   "unit": "15",
+   "sub": "PKI based Digital Signature basics",
+   "question": "When a document is digitally signed, it authenticates the person who signed and it also closely means —",
+   "options": {
+    "A": "The document hash is encrypted with signatory's private key",
+    "B": "The document hash is encrypted with signatory's public key",
+    "C": "The scanned physical signature is pasted in the document",
+    "D": "The physically signed document is scanned"
+   },
+   "answer": "A",
+   "explanation": "In digital signature mechanics, a hash of the document is computed and then encrypted using the signer's private key (known only to them); anyone can verify it using the signer's public key, which proves authenticity and non-repudiation. Encrypting with the public key (b) is backwards — that is how confidentiality/encryption works, not signing. Options (c) and (d) describe merely pasting or scanning a handwritten signature, which has no cryptographic verifiability and is not a digital signature at all."
+  },
+  {
+   "id": "TECH2_2024-100",
+   "paper": "TECH2",
+   "unit": "15",
+   "sub": "Recognition of electronic records",
+   "question": "Which section of the Information Technology Act recognize digital records be legally equivalent to paper records as long as they are accessible for future reference?",
+   "options": {
+    "A": "Section 4",
+    "B": "Section 8",
+    "C": "Section 10",
+    "D": "Section 12"
+   },
+   "answer": "A",
+   "explanation": "Section 4 of the IT Act, 2000 grants legal recognition to electronic records, providing that where any law requires information to be in writing or documentary form, that requirement is satisfied by an electronic record if it is accessible for subsequent reference. Section 8 deals with electronic gazette publication, Section 10 empowers the government to make rules on digital signatures, and Section 12 concerns acknowledgment of receipt of electronic records — none of these is the section granting basic legal equivalence to electronic records."
+  },
+  {
+   "id": "TECH2_2021-63",
+   "paper": "TECH2",
+   "unit": "15",
+   "sub": "PKI Infrastructure",
+   "question": "Which of the following is not one of the major components of Public Key Infrastructure (PKI)?",
+   "options": {
+    "A": "Internet service provider and wireless fixed network technology",
+    "B": "Public key cryptography",
+    "C": "Digital certificate",
+    "D": "Certificate authority"
+   },
+   "answer": "A",
+   "explanation": "PKI is built from public key cryptography, digital certificates, certifying authorities (with registration authorities and a certificate repository). ISPs and wireless network technology are just carriage infrastructure and form no part of the PKI trust framework."
+  },
+  {
+   "id": "TECH2_2021-85",
+   "paper": "TECH2",
+   "unit": "15",
+   "sub": "Recognition of electronic records",
+   "question": "Which section of the IT Act 2000 provides legal recognition to electronic records?",
+   "options": {
+    "A": "Section 2",
+    "B": "Section 4",
+    "C": "Section 6A",
+    "D": "Section 6A(2)"
+   },
+   "answer": "B",
+   "explanation": "Section 4 of the Information Technology Act, 2000 gives legal recognition to electronic records, satisfying any legal requirement that information be in writing or in printed form. Legal recognition of electronic/digital signatures follows separately in Section 5, which is the usual confusion here."
+  },
+  {
+   "id": "TECH2_2021-86",
+   "paper": "TECH2",
+   "unit": "15",
+   "sub": "Introduction to Digital Signature",
+   "question": "Using Digital Signature, which of the service cannot be provided by signing using sender's private key, which can be verified by the recipient using the sender's public key?",
+   "options": {
+    "A": "Privacy/Confidentiality",
+    "B": "Authenticity",
+    "C": "Non Repudiation",
+    "D": "Integrity"
+   },
+   "answer": "A",
+   "explanation": "Signing with the sender's private key and verifying with the sender's public key gives authenticity, integrity and non-repudiation, but anyone holding the freely available public key can read the message. Confidentiality requires encrypting with the recipient's public key instead, which is a different operation."
+  },
+  {
+   "id": "TECH2_2021-87",
+   "paper": "TECH2",
+   "unit": "15",
+   "sub": "PKI Infrastructure",
+   "question": "Which of the following is false regarding PKI infrastructure?",
+   "options": {
+    "A": "Controller of Certifying Authorities(CCA) licence and regulate working of Certifying Authorities",
+    "B": "Licensed Certifying Authorities can issue Digital Signature Certificates to end users",
+    "C": "Registration Authorities are authorized by CA to certify the public key of the subscriber",
+    "D": "Subscribers are end users who apply for Digital Signature Certificates to Licensed CA"
+   },
+   "answer": "C",
+   "explanation": "A Registration Authority only verifies and vouches for the identity of an applicant; certifying the subscriber's public key by issuing and signing the Digital Signature Certificate is the exclusive function of the Certifying Authority. The CCA licensing CAs, licensed CAs issuing DSCs, and subscribers applying to a licensed CA are all correctly stated."
+  },
+  {
+   "id": "TECH2_2021-88",
+   "paper": "TECH2",
+   "unit": "15",
+   "sub": "PKI based Digital Signature basics",
+   "question": "This class of Digital Signature is used in e-Commerce application where high assurance of certificates is required.",
+   "options": {
+    "A": "Class 0",
+    "B": "Class 1",
+    "C": "Class 2",
+    "D": "Class 3"
+   },
+   "answer": "D",
+   "explanation": "Class 3 certificates require the applicant to present themselves in person before the Certifying Authority or its RA, giving the highest assurance level, and are prescribed for high-value e-commerce and e-tendering. Class 1 and Class 2 rely on weaker email or database-record verification."
+  },
+  {
+   "id": "TECH2_2021-89",
+   "paper": "TECH2",
+   "unit": "15",
+   "sub": "Intellectual Property laws: Copyright Act 1957",
+   "question": "Which of the laws do not govern IPR?",
+   "options": {
+    "A": "Copyrights Act 1957",
+    "B": "Trademark Act 1999",
+    "C": "Patents Act 1970",
+    "D": "IT Act 2000"
+   },
+   "answer": "D",
+   "explanation": "The IT Act 2000 deals with electronic records, digital signatures and cybercrime, not with intellectual property rights. Copyright, trademark and patent legislation are the statutes that actually create and govern IPR in India."
+  },
+  {
+   "id": "TECH2_2021-90",
+   "paper": "TECH2",
+   "unit": "15",
+   "sub": "Intellectual Property laws: Copyright Act 1957",
+   "question": "Which category will literary work belong to?",
+   "options": {
+    "A": "Trademark",
+    "B": "Copyright",
+    "C": "Patent",
+    "D": "Industrial design"
+   },
+   "answer": "B",
+   "explanation": "Literary works - books, articles and also computer programs in India - are protected as copyright, which covers original expression. Trademarks protect marks distinguishing goods and services, patents protect inventions, and industrial design protects the visual appearance of an article."
+  },
+  {
+   "id": "TECH2_2021-91",
+   "paper": "TECH2",
+   "unit": "15",
+   "sub": "Intellectual Property laws: Patents Act 1970",
+   "question": "What is the major difference between a patent and a copyright?",
+   "options": {
+    "A": "Novelty",
+    "B": "Exclusivity",
+    "C": "Grant",
+    "D": "Commercial value"
+   },
+   "answer": "A",
+   "explanation": "A patent can only be granted for something new to the world, so novelty is the defining test, whereas copyright only requires that the work be the author's own original expression and may duplicate an existing idea. Both rights confer exclusivity and can have commercial value, so those options do not separate them; the process of grant is a fair secondary difference but novelty is the substantive one."
+  },
+  {
+   "id": "GEN-TECH2-U15-075",
+   "paper": "TECH2",
+   "unit": "15",
+   "sub": "IT Act Amendments, 2008",
+   "question": "The 2008 amendments to the Information Technology Act, 2000 changed the Act's approach to authentication of electronic records by:",
+   "options": {
+    "A": "Introducing the technology-neutral concept of an electronic signature alongside the existing digital signature based on asymmetric cryptography",
+    "B": "Making biometric authentication compulsory for all government electronic records",
+    "C": "Withdrawing legal recognition from digital signatures based on public key cryptography",
+    "D": "Transferring the licensing of Certifying Authorities to the Reserve Bank of India"
+   },
+   "answer": "A",
+   "explanation": "The amended Act ceased to recognise only one cryptographic technique and allowed reliable authentication techniques generally to be notified as electronic signatures, with the digital signature retained as one of them. Nothing in the amendment removed recognition from public key based digital signatures or changed who licenses Certifying Authorities."
+  },
+  {
+   "id": "GEN-TECH2-U15-076",
+   "paper": "TECH2",
+   "unit": "15",
+   "sub": "IT Act Amendments, 2008",
+   "question": "A significant framework introduced into the Information Technology Act by the 2008 amendments deals with:",
+   "options": {
+    "A": "Compulsory registration of every website with the Controller of Certifying Authorities",
+    "B": "Limiting an intermediary's liability for third-party content, conditional on its observing prescribed due diligence and not initiating, selecting the receiver of, or modifying the transmission",
+    "C": "Vesting the Comptroller and Auditor General with power to audit privately owned data centres",
+    "D": "Requiring every State Government to constitute its own cyber appellate tribunal"
+   },
+   "answer": "B",
+   "explanation": "The amended Act gives intermediaries a conditional exemption, often called safe harbour, for content they merely transmit or host, provided they meet due diligence obligations and do not interfere with the transmission. Website registration with the Controller and a state-level appellate tribunal in each State are not features of the Act."
+  },
+  {
+   "id": "GEN-TECH2-U15-077",
+   "paper": "TECH2",
+   "unit": "15",
+   "sub": "Electronic Signatures - IT Act Amendments",
+   "question": "Under the Information Technology Act as amended, the essential legal effect of a valid electronic signature affixed to an electronic record is that:",
+   "options": {
+    "A": "The record becomes exempt from disclosure under the Right to Information Act",
+    "B": "Copyright in the record vests in the Certifying Authority that issued the certificate",
+    "C": "The record is authenticated by the subscriber, and where any law requires a document to be signed, that requirement is treated as satisfied for the record",
+    "D": "The record is automatically admitted in evidence with no further requirement of any kind"
+   },
+   "answer": "C",
+   "explanation": "The signature provisions exist to make an electronic record legally equivalent to a signed paper document, so a statutory signature requirement can be met electronically. Admissibility in a proceeding is governed separately by evidence law, and a signature has no bearing on copyright ownership or on disclosure obligations."
+  },
+  {
+   "id": "GEN-TECH2-U15-078",
+   "paper": "TECH2",
+   "unit": "15",
+   "sub": "Electronic Signatures - IT Act Amendments",
+   "question": "In India's statutory scheme for digital and electronic signatures, the Controller of Certifying Authorities:",
+   "options": {
+    "A": "Issues Digital Signature Certificates directly to each individual subscriber",
+    "B": "Adjudicates civil disputes between subscribers and parties relying on a certificate",
+    "C": "Custodies a national archive of every electronically signed record in the country",
+    "D": "Licenses, regulates and supervises the Certifying Authorities that issue Digital Signature Certificates"
+   },
+   "answer": "D",
+   "explanation": "The Controller sits at the top of the trust hierarchy as the licensing and supervisory authority, while the licensed Certifying Authorities are the bodies that actually issue certificates to subscribers. No authority holds an archive of all signed records, and disputes go to the adjudicating and appellate machinery, not to the Controller."
+  },
+  {
+   "id": "GEN-TECH2-U15-079",
+   "paper": "TECH2",
+   "unit": "15",
+   "sub": "Indian Evidence Act",
+   "question": "The Information Technology Act, 2000 made consequential amendments to Indian evidence law principally in order to:",
+   "options": {
+    "A": "Shift the burden of proof onto the accused in every computer-related offence",
+    "B": "Make oral evidence inadmissible wherever an electronic record of the same fact exists",
+    "C": "Recognise electronic records as admissible documentary evidence and prescribe the conditions on which computer output may be proved",
+    "D": "Provide that an electronic record is conclusive proof of the truth of its contents"
+   },
+   "answer": "C",
+   "explanation": "Before the amendments, evidence law was framed around paper documents, so electronic records were given the status of documentary evidence together with conditions governing when computer output may be proved. Admissibility is not the same as conclusiveness; the court still weighs an admitted electronic record like any other evidence."
+  },
+  {
+   "id": "GEN-TECH2-U15-080",
+   "paper": "TECH2",
+   "unit": "15",
+   "sub": "Indian Evidence Act",
+   "question": "Where a printout or other copy produced by a computer is tendered in a proceeding, Indian evidence law requires, in addition to the output itself:",
+   "options": {
+    "A": "An affidavit sworn by the Controller of Certifying Authorities",
+    "B": "A forensic examiner's report from a Government examiner of electronic evidence in every case",
+    "C": "Production of the original storage device before the court in every case",
+    "D": "A certificate identifying the electronic record and the device that produced it, and stating that the output was produced in the ordinary course of activities"
+   },
+   "answer": "D",
+   "explanation": "The certificate regime is what allows secondary electronic evidence to be admitted without dragging the original server or device into court, by vouching for the record, the device and the regularity of its production. That is precisely why option C is wrong: production of the original device is the requirement the certificate substitutes for."
+  },
+  {
+   "id": "GEN-TECH2-U15-081",
+   "paper": "TECH2",
+   "unit": "15",
+   "sub": "Intellectual Property laws: Trademark Act 1999",
+   "question": "Under the Trade Marks Act, 1999, the principal legal consequence of registering a mark, as against merely using it in trade, is that:",
+   "options": {
+    "A": "The proprietor acquires a statutory right to sue for infringement, whereas an unregistered mark is protected only by the common law action for passing off",
+    "B": "Protection is extended to the source code of any software sold under the mark",
+    "C": "No other person anywhere in the world may use a similar mark for any goods or services",
+    "D": "The mark becomes patentable as an invention"
+   },
+   "answer": "A",
+   "explanation": "Registration converts a reputation-based common law claim into a statutory cause of action for infringement, which is easier to establish because the registration itself proves title to the mark. Passing off remains available for unregistered marks but requires proving goodwill, misrepresentation and damage."
+  },
+  {
+   "id": "GEN-TECH2-U15-082",
+   "paper": "TECH2",
+   "unit": "15",
+   "sub": "Intellectual Property laws: Trademark Act 1999",
+   "question": "A department launches a citizen service portal under a distinctive name and logo. Which statement correctly separates what trademark law protects from what copyright protects?",
+   "options": {
+    "A": "Trademark protects the artistic drawing of the logo, while copyright protects the portal's name",
+    "B": "Trademark protects the name and logo as indicators of the source of the service, while copyright protects original expression such as the artwork and the portal's written content",
+    "C": "Trademark protects the software's functionality, while copyright protects the underlying database schema",
+    "D": "Trademark protects the domain name registration, while copyright protects the hosting contract"
+   },
+   "answer": "B",
+   "explanation": "A trademark is about origin: it stops others from using a mark in a way that misleads users about whose service they are dealing with. Copyright is about expression and subsists independently in the artwork and text, which is why option A, swapping the two subject matters, is wrong."
+  },
+  {
+   "id": "GEN-TECH2-U15-083",
+   "paper": "TECH2",
+   "unit": "15",
+   "sub": "Other legal aspects",
+   "question": "What obligation does the Right to Information Act place on the design of a government system that holds citizen service records?",
+   "options": {
+    "A": "Every record held must be published on the internet without exception",
+    "B": "Records must be destroyed at the earliest opportunity so that requests cannot be entertained",
+    "C": "Records must be maintained, catalogued and indexed so as to facilitate the right to information, with specified categories published on the public authority's own initiative",
+    "D": "Only records relating to financial transactions need to be retrievable on request"
+   },
+   "answer": "C",
+   "explanation": "The Act imposes a records management duty as well as a disclosure duty, so a system must make its holdings findable and must support suo motu publication of prescribed categories. Exempt categories exist, so blanket publication is not required, and destroying records to defeat a request would defeat the Act's purpose."
+  },
+  {
+   "id": "GEN-TECH2-U15-084",
+   "paper": "TECH2",
+   "unit": "15",
+   "sub": "Other legal aspects",
+   "question": "Under the Digital Personal Data Protection Act, 2023, a department that determines the purpose and the means of processing citizens' personal data through its application is termed:",
+   "options": {
+    "A": "The data principal",
+    "B": "The consent manager",
+    "C": "The data processor",
+    "D": "The data fiduciary"
+   },
+   "answer": "D",
+   "explanation": "The entity deciding why and how personal data is processed is the data fiduciary, and the duties of notice, purpose limitation and security safeguards attach to it. The data principal is the individual whose data it is, and a processor merely processes on the fiduciary's behalf."
+  },
+  {
+   "id": "GEN-TECH2-U15-085",
+   "paper": "TECH2",
+   "unit": "15",
+   "sub": "Regulatory Framework under NeGP",
+   "question": "A core organising principle of the framework adopted for the National e-Governance Plan was:",
+   "options": {
+    "A": "Centralised initiative with decentralised implementation, common core infrastructure and standards being defined centrally while line departments owned their Mission Mode Projects",
+    "B": "Complete centralisation of the design and the operation of all citizen services within a single national agency",
+    "C": "Full autonomy for every department, with no common standards or shared infrastructure",
+    "D": "Delivery entirely through private concessionaires, with no departmental ownership of any project"
+   },
+   "answer": "A",
+   "explanation": "The plan set common standards and built shared infrastructure centrally while leaving each Mission Mode Project with the department that owns the service, since only that department can change its own processes and rules. Full centralisation would have stripped departments of that ownership, and full autonomy would have destroyed interoperability."
+  },
+  {
+   "id": "GEN-TECH2-U15-086",
+   "paper": "TECH2",
+   "unit": "15",
+   "sub": "Regulatory Framework under NeGP",
+   "question": "Under the capacity building arrangements of the National e-Governance Plan, the body positioned within a State to give it professional programme management and technical advisory support for e-Governance was the:",
+   "options": {
+    "A": "State Data Centre operations committee",
+    "B": "State e-Governance Mission Team",
+    "C": "State Wide Area Network network operations centre",
+    "D": "District e-Governance society"
+   },
+   "answer": "B",
+   "explanation": "The State e-Governance Mission Team supplies the specialist programme, technology and change management skills a State department usually lacks in-house, working alongside departmental project teams. The data centre and wide area network bodies run infrastructure; they do not provide programme advisory capacity."
+  },
+  {
+   "id": "GEN-TECH2-U15-087",
+   "paper": "TECH2",
+   "unit": "15",
+   "sub": "National Policy on Open Source",
+   "question": "The Government of India's policy on adoption of Open Source Software for e-Governance systems requires that:",
+   "options": {
+    "A": "All existing proprietary systems be decommissioned within a fixed transition period",
+    "B": "Open source software be used only for non-critical internal applications",
+    "C": "Government organisations endeavour to adopt open source software, and that the reason be explicitly justified where a closed source solution is selected instead",
+    "D": "Every application developed for government be released to the public under a copyleft licence"
+   },
+   "answer": "C",
+   "explanation": "The policy establishes a preference rather than a prohibition: departments must genuinely consider open source, and choosing closed source is permitted but must be reasoned and recorded. It neither forces the retirement of existing systems nor confines open source to low-criticality use."
+  },
+  {
+   "id": "GEN-TECH2-U15-088",
+   "paper": "TECH2",
+   "unit": "15",
+   "sub": "National Policy on Open Source",
+   "question": "When an open source option is compared with a proprietary product during an e-Governance procurement, the correct basis of comparison is:",
+   "options": {
+    "A": "The licence fee alone, since that is the only cost element that differs between them",
+    "B": "The number of features listed in each product's brochure",
+    "C": "The size of the developer community around each product",
+    "D": "Total cost of ownership, covering integration, customisation, support, training and long-term maintenance as well as licensing"
+   },
+   "answer": "D",
+   "explanation": "Absence of a licence fee does not make an open source system free to run, because integration, skilled support, training and maintenance over the system's life usually dominate the cost. Community size is one input to the sustainability assessment but is not itself the basis of financial comparison."
+  },
+  {
+   "id": "GEN-TECH2-U15-089",
+   "paper": "TECH2",
+   "unit": "15",
+   "sub": "Indian Penal Code sections 503, 499, 500, 463, 470, 472, 420, 416, 417, 383, 405, 406, 408, 409, 204, 477, 193, 167, 172, 173, 175",
+   "question": "A person dishonestly induces someone to hand over property by deceiving them. Under the Indian Penal Code, which offence does this describe?",
+   "options": {
+    "A": "Extortion",
+    "B": "Cheating and dishonestly inducing delivery of property",
+    "C": "Criminal breach of trust",
+    "D": "Forgery"
+   },
+   "answer": "B",
+   "explanation": "Cheating with dishonest inducement to deliver property is the classic Section 420 offence, and it is the provision most often invoked in online fraud cases prosecuted alongside the IT Act. Extortion involves putting a person in fear; criminal breach of trust requires property already entrusted; forgery concerns making a false document. Note the IPC has since been replaced by the Bharatiya Nyaya Sanhita, 2023 — the offence survives under a new section number."
+  },
+  {
+   "id": "GEN-TECH2-U15-090",
+   "paper": "TECH2",
+   "unit": "15",
+   "sub": "Indian Penal Code sections 503, 499, 500, 463, 470, 472, 420, 416, 417, 383, 405, 406, 408, 409, 204, 477, 193, 167, 172, 173, 175",
+   "question": "An employee entrusted with departmental funds misappropriates them for personal use. Which Indian Penal Code offence is squarely attracted?",
+   "options": {
+    "A": "Cheating",
+    "B": "Extortion",
+    "C": "Criminal breach of trust",
+    "D": "Criminal intimidation"
+   },
+   "answer": "C",
+   "explanation": "Criminal breach of trust requires that the property was already lawfully entrusted to the accused and was then dishonestly misappropriated, with aggravated forms where the entrustment arose from employment or public service. The distinguishing feature against cheating is the entrustment: cheating obtains the property by deception in the first place."
+  },
+  {
+   "id": "GEN-TECH2-U15-091",
+   "paper": "TECH2",
+   "unit": "15",
+   "sub": "Indian Penal Code sections 503, 499, 500, 463, 470, 472, 420, 416, 417, 383, 405, 406, 408, 409, 204, 477, 193, 167, 172, 173, 175",
+   "question": "Why does a cyber-fraud charge sheet in India typically cite Indian Penal Code provisions alongside the Information Technology Act?",
+   "options": {
+    "A": "The IT Act applies only to government computer systems",
+    "B": "The IT Act addresses the electronic conduct while the penal law supplies the underlying offence such as cheating or forgery",
+    "C": "The IT Act has no penal provisions of its own",
+    "D": "Penal law applies only where no electronic record is involved"
+   },
+   "answer": "B",
+   "explanation": "The two are complementary rather than alternative: the IT Act governs electronic records, signatures and computer-related contraventions, while the general penal law supplies the substantive offence — cheating, forgery, criminal breach of trust, defamation — that the electronic conduct amounts to. This is why a System Analyst handling incident evidence should expect both to be cited. The IPC has since been replaced by the Bharatiya Nyaya Sanhita, 2023, but the pairing of general penal law with the IT Act is unchanged."
+  }
+ ]
+}

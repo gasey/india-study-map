@@ -1,0 +1,201 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 13,
+ "questions": [
+  {
+   "id": "GEN-162",
+   "paper": "GS",
+   "unit": "4",
+   "sub": "Ancient India: Indus Valley, Vedic period, Mauryas, Guptas",
+   "question": "Which Indus Valley Civilization site is famous for the discovery of the 'Great Bath'?",
+   "options": {
+    "A": "Harappa",
+    "B": "Mohenjo-daro",
+    "C": "Lothal",
+    "D": "Dholavira"
+   },
+   "answer": "B",
+   "explanation": "The Great Bath, a large public water tank likely used for ritual bathing, was discovered at Mohenjo-daro."
+  },
+  {
+   "id": "GEN-163",
+   "paper": "GS",
+   "unit": "4",
+   "sub": "Ancient India: Indus Valley, Vedic period, Mauryas, Guptas",
+   "question": "The Mauryan emperor who embraced Buddhism after the Kalinga War and propagated Dhamma through edicts is:",
+   "options": {
+    "A": "Chandragupta Maurya",
+    "B": "Bindusara",
+    "C": "Ashoka",
+    "D": "Samudragupta"
+   },
+   "answer": "C",
+   "explanation": "Emperor Ashoka, after the bloodshed of the Kalinga War (c. 261 BCE), converted to Buddhism and spread the message of Dhamma through his edicts."
+  },
+  {
+   "id": "GEN-164",
+   "paper": "GS",
+   "unit": "4",
+   "sub": "Medieval India: Delhi Sultanate, Mughals, Bhakti and Sufi movements",
+   "question": "Who founded the Delhi Sultanate by establishing the Slave (Mamluk) Dynasty in 1206?",
+   "options": {
+    "A": "Muhammad Ghori",
+    "B": "Qutb-ud-din Aibak",
+    "C": "Iltutmish",
+    "D": "Balban"
+   },
+   "answer": "B",
+   "explanation": "Qutb-ud-din Aibak, a former slave-general of Muhammad Ghori, founded the Slave (Mamluk) Dynasty in Delhi in 1206, marking the start of the Delhi Sultanate."
+  },
+  {
+   "id": "GEN-165",
+   "paper": "GS",
+   "unit": "4",
+   "sub": "Medieval India: Delhi Sultanate, Mughals, Bhakti and Sufi movements",
+   "question": "Which Mughal emperor is credited with building the Taj Mahal at Agra?",
+   "options": {
+    "A": "Akbar",
+    "B": "Jahangir",
+    "C": "Shah Jahan",
+    "D": "Aurangzeb"
+   },
+   "answer": "C",
+   "explanation": "Emperor Shah Jahan built the Taj Mahal in memory of his wife Mumtaz Mahal, completed around 1653."
+  },
+  {
+   "id": "GEN-166",
+   "paper": "GS",
+   "unit": "4",
+   "sub": "Advent of Europeans and British expansion",
+   "question": "The Battle of Plassey (1757), which laid the foundation of British political power in India, was fought between the British East India Company and:",
+   "options": {
+    "A": "Tipu Sultan",
+    "B": "Siraj-ud-Daulah, Nawab of Bengal",
+    "C": "Shuja-ud-Daulah of Awadh",
+    "D": "The Marathas"
+   },
+   "answer": "B",
+   "explanation": "The Battle of Plassey (1757) was fought between Robert Clive's forces and Siraj-ud-Daulah, the Nawab of Bengal, resulting in a decisive British victory."
+  },
+  {
+   "id": "GEN-167",
+   "paper": "GS",
+   "unit": "4",
+   "sub": "Revolt of 1857",
+   "question": "The Revolt of 1857 began at which cantonment town, sparked by the issue of greased cartridges?",
+   "options": {
+    "A": "Kanpur",
+    "B": "Meerut",
+    "C": "Lucknow",
+    "D": "Jhansi"
+   },
+   "answer": "B",
+   "explanation": "The Revolt of 1857 broke out at Meerut on 10 May 1857, after sepoys refused to use cartridges rumoured to be greased with cow and pig fat."
+  },
+  {
+   "id": "GEN-168",
+   "paper": "GS",
+   "unit": "4",
+   "sub": "Socio-religious reform movements",
+   "question": "Raja Ram Mohan Roy, a pioneer of socio-religious reform who campaigned against Sati, founded which organisation in 1828?",
+   "options": {
+    "A": "Arya Samaj",
+    "B": "Brahmo Samaj",
+    "C": "Prarthana Samaj",
+    "D": "Theosophical Society"
+   },
+   "answer": "B",
+   "explanation": "Raja Ram Mohan Roy founded the Brahmo Samaj in 1828 in Calcutta, campaigning against practices like Sati and for social reform."
+  },
+  {
+   "id": "GEN-169",
+   "paper": "GS",
+   "unit": "4",
+   "sub": "Indian National Congress and moderates vs extremists",
+   "question": "The Indian National Congress was founded in 1885 with which person as its first President?",
+   "options": {
+    "A": "Dadabhai Naoroji",
+    "B": "Womesh Chandra Bonnerjee",
+    "C": "Surendranath Banerjee",
+    "D": "A. O. Hume"
+   },
+   "answer": "B",
+   "explanation": "Womesh Chandra Bonnerjee presided over the first session of the Indian National Congress held in Bombay in December 1885."
+  },
+  {
+   "id": "GEN-170",
+   "paper": "GS",
+   "unit": "4",
+   "sub": "Gandhian movements: Non-cooperation, Civil Disobedience, Quit India",
+   "question": "Mahatma Gandhi launched the Civil Disobedience Movement in 1930 with which act of defiance?",
+   "options": {
+    "A": "Burning foreign cloth in Calcutta",
+    "B": "The Dandi Salt March",
+    "C": "The Chauri Chaura incident",
+    "D": "The Champaran Satyagraha"
+   },
+   "answer": "B",
+   "explanation": "Gandhi launched the Civil Disobedience Movement with the Dandi Salt March (Salt Satyagraha) from Sabarmati Ashram to Dandi, beginning 12 March 1930, defying the salt tax law."
+  },
+  {
+   "id": "GEN-171",
+   "paper": "GS",
+   "unit": "4",
+   "sub": "Gandhian movements: Non-cooperation, Civil Disobedience, Quit India",
+   "question": "The Quit India Movement, with the slogan 'Do or Die', was launched by Gandhi in which year?",
+   "options": {
+    "A": "1939",
+    "B": "1940",
+    "C": "1942",
+    "D": "1945"
+   },
+   "answer": "C",
+   "explanation": "The Quit India Movement was launched on 8 August 1942 after the All India Congress Committee passed the Quit India Resolution in Bombay."
+  },
+  {
+   "id": "GEN-172",
+   "paper": "GS",
+   "unit": "4",
+   "sub": "Revolutionary nationalism",
+   "question": "Who founded the Indian National Army (Azad Hind Fauj) revolutionary movement and led it during the Second World War with Japanese support?",
+   "options": {
+    "A": "Bhagat Singh",
+    "B": "Subhas Chandra Bose",
+    "C": "Chandrashekhar Azad",
+    "D": "Rash Behari Bose (only)"
+   },
+   "answer": "B",
+   "explanation": "Subhas Chandra Bose reorganised and led the Indian National Army (INA/Azad Hind Fauj) from 1943, seeking to liberate India with Japanese assistance during WWII."
+  },
+  {
+   "id": "GEN-173",
+   "paper": "GS",
+   "unit": "4",
+   "sub": "Partition and Independence",
+   "question": "India attained independence and was partitioned into India and Pakistan under which Act of the British Parliament?",
+   "options": {
+    "A": "Government of India Act, 1935",
+    "B": "Indian Councils Act, 1909",
+    "C": "Indian Independence Act, 1947",
+    "D": "Government of India Act, 1919"
+   },
+   "answer": "C",
+   "explanation": "The Indian Independence Act, 1947, passed by the British Parliament, provided for the partition of British India into two independent dominions, India and Pakistan, effective 15 August 1947."
+  },
+  {
+   "id": "GEN-174",
+   "paper": "GS",
+   "unit": "4",
+   "sub": "Integration of princely states",
+   "question": "The integration of over 500 princely states into the Indian Union after independence was principally overseen by:",
+   "options": {
+    "A": "Jawaharlal Nehru",
+    "B": "Sardar Vallabhbhai Patel",
+    "C": "Rajendra Prasad",
+    "D": "C. Rajagopalachari"
+   },
+   "answer": "B",
+   "explanation": "Sardar Vallabhbhai Patel, as Home Minister and head of the States Department, along with V. P. Menon, masterminded the integration of princely states into the Indian Union."
+  }
+ ]
+}

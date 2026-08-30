@@ -1,0 +1,246 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 16,
+ "questions": [
+  {
+   "id": "TECH2_2024-91",
+   "paper": "TECH2",
+   "unit": "16",
+   "sub": "Purpose and contents of a DPR",
+   "question": "In a DPR, what section would cover \"Means of sustaining the project benefits\" and \"Means of replicating the project success\"?",
+   "options": {
+    "A": "Sustainability",
+    "B": "Financials",
+    "C": "Impact Assessment",
+    "D": "Technology Options"
+   },
+   "answer": "A",
+   "explanation": "A Detailed Project Report's Sustainability section specifically discusses how the project's benefits will continue after implementation/handover and how its successful model can be replicated elsewhere — matching both phrases in the question exactly. Financials (b) covers costs and funding, Impact Assessment (c) covers measuring outcomes achieved, and Technology Options (d) covers technical alternatives considered — none of these sections is about sustaining benefits or replication."
+  },
+  {
+   "id": "TECH2_2024-92",
+   "paper": "TECH2",
+   "unit": "16",
+   "sub": "Purpose and contents of a DPR",
+   "question": "The document which is prepared to get funding and support by the funding agency justifying all technical and financial matters is called —",
+   "options": {
+    "A": "Expression of Interest",
+    "B": "Detailed Project Report",
+    "C": "Tender document",
+    "D": "Request for Proposal"
+   },
+   "answer": "B",
+   "explanation": "A Detailed Project Report (DPR) is precisely the comprehensive document prepared to justify a project's technical feasibility and financial viability in order to secure funding/approval from a sanctioning or funding agency. An Expression of Interest (a) is a preliminary invitation/response before detailed bidding, a Tender document (c) invites bids from vendors, and an RFP (d) solicits detailed proposals from bidders — none of these is prepared to justify a project to a funding agency the way a DPR is."
+  },
+  {
+   "id": "TECH2_2024-98",
+   "paper": "TECH2",
+   "unit": "16",
+   "sub": "Bid process management",
+   "question": "Following is the correct order of execution of project —",
+   "options": {
+    "A": "Detailed Project Report, Contract Agreement, Request for Proposal",
+    "B": "Selection procedure, Contract Agreement, Detailed Project Report",
+    "C": "Detailed Project Report, Request for Proposal, Contractor Selection, Contract Agreement",
+    "D": "Detailed Project Report, Contractor Selection, Contract Agreement"
+   },
+   "answer": "C",
+   "explanation": "The correct e-Governance project execution sequence is: prepare the DPR to justify and plan the project, issue an RFP to invite bids based on that plan, select the contractor through evaluation of bids, and finally sign the Contract Agreement with the selected party. Option (c) is the only choice that presents all four steps in this logical, complete order. Options (a) and (b) scramble the sequence (contract before proposal, or selection before DPR), and (d) omits the RFP/tendering step entirely, making it an incomplete sequence."
+  },
+  {
+   "id": "TECH2_2021-17",
+   "paper": "TECH2",
+   "unit": "16",
+   "sub": "Bid process management",
+   "question": "What does PBC refers in tendering process?",
+   "options": {
+    "A": "Pre Bid Conference",
+    "B": "Pre Bid Candidate",
+    "C": "Pre Bid Cost",
+    "D": "Pre Bid Culture"
+   },
+   "answer": "A",
+   "explanation": "PBC in tendering stands for Pre-Bid Conference, the meeting where bidders seek clarifications on the RFP before submitting bids, and whose minutes are issued as corrigenda. The other expansions are not procurement terms."
+  },
+  {
+   "id": "TECH2_2021-28",
+   "paper": "TECH2",
+   "unit": "16",
+   "sub": "Structure of an RFP",
+   "question": "\"Negotiation ,Contract Finalization and Award\" is usually in which volume of the RFP(Request for proposal) document?",
+   "options": {
+    "A": "Volume I",
+    "B": "Volume II",
+    "C": "Volume III",
+    "D": "Volume IV"
+   },
+   "answer": "A",
+   "explanation": "In the standard model RFP structure, Volume I is Instructions to Bidders and covers the bid process, evaluation, negotiation and award of contract; Volume II carries functional and technical requirements and Volume III the draft MSA/SLA. Volume numbering does vary between departments, so this is model-dependent."
+  },
+  {
+   "id": "TECH2_2021-92",
+   "paper": "TECH2",
+   "unit": "16",
+   "sub": "Purpose and contents of a DPR",
+   "question": "Financial part of Detailed Project Report will contain:\nP : Means of Project Finance\nQ : Cost estimates\nR : Expenditures",
+   "options": {
+    "A": "Only P and Q",
+    "B": "Only P and R",
+    "C": "Only Q",
+    "D": "All P, Q, R"
+   },
+   "answer": "D",
+   "explanation": "The financial section of a Detailed Project Report sets out what the project will cost, how that cost will be funded, and the phasing of expenditure over the project period, so all three items belong there. None of the three is a non-financial element that would need to be excluded."
+  },
+  {
+   "id": "TECH2_2021-93",
+   "paper": "TECH2",
+   "unit": "16",
+   "sub": "Structure of an RFP",
+   "question": "Relating to Detailed Project Report (DPR) and Request For Proposal (RFP), which of the following statement is true:",
+   "options": {
+    "A": "DPR is the final report after completion of the project",
+    "B": "RFP is the tender document",
+    "C": "RFP is the request document to get fund from funding agency",
+    "D": "DPR is made by the funding agency"
+   },
+   "answer": "B",
+   "explanation": "A Request For Proposal is the tender document issued to prospective bidders setting out scope, requirements and evaluation criteria. The DPR comes before it, is prepared by the implementing department (often to seek funding approval), and is not a completion report."
+  },
+  {
+   "id": "TECH2_2021-97",
+   "paper": "TECH2",
+   "unit": "16",
+   "sub": "Evaluation criteria: pre-qualification, technical, financial",
+   "question": "The following steps of evaluations are carried out in e-Governance projects.\ni) Technical Evaluation\nii) Financial/Commercial evaluation\niii) Digital evaluation\niv) Pre-qualification evaluation",
+   "options": {
+    "A": "i) and iii)",
+    "B": "ii) and iv)",
+    "C": "i), ii) and iv)",
+    "D": "All of them"
+   },
+   "answer": "C",
+   "explanation": "Bid evaluation in e-governance procurement runs pre-qualification, then technical, then financial/commercial evaluation. 'Digital evaluation' is not a recognised stage and is the invented option here."
+  },
+  {
+   "id": "GEN-TECH2-U16-092",
+   "paper": "TECH2",
+   "unit": "16",
+   "sub": "Feasibility and cost-benefit analysis in a DPR",
+   "question": "What is the primary purpose of a Detailed Project Report prepared before an e-governance project is sanctioned?",
+   "options": {
+    "A": "To invite vendors to submit priced bids against stated requirements",
+    "B": "To establish the project's feasibility, scope, phasing, cost and expected benefits so that the competent authority can decide whether to commit funds",
+    "C": "To record the results of acceptance testing on the delivered system",
+    "D": "To define the service levels against which the selected vendor will be measured"
+   },
+   "answer": "B",
+   "explanation": "A DPR is a decision document produced before money is committed: it argues that the project is feasible, bounds its scope and cost, and quantifies the benefits that justify the outlay. Inviting the market to bid is the job of the RFP, which comes afterwards and converts the approved scope into biddable requirements."
+  },
+  {
+   "id": "GEN-TECH2-U16-093",
+   "paper": "TECH2",
+   "unit": "16",
+   "sub": "Feasibility and cost-benefit analysis in a DPR",
+   "question": "A DPR concludes that the proposed system can be built with proven technology and is affordable within the department's budget, but that existing rules do not permit an electronic application to be accepted in place of a signed paper form. Which feasibility dimension has failed?",
+   "options": {
+    "A": "Technical feasibility",
+    "B": "Financial feasibility",
+    "C": "Legal and regulatory feasibility",
+    "D": "Operational feasibility"
+   },
+   "answer": "C",
+   "explanation": "Legal feasibility asks whether the statutory and rule framework actually allows the proposed way of working, and here it does not — the rules would have to be amended before the electronic form can substitute for the paper one. Technical and financial feasibility have both been established by the same report, which is precisely why the legal gap becomes the binding constraint."
+  },
+  {
+   "id": "GEN-TECH2-U16-094",
+   "paper": "TECH2",
+   "unit": "16",
+   "sub": "Functional and technical requirement specification",
+   "question": "Which of the following statements in an RFP is a functional requirement rather than a technical or performance requirement?",
+   "options": {
+    "A": "The system shall issue a provisional income certificate only after the designated revenue officer has digitally approved the application",
+    "B": "The system shall return a search result within three seconds under peak load",
+    "C": "The application shall be deployable on the State Data Centre's virtualised Linux environment",
+    "D": "The system shall maintain 99.5 percent availability measured on a monthly basis"
+   },
+   "answer": "A",
+   "explanation": "A functional requirement states what the system must do as a behaviour of the business process — here, that issue is conditional on a specific officer's approval. Response time, hosting environment and availability describe how well and on what platform the system must operate, which are technical and non-functional requirements."
+  },
+  {
+   "id": "GEN-TECH2-U16-095",
+   "paper": "TECH2",
+   "unit": "16",
+   "sub": "Functional and technical requirement specification",
+   "question": "Why is a requirement written as 'the system shall have a user-friendly interface' considered defective in an RFP?",
+   "options": {
+    "A": "Interface design falls outside the scope of any software development contract",
+    "B": "It merely duplicates something the technical specification will state in any case",
+    "C": "It commits the department in advance to a specific product",
+    "D": "It cannot be measured or tested, so acceptance cannot be demonstrated objectively and the disagreement resurfaces after delivery as a contractual dispute"
+   },
+   "answer": "D",
+   "explanation": "A requirement must be verifiable: if there is no stated test that decides whether it has been met, the department cannot reject the delivery and the vendor cannot prove compliance, so the argument lands in contract administration instead. Usability can be specified properly — for example by naming the standard to be met or the task-completion criteria to be demonstrated — which is what turns the intent into an acceptable clause."
+  },
+  {
+   "id": "GEN-TECH2-U16-096",
+   "paper": "TECH2",
+   "unit": "16",
+   "sub": "QCBS - Quality and Cost Based Selection",
+   "question": "Under Quality and Cost Based Selection, how is the successful bidder determined?",
+   "options": {
+    "A": "The bidder quoting the lowest price among all those who submitted a bid",
+    "B": "The bidder with the highest technical score, price being disregarded",
+    "C": "The bidder whose quoted price is closest to the department's own cost estimate",
+    "D": "The bidder with the highest combined score obtained by applying the published weights to the technical and the financial evaluation"
+   },
+   "answer": "D",
+   "explanation": "QCBS exists precisely so that award is not automatic to the cheapest bid: technical quality and price are each scored and then combined using weights announced in the RFP, and the highest composite score wins. Award purely on lowest price is least-cost selection, a different and generally inappropriate method where solution quality varies materially between bidders."
+  },
+  {
+   "id": "GEN-TECH2-U16-097",
+   "paper": "TECH2",
+   "unit": "16",
+   "sub": "QCBS - Quality and Cost Based Selection",
+   "question": "In a QCBS procurement, what happens to the financial bid of a firm whose technical proposal scores below the minimum qualifying technical mark stated in the RFP?",
+   "options": {
+    "A": "It is not opened at all and the firm is eliminated from further consideration",
+    "B": "It is opened but given a proportionately reduced weight in the combined score",
+    "C": "It is opened only after the firm has been allowed to improve its technical proposal",
+    "D": "It is opened and evaluated normally, because price is assessed independently of technical merit"
+   },
+   "answer": "A",
+   "explanation": "The technical evaluation is a gate: proposals that fail the qualifying threshold are rejected and their sealed financial envelopes are returned or remain unopened, so an unacceptable solution cannot buy its way in with a low price. Allowing a failed bidder to revise its proposal after bids are in would breach the equal-treatment basis on which the others bid."
+  },
+  {
+   "id": "GEN-TECH2-U16-098",
+   "paper": "TECH2",
+   "unit": "16",
+   "sub": "Common pitfalls in RFP drafting",
+   "question": "An RFP for server hardware reproduces the model-specific feature list of one manufacturer's product. Why is this a serious drafting fault?",
+   "options": {
+    "A": "Hardware cannot legitimately be specified in an RFP at all",
+    "B": "It prevents the department from issuing change requests later in the contract",
+    "C": "Specifications tailored to a single product restrict competition, invite challenge from other bidders and usually raise the price the department finally pays",
+    "D": "It obliges the department to use QCBS rather than a least-cost selection"
+   },
+   "answer": "C",
+   "explanation": "Requirements should be stated as the capability and performance needed, so that any product meeting them can compete; copying one product's datasheet converts an open tender into a single-source purchase in all but name. The consequences are both commercial — fewer bids and weaker price discovery — and procedural, since excluded bidders have clear grounds to contest the tender."
+  },
+  {
+   "id": "GEN-TECH2-U16-099",
+   "paper": "TECH2",
+   "unit": "16",
+   "sub": "Common pitfalls in RFP drafting",
+   "question": "Why must the evaluation criteria and their weights be stated in the RFP itself rather than settled after the bids have been received?",
+   "options": {
+    "A": "Because bidders cannot otherwise calculate the price they should quote",
+    "B": "Because bidders must be able to shape their proposals against known criteria, and criteria fixed after opening cannot be shown to be objective, leaving the award open to challenge",
+    "C": "Because the criteria form a mandatory chapter of the Detailed Project Report",
+    "D": "Because a service level agreement cannot otherwise be included in the resulting contract"
+   },
+   "answer": "B",
+   "explanation": "Publishing the criteria up front is what makes the competition fair and the award defensible: every bidder optimises against the same declared yardstick, and the evaluation committee is bound by it. Criteria invented after the envelopes are open can always be alleged to have been reverse-engineered to suit a preferred bidder, which is how awards get stayed."
+  }
+ ]
+}

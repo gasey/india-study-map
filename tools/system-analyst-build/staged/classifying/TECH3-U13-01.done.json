@@ -1,0 +1,14 @@
+[
+ { "id": "TECH3_2024-45", "mode": "memorise", "confidence": "low",
+   "why": "Four near-identical paraphrases of one definition, so it tests exact remembered wording; the bank's own explanation is internally inconsistent about which option it endorses." },
+ { "id": "TECH3_2024-46", "mode": "understand", "confidence": "high",
+   "why": "Follows from influence falling as decisions harden and change gets costlier — the same curve as risk and uncertainty." },
+ { "id": "TECH3_2024-47", "mode": "understand", "confidence": "high",
+   "why": "Applying the stakeholder test to a concrete case; the losing bidder has no remaining exposure to this project's outcome." },
+ { "id": "TECH3_2024-48", "mode": "understand", "confidence": "high",
+   "why": "The stem describes managing people with an interest in the project, which names the discipline directly." },
+ { "id": "TECH3_2021-73", "mode": "memorise", "confidence": "medium",
+   "why": "Turns on which assets the guide lists for this process; a plan template is excluded for being off-list rather than for being irrelevant in principle." },
+ { "id": "TECH3_2021-74", "mode": "memorise", "confidence": "high",
+   "why": "ITTO recall including the classic input-versus-output trap of the stakeholder register." }
+]

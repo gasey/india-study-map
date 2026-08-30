@@ -1,0 +1,486 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 32,
+ "questions": [
+  {
+   "id": "TECH2_2024-54",
+   "paper": "TECH2",
+   "unit": "10",
+   "sub": "Cryptography",
+   "question": "Which of the following is not true?",
+   "options": {
+    "A": "Public Key Infrastructure uses only public key",
+    "B": "Digital Signature system requires public and private keys",
+    "C": "Digital certificate requires digital signature",
+    "D": "The digital certificate is valid only approved by CA"
+   },
+   "answer": "A",
+   "explanation": "PKI is, by definition, an asymmetric-key system: it manages BOTH a public key and a matching private key per entity, plus the certificates that bind them to an identity. So claiming PKI 'uses only public key' is false — that is the answer to 'which is not true'. B, C and D are all correct statements: digital signatures need a public/private pair, a digital certificate is itself signed (digitally signed) by a Certificate Authority, and a certificate is only trusted/valid when issued and approved by a recognised CA."
+  },
+  {
+   "id": "TECH2_2024-57",
+   "paper": "TECH2",
+   "unit": "10",
+   "sub": "Information Security Threats",
+   "question": "Which of the following is an example of an attack that scans a network to gather information or find vulnerabilities?",
+   "options": {
+    "A": "Probing",
+    "B": "Packet Sniffing",
+    "C": "Denial of Service (DOS)",
+    "D": "Malware"
+   },
+   "answer": "A",
+   "explanation": "Probing (network/port scanning) is specifically the reconnaissance activity of systematically querying hosts and ports to map a network and discover open services or weaknesses before a real attack. Packet sniffing captures traffic already flowing (passive eavesdropping, not scanning), DOS attacks disrupt availability rather than gather information, and malware is malicious code delivered to a system, not a scanning technique — so only 'Probing' matches the description given."
+  },
+  {
+   "id": "TECH2_2024-58",
+   "paper": "TECH2",
+   "unit": "10",
+   "sub": "Improving Information Security in e-Governance",
+   "question": "Which of the following is an example of a security best practice?",
+   "options": {
+    "A": "Using tools like MD5 checksums to ensure system integrity",
+    "B": "Avoiding the use of encryption for sensitive data",
+    "C": "Disabling audit systems to reduce data storage requirements",
+    "D": "Avoiding system upgrades to prevent disruptions"
+   },
+   "answer": "A",
+   "explanation": "MD5 (or better, SHA-family) checksums verify that files/systems have not been tampered with, which is a genuine integrity-control best practice. The other three options describe classic security anti-patterns: skipping encryption exposes sensitive data, disabling audit logs removes the ability to detect and investigate incidents, and refusing to patch/upgrade leaves known vulnerabilities open — all opposite of best practice."
+  },
+  {
+   "id": "TECH2_2024-59",
+   "paper": "TECH2",
+   "unit": "10",
+   "sub": "Firewall",
+   "question": "What is the function of a firewall in network security?",
+   "options": {
+    "A": "To encrypt network data",
+    "B": "To block unauthorized access to private network resources",
+    "C": "To monitor network activity for suspicious behaviour",
+    "D": "To detect and respond to intrusions"
+   },
+   "answer": "B",
+   "explanation": "A firewall's core job is access control: it inspects traffic against a rule set and permits or blocks connections to/from a private network. Encrypting data is the job of cryptographic protocols (TLS/VPN), not a firewall; continuously monitoring for suspicious behaviour and detecting/responding to intrusions are the roles of an IDS/IPS, a related but distinct security control. The tempting distractors (C, D) confuse 'firewall' with 'intrusion detection/prevention system'."
+  },
+  {
+   "id": "TECH2_2024-60",
+   "paper": "TECH2",
+   "unit": "10",
+   "sub": "Cryptography",
+   "question": "What is a digital signature primarily used for in cryptographic communications?",
+   "options": {
+    "A": "Encrypting the entire message",
+    "B": "Verifying the sender's identity and ensuring non-repudiation",
+    "C": "Monitoring network traffic",
+    "D": "Blocking unauthorized access to the network"
+   },
+   "answer": "B",
+   "explanation": "A digital signature is created by encrypting a message's hash with the sender's private key; anyone can decrypt it with the sender's public key to confirm the message truly came from that sender and was unaltered, and the sender cannot later deny having sent it (non-repudiation). It does not encrypt the whole message (that is confidentiality, a separate goal), and it has nothing to do with monitoring traffic or blocking access, which are network-security functions, not cryptographic-identity functions."
+  },
+  {
+   "id": "TECH2_2024-61",
+   "paper": "TECH2",
+   "unit": "10",
+   "sub": "Cryptography",
+   "question": "Which of the following technique(s) uses same key for encryption and decryption?\ni. PKI\nii. AES\niii. DES",
+   "options": {
+    "A": "i and ii only",
+    "B": "i and iii only",
+    "C": "ii and iii only",
+    "D": "i, ii and iii"
+   },
+   "answer": "C",
+   "explanation": "AES and DES are both symmetric-key block ciphers — the same secret key encrypts and decrypts the data, so ii and iii qualify. PKI (Public Key Infrastructure) is not itself an encryption algorithm but a framework built around asymmetric cryptography, where a public key and a different private key are used, so it does not belong in this list. Hence 'ii and iii only' is correct."
+  },
+  {
+   "id": "TECH2_2024-62",
+   "paper": "TECH2",
+   "unit": "10",
+   "sub": "Cryptography",
+   "question": "Main role of public key and private key pair can be visualized respectively as —",
+   "options": {
+    "A": "Guest and Authenticated user",
+    "B": "Encryption and authentication",
+    "C": "Username and password",
+    "D": "Internet and LAN"
+   },
+   "answer": "B",
+   "explanation": "In common asymmetric-crypto usage, the public key is shared openly and used to encrypt data (or verify a signature) so anyone can send a protected message to the owner, while the private key stays secret and is used to decrypt (or sign), proving the holder's identity — i.e., 'authenticating' them. This best matches option B's pairing of 'Encryption and authentication'. The other pairs (guest/user, username/password, internet/LAN) are unrelated analogies used only as distractors. The question's phrasing is loose, so treat with some caution."
+  },
+  {
+   "id": "TECH2_2021-58",
+   "paper": "TECH2",
+   "unit": "10",
+   "sub": "Information Security Threats",
+   "question": "Computer viruses, worms and Trojan Horses are examples of:",
+   "options": {
+    "A": "Client threats",
+    "B": "Server-side masquerading",
+    "C": "Malicious code",
+    "D": "Communication channel threats"
+   },
+   "answer": "C",
+   "explanation": "Viruses, worms and Trojan horses are all forms of malicious code, that is, programs written to damage or subvert a system. Client threats and communication channel threats classify where an attack strikes, not what these programs are."
+  },
+  {
+   "id": "TECH2_2021-59",
+   "paper": "TECH2",
+   "unit": "10",
+   "sub": "Security Policy",
+   "question": "What come between Security requirement and Security Infrastructure Specification in the Security Engineering Life Cycle?",
+   "options": {
+    "A": "Security Policy",
+    "B": "Security Infrastructure Implementation",
+    "C": "Requirement Validation",
+    "D": "Security Policy Selection"
+   },
+   "answer": "A",
+   "explanation": "In the security engineering life cycle the security policy is derived from the security requirements and then drives the specification of the security infrastructure, so the policy stage sits between the two. This item is ambiguous because option D names essentially the same stage in activity form, and infrastructure implementation clearly comes later."
+  },
+  {
+   "id": "TECH2_2021-60",
+   "paper": "TECH2",
+   "unit": "10",
+   "sub": "Information Security Assurance Framework",
+   "question": "eSAFE stand for:",
+   "options": {
+    "A": "e-Governance Security Availability Framework",
+    "B": "e-Governance Security Assurance Framework",
+    "C": "e-Governance Security Authenticity Framework",
+    "D": "e-Governance Security Acceptable Framework"
+   },
+   "answer": "B",
+   "explanation": "eSAFE is the e-Governance Security Assurance Framework, the STQC-developed framework for assessing and certifying the security of e-governance applications. The other expansions substitute a single attribute for the assurance concept the framework is built around."
+  },
+  {
+   "id": "TECH2_2021-61",
+   "paper": "TECH2",
+   "unit": "10",
+   "sub": "Security Attributes",
+   "question": "_________ is a property whereby data has not been altered in an unauthorized manner since it was created, transmitted, or stored.",
+   "options": {
+    "A": "Originality",
+    "B": "Encryption",
+    "C": "Electronic signature",
+    "D": "Integrity"
+   },
+   "answer": "D",
+   "explanation": "Integrity is the standard security definition for data not being altered in an unauthorised manner during creation, transmission or storage. Encryption and electronic signatures are mechanisms that help protect integrity (and confidentiality), not the property itself."
+  },
+  {
+   "id": "TECH2_2021-62",
+   "paper": "TECH2",
+   "unit": "10",
+   "sub": "Firewall",
+   "question": "Which of the below is false in regards to the usage of firewall?",
+   "options": {
+    "A": "Firewall performs application-level screening",
+    "B": "Application level firewall capture and compare packets to state information in connection tables",
+    "C": "Firewall may provide additional services such as DHCP,NAT",
+    "D": "Application level firewalls provide the strongest level of security and is the fastest"
+   },
+   "answer": "D",
+   "explanation": "Application-level (proxy) firewalls do give the strongest security, but because they inspect the full application payload they are the slowest, not the fastest, so the statement is false. Note that option B is loosely worded too - comparing packets against connection-state tables actually describes stateful inspection - but D is the plainly false claim the question is after."
+  },
+  {
+   "id": "TECH2_2021-64",
+   "paper": "TECH2",
+   "unit": "10",
+   "sub": "Cryptography",
+   "question": "Web sites with SSL (Secure Socket Layer) can improve the security of online transactions, but which of the following is NOT a function provided by SSL?",
+   "options": {
+    "A": "Encrypts the contents of an online transaction",
+    "B": "Verifies the identity of the recipient",
+    "C": "Verifies that both sides have agreed to the conditions of the transaction, preventing either side from denying of ever having made such a commitment",
+    "D": "Prevents packet sniffing"
+   },
+   "answer": "C",
+   "explanation": "SSL/TLS gives encryption, server (and optionally client) authentication and protection against eavesdropping, but it does not provide non-repudiation - neither party is bound to the terms of the transaction. Non-repudiation requires a digital signature on the transaction content, which is the classic trap in this question."
+  },
+  {
+   "id": "TECH2_2021-65",
+   "paper": "TECH2",
+   "unit": "10",
+   "sub": "Security Practices and procedures",
+   "question": "Which of the following is not the proper way to handle spam emails?",
+   "options": {
+    "A": "Ignore spam emails",
+    "B": "Reply and ask the sender to stop spamming",
+    "C": "Consider controlling spam emails by using email filtering software",
+    "D": "Do not forward spam emails"
+   },
+   "answer": "B",
+   "explanation": "Replying to a spam message confirms to the spammer that the address is live and monitored, which usually increases the volume of spam received. Ignoring, filtering and not forwarding are all recommended practices."
+  },
+  {
+   "id": "GEN-TECH2-U10-015",
+   "paper": "TECH2",
+   "unit": "10",
+   "sub": "Information Security Technology and Operational controls",
+   "question": "Which of the following is an operational control rather than a technical control?",
+   "options": {
+    "A": "Enforcing role-based access rights inside the application",
+    "B": "A documented procedure requiring an employee's accounts to be disabled on the day of transfer or separation",
+    "C": "Encrypting the database at rest",
+    "D": "A firewall rule set restricting inbound traffic to the application server"
+   },
+   "answer": "B",
+   "explanation": "Operational controls are carried out primarily by people following defined procedures — joiner-mover-leaver handling, awareness training, media handling, physical access registers — whereas technical controls are enforced by the technology itself. Role-based access, encryption and firewall rules are all mechanisms configured in software or hardware."
+  },
+  {
+   "id": "GEN-TECH2-U10-016",
+   "paper": "TECH2",
+   "unit": "10",
+   "sub": "Information Security Technology and Operational controls",
+   "question": "A department sends backup media of a citizen database to an off-site store. Which technical control most directly protects the confidentiality of that data if the media is lost in transit?",
+   "options": {
+    "A": "Encrypting the backup media so that the contents are unreadable without the key",
+    "B": "Signing a confidentiality clause with the transport contractor",
+    "C": "Installing fire suppression at the off-site store",
+    "D": "Maintaining a register of media movements"
+   },
+   "answer": "A",
+   "explanation": "Encryption is the only one of these that still protects the data after the media has physically left the department's custody, because a lost tape without the key discloses nothing. A contractual clause and a movement register are useful administrative controls but they do not prevent someone who obtains the tape from reading it."
+  },
+  {
+   "id": "GEN-TECH2-U10-017",
+   "paper": "TECH2",
+   "unit": "10",
+   "sub": "Analysis tools",
+   "question": "What does a vulnerability scanner do when run against the servers of an e-governance application?",
+   "options": {
+    "A": "It blocks malicious traffic to those servers in real time",
+    "B": "It encrypts communication between the servers and their clients",
+    "C": "It probes the hosts and services and reports known weaknesses such as missing patches, weak configurations and exposed services",
+    "D": "It restores the servers from the most recent clean backup"
+   },
+   "answer": "C",
+   "explanation": "A vulnerability scanner compares what it finds on a host against a database of known flaws and insecure settings, and produces a prioritised list of weaknesses to be remediated. Blocking traffic in real time is the job of a firewall or intrusion prevention system, which acts on live traffic rather than assessing configuration."
+  },
+  {
+   "id": "GEN-TECH2-U10-018",
+   "paper": "TECH2",
+   "unit": "10",
+   "sub": "Analysis tools",
+   "question": "How does static application security testing differ from dynamic application security testing?",
+   "options": {
+    "A": "Static testing inspects the application's source or binary code without running it, while dynamic testing exercises the running application and observes how it responds",
+    "B": "Static testing is performed on the production system and dynamic testing only on a test system",
+    "C": "Static testing checks hardware, while dynamic testing checks software",
+    "D": "Static testing is done by an external auditor and dynamic testing by the development team"
+   },
+   "answer": "A",
+   "explanation": "Static analysis reads the code itself and can point to the exact line where an unsafe pattern occurs, so it can be applied early in development; dynamic analysis attacks a running instance and therefore finds problems that only appear at runtime, such as configuration and authentication flaws. Who performs the test and on which environment are separate questions."
+  },
+  {
+   "id": "GEN-TECH2-U10-019",
+   "paper": "TECH2",
+   "unit": "10",
+   "sub": "Monitoring Tools",
+   "question": "What is the primary function of a Security Information and Event Management (SIEM) system?",
+   "options": {
+    "A": "To scan files on end-user machines for malware signatures",
+    "B": "To collect logs and events from many different systems, correlate them centrally and raise alerts on patterns that suggest an incident",
+    "C": "To take encrypted backups of application databases",
+    "D": "To manage the issue and renewal of digital certificates"
+   },
+   "answer": "B",
+   "explanation": "A SIEM's value is aggregation plus correlation: individually harmless events from a firewall, a server and an application can together indicate an attack, and only a central correlating view will surface that. Malware scanning on endpoints is antivirus or endpoint detection functionality, which feeds a SIEM rather than being it."
+  },
+  {
+   "id": "GEN-TECH2-U10-020",
+   "paper": "TECH2",
+   "unit": "10",
+   "sub": "Monitoring Tools",
+   "question": "What is the essential difference between an intrusion detection system and an intrusion prevention system?",
+   "options": {
+    "A": "An intrusion detection system works on wired networks and an intrusion prevention system on wireless networks",
+    "B": "An intrusion detection system inspects only outbound traffic and an intrusion prevention system only inbound traffic",
+    "C": "An intrusion detection system observes traffic and raises alerts, whereas an intrusion prevention system is placed in the traffic path and can drop or block the offending traffic itself",
+    "D": "An intrusion detection system requires signatures, whereas an intrusion prevention system never does"
+   },
+   "answer": "C",
+   "explanation": "The distinction is between passive detection with alerting and inline enforcement that actively stops the traffic; that is why an inline prevention device carries a risk of blocking legitimate traffic on a false positive. Both can use signature-based and anomaly-based methods, and neither is restricted by medium or direction."
+  },
+  {
+   "id": "GEN-TECH2-U10-021",
+   "paper": "TECH2",
+   "unit": "10",
+   "sub": "Selection of Baseline Security Controls",
+   "question": "What is meant by a baseline set of security controls for an organisation's systems?",
+   "options": {
+    "A": "The controls that were in place when the system was first commissioned",
+    "B": "The controls that a vendor supplies by default in its product",
+    "C": "The only controls a system is permitted to have, so that no further controls may be added",
+    "D": "A minimum mandatory set of controls applied to every system of a given category, to which additional controls are added on the basis of specific risk"
+   },
+   "answer": "D",
+   "explanation": "A baseline is a floor, not a ceiling: it saves every project from re-deriving elementary protections such as patching, access control and logging, and a risk assessment then adds whatever the particular system needs on top. Treating the baseline as an exhaustive list would defeat the risk-based part of the method."
+  },
+  {
+   "id": "GEN-TECH2-U10-022",
+   "paper": "TECH2",
+   "unit": "10",
+   "sub": "Selection of Baseline Security Controls",
+   "question": "Two state systems are being commissioned — a public tourism information portal and a social welfare system holding beneficiary personal and bank details. What should mainly determine that they receive different baselines of security controls?",
+   "options": {
+    "A": "The sensitivity and criticality of the information each holds and the harm that its compromise would cause",
+    "B": "The programming language in which each system is written",
+    "C": "The number of pages in each system's user interface",
+    "D": "The order in which the two projects were sanctioned"
+   },
+   "answer": "A",
+   "explanation": "Baseline selection follows from information classification and business criticality, so a system holding sensitive personal and financial data attracts stronger authentication, encryption, logging and monitoring than a public information portal. Implementation technology and project sequence carry no information about the consequences of a compromise."
+  },
+  {
+   "id": "GEN-TECH2-U10-023",
+   "paper": "TECH2",
+   "unit": "10",
+   "sub": "Impact on Organization due to Breaches of Information Security",
+   "question": "A ransomware attack encrypts the database of a state treasury application and the department finds that its backups were never test-restored. What is the most immediate organisational impact?",
+   "options": {
+    "A": "A rise in the department's electricity consumption",
+    "B": "Suspension of the payment and disbursement services the application supports, until the data can be recovered or rebuilt",
+    "C": "The need to retrain staff on a new user interface",
+    "D": "An increase in the cost of the department's internet bandwidth"
+   },
+   "answer": "B",
+   "explanation": "Loss of availability of the data on which the service runs halts the service itself, and an untested backup means the recovery time is unknown at the moment it matters most. Retraining and running costs are downstream concerns that do not describe the immediate operational damage."
+  },
+  {
+   "id": "GEN-TECH2-U10-024",
+   "paper": "TECH2",
+   "unit": "10",
+   "sub": "Impact on Organization due to Breaches of Information Security",
+   "question": "Apart from the direct cost of recovery, why is a widely publicised data breach especially damaging to an e-governance programme?",
+   "options": {
+    "A": "It forces the department to change its network topology",
+    "B": "It invalidates the department's software licences",
+    "C": "It automatically transfers ownership of the system to the vendor",
+    "D": "Loss of public confidence pushes citizens back to offline channels, undermining the adoption on which the programme's benefits depend, and invites legal and regulatory consequences"
+   },
+   "answer": "D",
+   "explanation": "An e-governance system delivers value only if citizens are willing to use it, so reputational damage translates directly into reduced take-up, alongside liability, oversight scrutiny and the cost of remediation. Licences and system ownership are unaffected by a security incident."
+  },
+  {
+   "id": "GEN-TECH2-U10-025",
+   "paper": "TECH2",
+   "unit": "10",
+   "sub": "Impact on Individual due to Breaches of Information Security",
+   "question": "A leak from a departmental database exposes citizens' names, addresses, dates of birth and identity numbers. Which harm to those individuals is most characteristic of such a breach?",
+   "options": {
+    "A": "Identity theft, in which someone impersonates the individual to obtain benefits, credit or documents in that person's name",
+    "B": "A reduction in the individual's internet connection speed",
+    "C": "The individual's inability to log in to unrelated government websites",
+    "D": "An increase in the department's hardware maintenance cost"
+   },
+   "answer": "A",
+   "explanation": "Exposure of a coherent set of identity attributes gives an attacker exactly what is needed to pass identity checks as the victim, which is why such leaks are followed by fraudulent applications and account takeovers. The last option describes a cost to the organisation, not a harm to the individual."
+  },
+  {
+   "id": "GEN-TECH2-U10-026",
+   "paper": "TECH2",
+   "unit": "10",
+   "sub": "Impact on Individual due to Breaches of Information Security",
+   "question": "Why is the exposure of an individual's biometric data or permanent identity attributes generally regarded as more serious than the exposure of a password?",
+   "options": {
+    "A": "Biometric data occupies more storage space than a password",
+    "B": "Passwords are protected by law while biometrics are not",
+    "C": "A compromised password can be changed, but a fingerprint, iris pattern or date of birth cannot be reissued, so the exposure and its risk are effectively permanent",
+    "D": "Biometric data is always stored in plain text whereas passwords are always hashed"
+   },
+   "answer": "C",
+   "explanation": "Revocability is the key distinction: a credential that can be reset limits the damage to the period before the reset, whereas an immutable attribute stays compromised for the individual's lifetime. Storage size is irrelevant, and how each is stored depends on the implementation rather than on the type of data."
+  },
+  {
+   "id": "GEN-TECH2-U10-027",
+   "paper": "TECH2",
+   "unit": "10",
+   "sub": "Security Control organization and structure",
+   "question": "In a government department's security organisation, what is the primary role of the Chief Information Security Officer?",
+   "options": {
+    "A": "To develop and maintain the application software used by the department",
+    "B": "To own the information security programme — policy, risk assessment, awareness, incident response and reporting to senior management",
+    "C": "To operate the departmental helpdesk and resolve user tickets",
+    "D": "To negotiate the department's hardware procurement contracts"
+   },
+   "answer": "B",
+   "explanation": "The CISO is accountable for the security programme as a whole and reports on its state to leadership, which is why the role is kept distinct from day-to-day IT delivery. Building applications and running the helpdesk are IT operations functions whose work the CISO oversees but does not perform."
+  },
+  {
+   "id": "GEN-TECH2-U10-028",
+   "paper": "TECH2",
+   "unit": "10",
+   "sub": "Security Control organization and structure",
+   "question": "Why should the officer who administers a system's security settings not also be the sole reviewer of that system's security logs?",
+   "options": {
+    "A": "Because reviewing logs requires a different software licence",
+    "B": "Because the administrator would not have technical access to the log files",
+    "C": "Because log review consumes time that administrators do not have",
+    "D": "Because segregation of duties requires that misuse or error by the administrator be capable of detection by someone independent of the administrator"
+   },
+   "answer": "D",
+   "explanation": "If the same person both sets the controls and judges the evidence of their use, there is no independent check on that person's own actions, and the log ceases to be a control over privileged activity. The reason is one of independence, not of licensing, access or workload."
+  },
+  {
+   "id": "GEN-TECH2-U10-029",
+   "paper": "TECH2",
+   "unit": "10",
+   "sub": "Information Security Risk Management Process",
+   "question": "In an information security risk management process, which activity immediately follows the identification of risks?",
+   "options": {
+    "A": "Risk analysis — estimating the likelihood of each identified risk and the impact if it materialises, so that the level of risk can be determined",
+    "B": "Certification of the organisation against a management system standard",
+    "C": "Publication of the risk register on the department's website",
+    "D": "Immediate procurement of security products for every identified risk"
+   },
+   "answer": "A",
+   "explanation": "Risks are first identified, then analysed for likelihood and consequence, then evaluated against risk acceptance criteria, and only then treated — the analysis step is what allows scarce effort to be directed at the risks that matter. Buying a product for every identified risk skips both the analysis and the evaluation on which proportionate treatment depends."
+  },
+  {
+   "id": "GEN-TECH2-U10-030",
+   "paper": "TECH2",
+   "unit": "10",
+   "sub": "Information Security Risk Management Process",
+   "question": "Which statement correctly expresses what an information security risk is?",
+   "options": {
+    "A": "Any error reported by a user of the system",
+    "B": "The potential that a threat exploits a vulnerability in an asset and thereby causes harm to the organisation",
+    "C": "The total number of unpatched systems in the organisation",
+    "D": "The financial cost of the security controls the organisation has deployed"
+   },
+   "answer": "B",
+   "explanation": "Risk brings together three elements — an asset of value, a vulnerability in it and a threat capable of exploiting that vulnerability — expressed as the likelihood and consequence of harm. A count of unpatched systems measures exposure but says nothing on its own about likelihood or impact."
+  },
+  {
+   "id": "GEN-TECH2-U10-031",
+   "paper": "TECH2",
+   "unit": "10",
+   "sub": "Information Security Risk Treatment",
+   "question": "A department takes out a cyber insurance policy to cover part of its potential losses from a data breach. Which risk treatment option does this represent?",
+   "options": {
+    "A": "Risk avoidance",
+    "B": "Risk acceptance",
+    "C": "Risk modification by applying controls",
+    "D": "Risk sharing, in which part of the consequence is transferred to another party"
+   },
+   "answer": "D",
+   "explanation": "Insurance and outsourcing share or transfer the financial consequence of a risk to a third party without reducing its likelihood, which is why it is classed as sharing rather than modification. Avoidance would mean not undertaking the activity at all, and acceptance would mean bearing the loss internally."
+  },
+  {
+   "id": "GEN-TECH2-U10-032",
+   "paper": "TECH2",
+   "unit": "10",
+   "sub": "Information Security Risk Treatment",
+   "question": "After the selected controls have been implemented, the risk that still remains is known as which of the following, and how should it be handled?",
+   "options": {
+    "A": "Inherent risk, which must be recalculated by the vendor",
+    "B": "Residual risk, which should be formally reviewed and accepted by the responsible risk owner",
+    "C": "Transferred risk, which becomes the auditor's responsibility",
+    "D": "Zero risk, since implemented controls eliminate the exposure entirely"
+   },
+   "answer": "B",
+   "explanation": "No practical set of controls reduces risk to nil, so what remains after treatment is residual risk and it must be explicitly accepted at the right level of authority rather than left unstated. Inherent risk is the level before any controls are applied, and an auditor evaluates the treatment rather than owning the risk."
+  }
+ ]
+}

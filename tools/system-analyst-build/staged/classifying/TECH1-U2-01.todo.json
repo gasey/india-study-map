@@ -1,0 +1,591 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 39,
+ "questions": [
+  {
+   "id": "TECH1_2024-21",
+   "paper": "TECH1",
+   "unit": "2",
+   "sub": "SDLC Methodologies: Waterfall model",
+   "question": "Which of the following is theoretically viable, but not viable for practical implementation?",
+   "options": {
+    "A": "Iterative Model",
+    "B": "Spiral Model",
+    "C": "RAD Model",
+    "D": "Waterfall Model"
+   },
+   "answer": "D",
+   "explanation": "The classic (pure, non-iterative) Waterfall model is widely taught as a theoretically clean, sequential ideal -- but in practice requirements almost always change mid-project and errors surface late, making a strict one-pass sequential flow impractical for real-world development. Iterative and Spiral models are explicitly designed around repeated refinement cycles to handle real-world change, and RAD is built specifically for fast, practical delivery with heavy user involvement -- so all three are practically oriented by design, unlike pure Waterfall."
+  },
+  {
+   "id": "TECH1_2024-22",
+   "paper": "TECH1",
+   "unit": "2",
+   "sub": "Agile: SCRUM",
+   "question": "Which of the following is NOT typically a role in a Scrum team?",
+   "options": {
+    "A": "Scrum Master",
+    "B": "Product Owner",
+    "C": "Tester",
+    "D": "Development Team"
+   },
+   "answer": "C",
+   "explanation": "The Scrum framework formally defines exactly three roles: Scrum Master, Product Owner, and the Development Team (a self-organizing, cross-functional group that collectively includes testing skills). 'Tester' is not a distinct named Scrum role -- testing responsibilities are absorbed into the Development Team rather than assigned to a separate title, which is why (c) is the one that does NOT belong among Scrum's official roles."
+  },
+  {
+   "id": "TECH1_2024-23",
+   "paper": "TECH1",
+   "unit": "2",
+   "sub": "Software Development Approach: Prototyping model",
+   "question": "Which of the following software development models emphasizes creating a prototype early in the development process to refine requirements?",
+   "options": {
+    "A": "Agile",
+    "B": "Waterfall",
+    "C": "Incremental Model",
+    "D": "Prototyping Model"
+   },
+   "answer": "D",
+   "explanation": "The Prototyping Model's defining characteristic is building a working (often partial) prototype very early specifically to elicit and clarify unclear or evolving requirements from users before committing to full development. Waterfall (b) instead requires requirements to be finalized upfront with no prototype step; the Incremental model (c) delivers the system in complete functional increments rather than a throwaway early prototype; and Agile (a) is a broader family of iterative approaches, not specifically defined by an early prototype-for-requirements step."
+  },
+  {
+   "id": "TECH1_2024-24",
+   "paper": "TECH1",
+   "unit": "2",
+   "sub": "SDLC Methodologies: Agile model",
+   "question": "Which SDLC methodology prioritizes customer collaboration over contract negotiation and responsiveness to change over following a plan?",
+   "options": {
+    "A": "Agile Methodology",
+    "B": "Waterfall Methodology",
+    "C": "V-Model",
+    "D": "Spiral Model"
+   },
+   "answer": "A",
+   "explanation": "This question paraphrases two of the four core values of the Agile Manifesto directly: 'customer collaboration over contract negotiation' and 'responding to change over following a plan.' Waterfall (b) and the V-Model (c) are plan-driven, sequential approaches where requirements and contracts are fixed upfront with limited scope for change. The Spiral model (d) is risk-driven and iterative but is not the methodology defined by these specific manifesto values -- Agile is the direct, textbook match."
+  },
+  {
+   "id": "TECH1_2024-25",
+   "paper": "TECH1",
+   "unit": "2",
+   "sub": "Software Development Approach: Rapid Application Development model",
+   "question": "A software development approach wherein the development process focusses more on the user feedback rather than following a strict plan is —",
+   "options": {
+    "A": "Iterative Model",
+    "B": "Spiral Model",
+    "C": "Object-Oriented Development",
+    "D": "Rapid Application Development"
+   },
+   "answer": "D",
+   "explanation": "Rapid Application Development (RAD) is specifically characterized by minimal upfront planning/documentation, fast prototyping cycles, and heavy, continuous user involvement to shape the product through feedback rather than a fixed plan -- matching the stem closely. This question is flagged low-confidence because the Iterative Model (a) is also commonly described as feedback-driven (each cycle incorporates lessons from the last) and could be defended as the intended answer; the paper does not make the distinction airtight, and OCR gives no extra context to disambiguate further."
+  },
+  {
+   "id": "TECH1_2024-26",
+   "paper": "TECH1",
+   "unit": "2",
+   "sub": "Version and Release Management: Version management tools",
+   "question": "Which of the following is a tool used for managing software version?",
+   "options": {
+    "A": "Bitstreamer",
+    "B": "Gitter",
+    "C": "Bitbucket",
+    "D": "Vertrack"
+   },
+   "answer": "C",
+   "explanation": "Bitbucket is a real Atlassian-owned repository hosting service (Git/Mercurial) used to manage and version software source code, branches and releases. Gitter is a chat/collaboration app for developer communities, not a version-control tool. 'Bitstreamer' and 'Vertrack' are not real software products - they are decoy names built to test whether a candidate can distinguish genuine tools from plausible-sounding fakes. Among the four choices, only Bitbucket genuinely performs software version management, making it the correct answer even though Git itself is the more famous underlying tool."
+  },
+  {
+   "id": "TECH1_2024-27",
+   "paper": "TECH1",
+   "unit": "2",
+   "sub": "OOAD: Designing Classes",
+   "question": "Software designing wherein the blueprints of entities are made and re-use those designs for more specific designs, etc. is happening in —",
+   "options": {
+    "A": "Object Oriented Design Model",
+    "B": "Rapid Application Development",
+    "C": "Agile Development",
+    "D": "Iterative Modelling"
+   },
+   "answer": "A",
+   "explanation": "In Object-Oriented Design, classes act as blueprints (templates) from which objects are instantiated, and these blueprints can be extended and reused through inheritance to build more specialised designs - exactly what the question describes. RAD is a speed-focused development methodology, not a design paradigm about reusable blueprints. Agile is a project/process philosophy, not a design technique. Iterative Modelling describes a lifecycle that repeats phases, not a way of creating reusable class templates. Only OOD centres on defining reusable, extensible entity templates."
+  },
+  {
+   "id": "TECH1_2024-28",
+   "paper": "TECH1",
+   "unit": "2",
+   "sub": "Software Design: Design quality",
+   "question": "In order to achieve modularity, which of the following is desirable?",
+   "options": {
+    "A": "High cohesion and low coupling",
+    "B": "Low cohesion and high coupling",
+    "C": "Low cohesion and low coupling",
+    "D": "High cohesion and high coupling"
+   },
+   "answer": "A",
+   "explanation": "Modularity - building a system from independent, interchangeable modules - is best achieved with high cohesion (each module has one well-defined responsibility) and low coupling (modules depend on each other as little as possible), so modules can be understood, changed and reused independently. Low cohesion/high coupling is the worst combination: unfocused modules tightly tangled together. Low cohesion/low coupling modules still lack internal focus. High cohesion/high coupling fails because tight interdependence prevents independent modification. 'High cohesion and low coupling' is the textbook goal of modular design."
+  },
+  {
+   "id": "TECH1_2024-29",
+   "paper": "TECH1",
+   "unit": "2",
+   "sub": "Maintenance costs",
+   "question": "___ risk is a type of risk that is estimated from the past experience regarding staff turnover, productivity, regularity and dedication etc.",
+   "options": {
+    "A": "Technical",
+    "B": "Predictable",
+    "C": "Business",
+    "D": "Process"
+   },
+   "answer": "B",
+   "explanation": "The standard software-engineering risk taxonomy (Pressman) divides project risks into known, predictable, and unpredictable categories. Predictable risks are those extrapolated from past project experience - classic textbook examples include staff turnover, poor customer communication, and dilution of staff effort - exactly matching this question's wording. Technical risk concerns design/implementation feasibility, not staff behaviour history. Business risk concerns market or organisational viability of the product. Process risk relates to weaknesses in the development process itself. Only 'Predictable' matches the 'estimated from past experience' framing given."
+  },
+  {
+   "id": "TECH1_2024-30",
+   "paper": "TECH1",
+   "unit": "2",
+   "sub": "OOAD: Object Oriented Analysis - Identifying Use-Cases",
+   "question": "The diagram used to depict how the actual users play their roles in the software system is called —",
+   "options": {
+    "A": "Use-case diagram",
+    "B": "Activity diagram",
+    "C": "Flowchart",
+    "D": "E-R diagram"
+   },
+   "answer": "A",
+   "explanation": "A use-case diagram in UML depicts actors (the actual users or external systems) and the use cases (roles/interactions) they perform with the software system, making it the standard notation for showing how users play their roles. An activity diagram instead models workflow/control flow of a process, not specifically user roles. A flowchart shows algorithmic logic. An E-R diagram models data entities and relationships, unrelated to user roles. Because the question explicitly asks about users' roles in the system, use-case diagram is the only correct fit."
+  },
+  {
+   "id": "TECH1_2024-31",
+   "paper": "TECH1",
+   "unit": "2",
+   "sub": "Software Development Approach: Rapid Application Development model",
+   "question": "Which of the following is a drawback of using the RAD (Rapid Application Development) model?",
+   "options": {
+    "A": "It is not suitable for time-critical projects.",
+    "B": "It requires extensive upfront planning.",
+    "C": "It has limited emphasis on user feedback.",
+    "D": "It may lead to scope creep due to frequent changes in requirements."
+   },
+   "answer": "D",
+   "explanation": "RAD builds systems fast through heavy prototyping and continuous user feedback; that very flexibility makes it easy for scope to keep expanding as users request more changes - a genuine, commonly cited drawback. The other options are actually the opposite of RAD's real character: RAD is specifically suited to time-critical projects, it deliberately avoids extensive upfront planning in favour of iterative prototyping, and it places heavy - not limited - emphasis on user feedback. Only option (d) correctly identifies a real weakness of RAD."
+  },
+  {
+   "id": "TECH1_2024-32",
+   "paper": "TECH1",
+   "unit": "2",
+   "sub": "OOAD: Unified Modelling Language (UML)",
+   "question": "In UML, what does the solid line with a closed arrowhead represent?",
+   "options": {
+    "A": "Association",
+    "B": "Aggregation",
+    "C": "Inheritance (Generalization)",
+    "D": "Composition"
+   },
+   "answer": "C",
+   "explanation": "In UML notation, a solid line ending in a closed (hollow triangular) arrowhead pointing to the parent class represents Generalization/Inheritance, the 'is-a' relationship between subclass and superclass. Plain Association uses a simple line with an optional open arrowhead (navigability), not a closed one. Aggregation is shown with a solid line and an unfilled diamond, and Composition with a filled diamond - neither uses a closed arrowhead. Because only generalization uses the closed-arrowhead solid-line convention, option (c) is correct."
+  },
+  {
+   "id": "TECH1_2024-33",
+   "paper": "TECH1",
+   "unit": "2",
+   "sub": "Software Design Principles: Introduction",
+   "question": "What is the main goal of applying the Open/Closed Principle in software design?",
+   "options": {
+    "A": "To ensure that the code can be modified easily.",
+    "B": "To minimize code reuse across the application.",
+    "C": "To prevent the need for interfaces and abstract classes.",
+    "D": "To make the system flexible to accommodate future changes without altering existing code."
+   },
+   "answer": "D",
+   "explanation": "The Open/Closed Principle states a module should be 'open for extension but closed for modification' - new behaviour should be added by extending existing code (via inheritance, interfaces, or composition) rather than editing it, so the system stays flexible for future changes without destabilising tested code. Option (a) is vague and actually contradicts OCP's intent of not modifying existing code. Options (b) and (c) are false: OCP encourages reuse and relies heavily on interfaces/abstract classes. Only (d) correctly captures OCP's real goal."
+  },
+  {
+   "id": "TECH1_2024-34",
+   "paper": "TECH1",
+   "unit": "2",
+   "sub": "System Models: Object aggregation",
+   "question": "Which of the following best describes “composition” in object-oriented design?",
+   "options": {
+    "A": "A strong form of aggregation where the lifetime of the contained object depends on the container.",
+    "B": "A weak association where objects can exist independently.",
+    "C": "A form of inheritance that allows objects to be combined.",
+    "D": "An interface implementation pattern."
+   },
+   "answer": "A",
+   "explanation": "Composition is a strong 'has-a' relationship - a stronger form of aggregation - where the contained (part) object's lifetime is bound to the container (whole) object: if the container is destroyed, so are its parts (e.g., a house and its rooms). Option (b) actually describes aggregation, where parts can exist independently. Option (c) wrongly conflates composition with inheritance, a completely different relationship. Option (d) misidentifies it as an interface pattern. Only option (a) accurately captures composition's dependent-lifetime characteristic."
+  },
+  {
+   "id": "TECH1_2024-35",
+   "paper": "TECH1",
+   "unit": "2",
+   "sub": "Configuration Management: Change Management",
+   "question": "Which process in Configuration Management deals with controlling and documenting changes to system components?",
+   "options": {
+    "A": "Change Control",
+    "B": "Version Control",
+    "C": "Incident Management",
+    "D": "Problem Management"
+   },
+   "answer": "A",
+   "explanation": "Change Control is the Configuration Management process responsible for evaluating, approving, and documenting proposed changes to baseline system components, ensuring changes are tracked and traceable. Version Control instead manages successive revisions/identifiers of an item, not the approval/documentation workflow around a change. Incident Management and Problem Management are IT service-management (ITIL) processes dealing with service disruptions and root causes, not configuration baselines. Since the question specifically asks about controlling and documenting changes, Change Control is the precise match."
+  },
+  {
+   "id": "TECH1_2024-36",
+   "paper": "TECH1",
+   "unit": "2",
+   "sub": "Software Development Approach: Continuous Integration model",
+   "question": "In Configuration Management, what does the acronym “CI/CD” stand for?",
+   "options": {
+    "A": "Configuration Identification/Continuous Deployment",
+    "B": "Continuous Integration/Continuous Deployment",
+    "C": "Configuration Integrity/Change Delivery",
+    "D": "Configuration Inspection/Code Delivery"
+   },
+   "answer": "B",
+   "explanation": "CI/CD stands for Continuous Integration/Continuous Deployment (sometimes Delivery) - practices where developers frequently merge code into a shared repository with automated builds and tests (CI), and validated changes are automatically released to production or staging (CD). The other options invent plausible-sounding but incorrect expansions ('Configuration Identification', 'Configuration Integrity', 'Configuration Inspection') that do not correspond to the real, universally recognised industry acronym. Because CI/CD is a standard DevOps term with a fixed meaning, option (b) is unambiguously correct."
+  },
+  {
+   "id": "TECH1_2024-37",
+   "paper": "TECH1",
+   "unit": "2",
+   "sub": "Software Refactoring",
+   "question": "The process of changing or optimizing the software codes at the coding level without changing the external functionality is called —",
+   "options": {
+    "A": "Software reengineering",
+    "B": "Software revision",
+    "C": "Software refactoring",
+    "D": "Software update"
+   },
+   "answer": "C",
+   "explanation": "Software refactoring is the disciplined process of restructuring existing code - improving its internal structure and readability - without changing its observable external behaviour or functionality. Software reengineering is a broader activity that can include reverse engineering and system-wide restructuring, not just code-level tweaks. Software revision/update imply adding features or altering behaviour, which changes external functionality. Since the question specifically excludes functional change and focuses on the coding level, 'refactoring' is the precise, textbook-correct term."
+  },
+  {
+   "id": "TECH1_2024-38",
+   "paper": "TECH1",
+   "unit": "2",
+   "sub": "Architectural Design: The client-server model",
+   "question": "Web-based systems have advantage over installed type applications in —",
+   "options": {
+    "A": "Functional accessibility",
+    "B": "Performance",
+    "C": "Security",
+    "D": "Update anomaly avoidance"
+   },
+   "answer": "D",
+   "explanation": "Web-based (thin-client) systems are deployed and updated centrally on the server, so every user always runs the same current version, eliminating the version mismatches ('update anomalies') that plague installed applications where different machines may run different, unpatched copies until each is manually updated. Performance and security are not inherent web advantages - installed native apps are often faster and can be more secure since they lack a constant network-facing attack surface. 'Functional accessibility' is also arguably true of web apps but is vaguer than the specific deployment-consistency benefit in (d). This question is genuinely ambiguous between (a) and (d)."
+  },
+  {
+   "id": "TECH1_2024-39",
+   "paper": "TECH1",
+   "unit": "2",
+   "sub": "OOAD: Unified Modelling Language (UML)",
+   "question": "___ diagram shows how the different design objects are defined and their relationships; this is called —",
+   "options": {
+    "A": "Object Oriented Design",
+    "B": "Entity-Relationship",
+    "C": "Process Flow",
+    "D": "UML"
+   },
+   "answer": "D",
+   "explanation": "The OCR-damaged question asks what a diagram depicting design objects and their relationships is called. Among the choices, UML (Unified Modeling Language) is the standard notation family whose class diagrams show design objects (classes) and relationships (association, aggregation, composition, inheritance) between them. 'Object Oriented Design' names an approach, not a diagram type. 'Entity-Relationship' diagrams model database entities, not general software design objects. 'Process Flow' shows control flow, not object relationships. UML is the best-fitting option, though the OCR corruption makes the question's exact intent uncertain."
+  },
+  {
+   "id": "TECH1_2024-40",
+   "paper": "TECH1",
+   "unit": "2",
+   "sub": "OOAD: Unified Modelling Language (UML)",
+   "question": "Unified Modelling Language is normally meant for —",
+   "options": {
+    "A": "Capturing the physical database design level",
+    "B": "Visualizing the overall view of system and sub-systems",
+    "C": "Defining the flow of data within and outside the system and sub-systems",
+    "D": "Representing how users interact with the system functionalities"
+   },
+   "answer": "B",
+   "explanation": "UML's official purpose is to provide a standard, graphical way to visualize, specify, construct, and document the artifacts of a software system - giving an overall, comprehensible view of a system and its sub-systems for all stakeholders. It is not limited to physical database design (that is ER/physical schema modeling), nor solely data-flow modeling (that is DFDs), nor solely user-interaction modeling (that is use-case diagrams, just one UML diagram type among many). Because UML spans structural and behavioural views of the whole system, option (b) is the most complete and correct description."
+  },
+  {
+   "id": "TECH1_OLD-21",
+   "paper": "TECH1",
+   "unit": "2",
+   "sub": "Software Development Approach: Prototyping model",
+   "question": "Which model can be selected if user is involved in all the phases of Software Development Life Cycle (SDLC)?",
+   "options": {
+    "A": "Waterfall Model",
+    "B": "Prototyping Model",
+    "C": "Rapid Application Development (RAD) Model",
+    "D": "Both (b) & (c)"
+   },
+   "answer": "D",
+   "explanation": "Both the Prototyping model and the RAD model are built around continuous, close user involvement: prototyping repeatedly shows working mock-ups to the user for feedback at every refinement cycle, while RAD similarly time-boxes development into short iterations with heavy user/customer participation and rapid feedback to accelerate delivery. The traditional Waterfall model (a), by contrast, involves the user mainly at the requirements stage and again at final delivery, with little to no user contact during the design/coding/testing phases in between. Since both (b) and (c) genuinely keep the user engaged throughout, (d) Both (b) & (c) is the intended answer."
+  },
+  {
+   "id": "TECH1_OLD-22",
+   "paper": "TECH1",
+   "unit": "2",
+   "sub": "Software Development Approach: Incremental Development model",
+   "question": "What is the major advantage of using Incremental Development Model?",
+   "options": {
+    "A": "Customer can respond to each increment",
+    "B": "Easier to test and debug",
+    "C": "It is used when there is a need to get a product to the market early",
+    "D": "Both (b) & (c)"
+   },
+   "answer": "D",
+   "explanation": "The incremental model delivers the system as a series of smaller, working builds rather than one big release. Because each increment is a small, self-contained piece of functionality, it is genuinely easier to test and debug (option b) than debugging one massive final system, and because usable functionality reaches users after just the first increment rather than waiting for the whole system, it is well suited to getting a product to market early (option c). Option (a), customer response to each increment, is a real benefit too, but the combined option (d) capturing both the testing/debugging ease and early market delivery is treated as the intended fuller answer here."
+  },
+  {
+   "id": "TECH1_OLD-23",
+   "paper": "TECH1",
+   "unit": "2",
+   "sub": "SDLC Methodologies: Spiral model",
+   "question": "Which of the following life cycle model can be chosen if the development team has less experience on similar projects?",
+   "options": {
+    "A": "Spiral",
+    "B": "Waterfall",
+    "C": "Rapid Application Development (RAD) Model",
+    "D": "Iterative Enhancement Model"
+   },
+   "answer": "A",
+   "explanation": "The Spiral model is explicitly built around repeated risk analysis at every cycle (each loop through the spiral includes a dedicated risk-assessment phase before committing further resources), making it the right choice when a team is inexperienced with a similar project and therefore faces higher uncertainty and risk. Waterfall (b) assumes requirements and design can be nailed down up front, which is risky for an inexperienced team; RAD (c) demands rapid, confident execution within tight time-boxes, which an inexperienced team may struggle with; and Iterative Enhancement (d) manages growth of features but lacks Spiral's explicit, formal risk-driven checkpoints."
+  },
+  {
+   "id": "TECH1_OLD-24",
+   "paper": "TECH1",
+   "unit": "2",
+   "sub": "SDLC Methodologies: Waterfall model",
+   "question": "For the best Software model suitable for the project, in which of the phase the developers decide a road-map for project plan?",
+   "options": {
+    "A": "Software Design",
+    "B": "System Analysis",
+    "C": "Coding",
+    "D": "Testing"
+   },
+   "answer": "B",
+   "explanation": "Deciding the overall project road-map, including which SDLC model best fits the project's requirements, risk profile, and constraints, is a planning decision made during the System Analysis / requirements and feasibility stage, before any design work begins. Software Design (a) assumes the model and scope have already been chosen and instead works out the internal architecture; Coding (c) and Testing (d) are downstream implementation and verification activities that happen even later. This question's phrasing is a bit loosely worded, so the intended phase is inferred as System Analysis rather than stated with full certainty."
+  },
+  {
+   "id": "TECH1_OLD-25",
+   "paper": "TECH1",
+   "unit": "2",
+   "sub": "Software Design: The design process",
+   "question": "Which of the following is/are the activities used in the design process for large software systems?\ni) Architectural designs\nii) Abstract specification\niii) Code design\niv) Interface design",
+   "options": {
+    "A": "i, ii and iii only",
+    "B": "ii, iii and iv only",
+    "C": "i, ii and iv only",
+    "D": "All i, ii, iii and iv"
+   },
+   "answer": "C",
+   "explanation": "The classic design-process activities described in standard software engineering texts for large systems are: architectural design (organizing overall system structure), abstract specification (describing each component's function without implementation detail), interface design (defining how components communicate), plus component and data-structure/algorithm design. \"Code design\" is not one of these named design-process activities — writing code belongs to the implementation phase, not the design phase — so any option including item (iii) should be excluded. That leaves architectural design, abstract specification, and interface design (i, ii, iv), matching option (c)."
+  },
+  {
+   "id": "TECH1_OLD-26",
+   "paper": "TECH1",
+   "unit": "2",
+   "sub": "System Models: Inheritance models",
+   "question": "Single inheritance, Multiple inheritance, and Aggregation comes under:",
+   "options": {
+    "A": "Modularity",
+    "B": "Typing",
+    "C": "Hierarchy",
+    "D": "None of the mentioned"
+   },
+   "answer": "C",
+   "explanation": "In the standard object-oriented model (Booch), the core properties are abstraction, encapsulation, modularity, hierarchy, typing, concurrency and persistence. 'Hierarchy' specifically covers ranking/ordering of abstractions: inheritance (single and multiple) forms the 'is-a' class hierarchy, while aggregation forms the 'part-of' (whole-part) hierarchy. Modularity is about packaging code into separate compilable units, unrelated to inheritance trees. Typing is about enforcing that objects conform to a class's interface, not about structural relationships. So (a) and (b) describe different OO properties, leaving Hierarchy as the concept that ties together inheritance and aggregation."
+  },
+  {
+   "id": "TECH1_OLD-27",
+   "paper": "TECH1",
+   "unit": "2",
+   "sub": "Agile: SCRUM",
+   "question": "In an Agile environment, what is the main responsibility of a tester?\n(a) Create test scenarios and test cases\n(b) Finding bugs\n(c) Send test execution reports to the stakeholders\n(d) There is no role as a tester in Scrum",
+   "options": {
+    "A": "Create test scenarios and test cases",
+    "B": "Finding bugs",
+    "C": "Send test execution reports to the stakeholders",
+    "D": "There is no role as a tester in Scrum"
+   },
+   "answer": "A",
+   "explanation": "In Agile/Scrum, a tester's core job is to translate user stories/acceptance criteria into concrete test scenarios and test cases early, so testing happens continuously within the sprint rather than as a late phase. 'Finding bugs' is an outcome of testing, not the defining responsibility, and testers do this alongside developers, not as their sole purpose. Sending reports to stakeholders is a communication side-task, not the main job. Scrum does not eliminate the testing skill set (option d is a common but incorrect claim); testers are embedded team members, so (a) best captures their primary contribution."
+  },
+  {
+   "id": "TECH1_OLD-28",
+   "paper": "TECH1",
+   "unit": "2",
+   "sub": "Agile: Adaptive Software Development (ASD)",
+   "question": "What are three framework activities for the Adaptive Software Development (ASD) process model?",
+   "options": {
+    "A": "Analysis, design, coding",
+    "B": "Feasibility study, functional model iteration, implementation",
+    "C": "Requirements gathering, adaptive cycle planning, iterative development",
+    "D": "Speculation, Collaboration, learning"
+   },
+   "answer": "D",
+   "explanation": "Jim Highsmith's Adaptive Software Development (ASD) explicitly replaces the traditional plan-build-revise cycle with three phases named Speculation, Collaboration, and Learning. Speculation replaces 'planning' to acknowledge uncertainty in adaptive, high-change environments; Collaboration reflects the need for concurrent teamwork under uncertainty; Learning emphasizes reviewing results and adjusting understanding after each cycle instead of assuming the plan was correct. The other options describe generic SDLC phases (analysis/design/coding), RAD-style phases (b), or plausible-sounding but non-canonical labels (c) that are not the specific named ASD activities."
+  },
+  {
+   "id": "TECH1_OLD-29",
+   "paper": "TECH1",
+   "unit": "2",
+   "sub": "OOAD: Unified Modelling Language (UML)",
+   "question": "Which of the following Unified Modelling Languages (UML) diagrams has a static view?",
+   "options": {
+    "A": "Activity",
+    "B": "State chart",
+    "C": "Collaboration",
+    "D": "Use case"
+   },
+   "answer": "D",
+   "explanation": "UML diagrams split into structural (static) and behavioral (dynamic) categories. Activity diagrams model workflow/control flow over time, state chart diagrams model an object's states and transitions over time, and collaboration (communication) diagrams model interacting objects and message sequencing over time -- all three are dynamic views. A use case diagram, by contrast, is a static snapshot of the system's functional scope: actors and use cases and their associations, without depicting time-ordered behavior, which is why it is grouped among the structural/static UML diagrams alongside class and object diagrams."
+  },
+  {
+   "id": "TECH1_OLD-30",
+   "paper": "TECH1",
+   "unit": "2",
+   "sub": "OOAD: Object Oriented Systems Development Life Cycle",
+   "question": "The object-oriented development life cycle is which of the following?\n(a) Analysis, design, and implementation steps in the given order and using the steps no more than one time.\n(b) Analysis, design, and implementation steps in any order and using the steps no more than one time.\n(c) Analysis, design, and implementation steps in any order and using multiple iterations.\n(d) Analysis, design, and implementation steps in the given order and using multiple iterations.",
+   "options": {
+    "A": "Analysis, design, and implementation steps in the given order and using the steps no more than one time.",
+    "B": "Analysis, design, and implementation steps in any order and using the steps no more than one time.",
+    "C": "Analysis, design, and implementation steps in any order and using multiple iterations.",
+    "D": "Analysis, design, and implementation steps in the given order and using multiple iterations."
+   },
+   "answer": "C",
+   "explanation": "The object-oriented development life cycle is inherently iterative and incremental: analysis, design and implementation are revisited repeatedly (not locked to a fixed sequence) as understanding of classes, objects and their relationships deepens through successive builds. Options (a), (b) and (d) all impose either a strict phase order or a single pass, which describes a waterfall-style life cycle, the opposite of how OO development actually works. Because OO systems are built and refined through multiple iterations without insisting analysis must always fully finish before design starts, (c) is correct."
+  },
+  {
+   "id": "TECH1_OLD-31",
+   "paper": "TECH1",
+   "unit": "2",
+   "sub": "Configuration Management: Introduction",
+   "question": "What is the main aim of Software Configuration Management (SCM)?\n(a) Identify change\n(b) Control change\n(c) Ensure that change is being properly implemented\n(d) All of the above",
+   "options": {
+    "A": "Identify change",
+    "B": "Control change",
+    "C": "Ensure that change is being properly implemented",
+    "D": "All of the above"
+   },
+   "answer": "D",
+   "explanation": "Software Configuration Management is a discipline for managing the evolution of software artifacts throughout the project, and its stated goals cover the full change lifecycle: identifying what changed (baseline/version identification), controlling how changes are requested and approved (change control boards, change requests), and verifying/auditing that approved changes were correctly and completely implemented (configuration audits). None of (a), (b), (c) alone captures SCM's scope; each is only one facet of it, so the umbrella answer 'All of the above' is correct."
+  },
+  {
+   "id": "TECH1_OLD-32",
+   "paper": "TECH1",
+   "unit": "2",
+   "sub": "OOAD: Overview of Object Oriented Systems Development",
+   "question": "One of the properties of Object Oriented Programming that allows obtaining some property which is attained by other object is __________.",
+   "options": {
+    "A": "Objects",
+    "B": "Inheritance",
+    "C": "Messages",
+    "D": "Polymorphism"
+   },
+   "answer": "B",
+   "explanation": "Inheritance is the OOP mechanism by which a class (subclass) acquires the attributes and methods ('properties') already defined in another class (superclass), enabling code reuse and an is-a hierarchy. 'Objects' is just the basic unit of instantiation, not a mechanism for acquiring properties from elsewhere. 'Messages' refers to communication between objects (method calls), not property acquisition. 'Polymorphism' lets the same operation behave differently across types, but it does not itself transfer properties between objects the way inheritance does, making (b) the precise match to the question's wording."
+  },
+  {
+   "id": "TECH1_OLD-33",
+   "paper": "TECH1",
+   "unit": "2",
+   "sub": "System Models: Data-flow models",
+   "question": "Activities and action taken on the data that are represented by Circle or Round-edged Rectangles in DFD are called __________.",
+   "options": {
+    "A": "Process",
+    "B": "Data storage",
+    "C": "Data flow",
+    "D": "Entities"
+   },
+   "answer": "A",
+   "explanation": "In standard Data Flow Diagram (DFD) notation, a circle or rounded rectangle denotes a Process -- a transformation step that acts on incoming data to produce outgoing data. Data storage is shown as an open-ended rectangle or two parallel lines (a data store), data flow is shown as a labeled arrow, and external entities (sources/sinks) are shown as squares or rectangles with sharp corners. Since the question explicitly names the circle/rounded-rectangle symbol, and that symbol is reserved for the transforming action, 'Process' is the only correct match among the four DFD symbol types."
+  },
+  {
+   "id": "TECH1_OLD-34",
+   "paper": "TECH1",
+   "unit": "2",
+   "sub": "Software Design: Design quality",
+   "question": "What do the physical connections between the elements of the OO design represent?",
+   "options": {
+    "A": "Cohesion",
+    "B": "Coupling",
+    "C": "Both (a) & (b)",
+    "D": "None of the above"
+   },
+   "answer": "B",
+   "explanation": "Coupling measures the degree of interdependence between separate modules/classes -- i.e., how many physical connections (calls, shared data, references) exist between them; low coupling is a design goal because it limits ripple effects of change. Cohesion, by contrast, is an internal property measuring how closely the responsibilities within a single module/class relate to one another, not connections between elements. Since the question specifically asks about connections between (i.e., across) design elements rather than within one element, coupling, not cohesion, is the correct concept, ruling out (a) and hence (c) as well."
+  },
+  {
+   "id": "TECH1_OLD-35",
+   "paper": "TECH1",
+   "unit": "2",
+   "sub": "System Models: Data-flow models",
+   "question": "Techniques that allows a software engineer to understand how a work process is completed when several people are included, is called __________.\n(a) Does not track potential risks\n(b) Cover problem areas before they go \"critical\"\n(c) Does not adjust work flow or tasks\n(d) Work flow analysis",
+   "options": {
+    "A": "Does not track potential risks",
+    "B": "Cover problem areas before they go \"critical\"",
+    "C": "Does not adjust work flow or tasks",
+    "D": "Work flow analysis"
+   },
+   "answer": "D",
+   "explanation": "The question stem asks for the name of a technique that lets an engineer understand how a multi-person work process gets completed -- by definition this is 'Work Flow Analysis', a technique that models the sequence of tasks, handoffs and responsibilities across people in a process. The other three options are not technique names at all but disconnected descriptive fragments (about risk tracking and problem escalation) that read as if pulled from an unrelated question, likely a print/OCR defect in the source paper. Despite the mismatched options, (d) is the only one that directly answers the definition being asked."
+  },
+  {
+   "id": "TECH1_OLD-37",
+   "paper": "TECH1",
+   "unit": "2",
+   "sub": "Software Design: Design description",
+   "question": "Which one of the following is NOT desired in a good Software Requirement Specifications (SRS) document?",
+   "options": {
+    "A": "Functional requirements",
+    "B": "Non-functional requirements",
+    "C": "Goals of implementation",
+    "D": "Algorithms for software development"
+   },
+   "answer": "D",
+   "explanation": "An SRS document is meant to specify WHAT the system must do (functional requirements), the quality attributes it must satisfy (non-functional requirements), and, in classic templates, an optional 'goals of implementation' section describing the broader intent behind the system. It should deliberately avoid HOW the system will be built internally: specific algorithms, data structures or code-level design belong to the design/implementation phase, not the requirements phase, since fixing an algorithm too early over-constrains the designer/programmer. So among the four, algorithms for software development is the one that should NOT appear in a good SRS."
+  },
+  {
+   "id": "TECH1_OLD-38",
+   "paper": "TECH1",
+   "unit": "2",
+   "sub": "Software Maintenance",
+   "question": "What is the appropriate pairing of items in the two columns listing various activities encountered in a software life cycle?\nP : Requirements Capture\nQ : Design\nR : Implementation\nS : Maintenance\n1 : Module Development and Integration\n2 : Domain Analysis\n3 : Structural and Behavioral Modeling\n4 : Performance Tuning",
+   "options": {
+    "A": "P-2, Q-3, R-4, S-1",
+    "B": "P-3, Q-2, R-1, S-4",
+    "C": "P-3, Q-2, R-4, S-1",
+    "D": "P-2, Q-3, R-1, S-4"
+   },
+   "answer": "D",
+   "explanation": "Requirements Capture is fundamentally about understanding the problem space, i.e. Domain Analysis (P-2). Design is about working out the system's structure and dynamic behavior, i.e. Structural and Behavioral Modeling (Q-3). Implementation is where individual modules are built and combined into a working system, i.e. Module Development and Integration (R-1). Maintenance, occurring after release, is largely about fixing and tuning the running system, i.e. Performance Tuning (S-4). This gives P-2, Q-3, R-1, S-4, matching option (d); the other options swap pairs (e.g., putting 'Structural Modeling' under Requirements or 'Domain Analysis' under Design) which reverses the natural phase-to-activity mapping."
+  },
+  {
+   "id": "TECH1_OLD-39",
+   "paper": "TECH1",
+   "unit": "2",
+   "sub": "Software Design: Design quality",
+   "question": "In the context of modular software design, which one of the following combinations is desirable?",
+   "options": {
+    "A": "High cohesion and high coupling",
+    "B": "High cohesion and low coupling",
+    "C": "Low cohesion and high coupling",
+    "D": "Low cohesion and low coupling"
+   },
+   "answer": "B",
+   "explanation": "Good modular design aims for modules whose internal elements are strongly related to one purpose (high cohesion) while minimizing interdependence between separate modules (low coupling); this combination makes modules easy to understand, reuse, test and modify in isolation. High coupling (options a, c) means changes ripple across modules regardless of cohesion, hurting maintainability. Low cohesion (options c, d) means a module does unrelated things, making it hard to understand and reuse even if coupling happens to be low. Hence high cohesion with low coupling, (b), is the textbook-desirable combination."
+  },
+  {
+   "id": "TECH1_OLD-40",
+   "paper": "TECH1",
+   "unit": "2",
+   "sub": "SDLC Methodologies: Spiral model",
+   "question": "Staff turnover, poor communication with the customer are risks that are extrapolated from past experience are called __________.",
+   "options": {
+    "A": "Business risks",
+    "B": "Predictable risks",
+    "C": "Project risks",
+    "D": "Technical risks"
+   },
+   "answer": "B",
+   "explanation": "Software risk taxonomies (e.g., Pressman) classify risks as known risks (documented facts, e.g. a fixed deadline), predictable risks (extrapolated from past project experience, e.g. staff turnover, poor customer communication, staff attrition), and unpredictable risks (rare, hard-to-foresee events). The question's own wording -- 'risks extrapolated from past experience' -- is essentially the textbook definition of predictable risks, so (b) matches directly. Project risks and technical risks are separate classification axes (by impact area: budget/schedule vs. design/implementation), not by how the risk was identified, so they don't fit the 'extrapolated from past experience' criterion as precisely."
+  }
+ ]
+}

@@ -1,0 +1,321 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 21,
+ "questions": [
+  {
+   "id": "GEN-240",
+   "paper": "TECH3",
+   "unit": "A",
+   "sub": "Number series completion",
+   "question": "Find the missing number in the series: 2, 6, 12, 20, 30, ?",
+   "options": {
+    "A": "36",
+    "B": "40",
+    "C": "42",
+    "D": "44"
+   },
+   "answer": "C",
+   "explanation": "The differences between consecutive terms are 6-2=4, 12-6=6, 20-12=8, 30-20=10 -- the gap itself increases by 2 each time (4, 6, 8, 10, ...). So the next gap is 10+2=12, giving 30+12=42."
+  },
+  {
+   "id": "GEN-241",
+   "paper": "TECH3",
+   "unit": "A",
+   "sub": "Missing number in a figure or matrix",
+   "question": "A 3x3 matrix is arranged in rows as follows. Row 1: 4, 5, 20. Row 2: 3, 7, 21. Row 3: 6, 8, ?. In each row, the third number equals the product of the first two numbers in that row. What is the missing number in Row 3?",
+   "options": {
+    "A": "42",
+    "B": "46",
+    "C": "48",
+    "D": "56"
+   },
+   "answer": "C",
+   "explanation": "Row 1: 4 x 5 = 20 (matches). Row 2: 3 x 7 = 21 (matches). Row 3: 6 x 8 = 48, so the missing number is 48."
+  },
+  {
+   "id": "GEN-242",
+   "paper": "TECH3",
+   "unit": "A",
+   "sub": "Arithmetic reasoning",
+   "question": "A father is currently 3 times as old as his son. After 12 years, the father will be exactly twice as old as his son. What is the son's current age?",
+   "options": {
+    "A": "9 years",
+    "B": "10 years",
+    "C": "12 years",
+    "D": "15 years"
+   },
+   "answer": "C",
+   "explanation": "Let the son's current age be x, so the father's age is 3x. After 12 years: 3x + 12 = 2(x + 12). This gives 3x + 12 = 2x + 24, so x = 12. Check: son is 12, father is 36; after 12 years son is 24, father is 48 = 2 x 24. Correct."
+  },
+  {
+   "id": "GEN-243",
+   "paper": "TECH3",
+   "unit": "A",
+   "sub": "Percentage, ratio and proportion",
+   "question": "In a class, the ratio of boys to girls is 5:3. If there are 20 more boys than girls, what is the total number of students in the class?",
+   "options": {
+    "A": "60",
+    "B": "72",
+    "C": "76",
+    "D": "80"
+   },
+   "answer": "D",
+   "explanation": "Let boys = 5x and girls = 3x. Then 5x - 3x = 20, so 2x = 20 and x = 10. Boys = 50, girls = 30, total = 50 + 30 = 80."
+  },
+  {
+   "id": "GEN-244",
+   "paper": "TECH3",
+   "unit": "A",
+   "sub": "Average",
+   "question": "The average of 5 consecutive even numbers is 24. What is the largest of these numbers?",
+   "options": {
+    "A": "24",
+    "B": "26",
+    "C": "28",
+    "D": "30"
+   },
+   "answer": "C",
+   "explanation": "For 5 consecutive even numbers, the average always equals the middle (3rd) number, so the middle number is 24. The numbers are 20, 22, 24, 26, 28 (each pair on either side differs by 2). The largest is 28."
+  },
+  {
+   "id": "GEN-245",
+   "paper": "TECH3",
+   "unit": "A",
+   "sub": "Simple and compound interest",
+   "question": "Find the compound interest on Rs. 8,000 for 2 years at 10% per annum, compounded annually.",
+   "options": {
+    "A": "Rs. 1,600",
+    "B": "Rs. 1,680",
+    "C": "Rs. 1,760",
+    "D": "Rs. 1,800"
+   },
+   "answer": "B",
+   "explanation": "Amount = P(1 + r/100)^n = 8000 x (1.1)^2 = 8000 x 1.21 = 9,680. Compound Interest = Amount - Principal = 9,680 - 8,000 = Rs. 1,680."
+  },
+  {
+   "id": "GEN-246",
+   "paper": "TECH3",
+   "unit": "A",
+   "sub": "Profit and loss",
+   "question": "A shopkeeper buys an article for Rs. 400 and sells it at a profit of 15%. What is the selling price?",
+   "options": {
+    "A": "Rs. 440",
+    "B": "Rs. 450",
+    "C": "Rs. 460",
+    "D": "Rs. 480"
+   },
+   "answer": "C",
+   "explanation": "Selling price = Cost price x (1 + profit%/100) = 400 x 1.15 = Rs. 460."
+  },
+  {
+   "id": "GEN-247",
+   "paper": "TECH3",
+   "unit": "A",
+   "sub": "Time and work",
+   "question": "A can complete a piece of work in 12 days and B can complete the same work in 18 days. If they work together, in how many days will they complete the work?",
+   "options": {
+    "A": "6 days",
+    "B": "6.5 days",
+    "C": "7.2 days",
+    "D": "15 days"
+   },
+   "answer": "C",
+   "explanation": "A's rate = 1/12 of the work per day, B's rate = 1/18 per day. Combined rate = 1/12 + 1/18 = 3/36 + 2/36 = 5/36 of the work per day. Time taken = 36/5 = 7.2 days."
+  },
+  {
+   "id": "GEN-248",
+   "paper": "TECH3",
+   "unit": "A",
+   "sub": "Time, speed and distance",
+   "question": "A train travels 360 km in 4 hours at a uniform speed. At the same speed, how long will it take to cover 450 km?",
+   "options": {
+    "A": "4 hours",
+    "B": "4.5 hours",
+    "C": "5 hours",
+    "D": "5.5 hours"
+   },
+   "answer": "C",
+   "explanation": "Speed = distance / time = 360 / 4 = 90 km/h. Time to cover 450 km = 450 / 90 = 5 hours."
+  },
+  {
+   "id": "GEN-249",
+   "paper": "TECH3",
+   "unit": "A",
+   "sub": "Data interpretation from tables and charts",
+   "question": "The table below shows the number of computers sold by a shop over four months: January: 40, February: 55, March: 35, April: 70. What is the average number of computers sold per month over these four months?",
+   "options": {
+    "A": "45",
+    "B": "48",
+    "C": "50",
+    "D": "52"
+   },
+   "answer": "C",
+   "explanation": "Total sold = 40 + 55 + 35 + 70 = 200. Average = 200 / 4 = 50 computers per month."
+  },
+  {
+   "id": "GEN-250",
+   "paper": "TECH3",
+   "unit": "A",
+   "sub": "Simplification and approximation",
+   "question": "Simplify: 15 + 6 x 4 - 18 / 3",
+   "options": {
+    "A": "27",
+    "B": "31",
+    "C": "33",
+    "D": "37"
+   },
+   "answer": "C",
+   "explanation": "Using order of operations (multiplication/division before addition/subtraction): 6 x 4 = 24 and 18 / 3 = 6. So the expression becomes 15 + 24 - 6 = 33."
+  },
+  {
+   "id": "GEN-251",
+   "paper": "TECH3",
+   "unit": "A",
+   "sub": "Number system, HCF and LCM",
+   "question": "What is the LCM of 24 and 36?",
+   "options": {
+    "A": "48",
+    "B": "60",
+    "C": "72",
+    "D": "144"
+   },
+   "answer": "C",
+   "explanation": "24 = 2^3 x 3, and 36 = 2^2 x 3^2. LCM takes the highest power of each prime: 2^3 x 3^2 = 8 x 9 = 72. (Check: HCF = 2^2 x 3 = 12, and HCF x LCM = 12 x 72 = 864 = 24 x 36, confirming the answer.)"
+  },
+  {
+   "id": "TECH3_2021-76",
+   "paper": "TECH3",
+   "unit": "A",
+   "sub": "Number series completion",
+   "question": "What should come in the place of question mark (?) in the number series given below? 25, 34, 52, 79, 115, ?",
+   "options": {
+    "A": "160",
+    "B": "140",
+    "C": "153",
+    "D": "None of these"
+   },
+   "answer": "A",
+   "explanation": "The differences between consecutive terms are 9, 18, 27, 36 -- each 9 more than the last -- so the next difference is 45, giving 115 + 45 = 160."
+  },
+  {
+   "id": "TECH3_2021-77",
+   "paper": "TECH3",
+   "unit": "A",
+   "sub": "Simplification and approximation",
+   "question": "If the fractions 8/5, 7/2, 9/5, 5/4, 4/5 are arranged in descending order of their values, which one will be fourth?",
+   "options": {
+    "A": "4/5",
+    "B": "8/5",
+    "C": "9/5",
+    "D": "5/4"
+   },
+   "answer": "D",
+   "explanation": "Converting to decimals: 7/2=3.5, 9/5=1.8, 8/5=1.6, 5/4=1.25, 4/5=0.8. In descending order that is 7/2, 9/5, 8/5, 5/4, 4/5, so the fourth term is 5/4."
+  },
+  {
+   "id": "TECH3_2021-78",
+   "paper": "TECH3",
+   "unit": "A",
+   "sub": "Number series completion",
+   "question": "Look at this series: 5, 1, (1/5), (1/25), ... What number should come next?",
+   "options": {
+    "A": "(1/13)",
+    "B": "(1/125)",
+    "C": "(2/265)",
+    "D": "(1/100)"
+   },
+   "answer": "B",
+   "explanation": "Each term is the previous term divided by 5: 5, 5/5=1, 1/5, (1/5)/5=1/25, so the next term is (1/25)/5 = 1/125."
+  },
+  {
+   "id": "TECH3_2021-79",
+   "paper": "TECH3",
+   "unit": "A",
+   "sub": "Number series completion",
+   "question": "Look at this series: 9, 10, 11, 11, 13, 12, ... What number should come next?",
+   "options": {
+    "A": "9",
+    "B": "15",
+    "C": "12",
+    "D": "16"
+   },
+   "answer": "B",
+   "explanation": "The sequence interleaves two series: odd positions 9, 11, 13 (+2 each) and even positions 10, 11, 12 (+1 each). The 7th term continues the odd-position series: 13 + 2 = 15."
+  },
+  {
+   "id": "TECH3_2021-80",
+   "paper": "TECH3",
+   "unit": "A",
+   "sub": "Number series completion",
+   "question": "Look at this series: 55, 55, 40, 35, 25, 15, ... What number should come next?",
+   "options": {
+    "A": "15",
+    "B": "10",
+    "C": "27",
+    "D": "55"
+   },
+   "answer": "B",
+   "explanation": "The sequence interleaves two series: odd positions 55, 40, 25 (-15 each) and even positions 55, 35, 15 (-20 each). The 7th term continues the odd-position series: 25 - 15 = 10."
+  },
+  {
+   "id": "TECH3_2021-81",
+   "paper": "TECH3",
+   "unit": "A",
+   "sub": "Number series completion",
+   "question": "Look carefully for the pattern, and then choose which pair of numbers comes next. 28, 25, 5, 21, 18, 5, 14,",
+   "options": {
+    "A": "11, 5",
+    "B": "10, 7",
+    "C": "11, 8",
+    "D": "5, 10"
+   },
+   "answer": "A",
+   "explanation": "The numbers form triples where the first minus 3 gives the second, and the third is always 5: (28,25,5), (21,18,5), (14,11,5). So the next pair is 11, 5."
+  },
+  {
+   "id": "TECH3_2021-82",
+   "paper": "TECH3",
+   "unit": "A",
+   "sub": "Number series completion",
+   "question": "Look at this series: 664, 332, 340, 170, ____, 89, ... What number should fill the blank?",
+   "options": {
+    "A": "85",
+    "B": "97",
+    "C": "109",
+    "D": "178"
+   },
+   "answer": "D",
+   "explanation": "The pattern alternates divide-by-2 and add-8: 664/2=332, 332+8=340, 340/2=170, 170+8=178, 178/2=89 -- matching the given 89, so the blank is 178."
+  },
+  {
+   "id": "TECH3_2021-83",
+   "paper": "TECH3",
+   "unit": "A",
+   "sub": "Number series completion",
+   "question": "Look at this series: 70, 71, 76, __, 81, 86, 70, 91, ... What number should fill the blank?",
+   "options": {
+    "A": "70",
+    "B": "71",
+    "C": "80",
+    "D": "96"
+   },
+   "answer": "C",
+   "explanation": "The series is three groups of (n, n+1, n+6) starting 10 apart: 70,71,76 then 80,81,86 then 90,91,96 -- so the blank completing the second group is 80. The printed series has an apparent OCR slip (a stray '70' where '90' belongs), so this reading is reconstructed rather than certain."
+  },
+  {
+   "id": "TECH3_2021-98",
+   "paper": "TECH3",
+   "unit": "A",
+   "sub": "Arithmetic reasoning",
+   "question": "Today is Thursday. The day after 59 days will be?",
+   "options": {
+    "A": "Sunday",
+    "B": "Monday",
+    "C": "Tuesday",
+    "D": "Wednesday"
+   },
+   "answer": "A",
+   "explanation": "59 days is 8 weeks and 3 days (59 = 56 + 3), so the day of week advances 3 places from Thursday: Friday, Saturday, Sunday -- the answer is Sunday."
+  }
+ ]
+}

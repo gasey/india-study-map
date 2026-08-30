@@ -1,0 +1,141 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 9,
+ "questions": [
+  {
+   "id": "TECH2_2024-96",
+   "paper": "TECH2",
+   "unit": "19",
+   "sub": "Attributing impact to the intervention",
+   "question": "Which type of evaluation assesses whether changes are a result of the interventions?",
+   "options": {
+    "A": "Impact Evaluation",
+    "B": "Process Evaluation",
+    "C": "Outcome Evaluation",
+    "D": "Financial Evaluation"
+   },
+   "answer": "C",
+   "explanation": "Impact evaluation is specifically concerned with attribution — establishing, often using a counterfactual or comparison group, whether observed changes are genuinely caused by the intervention rather than by other external factors. Process evaluation (b) instead examines how well the project/programme was implemented (activities, fidelity), and outcome evaluation (c) checks whether intended short/medium-term results occurred but without necessarily proving causal attribution to the intervention. Financial evaluation (d) is unrelated, covering costs and budgets."
+  },
+  {
+   "id": "TECH2_2021-100",
+   "paper": "TECH2",
+   "unit": "19",
+   "sub": "Impact assessment methodologies and sampling",
+   "question": "The three types of assessment given by the Ministry of Electronics & IT are:",
+   "options": {
+    "A": "Impact assessment, baseline study and detailed assessment",
+    "B": "Impact assessment, economic assessment and social assessment",
+    "C": "Socio-economic assessment, impact assessment and technological assessment",
+    "D": "None of the above"
+   },
+   "answer": "A",
+   "explanation": "The Ministry's assessment framework for e-governance projects uses a baseline study for projects at conceptualisation or early implementation, an impact assessment for mature projects already delivering citizen services, and a detailed assessment to explain variation in impact across locations. The other option sets are invented labels."
+  },
+  {
+   "id": "TECH2_2021-99",
+   "paper": "TECH2",
+   "unit": "19",
+   "sub": "Purpose of impact assessment",
+   "question": "The Impact of Polio Eradication Programme is:",
+   "options": {
+    "A": "Healthy citizens",
+    "B": "Reduction in polio",
+    "C": "Health campaign",
+    "D": "Health camps"
+   },
+   "answer": "A",
+   "explanation": "In the standard results chain, health camps are activities, the campaign is the output, reduction in polio cases is the outcome, and the long-term societal change - healthier citizens - is the impact. Reduction in polio is the classic trap because it is a real result but sits one level below impact."
+  },
+  {
+   "id": "GEN-TECH2-U19-120",
+   "paper": "TECH2",
+   "unit": "19",
+   "sub": "Dimensions of impact: citizen, government, society",
+   "question": "In an impact assessment of an e-governance project, which of the following belongs to the government or administrative dimension of impact rather than the citizen dimension?",
+   "options": {
+    "A": "Reduction in the number of visits a citizen must make to a government office",
+    "B": "Reduction in the out-of-pocket amount a citizen spends to obtain the service",
+    "C": "Reduction in the department's cost of processing each transaction, together with better availability of reliable data for administrative decision-making",
+    "D": "Reduction in the time a citizen waits at the counter"
+   },
+   "answer": "C",
+   "explanation": "The government dimension looks inward at the administration — unit processing cost, staff effort released, accuracy of records, and the quality of information now available for supervision and policy. Visits, out-of-pocket spend and waiting time are all borne by the applicant and belong to the citizen dimension, which is assessed from the user's side of the counter."
+  },
+  {
+   "id": "GEN-TECH2-U19-121",
+   "paper": "TECH2",
+   "unit": "19",
+   "sub": "Dimensions of impact: citizen, government, society",
+   "question": "Which of the following is assessed under the societal dimension of impact rather than the individual citizen or the government dimension?",
+   "options": {
+    "A": "The number of days an individual applicant saved in obtaining a certificate",
+    "B": "The saving in the department's stationery and record-room expenditure",
+    "C": "The number of legacy records the department digitised",
+    "D": "Whether the service has become more equitably available to remote, poor and less literate populations, and whether greater transparency has narrowed the scope for rent-seeking"
+   },
+   "answer": "D",
+   "explanation": "The societal dimension asks what the project did to the wider public sphere — equity of access across geography, income and literacy, transparency, accountability and trust in government — rather than what it did for one applicant or one department's costs. It is the dimension most often skipped, because it needs survey evidence and a disaggregated look at who is still being left out."
+  },
+  {
+   "id": "GEN-TECH2-U19-122",
+   "paper": "TECH2",
+   "unit": "19",
+   "sub": "Cost of access and time saved measures",
+   "question": "In impact assessment, the 'cost of access' borne by a citizen in obtaining a government service is understood to include:",
+   "options": {
+    "A": "The direct fee paid, plus travel expenses, income foregone for the time spent, the cost of repeat visits, and any unofficial payments made",
+    "B": "Only the statutory fee prescribed for the service",
+    "C": "Only the department's own expenditure on delivering the service",
+    "D": "The capital cost of the IT infrastructure divided by the number of applicants"
+   },
+   "answer": "A",
+   "explanation": "The prescribed fee is usually the smallest part of what a service actually costs a citizen; travel, lost wages, repeated trips because a document was missing, and speed money together dominate the real burden, and these are what an electronic channel is expected to cut. Confining the measure to the statutory fee would show almost no change even where the project has transformed the applicant's experience."
+  },
+  {
+   "id": "GEN-TECH2-U19-123",
+   "paper": "TECH2",
+   "unit": "19",
+   "sub": "Cost of access and time saved measures",
+   "question": "How is 'time saved' properly quantified in the impact assessment of a service delivery project?",
+   "options": {
+    "A": "By asking departmental staff to estimate how much faster the process now feels",
+    "B": "By measuring, before and after, the number of visits made and the travel, waiting and processing time per visit, and valuing the difference at an appropriate wage rate where a monetary figure is required",
+    "C": "By counting the number of transactions the portal has recorded since it was launched",
+    "D": "By adopting the turnaround time stated in the service level agreement as the post-project value"
+   },
+   "answer": "B",
+   "explanation": "Time saved is a difference between two observations of the same quantity, so it requires the trip count and per-trip time to be measured on both sides of the intervention, and monetisation follows by applying a wage rate to the hours released. Taking the SLA figure instead substitutes the contractual promise for the measured reality, which is exactly the claim an impact assessment is supposed to test."
+  },
+  {
+   "id": "GEN-TECH2-U19-124",
+   "paper": "TECH2",
+   "unit": "19",
+   "sub": "eTaal, and national impact assessment studies",
+   "question": "What is eTaal in the Indian e-governance ecosystem?",
+   "options": {
+    "A": "A national repository holding the source code of government applications",
+    "B": "A certification scheme for e-governance project managers",
+    "C": "A portal that aggregates and disseminates near real-time counts of electronic transactions delivered by central and state e-governance projects",
+    "D": "A payment gateway through which state departments collect service fees"
+   },
+   "answer": "C",
+   "explanation": "eTaal collects e-transaction counts from participating national and state projects and publishes them in an aggregated, near real-time view, so the reach and usage of e-services can be seen across departments and states on a common dashboard. It neither hosts application code nor handles the money — it counts the transactions that other systems complete."
+  },
+  {
+   "id": "GEN-TECH2-U19-125",
+   "paper": "TECH2",
+   "unit": "19",
+   "sub": "eTaal, and national impact assessment studies",
+   "question": "A department cites its high eTaal transaction count as proof that its project has produced impact. What is the flaw in that argument?",
+   "options": {
+    "A": "eTaal covers only central government departments, so a state project's figures do not appear on it",
+    "B": "eTaal figures are published only once a year and are therefore too dated to support any claim",
+    "C": "eTaal figures are estimated from a sample survey rather than taken from the systems themselves",
+    "D": "Transaction volume shows that the channel is being used, not what changed for anyone; impact still has to be demonstrated through time, cost, quality and equity of service measured against a baseline"
+   },
+   "answer": "D",
+   "explanation": "Usage statistics are an output measure — they can rise simply because a manual counter was closed and applicants had nowhere else to go, with no improvement in what the citizen experiences. That is why national impact assessment studies rely on citizen surveys and before-and-after comparisons of access cost and turnaround, using transaction counts only as context for reach."
+  }
+ ]
+}

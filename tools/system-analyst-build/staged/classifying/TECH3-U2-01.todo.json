@@ -1,0 +1,201 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 13,
+ "questions": [
+  {
+   "id": "TECH3_2024-3",
+   "paper": "TECH3",
+   "unit": "2",
+   "sub": "Project phases and phase gates",
+   "question": "Which phase of the project management takes longest time?",
+   "options": {
+    "A": "Conceptualization",
+    "B": "Planning",
+    "C": "Execution",
+    "D": "Wrapping up"
+   },
+   "answer": "C",
+   "explanation": "The Executing phase, where the actual project work defined in the plan is carried out, consumes the largest share of a project's total duration and resources. Conceptualization (Initiation) and Wrapping up (Closing) are typically brief, bounding phases. Planning takes meaningful time but is still shorter than Execution because it precedes the bulk of the actual deliverable-producing work, and cost/staffing curves peak during execution before dropping sharply at closure."
+  },
+  {
+   "id": "TECH3_2024-6",
+   "paper": "TECH3",
+   "unit": "2",
+   "sub": "Project Stakeholders and Governance",
+   "question": "The definition of project stakeholder may not include —",
+   "options": {
+    "A": "Project team",
+    "B": "Client",
+    "C": "Investors",
+    "D": "Competitors"
+   },
+   "answer": "D",
+   "explanation": "A stakeholder is any individual, group or organization that can affect, be affected by, or perceive itself to be affected by a project's decisions, activities or outcomes - this covers the project team, the client and investors, all of whom have a direct interest or involvement. Competitors, by contrast, have no legitimate interest in or influence over the project's outcome and are excluded from the stakeholder definition, making them the correct exception here."
+  },
+  {
+   "id": "TECH3_2024-7",
+   "paper": "TECH3",
+   "unit": "2",
+   "sub": "Organizational process assets and Enterprise Environmental Factors",
+   "question": "What is an example of an organizational process asset that can be used during project planning?",
+   "options": {
+    "A": "Geographic distribution of resources",
+    "B": "Risk control procedures",
+    "C": "Project life cycle approach",
+    "D": "Political climate"
+   },
+   "answer": "B",
+   "explanation": "Organizational Process Assets (OPAs) are the organization's own plans, processes, policies, procedures and knowledge bases - PMBOK explicitly lists risk control procedures (risk categories, probability/impact definitions) as an OPA example. Geographic distribution of resources and political climate are Enterprise Environmental Factors (EEFs) - external/internal conditions the organization does not control, not assets it owns. 'Project life cycle approach' is a methodology choice rather than a documented organizational asset in this framing."
+  },
+  {
+   "id": "TECH3_2024-8",
+   "paper": "TECH3",
+   "unit": "2",
+   "sub": "Organizational structures: functional, matrix (weak, balanced, strong), projectized",
+   "question": "In which type of organizational structure are dedicated project teams most commonly found?",
+   "options": {
+    "A": "Matrix organizations",
+    "B": "Functional organizations",
+    "C": "Projectized organizations",
+    "D": "Joint ventures"
+   },
+   "answer": "C",
+   "explanation": "In a projectized organization, team members are dedicated full-time to a single project and report solely to the project manager, who holds high to almost total authority. In a functional organization, staff remain under functional managers and only support projects part-time. Matrix organizations split staff between functional and project reporting lines (shared, not dedicated). 'Joint ventures' is not a standard PMBOK organizational-structure category, making it a clear distractor."
+  },
+  {
+   "id": "TECH3_2024-9",
+   "paper": "TECH3",
+   "unit": "2",
+   "sub": "Cost and staffing levels across the life cycle",
+   "question": "Which of the following is typically true about cost and staffing levels in a project life cycle?",
+   "options": {
+    "A": "They remain constant throughout the project.",
+    "B": "They are highest at the start of the project.",
+    "C": "They are highest during the closing phase.",
+    "D": "They peak as the work is carried out and drop rapidly towards closure."
+   },
+   "answer": "D",
+   "explanation": "PMBOK's generic cost-and-staffing curve starts low during initiation, rises steadily as planning and execution ramp up, peaks during the bulk of the executing phase, and then drops sharply as the project winds down and closes. So costs/staffing are neither constant, nor highest at the very start, nor highest at closing - they peak mid-to-late during execution and fall rapidly at closure, matching option D exactly."
+  },
+  {
+   "id": "TECH3_2024-10",
+   "paper": "TECH3",
+   "unit": "2",
+   "sub": "Organizational culture, styles and communications",
+   "question": "As hierarchy of authority goes down in the organization, the responsibility becomes more specific and more detailed.",
+   "options": {
+    "A": "Down",
+    "B": "Up",
+    "C": "Further",
+    "D": "Back"
+   },
+   "answer": "A",
+   "explanation": "At higher levels of an organizational hierarchy, responsibility is broad and strategic; moving down the hierarchy, roles and duties become progressively narrower, specific and detailed (e.g., a CEO sets direction, a team lead assigns exact daily tasks). So the blank is correctly filled by 'Down'. 'Up', 'Further' and 'Back' do not describe a direction of increasing specificity in a standard organizational hierarchy and are distractors with no established PM meaning."
+  },
+  {
+   "id": "TECH3_2021-10",
+   "paper": "TECH3",
+   "unit": "2",
+   "sub": "Project Life Cycle - predictive, iterative, incremental, adaptive",
+   "question": "Which of the following statements is correct:",
+   "options": {
+    "A": "Project life cycles and product life cycles are interdependent.",
+    "B": "Project life cycles are independent of product life cycles.",
+    "C": "A product life cycle is the same as a project life cycle.",
+    "D": "The last life cycle for a project is generally the product's retirement."
+   },
+   "answer": "B",
+   "explanation": "PMBOK treats the project life cycle as independent of the product life cycle -- a product's life cycle can span many projects across its life, so the two are not the same thing nor strictly interdependent."
+  },
+  {
+   "id": "TECH3_2021-6",
+   "paper": "TECH3",
+   "unit": "2",
+   "sub": "Organizational process assets and Enterprise Environmental Factors",
+   "question": "The organization's process and procedures for conducting project work does not include:",
+   "options": {
+    "A": "Guidelines of the project to specify needs of the organization",
+    "B": "Financial controls procedure",
+    "C": "Risk control procedures",
+    "D": "Project closure guidelines"
+   },
+   "answer": "A",
+   "explanation": "PMBOK's list of organizational process/procedure assets includes financial control procedures, risk control procedures, and closure guidelines explicitly; 'guidelines of the project to specify needs of the organization' is not part of that standard list and reads as the odd option out."
+  },
+  {
+   "id": "TECH3_2021-7",
+   "paper": "TECH3",
+   "unit": "2",
+   "sub": "Project Life Cycle - predictive, iterative, incremental, adaptive",
+   "question": "The project life cycle consists of:",
+   "options": {
+    "A": "Understanding the scope of the project",
+    "B": "Objectives of the project",
+    "C": "Formulation and planning various activities",
+    "D": "All of the above"
+   },
+   "answer": "D",
+   "explanation": "The project life cycle spans understanding scope, setting objectives, and formulating/planning activities, so all three together describe it."
+  },
+  {
+   "id": "TECH3_2021-72",
+   "paper": "TECH3",
+   "unit": "2",
+   "sub": "Influence of stakeholders, risk and uncertainty over time",
+   "question": "Key project stakeholders can significantly influence a project in many ways. During which stage of the project do these stakeholders have the maximum ability to influence a project?",
+   "options": {
+    "A": "Planning",
+    "B": "Initiating",
+    "C": "Executing",
+    "D": "Monitoring & Controlling"
+   },
+   "answer": "B",
+   "explanation": "Stakeholder influence over a project's outcome is greatest at the very start (Initiating), when scope and objectives can still be shaped cheaply, and it steadily declines through Planning and Executing."
+  },
+  {
+   "id": "TECH3_2021-75",
+   "paper": "TECH3",
+   "unit": "2",
+   "sub": "Project Stakeholders and Governance",
+   "question": "Which of the following is not a stakeholder in a project?",
+   "options": {
+    "A": "Supplier",
+    "B": "Customer",
+    "C": "PMO",
+    "D": "Competitor"
+   },
+   "answer": "D",
+   "explanation": "A competitor sits outside the project and has no stake in its outcome, unlike suppliers, customers, and the PMO, all of whom are directly affected by or influence the project."
+  },
+  {
+   "id": "TECH3_2021-8",
+   "paper": "TECH3",
+   "unit": "2",
+   "sub": "Project Life Cycle - predictive, iterative, incremental, adaptive",
+   "question": "Following are the phases of Project Management Life Cycle. Arrange them in correct order. i) Design ii) Marketing iii) Analysis and evaluation iv) Inspection, testing and delivery",
+   "options": {
+    "A": "iii), ii), i), iv)",
+    "B": "i), ii), iii), iv)",
+    "C": "ii), iii), i), iv)",
+    "D": "iv), iii), ii), i)"
+   },
+   "answer": "C",
+   "explanation": "A generic product/project development flow runs Marketing (identify need) -> Analysis and evaluation -> Design -> Inspection, testing and delivery, i.e. ii, iii, i, iv."
+  },
+  {
+   "id": "TECH3_2021-9",
+   "paper": "TECH3",
+   "unit": "2",
+   "sub": "Organizational structures: functional, matrix (weak, balanced, strong), projectized",
+   "question": "Which of the following statement is false in regards to project team?",
+   "options": {
+    "A": "Basic project team composition may be dedicated or part-time",
+    "B": "Project team may vary based on organizational structure",
+    "C": "Matrix organizations use both dedicated and part-time project teams",
+    "D": "Dedicated project teams are common in projectized organizations"
+   },
+   "answer": "C",
+   "explanation": "Per PMBOK, dedicated teams are typical of projectized organizations and part-time teams of functional ones, while matrix organizations mainly produce 'mixed' (part dedicated, part part-time) teams rather than uniformly using both types as a defining feature; the other three statements are directly supported by PMBOK's team-composition discussion. The options are close enough that this is a judgment call."
+  }
+ ]
+}

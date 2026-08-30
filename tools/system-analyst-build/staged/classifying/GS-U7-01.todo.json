@@ -1,0 +1,156 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 10,
+ "questions": [
+  {
+   "id": "GEN-200",
+   "paper": "GS",
+   "unit": "7",
+   "sub": "Computer fundamentals and terminology",
+   "question": "RAM (Random Access Memory) in a computer is best described as:",
+   "options": {
+    "A": "Permanent, non-volatile storage that retains data without power",
+    "B": "Volatile memory that loses its contents when the power is switched off",
+    "C": "A type of secondary storage device like a hard disk",
+    "D": "The central processing unit itself"
+   },
+   "answer": "B",
+   "explanation": "RAM is volatile memory used for temporary, fast read/write access by the CPU; its contents are lost when power is removed, unlike non-volatile secondary storage such as hard disks or SSDs."
+  },
+  {
+   "id": "GEN-201",
+   "paper": "GS",
+   "unit": "7",
+   "sub": "Internet, e-mail, web basics",
+   "question": "Which protocol is primarily used for sending e-mail messages from a client to a mail server?",
+   "options": {
+    "A": "HTTP",
+    "B": "FTP",
+    "C": "SMTP",
+    "D": "POP3"
+   },
+   "answer": "C",
+   "explanation": "SMTP (Simple Mail Transfer Protocol) is used to send outgoing e-mail. POP3 and IMAP are used to retrieve/download incoming mail from a mail server, while HTTP and FTP serve unrelated purposes (web pages and file transfer)."
+  },
+  {
+   "id": "GEN-202",
+   "paper": "GS",
+   "unit": "7",
+   "sub": "e-Governance initiatives and Digital India",
+   "question": "Which of the following is NOT one of the officially stated vision areas of the Digital India programme, launched in 2015?",
+   "options": {
+    "A": "Digital infrastructure as a core utility to every citizen",
+    "B": "Governance and services on demand",
+    "C": "Digital empowerment of citizens",
+    "D": "Complete privatisation of all government services"
+   },
+   "answer": "D",
+   "explanation": "Digital India's three vision areas are: digital infrastructure as a core utility, governance and services on demand, and digital empowerment of citizens. Complete privatisation of government services is not a stated goal of the programme."
+  },
+  {
+   "id": "GEN-203",
+   "paper": "GS",
+   "unit": "7",
+   "sub": "Cyber security and cyber crime awareness",
+   "question": "Malicious software that encrypts a victim's files and demands payment for their release is known as:",
+   "options": {
+    "A": "Spyware",
+    "B": "Ransomware",
+    "C": "Adware",
+    "D": "A firewall"
+   },
+   "answer": "B",
+   "explanation": "Ransomware encrypts a victim's data and demands a ransom (often in cryptocurrency) for the decryption key. Spyware secretly monitors activity, adware displays unwanted ads, and a firewall is a defensive security tool, not malware."
+  },
+  {
+   "id": "GEN-204",
+   "paper": "GS",
+   "unit": "7",
+   "sub": "Emerging technologies: AI, IoT, cloud, blockchain, 5G",
+   "question": "The 'Internet of Things' (IoT) refers to:",
+   "options": {
+    "A": "A network of physical devices embedded with sensors that connect and exchange data over the internet",
+    "B": "A programming language used for web development",
+    "C": "A type of antivirus software",
+    "D": "A cloud storage transfer protocol"
+   },
+   "answer": "A",
+   "explanation": "IoT describes everyday physical objects (appliances, sensors, vehicles, etc.) embedded with sensors and connectivity that allow them to collect and exchange data over the internet, often with minimal human intervention."
+  },
+  {
+   "id": "GEN-205",
+   "paper": "GS",
+   "unit": "7",
+   "sub": "Aadhaar, UPI and digital payments",
+   "question": "The Unified Payments Interface (UPI), used for real-time digital payments in India, is operated by:",
+   "options": {
+    "A": "The Reserve Bank of India directly",
+    "B": "The National Payments Corporation of India (NPCI)",
+    "C": "The Ministry of Electronics and Information Technology",
+    "D": "The State Bank of India"
+   },
+   "answer": "B",
+   "explanation": "UPI is developed and operated by the National Payments Corporation of India (NPCI), an umbrella organisation for retail payment systems in India, under the guidance of the RBI and Indian Banks' Association."
+  },
+  {
+   "id": "GEN-206",
+   "paper": "GS",
+   "unit": "7",
+   "sub": "Aadhaar, UPI and digital payments",
+   "question": "Aadhaar is a 12-digit unique identity number issued to Indian residents by which authority?",
+   "options": {
+    "A": "UIDAI (Unique Identification Authority of India)",
+    "B": "TRAI (Telecom Regulatory Authority of India)",
+    "C": "SEBI (Securities and Exchange Board of India)",
+    "D": "IRDAI (Insurance Regulatory and Development Authority of India)"
+   },
+   "answer": "A",
+   "explanation": "Aadhaar numbers are issued by the Unique Identification Authority of India (UIDAI), a statutory authority established under the Aadhaar Act, 2016."
+  },
+  {
+   "id": "GEN-207",
+   "paper": "GS",
+   "unit": "7",
+   "sub": "Data protection and privacy",
+   "question": "The right to privacy in India was declared a fundamental right under Article 21 of the Constitution by the Supreme Court in which landmark case?",
+   "options": {
+    "A": "Kesavananda Bharati case",
+    "B": "Justice K.S. Puttaswamy (Retd.) vs Union of India",
+    "C": "Maneka Gandhi vs Union of India",
+    "D": "Golaknath vs State of Punjab"
+   },
+   "answer": "B",
+   "explanation": "In the 2017 Justice K.S. Puttaswamy (Retd.) vs Union of India judgment, a nine-judge Supreme Court bench unanimously held that the right to privacy is a fundamental right protected under Article 21 of the Constitution."
+  },
+  {
+   "id": "GEN-208",
+   "paper": "GS",
+   "unit": "7",
+   "sub": "IT Act awareness",
+   "question": "The Information Technology Act, which provides India's principal legal framework for cyber law, was originally enacted in the year:",
+   "options": {
+    "A": "1998",
+    "B": "2000",
+    "C": "2005",
+    "D": "2011"
+   },
+   "answer": "B",
+   "explanation": "The Information Technology Act, 2000 was enacted to provide legal recognition to electronic transactions and to address cyber crime and related offences; it has since been amended, notably in 2008."
+  },
+  {
+   "id": "GEN-209",
+   "paper": "GS",
+   "unit": "7",
+   "sub": "Emerging technologies: AI, IoT, cloud, blockchain, 5G",
+   "question": "In cloud computing, the service model that provides users with virtualized computing infrastructure (servers, storage, networking) over the internet, without them having to manage the underlying physical hardware, is known as:",
+   "options": {
+    "A": "SaaS (Software as a Service)",
+    "B": "PaaS (Platform as a Service)",
+    "C": "IaaS (Infrastructure as a Service)",
+    "D": "DaaS (Desktop as a Service)"
+   },
+   "answer": "C",
+   "explanation": "IaaS provides virtualized computing resources (servers, storage, networking) over the internet on a pay-as-you-go basis. SaaS delivers ready-to-use software applications, and PaaS provides a platform for developing and deploying applications."
+  }
+ ]
+}

@@ -1,0 +1,275 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 18,
+ "questions": [
+  {
+   "id": "GEN-252",
+   "paper": "TECH3",
+   "unit": "B",
+   "sub": "Verbal analogy",
+   "question": "Choose the word that best completes the analogy: Pen is to Write as Knife is to ?",
+   "options": {
+    "A": "Sharp",
+    "B": "Cut",
+    "C": "Kitchen",
+    "D": "Metal"
+   },
+   "answer": "B",
+   "explanation": "A pen is a tool used to write; similarly, a knife is a tool used to cut. The relationship is 'tool : its primary function'."
+  },
+  {
+   "id": "GEN-253",
+   "paper": "TECH3",
+   "unit": "B",
+   "sub": "Odd one out among words",
+   "question": "Choose the word that does not belong with the others: Apple, Banana, Potato, Mango",
+   "options": {
+    "A": "Apple",
+    "B": "Banana",
+    "C": "Potato",
+    "D": "Mango"
+   },
+   "answer": "C",
+   "explanation": "Apple, Banana and Mango are all fruits, whereas Potato is a vegetable (a tuber). Potato is the odd one out."
+  },
+  {
+   "id": "GEN-254",
+   "paper": "TECH3",
+   "unit": "B",
+   "sub": "Synonyms",
+   "question": "Choose the word that is closest in meaning to 'Benevolent'.",
+   "options": {
+    "A": "Kind",
+    "B": "Cruel",
+    "C": "Selfish",
+    "D": "Arrogant"
+   },
+   "answer": "A",
+   "explanation": "'Benevolent' means well-meaning and kindly. 'Kind' is the closest synonym; the other three options are closer to opposite meanings."
+  },
+  {
+   "id": "GEN-255",
+   "paper": "TECH3",
+   "unit": "B",
+   "sub": "Antonyms",
+   "question": "Choose the word that is most nearly opposite in meaning to 'Meticulous'.",
+   "options": {
+    "A": "Careless",
+    "B": "Careful",
+    "C": "Precise",
+    "D": "Thorough"
+   },
+   "answer": "A",
+   "explanation": "'Meticulous' means showing great attention to detail; very careful and precise. 'Careless' is its opposite. 'Careful', 'Precise' and 'Thorough' are all synonyms of meticulous, not antonyms."
+  },
+  {
+   "id": "GEN-256",
+   "paper": "TECH3",
+   "unit": "B",
+   "sub": "Sentence completion",
+   "question": "Choose the word that best completes the sentence: 'Although he was extremely ___, he never boasted about his achievements.'",
+   "options": {
+    "A": "talented",
+    "B": "arrogant",
+    "C": "lazy",
+    "D": "incompetent"
+   },
+   "answer": "A",
+   "explanation": "The word 'Although' signals a contrast: despite having a quality that might normally lead to boasting (being talented), he did not boast. 'Arrogant' would not need 'although' to contrast with not boasting -- it would be a contradiction, not a contrast. 'Talented' fits logically and grammatically."
+  },
+  {
+   "id": "GEN-257",
+   "paper": "TECH3",
+   "unit": "B",
+   "sub": "Idioms and phrases",
+   "question": "What does the idiom 'to bell the cat' mean?",
+   "options": {
+    "A": "To undertake a risky task on behalf of a group",
+    "B": "To celebrate an unexpected victory",
+    "C": "To decorate something elaborately",
+    "D": "To avoid taking any responsibility"
+   },
+   "answer": "A",
+   "explanation": "'To bell the cat' comes from the fable in which mice agree that belling the cat would warn them of danger, but none dares to actually do it. The idiom means to undertake a difficult or dangerous task for the common good."
+  },
+  {
+   "id": "GEN-258",
+   "paper": "TECH3",
+   "unit": "B",
+   "sub": "Spotting grammatical errors",
+   "question": "Identify the part of the sentence that contains a grammatical error: (A) Neither of the students / (B) have completed / (C) their assignment / (D) No error",
+   "options": {
+    "A": "Part A",
+    "B": "Part B",
+    "C": "Part C",
+    "D": "No error"
+   },
+   "answer": "B",
+   "explanation": "'Neither of' is followed by a singular subject and therefore requires a singular verb: 'has completed', not 'have completed'. The error is in part (B)."
+  },
+  {
+   "id": "GEN-259",
+   "paper": "TECH3",
+   "unit": "B",
+   "sub": "Word meaning in context",
+   "question": "In the sentence 'The company had to curtail its expenses due to the recession,' the word 'curtail' most nearly means:",
+   "options": {
+    "A": "reduce",
+    "B": "increase",
+    "C": "hide",
+    "D": "calculate"
+   },
+   "answer": "A",
+   "explanation": "'Curtail' means to reduce or cut short. In context, the company had to cut down (reduce) its expenses, so 'reduce' is the correct meaning."
+  },
+  {
+   "id": "GEN-260",
+   "paper": "TECH3",
+   "unit": "B",
+   "sub": "Verbal classification",
+   "question": "Which word does not belong with the others?",
+   "options": {
+    "A": "Democracy",
+    "B": "Monarchy",
+    "C": "Oligarchy",
+    "D": "Constitution"
+   },
+   "answer": "D",
+   "explanation": "Democracy, Monarchy and Oligarchy are all forms/systems of government. A 'Constitution' is a written document of fundamental laws, not a form of government itself, so it does not belong with the others."
+  },
+  {
+   "id": "GEN-261",
+   "paper": "TECH3",
+   "unit": "B",
+   "sub": "Logical sequence of words",
+   "question": "Arrange the following words in the logical order in which they occur in a plant's life: 1. Seed  2. Tree  3. Fruit  4. Sapling  5. Flower",
+   "options": {
+    "A": "1, 4, 2, 5, 3",
+    "B": "1, 2, 4, 5, 3",
+    "C": "1, 4, 5, 2, 3",
+    "D": "1, 2, 5, 4, 3"
+   },
+   "answer": "A",
+   "explanation": "The natural sequence is: a Seed (1) grows into a Sapling (4), which grows into a Tree (2), which produces a Flower (5), which develops into a Fruit (3). So the order is 1, 4, 2, 5, 3."
+  },
+  {
+   "id": "GEN-262",
+   "paper": "TECH3",
+   "unit": "B",
+   "sub": "Reading comprehension short passages",
+   "question": "Read the passage and answer the question: 'Ramesh always arrived at office before his colleagues, cleared his pending work first, and only then attended meetings. His discipline earned him a promotion within a year.' What can be inferred about Ramesh from the passage?",
+   "options": {
+    "A": "He was disciplined and hardworking",
+    "B": "He avoided attending meetings altogether",
+    "C": "He was promoted only because of luck",
+    "D": "He worked less than his colleagues"
+   },
+   "answer": "A",
+   "explanation": "The passage explicitly describes Ramesh arriving early, clearing pending work first, and states that 'his discipline earned him a promotion.' This directly supports the inference that he was disciplined and hardworking; the other options contradict the passage."
+  },
+  {
+   "id": "GEN-263",
+   "paper": "TECH3",
+   "unit": "B",
+   "sub": "Idioms and phrases",
+   "question": "Choose the option that best explains the meaning of the phrase 'a blessing in disguise'.",
+   "options": {
+    "A": "Something that seems bad at first but turns out to be good",
+    "B": "A gift given secretly to avoid attention",
+    "C": "Good luck that never actually arrives",
+    "D": "A disguise used during a religious festival"
+   },
+   "answer": "A",
+   "explanation": "'A blessing in disguise' refers to something that initially appears to be unfortunate or unlucky but eventually results in a good or beneficial outcome."
+  },
+  {
+   "id": "TECH3_2021-84",
+   "paper": "TECH3",
+   "unit": "B",
+   "sub": "Verbal analogy",
+   "question": "DIVA: OPERA",
+   "options": {
+    "A": "Producer: theatre",
+    "B": "Director: drama",
+    "C": "Conductor: bus",
+    "D": "Thespian: play"
+   },
+   "answer": "D",
+   "explanation": "A diva is the star performer in an opera; likewise a thespian (an actor) is the performer associated with a play -- the same performer-to-performance-genre relationship."
+  },
+  {
+   "id": "TECH3_2021-85",
+   "paper": "TECH3",
+   "unit": "B",
+   "sub": "Verbal analogy",
+   "question": "LIGHT: BLIND",
+   "options": {
+    "A": "speech: dumb",
+    "B": "language: deaf",
+    "C": "tongue: sound",
+    "D": "voice: vibration"
+   },
+   "answer": "A",
+   "explanation": "LIGHT relates to BLIND as the faculty a person is deprived of (a blind person cannot perceive light); analogously SPEECH relates to DUMB, since a dumb person cannot produce speech."
+  },
+  {
+   "id": "TECH3_2021-87",
+   "paper": "TECH3",
+   "unit": "B",
+   "sub": "Logical sequence of words",
+   "question": "Which among the option below comes at third place in the English Dictionary?",
+   "options": {
+    "A": "Monarchy",
+    "B": "Monastic",
+    "C": "Monetary",
+    "D": "Moneyed"
+   },
+   "answer": "C",
+   "explanation": "All four words share the prefix MON; among those with 4th letter A (Monarchy, Monastic), Monarchy's 5th letter R precedes Monastic's S, and among those with 4th letter E (Monetary, Moneyed), Monetary's T precedes Moneyed's Y. So dictionary order is Monarchy, Monastic, Monetary, Moneyed -- Monetary is third."
+  },
+  {
+   "id": "TECH3_2021-88",
+   "paper": "TECH3",
+   "unit": "B",
+   "sub": "Logical sequence of words",
+   "question": "How many meaningful English words can be made from the letters EAP, using each letter only once in each word?",
+   "options": {
+    "A": "One",
+    "B": "Three",
+    "C": "Two"
+   },
+   "answer": "C",
+   "explanation": "From the letters E, A, P the only valid English words using each letter once are APE and PEA -- two words."
+  },
+  {
+   "id": "TECH3_2021-89",
+   "paper": "TECH3",
+   "unit": "B",
+   "sub": "Verbal analogy",
+   "question": "Image is to camera just as",
+   "options": {
+    "A": "Wine is to bottle",
+    "B": "peach is to box",
+    "C": "sound is to tape",
+    "D": "light is to candle"
+   },
+   "answer": "C",
+   "explanation": "A camera captures and produces an image, just as a tape captures and records sound -- both are recording media for what the paired term produces."
+  },
+  {
+   "id": "TECH3_2021-90",
+   "paper": "TECH3",
+   "unit": "B",
+   "sub": "Odd one out among words",
+   "question": "Which of the following words is the odd one out?",
+   "options": {
+    "A": "Essential",
+    "B": "Vital",
+    "C": "Crucial",
+    "D": "Trivial"
+   },
+   "answer": "D",
+   "explanation": "Essential, Vital, and Crucial are all synonyms meaning very important; Trivial means unimportant, the opposite sense, making it the odd one out."
+  }
+ ]
+}

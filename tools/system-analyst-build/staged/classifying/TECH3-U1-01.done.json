@@ -1,0 +1,20 @@
+[
+ { "id": "TECH3_2024-1", "mode": "understand", "confidence": "medium",
+   "why": "The three wrong options all describe ongoing/repetitive operations, so grasping project-versus-operations eliminates them — though the stem is verbatim glossary recall." },
+ { "id": "TECH3_2024-4", "mode": "memorise", "confidence": "medium",
+   "why": "Which of portfolio and program is the one that also encompasses operations is a PMI naming convention, not derivable from the words." },
+ { "id": "TECH3_2024-5", "mode": "understand", "confidence": "medium",
+   "why": "The PMO type names sit on an obvious control spectrum — 'directive' means it directs — so the ordering follows from the labels themselves." },
+ { "id": "TECH3_2024-49", "mode": "memorise", "confidence": "medium",
+   "why": "Membership of an enumerated '7 C's' checklist; the odd one out is only wrong for not being on the list." },
+ { "id": "TECH3_2024-72", "mode": "memorise", "confidence": "medium",
+   "why": "The exact three vertices of the named iron triangle are a fixed taught trio; 'resource, time and cost' is equally plausible without recall." },
+ { "id": "TECH3_2021-14", "mode": "understand", "confidence": "medium",
+   "why": "Interchangeable staff is recognisably at odds with what makes a project team effective, so the odd one out is inconsistent rather than merely off-list." },
+ { "id": "TECH3_2021-2", "mode": "memorise", "confidence": "high",
+   "why": "All four option triples are plausible competency groupings; only recall of the PMCD framework's three names separates them." },
+ { "id": "TECH3_2021-3", "mode": "understand", "confidence": "high",
+   "why": "Follows from the division of labour between an organisation-level office and a single project's manager, not from a listed set of PMO duties." },
+ { "id": "TECH3_2021-5", "mode": "memorise", "confidence": "medium",
+   "why": "A glossary term-to-definition match where 'project' and 'project cycle' read almost as well; only the PMBOK wording settles it." }
+]

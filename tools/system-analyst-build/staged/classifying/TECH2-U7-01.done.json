@@ -1,0 +1,248 @@
+[
+ {
+  "id": "TECH2_2024-40",
+  "mode": "memorise",
+  "confidence": "high",
+  "why": "A named application; nothing about QR payments yields the name BHIM."
+ },
+ {
+  "id": "TECH2_2024-42",
+  "mode": "memorise",
+  "confidence": "high",
+  "why": "A platform name, with plausible invented names as distractors."
+ },
+ {
+  "id": "TECH2_2024-43",
+  "mode": "memorise",
+  "confidence": "high",
+  "why": "A named platform under Digital India; recall of the brand is what is tested."
+ },
+ {
+  "id": "TECH2_2024-44",
+  "mode": "memorise",
+  "confidence": "high",
+  "why": "The name of a specific government service, not derivable from what it does."
+ },
+ {
+  "id": "TECH2_2024-45",
+  "mode": "memorise",
+  "confidence": "high",
+  "why": "A scheme name under NEP 2020; nothing derives the acronym."
+ },
+ {
+  "id": "TECH2_2024-46",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "Membership of the three stated vision areas; elimination helps here but the list itself is what is being tested."
+ },
+ {
+  "id": "TECH2_2024-47",
+  "mode": "memorise",
+  "confidence": "high",
+  "why": "A scheme name for financial inclusion, arbitrary without recall."
+ },
+ {
+  "id": "TECH2_2024-48",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The contribution follows from what a last-mile assisted access point does."
+ },
+ {
+  "id": "TECH2_2024-49",
+  "mode": "memorise",
+  "confidence": "high",
+  "why": "Membership of the enumerated nine pillars; the odd one out is wrong only by not being listed."
+ },
+ {
+  "id": "TECH2_2024-50",
+  "mode": "memorise",
+  "confidence": "high",
+  "why": "A platform name; the distractors are all real platforms with other functions."
+ },
+ {
+  "id": "TECH2_2024-51",
+  "mode": "memorise",
+  "confidence": "high",
+  "why": "The exact scheme name behind a described ID; distractors are plausible inventions."
+ },
+ {
+  "id": "TECH2_2021-42",
+  "mode": "memorise",
+  "confidence": "high",
+  "why": "A slogan; arbitrary wording with no derivation path."
+ },
+ {
+  "id": "TECH2_2021-43",
+  "mode": "memorise",
+  "confidence": "high",
+  "why": "Membership of the three-item vision list; the odd one out merely is not on it."
+ },
+ {
+  "id": "TECH2_2021-44",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "The allocation of items across the three vision areas is a textbook mapping, though 'literacy' semantically hints at empowerment."
+ },
+ {
+  "id": "TECH2_2021-45",
+  "mode": "memorise",
+  "confidence": "high",
+  "why": "Acronym membership in the CSC three-tier structure; SCD is wrong only by not existing."
+ },
+ {
+  "id": "TECH2_2021-46",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "A design fact about a named platform; Aadhaar is a reasonable guess but not derivable."
+ },
+ {
+  "id": "TECH2_2021-47",
+  "mode": "memorise",
+  "confidence": "high",
+  "why": "Turns on the exact wording of a pillar name, with a near-miss rename as the trap."
+ },
+ {
+  "id": "TECH2_2021-48",
+  "mode": "memorise",
+  "confidence": "high",
+  "why": "A launch date."
+ },
+ {
+  "id": "TECH2_2021-49",
+  "mode": "memorise",
+  "confidence": "high",
+  "why": "Names a specific pilot project under a specific mission; no derivation path."
+ },
+ {
+  "id": "TECH2_2021-50",
+  "mode": "memorise",
+  "confidence": "high",
+  "why": "An acronym expansion."
+ },
+ {
+  "id": "TECH2_2021-51",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "Names the system behind a described feature; recall of UPI and NPCI is what is tested."
+ },
+ {
+  "id": "GEN-TECH2-U7-186",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "What the account-identity-mobile combination enables follows from what each element supplies."
+ },
+ {
+  "id": "GEN-TECH2-U7-187",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "The distinguishing mechanic follows from what a virtual payment address does, once the concept is held."
+ },
+ {
+  "id": "GEN-TECH2-U7-188",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "Follows from what 'issued by the authority' implies about signature and evidentiary value."
+ },
+ {
+  "id": "GEN-TECH2-U7-189",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The meaning of 'shareable' follows from the citizen controlling disclosure."
+ },
+ {
+  "id": "GEN-TECH2-U7-190",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "Turns on the institutional division of mandates; the acronym expansion is the only derivation path."
+ },
+ {
+  "id": "GEN-TECH2-U7-191",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "The function of a named centre; the Hindi word hints at cleaning but the botnet mandate is a fact to be known."
+ },
+ {
+  "id": "GEN-TECH2-U7-192",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "The expansion is printed and 'unified' carries the answer; the distractors are other platforms' functions."
+ },
+ {
+  "id": "GEN-TECH2-U7-193",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "Scope follows from the project's name and the tier of administration it addresses."
+ },
+ {
+  "id": "GEN-TECH2-U7-194",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "Follows from federated APIs versus a consolidated database as competing integration designs."
+ },
+ {
+  "id": "GEN-TECH2-U7-195",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "Middleware's role follows from converting point-to-point links into a hub."
+ },
+ {
+  "id": "GEN-TECH2-U7-196",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The meaning of portability follows from the entitlement following the person."
+ },
+ {
+  "id": "GEN-TECH2-U7-197",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The scheme's name states the mechanism; central authentication follows from it."
+ },
+ {
+  "id": "GEN-TECH2-U7-198",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Single-window means one application routed onward, not the abolition of approvals."
+ },
+ {
+  "id": "GEN-TECH2-U7-199",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "What a named project covers; the ministry acronym is the only derivation path."
+ },
+ {
+  "id": "GEN-TECH2-U7-200",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Choosing buffer and service-area analysis follows from what the siting question asks."
+ },
+ {
+  "id": "GEN-TECH2-U7-201",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "The function of a named platform, not derivable from GIS knowledge alone."
+ },
+ {
+  "id": "GEN-TECH2-U7-202",
+  "mode": "memorise",
+  "confidence": "high",
+  "why": "A scheme target pitched at the household; arbitrary without recall."
+ },
+ {
+  "id": "GEN-TECH2-U7-203",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The role follows from assisted delivery plus training at the last mile."
+ },
+ {
+  "id": "GEN-TECH2-U7-204",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "A specific policy obligation; the name hints at sharing but the classify-and-publish duty is a stated provision."
+ },
+ {
+  "id": "GEN-TECH2-U7-205",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "A specific policy provision, preference plus recorded justification, not derivable from the idea of open source."
+ }
+]

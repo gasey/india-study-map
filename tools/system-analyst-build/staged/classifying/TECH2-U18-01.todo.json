@@ -1,0 +1,201 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 13,
+ "questions": [
+  {
+   "id": "TECH2_2024-97",
+   "paper": "TECH2",
+   "unit": "18",
+   "sub": "Difference between monitoring and evaluation",
+   "question": "___ tries to ensure meeting of specification time to time, whereas ___ rather measures the meeting of intended purpose.",
+   "options": {
+    "A": "Evaluation, monitoring",
+    "B": "Quality assurance, monitoring",
+    "C": "Monitoring, evaluation",
+    "D": "Contractor, site engineer"
+   },
+   "answer": "C",
+   "explanation": "Monitoring is the continuous, periodic tracking of whether a project is meeting its specifications, milestones and targets 'time to time' (ongoing check-ins), while evaluation is the periodic, deeper assessment of whether the project actually achieved its intended purpose/objectives. This is the standard textbook distinction (syllabus subtopic 'Difference between monitoring and evaluation'). Reversing the order (a) inverts the definitions, (b) substitutes the wrong first term, and (d) substitutes unrelated job roles for the two M&E concepts being contrasted."
+  },
+  {
+   "id": "TECH2_2021-96",
+   "paper": "TECH2",
+   "unit": "18",
+   "sub": "Difference between monitoring and evaluation",
+   "question": "Which statement is false regarding Monitoring?",
+   "options": {
+    "A": "Process of routinely gathering information on all aspects of the project",
+    "B": "Identifies and address problems",
+    "C": "Ensures effective use of resources",
+    "D": "Determines programs effectiveness"
+   },
+   "answer": "D",
+   "explanation": "Monitoring is continuous, routine tracking of inputs, activities and outputs so problems can be spotted early and resources used well; judging whether the programme actually achieved its objectives is the job of evaluation. Confusing the two is the standard trap in monitoring and evaluation questions."
+  },
+  {
+   "id": "TECH2_2021-98",
+   "paper": "TECH2",
+   "unit": "18",
+   "sub": "Difference between outputs and outcomes",
+   "question": "In certain e-Governance project, the Evaluation measures:",
+   "options": {
+    "A": "Outcome",
+    "B": "Output",
+    "C": "Success",
+    "D": "Failure"
+   },
+   "answer": "A",
+   "explanation": "In the results chain, monitoring tracks outputs while evaluation assesses outcomes - the changes actually produced for users by the delivered services. Output is what monitoring measures, and success/failure is a verdict rather than a measurement category."
+  },
+  {
+   "id": "GEN-TECH2-U18-110",
+   "paper": "TECH2",
+   "unit": "18",
+   "sub": "Understanding evaluation types",
+   "question": "An evaluation carried out while a project is still being implemented, whose findings are meant to correct the design and delivery of the project in progress, is best described as:",
+   "options": {
+    "A": "Ex-post evaluation",
+    "B": "Formative or mid-term evaluation",
+    "C": "Summative evaluation",
+    "D": "Terminal evaluation"
+   },
+   "answer": "B",
+   "explanation": "A formative evaluation is deliberately timed so that its conclusions can still change what the project does — it asks whether implementation is on the right track and what should be adjusted. Summative, terminal and ex-post evaluations all judge a project after the fact and produce lessons for the next project rather than corrections to this one."
+  },
+  {
+   "id": "GEN-TECH2-U18-111",
+   "paper": "TECH2",
+   "unit": "18",
+   "sub": "Understanding evaluation types",
+   "question": "Which statement correctly distinguishes monitoring from evaluation in an e-governance project?",
+   "options": {
+    "A": "Monitoring is always carried out by an external agency, whereas evaluation is always internal to the department",
+    "B": "Monitoring assesses relevance and long-term results, while evaluation records physical and financial progress",
+    "C": "Monitoring is the continuous tracking of inputs, activities and outputs against the plan, while evaluation is a periodic and deeper judgement of whether the project is relevant, efficient and achieving its intended results",
+    "D": "Monitoring and evaluation are two names for the same periodic review exercise"
+   },
+   "answer": "C",
+   "explanation": "Monitoring is routine and internal to implementation — it answers 'are we doing what we said we would, on time and on budget'; evaluation is episodic and more analytical, asking whether the effort was worth making and whether it worked. Option B inverts the two, which is the most common confusion, and the external-versus-internal split is a matter of who commissions the exercise, not what separates the two functions."
+  },
+  {
+   "id": "GEN-TECH2-U18-112",
+   "paper": "TECH2",
+   "unit": "18",
+   "sub": "Approach for development of a Monitoring and Evaluation Framework",
+   "question": "In an M&E framework, what must be specified for each indicator in addition to how the indicator is defined and calculated?",
+   "options": {
+    "A": "The name of the vendor that will supply the underlying data",
+    "B": "The budget head from which the indicator is funded",
+    "C": "The penalty applicable if the indicator is not met",
+    "D": "Its data source, the method and frequency of collection, and the officer or unit responsible for reporting it"
+   },
+   "answer": "D",
+   "explanation": "An indicator only becomes operational when the framework says where the number comes from, how often it is captured and who is accountable for producing it — otherwise it is an intention rather than a measurement. Penalties belong to the contract with the implementing vendor and are a separate instrument from the department's own monitoring framework."
+  },
+  {
+   "id": "GEN-TECH2-U18-113",
+   "paper": "TECH2",
+   "unit": "18",
+   "sub": "Approach for development of a Monitoring and Evaluation Framework",
+   "question": "Why should the M&E framework for an e-governance project be designed and put in place before implementation starts, rather than after the system goes live?",
+   "options": {
+    "A": "Because the baseline values of the indicators can only be captured while the pre-project situation still exists; once the new system is running, the reference point against which change would be measured no longer exists",
+    "B": "Because the framework has to be reproduced verbatim in the vendor's technical bid",
+    "C": "Because indicators cannot be revised at all once a project has commenced",
+    "D": "Because monitoring reports must be submitted before a project can be sanctioned"
+   },
+   "answer": "A",
+   "explanation": "Building the framework early is what makes measurement of change possible at all — the pre-intervention values of waiting time, number of visits, cost of access and error rates cannot be recovered retrospectively once the manual process has been replaced. Indicators can and often should be refined during implementation; what cannot be recreated later is the baseline."
+  },
+  {
+   "id": "GEN-TECH2-U18-114",
+   "paper": "TECH2",
+   "unit": "18",
+   "sub": "Key Performance Indicators",
+   "question": "Which of the following is an outcome indicator for a project computerising the issue of revenue certificates?",
+   "options": {
+    "A": "Number of desktop computers installed in tehsil offices",
+    "B": "Average number of days taken to issue a certificate from the date of application",
+    "C": "Number of officials trained on the new application",
+    "D": "Amount of project budget released to the implementing agency"
+   },
+   "answer": "B",
+   "explanation": "Turnaround time measures the change in the service the citizen actually receives, which is what an outcome indicator is for. Computers installed and officials trained are outputs of the project's activities, and budget released is an input — all three can look healthy while certificates still take as long as they did before."
+  },
+  {
+   "id": "GEN-TECH2-U18-115",
+   "paper": "TECH2",
+   "unit": "18",
+   "sub": "Key Performance Indicators",
+   "question": "An M&E team proposes an indicator for which no routine data is collected anywhere and for which no survey has been budgeted. Why should the indicator be replaced?",
+   "options": {
+    "A": "Because performance indicators must always be expressed in financial terms",
+    "B": "Because an indicator not named in the Detailed Project Report cannot be used",
+    "C": "Because an indicator with no feasible and affordable means of measurement will simply never be reported, leaving the objective it was meant to track invisible",
+    "D": "Because outcome indicators are not permitted in a monitoring framework"
+   },
+   "answer": "C",
+   "explanation": "Measurability is a defining property of a usable indicator: if collecting the data is impractical or unfunded, the cell in the report stays empty and the objective goes unmonitored. The right response is to substitute a measurable proxy drawn from data the system or the department already generates, not to keep an unmeasurable indicator on paper."
+  },
+  {
+   "id": "GEN-TECH2-U18-116",
+   "paper": "TECH2",
+   "unit": "18",
+   "sub": "Baseline and target setting",
+   "question": "What is a baseline in a monitoring and evaluation framework?",
+   "options": {
+    "A": "The value of each indicator measured before the intervention begins, which serves as the reference point against which later change is assessed",
+    "B": "The minimum performance level below which penalties become payable by the implementing vendor",
+    "C": "The value of each indicator that the project commits to reach by its completion date",
+    "D": "The average value of the indicator observed across comparable states"
+   },
+   "answer": "A",
+   "explanation": "The baseline fixes the 'before' picture, so that any later reading of the same indicator, measured the same way, expresses a change rather than a bare number. Option C describes the target, which is the intended end value; a baseline and a target are two ends of the same measurement and neither is meaningful without the other."
+  },
+  {
+   "id": "GEN-TECH2-U18-117",
+   "paper": "TECH2",
+   "unit": "18",
+   "sub": "Baseline and target setting",
+   "question": "A completed project reports that revenue certificates are now issued in seven days on average. No measurement of issue time was taken before the project began. What can legitimately be claimed?",
+   "options": {
+    "A": "That the project reduced issue time, because seven days is obviously faster than manual processing",
+    "B": "That the project met its target, since seven days falls within the prescribed norm",
+    "C": "That the extent of improvement can be reconstructed from the vendor's service level reports",
+    "D": "Only that the current issue time is seven days; with no baseline, no improvement can be quantified or attributed to the project"
+   },
+   "answer": "D",
+   "explanation": "Attribution requires a comparison, and without a pre-project measurement there is nothing to compare seven days against — the claim of improvement rests on assumption, not evidence. Vendor service level reports only cover the period after go-live and describe the vendor's compliance with the contract, so they cannot supply the missing 'before' value."
+  },
+  {
+   "id": "GEN-TECH2-U18-118",
+   "paper": "TECH2",
+   "unit": "18",
+   "sub": "Logical framework approach",
+   "question": "In the logical framework matrix, which column records the external conditions outside the project's control that must hold if results at one level are to lead to results at the next?",
+   "options": {
+    "A": "Objectively verifiable indicators",
+    "B": "Assumptions and risks",
+    "C": "Means of verification",
+    "D": "Narrative summary"
+   },
+   "answer": "B",
+   "explanation": "The assumptions column makes the project's causal logic honest by naming what it is relying on but cannot deliver — continued power and connectivity, timely amendment of rules, staff remaining in post — each of which becomes a risk if it fails. Indicators say how achievement will be measured and means of verification say where that evidence comes from; neither captures external dependencies."
+  },
+  {
+   "id": "GEN-TECH2-U18-119",
+   "paper": "TECH2",
+   "unit": "18",
+   "sub": "Logical framework approach",
+   "question": "What does the 'means of verification' column of a logical framework specify?",
+   "options": {
+    "A": "The officer accountable for achieving each objective",
+    "B": "The budget allocated to each activity in the project",
+    "C": "The source and method by which the evidence for each indicator will be obtained, such as a departmental MIS report, an audit record or a citizen survey",
+    "D": "The external conditions assumed to remain favourable during implementation"
+   },
+   "answer": "C",
+   "explanation": "Means of verification ties every indicator to a named, obtainable piece of evidence, which is what stops the matrix from listing indicators that nobody can actually produce a number for. Naming the evidence source at design time also exposes indicators whose verification would cost more than the information is worth."
+  }
+ ]
+}

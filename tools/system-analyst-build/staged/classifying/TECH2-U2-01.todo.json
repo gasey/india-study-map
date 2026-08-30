@@ -1,0 +1,366 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 24,
+ "questions": [
+  {
+   "id": "TECH2_2024-6",
+   "paper": "TECH2",
+   "unit": "2",
+   "sub": "Challenges in current environment",
+   "question": "Which factor contributes most to the digital divide, posing a challenge for e-Governance projects in rural areas?",
+   "options": {
+    "A": "Lack of interest in digital services",
+    "B": "Inadequate internet connectivity and limited access to digital devices",
+    "C": "Over-saturation of digital literacy programs",
+    "D": "Too many competing e-Governance platforms"
+   },
+   "answer": "B",
+   "explanation": "Rural e-Governance rollouts fail primarily because the physical and network infrastructure needed to access digital services — broadband/mobile connectivity and affordable devices — is simply missing or unreliable, the textbook definition of the digital divide's core driver. Lack of interest, oversaturation of literacy programs, or too many platforms are not documented causes; rural areas typically suffer from too few literacy initiatives and too little competing infrastructure, not too much, making A, C and D implausible."
+  },
+  {
+   "id": "TECH2_2024-7",
+   "paper": "TECH2",
+   "unit": "2",
+   "sub": "Challenges in current environment",
+   "question": "Which issue can cause delays in the implementation of e-Governance projects?",
+   "options": {
+    "A": "Streamlined decision-making processes",
+    "B": "Complex procurement procedures and lengthy government approval processes",
+    "C": "Lack of digital literacy training programs",
+    "D": "Overwhelming public demand for quick implementation"
+   },
+   "answer": "B",
+   "explanation": "Government IT projects routinely slip because of layered approval chains, tendering rules, and bureaucratic sign-offs required before implementation can begin — a well-documented bottleneck in e-Governance rollouts. Streamlined decision-making would speed things up, not delay them, ruling out A; lack of literacy training is a post-launch adoption issue rather than an implementation-phase delay cause; and high public demand pressures projects to move faster, not slower — so only the procedural/procurement complexity in B causes the delay described."
+  },
+  {
+   "id": "TECH2_2024-8",
+   "paper": "TECH2",
+   "unit": "2",
+   "sub": "E-Governance strategy development",
+   "question": "Which of the following is not a key activity in Phase 1: e-Governance Strategy Development?",
+   "options": {
+    "A": "Define clear vision & objectives",
+    "B": "Incorporate domestic and global learning",
+    "C": "Define funding requirements",
+    "D": "Stakeholder needs and expectations"
+   },
+   "answer": "D",
+   "explanation": "Phase 1 (Strategy Development) is about setting direction — articulating vision and objectives, learning from other successful implementations, and capturing what stakeholders actually need — all of which shape the strategy itself. Detailed funding requirements are quantified later, once the future-state design and implementation approach are finalized (closer to the DPR/business-case stage), so specifying funding at the strategy stage is not one of its defining activities, making C the odd one out among otherwise legitimate Phase-1 tasks."
+  },
+  {
+   "id": "TECH2_2024-9",
+   "paper": "TECH2",
+   "unit": "2",
+   "sub": "Develop and implement IT system",
+   "question": "Which challenge is commonly faced during the implementation of IT systems in e-Governance projects?",
+   "options": {
+    "A": "Lack of stakeholder involvement",
+    "B": "Overabundance of technical resources",
+    "C": "Too much user engagement",
+    "D": "Integration issues with legacy systems, which may not be compatible with the newly developed IT infrastructure"
+   },
+   "answer": "D",
+   "explanation": "Government IT rollouts frequently must interface with pre-existing legacy applications, databases, and workflows that were never designed for interoperability, so reconciling new systems with old infrastructure is a recurring, well-documented implementation hurdle. The other options describe the opposite of real problems — too much (not too little) stakeholder involvement, technical resources, or user engagement are not realistic complaints in government IT projects, which more commonly suffer from resource and engagement shortages, not surpluses."
+  },
+  {
+   "id": "TECH2_2024-10",
+   "paper": "TECH2",
+   "unit": "2",
+   "sub": "Current state assessment",
+   "question": "Current-state study and desired-state study is likely to produce immediately, then other processes.",
+   "options": {
+    "A": "Gap assessment",
+    "B": "Process reengineering",
+    "C": "Resource requirement",
+    "D": "Automation"
+   },
+   "answer": "A",
+   "explanation": "Comparing where an organization stands today against where it wants to be immediately reveals the gaps between the two states — missing capabilities, process differences, resource shortfalls — which is exactly what a gap assessment documents. Process reengineering, resource requirement planning, and automation are actions taken afterward, using the gap assessment as their input; they are downstream outputs, not the immediate product of the current-vs-desired comparison itself."
+  },
+  {
+   "id": "TECH2_2024-11",
+   "paper": "TECH2",
+   "unit": "2",
+   "sub": "Implementation approach and sourcing",
+   "question": "When deciding whether inhouse or outsourcing development, which of the following could be the least deciding factor?",
+   "options": {
+    "A": "Competency of IT staff of government",
+    "B": "Trust between government officer and private partner",
+    "C": "Sensitivity of data and information",
+    "D": "Trust system between government and private partners"
+   },
+   "answer": "B",
+   "explanation": "An in-house-versus-outsourcing decision should rest on objective, institutional criteria — how competent government's own staff already are, how sensitive the data involved is, and whether a formal trust/verification framework exists between the parties. Personal rapport or trust built between one individual official and one private contractor is subjective, non-transferable, and should not sway an institutional sourcing decision, making it the least legitimate deciding factor compared with the more structural considerations in the other options."
+  },
+  {
+   "id": "TECH2_2024-12",
+   "paper": "TECH2",
+   "unit": "2",
+   "sub": "Introduction to e-Government and e-Governance",
+   "question": "As per Gartner e-Governance Maturity Model, following is the correct order of phases —",
+   "options": {
+    "A": "Information, interaction, transaction and transformation",
+    "B": "Interaction, information, transaction and transformation",
+    "C": "Transaction, information, interaction and transformation",
+    "D": "Transaction, interaction, information and transformation"
+   },
+   "answer": "A",
+   "explanation": "Gartner's widely-cited e-Governance maturity model describes agencies progressing through four stages: first simply publishing Information online, then enabling two-way Interaction (forms, queries), then completing full online Transactions, and finally reaching Transformation, where government itself is restructured around integrated digital service delivery. This information-interaction-transaction-transformation sequence is the standard, textbook ordering; the other options merely permute these four stages incorrectly and do not match the recognized model."
+  },
+  {
+   "id": "TECH2_2024-16",
+   "paper": "TECH2",
+   "unit": "2",
+   "sub": "Introduction to e-Government and e-Governance",
+   "question": "What is a fundamental objective of e-Governance?",
+   "options": {
+    "A": "To enhance the efficiency, accessibility, and transparency of public services through the use of technology",
+    "B": "To increase bureaucracy and paperwork in government services",
+    "C": "To reduce the use of technology in public administration",
+    "D": "To centralize all government services in one physical location"
+   },
+   "answer": "A",
+   "explanation": "e-Governance exists to make public services faster, easier to reach, and more visible/auditable by applying technology to government functioning — precisely what option A states. Increasing paperwork, reducing technology use, or forcing citizens to a single physical location for services are the exact opposite of e-Governance's purpose; they describe the pre-digital, bureaucratic model that e-Governance was designed to replace, so these options describe failure states rather than objectives."
+  },
+  {
+   "id": "TECH2_2021-10",
+   "paper": "TECH2",
+   "unit": "2",
+   "sub": "Project management office/unit",
+   "question": "Which of the following is a tool used to secure expert judgement?",
+   "options": {
+    "A": "Work Breakdown Structure (WBS)",
+    "B": "Expected value technique",
+    "C": "Peer Review",
+    "D": "Delphi Technique"
+   },
+   "answer": "D",
+   "explanation": "The Delphi technique gathers anonymous, iterative rounds of expert opinion until consensus emerges, and is the classic tool for securing expert judgement. WBS is a scope-decomposition tool and peer review checks work products, not forecasts."
+  },
+  {
+   "id": "TECH2_2021-12",
+   "paper": "TECH2",
+   "unit": "2",
+   "sub": "Operate and sustain",
+   "question": "Once the project is complete, the complete set of project records should be put in which of the following?",
+   "options": {
+    "A": "Project archive",
+    "B": "Project report",
+    "C": "Project database",
+    "D": "Project storage"
+   },
+   "answer": "A",
+   "explanation": "At project closure the complete indexed set of project records is placed in the project archive for future reference and audit. A project report is only one document within that set, not the repository."
+  },
+  {
+   "id": "TECH2_2021-13",
+   "paper": "TECH2",
+   "unit": "2",
+   "sub": "Project management office/unit",
+   "question": "If the cost variance is positive and the schedule variance is also positive, then it indicates that –",
+   "options": {
+    "A": "Project is under budget and behind schedule",
+    "B": "Project is under budget and ahead of schedule",
+    "C": "Project is over budget and behind schedule",
+    "D": "Project is over budget and ahead of schedule"
+   },
+   "answer": "B",
+   "explanation": "CV = EV - AC and SV = EV - PV, so a positive value on each means earned value exceeds both actual cost and planned value: under budget and ahead of schedule. The trap is reading 'positive variance' as overspending; positive is always favourable in earned value analysis."
+  },
+  {
+   "id": "TECH2_2021-27",
+   "paper": "TECH2",
+   "unit": "2",
+   "sub": "Implementation approach and sourcing",
+   "question": "The implications of having single vendor is:",
+   "options": {
+    "A": "Better suited for large agencies with highly specific and strategic ICT functions",
+    "B": "Provides greater control over vendor performance",
+    "C": "Requires higher capacities in the department and higher coordination risk",
+    "D": "Optimum option if all the components for external sourcing can be bundled into one group"
+   },
+   "answer": "D",
+   "explanation": "Single-vendor (prime vendor) sourcing is the optimum choice when all externally sourced components can be bundled into one package under one point of accountability. Options A and C describe the multi-vendor model, which is what demands higher departmental capacity and carries coordination risk."
+  },
+  {
+   "id": "TECH2_2021-3",
+   "paper": "TECH2",
+   "unit": "2",
+   "sub": "Introduction to e-Government and e-Governance",
+   "question": "What are the most important impacts of ICTs on the structure and processes of government organizations?\ni) Ease of access to information\nii) Ability to provide services online\niii) Centralization of services\niv) Intra and inter-governmental transaction",
+   "options": {
+    "A": "i) and ii) only",
+    "B": "ii) and iii) only",
+    "C": "i), ii) and iv) only",
+    "D": "All of them"
+   },
+   "answer": "C",
+   "explanation": "ICT's recognised structural impacts are easier access to information, online service delivery, and improved intra- and inter-governmental transactions. Centralization of services is the trap: ICT typically enables decentralised, distributed delivery (CSCs, e-District) rather than centralising it, so 'All of them' is wrong."
+  },
+  {
+   "id": "TECH2_2021-7",
+   "paper": "TECH2",
+   "unit": "2",
+   "sub": "Essential elements of E-Governance Project",
+   "question": "Which of the following is an essential element of e-Governance Project?",
+   "options": {
+    "A": "Business Model",
+    "B": "Configuration Management",
+    "C": "Adoption of right approach",
+    "D": "Maximum impact to stakeholders"
+   },
+   "answer": "C",
+   "explanation": "Adopting the right approach (right scoping, right delivery model, right sequencing) is treated as the essential precondition for an e-Governance project, while a business model, configuration management and stakeholder impact are outputs or supporting activities within it. This question is weakly worded and more than one option is arguably defensible, so treat it as uncertain."
+  },
+  {
+   "id": "TECH2_2021-8",
+   "paper": "TECH2",
+   "unit": "2",
+   "sub": "Define future state (to-be definition)",
+   "question": "Identity IT enablement opportunities and requirements is an activity done at what phase of eGovernance project?",
+   "options": {
+    "A": "e-Governance strategy development",
+    "B": "Current state assessment",
+    "C": "Future state definition",
+    "D": "Develop and implement IT system"
+   },
+   "answer": "C",
+   "explanation": "Identifying IT-enablement opportunities and drawing up requirements belongs to the Future State Definition phase, where the To-Be process is designed and the system requirements flow from it. Current State Assessment only documents the As-Is position; the develop-and-implement phase acts on requirements already defined."
+  },
+  {
+   "id": "TECH2_2021-9",
+   "paper": "TECH2",
+   "unit": "2",
+   "sub": "Current state assessment",
+   "question": "Which of the following is not deliverable for the Current Assessment Phase in e-Governance project?",
+   "options": {
+    "A": "Strength and gaps",
+    "B": "Process maps",
+    "C": "Pain points",
+    "D": "Data digitization strategy"
+   },
+   "answer": "D",
+   "explanation": "Current State (As-Is) Assessment yields process maps, pain points and an analysis of strengths and gaps. A data digitization strategy is a forward-looking design decision produced in the future-state/implementation planning phase, not a product of documenting what exists today."
+  },
+  {
+   "id": "GEN-TECH2-U2-126",
+   "paper": "TECH2",
+   "unit": "2",
+   "sub": "Key factors contributing to current environment",
+   "question": "Which feature of early department-led computerisation in India is most often identified as the key factor that later e-governance programmes had to correct?",
+   "options": {
+    "A": "Excessive reliance on shared national infrastructure at the cost of departmental autonomy",
+    "B": "Isolated, department-specific islands of automation holding incompatible data with no interoperability",
+    "C": "Uniform adoption of one identical application by every department, which proved too inflexible",
+    "D": "Complete outsourcing of all government computing to a single national vendor"
+   },
+   "answer": "B",
+   "explanation": "Early computerisation produced vertical islands of automation, each department building its own application and data definitions, so records could not be shared and a citizen still had to visit every department separately. Later programmes therefore emphasised common infrastructure, shared standards and interoperability rather than more standalone systems."
+  },
+  {
+   "id": "GEN-TECH2-U2-127",
+   "paper": "TECH2",
+   "unit": "2",
+   "sub": "Key factors contributing to current environment",
+   "question": "Which of the following is a demand-side factor, rather than a supply-side factor, shaping the present environment for e-governance in India?",
+   "options": {
+    "A": "The falling cost of storage and network bandwidth",
+    "B": "The availability of state data centres and state-wide area networks",
+    "C": "The maturity of open-source application and middleware stacks",
+    "D": "Citizens accustomed to instant private-sector digital services now expecting the same of government"
+   },
+   "answer": "D",
+   "explanation": "Demand-side factors describe what citizens and businesses now expect and are willing to use, and rising expectations set by private digital services are the classic example. Cheaper bandwidth, shared data centres and mature software stacks are supply-side enablers, describing what government is now able to build."
+  },
+  {
+   "id": "GEN-TECH2-U2-128",
+   "paper": "TECH2",
+   "unit": "2",
+   "sub": "Need for a more robust approach for E-Governance",
+   "question": "The principal argument for a structured, robust approach to e-governance projects, rather than treating them as ordinary IT purchases, is that",
+   "options": {
+    "A": "such a project changes processes, roles and the legal basis of record-keeping, so handling it as a hardware-and-software purchase leaves the hardest part unmanaged",
+    "B": "computing hardware bought by government fails more often than hardware bought by private firms",
+    "C": "a structured approach removes the need to prepare a detailed project report",
+    "D": "information technology purchases in government are exempt from competitive tendering"
+   },
+   "answer": "A",
+   "explanation": "The technology is usually the smallest risk in an e-governance project; the process redesign, statutory and record-keeping changes, capacity building and stakeholder resistance are what determine success, and a procurement-only approach never addresses them. A structured approach adds artefacts such as the detailed project report rather than dispensing with them."
+  },
+  {
+   "id": "GEN-TECH2-U2-129",
+   "paper": "TECH2",
+   "unit": "2",
+   "sub": "Need for a more robust approach for E-Governance",
+   "question": "In e-governance practice, the risk commonly called 'champion dependency' is that",
+   "options": {
+    "A": "the private partner retains ownership of the application source code",
+    "B": "citizens use only one delivery channel and ignore the alternatives provided",
+    "C": "a project carried by the personal drive of a single officer stalls when that officer is transferred",
+    "D": "the project is designed around the requirements of the most advanced district alone"
+   },
+   "answer": "C",
+   "explanation": "Many e-governance initiatives run on the energy of one committed officer, and lose momentum on transfer because ownership was never institutionalised in a project structure, budget line and departmental mandate. Source-code ownership is a real but separate contractual risk, addressed through intellectual property clauses rather than through governance structures."
+  },
+  {
+   "id": "GEN-TECH2-U2-130",
+   "paper": "TECH2",
+   "unit": "2",
+   "sub": "E-Governance project life cycle",
+   "question": "In the standard e-governance project life cycle, which activity immediately precedes issuing a Request for Proposal to select a system integrator?",
+   "options": {
+    "A": "User acceptance testing of the delivered application",
+    "B": "Preparation of the detailed project report, covering the to-be process design and the functional requirements",
+    "C": "Post-implementation operations and maintenance",
+    "D": "Rollout of the system to every district in the state"
+   },
+   "answer": "B",
+   "explanation": "The requirements, to-be processes, scope and service levels must be settled in the detailed project report before they can be written into a Request for Proposal; otherwise the department is asking bidders to price an undefined system. Acceptance testing, rollout and maintenance all fall after the integrator has been selected."
+  },
+  {
+   "id": "GEN-TECH2-U2-131",
+   "paper": "TECH2",
+   "unit": "2",
+   "sub": "E-Governance project life cycle",
+   "question": "Why does a well-run e-governance project pilot the system in a limited set of offices before rolling it out statewide?",
+   "options": {
+    "A": "A pilot removes the need for formal user acceptance testing later",
+    "B": "The vendor is paid only after the pilot, which lowers the total project cost",
+    "C": "A pilot can substitute for the detailed project report at a much lower cost",
+    "D": "A pilot exposes process, data-quality and training gaps at a scale where they can still be corrected cheaply"
+   },
+   "answer": "D",
+   "explanation": "A pilot is a controlled test of the whole delivery chain, so defects in the redesigned process, in legacy data and in user readiness surface while only a few offices are affected and correction is still cheap. It is an addition to acceptance testing and to the detailed project report, not a replacement for either."
+  },
+  {
+   "id": "GEN-TECH2-U2-132",
+   "paper": "TECH2",
+   "unit": "2",
+   "sub": "Change management and communication",
+   "question": "In an e-governance project, change management is chiefly concerned with",
+   "options": {
+    "A": "preparing people, roles and working practices for the new system so that the technology is actually used as designed",
+    "B": "controlling amendments to the software requirements after the contract has been signed",
+    "C": "maintaining version control over the application source code across releases",
+    "D": "the procedure for replacing failed hardware within the warranty period"
+   },
+   "answer": "A",
+   "explanation": "Change management addresses the human side of transition, covering role redefinition, capacity building, incentives and resistance, because a technically sound system still fails if staff work around it. Controlling amendments to signed requirements is change control, a configuration and contract discipline that shares the word but not the meaning."
+  },
+  {
+   "id": "GEN-TECH2-U2-133",
+   "paper": "TECH2",
+   "unit": "2",
+   "sub": "Change management and communication",
+   "question": "The communication plan for an e-governance rollout exists primarily to",
+   "options": {
+    "A": "satisfy the statutory advertising requirement that applies to public tenders",
+    "B": "document the escalation matrix agreed with the system integrator",
+    "C": "tell each stakeholder group, in terms that matter to that group, what will change, when it changes, and what is expected of them",
+    "D": "record the minutes of the project steering committee for audit purposes"
+   },
+   "answer": "C",
+   "explanation": "A communication plan is segmented by stakeholder because frontline staff, supervisory officers, citizens and the vendor each need different messages, at different times, through different channels. Tender advertising, escalation matrices and steering-committee minutes are procurement and project-governance records that reach only a narrow internal audience."
+  }
+ ]
+}

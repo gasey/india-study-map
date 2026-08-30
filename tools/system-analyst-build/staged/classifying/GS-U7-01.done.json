@@ -1,0 +1,22 @@
+[
+ { "id": "GEN-200", "mode": "understand", "confidence": "high",
+   "why": "Volatility follows from what working memory is and why it differs from secondary storage." },
+ { "id": "GEN-201", "mode": "memorise", "confidence": "medium",
+   "why": "Protocol-to-role mapping is convention, and POP3 is planted as the retrieval-versus-sending trap." },
+ { "id": "GEN-202", "mode": "understand", "confidence": "medium",
+   "why": "Negative form where the odd one out contradicts what the programme is, rather than merely missing from a list." },
+ { "id": "GEN-203", "mode": "understand", "confidence": "medium",
+   "why": "The behaviour described maps onto the named malware category; the distractors do different things by definition." },
+ { "id": "GEN-204", "mode": "understand", "confidence": "high",
+   "why": "The answer is what the concept is; the distractors are category errors." },
+ { "id": "GEN-205", "mode": "memorise", "confidence": "high",
+   "why": "Which body runs which system is an institutional fact with no derivation path." },
+ { "id": "GEN-206", "mode": "memorise", "confidence": "medium",
+   "why": "Issuing-authority recall; the option expansions offer an elimination route, but the pairing itself is remembered." },
+ { "id": "GEN-207", "mode": "memorise", "confidence": "high",
+   "why": "Case name attached to a holding; the doctrine can be understood without the citation." },
+ { "id": "GEN-208", "mode": "memorise", "confidence": "high",
+   "why": "Year of enactment; arbitrary." },
+ { "id": "GEN-209", "mode": "understand", "confidence": "medium",
+   "why": "The service-model layering follows from what is abstracted away at each level, not from a remembered list." }
+]

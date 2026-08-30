@@ -1,0 +1,306 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 20,
+ "questions": [
+  {
+   "id": "GEN-1",
+   "paper": "GE",
+   "unit": "1",
+   "sub": "Identifying main idea, tone and author's stance",
+   "question": "Passage A: \"Civil services examinations are often criticised for rewarding rote memory over judgement. Yet the very endurance required to clear such an exam -- months of disciplined reading, the ability to sit through a three-hour paper without losing focus -- is itself a rough proxy for the temperament a public servant needs. A brilliant but erratic mind may shine in a classroom debate, but it is the steady, methodical mind that keeps a district office running on the two-hundredth ordinary day, not just the crisis day. Selection systems, for all their flaws, are trying to measure staying power as much as intelligence.\" Which of the following best captures the author's central argument?\n\nBased on Passage A above.",
+   "options": {
+    "A": "Civil services exams are unfair because they favour memory over intelligence",
+    "B": "The discipline needed to clear such exams is a reasonable proxy for the steadiness a public servant needs",
+    "C": "Erratic minds make better public servants than steady ones",
+    "D": "District offices function well only during crises"
+   },
+   "answer": "B",
+   "explanation": "The passage explicitly argues that the endurance and discipline required to clear the exam is 'a rough proxy for the temperament a public servant needs,' making B the main idea; the other options either contradict or distort the passage."
+  },
+  {
+   "id": "GEN-2",
+   "paper": "GE",
+   "unit": "1",
+   "sub": "Identifying main idea, tone and author's stance",
+   "question": "In Passage A (the civil services exam passage), the author's overall tone toward selection systems can best be described as:",
+   "options": {
+    "A": "Dismissive and mocking",
+    "B": "Cautiously defensive, acknowledging flaws but seeing value",
+    "C": "Wholly uncritical and celebratory",
+    "D": "Angry and accusatory"
+   },
+   "answer": "B",
+   "explanation": "The phrase 'for all their flaws, are trying to measure staying power' shows the author concedes imperfections while still defending the system's purpose -- a cautiously defensive tone, not outright celebration or dismissal."
+  },
+  {
+   "id": "GEN-3",
+   "paper": "GE",
+   "unit": "1",
+   "sub": "Vocabulary-in-context questions",
+   "question": "In Passage A, the word \"erratic\" (as in \"a brilliant but erratic mind\") is closest in meaning to:",
+   "options": {
+    "A": "Consistent and reliable",
+    "B": "Unpredictable and inconsistent",
+    "C": "Extremely intelligent",
+    "D": "Slow and deliberate"
+   },
+   "answer": "B",
+   "explanation": "\"Erratic\" means irregular or unpredictable, which is contrasted in the passage with the 'steady, methodical mind' -- confirming the intended meaning is unpredictable/inconsistent."
+  },
+  {
+   "id": "GEN-4",
+   "paper": "GE",
+   "unit": "1",
+   "sub": "Answering inference questions in own words",
+   "question": "Which of the following can be reasonably inferred from Passage A, though it is not stated directly?",
+   "options": {
+    "A": "The author believes exams should be abolished entirely",
+    "B": "The author believes raw intelligence alone is sufficient for public service",
+    "C": "The author implies that consistency over time matters more in administration than momentary brilliance",
+    "D": "The author believes classroom debates are the best measure of ability"
+   },
+   "answer": "C",
+   "explanation": "The contrast drawn between a mind that 'shines in a classroom debate' versus one that 'keeps a district office running on the two-hundredth ordinary day' implies that sustained consistency is valued more than one-off brilliance in administration -- an inference, since it is not stated in those exact words."
+  },
+  {
+   "id": "GEN-5",
+   "paper": "GE",
+   "unit": "1",
+   "sub": "Identifying main idea, tone and author's stance",
+   "question": "Passage B: \"The Vaigai river, once perennial, now runs dry for nine months of the year across large stretches of its course. Sand mining, unregulated borewell drilling, and the silent disappearance of catchment forests upstream have together starved the river of the slow, steady recharge it once enjoyed. Local farmers who irrigated three crops a season fifty years ago now struggle with one. Restoration efforts exist on paper -- check dams sanctioned, afforestation drives announced -- but implementation lags years behind the announcements, and the river continues to shrink each summer.\" What is the primary purpose of Passage B?\n\nBased on Passage B above.",
+   "options": {
+    "A": "To celebrate the success of river restoration projects",
+    "B": "To describe the causes and consequences of the Vaigai river's decline, and the gap between announced and actual restoration",
+    "C": "To argue that farmers are responsible for the river drying up",
+    "D": "To provide a technical manual for building check dams"
+   },
+   "answer": "B",
+   "explanation": "The passage lists causes (sand mining, borewells, deforestation), consequences (reduced irrigation), and notes that restoration is announced but not implemented -- this composite description is the passage's purpose, not celebration, blame-shifting, or technical instruction."
+  },
+  {
+   "id": "GEN-6",
+   "paper": "GE",
+   "unit": "1",
+   "sub": "Vocabulary-in-context questions",
+   "question": "In Passage B, the phrase \"lags years behind\" most nearly means:",
+   "options": {
+    "A": "Is completed well ahead of schedule",
+    "B": "Is delayed by years relative to what was promised",
+    "C": "Happens at exactly the announced time",
+    "D": "Is cancelled altogether"
+   },
+   "answer": "B",
+   "explanation": "\"Lags behind\" means to fall behind or be delayed; combined with 'years,' it indicates implementation is delayed by years compared to the announcements, matching option B."
+  },
+  {
+   "id": "GEN-7",
+   "paper": "GE",
+   "unit": "1",
+   "sub": "Answering inference questions in own words",
+   "question": "From Passage B, it can be inferred that the author regards the gap between sanctioned restoration projects and their actual implementation as:",
+   "options": {
+    "A": "Irrelevant to the river's condition",
+    "B": "A key reason the river's decline continues unchecked",
+    "C": "Fully resolved by afforestation drives",
+    "D": "A problem only farmers can solve"
+   },
+   "answer": "B",
+   "explanation": "The passage closes by noting that despite sanctioned projects, 'the river continues to shrink each summer,' implying the implementation gap is precisely why decline is unchecked -- this is an inference drawn from the juxtaposition, not a directly stated sentence."
+  },
+  {
+   "id": "GEN-8",
+   "paper": "GE",
+   "unit": "1",
+   "sub": "Avoiding lifting sentences verbatim from the passage",
+   "question": "A candidate answering a comprehension question is instructed to explain, in their own words, why the Vaigai river's irrigation capacity has declined (Passage B). Which answer best follows the instruction to avoid lifting sentences verbatim from the passage?",
+   "options": {
+    "A": "\"Sand mining, unregulated borewell drilling, and the silent disappearance of catchment forests upstream have together starved the river of the slow, steady recharge it once enjoyed.\"",
+    "B": "Excessive sand extraction, unchecked groundwater pumping, and loss of upstream forest cover have jointly reduced the river's natural water recharge, cutting the irrigation it can support",
+    "C": "The river is dry because of bad luck",
+    "D": "Farmers used to grow three crops but now grow one crop only"
+   },
+   "answer": "B",
+   "explanation": "Option B paraphrases the passage's causes in the candidate's own vocabulary and sentence structure without copying phrases verbatim, which is exactly what the comprehension skill of avoiding verbatim lifting requires; option A is a direct quote, C is vague/unsupported, and D restates only the effect, not the reasoning."
+  },
+  {
+   "id": "GEN-9",
+   "paper": "GE",
+   "unit": "1",
+   "sub": "Reading an unseen passage under time pressure",
+   "question": "Passage C: \"Municipal solid waste segregation at source -- separating wet, dry and hazardous waste in the household bin itself -- sounds simple, but its success in Indian cities has been patchy. Where it has worked, such as in a handful of ward-level pilots, the common thread is not technology but sustained door-to-door engagement by ward volunteers over many months, not a one-time awareness campaign. Cities that treated segregation as a single poster-and-pamphlet exercise saw compliance fall back to near zero within a year.\" According to Passage C, what factor most distinguishes successful segregation pilots from unsuccessful ones?\n\nBased on Passage C above.",
+   "options": {
+    "A": "The use of advanced waste-sorting technology",
+    "B": "Sustained, long-term door-to-door engagement rather than a one-time campaign",
+    "C": "The number of posters and pamphlets distributed",
+    "D": "Strict fines imposed on households"
+   },
+   "answer": "B",
+   "explanation": "The passage states the common thread in successful pilots 'is not technology but sustained door-to-door engagement... over many months, not a one-time awareness campaign,' directly identifying option B as the distinguishing factor."
+  },
+  {
+   "id": "GEN-10",
+   "paper": "GE",
+   "unit": "1",
+   "sub": "Vocabulary-in-context questions",
+   "question": "In Passage C, the word \"patchy\" (as in \"its success... has been patchy\") is closest in meaning to:",
+   "options": {
+    "A": "Uniformly excellent",
+    "B": "Inconsistent, with some parts succeeding and others failing",
+    "C": "Completely absent",
+    "D": "Rapidly improving"
+   },
+   "answer": "B",
+   "explanation": "\"Patchy\" describes something uneven or inconsistent in quality across different areas, which matches the passage's later description of a 'handful of ward-level pilots' working while others failed -- confirming option B."
+  },
+  {
+   "id": "GEN-47",
+   "paper": "GE",
+   "unit": "1",
+   "sub": "Identifying main idea, tone and author's stance",
+   "question": "Passage D: \"Streetlights and floodlights have transformed our nights, but they impose an unseen cost on the natural world. Many moths, essential night-time pollinators, are drawn fatally toward artificial lamps, spiralling around them until exhausted instead of visiting flowers. Recent field studies show that plants along brightly lit roadsides set noticeably less seed than the same species in darker lanes nearby. The lights we install for our own safety, it seems, quietly rewrite the schedules of creatures that evolved over millions of years to work by moonlight alone.\" Which of the following best states the central idea of Passage D?\n\nBased on Passage D above.",
+   "options": {
+    "A": "Artificial night lighting benefits pollination by keeping moths active for longer",
+    "B": "Artificial night lighting disrupts nocturnal pollinators and, through them, reduces plants' seed production",
+    "C": "Streetlights should be abolished to protect human safety",
+    "D": "Moths are attracted to flowers only during the day"
+   },
+   "answer": "B",
+   "explanation": "The passage links artificial light to moths being diverted from flowers and to reduced seed-set in brightly lit areas, so its central idea is that night lighting disrupts nocturnal pollinators and thereby lowers plant seed production; the other options contradict the passage or overstate it."
+  },
+  {
+   "id": "GEN-48",
+   "paper": "GE",
+   "unit": "1",
+   "sub": "Vocabulary-in-context questions",
+   "question": "In Passage D, the word \"unseen\" (as in \"an unseen cost on the natural world\") most nearly means:",
+   "options": {
+    "A": "Deliberately concealed by scientists",
+    "B": "Hidden or not readily noticed",
+    "C": "Financially expensive",
+    "D": "Completely imaginary"
+   },
+   "answer": "B",
+   "explanation": "\"Unseen\" here describes a cost that is real but not obvious to observers, i.e. hidden or unnoticed; it does not imply deliberate concealment, monetary expense, or that the cost is imaginary."
+  },
+  {
+   "id": "GEN-49",
+   "paper": "GE",
+   "unit": "1",
+   "sub": "Answering inference questions in own words",
+   "question": "Which of the following can be reasonably inferred from Passage D, though it is not stated in those exact words?",
+   "options": {
+    "A": "Moths circling lamps are pollinating those lamps",
+    "B": "The reduced seed-set near roadsides is connected to moths being drawn away from flowers by the lights",
+    "C": "Plants prefer to grow in brightly lit places",
+    "D": "Moonlight is harmful to nocturnal insects"
+   },
+   "answer": "B",
+   "explanation": "The passage juxtaposes moths being lured to lamps 'instead of visiting flowers' with plants setting less seed in lit areas; the reader must infer the causal link between the two, which is exactly option B and not directly stated as a single sentence."
+  },
+  {
+   "id": "GEN-50",
+   "paper": "GE",
+   "unit": "1",
+   "sub": "Identifying main idea, tone and author's stance",
+   "question": "Passage E: \"A public library is one of the few civic spaces that asks nothing of those who enter it. There is no ticket to buy, no purchase expected, no membership of a class or creed required. A child preparing for an examination, a job-seeker printing an application, and a pensioner reading the morning newspaper may share the same quiet room as equals. In an age when so much of public life has moved behind paywalls and passwords, the library's stubborn insistence on open, cost-free access is not a quaint survival but a small daily act of democracy.\" The author's attitude toward the public library is best described as:\n\nBased on Passage E above.",
+   "options": {
+    "A": "Nostalgic but ultimately dismissive of its usefulness",
+    "B": "Appreciative, valuing it as an open and egalitarian civic space",
+    "C": "Neutral and purely factual, expressing no view",
+    "D": "Critical of libraries for excluding paying customers"
+   },
+   "answer": "B",
+   "explanation": "By calling free access 'a small daily act of democracy' and stressing that the library 'asks nothing' of visitors, the author clearly admires it as an open, egalitarian space; the tone is appreciative, not dismissive, neutral, or critical."
+  },
+  {
+   "id": "GEN-51",
+   "paper": "GE",
+   "unit": "1",
+   "sub": "Vocabulary-in-context questions",
+   "question": "In Passage E, the phrase \"quaint survival\" refers to something that is:",
+   "options": {
+    "A": "Charmingly old-fashioned and left over from an earlier time",
+    "B": "Dangerous and in urgent need of reform",
+    "C": "Newly invented and untested",
+    "D": "Expensive and wasteful"
+   },
+   "answer": "A",
+   "explanation": "\"Quaint\" means pleasantly old-fashioned and 'survival' means something that has persisted from the past; the author raises this description only to reject it, arguing the library is more than a charming relic. The literal meaning of the phrase is option A."
+  },
+  {
+   "id": "GEN-52",
+   "paper": "GE",
+   "unit": "1",
+   "sub": "Answering inference questions in own words",
+   "question": "From Passage E, it can be inferred that the author sees the shift of public life \"behind paywalls and passwords\" as:",
+   "options": {
+    "A": "A welcome improvement that libraries should imitate",
+    "B": "A trend that makes the library's free, open access more valuable rather than less",
+    "C": "Entirely irrelevant to the role of libraries",
+    "D": "Proof that libraries have already become obsolete"
+   },
+   "answer": "B",
+   "explanation": "The author contrasts the general move behind 'paywalls and passwords' with the library's 'stubborn insistence' on free access, implying that this trend heightens rather than diminishes the library's value; this is an inference from the contrast, not a stated line."
+  },
+  {
+   "id": "GEN-53",
+   "paper": "GE",
+   "unit": "1",
+   "sub": "Reading an unseen passage under time pressure",
+   "question": "Passage F: \"Bamboo flowers only once in several decades, and when it does, entire forests bloom together and then die. In the hills of the North East, this rare flowering has long been dreaded rather than admired, for the flood of seeds it produces triggers an explosion in the rat population. The rats, having devoured the seeds, turn next to standing crops and grain stores, and famine has historically followed. What looks to an outsider like a botanical curiosity is, to the communities living among the bamboo, the harbinger of a hungry year.\" According to Passage F, why is the flowering of bamboo dreaded in the North East?\n\nBased on Passage F above.",
+   "options": {
+    "A": "Because the flowers themselves are poisonous to humans",
+    "B": "Because the abundant seeds cause a surge in rats that then destroy crops and grain, leading to famine",
+    "C": "Because the bamboo forests never grow back after flowering",
+    "D": "Because outsiders come to admire the rare event and damage the forest"
+   },
+   "answer": "B",
+   "explanation": "The passage explains that flowering releases a 'flood of seeds' that causes a rat 'explosion'; the rats then eat crops and grain stores, and 'famine has historically followed' -- this chain of events is why the flowering is dreaded, matching option B."
+  },
+  {
+   "id": "GEN-54",
+   "paper": "GE",
+   "unit": "1",
+   "sub": "Vocabulary-in-context questions",
+   "question": "In Passage F, the word \"harbinger\" (as in \"the harbinger of a hungry year\") most nearly means:",
+   "options": {
+    "A": "A cause that can be prevented",
+    "B": "A sign or forewarning of something about to come",
+    "C": "A cure or remedy",
+    "D": "A celebration or festival"
+   },
+   "answer": "B",
+   "explanation": "A 'harbinger' is something that announces or gives advance warning of an approaching event; here the bamboo flowering forewarns of a coming year of hunger, so option B is correct."
+  },
+  {
+   "id": "GEN-55",
+   "paper": "GE",
+   "unit": "1",
+   "sub": "Identifying main idea, tone and author's stance",
+   "question": "Passage G: \"The most productive hours of a working day are often the ones no one plans for: the uninterrupted stretch when the phone is silenced and the inbox is left unopened. Studies of knowledge workers repeatedly find that it is not the total number of hours worked but the number of unbroken hours that best predicts meaningful output. Every notification that pulls attention away exacts a hidden tax, for the mind takes several minutes to settle back into a difficult problem after each interruption. Protecting a block of quiet, then, is not indulgence but strategy.\" What is the main point of Passage G?\n\nBased on Passage G above.",
+   "options": {
+    "A": "Working the greatest possible number of total hours guarantees the best output",
+    "B": "Sustained, uninterrupted time matters more than total hours, so protecting focused blocks is a sound strategy",
+    "C": "Notifications improve concentration on difficult problems",
+    "D": "Knowledge workers should never use phones at all"
+   },
+   "answer": "B",
+   "explanation": "The passage argues that 'unbroken hours' predict output better than total hours and that interruptions carry a re-focusing cost, concluding that protecting quiet blocks is 'strategy'; option B captures this, while the others contradict the passage or overstate it."
+  },
+  {
+   "id": "GEN-56",
+   "paper": "GE",
+   "unit": "1",
+   "sub": "Answering inference questions in own words",
+   "question": "From Passage G, what can be inferred about frequent notifications during focused work?",
+   "options": {
+    "A": "They have no measurable effect on output",
+    "B": "They reduce productivity because the mind needs time to re-engage after each interruption",
+    "C": "They help the mind settle into difficult problems faster",
+    "D": "They matter only when the total hours worked are low"
+   },
+   "answer": "B",
+   "explanation": "The passage says each notification 'exacts a hidden tax' because the mind takes several minutes to resettle after an interruption; the reader infers that frequent notifications therefore lower productivity, which is option B."
+  }
+ ]
+}

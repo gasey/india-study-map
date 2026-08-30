@@ -1,0 +1,246 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 16,
+ "questions": [
+  {
+   "id": "TECH3_2024-50",
+   "paper": "TECH3",
+   "unit": "5",
+   "sub": "Product scope vs project scope",
+   "question": "________ is confined to what the project aimed to achieve, whereas ________ is what the project would do during its lifetime.",
+   "options": {
+    "A": "Scope, aim",
+    "B": "Title, objective",
+    "C": "Objective, scope",
+    "D": "Aim, objective"
+   },
+   "answer": "C",
+   "explanation": "An objective is the specific, measurable goal a project is set up to achieve (e.g. 'reduce processing time by 30%'), while scope defines the boundary of work — what is and is not included — carried out over the project's lifetime to reach that objective. The sentence structure ('confined to what the project aimed to achieve' = objective; 'what the project would do during its lifetime' = scope) matches option (c) exactly, whereas the other options either reverse the order or substitute unrelated terms like 'title' or 'aim' for one half of the pair."
+  },
+  {
+   "id": "TECH3_2024-56",
+   "paper": "TECH3",
+   "unit": "5",
+   "sub": "WBS, work package, control account, WBS dictionary",
+   "question": "WBS in project management is —\n(a) A hierarchical tool that helps organize a project by breaking it down into smaller and more manageable components.\n(b) A process defining how the project should be executed in timely manner.\n(c) A sub-system within project management that deal with resource mobilization.\n(d) A workable solution provided by a team of experts.",
+   "options": {
+    "A": "A hierarchical tool that helps organize a project by breaking it down into smaller and more manageable components.",
+    "B": "A process defining how the project should be executed in timely manner.",
+    "C": "A sub-system within project management that deal with resource mobilization.",
+    "D": "A workable solution provided by a team of experts."
+   },
+   "answer": "A",
+   "explanation": "A Work Breakdown Structure is precisely a deliverable-oriented hierarchical decomposition of the total scope of work into smaller, more manageable work packages — matching option A exactly. Option B confuses WBS with schedule/time management, C confuses it with resource management, and D describes something like a consulting recommendation, not a structural planning tool; none of these describe decomposition of scope."
+  },
+  {
+   "id": "TECH3_2024-57",
+   "paper": "TECH3",
+   "unit": "5",
+   "sub": "Validate Scope: Inputs, Tools and Techniques, Outputs",
+   "question": "The process of getting sign-off from the project client is usually within the phase under scope management as —",
+   "options": {
+    "A": "Scope validation",
+    "B": "Scope planning",
+    "C": "Scope finalization",
+    "D": "Controlling scope"
+   },
+   "answer": "A",
+   "explanation": "Validate Scope is the PMBOK process for formalising acceptance of the completed project deliverables, i.e. getting the customer/sponsor's sign-off. Scope planning (B) happens earlier and only sets out how scope will be managed, not accepted; 'Scope finalization' (C) is not a standard PMBOK process name; Control Scope (D) is about monitoring the status of scope and managing changes to the baseline, not obtaining formal acceptance."
+  },
+  {
+   "id": "TECH3_2024-58",
+   "paper": "TECH3",
+   "unit": "5",
+   "sub": "Define Scope: Inputs, Tools and Techniques, Outputs",
+   "question": "The process wherein the collected requirements of scopes are turned into a detailed product description and acts as a reference point for the future is —",
+   "options": {
+    "A": "Scope requirement",
+    "B": "Scope planning",
+    "C": "Scope control",
+    "D": "Scope definition"
+   },
+   "answer": "D",
+   "explanation": "Define Scope ('Scope definition') is the process that develops a detailed description of the project and product from the collected requirements, producing the project scope statement which becomes the reference baseline for later decisions. 'Scope requirement' (A) is not a named process (Collect Requirements is), Scope planning (B) only decides how scope will be defined and controlled, not the description itself, and Scope control (D... option C) monitors status/changes rather than creating the description."
+  },
+  {
+   "id": "TECH3_2024-59",
+   "paper": "TECH3",
+   "unit": "5",
+   "sub": "Plan Scope Management: Inputs, Tools and Techniques, Outputs",
+   "question": "Which one of the following may not be included as a process in the project scope management?",
+   "options": {
+    "A": "Planning scope management",
+    "B": "Collection of requirements",
+    "C": "Creating work breakdown structure",
+    "D": "Timeline management"
+   },
+   "answer": "D",
+   "explanation": "The six Scope Management processes are Plan Scope Management, Collect Requirements, Define Scope, Create WBS, Validate Scope and Control Scope — options A, B and C are all genuine members of that list. 'Timeline management' belongs to Project Time (Schedule) Management (defining, sequencing and scheduling activities), a separate knowledge area, so it is the one that does not belong here."
+  },
+  {
+   "id": "TECH3_2024-61",
+   "paper": "TECH3",
+   "unit": "5",
+   "sub": "Scope baseline",
+   "question": "The scope baseline consist of which of the following elements?",
+   "options": {
+    "A": "Scope Statement, WBS, WBS Dictionary",
+    "B": "Scope Statement, Risk Management Plan, WBS",
+    "C": "WBS Dictionary, Project Management Plan, Scope Statement",
+    "D": "Project Management Plan, WBS, Scope Statement"
+   },
+   "answer": "A",
+   "explanation": "PMBOK explicitly defines the scope baseline as the approved version of the project scope statement, the WBS and its associated WBS dictionary — exactly option A. The Risk Management Plan (B) has nothing to do with scope, and the Project Management Plan (C, D) is the larger integrating document that the scope baseline is a component OF, not a component within it, so listing it as part of the scope baseline is a category error."
+  },
+  {
+   "id": "TECH3_2024-62",
+   "paper": "TECH3",
+   "unit": "5",
+   "sub": "WBS, work package, control account, WBS dictionary",
+   "question": "Rahul, a project manager, realized his project's work breakdown structure was too complex for one sheet. As his colleague, you suggest using a WBS numbering system:",
+   "options": {
+    "A": "Which determine the complexity of the project",
+    "B": "Which will help to automate WBS using appropriate software",
+    "C": "To Provide a hierarchical structure for each WBS element",
+    "D": "To present risks of the project"
+   },
+   "answer": "B",
+   "explanation": "A WBS coding/numbering scheme (e.g. 1.1, 1.1.1, 1.1.2) exists to give every element a unique identifier that reflects its place in the hierarchy, making a large, multi-level WBS navigable even when it can't fit on one sheet. It does not itself determine project complexity (A), is not primarily about software automation (B, a possible side benefit but not the purpose), and has nothing to do with presenting risk (D)."
+  },
+  {
+   "id": "TECH3_2024-63",
+   "paper": "TECH3",
+   "unit": "5",
+   "sub": "Plan Scope Management: Inputs, Tools and Techniques, Outputs",
+   "question": "Which of the following is NOT typically included as a component of the scope management plan?",
+   "options": {
+    "A": "Process for preparing a detailed project scope statement",
+    "B": "Process for obtaining formal acceptance of completed project deliverables",
+    "C": "Process for creating the project risk management plan",
+    "D": "Process to control changes to the detailed project scope statement"
+   },
+   "answer": "C",
+   "explanation": "The Scope Management Plan describes how scope will be defined, developed, validated and controlled — it contains the processes named in A, B and D. Creating the Risk Management Plan is the output of the separate Plan Risk Management process under Project Risk Management, so it does not belong inside the Scope Management Plan."
+  },
+  {
+   "id": "TECH3_2021-24",
+   "paper": "TECH3",
+   "unit": "5",
+   "sub": "Plan Scope Management: Inputs, Tools and Techniques, Outputs",
+   "question": "What is the logical sequence of the Project Scope Management processes?",
+   "options": {
+    "A": "Create WBS, Collect Requirements, Define Scope, Validate Scope, and Control Scope",
+    "B": "Define Scope, Collect Requirements, Create WBS, Validate Scope, and Control Scope",
+    "C": "Plan Scope Management, Collect Requirements, Define Scope, Create WBS, Validate Scope, and Control Scope",
+    "D": "Plan Scope Management, Collect Requirements, Define Scope, Validate Scope, Create WBS, and Control Scope"
+   },
+   "answer": "C",
+   "explanation": "The Project Scope Management processes run in order: Plan Scope Management, Collect Requirements, Define Scope, Create WBS, Validate Scope, and Control Scope."
+  },
+  {
+   "id": "TECH3_2021-25",
+   "paper": "TECH3",
+   "unit": "5",
+   "sub": "Define Scope: Inputs, Tools and Techniques, Outputs",
+   "question": "You are the Project Manager for the production of an exotic car. You have completed the Define Scope process for your project. Which of the following may be generated through this process?",
+   "options": {
+    "A": "Project scope statement, project charter",
+    "B": "Project scope statement, updates to requirements traceability matrix",
+    "C": "WBS, updates to requirements traceability matrix",
+    "D": "Project scope statement, WBS"
+   },
+   "answer": "B",
+   "explanation": "Define Scope produces the project scope statement plus updates to project documents such as the requirements traceability matrix; the WBS is not created until the later Create WBS process, and the project charter predates Define Scope."
+  },
+  {
+   "id": "TECH3_2021-26",
+   "paper": "TECH3",
+   "unit": "5",
+   "sub": "Create WBS: Inputs, Tools and Techniques, Outputs",
+   "question": "The Work Breakdown Structure (WBS) is a deliverable-oriented hierarchical decomposition of the work the project team will execute to accomplish the project objectives and create required deliverables. The Create WBS process falls under which knowledge area?",
+   "options": {
+    "A": "Project Schedule Management",
+    "B": "Project Integration Management",
+    "C": "Project Scope Management",
+    "D": "Project Cost Management"
+   },
+   "answer": "C",
+   "explanation": "Create WBS is one of the core processes of the Project Scope Management knowledge area."
+  },
+  {
+   "id": "TECH3_2021-27",
+   "paper": "TECH3",
+   "unit": "5",
+   "sub": "Control Scope: Inputs, Tools and Techniques, Outputs",
+   "question": "During a weekly status meeting, Binoy (your team member) suggest adding a component to the project. As an project manager, you maintain that all focus should stay on the current scope and not on any enhancements. Focusing on the current scope is an example of:",
+   "options": {
+    "A": "Gold-plating",
+    "B": "Scope management",
+    "C": "Scope verification",
+    "D": "Change control"
+   },
+   "answer": "D",
+   "explanation": "Refusing to informally absorb a suggested addition and instead insisting it be routed through the proper process is the discipline of change control, which channels all scope changes through a formal review rather than ad hoc acceptance."
+  },
+  {
+   "id": "TECH3_2021-28",
+   "paper": "TECH3",
+   "unit": "5",
+   "sub": "Scope creep and gold plating",
+   "question": "What is the main reason for controlling the project scope?",
+   "options": {
+    "A": "To prevent changes from affecting the project",
+    "B": "To enable scope creep",
+    "C": "To ensure timely closure of the project",
+    "D": "Preventing scope creep"
+   },
+   "answer": "D",
+   "explanation": "Control Scope exists mainly to prevent uncontrolled, unapproved additions to the project's deliverables -- i.e. to prevent scope creep -- not to enable it or to simply block all change."
+  },
+  {
+   "id": "TECH3_2021-29",
+   "paper": "TECH3",
+   "unit": "5",
+   "sub": "Validate Scope: Inputs, Tools and Techniques, Outputs",
+   "question": "Which of the following is not used as an input for the Validate Scope process?",
+   "options": {
+    "A": "Scope Baseline",
+    "B": "Verified Deliverables",
+    "C": "Project Management Plan",
+    "D": "Work Performance Data"
+   },
+   "answer": "A",
+   "explanation": "PMBOK's Validate Scope inputs are the project management plan, project documents, verified deliverables, and work performance data; the scope baseline is only referenced as a component nested inside the project management plan, not listed as its own standalone input."
+  },
+  {
+   "id": "TECH3_2021-30",
+   "paper": "TECH3",
+   "unit": "5",
+   "sub": "Plan Scope Management: Inputs, Tools and Techniques, Outputs",
+   "question": "The Scope Management Plan is included in which of the following documents?",
+   "options": {
+    "A": "Project Management Plan",
+    "B": "The Work Breakdown Structure",
+    "C": "The Scope Statement",
+    "D": "Project Specifications"
+   },
+   "answer": "A",
+   "explanation": "The Scope Management Plan is a subsidiary plan bundled inside the overall Project Management Plan, not a standalone document like the WBS or scope statement."
+  },
+  {
+   "id": "TECH3_2021-31",
+   "paper": "TECH3",
+   "unit": "5",
+   "sub": "Collect Requirements: Inputs, Tools and Techniques, Outputs",
+   "question": "The process of determining, documenting and managing stakeholder needs and requirements to meet project objectives is known as:",
+   "options": {
+    "A": "Plan Scope Management",
+    "B": "Collect Requirements",
+    "C": "Control Scope",
+    "D": "Validate Scope"
+   },
+   "answer": "B",
+   "explanation": "Determining, documenting, and managing stakeholder needs and requirements to meet project objectives is the definition of the Collect Requirements process."
+  }
+ ]
+}

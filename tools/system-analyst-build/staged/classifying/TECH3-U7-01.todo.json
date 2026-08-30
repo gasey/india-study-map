@@ -1,0 +1,171 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 11,
+ "questions": [
+  {
+   "id": "TECH3_2024-18",
+   "paper": "TECH3",
+   "unit": "7",
+   "sub": "Variances: CV, SV; Indices: CPI, SPI",
+   "question": "Cost overrun is a term used in the project management where —",
+   "options": {
+    "A": "The funding agency could not fund the future project",
+    "B": "There is excess spending on material supply",
+    "C": "The estimated cost of the project has been exceeded",
+    "D": "There is misunderstanding between finance and technical section of the company"
+   },
+   "answer": "C",
+   "explanation": "A cost overrun (or budget overrun) occurs whenever actual project expenditure exceeds the estimated or budgeted cost baseline, regardless of the specific cause - this is exactly what option C states in general terms. Option B describes only one narrow possible cause (material overspend), not the general definition; A and D describe unrelated funding or communication problems rather than the accounting fact of exceeding the budget itself."
+  },
+  {
+   "id": "TECH3_2024-68",
+   "paper": "TECH3",
+   "unit": "7",
+   "sub": "Estimating techniques: analogous, parametric, bottom-up, three-point",
+   "question": "In bottom-up estimating, what happens if an activity cannot be estimated with confidence?",
+   "options": {
+    "A": "The project schedule is adjusted to reflect the uncertainty",
+    "B": "The activity is decomposed into more detail, and resource needs are re-estimated",
+    "C": "A contingency reserve is added to the budget",
+    "D": "The project scope is revised"
+   },
+   "answer": "B",
+   "explanation": "Bottom-up estimating works by breaking work into ever-smaller, more manageable pieces until each piece can be estimated with sufficient confidence, then aggregating the estimates upward; so the correct response to low confidence is further decomposition and re-estimation, exactly option B. Adjusting the schedule (A) or adding a contingency reserve (C) are ways of handling residual uncertainty AFTER estimating, not the bottom-up technique's own remedy, and revising scope (D) is a disproportionate, unrelated response to an estimating difficulty."
+  },
+  {
+   "id": "TECH3_2024-70",
+   "paper": "TECH3",
+   "unit": "7",
+   "sub": "Control Costs: Inputs, Tools and Techniques, Outputs",
+   "question": "Which of the following is essential to ensure the project stays within the approved budget in the project management term?",
+   "options": {
+    "A": "Requirement control",
+    "B": "Cost escalation",
+    "C": "Budget estimation",
+    "D": "Cost control"
+   },
+   "answer": "D",
+   "explanation": "Control Costs is the PMBOK process that monitors the project's cost performance against the approved budget baseline and manages changes to it, which is exactly what 'staying within the approved budget' requires on an ongoing basis. Budget estimation/Determine Budget (C) only sets the baseline once, it does not keep the project within it; 'Cost escalation' (B) is the opposite of the goal (rising costs); 'Requirement control' (A) is not a real cost-management term."
+  },
+  {
+   "id": "TECH3_2024-73",
+   "paper": "TECH3",
+   "unit": "7",
+   "sub": "Cost types: direct, indirect, fixed, variable, sunk, opportunity",
+   "question": "Expenses incurred by a firm on recruitment, training & development of employees are treated as",
+   "options": {
+    "A": "Current costs",
+    "B": "Incremental costs",
+    "C": "Replacement costs",
+    "D": "Implicit costs"
+   },
+   "answer": "A",
+   "explanation": "In Human Resource Accounting, the 'Replacement Cost' approach values an employee by the cost a firm would incur to replace them with someone of equivalent competence — and that cost is explicitly built up from recruitment, selection and training/development expenses, matching the question almost word-for-word. 'Implicit costs' (D) is wrong because these are real cash outlays, not opportunity costs of self-owned resources; 'Current costs' (A) and 'Incremental costs' (B) are generic accounting labels that do not specifically capture the HR-accounting concept the question is testing. This question is genuinely ambiguous across accounting frameworks and the printed key may differ."
+  },
+  {
+   "id": "TECH3_2024-74",
+   "paper": "TECH3",
+   "unit": "7",
+   "sub": "Variances: CV, SV; Indices: CPI, SPI",
+   "question": "Cost variance is calculated by:",
+   "options": {
+    "A": "Subtracting planned value from actual cost",
+    "B": "Subtracting actual cost from earned value",
+    "C": "Subtracting budget at completion from earned value",
+    "D": "Subtracting BAC from ETC"
+   },
+   "answer": "B",
+   "explanation": "Cost Variance is defined in Earned Value Management as CV = EV − AC (Earned Value minus Actual Cost); a positive CV means the project is under budget for the work performed. Option A inverts the wrong pair of terms (that formula isn't a standard EVM measure), option C confuses CV with a completion-based comparison, and option D (BAC − ETC) is not the CV formula at all — it resembles no standard EVM metric as stated."
+  },
+  {
+   "id": "TECH3_2024-75",
+   "paper": "TECH3",
+   "unit": "7",
+   "sub": "Variances: CV, SV; Indices: CPI, SPI",
+   "question": "If the Cost Performance Index (CPI) is greater than 1.0, what does it indicate?",
+   "options": {
+    "A": "The project is under budget",
+    "B": "The project is over budget",
+    "C": "The project is ahead of schedule",
+    "D": "The project is behind schedule"
+   },
+   "answer": "A",
+   "explanation": "CPI = EV / AC; a value greater than 1.0 means more earned value was achieved than the actual cost spent, i.e. the project is spending less than planned for the work completed — it is under budget / cost-efficient. CPI says nothing about schedule performance (that is SPI's job), which rules out options C and D, and a CPI above 1.0 is the opposite of being over budget, ruling out B."
+  },
+  {
+   "id": "TECH3_2021-39",
+   "paper": "TECH3",
+   "unit": "7",
+   "sub": "Plan Cost Management: Inputs, Tools and Techniques, Outputs",
+   "question": "A project uses rounding of activity cost estimates data to the nearest Rs 100, uses staff hours as the unit of measure for resources, and has a variance threshold of 10 percent deviation from the baseline plan. These approaches are typically documented in the:",
+   "options": {
+    "A": "Cost management plan",
+    "B": "Scope Statement",
+    "C": "WBS",
+    "D": "Project charter"
+   },
+   "answer": "A",
+   "explanation": "Rounding rules, units of measure, and variance thresholds for cost control are exactly the kind of detail specified in the Cost Management Plan."
+  },
+  {
+   "id": "TECH3_2021-41",
+   "paper": "TECH3",
+   "unit": "7",
+   "sub": "Estimating techniques: analogous, parametric, bottom-up, three-point",
+   "question": "Analogous Cost Estimating is which of the following?",
+   "options": {
+    "A": "Generally less accurate",
+    "B": "Uses statistical relationship between historical data and other variables",
+    "C": "Bottom-up estimating",
+    "D": "Used when detailed information of project is available"
+   },
+   "answer": "A",
+   "explanation": "Analogous estimating uses historical/similar-project data as a quick top-down proxy, which makes it generally less accurate than bottom-up or parametric methods that use more detailed data."
+  },
+  {
+   "id": "TECH3_2021-42",
+   "paper": "TECH3",
+   "unit": "7",
+   "sub": "Determine Budget: Inputs, Tools and Techniques, Outputs",
+   "question": "Which of these are not inputs to the Determine Budget process?",
+   "options": {
+    "A": "Cost baseline, requirements traceability matrix",
+    "B": "Scope baseline, agreements",
+    "C": "Basis of estimates, cost estimates",
+    "D": "Risk register, resource management plan"
+   },
+   "answer": "A",
+   "explanation": "The cost baseline is an output of Determine Budget, not an input to it, and the requirements traceability matrix is a scope-management artifact not used here; scope baseline, agreements, basis of estimates/cost estimates, risk register, and resource management plan are all genuine Determine Budget inputs per PMBOK's ITTO list."
+  },
+  {
+   "id": "TECH3_2021-44",
+   "paper": "TECH3",
+   "unit": "7",
+   "sub": "Determine Budget: Inputs, Tools and Techniques, Outputs",
+   "question": "Determining budget can be best described by which of the following?",
+   "options": {
+    "A": "The process of developing the future trends along with the assessment of probabilities, uncertainties, and inflation that could occur during the project",
+    "B": "The process of accumulating costs of individual activities to establish a cost baseline.",
+    "C": "The process of establishing budgets, standards, and a monitoring system by which the investment cost of the project can be measured and managed",
+    "D": "The process of gathering, accumulating, analyzing, reporting, and managing the costs on an ongoing basis"
+   },
+   "answer": "B",
+   "explanation": "PMBOK defines Determine Budget as aggregating the estimated costs of individual activities or work packages to establish an authorized cost baseline, matching option B exactly."
+  },
+  {
+   "id": "TECH3_2021-45",
+   "paper": "TECH3",
+   "unit": "7",
+   "sub": "Plan Cost Management: Inputs, Tools and Techniques, Outputs",
+   "question": "The Project Cost Management Process comprises the following activities: i) Determine Budget ii) Plan Cost Management iii) Estimate Costs iv) Control Costs. What is the correct sequence?",
+   "options": {
+    "A": "i), ii), iii), iv)",
+    "B": "iii), i), ii), iv)",
+    "C": "ii), iii), i), iv)",
+    "D": "i), iii), ii), iv)"
+   },
+   "answer": "C",
+   "explanation": "Cost Management runs Plan Cost Management, Estimate Costs, Determine Budget, then Control Costs -- i.e. ii, iii, i, iv."
+  }
+ ]
+}

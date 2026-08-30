@@ -1,0 +1,471 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 31,
+ "questions": [
+  {
+   "id": "TECH1_2024-86",
+   "paper": "TECH1",
+   "unit": "6",
+   "sub": "Boundary Value Analysis",
+   "question": "Software testing involving the existence of possible error when extreme range of input is given is called —",
+   "options": {
+    "A": "Extreme testing",
+    "B": "Verification testing",
+    "C": "Boundary value analysis",
+    "D": "Selective testing"
+   },
+   "answer": "C",
+   "explanation": "Boundary Value Analysis (BVA) is a black-box testing technique that specifically targets the edges of input domains - the extreme minimum, maximum, and just-inside/just-outside values - because defects cluster at these boundaries far more often than in the middle of a valid range. 'Extreme testing' (A) is not a recognised standard testing term and is a plausible-sounding distractor built from the question's own wording. 'Verification testing' (B) is a broader quality-assurance activity confirming the product is built according to specification, unrelated to input ranges. 'Selective testing' (D) is likewise not a defined standard technique."
+  },
+  {
+   "id": "TECH1_2024-87",
+   "paper": "TECH1",
+   "unit": "6",
+   "sub": "Software Testing Fundamentals",
+   "question": "Which of the following(s) is/are involved in software testing?\ni. Fix the security loopholes\nii. Find the possible error in the software\niii. Check whether customers' requirements are met\niv. Debugging",
+   "options": {
+    "A": "i and ii only",
+    "B": "ii and iii only",
+    "C": "ii and iv only",
+    "D": "i, ii, iii and iv"
+   },
+   "answer": "B",
+   "explanation": "Software testing, by definition, is the process of executing a system to find defects (ii) and to verify that it satisfies the customer's stated requirements (iii). Fixing security loopholes (i) is a remediation/development activity that happens after a vulnerability is found - testing discovers problems, it does not fix them. Debugging (iv) is likewise a distinct developer activity: locating and correcting the root cause of a failure already reported by testing, not testing itself. Because testing and debugging are explicitly treated as separate activities in standard software-engineering texts, option B (ii and iii only) is the most defensible answer."
+  },
+  {
+   "id": "TECH1_2024-88",
+   "paper": "TECH1",
+   "unit": "6",
+   "sub": "Bottom-up Integration",
+   "question": "Which software testing is for testing whether individual units or modules are working together as per required or not?",
+   "options": {
+    "A": "Unit testing",
+    "B": "Acceptance testing",
+    "C": "Integration testing",
+    "D": "Accumulation testing"
+   },
+   "answer": "C",
+   "explanation": "Integration testing is precisely the level of testing that checks whether previously-tested individual units/modules interact correctly with each other once combined - verifying interfaces, data flow, and combined behaviour. Unit testing (A) tests modules in isolation, one at a time, which is the opposite of what the question describes ('working together'). Acceptance testing (B) is performed at the very end against overall business requirements, not module interaction. 'Accumulation testing' (D) is not a standard software testing term and is a fabricated-sounding distractor."
+  },
+  {
+   "id": "TECH1_2024-89",
+   "paper": "TECH1",
+   "unit": "6",
+   "sub": "Testing methods and tools: Testing through reviews",
+   "question": "Which software testing tool does a simple job of enforcing standards in a uniform way of many programs?",
+   "options": {
+    "A": "Static Analyzer only",
+    "B": "Code Inspector only",
+    "C": "Standard Enforcer only",
+    "D": "Both Code Inspector & Standard Enforcer"
+   },
+   "answer": "D",
+   "explanation": "In the standard classification of static software-testing tools (used in Pressman-style software-engineering texts), a 'Standards Enforcer' is the tool specifically dedicated to checking that source code conforms to coding/style conventions uniformly across many programs - which matches the question's wording almost verbatim. A 'Code Inspector' more broadly reviews code structure and quality, and a 'Static Analyzer' examines control/data flow without executing the code; neither is defined narrowly around 'enforcing standards'. This question is drawn from a specific tool taxonomy and the exact expected answer is genuinely uncertain without the source textbook, so confidence is marked low."
+  },
+  {
+   "id": "TECH1_2024-90",
+   "paper": "TECH1",
+   "unit": "6",
+   "sub": "Software Testing Strategies: Organizing for software testing",
+   "question": "Which of the following issue/issues must be addressed if a successful software testing strategy is to be implemented?\ni. Use effective formal technical reviews as a filter prior to testing\nii. Develop a testing plan that emphasizes \"rapid cycle testing\"\niii. State testing objectives explicitly",
+   "options": {
+    "A": "i only",
+    "B": "ii only",
+    "C": "ii and iii only",
+    "D": "i, ii and iii"
+   },
+   "answer": "D",
+   "explanation": "All three listed items are drawn directly from the classic Pressman list of issues that must be addressed for a successful software-testing strategy: conducting formal technical reviews before testing begins filters out many defects cheaply; building a plan around rapid-cycle testing catches issues early and iteratively; and explicitly stating testing objectives ensures the test effort is measurable and goal-directed. Since none of the three statements is false or extraneous, the only option that credits all of them, D, is correct; the partial options (A, B, C) each wrongly exclude at least one genuinely necessary practice."
+  },
+  {
+   "id": "TECH1_2024-91",
+   "paper": "TECH1",
+   "unit": "6",
+   "sub": "White Box Testing",
+   "question": "To check the cyclomatic complexity, ________ is employed.",
+   "options": {
+    "A": "Black box testing",
+    "B": "White box testing",
+    "C": "Integration testing",
+    "D": "Fault-based testing"
+   },
+   "answer": "B",
+   "explanation": "Cyclomatic complexity is computed from a program's control-flow graph (edges minus nodes plus 2), which requires visibility into the internal code structure - exactly what white-box (structural/glass-box) testing examines and uses to derive basis-path test cases. Black-box testing (A) deliberately ignores internal code structure and tests only input/output behaviour, so it cannot compute a structural metric like this. Integration testing (C) is a testing level/phase, not a technique tied to control-flow metrics. Fault-based testing (D) targets specific anticipated fault types, unrelated to structural complexity measurement."
+  },
+  {
+   "id": "TECH1_2024-92",
+   "paper": "TECH1",
+   "unit": "6",
+   "sub": "Regression testing",
+   "question": "What is the primary purpose of regression testing?",
+   "options": {
+    "A": "To test the performance of the software.",
+    "B": "To test the software's compatibility with different environments.",
+    "C": "To identify security vulnerabilities in the application.",
+    "D": "To verify that new code changes do not negatively affect existing functionality."
+   },
+   "answer": "D",
+   "explanation": "Regression testing is run after any code change (bug fix, enhancement, patch) specifically to confirm that previously working functionality has not been broken by the change - re-running a suite of existing tests to catch unintended side effects. Performance testing (A) is a distinct, separate testing type focused on speed/load, not on the effect of code changes. Compatibility across environments (B) is the concern of compatibility/portability testing. Identifying security vulnerabilities (C) is the job of security testing, not regression testing. Only D matches regression testing's defining purpose."
+  },
+  {
+   "id": "TECH1_2024-93",
+   "paper": "TECH1",
+   "unit": "6",
+   "sub": "Six Sigma",
+   "question": "Which of the following is a key phase in the Six Sigma DMAIC (Define, Measure, Analyze, Improve, Control) process?",
+   "options": {
+    "A": "Design",
+    "B": "Develop",
+    "C": "Measure",
+    "D": "Deploy"
+   },
+   "answer": "C",
+   "explanation": "DMAIC is an acronym literally standing for Define, Measure, Analyze, Improve, Control - as the question itself spells out - so 'Measure' is one of its five named phases by definition. 'Design', 'Develop' and 'Deploy' are plausible-sounding generic project-management/SDLC words but are not part of the DMAIC acronym at all; they are distractors chosen because they start with letters that could superficially fit a five-letter mnemonic pattern. This is essentially a direct-recall question once the acronym given in the stem is read carefully."
+  },
+  {
+   "id": "TECH1_2024-94",
+   "paper": "TECH1",
+   "unit": "6",
+   "sub": "Software Testing Assurance: Introduction",
+   "question": "Which of the following is an essential practice in Software Quality Assurance to ensure that software meets predefined standards and requirements?",
+   "options": {
+    "A": "Code reviews",
+    "B": "Load testing",
+    "C": "Exploratory testing",
+    "D": "Mutation testing"
+   },
+   "answer": "A",
+   "explanation": "Software Quality Assurance (SQA) is fundamentally a process-oriented, preventive discipline, and code reviews (a core SQA activity, along with audits and formal technical reviews) directly check that code adheres to coding standards and requirements before defects reach later stages. Load testing (B) is a non-functional performance-testing activity, exploratory testing (C) is an ad hoc, unscripted testing style, and mutation testing (D) is a technique for evaluating test-suite adequacy by injecting artificial faults - all are testing techniques belonging to QC (quality control), not the standards-compliance-oriented SQA practice the question asks about."
+  },
+  {
+   "id": "TECH1_2024-95",
+   "paper": "TECH1",
+   "unit": "6",
+   "sub": "CMMI",
+   "question": "What is the primary objective of the Capability Maturity Model Integration (CMMI)?",
+   "options": {
+    "A": "To improve organizational processes and enhance quality through a structured maturity model.",
+    "B": "To offer guidelines for hardware development and maintenance.",
+    "C": "To provide a framework for software cost estimation.",
+    "D": "To develop project management skills for team leaders."
+   },
+   "answer": "A",
+   "explanation": "CMMI is a process-improvement framework (with maturity levels from Initial through Optimizing) whose entire purpose is to help organisations systematically improve their software/engineering processes and thereby improve product quality and predictability - exactly what option A states. It is not a hardware standard (B), it is not a cost-estimation model like COCOMO (C), and while better process maturity indirectly benefits project managers, CMMI's primary objective is organisational process improvement, not individual skill-building for team leaders (D)."
+  },
+  {
+   "id": "TECH1_2024-96",
+   "paper": "TECH1",
+   "unit": "6",
+   "sub": "Automated Testing",
+   "question": "In the context of automated testing, what is a \"test script\"?",
+   "options": {
+    "A": "A manual test case written in a scripting language.",
+    "B": "A set of predefined steps that are executed by an automation tool to verify a specific functionality.",
+    "C": "A document outlining test objectives.",
+    "D": "A code review guideline for testing."
+   },
+   "answer": "B",
+   "explanation": "In automated testing, a test script is code (often written in a tool's own language, e.g. Selenium/Java, or a record-and-playback format) that an automation tool executes without human intervention to drive the application and check its behaviour against expected results - matching option B exactly. Option A is contradictory since it calls a scripted artifact 'manual'. Option C describes a test plan or test-objectives document, a planning artifact, not an executable script. Option D describes a coding-standards checklist, unrelated to test execution."
+  },
+  {
+   "id": "TECH1_2024-97",
+   "paper": "TECH1",
+   "unit": "6",
+   "sub": "Metrics Collection, Computation and Evaluation",
+   "question": "Which of the following metrics is used to measure the reliability of software?",
+   "options": {
+    "A": "Mean Time to Repair (MTTR)",
+    "B": "Mean Time to Failure (MTTF)",
+    "C": "Code Complexity",
+    "D": "Function Point Analysis"
+   },
+   "answer": "B",
+   "explanation": "Mean Time to Failure (MTTF) measures the average time a system operates correctly before it fails, which is the direct, standard measure of software/hardware reliability. MTTR (A) measures maintainability instead - how quickly a failed system is restored, not how reliably it runs. Code Complexity (C, e.g. cyclomatic complexity) measures structural complexity of code, a proxy for maintainability/testability, not reliability. Function Point Analysis (D) is a technique for estimating software size/effort, entirely unrelated to reliability measurement."
+  },
+  {
+   "id": "TECH1_2024-98",
+   "paper": "TECH1",
+   "unit": "6",
+   "sub": "Control Structure Testing",
+   "question": "Which metric is used to measure the complexity of a software module based on its control flow graph?",
+   "options": {
+    "A": "Halstead Metrics",
+    "B": "Lines of Code (LOC)",
+    "C": "Cyclomatic Complexity",
+    "D": "Function Points"
+   },
+   "answer": "C",
+   "explanation": "Cyclomatic Complexity, developed by Thomas McCabe, is computed directly from a module's control flow graph using the formula E - N + 2 (edges minus nodes plus 2, for a single connected graph), giving the number of linearly independent paths through the code - this is precisely a control-flow-graph-based metric. Halstead Metrics (A) instead derive complexity from counts of operators and operands in the code text, not the flow graph. Lines of Code (B) is a crude size metric with no structural basis. Function Points (D) measure functional size from a user's perspective, unrelated to control flow."
+  },
+  {
+   "id": "TECH1_2024-99",
+   "paper": "TECH1",
+   "unit": "6",
+   "sub": "Testing Principles",
+   "question": "The objective of ________ is to design tests that is likely to uncover the possible bugs (if exists) within the system.",
+   "options": {
+    "A": "Fault-based testing",
+    "B": "Security testing",
+    "C": "Integration testing",
+    "D": "Use-case testing"
+   },
+   "answer": "A",
+   "explanation": "Fault-based testing is a technique whose defining goal is to deliberately design test cases targeted at revealing specific, anticipated classes of faults in the system, which most directly matches the stem's wording of designing tests 'likely to uncover possible bugs'. Security testing (B) narrows the bug-hunting scope specifically to vulnerabilities. Integration testing (C) targets interface/module-interaction defects specifically, not bugs generally. Use-case testing (D) derives tests from user scenarios rather than being aimed at bug discovery per se. Because the blank could plausibly be filled by a more generic term like 'debugging' or 'testing' itself that isn't offered, confidence is marked low."
+  },
+  {
+   "id": "TECH1_2024-100",
+   "paper": "TECH1",
+   "unit": "6",
+   "sub": "Acceptance Testing",
+   "question": "Testing with respect to user needs, requirements, and business processes conducted to determine whether a system satisfies the acceptance criteria and to enable the user, customers or other authorized entity to determine whether to accept the system is formally called —",
+   "options": {
+    "A": "Functional testing",
+    "B": "White box testing",
+    "C": "Module testing",
+    "D": "Acceptance testing"
+   },
+   "answer": "D",
+   "explanation": "This is close to the textbook (ISTQB-style) definition of Acceptance Testing: formal testing conducted against user needs, requirements, and business processes to determine whether the system satisfies acceptance criteria and to let the customer/user decide whether to accept it. Functional testing (A) checks specific functions against specifications but is not tied to formal customer sign-off. White box testing (B) is a structural technique based on internal code, irrelevant to business-process acceptance. Module testing (C) is a synonym for unit testing at the smallest component level, the opposite scope of a whole-system acceptance decision."
+  },
+  {
+   "id": "TECH1_OLD-36",
+   "paper": "TECH1",
+   "unit": "6",
+   "sub": "Metrics Collection, Computation and Evaluation",
+   "question": "Measure of reliability is given by __________.\n(a) Mean Time between successes.\n(b) Mean reliable time\n(c) Mean Time between failure.\n(d) MTTR",
+   "options": {
+    "A": "Mean Time between successes.",
+    "B": "Mean reliable time",
+    "C": "Mean Time between failure.",
+    "D": "MTTR"
+   },
+   "answer": "C",
+   "explanation": "Reliability is standardly quantified using Mean Time Between Failures (MTBF), which measures the average operating time between successive failures of a system -- a higher MTBF means higher reliability. 'Mean Time between successes' and 'Mean reliable time' are not established, standard metrics. MTTR (Mean Time To Repair) is a maintainability/availability metric measuring how quickly a system is restored after failure, not a direct reliability measure. Since the question asks specifically for the reliability metric, (c) MTBF is correct."
+  },
+  {
+   "id": "TECH1_OLD-86",
+   "paper": "TECH1",
+   "unit": "6",
+   "sub": "Six Sigma",
+   "question": "Six Sigma methodology defines three core steps.",
+   "options": {
+    "A": "analyze, improve, control",
+    "B": "analyze, design, verify",
+    "C": "define, measure, analyze",
+    "D": "define, measure, control"
+   },
+   "answer": "C",
+   "explanation": "In several software testing textbooks, Six Sigma's initial diagnostic phase is summarized as three core steps -- Define (the problem/goal), Measure (current performance data), and Analyze (root causes) -- before the later improvement phases are added. The full standard DMAIC cycle actually has five phases (Define, Measure, Analyze, Improve, Control), but among the four given options only 'define, measure, analyze' forms a coherent, sequential subset matching how the method is introduced; the other options mix phases out of their logical order or omit Define entirely."
+  },
+  {
+   "id": "TECH1_OLD-87",
+   "paper": "TECH1",
+   "unit": "6",
+   "sub": "Software Testing Fundamentals",
+   "question": "What is the main purpose of integration testing?",
+   "options": {
+    "A": "Design errors",
+    "B": "Interface errors",
+    "C": "Procedure errors",
+    "D": "None of the above"
+   },
+   "answer": "B",
+   "explanation": "Integration testing focuses on verifying that independently developed and unit-tested modules work correctly when combined, specifically targeting errors at the interfaces between them -- mismatched parameters, incorrect data formats, wrong call sequences, and faulty assumptions about shared data. Design errors (A) are typically caught earlier through design reviews or later through system testing against the design spec, and 'procedure errors' (C) is not a standard testing category; integration testing's defining, distinguishing purpose is interface-level defect detection between modules."
+  },
+  {
+   "id": "TECH1_OLD-88",
+   "paper": "TECH1",
+   "unit": "6",
+   "sub": "Control Structure Testing",
+   "question": "What is Cyclomatic complexity?",
+   "options": {
+    "A": "Black box testing",
+    "B": "White box testing",
+    "C": "Yellow box testing",
+    "D": "Green box testing"
+   },
+   "answer": "B",
+   "explanation": "Cyclomatic complexity is a white-box (structural) testing metric introduced by Thomas McCabe that counts the number of linearly independent paths through a program's control flow graph, computed as E - N + 2 (edges minus nodes plus 2), used to decide the minimum number of test cases needed for path coverage. It has nothing to do with black-box testing, which examines behavior without looking at internal code structure; 'yellow box' and 'green box' testing are not real, recognized testing categories and are distractors."
+  },
+  {
+   "id": "TECH1_OLD-89",
+   "paper": "TECH1",
+   "unit": "6",
+   "sub": "Additional requirements in testing OO Systems",
+   "question": "The object of __________ within an OO system is to design tests that have a high likelihood of uncovering plausible bugs.",
+   "options": {
+    "A": "Fault-based testing",
+    "B": "Integration testing",
+    "C": "Use-based testing",
+    "D": "Scenario-based testing"
+   },
+   "answer": "A",
+   "explanation": "Fault-based testing, in the context of object-oriented systems, is specifically defined as designing test cases targeted at plausible faults (e.g. incorrect operator use, wrong message calls, unexpected class interactions) that are likely to actually occur, rather than exhaustively testing every path. Integration testing (B) is about combining and testing modules together, use-based testing (C) tests classes based on how much other classes depend on them, and scenario-based testing (D) exercises realistic usage scenarios -- none of these are defined specifically around targeting 'plausible bugs' the way fault-based testing is."
+  },
+  {
+   "id": "TECH1_OLD-90",
+   "paper": "TECH1",
+   "unit": "6",
+   "sub": "Regression testing",
+   "question": "__________ regression testing is triggered by changes of the source code, whereas __________ regression testing is triggered by specification changes.",
+   "options": {
+    "A": "progressive, Corrective",
+    "B": "Corrective, progressive",
+    "C": "incremental, unincremental",
+    "D": "None of above"
+   },
+   "answer": "B",
+   "explanation": "Corrective regression testing is used when a defect fix changes only the source code while the specification stays the same, so existing test cases can be reused as-is. Progressive regression testing is used when the specification itself changes (new or modified requirements), requiring new test cases to be designed alongside the code changes. So the blanks read: Corrective (source-code-only change) ... progressive (specification-driven change), matching option (B). Option (A) reverses the pairing, and 'incremental/unincremental' (C) are not standard regression-testing terms."
+  },
+  {
+   "id": "TECH1_OLD-91",
+   "paper": "TECH1",
+   "unit": "6",
+   "sub": "CMMI",
+   "question": "Which of the following is not the objective of CMMI?",
+   "options": {
+    "A": "Produce quality product or services by process improvement",
+    "B": "Increase customer satisfaction and Expanding market presence",
+    "C": "Achieve excellence and create value for stakeholders",
+    "D": "Removing the bugs in product thereby direct product improvement"
+   },
+   "answer": "D",
+   "explanation": "CMMI (Capability Maturity Model Integration) is a process-improvement framework: it improves product/service quality indirectly, by maturing and standardizing the organization's development and management processes -- not by directly hunting and removing bugs in a specific product. Options (A), (B) and (C) are all legitimate, commonly stated CMMI goals (better quality via process maturity, customer satisfaction, stakeholder value). Direct bug removal is the job of testing and debugging activities, not CMMI itself, which is why (D) is the one that is NOT a CMMI objective."
+  },
+  {
+   "id": "TECH1_OLD-92",
+   "paper": "TECH1",
+   "unit": "6",
+   "sub": "Unit Testing and Unit Test Considerations",
+   "question": "Choose the correct option according to the given statements.\nStatement 1: Unit Testing focuses verification effort on the smallest unit of Software Design.\nStatement 2: In general Unit Testing is done by Software Developer.\nStatement 3: Unit Testing comes under White Box Testing.\nStatement 4: Unit Testing comes under Black Box Testing.",
+   "options": {
+    "A": "Statement 1, 2, 3 are correct",
+    "B": "Only statement 1 and 2 are correct",
+    "C": "Only statement 3 is correct",
+    "D": "Only statement 4 is correct"
+   },
+   "answer": "A",
+   "explanation": "Unit testing does target the smallest testable unit (a function/module) as per Statement 1, is typically performed by the developer who wrote the code as per Statement 2, and relies on knowledge of internal code structure (white-box testing) as per Statement 3 -- all three are true. Statement 4 is false and contradicts Statement 3: unit testing is a white-box technique, not black-box, because the developer examines and tests the internal logic/paths of the unit directly, not just its external inputs/outputs."
+  },
+  {
+   "id": "TECH1_OLD-93",
+   "paper": "TECH1",
+   "unit": "6",
+   "sub": "Regression testing",
+   "question": "If a problem occurs in a software system 6 months after it completely goes live, what will be the approach for fixing that problem on very urgent basis?",
+   "options": {
+    "A": "Do not involve testers",
+    "B": "Just go for retest",
+    "C": "Always go for full regression test",
+    "D": "Go for retest and then use risk assessment to decide reasonable subset of regression test suite that will be executed."
+   },
+   "answer": "D",
+   "explanation": "In a live, urgent-fix scenario, best practice is to retest the specific fix and then apply risk-based analysis to select only the regression test cases most likely to be affected, balancing thoroughness against time pressure -- a full regression suite (C) is usually too slow for an urgent fix, while skipping regression testing altogether (B, without risk assessment) risks missing broken related functionality. Excluding testers (A) removes essential quality oversight precisely when risk is highest, so (D) is the professionally correct, pragmatic approach."
+  },
+  {
+   "id": "TECH1_OLD-94",
+   "paper": "TECH1",
+   "unit": "6",
+   "sub": "Black Box Testing",
+   "question": "Which of the following is a black box testing strategy?",
+   "options": {
+    "A": "All Statements Coverage",
+    "B": "Control Structure Coverage",
+    "C": "Cause-Effect Graphs",
+    "D": "All Paths Coverage"
+   },
+   "answer": "C",
+   "explanation": "Cause-effect graphing is a black-box technique that models combinations of input conditions (causes) and their resulting output actions (effects) as a logic graph, from which test cases are derived purely from the specification, without looking at code. All Statements Coverage, Control Structure Coverage, and All Paths Coverage are all white-box (structural) criteria that require knowledge of the program's internal code and control-flow graph to measure, making them the opposite of black-box testing."
+  },
+  {
+   "id": "TECH1_OLD-95",
+   "paper": "TECH1",
+   "unit": "6",
+   "sub": "Software Testing Strategies: Organizing for software testing",
+   "question": "Which of the following issues must be addressed if a successful software testing strategy is to be implemented?",
+   "options": {
+    "A": "Use effective formal technical reviews as a filter prior to testing",
+    "B": "Develop a testing plan that emphasizes \"rapid cycle testing.\"",
+    "C": "State testing objectives explicitly",
+    "D": "All of the mentioned"
+   },
+   "answer": "D",
+   "explanation": "Pressman's software engineering guidelines for a successful testing strategy list multiple complementary practices: conducting formal technical reviews before testing begins (catching cheap-to-fix defects early), planning for rapid, incremental test cycles, and explicitly stating measurable testing objectives up front so success/failure can be judged. None of these three practices is sufficient alone; they are meant to be combined, which is why the comprehensive option 'All of the mentioned' is correct rather than any single one of (A), (B), or (C) in isolation."
+  },
+  {
+   "id": "TECH1_OLD-96",
+   "paper": "TECH1",
+   "unit": "6",
+   "sub": "Metrics Collection, Computation and Evaluation",
+   "question": "Which things are measured by Software Test Effectiveness?",
+   "options": {
+    "A": "How many customer requirements are implemented in system?",
+    "B": "How well the customer specifications are achieved by the system?",
+    "C": "How much effort is put in developing the system?",
+    "D": "All of the above"
+   },
+   "answer": "B",
+   "explanation": "Test effectiveness measures how well the testing process confirms that the delivered system actually meets/achieves the customer's specified requirements and behaves correctly against them -- essentially, how good the tests are at validating conformance to spec. Option (A) measures requirements coverage/traceability rather than test quality itself, and (C) measures development effort, which is a project-management metric with no direct bearing on how effective the testing was; since (C) is clearly unrelated, 'All of the above' (D) cannot be correct, leaving (B) as the best match."
+  },
+  {
+   "id": "TECH1_OLD-97",
+   "paper": "TECH1",
+   "unit": "6",
+   "sub": "Software Testing Techniques: Introduction",
+   "question": "Which of the following is non-functional testing?",
+   "options": {
+    "A": "Black box testing",
+    "B": "Performance testing",
+    "C": "Unit testing",
+    "D": "None of the mentioned"
+   },
+   "answer": "B",
+   "explanation": "Performance testing evaluates non-functional quality attributes -- speed, responsiveness, throughput, scalability under load -- rather than whether specific features produce correct outputs, making it the classic example of non-functional testing. Black box testing (A) is a testing approach based on inputs/outputs without seeing code, which can be used for either functional or non-functional checks, and unit testing (C) is a functional, white-box-oriented technique aimed at verifying a unit's logical correctness, not its performance characteristics."
+  },
+  {
+   "id": "TECH1_OLD-98",
+   "paper": "TECH1",
+   "unit": "6",
+   "sub": "Software Testing Fundamentals",
+   "question": "Which of the following term describes testing?",
+   "options": {
+    "A": "Finding broken code",
+    "B": "Evaluating deliverable to find errors",
+    "C": "A stage of all projects",
+    "D": "None of the mentioned"
+   },
+   "answer": "B",
+   "explanation": "The widely used (IEEE-style) definition of software testing is the process of evaluating a system or its components/deliverables to find whether they satisfy specified requirements and to identify defects -- i.e. 'evaluating a deliverable to find errors', which is broader and more accurate than just 'finding broken code' (A), since testing also validates correct behavior and requirement conformance, not only failures. 'A stage of all projects' (C) is too vague and does not define what testing actually does, so it is not a definition at all."
+  },
+  {
+   "id": "TECH1_OLD-99",
+   "paper": "TECH1",
+   "unit": "6",
+   "sub": "Additional requirements in testing OO Systems",
+   "question": "Which of the following is one of the steps in the integration testing of OO software?",
+   "options": {
+    "A": "cluster testing",
+    "B": "thread-based testing",
+    "C": "use-based testing",
+    "D": "none of the mentioned"
+   },
+   "answer": "B",
+   "explanation": "In object-oriented integration testing (per Pressman), thread-based testing is typically introduced first: it integrates the set of classes required to respond to one input or event (a 'thread' of execution) and tests them together, class by class. Use-based testing and cluster testing are also legitimate OO integration strategies covered in the same syllabus topic, which makes this a weak, ambiguous MCQ since more than one option is technically a valid step; thread-based testing is marked here as the primary/first strategy typically listed, but low confidence reflects that (A) and (C) cannot be firmly ruled out as the paper's intended key."
+  },
+  {
+   "id": "TECH1_OLD-100",
+   "paper": "TECH1",
+   "unit": "6",
+   "sub": "Automated Testing",
+   "question": "Which software testing tool does a simple job of enforcing standards in a uniform way of many programs?",
+   "options": {
+    "A": "Static Analyzer only",
+    "B": "Code Inspector only",
+    "C": "Standard Enforcer only",
+    "D": "Both Code Inspector & Standard Enforcer"
+   },
+   "answer": "A",
+   "explanation": "A static analyzer mechanically parses source code without executing it and checks it against coding-standard rules (naming, formatting, forbidden constructs, complexity thresholds) consistently across an entire codebase or many programs, which matches 'a simple job of enforcing standards in a uniform way.' A code inspector (B) implies human-led manual review, which is not simple/mechanical or perfectly uniform across reviewers, and 'Standard Enforcer' (C) is not an established, separately defined tool category in standard software-testing-tool taxonomies, making this option and its pairing in (D) less likely to be the intended answer."
+  }
+ ]
+}

@@ -1,0 +1,98 @@
+[
+ {
+  "id": "TECH2_2024-26",
+  "mode": "memorise",
+  "confidence": "high",
+  "why": "A named platform; nothing about procurement reform yields the name GeM."
+ },
+ {
+  "id": "TECH2_2024-27",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "That an RFP is a solicitation document follows from the term itself."
+ },
+ {
+  "id": "TECH2_2024-28",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "The three-envelope sequence is a procurement convention; the screening logic only partly derives it."
+ },
+ {
+  "id": "TECH2_2024-29",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Follows from the split between technical and commercial bid content."
+ },
+ {
+  "id": "TECH2_2024-33",
+  "mode": "memorise",
+  "confidence": "low",
+  "why": "Asks for a platform name, and the printed options are near-synonyms so the intended answer is genuinely unclear."
+ },
+ {
+  "id": "TECH2_2021-29",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "The procurement mode names describe themselves, so the match to 'price is the only factor' is reasoned."
+ },
+ {
+  "id": "TECH2_2021-30",
+  "mode": "memorise",
+  "confidence": "high",
+  "why": "A scheme name and its expansion, with no derivation path."
+ },
+ {
+  "id": "GEN-TECH2-U5-155",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Follows from what advance disclosure does for bidders and for defensibility of the award."
+ },
+ {
+  "id": "GEN-TECH2-U5-156",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Whole-life quality-and-cost reasoning, not a remembered rule."
+ },
+ {
+  "id": "GEN-TECH2-U5-157",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The objective defeated follows from what a single-product specification does to the bidder pool."
+ },
+ {
+  "id": "GEN-TECH2-U5-158",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Reasoning about technology obsolescence over a multi-year contract."
+ },
+ {
+  "id": "GEN-TECH2-U5-159",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "The method's own name carries the derivation, though telling it from least-cost selection is a learned convention."
+ },
+ {
+  "id": "GEN-TECH2-U5-160",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "What a named platform is scoped to cover; the name helps but the boundary is a scheme fact."
+ },
+ {
+  "id": "GEN-TECH2-U5-161",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The recovery mechanism follows from what a transaction fee is."
+ },
+ {
+  "id": "GEN-TECH2-U5-162",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Follows from converting capital expenditure into usage-linked revenue outgo."
+ },
+ {
+  "id": "GEN-TECH2-U5-163",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Demand risk follows from revenue depending entirely on volumes."
+ }
+]

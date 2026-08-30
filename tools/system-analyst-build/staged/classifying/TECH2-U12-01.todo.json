@@ -1,0 +1,306 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 20,
+ "questions": [
+  {
+   "id": "TECH2_2024-68",
+   "paper": "TECH2",
+   "unit": "12",
+   "sub": "Understanding custom development vs COTS models",
+   "question": "What is the predominant software development approach used for e-Governance applications?",
+   "options": {
+    "A": "Off-the-shelf COTS/ERP applications",
+    "B": "Outsourcing development to third parties",
+    "C": "Predominantly custom software development",
+    "D": "Open-source software only"
+   },
+   "answer": "C",
+   "explanation": "Government processes, legal requirements and department-specific workflows are usually unique enough that generic commercial packages cannot be used unmodified, so most e-Governance applications end up being built as custom software (even when a vendor is contracted to build it, the product itself is bespoke, not COTS). Pure COTS/ERP or 'open-source only' approaches are the exception rather than the rule, and 'outsourcing' describes who builds it, not what kind of software approach is used."
+  },
+  {
+   "id": "TECH2_2024-69",
+   "paper": "TECH2",
+   "unit": "12",
+   "sub": "Investment needed in e-Governance applications",
+   "question": "Which factor primarily influences the cost of COTS/ERP applications for e-Governance?",
+   "options": {
+    "A": "The functionality of the custom code",
+    "B": "The vendor, the product, and the number of users",
+    "C": "The local regulations and policies",
+    "D": "The quality of in-house development teams"
+   },
+   "answer": "B",
+   "explanation": "COTS/ERP pricing is driven by commercial licensing terms — which vendor and product line is chosen, and how many named users/seats or transactions are licensed — since these packages are sold, not custom-built. 'Custom code' and 'in-house development quality' are irrelevant to a pre-built commercial product, and local regulations may shape requirements but do not directly set the licence price, making B the clearly correct driver of cost."
+  },
+  {
+   "id": "TECH2_2024-70",
+   "paper": "TECH2",
+   "unit": "12",
+   "sub": "Understanding source code ownership and IPR",
+   "question": "What does the Copyright Act state about the ownership of source code?",
+   "options": {
+    "A": "The government automatically owns the source code",
+    "B": "The source code ownership automatically rests with the developer or private partner",
+    "C": "The source code is owned jointly by the government and the vendor",
+    "D": "The government must purchase the source code separately"
+   },
+   "answer": "B",
+   "explanation": "Under the Copyright Act, 1957, copyright in a created work (including software/source code) vests by default in its author/creator unless a contract expressly assigns it elsewhere — so absent a specific IPR clause transferring rights to the government, ownership defaults to the developer or the private partner who wrote the code. This is precisely why e-Governance contracts must explicitly negotiate source-code ownership and IPR clauses rather than assume the government automatically gets it (A) or that ownership is shared (C) or separately purchased (D) without such a clause."
+  },
+  {
+   "id": "TECH2_2024-75",
+   "paper": "TECH2",
+   "unit": "12",
+   "sub": "Understanding custom development vs COTS models",
+   "question": "Software which is modified and tailor made from existing reusable platforms and functions and is for specific application is called —",
+   "options": {
+    "A": "MOTS",
+    "B": "COTS",
+    "C": "GOTS",
+    "D": "NOTS"
+   },
+   "answer": "A",
+   "explanation": "MOTS stands for 'Modified Off-The-Shelf' software — a commercial base product that is customised/tailored to fit a specific application, exactly matching the question's wording. COTS ('Commercial Off-The-Shelf') is used as-is without modification, GOTS ('Government Off-The-Shelf') is software owned/developed by a government body, and NOTS is not a standard industry term — making MOTS the only option that captures both 'reusable base platform' and 'modified/tailor-made for a specific application'."
+  },
+  {
+   "id": "TECH2_2021-54",
+   "paper": "TECH2",
+   "unit": "12",
+   "sub": "Key characteristics of e-Governance application development projects",
+   "question": "Name the government service, which helps patients in booking online appointments in government hospitals?",
+   "options": {
+    "A": "Hospital Management System (HMS)",
+    "B": "Health Monitoring System (HMS)",
+    "C": "Self Service System (SSS)",
+    "D": "Online Registration System (ORS)"
+   },
+   "answer": "D",
+   "explanation": "The Online Registration System (ORS) is the national portal that lets patients book OPD appointments in participating government hospitals, linked to Aadhaar. A hospital management system is internal administrative software, not a citizen-facing appointment service."
+  },
+  {
+   "id": "TECH2_2021-68",
+   "paper": "TECH2",
+   "unit": "12",
+   "sub": "Understanding custom development vs COTS models",
+   "question": "It is a ready-made application software , available for sale, lease or license to end users.",
+   "options": {
+    "A": "COTS",
+    "B": "CDSW",
+    "C": "MOOC",
+    "D": "BOOT"
+   },
+   "answer": "A",
+   "explanation": "COTS stands for Commercial Off-The-Shelf software - ready-made packaged products sold, leased or licensed to end users instead of being custom built. MOOC is an online course format and BOOT is a Build-Own-Operate-Transfer project delivery model."
+  },
+  {
+   "id": "TECH2_2021-69",
+   "paper": "TECH2",
+   "unit": "12",
+   "sub": "Understanding source code ownership and IPR",
+   "question": "It is the term for individual modules, class layers, images, and pieces of computer programming that are compiled together to make up your software system.",
+   "options": {
+    "A": "Source code",
+    "B": "Code",
+    "C": "Development code",
+    "D": "Proprietary code"
+   },
+   "answer": "A",
+   "explanation": "The wording is the standard definition of source code used in software escrow and procurement documents - the modules, class layers, images and program pieces that are compiled together into the delivered system. 'Code' alone is too generic and 'proprietary code' describes ownership rather than composition."
+  },
+  {
+   "id": "TECH2_2021-70",
+   "paper": "TECH2",
+   "unit": "12",
+   "sub": "Understanding source code ownership and IPR",
+   "question": "Which of the following does not belong to common IPRs?",
+   "options": {
+    "A": "patents",
+    "B": "copyrights",
+    "C": "trade secrets",
+    "D": "idea"
+   },
+   "answer": "D",
+   "explanation": "Intellectual property protects expressions and inventions - patents, copyrights, trademarks, trade secrets and designs - but a bare idea is not protectable until it is reduced to a concrete expression or invention. That distinction between idea and expression is the point being tested."
+  },
+  {
+   "id": "GEN-TECH2-U12-045",
+   "paper": "TECH2",
+   "unit": "12",
+   "sub": "Understanding licensing models for application and system software",
+   "question": "What distinguishes a perpetual software licence from a subscription licence?",
+   "options": {
+    "A": "A perpetual licence gives the right to keep using a specified version indefinitely, with support and upgrades usually bought separately as annual maintenance",
+    "B": "A perpetual licence transfers ownership of the software's copyright to the purchasing department",
+    "C": "A perpetual licence allows the department to redistribute the software to other departments at no cost",
+    "D": "A perpetual licence includes all future major versions for the life of the product at no additional charge"
+   },
+   "answer": "A",
+   "explanation": "A perpetual licence buys an indefinite right to use the version purchased; continued support, patches and version upgrades are normally a separate recurring maintenance charge, whereas a subscription bundles use and support but lapses when payment stops. It never transfers copyright — the vendor remains the owner and the department is only a licensee."
+  },
+  {
+   "id": "GEN-TECH2-U12-046",
+   "paper": "TECH2",
+   "unit": "12",
+   "sub": "Understanding licensing models for application and system software",
+   "question": "A database product deployed in a State Data Centre is licensed on a per-core basis. What drives the licence cost under this model?",
+   "options": {
+    "A": "The number of citizens registered on the application",
+    "B": "The number of processor cores on the servers the software is installed and running on, irrespective of how many people use it",
+    "C": "The number of users simultaneously logged in to the application",
+    "D": "The number of transactions the application processes in a year"
+   },
+   "answer": "B",
+   "explanation": "Per-core (or per-processor) licensing prices the compute capacity made available to the software, so adding cores or moving to a larger server raises cost even if the user population is unchanged. Counting simultaneous logins is concurrent-user licensing, a different metric altogether."
+  },
+  {
+   "id": "GEN-TECH2-U12-047",
+   "paper": "TECH2",
+   "unit": "12",
+   "sub": "Understanding licensing models for application and system software",
+   "question": "A directorate has 600 employees holding accounts on an application, but never more than about 150 are logged in at the same time. Which licensing metric would be billed on the 150 rather than the 600?",
+   "options": {
+    "A": "Named-user (per-seat) licensing",
+    "B": "Per-core licensing",
+    "C": "Concurrent-user (floating) licensing",
+    "D": "Perpetual site licence"
+   },
+   "answer": "C",
+   "explanation": "Concurrent-user or floating licensing counts the maximum number of sessions active at one time, so a shift-working or occasional-use office pays for peak simultaneous demand rather than headcount. Named-user licensing does the opposite — every person who has an account consumes a licence whether or not they log in."
+  },
+  {
+   "id": "GEN-TECH2-U12-048",
+   "paper": "TECH2",
+   "unit": "12",
+   "sub": "Revenue generation options in e-Governance applications",
+   "question": "In the Common Service Centre model of rural service delivery, how is the Village Level Entrepreneur principally remunerated for delivering a government e-service?",
+   "options": {
+    "A": "A monthly salary paid by the State IT department",
+    "B": "A share of the taxes collected from the village",
+    "C": "An annual capital grant paid individually to each entrepreneur",
+    "D": "A service charge per transaction for each service delivered, at rates notified by government"
+   },
+   "answer": "D",
+   "explanation": "The centre operator is an entrepreneur, not an employee: income comes from a per-transaction service charge on each service rendered, with the permissible charge for government services fixed by the department so citizens are not overcharged. No salary relationship exists, which is precisely why service volume and service mix determine centre viability."
+  },
+  {
+   "id": "GEN-TECH2-U12-049",
+   "paper": "TECH2",
+   "unit": "12",
+   "sub": "Revenue generation options in e-Governance applications",
+   "question": "A state land-records portal lets a citizen view a single record free of charge, but charges banks and law firms for bulk record access through a paid interface. This revenue design is best described as:",
+   "options": {
+    "A": "Cross-subsidy through differential pricing of the same underlying information service",
+    "B": "A build-own-operate-transfer concession",
+    "C": "Recovery of liquidated damages from data users",
+    "D": "Viability gap funding provided by commercial users"
+   },
+   "answer": "A",
+   "explanation": "The same data asset is priced differently by class of user — free for the citizen entitlement, priced for high-volume commercial exploitation — so commercial users effectively subsidise citizen access. It is not a concession arrangement, since the government continues to own and operate the portal itself."
+  },
+  {
+   "id": "GEN-TECH2-U12-050",
+   "paper": "TECH2",
+   "unit": "12",
+   "sub": "Revenue generation options in e-Governance applications",
+   "question": "When an online government service levies a 'convenience fee' on top of the statutory fee for the service, what is that fee intended to cover?",
+   "options": {
+    "A": "The department's profit margin on the service",
+    "B": "The cost of operating the electronic delivery channel — payment gateway charges, portal operation and maintenance",
+    "C": "A replacement for the statutory fee, which is waived for online applicants",
+    "D": "The capital cost of building the State Data Centre"
+   },
+   "answer": "B",
+   "explanation": "The statutory fee is prescribed by law for the service itself and cannot be altered by the delivery channel; the convenience fee is a separate, channel-specific charge that funds the recurring cost of running the electronic route, including gateway and aggregator charges. It supplements rather than replaces the statutory fee."
+  },
+  {
+   "id": "GEN-TECH2-U12-051",
+   "paper": "TECH2",
+   "unit": "12",
+   "sub": "Strategic considerations in an e-Governance application",
+   "question": "Why is business process re-engineering treated as a strategic prerequisite rather than an optional refinement when an existing manual government service is computerised?",
+   "options": {
+    "A": "Because software cannot be procured until the existing process has been abolished entirely",
+    "B": "Because re-engineering is the only way to reduce the licence cost of the application software",
+    "C": "Because automating an unreformed process merely makes the existing delays and redundant approvals faster to reproduce, without improving the service to the citizen",
+    "D": "Because departmental rules forbid running a manual and an electronic process at the same time"
+   },
+   "answer": "C",
+   "explanation": "Encoding an unexamined workflow into software freezes its redundant approval hops and hand-offs into the system, so the citizen's turnaround time barely improves while the process becomes harder to change. Re-engineering first — removing steps, merging forms, cutting documents demanded — is what converts computerisation into a service improvement."
+  },
+  {
+   "id": "GEN-TECH2-U12-052",
+   "paper": "TECH2",
+   "unit": "12",
+   "sub": "Strategic considerations in an e-Governance application",
+   "question": "A state mandates common data-exchange and metadata standards across all departmental e-governance applications. What is the principal strategic gain?",
+   "options": {
+    "A": "It reduces the storage requirement of each department's database",
+    "B": "It removes the need for departments to run separate application software",
+    "C": "It guarantees that all departments will use the same vendor",
+    "D": "Applications built by different vendors at different times can exchange data without bespoke point-to-point integration for every new pair of systems"
+   },
+   "answer": "D",
+   "explanation": "Without shared standards, connecting n systems tends toward a custom interface for every pair, and each new application multiplies integration cost and creates dependence on whoever built the earlier one. Standards are about interoperability across independently procured systems, not about consolidating departments onto one product or one vendor."
+  },
+  {
+   "id": "GEN-TECH2-U12-053",
+   "paper": "TECH2",
+   "unit": "12",
+   "sub": "Strategic considerations in an e-Governance application",
+   "question": "A department wants an electronically signed certificate issued by its portal to fully replace the signed-and-stamped paper certificate. Beyond building the software, what strategic step does this require?",
+   "options": {
+    "A": "Amending the governing rules and procedures so that the digitally signed electronic output is itself recognised as the valid instrument for the service",
+    "B": "Obtaining a higher bandwidth link to the State Data Centre",
+    "C": "Migrating the department's database to open source software",
+    "D": "Appointing a system integrator with prior experience of the same service in another state"
+   },
+   "answer": "A",
+   "explanation": "If departmental rules still require a physically signed certificate, verifying offices will keep demanding paper and the electronic output remains a convenience copy, leaving the citizen with the same visits as before. Legal and procedural backing for the electronic instrument is what makes an end-to-end online service actually end-to-end; bandwidth and vendor choice do nothing for this."
+  },
+  {
+   "id": "GEN-TECH2-U12-054",
+   "paper": "TECH2",
+   "unit": "12",
+   "sub": "Business model for e-Governance applications",
+   "question": "Under a Build-Own-Operate-Transfer arrangement for a state e-governance service, what is the position during the concession period?",
+   "options": {
+    "A": "The government owns the assets from day one and pays the private partner a monthly rent for operating them",
+    "B": "The private partner finances, owns and operates the assets and recovers its investment over the concession period, transferring the assets to government at the end of the term",
+    "C": "The private partner operates assets that the government has purchased, and never takes ownership at any stage",
+    "D": "Ownership is shared equally between the government and the private partner throughout the contract"
+   },
+   "answer": "B",
+   "explanation": "The defining feature of BOOT is that the private partner puts up the capital and holds ownership while it earns back its investment from revenues over the concession, with a defined transfer of assets to government at expiry. Where the government owns the assets from the start and only outsources running them, the arrangement is an operate-and-maintain or managed-services contract, not BOOT."
+  },
+  {
+   "id": "GEN-TECH2-U12-055",
+   "paper": "TECH2",
+   "unit": "12",
+   "sub": "Business model for e-Governance applications",
+   "question": "In a public-private partnership e-governance project, projected user charges are not enough to make the project commercially viable for a bidder. The capital grant government provides to bridge that shortfall is known as:",
+   "options": {
+    "A": "Liquidated damages",
+    "B": "Earnest money deposit",
+    "C": "Viability gap funding",
+    "D": "Performance bank guarantee"
+   },
+   "answer": "C",
+   "explanation": "Viability gap funding is the capital support extended so that a project with public value but inadequate commercial returns can still attract private investment. The other three are contractual security and remedy instruments — bid security, performance security and compensation for default — none of which improve a project's underlying financial viability."
+  },
+  {
+   "id": "GEN-TECH2-U12-056",
+   "paper": "TECH2",
+   "unit": "12",
+   "sub": "Business model for e-Governance applications",
+   "question": "Which payment model pays the vendor for each successfully delivered service rather than for the hardware, licences and manpower it has deployed?",
+   "options": {
+    "A": "A time-and-materials engagement",
+    "B": "A cost-plus-fixed-fee contract",
+    "C": "An annual maintenance contract with a fixed monthly charge",
+    "D": "A transaction-based payment model"
+   },
+   "answer": "D",
+   "explanation": "Paying per successful transaction moves utilisation and availability risk to the vendor: idle capacity and downtime directly reduce its earnings, so its incentives align with keeping the service usable. Time-and-materials and cost-plus models pay for effort and inputs regardless of how many citizens were actually served."
+  }
+ ]
+}

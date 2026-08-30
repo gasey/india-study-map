@@ -1,0 +1,306 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 20,
+ "questions": [
+  {
+   "id": "GEN-11",
+   "paper": "GE",
+   "unit": "2",
+   "sub": "The one-third rule for length",
+   "question": "As a general rule of thumb in precis writing, the precis of a passage should be reduced to approximately what fraction of the original passage's length?",
+   "options": {
+    "A": "One-half",
+    "B": "One-third",
+    "C": "Two-thirds",
+    "D": "One-tenth"
+   },
+   "answer": "B",
+   "explanation": "The conventional precis-writing rule is that the summary should be about one-third of the original passage's word count, which is why it is commonly called the 'one-third rule.'"
+  },
+  {
+   "id": "GEN-12",
+   "paper": "GE",
+   "unit": "2",
+   "sub": "What a precis is and is not",
+   "question": "A precis is best defined as:",
+   "options": {
+    "A": "A word-for-word copy of the most important sentences in a passage",
+    "B": "A clear, coherent and condensed restatement of the substance of a passage in one's own words",
+    "C": "A personal opinion piece written in response to a passage",
+    "D": "An expanded version of the passage with additional examples"
+   },
+   "answer": "B",
+   "explanation": "By definition, a precis is a concise summary that captures the essential substance of the original in the writer's own words and coherent style; it is neither a verbatim extract, an opinion piece, nor an expansion."
+  },
+  {
+   "id": "GEN-13",
+   "paper": "GE",
+   "unit": "2",
+   "sub": "Finding the controlling idea",
+   "question": "In precis writing, the \"controlling idea\" of a passage refers to:",
+   "options": {
+    "A": "The first sentence of the passage regardless of content",
+    "B": "The central theme or main point around which all other details in the passage revolve",
+    "C": "A minor illustrative detail mentioned only once",
+    "D": "The concluding punctuation mark of the passage"
+   },
+   "answer": "B",
+   "explanation": "The controlling idea is the central, unifying theme that governs the passage's content; identifying it correctly is essential because the precis must be built around this idea, not around isolated details."
+  },
+  {
+   "id": "GEN-14",
+   "paper": "GE",
+   "unit": "2",
+   "sub": "Eliminating illustration, repetition and rhetoric",
+   "question": "While writing a precis, a candidate encounters a passage that repeats the same point three times using different examples and rhetorical flourishes for emphasis. The correct approach in the precis is to:",
+   "options": {
+    "A": "Reproduce all three examples to show thoroughness",
+    "B": "State the point once in condensed form and omit the repeated illustrations and rhetorical flourishes",
+    "C": "Omit the point entirely since it was repeated",
+    "D": "Quote the most rhetorically striking example verbatim"
+   },
+   "answer": "B",
+   "explanation": "Precis writing requires stripping away repetition, illustration and rhetorical embellishment, retaining only the essential point stated once in condensed, plain language -- this is a core rule of the technique."
+  },
+  {
+   "id": "GEN-15",
+   "paper": "GE",
+   "unit": "2",
+   "sub": "Supplying an apt title",
+   "question": "When asked to supply a title for a precis, the most appropriate title is one that:",
+   "options": {
+    "A": "Is as long and descriptive as possible, summarising every sub-point",
+    "B": "Is short, precise, and captures the central theme of the passage",
+    "C": "Is copied directly from the passage's first sentence",
+    "D": "Is deliberately vague so it could apply to any passage"
+   },
+   "answer": "B",
+   "explanation": "A good precis title should be brief yet accurately reflect the passage's central theme; it should neither be an overlong description nor so vague as to be meaningless, and need not be lifted from the passage."
+  },
+  {
+   "id": "GEN-16",
+   "paper": "GE",
+   "unit": "2",
+   "sub": "Reported speech and third-person conversion",
+   "question": "If the original passage for precis writing is written in the first person (\"I believe...\", \"We argue...\"), the standard convention for the precis is to:",
+   "options": {
+    "A": "Retain the first person exactly as in the original",
+    "B": "Convert it into the third person and indirect/reported form",
+    "C": "Switch to the second person throughout",
+    "D": "Use a mix of first and second person randomly"
+   },
+   "answer": "B",
+   "explanation": "Standard precis-writing convention requires converting first-person or direct statements into third-person, reported (indirect) form, presenting the passage's substance objectively rather than retaining the original speaker's voice."
+  },
+  {
+   "id": "GEN-17",
+   "paper": "GE",
+   "unit": "2",
+   "sub": "Word-count discipline and counting method",
+   "question": "A passage for precis writing is 450 words long. Following the standard one-third rule, the precis should ideally be closest to:",
+   "options": {
+    "A": "450 words",
+    "B": "150 words",
+    "C": "50 words",
+    "D": "300 words"
+   },
+   "answer": "B",
+   "explanation": "One-third of 450 words is 150 words, so the precis should be written to approximately that length; a candidate must count words rather than estimate to keep the precis within the permitted range."
+  },
+  {
+   "id": "GEN-18",
+   "paper": "GE",
+   "unit": "2",
+   "sub": "Word-count discipline and counting method",
+   "question": "In examinations, if the prescribed word limit for a precis is given as a range (for example, 100-120 words), a precis that is only 60 words long, even if accurate, will typically be marked down because:",
+   "options": {
+    "A": "Shorter answers are always preferred by examiners",
+    "B": "It falls outside the prescribed word-count discipline and likely omits necessary substance",
+    "C": "It uses too many words",
+    "D": "Word count is never actually checked"
+   },
+   "answer": "B",
+   "explanation": "Precis writing enforces strict word-count discipline; falling well below the prescribed range usually signals that essential content has been omitted, and marks are deducted for not adhering to the specified limit."
+  },
+  {
+   "id": "GEN-19",
+   "paper": "GE",
+   "unit": "2",
+   "sub": "What a precis is and is not",
+   "question": "Which of the following is NOT a characteristic that a good precis should have?",
+   "options": {
+    "A": "Coherence and logical flow between ideas",
+    "B": "Faithfulness to the original passage's meaning and proportion of emphasis",
+    "C": "Insertion of the writer's own new arguments not present in the original",
+    "D": "Conciseness within the prescribed word limit"
+   },
+   "answer": "C",
+   "explanation": "A precis must faithfully condense the original passage without adding the writer's own new arguments, opinions, or information not present in the source -- doing so is a common and penalised error, unlike coherence, faithfulness, and conciseness which are required qualities."
+  },
+  {
+   "id": "GEN-20",
+   "paper": "GE",
+   "unit": "2",
+   "sub": "Eliminating illustration, repetition and rhetoric",
+   "question": "Precis writing generally requires that the summary be written:",
+   "options": {
+    "A": "In note form using bullet points and abbreviations",
+    "B": "As a single connected paragraph in plain, simple prose",
+    "C": "In verse or poetic form for readability",
+    "D": "As a series of unrelated one-line statements"
+   },
+   "answer": "B",
+   "explanation": "A precis is conventionally written as continuous, connected prose in a single paragraph using plain and simple language, not as bullet points, notes, or disconnected statements."
+  },
+  {
+   "id": "GEN-57",
+   "paper": "GE",
+   "unit": "2",
+   "sub": "Reported speech and third-person conversion",
+   "question": "In a precis, a sentence of direct speech such as He said, \"I am very tired today\" would most correctly be rendered as:",
+   "options": {
+    "A": "He said, \"I am very tired today.\"",
+    "B": "He said that he was very tired that day",
+    "C": "He says he is very tired today",
+    "D": "I am very tired today, he said"
+   },
+   "answer": "B",
+   "explanation": "Precis convention requires converting direct speech into third-person reported form, shifting the pronoun ('I' to 'he'), the tense ('am' to 'was' after a past reporting verb), and the time word ('today' to 'that day'); only option B applies all these changes."
+  },
+  {
+   "id": "GEN-58",
+   "paper": "GE",
+   "unit": "2",
+   "sub": "Word-count discipline and counting method",
+   "question": "A passage set for precis is 240 words long. Applying the standard one-third rule, the precis should be closest to:",
+   "options": {
+    "A": "240 words",
+    "B": "80 words",
+    "C": "160 words",
+    "D": "24 words"
+   },
+   "answer": "B",
+   "explanation": "One-third of 240 is 80, so the precis should be approximately 80 words; 160 is two-thirds, 24 is one-tenth, and 240 is the original length -- none of which follows the one-third rule."
+  },
+  {
+   "id": "GEN-59",
+   "paper": "GE",
+   "unit": "2",
+   "sub": "Supplying an apt title",
+   "question": "By convention, the title of a precis is:",
+   "options": {
+    "A": "Written above the precis and normally not counted in the prescribed word limit",
+    "B": "Written at the very end and always counted in the word limit",
+    "C": "Never permitted; a precis must have no title",
+    "D": "Required to be identical to the first sentence of the passage"
+   },
+   "answer": "A",
+   "explanation": "A precis is conventionally given a short title placed above it, and this title is normally not included in the counted word limit of the precis itself; it need not repeat the first sentence and is not forbidden."
+  },
+  {
+   "id": "GEN-60",
+   "paper": "GE",
+   "unit": "2",
+   "sub": "What a precis is and is not",
+   "question": "Which of the following should a candidate do FIRST when attempting a precis?",
+   "options": {
+    "A": "Begin writing the summary immediately from the first sentence onward",
+    "B": "Read the whole passage carefully to grasp its central idea before writing anything",
+    "C": "Count the words of the passage and stop reading at one-third of the way through",
+    "D": "Copy the opening and closing sentences to use as the precis"
+   },
+   "answer": "B",
+   "explanation": "The correct first step in precis writing is to read the entire passage carefully to understand its central idea and overall meaning; only after grasping the whole can a faithful, proportionate summary be written."
+  },
+  {
+   "id": "GEN-61",
+   "paper": "GE",
+   "unit": "2",
+   "sub": "Finding the controlling idea",
+   "question": "A passage argues that regular physical exercise improves not only bodily health but also memory, mood and sleep, and it illustrates each benefit with a study. Which of the following best states the controlling idea a precis should be built around?",
+   "options": {
+    "A": "The names and dates of the individual studies cited",
+    "B": "Regular exercise brings wide-ranging benefits, both physical and mental",
+    "C": "One study found that exercise improves sleep quality",
+    "D": "Exercise is popular among young people"
+   },
+   "answer": "B",
+   "explanation": "The controlling idea is the central theme that unifies the passage -- that regular exercise yields broad physical and mental benefits; the individual studies are illustrative details, and option D is not supported by the passage."
+  },
+  {
+   "id": "GEN-62",
+   "paper": "GE",
+   "unit": "2",
+   "sub": "Reported speech and third-person conversion",
+   "question": "If a passage for precis is written in the first-person plural (\"We believe...\", \"Our view is...\"), the pronouns should typically be converted in the precis to:",
+   "options": {
+    "A": "The second person (\"you\")",
+    "B": "The third person (\"they\", \"their\")",
+    "C": "Retained unchanged as \"we\" and \"our\"",
+    "D": "Removed so that no pronouns appear at all"
+   },
+   "answer": "B",
+   "explanation": "As with first-person singular, first-person plural pronouns are converted to the third person ('they', 'their') in a precis so that the summary reports the passage's substance objectively rather than in the original speaker's voice."
+  },
+  {
+   "id": "GEN-63",
+   "paper": "GE",
+   "unit": "2",
+   "sub": "Eliminating illustration, repetition and rhetoric",
+   "question": "A passage supports its single main claim with three statistical examples and a lengthy anecdote. In the precis, these examples and the anecdote should generally be:",
+   "options": {
+    "A": "Reproduced in full to demonstrate the writer's evidence",
+    "B": "Condensed or omitted, since a precis keeps the essential point and drops illustrative detail",
+    "C": "Expanded with additional examples of the candidate's own",
+    "D": "Placed in a separate second paragraph after the precis"
+   },
+   "answer": "B",
+   "explanation": "A precis retains only the essential idea and normally drops illustrations, examples, statistics used merely to illustrate, and anecdotes; reproducing them in full, adding new ones, or appending them defeats the purpose of condensation."
+  },
+  {
+   "id": "GEN-64",
+   "paper": "GE",
+   "unit": "2",
+   "sub": "What a precis is and is not",
+   "question": "A good precis should preserve which of the following from the original passage?",
+   "options": {
+    "A": "Its exact wording and sentence order",
+    "B": "The relative emphasis and logical sequence of its main ideas",
+    "C": "Every example and figure it contains",
+    "D": "The writer's rhetorical questions and exclamations"
+   },
+   "answer": "B",
+   "explanation": "While a precis uses the writer's own words and is much shorter, it must keep the original's relative proportion of emphasis and the logical order of its main ideas so that no point is over- or under-stated; it does not preserve exact wording, all examples, or rhetorical flourishes."
+  },
+  {
+   "id": "GEN-65",
+   "paper": "GE",
+   "unit": "2",
+   "sub": "The one-third rule for length",
+   "question": "The one-third rule in precis writing is best understood as:",
+   "options": {
+    "A": "A rigid legal requirement that a precis be exactly one-third of the original to the word",
+    "B": "A general guideline that a precis should be roughly one-third of the original passage's length",
+    "C": "A rule that a precis should be three times longer than the passage",
+    "D": "A rule requiring exactly three sentences in every precis"
+   },
+   "answer": "B",
+   "explanation": "The one-third rule is a rule of thumb, not an exact legal measure: the precis should be approximately one-third of the original length. It does not demand exact word-for-word thirds, an expanded version, or a fixed number of sentences."
+  },
+  {
+   "id": "GEN-66",
+   "paper": "GE",
+   "unit": "2",
+   "sub": "Reported speech and third-person conversion",
+   "question": "When a first-person passage is recast into reported form for a precis and the reporting is understood in the past, a present-tense verb such as \"believes\" in the original will normally become:",
+   "options": {
+    "A": "\"will believe\"",
+    "B": "\"believed\"",
+    "C": "\"is believing\"",
+    "D": "\"believe\""
+   },
+   "answer": "B",
+   "explanation": "In the third-person reported form used for precis, present-tense verbs normally shift back one tense to the past; 'believes' becomes 'believed', consistent with reporting the passage's substance indirectly."
+  }
+ ]
+}

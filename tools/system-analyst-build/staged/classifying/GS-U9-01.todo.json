@@ -1,0 +1,156 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 10,
+ "questions": [
+  {
+   "id": "GEN-220",
+   "paper": "GS",
+   "unit": "9",
+   "sub": "International relations and summits",
+   "question": "The G20 (Group of Twenty) is best described as:",
+   "options": {
+    "A": "A military alliance of NATO member states",
+    "B": "An international forum comprising major developed and developing economies that discusses global economic cooperation and policy",
+    "C": "A United Nations specialised agency for public health",
+    "D": "A regional trade bloc limited to South Asian countries"
+   },
+   "answer": "B",
+   "explanation": "The G20 is a premier international forum bringing together major developed and developing economies to coordinate on global economic issues such as financial stability, trade, and sustainable development; it is not a military alliance or a UN agency."
+  },
+  {
+   "id": "GEN-221",
+   "paper": "GS",
+   "unit": "9",
+   "sub": "Urban development schemes: AMRUT, Smart Cities, PMAY-U, Swachh Bharat Urban",
+   "question": "The urban development scheme 'AMRUT', launched by the Government of India, stands for:",
+   "options": {
+    "A": "Atal Mission for Rejuvenation and Urban Transformation",
+    "B": "All India Mission for Rural Upliftment and Technology",
+    "C": "Advanced Metro and Rural Urban Transport",
+    "D": "Aadhaar Mission for Rural Urban Transformation"
+   },
+   "answer": "A",
+   "explanation": "AMRUT (Atal Mission for Rejuvenation and Urban Transformation) focuses on providing basic civic infrastructure such as water supply, sewerage, and urban transport in selected cities and towns."
+  },
+  {
+   "id": "GEN-222",
+   "paper": "GS",
+   "unit": "9",
+   "sub": "Urban development schemes: AMRUT, Smart Cities, PMAY-U, Swachh Bharat Urban",
+   "question": "Pradhan Mantri Awas Yojana – Urban (PMAY-U) is a flagship scheme primarily aimed at:",
+   "options": {
+    "A": "Providing free higher education to urban youth",
+    "B": "Providing affordable pucca housing to the urban poor and homeless",
+    "C": "Building highways connecting rural and urban areas",
+    "D": "Providing free electricity to urban households"
+   },
+   "answer": "B",
+   "explanation": "PMAY-U aims to achieve 'Housing for All' in urban areas by providing affordable, pucca housing with basic amenities to eligible urban poor and homeless beneficiaries."
+  },
+  {
+   "id": "GEN-223",
+   "paper": "GS",
+   "unit": "9",
+   "sub": "Urban development schemes: AMRUT, Smart Cities, PMAY-U, Swachh Bharat Urban",
+   "question": "Swachh Bharat Mission – Urban (SBM-U) primarily focuses on:",
+   "options": {
+    "A": "Urban afforestation drives",
+    "B": "Achieving universal sanitation coverage, eliminating open defecation, and improving solid waste management in urban areas",
+    "C": "Subsidising urban public transport fares",
+    "D": "Providing urban employment guarantee"
+   },
+   "answer": "B",
+   "explanation": "SBM-U's core objectives include eliminating open defecation, achieving universal sanitation coverage through the construction of household and community toilets, and scientific solid waste management in urban areas."
+  },
+  {
+   "id": "GEN-224",
+   "paper": "GS",
+   "unit": "9",
+   "sub": "Urban development schemes: AMRUT, Smart Cities, PMAY-U, Swachh Bharat Urban",
+   "question": "The Smart Cities Mission, launched by the Government of India, primarily aims to:",
+   "options": {
+    "A": "Build entirely new cities from scratch only",
+    "B": "Develop selected cities with core infrastructure, a clean and sustainable environment, and 'smart' technology-driven solutions for a better quality of urban life",
+    "C": "Relocate all rural populations into cities",
+    "D": "Privatise all municipal governance functions"
+   },
+   "answer": "B",
+   "explanation": "The Smart Cities Mission focuses on area-based development and the application of smart technology solutions in selected cities to improve core infrastructure, service delivery, and citizens' quality of life; it does not mandate building cities from scratch or privatising governance."
+  },
+  {
+   "id": "GEN-225",
+   "paper": "GS",
+   "unit": "9",
+   "sub": "Awards and honours",
+   "question": "The Bharat Ratna, India's highest civilian award, may be conferred for exceptional service in which of the following fields?",
+   "options": {
+    "A": "Only literature",
+    "B": "Only sports",
+    "C": "Any field of human endeavour, without restriction, including art, literature, science, and public service",
+    "D": "Only military service"
+   },
+   "answer": "C",
+   "explanation": "The Bharat Ratna is awarded for exceptional service or performance of the highest order in any field of human endeavour, without restriction of profession, position, or gender."
+  },
+  {
+   "id": "GEN-226",
+   "paper": "GS",
+   "unit": "9",
+   "sub": "Awards and honours",
+   "question": "The Padma awards in India are conferred in how many categories, listed here in descending order of precedence?",
+   "options": {
+    "A": "Two: Padma Shri and Padma Bhushan",
+    "B": "Three: Padma Vibhushan, Padma Bhushan, and Padma Shri",
+    "C": "Four categories, including Padma Ratna",
+    "D": "One single category called the Padma Award"
+   },
+   "answer": "B",
+   "explanation": "The Padma awards, India's civilian honours next in precedence after the Bharat Ratna, are conferred in three categories in descending order: Padma Vibhushan, Padma Bhushan, and Padma Shri."
+  },
+  {
+   "id": "GEN-227",
+   "paper": "GS",
+   "unit": "9",
+   "sub": "Awards and honours",
+   "question": "The Nobel Prize, established as per the will of Alfred Nobel, was originally awarded in how many categories, before the later addition of the Economic Sciences prize by Sveriges Riksbank?",
+   "options": {
+    "A": "Three",
+    "B": "Four",
+    "C": "Five",
+    "D": "Six"
+   },
+   "answer": "C",
+   "explanation": "Alfred Nobel's will established prizes in five original categories: Physics, Chemistry, Physiology or Medicine, Literature, and Peace. The Sveriges Riksbank Prize in Economic Sciences was added later, in 1968, in memory of Alfred Nobel."
+  },
+  {
+   "id": "GEN-228",
+   "paper": "GS",
+   "unit": "9",
+   "sub": "International relations and summits",
+   "question": "The acronym 'BRICS' originally referred to a grouping of which five major emerging economies?",
+   "options": {
+    "A": "Bangladesh, Russia, India, China, South Africa",
+    "B": "Brazil, Russia, India, China, South Africa",
+    "C": "Brazil, Romania, Indonesia, Cambodia, Singapore",
+    "D": "Britain, Russia, Iran, China, Sudan"
+   },
+   "answer": "B",
+   "explanation": "BRICS originally referred to the grouping of Brazil, Russia, India, China, and South Africa — major emerging national economies that cooperate on economic and geopolitical matters."
+  },
+  {
+   "id": "GEN-229",
+   "paper": "GS",
+   "unit": "9",
+   "sub": "Important days and themes",
+   "question": "World Environment Day is observed annually on which date?",
+   "options": {
+    "A": "5 June",
+    "B": "22 April",
+    "C": "16 September",
+    "D": "8 March"
+   },
+   "answer": "A",
+   "explanation": "World Environment Day is observed on 5 June each year to promote awareness and action for environmental protection. (22 April is Earth Day, 16 September is World Ozone Day, and 8 March is International Women's Day.)"
+  }
+ ]
+}

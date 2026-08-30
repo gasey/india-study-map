@@ -1,0 +1,156 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 10,
+ "questions": [
+  {
+   "id": "GEN-190",
+   "paper": "GS",
+   "unit": "6",
+   "sub": "Physics: units and measurement, motion, force, work, energy, power",
+   "question": "The SI unit of electric power is:",
+   "options": {
+    "A": "Watt",
+    "B": "Joule",
+    "C": "Volt",
+    "D": "Ampere"
+   },
+   "answer": "A",
+   "explanation": "Power is the rate of doing work, measured in watts (1 W = 1 J/s). Joule is the unit of energy/work, volt is the unit of potential difference, and ampere is the unit of current."
+  },
+  {
+   "id": "GEN-191",
+   "paper": "GS",
+   "unit": "6",
+   "sub": "Physics: units and measurement, motion, force, work, energy, power",
+   "question": "A body of mass 2 kg is acted upon by a net force of 10 N. What is its acceleration?",
+   "options": {
+    "A": "2 m/s²",
+    "B": "5 m/s²",
+    "C": "10 m/s²",
+    "D": "20 m/s²"
+   },
+   "answer": "B",
+   "explanation": "By Newton's second law, F = ma, so a = F/m = 10 N / 2 kg = 5 m/s²."
+  },
+  {
+   "id": "GEN-192",
+   "paper": "GS",
+   "unit": "6",
+   "sub": "Physics: heat, light, sound, electricity, magnetism",
+   "question": "The speed of light in a vacuum is approximately:",
+   "options": {
+    "A": "3 × 10⁶ m/s",
+    "B": "3 × 10⁸ m/s",
+    "C": "3 × 10¹⁰ m/s",
+    "D": "3 × 10⁸ km/s"
+   },
+   "answer": "B",
+   "explanation": "The speed of light in vacuum is approximately 3 × 10⁸ metres per second (about 3 × 10⁵ km/s), a fundamental physical constant."
+  },
+  {
+   "id": "GEN-193",
+   "paper": "GS",
+   "unit": "6",
+   "sub": "Chemistry: atomic structure, periodic table, chemical bonding",
+   "question": "The atomic number of an element represents the number of which particles in the nucleus of its atom?",
+   "options": {
+    "A": "Neutrons only",
+    "B": "Protons",
+    "C": "Electrons in the outermost shell",
+    "D": "Protons and neutrons combined"
+   },
+   "answer": "B",
+   "explanation": "Atomic number (Z) is defined as the number of protons present in the nucleus of an atom; it also equals the number of electrons in a neutral atom. Protons plus neutrons together give the mass number, not the atomic number."
+  },
+  {
+   "id": "GEN-194",
+   "paper": "GS",
+   "unit": "6",
+   "sub": "Chemistry: acids, bases, salts, metals and non-metals, common compounds",
+   "question": "The pH value of a neutral solution, such as pure water, at 25°C is:",
+   "options": {
+    "A": "0",
+    "B": "7",
+    "C": "14",
+    "D": "1"
+   },
+   "answer": "B",
+   "explanation": "The pH scale runs from 0 to 14; a pH of 7 is neutral, values below 7 are acidic, and values above 7 are basic (alkaline). Pure water at 25°C has a pH of 7."
+  },
+  {
+   "id": "GEN-195",
+   "paper": "GS",
+   "unit": "6",
+   "sub": "Biology: cell, tissues, human body systems",
+   "question": "Which cell organelle is often called the 'powerhouse of the cell' because it generates most of the cell's ATP through respiration?",
+   "options": {
+    "A": "Nucleus",
+    "B": "Ribosome",
+    "C": "Mitochondrion",
+    "D": "Golgi apparatus"
+   },
+   "answer": "C",
+   "explanation": "Mitochondria carry out aerobic respiration and produce ATP, the cell's main energy currency, earning them the nickname 'powerhouse of the cell'."
+  },
+  {
+   "id": "GEN-196",
+   "paper": "GS",
+   "unit": "6",
+   "sub": "Biology: nutrition, diseases, immunity, vaccines",
+   "question": "Vaccination protects an individual against a disease mainly by:",
+   "options": {
+    "A": "Directly killing the pathogen already present in the blood",
+    "B": "Stimulating the immune system to produce memory cells and antibodies against a specific pathogen",
+    "C": "Replacing damaged tissue with healthy donor tissue",
+    "D": "Supplying broad-spectrum antibiotics to the bloodstream"
+   },
+   "answer": "B",
+   "explanation": "A vaccine introduces a weakened, inactivated, or partial form of a pathogen (or its antigen) so that the immune system learns to recognise it and forms memory cells, enabling a faster, stronger response on future exposure."
+  },
+  {
+   "id": "GEN-197",
+   "paper": "GS",
+   "unit": "6",
+   "sub": "Biology: genetics and heredity basics, ecology and ecosystems",
+   "question": "In Mendelian genetics, an organism carrying two different alleles for a given trait (for example, 'Tt') is described as:",
+   "options": {
+    "A": "Homozygous dominant",
+    "B": "Homozygous recessive",
+    "C": "Heterozygous",
+    "D": "Hemizygous"
+   },
+   "answer": "C",
+   "explanation": "When the two alleles for a gene differ from each other (one dominant, one recessive, e.g. Tt), the organism is called heterozygous for that trait. Homozygous means both alleles are identical (TT or tt)."
+  },
+  {
+   "id": "GEN-198",
+   "paper": "GS",
+   "unit": "6",
+   "sub": "Space technology, ISRO missions",
+   "question": "ISRO's Chandrayaan-3 mission achieved a historic soft landing on the Moon in August 2023, making India the first country to land near which region of the lunar surface?",
+   "options": {
+    "A": "The equatorial region",
+    "B": "The south polar region",
+    "C": "The near-side highlands",
+    "D": "The Sea of Tranquility"
+   },
+   "answer": "B",
+   "explanation": "Chandrayaan-3's Vikram lander touched down near the Moon's south polar region on 23 August 2023, making India the first nation to achieve a soft landing in that area."
+  },
+  {
+   "id": "GEN-199",
+   "paper": "GS",
+   "unit": "6",
+   "sub": "Nuclear and defence technology",
+   "question": "Nuclear power plants generate electricity primarily through which process?",
+   "options": {
+    "A": "Nuclear fusion of hydrogen isotopes",
+    "B": "Nuclear fission of heavy elements such as uranium",
+    "C": "Chemical combustion of enriched fuel",
+    "D": "Magnetic confinement of plasma"
+   },
+   "answer": "B",
+   "explanation": "Commercial nuclear power reactors generate heat by controlled nuclear fission (splitting of heavy nuclei such as uranium-235), which is used to produce steam that drives turbines. Fusion is not yet used for commercial power generation."
+  }
+ ]
+}

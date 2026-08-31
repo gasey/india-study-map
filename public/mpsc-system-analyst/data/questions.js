@@ -10837,7 +10837,7 @@ window.QUESTIONS = [
    "D": "Missing Code"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "Accuracy of a D/A converter is found by directly comparing its actual output against the theoretically expected output for a given input code. Resolution, by contrast, is the smallest output step size, not a comparison to an expected value.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -10858,7 +10858,7 @@ window.QUESTIONS = [
    "D": "read ratio"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "Cache effectiveness is measured by the hit ratio — the fraction of memory references satisfied from cache — since it directly shows how well the cache avoids slower main-memory accesses.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -10879,7 +10879,7 @@ window.QUESTIONS = [
    "D": "1111"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "Entering 0010 right-most bit first feeds in the bits 0, then 1 (then 0, then 0). With each pulse shifting the previous contents down and loading the new bit into the MSB, after two pulses the register holds 1000 (the '1' has moved to the leftmost position).",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -10900,7 +10900,7 @@ window.QUESTIONS = [
    "D": "8"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "A NOR gate outputs HIGH only when all its inputs are LOW. Of the 8 possible input combinations for 3 inputs, only 000 satisfies this, so exactly 1 combination gives a HIGH output.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -10921,7 +10921,7 @@ window.QUESTIONS = [
    "D": "14 lines"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "32K = 2^15, so 15 address lines are needed to uniquely address all 32,768 locations, since n address lines can address 2^n locations.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -10942,7 +10942,7 @@ window.QUESTIONS = [
    "D": "Ending at the LSB"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "Each octal digit corresponds to exactly 3 binary bits, so binary-to-octal conversion groups bits into sets of three starting from the least-significant bit (rightmost), padding the leftmost group with zeros if needed.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -10963,7 +10963,7 @@ window.QUESTIONS = [
    "D": "program counter"
   },
   "ans": "D",
-  "exp": "",
+  "exp": "The program counter (PC) holds the memory address of the next instruction to fetch, tracking execution order — unlike the instruction register, which holds the instruction just fetched.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -10984,7 +10984,7 @@ window.QUESTIONS = [
    "D": "4"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "Deleting a node from a singly linked list only requires updating the 'next' pointer of the preceding node so it skips over (points past) the removed node — a single pointer field changes.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -11005,7 +11005,7 @@ window.QUESTIONS = [
    "D": "the sign magnitude form of the numbers"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "Taking the 2's complement of a value and then taking the 2's complement of that result exactly reverses the operation, so the original number is recovered.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -11026,7 +11026,7 @@ window.QUESTIONS = [
    "D": "block"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "A magnetic disk platter's surface is organized into concentric circles called tracks, each of which is further divided into sectors for data storage.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -11047,7 +11047,7 @@ window.QUESTIONS = [
    "D": "Application software"
   },
   "ans": "D",
-  "exp": "",
+  "exp": "Application software is written to satisfy a user's specific tasks (e.g. word processing, payroll), as distinct from system software, which manages and controls the underlying hardware.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -11068,7 +11068,7 @@ window.QUESTIONS = [
    "D": "None of these"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "In row-major storage (used for multidimensional array initialization in C-like languages), elements are filled by varying the rightmost subscript fastest, moving to the next row only once it's exhausted.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -11089,7 +11089,7 @@ window.QUESTIONS = [
    "D": "direct"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "In immediate addressing mode the operand's actual value is encoded directly in the instruction itself, so the CPU uses it without any extra memory reference.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -11110,7 +11110,7 @@ window.QUESTIONS = [
    "D": "Many digital computers use NAND gates."
   },
   "ans": "B",
-  "exp": "",
+  "exp": "Because AND, OR and NOT can each be built from NAND gates alone, any Boolean function can be realized using only NAND gates, which is why it is called a universal gate.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -11131,7 +11131,7 @@ window.QUESTIONS = [
    "D": "by converting binary to decimal"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "BCD represents a decimal number by encoding each individual decimal digit (0-9) separately as its own 4-bit binary pattern, rather than converting the whole number to straight binary.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -11152,7 +11152,7 @@ window.QUESTIONS = [
    "D": "All of these"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "A shift register moves the bits stored in its flip-flops one position at a time on every clock pulse, which is exactly what is needed to shift/move serial data.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -11173,7 +11173,7 @@ window.QUESTIONS = [
    "D": "All of these"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "In an asynchronous (ripple) counter there is no common clock driving every flip-flop; each stage toggles off the output of the previous stage, so the state change 'ripples' through with a small delay between stages rather than switching all at once.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -11194,7 +11194,7 @@ window.QUESTIONS = [
    "D": "A = 1, B = 0, C = 1"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "An AND gate's output is HIGH only when every input is HIGH, so for three inputs the output is HIGH only when A=1, B=1 and C=1 simultaneously.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -11215,7 +11215,7 @@ window.QUESTIONS = [
    "D": "Top"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "Inserting a node at the head only requires pointing the new node's next field at the old head and then updating the head pointer to the new node — just the head-side pointer needs adjusting.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -11236,7 +11236,7 @@ window.QUESTIONS = [
    "D": "Pulse Stability time (PST)"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "Hold time is the minimum interval an input signal must remain stable/held at a flip-flop's input for the device to reliably capture the correct value.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -11257,9 +11257,9 @@ window.QUESTIONS = [
    "D": "n2 locations"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "A microprocessor with n address lines can generate 2^n distinct address patterns, so it can address 2^n memory locations.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
+  "note": "Options A and C are identical text ('2n locations'), which looks like an OCR/formatting loss of the exponent (likely meant to distinguish 2^n from n^2) — worth checking the source PDF to confirm the original option wording."
  },
  {
   "id": "TECH1_CSE_022",
@@ -11278,7 +11278,7 @@ window.QUESTIONS = [
    "D": "none of these"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "ASCII is a standardized binary code that represents letters, digits, punctuation and other common symbols (i.e. alphanumeric and other characters) so different systems can interchange text consistently.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -11299,7 +11299,7 @@ window.QUESTIONS = [
    "D": "fetch - execute - decode sequence"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "Every instruction the CPU executes goes through the same basic cycle: fetch it from memory, decode what operation it specifies, then execute it.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -11320,7 +11320,7 @@ window.QUESTIONS = [
    "D": "111111"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "25 in binary is 11001 (16+8+1); written as a 6-bit value with a leading zero this is 011001.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -11341,7 +11341,7 @@ window.QUESTIONS = [
    "D": "decoder"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "Registers are small, fast storage elements used both inside the ALU (to hold operands and results during computation) and inside the control unit (e.g. address/instruction registers) — unlike the accumulator, which is only one specific register in the datapath.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -11362,7 +11362,7 @@ window.QUESTIONS = [
    "D": "16 bit address bus"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "The Intel 8088 has an 8-bit external data bus (half of the 8086's 16-bit bus) and, because of that narrower bus, a smaller 4-byte instruction prefetch queue compared to the 8086's 6-byte queue.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -11383,7 +11383,7 @@ window.QUESTIONS = [
    "D": "a-Cut"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "The cross-over point of a fuzzy set is defined as the point where the membership function value equals exactly 0.5 — the boundary between more-than-half and less-than-half membership.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -11404,9 +11404,9 @@ window.QUESTIONS = [
    "D": "None of these"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "A path (no repeated vertices) can never reuse an edge either, so every path is automatically a trail. A trail, however, only forbids repeated edges and can revisit vertices, so it need not be a path.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
+  "note": "The marked answer (B, 'every trail is a path') is the reverse of the true statement. Standard graph theory says every path is a trail, but not every trail is a path (a trail may revisit a vertex without reusing an edge) — the correct choice should be option A."
  },
  {
   "id": "TECH1_CSE_029",
@@ -11425,7 +11425,7 @@ window.QUESTIONS = [
    "D": "17"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "By Cayley's formula, the number of distinct labeled spanning trees of a complete graph on n vertices is n^(n-2); for n=4 this gives 4^2 = 16.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -11446,7 +11446,7 @@ window.QUESTIONS = [
    "D": "O(e²)"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "Using an adjacency list, a DFS/BFS-based scan visits every vertex once and scans each vertex's edge list once, giving O(n+e) time to find all connected components.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -11467,9 +11467,9 @@ window.QUESTIONS = [
    "D": "None of these"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "Using a first-element pivot convention, partitioning {2,6,1} around pivot 2 places it correctly between 1 and 6; recursing into the (trivial, single-element) right partition then treats 6 as the next pivot, giving the sequence 2 and 6.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
+  "note": "This depends on which partitioning convention (first vs. last element as pivot) the question intends, since that isn't stated explicitly."
  },
  {
   "id": "TECH1_CSE_032",
@@ -11488,7 +11488,7 @@ window.QUESTIONS = [
    "D": "MOV and JMP"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "RISC load/store architectures restrict memory access to dedicated load and store instructions (here STA/LDA); all other operations work only on registers.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -11509,7 +11509,7 @@ window.QUESTIONS = [
    "D": "All of these"
   },
   "ans": "D",
-  "exp": "",
+  "exp": "Arrays require the size to be fixed in advance, can waste memory if fewer elements are used than allocated, and make insertion/deletion costly because elements must be shifted — so all of the listed drawbacks apply.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -11530,7 +11530,7 @@ window.QUESTIONS = [
    "D": "None of these"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "In the standard grammar tuple G=(V, Σ, P, S), the final component S denotes the start (starting) variable/symbol from which derivations begin.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -11551,7 +11551,7 @@ window.QUESTIONS = [
    "D": "multiple destination"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "Dijkstra's algorithm computes shortest paths from one fixed starting vertex to all others, which is why it is called the single-source shortest path algorithm.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -11572,7 +11572,7 @@ window.QUESTIONS = [
    "D": "Cannot be said"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "Regular languages are exactly the languages accepted by some DFA (or equivalent finite automaton); if no DFA can accept a language, it is by definition not regular.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -11593,7 +11593,7 @@ window.QUESTIONS = [
    "D": "0"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "Tracing bubble sort on {1,2,4,3}: pass 1 swaps only the last pair (4,3), yielding the sorted array; pass 2 makes no swaps, confirming it is sorted and terminating the algorithm — 2 passes total.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -11614,7 +11614,7 @@ window.QUESTIONS = [
    "D": "all of these"
   },
   "ans": "D",
-  "exp": "",
+  "exp": "Pipeline performance degrades from unequal stage delays (the slowest stage bottlenecks the clock rate), data/control dependencies between consecutive instructions (hazards), and contention when stages share hardware resources — all three are real causes of pipeline slowdown.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -11635,7 +11635,7 @@ window.QUESTIONS = [
    "D": "A memory write cycle"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "Regardless of the instruction, the CPU always begins by fetching it from memory, so the first machine cycle of any instruction is always a fetch cycle.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -11656,9 +11656,9 @@ window.QUESTIONS = [
    "D": "12"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "A 2048-word memory needs enough address lines to select all 2048 locations; since 2048 = 2^11, 11 address lines are required.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
+  "note": "2048 = 2^11 exactly, so the number of address lines should be 11 (option B), not 10 (the marked answer, option A). This looks like an answer-key error worth double-checking against the source."
  },
  {
   "id": "TECH1_CSE_041",
@@ -11677,7 +11677,7 @@ window.QUESTIONS = [
    "D": "h(A)<1"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "A fuzzy set is called 'normal' when its height (the supremum of its membership function) equals 1, i.e. at least one element has full membership.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -11698,9 +11698,9 @@ window.QUESTIONS = [
    "D": "None of these"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "Y=CD+EF+G needs one 2-input AND gate for CD and one for EF (2 AND gates total), then two 2-input OR gates to combine the three terms pairwise — (CD OR EF) OR G — giving 2 OR gates.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
+  "note": "A straightforward count gives 2 AND and 2 OR gates (matching option A), not 2 AND and 3 OR (the marked answer, option B). Worth re-checking against the source key."
  },
  {
   "id": "TECH1_CSE_043",
@@ -11719,7 +11719,7 @@ window.QUESTIONS = [
    "D": "Can't be said"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "DFAs are deterministic and fully specified for every input, which makes constructing complements, intersections and other closure operations mechanically simple compared to NFAs or PDAs.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -11740,7 +11740,7 @@ window.QUESTIONS = [
    "D": "None of these"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "Selection sort always performs O(n^2) comparisons regardless of input, so it does not scale well to large datasets compared to O(n log n) sorts.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -11761,7 +11761,7 @@ window.QUESTIONS = [
    "D": "Offset addressing mode"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "Indirect addressing mode stores, in the instruction/register, the address of a location that itself holds the operand's address — i.e. it uses a pointer indirection to reach the operand.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -11782,9 +11782,9 @@ window.QUESTIONS = [
    "D": "all i, ii and iii"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "Kruskal's algorithm sorts all edges by increasing weight and starts with an empty subgraph, then adds edges (not vertices) one at a time as long as they don't form a cycle.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
+  "note": "Statement (iii), 'builds a tree one vertex at a time,' actually describes Prim's algorithm, not Kruskal's (which grows a forest by adding edges). The true statements should be (i) and (ii) — option A — not (i) and (iii), the marked answer (option C)."
  },
  {
   "id": "TECH1_CSE_047",
@@ -11803,7 +11803,7 @@ window.QUESTIONS = [
    "D": "unit register"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "Single-bit registers used in microprocessors to indicate status conditions (carry, zero, overflow, sign, etc.) are called flags, collectively forming the flag/status register.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -11824,9 +11824,9 @@ window.QUESTIONS = [
    "D": "4 and 1"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "On an already-sorted array, a flag-optimized bubble sort makes one pass, finds no swaps, and stops immediately (1 iteration). Selection sort has no early-exit mechanism and always performs n-1 outer-loop passes (4, for 5 elements) regardless of order.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
+  "note": "By this reasoning the expected pair is '4 and 1' (selection, bubble) — option D — not '0 and 4', the marked answer (option C). Worth double-checking against the source."
  },
  {
   "id": "TECH1_CSE_049",
@@ -11845,7 +11845,7 @@ window.QUESTIONS = [
    "D": "None of these"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "Balance factor is defined as height(left subtree) - height(right subtree); a value of 1 means the left subtree is exactly one level taller than the right subtree.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -11866,7 +11866,7 @@ window.QUESTIONS = [
    "D": "Can't be determined"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "Recognizing palindromes in general requires remembering an unbounded amount of the input to compare it against its reverse, which is beyond the fixed, finite memory of a DFA — so a DFA cannot recognize palindromes in general.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -11887,7 +11887,7 @@ window.QUESTIONS = [
    "D": "iv, ii, i, iii"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "The standard infix-to-prefix method is: reverse the infix expression (swapping '(' and ')' as part of that reversal), convert the modified expression to postfix, then reverse the resulting postfix string to get the prefix form — i.e. order ii, i, iii, iv.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -11908,7 +11908,7 @@ window.QUESTIONS = [
    "D": "All of these"
   },
   "ans": "D",
-  "exp": "",
+  "exp": "Finite automata underlie compiler lexical analysis (tokenizing), are used to build grammar/pattern parsers, and are the basis of many text-search algorithms — so all of the listed uses apply.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -11929,7 +11929,7 @@ window.QUESTIONS = [
    "D": "O(1)"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "A linear queue needs storage proportional to the number of elements it holds, giving O(n) space complexity for n elements.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -11950,7 +11950,7 @@ window.QUESTIONS = [
    "D": "None of these"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "Locating the root (A) in the inorder sequence splits it into left/right subtree inorder sequences, and matching preorder segments recursively rebuilds each subtree; walking this reconstructed tree in postorder (left, right, root) yields H D E B I F J K G C A.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -11971,7 +11971,7 @@ window.QUESTIONS = [
    "D": "{1, 5, 6, 3}"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "The union of two sets combines all their distinct elements without duplicates, so {1,2,5} ∪ {1,2,6} = {1,2,5,6}.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -11992,7 +11992,7 @@ window.QUESTIONS = [
    "D": "address decoder bus"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "The control bus carries the signals that specify what operation is being performed and coordinates the timing of that operation across the system, as opposed to the data bus (carries data) or address bus (carries addresses).",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -12013,7 +12013,7 @@ window.QUESTIONS = [
    "D": "Only Control circuits"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "An I/O interface needs an address decoder (to recognize when it is being addressed), registers (to buffer data/status), and control circuits (to manage the handshake with the bus) — all three together.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -12034,9 +12034,9 @@ window.QUESTIONS = [
    "D": "S = 1, R = 1"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "In a NOR-gate SR latch, S=0,R=1 gives reset, S=1,R=0 gives set, and S=0,R=0 holds the previous state — all valid. S=1,R=1 forces both outputs toward 0, breaking the Q/Q' complementary relationship, which is the disallowed condition.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
+  "note": "The disallowed state for a NOR-based SR latch is S=1,R=1 (option D); S=0,R=0 (the marked answer, option A) is actually the valid 'hold/no change' state. This looks like an answer-key error."
  },
  {
   "id": "TECH1_CSE_059",
@@ -12055,7 +12055,7 @@ window.QUESTIONS = [
    "D": "O (n² / 4)"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "Quicksort's worst case occurs when partitioning is maximally unbalanced (e.g. already-sorted input with a poor pivot choice), which degenerates into O(n^2) comparisons.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -12076,7 +12076,7 @@ window.QUESTIONS = [
    "D": "5"
   },
   "ans": "D",
-  "exp": "",
+  "exp": "A cycle on n vertices (C_n) is self-complementary — isomorphic to its own complement — only for n=5, a classical result in graph theory.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -12097,7 +12097,7 @@ window.QUESTIONS = [
    "D": "J = 1, K = 0"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "A JK flip-flop enters toggle mode (inverts its previous output on each clock) specifically when both J and K are set to 1.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -12118,7 +12118,7 @@ window.QUESTIONS = [
    "D": "4"
   },
   "ans": "D",
-  "exp": "",
+  "exp": "BCD encodes each decimal digit (0-9) using the standard 8-4-2-1 weighted binary code, which requires exactly 4 bits per digit.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -12139,7 +12139,7 @@ window.QUESTIONS = [
    "D": "Rambus"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "The internal functional units of a processor (ALU, registers, control unit, etc.) exchange data and control signals over an internal processor bus.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -12160,7 +12160,7 @@ window.QUESTIONS = [
    "D": "Information given is insufficient"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "A complete graph connects every pair of its n vertices exactly once, giving n(n-1)/2 total edges (choosing 2 vertices out of n).",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -12181,7 +12181,7 @@ window.QUESTIONS = [
    "D": "right, left, root"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "An inorder traversal (left, root, right) of a BST visits keys in ascending order, so reversing that pattern to right, root, left visits keys in descending order.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -12202,7 +12202,7 @@ window.QUESTIONS = [
    "D": "Cache"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "Zero-address instructions assume operands are always taken from (and results pushed back onto) an implicit push-down stack, so no explicit operand address is needed in the instruction.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -12223,7 +12223,7 @@ window.QUESTIONS = [
    "D": "reflexive and transitive"
   },
   "ans": "D",
-  "exp": "",
+  "exp": "A partial order relation must be reflexive and transitive (along with antisymmetric); among the given options, 'reflexive and transitive' is the closest description of the required properties.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -12244,9 +12244,9 @@ window.QUESTIONS = [
    "D": "None of these"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "A Mealy machine's output depends on both the current state and the current input, unlike a Moore machine whose output depends only on the state — the option including both Op(t) (state) and i(t) (input) as arguments captures this.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
+  "note": "The rendered formulas look garbled (likely lost Greek-letter/function notation from the source), but the intended distinguishing idea — output depends on state AND input — is preserved in the marked answer."
  },
  {
   "id": "TECH1_CSE_069",
@@ -12265,7 +12265,7 @@ window.QUESTIONS = [
    "D": "None of these"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "A sparse array/matrix is one in which the overwhelming majority of elements share the same (often default/zero) value, making dedicated compact storage schemes worthwhile.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -12286,7 +12286,7 @@ window.QUESTIONS = [
    "D": "Branch and bound technique"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "Floyd-Warshall builds up all-pairs shortest paths by considering intermediate vertices incrementally and reusing previously computed sub-results, which is the defining characteristic of dynamic programming.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -12307,7 +12307,7 @@ window.QUESTIONS = [
    "D": "none of these"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "A circular queue reuses freed front slots by wrapping the rear pointer back to the beginning of the array, avoiding the wasted space that a plain linear queue accumulates after dequeues.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -12328,7 +12328,7 @@ window.QUESTIONS = [
    "D": "A > B = 0, A < B = 1, A = B = 1"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "A=1100 (12) is greater than B=1001 (9), so the comparator outputs A>B=1 while A<B and A=B are both 0.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -12349,7 +12349,7 @@ window.QUESTIONS = [
    "D": "en"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "By the handshaking lemma, every edge contributes exactly 2 to the total degree count (one for each endpoint), so the sum of all vertex degrees equals 2e.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -12370,7 +12370,7 @@ window.QUESTIONS = [
    "D": "None of these"
   },
   "ans": "D",
-  "exp": "",
+  "exp": "A DFA can be represented as a transition graph, a transition table, or equivalent program code (e.g. C code implementing the transition function) — all three are valid representations, so none of the listed options is something a DFA 'cannot' be represented as.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -12391,7 +12391,7 @@ window.QUESTIONS = [
    "D": "7"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "Checking divisibility by 3 only requires tracking the running remainder mod 3, which takes exactly 3 states (for remainders 0, 1, 2) regardless of the number base (here octal).",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -12412,7 +12412,7 @@ window.QUESTIONS = [
    "D": "none of these"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "The equivalence classes induced by an equivalence relation on a set are pairwise disjoint and cover the whole set, which by definition means they form a partition of the set.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -12433,7 +12433,7 @@ window.QUESTIONS = [
    "D": "1000"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "A 4-bit serial shift register completely replaces its old contents with whatever has been shifted in after exactly 4 clock pulses, so after entering the nibble 0111 the register holds 0111.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -12454,7 +12454,7 @@ window.QUESTIONS = [
    "D": "divide-by-10 counter"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "A BCD counter counts through the ten valid BCD states (0000-1001) before recycling, making it a decade (mod-10) counter.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -12475,9 +12475,9 @@ window.QUESTIONS = [
    "D": "ceil(i/2) position"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "For a complete binary structure stored as an array with 1-based indexing, the parent of the node at index i sits at floor(i/2).",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
+  "note": "The question text says 'queue,' but the floor(i/2) parent-index rule it describes is the standard property of a binary heap stored in an array, not a queue — likely a mistranscription of 'heap' as 'queue.'"
  },
  {
   "id": "TECH1_CSE_080",
@@ -12496,7 +12496,7 @@ window.QUESTIONS = [
    "D": "None of these"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "BFS explores level by level using a FIFO queue to remember which nodes to visit next, while DFS goes deep along one branch using a LIFO stack (explicit or via recursion) to backtrack.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -12517,9 +12517,9 @@ window.QUESTIONS = [
    "D": "29 11 42 58 60 18 65 75"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "Tracing standard bubble sort on 42 29 75 11 65 58 60 18: pass 1 bubbles the largest value to the end, giving 29 42 11 65 58 60 18 75; pass 2 gives 29 11 42 58 60 18 65 75.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
+  "note": "A step-by-step trace after 2 full passes produces 29 11 42 58 60 18 65 75 (option D), not option C (the marked answer), which doesn't match a standard left-to-right bubble sort pass sequence. Worth re-checking against the source."
  },
  {
   "id": "TECH1_CSE_082",
@@ -12538,7 +12538,7 @@ window.QUESTIONS = [
    "D": "Stack"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "In accumulator-based ALU designs, the accumulator is the register used to hold intermediate results of arithmetic/logic operations as they are computed.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -12559,7 +12559,7 @@ window.QUESTIONS = [
    "D": "Thread"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "Swapping moves a process's entire memory image out to disk (removing it from active CPU contention) and later brings it back into memory to resume execution.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -12580,7 +12580,7 @@ window.QUESTIONS = [
    "D": "triangle"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "An ellipse is defined as the locus of points where the sum of the distances to two fixed foci is constant (the same for every point on the curve).",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -12601,7 +12601,7 @@ window.QUESTIONS = [
    "D": "SCAN"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "Splitting data into equal-sized chunks and spreading them across multiple disks is called data striping, which improves throughput by allowing parallel access.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -12622,7 +12622,7 @@ window.QUESTIONS = [
    "D": "Pipe"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "The program counter always holds the address of the next instruction to be executed for the currently running process, and is saved/restored on context switches.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -12643,7 +12643,7 @@ window.QUESTIONS = [
    "D": "All of these"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "In a graphics system, the array of pixel values that make up an image is stored in the frame buffer, from which the display is refreshed.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -12664,7 +12664,7 @@ window.QUESTIONS = [
    "D": "None of these"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "The short-term (CPU) scheduler runs very frequently, selecting which of the ready processes runs next and allocating the CPU to it.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -12685,7 +12685,7 @@ window.QUESTIONS = [
    "D": "none of these"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "Both mutex locks and binary semaphores can enforce that only one process/thread accesses a critical section at a time, so either mechanism can provide mutual exclusion.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -12706,7 +12706,7 @@ window.QUESTIONS = [
    "D": "control register"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "A fence register is set to the highest memory address occupied by the OS, acting as a boundary so user programs can be checked against it and prevented from accessing OS memory.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -12727,7 +12727,7 @@ window.QUESTIONS = [
    "D": "Starvation"
   },
   "ans": "D",
-  "exp": "",
+  "exp": "Starvation occurs when a ready process is repeatedly passed over for CPU allocation in favor of other processes, even though it is able to run.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -12748,7 +12748,7 @@ window.QUESTIONS = [
    "D": "socket"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "A semaphore is a synchronization primitive (with atomic wait/signal operations) used to coordinate access between concurrent processes or threads.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -12769,7 +12769,7 @@ window.QUESTIONS = [
    "D": "Paging"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "Segmentation allocates variable-sized memory chunks, and as segments are loaded and freed over time, free memory becomes scattered into unusable small gaps — external fragmentation.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -12790,7 +12790,7 @@ window.QUESTIONS = [
    "D": "all of these"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "Monitors provide condition variables, which must be explicitly declared with type 'condition,' and processes call wait/signal on them to block or resume inside the monitor.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -12811,7 +12811,7 @@ window.QUESTIONS = [
    "D": "none of these"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "The kernel only knows about and schedules kernel-level threads (and processes); user-level threads are managed entirely by a user-space library invisible to the kernel scheduler.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -12832,7 +12832,7 @@ window.QUESTIONS = [
    "D": "Use of parameterized constructor"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "Open recursion lets a method call another (possibly overridden) method on the same object via a self-reference (the 'this'/'self' pointer), so subclass overrides are picked up dynamically.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -12853,7 +12853,7 @@ window.QUESTIONS = [
    "D": "none of these"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "In paging, logical (virtual) memory is divided into fixed-size blocks called pages, which map onto equally-sized frames in physical memory.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -12874,7 +12874,7 @@ window.QUESTIONS = [
    "D": "Disk Scheduling Algorithm"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "Belady's anomaly is the counter-intuitive phenomenon where increasing the number of page frames can increase the number of page faults for certain page-replacement algorithms (classically FIFO).",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -12895,7 +12895,7 @@ window.QUESTIONS = [
    "D": "none of these"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "A monitor is a high-level language construct that bundles shared data with the procedures that access it and enforces mutual exclusion automatically, built as an abstraction above lower-level primitives like semaphores.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -12916,7 +12916,7 @@ window.QUESTIONS = [
    "D": "Small Talk"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "Java does not support multiple inheritance of classes (only of interfaces), so it does not implement every classic form of inheritance the way a language like C++ does.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -12937,7 +12937,7 @@ window.QUESTIONS = [
    "D": "three argument"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "A postfix increment member-function overload takes one (dummy int) argument purely to let the compiler distinguish it from the prefix version, which takes no arguments.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -12958,7 +12958,7 @@ window.QUESTIONS = [
    "D": "Terminated state"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "Once the I/O operation a blocked process was waiting on completes, the process is no longer waiting for a resource and moves to the ready state to await CPU allocation.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -12979,7 +12979,7 @@ window.QUESTIONS = [
    "D": "All of these"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "Distributing the computation of pixel positions for a line across multiple processors, rather than computing them sequentially, is the idea behind a parallel line-drawing algorithm.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -13000,7 +13000,7 @@ window.QUESTIONS = [
    "D": "All of these"
   },
   "ans": "D",
-  "exp": "",
+  "exp": "NFAs are called 'non-deterministic' because from a given state and input symbol there can be multiple valid next states/paths, and correspondingly the eventual outcome of a computation isn't fixed in advance — all the listed aspects describe facets of this same non-determinism.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -13021,7 +13021,7 @@ window.QUESTIONS = [
    "D": "None of these"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "The PCI bus was designed as a standardized extension of the processor's local bus, letting peripheral devices connect without being tied to a specific CPU's native bus.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -13042,7 +13042,7 @@ window.QUESTIONS = [
    "D": "x . x = 1"
   },
   "ans": "D",
-  "exp": "",
+  "exp": "In Boolean algebra x.x simplifies to x (the idempotent law), not 1, so 'x.x = 1' is the false statement among the options — the others (x+1=1, x+x'=1, x.x'=0) are all valid identities.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -13063,7 +13063,7 @@ window.QUESTIONS = [
    "D": "accepted by Turing machine"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "A language is regular exactly when some deterministic finite automaton (DFA) can accept it — this is the standard definition/equivalence used in automata theory.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -13084,9 +13084,9 @@ window.QUESTIONS = [
    "D": "127"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "Subset construction can, in the worst case, produce one DFA state for every subset of the NFA's total state set, i.e. 2^(number of states) states.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
+  "note": "If the NFA has 6 states 'excluding the initial state,' the total distinct states (including the initial one) would be 7, giving a worst case of 2^7=128 (option C) rather than 2^6=64 (the marked answer, option A) — the question's wording is ambiguous about whether 6 already includes all states."
  },
  {
   "id": "TECH1_CSE_109",
@@ -13105,7 +13105,7 @@ window.QUESTIONS = [
    "D": "Stacks"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "Cache memory is built from small amounts of very fast (and more expensive) RAM placed close to the CPU to speed up access to frequently used data.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -13126,7 +13126,7 @@ window.QUESTIONS = [
    "D": "1 capacitor only"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "A DRAM memory cell stores a bit as charge on a capacitor, gated by a single access transistor — the classic 1-transistor, 1-capacitor (1T1C) cell.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -13147,7 +13147,7 @@ window.QUESTIONS = [
    "D": "Clock"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "Whenever a new instruction is loaded into the instruction register, the micro-program counter (UPC) is reloaded from the starting address generator, which points it to the first micro-instruction for that opcode.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -13168,9 +13168,9 @@ window.QUESTIONS = [
    "D": "All of these"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "Building very large memories out of DRAM historically required many chips plus supporting decode/refresh circuitry, which was cited as adding to overall system cost even though DRAM's per-bit cost is lower than SRAM's.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
+  "note": "This option is debatable since DRAM's main selling point is actually low cost-per-bit; the intended drawback may instead relate to refresh overhead or access latency depending on the source textbook's framing."
  },
  {
   "id": "TECH1_CSE_113",
@@ -13189,7 +13189,7 @@ window.QUESTIONS = [
    "D": "All of these"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "A circular linked list naturally models resources being cycled through repeatedly, such as round-robin CPU scheduling where the scheduler loops back to the first process after reaching the last.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -13210,7 +13210,7 @@ window.QUESTIONS = [
    "D": "ANNA"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "RISC (Reduced Instruction Set Computer) architecture uses a small set of simple, uniform instructions that execute in fewer cycles, aiming to reduce overall instruction execution time.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -13231,7 +13231,7 @@ window.QUESTIONS = [
    "D": "Register Memory"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "In a microprogrammed control unit, the microprogram (the sequence of micro-instructions implementing each machine instruction) is stored in a dedicated control memory (control store).",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -13252,9 +13252,9 @@ window.QUESTIONS = [
    "D": "(A`+B`)(A+B)"
   },
   "ans": "D",
-  "exp": "",
+  "exp": "XNOR(A,B) equals 1 exactly when A and B match, which algebraically is AB + A'B'; factoring this gives (A'+B)(A+B') — matching option C.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
+  "note": "Checking the marked answer D, (A'+B')(A+B), algebraically simplifies to A'B+AB' (i.e. plain XOR), not XNOR. The correct XNOR expression among the options is C, not D — this looks like an answer-key error."
  },
  {
   "id": "TECH1_CSE_117",
@@ -13273,9 +13273,9 @@ window.QUESTIONS = [
    "D": "6"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "Building x'+y' takes 1 NAND gate (NAND(x,y) = x'+y' directly); building z+w from NAND gates alone needs 3 NAND gates (invert z, invert w, then NAND them); combining the two results with AND needs 2 more NAND gates (a NAND followed by an inverting NAND) — 6 gates total.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
+  "note": "A careful gate-by-gate build comes to 6 NAND gates (option D), not 3 (the marked answer, option A), which is too few to realize even the OR term (z+w) alone using only NAND gates. This looks like an answer-key error."
  },
  {
   "id": "TECH1_CSE_118",
@@ -13294,7 +13294,7 @@ window.QUESTIONS = [
    "D": "None of these"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "In a stack-based (zero-address) machine, 'Add #45' takes the immediate value 45, adds it to the value on top of the stack, and pushes the result back onto the stack.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -13315,7 +13315,7 @@ window.QUESTIONS = [
    "D": "None of these"
   },
   "ans": "D",
-  "exp": "",
+  "exp": "Every node in a circular linked list does have a successor, inserting at the head is O(1), but deleting the last node requires traversing to find the new tail, which is O(n) — all three statements are actually true, so none of them is false.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -13336,7 +13336,7 @@ window.QUESTIONS = [
    "D": "(1+2+0)*(1+2)*"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "Option B mixes symbols outside the stated alphabet (e.g. combining '0' and 'b', '1' and 'a') in a way that isn't a syntactically valid regular expression over a consistent alphabet, unlike the other well-formed expressions.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -13357,7 +13357,7 @@ window.QUESTIONS = [
    "D": "Node"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "Besides the data field, each linked-list node needs a pointer field that stores the address of (points to) the next node in the list.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -13378,7 +13378,7 @@ window.QUESTIONS = [
    "D": "O(n2)"
   },
   "ans": "D",
-  "exp": "",
+  "exp": "Selection sort always scans the remaining unsorted portion to find the minimum on every pass, giving O(n^2) comparisons in the best, average, and worst cases alike.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -13399,7 +13399,7 @@ window.QUESTIONS = [
    "D": "None of these"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "A graph can be represented using an adjacency list, an adjacency matrix, or an incidence matrix — each is a valid, commonly used representation.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -13420,7 +13420,7 @@ window.QUESTIONS = [
    "D": "All of these"
   },
   "ans": "D",
-  "exp": "",
+  "exp": "A subset of {1,2,3,4} is any set formed from its elements, including the empty set and the full set itself; {1,2}, {1,2,3} and {1} are all valid subsets.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -13441,7 +13441,7 @@ window.QUESTIONS = [
    "D": "None of these"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "Inserting into a non-empty queue adds the new element at the rear, so only the rear pointer moves; the front pointer only changes when an element is removed (dequeued).",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -13462,7 +13462,7 @@ window.QUESTIONS = [
    "D": "Programmed Read Only Memory"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "PROM stands for Programmable Read Only Memory — a ROM chip that can be programmed once (typically by the user) after manufacturing.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -13483,7 +13483,7 @@ window.QUESTIONS = [
    "D": "int arr(3) = (1,2,3);"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "In C, an array is initialized with square brackets for the size and curly braces for the initializer list: int arr[3] = {1,2,3};.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -13504,7 +13504,7 @@ window.QUESTIONS = [
    "D": "All of these"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "An array is fundamentally a container that holds a fixed number of elements of the same (similar) data type, stored contiguously in memory.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -13525,7 +13525,7 @@ window.QUESTIONS = [
    "D": "All of these"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "A circular linked list's defining feature is that the last node's next pointer points back to the first node instead of to NULL, so the 'next' pointer is never null.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -13546,7 +13546,7 @@ window.QUESTIONS = [
    "D": "Schema, Instance"
   },
   "ans": "D",
-  "exp": "",
+  "exp": "A database schema is the fixed logical design/structure of the database, while an instance is the actual data content — a snapshot of what's stored at a particular moment.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -13567,7 +13567,7 @@ window.QUESTIONS = [
    "D": "Query language"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "Relational algebra is procedural because it specifies a sequence of operations to compute a result, unlike relational calculus (tuple or domain), which is declarative — it just states what result is wanted.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -13588,7 +13588,7 @@ window.QUESTIONS = [
    "D": "Select"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "The SQL UPDATE statement's syntax is UPDATE table SET column = expression [WHERE condition], so SET is the correct keyword to assign the new salary value.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -13609,7 +13609,7 @@ window.QUESTIONS = [
    "D": "Variable set"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "A weak entity set lacks attributes sufficient to form its own primary key and instead depends on a related (owner) strong entity set for unique identification.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -13630,9 +13630,9 @@ window.QUESTIONS = [
    "D": "None of these"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "The two-phase locking protocol guarantees conflict serializability by requiring all locks to be acquired before any are released.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
+  "note": "Two-phase locking (2PL) does NOT by itself guarantee freedom from deadlock — transactions can still deadlock waiting on each other's locks. The protocol that gives both serializability and deadlock-freedom is the timestamp-ordering protocol (option B), which this question's marked answer (A) misses."
  },
  {
   "id": "TECH1_CSE_135",
@@ -13651,7 +13651,7 @@ window.QUESTIONS = [
    "D": "Drop table"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "The ALTER TABLE command is used to modify an existing relation's schema, such as adding a new integrity constraint or column, without recreating the table.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -13672,7 +13672,7 @@ window.QUESTIONS = [
    "D": "Drop table"
   },
   "ans": "D",
-  "exp": "",
+  "exp": "The SQL DROP TABLE command permanently removes an entire relation (its structure and data) from the database.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -13693,7 +13693,7 @@ window.QUESTIONS = [
    "D": "Primary"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "A referential integrity constraint requires that values in the referencing relation's specified attributes must also appear as values in the referenced relation's corresponding (usually primary key) attributes.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -13714,7 +13714,7 @@ window.QUESTIONS = [
    "D": "Sub"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "An attribute becomes a foreign key when it holds the primary key value from another (or the same) relation, creating a link between the two relations.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -13735,7 +13735,7 @@ window.QUESTIONS = [
    "D": "None of these"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "The commonly taught TCP/IP-oriented Internet protocol stack has 5 layers: Physical, Data Link, Network, Transport, and Application.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -13756,9 +13756,9 @@ window.QUESTIONS = [
    "D": "D"
   },
   "ans": "D",
-  "exp": "",
+  "exp": "Finding candidate keys from functional dependencies involves computing attribute closures and checking which minimal attribute sets determine every other attribute in the relation.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
+  "note": "As transcribed, several of these FDs (AB→B, AD→D, DE→E) are trivial/reflexive dependencies that hold automatically and provide no real key-finding information — this strongly suggests the arrows/target attributes were corrupted during extraction. This near-duplicate of question TECH1_CSE_143 also gives a different marked answer (D here vs. C there) for what should be the same FD set, another sign something was lost in transcription; recommend checking the source PDF before trusting either answer."
  },
  {
   "id": "TECH1_CSE_141",
@@ -13777,7 +13777,7 @@ window.QUESTIONS = [
    "D": "None of these"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "Deleting rows conditionally based on data in another table requires a correlated/nested subquery in the WHERE clause, e.g. DELETE FROM instructor WHERE dept_name IN (SELECT dept_name FROM department WHERE building = '...').",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -13798,7 +13798,7 @@ window.QUESTIONS = [
    "D": "Set difference"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "The Cartesian product pairs every tuple of one relation with every tuple of the other, regardless of whether attribute values match — unlike a join, which filters pairs by a matching condition.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -13819,9 +13819,9 @@ window.QUESTIONS = [
    "D": "D"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "Finding candidate keys from functional dependencies involves computing attribute closures and checking which minimal attribute sets determine every other attribute in the relation.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
+  "note": "As transcribed, several of these FDs (AB→B, AD→D, DE→E) are trivial/reflexive and add no real key-finding information, suggesting corrupted arrows/targets during extraction. This near-duplicate of question TECH1_CSE_140 gives a different marked answer (C here vs. D there) for what appears to be the same FD set — recommend checking the source PDF before trusting either answer."
  },
  {
   "id": "TECH1_CSE_144",
@@ -13840,7 +13840,7 @@ window.QUESTIONS = [
    "D": "Relational Schema"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "DDL (Data Definition Language) statements are used to define, alter, and delete relation structures (schemas), as opposed to DML, which manipulates the data stored in them.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -13861,7 +13861,7 @@ window.QUESTIONS = [
    "D": "application layer"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "The physical layer takes the logical communication requests handed down from the data link layer and converts them into the actual electrical/hardware-level signaling needed to transmit bits.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -13882,7 +13882,7 @@ window.QUESTIONS = [
    "D": "None of these"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "Protocols are the formal sets of rules that govern how data is formatted, transmitted, and interpreted during communication between systems.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -13903,7 +13903,7 @@ window.QUESTIONS = [
    "D": "BCNF and hence also in 3NF, 2NF and 1NF"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "Since every pincode maps to exactly one city/state (no partial dependency on part of a composite key) and (street, city, state) together determine pincode with no transitive dependency of a non-key attribute through another non-key attribute, the relation satisfies 3NF (and thus 2NF and 1NF too).",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -13924,7 +13924,7 @@ window.QUESTIONS = [
    "D": "None of these"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "Inserting rows derived from another relation's query result uses INSERT INTO ... SELECT ... FROM ... syntax, letting a SELECT statement supply the values instead of a literal VALUES list.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -13945,7 +13945,7 @@ window.QUESTIONS = [
    "D": "True color system"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "Rasterization (scan conversion) is the process of converting a geometric picture definition into the discrete pixel-intensity values stored in the frame buffer for display.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -13966,7 +13966,7 @@ window.QUESTIONS = [
    "D": "all of these"
   },
   "ans": "D",
-  "exp": "",
+  "exp": "Paging adds overhead to memory access (via page-table lookups), to overall program execution (extra address translation on every reference), and to context switches (reloading page tables/TLB) — so it increases all of these timing costs.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -13987,7 +13987,7 @@ window.QUESTIONS = [
    "D": "decimal & binary"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "Semaphores come in two kinds: binary semaphores (value 0 or 1, similar to a mutex) and counting semaphores (an integer that can range over a larger domain, used to manage a pool of resources).",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -14008,7 +14008,7 @@ window.QUESTIONS = [
    "D": "none of these"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "A semaphore is simply an integer variable accessed only through atomic wait (P) and signal (V) operations, used to control access to a critical section among concurrent processes.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -14029,7 +14029,7 @@ window.QUESTIONS = [
    "D": "all of these"
   },
   "ans": "D",
-  "exp": "",
+  "exp": "The channel used by two processes to exchange messages is generally called a communication link, and depending on context it also serves message-passing and synchronization roles between the processes.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -14050,7 +14050,7 @@ window.QUESTIONS = [
    "D": "None of these"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "CPU scheduling exists to keep the processor busy running processes as much as possible, i.e. to increase CPU utilization rather than let it sit idle.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -14071,7 +14071,7 @@ window.QUESTIONS = [
    "D": "critical condition"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "A race condition arises when multiple processes access shared data concurrently and the final result depends on the unpredictable timing/order in which the accesses happen to occur.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -14092,7 +14092,7 @@ window.QUESTIONS = [
    "D": "Ready Queue"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "The standard OS process queues are the job queue, the ready queue, and device queues; a 'PCB queue' is not one of the conventional named queues used to model process scheduling.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -14113,7 +14113,7 @@ window.QUESTIONS = [
    "D": "none of these"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "First-Come, First-Served (FCFS) scheduling allocates the CPU to whichever process requested it earliest, processing requests strictly in arrival order.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -14134,7 +14134,7 @@ window.QUESTIONS = [
    "D": "None of these"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "Semaphores are a general-purpose synchronization primitive commonly used to implement inter-process communication (IPC) mechanisms, coordinating access to shared resources between processes.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -14155,7 +14155,7 @@ window.QUESTIONS = [
    "D": "deleting a file system"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "Mounting a file system means attaching that file system's directory structure at a specific point (mount point) within the existing overall directory tree, making it accessible.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -14176,7 +14176,7 @@ window.QUESTIONS = [
    "D": "FCFS"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "Preemptive scheduling is the strategy of allowing a running (logically runnable) process to be temporarily suspended so another process can use the CPU, rather than running each process to completion.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -14197,7 +14197,7 @@ window.QUESTIONS = [
    "D": "Both (a) and (b)"
   },
   "ans": "D",
-  "exp": "",
+  "exp": "Scan conversion and rasterization refer to the same process — converting a primitive's geometric definition into the set of pixels that represent it in image space — so both terms describe it correctly.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -14218,7 +14218,7 @@ window.QUESTIONS = [
    "D": "None of these"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "Segmentation gives programs a large, multi-dimensional (segment + offset) virtual address space that better matches a program's logical structure than a single flat address space.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -14239,7 +14239,7 @@ window.QUESTIONS = [
    "D": "Flip-flop"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "The operation code (opcode) portion of a machine instruction specifies which operation the CPU is to perform, distinct from the address field, which specifies operands' locations.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -14260,7 +14260,7 @@ window.QUESTIONS = [
    "D": "allows processor-bound tasks more time in the processor"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "Round-robin scheduling gives every process an equal, fixed time slice (quantum) in rotation, ensuring fairness among tasks regardless of their type.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -14281,7 +14281,7 @@ window.QUESTIONS = [
    "D": "None of these"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "The Least Recently Used (LRU) page-replacement algorithm evicts the page that has gone the longest without being referenced, on the assumption it's least likely to be needed again soon.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -14302,7 +14302,7 @@ window.QUESTIONS = [
    "D": "All of the above"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "A page fault happens when a process references a page that is not currently loaded in physical memory, forcing the OS to fetch it from secondary storage.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -14323,7 +14323,7 @@ window.QUESTIONS = [
    "D": "Schema"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "The set of legal/permitted values that an attribute can take is called its domain, part of the formal definition of a relation's schema.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -14344,7 +14344,7 @@ window.QUESTIONS = [
    "D": "Constant"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "A relation is defined as a set of tuples, and sets have no inherent ordering, so the tuples of a relation may appear in any order.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -14365,7 +14365,7 @@ window.QUESTIONS = [
    "D": "Model"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "An attribute is the descriptive property (characteristic) that each entity in an entity set possesses, such as name or ID.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -14386,7 +14386,7 @@ window.QUESTIONS = [
    "D": "Data"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "In a Network Management System, network maps track each piece of hardware and how it connects into the overall network topology.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -14407,7 +14407,7 @@ window.QUESTIONS = [
    "D": "Foreign key"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "A super key is any set of attributes that uniquely identifies a record, and it may include extra, non-essential attributes beyond what's strictly needed (unlike a candidate key, which is minimal).",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -14428,7 +14428,7 @@ window.QUESTIONS = [
    "D": "None of these"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "Topology refers to the physical or logical layout describing how the nodes and links of a network are arranged and interconnected.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -14449,7 +14449,7 @@ window.QUESTIONS = [
    "D": "Query language"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "Relational algebra is procedural — it specifies the exact sequence of operations to derive a result — unlike the calculus-based query languages, which are declarative.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -14470,7 +14470,7 @@ window.QUESTIONS = [
    "D": "Primary entity set"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "An entity set lacking attributes sufficient to form its own primary key is called a weak entity set, and it relies on a related strong entity for full identification.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -14491,7 +14491,7 @@ window.QUESTIONS = [
    "D": "deadlock detection"
   },
   "ans": "D",
-  "exp": "",
+  "exp": "A wait-for graph models which transactions are waiting on locks held by others; a cycle in this graph indicates a deadlock, which is how it's used for deadlock detection.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -14512,7 +14512,7 @@ window.QUESTIONS = [
    "D": "Both (a) and (c)"
   },
   "ans": "D",
-  "exp": "",
+  "exp": "Both PERT (Program Evaluation and Review Technique) and CPM (Critical Path Method) are project-scheduling techniques that can be, and commonly are, applied to plan and track software development projects.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -14533,7 +14533,7 @@ window.QUESTIONS = [
    "D": "Ability to modify application programs"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "Logical data independence is the ability to change the conceptual/logical schema of a database without needing to rewrite application programs, i.e. protection from changes in the logical structure.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -14554,7 +14554,7 @@ window.QUESTIONS = [
    "D": "Multiple processes requiring exclusive access to shared data"
   },
   "ans": "D",
-  "exp": "",
+  "exp": "The critical section problem specifically arises when multiple concurrent processes need exclusive access to data they share, requiring coordination to avoid inconsistent results.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -14575,7 +14575,7 @@ window.QUESTIONS = [
    "D": "No preemption"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "Hold and wait is the deadlock condition where a process holds at least one resource while simultaneously waiting to acquire additional resources currently held by others, without releasing what it already has.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -14596,7 +14596,7 @@ window.QUESTIONS = [
    "D": "Threads share open files"
   },
   "ans": "C",
-  "exp": "",
+  "exp": "Threads share the same address space and open files and are more lightweight than processes, but they are not independent of one another — they can affect each other's execution through shared memory, making the 'always run independently' statement false.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -14617,7 +14617,7 @@ window.QUESTIONS = [
    "D": "Priority Scheduling"
   },
   "ans": "B",
-  "exp": "",
+  "exp": "Shortest Job First (SJF) scheduling provably minimizes average waiting time among non-preemptive scheduling algorithms by always running the shortest available job next.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
@@ -14638,7 +14638,7 @@ window.QUESTIONS = [
    "D": "Open file table"
   },
   "ans": "A",
-  "exp": "",
+  "exp": "In a multithreaded process, each thread keeps its own register set and stack (its execution context), while the code, data, and open files are shared across all threads of that process.",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },

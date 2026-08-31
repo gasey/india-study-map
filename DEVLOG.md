@@ -9,7 +9,22 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
-## 2026-09-01 (latest) — System Analyst Technical Paper I: Complete – 781 questions across 6 sources
+## 2026-09-01 (latest) — Practice tab Source filter now shows actual question sources
+
+**COMPLETED:** Updated the System Analyst Practice tab's Source filter dropdown to display the three actual question sources with user-friendly labels instead of hardcoded placeholder text.
+
+**What changed:**
+- Source dropdown now shows: "System Analyst 2026 CSE Prep" (297 Q), "Official Legacy Exams" (227 Q), "MES 2015 Engineering" (56 Q) with correct filtering by `srcKey`
+- Filtering logic updated from checking `q.src` (which only had 'past'/'generated' values) to `q.srcKey` (the actual source identifiers)
+- UI now reflects the actual composition of the question bank rather than misleading generic labels
+
+**Why:** Users requested visibility into question sources during practice sessions. The old filter labels ("Past papers only" / "Authored practice only") didn't match the real data structure where questions carry a `srcKey` field identifying their origin (CSE 2015 exam prep vs. official MPSC exams vs. MES 2015 engineering).
+
+**Still open:** None identified yet. Filter works end-to-end across all three sources.
+
+---
+
+## 2026-09-01 — System Analyst Technical Paper I: Complete – 781 questions across 6 sources
 
 **COMPLETED:** Technical Paper I (200 marks) now has **781 questions** from **6 sources**, merging official Informatics Officer exams + recovered CSE 2015 content + MES 2015 engineering exam. All previous questions restored; nothing lost despite the "codex deletion" concern.
 

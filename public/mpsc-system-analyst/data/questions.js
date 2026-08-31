@@ -16426,5 +16426,215 @@ window.QUESTIONS = [
   "exp": "Both selection sort and insertion sort share O(n^2) asymptotic time complexity in the average/worst case, which is the property this question is testing.",
   "prov": "Jr. Grade MES 2015 Paper I",
   "note": "Recovered from page 5 of the source PDF. Note both are also correctly described as 'non-recursive' (option B), so this question has some ambiguity in a strict sense; going with the more commonly tested textbook comparison point (complexity)."
+ },
+ {
+  "id": "MES2015_PAPER1_041",
+  "src": "past",
+  "sitting": "Jr. Grade of MES, November 2015",
+  "srcKey": "MES2015_CSE",
+  "no": 41,
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Graphs, disjoint sets and greedy algorithms",
+  "q": "A union find data-structure is commonly applied while implementing",
+  "opts": {
+   "A": "A depth-first search traversal of a graph",
+   "B": "A breadth-first search traversal of a graph",
+   "C": "The computation of the minimum spanning tree of a graph",
+   "D": "The computation of the all-pairs shortest path in a graph"
+  },
+  "ans": "C",
+  "exp": "Kruskal's MST algorithm uses union-find to detect and reject cycle-forming edges in near-constant time.",
+  "prov": "Jr. Grade MES 2015 Paper I",
+  "note": ""
+ },
+ {
+  "id": "MES2015_PAPER1_042",
+  "src": "past",
+  "sitting": "Jr. Grade of MES, November 2015",
+  "srcKey": "MES2015_CSE",
+  "no": 42,
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Recursion, searching and sorting",
+  "q": "Which of the following algorithm uses 'divide and conquer' strategy?",
+  "opts": {
+   "A": "Insertion sort",
+   "B": "Quick sort",
+   "C": "Shell sort",
+   "D": "Selection sort"
+  },
+  "ans": "B",
+  "exp": "Quicksort partitions around a pivot and recursively sorts independent sub-arrays.",
+  "prov": "Jr. Grade MES 2015 Paper I",
+  "note": ""
+ },
+ {
+  "id": "MES2015_PAPER1_043",
+  "src": "past",
+  "sitting": "Jr. Grade of MES, November 2015",
+  "srcKey": "MES2015_CSE",
+  "no": 43,
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Recursion, searching and sorting",
+  "q": "Which of the following is the tightest upper bound that represents the number of swaps required to sort numbers using selection sort?",
+  "opts": {
+   "A": "O(log n)",
+   "B": "O(n)",
+   "C": "O(n log n)",
+   "D": "O(n^2)"
+  },
+  "ans": "B",
+  "exp": "Selection sort performs exactly one swap per pass (n-1 passes), giving linear swap count despite O(n^2) comparisons.",
+  "prov": "Jr. Grade MES 2015 Paper I",
+  "note": ""
+ },
+ {
+  "id": "MES2015_PAPER1_044",
+  "src": "past",
+  "sitting": "Jr. Grade of MES, November 2015",
+  "srcKey": "MES2015_CSE",
+  "no": 44,
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Trees, AVL trees, heaps, B-trees and external search",
+  "q": "A priority queue is implemented as a Max-Heap. Initially, it has 5 elements. The level-order traversal of the heap is: 10, 8, 5, 3, 2. Two new elements 1 and 7 are inserted into the heap in that order. The level-order traversal of the heap after the insertion of the elements is",
+  "opts": {
+   "A": "10, 8, 7, 3, 2, 1, 5",
+   "B": "10, 8, 7, 2, 3, 1, 5",
+   "C": "10, 8, 7, 1, 2, 3, 5",
+   "D": "10, 8, 7, 5, 3, 2, 1"
+  },
+  "ans": "A",
+  "exp": "Insert 1 at index 5 (left child of 5); doesn't bubble up. Insert 7 at index 6; bubbles up past 5 but stops below 10.",
+  "prov": "Jr. Grade MES 2015 Paper I",
+  "note": ""
+ },
+ {
+  "id": "MES2015_PAPER1_045",
+  "src": "past",
+  "sitting": "Jr. Grade of MES, November 2015",
+  "srcKey": "MES2015_CSE",
+  "no": 45,
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Recursion, searching and sorting",
+  "q": "Let P be a QuickSort program to sort numbers in ascending order using the first element as pivot. Let t1 and t2 be the number of comparisons made by P for the inputs {1, 2, 3, 4, 5} and {4, 1, 5, 3, 2} respectively. Which of the following holds?",
+  "opts": {
+   "A": "t1 = 5",
+   "B": "t1 < t2",
+   "C": "t1 > t2",
+   "D": "t1 = t2"
+  },
+  "ans": "C",
+  "exp": "Sorted input {1,2,3,4,5} is worst case for first-pivot quicksort (t1=10). Balanced input {4,1,5,3,2} gives only 7 comparisons (t2=7). So t1 > t2.",
+  "prov": "Jr. Grade MES 2015 Paper I",
+  "note": "OCR options were garbled; corrected from 'tl>2'/'tl=2' to 't1>t2'/'t1=t2' per original exam format. Medium confidence pending PDF page verification."
+ },
+ {
+  "id": "MES2015_PAPER1_046",
+  "src": "past",
+  "sitting": "Jr. Grade of MES, November 2015",
+  "srcKey": "MES2015_CSE",
+  "no": 46,
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Trees, AVL trees, heaps, B-trees and external search",
+  "q": "When inorder traversing a tree resulted E A C K F H D B G, the preorder traversal would return",
+  "opts": {
+   "A": "FAEKCDBHG",
+   "B": "FAEKCDHGB",
+   "C": "EAFKHDCBG",
+   "D": "FEAKDCHBG"
+  },
+  "ans": "B",
+  "exp": "Reconstructing tree from FAEKCDHGB preorder against given EACKHDBG inorder is fully consistent; other options produce contradictions.",
+  "prov": "Jr. Grade MES 2015 Paper I",
+  "note": ""
+ },
+ {
+  "id": "MES2015_PAPER1_047",
+  "src": "past",
+  "sitting": "Jr. Grade of MES, November 2015",
+  "srcKey": "MES2015_CSE",
+  "no": 47,
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Trees, AVL trees, heaps, B-trees and external search",
+  "q": "Which of the following is not height-balanced tree?",
+  "opts": {
+   "A": "AVL Tree",
+   "B": "B-Tree",
+   "C": "Red-black Tree",
+   "D": "None of these"
+  },
+  "ans": "D",
+  "exp": "AVL, B-tree, and red-black trees are all self-balancing; none of the three listed is unbalanced.",
+  "prov": "Jr. Grade MES 2015 Paper I",
+  "note": ""
+ },
+ {
+  "id": "MES2015_PAPER1_048",
+  "src": "past",
+  "sitting": "Jr. Grade of MES, November 2015",
+  "srcKey": "MES2015_CSE",
+  "no": 48,
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Algorithm development and complexity",
+  "q": "Performance of an algorithm is determined by",
+  "opts": {
+   "A": "Space",
+   "B": "Time",
+   "C": "Both (a) and (b)",
+   "D": "None of these"
+  },
+  "ans": "C",
+  "exp": "Algorithm performance requires analysis on two axes: time complexity and space complexity.",
+  "prov": "Jr. Grade MES 2015 Paper I",
+  "note": ""
+ },
+ {
+  "id": "MES2015_PAPER1_049",
+  "src": "past",
+  "sitting": "Jr. Grade of MES, November 2015",
+  "srcKey": "MES2015_CSE",
+  "no": 49,
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Arrays, strings and linear lists",
+  "q": "Worst case complexity of the algorithm to insert an element into a list is",
+  "opts": {
+   "A": "O(1)",
+   "B": "O(n)",
+   "C": "O(log n)",
+   "D": "None of these"
+  },
+  "ans": "B",
+  "exp": "Insertion at arbitrary position requires shifting up to n elements (array) or traversing n nodes (linked list).",
+  "prov": "Jr. Grade MES 2015 Paper I",
+  "note": ""
+ },
+ {
+  "id": "MES2015_PAPER1_050",
+  "src": "past",
+  "sitting": "Jr. Grade of MES, November 2015",
+  "srcKey": "MES2015_CSE",
+  "no": 50,
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Recursion, searching and sorting",
+  "q": "Selection and Insertion sort are similar in respect of",
+  "opts": {
+   "A": "Asymptotic complexity",
+   "B": "Non recursive",
+   "C": "Non-linear operation",
+   "D": "None of these"
+  },
+  "ans": "B",
+  "exp": "Both are conventionally implemented iteratively rather than recursively.",
+  "prov": "Jr. Grade MES 2015 Paper I",
+  "note": ""
  }
 ];

@@ -110,7 +110,41 @@ The SM technical syllabus *is* the Computer Operator syllabus. These are the clo
 past questions in existence, and they sit at the right difficulty (sample: "A group of
 four bits is also called", "The second generation of computer was based on").
 
-In `mpsc-question-bank/bank/mpsc_bank_v2.json` (58 MB; key `questions`):
+⚠️**CORRECTED 2026-08-31 — this section listed 4 papers. There are 15, across FIVE
+sittings.** MPSC examined Computer Operator in 2016 (twice), 2018 and 2019 (twice):
+
+| Sitting | Papers |
+|---|---|
+| SAD, 2016 | GE, Technical P-I, Technical P-II |
+| Mizoram Information Commission, 2016 | GE, Paper I, Paper II |
+| MIMER, February 2018 | GE (common), Technical P-I, Technical P-II |
+| AH & Vety Dept, May 2019 | GE, Paper I, Paper II |
+| Election Dept, December 2019 | GE, Paper I, Paper II |
+
+Verified against all 67 MPSC listing pages — this is the complete set.
+
+**Why the original list found only four.** MPSC's listing pages put the post name in
+one table cell and the paper links in the next; the question-bank scraper used the
+*link text* as the title. So these papers are stored as `Paper-II(AH&Vety).pdf`,
+`2.Technical Paper-I.pdf`, `3.Technical Paper-II.pdf` — with "Computer Operator"
+nowhere in the filename, `paperId` or `index.csv`. The inventory below was built by
+grepping the bank for "Computer Operator", which cannot see them. **Never inventory
+this corpus by post name; go to the listing table.**
+
+**Two filename traps that follow from it.** The leading digit is a listing row number
+and rows interleave across posts, so `2.Technical Paper-I.pdf` (Laboratory Technician)
+and `3.Technical Paper-I.pdf` (PHE Programmer) are *different posts*, neither of them
+Computer Operator. And because two URLs can flatten to the same name, the MIMER
+Computer Operator Technical Paper I was **overwritten** by the Laboratory Technician
+paper and is not in the corpus at all — it is still live on MPSC at
+`uploads/attachments/963bc976d8dfb7ce26c046ac1c4dba1b/technical-paper-i-compt.pdf`
+with a clean text layer. `harvest.py` therefore verifies every paper against its own
+printed header before taking a question, and the check must pin the **post**, not the
+employer — asking only for "MIZORAM INSTITUTE OF MEDICAL EDUCATION AND RESEARCH"
+admitted 75 Laboratory Technician questions as Computer Operator on 2026-08-31.
+
+In `mpsc-question-bank/bank/mpsc_bank_v2.json` (58 MB; key `questions`), the four
+originally-known papers:
 
 | `paperId` | Q | Answered |
 |---|---|---|
@@ -204,6 +238,20 @@ components by their marks (15/20/20/20).
 
 Degree-level (Informatics Officer, CS&E). Most is off-syllabus for SM — compilers,
 automata, J2EE. Filter to on-syllabus items only; do not bulk-import.
+
+⚠️**Two sources this table missed, both found 2026-08-31 by the same audit:**
+
+* **Programmer under PHE Dept, July 2018** — Technical Paper I/II/III (100 q each,
+  200 marks) plus GE Paper-I/II. Stored as `3./4./5.Technical Paper-*.pdf` with no
+  post name, same flattening bug. 291 technical questions. Closer to SM than
+  Informatics Officer, but still a degree-level post — cherry-pick. Note Paper II
+  has 100 questions with **zero** answers, and Paper III lost 9 (91 of 100).
+* **Informatics Officer 2024** — Technical Paper I/II/III + GE I/II, in
+  `Old_Questions/Direct_2023-2025/`. The table below lists only the 2020-21 sitting.
+  Being post-2016, this is the only past-paper source that touches the modern
+  topics in §"Coverage gap". An **official answer key exists** for Informatics
+  Officer (`final-answer-key-of-informatics-officer-under-ict-department.pdf` on
+  MPSC's answer-key page) — the only official key anywhere near this syllabus.
 
 | `paperId` | Q | Answered |
 |---|---|---|

@@ -1,0 +1,162 @@
+{
+  "CO2019B-P1-11": {
+    "unit": "I",
+    "sub": "CPU Architecture and Instruction Cycle"
+  },
+  "CO2019B-P1-12": {
+    "unit": "I",
+    "sub": "CPU Architecture and Instruction Cycle"
+  },
+  "CO2019B-P1-13": {
+    "unit": "I",
+    "sub": "RAM, ROM and Virtual Memory"
+  },
+  "CO2019B-P1-14": {
+    "unit": "I",
+    "sub": "RAM, ROM and Virtual Memory"
+  },
+  "CO2019B-P1-15": {
+    "unit": "I",
+    "sub": "Optical and Flash Storage"
+  },
+  "CO2019B-P1-16": {
+    "unit": "I",
+    "sub": "CPU Architecture and Instruction Cycle"
+  },
+  "CO2019B-P1-17": {
+    "unit": "I",
+    "sub": "Cache Memory"
+  },
+  "CO2019B-P1-18": {
+    "unit": "I",
+    "sub": "CPU Architecture and Instruction Cycle"
+  },
+  "CO2019B-P1-19": {
+    "unit": "I",
+    "sub": "RAM, ROM and Virtual Memory"
+  },
+  "CO2019B-P1-20": {
+    "unit": "I",
+    "sub": "Software Development Life Cycle (SDLC)"
+  },
+  "CO2019B-P1-21": {
+    "unit": "I",
+    "sub": "Software Development Life Cycle (SDLC)"
+  },
+  "CO2019B-P1-22": {
+    "unit": "I",
+    "sub": "Software Development Life Cycle (SDLC)"
+  },
+  "CO2019B-P1-23": {
+    "unit": "I",
+    "sub": "Software Development Life Cycle (SDLC)"
+  },
+  "CO2019B-P1-24": {
+    "unit": "I",
+    "sub": "Software Development Life Cycle (SDLC)"
+  },
+  "CO2019B-P1-25": {
+    "unit": "I",
+    "sub": "CPU Architecture and Instruction Cycle"
+  },
+  "CO2019B-P1-26": {
+    "unit": "I",
+    "sub": "Programming Languages"
+  },
+  "CO2019B-P1-27": {
+    "unit": "I",
+    "sub": "Programming Languages"
+  },
+  "CO2019B-P1-28": {
+    "unit": "I",
+    "sub": "Programming Languages"
+  },
+  "CO2019B-P1-29": {
+    "unit": "I",
+    "sub": "Object-Oriented Programming Concepts"
+  },
+  "CO2019B-P1-30": {
+    "unit": "I",
+    "sub": "Object-Oriented Programming Concepts"
+  },
+  "CO2019B-P1-31": {
+    "unit": "I",
+    "sub": "Classification of Computers"
+  },
+  "CO2019B-P1-32": {
+    "unit": "I",
+    "sub": "Classification of Computers"
+  },
+  "CO2019B-P1-33": {
+    "unit": "II",
+    "sub": "Types and Functions of Operating Systems"
+  },
+  "CO2019B-P1-34": {
+    "unit": "II",
+    "sub": "Windows Operating Systems"
+  },
+  "CO2019B-P1-35": {
+    "unit": "II",
+    "sub": "File Systems"
+  },
+  "CO2019B-P1-36": {
+    "unit": "II",
+    "sub": "Command Prompt"
+  },
+  "CO2019B-P1-37": {
+    "unit": "II",
+    "sub": "Basic Batch Files"
+  },
+  "CO2019B-P1-38": {
+    "unit": "II",
+    "sub": "Command Prompt"
+  },
+  "CO2019B-P1-39": {
+    "unit": "II",
+    "sub": "Command Prompt"
+  },
+  "CO2019B-P1-40": {
+    "unit": "II",
+    "sub": "Types and Functions of Operating Systems"
+  },
+  "CO2019B-P1-41": {
+    "unit": "II",
+    "sub": "Disk Management"
+  },
+  "CO2019B-P1-42": {
+    "unit": "II",
+    "sub": "Command Prompt"
+  },
+  "CO2019B-P1-43": {
+    "unit": "II",
+    "sub": "Command Prompt"
+  },
+  "CO2019B-P1-44": {
+    "unit": "II",
+    "sub": "Files and Folders"
+  },
+  "CO2019B-P1-45": {
+    "unit": "III",
+    "sub": "Document Creation"
+  },
+  "CO2019B-P1-46": {
+    "unit": "III",
+    "sub": "Styles and Themes"
+  },
+  "CO2019B-P1-47": {
+    "unit": "III",
+    "sub": "Tables"
+  },
+  "CO2019B-P1-48": {
+    "unit": "III",
+    "sub": "Document Creation"
+  },
+  "CO2019B-P1-49": {
+    "unit": "III",
+    "sub": "Document Creation"
+  },
+  "CO2019B-P1-50": {
+    "unit": "III",
+    "sub": "Page Layout"
+  }
+}

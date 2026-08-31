@@ -1,0 +1,1291 @@
+{
+  "paper": "TECH2",
+  "instructions": "For each question in `questions`, add an entry to a JSON object keyed by question id: {\"<id>\": {\"unit\": \"<unit no>\", \"sub\": \"<leaf subtopic VERBATIM>\"}}. Write it to the same filename with .todo.json replaced by .done.json. `sub` must be copied character-for-character from `allowed_leaves` — it is matched by string equality, and the `unit` you give must be the one belonging to that same leaf. Every paper, GE included, is tagged to a leaf; a null sub is rejected.",
+  "allowed_units": [
+    {
+      "unit": "I",
+      "title": "Computer Networking",
+      "marks": 35
+    },
+    {
+      "unit": "II",
+      "title": "Database Management System",
+      "marks": 35
+    },
+    {
+      "unit": "III",
+      "title": "Web Technologies",
+      "marks": 25
+    },
+    {
+      "unit": "IV",
+      "title": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+      "marks": 30
+    },
+    {
+      "unit": "V",
+      "title": "IT Governance, Business Communication and Aptitude",
+      "marks": 25
+    }
+  ],
+  "allowed_leaves": [
+    {
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "section": "Network Fundamentals",
+      "sub": "Types of Networks"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "section": "Network Fundamentals",
+      "sub": "OSI Model"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "section": "Network Fundamentals",
+      "sub": "TCP/IP Model"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "section": "Network Fundamentals",
+      "sub": "IPv4 and IPv6"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "section": "Network Fundamentals",
+      "sub": "IP Addressing"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "section": "Network Fundamentals",
+      "sub": "Subnetting"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "section": "Network Fundamentals",
+      "sub": "Routing and Switching"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "section": "Network Devices",
+      "sub": "Hubs"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "section": "Network Devices",
+      "sub": "Switches"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "section": "Network Devices",
+      "sub": "Routers"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "section": "Network Devices",
+      "sub": "Gateways"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "section": "Network Devices",
+      "sub": "Firewalls"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "section": "Network Devices",
+      "sub": "Wireless Access Points"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "section": "Network Services",
+      "sub": "DNS"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "section": "Network Services",
+      "sub": "DHCP"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "section": "Network Services",
+      "sub": "VPN"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "section": "Network Services",
+      "sub": "NAT"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "section": "Network Services",
+      "sub": "Proxy Servers"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "section": "Wireless Networking",
+      "sub": "Wi-Fi Standards"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "section": "Wireless Networking",
+      "sub": "Wireless Security"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "section": "Wireless Networking",
+      "sub": "Mobile Networks"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "section": "Windows Server Administration",
+      "sub": "Windows Server Concepts"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "section": "Windows Server Administration",
+      "sub": "Active Directory"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "section": "Windows Server Administration",
+      "sub": "Group Policy"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "section": "Windows Server Administration",
+      "sub": "User and Group Management"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "section": "Windows Server Administration",
+      "sub": "File and Printer Sharing"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "section": "Windows Server Administration",
+      "sub": "Remote Desktop Services"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "section": "Cloud Networking",
+      "sub": "Cloud Infrastructure"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "section": "Cloud Networking",
+      "sub": "Virtual Networks"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "section": "Cloud Networking",
+      "sub": "Microsoft Azure Fundamentals (Concept)"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "section": "Cloud Networking",
+      "sub": "Network Monitoring"
+    },
+    {
+      "unit": "I",
+      "unitTitle": "Computer Networking",
+      "section": "Cloud Networking",
+      "sub": "Network Troubleshooting"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Database Management System",
+      "section": "Database Fundamentals",
+      "sub": "Database Concepts"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Database Management System",
+      "section": "Database Fundamentals",
+      "sub": "Database Architecture"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Database Management System",
+      "section": "Database Fundamentals",
+      "sub": "Data Models"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Database Management System",
+      "section": "Database Fundamentals",
+      "sub": "ER Modelling"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Database Management System",
+      "section": "Database Fundamentals",
+      "sub": "Relational Database Management System"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Database Management System",
+      "section": "SQL",
+      "sub": "Data Definition Language (DDL)"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Database Management System",
+      "section": "SQL",
+      "sub": "Data Manipulation Language (DML)"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Database Management System",
+      "section": "SQL",
+      "sub": "Data Control Language (DCL)"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Database Management System",
+      "section": "SQL",
+      "sub": "Transaction Control Language (TCL)"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Database Management System",
+      "section": "Database Administration",
+      "sub": "Tables"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Database Management System",
+      "section": "Database Administration",
+      "sub": "Views"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Database Management System",
+      "section": "Database Administration",
+      "sub": "Indexes"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Database Management System",
+      "section": "Database Administration",
+      "sub": "Stored Procedures (Concept)"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Database Management System",
+      "section": "Database Administration",
+      "sub": "Triggers (Concept)"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Database Management System",
+      "section": "Database Administration",
+      "sub": "Transactions"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Database Management System",
+      "section": "Database Administration",
+      "sub": "Concurrency Control"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Database Management System",
+      "section": "Database Administration",
+      "sub": "Backup and Recovery"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Database Management System",
+      "section": "Database Security",
+      "sub": "Authentication"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Database Management System",
+      "section": "Database Security",
+      "sub": "Authorization"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Database Management System",
+      "section": "Database Security",
+      "sub": "Encryption"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Database Management System",
+      "section": "Database Security",
+      "sub": "Auditing"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Database Management System",
+      "section": "Modern Databases",
+      "sub": "Microsoft SQL Server (Concept)"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Database Management System",
+      "section": "Modern Databases",
+      "sub": "PostgreSQL (Concept)"
+    },
+    {
+      "unit": "II",
+      "unitTitle": "Database Management System",
+      "section": "Modern Databases",
+      "sub": "NoSQL Databases (Introduction)"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Web Technologies",
+      "section": "Internet Technologies",
+      "sub": "Internet Architecture"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Web Technologies",
+      "section": "Internet Technologies",
+      "sub": "World Wide Web"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Web Technologies",
+      "section": "Internet Technologies",
+      "sub": "Domain Name System"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Web Technologies",
+      "section": "Internet Technologies",
+      "sub": "Web Hosting"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Web Technologies",
+      "section": "HTML5",
+      "sub": "Document Structure"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Web Technologies",
+      "section": "HTML5",
+      "sub": "Text Formatting"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Web Technologies",
+      "section": "HTML5",
+      "sub": "Hyperlinks"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Web Technologies",
+      "section": "HTML5",
+      "sub": "Lists"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Web Technologies",
+      "section": "HTML5",
+      "sub": "Tables"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Web Technologies",
+      "section": "HTML5",
+      "sub": "Images"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Web Technologies",
+      "section": "HTML5",
+      "sub": "Multimedia"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Web Technologies",
+      "section": "HTML5",
+      "sub": "Forms"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Web Technologies",
+      "section": "CSS3",
+      "sub": "Styling"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Web Technologies",
+      "section": "CSS3",
+      "sub": "Layouts"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Web Technologies",
+      "section": "CSS3",
+      "sub": "Responsive Design"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Web Technologies",
+      "section": "JavaScript",
+      "sub": "Variables"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Web Technologies",
+      "section": "JavaScript",
+      "sub": "Functions"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Web Technologies",
+      "section": "JavaScript",
+      "sub": "Events"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Web Technologies",
+      "section": "JavaScript",
+      "sub": "DOM Manipulation"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Web Technologies",
+      "section": "JavaScript",
+      "sub": "Client-side Validation"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Web Technologies",
+      "section": "Modern Web Concepts",
+      "sub": "REST APIs (Concept)"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Web Technologies",
+      "section": "Modern Web Concepts",
+      "sub": "JSON"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Web Technologies",
+      "section": "Modern Web Concepts",
+      "sub": "Progressive Web Applications (Introduction)"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Web Technologies",
+      "section": "Modern Web Concepts",
+      "sub": "Web Accessibility"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Web Technologies",
+      "section": "Modern Web Concepts",
+      "sub": "Search Engine Optimization (Basic)"
+    },
+    {
+      "unit": "III",
+      "unitTitle": "Web Technologies",
+      "section": "Modern Web Concepts",
+      "sub": "Web Security Fundamentals"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+      "section": "Cyber Security",
+      "sub": "Information Security Principles"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+      "section": "Cyber Security",
+      "sub": "Cyber Threats and Malware"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+      "section": "Cyber Security",
+      "sub": "Firewalls"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+      "section": "Cyber Security",
+      "sub": "Antivirus and Endpoint Protection"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+      "section": "Cyber Security",
+      "sub": "Multi-factor Authentication (MFA)"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+      "section": "Cyber Security",
+      "sub": "Encryption"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+      "section": "Cyber Security",
+      "sub": "Digital Certificates"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+      "section": "Cyber Security",
+      "sub": "Public Key Infrastructure (PKI)"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+      "section": "Cyber Security",
+      "sub": "Vulnerability Assessment"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+      "section": "Cyber Security",
+      "sub": "Patch Management"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+      "section": "Cyber Security",
+      "sub": "Incident Response"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+      "section": "Cyber Security",
+      "sub": "Cyber Hygiene"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+      "section": "Artificial Intelligence",
+      "sub": "Fundamentals of Artificial Intelligence"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+      "section": "Artificial Intelligence",
+      "sub": "Machine Learning"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+      "section": "Artificial Intelligence",
+      "sub": "Deep Learning"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+      "section": "Artificial Intelligence",
+      "sub": "Natural Language Processing"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+      "section": "Artificial Intelligence",
+      "sub": "Computer Vision"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+      "section": "Artificial Intelligence",
+      "sub": "Generative AI"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+      "section": "Artificial Intelligence",
+      "sub": "Large Language Models (LLMs)"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+      "section": "Artificial Intelligence",
+      "sub": "Prompt Engineering"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+      "section": "Artificial Intelligence",
+      "sub": "AI Ethics and Responsible AI"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+      "section": "Artificial Intelligence",
+      "sub": "AI Applications in Government"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+      "section": "Artificial Intelligence",
+      "sub": "AI-assisted System Administration"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+      "section": "Artificial Intelligence",
+      "sub": "AI-assisted Data Analysis"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+      "section": "Digital Governance Systems (Emerging Technologies)",
+      "sub": "NIC eOffice"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+      "section": "Digital Governance Systems (Emerging Technologies)",
+      "sub": "e-Office Concept and Digital Office Environment"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+      "section": "Digital Governance Systems (Emerging Technologies)",
+      "sub": "Knowledge Management System (KMS)"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+      "section": "Digital Governance Systems (Emerging Technologies)",
+      "sub": "e-Office Security"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+      "section": "Digital Governance Systems (Emerging Technologies)",
+      "sub": "Digital Signature Certificate (DSC)"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+      "section": "Digital Governance Systems (Emerging Technologies)",
+      "sub": "Workflow Configuration"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+      "section": "Digital Governance Systems (Emerging Technologies)",
+      "sub": "Metadata Management"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+      "section": "Digital Governance Systems (Emerging Technologies)",
+      "sub": "Record Retention and Archival"
+    },
+    {
+      "unit": "IV",
+      "unitTitle": "Cyber Security, Artificial Intelligence and Emerging Technologies",
+      "section": "Digital Governance Systems (Emerging Technologies)",
+      "sub": "Office Procedure in Digital Environment"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "IT Governance, Business Communication and Aptitude",
+      "section": "IT Governance",
+      "sub": "IT Service Management (ITSM)"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "IT Governance, Business Communication and Aptitude",
+      "section": "IT Governance",
+      "sub": "ITIL Fundamentals"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "IT Governance, Business Communication and Aptitude",
+      "section": "IT Governance",
+      "sub": "IT Asset Management"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "IT Governance, Business Communication and Aptitude",
+      "section": "IT Governance",
+      "sub": "Software Asset Management"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "IT Governance, Business Communication and Aptitude",
+      "section": "IT Governance",
+      "sub": "Business Continuity Planning"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "IT Governance, Business Communication and Aptitude",
+      "section": "IT Governance",
+      "sub": "Disaster Recovery Planning"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "IT Governance, Business Communication and Aptitude",
+      "section": "IT Governance",
+      "sub": "IT Procurement"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "IT Governance, Business Communication and Aptitude",
+      "section": "IT Governance",
+      "sub": "Documentation Standards"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "IT Governance, Business Communication and Aptitude",
+      "section": "IT Governance",
+      "sub": "Project Management Fundamentals"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "IT Governance, Business Communication and Aptitude",
+      "section": "Business Communication",
+      "sub": "Official Correspondence"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "IT Governance, Business Communication and Aptitude",
+      "section": "Business Communication",
+      "sub": "Technical Report Writing"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "IT Governance, Business Communication and Aptitude",
+      "section": "Business Communication",
+      "sub": "Email Etiquette"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "IT Governance, Business Communication and Aptitude",
+      "section": "Business Communication",
+      "sub": "Presentation Skills"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "IT Governance, Business Communication and Aptitude",
+      "section": "Business Communication",
+      "sub": "Meeting Documentation"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "IT Governance, Business Communication and Aptitude",
+      "section": "Aptitude and Analytical Ability",
+      "sub": "Numerical Ability"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "IT Governance, Business Communication and Aptitude",
+      "section": "Aptitude and Analytical Ability",
+      "sub": "Logical Reasoning"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "IT Governance, Business Communication and Aptitude",
+      "section": "Aptitude and Analytical Ability",
+      "sub": "Analytical Reasoning"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "IT Governance, Business Communication and Aptitude",
+      "section": "Aptitude and Analytical Ability",
+      "sub": "Data Interpretation"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "IT Governance, Business Communication and Aptitude",
+      "section": "Aptitude and Analytical Ability",
+      "sub": "Digital Reasoning"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "IT Governance, Business Communication and Aptitude",
+      "section": "Aptitude and Analytical Ability",
+      "sub": "Interpretation of AI-generated Outputs"
+    },
+    {
+      "unit": "V",
+      "unitTitle": "IT Governance, Business Communication and Aptitude",
+      "section": "Aptitude and Analytical Ability",
+      "sub": "Cyber Safety Awareness"
+    }
+  ],
+  "questions": [
+    {
+      "id": "CO2019B-P2-11",
+      "paper": "TECH2",
+      "q": "The way a particular application views the data from the database that the application uses is a",
+      "opts": {
+        "A": "Module",
+        "B": "Relational model",
+        "C": "Schema",
+        "D": "Subschema"
+      }
+    },
+    {
+      "id": "CO2019B-P2-12",
+      "paper": "TECH2",
+      "q": "The relational model uses some unfamiliar terminology. A tuple is equivalent to",
+      "opts": {
+        "A": "Record",
+        "B": "Field",
+        "C": "File",
+        "D": "Database"
+      }
+    },
+    {
+      "id": "CO2019B-P2-13",
+      "paper": "TECH2",
+      "q": "An advantage of database approach is",
+      "opts": {
+        "A": "Elimination of data redundancy",
+        "B": "Ability to associate related data",
+        "C": "Increases security",
+        "D": "All of these"
+      }
+    },
+    {
+      "id": "CO2019B-P2-14",
+      "paper": "TECH2",
+      "q": "A database administrator's function is",
+      "opts": {
+        "A": "Database design",
+        "B": "Backing up the database",
+        "C": "Performance monitoring",
+        "D": "All of these"
+      }
+    },
+    {
+      "id": "CO2019B-P2-15",
+      "paper": "TECH2",
+      "q": "A network structure",
+      "opts": {
+        "A": "Allows a many-to-many relationship",
+        "B": "Is a physical representation of data",
+        "C": "Is conceptually simple",
+        "D": "Will be the dominant database of the future"
+      }
+    },
+    {
+      "id": "CO2019B-P2-16",
+      "paper": "TECH2",
+      "q": "The term attribute refers to a __________ of a table.",
+      "opts": {
+        "A": "Record",
+        "B": "Column",
+        "C": "Tuple",
+        "D": "Key"
+      }
+    },
+    {
+      "id": "CO2019B-P2-17",
+      "paper": "TECH2",
+      "q": "Which one of the following is a set of one or more attributes taken collectively to uniquely identify a record?",
+      "opts": {
+        "A": "Candidate key",
+        "B": "Sub-key",
+        "C": "Super key",
+        "D": "Foreign key"
+      }
+    },
+    {
+      "id": "CO2019B-P2-18",
+      "paper": "TECH2",
+      "q": "Student (ID, name, tot-cred). In this query which attributes form the primary key?",
+      "opts": {
+        "A": "Name",
+        "B": "Dept",
+        "C": "Tot-cred",
+        "D": "ID"
+      }
+    },
+    {
+      "id": "CO2019B-P2-19",
+      "paper": "TECH2",
+      "q": "In RDBMS, data is presented as a collection of",
+      "opts": {
+        "A": "Tables",
+        "B": "Attributes",
+        "C": "Relations",
+        "D": "Entities"
+      }
+    },
+    {
+      "id": "CO2019B-P2-20",
+      "paper": "TECH2",
+      "q": "The number of attributes in relation is called as its",
+      "opts": {
+        "A": "Cardinality",
+        "B": "Degree",
+        "C": "Tuple",
+        "D": "Entity"
+      }
+    },
+    {
+      "id": "CO2019B-P2-21",
+      "paper": "TECH2",
+      "q": "Which one of the following is used to define the structure of a relation, deleting relations and relating schemas.",
+      "opts": {
+        "A": "DML (Data Manipulation Language)",
+        "B": "DDL (Data Definition Language)",
+        "C": "Query",
+        "D": "Relational Schema"
+      }
+    },
+    {
+      "id": "CO2019B-P2-22",
+      "paper": "TECH2",
+      "q": "The __________ clause is used to list the attributes desired in the result of a query.",
+      "opts": {
+        "A": "Where",
+        "B": "Select",
+        "C": "From",
+        "D": "Distinct"
+      }
+    },
+    {
+      "id": "CO2019B-P2-23",
+      "paper": "TECH2",
+      "q": "A __________ indicates an absent value that may exist but be unknown or that may not exist at all.",
+      "opts": {
+        "A": "Empty tuple",
+        "B": "New value",
+        "C": "Null value",
+        "D": "Old value"
+      }
+    },
+    {
+      "id": "CO2019B-P2-24",
+      "paper": "TECH2",
+      "q": "The scheme for hierarchical database is",
+      "opts": {
+        "A": "A tree",
+        "B": "A graph",
+        "C": "A B-tree",
+        "D": "None of these"
+      }
+    },
+    {
+      "id": "CO2019B-P2-25",
+      "paper": "TECH2",
+      "q": "Which one is lowest level data model",
+      "opts": {
+        "A": "Physical data model",
+        "B": "Logical data model",
+        "C": "External data model",
+        "D": "None of these"
+      }
+    },
+    {
+      "id": "CO2019B-P2-26",
+      "paper": "TECH2",
+      "q": "The set of all possible values of data items is called",
+      "opts": {
+        "A": "Domain",
+        "B": "Attribute",
+        "C": "Tuple",
+        "D": "None of these"
+      }
+    },
+    {
+      "id": "CO2019B-P2-27",
+      "paper": "TECH2",
+      "q": "Which of the following is not a type of MS Access database object?",
+      "opts": {
+        "A": "Table",
+        "B": "Form",
+        "C": "Worksheets",
+        "D": "Modules"
+      }
+    },
+    {
+      "id": "CO2019B-P2-28",
+      "paper": "TECH2",
+      "q": "A relationship line that may have an associated minimum and maximum",
+      "opts": {
+        "A": "Values",
+        "B": "Cardinalities",
+        "C": "Range",
+        "D": "Attributes"
+      }
+    },
+    {
+      "id": "CO2019B-P2-29",
+      "paper": "TECH2",
+      "q": "The size of yes/no field is always",
+      "opts": {
+        "A": "1 Bit",
+        "B": "1 Byte",
+        "C": "1 Character",
+        "D": "1 KB"
+      }
+    },
+    {
+      "id": "CO2019B-P2-30",
+      "paper": "TECH2",
+      "q": "The columns in a Microsoft access table are also called",
+      "opts": {
+        "A": "Rows",
+        "B": "Records",
+        "C": "Fields",
+        "D": "Columns"
+      }
+    },
+    {
+      "id": "CO2019B-P2-31",
+      "paper": "TECH2",
+      "q": "Which of the following database objects holds data?",
+      "opts": {
+        "A": "Forms",
+        "B": "Reports",
+        "C": "Queries",
+        "D": "Tables"
+      }
+    },
+    {
+      "id": "CO2019B-P2-32",
+      "paper": "TECH2",
+      "q": "A weak entity set can make participation in any relationship other than the",
+      "opts": {
+        "A": "Strong relationship",
+        "B": "Relational relationship",
+        "C": "Domain relationship",
+        "D": "Identifying relationship"
+      }
+    },
+    {
+      "id": "CO2019B-P2-33",
+      "paper": "TECH2",
+      "q": "Which option allows us to build a new table by entering data directly into a tabular grid?",
+      "opts": {
+        "A": "Datasheet View",
+        "B": "Design View",
+        "C": "Linked Table",
+        "D": "Grid View"
+      }
+    },
+    {
+      "id": "CO2019B-P2-34",
+      "paper": "TECH2",
+      "q": "Which of the following attributes of text box control allows to limit the maximum character?",
+      "opts": {
+        "A": "Size",
+        "B": "Len",
+        "C": "Maxlength",
+        "D": "All of these"
+      }
+    },
+    {
+      "id": "CO2019B-P2-35",
+      "paper": "TECH2",
+      "q": "From which tag the descriptive list starts?",
+      "opts": {
+        "A": "<LL>",
+        "B": "<DD>",
+        "C": "<DL>",
+        "D": "<DS>"
+      }
+    },
+    {
+      "id": "CO2019B-P2-36",
+      "paper": "TECH2",
+      "q": "Which of the tag is used to create a number list?",
+      "opts": {
+        "A": "<LI>",
+        "B": "<OL>",
+        "C": "<LI> and <OL>",
+        "D": "None of these"
+      }
+    },
+    {
+      "id": "CO2019B-P2-37",
+      "paper": "TECH2",
+      "q": "Web pages start with which of the following tag?",
+      "opts": {
+        "A": "<Body>",
+        "B": "<Title>",
+        "C": "<HTML>",
+        "D": "<Form>"
+      }
+    },
+    {
+      "id": "CO2019B-P2-38",
+      "paper": "TECH2",
+      "q": "Correct HTML tag for the largest heading is",
+      "opts": {
+        "A": "<head>",
+        "B": "<h6>",
+        "C": "<heading>",
+        "D": "<h1>"
+      }
+    },
+    {
+      "id": "CO2019B-P2-39",
+      "paper": "TECH2",
+      "q": "<a>and </a> are the tags used for",
+      "opts": {
+        "A": "Adding image",
+        "B": "Aligning text",
+        "C": "Audio-voiced text",
+        "D": "Adding links to your page"
+      }
+    },
+    {
+      "id": "CO2019B-P2-40",
+      "paper": "TECH2",
+      "q": "Correct HTML to left-align the content inside a table cell is",
+      "opts": {
+        "A": "<td =\"left\">",
+        "B": "<td valign= \"left\">",
+        "C": "<td align =\"left\">",
+        "D": "<td leftalign>"
+      }
+    },
+    {
+      "id": "CO2019B-P2-41",
+      "paper": "TECH2",
+      "q": "The common element which describes the web page is",
+      "opts": {
+        "A": "Heading",
+        "B": "Paragraph",
+        "C": "List",
+        "D": "All of these"
+      }
+    },
+    {
+      "id": "CO2019B-P2-42",
+      "paper": "TECH2",
+      "q": "Main container for <TR>, <TD> and <TH> is",
+      "opts": {
+        "A": "<TABLE>",
+        "B": "<GROUP>",
+        "C": "<DATA>",
+        "D": "All of these"
+      }
+    },
+    {
+      "id": "CO2019B-P2-43",
+      "paper": "TECH2",
+      "q": "HTML is a subset of",
+      "opts": {
+        "A": "SGMT",
+        "B": "SGML",
+        "C": "SGMD",
+        "D": "None of these"
+      }
+    },
+    {
+      "id": "CO2019B-P2-44",
+      "paper": "TECH2",
+      "q": "The body tag is usually used after",
+      "opts": {
+        "A": "Title tag",
+        "B": "HEAD tag",
+        "C": "EM tag",
+        "D": "FORM tag"
+      }
+    },
+    {
+      "id": "CO2019B-P2-45",
+      "paper": "TECH2",
+      "q": "The attribute of <form> tag.",
+      "opts": {
+        "A": "METHOD",
+        "B": "ACTION",
+        "C": "Both (a) & (b)",
+        "D": "None of these"
+      }
+    },
+    {
+      "id": "CO2019B-P2-46",
+      "paper": "TECH2",
+      "q": "Which one of the following is a container?",
+      "opts": {
+        "A": "<SELECT>",
+        "B": "<VALUE>",
+        "C": "<INPUT>",
+        "D": "<Body>"
+      }
+    },
+    {
+      "id": "CO2019B-P2-47",
+      "paper": "TECH2",
+      "q": "WWW is based on which model?",
+      "opts": {
+        "A": "Local-server",
+        "B": "Client-server",
+        "C": "3-tier",
+        "D": "None of these"
+      }
+    },
+    {
+      "id": "CO2019B-P2-48",
+      "paper": "TECH2",
+      "q": "Which of the following is not a search engine?",
+      "opts": {
+        "A": "Google",
+        "B": "Bing",
+        "C": "Yahoo",
+        "D": "Orkut"
+      }
+    },
+    {
+      "id": "CO2019B-P2-49",
+      "paper": "TECH2",
+      "q": "In hypertext transaction, formats of request and response message are",
+      "opts": {
+        "A": "Different",
+        "B": "Similar",
+        "C": "Changed",
+        "D": "Active"
+      }
+    },
+    {
+      "id": "CO2019B-P2-50",
+      "paper": "TECH2",
+      "q": "Whenever user opens any website then main page is called as",
+      "opts": {
+        "A": "Dead end",
+        "B": "Home page",
+        "C": "Backend page",
+        "D": "None of these"
+      }
+    }
+  ]
+}

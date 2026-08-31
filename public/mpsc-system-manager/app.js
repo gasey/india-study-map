@@ -838,9 +838,12 @@ VIEWS.papers = (el) => {
   if (!keys.length) { el.innerHTML = emptyBank(); return; }
   el.innerHTML = `
     <h1>Past papers</h1>
-    <p class="muted">The System Manager technical papers use the Computer Operator syllabus, so the 2016 Computer Operator
-    papers are the closest thing to your actual exam that exists. MPSC never published an answer key for them — every
-    answer here was derived and carries a confidence rating. Check the provenance line under any answer you doubt.</p>
+    <p class="muted">The System Manager technical papers use the Computer Operator syllabus, so these are the closest
+    thing to your actual exam that exists — every Computer Operator sitting MPSC has ever examined: SAD and Mizoram
+    Information Commission (2016), MIMER (2018), AH &amp; Vety (May 2019) and Election Dept (December 2019). MPSC never
+    published an answer key for any of them — every answer here was derived and carries a confidence rating. Check the
+    provenance line under any answer you doubt, and treat the <em>unrated</em> papers with the most suspicion: those
+    answers came from the question bank and have not yet been independently re-derived.</p>
     <div class="grid g2 mt">
       ${keys.map(k => {
         const qs = groups[k].slice().sort((a, b) => a.no - b.no);

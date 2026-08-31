@@ -9,6 +9,103 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-08-31 (late) — There were five Computer Operator sittings, not two. Bank 843 → 1,353
+
+The user said the local question papers "didn't cover all past Computer Operator
+or relevant papers". They were right, and it took three wrong answers from me
+before the actual shape of the problem showed up.
+
+**The finding.** MPSC has examined Computer Operator **five** times, not twice:
+
+| Sitting | Papers | In the app before |
+|---|---|---|
+| SAD, 2016 | GE, P-I, P-II | yes |
+| Mizoram Information Commission, 2016 | GE, P-I, P-II | yes |
+| **MIMER, Feb 2018** | GE, P-I, P-II | no |
+| **AH & Vety, May 2019** | GE, P-I, P-II | no |
+| **Election Dept, Dec 2019** | GE, P-I, P-II | no |
+
+Verified by scanning all 67 MPSC listing pages, not by trusting the local index.
+Five sittings is the complete set — there is no sixth.
+
+**Why nobody had seen them.** MPSC's listing pages put the post name in one
+table cell and the paper links in the next. `mpsc-question-bank`'s scraper took
+the *link text* as the title, so these papers sit on disk as `Paper-II(AH&Vety).pdf`,
+`2.Technical Paper-I.pdf`, `3.Technical Paper-II.pdf` — the string "Computer
+Operator" appears nowhere in the filename, the `paperId`, or `index.csv`.
+BUILD_GUIDE §3's Tier 1 inventory was built by grepping the bank for "Computer
+Operator", which is why it lists four papers and not ten. A keyword search
+genuinely cannot find these; only the listing table can.
+
+**The same flattening also destroyed a paper.** Two different URLs both save as
+`2.Technical Paper-I.pdf` — MIMER Laboratory Technician and MIMER Computer
+Operator — and one overwrote the other. The Computer Operator Technical Paper I
+is *not* in the corpus. It is still live on MPSC
+(`.../963bc976d8dfb7ce26c046ac1c4dba1b/technical-paper-i-compt.pdf`), has a clean
+7-page text layer, and is the single highest-value thing left to recover.
+
+**I imported 75 Laboratory Technician questions and did not notice.** The header
+guard I wrote asked only for `MIZORAM INSTITUTE OF MEDICAL EDUCATION AND
+RESEARCH`, which is true of every MIMER paper whatever the post — the same
+too-loose-substring shape as the `/official/i` bug in CLAUDE.md. Bone types,
+ketone bodies and Ziehl-Neelsen staining went into `staged/harvest.json` labelled
+Computer Operator Technical Paper I, with a `prov` string asserting it. What
+caught it was not the pipeline: two tagging agents refused to tag anatomy
+against a computing syllabus and traced it to source. `header` is now a **list**
+that must pin the *post*, not the employer, and there is a negative test proving
+it rejects the Laboratory Technician paper and accepts the real Paper II.
+
+**Three more real bugs found on the way:**
+
+1. **`assemble.py` wrote before it validated.** Exactly the bug the entry below
+   records fixing in `generate.py` — it was still live here, and shipped 1,363
+   questions from a run that exited 1. Now nothing is written while any row is
+   rejected; `--force` still allows it and says what it is letting through.
+   Verified: a failing run leaves `questions.js` byte-identical.
+2. **Cross-sitting dedup was gutting the newer papers.** MPSC reuses questions,
+   and dropping the later copy left AH & Vety Paper I rendering 56 of its 75
+   questions with no gap to show for it. Repeats are now kept and tagged
+   `dup_of`, so every paper browses as it was actually sat.
+3. **`tagging.py` told the tagger to leave GE `sub` null.** True when written;
+   the taxonomy has since grown 37 GE leaves and `do_merge` rejects a null sub.
+   The stale line had propagated into the batch `instructions` string and cost a
+   full tagging round.
+
+**MIMER Paper II was in the bank 91 times over for 75 questions** — 16 numbers
+extracted twice, once keeping the printed fill-in-the-blank rule and once
+stripping it. Options identical in all 16, so collapsing is safe; but 5 pairs
+*disagreed on the answer*, and picking either would be a coin flip presented as
+fact. Those 5 ship with no answer and a note naming both candidates.
+
+**Shipped:** 843 → **1,353** questions, all 1,353 tagged to a leaf. Real past
+questions went 453 → 963. Output is reproducible (identical md5 across runs),
+zero duplicate ids, `tsc` clean, all ten tabs render with a clean console.
+
+**111 quarantined, none silently dropped** — 89 no answer, 18 figure-only, 6
+lost underline markers, 4 missing passages.
+
+**What's still open:**
+
+- **Election Dec-2019 Paper II contributes nothing.** All 74 of its questions
+  have `answerIndex: -1` in the bank, so all 74 are quarantined. Solving them is
+  the single biggest win available and needs the `SOLVE_BRIEF.md` Phase 3 pass.
+- **The 2018/2019 answers are `unrated`** — straight from the bank's `inferred`
+  values, never independently re-derived. The UI badges them honestly, but 437
+  of them want a Phase 3 pass.
+- **MIMER Computer Operator Paper I** needs downloading and parsing (see above).
+- `extract_passages.py` and `patch_underlines.py` cover only the 2016 sittings;
+  the 10 quarantined underline/passage questions need the same treatment.
+- Agents flagged specific content defects worth chasing to source: `CO2019A-P2-1`
+  calls SMTP a transport-layer protocol; `CO2019B-GE-13` reads "Gift of the cab";
+  `CO2019B-GE-76` has two correct antonyms; `CO2019B-P1-57` references a VLOOKUP
+  table the extractor never captured.
+- **The scraper bug is unfixed in `mpsc-question-bank` itself.** It hid six
+  Computer Operator papers and destroyed one. Other posts are certainly affected
+  — Programmer under PHE-2018 (291 q) sits under `3./4./5.Technical Paper-*.pdf`
+  by the same mechanism.
+
+---
+
 ## 2026-08-31 (night) — The same two bugs were in the System Manager pipeline. Both fixed, all 363 generated ids stabilised
 
 The System Analyst entry below found two bugs in `tools/system-analyst-build/`

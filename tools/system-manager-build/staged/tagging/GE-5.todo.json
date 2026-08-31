@@ -1,0 +1,702 @@
+{
+  "paper": "GE",
+  "instructions": "For each question in `questions`, add an entry to a JSON object keyed by question id: {\"<id>\": {\"unit\": \"<unit no>\", \"sub\": \"<leaf subtopic VERBATIM>\"}}. Write it to the same filename with .todo.json replaced by .done.json. `sub` must be copied character-for-character from `allowed_leaves` — it is matched by string equality, and the `unit` you give must be the one belonging to that same leaf. Every paper, GE included, is tagged to a leaf; a null sub is rejected.",
+  "allowed_units": [
+    {
+      "unit": "1",
+      "title": "Precis Writing",
+      "marks": 10
+    },
+    {
+      "unit": "2",
+      "title": "Letter Writing",
+      "marks": 15
+    },
+    {
+      "unit": "3",
+      "title": "Comprehension of given passages",
+      "marks": 15
+    },
+    {
+      "unit": "4",
+      "title": "Grammar: Parts of Speech",
+      "marks": 20
+    },
+    {
+      "unit": "5",
+      "title": "Correct Usage and Vocabularies",
+      "marks": 20
+    },
+    {
+      "unit": "6",
+      "title": "Formation of Sentence",
+      "marks": 20
+    }
+  ],
+  "allowed_leaves": [
+    {
+      "unit": "1",
+      "unitTitle": "Precis Writing",
+      "section": "(derived)",
+      "sub": "What a precis is and is not"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Precis Writing",
+      "section": "(derived)",
+      "sub": "The one-third rule and word-count discipline"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Precis Writing",
+      "section": "(derived)",
+      "sub": "Finding the controlling idea"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Precis Writing",
+      "section": "(derived)",
+      "sub": "What to cut: illustration, repetition and rhetoric"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Precis Writing",
+      "section": "(derived)",
+      "sub": "Third person and reported speech"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Precis Writing",
+      "section": "(derived)",
+      "sub": "Supplying an apt title"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Precis Writing",
+      "section": "(derived)",
+      "sub": "A worked precis, start to finish"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "Formal, official and informal letters"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "The parts of an official letter"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "Salutations and subscriptions"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "Subject line, reference and enclosures"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "Applications and representations"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "Tone and register in government correspondence"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "Common letter-writing errors that cost marks"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "A worked official letter, start to finish"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "Comprehension of given passages",
+      "section": "(derived)",
+      "sub": "How to read an unseen passage under time pressure"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "Comprehension of given passages",
+      "section": "(derived)",
+      "sub": "Main idea, tone and the author's stance"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "Comprehension of given passages",
+      "section": "(derived)",
+      "sub": "Inference questions and answering in your own words"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "Comprehension of given passages",
+      "section": "(derived)",
+      "sub": "Vocabulary-in-context questions"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "Comprehension of given passages",
+      "section": "(derived)",
+      "sub": "Why lifting sentences verbatim loses marks"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Grammar: Parts of Speech",
+      "section": "(derived)",
+      "sub": "The eight parts of speech and how to tell them apart"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Grammar: Parts of Speech",
+      "section": "(derived)",
+      "sub": "Words that change part of speech with their slot"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Grammar: Parts of Speech",
+      "section": "(derived)",
+      "sub": "Identifying the part of speech of an underlined word"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Grammar: Parts of Speech",
+      "section": "(derived)",
+      "sub": "Prepositions and their correct use"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Grammar: Parts of Speech",
+      "section": "(derived)",
+      "sub": "Verb forms and tense in context"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Correct Usage and Vocabularies",
+      "section": "(derived)",
+      "sub": "Synonyms and antonyms"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Correct Usage and Vocabularies",
+      "section": "(derived)",
+      "sub": "One-word substitution"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Correct Usage and Vocabularies",
+      "section": "(derived)",
+      "sub": "Idioms and phrases"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Correct Usage and Vocabularies",
+      "section": "(derived)",
+      "sub": "Commonly confused pairs"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Correct Usage and Vocabularies",
+      "section": "(derived)",
+      "sub": "Spelling and common misspellings"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Formation of Sentence",
+      "section": "(derived)",
+      "sub": "Simple, compound and complex sentences"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Formation of Sentence",
+      "section": "(derived)",
+      "sub": "Clause types: noun, adjective and adverb"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Formation of Sentence",
+      "section": "(derived)",
+      "sub": "Active and passive voice"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Formation of Sentence",
+      "section": "(derived)",
+      "sub": "Direct and indirect speech"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Formation of Sentence",
+      "section": "(derived)",
+      "sub": "Joining and splitting sentences"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Formation of Sentence",
+      "section": "(derived)",
+      "sub": "Subject-verb agreement and sequence of tenses"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Formation of Sentence",
+      "section": "(derived)",
+      "sub": "Sentence types by function: assertive, interrogative, imperative, exclamatory"
+    }
+  ],
+  "questions": [
+    {
+      "id": "CO2018M-GE-1",
+      "paper": "GE",
+      "q": "It is difficult to sustain proper health devoid of",
+      "opts": {
+        "A": "Wealth",
+        "B": "Cleanliness",
+        "C": "Sunlight",
+        "D": "Anxieties"
+      }
+    },
+    {
+      "id": "CO2018M-GE-2",
+      "paper": "GE",
+      "q": "Consumption of water which is not clean and pure can lead to",
+      "opts": {
+        "A": "Several diseases",
+        "B": "Malnutrition",
+        "C": "Indigestion",
+        "D": "None of these"
+      }
+    },
+    {
+      "id": "CO2018M-GE-3",
+      "paper": "GE",
+      "q": "We should constantly attempt to consume food which are",
+      "opts": {
+        "A": "Cheap",
+        "B": "Easily prepared",
+        "C": "Nutritious",
+        "D": "Tasty"
+      }
+    },
+    {
+      "id": "CO2018M-GE-4",
+      "paper": "GE",
+      "q": "What is not dependent upon the wealth of a person?",
+      "opts": {
+        "A": "Loneliness",
+        "B": "Happiness",
+        "C": "Cleanliness",
+        "D": "Godliness"
+      }
+    },
+    {
+      "id": "CO2018M-GE-5",
+      "paper": "GE",
+      "q": "What are the things good health depends upon",
+      "opts": {
+        "A": "Fresh Air",
+        "B": "Green Vegetables",
+        "C": "Proper Diet",
+        "D": "All of these"
+      }
+    },
+    {
+      "id": "CO2018M-GE-6",
+      "paper": "GE",
+      "q": "What is the source of all happiness",
+      "opts": {
+        "A": "Money",
+        "B": "Property",
+        "C": "Travelling",
+        "D": "Health"
+      }
+    },
+    {
+      "id": "CO2018M-GE-7",
+      "paper": "GE",
+      "q": "One must cultivate good ___________ to stay healthy.",
+      "opts": {
+        "A": "relationship",
+        "B": "habits",
+        "C": "friendship",
+        "D": "manners"
+      }
+    },
+    {
+      "id": "CO2018M-GE-8",
+      "paper": "GE",
+      "q": "What contributes to the emotional well being of a person",
+      "opts": {
+        "A": "Good health",
+        "B": "Good Physique",
+        "C": "Good meal",
+        "D": "Good sleep"
+      }
+    },
+    {
+      "id": "CO2018M-GE-9",
+      "paper": "GE",
+      "q": "What should we always free ourselves from?",
+      "opts": {
+        "A": "Anxieties",
+        "B": "Depression",
+        "C": "Boredom",
+        "D": "Hunger"
+      }
+    },
+    {
+      "id": "CO2018M-GE-10",
+      "paper": "GE",
+      "q": "What are the ideal conditions for a house?",
+      "opts": {
+        "A": "Damp and humid",
+        "B": "Airy and sunny",
+        "C": "Hot and dry",
+        "D": "Wet and sultry"
+      }
+    },
+    {
+      "id": "CO2018M-GE-11",
+      "paper": "GE",
+      "q": "What factors contributes to the proper growth of the body?",
+      "opts": {
+        "A": "Early to bed and early to rise",
+        "B": "Taking a bath everyday",
+        "C": "Eating vegetables",
+        "D": "Balanced and nutritious diet"
+      }
+    },
+    {
+      "id": "CO2018M-GE-12",
+      "paper": "GE",
+      "q": "How should we maintain cleanliness after having a meal?",
+      "opts": {
+        "A": "Clean our hands with soap",
+        "B": "Take a bath",
+        "C": "Go for a walk",
+        "D": "None of these"
+      }
+    },
+    {
+      "id": "CO2018M-GE-13",
+      "paper": "GE",
+      "q": "Sweeping Statement",
+      "opts": {
+        "A": "Wonderful statement",
+        "B": "Meaningless statement",
+        "C": "Inconsistent statement",
+        "D": "Thoughtless statement"
+      }
+    },
+    {
+      "id": "CO2018M-GE-14",
+      "paper": "GE",
+      "q": "To have a natural interest",
+      "opts": {
+        "A": "Yellow Thumb",
+        "B": "Green Thumb",
+        "C": "Red Thumb",
+        "D": "White Thumb"
+      }
+    },
+    {
+      "id": "CO2018M-GE-15",
+      "paper": "GE",
+      "q": "Costly or troublesome possession",
+      "opts": {
+        "A": "A white cat",
+        "B": "A white leopard",
+        "C": "A white elephant",
+        "D": "A white owl"
+      }
+    },
+    {
+      "id": "CO2018M-GE-16",
+      "paper": "GE",
+      "q": "Run away in fear",
+      "opts": {
+        "A": "Took to heels",
+        "B": "Took off",
+        "C": "Took a jet",
+        "D": "Took away"
+      }
+    },
+    {
+      "id": "CO2018M-GE-17",
+      "paper": "GE",
+      "q": "Used as a way of talking about jealousy",
+      "opts": {
+        "A": "Green-eyed monster",
+        "B": "Brown-eyed monster",
+        "C": "Blue-eyed monster",
+        "D": "Loch Ness monster"
+      }
+    },
+    {
+      "id": "CO2018M-GE-18",
+      "paper": "GE",
+      "q": "Revealing an information indiscreetly",
+      "opts": {
+        "A": "Spilling the milk",
+        "B": "Spilling the beans",
+        "C": "Spilling the tea",
+        "D": "Spilling the water"
+      }
+    },
+    {
+      "id": "CO2018M-GE-19",
+      "paper": "GE",
+      "q": "A private interest to serve",
+      "opts": {
+        "A": "Bury the hatchet",
+        "B": "Went to the winds",
+        "C": "An axe to grind",
+        "D": "At one's wit's end"
+      }
+    },
+    {
+      "id": "CO2018M-GE-20",
+      "paper": "GE",
+      "q": "Tremble with fear",
+      "opts": {
+        "A": "Fits and starts",
+        "B": "Close shave",
+        "C": "Bad Blood",
+        "D": "Shake in shoes"
+      }
+    },
+    {
+      "id": "CO2018M-GE-21",
+      "paper": "GE",
+      "q": "Irresponsible pleasure seeking in young age",
+      "opts": {
+        "A": "On the verge of",
+        "B": "Sowing wild oats",
+        "C": "Like a phoenix",
+        "D": "Hobson's Choice"
+      }
+    },
+    {
+      "id": "CO2018M-GE-22",
+      "paper": "GE",
+      "q": "Something unexpected and unpleasant",
+      "opts": {
+        "A": "A red letter day",
+        "B": "Burn one's boat",
+        "C": "A sore point",
+        "D": "A bolt from the blue"
+      }
+    },
+    {
+      "id": "CO2018M-GE-23",
+      "paper": "GE",
+      "q": "To be victorious at the end of an argument",
+      "opts": {
+        "A": "Throw down a glove",
+        "B": "Turn a deaf ear",
+        "C": "Have the last laugh",
+        "D": "To steer clear of"
+      }
+    },
+    {
+      "id": "CO2018M-GE-24",
+      "paper": "GE",
+      "q": "A disappointing result",
+      "opts": {
+        "A": "A damp squib",
+        "B": "In cold blood",
+        "C": "To smell a rat",
+        "D": "Give vent to"
+      }
+    },
+    {
+      "id": "CO2018M-GE-25",
+      "paper": "GE",
+      "q": "Being in the same difficult situation",
+      "opts": {
+        "A": "To lose ground",
+        "B": "Sailing in the same boat",
+        "C": "To make one's blood boil",
+        "D": "To add fuel to the fire"
+      }
+    },
+    {
+      "id": "CO2018M-GE-26",
+      "paper": "GE",
+      "q": "Ability to speak well",
+      "opts": {
+        "A": "Hand in glove",
+        "B": "Soft option",
+        "C": "To speak one's mind",
+        "D": "Gift of the gab"
+      }
+    },
+    {
+      "id": "CO2018M-GE-27",
+      "paper": "GE",
+      "q": "Reward and punishment policy",
+      "opts": {
+        "A": "Carrot and stick",
+        "B": "Ins and outs",
+        "C": "Eat everyone's salt",
+        "D": "Hand in glove"
+      }
+    },
+    {
+      "id": "CO2018M-GE-28",
+      "paper": "GE",
+      "q": "To follow the lead",
+      "opts": {
+        "A": "Stick to guns",
+        "B": "To toe the line",
+        "C": "Null and void",
+        "D": "Leaps and bounds"
+      }
+    },
+    {
+      "id": "CO2018M-GE-29",
+      "paper": "GE",
+      "q": "My mother and I went to the market today. (Choose the correct Parts of Speech for the underlined word 'went')",
+      "opts": {
+        "A": "Noun",
+        "B": "Verb",
+        "C": "Adjective",
+        "D": "Adverb"
+      }
+    },
+    {
+      "id": "CO2018M-GE-30",
+      "paper": "GE",
+      "q": "We saw a man with a heavy load on his back. (Choose the correct Parts of Speech for the underlined word 'heavy')",
+      "opts": {
+        "A": "Noun",
+        "B": "Verb",
+        "C": "Adjective",
+        "D": "Conjunction"
+      }
+    },
+    {
+      "id": "CO2018M-GE-31",
+      "paper": "GE",
+      "q": "The customer and I critically evaluated information on the company's web site. (Choose the correct Parts of Speech for the underlined word 'critically')",
+      "opts": {
+        "A": "Noun",
+        "B": "Conjunction",
+        "C": "Preposition",
+        "D": "Adverb"
+      }
+    },
+    {
+      "id": "CO2018M-GE-32",
+      "paper": "GE",
+      "q": "Brian often talked about Ms. Rita. (Choose the correct Parts of Speech for the underlined word 'often')",
+      "opts": {
+        "A": "Preposition",
+        "B": "Adjective",
+        "C": "Adverb",
+        "D": "Interjection"
+      }
+    },
+    {
+      "id": "CO2018M-GE-33",
+      "paper": "GE",
+      "q": "John and I attended a dinner with his parents. (Choose the correct Parts of Speech for the underlined word 'I')",
+      "opts": {
+        "A": "Noun",
+        "B": "Verb",
+        "C": "Pronoun",
+        "D": "Conjunction"
+      }
+    },
+    {
+      "id": "CO2018M-GE-34",
+      "paper": "GE",
+      "q": "He was not handsome, yet he was a successful actor. (Choose the correct Parts of Speech for the underlined word 'yet')",
+      "opts": {
+        "A": "Interjection",
+        "B": "Conjunction",
+        "C": "Adverb",
+        "D": "Pronoun"
+      }
+    },
+    {
+      "id": "CO2018M-GE-35",
+      "paper": "GE",
+      "q": "The role of the courts is to dispense justice fairly to everyone. (Identify the type of noun for 'justice')",
+      "opts": {
+        "A": "Abstract Noun",
+        "B": "Common Noun",
+        "C": "Concrete Noun",
+        "D": "Proper Noun"
+      }
+    },
+    {
+      "id": "CO2018M-GE-36",
+      "paper": "GE",
+      "q": "Dr. Clancy is seldom wrong in his diagnosis. (Identify the type of adverb for 'seldom')",
+      "opts": {
+        "A": "Adverb of manner",
+        "B": "Adverb of time",
+        "C": "Adverb of frequency",
+        "D": "Adverb of degree"
+      }
+    },
+    {
+      "id": "CO2018M-GE-37",
+      "paper": "GE",
+      "q": "After taking the medicine my mother is feeling much better. (Identify the type of adverb for 'much')",
+      "opts": {
+        "A": "Adverb of manner",
+        "B": "Adverb of time",
+        "C": "Adverb of frequency",
+        "D": "Adverb of degree"
+      }
+    },
+    {
+      "id": "CO2018M-GE-38",
+      "paper": "GE",
+      "q": "I'm afraid I'm not hungry. I have ____________________.",
+      "opts": {
+        "A": "already ate",
+        "B": "already eaten",
+        "C": "had eaten",
+        "D": "had ate"
+      }
+    },
+    {
+      "id": "CO2018M-GE-39",
+      "paper": "GE",
+      "q": "Travelling _______________ much easier in the 20th century.",
+      "opts": {
+        "A": "had became",
+        "B": "have become",
+        "C": "has become",
+        "D": "had become"
+      }
+    },
+    {
+      "id": "CO2018M-GE-40",
+      "paper": "GE",
+      "q": "Mark and I ____________each other since Kindergarten.",
+      "opts": {
+        "A": "has known",
+        "B": "have known",
+        "C": "had known",
+        "D": "has knew"
+      }
+    }
+  ]
+}

@@ -58,7 +58,7 @@ def load_taxonomy():
            {r["sub"] for r in rows}
 
 
-def main():
+def main(force=False):
     problems, notes = [], []
     rows = []
 
@@ -193,11 +193,25 @@ def main():
             notes.append(f"applied {n_pat} recovered underline markers (SAD GE Q39-44)")
 
     # Any question still asking about "the underlined word" with no marker present
-    # is unanswerable — fail rather than ship it.
+    # is unanswerable. QUARANTINE it — the reader must never see it — but do not
+    # fail the build.
+    #
+    # This used to be a hard failure, which was right while the only GE papers
+    # were the two 2016 sittings: recovery had been done for both, so any hit
+    # meant a regression. With five sittings that no longer holds — a newly added
+    # paper has simply not had its underline-recovery pass yet, and failing the
+    # whole build blocks ~500 sound questions on a handful of unrecovered ones.
+    # Quarantine is the policy this file already states for unanswerable rows:
+    # flagged and excluded, never silently dropped.
+    n_nomark = 0
     for r in rows:
         if re.search(r"underlined?\s+word", r["q"], re.I) and "__" not in r["q"]:
-            problems.append(f"{r['id']}: asks about an underlined word but no "
-                            f"__marker__ survives — unanswerable as stored")
+            r["_no_underline"] = True
+            n_nomark += 1
+    if n_nomark:
+        notes.append(f"{n_nomark} question(s) ask about an underlined word whose marker the "
+                     f"extractor lost — quarantined. Recovering them needs a page render "
+                     f"read by eye, as patch_underlines.py did for SAD GE Q39-44.")
 
     # --- attach comprehension passages ---
     # The bank dropped every reading passage, leaving 32 GE comprehension
@@ -221,13 +235,21 @@ def main():
             r["passageTitle"] = p["title"]
             r["passageId"] = p["id"]
 
-    # A comprehension question with no passage is unanswerable — catch any that
-    # reference one but didn't get matched, rather than shipping them silently.
+    # A comprehension question with no passage is unanswerable. Quarantine rather
+    # than fail, for the same reason as the underline check above:
+    # extract_passages.py has only been run over the two 2016 sittings, so a
+    # newly added paper legitimately has no passages yet.
+    n_nopass = 0
     for r in rows:
         if r.get("passage"):
             continue
         if re.search(r"\bin the passage\b|\baccording to the passage\b", r["q"], re.I):
-            problems.append(f"{r['id']}: references a passage but none attached")
+            r["_no_passage"] = True
+            n_nopass += 1
+    if n_nopass:
+        notes.append(f"{n_nopass} question(s) reference a reading passage that was never "
+                     f"extracted — quarantined. extract_passages.py currently covers only "
+                     f"the two 2016 sittings; it needs extending to the 2018/2019 papers.")
 
     # --- apply tags if the tagging pass has run ---
     tags = {}
@@ -254,6 +276,10 @@ def main():
         why = []
         if r.get("needs_figure"):
             why.append("depends on a printed figure the text-only schema cannot carry")
+        if r.get("_no_underline"):
+            why.append("asks about an underlined word but the marker was lost in extraction")
+        if r.get("_no_passage"):
+            why.append("references a reading passage that was never extracted")
         if not r.get("ans") or r["ans"] not in LETTERS:
             why.append(f"no usable answer (ans={r.get('ans')!r})")
         if why:
@@ -301,13 +327,34 @@ def main():
         notes.append(f"{n_alt} question(s) ship with a disputed alternative answer "
                      f"(`alt`) for the reader to judge")
 
+    # VALIDATE BEFORE WRITING. This used to write here and only report
+    # `problems` at the very end, after the success summary — so a run that
+    # exited 1 had already overwritten questions.js, and the exit code was the
+    # only thing standing between a rejected row and the reader. That is the
+    # same validate-after-write bug fixed in generate.py on 2026-08-31 (see
+    # DEVLOG); it was still live in this file and shipped 1,363 questions from
+    # a failing run on 2026-08-31 before being caught. Nothing is written now
+    # while any row is rejected. --force still allows it, and says what it is
+    # about to let through.
+    if problems and not force:
+        print(f"\n{len(problems)} PROBLEM(S) — NOTHING WRITTEN. "
+              f"{os.path.relpath(OUT, os.getcwd())} is unchanged.", file=sys.stderr)
+        for p in problems:
+            print(f"  - {p}", file=sys.stderr)
+        print(f"\nFix these, or re-run with --force to ship anyway.", file=sys.stderr)
+        sys.exit(1)
+    if problems and force:
+        print(f"\n--force: writing anyway despite {len(problems)} problem(s):", file=sys.stderr)
+        for p in problems:
+            print(f"  - {p}", file=sys.stderr)
+
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, "w", encoding="utf-8") as f:
         f.write("/* GENERATED by tools/system-manager-build/assemble.py — do not hand-edit.\n"
-                "   Sources: the 2016 Computer Operator papers (Tier 1) and authored questions.\n"
-                "   No official answer key exists for the Computer Operator papers; every\n"
-                "   answer here is derived and carries a `conf` rating surfaced in the UI.\n"
-                "   Re-run the pipeline to regenerate. */\n")
+                "   Sources: all five Computer Operator sittings MPSC has examined (Tier 1)\n"
+                "   and authored questions. No official answer key exists for any Computer\n"
+                "   Operator paper; every answer here is derived and carries a `conf` rating\n"
+                "   surfaced in the UI. Re-run the pipeline to regenerate. */\n")
         f.write("window.QUESTIONS = " + json.dumps(public, indent=2, ensure_ascii=False) + ";\n")
 
     with open(os.path.join(STAGED, "quarantine.json"), "w", encoding="utf-8") as f:
@@ -335,12 +382,6 @@ def main():
     for n in notes:
         print(f"\nNOTE: {n}")
 
-    if problems:
-        print(f"\n{len(problems)} PROBLEM(S):", file=sys.stderr)
-        for p in problems:
-            print(f"  - {p}", file=sys.stderr)
-        sys.exit(1)
-
 
 if __name__ == "__main__":
-    main()
+    main(force="--force" in sys.argv[1:])

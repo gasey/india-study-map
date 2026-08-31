@@ -1,0 +1,702 @@
+{
+  "paper": "GE",
+  "instructions": "For each question in `questions`, add an entry to a JSON object keyed by question id: {\"<id>\": {\"unit\": \"<unit no>\", \"sub\": \"<leaf subtopic VERBATIM>\"}}. Write it to the same filename with .todo.json replaced by .done.json. `sub` must be copied character-for-character from `allowed_leaves` — it is matched by string equality, and the `unit` you give must be the one belonging to that same leaf. Every paper, GE included, is tagged to a leaf; a null sub is rejected.",
+  "allowed_units": [
+    {
+      "unit": "1",
+      "title": "Precis Writing",
+      "marks": 10
+    },
+    {
+      "unit": "2",
+      "title": "Letter Writing",
+      "marks": 15
+    },
+    {
+      "unit": "3",
+      "title": "Comprehension of given passages",
+      "marks": 15
+    },
+    {
+      "unit": "4",
+      "title": "Grammar: Parts of Speech",
+      "marks": 20
+    },
+    {
+      "unit": "5",
+      "title": "Correct Usage and Vocabularies",
+      "marks": 20
+    },
+    {
+      "unit": "6",
+      "title": "Formation of Sentence",
+      "marks": 20
+    }
+  ],
+  "allowed_leaves": [
+    {
+      "unit": "1",
+      "unitTitle": "Precis Writing",
+      "section": "(derived)",
+      "sub": "What a precis is and is not"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Precis Writing",
+      "section": "(derived)",
+      "sub": "The one-third rule and word-count discipline"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Precis Writing",
+      "section": "(derived)",
+      "sub": "Finding the controlling idea"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Precis Writing",
+      "section": "(derived)",
+      "sub": "What to cut: illustration, repetition and rhetoric"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Precis Writing",
+      "section": "(derived)",
+      "sub": "Third person and reported speech"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Precis Writing",
+      "section": "(derived)",
+      "sub": "Supplying an apt title"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Precis Writing",
+      "section": "(derived)",
+      "sub": "A worked precis, start to finish"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "Formal, official and informal letters"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "The parts of an official letter"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "Salutations and subscriptions"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "Subject line, reference and enclosures"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "Applications and representations"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "Tone and register in government correspondence"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "Common letter-writing errors that cost marks"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "A worked official letter, start to finish"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "Comprehension of given passages",
+      "section": "(derived)",
+      "sub": "How to read an unseen passage under time pressure"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "Comprehension of given passages",
+      "section": "(derived)",
+      "sub": "Main idea, tone and the author's stance"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "Comprehension of given passages",
+      "section": "(derived)",
+      "sub": "Inference questions and answering in your own words"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "Comprehension of given passages",
+      "section": "(derived)",
+      "sub": "Vocabulary-in-context questions"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "Comprehension of given passages",
+      "section": "(derived)",
+      "sub": "Why lifting sentences verbatim loses marks"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Grammar: Parts of Speech",
+      "section": "(derived)",
+      "sub": "The eight parts of speech and how to tell them apart"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Grammar: Parts of Speech",
+      "section": "(derived)",
+      "sub": "Words that change part of speech with their slot"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Grammar: Parts of Speech",
+      "section": "(derived)",
+      "sub": "Identifying the part of speech of an underlined word"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Grammar: Parts of Speech",
+      "section": "(derived)",
+      "sub": "Prepositions and their correct use"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Grammar: Parts of Speech",
+      "section": "(derived)",
+      "sub": "Verb forms and tense in context"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Correct Usage and Vocabularies",
+      "section": "(derived)",
+      "sub": "Synonyms and antonyms"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Correct Usage and Vocabularies",
+      "section": "(derived)",
+      "sub": "One-word substitution"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Correct Usage and Vocabularies",
+      "section": "(derived)",
+      "sub": "Idioms and phrases"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Correct Usage and Vocabularies",
+      "section": "(derived)",
+      "sub": "Commonly confused pairs"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Correct Usage and Vocabularies",
+      "section": "(derived)",
+      "sub": "Spelling and common misspellings"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Formation of Sentence",
+      "section": "(derived)",
+      "sub": "Simple, compound and complex sentences"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Formation of Sentence",
+      "section": "(derived)",
+      "sub": "Clause types: noun, adjective and adverb"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Formation of Sentence",
+      "section": "(derived)",
+      "sub": "Active and passive voice"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Formation of Sentence",
+      "section": "(derived)",
+      "sub": "Direct and indirect speech"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Formation of Sentence",
+      "section": "(derived)",
+      "sub": "Joining and splitting sentences"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Formation of Sentence",
+      "section": "(derived)",
+      "sub": "Subject-verb agreement and sequence of tenses"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Formation of Sentence",
+      "section": "(derived)",
+      "sub": "Sentence types by function: assertive, interrogative, imperative, exclamatory"
+    }
+  ],
+  "questions": [
+    {
+      "id": "CO2019B-GE-41",
+      "paper": "GE",
+      "q": "There is time enough and to spare. (Identify part of speech of 'enough')",
+      "opts": {
+        "A": "adjective",
+        "B": "adverb",
+        "C": "noun",
+        "D": "preposition"
+      }
+    },
+    {
+      "id": "CO2019B-GE-42",
+      "paper": "GE",
+      "q": "Give place to your seniors. (Identify part of speech of 'place')",
+      "opts": {
+        "A": "noun",
+        "B": "pronoun",
+        "C": "verb",
+        "D": "adverb"
+      }
+    },
+    {
+      "id": "CO2019B-GE-43",
+      "paper": "GE",
+      "q": "The population of China is more than that of India. (Identify part of speech of 'that')",
+      "opts": {
+        "A": "adjective",
+        "B": "pronoun",
+        "C": "verb",
+        "D": "adverb"
+      }
+    },
+    {
+      "id": "CO2019B-GE-44",
+      "paper": "GE",
+      "q": "The earth revolves round the sun. (Identify part of speech of 'round')",
+      "opts": {
+        "A": "preposition",
+        "B": "adjective",
+        "C": "adverb",
+        "D": "verb"
+      }
+    },
+    {
+      "id": "CO2019B-GE-45",
+      "paper": "GE",
+      "q": "Our blessings come from above. (Identify part of speech of 'above')",
+      "opts": {
+        "A": "adverb",
+        "B": "adjective",
+        "C": "noun",
+        "D": "preposition"
+      }
+    },
+    {
+      "id": "CO2019B-GE-46",
+      "paper": "GE",
+      "q": "Do not start the race till I blow the whistle. (Identify part of speech of 'till')",
+      "opts": {
+        "A": "preposition",
+        "B": "conjunction",
+        "C": "adjective",
+        "D": "pronoun"
+      }
+    },
+    {
+      "id": "CO2019B-GE-47",
+      "paper": "GE",
+      "q": "We shall round the cape in safety. (Identify part of speech of 'round')",
+      "opts": {
+        "A": "verb",
+        "B": "preposition",
+        "C": "adverb",
+        "D": "adjective"
+      }
+    },
+    {
+      "id": "CO2019B-GE-48",
+      "paper": "GE",
+      "q": "We shall move on. (Identify part of speech of 'on')",
+      "opts": {
+        "A": "noun",
+        "B": "adverb",
+        "C": "adjective",
+        "D": "preposition"
+      }
+    },
+    {
+      "id": "CO2019B-GE-49",
+      "paper": "GE",
+      "q": "Do whatever you like.",
+      "opts": {
+        "A": "simple sentence",
+        "B": "complex sentence",
+        "C": "compound sentence",
+        "D": "none of these"
+      }
+    },
+    {
+      "id": "CO2019B-GE-50",
+      "paper": "GE",
+      "q": "His courage won him honour.",
+      "opts": {
+        "A": "simple sentence",
+        "B": "complex sentence",
+        "C": "compound sentence",
+        "D": "none of these"
+      }
+    },
+    {
+      "id": "CO2019B-GE-51",
+      "paper": "GE",
+      "q": "The moon was bright and we could see our way.",
+      "opts": {
+        "A": "simple sentence",
+        "B": "complex sentence",
+        "C": "compound sentence",
+        "D": "none of these"
+      }
+    },
+    {
+      "id": "CO2019B-GE-52",
+      "paper": "GE",
+      "q": "He must work very hard, or he will not win the first prize.",
+      "opts": {
+        "A": "simple sentence",
+        "B": "complex sentence",
+        "C": "compound sentence",
+        "D": "none of these"
+      }
+    },
+    {
+      "id": "CO2019B-GE-53",
+      "paper": "GE",
+      "q": "He confessed that he was guilty.",
+      "opts": {
+        "A": "simple sentence",
+        "B": "complex sentence",
+        "C": "compound sentence",
+        "D": "none of these"
+      }
+    },
+    {
+      "id": "CO2019B-GE-54",
+      "paper": "GE",
+      "q": "He owed his success to his father.",
+      "opts": {
+        "A": "simple sentence",
+        "B": "complex sentence",
+        "C": "compound sentence",
+        "D": "none of these"
+      }
+    },
+    {
+      "id": "CO2019B-GE-55",
+      "paper": "GE",
+      "q": "The steamer went down, yet the crew were saved.",
+      "opts": {
+        "A": "simple sentence",
+        "B": "complex sentence",
+        "C": "compound sentence",
+        "D": "none of these"
+      }
+    },
+    {
+      "id": "CO2019B-GE-56",
+      "paper": "GE",
+      "q": "I do not know when I shall return.",
+      "opts": {
+        "A": "simple sentence",
+        "B": "complex sentence",
+        "C": "compound sentence",
+        "D": "none of these"
+      }
+    },
+    {
+      "id": "CO2019B-GE-57",
+      "paper": "GE",
+      "q": "That you have come pleases me. (Pick out the correct clause of 'That you have come')",
+      "opts": {
+        "A": "noun clause",
+        "B": "adverb clause",
+        "C": "adjective clause",
+        "D": "co-ordinate clause"
+      }
+    },
+    {
+      "id": "CO2019B-GE-58",
+      "paper": "GE",
+      "q": "Just as he entered the room the clock struck. (Pick out the correct clause of 'Just as he entered the room')",
+      "opts": {
+        "A": "noun clause",
+        "B": "adverb clause",
+        "C": "adjective clause",
+        "D": "co-ordinate clause"
+      }
+    },
+    {
+      "id": "CO2019B-GE-59",
+      "paper": "GE",
+      "q": "The house where the accident occurred is nearby. (Pick out the correct clause of 'where the accident occurred')",
+      "opts": {
+        "A": "noun clause",
+        "B": "adverb clause",
+        "C": "adjective clause",
+        "D": "co-ordinate clause"
+      }
+    },
+    {
+      "id": "CO2019B-GE-60",
+      "paper": "GE",
+      "q": "He that climbs too high is sure to fall. (Pick out the correct clause of 'that climbs too high')",
+      "opts": {
+        "A": "noun clause",
+        "B": "adverb clause",
+        "C": "adjective clause",
+        "D": "co-ordinate clause"
+      }
+    },
+    {
+      "id": "CO2019B-GE-61",
+      "paper": "GE",
+      "q": "If it rains we shall stay at home. (Pick out the correct clause of 'If it rains')",
+      "opts": {
+        "A": "noun clause",
+        "B": "adverb clause",
+        "C": "adjective clause",
+        "D": "co-ordinate clause"
+      }
+    },
+    {
+      "id": "CO2019B-GE-62",
+      "paper": "GE",
+      "q": "Pay careful attention to what I am going to say. (Pick out the correct clause of 'what I am going to say')",
+      "opts": {
+        "A": "noun clause",
+        "B": "adverb clause",
+        "C": "adjective clause",
+        "D": "co-ordinate clause"
+      }
+    },
+    {
+      "id": "CO2019B-GE-63",
+      "paper": "GE",
+      "q": "The explanation he gave was not satisfactory. (Pick out the correct clause of 'he gave')",
+      "opts": {
+        "A": "noun clause",
+        "B": "adverb clause",
+        "C": "adjective clause",
+        "D": "co-ordinate clause"
+      }
+    },
+    {
+      "id": "CO2019B-GE-64",
+      "paper": "GE",
+      "q": "He arrived as we were setting out. (Pick out the correct clause of 'as we were setting out')",
+      "opts": {
+        "A": "noun clause",
+        "B": "adverb clause",
+        "C": "adjective clause",
+        "D": "co-ordinate clause"
+      }
+    },
+    {
+      "id": "CO2019B-GE-65",
+      "paper": "GE",
+      "q": "I gave him __________ advice.",
+      "opts": {
+        "A": "any",
+        "B": "plenty",
+        "C": "much",
+        "D": "some"
+      }
+    },
+    {
+      "id": "CO2019B-GE-66",
+      "paper": "GE",
+      "q": "He is very fond __________ basketball.",
+      "opts": {
+        "A": "of playing",
+        "B": "to play",
+        "C": "in playing",
+        "D": "about playing"
+      }
+    },
+    {
+      "id": "CO2019B-GE-67",
+      "paper": "GE",
+      "q": "The cost of all these articles __________ risen.",
+      "opts": {
+        "A": "have",
+        "B": "has",
+        "C": "is",
+        "D": "are"
+      }
+    },
+    {
+      "id": "CO2019B-GE-68",
+      "paper": "GE",
+      "q": "Neither food nor water __________ to be found there.",
+      "opts": {
+        "A": "have",
+        "B": "has",
+        "C": "was",
+        "D": "were"
+      }
+    },
+    {
+      "id": "CO2019B-GE-69",
+      "paper": "GE",
+      "q": "My grandmother is the __________ member our family.",
+      "opts": {
+        "A": "older",
+        "B": "eldest",
+        "C": "elder",
+        "D": "oldest"
+      }
+    },
+    {
+      "id": "CO2019B-GE-70",
+      "paper": "GE",
+      "q": "The flowers smell __________ .",
+      "opts": {
+        "A": "is sweet",
+        "B": "sweet",
+        "C": "has sweet",
+        "D": "sweetly"
+      }
+    },
+    {
+      "id": "CO2019B-GE-71",
+      "paper": "GE",
+      "q": "The news is __________ to be true.",
+      "opts": {
+        "A": "good",
+        "B": "too good",
+        "C": "not good",
+        "D": "very good"
+      }
+    },
+    {
+      "id": "CO2019B-GE-72",
+      "paper": "GE",
+      "q": "I shall not come __________ you need me.",
+      "opts": {
+        "A": "unless",
+        "B": "except",
+        "C": "inspite",
+        "D": "despite"
+      }
+    },
+    {
+      "id": "CO2019B-GE-73",
+      "paper": "GE",
+      "q": "Choose the word which is opposite in meaning: vivacious",
+      "opts": {
+        "A": "open",
+        "B": "languid",
+        "C": "strong",
+        "D": "bright"
+      }
+    },
+    {
+      "id": "CO2019B-GE-74",
+      "paper": "GE",
+      "q": "Choose the word which is opposite in meaning: common",
+      "opts": {
+        "A": "rare",
+        "B": "ugly",
+        "C": "light",
+        "D": "easy"
+      }
+    },
+    {
+      "id": "CO2019B-GE-75",
+      "paper": "GE",
+      "q": "Choose the word which is opposite in meaning: lethargic",
+      "opts": {
+        "A": "prudent",
+        "B": "careless",
+        "C": "alert",
+        "D": "promising"
+      }
+    },
+    {
+      "id": "CO2019B-GE-76",
+      "paper": "GE",
+      "q": "Choose the word which is opposite in meaning: enmity",
+      "opts": {
+        "A": "friendship",
+        "B": "cooperation",
+        "C": "agreement",
+        "D": "amity"
+      }
+    },
+    {
+      "id": "CO2019B-GE-77",
+      "paper": "GE",
+      "q": "Choose the word which is opposite in meaning: frugal",
+      "opts": {
+        "A": "charitable",
+        "B": "extravagant",
+        "C": "gaudy",
+        "D": "generous"
+      }
+    },
+    {
+      "id": "CO2019B-GE-78",
+      "paper": "GE",
+      "q": "Choose the word which is opposite in meaning: relinquish",
+      "opts": {
+        "A": "deny",
+        "B": "possess",
+        "C": "renounce",
+        "D": "abdicate"
+      }
+    },
+    {
+      "id": "CO2019B-GE-79",
+      "paper": "GE",
+      "q": "Choose the word which is opposite in meaning: busy",
+      "opts": {
+        "A": "occupied",
+        "B": "engrossed",
+        "C": "relaxed",
+        "D": "engaged"
+      }
+    },
+    {
+      "id": "CO2019B-GE-80",
+      "paper": "GE",
+      "q": "Choose the word which is opposite in meaning: perilous",
+      "opts": {
+        "A": "healthy",
+        "B": "innocuous",
+        "C": "safe",
+        "D": "fine"
+      }
+    }
+  ]
+}

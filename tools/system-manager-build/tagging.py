@@ -13,8 +13,12 @@ WHY THE VERBATIM MATCH MATTERS: app.js links a concept to its questions with
 SECTION rather than a leaf, links to nothing and fails silently. So the merge
 step rejects any tag that isn't an exact leaf.
 
-GENERAL ENGLISH: the official syllabus enumerates no subtopics for GE, so GE
-questions are tagged to a unit only and `sub` stays null. Do not invent leaves.
+GENERAL ENGLISH: this used to say "the official syllabus enumerates no subtopics
+for GE, so tag the unit only and leave `sub` null". That is no longer true — the
+taxonomy now carries 37 GE leaves across the six units, and do_merge() rejects a
+null `sub` for any paper that has leaves. GE is tagged to a leaf like every other
+paper. The stale wording survived into the batch `instructions` string and cost a
+whole tagging round on 2026-08-31.
 
 Usage:
   python3 tools/system-manager-build/tagging.py --export
@@ -26,6 +30,7 @@ import argparse
 import glob
 import json
 import os
+import re
 import sys
 from collections import Counter, defaultdict
 
@@ -75,7 +80,7 @@ def load_units():
             for p in data["papers"]}
 
 
-def do_export():
+def do_export(retag_all=False):
     tax = load_taxonomy()
     units = load_units()
     rows = all_questions()
@@ -83,18 +88,45 @@ def do_export():
     for stale in glob.glob(os.path.join(BATCHES, "*.todo.json")):
         os.remove(stale)
 
+    # Only export what still needs a tag. Re-exporting the whole corpus every
+    # time a sitting is added would re-tag ~500 already-good questions and give
+    # the merge step a chance to overwrite them with a worse answer. Pass
+    # --all to deliberately re-tag everything.
+    already = {}
+    tp = os.path.join(STAGED, "tags.json")
+    if os.path.isfile(tp) and not retag_all:
+        already = json.load(open(tp, encoding="utf-8"))
+    if already:
+        before = len(rows)
+        rows = [r for r in rows if r["id"] not in already]
+        print(f"skipping {before - len(rows)} question(s) already in staged/tags.json "
+              f"(pass --all to re-tag them)")
+
     by_paper = defaultdict(list)
     for r in rows:
         by_paper[r["paper"]].append(r)
+
+    # do_merge() rebuilds tags.json from the *.done.json files alone, so a new
+    # batch that reuses an existing batch number would overwrite that file and
+    # silently discard its 40 already-merged tags. Start numbering after the
+    # highest batch already on disk for this paper.
+    def first_free(paper):
+        used = []
+        for p in glob.glob(os.path.join(BATCHES, f"{paper}-*.done.json")):
+            m = re.match(rf"^{re.escape(paper)}-(\d+)\.done\.json$", os.path.basename(p))
+            if m:
+                used.append(int(m.group(1)))
+        return max(used) + 1 if used else 1
 
     written = []
     for paper, qs in sorted(by_paper.items()):
         leaves = [{"unit": t["unit"], "unitTitle": t["unitTitle"],
                    "section": t["section"], "sub": t["sub"]}
                   for t in tax if t["paper"] == paper]
+        base = first_free(paper)
         for i in range(0, len(qs), BATCH_SIZE):
             chunk = qs[i:i + BATCH_SIZE]
-            n = i // BATCH_SIZE + 1
+            n = base + i // BATCH_SIZE
             path = os.path.join(BATCHES, f"{paper}-{n}.todo.json")
             with open(path, "w", encoding="utf-8") as f:
                 json.dump({
@@ -105,8 +137,9 @@ def do_export():
                         "\"sub\": \"<leaf subtopic VERBATIM>\"}}. Write it to the same "
                         "filename with .todo.json replaced by .done.json. `sub` must be "
                         "copied character-for-character from `allowed_leaves` — it is "
-                        "matched by string equality. If the paper is GE, set sub to null "
-                        "and tag the unit only."
+                        "matched by string equality, and the `unit` you give must be the "
+                        "one belonging to that same leaf. Every paper, GE included, is "
+                        "tagged to a leaf; a null sub is rejected."
                     ),
                     "allowed_units": [{"unit": u, "title": t, "marks": m}
                                       for u, t, m in units.get(paper, [])],
@@ -205,9 +238,11 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--export", action="store_true")
     ap.add_argument("--merge", action="store_true")
+    ap.add_argument("--all", action="store_true",
+                    help="re-export questions that already have a tag")
     a = ap.parse_args()
     if a.export:
-        do_export()
+        do_export(retag_all=a.all)
     elif a.merge:
         do_merge()
     else:

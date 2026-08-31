@@ -1,0 +1,7 @@
+{
+  "CO2019A-P1-1": { "unit": "I", "sub": "Programming Languages" },
+  "CO2019A-P1-2": { "unit": "I", "sub": "Application Software" },
+  "CO2019A-P1-3": { "unit": "I", "sub": "HDD, SSD and NVMe Storage" },
+  "CO2019A-P1-4": { "unit": "I", "sub": "Cache Memory" },
+  "CO2019A-P1-5": { "unit": "I", "sub": "CPU Architecture and Instruction Cycle" }
+}

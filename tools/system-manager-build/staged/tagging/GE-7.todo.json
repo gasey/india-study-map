@@ -1,0 +1,698 @@
+{
+  "paper": "GE",
+  "instructions": "For each question in `questions`, add an entry to a JSON object keyed by question id: {\"<id>\": {\"unit\": \"<unit no>\", \"sub\": \"<leaf subtopic VERBATIM>\"}}. Write it to the same filename with .todo.json replaced by .done.json. `sub` must be copied character-for-character from `allowed_leaves` — it is matched by string equality, and the `unit` you give must be the one belonging to that same leaf. Every paper, GE included, is tagged to a leaf; a null sub is rejected.",
+  "allowed_units": [
+    {
+      "unit": "1",
+      "title": "Precis Writing",
+      "marks": 10
+    },
+    {
+      "unit": "2",
+      "title": "Letter Writing",
+      "marks": 15
+    },
+    {
+      "unit": "3",
+      "title": "Comprehension of given passages",
+      "marks": 15
+    },
+    {
+      "unit": "4",
+      "title": "Grammar: Parts of Speech",
+      "marks": 20
+    },
+    {
+      "unit": "5",
+      "title": "Correct Usage and Vocabularies",
+      "marks": 20
+    },
+    {
+      "unit": "6",
+      "title": "Formation of Sentence",
+      "marks": 20
+    }
+  ],
+  "allowed_leaves": [
+    {
+      "unit": "1",
+      "unitTitle": "Precis Writing",
+      "section": "(derived)",
+      "sub": "What a precis is and is not"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Precis Writing",
+      "section": "(derived)",
+      "sub": "The one-third rule and word-count discipline"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Precis Writing",
+      "section": "(derived)",
+      "sub": "Finding the controlling idea"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Precis Writing",
+      "section": "(derived)",
+      "sub": "What to cut: illustration, repetition and rhetoric"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Precis Writing",
+      "section": "(derived)",
+      "sub": "Third person and reported speech"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Precis Writing",
+      "section": "(derived)",
+      "sub": "Supplying an apt title"
+    },
+    {
+      "unit": "1",
+      "unitTitle": "Precis Writing",
+      "section": "(derived)",
+      "sub": "A worked precis, start to finish"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "Formal, official and informal letters"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "The parts of an official letter"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "Salutations and subscriptions"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "Subject line, reference and enclosures"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "Applications and representations"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "Tone and register in government correspondence"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "Common letter-writing errors that cost marks"
+    },
+    {
+      "unit": "2",
+      "unitTitle": "Letter Writing",
+      "section": "(derived)",
+      "sub": "A worked official letter, start to finish"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "Comprehension of given passages",
+      "section": "(derived)",
+      "sub": "How to read an unseen passage under time pressure"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "Comprehension of given passages",
+      "section": "(derived)",
+      "sub": "Main idea, tone and the author's stance"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "Comprehension of given passages",
+      "section": "(derived)",
+      "sub": "Inference questions and answering in your own words"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "Comprehension of given passages",
+      "section": "(derived)",
+      "sub": "Vocabulary-in-context questions"
+    },
+    {
+      "unit": "3",
+      "unitTitle": "Comprehension of given passages",
+      "section": "(derived)",
+      "sub": "Why lifting sentences verbatim loses marks"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Grammar: Parts of Speech",
+      "section": "(derived)",
+      "sub": "The eight parts of speech and how to tell them apart"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Grammar: Parts of Speech",
+      "section": "(derived)",
+      "sub": "Words that change part of speech with their slot"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Grammar: Parts of Speech",
+      "section": "(derived)",
+      "sub": "Identifying the part of speech of an underlined word"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Grammar: Parts of Speech",
+      "section": "(derived)",
+      "sub": "Prepositions and their correct use"
+    },
+    {
+      "unit": "4",
+      "unitTitle": "Grammar: Parts of Speech",
+      "section": "(derived)",
+      "sub": "Verb forms and tense in context"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Correct Usage and Vocabularies",
+      "section": "(derived)",
+      "sub": "Synonyms and antonyms"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Correct Usage and Vocabularies",
+      "section": "(derived)",
+      "sub": "One-word substitution"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Correct Usage and Vocabularies",
+      "section": "(derived)",
+      "sub": "Idioms and phrases"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Correct Usage and Vocabularies",
+      "section": "(derived)",
+      "sub": "Commonly confused pairs"
+    },
+    {
+      "unit": "5",
+      "unitTitle": "Correct Usage and Vocabularies",
+      "section": "(derived)",
+      "sub": "Spelling and common misspellings"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Formation of Sentence",
+      "section": "(derived)",
+      "sub": "Simple, compound and complex sentences"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Formation of Sentence",
+      "section": "(derived)",
+      "sub": "Clause types: noun, adjective and adverb"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Formation of Sentence",
+      "section": "(derived)",
+      "sub": "Active and passive voice"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Formation of Sentence",
+      "section": "(derived)",
+      "sub": "Direct and indirect speech"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Formation of Sentence",
+      "section": "(derived)",
+      "sub": "Joining and splitting sentences"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Formation of Sentence",
+      "section": "(derived)",
+      "sub": "Subject-verb agreement and sequence of tenses"
+    },
+    {
+      "unit": "6",
+      "unitTitle": "Formation of Sentence",
+      "section": "(derived)",
+      "sub": "Sentence types by function: assertive, interrogative, imperative, exclamatory"
+    }
+  ],
+  "questions": [
+    {
+      "id": "CO2019A-GE-1",
+      "paper": "GE",
+      "q": "The decline of India in present times has been due to",
+      "opts": {
+        "A": "poverty, corruption and over-population",
+        "B": "the betrayal of Gandhi by his supposed followers",
+        "C": "the different social, religious and political movements",
+        "D": "the quarelling Buddhists, the exploitative Christians and the intolerant Hindus"
+      }
+    },
+    {
+      "id": "CO2019A-GE-2",
+      "paper": "GE",
+      "q": "Toynbee called Gandhi __________",
+      "opts": {
+        "A": "an Indian phenomenon",
+        "B": "the best ever Indian",
+        "C": "one dimentional personality",
+        "D": "not just an Indian phenomenon"
+      }
+    },
+    {
+      "id": "CO2019A-GE-3",
+      "paper": "GE",
+      "q": "Those men of history who based their \"greatness\" on hatred and evil __________",
+      "opts": {
+        "A": "were men of great ideas",
+        "B": "have all been forgotten",
+        "C": "were all confined to Europe",
+        "D": "were all Men of the Millenium"
+      }
+    },
+    {
+      "id": "CO2019A-GE-4",
+      "paper": "GE",
+      "q": "Gandhi does not personify the proposition that",
+      "opts": {
+        "A": "love is superior to hatred",
+        "B": "greatness is based on conquest",
+        "C": "good is better than evil",
+        "D": "compassion and service abides"
+      }
+    },
+    {
+      "id": "CO2019A-GE-5",
+      "paper": "GE",
+      "q": "The thinkers of Upanishads, the Buddha and Christ abides because",
+      "opts": {
+        "A": "they were not men of arms",
+        "B": "they were men of ideas",
+        "C": "they were filled with compassion",
+        "D": "they gave without taking"
+      }
+    },
+    {
+      "id": "CO2019A-GE-6",
+      "paper": "GE",
+      "q": "According to Raja Rao, Gandhi represented",
+      "opts": {
+        "A": "universality",
+        "B": "greatness",
+        "C": "compassion",
+        "D": "vastness"
+      }
+    },
+    {
+      "id": "CO2019A-GE-7",
+      "paper": "GE",
+      "q": "The world can be conquered with",
+      "opts": {
+        "A": "love",
+        "B": "ideas",
+        "C": "compassion",
+        "D": "service"
+      }
+    },
+    {
+      "id": "CO2019A-GE-8",
+      "paper": "GE",
+      "q": "According to the writer, who is the Man of the Millenium?",
+      "opts": {
+        "A": "Nehru",
+        "B": "Stalin",
+        "C": "Gandhi",
+        "D": "Hitler"
+      }
+    },
+    {
+      "id": "CO2019A-GE-9",
+      "paper": "GE",
+      "q": "The nearest meaning to 'preceptor' is",
+      "opts": {
+        "A": "leader",
+        "B": "teacher",
+        "C": "ruler",
+        "D": "superior"
+      }
+    },
+    {
+      "id": "CO2019A-GE-10",
+      "paper": "GE",
+      "q": "The antonym of detract is",
+      "opts": {
+        "A": "diminish",
+        "B": "enhance",
+        "C": "bend",
+        "D": "decline"
+      }
+    },
+    {
+      "id": "CO2019A-GE-11",
+      "paper": "GE",
+      "q": "The murderer __________",
+      "opts": {
+        "A": "was hung",
+        "B": "was hanging",
+        "C": "was hanged",
+        "D": "was hang"
+      }
+    },
+    {
+      "id": "CO2019A-GE-12",
+      "paper": "GE",
+      "q": "The traveller __________ down under a tree",
+      "opts": {
+        "A": "lay",
+        "B": "lie",
+        "C": "laid",
+        "D": "lied"
+      }
+    },
+    {
+      "id": "CO2019A-GE-13",
+      "paper": "GE",
+      "q": "I __________ here since 2010",
+      "opts": {
+        "A": "am riding",
+        "B": "have been residing",
+        "C": "was residing",
+        "D": "will be residing"
+      }
+    },
+    {
+      "id": "CO2019A-GE-14",
+      "paper": "GE",
+      "q": "He __________ the test",
+      "opts": {
+        "A": "has passed",
+        "B": "is passing",
+        "C": "is pass",
+        "D": "have passed"
+      }
+    },
+    {
+      "id": "CO2019A-GE-15",
+      "paper": "GE",
+      "q": "He said that he __________",
+      "opts": {
+        "A": "is coming",
+        "B": "will come",
+        "C": "comes",
+        "D": "would come"
+      }
+    },
+    {
+      "id": "CO2019A-GE-16",
+      "paper": "GE",
+      "q": "The ship __________",
+      "opts": {
+        "A": "was drowned",
+        "B": "sank",
+        "C": "drowned",
+        "D": "is sank"
+      }
+    },
+    {
+      "id": "CO2019A-GE-17",
+      "paper": "GE",
+      "q": "Before I reached the office, __________",
+      "opts": {
+        "A": "all came",
+        "B": "all have come",
+        "C": "all had come",
+        "D": "all will come"
+      }
+    },
+    {
+      "id": "CO2019A-GE-18",
+      "paper": "GE",
+      "q": "The teacher __________ us a test",
+      "opts": {
+        "A": "take",
+        "B": "give",
+        "C": "took",
+        "D": "gave"
+      }
+    },
+    {
+      "id": "CO2019A-GE-19",
+      "paper": "GE",
+      "q": "The dog is sitting near the gate. Identify the part of speech of 'near'",
+      "opts": {
+        "A": "Adverb",
+        "B": "Preposition",
+        "C": "Adjective",
+        "D": "Noun"
+      }
+    },
+    {
+      "id": "CO2019A-GE-20",
+      "paper": "GE",
+      "q": "All down trains are coming late today. Identify the part of speech of 'down'",
+      "opts": {
+        "A": "Adjective",
+        "B": "Adverb",
+        "C": "Verb",
+        "D": "Noun"
+      }
+    },
+    {
+      "id": "CO2019A-GE-21",
+      "paper": "GE",
+      "q": "Freedom is our basic right. Identify the part of speech of 'basic'",
+      "opts": {
+        "A": "Adjective",
+        "B": "Adverb",
+        "C": "Verb",
+        "D": "Noun"
+      }
+    },
+    {
+      "id": "CO2019A-GE-22",
+      "paper": "GE",
+      "q": "Learn to face dangers manfully. Identify the part of speech of 'manfully'",
+      "opts": {
+        "A": "Verb",
+        "B": "Adjective",
+        "C": "Adverb",
+        "D": "Conjunction"
+      }
+    },
+    {
+      "id": "CO2019A-GE-23",
+      "paper": "GE",
+      "q": "Call him back. Identify the part of speech of 'back'",
+      "opts": {
+        "A": "Verb",
+        "B": "Adjective",
+        "C": "Adverb",
+        "D": "Noun"
+      }
+    },
+    {
+      "id": "CO2019A-GE-24",
+      "paper": "GE",
+      "q": "You have done a grave wrong. Identify the part of speech of 'grave'",
+      "opts": {
+        "A": "Verb",
+        "B": "Adjective",
+        "C": "Adverb",
+        "D": "Noun"
+      }
+    },
+    {
+      "id": "CO2019A-GE-25",
+      "paper": "GE",
+      "q": "Read the above passage again. Identify the part of speech of 'above'",
+      "opts": {
+        "A": "Noun",
+        "B": "Adverb",
+        "C": "Adjective",
+        "D": "Preposition"
+      }
+    },
+    {
+      "id": "CO2019A-GE-26",
+      "paper": "GE",
+      "q": "We worked while others slept. Identify the part of speech of 'while'",
+      "opts": {
+        "A": "Noun",
+        "B": "Conjunction",
+        "C": "Verb",
+        "D": "Adverb"
+      }
+    },
+    {
+      "id": "CO2019A-GE-27",
+      "paper": "GE",
+      "q": "The chances are even. Identify the part of speech of 'even'",
+      "opts": {
+        "A": "Adjective",
+        "B": "Noun",
+        "C": "Adverb",
+        "D": "Verb"
+      }
+    },
+    {
+      "id": "CO2019A-GE-28",
+      "paper": "GE",
+      "q": "No man could have done better. Analyze the sentence type",
+      "opts": {
+        "A": "Assertive",
+        "B": "Interrogative",
+        "C": "Negative",
+        "D": "Affirmative"
+      }
+    },
+    {
+      "id": "CO2019A-GE-29",
+      "paper": "GE",
+      "q": "Where there is smoke there is fire. Analyze the sentence type",
+      "opts": {
+        "A": "Positive",
+        "B": "Affirmative",
+        "C": "Exclamatory",
+        "D": "Assertive"
+      }
+    },
+    {
+      "id": "CO2019A-GE-30",
+      "paper": "GE",
+      "q": "I shall never forget those happy days. Analyze the sentence type",
+      "opts": {
+        "A": "Affirmative",
+        "B": "Positive",
+        "C": "Assertive",
+        "D": "Negative"
+      }
+    },
+    {
+      "id": "CO2019A-GE-31",
+      "paper": "GE",
+      "q": "Why waste time in this fruitless occupation? Analyze the sentence type",
+      "opts": {
+        "A": "Interrogative",
+        "B": "Negative",
+        "C": "Affirmative",
+        "D": "Assertive"
+      }
+    },
+    {
+      "id": "CO2019A-GE-32",
+      "paper": "GE",
+      "q": "We did not find the road very bad. Analyze the sentence type",
+      "opts": {
+        "A": "Negative",
+        "B": "Affirmative",
+        "C": "Assertive",
+        "D": "Exclamatory"
+      }
+    },
+    {
+      "id": "CO2019A-GE-33",
+      "paper": "GE",
+      "q": "This is not the kind of dress to wear in school. Analyze the sentence type",
+      "opts": {
+        "A": "Affirmative",
+        "B": "Positive",
+        "C": "Interrogative",
+        "D": "Assertive"
+      }
+    },
+    {
+      "id": "CO2019A-GE-34",
+      "paper": "GE",
+      "q": "I am very tired. Analyze the sentence type",
+      "opts": {
+        "A": "Affirmative",
+        "B": "Assertive",
+        "C": "Negative",
+        "D": "Interrogative"
+      }
+    },
+    {
+      "id": "CO2019A-GE-35",
+      "paper": "GE",
+      "q": "What would I not give to see you happy! Analyze the sentence type",
+      "opts": {
+        "A": "Affirmative",
+        "B": "Exclamatory",
+        "C": "Assertive",
+        "D": "Interrogative"
+      }
+    },
+    {
+      "id": "CO2019A-GE-36",
+      "paper": "GE",
+      "q": "Everybody believes in his honesty. Analyze the sentence type",
+      "opts": {
+        "A": "Assertive",
+        "B": "Affirmative",
+        "C": "Positive",
+        "D": "Negative"
+      }
+    },
+    {
+      "id": "CO2019A-GE-37",
+      "paper": "GE",
+      "q": "Even if it rains I shall come. Identify the clause",
+      "opts": {
+        "A": "Noun clause",
+        "B": "Adjective clause",
+        "C": "Adverb clause"
+      }
+    },
+    {
+      "id": "CO2019A-GE-38",
+      "paper": "GE",
+      "q": "Ask if dinner is ready. Identify the clause",
+      "opts": {
+        "A": "Noun clause",
+        "B": "Adjective clause",
+        "C": "Adverb clause"
+      }
+    },
+    {
+      "id": "CO2019A-GE-39",
+      "paper": "GE",
+      "q": "I think I know your face. Identify the clause",
+      "opts": {
+        "A": "Noun clause",
+        "B": "Adjective clause",
+        "C": "Adverb clause"
+      }
+    },
+    {
+      "id": "CO2019A-GE-40",
+      "paper": "GE",
+      "q": "He speaks better than he writes. Identify the clause",
+      "opts": {
+        "A": "Noun clause",
+        "B": "Adjective clause",
+        "C": "Adverb clause"
+      }
+    }
+  ]
+}

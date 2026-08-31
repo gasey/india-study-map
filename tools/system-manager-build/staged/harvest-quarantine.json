@@ -1,0 +1,11 @@
+[
+  {
+    "id": "CO2019B-P2-75",
+    "srcKey": "CO2019B-P2",
+    "no": 75,
+    "paper": "TECH2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "reason": "needs_figure",
+    "why": "printed in the paper but never extracted: the question is a figure or symbol-sequence item with no text stem the schema can carry"
+  }
+]

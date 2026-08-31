@@ -1,0 +1,36 @@
+{
+ "brief": "tools/system-analyst-build/CLASSIFY_BRIEF.md",
+ "count": 2,
+ "questions": [
+  {
+   "id": "GEN-TECH2-U15-965f7c",
+   "paper": "TECH2",
+   "unit": "15",
+   "sub": "Indian Penal Code sections 503, 499, 500, 463, 470, 472, 420, 416, 417, 383, 405, 406, 408, 409, 204, 477, 193, 167, 172, 173, 175",
+   "question": "In prosecuting a fraud committed through a government portal, penal offences such as cheating, forgery and criminal breach of trust are commonly charged alongside offences under the Information Technology Act because:",
+   "options": {
+    "A": "The information technology law addresses the computer resource and the electronic means used, while the general penal law supplies the substantive offence against person or property that was actually committed",
+    "B": "The information technology law applies only to offences committed outside India",
+    "C": "The general penal law applies only where no computer resource is involved in the offence",
+    "D": "A charge under the information technology law cannot be framed unless the accused holds a public office"
+   },
+   "answer": "A",
+   "explanation": "The two bodies of law address different elements of the same act, so investigators charge both: the technology statute for unauthorised access or tampering with a computer resource, the general penal law for the deception, forgery or misappropriation itself. Neither statute is confined to offences abroad, to non-computer settings, or to public servants."
+  },
+  {
+   "id": "GEN-TECH2-U15-12cd5b",
+   "paper": "TECH2",
+   "unit": "15",
+   "sub": "Indian Penal Code sections 503, 499, 500, 463, 470, 472, 420, 416, 417, 383, 405, 406, 408, 409, 204, 477, 193, 167, 172, 173, 175",
+   "question": "Among the penal offences relevant to computer-related crime, what distinguishes criminal breach of trust from cheating?",
+   "options": {
+    "A": "Cheating requires the property to have been entrusted to the accused, while criminal breach of trust does not",
+    "B": "In criminal breach of trust the property is lawfully entrusted to the accused and is then dishonestly misappropriated, whereas in cheating a deception induces the delivery of the property in the first place",
+    "C": "Cheating can be committed only by a public servant, while criminal breach of trust can be committed by anyone",
+    "D": "Criminal breach of trust applies only to immovable property, while cheating applies only to movable property"
+   },
+   "answer": "B",
+   "explanation": "The dividing line is when the dishonest intention operates: at the moment of obtaining the property, which is cheating, or after a lawful entrustment, which is criminal breach of trust. Option A inverts the entrustment element, which belongs to criminal breach of trust and not to cheating."
+  }
+ ]
+}

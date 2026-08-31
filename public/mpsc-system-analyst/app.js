@@ -40,11 +40,36 @@ function load() {
     if (!raw) return blank();
     const p = JSON.parse(raw);
     const b = blank();
-    return Object.assign(b, p, { settings: Object.assign(b.settings, p.settings || {}) });
+    return migrateIds(Object.assign(b, p, { settings: Object.assign(b.settings, p.settings || {}) }));
   } catch (e) {
     console.warn('progress unreadable, starting fresh', e);
     return blank();
   }
+}
+
+/* Generated-question ids used to be a running counter over the whole corpus, so
+   authoring one new batch renumbered every question after it — 225 of 254 moved
+   in a single run. They are now derived from the question's own content and do
+   not move again. Progress is keyed on question id, so without this the
+   reader's Leitner boxes for those 225 would simply stop matching anything and
+   their revision history would vanish with no error to notice.
+
+   Runs once, then records the fact. The old numeric ids can never collide with
+   the new hashed ones, so re-running would be harmless anyway. */
+function migrateIds(s) {
+  const map = window.QUESTION_ID_MIGRATION;
+  if (!map || s.migratedIds) return s;
+  let moved = 0;
+  for (const [oldId, newId] of Object.entries(map)) {
+    if (s.questions[oldId] && !s.questions[newId]) {
+      s.questions[newId] = s.questions[oldId];
+      delete s.questions[oldId];
+      moved++;
+    }
+  }
+  s.migratedIds = true;
+  if (moved) console.info(`carried ${moved} question(s) of progress across the id change`);
+  return s;
 }
 let saveTimer = null;
 function save() {

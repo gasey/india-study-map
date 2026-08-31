@@ -95,16 +95,32 @@ def rule_hint(q):
 
 
 # ------------------------------------------------------------------- export
-def do_export(paper_filter):
+def do_export(paper_filter, only_new):
     qs = load("questions")
     if paper_filter:
         qs = [q for q in qs if q["paper"] == paper_filter]
+    if only_new:
+        # Incremental pass: label only what has no label yet. Authoring a batch
+        # adds questions to a bank that is otherwise fully classified, and
+        # re-exporting all 1,111 to relabel 29 wastes the effort and risks an
+        # agent quietly contradicting an earlier one on a question nobody asked
+        # it to revisit.
+        have = set()
+        path = os.path.join(APP, "modes.js")
+        if os.path.exists(path):
+            text = open(path, encoding="utf-8").read()
+            m = re.search(r"window\.QUESTION_MODES\s*=\s*(\{.*\});\s*$", text, re.S)
+            if m:
+                have = set(json.loads(m.group(1)))
+        qs = [q for q in qs if q["id"] not in have]
+        print(f"{len(have)} already labelled; exporting {len(qs)} unlabelled\n")
     if not qs:
-        sys.exit("FAIL: no questions matched")
+        sys.exit("nothing to export — every question already carries a label")
 
     os.makedirs(BATCHES, exist_ok=True)
-    for stale in glob.glob(os.path.join(BATCHES, "*.todo.json")):
-        os.remove(stale)
+    if not only_new:
+        for stale in glob.glob(os.path.join(BATCHES, "*.todo.json")):
+            os.remove(stale)
 
     # Batch within a paper+unit so an agent sees related questions together and
     # can be consistent across them, which matters most for the PMBOK grid.
@@ -117,6 +133,9 @@ def do_export(paper_filter):
         for bn, i in enumerate(range(0, len(rows), PER_BATCH), 1):
             chunk = rows[i:i + PER_BATCH]
             name = f"{paper}-U{unit}-{bn:02d}"
+            while os.path.exists(os.path.join(BATCHES, f"{name}.done.json")):
+                bn += 1
+                name = f"{paper}-U{unit}-{bn:02d}"
             payload = [{
                 "id": q["id"], "paper": q["paper"], "unit": str(q["unit"]),
                 "sub": q.get("sub"), "question": q.get("q"),
@@ -254,9 +273,11 @@ def main():
     ap.add_argument("--merge", action="store_true")
     ap.add_argument("--report", action="store_true")
     ap.add_argument("--paper")
+    ap.add_argument("--only-new", action="store_true",
+                    help="export only questions that have no label yet")
     a = ap.parse_args()
     if a.export:
-        do_export(a.paper)
+        do_export(a.paper, a.only_new)
     elif a.merge:
         do_merge()
     elif a.report:

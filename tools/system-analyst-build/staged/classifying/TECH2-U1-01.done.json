@@ -54,85 +54,85 @@
   "why": "Turns on membership of the canonical good-governance attribute list; 'democracy' is excluded only by not being on it."
  },
  {
-  "id": "GEN-TECH2-U1-001",
+  "id": "GEN-TECH2-U1-2dbd16",
   "mode": "understand",
   "confidence": "high",
   "why": "Conceptual distinction between institution and process, derivable without recall."
  },
  {
-  "id": "GEN-TECH2-U1-002",
+  "id": "GEN-TECH2-U1-075b3e",
   "mode": "understand",
   "confidence": "high",
   "why": "Applying the G2G label follows from reading who the two actors are."
  },
  {
-  "id": "GEN-TECH2-U1-003",
+  "id": "GEN-TECH2-U1-3a6a25",
   "mode": "understand",
   "confidence": "high",
   "why": "Meaning is derivable from the term and contrasts cleanly with the other listed functions."
  },
  {
-  "id": "GEN-TECH2-U1-004",
+  "id": "GEN-TECH2-U1-b068ab",
   "mode": "understand",
   "confidence": "high",
   "why": "Answer follows from the economic definition of a public good."
  },
  {
-  "id": "GEN-TECH2-U1-005",
+  "id": "GEN-TECH2-U1-ce5823",
   "mode": "understand",
   "confidence": "high",
   "why": "Reasoning about what an output count cannot capture."
  },
  {
-  "id": "GEN-TECH2-U1-006",
+  "id": "GEN-TECH2-U1-66caeb",
   "mode": "understand",
   "confidence": "high",
   "why": "Turns on separating procedural excess from corruption, a conceptual distinction."
  },
  {
-  "id": "GEN-TECH2-U1-007",
+  "id": "GEN-TECH2-U1-3e19f7",
   "mode": "understand",
   "confidence": "high",
   "why": "Each description is the definition of the attribute named."
  },
  {
-  "id": "GEN-TECH2-U1-008",
+  "id": "GEN-TECH2-U1-4c0310",
   "mode": "understand",
   "confidence": "high",
   "why": "Content of rule of law follows from the concept; consensus is a separate attribute."
  },
  {
-  "id": "GEN-TECH2-U1-009",
+  "id": "GEN-TECH2-U1-fafaf6",
   "mode": "understand",
   "confidence": "high",
   "why": "Reasoning about why a top-down document fails to change behaviour."
  },
  {
-  "id": "GEN-TECH2-U1-010",
+  "id": "GEN-TECH2-U1-af7e3b",
   "mode": "understand",
   "confidence": "high",
   "why": "An unmeasurable commitment cannot be breached; follows from what enforceability requires."
  },
  {
-  "id": "GEN-TECH2-U1-011",
+  "id": "GEN-TECH2-U1-0b2749",
   "mode": "understand",
   "confidence": "high",
   "why": "Rationale follows from what publishing a service standard does to the relationship."
  },
  {
-  "id": "GEN-TECH2-U1-012",
+  "id": "GEN-TECH2-U1-1fbf4b",
   "mode": "understand",
   "confidence": "high",
   "why": "Derivable from what distinguishes a commitment from mere information."
  },
  {
-  "id": "GEN-TECH2-U1-013",
+  "id": "GEN-TECH2-U1-47305c",
   "mode": "understand",
   "confidence": "high",
   "why": "The principle follows from the gap between internal disposal and actual redress."
  },
  {
-  "id": "GEN-TECH2-U1-014",
+  "id": "GEN-TECH2-U1-7aeb8a",
   "mode": "understand",
   "confidence": "high",
   "why": "Reasoning about diagnostic versus workload data."

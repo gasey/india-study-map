@@ -1,66 +1,194 @@
 [
- { "id": "TECH2_2024-54", "mode": "understand", "confidence": "high",
-   "why": "The false statement contradicts what 'public key infrastructure' asymmetrically requires; reasoning from key-pair logic settles it." },
- { "id": "TECH2_2024-57", "mode": "understand", "confidence": "medium",
-   "why": "The four attack-category names are largely self-describing, so scanning maps to probing by meaning rather than by recall." },
- { "id": "TECH2_2024-58", "mode": "understand", "confidence": "high",
-   "why": "Three options are recognisable anti-patterns; the odd one out follows from what a control is for." },
- { "id": "TECH2_2024-59", "mode": "understand", "confidence": "high",
-   "why": "Separating access control from IDS/IPS and from encryption is conceptual discrimination." },
- { "id": "TECH2_2024-60", "mode": "understand", "confidence": "high",
-   "why": "Signing with a private key implies origin authentication and non-repudiation; it follows from the mechanism." },
- { "id": "TECH2_2024-61", "mode": "memorise", "confidence": "medium",
-   "why": "Requires knowing that AES and DES are specifically symmetric ciphers — algorithm classification is learned, not derived." },
- { "id": "TECH2_2024-62", "mode": "understand", "confidence": "medium",
-   "why": "Maps key roles onto encryption versus identity proof by reasoning, but the stem's 'visualized respectively as' phrasing is loose." },
- { "id": "TECH2_2021-58", "mode": "understand", "confidence": "high",
-   "why": "'Malicious code' is the category that follows from what those three programs are, not a list to recall." },
- { "id": "TECH2_2021-59", "mode": "memorise", "confidence": "medium",
-   "why": "Position in a named lifecycle's ordered stage list, with no derivation path; options A and D name nearly the same stage." },
- { "id": "TECH2_2021-60", "mode": "memorise", "confidence": "high",
-   "why": "Pure acronym expansion of a specific Indian framework." },
- { "id": "TECH2_2021-61", "mode": "understand", "confidence": "high",
-   "why": "The stem is the standard definition of integrity; the distractors are mechanisms rather than properties." },
- { "id": "TECH2_2021-62", "mode": "understand", "confidence": "medium",
-   "why": "The false claim follows from deep payload inspection costing performance, though option B's wording is muddled." },
- { "id": "TECH2_2021-64", "mode": "understand", "confidence": "medium",
-   "why": "Turns on non-repudiation needing a signature over content, which follows from what each mechanism guarantees." },
- { "id": "TECH2_2021-65", "mode": "understand", "confidence": "high",
-   "why": "Replying confirms a live address — reasoned from the spammer's incentive, not memorised." },
- { "id": "GEN-TECH2-U10-015", "mode": "understand", "confidence": "medium",
-   "why": "Operational versus technical splits on whether people or technology enforces it, which the options make derivable." },
- { "id": "GEN-TECH2-U10-016", "mode": "understand", "confidence": "high",
-   "why": "Only encryption survives loss of custody; the reasoning is about where each control still applies." },
- { "id": "GEN-TECH2-U10-017", "mode": "understand", "confidence": "high",
-   "why": "The function follows from the term itself and is separable from firewall/IPS roles by reasoning." },
- { "id": "GEN-TECH2-U10-018", "mode": "understand", "confidence": "high",
-   "why": "Static versus dynamic follows from whether the code is executed; the names carry the concept." },
- { "id": "GEN-TECH2-U10-019", "mode": "understand", "confidence": "medium",
-   "why": "Central collection plus correlation follows from the expansion, though knowing what SIEM designates is itself learned." },
- { "id": "GEN-TECH2-U10-020", "mode": "understand", "confidence": "high",
-   "why": "Detection versus inline prevention follows from the words; no arbitrary detail involved." },
- { "id": "GEN-TECH2-U10-021", "mode": "understand", "confidence": "high",
-   "why": "Baseline-as-floor follows from why a minimum set exists at all; no specific catalogue is being recalled." },
- { "id": "GEN-TECH2-U10-022", "mode": "understand", "confidence": "high",
-   "why": "Risk-based reasoning about consequence of compromise; the distractors carry no risk information." },
- { "id": "GEN-TECH2-U10-023", "mode": "understand", "confidence": "high",
-   "why": "Scenario reasoning: loss of data availability halts the dependent service." },
- { "id": "GEN-TECH2-U10-024", "mode": "understand", "confidence": "high",
-   "why": "The adoption-dependency argument is reasoned from how e-governance benefits are realised." },
- { "id": "GEN-TECH2-U10-025", "mode": "understand", "confidence": "high",
-   "why": "Follows from what the leaked attributes let an attacker do; not a remembered enumeration." },
- { "id": "GEN-TECH2-U10-026", "mode": "understand", "confidence": "high",
-   "why": "Turns on revocability — a property you can reason to, not a fact to be told." },
- { "id": "GEN-TECH2-U10-027", "mode": "understand", "confidence": "high",
-   "why": "The role follows from why security accountability is kept separate from IT delivery." },
- { "id": "GEN-TECH2-U10-028", "mode": "understand", "confidence": "high",
-   "why": "Segregation of duties is derivable from the need for an independent check on privileged action." },
- { "id": "GEN-TECH2-U10-029", "mode": "understand", "confidence": "medium",
-   "why": "The ordering follows logically — you must size a risk before treating it — though it is also a named standard's step list." },
- { "id": "GEN-TECH2-U10-030", "mode": "understand", "confidence": "high",
-   "why": "Threat-vulnerability-asset is the definition of risk itself, not an arbitrary convention." },
- { "id": "GEN-TECH2-U10-031", "mode": "understand", "confidence": "medium",
-   "why": "'Sharing part of the consequence with another party' describes insurance transparently, though the four treatment names are a standard's list." },
- { "id": "GEN-TECH2-U10-032", "mode": "understand", "confidence": "high",
-   "why": "'Residual' is self-describing and the acceptance requirement follows from controls never reaching zero risk." }
+ {
+  "id": "TECH2_2024-54",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The false statement contradicts what 'public key infrastructure' asymmetrically requires; reasoning from key-pair logic settles it."
+ },
+ {
+  "id": "TECH2_2024-57",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "The four attack-category names are largely self-describing, so scanning maps to probing by meaning rather than by recall."
+ },
+ {
+  "id": "TECH2_2024-58",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Three options are recognisable anti-patterns; the odd one out follows from what a control is for."
+ },
+ {
+  "id": "TECH2_2024-59",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Separating access control from IDS/IPS and from encryption is conceptual discrimination."
+ },
+ {
+  "id": "TECH2_2024-60",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Signing with a private key implies origin authentication and non-repudiation; it follows from the mechanism."
+ },
+ {
+  "id": "TECH2_2024-61",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "Requires knowing that AES and DES are specifically symmetric ciphers — algorithm classification is learned, not derived."
+ },
+ {
+  "id": "TECH2_2024-62",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "Maps key roles onto encryption versus identity proof by reasoning, but the stem's 'visualized respectively as' phrasing is loose."
+ },
+ {
+  "id": "TECH2_2021-58",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "'Malicious code' is the category that follows from what those three programs are, not a list to recall."
+ },
+ {
+  "id": "TECH2_2021-59",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "Position in a named lifecycle's ordered stage list, with no derivation path; options A and D name nearly the same stage."
+ },
+ {
+  "id": "TECH2_2021-60",
+  "mode": "memorise",
+  "confidence": "high",
+  "why": "Pure acronym expansion of a specific Indian framework."
+ },
+ {
+  "id": "TECH2_2021-61",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The stem is the standard definition of integrity; the distractors are mechanisms rather than properties."
+ },
+ {
+  "id": "TECH2_2021-62",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "The false claim follows from deep payload inspection costing performance, though option B's wording is muddled."
+ },
+ {
+  "id": "TECH2_2021-64",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "Turns on non-repudiation needing a signature over content, which follows from what each mechanism guarantees."
+ },
+ {
+  "id": "TECH2_2021-65",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Replying confirms a live address — reasoned from the spammer's incentive, not memorised."
+ },
+ {
+  "id": "GEN-TECH2-U10-97e665",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "Operational versus technical splits on whether people or technology enforces it, which the options make derivable."
+ },
+ {
+  "id": "GEN-TECH2-U10-4c7d41",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Only encryption survives loss of custody; the reasoning is about where each control still applies."
+ },
+ {
+  "id": "GEN-TECH2-U10-e15210",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The function follows from the term itself and is separable from firewall/IPS roles by reasoning."
+ },
+ {
+  "id": "GEN-TECH2-U10-e6ce33",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Static versus dynamic follows from whether the code is executed; the names carry the concept."
+ },
+ {
+  "id": "GEN-TECH2-U10-b2f0ef",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "Central collection plus correlation follows from the expansion, though knowing what SIEM designates is itself learned."
+ },
+ {
+  "id": "GEN-TECH2-U10-681e1b",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Detection versus inline prevention follows from the words; no arbitrary detail involved."
+ },
+ {
+  "id": "GEN-TECH2-U10-a84232",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Baseline-as-floor follows from why a minimum set exists at all; no specific catalogue is being recalled."
+ },
+ {
+  "id": "GEN-TECH2-U10-084e47",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Risk-based reasoning about consequence of compromise; the distractors carry no risk information."
+ },
+ {
+  "id": "GEN-TECH2-U10-c66dac",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Scenario reasoning: loss of data availability halts the dependent service."
+ },
+ {
+  "id": "GEN-TECH2-U10-32c326",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The adoption-dependency argument is reasoned from how e-governance benefits are realised."
+ },
+ {
+  "id": "GEN-TECH2-U10-1dd315",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Follows from what the leaked attributes let an attacker do; not a remembered enumeration."
+ },
+ {
+  "id": "GEN-TECH2-U10-ca431d",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Turns on revocability — a property you can reason to, not a fact to be told."
+ },
+ {
+  "id": "GEN-TECH2-U10-8674bd",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The role follows from why security accountability is kept separate from IT delivery."
+ },
+ {
+  "id": "GEN-TECH2-U10-563718",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Segregation of duties is derivable from the need for an independent check on privileged action."
+ },
+ {
+  "id": "GEN-TECH2-U10-35a5b0",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "The ordering follows logically — you must size a risk before treating it — though it is also a named standard's step list."
+ },
+ {
+  "id": "GEN-TECH2-U10-48b72c",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Threat-vulnerability-asset is the definition of risk itself, not an arbitrary convention."
+ },
+ {
+  "id": "GEN-TECH2-U10-2881f6",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "'Sharing part of the consequence with another party' describes insurance transparently, though the four treatment names are a standard's list."
+ },
+ {
+  "id": "GEN-TECH2-U10-70c2ac",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "'Residual' is self-describing and the acceptance requirement follows from controls never reaching zero risk."
+ }
 ]

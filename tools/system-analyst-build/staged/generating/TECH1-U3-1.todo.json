@@ -1,0 +1,37 @@
+{
+  "paper": "TECH1",
+  "unit": "3",
+  "unitTitle": ".NET Technologies",
+  "unitMarks": 30,
+  "perTarget": 3,
+  "brief": "tools/system-analyst-build/GENERATE_BRIEF.md",
+  "targets": [
+    {
+      "sub": "Object-Oriented Programming (in .NET)"
+    },
+    {
+      "sub": "Dynamic Programming"
+    },
+    {
+      "sub": "Windows Controls"
+    },
+    {
+      "sub": "Web Services"
+    },
+    {
+      "sub": "LINQ and Entity Framework"
+    },
+    {
+      "sub": "Design Pattern and UML"
+    },
+    {
+      "sub": "Reports"
+    },
+    {
+      "sub": "Threading"
+    },
+    {
+      "sub": ".NET Interoperability"
+    }
+  ]
+}

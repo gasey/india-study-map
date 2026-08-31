@@ -1,38 +1,110 @@
 [
- { "id": "TECH2_2024-52", "mode": "memorise", "confidence": "low",
-   "why": "Turns on the exact canonical four-layer terminology, not on any concept; and the item is defective since all four options name plausible EA layers." },
- { "id": "TECH2_2024-53", "mode": "understand", "confidence": "high",
-   "why": "The description of reusable networked services identifies SOA directly; the distractors are invented terms." },
- { "id": "TECH2_2024-55", "mode": "understand", "confidence": "high",
-   "why": "The purpose follows from what EA is; the wrong options are narrow operational activities." },
- { "id": "TECH2_2021-55", "mode": "understand", "confidence": "high",
-   "why": "Business-to-IT traversal is inherent to every EA framework, so it is reasoned rather than recalled." },
- { "id": "TECH2_2021-56", "mode": "understand", "confidence": "medium",
-   "why": "Follows from architecture being a design choice rather than a derivation, though options B and C are both defensible readings." },
- { "id": "TECH2_2021-57", "mode": "understand", "confidence": "high",
-   "why": "The stem's description is the definition of SOA; the other acronyms are not architectural taxonomies." },
- { "id": "GEN-TECH2-U9-214", "mode": "understand", "confidence": "high",
-   "why": "The answer follows from what any EA framework does; no TOGAF-specific detail is needed." },
- { "id": "GEN-TECH2-U9-215", "mode": "memorise", "confidence": "medium",
-   "why": "The rows-and-interrogatives structure of a named framework must be learned; it does not follow from any concept." },
- { "id": "GEN-TECH2-U9-216", "mode": "understand", "confidence": "high",
-   "why": "Reasoning about departmental silos and what an architecture framework fixes yields the answer." },
- { "id": "GEN-TECH2-U9-217", "mode": "memorise", "confidence": "medium",
-   "why": "Recall of the canonical four-layer list; elimination helps but the exact set is a convention, so tie-break applies." },
- { "id": "GEN-TECH2-U9-218", "mode": "understand", "confidence": "high",
-   "why": "The answer is the definition of coupling itself — dependence on contract, not internals." },
- { "id": "GEN-TECH2-U9-219", "mode": "understand", "confidence": "high",
-   "why": "Scenario reasoning about one authoritative implementation; no list membership involved." },
- { "id": "GEN-TECH2-U9-220", "mode": "understand", "confidence": "medium",
-   "why": "The role follows from WSDL being a service description language, though the acronym itself has to be known." },
- { "id": "GEN-TECH2-U9-221", "mode": "understand", "confidence": "high",
-   "why": "The distinction follows from what a style and a protocol respectively are." },
- { "id": "GEN-TECH2-U9-222", "mode": "understand", "confidence": "high",
-   "why": "The point-to-point versus hub argument is reasoned from what integration costs, not recalled." },
- { "id": "GEN-TECH2-U9-223", "mode": "understand", "confidence": "high",
-   "why": "Distinguishing interoperability from availability and scalability is conceptual discrimination." },
- { "id": "GEN-TECH2-U9-224", "mode": "understand", "confidence": "high",
-   "why": "The lock-in and long-term-readability argument follows from what an open specification is." },
- { "id": "GEN-TECH2-U9-225", "mode": "understand", "confidence": "high",
-   "why": "The effect of shared metadata follows from what common data definitions do." }
+ {
+  "id": "TECH2_2024-52",
+  "mode": "memorise",
+  "confidence": "low",
+  "why": "Turns on the exact canonical four-layer terminology, not on any concept; and the item is defective since all four options name plausible EA layers."
+ },
+ {
+  "id": "TECH2_2024-53",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The description of reusable networked services identifies SOA directly; the distractors are invented terms."
+ },
+ {
+  "id": "TECH2_2024-55",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The purpose follows from what EA is; the wrong options are narrow operational activities."
+ },
+ {
+  "id": "TECH2_2021-55",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Business-to-IT traversal is inherent to every EA framework, so it is reasoned rather than recalled."
+ },
+ {
+  "id": "TECH2_2021-56",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "Follows from architecture being a design choice rather than a derivation, though options B and C are both defensible readings."
+ },
+ {
+  "id": "TECH2_2021-57",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The stem's description is the definition of SOA; the other acronyms are not architectural taxonomies."
+ },
+ {
+  "id": "GEN-TECH2-U9-86bc2b",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The answer follows from what any EA framework does; no TOGAF-specific detail is needed."
+ },
+ {
+  "id": "GEN-TECH2-U9-2a3b24",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "The rows-and-interrogatives structure of a named framework must be learned; it does not follow from any concept."
+ },
+ {
+  "id": "GEN-TECH2-U9-67284b",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Reasoning about departmental silos and what an architecture framework fixes yields the answer."
+ },
+ {
+  "id": "GEN-TECH2-U9-3062f7",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "Recall of the canonical four-layer list; elimination helps but the exact set is a convention, so tie-break applies."
+ },
+ {
+  "id": "GEN-TECH2-U9-dd07bb",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The answer is the definition of coupling itself — dependence on contract, not internals."
+ },
+ {
+  "id": "GEN-TECH2-U9-5884a5",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Scenario reasoning about one authoritative implementation; no list membership involved."
+ },
+ {
+  "id": "GEN-TECH2-U9-1402d4",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "The role follows from WSDL being a service description language, though the acronym itself has to be known."
+ },
+ {
+  "id": "GEN-TECH2-U9-92ae51",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The distinction follows from what a style and a protocol respectively are."
+ },
+ {
+  "id": "GEN-TECH2-U9-a6a6ec",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The point-to-point versus hub argument is reasoned from what integration costs, not recalled."
+ },
+ {
+  "id": "GEN-TECH2-U9-5ba133",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Distinguishing interoperability from availability and scalability is conceptual discrimination."
+ },
+ {
+  "id": "GEN-TECH2-U9-9f8245",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The lock-in and long-term-readability argument follows from what an open specification is."
+ },
+ {
+  "id": "GEN-TECH2-U9-cc4a7a",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The effect of shared metadata follows from what common data definitions do."
+ }
 ]

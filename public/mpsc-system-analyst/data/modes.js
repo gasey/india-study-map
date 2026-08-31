@@ -1439,1130 +1439,1275 @@ window.QUESTION_MODES = {
   "mode": "understand",
   "why": "Applies the unity concept to a concrete paragraph — the irrelevant sentence is identified by reasoning."
  },
- "GEN-TECH2-U1-001": {
+ "GEN-TECH1-U3-1dc67b": {
+  "conf": "medium",
+  "mode": "memorise",
+  "why": "That the flag governs process lifetime and not priority is a CLR convention; understanding threading does not yield it."
+ },
+ "GEN-TECH1-U3-2261b8": {
+  "conf": "high",
+  "mode": "memorise",
+  "why": "Which of the RCW/CCW pair applies in which direction is a naming convention that is trivially inverted."
+ },
+ "GEN-TECH1-U3-2a4477": {
+  "conf": "high",
+  "mode": "memorise",
+  "why": "Choosing the right interop attribute name from four real ones is recall of the API surface."
+ },
+ "GEN-TECH1-U3-2bb453": {
+  "conf": "medium",
+  "mode": "memorise",
+  "why": "Mapping a described intent onto the GoF pattern's name is catalogue recall; the labels themselves are arbitrary."
+ },
+ "GEN-TECH1-U3-330d71": {
   "conf": "high",
   "mode": "understand",
-  "why": "Conceptual distinction between institution and process, derivable without recall."
+  "why": "Architectural contrast: separating contract from binding is what permits multiple transports, and two distractors invert known facts."
  },
- "GEN-TECH2-U1-002": {
+ "GEN-TECH1-U3-35e1aa": {
+  "conf": "medium",
+  "mode": "understand",
+  "why": "What 'local processing' must mean — no server in the loop — follows from the term itself and rules out the other options."
+ },
+ "GEN-TECH1-U3-37c358": {
+  "conf": "medium",
+  "mode": "memorise",
+  "why": "The whole answer rests on the single remembered fact that a monitor is re-entrant; the fragment has no values to trace."
+ },
+ "GEN-TECH1-U3-55d7cf": {
+  "conf": "high",
+  "mode": "memorise",
+  "why": "A three-letter mnemonic expanded to three exact attribute names; pure recall."
+ },
+ "GEN-TECH1-U3-5e9095": {
+  "conf": "medium",
+  "mode": "understand",
+  "why": "The reason for the GAC is the type-identity argument, which is reasoned from what a shared strong-named assembly guarantees."
+ },
+ "GEN-TECH1-U3-6b4e5e": {
+  "conf": "high",
+  "mode": "memorise",
+  "why": "The rename to <ApplicationName>.exe.config is a build convention with no derivation path."
+ },
+ "GEN-TECH1-U3-9429db": {
+  "conf": "high",
+  "mode": "calculate",
+  "why": "Apply the operator rules to the run-time types and concatenate; different operands give a different computable output."
+ },
+ "GEN-TECH1-U3-94c981": {
+  "conf": "medium",
+  "mode": "memorise",
+  "why": "The metadata= keyword and its three artefacts are a connection-string format detail; leaning memorise on the tie-break."
+ },
+ "GEN-TECH1-U3-9a250f": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "The timing follows from what a unit-of-work change tracker is for; the distractors describe behaviour incompatible with tracking."
+ },
+ "GEN-TECH1-U3-9fbab8": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "The limit follows from what inheriting an implementation costs versus satisfying a contract; the distractors are self-contradictory."
+ },
+ "GEN-TECH1-U3-b62803": {
+  "conf": "high",
+  "mode": "calculate",
+  "why": "Answer is produced by tracing virtual dispatch against the static type; regenerate with any override/new arrangement and the output follows mechanically."
+ },
+ "GEN-TECH1-U3-b921cf": {
+  "conf": "medium",
+  "mode": "understand",
+  "why": "The option states the artefact's role, so knowing a proxy needs operations, types and bindings selects it by reasoning."
+ },
+ "GEN-TECH1-U3-c9497e": {
+  "conf": "high",
+  "mode": "memorise",
+  "why": "Which Windows Forms property name carries which resize behaviour is API naming, indistinguishable by reasoning from Dock."
+ },
+ "GEN-TECH1-U3-cabf86": {
+  "conf": "high",
+  "mode": "calculate",
+  "why": "Join makes the result deterministic and the printed value is the summation 1..100; change the bound and it recomputes."
+ },
+ "GEN-TECH1-U3-cb67fd": {
+  "conf": "medium",
+  "mode": "calculate",
+  "why": "Trace deferred evaluation to the enumeration point and count the qualifying elements; new list and predicate give a new computed number."
+ },
+ "GEN-TECH1-U3-d5f477": {
+  "conf": "medium",
+  "mode": "memorise",
+  "why": "Which UML diagram type owns which notation is taxonomy recall; a practitioner who never learned the names can miss it."
+ },
+ "GEN-TECH1-U3-dbb947": {
+  "conf": "medium",
+  "mode": "understand",
+  "why": "Only the run-time-failure option survives once you know binding is deferred; the exception's exact name is not needed to choose it."
+ },
+ "GEN-TECH1-U3-dcc3e5": {
+  "conf": "medium",
+  "mode": "understand",
+  "why": "Once local mode means in-process rendering, the deployment requirement is deduced rather than remembered."
+ },
+ "GEN-TECH1-U3-e1e868": {
+  "conf": "high",
+  "mode": "memorise",
+  "why": "Filled versus hollow diamond is a pure notational convention with nothing to reason from."
+ },
+ "GEN-TECH1-U3-e31ff4": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "The difference falls straight out of when each keyword resolves a member; no convention to recall."
+ },
+ "GEN-TECH1-U3-e4fb0d": {
+  "conf": "high",
+  "mode": "memorise",
+  "why": "A file extension against three near-miss extensions; arbitrary, no derivation path."
+ },
+ "GEN-TECH1-U3-fba5de": {
+  "conf": "medium",
+  "mode": "calculate",
+  "why": "Both lines are derived by applying boxing and reference-equality rules to the fragment; vary the boxings and the printed pair recomputes."
+ },
+ "GEN-TECH1-U3-fe2c4c": {
+  "conf": "high",
+  "mode": "memorise",
+  "why": "Picking the right Form method out of four real ones is API recall, not derivation."
+ },
+ "GEN-TECH2-U1-075b3e": {
   "conf": "high",
   "mode": "understand",
   "why": "Applying the G2G label follows from reading who the two actors are."
  },
- "GEN-TECH2-U1-003": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Meaning is derivable from the term and contrasts cleanly with the other listed functions."
- },
- "GEN-TECH2-U1-004": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Answer follows from the economic definition of a public good."
- },
- "GEN-TECH2-U1-005": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Reasoning about what an output count cannot capture."
- },
- "GEN-TECH2-U1-006": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Turns on separating procedural excess from corruption, a conceptual distinction."
- },
- "GEN-TECH2-U1-007": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Each description is the definition of the attribute named."
- },
- "GEN-TECH2-U1-008": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Content of rule of law follows from the concept; consensus is a separate attribute."
- },
- "GEN-TECH2-U1-009": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Reasoning about why a top-down document fails to change behaviour."
- },
- "GEN-TECH2-U1-010": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "An unmeasurable commitment cannot be breached; follows from what enforceability requires."
- },
- "GEN-TECH2-U1-011": {
+ "GEN-TECH2-U1-0b2749": {
   "conf": "high",
   "mode": "understand",
   "why": "Rationale follows from what publishing a service standard does to the relationship."
  },
- "GEN-TECH2-U1-012": {
+ "GEN-TECH2-U1-1fbf4b": {
   "conf": "high",
   "mode": "understand",
   "why": "Derivable from what distinguishes a commitment from mere information."
  },
- "GEN-TECH2-U1-013": {
+ "GEN-TECH2-U1-2dbd16": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Conceptual distinction between institution and process, derivable without recall."
+ },
+ "GEN-TECH2-U1-3a6a25": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Meaning is derivable from the term and contrasts cleanly with the other listed functions."
+ },
+ "GEN-TECH2-U1-3e19f7": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Each description is the definition of the attribute named."
+ },
+ "GEN-TECH2-U1-47305c": {
   "conf": "high",
   "mode": "understand",
   "why": "The principle follows from the gap between internal disposal and actual redress."
  },
- "GEN-TECH2-U1-014": {
+ "GEN-TECH2-U1-4c0310": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Content of rule of law follows from the concept; consensus is a separate attribute."
+ },
+ "GEN-TECH2-U1-66caeb": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Turns on separating procedural excess from corruption, a conceptual distinction."
+ },
+ "GEN-TECH2-U1-7aeb8a": {
   "conf": "high",
   "mode": "understand",
   "why": "Reasoning about diagnostic versus workload data."
  },
- "GEN-TECH2-U10-015": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Operational versus technical splits on whether people or technology enforces it, which the options make derivable."
- },
- "GEN-TECH2-U10-016": {
+ "GEN-TECH2-U1-af7e3b": {
   "conf": "high",
   "mode": "understand",
-  "why": "Only encryption survives loss of custody; the reasoning is about where each control still applies."
+  "why": "An unmeasurable commitment cannot be breached; follows from what enforceability requires."
  },
- "GEN-TECH2-U10-017": {
+ "GEN-TECH2-U1-b068ab": {
   "conf": "high",
   "mode": "understand",
-  "why": "The function follows from the term itself and is separable from firewall/IPS roles by reasoning."
+  "why": "Answer follows from the economic definition of a public good."
  },
- "GEN-TECH2-U10-018": {
+ "GEN-TECH2-U1-ce5823": {
   "conf": "high",
   "mode": "understand",
-  "why": "Static versus dynamic follows from whether the code is executed; the names carry the concept."
+  "why": "Reasoning about what an output count cannot capture."
  },
- "GEN-TECH2-U10-019": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Central collection plus correlation follows from the expansion, though knowing what SIEM designates is itself learned."
- },
- "GEN-TECH2-U10-020": {
+ "GEN-TECH2-U1-fafaf6": {
   "conf": "high",
   "mode": "understand",
-  "why": "Detection versus inline prevention follows from the words; no arbitrary detail involved."
+  "why": "Reasoning about why a top-down document fails to change behaviour."
  },
- "GEN-TECH2-U10-021": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Baseline-as-floor follows from why a minimum set exists at all; no specific catalogue is being recalled."
- },
- "GEN-TECH2-U10-022": {
+ "GEN-TECH2-U10-084e47": {
   "conf": "high",
   "mode": "understand",
   "why": "Risk-based reasoning about consequence of compromise; the distractors carry no risk information."
  },
- "GEN-TECH2-U10-023": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Scenario reasoning: loss of data availability halts the dependent service."
- },
- "GEN-TECH2-U10-024": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The adoption-dependency argument is reasoned from how e-governance benefits are realised."
- },
- "GEN-TECH2-U10-025": {
+ "GEN-TECH2-U10-1dd315": {
   "conf": "high",
   "mode": "understand",
   "why": "Follows from what the leaked attributes let an attacker do; not a remembered enumeration."
  },
- "GEN-TECH2-U10-026": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Turns on revocability — a property you can reason to, not a fact to be told."
- },
- "GEN-TECH2-U10-027": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The role follows from why security accountability is kept separate from IT delivery."
- },
- "GEN-TECH2-U10-028": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Segregation of duties is derivable from the need for an independent check on privileged action."
- },
- "GEN-TECH2-U10-029": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The ordering follows logically — you must size a risk before treating it — though it is also a named standard's step list."
- },
- "GEN-TECH2-U10-030": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Threat-vulnerability-asset is the definition of risk itself, not an arbitrary convention."
- },
- "GEN-TECH2-U10-031": {
+ "GEN-TECH2-U10-2881f6": {
   "conf": "medium",
   "mode": "understand",
   "why": "'Sharing part of the consequence with another party' describes insurance transparently, though the four treatment names are a standard's list."
  },
- "GEN-TECH2-U10-032": {
+ "GEN-TECH2-U10-32c326": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "The adoption-dependency argument is reasoned from how e-governance benefits are realised."
+ },
+ "GEN-TECH2-U10-35a5b0": {
+  "conf": "medium",
+  "mode": "understand",
+  "why": "The ordering follows logically — you must size a risk before treating it — though it is also a named standard's step list."
+ },
+ "GEN-TECH2-U10-48b72c": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Threat-vulnerability-asset is the definition of risk itself, not an arbitrary convention."
+ },
+ "GEN-TECH2-U10-4c7d41": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Only encryption survives loss of custody; the reasoning is about where each control still applies."
+ },
+ "GEN-TECH2-U10-563718": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Segregation of duties is derivable from the need for an independent check on privileged action."
+ },
+ "GEN-TECH2-U10-681e1b": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Detection versus inline prevention follows from the words; no arbitrary detail involved."
+ },
+ "GEN-TECH2-U10-70c2ac": {
   "conf": "high",
   "mode": "understand",
   "why": "'Residual' is self-describing and the acceptance requirement follows from controls never reaching zero risk."
  },
- "GEN-TECH2-U11-033": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Identity of a named framework behind an opaque acronym; elimination helps, so the tie-break applies."
+ "GEN-TECH2-U10-8674bd": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "The role follows from why security accountability is kept separate from IT delivery."
  },
- "GEN-TECH2-U11-034": {
+ "GEN-TECH2-U10-97e665": {
   "conf": "medium",
-  "mode": "memorise",
-  "why": "Requires knowing what an arbitrarily numbered standard certifies; nothing about security reasoning yields '27001 means ISMS'."
+  "mode": "understand",
+  "why": "Operational versus technical splits on whether people or technology enforces it, which the options make derivable."
  },
- "GEN-TECH2-U11-035": {
+ "GEN-TECH2-U10-a84232": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Baseline-as-floor follows from why a minimum set exists at all; no specific catalogue is being recalled."
+ },
+ "GEN-TECH2-U10-b2f0ef": {
+  "conf": "medium",
+  "mode": "understand",
+  "why": "Central collection plus correlation follows from the expansion, though knowing what SIEM designates is itself learned."
+ },
+ "GEN-TECH2-U10-c66dac": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Scenario reasoning: loss of data availability halts the dependent service."
+ },
+ "GEN-TECH2-U10-ca431d": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Turns on revocability — a property you can reason to, not a fact to be told."
+ },
+ "GEN-TECH2-U10-e15210": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "The function follows from the term itself and is separable from firewall/IPS roles by reasoning."
+ },
+ "GEN-TECH2-U10-e6ce33": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Static versus dynamic follows from whether the code is executed; the names carry the concept."
+ },
+ "GEN-TECH2-U11-24c561": {
   "conf": "medium",
   "mode": "understand",
   "why": "The split follows from whether a control is embedded in one business process or spans the environment."
  },
- "GEN-TECH2-U11-036": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Reasoning about how weak change control undermines reliance on tested application logic."
- },
- "GEN-TECH2-U11-037": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The independence argument follows from what makes an audit opinion worth anything."
- },
- "GEN-TECH2-U11-038": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from an audit being point-in-time assurance against a moving system and threat landscape."
- },
- "GEN-TECH2-U11-039": {
+ "GEN-TECH2-U11-521873": {
   "conf": "medium",
   "mode": "memorise",
   "why": "The remit of a specific named Indian body is institutional fact, though the expansion given in the stem hints at it."
  },
- "GEN-TECH2-U11-040": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Scope follows from what 'security' audit means as against content, branding or procurement review."
- },
- "GEN-TECH2-U11-041": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Tamper-resistance follows from what makes a log usable as evidence."
- },
- "GEN-TECH2-U11-042": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Scenario judgement about how to treat an exception; no recalled fact involved."
- },
- "GEN-TECH2-U11-043": {
+ "GEN-TECH2-U11-618347": {
   "conf": "medium",
   "mode": "understand",
   "why": "The criterion-condition-risk-recommendation shape follows from what a reader of a finding needs, though it is also a textbook four-element list."
  },
- "GEN-TECH2-U11-044": {
+ "GEN-TECH2-U11-64d33b": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Scenario judgement about how to treat an exception; no recalled fact involved."
+ },
+ "GEN-TECH2-U11-817842": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "The independence argument follows from what makes an audit opinion worth anything."
+ },
+ "GEN-TECH2-U11-967483": {
+  "conf": "medium",
+  "mode": "memorise",
+  "why": "Identity of a named framework behind an opaque acronym; elimination helps, so the tie-break applies."
+ },
+ "GEN-TECH2-U11-9d80b0": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Reasoning about how weak change control undermines reliance on tested application logic."
+ },
+ "GEN-TECH2-U11-cafc4c": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Tamper-resistance follows from what makes a log usable as evidence."
+ },
+ "GEN-TECH2-U11-dfca71": {
   "conf": "high",
   "mode": "understand",
   "why": "Follows from a reported weakness not being a removed weakness."
  },
- "GEN-TECH2-U12-045": {
+ "GEN-TECH2-U11-e4b5f9": {
   "conf": "high",
   "mode": "understand",
-  "why": "The difference follows from what a right-to-use for an indefinite term does and does not include."
+  "why": "Follows from an audit being point-in-time assurance against a moving system and threat landscape."
  },
- "GEN-TECH2-U12-046": {
+ "GEN-TECH2-U11-e51797": {
   "conf": "high",
   "mode": "understand",
-  "why": "'Per-core' names its own cost driver; the reasoning is about which metric the licence counts."
+  "why": "Scope follows from what 'security' audit means as against content, branding or procurement review."
  },
- "GEN-TECH2-U12-047": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Concurrent versus named-user follows from what each metric counts; the numbers are illustrative, not computed."
- },
- "GEN-TECH2-U12-048": {
+ "GEN-TECH2-U11-eca731": {
   "conf": "medium",
   "mode": "memorise",
-  "why": "The remuneration design of one specific national scheme; reasoning from 'entrepreneur' helps but the model is a scheme fact."
+  "why": "Requires knowing what an arbitrarily numbered standard certifies; nothing about security reasoning yields '27001 means ISMS'."
  },
- "GEN-TECH2-U12-049": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "'Cross-subsidy through differential pricing' describes the arrangement transparently once the scenario is analysed."
- },
- "GEN-TECH2-U12-050": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from a statutory fee being fixed by law and a channel charge covering channel costs."
- },
- "GEN-TECH2-U12-051": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Reasoning about what happens when an unreformed workflow is encoded in software."
- },
- "GEN-TECH2-U12-052": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The pairwise-integration argument is reasoned from what standards remove."
- },
- "GEN-TECH2-U12-053": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from the rules, not the software, deciding what counts as a valid instrument."
- },
- "GEN-TECH2-U12-054": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The stem spells out Build-Own-Operate-Transfer, so the ownership position follows from the words themselves."
- },
- "GEN-TECH2-U12-055": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "'Viability gap funding' maps onto the scenario's stated viability shortfall; the other three are recognisably security instruments."
- },
- "GEN-TECH2-U12-056": {
+ "GEN-TECH2-U12-08f7d6": {
   "conf": "high",
   "mode": "understand",
   "why": "Outcome-based versus input-based payment follows from what each model bills for."
  },
- "GEN-TECH2-U13-057": {
+ "GEN-TECH2-U12-11f5dc": {
+  "conf": "medium",
+  "mode": "understand",
+  "why": "'Viability gap funding' maps onto the scenario's stated viability shortfall; the other three are recognisably security instruments."
+ },
+ "GEN-TECH2-U12-457c0d": {
   "conf": "high",
   "mode": "understand",
-  "why": "Auditability follows directly from source availability; the wrong options overclaim what open source guarantees."
+  "why": "Follows from the rules, not the software, deciding what counts as a valid instrument."
  },
- "GEN-TECH2-U13-058": {
+ "GEN-TECH2-U12-547f26": {
   "conf": "high",
   "mode": "understand",
-  "why": "Reasoning that removing the licence fee leaves the service costs untouched."
+  "why": "The stem spells out Build-Own-Operate-Transfer, so the ownership position follows from the words themselves."
  },
- "GEN-TECH2-U13-059": {
+ "GEN-TECH2-U12-5b4d88": {
+  "conf": "medium",
+  "mode": "understand",
+  "why": "'Cross-subsidy through differential pricing' describes the arrangement transparently once the scenario is analysed."
+ },
+ "GEN-TECH2-U12-77a370": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "'Per-core' names its own cost driver; the reasoning is about which metric the licence counts."
+ },
+ "GEN-TECH2-U12-9ad838": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Concurrent versus named-user follows from what each metric counts; the numbers are illustrative, not computed."
+ },
+ "GEN-TECH2-U12-a3ffec": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Follows from a statutory fee being fixed by law and a channel charge covering channel costs."
+ },
+ "GEN-TECH2-U12-c6ee11": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "The pairwise-integration argument is reasoned from what standards remove."
+ },
+ "GEN-TECH2-U12-d4db19": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Reasoning about what happens when an unreformed workflow is encoded in software."
+ },
+ "GEN-TECH2-U12-e21975": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "The difference follows from what a right-to-use for an indefinite term does and does not include."
+ },
+ "GEN-TECH2-U12-feb8ad": {
   "conf": "medium",
   "mode": "memorise",
-  "why": "Which named licence family is copyleft rather than permissive is a fact about specific licences; understanding copyleft alone does not identify GPL."
+  "why": "The remuneration design of one specific national scheme; reasoning from 'entrepreneur' helps but the model is a scheme fact."
  },
- "GEN-TECH2-U13-060": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "The linking exception is a specific provision of one licence; 'Lesser' hints at it but the actual scope must be learned."
- },
- "GEN-TECH2-U13-061": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "The precise obligation a named national policy imposes; elimination narrows it, so the tie-break applies."
- },
- "GEN-TECH2-U13-062": {
+ "GEN-TECH2-U13-0633f7": {
   "conf": "high",
   "mode": "understand",
   "why": "Separating a lock-in argument from a cost argument is conceptual reasoning about the rationale."
  },
- "GEN-TECH2-U14-063": {
+ "GEN-TECH2-U13-1deda2": {
+  "conf": "medium",
+  "mode": "memorise",
+  "why": "Which named licence family is copyleft rather than permissive is a fact about specific licences; understanding copyleft alone does not identify GPL."
+ },
+ "GEN-TECH2-U13-2029c1": {
   "conf": "high",
   "mode": "understand",
-  "why": "Follows from process and role changes being decided at design time, not at rollout."
+  "why": "Auditability follows directly from source availability; the wrong options overclaim what open source guarantees."
  },
- "GEN-TECH2-U14-064": {
+ "GEN-TECH2-U13-68694f": {
   "conf": "high",
   "mode": "understand",
-  "why": "Reasoning about who has authority to sanction changed roles and accountabilities."
+  "why": "Reasoning that removing the licence fee leaves the service costs untouched."
  },
- "GEN-TECH2-U14-065": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from scope of change spanning process, people and rules, not just technology."
+ "GEN-TECH2-U13-6f6e54": {
+  "conf": "medium",
+  "mode": "memorise",
+  "why": "The linking exception is a specific provision of one licence; 'Lesser' hints at it but the actual scope must be learned."
  },
- "GEN-TECH2-U14-066": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Magnitude follows from how far process logic and roles shift; the reasoning is applied to the scenario."
+ "GEN-TECH2-U13-9a7ee1": {
+  "conf": "medium",
+  "mode": "memorise",
+  "why": "The precise obligation a named national policy imposes; elimination narrows it, so the tie-break applies."
  },
- "GEN-TECH2-U14-067": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Enabler versus disabler follows from whether the item raises or lowers the cost of the change."
- },
- "GEN-TECH2-U14-068": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The purpose follows from the list being an input to a mitigation plan."
- },
- "GEN-TECH2-U14-069": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Reasoning about peer credibility as the mechanism of acceptance."
- },
- "GEN-TECH2-U14-070": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from champions working through persuasion rather than authority."
- },
- "GEN-TECH2-U14-071": {
+ "GEN-TECH2-U14-588a42": {
   "conf": "high",
   "mode": "understand",
   "why": "The upward channel follows from why the role exists; the distractors are other functions entirely."
  },
- "GEN-TECH2-U14-072": {
+ "GEN-TECH2-U14-748807": {
   "conf": "high",
   "mode": "understand",
-  "why": "The 'why' versus 'how' distinction is reasoned from what each role is for."
+  "why": "Reasoning about peer credibility as the mechanism of acceptance."
  },
- "GEN-TECH2-U14-073": {
+ "GEN-TECH2-U14-77f654": {
   "conf": "medium",
   "mode": "understand",
   "why": "The message-channel-frequency-owner-feedback set is a textbook list, but the alternatives are recognisably execution details rather than plan content."
  },
- "GEN-TECH2-U14-074": {
+ "GEN-TECH2-U14-7954c4": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Magnitude follows from how far process logic and roles shift; the reasoning is applied to the scenario."
+ },
+ "GEN-TECH2-U14-a840fc": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Reasoning about who has authority to sanction changed roles and accountabilities."
+ },
+ "GEN-TECH2-U14-b7e3dd": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Follows from scope of change spanning process, people and rules, not just technology."
+ },
+ "GEN-TECH2-U14-ba5283": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "The 'why' versus 'how' distinction is reasoned from what each role is for."
+ },
+ "GEN-TECH2-U14-d6821c": {
   "conf": "high",
   "mode": "understand",
   "why": "The rumour-vacuum argument is reasoned from how uncertainty behaves, not recalled."
  },
- "GEN-TECH2-U15-075": {
+ "GEN-TECH2-U14-de89ba": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Follows from champions working through persuasion rather than authority."
+ },
+ "GEN-TECH2-U14-e4790e": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Follows from process and role changes being decided at design time, not at rollout."
+ },
+ "GEN-TECH2-U14-f1a9f9": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Enabler versus disabler follows from whether the item raises or lowers the cost of the change."
+ },
+ "GEN-TECH2-U14-f9e9d4": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "The purpose follows from the list being an input to a mitigation plan."
+ },
+ "GEN-TECH2-U15-070d6a": {
   "conf": "medium",
   "mode": "memorise",
   "why": "Content of a specific statutory amendment; elimination narrows it, so the tie-break applies."
  },
- "GEN-TECH2-U15-076": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Which framework a named amendment introduced is a statutory fact, not derivable from technology."
- },
- "GEN-TECH2-U15-077": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The legal effect follows from why signature provisions exist — equivalence with a signed paper document."
- },
- "GEN-TECH2-U15-078": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "'Controller of Certifying Authorities' names its own supervisory function over the bodies that issue certificates."
- },
- "GEN-TECH2-U15-079": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Follows from evidence law having been paper-framed; admissibility versus conclusiveness is a conceptual distinction."
- },
- "GEN-TECH2-U15-080": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "A specific statutory procedural requirement — the certificate regime — that has to be known rather than inferred."
- },
- "GEN-TECH2-U15-081": {
+ "GEN-TECH2-U15-08b7c2": {
   "conf": "medium",
   "mode": "memorise",
   "why": "The infringement-versus-passing-off consequence of registration is settled legal doctrine, not something the concept of a mark yields."
  },
- "GEN-TECH2-U15-082": {
+ "GEN-TECH2-U15-12cd5b": {
   "conf": "high",
   "mode": "understand",
-  "why": "Source-indication versus expression follows from what each right is for."
+  "why": "The distinction turns on when the dishonest intent operates, which is reasoned from the elements the option itself states."
  },
- "GEN-TECH2-U15-083": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The records-management duty follows from the Act's purpose; the wrong options defeat it outright."
- },
- "GEN-TECH2-U15-084": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "A statutorily coined label — India says 'fiduciary' where other regimes say 'controller'; pure naming convention."
- },
- "GEN-TECH2-U15-085": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "The plan's stated organising formula; reasoning rules out the extremes but the specific principle is a policy fact."
- },
- "GEN-TECH2-U15-086": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "The name of a specific institutional body created under a named programme."
- },
- "GEN-TECH2-U15-087": {
+ "GEN-TECH2-U15-1c6146": {
   "conf": "medium",
   "mode": "memorise",
   "why": "The precise obligation a named national policy imposes; a policy provision rather than a derivation."
  },
- "GEN-TECH2-U15-088": {
+ "GEN-TECH2-U15-268e78": {
   "conf": "high",
   "mode": "understand",
   "why": "Follows from a zero licence fee leaving integration, support and training costs untouched."
  },
- "GEN-TECH2-U15-089": {
+ "GEN-TECH2-U15-4544dd": {
   "conf": "medium",
   "mode": "understand",
   "why": "The scenario maps onto the offence by its defining elements — deception inducing delivery — rather than onto a section number."
  },
- "GEN-TECH2-U15-090": {
+ "GEN-TECH2-U15-495ed9": {
+  "conf": "medium",
+  "mode": "understand",
+  "why": "'Controller of Certifying Authorities' names its own supervisory function over the bodies that issue certificates."
+ },
+ "GEN-TECH2-U15-7d2e13": {
+  "conf": "medium",
+  "mode": "memorise",
+  "why": "Which framework a named amendment introduced is a statutory fact, not derivable from technology."
+ },
+ "GEN-TECH2-U15-82595b": {
+  "conf": "medium",
+  "mode": "understand",
+  "why": "The records-management duty follows from the Act's purpose; the wrong options defeat it outright."
+ },
+ "GEN-TECH2-U15-83f4a8": {
   "conf": "medium",
   "mode": "understand",
   "why": "Turns on prior entrustment as the element separating breach of trust from cheating."
  },
- "GEN-TECH2-U15-091": {
+ "GEN-TECH2-U15-84bce1": {
+  "conf": "high",
+  "mode": "memorise",
+  "why": "A statutorily coined label — India says 'fiduciary' where other regimes say 'controller'; pure naming convention."
+ },
+ "GEN-TECH2-U15-855ad0": {
+  "conf": "medium",
+  "mode": "memorise",
+  "why": "The plan's stated organising formula; reasoning rules out the extremes but the specific principle is a policy fact."
+ },
+ "GEN-TECH2-U15-947160": {
   "conf": "high",
   "mode": "understand",
   "why": "Follows from the two statutes covering different layers of the same conduct."
  },
- "GEN-TECH2-U16-092": {
+ "GEN-TECH2-U15-965f7c": {
   "conf": "high",
   "mode": "understand",
-  "why": "The purpose follows from a DPR being a pre-sanction decision document; the wrong options belong to later stages."
+  "why": "Follows from what each statute governs — the electronic means versus the substantive offence — with no section number to recall."
  },
- "GEN-TECH2-U16-093": {
+ "GEN-TECH2-U15-9f6236": {
   "conf": "high",
   "mode": "understand",
-  "why": "Scenario reasoning: the stem itself clears technical and financial feasibility, leaving the rules as the constraint."
+  "why": "Source-indication versus expression follows from what each right is for."
  },
- "GEN-TECH2-U16-094": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Functional versus non-functional follows from whether the clause states what the system does or how well it does it."
- },
- "GEN-TECH2-U16-095": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from a requirement needing to be testable if acceptance is to be decided."
- },
- "GEN-TECH2-U16-096": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "'Quality and Cost Based' names its own method — a weighted combination of both scores."
- },
- "GEN-TECH2-U16-097": {
+ "GEN-TECH2-U15-a30015": {
   "conf": "medium",
   "mode": "understand",
-  "why": "Follows from the technical threshold being a gate, though the unopened-envelope mechanic is a procurement convention."
+  "why": "The legal effect follows from why signature provisions exist — equivalence with a signed paper document."
  },
- "GEN-TECH2-U16-098": {
+ "GEN-TECH2-U15-abb509": {
+  "conf": "medium",
+  "mode": "understand",
+  "why": "Follows from evidence law having been paper-framed; admissibility versus conclusiveness is a conceptual distinction."
+ },
+ "GEN-TECH2-U15-ec02f1": {
+  "conf": "high",
+  "mode": "memorise",
+  "why": "The name of a specific institutional body created under a named programme."
+ },
+ "GEN-TECH2-U15-f18878": {
+  "conf": "medium",
+  "mode": "memorise",
+  "why": "A specific statutory procedural requirement — the certificate regime — that has to be known rather than inferred."
+ },
+ "GEN-TECH2-U16-3b7cb6": {
   "conf": "high",
   "mode": "understand",
   "why": "The competition and price-discovery consequences are reasoned from what a single-product specification does."
  },
- "GEN-TECH2-U16-099": {
+ "GEN-TECH2-U16-5704de": {
+  "conf": "medium",
+  "mode": "understand",
+  "why": "Follows from the technical threshold being a gate, though the unopened-envelope mechanic is a procurement convention."
+ },
+ "GEN-TECH2-U16-60980e": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "'Quality and Cost Based' names its own method — a weighted combination of both scores."
+ },
+ "GEN-TECH2-U16-67db0e": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Follows from a requirement needing to be testable if acceptance is to be decided."
+ },
+ "GEN-TECH2-U16-8eb5b1": {
   "conf": "high",
   "mode": "understand",
   "why": "Follows from what makes an award fair and defensible; no rule needs to be recalled."
  },
- "GEN-TECH2-U17-100": {
+ "GEN-TECH2-U16-b9ed9f": {
   "conf": "high",
   "mode": "understand",
-  "why": "Follows from only the contract documents being enforceable; scenario reasoning throughout."
+  "why": "Scenario reasoning: the stem itself clears technical and financial feasibility, leaving the rules as the constraint."
  },
- "GEN-TECH2-U17-101": {
+ "GEN-TECH2-U16-c39bff": {
   "conf": "high",
   "mode": "understand",
-  "why": "The dependence-at-renewal argument is reasoned from what happens when ownership is unstated."
+  "why": "The purpose follows from a DPR being a pre-sanction decision document; the wrong options belong to later stages."
  },
- "GEN-TECH2-U17-102": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The continuity problem escrow solves follows from the vendor holding the only copy of the code."
- },
- "GEN-TECH2-U17-103": {
+ "GEN-TECH2-U16-d89b26": {
   "conf": "high",
   "mode": "understand",
-  "why": "Change control follows from needing to re-baseline scope, cost and schedule together."
+  "why": "Functional versus non-functional follows from whether the clause states what the system does or how well it does it."
  },
- "GEN-TECH2-U17-104": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from a percentage being unenforceable until measurement and exclusions are agreed."
- },
- "GEN-TECH2-U17-105": {
+ "GEN-TECH2-U17-0aa672": {
   "conf": "high",
   "mode": "understand",
   "why": "Reasoning from support lifecycles being shorter than the contract term."
  },
- "GEN-TECH2-U17-106": {
+ "GEN-TECH2-U17-6b745c": {
+  "conf": "medium",
+  "mode": "understand",
+  "why": "The continuity problem escrow solves follows from the vendor holding the only copy of the code."
+ },
+ "GEN-TECH2-U17-8b8b49": {
   "conf": "high",
   "mode": "understand",
   "why": "The 'risk to the party best able to manage it' principle follows from what mispriced risk does to a bid."
  },
- "GEN-TECH2-U17-107": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from outsourcing delivery not outsourcing the state's obligation to the citizen."
- },
- "GEN-TECH2-U17-108": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The pre-agreed nature of the sum is spelled out in the option, so the concept rather than the legal label decides it."
- },
- "GEN-TECH2-U17-109": {
+ "GEN-TECH2-U17-999269": {
   "conf": "high",
   "mode": "understand",
   "why": "The lock-in and continuity argument is reasoned from what a handover must achieve."
  },
- "GEN-TECH2-U18-110": {
+ "GEN-TECH2-U17-b0e87d": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Change control follows from needing to re-baseline scope, cost and schedule together."
+ },
+ "GEN-TECH2-U17-b995a9": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "The dependence-at-renewal argument is reasoned from what happens when ownership is unstated."
+ },
+ "GEN-TECH2-U17-c89843": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Follows from outsourcing delivery not outsourcing the state's obligation to the citizen."
+ },
+ "GEN-TECH2-U17-db1655": {
+  "conf": "medium",
+  "mode": "understand",
+  "why": "The pre-agreed nature of the sum is spelled out in the option, so the concept rather than the legal label decides it."
+ },
+ "GEN-TECH2-U17-f64d29": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Follows from only the contract documents being enforceable; scenario reasoning throughout."
+ },
+ "GEN-TECH2-U17-f864a0": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Follows from a percentage being unenforceable until measurement and exclusions are agreed."
+ },
+ "GEN-TECH2-U18-03d69d": {
   "conf": "medium",
   "mode": "understand",
   "why": "'While still in progress, to correct the project' identifies the mid-term type by timing rather than by recalled terminology."
  },
- "GEN-TECH2-U18-111": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The distinction follows from what each function is for; the wrong options invert or conflate them."
- },
- "GEN-TECH2-U18-112": {
+ "GEN-TECH2-U18-4278e9": {
   "conf": "high",
   "mode": "understand",
   "why": "Follows from what an indicator needs before anyone can actually report a number."
  },
- "GEN-TECH2-U18-113": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The baseline-is-irrecoverable argument is pure reasoning about measurement."
- },
- "GEN-TECH2-U18-114": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Separating outcome from output and input follows from whose experience each measures."
- },
- "GEN-TECH2-U18-115": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from measurability being a precondition of an indicator being reported at all."
- },
- "GEN-TECH2-U18-116": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "'Before' value versus target is a conceptual distinction, not a recalled definition."
- },
- "GEN-TECH2-U18-117": {
+ "GEN-TECH2-U18-4fcdc9": {
   "conf": "high",
   "mode": "understand",
   "why": "Scenario reasoning about attribution requiring a comparison point."
  },
- "GEN-TECH2-U18-118": {
-  "conf": "medium",
+ "GEN-TECH2-U18-a41f7f": {
+  "conf": "high",
   "mode": "understand",
-  "why": "The four column names are self-describing enough that the external-conditions column is identified by meaning, though the matrix is a named framework's fixed structure."
+  "why": "Follows from measurability being a precondition of an indicator being reported at all."
  },
- "GEN-TECH2-U18-119": {
+ "GEN-TECH2-U18-a74491": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "The distinction follows from what each function is for; the wrong options invert or conflate them."
+ },
+ "GEN-TECH2-U18-abfef2": {
   "conf": "medium",
   "mode": "understand",
   "why": "'Means of verification' names its own content; the distractors belong to other columns."
  },
- "GEN-TECH2-U19-120": {
+ "GEN-TECH2-U18-b420cc": {
   "conf": "high",
   "mode": "understand",
-  "why": "The dimension follows from who bears the effect — the applicant or the administration."
+  "why": "The baseline-is-irrecoverable argument is pure reasoning about measurement."
  },
- "GEN-TECH2-U19-121": {
+ "GEN-TECH2-U18-db2f49": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Separating outcome from output and input follows from whose experience each measures."
+ },
+ "GEN-TECH2-U18-e50540": {
+  "conf": "medium",
+  "mode": "understand",
+  "why": "The four column names are self-describing enough that the external-conditions column is identified by meaning, though the matrix is a named framework's fixed structure."
+ },
+ "GEN-TECH2-U18-f0395f": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "'Before' value versus target is a conceptual distinction, not a recalled definition."
+ },
+ "GEN-TECH2-U19-1b2bfc": {
   "conf": "high",
   "mode": "understand",
   "why": "Equity and transparency are recognisably public-sphere effects rather than individual or departmental ones."
  },
- "GEN-TECH2-U19-122": {
+ "GEN-TECH2-U19-1c6190": {
   "conf": "high",
   "mode": "understand",
   "why": "Follows from reasoning about what a citizen actually spends to obtain a service, not from a recalled list."
  },
- "GEN-TECH2-U19-123": {
+ "GEN-TECH2-U19-38b4eb": {
   "conf": "high",
   "mode": "understand",
-  "why": "Method reasoning about before-and-after measurement; no figure is actually computed from the stem."
+  "why": "The dimension follows from who bears the effect — the applicant or the administration."
  },
- "GEN-TECH2-U19-124": {
+ "GEN-TECH2-U19-474be4": {
   "conf": "medium",
   "mode": "memorise",
   "why": "What a specific named national portal does is an institutional fact, though elimination narrows it."
  },
- "GEN-TECH2-U19-125": {
+ "GEN-TECH2-U19-9cf06b": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Method reasoning about before-and-after measurement; no figure is actually computed from the stem."
+ },
+ "GEN-TECH2-U19-eb7f47": {
   "conf": "high",
   "mode": "understand",
   "why": "The usage-is-not-impact argument follows from the difference between an output measure and an outcome."
  },
- "GEN-TECH2-U2-126": {
+ "GEN-TECH2-U2-09beb4": {
   "conf": "high",
   "mode": "understand",
   "why": "Reasoning about why standalone departmental systems could not interoperate."
  },
- "GEN-TECH2-U2-127": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Turns on applying the demand/supply distinction to the listed factors."
- },
- "GEN-TECH2-U2-128": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Reasoning about why process and legal change, not the technology, is the hard part."
- },
- "GEN-TECH2-U2-129": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The risk is derivable from what dependence on one individual implies."
- },
- "GEN-TECH2-U2-130": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Sequence follows from an RFP needing a defined scope to price."
- },
- "GEN-TECH2-U2-131": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Purpose of a pilot follows from limiting the blast radius of defects."
- },
- "GEN-TECH2-U2-132": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Turns on separating change management from change control conceptually."
- },
- "GEN-TECH2-U2-133": {
+ "GEN-TECH2-U2-2ff319": {
   "conf": "high",
   "mode": "understand",
   "why": "Purpose follows from why different stakeholder groups need different messages."
  },
- "GEN-TECH2-U3-134": {
+ "GEN-TECH2-U2-35f03c": {
   "conf": "high",
   "mode": "understand",
-  "why": "The vision-versus-strategy distinction is conceptual."
+  "why": "The risk is derivable from what dependence on one individual implies."
  },
- "GEN-TECH2-U3-135": {
+ "GEN-TECH2-U2-7a2d54": {
   "conf": "high",
   "mode": "understand",
-  "why": "What a roadmap is follows from its position between strategy and procurement."
+  "why": "Purpose of a pilot follows from limiting the blast radius of defects."
  },
- "GEN-TECH2-U3-136": {
+ "GEN-TECH2-U2-9d907a": {
   "conf": "high",
   "mode": "understand",
-  "why": "Turns on the strategic-versus-design altitude of each option."
+  "why": "Turns on separating change management from change control conceptually."
  },
- "GEN-TECH2-U3-137": {
+ "GEN-TECH2-U2-cccb0a": {
   "conf": "high",
   "mode": "understand",
-  "why": "Purpose of gap analysis follows from its position between as-is and vision."
+  "why": "Turns on applying the demand/supply distinction to the listed factors."
  },
- "GEN-TECH2-U3-138": {
+ "GEN-TECH2-U2-d1efbd": {
   "conf": "high",
   "mode": "understand",
-  "why": "Requires only the outcome-versus-output distinction."
+  "why": "Reasoning about why process and legal change, not the technology, is the hard part."
  },
- "GEN-TECH2-U3-139": {
+ "GEN-TECH2-U2-dc3951": {
   "conf": "high",
   "mode": "understand",
-  "why": "Follows from what is needed to evaluate benefit after the fact."
+  "why": "Sequence follows from an RFP needing a defined scope to price."
  },
- "GEN-TECH2-U3-140": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Power and interest are the sensible dimensions on reasoning, though the grid is a named tool."
- },
- "GEN-TECH2-U3-141": {
+ "GEN-TECH2-U3-02db9a": {
   "conf": "high",
   "mode": "understand",
   "why": "Definition follows from taking the user's side of the transaction."
  },
- "GEN-TECH2-U3-142": {
+ "GEN-TECH2-U3-2c367d": {
   "conf": "high",
   "mode": "understand",
-  "why": "Meaning follows from what 'multi-channel' implies for the back-end."
+  "why": "Turns on the strategic-versus-design altitude of each option."
  },
- "GEN-TECH2-U3-143": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The inclusion rationale follows from who cannot use a self-service channel."
- },
- "GEN-TECH2-U3-144": {
+ "GEN-TECH2-U3-344dee": {
   "conf": "high",
   "mode": "understand",
   "why": "A single cut-over follows from the contrast with the other named approaches."
  },
- "GEN-TECH2-U3-145": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The risk follows from having switched off the fallback."
- },
- "GEN-TECH2-U3-146": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from why phasing is done at all, namely learning between phases."
- },
- "GEN-TECH2-U3-147": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The cost of a long coexistence follows from running two arrangements at once."
- },
- "GEN-TECH2-U3-148": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Definition follows from contrasting with big-bang and phased approaches."
- },
- "GEN-TECH2-U3-149": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Double entry follows directly from running both systems on the same live workload."
- },
- "GEN-TECH2-U3-150": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The programme-versus-project distinction is conceptual."
- },
- "GEN-TECH2-U3-151": {
+ "GEN-TECH2-U3-40a93b": {
   "conf": "high",
   "mode": "understand",
   "why": "Follows from a support unit's role relative to the accountable department."
  },
- "GEN-TECH2-U4-152": {
+ "GEN-TECH2-U3-453dfb": {
   "conf": "high",
   "mode": "understand",
-  "why": "Prioritisation criteria follow from where re-engineering effort yields the most relief."
+  "why": "Follows from what is needed to evaluate benefit after the fact."
  },
- "GEN-TECH2-U4-153": {
+ "GEN-TECH2-U3-458b46": {
   "conf": "high",
   "mode": "understand",
-  "why": "Follows from the fact that automation reproduces whatever process it is given."
+  "why": "Purpose of gap analysis follows from its position between as-is and vision."
  },
- "GEN-TECH2-U4-154": {
+ "GEN-TECH2-U3-4d1dfc": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "The cost of a long coexistence follows from running two arrangements at once."
+ },
+ "GEN-TECH2-U3-73051c": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Requires only the outcome-versus-output distinction."
+ },
+ "GEN-TECH2-U3-8052f5": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "The risk follows from having switched off the fallback."
+ },
+ "GEN-TECH2-U3-88b8b3": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Meaning follows from what 'multi-channel' implies for the back-end."
+ },
+ "GEN-TECH2-U3-b3a4dd": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "What a roadmap is follows from its position between strategy and procurement."
+ },
+ "GEN-TECH2-U3-c6440c": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "The programme-versus-project distinction is conceptual."
+ },
+ "GEN-TECH2-U3-c928ab": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Double entry follows directly from running both systems on the same live workload."
+ },
+ "GEN-TECH2-U3-d15b1b": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "The inclusion rationale follows from who cannot use a self-service channel."
+ },
+ "GEN-TECH2-U3-d3afbb": {
+  "conf": "medium",
+  "mode": "understand",
+  "why": "Power and interest are the sensible dimensions on reasoning, though the grid is a named tool."
+ },
+ "GEN-TECH2-U3-d577d4": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Follows from why phasing is done at all, namely learning between phases."
+ },
+ "GEN-TECH2-U3-d87bae": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "The vision-versus-strategy distinction is conceptual."
+ },
+ "GEN-TECH2-U3-ece0f0": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Definition follows from contrasting with big-bang and phased approaches."
+ },
+ "GEN-TECH2-U4-0402cc": {
   "conf": "high",
   "mode": "understand",
   "why": "Purpose of an as-is map follows from needing a baseline for the to-be."
  },
- "GEN-TECH2-U5-155": {
+ "GEN-TECH2-U4-0b67c6": {
   "conf": "high",
   "mode": "understand",
-  "why": "Follows from what advance disclosure does for bidders and for defensibility of the award."
+  "why": "Prioritisation criteria follow from where re-engineering effort yields the most relief."
  },
- "GEN-TECH2-U5-156": {
+ "GEN-TECH2-U4-3a5a01": {
   "conf": "high",
   "mode": "understand",
-  "why": "Whole-life quality-and-cost reasoning, not a remembered rule."
+  "why": "Follows from the fact that automation reproduces whatever process it is given."
  },
- "GEN-TECH2-U5-157": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The objective defeated follows from what a single-product specification does to the bidder pool."
- },
- "GEN-TECH2-U5-158": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Reasoning about technology obsolescence over a multi-year contract."
- },
- "GEN-TECH2-U5-159": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The method's own name carries the derivation, though telling it from least-cost selection is a learned convention."
- },
- "GEN-TECH2-U5-160": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "What a named platform is scoped to cover; the name helps but the boundary is a scheme fact."
- },
- "GEN-TECH2-U5-161": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The recovery mechanism follows from what a transaction fee is."
- },
- "GEN-TECH2-U5-162": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from converting capital expenditure into usage-linked revenue outgo."
- },
- "GEN-TECH2-U5-163": {
+ "GEN-TECH2-U5-00c672": {
   "conf": "high",
   "mode": "understand",
   "why": "Demand risk follows from revenue depending entirely on volumes."
  },
- "GEN-TECH2-U6-164": {
+ "GEN-TECH2-U5-10399d": {
+  "conf": "medium",
+  "mode": "memorise",
+  "why": "What a named platform is scoped to cover; the name helps but the boundary is a scheme fact."
+ },
+ "GEN-TECH2-U5-25a14d": {
   "conf": "high",
   "mode": "understand",
-  "why": "The citizen benefit follows from a single window at published charges under an enforceable time."
+  "why": "Whole-life quality-and-cost reasoning, not a remembered rule."
  },
- "GEN-TECH2-U6-165": {
+ "GEN-TECH2-U5-32ac94": {
   "conf": "high",
   "mode": "understand",
-  "why": "Follows from what a financial penalty does to an operator's incentives."
+  "why": "Follows from what advance disclosure does for bidders and for defensibility of the award."
  },
- "GEN-TECH2-U6-166": {
+ "GEN-TECH2-U5-3da736": {
   "conf": "high",
   "mode": "understand",
-  "why": "Tenure and assured volumes follow from what makes an upfront investment recoverable."
+  "why": "The recovery mechanism follows from what a transaction fee is."
  },
- "GEN-TECH2-U6-167": {
+ "GEN-TECH2-U5-6c7d0d": {
   "conf": "high",
   "mode": "understand",
-  "why": "Demand risk follows from being paid per transaction."
+  "why": "The objective defeated follows from what a single-product specification does to the bidder pool."
  },
- "GEN-TECH2-U6-168": {
+ "GEN-TECH2-U5-705298": {
   "conf": "high",
   "mode": "understand",
-  "why": "Independent measurement follows from SLA-linked payment needing a credible referee."
+  "why": "Reasoning about technology obsolescence over a multi-year contract."
  },
- "GEN-TECH2-U6-169": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Ring-fencing follows from what a separate project company achieves for lenders."
- },
- "GEN-TECH2-U6-170": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The regulator role follows from transferring delivery but not accountability."
- },
- "GEN-TECH2-U6-171": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Statutory discretion cannot be outsourced; follows from what a statutory power is."
- },
- "GEN-TECH2-U6-172": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The acronym is expanded in the stem, so the obligation set follows by reading it."
- },
- "GEN-TECH2-U6-173": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "A single accountable party follows from bundling delivery under one contract."
- },
- "GEN-TECH2-U6-174": {
+ "GEN-TECH2-U5-7fb8e1": {
   "conf": "medium",
   "mode": "understand",
-  "why": "The name states the arrangement, though the exact risk allocation is a model convention."
+  "why": "The method's own name carries the derivation, though telling it from least-cost selection is a learned convention."
  },
- "GEN-TECH2-U6-175": {
+ "GEN-TECH2-U5-8b616d": {
   "conf": "high",
   "mode": "understand",
-  "why": "No private capital and no revenue risk leaves only fee-for-management."
+  "why": "Follows from converting capital expenditure into usage-linked revenue outgo."
  },
- "GEN-TECH2-U6-176": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Follows from the expansion of Application Service Provider, which the stem supplies."
- },
- "GEN-TECH2-U6-177": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Hosted-and-subscribed follows from the model, though the ASP/SaaS equivalence is a learned association."
- },
- "GEN-TECH2-U6-178": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from which route keeps build and hiring off the critical path."
- },
- "GEN-TECH2-U6-179": {
+ "GEN-TECH2-U6-01379d": {
   "conf": "high",
   "mode": "understand",
   "why": "Time saved follows from the partner having already done the procurement and the build."
  },
- "GEN-TECH2-U6-180": {
+ "GEN-TECH2-U6-05f8d4": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Follows from what a financial penalty does to an operator's incentives."
+ },
+ "GEN-TECH2-U6-11dc41": {
   "conf": "medium",
   "mode": "understand",
-  "why": "Both acronyms are expanded in the stem, so the trailing 'Transfer' follows by reading rather than recall."
+  "why": "Follows from the expansion of Application Service Provider, which the stem supplies."
  },
- "GEN-TECH2-U6-181": {
-  "conf": "medium",
+ "GEN-TECH2-U6-132bd6": {
+  "conf": "high",
   "mode": "understand",
-  "why": "Permanent private ownership plus usage revenue maps onto the model names written out in the options."
+  "why": "The citizen benefit follows from a single window at published charges under an enforceable time."
  },
- "GEN-TECH2-U6-182": {
+ "GEN-TECH2-U6-20ded7": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Follows from which route keeps build and hiring off the critical path."
+ },
+ "GEN-TECH2-U6-2a465e": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "No private capital and no revenue risk leaves only fee-for-management."
+ },
+ "GEN-TECH2-U6-4a82d6": {
   "conf": "medium",
   "mode": "understand",
   "why": "Shared equity follows from what 'joint venture' means, though model definitions are otherwise conventions."
  },
- "GEN-TECH2-U6-183": {
+ "GEN-TECH2-U6-506cb4": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Tenure and assured volumes follow from what makes an upfront investment recoverable."
+ },
+ "GEN-TECH2-U6-6341b1": {
   "conf": "medium",
   "mode": "understand",
-  "why": "Turns on where ownership sits in each model, derivable from the expanded names."
+  "why": "Permanent private ownership plus usage revenue maps onto the model names written out in the options."
  },
- "GEN-TECH2-U6-184": {
+ "GEN-TECH2-U6-65c5b2": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Independent measurement follows from SLA-linked payment needing a credible referee."
+ },
+ "GEN-TECH2-U6-82759a": {
+  "conf": "medium",
+  "mode": "understand",
+  "why": "Hosted-and-subscribed follows from the model, though the ASP/SaaS equivalence is a learned association."
+ },
+ "GEN-TECH2-U6-86e08c": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Statutory discretion cannot be outsourced; follows from what a statutory power is."
+ },
+ "GEN-TECH2-U6-8f6496": {
   "conf": "high",
   "mode": "understand",
   "why": "The allocation principle follows from a party pricing in any risk it cannot manage."
  },
- "GEN-TECH2-U6-185": {
+ "GEN-TECH2-U6-99bb20": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "The regulator role follows from transferring delivery but not accountability."
+ },
+ "GEN-TECH2-U6-a4042d": {
   "conf": "high",
   "mode": "understand",
   "why": "Who bears demand risk follows from whether payment is fixed or volume-linked."
  },
- "GEN-TECH2-U7-186": {
+ "GEN-TECH2-U6-adcef9": {
   "conf": "high",
   "mode": "understand",
-  "why": "What the account-identity-mobile combination enables follows from what each element supplies."
+  "why": "Demand risk follows from being paid per transaction."
  },
- "GEN-TECH2-U7-187": {
+ "GEN-TECH2-U6-b18ef3": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "The acronym is expanded in the stem, so the obligation set follows by reading it."
+ },
+ "GEN-TECH2-U6-ba119e": {
   "conf": "medium",
   "mode": "understand",
-  "why": "The distinguishing mechanic follows from what a virtual payment address does, once the concept is held."
+  "why": "The name states the arrangement, though the exact risk allocation is a model convention."
  },
- "GEN-TECH2-U7-188": {
+ "GEN-TECH2-U6-bba8a7": {
   "conf": "medium",
   "mode": "understand",
-  "why": "Follows from what 'issued by the authority' implies about signature and evidentiary value."
+  "why": "Turns on where ownership sits in each model, derivable from the expanded names."
  },
- "GEN-TECH2-U7-189": {
+ "GEN-TECH2-U6-d0382f": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "A single accountable party follows from bundling delivery under one contract."
+ },
+ "GEN-TECH2-U6-fda96b": {
+  "conf": "medium",
+  "mode": "understand",
+  "why": "Both acronyms are expanded in the stem, so the trailing 'Transfer' follows by reading rather than recall."
+ },
+ "GEN-TECH2-U6-ffb788": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Ring-fencing follows from what a separate project company achieves for lenders."
+ },
+ "GEN-TECH2-U7-1742b8": {
   "conf": "high",
   "mode": "understand",
   "why": "The meaning of 'shareable' follows from the citizen controlling disclosure."
  },
- "GEN-TECH2-U7-190": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Turns on the institutional division of mandates; the acronym expansion is the only derivation path."
- },
- "GEN-TECH2-U7-191": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "The function of a named centre; the Hindi word hints at cleaning but the botnet mandate is a fact to be known."
- },
- "GEN-TECH2-U7-192": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "The expansion is printed and 'unified' carries the answer; the distractors are other platforms' functions."
- },
- "GEN-TECH2-U7-193": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Scope follows from the project's name and the tier of administration it addresses."
- },
- "GEN-TECH2-U7-194": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Follows from federated APIs versus a consolidated database as competing integration designs."
- },
- "GEN-TECH2-U7-195": {
-  "conf": "medium",
-  "mode": "understand",
-  "why": "Middleware's role follows from converting point-to-point links into a hub."
- },
- "GEN-TECH2-U7-196": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The meaning of portability follows from the entitlement following the person."
- },
- "GEN-TECH2-U7-197": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The scheme's name states the mechanism; central authentication follows from it."
- },
- "GEN-TECH2-U7-198": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Single-window means one application routed onward, not the abolition of approvals."
- },
- "GEN-TECH2-U7-199": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "What a named project covers; the ministry acronym is the only derivation path."
- },
- "GEN-TECH2-U7-200": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Choosing buffer and service-area analysis follows from what the siting question asks."
- },
- "GEN-TECH2-U7-201": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "The function of a named platform, not derivable from GIS knowledge alone."
- },
- "GEN-TECH2-U7-202": {
-  "conf": "high",
-  "mode": "memorise",
-  "why": "A scheme target pitched at the household; arbitrary without recall."
- },
- "GEN-TECH2-U7-203": {
+ "GEN-TECH2-U7-2aacfd": {
   "conf": "high",
   "mode": "understand",
   "why": "The role follows from assisted delivery plus training at the last mile."
  },
- "GEN-TECH2-U7-204": {
+ "GEN-TECH2-U7-2c9cad": {
+  "conf": "medium",
+  "mode": "memorise",
+  "why": "What a named project covers; the ministry acronym is the only derivation path."
+ },
+ "GEN-TECH2-U7-4ae6fb": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Choosing buffer and service-area analysis follows from what the siting question asks."
+ },
+ "GEN-TECH2-U7-56eee6": {
+  "conf": "medium",
+  "mode": "understand",
+  "why": "Scope follows from the project's name and the tier of administration it addresses."
+ },
+ "GEN-TECH2-U7-60b5b3": {
   "conf": "medium",
   "mode": "memorise",
   "why": "A specific policy obligation; the name hints at sharing but the classify-and-publish duty is a stated provision."
  },
- "GEN-TECH2-U7-205": {
+ "GEN-TECH2-U7-64f473": {
+  "conf": "medium",
+  "mode": "understand",
+  "why": "The distinguishing mechanic follows from what a virtual payment address does, once the concept is held."
+ },
+ "GEN-TECH2-U7-70e6ea": {
+  "conf": "medium",
+  "mode": "understand",
+  "why": "Middleware's role follows from converting point-to-point links into a hub."
+ },
+ "GEN-TECH2-U7-7607d0": {
+  "conf": "medium",
+  "mode": "memorise",
+  "why": "The function of a named platform, not derivable from GIS knowledge alone."
+ },
+ "GEN-TECH2-U7-7a2216": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Single-window means one application routed onward, not the abolition of approvals."
+ },
+ "GEN-TECH2-U7-8cee83": {
+  "conf": "medium",
+  "mode": "memorise",
+  "why": "The function of a named centre; the Hindi word hints at cleaning but the botnet mandate is a fact to be known."
+ },
+ "GEN-TECH2-U7-8d44da": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "The scheme's name states the mechanism; central authentication follows from it."
+ },
+ "GEN-TECH2-U7-9c54ba": {
+  "conf": "medium",
+  "mode": "understand",
+  "why": "Follows from federated APIs versus a consolidated database as competing integration designs."
+ },
+ "GEN-TECH2-U7-b2f436": {
+  "conf": "medium",
+  "mode": "understand",
+  "why": "The expansion is printed and 'unified' carries the answer; the distractors are other platforms' functions."
+ },
+ "GEN-TECH2-U7-b59bca": {
+  "conf": "medium",
+  "mode": "understand",
+  "why": "Follows from what 'issued by the authority' implies about signature and evidentiary value."
+ },
+ "GEN-TECH2-U7-c376da": {
   "conf": "medium",
   "mode": "memorise",
   "why": "A specific policy provision, preference plus recorded justification, not derivable from the idea of open source."
  },
- "GEN-TECH2-U8-206": {
+ "GEN-TECH2-U7-c600c5": {
+  "conf": "high",
+  "mode": "memorise",
+  "why": "A scheme target pitched at the household; arbitrary without recall."
+ },
+ "GEN-TECH2-U7-e397a9": {
   "conf": "high",
   "mode": "understand",
-  "why": "Follows from the back-end verification step needing a machine-readable record."
+  "why": "The meaning of portability follows from the entitlement following the person."
  },
- "GEN-TECH2-U8-207": {
+ "GEN-TECH2-U7-e6f1ca": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "What the account-identity-mobile combination enables follows from what each element supplies."
+ },
+ "GEN-TECH2-U7-ff593d": {
   "conf": "medium",
-  "mode": "understand",
-  "why": "The term largely describes itself, though 'day-forward' is a coined label."
+  "mode": "memorise",
+  "why": "Turns on the institutional division of mandates; the acronym expansion is the only derivation path."
  },
- "GEN-TECH2-U8-208": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from un-indexed page images being unsearchable."
- },
- "GEN-TECH2-U8-209": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The consequence follows from what inconsistent field definitions do to data exchange."
- },
- "GEN-TECH2-U8-210": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "What OCR adds follows from the difference between an image and text."
- },
- "GEN-TECH2-U8-211": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Follows from what managed custody adds over plain storage."
- },
- "GEN-TECH2-U8-212": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Purpose of a rehearsal follows from wanting errors surfaced before go-live."
- },
- "GEN-TECH2-U8-213": {
+ "GEN-TECH2-U8-191141": {
   "conf": "high",
   "mode": "understand",
   "why": "Counts and control totals follow from what proving completeness actually requires."
  },
- "GEN-TECH2-U9-214": {
+ "GEN-TECH2-U8-72e4e5": {
   "conf": "high",
   "mode": "understand",
-  "why": "The answer follows from what any EA framework does; no TOGAF-specific detail is needed."
+  "why": "Follows from un-indexed page images being unsearchable."
  },
- "GEN-TECH2-U9-215": {
+ "GEN-TECH2-U8-890bd7": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "The consequence follows from what inconsistent field definitions do to data exchange."
+ },
+ "GEN-TECH2-U8-bbf9d3": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Purpose of a rehearsal follows from wanting errors surfaced before go-live."
+ },
+ "GEN-TECH2-U8-bea03a": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Follows from the back-end verification step needing a machine-readable record."
+ },
+ "GEN-TECH2-U8-da7326": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Follows from what managed custody adds over plain storage."
+ },
+ "GEN-TECH2-U8-fb1b54": {
   "conf": "medium",
-  "mode": "memorise",
-  "why": "The rows-and-interrogatives structure of a named framework must be learned; it does not follow from any concept."
+  "mode": "understand",
+  "why": "The term largely describes itself, though 'day-forward' is a coined label."
  },
- "GEN-TECH2-U9-216": {
+ "GEN-TECH2-U8-fd0345": {
   "conf": "high",
   "mode": "understand",
-  "why": "Reasoning about departmental silos and what an architecture framework fixes yields the answer."
+  "why": "What OCR adds follows from the difference between an image and text."
  },
- "GEN-TECH2-U9-217": {
-  "conf": "medium",
-  "mode": "memorise",
-  "why": "Recall of the canonical four-layer list; elimination helps but the exact set is a convention, so tie-break applies."
- },
- "GEN-TECH2-U9-218": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The answer is the definition of coupling itself — dependence on contract, not internals."
- },
- "GEN-TECH2-U9-219": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "Scenario reasoning about one authoritative implementation; no list membership involved."
- },
- "GEN-TECH2-U9-220": {
+ "GEN-TECH2-U9-1402d4": {
   "conf": "medium",
   "mode": "understand",
   "why": "The role follows from WSDL being a service description language, though the acronym itself has to be known."
  },
- "GEN-TECH2-U9-221": {
+ "GEN-TECH2-U9-2a3b24": {
+  "conf": "medium",
+  "mode": "memorise",
+  "why": "The rows-and-interrogatives structure of a named framework must be learned; it does not follow from any concept."
+ },
+ "GEN-TECH2-U9-3062f7": {
+  "conf": "medium",
+  "mode": "memorise",
+  "why": "Recall of the canonical four-layer list; elimination helps but the exact set is a convention, so tie-break applies."
+ },
+ "GEN-TECH2-U9-5884a5": {
   "conf": "high",
   "mode": "understand",
-  "why": "The distinction follows from what a style and a protocol respectively are."
+  "why": "Scenario reasoning about one authoritative implementation; no list membership involved."
  },
- "GEN-TECH2-U9-222": {
-  "conf": "high",
-  "mode": "understand",
-  "why": "The point-to-point versus hub argument is reasoned from what integration costs, not recalled."
- },
- "GEN-TECH2-U9-223": {
+ "GEN-TECH2-U9-5ba133": {
   "conf": "high",
   "mode": "understand",
   "why": "Distinguishing interoperability from availability and scalability is conceptual discrimination."
  },
- "GEN-TECH2-U9-224": {
+ "GEN-TECH2-U9-67284b": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "Reasoning about departmental silos and what an architecture framework fixes yields the answer."
+ },
+ "GEN-TECH2-U9-86bc2b": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "The answer follows from what any EA framework does; no TOGAF-specific detail is needed."
+ },
+ "GEN-TECH2-U9-92ae51": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "The distinction follows from what a style and a protocol respectively are."
+ },
+ "GEN-TECH2-U9-9f8245": {
   "conf": "high",
   "mode": "understand",
   "why": "The lock-in and long-term-readability argument follows from what an open specification is."
  },
- "GEN-TECH2-U9-225": {
+ "GEN-TECH2-U9-a6a6ec": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "The point-to-point versus hub argument is reasoned from what integration costs, not recalled."
+ },
+ "GEN-TECH2-U9-cc4a7a": {
   "conf": "high",
   "mode": "understand",
   "why": "The effect of shared metadata follows from what common data definitions do."
+ },
+ "GEN-TECH2-U9-dd07bb": {
+  "conf": "high",
+  "mode": "understand",
+  "why": "The answer is the definition of coupling itself — dependence on contract, not internals."
  },
  "TECH1_2024-1": {
   "conf": "medium",

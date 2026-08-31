@@ -1,42 +1,122 @@
 [
- { "id": "TECH2_2024-68", "mode": "understand", "confidence": "medium",
-   "why": "Follows from government processes being too department-specific for unmodified packages, though it is stated as a textbook generalisation." },
- { "id": "TECH2_2024-69", "mode": "understand", "confidence": "high",
-   "why": "Pricing drivers follow from a product being sold and licensed rather than built." },
- { "id": "TECH2_2024-70", "mode": "memorise", "confidence": "medium",
-   "why": "A statutory default rule on where copyright vests; a legal convention, not something the technology yields." },
- { "id": "TECH2_2024-75", "mode": "memorise", "confidence": "medium",
-   "why": "Recall of which off-the-shelf acronym exists and what its initial stands for, against near-identical distractors." },
- { "id": "TECH2_2021-54", "mode": "memorise", "confidence": "high",
-   "why": "The name of a specific national portal; arbitrary, with no derivation path." },
- { "id": "TECH2_2021-68", "mode": "memorise", "confidence": "medium",
-   "why": "Acronym recall — matching a definition to the expansion 'Commercial Off-The-Shelf'." },
- { "id": "TECH2_2021-69", "mode": "understand", "confidence": "medium",
-   "why": "Picks the standard term from near-synonyms; conceptual but the options are only loosely distinguishable." },
- { "id": "TECH2_2021-70", "mode": "understand", "confidence": "medium",
-   "why": "The odd one out follows from the idea-expression distinction, not merely from a list of IPR types." },
- { "id": "GEN-TECH2-U12-045", "mode": "understand", "confidence": "high",
-   "why": "The difference follows from what a right-to-use for an indefinite term does and does not include." },
- { "id": "GEN-TECH2-U12-046", "mode": "understand", "confidence": "high",
-   "why": "'Per-core' names its own cost driver; the reasoning is about which metric the licence counts." },
- { "id": "GEN-TECH2-U12-047", "mode": "understand", "confidence": "high",
-   "why": "Concurrent versus named-user follows from what each metric counts; the numbers are illustrative, not computed." },
- { "id": "GEN-TECH2-U12-048", "mode": "memorise", "confidence": "medium",
-   "why": "The remuneration design of one specific national scheme; reasoning from 'entrepreneur' helps but the model is a scheme fact." },
- { "id": "GEN-TECH2-U12-049", "mode": "understand", "confidence": "medium",
-   "why": "'Cross-subsidy through differential pricing' describes the arrangement transparently once the scenario is analysed." },
- { "id": "GEN-TECH2-U12-050", "mode": "understand", "confidence": "high",
-   "why": "Follows from a statutory fee being fixed by law and a channel charge covering channel costs." },
- { "id": "GEN-TECH2-U12-051", "mode": "understand", "confidence": "high",
-   "why": "Reasoning about what happens when an unreformed workflow is encoded in software." },
- { "id": "GEN-TECH2-U12-052", "mode": "understand", "confidence": "high",
-   "why": "The pairwise-integration argument is reasoned from what standards remove." },
- { "id": "GEN-TECH2-U12-053", "mode": "understand", "confidence": "high",
-   "why": "Follows from the rules, not the software, deciding what counts as a valid instrument." },
- { "id": "GEN-TECH2-U12-054", "mode": "understand", "confidence": "high",
-   "why": "The stem spells out Build-Own-Operate-Transfer, so the ownership position follows from the words themselves." },
- { "id": "GEN-TECH2-U12-055", "mode": "understand", "confidence": "medium",
-   "why": "'Viability gap funding' maps onto the scenario's stated viability shortfall; the other three are recognisably security instruments." },
- { "id": "GEN-TECH2-U12-056", "mode": "understand", "confidence": "high",
-   "why": "Outcome-based versus input-based payment follows from what each model bills for." }
+ {
+  "id": "TECH2_2024-68",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "Follows from government processes being too department-specific for unmodified packages, though it is stated as a textbook generalisation."
+ },
+ {
+  "id": "TECH2_2024-69",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Pricing drivers follow from a product being sold and licensed rather than built."
+ },
+ {
+  "id": "TECH2_2024-70",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "A statutory default rule on where copyright vests; a legal convention, not something the technology yields."
+ },
+ {
+  "id": "TECH2_2024-75",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "Recall of which off-the-shelf acronym exists and what its initial stands for, against near-identical distractors."
+ },
+ {
+  "id": "TECH2_2021-54",
+  "mode": "memorise",
+  "confidence": "high",
+  "why": "The name of a specific national portal; arbitrary, with no derivation path."
+ },
+ {
+  "id": "TECH2_2021-68",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "Acronym recall — matching a definition to the expansion 'Commercial Off-The-Shelf'."
+ },
+ {
+  "id": "TECH2_2021-69",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "Picks the standard term from near-synonyms; conceptual but the options are only loosely distinguishable."
+ },
+ {
+  "id": "TECH2_2021-70",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "The odd one out follows from the idea-expression distinction, not merely from a list of IPR types."
+ },
+ {
+  "id": "GEN-TECH2-U12-e21975",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The difference follows from what a right-to-use for an indefinite term does and does not include."
+ },
+ {
+  "id": "GEN-TECH2-U12-77a370",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "'Per-core' names its own cost driver; the reasoning is about which metric the licence counts."
+ },
+ {
+  "id": "GEN-TECH2-U12-9ad838",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Concurrent versus named-user follows from what each metric counts; the numbers are illustrative, not computed."
+ },
+ {
+  "id": "GEN-TECH2-U12-feb8ad",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "The remuneration design of one specific national scheme; reasoning from 'entrepreneur' helps but the model is a scheme fact."
+ },
+ {
+  "id": "GEN-TECH2-U12-5b4d88",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "'Cross-subsidy through differential pricing' describes the arrangement transparently once the scenario is analysed."
+ },
+ {
+  "id": "GEN-TECH2-U12-a3ffec",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Follows from a statutory fee being fixed by law and a channel charge covering channel costs."
+ },
+ {
+  "id": "GEN-TECH2-U12-d4db19",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Reasoning about what happens when an unreformed workflow is encoded in software."
+ },
+ {
+  "id": "GEN-TECH2-U12-c6ee11",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The pairwise-integration argument is reasoned from what standards remove."
+ },
+ {
+  "id": "GEN-TECH2-U12-457c0d",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Follows from the rules, not the software, deciding what counts as a valid instrument."
+ },
+ {
+  "id": "GEN-TECH2-U12-547f26",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The stem spells out Build-Own-Operate-Transfer, so the ownership position follows from the words themselves."
+ },
+ {
+  "id": "GEN-TECH2-U12-11f5dc",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "'Viability gap funding' maps onto the scenario's stated viability shortfall; the other three are recognisably security instruments."
+ },
+ {
+  "id": "GEN-TECH2-U12-08f7d6",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Outcome-based versus input-based payment follows from what each model bills for."
+ }
 ]

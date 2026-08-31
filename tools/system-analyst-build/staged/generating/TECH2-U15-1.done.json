@@ -52,7 +52,7 @@
     "exp": "The Controller sits at the top of the trust hierarchy as the licensing and supervisory authority, while the licensed Certifying Authorities are the bodies that actually issue certificates to subscribers. No authority holds an archive of all signed records, and disputes go to the adjudicating and appellate machinery, not to the Controller."
   },
   {
-    "sub": "Indian Penal Code sections 503, 499, 500, 463, 470, 472, 420, 416, 417, 383, 405, 406, 408, 409, 204, 477, 193, 175",
+    "sub": "Indian Penal Code sections 503, 499, 500, 463, 470, 472, 420, 416, 417, 383, 405, 406, 408, 409, 204, 477, 193, 167, 172, 173, 175",
     "q": "In prosecuting a fraud committed through a government portal, penal offences such as cheating, forgery and criminal breach of trust are commonly charged alongside offences under the Information Technology Act because:",
     "opts": {
       "A": "The information technology law addresses the computer resource and the electronic means used, while the general penal law supplies the substantive offence against person or property that was actually committed",
@@ -65,7 +65,7 @@
     "exp": "The two bodies of law address different elements of the same act, so investigators charge both: the technology statute for unauthorised access or tampering with a computer resource, the general penal law for the deception, forgery or misappropriation itself. Neither statute is confined to offences abroad, to non-computer settings, or to public servants."
   },
   {
-    "sub": "Indian Penal Code sections 503, 499, 500, 463, 470, 472, 420, 416, 417, 383, 405, 406, 408, 409, 204, 477, 193, 175",
+    "sub": "Indian Penal Code sections 503, 499, 500, 463, 470, 472, 420, 416, 417, 383, 405, 406, 408, 409, 204, 477, 193, 167, 172, 173, 175",
     "q": "Among the penal offences relevant to computer-related crime, what distinguishes criminal breach of trust from cheating?",
     "opts": {
       "A": "Cheating requires the property to have been entrusted to the accused, while criminal breach of trust does not",

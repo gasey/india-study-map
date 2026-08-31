@@ -144,133 +144,133 @@
   "why": "Follows from what distinguishes a PPP from a departmental build."
  },
  {
-  "id": "GEN-TECH2-U6-164",
+  "id": "GEN-TECH2-U6-132bd6",
   "mode": "understand",
   "confidence": "high",
   "why": "The citizen benefit follows from a single window at published charges under an enforceable time."
  },
  {
-  "id": "GEN-TECH2-U6-165",
+  "id": "GEN-TECH2-U6-05f8d4",
   "mode": "understand",
   "confidence": "high",
   "why": "Follows from what a financial penalty does to an operator's incentives."
  },
  {
-  "id": "GEN-TECH2-U6-166",
+  "id": "GEN-TECH2-U6-506cb4",
   "mode": "understand",
   "confidence": "high",
   "why": "Tenure and assured volumes follow from what makes an upfront investment recoverable."
  },
  {
-  "id": "GEN-TECH2-U6-167",
+  "id": "GEN-TECH2-U6-adcef9",
   "mode": "understand",
   "confidence": "high",
   "why": "Demand risk follows from being paid per transaction."
  },
  {
-  "id": "GEN-TECH2-U6-168",
+  "id": "GEN-TECH2-U6-65c5b2",
   "mode": "understand",
   "confidence": "high",
   "why": "Independent measurement follows from SLA-linked payment needing a credible referee."
  },
  {
-  "id": "GEN-TECH2-U6-169",
+  "id": "GEN-TECH2-U6-ffb788",
   "mode": "understand",
   "confidence": "high",
   "why": "Ring-fencing follows from what a separate project company achieves for lenders."
  },
  {
-  "id": "GEN-TECH2-U6-170",
+  "id": "GEN-TECH2-U6-99bb20",
   "mode": "understand",
   "confidence": "high",
   "why": "The regulator role follows from transferring delivery but not accountability."
  },
  {
-  "id": "GEN-TECH2-U6-171",
+  "id": "GEN-TECH2-U6-86e08c",
   "mode": "understand",
   "confidence": "high",
   "why": "Statutory discretion cannot be outsourced; follows from what a statutory power is."
  },
  {
-  "id": "GEN-TECH2-U6-172",
+  "id": "GEN-TECH2-U6-b18ef3",
   "mode": "understand",
   "confidence": "high",
   "why": "The acronym is expanded in the stem, so the obligation set follows by reading it."
  },
  {
-  "id": "GEN-TECH2-U6-173",
+  "id": "GEN-TECH2-U6-d0382f",
   "mode": "understand",
   "confidence": "high",
   "why": "A single accountable party follows from bundling delivery under one contract."
  },
  {
-  "id": "GEN-TECH2-U6-174",
+  "id": "GEN-TECH2-U6-ba119e",
   "mode": "understand",
   "confidence": "medium",
   "why": "The name states the arrangement, though the exact risk allocation is a model convention."
  },
  {
-  "id": "GEN-TECH2-U6-175",
+  "id": "GEN-TECH2-U6-2a465e",
   "mode": "understand",
   "confidence": "high",
   "why": "No private capital and no revenue risk leaves only fee-for-management."
  },
  {
-  "id": "GEN-TECH2-U6-176",
+  "id": "GEN-TECH2-U6-11dc41",
   "mode": "understand",
   "confidence": "medium",
   "why": "Follows from the expansion of Application Service Provider, which the stem supplies."
  },
  {
-  "id": "GEN-TECH2-U6-177",
+  "id": "GEN-TECH2-U6-82759a",
   "mode": "understand",
   "confidence": "medium",
   "why": "Hosted-and-subscribed follows from the model, though the ASP/SaaS equivalence is a learned association."
  },
  {
-  "id": "GEN-TECH2-U6-178",
+  "id": "GEN-TECH2-U6-20ded7",
   "mode": "understand",
   "confidence": "high",
   "why": "Follows from which route keeps build and hiring off the critical path."
  },
  {
-  "id": "GEN-TECH2-U6-179",
+  "id": "GEN-TECH2-U6-01379d",
   "mode": "understand",
   "confidence": "high",
   "why": "Time saved follows from the partner having already done the procurement and the build."
  },
  {
-  "id": "GEN-TECH2-U6-180",
+  "id": "GEN-TECH2-U6-fda96b",
   "mode": "understand",
   "confidence": "medium",
   "why": "Both acronyms are expanded in the stem, so the trailing 'Transfer' follows by reading rather than recall."
  },
  {
-  "id": "GEN-TECH2-U6-181",
+  "id": "GEN-TECH2-U6-6341b1",
   "mode": "understand",
   "confidence": "medium",
   "why": "Permanent private ownership plus usage revenue maps onto the model names written out in the options."
  },
  {
-  "id": "GEN-TECH2-U6-182",
+  "id": "GEN-TECH2-U6-4a82d6",
   "mode": "understand",
   "confidence": "medium",
   "why": "Shared equity follows from what 'joint venture' means, though model definitions are otherwise conventions."
  },
  {
-  "id": "GEN-TECH2-U6-183",
+  "id": "GEN-TECH2-U6-bba8a7",
   "mode": "understand",
   "confidence": "medium",
   "why": "Turns on where ownership sits in each model, derivable from the expanded names."
  },
  {
-  "id": "GEN-TECH2-U6-184",
+  "id": "GEN-TECH2-U6-8f6496",
   "mode": "understand",
   "confidence": "high",
   "why": "The allocation principle follows from a party pricing in any risk it cannot manage."
  },
  {
-  "id": "GEN-TECH2-U6-185",
+  "id": "GEN-TECH2-U6-a4042d",
   "mode": "understand",
   "confidence": "high",
   "why": "Who bears demand risk follows from whether payment is fixed or volume-linked."

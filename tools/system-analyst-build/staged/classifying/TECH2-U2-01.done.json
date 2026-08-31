@@ -96,49 +96,49 @@
   "why": "Derivable from as-is documenting the present against a forward-looking strategy."
  },
  {
-  "id": "GEN-TECH2-U2-126",
+  "id": "GEN-TECH2-U2-09beb4",
   "mode": "understand",
   "confidence": "high",
   "why": "Reasoning about why standalone departmental systems could not interoperate."
  },
  {
-  "id": "GEN-TECH2-U2-127",
+  "id": "GEN-TECH2-U2-cccb0a",
   "mode": "understand",
   "confidence": "high",
   "why": "Turns on applying the demand/supply distinction to the listed factors."
  },
  {
-  "id": "GEN-TECH2-U2-128",
+  "id": "GEN-TECH2-U2-d1efbd",
   "mode": "understand",
   "confidence": "high",
   "why": "Reasoning about why process and legal change, not the technology, is the hard part."
  },
  {
-  "id": "GEN-TECH2-U2-129",
+  "id": "GEN-TECH2-U2-35f03c",
   "mode": "understand",
   "confidence": "high",
   "why": "The risk is derivable from what dependence on one individual implies."
  },
  {
-  "id": "GEN-TECH2-U2-130",
+  "id": "GEN-TECH2-U2-dc3951",
   "mode": "understand",
   "confidence": "high",
   "why": "Sequence follows from an RFP needing a defined scope to price."
  },
  {
-  "id": "GEN-TECH2-U2-131",
+  "id": "GEN-TECH2-U2-7a2d54",
   "mode": "understand",
   "confidence": "high",
   "why": "Purpose of a pilot follows from limiting the blast radius of defects."
  },
  {
-  "id": "GEN-TECH2-U2-132",
+  "id": "GEN-TECH2-U2-9d907a",
   "mode": "understand",
   "confidence": "high",
   "why": "Turns on separating change management from change control conceptually."
  },
  {
-  "id": "GEN-TECH2-U2-133",
+  "id": "GEN-TECH2-U2-2ff319",
   "mode": "understand",
   "confidence": "high",
   "why": "Purpose follows from why different stakeholder groups need different messages."

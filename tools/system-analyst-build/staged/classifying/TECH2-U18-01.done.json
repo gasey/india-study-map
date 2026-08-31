@@ -1,28 +1,80 @@
 [
- { "id": "TECH2_2024-97", "mode": "understand", "confidence": "high",
-   "why": "The pairing follows from what continuous tracking and periodic judgement respectively mean." },
- { "id": "TECH2_2021-96", "mode": "understand", "confidence": "high",
-   "why": "The false statement is the one that belongs to evaluation; the boundary is conceptual, not a list." },
- { "id": "TECH2_2021-98", "mode": "understand", "confidence": "medium",
-   "why": "Placing evaluation at the outcome level follows from the results chain, though the level labels are a convention." },
- { "id": "GEN-TECH2-U18-110", "mode": "understand", "confidence": "medium",
-   "why": "'While still in progress, to correct the project' identifies the mid-term type by timing rather than by recalled terminology." },
- { "id": "GEN-TECH2-U18-111", "mode": "understand", "confidence": "high",
-   "why": "The distinction follows from what each function is for; the wrong options invert or conflate them." },
- { "id": "GEN-TECH2-U18-112", "mode": "understand", "confidence": "high",
-   "why": "Follows from what an indicator needs before anyone can actually report a number." },
- { "id": "GEN-TECH2-U18-113", "mode": "understand", "confidence": "high",
-   "why": "The baseline-is-irrecoverable argument is pure reasoning about measurement." },
- { "id": "GEN-TECH2-U18-114", "mode": "understand", "confidence": "high",
-   "why": "Separating outcome from output and input follows from whose experience each measures." },
- { "id": "GEN-TECH2-U18-115", "mode": "understand", "confidence": "high",
-   "why": "Follows from measurability being a precondition of an indicator being reported at all." },
- { "id": "GEN-TECH2-U18-116", "mode": "understand", "confidence": "high",
-   "why": "'Before' value versus target is a conceptual distinction, not a recalled definition." },
- { "id": "GEN-TECH2-U18-117", "mode": "understand", "confidence": "high",
-   "why": "Scenario reasoning about attribution requiring a comparison point." },
- { "id": "GEN-TECH2-U18-118", "mode": "understand", "confidence": "medium",
-   "why": "The four column names are self-describing enough that the external-conditions column is identified by meaning, though the matrix is a named framework's fixed structure." },
- { "id": "GEN-TECH2-U18-119", "mode": "understand", "confidence": "medium",
-   "why": "'Means of verification' names its own content; the distractors belong to other columns." }
+ {
+  "id": "TECH2_2024-97",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The pairing follows from what continuous tracking and periodic judgement respectively mean."
+ },
+ {
+  "id": "TECH2_2021-96",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The false statement is the one that belongs to evaluation; the boundary is conceptual, not a list."
+ },
+ {
+  "id": "TECH2_2021-98",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "Placing evaluation at the outcome level follows from the results chain, though the level labels are a convention."
+ },
+ {
+  "id": "GEN-TECH2-U18-03d69d",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "'While still in progress, to correct the project' identifies the mid-term type by timing rather than by recalled terminology."
+ },
+ {
+  "id": "GEN-TECH2-U18-a74491",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The distinction follows from what each function is for; the wrong options invert or conflate them."
+ },
+ {
+  "id": "GEN-TECH2-U18-4278e9",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Follows from what an indicator needs before anyone can actually report a number."
+ },
+ {
+  "id": "GEN-TECH2-U18-b420cc",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The baseline-is-irrecoverable argument is pure reasoning about measurement."
+ },
+ {
+  "id": "GEN-TECH2-U18-db2f49",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Separating outcome from output and input follows from whose experience each measures."
+ },
+ {
+  "id": "GEN-TECH2-U18-a41f7f",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Follows from measurability being a precondition of an indicator being reported at all."
+ },
+ {
+  "id": "GEN-TECH2-U18-f0395f",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "'Before' value versus target is a conceptual distinction, not a recalled definition."
+ },
+ {
+  "id": "GEN-TECH2-U18-4fcdc9",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Scenario reasoning about attribution requiring a comparison point."
+ },
+ {
+  "id": "GEN-TECH2-U18-e50540",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "The four column names are self-describing enough that the external-conditions column is identified by meaning, though the matrix is a named framework's fixed structure."
+ },
+ {
+  "id": "GEN-TECH2-U18-abfef2",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "'Means of verification' names its own content; the distractors belong to other columns."
+ }
 ]

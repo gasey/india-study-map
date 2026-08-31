@@ -126,121 +126,121 @@
   "why": "Names the system behind a described feature; recall of UPI and NPCI is what is tested."
  },
  {
-  "id": "GEN-TECH2-U7-186",
+  "id": "GEN-TECH2-U7-e6f1ca",
   "mode": "understand",
   "confidence": "high",
   "why": "What the account-identity-mobile combination enables follows from what each element supplies."
  },
  {
-  "id": "GEN-TECH2-U7-187",
+  "id": "GEN-TECH2-U7-64f473",
   "mode": "understand",
   "confidence": "medium",
   "why": "The distinguishing mechanic follows from what a virtual payment address does, once the concept is held."
  },
  {
-  "id": "GEN-TECH2-U7-188",
+  "id": "GEN-TECH2-U7-b59bca",
   "mode": "understand",
   "confidence": "medium",
   "why": "Follows from what 'issued by the authority' implies about signature and evidentiary value."
  },
  {
-  "id": "GEN-TECH2-U7-189",
+  "id": "GEN-TECH2-U7-1742b8",
   "mode": "understand",
   "confidence": "high",
   "why": "The meaning of 'shareable' follows from the citizen controlling disclosure."
  },
  {
-  "id": "GEN-TECH2-U7-190",
+  "id": "GEN-TECH2-U7-ff593d",
   "mode": "memorise",
   "confidence": "medium",
   "why": "Turns on the institutional division of mandates; the acronym expansion is the only derivation path."
  },
  {
-  "id": "GEN-TECH2-U7-191",
+  "id": "GEN-TECH2-U7-8cee83",
   "mode": "memorise",
   "confidence": "medium",
   "why": "The function of a named centre; the Hindi word hints at cleaning but the botnet mandate is a fact to be known."
  },
  {
-  "id": "GEN-TECH2-U7-192",
+  "id": "GEN-TECH2-U7-b2f436",
   "mode": "understand",
   "confidence": "medium",
   "why": "The expansion is printed and 'unified' carries the answer; the distractors are other platforms' functions."
  },
  {
-  "id": "GEN-TECH2-U7-193",
+  "id": "GEN-TECH2-U7-56eee6",
   "mode": "understand",
   "confidence": "medium",
   "why": "Scope follows from the project's name and the tier of administration it addresses."
  },
  {
-  "id": "GEN-TECH2-U7-194",
+  "id": "GEN-TECH2-U7-9c54ba",
   "mode": "understand",
   "confidence": "medium",
   "why": "Follows from federated APIs versus a consolidated database as competing integration designs."
  },
  {
-  "id": "GEN-TECH2-U7-195",
+  "id": "GEN-TECH2-U7-70e6ea",
   "mode": "understand",
   "confidence": "medium",
   "why": "Middleware's role follows from converting point-to-point links into a hub."
  },
  {
-  "id": "GEN-TECH2-U7-196",
+  "id": "GEN-TECH2-U7-e397a9",
   "mode": "understand",
   "confidence": "high",
   "why": "The meaning of portability follows from the entitlement following the person."
  },
  {
-  "id": "GEN-TECH2-U7-197",
+  "id": "GEN-TECH2-U7-8d44da",
   "mode": "understand",
   "confidence": "high",
   "why": "The scheme's name states the mechanism; central authentication follows from it."
  },
  {
-  "id": "GEN-TECH2-U7-198",
+  "id": "GEN-TECH2-U7-7a2216",
   "mode": "understand",
   "confidence": "high",
   "why": "Single-window means one application routed onward, not the abolition of approvals."
  },
  {
-  "id": "GEN-TECH2-U7-199",
+  "id": "GEN-TECH2-U7-2c9cad",
   "mode": "memorise",
   "confidence": "medium",
   "why": "What a named project covers; the ministry acronym is the only derivation path."
  },
  {
-  "id": "GEN-TECH2-U7-200",
+  "id": "GEN-TECH2-U7-4ae6fb",
   "mode": "understand",
   "confidence": "high",
   "why": "Choosing buffer and service-area analysis follows from what the siting question asks."
  },
  {
-  "id": "GEN-TECH2-U7-201",
+  "id": "GEN-TECH2-U7-7607d0",
   "mode": "memorise",
   "confidence": "medium",
   "why": "The function of a named platform, not derivable from GIS knowledge alone."
  },
  {
-  "id": "GEN-TECH2-U7-202",
+  "id": "GEN-TECH2-U7-c600c5",
   "mode": "memorise",
   "confidence": "high",
   "why": "A scheme target pitched at the household; arbitrary without recall."
  },
  {
-  "id": "GEN-TECH2-U7-203",
+  "id": "GEN-TECH2-U7-2aacfd",
   "mode": "understand",
   "confidence": "high",
   "why": "The role follows from assisted delivery plus training at the last mile."
  },
  {
-  "id": "GEN-TECH2-U7-204",
+  "id": "GEN-TECH2-U7-60b5b3",
   "mode": "memorise",
   "confidence": "medium",
   "why": "A specific policy obligation; the name hints at sharing but the classify-and-publish duty is a stated provision."
  },
  {
-  "id": "GEN-TECH2-U7-205",
+  "id": "GEN-TECH2-U7-c376da",
   "mode": "memorise",
   "confidence": "medium",
   "why": "A specific policy provision, preference plus recorded justification, not derivable from the idea of open source."

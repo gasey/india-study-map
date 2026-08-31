@@ -9,6 +9,134 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-08-31 (later) — 27 .NET questions, and two silent-loss bugs the authoring pass exposed
+
+Started as "is .NET coverage thin?". It was. Finishing it turned up two pipeline
+bugs that were quietly losing and corrupting data, both older than this session.
+
+**The measured gap.** TECH1 Unit 3 (.NET Technologies) is worth 30 marks across
+22 leaves and had **30 questions with 9 leaves completely bare** — Object-Oriented
+Programming in .NET, Dynamic Programming, Windows Controls, Web Services, LINQ
+and Entity Framework, Design Pattern and UML, Reports, Threading, .NET
+Interoperability. For comparison, Java/J2EE carries the same 30 marks across 9
+leaves with only 1 bare. 27 questions authored, 3 per bare leaf; the unit is now
+57 questions with every leaf covered.
+
+Deliberately spread across four flavours rather than drifting into whichever is
+easiest to write: 7 code-output prediction, 7 syntax/API recall, 7
+conceptual/architectural, 6 configuration/deployment. Answer letters landed
+A 7 / B 7 / C 7 / D 6.
+
+**A System Analyst generation brief, because the shared one is actively wrong
+here.** `tools/system-manager-build/GENERATE_BRIEF.md` is calibrated for a post
+whose bar is *any graduate plus a one-year diploma*, and tells authors in as many
+words not to write questions on **J2EE or design patterns**. System Analyst
+requires B.E/B.Tech, MCA or M.Sc CS, has an entire J2EE unit, and names
+`Design Pattern and UML` as a leaf — the exact two topics the shared brief
+forbids. This was already worked around by hand once, out-of-band, in the TECH2
+pass on 2026-08-30. There is now
+`tools/system-analyst-build/GENERATE_BRIEF.md`, which inherits the shared output
+schema and rules and overrides only the difficulty calibration, and `generate.py`
+points at it.
+
+### Bug 1 — `--merge` validated *after* writing, and had been dropping two questions
+
+`do_merge()` collected rejected rows into `problems`, wrote `questions.js`
+regardless, printed **"appended 252 authored questions"**, and only then
+mentioned the rejects in a stderr footnote *below* the success line.
+
+It had been silently discarding two questions since the TECH2 authoring pass. Two
+hand-written IPC questions in `TECH2-U15-1.done.json` carried a `sub` whose
+section list had lost `167, 172, 173` off the end, so it no longer matched the
+syllabus leaf character-for-character, so both were rejected and dropped on every
+merge from that day forward. The DEVLOG entry for that pass says the paper is
+fully covered; that leaf was two questions short of what was actually authored.
+
+Same shape as the OCR incident of 2026-08-04: no numbering gap, no error, a
+reassuring count. Fixed both ends — the truncated `sub` is repaired (that leaf
+went 3 → 5 questions), and **nothing is written while any row is rejected**.
+`--force` still allows it but prints exactly what is about to be discarded first.
+Verified by feeding it a deliberately broken row: exits 1, `questions.js`
+untouched.
+
+### Bug 2 — generated question ids were positional, so authoring anything renumbered everything
+
+Ids were a running counter over the whole corpus: `GEN-TECH2-U1-001`, `002`, …
+incrementing globally in batch-filename order. That makes the id a function of
+where a question sits among *all* the others. Adding 27 TECH1 Unit 3 questions —
+TECH1 sorts before TECH2 — moved **225 of the 254** existing generated questions
+onto new ids in one run.
+
+Three things are keyed on question id, and all three break silently when it moves:
+
+- `data/modes.js`, the study-mode labels written hours earlier — 227 stopped matching
+- the reader's localStorage Leitner boxes
+- the `mpsc-api` review records (`bank_id` + `question_id`)
+
+None of them error. The labels just quietly stop applying.
+
+Ids are now **derived from the question's own content** (`sha1` of
+paper|unit|sub|stem, truncated), so they do not move when a neighbour is added,
+removed or reordered, and change only if the question itself is rewritten.
+Verified stable across repeated merges. A collision now fails loudly rather than
+overwriting.
+
+**The fallout was repaired rather than accepted:**
+
+- The 227 moved labels were remapped onto the new ids by content match, in the
+  staged classification batch files — fixing the *inputs* so `classify.py --merge`
+  regenerates `modes.js` correctly, rather than hand-patching the generated file.
+  First attempt over-reached and rewrote two *past-paper* ids: this bank contains
+  genuinely duplicate questions across the 2021 and 2024 sittings, so a
+  content-only match wrongly equated `TECH1_OLD-66` with `TECH1_2024-64`. Scoped
+  to the generated family only, and all 1,082 labels survived — 857 kept in
+  place, 225 remapped, distribution unchanged.
+- `data/id-migration.js` carries the reader's progress across the one-time
+  change; `app.js` applies it once and records `S.migratedIds`. Without it, 225
+  questions' revision history would have vanished with no error. Verified in the
+  browser: seeded progress on three pre-migration ids, reloaded, confirmed it
+  landed on the same questions under their new ids with attempts, box and star
+  intact.
+
+**Also added:** `classify.py --export --only-new`, which exports only questions
+that have no label yet. Re-exporting all 1,111 to label 29 wastes the effort and
+invites an agent to quietly contradict an earlier one on a question nobody asked
+it to revisit.
+
+The 29 new questions (27 .NET + the 2 recovered IPC) are labelled. Bank-wide:
+**1,111 questions, 1,111 labelled, 0 unlabelled** — calculate 68 (6.1%),
+understand 692, memorise 351.
+
+**On sourcing.** The question that started this was whether to pull questions from
+Sanfoundry. Topic *patterns* — what gets examined, which clusters recur — are
+facts and fine to learn from. The question text is not: this app is deployed
+publicly at india-study-map.vercel.app, so the personal-use fair-dealing
+provision in s.52(1)(a) does not cover it. The practical objection is stronger
+anyway — scraped questions arrive untagged to syllabus leaves, with unverifiable
+answer keys, which is precisely the silent-wrong-content risk this project's
+rules exist to prevent. Authoring against a named leaf is both safer and
+better-aimed.
+
+**Verified in the browser:** all ten tabs render, console clean, TECH1 U3 now
+reports 57 questions (5 calculate / 20 understand / 32 memorise), the new
+questions carry mode badges, and a generated code-output question was read end to
+end in the real runner — `A r = new C(); r.Show();` with `new` rather than
+`override`, correctly keyed to `B`.
+
+**What's still open:**
+
+- The System Manager bank has the **same positional-id design** in
+  `tools/system-manager-build/`. It has not been audited and will have the same
+  renumbering problem the next time anyone authors a batch there.
+- `id-migration.js` is disposable once no browser can still hold pre-migration
+  progress. It has no expiry and nothing will remind anyone.
+- 13 .NET leaves still sit at 1–2 questions. The 9 bare ones are covered; parity
+  with Java's density would be another ~30.
+- The agent's least-confident item is the UML sequence-diagram question, where a
+  communication diagram is arguably partly defensible.
+
+---
+
 ## 2026-08-31 — Every question now says how to study it: calculate, understand, or memorise
 
 **Why.** The app had three ways to learn something — the Calc Lab drills a

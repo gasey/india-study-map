@@ -1,30 +1,86 @@
 [
- { "id": "TECH2_2024-71", "mode": "understand", "confidence": "high",
-   "why": "The appeal follows from what open licensing gives up and gains; the wrong options are plainly false statements." },
- { "id": "TECH2_2024-72", "mode": "understand", "confidence": "medium",
-   "why": "The requirement follows from what copyleft means, though the stem generalises it to all open-source licensing, which is inaccurate for permissive licences." },
- { "id": "TECH2_2024-73", "mode": "understand", "confidence": "high",
-   "why": "The distinction follows from what each model permits; the distractors simply invert it." },
- { "id": "TECH2_2024-76", "mode": "understand", "confidence": "medium",
-   "why": "The expansion 'Free and Open Source Software' is transparent, and the distractors are a language and a product bundle." },
- { "id": "TECH2_2024-77", "mode": "understand", "confidence": "medium",
-   "why": "Reasons from the absence of a single accountable vendor, though reliability is a defensible alternative reading." },
- { "id": "TECH2_2021-72", "mode": "understand", "confidence": "medium",
-   "why": "Judging two rationale statements against what open licensing actually allows; no list membership involved." },
- { "id": "TECH2_2021-73", "mode": "understand", "confidence": "medium",
-   "why": "The odd one out is recognisably inconsistent with openness, rather than merely absent from the definition's enumerated list." },
- { "id": "TECH2_2021-74", "mode": "understand", "confidence": "medium",
-   "why": "Same reasoning as the vendor-accountability item; support versus reliability is a judgement, not a recalled figure." },
- { "id": "GEN-TECH2-U13-057", "mode": "understand", "confidence": "high",
-   "why": "Auditability follows directly from source availability; the wrong options overclaim what open source guarantees." },
- { "id": "GEN-TECH2-U13-058", "mode": "understand", "confidence": "high",
-   "why": "Reasoning that removing the licence fee leaves the service costs untouched." },
- { "id": "GEN-TECH2-U13-059", "mode": "memorise", "confidence": "medium",
-   "why": "Which named licence family is copyleft rather than permissive is a fact about specific licences; understanding copyleft alone does not identify GPL." },
- { "id": "GEN-TECH2-U13-060", "mode": "memorise", "confidence": "medium",
-   "why": "The linking exception is a specific provision of one licence; 'Lesser' hints at it but the actual scope must be learned." },
- { "id": "GEN-TECH2-U13-061", "mode": "memorise", "confidence": "medium",
-   "why": "The precise obligation a named national policy imposes; elimination narrows it, so the tie-break applies." },
- { "id": "GEN-TECH2-U13-062", "mode": "understand", "confidence": "high",
-   "why": "Separating a lock-in argument from a cost argument is conceptual reasoning about the rationale." }
+ {
+  "id": "TECH2_2024-71",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The appeal follows from what open licensing gives up and gains; the wrong options are plainly false statements."
+ },
+ {
+  "id": "TECH2_2024-72",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "The requirement follows from what copyleft means, though the stem generalises it to all open-source licensing, which is inaccurate for permissive licences."
+ },
+ {
+  "id": "TECH2_2024-73",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The distinction follows from what each model permits; the distractors simply invert it."
+ },
+ {
+  "id": "TECH2_2024-76",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "The expansion 'Free and Open Source Software' is transparent, and the distractors are a language and a product bundle."
+ },
+ {
+  "id": "TECH2_2024-77",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "Reasons from the absence of a single accountable vendor, though reliability is a defensible alternative reading."
+ },
+ {
+  "id": "TECH2_2021-72",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "Judging two rationale statements against what open licensing actually allows; no list membership involved."
+ },
+ {
+  "id": "TECH2_2021-73",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "The odd one out is recognisably inconsistent with openness, rather than merely absent from the definition's enumerated list."
+ },
+ {
+  "id": "TECH2_2021-74",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "Same reasoning as the vendor-accountability item; support versus reliability is a judgement, not a recalled figure."
+ },
+ {
+  "id": "GEN-TECH2-U13-2029c1",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Auditability follows directly from source availability; the wrong options overclaim what open source guarantees."
+ },
+ {
+  "id": "GEN-TECH2-U13-68694f",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Reasoning that removing the licence fee leaves the service costs untouched."
+ },
+ {
+  "id": "GEN-TECH2-U13-1deda2",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "Which named licence family is copyleft rather than permissive is a fact about specific licences; understanding copyleft alone does not identify GPL."
+ },
+ {
+  "id": "GEN-TECH2-U13-6f6e54",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "The linking exception is a specific provision of one licence; 'Lesser' hints at it but the actual scope must be learned."
+ },
+ {
+  "id": "GEN-TECH2-U13-9a7ee1",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "The precise obligation a named national policy imposes; elimination narrows it, so the tie-break applies."
+ },
+ {
+  "id": "GEN-TECH2-U13-0633f7",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Separating a lock-in argument from a cost argument is conceptual reasoning about the rationale."
+ }
 ]

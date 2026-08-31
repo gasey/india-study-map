@@ -18214,7 +18214,601 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U1-001",
+  "id": "GEN-TECH1-U3-b62803",
+  "src": "generated",
+  "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
+  "srcKey": "GEN-TECH1",
+  "no": null,
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Object-Oriented Programming (in .NET)",
+  "q": "What does this C# fragment print?\n\nclass A { public virtual void Show() { Console.Write(\"A\"); } }\nclass B : A { public override void Show() { Console.Write(\"B\"); } }\nclass C : B { public new void Show() { Console.Write(\"C\"); } }\n\nA r = new C();\nr.Show();",
+  "opts": {
+   "A": "A",
+   "B": "B",
+   "C": "C",
+   "D": "Nothing — the compiler rejects 'new' on C.Show because B.Show is already an override"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "The call goes through a reference whose static type is A, so the CLR dispatches virtually to the most derived override of A.Show, and that is B.Show — C declared Show with 'new', which hides the member from callers holding a C reference rather than overriding it. Had C written 'override' instead, the output would have been C.",
+  "prov": "Authored from the syllabus. MPSC has held this exam twice and neither past paper covers this subtopic. Not a past question.",
+  "note": ""
+ },
+ {
+  "id": "GEN-TECH1-U3-fba5de",
+  "src": "generated",
+  "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
+  "srcKey": "GEN-TECH1",
+  "no": null,
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Object-Oriented Programming (in .NET)",
+  "q": "int i = 42;\nobject a = i;\nobject b = i;\nConsole.WriteLine(a == b);\nConsole.WriteLine(a.Equals(b));\n\nWhat does this C# fragment print?",
+  "opts": {
+   "A": "True followed by True",
+   "B": "True followed by False",
+   "C": "False followed by False",
+   "D": "False followed by True"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "Assigning the int to object boxes it twice, creating two separate objects on the heap; == applied to two object-typed operands is a reference comparison and so yields False, while Equals dispatches to Int32.Equals, which compares the boxed values and yields True. The trap is assuming == still compares numbers because the operands began life as ints.",
+  "prov": "Authored from the syllabus. MPSC has held this exam twice and neither past paper covers this subtopic. Not a past question.",
+  "note": ""
+ },
+ {
+  "id": "GEN-TECH1-U3-9fbab8",
+  "src": "generated",
+  "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
+  "srcKey": "GEN-TECH1",
+  "no": null,
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Object-Oriented Programming (in .NET)",
+  "q": "Why may a C# class implement any number of interfaces but derive from only one base class?",
+  "opts": {
+   "A": "The CLR supports only single implementation inheritance, so a type can inherit members from at most one base class, whereas an interface imposes a contract the class must satisfy itself",
+   "B": "Interfaces are value types and base classes are reference types, so interfaces impose no object layout",
+   "C": "The compiler flattens all the implemented interfaces into one hidden base class before emitting IL",
+   "D": "Several base classes are permitted provided every one of them is declared abstract"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "The CLR's type system allows a type to inherit implementation from exactly one base class, which avoids the ambiguity of two inherited implementations of the same member, while interfaces are only lists of members the class must supply, so any number of them can be combined safely. Declaring a base class abstract does not lift the single-base-class restriction.",
+  "prov": "Authored from the syllabus. MPSC has held this exam twice and neither past paper covers this subtopic. Not a past question.",
+  "note": ""
+ },
+ {
+  "id": "GEN-TECH1-U3-dbb947",
+  "src": "generated",
+  "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
+  "srcKey": "GEN-TECH1",
+  "no": null,
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Dynamic Programming",
+  "q": "dynamic d = \"hello\";\nConsole.WriteLine(d.Length);\nd.Foo();\n\nWhat happens when this C# code is compiled and run?",
+  "opts": {
+   "A": "It fails to compile: 'string' does not contain a definition for 'Foo'",
+   "B": "It prints 5 and then does nothing, because a dynamic call to a missing member is treated as a no-op",
+   "C": "It prints 5 and then throws a RuntimeBinderException at run time",
+   "D": "It prints 5 and then returns null from Foo"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Member access on a dynamic expression is not checked by the compiler at all, so the code builds; at run time the binder finds Length on the string and prints 5, then fails to find Foo and raises a RuntimeBinderException carrying the same message the compiler would have produced. Missing members are never silently ignored.",
+  "prov": "Authored from the syllabus. MPSC has held this exam twice and neither past paper covers this subtopic. Not a past question.",
+  "note": ""
+ },
+ {
+  "id": "GEN-TECH1-U3-e31ff4",
+  "src": "generated",
+  "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
+  "srcKey": "GEN-TECH1",
+  "no": null,
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Dynamic Programming",
+  "q": "How does declaring a local variable as dynamic differ from declaring it with var?",
+  "opts": {
+   "A": "var infers one specific static type at compile time and member access is checked then, whereas dynamic defers the binding of member accesses until run time",
+   "B": "Both defer binding until run time; dynamic merely documents that intention for the reader",
+   "C": "var may be used only for value types and dynamic only for reference types",
+   "D": "dynamic variables are always boxed on the heap while var variables always remain on the stack"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "var is pure compile-time convenience: the variable receives the exact type of its initialiser and every member access on it is verified by the compiler, so it is as statically typed as if the type had been written out. dynamic keeps the static type unknown and hands each operation to the runtime binder, which is why a typo on a dynamic variable becomes a run-time failure rather than a build error.",
+  "prov": "Authored from the syllabus. MPSC has held this exam twice and neither past paper covers this subtopic. Not a past question.",
+  "note": ""
+ },
+ {
+  "id": "GEN-TECH1-U3-9429db",
+  "src": "generated",
+  "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
+  "srcKey": "GEN-TECH1",
+  "no": null,
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Dynamic Programming",
+  "q": "dynamic a = 10;\ndynamic b = \"5\";\nConsole.WriteLine(a + b);\n\nWhat does this C# fragment print?",
+  "opts": {
+   "A": "15",
+   "B": "A RuntimeBinderException, because an int and a string cannot be added",
+   "C": "Nothing — the code does not compile",
+   "D": "105"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "The runtime binder applies the ordinary C# operator rules to the actual run-time types, and for an int and a string the applicable + operator is string concatenation, so 10 is converted to \"10\" and joined to \"5\". dynamic delays when binding happens; it does not change the language rules, and since a valid operator exists no binder exception is raised.",
+  "prov": "Authored from the syllabus. MPSC has held this exam twice and neither past paper covers this subtopic. Not a past question.",
+  "note": ""
+ },
+ {
+  "id": "GEN-TECH1-U3-c9497e",
+  "src": "generated",
+  "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
+  "srcKey": "GEN-TECH1",
+  "no": null,
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Windows Controls",
+  "q": "Which property of a Windows Forms control keeps a constant distance between the control's edges and the corresponding edges of its container while the form is resized?",
+  "opts": {
+   "A": "Dock",
+   "B": "Anchor",
+   "C": "Padding",
+   "D": "AutoSize"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "Anchor names the container edges the control is tied to, so the gap to each anchored edge stays fixed and the control stretches as the form grows. Dock is the neighbouring idea but a different one: it fastens the control to one side of the container and lets it fill that side, rather than preserving margins.",
+  "prov": "Authored from the syllabus. MPSC has held this exam twice and neither past paper covers this subtopic. Not a past question.",
+  "note": ""
+ },
+ {
+  "id": "GEN-TECH1-U3-fe2c4c",
+  "src": "generated",
+  "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
+  "srcKey": "GEN-TECH1",
+  "no": null,
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Windows Controls",
+  "q": "Which Form method displays a form modally, blocking the calling code until that form is closed, and returns a DialogResult to the caller?",
+  "opts": {
+   "A": "Show()",
+   "B": "Activate()",
+   "C": "ShowDialog()",
+   "D": "Focus()"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "ShowDialog displays the form modally and does not return until the dialog closes, handing back a DialogResult that tells the caller which button ended it. Show displays the same form modelessly and returns immediately, so the caller cannot read a result from it.",
+  "prov": "Authored from the syllabus. MPSC has held this exam twice and neither past paper covers this subtopic. Not a past question.",
+  "note": ""
+ },
+ {
+  "id": "GEN-TECH1-U3-6b4e5e",
+  "src": "generated",
+  "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
+  "srcKey": "GEN-TECH1",
+  "no": null,
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Windows Controls",
+  "q": "A Windows Forms project holds its connection string in an App.config file. After the project is built and the application is deployed, which file does the runtime actually read those settings from?",
+  "opts": {
+   "A": "<ApplicationName>.exe.config, sitting beside the executable",
+   "B": "App.config, copied unchanged into the output folder",
+   "C": "web.config in the installation folder",
+   "D": "machine.config, into which the settings are merged when the application is installed"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "App.config is only the design-time name: the build copies it into the output folder renamed after the executable, so a deployed application reads MyApp.exe.config from its own directory. web.config is the equivalent for web applications, and machine.config holds machine-wide defaults that an application's own file overrides rather than being merged into.",
+  "prov": "Authored from the syllabus. MPSC has held this exam twice and neither past paper covers this subtopic. Not a past question.",
+  "note": ""
+ },
+ {
+  "id": "GEN-TECH1-U3-b921cf",
+  "src": "generated",
+  "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
+  "srcKey": "GEN-TECH1",
+  "no": null,
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Web Services",
+  "q": "When a client tool generates a proxy class for a SOAP web service, which artefact published by the service does it consume?",
+  "opts": {
+   "A": "The UDDI registry entry for the service",
+   "B": "A sample SOAP envelope captured from a request",
+   "C": "The DISCO discovery document",
+   "D": "The WSDL document describing the service's operations, messages, types and bindings"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "WSDL is the machine-readable contract, and it carries everything the generator needs: the operations, their message types and the binding that says how to put them on the wire. UDDI and discovery documents only help a client find where a service is; neither describes its operations in enough detail to build a proxy.",
+  "prov": "Authored from the syllabus. MPSC has held this exam twice and neither past paper covers this subtopic. Not a past question.",
+  "note": ""
+ },
+ {
+  "id": "GEN-TECH1-U3-330d71",
+  "src": "generated",
+  "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
+  "srcKey": "GEN-TECH1",
+  "no": null,
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Web Services",
+  "q": "What most clearly distinguishes a WCF service from a classic ASMX web service?",
+  "opts": {
+   "A": "WCF cannot use SOAP and is restricted to plain XML over HTTP",
+   "B": "WCF separates the service contract from the transport and encoding, so one service can be exposed over HTTP, TCP, named pipes or MSMQ, while an ASMX service is SOAP over HTTP only",
+   "C": "ASMX supports distributed transactions and reliable sessions, capabilities WCF dropped",
+   "D": "WCF services must be hosted in IIS, whereas ASMX services can be self-hosted in any process"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "In WCF the contract says what the service does and the binding independently chooses the transport, encoding and security, which is exactly what lets the same contract be published on several very different endpoints. Option D is the position reversed: an ASMX service needs ASP.NET and IIS, while a WCF service can be self-hosted in a console application or a Windows service.",
+  "prov": "Authored from the syllabus. MPSC has held this exam twice and neither past paper covers this subtopic. Not a past question.",
+  "note": ""
+ },
+ {
+  "id": "GEN-TECH1-U3-55d7cf",
+  "src": "generated",
+  "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
+  "srcKey": "GEN-TECH1",
+  "no": null,
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Web Services",
+  "q": "In a WCF configuration file, each <endpoint> element is described by three attributes, remembered as the 'ABC' of an endpoint. What are they?",
+  "opts": {
+   "A": "Assembly, Behaviour and Channel",
+   "B": "Application, Binding and Configuration",
+   "C": "Address, Binding and Contract",
+   "D": "Address, Behaviour and Channel"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "The address says where the service can be reached, the binding says how to talk to it — transport, encoding and security — and the contract says what it does; all three sit on the endpoint under <system.serviceModel> in web.config or app.config. Behaviours are configured separately, in their own elements, and are not part of the ABC.",
+  "prov": "Authored from the syllabus. MPSC has held this exam twice and neither past paper covers this subtopic. Not a past question.",
+  "note": ""
+ },
+ {
+  "id": "GEN-TECH1-U3-cb67fd",
+  "src": "generated",
+  "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
+  "srcKey": "GEN-TECH1",
+  "no": null,
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "LINQ and Entity Framework",
+  "q": "var nums = new List<int> { 1, 2, 3 };\nvar q = nums.Where(n => n > 1);\nnums.Add(4);\nConsole.WriteLine(q.Count());\n\nWhat does this C# fragment print?",
+  "opts": {
+   "A": "3",
+   "B": "2",
+   "C": "4",
+   "D": "It throws an InvalidOperationException because the list was modified after the query was written"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "Where only builds a query; nothing is evaluated until Count() enumerates it, and by then the list holds 1, 2, 3 and 4, of which three are greater than 1. Modifying the collection would throw only if it happened while an enumeration of it was already in progress, which is not the case here.",
+  "prov": "Authored from the syllabus. MPSC has held this exam twice and neither past paper covers this subtopic. Not a past question.",
+  "note": ""
+ },
+ {
+  "id": "GEN-TECH1-U3-9a250f",
+  "src": "generated",
+  "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
+  "srcKey": "GEN-TECH1",
+  "no": null,
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "LINQ and Entity Framework",
+  "q": "An entity is loaded through an Entity Framework context and one of its properties is then changed in memory. When does that change reach the database?",
+  "opts": {
+   "A": "As soon as the property setter runs, because the entity writes through to the open connection",
+   "B": "The next time the entity is queried, since a query flushes any pending edits first",
+   "C": "When the context is disposed or garbage collected",
+   "D": "When SaveChanges is called: the change tracker turns each tracked entity's state into the matching INSERT, UPDATE or DELETE and sends them as one transaction"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "The context tracks the state of every entity it has materialised and does nothing to the database until SaveChanges, which translates those states into commands and wraps them in a single transaction. Disposing a context does the opposite of saving: any unsaved changes are simply lost.",
+  "prov": "Authored from the syllabus. MPSC has held this exam twice and neither past paper covers this subtopic. Not a past question.",
+  "note": ""
+ },
+ {
+  "id": "GEN-TECH1-U3-94c981",
+  "src": "generated",
+  "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
+  "srcKey": "GEN-TECH1",
+  "no": null,
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "LINQ and Entity Framework",
+  "q": "How does the connection string that an Entity Framework EDMX (Database First) model keeps in <connectionStrings> differ from an ordinary ADO.NET connection string?",
+  "opts": {
+   "A": "It must be encrypted, because Entity Framework refuses to read a plaintext connection string",
+   "B": "It also carries metadata= references to the model's conceptual, storage and mapping information, alongside the provider name and the underlying provider connection string",
+   "C": "It names a LINQ provider instead of a database provider and contains no server name",
+   "D": "It has to live in machine.config rather than in the application's own configuration file"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "An entity connection string wraps a normal provider connection string and adds the metadata= part, which tells the runtime where to load the conceptual, storage and mapping artefacts of the model from. It still names a real database provider and a real server, so it is a superset of the ADO.NET string rather than a replacement for it.",
+  "prov": "Authored from the syllabus. MPSC has held this exam twice and neither past paper covers this subtopic. Not a past question.",
+  "note": ""
+ },
+ {
+  "id": "GEN-TECH1-U3-2bb453",
+  "src": "generated",
+  "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
+  "srcKey": "GEN-TECH1",
+  "no": null,
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Design Pattern and UML",
+  "q": "Which design pattern encapsulates each member of a family of algorithms behind a common interface so that the algorithm a client uses can be exchanged at run time without changing the client?",
+  "opts": {
+   "A": "Template Method",
+   "B": "Decorator",
+   "C": "Strategy",
+   "D": "Mediator"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Strategy places each algorithm in its own class behind one interface and gives the context a reference it can be handed at run time, so swapping behaviour needs no edit to the client. Template Method also varies parts of an algorithm, but it does so by inheritance and fixes the overall structure in a base class, so the choice is bound when the subclass is chosen, not while the program runs.",
+  "prov": "Authored from the syllabus. MPSC has held this exam twice and neither past paper covers this subtopic. Not a past question.",
+  "note": ""
+ },
+ {
+  "id": "GEN-TECH1-U3-d5f477",
+  "src": "generated",
+  "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
+  "srcKey": "GEN-TECH1",
+  "no": null,
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Design Pattern and UML",
+  "q": "Which UML diagram arranges participants along vertical lifelines and emphasises the time ordering of the messages passed between them?",
+  "opts": {
+   "A": "Sequence diagram",
+   "B": "Communication (collaboration) diagram",
+   "C": "Activity diagram",
+   "D": "State machine diagram"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "A sequence diagram places each participant at the top with a lifeline running down the page and orders the messages down that axis, so reading the order of events is its whole purpose. A communication diagram models the same interaction but stresses the structural links between participants and has to number the messages, because their layout no longer carries the ordering.",
+  "prov": "Authored from the syllabus. MPSC has held this exam twice and neither past paper covers this subtopic. Not a past question.",
+  "note": ""
+ },
+ {
+  "id": "GEN-TECH1-U3-e1e868",
+  "src": "generated",
+  "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
+  "srcKey": "GEN-TECH1",
+  "no": null,
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Design Pattern and UML",
+  "q": "In a UML class diagram, an association drawn with a filled (solid) diamond at one end denotes:",
+  "opts": {
+   "A": "Aggregation — a whole-part relationship in which the part may be shared and can outlive the whole",
+   "B": "Generalisation — the class at the diamond end is the supertype",
+   "C": "A dependency — one class merely uses the other for the duration of a call",
+   "D": "Composition — the part belongs to one whole at a time and is normally destroyed with it"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "The filled diamond marks composition, the strong form of whole-part in which the whole owns the part exclusively and their lifetimes coincide. Aggregation is the same notation with a hollow diamond and carries no such ownership, while generalisation uses a hollow triangle and dependency a dashed arrow.",
+  "prov": "Authored from the syllabus. MPSC has held this exam twice and neither past paper covers this subtopic. Not a past question.",
+  "note": ""
+ },
+ {
+  "id": "GEN-TECH1-U3-35e1aa",
+  "src": "generated",
+  "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
+  "srcKey": "GEN-TECH1",
+  "no": null,
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Reports",
+  "q": "A Windows application displays its reports through the ReportViewer control running in local processing mode. In that mode:",
+  "opts": {
+   "A": "The report is processed by a Reporting Services server and returned to the control as a rendered image",
+   "B": "The application supplies the data and the control processes and renders the report definition inside the application's own process, with no report server involved",
+   "C": "Only reports that have already been published to a report server can be opened",
+   "D": "The report can be displayed but not exported, because export formats are a server-side feature"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "In local mode the report definition ships with the application and the application is responsible for fetching the data and binding it to the report's data sources; the control does the layout and rendering itself. Remote mode is the alternative, where the request goes to a report server that runs the report and returns the rendered output.",
+  "prov": "Authored from the syllabus. MPSC has held this exam twice and neither past paper covers this subtopic. Not a past question.",
+  "note": ""
+ },
+ {
+  "id": "GEN-TECH1-U3-e4fb0d",
+  "src": "generated",
+  "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
+  "srcKey": "GEN-TECH1",
+  "no": null,
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Reports",
+  "q": "A report definition that is published to and executed by SQL Server Reporting Services is held in an XML-based file with which extension?",
+  "opts": {
+   "A": ".rpt",
+   "B": ".rdlc",
+   "C": ".rdl",
+   "D": ".rds"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "The server-side Report Definition Language file carries the .rdl extension and holds the layout, the dataset queries and the data source references as XML. The near-miss is .rdlc, the client-side variant processed locally by the ReportViewer, whose data sources are supplied by the hosting application instead of being defined in the file; .rpt belongs to Crystal Reports.",
+  "prov": "Authored from the syllabus. MPSC has held this exam twice and neither past paper covers this subtopic. Not a past question.",
+  "note": ""
+ },
+ {
+  "id": "GEN-TECH1-U3-dcc3e5",
+  "src": "generated",
+  "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
+  "srcKey": "GEN-TECH1",
+  "no": null,
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Reports",
+  "q": "An application renders its reports with the ReportViewer control in local mode and is deployed to client machines that have no SQL Server installed. What must be deployed alongside it for the reports to render?",
+  "opts": {
+   "A": "The ReportViewer assemblies, shipped with the application, since local mode renders the report inside the application's own process",
+   "B": "A full SQL Server Reporting Services instance on every client machine",
+   "C": "The ReportServer and ReportServerTempDB databases",
+   "D": "An IIS virtual directory on each client pointing at the report folder"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "Local mode has no server component at all: the processing and rendering happen in the client process, so the only requirement is that the ReportViewer assemblies the application references are present on the machine. Report server instances, the report server databases and a web endpoint are needed only for remote processing.",
+  "prov": "Authored from the syllabus. MPSC has held this exam twice and neither past paper covers this subtopic. Not a past question.",
+  "note": ""
+ },
+ {
+  "id": "GEN-TECH1-U3-37c358",
+  "src": "generated",
+  "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
+  "srcKey": "GEN-TECH1",
+  "no": null,
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Threading",
+  "q": "static readonly object gate = new object();\n\nlock (gate) {\n    lock (gate) { Console.Write(\"in \"); }\n    Console.Write(\"out\");\n}\n\nWhat happens when a single thread runs this C# code?",
+  "opts": {
+   "A": "It deadlocks at the inner lock, because the lock on gate is already held",
+   "B": "It throws a SynchronizationLockException at the inner lock",
+   "C": "It prints only 'out'; the inner block is skipped",
+   "D": "It prints 'in out'"
+  },
+  "ans": "D",
+  "conf": "high",
+  "exp": "lock compiles to Monitor.Enter and Monitor.Exit, and a monitor is re-entrant: a thread that already owns the object simply increments its recursion count and carries on, giving up ownership only when the outermost block ends. Deadlocking here would need a second thread, or a non-re-entrant primitive such as a semaphore.",
+  "prov": "Authored from the syllabus. MPSC has held this exam twice and neither past paper covers this subtopic. Not a past question.",
+  "note": ""
+ },
+ {
+  "id": "GEN-TECH1-U3-cabf86",
+  "src": "generated",
+  "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
+  "srcKey": "GEN-TECH1",
+  "no": null,
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Threading",
+  "q": "int total = 0;\nvar t = new Thread(() => { for (int i = 1; i <= 100; i++) total += i; });\nt.Start();\nt.Join();\nConsole.WriteLine(total);\n\nWhat does this C# fragment print?",
+  "opts": {
+   "A": "0, because the lambda captures total by value when it is created",
+   "B": "5050",
+   "C": "0 or 5050, depending on how the scheduler interleaves the two threads",
+   "D": "It throws, because a local variable cannot be modified from another thread"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "A lambda closes over the variable itself rather than a copy of its value, and Join blocks the calling thread until the worker has run to completion, so the finished sum is what gets printed. Only one thread ever writes to total, so there is no race; drop the Join and the result would indeed become indeterminate.",
+  "prov": "Authored from the syllabus. MPSC has held this exam twice and neither past paper covers this subtopic. Not a past question.",
+  "note": ""
+ },
+ {
+  "id": "GEN-TECH1-U3-1dc67b",
+  "src": "generated",
+  "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
+  "srcKey": "GEN-TECH1",
+  "no": null,
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Threading",
+  "q": "What is the practical consequence of marking a .NET thread as a background thread?",
+  "opts": {
+   "A": "It receives a lower priority, so every foreground thread is scheduled ahead of it",
+   "B": "It is forbidden to touch any UI control, whereas a foreground thread may",
+   "C": "It does not keep the process alive: once the last foreground thread ends, remaining background threads are torn down wherever they have reached",
+   "D": "It is guaranteed to be taken from the thread pool rather than created afresh"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "Foreground and background threads are scheduled identically; the sole difference is lifetime, in that the CLR shuts the process down as soon as every foreground thread has finished and does not wait for background ones. Priority is a separate property, and although thread pool threads happen to be background threads, that is a consequence of the flag rather than its meaning.",
+  "prov": "Authored from the syllabus. MPSC has held this exam twice and neither past paper covers this subtopic. Not a past question.",
+  "note": ""
+ },
+ {
+  "id": "GEN-TECH1-U3-2a4477",
+  "src": "generated",
+  "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
+  "srcKey": "GEN-TECH1",
+  "no": null,
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": ".NET Interoperability",
+  "q": "Which attribute declares a managed method as a Platform Invoke entry point for a function exported by an unmanaged DLL?",
+  "opts": {
+   "A": "[DllImport]",
+   "B": "[ComImport]",
+   "C": "[MarshalAs]",
+   "D": "[StructLayout]"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "[DllImport], from System.Runtime.InteropServices, names the native library holding the export and lets the CLR build the P/Invoke stub for the extern method. [MarshalAs] and [StructLayout] only refine how individual parameters and structures cross that boundary once such a call exists, and [ComImport] marks a COM interface rather than a flat DLL export.",
+  "prov": "Authored from the syllabus. MPSC has held this exam twice and neither past paper covers this subtopic. Not a past question.",
+  "note": ""
+ },
+ {
+  "id": "GEN-TECH1-U3-2261b8",
+  "src": "generated",
+  "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
+  "srcKey": "GEN-TECH1",
+  "no": null,
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": ".NET Interoperability",
+  "q": "When managed .NET code calls into a COM component, what does the CLR place between the two?",
+  "opts": {
+   "A": "A COM Callable Wrapper (CCW), which is the standard wrapper in both directions",
+   "B": "A P/Invoke stub, since COM entry points are ordinary flat exports",
+   "C": "A Runtime Callable Wrapper (RCW), which marshals the calls and holds the COM object's reference count on the caller's behalf",
+   "D": "A remoting proxy to a separate application domain"
+  },
+  "ans": "C",
+  "conf": "high",
+  "exp": "The RCW is the managed stand-in for the COM object: it marshals arguments across the boundary and keeps the reference on the underlying object, releasing it when the wrapper is cleaned up, so managed code never calls AddRef or Release itself. The COM Callable Wrapper is the mirror image, used when a COM client consumes a .NET object.",
+  "prov": "Authored from the syllabus. MPSC has held this exam twice and neither past paper covers this subtopic. Not a past question.",
+  "note": ""
+ },
+ {
+  "id": "GEN-TECH1-U3-5e9095",
+  "src": "generated",
+  "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
+  "srcKey": "GEN-TECH1",
+  "no": null,
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": ".NET Interoperability",
+  "q": "What is a Primary Interop Assembly, and why is it normally installed in the global assembly cache?",
+  "opts": {
+   "A": "It is the native DLL itself, cached so that P/Invoke need not search the path for it",
+   "B": "It is the single strong-named interop assembly published by the vendor of the COM library; keeping it in the GAC makes every client on the machine bind to one shared set of interop types instead of each generating its own incompatible wrappers",
+   "C": "It is a wrapper generated afresh for each project at build time, cached only to make later builds faster",
+   "D": "It is a configuration file that redirects COM calls to a managed replacement component"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "A Primary Interop Assembly is the authoritative managed definition of a COM library's types, strong-named by the library's own publisher, and sharing one copy from the GAC means two applications passing the same COM object around agree on its type identity. Locally generated interop assemblies produce types that look identical but are distinct to the runtime, which is exactly the mismatch the PIA exists to prevent.",
+  "prov": "Authored from the syllabus. MPSC has held this exam twice and neither past paper covers this subtopic. Not a past question.",
+  "note": ""
+ },
+ {
+  "id": "GEN-TECH2-U1-2dbd16",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -18236,7 +18830,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U1-002",
+  "id": "GEN-TECH2-U1-075b3e",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -18258,7 +18852,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U1-003",
+  "id": "GEN-TECH2-U1-3a6a25",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -18280,7 +18874,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U1-004",
+  "id": "GEN-TECH2-U1-b068ab",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -18302,7 +18896,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U1-005",
+  "id": "GEN-TECH2-U1-ce5823",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -18324,7 +18918,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U1-006",
+  "id": "GEN-TECH2-U1-66caeb",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -18346,7 +18940,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U1-007",
+  "id": "GEN-TECH2-U1-3e19f7",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -18368,7 +18962,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U1-008",
+  "id": "GEN-TECH2-U1-4c0310",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -18390,7 +18984,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U1-009",
+  "id": "GEN-TECH2-U1-fafaf6",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -18412,7 +19006,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U1-010",
+  "id": "GEN-TECH2-U1-af7e3b",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -18434,7 +19028,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U1-011",
+  "id": "GEN-TECH2-U1-0b2749",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -18456,7 +19050,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U1-012",
+  "id": "GEN-TECH2-U1-1fbf4b",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -18478,7 +19072,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U1-013",
+  "id": "GEN-TECH2-U1-47305c",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -18500,7 +19094,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U1-014",
+  "id": "GEN-TECH2-U1-7aeb8a",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -18522,7 +19116,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U10-015",
+  "id": "GEN-TECH2-U10-97e665",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -18544,7 +19138,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U10-016",
+  "id": "GEN-TECH2-U10-4c7d41",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -18566,7 +19160,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U10-017",
+  "id": "GEN-TECH2-U10-e15210",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -18588,7 +19182,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U10-018",
+  "id": "GEN-TECH2-U10-e6ce33",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -18610,7 +19204,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U10-019",
+  "id": "GEN-TECH2-U10-b2f0ef",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -18632,7 +19226,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U10-020",
+  "id": "GEN-TECH2-U10-681e1b",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -18654,7 +19248,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U10-021",
+  "id": "GEN-TECH2-U10-a84232",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -18676,7 +19270,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U10-022",
+  "id": "GEN-TECH2-U10-084e47",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -18698,7 +19292,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U10-023",
+  "id": "GEN-TECH2-U10-c66dac",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -18720,7 +19314,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U10-024",
+  "id": "GEN-TECH2-U10-32c326",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -18742,7 +19336,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U10-025",
+  "id": "GEN-TECH2-U10-1dd315",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -18764,7 +19358,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U10-026",
+  "id": "GEN-TECH2-U10-ca431d",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -18786,7 +19380,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U10-027",
+  "id": "GEN-TECH2-U10-8674bd",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -18808,7 +19402,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U10-028",
+  "id": "GEN-TECH2-U10-563718",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -18830,7 +19424,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U10-029",
+  "id": "GEN-TECH2-U10-35a5b0",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -18852,7 +19446,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U10-030",
+  "id": "GEN-TECH2-U10-48b72c",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -18874,7 +19468,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U10-031",
+  "id": "GEN-TECH2-U10-2881f6",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -18896,7 +19490,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U10-032",
+  "id": "GEN-TECH2-U10-70c2ac",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -18918,7 +19512,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U11-033",
+  "id": "GEN-TECH2-U11-967483",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -18940,7 +19534,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U11-034",
+  "id": "GEN-TECH2-U11-eca731",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -18962,7 +19556,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U11-035",
+  "id": "GEN-TECH2-U11-24c561",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -18984,7 +19578,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U11-036",
+  "id": "GEN-TECH2-U11-9d80b0",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19006,7 +19600,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U11-037",
+  "id": "GEN-TECH2-U11-817842",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19028,7 +19622,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U11-038",
+  "id": "GEN-TECH2-U11-e4b5f9",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19050,7 +19644,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U11-039",
+  "id": "GEN-TECH2-U11-521873",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19072,7 +19666,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U11-040",
+  "id": "GEN-TECH2-U11-e51797",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19094,7 +19688,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U11-041",
+  "id": "GEN-TECH2-U11-cafc4c",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19116,7 +19710,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U11-042",
+  "id": "GEN-TECH2-U11-64d33b",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19138,7 +19732,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U11-043",
+  "id": "GEN-TECH2-U11-618347",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19160,7 +19754,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U11-044",
+  "id": "GEN-TECH2-U11-dfca71",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19182,7 +19776,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U12-045",
+  "id": "GEN-TECH2-U12-e21975",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19204,7 +19798,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U12-046",
+  "id": "GEN-TECH2-U12-77a370",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19226,7 +19820,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U12-047",
+  "id": "GEN-TECH2-U12-9ad838",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19248,7 +19842,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U12-048",
+  "id": "GEN-TECH2-U12-feb8ad",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19270,7 +19864,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U12-049",
+  "id": "GEN-TECH2-U12-5b4d88",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19292,7 +19886,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U12-050",
+  "id": "GEN-TECH2-U12-a3ffec",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19314,7 +19908,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U12-051",
+  "id": "GEN-TECH2-U12-d4db19",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19336,7 +19930,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U12-052",
+  "id": "GEN-TECH2-U12-c6ee11",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19358,7 +19952,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U12-053",
+  "id": "GEN-TECH2-U12-457c0d",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19380,7 +19974,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U12-054",
+  "id": "GEN-TECH2-U12-547f26",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19402,7 +19996,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U12-055",
+  "id": "GEN-TECH2-U12-11f5dc",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19424,7 +20018,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U12-056",
+  "id": "GEN-TECH2-U12-08f7d6",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19446,7 +20040,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U13-057",
+  "id": "GEN-TECH2-U13-2029c1",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19468,7 +20062,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U13-058",
+  "id": "GEN-TECH2-U13-68694f",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19490,7 +20084,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U13-059",
+  "id": "GEN-TECH2-U13-1deda2",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19512,7 +20106,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U13-060",
+  "id": "GEN-TECH2-U13-6f6e54",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19534,7 +20128,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U13-061",
+  "id": "GEN-TECH2-U13-9a7ee1",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19556,7 +20150,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U13-062",
+  "id": "GEN-TECH2-U13-0633f7",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19578,7 +20172,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U14-063",
+  "id": "GEN-TECH2-U14-e4790e",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19600,7 +20194,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U14-064",
+  "id": "GEN-TECH2-U14-a840fc",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19622,7 +20216,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U14-065",
+  "id": "GEN-TECH2-U14-b7e3dd",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19644,7 +20238,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U14-066",
+  "id": "GEN-TECH2-U14-7954c4",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19666,7 +20260,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U14-067",
+  "id": "GEN-TECH2-U14-f1a9f9",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19688,7 +20282,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U14-068",
+  "id": "GEN-TECH2-U14-f9e9d4",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19710,7 +20304,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U14-069",
+  "id": "GEN-TECH2-U14-748807",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19732,7 +20326,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U14-070",
+  "id": "GEN-TECH2-U14-de89ba",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19754,7 +20348,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U14-071",
+  "id": "GEN-TECH2-U14-588a42",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19776,7 +20370,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U14-072",
+  "id": "GEN-TECH2-U14-ba5283",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19798,7 +20392,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U14-073",
+  "id": "GEN-TECH2-U14-77f654",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19820,7 +20414,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U14-074",
+  "id": "GEN-TECH2-U14-d6821c",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19842,7 +20436,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U15-075",
+  "id": "GEN-TECH2-U15-070d6a",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19864,7 +20458,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U15-076",
+  "id": "GEN-TECH2-U15-7d2e13",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19886,7 +20480,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U15-077",
+  "id": "GEN-TECH2-U15-a30015",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19908,7 +20502,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U15-078",
+  "id": "GEN-TECH2-U15-495ed9",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19930,7 +20524,51 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U15-079",
+  "id": "GEN-TECH2-U15-965f7c",
+  "src": "generated",
+  "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
+  "srcKey": "GEN-TECH2",
+  "no": null,
+  "paper": "TECH2",
+  "unit": "15",
+  "sub": "Indian Penal Code sections 503, 499, 500, 463, 470, 472, 420, 416, 417, 383, 405, 406, 408, 409, 204, 477, 193, 167, 172, 173, 175",
+  "q": "In prosecuting a fraud committed through a government portal, penal offences such as cheating, forgery and criminal breach of trust are commonly charged alongside offences under the Information Technology Act because:",
+  "opts": {
+   "A": "The information technology law addresses the computer resource and the electronic means used, while the general penal law supplies the substantive offence against person or property that was actually committed",
+   "B": "The information technology law applies only to offences committed outside India",
+   "C": "The general penal law applies only where no computer resource is involved in the offence",
+   "D": "A charge under the information technology law cannot be framed unless the accused holds a public office"
+  },
+  "ans": "A",
+  "conf": "high",
+  "exp": "The two bodies of law address different elements of the same act, so investigators charge both: the technology statute for unauthorised access or tampering with a computer resource, the general penal law for the deception, forgery or misappropriation itself. Neither statute is confined to offences abroad, to non-computer settings, or to public servants.",
+  "prov": "Authored from the syllabus. MPSC has held this exam twice and neither past paper covers this subtopic. Not a past question.",
+  "note": ""
+ },
+ {
+  "id": "GEN-TECH2-U15-12cd5b",
+  "src": "generated",
+  "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
+  "srcKey": "GEN-TECH2",
+  "no": null,
+  "paper": "TECH2",
+  "unit": "15",
+  "sub": "Indian Penal Code sections 503, 499, 500, 463, 470, 472, 420, 416, 417, 383, 405, 406, 408, 409, 204, 477, 193, 167, 172, 173, 175",
+  "q": "Among the penal offences relevant to computer-related crime, what distinguishes criminal breach of trust from cheating?",
+  "opts": {
+   "A": "Cheating requires the property to have been entrusted to the accused, while criminal breach of trust does not",
+   "B": "In criminal breach of trust the property is lawfully entrusted to the accused and is then dishonestly misappropriated, whereas in cheating a deception induces the delivery of the property in the first place",
+   "C": "Cheating can be committed only by a public servant, while criminal breach of trust can be committed by anyone",
+   "D": "Criminal breach of trust applies only to immovable property, while cheating applies only to movable property"
+  },
+  "ans": "B",
+  "conf": "high",
+  "exp": "The dividing line is when the dishonest intention operates: at the moment of obtaining the property, which is cheating, or after a lawful entrustment, which is criminal breach of trust. Option A inverts the entrustment element, which belongs to criminal breach of trust and not to cheating.",
+  "prov": "Authored from the syllabus. MPSC has held this exam twice and neither past paper covers this subtopic. Not a past question.",
+  "note": ""
+ },
+ {
+  "id": "GEN-TECH2-U15-abb509",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19952,7 +20590,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U15-080",
+  "id": "GEN-TECH2-U15-f18878",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19974,7 +20612,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U15-081",
+  "id": "GEN-TECH2-U15-08b7c2",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -19996,7 +20634,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U15-082",
+  "id": "GEN-TECH2-U15-9f6236",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20018,7 +20656,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U15-083",
+  "id": "GEN-TECH2-U15-82595b",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20040,7 +20678,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U15-084",
+  "id": "GEN-TECH2-U15-84bce1",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20062,7 +20700,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U15-085",
+  "id": "GEN-TECH2-U15-855ad0",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20084,7 +20722,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U15-086",
+  "id": "GEN-TECH2-U15-ec02f1",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20106,7 +20744,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U15-087",
+  "id": "GEN-TECH2-U15-1c6146",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20128,7 +20766,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U15-088",
+  "id": "GEN-TECH2-U15-268e78",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20150,7 +20788,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U15-089",
+  "id": "GEN-TECH2-U15-4544dd",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20172,7 +20810,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U15-090",
+  "id": "GEN-TECH2-U15-83f4a8",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20194,7 +20832,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U15-091",
+  "id": "GEN-TECH2-U15-947160",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20216,7 +20854,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U16-092",
+  "id": "GEN-TECH2-U16-c39bff",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20238,7 +20876,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U16-093",
+  "id": "GEN-TECH2-U16-b9ed9f",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20260,7 +20898,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U16-094",
+  "id": "GEN-TECH2-U16-d89b26",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20282,7 +20920,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U16-095",
+  "id": "GEN-TECH2-U16-67db0e",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20304,7 +20942,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U16-096",
+  "id": "GEN-TECH2-U16-60980e",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20326,7 +20964,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U16-097",
+  "id": "GEN-TECH2-U16-5704de",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20348,7 +20986,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U16-098",
+  "id": "GEN-TECH2-U16-3b7cb6",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20370,7 +21008,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U16-099",
+  "id": "GEN-TECH2-U16-8eb5b1",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20392,7 +21030,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U17-100",
+  "id": "GEN-TECH2-U17-f64d29",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20414,7 +21052,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U17-101",
+  "id": "GEN-TECH2-U17-b995a9",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20436,7 +21074,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U17-102",
+  "id": "GEN-TECH2-U17-6b745c",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20458,7 +21096,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U17-103",
+  "id": "GEN-TECH2-U17-b0e87d",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20480,7 +21118,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U17-104",
+  "id": "GEN-TECH2-U17-f864a0",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20502,7 +21140,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U17-105",
+  "id": "GEN-TECH2-U17-0aa672",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20524,7 +21162,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U17-106",
+  "id": "GEN-TECH2-U17-8b8b49",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20546,7 +21184,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U17-107",
+  "id": "GEN-TECH2-U17-c89843",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20568,7 +21206,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U17-108",
+  "id": "GEN-TECH2-U17-db1655",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20590,7 +21228,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U17-109",
+  "id": "GEN-TECH2-U17-999269",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20612,7 +21250,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U18-110",
+  "id": "GEN-TECH2-U18-03d69d",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20634,7 +21272,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U18-111",
+  "id": "GEN-TECH2-U18-a74491",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20656,7 +21294,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U18-112",
+  "id": "GEN-TECH2-U18-4278e9",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20678,7 +21316,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U18-113",
+  "id": "GEN-TECH2-U18-b420cc",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20700,7 +21338,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U18-114",
+  "id": "GEN-TECH2-U18-db2f49",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20722,7 +21360,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U18-115",
+  "id": "GEN-TECH2-U18-a41f7f",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20744,7 +21382,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U18-116",
+  "id": "GEN-TECH2-U18-f0395f",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20766,7 +21404,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U18-117",
+  "id": "GEN-TECH2-U18-4fcdc9",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20788,7 +21426,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U18-118",
+  "id": "GEN-TECH2-U18-e50540",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20810,7 +21448,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U18-119",
+  "id": "GEN-TECH2-U18-abfef2",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20832,7 +21470,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U19-120",
+  "id": "GEN-TECH2-U19-38b4eb",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20854,7 +21492,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U19-121",
+  "id": "GEN-TECH2-U19-1b2bfc",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20876,7 +21514,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U19-122",
+  "id": "GEN-TECH2-U19-1c6190",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20898,7 +21536,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U19-123",
+  "id": "GEN-TECH2-U19-9cf06b",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20920,7 +21558,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U19-124",
+  "id": "GEN-TECH2-U19-474be4",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20942,7 +21580,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U19-125",
+  "id": "GEN-TECH2-U19-eb7f47",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20964,7 +21602,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U2-126",
+  "id": "GEN-TECH2-U2-09beb4",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -20986,7 +21624,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U2-127",
+  "id": "GEN-TECH2-U2-cccb0a",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21008,7 +21646,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U2-128",
+  "id": "GEN-TECH2-U2-d1efbd",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21030,7 +21668,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U2-129",
+  "id": "GEN-TECH2-U2-35f03c",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21052,7 +21690,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U2-130",
+  "id": "GEN-TECH2-U2-dc3951",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21074,7 +21712,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U2-131",
+  "id": "GEN-TECH2-U2-7a2d54",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21096,7 +21734,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U2-132",
+  "id": "GEN-TECH2-U2-9d907a",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21118,7 +21756,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U2-133",
+  "id": "GEN-TECH2-U2-2ff319",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21140,7 +21778,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U3-134",
+  "id": "GEN-TECH2-U3-d87bae",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21162,7 +21800,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U3-135",
+  "id": "GEN-TECH2-U3-b3a4dd",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21184,7 +21822,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U3-136",
+  "id": "GEN-TECH2-U3-2c367d",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21206,7 +21844,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U3-137",
+  "id": "GEN-TECH2-U3-458b46",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21228,7 +21866,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U3-138",
+  "id": "GEN-TECH2-U3-73051c",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21250,7 +21888,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U3-139",
+  "id": "GEN-TECH2-U3-453dfb",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21272,7 +21910,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U3-140",
+  "id": "GEN-TECH2-U3-d3afbb",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21294,7 +21932,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U3-141",
+  "id": "GEN-TECH2-U3-02db9a",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21316,7 +21954,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U3-142",
+  "id": "GEN-TECH2-U3-88b8b3",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21338,7 +21976,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U3-143",
+  "id": "GEN-TECH2-U3-d15b1b",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21360,7 +21998,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U3-144",
+  "id": "GEN-TECH2-U3-344dee",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21382,7 +22020,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U3-145",
+  "id": "GEN-TECH2-U3-8052f5",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21404,7 +22042,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U3-146",
+  "id": "GEN-TECH2-U3-d577d4",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21426,7 +22064,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U3-147",
+  "id": "GEN-TECH2-U3-4d1dfc",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21448,7 +22086,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U3-148",
+  "id": "GEN-TECH2-U3-ece0f0",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21470,7 +22108,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U3-149",
+  "id": "GEN-TECH2-U3-c928ab",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21492,7 +22130,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U3-150",
+  "id": "GEN-TECH2-U3-c6440c",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21514,7 +22152,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U3-151",
+  "id": "GEN-TECH2-U3-40a93b",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21536,7 +22174,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U4-152",
+  "id": "GEN-TECH2-U4-0b67c6",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21558,7 +22196,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U4-153",
+  "id": "GEN-TECH2-U4-3a5a01",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21580,7 +22218,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U4-154",
+  "id": "GEN-TECH2-U4-0402cc",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21602,7 +22240,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U5-155",
+  "id": "GEN-TECH2-U5-32ac94",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21624,7 +22262,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U5-156",
+  "id": "GEN-TECH2-U5-25a14d",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21646,7 +22284,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U5-157",
+  "id": "GEN-TECH2-U5-6c7d0d",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21668,7 +22306,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U5-158",
+  "id": "GEN-TECH2-U5-705298",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21690,7 +22328,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U5-159",
+  "id": "GEN-TECH2-U5-7fb8e1",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21712,7 +22350,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U5-160",
+  "id": "GEN-TECH2-U5-10399d",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21734,7 +22372,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U5-161",
+  "id": "GEN-TECH2-U5-3da736",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21756,7 +22394,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U5-162",
+  "id": "GEN-TECH2-U5-8b616d",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21778,7 +22416,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U5-163",
+  "id": "GEN-TECH2-U5-00c672",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21800,7 +22438,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U6-164",
+  "id": "GEN-TECH2-U6-132bd6",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21822,7 +22460,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U6-165",
+  "id": "GEN-TECH2-U6-05f8d4",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21844,7 +22482,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U6-166",
+  "id": "GEN-TECH2-U6-506cb4",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21866,7 +22504,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U6-167",
+  "id": "GEN-TECH2-U6-adcef9",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21888,7 +22526,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U6-168",
+  "id": "GEN-TECH2-U6-65c5b2",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21910,7 +22548,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U6-169",
+  "id": "GEN-TECH2-U6-ffb788",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21932,7 +22570,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U6-170",
+  "id": "GEN-TECH2-U6-99bb20",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21954,7 +22592,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U6-171",
+  "id": "GEN-TECH2-U6-86e08c",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21976,7 +22614,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U6-172",
+  "id": "GEN-TECH2-U6-b18ef3",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -21998,7 +22636,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U6-173",
+  "id": "GEN-TECH2-U6-d0382f",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22020,7 +22658,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U6-174",
+  "id": "GEN-TECH2-U6-ba119e",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22042,7 +22680,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U6-175",
+  "id": "GEN-TECH2-U6-2a465e",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22064,7 +22702,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U6-176",
+  "id": "GEN-TECH2-U6-11dc41",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22086,7 +22724,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U6-177",
+  "id": "GEN-TECH2-U6-82759a",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22108,7 +22746,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U6-178",
+  "id": "GEN-TECH2-U6-20ded7",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22130,7 +22768,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U6-179",
+  "id": "GEN-TECH2-U6-01379d",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22152,7 +22790,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U6-180",
+  "id": "GEN-TECH2-U6-fda96b",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22174,7 +22812,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U6-181",
+  "id": "GEN-TECH2-U6-6341b1",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22196,7 +22834,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U6-182",
+  "id": "GEN-TECH2-U6-4a82d6",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22218,7 +22856,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U6-183",
+  "id": "GEN-TECH2-U6-bba8a7",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22240,7 +22878,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U6-184",
+  "id": "GEN-TECH2-U6-8f6496",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22262,7 +22900,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U6-185",
+  "id": "GEN-TECH2-U6-a4042d",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22284,7 +22922,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U7-186",
+  "id": "GEN-TECH2-U7-e6f1ca",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22306,7 +22944,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U7-187",
+  "id": "GEN-TECH2-U7-64f473",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22328,7 +22966,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U7-188",
+  "id": "GEN-TECH2-U7-b59bca",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22350,7 +22988,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U7-189",
+  "id": "GEN-TECH2-U7-1742b8",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22372,7 +23010,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U7-190",
+  "id": "GEN-TECH2-U7-ff593d",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22394,7 +23032,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U7-191",
+  "id": "GEN-TECH2-U7-8cee83",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22416,7 +23054,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U7-192",
+  "id": "GEN-TECH2-U7-b2f436",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22438,7 +23076,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U7-193",
+  "id": "GEN-TECH2-U7-56eee6",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22460,7 +23098,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U7-194",
+  "id": "GEN-TECH2-U7-9c54ba",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22482,7 +23120,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U7-195",
+  "id": "GEN-TECH2-U7-70e6ea",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22504,7 +23142,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U7-196",
+  "id": "GEN-TECH2-U7-e397a9",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22526,7 +23164,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U7-197",
+  "id": "GEN-TECH2-U7-8d44da",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22548,7 +23186,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U7-198",
+  "id": "GEN-TECH2-U7-7a2216",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22570,7 +23208,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U7-199",
+  "id": "GEN-TECH2-U7-2c9cad",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22592,7 +23230,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U7-200",
+  "id": "GEN-TECH2-U7-4ae6fb",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22614,7 +23252,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U7-201",
+  "id": "GEN-TECH2-U7-7607d0",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22636,7 +23274,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U7-202",
+  "id": "GEN-TECH2-U7-c600c5",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22658,7 +23296,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U7-203",
+  "id": "GEN-TECH2-U7-2aacfd",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22680,7 +23318,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U7-204",
+  "id": "GEN-TECH2-U7-60b5b3",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22702,7 +23340,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U7-205",
+  "id": "GEN-TECH2-U7-c376da",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22724,7 +23362,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U8-206",
+  "id": "GEN-TECH2-U8-bea03a",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22746,7 +23384,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U8-207",
+  "id": "GEN-TECH2-U8-fb1b54",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22768,7 +23406,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U8-208",
+  "id": "GEN-TECH2-U8-72e4e5",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22790,7 +23428,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U8-209",
+  "id": "GEN-TECH2-U8-890bd7",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22812,7 +23450,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U8-210",
+  "id": "GEN-TECH2-U8-fd0345",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22834,7 +23472,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U8-211",
+  "id": "GEN-TECH2-U8-da7326",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22856,7 +23494,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U8-212",
+  "id": "GEN-TECH2-U8-bbf9d3",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22878,7 +23516,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U8-213",
+  "id": "GEN-TECH2-U8-191141",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22900,7 +23538,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U9-214",
+  "id": "GEN-TECH2-U9-86bc2b",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22922,7 +23560,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U9-215",
+  "id": "GEN-TECH2-U9-2a3b24",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22944,7 +23582,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U9-216",
+  "id": "GEN-TECH2-U9-67284b",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22966,7 +23604,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U9-217",
+  "id": "GEN-TECH2-U9-3062f7",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -22988,7 +23626,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U9-218",
+  "id": "GEN-TECH2-U9-dd07bb",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -23010,7 +23648,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U9-219",
+  "id": "GEN-TECH2-U9-5884a5",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -23032,7 +23670,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U9-220",
+  "id": "GEN-TECH2-U9-1402d4",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -23054,7 +23692,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U9-221",
+  "id": "GEN-TECH2-U9-92ae51",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -23076,7 +23714,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U9-222",
+  "id": "GEN-TECH2-U9-a6a6ec",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -23098,7 +23736,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U9-223",
+  "id": "GEN-TECH2-U9-5ba133",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -23120,7 +23758,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U9-224",
+  "id": "GEN-TECH2-U9-9f8245",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",
@@ -23142,7 +23780,7 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "GEN-TECH2-U9-225",
+  "id": "GEN-TECH2-U9-cc4a7a",
   "src": "generated",
   "sitting": "Authored to cover a syllabus subtopic with no past-paper coverage",
   "srcKey": "GEN-TECH2",

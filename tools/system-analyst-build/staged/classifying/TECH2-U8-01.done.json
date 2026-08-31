@@ -18,49 +18,49 @@
   "why": "Stakeholder list of a named platform; the odd one out is wrong only by not being on it."
  },
  {
-  "id": "GEN-TECH2-U8-206",
+  "id": "GEN-TECH2-U8-bea03a",
   "mode": "understand",
   "confidence": "high",
   "why": "Follows from the back-end verification step needing a machine-readable record."
  },
  {
-  "id": "GEN-TECH2-U8-207",
+  "id": "GEN-TECH2-U8-fb1b54",
   "mode": "understand",
   "confidence": "medium",
   "why": "The term largely describes itself, though 'day-forward' is a coined label."
  },
  {
-  "id": "GEN-TECH2-U8-208",
+  "id": "GEN-TECH2-U8-72e4e5",
   "mode": "understand",
   "confidence": "high",
   "why": "Follows from un-indexed page images being unsearchable."
  },
  {
-  "id": "GEN-TECH2-U8-209",
+  "id": "GEN-TECH2-U8-890bd7",
   "mode": "understand",
   "confidence": "high",
   "why": "The consequence follows from what inconsistent field definitions do to data exchange."
  },
  {
-  "id": "GEN-TECH2-U8-210",
+  "id": "GEN-TECH2-U8-fd0345",
   "mode": "understand",
   "confidence": "high",
   "why": "What OCR adds follows from the difference between an image and text."
  },
  {
-  "id": "GEN-TECH2-U8-211",
+  "id": "GEN-TECH2-U8-da7326",
   "mode": "understand",
   "confidence": "high",
   "why": "Follows from what managed custody adds over plain storage."
  },
  {
-  "id": "GEN-TECH2-U8-212",
+  "id": "GEN-TECH2-U8-bbf9d3",
   "mode": "understand",
   "confidence": "high",
   "why": "Purpose of a rehearsal follows from wanting errors surfaced before go-live."
  },
  {
-  "id": "GEN-TECH2-U8-213",
+  "id": "GEN-TECH2-U8-191141",
   "mode": "understand",
   "confidence": "high",
   "why": "Counts and control totals follow from what proving completeness actually requires."

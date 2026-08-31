@@ -24,6 +24,7 @@ Usage:
 
 import argparse
 import glob
+import hashlib
 import json
 import os
 import re
@@ -103,7 +104,12 @@ def do_export(only_paper, only_unit):
                     json.dump({
                         "paper": p["id"], "unit": str(u["no"]), "unitTitle": u["title"],
                         "unitMarks": u["marks"], "perTarget": n,
-                        "brief": "tools/system-manager-build/GENERATE_BRIEF.md",
+                        # System Analyst's OWN brief, which inherits the shared
+                        # one but overrides its difficulty calibration — the
+                        # shared file is pitched at a diploma-level post and
+                        # tells authors to avoid J2EE and design patterns, both
+                        # of which are named leaves of this syllabus.
+                        "brief": "tools/system-analyst-build/GENERATE_BRIEF.md",
                         "targets": [{"sub": s} for s in chunk],
                     }, f, indent=2, ensure_ascii=False)
                 written.append((name, len(chunk), len(chunk) * n))
@@ -115,7 +121,7 @@ def do_export(only_paper, only_unit):
     print(f"total to author: {sum(q for _, _, q in written)} questions")
 
 
-def do_merge():
+def do_merge(force=False):
     syl = load("syllabus")
     valid = {}
     for p in syl["papers"]:
@@ -203,13 +209,69 @@ def do_merge():
                         "opts": {x: opts[x].strip() for x in LETTERS},
                         "ans": r["ans"], "conf": r.get("conf", "high"), "exp": exp})
 
-    n = 0
+    # VALIDATE BEFORE WRITING, NEVER AFTER.
+    #
+    # This used to collect `problems`, write questions.js regardless, print
+    # "appended N authored questions" and only then mention the rejects in a
+    # stderr footnote. A row that failed validation was simply missing from the
+    # output, with a reassuring success line above it and no numbering gap to
+    # reveal the loss — the same shape as the OCR incident in DEVLOG 2026-08-04,
+    # and exactly what CLAUDE.md's "verify, don't trust the pipeline" rule is
+    # about.
+    #
+    # It hid a real loss for a full authoring pass: two hand-written IPC
+    # questions in TECH2-U15-1 carried a `sub` that had silently dropped
+    # "167, 172, 173" from the end of the syllabus leaf's section list, so both
+    # were rejected and discarded on every merge from that day on.
+    #
+    # Now nothing is written while any row is rejected. --force still allows it,
+    # but prints exactly what is about to be lost first.
+    if problems and not force:
+        print(f"{len(problems)} PROBLEM(S) — questions.js NOT written:", file=sys.stderr)
+        for p in problems[:40]:
+            print(f"  - {p}", file=sys.stderr)
+        if len(problems) > 40:
+            print(f"  ... and {len(problems) - 40} more", file=sys.stderr)
+        print(f"\n{len(out)} row(s) would have been kept and {len(problems)} DROPPED.\n"
+              f"Fix the batch files, or re-run with --force to merge anyway.", file=sys.stderr)
+        sys.exit(1)
+    if problems:
+        print(f"--force: merging anyway, DISCARDING {len(problems)} row(s):", file=sys.stderr)
+        for p in problems:
+            print(f"  - {p}", file=sys.stderr)
+        print("", file=sys.stderr)
+
+    # IDS MUST BE STABLE, because other things are keyed on them.
+    #
+    # These used to be a running counter over `out` — GEN-TECH2-U1-001, 002, …
+    # incrementing globally across every batch in filename order. That makes the
+    # id a function of WHERE the question sits in the whole corpus, so authoring
+    # one new batch renumbers everything after it. Adding 27 TECH1 Unit 3
+    # questions moved 225 of the 254 existing generated questions to new ids in
+    # a single run.
+    #
+    # Three things are keyed on question id and all three break silently when it
+    # moves: data/modes.js (study-mode labels), the reader's localStorage Leitner
+    # boxes, and the mpsc-api review records (bank_id + question_id). None of
+    # them error — the labels simply stop matching and the progress quietly
+    # attaches to a different question.
+    #
+    # So the id is now derived from the question's own content. It does not move
+    # when a neighbour is added, removed or reordered, and it only changes if the
+    # question itself is rewritten.
+    def gen_id(r):
+        h = hashlib.sha1(
+            f"{r['paper']}|{r['unit']}|{r['sub']}|{r['q']}".encode("utf-8")
+        ).hexdigest()[:6]
+        return f"GEN-{r['paper']}-U{r['unit']}-{h}"
+
     for r in out:
-        n += 1
-        qid = f"GEN-{r['paper']}-U{r['unit']}-{n:03d}"
-        while qid in existing_ids:
-            n += 1
-            qid = f"GEN-{r['paper']}-U{r['unit']}-{n:03d}"
+        qid = gen_id(r)
+        if qid in existing_ids:
+            # Two questions hashing to the same id means identical paper/unit/sub
+            # and stem, which the duplicate check above should already have
+            # caught. Fail rather than silently overwrite one with the other.
+            sys.exit(f"FAIL: id collision on {qid} — {r['q'][:70]!r}")
         existing_ids.add(qid)
         qs.append({
             "id": qid, "src": "generated",
@@ -238,12 +300,9 @@ def do_merge():
         print(f"  WARNING: {int(100*max(ans.values())/tot)}% on one letter — the brief "
               f"asks for a roughly even spread")
     print(f"  distinct leaves covered: {len({(r['paper'],r['unit'],r['sub']) for r in out})}")
-
-    if problems:
-        print(f"\n{len(problems)} PROBLEM(S):", file=sys.stderr)
-        for p in problems[:40]:
-            print(f"  - {p}", file=sys.stderr)
-        sys.exit(1)
+    # Any rejects were reported and acted on above, before the write. Nothing is
+    # reported down here, because a problem printed after a success line is a
+    # problem nobody reads.
 
 
 def main():
@@ -252,11 +311,13 @@ def main():
     ap.add_argument("--merge", action="store_true")
     ap.add_argument("--paper")
     ap.add_argument("--unit")
+    ap.add_argument("--force", action="store_true",
+                    help="merge even though rows were rejected, discarding them")
     a = ap.parse_args()
     if a.export:
         do_export(a.paper, a.unit)
     elif a.merge:
-        do_merge()
+        do_merge(a.force)
     else:
         ap.error("pass --export or --merge")
 

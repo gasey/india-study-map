@@ -1,36 +1,104 @@
 [
- { "id": "TECH2_2024-63", "mode": "understand", "confidence": "high",
-   "why": "The description of the activity identifies IT audit directly; distractors are unrelated kinds of checking." },
- { "id": "TECH2_2024-65", "mode": "understand", "confidence": "medium",
-   "why": "A 'most critical' judgement weighing consequence of compromise, though several listed risks are genuinely defensible." },
- { "id": "TECH2_2021-5", "mode": "memorise", "confidence": "high",
-   "why": "Which constitutional list an entry sits on is an arbitrary allocation with no derivation path." },
- { "id": "TECH2_2021-66", "mode": "memorise", "confidence": "low",
-   "why": "Fits ethical hacking into one label of a textbook audit taxonomy; the item is weakly framed and more than one option is arguable." },
- { "id": "TECH2_2021-67", "mode": "understand", "confidence": "high",
-   "why": "Follows from what an audit is for — finding the gaps — rather than from any recalled fact." },
- { "id": "GEN-TECH2-U11-033", "mode": "memorise", "confidence": "medium",
-   "why": "Identity of a named framework behind an opaque acronym; elimination helps, so the tie-break applies." },
- { "id": "GEN-TECH2-U11-034", "mode": "memorise", "confidence": "medium",
-   "why": "Requires knowing what an arbitrarily numbered standard certifies; nothing about security reasoning yields '27001 means ISMS'." },
- { "id": "GEN-TECH2-U11-035", "mode": "understand", "confidence": "medium",
-   "why": "The split follows from whether a control is embedded in one business process or spans the environment." },
- { "id": "GEN-TECH2-U11-036", "mode": "understand", "confidence": "high",
-   "why": "Reasoning about how weak change control undermines reliance on tested application logic." },
- { "id": "GEN-TECH2-U11-037", "mode": "understand", "confidence": "high",
-   "why": "The independence argument follows from what makes an audit opinion worth anything." },
- { "id": "GEN-TECH2-U11-038", "mode": "understand", "confidence": "high",
-   "why": "Follows from an audit being point-in-time assurance against a moving system and threat landscape." },
- { "id": "GEN-TECH2-U11-039", "mode": "memorise", "confidence": "medium",
-   "why": "The remit of a specific named Indian body is institutional fact, though the expansion given in the stem hints at it." },
- { "id": "GEN-TECH2-U11-040", "mode": "understand", "confidence": "high",
-   "why": "Scope follows from what 'security' audit means as against content, branding or procurement review." },
- { "id": "GEN-TECH2-U11-041", "mode": "understand", "confidence": "high",
-   "why": "Tamper-resistance follows from what makes a log usable as evidence." },
- { "id": "GEN-TECH2-U11-042", "mode": "understand", "confidence": "high",
-   "why": "Scenario judgement about how to treat an exception; no recalled fact involved." },
- { "id": "GEN-TECH2-U11-043", "mode": "understand", "confidence": "medium",
-   "why": "The criterion-condition-risk-recommendation shape follows from what a reader of a finding needs, though it is also a textbook four-element list." },
- { "id": "GEN-TECH2-U11-044", "mode": "understand", "confidence": "high",
-   "why": "Follows from a reported weakness not being a removed weakness." }
+ {
+  "id": "TECH2_2024-63",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The description of the activity identifies IT audit directly; distractors are unrelated kinds of checking."
+ },
+ {
+  "id": "TECH2_2024-65",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "A 'most critical' judgement weighing consequence of compromise, though several listed risks are genuinely defensible."
+ },
+ {
+  "id": "TECH2_2021-5",
+  "mode": "memorise",
+  "confidence": "high",
+  "why": "Which constitutional list an entry sits on is an arbitrary allocation with no derivation path."
+ },
+ {
+  "id": "TECH2_2021-66",
+  "mode": "memorise",
+  "confidence": "low",
+  "why": "Fits ethical hacking into one label of a textbook audit taxonomy; the item is weakly framed and more than one option is arguable."
+ },
+ {
+  "id": "TECH2_2021-67",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Follows from what an audit is for — finding the gaps — rather than from any recalled fact."
+ },
+ {
+  "id": "GEN-TECH2-U11-967483",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "Identity of a named framework behind an opaque acronym; elimination helps, so the tie-break applies."
+ },
+ {
+  "id": "GEN-TECH2-U11-eca731",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "Requires knowing what an arbitrarily numbered standard certifies; nothing about security reasoning yields '27001 means ISMS'."
+ },
+ {
+  "id": "GEN-TECH2-U11-24c561",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "The split follows from whether a control is embedded in one business process or spans the environment."
+ },
+ {
+  "id": "GEN-TECH2-U11-9d80b0",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Reasoning about how weak change control undermines reliance on tested application logic."
+ },
+ {
+  "id": "GEN-TECH2-U11-817842",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "The independence argument follows from what makes an audit opinion worth anything."
+ },
+ {
+  "id": "GEN-TECH2-U11-e4b5f9",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Follows from an audit being point-in-time assurance against a moving system and threat landscape."
+ },
+ {
+  "id": "GEN-TECH2-U11-521873",
+  "mode": "memorise",
+  "confidence": "medium",
+  "why": "The remit of a specific named Indian body is institutional fact, though the expansion given in the stem hints at it."
+ },
+ {
+  "id": "GEN-TECH2-U11-e51797",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Scope follows from what 'security' audit means as against content, branding or procurement review."
+ },
+ {
+  "id": "GEN-TECH2-U11-cafc4c",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Tamper-resistance follows from what makes a log usable as evidence."
+ },
+ {
+  "id": "GEN-TECH2-U11-64d33b",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Scenario judgement about how to treat an exception; no recalled fact involved."
+ },
+ {
+  "id": "GEN-TECH2-U11-618347",
+  "mode": "understand",
+  "confidence": "medium",
+  "why": "The criterion-condition-risk-recommendation shape follows from what a reader of a finding needs, though it is also a textbook four-element list."
+ },
+ {
+  "id": "GEN-TECH2-U11-dfca71",
+  "mode": "understand",
+  "confidence": "high",
+  "why": "Follows from a reported weakness not being a removed weakness."
+ }
 ]

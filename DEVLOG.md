@@ -9,6 +9,66 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-08-31 (night) — The same two bugs were in the System Manager pipeline. Both fixed, all 363 generated ids stabilised
+
+The System Analyst entry below found two bugs in `tools/system-analyst-build/`
+and closed with a note that `tools/system-manager-build/` looked like it had the
+same design. It did — both of them, in the same shapes.
+
+**Bug 1, positional ids.** `generate.py:216` was
+`for i, r in enumerate(out, 1): r["id"] = f"GEN-{paper}-U{unit}-{i:03d}"` — a
+running counter over every batch in one list, so the id encoded where a question
+sat among all the others. Authoring one batch would have renumbered everything
+after it. Unlike the System Analyst side, nobody had triggered it yet, so it was
+a trap rather than damage: the next Phase 4 run would have silently detached the
+reader's Leitner boxes and the `mpsc-api` review records for every question after
+the insertion point.
+
+Ids are now derived from the question's own content, so they move only when the
+question is rewritten, and a collision fails loudly instead of overwriting.
+
+**Bug 2, validate-after-write.** `staged/generated.json` was written at line 220
+and `problems` only reported at line 237 — after the success summary. Same as the
+System Analyst pipeline, where that exact ordering had been quietly discarding
+two authored questions for a day. Nothing is written now while any row is
+rejected; `--force` still allows it and prints what it is about to discard.
+Verified by feeding a deliberately broken row: exits 1, `staged/generated.json`
+byte-identical before and after.
+
+**All 363 generated ids changed once, and the reader's progress was carried
+across.** `public/mpsc-system-manager/data/id-migration.js` maps every old id to
+its new one, and `app.js` applies it once and records `S.migratedIds`. Validated
+before shipping: every old generated id is covered, every target exists in the
+bank, and no two old ids map to the same new one. Verified in the browser by
+seeding progress on three pre-migration ids, reloading, and confirming it landed
+on the same questions with attempts, box and star intact.
+
+**The safety check that made this safe to do at all** was CLAUDE.md's own claim
+that the pipeline reproduces its output byte-for-byte. It does — `assemble.py`
+regenerated the committed `questions.js` to an identical md5 before any change
+was made, which is what turned "regenerate 843 questions" from a gamble into a
+verifiable operation. After the id change it is still reproducible across
+repeated `generate.py --merge` + `assemble.py` runs. Bank size unchanged at 843,
+zero duplicate ids.
+
+Both apps were re-checked end to end afterwards: all ten tabs render in each,
+console clean, System Analyst still 1,111 questions with 1,111 labels, `tsc`
+passes.
+
+**What's still open:**
+
+- The System Manager bank's 843 questions are still **unlabelled** by study mode.
+  `CLASSIFY_BRIEF.md`, `classify.py` and the side-file design all port with only
+  a path change.
+- Two `id-migration.js` files now exist, one per app, and both are disposable
+  once no browser can still hold pre-migration progress. Neither has an expiry
+  and nothing will remind anyone.
+- The two `app.js` files have now taken the *same* fix twice in two days —
+  `migrateIds()` is the fourth ported edit. BUILD_GUIDE.md §4 argued the fork was
+  worth it; four is a reasonable point to re-open that.
+
+---
+
 ## 2026-08-31 (later) — 27 .NET questions, and two silent-loss bugs the authoring pass exposed
 
 Started as "is .NET coverage thin?". It was. Finishing it turned up two pipeline

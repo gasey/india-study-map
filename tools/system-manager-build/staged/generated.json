@@ -13,7 +13,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "The counterparty decides the model, and here the government is dealing with a business, so it is G2B (Government to Business), which covers licences, tenders, procurement and tax filing. G2C would apply if an individual citizen were paying his own income tax; the type of tax does not decide the model.",
-    "id": "GEN-TECH1-UI-001"
+    "id": "GEN-TECH1-UI-6ad457"
   },
   {
     "paper": "TECH1",
@@ -29,7 +29,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Digitisation is simply converting analog content into digital form, which is exactly what scanning records into PDF does. Digitalisation would mean using the digital record to change how the process runs, and digital transformation goes further still by reorganising what the office does around the citizen.",
-    "id": "GEN-TECH1-UI-002"
+    "id": "GEN-TECH1-UI-57ed3b"
   },
   {
     "paper": "TECH1",
@@ -45,7 +45,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "Edge computing processes data at or near its source, which cuts both latency and bandwidth use and is why latency-critical work such as a safety cut-off belongs at the edge. Cloud computing centralises processing in distant data centres, so the network round trip alone would exceed the millisecond budget.",
-    "id": "GEN-TECH1-UI-003"
+    "id": "GEN-TECH1-UI-b0f07b"
   },
   {
     "paper": "TECH1",
@@ -61,7 +61,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "Big data is characterised by the three Vs of Volume, Velocity and Variety, with Veracity and Value commonly added; it is defined by these properties and not by any threshold in gigabytes. IoT is a major source that feeds big data, but it is not itself defined by the Vs.",
-    "id": "GEN-TECH1-UI-004"
+    "id": "GEN-TECH1-UI-892473"
   },
   {
     "paper": "TECH1",
@@ -77,7 +77,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "Virtualisation and server consolidation raise the utilisation of a small number of physical machines and retire the rest, which is the largest practical energy saving available in a server room. The other measures are genuine green practices but affect peripherals and paper, not the racks that consume most of the power.",
-    "id": "GEN-TECH1-UI-005"
+    "id": "GEN-TECH1-UI-1ce99c"
   },
   {
     "paper": "TECH1",
@@ -93,7 +93,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "ENERGY STAR and EPEAT are ratings for energy efficiency and environmental performance of equipment, whereas RoHS is a restriction on hazardous substances such as lead, mercury and cadmium in electrical and electronic goods. The two purposes are routinely swapped in options, so read which one rates and which one restricts.",
-    "id": "GEN-TECH1-UI-006"
+    "id": "GEN-TECH1-UI-1a95c6"
   },
   {
     "paper": "TECH1",
@@ -109,7 +109,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "The southbridge handled the slower peripheral I/O such as USB, SATA, audio, LAN and legacy buses, while the northbridge sat on the high-speed side handling CPU-to-memory and CPU-to-graphics traffic. Any option attaching a USB port or keyboard to the northbridge is wrong.",
-    "id": "GEN-TECH1-UI-007"
+    "id": "GEN-TECH1-UI-c260b6"
   },
   {
     "paper": "TECH1",
@@ -125,7 +125,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "The chipset is the controller silicon between the CPU and the rest of the board, and it fixes which CPU families, memory speeds and expansion interfaces the board can take. Physical dimensions and mounting are decided by the form factor such as ATX or Mini-ITX, while clock speed and cache are properties of the processor itself.",
-    "id": "GEN-TECH1-UI-008"
+    "id": "GEN-TECH1-UI-60f6dc"
   },
   {
     "paper": "TECH1",
@@ -141,7 +141,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "In 4C/8T notation the 8 is the thread count, so four physical cores using simultaneous multi-threading present themselves to the operating system as eight logical processors. Logical processors are not physical cores; they fill execution slots a single thread leaves idle, so the gain is a useful fraction rather than a doubling.",
-    "id": "GEN-TECH1-UI-009"
+    "id": "GEN-TECH1-UI-4e0215"
   },
   {
     "paper": "TECH1",
@@ -157,7 +157,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "Extra cores raise throughput only for software written to use them, so a single-threaded program still executes on one core and sees little benefit. Amdahl's Law makes the same point generally: the serial fraction of a program cannot be sped up by adding cores.",
-    "id": "GEN-TECH1-UI-010"
+    "id": "GEN-TECH1-UI-84481d"
   },
   {
     "paper": "TECH1",
@@ -173,7 +173,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "A NAS is file-level storage and serves files using network file-sharing protocols: NFS on Unix and Linux, SMB/CIFS on Windows. iSCSI and Fibre Channel are block-level storage protocols and belong to a SAN, which presents raw disk rather than files.",
-    "id": "GEN-TECH1-UI-011"
+    "id": "GEN-TECH1-UI-e68a47"
   },
   {
     "paper": "TECH1",
@@ -189,7 +189,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "A NAS serves files over the ordinary Ethernet LAN and appears to each client as a shared folder or mapped drive, with the appliance handling locking so several clerks can use the same share at once. A SAN would present raw blocks that look like a local disk, and two machines writing to the same LUN would corrupt it without a cluster-aware file system.",
-    "id": "GEN-TECH1-UI-012"
+    "id": "GEN-TECH1-UI-0ec1bf"
   },
   {
     "paper": "TECH1",
@@ -205,7 +205,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "A SAN provides block-level access, so the array hands over raw blocks and the server partitions the LUN, creates the file system on it and mounts it, exactly as it would an internal drive. Appearing as a shared folder reached over NFS or SMB is the behaviour of a NAS, which serves files rather than blocks.",
-    "id": "GEN-TECH1-UI-013"
+    "id": "GEN-TECH1-UI-3fd6a9"
   },
   {
     "paper": "TECH1",
@@ -221,7 +221,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "It is the access level, block versus file, that decides whether storage is a SAN or a NAS, not the type of cable, so iSCSI over ordinary Ethernet is still a SAN. iSCSI needs only a standard NIC and an iSCSI initiator instead of a Fibre Channel HBA, which is why it is the affordable route for small and mid-size sites.",
-    "id": "GEN-TECH1-UI-014"
+    "id": "GEN-TECH1-UI-acccc6"
   },
   {
     "paper": "TECH1",
@@ -237,7 +237,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "A differential backup copies everything changed since the last full backup, so a restore needs only the last full plus the most recent differential. Needing the full plus every intervening backup in sequence is the incremental scheme, where each job copies only what changed since the last backup of any kind.",
-    "id": "GEN-TECH1-UI-015"
+    "id": "GEN-TECH1-UI-3d0631"
   },
   {
     "paper": "TECH1",
@@ -253,7 +253,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "The 3-2-1 rule means three copies of the data, held on two different media or systems, with at least one copy kept offsite so a single site disaster cannot destroy everything. Ransomware has added a further idea that one copy should be offline or immutable, but the rule itself is about copies, media and location, not about backup types or schedules.",
-    "id": "GEN-TECH1-UI-016"
+    "id": "GEN-TECH1-UI-01da32"
   },
   {
     "paper": "TECH1",
@@ -269,7 +269,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "RPO is the maximum tolerable data loss, looking backwards from the incident, and it is achieved by setting backup or replication frequency, which is exactly what a fifteen-minute replication interval does. RTO is the different question of how long the service may remain down, and is achieved by standby capacity and rehearsed procedure.",
-    "id": "GEN-TECH1-UI-017"
+    "id": "GEN-TECH1-UI-5c97bb"
   },
   {
     "paper": "TECH1",
@@ -285,7 +285,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "RPO is the data-loss tolerance and RTO is the downtime tolerance, so an RPO of one hour permits losing at most an hour's data while an RTO of four hours requires the service to be running again within four hours. Swapping the two is the standard error: RPO looks back at data, RTO looks forward at time.",
-    "id": "GEN-TECH1-UI-018"
+    "id": "GEN-TECH1-UI-c45b01"
   },
   {
     "paper": "TECH1",
@@ -301,7 +301,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "A resistive screen works by pressure between two conductive layers, so it responds to a gloved hand or any stylus, which is why it survives on rugged field devices and older POS terminals. A capacitive screen needs a conductive touch such as a bare finger and will not respond to an ordinary glove, whatever its multi-touch advantages.",
-    "id": "GEN-TECH1-UI-019"
+    "id": "GEN-TECH1-UI-674a21"
   },
   {
     "paper": "TECH1",
@@ -317,7 +317,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "OMR, optical mark recognition, detects the presence of marks at fixed positions on a form, which is exactly how bubble answer sheets are read. OCR recognises the shapes of printed or written characters and MICR reads magnetic-ink characters on cheques, so the three are not interchangeable.",
-    "id": "GEN-TECH1-UI-020"
+    "id": "GEN-TECH1-UI-a79a1a"
   },
   {
     "paper": "TECH1",
@@ -333,7 +333,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "FRR, the false rejection rate, is the proportion of genuine users wrongly refused, which is a usability failure of exactly this kind. FAR is the opposite error of admitting an impostor, and failure to enrol describes a person whose biometric could not be registered in the first place, not one already enrolled who is being turned away.",
-    "id": "GEN-TECH1-UI-021"
+    "id": "GEN-TECH1-UI-b002ed"
   },
   {
     "paper": "TECH1",
@@ -349,7 +349,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "Biometrics are identifiers rather than secrets: you leave fingerprints on everything you touch, and a compromised fingerprint cannot be reissued the way a password can simply be reset. Encryption is in fact required in Indian practice, where Aadhaar authentication must use STQC-certified registered devices that encrypt the sample inside the sensor.",
-    "id": "GEN-TECH1-UI-022"
+    "id": "GEN-TECH1-UI-0d365a"
   },
   {
     "paper": "TECH1",
@@ -365,7 +365,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "A scanner produces only a picture of the page, so the characters are dots, not text; OCR is the separate step that converts those images of characters into character codes that can be searched and edited. Raising the dpi produces a sharper image but still an image, and PDF/A conversion only fixes the preservation format.",
-    "id": "GEN-TECH1-UI-023"
+    "id": "GEN-TECH1-UI-0a1079"
   },
   {
     "paper": "TECH1",
@@ -381,7 +381,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Optical resolution is what the CCD or CIS sensor array actually records, and it is the figure worth quoting. Interpolated or 'enhanced' resolution is software enlargement of the captured image and adds no real detail, which is why it is treated as a marketing number.",
-    "id": "GEN-TECH1-UI-024"
+    "id": "GEN-TECH1-UI-2f2b53"
   },
   {
     "paper": "TECH1",
@@ -397,7 +397,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "A resistive screen has two conductive layers pressed together at the point of contact, so a gloved finger or a plastic stylus works; a capacitive screen senses a change in an electrostatic field and therefore needs a conductive touch. The trade-off runs the other way on quality: capacitive screens give the better clarity and easy multi-touch.",
-    "id": "GEN-TECH1-UI-025"
+    "id": "GEN-TECH1-UI-a97bb6"
   },
   {
     "paper": "TECH1",
@@ -413,7 +413,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "An interactive whiteboard is a projection surface, so it depends on a separate projector and computer and washes out in a bright room. An interactive flat panel display carries the screen, touch layer and speakers in one unit, which is why it has become the default choice for smart classrooms.",
-    "id": "GEN-TECH1-UI-026"
+    "id": "GEN-TECH1-UI-2602b8"
   },
   {
     "paper": "TECH1",
@@ -429,7 +429,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Free software is defined by the four freedoms - to run the program for any purpose, to study and change it, to redistribute copies, and to distribute modified versions - which is why access to the source code is essential. Free here means freedom, not price: copies of GPL-licensed software may lawfully be sold.",
-    "id": "GEN-TECH1-UI-027"
+    "id": "GEN-TECH1-UI-d0ac87"
   },
   {
     "paper": "TECH1",
@@ -445,7 +445,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "Freeware is proprietary software given away at zero price - vendor document readers and drivers are the usual examples - and the user receives only the binary. Open source and free software both require the source code and the right to modify, while public domain software carries no copyright and so imposes no conditions at all.",
-    "id": "GEN-TECH1-UI-028"
+    "id": "GEN-TECH1-UI-455651"
   },
   {
     "paper": "TECH1",
@@ -461,7 +461,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "A virtual machine carries an entire guest operating system on top of a hypervisor, so it is sized in gigabytes and boots like a physical machine; a container packages only the application and its dependencies and calls the shared host kernel, so it is sized in megabytes and starts in seconds. That sharing also means a container's isolation is weaker, not stronger, than a virtual machine's.",
-    "id": "GEN-TECH1-UI-029"
+    "id": "GEN-TECH1-UI-fd0334"
   },
   {
     "paper": "TECH1",
@@ -477,7 +477,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "A Type 1 or bare-metal hypervisor runs directly on the hardware with no host operating system beneath it, which is what data centres deploy; ESXi, Hyper-V, Xen and KVM are of this kind. VirtualBox and VMware Workstation are Type 2, running as applications on a desktop operating system, while Docker is a container runtime and Kubernetes an orchestrator.",
-    "id": "GEN-TECH1-UI-030"
+    "id": "GEN-TECH1-UI-7490c6"
   },
   {
     "paper": "TECH1",
@@ -493,7 +493,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "The shared name is a marketing accident: Java is statically typed and compiled to bytecode for the JVM, while JavaScript is dynamically typed, standardised as ECMAScript, and runs in browser engines and on servers through Node.js. Neither language is a version or subset of the other.",
-    "id": "GEN-TECH1-UI-031"
+    "id": "GEN-TECH1-UI-d749cb"
   },
   {
     "paper": "TECH1",
@@ -509,7 +509,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Client-side script is delivered to the user's machine and can be read through view-source or developer tools and switched off or edited, so it is only a convenience that gives quick feedback. Server-side code is never sent to the browser, so the server is the only place a validation rule can actually be enforced.",
-    "id": "GEN-TECH1-UI-032"
+    "id": "GEN-TECH1-UI-c8f092"
   },
   {
     "paper": "TECH1",
@@ -525,7 +525,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "REST maps operations onto standard HTTP methods: GET reads a resource, POST creates one, PUT or PATCH updates one, and DELETE removes one. POST is the common wrong pick because forms on web pages usually submit with it, but submitting a form is creating or sending data, not reading.",
-    "id": "GEN-TECH1-UI-033"
+    "id": "GEN-TECH1-UI-c690ff"
   },
   {
     "paper": "TECH1",
@@ -541,7 +541,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "Statelessness is about the conversation, not about storage: the server remembers nothing between one call and the next, so every request must include its own identification and parameters. The application behind the API may still read and write a database quite normally.",
-    "id": "GEN-TECH1-UI-034"
+    "id": "GEN-TECH1-UI-70ec8d"
   },
   {
     "paper": "TECH1",
@@ -557,7 +557,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "A document pulled from the issuer into DigiLocker is issued electronically by that authority, so it carries the same legal standing as the original physical document and needs no further attestation. That is the distinction from a document a citizen has merely scanned and uploaded himself.",
-    "id": "GEN-TECH1-UI-035"
+    "id": "GEN-TECH1-UI-220d5c"
   },
   {
     "paper": "TECH1",
@@ -573,7 +573,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "MeghRaj is the GI Cloud initiative, under which departmental applications are hosted on government cloud infrastructure. The other options describe BharatNet, UMANG and GeM respectively.",
-    "id": "GEN-TECH1-UI-036"
+    "id": "GEN-TECH1-UI-6222ac"
   },
   {
     "paper": "TECH1",
@@ -589,7 +589,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "The Information Technology Act, 2000 is the statute that confers legal recognition on electronic records and on electronic and digital signatures. The Public Records Act, 1993 is a genuine records law but governs the management, retention and disposal of central government public records rather than the legal validity of electronic form.",
-    "id": "GEN-TECH1-UI-037"
+    "id": "GEN-TECH1-UI-a44cd0"
   },
   {
     "paper": "TECH1",
@@ -605,7 +605,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "A backup exists so that a system can be restored after failure and is overwritten on a cycle; archiving is a records action that places the record under a classification, metadata set and retention schedule so it stays authentic and retrievable for as long as required. Treating backups as an archive is the classic mistake, because a backup carries no retention rule and no index.",
-    "id": "GEN-TECH1-UI-038"
+    "id": "GEN-TECH1-UI-0db622"
   },
   {
     "paper": "TECH1",
@@ -621,7 +621,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "The data principal is the human being the data is about; a parent or lawful guardian acts as principal for a child. The data fiduciary is the organisation that determines the purpose and means of processing and holds the data in trust, and a data processor only acts on that fiduciary's instructions.",
-    "id": "GEN-TECH1-UI-039"
+    "id": "GEN-TECH1-UI-9b7ed7"
   },
   {
     "paper": "TECH1",
@@ -637,7 +637,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Purpose limitation requires personal data to be used only for the purpose for which it was notified and consented to, so reusing the numbers for a different purpose breaches it even though nothing was leaked. Data minimisation concerns collecting more fields than the purpose needs, and storage limitation concerns keeping data after the purpose is served.",
-    "id": "GEN-TECH1-UI-040"
+    "id": "GEN-TECH1-UI-2e0815"
   },
   {
     "paper": "TECH1",
@@ -653,7 +653,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "A model learns the patterns present in its training data, so past unfairness or under-representation is reproduced and then applied at scale; the algorithm can be implemented perfectly and still discriminate. This is why removing names from the data does not cure bias - correlated features carry the same pattern.",
-    "id": "GEN-TECH1-UI-041"
+    "id": "GEN-TECH1-UI-f5d4a9"
   },
   {
     "paper": "TECH1",
@@ -669,7 +669,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "Human-in-the-loop keeps a person as the decision-maker with the AI acting only as an aid, and it is the expected safeguard wherever rights, money, liberty or entitlement are at stake. Accountability stays with the deploying officer and department; it does not shift to the model or the vendor.",
-    "id": "GEN-TECH1-UI-042"
+    "id": "GEN-TECH1-UI-e820fd"
   },
   {
     "paper": "TECH1",
@@ -685,7 +685,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "WCAG, issued by the W3C, organises its requirements under Perceivable, Operable, Understandable and Robust, with conformance levels A, AA and AAA, of which AA is the usual target. The other sets belong elsewhere: the four axes of the digital divide, the qualities an electronic record must retain, and information-security principles.",
-    "id": "GEN-TECH1-UI-043"
+    "id": "GEN-TECH1-UI-dbd9ce"
   },
   {
     "paper": "TECH1",
@@ -701,7 +701,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "The Rights of Persons with Disabilities Act, 2016 requires government information and services, websites included, to be made accessible, so accessibility is a statutory duty rather than good practice. GIGW, the Guidelines for Indian Government Websites, is the compliance standard through which departments meet it.",
-    "id": "GEN-TECH1-UI-044"
+    "id": "GEN-TECH1-UI-4a4875"
   },
   {
     "paper": "TECH1",
@@ -717,7 +717,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "The account type controls privilege, not capability: a Standard user works normally with applications and personal settings, but any change affecting the whole system requires an administrator's consent or credentials. Standard users can certainly run installed programs and reach the network, so the restriction is on system-wide change alone.",
-    "id": "GEN-TECH1-UII-045"
+    "id": "GEN-TECH1-UII-565c31"
   },
   {
     "paper": "TECH1",
@@ -733,7 +733,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "This is the principle of least privilege: anything you run inherits your privileges, so working as a Standard user limits the damage a malicious or accidental action can do. Account type has no bearing on boot speed, encryption or update order.",
-    "id": "GEN-TECH1-UII-046"
+    "id": "GEN-TECH1-UII-7c88a1"
   },
   {
     "paper": "TECH1",
@@ -749,7 +749,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "UAC keeps even administrators running with reduced privilege and raises the familiar consent prompt whenever a program asks to elevate, so system-level changes cannot happen silently. Disk encryption is BitLocker's job and malware scanning is Microsoft Defender Antivirus's; UAC does neither.",
-    "id": "GEN-TECH1-UII-047"
+    "id": "GEN-TECH1-UII-50dd48"
   },
   {
     "paper": "TECH1",
@@ -765,7 +765,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "BitLocker performs full-volume encryption, so the contents remain unreadable without the correct credentials or recovery key even when the physical disk is moved to another machine. The firewall filters network traffic and the antivirus detects malicious files; neither protects a drive that has been physically taken.",
-    "id": "GEN-TECH1-UII-048"
+    "id": "GEN-TECH1-UII-a8d72e"
   },
   {
     "paper": "TECH1",
@@ -781,7 +781,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "Windows Terminal is a host, not a shell: it provides the window, tabs, panes and appearance settings, while the actual command interpreter running inside a tab may be Command Prompt, PowerShell or a Linux shell under WSL. It neither replaces Explorer nor introduces a language of its own.",
-    "id": "GEN-TECH1-UII-049"
+    "id": "GEN-TECH1-UII-01a27a"
   },
   {
     "paper": "TECH1",
@@ -797,7 +797,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "PowerShell's cmdlets pass .NET objects along the pipeline instead of plain text, which is why it can do administrative work that batch files cannot. Command Prompt is retained mainly for compatibility with legacy batch scripts and is the effectively legacy option for new administrative scripting.",
-    "id": "GEN-TECH1-UII-050"
+    "id": "GEN-TECH1-UII-554e35"
   },
   {
     "paper": "TECH1",
@@ -813,7 +813,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "The Registry is a settings database organised into hives and keys, replacing the scattered INI files used by very early Windows versions. It records configuration only; program files live in Program Files and personal data lives in the user's profile folders.",
-    "id": "GEN-TECH1-UII-051"
+    "id": "GEN-TECH1-UII-dcf1c6"
   },
   {
     "paper": "TECH1",
@@ -829,7 +829,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "Registry Editor applies changes immediately with no undo and no validation, so a wrong value in a system key can leave Windows unbootable. Exporting the branch first, or creating a system restore point, gives you a way back.",
-    "id": "GEN-TECH1-UII-052"
+    "id": "GEN-TECH1-UII-efa5ba"
   },
   {
     "paper": "TECH1",
@@ -845,7 +845,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "The kernel is the core layer sitting between the hardware and everything else, handling process scheduling, memory management and device drivers through its device-driver and system-call interfaces. The shell is only a user-level program that asks the kernel to do this work on the user's behalf.",
-    "id": "GEN-TECH1-UII-053"
+    "id": "GEN-TECH1-UII-451c8a"
   },
   {
     "paper": "TECH1",
@@ -861,7 +861,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "The shell is the command interpreter: it reads a command line, locates the program, and asks the kernel to run it, which is why it is described as the layer between the user and the kernel. Memory allocation is the kernel's responsibility, not the shell's.",
-    "id": "GEN-TECH1-UII-054"
+    "id": "GEN-TECH1-UII-18025b"
   },
   {
     "paper": "TECH1",
@@ -877,7 +877,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "By the Filesystem Hierarchy Standard, /etc is the location for host-specific configuration files. /var holds variable data such as logs and spool files, /home holds users' personal directories, and /bin holds essential command binaries.",
-    "id": "GEN-TECH1-UII-055"
+    "id": "GEN-TECH1-UII-1574b8"
   },
   {
     "paper": "TECH1",
@@ -893,7 +893,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "Linux has a single rooted hierarchy: a second disk does not become a new lettered drive but appears as a directory such as /mnt/data once it is mounted. Linux supports multiple partitions and a full directory hierarchy just as Windows does; only the naming model differs.",
-    "id": "GEN-TECH1-UII-056"
+    "id": "GEN-TECH1-UII-2dcdce"
   },
   {
     "paper": "TECH1",
@@ -909,7 +909,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "pwd stands for 'print working directory' and outputs the absolute path of your current location. ls lists the contents of a directory, cd changes to a different one, and mkdir creates a new one.",
-    "id": "GEN-TECH1-UII-057"
+    "id": "GEN-TECH1-UII-b2635a"
   },
   {
     "paper": "TECH1",
@@ -925,7 +925,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "grep scans its input and prints only the lines that match the pattern given, for example grep error logfile.txt. cat displays a whole file without filtering it, chmod changes file permissions, and mv moves or renames files.",
-    "id": "GEN-TECH1-UII-058"
+    "id": "GEN-TECH1-UII-4e4bfd"
   },
   {
     "paper": "TECH1",
@@ -941,7 +941,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "Open source is about the availability of the source code and the rights granted over it, not about price; open-source software is still copyrighted and still licensed, and it may be sold or supported commercially. Software that is free of charge but keeps its source closed is freeware, which is a different thing.",
-    "id": "GEN-TECH1-UII-059"
+    "id": "GEN-TECH1-UII-3eb40e"
   },
   {
     "paper": "TECH1",
@@ -957,7 +957,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "All distributions share the same Linux kernel; what distinguishes them is the packaging, the package manager, the default software selection, the release cadence and the support arrangement, which may be community-based as with Debian or vendor-backed with paid subscriptions as with Red Hat Enterprise Linux.",
-    "id": "GEN-TECH1-UII-060"
+    "id": "GEN-TECH1-UII-2a069d"
   },
   {
     "paper": "TECH1",
@@ -973,7 +973,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "Lossless methods such as ZIP and PNG reconstruct the original bit for bit, which is essential for documents, programs and archives; lossy methods such as JPEG and MP3 throw away detail the eye or ear is unlikely to notice. Because it discards data, lossy compression normally achieves the smaller file, not the larger one.",
-    "id": "GEN-TECH1-UII-061"
+    "id": "GEN-TECH1-UII-fcdba3"
   },
   {
     "paper": "TECH1",
@@ -989,7 +989,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Compression works by removing redundancy, and a JPEG has already had most of its redundancy squeezed out, so a second pass gains almost nothing. ZIP handles any file type, but it can only shrink data that still contains repetition.",
-    "id": "GEN-TECH1-UII-062"
+    "id": "GEN-TECH1-UII-b93805"
   },
   {
     "paper": "TECH1",
@@ -1005,7 +1005,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "Full-volume encryption defends data at rest against physical theft of the disk; once Windows has unlocked the volume and the user has signed in, the files are readable as normal. Keeping one signed-in user out of another's files is the job of NTFS permissions and EFS, not BitLocker.",
-    "id": "GEN-TECH1-UII-063"
+    "id": "GEN-TECH1-UII-3279f1"
   },
   {
     "paper": "TECH1",
@@ -1021,7 +1021,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "EFS works at the level of the file or folder, using keys tied to a user's account so that other signed-in users cannot read the content; BitLocker works at the level of the whole volume and protects against the disk being removed. Neither protects data in transit, which is the role of protocols such as TLS.",
-    "id": "GEN-TECH1-UII-064"
+    "id": "GEN-TECH1-UII-9ad610"
   },
   {
     "paper": "TECH1",
@@ -1037,7 +1037,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "An incremental backup measures change from the most recent backup of any type, which keeps each run small and fast but means a restore needs the full backup plus every incremental since. Option C describes a differential backup, which always measures from the last full backup and therefore grows larger each day.",
-    "id": "GEN-TECH1-UII-065"
+    "id": "GEN-TECH1-UII-c2b870"
   },
   {
     "paper": "TECH1",
@@ -1053,7 +1053,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Media faults, silent job errors and incomplete file selections often surface only at restore time, so an untested backup is an assumption rather than a protection. This is why a recovery drill is treated as part of the backup process itself, alongside the practice of keeping copies on more than one medium and one of them off site.",
-    "id": "GEN-TECH1-UII-066"
+    "id": "GEN-TECH1-UII-37e17a"
   },
   {
     "paper": "TECH1",
@@ -1069,7 +1069,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "Deleting a file usually only marks its space as free; the data survives until something else is written over that space, so every further write reduces the chance of recovery. Defragmenting, formatting or running repair utilities all write to the drive and therefore make recovery less likely, not more.",
-    "id": "GEN-TECH1-UII-067"
+    "id": "GEN-TECH1-UII-8cb78c"
   },
   {
     "paper": "TECH1",
@@ -1085,7 +1085,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Previous Versions exposes older copies of a file or folder captured by shadow copies or restore points, so a file can be rolled back even if it was overwritten rather than deleted. The Recycle Bin only holds files that were deleted through Explorer and keeps just the one deleted copy, not a history of earlier versions.",
-    "id": "GEN-TECH1-UII-068"
+    "id": "GEN-TECH1-UII-b76c41"
   },
   {
     "paper": "TECH1",
@@ -1101,7 +1101,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "Device Manager is the console that lists the hardware attached to the computer along with its drivers, and it is where drivers are updated, rolled back, disabled or uninstalled. Event Viewer may record that the device failed, but it cannot manage the driver itself.",
-    "id": "GEN-TECH1-UII-069"
+    "id": "GEN-TECH1-UII-98f630"
   },
   {
     "paper": "TECH1",
@@ -1117,7 +1117,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "The yellow warning marker in Device Manager flags a device that Windows has detected but cannot use correctly, most often because its driver is missing, wrong or has failed to start. Power saving and network sharing are not shown by this marker at all.",
-    "id": "GEN-TECH1-UII-070"
+    "id": "GEN-TECH1-UII-c53dc2"
   },
   {
     "paper": "TECH1",
@@ -1133,7 +1133,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Disk Management is the console for disks, partitions and volumes, and it handles initialising a new disk, creating and formatting volumes, and assigning or changing drive letters. Device Manager would show that the disk hardware is present, but it cannot partition or format it.",
-    "id": "GEN-TECH1-UII-071"
+    "id": "GEN-TECH1-UII-8118c4"
   },
   {
     "paper": "TECH1",
@@ -1149,7 +1149,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "A basic disk is the standard disk type, organised into ordinary partitions, and it is what a newly initialised disk becomes by default. A dynamic disk is the alternative type that must be converted to before advanced layouts such as spanned volumes can be created.",
-    "id": "GEN-TECH1-UII-072"
+    "id": "GEN-TECH1-UII-c9a8d8"
   },
   {
     "paper": "TECH1",
@@ -1165,7 +1165,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "Task Manager lists the running applications and processes and provides the End task option that terminates a hung program immediately. Event Viewer would only record the crash afterwards, and Performance Monitor merely collects measurements without controlling processes.",
-    "id": "GEN-TECH1-UII-073"
+    "id": "GEN-TECH1-UII-6c9699"
   },
   {
     "paper": "TECH1",
@@ -1181,7 +1181,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "The Startup tab shows the programs that launch at sign-in together with their impact on boot time, and lets each one be enabled or disabled. The Processes and Details tabs list what is running at this moment, which is not the same as what is set to start later.",
-    "id": "GEN-TECH1-UII-074"
+    "id": "GEN-TECH1-UII-b3548b"
   },
   {
     "paper": "TECH1",
@@ -1197,7 +1197,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "Resource Monitor drills down per process and per resource, listing the individual files a process is reading or writing and the network connections it holds. Task Manager will show that disk usage is high and which process is busiest, but it does not name the files involved.",
-    "id": "GEN-TECH1-UII-075"
+    "id": "GEN-TECH1-UII-8fce8e"
   },
   {
     "paper": "TECH1",
@@ -1213,7 +1213,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Resource Monitor sits between the quick summary of Task Manager and long-term logging, giving a detailed live breakdown of CPU, disk, network and memory activity attributed to individual processes. Listing hardware is Device Manager's job, storing logs is Event Viewer's, and long-term counter logging is what Performance Monitor is designed for.",
-    "id": "GEN-TECH1-UII-076"
+    "id": "GEN-TECH1-UII-f1b9cf"
   },
   {
     "paper": "TECH1",
@@ -1229,7 +1229,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "Event Viewer keeps the timestamped logs of errors, warnings and information messages raised by Windows and applications, so it is the standard first place to look after an unexplained failure. Task Manager only shows the present moment and keeps no history of what happened overnight.",
-    "id": "GEN-TECH1-UII-077"
+    "id": "GEN-TECH1-UII-2c1a61"
   },
   {
     "paper": "TECH1",
@@ -1245,7 +1245,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "The Security log holds audit records such as successful and failed logon attempts and other access events, which makes it the log examined during a security investigation. The System log records events raised by Windows components and drivers, and the Application log records events raised by installed programs.",
-    "id": "GEN-TECH1-UII-078"
+    "id": "GEN-TECH1-UII-feccb5"
   },
   {
     "paper": "TECH1",
@@ -1261,7 +1261,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Disabled blocks the service from starting by any means until an administrator changes the startup type back. Manual is the type that keeps the service stopped at boot but still allows it to be started on demand, which is the distinction being tested.",
-    "id": "GEN-TECH1-UII-079"
+    "id": "GEN-TECH1-UII-319789"
   },
   {
     "paper": "TECH1",
@@ -1277,7 +1277,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "Services are long-running background programs, such as the print spooler or a database engine, that present no window and are usually configured to start with the operating system rather than with a user session. A shortcut in the Startup folder runs only after a particular user logs on and is an ordinary application, not a service.",
-    "id": "GEN-TECH1-UII-080"
+    "id": "GEN-TECH1-UII-fb44f9"
   },
   {
     "paper": "TECH1",
@@ -1293,7 +1293,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "Performance Monitor selects specific counters and logs their values over time, which is what makes long-term trend analysis and baselining possible. Task Manager and Resource Monitor both display live activity and are not intended to record weeks of data for later comparison.",
-    "id": "GEN-TECH1-UII-081"
+    "id": "GEN-TECH1-UII-f0793a"
   },
   {
     "paper": "TECH1",
@@ -1309,7 +1309,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "A baseline is a record of how the system behaves under normal conditions, and without it a later reading such as 70 per cent memory use cannot be judged as acceptable or alarming. Baselining measures the system; it neither cleans up disk space nor changes any configuration.",
-    "id": "GEN-TECH1-UII-082"
+    "id": "GEN-TECH1-UII-b5bde1"
   },
   {
     "paper": "TECH1",
@@ -1325,7 +1325,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "Every cmdlet is named as an approved verb followed by a hyphen and a singular noun, giving predictable names such as Get-Process, Get-Service and Stop-Service. This consistency lets an administrator guess a command's name from what it does, which is one of PowerShell's design goals.",
-    "id": "GEN-TECH1-UII-083"
+    "id": "GEN-TECH1-UII-97e1de"
   },
   {
     "paper": "TECH1",
@@ -1341,7 +1341,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "In PowerShell the output of one cmdlet is a set of objects with named properties, so the next cmdlet can filter or sort on those properties directly. Command Prompt pipes only a stream of characters, which is why text there has to be parsed with tools such as find before it can be used.",
-    "id": "GEN-TECH1-UII-084"
+    "id": "GEN-TECH1-UII-d51e44"
   },
   {
     "paper": "TECH1",
@@ -1357,7 +1357,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "A batch file is a plain text file of commands saved with the .bat extension, which the command interpreter then executes line by line. The .ps1 extension belongs to PowerShell scripts and .exe is a compiled program, neither of which is a batch file.",
-    "id": "GEN-TECH1-UII-085"
+    "id": "GEN-TECH1-UII-91240e"
   },
   {
     "paper": "TECH1",
@@ -1373,7 +1373,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "ECHO OFF stops the interpreter from printing each command before executing it, and the leading @ hides that line itself, giving clean output. The commands still run and their own output still appears, so this is not the same as suppressing all output.",
-    "id": "GEN-TECH1-UII-086"
+    "id": "GEN-TECH1-UII-147802"
   },
   {
     "paper": "TECH1",
@@ -1389,7 +1389,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "A template is a reusable starting document that already carries the required page setup, styles and boilerplate, so every new circular begins identically. Mail Merge is for producing many copies of one letter with different names and addresses, which is a different problem.",
-    "id": "GEN-TECH1-UIII-087"
+    "id": "GEN-TECH1-UIII-bacdb8"
   },
   {
     "paper": "TECH1",
@@ -1405,7 +1405,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Creating a document from a template copies the template's content and formatting into a fresh document, leaving the template untouched. To change the office standard you must open and edit the template file itself, not a document made from it.",
-    "id": "GEN-TECH1-UIII-088"
+    "id": "GEN-TECH1-UIII-80cd9e"
   },
   {
     "paper": "TECH1",
@@ -1421,7 +1421,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "SmartArt supplies pre-designed diagram layouts — lists, processes, cycles, hierarchies and relationship graphics — into which you type text. Plotting numeric data is the job of a chart, which is a separate feature.",
-    "id": "GEN-TECH1-UIII-089"
+    "id": "GEN-TECH1-UIII-f6578e"
   },
   {
     "paper": "TECH1",
@@ -1437,7 +1437,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "Word can convert selected list text directly into a SmartArt graphic, placing each bullet into a shape of the chosen layout, and the text stays editable afterwards. Drawing the shapes by hand gives the same look but is slow and the result is not linked to the list text.",
-    "id": "GEN-TECH1-UIII-090"
+    "id": "GEN-TECH1-UIII-8d3a2c"
   },
   {
     "paper": "TECH1",
@@ -1453,7 +1453,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "A cross-reference is a field that points at a captioned item, so when the document is updated it re-reads the item's current number and page. Text typed by hand, however it is formatted, does not change when the document does.",
-    "id": "GEN-TECH1-UIII-091"
+    "id": "GEN-TECH1-UIII-ec3b40"
   },
   {
     "paper": "TECH1",
@@ -1469,7 +1469,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "A footnote sits at the foot of the page carrying its reference mark, and Word renumbers footnotes automatically as they are added or removed. A note gathered at the end of the document is an endnote, and repeating text at the bottom of every page is the footer.",
-    "id": "GEN-TECH1-UIII-092"
+    "id": "GEN-TECH1-UIII-54e4aa"
   },
   {
     "paper": "TECH1",
@@ -1485,7 +1485,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Word collects the text of paragraphs formatted with heading styles and builds the contents list from them, with the style level deciding the indent level. A heading merely made bold and enlarged carries no style, so Word cannot see it and it will be left out.",
-    "id": "GEN-TECH1-UIII-093"
+    "id": "GEN-TECH1-UIII-6d9405"
   },
   {
     "paper": "TECH1",
@@ -1501,7 +1501,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "An automatic Table of Contents is a field, and a field shows the values captured when it was last built, so it must be updated to pick up new headings and changed pagination. It does not refresh continuously while you type, which is exactly why documents are so often issued with a stale contents page.",
-    "id": "GEN-TECH1-UIII-094"
+    "id": "GEN-TECH1-UIII-0d99a7"
   },
   {
     "paper": "TECH1",
@@ -1517,7 +1517,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "Each citation is attached to a stored source record, and the bibliography is generated from those records, so adding a citation adds its source to the list. Typing the list by hand defeats the feature and lets the text and the list drift apart.",
-    "id": "GEN-TECH1-UIII-095"
+    "id": "GEN-TECH1-UIII-b4a697"
   },
   {
     "paper": "TECH1",
@@ -1533,7 +1533,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "A citation style is a set of formatting conventions for references, and selecting one reformats every citation and the whole bibliography consistently. They control presentation of sources only; they have nothing to do with how the file is saved.",
-    "id": "GEN-TECH1-UIII-096"
+    "id": "GEN-TECH1-UIII-c93643"
   },
   {
     "paper": "TECH1",
@@ -1549,7 +1549,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Track Changes records every insertion, deletion and formatting change as a revision mark, so the author can go through them one by one and accept or reject each. The text only really goes when the deletion is accepted.",
-    "id": "GEN-TECH1-UIII-097"
+    "id": "GEN-TECH1-UIII-3ff1b8"
   },
   {
     "paper": "TECH1",
@@ -1565,7 +1565,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "Revisions and comments are stored inside the file, so a recipient can display them and read internal remarks and rejected wording — a real risk in official correspondence. Accepting or rejecting all changes and removing comments before issue is the standard precaution.",
-    "id": "GEN-TECH1-UIII-098"
+    "id": "GEN-TECH1-UIII-a9faa5"
   },
   {
     "paper": "TECH1",
@@ -1581,7 +1581,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "Alt text carries the meaning of an image in words, so assistive software can convey it to a reader who cannot see the picture. It affects accessibility only, not the image's size, print quality or position.",
-    "id": "GEN-TECH1-UIII-099"
+    "id": "GEN-TECH1-UIII-2ae957"
   },
   {
     "paper": "TECH1",
@@ -1597,7 +1597,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Heading styles give the document a structure that screen readers can announce and navigate, which text merely made bold and large does not. Word's Accessibility Checker flags exactly these problems — missing headings, vague link text and reliance on colour — before the document is issued.",
-    "id": "GEN-TECH1-UIII-100"
+    "id": "GEN-TECH1-UIII-89e1ce"
   },
   {
     "paper": "TECH1",
@@ -1613,7 +1613,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "Co-authoring works because the file lives in cloud storage, so both people open the one copy and edits are synchronised as they type. Attachments and pen drives create separate copies that immediately diverge and then have to be reconciled by hand.",
-    "id": "GEN-TECH1-UIII-101"
+    "id": "GEN-TECH1-UIII-f4b741"
   },
   {
     "paper": "TECH1",
@@ -1629,7 +1629,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "Version history stores successive saved states of the same file, so a wrong or unwanted edit can be undone by restoring an earlier version. It records changes rather than restricting who may edit, which is the separate job of sharing permissions.",
-    "id": "GEN-TECH1-UIII-102"
+    "id": "GEN-TECH1-UIII-fd0b29"
   },
   {
     "paper": "TECH1",
@@ -1645,7 +1645,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "In eOffice the draft is attached to the electronic file and routed for approval, so the noting, the approval and the audit trail all stay inside the system. Sending the text by personal e-mail or a public link leaves no official record and takes departmental content outside the government network.",
-    "id": "GEN-TECH1-UIII-103"
+    "id": "GEN-TECH1-UIII-c35c46"
   },
   {
     "paper": "TECH1",
@@ -1661,7 +1661,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "PDF preserves fonts, pagination and layout wherever it is opened and is the usual format for a signed, final record, so what is signed is exactly what the recipient sees. Being harder to alter than an editable Word file is a reason for using it, not against it.",
-    "id": "GEN-TECH1-UIII-104"
+    "id": "GEN-TECH1-UIII-68def3"
   },
   {
     "paper": "TECH1",
@@ -1677,7 +1677,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "An AI assistant produces suggested drafts, summaries and rewordings from a user's instruction, and responsibility for accuracy stays with the officer who signs the document. It goes well beyond a spelling checker, but its output can be wrong or invented and therefore always needs checking.",
-    "id": "GEN-TECH1-UIII-105"
+    "id": "GEN-TECH1-UIII-0f25a2"
   },
   {
     "paper": "TECH1",
@@ -1693,7 +1693,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "Anything pasted into a public AI service is sent to an outside provider and may be stored there, so official records and personal data must not be put into one. Formatting problems are trivial by comparison and easily fixed after the text is brought back.",
-    "id": "GEN-TECH1-UIII-106"
+    "id": "GEN-TECH1-UIII-321e67"
   },
   {
     "paper": "TECH1",
@@ -1709,7 +1709,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "FALSE (or 0) asks VLOOKUP for an exact match, so an unmatched lookup value produces #N/A rather than a wrong answer. TRUE (or 1, or omitting the argument) is the approximate match, which returns the nearest lower value and requires the first column to be sorted in ascending order.",
-    "id": "GEN-TECH1-UIV-107"
+    "id": "GEN-TECH1-UIV-60b5a9"
   },
   {
     "paper": "TECH1",
@@ -1725,7 +1725,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "VLOOKUP searches the leftmost column of its table and can only return a value from a column further right, so it fails when the required value sits to the left of the key. INDEX with MATCH separates the search from the retrieval, so the returned column may lie on either side; VLOOKUP handles text perfectly well and can refer to other sheets, so those are not the reason.",
-    "id": "GEN-TECH1-UIV-108"
+    "id": "GEN-TECH1-UIV-b8c47e"
   },
   {
     "paper": "TECH1",
@@ -1741,7 +1741,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "PMT returns the constant payment for each period of a loan or investment. NPER returns how many periods are needed, RATE returns the interest rate per period, and FV returns the accumulated future value, so none of them gives the instalment amount.",
-    "id": "GEN-TECH1-UIV-109"
+    "id": "GEN-TECH1-UIV-26df6c"
   },
   {
     "paper": "TECH1",
@@ -1757,7 +1757,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "PV stands for present value and discounts a stream of future payments back to what it is worth now at the stated rate per period. The value at the end of the term is what FV returns, while NPER and RATE give the number of periods and the periodic rate respectively.",
-    "id": "GEN-TECH1-UIV-110"
+    "id": "GEN-TECH1-UIV-9f3c19"
   },
   {
     "paper": "TECH1",
@@ -1773,7 +1773,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "Data Validation with the List criterion attaches a drop-down of permitted entries to the cells and rejects anything outside that list, which is exactly how data-entry is constrained to valid values. Conditional Formatting can only colour a wrong entry after it has been typed; it cannot prevent it.",
-    "id": "GEN-TECH1-UIV-111"
+    "id": "GEN-TECH1-UIV-8757ac"
   },
   {
     "paper": "TECH1",
@@ -1789,7 +1789,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "The Input Message is a prompt that pops up when the cell is selected, so it guides the operator before anything is typed. The message that appears after a wrong entry and blocks or warns about it is the Error Alert, which is a separate tab in the same dialog box.",
-    "id": "GEN-TECH1-UIV-112"
+    "id": "GEN-TECH1-UIV-15529d"
   },
   {
     "paper": "TECH1",
@@ -1805,7 +1805,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Sorting a single selected column moves only that column's values while every other column stays where it is, silently breaking the link between each record's fields. Choosing to expand the selection instead keeps whole rows together, which is why that option should always be taken on a table of records.",
-    "id": "GEN-TECH1-UIV-113"
+    "id": "GEN-TECH1-UIV-e6df48"
   },
   {
     "paper": "TECH1",
@@ -1821,7 +1821,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "Advanced Filter reads its conditions from a criteria range written on the worksheet and can extract the matching rows to a different area instead of merely hiding the rest. AutoFilter already handles several columns, text values and hiding non-matching rows, so those are not the distinguishing features.",
-    "id": "GEN-TECH1-UIV-114"
+    "id": "GEN-TECH1-UIV-c96e04"
   },
   {
     "paper": "TECH1",
@@ -1837,7 +1837,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "A PivotTable groups a long list by a chosen field and aggregates the numeric fields automatically, so district-wise totals appear by dragging District into the Rows area and Amount into the Values area. Advanced Filter can only select rows that meet criteria; it does not aggregate them.",
-    "id": "GEN-TECH1-UIV-115"
+    "id": "GEN-TECH1-UIV-084c38"
   },
   {
     "paper": "TECH1",
@@ -1853,7 +1853,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "A pivot table works from a cached copy of the source data, so edits to the source appear only after a refresh. It does not update live the way an ordinary formula does, but it also does not need to be rebuilt, since Refresh re-reads the same source range.",
-    "id": "GEN-TECH1-UIV-116"
+    "id": "GEN-TECH1-UIV-5d1bee"
   },
   {
     "paper": "TECH1",
@@ -1869,7 +1869,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "A dashboard is a consolidated summary screen, usually built from pivot tables and charts driven by data held on other sheets, so a reader sees the important numbers at a glance. The raw records normally sit on a separate data sheet that feeds the dashboard rather than on the dashboard itself.",
-    "id": "GEN-TECH1-UIV-117"
+    "id": "GEN-TECH1-UIV-a4e74d"
   },
   {
     "paper": "TECH1",
@@ -1885,7 +1885,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "A slicer is a visual filter: each button represents a value of a field, and clicking it filters every pivot table or chart the slicer is connected to, which is what makes a dashboard interactive. Keeping headings on screen while scrolling is done with Freeze Panes instead.",
-    "id": "GEN-TECH1-UIV-118"
+    "id": "GEN-TECH1-UIV-50638a"
   },
   {
     "paper": "TECH1",
@@ -1901,7 +1901,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "Goal Seek works backwards from a desired formula result to the input value that produces it, for example finding the sales figure needed to reach a target profit. Scenario Manager only stores and displays sets of input values that the user supplies; it does not solve for one.",
-    "id": "GEN-TECH1-UIV-119"
+    "id": "GEN-TECH1-UIV-b815b3"
   },
   {
     "paper": "TECH1",
@@ -1917,7 +1917,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "Goal Seek changes a single variable cell to hit one target value and accepts no additional conditions, whereas Solver can vary several cells at once and honour constraints while maximising, minimising or targeting a result. Goal Seek needs a formula referring to the changing cell in order to work at all, so that is a requirement rather than a limitation.",
-    "id": "GEN-TECH1-UIV-120"
+    "id": "GEN-TECH1-UIV-921f7f"
   },
   {
     "paper": "TECH1",
@@ -1933,7 +1933,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Power Query is the get-and-transform layer of Excel: it imports data from files, databases and other sources and lets the user remove, split, filter and reshape columns before loading the tidied result. Summarising with rows, columns and values areas is what a pivot table does after the data has been loaded.",
-    "id": "GEN-TECH1-UIV-121"
+    "id": "GEN-TECH1-UIV-49c48a"
   },
   {
     "paper": "TECH1",
@@ -1949,7 +1949,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "Power Query records each transformation as a step in the query, so a refresh re-runs the whole sequence against the current source data, which is why it suits reports that must be produced repeatedly. This repeatability is the main advantage over cleaning the data manually every month.",
-    "id": "GEN-TECH1-UIV-122"
+    "id": "GEN-TECH1-UIV-c62764"
   },
   {
     "paper": "TECH1",
@@ -1965,7 +1965,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "Power Pivot holds a data model in which multiple tables are linked by relationships, so figures can be summarised across tables without pulling everything into one sheet with lookup formulas, and it copes with far larger datasets than a plain worksheet. Importing and cleaning the data is Power Query's job; Power Pivot is what models and analyses it afterwards.",
-    "id": "GEN-TECH1-UIV-123"
+    "id": "GEN-TECH1-UIV-341267"
   },
   {
     "paper": "TECH1",
@@ -1981,7 +1981,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "DAX, short for Data Analysis Expressions, is the language of calculated columns and measures in the Power Pivot data model. VBA is the language behind Excel macros and is not used for data-model calculations.",
-    "id": "GEN-TECH1-UIV-124"
+    "id": "GEN-TECH1-UIV-cdfbbf"
   },
   {
     "paper": "TECH1",
@@ -1997,7 +1997,7 @@
     "ans": "C",
     "conf": "high",
     "exp": ".xlsm is the macro-enabled workbook format and is the one that stores the VBA code along with the sheets. Saving the same workbook as .xlsx discards the macros, because the ordinary workbook format is defined not to carry executable code.",
-    "id": "GEN-TECH1-UIV-125"
+    "id": "GEN-TECH1-UIV-653214"
   },
   {
     "paper": "TECH1",
@@ -2013,7 +2013,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "A macro is program code stored inside the file, and malicious macros are a well-known way of delivering malware, so Excel blocks them until the user confirms the source is trusted. File size and version compatibility are not the reason for the warning.",
-    "id": "GEN-TECH1-UIV-126"
+    "id": "GEN-TECH1-UIV-fb0375"
   },
   {
     "paper": "TECH1",
@@ -2029,7 +2029,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "Co-authoring requires the workbook to live in cloud storage such as OneDrive or SharePoint, after which several users can edit it simultaneously and see one another's changes and cell selections. Mailing attachments or keeping separate copies produces exactly the divergent versions that co-authoring is meant to avoid.",
-    "id": "GEN-TECH1-UIV-127"
+    "id": "GEN-TECH1-UIV-c28aba"
   },
   {
     "paper": "TECH1",
@@ -2045,7 +2045,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "Version History keeps earlier saved versions of a file held in OneDrive or SharePoint, so an older version can be opened, compared and restored long after the editing session has ended. Undo only reverses actions within the current session and is lost once the workbook is closed.",
-    "id": "GEN-TECH1-UIV-128"
+    "id": "GEN-TECH1-UIV-53e743"
   },
   {
     "paper": "TECH1",
@@ -2061,7 +2061,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Spreadsheet AI assistants take a natural-language question about a range and answer it by summarising the data, pointing out patterns and proposing formulas or charts the user can accept. They work on the data as given and cannot certify that it is accurate, so any suggested formula still has to be checked by the user before it is relied on.",
-    "id": "GEN-TECH1-UIV-129"
+    "id": "GEN-TECH1-UIV-30f726"
   },
   {
     "paper": "TECH1",
@@ -2077,7 +2077,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "Pasting official records into a public AI service transfers personal data to an outside provider that may retain or process it, which conflicts with the department's duty to keep such data confidential and within approved systems. The technical objections are not the issue, since such services can read tabular data perfectly well; the problem is where the data ends up.",
-    "id": "GEN-TECH1-UIV-130"
+    "id": "GEN-TECH1-UIV-fce404"
   },
   {
     "paper": "TECH1",
@@ -2093,7 +2093,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Process layouts show steps moving in one direction from a beginning to an end, which is exactly a start-to-finish workflow. Cycle is the tempting alternative, but it is meant for stages that return to the beginning and repeat, which a receipt-to-disposal sequence does not.",
-    "id": "GEN-TECH1-UV-131"
+    "id": "GEN-TECH1-UV-dd673f"
   },
   {
     "paper": "TECH1",
@@ -2109,7 +2109,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "Converting to SmartArt reuses the existing bullet text as the labels of the diagram's shapes, so a wall of bullets becomes a visual that shows how the points relate. The text is not discarded, and the conversion is reversible back to a bulleted list.",
-    "id": "GEN-TECH1-UV-132"
+    "id": "GEN-TECH1-UV-9a8d73"
   },
   {
     "paper": "TECH1",
@@ -2125,7 +2125,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "A pie chart shows parts of a single whole, so each head appears as its share of the total budget. Line and area charts are built to show movement over time, which is not what a one-year split of a total is about.",
-    "id": "GEN-TECH1-UV-133"
+    "id": "GEN-TECH1-UV-918a81"
   },
   {
     "paper": "TECH1",
@@ -2141,7 +2141,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "A linked chart keeps a connection to its source workbook, so updating the link brings the corrected data onto the slide. Pasting as a picture is a different choice and is the one that freezes the chart permanently.",
-    "id": "GEN-TECH1-UV-134"
+    "id": "GEN-TECH1-UV-48d711"
   },
   {
     "paper": "TECH1",
@@ -2157,7 +2157,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "A linked video is not stored inside the presentation, only pointed to, so the link breaks when the file travels without the media; embedding stores the video in the file itself and avoids this. A playback setting of 'On Click' would still play the video when clicked, so it does not explain a video that will not play at all.",
-    "id": "GEN-TECH1-UV-135"
+    "id": "GEN-TECH1-UV-30e841"
   },
   {
     "paper": "TECH1",
@@ -2173,7 +2173,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "'Play across slides' allows one clip to continue over slide changes, which is how background music is set up for a show. Stopping when the slide changes is the default behaviour that this option is chosen to override.",
-    "id": "GEN-TECH1-UV-136"
+    "id": "GEN-TECH1-UV-5c9ab6"
   },
   {
     "paper": "TECH1",
@@ -2189,7 +2189,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "Presenter View splits the two displays: the audience screen carries only the slide, while the extra information is kept on the presenter's own screen. Notes, the next slide and the timer are exactly the items that stay private to the speaker.",
-    "id": "GEN-TECH1-UV-137"
+    "id": "GEN-TECH1-UV-c9fdbc"
   },
   {
     "paper": "TECH1",
@@ -2205,7 +2205,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "Speaker notes, the elapsed-time clock, a timer and a preview of the next slide are the presenter-only part of Presenter View. Animations, the theme and the pictures are part of the slide itself and are therefore seen by the audience.",
-    "id": "GEN-TECH1-UV-138"
+    "id": "GEN-TECH1-UV-af3a02"
   },
   {
     "paper": "TECH1",
@@ -2221,7 +2221,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "Recording a presentation captures narration slide by slide and stores how long each slide was displayed, so the show can then advance and speak by itself. Presenter View is the opposite situation, since it assumes a live speaker standing at the machine.",
-    "id": "GEN-TECH1-UV-139"
+    "id": "GEN-TECH1-UV-780630"
   },
   {
     "paper": "TECH1",
@@ -2237,7 +2237,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Exporting to video turns the recorded show into a single playable file that carries both the timed slide sequence and the narration, so it can be watched without PowerPoint. A video is a finished playback file, not an editable copy of the slides.",
-    "id": "GEN-TECH1-UV-140"
+    "id": "GEN-TECH1-UV-c1caf7"
   },
   {
     "paper": "TECH1",
@@ -2253,7 +2253,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "Co-authoring is several people editing one cloud-stored file at the same time, with each person's edits visible to the others. Version history is a related collaboration feature but it looks backwards at earlier saved copies rather than allowing simultaneous editing.",
-    "id": "GEN-TECH1-UV-141"
+    "id": "GEN-TECH1-UV-e0fd6f"
   },
   {
     "paper": "TECH1",
@@ -2269,7 +2269,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "Version history keeps earlier saved states of the file so that wording removed in later editing can be recovered, which matters when several people are editing the same deck. It is about the content of past versions, not merely a record of who opened the file.",
-    "id": "GEN-TECH1-UV-142"
+    "id": "GEN-TECH1-UV-4407d5"
   },
   {
     "paper": "TECH1",
@@ -2285,7 +2285,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "Alt text is a short written description that assistive software reads out in place of the image, which is why accessible government presentations are expected to carry it on every meaningful picture and chart. It has nothing to do with compression, since file size is controlled separately.",
-    "id": "GEN-TECH1-UV-143"
+    "id": "GEN-TECH1-UV-27d119"
   },
   {
     "paper": "TECH1",
@@ -2301,7 +2301,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Assistive software works through a slide object by object in its stored reading order, so a title read after the body text leaves a listener without context. Animation order is a separate setting and changing it does not correct the order in which a screen reader reads the slide.",
-    "id": "GEN-TECH1-UV-144"
+    "id": "GEN-TECH1-UV-c5f011"
   },
   {
     "paper": "TECH1",
@@ -2317,7 +2317,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "The assistant takes a short description or list of topics and drafts the slides, headings and layout suggestions, which the author then edits. Turning slides back into an outline is the reverse operation and is a long-standing feature unrelated to AI generation.",
-    "id": "GEN-TECH1-UV-145"
+    "id": "GEN-TECH1-UV-c01851"
   },
   {
     "paper": "TECH1",
@@ -2333,7 +2333,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "Official records and personal data should not be entered into a public AI service, and anything it produces is a draft that must be checked for accuracy before it goes out in a government presentation. Assuming such a service is private by default is unsafe, because the data leaves the department's control once it is pasted in.",
-    "id": "GEN-TECH1-UV-146"
+    "id": "GEN-TECH1-UV-8621bf"
   },
   {
     "paper": "TECH2",
@@ -2349,7 +2349,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "A /26 leaves 6 host bits, so each subnet holds 2^6 = 64 addresses, of which the all-zeros network address and the all-ones broadcast address cannot be assigned, giving 62 usable hosts. 64 is the total block size, not the usable count - subtract 2 whenever the question asks for hosts.",
-    "id": "GEN-TECH2-UI-147"
+    "id": "GEN-TECH2-UI-07117d"
   },
   {
     "paper": "TECH2",
@@ -2365,7 +2365,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "The subnet mask is 32 bits of contiguous 1s over the network portion, and ANDing an address with it yields the network address; if the destination's network address matches the host's own, delivery is direct on the LAN, otherwise the packet goes to the default gateway. Address class is irrelevant here - subnetting moves the network/host boundary away from the classful position.",
-    "id": "GEN-TECH2-UI-148"
+    "id": "GEN-TECH2-UI-1a3478"
   },
   {
     "paper": "TECH2",
@@ -2381,7 +2381,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "The OSI layer and the address type are what separate the two: a switch reads MAC addresses from its MAC (CAM) table at the Data Link layer, while a router reads destination IP addresses from its routing table at the Network layer. Speed or the physical size of the device has nothing to do with the distinction.",
-    "id": "GEN-TECH2-UI-149"
+    "id": "GEN-TECH2-UI-55a170"
   },
   {
     "paper": "TECH2",
@@ -2397,7 +2397,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "Routers do not forward broadcasts, so each router interface bounds a separate broadcast domain. A switch breaks up collision domains but keeps all its ports in one broadcast domain unless VLANs are configured, and hubs and repeaters simply pass everything on.",
-    "id": "GEN-TECH2-UI-150"
+    "id": "GEN-TECH2-UI-5a8bce"
   },
   {
     "paper": "TECH2",
@@ -2413,7 +2413,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "Flooding an unknown unicast out of all other ports is normal switch behaviour, alongside learning and forwarding/filtering, and the switch learns the correct port when the reply comes back. Dropping the frame is what a router does when no route matches - a switch does not behave that way.",
-    "id": "GEN-TECH2-UI-151"
+    "id": "GEN-TECH2-UI-56eefe"
   },
   {
     "paper": "TECH2",
@@ -2429,7 +2429,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "Store-and-forward buffers the whole frame and verifies the frame check sequence, so it is the slowest method but never forwards a corrupt frame. Cut-through starts sending as soon as it has read the destination MAC and therefore forwards errors too, while fragment-free reads only the first 64 bytes as a compromise.",
-    "id": "GEN-TECH2-UI-152"
+    "id": "GEN-TECH2-UI-6aee80"
   },
   {
     "paper": "TECH2",
@@ -2445,7 +2445,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Routing table lookup uses longest prefix match, so the most specific route that covers the destination wins regardless of its position in the table. A router never floods - if nothing matches and there is no default route, it simply drops the packet.",
-    "id": "GEN-TECH2-UI-153"
+    "id": "GEN-TECH2-UI-be46ad"
   },
   {
     "paper": "TECH2",
@@ -2461,7 +2461,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "0.0.0.0/0 is the default route, the least specific entry possible, and in a typical office it points at the ISP link so that all unknown destinations leave through it. 127.0.0.1 is the loopback address and 255.255.255.255 is the limited broadcast address; neither appears as a forwarding destination.",
-    "id": "GEN-TECH2-UI-154"
+    "id": "GEN-TECH2-UI-ecd68f"
   },
   {
     "paper": "TECH2",
@@ -2477,7 +2477,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "A gateway converts - a VoIP gateway between IP telephony and the telephone network, an email gateway between an internal messaging system and SMTP - whereas a router simply forwards IP packets between IP networks. Because translation costs processing, a gateway is typically slower per packet than a router, and it is not confined to any one OSI layer.",
-    "id": "GEN-TECH2-UI-155"
+    "id": "GEN-TECH2-UI-85a7b1"
   },
   {
     "paper": "TECH2",
@@ -2493,7 +2493,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "The default gateway is the next-hop address a host uses for any destination outside its own subnet, and on almost every LAN that address belongs to a router interface. The name is historical - the default gateway is doing routing, not the protocol translation that defines a gateway in the strict sense.",
-    "id": "GEN-TECH2-UI-156"
+    "id": "GEN-TECH2-UI-91a81c"
   },
   {
     "paper": "TECH2",
@@ -2509,7 +2509,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Stateful inspection records each connection the inside initiates and derives permission for the reply traffic from that table. A stateless packet filter judges every packet in isolation on the five-tuple and therefore needs an explicit rule for the return direction; an antivirus scanner is not a firewall at all, as it inspects files for malware rather than permitting or blocking traffic.",
-    "id": "GEN-TECH2-UI-157"
+    "id": "GEN-TECH2-UI-ecd1af"
   },
   {
     "paper": "TECH2",
@@ -2525,7 +2525,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "Rules are evaluated top down and processing stops at the first match, which is why rule order changes behaviour and a broad allow placed above a narrow deny makes the deny useless. Anything reaching the end of the list without matching is dropped by the implicit deny-all.",
-    "id": "GEN-TECH2-UI-158"
+    "id": "GEN-TECH2-UI-094a39"
   },
   {
     "paper": "TECH2",
@@ -2541,7 +2541,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "An access point is a Layer 2 device that puts frames arriving over the radio onto the wired segment and vice versa, extending an existing LAN. Routing, DHCP and NAT belong to the wireless router sold for home use, which is a router plus a switch plus an AP bundled into one box.",
-    "id": "GEN-TECH2-UI-159"
+    "id": "GEN-TECH2-UI-1d502e"
   },
   {
     "paper": "TECH2",
@@ -2557,7 +2557,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Sharing one SSID across several cabled APs is exactly how roaming is provided - the client re-associates to whichever AP it hears best while staying on the same network. Halved throughput belongs to a repeater or mesh node relaying an existing signal; an AP with its own Ethernet uplink has no such penalty.",
-    "id": "GEN-TECH2-UI-160"
+    "id": "GEN-TECH2-UI-1a21f3"
   },
   {
     "paper": "TECH2",
@@ -2573,7 +2573,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "An A record holds an IPv4 address for a name, and AAAA does the same job for IPv6. A CNAME is only an alias pointing at another name rather than at an address, MX names the mail server for a domain, and PTR is used for reverse lookups from address back to name.",
-    "id": "GEN-TECH2-UI-161"
+    "id": "GEN-TECH2-UI-33d260"
   },
   {
     "paper": "TECH2",
@@ -2589,7 +2589,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "The namespace is hierarchical, so resolution walks down it - root, then the top-level domain, then the delegated zone's own name servers - and the recursive resolver does all that chasing on the client's behalf before returning one final answer. Only the domain's own name servers are authoritative; the resolver a client is configured with is not authoritative for anything.",
-    "id": "GEN-TECH2-UI-162"
+    "id": "GEN-TECH2-UI-48e0f2"
   },
   {
     "paper": "TECH2",
@@ -2605,7 +2605,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "The sequence is remembered as DORA: the client broadcasts a Discover because it has no address yet, a server replies with an Offer of an available address, the client broadcasts a Request accepting that particular offer, and the server sends an Acknowledge recording the lease. The client cannot Request before an Offer exists, which rules out the other orders.",
-    "id": "GEN-TECH2-UI-163"
+    "id": "GEN-TECH2-UI-0adf65"
   },
   {
     "paper": "TECH2",
@@ -2621,7 +2621,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "169.254.x.x is the APIPA range a Windows client assigns itself when no DHCP server answers, so it is a symptom of DHCP failure rather than of DHCP working. A reservation still comes out of the server's own scope and would appear as a normal address on the office subnet.",
-    "id": "GEN-TECH2-UI-164"
+    "id": "GEN-TECH2-UI-589ac1"
   },
   {
     "paper": "TECH2",
@@ -2637,7 +2637,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "Tunnelling carries the original packet, private addresses and all, as payload inside an outer packet between the two VPN endpoints, and encryption makes the captured traffic unreadable in transit. Encapsulation on its own gives private addressing but no confidentiality, so it is not a VPN.",
-    "id": "GEN-TECH2-UI-165"
+    "id": "GEN-TECH2-UI-f795b3"
   },
   {
     "paper": "TECH2",
@@ -2653,7 +2653,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "A site-to-site VPN joins two whole networks through gateway devices, so the tunnel is built between those devices and individual user machines need no client of their own. A remote-access VPN is the opposite case - one user's laptop or phone connecting in through client software.",
-    "id": "GEN-TECH2-UI-166"
+    "id": "GEN-TECH2-UI-555bbd"
   },
   {
     "paper": "TECH2",
@@ -2669,7 +2669,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "PAT rewrites the private source address to the router's public address and assigns each connection a unique source port, so the translation table can steer each reply back to the right internal host. Handing out separate public addresses from a pool is a different mechanism and would defeat the purpose of conserving IPv4 addresses.",
-    "id": "GEN-TECH2-UI-167"
+    "id": "GEN-TECH2-UI-670cff"
   },
   {
     "paper": "TECH2",
@@ -2685,7 +2685,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "NAT is a header rewrite: the connection itself is never broken and the payload is never examined, which is why NAT cannot cache or filter content. A proxy accepts the client's request as a server, then makes its own separate request outward, and that application-layer position is what lets it cache pages and block particular URLs.",
-    "id": "GEN-TECH2-UI-168"
+    "id": "GEN-TECH2-UI-a21063"
   },
   {
     "paper": "TECH2",
@@ -2701,7 +2701,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "A forward proxy acts on behalf of internal clients going out to the internet, which is what allows content filtering, per-user authentication, logging and caching to be enforced in one place. A reverse proxy is the opposite direction: it sits in front of servers and receives requests coming in.",
-    "id": "GEN-TECH2-UI-169"
+    "id": "GEN-TECH2-UI-615816"
   },
   {
     "paper": "TECH2",
@@ -2717,7 +2717,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "A proxy ends the client's connection and makes a fresh request of its own at the application layer, which is exactly why it can read, cache and filter the content it relays. NAT operates at the network layer and merely rewrites header addresses, letting the original connection continue, so it can do neither.",
-    "id": "GEN-TECH2-UI-170"
+    "id": "GEN-TECH2-UI-92e84d"
   },
   {
     "paper": "TECH2",
@@ -2733,7 +2733,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "802.11a is the 5 GHz standard, while 802.11b and 802.11g both work in 2.4 GHz, which is why 802.11a equipment is not compatible with b/g equipment. The alphabetical order misleads candidates into assuming 'a' came first and must therefore be the 2.4 GHz one.",
-    "id": "GEN-TECH2-UI-171"
+    "id": "GEN-TECH2-UI-e3b78c"
   },
   {
     "paper": "TECH2",
@@ -2749,7 +2749,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "802.11n, marketed as Wi-Fi 4, was the first amendment to work on both bands and the first to use MIMO for parallel data streams. 802.11ac (Wi-Fi 5) is a later standard but operates in the 5 GHz band only, so dual-band operation did not begin with it.",
-    "id": "GEN-TECH2-UI-172"
+    "id": "GEN-TECH2-UI-6339c6"
   },
   {
     "paper": "TECH2",
@@ -2765,7 +2765,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "The succession is WEP, then WPA, then WPA2, then WPA3, each correcting weaknesses in the one before. WEP is comprehensively broken and must never be configured, WPA was an interim fix using TKIP, WPA2 introduced AES-CCMP, and WPA3 replaces the pre-shared key handshake with SAE.",
-    "id": "GEN-TECH2-UI-173"
+    "id": "GEN-TECH2-UI-1508f3"
   },
   {
     "paper": "TECH2",
@@ -2781,7 +2781,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Enterprise mode authenticates every user separately through 802.1X against a RADIUS server, typically backed by Active Directory, so one employee's wireless access can be revoked by a single account change. AES-CCMP is not the difference: both Personal and Enterprise modes of WPA2 use it, and Personal simply shares one passphrase among all users.",
-    "id": "GEN-TECH2-UI-174"
+    "id": "GEN-TECH2-UI-2eb4ca"
   },
   {
     "paper": "TECH2",
@@ -2797,7 +2797,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "GSM is the dominant 2G family, the first digital generation, and it brought SIM cards, SMS and usable call encryption. It is regularly mis-offered as 3G, but 3G means UMTS/WCDMA and CDMA2000; GPRS and EDGE are data add-ons to 2G, not a separate generation.",
-    "id": "GEN-TECH2-UI-175"
+    "id": "GEN-TECH2-UI-5e7fb6"
   },
   {
     "paper": "TECH2",
@@ -2813,7 +2813,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "4G LTE is an all-IP network with no separate circuit-switched voice path, so calls run over the data network as VoLTE. Network slicing and millimetre wave are the defining additions of 5G, not 4G, and SIM cards and digital radio arrived with 2G.",
-    "id": "GEN-TECH2-UI-176"
+    "id": "GEN-TECH2-UI-5cc17b"
   },
   {
     "paper": "TECH2",
@@ -2829,7 +2829,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "A role is the main service a server provides and is added through Server Manager or PowerShell. A feature is a supporting component such as failover clustering or Windows Server Backup, so calling Hyper-V or AD DS a feature is the standard error.",
-    "id": "GEN-TECH2-UI-177"
+    "id": "GEN-TECH2-UI-05c9bc"
   },
   {
     "paper": "TECH2",
@@ -2845,7 +2845,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "In a workgroup every computer holds its own local account database, so there is no central authentication and no central policy; that is workable for a handful of PCs and unmanageable for fifty. A central account store, Group Policy and dependence on DNS service records all belong to a domain, which is why a government office network is always a domain.",
-    "id": "GEN-TECH2-UI-178"
+    "id": "GEN-TECH2-UI-e157f1"
   },
   {
     "paper": "TECH2",
@@ -2861,7 +2861,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "The order is Local, Site, Domain, Organisational Unit, remembered as LSDOU, and later processing overwrites earlier on a conflict, so the OU-level GPO normally wins. Candidates commonly reverse it and assume local policy is applied last, when in fact it is applied first and is overridden by everything above it.",
-    "id": "GEN-TECH2-UI-179"
+    "id": "GEN-TECH2-UI-b0d688"
   },
   {
     "paper": "TECH2",
@@ -2877,7 +2877,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "Computer Configuration applies to the machine whoever signs in to it and is processed at startup; User Configuration applies to the account wherever it signs in and is processed at logon. A setting placed in the wrong half does not raise an error, it simply never takes effect.",
-    "id": "GEN-TECH2-UI-180"
+    "id": "GEN-TECH2-UI-1d45bf"
   },
   {
     "paper": "TECH2",
@@ -2893,7 +2893,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "Permissions are assigned to security groups, and access is then granted or removed simply by changing group membership, which stays auditable a year later. A distribution group is a mailing list and can hold no permissions at all, and an organisational unit is a container for applying Group Policy and delegating administration, not something you grant folder rights to.",
-    "id": "GEN-TECH2-UI-181"
+    "id": "GEN-TECH2-UI-13e188"
   },
   {
     "paper": "TECH2",
@@ -2909,7 +2909,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "A local account lives in the SAM database of a single computer and works only there, which is why it suits a standalone machine or an emergency administrator login. A domain account lives in Active Directory and works on every domain-joined machine, with one password and one place to disable it when a staff member leaves.",
-    "id": "GEN-TECH2-UI-182"
+    "id": "GEN-TECH2-UI-b24821"
   },
   {
     "paper": "TECH2",
@@ -2925,7 +2925,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "When both sets are evaluated for network access, the more restrictive result wins, so Full Control on the share combined with Read on NTFS gives Read. Candidates often add the two together or take the more generous one; the rule is the opposite.",
-    "id": "GEN-TECH2-UI-183"
+    "id": "GEN-TECH2-UI-34bf39"
   },
   {
     "paper": "TECH2",
@@ -2941,7 +2941,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "Share permissions govern network access only and are set on the share as a whole, offering just Read, Change and Full Control. NTFS permissions are stored on the file system, are far finer grained, and restrict a user whether they come across the network or log on at the console, which is why only NTFS can control local access.",
-    "id": "GEN-TECH2-UI-184"
+    "id": "GEN-TECH2-UI-3fd2b8"
   },
   {
     "paper": "TECH2",
@@ -2957,7 +2957,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "RDP uses TCP port 3389. Port 443 is associated with RDS only indirectly, because an RD Gateway tunnels RDP inside HTTPS so that 3389 need never be exposed to the internet.",
-    "id": "GEN-TECH2-UI-185"
+    "id": "GEN-TECH2-UI-ad04b4"
   },
   {
     "paper": "TECH2",
@@ -2973,7 +2973,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "RemoteApp publishes an individual program that runs on the session host but appears in a normal window alongside the user's local applications. RD Gateway tunnels RDP inside HTTPS for external users, the Connection Broker directs users to the right session host and reconnects existing sessions, and RD Licensing issues the client access licences.",
-    "id": "GEN-TECH2-UI-186"
+    "id": "GEN-TECH2-UI-254b77"
   },
   {
     "paper": "TECH2",
@@ -2989,7 +2989,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "In IaaS the provider maintains the facility, hardware and hypervisor, while the customer installs and patches the operating system and application. Only from PaaS upwards does the provider take over OS and platform patching, and in every model the customer still remains responsible for his own data and user access.",
-    "id": "GEN-TECH2-UI-187"
+    "id": "GEN-TECH2-UI-20536d"
   },
   {
     "paper": "TECH2",
@@ -3005,7 +3005,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "A hybrid cloud joins public and private cloud so that workloads can move between them. A community cloud is different: it is shared by several organisations with a common requirement, such as a group of government departments, rather than combining two deployment models used by one organisation.",
-    "id": "GEN-TECH2-UI-188"
+    "id": "GEN-TECH2-UI-bcbb10"
   },
   {
     "paper": "TECH2",
@@ -3021,7 +3021,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "A VLAN is layer 2 segmentation, so ports in different VLANs are in separate broadcast domains and cannot reach each other even on the same switch; traffic between them must pass through a router or layer 3 switch. A trunk port is not the answer: it carries several tagged VLANs between switches but performs no routing.",
-    "id": "GEN-TECH2-UI-189"
+    "id": "GEN-TECH2-UI-51efca"
   },
   {
     "paper": "TECH2",
@@ -3037,7 +3037,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "A cloud security group is a stateful rule list attached to a subnet or a virtual machine's network interface, permitting or denying traffic by source, destination, protocol and port. It is not the same thing as an Active Directory security group of user accounts, and it does not replace a firewall appliance since it performs no deep inspection or content filtering.",
-    "id": "GEN-TECH2-UI-190"
+    "id": "GEN-TECH2-UI-bf2e83"
   },
   {
     "paper": "TECH2",
@@ -3053,7 +3053,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "A resource group is a management container that groups the resources of one application or department; access permissions are applied at group level and deleting the group deletes its contents. The billing boundary is the subscription, not the resource group, and every resource belongs to exactly one resource group.",
-    "id": "GEN-TECH2-UI-191"
+    "id": "GEN-TECH2-UI-c6efa5"
   },
   {
     "paper": "TECH2",
@@ -3069,7 +3069,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "Availability zones are physically separate data centres within one region, each with its own power, cooling and networking, so spreading across zones keeps the application running when one data centre fails. Surviving the loss of a whole region is a different scale of problem and requires deployment into a second region.",
-    "id": "GEN-TECH2-UI-192"
+    "id": "GEN-TECH2-UI-dec1b9"
   },
   {
     "paper": "TECH2",
@@ -3085,7 +3085,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "A trap travels from the agent on the device to the manager the moment an event happens, so a link failure is reported immediately instead of waiting for the next poll. Polling is the opposite direction — the manager queries the agent's MIB counters on a schedule.",
-    "id": "GEN-TECH2-UI-193"
+    "id": "GEN-TECH2-UI-994987"
   },
   {
     "paper": "TECH2",
@@ -3101,7 +3101,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "Baselining establishes what normal looks like, which is what makes an abnormal reading recognisable — without it, high utilisation cannot be distinguished from a merely busy period. Polling is the act of querying devices for counters and is how the baseline data is collected, not the recording of normal behaviour itself.",
-    "id": "GEN-TECH2-UI-194"
+    "id": "GEN-TECH2-UI-b879e0"
   },
   {
     "paper": "TECH2",
@@ -3117,7 +3117,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Tracert on Windows (traceroute on Linux) lists every router hop on the path to the destination, so the hop at which replies stop isolates the faulty link or router. Ping only reports end-to-end reachability and round-trip time; it says nothing about where along the path the failure occurs.",
-    "id": "GEN-TECH2-UI-195"
+    "id": "GEN-TECH2-UI-91985e"
   },
   {
     "paper": "TECH2",
@@ -3133,7 +3133,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "Nslookup queries DNS and shows whether the name resolves and which server answered, which is exactly the fault indicated when the IP address works but the name does not. Netstat lists active connections, listening ports and the routing table, and would not reveal a DNS failure.",
-    "id": "GEN-TECH2-UI-196"
+    "id": "GEN-TECH2-UI-1f3c84"
   },
   {
     "paper": "TECH2",
@@ -3149,7 +3149,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "TCL manages transactions, and its commands are COMMIT (make the changes permanent), ROLLBACK (undo them) and SAVEPOINT (mark a point for a partial rollback). GRANT and REVOKE are the tempting wrong pick: they are DCL, the Data Control Language used for privileges, not for transactions.",
-    "id": "GEN-TECH2-UII-197"
+    "id": "GEN-TECH2-UII-e8beb0"
   },
   {
     "paper": "TECH2",
@@ -3165,7 +3165,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "DELETE is a DML statement and its work stays inside the open transaction until COMMIT, so ROLLBACK undoes it. TRUNCATE is DDL, and a DDL statement issues an implicit commit that closes the transaction, which is why the rows are normally gone for good.",
-    "id": "GEN-TECH2-UII-198"
+    "id": "GEN-TECH2-UII-3ccd51"
   },
   {
     "paper": "TECH2",
@@ -3181,7 +3181,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "Only the query definition is stored, in the data dictionary; the rows are produced by running that query against the base tables each time the view is used. A temporary table is the tempting distractor, but it really holds rows for the session, whereas a view holds none at any time.",
-    "id": "GEN-TECH2-UII-199"
+    "id": "GEN-TECH2-UII-196b71"
   },
   {
     "paper": "TECH2",
@@ -3197,7 +3197,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "Granting privileges on a view rather than on the base table is a standard access-control mechanism: the view exposes only the chosen columns (or, with a WHERE clause, only the chosen rows) and the clerk never touches the base table. An index is a performance structure and grants no access at all.",
-    "id": "GEN-TECH2-UII-200"
+    "id": "GEN-TECH2-UII-f4712d"
   },
   {
     "paper": "TECH2",
@@ -3213,7 +3213,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "An index has to be kept in step with the table, so each additional index adds work to every write and occupies extra disk space. \"More indexes always make the database faster\" is the classic wrong answer; an index never alters the result of a query, only the time taken to get it.",
-    "id": "GEN-TECH2-UII-201"
+    "id": "GEN-TECH2-UII-d33ac5"
   },
   {
     "paper": "TECH2",
@@ -3229,7 +3229,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "A clustered index fixes the physical sequence of the rows themselves, and rows can be laid out in only one order at a time. A non-clustered index is a separate structure of key values and row pointers, so a table may carry many of those.",
-    "id": "GEN-TECH2-UII-202"
+    "id": "GEN-TECH2-UII-b6ec8b"
   },
   {
     "paper": "TECH2",
@@ -3245,7 +3245,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "A procedure is invoked by name with CALL or EXECUTE and does nothing until something asks for it; a trigger is attached to a table and is set off by an INSERT, UPDATE or DELETE without the application asking. Both live and run on the database server, so the client-versus-server option is wrong.",
-    "id": "GEN-TECH2-UII-203"
+    "id": "GEN-TECH2-UII-778ed2"
   },
   {
     "paper": "TECH2",
@@ -3261,7 +3261,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "Granting EXECUTE lets a user touch the data only in the controlled ways the procedure allows, while the tables themselves stay closed to them, and passing values as parameters also resists SQL injection. Procedures neither encrypt data nor log activity by themselves; that is the work of encryption and auditing.",
-    "id": "GEN-TECH2-UII-204"
+    "id": "GEN-TECH2-UII-b827a4"
   },
   {
     "paper": "TECH2",
@@ -3277,7 +3277,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "Reading uncommitted data that is later rolled back is a dirty read, also called an uncommitted dependency, because T2 has acted on a value that never really existed. A non-repeatable read is different: there the second transaction did commit, and the problem is that a re-read of the same row now returns a different value.",
-    "id": "GEN-TECH2-UII-205"
+    "id": "GEN-TECH2-UII-5ea27d"
   },
   {
     "paper": "TECH2",
@@ -3293,7 +3293,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Two-phase locking divides a transaction into a growing phase, where locks may only be taken, and a shrinking phase, where they may only be released; once any lock has been released no further lock may be acquired, and this guarantees a serialisable schedule. Option D describes two-phase commit, a distributed-transaction protocol with a confusingly similar name.",
-    "id": "GEN-TECH2-UII-206"
+    "id": "GEN-TECH2-UII-c2e344"
   },
   {
     "paper": "TECH2",
@@ -3309,7 +3309,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "Authentication answers \"who are you?\" and always comes first; authorization, enforced through GRANT and REVOKE, then answers \"what may you do?\". A user can be perfectly authenticated and still be authorized for nothing at all.",
-    "id": "GEN-TECH2-UII-207"
+    "id": "GEN-TECH2-UII-6596ac"
   },
   {
     "paper": "TECH2",
@@ -3325,7 +3325,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "Delegating identity checking to the operating system or directory service means password strength, expiry, lockout and account removal are managed once for the whole organisation, and the user connects without retyping a password. Authorization is unaffected: those directory identities still have to be mapped to logins and granted privileges.",
-    "id": "GEN-TECH2-UII-208"
+    "id": "GEN-TECH2-UII-10d43a"
   },
   {
     "paper": "TECH2",
@@ -3341,7 +3341,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "TDE encrypts the whole datafile and its backups at the storage layer, so a stolen disk or backup tape is unreadable, but the engine decrypts pages transparently for anyone who logs in legitimately. Hiding a value from an authorised or privileged user querying the table requires column-level encryption instead, and network traffic needs TLS.",
-    "id": "GEN-TECH2-UII-209"
+    "id": "GEN-TECH2-UII-935705"
   },
   {
     "paper": "TECH2",
@@ -3357,7 +3357,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Ciphertext is only as safe as its key, so an attacker who takes the server must not take both halves; keys belong in a separate protected store with rotation and their own backup, because losing the key makes the data permanently unrecoverable. Storing the key beside the data, in the database or in a file on the same machine, defeats the whole exercise.",
-    "id": "GEN-TECH2-UII-210"
+    "id": "GEN-TECH2-UII-ed0abf"
   },
   {
     "paper": "TECH2",
@@ -3373,7 +3373,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "An audit trail records who did what, to which object, and when — including failed attempts — so that every action is attributable to a named account, but it stops nothing by itself. Preventing an unauthorised action is authorization's job, and restoring lost rows is backup and recovery's.",
-    "id": "GEN-TECH2-UII-211"
+    "id": "GEN-TECH2-UII-e17320"
   },
   {
     "paper": "TECH2",
@@ -3389,7 +3389,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "The transaction log is consumed by the recovery manager to redo committed and undo uncommitted work; the audit trail is read by people to establish accountability and support forensic investigation. Option B states the correct facts with the two names swapped, which is exactly the trap. Neither file substitutes for the other.",
-    "id": "GEN-TECH2-UII-212"
+    "id": "GEN-TECH2-UII-cc91bb"
   },
   {
     "paper": "TECH2",
@@ -3405,7 +3405,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "SQL Server is Microsoft's commercially licensed relational product, and Transact-SQL is its dialect for stored procedures, triggers and functions. The name misleads: SQL is a language every RDBMS uses, so calling the product \"SQL Server\" does not make it the only one that speaks SQL.",
-    "id": "GEN-TECH2-UII-213"
+    "id": "GEN-TECH2-UII-b62bf7"
   },
   {
     "paper": "TECH2",
@@ -3421,7 +3421,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "SSMS is Microsoft's graphical administration and query environment for SQL Server. pgAdmin and psql belong to PostgreSQL, and MS Access is a separate desktop database product, not the management console for a SQL Server instance.",
-    "id": "GEN-TECH2-UII-214"
+    "id": "GEN-TECH2-UII-7939bd"
   },
   {
     "paper": "TECH2",
@@ -3437,7 +3437,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "PostgreSQL is community-governed and released under a permissive open-source licence, and it is called object-relational because it adds user-defined types, table inheritance, arrays and JSON on top of ordinary relational tables. Open source means no licence fee and no vendor lock-in, not that running it costs nothing at all.",
-    "id": "GEN-TECH2-UII-215"
+    "id": "GEN-TECH2-UII-c35a73"
   },
   {
     "paper": "TECH2",
@@ -3453,7 +3453,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "Storing semi-structured documents is one of PostgreSQL's object-relational extras, and the engine still enforces the relational model and full ACID transactions. Relational products supporting JSON is exactly why the SQL/NoSQL line has blurred, but it does not reclassify PostgreSQL as a NoSQL store.",
-    "id": "GEN-TECH2-UII-216"
+    "id": "GEN-TECH2-UII-1ac47f"
   },
   {
     "paper": "TECH2",
@@ -3469,7 +3469,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "A graph database treats nodes and the relationships between them as first-class objects, so following connections is direct rather than a chain of joins — Neo4j is the standard example, and fraud-ring detection and recommendation are the same shape of problem. A key-value store fetches a value by its key alone and has no notion of relationships between entries.",
-    "id": "GEN-TECH2-UII-217"
+    "id": "GEN-TECH2-UII-c1ac1e"
   },
   {
     "paper": "TECH2",
@@ -3485,7 +3485,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "BASE stands for Basically Available, Soft state, Eventual consistency, so consistency is reached after a short delay rather than guaranteed at the instant of the read. A relational ACID system guarantees you read exactly what you just wrote, which is why money, ledgers and other integrity-critical data still belong there.",
-    "id": "GEN-TECH2-UII-218"
+    "id": "GEN-TECH2-UII-3573d6"
   },
   {
     "paper": "TECH2",
@@ -3501,7 +3501,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "DNS is the naming service that maps human-readable domain names to the numeric IP addresses that computers actually use to connect, so the browser can reach the correct server. Encryption of the connection is done by HTTPS/TLS, which is a separate mechanism from name resolution.",
-    "id": "GEN-TECH2-UIII-219"
+    "id": "GEN-TECH2-UIII-bf8436"
   },
   {
     "paper": "TECH2",
@@ -3517,7 +3517,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "Domain names are read from right to left, so the last label, in, is the top-level domain, in this case India's country-code TLD. Under it, gov.in is the second-level domain reserved for government bodies, while www is only a host label at the front of the name.",
-    "id": "GEN-TECH2-UIII-220"
+    "id": "GEN-TECH2-UIII-1cbb0b"
   },
   {
     "paper": "TECH2",
@@ -3533,7 +3533,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "When a browser loads a page it builds the DOM, a tree of objects in which each element, attribute and piece of text is a node that JavaScript can inspect, modify, add or remove, with the display updating immediately. Controlling layout and appearance is the job of CSS, which is a separate language from the DOM.",
-    "id": "GEN-TECH2-UIII-221"
+    "id": "GEN-TECH2-UIII-c2e270"
   },
   {
     "paper": "TECH2",
@@ -3549,7 +3549,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "An event listener registers a function that the browser calls when a named event, such as a click, key press or form submission, occurs on the element, which is how a page responds to the user without reloading. Downloading and rendering the page itself happens before any listener fires and is not what a listener controls.",
-    "id": "GEN-TECH2-UIII-222"
+    "id": "GEN-TECH2-UIII-5a8a5f"
   },
   {
     "paper": "TECH2",
@@ -3565,7 +3565,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "GET simply requests a copy of the resource identified by the URL and is meant to be safe, that is, repeating it leaves the data on the server unchanged. POST is used to send new data to the server and may create a record each time it is repeated, so it is not a read-only method.",
-    "id": "GEN-TECH2-UIII-223"
+    "id": "GEN-TECH2-UIII-4eb90e"
   },
   {
     "paper": "TECH2",
@@ -3581,7 +3581,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Statelessness means every request is self-contained, carrying its own identification and parameters, so any server in a pool can handle it and nothing about the previous request needs to be remembered. Keeping a per-client session on the server is exactly the stateful behaviour that REST avoids.",
-    "id": "GEN-TECH2-UIII-224"
+    "id": "GEN-TECH2-UIII-a2e79d"
   },
   {
     "paper": "TECH2",
@@ -3597,7 +3597,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "JSON stands for JavaScript Object Notation, a lightweight text format for exchanging data, most commonly between a web page and a server. It has nothing to do with the Java language, which is a different language from JavaScript.",
-    "id": "GEN-TECH2-UIII-225"
+    "id": "GEN-TECH2-UIII-7e4fd2"
   },
   {
     "paper": "TECH2",
@@ -3613,7 +3613,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "JSON only borrowed its notation from JavaScript; it is a language-independent text format, and Python, Java, C#, PHP and most other languages have built-in support for reading and writing it. Because it is plain text made up of objects, arrays, strings, numbers, true, false and null, it can also be opened in any ordinary text editor.",
-    "id": "GEN-TECH2-UIII-226"
+    "id": "GEN-TECH2-UIII-832217"
   },
   {
     "paper": "TECH2",
@@ -3629,7 +3629,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "A PWA is an ordinary web app, delivered over the web and built with HTML, CSS and JavaScript, that additionally can be added to the home screen, run in its own window, work offline and show notifications, so it bridges the gap between web and native apps. Generating HTML on the server describes a conventional dynamic website, which is not what makes an app 'progressive'.",
-    "id": "GEN-TECH2-UIII-227"
+    "id": "GEN-TECH2-UIII-ae2212"
   },
   {
     "paper": "TECH2",
@@ -3645,7 +3645,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "A service worker is a script the browser runs in the background, separate from the page, which can intercept network requests and answer them from a local cache, allowing the app to open and function offline. A style sheet only controls appearance and cannot supply the app's data or pages.",
-    "id": "GEN-TECH2-UIII-228"
+    "id": "GEN-TECH2-UIII-6c34f4"
   },
   {
     "paper": "TECH2",
@@ -3661,7 +3661,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "WCAG groups its requirements under Perceivable, Operable, Understandable and Robust, often remembered as POUR, covering things such as text alternatives for images, full keyboard operation, clear language and adequate colour contrast. The other lists mix in performance and design terms that are not accessibility principles.",
-    "id": "GEN-TECH2-UIII-229"
+    "id": "GEN-TECH2-UIII-69feb2"
   },
   {
     "paper": "TECH2",
@@ -3677,7 +3677,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "The Rights of Persons with Disabilities Act, 2016 obliges the government to ensure that information and communication technology, including websites and electronic services, is accessible, and the Guidelines for Indian Government Websites (GIGW) set out how departments should meet this in practice. The Information Technology Act deals with electronic records, digital signatures and cyber offences, not accessibility.",
-    "id": "GEN-TECH2-UIII-230"
+    "id": "GEN-TECH2-UIII-5037b2"
   },
   {
     "paper": "TECH2",
@@ -3693,7 +3693,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "The padlock only means the traffic is protected by TLS, so data such as passwords cannot be read or altered in transit by anyone intercepting the connection. It says nothing about whether the site itself is honest, and fraudulent sites can and do obtain valid certificates, so a padlock is not a guarantee of trustworthiness.",
-    "id": "GEN-TECH2-UIII-231"
+    "id": "GEN-TECH2-UIII-f4d9a9"
   },
   {
     "paper": "TECH2",
@@ -3709,7 +3709,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "In SQL injection the attacker supplies input that the application pastes straight into a database query, so the input is executed as instructions and can reveal or destroy data; the defence is to validate input and use parameterised queries on the server, never relying on browser-side checks alone. Overwhelming a server with traffic is a denial-of-service attack, which is a different category of threat.",
-    "id": "GEN-TECH2-UIII-232"
+    "id": "GEN-TECH2-UIII-508c38"
   },
   {
     "paper": "TECH2",
@@ -3725,7 +3725,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Integrity means data must remain accurate and unaltered except by authorised change, so tampering with stored figures is an integrity breach. Confidentiality would be the answer only if the attacker had merely read or disclosed the data without changing it.",
-    "id": "GEN-TECH2-UIV-233"
+    "id": "GEN-TECH2-UIV-42c228"
   },
   {
     "paper": "TECH2",
@@ -3741,7 +3741,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "Least privilege restricts every user, process or account to the minimum permissions required for its task, limiting the damage if that account is misused. Separation of duties is different: it splits one sensitive task between two people so no single person can complete it alone.",
-    "id": "GEN-TECH2-UIV-234"
+    "id": "GEN-TECH2-UIV-4bc742"
   },
   {
     "paper": "TECH2",
@@ -3757,7 +3757,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "Non-repudiation provides proof of origin that the sender cannot credibly disown, which is why digital signatures are given legal recognition under the IT Act. Access control decides who may reach a resource, but it says nothing about proving after the fact who performed an action.",
-    "id": "GEN-TECH2-UIV-235"
+    "id": "GEN-TECH2-UIV-2a96da"
   },
   {
     "paper": "TECH2",
@@ -3773,7 +3773,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "Ransomware's defining behaviour is encrypting or locking the victim's data and extorting a payment to release it. Spyware also runs secretly, but its purpose is to collect and transmit information rather than to deny the owner access to it.",
-    "id": "GEN-TECH2-UIV-236"
+    "id": "GEN-TECH2-UIV-df4f84"
   },
   {
     "paper": "TECH2",
@@ -3789,7 +3789,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "A Trojan horse is defined by disguise: the user is tricked into installing it because it looks legitimate. A worm needs no such disguise and no user action at all, since it spreads by itself across a network.",
-    "id": "GEN-TECH2-UIV-237"
+    "id": "GEN-TECH2-UIV-858c31"
   },
   {
     "paper": "TECH2",
@@ -3805,7 +3805,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "Phishing uses a forged but convincing message to persuade the victim to hand over credentials or open a malicious link. A denial-of-service attack is aimed at making a service unavailable, not at deceiving a user into revealing a password.",
-    "id": "GEN-TECH2-UIV-238"
+    "id": "GEN-TECH2-UIV-b7a26e"
   },
   {
     "paper": "TECH2",
@@ -3821,7 +3821,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "A firewall sits at a network boundary and permits or blocks traffic by comparing it with a configured rule set (addresses, ports, protocols, connection state). Encryption of traffic is the job of protocols such as TLS or a VPN, which is a separate function from filtering.",
-    "id": "GEN-TECH2-UIV-239"
+    "id": "GEN-TECH2-UIV-8ea141"
   },
   {
     "paper": "TECH2",
@@ -3837,7 +3837,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "Stateful inspection maintains a connection table, so a reply packet is allowed only if it belongs to a session the firewall has already seen being established. A plain packet filter has no such memory and decides on each packet's header fields in isolation.",
-    "id": "GEN-TECH2-UIV-240"
+    "id": "GEN-TECH2-UIV-344ddf"
   },
   {
     "paper": "TECH2",
@@ -3853,7 +3853,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "Default-deny (implicit deny) means anything not matched by an allow rule is dropped, which is the recommended secure baseline. A default-allow policy is the opposite and leaves any service the administrator forgot to block exposed.",
-    "id": "GEN-TECH2-UIV-241"
+    "id": "GEN-TECH2-UIV-07bbc9"
   },
   {
     "paper": "TECH2",
@@ -3869,7 +3869,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "A signature is a pattern extracted from known malware, so detection depends on the local signature database being kept up to date. This is also its weakness: a sample the vendor has not yet catalogued will not match any signature.",
-    "id": "GEN-TECH2-UIV-242"
+    "id": "GEN-TECH2-UIV-23544a"
   },
   {
     "paper": "TECH2",
@@ -3885,7 +3885,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "Heuristic and behavioural engines flag suspicious actions such as mass file encryption or injection into system processes, so they can catch malware that has no signature yet. Quarantine is only where a file is isolated after it has already been detected.",
-    "id": "GEN-TECH2-UIV-243"
+    "id": "GEN-TECH2-UIV-0daa2b"
   },
   {
     "paper": "TECH2",
@@ -3901,7 +3901,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "EDR is Endpoint Detection and Response: it continuously records endpoint activity so an administrator can detect, investigate and respond to an intrusion, going beyond the block-or-clean model of classic antivirus. The other expansions are not standard security terms.",
-    "id": "GEN-TECH2-UIV-244"
+    "id": "GEN-TECH2-UIV-e3031c"
   },
   {
     "paper": "TECH2",
@@ -3917,7 +3917,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "Two-factor authentication needs evidence from two different categories, and a password (something you know) with an OTP on a registered phone (something you have) qualifies. A password with a PIN or a security answer is still two pieces of remembered knowledge, so it remains single-factor.",
-    "id": "GEN-TECH2-UIV-245"
+    "id": "GEN-TECH2-UIV-d3e2a3"
   },
   {
     "paper": "TECH2",
@@ -3933,7 +3933,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Biometrics such as fingerprint, iris or face are inherence factors: something you are. A smart card or an OTP token would be a possession factor, something you have.",
-    "id": "GEN-TECH2-UIV-246"
+    "id": "GEN-TECH2-UIV-aae051"
   },
   {
     "paper": "TECH2",
@@ -3949,7 +3949,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "MFA's value is that a leaked, guessed or phished password is no longer sufficient by itself, because the attacker also lacks the registered device or biometric. It does not encrypt stored data and does not make password reuse safe, since a reused password still exposes every other account.",
-    "id": "GEN-TECH2-UIV-247"
+    "id": "GEN-TECH2-UIV-9a79bf"
   },
   {
     "paper": "TECH2",
@@ -3965,7 +3965,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "Symmetric encryption uses one shared secret key for both operations, which makes it fast but creates the problem of distributing that key securely. A related public and private key pair is the defining feature of asymmetric (public-key) encryption instead.",
-    "id": "GEN-TECH2-UIV-248"
+    "id": "GEN-TECH2-UIV-5e2d7b"
   },
   {
     "paper": "TECH2",
@@ -3981,7 +3981,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "RSA is a public-key algorithm built on a public/private key pair and is widely used for key exchange and digital signatures. AES, 3DES and Blowfish are all symmetric block ciphers that use a single shared key.",
-    "id": "GEN-TECH2-UIV-249"
+    "id": "GEN-TECH2-UIV-c5a2f8"
   },
   {
     "paper": "TECH2",
@@ -3997,7 +3997,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "Full-disk encryption keeps the stored contents unreadable to anyone who cannot supply the key, which is why it is the standard control against theft of a device. Protecting data in transit is the job of TLS or a VPN, and once the user has logged in the operating system sees files normally, so it is no defence against malware.",
-    "id": "GEN-TECH2-UIV-250"
+    "id": "GEN-TECH2-UIV-a7669e"
   },
   {
     "paper": "TECH2",
@@ -4013,7 +4013,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "A certificate is a signed statement from a trusted Certifying Authority that a particular public key belongs to a named person, organisation or server. Binding a file to its hash value is what a message digest or checksum does, and no certificate is required for that.",
-    "id": "GEN-TECH2-UIV-251"
+    "id": "GEN-TECH2-UIV-814d5f"
   },
   {
     "paper": "TECH2",
@@ -4029,7 +4029,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "The Controller of Certifying Authorities, established under the Information Technology Act, licenses and supervises the Certifying Authorities that issue Digital Signature Certificates in India. CERT-In is the incident-response agency and has no role in licensing Certifying Authorities.",
-    "id": "GEN-TECH2-UIV-252"
+    "id": "GEN-TECH2-UIV-960d96"
   },
   {
     "paper": "TECH2",
@@ -4045,7 +4045,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "When a certificate is compromised or its holder leaves, the Certifying Authority revokes it and lists it in a Certificate Revocation List that verifiers can consult. A Certificate Signing Request runs in the opposite direction: it is the application a subscriber submits to obtain a certificate in the first place.",
-    "id": "GEN-TECH2-UIV-253"
+    "id": "GEN-TECH2-UIV-363f57"
   },
   {
     "paper": "TECH2",
@@ -4061,7 +4061,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "The two keys of a pair are complementary, so what one key locks only its partner can unlock; anyone may encrypt with the freely published public key, but only the holder of the matching private key can read the result. The public key cannot decrypt its own output, which is exactly why it can be published.",
-    "id": "GEN-TECH2-UIV-254"
+    "id": "GEN-TECH2-UIV-9aa791"
   },
   {
     "paper": "TECH2",
@@ -4077,7 +4077,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "The Certifying (Certificate) Authority is the trusted issuer: it signs each certificate with its own private key, and that signature is what relying parties verify. A Registration Authority only handles verification of the applicant's identity and forwards the request; it does not sign certificates.",
-    "id": "GEN-TECH2-UIV-255"
+    "id": "GEN-TECH2-UIV-c3f0fe"
   },
   {
     "paper": "TECH2",
@@ -4093,7 +4093,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "Signing is done with the signer's private key, and anyone can then verify the signature using the signer's public key from the certificate. The recipient's public key is used for confidentiality (encrypting a message to that recipient), which is a different operation from signing.",
-    "id": "GEN-TECH2-UIV-256"
+    "id": "GEN-TECH2-UIV-7d20ac"
   },
   {
     "paper": "TECH2",
@@ -4109,7 +4109,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "A vulnerability assessment systematically discovers known weaknesses such as missing patches, weak configurations and default passwords, and prioritises them by severity so they can be remediated. Restoring service after an outage belongs to incident response and business continuity, not to assessment.",
-    "id": "GEN-TECH2-UIV-257"
+    "id": "GEN-TECH2-UIV-daedf2"
   },
   {
     "paper": "TECH2",
@@ -4125,7 +4125,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "A vulnerability assessment reports what appears weak, while a penetration test goes further and tries to exploit those weaknesses to demonstrate real, exploitable impact. Penetration testers do use automated tools; the distinction lies in active exploitation, not in the tooling.",
-    "id": "GEN-TECH2-UIV-258"
+    "id": "GEN-TECH2-UIV-192806"
   },
   {
     "paper": "TECH2",
@@ -4141,7 +4141,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "Nessus is a well-known vulnerability scanner that probes hosts and reports missing patches and insecure configurations. Wireshark is a packet analyser used to capture and inspect network traffic, which helps in diagnosis but does not scan systems for vulnerabilities.",
-    "id": "GEN-TECH2-UIV-259"
+    "id": "GEN-TECH2-UIV-8f3833"
   },
   {
     "paper": "TECH2",
@@ -4157,7 +4157,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "Patch management is the controlled process of identifying, testing and deploying vendor fixes so that publicly known vulnerabilities are removed before attackers exploit them. Patches may sometimes add features as well, but that is incidental and not the security objective.",
-    "id": "GEN-TECH2-UIV-260"
+    "id": "GEN-TECH2-UIV-b737f1"
   },
   {
     "paper": "TECH2",
@@ -4173,7 +4173,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "A patch changes working software, so it can disrupt an in-house or legacy application; testing on a representative system first catches such breakage before it affects users. Testing has no effect on the patch's size, and no vendor permission is needed to install a released update.",
-    "id": "GEN-TECH2-UIV-261"
+    "id": "GEN-TECH2-UIV-68b988"
   },
   {
     "paper": "TECH2",
@@ -4189,7 +4189,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "WSUS downloads updates once from Microsoft and lets the administrator approve and push them to client machines, saving bandwidth and giving control over what is installed. Active Directory Domain Services handles identity, authentication and directory objects, not update distribution.",
-    "id": "GEN-TECH2-UIV-262"
+    "id": "GEN-TECH2-UIV-af9643"
   },
   {
     "paper": "TECH2",
@@ -4205,7 +4205,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "Containment is the phase that limits the damage and stops the incident spreading, typically by disconnecting or segregating affected systems. Eradication comes afterwards and means actually removing the malware or closing the flaw that was exploited.",
-    "id": "GEN-TECH2-UIV-263"
+    "id": "GEN-TECH2-UIV-3dd485"
   },
   {
     "paper": "TECH2",
@@ -4221,7 +4221,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "CERT-In, the Indian Computer Emergency Response Team, is the national nodal agency for cyber security incident reporting, alerts and coordinated response. NIC provides IT infrastructure and services to government departments, but it is not the incident-response nodal agency.",
-    "id": "GEN-TECH2-UIV-264"
+    "id": "GEN-TECH2-UIV-d5a046"
   },
   {
     "paper": "TECH2",
@@ -4237,7 +4237,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Logs and forensic images are the evidence that shows how the attacker got in and what was touched, and they must be preserved intact for investigation and possible prosecution. Rebuilding a machine before capturing this evidence destroys it permanently, which is why preservation comes before cleanup.",
-    "id": "GEN-TECH2-UIV-265"
+    "id": "GEN-TECH2-UIV-5d86a8"
   },
   {
     "paper": "TECH2",
@@ -4253,7 +4253,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Cyber hygiene means the routine habits that keep systems safe, and locking the screen stops anyone from using an already authenticated session. A shared login may look convenient but it destroys accountability, since no action can be traced to a particular user.",
-    "id": "GEN-TECH2-UIV-266"
+    "id": "GEN-TECH2-UIV-9f68a3"
   },
   {
     "paper": "TECH2",
@@ -4269,7 +4269,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "Working with least privilege limits the damage of a successful attack, because system-wide changes need administrator rights that the session does not have. Standard accounts are logged just like any other; privilege level has nothing to do with whether activity is recorded.",
-    "id": "GEN-TECH2-UIV-267"
+    "id": "GEN-TECH2-UIV-d77dd6"
   },
   {
     "paper": "TECH2",
@@ -4285,7 +4285,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "Phishing works by getting the victim to follow the attacker's link, so verifying the sender and navigating independently to the known address defeats it. Replying is useless because a spoofed or attacker-controlled address will simply confirm that the mail is genuine.",
-    "id": "GEN-TECH2-UIV-268"
+    "id": "GEN-TECH2-UIV-69e900"
   },
   {
     "paper": "TECH2",
@@ -4301,7 +4301,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "AI is defined by the kind of task a system performs - perceiving, reasoning, learning, deciding, using language - not by the volume of data involved. Simply holding a large database is data management, not intelligence, because no inference or learning takes place.",
-    "id": "GEN-TECH2-UIV-269"
+    "id": "GEN-TECH2-UIV-efe120"
   },
   {
     "paper": "TECH2",
@@ -4317,7 +4317,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Narrow AI, also called weak AI, is limited to the single task it was designed and trained for, and essentially all AI in practical use today is of this kind. General AI would mean a system able to transfer its ability across any intellectual task, which does not yet exist.",
-    "id": "GEN-TECH2-UIV-270"
+    "id": "GEN-TECH2-UIV-e2ba7d"
   },
   {
     "paper": "TECH2",
@@ -4333,7 +4333,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "The test judges behaviour in conversation: if a human questioner cannot tell the machine's replies from a person's, the machine passes. Speed of calculation was never the criterion, since ordinary computers already far exceed humans at arithmetic without being called intelligent.",
-    "id": "GEN-TECH2-UIV-271"
+    "id": "GEN-TECH2-UIV-bb389a"
   },
   {
     "paper": "TECH2",
@@ -4349,7 +4349,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "Supervised learning needs labelled examples, that is, inputs paired with the correct output, which is exactly what the pre-marked email collection provides. Grouping unlabelled customers is clustering, an unsupervised task, and learning from rewards is reinforcement learning.",
-    "id": "GEN-TECH2-UIV-272"
+    "id": "GEN-TECH2-UIV-f7a08d"
   },
   {
     "paper": "TECH2",
@@ -4365,7 +4365,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "An overfitted model has learned the noise and peculiarities of the training set instead of the general pattern, so its accuracy collapses on fresh data. A model that is too simple to capture the pattern is the opposite fault, underfitting.",
-    "id": "GEN-TECH2-UIV-273"
+    "id": "GEN-TECH2-UIV-991d25"
   },
   {
     "paper": "TECH2",
@@ -4381,7 +4381,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Unsupervised learning works on unlabelled data and finds structure in it, clustering being its commonest form. Supervised learning cannot be used here at all, because it requires the correct answer to be supplied with every training example.",
-    "id": "GEN-TECH2-UIV-274"
+    "id": "GEN-TECH2-UIV-9ab2bb"
   },
   {
     "paper": "TECH2",
@@ -4397,7 +4397,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "The word 'deep' refers to the number of layers in the neural network, each layer building a more abstract representation than the one before. Systems driven by expert-written if-then rules are rule-based or expert systems, which do not learn from data at all.",
-    "id": "GEN-TECH2-UIV-275"
+    "id": "GEN-TECH2-UIV-06491f"
   },
   {
     "paper": "TECH2",
@@ -4413,7 +4413,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "Deep networks learn their own feature representations from raw pixels, which removes much of the manual feature engineering that older methods required. The other options state the reverse of reality: deep learning is generally more data-hungry, more compute-hungry and harder to interpret.",
-    "id": "GEN-TECH2-UIV-276"
+    "id": "GEN-TECH2-UIV-dfd642"
   },
   {
     "paper": "TECH2",
@@ -4429,7 +4429,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "Training a neural network is largely repeated matrix arithmetic, and a GPU performs thousands of such operations in parallel, which is why GPUs (and similar accelerators) dominate this work. A bigger disk only helps in storing the dataset; it does not make the computation faster.",
-    "id": "GEN-TECH2-UIV-277"
+    "id": "GEN-TECH2-UIV-02fc6d"
   },
   {
     "paper": "TECH2",
@@ -4445,7 +4445,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "NLP covers tasks on ordinary human language such as translation, summarisation, question answering and sentiment analysis. Compiler design is a tempting choice but deals with formal artificial languages, which have a fixed unambiguous grammar unlike natural language.",
-    "id": "GEN-TECH2-UIV-278"
+    "id": "GEN-TECH2-UIV-f67693"
   },
   {
     "paper": "TECH2",
@@ -4461,7 +4461,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "Tokenisation is the first step of most NLP pipelines and produces the tokens on which later stages operate. Summarisation shortens the meaning of a text and transcription converts spoken audio into text, so neither describes the splitting step.",
-    "id": "GEN-TECH2-UIV-279"
+    "id": "GEN-TECH2-UIV-f762ff"
   },
   {
     "paper": "TECH2",
@@ -4477,7 +4477,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "Sentiment analysis classifies text according to the opinion or emotion it expresses, which is exactly what judging tone amounts to. Named entity recognition also works on the same text but only pulls out names of persons, places and organisations; it says nothing about tone.",
-    "id": "GEN-TECH2-UIV-280"
+    "id": "GEN-TECH2-UIV-428979"
   },
   {
     "paper": "TECH2",
@@ -4493,7 +4493,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "Computer vision is about interpretation - recognising, locating and describing what appears in an image or video stream. Producing or displaying images is computer graphics and display technology, which is the reverse problem of understanding them.",
-    "id": "GEN-TECH2-UIV-281"
+    "id": "GEN-TECH2-UIV-ff3231"
   },
   {
     "paper": "TECH2",
@@ -4509,7 +4509,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Optical character recognition converts the characters visible in an image into machine-readable text, which is what number-plate reading requires. Speech recognition is the analogous task for audio input and has no role where the input is a photograph.",
-    "id": "GEN-TECH2-UIV-282"
+    "id": "GEN-TECH2-UIV-bab1c4"
   },
   {
     "paper": "TECH2",
@@ -4525,7 +4525,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "Object detection both locates each instance with a bounding box and assigns it a class label. Image classification is the close distractor, but it gives a single label to the whole image without telling you where in the frame the object is.",
-    "id": "GEN-TECH2-UIV-283"
+    "id": "GEN-TECH2-UIV-12f780"
   },
   {
     "paper": "TECH2",
@@ -4541,7 +4541,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "The defining feature of generative AI is that its output is fresh content rather than a label, score or category. It is still trained on very large quantities of existing data, so the claim that it needs no training data is false.",
-    "id": "GEN-TECH2-UIV-284"
+    "id": "GEN-TECH2-UIV-9940b1"
   },
   {
     "paper": "TECH2",
@@ -4557,7 +4557,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "Drafting new prose from an outline is content creation, which is precisely what a generative model does. Sorting, rule-checking and traffic blocking are ordinary deterministic operations that conventional software has always handled without any AI.",
-    "id": "GEN-TECH2-UIV-285"
+    "id": "GEN-TECH2-UIV-3dceeb"
   },
   {
     "paper": "TECH2",
@@ -4573,7 +4573,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "Generative models optimise for plausible-sounding output, not verified truth, so wrong facts, invented references and outdated rules can appear stated with full confidence. Fluency is what makes this dangerous, because the error carries no visible warning sign.",
-    "id": "GEN-TECH2-UIV-286"
+    "id": "GEN-TECH2-UIV-f43b47"
   },
   {
     "paper": "TECH2",
@@ -4589,7 +4589,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "An LLM learns statistical patterns of language by repeatedly predicting the next token in text, and its abilities in answering, summarising and drafting emerge from that objective. It is not a document store, and it does not retrieve a saved copy of any text it was trained on.",
-    "id": "GEN-TECH2-UIV-287"
+    "id": "GEN-TECH2-UIV-6b3b3e"
   },
   {
     "paper": "TECH2",
@@ -4605,7 +4605,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "A hallucination is confidently asserted content with no basis in fact, such as a non-existent circular number or a made-up citation. A refusal to answer is a different behaviour altogether and is usually a safety or policy response, not a hallucination.",
-    "id": "GEN-TECH2-UIV-288"
+    "id": "GEN-TECH2-UIV-e47d96"
   },
   {
     "paper": "TECH2",
@@ -4621,7 +4621,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "The context window is the limit on how much text - prompt, attached material and the reply being generated - the model can consider together, and material beyond it is effectively out of view. It is a property of the model, not of the user interface or of the vendor's data-retention policy.",
-    "id": "GEN-TECH2-UIV-289"
+    "id": "GEN-TECH2-UIV-81a0f5"
   },
   {
     "paper": "TECH2",
@@ -4637,7 +4637,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "Prompt engineering works entirely through the input given to the model, by stating the task, context, format and constraints clearly. Retraining on the organisation's own data is fine-tuning, which changes the model itself and is a quite different exercise.",
-    "id": "GEN-TECH2-UIV-290"
+    "id": "GEN-TECH2-UIV-5efe41"
   },
   {
     "paper": "TECH2",
@@ -4653,7 +4653,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Few-shot prompting supplies a handful of input-output examples in the prompt itself, leaving the model's weights untouched. Zero-shot prompting gives the instruction with no examples, and fine-tuning would involve actually retraining the model on example data.",
-    "id": "GEN-TECH2-UIV-291"
+    "id": "GEN-TECH2-UIV-ad1207"
   },
   {
     "paper": "TECH2",
@@ -4669,7 +4669,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "A good prompt removes ambiguity by specifying task, audience, scope and output format, which leaves the model far less to guess. Merely repeating a vague prompt changes nothing about the instruction and only produces different guesses.",
-    "id": "GEN-TECH2-UIV-292"
+    "id": "GEN-TECH2-UIV-0234b0"
   },
   {
     "paper": "TECH2",
@@ -4685,7 +4685,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "A model learns the patterns present in its training data, so historical imbalance or discrimination in that data is reproduced and often amplified in its predictions. Hardware speed and choice of programming language affect cost and maintainability, not fairness of the output.",
-    "id": "GEN-TECH2-UIV-293"
+    "id": "GEN-TECH2-UIV-df6710"
   },
   {
     "paper": "TECH2",
@@ -4701,7 +4701,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "NITI Aayog's Responsible AI approach is a set of principles about how AI should be built and used - safely, inclusively, transparently and with clear accountability, while protecting privacy. It is guidance on responsible practice, not a mandate to deploy AI everywhere or a restriction on who may do AI research.",
-    "id": "GEN-TECH2-UIV-294"
+    "id": "GEN-TECH2-UIV-f8d0b9"
   },
   {
     "paper": "TECH2",
@@ -4717,7 +4717,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "The Act requires personal data to be processed for a lawful purpose on the basis of consent or a permitted legitimate use, with the data fiduciary responsible for security safeguards and for not keeping data longer than needed. Publishing personal data would breach the very confidentiality the law is meant to protect.",
-    "id": "GEN-TECH2-UIV-295"
+    "id": "GEN-TECH2-UIV-03ab12"
   },
   {
     "paper": "TECH2",
@@ -4733,7 +4733,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "IndiaAI is the national mission covering AI compute capacity, datasets, skilling, startups and safe and trusted AI. The others are genuine government programmes in different areas: BharatNet for rural broadband, UMANG as a unified mobile app for government services, and GeM for public procurement.",
-    "id": "GEN-TECH2-UIV-296"
+    "id": "GEN-TECH2-UIV-a94ceb"
   },
   {
     "paper": "TECH2",
@@ -4749,7 +4749,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "The value of such a chatbot lies in handling high-volume standard questions instantly and round the clock, which shortens waiting and frees staff for cases needing judgement. It changes none of the underlying obligations - accurate records, data protection and prescribed procedure all continue to apply.",
-    "id": "GEN-TECH2-UIV-297"
+    "id": "GEN-TECH2-UIV-199141"
   },
   {
     "paper": "TECH2",
@@ -4765,7 +4765,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "A decision that affects a citizen's rights or entitlement needs a human decision-maker who can give reasons and be held answerable on appeal, so AI may assist but must not decide. In the other three the AI only sorts, drafts or flags, and a human official remains the one who decides.",
-    "id": "GEN-TECH2-UIV-298"
+    "id": "GEN-TECH2-UIV-d2a778"
   },
   {
     "paper": "TECH2",
@@ -4781,7 +4781,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "AIOps applies machine learning to the large volume of monitoring data an IT estate produces, so that alerts can be correlated and faults diagnosed faster. It is an approach to analysing operations data, not a scripting language or a physical appliance.",
-    "id": "GEN-TECH2-UIV-299"
+    "id": "GEN-TECH2-UIV-e5f2e0"
   },
   {
     "paper": "TECH2",
@@ -4797,7 +4797,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "Anomaly detection builds a baseline of normal behaviour and flags statistically unusual deviations from it, which is why it catches problems no fixed threshold was written for. Load balancing only distributes traffic; it never judges whether behaviour is unusual.",
-    "id": "GEN-TECH2-UIV-300"
+    "id": "GEN-TECH2-UIV-e54e4c"
   },
   {
     "paper": "TECH2",
@@ -4813,7 +4813,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "AI suggestions are generated without full knowledge of the local environment and can be wrong or destructive, so a human must review, test and stay answerable for what is executed. Vendors do not validate individual generated outputs.",
-    "id": "GEN-TECH2-UIV-301"
+    "id": "GEN-TECH2-UIV-1744d4"
   },
   {
     "paper": "TECH2",
@@ -4829,7 +4829,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "Analyze Data scans the selected range and proposes summaries, trends and suggested visualisations in plain language. Goal Seek works backwards from a target value in a single formula and does not describe a dataset at all.",
-    "id": "GEN-TECH2-UIV-302"
+    "id": "GEN-TECH2-UIV-0ce2db"
   },
   {
     "paper": "TECH2",
@@ -4845,7 +4845,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Natural language query lets the user ask a question in ordinary words, which the tool translates into a query against the dataset and renders as a result or chart. Macro recording can only replay steps that were recorded earlier.",
-    "id": "GEN-TECH2-UIV-303"
+    "id": "GEN-TECH2-UIV-3b8536"
   },
   {
     "paper": "TECH2",
@@ -4861,7 +4861,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "Generative AI can produce confident-sounding but wrong figures, so any number destined for an official record must be reconciled with the source. Having read the file is no guarantee that the arithmetic or the interpretation is right.",
-    "id": "GEN-TECH2-UIV-304"
+    "id": "GEN-TECH2-UIV-a41120"
   },
   {
     "paper": "TECH2",
@@ -4877,7 +4877,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "eOffice is a product of the National Informatics Centre, the government's IT services organisation under the Ministry of Electronics and Information Technology. UIDAI runs Aadhaar and NPCI runs payment systems such as UPI; neither builds office automation software.",
-    "id": "GEN-TECH2-UIV-305"
+    "id": "GEN-TECH2-UIV-ad47ab"
   },
   {
     "paper": "TECH2",
@@ -4893,7 +4893,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "eFile is the file management module: it diarises receipts, creates and moves electronic files, records notes and handles drafts and dispatch. KMS is the knowledge repository, eLeave handles leave applications and CAMS provides messaging and collaboration.",
-    "id": "GEN-TECH2-UIV-306"
+    "id": "GEN-TECH2-UIV-b2952c"
   },
   {
     "paper": "TECH2",
@@ -4909,7 +4909,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "PIMS, the Personnel Information Management System, holds employee master and service-record data that other modules such as eLeave draw upon. eFile deals with files and receipts, not with establishment records.",
-    "id": "GEN-TECH2-UIV-307"
+    "id": "GEN-TECH2-UIV-33a794"
   },
   {
     "paper": "TECH2",
@@ -4925,7 +4925,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "e-Office replaces the manual movement of dak and files with an electronic workflow that is faster, traceable and auditable end to end. Payroll and pension computerisation is a separate class of application and not the purpose of e-Office.",
-    "id": "GEN-TECH2-UIV-308"
+    "id": "GEN-TECH2-UIV-0080c9"
   },
   {
     "paper": "TECH2",
@@ -4941,7 +4941,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "Incoming dak is scanned and diarised, at which point it becomes an electronic receipt that can be marked to an officer or attached to a file. An officer's remark is a note, and an outgoing communication is an issue or dispatch.",
-    "id": "GEN-TECH2-UIV-309"
+    "id": "GEN-TECH2-UIV-d45189"
   },
   {
     "paper": "TECH2",
@@ -4957,7 +4957,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "'Less paper' is deliberate wording: the aim is a steady reduction in paper as processes move online, while some documents legitimately continue to exist on paper. Nothing in e-Office invalidates paper records outright.",
-    "id": "GEN-TECH2-UIV-310"
+    "id": "GEN-TECH2-UIV-cfe334"
   },
   {
     "paper": "TECH2",
@@ -4973,7 +4973,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "KMS is the department's shared document repository, holding reference material such as Acts, rules, office memoranda and circulars for authorised users to search. Leave is handled by eLeave and messaging by CAMS.",
-    "id": "GEN-TECH2-UIV-311"
+    "id": "GEN-TECH2-UIV-2fa9cc"
   },
   {
     "paper": "TECH2",
@@ -4989,7 +4989,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "KMS arranges documents in a category and sub-category tree with role-based permissions and search, so an officer can locate the right circular quickly. A flat list ordered by upload time would defeat the whole purpose of retrieval.",
-    "id": "GEN-TECH2-UIV-312"
+    "id": "GEN-TECH2-UIV-6bfb3f"
   },
   {
     "paper": "TECH2",
@@ -5005,7 +5005,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "A KMS captures rules, precedents and guidance in a shared repository, so an incoming officer can find them instead of depending on a predecessor's personal papers. Automatic movement of files is a workflow feature of eFile, not of KMS.",
-    "id": "GEN-TECH2-UIV-313"
+    "id": "GEN-TECH2-UIV-e35a9e"
   },
   {
     "paper": "TECH2",
@@ -5021,7 +5021,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "Rights follow the post and role mapped to a user, so a change of posting automatically changes what that person can see and do. Users cannot grant rights to themselves, and open access to all files would defeat the control entirely.",
-    "id": "GEN-TECH2-UIV-314"
+    "id": "GEN-TECH2-UIV-6a3d89"
   },
   {
     "paper": "TECH2",
@@ -5037,7 +5037,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "The audit trail is a chronological, tamper-evident history of every action on a file, which is what makes accountability and non-repudiation possible. Backup and compression are storage functions and establish nothing about who did what.",
-    "id": "GEN-TECH2-UIV-315"
+    "id": "GEN-TECH2-UIV-8e3661"
   },
   {
     "paper": "TECH2",
@@ -5053,7 +5053,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Delegation passes the workload to the officer holding charge while keeping every action attributable to the person who actually took it. Sharing a password or a signing token destroys non-repudiation and is a serious security breach.",
-    "id": "GEN-TECH2-UIV-316"
+    "id": "GEN-TECH2-UIV-9a4f8e"
   },
   {
     "paper": "TECH2",
@@ -5069,7 +5069,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "DSCs are issued only by licensed Certifying Authorities, which operate under the Controller of Certifying Authorities established by the Information Technology Act, 2000. Employers, banks and the Registrar of Companies may require a DSC but cannot issue one.",
-    "id": "GEN-TECH2-UIV-317"
+    "id": "GEN-TECH2-UIV-5c125d"
   },
   {
     "paper": "TECH2",
@@ -5085,7 +5085,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "Only the signer holds the private key, so only the signer can create the signature, while anyone can verify it using the public key carried in the certificate. A shared secret key could not prove which of the parties signed.",
-    "id": "GEN-TECH2-UIV-318"
+    "id": "GEN-TECH2-UIV-5c8a25"
   },
   {
     "paper": "TECH2",
@@ -5101,7 +5101,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "A digital signature provides authentication of the signer, integrity of the content and non-repudiation of the act of signing. Keeping the content secret from others is encryption, which is a different use of the same key pair.",
-    "id": "GEN-TECH2-UIV-319"
+    "id": "GEN-TECH2-UIV-ae17bb"
   },
   {
     "paper": "TECH2",
@@ -5117,7 +5117,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "A workflow is the configured route and set of steps a receipt or file follows, level by level, up to the competent authority and back. The stored reference documents are KMS content and have nothing to do with routing.",
-    "id": "GEN-TECH2-UIV-320"
+    "id": "GEN-TECH2-UIV-54c88d"
   },
   {
     "paper": "TECH2",
@@ -5133,7 +5133,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "Administrators set up the master data — sections, posts and the employee-to-post mapping — that determines where a file can be routed. Drafting, noting and scanning are day-to-day user actions performed within the workflow, not configuration of it.",
-    "id": "GEN-TECH2-UIV-321"
+    "id": "GEN-TECH2-UIV-24ecd9"
   },
   {
     "paper": "TECH2",
@@ -5149,7 +5149,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Escalation rules convert elapsed time into a management alert, so that files held beyond the permitted period surface for review instead of lying unnoticed. A retention schedule governs how long closed records are kept and says nothing about pendency.",
-    "id": "GEN-TECH2-UIV-322"
+    "id": "GEN-TECH2-UIV-14840f"
   },
   {
     "paper": "TECH2",
@@ -5165,7 +5165,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "Metadata is descriptive information about a resource — who created it, when, and under what subject — and it is what makes the resource findable and manageable. An encrypted copy is still the data itself, not a description of it.",
-    "id": "GEN-TECH2-UIV-323"
+    "id": "GEN-TECH2-UIV-bdbe91"
   },
   {
     "paper": "TECH2",
@@ -5181,7 +5181,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "The file number, subject and category describe the file and are what the system uses to index, search and route it. The scanned letter, the notes and the draft are the substantive content that the file carries.",
-    "id": "GEN-TECH2-UIV-324"
+    "id": "GEN-TECH2-UIV-f240e6"
   },
   {
     "paper": "TECH2",
@@ -5197,7 +5197,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "When every department describes a record in the same way, search results become dependable and data can pass between systems without manual re-keying, which is the aim of the government's metadata and data standards work. Metadata does not compress files or affect bandwidth.",
-    "id": "GEN-TECH2-UIV-325"
+    "id": "GEN-TECH2-UIV-657e32"
   },
   {
     "paper": "TECH2",
@@ -5213,7 +5213,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "A retention schedule assigns a retention period to each category of record, so that weeding and archiving follow a rule rather than individual judgement. A backup timetable protects against data loss and is an entirely separate control.",
-    "id": "GEN-TECH2-UIV-326"
+    "id": "GEN-TECH2-UIV-11bcd7"
   },
   {
     "paper": "TECH2",
@@ -5229,7 +5229,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Under the Public Records Act, the National Archives of India is the custodian of non-current Central Government records of permanent value. The Central Information Commission decides RTI appeals and the CAG audits accounts; neither is a records repository.",
-    "id": "GEN-TECH2-UIV-327"
+    "id": "GEN-TECH2-UIV-999fc3"
   },
   {
     "paper": "TECH2",
@@ -5245,7 +5245,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "Backups exist to restore recent working data after a failure and are overwritten in cycles, whereas archives preserve records of enduring value for as long as the retention rules require. Treating backups as an archive risks losing records when the backup cycle rolls over.",
-    "id": "GEN-TECH2-UIV-328"
+    "id": "GEN-TECH2-UIV-087adb"
   },
   {
     "paper": "TECH2",
@@ -5261,7 +5261,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "Scanning is followed by diarisation, which registers the communication as a receipt that can then be marked to an officer or attached to a file. Recording happens only at the other end of the process, when action on a file is complete.",
-    "id": "GEN-TECH2-UIV-329"
+    "id": "GEN-TECH2-UIV-031ba7"
   },
   {
     "paper": "TECH2",
@@ -5277,7 +5277,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "The note portion holds the successive notes recorded by officers as a case moves up for decision, while the correspondence portion holds the letters received and issued. The dispatch register records outgoing communications and is not part of the file.",
-    "id": "GEN-TECH2-UIV-330"
+    "id": "GEN-TECH2-UIV-a5aa81"
   },
   {
     "paper": "TECH2",
@@ -5293,7 +5293,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Recording is the closing action: once the issues in a file have been disposed of, the file is closed, indexed and categorised so that its retention period is fixed. Entering an incoming letter is diarisation, which happens at the start of the process.",
-    "id": "GEN-TECH2-UIV-331"
+    "id": "GEN-TECH2-UIV-408f64"
   },
   {
     "paper": "TECH2",
@@ -5309,7 +5309,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "A service desk exists so that users have one known place to report faults, raise requests and get status updates, and so that all such contacts are logged and tracked. Negotiating with vendors is procurement work, not the service desk's function.",
-    "id": "GEN-TECH2-UV-332"
+    "id": "GEN-TECH2-UV-fa0df5"
   },
   {
     "paper": "TECH2",
@@ -5325,7 +5325,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "ITSM takes a service view of IT: what the organisation receives is a service with an agreed quality, and the technology, people and processes behind it are managed to deliver that service. Installing desktop operating systems is one technical activity inside ITSM, not a definition of it.",
-    "id": "GEN-TECH2-UV-333"
+    "id": "GEN-TECH2-UV-626408"
   },
   {
     "paper": "TECH2",
@@ -5341,7 +5341,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "Incident handling aims at restoring normal service as quickly as possible, even by a temporary workaround, whereas problem handling investigates why the incidents keep happening and removes the cause. Both incidents and problems may be raised by users or by monitoring, so the source is not the distinction.",
-    "id": "GEN-TECH2-UV-334"
+    "id": "GEN-TECH2-UV-bc6a85"
   },
   {
     "paper": "TECH2",
@@ -5357,7 +5357,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "Change management exists to reduce the risk that a modification to a live service causes an unplanned outage, by requiring assessment, authorisation, scheduling and a fallback plan. Restoring service quickly after an outage is incident management, a separate practice.",
-    "id": "GEN-TECH2-UV-335"
+    "id": "GEN-TECH2-UV-095eb2"
   },
   {
     "paper": "TECH2",
@@ -5373,7 +5373,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "IT Asset Management covers the full lifecycle of hardware and software assets: planning and purchase, deployment, maintenance, and secure disposal or write-off. Encrypting stored data is an information security control and is not what asset management is for.",
-    "id": "GEN-TECH2-UV-336"
+    "id": "GEN-TECH2-UV-7df656"
   },
   {
     "paper": "TECH2",
@@ -5389,7 +5389,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "An asset register answers what, where and whose, which is what makes maintenance, audit, insurance and eventual disposal possible. Recording a machine in a register does nothing to protect it from malware or from hardware failure.",
-    "id": "GEN-TECH2-UV-337"
+    "id": "GEN-TECH2-UV-b3868a"
   },
   {
     "paper": "TECH2",
@@ -5405,7 +5405,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "Software Asset Management is the licensing and compliance side of asset management: knowing what is installed, what has been bought, and whether the two agree. Attaching inventory labels to hardware belongs to physical IT asset management.",
-    "id": "GEN-TECH2-UV-338"
+    "id": "GEN-TECH2-UV-c1c069"
   },
   {
     "paper": "TECH2",
@@ -5421,7 +5421,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "Installations exceed entitlements, so 15 copies are being used without a licence, which is exactly what a vendor or departmental audit penalises. Over-licensing is the opposite failure, where far more licences are bought than are ever installed, and it wastes money rather than creating legal exposure.",
-    "id": "GEN-TECH2-UV-339"
+    "id": "GEN-TECH2-UV-caaa66"
   },
   {
     "paper": "TECH2",
@@ -5437,7 +5437,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "Business continuity planning identifies the functions the organisation cannot stop performing and arranges alternative staff, premises, suppliers and procedures to keep them going. Recovering an individual deleted file is routine support work, not the subject of a continuity plan.",
-    "id": "GEN-TECH2-UV-340"
+    "id": "GEN-TECH2-UV-df2e20"
   },
   {
     "paper": "TECH2",
@@ -5453,7 +5453,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "Business continuity is the wider organisational discipline, covering people, premises, processes and suppliers, and disaster recovery is the IT-focused part of it that restores systems, applications and data. Both are prepared in advance, and both apply to any cause of disruption, whether natural, technical or malicious.",
-    "id": "GEN-TECH2-UV-341"
+    "id": "GEN-TECH2-UV-603b68"
   },
   {
     "paper": "TECH2",
@@ -5469,7 +5469,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "RTO is a downtime target: it states how long the organisation can function without the service before the consequences become unacceptable, and it drives the choice of standby arrangements. The amount of tolerable data loss is the Recovery Point Objective, a separate measure.",
-    "id": "GEN-TECH2-UV-342"
+    "id": "GEN-TECH2-UV-94d464"
   },
   {
     "paper": "TECH2",
@@ -5485,7 +5485,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "The Recovery Point Objective is the maximum tolerable data loss expressed as a period of time, and it determines how frequently backups or replication must run, here at least hourly. The Recovery Time Objective would instead state how long the office can remain without the server.",
-    "id": "GEN-TECH2-UV-343"
+    "id": "GEN-TECH2-UV-35ae38"
   },
   {
     "paper": "TECH2",
@@ -5501,7 +5501,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "The Government e-Marketplace is an online platform where registered sellers list goods and services and government buyers place orders, with the aim of making public purchasing faster and more transparent. It is a buying platform, not an audit tool or a personnel database.",
-    "id": "GEN-TECH2-UV-344"
+    "id": "GEN-TECH2-UV-d247ef"
   },
   {
     "paper": "TECH2",
@@ -5517,7 +5517,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "The two-bid system keeps price hidden until technical suitability has been judged, so that the evaluation of specifications cannot be influenced by the quoted amount. Past supply to the department is not by itself a ground for opening the financial bid.",
-    "id": "GEN-TECH2-UV-345"
+    "id": "GEN-TECH2-UV-555ebb"
   },
   {
     "paper": "TECH2",
@@ -5533,7 +5533,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Versioning and dating let anyone holding a copy tell whether it is the latest one, which matters when procedures, configurations or contact details change. Version information has no effect on file size, printing or security.",
-    "id": "GEN-TECH2-UV-346"
+    "id": "GEN-TECH2-UV-64ad0e"
   },
   {
     "paper": "TECH2",
@@ -5549,7 +5549,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "A documentation standard fixes the expected sections, headings, terminology and layout, so a reader who knows the standard can find the needed information in any document without relearning its arrangement. Standards do not remove the need for review or for retaining records.",
-    "id": "GEN-TECH2-UV-347"
+    "id": "GEN-TECH2-UV-94a18c"
   },
   {
     "paper": "TECH2",
@@ -5565,7 +5565,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "Scope, time and cost are interlinked, so enlarging the scope of a project normally forces either the schedule or the budget to grow, and quality suffers if neither is allowed to move. People, process and technology is a general management triad, not the project constraint model.",
-    "id": "GEN-TECH2-UV-348"
+    "id": "GEN-TECH2-UV-1c26c8"
   },
   {
     "paper": "TECH2",
@@ -5581,7 +5581,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "A project is temporary and produces a unique result, such as rolling out a new office network, after which it closes; operations are the continuing day-to-day running of that network. Projects may be executed in house and are certainly bound by a budget.",
-    "id": "GEN-TECH2-UV-349"
+    "id": "GEN-TECH2-UV-66c3b7"
   },
   {
     "paper": "TECH2",
@@ -5597,7 +5597,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "An executive summary is written for a senior reader who may not read the whole report, so it condenses why the work was done, what was found and what is recommended. Detailed calculations belong in the body or the appendices, and sources belong in the references.",
-    "id": "GEN-TECH2-UV-350"
+    "id": "GEN-TECH2-UV-cb8537"
   },
   {
     "paper": "TECH2",
@@ -5613,7 +5613,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "Supporting material is put in an appendix so that the main text stays readable while the evidence remains available to anyone who wants to check it. Placing bulk data in the executive summary defeats its purpose of being brief.",
-    "id": "GEN-TECH2-UV-351"
+    "id": "GEN-TECH2-UV-a2072c"
   },
   {
     "paper": "TECH2",
@@ -5629,7 +5629,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "Recipients placed in Bcc receive the message but their addresses are not shown to anyone else, which is why it is used for large circulars where addresses should not be disclosed. Bcc has no bearing on delivery speed, priority marking or receipts.",
-    "id": "GEN-TECH2-UV-352"
+    "id": "GEN-TECH2-UV-5dd946"
   },
   {
     "paper": "TECH2",
@@ -5645,7 +5645,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "Official correspondence sent by email forms part of the office record and can be called for during audit, inspection or an information request, so its tone, accuracy and completeness matter. Email is certainly deletable and is not published automatically anywhere.",
-    "id": "GEN-TECH2-UV-353"
+    "id": "GEN-TECH2-UV-276148"
   },
   {
     "paper": "TECH2",
@@ -5661,7 +5661,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "The agenda is prepared and circulated in advance so members know what will be discussed and can come prepared. Minutes are the opposite in timing — they are written after the meeting to record what was decided.",
-    "id": "GEN-TECH2-UV-354"
+    "id": "GEN-TECH2-UV-38e053"
   },
   {
     "paper": "TECH2",
@@ -5677,7 +5677,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Minutes are a summary record of outcomes — decisions, action points with owners and timelines, along with attendance and apologies for absence. They are deliberately not a verbatim transcript; capturing every spoken word is the job of proceedings or a recording, not of minutes.",
-    "id": "GEN-TECH2-UV-355"
+    "id": "GEN-TECH2-UV-7584fd"
   },
   {
     "paper": "TECH2",
@@ -5693,7 +5693,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "The rise is 1,500 - 1,250 = 250, and percentage increase is taken on the original value: 250 / 1,250 x 100 = 20%. Dividing 250 by the new figure 1,500 gives 16.67%, which is the common error — percentage increase is always measured against the earlier value.",
-    "id": "GEN-TECH2-UV-356"
+    "id": "GEN-TECH2-UV-18e887"
   },
   {
     "paper": "TECH2",
@@ -5709,7 +5709,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "The five bills total 8,000 + 9,500 + 7,000 + 10,500 + 10,000 = Rs 45,000, and 45,000 / 5 = Rs 9,000. Rs 9,500 is the middle value when the figures are arranged in order, which is the median, not the average.",
-    "id": "GEN-TECH2-UV-357"
+    "id": "GEN-TECH2-UV-1d3498"
   },
   {
     "paper": "TECH2",
@@ -5725,7 +5725,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "Each term is double the previous term plus one: 5x2+1 = 11, 11x2+1 = 23, 23x2+1 = 47, so the next term is 47x2+1 = 95. Simply doubling gives 94 and doubling with no adjustment does not reproduce the earlier terms.",
-    "id": "GEN-TECH2-UV-358"
+    "id": "GEN-TECH2-UV-e046f7"
   },
   {
     "paper": "TECH2",
@@ -5741,7 +5741,7 @@
     "ans": "A",
     "conf": "high",
     "exp": "Each letter of the word is replaced by the next letter of the alphabet (C to D, O to P, M to N, and so on), so PRINTER becomes Q, S, J, O, U, F, S — that is QSJOUFS. OQHMSDQ is what you get by moving one letter backwards instead of forwards.",
-    "id": "GEN-TECH2-UV-359"
+    "id": "GEN-TECH2-UV-546ab1"
   },
   {
     "paper": "TECH2",
@@ -5757,7 +5757,7 @@
     "ans": "D",
     "conf": "high",
     "exp": "A hallucination is output that is fluent and plausible-looking but factually invented, such as a fabricated citation, circular number or case reference. Prompt injection is different — it is an attack in which hidden instructions in the input make the model behave against its operator's intent.",
-    "id": "GEN-TECH2-UV-360"
+    "id": "GEN-TECH2-UV-348125"
   },
   {
     "paper": "TECH2",
@@ -5773,7 +5773,7 @@
     "ans": "B",
     "conf": "high",
     "exp": "An AI summary is only a draft until it has been verified against the source, because a confident tone is a property of the model's writing style and not evidence that the content is accurate. A model's self-reported confidence is generated the same way as the rest of its text and is therefore not an independent check.",
-    "id": "GEN-TECH2-UV-361"
+    "id": "GEN-TECH2-UV-ed1054"
   },
   {
     "paper": "TECH2",
@@ -5789,7 +5789,7 @@
     "ans": "C",
     "conf": "high",
     "exp": "1930 is the national cyber crime helpline, and complaints can also be filed online at cybercrime.gov.in; reporting a financial fraud quickly improves the chance of the money being held. 155260 was the earlier helpline number for financial cyber fraud and has since been replaced by 1930, while 1091 is the women's helpline and 112 is the general emergency number.",
-    "id": "GEN-TECH2-UV-362"
+    "id": "GEN-TECH2-UV-3bf74e"
   },
   {
     "paper": "TECH2",
@@ -5805,6 +5805,6 @@
     "ans": "B",
     "conf": "high",
     "exp": "The classic phishing signature is artificial time pressure combined with a request for credentials from an address that does not belong to the genuine organisation's domain; a real department never asks for a password by email. A hyperlink on its own is not suspicious, since legitimate official mail routinely contains links.",
-    "id": "GEN-TECH2-UV-363"
+    "id": "GEN-TECH2-UV-e808de"
   }
 ]

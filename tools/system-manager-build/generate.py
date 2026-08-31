@@ -24,6 +24,7 @@ Usage:
 
 import argparse
 import glob
+import hashlib
 import json
 import os
 import re
@@ -149,7 +150,7 @@ def do_export(only_unit):
     print(f"\ntotal to author: {sum(q for _, _, q in written)} questions")
 
 
-def do_merge():
+def do_merge(force=False):
     tax = load_taxonomy()
     valid = {(t["paper"], t["unit"], t["sub"]) for t in tax}
     done = sorted(glob.glob(os.path.join(BATCHES, "*.done.json")))
@@ -213,8 +214,54 @@ def do_merge():
                         "opts": {k2: opts[k2].strip() for k2 in LETTERS},
                         "ans": r["ans"], "conf": r.get("conf", "high"), "exp": exp})
 
-    for i, r in enumerate(out, 1):
-        r["id"] = f"GEN-{r['paper']}-U{r['unit']}-{i:03d}"
+    # VALIDATE BEFORE WRITING, NEVER AFTER.
+    #
+    # This used to write staged/generated.json here and only report `problems`
+    # thirty lines further down, after the success summary. A row that failed
+    # validation was simply absent from the output with a reassuring count above
+    # it — the same shape as the OCR incident in DEVLOG 2026-08-04, and the same
+    # bug found and fixed in the System Analyst pipeline on 2026-08-31, where it
+    # had been quietly discarding two authored questions for a full day.
+    if problems and not force:
+        print(f"{len(problems)} PROBLEM(S) — staged/generated.json NOT written:",
+              file=sys.stderr)
+        for p in problems[:40]:
+            print(f"  - {p}", file=sys.stderr)
+        if len(problems) > 40:
+            print(f"  … and {len(problems) - 40} more", file=sys.stderr)
+        print(f"\n{len(out)} row(s) would have been kept and {len(problems)} DROPPED.\n"
+              f"Fix the batch files, or re-run with --force to stage anyway.",
+              file=sys.stderr)
+        sys.exit(1)
+    if problems:
+        print(f"--force: staging anyway, DISCARDING {len(problems)} row(s):", file=sys.stderr)
+        for p in problems:
+            print(f"  - {p}", file=sys.stderr)
+        print("", file=sys.stderr)
+
+    # IDS MUST BE STABLE, because other things are keyed on them.
+    #
+    # These used to be `enumerate(out, 1)` — a running counter over every batch
+    # in one list, so the id encoded WHERE a question sat among all the others
+    # and authoring one new batch renumbered everything after it. On the System
+    # Analyst side that moved 225 of 254 questions in a single run, silently
+    # detaching their study-mode labels, the reader's Leitner boxes and their
+    # mpsc-api review records — none of which error when the key stops matching.
+    #
+    # Derived from the question's own content instead, so an id moves only when
+    # the question itself is rewritten.
+    def gen_id(r):
+        h = hashlib.sha1(
+            f"{r['paper']}|{r['unit']}|{r['sub']}|{r['q']}".encode("utf-8")
+        ).hexdigest()[:6]
+        return f"GEN-{r['paper']}-U{r['unit']}-{h}"
+
+    seen_ids = {}
+    for r in out:
+        r["id"] = gen_id(r)
+        if r["id"] in seen_ids:
+            sys.exit(f"FAIL: id collision on {r['id']} — {r['q'][:70]!r}")
+        seen_ids[r["id"]] = r["q"]
 
     with open(os.path.join(STAGED, "generated.json"), "w", encoding="utf-8") as f:
         json.dump(out, f, indent=2, ensure_ascii=False)
@@ -234,25 +281,23 @@ def do_merge():
     covered = {(r["paper"], r["unit"], r["sub"]) for r in out}
     print(f"\n  distinct leaves covered: {len(covered)}")
 
-    if problems:
-        print(f"\n{len(problems)} PROBLEM(S):", file=sys.stderr)
-        for p in problems[:40]:
-            print(f"  - {p}", file=sys.stderr)
-        if len(problems) > 40:
-            print(f"  … and {len(problems) - 40} more", file=sys.stderr)
-        sys.exit(1)
+    # Rejects were reported and acted on above, before the write. Nothing is
+    # reported here, because a problem printed after a success line is a problem
+    # nobody reads.
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--export", action="store_true")
     ap.add_argument("--merge", action="store_true")
+    ap.add_argument("--force", action="store_true",
+                    help="stage even though rows were rejected, discarding them")
     ap.add_argument("--unit", help="restrict to one unit, e.g. TECH2:IV")
     a = ap.parse_args()
     if a.export:
         do_export(a.unit)
     elif a.merge:
-        do_merge()
+        do_merge(a.force)
     else:
         ap.error("pass --export or --merge")
 

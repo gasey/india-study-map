@@ -25,9 +25,25 @@ solver by including the bank answer.
 Comprehension questions carry their recovered passage (see extract_passages.py)
 - without it they are unanswerable and a solver would be guessing.
 
+WHEN THE BANK HAS NO ANSWER AT ALL, run a SECOND blind pass.
+The diff above is the only thing standing between a plausible guess and the
+reader. Election Dec-2019 Paper II arrives with all 74 answers set to -1, so
+there is nothing to diff against and a lone solve would ship its own
+self-assessed confidence unchecked. Pass B fills that role: same .todo.json,
+answers written to <name>.solved2.json instead of <name>.solved.json.
+
+  agree        -> confidence is the LOWER of the two passes' claims
+  disagree     -> capped to medium, both answers shown to the reader via `alt`
+  no pass B    -> "uncorroborated", capped to medium, said plainly in the prov
+
+Run the two passes with DIFFERENT MODELS. Two runs of one model agree without
+corroborating anything - their errors correlate, so agreement measures
+consistency rather than correctness.
+
 Usage:
-  python3 tools/system-manager-build/solve.py --export
-  # ...solver agents fill staged/solving/<name>.todo.json -> .solved.json...
+  python3 tools/system-manager-build/solve.py --export [--only CO2019B-P2] [--redo]
+  # ...pass A agents fill staged/solving/<name>.todo.json -> .solved.json
+  # ...pass B agents (different model) write            -> .solved2.json
   python3 tools/system-manager-build/solve.py --merge
 """
 
@@ -75,8 +91,28 @@ def unverified():
     return out
 
 
-def do_export():
+def do_export(only=None, redo=False):
     rows = unverified()
+
+    # Don't re-export what has already been solved. Without this, adding a
+    # sitting re-exports every previously verified question and invites a second
+    # solve to overwrite a good answer with a worse one.
+    if not redo:
+        sp = os.path.join(STAGED, "solved.json")
+        if os.path.isfile(sp):
+            done_ids = set(json.load(open(sp, encoding="utf-8")))
+            before = len(rows)
+            rows = [r for r in rows if r["id"] not in done_ids]
+            if before != len(rows):
+                print(f"skipping {before - len(rows)} already in staged/solved.json "
+                      f"(pass --redo to solve them again)")
+    if only:
+        rows = [r for r in rows if r["srcKey"] in only]
+        print(f"restricted to {', '.join(sorted(only))}")
+
+    if not rows:
+        sys.exit("nothing to export")
+
     os.makedirs(BATCHES, exist_ok=True)
     for stale in glob.glob(os.path.join(BATCHES, "*.todo.json")):
         os.remove(stale)
@@ -118,45 +154,95 @@ def do_export():
     print("Bank answers are NOT included — the solve is blind, then diffed on merge.")
 
 
-def do_merge():
-    rows = {r["id"]: r for r in unverified()}
-    done = sorted(glob.glob(os.path.join(BATCHES, "*.solved.json")))
-    if not done:
-        sys.exit(f"FAIL: no *.solved.json in {os.path.relpath(BATCHES, os.getcwd())}/")
-
-    problems, solved = [], {}
-    for path in done:
+def _read_pass(paths, rows, problems, label):
+    """Load one solver pass's answers, validating each row."""
+    out = {}
+    for path in paths:
         data = json.load(open(path, encoding="utf-8"))
         entries = data.get("answers", data) if isinstance(data, dict) else {}
         for qid, a in entries.items():
-            if qid in solved:
-                problems.append(f"{qid}: solved twice")
+            if qid in out:
+                problems.append(f"{qid}: solved twice within pass {label}")
             r = rows.get(qid)
             if not r:
-                problems.append(f"{qid}: not a question awaiting verification")
+                problems.append(f"{qid}: not a question awaiting verification (pass {label})")
                 continue
             ans, conf, exp = a.get("ans"), a.get("conf"), (a.get("exp") or "").strip()
             if ans not in LETTERS:
-                problems.append(f"{qid}: ans={ans!r}")
+                problems.append(f"{qid}: ans={ans!r} (pass {label})")
                 continue
             if conf not in CONFS:
-                problems.append(f"{qid}: conf={conf!r}")
+                problems.append(f"{qid}: conf={conf!r} (pass {label})")
                 continue
             if len(exp) < 25:
-                problems.append(f"{qid}: explanation too short")
+                problems.append(f"{qid}: explanation too short (pass {label})")
                 continue
-            solved[qid] = {"ans": ans, "conf": conf, "exp": exp}
+            out[qid] = {"ans": ans, "conf": conf, "exp": exp}
+    return out
 
-    # --- the whole point: diff blind answer against the bank's inferred one ---
+
+def do_merge():
+    rows = {r["id"]: r for r in unverified()}
+    # Pass B lives in *.solved2.json beside pass A's *.solved.json.
+    #
+    # WHY A SECOND PASS EXISTS: this file's agree/disagree logic gets its
+    # evidence by diffing a blind solve against the bank's inferred answer. For
+    # a paper where the bank holds NO answer — Election Dec-2019 Paper II is 74
+    # such questions — that evidence simply isn't there, and a lone solve would
+    # ship whatever confidence it claimed for itself, unchecked. A second
+    # independent blind pass restores the corroboration. Run the two passes with
+    # DIFFERENT models: two runs of the same model agree without corroborating,
+    # because their errors correlate.
+    all_solved = sorted(glob.glob(os.path.join(BATCHES, "*.solved.json")))
+    b_paths = sorted(glob.glob(os.path.join(BATCHES, "*.solved2.json")))
+    a_paths = [p for p in all_solved if not p.endswith(".solved2.json")]
+    if not a_paths:
+        sys.exit(f"FAIL: no *.solved.json in {os.path.relpath(BATCHES, os.getcwd())}/")
+
+    problems = []
+    solved = _read_pass(a_paths, rows, problems, "A")
+    passB = _read_pass(b_paths, rows, problems, "B") if b_paths else {}
+
+    # --- the whole point: diff blind answer against a second derivation ---
+    # Normally that second derivation is the bank's inferred answer. Where the
+    # bank has none, pass B stands in for it.
     agree, disagree, no_bank = [], [], []
+    sv_agree, sv_disagree, uncorroborated = [], [], []
     final = {}
     for qid, s in solved.items():
         bank = rows[qid]["_bank_ans"]
         if bank is None:
-            no_bank.append(qid)
-            final[qid] = {**s, "agreement": "no-bank-answer",
-                          "prov": "Derived independently; the bank held no answer for this "
-                                  "question and MPSC published no key."}
+            b = passB.get(qid)
+            if b is None:
+                # Nothing to check it against. The solver does not get to claim
+                # "high" on an answer no second derivation has ever seen.
+                uncorroborated.append(qid)
+                capped = "medium" if s["conf"] == "high" else s["conf"]
+                final[qid] = {**s, "conf": capped, "agreement": "uncorroborated",
+                              "prov": "Derived by a single blind solve. The bank held no "
+                                      "answer and MPSC published no key, so nothing has "
+                                      "checked this — treat it as the weakest class of "
+                                      "answer in the app.",
+                              "note": "no second derivation"}
+            elif b["ans"] == s["ans"]:
+                sv_agree.append(qid)
+                # Two independent solves concur. Confidence is the LOWER of the
+                # two claims: if either pass was unsure, the pair is unsure.
+                order = {"low": 0, "medium": 1, "high": 2}
+                conf = min(s["conf"], b["conf"], key=lambda c: order[c])
+                final[qid] = {**s, "conf": conf, "agreement": "agree-solvers",
+                              "prov": "Two independent blind solves by different models "
+                                      "agree. The bank held no answer for this question and "
+                                      "MPSC published no key."}
+            else:
+                sv_disagree.append(qid)
+                capped = "medium" if s["conf"] == "high" else s["conf"]
+                final[qid] = {**s, "conf": capped, "agreement": "disagree",
+                              "alt_ans": b["ans"],
+                              "prov": f"Two independent blind solves disagree: ({s['ans']}) "
+                                      f"and ({b['ans']}). One is wrong and there is no key to "
+                                      f"settle it — both are shown; judge for yourself.",
+                              "note": f"second solver said ({b['ans']})"}
         elif bank == s["ans"]:
             agree.append(qid)
             final[qid] = {**s, "agreement": "agree",
@@ -168,7 +254,7 @@ def do_merge():
             # claim "high" on a question where an independent pass disagreed.
             capped = "medium" if s["conf"] == "high" else s["conf"]
             final[qid] = {**s, "conf": capped, "agreement": "disagree",
-                          "bank_ans": bank,
+                          "bank_ans": bank, "alt_ans": bank,
                           "prov": f"Blind solve gives ({s['ans']}); the bank's inferred "
                                   f"answer was ({bank}). They disagree, so one derivation is "
                                   f"wrong — treat with caution. No official MPSC key exists.",
@@ -180,10 +266,19 @@ def do_merge():
 
     total = len(rows)
     print(f"merged {len(final)}/{total} verified answers -> staged/solved.json\n")
-    print(f"  agree with bank      {len(agree):>4}"
-          f"  ({100 * len(agree) // max(1, len(final))}%)")
-    print(f"  DISAGREE with bank   {len(disagree):>4}   <-- one derivation is wrong")
-    print(f"  bank had no answer   {len(no_bank):>4}")
+    print(f"  checked against the bank's answer:")
+    print(f"    agree              {len(agree):>4}"
+          f"  ({100 * len(agree) // max(1, len(agree) + len(disagree))}% of those checked)")
+    print(f"    DISAGREE           {len(disagree):>4}   <-- one derivation is wrong")
+    if no_bank:
+        print(f"    bank had no answer {len(no_bank):>4}")
+    if sv_agree or sv_disagree or uncorroborated:
+        print(f"\n  no bank answer — checked against a second blind solve:")
+        print(f"    agree              {len(sv_agree):>4}")
+        print(f"    DISAGREE           {len(sv_disagree):>4}   <-- both shown to the reader")
+        if uncorroborated:
+            print(f"    UNCORROBORATED     {len(uncorroborated):>4}   <-- no second pass ran; "
+                  f"capped to medium")
     conf = Counter(v["conf"] for v in final.values())
     print(f"\n  confidence: " + "  ".join(f"{c} {conf.get(c, 0)}" for c in ("high", "medium", "low")))
 
@@ -214,9 +309,13 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--export", action="store_true")
     ap.add_argument("--merge", action="store_true")
+    ap.add_argument("--only", action="append", metavar="SRCKEY",
+                    help="restrict the export to these sittings (repeatable)")
+    ap.add_argument("--redo", action="store_true",
+                    help="re-export questions that already have a verified answer")
     a = ap.parse_args()
     if a.export:
-        do_export()
+        do_export(only=set(a.only) if a.only else None, redo=a.redo)
     elif a.merge:
         do_merge()
     else:

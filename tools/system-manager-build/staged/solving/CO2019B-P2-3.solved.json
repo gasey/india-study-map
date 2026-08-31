@@ -1,0 +1,102 @@
+{
+  "CO2019B-P2-41": {
+    "ans": "D",
+    "conf": "low",
+    "exp": "Headings, paragraphs and lists are all common structural elements used to describe/organize the content of a web page, so 'All of these' fits best. The question stem is oddly worded/ambiguous as printed, which lowers confidence."
+  },
+  "CO2019B-P2-42": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "<TABLE> is the container element that holds <TR> (row), <TD> (data cell) and <TH> (header cell) elements in HTML."
+  },
+  "CO2019B-P2-43": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "HTML was defined as an application (subset) of SGML (Standard Generalized Markup Language). The other spellings (SGMT, SGMD) are not real markup standards."
+  },
+  "CO2019B-P2-44": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "In HTML document structure, the <body> tag follows the <head> tag: <head> holds metadata/title, <body> holds the visible page content."
+  },
+  "CO2019B-P2-45": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "The <form> tag commonly carries both a METHOD attribute (GET/POST) and an ACTION attribute (the URL the form submits to), so both (a) and (b) are correct."
+  },
+  "CO2019B-P2-46": {
+    "ans": "A",
+    "conf": "medium",
+    "exp": "<SELECT> is a container tag that wraps one or more <option> elements, whereas <INPUT> is a void/empty element with no closing tag. Note <BODY> is technically also a container, but in this form-elements context <SELECT> is the intended answer."
+  },
+  "CO2019B-P2-47": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "The World Wide Web operates on the client-server model: browsers (clients) send requests to web servers, which return responses."
+  },
+  "CO2019B-P2-48": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "Orkut was a social networking site (run by Google), not a search engine, unlike Google, Bing and Yahoo which are search engines."
+  },
+  "CO2019B-P2-49": {
+    "ans": "B",
+    "conf": "medium",
+    "exp": "In HTTP, request and response messages share a similar general format (a start line, header fields, a blank line, and an optional body), which is why they are described as similar rather than fundamentally different."
+  },
+  "CO2019B-P2-50": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "The main/entry page a user lands on when opening a website is conventionally called the home page."
+  },
+  "CO2019B-P2-51": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "ASP.NET code executes on the server (IIS); the server processes it and sends only the resulting rendered HTML to the browser, so the client never sees the ASP.NET source code."
+  },
+  "CO2019B-P2-52": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "ASP.NET web form files use the .aspx extension (e.g., Default.aspx)."
+  },
+  "CO2019B-P2-53": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Internet Explorer, via its Windows Script Host/ActiveX scripting engine, had native built-in support for VBScript, unlike Firefox and Opera which only support JavaScript/ECMAScript."
+  },
+  "CO2019B-P2-54": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "JavaScript is a client-side scripting language designed to add interactivity and dynamic behavior to HTML pages (form validation, DOM manipulation, event handling), not for server-side processing or styling."
+  },
+  "CO2019B-P2-55": {
+    "ans": "A",
+    "conf": "medium",
+    "exp": "JavaScript code is organized into functions/methods, which are invoked (called) by name to execute the enclosed statements. Code can also run in response to a triggering event, so there is some overlap with option (c), which lowers confidence slightly."
+  },
+  "CO2019B-P2-56": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "The 'src' attribute of the <script> tag (e.g., <script src=\"file.js\">) is used to include an external JavaScript file in an HTML document."
+  },
+  "CO2019B-P2-57": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "'interface', 'throws' and 'short' are all ECMAScript (future) reserved words carried over from Java-style keywords, while 'program' has never been a reserved word in JavaScript."
+  },
+  "CO2019B-P2-58": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "VBScript's built-in LCase function converts a given string to all lowercase characters."
+  },
+  "CO2019B-P2-59": {
+    "ans": "D",
+    "conf": "medium",
+    "exp": "In business communication, the principle of simplicity is chiefly about using simple, familiar, everyday words instead of complex or technical vocabulary, so the reader/listener grasps the message quickly."
+  },
+  "CO2019B-P2-60": {
+    "ans": "D",
+    "conf": "low",
+    "exp": "Verbal, non-verbal and written communication are each most effective in different contexts (e.g., written for records, verbal for quick clarification, non-verbal for reinforcing tone), so textbooks typically treat all three together as effective; 'most effective' as printed is subjective, which lowers confidence."
+  }
+}

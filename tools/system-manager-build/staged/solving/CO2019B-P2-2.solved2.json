@@ -1,0 +1,102 @@
+{
+  "CO2019B-P2-21": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "DDL (Data Definition Language) is the SQL sub-language for CREATE, ALTER and DROP — defining a relation's structure, deleting relations and altering schemas. DML only inserts, updates, deletes and retrieves the rows inside an already-defined relation."
+  },
+  "CO2019B-P2-22": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "In SQL the SELECT clause names the attributes (columns) that appear in the query result; FROM lists the relations scanned and WHERE filters rows. DISTINCT is only a modifier on SELECT to suppress duplicate rows, not the clause that lists attributes."
+  },
+  "CO2019B-P2-23": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "A null value is the standard relational marker for a missing attribute value — either unknown, or inapplicable so that no value exists at all. It is distinct from zero or an empty string, and a tuple itself is never 'empty'."
+  },
+  "CO2019B-P2-24": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "The hierarchical data model organises records as a tree: every child segment has exactly one parent, with a single root. A general graph structure describes the network model instead, and a B-tree is an index structure, not a database schema."
+  },
+  "CO2019B-P2-25": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "The physical (internal) data model is the lowest level of the ANSI/SPARC three-level architecture — it describes how data is actually stored on disk, with files, blocks and indexes. Logical sits above it and external/view level is the highest, closest to the user."
+  },
+  "CO2019B-P2-26": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "A domain is the set of all permissible atomic values an attribute may take. An attribute is the named column itself and a tuple is one row, so neither denotes the value set."
+  },
+  "CO2019B-P2-27": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "MS Access database objects are Tables, Queries, Forms, Reports, Macros and Modules. 'Worksheets' belong to Excel, not Access, so it is the odd one out."
+  },
+  "CO2019B-P2-28": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Cardinality constraints on a relationship line specify the minimum and maximum number of entity occurrences that may participate (the min..max notation, e.g. 0..1 or 1..*). The minimum also encodes optional versus mandatory participation."
+  },
+  "CO2019B-P2-29": {
+    "ans": "A",
+    "conf": "medium",
+    "exp": "A Yes/No field holds only a two-state Boolean, so the standard textbook answer taught for this question is 1 bit. Note the caveat: Microsoft's own Access documentation lists the Yes/No data type's storage size as 1 byte, so the printed options are arguably defensible either way — 1 bit is the intended key."
+  },
+  "CO2019B-P2-30": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "In an Access table the columns are called fields and the rows are called records. Option D simply repeats the word from the question and is not the Access term being asked for."
+  },
+  "CO2019B-P2-31": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "Tables are the only Access objects that actually store data; forms, reports and queries all present or manipulate data that ultimately lives in tables. A query stores only its definition, not a copy of the rows."
+  },
+  "CO2019B-P2-32": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "A weak entity set has no primary key of its own and depends on its owner via the identifying relationship, in which its participation is total and mandatory. The standard textbook statement is that it may take part in relationships other than that identifying one; the other three options are not real ER terms."
+  },
+  "CO2019B-P2-33": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Datasheet View shows the table as a spreadsheet-like tabular grid, and typing values straight into it lets Access build the table and infer field types. Design View is where you declare field names and data types instead of entering data, and there is no 'Grid View' object in Access."
+  },
+  "CO2019B-P2-34": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "The HTML attribute maxlength caps the number of characters a user can type into a text input. The size attribute only sets the visible width of the box in characters and does not restrict input, and 'Len' is not an HTML attribute."
+  },
+  "CO2019B-P2-35": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "A description (definition) list opens with <DL>; inside it <DT> marks each term and <DD> its description. <LL> and <DS> are not HTML tags at all."
+  },
+  "CO2019B-P2-36": {
+    "ans": "B",
+    "conf": "medium",
+    "exp": "<OL> is the tag that creates an ordered (numbered) list — it is the container whose numbering the browser generates. <LI> only marks each item and produces bullets or numbers depending on its parent, so option C is a defensible reading of a loosely worded question; the singular 'which tag' points to <OL>."
+  },
+  "CO2019B-P2-37": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "The <HTML> tag is the root element that opens every web page, with <HEAD> and <BODY> nested inside it. <TITLE> sits within the head and <BODY> comes after the head, so neither can start the document."
+  },
+  "CO2019B-P2-38": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "Heading tags run from <h1> (largest) down to <h6> (smallest), so <h1> gives the largest heading. <head> is the document metadata section, not a heading, and <heading> is not a valid tag."
+  },
+  "CO2019B-P2-39": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "<a> is the anchor element; with an href attribute it creates a hyperlink to another page or resource. Images use <img> and text alignment is done with CSS or the deprecated align attribute."
+  },
+  "CO2019B-P2-40": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "The align attribute controls horizontal alignment inside a table cell, so <td align=\"left\"> is correct in classic HTML. valign sets vertical alignment (top/middle/bottom) and would not left-align, and the other two are not valid syntax."
+  }
+}

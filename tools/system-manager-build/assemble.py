@@ -154,11 +154,22 @@ def main(force=False):
         r["conf"] = s["conf"]
         r["exp"] = s["exp"]
         r["prov"] = s["prov"]
-        # Where the blind solve and the bank disagree, carry the rival answer as
-        # `alt` so the app can show BOTH and let a human judge, rather than
-        # burying the conflict in a prose provenance line.
-        if s.get("agreement") == "disagree" and s.get("bank_ans"):
-            r["alt"] = s["bank_ans"]
+        # Where two derivations disagree, carry the rival answer as `alt` so the
+        # app can show BOTH and let a human judge, rather than burying the
+        # conflict in a prose provenance line. The rival is normally the bank's
+        # inferred answer; for papers the bank never answered it is a second
+        # blind solve, which solve.py records as `alt_ans`. `bank_ans` is still
+        # read so solved.json files written before that change keep working.
+        if s.get("agreement") == "disagree":
+            rival = s.get("alt_ans") or s.get("bank_ans")
+            if rival:
+                r["alt"] = rival
+                # Tell the UI WHERE the rival came from. `bank_ans` is set only
+                # when the question bank actually held an answer; where it did
+                # not, the rival is a second blind solve. app.js labels the row
+                # from this, so a missing altSrc would credit the bank with an
+                # answer it never had.
+                r["altSrc"] = "bank" if s.get("bank_ans") else "solver"
         if s.get("note"):
             r["note"] = s["note"]
         r["needs_verify"] = False

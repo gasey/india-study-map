@@ -465,7 +465,8 @@ window.QUESTIONS = [
     "conf": "medium",
     "prov": "Blind solve gives (C); the bank's inferred answer was (D). They disagree, so one derivation is wrong — treat with caution. No official MPSC key exists.",
     "note": "conflicts with bank answer (D)",
-    "alt": "D"
+    "alt": "D",
+    "altSrc": "bank"
   },
   {
     "id": "CO2016A-P1-22",
@@ -686,7 +687,8 @@ window.QUESTIONS = [
     "conf": "medium",
     "prov": "Blind solve gives (D); the bank's inferred answer was (B). They disagree, so one derivation is wrong — treat with caution. No official MPSC key exists.",
     "note": "conflicts with bank answer (B)",
-    "alt": "B"
+    "alt": "B",
+    "altSrc": "bank"
   },
   {
     "id": "CO2016A-P1-32",
@@ -709,7 +711,8 @@ window.QUESTIONS = [
     "conf": "medium",
     "prov": "Blind solve gives (C); the bank's inferred answer was (A). They disagree, so one derivation is wrong — treat with caution. No official MPSC key exists.",
     "note": "conflicts with bank answer (A)",
-    "alt": "A"
+    "alt": "A",
+    "altSrc": "bank"
   },
   {
     "id": "CO2016A-P1-33",
@@ -820,7 +823,8 @@ window.QUESTIONS = [
     "conf": "medium",
     "prov": "Blind solve gives (A); the bank's inferred answer was (B). They disagree, so one derivation is wrong — treat with caution. No official MPSC key exists.",
     "note": "conflicts with bank answer (B)",
-    "alt": "B"
+    "alt": "B",
+    "altSrc": "bank"
   },
   {
     "id": "CO2016A-P1-38",
@@ -1173,7 +1177,8 @@ window.QUESTIONS = [
     "conf": "medium",
     "prov": "Blind solve gives (C); the bank's inferred answer was (D). They disagree, so one derivation is wrong — treat with caution. No official MPSC key exists.",
     "note": "conflicts with bank answer (D)",
-    "alt": "D"
+    "alt": "D",
+    "altSrc": "bank"
   },
   {
     "id": "CO2016A-P1-54",
@@ -1677,9 +1682,9 @@ window.QUESTIONS = [
     },
     "ans": "B",
     "exp": "An analog computer operates directly on continuously varying physical quantities such as voltage, pressure or shaft rotation, so the input is never digitised at all. Options A and C describe a digital or hybrid machine, not a pure analog one.",
-    "conf": "high",
-    "prov": "Derived independently; the bank held no answer for this question and MPSC published no key.",
-    "note": ""
+    "conf": "medium",
+    "prov": "Derived by a single blind solve. The bank held no answer and MPSC published no key, so nothing has checked this — treat it as the weakest class of answer in the app.",
+    "note": "no second derivation"
   },
   {
     "id": "CO2016B-P1-2",
@@ -2076,7 +2081,8 @@ window.QUESTIONS = [
     "conf": "medium",
     "prov": "Blind solve gives (A); the bank's inferred answer was (B). They disagree, so one derivation is wrong — treat with caution. No official MPSC key exists.",
     "note": "conflicts with bank answer (B)",
-    "alt": "B"
+    "alt": "B",
+    "altSrc": "bank"
   },
   {
     "id": "CO2016B-P1-20",
@@ -2099,7 +2105,8 @@ window.QUESTIONS = [
     "conf": "medium",
     "prov": "Blind solve gives (B); the bank's inferred answer was (D). They disagree, so one derivation is wrong — treat with caution. No official MPSC key exists.",
     "note": "conflicts with bank answer (D)",
-    "alt": "D"
+    "alt": "D",
+    "altSrc": "bank"
   },
   {
     "id": "CO2016B-P1-21",
@@ -2780,8 +2787,8 @@ window.QUESTIONS = [
     "ans": "A",
     "exp": "Word's Insert Table dialog accepts a minimum of one column and one row, so the smallest valid table is a single cell, 1 and 1. The question is worded loosely - it says document where it means table - but only the 1x1 answer matches what Word actually permits.",
     "conf": "medium",
-    "prov": "Derived independently; the bank held no answer for this question and MPSC published no key.",
-    "note": ""
+    "prov": "Derived by a single blind solve. The bank held no answer and MPSC published no key, so nothing has checked this — treat it as the weakest class of answer in the app.",
+    "note": "no second derivation"
   },
   {
     "id": "CO2016B-P1-52",
@@ -2914,7 +2921,8 @@ window.QUESTIONS = [
     "conf": "medium",
     "prov": "Blind solve gives (A); the bank's inferred answer was (D). They disagree, so one derivation is wrong — treat with caution. No official MPSC key exists.",
     "note": "conflicts with bank answer (D)",
-    "alt": "D"
+    "alt": "D",
+    "altSrc": "bank"
   },
   {
     "id": "CO2016B-P1-58",
@@ -3091,7 +3099,8 @@ window.QUESTIONS = [
     "conf": "medium",
     "prov": "Blind solve gives (D); the bank's inferred answer was (C). They disagree, so one derivation is wrong — treat with caution. No official MPSC key exists.",
     "note": "conflicts with bank answer (C)",
-    "alt": "C"
+    "alt": "C",
+    "altSrc": "bank"
   },
   {
     "id": "CO2016B-P1-66",
@@ -4262,7 +4271,8 @@ window.QUESTIONS = [
     "conf": "low",
     "prov": "Underline marker recovered from a 300dpi render of the source PDF — the question bank lost it, leaving the question unanswerable. Answer derived from the recovered text; no official MPSC key exists.",
     "note": "defective as printed: the underlined word is a noun, which is not among the options",
-    "alt": "B"
+    "alt": "B",
+    "altSrc": "bank"
   },
   {
     "id": "CO2016A-GE-42",
@@ -4501,7 +4511,8 @@ window.QUESTIONS = [
     "conf": "medium",
     "prov": "Blind solve gives (C); the bank's inferred answer was (B). They disagree, so one derivation is wrong — treat with caution. No official MPSC key exists.",
     "note": "conflicts with bank answer (B)",
-    "alt": "B"
+    "alt": "B",
+    "altSrc": "bank"
   },
   {
     "id": "CO2016A-GE-53",
@@ -4721,7 +4732,8 @@ window.QUESTIONS = [
     "conf": "medium",
     "prov": "Blind solve gives (A); the bank's inferred answer was (C). They disagree, so one derivation is wrong — treat with caution. No official MPSC key exists.",
     "note": "conflicts with bank answer (C)",
-    "alt": "C"
+    "alt": "C",
+    "altSrc": "bank"
   },
   {
     "id": "CO2016A-GE-63",
@@ -4766,7 +4778,8 @@ window.QUESTIONS = [
     "conf": "medium",
     "prov": "Blind solve gives (A); the bank's inferred answer was (D). They disagree, so one derivation is wrong — treat with caution. No official MPSC key exists.",
     "note": "conflicts with bank answer (D)",
-    "alt": "D"
+    "alt": "D",
+    "altSrc": "bank"
   },
   {
     "id": "CO2016A-GE-65",
@@ -6265,7 +6278,8 @@ window.QUESTIONS = [
     "conf": "medium",
     "prov": "Blind solve gives (A); the bank's inferred answer was (C). They disagree, so one derivation is wrong — treat with caution. No official MPSC key exists.",
     "note": "conflicts with bank answer (C)",
-    "alt": "C"
+    "alt": "C",
+    "altSrc": "bank"
   },
   {
     "id": "CO2016B-GE-51",
@@ -6350,7 +6364,8 @@ window.QUESTIONS = [
     "conf": "medium",
     "prov": "Blind solve gives (A); the bank's inferred answer was (C). They disagree, so one derivation is wrong — treat with caution. No official MPSC key exists.",
     "note": "conflicts with bank answer (C)",
-    "alt": "C"
+    "alt": "C",
+    "altSrc": "bank"
   },
   {
     "id": "CO2016B-GE-55",
@@ -6415,7 +6430,8 @@ window.QUESTIONS = [
     "conf": "medium",
     "prov": "Blind solve gives (A); the bank's inferred answer was (B). They disagree, so one derivation is wrong — treat with caution. No official MPSC key exists.",
     "note": "conflicts with bank answer (B)",
-    "alt": "B"
+    "alt": "B",
+    "altSrc": "bank"
   },
   {
     "id": "CO2016B-GE-58",
@@ -16488,6 +16504,1623 @@ window.QUESTIONS = [
     "exp": "",
     "conf": null,
     "prov": "Transcribed from Computer Operator under Election Dept, December 2019 - Paper I. MPSC published no answer key for this paper; answer is derived and unverified.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-1",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 1,
+    "paper": "TECH2",
+    "unit": "I",
+    "sub": "Types of Networks",
+    "q": "If N devices are connected with each other in mesh topology, then total number of parts that is required by each device is",
+    "opts": {
+      "A": "N",
+      "B": "N-1",
+      "C": "N/2",
+      "D": "2N"
+    },
+    "ans": "B",
+    "exp": "In a full mesh topology every device is directly wired to every other device, so each device needs one dedicated I/O port per remote device, i.e. N-1 ports/links, not N.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-2",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 2,
+    "paper": "TECH2",
+    "unit": "I",
+    "sub": "Types of Networks",
+    "q": "A local area network",
+    "opts": {
+      "A": "That connects thirty personal computers can provide more computing power than a mini computer.",
+      "B": "Controls error detection and correction.",
+      "C": "Constructs packets of data and sends them across the network.",
+      "D": "None of these."
+    },
+    "ans": "A",
+    "exp": "A LAN linking many personal computers can pool their processing power to exceed a single minicomputer's throughput; option B describes a data-link protocol function and C describes a network/transport protocol function, neither of which defines a LAN specifically.",
+    "conf": "medium",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-3",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 3,
+    "paper": "TECH2",
+    "unit": "I",
+    "sub": "Switches",
+    "q": "A bridge has access to which address of a station on the same network?",
+    "opts": {
+      "A": "Physical",
+      "B": "Network",
+      "C": "Service access point",
+      "D": "All of these"
+    },
+    "ans": "A",
+    "exp": "A bridge operates at the data-link layer and forwards frames using the physical (MAC) address of stations on the same network segment, not the network-layer (logical) address.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-4",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 4,
+    "paper": "TECH2",
+    "unit": "I",
+    "sub": "OSI Model",
+    "q": "Decryption and encryption of data are the responsibility of",
+    "opts": {
+      "A": "Physical layer",
+      "B": "Data link layer",
+      "C": "Presentation layer",
+      "D": "Session layer"
+    },
+    "ans": "C",
+    "exp": "The OSI presentation layer handles data translation, compression, and encryption/decryption before data is passed to the application layer.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-5",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 5,
+    "paper": "TECH2",
+    "unit": "I",
+    "sub": "Hubs",
+    "q": "Repeaters function in",
+    "opts": {
+      "A": "Physical layer",
+      "B": "Data link layer",
+      "C": "Network layer",
+      "D": "Both (a) & (b)"
+    },
+    "ans": "A",
+    "exp": "A repeater simply regenerates and amplifies the electrical/optical signal, so it operates purely at the physical layer with no awareness of frames or addresses.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-6",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 6,
+    "paper": "TECH2",
+    "unit": "I",
+    "sub": "Types of Networks",
+    "q": "In a broad sense, a railway track is an example of",
+    "opts": {
+      "A": "Simplex",
+      "B": "Half-duplex",
+      "C": "Full duplex",
+      "D": "All of these"
+    },
+    "ans": "B",
+    "exp": "A single railway track allows trains to travel in either direction but not simultaneously in both directions at once, which is the defining property of half-duplex transmission.",
+    "conf": "medium",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-7",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 7,
+    "paper": "TECH2",
+    "unit": "I",
+    "sub": "IP Addressing",
+    "q": "IP address be used to specify a broadcast and map to hardware broadcast if available by conversion broadcast address has hosted with all bits",
+    "opts": {
+      "A": "0",
+      "B": "1",
+      "C": "Both (a) & (b)",
+      "D": "None of these"
+    },
+    "ans": "B",
+    "exp": "The OCR text for this question is garbled, but the underlying networking fact being tested is standard: a broadcast address is formed by setting all host-id bits to 1, so hardware can map it to the physical broadcast address.",
+    "conf": "medium",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-8",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 8,
+    "paper": "TECH2",
+    "unit": "I",
+    "sub": "File and Printer Sharing",
+    "q": "What must you do to create a printer pool containing four shared printers on your Windows NT Server computer?",
+    "opts": {
+      "A": "Set up all the printers to share the same parallel part.",
+      "B": "Set individual printer properties for each printer.",
+      "C": "Set up all printers as network-interface printer devices.",
+      "D": "Specify the same printer driver and settings for all printers."
+    },
+    "ans": "D",
+    "exp": "To pool printers under Windows NT/print spooler behavior, all physical printers in the pool must use the same printer driver and identical settings so the client sees them as a single logical printer, even though they can be on different ports.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-9",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 9,
+    "paper": "TECH2",
+    "unit": "II",
+    "sub": "Relational Database Management System",
+    "q": "A primary key, if combined with a foreign key creates.",
+    "opts": {
+      "A": "Parent child relationship between the tables that connect them.",
+      "B": "Many-to-many relationship between the tables that connect them.",
+      "C": "Network model between the tables that connect them.",
+      "D": "None of these"
+    },
+    "ans": "A",
+    "exp": "When a primary key in one table is referenced as a foreign key in another, it establishes a parent-child (one-to-many) relationship between the two tables, not a many-to-many or network-model link.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-10",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 10,
+    "paper": "TECH2",
+    "unit": "II",
+    "sub": "Database Concepts",
+    "q": "The database environment has all the following components except",
+    "opts": {
+      "A": "Users",
+      "B": "Separate files",
+      "C": "Database",
+      "D": "Database administration"
+    },
+    "ans": "B",
+    "exp": "A database environment consolidates data into a shared database managed by a DBA and accessed by users and applications; 'separate files' describes the older file-processing approach the database approach was designed to eliminate.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-11",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 11,
+    "paper": "TECH2",
+    "unit": "II",
+    "sub": "Database Architecture",
+    "q": "The way a particular application views the data from the database that the application uses is a",
+    "opts": {
+      "A": "Module",
+      "B": "Relational model",
+      "C": "Schema",
+      "D": "Subschema"
+    },
+    "ans": "D",
+    "exp": "A subschema defines the subset/view of the overall database schema that a particular application or user is permitted to see and work with.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": "",
+    "dup_of": "CO2019A-P2-23"
+  },
+  {
+    "id": "CO2019B-P2-12",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 12,
+    "paper": "TECH2",
+    "unit": "II",
+    "sub": "Relational Database Management System",
+    "q": "The relational model uses some unfamiliar terminology. A tuple is equivalent to",
+    "opts": {
+      "A": "Record",
+      "B": "Field",
+      "C": "File",
+      "D": "Database"
+    },
+    "ans": "A",
+    "exp": "In relational model terminology a tuple is a row of a relation, which corresponds directly to a record in traditional file terminology.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-13",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 13,
+    "paper": "TECH2",
+    "unit": "II",
+    "sub": "Database Concepts",
+    "q": "An advantage of database approach is",
+    "opts": {
+      "A": "Elimination of data redundancy",
+      "B": "Ability to associate related data",
+      "C": "Increases security",
+      "D": "All of these"
+    },
+    "ans": "D",
+    "exp": "The database approach reduces data redundancy, lets related data be associated and queried together, and improves security through centralized access control, so all three listed benefits apply.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-14",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 14,
+    "paper": "TECH2",
+    "unit": "II",
+    "sub": "Database Concepts",
+    "q": "A database administrator's function is",
+    "opts": {
+      "A": "Database design",
+      "B": "Backing up the database",
+      "C": "Performance monitoring",
+      "D": "All of these"
+    },
+    "ans": "D",
+    "exp": "A database administrator's responsibilities span database design, backup/recovery, and performance monitoring, among other duties, so all of the listed tasks fall under the DBA role.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-15",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 15,
+    "paper": "TECH2",
+    "unit": "II",
+    "sub": "Data Models",
+    "q": "A network structure",
+    "opts": {
+      "A": "Allows a many-to-many relationship",
+      "B": "Is a physical representation of data",
+      "C": "Is conceptually simple",
+      "D": "Will be the dominant database of the future"
+    },
+    "ans": "A",
+    "exp": "The network (CODASYL) data model explicitly supports many-to-many relationships by allowing a record to have multiple parent and owner records, unlike the simpler hierarchical model.",
+    "conf": "medium",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-16",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 16,
+    "paper": "TECH2",
+    "unit": "II",
+    "sub": "Relational Database Management System",
+    "q": "The term attribute refers to a __________ of a table.",
+    "opts": {
+      "A": "Record",
+      "B": "Column",
+      "C": "Tuple",
+      "D": "Key"
+    },
+    "ans": "B",
+    "exp": "An attribute corresponds to a column (field) of a table, describing one property shared by every row/tuple in that table.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-17",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 17,
+    "paper": "TECH2",
+    "unit": "II",
+    "sub": "Relational Database Management System",
+    "q": "Which one of the following is a set of one or more attributes taken collectively to uniquely identify a record?",
+    "opts": {
+      "A": "Candidate key",
+      "B": "Sub-key",
+      "C": "Super key",
+      "D": "Foreign key"
+    },
+    "ans": "A",
+    "exp": "A candidate key is the standard term for a minimal set of one or more attributes that collectively identifies a record uniquely; a super key is a broader (not necessarily minimal) set, which this question's phrasing does not distinguish, so there is some ambiguity between the two terms.",
+    "conf": "medium",
+    "prov": "Two independent blind solves disagree: (A) and (C). One is wrong and there is no key to settle it — both are shown; judge for yourself.",
+    "note": "second solver said (C)",
+    "dup_of": "CO2019A-P2-13",
+    "alt": "C",
+    "altSrc": "solver"
+  },
+  {
+    "id": "CO2019B-P2-18",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 18,
+    "paper": "TECH2",
+    "unit": "II",
+    "sub": "Relational Database Management System",
+    "q": "Student (ID, name, tot-cred). In this query which attributes form the primary key?",
+    "opts": {
+      "A": "Name",
+      "B": "Dept",
+      "C": "Tot-cred",
+      "D": "ID"
+    },
+    "ans": "D",
+    "exp": "ID is the unique student identifier in Student(ID, name, tot-cred), while name and tot-cred can repeat across different students, so ID is the natural primary key.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-19",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 19,
+    "paper": "TECH2",
+    "unit": "II",
+    "sub": "Relational Database Management System",
+    "q": "In RDBMS, data is presented as a collection of",
+    "opts": {
+      "A": "Tables",
+      "B": "Attributes",
+      "C": "Relations",
+      "D": "Entities"
+    },
+    "ans": "A",
+    "exp": "In a relational database management system, data is organized and presented to users as a collection of tables (relations), each made up of rows and columns.",
+    "conf": "medium",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-20",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 20,
+    "paper": "TECH2",
+    "unit": "II",
+    "sub": "Relational Database Management System",
+    "q": "The number of attributes in relation is called as its",
+    "opts": {
+      "A": "Cardinality",
+      "B": "Degree",
+      "C": "Tuple",
+      "D": "Entity"
+    },
+    "ans": "B",
+    "exp": "The number of attributes (columns) in a relation is called its degree, while the number of tuples (rows) is called its cardinality.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-21",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 21,
+    "paper": "TECH2",
+    "unit": "II",
+    "sub": "Data Definition Language (DDL)",
+    "q": "Which one of the following is used to define the structure of a relation, deleting relations and relating schemas.",
+    "opts": {
+      "A": "DML (Data Manipulation Language)",
+      "B": "DDL (Data Definition Language)",
+      "C": "Query",
+      "D": "Relational Schema"
+    },
+    "ans": "B",
+    "exp": "DDL (Data Definition Language) is used to define, alter, and drop the structure of relations and schemas, e.g. CREATE, ALTER, DROP.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-22",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 22,
+    "paper": "TECH2",
+    "unit": "II",
+    "sub": "Data Manipulation Language (DML)",
+    "q": "The __________ clause is used to list the attributes desired in the result of a query.",
+    "opts": {
+      "A": "Where",
+      "B": "Select",
+      "C": "From",
+      "D": "Distinct"
+    },
+    "ans": "B",
+    "exp": "The SELECT clause lists the attributes to be returned by a query, as in SELECT column FROM table.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-23",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 23,
+    "paper": "TECH2",
+    "unit": "II",
+    "sub": "Relational Database Management System",
+    "q": "A __________ indicates an absent value that may exist but be unknown or that may not exist at all.",
+    "opts": {
+      "A": "Empty tuple",
+      "B": "New value",
+      "C": "Null value",
+      "D": "Old value"
+    },
+    "ans": "C",
+    "exp": "A null value represents an unknown, inapplicable, or missing value for an attribute, distinct from zero or an empty string.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-24",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 24,
+    "paper": "TECH2",
+    "unit": "II",
+    "sub": "Data Models",
+    "q": "The scheme for hierarchical database is",
+    "opts": {
+      "A": "A tree",
+      "B": "A graph",
+      "C": "A B-tree",
+      "D": "None of these"
+    },
+    "ans": "A",
+    "exp": "The hierarchical data model organizes records as a tree, with each child record having exactly one parent.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-25",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 25,
+    "paper": "TECH2",
+    "unit": "II",
+    "sub": "Database Architecture",
+    "q": "Which one is lowest level data model",
+    "opts": {
+      "A": "Physical data model",
+      "B": "Logical data model",
+      "C": "External data model",
+      "D": "None of these"
+    },
+    "ans": "A",
+    "exp": "The physical data model is the lowest level, describing how data is actually stored on storage media (files, blocks, indexes).",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-26",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 26,
+    "paper": "TECH2",
+    "unit": "II",
+    "sub": "Relational Database Management System",
+    "q": "The set of all possible values of data items is called",
+    "opts": {
+      "A": "Domain",
+      "B": "Attribute",
+      "C": "Tuple",
+      "D": "None of these"
+    },
+    "ans": "A",
+    "exp": "The domain of an attribute is the set of all permissible values that attribute can take.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-27",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 27,
+    "paper": "TECH2",
+    "unit": "II",
+    "sub": "Database Concepts",
+    "q": "Which of the following is not a type of MS Access database object?",
+    "opts": {
+      "A": "Table",
+      "B": "Form",
+      "C": "Worksheets",
+      "D": "Modules"
+    },
+    "ans": "C",
+    "exp": "MS Access database objects are Tables, Queries, Forms, Reports, Macros and Modules; \"Worksheets\" is an Excel concept, not an Access object type.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-28",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 28,
+    "paper": "TECH2",
+    "unit": "II",
+    "sub": "ER Modelling",
+    "q": "A relationship line that may have an associated minimum and maximum",
+    "opts": {
+      "A": "Values",
+      "B": "Cardinalities",
+      "C": "Range",
+      "D": "Attributes"
+    },
+    "ans": "B",
+    "exp": "Cardinality on a relationship line specifies the minimum and maximum number of instances of one entity that can relate to instances of another.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-29",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 29,
+    "paper": "TECH2",
+    "unit": "II",
+    "sub": "Tables",
+    "q": "The size of yes/no field is always",
+    "opts": {
+      "A": "1 Bit",
+      "B": "1 Byte",
+      "C": "1 Character",
+      "D": "1 KB"
+    },
+    "ans": "A",
+    "exp": "A Yes/No (Boolean) field in MS Access stores only a true/false state, which needs just 1 bit.",
+    "conf": "medium",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-30",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 30,
+    "paper": "TECH2",
+    "unit": "II",
+    "sub": "Tables",
+    "q": "The columns in a Microsoft access table are also called",
+    "opts": {
+      "A": "Rows",
+      "B": "Records",
+      "C": "Fields",
+      "D": "Columns"
+    },
+    "ans": "C",
+    "exp": "In an MS Access table the columns are called Fields, holding a single attribute of each record (row).",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-31",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 31,
+    "paper": "TECH2",
+    "unit": "II",
+    "sub": "Tables",
+    "q": "Which of the following database objects holds data?",
+    "opts": {
+      "A": "Forms",
+      "B": "Reports",
+      "C": "Queries",
+      "D": "Tables"
+    },
+    "ans": "D",
+    "exp": "Tables are the only Access objects that actually store data; Forms, Reports and Queries only display, print, or retrieve data held in tables.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-32",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 32,
+    "paper": "TECH2",
+    "unit": "II",
+    "sub": "ER Modelling",
+    "q": "A weak entity set can make participation in any relationship other than the",
+    "opts": {
+      "A": "Strong relationship",
+      "B": "Relational relationship",
+      "C": "Domain relationship",
+      "D": "Identifying relationship"
+    },
+    "ans": "D",
+    "exp": "A weak entity set has total, mandatory participation in exactly one identifying relationship with its owner entity, so by definition it cannot substitute another relationship for that identifying one; among the given options only \"identifying relationship\" is a genuine DBMS term, the rest are distractors, and the question's own wording is somewhat garbled so confidence is not high.",
+    "conf": "medium",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-33",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 33,
+    "paper": "TECH2",
+    "unit": "II",
+    "sub": "Tables",
+    "q": "Which option allows us to build a new table by entering data directly into a tabular grid?",
+    "opts": {
+      "A": "Datasheet View",
+      "B": "Design View",
+      "C": "Linked Table",
+      "D": "Grid View"
+    },
+    "ans": "A",
+    "exp": "Datasheet View presents a table as a row/column grid where data can be typed directly to build the table, unlike Design View which is used to define field structure.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-34",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 34,
+    "paper": "TECH2",
+    "unit": "III",
+    "sub": "Forms",
+    "q": "Which of the following attributes of text box control allows to limit the maximum character?",
+    "opts": {
+      "A": "Size",
+      "B": "Len",
+      "C": "Maxlength",
+      "D": "All of these"
+    },
+    "ans": "C",
+    "exp": "The MaxLength property of a text box control restricts the maximum number of characters a user can type into it.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-35",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 35,
+    "paper": "TECH2",
+    "unit": "III",
+    "sub": "Lists",
+    "q": "From which tag the descriptive list starts?",
+    "opts": {
+      "A": "<LL>",
+      "B": "<DD>",
+      "C": "<DL>",
+      "D": "<DS>"
+    },
+    "ans": "C",
+    "exp": "A descriptive (definition) list in HTML starts with the <DL> tag, with <DT> for terms and <DD> for their descriptions.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-36",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 36,
+    "paper": "TECH2",
+    "unit": "III",
+    "sub": "Lists",
+    "q": "Which of the tag is used to create a number list?",
+    "opts": {
+      "A": "<LI>",
+      "B": "<OL>",
+      "C": "<LI> and <OL>",
+      "D": "None of these"
+    },
+    "ans": "B",
+    "exp": "The <OL> tag creates an ordered (numbered) list; list items still use <LI>, but <OL> is the tag that specifically produces the numbering, which is what the question asks for.",
+    "conf": "medium",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-37",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 37,
+    "paper": "TECH2",
+    "unit": "III",
+    "sub": "Document Structure",
+    "q": "Web pages start with which of the following tag?",
+    "opts": {
+      "A": "<Body>",
+      "B": "<Title>",
+      "C": "<HTML>",
+      "D": "<Form>"
+    },
+    "ans": "C",
+    "exp": "Every HTML web page begins with the <HTML> tag, which wraps the entire document including <head> and <body>.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": "",
+    "dup_of": "CO2019A-P2-35"
+  },
+  {
+    "id": "CO2019B-P2-38",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 38,
+    "paper": "TECH2",
+    "unit": "III",
+    "sub": "Text Formatting",
+    "q": "Correct HTML tag for the largest heading is",
+    "opts": {
+      "A": "<head>",
+      "B": "<h6>",
+      "C": "<heading>",
+      "D": "<h1>"
+    },
+    "ans": "D",
+    "exp": "<h1> is the largest of the six HTML heading levels (<h1> through <h6>), with <h6> being the smallest.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-39",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 39,
+    "paper": "TECH2",
+    "unit": "III",
+    "sub": "Hyperlinks",
+    "q": "<a>and </a> are the tags used for",
+    "opts": {
+      "A": "Adding image",
+      "B": "Aligning text",
+      "C": "Audio-voiced text",
+      "D": "Adding links to your page"
+    },
+    "ans": "D",
+    "exp": "The <a> anchor tag creates a hyperlink to another page or resource, using its href attribute to give the destination address.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-40",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 40,
+    "paper": "TECH2",
+    "unit": "III",
+    "sub": "Tables",
+    "q": "Correct HTML to left-align the content inside a table cell is",
+    "opts": {
+      "A": "<td =\"left\">",
+      "B": "<td valign= \"left\">",
+      "C": "<td align =\"left\">",
+      "D": "<td leftalign>"
+    },
+    "ans": "C",
+    "exp": "The correct syntax to left-align content inside a table cell is <td align=\"left\">; \"valign\" controls vertical, not horizontal, alignment.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": "",
+    "dup_of": "CO2019A-P2-37"
+  },
+  {
+    "id": "CO2019B-P2-41",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 41,
+    "paper": "TECH2",
+    "unit": "III",
+    "sub": "Document Structure",
+    "q": "The common element which describes the web page is",
+    "opts": {
+      "A": "Heading",
+      "B": "Paragraph",
+      "C": "List",
+      "D": "All of these"
+    },
+    "ans": "D",
+    "exp": "Headings, paragraphs and lists are all common structural elements used to describe/organize the content of a web page, so 'All of these' fits best. The question stem is oddly worded/ambiguous as printed, which lowers confidence.",
+    "conf": "low",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-42",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 42,
+    "paper": "TECH2",
+    "unit": "III",
+    "sub": "Tables",
+    "q": "Main container for <TR>, <TD> and <TH> is",
+    "opts": {
+      "A": "<TABLE>",
+      "B": "<GROUP>",
+      "C": "<DATA>",
+      "D": "All of these"
+    },
+    "ans": "A",
+    "exp": "<TABLE> is the container element that holds <TR> (row), <TD> (data cell) and <TH> (header cell) elements in HTML.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-43",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 43,
+    "paper": "TECH2",
+    "unit": "III",
+    "sub": "Document Structure",
+    "q": "HTML is a subset of",
+    "opts": {
+      "A": "SGMT",
+      "B": "SGML",
+      "C": "SGMD",
+      "D": "None of these"
+    },
+    "ans": "B",
+    "exp": "HTML was defined as an application (subset) of SGML (Standard Generalized Markup Language). The other spellings (SGMT, SGMD) are not real markup standards.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": "",
+    "dup_of": "CO2019A-P2-36"
+  },
+  {
+    "id": "CO2019B-P2-44",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 44,
+    "paper": "TECH2",
+    "unit": "III",
+    "sub": "Document Structure",
+    "q": "The body tag is usually used after",
+    "opts": {
+      "A": "Title tag",
+      "B": "HEAD tag",
+      "C": "EM tag",
+      "D": "FORM tag"
+    },
+    "ans": "B",
+    "exp": "In HTML document structure, the <body> tag follows the <head> tag: <head> holds metadata/title, <body> holds the visible page content.",
+    "conf": "medium",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-45",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 45,
+    "paper": "TECH2",
+    "unit": "III",
+    "sub": "Forms",
+    "q": "The attribute of <form> tag.",
+    "opts": {
+      "A": "METHOD",
+      "B": "ACTION",
+      "C": "Both (a) & (b)",
+      "D": "None of these"
+    },
+    "ans": "C",
+    "exp": "The <form> tag commonly carries both a METHOD attribute (GET/POST) and an ACTION attribute (the URL the form submits to), so both (a) and (b) are correct.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-46",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 46,
+    "paper": "TECH2",
+    "unit": "III",
+    "sub": "Document Structure",
+    "q": "Which one of the following is a container?",
+    "opts": {
+      "A": "<SELECT>",
+      "B": "<VALUE>",
+      "C": "<INPUT>",
+      "D": "<Body>"
+    },
+    "ans": "A",
+    "exp": "<SELECT> is a container tag that wraps one or more <option> elements, whereas <INPUT> is a void/empty element with no closing tag. Note <BODY> is technically also a container, but in this form-elements context <SELECT> is the intended answer.",
+    "conf": "low",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-47",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 47,
+    "paper": "TECH2",
+    "unit": "III",
+    "sub": "World Wide Web",
+    "q": "WWW is based on which model?",
+    "opts": {
+      "A": "Local-server",
+      "B": "Client-server",
+      "C": "3-tier",
+      "D": "None of these"
+    },
+    "ans": "B",
+    "exp": "The World Wide Web operates on the client-server model: browsers (clients) send requests to web servers, which return responses.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-48",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 48,
+    "paper": "TECH2",
+    "unit": "III",
+    "sub": "World Wide Web",
+    "q": "Which of the following is not a search engine?",
+    "opts": {
+      "A": "Google",
+      "B": "Bing",
+      "C": "Yahoo",
+      "D": "Orkut"
+    },
+    "ans": "D",
+    "exp": "Orkut was a social networking site (run by Google), not a search engine, unlike Google, Bing and Yahoo which are search engines.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-49",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 49,
+    "paper": "TECH2",
+    "unit": "III",
+    "sub": "World Wide Web",
+    "q": "In hypertext transaction, formats of request and response message are",
+    "opts": {
+      "A": "Different",
+      "B": "Similar",
+      "C": "Changed",
+      "D": "Active"
+    },
+    "ans": "B",
+    "exp": "In HTTP, request and response messages share a similar general format (a start line, header fields, a blank line, and an optional body), which is why they are described as similar rather than fundamentally different.",
+    "conf": "medium",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-50",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 50,
+    "paper": "TECH2",
+    "unit": "III",
+    "sub": "World Wide Web",
+    "q": "Whenever user opens any website then main page is called as",
+    "opts": {
+      "A": "Dead end",
+      "B": "Home page",
+      "C": "Backend page",
+      "D": "None of these"
+    },
+    "ans": "B",
+    "exp": "The main/entry page a user lands on when opening a website is conventionally called the home page.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-51",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 51,
+    "paper": "TECH2",
+    "unit": "III",
+    "sub": "Web Hosting",
+    "q": "When an ASP.NET file is placed as an IIS Server and viewed through a browser, the resulting HTML page contains.",
+    "opts": {
+      "A": "All ASP.NET code.",
+      "B": "As much ASP.NET code as in the ASP.NET file.",
+      "C": "A mix of ASP.NET and HTML code.",
+      "D": "All HTML code."
+    },
+    "ans": "D",
+    "exp": "ASP.NET code executes on the server (IIS); the server processes it and sends only the resulting rendered HTML to the browser, so the client never sees the ASP.NET source code.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-52",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 52,
+    "paper": "TECH2",
+    "unit": "III",
+    "sub": "Web Hosting",
+    "q": "What is the extension used for an ASP.NET file",
+    "opts": {
+      "A": "asu",
+      "B": "asx",
+      "C": "aspn",
+      "D": "aspx"
+    },
+    "ans": "D",
+    "exp": "ASP.NET web form files use the .aspx extension (e.g., Default.aspx).",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-53",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 53,
+    "paper": "TECH2",
+    "unit": "III",
+    "sub": "World Wide Web",
+    "q": "Which browser has built in support for executing VB Script?",
+    "opts": {
+      "A": "Internet Explorer",
+      "B": "Mozilla Firefox",
+      "C": "Opera",
+      "D": "None of these"
+    },
+    "ans": "A",
+    "exp": "Internet Explorer, via its Windows Script Host/ActiveX scripting engine, had native built-in support for VBScript, unlike Firefox and Opera which only support JavaScript/ECMAScript.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-54",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 54,
+    "paper": "TECH2",
+    "unit": "III",
+    "sub": "DOM Manipulation",
+    "q": "JavaScript is designed for following purpose",
+    "opts": {
+      "A": "To perform Server Side Scripting Operations",
+      "B": "To execute Query Related to DB on Server",
+      "C": "To add interactivity to HTML Pages",
+      "D": "To style HTML Pages"
+    },
+    "ans": "C",
+    "exp": "JavaScript is a client-side scripting language designed to add interactivity and dynamic behavior to HTML pages (form validation, DOM manipulation, event handling), not for server-side processing or styling.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": "",
+    "dup_of": "CO2019A-P2-55"
+  },
+  {
+    "id": "CO2019B-P2-55",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 55,
+    "paper": "TECH2",
+    "unit": "III",
+    "sub": "Functions",
+    "q": "JavaScript code can be called by using",
+    "opts": {
+      "A": "Function/Method",
+      "B": "Pre-processor",
+      "C": "Triggering Event",
+      "D": "RMI"
+    },
+    "ans": "A",
+    "exp": "JavaScript code is organized into functions/methods, which are invoked (called) by name to execute the enclosed statements. Code can also run in response to a triggering event, so there is some overlap with option (c), which lowers confidence slightly.",
+    "conf": "medium",
+    "prov": "Two independent blind solves disagree: (A) and (C). One is wrong and there is no key to settle it — both are shown; judge for yourself.",
+    "note": "second solver said (C)",
+    "alt": "C",
+    "altSrc": "solver"
+  },
+  {
+    "id": "CO2019B-P2-56",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 56,
+    "paper": "TECH2",
+    "unit": "III",
+    "sub": "Document Structure",
+    "q": "Which of the following attribute is used to include External JS code inside your HTML Document?",
+    "opts": {
+      "A": "ext",
+      "B": "src",
+      "C": "script",
+      "D": "link"
+    },
+    "ans": "B",
+    "exp": "The 'src' attribute of the <script> tag (e.g., <script src=\"file.js\">) is used to include an external JavaScript file in an HTML document.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-57",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 57,
+    "paper": "TECH2",
+    "unit": "III",
+    "sub": "Variables",
+    "q": "Which of the following is not a reserved word in JavaScript?",
+    "opts": {
+      "A": "interface",
+      "B": "throws",
+      "C": "program",
+      "D": "short"
+    },
+    "ans": "C",
+    "exp": "'interface', 'throws' and 'short' are all ECMAScript (future) reserved words carried over from Java-style keywords, while 'program' has never been a reserved word in JavaScript.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-58",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 58,
+    "paper": "TECH2",
+    "unit": "III",
+    "sub": "Functions",
+    "q": "Which VB Script function converts an input string to all lowercase",
+    "opts": {
+      "A": "Lcase",
+      "B": "Lowercase",
+      "C": "Lower",
+      "D": "There is no such function to directly convert to lowercase"
+    },
+    "ans": "A",
+    "exp": "VBScript's built-in LCase function converts a given string to all lowercase characters.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-59",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 59,
+    "paper": "TECH2",
+    "unit": "V",
+    "sub": "Technical Report Writing",
+    "q": "Simplicity in writing means essentially,",
+    "opts": {
+      "A": "Plainness",
+      "B": "The use of simple sentences",
+      "C": "The use of simple tense",
+      "D": "The use of simple words"
+    },
+    "ans": "D",
+    "exp": "In business communication, the principle of simplicity is chiefly about using simple, familiar, everyday words instead of complex or technical vocabulary, so the reader/listener grasps the message quickly.",
+    "conf": "medium",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-60",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 60,
+    "paper": "TECH2",
+    "unit": "V",
+    "sub": "Presentation Skills",
+    "q": "The following is (are) the most effective ways of communication.",
+    "opts": {
+      "A": "Verbal",
+      "B": "Non- Verbal",
+      "C": "Written",
+      "D": "All of these"
+    },
+    "ans": "D",
+    "exp": "Verbal, non-verbal and written communication are each most effective in different contexts (e.g., written for records, verbal for quick clarification, non-verbal for reinforcing tone), so textbooks typically treat all three together as effective; 'most effective' as printed is subjective, which lowers confidence.",
+    "conf": "low",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": "",
+    "dup_of": "CO2019A-P2-60"
+  },
+  {
+    "id": "CO2019B-P2-61",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 61,
+    "paper": "TECH2",
+    "unit": "V",
+    "sub": "Official Correspondence",
+    "q": "Where are the details of enclosures mentioned?",
+    "opts": {
+      "A": "Beginning of the letter",
+      "B": "Below the signature column",
+      "C": "Right-hand side of the letter",
+      "D": "Main body of the letter"
+    },
+    "ans": "B",
+    "exp": "In standard business-letter format, the enclosures notation ('Encl:' followed by a list) is typed a couple of lines below the signature block, not in the body or heading.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-62",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 62,
+    "paper": "TECH2",
+    "unit": "V",
+    "sub": "Official Correspondence",
+    "q": "Which of the following should not be part of a resume?",
+    "opts": {
+      "A": "Religious affiliation",
+      "B": "Employment history",
+      "C": "Contact information",
+      "D": "Education"
+    },
+    "ans": "A",
+    "exp": "Resume-writing guidance excludes personal/religious details like religious affiliation, marital status, or age, since they invite bias and are irrelevant to job qualifications; employment history, contact info, and education are all standard resume sections.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-63",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 63,
+    "paper": "TECH2",
+    "unit": "V",
+    "sub": "Presentation Skills",
+    "q": "Which of these ways can't be used to research about the company?",
+    "opts": {
+      "A": "Visiting website",
+      "B": "Refer books",
+      "C": "School books",
+      "D": "Refer annual report"
+    },
+    "ans": "C",
+    "exp": "\"School books\" is not a recognized method for researching a prospective employer; visiting the company website, reading its annual report, or consulting reference books are all legitimate research avenues.",
+    "conf": "medium",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-64",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 64,
+    "paper": "TECH2",
+    "unit": "V",
+    "sub": "Presentation Skills",
+    "q": "Which of these questions expect specific information?",
+    "opts": {
+      "A": "Open questions",
+      "B": "Closed questions",
+      "C": "Probing questions",
+      "D": "Reflective questions"
+    },
+    "ans": "B",
+    "exp": "Closed questions are phrased to elicit a specific, narrow answer (often yes/no or a single fact), unlike open or reflective questions which invite elaboration; probing questions follow up on an answer rather than seeking a first specific fact, so closed is the better fit.",
+    "conf": "medium",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-65",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 65,
+    "paper": "TECH2",
+    "unit": "V",
+    "sub": "Official Correspondence",
+    "q": "Communication is the task of imparting __________",
+    "opts": {
+      "A": "Training",
+      "B": "Information",
+      "C": "Knowledge",
+      "D": "Message"
+    },
+    "ans": "B",
+    "exp": "Communication is standardly defined as the process of imparting or exchanging information between a sender and receiver; 'information' is the textbook completion here, broader than the narrower options like training or a single message.",
+    "conf": "medium",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-66",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 66,
+    "paper": "TECH2",
+    "unit": "V",
+    "sub": "Numerical Ability",
+    "q": "Find the term that will come in place of questions mark (?) in each of the following series. 600, 550, 450, 300, ?",
+    "opts": {
+      "A": "50",
+      "B": "150",
+      "C": "100",
+      "D": "0"
+    },
+    "ans": "C",
+    "exp": "The differences between consecutive terms are -50, -100, -150, -200 (each step growing by 50), so the next term is 300 - 200 = 100.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-67",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 67,
+    "paper": "TECH2",
+    "unit": "V",
+    "sub": "Numerical Ability",
+    "q": "1,6,11, __________ What will be its 15th term?",
+    "opts": {
+      "A": "46",
+      "B": "76",
+      "C": "66",
+      "D": "71"
+    },
+    "ans": "D",
+    "exp": "The series 1, 6, 11 increases by a common difference of 5, so the nth term is 1 + (n-1)*5; the 15th term is 1 + 14*5 = 71.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-68",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 68,
+    "paper": "TECH2",
+    "unit": "V",
+    "sub": "Analytical Reasoning",
+    "q": "Five courses-A,B,C,D and E, each of 1 month duration are to be taught from January to May one after the other, though not necessarily in the same order by lecturers P,Q,R,S and T. P teaches course \"B\" but not in the month of April or May. Q teaches course \"A\" in the month of March. R teaches in the month of January but does not teach course \"C\" or \"D\". Which course is taught by S?",
+    "opts": {
+      "A": "C",
+      "B": "E",
+      "C": "Either C or D",
+      "D": "D"
+    },
+    "ans": "C",
+    "exp": "Working the clues: R teaches in January and it can't be C, D, or A (A is Q's course in March) or B (P's course), so R teaches E in January; P's course B then can only fit February (since Jan and March are taken and P is barred from April/May). That leaves courses C and D to be split between the remaining months (April, May) and lecturers S and T with no further clue distinguishing which one gets which, so S's course is genuinely undetermined between C and D from the given data.",
+    "conf": "medium",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-69",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 69,
+    "paper": "TECH2",
+    "unit": "V",
+    "sub": "Analytical Reasoning",
+    "q": "Which course is taught in the month of January?",
+    "opts": {
+      "A": "C",
+      "B": "D",
+      "C": "E",
+      "D": "Data inadequate"
+    },
+    "ans": "C",
+    "exp": "From the same deduction as the prior question, R must teach in January, and since R cannot teach A (Q's course, taught in March), B (P's course), C, or D (explicitly excluded), the only course left for January is E.",
+    "conf": "medium",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-70",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 70,
+    "paper": "TECH2",
+    "unit": "V",
+    "sub": "Technical Report Writing",
+    "q": "Out of four alternatives, choose the word which can be substituted for the given word/sentence. On who is not easily pleased by anything",
+    "opts": {
+      "A": "Maiden",
+      "B": "Mediaeval",
+      "C": "Precarious",
+      "D": "Fastidious"
+    },
+    "ans": "D",
+    "exp": "'Fastidious' means excessively difficult to please or hard to satisfy, matching the definition exactly; the other options (maiden, mediaeval, precarious) are unrelated in meaning.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-71",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 71,
+    "paper": "TECH2",
+    "unit": "V",
+    "sub": "Technical Report Writing",
+    "q": "Out of four alternatives, choose the word which can be substituted for the given word/sentence. A remedy for all diseases",
+    "opts": {
+      "A": "Stoic",
+      "B": "Panacea",
+      "C": "Marvel",
+      "D": "Recompense"
+    },
+    "ans": "B",
+    "exp": "'Panacea' is the standard word-substitute for a remedy or cure-all for every disease or problem; 'stoic' and 'recompense' describe unrelated concepts, and 'marvel' just means something amazing.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-72",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 72,
+    "paper": "TECH2",
+    "unit": "V",
+    "sub": "Logical Reasoning",
+    "q": "Each questions consists of two words which have a certain relationship to each other followed by four pairs of related words, select the words which have the same relationship. GRAVITY: PULL",
+    "opts": {
+      "A": "iron:metal",
+      "B": "north pole: directions",
+      "C": "magnetism:attraction",
+      "D": "dust:desert"
+    },
+    "ans": "C",
+    "exp": "GRAVITY:PULL is a force-to-effect relationship (gravity's characteristic action is to pull); MAGNETISM:ATTRACTION mirrors this exactly, since magnetism's characteristic action is to attract, whereas the other pairs are type-of or part-of relationships instead of force-to-effect.",
+    "conf": "medium",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
+    "note": ""
+  },
+  {
+    "id": "CO2019B-P2-73",
+    "src": "past",
+    "srcKey": "CO2019B-P2",
+    "sitting": "Computer Operator under Election Dept, December 2019 - Paper II",
+    "no": 73,
+    "paper": "TECH2",
+    "unit": "V",
+    "sub": "Technical Report Writing",
+    "q": "Find the word which is the exact opposite of a given word. TRANSPARENT",
+    "opts": {
+      "A": "Muddy",
+      "B": "Dark",
+      "C": "Opaque",
+      "D": "Semi-transparent"
+    },
+    "ans": "C",
+    "exp": "'Opaque' is the precise antonym of 'transparent' (not allowing light through / not see-through); 'dark' and 'muddy' describe related but imprecise qualities, and 'semi-transparent' is a partial, not opposite, state.",
+    "conf": "high",
+    "prov": "Two independent blind solves by different models agree. The bank held no answer for this question and MPSC published no key.",
     "note": ""
   },
   {

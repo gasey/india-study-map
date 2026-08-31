@@ -179,18 +179,25 @@ function passageBlock(q) {
   </details>`;
 }
 
-/* Disputed answer: the blind solve and the question bank disagree, so BOTH
-   candidates are shown rather than the conflict being buried in a prose
-   provenance line. No official key exists for these papers — one of the two
-   derivations is simply wrong, and the reader is better placed than either to
-   judge, so the app presents the evidence instead of pretending to settle it. */
+/* Disputed answer: two independent derivations disagree, so BOTH candidates are
+   shown rather than the conflict being buried in a prose provenance line. No
+   official key exists for these papers — one of the two is simply wrong, and the
+   reader is better placed than either to judge, so the app presents the evidence
+   instead of pretending to settle it.
+
+   The rival is NOT always the question bank. For papers the bank never answered
+   at all (Election Dec-2019 Paper II is 74 such questions) the second opinion is
+   a separate blind solve by a different model, and `altSrc` says which. Labelling
+   that "question bank" would credit an answer to a source that never held one —
+   the same provenance dishonesty the conf badge exists to prevent. */
 function disputeBlock(q) {
   if (!q.alt || !q.opts || !q.opts[q.alt]) return '';
+  const rival = q.altSrc === 'solver' ? 'second solver' : 'question bank';
   return `<div class="dispute">
     <h4>Disputed — two derivations disagree</h4>
     <div class="dispute-row"><span class="pill ok">this app</span>
       <span class="lab">${esc(q.ans)}</span><span>${esc(q.opts[q.ans] || '')}</span></div>
-    <div class="dispute-row"><span class="pill wn">question bank</span>
+    <div class="dispute-row"><span class="pill wn">${esc(rival)}</span>
       <span class="lab">${esc(q.alt)}</span><span>${esc(q.opts[q.alt])}</span></div>
     <p class="dim">No official answer key exists for this paper. Read the explanation
       and decide for yourself which is right.</p>

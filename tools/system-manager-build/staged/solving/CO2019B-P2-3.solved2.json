@@ -1,0 +1,102 @@
+{
+  "CO2019B-P2-41": {
+    "ans": "D",
+    "conf": "medium",
+    "exp": "Headings (<h1>-<h6>), paragraphs (<p>) and lists (<ul>/<ol>) are all standard block-level elements that make up the descriptive body content of a web page, so no single one of them excludes the others. The phrasing is loose, but 'All of these' is the only option consistent with all three being common page elements."
+  },
+  "CO2019B-P2-42": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "<TR> (row), <TD> (data cell) and <TH> (header cell) are only valid inside a <TABLE> element, which is their enclosing container. <GROUP> and <DATA> are not HTML table tags at all."
+  },
+  "CO2019B-P2-43": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "HTML was defined as an application (subset) of SGML — Standard Generalized Markup Language, ISO 8879 — and every HTML version through 4.01 shipped an SGML DTD. SGMT and SGMD are not real standards."
+  },
+  "CO2019B-P2-44": {
+    "ans": "B",
+    "conf": "medium",
+    "exp": "In document order the <BODY> element follows the complete <HEAD> element, i.e. </head> closes before <body> opens. The <TITLE> is a distractor: it sits inside the head, so body follows the head as a whole rather than the title tag specifically."
+  },
+  "CO2019B-P2-45": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "The <form> tag takes both ACTION (the URL the data is submitted to) and METHOD (GET or POST), so both listed attributes are genuine form attributes."
+  },
+  "CO2019B-P2-46": {
+    "ans": "A",
+    "conf": "low",
+    "exp": "A container tag is one that wraps content between an opening and closing tag; <SELECT> encloses <OPTION> elements, whereas <INPUT> is an empty tag and <VALUE> is not an HTML tag. The question is defective, however, because <BODY> in option (d) is equally a container — given the surrounding form-element questions the intended answer is <SELECT>, so confidence is low."
+  },
+  "CO2019B-P2-47": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "The Web works by a browser (client) issuing HTTP requests to a web server that returns resources, which is the classic client-server model. The 3-tier arrangement is an application-architecture refinement, not the base model of the WWW."
+  },
+  "CO2019B-P2-48": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "Orkut was Google's social networking service (2004-2014), not a search engine; Google, Bing and Yahoo are all web search engines."
+  },
+  "CO2019B-P2-49": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "HTTP request and response messages share the same general structure — a start line, header lines, a blank line, and an optional body — so their formats are similar, differing only in the start line (request line vs status line)."
+  },
+  "CO2019B-P2-50": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "The main or default entry page of a website, loaded when the site's root URL is opened, is called the home page. A 'dead end' page is one with no outgoing links, which is unrelated."
+  },
+  "CO2019B-P2-51": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "ASP.NET code executes on the IIS server and only its rendered output is sent to the client, so what the browser receives and displays is pure HTML. No server-side ASP.NET code ever reaches the browser."
+  },
+  "CO2019B-P2-52": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "ASP.NET Web Forms pages use the .aspx file extension (classic ASP used .asp). The other three options are not real ASP.NET extensions."
+  },
+  "CO2019B-P2-53": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "VBScript is a Microsoft scripting language and only Internet Explorer shipped a built-in VBScript engine; Firefox and Opera support JavaScript only."
+  },
+  "CO2019B-P2-54": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "JavaScript was created as a client-side scripting language to make HTML pages interactive — responding to events, validating forms and manipulating the DOM. Styling is CSS's job and database queries are server-side work."
+  },
+  "CO2019B-P2-55": {
+    "ans": "C",
+    "conf": "medium",
+    "exp": "JavaScript is event-driven: code runs when a triggering event such as onclick, onload or onmouseover fires, which is the answer this standard question keys to. Calling a function directly is also a defensible reading of option (a), so the item is somewhat ambiguous."
+  },
+  "CO2019B-P2-56": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "An external JavaScript file is pulled in with the src attribute of the <script> tag, e.g. <script src=\"app.js\"></script>. 'script' is the tag, not an attribute, and 'link' is used for stylesheets."
+  },
+  "CO2019B-P2-57": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "'program' has no special meaning in JavaScript and can be used freely as an identifier, whereas interface, throws and short are all on ECMAScript's reserved/future-reserved word list (inherited from Java)."
+  },
+  "CO2019B-P2-58": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "VBScript's LCase(string) function returns the string with all letters converted to lowercase (UCase does the reverse). 'Lowercase' and 'Lower' are not VBScript functions."
+  },
+  "CO2019B-P2-59": {
+    "ans": "D",
+    "conf": "medium",
+    "exp": "In business-communication theory simplicity is a word-level virtue: prefer familiar, short, everyday words over pompous or technical ones ('use' not 'utilise'). 'Plainness' merely restates the term without explaining it, and simplicity does not require restricting oneself to simple sentence structures or a single tense."
+  },
+  "CO2019B-P2-60": {
+    "ans": "D",
+    "conf": "medium",
+    "exp": "The question is framed as 'is (are)', inviting a multiple selection, and verbal, non-verbal and written communication are each the most effective channel in different situations — no one of them is universally superior. 'All of these' is therefore the intended answer."
+  }
+}

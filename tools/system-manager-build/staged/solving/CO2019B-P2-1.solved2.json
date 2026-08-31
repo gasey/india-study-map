@@ -1,0 +1,102 @@
+{
+  "CO2019B-P2-1": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "In a full mesh every device has a dedicated point-to-point link to each of the other N-1 devices, so each node needs N-1 ports (the network as a whole needs N(N-1)/2 links). The question's 'parts' is an OCR slip for 'ports'."
+  },
+  "CO2019B-P2-2": {
+    "ans": "A",
+    "conf": "medium",
+    "exp": "A LAN is only a communication facility; the aggregate CPU power of thirty networked PCs can exceed that of a single minicomputer, which is the standard key for this stock question. Options (b) and (c) are wrong because error control and packet construction are done by the data-link and network protocol layers, not by the LAN as such."
+  },
+  "CO2019B-P2-3": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "A bridge is a data-link-layer device, so it reads and filters on the physical (MAC) address of stations. Network addresses belong to routers and service access points to higher layers, so 'All of these' is wrong."
+  },
+  "CO2019B-P2-4": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "The presentation layer of the OSI model handles translation, compression and encryption/decryption so that data is meaningful to the receiving application."
+  },
+  "CO2019B-P2-5": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "A repeater simply regenerates and retimes the electrical signal without examining frames or addresses, which makes it a purely physical-layer device."
+  },
+  "CO2019B-P2-6": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "A single railway track carries traffic in both directions but only one direction at a time, which is exactly the half-duplex model (the same textbook analogy as a walkie-talkie or a one-lane bridge)."
+  },
+  "CO2019B-P2-7": {
+    "ans": "B",
+    "conf": "medium",
+    "exp": "A directed broadcast IP address is formed by setting every host bit to 1 (e.g. 192.168.1.255 in a /24), and this maps onto the hardware broadcast address where one exists. The question text is badly OCR-mangled but the intended point — host portion all 1s — is unambiguous."
+  },
+  "CO2019B-P2-8": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "A Windows NT printer pool is one logical printer mapped to several ports, so every physical printer in the pool must use the same driver and identical settings. Sharing one parallel port (a) is impossible, and (b) contradicts the single-logical-printer design."
+  },
+  "CO2019B-P2-9": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "A foreign key in the child table referencing a primary key in the parent table is precisely how a one-to-many parent-child relationship is expressed. A many-to-many relationship needs an extra junction table, so (b) is wrong."
+  },
+  "CO2019B-P2-10": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Separate application-owned files are the hallmark of the older file-processing approach that the database environment was created to replace; users, the database itself and database administration are all genuine components of it."
+  },
+  "CO2019B-P2-11": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "A subschema (external view) is the portion of the database as seen by one particular application or user group, whereas the schema is the overall logical description of the whole database."
+  },
+  "CO2019B-P2-12": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "In relational terminology a tuple is one row of a relation, which corresponds to a record in file terminology; attribute maps to field and relation maps to file."
+  },
+  "CO2019B-P2-13": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "Controlled redundancy, the ability to relate data through keys, and centralised security/authorisation controls are all standard advantages of the database approach over file processing, so all three listed items apply."
+  },
+  "CO2019B-P2-14": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "The DBA's remit covers schema and database design, backup and recovery, and performance tuning and monitoring, along with security administration, so every listed item is a DBA function."
+  },
+  "CO2019B-P2-15": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "The network data model (CODASYL) permits a record to have multiple parent as well as multiple child records, i.e. many-to-many relationships, which is exactly what the hierarchical model cannot do. It is a logical, not physical, representation and is notably more complex than the hierarchical model."
+  },
+  "CO2019B-P2-16": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "In the relational model an attribute is a named column of a table; a row is called a tuple or record."
+  },
+  "CO2019B-P2-17": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "A super key is any set of one or more attributes that, taken collectively, identifies a tuple uniquely. A candidate key is the narrower notion of a minimal super key, so the unqualified wording here points to super key."
+  },
+  "CO2019B-P2-18": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "ID is the only attribute guaranteed unique per student; names repeat and total credits certainly repeat. Note the printed option (b) 'Dept' is not even among the listed attributes, a defect in the paper, but it does not affect the answer."
+  },
+  "CO2019B-P2-19": {
+    "ans": "A",
+    "conf": "medium",
+    "exp": "An RDBMS presents data to the user as a collection of two-dimensional tables, which is the usual key for this question. 'Relations' is arguably the more formal Codd term for the same thing, so the option set is loose, but 'presented as' points to the user-visible table."
+  },
+  "CO2019B-P2-20": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "The degree of a relation is its number of attributes (columns), while cardinality is its number of tuples (rows)."
+  }
+}

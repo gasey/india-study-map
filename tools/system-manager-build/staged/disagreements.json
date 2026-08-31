@@ -22,8 +22,7 @@
     "opts": {
       "A": "Simple sentence",
       "B": "Complex sentence",
-      "C": "Compound sentence",
-      "D": "None"
+      "C": "Compound sentence"
     },
     "exp": "At the top level two independent clauses are coordinated by 'but', which makes the sentence compound; the relative clause 'who demanded more' is merely embedded in the second of them. Strictly this is a compound-complex sentence, and since that label is not offered, 'compound' is the closest available answer."
   },
@@ -134,8 +133,7 @@
     "opts": {
       "A": "Simple sentence",
       "B": "Complex sentence",
-      "C": "Compound sentence",
-      "D": "None"
+      "C": "Compound sentence"
     },
     "exp": "As printed these are two independent statements, each with a single subject-verb pair and no subordinate or coordinate clause attached, so each is a simple sentence — this is the unjoined raw material for the synthesis exercise. It cannot be compound, since no coordinating conjunction links them."
   },
@@ -148,8 +146,7 @@
     "opts": {
       "A": "Simple sentence",
       "B": "Complex sentence",
-      "C": "Compound sentence",
-      "D": "None"
+      "C": "Compound sentence"
     },
     "exp": "Both printed statements contain a single subject and verb with no subordinate clause, so each is a simple sentence — the starting point for the combinations in items 55 and 56."
   },

@@ -1,0 +1,307 @@
+{
+  "srcKey": "CO2019B-P2",
+  "brief": "tools/bank-rebuild/SOLVE_BRIEF.md",
+  "instructions": "Answer each question independently. Write a JSON object keyed by question id: {\"<id>\": {\"ans\": \"A\"|\"B\"|\"C\"|\"D\", \"conf\": \"high\"|\"medium\"|\"low\", \"exp\": \"1-3 sentences\"}} to this filename with .todo.json replaced by .solved.json. No official answer key exists for these papers - your answer becomes the app's answer. Do not inflate confidence.",
+  "questions": [
+    {
+      "id": "CO2019B-P2-41",
+      "srcKey": "CO2019B-P2",
+      "no": 41,
+      "paper": "TECH2",
+      "q": "The common element which describes the web page is",
+      "opts": {
+        "A": "Heading",
+        "B": "Paragraph",
+        "C": "List",
+        "D": "All of these"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2019B-P2-42",
+      "srcKey": "CO2019B-P2",
+      "no": 42,
+      "paper": "TECH2",
+      "q": "Main container for <TR>, <TD> and <TH> is",
+      "opts": {
+        "A": "<TABLE>",
+        "B": "<GROUP>",
+        "C": "<DATA>",
+        "D": "All of these"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2019B-P2-43",
+      "srcKey": "CO2019B-P2",
+      "no": 43,
+      "paper": "TECH2",
+      "q": "HTML is a subset of",
+      "opts": {
+        "A": "SGMT",
+        "B": "SGML",
+        "C": "SGMD",
+        "D": "None of these"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2019B-P2-44",
+      "srcKey": "CO2019B-P2",
+      "no": 44,
+      "paper": "TECH2",
+      "q": "The body tag is usually used after",
+      "opts": {
+        "A": "Title tag",
+        "B": "HEAD tag",
+        "C": "EM tag",
+        "D": "FORM tag"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2019B-P2-45",
+      "srcKey": "CO2019B-P2",
+      "no": 45,
+      "paper": "TECH2",
+      "q": "The attribute of <form> tag.",
+      "opts": {
+        "A": "METHOD",
+        "B": "ACTION",
+        "C": "Both (a) & (b)",
+        "D": "None of these"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2019B-P2-46",
+      "srcKey": "CO2019B-P2",
+      "no": 46,
+      "paper": "TECH2",
+      "q": "Which one of the following is a container?",
+      "opts": {
+        "A": "<SELECT>",
+        "B": "<VALUE>",
+        "C": "<INPUT>",
+        "D": "<Body>"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2019B-P2-47",
+      "srcKey": "CO2019B-P2",
+      "no": 47,
+      "paper": "TECH2",
+      "q": "WWW is based on which model?",
+      "opts": {
+        "A": "Local-server",
+        "B": "Client-server",
+        "C": "3-tier",
+        "D": "None of these"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2019B-P2-48",
+      "srcKey": "CO2019B-P2",
+      "no": 48,
+      "paper": "TECH2",
+      "q": "Which of the following is not a search engine?",
+      "opts": {
+        "A": "Google",
+        "B": "Bing",
+        "C": "Yahoo",
+        "D": "Orkut"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2019B-P2-49",
+      "srcKey": "CO2019B-P2",
+      "no": 49,
+      "paper": "TECH2",
+      "q": "In hypertext transaction, formats of request and response message are",
+      "opts": {
+        "A": "Different",
+        "B": "Similar",
+        "C": "Changed",
+        "D": "Active"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2019B-P2-50",
+      "srcKey": "CO2019B-P2",
+      "no": 50,
+      "paper": "TECH2",
+      "q": "Whenever user opens any website then main page is called as",
+      "opts": {
+        "A": "Dead end",
+        "B": "Home page",
+        "C": "Backend page",
+        "D": "None of these"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2019B-P2-51",
+      "srcKey": "CO2019B-P2",
+      "no": 51,
+      "paper": "TECH2",
+      "q": "When an ASP.NET file is placed as an IIS Server and viewed through a browser, the resulting HTML page contains.",
+      "opts": {
+        "A": "All ASP.NET code.",
+        "B": "As much ASP.NET code as in the ASP.NET file.",
+        "C": "A mix of ASP.NET and HTML code.",
+        "D": "All HTML code."
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2019B-P2-52",
+      "srcKey": "CO2019B-P2",
+      "no": 52,
+      "paper": "TECH2",
+      "q": "What is the extension used for an ASP.NET file",
+      "opts": {
+        "A": "asu",
+        "B": "asx",
+        "C": "aspn",
+        "D": "aspx"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2019B-P2-53",
+      "srcKey": "CO2019B-P2",
+      "no": 53,
+      "paper": "TECH2",
+      "q": "Which browser has built in support for executing VB Script?",
+      "opts": {
+        "A": "Internet Explorer",
+        "B": "Mozilla Firefox",
+        "C": "Opera",
+        "D": "None of these"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2019B-P2-54",
+      "srcKey": "CO2019B-P2",
+      "no": 54,
+      "paper": "TECH2",
+      "q": "JavaScript is designed for following purpose",
+      "opts": {
+        "A": "To perform Server Side Scripting Operations",
+        "B": "To execute Query Related to DB on Server",
+        "C": "To add interactivity to HTML Pages",
+        "D": "To style HTML Pages"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2019B-P2-55",
+      "srcKey": "CO2019B-P2",
+      "no": 55,
+      "paper": "TECH2",
+      "q": "JavaScript code can be called by using",
+      "opts": {
+        "A": "Function/Method",
+        "B": "Pre-processor",
+        "C": "Triggering Event",
+        "D": "RMI"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2019B-P2-56",
+      "srcKey": "CO2019B-P2",
+      "no": 56,
+      "paper": "TECH2",
+      "q": "Which of the following attribute is used to include External JS code inside your HTML Document?",
+      "opts": {
+        "A": "ext",
+        "B": "src",
+        "C": "script",
+        "D": "link"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2019B-P2-57",
+      "srcKey": "CO2019B-P2",
+      "no": 57,
+      "paper": "TECH2",
+      "q": "Which of the following is not a reserved word in JavaScript?",
+      "opts": {
+        "A": "interface",
+        "B": "throws",
+        "C": "program",
+        "D": "short"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2019B-P2-58",
+      "srcKey": "CO2019B-P2",
+      "no": 58,
+      "paper": "TECH2",
+      "q": "Which VB Script function converts an input string to all lowercase",
+      "opts": {
+        "A": "Lcase",
+        "B": "Lowercase",
+        "C": "Lower",
+        "D": "There is no such function to directly convert to lowercase"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2019B-P2-59",
+      "srcKey": "CO2019B-P2",
+      "no": 59,
+      "paper": "TECH2",
+      "q": "Simplicity in writing means essentially,",
+      "opts": {
+        "A": "Plainness",
+        "B": "The use of simple sentences",
+        "C": "The use of simple tense",
+        "D": "The use of simple words"
+      },
+      "passageTitle": null,
+      "passage": null
+    },
+    {
+      "id": "CO2019B-P2-60",
+      "srcKey": "CO2019B-P2",
+      "no": 60,
+      "paper": "TECH2",
+      "q": "The following is (are) the most effective ways of communication.",
+      "opts": {
+        "A": "Verbal",
+        "B": "Non- Verbal",
+        "C": "Written",
+        "D": "All of these"
+      },
+      "passageTitle": null,
+      "passage": null
+    }
+  ]
+}

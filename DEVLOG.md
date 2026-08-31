@@ -9,6 +9,64 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-08-31 (latest) — Election Paper II solved by two models that couldn't see each other
+
+The entry below shipped Election Dec-2019 Paper II with **zero** usable questions:
+the bank holds no answer for any of its 74, so `assemble.py` quarantined the lot.
+This solves them. Bank 1,353 → **1,426**; the paper now contributes 73.
+
+**Why a second solver, rather than a better one.** `solve.py`'s whole safety
+property is *solve blind, then diff against the bank's inferred answer* — agree
+means two independent derivations concur, disagree caps confidence and flags.
+Election Paper II has nothing to diff against, so a lone solve would have shipped
+its own self-assessed confidence completely unchecked. Model tier was never the
+constraint here; these are diploma-level questions about mesh topology and `<OL>`
+tags. The missing second opinion was.
+
+So: two blind passes, **Sonnet and Opus**, deliberately different models —
+two runs of one model agree without corroborating anything, because their errors
+correlate. Pass B writes `.solved2.json` and was told in as many words not to open
+pass A's output. Merge rules: agree → confidence is the *lower* of the two claims;
+disagree → capped to medium with both answers shown; no pass B → `uncorroborated`,
+capped to medium and said plainly.
+
+**71 of 74 agreed.** The three that didn't are exactly the ones worth surfacing:
+
+- **Q17** — "a set of one or more attributes taken collectively to uniquely
+  identify a record". That is the definition of a *super key*; a candidate key is
+  a *minimal* super key. Sonnet took the commonly-keyed answer, Opus the strict
+  one. Genuinely contested, and the reader now sees both.
+- **Q55** — how JavaScript is invoked; function call vs triggering event.
+- **Q74** — both passes independently said the symbol figure was never extracted
+  and their letter was a placeholder. They "disagreed" only about which
+  placeholder. It stays quarantined rather than shipping a coin flip.
+
+**Two pre-existing questions got more honest.** `CO2016B-P1-1` and `-51` had no
+bank answer either and were previously badged with whatever confidence the solver
+claimed. They are now `uncorroborated` and capped to medium.
+
+**A provenance bug the browser check caught.** `disputeBlock()` hardcoded the
+rival answer's label as "question bank" — true for the 16 bank disputes, a lie
+for these two, where the bank held no answer at all and the rival is a second
+model. `assemble.py` now emits `altSrc` and the UI renders "second solver" or
+"question bank" from it. Verified both render correctly.
+
+`assemble.py` also refused the build once, correctly: a solver wrote
+`<a>...</a>` in an explanation and the closing-tag guard fired. The tags were the
+subject matter, not formatting, so the explanation was rephrased rather than the
+guard weakened.
+
+**Verified:** reproducible md5 across runs, 1,426 unique ids, zero missing
+answers, `tsc` clean, all ten tabs render, console clean, and both dispute
+flavours labelled correctly in the browser.
+
+**What's still open:** 540 questions still unverified — the 2018/2019 answers
+other than Election P2 remain `unrated` straight from the bank. MIMER Computer
+Operator Paper I is still missing from the corpus. The 10 quarantined
+underline/passage questions still need their recovery pass.
+
+---
+
 ## 2026-08-31 (late) — There were five Computer Operator sittings, not two. Bank 843 → 1,353
 
 The user said the local question papers "didn't cover all past Computer Operator

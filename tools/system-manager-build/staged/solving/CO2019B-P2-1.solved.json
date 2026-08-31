@@ -1,0 +1,102 @@
+{
+  "CO2019B-P2-1": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "In a full mesh topology every device is directly wired to every other device, so each device needs one dedicated I/O port per remote device, i.e. N-1 ports/links, not N."
+  },
+  "CO2019B-P2-2": {
+    "ans": "A",
+    "conf": "medium",
+    "exp": "A LAN linking many personal computers can pool their processing power to exceed a single minicomputer's throughput; option B describes a data-link protocol function and C describes a network/transport protocol function, neither of which defines a LAN specifically."
+  },
+  "CO2019B-P2-3": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "A bridge operates at the data-link layer and forwards frames using the physical (MAC) address of stations on the same network segment, not the network-layer (logical) address."
+  },
+  "CO2019B-P2-4": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "The OSI presentation layer handles data translation, compression, and encryption/decryption before data is passed to the application layer."
+  },
+  "CO2019B-P2-5": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "A repeater simply regenerates and amplifies the electrical/optical signal, so it operates purely at the physical layer with no awareness of frames or addresses."
+  },
+  "CO2019B-P2-6": {
+    "ans": "B",
+    "conf": "medium",
+    "exp": "A single railway track allows trains to travel in either direction but not simultaneously in both directions at once, which is the defining property of half-duplex transmission."
+  },
+  "CO2019B-P2-7": {
+    "ans": "B",
+    "conf": "medium",
+    "exp": "The OCR text for this question is garbled, but the underlying networking fact being tested is standard: a broadcast address is formed by setting all host-id bits to 1, so hardware can map it to the physical broadcast address."
+  },
+  "CO2019B-P2-8": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "To pool printers under Windows NT/print spooler behavior, all physical printers in the pool must use the same printer driver and identical settings so the client sees them as a single logical printer, even though they can be on different ports."
+  },
+  "CO2019B-P2-9": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "When a primary key in one table is referenced as a foreign key in another, it establishes a parent-child (one-to-many) relationship between the two tables, not a many-to-many or network-model link."
+  },
+  "CO2019B-P2-10": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "A database environment consolidates data into a shared database managed by a DBA and accessed by users and applications; 'separate files' describes the older file-processing approach the database approach was designed to eliminate."
+  },
+  "CO2019B-P2-11": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "A subschema defines the subset/view of the overall database schema that a particular application or user is permitted to see and work with."
+  },
+  "CO2019B-P2-12": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "In relational model terminology a tuple is a row of a relation, which corresponds directly to a record in traditional file terminology."
+  },
+  "CO2019B-P2-13": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "The database approach reduces data redundancy, lets related data be associated and queried together, and improves security through centralized access control, so all three listed benefits apply."
+  },
+  "CO2019B-P2-14": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "A database administrator's responsibilities span database design, backup/recovery, and performance monitoring, among other duties, so all of the listed tasks fall under the DBA role."
+  },
+  "CO2019B-P2-15": {
+    "ans": "A",
+    "conf": "medium",
+    "exp": "The network (CODASYL) data model explicitly supports many-to-many relationships by allowing a record to have multiple parent and owner records, unlike the simpler hierarchical model."
+  },
+  "CO2019B-P2-16": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "An attribute corresponds to a column (field) of a table, describing one property shared by every row/tuple in that table."
+  },
+  "CO2019B-P2-17": {
+    "ans": "A",
+    "conf": "medium",
+    "exp": "A candidate key is the standard term for a minimal set of one or more attributes that collectively identifies a record uniquely; a super key is a broader (not necessarily minimal) set, which this question's phrasing does not distinguish, so there is some ambiguity between the two terms."
+  },
+  "CO2019B-P2-18": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "ID is the unique student identifier in Student(ID, name, tot-cred), while name and tot-cred can repeat across different students, so ID is the natural primary key."
+  },
+  "CO2019B-P2-19": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "In a relational database management system, data is organized and presented to users as a collection of tables (relations), each made up of rows and columns."
+  },
+  "CO2019B-P2-20": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "The number of attributes (columns) in a relation is called its degree, while the number of tuples (rows) is called its cardinality."
+  }
+}

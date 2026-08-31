@@ -1,0 +1,102 @@
+{
+  "CO2019B-P2-21": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "DDL (Data Definition Language) is used to define, alter, and drop the structure of relations and schemas, e.g. CREATE, ALTER, DROP."
+  },
+  "CO2019B-P2-22": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "The SELECT clause lists the attributes to be returned by a query, as in SELECT column FROM table."
+  },
+  "CO2019B-P2-23": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "A null value represents an unknown, inapplicable, or missing value for an attribute, distinct from zero or an empty string."
+  },
+  "CO2019B-P2-24": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "The hierarchical data model organizes records as a tree, with each child record having exactly one parent."
+  },
+  "CO2019B-P2-25": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "The physical data model is the lowest level, describing how data is actually stored on storage media (files, blocks, indexes)."
+  },
+  "CO2019B-P2-26": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "The domain of an attribute is the set of all permissible values that attribute can take."
+  },
+  "CO2019B-P2-27": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "MS Access database objects are Tables, Queries, Forms, Reports, Macros and Modules; \"Worksheets\" is an Excel concept, not an Access object type."
+  },
+  "CO2019B-P2-28": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Cardinality on a relationship line specifies the minimum and maximum number of instances of one entity that can relate to instances of another."
+  },
+  "CO2019B-P2-29": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "A Yes/No (Boolean) field in MS Access stores only a true/false state, which needs just 1 bit."
+  },
+  "CO2019B-P2-30": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "In an MS Access table the columns are called Fields, holding a single attribute of each record (row)."
+  },
+  "CO2019B-P2-31": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "Tables are the only Access objects that actually store data; Forms, Reports and Queries only display, print, or retrieve data held in tables."
+  },
+  "CO2019B-P2-32": {
+    "ans": "D",
+    "conf": "medium",
+    "exp": "A weak entity set has total, mandatory participation in exactly one identifying relationship with its owner entity, so by definition it cannot substitute another relationship for that identifying one; among the given options only \"identifying relationship\" is a genuine DBMS term, the rest are distractors, and the question's own wording is somewhat garbled so confidence is not high."
+  },
+  "CO2019B-P2-33": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Datasheet View presents a table as a row/column grid where data can be typed directly to build the table, unlike Design View which is used to define field structure."
+  },
+  "CO2019B-P2-34": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "The MaxLength property of a text box control restricts the maximum number of characters a user can type into it."
+  },
+  "CO2019B-P2-35": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "A descriptive (definition) list in HTML starts with the <DL> tag, with <DT> for terms and <DD> for their descriptions."
+  },
+  "CO2019B-P2-36": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "The <OL> tag creates an ordered (numbered) list; list items still use <LI>, but <OL> is the tag that specifically produces the numbering, which is what the question asks for."
+  },
+  "CO2019B-P2-37": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "Every HTML web page begins with the <HTML> tag, which wraps the entire document including <head> and <body>."
+  },
+  "CO2019B-P2-38": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "<h1> is the largest of the six HTML heading levels (<h1> through <h6>), with <h6> being the smallest."
+  },
+  "CO2019B-P2-39": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "The <a> anchor tag creates a hyperlink to another page or resource, using its href attribute to give the destination address."
+  },
+  "CO2019B-P2-40": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "The correct syntax to left-align content inside a table cell is <td align=\"left\">; \"valign\" controls vertical, not horizontal, alignment."
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "CO2019B-P2-61": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "In standard business-letter layout the enclosure notation (\"Encl:\") is placed at the very bottom, below the signature block and the typist's initials. It is never put at the top or inside the body, which would break the reading flow of the letter itself."
+  },
+  "CO2019B-P2-62": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Religion, caste, marital status and similar personal attributes are excluded from a resume because they invite discrimination and have no bearing on job competence. Employment history, contact information and education are all core resume sections."
+  },
+  "CO2019B-P2-63": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "School textbooks carry no information about a specific employer, so they are useless for company research. The company website, published business books and the annual report are all legitimate sources for pre-interview research."
+  },
+  "CO2019B-P2-64": {
+    "ans": "B",
+    "conf": "medium",
+    "exp": "Closed questions restrict the respondent to a definite, narrow reply (yes/no, a name, a number), which is exactly how specific information is elicited. Open questions invite elaboration, probing questions dig deeper into an earlier answer, and reflective questions mirror feeling back to the speaker."
+  },
+  "CO2019B-P2-65": {
+    "ans": "B",
+    "conf": "medium",
+    "exp": "The textbook definition is that communication is the imparting or exchanging of information. \"Message\" is tempting, but the message is the vehicle carried, whereas information is what is actually imparted."
+  },
+  "CO2019B-P2-66": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "The successive differences grow by 50 each time: 600-550=50, 550-450=100, 450-300=150, so the next subtraction is 200. 300 - 200 = 100."
+  },
+  "CO2019B-P2-67": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "The series 1, 6, 11 is an arithmetic progression with first term a=1 and common difference d=5. The 15th term is a + 14d = 1 + 14x5 = 1 + 70 = 71."
+  },
+  "CO2019B-P2-68": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "R teaches in January and cannot take C or D; A is Q's (March) and B is P's, so R takes E in January. P (course B) is barred from April and May and January is taken, so P is February, leaving S and T to fill April and May with courses C and D in an undetermined order - hence S teaches either C or D."
+  },
+  "CO2019B-P2-69": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "January belongs to R, and R is excluded from C and D, while A is Q's course in March and B is P's course; the only course left for R is E. So E is taught in January, and the data is sufficient."
+  },
+  "CO2019B-P2-70": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "\"Fastidious\" means excessively hard to please, very attentive to detail and difficult to satisfy. Maiden means unmarried/first, mediaeval relates to the Middle Ages, and precarious means insecure or risky."
+  },
+  "CO2019B-P2-71": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "A panacea is a universal remedy said to cure all diseases, from the Greek goddess Panakeia. A stoic is one indifferent to pain, and recompense means compensation."
+  },
+  "CO2019B-P2-72": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "Gravity is the force whose characteristic effect is pull, just as magnetism is the force whose characteristic effect is attraction - a force-to-its-effect relationship. Iron:metal is a member-to-class pair and dust:desert is a content-to-place pair, so neither matches."
+  },
+  "CO2019B-P2-73": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "Opaque is the exact antonym of transparent: it lets no light pass, whereas transparent lets light through completely. Muddy and semi-transparent are only partial reductions in clarity, and dark describes absence of light rather than inability to transmit it."
+  },
+  "CO2019B-P2-74": {
+    "ans": "C",
+    "conf": "low",
+    "exp": "The symbol sequence this question refers to was never captured in the extracted text, so there is no pattern available to analyse and the item is unanswerable as stored. The letter given here is a placeholder with no evidential basis; the original paper's figure would be needed to answer it."
+  }
+}

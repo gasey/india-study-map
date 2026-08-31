@@ -1,0 +1,72 @@
+{
+  "CO2019B-P2-61": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "In standard business-letter format, the enclosures notation ('Encl:' followed by a list) is typed a couple of lines below the signature block, not in the body or heading."
+  },
+  "CO2019B-P2-62": {
+    "ans": "A",
+    "conf": "high",
+    "exp": "Resume-writing guidance excludes personal/religious details like religious affiliation, marital status, or age, since they invite bias and are irrelevant to job qualifications; employment history, contact info, and education are all standard resume sections."
+  },
+  "CO2019B-P2-63": {
+    "ans": "C",
+    "conf": "medium",
+    "exp": "\"School books\" is not a recognized method for researching a prospective employer; visiting the company website, reading its annual report, or consulting reference books are all legitimate research avenues."
+  },
+  "CO2019B-P2-64": {
+    "ans": "B",
+    "conf": "medium",
+    "exp": "Closed questions are phrased to elicit a specific, narrow answer (often yes/no or a single fact), unlike open or reflective questions which invite elaboration; probing questions follow up on an answer rather than seeking a first specific fact, so closed is the better fit."
+  },
+  "CO2019B-P2-65": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "Communication is standardly defined as the process of imparting or exchanging information between a sender and receiver; 'information' is the textbook completion here, broader than the narrower options like training or a single message."
+  },
+  "CO2019B-P2-66": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "The differences between consecutive terms are -50, -100, -150, -200 (each step growing by 50), so the next term is 300 - 200 = 100."
+  },
+  "CO2019B-P2-67": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "The series 1, 6, 11 increases by a common difference of 5, so the nth term is 1 + (n-1)*5; the 15th term is 1 + 14*5 = 71."
+  },
+  "CO2019B-P2-68": {
+    "ans": "C",
+    "conf": "medium",
+    "exp": "Working the clues: R teaches in January and it can't be C, D, or A (A is Q's course in March) or B (P's course), so R teaches E in January; P's course B then can only fit February (since Jan and March are taken and P is barred from April/May). That leaves courses C and D to be split between the remaining months (April, May) and lecturers S and T with no further clue distinguishing which one gets which, so S's course is genuinely undetermined between C and D from the given data."
+  },
+  "CO2019B-P2-69": {
+    "ans": "C",
+    "conf": "medium",
+    "exp": "From the same deduction as the prior question, R must teach in January, and since R cannot teach A (Q's course, taught in March), B (P's course), C, or D (explicitly excluded), the only course left for January is E."
+  },
+  "CO2019B-P2-70": {
+    "ans": "D",
+    "conf": "high",
+    "exp": "'Fastidious' means excessively difficult to please or hard to satisfy, matching the definition exactly; the other options (maiden, mediaeval, precarious) are unrelated in meaning."
+  },
+  "CO2019B-P2-71": {
+    "ans": "B",
+    "conf": "high",
+    "exp": "'Panacea' is the standard word-substitute for a remedy or cure-all for every disease or problem; 'stoic' and 'recompense' describe unrelated concepts, and 'marvel' just means something amazing."
+  },
+  "CO2019B-P2-72": {
+    "ans": "C",
+    "conf": "medium",
+    "exp": "GRAVITY:PULL is a force-to-effect relationship (gravity's characteristic action is to pull); MAGNETISM:ATTRACTION mirrors this exactly, since magnetism's characteristic action is to attract, whereas the other pairs are type-of or part-of relationships instead of force-to-effect."
+  },
+  "CO2019B-P2-73": {
+    "ans": "C",
+    "conf": "high",
+    "exp": "'Opaque' is the precise antonym of 'transparent' (not allowing light through / not see-through); 'dark' and 'muddy' describe related but imprecise qualities, and 'semi-transparent' is a partial, not opposite, state."
+  },
+  "CO2019B-P2-74": {
+    "ans": "A",
+    "conf": "low",
+    "exp": "This is a visual pattern-recognition question referencing a sequence of symbols/figures that was not captured in the extracted text, so the actual pattern cannot be seen or verified; option A is a placeholder guess only, and this question is effectively unanswerable as stored."
+  }
+}

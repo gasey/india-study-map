@@ -807,7 +807,10 @@ VIEWS.practice = (el, opts) => {
         </select></label>
         <label class="fld">Unit<select id="fUnit"><option value="">All</option></select></label>
         <label class="fld">Source<select id="fSrc">
-          <option value="">All</option><option value="past">Past papers only</option><option value="generated">Authored practice only</option>
+          <option value="">All</option>
+          <option value="SYSTEM_ANALYST_2026_CSE_PREP">System Analyst 2026 CSE Prep</option>
+          <option value="TECH1_OFFICIAL">Official Legacy Exams</option>
+          <option value="MES2015_CSE">MES 2015 Engineering</option>
         </select></label>
         <label class="fld">Filter<select id="fOnly">
           <option value="">Everything</option>
@@ -856,7 +859,7 @@ VIEWS.practice = (el, opts) => {
     return ANSWERABLE.filter(q => {
       if (sel.paper.value && q.paper !== sel.paper.value) return false;
       if (sel.unit.value && q.unit !== sel.unit.value) return false;
-      if (sel.src.value && q.src !== sel.src.value) return false;
+      if (sel.src.value && q.srcKey !== sel.src.value) return false;
       if (sel.mode.value && modeOf(q.id) !== sel.mode.value) return false;
       const st = S.questions[q.id];
       switch (sel.only.value) {

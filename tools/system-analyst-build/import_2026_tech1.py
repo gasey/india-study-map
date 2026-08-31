@@ -72,14 +72,14 @@ def classify(text):
     t = " " + text.lower() + " "
     def has(pattern): return re.search(pattern, t, re.I) is not None
     # Test OS first: its memory/process terms overlap with architecture and algorithms.
-    if has(r"\b(process|semaphore|mutex|critical section|producer|consumer|deadlock|scheduler|scheduling|thread|page fault|paging|segmentation|thrashing|belady|file system|directory|disk scheduling|multiprogram|monitor|system call|kernel|shell|synchronization|mutual exclusion|memory allocation|resident monitor|partition|interprocess|concurrency|concurrent|starvation|wait state)\b"):
-        return "4", "Processes, concurrency and synchronization"
-    if has(r"\b(array|linked list|linear list|stack|queue|deque|priority queue|recursion|binary search|sequential search|merge sort|quick sort|heap sort|insertion sort|selection sort|algorithm complexity|time complexity|union[- ]find|avl|b-tree|external search|hashing)\b"):
-        return "3", "Recursion, searching and sorting"
-    if has(r"\b(set|relation|poset|lattice|induction|proposition|logical|permutation|combination|recurrence|generating function|graph|spanning tree|kruskal|dijkstra|floyd|warshall|bfs|dfs|isomorph|homomorph|finite autom|\bnfa\b|\bdfa\b|mealy|moore|grammar|regular expression|fuzzy|chomsky|language)\b"):
-        return "1", "Graph theory, trees and graph algorithms"
-    if has(r"\b(register|instruction|addressing mode|address lines?|control unit|microprogram|machine language|assembly|assembler|\bbcd\b|signed magnitude|floating point|cache|\bprom\b|\bdram\b|\bsram\b|\bram\b|\brom\b|processor|\bcpu\b|\balu\b|bus system|pipeline|vector processing|parallel processing|peripheral|input/output|i/o|risc|binary|two'?s complement|memory hierarchy|program counter|microprocessor|digital logic|boolean algebra|logic gate|shift register|flip-flop|\bnand\b|\bnor\b|\band gate\b|\bor gate\b|d/a converter|a/d converter|magnetic disk|track|sector|hit ratio|octal)\b"):
-        return "2", "Computer organization, registers and instruction cycle"
+    if has(r"\b(processes?|semaphores?|mutexes?|critical sections?|producers?|consumers?|deadlocks?|schedulers?|scheduling|threads?|page faults?|paging|segmentation|thrashing|belady|file systems?|directories?|disk scheduling|multiprogram|monitors?|system calls?|kernels?|shells?|synchronization|mutual exclusion|memory allocations?|resident monitors?|partitions?|interprocess|concurrency|concurrent|starvation|wait states?|cpu scheduling|memory management|virtual memory|demand paging|page replacement|lru|fifo)\b"):
+        return "4", "OS concepts, structure and services"
+    if has(r"\b(arrays?|linked lists?|linear lists?|stacks?|queues?|deques?|priority queues?|recursion|binary searches?|sequential searches?|merge sorts?|quick sorts?|heap sorts?|insertion sorts?|selection sorts?|algorithm complexities?|time complexities?|space complexities?|union[- ]finds?|disjoint sets?|infix|postfix|prefix|notation|avl|b[+\-]?trees?|external searches?|hashings?|expression evaluations?|tree traversals?|greedy algorithms?|divide[- ]and[- ]conquer|dynamic programming|backtracking|huffman|fractional knapsack|activity selection|greedy|threading|circular lists?|doubly linked|sparse matrices?|collision resolution|chaining|quadratic probing|linear probing)\b"):
+        return "3", "Data Structures and Algorithms"
+    if has(r"\b(sets?|relations?|posets?|lattices?|inductions?|propositions?|logical|permutations?|combinations?|recurrences?|generating functions?|graphs?|spanning trees?|kruskal|dijkstra|floyd|warshall|bfs|dfs|isomorphisms?|homomorphisms?|finite automatons?|nfas?|dfas?|mealy|moore|grammars?|regular expressions?|fuzzy|chomsky|languages?)\b"):
+        return "1", "Discrete Mathematics"
+    if has(r"\b(registers?|instructions?|addressing modes?|address lines?|control units?|microprogram|machine languages?|assemblies?|assemblers?|bcd|signed magnitudes?|floating points?|caches?|proms?|drams?|srams?|rams?|roms?|processors?|cpus?|alus?|bus systems?|pipelines?|vector processing|parallel processing|peripherals?|input/output|i/o|risc|binary|two'?s complements?|memory hierarchies?|program counters?|microprocessors?|digital logics?|boolean algebras?|logic gates?|shift registers?|flip[- ]flops?|nands?|nors?|and gates?|or gates?|d/a converters?|a/d converters?|magnetic disks?|tracks?|sectors?|hit ratios?|octals?)\b"):
+        return "2", "Computer Architecture and Organization"
     return None
 
 def normalise(stem):

@@ -9,7 +9,34 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
-## 2026-08-31 (latest) — Election Paper II solved by two models that couldn't see each other
+## 2026-09-01 — System Analyst Technical Paper I: Fixed regex classifier, recovered CSE 2015 questions
+
+**The problem:** After filtering 713 CSE 2015 (Computer Science Engineering) questions against the new Informatics Officer 2026 Technical Paper I syllabus, the import pipeline kept only 211 questions — distributed as Unit 1: 67, Unit 2: 60, Unit 3: **29** (should be 60 marks), Unit 4: 55. Unit 3 (Data Structures & Algorithms) was critically under-represented.
+
+**Root cause:** The classifier regex used `\bkeyword\b` patterns to match singular forms only. Exam questions are typically phrased in plural ("Stacks are...", "Processes can..."), so `\bstack\b` silently failed to match "Stacks", dropping ~45% of on-syllabus content. Keywords like "deadlocks", "processes", "semaphores" all missed their singular-only patterns.
+
+**Fix applied:** Rewrote `tools/system-analyst-build/import_2026_tech1.py` classify() function to:
+1. Handle plural forms: `\bstack\b` → `\bstacks?\b`, `\bprocess\b` → `\bprocesses?\b`
+2. Added 30+ missing keywords from the new syllabus (lru, page replacement, expression evaluation, tree traversals, greedy algorithms, dynamic programming, disjoint sets, B-trees, collision resolution, etc.)
+3. Reordered classifiers to avoid overlap conflicts
+
+**Result:** Re-import went from 211 → **217 questions** (+6). Unit 3 climbed from 29 → **33** (+4 recovered). Unit 4 unexpectedly declined 55 → 35 (suggests overlap in classifier patterns; needs investigation). New mark distribution:
+- Unit 1 (Discrete Math, 40 marks): 74 questions
+- Unit 2 (Computer Architecture, 40 marks): 75 questions  
+- Unit 3 (Data Structures, 60 marks): 33 questions ← Still under-target
+- Unit 4 (Operating System, 60 marks): 35 questions ← Declined; needs review
+
+**What's still open:**
+1. **Unit 3 remains weak** (33 of needed ~60 for mark parity). High-value DS topics to manually recover: graph algorithms (Dijkstra, Kruskal, BFS/DFS), infix/postfix/prefix notation, union-find with path compression, Huffman coding, activity selection, B-tree operations. These are sitting in the excluded 496 questions.
+2. **Unit 4 regression** (55 → 35): Classifier overlap likely misrouting OS questions into Unit 1 or 3. Need to audit the pattern boundaries and re-run.
+3. **Duplicate/bad-answer filtering** may be suppressing legitimate CSE questions. Should spot-check the excluded pool against source PDFs (`CSE 2015/` directory, ~1.5GB total) before permanently dropping them.
+4. **Old Informatics Officer questions** (2021 papers mentioned in earlier commits) should be recovered and merged into the practice tab alongside CSE 2015 for comprehensive coverage.
+
+**Technical note:** The 502 excluded questions contain confirmed on-syllabus content (DBMS ~35, Networks ~34, OOP ~37, SW-Eng ~15, Graphics ~16) that should stay excluded per new exam scope. But the dropped DS questions represent a genuine scarcity in CSE 2015 coverage of that unit, not a pipeline defect — CSE itself may have under-weighted data structures relative to the Informatics Officer exam's 60-mark focus on them. User's manual sort of 200 questions is already a strong signal; trust it and prioritize Unit 3 recovery next.
+
+---
+
+## 2026-08-31 — Election Paper II solved by two models that couldn't see each other
 
 The entry below shipped Election Dec-2019 Paper II with **zero** usable questions:
 the bank holds no answer for any of its 74, so `assemble.py` quarantined the lot.

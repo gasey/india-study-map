@@ -7,7 +7,7 @@ window.QUESTIONS = [
   "no": 1,
   "paper": "TECH1",
   "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
+  "sub": "Computer Architecture and Organization",
   "q": "______ of a D/A converter is determined by comparing the actual output of a D/A converter with the expected output.",
   "opts": {
    "A": "Resolution",
@@ -28,7 +28,7 @@ window.QUESTIONS = [
   "no": 2,
   "paper": "TECH1",
   "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
+  "sub": "Computer Architecture and Organization",
   "q": "The performance of cache memory is frequently measured in terms of a quantity called",
   "opts": {
    "A": "miss ratio",
@@ -49,7 +49,7 @@ window.QUESTIONS = [
   "no": 3,
   "paper": "TECH1",
   "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
+  "sub": "Computer Architecture and Organization",
   "q": "The bit sequence 0010 is serially entered (right-most bit first) into a 4-bit parallel out shift register that is initially clear. What are the Q outputs after two clock pulses?",
   "opts": {
    "A": "0000",
@@ -70,7 +70,7 @@ window.QUESTIONS = [
   "no": 4,
   "paper": "TECH1",
   "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
+  "sub": "Computer Architecture and Organization",
   "q": "If a 3-input NOR gate has eight input possibilities, how many of those possibilities will result in a HIGH output?",
   "opts": {
    "A": "1",
@@ -91,7 +91,7 @@ window.QUESTIONS = [
   "no": 5,
   "paper": "TECH1",
   "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
+  "sub": "Computer Architecture and Organization",
   "q": "The no. of address lines required to address a memory of size 32 K is",
   "opts": {
    "A": "15 lines",
@@ -112,7 +112,7 @@ window.QUESTIONS = [
   "no": 6,
   "paper": "TECH1",
   "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
+  "sub": "Computer Architecture and Organization",
   "q": "Binary numbers can be converted into equivalent octal numbers by making groups of three bits _____________.",
   "opts": {
    "A": "Starting from the MSB",
@@ -133,7 +133,7 @@ window.QUESTIONS = [
   "no": 7,
   "paper": "TECH1",
   "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
+  "sub": "Computer Architecture and Organization",
   "q": "The register which keeps track of the execution of a program and which contains the memory address of the next instruction to be executed is known as",
   "opts": {
    "A": "index register",
@@ -154,7 +154,7 @@ window.QUESTIONS = [
   "no": 8,
   "paper": "TECH1",
   "unit": "3",
-  "sub": "Recursion, searching and sorting",
+  "sub": "Data Structures and Algorithms",
   "q": "Deletion of a node from a singly linked list, in general, requires adjustment of pointer field of ______ node(s)",
   "opts": {
    "A": "1",
@@ -175,7 +175,7 @@ window.QUESTIONS = [
   "no": 9,
   "paper": "TECH1",
   "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
+  "sub": "Computer Architecture and Organization",
   "q": "By taking 2's complement again of the 2's complement of a binary, one gets",
   "opts": {
    "A": "the 1's complement",
@@ -195,8 +195,29 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 10,
   "paper": "TECH1",
+  "unit": "1",
+  "sub": "Discrete Mathematics",
+  "q": "In magnetic disks data is organized on the platter in a concentric sets or rings called",
+  "opts": {
+   "A": "sector",
+   "B": "track",
+   "C": "head",
+   "D": "block"
+  },
+  "ans": "B",
+  "exp": "",
+  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
+  "note": ""
+ },
+ {
+  "id": "TECH1_CSE_011",
+  "src": "past",
+  "sitting": "MPSC CSE Paper I (year not recorded)",
+  "srcKey": "CSE_TECH1",
+  "no": 11,
+  "paper": "TECH1",
   "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
+  "sub": "Computer Architecture and Organization",
   "q": "Software instruction intended to satisfy a user's specific processing needs are called",
   "opts": {
    "A": "System software",
@@ -210,14 +231,35 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_011",
+  "id": "TECH1_CSE_012",
   "src": "past",
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "CSE_TECH1",
-  "no": 11,
+  "no": 12,
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Data Structures and Algorithms",
+  "q": "When multidimensional arrays are assigned initial value",
+  "opts": {
+   "A": "Rightmost subscript increases most rapidly",
+   "B": "Leftmost subscript increases most rapidly",
+   "C": "Rightmost subscript increases least",
+   "D": "None of these"
+  },
+  "ans": "A",
+  "exp": "",
+  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
+  "note": ""
+ },
+ {
+  "id": "TECH1_CSE_013",
+  "src": "past",
+  "sitting": "MPSC CSE Paper I (year not recorded)",
+  "srcKey": "CSE_TECH1",
+  "no": 13,
   "paper": "TECH1",
   "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
+  "sub": "Computer Architecture and Organization",
   "q": "In which addressing mode the operand is given explicitly in the instruction",
   "opts": {
    "A": "absolute",
@@ -231,14 +273,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_012",
+  "id": "TECH1_CSE_014",
   "src": "past",
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "CSE_TECH1",
-  "no": 12,
+  "no": 14,
   "paper": "TECH1",
   "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
+  "sub": "Computer Architecture and Organization",
   "q": "A NAND gate is called a universal logic element because",
   "opts": {
    "A": "It is used by everybody.",
@@ -252,14 +294,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_013",
+  "id": "TECH1_CSE_015",
   "src": "past",
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "CSE_TECH1",
-  "no": 13,
+  "no": 15,
   "paper": "TECH1",
   "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
+  "sub": "Computer Architecture and Organization",
   "q": "BCD numbers are obtained",
   "opts": {
    "A": "by converting decimal number to binary",
@@ -273,14 +315,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_014",
+  "id": "TECH1_CSE_016",
   "src": "past",
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "CSE_TECH1",
-  "no": 14,
+  "no": 16,
   "paper": "TECH1",
   "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
+  "sub": "Computer Architecture and Organization",
   "q": "A register can also be used to provide data movements.",
   "opts": {
    "A": "Parallel Register",
@@ -294,62 +336,20 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_015",
-  "src": "past",
-  "sitting": "MPSC CSE Paper I (year not recorded)",
-  "srcKey": "CSE_TECH1",
-  "no": 15,
-  "paper": "TECH1",
-  "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
-  "q": "The output of an AND gate with three inputs, A, B, and C, is HIGH when ________.",
-  "opts": {
-   "A": "A = 1, B = 1, C = 0",
-   "B": "A = 0, B = 0, C = 0",
-   "C": "A = 1, B = 1, C = 1",
-   "D": "A = 1, B = 0, C = 1"
-  },
-  "ans": "C",
-  "exp": "",
-  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
- },
- {
-  "id": "TECH1_CSE_016",
-  "src": "past",
-  "sitting": "MPSC CSE Paper I (year not recorded)",
-  "srcKey": "CSE_TECH1",
-  "no": 16,
-  "paper": "TECH1",
-  "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
-  "q": "Which of the following is the process of determining whether the output of one phase of software development conforms to that of its previous phase?",
-  "opts": {
-   "A": "Validation",
-   "B": "Verification",
-   "C": "Identification",
-   "D": "None of these"
-  },
-  "ans": "B",
-  "exp": "",
-  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
- },
- {
   "id": "TECH1_CSE_017",
   "src": "past",
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "CSE_TECH1",
   "no": 17,
   "paper": "TECH1",
-  "unit": "3",
-  "sub": "Recursion, searching and sorting",
-  "q": "Insertion of a node at the beginning of a linked list requires adjustment of pointer field of _________ node(s)",
+  "unit": "2",
+  "sub": "Computer Architecture and Organization",
+  "q": "It is a counter where the flip-flops do not change states at exactly the same time, as they do not have a common clock pulse.",
   "opts": {
-   "A": "Head",
-   "B": "Tail",
-   "C": "Middle",
-   "D": "Top"
+   "A": "Asynchronous Ripple Counter",
+   "B": "Synchronous Ripple Counter",
+   "C": "Counter",
+   "D": "All of these"
   },
   "ans": "A",
   "exp": "",
@@ -364,15 +364,15 @@ window.QUESTIONS = [
   "no": 18,
   "paper": "TECH1",
   "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
-  "q": "The minimum time for which the input signal has to be maintained at the input of flip-flop is called ______ of the flip-flop.",
+  "sub": "Computer Architecture and Organization",
+  "q": "The output of an AND gate with three inputs, A, B, and C, is HIGH when ________.",
   "opts": {
-   "A": "Set-up time",
-   "B": "Hold time",
-   "C": "Pulse Interval time",
-   "D": "Pulse Stability time (PST)"
+   "A": "A = 1, B = 1, C = 0",
+   "B": "A = 0, B = 0, C = 0",
+   "C": "A = 1, B = 1, C = 1",
+   "D": "A = 1, B = 0, C = 1"
   },
-  "ans": "B",
+  "ans": "C",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -384,14 +384,14 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 19,
   "paper": "TECH1",
-  "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
-  "q": "Microprocessor with 'n' address lines is capable of addressing",
+  "unit": "3",
+  "sub": "Data Structures and Algorithms",
+  "q": "Insertion of a node at the beginning of a linked list requires adjustment of pointer field of _________ node(s)",
   "opts": {
-   "A": "2n locations",
-   "B": "2(n + 1)locations",
-   "C": "2n locations",
-   "D": "n2 locations"
+   "A": "Head",
+   "B": "Tail",
+   "C": "Middle",
+   "D": "Top"
   },
   "ans": "A",
   "exp": "",
@@ -406,7 +406,49 @@ window.QUESTIONS = [
   "no": 20,
   "paper": "TECH1",
   "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
+  "sub": "Computer Architecture and Organization",
+  "q": "The minimum time for which the input signal has to be maintained at the input of flip-flop is called ______ of the flip-flop.",
+  "opts": {
+   "A": "Set-up time",
+   "B": "Hold time",
+   "C": "Pulse Interval time",
+   "D": "Pulse Stability time (PST)"
+  },
+  "ans": "B",
+  "exp": "",
+  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
+  "note": ""
+ },
+ {
+  "id": "TECH1_CSE_021",
+  "src": "past",
+  "sitting": "MPSC CSE Paper I (year not recorded)",
+  "srcKey": "CSE_TECH1",
+  "no": 21,
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Computer Architecture and Organization",
+  "q": "Microprocessor with 'n' address lines is capable of addressing",
+  "opts": {
+   "A": "2n locations",
+   "B": "2(n + 1)locations",
+   "C": "2n locations",
+   "D": "n2 locations"
+  },
+  "ans": "A",
+  "exp": "",
+  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
+  "note": ""
+ },
+ {
+  "id": "TECH1_CSE_022",
+  "src": "past",
+  "sitting": "MPSC CSE Paper I (year not recorded)",
+  "srcKey": "CSE_TECH1",
+  "no": 22,
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Computer Architecture and Organization",
   "q": "The ASCII code is for information interchange by a binary code for",
   "opts": {
    "A": "numbers only",
@@ -420,14 +462,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_021",
+  "id": "TECH1_CSE_023",
   "src": "past",
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "CSE_TECH1",
-  "no": 21,
+  "no": 23,
   "paper": "TECH1",
   "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
+  "sub": "Computer Architecture and Organization",
   "q": "For each instructions of program in memory the CPU goes through a",
   "opts": {
    "A": "decode - fetch - execute sequence",
@@ -441,14 +483,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_022",
+  "id": "TECH1_CSE_024",
   "src": "past",
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "CSE_TECH1",
-  "no": 22,
+  "no": 24,
   "paper": "TECH1",
   "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
+  "sub": "Computer Architecture and Organization",
   "q": "Binary equivalent of decimal number 25 is",
   "opts": {
    "A": "011001",
@@ -462,14 +504,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_023",
+  "id": "TECH1_CSE_025",
   "src": "past",
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "CSE_TECH1",
-  "no": 23,
+  "no": 25,
   "paper": "TECH1",
   "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
+  "sub": "Computer Architecture and Organization",
   "q": "Which of the following is used as storage locations both in the ALU and in the control section of a computer",
   "opts": {
    "A": "accumalator",
@@ -483,62 +525,20 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_024",
-  "src": "past",
-  "sitting": "MPSC CSE Paper I (year not recorded)",
-  "srcKey": "CSE_TECH1",
-  "no": 24,
-  "paper": "TECH1",
-  "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
-  "q": "8088 microprocessor has",
-  "opts": {
-   "A": "16 bit data bus",
-   "B": "4 byte pre-fetch queue",
-   "C": "6 byte pre-fetch queue",
-   "D": "16 bit address bus"
-  },
-  "ans": "B",
-  "exp": "",
-  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
- },
- {
-  "id": "TECH1_CSE_025",
-  "src": "past",
-  "sitting": "MPSC CSE Paper I (year not recorded)",
-  "srcKey": "CSE_TECH1",
-  "no": 25,
-  "paper": "TECH1",
-  "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
-  "q": "A __________ point of a fuzzy set A is a point x  X at which µA(x) = 0.5",
-  "opts": {
-   "A": "Core",
-   "B": "Support",
-   "C": "Cross-over",
-   "D": "a-Cut"
-  },
-  "ans": "C",
-  "exp": "",
-  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
- },
- {
   "id": "TECH1_CSE_026",
   "src": "past",
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "CSE_TECH1",
   "no": 26,
   "paper": "TECH1",
-  "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
-  "q": "Which of the following statements for a simple graph is correct?",
+  "unit": "2",
+  "sub": "Computer Architecture and Organization",
+  "q": "8088 microprocessor has",
   "opts": {
-   "A": "Every path is a trail",
-   "B": "Every trail is a path",
-   "C": "Every trail is a path as well as every path is a trail",
-   "D": "None of these"
+   "A": "16 bit data bus",
+   "B": "4 byte pre-fetch queue",
+   "C": "6 byte pre-fetch queue",
+   "D": "16 bit address bus"
   },
   "ans": "B",
   "exp": "",
@@ -553,13 +553,13 @@ window.QUESTIONS = [
   "no": 27,
   "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
-  "q": "The number of different spanning trees in complete graph of four vertices is__________",
+  "sub": "Discrete Mathematics",
+  "q": "A __________ point of a fuzzy set A is a point x  X at which µA(x) = 0.5",
   "opts": {
-   "A": "14",
-   "B": "15",
-   "C": "16",
-   "D": "17"
+   "A": "Core",
+   "B": "Support",
+   "C": "Cross-over",
+   "D": "a-Cut"
   },
   "ans": "C",
   "exp": "",
@@ -574,15 +574,15 @@ window.QUESTIONS = [
   "no": 28,
   "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
-  "q": "An undirected graph G with n vertices and e edges is represented by adjacency list. What is the time required to generate all the connected components?",
+  "sub": "Discrete Mathematics",
+  "q": "Which of the following statements for a simple graph is correct?",
   "opts": {
-   "A": "O(n)",
-   "B": "O(e)",
-   "C": "O(e+n)",
-   "D": "O(e²)"
+   "A": "Every path is a trail",
+   "B": "Every trail is a path",
+   "C": "Every trail is a path as well as every path is a trail",
+   "D": "None of these"
   },
-  "ans": "C",
+  "ans": "B",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -594,14 +594,14 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 29,
   "paper": "TECH1",
-  "unit": "3",
-  "sub": "Recursion, searching and sorting",
-  "q": "The given array is arr = {2,6,1}. What are the pivots that are returned as a result of subsequent partitioning?",
+  "unit": "1",
+  "sub": "Discrete Mathematics",
+  "q": "The number of different spanning trees in complete graph of four vertices is__________",
   "opts": {
-   "A": "1 and 6",
-   "B": "6 and 1",
-   "C": "2 and 6",
-   "D": "None of these"
+   "A": "14",
+   "B": "15",
+   "C": "16",
+   "D": "17"
   },
   "ans": "C",
   "exp": "",
@@ -615,14 +615,14 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 30,
   "paper": "TECH1",
-  "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
-  "q": "Memory access in RISC architecture is limited to instructions",
+  "unit": "1",
+  "sub": "Discrete Mathematics",
+  "q": "An undirected graph G with n vertices and e edges is represented by adjacency list. What is the time required to generate all the connected components?",
   "opts": {
-   "A": "CALL and RET",
-   "B": "PUSH and POP",
-   "C": "STA and LDA",
-   "D": "MOV and JMP"
+   "A": "O(n)",
+   "B": "O(e)",
+   "C": "O(e+n)",
+   "D": "O(e²)"
   },
   "ans": "C",
   "exp": "",
@@ -636,8 +636,71 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 31,
   "paper": "TECH1",
+  "unit": "3",
+  "sub": "Data Structures and Algorithms",
+  "q": "The given array is arr = {2,6,1}. What are the pivots that are returned as a result of subsequent partitioning?",
+  "opts": {
+   "A": "1 and 6",
+   "B": "6 and 1",
+   "C": "2 and 6",
+   "D": "None of these"
+  },
+  "ans": "C",
+  "exp": "",
+  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
+  "note": ""
+ },
+ {
+  "id": "TECH1_CSE_032",
+  "src": "past",
+  "sitting": "MPSC CSE Paper I (year not recorded)",
+  "srcKey": "CSE_TECH1",
+  "no": 32,
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Computer Architecture and Organization",
+  "q": "Memory access in RISC architecture is limited to instructions",
+  "opts": {
+   "A": "CALL and RET",
+   "B": "PUSH and POP",
+   "C": "STA and LDA",
+   "D": "MOV and JMP"
+  },
+  "ans": "C",
+  "exp": "",
+  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
+  "note": ""
+ },
+ {
+  "id": "TECH1_CSE_033",
+  "src": "past",
+  "sitting": "MPSC CSE Paper I (year not recorded)",
+  "srcKey": "CSE_TECH1",
+  "no": 33,
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Data Structures and Algorithms",
+  "q": "What are the disadvantages of arrays?",
+  "opts": {
+   "A": "We must know before hand how many elements will be there in the array",
+   "B": "There are chances of wastage of memory space if elements inserted in an array are lesser than than the allocated size",
+   "C": "Insertion and deletion becomes tedious",
+   "D": "All of these"
+  },
+  "ans": "D",
+  "exp": "",
+  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
+  "note": ""
+ },
+ {
+  "id": "TECH1_CSE_034",
+  "src": "past",
+  "sitting": "MPSC CSE Paper I (year not recorded)",
+  "srcKey": "CSE_TECH1",
+  "no": 34,
+  "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
+  "sub": "Discrete Mathematics",
   "q": "The Grammar can be defined as: G=(V, S, p, S) In the given definition, what does S represents?",
   "opts": {
    "A": "Accepting State",
@@ -651,14 +714,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_032",
+  "id": "TECH1_CSE_035",
   "src": "past",
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "CSE_TECH1",
-  "no": 32,
+  "no": 35,
   "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
+  "sub": "Discrete Mathematics",
   "q": "Dijkstra algorithm is also called the __________ shortest path problem.",
   "opts": {
    "A": "multiple source",
@@ -672,14 +735,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_033",
+  "id": "TECH1_CSE_036",
   "src": "past",
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "CSE_TECH1",
-  "no": 33,
+  "no": 36,
   "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
+  "sub": "Discrete Mathematics",
   "q": "A Language for which no DFA exist is a__________",
   "opts": {
    "A": "Regular Language",
@@ -693,14 +756,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_034",
+  "id": "TECH1_CSE_037",
   "src": "past",
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "CSE_TECH1",
-  "no": 34,
+  "no": 37,
   "paper": "TECH1",
   "unit": "3",
-  "sub": "Recursion, searching and sorting",
+  "sub": "Data Structures and Algorithms",
   "q": "The given array is arr = {1,2,4,3}. Bubble sort is used to sort the array elements. How many iterations will be done to sort the array?",
   "opts": {
    "A": "4",
@@ -714,14 +777,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_035",
+  "id": "TECH1_CSE_038",
   "src": "past",
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "CSE_TECH1",
-  "no": 35,
+  "no": 38,
   "paper": "TECH1",
   "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
+  "sub": "Computer Architecture and Organization",
   "q": "The performance of a pipelined processor suffers if",
   "opts": {
    "A": "the pipeline stages have different delays",
@@ -735,83 +798,20 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_036",
-  "src": "past",
-  "sitting": "MPSC CSE Paper I (year not recorded)",
-  "srcKey": "CSE_TECH1",
-  "no": 36,
-  "paper": "TECH1",
-  "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
-  "q": "The first machine cycle of an instruction is always",
-  "opts": {
-   "A": "A memory read cycle",
-   "B": "A fetch cycle",
-   "C": "An I/O read cycle",
-   "D": "A memory write cycle"
-  },
-  "ans": "B",
-  "exp": "",
-  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
- },
- {
-  "id": "TECH1_CSE_037",
-  "src": "past",
-  "sitting": "MPSC CSE Paper I (year not recorded)",
-  "srcKey": "CSE_TECH1",
-  "no": 37,
-  "paper": "TECH1",
-  "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
-  "q": "How many address lines are needed to address each memory locations in a 2048×4 memory chip?",
-  "opts": {
-   "A": "10",
-   "B": "11",
-   "C": "8",
-   "D": "12"
-  },
-  "ans": "A",
-  "exp": "",
-  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
- },
- {
-  "id": "TECH1_CSE_038",
-  "src": "past",
-  "sitting": "MPSC CSE Paper I (year not recorded)",
-  "srcKey": "CSE_TECH1",
-  "no": 38,
-  "paper": "TECH1",
-  "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
-  "q": "The height h(A) of a fuzzy set A is defined as h(A) =sup A(x) where x belongs to A. Then the fuzzy set A is called normal when",
-  "opts": {
-   "A": "h(A)=0",
-   "B": "h(A)<0",
-   "C": "h(A)=1",
-   "D": "h(A)<1"
-  },
-  "ans": "C",
-  "exp": "",
-  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
- },
- {
   "id": "TECH1_CSE_039",
   "src": "past",
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "CSE_TECH1",
   "no": 39,
   "paper": "TECH1",
-  "unit": "3",
-  "sub": "Recursion, searching and sorting",
-  "q": "What is the disadvantage of selection sort?",
+  "unit": "2",
+  "sub": "Computer Architecture and Organization",
+  "q": "The first machine cycle of an instruction is always",
   "opts": {
-   "A": "It requires auxiliary memory",
-   "B": "It is not scalable",
-   "C": "It can be used for small keys",
-   "D": "None of these"
+   "A": "A memory read cycle",
+   "B": "A fetch cycle",
+   "C": "An I/O read cycle",
+   "D": "A memory write cycle"
   },
   "ans": "B",
   "exp": "",
@@ -826,13 +826,13 @@ window.QUESTIONS = [
   "no": 40,
   "paper": "TECH1",
   "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
-  "q": "The addressing mode which makes use of in-direction pointers is __________",
+  "sub": "Computer Architecture and Organization",
+  "q": "How many address lines are needed to address each memory locations in a 2048×4 memory chip?",
   "opts": {
-   "A": "Indirect addressing mode",
-   "B": "Index addressing mode",
-   "C": "Relative addressing mode",
-   "D": "Offset addressing mode"
+   "A": "10",
+   "B": "11",
+   "C": "8",
+   "D": "12"
   },
   "ans": "A",
   "exp": "",
@@ -847,13 +847,13 @@ window.QUESTIONS = [
   "no": 41,
   "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
-  "q": "Which of the following is/are the operations performed by kruskal's algorithm in a graph G\ni) sort the edges of G in increasing order by length\nii) keep a subgraph S of G initially empty\niii) builds a tree one vertex at a time",
+  "sub": "Discrete Mathematics",
+  "q": "The height h(A) of a fuzzy set A is defined as h(A) =sup A(x) where x belongs to A. Then the fuzzy set A is called normal when",
   "opts": {
-   "A": "i, and ii only",
-   "B": "ii and iii only",
-   "C": "i and iii only",
-   "D": "all i, ii and iii"
+   "A": "h(A)=0",
+   "B": "h(A)<0",
+   "C": "h(A)=1",
+   "D": "h(A)<1"
   },
   "ans": "C",
   "exp": "",
@@ -867,16 +867,16 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 42,
   "paper": "TECH1",
-  "unit": "3",
-  "sub": "Recursion, searching and sorting",
-  "q": "The given array is arr = {1,2,3,4,5}. (bubble sort is implemented with a flag variable)The number of iterations in selection sort and bubble sort respectively are,",
+  "unit": "2",
+  "sub": "Computer Architecture and Organization",
+  "q": "How many two-input AND and OR gates are required to realize Y = CD+EF+G?",
   "opts": {
-   "A": "5 and 4",
-   "B": "1 and 4",
-   "C": "0 and 4",
-   "D": "4 and 1"
+   "A": "2, 2",
+   "B": "2, 3",
+   "C": "3, 3",
+   "D": "None of these"
   },
-  "ans": "C",
+  "ans": "B",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -888,14 +888,14 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 43,
   "paper": "TECH1",
-  "unit": "3",
-  "sub": "Recursion, searching and sorting",
-  "q": "What would happen if the balance factor of a node in an AVL tree is '1'?",
+  "unit": "1",
+  "sub": "Discrete Mathematics",
+  "q": "It is less complex to prove the closure properties over regular languages using",
   "opts": {
-   "A": "Heights of left and right subtrees become equal",
-   "B": "Height of left subtree is one more than the height of right subtree",
-   "C": "Height of left subtree is one less than the height of right tree",
-   "D": "None of these"
+   "A": "NFA",
+   "B": "DFA",
+   "C": "PDA",
+   "D": "Can't be said"
   },
   "ans": "B",
   "exp": "",
@@ -909,14 +909,14 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 44,
   "paper": "TECH1",
-  "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
-  "q": "Can a DFA recognize a palindrome number?",
+  "unit": "3",
+  "sub": "Data Structures and Algorithms",
+  "q": "What is the disadvantage of selection sort?",
   "opts": {
-   "A": "Yes",
-   "B": "No",
-   "C": "Yes, with input alphabet as S*",
-   "D": "Can't be determined"
+   "A": "It requires auxiliary memory",
+   "B": "It is not scalable",
+   "C": "It can be used for small keys",
+   "D": "None of these"
   },
   "ans": "B",
   "exp": "",
@@ -930,16 +930,16 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 45,
   "paper": "TECH1",
-  "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
-  "q": "The pipelining process is also called as __________",
+  "unit": "2",
+  "sub": "Computer Architecture and Organization",
+  "q": "The addressing mode which makes use of in-direction pointers is __________",
   "opts": {
-   "A": "Superscalar operation",
-   "B": "Assembly line operation",
-   "C": "Von neumann cycle",
-   "D": "None of these"
+   "A": "Indirect addressing mode",
+   "B": "Index addressing mode",
+   "C": "Relative addressing mode",
+   "D": "Offset addressing mode"
   },
-  "ans": "B",
+  "ans": "A",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -951,16 +951,16 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 46,
   "paper": "TECH1",
-  "unit": "3",
-  "sub": "Recursion, searching and sorting",
-  "q": "What is the space complexity of a linear queue having n elements?",
+  "unit": "1",
+  "sub": "Discrete Mathematics",
+  "q": "Which of the following is/are the operations performed by kruskal's algorithm in a graph G\ni) sort the edges of G in increasing order by length\nii) keep a subgraph S of G initially empty\niii) builds a tree one vertex at a time",
   "opts": {
-   "A": "O(n)",
-   "B": "O(nlogn)",
-   "C": "O(logn)",
-   "D": "O(1)"
+   "A": "i, and ii only",
+   "B": "ii and iii only",
+   "C": "i and iii only",
+   "D": "all i, ii and iii"
   },
-  "ans": "A",
+  "ans": "C",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -973,15 +973,15 @@ window.QUESTIONS = [
   "no": 47,
   "paper": "TECH1",
   "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
-  "q": "Preorder and inorder of a binary tree is given\nPreorder —— A B D H E C F I G J K\nInorder —— D H B E A I F C J G K\nWhat will be the postorder?",
+  "sub": "Computer Architecture and Organization",
+  "q": "A number of 1-bit registers used in microprocessors to indicate certain conditions are usually referred to as",
   "opts": {
-   "A": "H D E B I F J K G C A",
-   "B": "H D E B F I J K G C A",
-   "C": "H D E B I F J K CG A",
-   "D": "None of these"
+   "A": "shift registers",
+   "B": "flags",
+   "C": "counters",
+   "D": "unit register"
   },
-  "ans": "A",
+  "ans": "B",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -993,16 +993,16 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 48,
   "paper": "TECH1",
-  "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
-  "q": "The union of the sets {1, 2, 5} and {1, 2, 6} is the set __________",
+  "unit": "3",
+  "sub": "Data Structures and Algorithms",
+  "q": "The given array is arr = {1,2,3,4,5}. (bubble sort is implemented with a flag variable)The number of iterations in selection sort and bubble sort respectively are,",
   "opts": {
-   "A": "{1, 2, 6, 1}",
-   "B": "{1, 2, 5, 6}",
-   "C": "{1, 2, 1, 2}",
-   "D": "{1, 5, 6, 3}"
+   "A": "5 and 4",
+   "B": "1 and 4",
+   "C": "0 and 4",
+   "D": "4 and 1"
   },
-  "ans": "B",
+  "ans": "C",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -1014,16 +1014,16 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 49,
   "paper": "TECH1",
-  "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
-  "q": "The I/O interface required to connect the I/O device to the bus consists of __________",
+  "unit": "3",
+  "sub": "Data Structures and Algorithms",
+  "q": "What would happen if the balance factor of a node in an AVL tree is '1'?",
   "opts": {
-   "A": "Address decoder and registers",
-   "B": "Control circuits",
-   "C": "Address decoder, registers and Control circuits",
-   "D": "Only Control circuits"
+   "A": "Heights of left and right subtrees become equal",
+   "B": "Height of left subtree is one more than the height of right subtree",
+   "C": "Height of left subtree is one less than the height of right tree",
+   "D": "None of these"
   },
-  "ans": "C",
+  "ans": "B",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -1035,16 +1035,16 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 50,
   "paper": "TECH1",
-  "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
-  "q": "In an SR latch built from NOR gates, which condition is not allowed",
+  "unit": "1",
+  "sub": "Discrete Mathematics",
+  "q": "Can a DFA recognize a palindrome number?",
   "opts": {
-   "A": "S = 0, R = 0",
-   "B": "S = 0, R = 1",
-   "C": "S = 1, R = 0",
-   "D": "S = 1, R = 1"
+   "A": "Yes",
+   "B": "No",
+   "C": "Yes, with input alphabet as S*",
+   "D": "Can't be determined"
   },
-  "ans": "A",
+  "ans": "B",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -1057,15 +1057,15 @@ window.QUESTIONS = [
   "no": 51,
   "paper": "TECH1",
   "unit": "3",
-  "sub": "Recursion, searching and sorting",
-  "q": "Which of the following is the Worst-case running time of Quick Sort?",
+  "sub": "Data Structures and Algorithms",
+  "q": "Which is the correct algorithmic sequence for the conversion of an expression from Infix to Prefix?\ni. Change of every '(' (opening bracket) by ')' (closing bracket) and vice-versa.\nii. Reversal of an infix expression.\niii. Conversion of the modified expression into postfix form.\niv. Reversal of postfix expression.",
   "opts": {
-   "A": "O (n log n)",
-   "B": "O (n²)",
-   "C": "O (log n)",
-   "D": "O (n² / 4)"
+   "A": "i, ii, iii, iv",
+   "B": "iii, i,iv, ii",
+   "C": "ii ,i, iii, iv",
+   "D": "iv, ii, i, iii"
   },
-  "ans": "B",
+  "ans": "C",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -1078,13 +1078,13 @@ window.QUESTIONS = [
   "no": 52,
   "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
-  "q": "A cycle on n vertices of a graph is isomorphic to its complement. The value of n is",
+  "sub": "Discrete Mathematics",
+  "q": "Which of the following is an application of Finite Automaton?",
   "opts": {
-   "A": "2",
-   "B": "4",
-   "C": "6",
-   "D": "5"
+   "A": "Compiler Design",
+   "B": "Grammar Parsers",
+   "C": "Text Search",
+   "D": "All of these"
   },
   "ans": "D",
   "exp": "",
@@ -1098,16 +1098,16 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 53,
   "paper": "TECH1",
-  "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
-  "q": "In the toggle mode, a JK flip-flop has",
+  "unit": "3",
+  "sub": "Data Structures and Algorithms",
+  "q": "What is the space complexity of a linear queue having n elements?",
   "opts": {
-   "A": "J = 0, K = 0",
-   "B": "J = 1, K = 1",
-   "C": "J = 0, K = 1",
-   "D": "J = 1, K = 0"
+   "A": "O(n)",
+   "B": "O(nlogn)",
+   "C": "O(logn)",
+   "D": "O(1)"
   },
-  "ans": "B",
+  "ans": "A",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -1120,15 +1120,15 @@ window.QUESTIONS = [
   "no": 54,
   "paper": "TECH1",
   "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
-  "q": "How many bits are required to store one BCD digit ?",
+  "sub": "Computer Architecture and Organization",
+  "q": "Preorder and inorder of a binary tree is given\nPreorder —— A B D H E C F I G J K\nInorder —— D H B E A I F C J G K\nWhat will be the postorder?",
   "opts": {
-   "A": "1",
-   "B": "2",
-   "C": "3",
-   "D": "4"
+   "A": "H D E B I F J K G C A",
+   "B": "H D E B F I J K G C A",
+   "C": "H D E B I F J K CG A",
+   "D": "None of these"
   },
-  "ans": "D",
+  "ans": "A",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -1140,14 +1140,14 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 55,
   "paper": "TECH1",
-  "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
-  "q": "The internal Components of the processor are connected by __________",
+  "unit": "1",
+  "sub": "Discrete Mathematics",
+  "q": "The union of the sets {1, 2, 5} and {1, 2, 6} is the set __________",
   "opts": {
-   "A": "Processor intra-connectivity circuitry",
-   "B": "Processor bus",
-   "C": "Memory bus",
-   "D": "Rambus"
+   "A": "{1, 2, 6, 1}",
+   "B": "{1, 2, 5, 6}",
+   "C": "{1, 2, 1, 2}",
+   "D": "{1, 5, 6, 3}"
   },
   "ans": "B",
   "exp": "",
@@ -1161,14 +1161,14 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 56,
   "paper": "TECH1",
-  "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
-  "q": "What is the number of edges present in a complete graph having n vertices?",
+  "unit": "2",
+  "sub": "Computer Architecture and Organization",
+  "q": "Which of the following buses is primarily used to carry signals that direct other Instructions to find out what type of operation is being performed?",
   "opts": {
-   "A": "(n*(n+1))/2",
-   "B": "(n*(n-1))/2",
-   "C": "n",
-   "D": "Information given is insufficient"
+   "A": "data bus",
+   "B": "control bus",
+   "C": "address bus",
+   "D": "address decoder bus"
   },
   "ans": "B",
   "exp": "",
@@ -1182,14 +1182,14 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 57,
   "paper": "TECH1",
-  "unit": "3",
-  "sub": "Recursion, searching and sorting",
-  "q": "In order to get the information stored in a Binary Search Tree in the descending order, one should traverse it in which of the following order?",
+  "unit": "2",
+  "sub": "Computer Architecture and Organization",
+  "q": "The I/O interface required to connect the I/O device to the bus consists of __________",
   "opts": {
-   "A": "left, root, right",
-   "B": "root, left, right",
-   "C": "right, root, left",
-   "D": "right, left, root"
+   "A": "Address decoder and registers",
+   "B": "Control circuits",
+   "C": "Address decoder, registers and Control circuits",
+   "D": "Only Control circuits"
   },
   "ans": "C",
   "exp": "",
@@ -1204,15 +1204,15 @@ window.QUESTIONS = [
   "no": 58,
   "paper": "TECH1",
   "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
-  "q": "In case of Zero-address instruction method, the operands are stored in __________",
+  "sub": "Computer Architecture and Organization",
+  "q": "In an SR latch built from NOR gates, which condition is not allowed",
   "opts": {
-   "A": "Registers",
-   "B": "Accumulators",
-   "C": "Push down stack",
-   "D": "Cache"
+   "A": "S = 0, R = 0",
+   "B": "S = 0, R = 1",
+   "C": "S = 1, R = 0",
+   "D": "S = 1, R = 1"
   },
-  "ans": "C",
+  "ans": "A",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -1224,16 +1224,16 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 59,
   "paper": "TECH1",
-  "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
-  "q": "Assume the R is a relation on a set A, aRb is partially ordered such that a and b are __________",
+  "unit": "3",
+  "sub": "Data Structures and Algorithms",
+  "q": "Which of the following is the Worst-case running time of Quick Sort?",
   "opts": {
-   "A": "reflexive",
-   "B": "transitive",
-   "C": "symmetric",
-   "D": "reflexive and transitive"
+   "A": "O (n log n)",
+   "B": "O (n²)",
+   "C": "O (log n)",
+   "D": "O (n² / 4)"
   },
-  "ans": "D",
+  "ans": "B",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -1246,15 +1246,15 @@ window.QUESTIONS = [
   "no": 60,
   "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
-  "q": "The O/P of Mealy machine can be represented in the following format:",
+  "sub": "Discrete Mathematics",
+  "q": "A cycle on n vertices of a graph is isomorphic to its complement. The value of n is",
   "opts": {
-   "A": "Op(t)= d(Op(t))",
-   "B": "Op(t)= d(Op(t)i(t))",
-   "C": "Op(t): S",
-   "D": "None of these"
+   "A": "2",
+   "B": "4",
+   "C": "6",
+   "D": "5"
   },
-  "ans": "B",
+  "ans": "D",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -1266,16 +1266,16 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 61,
   "paper": "TECH1",
-  "unit": "3",
-  "sub": "Recursion, searching and sorting",
-  "q": "What is a sparse array?",
+  "unit": "2",
+  "sub": "Computer Architecture and Organization",
+  "q": "In the toggle mode, a JK flip-flop has",
   "opts": {
-   "A": "Data structure for representing arrays of records",
-   "B": "Data structure that compactly stores bits",
-   "C": "An array in which most of the elements have the same value",
-   "D": "None of these"
+   "A": "J = 0, K = 0",
+   "B": "J = 1, K = 1",
+   "C": "J = 0, K = 1",
+   "D": "J = 1, K = 0"
   },
-  "ans": "C",
+  "ans": "B",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -1287,16 +1287,16 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 62,
   "paper": "TECH1",
-  "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
-  "q": "The Floyd-Warshall all-pairs shortest path algorithm for finding the shortest distances between nodes in a graph is an example of:",
+  "unit": "2",
+  "sub": "Computer Architecture and Organization",
+  "q": "How many bits are required to store one BCD digit ?",
   "opts": {
-   "A": "A Dynamic Programming",
-   "B": "A Greedy Algorithm",
-   "C": "A divide and conquer technique",
-   "D": "Branch and bound technique"
+   "A": "1",
+   "B": "2",
+   "C": "3",
+   "D": "4"
   },
-  "ans": "A",
+  "ans": "D",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -1308,16 +1308,16 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 63,
   "paper": "TECH1",
-  "unit": "3",
-  "sub": "Recursion, searching and sorting",
-  "q": "What is the need for a circular queue?",
+  "unit": "2",
+  "sub": "Computer Architecture and Organization",
+  "q": "The internal Components of the processor are connected by __________",
   "opts": {
-   "A": "effective usage of memory",
-   "B": "easier computations",
-   "C": "all of these",
-   "D": "none of these"
+   "A": "Processor intra-connectivity circuitry",
+   "B": "Processor bus",
+   "C": "Memory bus",
+   "D": "Rambus"
   },
-  "ans": "A",
+  "ans": "B",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -1329,16 +1329,16 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 64,
   "paper": "TECH1",
-  "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
-  "q": "The binary numbers A = 1100 and B = 1001 are applied to the inputs of a comparator. What are the output levels?",
+  "unit": "1",
+  "sub": "Discrete Mathematics",
+  "q": "What is the number of edges present in a complete graph having n vertices?",
   "opts": {
-   "A": "A > B = 1, A < B = 0, A < B = 1",
-   "B": "A > B = 0, A < B = 1, A = B = 0",
-   "C": "A > B = 1, A < B = 0, A = B = 0",
-   "D": "A > B = 0, A < B = 1, A = B = 1"
+   "A": "(n*(n+1))/2",
+   "B": "(n*(n-1))/2",
+   "C": "n",
+   "D": "Information given is insufficient"
   },
-  "ans": "C",
+  "ans": "B",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -1350,14 +1350,14 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 65,
   "paper": "TECH1",
-  "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
-  "q": "For an undirected graph G with n vertices and e edges, the sum of the degrees of each vertex is",
+  "unit": "2",
+  "sub": "Computer Architecture and Organization",
+  "q": "In order to get the information stored in a Binary Search Tree in the descending order, one should traverse it in which of the following order?",
   "opts": {
-   "A": "ne",
-   "B": "2n",
-   "C": "2e",
-   "D": "en"
+   "A": "left, root, right",
+   "B": "root, left, right",
+   "C": "right, root, left",
+   "D": "right, left, root"
   },
   "ans": "C",
   "exp": "",
@@ -1371,16 +1371,16 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 66,
   "paper": "TECH1",
-  "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
-  "q": "A DFA cannot be represented in the following format",
+  "unit": "2",
+  "sub": "Computer Architecture and Organization",
+  "q": "In case of Zero-address instruction method, the operands are stored in __________",
   "opts": {
-   "A": "Transition graph",
-   "B": "Transition Table",
-   "C": "C code",
-   "D": "None of these"
+   "A": "Registers",
+   "B": "Accumulators",
+   "C": "Push down stack",
+   "D": "Cache"
   },
-  "ans": "D",
+  "ans": "C",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -1392,16 +1392,16 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 67,
   "paper": "TECH1",
-  "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
-  "q": "The minimum number of states required to recognize an octal number divisible by 3 are/is",
+  "unit": "1",
+  "sub": "Discrete Mathematics",
+  "q": "Assume the R is a relation on a set A, aRb is partially ordered such that a and b are __________",
   "opts": {
-   "A": "1",
-   "B": "3",
-   "C": "5",
-   "D": "7"
+   "A": "reflexive",
+   "B": "transitive",
+   "C": "symmetric",
+   "D": "reflexive and transitive"
   },
-  "ans": "B",
+  "ans": "D",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -1414,15 +1414,15 @@ window.QUESTIONS = [
   "no": 68,
   "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
-  "q": "The set of all Equivalence classes of a set A of cardinality C",
+  "sub": "Discrete Mathematics",
+  "q": "The O/P of Mealy machine can be represented in the following format:",
   "opts": {
-   "A": "forms a partition of A",
-   "B": "is of cardinality 2C",
-   "C": "has the same cardinality as A",
-   "D": "none of these"
+   "A": "Op(t)= d(Op(t))",
+   "B": "Op(t)= d(Op(t)i(t))",
+   "C": "Op(t): S",
+   "D": "None of these"
   },
-  "ans": "A",
+  "ans": "B",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -1434,14 +1434,14 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 69,
   "paper": "TECH1",
-  "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
-  "q": "A serial in/parallel out, 4-bit shift register initially contains all 1s. The data nibble 0111 is waiting to enter. After four clock pulses, the register contains __________.",
+  "unit": "3",
+  "sub": "Data Structures and Algorithms",
+  "q": "What is a sparse array?",
   "opts": {
-   "A": "0000",
-   "B": "1111",
-   "C": "0111",
-   "D": "1000"
+   "A": "Data structure for representing arrays of records",
+   "B": "Data structure that compactly stores bits",
+   "C": "An array in which most of the elements have the same value",
+   "D": "None of these"
   },
   "ans": "C",
   "exp": "",
@@ -1455,16 +1455,16 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 70,
   "paper": "TECH1",
-  "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
-  "q": "A BCD counter is a __________.",
+  "unit": "1",
+  "sub": "Discrete Mathematics",
+  "q": "The Floyd-Warshall all-pairs shortest path algorithm for finding the shortest distances between nodes in a graph is an example of:",
   "opts": {
-   "A": "binary counter",
-   "B": "full-modulus counter",
-   "C": "decade counter",
-   "D": "divide-by-10 counter"
+   "A": "A Dynamic Programming",
+   "B": "A Greedy Algorithm",
+   "C": "A divide and conquer technique",
+   "D": "Branch and bound technique"
   },
-  "ans": "C",
+  "ans": "A",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -1477,15 +1477,15 @@ window.QUESTIONS = [
   "no": 71,
   "paper": "TECH1",
   "unit": "3",
-  "sub": "Recursion, searching and sorting",
-  "q": "What is the location of parent node for any arbitary node I in a queue?",
+  "sub": "Data Structures and Algorithms",
+  "q": "What is the need for a circular queue?",
   "opts": {
-   "A": "(i/2) position",
-   "B": "(i+1)/ position",
-   "C": "floor(i/2) position",
-   "D": "ceil(i/2) position"
+   "A": "effective usage of memory",
+   "B": "easier computations",
+   "C": "all of these",
+   "D": "none of these"
   },
-  "ans": "C",
+  "ans": "A",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -1497,16 +1497,16 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 72,
   "paper": "TECH1",
-  "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
-  "q": "Which data structures find their applications in BFS and DFS Traversal mechanisms on a Tree respectively?",
+  "unit": "2",
+  "sub": "Computer Architecture and Organization",
+  "q": "The binary numbers A = 1100 and B = 1001 are applied to the inputs of a comparator. What are the output levels?",
   "opts": {
-   "A": "Graph & Stack",
-   "B": "Queue & Stack",
-   "C": "Queue & Graph",
-   "D": "None of these"
+   "A": "A > B = 1, A < B = 0, A < B = 1",
+   "B": "A > B = 0, A < B = 1, A = B = 0",
+   "C": "A > B = 1, A < B = 0, A = B = 0",
+   "D": "A > B = 0, A < B = 1, A = B = 1"
   },
-  "ans": "B",
+  "ans": "C",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -1518,14 +1518,14 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 73,
   "paper": "TECH1",
-  "unit": "3",
-  "sub": "Recursion, searching and sorting",
-  "q": "For an array containing 8 elements as : 42 29 75 11 65 58 60 18 what will be the result of sorting in ascending order using bubble sort after 2 passes have completed?",
+  "unit": "1",
+  "sub": "Discrete Mathematics",
+  "q": "For an undirected graph G with n vertices and e edges, the sum of the degrees of each vertex is",
   "opts": {
-   "A": "11 29 42 18 58 60 65 75",
-   "B": "29 42 11 65 58 60 18 75",
-   "C": "11 29 42 58 18 60 65 75",
-   "D": "29 11 42 58 60 18 65 75"
+   "A": "ne",
+   "B": "2n",
+   "C": "2e",
+   "D": "en"
   },
   "ans": "C",
   "exp": "",
@@ -1539,16 +1539,16 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 74,
   "paper": "TECH1",
-  "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
-  "q": "The ALU makes use of __________ to store the intermediate results.",
+  "unit": "1",
+  "sub": "Discrete Mathematics",
+  "q": "A DFA cannot be represented in the following format",
   "opts": {
-   "A": "Accumulators",
-   "B": "Registers",
-   "C": "Heap",
-   "D": "Stack"
+   "A": "Transition graph",
+   "B": "Transition Table",
+   "C": "C code",
+   "D": "None of these"
   },
-  "ans": "A",
+  "ans": "D",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -1560,14 +1560,14 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 75,
   "paper": "TECH1",
-  "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
-  "q": "Which of the following is used to removal of process from active contention of CPU and reintroduce them into memory later?",
+  "unit": "2",
+  "sub": "Computer Architecture and Organization",
+  "q": "The minimum number of states required to recognize an octal number divisible by 3 are/is",
   "opts": {
-   "A": "Interrupt",
-   "B": "Swapping",
-   "C": "Signal",
-   "D": "Thread"
+   "A": "1",
+   "B": "3",
+   "C": "5",
+   "D": "7"
   },
   "ans": "B",
   "exp": "",
@@ -1582,13 +1582,13 @@ window.QUESTIONS = [
   "no": 76,
   "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
-  "q": "___________ is defined as set of points such that the sum of the distances is same for all points.",
+  "sub": "Discrete Mathematics",
+  "q": "The set of all Equivalence classes of a set A of cardinality C",
   "opts": {
-   "A": "Ellipses",
-   "B": "Lines",
-   "C": "Square",
-   "D": "triangle"
+   "A": "forms a partition of A",
+   "B": "is of cardinality 2C",
+   "C": "has the same cardinality as A",
+   "D": "none of these"
   },
   "ans": "A",
   "exp": "",
@@ -1602,16 +1602,16 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 77,
   "paper": "TECH1",
-  "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
-  "q": "The process of splitting of data into equal size partitions over multiple disks is known as :",
+  "unit": "2",
+  "sub": "Computer Architecture and Organization",
+  "q": "A serial in/parallel out, 4-bit shift register initially contains all 1s. The data nibble 0111 is waiting to enter. After four clock pulses, the register contains __________.",
   "opts": {
-   "A": "data stripping",
-   "B": "array of disks",
-   "C": "RAID",
-   "D": "SCAN"
+   "A": "0000",
+   "B": "1111",
+   "C": "0111",
+   "D": "1000"
   },
-  "ans": "A",
+  "ans": "C",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -1623,16 +1623,16 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 78,
   "paper": "TECH1",
-  "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
-  "q": "The address of the next instruction to be executed by the current process is provided by the :",
+  "unit": "2",
+  "sub": "Computer Architecture and Organization",
+  "q": "A BCD counter is a __________.",
   "opts": {
-   "A": "CPU registers",
-   "B": "Program counter",
-   "C": "Process stack",
-   "D": "Pipe"
+   "A": "binary counter",
+   "B": "full-modulus counter",
+   "C": "decade counter",
+   "D": "divide-by-10 counter"
   },
-  "ans": "B",
+  "ans": "C",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -1645,15 +1645,15 @@ window.QUESTIONS = [
   "no": 79,
   "paper": "TECH1",
   "unit": "3",
-  "sub": "Recursion, searching and sorting",
-  "q": "In graphical system, the array of pixels in the picture are stored in :",
+  "sub": "Data Structures and Algorithms",
+  "q": "What is the location of parent node for any arbitary node I in a queue?",
   "opts": {
-   "A": "Memory",
-   "B": "Frame buffer",
-   "C": "Processor",
-   "D": "All of these"
+   "A": "(i/2) position",
+   "B": "(i+1)/ position",
+   "C": "floor(i/2) position",
+   "D": "ceil(i/2) position"
   },
-  "ans": "B",
+  "ans": "C",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -1665,13 +1665,13 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 80,
   "paper": "TECH1",
-  "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
-  "q": "What is a short-term scheduler?",
+  "unit": "1",
+  "sub": "Discrete Mathematics",
+  "q": "Which data structures find their applications in BFS and DFS Traversal mechanisms on a Tree respectively?",
   "opts": {
-   "A": "It selects which process has to be brought into the ready queue",
-   "B": "It selects which process has to be executed next and allocates CPU",
-   "C": "It selects which process to remove from memory by swapping",
+   "A": "Graph & Stack",
+   "B": "Queue & Stack",
+   "C": "Queue & Graph",
    "D": "None of these"
   },
   "ans": "B",
@@ -1686,14 +1686,14 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 81,
   "paper": "TECH1",
-  "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
-  "q": "Mutual exclusion can be provided by the :",
+  "unit": "3",
+  "sub": "Data Structures and Algorithms",
+  "q": "For an array containing 8 elements as : 42 29 75 11 65 58 60 18 what will be the result of sorting in ascending order using bubble sort after 2 passes have completed?",
   "opts": {
-   "A": "mutex locks",
-   "B": "binary semaphores",
-   "C": "both mutex locks and binary semaphores",
-   "D": "none of these"
+   "A": "11 29 42 18 58 60 65 75",
+   "B": "29 42 11 65 58 60 18 75",
+   "C": "11 29 42 58 18 60 65 75",
+   "D": "29 11 42 58 60 18 65 75"
   },
   "ans": "C",
   "exp": "",
@@ -1707,16 +1707,16 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 82,
   "paper": "TECH1",
-  "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
-  "q": "In a time-sharing operating system, when the time slot given to a process is completed, the process goes from the running state to the :",
+  "unit": "2",
+  "sub": "Computer Architecture and Organization",
+  "q": "The ALU makes use of __________ to store the intermediate results.",
   "opts": {
-   "A": "Blocked state",
-   "B": "Ready state",
-   "C": "Suspended state",
-   "D": "Terminated state"
+   "A": "Accumulators",
+   "B": "Registers",
+   "C": "Heap",
+   "D": "Stack"
   },
-  "ans": "B",
+  "ans": "A",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -1728,16 +1728,16 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 83,
   "paper": "TECH1",
-  "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
-  "q": "Which is not a state of the process?",
+  "unit": "2",
+  "sub": "Computer Architecture and Organization",
+  "q": "Which of the following is used to removal of process from active contention of CPU and reintroduce them into memory later?",
   "opts": {
-   "A": "Blocked",
-   "B": "Running",
-   "C": "Ready",
-   "D": "Privileged"
+   "A": "Interrupt",
+   "B": "Swapping",
+   "C": "Signal",
+   "D": "Thread"
   },
-  "ans": "D",
+  "ans": "B",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -1750,13 +1750,13 @@ window.QUESTIONS = [
   "no": 84,
   "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
-  "q": "A special purpose register that is set to the highest address occupied by the OS code is :",
+  "sub": "Discrete Mathematics",
+  "q": "___________ is defined as set of points such that the sum of the distances is same for all points.",
   "opts": {
-   "A": "fence register",
-   "B": "general purpose register",
-   "C": "protection register",
-   "D": "control register"
+   "A": "Ellipses",
+   "B": "Lines",
+   "C": "Square",
+   "D": "triangle"
   },
   "ans": "A",
   "exp": "",
@@ -1771,15 +1771,15 @@ window.QUESTIONS = [
   "no": 85,
   "paper": "TECH1",
   "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
-  "q": "___________ refers to a situation in which a process is ready to execute but is continuously denied access to a processor in deference to other processes.",
+  "sub": "OS concepts, structure and services",
+  "q": "The process of splitting of data into equal size partitions over multiple disks is known as :",
   "opts": {
-   "A": "Synchronization",
-   "B": "Mutual Exclusion",
-   "C": "Dead lock",
-   "D": "Starvation"
+   "A": "data stripping",
+   "B": "array of disks",
+   "C": "RAID",
+   "D": "SCAN"
   },
-  "ans": "D",
+  "ans": "A",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -1791,16 +1791,16 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 86,
   "paper": "TECH1",
-  "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
-  "q": "Which one of the following is a synchronization tool?",
+  "unit": "2",
+  "sub": "Computer Architecture and Organization",
+  "q": "The address of the next instruction to be executed by the current process is provided by the :",
   "opts": {
-   "A": "thread",
-   "B": "pipe",
-   "C": "semaphore",
-   "D": "socket"
+   "A": "CPU registers",
+   "B": "Program counter",
+   "C": "Process stack",
+   "D": "Pipe"
   },
-  "ans": "C",
+  "ans": "B",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -1812,16 +1812,16 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 87,
   "paper": "TECH1",
-  "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
-  "q": "Which of the following memory allocation scheme suffers from external fragmentation?",
+  "unit": "3",
+  "sub": "Data Structures and Algorithms",
+  "q": "In graphical system, the array of pixels in the picture are stored in :",
   "opts": {
-   "A": "Segmentation",
-   "B": "Pure demand paging",
-   "C": "Swapping",
-   "D": "Paging"
+   "A": "Memory",
+   "B": "Frame buffer",
+   "C": "Processor",
+   "D": "All of these"
   },
-  "ans": "A",
+  "ans": "B",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -1834,13 +1834,13 @@ window.QUESTIONS = [
   "no": 88,
   "paper": "TECH1",
   "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
-  "q": "For system protection, a process should access :",
+  "sub": "OS concepts, structure and services",
+  "q": "What is a short-term scheduler?",
   "opts": {
-   "A": "all the resources",
-   "B": "only those resources for which it has authorization",
-   "C": "few resources but authorization is not required",
-   "D": "all of these"
+   "A": "It selects which process has to be brought into the ready queue",
+   "B": "It selects which process has to be executed next and allocates CPU",
+   "C": "It selects which process to remove from memory by swapping",
+   "D": "None of these"
   },
   "ans": "B",
   "exp": "",
@@ -1855,15 +1855,15 @@ window.QUESTIONS = [
   "no": 89,
   "paper": "TECH1",
   "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
-  "q": "To enable a process to wait within the monitor,",
+  "sub": "OS concepts, structure and services",
+  "q": "Mutual exclusion can be provided by the :",
   "opts": {
-   "A": "a condition variable must be declared as condition",
-   "B": "condition variables must be used as boolean objects",
-   "C": "semaphore must be used",
-   "D": "all of these"
+   "A": "mutex locks",
+   "B": "binary semaphores",
+   "C": "both mutex locks and binary semaphores",
+   "D": "none of these"
   },
-  "ans": "A",
+  "ans": "C",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -1875,16 +1875,16 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 90,
   "paper": "TECH1",
-  "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
-  "q": "Which one of the following can not be scheduled by the kernel?",
+  "unit": "1",
+  "sub": "Discrete Mathematics",
+  "q": "A special purpose register that is set to the highest address occupied by the OS code is :",
   "opts": {
-   "A": "kernel level thread",
-   "B": "user level thread",
-   "C": "process",
-   "D": "none of these"
+   "A": "fence register",
+   "B": "general purpose register",
+   "C": "protection register",
+   "D": "control register"
   },
-  "ans": "B",
+  "ans": "A",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -1897,13 +1897,13 @@ window.QUESTIONS = [
   "no": 91,
   "paper": "TECH1",
   "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
-  "q": "Process are classified into different groups in :",
+  "sub": "OS concepts, structure and services",
+  "q": "___________ refers to a situation in which a process is ready to execute but is continuously denied access to a processor in deference to other processes.",
   "opts": {
-   "A": "shortest job scheduling algorithm",
-   "B": "round robin scheduling algorithm",
-   "C": "priority scheduling algorithm",
-   "D": "multilevel queue scheduling algorithm"
+   "A": "Synchronization",
+   "B": "Mutual Exclusion",
+   "C": "Dead lock",
+   "D": "Starvation"
   },
   "ans": "D",
   "exp": "",
@@ -1918,15 +1918,15 @@ window.QUESTIONS = [
   "no": 92,
   "paper": "TECH1",
   "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
-  "q": "A process can be terminated due to :",
+  "sub": "OS concepts, structure and services",
+  "q": "Which one of the following is a synchronization tool?",
   "opts": {
-   "A": "normal exit",
-   "B": "fatal error",
-   "C": "killed by another process",
-   "D": "all of these"
+   "A": "thread",
+   "B": "pipe",
+   "C": "semaphore",
+   "D": "socket"
   },
-  "ans": "D",
+  "ans": "C",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -1938,14 +1938,14 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 93,
   "paper": "TECH1",
-  "unit": "3",
-  "sub": "Recursion, searching and sorting",
-  "q": "Which feature allows open recursion, among the following?",
+  "unit": "4",
+  "sub": "OS concepts, structure and services",
+  "q": "Which of the following memory allocation scheme suffers from external fragmentation?",
   "opts": {
-   "A": "Use of this pointer",
-   "B": "Use of pointers",
-   "C": "Use of pass by value",
-   "D": "Use of parameterized constructor"
+   "A": "Segmentation",
+   "B": "Pure demand paging",
+   "C": "Swapping",
+   "D": "Paging"
   },
   "ans": "A",
   "exp": "",
@@ -1959,8 +1959,71 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 94,
   "paper": "TECH1",
+  "unit": "4",
+  "sub": "OS concepts, structure and services",
+  "q": "To enable a process to wait within the monitor,",
+  "opts": {
+   "A": "a condition variable must be declared as condition",
+   "B": "condition variables must be used as boolean objects",
+   "C": "semaphore must be used",
+   "D": "all of these"
+  },
+  "ans": "A",
+  "exp": "",
+  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
+  "note": ""
+ },
+ {
+  "id": "TECH1_CSE_095",
+  "src": "past",
+  "sitting": "MPSC CSE Paper I (year not recorded)",
+  "srcKey": "CSE_TECH1",
+  "no": 95,
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "OS concepts, structure and services",
+  "q": "Which one of the following can not be scheduled by the kernel?",
+  "opts": {
+   "A": "kernel level thread",
+   "B": "user level thread",
+   "C": "process",
+   "D": "none of these"
+  },
+  "ans": "B",
+  "exp": "",
+  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
+  "note": ""
+ },
+ {
+  "id": "TECH1_CSE_096",
+  "src": "past",
+  "sitting": "MPSC CSE Paper I (year not recorded)",
+  "srcKey": "CSE_TECH1",
+  "no": 96,
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Data Structures and Algorithms",
+  "q": "Which feature allows open recursion, among the following?",
+  "opts": {
+   "A": "Use of this pointer",
+   "B": "Use of pointers",
+   "C": "Use of pass by value",
+   "D": "Use of parameterized constructor"
+  },
+  "ans": "A",
+  "exp": "",
+  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
+  "note": ""
+ },
+ {
+  "id": "TECH1_CSE_097",
+  "src": "past",
+  "sitting": "MPSC CSE Paper I (year not recorded)",
+  "srcKey": "CSE_TECH1",
+  "no": 97,
+  "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
+  "sub": "Discrete Mathematics",
   "q": "Logical memory is broken into blocks of the same size called :",
   "opts": {
    "A": "frames",
@@ -1974,14 +2037,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_095",
+  "id": "TECH1_CSE_098",
   "src": "past",
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "CSE_TECH1",
-  "no": 95,
+  "no": 98,
   "paper": "TECH1",
   "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
+  "sub": "OS concepts, structure and services",
   "q": "What does Belady's anomaly related to?",
   "opts": {
    "A": "Page replacement Algorithm",
@@ -1995,14 +2058,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_096",
+  "id": "TECH1_CSE_099",
   "src": "past",
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "CSE_TECH1",
-  "no": 96,
+  "no": 99,
   "paper": "TECH1",
   "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
+  "sub": "OS concepts, structure and services",
   "q": "A monitor is a type of :",
   "opts": {
    "A": "semaphore",
@@ -2016,35 +2079,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_097",
+  "id": "TECH1_CSE_100",
   "src": "past",
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "CSE_TECH1",
-  "no": 97,
-  "paper": "TECH1",
-  "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
-  "q": "A path name that starts at root directory is :",
-  "opts": {
-   "A": "absolute",
-   "B": "relative",
-   "C": "hybrid",
-   "D": "hierarchical"
-  },
-  "ans": "A",
-  "exp": "",
-  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
- },
- {
-  "id": "TECH1_CSE_098",
-  "src": "past",
-  "sitting": "MPSC CSE Paper I (year not recorded)",
-  "srcKey": "CSE_TECH1",
-  "no": 98,
+  "no": 100,
   "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
+  "sub": "Discrete Mathematics",
   "q": "Which language does not support all 4 types of inheritance?",
   "opts": {
    "A": "C++",
@@ -2058,14 +2100,35 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_099",
+  "id": "TECH1_CSE_101",
   "src": "past",
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "CSE_TECH1",
-  "no": 99,
+  "no": 101,
   "paper": "TECH1",
-  "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
+  "unit": "3",
+  "sub": "Data Structures and Algorithms",
+  "q": "Overloading a postfix increment operator by means of a member function takes :",
+  "opts": {
+   "A": "no argument",
+   "B": "one argument",
+   "C": "two argument",
+   "D": "three argument"
+  },
+  "ans": "B",
+  "exp": "",
+  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
+  "note": ""
+ },
+ {
+  "id": "TECH1_CSE_102",
+  "src": "past",
+  "sitting": "MPSC CSE Paper I (year not recorded)",
+  "srcKey": "CSE_TECH1",
+  "no": 102,
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Computer Architecture and Organization",
   "q": "Suppose that a process is in \"Blocked\" state waiting for some I/O service. When the service is completed, it goes to the :",
   "opts": {
    "A": "Running state",
@@ -2079,14 +2142,35 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_100",
+  "id": "TECH1_CSE_103",
   "src": "past",
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "CSE_TECH1",
-  "no": 100,
+  "no": 103,
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Computer Architecture and Organization",
+  "q": "The algorithm which uses multiple processors to calculate pixel positions is :",
+  "opts": {
+   "A": "Midpoint algorithm",
+   "B": "Parallel line algorithm",
+   "C": "Bresenham's line algorithm",
+   "D": "All of these"
+  },
+  "ans": "B",
+  "exp": "",
+  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
+  "note": ""
+ },
+ {
+  "id": "TECH1_CSE_104",
+  "src": "past",
+  "sitting": "MPSC CSE Paper I (year not recorded)",
+  "srcKey": "CSE_TECH1",
+  "no": 104,
   "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
+  "sub": "Discrete Mathematics",
   "q": "NFA, in its name has 'non-deterministic' because of :",
   "opts": {
    "A": "The result is undetermined",
@@ -2100,14 +2184,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_101",
+  "id": "TECH1_CSE_105",
   "src": "past",
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "CSE_TECH1",
-  "no": 101,
+  "no": 105,
   "paper": "TECH1",
   "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
+  "sub": "Computer Architecture and Organization",
   "q": "________ is an extension of the processor BUS.",
   "opts": {
    "A": "SCSI BUS",
@@ -2121,14 +2205,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_102",
+  "id": "TECH1_CSE_106",
   "src": "past",
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "CSE_TECH1",
-  "no": 102,
+  "no": 106,
   "paper": "TECH1",
   "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
+  "sub": "Computer Architecture and Organization",
   "q": "Which of the following is not true in Boolean algebra?",
   "opts": {
    "A": "x + 1 = 1",
@@ -2142,14 +2226,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_103",
+  "id": "TECH1_CSE_107",
   "src": "past",
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "CSE_TECH1",
-  "no": 103,
+  "no": 107,
   "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
+  "sub": "Discrete Mathematics",
   "q": "A language is regular if and only if",
   "opts": {
    "A": "accepted by DFA",
@@ -2163,14 +2247,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_104",
+  "id": "TECH1_CSE_108",
   "src": "past",
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "CSE_TECH1",
-  "no": 104,
+  "no": 108,
   "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
+  "sub": "Discrete Mathematics",
   "q": "If NFA of 6 states excluding the initial state is converted into DFA, maximum possible number of states for the DFA is ?",
   "opts": {
    "A": "64",
@@ -2184,14 +2268,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_105",
+  "id": "TECH1_CSE_109",
   "src": "past",
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "CSE_TECH1",
-  "no": 105,
+  "no": 109,
   "paper": "TECH1",
   "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
+  "sub": "Computer Architecture and Organization",
   "q": "The small extremely fast, RAM's are called as",
   "opts": {
    "A": "Cache",
@@ -2205,90 +2289,6 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_106",
-  "src": "past",
-  "sitting": "MPSC CSE Paper I (year not recorded)",
-  "srcKey": "CSE_TECH1",
-  "no": 106,
-  "paper": "TECH1",
-  "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
-  "q": "A dynamic RAM consist of",
-  "opts": {
-   "A": "6 transistors",
-   "B": "2 transistor and 2 capacitor",
-   "C": "1 transistor and 1 capacitor",
-   "D": "1 capacitor only"
-  },
-  "ans": "C",
-  "exp": "",
-  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
- },
- {
-  "id": "TECH1_CSE_107",
-  "src": "past",
-  "sitting": "MPSC CSE Paper I (year not recorded)",
-  "srcKey": "CSE_TECH1",
-  "no": 107,
-  "paper": "TECH1",
-  "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
-  "q": "Every time a new instruction is loaded into IR the output of ________ is loaded into UPC.",
-  "opts": {
-   "A": "Starting address generator",
-   "B": "Loader",
-   "C": "Linker",
-   "D": "Clock"
-  },
-  "ans": "A",
-  "exp": "",
-  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
- },
- {
-  "id": "TECH1_CSE_108",
-  "src": "past",
-  "sitting": "MPSC CSE Paper I (year not recorded)",
-  "srcKey": "CSE_TECH1",
-  "no": 108,
-  "paper": "TECH1",
-  "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
-  "q": "The drawback of building a large memory with DRAM is",
-  "opts": {
-   "A": "The large cost factor",
-   "B": "The inefficient memory organisation",
-   "C": "The Slow speed of operation",
-   "D": "All of these"
-  },
-  "ans": "A",
-  "exp": "",
-  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
- },
- {
-  "id": "TECH1_CSE_109",
-  "src": "past",
-  "sitting": "MPSC CSE Paper I (year not recorded)",
-  "srcKey": "CSE_TECH1",
-  "no": 109,
-  "paper": "TECH1",
-  "unit": "3",
-  "sub": "Recursion, searching and sorting",
-  "q": "Which of the following application makes use of a circular linked list?",
-  "opts": {
-   "A": "Undo operation in a text editor",
-   "B": "Recursive function calls",
-   "C": "Allocating CPU to resources",
-   "D": "All of these"
-  },
-  "ans": "C",
-  "exp": "",
-  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
- },
- {
   "id": "TECH1_CSE_110",
   "src": "past",
   "sitting": "MPSC CSE Paper I (year not recorded)",
@@ -2296,13 +2296,13 @@ window.QUESTIONS = [
   "no": 110,
   "paper": "TECH1",
   "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
-  "q": "The microprogram resides in",
+  "sub": "Computer Architecture and Organization",
+  "q": "A dynamic RAM consist of",
   "opts": {
-   "A": "Main Memory",
-   "B": "Cache Memory",
-   "C": "Control Memory",
-   "D": "Register Memory"
+   "A": "6 transistors",
+   "B": "2 transistor and 2 capacitor",
+   "C": "1 transistor and 1 capacitor",
+   "D": "1 capacitor only"
   },
   "ans": "C",
   "exp": "",
@@ -2317,13 +2317,13 @@ window.QUESTIONS = [
   "no": 111,
   "paper": "TECH1",
   "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
-  "q": "The minimum number of NAND gate require to implement the Boolean function F=(x` + y`)(z + w) is",
+  "sub": "Computer Architecture and Organization",
+  "q": "Every time a new instruction is loaded into IR the output of ________ is loaded into UPC.",
   "opts": {
-   "A": "3",
-   "B": "4",
-   "C": "5",
-   "D": "6"
+   "A": "Starting address generator",
+   "B": "Loader",
+   "C": "Linker",
+   "D": "Clock"
   },
   "ans": "A",
   "exp": "",
@@ -2338,15 +2338,15 @@ window.QUESTIONS = [
   "no": 112,
   "paper": "TECH1",
   "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
-  "q": "Add #45, when this instruction is executed the following happen/s",
+  "sub": "Computer Architecture and Organization",
+  "q": "The drawback of building a large memory with DRAM is",
   "opts": {
-   "A": "The processor raises an error and requests for one more operand",
-   "B": "The value stored in memory location 45 is retrieved and one more operand is requested",
-   "C": "The value 45 gets added to the value on the stack and is pushed onto the stack",
-   "D": "None of these"
+   "A": "The large cost factor",
+   "B": "The inefficient memory organisation",
+   "C": "The Slow speed of operation",
+   "D": "All of these"
   },
-  "ans": "C",
+  "ans": "A",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -2359,15 +2359,15 @@ window.QUESTIONS = [
   "no": 113,
   "paper": "TECH1",
   "unit": "3",
-  "sub": "Recursion, searching and sorting",
-  "q": "Which of the following is false about a circular linked list?",
+  "sub": "Data Structures and Algorithms",
+  "q": "Which of the following application makes use of a circular linked list?",
   "opts": {
-   "A": "Every node has a successor",
-   "B": "Time complexity of inserting a new node at the head of the list is O(1)",
-   "C": "Time complexity for deleting the last node is O(n)",
-   "D": "None of these"
+   "A": "Undo operation in a text editor",
+   "B": "Recursive function calls",
+   "C": "Allocating CPU to resources",
+   "D": "All of these"
   },
-  "ans": "D",
+  "ans": "C",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -2379,14 +2379,14 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 114,
   "paper": "TECH1",
-  "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
-  "q": "Which of the following is not a regular expression?",
+  "unit": "2",
+  "sub": "Computer Architecture and Organization",
+  "q": "The computer architecture aimed at reducing the time of execution of instructions is",
   "opts": {
-   "A": "[(a+b)*-(aa+bb)]*",
-   "B": "[(0+1)-(0b+a1)*(a+b)]*",
-   "C": "(01+11+10)*",
-   "D": "(1+2+0)*(1+2)*"
+   "A": "CISC",
+   "B": "RISC",
+   "C": "ISA",
+   "D": "ANNA"
   },
   "ans": "B",
   "exp": "",
@@ -2400,14 +2400,14 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 115,
   "paper": "TECH1",
-  "unit": "3",
-  "sub": "Recursion, searching and sorting",
-  "q": "In linked list each node contain minimum of two fields. One field is data field to store the data second field is?",
+  "unit": "2",
+  "sub": "Computer Architecture and Organization",
+  "q": "The microprogram resides in",
   "opts": {
-   "A": "Pointer to character",
-   "B": "Pointer to integer",
-   "C": "Pointer to node",
-   "D": "Node"
+   "A": "Main Memory",
+   "B": "Cache Memory",
+   "C": "Control Memory",
+   "D": "Register Memory"
   },
   "ans": "C",
   "exp": "",
@@ -2421,14 +2421,14 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 116,
   "paper": "TECH1",
-  "unit": "3",
-  "sub": "Recursion, searching and sorting",
-  "q": "What is the worst case complexity of selection sort?",
+  "unit": "2",
+  "sub": "Computer Architecture and Organization",
+  "q": "Boolean expression for the output of XNOR logic gates with inputs A and B is",
   "opts": {
-   "A": "O(nlogn)",
-   "B": "O(logn)",
-   "C": "O(n)",
-   "D": "O(n2)"
+   "A": "AB` + A`B",
+   "B": "(AB)` + AB",
+   "C": "(A`+B)(A+B`)",
+   "D": "(A`+B`)(A+B)"
   },
   "ans": "D",
   "exp": "",
@@ -2442,16 +2442,16 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 117,
   "paper": "TECH1",
-  "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
-  "q": "Which of the following ways can be used to represent a graph?",
+  "unit": "2",
+  "sub": "Computer Architecture and Organization",
+  "q": "The minimum number of NAND gate require to implement the Boolean function F=(x` + y`)(z + w) is",
   "opts": {
-   "A": "Adjacency List and Adjacency Matrix",
-   "B": "Incidence Matrix",
-   "C": "Adjacency List, Adjacency Matrix as well as Incidence Matrix",
-   "D": "None of these"
+   "A": "3",
+   "B": "4",
+   "C": "5",
+   "D": "6"
   },
-  "ans": "C",
+  "ans": "A",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -2463,16 +2463,16 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 118,
   "paper": "TECH1",
-  "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
-  "q": "Which of the following is subset of set {1, 2, 3, 4}.",
+  "unit": "2",
+  "sub": "Computer Architecture and Organization",
+  "q": "Add #45, when this instruction is executed the following happen/s",
   "opts": {
-   "A": "{1, 2}",
-   "B": "{1, 2, 3}",
-   "C": "{1}",
-   "D": "All of these"
+   "A": "The processor raises an error and requests for one more operand",
+   "B": "The value stored in memory location 45 is retrieved and one more operand is requested",
+   "C": "The value 45 gets added to the value on the stack and is pushed onto the stack",
+   "D": "None of these"
   },
-  "ans": "D",
+  "ans": "C",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -2485,15 +2485,15 @@ window.QUESTIONS = [
   "no": 119,
   "paper": "TECH1",
   "unit": "3",
-  "sub": "Recursion, searching and sorting",
-  "q": "In linked list implementation of a queue, front and rear pointers are tracked. Which of these pointers will change during an insertion into a NONEMPTY queue?",
+  "sub": "Data Structures and Algorithms",
+  "q": "Which of the following is false about a circular linked list?",
   "opts": {
-   "A": "Only front pointer",
-   "B": "Only rear pointer",
-   "C": "Both front and rear pointer",
+   "A": "Every node has a successor",
+   "B": "Time complexity of inserting a new node at the head of the list is O(1)",
+   "C": "Time complexity for deleting the last node is O(n)",
    "D": "None of these"
   },
-  "ans": "B",
+  "ans": "D",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -2505,16 +2505,16 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 120,
   "paper": "TECH1",
-  "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
-  "q": "PROM stands for",
+  "unit": "1",
+  "sub": "Discrete Mathematics",
+  "q": "Which of the following is not a regular expression?",
   "opts": {
-   "A": "Programmable Read Only Memory",
-   "B": "Pre-fed Read Only Memory",
-   "C": "Pre-required Read Only Memory",
-   "D": "Programmed Read Only Memory"
+   "A": "[(a+b)*-(aa+bb)]*",
+   "B": "[(0+1)-(0b+a1)*(a+b)]*",
+   "C": "(01+11+10)*",
+   "D": "(1+2+0)*(1+2)*"
   },
-  "ans": "A",
+  "ans": "B",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -2527,13 +2527,13 @@ window.QUESTIONS = [
   "no": 121,
   "paper": "TECH1",
   "unit": "3",
-  "sub": "Recursion, searching and sorting",
-  "q": "How do you initialize an array in C?",
+  "sub": "Data Structures and Algorithms",
+  "q": "In linked list each node contain minimum of two fields. One field is data field to store the data second field is?",
   "opts": {
-   "A": "int arr[3] = (1,2,3);",
-   "B": "int arr(3) = {1,2,3};",
-   "C": "int arr[3] = {1,2,3};",
-   "D": "int arr(3) = (1,2,3);"
+   "A": "Pointer to character",
+   "B": "Pointer to integer",
+   "C": "Pointer to node",
+   "D": "Node"
   },
   "ans": "C",
   "exp": "",
@@ -2548,15 +2548,15 @@ window.QUESTIONS = [
   "no": 122,
   "paper": "TECH1",
   "unit": "3",
-  "sub": "Recursion, searching and sorting",
-  "q": "Which of these best describes an array?",
+  "sub": "Data Structures and Algorithms",
+  "q": "What is the worst case complexity of selection sort?",
   "opts": {
-   "A": "A data structure that shows a hierarchical behaviour",
-   "B": "Container of objects of similar types",
-   "C": "Container of objects of mixed types",
-   "D": "All of these"
+   "A": "O(nlogn)",
+   "B": "O(logn)",
+   "C": "O(n)",
+   "D": "O(n2)"
   },
-  "ans": "B",
+  "ans": "D",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -2568,16 +2568,16 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 123,
   "paper": "TECH1",
-  "unit": "3",
-  "sub": "Recursion, searching and sorting",
-  "q": "What differentiates a circular linked list from a normal linked list?",
+  "unit": "1",
+  "sub": "Discrete Mathematics",
+  "q": "Which of the following ways can be used to represent a graph?",
   "opts": {
-   "A": "You cannot have the 'next' pointer point to null in a circular linked list",
-   "B": "It is faster to traverse the circular linked list",
-   "C": "You may or may not have the 'next' pointer point to null in a circular linked list",
-   "D": "All of these"
+   "A": "Adjacency List and Adjacency Matrix",
+   "B": "Incidence Matrix",
+   "C": "Adjacency List, Adjacency Matrix as well as Incidence Matrix",
+   "D": "None of these"
   },
-  "ans": "A",
+  "ans": "C",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -2590,13 +2590,13 @@ window.QUESTIONS = [
   "no": 124,
   "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
-  "q": "Database __________, which is the logical design of the database, and the database __________, which is a snapshot of the data in the database at a given instant in time.",
+  "sub": "Discrete Mathematics",
+  "q": "Which of the following is subset of set {1, 2, 3, 4}.",
   "opts": {
-   "A": "Instance, Schema",
-   "B": "Relation, Schema",
-   "C": "Relation, Domain",
-   "D": "Schema, Instance"
+   "A": "{1, 2}",
+   "B": "{1, 2, 3}",
+   "C": "{1}",
+   "D": "All of these"
   },
   "ans": "D",
   "exp": "",
@@ -2610,16 +2610,16 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 125,
   "paper": "TECH1",
-  "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
-  "q": "Which one of the following is a procedural language ?",
+  "unit": "3",
+  "sub": "Data Structures and Algorithms",
+  "q": "In linked list implementation of a queue, front and rear pointers are tracked. Which of these pointers will change during an insertion into a NONEMPTY queue?",
   "opts": {
-   "A": "Domain relational calculus",
-   "B": "Tuple relational calculus",
-   "C": "Relational algebra",
-   "D": "Query language"
+   "A": "Only front pointer",
+   "B": "Only rear pointer",
+   "C": "Both front and rear pointer",
+   "D": "None of these"
   },
-  "ans": "C",
+  "ans": "B",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -2631,16 +2631,16 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 126,
   "paper": "TECH1",
-  "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
-  "q": "Fill in with correct keyword to update the instructor relation. UPDATE instructor __________ salary= salary * 1.05;",
+  "unit": "2",
+  "sub": "Computer Architecture and Organization",
+  "q": "PROM stands for",
   "opts": {
-   "A": "Where",
-   "B": "Set",
-   "C": "In",
-   "D": "Select"
+   "A": "Programmable Read Only Memory",
+   "B": "Pre-fed Read Only Memory",
+   "C": "Pre-required Read Only Memory",
+   "D": "Programmed Read Only Memory"
   },
-  "ans": "B",
+  "ans": "A",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -2652,14 +2652,14 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 127,
   "paper": "TECH1",
-  "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
-  "q": "Which address identifies a process on a host?",
+  "unit": "3",
+  "sub": "Data Structures and Algorithms",
+  "q": "How do you initialize an array in C?",
   "opts": {
-   "A": "physical address",
-   "B": "logical address",
-   "C": "port address",
-   "D": "specific address"
+   "A": "int arr[3] = (1,2,3);",
+   "B": "int arr(3) = {1,2,3};",
+   "C": "int arr[3] = {1,2,3};",
+   "D": "int arr(3) = (1,2,3);"
   },
   "ans": "C",
   "exp": "",
@@ -2673,16 +2673,16 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 128,
   "paper": "TECH1",
-  "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
-  "q": "An entity set that does not have sufficient attributes to form a primary key is termed a __________",
+  "unit": "3",
+  "sub": "Data Structures and Algorithms",
+  "q": "Which of these best describes an array?",
   "opts": {
-   "A": "Strong entity set",
-   "B": "Variant set",
-   "C": "Weak entity set",
-   "D": "Variable set"
+   "A": "A data structure that shows a hierarchical behaviour",
+   "B": "Container of objects of similar types",
+   "C": "Container of objects of mixed types",
+   "D": "All of these"
   },
-  "ans": "C",
+  "ans": "B",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -2694,16 +2694,16 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 129,
   "paper": "TECH1",
-  "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
-  "q": "To include integrity constraint in a existing relation use :",
+  "unit": "3",
+  "sub": "Data Structures and Algorithms",
+  "q": "What differentiates a circular linked list from a normal linked list?",
   "opts": {
-   "A": "Create table",
-   "B": "Modify table",
-   "C": "Alter table",
-   "D": "Drop table"
+   "A": "You cannot have the 'next' pointer point to null in a circular linked list",
+   "B": "It is faster to traverse the circular linked list",
+   "C": "You may or may not have the 'next' pointer point to null in a circular linked list",
+   "D": "All of these"
   },
-  "ans": "C",
+  "ans": "A",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -2716,13 +2716,13 @@ window.QUESTIONS = [
   "no": 130,
   "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
-  "q": "To remove a relation from an SQL database, we use the __________ command.",
+  "sub": "Discrete Mathematics",
+  "q": "Database __________, which is the logical design of the database, and the database __________, which is a snapshot of the data in the database at a given instant in time.",
   "opts": {
-   "A": "Delete",
-   "B": "Purge",
-   "C": "Remove",
-   "D": "Drop table"
+   "A": "Instance, Schema",
+   "B": "Relation, Schema",
+   "C": "Relation, Domain",
+   "D": "Schema, Instance"
   },
   "ans": "D",
   "exp": "",
@@ -2737,15 +2737,15 @@ window.QUESTIONS = [
   "no": 131,
   "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
-  "q": "A __________ integrity constraint requires that the values appearing in specified attributes of any tuple in the referencing relation also appear in specified attributes of at least one tuple in the referenced relation.",
+  "sub": "Discrete Mathematics",
+  "q": "Which one of the following is a procedural language ?",
   "opts": {
-   "A": "Referential",
-   "B": "Referencing",
-   "C": "Specific",
-   "D": "Primary"
+   "A": "Domain relational calculus",
+   "B": "Tuple relational calculus",
+   "C": "Relational algebra",
+   "D": "Query language"
   },
-  "ans": "A",
+  "ans": "C",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -2758,13 +2758,13 @@ window.QUESTIONS = [
   "no": 132,
   "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
-  "q": "A attribute in a relation is a foreign key if the __________ key from one relation is used as an attribute in that relation.",
+  "sub": "Discrete Mathematics",
+  "q": "Fill in with correct keyword to update the instructor relation. UPDATE instructor __________ salary= salary * 1.05;",
   "opts": {
-   "A": "Candidate",
-   "B": "Primary",
-   "C": "Super",
-   "D": "Sub"
+   "A": "Where",
+   "B": "Set",
+   "C": "In",
+   "D": "Select"
   },
   "ans": "B",
   "exp": "",
@@ -2778,16 +2778,16 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 133,
   "paper": "TECH1",
-  "unit": "3",
-  "sub": "Recursion, searching and sorting",
-  "q": "The number of layers in Internet protocol stack",
+  "unit": "1",
+  "sub": "Discrete Mathematics",
+  "q": "An entity set that does not have sufficient attributes to form a primary key is termed a __________",
   "opts": {
-   "A": "5",
-   "B": "7",
-   "C": "6",
-   "D": "None of these"
+   "A": "Strong entity set",
+   "B": "Variant set",
+   "C": "Weak entity set",
+   "D": "Variable set"
   },
-  "ans": "A",
+  "ans": "C",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -2800,15 +2800,15 @@ window.QUESTIONS = [
   "no": 134,
   "paper": "TECH1",
   "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
-  "q": "Purpose of process is to deliver software",
+  "sub": "OS concepts, structure and services",
+  "q": "Which of the following protocols ensures conflict serializability and safety from deadlocks?",
   "opts": {
-   "A": "in time",
-   "B": "with acceptable quality",
-   "C": "that is cost efficient",
-   "D": "both 'in time' & 'with acceptable quality'"
+   "A": "Two-phase locking protocol",
+   "B": "Time-stamp ordering protocol",
+   "C": "Graph based protocol",
+   "D": "None of these"
   },
-  "ans": "D",
+  "ans": "A",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -2821,15 +2821,15 @@ window.QUESTIONS = [
   "no": 135,
   "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
-  "q": "Suppose relation R(A,B,C,D,E) has the following functional dependencies: AB, B C, BC  A, AD, E A, DE. Which of the following is not a key?",
+  "sub": "Discrete Mathematics",
+  "q": "To include integrity constraint in a existing relation use :",
   "opts": {
-   "A": "A",
-   "B": "E",
-   "C": "B,C",
-   "D": "D"
+   "A": "Create table",
+   "B": "Modify table",
+   "C": "Alter table",
+   "D": "Drop table"
   },
-  "ans": "D",
+  "ans": "C",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -2842,15 +2842,15 @@ window.QUESTIONS = [
   "no": 136,
   "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
-  "q": "Which of the following deletes all tuples in the instructor relation for those instructors associated with a department located in the MilleniumCenter building which is in department relation.",
+  "sub": "Discrete Mathematics",
+  "q": "To remove a relation from an SQL database, we use the __________ command.",
   "opts": {
-   "A": "DELETE FROM instructor WHERE dept_name IN ' MilleniumCenter ';",
-   "B": "DELETE FROM department WHERE building=' MilleniumCenter ';",
-   "C": "DELETE FROM instructor WHERE dept_name IN (SELECT dept name FROM department WHERE building = ' MilleniumCenter');",
-   "D": "None of these"
+   "A": "Delete",
+   "B": "Purge",
+   "C": "Remove",
+   "D": "Drop table"
   },
-  "ans": "C",
+  "ans": "D",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -2862,16 +2862,16 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 137,
   "paper": "TECH1",
-  "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
-  "q": "Which layer is responsible for process to process delivery?",
+  "unit": "1",
+  "sub": "Discrete Mathematics",
+  "q": "A __________ integrity constraint requires that the values appearing in specified attributes of any tuple in the referencing relation also appear in specified attributes of at least one tuple in the referenced relation.",
   "opts": {
-   "A": "network layer",
-   "B": "transport layer",
-   "C": "session layer",
-   "D": "data link layer"
+   "A": "Referential",
+   "B": "Referencing",
+   "C": "Specific",
+   "D": "Primary"
   },
-  "ans": "B",
+  "ans": "A",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -2884,15 +2884,15 @@ window.QUESTIONS = [
   "no": 138,
   "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
-  "q": "Suppose relation R(A,B,C,D,E) has the following functional dependencies: AB→B, B→C, BC→A, AD→D, E→A, DE→E. Which of the following is not a key?",
+  "sub": "Discrete Mathematics",
+  "q": "A attribute in a relation is a foreign key if the __________ key from one relation is used as an attribute in that relation.",
   "opts": {
-   "A": "A",
-   "B": "E",
-   "C": "B,C",
-   "D": "D"
+   "A": "Candidate",
+   "B": "Primary",
+   "C": "Super",
+   "D": "Sub"
   },
-  "ans": "C",
+  "ans": "B",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -2904,14 +2904,14 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 139,
   "paper": "TECH1",
-  "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
-  "q": "If every requirement can be checked by a cost-effective process, then the SRS is __________ .",
+  "unit": "3",
+  "sub": "Data Structures and Algorithms",
+  "q": "The number of layers in Internet protocol stack",
   "opts": {
-   "A": "Verifiable",
-   "B": "Traceable",
-   "C": "Modifiable",
-   "D": "Complete"
+   "A": "5",
+   "B": "7",
+   "C": "6",
+   "D": "None of these"
   },
   "ans": "A",
   "exp": "",
@@ -2926,15 +2926,15 @@ window.QUESTIONS = [
   "no": 140,
   "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
-  "q": "Which one of the following is used to define the structure of the relation ,deleting relations and relating schemas?",
+  "sub": "Discrete Mathematics",
+  "q": "Suppose relation R(A,B,C,D,E) has the following functional dependencies: AB, B C, BC  A, AD, E A, DE. Which of the following is not a key?",
   "opts": {
-   "A": "DML(Data Manipulation Langauge)",
-   "B": "DDL(Data Definition Langauge)",
-   "C": "Query",
-   "D": "Relational Schema"
+   "A": "A",
+   "B": "E",
+   "C": "B,C",
+   "D": "D"
   },
-  "ans": "B",
+  "ans": "D",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -2947,15 +2947,15 @@ window.QUESTIONS = [
   "no": 141,
   "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
-  "q": "The physical layer translates logical communication requests from the __________ into hardware specific operations.",
+  "sub": "Discrete Mathematics",
+  "q": "Which of the following deletes all tuples in the instructor relation for those instructors associated with a department located in the MilleniumCenter building which is in department relation.",
   "opts": {
-   "A": "data link layer",
-   "B": "network layer",
-   "C": "trasnport layer",
-   "D": "application layer"
+   "A": "DELETE FROM instructor WHERE dept_name IN ' MilleniumCenter ';",
+   "B": "DELETE FROM department WHERE building=' MilleniumCenter ';",
+   "C": "DELETE FROM instructor WHERE dept_name IN (SELECT dept name FROM department WHERE building = ' MilleniumCenter');",
+   "D": "None of these"
   },
-  "ans": "A",
+  "ans": "C",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -2968,15 +2968,15 @@ window.QUESTIONS = [
   "no": 142,
   "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
-  "q": "A set of rules that governs data communication",
+  "sub": "Discrete Mathematics",
+  "q": "Identify which of the following operation contains all pairs of tuples from the two relations, regardless of whether their attribute values match.",
   "opts": {
-   "A": "Protocols",
-   "B": "Standards",
-   "C": "RFCs",
-   "D": "None of these"
+   "A": "Join",
+   "B": "Cartesian product",
+   "C": "Intersection",
+   "D": "Set difference"
   },
-  "ans": "A",
+  "ans": "B",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -2989,13 +2989,13 @@ window.QUESTIONS = [
   "no": 143,
   "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
-  "q": "Empdt1(empcode, name, street, city, state,pincode). For any pincode, there is only one city and state. Also, for given street, city and state, there is just one pincode. In normalization terms, Empdt1 is a relation in",
+  "sub": "Discrete Mathematics",
+  "q": "Suppose relation R(A,B,C,D,E) has the following functional dependencies: AB→B, B→C, BC→A, AD→D, E→A, DE→E. Which of the following is not a key?",
   "opts": {
-   "A": "1 NF only",
-   "B": "2 NF and hence also in 1 NF",
-   "C": "3NF and hence also in 2NF and 1NF",
-   "D": "BCNF and hence also in 3NF, 2NF and 1NF"
+   "A": "A",
+   "B": "E",
+   "C": "B,C",
+   "D": "D"
   },
   "ans": "C",
   "exp": "",
@@ -3010,13 +3010,13 @@ window.QUESTIONS = [
   "no": 144,
   "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
-  "q": "Which of the following is used to insert a tuple from another relation.",
+  "sub": "Discrete Mathematics",
+  "q": "Which one of the following is used to define the structure of the relation ,deleting relations and relating schemas?",
   "opts": {
-   "A": "INSERT INTO course (courseid, title, deptname, credits) VALUES ('CS-437', 'DATABASESystems', 'CompSci.', 4);",
-   "B": "INSERT INTO instructor SELECT ID, name, deptname, 18000 FROM student WHERE deptname = 'Music' AND totcred > 144;",
-   "C": "INSERT INTO course VALUES ('CS-437', 'DATABASESystems', 'CompSci.', 4);",
-   "D": "None of these"
+   "A": "DML(Data Manipulation Langauge)",
+   "B": "DDL(Data Definition Langauge)",
+   "C": "Query",
+   "D": "Relational Schema"
   },
   "ans": "B",
   "exp": "",
@@ -3030,16 +3030,16 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 145,
   "paper": "TECH1",
-  "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
-  "q": "Which one of the following is not a software process quality?",
+  "unit": "1",
+  "sub": "Discrete Mathematics",
+  "q": "The physical layer translates logical communication requests from the __________ into hardware specific operations.",
   "opts": {
-   "A": "Productivity",
-   "B": "Portability",
-   "C": "Timeliness",
-   "D": "Visibility"
+   "A": "data link layer",
+   "B": "network layer",
+   "C": "trasnport layer",
+   "D": "application layer"
   },
-  "ans": "B",
+  "ans": "A",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -3051,14 +3051,14 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 146,
   "paper": "TECH1",
-  "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
-  "q": "The only state transition that is initiated by the user process itself is :",
+  "unit": "1",
+  "sub": "Discrete Mathematics",
+  "q": "A set of rules that governs data communication",
   "opts": {
-   "A": "block",
-   "B": "wakeup",
-   "C": "dispatch",
-   "D": "none of these"
+   "A": "Protocols",
+   "B": "Standards",
+   "C": "RFCs",
+   "D": "None of these"
   },
   "ans": "A",
   "exp": "",
@@ -3072,8 +3072,50 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 147,
   "paper": "TECH1",
-  "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
+  "unit": "1",
+  "sub": "Discrete Mathematics",
+  "q": "Empdt1(empcode, name, street, city, state,pincode). For any pincode, there is only one city and state. Also, for given street, city and state, there is just one pincode. In normalization terms, Empdt1 is a relation in",
+  "opts": {
+   "A": "1 NF only",
+   "B": "2 NF and hence also in 1 NF",
+   "C": "3NF and hence also in 2NF and 1NF",
+   "D": "BCNF and hence also in 3NF, 2NF and 1NF"
+  },
+  "ans": "C",
+  "exp": "",
+  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
+  "note": ""
+ },
+ {
+  "id": "TECH1_CSE_148",
+  "src": "past",
+  "sitting": "MPSC CSE Paper I (year not recorded)",
+  "srcKey": "CSE_TECH1",
+  "no": 148,
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Discrete Mathematics",
+  "q": "Which of the following is used to insert a tuple from another relation.",
+  "opts": {
+   "A": "INSERT INTO course (courseid, title, deptname, credits) VALUES ('CS-437', 'DATABASESystems', 'CompSci.', 4);",
+   "B": "INSERT INTO instructor SELECT ID, name, deptname, 18000 FROM student WHERE deptname = 'Music' AND totcred > 144;",
+   "C": "INSERT INTO course VALUES ('CS-437', 'DATABASESystems', 'CompSci.', 4);",
+   "D": "None of these"
+  },
+  "ans": "B",
+  "exp": "",
+  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
+  "note": ""
+ },
+ {
+  "id": "TECH1_CSE_149",
+  "src": "past",
+  "sitting": "MPSC CSE Paper I (year not recorded)",
+  "srcKey": "CSE_TECH1",
+  "no": 149,
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Discrete Mathematics",
   "q": "The process of digitizing a given picture definition into a set of pixel-intensity for storage in the frame buffer is called",
   "opts": {
    "A": "Rasterization",
@@ -3087,14 +3129,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_148",
+  "id": "TECH1_CSE_150",
   "src": "past",
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "CSE_TECH1",
-  "no": 148,
+  "no": 150,
   "paper": "TECH1",
   "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
+  "sub": "OS concepts, structure and services",
   "q": "Paging increases the ________ time.",
   "opts": {
    "A": "waiting",
@@ -3108,14 +3150,35 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_149",
+  "id": "TECH1_CSE_151",
   "src": "past",
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "CSE_TECH1",
-  "no": 149,
+  "no": 151,
   "paper": "TECH1",
   "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
+  "sub": "OS concepts, structure and services",
+  "q": "The two kinds of semaphores are:",
+  "opts": {
+   "A": "mutex & counting",
+   "B": "binary & counting",
+   "C": "counting & decimal",
+   "D": "decimal & binary"
+  },
+  "ans": "B",
+  "exp": "",
+  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
+  "note": ""
+ },
+ {
+  "id": "TECH1_CSE_152",
+  "src": "past",
+  "sitting": "MPSC CSE Paper I (year not recorded)",
+  "srcKey": "CSE_TECH1",
+  "no": 152,
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "OS concepts, structure and services",
   "q": "Semaphore is a/an ________ to solve the critical section problem.",
   "opts": {
    "A": "hardware for a system",
@@ -3129,69 +3192,6 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_150",
-  "src": "past",
-  "sitting": "MPSC CSE Paper I (year not recorded)",
-  "srcKey": "CSE_TECH1",
-  "no": 150,
-  "paper": "TECH1",
-  "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
-  "q": "The disadvantage of a process being allocated all its resources before beginning its execution is :",
-  "opts": {
-   "A": "Low CPU utilization",
-   "B": "Low resource utilization",
-   "C": "Very high resource utilization",
-   "D": "None of these"
-  },
-  "ans": "C",
-  "exp": "",
-  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
- },
- {
-  "id": "TECH1_CSE_151",
-  "src": "past",
-  "sitting": "MPSC CSE Paper I (year not recorded)",
-  "srcKey": "CSE_TECH1",
-  "no": 151,
-  "paper": "TECH1",
-  "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
-  "q": "Scheduling is done so as to:",
-  "opts": {
-   "A": "increase CPU utilization",
-   "B": "decrease CPU utilization",
-   "C": "keep the CPU more idle",
-   "D": "None of these"
-  },
-  "ans": "A",
-  "exp": "",
-  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
- },
- {
-  "id": "TECH1_CSE_152",
-  "src": "past",
-  "sitting": "MPSC CSE Paper I (year not recorded)",
-  "srcKey": "CSE_TECH1",
-  "no": 152,
-  "paper": "TECH1",
-  "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
-  "q": "The interval from the time of submission of a process to the time of completion is termed as",
-  "opts": {
-   "A": "waiting time",
-   "B": "turnaround time",
-   "C": "response time",
-   "D": "throughput"
-  },
-  "ans": "B",
-  "exp": "",
-  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
- },
- {
   "id": "TECH1_CSE_153",
   "src": "past",
   "sitting": "MPSC CSE Paper I (year not recorded)",
@@ -3199,13 +3199,13 @@ window.QUESTIONS = [
   "no": 153,
   "paper": "TECH1",
   "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
-  "q": "The state of a process is defined by:",
+  "sub": "OS concepts, structure and services",
+  "q": "The link between two processes P and Q to send and receive messages is called :",
   "opts": {
-   "A": "the final activity of the process",
-   "B": "the activity just executed by the process",
-   "C": "the activity to next be executed by the process",
-   "D": "the current activity of the process"
+   "A": "communication link",
+   "B": "message-passing link",
+   "C": "synchronization link",
+   "D": "all of these"
   },
   "ans": "D",
   "exp": "",
@@ -3220,13 +3220,13 @@ window.QUESTIONS = [
   "no": 154,
   "paper": "TECH1",
   "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
-  "q": "Which scheduling algorithm allocates the CPU first to the process that requests the CPU first?",
+  "sub": "OS concepts, structure and services",
+  "q": "Scheduling is done so as to:",
   "opts": {
-   "A": "first-come, first-served scheduling",
-   "B": "shortest job scheduling",
-   "C": "priority scheduling",
-   "D": "none of these"
+   "A": "increase CPU utilization",
+   "B": "decrease CPU utilization",
+   "C": "keep the CPU more idle",
+   "D": "None of these"
   },
   "ans": "A",
   "exp": "",
@@ -3241,13 +3241,13 @@ window.QUESTIONS = [
   "no": 155,
   "paper": "TECH1",
   "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
-  "q": "Inter process communication :",
+  "sub": "OS concepts, structure and services",
+  "q": "When several processes access the same data concurrently and the outcome of the execution depends on the particular order in which the access takes place, is called",
   "opts": {
-   "A": "allows processes to communicate and synchronize their actions when using the same address space",
-   "B": "allows processes to communicate and synchronize their actions without using the same address space",
-   "C": "allows the processes to only synchronize their actions without communication",
-   "D": "none of these"
+   "A": "dynamic condition",
+   "B": "race condition",
+   "C": "essential condition",
+   "D": "critical condition"
   },
   "ans": "B",
   "exp": "",
@@ -3262,15 +3262,15 @@ window.QUESTIONS = [
   "no": 156,
   "paper": "TECH1",
   "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
-  "q": "What is the mounting of file system?",
+  "sub": "OS concepts, structure and services",
+  "q": "Which of the following do not belong to queues for processes ?",
   "opts": {
-   "A": "creating of a file system",
-   "B": "removing portion of the file system into a directory structure",
-   "C": "attaching portion of the file system into a directory structure",
-   "D": "deleting a file system"
+   "A": "Job Queue",
+   "B": "PCB queue",
+   "C": "Device Queue",
+   "D": "Ready Queue"
   },
-  "ans": "C",
+  "ans": "B",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -3283,15 +3283,15 @@ window.QUESTIONS = [
   "no": 157,
   "paper": "TECH1",
   "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
-  "q": "What is the name given to the process of converting each primitive from its geometric definition into set of pixels that make up the primitive in the image space?",
+  "sub": "OS concepts, structure and services",
+  "q": "Which scheduling algorithm allocates the CPU first to the process that requests the CPU first?",
   "opts": {
-   "A": "Rasterization",
-   "B": "Scan conversion",
-   "C": "(b) only",
-   "D": "Both (a) and (b)"
+   "A": "first-come, first-served scheduling",
+   "B": "shortest job scheduling",
+   "C": "priority scheduling",
+   "D": "none of these"
   },
-  "ans": "D",
+  "ans": "A",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
@@ -3304,13 +3304,13 @@ window.QUESTIONS = [
   "no": 158,
   "paper": "TECH1",
   "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
-  "q": "A process control block does not contain",
+  "sub": "OS concepts, structure and services",
+  "q": "Semaphores are mostly used to implement:",
   "opts": {
-   "A": "Program counter",
-   "B": "Bootstrap program",
-   "C": "Stack",
-   "D": "Code"
+   "A": "System calls",
+   "B": "IPC mechanisms",
+   "C": "System protection",
+   "D": "None of these"
   },
   "ans": "B",
   "exp": "",
@@ -3324,8 +3324,92 @@ window.QUESTIONS = [
   "srcKey": "CSE_TECH1",
   "no": 159,
   "paper": "TECH1",
+  "unit": "4",
+  "sub": "OS concepts, structure and services",
+  "q": "What is the mounting of file system?",
+  "opts": {
+   "A": "creating of a file system",
+   "B": "removing portion of the file system into a directory structure",
+   "C": "attaching portion of the file system into a directory structure",
+   "D": "deleting a file system"
+  },
+  "ans": "C",
+  "exp": "",
+  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
+  "note": ""
+ },
+ {
+  "id": "TECH1_CSE_160",
+  "src": "past",
+  "sitting": "MPSC CSE Paper I (year not recorded)",
+  "srcKey": "CSE_TECH1",
+  "no": 160,
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "OS concepts, structure and services",
+  "q": "The strategy of allowing processes that are logically runnable to be temporarily suspended is called",
+  "opts": {
+   "A": "Preemptive scheduling",
+   "B": "Non-preemptive scheduling",
+   "C": "Shortest job first",
+   "D": "FCFS"
+  },
+  "ans": "A",
+  "exp": "",
+  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
+  "note": ""
+ },
+ {
+  "id": "TECH1_CSE_161",
+  "src": "past",
+  "sitting": "MPSC CSE Paper I (year not recorded)",
+  "srcKey": "CSE_TECH1",
+  "no": 161,
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Discrete Mathematics",
+  "q": "What is the name given to the process of converting each primitive from its geometric definition into set of pixels that make up the primitive in the image space?",
+  "opts": {
+   "A": "Rasterization",
+   "B": "Scan conversion",
+   "C": "(b) only",
+   "D": "Both (a) and (b)"
+  },
+  "ans": "D",
+  "exp": "",
+  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
+  "note": ""
+ },
+ {
+  "id": "TECH1_CSE_162",
+  "src": "past",
+  "sitting": "MPSC CSE Paper I (year not recorded)",
+  "srcKey": "CSE_TECH1",
+  "no": 162,
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "OS concepts, structure and services",
+  "q": "__________ provides a larger size of virtual memory but requires virtual memory which provides multidimensional memory.",
+  "opts": {
+   "A": "Paging method",
+   "B": "Segmentation method",
+   "C": "Paging and segmentation method",
+   "D": "None of these"
+  },
+  "ans": "B",
+  "exp": "",
+  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
+  "note": ""
+ },
+ {
+  "id": "TECH1_CSE_163",
+  "src": "past",
+  "sitting": "MPSC CSE Paper I (year not recorded)",
+  "srcKey": "CSE_TECH1",
+  "no": 163,
+  "paper": "TECH1",
   "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
+  "sub": "Computer Architecture and Organization",
   "q": "The part of machine level instruction, which tells the central processor what to be done is",
   "opts": {
    "A": "Operation code",
@@ -3339,14 +3423,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_160",
+  "id": "TECH1_CSE_164",
   "src": "past",
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "CSE_TECH1",
-  "no": 160,
+  "no": 164,
   "paper": "TECH1",
   "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
+  "sub": "OS concepts, structure and services",
   "q": "Round-robin scheduling",
   "opts": {
    "A": "allows interactive tasks quicker access to the processor",
@@ -3360,14 +3444,35 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_161",
+  "id": "TECH1_CSE_165",
   "src": "past",
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "CSE_TECH1",
-  "no": 161,
+  "no": 165,
   "paper": "TECH1",
   "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
+  "sub": "OS concepts, structure and services",
+  "q": "The LRU algorithm pages out page",
+  "opts": {
+   "A": "That have been used recently",
+   "B": "That have not been used recently",
+   "C": "That have least used recently",
+   "D": "None of these"
+  },
+  "ans": "B",
+  "exp": "",
+  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
+  "note": ""
+ },
+ {
+  "id": "TECH1_CSE_166",
+  "src": "past",
+  "sitting": "MPSC CSE Paper I (year not recorded)",
+  "srcKey": "CSE_TECH1",
+  "no": 166,
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "OS concepts, structure and services",
   "q": "A page fault occurs when",
   "opts": {
    "A": "a page gives inconsistent data",
@@ -3381,14 +3486,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_162",
+  "id": "TECH1_CSE_167",
   "src": "past",
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "CSE_TECH1",
-  "no": 162,
+  "no": 167,
   "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
+  "sub": "Discrete Mathematics",
   "q": "For each attribute of a relation, there is a set of permitted values, called the ________ of that attribute.",
   "opts": {
    "A": "Domain",
@@ -3402,14 +3507,35 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_163",
+  "id": "TECH1_CSE_168",
   "src": "past",
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "CSE_TECH1",
-  "no": 163,
+  "no": 168,
   "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
+  "sub": "Discrete Mathematics",
+  "q": "The tuples of the relations can be of ________ order.",
+  "opts": {
+   "A": "Any",
+   "B": "Same",
+   "C": "Sorted",
+   "D": "Constant"
+  },
+  "ans": "A",
+  "exp": "",
+  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
+  "note": ""
+ },
+ {
+  "id": "TECH1_CSE_169",
+  "src": "past",
+  "sitting": "MPSC CSE Paper I (year not recorded)",
+  "srcKey": "CSE_TECH1",
+  "no": 169,
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Discrete Mathematics",
   "q": "The descriptive property possessed by each entity set is",
   "opts": {
    "A": "Entity",
@@ -3423,14 +3549,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_164",
+  "id": "TECH1_CSE_170",
   "src": "past",
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "CSE_TECH1",
-  "no": 164,
+  "no": 170,
   "paper": "TECH1",
   "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
+  "sub": "Computer Architecture and Organization",
   "q": "In Network Management System, maps track each piece of hardware and its connection to the",
   "opts": {
    "A": "IP Server",
@@ -3444,146 +3570,20 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_165",
-  "src": "past",
-  "sitting": "MPSC CSE Paper I (year not recorded)",
-  "srcKey": "CSE_TECH1",
-  "no": 165,
-  "paper": "TECH1",
-  "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
-  "q": "Which one of the following is a set of one or more attributes taken collectively to uniquely identify a record?",
-  "opts": {
-   "A": "Candidate key",
-   "B": "Sub key",
-   "C": "Super key",
-   "D": "Foreign key"
-  },
-  "ans": "C",
-  "exp": "",
-  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
- },
- {
-  "id": "TECH1_CSE_166",
-  "src": "past",
-  "sitting": "MPSC CSE Paper I (year not recorded)",
-  "srcKey": "CSE_TECH1",
-  "no": 166,
-  "paper": "TECH1",
-  "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
-  "q": "Physical or logical arrangement of network is",
-  "opts": {
-   "A": "Topology",
-   "B": "Routing",
-   "C": "Networking",
-   "D": "None of these"
-  },
-  "ans": "A",
-  "exp": "",
-  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
- },
- {
-  "id": "TECH1_CSE_167",
-  "src": "past",
-  "sitting": "MPSC CSE Paper I (year not recorded)",
-  "srcKey": "CSE_TECH1",
-  "no": 167,
-  "paper": "TECH1",
-  "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
-  "q": "Which of the following is a procedural language?",
-  "opts": {
-   "A": "Domain relational calculus",
-   "B": "Tuple relational calculus",
-   "C": "Relational algebra",
-   "D": "Query language"
-  },
-  "ans": "C",
-  "exp": "",
-  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
- },
- {
-  "id": "TECH1_CSE_168",
-  "src": "past",
-  "sitting": "MPSC CSE Paper I (year not recorded)",
-  "srcKey": "CSE_TECH1",
-  "no": 168,
-  "paper": "TECH1",
-  "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
-  "q": "A quantitative measure of the degree to which a system, component, or process posses a given attribute",
-  "opts": {
-   "A": "Measure",
-   "B": "Measurement",
-   "C": "Metric",
-   "D": "None of these"
-  },
-  "ans": "C",
-  "exp": "",
-  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
- },
- {
-  "id": "TECH1_CSE_169",
-  "src": "past",
-  "sitting": "MPSC CSE Paper I (year not recorded)",
-  "srcKey": "CSE_TECH1",
-  "no": 169,
-  "paper": "TECH1",
-  "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
-  "q": "Which of the following is the process of increasing redundancy in the database either for convenience or to improve performance?",
-  "opts": {
-   "A": "Normalisation",
-   "B": "Optimisation",
-   "C": "Dependency",
-   "D": "Denormalisation"
-  },
-  "ans": "D",
-  "exp": "",
-  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
- },
- {
-  "id": "TECH1_CSE_170",
-  "src": "past",
-  "sitting": "MPSC CSE Paper I (year not recorded)",
-  "srcKey": "CSE_TECH1",
-  "no": 170,
-  "paper": "TECH1",
-  "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
-  "q": "The main design activities in the software design process are i) System specification ii) interface design iii) Component design iv) algorithm design",
-  "opts": {
-   "A": "ii, iii and iv only",
-   "B": "i, ii and iii only",
-   "C": "i, iii and iv only",
-   "D": "All i, ii, iii and iv"
-  },
-  "ans": "D",
-  "exp": "",
-  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
- },
- {
   "id": "TECH1_CSE_171",
   "src": "past",
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "CSE_TECH1",
   "no": 171,
   "paper": "TECH1",
-  "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
-  "q": "Which of the following is a top-down process?",
+  "unit": "1",
+  "sub": "Discrete Mathematics",
+  "q": "Which one of the following is a set of one or more attributes taken collectively to uniquely identify a record?",
   "opts": {
-   "A": "Specialisation",
-   "B": "Categorisation",
-   "C": "Generalisation",
-   "D": "None of these"
+   "A": "Candidate key",
+   "B": "Sub key",
+   "C": "Super key",
+   "D": "Foreign key"
   },
   "ans": "C",
   "exp": "",
@@ -3598,7 +3598,49 @@ window.QUESTIONS = [
   "no": 172,
   "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
+  "sub": "Discrete Mathematics",
+  "q": "Physical or logical arrangement of network is",
+  "opts": {
+   "A": "Topology",
+   "B": "Routing",
+   "C": "Networking",
+   "D": "None of these"
+  },
+  "ans": "A",
+  "exp": "",
+  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
+  "note": ""
+ },
+ {
+  "id": "TECH1_CSE_173",
+  "src": "past",
+  "sitting": "MPSC CSE Paper I (year not recorded)",
+  "srcKey": "CSE_TECH1",
+  "no": 173,
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Discrete Mathematics",
+  "q": "Which of the following is a procedural language?",
+  "opts": {
+   "A": "Domain relational calculus",
+   "B": "Tuple relational calculus",
+   "C": "Relational algebra",
+   "D": "Query language"
+  },
+  "ans": "C",
+  "exp": "",
+  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
+  "note": ""
+ },
+ {
+  "id": "TECH1_CSE_174",
+  "src": "past",
+  "sitting": "MPSC CSE Paper I (year not recorded)",
+  "srcKey": "CSE_TECH1",
+  "no": 174,
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Discrete Mathematics",
   "q": "An entity set that does not have sufficient attributes to form a primary key is a",
   "opts": {
    "A": "Strong entity set",
@@ -3612,14 +3654,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_173",
+  "id": "TECH1_CSE_175",
   "src": "past",
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "CSE_TECH1",
-  "no": 173,
+  "no": 175,
   "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
+  "sub": "Discrete Mathematics",
   "q": "Wait-for graph is used for",
   "opts": {
    "A": "detecting view serializability",
@@ -3633,14 +3675,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_174",
+  "id": "TECH1_CSE_176",
   "src": "past",
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "CSE_TECH1",
-  "no": 174,
+  "no": 176,
   "paper": "TECH1",
   "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
+  "sub": "OS concepts, structure and services",
   "q": "Which of the following is a project scheduling method that can be applied to software development?",
   "opts": {
    "A": "PERT",
@@ -3654,14 +3696,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_175",
+  "id": "TECH1_CSE_177",
   "src": "past",
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "CSE_TECH1",
-  "no": 175,
+  "no": 177,
   "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
+  "sub": "Discrete Mathematics",
   "q": "Logical data independence means:",
   "opts": {
    "A": "Protection from changes in the logical structure",
@@ -3675,14 +3717,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_176",
+  "id": "TECH1_CSE_178",
   "src": "past",
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "CSE_TECH1",
-  "no": 176,
+  "no": 178,
   "paper": "TECH1",
   "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
+  "sub": "OS concepts, structure and services",
   "q": "The Critical Section Problem arises in a system with:",
   "opts": {
    "A": "Insufficient RAM",
@@ -3696,14 +3738,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_177",
+  "id": "TECH1_CSE_179",
   "src": "past",
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "CSE_TECH1",
-  "no": 177,
+  "no": 179,
   "paper": "TECH1",
   "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
+  "sub": "OS concepts, structure and services",
   "q": "A condition for deadlock to occur that involves resource holding without release is:",
   "opts": {
    "A": "Circular wait",
@@ -3717,35 +3759,35 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_178",
+  "id": "TECH1_CSE_180",
   "src": "past",
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "CSE_TECH1",
-  "no": 178,
+  "no": 180,
   "paper": "TECH1",
   "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
-  "q": "When a higher-priority process prevents a lower-priority process from running indefinitely, it is called:",
+  "sub": "OS concepts, structure and services",
+  "q": "Which of the following statements about threads is false?",
   "opts": {
-   "A": "Starvation",
-   "B": "Deadlock",
-   "C": "Preemption",
-   "D": "Blocking"
+   "A": "Threads share the same address space",
+   "B": "Threads are more lightweight than processes",
+   "C": "Threads always run independently of one another",
+   "D": "Threads share open files"
   },
-  "ans": "A",
+  "ans": "C",
   "exp": "",
   "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
   "note": ""
  },
  {
-  "id": "TECH1_CSE_179",
+  "id": "TECH1_CSE_181",
   "src": "past",
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "CSE_TECH1",
-  "no": 179,
+  "no": 181,
   "paper": "TECH1",
   "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
+  "sub": "OS concepts, structure and services",
   "q": "Which scheduling algorithm gives the minimum average waiting time for a given set of processes?",
   "opts": {
    "A": "FCFS",
@@ -3759,14 +3801,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_180",
+  "id": "TECH1_CSE_182",
   "src": "past",
   "sitting": "MPSC CSE Paper I (year not recorded)",
   "srcKey": "CSE_TECH1",
-  "no": 180,
+  "no": 182,
   "paper": "TECH1",
   "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
+  "sub": "OS concepts, structure and services",
   "q": "In a multithreaded environment, each thread has its own:",
   "opts": {
    "A": "Register set and stack",
@@ -3780,14 +3822,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_181",
+  "id": "TECH1_CSE_183",
   "src": "past",
   "sitting": "MPSC CSE Paper I (2015)",
   "srcKey": "CSE_TECH1",
-  "no": 181,
+  "no": 183,
   "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
+  "sub": "Discrete Mathematics",
   "q": "Regular expression are",
   "opts": {
    "A": "Type 0 language",
@@ -3801,14 +3843,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_182",
+  "id": "TECH1_CSE_184",
   "src": "past",
   "sitting": "MPSC CSE Paper I (2015)",
   "srcKey": "CSE_TECH1",
-  "no": 182,
+  "no": 184,
   "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
+  "sub": "Discrete Mathematics",
   "q": "The relation {(1,2), (1,3), (3,1), (1,1), (3,3), (3,2), (1,4), (4,2), (3,4)} is",
   "opts": {
    "A": "Reflexive",
@@ -3822,14 +3864,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_183",
+  "id": "TECH1_CSE_185",
   "src": "past",
   "sitting": "MPSC CSE Paper I (2015)",
   "srcKey": "CSE_TECH1",
-  "no": 183,
+  "no": 185,
   "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
+  "sub": "Discrete Mathematics",
   "q": "Difference between NFA and DFA depends only on",
   "opts": {
    "A": "State",
@@ -3843,14 +3885,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_184",
+  "id": "TECH1_CSE_186",
   "src": "past",
   "sitting": "MPSC CSE Paper I (2015)",
   "srcKey": "CSE_TECH1",
-  "no": 184,
+  "no": 186,
   "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
+  "sub": "Discrete Mathematics",
   "q": "Moore machine depends on",
   "opts": {
    "A": "Input",
@@ -3864,14 +3906,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_185",
+  "id": "TECH1_CSE_187",
   "src": "past",
   "sitting": "MPSC CSE Paper I (2015)",
   "srcKey": "CSE_TECH1",
-  "no": 185,
+  "no": 187,
   "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
+  "sub": "Discrete Mathematics",
   "q": "A grammar of the form A→α, Where 'A' is a non-terminal (variable) and 'α' is combination of non-terminals and terminals (alphabet symbols) is called",
   "opts": {
    "A": "Context sensitive",
@@ -3885,14 +3927,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_186",
+  "id": "TECH1_CSE_188",
   "src": "past",
   "sitting": "MPSC CSE Paper I (2015)",
   "srcKey": "CSE_TECH1",
-  "no": 186,
+  "no": 188,
   "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
+  "sub": "Discrete Mathematics",
   "q": "A graph is called a _____ if it is a connected acyclic graph.",
   "opts": {
    "A": "Cyclic graph",
@@ -3906,14 +3948,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_187",
+  "id": "TECH1_CSE_189",
   "src": "past",
   "sitting": "MPSC CSE Paper I (2015)",
   "srcKey": "CSE_TECH1",
-  "no": 187,
+  "no": 189,
   "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
+  "sub": "Discrete Mathematics",
   "q": "A minimal spanning tree of a graph G is",
   "opts": {
    "A": "A spanning sub graph",
@@ -3927,14 +3969,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_188",
+  "id": "TECH1_CSE_190",
   "src": "past",
   "sitting": "MPSC CSE Paper I (2015)",
   "srcKey": "CSE_TECH1",
-  "no": 188,
+  "no": 190,
   "paper": "TECH1",
   "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
+  "sub": "Computer Architecture and Organization",
   "q": "How is a J-K flip-flop made to toggle?",
   "opts": {
    "A": "J=0, K=0",
@@ -3948,14 +3990,35 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_189",
+  "id": "TECH1_CSE_191",
   "src": "past",
   "sitting": "MPSC CSE Paper I (2015)",
   "srcKey": "CSE_TECH1",
-  "no": 189,
+  "no": 191,
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Computer Architecture and Organization",
+  "q": "The main advantage of flip-flops over transistor circuit is",
+  "opts": {
+   "A": "Immunity from noise",
+   "B": "Low heating",
+   "C": "Low propagation delay time",
+   "D": "High propagation"
+  },
+  "ans": "A",
+  "exp": "Flip-flops provide better noise immunity and are more stable than simple transistor circuits due to their latching behavior.",
+  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
+  "note": ""
+ },
+ {
+  "id": "TECH1_CSE_192",
+  "src": "past",
+  "sitting": "MPSC CSE Paper I (2015)",
+  "srcKey": "CSE_TECH1",
+  "no": 192,
   "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
+  "sub": "Discrete Mathematics",
   "q": "The logical expression y=A+A'B is equivalent to",
   "opts": {
    "A": "y=AB",
@@ -3969,14 +4032,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_190",
+  "id": "TECH1_CSE_193",
   "src": "past",
   "sitting": "MPSC CSE Paper I (2015)",
   "srcKey": "CSE_TECH1",
-  "no": 190,
+  "no": 193,
   "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
+  "sub": "Discrete Mathematics",
   "q": "For a binary half subtractor having two inputs A and B, the correct set of logical expressions for the outputs D (=A minus B) and X (= borrow) are",
   "opts": {
    "A": "D=AB̄+ĀB, X=ĀB",
@@ -3990,14 +4053,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_191",
+  "id": "TECH1_CSE_194",
   "src": "past",
   "sitting": "MPSC CSE Paper I (2015)",
   "srcKey": "CSE_TECH1",
-  "no": 191,
+  "no": 194,
   "paper": "TECH1",
   "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
+  "sub": "Computer Architecture and Organization",
   "q": "A simple way of performing I/O tasks is to use a method known as",
   "opts": {
    "A": "Program-controlled I/O",
@@ -4011,14 +4074,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_192",
+  "id": "TECH1_CSE_195",
   "src": "past",
   "sitting": "MPSC CSE Paper I (2015)",
   "srcKey": "CSE_TECH1",
-  "no": 192,
+  "no": 195,
   "paper": "TECH1",
   "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
+  "sub": "Computer Architecture and Organization",
   "q": "What are the minimum number of 2-to-1 multiplexers required to generate a 2-input AND gate and a 2-input Ex-OR gate?",
   "opts": {
    "A": "1 and 2",
@@ -4032,14 +4095,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_193",
+  "id": "TECH1_CSE_196",
   "src": "past",
   "sitting": "MPSC CSE Paper I (2015)",
   "srcKey": "CSE_TECH1",
-  "no": 193,
+  "no": 196,
   "paper": "TECH1",
   "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
+  "sub": "Computer Architecture and Organization",
   "q": "If MSB of a mantissa in a floating point number is non-zero",
   "opts": {
    "A": "Number is normalized",
@@ -4053,14 +4116,35 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_194",
+  "id": "TECH1_CSE_197",
   "src": "past",
   "sitting": "MPSC CSE Paper I (2015)",
   "srcKey": "CSE_TECH1",
-  "no": 194,
+  "no": 197,
   "paper": "TECH1",
   "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
+  "sub": "Computer Architecture and Organization",
+  "q": "If there are four 4-bit registers that need to communicate with a 4-line common bus, the number of 4×1 Multiplexer required is",
+  "opts": {
+   "A": "2",
+   "B": "4",
+   "C": "8",
+   "D": "None of these"
+  },
+  "ans": "B",
+  "exp": "For a 4-line bus with four 4-bit registers, we need one 4×1 multiplexer per bus line, so 4 multiplexers total.",
+  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
+  "note": ""
+ },
+ {
+  "id": "TECH1_CSE_198",
+  "src": "past",
+  "sitting": "MPSC CSE Paper I (2015)",
+  "srcKey": "CSE_TECH1",
+  "no": 198,
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Computer Architecture and Organization",
   "q": "Memory reference instruction may consist of opcode and",
   "opts": {
    "A": "Address",
@@ -4074,14 +4158,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_195",
+  "id": "TECH1_CSE_199",
   "src": "past",
   "sitting": "MPSC CSE Paper I (2015)",
   "srcKey": "CSE_TECH1",
-  "no": 195,
+  "no": 199,
   "paper": "TECH1",
   "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
+  "sub": "Computer Architecture and Organization",
   "q": "Which of the following is not part of instruction cycle?",
   "opts": {
    "A": "Fetch",
@@ -4095,14 +4179,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_196",
+  "id": "TECH1_CSE_200",
   "src": "past",
   "sitting": "MPSC CSE Paper I (2015)",
   "srcKey": "CSE_TECH1",
-  "no": 196,
+  "no": 200,
   "paper": "TECH1",
   "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
+  "sub": "Computer Architecture and Organization",
   "q": "BCD of 761 is",
   "opts": {
    "A": "011101100001",
@@ -4116,14 +4200,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_197",
+  "id": "TECH1_CSE_201",
   "src": "past",
   "sitting": "MPSC CSE Paper I (2015)",
   "srcKey": "CSE_TECH1",
-  "no": 197,
+  "no": 201,
   "paper": "TECH1",
   "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
+  "sub": "Computer Architecture and Organization",
   "q": "The DMA controller transfers one data word at a time and after that it returns control of the buses to the CPU is known as",
   "opts": {
    "A": "Bus grant",
@@ -4137,14 +4221,35 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_198",
+  "id": "TECH1_CSE_202",
   "src": "past",
   "sitting": "MPSC CSE Paper I (2015)",
   "srcKey": "CSE_TECH1",
-  "no": 198,
+  "no": 202,
   "paper": "TECH1",
   "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
+  "sub": "Computer Architecture and Organization",
+  "q": "The fast transfer of information between magnetic disks and memory can be done by",
+  "opts": {
+   "A": "Interrupt vector",
+   "B": "DMA transfer",
+   "C": "Polling",
+   "D": "None of these"
+  },
+  "ans": "B",
+  "exp": "DMA (Direct Memory Access) allows fast data transfer between I/O devices and memory without CPU intervention.",
+  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
+  "note": ""
+ },
+ {
+  "id": "TECH1_CSE_203",
+  "src": "past",
+  "sitting": "MPSC CSE Paper I (2015)",
+  "srcKey": "CSE_TECH1",
+  "no": 203,
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Computer Architecture and Organization",
   "q": "A number of independent programs can be processed concurrently by CPU, it is called",
   "opts": {
    "A": "Multitasking",
@@ -4158,14 +4263,35 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_199",
+  "id": "TECH1_CSE_204",
   "src": "past",
   "sitting": "MPSC CSE Paper I (2015)",
   "srcKey": "CSE_TECH1",
-  "no": 199,
+  "no": 204,
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Computer Architecture and Organization",
+  "q": "A logically related instructions or data elements associated with a name is called",
+  "opts": {
+   "A": "Logical address",
+   "B": "Page",
+   "C": "Segment",
+   "D": "None of these"
+  },
+  "ans": "C",
+  "exp": "A segment is a named group of logically related instructions or data in segmentation memory management.",
+  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
+  "note": ""
+ },
+ {
+  "id": "TECH1_CSE_205",
+  "src": "past",
+  "sitting": "MPSC CSE Paper I (2015)",
+  "srcKey": "CSE_TECH1",
+  "no": 205,
   "paper": "TECH1",
   "unit": "3",
-  "sub": "Recursion, searching and sorting",
+  "sub": "Data Structures and Algorithms",
   "q": "A union find data-structure is commonly applied while implementing",
   "opts": {
    "A": "A depth-first search traversal of a graph",
@@ -4179,14 +4305,35 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_200",
+  "id": "TECH1_CSE_206",
   "src": "past",
   "sitting": "MPSC CSE Paper I (2015)",
   "srcKey": "CSE_TECH1",
-  "no": 200,
+  "no": 206,
   "paper": "TECH1",
   "unit": "3",
-  "sub": "Recursion, searching and sorting",
+  "sub": "Data Structures and Algorithms",
+  "q": "Which of the following algorithm uses 'divide and conquer' strategy?",
+  "opts": {
+   "A": "Insertion sort",
+   "B": "Quick sort",
+   "C": "Shell sort",
+   "D": "Selection sort"
+  },
+  "ans": "B",
+  "exp": "Quick sort uses the divide-and-conquer strategy by partitioning the array around a pivot and recursively sorting subarrays.",
+  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
+  "note": ""
+ },
+ {
+  "id": "TECH1_CSE_207",
+  "src": "past",
+  "sitting": "MPSC CSE Paper I (2015)",
+  "srcKey": "CSE_TECH1",
+  "no": 207,
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Data Structures and Algorithms",
   "q": "Which of the following is the tightest upper bound that represents the number of swaps required to sort n numbers using selection sort?",
   "opts": {
    "A": "O(log n)",
@@ -4200,14 +4347,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_201",
+  "id": "TECH1_CSE_208",
   "src": "past",
   "sitting": "MPSC CSE Paper I (2015)",
   "srcKey": "CSE_TECH1",
-  "no": 201,
+  "no": 208,
   "paper": "TECH1",
   "unit": "3",
-  "sub": "Recursion, searching and sorting",
+  "sub": "Data Structures and Algorithms",
   "q": "A priority queue is implemented as a Max-Heap. Initially, it has 5 elements. The level-order traversal of the heap is: 10, 8, 5, 3, 2. Two new elements 1 and 7 are inserted into the heap in that order. The level-order traversal of the heap after the insertion of the elements is",
   "opts": {
    "A": "10, 8, 7, 3, 2, 1, 5",
@@ -4221,14 +4368,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_202",
+  "id": "TECH1_CSE_209",
   "src": "past",
   "sitting": "MPSC CSE Paper I (2015)",
   "srcKey": "CSE_TECH1",
-  "no": 202,
+  "no": 209,
   "paper": "TECH1",
   "unit": "3",
-  "sub": "Recursion, searching and sorting",
+  "sub": "Data Structures and Algorithms",
   "q": "Selection and Insertion sort are similar in respect of",
   "opts": {
    "A": "Asymptotic complexity",
@@ -4242,14 +4389,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_203",
+  "id": "TECH1_CSE_210",
   "src": "past",
   "sitting": "MPSC CSE Paper I (2024)",
   "srcKey": "CSE_TECH1",
-  "no": 203,
+  "no": 210,
   "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
+  "sub": "Discrete Mathematics",
   "q": "A set of one or more attributes taken collectively to uniquely identify a record.",
   "opts": {
    "A": "Primary Key",
@@ -4263,14 +4410,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_204",
+  "id": "TECH1_CSE_211",
   "src": "past",
   "sitting": "MPSC CSE Paper I (2024)",
   "srcKey": "CSE_TECH1",
-  "no": 204,
+  "no": 211,
   "paper": "TECH1",
   "unit": "2",
-  "sub": "Computer organization, registers and instruction cycle",
+  "sub": "Computer Architecture and Organization",
   "q": "The program initializes all aspects of the system, from CPU registers to device controllers and the contents of main memory, and then starts the operating system.",
   "opts": {
    "A": "bootstrap",
@@ -4284,14 +4431,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_205",
+  "id": "TECH1_CSE_212",
   "src": "past",
   "sitting": "MPSC CSE Paper I (2024)",
   "srcKey": "CSE_TECH1",
-  "no": 205,
+  "no": 212,
   "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
+  "sub": "Discrete Mathematics",
   "q": "Set of rules that governs data communication.",
   "opts": {
    "A": "Protocols",
@@ -4305,14 +4452,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_206",
+  "id": "TECH1_CSE_213",
   "src": "past",
   "sitting": "MPSC CSE Paper I (2024)",
   "srcKey": "CSE_TECH1",
-  "no": 206,
+  "no": 213,
   "paper": "TECH1",
   "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
+  "sub": "OS concepts, structure and services",
   "q": "In Unix, which system call creates the new process?",
   "opts": {
    "A": "create",
@@ -4326,14 +4473,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_207",
+  "id": "TECH1_CSE_214",
   "src": "past",
   "sitting": "MPSC CSE Paper I (2024)",
   "srcKey": "CSE_TECH1",
-  "no": 207,
+  "no": 214,
   "paper": "TECH1",
   "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
+  "sub": "OS concepts, structure and services",
   "q": "Which one of the following is the deadlock avoidance algorithm?",
   "opts": {
    "A": "banker's algorithm",
@@ -4347,14 +4494,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_208",
+  "id": "TECH1_CSE_215",
   "src": "past",
   "sitting": "MPSC CSE Paper I (2024)",
   "srcKey": "CSE_TECH1",
-  "no": 208,
+  "no": 215,
   "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
+  "sub": "Discrete Mathematics",
   "q": "A Relation is a-",
   "opts": {
    "A": "Subset of a Cartesian product of a list of attributes",
@@ -4368,35 +4515,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_209",
+  "id": "TECH1_CSE_216",
   "src": "past",
   "sitting": "MPSC CSE Paper I (2024)",
   "srcKey": "CSE_TECH1",
-  "no": 209,
+  "no": 216,
   "paper": "TECH1",
   "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
-  "q": "If the resources are always preempted from the same process, this can occur.",
-  "opts": {
-   "A": "deadlock",
-   "B": "system crash",
-   "C": "aging",
-   "D": "starvation"
-  },
-  "ans": "D",
-  "exp": "Starvation occurs when a process never gets CPU time because resources are always allocated to other processes.",
-  "prov": "MPSC CSE Paper I question bank; extracted answer (not final-key verified)",
-  "note": ""
- },
- {
-  "id": "TECH1_CSE_210",
-  "src": "past",
-  "sitting": "MPSC CSE Paper I (2024)",
-  "srcKey": "CSE_TECH1",
-  "no": 210,
-  "paper": "TECH1",
-  "unit": "4",
-  "sub": "Processes, concurrency and synchronization",
+  "sub": "OS concepts, structure and services",
   "q": "When the event for which a thread is blocked occurs?",
   "opts": {
    "A": "thread moves to the ready queue",
@@ -4410,14 +4536,14 @@ window.QUESTIONS = [
   "note": ""
  },
  {
-  "id": "TECH1_CSE_211",
+  "id": "TECH1_CSE_217",
   "src": "past",
   "sitting": "MPSC CSE Paper I (2024)",
   "srcKey": "CSE_TECH1",
-  "no": 211,
+  "no": 217,
   "paper": "TECH1",
   "unit": "1",
-  "sub": "Graph theory, trees and graph algorithms",
+  "sub": "Discrete Mathematics",
   "q": "What is the language used by most of the DBMSs for helping their users to access data?",
   "opts": {
    "A": "High level language",

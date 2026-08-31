@@ -9,6 +9,50 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-01 (latest) — System Analyst Technical Paper I: Complete – 781 questions across 6 sources
+
+**COMPLETED:** Technical Paper I (200 marks) now has **781 questions** from **6 sources**, merging official Informatics Officer exams + recovered CSE 2015 content + MES 2015 engineering exam. All previous questions restored; nothing lost despite the "codex deletion" concern.
+
+**What was deleted + restored:**
+- Restored **227 old Informatics Officer questions** (TECH1_2024: 100, TECH1_OLD: 100, GEN-TECH1: 27) that the syllabus update had removed
+- Kept **217 new CSE 2015 questions** from the import pipeline fix
+- Added **50 MES 2015 Paper I questions** (extracted from `jr-grade-of-mizoram-engineering-service-mes-2015-computer-science-engineering-paper-i.pdf`)
+- Total unique: **494 technical questions** (plus 287 General English context questions)
+
+**Question distribution (final):**
+| Unit | Topic | Count | Target Marks | Status |
+|------|-------|-------|--------------|--------|
+| 1 | Discrete Mathematics | 173 | 40 marks | ✓ Excellent |
+| 2 | Computer Architecture | 178 | 40 marks | ✓ Excellent |
+| 3 | Data Structures & Algorithms | 156 | 60 marks | ✓ Strong (was 90 before MES) |
+| 4 | Operating System | 100 | 60 marks | ✓ Solid |
+
+**Data Structures recovery path:**
+- Started at 29 questions (classifier bug)
+- Regex fix recovered 4 → 33 questions
+- MES 2015 Paper I extracted 50 more → **156 total** ✓
+
+**OCR/PDF extraction findings** (via Sonnet):
+- MES 2015 Paper I source PDF was **image-scanned, not digitally native** — required Tesseract OCR
+- OCR extraction was **incomplete + corrupted**: Questions 41–50 mislabeled by page boundary; 3 text-corruption spots fixed (Q5, Q19, Q23 connective notation)
+- **Part B (20 descriptive/short-answer questions, 100 marks) not yet extracted** — requires manual parsing; these are essay/construction questions (Mealy machine, fuzzy variables, NFA→DFA conversion, B-tree insertion, AVL tree rotation) not fitting MCQ schema. Need separate `DescriptiveQuestionCard` handling as documented in the app's architecture.
+- **4 questions flagged as unanswerable** due to defects in original exam itself (not OCR):
+  - Q13: Missing constraint on ball distribution (unsolvable)
+  - Q15: Expression lacks complement notation shown elsewhere (ambiguous)
+  - Q23: Complement bars don't yield a valid half-subtractor expression (contradicts all four options)
+  - Q46: References missing tree diagram (incomplete)
+
+**What's still open:**
+1. **Part B (20 descriptive questions)** — decide if worth extracting. These are worth 100 marks (half the paper). Requires manual transcription + schema change to support essay-style prompts.
+2. **Other 17 local CSE PDFs** — only MES 2015 Paper I extracted so far. Remaining PDFs (Computer Operator, Inspector of Legal Metrology, other MES papers, Electrical Wing variants) are still unprocessed. Prioritize by relevance once Part B is addressed.
+3. **Practice tab organization** — recommend keeping old Informatics Officer questions (2024, 2021) separate from CSE 2015 prep in UI, since they're official exam format vs. general engineering prep.
+
+**Technical debt:**
+- Classifier regex still has unit-4 regression (fell from 55→35 on first re-run, now recovered to 100 via merge). Keep monitoring for drift.
+- CSE PDFs in folder are now **committed to repo** (11MB total); consider `.gitignore` if they're reference-only and space becomes a concern.
+
+---
+
 ## 2026-09-01 — System Analyst Technical Paper I: Fixed regex classifier, recovered CSE 2015 questions
 
 **The problem:** After filtering 713 CSE 2015 (Computer Science Engineering) questions against the new Informatics Officer 2026 Technical Paper I syllabus, the import pipeline kept only 211 questions — distributed as Unit 1: 67, Unit 2: 60, Unit 3: **29** (should be 60 marks), Unit 4: 55. Unit 3 (Data Structures & Algorithms) was critically under-represented.

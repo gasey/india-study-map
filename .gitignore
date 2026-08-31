@@ -17,3 +17,4 @@ __pycache__/
 # `python3 tools/system-manager-build/render_pages.py` — the source PDFs live in
 # the mpsc-question-bank repo, so these are a derived artifact, not an input.
 /tools/system-manager-build/pages/
+.vercel

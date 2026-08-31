@@ -1,0 +1,12 @@
+{
+  "source_records": 713,
+  "imported": 211,
+  "excluded": 502,
+  "exclusion_reason": "off-syllabus, duplicate, or not a complete 4-option MCQ",
+  "by_unit": {
+    "1": 67,
+    "2": 60,
+    "3": 29,
+    "4": 55
+  }
+}

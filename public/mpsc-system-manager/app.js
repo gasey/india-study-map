@@ -9,6 +9,9 @@
 const SYL = window.SYLLABUS || { papers: [] };
 const CON = window.CONCEPTS || [];
 const QS  = window.QUESTIONS || [];
+// Calc Lab generators. Unlike the three above these are functions, not data:
+// each produces a fresh worked item from a seed, so the pool is unbounded.
+const GENS = window.CALC_DRILLS || [];
 
 // Distinct from the System Analyst app's 'mpsc_sa_v1' — both are served from
 // the same origin, so a shared key would merge the two apps' progress.
@@ -26,6 +29,10 @@ const blank = () => ({
   questions: {},     // qid -> {att, ok, last, box, due, star, lastPick}
   sessions: [],      // {id, type, paper, started, ended, score, total}
   daily: {},         // "YYYY-MM-DD" -> {score, total, ended}
+  // Calc Lab accuracy, keyed by generator id. Deliberately NOT merged into
+  // `questions`: drill items are generated per seed and have no stable id, so
+  // Leitner scheduling cannot apply to them and would corrupt the due counts.
+  calc: {},          // genId -> {att, ok, last}
   settings: { dailyCount: 25, theme: 'auto' },
 });
 
@@ -633,8 +640,10 @@ VIEWS.study = (el, opts) => {
           <span class="pill">${esc(shortPaper(c.paper))}</span>
           <span class="pill">Unit ${esc(c.unit)} · ${esc(c.unitTitle)}</span>
           <span class="pill ${st.status === 'known' ? 'ok' : st.status === 'learning' ? 'wn' : ''}">${esc(st.status)}</span>
+          ${c.derived ? '<span class="pill wn">derived — not in the official syllabus</span>' : ''}
         </div>
         <h2>${esc(c.sub)}</h2>
+        ${c.derived && c.prov ? `<div class="trapbox">${esc(c.prov)}</div>` : ''}
         <div class="def">${esc(c.def)}</div>
         <div class="exp">${c.exp.split(/\n\n+/).map(x => `<p>${esc(x)}</p>`).join('')}</div>
         ${(c.facts || []).length ? `<div class="blk facts"><h4>Examinable facts</h4><ul>${c.facts.map(f => `<li>${esc(f)}</li>`).join('')}</ul></div>` : ''}
@@ -1088,6 +1097,261 @@ function emptyBank() {
   return `<div class="empty"><h2>Question bank is empty</h2>
     <p>Phases 2–4 of <code>tools/system-manager-build/BUILD_GUIDE.md</code> write
     <code>data/questions.js</code> — harvest, verify, then fill the coverage gaps.</p></div>`;
+}
+
+/* ================================================================ calc lab */
+/* Procedural topics — subnetting, base conversion, memory allocation,
+   normalisation — are not learned by reading a concept card once. They are
+   learned by working the method repeatedly until it is automatic. The question
+   bank cannot supply that: measured when this was built, all 843 questions held
+   ONE genuine subnetting calculation and ONE hex conversion (and that one was
+   borrowed from the JSO set, not a System Manager paper).
+
+   So these items are generated rather than stored. The pool is unbounded, and
+   every item shows its full worked solution after you answer — the method is
+   what is being taught, not the answer letter. */
+
+const calcStat = id => S.calc[id] || { att: 0, ok: 0 };
+
+/* Resolve a generator's target subtopic to its concept record.
+   VIEWS.study takes `sub` but actually reads it as a concept ID (see the
+   existing callers, which pass `sub: c.id`) — passing the subtopic string
+   silently lands on the paper overview instead of the concept. Matching on the
+   full paper|unit|sub triple, not on `sub` alone, because six leaf names are
+   reused across units in this syllabus. */
+const conceptFor = g => CON.find(c =>
+  c.paper === g.paper && String(c.unit) === String(g.unit) && c.sub === g.sub);
+
+function recordDrill(id, correct) {
+  const st = Object.assign({ att: 0, ok: 0 }, S.calc[id]);
+  st.att += 1; if (correct) st.ok += 1;
+  st.last = Date.now();
+  S.calc[id] = st; save();
+}
+
+/* Drill stems carry hard line breaks — code listings, ER scenarios, dependency
+   lists. Escape first, then convert the newlines, so markup can only ever come
+   from this function and never from generated text. */
+const blockText = s => esc(s).replace(/\n/g, '<br>');
+
+const calcGroups = () => {
+  const g = new Map();
+  GENS.forEach(d => { if (!g.has(d.group)) g.set(d.group, []); g.get(d.group).push(d); });
+  return g;
+};
+
+VIEWS.calc = (el) => {
+  if (!GENS.length) {
+    el.innerHTML = `<div class="empty"><h2>Calc Lab not loaded</h2>
+      <p><code>data/calc.js</code> is missing or failed to parse — check the browser console.</p></div>`;
+    return;
+  }
+  const groups = calcGroups();
+  const totalAtt = Object.values(S.calc).reduce((a, s) => a + (s.att || 0), 0);
+  const totalOk = Object.values(S.calc).reduce((a, s) => a + (s.ok || 0), 0);
+
+  el.innerHTML = `
+    <h1>Calc Lab</h1>
+    <div class="card mb">
+      <p><strong>${GENS.length} generators across ${groups.size} topics, producing unlimited items.</strong>
+      Every question is worked out from scratch each time, and answering reveals the full
+      step-by-step method rather than just the correct letter.</p>
+      <p class="dim">These are the calculation topics — subnetting, base conversion, memory
+      allocation, normalisation, and the language traps where the arithmetic is trivial and the
+      catch is the whole question. Separate from the Practice tab, which drills real past-paper
+      questions. Progress here is tracked per generator and does not affect your question-bank
+      review schedule.</p>
+      <hr class="sep">
+      <div class="spread">
+        <div class="row">
+          <label class="fld">Questions<input type="number" id="cN" value="15" min="5" max="60" style="width:80px"></label>
+          ${totalAtt ? `<span class="dim">Lifetime: ${totalOk}/${totalAtt} correct · ${pct(totalOk, totalAtt)}%</span>` : ''}
+        </div>
+        <button class="btn pri" id="mixAll">Mixed drill — everything</button>
+      </div>
+    </div>
+
+    ${[...groups.entries()].map(([name, ds]) => {
+      const att = ds.reduce((a, d) => a + calcStat(d.id).att, 0);
+      const ok = ds.reduce((a, d) => a + calcStat(d.id).ok, 0);
+      return `<div class="card mb">
+        <div class="spread">
+          <h3 style="margin:0">${esc(name)}</h3>
+          <div class="row">
+            ${att ? `<span class="pill ${pct(ok, att) >= 70 ? 'ok' : pct(ok, att) >= 45 ? 'wn' : 'no'}">${ok}/${att} · ${pct(ok, att)}%</span>` : '<span class="pill">not started</span>'}
+            <button class="btn sm" data-group="${esc(name)}">Drill this topic</button>
+          </div>
+        </div>
+        <hr class="sep">
+        ${ds.map(d => {
+          const st = calcStat(d.id);
+          return `<div class="drill-row">
+            <div class="drill-main">
+              <strong>${esc(d.title)}</strong>
+              <span class="dim">${esc(d.blurb)}</span>
+            </div>
+            <div class="row">
+              ${st.att ? `<span class="pill ${pct(st.ok, st.att) >= 70 ? 'ok' : pct(st.ok, st.att) >= 45 ? 'wn' : 'no'}">${st.ok}/${st.att}</span>` : ''}
+              <button class="btn sm" data-gen="${esc(d.id)}">Practice</button>
+            </div>
+          </div>`;
+        }).join('')}
+      </div>`;
+    }).join('')}`;
+
+  const count = () => Math.max(5, Math.min(60, parseInt($('#cN').value, 10) || 15));
+  $('#mixAll').onclick = () => startDrill({ title: 'Mixed drill', gens: GENS, count: count() });
+  el.addEventListener('click', e => {
+    const g = e.target.closest('[data-group]');
+    if (g) {
+      const ds = groups.get(g.dataset.group);
+      startDrill({ title: g.dataset.group, gens: ds, count: count() });
+      return;
+    }
+    const d = e.target.closest('[data-gen]');
+    if (d) {
+      const gen = GENS.find(x => x.id === d.dataset.gen);
+      if (gen) startDrill({ title: gen.title, gens: [gen], count: count() });
+    }
+  });
+};
+
+/* Generated-item runner. Deliberately not startQuiz(): drill items have no
+   stable id, so they cannot carry a Leitner box, a star, or a place in the
+   review pool. What they have instead is a worked solution. */
+function startDrill({ title, gens, count, seed }) {
+  const el = $('#main');
+  // A drill set is fully reproducible from its seed. Shown on the results
+  // screen so an item that caught you out can be revisited exactly.
+  const s0 = seed != null ? seed : (Math.floor(Math.random() * 1e9) | 0);
+  const pickRnd = mulberry(s0);
+  const items = [];
+  for (let i = 0; i < count; i++) {
+    const g = gens[Math.floor(pickRnd() * gens.length)];
+    try {
+      items.push({ g, it: g.gen(mulberry(hash32(`${s0}|${i}|${g.id}`))) });
+    } catch (err) {
+      // One broken generator must not take the whole set down with it.
+      console.error('drill generator failed', g.id, err);
+    }
+  }
+  if (!items.length) { toast('Could not build a drill set'); go('calc'); return; }
+
+  const picks = new Array(items.length).fill(null);
+  const graded = new Array(items.length).fill(false);
+  let i = 0;
+
+  const scoreNow = () => items.reduce((a, x, k) => a + (picks[k] === x.it.ans ? 1 : 0), 0);
+
+  function draw() {
+    const { g, it } = items[i];
+    const shown = graded[i];
+    const st = calcStat(g.id);
+    el.innerHTML = `
+      <div class="quiz">
+        <div class="quiz-head">
+          <div>
+            <h1 style="margin:0;font-size:1.15rem">${esc(title)}</h1>
+            <span class="dim">Item ${i + 1} of ${items.length} · generated, not from a past paper</span>
+          </div>
+          <div class="row"><button class="btn sm" id="quit">Quit</button></div>
+        </div>
+
+        <div class="card">
+          <div class="qmeta mb">
+            <span class="pill">${esc(shortPaper(g.paper))}</span>
+            <span class="pill">Unit ${esc(g.unit)}</span>
+            <span class="pill acc">${esc(g.title)}</span>
+            ${st.att ? `<span class="dim">${st.ok}/${st.att} on this generator</span>` : ''}
+          </div>
+          <div class="qtext">${blockText(it.q)}</div>
+          <div class="opts" id="opts">
+            ${['A', 'B', 'C', 'D'].filter(k => it.opts[k] != null).map(k => {
+              let cls = '';
+              if (shown) { if (k === it.ans) cls = 'right'; else if (k === picks[i]) cls = 'wrong'; }
+              else if (picks[i] === k) cls = 'sel';
+              return `<button class="opt ${cls}" data-k="${k}" ${shown ? 'disabled' : ''}>
+                <span class="lab">${k}</span><span>${esc(it.opts[k])}</span></button>`;
+            }).join('')}
+          </div>
+          ${shown ? `<div class="expl">
+            <strong>${picks[i] === it.ans ? 'Correct' : `Not quite — the answer is ${it.ans}`}.</strong>
+            <ol class="steps">${it.steps.map(x => `<li>${blockText(x)}</li>`).join('')}</ol>
+            ${it.trap ? `<div class="trapbox"><strong>Watch for:</strong> ${esc(it.trap)}</div>` : ''}
+            ${conceptFor(g) ? `<div class="row mt"><button class="btn sm" id="toConcept">Read the concept: ${esc(g.sub)} →</button></div>` : ''}
+          </div>` : ''}
+          <div class="row mt">
+            <button class="btn" id="prev" ${i === 0 ? 'disabled' : ''}>← Previous</button>
+            <button class="btn ${shown ? 'pri' : ''}" id="next">${i === items.length - 1 ? 'Finish' : 'Next →'}</button>
+          </div>
+        </div>
+
+        <div class="pager" id="pager">${items.map((_, k) => {
+          let cls = k === i ? 'on' : '';
+          if (graded[k]) cls += picks[k] === items[k].it.ans ? ' ok' : ' no';
+          return `<button class="${cls}" data-i="${k}">${k + 1}</button>`;
+        }).join('')}</div>
+      </div>`;
+
+    $('#opts').onclick = e => {
+      const b = e.target.closest('.opt[data-k]');
+      if (!b || b.disabled) return;
+      picks[i] = b.dataset.k;
+      graded[i] = true;
+      recordDrill(g.id, picks[i] === it.ans);
+      draw();
+    };
+    $('#prev').onclick = () => { if (i > 0) { i--; draw(); } };
+    $('#next').onclick = () => { if (i === items.length - 1) finish(); else { i++; draw(); } };
+    $('#pager').onclick = e => { const b = e.target.closest('button[data-i]'); if (b) { i = +b.dataset.i; draw(); } };
+    $('#quit').onclick = () => go('calc');
+    const tc = $('#toConcept');
+    if (tc) tc.onclick = () => {
+      const c = conceptFor(g);
+      if (c) go('study', { paper: c.paper, sub: c.id });
+    };
+  }
+
+  function finish() {
+    const score = scoreNow();
+    const answered = graded.filter(Boolean).length;
+    // Per-generator breakdown, so a weak method is named rather than buried in
+    // an overall percentage.
+    const per = new Map();
+    items.forEach((x, k) => {
+      if (!graded[k]) return;
+      const e = per.get(x.g.id) || { title: x.g.title, att: 0, ok: 0 };
+      e.att++; if (picks[k] === x.it.ans) e.ok++;
+      per.set(x.g.id, e);
+    });
+    const weak = [...per.values()].filter(e => e.ok < e.att).sort((a, b) => (a.ok / a.att) - (b.ok / b.att));
+    el.innerHTML = `
+      <h1>${esc(title)} — done</h1>
+      <div class="card mb">
+        <div class="spread">
+          <h3 style="margin:0">${score} / ${answered || items.length}</h3>
+          <span class="pill ${pct(score, answered || items.length) >= 60 ? 'ok' : 'no'}">${pct(score, answered || items.length)}%</span>
+        </div>
+        ${answered < items.length ? `<p class="dim">${items.length - answered} item${items.length - answered === 1 ? '' : 's'} left unanswered.</p>` : ''}
+        <div class="row mt">
+          <button class="btn pri" id="again">Another set</button>
+          <button class="btn" id="replay">Replay this exact set</button>
+          <button class="btn" id="back">Back to Calc Lab</button>
+        </div>
+        <p class="dim mt">Seed ${s0} — the same seed always rebuilds the same items.</p>
+      </div>
+      ${weak.length ? `<div class="card">
+        <h3 style="margin-top:0">Where it went wrong</h3>
+        ${weak.map(e => `<div class="drill-row"><div class="drill-main"><strong>${esc(e.title)}</strong></div>
+          <span class="pill ${e.ok === 0 ? 'no' : 'wn'}">${e.ok}/${e.att}</span></div>`).join('')}
+        <p class="dim" style="margin-bottom:0">Method problems repeat. Drill these individually before mixing again.</p>
+      </div>` : `<div class="card"><p style="margin:0">Every method you attempted came out right.</p></div>`}`;
+    $('#again').onclick = () => startDrill({ title, gens, count });
+    $('#replay').onclick = () => startDrill({ title, gens, count, seed: s0 });
+    $('#back').onclick = () => go('calc');
+  }
+
+  draw();
 }
 
 /* ============================================================ quiz engine */

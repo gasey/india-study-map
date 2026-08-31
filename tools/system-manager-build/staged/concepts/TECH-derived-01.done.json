@@ -1,0 +1,58 @@
+[
+  {
+    "paper": "TECH1",
+    "unit": "I",
+    "sub": "Number Systems and Data Representation",
+    "def": "A number system is a way of writing numbers using a fixed set of digits and a base. Computers store everything in binary (base 2) because a circuit has two stable states, and people write binary compactly in hexadecimal (base 16) because one hex digit stands for exactly four bits. Data representation is how numbers, characters and negative values are encoded in those bits.",
+    "exp": "The four bases examined are binary (digits 0-1), octal (0-7), decimal (0-9) and hexadecimal (0-9 then A-F, where A is 10 and F is 15). To convert any base to decimal, multiply each digit by its place value and add: 1101 in binary is 8 + 4 + 0 + 1 = 13. To convert decimal to any base, divide repeatedly by the base and read the remainders bottom upwards.\n\nBinary to hexadecimal never needs decimal in between. Group the bits into fours from the RIGHT and convert each group: 11011010 splits as 1101 1010, which is D and A, giving DA. Grouping from the left instead, or writing the two groups in the wrong order as AD, are the two errors the examiner plants. Binary to octal works identically with groups of three.\n\nThe units follow from this. A bit is one binary digit. A nibble is four bits, which is exactly one hex digit. A byte is eight bits, which holds 256 distinct values and stores one ASCII character. In general n bits give 2 to the power n distinct values, running from 0 to 2^n minus 1.\n\nNegative integers use two's complement: write the positive value in binary, invert every bit, then add one. In eight bits this covers minus 128 to plus 127, and the leading bit acts as a sign bit. Storage capacities step by 1024, which is 2^10, not by 1000.",
+    "facts": [
+      "One hexadecimal digit is exactly four bits (one nibble); one byte is two hex digits.",
+      "n bits represent 2^n distinct values, ranging from 0 to 2^n minus 1.",
+      "A byte is 8 bits and holds 256 values; 1 KB = 1024 bytes = 2^10.",
+      "Two's complement is: invert all bits, then add 1. An 8-bit two's complement value covers -128 to +127.",
+      "Convert binary to hex by grouping bits in fours from the right; to octal by grouping in threes from the right.",
+      "Decimal to any base: divide repeatedly by the base and read the remainders from bottom to top."
+    ],
+    "traps": [
+      "Group bits from the RIGHT, never the left. Padding the leftmost group with zeros is correct; padding the rightmost group changes the value.",
+      "Nibbles converted correctly but written in the wrong order is the classic planted answer: 11011010 is DA, and AD is offered alongside it.",
+      "Count of values (2^n) and largest value (2^n minus 1) differ by one because the range starts at 0. Read which the question wants.",
+      "Two's complement is invert AND add one. Inverting only gives one's complement, and flipping just the top bit gives sign-magnitude; both appear as options.",
+      "Storage units step by 1024, not 1000. Drive manufacturers use 1000, which is why a 1 TB disk reports as about 931 GB."
+    ],
+    "mnem": "Four bits, one nibble, one hex digit. Eight bits, one byte, two hex digits, 256 values.",
+    "rel": [
+      "Functional Components of a Computer",
+      "Memory Hierarchy",
+      "Programming Languages"
+    ]
+  },
+  {
+    "paper": "TECH2",
+    "unit": "II",
+    "sub": "Normalisation",
+    "def": "Normalisation is the stepwise process of restructuring a relation, using its functional dependencies, so that redundant data and the insertion, deletion and update anomalies that redundancy causes are removed. Each normal form adds one rule to the one before it, so a relation in 3NF is necessarily in 2NF and 1NF as well.",
+    "exp": "A functional dependency X determines Y means that each value of X fixes exactly one value of Y. Normalisation works by finding dependencies that point somewhere other than at a whole candidate key, and splitting the table so they do.\n\nFirst Normal Form requires every attribute to be atomic: one value per cell, and no repeating groups such as Skill1, Skill2, Skill3. A column holding two phone numbers breaks it.\n\nSecond Normal Form adds: no non-key attribute may depend on only PART of a composite key. In ENROLMENT(StudentID, CourseID, StudentName), StudentName depends on StudentID alone, which is a partial dependency. Note that a relation whose key is a single attribute is automatically in 2NF, because there is no part of the key to depend on.\n\nThird Normal Form adds: no non-key attribute may depend on another non-key attribute. In EMPLOYEE(EmpID, EmpName, DeptID, DeptName), EmpID determines DeptID and DeptID determines DeptName, so DeptName reaches the key only indirectly. That is a transitive dependency.\n\nBoyce-Codd Normal Form tightens 3NF to: every determinant must be a candidate key. It only bites when a relation has overlapping composite candidate keys, which is why a relation can be in 3NF and still fail BCNF.\n\nWork upward and stop at the first rule broken; the highest normal form a relation satisfies is one step below that. Denormalisation, reintroducing redundancy deliberately for read performance, is a design choice and not a failure.",
+    "facts": [
+      "1NF: every attribute atomic, no repeating groups.",
+      "2NF: 1NF plus no partial dependency of a non-key attribute on part of a composite key.",
+      "3NF: 2NF plus no transitive dependency of one non-key attribute on another.",
+      "BCNF: every determinant is a candidate key — stricter than 3NF.",
+      "A relation whose primary key is a single attribute is automatically in 2NF.",
+      "Normalisation removes insertion, deletion and update anomalies caused by redundancy."
+    ],
+    "traps": [
+      "2NF violations require a COMPOSITE key. If the key is one attribute, partial dependency is impossible and the relation cannot fail 2NF.",
+      "Partial dependency (part of the key) and transitive dependency (via another non-key attribute) are different faults, removed by different normal forms. Both are always offered.",
+      "3NF does not imply BCNF. A relation with overlapping candidate keys can satisfy 3NF and still fail BCNF — the standard example is CLASS(StudentID, Subject, Teacher) with Teacher determining Subject.",
+      "The highest normal form is one step BELOW the first rule broken, so work upward from 1NF rather than guessing from the shape of the table.",
+      "Denormalisation is a deliberate performance trade-off, not a normalisation error."
+    ],
+    "mnem": "1NF atomic, 2NF whole key, 3NF nothing but the key, BCNF every determinant a key.",
+    "rel": [
+      "Relational Database Management System",
+      "ER Modelling",
+      "Data Models"
+    ]
+  }
+]

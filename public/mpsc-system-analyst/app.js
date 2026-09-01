@@ -124,6 +124,12 @@ function shuffle(arr, rnd) {
 const paperById = {};
 SYL.papers.forEach(p => { paperById[p.id] = p; });
 const unitOf = (pid, uno) => (paperById[pid]?.units || []).find(u => String(u.no) === String(uno));
+// Escaped "Unit 2 · Computer Architecture and Organization" pill text, falling
+// back to the bare number if a unit somehow has no matching syllabus entry.
+const unitLabel = q => {
+  const u = unitOf(q.paper, q.unit);
+  return u ? `Unit ${esc(q.unit)} · ${esc(u.title)}` : `Unit ${esc(q.unit)}`;
+};
 const paperName = pid => paperById[pid]?.name || pid;
 const shortPaper = pid => ({
   GE: 'General English', GS: 'General Studies',
@@ -966,7 +972,7 @@ function browsePaper(qs) {
       <div class="card mb">
         <div class="qmeta mb">
           <strong style="color:var(--ink)">Q${q.no}</strong>
-          ${q.unit ? `<span class="pill">Unit ${esc(q.unit)}</span>` : ''}
+          ${q.unit ? `<span class="pill">${unitLabel(q)}</span>` : ''}
           ${q.sub ? `<span class="pill">${esc(q.sub)}</span>` : ''}
           ${modeBadge(q.id)}
           ${q.ans === 'COMPENSATED' ? `<span class="pill wn">voided by MPSC</span>` : ''}
@@ -1512,7 +1518,7 @@ function startQuiz({ title, questions, mode, seconds, onFinish, back }) {
         <div class="card">
           <div class="qmeta mb">
             <span class="pill">${esc(shortPaper(q.paper))}</span>
-            ${q.unit ? `<span class="pill">Unit ${esc(q.unit)}</span>` : ''}
+            ${q.unit ? `<span class="pill">${unitLabel(q)}</span>` : ''}
             ${q.src === 'past' ? `<span class="pill acc">${esc(q.sitting)} Q${q.no}</span>` : `<span class="pill">practice</span>`}
             ${modeBadge(q.id)}
             ${stq.att ? `<span class="dim">seen ${stq.att}× · ${stq.ok}/${stq.att} right · box ${stq.box}</span>` : ''}

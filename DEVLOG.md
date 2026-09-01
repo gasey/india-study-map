@@ -9,7 +9,19 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
-## 2026-09-01 (latest) — Split TECH1 into two distinct papers instead of one paper with a legacy optgroup
+## 2026-09-01 (latest) — Question cards now show the unit's real name, not just its number
+
+**COMPLETED:** Every question card that shows a "Unit N" pill (the live practice/quiz view and the Past Papers browse view) now shows "Unit N · <Topic Name>" — e.g. "Unit 2 · Computer Architecture and Organization" instead of the bare "Unit 2". Added a small `unitLabel(q)` helper next to `unitOf()` in `app.js` that looks up the syllabus title for `q.paper`/`q.unit` and falls back to the bare number only if no matching unit exists.
+
+**Why:** After splitting the legacy syllabus into its own paper, the user asked to have 2026-syllabus questions tagged with their actual unit name (Discrete Mathematics, Data Structures, etc.) rather than just a number — a bare "Unit 2" pill doesn't tell you what you're studying without cross-referencing the syllabus tab. Verified in-browser across the full 217-question CSE set that all four 2026 units (Discrete Mathematics, Computer Architecture and Organization, Data Structures and Algorithms, Operating System) render correctly, and confirmed the same fix correctly labels all six legacy units too.
+
+**Also verified, not a bug:** User asked whether .NET Technologies had been dropped from the legacy syllabus during the paper-split work. It hadn't — all 22 .NET concepts and 57 .NET questions are intact under `TECH1_LEGACY` unit 3; an earlier tool-truncated read during verification just made it look cut off.
+
+**Still open:** None.
+
+---
+
+## 2026-09-01 — Split TECH1 into two distinct papers instead of one paper with a legacy optgroup
 
 **SUPERSEDES the previous entry's fix.** The optgroup approach (legacy units nested inside TECH1's own Unit dropdown, distinguished only by an "L" prefix) technically worked but visually mixed old and new syllabus content under one "Technical I" paper — the user asked for them to be fully separate, with a clear paper name for each, no mixing at all.
 

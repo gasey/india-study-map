@@ -1,0 +1,6285 @@
+[
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 1,
+    "section": "Introduction to Computing",
+    "q": "First generation computers were built using:",
+    "opts": {
+      "A": "Transistors",
+      "B": "Vacuum tubes",
+      "C": "Integrated circuits",
+      "D": "Microprocessors"
+    },
+    "ans": "B",
+    "exp": "vacuum tubes",
+    "conf": "high",
+    "note": "",
+    "sub": "Evolution and Generations of Computers"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 2,
+    "section": "Introduction to Computing",
+    "q": "The technology that defines the third generation of computers is:",
+    "opts": {
+      "A": "Vacuum tube",
+      "B": "Transistor",
+      "C": "Integrated Circuit (IC)",
+      "D": "VLSI"
+    },
+    "ans": "C",
+    "exp": "ICs, 1964–71",
+    "conf": "high",
+    "note": "",
+    "sub": "Evolution and Generations of Computers"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 3,
+    "section": "Introduction to Computing",
+    "q": "Fifth generation computing is chiefly associated with:",
+    "opts": {
+      "A": "Magnetic core memory",
+      "B": "Artificial intelligence and parallel processing",
+      "C": "Punched cards",
+      "D": "Assembly language"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Evolution and Generations of Computers"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 4,
+    "section": "Introduction to Computing",
+    "q": "Which of the following is NOT a characteristic of a computer?",
+    "opts": {
+      "A": "Speed",
+      "B": "Diligence",
+      "C": "Accuracy",
+      "D": "Intuition"
+    },
+    "ans": "D",
+    "exp": "intuition/creativity is human",
+    "conf": "high",
+    "note": "",
+    "sub": "Characteristics and Applications of Computers"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 5,
+    "section": "Introduction to Computing",
+    "q": "\"Diligence\" as a characteristic of a computer means:",
+    "opts": {
+      "A": "It works faster than humans",
+      "B": "It never gets tired or bored by repetitive work",
+      "C": "It stores large volumes of data",
+      "D": "It produces error-free output"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Characteristics and Applications of Computers"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 6,
+    "section": "Introduction to Computing",
+    "q": "Arrange in decreasing order of processing power:",
+    "opts": {
+      "A": "Supercomputer > Mainframe > Mini > Micro",
+      "B": "Mainframe > Supercomputer > Micro > Mini",
+      "C": "Micro > Mini > Mainframe > Supercomputer",
+      "D": "Mini > Micro > Mainframe > Supercomputer"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Classification of Computers"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 7,
+    "section": "Introduction to Computing",
+    "q": "The PARAM series of supercomputers was developed by:",
+    "opts": {
+      "A": "ISRO",
+      "B": "C-DAC",
+      "C": "NIC",
+      "D": "DRDO"
+    },
+    "ans": "B",
+    "exp": "C-DAC, Pune",
+    "conf": "high",
+    "note": "",
+    "sub": "Classification of Computers"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 8,
+    "section": "Introduction to Computing",
+    "q": "A computer designed to process large volumes of transactions for banks and railways, supporting thousands of concurrent users, is best classified as a:",
+    "opts": {
+      "A": "Workstation",
+      "B": "Embedded system",
+      "C": "Mainframe",
+      "D": "Microcomputer"
+    },
+    "ans": "C",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Classification of Computers"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 9,
+    "section": "Introduction to Computing",
+    "q": "The Internet of Things (IoT) essentially refers to:",
+    "opts": {
+      "A": "A faster version of the internet",
+      "B": "Physical objects embedded with sensors that collect and exchange data over a network",
+      "C": "A protocol replacing TCP/IP",
+      "D": "A type of cloud storage"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Emerging Technologies: Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Big Data, Cloud Computing and Edge Computing"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 10,
+    "section": "Introduction to Computing",
+    "q": "The defining property of a blockchain is that it is:",
+    "opts": {
+      "A": "A centralised editable database",
+      "B": "A distributed, append-only ledger where recorded blocks are cryptographically linked and practically immutable",
+      "C": "A high-speed network protocol",
+      "D": "A form of RAM"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Emerging Technologies: Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Big Data, Cloud Computing and Edge Computing"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 11,
+    "section": "Introduction to Computing",
+    "q": "Edge computing primarily aims to:",
+    "opts": {
+      "A": "Store all data in a single central data centre",
+      "B": "Process data close to the source to reduce latency and bandwidth use",
+      "C": "Encrypt all network traffic",
+      "D": "Replace the operating system"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Emerging Technologies: Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Big Data, Cloud Computing and Edge Computing"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 12,
+    "section": "Introduction to Computing",
+    "q": "In the cloud service model where the provider manages the hardware, OS and runtime while the customer only deploys applications, the model is:",
+    "opts": {
+      "A": "IaaS",
+      "B": "PaaS",
+      "C": "SaaS",
+      "D": "DaaS"
+    },
+    "ans": "B",
+    "exp": "PaaS",
+    "conf": "high",
+    "note": "",
+    "sub": "Emerging Technologies: Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Big Data, Cloud Computing and Edge Computing"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 13,
+    "section": "Introduction to Computing",
+    "q": "Gmail, Office 365 and Google Docs are examples of:",
+    "opts": {
+      "A": "IaaS",
+      "B": "PaaS",
+      "C": "SaaS",
+      "D": "On-premises software"
+    },
+    "ans": "C",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Emerging Technologies: Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Big Data, Cloud Computing and Edge Computing"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 14,
+    "section": "Introduction to Computing",
+    "q": "Which is NOT one of the commonly cited \"V\"s of Big Data?",
+    "opts": {
+      "A": "Volume",
+      "B": "Velocity",
+      "C": "Variety",
+      "D": "Virtualization"
+    },
+    "ans": "D",
+    "exp": "the Vs are Volume, Velocity, Variety, Veracity, Value",
+    "conf": "high",
+    "note": "",
+    "sub": "Emerging Technologies: Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Big Data, Cloud Computing and Edge Computing"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 15,
+    "section": "Introduction to Computing",
+    "q": "Green computing is mainly concerned with:",
+    "opts": {
+      "A": "Increasing processor clock speed",
+      "B": "Energy-efficient use of IT resources and responsible e-waste disposal",
+      "C": "Using green-coloured hardware",
+      "D": "Improving graphics quality"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Green Computing and Sustainable IT"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 16,
+    "section": "Introduction to Computing",
+    "q": "Paying an electricity bill online through a state portal is an example of which e-Governance interaction?",
+    "opts": {
+      "A": "G2G",
+      "B": "G2B",
+      "C": "G2C",
+      "D": "G2E"
+    },
+    "ans": "C",
+    "exp": "Government to Citizen",
+    "conf": "high",
+    "note": "",
+    "sub": "Digital Transformation and e-Governance"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 17,
+    "section": "Introduction to Computing",
+    "q": "Digital transformation in government primarily means:",
+    "opts": {
+      "A": "Buying more computers",
+      "B": "Redesigning processes and service delivery around digital technology",
+      "C": "Scanning old files only",
+      "D": "Creating a website"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Digital Transformation and e-Governance"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 18,
+    "section": "Computer Architecture",
+    "q": "The two principal units of the Central Processing Unit are:",
+    "opts": {
+      "A": "ALU and Control Unit",
+      "B": "RAM and ROM",
+      "C": "Input and Output units",
+      "D": "Cache and Registers"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "CPU Architecture and Instruction Cycle"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 19,
+    "section": "Computer Architecture",
+    "q": "The correct sequence of the basic instruction cycle is:",
+    "opts": {
+      "A": "Decode – Fetch – Execute",
+      "B": "Fetch – Decode – Execute – Store",
+      "C": "Execute – Fetch – Decode",
+      "D": "Store – Execute – Fetch"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "CPU Architecture and Instruction Cycle"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 20,
+    "section": "Computer Architecture",
+    "q": "The Program Counter (PC) holds:",
+    "opts": {
+      "A": "The result of the last calculation",
+      "B": "The address of the next instruction to be executed",
+      "C": "The data being processed",
+      "D": "The operating system kernel"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "CPU Architecture and Instruction Cycle"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 21,
+    "section": "Computer Architecture",
+    "q": "The register that holds the address of the memory location to be accessed is:",
+    "opts": {
+      "A": "MDR",
+      "B": "MAR",
+      "C": "Accumulator",
+      "D": "Instruction Register"
+    },
+    "ans": "B",
+    "exp": "Memory Address Register",
+    "conf": "high",
+    "note": "",
+    "sub": "CPU Architecture and Instruction Cycle"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 22,
+    "section": "Computer Architecture",
+    "q": "The system bus is made up of:",
+    "opts": {
+      "A": "Address bus, data bus and control bus",
+      "B": "Serial and parallel bus only",
+      "C": "Input and output bus",
+      "D": "Cache bus and memory bus"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "System Bus and Expansion Slots"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 23,
+    "section": "Computer Architecture",
+    "q": "A key advantage of UEFI over legacy BIOS is:",
+    "opts": {
+      "A": "It runs only in 16-bit mode",
+      "B": "It supports GPT disks larger than 2 TB, Secure Boot and faster startup",
+      "C": "It removes the need for an operating system",
+      "D": "It stores user files"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "BIOS/UEFI Firmware"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 24,
+    "section": "Computer Architecture",
+    "q": "Which slot is the modern standard for connecting graphics cards and NVMe expansion cards?",
+    "opts": {
+      "A": "ISA",
+      "B": "AGP",
+      "C": "PCI Express",
+      "D": "Serial port"
+    },
+    "ans": "C",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "System Bus and Expansion Slots"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 25,
+    "section": "Computer Architecture",
+    "q": "The chipset on a motherboard primarily:",
+    "opts": {
+      "A": "Executes application programs",
+      "B": "Controls data flow between the processor, memory and peripherals",
+      "C": "Provides power supply",
+      "D": "Stores the operating system"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Motherboard and Chipset"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 26,
+    "section": "Processor and Memory",
+    "q": "Cache memory is placed:",
+    "opts": {
+      "A": "Between the CPU and main memory",
+      "B": "Between the hard disk and printer",
+      "C": "Inside the power supply",
+      "D": "On the network card"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Cache Memory"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 27,
+    "section": "Processor and Memory",
+    "q": "Which cache level is normally the fastest and smallest?",
+    "opts": {
+      "A": "L3",
+      "B": "L2",
+      "C": "L1",
+      "D": "L4"
+    },
+    "ans": "C",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Cache Memory"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 28,
+    "section": "Processor and Memory",
+    "q": "Hyper-threading allows:",
+    "opts": {
+      "A": "Two physical processors to merge",
+      "B": "A single physical core to appear as two logical processors to the OS",
+      "C": "The cache to double in size",
+      "D": "Clock speed to double"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Multi-core and Multi-threaded Processors"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 29,
+    "section": "Processor and Memory",
+    "q": "Virtual memory works by:",
+    "opts": {
+      "A": "Adding physical RAM automatically",
+      "B": "Using a portion of secondary storage as an extension of main memory through paging",
+      "C": "Compressing the CPU cache",
+      "D": "Increasing the bus width"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "RAM, ROM and Virtual Memory"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 30,
+    "section": "Processor and Memory",
+    "q": "Excessive page swapping that leaves the CPU doing more paging than useful work is called:",
+    "opts": {
+      "A": "Fragmentation",
+      "B": "Thrashing",
+      "C": "Spooling",
+      "D": "Buffering"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "RAM, ROM and Virtual Memory"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 31,
+    "section": "Processor and Memory",
+    "q": "Correct order of the memory hierarchy from fastest to slowest:",
+    "opts": {
+      "A": "Registers – Cache – RAM – SSD – HDD",
+      "B": "RAM – Registers – Cache – HDD",
+      "C": "Cache – Registers – HDD – RAM",
+      "D": "HDD – SSD – RAM – Cache"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Memory Hierarchy"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 32,
+    "section": "Processor and Memory",
+    "q": "Which memory is non-volatile?",
+    "opts": {
+      "A": "SRAM",
+      "B": "DRAM",
+      "C": "ROM",
+      "D": "Cache"
+    },
+    "ans": "C",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "RAM, ROM and Virtual Memory"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 33,
+    "section": "Processor and Memory",
+    "q": "The performance unit normally used for scientific and supercomputing workloads is:",
+    "opts": {
+      "A": "DPI",
+      "B": "FLOPS",
+      "C": "BPS",
+      "D": "Hertz per byte"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Performance Measurement"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 34,
+    "section": "Processor and Memory",
+    "q": "A multi-core processor improves performance mainly by:",
+    "opts": {
+      "A": "Increasing clock speed of a single core",
+      "B": "Executing multiple threads in parallel on separate cores",
+      "C": "Enlarging the hard disk",
+      "D": "Reducing the number of registers"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Multi-core and Multi-threaded Processors"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 35,
+    "section": "Storage Technologies",
+    "q": "NVMe SSDs communicate with the system over which interface?",
+    "opts": {
+      "A": "SATA",
+      "B": "PCI Express",
+      "C": "USB 2.0",
+      "D": "IDE"
+    },
+    "ans": "B",
+    "exp": "NVMe rides on PCIe lanes, which is why it is far faster than SATA SSD",
+    "conf": "high",
+    "note": "",
+    "sub": "HDD, SSD and NVMe Storage"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 36,
+    "section": "Storage Technologies",
+    "q": "The main advantage of an SSD over an HDD is:",
+    "opts": {
+      "A": "Lower cost per GB",
+      "B": "No moving parts, giving faster access and better shock resistance",
+      "C": "Higher maximum capacity",
+      "D": "Longer cables"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "HDD, SSD and NVMe Storage"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 37,
+    "section": "Storage Technologies",
+    "q": "RAID 1 provides:",
+    "opts": {
+      "A": "Striping without redundancy",
+      "B": "Mirroring of data on two drives",
+      "C": "Parity across three drives",
+      "D": "Compression"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "HDD, SSD and NVMe Storage"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 38,
+    "section": "Storage Technologies",
+    "q": "The minimum number of disks required for RAID 5 is:",
+    "opts": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "5"
+    },
+    "ans": "C",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "HDD, SSD and NVMe Storage"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 39,
+    "section": "Storage Technologies",
+    "q": "The key difference between NAS and SAN is:",
+    "opts": {
+      "A": "NAS provides file-level access, SAN provides block-level access",
+      "B": "NAS is faster in all cases",
+      "C": "SAN uses only USB",
+      "D": "NAS cannot be shared"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Network Attached Storage (NAS)"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 40,
+    "section": "Storage Technologies",
+    "q": "An incremental backup copies:",
+    "opts": {
+      "A": "All data every time",
+      "B": "Only data changed since the last backup of any type",
+      "C": "Only data changed since the last full backup",
+      "D": "Only system files"
+    },
+    "ans": "B",
+    "exp": "differential = since last *full* backup",
+    "conf": "high",
+    "note": "",
+    "sub": "Backup Concepts"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 41,
+    "section": "Storage Technologies",
+    "q": "RPO (Recovery Point Objective) defines:",
+    "opts": {
+      "A": "Maximum acceptable downtime",
+      "B": "Maximum acceptable data loss measured in time",
+      "C": "The cost of recovery",
+      "D": "The number of backup tapes"
+    },
+    "ans": "B",
+    "exp": "RTO = downtime, RPO = data loss",
+    "conf": "high",
+    "note": "",
+    "sub": "Disaster Recovery Concepts"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 42,
+    "section": "Storage Technologies",
+    "q": "The \"3-2-1 rule\" of backup means:",
+    "opts": {
+      "A": "3 copies, on 2 different media, with 1 copy off-site",
+      "B": "3 servers, 2 admins, 1 password",
+      "C": "3 backups daily for 2 weeks in 1 folder",
+      "D": "3 GB, 2 disks, 1 tape"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Backup Concepts"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 43,
+    "section": "Storage Technologies",
+    "q": "Approximate capacity of a single-layer Blu-ray disc:",
+    "opts": {
+      "A": "700 MB",
+      "B": "4.7 GB",
+      "C": "8.5 GB",
+      "D": "25 GB"
+    },
+    "ans": "D",
+    "exp": "CD 700 MB, DVD 4.7 GB, dual-layer DVD 8.5 GB, BD 25 GB",
+    "conf": "high",
+    "note": "",
+    "sub": "Optical and Flash Storage"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 44,
+    "section": "Input and Output Devices",
+    "q": "Which technology is used to read the code line printed at the bottom of bank cheques?",
+    "opts": {
+      "A": "OMR",
+      "B": "OCR",
+      "C": "MICR",
+      "D": "Barcode"
+    },
+    "ans": "C",
+    "exp": "Magnetic Ink Character Recognition",
+    "conf": "high",
+    "note": "",
+    "sub": "Scanners"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 45,
+    "section": "Input and Output Devices",
+    "q": "OMR is most commonly used for:",
+    "opts": {
+      "A": "Reading handwriting",
+      "B": "Reading darkened bubbles on answer sheets and survey forms",
+      "C": "Reading magnetic strips",
+      "D": "Reading fingerprints"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Scanners"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 46,
+    "section": "Input and Output Devices",
+    "q": "Which device serves as both input and output?",
+    "opts": {
+      "A": "Scanner",
+      "B": "Plotter",
+      "C": "Touchscreen monitor",
+      "D": "Light pen"
+    },
+    "ans": "C",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Modern Input Devices"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 47,
+    "section": "Input and Output Devices",
+    "q": "A fingerprint scanner used for Aadhaar authentication is classified as:",
+    "opts": {
+      "A": "Output device",
+      "B": "Biometric input device",
+      "C": "Storage device",
+      "D": "Processing device"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Biometric Devices"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 48,
+    "section": "Input and Output Devices",
+    "q": "A contactless smart card reader typically works using:",
+    "opts": {
+      "A": "Infrared line-of-sight only",
+      "B": "RFID/NFC radio communication",
+      "C": "Magnetic tape",
+      "D": "Serial cable"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Smart Card Readers"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 49,
+    "section": "Input and Output Devices",
+    "q": "Printer output quality is generally expressed in:",
+    "opts": {
+      "A": "PPI",
+      "B": "DPI",
+      "C": "Hz",
+      "D": "MB/s"
+    },
+    "ans": "B",
+    "exp": "DPI for print, PPI for displays",
+    "conf": "high",
+    "note": "",
+    "sub": "Printers and Multifunction Devices"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 50,
+    "section": "Input and Output Devices",
+    "q": "Which of the following is an impact printer?",
+    "opts": {
+      "A": "Laser printer",
+      "B": "Inkjet printer",
+      "C": "Dot-matrix printer",
+      "D": "Thermal printer"
+    },
+    "ans": "C",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Printers and Multifunction Devices"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 51,
+    "section": "Computer Software, Programming and IT & Society",
+    "q": "Which of these is system software?",
+    "opts": {
+      "A": "MS Excel",
+      "B": "Device driver",
+      "C": "Tally",
+      "D": "VLC Player"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "System Software"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 52,
+    "section": "Computer Software, Programming and IT & Society",
+    "q": "Software distributed with source code that may be modified and redistributed under a copyleft licence such as GPL is:",
+    "opts": {
+      "A": "Freeware",
+      "B": "Shareware",
+      "C": "Free and open source software",
+      "D": "Proprietary software"
+    },
+    "ans": "C",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Open Source and Proprietary Software"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 53,
+    "section": "Computer Software, Programming and IT & Society",
+    "q": "In the Waterfall model, the phase immediately following \"Requirement Analysis\" is:",
+    "opts": {
+      "A": "Testing",
+      "B": "Design",
+      "C": "Deployment",
+      "D": "Maintenance"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Software Development Life Cycle (SDLC)"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 54,
+    "section": "Computer Software, Programming and IT & Society",
+    "q": "The main characteristic of the Agile model is:",
+    "opts": {
+      "A": "A single long development cycle",
+      "B": "Iterative and incremental delivery with continuous feedback",
+      "C": "No documentation at all",
+      "D": "Testing only after deployment"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Software Development Life Cycle (SDLC)"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 55,
+    "section": "Computer Software, Programming and IT & Society",
+    "q": "A Type-1 hypervisor is one that:",
+    "opts": {
+      "A": "Runs directly on the physical hardware",
+      "B": "Runs as an application on a host OS",
+      "C": "Runs only in the cloud",
+      "D": "Requires containers"
+    },
+    "ans": "A",
+    "exp": "bare-metal, e.g. VMware ESXi, Hyper-V",
+    "conf": "high",
+    "note": "",
+    "sub": "Virtualization and Containerization (Concept)"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 56,
+    "section": "Computer Software, Programming and IT & Society",
+    "q": "Compared with virtual machines, containers:",
+    "opts": {
+      "A": "Each include a full guest operating system",
+      "B": "Share the host OS kernel and are therefore lighter",
+      "C": "Cannot be moved between machines",
+      "D": "Need separate physical servers"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Virtualization and Containerization (Concept)"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 57,
+    "section": "Computer Software, Programming and IT & Society",
+    "q": "A compiler differs from an interpreter in that a compiler:",
+    "opts": {
+      "A": "Translates and executes one line at a time",
+      "B": "Translates the whole program into machine code before execution",
+      "C": "Cannot detect syntax errors",
+      "D": "Works only with assembly language"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Programming Languages"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 58,
+    "section": "Computer Software, Programming and IT & Society",
+    "q": "Which is NOT a core concept of object-oriented programming?",
+    "opts": {
+      "A": "Encapsulation",
+      "B": "Inheritance",
+      "C": "Polymorphism",
+      "D": "Compilation"
+    },
+    "ans": "D",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Object-Oriented Programming Concepts"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 59,
+    "section": "Computer Software, Programming and IT & Society",
+    "q": "Hiding internal implementation and exposing only necessary features is:",
+    "opts": {
+      "A": "Inheritance",
+      "B": "Abstraction",
+      "C": "Recursion",
+      "D": "Overloading"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Object-Oriented Programming Concepts"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 60,
+    "section": "Computer Software, Programming and IT & Society",
+    "q": "An API is best described as:",
+    "opts": {
+      "A": "A programming language",
+      "B": "A defined set of rules allowing one software component to use the services of another",
+      "C": "A type of database",
+      "D": "A network cable standard"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "APIs and Software Integration (Concept)"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 61,
+    "section": "Computer Software, Programming and IT & Society",
+    "q": "The Digital India programme was launched in:",
+    "opts": {
+      "A": "2010",
+      "B": "2014",
+      "C": "2015",
+      "D": "2019"
+    },
+    "ans": "C",
+    "exp": "1 July 2015",
+    "conf": "high",
+    "note": "",
+    "sub": "Digital India and e-Governance"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 62,
+    "section": "Computer Software, Programming and IT & Society",
+    "q": "India's law dedicated to the protection of personal digital data is the:",
+    "opts": {
+      "A": "Information Technology Act, 2000",
+      "B": "Digital Personal Data Protection Act, 2023",
+      "C": "RTI Act, 2005",
+      "D": "Aadhaar Act, 2016"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Data Privacy and Personal Data Protection"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 63,
+    "section": "Computer Software, Programming and IT & Society",
+    "q": "Under the DPDP Act, the individual to whom the personal data relates is called the:",
+    "opts": {
+      "A": "Data Fiduciary",
+      "B": "Data Processor",
+      "C": "Data Principal",
+      "D": "Consent Manager"
+    },
+    "ans": "C",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Data Privacy and Personal Data Protection"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 64,
+    "section": "Computer Software, Programming and IT & Society",
+    "q": "Legal recognition to electronic records and digital signatures in India was first granted by:",
+    "opts": {
+      "A": "IT Act, 2000",
+      "B": "Companies Act, 2013",
+      "C": "Evidence Act, 1872",
+      "D": "DPDP Act, 2023"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Electronic Records management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 65,
+    "section": "Computer Software, Programming and IT & Society",
+    "q": "Alt text on images, screen-reader compatibility and keyboard navigation relate to:",
+    "opts": {
+      "A": "Search engine optimisation",
+      "B": "Digital accessibility",
+      "C": "Data compression",
+      "D": "Virtualisation"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Digital Inclusion and Accessibility"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 1,
+    "section": "",
+    "q": "Which is NOT a function of an operating system?",
+    "opts": {
+      "A": "Process management",
+      "B": "Memory management",
+      "C": "File management",
+      "D": "Compiling source code into machine code"
+    },
+    "ans": "D",
+    "exp": "compiling is done by a compiler, not the OS",
+    "conf": "high",
+    "note": "",
+    "sub": "Types and Functions of Operating Systems"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 2,
+    "section": "",
+    "q": "An operating system that guarantees a response within a strict time limit, used in industrial control, is a:",
+    "opts": {
+      "A": "Batch OS",
+      "B": "Time-sharing OS",
+      "C": "Real-time OS",
+      "D": "Distributed OS"
+    },
+    "ans": "C",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Types and Functions of Operating Systems"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 3,
+    "section": "",
+    "q": "A process that is loaded in memory and waiting for CPU allocation is in the ______ state.",
+    "opts": {
+      "A": "New",
+      "B": "Ready",
+      "C": "Running",
+      "D": "Terminated"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Process Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 4,
+    "section": "",
+    "q": "Which CPU scheduling algorithm allocates a fixed time quantum to each process in turn?",
+    "opts": {
+      "A": "FCFS",
+      "B": "SJF",
+      "C": "Round Robin",
+      "D": "Priority (non-preemptive)"
+    },
+    "ans": "C",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Process Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 5,
+    "section": "",
+    "q": "Which is NOT one of the four necessary conditions for deadlock?",
+    "opts": {
+      "A": "Mutual exclusion",
+      "B": "Hold and wait",
+      "C": "Circular wait",
+      "D": "Time-sharing"
+    },
+    "ans": "D",
+    "exp": "the fourth is \"no preemption\"",
+    "conf": "high",
+    "note": "",
+    "sub": "Process Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 6,
+    "section": "",
+    "q": "A page fault occurs when:",
+    "opts": {
+      "A": "A page is corrupted on disk",
+      "B": "The required page is not present in main memory",
+      "C": "The printer runs out of paper",
+      "D": "The CPU cache is full"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Memory Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 7,
+    "section": "",
+    "q": "The maximum size of a single file on a FAT32 volume is:",
+    "opts": {
+      "A": "2 GB",
+      "B": "4 GB",
+      "C": "16 GB",
+      "D": "Unlimited"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "File Systems"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 8,
+    "section": "",
+    "q": "Which file system supports file-level permissions, encryption (EFS), journaling and compression in Windows?",
+    "opts": {
+      "A": "FAT16",
+      "B": "FAT32",
+      "C": "NTFS",
+      "D": "exFAT"
+    },
+    "ans": "C",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "File Systems"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 9,
+    "section": "",
+    "q": "The default file system of most Linux distributions today is:",
+    "opts": {
+      "A": "NTFS",
+      "B": "ext4",
+      "C": "HFS+",
+      "D": "FAT32"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Linux File System"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 10,
+    "section": "",
+    "q": "In Windows, the feature that prompts for approval before allowing changes requiring administrator rights is:",
+    "opts": {
+      "A": "BitLocker",
+      "B": "User Account Control (UAC)",
+      "C": "Windows Defender",
+      "D": "Group Policy"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Windows Security"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 11,
+    "section": "",
+    "q": "BitLocker in Windows provides:",
+    "opts": {
+      "A": "Antivirus scanning",
+      "B": "Full-disk encryption",
+      "C": "Disk defragmentation",
+      "D": "Backup scheduling"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Encryption"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 12,
+    "section": "",
+    "q": "Which Windows tool would you use to view application, security and system logs while troubleshooting?",
+    "opts": {
+      "A": "Task Manager",
+      "B": "Event Viewer",
+      "C": "Disk Management",
+      "D": "Device Manager"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Event Viewer"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 13,
+    "section": "",
+    "q": "The command to open Device Manager from the Run box is:",
+    "opts": {
+      "A": "diskmgmt.msc",
+      "B": "devmgmt.msc",
+      "C": "services.msc",
+      "D": "perfmon"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Device Manager"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 14,
+    "section": "",
+    "q": "To create, shrink, extend or format partitions in Windows you use:",
+    "opts": {
+      "A": "Disk Cleanup",
+      "B": "Disk Management",
+      "C": "Task Scheduler",
+      "D": "Registry Editor"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Disk Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 15,
+    "section": "",
+    "q": "The Windows Registry is edited using:",
+    "opts": {
+      "A": "msconfig",
+      "B": "regedit",
+      "C": "cmd",
+      "D": "notepad"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Registry"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 16,
+    "section": "",
+    "q": "Which is a top-level Registry hive?",
+    "opts": {
+      "A": "HKEY_LOCAL_MACHINE",
+      "B": "C:\\Windows\\System32",
+      "C": "/etc/passwd",
+      "D": "SYSVOL"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Registry"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 17,
+    "section": "",
+    "q": "The command `sfc /scannow` is used to:",
+    "opts": {
+      "A": "Scan for viruses",
+      "B": "Check and repair protected Windows system files",
+      "C": "Defragment the disk",
+      "D": "Reset the network adapter"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Windows Utilities"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 18,
+    "section": "",
+    "q": "In Linux, the top of the file system hierarchy is denoted by:",
+    "opts": {
+      "A": "C:\\",
+      "B": "/",
+      "C": "/home",
+      "D": "~"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Linux File System"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 19,
+    "section": "",
+    "q": "Which Linux directory conventionally stores system-wide configuration files?",
+    "opts": {
+      "A": "/bin",
+      "B": "/etc",
+      "C": "/var",
+      "D": "/dev"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Linux File System"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 20,
+    "section": "",
+    "q": "`chmod 755 file.sh` grants:",
+    "opts": {
+      "A": "Read/write/execute to owner; read/execute to group and others",
+      "B": "Full permission to everyone",
+      "C": "No permission to anyone",
+      "D": "Read-only to owner"
+    },
+    "ans": "A",
+    "exp": "7=rwx owner, 5=r-x group, 5=r-x others",
+    "conf": "high",
+    "note": "",
+    "sub": "Basic Linux Commands"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 21,
+    "section": "",
+    "q": "The Linux command to display the current working directory is:",
+    "opts": {
+      "A": "ls",
+      "B": "cd",
+      "C": "pwd",
+      "D": "dir"
+    },
+    "ans": "C",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Basic Linux Commands"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 22,
+    "section": "",
+    "q": "In PowerShell, cmdlets follow which naming convention?",
+    "opts": {
+      "A": "Noun-Verb",
+      "B": "Verb-Noun",
+      "C": "Object.Method",
+      "D": "All uppercase"
+    },
+    "ans": "B",
+    "exp": "e.g. Get-Service, Set-Location",
+    "conf": "high",
+    "note": "",
+    "sub": "PowerShell Fundamentals"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 23,
+    "section": "",
+    "q": "Which PowerShell cmdlet lists running processes?",
+    "opts": {
+      "A": "Get-Service",
+      "B": "Get-Process",
+      "C": "Show-Tasks",
+      "D": "List-Apps"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "PowerShell Fundamentals"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 24,
+    "section": "",
+    "q": "A batch file typically begins with `@echo off` in order to:",
+    "opts": {
+      "A": "Disable the file",
+      "B": "Prevent commands themselves from being displayed while running",
+      "C": "Turn off the monitor",
+      "D": "Clear the disk"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Basic Batch Files"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "III",
+    "no": 1,
+    "section": "",
+    "q": "The default file extension of a Word document is:",
+    "opts": {
+      "A": ".doc",
+      "B": ".docx",
+      "C": ".dotx",
+      "D": ".rtf"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Document Creation"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "III",
+    "no": 2,
+    "section": "",
+    "q": "A Word template file carries the extension:",
+    "opts": {
+      "A": ".docx",
+      "B": ".dotx",
+      "C": ".xltx",
+      "D": ".potx"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Templates"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "III",
+    "no": 3,
+    "section": "",
+    "q": "An automatic Table of Contents in Word is generated from:",
+    "opts": {
+      "A": "Bold text",
+      "B": "Applied heading styles",
+      "C": "Page numbers",
+      "D": "Bookmarks only"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Table of Contents"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "III",
+    "no": 4,
+    "section": "",
+    "q": "To start a new page you press:",
+    "opts": {
+      "A": "Ctrl + Enter",
+      "B": "Shift + Enter",
+      "C": "Alt + Enter",
+      "D": "Ctrl + Shift + N"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Page Layout"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "III",
+    "no": 5,
+    "section": "",
+    "q": "To change one page in a document from portrait to landscape without affecting others, you must insert a:",
+    "opts": {
+      "A": "Page break",
+      "B": "Column break",
+      "C": "Section break",
+      "D": "Text wrap break"
+    },
+    "ans": "C",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Page Layout"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "III",
+    "no": 6,
+    "section": "",
+    "q": "Mail Merge requires which two elements?",
+    "opts": {
+      "A": "Main document and data source",
+      "B": "Header and footer",
+      "C": "Template and macro",
+      "D": "Style and theme"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Mail Merge"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "III",
+    "no": 7,
+    "section": "",
+    "q": "Which is NOT a valid Mail Merge output?",
+    "opts": {
+      "A": "Letters",
+      "B": "Envelopes",
+      "C": "Labels",
+      "D": "Pivot tables"
+    },
+    "ans": "D",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Mail Merge"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "III",
+    "no": 8,
+    "section": "",
+    "q": "Track Changes is used to:",
+    "opts": {
+      "A": "Record edits made by reviewers so they can be accepted or rejected",
+      "B": "Track file size",
+      "C": "Lock the document permanently",
+      "D": "Count words"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Track Changes"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "III",
+    "no": 9,
+    "section": "",
+    "q": "The difference between a footnote and an endnote is that a footnote appears:",
+    "opts": {
+      "A": "At the end of the document",
+      "B": "At the bottom of the same page",
+      "C": "In the margin",
+      "D": "In the header"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "References"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "III",
+    "no": 10,
+    "section": "",
+    "q": "The Format Painter is used to:",
+    "opts": {
+      "A": "Copy formatting from one selection and apply it to another",
+      "B": "Draw shapes",
+      "C": "Insert images",
+      "D": "Change page colour"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Styles and Themes"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "III",
+    "no": 11,
+    "section": "",
+    "q": "Styles in Word are advantageous mainly because:",
+    "opts": {
+      "A": "They reduce file size",
+      "B": "They allow consistent formatting to be applied and updated document-wide at once",
+      "C": "They encrypt the document",
+      "D": "They enable printing"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Styles and Themes"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "III",
+    "no": 12,
+    "section": "",
+    "q": "SmartArt in Word is used to:",
+    "opts": {
+      "A": "Insert automatically formatted diagrams such as processes, hierarchies and cycles",
+      "B": "Correct grammar",
+      "C": "Compress images",
+      "D": "Create macros"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "SmartArt"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "III",
+    "no": 13,
+    "section": "",
+    "q": "To repeat a table's heading row automatically on every page, you use:",
+    "opts": {
+      "A": "Repeat Header Rows",
+      "B": "Merge Cells",
+      "C": "Split Table",
+      "D": "AutoFit"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Tables"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "III",
+    "no": 14,
+    "section": "",
+    "q": "The Citations & Bibliography group allows you to select styles such as:",
+    "opts": {
+      "A": "APA, MLA, Chicago",
+      "B": "Bold, Italic, Underline",
+      "C": "A4, Letter, Legal",
+      "D": "PDF, XPS, DOCX"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Citations and Bibliography"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "III",
+    "no": 15,
+    "section": "",
+    "q": "For accessibility, images inserted into a document should be given:",
+    "opts": {
+      "A": "A border",
+      "B": "Alternative text",
+      "C": "A watermark",
+      "D": "A hyperlink"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Accessibility Features"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "III",
+    "no": 16,
+    "section": "",
+    "q": "Real-time co-authoring of the same Word file by multiple users is enabled by:",
+    "opts": {
+      "A": "Saving to OneDrive/SharePoint in Microsoft 365",
+      "B": "Emailing the file as an attachment",
+      "C": "Printing the file",
+      "D": "Using Compatibility Mode"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Microsoft 365 Collaboration"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "III",
+    "no": 17,
+    "section": "",
+    "q": "In NIC eOffice, an electronic file created and moved for approval is handled in which module?",
+    "opts": {
+      "A": "eFile",
+      "B": "eLeave",
+      "C": "eTour",
+      "D": "KMS"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Integration of e-Office"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "III",
+    "no": 18,
+    "section": "",
+    "q": "Microsoft Copilot in Word is best described as:",
+    "opts": {
+      "A": "A macro recorder",
+      "B": "An AI assistant that can draft, summarise and rewrite document content from prompts",
+      "C": "A printer driver",
+      "D": "A spell checker only"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "AI-assisted Document Creation (Microsoft Copilot - Concept)"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 1,
+    "section": "",
+    "q": "In Excel, `$A$1` is an example of:",
+    "opts": {
+      "A": "Relative reference",
+      "B": "Absolute reference",
+      "C": "Mixed reference",
+      "D": "3-D reference"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Formulae and Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 2,
+    "section": "",
+    "q": "Which key toggles between relative and absolute reference while editing a formula?",
+    "opts": {
+      "A": "F2",
+      "B": "F4",
+      "C": "F9",
+      "D": "F11"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Formulae and Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 3,
+    "section": "",
+    "q": "The formula `=VLOOKUP(D2,A2:B50,2,FALSE)` returns:",
+    "opts": {
+      "A": "An approximate match from column A",
+      "B": "An exact match from the second column of the range",
+      "C": "The sum of column B",
+      "D": "An error always"
+    },
+    "ans": "B",
+    "exp": "FALSE = exact match",
+    "conf": "high",
+    "note": "",
+    "sub": "Lookup Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 4,
+    "section": "",
+    "q": "A significant limitation of VLOOKUP is that:",
+    "opts": {
+      "A": "It cannot use exact match",
+      "B": "It cannot look to the left of the lookup column",
+      "C": "It works only with numbers",
+      "D": "It cannot be copied"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Lookup Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 5,
+    "section": "",
+    "q": "Which function pair is the classic alternative to VLOOKUP that can look leftwards?",
+    "opts": {
+      "A": "INDEX and MATCH",
+      "B": "SUM and IF",
+      "C": "LEFT and RIGHT",
+      "D": "ROW and COLUMN"
+    },
+    "ans": "A",
+    "exp": "or XLOOKUP in newer versions",
+    "conf": "high",
+    "note": "",
+    "sub": "Lookup Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 6,
+    "section": "",
+    "q": "`=COUNTA(A1:A10)` counts:",
+    "opts": {
+      "A": "Only numeric cells",
+      "B": "All non-empty cells",
+      "C": "Only blank cells",
+      "D": "Only text cells"
+    },
+    "ans": "B",
+    "exp": "COUNT counts only numbers",
+    "conf": "high",
+    "note": "",
+    "sub": "Formulae and Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 7,
+    "section": "",
+    "q": "To add values in a range only where a condition is met, use:",
+    "opts": {
+      "A": "SUM",
+      "B": "SUMIF",
+      "C": "COUNT",
+      "D": "AVERAGE"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Formulae and Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 8,
+    "section": "",
+    "q": "The function that returns the middle value of a sorted set of numbers is:",
+    "opts": {
+      "A": "MODE",
+      "B": "MEDIAN",
+      "C": "AVERAGE",
+      "D": "STDEV"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Statistical Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 9,
+    "section": "",
+    "q": "Which function calculates the periodic payment for a loan?",
+    "opts": {
+      "A": "FV",
+      "B": "PMT",
+      "C": "NPV",
+      "D": "IRR"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Financial Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 10,
+    "section": "",
+    "q": "NPV and IRR belong to which category of Excel functions?",
+    "opts": {
+      "A": "Text",
+      "B": "Logical",
+      "C": "Financial",
+      "D": "Statistical"
+    },
+    "ans": "C",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Financial Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 11,
+    "section": "",
+    "q": "The error `#DIV/0!` indicates:",
+    "opts": {
+      "A": "An invalid cell reference",
+      "B": "Division by zero or an empty cell",
+      "C": "A misspelt function name",
+      "D": "Wrong data type"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Formulae and Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 12,
+    "section": "",
+    "q": "The error `#REF!` usually appears when:",
+    "opts": {
+      "A": "A referenced cell has been deleted",
+      "B": "Text is used in arithmetic",
+      "C": "A lookup value is not found",
+      "D": "The formula is too long"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Formulae and Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 13,
+    "section": "",
+    "q": "`#N/A` most commonly results from:",
+    "opts": {
+      "A": "A lookup function failing to find the value",
+      "B": "Dividing by zero",
+      "C": "A circular reference",
+      "D": "A protected sheet"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Formulae and Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 14,
+    "section": "",
+    "q": "To suppress an error and show a friendly message instead, wrap the formula in:",
+    "opts": {
+      "A": "IFERROR",
+      "B": "ISBLANK",
+      "C": "TRIM",
+      "D": "EXACT"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Formulae and Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 15,
+    "section": "",
+    "q": "Data Validation is used to:",
+    "opts": {
+      "A": "Restrict what can be entered in a cell, e.g. a drop-down list",
+      "B": "Check spelling",
+      "C": "Encrypt the file",
+      "D": "Print a range"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Data Validation"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 16,
+    "section": "",
+    "q": "Conditional Formatting allows you to:",
+    "opts": {
+      "A": "Change cell appearance automatically based on cell values or rules",
+      "B": "Convert formats to PDF",
+      "C": "Sort data",
+      "D": "Freeze rows"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Conditional Formatting"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 17,
+    "section": "",
+    "q": "A Pivot Table field dropped into the \"Values\" area is by default:",
+    "opts": {
+      "A": "Grouped",
+      "B": "Aggregated (summed or counted)",
+      "C": "Sorted alphabetically",
+      "D": "Hidden"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Pivot Tables"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 18,
+    "section": "",
+    "q": "A Pivot Table does NOT update automatically when the source data changes; you must:",
+    "opts": {
+      "A": "Refresh it",
+      "B": "Delete and rebuild it always",
+      "C": "Convert to CSV",
+      "D": "Restart Excel"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Pivot Tables"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 19,
+    "section": "",
+    "q": "A Slicer is used to:",
+    "opts": {
+      "A": "Cut cell contents",
+      "B": "Filter a Pivot Table or table visually with buttons",
+      "C": "Split a worksheet",
+      "D": "Merge cells"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Pivot Tables"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 20,
+    "section": "",
+    "q": "Goal Seek can adjust:",
+    "opts": {
+      "A": "Multiple input cells at once",
+      "B": "Exactly one input cell to reach a target result",
+      "C": "Only the formula bar",
+      "D": "Chart formatting"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Goal Seek"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 21,
+    "section": "",
+    "q": "To evaluate several combinations of inputs and save them by name, you use:",
+    "opts": {
+      "A": "Goal Seek",
+      "B": "Scenario Manager",
+      "C": "Conditional Formatting",
+      "D": "Data Validation"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "What-if Analysis"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 22,
+    "section": "",
+    "q": "Power Query in Excel is principally used for:",
+    "opts": {
+      "A": "Extracting, transforming and loading data from external sources",
+      "B": "Designing charts",
+      "C": "Writing VBA",
+      "D": "Printing reports"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Power Query (Introduction)"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 23,
+    "section": "",
+    "q": "Power Pivot works with the Data Model and uses which formula language?",
+    "opts": {
+      "A": "SQL",
+      "B": "DAX",
+      "C": "VBA",
+      "D": "M only"
+    },
+    "ans": "B",
+    "exp": "Power Query uses M; Power Pivot uses DAX",
+    "conf": "high",
+    "note": "",
+    "sub": "Power Pivot (Overview)"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 24,
+    "section": "",
+    "q": "A workbook containing macros must be saved with the extension:",
+    "opts": {
+      "A": ".xlsx",
+      "B": ".xlsm",
+      "C": ".xltx",
+      "D": ".csv"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Macros (Introduction)"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "V",
+    "no": 1,
+    "section": "",
+    "q": "The default extension of a PowerPoint presentation is:",
+    "opts": {
+      "A": ".ppt",
+      "B": ".pptx",
+      "C": ".potx",
+      "D": ".ppsx"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Presentation Design"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "V",
+    "no": 2,
+    "section": "",
+    "q": "A file that opens directly in slide show mode has the extension:",
+    "opts": {
+      "A": ".pptx",
+      "B": ".potx",
+      "C": ".ppsx",
+      "D": ".pptm"
+    },
+    "ans": "C",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Presentation Delivery"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "V",
+    "no": 3,
+    "section": "",
+    "q": "The Slide Master is used to:",
+    "opts": {
+      "A": "Control the layout, fonts, colours and placeholders of all slides based on it",
+      "B": "Run the slide show",
+      "C": "Record narration",
+      "D": "Print handouts"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Slide Master"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "V",
+    "no": 4,
+    "section": "",
+    "q": "Changing the font on the Slide Master will:",
+    "opts": {
+      "A": "Affect only the first slide",
+      "B": "Affect all slides using that master/layout",
+      "C": "Delete existing text",
+      "D": "Have no effect"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Slide Master"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "V",
+    "no": 5,
+    "section": "",
+    "q": "Themes in PowerPoint control:",
+    "opts": {
+      "A": "Colours, fonts and effects as a coordinated set",
+      "B": "Only the background image",
+      "C": "Animation timing",
+      "D": "File size"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Templates and Themes"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "V",
+    "no": 6,
+    "section": "",
+    "q": "For a Morph transition to work effectively, the two slides must:",
+    "opts": {
+      "A": "Be completely different",
+      "B": "Share at least one common object, usually by duplicating the slide",
+      "C": "Contain only text",
+      "D": "Use the same transition sound"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Morph Transition"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "V",
+    "no": 7,
+    "section": "",
+    "q": "Which is NOT a category of animation effect?",
+    "opts": {
+      "A": "Entrance",
+      "B": "Emphasis",
+      "C": "Exit",
+      "D": "Transition"
+    },
+    "ans": "D",
+    "exp": "transitions apply between slides, not to objects",
+    "conf": "high",
+    "note": "",
+    "sub": "Animation"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "V",
+    "no": 8,
+    "section": "",
+    "q": "The Animation Painter is used to:",
+    "opts": {
+      "A": "Copy animation settings from one object to another",
+      "B": "Draw on slides during a show",
+      "C": "Paint the background",
+      "D": "Insert clip art"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Animation"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "V",
+    "no": 9,
+    "section": "",
+    "q": "Presenter View allows the speaker to see:",
+    "opts": {
+      "A": "Only the current slide",
+      "B": "Speaker notes, next slide and a timer while the audience sees only the slide",
+      "C": "The audience",
+      "D": "The file properties"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Presenter View"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "V",
+    "no": 10,
+    "section": "",
+    "q": "Pressing F5 during editing:",
+    "opts": {
+      "A": "Starts the slide show from the beginning",
+      "B": "Starts from the current slide",
+      "C": "Saves the file",
+      "D": "Inserts a new slide"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Presentation Delivery"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "V",
+    "no": 11,
+    "section": "",
+    "q": "To start the slide show from the current slide, press:",
+    "opts": {
+      "A": "F5",
+      "B": "Shift + F5",
+      "C": "Ctrl + F5",
+      "D": "Alt + F5"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Presentation Delivery"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "V",
+    "no": 12,
+    "section": "",
+    "q": "During a slide show, pressing the \"B\" key:",
+    "opts": {
+      "A": "Blanks the screen to black",
+      "B": "Bolds the text",
+      "C": "Goes back one slide",
+      "D": "Opens the browser"
+    },
+    "ans": "A",
+    "exp": "W blanks to white",
+    "conf": "high",
+    "note": "",
+    "sub": "Presentation Delivery"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "V",
+    "no": 13,
+    "section": "",
+    "q": "Rehearse Timings is used to:",
+    "opts": {
+      "A": "Record how long each slide takes and store timings for automatic advance",
+      "B": "Compress media",
+      "C": "Set printer options",
+      "D": "Add narration text"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Recording Presentations"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "V",
+    "no": 14,
+    "section": "",
+    "q": "A presentation can be exported for distribution as:",
+    "opts": {
+      "A": "MP4 video",
+      "B": "A macro",
+      "C": "A registry file",
+      "D": "A database"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Presentation Delivery"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "V",
+    "no": 15,
+    "section": "",
+    "q": "Sections in PowerPoint are used to:",
+    "opts": {
+      "A": "Group slides into logical parts for easier organisation",
+      "B": "Split the screen",
+      "C": "Add columns",
+      "D": "Encrypt slides"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Presentation Design"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "V",
+    "no": 16,
+    "section": "",
+    "q": "For a visually effective slide, the widely quoted design guideline is:",
+    "opts": {
+      "A": "Fill every slide with paragraphs",
+      "B": "Limit text, roughly six bullet points with six words each",
+      "C": "Use at least ten fonts",
+      "D": "Avoid all images"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Presentation Design"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "V",
+    "no": 17,
+    "section": "",
+    "q": "The Accessibility Checker in PowerPoint flags issues such as:",
+    "opts": {
+      "A": "Missing alt text and incorrect reading order",
+      "B": "Spelling mistakes only",
+      "C": "Large file size",
+      "D": "Outdated themes"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Accessibility Features"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "V",
+    "no": 18,
+    "section": "",
+    "q": "Microsoft Copilot in PowerPoint (as a concept) can:",
+    "opts": {
+      "A": "Generate draft slides and design suggestions from a prompt or an existing document",
+      "B": "Replace the projector",
+      "C": "Compile code",
+      "D": "Manage user accounts"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "AI-assisted Presentation Design (Microsoft Copilot - Concept)"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 1,
+    "section": "Computing Basics, Number Systems and Logic",
+    "q": "ENIAC and UNIVAC belong to which generation?",
+    "opts": {
+      "A": "First",
+      "B": "Second",
+      "C": "Third",
+      "D": "Fourth"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Evolution and Generations of Computers"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 2,
+    "section": "Computing Basics, Number Systems and Logic",
+    "q": "The introduction of the microprocessor marked the beginning of the:",
+    "opts": {
+      "A": "Second generation",
+      "B": "Third generation",
+      "C": "Fourth generation",
+      "D": "Fifth generation"
+    },
+    "ans": "C",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Evolution and Generations of Computers"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 3,
+    "section": "Computing Basics, Number Systems and Logic",
+    "q": "Moore's Law states that the number of transistors on a chip:",
+    "opts": {
+      "A": "Halves every year",
+      "B": "Doubles approximately every two years",
+      "C": "Remains constant",
+      "D": "Grows tenfold annually"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Evolution and Generations of Computers"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 4,
+    "section": "Computing Basics, Number Systems and Logic",
+    "q": "The stored-program concept, where instructions and data share the same memory, is attributed to:",
+    "opts": {
+      "A": "Charles Babbage",
+      "B": "John von Neumann",
+      "C": "Alan Turing",
+      "D": "Blaise Pascal"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Functional Components of a Computer"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 5,
+    "section": "Computing Basics, Number Systems and Logic",
+    "q": "Harvard architecture differs from von Neumann architecture in that it uses:",
+    "opts": {
+      "A": "Only one bus",
+      "B": "Separate memories and buses for instructions and data",
+      "C": "No control unit",
+      "D": "Analog signals"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Functional Components of a Computer"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 6,
+    "section": "Computing Basics, Number Systems and Logic",
+    "q": "Charles Babbage is known as the father of the computer for designing the:",
+    "opts": {
+      "A": "ENIAC",
+      "B": "Analytical Engine",
+      "C": "Abacus",
+      "D": "Pascaline"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Evolution and Generations of Computers"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 7,
+    "section": "Computing Basics, Number Systems and Logic",
+    "q": "One nibble equals:",
+    "opts": {
+      "A": "2 bits",
+      "B": "4 bits",
+      "C": "8 bits",
+      "D": "16 bits"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Functional Components of a Computer"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 8,
+    "section": "Computing Basics, Number Systems and Logic",
+    "q": "1 KB in binary terms equals:",
+    "opts": {
+      "A": "1000 bytes",
+      "B": "1024 bytes",
+      "C": "1024 bits",
+      "D": "512 bytes"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Functional Components of a Computer"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 9,
+    "section": "Computing Basics, Number Systems and Logic",
+    "q": "The binary number 1011 in decimal is:",
+    "opts": {
+      "A": "9",
+      "B": "10",
+      "C": "11",
+      "D": "13"
+    },
+    "ans": "C",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Functional Components of a Computer"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 10,
+    "section": "Computing Basics, Number Systems and Logic",
+    "q": "The decimal number 25 in binary is:",
+    "opts": {
+      "A": "11001",
+      "B": "10101",
+      "C": "11011",
+      "D": "10011"
+    },
+    "ans": "A",
+    "exp": "16+8+1",
+    "conf": "high",
+    "note": "",
+    "sub": "Functional Components of a Computer"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 11,
+    "section": "Computing Basics, Number Systems and Logic",
+    "q": "The hexadecimal digit F represents which decimal value?",
+    "opts": {
+      "A": "14",
+      "B": "15",
+      "C": "16",
+      "D": "20"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Functional Components of a Computer"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 12,
+    "section": "Computing Basics, Number Systems and Logic",
+    "q": "Standard ASCII uses how many bits per character?",
+    "opts": {
+      "A": "4",
+      "B": "7",
+      "C": "8",
+      "D": "16"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Functional Components of a Computer"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 13,
+    "section": "Computing Basics, Number Systems and Logic",
+    "q": "The encoding standard designed to represent characters of virtually all world scripts, including Indian languages, is:",
+    "opts": {
+      "A": "ASCII",
+      "B": "EBCDIC",
+      "C": "Unicode",
+      "D": "BCD"
+    },
+    "ans": "C",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Functional Components of a Computer"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 14,
+    "section": "Computing Basics, Number Systems and Logic",
+    "q": "Negative numbers are most commonly represented in computers using:",
+    "opts": {
+      "A": "Sign magnitude",
+      "B": "1's complement",
+      "C": "2's complement",
+      "D": "BCD"
+    },
+    "ans": "C",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Functional Components of a Computer"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 15,
+    "section": "Computing Basics, Number Systems and Logic",
+    "q": "Which logic gate is called a universal gate?",
+    "opts": {
+      "A": "AND",
+      "B": "OR",
+      "C": "NAND",
+      "D": "XOR"
+    },
+    "ans": "C",
+    "exp": "NOR is also universal",
+    "conf": "high",
+    "note": "",
+    "sub": "Functional Components of a Computer"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 16,
+    "section": "Computing Basics, Number Systems and Logic",
+    "q": "The output of an XOR gate is 1 when:",
+    "opts": {
+      "A": "Both inputs are 1",
+      "B": "Both inputs are 0",
+      "C": "The inputs differ",
+      "D": "Always"
+    },
+    "ans": "C",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Functional Components of a Computer"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 17,
+    "section": "Computing Basics, Number Systems and Logic",
+    "q": "A computer's ability to give the same accurate result regardless of how long it works is described as:",
+    "opts": {
+      "A": "Versatility",
+      "B": "Reliability",
+      "C": "Storage",
+      "D": "Automation"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Characteristics and Applications of Computers"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 18,
+    "section": "Computing Basics, Number Systems and Logic",
+    "q": "An embedded system is best described as:",
+    "opts": {
+      "A": "A general-purpose desktop",
+      "B": "A computer dedicated to a specific function within a larger device",
+      "C": "A mainframe",
+      "D": "A network switch"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Classification of Computers"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 19,
+    "section": "Emerging Technologies and e-Governance",
+    "q": "Machine learning is a subset of:",
+    "opts": {
+      "A": "Networking",
+      "B": "Artificial intelligence",
+      "C": "Database systems",
+      "D": "Operating systems"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Emerging Technologies: Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Big Data, Cloud Computing and Edge Computing"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 20,
+    "section": "Emerging Technologies and e-Governance",
+    "q": "In cloud computing, \"elasticity\" refers to:",
+    "opts": {
+      "A": "Physical flexibility of cables",
+      "B": "Automatic scaling of resources up or down with demand",
+      "C": "Data encryption",
+      "D": "Redundant power supply"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Emerging Technologies: Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Big Data, Cloud Computing and Edge Computing"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 21,
+    "section": "Emerging Technologies and e-Governance",
+    "q": "A cloud deployment model combining on-premises infrastructure with public cloud is called:",
+    "opts": {
+      "A": "Private cloud",
+      "B": "Community cloud",
+      "C": "Hybrid cloud",
+      "D": "Multi-tenant cloud"
+    },
+    "ans": "C",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Emerging Technologies: Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Big Data, Cloud Computing and Edge Computing"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 22,
+    "section": "Emerging Technologies and e-Governance",
+    "q": "Which is a defining feature of a public cloud?",
+    "opts": {
+      "A": "Dedicated hardware for one organisation",
+      "B": "Shared, multi-tenant infrastructure offered on a pay-as-you-go basis",
+      "C": "No internet connectivity",
+      "D": "Fixed capacity"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Emerging Technologies: Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Big Data, Cloud Computing and Edge Computing"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 23,
+    "section": "Emerging Technologies and e-Governance",
+    "q": "A smart contract is:",
+    "opts": {
+      "A": "A legal paper document",
+      "B": "Self-executing code stored on a blockchain that runs when conditions are met",
+      "C": "A cloud subscription",
+      "D": "An encryption key"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Emerging Technologies: Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Big Data, Cloud Computing and Edge Computing"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 24,
+    "section": "Emerging Technologies and e-Governance",
+    "q": "In IoT, the component that senses physical parameters and converts them into signals is a:",
+    "opts": {
+      "A": "Actuator",
+      "B": "Sensor",
+      "C": "Gateway",
+      "D": "Router"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Emerging Technologies: Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Big Data, Cloud Computing and Edge Computing"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 25,
+    "section": "Emerging Technologies and e-Governance",
+    "q": "An actuator in an IoT system:",
+    "opts": {
+      "A": "Measures temperature",
+      "B": "Converts a signal into a physical action",
+      "C": "Stores data",
+      "D": "Encrypts traffic"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Emerging Technologies: Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Big Data, Cloud Computing and Edge Computing"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 26,
+    "section": "Emerging Technologies and e-Governance",
+    "q": "Digital twin technology refers to:",
+    "opts": {
+      "A": "Two identical servers",
+      "B": "A virtual replica of a physical asset used for simulation and monitoring",
+      "C": "Duplicate backups",
+      "D": "Mirrored disks"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Emerging Technologies: Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Big Data, Cloud Computing and Edge Computing"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 27,
+    "section": "Emerging Technologies and e-Governance",
+    "q": "Which statement about generative AI is correct?",
+    "opts": {
+      "A": "It only classifies data",
+      "B": "It creates new content such as text, images or code from learned patterns",
+      "C": "It cannot use natural language",
+      "D": "It requires no training data"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Emerging Technologies: Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Big Data, Cloud Computing and Edge Computing"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 28,
+    "section": "Emerging Technologies and e-Governance",
+    "q": "Data generated by IoT devices being processed on a local gateway instead of a distant data centre is an example of:",
+    "opts": {
+      "A": "Edge computing",
+      "B": "Batch processing",
+      "C": "Grid computing",
+      "D": "Time sharing"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Emerging Technologies: Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Big Data, Cloud Computing and Edge Computing"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 29,
+    "section": "Emerging Technologies and e-Governance",
+    "q": "The National e-Governance Plan (NeGP) was approved in:",
+    "opts": {
+      "A": "2000",
+      "B": "2006",
+      "C": "2015",
+      "D": "2019"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Digital India and e-Governance"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 30,
+    "section": "Emerging Technologies and e-Governance",
+    "q": "DigiLocker primarily provides:",
+    "opts": {
+      "A": "Cloud gaming",
+      "B": "A secure cloud repository for issuing and verifying official documents",
+      "C": "Email hosting",
+      "D": "Video conferencing"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Digital India and e-Governance"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 31,
+    "section": "Emerging Technologies and e-Governance",
+    "q": "UMANG is:",
+    "opts": {
+      "A": "A unified mobile application for accessing multiple government services",
+      "B": "A payment card",
+      "C": "An operating system",
+      "D": "A database"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Digital India and e-Governance"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 32,
+    "section": "Emerging Technologies and e-Governance",
+    "q": "BharatNet aims to:",
+    "opts": {
+      "A": "Provide broadband connectivity to gram panchayats",
+      "B": "Manufacture computers",
+      "C": "Train teachers",
+      "D": "Issue Aadhaar cards"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Digital India and e-Governance"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 33,
+    "section": "Emerging Technologies and e-Governance",
+    "q": "Common Service Centres (CSCs) are intended to:",
+    "opts": {
+      "A": "Deliver digital services at the last mile in rural areas",
+      "B": "Manufacture hardware",
+      "C": "Host government servers",
+      "D": "Audit accounts"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Digital India and e-Governance"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 34,
+    "section": "Emerging Technologies and e-Governance",
+    "q": "The nodal ministry for Digital India is:",
+    "opts": {
+      "A": "Ministry of Home Affairs",
+      "B": "MeitY",
+      "C": "Ministry of Finance",
+      "D": "Ministry of Education"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Digital India and e-Governance"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 35,
+    "section": "Emerging Technologies and e-Governance",
+    "q": "The Indian agency responsible for responding to cyber security incidents is:",
+    "opts": {
+      "A": "TRAI",
+      "B": "CERT-In",
+      "C": "SEBI",
+      "D": "UIDAI"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Digital India and e-Governance"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 36,
+    "section": "Emerging Technologies and e-Governance",
+    "q": "Sustainable IT practices include all EXCEPT:",
+    "opts": {
+      "A": "Server virtualisation to reduce hardware count",
+      "B": "Power management policies",
+      "C": "Responsible e-waste disposal",
+      "D": "Running redundant idle servers continuously"
+    },
+    "ans": "D",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Green Computing and Sustainable IT"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 37,
+    "section": "Computer Architecture and the CPU",
+    "q": "The unit that decodes instructions and generates control signals is the:",
+    "opts": {
+      "A": "ALU",
+      "B": "Control Unit",
+      "C": "Register file",
+      "D": "Cache"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "CPU Architecture and Instruction Cycle"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 38,
+    "section": "Computer Architecture and the CPU",
+    "q": "The register that holds the instruction currently being executed is the:",
+    "opts": {
+      "A": "PC",
+      "B": "MAR",
+      "C": "Instruction Register",
+      "D": "Accumulator"
+    },
+    "ans": "C",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "CPU Architecture and Instruction Cycle"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 39,
+    "section": "Computer Architecture and the CPU",
+    "q": "Pipelining improves performance by:",
+    "opts": {
+      "A": "Increasing clock speed",
+      "B": "Overlapping the execution stages of multiple instructions",
+      "C": "Adding more RAM",
+      "D": "Compressing instructions"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "CPU Architecture and Instruction Cycle"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 40,
+    "section": "Computer Architecture and the CPU",
+    "q": "A RISC processor is characterised by:",
+    "opts": {
+      "A": "A large set of complex instructions",
+      "B": "A small set of simple, fixed-length instructions executed rapidly",
+      "C": "No registers",
+      "D": "Variable word size only"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "CPU Architecture and Instruction Cycle"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 41,
+    "section": "Computer Architecture and the CPU",
+    "q": "Which is typically a CISC architecture?",
+    "opts": {
+      "A": "ARM",
+      "B": "x86",
+      "C": "MIPS",
+      "D": "RISC-V"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "CPU Architecture and Instruction Cycle"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 42,
+    "section": "Computer Architecture and the CPU",
+    "q": "ARM processors dominate mobile devices mainly because of their:",
+    "opts": {
+      "A": "Very high power consumption",
+      "B": "High performance per watt",
+      "C": "Larger physical size",
+      "D": "Lack of instruction sets"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "CPU Architecture and Instruction Cycle"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 43,
+    "section": "Computer Architecture and the CPU",
+    "q": "The clock speed of a processor is measured in:",
+    "opts": {
+      "A": "Bytes",
+      "B": "Hertz",
+      "C": "DPI",
+      "D": "FLOPS"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Performance Measurement"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 44,
+    "section": "Computer Architecture and the CPU",
+    "q": "Interrupt handling allows the CPU to:",
+    "opts": {
+      "A": "Ignore all peripherals",
+      "B": "Suspend the current task, service an urgent event, then resume",
+      "C": "Shut down",
+      "D": "Increase clock speed"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "CPU Architecture and Instruction Cycle"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 45,
+    "section": "Computer Architecture and the CPU",
+    "q": "DMA (Direct Memory Access) permits:",
+    "opts": {
+      "A": "Data transfer between I/O devices and memory without continuous CPU involvement",
+      "B": "Memory to be deleted",
+      "C": "The CPU to bypass cache",
+      "D": "Only disk formatting"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Functional Components of a Computer"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 46,
+    "section": "Computer Architecture and the CPU",
+    "q": "The word size of a processor refers to:",
+    "opts": {
+      "A": "The physical size of the chip",
+      "B": "The number of bits it can process in one operation",
+      "C": "The cache size",
+      "D": "The number of cores"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "CPU Architecture and Instruction Cycle"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 47,
+    "section": "Computer Architecture and the CPU",
+    "q": "A 64-bit operating system's chief advantage over 32-bit is:",
+    "opts": {
+      "A": "Better graphics only",
+      "B": "Support for far more than 4 GB of addressable RAM",
+      "C": "Smaller file sizes",
+      "D": "Fewer drivers"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "RAM, ROM and Virtual Memory"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 48,
+    "section": "Computer Architecture and the CPU",
+    "q": "The BIOS/UEFI firmware is stored on:",
+    "opts": {
+      "A": "The hard disk",
+      "B": "A non-volatile chip on the motherboard",
+      "C": "RAM",
+      "D": "The CPU cache"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "BIOS/UEFI Firmware"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 49,
+    "section": "Computer Architecture and the CPU",
+    "q": "The POST performed at startup:",
+    "opts": {
+      "A": "Formats the disk",
+      "B": "Tests essential hardware before loading the OS",
+      "C": "Installs updates",
+      "D": "Scans for viruses"
+    },
+    "ans": "B",
+    "exp": "Power-On Self Test",
+    "conf": "high",
+    "note": "",
+    "sub": "BIOS/UEFI Firmware"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 50,
+    "section": "Computer Architecture and the CPU",
+    "q": "The CMOS battery on the motherboard maintains:",
+    "opts": {
+      "A": "Data on the hard disk",
+      "B": "System date/time and firmware settings",
+      "C": "The operating system",
+      "D": "The cache"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Motherboard and Chipset"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 51,
+    "section": "Computer Architecture and the CPU",
+    "q": "SMPS in a computer stands for and does:",
+    "opts": {
+      "A": "Switched Mode Power Supply — converts AC to regulated DC",
+      "B": "System Memory Processing Slot",
+      "C": "Storage Management Protocol Service",
+      "D": "Serial Multi-Port System"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Motherboard and Chipset"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 52,
+    "section": "Computer Architecture and the CPU",
+    "q": "Thermal throttling occurs when a processor:",
+    "opts": {
+      "A": "Runs faster than rated",
+      "B": "Reduces its clock speed to prevent overheating",
+      "C": "Loses cache",
+      "D": "Reboots automatically"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Performance Measurement"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 53,
+    "section": "Memory and Storage",
+    "q": "DRAM differs from SRAM in that DRAM:",
+    "opts": {
+      "A": "Needs periodic refreshing and is cheaper and denser",
+      "B": "Is faster and used for cache",
+      "C": "Is non-volatile",
+      "D": "Cannot be written to"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "RAM, ROM and Virtual Memory"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 54,
+    "section": "Memory and Storage",
+    "q": "Cache memory is typically implemented using:",
+    "opts": {
+      "A": "DRAM",
+      "B": "SRAM",
+      "C": "Flash",
+      "D": "Magnetic core"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Cache Memory"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 55,
+    "section": "Memory and Storage",
+    "q": "The principle that recently accessed data is likely to be accessed again soon is:",
+    "opts": {
+      "A": "Temporal locality",
+      "B": "Spatial locality",
+      "C": "Segmentation",
+      "D": "Fragmentation"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Cache Memory"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 56,
+    "section": "Memory and Storage",
+    "q": "A cache \"hit ratio\" of 0.95 means:",
+    "opts": {
+      "A": "95% of requests are served from cache",
+      "B": "5% of cache is used",
+      "C": "Cache is 95% full",
+      "D": "95 misses per request"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Cache Memory"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 57,
+    "section": "Memory and Storage",
+    "q": "EPROM contents are erased using:",
+    "opts": {
+      "A": "Electrical signals",
+      "B": "Ultraviolet light",
+      "C": "Magnetism",
+      "D": "Heat only"
+    },
+    "ans": "B",
+    "exp": "EEPROM erases electrically",
+    "conf": "high",
+    "note": "",
+    "sub": "RAM, ROM and Virtual Memory"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 58,
+    "section": "Memory and Storage",
+    "q": "Flash memory is technically a form of:",
+    "opts": {
+      "A": "SRAM",
+      "B": "DRAM",
+      "C": "EEPROM",
+      "D": "ROM that cannot be rewritten"
+    },
+    "ans": "C",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "RAM, ROM and Virtual Memory"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 59,
+    "section": "Memory and Storage",
+    "q": "Registers are located:",
+    "opts": {
+      "A": "On the hard disk",
+      "B": "Inside the CPU",
+      "C": "On the motherboard chipset",
+      "D": "In the power supply"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Memory Hierarchy"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 60,
+    "section": "Memory and Storage",
+    "q": "Which sequence is correct in increasing order of cost per bit?",
+    "opts": {
+      "A": "HDD, RAM, Cache, Registers",
+      "B": "Registers, Cache, RAM, HDD",
+      "C": "RAM, HDD, Cache, Registers",
+      "D": "Cache, Registers, HDD, RAM"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Memory Hierarchy"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 61,
+    "section": "Memory and Storage",
+    "q": "SATA III offers a maximum theoretical throughput of about:",
+    "opts": {
+      "A": "1.5 Gbps",
+      "B": "3 Gbps",
+      "C": "6 Gbps",
+      "D": "32 Gbps"
+    },
+    "ans": "C",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "HDD, SSD and NVMe Storage"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 62,
+    "section": "Memory and Storage",
+    "q": "Access time of a hard disk is chiefly composed of:",
+    "opts": {
+      "A": "Seek time and rotational latency",
+      "B": "Cache time and bus time",
+      "C": "Boot time",
+      "D": "Refresh time"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "HDD, SSD and NVMe Storage"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 63,
+    "section": "Memory and Storage",
+    "q": "Defragmentation should generally NOT be run on an SSD because:",
+    "opts": {
+      "A": "It corrupts data",
+      "B": "SSDs have no seek penalty and writes shorten their lifespan",
+      "C": "It is impossible",
+      "D": "SSDs cannot be written to"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "HDD, SSD and NVMe Storage"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 64,
+    "section": "Memory and Storage",
+    "q": "Wear levelling in SSDs is used to:",
+    "opts": {
+      "A": "Distribute writes evenly across memory cells to extend life",
+      "B": "Cool the drive",
+      "C": "Compress files",
+      "D": "Encrypt the drive"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "HDD, SSD and NVMe Storage"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 65,
+    "section": "Memory and Storage",
+    "q": "RAID 10 combines:",
+    "opts": {
+      "A": "Striping and mirroring",
+      "B": "Parity and compression",
+      "C": "Encryption and striping",
+      "D": "Mirroring and deduplication"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "HDD, SSD and NVMe Storage"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 66,
+    "section": "Memory and Storage",
+    "q": "The chief drawback of RAID 0 is:",
+    "opts": {
+      "A": "High cost",
+      "B": "No fault tolerance — one drive failure loses all data",
+      "C": "Slow read speed",
+      "D": "It needs four disks"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "HDD, SSD and NVMe Storage"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 67,
+    "section": "Memory and Storage",
+    "q": "Magnetic tape remains in use mainly for:",
+    "opts": {
+      "A": "Real-time transaction processing",
+      "B": "Long-term, low-cost archival storage",
+      "C": "Booting servers",
+      "D": "Video editing"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Backup Concepts"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 68,
+    "section": "Memory and Storage",
+    "q": "A \"warm site\" in disaster recovery planning is:",
+    "opts": {
+      "A": "A fully operational duplicate running in parallel",
+      "B": "A facility with hardware and connectivity in place needing data restoration and configuration",
+      "C": "Empty space only",
+      "D": "A cloud subscription"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Disaster Recovery Concepts"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 69,
+    "section": "Memory and Storage",
+    "q": "A full backup taken weekly with differential backups daily means restoring requires:",
+    "opts": {
+      "A": "The full backup and all differentials",
+      "B": "The full backup and only the latest differential",
+      "C": "Only the differentials",
+      "D": "Only the full backup"
+    },
+    "ans": "B",
+    "exp": "differential needs only the latest; incremental needs all",
+    "conf": "high",
+    "note": "",
+    "sub": "Backup Concepts"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 70,
+    "section": "Memory and Storage",
+    "q": "Deduplication in backup systems:",
+    "opts": {
+      "A": "Duplicates data for safety",
+      "B": "Eliminates redundant copies of data to save storage",
+      "C": "Encrypts backups",
+      "D": "Speeds up the CPU"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Backup Concepts"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 71,
+    "section": "Input/Output, Software and Programming",
+    "q": "A capacitive touchscreen responds to:",
+    "opts": {
+      "A": "Any pressure including a stylus of any kind",
+      "B": "The electrical properties of a finger or capacitive stylus",
+      "C": "Heat only",
+      "D": "Sound"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Interactive Displays"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 72,
+    "section": "Input/Output, Software and Programming",
+    "q": "Which display technology offers true blacks because each pixel emits its own light?",
+    "opts": {
+      "A": "LCD",
+      "B": "LED-backlit LCD",
+      "C": "OLED",
+      "D": "CRT"
+    },
+    "ans": "C",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Display Technologies"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 73,
+    "section": "Input/Output, Software and Programming",
+    "q": "Monitor refresh rate is measured in:",
+    "opts": {
+      "A": "DPI",
+      "B": "Hertz",
+      "C": "Pixels",
+      "D": "Nits"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Display Technologies"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 74,
+    "section": "Input/Output, Software and Programming",
+    "q": "A plotter is best suited for:",
+    "opts": {
+      "A": "Photographs",
+      "B": "Large engineering and architectural drawings",
+      "C": "Receipts",
+      "D": "Barcodes"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Printers and Multifunction Devices"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 75,
+    "section": "Input/Output, Software and Programming",
+    "q": "A multifunction device typically combines:",
+    "opts": {
+      "A": "Print, scan, copy and fax",
+      "B": "Print and projection",
+      "C": "Scan and storage only",
+      "D": "Copy and encryption"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Printers and Multifunction Devices"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 76,
+    "section": "Input/Output, Software and Programming",
+    "q": "Firmware is best described as:",
+    "opts": {
+      "A": "Application software",
+      "B": "Software permanently stored in hardware to control that device",
+      "C": "A hardware component",
+      "D": "A network protocol"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "System Software"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 77,
+    "section": "Input/Output, Software and Programming",
+    "q": "Which is utility software?",
+    "opts": {
+      "A": "Disk Cleanup",
+      "B": "MS Word",
+      "C": "Oracle Database",
+      "D": "Chrome"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "System Software"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 78,
+    "section": "Input/Output, Software and Programming",
+    "q": "Shareware differs from freeware in that shareware:",
+    "opts": {
+      "A": "Is always open source",
+      "B": "Is distributed free for a trial period after which payment is expected",
+      "C": "Cannot be copied",
+      "D": "Has no licence"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Software Licensing"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 79,
+    "section": "Input/Output, Software and Programming",
+    "q": "A Client Access Licence (CAL) is required to:",
+    "opts": {
+      "A": "Install the OS",
+      "B": "Legally allow a user or device to connect to a licensed server",
+      "C": "Compile software",
+      "D": "Access the internet"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Software Licensing"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 80,
+    "section": "Input/Output, Software and Programming",
+    "q": "A perpetual licence differs from a subscription licence in that it:",
+    "opts": {
+      "A": "Expires annually",
+      "B": "Grants the right to use a specific version indefinitely after a one-time payment",
+      "C": "Includes free upgrades forever",
+      "D": "Is always free"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Software Licensing"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 81,
+    "section": "Input/Output, Software and Programming",
+    "q": "Which SDLC model explicitly incorporates risk analysis in each iteration?",
+    "opts": {
+      "A": "Waterfall",
+      "B": "Spiral",
+      "C": "Big Bang",
+      "D": "V-model"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Software Development Life Cycle (SDLC)"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 82,
+    "section": "Input/Output, Software and Programming",
+    "q": "In the V-model, each development phase is paired with a corresponding:",
+    "opts": {
+      "A": "Deployment step",
+      "B": "Testing phase",
+      "C": "Payment milestone",
+      "D": "Documentation set"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Software Development Life Cycle (SDLC)"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 83,
+    "section": "Input/Output, Software and Programming",
+    "q": "Testing carried out by end users in the real environment before final release is:",
+    "opts": {
+      "A": "Unit testing",
+      "B": "Integration testing",
+      "C": "Beta testing",
+      "D": "Regression testing"
+    },
+    "ans": "C",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Software Development Life Cycle (SDLC)"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 84,
+    "section": "Input/Output, Software and Programming",
+    "q": "Regression testing is performed to ensure that:",
+    "opts": {
+      "A": "New code has not broken existing functionality",
+      "B": "The UI is attractive",
+      "C": "The database is empty",
+      "D": "Performance is measured"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Software Development Life Cycle (SDLC)"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 85,
+    "section": "Input/Output, Software and Programming",
+    "q": "Docker is primarily associated with:",
+    "opts": {
+      "A": "Containerisation",
+      "B": "Database management",
+      "C": "Networking hardware",
+      "D": "Word processing"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Virtualization and Containerization (Concept)"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 86,
+    "section": "Input/Output, Software and Programming",
+    "q": "Kubernetes is used for:",
+    "opts": {
+      "A": "Writing code",
+      "B": "Orchestrating and scaling containerised applications",
+      "C": "Designing chips",
+      "D": "Encrypting mail"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Virtualization and Containerization (Concept)"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 87,
+    "section": "Input/Output, Software and Programming",
+    "q": "A snapshot of a virtual machine captures:",
+    "opts": {
+      "A": "Only the disk",
+      "B": "The state of the VM at a point in time for rollback",
+      "C": "Only the RAM",
+      "D": "Network configuration only"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Virtualization and Containerization (Concept)"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 88,
+    "section": "Input/Output, Software and Programming",
+    "q": "SQL is generally classified as a:",
+    "opts": {
+      "A": "First generation language",
+      "B": "Second generation language",
+      "C": "Third generation language",
+      "D": "Fourth generation (declarative) language"
+    },
+    "ans": "D",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Programming Languages"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 89,
+    "section": "Input/Output, Software and Programming",
+    "q": "Assembly language is converted to machine code by a:",
+    "opts": {
+      "A": "Compiler",
+      "B": "Interpreter",
+      "C": "Assembler",
+      "D": "Linker"
+    },
+    "ans": "C",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Programming Languages"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 90,
+    "section": "Input/Output, Software and Programming",
+    "q": "A linker is responsible for:",
+    "opts": {
+      "A": "Combining object modules and libraries into a single executable",
+      "B": "Loading the program into memory",
+      "C": "Detecting logical errors",
+      "D": "Running the program"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Programming Languages"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 1,
+    "section": "",
+    "q": "The core component of an OS that always resides in memory and manages hardware resources is the:",
+    "opts": {
+      "A": "Shell",
+      "B": "Kernel",
+      "C": "Compiler",
+      "D": "Utility"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Types and Functions of Operating Systems"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 2,
+    "section": "",
+    "q": "A microkernel design keeps which services outside the kernel?",
+    "opts": {
+      "A": "Basic IPC and scheduling",
+      "B": "File systems and device drivers, run in user space",
+      "C": "Nothing",
+      "D": "All memory management"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Types and Functions of Operating Systems"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 3,
+    "section": "",
+    "q": "The interface through which a program requests a service from the kernel is a:",
+    "opts": {
+      "A": "System call",
+      "B": "Function pointer",
+      "C": "Macro",
+      "D": "Device driver"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Types and Functions of Operating Systems"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 4,
+    "section": "",
+    "q": "The data structure holding all information about a process is the:",
+    "opts": {
+      "A": "File Allocation Table",
+      "B": "Process Control Block",
+      "C": "Page Table",
+      "D": "Registry"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Process Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 5,
+    "section": "",
+    "q": "A context switch involves:",
+    "opts": {
+      "A": "Saving the state of one process and loading another",
+      "B": "Restarting the computer",
+      "C": "Switching users",
+      "D": "Changing the file system"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Process Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 6,
+    "section": "",
+    "q": "Which scheduling algorithm gives the minimum average waiting time in theory?",
+    "opts": {
+      "A": "FCFS",
+      "B": "Shortest Job First",
+      "C": "Round Robin",
+      "D": "Random"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Process Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 7,
+    "section": "",
+    "q": "The \"convoy effect\", where short processes wait behind one long process, is a drawback of:",
+    "opts": {
+      "A": "SJF",
+      "B": "FCFS",
+      "C": "Round Robin",
+      "D": "Priority with aging"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Process Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 8,
+    "section": "",
+    "q": "In Round Robin scheduling, a very large time quantum causes it to behave like:",
+    "opts": {
+      "A": "SJF",
+      "B": "FCFS",
+      "C": "Priority",
+      "D": "Multilevel queue"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Process Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 9,
+    "section": "",
+    "q": "Indefinite postponement of a low-priority process is called:",
+    "opts": {
+      "A": "Deadlock",
+      "B": "Starvation",
+      "C": "Thrashing",
+      "D": "Fragmentation"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Process Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 10,
+    "section": "",
+    "q": "The technique of gradually raising the priority of waiting processes is:",
+    "opts": {
+      "A": "Aging",
+      "B": "Swapping",
+      "C": "Spooling",
+      "D": "Paging"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Process Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 11,
+    "section": "",
+    "q": "Which is used to enforce mutual exclusion for a shared resource?",
+    "opts": {
+      "A": "Semaphore",
+      "B": "Interrupt vector",
+      "C": "Page table",
+      "D": "Bootloader"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Process Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 12,
+    "section": "",
+    "q": "A race condition arises when:",
+    "opts": {
+      "A": "Two processes finish at once",
+      "B": "The result depends on the uncontrolled timing of concurrent access to shared data",
+      "C": "The CPU overheats",
+      "D": "Memory is full"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Process Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 13,
+    "section": "",
+    "q": "The Banker's algorithm is used for:",
+    "opts": {
+      "A": "Deadlock avoidance",
+      "B": "Page replacement",
+      "C": "Disk scheduling",
+      "D": "File allocation"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Process Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 14,
+    "section": "",
+    "q": "Internal fragmentation occurs when:",
+    "opts": {
+      "A": "Free memory exists in scattered small blocks between allocations",
+      "B": "Allocated memory blocks are larger than requested, wasting space inside them",
+      "C": "Files are deleted",
+      "D": "The disk is full"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Memory Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 15,
+    "section": "",
+    "q": "Paging eliminates:",
+    "opts": {
+      "A": "Internal fragmentation",
+      "B": "External fragmentation",
+      "C": "Deadlock",
+      "D": "Starvation"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Memory Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 16,
+    "section": "",
+    "q": "Segmentation divides a program according to:",
+    "opts": {
+      "A": "Fixed-size blocks",
+      "B": "Logical divisions such as code, data and stack",
+      "C": "Disk sectors",
+      "D": "Time slices"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Memory Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 17,
+    "section": "",
+    "q": "The TLB is a cache for:",
+    "opts": {
+      "A": "Instructions",
+      "B": "Page table entries",
+      "C": "Disk blocks",
+      "D": "Network routes"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Memory Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 18,
+    "section": "",
+    "q": "Belady's anomaly is associated with which page replacement algorithm?",
+    "opts": {
+      "A": "LRU",
+      "B": "Optimal",
+      "C": "FIFO",
+      "D": "LFU"
+    },
+    "ans": "C",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Memory Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 19,
+    "section": "",
+    "q": "The LRU algorithm replaces the page that:",
+    "opts": {
+      "A": "Will be used farthest in the future",
+      "B": "Has not been used for the longest time",
+      "C": "Was loaded first",
+      "D": "Is largest"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Memory Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 20,
+    "section": "",
+    "q": "Spooling is most commonly used with:",
+    "opts": {
+      "A": "Printers",
+      "B": "Keyboards",
+      "C": "Monitors",
+      "D": "The CPU"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Types and Functions of Operating Systems"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 21,
+    "section": "",
+    "q": "The boot sector scheme that supports disks larger than 2 TB and more than four primary partitions is:",
+    "opts": {
+      "A": "MBR",
+      "B": "GPT",
+      "C": "FAT",
+      "D": "NTFS"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Disk Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 22,
+    "section": "",
+    "q": "Windows Safe Mode starts the system with:",
+    "opts": {
+      "A": "Full drivers and services",
+      "B": "A minimal set of drivers and services for troubleshooting",
+      "C": "No operating system",
+      "D": "Network only"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Windows Operating Systems"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 23,
+    "section": "",
+    "q": "In Windows, a workgroup differs from a domain in that a workgroup:",
+    "opts": {
+      "A": "Has centralised authentication",
+      "B": "Is peer-to-peer with local accounts on each machine",
+      "C": "Requires Active Directory",
+      "D": "Supports Group Policy"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "User Accounts"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 24,
+    "section": "",
+    "q": "The Windows utility for controlling startup programs and boot options is:",
+    "opts": {
+      "A": "msconfig",
+      "B": "regedit",
+      "C": "chkdsk",
+      "D": "diskpart"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "medium",
+    "note": "msconfig is the best of the four options, but the question's premise is dated: the System Configuration Startup tab was removed in Windows 8 and now only links to Task Manager, which is where startup programs are actually controlled. msconfig still governs boot options and services.",
+    "sub": "Windows Utilities"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 25,
+    "section": "",
+    "q": "To automate a script to run daily at 6 a.m. in Windows you would use:",
+    "opts": {
+      "A": "Task Manager",
+      "B": "Task Scheduler",
+      "C": "Resource Monitor",
+      "D": "Event Viewer"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Windows Utilities"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 26,
+    "section": "",
+    "q": "Performance Monitor (perfmon) is used to:",
+    "opts": {
+      "A": "Log and analyse system performance counters over time",
+      "B": "End tasks",
+      "C": "Format disks",
+      "D": "Edit the registry"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Performance Monitoring"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 27,
+    "section": "",
+    "q": "Windows Defender Firewall applies different rules based on:",
+    "opts": {
+      "A": "File type",
+      "B": "Network profile (Domain, Private, Public)",
+      "C": "User age",
+      "D": "Disk type"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Windows Security"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 28,
+    "section": "",
+    "q": "The Windows command to release and renew an IP address is:",
+    "opts": {
+      "A": "ipconfig /release then /renew",
+      "B": "ping /renew",
+      "C": "netstat -r",
+      "D": "nslookup"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Command Prompt"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 29,
+    "section": "",
+    "q": "`ipconfig /flushdns` is used to:",
+    "opts": {
+      "A": "Clear the DNS resolver cache",
+      "B": "Reset the router",
+      "C": "Delete browser history",
+      "D": "Restart the network card"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Command Prompt"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 30,
+    "section": "",
+    "q": "`chkdsk /f` is used to:",
+    "opts": {
+      "A": "Format the disk",
+      "B": "Find and fix file system errors",
+      "C": "Copy files",
+      "D": "Compress the drive"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Command Prompt"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 31,
+    "section": "",
+    "q": "In Linux, the superuser account is:",
+    "opts": {
+      "A": "admin",
+      "B": "root",
+      "C": "sudoer",
+      "D": "system"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Linux Architecture"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 32,
+    "section": "",
+    "q": "System log files in Linux are conventionally kept in:",
+    "opts": {
+      "A": "/etc",
+      "B": "/var/log",
+      "C": "/usr",
+      "D": "/tmp"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Linux File System"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 33,
+    "section": "",
+    "q": "The Linux command to display running processes with full details is:",
+    "opts": {
+      "A": "ls -l",
+      "B": "ps aux",
+      "C": "cd",
+      "D": "cat"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Basic Linux Commands"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 34,
+    "section": "",
+    "q": "The command used to terminate a process by its PID is:",
+    "opts": {
+      "A": "stop",
+      "B": "kill",
+      "C": "end",
+      "D": "halt"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Basic Linux Commands"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 35,
+    "section": "",
+    "q": "The Debian/Ubuntu package management command is:",
+    "opts": {
+      "A": "yum",
+      "B": "apt",
+      "C": "rpm",
+      "D": "pacman"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Basic Linux Commands"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 1,
+    "section": "",
+    "q": "To display all headings and jump between them, you open the:",
+    "opts": {
+      "A": "Navigation Pane",
+      "B": "Selection Pane",
+      "C": "Clipboard",
+      "D": "Styles Pane"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Document Creation"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 2,
+    "section": "",
+    "q": "Which view is best for reorganising a long document by promoting and demoting headings?",
+    "opts": {
+      "A": "Print Layout",
+      "B": "Outline View",
+      "C": "Read Mode",
+      "D": "Draft"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Styles and Themes"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 3,
+    "section": "",
+    "q": "Quick Parts / Building Blocks allow you to:",
+    "opts": {
+      "A": "Save and reuse blocks of content",
+      "B": "Split the document",
+      "C": "Compress images",
+      "D": "Encrypt text"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Templates"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 4,
+    "section": "",
+    "q": "A cross-reference in Word:",
+    "opts": {
+      "A": "Links to another location such as a heading, figure or table and updates automatically",
+      "B": "Opens a website",
+      "C": "Merges two files",
+      "D": "Creates a footnote"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "References"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 5,
+    "section": "",
+    "q": "Captions are used with figures and tables mainly so that:",
+    "opts": {
+      "A": "They look decorative",
+      "B": "A Table of Figures can be generated automatically",
+      "C": "They print faster",
+      "D": "They can be deleted easily"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "References"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 6,
+    "section": "",
+    "q": "To have a different header on the first page only, you enable:",
+    "opts": {
+      "A": "Different First Page",
+      "B": "Link to Previous",
+      "C": "Odd and Even Pages",
+      "D": "Section Break"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Page Layout"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 7,
+    "section": "",
+    "q": "\"Link to Previous\" in headers and footers, when turned off, allows:",
+    "opts": {
+      "A": "Independent headers for each section",
+      "B": "Faster typing",
+      "C": "Page deletion",
+      "D": "Automatic numbering"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Page Layout"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 8,
+    "section": "",
+    "q": "Which section break starts the new section on the same page?",
+    "opts": {
+      "A": "Next Page",
+      "B": "Continuous",
+      "C": "Even Page",
+      "D": "Odd Page"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Page Layout"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 9,
+    "section": "",
+    "q": "Widow/Orphan control prevents:",
+    "opts": {
+      "A": "A single line of a paragraph being stranded alone on a page",
+      "B": "Images from moving",
+      "C": "Tables from splitting",
+      "D": "Fonts from changing"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Page Layout"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 10,
+    "section": "",
+    "q": "A hanging indent is commonly used for:",
+    "opts": {
+      "A": "Bibliography entries",
+      "B": "Headers",
+      "C": "Tables",
+      "D": "Page numbers"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Page Layout"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 11,
+    "section": "",
+    "q": "Ctrl + Shift + N applies which style?",
+    "opts": {
+      "A": "Heading 1",
+      "B": "Normal",
+      "C": "Title",
+      "D": "Quote"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Styles and Themes"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 12,
+    "section": "",
+    "q": "Multilevel lists are used to:",
+    "opts": {
+      "A": "Number nested headings or clauses hierarchically",
+      "B": "Sort a table",
+      "C": "Add bullets only",
+      "D": "Create columns"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Styles and Themes"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 13,
+    "section": "",
+    "q": "To compare two versions of a document and see the differences, you use:",
+    "opts": {
+      "A": "Compare under the Review tab",
+      "B": "Merge Cells",
+      "C": "Track Changes only",
+      "D": "Find and Replace"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Review Tools"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 14,
+    "section": "",
+    "q": "Restrict Editing can be configured to allow users only to:",
+    "opts": {
+      "A": "Delete the file",
+      "B": "Fill in forms or add comments",
+      "C": "Change the theme",
+      "D": "Print"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Review Tools"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 15,
+    "section": "",
+    "q": "Word's wildcard search using Find and Replace requires you to enable:",
+    "opts": {
+      "A": "Match case",
+      "B": "Use wildcards",
+      "C": "Sounds like",
+      "D": "Ignore punctuation"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Document Creation"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 16,
+    "section": "",
+    "q": "Field codes such as { PAGE } are displayed instead of results when you press:",
+    "opts": {
+      "A": "Alt + F9",
+      "B": "Ctrl + F9",
+      "C": "F7",
+      "D": "Shift + F3"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Document Creation"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 17,
+    "section": "",
+    "q": "Shift + F3 is used to:",
+    "opts": {
+      "A": "Change the case of selected text",
+      "B": "Save the file",
+      "C": "Print",
+      "D": "Insert a footnote"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Document Creation"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 18,
+    "section": "",
+    "q": "In Mail Merge, \"Match Fields\" is used to:",
+    "opts": {
+      "A": "Map data source columns to Word's expected merge fields",
+      "B": "Sort recipients",
+      "C": "Filter records",
+      "D": "Preview results"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Mail Merge"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 19,
+    "section": "",
+    "q": "The Mail Merge rule \"If...Then...Else\" allows you to:",
+    "opts": {
+      "A": "Insert conditional text depending on a record's value",
+      "B": "Skip printing",
+      "C": "Change fonts",
+      "D": "Add pages"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Mail Merge"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 20,
+    "section": "",
+    "q": "Which format preserves layout for distribution and is not easily edited?",
+    "opts": {
+      "A": "DOCX",
+      "B": "PDF",
+      "C": "TXT",
+      "D": "RTF"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Document Creation"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 21,
+    "section": "",
+    "q": "AutoRecover in Word:",
+    "opts": {
+      "A": "Saves recovery information at intervals to restore work after a crash",
+      "B": "Replaces manual saving entirely",
+      "C": "Uploads to the cloud",
+      "D": "Recovers deleted files from the Recycle Bin"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Document Creation"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 22,
+    "section": "",
+    "q": "Version History for a document is available when the file is stored in:",
+    "opts": {
+      "A": "A local folder",
+      "B": "OneDrive or SharePoint",
+      "C": "A USB drive",
+      "D": "A ZIP archive"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Microsoft 365 Collaboration"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 23,
+    "section": "",
+    "q": "Immersive Reader in Word provides:",
+    "opts": {
+      "A": "Text spacing, syllable division and read-aloud to aid readability",
+      "B": "Faster printing",
+      "C": "Cloud backup",
+      "D": "Password protection"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Accessibility Features"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 24,
+    "section": "",
+    "q": "In eOffice, a Digital Signature Certificate is used to:",
+    "opts": {
+      "A": "Sign and authenticate an electronic file, ensuring integrity and non-repudiation",
+      "B": "Compress files",
+      "C": "Assign file numbers",
+      "D": "Print notes"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Integration of e-Office"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 25,
+    "section": "",
+    "q": "In an e-Office environment, the digital equivalent of a physical file with notings and correspondence is the:",
+    "opts": {
+      "A": "eFile",
+      "B": "eLeave",
+      "C": "eTour",
+      "D": "eProcurement"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Integration of e-Office"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 1,
+    "section": "",
+    "q": "In `A$1`, the reference is:",
+    "opts": {
+      "A": "Fully relative",
+      "B": "Fully absolute",
+      "C": "Mixed — column relative, row absolute",
+      "D": "Invalid"
+    },
+    "ans": "C",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Formulae and Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 2,
+    "section": "",
+    "q": "A Named Range is useful because it:",
+    "opts": {
+      "A": "Makes formulas readable and easier to maintain",
+      "B": "Reduces file size",
+      "C": "Encrypts data",
+      "D": "Prints faster"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Formulae and Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 3,
+    "section": "",
+    "q": "A structured reference like `=SUM(Table1[Sales])` is possible when data is:",
+    "opts": {
+      "A": "In a plain range",
+      "B": "Formatted as an Excel Table",
+      "C": "In a chart",
+      "D": "Filtered"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Formulae and Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 4,
+    "section": "",
+    "q": "`=SUMIFS(C2:C100,A2:A100,\"Aizawl\",B2:B100,\">1000\")` returns:",
+    "opts": {
+      "A": "The sum of C where A is Aizawl AND B exceeds 1000",
+      "B": "The sum of A and B",
+      "C": "A count",
+      "D": "An error"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Formulae and Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 5,
+    "section": "",
+    "q": "COUNTIFS differs from COUNTIF in that it:",
+    "opts": {
+      "A": "Counts blanks",
+      "B": "Supports multiple criteria across multiple ranges",
+      "C": "Counts only text",
+      "D": "Works only on one column"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Formulae and Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 6,
+    "section": "",
+    "q": "`=IF(A1>=50,\"Pass\",\"Fail\")` is an example of a:",
+    "opts": {
+      "A": "Lookup function",
+      "B": "Logical function",
+      "C": "Financial function",
+      "D": "Text function"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Formulae and Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 7,
+    "section": "",
+    "q": "To test that two conditions are both true you use:",
+    "opts": {
+      "A": "OR",
+      "B": "AND",
+      "C": "NOT",
+      "D": "XOR"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Formulae and Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 8,
+    "section": "",
+    "q": "`=LEN(TRIM(\" MUDAL \"))` returns:",
+    "opts": {
+      "A": "5",
+      "B": "7",
+      "C": "9",
+      "D": "0"
+    },
+    "ans": "A",
+    "exp": "TRIM removes leading/trailing spaces leaving \"MUDAL\" = 5",
+    "conf": "high",
+    "note": "",
+    "sub": "Formulae and Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 9,
+    "section": "",
+    "q": "Which function joins text from a range with a chosen delimiter?",
+    "opts": {
+      "A": "CONCATENATE",
+      "B": "TEXTJOIN",
+      "C": "LEFT",
+      "D": "REPT"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Formulae and Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 10,
+    "section": "",
+    "q": "`=MID(\"SYSTEM\",3,3)` returns:",
+    "opts": {
+      "A": "SYS",
+      "B": "STE",
+      "C": "TEM",
+      "D": "EM"
+    },
+    "ans": "B",
+    "exp": "starts at position 3, length 3",
+    "conf": "high",
+    "note": "The source volume's key says (c) TEM. That is wrong: MID(\"SYSTEM\",3,3) takes three characters starting AT position 3 of S-Y-S-T-E-M, i.e. characters 3-4-5 = STE. The key's own note (\"starts at position 3, length 3\") describes the right computation but then picks the last three characters. Answer corrected to (b) here.",
+    "srcAns": "C",
+    "sub": "Formulae and Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 11,
+    "section": "",
+    "q": "The function returning the current date only, updating each day, is:",
+    "opts": {
+      "A": "NOW()",
+      "B": "TODAY()",
+      "C": "DATE()",
+      "D": "DAY()"
+    },
+    "ans": "B",
+    "exp": "NOW includes time",
+    "conf": "high",
+    "note": "",
+    "sub": "Formulae and Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 12,
+    "section": "",
+    "q": "`=DATEDIF(A1,B1,\"Y\")` returns the:",
+    "opts": {
+      "A": "Number of complete years between two dates",
+      "B": "Day of the week",
+      "C": "Number of days only",
+      "D": "Month name"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Formulae and Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 13,
+    "section": "",
+    "q": "`=NETWORKDAYS(start,end)` excludes:",
+    "opts": {
+      "A": "Weekends (and optional holidays)",
+      "B": "Only holidays",
+      "C": "Nothing",
+      "D": "Weekdays"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Formulae and Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 14,
+    "section": "",
+    "q": "STDEV.S is used when the data represents:",
+    "opts": {
+      "A": "The entire population",
+      "B": "A sample of the population",
+      "C": "Text values",
+      "D": "Dates"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Statistical Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 15,
+    "section": "",
+    "q": "`=RANK.EQ(B2,$B$2:$B$50,0)` ranks the value in:",
+    "opts": {
+      "A": "Ascending order",
+      "B": "Descending order",
+      "C": "Alphabetical order",
+      "D": "Random order"
+    },
+    "ans": "B",
+    "exp": "0 or omitted = descending",
+    "conf": "high",
+    "note": "",
+    "sub": "Statistical Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 16,
+    "section": "",
+    "q": "To find the third-largest value in a range you use:",
+    "opts": {
+      "A": "LARGE with k=3",
+      "B": "MAX",
+      "C": "SMALL with k=3",
+      "D": "RANK"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Statistical Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 17,
+    "section": "",
+    "q": "`=PMT(rate/12,years*12,-principal)` computes the:",
+    "opts": {
+      "A": "Monthly instalment on a loan",
+      "B": "Interest earned",
+      "C": "Depreciation",
+      "D": "Net present value"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Financial Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 18,
+    "section": "",
+    "q": "IPMT returns the:",
+    "opts": {
+      "A": "Total payment",
+      "B": "Interest portion of a specific payment",
+      "C": "Principal only",
+      "D": "Rate of return"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Financial Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 19,
+    "section": "",
+    "q": "Text to Columns is used to:",
+    "opts": {
+      "A": "Split a single column of combined data into multiple columns",
+      "B": "Merge cells",
+      "C": "Insert a column",
+      "D": "Format text"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Sorting and Filtering"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 20,
+    "section": "",
+    "q": "Flash Fill works by:",
+    "opts": {
+      "A": "Recognising a pattern from your example and filling the rest automatically",
+      "B": "Copying formulas",
+      "C": "Refreshing data",
+      "D": "Applying a theme"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Sorting and Filtering"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 21,
+    "section": "",
+    "q": "Remove Duplicates permanently:",
+    "opts": {
+      "A": "Hides duplicate rows",
+      "B": "Deletes duplicate rows based on selected columns",
+      "C": "Highlights duplicates",
+      "D": "Sorts data"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Sorting and Filtering"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 22,
+    "section": "",
+    "q": "The SUBTOTAL function is preferred over SUM with filtered data because it:",
+    "opts": {
+      "A": "Ignores rows hidden by a filter",
+      "B": "Is faster",
+      "C": "Rounds values",
+      "D": "Adds text"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Sorting and Filtering"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 23,
+    "section": "",
+    "q": "Freeze Panes is used to:",
+    "opts": {
+      "A": "Keep specified rows or columns visible while scrolling",
+      "B": "Lock cells from editing",
+      "C": "Protect the workbook",
+      "D": "Prevent printing"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Workbook Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 24,
+    "section": "",
+    "q": "A circular reference occurs when:",
+    "opts": {
+      "A": "A formula refers to its own cell directly or indirectly",
+      "B": "Two sheets are linked",
+      "C": "A chart is copied",
+      "D": "A range is named twice"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Formulae and Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 25,
+    "section": "",
+    "q": "Which chart type is most appropriate for showing the composition of a whole at a single point in time?",
+    "opts": {
+      "A": "Line",
+      "B": "Pie",
+      "C": "Scatter",
+      "D": "Histogram"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Dashboards"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 26,
+    "section": "",
+    "q": "A secondary axis is needed when:",
+    "opts": {
+      "A": "Two data series have very different value ranges",
+      "B": "There is only one series",
+      "C": "The chart is 3-D",
+      "D": "Data is sorted"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Dashboards"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 27,
+    "section": "",
+    "q": "Sparklines are:",
+    "opts": {
+      "A": "Miniature charts contained within a single cell",
+      "B": "Cell borders",
+      "C": "Conditional formats",
+      "D": "Slicers"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Dashboards"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 28,
+    "section": "",
+    "q": "A two-variable Data Table lets you see the effect of:",
+    "opts": {
+      "A": "One input on one formula",
+      "B": "Two inputs on a single formula result",
+      "C": "Two formulas on one input",
+      "D": "Ten inputs"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "What-if Analysis"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 29,
+    "section": "",
+    "q": "Solver differs from Goal Seek in that Solver:",
+    "opts": {
+      "A": "Optimises an objective by changing multiple variables subject to constraints",
+      "B": "Works on one cell only",
+      "C": "Cannot handle constraints",
+      "D": "Only formats cells"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Goal Seek"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 30,
+    "section": "",
+    "q": "In Power Query, combining two tables by adding rows of one below the other is:",
+    "opts": {
+      "A": "Merge",
+      "B": "Append",
+      "C": "Pivot",
+      "D": "Group By"
+    },
+    "ans": "B",
+    "exp": "Merge joins columns, Append stacks rows",
+    "conf": "high",
+    "note": "",
+    "sub": "Power Query (Introduction)"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "V",
+    "no": 1,
+    "section": "",
+    "q": "The recommended aspect ratio for modern widescreen presentations is:",
+    "opts": {
+      "A": "4:3",
+      "B": "16:9",
+      "C": "1:1",
+      "D": "3:2"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Presentation Design"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "V",
+    "no": 2,
+    "section": "",
+    "q": "A macro-enabled presentation is saved as:",
+    "opts": {
+      "A": ".pptx",
+      "B": ".pptm",
+      "C": ".potx",
+      "D": ".ppsx"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Presentation Design"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "V",
+    "no": 3,
+    "section": "",
+    "q": "A layout differs from the Slide Master in that a layout:",
+    "opts": {
+      "A": "Controls one arrangement of placeholders under the master",
+      "B": "Controls the whole presentation",
+      "C": "Is the same as a theme",
+      "D": "Stores animations only"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Slide Master"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "V",
+    "no": 4,
+    "section": "",
+    "q": "A content placeholder differs from a text box in that a placeholder:",
+    "opts": {
+      "A": "Is defined by the layout and appears in the outline",
+      "B": "Cannot hold text",
+      "C": "Cannot be resized",
+      "D": "Is always invisible"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Slide Master"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "V",
+    "no": 5,
+    "section": "",
+    "q": "Outline View allows you to:",
+    "opts": {
+      "A": "Type and reorganise slide titles and bullet text quickly",
+      "B": "Edit animations",
+      "C": "Record audio",
+      "D": "Print handouts"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Presentation Design"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "V",
+    "no": 6,
+    "section": "",
+    "q": "Reuse Slides lets you:",
+    "opts": {
+      "A": "Insert slides from another presentation, optionally keeping source formatting",
+      "B": "Duplicate the current slide only",
+      "C": "Delete slides",
+      "D": "Export to Word"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Presentation Design"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "V",
+    "no": 7,
+    "section": "",
+    "q": "A hidden slide:",
+    "opts": {
+      "A": "Is deleted",
+      "B": "Remains in the file but is skipped during the slide show",
+      "C": "Cannot be printed",
+      "D": "Loses its animations"
+    },
+    "ans": "B",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Presentation Delivery"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "V",
+    "no": 8,
+    "section": "",
+    "q": "A Custom Slide Show is used to:",
+    "opts": {
+      "A": "Present a chosen subset of slides for a particular audience",
+      "B": "Change the theme",
+      "C": "Add narration",
+      "D": "Compress media"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Presentation Delivery"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "V",
+    "no": 9,
+    "section": "",
+    "q": "Summary Zoom in PowerPoint creates:",
+    "opts": {
+      "A": "A navigable landing slide linking to sections",
+      "B": "A magnified image",
+      "C": "An animation",
+      "D": "A chart"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Presentation Delivery"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "V",
+    "no": 10,
+    "section": "",
+    "q": "In animation timing, \"Start: With Previous\" means the effect:",
+    "opts": {
+      "A": "Begins at the same time as the preceding animation",
+      "B": "Waits for a click",
+      "C": "Starts after the previous one ends",
+      "D": "Never runs"
+    },
+    "ans": "A",
+    "exp": "\"After Previous\" starts when the previous ends",
+    "conf": "high",
+    "note": "",
+    "sub": "Animation"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "V",
+    "no": 11,
+    "section": "",
+    "q": "A trigger animation begins when:",
+    "opts": {
+      "A": "A specified object is clicked",
+      "B": "The slide loads",
+      "C": "The file is saved",
+      "D": "A timer expires only"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Animation"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "V",
+    "no": 12,
+    "section": "",
+    "q": "A motion path animation:",
+    "opts": {
+      "A": "Moves an object along a defined route on the slide",
+      "B": "Changes the object's colour",
+      "C": "Removes the object",
+      "D": "Adds sound"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Animation"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "V",
+    "no": 13,
+    "section": "",
+    "q": "When a chart is linked (rather than embedded) from Excel:",
+    "opts": {
+      "A": "It updates when the Excel source changes",
+      "B": "It becomes static",
+      "C": "It cannot be formatted",
+      "D": "It converts to an image"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Charts"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "V",
+    "no": 14,
+    "section": "",
+    "q": "The Poster Frame option for a video sets:",
+    "opts": {
+      "A": "The still image displayed before playback",
+      "B": "The video resolution",
+      "C": "The volume",
+      "D": "The trim points"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Multimedia"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "V",
+    "no": 15,
+    "section": "",
+    "q": "To have background music continue over several slides, you set the audio to:",
+    "opts": {
+      "A": "Play Across Slides",
+      "B": "Loop until stopped only",
+      "C": "Start on click",
+      "D": "Hide during show"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Multimedia"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "V",
+    "no": 16,
+    "section": "",
+    "q": "Compress Media in PowerPoint is used to:",
+    "opts": {
+      "A": "Reduce file size by lowering embedded video and audio quality",
+      "B": "Zip the file",
+      "C": "Remove slides",
+      "D": "Convert to PDF"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Multimedia"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "V",
+    "no": 17,
+    "section": "",
+    "q": "Presenter Coach provides feedback on:",
+    "opts": {
+      "A": "Pace, filler words and reading from the slide",
+      "B": "Font choices",
+      "C": "File size",
+      "D": "Printing"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Presentation Delivery"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "V",
+    "no": 18,
+    "section": "",
+    "q": "Live captions and subtitles in PowerPoint:",
+    "opts": {
+      "A": "Transcribe the speaker's words on screen in real time",
+      "B": "Require a separate app",
+      "C": "Only work offline",
+      "D": "Replace speaker notes"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Accessibility Features"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "V",
+    "no": 19,
+    "section": "",
+    "q": "During a slide show, the pen and laser pointer tools are accessed by:",
+    "opts": {
+      "A": "Right-clicking or using the on-screen toolbar",
+      "B": "Pressing Esc",
+      "C": "Pressing Ctrl + S",
+      "D": "Exiting the show"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Presentation Delivery"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "V",
+    "no": 20,
+    "section": "",
+    "q": "Embedding fonts in a presentation ensures that:",
+    "opts": {
+      "A": "Text displays correctly on a computer that lacks those fonts",
+      "B": "The file gets smaller",
+      "C": "Animations run faster",
+      "D": "The theme changes"
+    },
+    "ans": "A",
+    "exp": "",
+    "conf": "high",
+    "note": "",
+    "sub": "Presentation Delivery"
+  }
+]

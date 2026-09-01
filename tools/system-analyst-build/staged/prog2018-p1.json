@@ -1,0 +1,1602 @@
+[
+  {
+    "no": 1,
+    "unit": "3",
+    "sub": "Arrays, strings and linear lists",
+    "q": "What are the disadvantages of arrays?",
+    "opts": {
+      "A": "We must know before hand how many elements will be there in the array",
+      "B": "There are chances of wastage of memory space if elements inserted in an array are lesser than the allocated size",
+      "C": "Insertion and deletion becomes tedious",
+      "D": "All of the mentioned"
+    },
+    "ans": "D",
+    "exp": "All three listed drawbacks are real: a static array's size must be fixed in advance, unused slots waste memory, and insertion/deletion in the middle needs shifting of subsequent elements.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 2,
+    "unit": "3",
+    "sub": "Stacks, queues and expression evaluation",
+    "q": "Consider the usual algorithm for determining whether a sequence of parentheses is balanced. The maximum number of parentheses that appear on the stack at any one time when the algorithm analyzes: (()(())(())) are:",
+    "opts": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4 or more"
+    },
+    "ans": "C",
+    "exp": "Pushing on '(' and popping on ')' over ( ( ) ( ( ) ) ( ( ) ) ) gives stack sizes 1,2,1,2,3,2,1,2,3,2,1,0 — the peak is 3. The tempting '4 or more' comes from miscounting the 12 symbols as more deeply nested than they are.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 3,
+    "unit": "3",
+    "sub": "Stacks, queues and expression evaluation",
+    "q": "Which data structure is used for implementing recursion?",
+    "opts": {
+      "A": "Queue",
+      "B": "Stack",
+      "C": "Array",
+      "D": "List"
+    },
+    "ans": "B",
+    "exp": "Recursion is implemented with the call stack: each invocation pushes an activation record holding parameters, locals and the return address, and returning pops it — strictly LIFO behaviour.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 4,
+    "unit": "3",
+    "sub": "Stacks, queues and expression evaluation",
+    "q": "A data structure in which elements can be inserted or deleted at/from both the ends but not in the middle is?",
+    "opts": {
+      "A": "Queue",
+      "B": "Circular queue",
+      "C": "Dequeue",
+      "D": "Priority queue"
+    },
+    "ans": "C",
+    "exp": "A deque (double-ended queue, printed here as 'Dequeue') permits insertion and deletion at both front and rear only. A plain or circular queue restricts insertion to the rear and deletion to the front, and a priority queue orders by key rather than by end.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 5,
+    "unit": "3",
+    "sub": "Stacks, queues and expression evaluation",
+    "q": "A normal queue, if implemented using an array of size MAX_SIZE, gets full when",
+    "opts": {
+      "A": "Rear = MAX_SIZE – 1",
+      "B": "Front = (rear + 1)mod MAX_SIZE",
+      "C": "Front = rear + 1",
+      "D": "Rear = front"
+    },
+    "ans": "A",
+    "exp": "In a linear (non-circular) array queue the rear index only advances, so the queue is full once rear reaches the last index, MAX_SIZE - 1. Option B is the fullness test for a circular queue, not a normal one.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 6,
+    "unit": "3",
+    "sub": "Arrays, strings and linear lists",
+    "q": "What would be the asymptotic time complexity to insert an element at the second position in the linked list?",
+    "opts": {
+      "A": "O(1)",
+      "B": "O(2)",
+      "C": "O(n)",
+      "D": "O(n^2)"
+    },
+    "ans": "A",
+    "exp": "With the head pointer in hand you step to node 1 and relink — a fixed number of operations independent of list length, so O(1). O(n) would apply only if you had to search for the insertion point.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 7,
+    "unit": "3",
+    "sub": "Arrays, strings and linear lists",
+    "q": "Linked list is considered as an example of ___________ type of memory allocation.",
+    "opts": {
+      "A": "Dynamic",
+      "B": "Static",
+      "C": "Compile time",
+      "D": "Run Time"
+    },
+    "ans": "A",
+    "exp": "Nodes are allocated on demand at run time from the heap, so a linked list exemplifies dynamic memory allocation; arrays with a compile-time size are the static counterpart.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 8,
+    "unit": "3",
+    "sub": "Arrays, strings and linear lists",
+    "q": "You are given pointers to first and last nodes of a singly linked list, which of the following operations are dependent on the length of the linked list?",
+    "opts": {
+      "A": "Delete the first element",
+      "B": "Insert a new element as a first element",
+      "C": "Delete the last element of the list",
+      "D": "Add a new element at the end of the list"
+    },
+    "ans": "C",
+    "exp": "Deleting the last node requires updating the second-to-last node's next pointer, and a singly linked list has no backward link, so you must walk from the head — O(n). Deleting or inserting at the front, and appending using the last-node pointer, are all O(1).",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 9,
+    "unit": "3",
+    "sub": "Arrays, strings and linear lists",
+    "q": "What is a memory efficient double linked list?",
+    "opts": {
+      "A": "Each node has only one pointer to traverse the list back and forth",
+      "B": "The list has breakpoints for faster traversal",
+      "C": "An auxiliary singly linked list acts as a helper list to traverse through the doubly linked list",
+      "D": "None of the mentioned"
+    },
+    "ans": "A",
+    "exp": "The memory-efficient doubly linked list is the XOR linked list: each node stores a single field holding prev XOR next, from which either neighbour can be recovered during traversal, halving pointer storage.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 10,
+    "unit": "3",
+    "sub": "Trees, AVL trees, heaps, B-trees and external search",
+    "q": "Disadvantage of using array representation for binary trees is?",
+    "opts": {
+      "A": "difficulty in knowing children nodes of a node",
+      "B": "difficult in finding the parent of a node",
+      "C": "have to know the maximum number of nodes possible before creation of trees",
+      "D": "difficult to implement"
+    },
+    "ans": "C",
+    "exp": "Array representation needs the array sized up front (up to 2^h - 1 slots for height h), so the maximum node count must be known before creation. Finding children (2i+1, 2i+2) and the parent (i-1)/2 is in fact trivially easy in this representation, which rules out A and B.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 11,
+    "unit": "3",
+    "sub": "Trees, AVL trees, heaps, B-trees and external search",
+    "q": "In a binary search tree, which of the following traversals would print the numbers in the ascending order?",
+    "opts": {
+      "A": "Level-order traversal",
+      "B": "Pre-order traversal",
+      "C": "Post-order traversal",
+      "D": "In-order traversal"
+    },
+    "ans": "D",
+    "exp": "In-order traversal of a BST visits left subtree, node, right subtree, which by the BST ordering property emits keys in ascending order.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 12,
+    "unit": "3",
+    "sub": "Trees, AVL trees, heaps, B-trees and external search",
+    "q": "What is a complete binary tree?",
+    "opts": {
+      "A": "Each node has exactly zero or two children",
+      "B": "A binary tree, which is completely filled, with the possible exception of the bottom level, which is filled from right to left",
+      "C": "A binary tree, which is completely filled, with the possible exception of the bottom level, which is filled from left to right",
+      "D": "None of the mentioned"
+    },
+    "ans": "C",
+    "exp": "A complete binary tree has every level filled except possibly the last, which is filled from left to right. Option B is the same definition with the fill direction reversed, and option A describes a full (strictly binary) tree.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 13,
+    "unit": "3",
+    "sub": "Recursion, searching and sorting",
+    "q": "What is the average case complexity of bubble sort?",
+    "opts": {
+      "A": "O(nlogn)",
+      "B": "O(logn)",
+      "C": "O(n)",
+      "D": "O(n^2)"
+    },
+    "ans": "D",
+    "exp": "Bubble sort compares adjacent pairs across roughly n passes of n comparisons, giving O(n^2) in both the average and worst case; only the best case on already-sorted input drops to O(n) with the early-exit optimisation.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 14,
+    "unit": "3",
+    "sub": "Trees, AVL trees, heaps, B-trees and external search",
+    "q": "In a max-heap, element with the greatest key is always in which node?",
+    "opts": {
+      "A": "Leaf node",
+      "B": "First node of left sub tree",
+      "C": "Root node",
+      "D": "First node of right sub tree"
+    },
+    "ans": "C",
+    "exp": "The max-heap property says every parent is at least as large as its children, so by transitivity the maximum key sits at the root.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 15,
+    "unit": "3",
+    "sub": "Graphs, disjoint sets and greedy algorithms",
+    "q": "The Data structure used in standard implementation of Breadth First Search is?",
+    "opts": {
+      "A": "Stack",
+      "B": "Queue",
+      "C": "Linked List",
+      "D": "None of the mentioned"
+    },
+    "ans": "B",
+    "exp": "BFS uses a FIFO queue to visit all vertices at the current distance before moving outward; substituting a stack turns the traversal into DFS.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 16,
+    "unit": "3",
+    "sub": "Algorithm development and complexity",
+    "q": "In dynamic programming, the technique of storing the previously calculated values is called ___________",
+    "opts": {
+      "A": "Saving value property",
+      "B": "Storing value property",
+      "C": "Memoization",
+      "D": "Mapping"
+    },
+    "ans": "C",
+    "exp": "Memoization is the standard term for caching results of already-computed subproblems so each is solved once; the other three options are not real technical terms.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 17,
+    "unit": "3",
+    "sub": "Algorithm development and complexity",
+    "q": "Which of the following problems should be solved using dynamic programming?",
+    "opts": {
+      "A": "Mergesort",
+      "B": "Binary search",
+      "C": "Longest common subsequence",
+      "D": "Quicksort"
+    },
+    "ans": "C",
+    "exp": "Longest common subsequence has overlapping subproblems and optimal substructure, so a DP table over prefix pairs solves it in O(mn). Mergesort, quicksort and binary search split into disjoint subproblems and are divide-and-conquer, not DP.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 18,
+    "unit": "3",
+    "sub": "Algorithm development and complexity",
+    "q": "If a problem can be solved by combining optimal solutions to non-overlapping problems, the strategy is called ____________",
+    "opts": {
+      "A": "Dynamic programming",
+      "B": "Greedy",
+      "C": "Divide and conquer",
+      "D": "Recursion"
+    },
+    "ans": "C",
+    "exp": "Non-overlapping subproblems combined into a whole is exactly divide and conquer; dynamic programming is the strategy reserved for the case where the subproblems do overlap.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 19,
+    "unit": "3",
+    "sub": "Recursion, searching and sorting",
+    "q": "Which of the following sorting algorithms in its typical implementation gives best performance when applied on an array which is sorted or almost sorted (maximum 1 or two elements are misplaced).",
+    "opts": {
+      "A": "Quick Sort",
+      "B": "Heap Sort",
+      "C": "Merge Sort",
+      "D": "Insertion Sort"
+    },
+    "ans": "D",
+    "exp": "Insertion sort's inner loop does almost no shifting on nearly sorted data, so it runs in O(n) (about n comparisons plus the few needed for the misplaced elements). Merge and heap sort remain Theta(n log n) regardless of input, and quicksort with a first/last-element pivot actually degrades to O(n^2) on sorted input.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 20,
+    "unit": "3",
+    "sub": "Graphs, disjoint sets and greedy algorithms",
+    "q": "Depth First Search is equivalent to which of the traversal in the Binary Trees?",
+    "opts": {
+      "A": "Pre-order Traversal",
+      "B": "Post-order Traversal",
+      "C": "Level-order Traversal",
+      "D": "In-order Traversal"
+    },
+    "ans": "A",
+    "exp": "The recursive DFS of a graph, which visits a node and then descends into each unvisited neighbour, maps onto pre-order traversal of a binary tree. Strictly speaking in-order and post-order are also depth-first orders, so options B and D are defensible in a pedantic reading, but pre-order is the direct structural match and the intended key.",
+    "conf": "medium",
+    "note": ""
+  },
+  {
+    "no": 21,
+    "unit": "3",
+    "sub": "Graphs, disjoint sets and greedy algorithms",
+    "q": "Time Complexity of DFS is? (V – number of vertices, E – number of edges)",
+    "opts": {
+      "A": "O(V + E)",
+      "B": "O(V)",
+      "C": "O(E)",
+      "D": "O(V * E)"
+    },
+    "ans": "A",
+    "exp": "DFS visits every vertex once and traverses every edge once (twice in an undirected adjacency-list representation), giving O(V + E) with adjacency lists. An adjacency-matrix implementation would be O(V^2), which is not among the options.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 22,
+    "unit": "3",
+    "sub": "Trees, AVL trees, heaps, B-trees and external search",
+    "q": "The PreOrder and PostOrder traversal of binary tree generate the same out put. The tree can have maximum",
+    "opts": {
+      "A": "One node",
+      "B": "Two node",
+      "C": "Three node",
+      "D": "Any number of node"
+    },
+    "ans": "A",
+    "exp": "Preorder visits root-first and postorder visits root-last, so the two sequences can agree only when there is nothing but the root: a single node. Any second node already forces the root to the front in preorder and to the back in postorder.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 23,
+    "unit": "3",
+    "sub": "Stacks, queues and expression evaluation",
+    "q": "In a stack, if a user tries to remove an element from empty stack it is called ____________",
+    "opts": {
+      "A": "Underflow",
+      "B": "Empty collection",
+      "C": "Overflow",
+      "D": "Garbage Collection"
+    },
+    "ans": "A",
+    "exp": "Popping from an empty stack is stack underflow; overflow is the opposite error, pushing onto a full stack.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 24,
+    "unit": "3",
+    "sub": "Stacks, queues and expression evaluation",
+    "q": "The postfix form of A*B+C/D is?",
+    "opts": {
+      "A": "*AB/CD+",
+      "B": "AB*CD/+",
+      "C": "A*BC+/D",
+      "D": "ABCD+/*"
+    },
+    "ans": "B",
+    "exp": "A*B+C/D groups as (A*B)+(C/D) because * and / bind tighter than +, so postfix is AB* then CD/ then the final + : AB*CD/+.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 25,
+    "unit": "3",
+    "sub": "Stacks, queues and expression evaluation",
+    "q": "The result of evaluating the postfix expression  5, 4, 6, +, *, 4, 9, 3, /, +, * is?",
+    "opts": {
+      "A": "600",
+      "B": "350",
+      "C": "650",
+      "D": "588"
+    },
+    "ans": "B",
+    "exp": "Evaluating left to right on a stack: 4+6=10, 5*10=50; then 9/3=3, 4+3=7; finally 50*7=350.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 26,
+    "unit": "3",
+    "sub": "Graphs, disjoint sets and greedy algorithms",
+    "q": "If we choose Prim's Algorithm for uniquely weighted spanning tree instead of Kruskal's Algorithm, then",
+    "opts": {
+      "A": "we'll get a different spanning tree.",
+      "B": "we'll get the same spanning tree.",
+      "C": "spanning will have less edges.",
+      "D": "spanning will not cover all vertices."
+    },
+    "ans": "B",
+    "exp": "When all edge weights are distinct the minimum spanning tree is unique, so Prim's and Kruskal's must both return that same tree (they may add edges in a different order).",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 27,
+    "unit": "3",
+    "sub": "Trees, AVL trees, heaps, B-trees and external search",
+    "q": "If a node having two children is deleted from a binary tree, it is replaced by its",
+    "opts": {
+      "A": "Preorder predecessor",
+      "B": "Inorder predecessor",
+      "C": "Inorder Successor",
+      "D": "Preorder Successor"
+    },
+    "ans": "C",
+    "exp": "Deleting a two-child node in a BST means promoting the nearest value in sorted order, i.e. the inorder successor (smallest node of the right subtree) as in the standard CLRS/Tanenbaum treatment. Note the inorder predecessor (largest node of the left subtree) is equally valid and some circulating answer keys for this exact question mark option A, so treat this pairing as genuinely ambiguous.",
+    "conf": "low",
+    "note": "Both derivations chose the inorder successor, but the inorder predecessor (option b) is the exact symmetric mirror of it and some textbooks key that instead. The question as printed does not distinguish them; learn the successor convention for the exam but treat (b) as defensible."
+  },
+  {
+    "no": 28,
+    "unit": "3",
+    "sub": "Recursion, searching and sorting",
+    "q": "The quick sort algorithm exploit ___________ design technique",
+    "opts": {
+      "A": "Back tracking",
+      "B": "Dynamic Programming",
+      "C": "Divide and Conquer",
+      "D": "Overflow"
+    },
+    "ans": "C",
+    "exp": "Quicksort partitions the array about a pivot (divide), sorts each part recursively (conquer) and needs no combine step, which is the textbook divide-and-conquer pattern.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 29,
+    "unit": "3",
+    "sub": "Arrays, strings and linear lists",
+    "q": "The memory address of fifth element of an array can be calculated by the formula",
+    "opts": {
+      "A": "LOC(Array[5])=Base(Array)+w(5-lower bound), where w is the number of words per memory cell for the array",
+      "B": "LOC(Array[5])=Base(Array[5])+(5w-lower bound), where w is the number of words per memory cell for the array",
+      "C": "LOC(Array[5])=Base(Array[4w])+(5-Upper bound), where w is the number of words per memory cell for the array",
+      "D": "None of above"
+    },
+    "ans": "A",
+    "exp": "Element addresses are computed from the array's own base address plus the element offset scaled by the cell width: LOC(Array[k]) = Base(Array) + w*(k - lower bound). Options B and C corrupt this by taking the base of an element rather than the array and by mixing w into the index term.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 30,
+    "unit": "3",
+    "sub": "Trees, AVL trees, heaps, B-trees and external search",
+    "q": "Data Structure: Preorder and in order of a tree is given as Preorder : A B D H E C F I G J K Inorder : D H B E A I F C J G K What will be the postorder?",
+    "opts": {
+      "A": "H D E B I F J K G C A",
+      "B": "H D E B F I J K G C A",
+      "C": "H D E B I F J K C G A",
+      "D": "H D E B F I J K C G A"
+    },
+    "ans": "A",
+    "exp": "Preorder gives root A; inorder splits into left {D H B E} and right {I F C J G K}. Left: root B with subtree D (right child H) and right child E; right: root C with left child F (left child I) and right child G (children J and K). Reading postorder bottom-up gives H D E B | I F J K G C | A = option A.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 31,
+    "unit": "3",
+    "sub": "Trees, AVL trees, heaps, B-trees and external search",
+    "q": "If a binary tree has height 10 then what is the maximum number of nodes in that tree?",
+    "opts": {
+      "A": "1000",
+      "B": "1023",
+      "C": "1024",
+      "D": "1002"
+    },
+    "ans": "B",
+    "exp": "Counting height as the number of levels, a full binary tree of height h holds 2^h - 1 = 2^10 - 1 = 1023 nodes. Under the edge-counting convention the answer would be 2^11 - 1 = 2047, which is not printed, so option B is what the paper intends.",
+    "conf": "medium",
+    "note": ""
+  },
+  {
+    "no": 32,
+    "unit": "3",
+    "sub": "Recursion, searching and sorting",
+    "q": "___________ comparisons required to sort the list 1, 2, 3…….n using insertion sort.",
+    "opts": {
+      "A": "(n^2 + n + 2) / 2",
+      "B": "(n^3 + n – 2) / 2",
+      "C": "(n^2 + n – 2) / 2",
+      "D": "(n^2 – n – 2) / 2"
+    },
+    "ans": "C",
+    "exp": "(n^2 + n - 2)/2 = 2 + 3 + ... + n, the count you get when pass i costs i comparisons (i-1 element comparisons plus the loop-boundary test) — the maximum for insertion sort. The question as printed is defective: the list 1,2,3,...,n is already sorted, which insertion sort handles in just n-1 comparisons, and no printed option equals n-1.",
+    "conf": "medium",
+    "note": ""
+  },
+  {
+    "no": 33,
+    "unit": "3",
+    "sub": "Recursion, searching and sorting",
+    "q": "List obtained in third pass of selection sort for list 3, 5, 4, 1, 2 is ___________",
+    "opts": {
+      "A": "1,2,4,3,5",
+      "B": "1,2,3,4,5",
+      "C": "1,5,4,3,2",
+      "D": "3,5,4,1,2"
+    },
+    "ans": "B",
+    "exp": "Selection sort on 3,5,4,1,2: pass 1 swaps min 1 to front giving 1,5,4,3,2; pass 2 swaps min 2 giving 1,2,4,3,5; pass 3 swaps min 3 of {4,3,5} giving 1,2,3,4,5. The options match the list after passes 0/1/2/3, confirming that 'third pass' means the state after pass 3.",
+    "conf": "medium",
+    "note": ""
+  },
+  {
+    "no": 34,
+    "unit": "3",
+    "sub": "Algorithm development and complexity",
+    "q": "Consider the following functions:   f(n)=2^n, g(n)=n!, h(n)=n^log n Which of the following Statement about the asymptotic behavior of f(n),g(n) and h(n) is true?",
+    "opts": {
+      "A": "f(n)=O(g(n));g(n)=O(h(n))",
+      "B": "f(n)=Ω(g(n));g(n)=O(h(n))",
+      "C": "g(n)=O(f(n));h(n)=O(f(n))",
+      "D": "h(n)=O(f(n));g(n)=Ω(f(n))"
+    },
+    "ans": "D",
+    "exp": "h(n) = n^log n = 2^((log n)^2) and (log n)^2 = o(n), so h(n) = O(2^n) = O(f(n)); and n! = 2^Theta(n log n) grows faster than 2^n, so g(n) = Omega(f(n)). The true ordering is h < f < g, which only option D states correctly.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 35,
+    "unit": "2",
+    "sub": "Memory hierarchy, virtual memory and cache",
+    "q": "Which memory device is generally made of semi-conductors?",
+    "opts": {
+      "A": "RAM",
+      "B": "Hard-disk",
+      "C": "Floppy disk",
+      "D": "Compact disk"
+    },
+    "ans": "A",
+    "exp": "RAM is a solid-state semiconductor device; hard disks and floppies store data magnetically and CDs optically.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 36,
+    "unit": "2",
+    "sub": "Computer organization, registers and instruction cycle",
+    "q": "The ALU makes use of ___________ to store the intermediate results.",
+    "opts": {
+      "A": "Accumulators",
+      "B": "Registers",
+      "C": "Heap",
+      "D": "Stack"
+    },
+    "ans": "A",
+    "exp": "In the classic accumulator-based CPU model the ALU writes its intermediate result back into the accumulator, which is the keyed answer for this standard question. 'Registers' is also literally true (the accumulator is a register), so the option set is loose.",
+    "conf": "medium",
+    "note": ""
+  },
+  {
+    "no": 37,
+    "unit": "2",
+    "sub": "Control unit, machine language and assembly language",
+    "q": "The control unit controls other units by generating ___________",
+    "opts": {
+      "A": "Control signals",
+      "B": "Timing signals",
+      "C": "Transfer signals",
+      "D": "Command Signals"
+    },
+    "ans": "B",
+    "exp": "The control unit sequences the other units by issuing timing signals derived from the processor clock, which is the keyed answer in the standard computer-organisation question set this item is taken from. 'Control signals' reads as the more natural phrase, so the distinction here is a wording convention rather than a real difference.",
+    "conf": "low",
+    "note": "A near-synonym pair: 'control signals' (option a) is the plain reading of the sentence, 'timing signals' the Hamacher-textbook framing this item appears to be drawn from. Genuinely ambiguous as printed."
+  },
+  {
+    "no": 38,
+    "unit": "2",
+    "sub": "Input/output organization and peripherals",
+    "q": "The Input devices can send information to the processor.",
+    "opts": {
+      "A": "When the SIN status flag is set",
+      "B": "When the data arrives regardless of the SIN flag",
+      "C": "Neither of the cases",
+      "D": "Either of the cases"
+    },
+    "ans": "A",
+    "exp": "In program-controlled (polled) I/O the processor reads input only after the SIN status flag is set, indicating a character is ready; sending regardless of the flag would lose or duplicate data.",
+    "conf": "medium",
+    "note": ""
+  },
+  {
+    "no": 39,
+    "unit": "2",
+    "sub": "Input/output organization and peripherals",
+    "q": "The I/O interface required to connect the I/O device to the bus consists of ___________",
+    "opts": {
+      "A": "Address decoder and registers",
+      "B": "Control circuits",
+      "C": "Address decoder, registers and Control circuits",
+      "D": "Only Control circuits"
+    },
+    "ans": "C",
+    "exp": "An I/O interface needs an address decoder to recognise its bus address, data/status/control registers to hold the transferred bytes and flags, and control circuitry to coordinate the transfer — all three, not just one part.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 40,
+    "unit": "2",
+    "sub": "Memory hierarchy, virtual memory and cache",
+    "q": "___________ is generally used to increase the apparent size of physical memory.",
+    "opts": {
+      "A": "Secondary memory",
+      "B": "Virtual memory",
+      "C": "Hard-disk",
+      "D": "Disks"
+    },
+    "ans": "B",
+    "exp": "Virtual memory uses disk as a backing store behind address translation so programs see an address space larger than installed RAM; secondary memory and disks are the hardware it exploits, not the technique.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 41,
+    "unit": "2",
+    "sub": "Memory hierarchy, virtual memory and cache",
+    "q": "The time delay between two successive initiation of memory operation ___________",
+    "opts": {
+      "A": "Memory access time",
+      "B": "Memory search time",
+      "C": "Memory cycle time",
+      "D": "Instruction delay"
+    },
+    "ans": "C",
+    "exp": "Memory cycle time is defined as the minimum time between the initiation of two successive memory operations, i.e. access time plus the recovery/refresh time the memory needs before it can be addressed again. The trap is memory access time (option A), which covers only the interval from address presentation to data availability and is therefore shorter than the cycle time.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 42,
+    "unit": "2",
+    "sub": "Computer organization, registers and instruction cycle",
+    "q": "The decoded instruction is stored in ___________",
+    "opts": {
+      "A": "IR",
+      "B": "PC",
+      "C": "Registers",
+      "D": "MDR"
+    },
+    "ans": "A",
+    "exp": "The instruction fetched from memory is held in the Instruction Register (IR), where it stays while the decoder interprets its opcode. PC only holds the address of the next instruction and MDR is just the data buffer on the memory bus, so neither can hold the instruction being decoded.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 43,
+    "unit": "2",
+    "sub": "Computer organization, registers and instruction cycle",
+    "q": "Which of the register/s of the processor is/are connected to Memory Bus ?",
+    "opts": {
+      "A": "PC",
+      "B": "MAR",
+      "C": "IR",
+      "D": "Both PC and MAR"
+    },
+    "ans": "D",
+    "exp": "In the standard basic-operational-concepts treatment, PC and MAR are the two address-holding registers tied to the address lines of the memory bus (PC supplies the next instruction address, MAR the address of the location actually being accessed), which is the answer this question is keyed to. Strictly, in Hamacher's processor model only MAR (address lines) and MDR (data lines) physically interface the bus with the PC feeding MAR internally, so option B is defensible on a stricter reading.",
+    "conf": "medium",
+    "note": ""
+  },
+  {
+    "no": 44,
+    "unit": "2",
+    "sub": "Pipelining, vector and parallel processing",
+    "q": "A processor performing fetch or decoding of different instruction during the execution of another instruction is called ___________",
+    "opts": {
+      "A": "Super-scaling",
+      "B": "Pipe-lining",
+      "C": "Parallel Computation",
+      "D": "None of the mentioned"
+    },
+    "ans": "B",
+    "exp": "Pipelining overlaps the stages of consecutive instructions, so one instruction is being fetched or decoded while an earlier one is still executing. Super-scaling (superscalar) is the different idea of issuing two or more instructions to parallel execution units in the same cycle, which is the usual distractor here.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 45,
+    "unit": "2",
+    "sub": "Computer organization, registers and instruction cycle",
+    "q": "The two phases of executing an instruction are ___________",
+    "opts": {
+      "A": "Instruction decoding and storage",
+      "B": "Instruction fetch and instruction execution",
+      "C": "Instruction execution and storage",
+      "D": "Instruction fetch and Instruction processing"
+    },
+    "ans": "B",
+    "exp": "The instruction cycle divides into the fetch phase (get the instruction from memory into the IR) and the execution phase (decode and carry it out); storage of a result is part of execution, not a separate phase. Option D is the trap because \"instruction processing\" is not a defined phase name.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 46,
+    "unit": "2",
+    "sub": "Number representation and computer arithmetic",
+    "q": "When 1101 is used to divide 100010010 the remainder is ___________",
+    "opts": {
+      "A": "101",
+      "B": "11",
+      "C": "0",
+      "D": "1"
+    },
+    "ans": "D",
+    "exp": "(100010010)_2 = 256+16+2 = 274 and (1101)_2 = 13; 13 x 21 = 273, so 274 = 13 x 21 + 1 and the remainder is 1, i.e. (1)_2. Note that if the question had meant modulo-2 (CRC/XOR) division the remainder would be 111, which is not among the options, confirming ordinary arithmetic division is intended.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 47,
+    "unit": "2",
+    "sub": "Input/output organization and peripherals",
+    "q": "In memory-mapped I/O ___________",
+    "opts": {
+      "A": "The I/O devices and the memory share the same address space",
+      "B": "The I/O devices have a seperate address space",
+      "C": "The memory and I/O devices have an associated address space",
+      "D": "A part of the memory is specifically set aside for the I/O operation"
+    },
+    "ans": "A",
+    "exp": "Memory-mapped I/O assigns device registers addresses out of the same single address space used by memory, so ordinary load/store instructions access them and no special I/O instructions are needed. Option B describes the opposite scheme, I/O-mapped (isolated) I/O with separate IN/OUT instructions.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 48,
+    "unit": "2",
+    "sub": "Input/output organization and peripherals",
+    "q": "The method of accessing the I/O devices by repeatedly checking the status flags is",
+    "opts": {
+      "A": "Program-controlled I/O",
+      "B": "Busy Waiting I/O",
+      "C": "I/O mapped",
+      "D": "DMA"
+    },
+    "ans": "A",
+    "exp": "Repeatedly reading a device's status flag until it signals readiness is program-controlled I/O (polling), where the processor itself, under program control, does all the waiting instead of being interrupted or using DMA. Option B, \"busy waiting\", names the same behaviour and is arguably equally correct, but program-controlled I/O is the standard textbook term for the access method, so A is the intended key.",
+    "conf": "medium",
+    "note": ""
+  },
+  {
+    "no": 49,
+    "unit": "2",
+    "sub": "Input/output organization and peripherals",
+    "q": "The signal sent to the device from the processor to the device after recieving an interrupt is",
+    "opts": {
+      "A": "Interrupt-acknowledge",
+      "B": "Return signal",
+      "C": "Service signal",
+      "D": "Permission signal"
+    },
+    "ans": "A",
+    "exp": "After accepting an interrupt request the processor sends an interrupt-acknowledge signal back to the device, which tells the device its request has been recognised and causes it to deactivate its interrupt-request line. The other three names are not standard interrupt-handshake signals.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 50,
+    "unit": "2",
+    "sub": "Input/output organization and peripherals",
+    "q": "Which interrupt is non maskable?",
+    "opts": {
+      "A": "RST 5.5",
+      "B": "RST 7.5",
+      "C": "TRAP",
+      "D": "Both RST 5.5 and 7.5"
+    },
+    "ans": "C",
+    "exp": "In the 8085, TRAP (RST 4.5) is the only non-maskable hardware interrupt: it cannot be disabled by DI or masked through SIM. RST 5.5, 6.5 and 7.5 are all maskable via the SIM instruction's mask bits, so options A, B and D are wrong.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 51,
+    "unit": "2",
+    "sub": "Memory hierarchy, virtual memory and cache",
+    "q": "The disadvantage of DRAM over SRAM is/are ____________",
+    "opts": {
+      "A": "Lower data storage capacities",
+      "B": "Higher heat dissipation",
+      "C": "The cells are not static",
+      "D": "All of the mentioned"
+    },
+    "ans": "C",
+    "exp": "A DRAM cell stores its bit as charge on a capacitor that leaks, so the cells are not static and need periodic refresh circuitry, which is DRAM's real drawback against SRAM's bistable latch cells. \"All of the mentioned\" is the trap: DRAM actually has higher storage density and lower power/heat dissipation than SRAM, so A and B are advantages, not disadvantages.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 52,
+    "unit": "2",
+    "sub": "Memory hierarchy, virtual memory and cache",
+    "q": "The contents of the EPROM are earsed by ____________",
+    "opts": {
+      "A": "Overcharging the chip",
+      "B": "Exposing the chip to UV rays",
+      "C": "Exposing the chip to IR rays",
+      "D": "Discharging the Chip"
+    },
+    "ans": "B",
+    "exp": "An EPROM is erased by shining ultraviolet light through the quartz window on the chip, which gives the trapped electrons on the floating gates enough energy to leak away and resets all cells to 1. IR radiation lacks the photon energy to do this; electrical erasure is the distinguishing feature of EEPROM/flash, not EPROM.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 53,
+    "unit": "2",
+    "sub": "Number representation and computer arithmetic",
+    "q": "The product of -13 and 11 is",
+    "opts": {
+      "A": "1100110011",
+      "B": "1101110001",
+      "C": "1010101010",
+      "D": "1111111000"
+    },
+    "ans": "B",
+    "exp": "-13 x 11 = -143, and the four ten-bit options imply two's complement. +143 = (0010001111)_2; inverting gives 1101110000 and adding 1 gives 1101110001, which is option B. Cross-check: (1101110001)_2 = 881 as an unsigned value, and 881 - 1024 = -143.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 54,
+    "unit": "2",
+    "sub": "Number representation and computer arithmetic",
+    "q": "If (101.01)_2=(x)_10 , then what is the value of x?",
+    "opts": {
+      "A": "505.05",
+      "B": "10.101",
+      "C": "101.01",
+      "D": "5.25"
+    },
+    "ans": "D",
+    "exp": "(101.01)_2 = 1x2^2 + 0x2^1 + 1x2^0 + 0x2^-1 + 1x2^-2 = 4 + 0 + 1 + 0 + 0.25 = 5.25. The trap options simply re-decorate the original digits (101.01, 10.101) instead of evaluating the positional weights.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 55,
+    "unit": "2",
+    "sub": "Number representation and computer arithmetic",
+    "q": "The decimal number 10 is represented in its BCD form as",
+    "opts": {
+      "A": "1010",
+      "B": "01010",
+      "C": "00010000",
+      "D": "001010"
+    },
+    "ans": "C",
+    "exp": "BCD encodes each decimal digit separately in four bits, so decimal 10 is the digits 1 and 0, giving 0001 0000 = 00010000. Option A, 1010, is the classic trap: that is pure binary for ten and is an invalid (unused) BCD combination, since BCD digit codes only run 0000-1001.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 56,
+    "unit": "2",
+    "sub": "Number representation and computer arithmetic",
+    "q": "It should be kept in mind that don't care terms should be used along with the terms that are present in",
+    "opts": {
+      "A": "Minterms",
+      "B": "Maxterm",
+      "C": "K-Map",
+      "D": "Latches"
+    },
+    "ans": "C",
+    "exp": "The stem is garbled - words have clearly dropped out of the printed sentence - so no option fits it cleanly. Don't-care terms are only exploited during K-map minimisation, where they are grouped together with the 1-cells to form larger implicants, so \"K-Map\" is the closest option; on a strictly literal reading of \"the terms that are present\", \"Minterms\" (the on-set cells the don't-cares are grouped with) is about equally defensible.",
+    "conf": "low",
+    "note": "The printed stem is truncated — words have dropped out of the sentence — so no option fits it cleanly. Don't-care terms are exploited during K-map minimisation, which makes (c) the closest fit, but the question is defective."
+  },
+  {
+    "no": 57,
+    "unit": "2",
+    "sub": "Number representation and computer arithmetic",
+    "q": "Boolean expression A(A + B) is equivalent to___________",
+    "opts": {
+      "A": "AB",
+      "B": "1",
+      "C": "(1 + AB)",
+      "D": "A"
+    },
+    "ans": "D",
+    "exp": "By the absorption law, A(A+B) = A.A + A.B = A + A.B = A(1+B) = A.1 = A. The trap is answering AB, which is the result of the dual expression A + AB only if you misapply distribution; here the common factor A absorbs the whole term.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 58,
+    "unit": "2",
+    "sub": "Number representation and computer arithmetic",
+    "q": "The NOR gate output will be high if the two inputs are",
+    "opts": {
+      "A": "00",
+      "B": "01",
+      "C": "10",
+      "D": "11"
+    },
+    "ans": "A",
+    "exp": "NOR is the complement of OR, so its output is 1 only when the OR of the inputs is 0, i.e. when both inputs are 0 (inputs 00). For 01, 10 and 11 the OR is 1 so the NOR output is 0; option D, 11, is the trap answer belonging to AND, not NOR.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 59,
+    "unit": "2",
+    "sub": "Number representation and computer arithmetic",
+    "q": "How many AND gates are required to realize Y = CD + EF + G ?",
+    "opts": {
+      "A": "4",
+      "B": "5",
+      "C": "3",
+      "D": "2"
+    },
+    "ans": "D",
+    "exp": "Y = CD + EF + G has only two product terms of more than one literal, CD and EF, so it needs 2 two-input AND gates; the single literal G is fed straight into the OR gate and needs no AND gate. The trap is counting three AND gates by treating G as if it were a product term.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 60,
+    "unit": "2",
+    "sub": "Number representation and computer arithmetic",
+    "q": "If A and B are the inputs of a half adder, the sum is given by",
+    "opts": {
+      "A": "A AND B",
+      "B": "A OR B",
+      "C": "A XOR B",
+      "D": "A NOT B"
+    },
+    "ans": "C",
+    "exp": "A half adder produces Sum = A XOR B and Carry = A AND B, since the sum bit is 1 exactly when an odd number of inputs is 1 (A=0,B=1 or A=1,B=0). Option A is the trap: A AND B is the carry output, not the sum.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 61,
+    "unit": "2",
+    "sub": "Number representation and computer arithmetic",
+    "q": "The difference between half adder and full adder is",
+    "opts": {
+      "A": "Half adder has two inputs while full adder has four inputs",
+      "B": "Half adder has one output while full adder has two outputs",
+      "C": "Half adder has two inputs while full adder has three inputs",
+      "D": "All of the Mentioned"
+    },
+    "ans": "C",
+    "exp": "A half adder takes two inputs (A, B) while a full adder takes three (A, B and a carry-in), which is the defining difference. Option B is false because both circuits have two outputs (sum and carry), and option A is false because a full adder has three inputs, not four, so 'All of the Mentioned' cannot be right.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 62,
+    "unit": "2",
+    "sub": "Computer organization, registers and instruction cycle",
+    "q": "Registers capable of shifting in one direction is",
+    "opts": {
+      "A": "Universal shift register",
+      "B": "Unidirectional shift register",
+      "C": "Unipolar shift register",
+      "D": "Unique shift register"
+    },
+    "ans": "B",
+    "exp": "A register that can shift its contents in only one direction (left-only or right-only) is a unidirectional shift register; a universal shift register shifts both ways and also loads in parallel. 'Unipolar' and 'unique' shift registers are not standard terms.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 63,
+    "unit": "2",
+    "sub": "Number representation and computer arithmetic",
+    "q": "For a Counter having a count range 0000_2 to 1010_2 , the required number of flip flop is:",
+    "opts": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "ans": "C",
+    "exp": "1010_2 = 10 decimal, so counting 0000_2 through 1010_2 inclusive gives 11 distinct states, and 2^3 = 8 < 11 <= 16 = 2^4, so 4 flip-flops are needed. The answer is unaffected by reading the range exclusively (10 states still needs 4 bits), and it also matches the simple observation that 1010_2 is itself a 4-bit word.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 64,
+    "unit": "2",
+    "sub": "Computer organization, registers and instruction cycle",
+    "q": "If 'n' denotes number of clock cycles and 'T' denotes period of the clock at which the microprocessor is running, then duration of execution of loop once can be denoted by",
+    "opts": {
+      "A": "n+T",
+      "B": "n-T",
+      "C": "n*T",
+      "D": "n/T"
+    },
+    "ans": "C",
+    "exp": "Each clock cycle lasts T seconds, so n cycles take n*T seconds; time is the product of cycle count and cycle period, not a sum, difference or ratio.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 65,
+    "unit": "4",
+    "sub": "OS concepts, structure and services",
+    "q": "To access the services of operating system, the interface is provided by the",
+    "opts": {
+      "A": "System calls",
+      "B": "API",
+      "C": "Library",
+      "D": "Assembly instructions"
+    },
+    "ans": "A",
+    "exp": "System calls are the interface through which a program requests services from the operating system kernel. An API such as POSIX or Win32 is the programmer-facing wrapper that ultimately issues those system calls, so the underlying interface to OS services is the system call itself.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 66,
+    "unit": "4",
+    "sub": "Processes, concurrency and synchronization",
+    "q": "Process is",
+    "opts": {
+      "A": "program in High level language kept on disk",
+      "B": "contents of main memory",
+      "C": "a program in execution",
+      "D": "a job in secondary memory"
+    },
+    "ans": "C",
+    "exp": "The standard definition of a process is a program in execution, i.e. an active entity with a program counter, stack and data section. A program sitting on disk is a passive entity, not a process.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 67,
+    "unit": "4",
+    "sub": "Processes, concurrency and synchronization",
+    "q": "What is the ready state of a process?",
+    "opts": {
+      "A": "when process is scheduled to run after some execution",
+      "B": "when process is unable to run until some task has been completed",
+      "C": "when process is using the CPU",
+      "D": "when process is waiting for I/O operation"
+    },
+    "ans": "A",
+    "exp": "A process is ready when it has everything it needs and is only waiting to be scheduled onto the CPU, which is what 'scheduled to run after some execution' describes. Option C is the running state and options B and D describe the blocked/waiting state.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 68,
+    "unit": "4",
+    "sub": "Deadlocks",
+    "q": "A set of processes is deadlock if",
+    "opts": {
+      "A": "each process is blocked and will remain so forever",
+      "B": "each process is terminated",
+      "C": "all processes are trying to kill each other",
+      "D": "all processes are block for short interval time."
+    },
+    "ans": "A",
+    "exp": "A set of processes is deadlocked when every process in the set is blocked waiting for an event that only another process in the same set can cause, so none can ever proceed. Deadlock is permanent by definition, which rules out the 'short interval' option.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 69,
+    "unit": "4",
+    "sub": "Processes, concurrency and synchronization",
+    "q": "A Process Control Block(PCB) does not contain which of the following :",
+    "opts": {
+      "A": "Code",
+      "B": "Stack",
+      "C": "Bootstrap program",
+      "D": "Data"
+    },
+    "ans": "C",
+    "exp": "A PCB holds per-process information such as process state, program counter, registers, and pointers to the process's code, data and stack. The bootstrap program is firmware that runs at system startup and belongs to no process, so it is never part of a PCB.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 70,
+    "unit": "4",
+    "sub": "CPU and multiprocessor scheduling",
+    "q": "The number of processes completed per unit time is known as ____________",
+    "opts": {
+      "A": "Output",
+      "B": "Throughput",
+      "C": "Efficiency",
+      "D": "Capacity"
+    },
+    "ans": "B",
+    "exp": "Throughput is defined as the number of processes completed per unit of time, and is one of the standard CPU-scheduling criteria alongside turnaround time, waiting time and response time.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 71,
+    "unit": "4",
+    "sub": "Processes, concurrency and synchronization",
+    "q": "The entry of all the PCBs of the current processes is in:",
+    "opts": {
+      "A": "Process Register",
+      "B": "Program Counter",
+      "C": "Process Table",
+      "D": "Process Unit"
+    },
+    "ans": "C",
+    "exp": "The operating system keeps the PCBs of all existing processes in a kernel structure called the process table, indexed by process identifier. The program counter is a CPU register and the other two options are not real OS structures.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 72,
+    "unit": "4",
+    "sub": "OS concepts, structure and services",
+    "q": "The objective of multi-programming is to :",
+    "opts": {
+      "A": "Have some process running at all times",
+      "B": "Have multiple programs running at the same time.",
+      "C": "To minimize CPU utilization",
+      "D": "To decrease data transfer"
+    },
+    "ans": "A",
+    "exp": "Multiprogramming keeps several processes in memory so that whenever one blocks (typically for I/O) the CPU can switch to another, i.e. the goal is to have some process running at all times and thereby maximise CPU utilisation. Option C is the opposite of that goal; option B merely restates co-residency rather than the objective, though a candidate could plausibly be drawn to it.",
+    "conf": "medium",
+    "note": ""
+  },
+  {
+    "no": 73,
+    "unit": "4",
+    "sub": "CPU and multiprocessor scheduling",
+    "q": "What is a long-term scheduler ?",
+    "opts": {
+      "A": "It selects which process has to be brought into the ready queue",
+      "B": "It selects which process has to be executed next and allocates CPU",
+      "C": "It selects which process to remove from memory by swapping",
+      "D": "It selects which process will use CPU for longest period"
+    },
+    "ans": "A",
+    "exp": "The long-term (job) scheduler decides which jobs are admitted from the job pool into memory and onto the ready queue, controlling the degree of multiprogramming. Option B is the short-term scheduler and option C is the medium-term swapper.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 74,
+    "unit": "4",
+    "sub": "CPU and multiprocessor scheduling",
+    "q": "In a time-sharing operating system, when the time slot given to a process is completed, the process goes from the running state to the :",
+    "opts": {
+      "A": "Blocked state",
+      "B": "Ready state",
+      "C": "Suspended state",
+      "D": "Terminated state"
+    },
+    "ans": "B",
+    "exp": "When the time quantum expires the timer interrupt preempts the running process and puts it back at the tail of the ready queue, so it moves from running to ready. It is not blocked, because it needs nothing except the CPU.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 75,
+    "unit": "4",
+    "sub": "Memory management and virtual memory",
+    "q": "The LRU algorithm",
+    "opts": {
+      "A": "pages out pages that have been used recently",
+      "B": "pages out pages that have not been used recently",
+      "C": "pages out pages that have been least used recently",
+      "D": "pages out the first page in a given area"
+    },
+    "ans": "B",
+    "exp": "LRU replaces the page that has gone unused for the longest time, i.e. it pages out pages that have not been used recently, using recency of reference rather than frequency. Option C's phrase 'least used' points at reference counts (the LFU policy), but the wording of B and C overlaps enough that the printed options are a poor discriminator.",
+    "conf": "medium",
+    "note": ""
+  },
+  {
+    "no": 76,
+    "unit": "4",
+    "sub": "I/O management and disk scheduling",
+    "q": "An interrupt vector",
+    "opts": {
+      "A": "is an address that is indexed to an interrupt handler",
+      "B": "is a unique device number that is indexed by an address",
+      "C": "is a unique identity given to an interrupt",
+      "D": "none of the mentioned"
+    },
+    "ans": "A",
+    "exp": "An interrupt vector is an entry in a table of addresses, indexed by interrupt number, that points to the service routine for that interrupt. Option B inverts the relationship between address and device number.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 77,
+    "unit": "4",
+    "sub": "CPU and multiprocessor scheduling",
+    "q": "Process are classified into different groups in",
+    "opts": {
+      "A": "shortest job scheduling algorithm",
+      "B": "round robin scheduling algorithm",
+      "C": "priority scheduling algorithm",
+      "D": "multilevel queue scheduling algorithm"
+    },
+    "ans": "D",
+    "exp": "Multilevel queue scheduling partitions the ready queue into separate queues for different classes of process (for example foreground/interactive and background/batch), each with its own scheduling discipline. The other three algorithms operate on a single undivided queue.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 78,
+    "unit": "4",
+    "sub": "CPU and multiprocessor scheduling",
+    "q": "The processes that are residing in main memory and are ready and waiting to execute are kept on a list called",
+    "opts": {
+      "A": "job queue",
+      "B": "ready queue",
+      "C": "execution queue",
+      "D": "process queue"
+    },
+    "ans": "B",
+    "exp": "Processes that are in main memory and ready to execute are held on the ready queue; the job queue by contrast holds all processes in the system, including those not yet loaded into memory.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 79,
+    "unit": "4",
+    "sub": "CPU and multiprocessor scheduling",
+    "q": "The strategy of making processes that are logically runnable to be temporarily suspended is called :",
+    "opts": {
+      "A": "Non preemptive scheduling",
+      "B": "Preemptive scheduling",
+      "C": "Shortest job first",
+      "D": "First come First served"
+    },
+    "ans": "B",
+    "exp": "Preemptive scheduling is precisely the strategy of suspending a process that is still logically runnable so the CPU can be given to another process. Non-preemptive scheduling releases the CPU only when the process blocks or terminates.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 80,
+    "unit": "4",
+    "sub": "CPU and multiprocessor scheduling",
+    "q": "Consider the following set of processes, the length of the CPU burst time given in milliseconds: Processes P1 P2 P3 P4; Burst Time 6 8 7 3; Arrival time 0 0 0 0. Assuming the above process being scheduled with the SJF scheduling algorithm, what is the waiting time for process P1?",
+    "opts": {
+      "A": "3ms",
+      "B": "0ms",
+      "C": "16ms",
+      "D": "9ms"
+    },
+    "ans": "A",
+    "exp": "All four processes arrive at time 0, so SJF runs them in ascending burst order P4(3), P1(6), P3(7), P2(8): P4 occupies 0-3 ms and P1 then runs 3-9 ms. P1's waiting time is start minus arrival = 3 - 0 = 3 ms.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 81,
+    "unit": "4",
+    "sub": "CPU and multiprocessor scheduling",
+    "q": "A solution to the problem of indefinite blockage of low priority processes is :",
+    "opts": {
+      "A": "Starvation",
+      "B": "Wait queue",
+      "C": "Ready queue",
+      "D": "Aging"
+    },
+    "ans": "D",
+    "exp": "Aging gradually increases the priority of a process the longer it waits, so a low-priority process eventually runs. Starvation (A) is the problem itself, not the solution — that is the trap in this question.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 82,
+    "unit": "4",
+    "sub": "Processes, concurrency and synchronization",
+    "q": "A situation where several processes access and manipulate the same data concurrently and the outcome of the execution depends on the particular order in which access takes place is called :",
+    "opts": {
+      "A": "data consistency",
+      "B": "race condition",
+      "C": "degree of concurrency",
+      "D": "concurrent ordering"
+    },
+    "ans": "B",
+    "exp": "This is the textbook definition of a race condition: the result depends on the interleaving order of concurrent accesses to shared data. Race conditions are prevented by process synchronisation, which is what makes data consistency (A) an outcome rather than the name of the situation.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 83,
+    "unit": "4",
+    "sub": "Processes, concurrency and synchronization",
+    "q": "The segment of code in which the process may change common variables, update tables, write into files is known as :",
+    "opts": {
+      "A": "critical program",
+      "B": "critical section",
+      "C": "critical code",
+      "D": "synchronizing section"
+    },
+    "ans": "B",
+    "exp": "The critical section is precisely the code segment where a process accesses or updates shared variables, tables or files. The mutual-exclusion requirement is that no two processes execute their critical sections simultaneously.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 84,
+    "unit": "4",
+    "sub": "Processes, concurrency and synchronization",
+    "q": "The two atomic operations permissible on semaphores are :",
+    "opts": {
+      "A": "wait and Signal",
+      "B": "stop and Run",
+      "C": "hold and Release",
+      "D": "exception and throw"
+    },
+    "ans": "A",
+    "exp": "A semaphore is accessed only through the two indivisible operations wait() (P, decrement) and signal() (V, increment). Their atomicity is what makes the semaphore a correct synchronisation primitive.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 85,
+    "unit": "4",
+    "sub": "Processes, concurrency and synchronization",
+    "q": "At a particular time of computation the value of a counting semaphore is 7.Then 20 P operations and 15 V operations were completed on this semaphore. The resulting value of the semaphore is :",
+    "opts": {
+      "A": "42",
+      "B": "2",
+      "C": "7",
+      "D": "12"
+    },
+    "ans": "B",
+    "exp": "P (wait) decrements and V (signal) increments, so the final value is 7 - 20 + 15 = 2. The trap is reversing the two operations, which would give 7 + 20 - 15 = 12 (option D); note also that some P operations must have blocked and completed later, but the net arithmetic on the counter is unchanged.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 86,
+    "unit": "4",
+    "sub": "Deadlocks",
+    "q": "Which of the following condition is required for deadlock to be possible?",
+    "opts": {
+      "A": "mutual exclusion",
+      "B": "a process may hold allocated resources while awaiting assignment of other resources",
+      "C": "no resource can be forcibly removed from a process holding it",
+      "D": "all of the mentioned"
+    },
+    "ans": "D",
+    "exp": "Options A, B and C are mutual exclusion, hold-and-wait and no-preemption — three of the four necessary conditions for deadlock (the fourth being circular wait), so all of the mentioned is correct. All four must hold simultaneously for deadlock to occur.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 87,
+    "unit": "4",
+    "sub": "Deadlocks",
+    "q": "Which one of the following is a visual ( mathematical ) way to determine the deadlock occurrence?",
+    "opts": {
+      "A": "resource allocation graph",
+      "B": "starvation graph",
+      "C": "inversion graph",
+      "D": "chaining graph"
+    },
+    "ans": "A",
+    "exp": "A resource-allocation graph, with processes and resources as vertices and request/assignment edges, lets deadlock be determined visually: a cycle means deadlock when each resource has a single instance. The other three graph names are not real OS constructs.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 88,
+    "unit": "4",
+    "sub": "Memory management and virtual memory",
+    "q": "The address generated by the CPU is referred to as :",
+    "opts": {
+      "A": "Physical address",
+      "B": "Logical address",
+      "C": "Temporary Address",
+      "D": "Dynamic address"
+    },
+    "ans": "B",
+    "exp": "The CPU emits a logical (virtual) address, which the MMU translates at run time into the physical address seen by the memory unit. The set of all such addresses is the logical address space.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 89,
+    "unit": "4",
+    "sub": "Memory management and virtual memory",
+    "q": "Memory management technique in which system stores and retrieves data from secondary storage for use in main memory is called",
+    "opts": {
+      "A": "fragmentation",
+      "B": "paging",
+      "C": "mapping",
+      "D": "spooling"
+    },
+    "ans": "B",
+    "exp": "This is the standard textbook wording for paging: a memory-management scheme by which the system stores and retrieves data from secondary storage for use in main memory, in fixed-size blocks. It arguably describes swapping too, but swapping is not among the options, and paging also removes the need for contiguous allocation and hence external fragmentation.",
+    "conf": "medium",
+    "note": ""
+  },
+  {
+    "no": 90,
+    "unit": "4",
+    "sub": "Memory management and virtual memory",
+    "q": "What is compaction?",
+    "opts": {
+      "A": "a technique for overcoming internal fragmentation",
+      "B": "a paging technique",
+      "C": "a technique for overcoming external fragmentation",
+      "D": "a technique for overcoming fatal error"
+    },
+    "ans": "C",
+    "exp": "Compaction shuffles allocated memory blocks so that free space is coalesced into one large contiguous hole, which addresses external fragmentation. Internal fragmentation (option A) is waste inside an allocated block and compaction cannot recover it.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 91,
+    "unit": "4",
+    "sub": "Memory management and virtual memory",
+    "q": "In contiguous memory allocation :",
+    "opts": {
+      "A": "each process is contained in a single contiguous section of memory",
+      "B": "all processes are contained in a single contiguous section of memory",
+      "C": "the memory space is contiguous",
+      "D": "the address space of processes are contiguous"
+    },
+    "ans": "A",
+    "exp": "Contiguous allocation means each individual process occupies one single contiguous region of memory, located by a base (relocation) register and a limit register. Option B overstates it by claiming all processes share one contiguous section.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 92,
+    "unit": "4",
+    "sub": "Memory management and virtual memory",
+    "q": "If the size of logical address space is 2 to the power of m, and a page size is 2 to the power of n addressing units, then the high order ___________ bits of a logical address designate the page number, and the ___________ low order bits designate the page offset.",
+    "opts": {
+      "A": "m, n",
+      "B": "n, m",
+      "C": "m – n, m",
+      "D": "m – n, n"
+    },
+    "ans": "D",
+    "exp": "With a logical address space of 2^m and page size 2^n, the offset needs exactly n bits to index a byte within a page, leaving the high-order m - n bits for the page number. So high order = m - n, low order = n; option C wrongly reuses m for the offset.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 93,
+    "unit": "4",
+    "sub": "Memory management and virtual memory",
+    "q": "The segment limit contains the :",
+    "opts": {
+      "A": "starting logical address of the process",
+      "B": "starting physical address of the segment in memory",
+      "C": "segment length",
+      "D": "segment Number"
+    },
+    "ans": "C",
+    "exp": "In a segment-table entry the segment limit holds the length of the segment, while the segment base holds its starting physical address. The limit is what the hardware compares the offset against to trap out-of-range references.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 94,
+    "unit": "4",
+    "sub": "I/O management and disk scheduling",
+    "q": "When device A has a cable that plugs into device B, and device B has a cable that plugs into device C and device C plugs into a port on the computer, this arrangement is called a ___________",
+    "opts": {
+      "A": "port",
+      "B": "daisy chain",
+      "C": "bus",
+      "D": "cable"
+    },
+    "ans": "B",
+    "exp": "Devices cabled one into the next, with only the last plugged into the computer's port, form a daisy chain, which operates as a bus. The stem is wordy but unambiguous, and only daisy chain names this specific series arrangement.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 95,
+    "unit": "4",
+    "sub": "I/O management and disk scheduling",
+    "q": "The CPU hardware has a wire called ___________ that the CPU senses after executing every instruction.",
+    "opts": {
+      "A": "interrupt request line",
+      "B": "interrupt bus",
+      "C": "interrupt receive line",
+      "D": "interrupt sense line"
+    },
+    "ans": "A",
+    "exp": "The interrupt-request line is the wire the CPU checks after completing each instruction; if a device has asserted it, the CPU saves state and jumps to the interrupt handler. The other three option names are not standard terms.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 96,
+    "unit": "4",
+    "sub": "I/O management and disk scheduling",
+    "q": "A ___________ is a collection of electronics that can operate a port, a bus, or a device.",
+    "opts": {
+      "A": "controller",
+      "B": "driver",
+      "C": "host",
+      "D": "bus"
+    },
+    "ans": "A",
+    "exp": "A controller is the collection of electronics that operates a port, a bus or a device — for example a simple serial-port controller or a full SCSI bus controller. A driver (B) is software, not electronics, which is the distinction the stem is testing despite its terse wording.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 97,
+    "unit": "4",
+    "sub": "File systems",
+    "q": "___________ is a unique tag, usually a number, identifies the file within the file system.",
+    "opts": {
+      "A": "File identifier",
+      "B": "File name",
+      "C": "File type",
+      "D": "File Number"
+    },
+    "ans": "A",
+    "exp": "The file identifier is the unique tag, usually a number, by which the file system refers to a file internally; unlike the file name it is not human-readable. This is the identifier stored in directory entries and inode tables.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 98,
+    "unit": "4",
+    "sub": "File systems",
+    "q": "The disadvantage of the two level directory structure is that :",
+    "opts": {
+      "A": "it does not solve the name collision problem",
+      "B": "it solves the name collision problem",
+      "C": "it does not isolate users from one another",
+      "D": "it isolates users from one another"
+    },
+    "ans": "D",
+    "exp": "A two-level directory gives each user a private user file directory, which does solve name collisions but isolates users from one another, hindering sharing and cooperation — that isolation is its stated disadvantage. Option B states a genuine property but as an advantage, so it cannot answer a question asking for the disadvantage.",
+    "conf": "medium",
+    "note": ""
+  },
+  {
+    "no": 99,
+    "unit": "4",
+    "sub": "File systems",
+    "q": "For a direct access file :",
+    "opts": {
+      "A": "there are restrictions on the order of reading and writing",
+      "B": "there are no restrictions on the order of reading and writing",
+      "C": "access is restricted permission wise",
+      "D": "access is not restricted permission wise"
+    },
+    "ans": "B",
+    "exp": "A direct (relative) access file is a numbered sequence of fixed-length logical records that may be read or written in any order, so there are no ordering restrictions. Sequential access, by contrast, forces reads and writes to proceed in order.",
+    "conf": "high",
+    "note": ""
+  },
+  {
+    "no": 100,
+    "unit": "3",
+    "sub": "Recursion, searching and sorting",
+    "q": "The worse case in quicksort algorithm occurs when :",
+    "opts": {
+      "A": "Each level of the tree has only a single node.",
+      "B": "Each level of the tree has two more nodes than the previous level.",
+      "C": "Each level of the tree has one more nodes than the previous level.",
+      "D": "None of the above."
+    },
+    "ans": "A",
+    "exp": "Quicksort's worst case arises when every partition is maximally unbalanced (one side empty), so the recursion tree degenerates into a chain with one node per level, giving O(n^2). The phrasing 'single node' per level is the intended description of that degenerate tree.",
+    "conf": "medium",
+    "note": ""
+  }
+]

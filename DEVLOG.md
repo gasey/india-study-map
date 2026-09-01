@@ -9,6 +9,277 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-03 (later) — Programmer 2018 Technical Paper I lands in System Analyst TECH1, double-solved
+
+**What shipped.** All 100 questions of **MPSC Programmer under Public Health
+Engineering Department, July 2018 — Technical Paper I** are now in the System
+Analyst app's `TECH1`, taking it from 1309 to **1409** questions. New script
+`tools/system-analyst-build/import_prog2018_p1.py`, staged records in
+`staged/prog2018-p1.json`, source PDF committed to
+`tools/system-analyst-build/sources/`.
+
+**Why TECH1 directly, and not a quarantined drill paper.** The opposite call to
+the one made for the System Manager practice bank earlier today, and
+deliberately so. `TECH1` in this app *already* holds 882 questions imported from
+adjacent exams (CSE Paper I, ILM, MES, JE) — importing another exam's paper into
+it is the established convention here. The System Manager app quarantines
+authored material because its Mock Test draws from `TECH1 + TECH2`; this app has
+no such purity to protect, and the paper is a genuine MPSC sitting rather than
+invented questions.
+
+**The fit is unusually good.** Q1–34 and Q100 are data structures and algorithms
+(unit 3), Q35–64 architecture and digital logic (unit 2), Q65–99 operating
+systems (unit 4) — 35/30/35. It contributes **nothing** to unit 1, Discrete
+Mathematics, which this paper simply does not test; the import script prints
+that rather than letting a silent zero look like a tagging bug.
+
+**A plain-text extraction would have shipped corrupted maths.** `pdftotext`
+collapses superscripts (n² → "n2", 2ⁿ → "2n") and, worse, **drops symbols
+outright**: Q34's options render as `f(n)=(g(n))` because the Ω is simply gone.
+Four agents read the pages *visually* instead and restored the real glyphs —
+`f(n)=Ω(g(n))`, `n^log n`, `(101.01)_2`, `0000_2 to 1010_2`. The paper's own
+misspellings ("earsed", "seperate", "recieving") are preserved, as they are what
+the candidate saw. Verified in the browser that the Ω survives all the way to
+the rendered card.
+
+**Answers: two blind derivations, 100/100 agreement.** No official key exists —
+`pdfs/Answer_Keys/` in the mpsc-question-bank repo has none for this sitting. Two
+independent solver passes, deliberately given *differently framed* prompts so
+they were not anchored on the same reading of the tricky items, answered all 100
+without seeing each other's work. **They agreed on every single question.** The
+stored `conf` is the *lower* of the two passes' self-ratings, so anything either
+solver hedged on cannot read as certain: 84 high, 13 medium, 3 low.
+
+Three carry an explicit ambiguity note rather than a false air of settlement:
+Q27 (inorder successor vs predecessor — exact symmetric mirror, textbooks
+differ), Q37 (control vs timing signals — near-synonyms, the plain reading and
+the Hamacher framing disagree), Q56 (stem is truncated in the original print, so
+no option fits cleanly). No `alt` was set on any of them: `disputeBlock()` labels
+the rival "question bank" and asserts two derivations disagree, and here they
+did not — the caveat belongs in `note`, which is what UDC established.
+
+**Verified.** The import is idempotent (strips prior `PROG2018_P1` records before
+appending) and byte-identical on re-run; zero of the 1309 pre-existing questions
+changed; the sitting lists in Past Papers with a Browse view; badge counts render
+84/13/3 and **zero** "official key" pills, confirming `provLine()`'s negation
+guard reads the "no official … key" phrasing correctly. Checked by reading the
+rendered DOM text — a screenshot of the 100-question browse page times out the
+renderer, so the visual proof here is textual.
+
+**What's still open.** The user's other four Programmer 2018 papers are **not**
+imported: Technical Paper II (C++/OOP and DBMS) and Technical Paper III
+(networking, OSI, TCP/IP, web) do not match this syllabus at all, but do match
+**System Manager TECH2** — that is the agreed destination when they are done.
+General English I and II are untouched. Paper III's last numbered question is 90
+though the paper states 200 marks at 2 each, so its numbering needs checking
+before import. Two blind agreeing derivations is a stronger basis than most of
+this bank has, but it is still not an official key.
+
+---
+
+## 2026-09-03 — 349 authored practice questions ship as their own paper, with one of their answer keys corrected
+
+**What shipped.** A new System Manager paper, **`TECH1P` — "Technical I ·
+Practice Bank (authored)"**, holding **349 questions** from two handed-over
+markdown volumes of MUDAL Technical Paper I practice MCQs. The bank goes from
+1496 to **1845** questions. New pipeline stage
+`tools/system-manager-build/import_practice.py`, sources copied into
+`tools/system-manager-build/sources/`, staged output in
+`staged/practice-tech1.json` + `staged/practice-tags.json`.
+
+**Why a separate paper and not part of TECH1.** The volumes are written against
+the real Technical Paper I syllabus and use its exact five-unit split, so
+folding them into `TECH1` was tempting. But `TECH1` holds 75 genuine 2016
+Computer Operator questions and the Mock Test tab builds its simulated paper
+from `TECH1 + TECH2`. Merging would have made a "past paper" mock 82% invented
+material. `TECH1P` is `counts_for_merit: false` + `in_exam: false`, so it is
+reachable from Practice and the Syllabus tab and invisible to Mock Test — the
+same containment the UDC paper uses, for a different reason (UDC is another
+exam; this is another *authority*, namely none).
+
+**Every answer was re-derived before import, and that was not ceremony.** Nine
+independent passes worked all 349 questions from first principles *before*
+looking at the volume's key. 347 matched. Two did not:
+
+- **Volume 2, Unit IV Q10** — `=MID("SYSTEM",3,3)`. The volume keys this **(c)
+  TEM**. It is **(b) STE**: MID takes three characters starting *at* position 3
+  of S-Y-S-T-E-M, i.e. characters 3–4–5. The volume's own note ("starts at
+  position 3, length 3") describes the right computation and then picks the last
+  three characters. Answer corrected; `srcAns` retains what the volume printed.
+- **Volume 2, Unit II Q24** — msconfig. The letter is right but the premise is
+  dated: the System Configuration *Startup* tab was removed in Windows 8 and now
+  only links to Task Manager. Confidence dropped to medium, premise annotated.
+
+Corrections live in a `CORRECTIONS` table in `import_practice.py`, **not** in the
+markdown, so `sources/*.md` stays a byte-faithful copy of what was handed over
+and every departure from it is declared in one auditable place. A stale entry
+(one that matches no question, or that "corrects" an answer the source already
+gives) fails the build rather than quietly stopping.
+
+**A silent corruption the counts would never have caught.** The first build
+passed every assertion — 349 parsed, numbering contiguous, all keys matched, all
+tags valid — and was still wrong. The `---` rule that separates each unit's last
+question from its answer-key heading was being parsed **into option D**:
+`.csv ---`, `pacman ---`, `Virtualisation ---`. Ten questions, one per unit per
+volume. No count check could see it, because nothing was missing. It was found
+by rendering an actual card in the browser and reading it. The parser now strips
+trailing rules and *asserts* that no stem or option contains markdown structure
+(`---`, `#`, `|`) — the boundary being wrong is the real failure, and a wrong
+boundary truncates or extends real content rather than erroring.
+
+**Other notes.** Volume 1's own contents table says 134 questions; it actually
+numbers 65 in Unit I, not 50, so the real total is 149. The table is stale, the
+questions are contiguous and fully keyed. Unit marks in `TECH1P` are
+imported-count × 2, not the exam's 60/25/20/25/20 weighting, and the paper's
+`pattern_note` says so — these volumes over-supply Unit I. `gen_syllabus.py`
+*derives* those counts from the staged file rather than hardcoding them, so they
+cannot drift the way the hand-typed UDC data did. 102 of TECH1's 123 syllabus
+leaves now have practice coverage.
+
+**Verified.** Both scripts re-run byte-identical; zero of the 1496 pre-existing
+questions changed; the corrected card renders in the browser with the
+`derived · high confidence` badge (not the blue official-key one — `provLine()`'s
+negation guard reads the "no official … key exists" phrasing correctly), the
+full provenance, and the correction note.
+
+**What's still open.** Number systems, Boolean logic and gates appear in Volume 2
+Unit I but have no leaf anywhere in the official TECH1 syllabus; those ~12
+questions are parked under "Functional Components of a Computer" as the
+least-bad fit. Volume 2's own closing note warns the real paper may range outside
+the listed syllabus, so they are worth keeping rather than dropping. The 349 have
+no second human pass — they are `derived · high` on the strength of one
+independent re-derivation each, which is weaker than the two-derivation
+agreement the 2016 papers get.
+
+---
+
+## 2026-09-02 (night) — UDC doubled to 70, the first official answer key in the bank, and the Practice picker was never random
+
+**What shipped.** The System Manager UDC paper goes from 35 questions to **70**,
+and — for the first time anywhere in this app — 35 of them are answered from a
+**published MPSC key** rather than derived.
+
+The new sitting is **Assistant Grade & UDC under MPSC, April 2024, Paper-II**,
+Q1–35 (its Basic Computer Knowledge section; Q36–100 are arithmetic and reasoning
+and were not imported). Source papers live in the sibling repo
+`~/workspace/projects/personal/mpsc-question-bank`, under
+`pdfs/Old_Questions/Direct_NG_2024-2027/`. Crucially that repo also holds
+`pdfs/Answer_Keys/Provisional Answer Key of UDC, Assistant under MPSC..pdf`
+(notification No.ASST/1/2019-MPSC, 5 April 2024), which keys this exact paper.
+Every other answer in this bank is agent-derived because MPSC never published a
+key for the Computer Operator papers; these 35 are authoritative, and
+`provLine()` gives them the blue **official key** badge.
+
+**The key caught an error I would otherwise have shipped.** I transcribed all 35
+and reasoned out each answer independently before comparing. 34 matched. Q29
+("a record of your thoughts… that you film and publish on the internet") I had
+answered *(b) Video blog*; the Commission's key says *(a) Video log*. Both
+contract to "vlog" and the distinction is genuinely arguable — but the key is
+what gets marked, so the stored answer is (a), `conf` is medium, and the note
+says outright that (b) is defensible and to learn (a) for the exam anyway.
+
+**Two independent audit passes over the original 35 found no wrong keys** —
+35/35 correct. Both auditors did, however, conclude the questions were probably
+LLM-authored and mislabelled as past-paper, on the strength of no source PDF
+existing anywhere on the machine and every record carrying identical boilerplate
+provenance. **They were wrong, and it is worth recording why**: the source does
+exist, in a repo neither of them was pointed at. Checking it showed the 35 are a
+*verbatim* transcription of UDC Combined Paper-II (A) May-2025 Q1–35, right down
+to the paper's own typo ("Crome"). Absence of evidence read as evidence of
+absence. The provenance strings now name the exact sitting, series and question
+range so the next reader can check in one step instead of concluding fabrication.
+
+Six real defects the audits *did* find are fixed: `UDC2024_05` was tagged unit 7
+(Cloud & Mobile) though it asks about application software; the WPA2 explanation
+asserted it is "the most secure" wireless standard, which stopped being true in
+2018 when WPA3 shipped — it now says *most secure of the options offered* and
+names WPA3; the Toggle Case explanation described Change Case generally; the
+mesh-topology explanation dropped the stem's own hedge; and two more were
+imprecise about Excel windows-vs-sheets and PowerPoint's duplicate shortcut.
+
+**Why the pipeline work had to happen first.** The 35 existing questions had been
+typed by hand directly into `questions.js` and `syllabus.js` — both of which
+carry a `GENERATED … do not hand-edit` header. Neither `assemble.py` nor
+`gen_syllabus.py` knew UDC existed, so **the next routine pipeline run would
+have silently deleted the entire paper**, with no numbering gap to reveal it:
+the exact shape of the 2026-08-04 silent-loss incident. UDC is now a real
+pipeline input (`staged/udc.json` → `UDC_META` in `assemble.py`, and a real paper
+in `gen_syllabus.py`). Verified: re-running both scripts twice reproduces
+`questions.js` and `syllabus.js` byte-for-byte, and **zero of the 1,426 non-UDC
+records changed**.
+
+**Regenerating found a second, unrelated hand-edit already sitting in the same
+trap.** The Syllabus tab's whole "Recommended reading" panel existed only inside
+the generated `syllabus.js`; `gen_syllabus.py` had never emitted it. The first
+regeneration deleted it, and only a field-by-field diff against a backup caught
+it. It now lives in the generator. Anything else hand-added to a generated file
+before today is still at risk and nobody has audited for a third case.
+
+**Then the new questions turned out to be unreachable.** Filtering Practice to
+UDC and drawing 20 from the 70-question pool returned 20 May-2025 questions and
+zero April-2024 ones, five times running. `studyOrder()` sorts by study value —
+but on a fresh profile *every* question scores identically (all unseen), and
+`Array.prototype.sort` is stable, so the sort was a no-op and every caller took
+the first N rows **in bank order**. Practice had never been random: it handed out
+the same questions every session, and any newly imported sitting was unreachable
+until everything ahead of it in the file had been answered. Fixed by shuffling
+before the stable sort, which preserves the due → unseen → mastered banding and
+randomises only within a band. Verified: draws now vary run to run, a
+due-and-overdue question still ranks first and a mastered one still ranks last.
+**The identical bug was in `mpsc-system-analyst/app.js`** (the file it was cloned
+from) and is fixed there too.
+
+**Four presentation fixes, all the same underlying mistake** — the app assumed
+every paper in `SYLLABUS.papers` is part of the System Manager exam:
+
+- `shortPaper()` was a hardcoded three-paper map falling back to the bare id, so
+  UDC read as `UDC` at 15 call sites. It now falls back to the syllabus's own
+  `name`.
+- The Syllabus mark-distribution bar divided by the sum of *all* papers, so
+  adding UDC pushed the denominator to 540 and General English displayed as
+  **19% of the exam when it is 25%**. Now computed over merit-counting papers only.
+- `gen_syllabus.py`'s total-marks assertion counted all papers and so failed
+  ("540, expected 400") purely because practice material was added. It now checks
+  the merit-counting papers, which is what the 400 actually describes.
+- UDC was labelled **"qualifying"** in three places, one of which told the reader
+  "You need 50% to stay in the race" — a claim about the System Manager selection
+  process that is simply false of a borrowed clerical paper. New `in_exam: false`
+  field; those surfaces now read "extra drill, not in this exam".
+
+I also caught myself introducing a contradiction: I attached the `alt` field to
+disputed Q29, which renders app.js's DISPUTED block, whose copy reads *"No
+official answer key exists for this paper"* — printed directly above the blue
+**official key** badge. `alt` means "two derivations disagree, you decide", which
+is the wrong frame when a published key settles it and picking the alternative
+would be marked wrong. `assemble.py` now refuses to attach `alt` where an official
+key exists; the caveat lives in `note` instead.
+
+**Verified in-browser, not assumed.** All 10 System Manager tabs and all 11
+System Analyst tabs render with no console errors. UDC reads 70 questions across
+7 units; 35 show the blue official-key badge citing the notification number, 35
+show "derived · high confidence" and state that no key exists for that sitting;
+the disputed-block contradiction is gone; the reading panel is back; mark shares
+read 25/38/38. (Screenshot capture timed out on the renderer — verification here
+is text-based via `read_page` / `get_page_text` / DOM queries, not visual.)
+
+**What's still open.**
+
+- **Four more sittings are sitting there unharvested**, all with Basic Computer
+  Knowledge sections, all in the same folder: Combined Group B (NG) Paper-II
+  December-2024, Surveyor Paper-II 2026 (its computer section is **70 marks**,
+  the largest of the lot), UDC Direct under Fisheries Paper-II 2021-22 (~Q66-75),
+  and the "Assistant, UDC Paper-II Series A–D" sitting. See `HANDOFF-UDC.md`.
+- **Series A/B/C/D are the same paper reordered** — verified on the May-2025 set.
+  A harvest that treats them as four sittings will produce 4× duplicates.
+- The May-2025 answers are still derived. MPSC may have published a key for that
+  sitting too; the Answer_Keys folder was not exhaustively searched.
+- `gen_syllabus.py` emits `reading` now, but nobody has audited the other
+  generated files for a third hand-edit living in the same trap.
+- The UDC unit buckets are ours, not MPSC's — the Commission publishes no unit
+  breakdown for this section. Unit marks are imported-question-counts × 2.
+
+---
+
 ## 2026-09-02 (later still) — Essays are practisable, and the Source filter had gone stale
 
 **What shipped.** An **Essays tab**: a self-graded drill over the 36 Section-B

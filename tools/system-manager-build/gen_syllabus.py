@@ -446,6 +446,85 @@ def build_units(raw, expect, label):
     return units, grand
 
 
+def practice_paper():
+    """The TECH1P practice-bank paper block, or None if nothing is staged.
+
+    Counts are READ from staged/practice-tech1.json rather than hardcoded here.
+    Two reasons. First, the paper's `marks` must equal `questions` x 2 or the
+    invariant check at the bottom of main() refuses to write, so a hardcoded
+    count would turn "someone edited the source volumes" into a confusing build
+    failure in an unrelated file. Second, this whole session exists because
+    hand-maintained question data drifted out of sync with the pipeline that
+    owns it (DEVLOG 2026-09-02); deriving the numbers means they cannot drift.
+
+    Returns None when the staged file is absent, so the paper does not appear in
+    the syllabus if its questions are not in the bank either.
+    """
+    staged = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                          "staged", "practice-tech1.json")
+    if not os.path.isfile(staged):
+        return None
+    rows = json.load(open(staged, encoding="utf-8"))
+    if not rows:
+        return None
+
+    units = []
+    for no, title, _marks, sections in TECH1_UNITS:
+        qs = [r for r in rows if r["unit"] == no]
+        if not qs:
+            continue
+        # Subtopics are the syllabus leaves these questions were actually tagged
+        # to, not the unit's full leaf list — this paper is drill material, and
+        # claiming coverage of a leaf no question touches would overstate it.
+        tagged = {r["sub"] for r in qs if r.get("sub")}
+        subtopics = [leaf for _n, _t, leaves in sections for leaf in leaves
+                     if leaf in tagged]
+        units.append({
+            "no": no,
+            "title": title,
+            # Question count x 2, matching the volumes' own 2-marks-per-question
+            # scheme. NOT the exam's weighting: the real Technical Paper I puts
+            # 60/25/20/25/20 across these five units, and these volumes
+            # deliberately over-supply Unit I relative to that.
+            "marks": len(qs) * 2,
+            "subtopics": subtopics,
+        })
+
+    total = sum(len([r for r in rows if r["unit"] == u["no"]]) for u in units)
+    return {
+        "id": "TECH1P",
+        "name": "Technical I · Practice Bank (authored)",
+        "marks": total * 2,
+        "questions": total,
+        "marks_per_question": 2,
+        "duration_hours": None,
+        "type": "Objective (MCQ)",
+        "counts_for_merit": False,
+        # in_exam=False alone would read as "qualifying paper you must still
+        # pass". This is not a paper at all — it is drill written against the
+        # real Technical Paper I syllabus, which is a weaker claim again.
+        "in_exam": False,
+        "authority": "None — authored practice questions, not an MPSC paper",
+        "source": "MUDAL System Manager Technical Paper I Practice Question Bank, "
+                  "Volumes 1 and 2 (markdown kept in tools/system-manager-build/sources/)",
+        "note": "Authored practice questions written against the real Technical Paper I "
+                "syllabus, at its exact five-unit split. These are the only questions in "
+                "this app with no exam authority behind them at all — no MPSC paper set "
+                "them and no official key answers them. Every answer was independently "
+                "re-derived before import and diffed against the volumes' own key; that "
+                "found one key outright wrong (Volume 2, Unit IV Q10) and one question "
+                "resting on a dated premise, both now annotated in place. Treat this as "
+                "drill for recall, and the two 2016 Computer Operator papers as the real "
+                "measure of the exam.",
+        "pattern_note": "Unit marks here are imported-question-count x 2, NOT the exam's "
+                        "weighting. The real Technical Paper I is 60/25/20/25/20 across "
+                        "Units I-V; these volumes over-supply Unit I relative to that, and "
+                        "also range slightly outside the syllabus (number systems, Boolean "
+                        "logic and gates have no leaf in the official Unit I list).",
+        "units": units,
+    }
+
+
 def main():
     root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
     out = os.path.join(root, "public", "mpsc-system-manager", "data", "syllabus.js")
@@ -569,6 +648,79 @@ def main():
                 "pattern_note": derived,
                 "units": t2,
             },
+            # --- Technical Paper I authored practice bank ------------------
+            # Placed after the three real papers and before the UDC drill: it
+            # drills the System Manager syllabus (unlike UDC, which is another
+            # exam) but carries no exam authority (unlike TECH1/TECH2/GE).
+            # Appended below rather than inlined, because the block is derived
+            # from what is actually staged and is None when nothing is.
+            # --- UDC / Assistant / Group B clerical drill ------------------
+            # NOT part of the MUDAL System Manager syllabus, and deliberately
+            # so: `counts_for_merit` is False and the Mock Test tab keys off
+            # that, so this paper never contaminates a simulated System Manager
+            # score. It is here because the Basic Computer Knowledge section of
+            # the Group B non-gazetted clerical exams covers the same subject
+            # spread at an easier level, which makes it useful warm-up drill
+            # for the same reader.
+            #
+            # Unit numbers are plain integers here, not the Roman numerals the
+            # technical papers use, because they are our own topic buckets
+            # rather than numbered units in a published syllabus. app.js
+            # compares unit ids with String(), so the two schemes coexist.
+            {
+                "id": "UDC",
+                "name": "UDC · Basic Computer Knowledge",
+                "marks": 140,
+                "questions": 70,
+                "marks_per_question": 2,
+                "duration_hours": 3,
+                "type": "Objective (MCQ)",
+                "counts_for_merit": False,
+                # counts_for_merit=False alone would render as "qualifying",
+                # which for the System Manager exam means "you still have to sit
+                # it and pass at 50%". This paper is not part of that exam at
+                # all, which is a different and weaker claim on the reader's
+                # time. app.js reads in_exam to say so.
+                "in_exam": False,
+                "authority": "Group B (non-gazetted) clerical exams — not the System Manager syllabus",
+                "source": "MPSC Assistant & UDC combined papers, April 2024 and May 2025",
+                "note": "The Basic Computer Knowledge section of two MPSC clerical sittings, "
+                        "transcribed whole (Q1-35 of each Paper-II). Easier than the Technical "
+                        "papers and outside the System Manager syllabus, so it is excluded from "
+                        "merit scoring — but it is the only material in this app whose answers "
+                        "come from a published MPSC key rather than derivation.",
+                "pattern_note": "Each sitting's Paper-II runs to 100 questions of 2 marks; only "
+                                "the first 35 are Basic Computer Knowledge. The remainder "
+                                "(Simple Arithmetic, General Intelligence & Reasoning) is out of "
+                                "scope for this app and was not imported.",
+                # Unit marks are question-count x 2, matching the papers' own
+                # 2-marks-per-question scheme. They are counts of what was
+                # actually imported, not a published weighting — MPSC prints no
+                # unit breakdown for this section.
+                "units": [
+                    {"no": "1", "title": "Hardware", "marks": 14,
+                     "subtopics": ["CPU", "RAM", "ALU", "SMPS", "Input/Output devices",
+                                   "Buffers", "Pixels and display"]},
+                    {"no": "2", "title": "Operating Systems", "marks": 8,
+                     "subtopics": ["OS functions", "Multitasking", "System software",
+                                   "Windows releases"]},
+                    {"no": "3", "title": "MS Office", "marks": 62,
+                     "subtopics": ["MS Word", "MS Excel", "PowerPoint"]},
+                    {"no": "4", "title": "Networking", "marks": 24,
+                     "subtopics": ["Network topology", "Transmission media", "IP addressing",
+                                   "VPN", "Wireless LAN", "Switching", "Duplex modes",
+                                   "Network history", "5G"]},
+                    {"no": "5", "title": "Web & Internet", "marks": 16,
+                     "subtopics": ["HTTP status codes", "URLs", "HTTPS", "Web browsers",
+                                   "Email", "Online publishing"]},
+                    {"no": "6", "title": "Security & Citizenship", "marks": 6,
+                     "subtopics": ["Digital signatures", "Wireless security",
+                                   "Digital citizenship"]},
+                    {"no": "7", "title": "Cloud & Mobile", "marks": 10,
+                     "subtopics": ["Cloud computing", "SaaS", "Cloud storage services",
+                                   "APK format"]},
+                ],
+            },
         ],
         "interview": {
             "marks": None,
@@ -590,8 +742,45 @@ def main():
                 "English, Paper I, Paper II",
                 "Junior Engineer General English (2019-2020 departmental, 2019-2020 direct, "
                 "March 2026 Agri & Farmer Welfare)",
+                "Assistant Grade & UDC under MPSC, April 2024 - Paper-II Basic Computer Knowledge "
+                "(the only sitting in this app with a published MPSC answer key)",
+                "Combined UDC Examination under Various Departments, May 2025 - Paper-II Basic "
+                "Computer Knowledge, Series A",
             ],
         },
+        # app.js renders this as the Syllabus tab's "Recommended reading" panel.
+        # It lived only as a hand-edit inside the generated syllabus.js until
+        # 2026-09-02, so the first re-run of this script would have deleted the
+        # whole panel with no error and no numbering gap to reveal it. Same
+        # silent-loss shape as the UDC paper itself. It belongs in the generator.
+        "reading": [
+            {
+                "for": "Technical Papers I and II",
+                "items": [
+                    {"t": "No single prescribed textbook", "by": "—",
+                     "note": "The technical syllabus is the 2019 Computer Operator syllabus as "
+                             "updated by MUDAL in July 2026. It is broad rather than deep — "
+                             "computer fundamentals, MS Office, networking, DBMS, web, cyber "
+                             "security and AI — and no one book covers it. The concept guide in "
+                             "this app was written against the official syllabus for exactly "
+                             "that reason."},
+                    {"t": "Official syllabus PDF (MUDAL, approved 28.07.2026)",
+                     "by": "udpa.mizoram.gov.in",
+                     "note": "The ground truth. Everything in this app's Syllabus tab is "
+                             "transcribed from it."},
+                ],
+            },
+            {
+                "for": "General English — Precis and Letter Writing",
+                "items": [
+                    {"t": "Any standard Indian official-correspondence guide", "by": "—",
+                     "note": "These 25 marks are handwritten and cannot be practised as MCQs. "
+                             "The Study tab's Precis Writing and Letter Writing concepts teach "
+                             "the method and include full worked examples, which is the coverage "
+                             "this app can offer."},
+                ],
+            },
+        ],
         "counts": {
             "technical_subtopics": n1 + n2,
             "tech1_subtopics": n1,
@@ -602,6 +791,12 @@ def main():
         },
     }
 
+    prac = practice_paper()
+    if prac:
+        idx = next((i for i, p in enumerate(syl["papers"]) if p["id"] == "UDC"),
+                   len(syl["papers"]))
+        syl["papers"].insert(idx, prac)
+
     # questions x marks_per_question must equal the paper's MCQ marks - the full 150 for a
     # technical paper, only the MCQ share for the mixed General English paper.
     for p in syl["papers"]:
@@ -610,9 +805,16 @@ def main():
         if got != want:
             sys.exit(f"FAIL {p['id']}: {p['questions']} questions x {p['marks_per_question']} "
                      f"marks = {got}, expected {want} MCQ marks")
-    total = sum(p["marks"] for p in syl["papers"])
+    # The 400 is the System Manager written total, so only the papers that make
+    # it up may be counted. Drill papers imported from other exams (UDC) carry
+    # counts_for_merit=False and are excluded — otherwise adding practice
+    # material would "fail" a check that exists to catch a mistranscribed
+    # System Manager syllabus, which is a different thing entirely.
+    merit = [p for p in syl["papers"] if p.get("counts_for_merit")]
+    total = sum(p["marks"] for p in merit)
     if total != 400:
-        sys.exit(f"FAIL: papers sum to {total} marks, expected 400")
+        sys.exit(f"FAIL: merit-counting papers sum to {total} marks, expected 400 "
+                 f"({', '.join(p['id'] for p in merit)})")
 
     body = json.dumps(syl, indent=2, ensure_ascii=False)
     with open(out, "w", encoding="utf-8") as f:

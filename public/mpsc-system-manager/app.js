@@ -129,11 +129,18 @@ const paperById = {};
 SYL.papers.forEach(p => { paperById[p.id] = p; });
 const unitOf = (pid, uno) => (paperById[pid]?.units || []).find(u => String(u.no) === String(uno));
 const paperName = pid => paperById[pid]?.name || pid;
-const shortPaper = pid => ({
+// Display names for the three System Manager papers, whose official titles
+// ("Technical Paper I") say nothing about what is in them. Anything NOT listed
+// falls back to the syllabus's own `name` rather than to the bare paper id —
+// the UDC paper reached 15 call sites reading "UDC" instead of
+// "UDC · Basic Computer Knowledge" because the fallback was `pid`. A hardcoded
+// map is fine for relabelling; it must not also be the only source of a name.
+const SHORT_PAPER = {
   GE: 'General English',
   TECH1: 'Technical I · Computer Fundamentals & Office',
   TECH2: 'Technical II · Networking, DBMS, Web, Cyber & AI',
-}[pid] || pid);
+};
+const shortPaper = pid => SHORT_PAPER[pid] || paperById[pid]?.name || pid;
 
 // Denominator for the concept-guide progress line, derived rather than
 // hardcoded so it stays honest as data lands.
@@ -305,9 +312,27 @@ function weightedPick(pool, n, rnd) {
 }
 
 // Priority for study value: due reviews first, then never-seen, then weakest.
-function studyOrder(pool) {
+//
+// Shuffle BEFORE sorting. Array.prototype.sort is stable, so without a shuffle
+// every question sharing a score keeps its bank order — and on a fresh profile
+// *every* question shares a score, because they are all unseen and all score 1.
+// The sort then does nothing at all and each caller takes the first N rows of
+// the bank: Practice handed out the same 20 questions every single session, and
+// a newly imported sitting was unreachable until everything ahead of it in the
+// file had been answered. Found when 20 draws from the 70-question UDC pool
+// returned 20 May-2025 questions and zero April-2024 ones — the April sitting
+// is simply later in questions.js.
+//
+// Shuffling first preserves the intended priority bands (due before unseen
+// before mastered) and randomises only within a band, which is where the order
+// was arbitrary anyway.
+// Unseeded by default, unlike the mock-test picker: a mock is meant to be
+// reproducible from its seed, a practice set is not. A time-seeded PRNG here
+// would hand back an identical set to two calls landing in the same
+// millisecond, which is exactly what the Review tab's set buttons do.
+function studyOrder(pool, rnd) {
   const now = Date.now();
-  return pool.slice().sort((a, b) => score(a) - score(b));
+  return shuffle(pool, rnd || Math.random).sort((a, b) => score(a) - score(b));
   function score(q) {
     const st = S.questions[q.id];
     if (!st || !st.att) return 1;                       // unseen: high value
@@ -338,7 +363,13 @@ function go(v, opts) {
    Everything here comes from data/syllabus.js, which is transcribed from the
    official PDF; nothing is hardcoded. */
 VIEWS.syllabus = (el) => {
-  const total = SYL.papers.reduce((a, p) => a + p.marks, 0);
+  // The mark-distribution bar answers "how is my exam weighted", so it may only
+  // contain papers that are IN the exam. Drill papers imported from other exams
+  // (UDC) carry counts_for_merit=false and are excluded — counting them divided
+  // every real share by a 540 denominator that no MPSC document contains, so
+  // General English read 19% of the exam when it is 25% of it.
+  const examPapers = SYL.papers.filter(p => p.counts_for_merit);
+  const total = examPapers.reduce((a, p) => a + p.marks, 0);
   const maxUnit = Math.max(...SYL.papers.flatMap(p => p.units.map(u => u.marks)));
 
   const unitRow = (p, u) => {
@@ -373,7 +404,7 @@ VIEWS.syllabus = (el) => {
     <p class="muted" style="margin-top:.4rem">${esc(SYL.scoring_note || '')}</p>
 
     <div class="syl-split mt">
-      ${SYL.papers.map(p => `
+      ${examPapers.map(p => `
         <div class="syl-share" style="--pct:${Math.round(100 * p.marks / total)}%">
           <strong>${esc(shortPaper(p.id))}</strong>
           <span>${p.marks} marks · ${Math.round(100 * p.marks / total)}%</span>
@@ -384,7 +415,10 @@ VIEWS.syllabus = (el) => {
       <div class="card mt">
         <div class="spread">
           <h3 style="margin:0">${esc(p.name)}</h3>
-          <span class="pill ${p.counts_for_merit ? 'acc' : 'wn'}">${p.marks} marks${p.counts_for_merit ? ' · counts for merit' : ' · qualifying'}</span>
+          <span class="pill ${p.counts_for_merit ? 'acc' : 'wn'}">${p.marks} marks${
+            p.counts_for_merit ? ' · counts for merit'
+              : p.in_exam === false ? ' · extra drill, not in this exam'
+              : ' · qualifying'}</span>
         </div>
         <p class="dim" style="margin:.4rem 0 .2rem">${esc(p.type)}</p>
         ${p.structure_note ? `<p class="dim" style="margin:.2rem 0 .6rem">${esc(p.structure_note)}</p>` : ''}
@@ -630,7 +664,9 @@ VIEWS.study = (el, opts) => {
       pane.innerHTML = `
         <h2>${esc(shortPaper(state.paper))}</h2>
         <p class="muted">${esc(p?.name || '')} — ${p?.marks} marks, ${p?.type || ''}.
-        ${p?.counts_for_merit ? 'Counts toward merit.' : 'Qualifying only: you need 50%.'}</p>
+        ${p?.counts_for_merit ? 'Counts toward merit.'
+          : p?.in_exam === false ? 'Extra drill from another exam — not part of System Manager.'
+          : 'Qualifying only: you need 50%.'}</p>
         ${p?.structure_note ? `<p class="dim">${esc(p.structure_note)}</p>` : ''}
         <hr class="sep">
         <p class="dim">Pick a sub-topic on the left. Units are shown with their mark weighting so you can see where the marks actually are.</p>
@@ -969,10 +1005,17 @@ VIEWS.mock = (el, opts) => {
       </div>
       ${SYL.papers.filter(p => !p.counts_for_merit && ANSWERABLE.some(q => q.paper === p.id)).map(p => {
         const n = ANSWERABLE.filter(q => q.paper === p.id).length;
+        // A paper outside this exam gets neither the "qualifying" pill nor the
+        // 50%-to-stay-in-the-race line: both are claims about the System Manager
+        // selection process, and neither is true of borrowed drill material.
+        const extra = p.in_exam === false;
         return `<div class="card">
-          <div class="spread"><h3 style="margin:0">${esc(shortPaper(p.id))}</h3><span class="pill wn">qualifying</span></div>
-          <p class="dim" style="margin:.35rem 0 .7rem">You need 50% to stay in the race. Bank holds ${n} questions.</p>
-          <button class="btn sm" data-mock="${p.id}">Start qualifying mock</button>
+          <div class="spread"><h3 style="margin:0">${esc(shortPaper(p.id))}</h3>
+            <span class="pill wn">${extra ? 'extra drill' : 'qualifying'}</span></div>
+          <p class="dim" style="margin:.35rem 0 .7rem">${extra
+            ? `Not part of the System Manager exam — easier warm-up material from the Group B clerical papers. Bank holds ${n} questions.`
+            : `You need 50% to stay in the race. Bank holds ${n} questions.`}</p>
+          <button class="btn sm" data-mock="${p.id}">${extra ? 'Start drill mock' : 'Start qualifying mock'}</button>
         </div>`;
       }).join('')}
     </div>`;

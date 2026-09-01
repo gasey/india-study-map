@@ -48,6 +48,64 @@ P2_META = {
     "CO2016B-P2": ("Computer Operator (CB) under Mizoram Information Commission, 2016 - Paper II", "TECH2"),
 }
 
+# --- UDC / Assistant / Group B clerical papers -------------------------------
+# These sit in the app as their own `UDC` paper. They are NOT Computer Operator
+# papers: they are the Basic Computer Knowledge section of the Group B
+# non-gazetted clerical exams, which is easier material at the same subject
+# spread, and useful as warm-up drill.
+#
+# `official` is the important field. Every other source in this pipeline is
+# answered by derivation because MPSC never published a key for the Computer
+# Operator papers — but the Commission DID publish one for the April 2024
+# Assistant & UDC sitting, so those 35 answers are the only ones in the whole
+# bank that are authoritative rather than inferred. provLine() in app.js decides
+# the blue "official key" badge by testing the prov string, so the string built
+# below must say "official" for those and must NOT say it for the rest.
+#
+# srcKey -> (sitting label, official-key-exists, key citation)
+UDC_META = {
+    "UDC2025MAY-P2": (
+        "Combined UDC Examination under Various Departments, May 2025 — Paper-II "
+        "(Basic Computer Knowledge), Series A, Q1-35",
+        False,
+        None,
+    ),
+    "UDCASST2024APR-P2": (
+        "Assistant Grade & Upper Division Clerk under MPSC, Combined Competitive "
+        "Examination, April 2024 — Paper-II (Basic Computer Knowledge), Q1-35",
+        True,
+        "MPSC Provisional Answer Key, notification No.ASST/1/2019-MPSC dated 5 April 2024",
+    ),
+}
+
+
+# --- MUDAL Technical Paper I practice volumes --------------------------------
+# Two authored practice question banks written against the real Technical Paper I
+# syllabus, at its exact five-unit split and marks weighting. They ship as their
+# own `TECH1P` paper rather than being folded into TECH1, for one reason: TECH1
+# holds 75 genuine 2016 Computer Operator questions, and the Mock Test tab draws
+# a simulated paper from TECH1 + TECH2. Merging 349 authored questions into TECH1
+# would mean a "past paper" mock was 82% invented material.
+#
+# These are the LEAST authoritative questions in the app. Every other source is
+# at least a paper MPSC actually set; these were authored, and their own answer
+# key was wrong on at least one question that an independent re-derivation caught
+# (see CORRECTIONS in import_practice.py). The prov string below therefore says
+# plainly that no official key exists — which also keeps provLine()'s negation
+# guard from awarding them the blue "official key" badge.
+#
+# srcKey -> (volume label, source filename)
+PRACTICE_META = {
+    "MUDALPRAC-V1": (
+        "MUDAL System Manager Technical Paper I — Practice Question Bank, Volume 1",
+        "sources/practice-tech1-vol1.md",
+    ),
+    "MUDALPRAC-V2": (
+        "MUDAL System Manager Technical Paper I — Practice Question Bank, Volume 2",
+        "sources/practice-tech1-vol2.md",
+    ),
+}
+
 
 def load_taxonomy():
     path = os.path.join(STAGED, "taxonomy.json")
@@ -128,6 +186,124 @@ def main(force=False):
         notes.append(f"added {len(gen)} Phase 4 authored questions")
     else:
         notes.append("staged/generated.json missing — run the Phase 4 generation pass")
+
+    # --- UDC / Assistant / Group B clerical papers ---
+    # Transcribed from the source papers in the mpsc-question-bank repo (see
+    # UDC_META for the exact sitting each srcKey names). These arrive pre-tagged
+    # because the tagging was done against the UDC paper's own unit list, which
+    # the technical taxonomy does not contain — so they skip the tags.json step
+    # below, exactly as the Phase 4 authored questions do.
+    #
+    # This block exists because these 70 questions previously lived as hand-typed
+    # entries inside questions.js and syllabus.js, both of which carry a
+    # "GENERATED — do not hand-edit" header. Nothing in the pipeline knew they
+    # were there, so the next assemble.py run would have silently erased the
+    # paper and every question in it — the same class of loss as the 2026-08-04
+    # incident. Editing staged/udc.json is now the supported way to change them.
+    up_ = os.path.join(STAGED, "udc.json")
+    if os.path.isfile(up_):
+        udc = json.load(open(up_, encoding="utf-8"))
+        n_official = 0
+        for u in udc:
+            key = u["srcKey"]
+            if key not in UDC_META:
+                problems.append(f"{key}: unknown UDC srcKey, not in UDC_META")
+                continue
+            sitting, official, citation = UDC_META[key]
+            if official:
+                prov = (f"Answer taken from the official {citation}. "
+                        f"Transcribed from {sitting}.")
+                n_official += 1
+            else:
+                prov = (f"Transcribed from {sitting}. MPSC published no official "
+                        f"answer key for this sitting; the answer is derived.")
+            rows.append({
+                "id": f"{key}-{u['no']}",
+                "src": "past",
+                "srcKey": key,
+                "sitting": sitting,
+                "no": u["no"],
+                "paper": "UDC",
+                "unit": u.get("unit"), "sub": u.get("sub"),
+                "q": u["q"], "opts": u["opts"], "ans": u.get("ans"),
+                "exp": u.get("exp", ""),
+                # An official key is authoritative, so it is not "high confidence
+                # in a guess" — but `conf` still has to be set, because provLine()
+                # falls through to "derived · unrated" when it is absent.
+                "conf": u.get("conf", "high"),
+                "prov": prov,
+                "needs_verify": False, "needs_figure": False,
+                "note": u.get("note", ""),
+                "_tier": 1,
+            })
+            # `alt` renders app.js's DISPUTED block, whose copy reads "No official
+            # answer key exists for this paper — decide for yourself". That is
+            # true of an unkeyed paper and false of a keyed one, so attaching it
+            # to an official-key question puts a flat contradiction directly above
+            # the blue "official key" badge, and invites the reader to pick the
+            # option the Commission marks wrong. Where a key exists it settles the
+            # answer; any residual doubt belongs in `note`, which prints as prose
+            # on the same line rather than as a two-column stand-off.
+            if u.get("alt") and not official:
+                rows[-1]["alt"] = u["alt"]
+                rows[-1]["altSrc"] = "solver"
+        notes.append(f"added {len(udc)} UDC/Assistant clerical questions "
+                     f"({n_official} answered from an official MPSC key)")
+    else:
+        notes.append("staged/udc.json missing — the UDC paper will not ship")
+
+    # --- MUDAL Technical Paper I practice volumes ---
+    # Written by import_practice.py from the markdown in sources/. Pre-tagged
+    # against the real TECH1 taxonomy, so they skip the tags.json step below the
+    # same way the Phase 4 authored questions and the UDC paper do.
+    pp = os.path.join(STAGED, "practice-tech1.json")
+    if os.path.isfile(pp):
+        prac = json.load(open(pp, encoding="utf-8"))
+        n_corrected = 0
+        for p in prac:
+            key = p["srcKey"]
+            if key not in PRACTICE_META:
+                problems.append(f"{key}: unknown practice srcKey, not in PRACTICE_META")
+                continue
+            label, source = PRACTICE_META[key]
+            prov = (f"Authored practice question, {label}, Unit {p['unit']} Q{p['no']}. "
+                    f"Not a past paper — no official MPSC answer key exists for it. "
+                    f"Source markdown is kept in the repo at "
+                    f"tools/system-manager-build/{source}; every answer was "
+                    f"independently re-derived and diffed against the volume's own key "
+                    f"before import.")
+            if p.get("srcAns"):
+                # The volume's key and the re-derivation disagreed, and the
+                # re-derivation won. Say so in the provenance itself, not only in
+                # the note — a reader who trusts the printed volume needs to know
+                # this app deliberately departs from it here.
+                prov += (f" The volume's key gives ({p['srcAns'].lower()}); that is wrong "
+                         f"and the answer shown here is corrected.")
+                n_corrected += 1
+            rows.append({
+                "id": f"{key}-{p['unit']}-{p['no']}",
+                # `generated` is the existing src for authored practice material and
+                # is what the Practice tab's "Authored practice only" filter selects.
+                # A new src value would have been silently unreachable from that
+                # dropdown, which lists only 'past' and 'generated'.
+                "src": "generated",
+                "srcKey": key,
+                "sitting": label,
+                "no": p["no"],
+                "paper": "TECH1P",
+                "unit": p["unit"], "sub": p.get("sub"),
+                "q": p["q"], "opts": p["opts"], "ans": p.get("ans"),
+                "exp": p.get("exp", ""),
+                "conf": p.get("conf", "high"),
+                "prov": prov,
+                "needs_verify": False, "needs_figure": False,
+                "note": p.get("note", ""),
+                "_tier": 4,
+            })
+        notes.append(f"added {len(prac)} MUDAL Technical Paper I practice questions "
+                     f"({n_corrected} with the volume's own answer key corrected)")
+    else:
+        notes.append("staged/practice-tech1.json missing — run import_practice.py")
 
     # --- apply Phase 3 verified answers ---
     # solve.py re-derived these blind and diffed against the bank's inferred
@@ -362,10 +538,13 @@ def main(force=False):
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, "w", encoding="utf-8") as f:
         f.write("/* GENERATED by tools/system-manager-build/assemble.py — do not hand-edit.\n"
-                "   Sources: all five Computer Operator sittings MPSC has examined (Tier 1)\n"
-                "   and authored questions. No official answer key exists for any Computer\n"
-                "   Operator paper; every answer here is derived and carries a `conf` rating\n"
-                "   surfaced in the UI. Re-run the pipeline to regenerate. */\n")
+                "   Sources: all five Computer Operator sittings MPSC has examined (Tier 1),\n"
+                "   the UDC/Assistant clerical Basic Computer Knowledge papers, and authored\n"
+                "   questions. No official answer key exists for any Computer Operator paper,\n"
+                "   so those answers are derived and carry a `conf` rating surfaced in the UI.\n"
+                "   The April 2024 Assistant & UDC sitting is the one exception — MPSC did\n"
+                "   publish a key for it, and those answers are authoritative.\n"
+                "   Re-run the pipeline to regenerate. */\n")
         f.write("window.QUESTIONS = " + json.dumps(public, indent=2, ensure_ascii=False) + ";\n")
 
     with open(os.path.join(STAGED, "quarantine.json"), "w", encoding="utf-8") as f:

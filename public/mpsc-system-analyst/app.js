@@ -362,9 +362,18 @@ function weightedPick(pool, n, rnd) {
 }
 
 // Priority for study value: due reviews first, then never-seen, then weakest.
-function studyOrder(pool) {
+// Shuffle BEFORE sorting. Array.prototype.sort is stable, so without a shuffle
+// every question sharing a score keeps its bank order — and on a fresh profile
+// *every* question shares a score, because they are all unseen and all score 1.
+// The sort then does nothing and each caller takes the first N rows of the bank:
+// Practice handed out the same questions every session, and a newly imported
+// sitting stayed unreachable until everything ahead of it in the file had been
+// answered. Found in the System Manager app on 2026-09-02; this file carries the
+// same logic, so it carried the same bug. Unseeded on purpose — a practice set,
+// unlike a mock, has no reason to be reproducible.
+function studyOrder(pool, rnd) {
   const now = Date.now();
-  return pool.slice().sort((a, b) => score(a) - score(b));
+  return shuffle(pool, rnd || Math.random).sort((a, b) => score(a) - score(b));
   function score(q) {
     const st = S.questions[q.id];
     if (!st || !st.att) return 1;                       // unseen: high value

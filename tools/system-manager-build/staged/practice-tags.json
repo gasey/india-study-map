@@ -1,0 +1,2096 @@
+[
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 1,
+    "sub": "Evolution and Generations of Computers"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 2,
+    "sub": "Evolution and Generations of Computers"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 3,
+    "sub": "Evolution and Generations of Computers"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 4,
+    "sub": "Characteristics and Applications of Computers"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 5,
+    "sub": "Characteristics and Applications of Computers"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 6,
+    "sub": "Classification of Computers"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 7,
+    "sub": "Classification of Computers"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 8,
+    "sub": "Classification of Computers"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 9,
+    "sub": "Emerging Technologies: Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Big Data, Cloud Computing and Edge Computing"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 10,
+    "sub": "Emerging Technologies: Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Big Data, Cloud Computing and Edge Computing"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 11,
+    "sub": "Emerging Technologies: Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Big Data, Cloud Computing and Edge Computing"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 12,
+    "sub": "Emerging Technologies: Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Big Data, Cloud Computing and Edge Computing"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 13,
+    "sub": "Emerging Technologies: Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Big Data, Cloud Computing and Edge Computing"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 14,
+    "sub": "Emerging Technologies: Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Big Data, Cloud Computing and Edge Computing"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 15,
+    "sub": "Green Computing and Sustainable IT"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 16,
+    "sub": "Digital Transformation and e-Governance"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 17,
+    "sub": "Digital Transformation and e-Governance"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 18,
+    "sub": "CPU Architecture and Instruction Cycle"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 19,
+    "sub": "CPU Architecture and Instruction Cycle"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 20,
+    "sub": "CPU Architecture and Instruction Cycle"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 21,
+    "sub": "CPU Architecture and Instruction Cycle"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 22,
+    "sub": "System Bus and Expansion Slots"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 23,
+    "sub": "BIOS/UEFI Firmware"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 24,
+    "sub": "System Bus and Expansion Slots"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 25,
+    "sub": "Motherboard and Chipset"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 26,
+    "sub": "Cache Memory"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 27,
+    "sub": "Cache Memory"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 28,
+    "sub": "Multi-core and Multi-threaded Processors"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 29,
+    "sub": "RAM, ROM and Virtual Memory"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 30,
+    "sub": "RAM, ROM and Virtual Memory"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 31,
+    "sub": "Memory Hierarchy"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 32,
+    "sub": "RAM, ROM and Virtual Memory"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 33,
+    "sub": "Performance Measurement"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 34,
+    "sub": "Multi-core and Multi-threaded Processors"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 35,
+    "sub": "HDD, SSD and NVMe Storage"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 36,
+    "sub": "HDD, SSD and NVMe Storage"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 37,
+    "sub": "HDD, SSD and NVMe Storage"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 38,
+    "sub": "HDD, SSD and NVMe Storage"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 39,
+    "sub": "Network Attached Storage (NAS)"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 40,
+    "sub": "Backup Concepts"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 41,
+    "sub": "Disaster Recovery Concepts"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 42,
+    "sub": "Backup Concepts"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 43,
+    "sub": "Optical and Flash Storage"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 44,
+    "sub": "Scanners"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 45,
+    "sub": "Scanners"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 46,
+    "sub": "Modern Input Devices"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 47,
+    "sub": "Biometric Devices"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 48,
+    "sub": "Smart Card Readers"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 49,
+    "sub": "Printers and Multifunction Devices"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 50,
+    "sub": "Printers and Multifunction Devices"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 51,
+    "sub": "System Software"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 52,
+    "sub": "Open Source and Proprietary Software"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 53,
+    "sub": "Software Development Life Cycle (SDLC)"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 54,
+    "sub": "Software Development Life Cycle (SDLC)"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 55,
+    "sub": "Virtualization and Containerization (Concept)"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 56,
+    "sub": "Virtualization and Containerization (Concept)"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 57,
+    "sub": "Programming Languages"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 58,
+    "sub": "Object-Oriented Programming Concepts"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 59,
+    "sub": "Object-Oriented Programming Concepts"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 60,
+    "sub": "APIs and Software Integration (Concept)"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 61,
+    "sub": "Digital India and e-Governance"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 62,
+    "sub": "Data Privacy and Personal Data Protection"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 63,
+    "sub": "Data Privacy and Personal Data Protection"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 64,
+    "sub": "Electronic Records management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "I",
+    "no": 65,
+    "sub": "Digital Inclusion and Accessibility"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 1,
+    "sub": "Types and Functions of Operating Systems"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 2,
+    "sub": "Types and Functions of Operating Systems"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 3,
+    "sub": "Process Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 4,
+    "sub": "Process Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 5,
+    "sub": "Process Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 6,
+    "sub": "Memory Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 7,
+    "sub": "File Systems"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 8,
+    "sub": "File Systems"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 9,
+    "sub": "Linux File System"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 10,
+    "sub": "Windows Security"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 11,
+    "sub": "Encryption"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 12,
+    "sub": "Event Viewer"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 13,
+    "sub": "Device Manager"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 14,
+    "sub": "Disk Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 15,
+    "sub": "Registry"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 16,
+    "sub": "Registry"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 17,
+    "sub": "Windows Utilities"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 18,
+    "sub": "Linux File System"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 19,
+    "sub": "Linux File System"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 20,
+    "sub": "Basic Linux Commands"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 21,
+    "sub": "Basic Linux Commands"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 22,
+    "sub": "PowerShell Fundamentals"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 23,
+    "sub": "PowerShell Fundamentals"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "II",
+    "no": 24,
+    "sub": "Basic Batch Files"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "III",
+    "no": 1,
+    "sub": "Document Creation"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "III",
+    "no": 2,
+    "sub": "Templates"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "III",
+    "no": 3,
+    "sub": "Table of Contents"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "III",
+    "no": 4,
+    "sub": "Page Layout"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "III",
+    "no": 5,
+    "sub": "Page Layout"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "III",
+    "no": 6,
+    "sub": "Mail Merge"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "III",
+    "no": 7,
+    "sub": "Mail Merge"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "III",
+    "no": 8,
+    "sub": "Track Changes"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "III",
+    "no": 9,
+    "sub": "References"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "III",
+    "no": 10,
+    "sub": "Styles and Themes"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "III",
+    "no": 11,
+    "sub": "Styles and Themes"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "III",
+    "no": 12,
+    "sub": "SmartArt"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "III",
+    "no": 13,
+    "sub": "Tables"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "III",
+    "no": 14,
+    "sub": "Citations and Bibliography"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "III",
+    "no": 15,
+    "sub": "Accessibility Features"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "III",
+    "no": 16,
+    "sub": "Microsoft 365 Collaboration"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "III",
+    "no": 17,
+    "sub": "Integration of e-Office"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "III",
+    "no": 18,
+    "sub": "AI-assisted Document Creation (Microsoft Copilot - Concept)"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 1,
+    "sub": "Formulae and Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 2,
+    "sub": "Formulae and Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 3,
+    "sub": "Lookup Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 4,
+    "sub": "Lookup Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 5,
+    "sub": "Lookup Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 6,
+    "sub": "Formulae and Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 7,
+    "sub": "Formulae and Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 8,
+    "sub": "Statistical Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 9,
+    "sub": "Financial Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 10,
+    "sub": "Financial Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 11,
+    "sub": "Formulae and Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 12,
+    "sub": "Formulae and Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 13,
+    "sub": "Formulae and Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 14,
+    "sub": "Formulae and Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 15,
+    "sub": "Data Validation"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 16,
+    "sub": "Conditional Formatting"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 17,
+    "sub": "Pivot Tables"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 18,
+    "sub": "Pivot Tables"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 19,
+    "sub": "Pivot Tables"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 20,
+    "sub": "Goal Seek"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 21,
+    "sub": "What-if Analysis"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 22,
+    "sub": "Power Query (Introduction)"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 23,
+    "sub": "Power Pivot (Overview)"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "IV",
+    "no": 24,
+    "sub": "Macros (Introduction)"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "V",
+    "no": 1,
+    "sub": "Presentation Design"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "V",
+    "no": 2,
+    "sub": "Presentation Delivery"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "V",
+    "no": 3,
+    "sub": "Slide Master"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "V",
+    "no": 4,
+    "sub": "Slide Master"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "V",
+    "no": 5,
+    "sub": "Templates and Themes"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "V",
+    "no": 6,
+    "sub": "Morph Transition"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "V",
+    "no": 7,
+    "sub": "Animation"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "V",
+    "no": 8,
+    "sub": "Animation"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "V",
+    "no": 9,
+    "sub": "Presenter View"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "V",
+    "no": 10,
+    "sub": "Presentation Delivery"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "V",
+    "no": 11,
+    "sub": "Presentation Delivery"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "V",
+    "no": 12,
+    "sub": "Presentation Delivery"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "V",
+    "no": 13,
+    "sub": "Recording Presentations"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "V",
+    "no": 14,
+    "sub": "Presentation Delivery"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "V",
+    "no": 15,
+    "sub": "Presentation Design"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "V",
+    "no": 16,
+    "sub": "Presentation Design"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "V",
+    "no": 17,
+    "sub": "Accessibility Features"
+  },
+  {
+    "srcKey": "MUDALPRAC-V1",
+    "unit": "V",
+    "no": 18,
+    "sub": "AI-assisted Presentation Design (Microsoft Copilot - Concept)"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 1,
+    "sub": "Evolution and Generations of Computers"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 2,
+    "sub": "Evolution and Generations of Computers"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 3,
+    "sub": "Evolution and Generations of Computers"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 4,
+    "sub": "Functional Components of a Computer"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 5,
+    "sub": "Functional Components of a Computer"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 6,
+    "sub": "Evolution and Generations of Computers"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 7,
+    "sub": "Functional Components of a Computer"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 8,
+    "sub": "Functional Components of a Computer"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 9,
+    "sub": "Functional Components of a Computer"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 10,
+    "sub": "Functional Components of a Computer"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 11,
+    "sub": "Functional Components of a Computer"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 12,
+    "sub": "Functional Components of a Computer"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 13,
+    "sub": "Functional Components of a Computer"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 14,
+    "sub": "Functional Components of a Computer"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 15,
+    "sub": "Functional Components of a Computer"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 16,
+    "sub": "Functional Components of a Computer"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 17,
+    "sub": "Characteristics and Applications of Computers"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 18,
+    "sub": "Classification of Computers"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 19,
+    "sub": "Emerging Technologies: Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Big Data, Cloud Computing and Edge Computing"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 20,
+    "sub": "Emerging Technologies: Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Big Data, Cloud Computing and Edge Computing"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 21,
+    "sub": "Emerging Technologies: Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Big Data, Cloud Computing and Edge Computing"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 22,
+    "sub": "Emerging Technologies: Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Big Data, Cloud Computing and Edge Computing"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 23,
+    "sub": "Emerging Technologies: Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Big Data, Cloud Computing and Edge Computing"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 24,
+    "sub": "Emerging Technologies: Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Big Data, Cloud Computing and Edge Computing"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 25,
+    "sub": "Emerging Technologies: Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Big Data, Cloud Computing and Edge Computing"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 26,
+    "sub": "Emerging Technologies: Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Big Data, Cloud Computing and Edge Computing"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 27,
+    "sub": "Emerging Technologies: Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Big Data, Cloud Computing and Edge Computing"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 28,
+    "sub": "Emerging Technologies: Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Big Data, Cloud Computing and Edge Computing"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 29,
+    "sub": "Digital India and e-Governance"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 30,
+    "sub": "Digital India and e-Governance"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 31,
+    "sub": "Digital India and e-Governance"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 32,
+    "sub": "Digital India and e-Governance"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 33,
+    "sub": "Digital India and e-Governance"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 34,
+    "sub": "Digital India and e-Governance"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 35,
+    "sub": "Digital India and e-Governance"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 36,
+    "sub": "Green Computing and Sustainable IT"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 37,
+    "sub": "CPU Architecture and Instruction Cycle"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 38,
+    "sub": "CPU Architecture and Instruction Cycle"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 39,
+    "sub": "CPU Architecture and Instruction Cycle"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 40,
+    "sub": "CPU Architecture and Instruction Cycle"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 41,
+    "sub": "CPU Architecture and Instruction Cycle"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 42,
+    "sub": "CPU Architecture and Instruction Cycle"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 43,
+    "sub": "Performance Measurement"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 44,
+    "sub": "CPU Architecture and Instruction Cycle"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 45,
+    "sub": "Functional Components of a Computer"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 46,
+    "sub": "CPU Architecture and Instruction Cycle"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 47,
+    "sub": "RAM, ROM and Virtual Memory"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 48,
+    "sub": "BIOS/UEFI Firmware"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 49,
+    "sub": "BIOS/UEFI Firmware"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 50,
+    "sub": "Motherboard and Chipset"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 51,
+    "sub": "Motherboard and Chipset"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 52,
+    "sub": "Performance Measurement"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 53,
+    "sub": "RAM, ROM and Virtual Memory"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 54,
+    "sub": "Cache Memory"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 55,
+    "sub": "Cache Memory"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 56,
+    "sub": "Cache Memory"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 57,
+    "sub": "RAM, ROM and Virtual Memory"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 58,
+    "sub": "RAM, ROM and Virtual Memory"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 59,
+    "sub": "Memory Hierarchy"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 60,
+    "sub": "Memory Hierarchy"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 61,
+    "sub": "HDD, SSD and NVMe Storage"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 62,
+    "sub": "HDD, SSD and NVMe Storage"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 63,
+    "sub": "HDD, SSD and NVMe Storage"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 64,
+    "sub": "HDD, SSD and NVMe Storage"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 65,
+    "sub": "HDD, SSD and NVMe Storage"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 66,
+    "sub": "HDD, SSD and NVMe Storage"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 67,
+    "sub": "Backup Concepts"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 68,
+    "sub": "Disaster Recovery Concepts"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 69,
+    "sub": "Backup Concepts"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 70,
+    "sub": "Backup Concepts"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 71,
+    "sub": "Interactive Displays"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 72,
+    "sub": "Display Technologies"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 73,
+    "sub": "Display Technologies"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 74,
+    "sub": "Printers and Multifunction Devices"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 75,
+    "sub": "Printers and Multifunction Devices"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 76,
+    "sub": "System Software"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 77,
+    "sub": "System Software"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 78,
+    "sub": "Software Licensing"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 79,
+    "sub": "Software Licensing"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 80,
+    "sub": "Software Licensing"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 81,
+    "sub": "Software Development Life Cycle (SDLC)"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 82,
+    "sub": "Software Development Life Cycle (SDLC)"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 83,
+    "sub": "Software Development Life Cycle (SDLC)"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 84,
+    "sub": "Software Development Life Cycle (SDLC)"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 85,
+    "sub": "Virtualization and Containerization (Concept)"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 86,
+    "sub": "Virtualization and Containerization (Concept)"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 87,
+    "sub": "Virtualization and Containerization (Concept)"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 88,
+    "sub": "Programming Languages"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 89,
+    "sub": "Programming Languages"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "I",
+    "no": 90,
+    "sub": "Programming Languages"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 1,
+    "sub": "Types and Functions of Operating Systems"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 2,
+    "sub": "Types and Functions of Operating Systems"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 3,
+    "sub": "Types and Functions of Operating Systems"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 4,
+    "sub": "Process Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 5,
+    "sub": "Process Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 6,
+    "sub": "Process Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 7,
+    "sub": "Process Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 8,
+    "sub": "Process Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 9,
+    "sub": "Process Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 10,
+    "sub": "Process Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 11,
+    "sub": "Process Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 12,
+    "sub": "Process Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 13,
+    "sub": "Process Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 14,
+    "sub": "Memory Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 15,
+    "sub": "Memory Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 16,
+    "sub": "Memory Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 17,
+    "sub": "Memory Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 18,
+    "sub": "Memory Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 19,
+    "sub": "Memory Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 20,
+    "sub": "Types and Functions of Operating Systems"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 21,
+    "sub": "Disk Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 22,
+    "sub": "Windows Operating Systems"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 23,
+    "sub": "User Accounts"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 24,
+    "sub": "Windows Utilities"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 25,
+    "sub": "Windows Utilities"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 26,
+    "sub": "Performance Monitoring"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 27,
+    "sub": "Windows Security"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 28,
+    "sub": "Command Prompt"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 29,
+    "sub": "Command Prompt"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 30,
+    "sub": "Command Prompt"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 31,
+    "sub": "Linux Architecture"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 32,
+    "sub": "Linux File System"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 33,
+    "sub": "Basic Linux Commands"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 34,
+    "sub": "Basic Linux Commands"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "II",
+    "no": 35,
+    "sub": "Basic Linux Commands"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 1,
+    "sub": "Document Creation"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 2,
+    "sub": "Styles and Themes"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 3,
+    "sub": "Templates"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 4,
+    "sub": "References"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 5,
+    "sub": "References"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 6,
+    "sub": "Page Layout"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 7,
+    "sub": "Page Layout"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 8,
+    "sub": "Page Layout"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 9,
+    "sub": "Page Layout"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 10,
+    "sub": "Page Layout"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 11,
+    "sub": "Styles and Themes"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 12,
+    "sub": "Styles and Themes"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 13,
+    "sub": "Review Tools"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 14,
+    "sub": "Review Tools"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 15,
+    "sub": "Document Creation"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 16,
+    "sub": "Document Creation"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 17,
+    "sub": "Document Creation"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 18,
+    "sub": "Mail Merge"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 19,
+    "sub": "Mail Merge"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 20,
+    "sub": "Document Creation"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 21,
+    "sub": "Document Creation"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 22,
+    "sub": "Microsoft 365 Collaboration"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 23,
+    "sub": "Accessibility Features"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 24,
+    "sub": "Integration of e-Office"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "III",
+    "no": 25,
+    "sub": "Integration of e-Office"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 1,
+    "sub": "Formulae and Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 2,
+    "sub": "Formulae and Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 3,
+    "sub": "Formulae and Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 4,
+    "sub": "Formulae and Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 5,
+    "sub": "Formulae and Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 6,
+    "sub": "Formulae and Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 7,
+    "sub": "Formulae and Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 8,
+    "sub": "Formulae and Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 9,
+    "sub": "Formulae and Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 10,
+    "sub": "Formulae and Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 11,
+    "sub": "Formulae and Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 12,
+    "sub": "Formulae and Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 13,
+    "sub": "Formulae and Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 14,
+    "sub": "Statistical Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 15,
+    "sub": "Statistical Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 16,
+    "sub": "Statistical Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 17,
+    "sub": "Financial Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 18,
+    "sub": "Financial Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 19,
+    "sub": "Sorting and Filtering"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 20,
+    "sub": "Sorting and Filtering"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 21,
+    "sub": "Sorting and Filtering"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 22,
+    "sub": "Sorting and Filtering"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 23,
+    "sub": "Workbook Management"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 24,
+    "sub": "Formulae and Functions"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 25,
+    "sub": "Dashboards"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 26,
+    "sub": "Dashboards"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 27,
+    "sub": "Dashboards"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 28,
+    "sub": "What-if Analysis"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 29,
+    "sub": "Goal Seek"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "IV",
+    "no": 30,
+    "sub": "Power Query (Introduction)"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "V",
+    "no": 1,
+    "sub": "Presentation Design"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "V",
+    "no": 2,
+    "sub": "Presentation Design"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "V",
+    "no": 3,
+    "sub": "Slide Master"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "V",
+    "no": 4,
+    "sub": "Slide Master"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "V",
+    "no": 5,
+    "sub": "Presentation Design"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "V",
+    "no": 6,
+    "sub": "Presentation Design"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "V",
+    "no": 7,
+    "sub": "Presentation Delivery"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "V",
+    "no": 8,
+    "sub": "Presentation Delivery"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "V",
+    "no": 9,
+    "sub": "Presentation Delivery"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "V",
+    "no": 10,
+    "sub": "Animation"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "V",
+    "no": 11,
+    "sub": "Animation"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "V",
+    "no": 12,
+    "sub": "Animation"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "V",
+    "no": 13,
+    "sub": "Charts"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "V",
+    "no": 14,
+    "sub": "Multimedia"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "V",
+    "no": 15,
+    "sub": "Multimedia"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "V",
+    "no": 16,
+    "sub": "Multimedia"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "V",
+    "no": 17,
+    "sub": "Presentation Delivery"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "V",
+    "no": 18,
+    "sub": "Accessibility Features"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "V",
+    "no": 19,
+    "sub": "Presentation Delivery"
+  },
+  {
+    "srcKey": "MUDALPRAC-V2",
+    "unit": "V",
+    "no": 20,
+    "sub": "Presentation Delivery"
+  }
+]

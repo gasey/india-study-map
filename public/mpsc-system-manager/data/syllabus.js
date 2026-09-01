@@ -966,21 +966,260 @@ window.SYLLABUS = {
       ]
     },
     {
+      "id": "TECH1P",
+      "name": "Technical I · Practice Bank (authored)",
+      "marks": 698,
+      "questions": 349,
+      "marks_per_question": 2,
+      "duration_hours": null,
+      "type": "Objective (MCQ)",
+      "counts_for_merit": false,
+      "in_exam": false,
+      "authority": "None — authored practice questions, not an MPSC paper",
+      "source": "MUDAL System Manager Technical Paper I Practice Question Bank, Volumes 1 and 2 (markdown kept in tools/system-manager-build/sources/)",
+      "note": "Authored practice questions written against the real Technical Paper I syllabus, at its exact five-unit split. These are the only questions in this app with no exam authority behind them at all — no MPSC paper set them and no official key answers them. Every answer was independently re-derived before import and diffed against the volumes' own key; that found one key outright wrong (Volume 2, Unit IV Q10) and one question resting on a dated premise, both now annotated in place. Treat this as drill for recall, and the two 2016 Computer Operator papers as the real measure of the exam.",
+      "pattern_note": "Unit marks here are imported-question-count x 2, NOT the exam's weighting. The real Technical Paper I is 60/25/20/25/20 across Units I-V; these volumes over-supply Unit I relative to that, and also range slightly outside the syllabus (number systems, Boolean logic and gates have no leaf in the official Unit I list).",
+      "units": [
+        {
+          "no": "I",
+          "title": "Fundamentals of Computer",
+          "marks": 310,
+          "subtopics": [
+            "Evolution and Generations of Computers",
+            "Characteristics and Applications of Computers",
+            "Classification of Computers",
+            "Digital Transformation and e-Governance",
+            "Emerging Technologies: Artificial Intelligence (AI), Internet of Things (IoT), Blockchain, Big Data, Cloud Computing and Edge Computing",
+            "Green Computing and Sustainable IT",
+            "Functional Components of a Computer",
+            "CPU Architecture and Instruction Cycle",
+            "Motherboard and Chipset",
+            "System Bus and Expansion Slots",
+            "BIOS/UEFI Firmware",
+            "Multi-core and Multi-threaded Processors",
+            "Cache Memory",
+            "RAM, ROM and Virtual Memory",
+            "Memory Hierarchy",
+            "Performance Measurement",
+            "HDD, SSD and NVMe Storage",
+            "Optical and Flash Storage",
+            "Network Attached Storage (NAS)",
+            "Backup Concepts",
+            "Disaster Recovery Concepts",
+            "Modern Input Devices",
+            "Biometric Devices",
+            "Smart Card Readers",
+            "Scanners",
+            "Display Technologies",
+            "Printers and Multifunction Devices",
+            "Interactive Displays",
+            "System Software",
+            "Open Source and Proprietary Software",
+            "Software Licensing",
+            "Software Development Life Cycle (SDLC)",
+            "Virtualization and Containerization (Concept)",
+            "Programming Languages",
+            "Object-Oriented Programming Concepts",
+            "APIs and Software Integration (Concept)",
+            "Digital India and e-Governance",
+            "Electronic Records management",
+            "Data Privacy and Personal Data Protection",
+            "Digital Inclusion and Accessibility"
+          ]
+        },
+        {
+          "no": "II",
+          "title": "Operating Systems",
+          "marks": 118,
+          "subtopics": [
+            "Types and Functions of Operating Systems",
+            "Process Management",
+            "Memory Management",
+            "File Systems",
+            "Windows Operating Systems",
+            "User Accounts",
+            "Windows Security",
+            "Registry",
+            "Windows Utilities",
+            "Linux Architecture",
+            "Linux File System",
+            "Basic Linux Commands",
+            "Encryption",
+            "Device Manager",
+            "Disk Management",
+            "Event Viewer",
+            "Performance Monitoring",
+            "Command Prompt",
+            "PowerShell Fundamentals",
+            "Basic Batch Files"
+          ]
+        },
+        {
+          "no": "III",
+          "title": "Word Processing",
+          "marks": 86,
+          "subtopics": [
+            "Document Creation",
+            "Templates",
+            "Styles and Themes",
+            "Page Layout",
+            "Tables",
+            "SmartArt",
+            "References",
+            "Table of Contents",
+            "Citations and Bibliography",
+            "Review Tools",
+            "Track Changes",
+            "Mail Merge",
+            "Accessibility Features",
+            "Microsoft 365 Collaboration",
+            "Integration of e-Office",
+            "AI-assisted Document Creation (Microsoft Copilot - Concept)"
+          ]
+        },
+        {
+          "no": "IV",
+          "title": "Electronic Spreadsheet",
+          "marks": 108,
+          "subtopics": [
+            "Workbook Management",
+            "Formulae and Functions",
+            "Lookup Functions",
+            "Statistical Functions",
+            "Financial Functions",
+            "Data Validation",
+            "Sorting and Filtering",
+            "Conditional Formatting",
+            "Pivot Tables",
+            "Dashboards",
+            "What-if Analysis",
+            "Goal Seek",
+            "Power Query (Introduction)",
+            "Power Pivot (Overview)",
+            "Macros (Introduction)"
+          ]
+        },
+        {
+          "no": "V",
+          "title": "Presentation Software",
+          "marks": 76,
+          "subtopics": [
+            "Presentation Design",
+            "Templates and Themes",
+            "Slide Master",
+            "Charts",
+            "Multimedia",
+            "Animation",
+            "Morph Transition",
+            "Presenter View",
+            "Recording Presentations",
+            "Presentation Delivery",
+            "Accessibility Features",
+            "AI-assisted Presentation Design (Microsoft Copilot - Concept)"
+          ]
+        }
+      ]
+    },
+    {
       "id": "UDC",
       "name": "UDC · Basic Computer Knowledge",
-      "marks": 35,
-      "questions": 35,
-      "marks_per_question": 1,
-      "source": "UDC 2024-2025 Combined Exam Papers",
-      "note": "35 computer fundamentals questions extracted from the dedicated Basic Computer Knowledge section of the 2024-2025 UDC (Upper Division Clerk) Combined examination papers. Topics: Hardware, Operating Systems, MS Office, Networking, Web/Internet, Security, Cloud & Mobile.",
+      "marks": 140,
+      "questions": 70,
+      "marks_per_question": 2,
+      "duration_hours": 3,
+      "type": "Objective (MCQ)",
+      "counts_for_merit": false,
+      "in_exam": false,
+      "authority": "Group B (non-gazetted) clerical exams — not the System Manager syllabus",
+      "source": "MPSC Assistant & UDC combined papers, April 2024 and May 2025",
+      "note": "The Basic Computer Knowledge section of two MPSC clerical sittings, transcribed whole (Q1-35 of each Paper-II). Easier than the Technical papers and outside the System Manager syllabus, so it is excluded from merit scoring — but it is the only material in this app whose answers come from a published MPSC key rather than derivation.",
+      "pattern_note": "Each sitting's Paper-II runs to 100 questions of 2 marks; only the first 35 are Basic Computer Knowledge. The remainder (Simple Arithmetic, General Intelligence & Reasoning) is out of scope for this app and was not imported.",
       "units": [
-        { "no": "1", "title": "Hardware", "marks": 3, "subtopics": ["CPU", "RAM", "SMPS", "ALU"] },
-        { "no": "2", "title": "Operating Systems", "marks": 3, "subtopics": ["OS Functions", "Multitasking"] },
-        { "no": "3", "title": "MS Office", "marks": 17, "subtopics": ["MS Word", "MS Excel", "PowerPoint"] },
-        { "no": "4", "title": "Networking", "marks": 2, "subtopics": ["Network Topology", "Ethernet Cables"] },
-        { "no": "5", "title": "Web & Internet", "marks": 7, "subtopics": ["HTTP Status Codes", "URLs", "HTTPS", "Web Browsers", "Email"] },
-        { "no": "6", "title": "Security & Citizenship", "marks": 3, "subtopics": ["Digital Signatures", "Wireless Security", "Digital Citizenship"] },
-        { "no": "7", "title": "Cloud & Mobile", "marks": 2, "subtopics": ["Cloud Computing", "APK Format"] }
+        {
+          "no": "1",
+          "title": "Hardware",
+          "marks": 14,
+          "subtopics": [
+            "CPU",
+            "RAM",
+            "ALU",
+            "SMPS",
+            "Input/Output devices",
+            "Buffers",
+            "Pixels and display"
+          ]
+        },
+        {
+          "no": "2",
+          "title": "Operating Systems",
+          "marks": 8,
+          "subtopics": [
+            "OS functions",
+            "Multitasking",
+            "System software",
+            "Windows releases"
+          ]
+        },
+        {
+          "no": "3",
+          "title": "MS Office",
+          "marks": 62,
+          "subtopics": [
+            "MS Word",
+            "MS Excel",
+            "PowerPoint"
+          ]
+        },
+        {
+          "no": "4",
+          "title": "Networking",
+          "marks": 24,
+          "subtopics": [
+            "Network topology",
+            "Transmission media",
+            "IP addressing",
+            "VPN",
+            "Wireless LAN",
+            "Switching",
+            "Duplex modes",
+            "Network history",
+            "5G"
+          ]
+        },
+        {
+          "no": "5",
+          "title": "Web & Internet",
+          "marks": 16,
+          "subtopics": [
+            "HTTP status codes",
+            "URLs",
+            "HTTPS",
+            "Web browsers",
+            "Email",
+            "Online publishing"
+          ]
+        },
+        {
+          "no": "6",
+          "title": "Security & Citizenship",
+          "marks": 6,
+          "subtopics": [
+            "Digital signatures",
+            "Wireless security",
+            "Digital citizenship"
+          ]
+        },
+        {
+          "no": "7",
+          "title": "Cloud & Mobile",
+          "marks": 10,
+          "subtopics": [
+            "Cloud computing",
+            "SaaS",
+            "Cloud storage services",
+            "APK format"
+          ]
+        }
       ]
     }
   ],
@@ -994,14 +1233,10 @@ window.SYLLABUS = {
     "sets": [
       "Computer Operator (Contract) under SAD, 2016 - General English, Technical Paper I, Technical Paper II",
       "Computer Operator (CB) under Mizoram Information Commission, 2016 - General English, Paper I, Paper II",
-      "Junior Engineer General English (2019-2020 departmental, 2019-2020 direct, March 2026 Agri & Farmer Welfare)"
+      "Junior Engineer General English (2019-2020 departmental, 2019-2020 direct, March 2026 Agri & Farmer Welfare)",
+      "Assistant Grade & UDC under MPSC, April 2024 - Paper-II Basic Computer Knowledge (the only sitting in this app with a published MPSC answer key)",
+      "Combined UDC Examination under Various Departments, May 2025 - Paper-II Basic Computer Knowledge, Series A"
     ]
-  },
-  "counts": {
-    "technical_subtopics": 259,
-    "tech1_subtopics": 123,
-    "tech2_subtopics": 136,
-    "source": "Counted off the official syllabus PDF on 2026-08-28. BUILD_GUIDE.md's skeleton table originally said 261 - it overstated Word Processing (18 vs 17) and Electronic Spreadsheet (19 vs 18). Guide now corrected."
   },
   "reading": [
     {
@@ -1029,5 +1264,11 @@ window.SYLLABUS = {
         }
       ]
     }
-  ]
+  ],
+  "counts": {
+    "technical_subtopics": 259,
+    "tech1_subtopics": 123,
+    "tech2_subtopics": 136,
+    "source": "Counted off the official syllabus PDF on 2026-08-28. BUILD_GUIDE.md's skeleton table originally said 261 - it overstated Word Processing (18 vs 17) and Electronic Spreadsheet (19 vs 18). Guide now corrected."
+  }
 };

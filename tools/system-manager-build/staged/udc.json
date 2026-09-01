@@ -1,0 +1,1128 @@
+[
+  {
+    "srcKey": "UDC2025MAY-P2",
+    "no": 1,
+    "unit": "1",
+    "sub": "Hardware",
+    "q": "Which component of the computer executes instructions from computer programs?",
+    "opts": {
+      "A": "RAM",
+      "B": "CPU",
+      "C": "GPU",
+      "D": "Hard Drive"
+    },
+    "ans": "B",
+    "exp": "The CPU (Central Processing Unit) executes all program instructions and is the core computational component of a computer.",
+    "conf": "high"
+  },
+  {
+    "srcKey": "UDC2025MAY-P2",
+    "no": 2,
+    "unit": "1",
+    "sub": "Hardware",
+    "q": "What is the role of the ALU in a microprocessor?",
+    "opts": {
+      "A": "Storing data",
+      "B": "Fetching instructions",
+      "C": "Controlling I/O operations",
+      "D": "Performing arithmetic and logic operations"
+    },
+    "ans": "D",
+    "exp": "The ALU (Arithmetic Logic Unit) performs all mathematical and logical operations within the CPU.",
+    "conf": "high"
+  },
+  {
+    "srcKey": "UDC2025MAY-P2",
+    "no": 3,
+    "unit": "2",
+    "sub": "Operating Systems",
+    "q": "What does an operating system primarily do?",
+    "opts": {
+      "A": "To perform calculations",
+      "B": "To manage computer hardware and software resources",
+      "C": "To display graphics",
+      "D": "To store data"
+    },
+    "ans": "B",
+    "exp": "An OS manages hardware resources (CPU, memory, storage) and software applications, enabling coordinated operation.",
+    "conf": "high"
+  },
+  {
+    "srcKey": "UDC2025MAY-P2",
+    "no": 4,
+    "unit": "1",
+    "sub": "Hardware",
+    "q": "What is the purpose of a switched-mode power supply (SMPS) in a computer?",
+    "opts": {
+      "A": "To store data",
+      "B": "To process data",
+      "C": "To display images",
+      "D": "To provide power to the computer"
+    },
+    "ans": "D",
+    "exp": "SMPS converts AC mains to regulated DC voltage required by computer components.",
+    "conf": "high"
+  },
+  {
+    "srcKey": "UDC2025MAY-P2",
+    "no": 5,
+    "unit": "2",
+    "sub": "Operating Systems",
+    "q": "What is the role of application software?",
+    "opts": {
+      "A": "To manage hardware",
+      "B": "To perform specific tasks for users",
+      "C": "To control system resources",
+      "D": "To execute system commands"
+    },
+    "ans": "B",
+    "exp": "Application software enables users to accomplish specific tasks (word processing, email, etc.), unlike system software which manages hardware.",
+    "conf": "high"
+  },
+  {
+    "srcKey": "UDC2025MAY-P2",
+    "no": 6,
+    "unit": "2",
+    "sub": "Operating Systems",
+    "q": "Multitasking in operating systems allows for",
+    "opts": {
+      "A": "Multiple users to share a single device",
+      "B": "Devices to run without an OS",
+      "C": "A single user to perform multiple tasks at one time",
+      "D": "Devices to perform calculation"
+    },
+    "ans": "C",
+    "exp": "Multitasking allows a single user's system to execute multiple programs or tasks apparently simultaneously through rapid task switching.",
+    "conf": "high"
+  },
+  {
+    "srcKey": "UDC2025MAY-P2",
+    "no": 7,
+    "unit": "3",
+    "sub": "MS Office",
+    "q": "In MS word, how do you apply bold formatting to a selected text?",
+    "opts": {
+      "A": "Ctrl+B",
+      "B": "Ctrl+C",
+      "C": "Ctrl+P",
+      "D": "Ctrl+X"
+    },
+    "ans": "A",
+    "exp": "Ctrl+B is the standard keyboard shortcut to toggle bold formatting on selected text in MS Word.",
+    "conf": "high"
+  },
+  {
+    "srcKey": "UDC2025MAY-P2",
+    "no": 8,
+    "unit": "3",
+    "sub": "MS Office",
+    "q": "The process of applying visual styles and layout elements to text and other elements within a document to enhance its appearance and readability in MS word.",
+    "opts": {
+      "A": "Proofing",
+      "B": "Editing",
+      "C": "Formatting",
+      "D": "Styling"
+    },
+    "ans": "C",
+    "exp": "Formatting refers to applying styles, fonts, colors, and layout elements to enhance document appearance.",
+    "conf": "high"
+  },
+  {
+    "srcKey": "UDC2025MAY-P2",
+    "no": 9,
+    "unit": "3",
+    "sub": "MS Office",
+    "q": "In MS-Word, the shortcut key for splitting a Window or remove the split view.",
+    "opts": {
+      "A": "Ctrl+Alt+V",
+      "B": "Alt+Ctrl+S",
+      "C": "Ctrl+Alt+O",
+      "D": "Ctrl+Alt+N"
+    },
+    "ans": "B",
+    "exp": "Alt+Ctrl+S toggles the split view in MS Word, allowing simultaneous viewing of different parts of a document.",
+    "conf": "high"
+  },
+  {
+    "srcKey": "UDC2025MAY-P2",
+    "no": 10,
+    "unit": "3",
+    "sub": "MS Office",
+    "q": "In MS-Word, AutoCorrect is a feature that automatically correct as you type.",
+    "opts": {
+      "A": "Incorrect sentence",
+      "B": "Short, Repetitive",
+      "C": "Spelling mistake",
+      "D": "Sentences"
+    },
+    "ans": "C",
+    "exp": "AutoCorrect automatically fixes common spelling errors and typos as you type.",
+    "conf": "high"
+  },
+  {
+    "srcKey": "UDC2025MAY-P2",
+    "no": 11,
+    "unit": "3",
+    "sub": "MS Office",
+    "q": "Which feature is used to convert from upper case to lower case and vice versa?",
+    "opts": {
+      "A": "Toggle Case",
+      "B": "Sentence Case",
+      "C": "Lower Case",
+      "D": "Upper Case"
+    },
+    "ans": "A",
+    "exp": "Toggle Case inverts the case of every character in the selection, so hELLO becomes Hello. The other three options each force one fixed case rather than swapping whatever is there.",
+    "conf": "high"
+  },
+  {
+    "srcKey": "UDC2025MAY-P2",
+    "no": 12,
+    "unit": "3",
+    "sub": "MS Office",
+    "q": "Which feature allows you to combine two or more table cells located in the same row or column into a single cell?",
+    "opts": {
+      "A": "AutoFit",
+      "B": "Merge Cells",
+      "C": "Table Style",
+      "D": "Split Cells"
+    },
+    "ans": "B",
+    "exp": "Merge Cells combines multiple adjacent cells into one larger cell in MS Word tables.",
+    "conf": "high"
+  },
+  {
+    "srcKey": "UDC2025MAY-P2",
+    "no": 13,
+    "unit": "3",
+    "sub": "MS Office",
+    "q": "A series of commands and instructions that you group together as a single command to accomplish a task automatically in MS word.",
+    "opts": {
+      "A": "AutoCorrect",
+      "B": "Thesaurus",
+      "C": "Macro",
+      "D": "Grammar Check"
+    },
+    "ans": "C",
+    "exp": "A Macro is a recorded sequence of actions that can be replayed to automate repetitive tasks.",
+    "conf": "high"
+  },
+  {
+    "srcKey": "UDC2025MAY-P2",
+    "no": 14,
+    "unit": "3",
+    "sub": "MS Office",
+    "q": "What is the default file extension used by Excel 2016 and later versions?",
+    "opts": {
+      "A": ".xls",
+      "B": ".xlsx",
+      "C": ".xlsm",
+      "D": ".xlsb"
+    },
+    "ans": "B",
+    "exp": ".xlsx is the modern Excel file format (XML-based), replacing the older .xls format.",
+    "conf": "high"
+  },
+  {
+    "srcKey": "UDC2025MAY-P2",
+    "no": 15,
+    "unit": "3",
+    "sub": "MS Office",
+    "q": "What does the 'Freeze Panes' feature do in Excel?",
+    "opts": {
+      "A": "Securing data",
+      "B": "Hiding data",
+      "C": "Locking rows/columns",
+      "D": "Splitting window"
+    },
+    "ans": "C",
+    "exp": "Freeze Panes locks selected rows/columns so they remain visible when scrolling through large spreadsheets.",
+    "conf": "high"
+  },
+  {
+    "srcKey": "UDC2025MAY-P2",
+    "no": 16,
+    "unit": "3",
+    "sub": "MS Office",
+    "q": "Which feature allows you to compare two Excel sheets side by side?",
+    "opts": {
+      "A": "Split",
+      "B": "New Window",
+      "C": "Arrange All",
+      "D": "View Side by Side"
+    },
+    "ans": "D",
+    "exp": "View Side by Side tiles two workbook windows and synchronises their scrolling. To compare two sheets of the same workbook you must first open a second view with View > New Window, since the feature works on windows rather than sheets.",
+    "conf": "high"
+  },
+  {
+    "srcKey": "UDC2025MAY-P2",
+    "no": 17,
+    "unit": "3",
+    "sub": "MS Office",
+    "q": "Which function can be used to conditionally sum values in a range based on a criterion?",
+    "opts": {
+      "A": "SUMIF()",
+      "B": "SUM()",
+      "C": "IFSUM()",
+      "D": "TOTALIF()"
+    },
+    "ans": "A",
+    "exp": "SUMIF() sums cells that meet a specified condition, combining SUM with IF logic.",
+    "conf": "high"
+  },
+  {
+    "srcKey": "UDC2025MAY-P2",
+    "no": 18,
+    "unit": "3",
+    "sub": "MS Office",
+    "q": "What is the purpose of using the $ symbol in an Excel formula?",
+    "opts": {
+      "A": "To convert currency",
+      "B": "To highlight the cell",
+      "C": "To indicate absolute reference",
+      "D": "To mark important formula"
+    },
+    "ans": "C",
+    "exp": "$ denotes absolute reference in Excel, fixing cell coordinates so they don't change when formulas are copied.",
+    "conf": "high"
+  },
+  {
+    "srcKey": "UDC2025MAY-P2",
+    "no": 19,
+    "unit": "3",
+    "sub": "MS Office",
+    "q": "What is the primary function of a PivotTable in Excel?",
+    "opts": {
+      "A": "To summarize data",
+      "B": "To create complex formulas",
+      "C": "To enhance graphics",
+      "D": "To connect to external databases"
+    },
+    "ans": "A",
+    "exp": "PivotTables reorganize and summarize large datasets, enabling quick analysis and reporting.",
+    "conf": "high"
+  },
+  {
+    "srcKey": "UDC2025MAY-P2",
+    "no": 20,
+    "unit": "3",
+    "sub": "MS Office",
+    "q": "A template that controls the overall appearance and formatting of all slides in a presentation",
+    "opts": {
+      "A": "Title",
+      "B": "Slide master",
+      "C": "Header",
+      "D": "Footer"
+    },
+    "ans": "B",
+    "exp": "Slide Master defines consistent formatting, layouts, and design elements for all slides in a presentation.",
+    "conf": "high"
+  },
+  {
+    "srcKey": "UDC2025MAY-P2",
+    "no": 21,
+    "unit": "3",
+    "sub": "MS Office",
+    "q": "The Tab which allows you to control the look and the appearance of your presentation.",
+    "opts": {
+      "A": "Transition tab",
+      "B": "Insert tab",
+      "C": "Design tab",
+      "D": "Animation tab"
+    },
+    "ans": "C",
+    "exp": "The Design tab in PowerPoint controls themes, colors, fonts, and overall visual appearance.",
+    "conf": "high"
+  },
+  {
+    "srcKey": "UDC2025MAY-P2",
+    "no": 22,
+    "unit": "3",
+    "sub": "MS Office",
+    "q": "What is the shortcut to duplicate a slide in PowerPoint?",
+    "opts": {
+      "A": "Ctrl+C",
+      "B": "Ctrl+X",
+      "C": "Ctrl+V",
+      "D": "Ctrl+D"
+    },
+    "ans": "D",
+    "exp": "Ctrl+D duplicates the current selection, so with a slide selected in the thumbnail pane it duplicates that slide. Microsoft also documents Ctrl+Shift+D specifically for duplicating slides; both work.",
+    "conf": "high"
+  },
+  {
+    "srcKey": "UDC2025MAY-P2",
+    "no": 23,
+    "unit": "3",
+    "sub": "MS Office",
+    "q": "How many transitions can be applied to one slide?",
+    "opts": {
+      "A": "One",
+      "B": "Two",
+      "C": "Three",
+      "D": "Four"
+    },
+    "ans": "A",
+    "exp": "Only one transition effect can be applied to a slide; multiple transitions on the same slide are not supported.",
+    "conf": "high"
+  },
+  {
+    "srcKey": "UDC2025MAY-P2",
+    "no": 24,
+    "unit": "4",
+    "sub": "Networking",
+    "q": "Which network topology does the Internet most closely resemble?",
+    "opts": {
+      "A": "Ring",
+      "B": "Mesh",
+      "C": "Bus",
+      "D": "Star"
+    },
+    "ans": "B",
+    "exp": "The Internet most closely resembles a mesh: routers interconnect with many redundant paths, so traffic reroutes when a link fails. It is a partial, hierarchical mesh rather than a full one — hence the stem's 'most closely'.",
+    "conf": "high"
+  },
+  {
+    "srcKey": "UDC2025MAY-P2",
+    "no": 25,
+    "unit": "4",
+    "sub": "Networking",
+    "q": "What type of cable is used for most modern Ethernet networks?",
+    "opts": {
+      "A": "Coaxial cable",
+      "B": "Fiber optic cable",
+      "C": "Twisted pair cable",
+      "D": "Shielded cable"
+    },
+    "ans": "C",
+    "exp": "Twisted pair cables (Cat5e, Cat6, Cat6a) are the standard for modern Ethernet installations.",
+    "conf": "high"
+  },
+  {
+    "srcKey": "UDC2025MAY-P2",
+    "no": 26,
+    "unit": "5",
+    "sub": "Web & Internet",
+    "q": "In HTTP, what status code indicates that the server cannot find the requested resource?",
+    "opts": {
+      "A": "200 OK",
+      "B": "404 Not Found",
+      "C": "301 Moved Permanently",
+      "D": "500 Internal Server Error"
+    },
+    "ans": "B",
+    "exp": "HTTP 404 means the requested resource was not found on the server.",
+    "conf": "high"
+  },
+  {
+    "srcKey": "UDC2025MAY-P2",
+    "no": 27,
+    "unit": "5",
+    "sub": "Web & Internet",
+    "q": "What is the significance of a URL in web technology?",
+    "opts": {
+      "A": "Identifies a browser",
+      "B": "Links a website to a hosting server",
+      "C": "Specifies the address of a resource on the web",
+      "D": "Provides server configuration"
+    },
+    "ans": "C",
+    "exp": "A URL (Uniform Resource Locator) is the web address that specifies the location of a resource on the internet.",
+    "conf": "high"
+  },
+  {
+    "srcKey": "UDC2025MAY-P2",
+    "no": 28,
+    "unit": "6",
+    "sub": "Security & Citizenship",
+    "q": "What is the primary purpose of a digital signature in cryptography?",
+    "opts": {
+      "A": "Ensuring data confidentiality",
+      "B": "Verifying the integrity and authenticity of data",
+      "C": "Encrypting messages",
+      "D": "Compressing data"
+    },
+    "ans": "B",
+    "exp": "Digital signatures verify that data hasn't been modified and confirm the sender's identity.",
+    "conf": "high"
+  },
+  {
+    "srcKey": "UDC2025MAY-P2",
+    "no": 29,
+    "unit": "5",
+    "sub": "Web & Internet",
+    "q": "What is the main function of the HTTPS protocol?",
+    "opts": {
+      "A": "To increase website speed",
+      "B": "To compress web pages",
+      "C": "To improve SEO",
+      "D": "To secure data transfer between a user and a website"
+    },
+    "ans": "D",
+    "exp": "HTTPS (HTTP Secure) encrypts communication between client and server, protecting data from interception.",
+    "conf": "high"
+  },
+  {
+    "srcKey": "UDC2025MAY-P2",
+    "no": 30,
+    "unit": "6",
+    "sub": "Security & Citizenship",
+    "q": "Which of the following is the most secure method for securing wireless networks?",
+    "opts": {
+      "A": "WEP",
+      "B": "WPA",
+      "C": "WPA2",
+      "D": "WIFI"
+    },
+    "ans": "C",
+    "exp": "WPA2 is the most secure of the four options offered, using AES-CCMP rather than the broken RC4 of WEP. Note the stem overstates: WPA3 has superseded WPA2 since 2018 and is the actual current standard — it simply is not on this paper's list.",
+    "conf": "high",
+    "note": "Answer is correct among the printed options only. WPA3, not WPA2, is the most secure wireless standard today."
+  },
+  {
+    "srcKey": "UDC2025MAY-P2",
+    "no": 31,
+    "unit": "7",
+    "sub": "Cloud & Mobile",
+    "q": "Android applications are packaged in what file format?",
+    "opts": {
+      "A": "APK",
+      "B": "EXE",
+      "C": "ZIP",
+      "D": "JAR"
+    },
+    "ans": "A",
+    "exp": "APK (Android Package) is the file format used to distribute and install applications on Android devices.",
+    "conf": "high"
+  },
+  {
+    "srcKey": "UDC2025MAY-P2",
+    "no": 32,
+    "unit": "7",
+    "sub": "Cloud & Mobile",
+    "q": "What is the primary advantage of using cloud computing?",
+    "opts": {
+      "A": "Improved hardware performance",
+      "B": "Increased data security",
+      "C": "Scalability and cost efficiency",
+      "D": "Enhanced user interface"
+    },
+    "ans": "C",
+    "exp": "Cloud computing offers scalability (resources adjust to demand) and cost efficiency (pay-as-you-go model).",
+    "conf": "high"
+  },
+  {
+    "srcKey": "UDC2025MAY-P2",
+    "no": 33,
+    "unit": "5",
+    "sub": "Web & Internet",
+    "q": "What is the primary purpose of web browser?",
+    "opts": {
+      "A": "To manage files",
+      "B": "To create graphics",
+      "C": "To design websites",
+      "D": "To access and navigate websites"
+    },
+    "ans": "D",
+    "exp": "A web browser retrieves and displays web pages from the internet, enabling users to access online content.",
+    "conf": "high"
+  },
+  {
+    "srcKey": "UDC2025MAY-P2",
+    "no": 34,
+    "unit": "6",
+    "sub": "Security & Citizenship",
+    "q": "Which of the following exemplifies responsible digital citizenship?",
+    "opts": {
+      "A": "Sharing false information",
+      "B": "Respecting others' privacy online",
+      "C": "Cyberbullying",
+      "D": "Piracy"
+    },
+    "ans": "B",
+    "exp": "Responsible digital citizenship includes respecting privacy, avoiding misinformation, and refusing to cyberbully.",
+    "conf": "high"
+  },
+  {
+    "srcKey": "UDC2025MAY-P2",
+    "no": 35,
+    "unit": "5",
+    "sub": "Web & Internet",
+    "q": "Which of the following is a valid email?",
+    "opts": {
+      "A": "@example.com",
+      "B": "john@.com",
+      "C": "john@example.com",
+      "D": "john doe@example.com"
+    },
+    "ans": "C",
+    "exp": "A valid email requires username@domain.extension format without spaces.",
+    "conf": "high"
+  },
+  {
+    "no": 1,
+    "unit": "1",
+    "sub": "Hardware",
+    "q": "Which of the following are physical devices of a computer?",
+    "opts": {
+      "A": "Software",
+      "B": "System Software",
+      "C": "Hardware",
+      "D": "Package"
+    },
+    "ans": "C",
+    "exp": "Hardware is the collective term for the physical, touchable parts of a computer — the case, board, drives, keyboard and screen. Every other option names a category of software, which has no physical existence.",
+    "srcKey": "UDCASST2024APR-P2",
+    "conf": "high"
+  },
+  {
+    "no": 2,
+    "unit": "2",
+    "sub": "Operating Systems",
+    "q": "Which of the following is designed to control the operations of a computer?",
+    "opts": {
+      "A": "Open-Source software",
+      "B": "Application Software",
+      "C": "System Software",
+      "D": "Utility Software"
+    },
+    "ans": "C",
+    "exp": "System software — chiefly the operating system — controls and coordinates the machine's own operations. Application software does work for the user, utility software maintains the system, and 'open-source' describes a licence rather than a function.",
+    "srcKey": "UDCASST2024APR-P2",
+    "conf": "high"
+  },
+  {
+    "no": 3,
+    "unit": "1",
+    "sub": "Hardware",
+    "q": "Which of the following devices provides the communication between a computer and the outer world?",
+    "opts": {
+      "A": "Compact Disc",
+      "B": "Input/Output",
+      "C": "Drivers",
+      "D": "Magnetic Storage"
+    },
+    "ans": "B",
+    "exp": "Input/output devices are the boundary between the machine and everything outside it — keyboards and scanners carry data in, monitors and printers carry it out. Compact discs and magnetic media store data rather than communicate it, and drivers are software.",
+    "srcKey": "UDCASST2024APR-P2",
+    "conf": "high"
+  },
+  {
+    "no": 4,
+    "unit": "1",
+    "sub": "Hardware",
+    "q": "Each pixel on a computer screen is composed of how many colour dots?",
+    "opts": {
+      "A": "24",
+      "B": "16",
+      "C": "8",
+      "D": "3"
+    },
+    "ans": "D",
+    "exp": "A pixel is made of three sub-pixels — red, green and blue — whose relative brightness mixes to produce every displayable colour. The number 24 is a distractor drawn from 24-bit colour depth, which is 8 bits per channel across those same three channels.",
+    "srcKey": "UDCASST2024APR-P2",
+    "conf": "high"
+  },
+  {
+    "no": 5,
+    "unit": "1",
+    "sub": "Hardware",
+    "q": "The temporary storage that can be used to compensate for a difference in data rate and data flow between devices",
+    "opts": {
+      "A": "Buffer",
+      "B": "Bus",
+      "C": "Channel",
+      "D": "Modem"
+    },
+    "ans": "A",
+    "exp": "A buffer holds data briefly so a fast device does not overrun a slow one — the reason a video keeps playing while the network stutters. A bus and a channel carry data, and a modem converts it between digital and analogue form.",
+    "srcKey": "UDCASST2024APR-P2",
+    "conf": "high"
+  },
+  {
+    "no": 6,
+    "unit": "2",
+    "sub": "Operating Systems",
+    "q": "The latest major release of Microsoft's Windows NT operating system by Microsoft",
+    "opts": {
+      "A": "Windows 11",
+      "B": "Windows NT 4.0",
+      "C": "Windows Xp",
+      "D": "Windows Vista"
+    },
+    "ans": "A",
+    "exp": "Every consumer Windows release since Windows 2000 is built on the Windows NT kernel, and Windows 11 is the most recent of them. XP and Vista are older NT-family releases; NT 4.0 dates from 1996.",
+    "note": "Answer reflects the position when the paper was set (April 2024). Windows 11 was still the current release.",
+    "srcKey": "UDCASST2024APR-P2",
+    "conf": "high"
+  },
+  {
+    "no": 7,
+    "unit": "3",
+    "sub": "MS Office",
+    "q": "In MS words, a tools to quickly apply the same formatting, such as color, font style and size, or border style, to multiple pieces of text or graphics",
+    "opts": {
+      "A": "Clipboard",
+      "B": "Hyper link",
+      "C": "Format Painter",
+      "D": "Editor"
+    },
+    "ans": "C",
+    "exp": "Format Painter copies formatting — not content — from one selection and applies it to another; double-clicking it keeps it active for several targets. The Clipboard copies the content itself.",
+    "srcKey": "UDCASST2024APR-P2",
+    "conf": "high"
+  },
+  {
+    "no": 8,
+    "unit": "3",
+    "sub": "MS Office",
+    "q": "Whitespace used to place text or images in the left margin of a manual, next to the main body of the text in MS words.",
+    "opts": {
+      "A": "Indent",
+      "B": "Margin notes",
+      "C": "Break",
+      "D": "Orientation"
+    },
+    "ans": "B",
+    "exp": "Margin notes sit in the whitespace beside the main text, a layout common in manuals and textbooks. An indent shifts the body text itself, a break splits the flow, and orientation is the portrait/landscape setting.",
+    "srcKey": "UDCASST2024APR-P2",
+    "conf": "high"
+  },
+  {
+    "no": 9,
+    "unit": "3",
+    "sub": "MS Office",
+    "q": "A set of toolbars at the top of the window in MS word designed to help you quickly find the commands that you need to complete a task is called",
+    "opts": {
+      "A": "Ribbon",
+      "B": "Menu bar",
+      "C": "Tools bar",
+      "D": "Clipboard"
+    },
+    "ans": "A",
+    "exp": "The Ribbon is the tabbed command strip Microsoft introduced in Office 2007, grouping commands by task. It replaced the older menu bar and separate toolbars that the distractors name.",
+    "srcKey": "UDCASST2024APR-P2",
+    "conf": "high"
+  },
+  {
+    "no": 10,
+    "unit": "3",
+    "sub": "MS Office",
+    "q": "A feature that enables users to send a similar letter or document to multiple recipients",
+    "opts": {
+      "A": "Envelopes",
+      "B": "Mail merge",
+      "C": "Labels",
+      "D": "Directory"
+    },
+    "ans": "B",
+    "exp": "Mail merge combines one template document with a data source of names and addresses to produce a personalised copy per recipient. Envelopes, Labels and Directory are output types within that same merge feature, not the feature itself.",
+    "srcKey": "UDCASST2024APR-P2",
+    "conf": "high"
+  },
+  {
+    "no": 11,
+    "unit": "3",
+    "sub": "MS Office",
+    "q": "A tools which are used to mark a specific location within a document, allowing you to quickly navigate to that location later",
+    "opts": {
+      "A": "Immersive reader",
+      "B": "Editor",
+      "C": "Bookmark",
+      "D": "Outline"
+    },
+    "ans": "C",
+    "exp": "A bookmark names a position in a document so you can jump back to it, and cross-references and hyperlinks can point at it. Immersive Reader and Editor are reading and proofing aids; Outline is a view mode.",
+    "srcKey": "UDCASST2024APR-P2",
+    "conf": "high"
+  },
+  {
+    "no": 12,
+    "unit": "7",
+    "sub": "Cloud & Mobile",
+    "q": "Which of the following is not cloud service?",
+    "opts": {
+      "A": "Dropbox",
+      "B": "iCloud",
+      "C": "OneDrive",
+      "D": "Copilot"
+    },
+    "ans": "D",
+    "exp": "Dropbox, iCloud and OneDrive are all cloud storage services. Copilot is Microsoft's AI assistant — it is delivered over the cloud but is not itself a cloud storage service, which is the contrast the question is drawing.",
+    "srcKey": "UDCASST2024APR-P2",
+    "conf": "high"
+  },
+  {
+    "no": 13,
+    "unit": "3",
+    "sub": "MS Office",
+    "q": "The latest AI feature introduce by Microsoft in MS Office is",
+    "opts": {
+      "A": "ChatGPT",
+      "B": "Copilot",
+      "C": "WordTune",
+      "D": "BrowseAI"
+    },
+    "ans": "B",
+    "exp": "Copilot is Microsoft's own AI assistant built into the Office applications. ChatGPT is OpenAI's product, and WordTune and BrowseAI are third-party tools with no Office integration.",
+    "note": "Answer reflects the position when the paper was set (April 2024).",
+    "srcKey": "UDCASST2024APR-P2",
+    "conf": "high"
+  },
+  {
+    "no": 14,
+    "unit": "3",
+    "sub": "MS Office",
+    "q": "In MS Excel, if you want to maintain the original cell reference when you copy it, you \"lock\" it by putting a dollar sign ($) before the cell and column references. This is called?",
+    "opts": {
+      "A": "Relative reference",
+      "B": "Mixed reference",
+      "C": "Absolute reference",
+      "D": "Normative reference"
+    },
+    "ans": "C",
+    "exp": "An absolute reference such as $A$1 keeps pointing at the same cell however the formula is copied. A relative reference shifts with the copy, and a mixed reference locks only the row or only the column.",
+    "srcKey": "UDCASST2024APR-P2",
+    "conf": "high"
+  },
+  {
+    "no": 15,
+    "unit": "3",
+    "sub": "MS Office",
+    "q": "Which of the following keyboard shortcuts is used to insert 'Autosum', a quick and easy way of adding multiple values?",
+    "opts": {
+      "A": "Alt+=",
+      "B": "Ctrl++",
+      "C": "Alt+#",
+      "D": "Ctrl+Q"
+    },
+    "ans": "A",
+    "exp": "Alt+= inserts an AutoSum formula that guesses the adjacent range to total. The other combinations are unrelated: Ctrl++ inserts cells, and the remaining two are not standard Excel shortcuts.",
+    "srcKey": "UDCASST2024APR-P2",
+    "conf": "high"
+  },
+  {
+    "no": 16,
+    "unit": "3",
+    "sub": "MS Office",
+    "q": "An interactive way to quickly summarize large amounts of data, and to analyse numerical data in detail, and answer unanticipated questions about your data in MS Excel. It is also used for querying large amounts of data in many user-friendly ways.",
+    "opts": {
+      "A": "Conditional formatting",
+      "B": "PivotTable",
+      "C": "Smartlookup",
+      "D": "Vlookup"
+    },
+    "ans": "B",
+    "exp": "A PivotTable reorganises and aggregates a large table interactively, letting you regroup and re-total without rewriting formulas. VLOOKUP retrieves single values and conditional formatting only changes appearance.",
+    "srcKey": "UDCASST2024APR-P2",
+    "conf": "high"
+  },
+  {
+    "no": 17,
+    "unit": "3",
+    "sub": "MS Office",
+    "q": "In MS Excel, a rectangular area formed by the intersection of a column and a row",
+    "opts": {
+      "A": "Address",
+      "B": "Cell",
+      "C": "Column",
+      "D": "Value"
+    },
+    "ans": "B",
+    "exp": "A cell is the single box where one column meets one row, and it is the basic unit that holds data in a worksheet. Its address, such as B4, is the label identifying it rather than the area itself.",
+    "srcKey": "UDCASST2024APR-P2",
+    "conf": "high"
+  },
+  {
+    "no": 18,
+    "unit": "3",
+    "sub": "MS Office",
+    "q": "The premade function in Excel, which counts all cells in a range that has values, both numbers and letters.",
+    "opts": {
+      "A": "COUNT",
+      "B": "COUNTA",
+      "C": "COUNTIF",
+      "D": "COUNTIFS"
+    },
+    "ans": "B",
+    "exp": "COUNTA counts every non-empty cell whatever it holds, which is why it takes both numbers and text. Plain COUNT counts numeric entries only, and the COUNTIF pair count only cells meeting stated criteria.",
+    "srcKey": "UDCASST2024APR-P2",
+    "conf": "high"
+  },
+  {
+    "no": 19,
+    "unit": "3",
+    "sub": "MS Office",
+    "q": "An excel function that allows you to filter a range of data based on criteria you define.",
+    "opts": {
+      "A": "Sorting",
+      "B": "Formula",
+      "C": "Filter",
+      "D": "Pivot"
+    },
+    "ans": "C",
+    "exp": "Filter hides the rows that fail the criteria you set, leaving the matching records visible. Sorting reorders rows without hiding any, and a PivotTable aggregates rather than filters.",
+    "srcKey": "UDCASST2024APR-P2",
+    "conf": "high"
+  },
+  {
+    "no": 20,
+    "unit": "4",
+    "sub": "Networking",
+    "q": "The IP address that doesn't change everyday",
+    "opts": {
+      "A": "Dynamic IP address",
+      "B": "Static IP address",
+      "C": "Unique IP address",
+      "D": "All of the above"
+    },
+    "ans": "B",
+    "exp": "A static IP address is assigned permanently and stays the same across reboots, which is why servers use one. A dynamic address is leased by DHCP and can differ each time a device connects.",
+    "srcKey": "UDCASST2024APR-P2",
+    "conf": "high"
+  },
+  {
+    "no": 21,
+    "unit": "3",
+    "sub": "MS Office",
+    "q": "A top hierarchy of slides that stores information about the theme and slide layouts of a presentation, including the background, color, fonts, effects, placeholder sizes, and positioning.",
+    "opts": {
+      "A": "Slide Master",
+      "B": "Handout Master",
+      "C": "Note Master",
+      "D": "View Master"
+    },
+    "ans": "A",
+    "exp": "The Slide Master sits at the top of the layout hierarchy, so a change made there propagates to every slide using it. The Handout and Notes masters govern only printed handouts and notes pages.",
+    "srcKey": "UDCASST2024APR-P2",
+    "conf": "high"
+  },
+  {
+    "no": 22,
+    "unit": "4",
+    "sub": "Networking",
+    "q": "A numerical assigned to each device connected to a computer network that uses the Internet Protocol for communication",
+    "opts": {
+      "A": "Domain name",
+      "B": "IP Address",
+      "C": "Server address",
+      "D": "Host address"
+    },
+    "ans": "B",
+    "exp": "An IP address is the numeric identifier every device on an IP network carries, such as 192.168.1.1. A domain name is the human-readable label that DNS translates into that number.",
+    "srcKey": "UDCASST2024APR-P2",
+    "conf": "high"
+  },
+  {
+    "no": 23,
+    "unit": "3",
+    "sub": "MS Office",
+    "q": "Which of these refers to the PowerPoint view used for displaying only the text (title and bullets)?",
+    "opts": {
+      "A": "Slide sorter show",
+      "B": "Slide view",
+      "C": "Outline view",
+      "D": "Notes page view"
+    },
+    "ans": "C",
+    "exp": "Outline view strips the slides down to their titles and bullet text, which makes it the fastest way to draft or restructure the argument. Slide Sorter shows thumbnails and Notes Page shows the speaker notes.",
+    "srcKey": "UDCASST2024APR-P2",
+    "conf": "high"
+  },
+  {
+    "no": 24,
+    "unit": "4",
+    "sub": "Networking",
+    "q": "Which of the following networks extends a private network across public networks?",
+    "opts": {
+      "A": "virtual private network",
+      "B": "local area network",
+      "C": "storage area network",
+      "D": "enterprise private network"
+    },
+    "ans": "A",
+    "exp": "A VPN tunnels private traffic across the public Internet, so a remote user appears to sit inside the private network. A LAN is confined to one site and a SAN exists to connect storage.",
+    "srcKey": "UDCASST2024APR-P2",
+    "conf": "high"
+  },
+  {
+    "no": 25,
+    "unit": "4",
+    "sub": "Networking",
+    "q": "What was the name of the first network?",
+    "opts": {
+      "A": "ASAPNET",
+      "B": "ARPANET",
+      "C": "CNNET",
+      "D": "NSFNET"
+    },
+    "ans": "B",
+    "exp": "ARPANET, funded by the US Defense Department's ARPA and first operational in 1969, was the packet-switched network the Internet grew out of. NSFNET is a real but later network; the other two are invented names.",
+    "srcKey": "UDCASST2024APR-P2",
+    "conf": "high"
+  },
+  {
+    "no": 26,
+    "unit": "4",
+    "sub": "Networking",
+    "q": "What is the access point (AP) in a wireless LAN?",
+    "opts": {
+      "A": "a networking device that allows wireless-capable devices to connect to a wired network",
+      "B": "wireless devices itself",
+      "C": "both device that allows wireless devices to connect to a wired network and wireless devices itself",
+      "D": "All of the above"
+    },
+    "ans": "A",
+    "exp": "An access point is the bridge between the wireless and wired sides of a network — the client devices that associate with it are not themselves access points, which rules out the combined options.",
+    "srcKey": "UDCASST2024APR-P2",
+    "conf": "high"
+  },
+  {
+    "no": 27,
+    "unit": "4",
+    "sub": "Networking",
+    "q": "Which of the following is not the advantage of 5G network.",
+    "opts": {
+      "A": "greater speed in the transmissions",
+      "B": "a lower latency",
+      "C": "a greater number of connected devices",
+      "D": "low cost for roll-out"
+    },
+    "ans": "D",
+    "exp": "5G delivers higher speed, lower latency and far greater device density, but rolling it out is expensive — its shorter-range cells require many more base stations than 4G. Cost is the drawback, not an advantage.",
+    "srcKey": "UDCASST2024APR-P2",
+    "conf": "high"
+  },
+  {
+    "no": 28,
+    "unit": "4",
+    "sub": "Networking",
+    "q": "Internet works on",
+    "opts": {
+      "A": "packet switching",
+      "B": "circuit switching",
+      "C": "both packet switching and circuit switching",
+      "D": "data switching"
+    },
+    "ans": "A",
+    "exp": "The Internet splits data into packets that are routed independently and reassembled at the destination, so no dedicated path is held open. Circuit switching, which reserves a path for the whole call, is the older telephone model.",
+    "srcKey": "UDCASST2024APR-P2",
+    "conf": "high"
+  },
+  {
+    "no": 29,
+    "unit": "5",
+    "sub": "Web & Internet",
+    "q": "A record of your thoughts, opinions, or experiences that you film and publish on the internet.",
+    "opts": {
+      "A": "Video log",
+      "B": "Video blog",
+      "C": "Selfie",
+      "D": "Podcast"
+    },
+    "ans": "A",
+    "exp": "The Commission's key gives 'video log' — a running visual record of your own thoughts and experiences, published online. A podcast is normally audio-only and a selfie is a single photograph, not a record kept over time.",
+    "conf": "medium",
+    "alt": "B",
+    "note": "Genuinely disputable. 'Video log' and 'video blog' both contract to 'vlog' and are used interchangeably; (b) is defensible on the wording. Marked from the official MPSC key, which selects (a) — learn (a) for the exam, but do not treat the distinction as settled fact.",
+    "srcKey": "UDCASST2024APR-P2"
+  },
+  {
+    "no": 30,
+    "unit": "5",
+    "sub": "Web & Internet",
+    "q": "Which browser is the successor to Internet Explorer that was retired on June 15, 2022?",
+    "opts": {
+      "A": "Firefox",
+      "B": "Crome",
+      "C": "Edge",
+      "D": "Safari"
+    },
+    "ans": "C",
+    "exp": "Microsoft retired Internet Explorer 11 on 15 June 2022 and directed users to Edge, its replacement browser. Firefox and Safari are rival products from other vendors.",
+    "note": "Option (b) is printed as 'Crome' in the source paper — the misspelling is the paper's, not a transcription error.",
+    "srcKey": "UDCASST2024APR-P2",
+    "conf": "high"
+  },
+  {
+    "no": 31,
+    "unit": "4",
+    "sub": "Networking",
+    "q": "What kind of transmission medium is most appropriate to carry data in a computer network that is exposed to electrical interferences?",
+    "opts": {
+      "A": "Unshielded twisted pair",
+      "B": "Optical fiber",
+      "C": "Coaxial cable",
+      "D": "Microwave"
+    },
+    "ans": "B",
+    "exp": "Optical fibre carries light rather than current, so electromagnetic interference cannot induce noise in it at all. Every copper option is susceptible, and unshielded twisted pair is the most vulnerable of them.",
+    "srcKey": "UDCASST2024APR-P2",
+    "conf": "high"
+  },
+  {
+    "no": 32,
+    "unit": "4",
+    "sub": "Networking",
+    "q": "High speed Internet works on",
+    "opts": {
+      "A": "Optical fiber",
+      "B": "Coaxial cable",
+      "C": "Twisted pair cable",
+      "D": "Unshielded twisted pair cable"
+    },
+    "ans": "A",
+    "exp": "Optical fibre carries far more bandwidth over far greater distances than any copper medium, which is why backbone links and modern broadband are fibre.",
+    "srcKey": "UDCASST2024APR-P2",
+    "conf": "high"
+  },
+  {
+    "no": 33,
+    "unit": "7",
+    "sub": "Cloud & Mobile",
+    "q": "Which services allows users to connect to and use cloud-based apps over the Internet?",
+    "opts": {
+      "A": "Service-as-a-Software (SaaS)",
+      "B": "Software-as-a-Service (SaaS)",
+      "C": "Software-and-a-Server (SaaS)",
+      "D": "Software-as-a-Server (SaaS)"
+    },
+    "ans": "B",
+    "exp": "Software-as-a-Service delivers finished applications over the Internet, with the provider running the infrastructure — Gmail and Office 365 are examples. The other three expansions of the acronym are invented distractors.",
+    "srcKey": "UDCASST2024APR-P2",
+    "conf": "high"
+  },
+  {
+    "no": 34,
+    "unit": "4",
+    "sub": "Networking",
+    "q": "Which supports a Bi-Directional flow of data in both directions at the same time (simultaneous flow)?",
+    "opts": {
+      "A": "Full Duplex",
+      "B": "Half duplex",
+      "C": "Simplex",
+      "D": "All of these"
+    },
+    "ans": "A",
+    "exp": "Full duplex carries data both ways at once, as a telephone call does. Half duplex alternates direction like a walkie-talkie, and simplex transmits one way only.",
+    "srcKey": "UDCASST2024APR-P2",
+    "conf": "high"
+  },
+  {
+    "no": 35,
+    "unit": "5",
+    "sub": "Web & Internet",
+    "q": "Which of the following tools is used to read a HTML page and render it?",
+    "opts": {
+      "A": "Web server",
+      "B": "Web casting",
+      "C": "Web browser",
+      "D": "None of these"
+    },
+    "ans": "C",
+    "exp": "A web browser parses HTML and renders it as the visible page. A web server only stores and delivers the file; the interpretation happens on the client side.",
+    "srcKey": "UDCASST2024APR-P2",
+    "conf": "high"
+  }
+]

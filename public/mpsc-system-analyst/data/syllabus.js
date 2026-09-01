@@ -363,14 +363,14 @@ window.SYLLABUS = {
     {
       "id": "TECH1_LEGACY",
       "name": "Technical Paper I — Informatics Officer (superseded syllabus)",
-      "marks": 200,
+      "marks": 140,
       "questions": 100,
       "marks_per_question": 2,
       "duration_hours": 2,
       "type": "Objective (MCQ)",
       "counts_for_merit": false,
       "legacy": true,
-      "authority": "Informatics Officer syllabus, ICT Department — superseded by the 30 July 2026 System Analyst syllabus. Does not count toward the current exam; kept only so the 227 restored Nov-2024 questions stay practiceable.",
+      "authority": "Informatics Officer syllabus, ICT Department — superseded by the 30 July 2026 System Analyst syllabus. Does not count toward the current exam; kept only so the restored Nov-2024 questions stay practiceable. .NET Technologies and Java/J2EE units dropped by request.",
       "units": [
         {
           "no": "1",
@@ -430,31 +430,6 @@ window.SYLLABUS = {
             "Software Maintenance", "The maintenance process", "System documentation",
             "Maintenance costs", "Maintainability measurement", "Software Reengineering",
             "Software Refactoring"
-          ]
-        },
-        {
-          "no": "3",
-          "title": ".NET Technologies",
-          "marks": 30,
-          "subtopics": [
-            "Basic .NET Framework", "Object-Oriented Programming (in .NET)", "ADO.NET",
-            "Dynamic Programming", "ASP.NET", "Windows Workflow Foundation",
-            "Application Deployment", "Remoting, Web Services and WCF",
-            ".NET Programming Concepts", "Windows Controls",
-            "Language-Integrated Query (LINQ)", "XML", "Web Services", "ASP.NET AJAX",
-            ".NET Assemblies", "WPF and Silverlight", "LINQ and Entity Framework",
-            "Design Pattern and UML", "Ajax", "Reports", "Threading",
-            ".NET Interoperability"
-          ]
-        },
-        {
-          "no": "4",
-          "title": "Java / J2EE",
-          "marks": 30,
-          "subtopics": [
-            "OOPS and Core Java", "Threading", "JDBC", "Servlet and JSP",
-            "EJB - Enterprise Java Beans", "Struts", "XML and Web Services",
-            "Internationalization", "JNI - Java Native Interface"
           ]
         },
         {

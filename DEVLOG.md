@@ -9,7 +9,17 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
-## 2026-09-01 (latest) — Question cards now show the unit's real name, not just its number
+## 2026-09-01 (latest) — Dropped .NET Technologies and Java/J2EE from the legacy syllabus by request
+
+**COMPLETED:** Removed the ".NET Technologies" (unit 3) and "Java / J2EE" (unit 4) units from `TECH1_LEGACY` at the user's explicit request. Removed 87 questions (57 .NET + 30 Java, spanning the November 2024 sitting, the earlier sitting, and the authored set) and 31 concepts (22 .NET + 9 Java) tied to those units. Left the official syllabus's original unit numbering intact (units 1, 2, 5, 6 remain 1, 2, 5, 6, with a gap where 3–4 used to be) rather than renumbering, since those numbers reflect the actual Informatics Officer syllabus document, not an arbitrary internal scheme. Updated the paper's `marks` field from 200 to 140 to match the four remaining units' weights (40+40+30+30).
+
+**Why:** Direct user request — no rationale given beyond wanting those two units gone from the legacy practice bank.
+
+**Still open:** None. Verified in-browser: Practice tab's Unit dropdown for the legacy paper now lists only Hardware & Networking, Software Engineering, Database Management System, and Software Testing (140 questions total); Study tab tree no longer shows ".NET Technologies" or "Java / J2EE" anywhere; Mock Test's legacy card correctly reports "Bank holds 140 questions." No console errors.
+
+---
+
+## 2026-09-01 — Question cards now show the unit's real name, not just its number
 
 **COMPLETED:** Every question card that shows a "Unit N" pill (the live practice/quiz view and the Past Papers browse view) now shows "Unit N · <Topic Name>" — e.g. "Unit 2 · Computer Architecture and Organization" instead of the bare "Unit 2". Added a small `unitLabel(q)` helper next to `unitOf()` in `app.js` that looks up the syllabus title for `q.paper`/`q.unit` and falls back to the bare number only if no matching unit exists.
 

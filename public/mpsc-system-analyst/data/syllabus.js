@@ -358,43 +358,151 @@ window.SYLLABUS = {
             "File systems"
           ]
         }
-      ],
-      "legacyUnits": [
+      ]
+    },
+    {
+      "id": "TECH1_LEGACY",
+      "name": "Technical Paper I — Informatics Officer (superseded syllabus)",
+      "marks": 200,
+      "questions": 100,
+      "marks_per_question": 2,
+      "duration_hours": 2,
+      "type": "Objective (MCQ)",
+      "counts_for_merit": false,
+      "legacy": true,
+      "authority": "Informatics Officer syllabus, ICT Department — superseded by the 30 July 2026 System Analyst syllabus. Does not count toward the current exam; kept only so the 227 restored Nov-2024 questions stay practiceable.",
+      "units": [
         {
-          "no": "L1",
+          "no": "1",
           "title": "Hardware & Networking Technologies",
           "marks": 40,
-          "note": "Pre-2026 Informatics Officer syllabus unit — no longer part of the current 200-mark structure, kept for the 40 restored Nov-2024 questions."
+          "subtopics": [
+            "Basic Computer System", "Basic Networking",
+            "Network Devices - Switches, Router, Firewall, etc.", "TCP/IP",
+            "IOS and Security Device Manager", "IP Routing", "Spanning Tree Protocol",
+            "Security", "Wireless Technologies", "Wide Area Networks", "Internetworking",
+            "Sub-netting", "Managing a Cisco Internetwork", "EIGRP and OSPF",
+            "Virtual LANs", "Network Address Translation", "IPv6"
+          ]
         },
         {
-          "no": "L2",
+          "no": "2",
           "title": "Software Engineering",
           "marks": 40,
-          "note": "Pre-2026 Informatics Officer syllabus unit — no longer part of the current 200-mark structure, kept for the 39 restored Nov-2024 questions."
+          "subtopics": [
+            "Software Development Approach: Continuous Integration model",
+            "Software Development Approach: Iterative Development model",
+            "Software Development Approach: Incremental Development model",
+            "Software Development Approach: Prototyping model",
+            "Software Development Approach: Rapid Application Development model",
+            "SDLC Methodologies: Waterfall model", "SDLC Methodologies: Iterative model",
+            "SDLC Methodologies: Spiral model", "SDLC Methodologies: V-shaped model",
+            "SDLC Methodologies: Agile model", "Software Design Principles: Introduction",
+            "System Models: Data-flow models", "System Models: Semantic data models",
+            "System Models: Object models", "System Models: Inheritance models",
+            "System Models: Object aggregation", "System Models: Service usage models",
+            "System Models: Data Dictionaries", "Software Design: The design process",
+            "Software Design: Design Methods", "Software Design: Design description",
+            "Software Design: Design strategies", "Software Design: Design quality",
+            "Architectural Design: System structuring",
+            "Architectural Design: The repository model",
+            "Architectural Design: The client-server model",
+            "Architectural Design: The abstract machine model",
+            "Architectural Design: Control models",
+            "Architectural Design: Modular decomposition",
+            "Architectural Design: Domain-specific architectures",
+            "OOAD: Overview of Object Oriented Systems Development",
+            "OOAD: Object Oriented Systems Development Life Cycle",
+            "OOAD: Object Oriented Methodologies", "OOAD: Unified Modelling Language (UML)",
+            "OOAD: Object Oriented Analysis - Identifying Use-Cases",
+            "OOAD: Object Analysis - Classification",
+            "OOAD: Identifying Relationships, Attributes and Methods",
+            "OOAD: Object Oriented Design Process and Design Axioms",
+            "OOAD: Designing Classes", "OOAD: Access Layer", "OOAD: View Layer",
+            "Agile Software Development: Lifecycle", "Agile Software Development: Methods",
+            "Agile: Adaptive Software Development (ASD)",
+            "Agile: Dynamic System Development Method (DSDM)", "Agile: SCRUM",
+            "Agile: Extreme Programming (XP)", "Configuration Management: Introduction",
+            "Configuration Management: Change Management",
+            "Version and Release Management: Version identification",
+            "Version and Release Management: Release management",
+            "Version and Release Management: Version management tools",
+            "Software Maintenance", "The maintenance process", "System documentation",
+            "Maintenance costs", "Maintainability measurement", "Software Reengineering",
+            "Software Refactoring"
+          ]
         },
         {
-          "no": "L3",
+          "no": "3",
           "title": ".NET Technologies",
           "marks": 30,
-          "note": "Pre-2026 Informatics Officer syllabus unit — no longer part of the current 200-mark structure, kept for the 57 restored Nov-2024 questions."
+          "subtopics": [
+            "Basic .NET Framework", "Object-Oriented Programming (in .NET)", "ADO.NET",
+            "Dynamic Programming", "ASP.NET", "Windows Workflow Foundation",
+            "Application Deployment", "Remoting, Web Services and WCF",
+            ".NET Programming Concepts", "Windows Controls",
+            "Language-Integrated Query (LINQ)", "XML", "Web Services", "ASP.NET AJAX",
+            ".NET Assemblies", "WPF and Silverlight", "LINQ and Entity Framework",
+            "Design Pattern and UML", "Ajax", "Reports", "Threading",
+            ".NET Interoperability"
+          ]
         },
         {
-          "no": "L4",
+          "no": "4",
           "title": "Java / J2EE",
           "marks": 30,
-          "note": "Pre-2026 Informatics Officer syllabus unit — no longer part of the current 200-mark structure, kept for the 30 restored Nov-2024 questions."
+          "subtopics": [
+            "OOPS and Core Java", "Threading", "JDBC", "Servlet and JSP",
+            "EJB - Enterprise Java Beans", "Struts", "XML and Web Services",
+            "Internationalization", "JNI - Java Native Interface"
+          ]
         },
         {
-          "no": "L5",
+          "no": "5",
           "title": "Database Management System",
           "marks": 30,
-          "note": "Pre-2026 Informatics Officer syllabus unit — no longer part of the current 200-mark structure, kept for the 30 restored Nov-2024 questions."
+          "subtopics": [
+            "Introduction to Database", "The Relational Model and Normalization",
+            "Data Modeling with ER Model", "SQL for Database Construction",
+            "Managing Multiuser Databases", "XML and ADO.NET",
+            "Database Processing for BIS", "The Database Development Process",
+            "ER Model and Business Rules", "Physical Database Design",
+            "The Client-Server Database", "Data Warehousing", "Distributed Databases",
+            "Object-Oriented Database", "Introduction to SQL",
+            "Database Design Using Normalization", "Data Models into Database Designs",
+            "Database Redesign", "Managing Databases", "ODBC, OLE DB, ADO and ASP",
+            "JDBC, Java Server Pages and MySQL", "The Database Environment",
+            "Modeling Data in the Organization", "Logical Database Design",
+            "Advanced SQL", "The Internet Database Environment",
+            "Data and Database Administration", "Object-Oriented Data Modeling"
+          ]
         },
         {
-          "no": "L6",
+          "no": "6",
           "title": "Software Testing",
           "marks": 30,
-          "note": "Pre-2026 Informatics Officer syllabus unit — no longer part of the current 200-mark structure, kept for the 31 restored Nov-2024 questions."
+          "subtopics": [
+            "Software Testing Techniques: Introduction", "Software Testing Fundamentals",
+            "Testing Principles", "White Box Testing", "Control Structure Testing",
+            "Black Box Testing", "Boundary Value Analysis", "Testing GUIs",
+            "Testing Documentation and Help Facilities",
+            "Software Testing Assurance: Introduction",
+            "Verification and Validation: Validation Testing, Validation Test Criteria",
+            "Test Plan and Test Documentation", "Test Strategies: Top-Down Testing",
+            "Test Strategies: Bottom-Up Testing", "Test Strategies: Thread testing",
+            "Test Strategies: Stress testing", "Test Strategies: Back-to-back testing",
+            "Testing methods and tools: Testing through reviews",
+            "Black-box testing (Functional testing)",
+            "White box testing (glass-box testing)", "Testing software changes",
+            "Additional requirements in testing OO Systems", "System Testing",
+            "Acceptance Testing", "Regression testing",
+            "Metrics Collection, Computation and Evaluation", "Test and QA plan",
+            "Managing Testing Functions",
+            "Software Testing Strategies: Organizing for software testing",
+            "Unit Testing and Unit Test Considerations", "Top-down Integration",
+            "Bottom-up Integration", "Six Sigma", "Automated Testing", "CMMI", "Metrics",
+            "Testing Estimation"
+          ]
         }
       ]
     },

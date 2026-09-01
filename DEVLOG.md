@@ -9,7 +9,25 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
-## 2026-09-01 (latest) — Fixed silent unit-ID collision between old and new TECH1 syllabus
+## 2026-09-01 (latest) — Split TECH1 into two distinct papers instead of one paper with a legacy optgroup
+
+**SUPERSEDES the previous entry's fix.** The optgroup approach (legacy units nested inside TECH1's own Unit dropdown, distinguished only by an "L" prefix) technically worked but visually mixed old and new syllabus content under one "Technical I" paper — the user asked for them to be fully separate, with a clear paper name for each, no mixing at all.
+
+**What shipped:** `TECH1_LEGACY` is now a first-class paper in `syllabus.js`, alongside `TECH1`, `TECH2`, `TECH3`, `GE`, `GS` — not a bolt-on. It carries the full pre-2026 Informatics Officer syllabus (6 units: Hardware & Networking, Software Engineering, .NET, Java/J2EE, DBMS, Software Testing, with all original subtopics restored) and is flagged `"legacy": true`, `"counts_for_merit": false`.
+- The 227 restored questions (`questions.js`) and 172 concepts (`concepts.js`) now carry `paper: "TECH1_LEGACY"` with plain `unit: "1".."6"` (no more `L`-prefix hack — a real separate paper doesn't need one).
+- `app.js`'s `unitOf`, `fillUnits()`, and `drawTree()` reverted to their pre-legacy-hack form — no special-casing needed, since every paper (including the legacy one) is now handled by the same generic code path. The Practice tab's Paper dropdown shows "Technical I · IT & Communication (2026 syllabus)" and "Technical I · Informatics Officer (legacy syllabus)" as two distinct, unambiguous entries; selecting either shows only that paper's own units, with zero mixing.
+- Added a `legacy` flag and threaded `!p.legacy` filters through every view that represents *the current exam's real structure* — Dashboard's paper-progress grid, the Syllabus tab's merit/qualifying split and marks-weighting table, `unitStats()`/`weakestBlock()`/`modeMixBlock()`, and `TOTAL_SUBTOPICS` — so the legacy paper's questions/concepts never get silently averaged into "how am I doing on the actual 2026 exam" numbers. It still shows up (correctly labelled) in the Practice tab, Study tab tree, and now has its own "legacy practice" card in the Mock Test tab, clearly separated from the real merit/qualifying papers there.
+- Also corrected the Past Papers tab's now-stale description text, which still claimed "the System Analyst technical papers use the Informatics Officer syllabus" — no longer true since the July 2026 rewrite.
+
+**Why:** Direct user request after seeing the optgroup fix: "let it be like the OLD one and the new one separately no mixing and clear paper name for each." Treating them as genuinely separate papers (rather than one paper with a legacy sub-list) is also just the more honest data model — they're different syllabi with no unit-to-unit correspondence, so pretending they're one "paper" was the root awkwardness of the previous fix.
+
+**Found but not fixed (flagged as a separate task):** The Past Papers tab groups by `srcKey` rather than by actual exam `sitting`, so it collapses two distinct real sittings ("November 2024" and "earlier sitting", 100 questions each, both `srcKey: TECH1_OFFICIAL`) into one card mislabeled "Informatics Officer, November 2024" showing 200 questions. Pre-existing, unrelated to this fix — needs its own pass.
+
+**Still open:** None for this fix specifically. Verified in-browser across Syllabus, Dashboard, Study, Practice, Mock Test, and Past Papers tabs — no console errors, correct question/unit counts, no legacy content leaking into current-exam stats.
+
+---
+
+## 2026-09-01 — Fixed silent unit-ID collision between old and new TECH1 syllabus
 
 **BUG FOUND + FIXED:** The July 2026 syllabus rewrite replaced Technical Paper I's units in `syllabus.js` (from the old 6-unit Informatics Officer structure — Hardware & Networking, Software Engineering, .NET, Java/J2EE, DBMS, Software Testing — to the new 4-unit CSE structure — Discrete Mathematics, Computer Architecture, Data Structures, Operating System) but never renumbered the **227 restored legacy questions** or the **172 legacy concepts**, which still carried `unit: "1"`–`"6"` from the old scheme. Because the new syllabus also numbers its units `"1"`–`"4"`, this silently mislabeled and partially hid old content:
 - Selecting "1. Discrete Mathematics" in the Practice tab's Unit filter would *also* pull in old Hardware & Networking questions tagged `unit: "1"` — wrong topic served under a correct-looking label.

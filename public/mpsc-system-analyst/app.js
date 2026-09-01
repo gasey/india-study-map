@@ -123,12 +123,12 @@ function shuffle(arr, rnd) {
 /* --------------------------------------------------------------- lookups */
 const paperById = {};
 SYL.papers.forEach(p => { paperById[p.id] = p; });
-const unitOf = (pid, uno) => (paperById[pid]?.units || []).find(u => String(u.no) === String(uno))
-  || (paperById[pid]?.legacyUnits || []).find(u => String(u.no) === String(uno));
+const unitOf = (pid, uno) => (paperById[pid]?.units || []).find(u => String(u.no) === String(uno));
 const paperName = pid => paperById[pid]?.name || pid;
 const shortPaper = pid => ({
   GE: 'General English', GS: 'General Studies',
-  TECH1: 'Technical I · IT & Communication',
+  TECH1: 'Technical I · IT & Communication (2026 syllabus)',
+  TECH1_LEGACY: 'Technical I · Informatics Officer (legacy syllabus)',
   TECH2: 'Technical II · E-Governance',
   TECH3: 'Technical III · Project Mgmt',
 }[pid] || pid);
@@ -136,7 +136,7 @@ const shortPaper = pid => ({
 // answerable questions only (drop voided/undetermined from tests)
 // Denominator for the concept-guide progress line, derived from the syllabus
 // rather than hardcoded so it cannot drift as data lands.
-const TOTAL_SUBTOPICS = SYL.papers.reduce(
+const TOTAL_SUBTOPICS = SYL.papers.filter(p => !p.legacy).reduce(
   (n, p) => n + p.units.reduce((m, u) => m + (u.subtopics || []).length, 0), 0);
 
 /* Disputed answer: the blind solve and the question bank disagree, so BOTH
@@ -322,11 +322,11 @@ function go(v, opts) {
    plus the interview. Getting that wrong means revising the wrong 200 marks.
    Everything here reads from data/syllabus.js. */
 VIEWS.syllabus = (el) => {
-  const merit = SYL.papers.filter(p => p.counts_for_merit);
-  const qual = SYL.papers.filter(p => !p.counts_for_merit);
+  const merit = SYL.papers.filter(p => p.counts_for_merit && !p.legacy);
+  const qual = SYL.papers.filter(p => !p.counts_for_merit && !p.legacy);
   const meritTotal = merit.reduce((a, p) => a + p.marks, 0)
     + ((SYL.interview && SYL.interview.counts_for_merit && SYL.interview.marks) || 0);
-  const maxUnit = Math.max(...SYL.papers.flatMap(p => p.units.map(u => u.marks)));
+  const maxUnit = Math.max(...SYL.papers.filter(p => !p.legacy).flatMap(p => p.units.map(u => u.marks)));
 
   const unitRow = (p, u) => {
     const qs = ANSWERABLE.filter(q => q.paper === p.id && String(q.unit) === String(u.no)).length;
@@ -472,7 +472,7 @@ VIEWS.dash = (el) => {
     </div>
 
     <h2 class="mt">Papers</h2>
-    <div class="grid g2">${SYL.papers.map(paperCard).join('')}</div>
+    <div class="grid g2">${SYL.papers.filter(p => !p.legacy).map(paperCard).join('')}</div>
 
     ${weakestBlock()}
     ${modeMixBlock()}
@@ -514,7 +514,7 @@ function paperCard(p) {
 
 function unitStats() {
   const rows = [];
-  SYL.papers.forEach(p => p.units.forEach(u => {
+  SYL.papers.filter(p => !p.legacy).forEach(p => p.units.forEach(u => {
     const pool = ANSWERABLE.filter(q => q.paper === p.id && q.unit === String(u.no));
     let att = 0, ok = 0;
     pool.forEach(q => { const s = S.questions[q.id]; if (s?.att) { att += s.att; ok += s.ok; } });
@@ -548,7 +548,7 @@ function weakestBlock() {
    pass, and it is invisible from a question count alone. */
 function modeMixBlock() {
   const rows = [];
-  SYL.papers.forEach(p => p.units.forEach(u => {
+  SYL.papers.filter(p => !p.legacy).forEach(p => p.units.forEach(u => {
     const pool = ANSWERABLE.filter(q => q.paper === p.id && q.unit === String(u.no));
     const mix = pool.reduce((a, q) => { const m = modeOf(q.id); if (m) a[m] = (a[m] || 0) + 1; return a; }, {});
     const labelled = Object.values(mix).reduce((a, b) => a + b, 0);
@@ -635,23 +635,17 @@ VIEWS.study = (el, opts) => {
       if (!cs.length) return;
       const pk = `p:${p.id}`;
       html += `<details data-k="${pk}" ${isOpen(pk) ? 'open' : ''}><summary>${esc(shortPaper(p.id))} <span class="dim">${cs.length}</span></summary>`;
-      const unitBlock = u => {
+      p.units.forEach(u => {
         const us = cs.filter(c => c.unit === String(u.no));
-        if (!us.length) return '';
+        if (!us.length) return;
         const uk = `u:${p.id}:${u.no}`;
-        let b = `<details class="u" data-k="${uk}" ${isOpen(uk) ? 'open' : ''}><summary>${esc(u.no)}. ${esc(u.title)} <span class="dim">${u.marks}m</span></summary>`;
+        html += `<details class="u" data-k="${uk}" ${isOpen(uk) ? 'open' : ''}><summary>${esc(u.no)}. ${esc(u.title)} <span class="dim">${u.marks}m</span></summary>`;
         us.forEach(c => {
           const st = cState(c);
-          b += `<a href="#" data-id="${c.id}" class="${state.sel === c.id ? 'on' : ''} ${st.status}">${esc(c.sub)}</a>`;
+          html += `<a href="#" data-id="${c.id}" class="${state.sel === c.id ? 'on' : ''} ${st.status}">${esc(c.sub)}</a>`;
         });
-        return b + `</details>`;
-      };
-      p.units.forEach(u => { html += unitBlock(u); });
-      const legacyHtml = (p.legacyUnits || []).map(unitBlock).join('');
-      if (legacyHtml) {
-        const lk = `l:${p.id}`;
-        html += `<details class="u" data-k="${lk}" ${isOpen(lk) ? 'open' : ''}><summary>Informatics Officer (legacy syllabus)</summary>${legacyHtml}</details>`;
-      }
+        html += `</details>`;
+      });
       html += `</details>`;
     });
     t.innerHTML = html || `<p class="dim">No matches.</p>`;
@@ -857,12 +851,9 @@ VIEWS.practice = (el, opts) => {
   function fillUnits() {
     const pid = sel.paper.value;
     const us = pid ? (paperById[pid]?.units || []) : [];
-    const legacy = pid ? (paperById[pid]?.legacyUnits || []) : [];
-    const opt = u => `<option value="${esc(u.no)}">${esc(u.no)}. ${esc(u.title)} (${u.marks}m)</option>`;
-    const curOpts = us.filter(u => ANSWERABLE.some(q => q.paper === pid && q.unit === String(u.no))).map(opt).join('');
-    const legacyOpts = legacy.filter(u => ANSWERABLE.some(q => q.paper === pid && q.unit === String(u.no))).map(opt).join('');
-    sel.unit.innerHTML = `<option value="">All</option>` + curOpts
-      + (legacyOpts ? `<optgroup label="Informatics Officer (legacy syllabus)">${legacyOpts}</optgroup>` : '');
+    sel.unit.innerHTML = `<option value="">All</option>` + us
+      .filter(u => ANSWERABLE.some(q => q.paper === pid && q.unit === String(u.no)))
+      .map(u => `<option value="${esc(u.no)}">${esc(u.no)}. ${esc(u.title)} (${u.marks}m)</option>`).join('');
     if (f.unit) sel.unit.value = f.unit;
   }
   function pool() {
@@ -923,9 +914,10 @@ VIEWS.papers = (el) => {
   if (!keys.length) { el.innerHTML = emptyBank(); return; }
   el.innerHTML = `
     <h1>Past papers</h1>
-    <p class="muted">The System Analyst technical papers use the Informatics Officer syllabus, so these are the real
-    Informatics Officer papers — the closest thing to your actual exam that exists. Answers for the 2024 sitting come from
-    MPSC's published final answer key.</p>
+    <p class="muted">Real past papers, grouped by sitting. The Nov-2024 Informatics Officer sitting predates the
+    30 July 2026 syllabus change — practice it under "Technical I · Informatics Officer (legacy syllabus)" in
+    Study/Practice, not as a preview of the current Technical Paper I. Answers for that sitting come from MPSC's
+    published final answer key.</p>
     <div class="grid g2 mt">
       ${keys.map(k => {
         const qs = groups[k].slice().sort((a, b) => a.no - b.no);
@@ -1040,12 +1032,20 @@ VIEWS.mock = (el, opts) => {
         <p class="dim" style="margin:.35rem 0 .7rem">50 questions across all three technical papers · 60 minutes</p>
         <button class="btn sm" data-mock="QUICK">Start quick mock</button>
       </div>
-      ${SYL.papers.filter(p => !p.counts_for_merit && ANSWERABLE.some(q => q.paper === p.id)).map(p => {
+      ${SYL.papers.filter(p => !p.counts_for_merit && !p.legacy && ANSWERABLE.some(q => q.paper === p.id)).map(p => {
         const n = ANSWERABLE.filter(q => q.paper === p.id).length;
         return `<div class="card">
           <div class="spread"><h3 style="margin:0">${esc(shortPaper(p.id))}</h3><span class="pill wn">qualifying</span></div>
           <p class="dim" style="margin:.35rem 0 .7rem">You need 50% to stay in the race. Bank holds ${n} questions.</p>
           <button class="btn sm" data-mock="${p.id}">Start qualifying mock</button>
+        </div>`;
+      }).join('')}
+      ${SYL.papers.filter(p => p.legacy && ANSWERABLE.some(q => q.paper === p.id)).map(p => {
+        const n = ANSWERABLE.filter(q => q.paper === p.id).length;
+        return `<div class="card">
+          <div class="spread"><h3 style="margin:0">${esc(shortPaper(p.id))}</h3><span class="pill dim">legacy practice</span></div>
+          <p class="dim" style="margin:.35rem 0 .7rem">Superseded syllabus — does not count toward the current exam. Bank holds ${n} questions.</p>
+          <button class="btn sm" data-mock="${p.id}">Start practice mock</button>
         </div>`;
       }).join('')}
     </div>`;

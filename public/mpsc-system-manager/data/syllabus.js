@@ -964,7 +964,6 @@ window.SYLLABUS = {
           ]
         }
       ]
-    }
     },
     {
       "id": "UDC",

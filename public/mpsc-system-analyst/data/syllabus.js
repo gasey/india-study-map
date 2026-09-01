@@ -358,6 +358,44 @@ window.SYLLABUS = {
             "File systems"
           ]
         }
+      ],
+      "legacyUnits": [
+        {
+          "no": "L1",
+          "title": "Hardware & Networking Technologies",
+          "marks": 40,
+          "note": "Pre-2026 Informatics Officer syllabus unit — no longer part of the current 200-mark structure, kept for the 40 restored Nov-2024 questions."
+        },
+        {
+          "no": "L2",
+          "title": "Software Engineering",
+          "marks": 40,
+          "note": "Pre-2026 Informatics Officer syllabus unit — no longer part of the current 200-mark structure, kept for the 39 restored Nov-2024 questions."
+        },
+        {
+          "no": "L3",
+          "title": ".NET Technologies",
+          "marks": 30,
+          "note": "Pre-2026 Informatics Officer syllabus unit — no longer part of the current 200-mark structure, kept for the 57 restored Nov-2024 questions."
+        },
+        {
+          "no": "L4",
+          "title": "Java / J2EE",
+          "marks": 30,
+          "note": "Pre-2026 Informatics Officer syllabus unit — no longer part of the current 200-mark structure, kept for the 30 restored Nov-2024 questions."
+        },
+        {
+          "no": "L5",
+          "title": "Database Management System",
+          "marks": 30,
+          "note": "Pre-2026 Informatics Officer syllabus unit — no longer part of the current 200-mark structure, kept for the 30 restored Nov-2024 questions."
+        },
+        {
+          "no": "L6",
+          "title": "Software Testing",
+          "marks": 30,
+          "note": "Pre-2026 Informatics Officer syllabus unit — no longer part of the current 200-mark structure, kept for the 31 restored Nov-2024 questions."
+        }
       ]
     },
     {

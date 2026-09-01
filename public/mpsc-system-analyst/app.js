@@ -123,7 +123,8 @@ function shuffle(arr, rnd) {
 /* --------------------------------------------------------------- lookups */
 const paperById = {};
 SYL.papers.forEach(p => { paperById[p.id] = p; });
-const unitOf = (pid, uno) => (paperById[pid]?.units || []).find(u => String(u.no) === String(uno));
+const unitOf = (pid, uno) => (paperById[pid]?.units || []).find(u => String(u.no) === String(uno))
+  || (paperById[pid]?.legacyUnits || []).find(u => String(u.no) === String(uno));
 const paperName = pid => paperById[pid]?.name || pid;
 const shortPaper = pid => ({
   GE: 'General English', GS: 'General Studies',
@@ -634,17 +635,23 @@ VIEWS.study = (el, opts) => {
       if (!cs.length) return;
       const pk = `p:${p.id}`;
       html += `<details data-k="${pk}" ${isOpen(pk) ? 'open' : ''}><summary>${esc(shortPaper(p.id))} <span class="dim">${cs.length}</span></summary>`;
-      p.units.forEach(u => {
+      const unitBlock = u => {
         const us = cs.filter(c => c.unit === String(u.no));
-        if (!us.length) return;
+        if (!us.length) return '';
         const uk = `u:${p.id}:${u.no}`;
-        html += `<details class="u" data-k="${uk}" ${isOpen(uk) ? 'open' : ''}><summary>${esc(u.no)}. ${esc(u.title)} <span class="dim">${u.marks}m</span></summary>`;
+        let b = `<details class="u" data-k="${uk}" ${isOpen(uk) ? 'open' : ''}><summary>${esc(u.no)}. ${esc(u.title)} <span class="dim">${u.marks}m</span></summary>`;
         us.forEach(c => {
           const st = cState(c);
-          html += `<a href="#" data-id="${c.id}" class="${state.sel === c.id ? 'on' : ''} ${st.status}">${esc(c.sub)}</a>`;
+          b += `<a href="#" data-id="${c.id}" class="${state.sel === c.id ? 'on' : ''} ${st.status}">${esc(c.sub)}</a>`;
         });
-        html += `</details>`;
-      });
+        return b + `</details>`;
+      };
+      p.units.forEach(u => { html += unitBlock(u); });
+      const legacyHtml = (p.legacyUnits || []).map(unitBlock).join('');
+      if (legacyHtml) {
+        const lk = `l:${p.id}`;
+        html += `<details class="u" data-k="${lk}" ${isOpen(lk) ? 'open' : ''}><summary>Informatics Officer (legacy syllabus)</summary>${legacyHtml}</details>`;
+      }
       html += `</details>`;
     });
     t.innerHTML = html || `<p class="dim">No matches.</p>`;
@@ -850,9 +857,12 @@ VIEWS.practice = (el, opts) => {
   function fillUnits() {
     const pid = sel.paper.value;
     const us = pid ? (paperById[pid]?.units || []) : [];
-    sel.unit.innerHTML = `<option value="">All</option>` + us
-      .filter(u => ANSWERABLE.some(q => q.paper === pid && q.unit === String(u.no)))
-      .map(u => `<option value="${esc(u.no)}">${esc(u.no)}. ${esc(u.title)} (${u.marks}m)</option>`).join('');
+    const legacy = pid ? (paperById[pid]?.legacyUnits || []) : [];
+    const opt = u => `<option value="${esc(u.no)}">${esc(u.no)}. ${esc(u.title)} (${u.marks}m)</option>`;
+    const curOpts = us.filter(u => ANSWERABLE.some(q => q.paper === pid && q.unit === String(u.no))).map(opt).join('');
+    const legacyOpts = legacy.filter(u => ANSWERABLE.some(q => q.paper === pid && q.unit === String(u.no))).map(opt).join('');
+    sel.unit.innerHTML = `<option value="">All</option>` + curOpts
+      + (legacyOpts ? `<optgroup label="Informatics Officer (legacy syllabus)">${legacyOpts}</optgroup>` : '');
     if (f.unit) sel.unit.value = f.unit;
   }
   function pool() {

@@ -6,7 +6,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 1,
   "paper": "TECH1",
-  "unit": "1",
+  "unit": "L1",
   "sub": "Basic Computer System",
   "q": "In which of the following, the operand field contains the operand itself?",
   "opts": {
@@ -27,7 +27,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 2,
   "paper": "TECH1",
-  "unit": "1",
+  "unit": "L1",
   "sub": "Basic Computer System",
   "q": "When the operand field contains the address of the operand, then it is called —",
   "opts": {
@@ -48,7 +48,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 3,
   "paper": "TECH1",
-  "unit": "1",
+  "unit": "L1",
   "sub": "Basic Networking",
   "q": "A packet-switching network —",
   "opts": {
@@ -69,7 +69,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 4,
   "paper": "TECH1",
-  "unit": "1",
+  "unit": "L1",
   "sub": "Wireless Technologies",
   "q": "WPA2 is more secure then WPA because of its use of —",
   "opts": {
@@ -90,7 +90,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 5,
   "paper": "TECH1",
-  "unit": "1",
+  "unit": "L1",
   "sub": "Basic Networking",
   "q": "In this layer, Hamming Distance is used for error correcting codes.",
   "opts": {
@@ -111,7 +111,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 6,
   "paper": "TECH1",
-  "unit": "1",
+  "unit": "L1",
   "sub": "IPv6",
   "q": "The number of hosts that can be handled by IPv6 is approximately —",
   "opts": {
@@ -132,7 +132,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 7,
   "paper": "TECH1",
-  "unit": "1",
+  "unit": "L1",
   "sub": "Sub-netting",
   "q": "IPv4 address having subnet mask 255.255.224.0 can support ______ hosts.",
   "opts": {
@@ -153,7 +153,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 8,
   "paper": "TECH1",
-  "unit": "1",
+  "unit": "L1",
   "sub": "TCP/IP",
   "q": "How many class A, B and C network IDs can exist?",
   "opts": {
@@ -174,7 +174,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 9,
   "paper": "TECH1",
-  "unit": "1",
+  "unit": "L1",
   "sub": "TCP/IP",
   "q": "Which of the following TCP/IP protocol is used for file transfer with minimal capability and minimal overhead?",
   "opts": {
@@ -195,7 +195,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 10,
   "paper": "TECH1",
-  "unit": "1",
+  "unit": "L1",
   "sub": "EIGRP and OSPF",
   "q": "Which OSPF command can you use to view the OSPF routing table on a Cisco router?",
   "opts": {
@@ -216,7 +216,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 11,
   "paper": "TECH1",
-  "unit": "1",
+  "unit": "L1",
   "sub": "Wireless Technologies",
   "q": "Which Wi-Fi standard introduced the 5 GHz band to improve wireless network performance?",
   "opts": {
@@ -237,7 +237,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 12,
   "paper": "TECH1",
-  "unit": "1",
+  "unit": "L1",
   "sub": "Spanning Tree Protocol",
   "q": "What is the role of a Designated Port in Spanning Tree Protocol?",
   "opts": {
@@ -258,7 +258,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 13,
   "paper": "TECH1",
-  "unit": "1",
+  "unit": "L1",
   "sub": "Basic Networking",
   "q": "Which of the following access control methods is probabilistic?",
   "opts": {
@@ -279,7 +279,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 14,
   "paper": "TECH1",
-  "unit": "1",
+  "unit": "L1",
   "sub": "Network Address Translation",
   "q": "What is the primary purpose of Network Address Translation (NAT)?",
   "opts": {
@@ -300,7 +300,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 15,
   "paper": "TECH1",
-  "unit": "1",
+  "unit": "L1",
   "sub": "TCP/IP",
   "q": "The IP address which is never routed outside the host computer is —",
   "opts": {
@@ -321,7 +321,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 16,
   "paper": "TECH1",
-  "unit": "1",
+  "unit": "L1",
   "sub": "Virtual LANs",
   "q": "Virtual LAN is implemented in which layer?",
   "opts": {
@@ -342,7 +342,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 17,
   "paper": "TECH1",
-  "unit": "1",
+  "unit": "L1",
   "sub": "EIGRP and OSPF",
   "q": "How does EIGRP ensure that routing information is synchronized across routers?",
   "opts": {
@@ -363,7 +363,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 18,
   "paper": "TECH1",
-  "unit": "1",
+  "unit": "L1",
   "sub": "Basic Networking",
   "q": "Start and stop bits are used in serial communication for —",
   "opts": {
@@ -384,7 +384,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 19,
   "paper": "TECH1",
-  "unit": "1",
+  "unit": "L1",
   "sub": "Security",
   "q": "In network security, what is a \"honeypot\"?",
   "opts": {
@@ -405,7 +405,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 20,
   "paper": "TECH1",
-  "unit": "1",
+  "unit": "L1",
   "sub": "Basic Networking",
   "q": "As layer 2 is for ______, layer 3 is for ______.",
   "opts": {
@@ -426,7 +426,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 21,
   "paper": "TECH1",
-  "unit": "2",
+  "unit": "L2",
   "sub": "SDLC Methodologies: Waterfall model",
   "q": "Which of the following is theoretically viable, but not viable for practical implementation?",
   "opts": {
@@ -447,7 +447,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 22,
   "paper": "TECH1",
-  "unit": "2",
+  "unit": "L2",
   "sub": "Agile: SCRUM",
   "q": "Which of the following is NOT typically a role in a Scrum team?",
   "opts": {
@@ -468,7 +468,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 23,
   "paper": "TECH1",
-  "unit": "2",
+  "unit": "L2",
   "sub": "Software Development Approach: Prototyping model",
   "q": "Which of the following software development models emphasizes creating a prototype early in the development process to refine requirements?",
   "opts": {
@@ -489,7 +489,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 24,
   "paper": "TECH1",
-  "unit": "2",
+  "unit": "L2",
   "sub": "SDLC Methodologies: Agile model",
   "q": "Which SDLC methodology prioritizes customer collaboration over contract negotiation and responsiveness to change over following a plan?",
   "opts": {
@@ -510,7 +510,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 25,
   "paper": "TECH1",
-  "unit": "2",
+  "unit": "L2",
   "sub": "Software Development Approach: Rapid Application Development model",
   "q": "A software development approach wherein the development process focusses more on the user feedback rather than following a strict plan is —",
   "opts": {
@@ -531,7 +531,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 26,
   "paper": "TECH1",
-  "unit": "2",
+  "unit": "L2",
   "sub": "Version and Release Management: Version management tools",
   "q": "Which of the following is a tool used for managing software version?",
   "opts": {
@@ -552,7 +552,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 27,
   "paper": "TECH1",
-  "unit": "2",
+  "unit": "L2",
   "sub": "OOAD: Designing Classes",
   "q": "Software designing wherein the blueprints of entities are made and re-use those designs for more specific designs, etc. is happening in —",
   "opts": {
@@ -573,7 +573,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 28,
   "paper": "TECH1",
-  "unit": "2",
+  "unit": "L2",
   "sub": "Software Design: Design quality",
   "q": "In order to achieve modularity, which of the following is desirable?",
   "opts": {
@@ -594,7 +594,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 29,
   "paper": "TECH1",
-  "unit": "2",
+  "unit": "L2",
   "sub": "Maintenance costs",
   "q": "___ risk is a type of risk that is estimated from the past experience regarding staff turnover, productivity, regularity and dedication etc.",
   "opts": {
@@ -615,7 +615,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 30,
   "paper": "TECH1",
-  "unit": "2",
+  "unit": "L2",
   "sub": "OOAD: Object Oriented Analysis - Identifying Use-Cases",
   "q": "The diagram used to depict how the actual users play their roles in the software system is called —",
   "opts": {
@@ -636,7 +636,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 31,
   "paper": "TECH1",
-  "unit": "2",
+  "unit": "L2",
   "sub": "Software Development Approach: Rapid Application Development model",
   "q": "Which of the following is a drawback of using the RAD (Rapid Application Development) model?",
   "opts": {
@@ -657,7 +657,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 32,
   "paper": "TECH1",
-  "unit": "2",
+  "unit": "L2",
   "sub": "OOAD: Unified Modelling Language (UML)",
   "q": "In UML, what does the solid line with a closed arrowhead represent?",
   "opts": {
@@ -678,7 +678,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 33,
   "paper": "TECH1",
-  "unit": "2",
+  "unit": "L2",
   "sub": "Software Design Principles: Introduction",
   "q": "What is the main goal of applying the Open/Closed Principle in software design?",
   "opts": {
@@ -699,7 +699,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 34,
   "paper": "TECH1",
-  "unit": "2",
+  "unit": "L2",
   "sub": "System Models: Object aggregation",
   "q": "Which of the following best describes “composition” in object-oriented design?",
   "opts": {
@@ -720,7 +720,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 35,
   "paper": "TECH1",
-  "unit": "2",
+  "unit": "L2",
   "sub": "Configuration Management: Change Management",
   "q": "Which process in Configuration Management deals with controlling and documenting changes to system components?",
   "opts": {
@@ -741,7 +741,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 36,
   "paper": "TECH1",
-  "unit": "2",
+  "unit": "L2",
   "sub": "Software Development Approach: Continuous Integration model",
   "q": "In Configuration Management, what does the acronym “CI/CD” stand for?",
   "opts": {
@@ -762,7 +762,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 37,
   "paper": "TECH1",
-  "unit": "2",
+  "unit": "L2",
   "sub": "Software Refactoring",
   "q": "The process of changing or optimizing the software codes at the coding level without changing the external functionality is called —",
   "opts": {
@@ -783,7 +783,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 38,
   "paper": "TECH1",
-  "unit": "2",
+  "unit": "L2",
   "sub": "Architectural Design: The client-server model",
   "q": "Web-based systems have advantage over installed type applications in —",
   "opts": {
@@ -804,7 +804,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 39,
   "paper": "TECH1",
-  "unit": "2",
+  "unit": "L2",
   "sub": "OOAD: Unified Modelling Language (UML)",
   "q": "___ diagram shows how the different design objects are defined and their relationships; this is called —",
   "opts": {
@@ -825,7 +825,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 40,
   "paper": "TECH1",
-  "unit": "2",
+  "unit": "L2",
   "sub": "OOAD: Unified Modelling Language (UML)",
   "q": "Unified Modelling Language is normally meant for —",
   "opts": {
@@ -846,7 +846,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 41,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "Application Deployment",
   "q": "A web server software from Microsoft that runs on windows platform is —",
   "opts": {
@@ -867,7 +867,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 42,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "Basic .NET Framework",
   "q": "As ___ is for Java, ___ is for .net.",
   "opts": {
@@ -888,7 +888,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 43,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "Windows Workflow Foundation",
   "q": "Which of the following is Microsoft technology that helps developers build interactive, workflow engines and a rehostable designer to implement long-running processes?",
   "opts": {
@@ -909,7 +909,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 44,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "Basic .NET Framework",
   "q": ".NET framework is basically —",
   "opts": {
@@ -930,7 +930,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 45,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "Language-Integrated Query (LINQ)",
   "q": "A set of technologies based on the integration of query capabilities directly into the C# language is —",
   "opts": {
@@ -951,7 +951,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 46,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "Remoting, Web Services and WCF",
   "q": "What is Windows Communication Foundation?",
   "opts": {
@@ -972,7 +972,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 47,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "WPF and Silverlight",
   "q": "A free and open-source user interface framework for Windows-based desktop applications is —",
   "opts": {
@@ -993,7 +993,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 48,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": ".NET Assemblies",
   "q": "Which of the following components of the .NET framework provide an extensible set of classes that can be used by any .NET compliant programming language?",
   "opts": {
@@ -1014,7 +1014,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 49,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "ADO.NET",
   "q": "How can you manage connection pooling in ADO.NET?",
   "opts": {
@@ -1035,7 +1035,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 50,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "ASP.NET",
   "q": "In ASP.NET MVC, what is the purpose of the ViewModel?",
   "opts": {
@@ -1056,7 +1056,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 51,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": ".NET Programming Concepts",
   "q": "What is the role of the Garbage Collector in .NET?",
   "opts": {
@@ -1077,7 +1077,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 52,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "ASP.NET AJAX",
   "q": "Which ASP.NET AJAX control is used to periodically update content on the page without user interaction?",
   "opts": {
@@ -1098,7 +1098,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 53,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "XML",
   "q": "What does the xmlns attribute define in an XML document?",
   "opts": {
@@ -1119,7 +1119,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 54,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "WPF and Silverlight",
   "q": "What is the main difference between WPF and Silverlight regarding control templates?",
   "opts": {
@@ -1140,7 +1140,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 55,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "WPF and Silverlight",
   "q": "In WPF, what does the ICommand interface represent?",
   "opts": {
@@ -1161,7 +1161,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 56,
   "paper": "TECH1",
-  "unit": "4",
+  "unit": "L4",
   "sub": "Servlet and JSP",
   "q": "Java programs that run on Java-enabled servers and handle requests like the servers do are called —",
   "opts": {
@@ -1182,7 +1182,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 57,
   "paper": "TECH1",
-  "unit": "4",
+  "unit": "L4",
   "sub": "JDBC",
   "q": "A software tool that allows Java-based programs to interact with databases is —",
   "opts": {
@@ -1203,7 +1203,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 58,
   "paper": "TECH1",
-  "unit": "4",
+  "unit": "L4",
   "sub": "OOPS and Core Java",
   "q": "In order to create the basic runtime environment, application development and foundation for other Java applications, ____ is sufficient.",
   "opts": {
@@ -1224,7 +1224,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 59,
   "paper": "TECH1",
-  "unit": "4",
+  "unit": "L4",
   "sub": "OOPS and Core Java",
   "q": "Why can't Java be considered by some people to be a pure Object-Oriented language?",
   "opts": {
@@ -1245,7 +1245,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 60,
   "paper": "TECH1",
-  "unit": "4",
+  "unit": "L4",
   "sub": "OOPS and Core Java",
   "q": "The intermediate code generated by the Java compiler, which is platform independent, is called —",
   "opts": {
@@ -1266,7 +1266,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 61,
   "paper": "TECH1",
-  "unit": "4",
+  "unit": "L4",
   "sub": "Servlet and JSP",
   "q": "A client-side scripting language to manage users' interface interactively is —",
   "opts": {
@@ -1287,7 +1287,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 62,
   "paper": "TECH1",
-  "unit": "4",
+  "unit": "L4",
   "sub": "JNI - Java Native Interface",
   "q": "Which of the following best describes Java Native Interface?",
   "opts": {
@@ -1308,7 +1308,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 63,
   "paper": "TECH1",
-  "unit": "4",
+  "unit": "L4",
   "sub": "OOPS and Core Java",
   "q": "Multiple inheritance in Java can be implemented using —",
   "opts": {
@@ -1329,7 +1329,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 64,
   "paper": "TECH1",
-  "unit": "4",
+  "unit": "L4",
   "sub": "Threading",
   "q": "What is true about threading?",
   "opts": {
@@ -1350,7 +1350,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 65,
   "paper": "TECH1",
-  "unit": "4",
+  "unit": "L4",
   "sub": "OOPS and Core Java",
   "q": "What does the finalize() method do in Java?",
   "opts": {
@@ -1371,7 +1371,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 66,
   "paper": "TECH1",
-  "unit": "4",
+  "unit": "L4",
   "sub": "Threading",
   "q": "Which method is used to explicitly terminate a thread in Java?",
   "opts": {
@@ -1392,7 +1392,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 67,
   "paper": "TECH1",
-  "unit": "4",
+  "unit": "L4",
   "sub": "JDBC",
   "q": "In JDBC, what is the purpose of the ResultSetMetaData interface?",
   "opts": {
@@ -1413,7 +1413,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 68,
   "paper": "TECH1",
-  "unit": "4",
+  "unit": "L4",
   "sub": "Servlet and JSP",
   "q": "How can you send a redirect response to the client from a servlet?",
   "opts": {
@@ -1434,7 +1434,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 69,
   "paper": "TECH1",
-  "unit": "4",
+  "unit": "L4",
   "sub": "Servlet and JSP",
   "q": "Which object in JSP is NOT implicitly available?",
   "opts": {
@@ -1455,7 +1455,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 70,
   "paper": "TECH1",
-  "unit": "4",
+  "unit": "L4",
   "sub": "EJB - Enterprise Java Beans",
   "q": "Which annotation is used to define an EJB component class as a Stateless Session Bean?",
   "opts": {
@@ -1476,7 +1476,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 71,
   "paper": "TECH1",
-  "unit": "5",
+  "unit": "L5",
   "sub": "Physical Database Design",
   "q": "By creating a foreign key constraint, the following are usually considered during design -",
   "opts": {
@@ -1497,7 +1497,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 72,
   "paper": "TECH1",
-  "unit": "5",
+  "unit": "L5",
   "sub": "Advanced SQL",
   "q": "Which of the following is a kind of stored procedure that is executed as a side-effect of some operations on the data?",
   "opts": {
@@ -1518,7 +1518,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 73,
   "paper": "TECH1",
-  "unit": "5",
+  "unit": "L5",
   "sub": "Data Warehousing",
   "q": "A data storage system that stores highly structured data and that works with data from one or more systems and sources including historical data is best called —",
   "opts": {
@@ -1539,7 +1539,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 74,
   "paper": "TECH1",
-  "unit": "5",
+  "unit": "L5",
   "sub": "The Relational Model and Normalization",
   "q": "The term given to the minimal number of attributes to define a record is called —",
   "opts": {
@@ -1560,7 +1560,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 75,
   "paper": "TECH1",
-  "unit": "5",
+  "unit": "L5",
   "sub": "The Relational Model and Normalization",
   "q": "Super key in the DBMS is —",
   "opts": {
@@ -1581,7 +1581,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 76,
   "paper": "TECH1",
-  "unit": "5",
+  "unit": "L5",
   "sub": "Physical Database Design",
   "q": "________ design focusses on the data itself, whereas ________ design focusses more on data type, how it is stored and accessed.",
   "opts": {
@@ -1602,7 +1602,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 77,
   "paper": "TECH1",
-  "unit": "5",
+  "unit": "L5",
   "sub": "Database Design Using Normalization",
   "q": "Normalization of database usually achieves —\ni. Data integrity\nii. Reduced redundancy\niii. Data readability\niv. Data security",
   "opts": {
@@ -1623,7 +1623,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 78,
   "paper": "TECH1",
-  "unit": "5",
+  "unit": "L5",
   "sub": "Advanced SQL",
   "q": "When decomposed tables are joined, which of the following will preserve non-match tuples only on the left table, but not on the right table?",
   "opts": {
@@ -1644,7 +1644,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 79,
   "paper": "TECH1",
-  "unit": "5",
+  "unit": "L5",
   "sub": "The Database Environment",
   "q": "Data about relations such as schema of relation is maintained by the relational database system, it is termed as —",
   "opts": {
@@ -1665,7 +1665,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 80,
   "paper": "TECH1",
-  "unit": "5",
+  "unit": "L5",
   "sub": "Introduction to SQL",
   "q": "________ is for altering the database design, whereas ________ is for manipulating the data.",
   "opts": {
@@ -1686,7 +1686,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 81,
   "paper": "TECH1",
-  "unit": "5",
+  "unit": "L5",
   "sub": "Data Modeling with ER Model",
   "q": "Which of the following best describes a \"multi-valued attribute\" in an ER model?",
   "opts": {
@@ -1707,7 +1707,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 82,
   "paper": "TECH1",
-  "unit": "5",
+  "unit": "L5",
   "sub": "Advanced SQL",
   "q": "Which SQL clause ensures that the deletion of a row from a parent table also deletes all corresponding rows in the child table that reference it?",
   "opts": {
@@ -1728,7 +1728,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 83,
   "paper": "TECH1",
-  "unit": "5",
+  "unit": "L5",
   "sub": "Database Processing for BIS",
   "q": "In BIS, which of the following is a primary challenge when integrating multiple data sources into a unified database for analysis?",
   "opts": {
@@ -1749,7 +1749,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 84,
   "paper": "TECH1",
-  "unit": "5",
+  "unit": "L5",
   "sub": "Data and Database Administration",
   "q": "Which of the following is a key responsibility of the Database Administrator (DBA) in a database environment?",
   "opts": {
@@ -1770,7 +1770,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 85,
   "paper": "TECH1",
-  "unit": "5",
+  "unit": "L5",
   "sub": "Logical Database Design",
   "q": "Which of the following best describes the concept of a derived attribute in logical database design?",
   "opts": {
@@ -1791,7 +1791,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 86,
   "paper": "TECH1",
-  "unit": "6",
+  "unit": "L6",
   "sub": "Boundary Value Analysis",
   "q": "Software testing involving the existence of possible error when extreme range of input is given is called —",
   "opts": {
@@ -1812,7 +1812,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 87,
   "paper": "TECH1",
-  "unit": "6",
+  "unit": "L6",
   "sub": "Software Testing Fundamentals",
   "q": "Which of the following(s) is/are involved in software testing?\ni. Fix the security loopholes\nii. Find the possible error in the software\niii. Check whether customers' requirements are met\niv. Debugging",
   "opts": {
@@ -1833,7 +1833,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 88,
   "paper": "TECH1",
-  "unit": "6",
+  "unit": "L6",
   "sub": "Bottom-up Integration",
   "q": "Which software testing is for testing whether individual units or modules are working together as per required or not?",
   "opts": {
@@ -1854,7 +1854,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 89,
   "paper": "TECH1",
-  "unit": "6",
+  "unit": "L6",
   "sub": "Testing methods and tools: Testing through reviews",
   "q": "Which software testing tool does a simple job of enforcing standards in a uniform way of many programs?",
   "opts": {
@@ -1875,7 +1875,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 90,
   "paper": "TECH1",
-  "unit": "6",
+  "unit": "L6",
   "sub": "Software Testing Strategies: Organizing for software testing",
   "q": "Which of the following issue/issues must be addressed if a successful software testing strategy is to be implemented?\ni. Use effective formal technical reviews as a filter prior to testing\nii. Develop a testing plan that emphasizes \"rapid cycle testing\"\niii. State testing objectives explicitly",
   "opts": {
@@ -1896,7 +1896,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 91,
   "paper": "TECH1",
-  "unit": "6",
+  "unit": "L6",
   "sub": "White Box Testing",
   "q": "To check the cyclomatic complexity, ________ is employed.",
   "opts": {
@@ -1917,7 +1917,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 92,
   "paper": "TECH1",
-  "unit": "6",
+  "unit": "L6",
   "sub": "Regression testing",
   "q": "What is the primary purpose of regression testing?",
   "opts": {
@@ -1938,7 +1938,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 93,
   "paper": "TECH1",
-  "unit": "6",
+  "unit": "L6",
   "sub": "Six Sigma",
   "q": "Which of the following is a key phase in the Six Sigma DMAIC (Define, Measure, Analyze, Improve, Control) process?",
   "opts": {
@@ -1959,7 +1959,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 94,
   "paper": "TECH1",
-  "unit": "6",
+  "unit": "L6",
   "sub": "Software Testing Assurance: Introduction",
   "q": "Which of the following is an essential practice in Software Quality Assurance to ensure that software meets predefined standards and requirements?",
   "opts": {
@@ -1980,7 +1980,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 95,
   "paper": "TECH1",
-  "unit": "6",
+  "unit": "L6",
   "sub": "CMMI",
   "q": "What is the primary objective of the Capability Maturity Model Integration (CMMI)?",
   "opts": {
@@ -2001,7 +2001,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 96,
   "paper": "TECH1",
-  "unit": "6",
+  "unit": "L6",
   "sub": "Automated Testing",
   "q": "In the context of automated testing, what is a \"test script\"?",
   "opts": {
@@ -2022,7 +2022,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 97,
   "paper": "TECH1",
-  "unit": "6",
+  "unit": "L6",
   "sub": "Metrics Collection, Computation and Evaluation",
   "q": "Which of the following metrics is used to measure the reliability of software?",
   "opts": {
@@ -2043,7 +2043,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 98,
   "paper": "TECH1",
-  "unit": "6",
+  "unit": "L6",
   "sub": "Control Structure Testing",
   "q": "Which metric is used to measure the complexity of a software module based on its control flow graph?",
   "opts": {
@@ -2064,7 +2064,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 99,
   "paper": "TECH1",
-  "unit": "6",
+  "unit": "L6",
   "sub": "Testing Principles",
   "q": "The objective of ________ is to design tests that is likely to uncover the possible bugs (if exists) within the system.",
   "opts": {
@@ -2085,7 +2085,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 100,
   "paper": "TECH1",
-  "unit": "6",
+  "unit": "L6",
   "sub": "Acceptance Testing",
   "q": "Testing with respect to user needs, requirements, and business processes conducted to determine whether a system satisfies the acceptance criteria and to enable the user, customers or other authorized entity to determine whether to accept the system is formally called —",
   "opts": {
@@ -2106,7 +2106,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 1,
   "paper": "TECH1",
-  "unit": "1",
+  "unit": "L1",
   "sub": "IPv6",
   "q": "How long is an IPv6 address?",
   "opts": {
@@ -2127,7 +2127,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 2,
   "paper": "TECH1",
-  "unit": "1",
+  "unit": "L1",
   "sub": "TCP/IP",
   "q": "Which address is used in an internet employing the TCP/IP protocols?",
   "opts": {
@@ -2148,7 +2148,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 3,
   "paper": "TECH1",
-  "unit": "1",
+  "unit": "L1",
   "sub": "IPv6",
   "q": "What is the header length of an IPv6 datagram?",
   "opts": {
@@ -2169,7 +2169,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 4,
   "paper": "TECH1",
-  "unit": "1",
+  "unit": "L1",
   "sub": "Network Address Translation",
   "q": "Which command would you place on interface on a private network?",
   "opts": {
@@ -2190,7 +2190,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 5,
   "paper": "TECH1",
-  "unit": "1",
+  "unit": "L1",
   "sub": "Wireless Technologies",
   "q": "What is the maximum distance with maximum data rate for 802.11a?",
   "opts": {
@@ -2211,7 +2211,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 6,
   "paper": "TECH1",
-  "unit": "1",
+  "unit": "L1",
   "sub": "Basic Networking",
   "q": "For a 10Mbps Ethernet link, if the length of the packet is 32 bits, the transmission delay is (in microseconds):",
   "opts": {
@@ -2232,7 +2232,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 7,
   "paper": "TECH1",
-  "unit": "1",
+  "unit": "L1",
   "sub": "Basic Networking",
   "q": "__________ is a high performance fiber optic token ring LAN running at 100 Mbps over distances upto 1000 stations connected.",
   "opts": {
@@ -2253,7 +2253,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 8,
   "paper": "TECH1",
-  "unit": "1",
+  "unit": "L1",
   "sub": "IPv6",
   "q": "IPv6 does not use __________ type of address which is used by IPv4.",
   "opts": {
@@ -2274,7 +2274,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 9,
   "paper": "TECH1",
-  "unit": "1",
+  "unit": "L1",
   "sub": "Network Devices - Switches, Router, Firewall, etc.",
   "q": "A switch in a datagram network uses a:",
   "opts": {
@@ -2295,7 +2295,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 10,
   "paper": "TECH1",
-  "unit": "1",
+  "unit": "L1",
   "sub": "Sub-netting",
   "q": "You need to subnet a network that has 5 subnets, each with at least 16 hosts. Which classful subnet mask would you use?",
   "opts": {
@@ -2316,7 +2316,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 11,
   "paper": "TECH1",
-  "unit": "1",
+  "unit": "L1",
   "sub": "IOS and Security Device Manager",
   "q": "Which command loads a new version of the Cisco IOS into a router?",
   "opts": {
@@ -2337,7 +2337,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 12,
   "paper": "TECH1",
-  "unit": "1",
+  "unit": "L1",
   "sub": "TCP/IP",
   "q": "In which layer are segments made?",
   "opts": {
@@ -2358,7 +2358,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 13,
   "paper": "TECH1",
-  "unit": "1",
+  "unit": "L1",
   "sub": "Spanning Tree Protocol",
   "q": "In a network of LANs connected by bridges, packets are sent from one LAN to another through intermediate bridges. Since more than one path may exist between two LANs, packets may have to be routed through multiple bridges. Why is the spanning tree algorithm used for bridge-routing?",
   "opts": {
@@ -2379,7 +2379,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 14,
   "paper": "TECH1",
-  "unit": "1",
+  "unit": "L1",
   "sub": "Internetworking",
   "q": "The Identifier that is used for data transfer in virtual circuit network is:",
   "opts": {
@@ -2400,7 +2400,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 15,
   "paper": "TECH1",
-  "unit": "1",
+  "unit": "L1",
   "sub": "Wireless Technologies",
   "q": "Wireless transmission can be done via:",
   "opts": {
@@ -2421,7 +2421,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 16,
   "paper": "TECH1",
-  "unit": "1",
+  "unit": "L1",
   "sub": "Basic Networking",
   "q": "Transmission data rate is primarily decided by:",
   "opts": {
@@ -2442,7 +2442,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 17,
   "paper": "TECH1",
-  "unit": "1",
+  "unit": "L1",
   "sub": "TCP/IP",
   "q": "A DNS client is called __________.",
   "opts": {
@@ -2463,7 +2463,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 18,
   "paper": "TECH1",
-  "unit": "1",
+  "unit": "L1",
   "sub": "EIGRP and OSPF",
   "q": "Open Shortest Path First (OSPF) is also called as __________.",
   "opts": {
@@ -2484,7 +2484,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 19,
   "paper": "TECH1",
-  "unit": "1",
+  "unit": "L1",
   "sub": "EIGRP and OSPF",
   "q": "Which command will display all the EIGRP feasible successor routes known to a router?",
   "opts": {
@@ -2505,7 +2505,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 20,
   "paper": "TECH1",
-  "unit": "1",
+  "unit": "L1",
   "sub": "Basic Networking",
   "q": "In OSI reference model, the lowest layer for end-to-end communication is:",
   "opts": {
@@ -2526,7 +2526,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 21,
   "paper": "TECH1",
-  "unit": "2",
+  "unit": "L2",
   "sub": "Software Development Approach: Prototyping model",
   "q": "Which model can be selected if user is involved in all the phases of Software Development Life Cycle (SDLC)?",
   "opts": {
@@ -2547,7 +2547,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 22,
   "paper": "TECH1",
-  "unit": "2",
+  "unit": "L2",
   "sub": "Software Development Approach: Incremental Development model",
   "q": "What is the major advantage of using Incremental Development Model?",
   "opts": {
@@ -2568,7 +2568,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 23,
   "paper": "TECH1",
-  "unit": "2",
+  "unit": "L2",
   "sub": "SDLC Methodologies: Spiral model",
   "q": "Which of the following life cycle model can be chosen if the development team has less experience on similar projects?",
   "opts": {
@@ -2589,7 +2589,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 24,
   "paper": "TECH1",
-  "unit": "2",
+  "unit": "L2",
   "sub": "SDLC Methodologies: Waterfall model",
   "q": "For the best Software model suitable for the project, in which of the phase the developers decide a road-map for project plan?",
   "opts": {
@@ -2610,7 +2610,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 25,
   "paper": "TECH1",
-  "unit": "2",
+  "unit": "L2",
   "sub": "Software Design: The design process",
   "q": "Which of the following is/are the activities used in the design process for large software systems?\ni) Architectural designs\nii) Abstract specification\niii) Code design\niv) Interface design",
   "opts": {
@@ -2631,7 +2631,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 26,
   "paper": "TECH1",
-  "unit": "2",
+  "unit": "L2",
   "sub": "System Models: Inheritance models",
   "q": "Single inheritance, Multiple inheritance, and Aggregation comes under:",
   "opts": {
@@ -2652,7 +2652,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 27,
   "paper": "TECH1",
-  "unit": "2",
+  "unit": "L2",
   "sub": "Agile: SCRUM",
   "q": "In an Agile environment, what is the main responsibility of a tester?\n(a) Create test scenarios and test cases\n(b) Finding bugs\n(c) Send test execution reports to the stakeholders\n(d) There is no role as a tester in Scrum",
   "opts": {
@@ -2673,7 +2673,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 28,
   "paper": "TECH1",
-  "unit": "2",
+  "unit": "L2",
   "sub": "Agile: Adaptive Software Development (ASD)",
   "q": "What are three framework activities for the Adaptive Software Development (ASD) process model?",
   "opts": {
@@ -2694,7 +2694,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 29,
   "paper": "TECH1",
-  "unit": "2",
+  "unit": "L2",
   "sub": "OOAD: Unified Modelling Language (UML)",
   "q": "Which of the following Unified Modelling Languages (UML) diagrams has a static view?",
   "opts": {
@@ -2715,7 +2715,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 30,
   "paper": "TECH1",
-  "unit": "2",
+  "unit": "L2",
   "sub": "OOAD: Object Oriented Systems Development Life Cycle",
   "q": "The object-oriented development life cycle is which of the following?\n(a) Analysis, design, and implementation steps in the given order and using the steps no more than one time.\n(b) Analysis, design, and implementation steps in any order and using the steps no more than one time.\n(c) Analysis, design, and implementation steps in any order and using multiple iterations.\n(d) Analysis, design, and implementation steps in the given order and using multiple iterations.",
   "opts": {
@@ -2736,7 +2736,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 31,
   "paper": "TECH1",
-  "unit": "2",
+  "unit": "L2",
   "sub": "Configuration Management: Introduction",
   "q": "What is the main aim of Software Configuration Management (SCM)?\n(a) Identify change\n(b) Control change\n(c) Ensure that change is being properly implemented\n(d) All of the above",
   "opts": {
@@ -2757,7 +2757,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 32,
   "paper": "TECH1",
-  "unit": "2",
+  "unit": "L2",
   "sub": "OOAD: Overview of Object Oriented Systems Development",
   "q": "One of the properties of Object Oriented Programming that allows obtaining some property which is attained by other object is __________.",
   "opts": {
@@ -2778,7 +2778,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 33,
   "paper": "TECH1",
-  "unit": "2",
+  "unit": "L2",
   "sub": "System Models: Data-flow models",
   "q": "Activities and action taken on the data that are represented by Circle or Round-edged Rectangles in DFD are called __________.",
   "opts": {
@@ -2799,7 +2799,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 34,
   "paper": "TECH1",
-  "unit": "2",
+  "unit": "L2",
   "sub": "Software Design: Design quality",
   "q": "What do the physical connections between the elements of the OO design represent?",
   "opts": {
@@ -2820,7 +2820,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 35,
   "paper": "TECH1",
-  "unit": "2",
+  "unit": "L2",
   "sub": "System Models: Data-flow models",
   "q": "Techniques that allows a software engineer to understand how a work process is completed when several people are included, is called __________.\n(a) Does not track potential risks\n(b) Cover problem areas before they go \"critical\"\n(c) Does not adjust work flow or tasks\n(d) Work flow analysis",
   "opts": {
@@ -2841,7 +2841,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 36,
   "paper": "TECH1",
-  "unit": "6",
+  "unit": "L6",
   "sub": "Metrics Collection, Computation and Evaluation",
   "q": "Measure of reliability is given by __________.\n(a) Mean Time between successes.\n(b) Mean reliable time\n(c) Mean Time between failure.\n(d) MTTR",
   "opts": {
@@ -2862,7 +2862,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 37,
   "paper": "TECH1",
-  "unit": "2",
+  "unit": "L2",
   "sub": "Software Design: Design description",
   "q": "Which one of the following is NOT desired in a good Software Requirement Specifications (SRS) document?",
   "opts": {
@@ -2883,7 +2883,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 38,
   "paper": "TECH1",
-  "unit": "2",
+  "unit": "L2",
   "sub": "Software Maintenance",
   "q": "What is the appropriate pairing of items in the two columns listing various activities encountered in a software life cycle?\nP : Requirements Capture\nQ : Design\nR : Implementation\nS : Maintenance\n1 : Module Development and Integration\n2 : Domain Analysis\n3 : Structural and Behavioral Modeling\n4 : Performance Tuning",
   "opts": {
@@ -2904,7 +2904,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 39,
   "paper": "TECH1",
-  "unit": "2",
+  "unit": "L2",
   "sub": "Software Design: Design quality",
   "q": "In the context of modular software design, which one of the following combinations is desirable?",
   "opts": {
@@ -2925,7 +2925,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 40,
   "paper": "TECH1",
-  "unit": "2",
+  "unit": "L2",
   "sub": "SDLC Methodologies: Spiral model",
   "q": "Staff turnover, poor communication with the customer are risks that are extrapolated from past experience are called __________.",
   "opts": {
@@ -2946,7 +2946,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 41,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "ADO.NET",
   "q": "Syntax for opening and closing the connection in ADO.net is:",
   "opts": {
@@ -2967,7 +2967,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 42,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "ASP.NET AJAX",
   "q": "Which interface you will use wrap an AJAX client control into a custom server control?",
   "opts": {
@@ -2988,7 +2988,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 43,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "Ajax",
   "q": "Which of the following is true?\n1. AJAX is a platform-independent technology\n2. AJAX can work with web application\n3. AJAX can only work with ASP.NET\n4. AJAX is a platform-dependent technology",
   "opts": {
@@ -3009,7 +3009,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 44,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "Language-Integrated Query (LINQ)",
   "q": "What types of Objects can you query using LINQ?",
   "opts": {
@@ -3030,7 +3030,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 45,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "Basic .NET Framework",
   "q": "Which of the following are NOT true about .NET Framework?\n1. It provides a consistent object-oriented programming environment whether object code is stored and executed locally, executed locally but Internet-distributed, or executed remotely.\n2. It provides a code-execution environment that minimizes software deployment and versioning conflicts.\n3. It provides a code-execution environment that promotes safe execution of code, including code created by an unknown or semi-trusted third party.\n4. It provides different programming models for Windows-based applications and Web-based applications.\n5. It provides an event driven programming model for building Windows Device Drivers.",
   "opts": {
@@ -3051,7 +3051,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 46,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "WPF and Silverlight",
   "q": "Windows Presentation Foundation (WPF) introduces __________ events that can invoke handlers that exist on various listeners in the element tree of an application.",
   "opts": {
@@ -3072,7 +3072,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 47,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "WPF and Silverlight",
   "q": "What are the components of Silverlight?",
   "opts": {
@@ -3093,7 +3093,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 48,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "XML",
   "q": "Comment in XML document is given by:",
   "opts": {
@@ -3114,7 +3114,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 49,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "Basic .NET Framework",
   "q": "Which of the following statements are TRUE about the .NET CLR?\ni) It provides a language-neutral development & execution environment.\nii) It ensures that an application would not be able to access memory that it is not authorized to access.\niii) It provides services to run \"managed\" applications.\niv) The resources are garbage collected.",
   "opts": {
@@ -3135,7 +3135,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 50,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": ".NET Assemblies",
   "q": "Which of the following components of the .NET framework provide an extensible set of classes that can be used by any .NET compliant programming language?",
   "opts": {
@@ -3156,7 +3156,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 51,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "ASP.NET",
   "q": "In ASP.NET, which commands are used to specify settings of an .aspx file?",
   "opts": {
@@ -3177,7 +3177,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 52,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "ASP.NET",
   "q": "Which of the following statement is correct in ASP.NET?",
   "opts": {
@@ -3198,7 +3198,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 53,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "Application Deployment",
   "q": "Which of the following web server is developed by Microsoft?",
   "opts": {
@@ -3219,7 +3219,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 54,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "ADO.NET",
   "q": "To use the .NET Framework Data Provider for SQL Server, an application must reference the __________ namespace.",
   "opts": {
@@ -3240,7 +3240,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 55,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "Basic .NET Framework",
   "q": "Which of the following are parts of the .NET Framework?\ni) The Common Language Runtime (CLR)\nii) The Framework Class Libraries (FCL)\niii) Microsoft Published Web Services\niv) Applications deployed on IIS\nv) Mobile Applications",
   "opts": {
@@ -3261,7 +3261,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 56,
   "paper": "TECH1",
-  "unit": "4",
+  "unit": "L4",
   "sub": "Threading",
   "q": "What will happen if two threads of the same priority are called to be processed simultaneously?",
   "opts": {
@@ -3282,7 +3282,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 57,
   "paper": "TECH1",
-  "unit": "4",
+  "unit": "L4",
   "sub": "Threading",
   "q": "What is the name of the thread in the following Java program?\nclass multithreaded_programing\n{\npublic static void main(String args[])\n{\nThread t = Thread.currentThread();\nSystem.out.println(t);\n}\n}",
   "opts": {
@@ -3303,7 +3303,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 58,
   "paper": "TECH1",
-  "unit": "4",
+  "unit": "L4",
   "sub": "JDBC",
   "q": "Which JDBC type represents a \"single precision\" floating point number that supports seven digits of mantissa?",
   "opts": {
@@ -3324,7 +3324,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 59,
   "paper": "TECH1",
-  "unit": "4",
+  "unit": "L4",
   "sub": "JDBC",
   "q": "How many result sets are available with the JDBC 2.0 core API?",
   "opts": {
@@ -3345,7 +3345,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 60,
   "paper": "TECH1",
-  "unit": "4",
+  "unit": "L4",
   "sub": "EJB - Enterprise Java Beans",
   "q": "Which case of a session bean obtains the UserTransaction object via the EJBContext using the getUserTransaction() method in EJB transaction management?",
   "opts": {
@@ -3366,7 +3366,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 61,
   "paper": "TECH1",
-  "unit": "4",
+  "unit": "L4",
   "sub": "Struts",
   "q": "Struts combine which of these into a unified Framework?",
   "opts": {
@@ -3387,7 +3387,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 62,
   "paper": "TECH1",
-  "unit": "4",
+  "unit": "L4",
   "sub": "Internationalization",
   "q": "Which locale (i.e., from an internationalization properties file) to use for a user is based on?",
   "opts": {
@@ -3408,7 +3408,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 63,
   "paper": "TECH1",
-  "unit": "4",
+  "unit": "L4",
   "sub": "OOPS and Core Java",
   "q": "Which of these access specifiers can be used for an interface?",
   "opts": {
@@ -3429,7 +3429,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 64,
   "paper": "TECH1",
-  "unit": "4",
+  "unit": "L4",
   "sub": "OOPS and Core Java",
   "q": "In Java, when does method overloading is determined?",
   "opts": {
@@ -3450,7 +3450,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 65,
   "paper": "TECH1",
-  "unit": "4",
+  "unit": "L4",
   "sub": "OOPS and Core Java",
   "q": "Which component is used to compile, debug and execute java program?",
   "opts": {
@@ -3471,7 +3471,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 66,
   "paper": "TECH1",
-  "unit": "4",
+  "unit": "L4",
   "sub": "Threading",
   "q": "What is true about threading?",
   "opts": {
@@ -3492,7 +3492,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 67,
   "paper": "TECH1",
-  "unit": "4",
+  "unit": "L4",
   "sub": "Threading",
   "q": "Which of the following will ensure the thread will be in running state?",
   "opts": {
@@ -3513,7 +3513,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 68,
   "paper": "TECH1",
-  "unit": "4",
+  "unit": "L4",
   "sub": "Servlet and JSP",
   "q": "Which option is true about session scope in JSP?",
   "opts": {
@@ -3534,7 +3534,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 69,
   "paper": "TECH1",
-  "unit": "4",
+  "unit": "L4",
   "sub": "Servlet and JSP",
   "q": "Which one is the correct order of phases in JSP life cycle?",
   "opts": {
@@ -3555,7 +3555,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 70,
   "paper": "TECH1",
-  "unit": "4",
+  "unit": "L4",
   "sub": "OOPS and Core Java",
   "q": "Which of these data types is used by operating system to manage the Recursion in Java?",
   "opts": {
@@ -3576,7 +3576,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 71,
   "paper": "TECH1",
-  "unit": "5",
+  "unit": "L5",
   "sub": "The Relational Model and Normalization",
   "q": "In relational model terminology, table is considered as:",
   "opts": {
@@ -3597,7 +3597,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 72,
   "paper": "TECH1",
-  "unit": "5",
+  "unit": "L5",
   "sub": "Managing Multiuser Databases",
   "q": "Which of the following locks the item from access of any type?",
   "opts": {
@@ -3618,7 +3618,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 73,
   "paper": "TECH1",
-  "unit": "5",
+  "unit": "L5",
   "sub": "ER Model and Business Rules",
   "q": "Which of the following statements concerning business rules is true?",
   "opts": {
@@ -3639,7 +3639,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 74,
   "paper": "TECH1",
-  "unit": "5",
+  "unit": "L5",
   "sub": "Data Warehousing",
   "q": "Data warehouse is:",
   "opts": {
@@ -3660,7 +3660,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 75,
   "paper": "TECH1",
-  "unit": "5",
+  "unit": "L5",
   "sub": "Distributed Databases",
   "q": "Which of the following state a heterogeneous distributed database?",
   "opts": {
@@ -3681,7 +3681,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 76,
   "paper": "TECH1",
-  "unit": "5",
+  "unit": "L5",
   "sub": "Introduction to SQL",
   "q": "The following SQL is which type of join:\nSELECT CUSTOMER_T.CUSTOMER_ID, ORDER_T.CUSTOMER_ID, NAME, ORDER_ID\nFROM CUSTOMER_T, ORDER_T\nWHERE CUSTOMER_T.CUSTOMER_ID = ORDER_T.CUSTOMER_ID",
   "opts": {
@@ -3702,7 +3702,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 77,
   "paper": "TECH1",
-  "unit": "5",
+  "unit": "L5",
   "sub": "The Relational Model and Normalization",
   "q": "Which of the following is a transitive dependency?",
   "opts": {
@@ -3723,7 +3723,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 78,
   "paper": "TECH1",
-  "unit": "5",
+  "unit": "L5",
   "sub": "Data Modeling with ER Model",
   "q": "Which type of entity cannot exist in the database unless another type of entity also exists in the database, but does not require that the identifier of that other entity be included as part of its own identifier?",
   "opts": {
@@ -3744,7 +3744,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 79,
   "paper": "TECH1",
-  "unit": "5",
+  "unit": "L5",
   "sub": "Advanced SQL",
   "q": "__________ is a special kind of a store procedure that executes in response to certain action on the table like insertion, deletion or updation of data.",
   "opts": {
@@ -3765,7 +3765,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 80,
   "paper": "TECH1",
-  "unit": "5",
+  "unit": "L5",
   "sub": "Managing Multiuser Databases",
   "q": "A system is in a __________ state if there exists a set of transactions such that every transaction in the set is waiting for another transaction in the set.",
   "opts": {
@@ -3786,7 +3786,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 81,
   "paper": "TECH1",
-  "unit": "5",
+  "unit": "L5",
   "sub": "Managing Multiuser Databases",
   "q": "If a transaction is performed in a database and committed, the changes are taken to the previous state of transaction by:",
   "opts": {
@@ -3807,7 +3807,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 82,
   "paper": "TECH1",
-  "unit": "5",
+  "unit": "L5",
   "sub": "Introduction to SQL",
   "q": "Which of the join operations do not preserve non matched tuples?",
   "opts": {
@@ -3828,7 +3828,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 83,
   "paper": "TECH1",
-  "unit": "5",
+  "unit": "L5",
   "sub": "The Relational Model and Normalization",
   "q": "Which one of the following is a set of one or more attributes taken collectively to uniquely identify a record?",
   "opts": {
@@ -3849,7 +3849,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 84,
   "paper": "TECH1",
-  "unit": "5",
+  "unit": "L5",
   "sub": "Introduction to Database",
   "q": "A relational database system needs to maintain data about the relations, such as the schema of the relations. This is called:",
   "opts": {
@@ -3870,7 +3870,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 85,
   "paper": "TECH1",
-  "unit": "5",
+  "unit": "L5",
   "sub": "Data Modeling with ER Model",
   "q": "The attribute AGE is calculated from DATE_OF_BIRTH. The attribute AGE is:",
   "opts": {
@@ -3891,7 +3891,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 86,
   "paper": "TECH1",
-  "unit": "6",
+  "unit": "L6",
   "sub": "Six Sigma",
   "q": "Six Sigma methodology defines three core steps.",
   "opts": {
@@ -3912,7 +3912,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 87,
   "paper": "TECH1",
-  "unit": "6",
+  "unit": "L6",
   "sub": "Software Testing Fundamentals",
   "q": "What is the main purpose of integration testing?",
   "opts": {
@@ -3933,7 +3933,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 88,
   "paper": "TECH1",
-  "unit": "6",
+  "unit": "L6",
   "sub": "Control Structure Testing",
   "q": "What is Cyclomatic complexity?",
   "opts": {
@@ -3954,7 +3954,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 89,
   "paper": "TECH1",
-  "unit": "6",
+  "unit": "L6",
   "sub": "Additional requirements in testing OO Systems",
   "q": "The object of __________ within an OO system is to design tests that have a high likelihood of uncovering plausible bugs.",
   "opts": {
@@ -3975,7 +3975,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 90,
   "paper": "TECH1",
-  "unit": "6",
+  "unit": "L6",
   "sub": "Regression testing",
   "q": "__________ regression testing is triggered by changes of the source code, whereas __________ regression testing is triggered by specification changes.",
   "opts": {
@@ -3996,7 +3996,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 91,
   "paper": "TECH1",
-  "unit": "6",
+  "unit": "L6",
   "sub": "CMMI",
   "q": "Which of the following is not the objective of CMMI?",
   "opts": {
@@ -4017,7 +4017,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 92,
   "paper": "TECH1",
-  "unit": "6",
+  "unit": "L6",
   "sub": "Unit Testing and Unit Test Considerations",
   "q": "Choose the correct option according to the given statements.\nStatement 1: Unit Testing focuses verification effort on the smallest unit of Software Design.\nStatement 2: In general Unit Testing is done by Software Developer.\nStatement 3: Unit Testing comes under White Box Testing.\nStatement 4: Unit Testing comes under Black Box Testing.",
   "opts": {
@@ -4038,7 +4038,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 93,
   "paper": "TECH1",
-  "unit": "6",
+  "unit": "L6",
   "sub": "Regression testing",
   "q": "If a problem occurs in a software system 6 months after it completely goes live, what will be the approach for fixing that problem on very urgent basis?",
   "opts": {
@@ -4059,7 +4059,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 94,
   "paper": "TECH1",
-  "unit": "6",
+  "unit": "L6",
   "sub": "Black Box Testing",
   "q": "Which of the following is a black box testing strategy?",
   "opts": {
@@ -4080,7 +4080,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 95,
   "paper": "TECH1",
-  "unit": "6",
+  "unit": "L6",
   "sub": "Software Testing Strategies: Organizing for software testing",
   "q": "Which of the following issues must be addressed if a successful software testing strategy is to be implemented?",
   "opts": {
@@ -4101,7 +4101,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 96,
   "paper": "TECH1",
-  "unit": "6",
+  "unit": "L6",
   "sub": "Metrics Collection, Computation and Evaluation",
   "q": "Which things are measured by Software Test Effectiveness?",
   "opts": {
@@ -4122,7 +4122,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 97,
   "paper": "TECH1",
-  "unit": "6",
+  "unit": "L6",
   "sub": "Software Testing Techniques: Introduction",
   "q": "Which of the following is non-functional testing?",
   "opts": {
@@ -4143,7 +4143,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 98,
   "paper": "TECH1",
-  "unit": "6",
+  "unit": "L6",
   "sub": "Software Testing Fundamentals",
   "q": "Which of the following term describes testing?",
   "opts": {
@@ -4164,7 +4164,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 99,
   "paper": "TECH1",
-  "unit": "6",
+  "unit": "L6",
   "sub": "Additional requirements in testing OO Systems",
   "q": "Which of the following is one of the steps in the integration testing of OO software?",
   "opts": {
@@ -4185,7 +4185,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": 100,
   "paper": "TECH1",
-  "unit": "6",
+  "unit": "L6",
   "sub": "Automated Testing",
   "q": "Which software testing tool does a simple job of enforcing standards in a uniform way of many programs?",
   "opts": {
@@ -4206,7 +4206,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": null,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "Object-Oriented Programming (in .NET)",
   "q": "What does this C# fragment print?\n\nclass A { public virtual void Show() { Console.Write(\"A\"); } }\nclass B : A { public override void Show() { Console.Write(\"B\"); } }\nclass C : B { public new void Show() { Console.Write(\"C\"); } }\n\nA r = new C();\nr.Show();",
   "opts": {
@@ -4228,7 +4228,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": null,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "Object-Oriented Programming (in .NET)",
   "q": "int i = 42;\nobject a = i;\nobject b = i;\nConsole.WriteLine(a == b);\nConsole.WriteLine(a.Equals(b));\n\nWhat does this C# fragment print?",
   "opts": {
@@ -4250,7 +4250,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": null,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "Object-Oriented Programming (in .NET)",
   "q": "Why may a C# class implement any number of interfaces but derive from only one base class?",
   "opts": {
@@ -4272,7 +4272,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": null,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "Dynamic Programming",
   "q": "dynamic d = \"hello\";\nConsole.WriteLine(d.Length);\nd.Foo();\n\nWhat happens when this C# code is compiled and run?",
   "opts": {
@@ -4294,7 +4294,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": null,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "Dynamic Programming",
   "q": "How does declaring a local variable as dynamic differ from declaring it with var?",
   "opts": {
@@ -4316,7 +4316,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": null,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "Dynamic Programming",
   "q": "dynamic a = 10;\ndynamic b = \"5\";\nConsole.WriteLine(a + b);\n\nWhat does this C# fragment print?",
   "opts": {
@@ -4338,7 +4338,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": null,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "Windows Controls",
   "q": "Which property of a Windows Forms control keeps a constant distance between the control's edges and the corresponding edges of its container while the form is resized?",
   "opts": {
@@ -4360,7 +4360,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": null,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "Windows Controls",
   "q": "Which Form method displays a form modally, blocking the calling code until that form is closed, and returns a DialogResult to the caller?",
   "opts": {
@@ -4382,7 +4382,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": null,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "Windows Controls",
   "q": "A Windows Forms project holds its connection string in an App.config file. After the project is built and the application is deployed, which file does the runtime actually read those settings from?",
   "opts": {
@@ -4404,7 +4404,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": null,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "Web Services",
   "q": "When a client tool generates a proxy class for a SOAP web service, which artefact published by the service does it consume?",
   "opts": {
@@ -4426,7 +4426,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": null,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "Web Services",
   "q": "What most clearly distinguishes a WCF service from a classic ASMX web service?",
   "opts": {
@@ -4448,7 +4448,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": null,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "Web Services",
   "q": "In a WCF configuration file, each <endpoint> element is described by three attributes, remembered as the 'ABC' of an endpoint. What are they?",
   "opts": {
@@ -4470,7 +4470,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": null,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "LINQ and Entity Framework",
   "q": "var nums = new List<int> { 1, 2, 3 };\nvar q = nums.Where(n => n > 1);\nnums.Add(4);\nConsole.WriteLine(q.Count());\n\nWhat does this C# fragment print?",
   "opts": {
@@ -4492,7 +4492,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": null,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "LINQ and Entity Framework",
   "q": "An entity is loaded through an Entity Framework context and one of its properties is then changed in memory. When does that change reach the database?",
   "opts": {
@@ -4514,7 +4514,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": null,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "LINQ and Entity Framework",
   "q": "How does the connection string that an Entity Framework EDMX (Database First) model keeps in <connectionStrings> differ from an ordinary ADO.NET connection string?",
   "opts": {
@@ -4536,7 +4536,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": null,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "Design Pattern and UML",
   "q": "Which design pattern encapsulates each member of a family of algorithms behind a common interface so that the algorithm a client uses can be exchanged at run time without changing the client?",
   "opts": {
@@ -4558,7 +4558,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": null,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "Design Pattern and UML",
   "q": "Which UML diagram arranges participants along vertical lifelines and emphasises the time ordering of the messages passed between them?",
   "opts": {
@@ -4580,7 +4580,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": null,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "Design Pattern and UML",
   "q": "In a UML class diagram, an association drawn with a filled (solid) diamond at one end denotes:",
   "opts": {
@@ -4602,7 +4602,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": null,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "Reports",
   "q": "A Windows application displays its reports through the ReportViewer control running in local processing mode. In that mode:",
   "opts": {
@@ -4624,7 +4624,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": null,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "Reports",
   "q": "A report definition that is published to and executed by SQL Server Reporting Services is held in an XML-based file with which extension?",
   "opts": {
@@ -4646,7 +4646,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": null,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "Reports",
   "q": "An application renders its reports with the ReportViewer control in local mode and is deployed to client machines that have no SQL Server installed. What must be deployed alongside it for the reports to render?",
   "opts": {
@@ -4668,7 +4668,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": null,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "Threading",
   "q": "static readonly object gate = new object();\n\nlock (gate) {\n    lock (gate) { Console.Write(\"in \"); }\n    Console.Write(\"out\");\n}\n\nWhat happens when a single thread runs this C# code?",
   "opts": {
@@ -4690,7 +4690,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": null,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "Threading",
   "q": "int total = 0;\nvar t = new Thread(() => { for (int i = 1; i <= 100; i++) total += i; });\nt.Start();\nt.Join();\nConsole.WriteLine(total);\n\nWhat does this C# fragment print?",
   "opts": {
@@ -4712,7 +4712,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": null,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": "Threading",
   "q": "What is the practical consequence of marking a .NET thread as a background thread?",
   "opts": {
@@ -4734,7 +4734,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": null,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": ".NET Interoperability",
   "q": "Which attribute declares a managed method as a Platform Invoke entry point for a function exported by an unmanaged DLL?",
   "opts": {
@@ -4756,7 +4756,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": null,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": ".NET Interoperability",
   "q": "When managed .NET code calls into a COM component, what does the CLR place between the two?",
   "opts": {
@@ -4778,7 +4778,7 @@ window.QUESTIONS = [
   "srcKey": "TECH1_OFFICIAL",
   "no": null,
   "paper": "TECH1",
-  "unit": "3",
+  "unit": "L3",
   "sub": ".NET Interoperability",
   "q": "What is a Primary Interop Assembly, and why is it normally installed in the global assembly cache?",
   "opts": {

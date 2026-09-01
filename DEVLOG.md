@@ -9,7 +9,26 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
-## 2026-09-01 (latest) — Practice tab Source filter now shows actual question sources
+## 2026-09-01 (latest) — Fixed silent unit-ID collision between old and new TECH1 syllabus
+
+**BUG FOUND + FIXED:** The July 2026 syllabus rewrite replaced Technical Paper I's units in `syllabus.js` (from the old 6-unit Informatics Officer structure — Hardware & Networking, Software Engineering, .NET, Java/J2EE, DBMS, Software Testing — to the new 4-unit CSE structure — Discrete Mathematics, Computer Architecture, Data Structures, Operating System) but never renumbered the **227 restored legacy questions** or the **172 legacy concepts**, which still carried `unit: "1"`–`"6"` from the old scheme. Because the new syllabus also numbers its units `"1"`–`"4"`, this silently mislabeled and partially hid old content:
+- Selecting "1. Discrete Mathematics" in the Practice tab's Unit filter would *also* pull in old Hardware & Networking questions tagged `unit: "1"` — wrong topic served under a correct-looking label.
+- Old questions/concepts in units 5–6 had no matching unit definition at all in the new syllabus, so they vanished entirely from the Study tab's concept tree and the Practice tab's Unit dropdown (visible only via "All") — the same *silent data loss* pattern flagged in the 2026-08-04 incidents.
+- Dashboard's "Weakest units" and mode-mix panels were quietly averaging old-syllabus questions into new-syllabus unit stats.
+
+**Fix:** Remapped the 227 questions (`questions.js`) and 172 concepts (`concepts.js`) with `unit: "1".."6"` under `srcKey: TECH1_OFFICIAL` / `paper: TECH1` to `unit: "L1".."L6"`, and added a `legacyUnits` array to TECH1's syllabus entry (`syllabus.js`) with the six old unit titles/marks. Updated `app.js`:
+- `unitOf()` now also checks `legacyUnits`, so anywhere a unit title is looked up (concept cards, quiz-result unit breakdown) shows the correct legacy label instead of the wrong new-syllabus one.
+- Practice tab's `fillUnits()` now lists legacy units in a separate `<optgroup>` under the paper, so the six old topics are selectable and correctly labeled again.
+- Study tab's `drawTree()` now nests legacy-unit concepts under an "Informatics Officer (legacy syllabus)" group instead of losing/mislabeling them.
+- Deliberately left `unitStats()`, `weakestBlock()`, `modeMixBlock()`, and the Study tab's per-unit marks table untouched (they still loop only `p.units`) — those are specifically about the current 200-mark exam structure, and excluding legacy units from them is now *correct* behavior rather than an oversight.
+
+**Why:** User noticed the Unit dropdown for Paper → Unit no longer surfaced the old questions' units after this session's earlier work on the Source filter, and asked for it back. Root cause was a numbering collision, not a missing feature — worth the DEVLOG entry per the standing "verify against source" instruction, since this is exactly the kind of silent mislabeling the project has been burned by before.
+
+**Still open:** None identified. Verified in-browser: Unit dropdown shows all 4 new + 6 legacy units for TECH1, selecting "L1" returns exactly 40 questions (matches the known Hardware & Networking count), and the Study tab tree shows all 172 legacy concepts under the correct legacy titles.
+
+---
+
+## 2026-09-01 — Practice tab Source filter now shows actual question sources
 
 **COMPLETED:** Updated the System Analyst Practice tab's Source filter dropdown to display the three actual question sources with user-friendly labels instead of hardcoded placeholder text.
 

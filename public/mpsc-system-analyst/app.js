@@ -29,6 +29,12 @@ const blank = () => ({
   // `questions`: drill items are generated per seed and have no stable id, so
   // Leitner scheduling cannot apply to them and would corrupt the due counts.
   calc: {},          // genId -> {att, ok, last}
+  // Section-B essay self-ratings, keyed by question id. Deliberately NOT merged
+  // into `questions` for the same reason `calc` isn't: these are SELF-graded.
+  // Every number in `questions` is machine-scored against a known key, and the
+  // accuracy the reader trusts depends on that staying true — mixing in "I
+  // think I got that" would quietly turn a measurement into an opinion.
+  essays: {},        // qid -> {att, good, part, miss, last, box, due, star}
   settings: { dailyCount: 25, theme: 'auto' },
 });
 
@@ -193,10 +199,40 @@ const ANSWERABLE = QS.filter(q => q.ans && q.ans.length === 1);
 /* Section-B conventional/essay questions. The Technical papers are half MCQ
    (100 marks) and half written answer (100 marks), so these belong in the
    bank — but they cannot be auto-scored, so they carry no single-letter `ans`
-   and are therefore already excluded from ANSWERABLE, and with it from every
-   practice pool, mock test and progress statistic. They surface only when
-   browsing a past paper, where they render as a prompt plus a model answer. */
+   and are therefore excluded from ANSWERABLE, and with it from every MCQ
+   practice pool, mock test and accuracy statistic.
+
+   They are still practisable: the Essays tab drills them self-graded, and that
+   rating is kept in S.essays, never in S.questions. Browsing a past paper also
+   shows them inline with their model answer. */
 const isDescriptive = q => q.type === 'descriptive';
+const DESCRIPTIVE = QS.filter(isDescriptive);
+
+const eState = id => S.essays[id]
+  || { att: 0, good: 0, part: 0, miss: 0, box: 1, due: 0, star: false };
+const isEssayDue = id => {
+  const st = S.essays[id];
+  return !!st && !!st.att && (st.due || 0) <= Date.now();
+};
+
+/* Self-rating after reading the model answer. Same Leitner ladder as the MCQ
+   boxes so "due for review" means the same thing to the reader, but written to
+   its own store. "Partly" holds the box rather than promoting it — a half-
+   remembered 5-mark answer is not learned, and promoting it would space the
+   question out just as it needs repeating. */
+function recordEssay(q, rating) {
+  const st = Object.assign({ att: 0, good: 0, part: 0, miss: 0, box: 1, due: 0, star: false },
+    S.essays[q.id]);
+  st.att += 1;
+  st[rating] += 1;
+  if (rating === 'good') st.box = Math.min(5, (st.box || 1) + 1);
+  else if (rating === 'miss') st.box = 1;
+  st.last = Date.now();
+  st.lastRating = rating;
+  st.due = Date.now() + BOX_DAYS[st.box - 1] * DAY;
+  S.essays[q.id] = st;
+  save();
+}
 
 /* ------------------------------------------------------------ study modes */
 /* How each question should be STUDIED, not what its answer is. Three modes,
@@ -228,6 +264,29 @@ const modeBadge = id => {
   const meta = MODE_META[m];
   return `<span class="pill ${meta.pill}" title="${esc(meta.hint)}">${esc(meta.short)}</span>`;
 };
+
+/* Options for the "Sitting" filter, built from whatever is actually in the pool.
+   This used to be three hard-coded <option>s, which silently went stale the
+   moment the CSE-2015 import added 13 more source papers: they were in the bank
+   and countable everywhere else, but unreachable from the Practice filter. Any
+   list of sources that is typed out by hand will drift from the data again, so
+   derive it. Labelled by `sitting` (what the paper is called) and valued by
+   `srcKey` (one per printed paper). */
+function sittingOptions(pool) {
+  const m = new Map();
+  pool.forEach(q => {
+    if (!q.srcKey) return;
+    const cur = m.get(q.srcKey);
+    if (cur) { cur.n += 1; return; }
+    m.set(q.srcKey, { label: q.sitting || q.srcKey, n: 1, past: q.src === 'past' });
+  });
+  // Real past papers first (that is what someone filtering by sitting is after),
+  // then authored banks; alphabetical within each so the order is stable.
+  return [...m.entries()]
+    .sort((a, b) => (b[1].past - a[1].past) || a[1].label.localeCompare(b[1].label))
+    .map(([key, v]) => `<option value="${esc(key)}">${esc(v.label)} (${v.n})</option>`)
+    .join('');
+}
 
 const conceptKey = c => `${c.paper}|${c.unit}|${c.sub}`;
 const cState = c => S.concepts[conceptKey(c)] || { status: 'new', views: 0 };
@@ -821,12 +880,7 @@ VIEWS.practice = (el, opts) => {
           ${SYL.papers.filter(p => ANSWERABLE.some(q => q.paper === p.id)).map(p => `<option value="${p.id}">${esc(shortPaper(p.id))}</option>`).join('')}
         </select></label>
         <label class="fld">Unit<select id="fUnit"><option value="">All</option></select></label>
-        <label class="fld">Source<select id="fSrc">
-          <option value="">All</option>
-          <option value="SYSTEM_ANALYST_2026_CSE_PREP">System Analyst 2026 CSE Prep</option>
-          <option value="TECH1_OFFICIAL">Official Legacy Exams</option>
-          <option value="MES2015_CSE">MES 2015 Engineering</option>
-        </select></label>
+        <label class="fld">Sitting<select id="fSrc"><option value="">All</option></select></label>
         <label class="fld">Filter<select id="fOnly">
           <option value="">Everything</option>
           <option value="due">Due for review</option>
@@ -870,6 +924,16 @@ VIEWS.practice = (el, opts) => {
       .map(u => `<option value="${esc(u.no)}">${esc(u.no)}. ${esc(u.title)} (${u.marks}m)</option>`).join('');
     if (f.unit) sel.unit.value = f.unit;
   }
+  // Sittings depend on the chosen paper, so rebuild them with the units. Keep
+  // the current selection if it still exists in the new list, rather than
+  // silently resetting to All and widening the pool under the reader.
+  function fillSittings() {
+    const pid = sel.paper.value;
+    const keep = sel.src.value;
+    sel.src.innerHTML = `<option value="">All</option>`
+      + sittingOptions(ANSWERABLE.filter(q => !pid || q.paper === pid));
+    sel.src.value = [...sel.src.options].some(o => o.value === keep) ? keep : '';
+  }
   function pool() {
     return ANSWERABLE.filter(q => {
       if (sel.paper.value && q.paper !== sel.paper.value) return false;
@@ -897,8 +961,8 @@ VIEWS.practice = (el, opts) => {
       + (parts.length > 1 ? ` <span class="dim">— ${esc(parts.join(' · '))}</span>` : '');
     $('#startP').disabled = !p.length;
   }
-  fillUnits(); refresh();
-  sel.paper.onchange = () => { fillUnits(); refresh(); };
+  fillUnits(); fillSittings(); refresh();
+  sel.paper.onchange = () => { fillUnits(); fillSittings(); refresh(); };
   [sel.unit, sel.src, sel.only, sel.mode].forEach(s => { s.onchange = refresh; });
   el.addEventListener('click', e => {
     const b = e.target.closest('[data-mode-drill]');
@@ -917,6 +981,129 @@ VIEWS.practice = (el, opts) => {
     const n = Math.max(1, Math.min(200, parseInt(sel.n.value, 10) || 20));
     const qs = studyOrder(pool()).slice(0, n);
     startQuiz({ title: 'Practice', questions: qs, mode: 'practice', back: () => go('practice', { paper: sel.paper.value, unit: sel.unit.value }) });
+  };
+};
+
+/* --------------------------------------------------------------- essays */
+/* Section B is 100 of Paper I's 200 marks, so these have to be drillable and
+   not merely readable. They cannot be machine-scored, so the loop is: read the
+   prompt, write your answer on paper, then reveal the model answer and marking
+   points and rate yourself against them.
+
+   That rating is an opinion, not a measurement, and it is stored and reported
+   as one — S.essays, never S.questions, and labelled "self-rated" everywhere it
+   is shown. The MCQ accuracy figures stay machine-scored and therefore stay
+   worth trusting. */
+VIEWS.essays = (el, opts) => {
+  if (!DESCRIPTIVE.length) {
+    el.innerHTML = `<h1>Essay practice</h1><div class="card"><p class="dim">
+      No conventional/essay questions in the bank yet.</p></div>`;
+    return;
+  }
+  const papers = SYL.papers.filter(p => DESCRIPTIVE.some(q => q.paper === p.id));
+
+  el.innerHTML = `
+    <h1>Essay practice</h1>
+    <p class="muted">Section B — conventional short answers, 5 marks each. Write your answer out
+    first, then reveal the model answer and marking points and rate yourself honestly.
+    <strong>These ratings are self-graded</strong>, so they are kept separate from your MCQ accuracy
+    and never counted into it.</p>
+    <div class="card mb">
+      <div class="row">
+        <label class="fld">Paper<select id="ePaper"><option value="">All</option>
+          ${papers.map(p => `<option value="${esc(p.id)}">${esc(shortPaper(p.id))}</option>`).join('')}
+        </select></label>
+        <label class="fld">Unit<select id="eUnit"><option value="">All</option></select></label>
+        <label class="fld">Sitting<select id="eSrc"><option value="">All</option></select></label>
+        <label class="fld">Filter<select id="eOnly">
+          <option value="">Everything</option>
+          <option value="due">Due for review</option>
+          <option value="unseen">Never attempted</option>
+          <option value="weak">Rated partly / missed</option>
+          <option value="star">Starred</option>
+        </select></label>
+        <label class="fld">Count<input type="number" id="eN" value="10" min="1" max="100" style="width:80px"></label>
+      </div>
+      <hr class="sep">
+      <div class="spread">
+        <div id="ePoolInfo" class="dim"></div>
+        <button class="btn pri" id="startE">Start essay practice</button>
+      </div>
+    </div>
+    <div id="eStats"></div>`;
+
+  const sel = { paper: $('#ePaper'), unit: $('#eUnit'), src: $('#eSrc'),
+    only: $('#eOnly'), n: $('#eN') };
+  if (opts.paper) sel.paper.value = opts.paper;
+
+  function fillDependent() {
+    const pid = sel.paper.value;
+    const scoped = DESCRIPTIVE.filter(q => !pid || q.paper === pid);
+    const us = pid ? (paperById[pid]?.units || []) : [];
+    const keepU = sel.unit.value, keepS = sel.src.value;
+    sel.unit.innerHTML = `<option value="">All</option>` + us
+      .filter(u => scoped.some(q => q.unit === String(u.no)))
+      .map(u => `<option value="${esc(u.no)}">${esc(u.no)}. ${esc(u.title)}</option>`).join('');
+    sel.unit.value = [...sel.unit.options].some(o => o.value === keepU) ? keepU : '';
+    sel.src.innerHTML = `<option value="">All</option>` + sittingOptions(scoped);
+    sel.src.value = [...sel.src.options].some(o => o.value === keepS) ? keepS : '';
+  }
+  function pool() {
+    return DESCRIPTIVE.filter(q => {
+      if (sel.paper.value && q.paper !== sel.paper.value) return false;
+      if (sel.unit.value && q.unit !== sel.unit.value) return false;
+      if (sel.src.value && q.srcKey !== sel.src.value) return false;
+      const st = S.essays[q.id];
+      switch (sel.only.value) {
+        case 'due': return isEssayDue(q.id);
+        case 'unseen': return !st || !st.att;
+        case 'weak': return !!st && (st.lastRating === 'part' || st.lastRating === 'miss');
+        case 'star': return !!st && st.star;
+        default: return true;
+      }
+    });
+  }
+  function refresh() {
+    const p = pool();
+    const seen = p.filter(q => (S.essays[q.id] || {}).att).length;
+    $('#ePoolInfo').innerHTML = `${p.length} essay question${p.length === 1 ? '' : 's'} match`
+      + (p.length ? ` <span class="dim">— ${seen} attempted, ${p.length - seen} never seen</span>` : '');
+    $('#startE').disabled = !p.length;
+
+    const all = DESCRIPTIVE;
+    const att = all.filter(q => (S.essays[q.id] || {}).att);
+    const tally = att.reduce((a, q) => { a[S.essays[q.id].lastRating] = (a[S.essays[q.id].lastRating] || 0) + 1; return a; }, {});
+    const due = all.filter(q => isEssayDue(q.id)).length;
+    $('#eStats').innerHTML = `
+      <div class="card">
+        <div class="spread mb"><strong>Your essay progress</strong>
+          <span class="pill wn">self-rated</span></div>
+        <div class="grid g2">
+          ${stat('Attempted', `${att.length}`, `of ${all.length} in bank`)}
+          ${stat('Due for review', `${due}`, 'by your own last rating')}
+          ${stat('Last rated “got it”', `${tally.good || 0}`, 'most recent attempt')}
+          ${stat('Last rated partly / missed', `${(tally.part || 0) + (tally.miss || 0)}`, 'worth another pass')}
+        </div>
+        <p class="dim" style="margin:.6rem 0 0">Self-ratings are your own judgement against the model
+        answer, so they are reported here only — they are not mixed into the accuracy figures on
+        Dashboard or Progress, which are scored against a known key.</p>
+      </div>`;
+  }
+  fillDependent(); refresh();
+  sel.paper.onchange = () => { fillDependent(); refresh(); };
+  [sel.unit, sel.src, sel.only].forEach(s => { s.onchange = refresh; });
+  $('#startE').onclick = () => {
+    const n = Math.max(1, Math.min(100, parseInt(sel.n.value, 10) || 10));
+    // Never-seen first, then the ones you rated worst, then by how long ago.
+    const rank = q => {
+      const st = S.essays[q.id];
+      if (!st || !st.att) return 0;
+      return ({ miss: 1, part: 2, good: 3 })[st.lastRating] || 2;
+    };
+    const qs = pool().slice()
+      .sort((a, b) => rank(a) - rank(b) || (S.essays[a.id]?.last || 0) - (S.essays[b.id]?.last || 0))
+      .slice(0, n);
+    startEssaySession({ questions: qs, back: () => go('essays', { paper: sel.paper.value }) });
   };
 };
 
@@ -1513,6 +1700,139 @@ function startDrill({ title, gens, count, seed }) {
     $('#again').onclick = () => startDrill({ title, gens, count });
     $('#replay').onclick = () => startDrill({ title, gens, count, seed: s0 });
     $('#back').onclick = () => go('calc');
+  }
+
+  draw();
+}
+
+/* ==================================================== essay session engine */
+/* Separate from startQuiz rather than a mode of it. startQuiz is built around
+   picking an option and being told if it matched the key: it scores, it paces
+   by Leitner box, it reports a percentage. None of that is true here — there is
+   nothing to click and nothing to be right about, and bolting a "mode" onto it
+   would mean threading `if (essay)` through the option grid, the scorer, the
+   timer and the results screen. */
+function startEssaySession({ questions, back }) {
+  if (!questions || !questions.length) { toast('No essay questions to show'); return; }
+  const Q = questions.slice();
+  const rated = new Array(Q.length).fill(null);
+  let i = 0, shown = false;
+  const el = $('#main');
+
+  const RATINGS = [
+    ['good', 'Got it', 'I covered the marking points'],
+    ['part', 'Partly', 'I missed some points'],
+    ['miss', 'Missed it', "I couldn't answer this"],
+  ];
+
+  function draw() {
+    const q = Q[i];
+    const st = eState(q.id);
+    el.innerHTML = `
+      <div class="quiz">
+        <div class="quiz-head">
+          <div>
+            <h1 style="margin:0;font-size:1.15rem">Essay practice</h1>
+            <span class="dim">Question ${i + 1} of ${Q.length} · self-graded</span>
+          </div>
+          <div class="row">
+            <button class="btn sm" id="starBtn" title="Flag for later">${st.star ? '★' : '☆'}</button>
+            <button class="btn sm" id="quit">Quit</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="qmeta mb">
+            <span class="pill">${esc(shortPaper(q.paper))}</span>
+            ${q.unit ? `<span class="pill">${unitLabel(q)}</span>` : ''}
+            <span class="pill acc">conventional / essay · 5 marks</span>
+            ${q.sub ? `<span class="pill">${esc(q.sub)}</span>` : ''}
+            ${st.att ? `<span class="dim">seen ${st.att}× · last: ${esc(
+              ({ good: 'got it', part: 'partly', miss: 'missed it' })[st.lastRating] || '—')} · box ${st.box}</span>` : ''}
+          </div>
+          <div class="qtext">${esc(q.q)}</div>
+
+          ${shown ? `
+            <div class="model-answer mt">
+              <div class="model-head">Model answer</div>
+              ${(q.model || '').split(/\n\s*\n/).filter(p => p.trim())
+                .map(p => `<p>${esc(p.trim())}</p>`).join('')}
+              ${(q.points || []).length ? `<div class="model-head">Marking points</div>
+              <ul>${q.points.map(p => `<li>${esc(p)}</li>`).join('')}</ul>` : ''}
+            </div>
+            ${provLine(q)}
+            <div class="self-rate mt">
+              <div class="model-head">How did your answer compare?</div>
+              <div class="row">
+                ${RATINGS.map(([k, label, hint]) => `
+                  <button class="btn rate-${k} ${rated[i] === k ? 'on' : ''}" data-rate="${k}"
+                    title="${esc(hint)}">${esc(label)}</button>`).join('')}
+              </div>
+            </div>`
+          : `<p class="dim mt">Write your answer out first — then reveal the model answer and
+             compare. Peeking first is the whole way to fool yourself on a written paper.</p>
+             <button class="btn pri mt" id="reveal">Show model answer</button>`}
+
+          <div class="row mt">
+            <button class="btn" id="prev" ${i === 0 ? 'disabled' : ''}>← Previous</button>
+            <button class="btn ${rated[i] ? 'pri' : ''}" id="next">
+              ${i === Q.length - 1 ? 'Finish' : 'Next →'}</button>
+            <span class="dim">${rated.filter(Boolean).length}/${Q.length} rated</span>
+          </div>
+        </div>
+      </div>`;
+
+    const rv = $('#reveal');
+    if (rv) rv.onclick = () => { shown = true; draw(); };
+    $$('[data-rate]').forEach(b => {
+      b.onclick = () => {
+        const k = b.dataset.rate;
+        // Re-rating the same question in one session replaces the rating rather
+        // than recording a second attempt, so the count stays a count of
+        // questions practised and not of button presses.
+        if (rated[i] === k) return;
+        if (rated[i]) { const st = S.essays[q.id]; if (st) { st.att -= 1; st[rated[i]] -= 1; } }
+        rated[i] = k;
+        recordEssay(q, k);
+        draw();
+      };
+    });
+    $('#starBtn').onclick = () => {
+      const s = Object.assign({ att: 0, good: 0, part: 0, miss: 0, box: 1, due: 0, star: false },
+        S.essays[q.id]);
+      s.star = !s.star; S.essays[q.id] = s; save(); draw();
+    };
+    $('#quit').onclick = () => back();
+    $('#prev').onclick = () => { if (i > 0) { i -= 1; shown = !!rated[i]; draw(); } };
+    $('#next').onclick = () => {
+      if (i === Q.length - 1) return finish();
+      i += 1; shown = !!rated[i]; draw();
+    };
+  }
+
+  function finish() {
+    const t = rated.reduce((a, r) => { if (r) a[r] = (a[r] || 0) + 1; return a; }, {});
+    const done = rated.filter(Boolean).length;
+    el.innerHTML = `
+      <div class="card">
+        <div class="spread mb"><h1 style="margin:0">Essay session done</h1>
+          <span class="pill wn">self-rated</span></div>
+        <div class="grid g2">
+          ${stat('Questions practised', `${done}`, `of ${Q.length} shown`)}
+          ${stat('Got it', `${t.good || 0}`, 'covered the marking points')}
+          ${stat('Partly', `${t.part || 0}`, 'missed some points')}
+          ${stat('Missed it', `${t.miss || 0}`, 'come back to these')}
+        </div>
+        <p class="dim mt">This is your own judgement against the model answer, not a score — it is
+        kept out of your MCQ accuracy for that reason. Anything rated partly or missed comes back
+        sooner under "Due for review".</p>
+        <div class="row mt">
+          <button class="btn pri" id="again">Back to essay practice</button>
+          <button class="btn" id="toPapers">Browse a full past paper</button>
+        </div>
+      </div>`;
+    $('#again').onclick = () => back();
+    $('#toPapers').onclick = () => go('papers');
   }
 
   draw();

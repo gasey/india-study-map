@@ -9,6 +9,71 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-02 (later still) — Essays are practisable, and the Source filter had gone stale
+
+**What shipped.** An **Essays tab**: a self-graded drill over the 36 Section-B
+questions. Read the prompt, write your answer on paper, reveal the model answer
+and marking points, rate yourself *Got it / Partly / Missed it*. Filterable by
+paper, unit, sitting, and by "due for review / never attempted / rated partly or
+missed / starred". Same Leitner ladder as the MCQ boxes so "due" means the same
+thing to the reader — except **"Partly" holds the box rather than promoting it**,
+because a half-remembered 5-mark answer is not learned and promoting it would
+space the question out exactly when it needs repeating.
+
+**Why this was needed at all:** the user asked whether they could already
+practise these "by selecting paper in the filter". They could not — the essays
+carry an empty `ans`, which keeps them out of `ANSWERABLE` and therefore out of
+Practice, Daily Test, Mock Test and every statistic. That exclusion is right for
+*scoring* (nothing to click, nothing to be right about) but it had silently also
+meant *no way to drill them*, and Section B is 100 of Paper I's 200 marks.
+
+**Self-ratings are stored in `S.essays`, never `S.questions`** — the same
+reasoning the `calc` store already documents. Every number in `questions` is
+machine-scored against a known key, and the accuracy figure the reader trusts
+depends on that staying true; mixing in "I think I got that" would quietly turn
+a measurement into an opinion. The UI says "self-rated" on every surface that
+shows one, and the session summary states outright that it is not a score.
+`startEssaySession` is a separate engine rather than a mode of `startQuiz`,
+which is built end-to-end around picking an option and being told whether it
+matched — scorer, Leitner pacing, timer, results percentage. Threading
+`if (essay)` through all of that would have been the bigger change, not the
+smaller one.
+
+**The Source filter had gone stale, and would have again.** It was three
+hard-coded `<option>`s. The CSE-2015 import added 13 more source papers, so
+those 13 were in the bank and counted everywhere else but were **unreachable
+from the Practice filter** — you could not drill a single real past paper. It is
+now derived from whatever is actually in the pool (`sittingOptions()`), relabelled
+**Sitting**, shows the question count per paper, lists real past papers before
+authored banks, and rebuilds when the paper changes — keeping the current
+selection if it survives, rather than silently resetting to All and widening the
+pool under the reader. 17 options where there were 3.
+
+**Verified in-browser**, not assumed: all 11 tabs render with no console errors.
+The essay pool reads 36; picking MES2023 Paper I narrows it to 20; adding unit 4
+gives 0 — which is *correct*, that paper's Section B is units 1–3 and all 16
+unit-4 essays come from the other two papers. The model answer is hidden until
+revealed; moving to a new question re-hides it; going back to a rated question
+restores both. Re-rating in the same session **replaces** the rating instead of
+recording a second attempt (verified: `att` stayed 1, the old rating rolled back,
+box moved 1→2). Ratings survive reload. Throughout, `S.questions` stayed at **0
+records** — the essay flow never touches MCQ accuracy. In Practice, filtering to
+one sitting drives a real session (ILM March 2010 Paper I, 5 questions), and
+switching paper afterwards clears the now-invalid sitting instead of leaving a
+filter that matches nothing.
+
+**Still open:**
+- Essay self-ratings appear only on the Essays tab. Dashboard and Progress do
+  not mention them at all. That is deliberate for now — those surfaces are
+  machine-scored — but a clearly-separated "Section B" line there would be
+  reasonable later, as long as it never merges into the accuracy figures.
+- No way to type or store your written answer; the drill assumes paper. Storing
+  attempts would make self-rating auditable, but it is a much larger feature.
+- The unit filter on Essays only populates once a paper is chosen, matching the
+  Practice tab's existing behaviour.
+
+---
+
 ## 2026-09-02 (later) — Section B shipped; and three defects the essays' own source pages exposed
 
 **COMPLETED.** The 36 Paper-I conventional questions from Section B are now in

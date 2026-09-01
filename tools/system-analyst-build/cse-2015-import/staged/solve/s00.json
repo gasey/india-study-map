@@ -1,0 +1,484 @@
+[
+ {
+  "id": "N0600",
+  "question": "The minimum number of edges in a connected graph with n vertices",
+  "options": {
+   "A": "n - 1",
+   "B": "n",
+   "C": "n + 1",
+   "D": "None of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0601",
+  "question": "The number of distinct simple graphs with up to three nodes is",
+  "options": {
+   "A": "15",
+   "B": "10",
+   "C": "7",
+   "D": "9"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0602",
+  "question": "A graph is planer if and only if it does not contain",
+  "options": {
+   "A": "subgraphs homeomorphic to k3 and k3, 3",
+   "B": "subgraphs isomorphic to k5 or k3, 3",
+   "C": "subgraphs isomorphic to k3 and k3, 3",
+   "D": "subgraphs homeomorphic to k5 or k3, 3"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0603",
+  "question": "The minimum number of colors are required to color the vertices of a cycle with n modes in such a way that no two adjacent nodes have the same color as",
+  "options": {
+   "A": "2",
+   "B": "3 \uf0e9n \uf0f9",
+   "C": "4",
+   "D": "n - 2 \uf0ea \uf0fa + 2 \uf0eb2\uf0fb"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0604",
+  "question": "Simplifying Boolean expression y \uf03d ABCD \uf02b ABCD",
+  "options": {
+   "A": "ABC",
+   "B": "ABC",
+   "C": "A + BCD",
+   "D": "AB + CD"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0605",
+  "question": "How many truth tables can be made from one function table?",
+  "options": {
+   "A": "1",
+   "B": "2",
+   "C": "3",
+   "D": "8"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0606",
+  "question": "The term sum-of-product in Boolean algebra means",
+  "options": {
+   "A": "AND function of several OR functions",
+   "B": "OR function of several AND functions",
+   "C": "AND function of several AND functions",
+   "D": "OR function of several OR functions"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0607",
+  "question": "After minimization of Boolean expression, y \uf03d AC \uf02b AB \uf02b ABC \uf02b BC We get",
+  "options": {
+   "A": "A .B \uf02b C",
+   "B": "A .B \uf02b C",
+   "C": "A B \uf02b BC",
+   "D": "None of the above"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0608",
+  "question": "The boolean function x y \uf02b x y \uf02b x y is equivalent to",
+  "options": {
+   "A": "x \uf02b y",
+   "B": "x \uf02b y",
+   "C": "x \uf02b y",
+   "D": "x \uf02b y"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0609",
+  "question": "The recurrence T (n) = 2 T (n - 1) + n for n \uf0b3 2 and T (1) = 1 evalutes to",
+  "options": {
+   "A": "2n+1 - n - 2",
+   "B": "2n - n",
+   "C": "2n + n",
+   "D": "2n+1 - 2n - 2"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0610",
+  "question": "Find a recurrence relation for the number of n- digit ternary sequences that have an even number of 0's",
+  "options": {
+   "A": "an = an-1 + 3 n-1",
+   "B": "an = an-1 + 3 n",
+   "C": "an = an + 3 n",
+   "D": "None of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0611",
+  "question": "The less than relation, <, on real is",
+  "options": {
+   "A": "A partial ordering since it is asymmetric and reflexive",
+   "B": "A partial ordering since it is anti-symmetric and reflexive",
+   "C": "Not a partial ordering because it is not asymmetric and not reflexive",
+   "D": "Not a partial ordering because it is not anti-symmetric and not reflexive"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0612",
+  "question": "A self-complemented, distributive lattice is called",
+  "options": {
+   "A": "Boolean Algebra",
+   "B": "Modular Lattice",
+   "C": "Complete Lattice",
+   "D": "Self Dual Lattice"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0613",
+  "question": "Every finite subset of a lattice has",
+  "options": {
+   "A": "A LUB and GLB",
+   "B": "Many LUBs and a GLB",
+   "C": "Many LUBs and many GLBs",
+   "D": "Either some LUBs or some GLBs"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0614",
+  "question": "G {e, a, b, c} is an abelian group with 'e' as identity element. The order of the other elements are",
+  "options": {
+   "A": "2, 2, 3",
+   "B": "3, 3, 3",
+   "C": "2, 2, 4",
+   "D": "2, 3, 4"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0615",
+  "question": "Which of the following statement is FALSE ?",
+  "options": {
+   "A": "The set of rational numbers is an abelian group under addition",
+   "B": "The set of rational integers is an abelian group under addition",
+   "C": "The set of rational numbers form an abelian group under multiplication",
+   "D": "None of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0616",
+  "question": "Which of the following statement is TRUE?",
+  "options": {
+   "A": "The set of all rational negative numbers forms a group under multiplication",
+   "B": "The set of all non-singular matrices forms a group under multiplication",
+   "C": "The set of all matrices forms a group under multiplication",
+   "D": "Both (b) and (c) are true"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0617",
+  "question": "If a and b are positive integers, define a * b = a where a.b \uf0ba \uf061 (modulo 7), with this * operation, the inverse of 3 in group G { 1, 2, 3, 4, 5, 6} is",
+  "options": {
+   "A": "3",
+   "B": "1",
+   "C": "5",
+   "D": "4"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0618",
+  "question": "Which of the following propositions is tautology?",
+  "options": {
+   "A": "\uf028 p \uf0da q \uf029 \uf0ae",
+   "B": "p \uf0da \uf028 q \uf0ae p \uf029",
+   "C": "p \uf0da \uf028 p \uf0ae q \uf029",
+   "D": "p \uf0ae \uf028 q \uf0ae p \uf029"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0619",
+  "question": "The proposition is p \uf0d9 \uf028 \uf03a p \uf0da q \uf029 is",
+  "options": {
+   "A": "a tautology",
+   "B": "a contradiction",
+   "C": "logically equivalent to p \uf0d9 q",
+   "D": "none of these"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0620",
+  "question": "Let p and q be propositions. Using only the truth table decide whether p \uf0db q does not imply p \uf0ae \uf0d8q is",
+  "options": {
+   "A": "True",
+   "B": "False"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0621",
+  "question": "The number of functions from an m element set to an n element set is",
+  "options": {
+   "A": "m + n",
+   "B": "mn",
+   "C": "nm",
+   "D": "m * n"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0622",
+  "question": "Suppose A is a finite set with n elements. The number of elements in the largest equivalence relation of A is",
+  "options": {
+   "A": "1",
+   "B": "n",
+   "C": "n + 1",
+   "D": "n2"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0623",
+  "question": "The number of equivalence relations of the set {1, 2, 3, 4} is",
+  "options": {
+   "A": "4",
+   "B": "15",
+   "C": "16",
+   "D": "24"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0624",
+  "question": "Let R be a symmetric and transitive relation on a set A, then",
+  "options": {
+   "A": "R is reflexive and hence an equivalence relation",
+   "B": "R is reflexive and hence a partial order",
+   "C": "R is not reflexive and hence not an equivalence relation",
+   "D": "None of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0625",
+  "question": "The 'Subset' relation on a set of sets is",
+  "options": {
+   "A": "A partial ordering",
+   "B": "An equivalence relation",
+   "C": "Transitive and symmetric only",
+   "D": "Transitive and anti-symmetric only"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0626",
+  "question": "Let A be a finite set of size n, the number of elements in the power set of A\u00d7A is 2n n2",
+  "options": {
+   "A": "2",
+   "B": "2",
+   "C": "(2n )2",
+   "D": "None of these"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0627",
+  "question": "_______ is an unordered collection of elements where an element can occur as a member more than once.",
+  "options": {
+   "A": "Multiset",
+   "B": "Ordered set",
+   "C": "Set",
+   "D": "None of the above"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0628",
+  "question": "The number of substrings of all lengths that can be formed from a character string of length n = _______",
+  "options": {
+   "A": "n",
+   "B": "n2",
+   "C": "n(n - 1)/2",
+   "D": "n ( n + 1)/2"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0629",
+  "question": "A finite automata is a model of computer with",
+  "options": {
+   "A": "No storage capability",
+   "B": "Finite and fixed storage capability",
+   "C": "Expandable storage",
+   "D": "None of the above"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0630",
+  "question": "Class of languages recognized by finite automata is called as",
+  "options": {
+   "A": "Context-sensitive languages",
+   "B": "Recursive languages",
+   "C": "Regular languages",
+   "D": "Context-free languages"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0631",
+  "question": "Pumping lemma for regular sets is used to prove that",
+  "options": {
+   "A": "A given language is regular",
+   "B": "A given language is non-regular",
+   "C": "A given language is regular as well as a given language is non-regular",
+   "D": "None of the above"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0632",
+  "question": "Every infinite language is",
+  "options": {
+   "A": "Always non-regular",
+   "B": "Always regular",
+   "C": "May be regular or may be non-regular",
+   "D": "None of the above."
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0633",
+  "question": "Intersection of two regular languages is",
+  "options": {
+   "A": "Always regular",
+   "B": "Always non-regular",
+   "C": "May be regular or may be non-regular",
+   "D": "None of the above"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0634",
+  "question": "Regular sets are not closed under",
+  "options": {
+   "A": "Union",
+   "B": "Intersection",
+   "C": "Subset",
+   "D": "Complement"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0635",
+  "question": "The regular expression 0*(10)* denotes the same set as",
+  "options": {
+   "A": "(1*0)*1*",
+   "B": "0 + (0 + 10)*",
+   "C": "(0 + 1)*10(0 +1)*",
+   "D": "None of the above"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0636",
+  "question": "The language L = {anb2n | n \uf0b3 1} is",
+  "options": {
+   "A": "Regular language",
+   "B": "Context-free language",
+   "C": "Non context free language",
+   "D": "None of the above"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0637",
+  "question": "The language L = {a2i | i \uf0b3 0} is",
+  "options": {
+   "A": "Regular language",
+   "B": "Non regular language",
+   "C": "Non context free language",
+   "D": "None of the above"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0638",
+  "question": "The language L = {aibicidi | i \uf0b3 1} is",
+  "options": {
+   "A": "Regular language",
+   "B": "Recursively enumerable language",
+   "C": "Context free language",
+   "D": "None of the above"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0639",
+  "question": "If a CFG G, is in CNF, then the length of derivation of a string w of length n, belonging to L(G) is",
+  "options": {
+   "A": "n",
+   "B": "(2n - 1)",
+   "C": "2n",
+   "D": "2n"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0640",
+  "question": "For an inherently ambiguous CFL",
+  "options": {
+   "A": "There exist at least one CFG, which is ambiguous",
+   "B": "There exist at least one CFG, which is unambiguous",
+   "C": "There exist no CFG",
+   "D": "There exist no CFG, which is unambiguous"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0641",
+  "question": "If G is a context-sensitive grammar, then L(G) is",
+  "options": {
+   "A": "Always Recursive",
+   "B": "Recursively enumerable but non-recursive",
+   "C": "May be recursive",
+   "D": "None of the above"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0642",
+  "question": "The class of type (1) grammars corresponds to",
+  "options": {
+   "A": "Linear bounded automation",
+   "B": "Pushdown automata",
+   "C": "Finite automata",
+   "D": "Turing machine"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0643",
+  "question": "Turing machine has",
+  "options": {
+   "A": "Finite and read only tape",
+   "B": "Infinite and read only tape",
+   "C": "Infinite and read-write tape",
+   "D": "Finite and read-write tape"
+  },
+  "garbled": false
+ }
+]

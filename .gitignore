@@ -18,3 +18,9 @@ __pycache__/
 # the mpsc-question-bank repo, so these are a derived artifact, not an input.
 /tools/system-manager-build/pages/
 .vercel
+
+# Safety copies the bank merge scripts drop next to the file they rewrite
+# (questions.js.bak, .bak2, ...). Git history is the real backup; these are
+# just a same-session undo and should never be committed.
+*.js.bak
+*.js.bak[0-9]

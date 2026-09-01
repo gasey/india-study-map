@@ -1,0 +1,133 @@
+[
+ {
+  "id": "D019",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Round Robin scheduling",
+  "ans": "Round Robin (RR) is preemptive FCFS with a fixed time quantum q. The ready queue is circular; each process gets at most q of CPU time, then is preempted and put at the tail. With n ready processes and quantum q, no process waits more than (n-1)q before its next turn, so response time is bounded.\n\nAdvantages: it is starvation-free, since every process is guaranteed the CPU within (n-1)q; it gives good response time for short, interactive jobs, which is why it is the classic time-sharing algorithm; it is simple to implement (one queue plus a timer interrupt) and needs no advance knowledge of burst lengths, unlike SJF; and it is fair, since all processes of equal priority get equal CPU share.\n\nDisadvantages: average turnaround and waiting time are worse than SJF, because long jobs are repeatedly chopped up; performance depends critically on q. If q is too large, RR degenerates into FCFS; if q is too small, context-switch overhead dominates and throughput collapses. It also ignores priority and process importance, and does not favour I/O-bound processes, which use only a fraction of their quantum.",
+  "points": [
+   "Defines RR as preemptive FCFS with a fixed time quantum and a circular ready queue",
+   "States the response-time bound: no process waits more than (n-1)q for the CPU",
+   "Advantages: starvation-free, fair, good response time for interactive jobs, simple, needs no burst-length prediction",
+   "Disadvantages: higher average turnaround/waiting time than SJF; ignores priorities",
+   "Performance hinges on q: large q degenerates to FCFS, small q means context-switch overhead dominates",
+   "Rule of thumb: q should be large compared with context-switch time, and 80% of bursts should be shorter than q"
+  ],
+  "conf": "high",
+  "incomplete": false
+ },
+ {
+  "id": "D059",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Deadlock avoidance (resources)",
+  "ans": "For N units of a single resource type shared by n processes with peak (maximum) demands M1...Mn, deadlock is impossible if and only if\n\nN >= (sum of Mi) - n + 1, equivalently N >= sum of (Mi - 1) + 1.\n\nReasoning: the worst case is that every process holds one unit less than it needs and then blocks. That state consumes sum of (Mi - 1) units. If even one unit is left over, it can be given to some process, which then finishes and releases everything it holds, so the system unblocks. If no unit is left over, all processes are blocked forever.\n\nHere n = 4 and the peak demands are 3, 5, 8, 7:\nsum of Mi = 3 + 5 + 8 + 7 = 23\nN >= 23 - 4 + 1 = 20.\n\nCheck: with N = 19 the allocation (2, 4, 7, 6) uses all 19 units and every process still needs one more, so the system deadlocks. With N = 20 that same allocation leaves one spare unit, which completes some process. Hence the minimum deadlock-free value is N = 20 (any N >= 20 is safe).",
+  "points": [
+   "States the bound N >= sum(Mi) - n + 1 and justifies it by the worst case where each process holds Mi - 1 units",
+   "Computes sum of peak demands = 3 + 5 + 8 + 7 = 23",
+   "Computes N >= 23 - 4 + 1 = 20",
+   "States the minimum value as N = 20",
+   "Verifies with the counterexample allocation (2, 4, 7, 6) = 19 units, which deadlocks when N = 19"
+  ],
+  "conf": "high",
+  "incomplete": false
+ },
+ {
+  "id": "D060",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "CPU utilization (Round Robin)",
+  "ans": "Assume context-switch time is zero (the question gives none) and that the three I/O operations genuinely overlap, so no process waits for a device.\n\nEach process repeats a cycle of 20 ms CPU followed by 80 ms I/O, i.e. a 100 ms period in which it needs only 20 ms of CPU. With a 10 ms quantum, a 20 ms burst is simply served as two quanta; the quantum splits the burst but does not change the total CPU work.\n\nTotal CPU demand of the three processes = 3 x 20 ms per 100 ms = 60 ms per 100 ms. Since 60 ms < 100 ms, the single CPU has spare capacity and can serve every request, so no process's cycle is stretched by queueing in the long run.\n\nTimeline sketch (first round): P1 0-10, P2 10-20, P3 20-30, P1 30-40 (burst done, I/O to 120), P2 40-50 (I/O to 130), P3 50-60 (I/O to 140); CPU idle 60-120. Busy 60 of every 100 ms.\n\nCPU utilization = 60/100 = 60%.",
+  "points": [
+   "States the assumption of zero context-switch overhead and fully overlapping I/O",
+   "Notes a 20 ms burst is served as two 10 ms quanta, so the quantum does not change total CPU work",
+   "Computes per-process cycle = 20 + 80 = 100 ms, CPU demand 20 ms per cycle",
+   "Total demand = 3 x 20 = 60 ms per 100 ms, which is less than CPU capacity, so all demand is met",
+   "Gives a timeline showing the CPU busy 0-60 ms and idle 60-120 ms",
+   "States CPU utilization = 60%"
+  ],
+  "conf": "high",
+  "incomplete": false
+ },
+ {
+  "id": "D061",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "SCAN disk scheduling seek time",
+  "ans": "The question does not state the direction the head is moving, the number of cylinders on the disk, or the seek time per cylinder, so the answer must be given as total head movement in cylinders. I assume the standard textbook setup: a 200-cylinder disk (0-199) with the head at 50 moving towards higher cylinder numbers.\n\nSCAN (the elevator algorithm) services every request in the current direction up to the end of the disk, then reverses and services the rest.\n\nService order: 82, 140, 170, 190, 199 (end of disk, no request there), then 43, 24, 16.\n\nTotal head movement = (199 - 50) + (199 - 16) = 149 + 183 = 332 cylinders.\n\nIf instead the head is moving towards cylinder 0, the order is 43, 24, 16, 0, then 82, 140, 170, 190, giving (50 - 0) + (190 - 0) = 50 + 190 = 240 cylinders. If the LOOK variant is intended (reverse at the last request, not at the disk edge), the totals are 314 and 208 respectively.\n\nTo convert to seek time, multiply by the given seek rate in ms per cylinder; no rate is printed here.",
+  "points": [
+   "Notes that the direction of head travel, the disk size and the ms-per-cylinder rate are not stated",
+   "States the assumption: 0-199 cylinders, head moving towards higher numbers",
+   "Gives the service order 82, 140, 170, 190, 199, then 43, 24, 16",
+   "Computes (199 - 50) + (199 - 16) = 149 + 183 = 332 cylinders",
+   "States the other-direction answer: 50 + 190 = 240 cylinders",
+   "Distinguishes SCAN (goes to the disk edge) from LOOK (314 / 208)"
+  ],
+  "conf": "medium",
+  "incomplete": true
+ },
+ {
+  "id": "D062",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Deadlock avoidance (resources)",
+  "ans": "For a single resource type R shared by n processes with maximum demands M1...Mn, the system can never deadlock if and only if the number of units satisfies\n\nN >= (sum of Mi) - n + 1.\n\nReasoning: the worst possible allocation gives every process one unit fewer than it needs, so each Pi holds Mi - 1 units and all are blocked. That state consumes sum of (Mi - 1) = sum of Mi - n units. Provide one more unit than that and at least one process can be completed; on finishing it releases all its units, which lets the next process finish, and so on. Provide exactly that many or fewer and every process can be left one unit short simultaneously, which is deadlock.\n\nHere n = 3 and M1 = 21, M2 = 31, M3 = 41:\nsum of Mi = 21 + 31 + 41 = 93\nN >= 93 - 3 + 1 = 91.\n\nCheck: with 90 units the allocation (20, 30, 40) exhausts the resource with every process still needing one more unit, so it deadlocks. Hence the minimum number of units of R required to guarantee no deadlock is 91.",
+  "points": [
+   "States the bound N >= sum(Mi) - n + 1 with the worst-case justification (each process holds Mi - 1)",
+   "Computes 21 + 31 + 41 = 93",
+   "Computes 93 - 3 + 1 = 91",
+   "Answer: minimum 91 units",
+   "Verifies that 90 units deadlocks under the allocation (20, 30, 40)"
+  ],
+  "conf": "high",
+  "incomplete": false
+ },
+ {
+  "id": "D063",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Threads vs processes",
+  "ans": "A thread (or lightweight process) is the basic unit of CPU utilization: a single sequential flow of control within a process. It has its own thread ID, program counter, register set and stack, but it shares the process's code section, data section, heap and open OS resources (files, signal handlers) with the other threads of the same process. A traditional process is a single-threaded process; a multithreaded process has several such flows running over one address space.\n\nThreads are cheaper to create than processes because process creation duplicates context while thread creation only adds context:\n\nCreating a process requires allocating a new PCB, building a fresh address space with its own page table, copying or copy-on-write mapping the parent's data, heap and stack, and duplicating the open-file table and other resource descriptors. Creating a thread requires only a TCB, a register set and a new stack, with the address space, page table and resource tables reused as they are.\n\nFor the same reason context switching between threads of one process is cheaper: the memory map does not change, so the TLB and page tables need not be flushed or reloaded.",
+  "points": [
+   "Defines a thread as the basic unit of CPU utilization with its own thread ID, PC, registers and stack",
+   "States what is shared: code, data, heap, open files and signals of the parent process",
+   "Process creation cost: new PCB, new address space and page table, copying data/heap/stack and the open-file table",
+   "Thread creation cost: only a TCB, register set and stack; address space and resource tables are reused",
+   "Adds that thread switching avoids a page-table/TLB flush, so switching is also cheaper"
+  ],
+  "conf": "high",
+  "incomplete": false
+ },
+ {
+  "id": "D064",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "File system structures",
+  "ans": "File-system implementation uses two families of structures: those stored on disk, which persist, and those held in memory, which exist only while the file system is mounted and speed up access.\n\nOn-disk structures: the boot control block (per volume, first block; holds the boot loader, called the boot block in UFS and the partition boot sector in NTFS); the volume control block (per volume; holds the number of blocks, block size, free-block count and free-block/FCB pointers, called the superblock in UFS and the master file table in NTFS); a directory structure per file system, which maps file names to their FCB numbers; and the file control block (FCB) per file, holding permissions, owner, size, dates and the pointers to the file's data blocks, called the inode in UNIX.\n\nIn-memory structures: the mount table, holding one entry per mounted volume; the directory-structure cache of recently accessed directories; the system-wide open-file table, holding a copy of the FCB of each open file plus an open count; the per-process open-file table, whose entries point into the system-wide table; and buffers holding disk blocks in transit.",
+  "points": [
+   "Splits the answer into on-disk (persistent) and in-memory (mount-time) structures",
+   "On-disk: boot control block, volume control block/superblock, directory structure, per-file FCB",
+   "Names the equivalents: superblock (UFS), MFT (NTFS), inode (UNIX FCB)",
+   "In-memory: mount table, directory-structure cache, system-wide open-file table, per-process open-file table, buffers",
+   "Notes the per-process table entry points into the system-wide table, which holds the FCB copy and open count"
+  ],
+  "conf": "high",
+  "incomplete": false
+ },
+ {
+  "id": "D065",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Demand paging performance",
+  "ans": "Let p be the page-fault rate. The effective (average) memory access time under demand paging is\n\nEAT = (1 - p) x (memory access time) + p x (page-fault service time).\n\nGiven: memory access time = 1 microsecond, page-fault service time = 10 ms, hit ratio = 99.99%, so p = 1 - 0.9999 = 0.0001 (one fault in every 10,000 references).\n\nUnit conversion first: 10 ms = 10 x 1000 microseconds = 10,000 microseconds.\n\nEAT = 0.9999 x 1 + 0.0001 x 10,000\n    = 0.9999 + 1.0\n    = 1.9999 microseconds, i.e. about 2 microseconds.\n\nSo even a 99.99% hit ratio roughly doubles the average access time: the system runs at about half the speed it would with no paging, because the 10 ms fault costs 10,000 times a memory access. The 0.0001 x 10,000 term contributing a full microsecond is the point of the question, and it shows why demand-paging systems need fault rates far below one in 10,000 to keep the slowdown under 10%.",
+  "points": [
+   "States EAT = (1 - p) x memory access time + p x page-fault service time",
+   "Identifies p = 1 - 0.9999 = 0.0001",
+   "Converts 10 ms = 10,000 microseconds",
+   "Computes 0.9999 x 1 + 0.0001 x 10,000 = 0.9999 + 1 = 1.9999 microseconds (about 2 microseconds)",
+   "Interprets the result: access time is roughly doubled, i.e. about 100% slowdown, despite a 99.99% hit ratio"
+  ],
+  "conf": "high",
+  "incomplete": false
+ }
+]

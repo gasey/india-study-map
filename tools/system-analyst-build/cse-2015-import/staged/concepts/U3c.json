@@ -1,0 +1,386 @@
+[
+  {
+    "id": "U3c-01",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Linear lists: sequential vs linked storage",
+    "def": "A linear list is an ordered collection of elements in which every element (except the first and last) has exactly one predecessor and one successor, and it can be stored either sequentially in contiguous memory or as a linked structure of scattered nodes.",
+    "exp": "Linearity is a property of order, not of storage. A linear list can be realised two ways. Sequential (array) representation stores elements in contiguous memory locations; the address of the i-th element is computed directly as base + i * element_size, giving O(1) random access, but inserting or deleting in the middle requires shifting up to n elements, and the maximum size must usually be fixed in advance (in languages without dynamic arrays). Linked representation stores each element in a node holding the data plus one or more pointers to neighbouring nodes; nodes need not be contiguous, so insertion and deletion at a known position are O(1) once you are there, memory grows and shrinks as needed, but reaching the k-th element takes O(k) time because you must walk the chain from the start. Neither representation is superior in general — the choice depends on whether the workload is access-heavy (favour arrays) or insert/delete-heavy at arbitrary positions (favour linked lists). Both remain linear structures: a tree or graph, where an element can have multiple successors, is not.",
+    "facts": [
+      "Sequential storage gives O(1) random access via address = base + i * size.",
+      "Linked storage needs no contiguous block and can grow or shrink at runtime.",
+      "Array insertion/deletion in the middle needs shifting up to n elements: O(n).",
+      "Linked list insertion/deletion at a known node is O(1), but reaching that node is O(n).",
+      "Every node in a linked representation carries pointer overhead in addition to the data.",
+      "A linear list has at most one predecessor and one successor per element; trees and graphs do not."
+    ],
+    "traps": [
+      "\"Linear\" is often wrongly equated with \"array\" — linked lists are linear structures too; the term describes ordering, not memory layout.",
+      "Exam questions on \"access time of element at position i\" expect O(1) for arrays but O(n) (or O(i)) for singly linked lists — do not answer O(1) for both.",
+      "A fixed-size array's capacity limit is a property of the sequential representation, not of the abstract linear list concept itself."
+    ],
+    "mnem": "",
+    "rel": ["Singly linked lists", "Array vs linked list trade-off", "Stack as an ADT"]
+  },
+  {
+    "id": "U3c-02",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Singly linked list: nodes, insert, delete",
+    "def": "A singly linked list is a chain of nodes, each holding a data field and a single pointer to the next node, with the last node's pointer set to NULL and an external head pointer marking the start.",
+    "exp": "Each node is a small record {data, next}. The list itself is just a pointer, head, to the first node (or NULL if empty). Insertion at the head is O(1): create a new node, set its next to the old head, then repoint head to it. Insertion at the tail is O(1) only if a tail pointer is maintained; otherwise it is O(n) because you must traverse to find the last node. Insertion in the middle (after a given node p) is O(1) once p is known: new->next = p->next; p->next = new — but finding p by position or value costs O(n). Deletion mirrors this: deleting the head is O(1) (head = head->next, free old head); deleting an arbitrary node requires a pointer to its predecessor, since a singly linked list cannot move backward, so you must traverse from head to find that predecessor first, making positional deletion O(n) overall even though the pointer-relinking step itself is O(1). This asymmetry — cheap head operations, expensive arbitrary-position operations without extra bookkeeping — is the central complexity story examiners test.",
+    "facts": [
+      "Node structure: {data, next}; next of the last node is NULL.",
+      "Insert/delete at head: O(1).",
+      "Insert/delete at tail: O(1) with a maintained tail pointer, else O(n).",
+      "Insert/delete at an arbitrary known predecessor node: O(1) relinking, but O(n) to locate it by traversal.",
+      "Search/access by position or value: O(n), no random access.",
+      "Space per node = size of data + one pointer, versus zero pointer overhead in an array."
+    ],
+    "traps": [
+      "Deleting a node given only a pointer to that node (not its predecessor) is impossible in a plain singly linked list without a trick (e.g., copying the next node's data over it and deleting the next node) — this is a classic \"can you delete in O(1)\" trick question.",
+      "Without a maintained tail pointer, appending to the end is O(n), not O(1) — a common overestimate.",
+      "Forgetting to update head when inserting/deleting the first node leaves a dangling reference; exam pseudocode questions often test whether you handle the empty-list and single-node edge cases."
+    ],
+    "mnem": "",
+    "rel": ["Linear lists: sequential vs linked storage", "Doubly and circular linked lists", "Array vs linked list trade-off"]
+  },
+  {
+    "id": "U3c-03",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Doubly linked and circular linked lists",
+    "def": "A doubly linked list gives each node a pointer to both its next and previous neighbour, enabling traversal in either direction, while a circular linked list makes the last node point back to the first, removing the notion of a fixed end.",
+    "exp": "A doubly linked list node is {prev, data, next}. Its payoff over a singly linked list: deletion of a given node is now genuinely O(1) without needing a separate search for its predecessor, since node->prev is already known; backward traversal becomes possible; and operations like \"insert before this node\" are as cheap as \"insert after it.\" The cost is a second pointer per node (more memory) and more pointer updates per operation (four re-links on insertion/deletion versus two), which also means more chances for bugs. A circular linked list — singly or doubly — connects the tail's next pointer back to the head instead of NULL, so traversal can start anywhere and cycle indefinitely; this suits round-robin scheduling, circular buffers, and multiplayer turn rotation. A circular doubly linked list combines both benefits: bidirectional travel and no fixed end, at the highest memory cost. Termination in a circular list must check \"back to start node\" rather than \"pointer is NULL\", since NULL never appears — a frequent source of infinite-loop bugs if the loop condition is copied unchanged from a singly linked, NULL-terminated traversal.",
+    "facts": [
+      "Doubly linked node: {prev, data, next}; deletion given a node pointer is O(1), no predecessor search needed.",
+      "Doubly linked lists cost one extra pointer per node versus singly linked.",
+      "Circular linked list: last node's next points to the first node instead of NULL.",
+      "Traversal termination in a circular list must test \"pointer == start\", not \"pointer == NULL\".",
+      "Circular lists suit round-robin scheduling and circular buffering; doubly linked lists suit LRU caches and browser back/forward history.",
+      "A circular doubly linked list allows insertion/deletion from either end in O(1) with no special-casing of head or tail."
+    ],
+    "traps": [
+      "Applying a NULL-check loop to a circular list causes an infinite loop — the correct stopping condition is reaching the start node again.",
+      "Doubly linked lists are not free: every insert/delete touches up to four pointers (prev and next on both neighbouring nodes), doubling the chance of a linking bug compared to singly linked lists' two.",
+      "\"Doubly linked\" and \"circular\" are independent properties — a list can be singly linked and circular, doubly linked and non-circular, or both/neither; exam options often mix these up as if they were the same axis."
+    ],
+    "mnem": "",
+    "rel": ["Singly linked list: nodes, insert, delete", "Deque, input- and output-restricted", "Circular queue"]
+  },
+  {
+    "id": "U3c-04",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Array vs linked list: full trade-off",
+    "def": "Arrays offer fast indexed access and compact storage at the cost of expensive insertion/deletion and often a fixed size, while linked lists offer cheap insertion/deletion and dynamic growth at the cost of slow access and per-node pointer overhead.",
+    "exp": "Comparing the two side by side: random access by index is O(1) for an array (direct address computation) versus O(n) for a linked list (must walk from head). Insertion or deletion at an arbitrary position is O(n) for an array (elements must shift to close or open a gap) versus O(1) for a linked list once the position is located, though locating it is still O(n) — so the real win of linked lists appears when you already hold a pointer to the relevant node, as in implementing a stack or queue at one end. Memory: an array uses only the space for the elements (plus possibly unused pre-allocated slack), while a linked list additionally stores one pointer per node (two for doubly linked), which for small data types can dominate. Arrays also have better cache locality since elements sit contiguously, making sequential scans faster in practice than the Big-O alone suggests, whereas linked-list nodes may be scattered across memory, causing cache misses. Static arrays have a fixed capacity decided at creation (dynamic arrays like C++ vector or Python list amortise growth); linked lists grow one node at a time with no pre-declared limit, which is why they underlie dynamic structures like adjacency lists, stacks, and queues where size is unpredictable.",
+    "facts": [
+      "Indexed access: array O(1), linked list O(n).",
+      "Insert/delete at an arbitrary position: array O(n) due to shifting, linked list O(1) once the node is located (but O(n) to locate it).",
+      "Memory overhead: linked list pays one pointer per node (two for doubly linked); array pays none beyond the elements.",
+      "Cache locality favours arrays; linked-list nodes may be scattered, causing more cache misses in practice.",
+      "Static arrays have a fixed capacity; linked lists grow dynamically node by node.",
+      "Dynamic arrays (e.g., vector) amortise resizing to O(1) amortised append, narrowing but not eliminating the gap with linked lists."
+    ],
+    "traps": [
+      "\"Linked lists are always faster for insertion\" is only true when you already have a pointer to the insertion point — searching for that point first still costs O(n), same order as an array shift.",
+      "Big-O comparisons ignore constant factors: array traversal is often faster in wall-clock time than linked-list traversal despite both being O(n), due to cache locality — a subtlety exam MCQs sometimes probe with \"which is faster in practice\" framing.",
+      "Confusing \"array size is fixed\" with \"linear lists must have a fixed size\" — the limitation belongs to the sequential representation, not the abstract linear list."
+    ],
+    "mnem": "",
+    "rel": ["Linear lists: sequential vs linked storage", "Singly linked list: nodes, insert, delete", "Array implementation of a stack"]
+  },
+  {
+    "id": "U3c-05",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Stack ADT: LIFO, push, pop, peek",
+    "def": "A stack is a Last-In-First-Out (LIFO) abstract data type that supports insertion (push) and removal (pop) only at one end, called the top, plus an operation (peek/top) to inspect the top element without removing it.",
+    "exp": "A stack exposes a narrow interface regardless of how it is implemented underneath: push(x) adds x to the top; pop() removes and returns the top element; peek()/top() returns the top element without removing it; isEmpty() and isFull() report boundary state. The defining property is access order: the element most recently pushed is the first one popped — LIFO. Two error conditions are specific to stacks: stack overflow, attempting to push onto a stack that has reached its maximum capacity (relevant mainly to array-based implementations with a fixed size, or to genuinely exhausting memory in a linked implementation); and stack underflow, attempting to pop or peek an empty stack. A correct stack implementation must check for both before performing the operation and signal an error (exception, return code, or sentinel) rather than silently corrupting state or reading invalid memory. All stack operations — push, pop, peek, isEmpty — run in O(1) time regardless of implementation, which is the entire point of restricting access to one end. This is what distinguishes a stack from a general linear list: the ADT is defined purely by its interface and ordering discipline, not by whether it sits on an array or a linked list underneath.",
+    "facts": [
+      "LIFO: last element pushed is the first popped.",
+      "Core operations: push, pop, peek/top, isEmpty, isFull — all O(1).",
+      "Stack overflow: pushing onto a full stack.",
+      "Stack underflow: popping or peeking an empty stack.",
+      "A stack is defined by its interface (access restricted to one end), not by its underlying storage.",
+      "peek() differs from pop() in that it does not remove the element."
+    ],
+    "traps": [
+      "Stack overflow (data-structure sense: pushing past capacity) is unrelated to the OS/programming term \"stack overflow\" from unbounded recursion exhausting the call stack, though the two are often conflated in loosely worded questions.",
+      "Underflow is triggered by pop/peek on an empty stack, not by push — a common option-swap distractor in MCQs.",
+      "All stack operations being O(1) assumes the implementation is correct (e.g., a linked-list stack maintaining a head pointer as top); an array-based stack that mistakenly treats index 0 as top and shifts elements on push/pop would wrongly turn this into O(n)."
+    ],
+    "mnem": "LIFO = Last In, First Out.",
+    "rel": ["Array implementation of a stack", "Infix to postfix conversion using a stack", "Function call stack"]
+  },
+  {
+    "id": "U3c-06",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Array vs linked implementation of a stack",
+    "def": "A stack can be implemented on top of an array, using an index variable (top) to mark the current top element, or on top of a singly linked list, using the head of the list as the top of the stack.",
+    "exp": "Array implementation: allocate an array of fixed capacity n and an integer top initialised to -1 (empty). push increments top then writes the value; pop reads the value then decrements top; isFull checks top == n-1; isEmpty checks top == -1. This is simple and has excellent cache locality, but the capacity is fixed at creation, so it can genuinely overflow, and resizing (as dynamic arrays do) requires an O(n) copy when it happens. Linked-list implementation: keep a head pointer as the logical top; push creates a new node whose next points to the old head and repoints head to it; pop reads head's data, advances head to head->next, and frees the old node. Every operation touches only the head, so it is naturally O(1) and the stack can grow until memory itself runs out, avoiding artificial overflow at a fixed size. The trade-off mirrors the general array-vs-list comparison: the array version is more memory-compact (no per-element pointer) and faster in practice due to locality, while the linked version avoids a hard capacity limit and never needs a bulk resize copy. Both give identical O(1) push/pop/peek asymptotically; the choice is a systems-level, not an algorithmic, decision.",
+    "facts": [
+      "Array stack: top starts at -1; push does top++ then write; pop reads then does top--.",
+      "Array stack isFull check: top == capacity - 1.",
+      "Array stack isEmpty check: top == -1.",
+      "Linked-list stack: top = head; push prepends a node, pop removes the head node.",
+      "Linked-list stack has no fixed capacity limit (bounded only by available memory).",
+      "Both implementations give O(1) push, pop, and peek."
+    ],
+    "traps": [
+      "Some textbooks initialise top to 0 with the first element at index 0 written before incrementing — always check which convention (top = -1 vs top = 0 as \"next free slot\") a given pseudocode uses before evaluating isEmpty/isFull conditions.",
+      "An array-based stack \"overflowing\" is a real, checkable condition; a linked-list-based stack effectively never overflows except by exhausting system memory — do not treat overflow as impossible for arrays or as impossible in general.",
+      "Using the tail (not head) of a singly linked list as the stack top would make push/pop O(n) without a tail-and-second-to-last tracking scheme — the head is the efficient end precisely because deletion there needs no predecessor search."
+    ],
+    "mnem": "",
+    "rel": ["Stack ADT: LIFO, push, pop, peek", "Singly linked list: nodes, insert, delete", "Array vs linked list: full trade-off"]
+  },
+  {
+    "id": "U3c-07",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Infix, prefix and postfix notation",
+    "def": "Infix notation places an operator between its two operands (A + B), prefix (Polish) notation places the operator before its operands (+ A B), and postfix (Reverse Polish) notation places the operator after its operands (A B +).",
+    "exp": "Infix is how humans normally write expressions, but it needs parentheses and precedence rules to be unambiguous — A + B * C means \"add A to the product of B and C\" only because of a precedence convention, not because the notation itself makes it explicit. Prefix and postfix encode the same tree structure without any need for parentheses or precedence rules, because the position of each operator relative to its operands fully determines the grouping. To convert infix to prefix/postfix by hand: fully parenthesise the expression respecting precedence and associativity, then for each parenthesised group move the operator to just before (prefix) or just after (postfix) its two operands, working from the innermost parentheses outward. Example: infix A + B * C fully parenthesised is (A + (B * C)); postfix converts the inner group first: (B * C) to \"BC*\", then the outer: A + \"BC*\" to \"ABC*+\". Prefix instead: (B*C) to \"*BC\", then A+\"*BC\" to \"+A*BC\". These forms matter because a computer can evaluate them left-to-right with a single stack and no lookahead for precedence, which is why compilers and calculators translate infix into postfix internally before evaluating.",
+    "facts": [
+      "Infix: operator between operands, e.g. A + B.",
+      "Prefix (Polish notation): operator before operands, e.g. + A B.",
+      "Postfix (Reverse Polish notation, RPN): operator after operands, e.g. A B +.",
+      "Prefix and postfix need no parentheses and no precedence rules to be evaluated unambiguously.",
+      "Standard conversion method: fully parenthesise by precedence/associativity, then relocate each operator to before (prefix) or after (postfix) its operand pair, innermost first.",
+      "Example: infix A + B * C = postfix A B C * +, and = prefix + A * B C."
+    ],
+    "traps": [
+      "For prefix, work outward from the innermost parentheses but the operator moves to the *front* of its group, not the back — mixing up prefix and postfix relocation direction is the single most common error.",
+      "A + B * C is NOT converted operator-by-operator left to right (that would wrongly give A B + C *); precedence must be respected first (multiplication binds tighter), giving A B C * + instead.",
+      "Prefix and postfix of the same expression are usually not simple reversals of each other once there are more than two operators or the operators/operands differ in order of appearance — do not assume reversing postfix always gives valid prefix (it does for single binary operators but is not a general algorithm for correctness on all expressions with non-commutative operators)."
+    ],
+    "mnem": "Postfix = operator comes POST (after) its operands; Prefix = operator comes PRE (before).",
+    "rel": ["Infix to postfix conversion using a stack", "Evaluating a postfix expression with a stack", "Stack ADT: LIFO, push, pop, peek"]
+  },
+  {
+    "id": "U3c-08",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Infix to postfix via stack (Shunting Yard)",
+    "def": "The stack-based algorithm for converting infix to postfix (a form of Dijkstra's Shunting Yard algorithm) scans the infix expression left to right, sending operands directly to output and using an operator stack to hold operators until precedence/associativity rules say they should be popped to output.",
+    "exp": "Rules: scan left to right. If the token is an operand, append it to output. If it is '(', push it. If it is ')', pop operators to output until '(' is popped (discard both parentheses). If it is an operator op, pop from the stack to output while the stack top has higher precedence than op, or equal precedence with op left-associative (for right-associative operators like '^', do not pop on equal precedence), then push op. At the end, pop all remaining operators to output. Worked example on A + B * C - D: scan A -> output A. '+' -> stack empty, push '+'; stack=[+]. B -> output AB. '*' -> top '+' has lower precedence, don't pop, push '*'; stack=[+,*]. C -> output ABC. '-' -> top '*' has higher precedence than '-', pop '*' to output (output ABC*), top now '+' has equal precedence and left-associative, pop '+' too (output ABC*+), stack empty, push '-'; stack=[-]. D -> output ABC*+D. End of input: pop remaining '-' to output. Final postfix: A B C * + D -. This single left-to-right pass with one stack is exactly why postfix is the form compilers generate before evaluation.",
+    "facts": [
+      "Operands go straight to output; operators and parentheses use the stack.",
+      "Pop to output while stack top has higher precedence, or equal precedence and the current operator is left-associative.",
+      "'(' is always pushed; ')' pops everything up to and discards the matching '('.",
+      "At end of input, pop all remaining stack operators to output.",
+      "Right-associative operators (e.g., exponentiation '^') do NOT pop an equal-precedence operator already on the stack.",
+      "Worked example: infix A + B * C - D converts to postfix A B C * + D -."
+    ],
+    "traps": [
+      "Forgetting the associativity exception for '^': A ^ B ^ C is right-associative (means A^(B^C)), so when the second '^' is scanned, the first '^' of equal precedence should NOT be popped — treating all operators as left-associative gives the wrong postfix here.",
+      "Mishandling parentheses: popping only one operator instead of popping until (and discarding) the matching '(' is a frequent bug in traced-through exam answers.",
+      "Confusing \"higher precedence pops\" with \"higher precedence pushes\" — the rule is to pop stack operators that are AT LEAST as tight-binding as the incoming operator before pushing the incoming one, not the reverse."
+    ],
+    "mnem": "",
+    "rel": ["Infix, prefix and postfix notation", "Evaluating a postfix expression with a stack", "Stack ADT: LIFO, push, pop, peek"]
+  },
+  {
+    "id": "U3c-09",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Evaluating postfix expressions with a stack",
+    "def": "A postfix expression is evaluated in one left-to-right pass with a single operand stack: push each operand encountered, and on encountering an operator, pop the required number of operands, apply the operator, and push the result back.",
+    "exp": "Algorithm: scan tokens left to right. If the token is an operand, push its value. If it is a binary operator, pop the top two values as b (popped first) then a (popped second), compute a op b, and push the result — order matters for non-commutative operators like '-' and '/'. At the end of the scan exactly one value remains on the stack: the result. Worked example on postfix 6 2 3 * + 5 -, which represents infix 6 + 2*3 - 5: push 6 -> stack [6]. Push 2 -> [6,2]. Push 3 -> [6,2,3]. Token '*': pop 3, pop 2, compute 2*3=6, push 6 -> [6,6]. Token '+': pop 6, pop 6, compute 6+6=12, push 12 -> [12]. Push 5 -> [12,5]. Token '-': pop 5, pop 12, compute 12-5=7, push 7 -> [7]. End of input, result = 7. This single-stack, single-pass method is exactly why compilers and calculators translate infix to postfix first: postfix needs no precedence lookup or backtracking during evaluation, only a stack and a fixed pop-compute-push step per operator, making it trivial to implement in hardware or a virtual machine.",
+    "facts": [
+      "Operand tokens are pushed; operator tokens pop two operands, compute, and push the result.",
+      "For binary operator op: pop b first, then a; compute a op b (order matters for '-' and '/').",
+      "Exactly one value remains on the stack at the end: the final result.",
+      "Worked example: postfix 6 2 3 * + 5 - evaluates to 7.",
+      "Postfix evaluation needs no operator-precedence table at evaluation time — that work was already done during conversion.",
+      "Unary operators pop only one operand."
+    ],
+    "traps": [
+      "Popping order for non-commutative operators: the FIRST popped value is the RIGHT operand (b), the SECOND popped is the LEFT operand (a) — computing b op a instead of a op b silently flips subtraction and division results.",
+      "If more than one value remains on the stack after processing all tokens, the postfix expression is malformed — this is a standard validity check examiners ask about.",
+      "Evaluating prefix expressions requires scanning RIGHT TO LEFT with the same pop-two-push-one logic, not left to right — mixing up the scan direction between prefix and postfix evaluation is a common error."
+    ],
+    "mnem": "",
+    "rel": ["Infix to postfix conversion using a stack", "Infix, prefix and postfix notation", "Stack ADT: LIFO, push, pop, peek"]
+  },
+  {
+    "id": "U3c-10",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Stack apps: parens, calls, backtracking",
+    "def": "Beyond expression evaluation, stacks underlie balanced-parenthesis checking, the function call stack that manages procedure calls and returns, backtracking algorithms that must undo choices, and undo/redo history in applications.",
+    "exp": "Balanced parentheses: scan the string; push each opening bracket; on a closing bracket, check that the stack top is the matching opening bracket, pop it if so, else the expression is unbalanced; at the end the stack must be empty. This directly reuses the LIFO property — the most recently opened bracket must be the next one closed. Function call stack: every function call pushes an activation record (return address, parameters, local variables) onto a runtime call stack; returning pops it and resumes execution at the saved return address. This is why deep or unbounded recursion causes a real stack overflow — each nested call consumes more stack frames until the reserved stack memory is exhausted. Backtracking algorithms (maze solving, N-Queens, DFS) use a stack, explicit or via recursion, to remember the sequence of choices made so that when a path fails, the algorithm can pop back to the last decision point and try an alternative. Undo/redo in editors keeps a stack of past states or operations; undo pops the most recent action and reverses it, redo can push it onto a second stack for reapplication. All four applications exploit the same idea: the most recent unfinished or reversible unit of work should be the first one revisited.",
+    "facts": [
+      "Balanced-parentheses check: push openers, pop-and-match on closers, must end with an empty stack.",
+      "The function call stack stores activation records: return address, arguments, local variables.",
+      "Unbounded/very deep recursion exhausts the call stack, causing a runtime stack overflow.",
+      "Backtracking (DFS, N-Queens, maze solving) uses a stack (implicit via recursion, or explicit) to revert to the last choice point.",
+      "Undo functionality is a textbook stack application: most recent action undone first.",
+      "Expression evaluation, parenthesis matching, and call management all rely on the same LIFO discipline."
+    ],
+    "traps": [
+      "A string can have equal counts of '(' and ')' yet still be unbalanced (e.g., \")(\") — counting brackets is not equivalent to the stack-based matching check, a frequent wrong-shortcut in MCQs.",
+      "\"Stack overflow\" from deep recursion is a call-stack memory exhaustion issue, distinct from the data-structure-level \"push on a full array-based stack\" overflow condition, though both share the name.",
+      "Backtracking does not require an explicit stack object if implemented via recursion — the language's own call stack plays that role, which is why \"which data structure does recursive backtracking use\" can validly answer either \"the call stack\" or \"a stack (implicitly)\"."
+    ],
+    "mnem": "",
+    "rel": ["Stack ADT: LIFO, push, pop, peek", "Recursion", "Recursion removal using an explicit stack"]
+  },
+  {
+    "id": "U3c-11",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Recursion removal using an explicit stack",
+    "def": "Recursion removal is the systematic transformation of a recursive algorithm into an equivalent iterative one by using a programmer-managed explicit stack to hold the state (parameters, local variables, return point) that the runtime call stack would otherwise track automatically.",
+    "exp": "Every recursive call implicitly pushes an activation record onto the call stack and every return implicitly pops one. Recursion removal makes this explicit: define a stack of frames, where each frame captures whatever the recursive call needed to resume — typically the function's parameters/local variables and a marker for which step to resume at. The general recipe: replace the recursive call with pushing a new frame (with the new parameters) and jumping back to the top of a loop; replace a return with popping the caller's frame and restoring its state. For simple tail recursion, this reduces to a loop with the parameters simply reassigned — no explicit stack is even needed, since there is nothing left to do after the call returns. For non-tail recursion (where work remains after the recursive call, as in a tree traversal or Fibonacci-style branching calls), an explicit stack is unavoidable because multiple pending computations must be remembered simultaneously. This transformation matters practically because iterative versions avoid call-stack overhead and stack-depth limits, and it matters academically because it demonstrates that recursion and iteration-with-an-explicit-stack are computationally equivalent — recursion is not a separate power, just implicit stack management done by the language runtime.",
+    "facts": [
+      "Recursion removal replaces the implicit call stack with a programmer-managed explicit stack.",
+      "A stack frame typically stores parameters, local variables, and a resume point/state marker.",
+      "Tail recursion (nothing left to do after the recursive call) can be converted to a simple loop with no explicit stack needed.",
+      "Non-tail recursion (work pending after the call, e.g. tree traversal) needs an explicit stack to hold multiple pending states.",
+      "Iterative (explicit-stack) versions avoid the fixed call-stack depth limit that can cause stack overflow in deep recursion.",
+      "Recursion and iteration-with-explicit-stack are computationally equivalent — recursion is implicit stack use."
+    ],
+    "traps": [
+      "Not all recursion needs an explicit stack after removal — tail recursion converts to a plain loop; assuming an explicit stack is always required is a common overgeneralisation.",
+      "The explicit stack in recursion removal is not simply \"the same as the recursive calls\" — it must capture enough state (which step within the function to resume) to correctly continue execution, not just the arguments.",
+      "Recursive tree/graph traversals converted to iterative form usually still need a stack (for DFS-order) or a queue (for BFS-order) — picking a queue when converting a stack-based (DFS-style) recursive traversal changes the traversal order entirely."
+    ],
+    "mnem": "",
+    "rel": ["Recursion", "Stack applications: parens, calls, backtracking", "Stack ADT: LIFO, push, pop, peek"]
+  },
+  {
+    "id": "U3c-12",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Queue ADT: FIFO, enqueue, dequeue",
+    "def": "A queue is a First-In-First-Out (FIFO) abstract data type that restricts insertion to one end, called the rear (or tail), and removal to the other end, called the front (or head).",
+    "exp": "The queue interface mirrors the stack's but with insertion and removal at opposite ends: enqueue(x) adds x at the rear; dequeue() removes and returns the element at the front; front()/peek() inspects the front element without removing it; isEmpty() and isFull() report boundary conditions. The defining property is arrival order: the element that has been waiting longest is the next one served — FIFO, exactly like a real-world queue (a line at a counter). This models real waiting-line scenarios naturally: print jobs are printed in the order submitted, CPU processes in a simple round-robin scheduler are serviced in arrival order, and network packets in a simple buffer are transmitted in the order received. As with stacks, all core operations are conceptually O(1), and correctness depends on the underlying implementation actually achieving that — a naive array-based queue that shifts all elements forward after each dequeue would silently degrade to O(n). The two error conditions are queue overflow (enqueue on a full queue) and queue underflow (dequeue or front on an empty queue), and any correct implementation must guard against both. A queue is defined purely by this FIFO interface, independent of whether it sits on an array, a linked list, or a circular buffer underneath.",
+    "facts": [
+      "FIFO: first element enqueued is the first dequeued.",
+      "Core operations: enqueue (at rear), dequeue (at front), front/peek, isEmpty, isFull.",
+      "Queue overflow: enqueue on a full queue.",
+      "Queue underflow: dequeue or front on an empty queue.",
+      "All queue operations should be O(1) under a correct implementation.",
+      "Real-world modelling: print spooling, CPU round-robin scheduling, packet buffering all use FIFO order."
+    ],
+    "traps": [
+      "A naive array implementation that shifts every remaining element forward after each dequeue turns an O(1) operation into O(n) — this is precisely the motivation for circular queues, and exam questions probe whether you know this degrade case.",
+      "Mixing up front and rear: enqueue always happens at the rear, dequeue always at the front — reversing them describes a stack's behaviour, not a queue's.",
+      "\"Queue\" without qualification means simple FIFO; do not assume priority ordering or double-ended access unless the question specifies priority queue or deque."
+    ],
+    "mnem": "FIFO = First In, First Out.",
+    "rel": ["Linear queue and false overflow", "Circular queue", "Stack ADT: LIFO, push, pop, peek"]
+  },
+  {
+    "id": "U3c-13",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Linear queue and the false-overflow problem",
+    "def": "A linear queue is a queue implemented on a fixed-size array with separate front and rear index variables that only ever increase, causing the queue to report \"full\" once rear reaches the array's last index even if earlier slots have since been vacated by dequeues.",
+    "exp": "Implementation: array of size n, with front and rear typically both initialised to -1 (empty). enqueue increments rear then writes the element (checking rear < n-1 first); dequeue reads the element at front, then increments front (checking front < rear, i.e., not empty, first). The flaw: front and rear only ever move rightward and never wrap back to reuse slots at the beginning of the array that dequeues have already freed. Concretely, in a queue of size 5, if you enqueue 5 elements (rear becomes 4) and then dequeue 3 of them (front becomes 2), slots 0–2 are now free, but rear is still 4 = n-1, so the isFull check (rear == n-1) reports the queue as full even though only 2 of 5 slots are actually occupied. This is the false-overflow (or \"false full\") problem: capacity is wasted because the linear queue never recycles space behind the front pointer. The standard fix taught alongside this problem is the circular queue, which treats the array as wrapping around so rear can cycle back to reuse freed slots, computing the next position as (rear + 1) % n instead of a plain increment.",
+    "facts": [
+      "Linear queue: array of size n with front and rear indices that only increase.",
+      "enqueue: rear++ then write (after checking rear < n-1); dequeue: read at front, then front++ (after checking not empty).",
+      "False overflow: rear reaches n-1 and the queue reports full even though slots before front are free/unused.",
+      "The wasted slots are exactly those with index less than front that were vacated by prior dequeues.",
+      "The fix for false overflow is the circular queue, using modulo arithmetic to wrap rear (and front) back to index 0.",
+      "A linear queue never reclaims space once rear hits the last index, regardless of how many dequeues have occurred."
+    ],
+    "traps": [
+      "\"The queue is full\" in a linear array implementation can be a false alarm — always check whether the implementation is linear (no wraparound) or circular before concluding a queue with rear == n-1 truly has no room.",
+      "Some presentations initialise front and rear to 0 instead of -1, shifting the off-by-one details of the empty/full checks — verify the exact convention given in a problem before applying a memorised check.",
+      "False overflow is not the same as true overflow: true overflow means every slot is genuinely occupied; false overflow means slots exist but are unreachable under a linear (non-wrapping) index scheme."
+    ],
+    "mnem": "",
+    "rel": ["Queue ADT: FIFO, enqueue, dequeue", "Circular queue", "Deque, input- and output-restricted"]
+  },
+  {
+    "id": "U3c-14",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Circular queue: wraparound, full/empty test",
+    "def": "A circular queue is an array-based queue in which the rear and front indices wrap back to the start of the array using modulo arithmetic, so that slots vacated by dequeues at the front are reused by later enqueues at the rear, eliminating false overflow.",
+    "exp": "With array size n, indices advance as rear = (rear + 1) % n and front = (front + 1) % n, so index n-1 is followed by index 0 again. This solves the linear queue's wasted-space problem: freed slots behind the front pointer are reused instead of stranded. The catch is a genuine ambiguity: after wraparound, both the empty state and the full state can produce front == rear, since the indices are cycling through the same range. The classic textbook resolution is to deliberately leave one slot always unused: the queue is treated as full when (rear + 1) % n == front (i.e., advancing rear one more step would collide with front), and empty when front == rear (or, in the -1-initialised convention, front == -1). This means a circular queue of array size n can hold at most n-1 elements, never all n — a frequently tested MCQ trap. Alternative fixes exist (keeping an explicit count/size variable, or a boolean isFull flag), which avoid sacrificing a slot but add a variable to maintain; the \"sacrifice one slot\" method is the one most commonly assumed in exam pseudocode unless stated otherwise.",
+    "facts": [
+      "Index update: rear = (rear + 1) % n, front = (front + 1) % n — this is the wraparound arithmetic.",
+      "Full condition (one-slot-sacrificed convention): (rear + 1) % n == front.",
+      "Empty condition: front == rear (in the initial/no-count convention), or front == -1 in the -1-init convention.",
+      "A circular queue using the sacrificed-slot method holds at most n - 1 elements out of an n-sized array.",
+      "Alternative to sacrificing a slot: maintain an explicit count variable, checking count == n (full) or count == 0 (empty).",
+      "Circular queues eliminate the false-overflow problem of linear queues by reusing freed slots behind the front."
+    ],
+    "traps": [
+      "The classic MCQ trap: for an n-slot circular queue with the sacrificed-slot full test, the maximum number of elements it can actually hold is n - 1, not n — students who forget the sacrificed slot answer n and lose marks.",
+      "front == rear alone is ambiguous between empty and full without additional information (a count, a full flag, or the sacrificed-slot convention) — never state \"front == rear means empty\" as a universal rule without naming which convention is in use.",
+      "Applying % n only to rear but forgetting to also wrap front on dequeue (or vice versa) breaks the whole scheme — both pointers must use modulo arithmetic consistently."
+    ],
+    "mnem": "Full test: (rear+1) mod n == front — one step from colliding with front means no room left.",
+    "rel": ["Linear queue and false overflow", "Queue ADT: FIFO, enqueue, dequeue", "Doubly linked and circular linked lists"]
+  },
+  {
+    "id": "U3c-15",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Deque: input- and output-restricted",
+    "def": "A deque (double-ended queue) is a linear ADT that allows insertion and deletion at both ends, generalising both stacks and queues; an input-restricted deque allows insertion at only one end (but deletion at both), while an output-restricted deque allows deletion at only one end (but insertion at both).",
+    "exp": "A full deque supports four operations: insertFront, insertRear, deleteFront, deleteRear, each O(1) under a suitable implementation (a doubly linked list, or a circular array with front and rear indices). Because both ends are active, a deque can emulate a stack (always insert and delete from the same end) or a queue (always insert at one end, delete at the other) simply by restricting which operations you call — this is why a deque is considered the more general structure. The two named restricted variants matter for exam definitions specifically: an input-restricted deque permits insertion at one end only, while deletion is allowed at both ends; an output-restricted deque permits deletion at one end only, while insertion is allowed at both ends. These sit strictly between a plain queue/stack and a full deque in flexibility. Real implementations typically use a doubly linked list (natural O(1) access to both ends) or a circular array with two index pointers, since a singly linked list cannot efficiently support operations at both ends (deleting from the tail would require an O(n) search for the new tail's predecessor). Applications include sliding-window algorithms, palindrome checking, and browser history navigation.",
+    "facts": [
+      "Full deque operations: insertFront, insertRear, deleteFront, deleteRear.",
+      "Input-restricted deque: insertion allowed at one end only; deletion allowed at both ends.",
+      "Output-restricted deque: deletion allowed at one end only; insertion allowed at both ends.",
+      "A deque can emulate both a stack and a queue by restricting which end(s) are used.",
+      "Doubly linked lists or circular arrays are the natural underlying implementations for O(1) both-end access.",
+      "A singly linked list is a poor fit for a deque since tail-end deletion needs an O(n) predecessor search."
+    ],
+    "traps": [
+      "Input-restricted vs output-restricted are easy to swap in memory: \"input\" restriction limits where you can PUT things in (one end), \"output\" restriction limits where you can TAKE things out (one end) — read the question's exact wording rather than guessing from the name alone.",
+      "A deque is not automatically a priority queue or a sorted structure — it only restricts which ends support insertion/deletion, with no ordering guarantee beyond insertion sequence.",
+      "Implementing a deque on a singly linked list and claiming O(1) deleteRear is incorrect unless a doubly linked list (or extra bookkeeping) is used — this is a common false-complexity claim in exam distractors."
+    ],
+    "mnem": "",
+    "rel": ["Queue ADT: FIFO, enqueue, dequeue", "Doubly linked and circular linked lists", "Stack ADT: LIFO, push, pop, peek"]
+  },
+  {
+    "id": "U3c-16",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Priority queue: implementations, uses",
+    "def": "A priority queue is an ADT in which each element carries a priority and dequeue always removes the highest-priority element first, regardless of arrival order, breaking the plain FIFO discipline of an ordinary queue.",
+    "exp": "Implementation options trade off insert cost against extract-highest-priority cost. An unsorted array (or linked list): insertion is O(1) (append anywhere), but extracting the maximum/minimum requires scanning all elements, O(n). A sorted array (or list) kept in priority order: insertion must find the correct position, O(n), but extraction of the highest priority is O(1) (it's always at one end). A binary heap (typically a min-heap or max-heap stored in an array) gives the best balance: both insertion and extraction of the highest-priority element are O(log n), because the heap only maintains partial order (parent-child) rather than full sorted order, needing just a sift-up or sift-down along one root-to-leaf path per operation. This is why heaps are the standard real-world implementation of priority queues, including in the classic heapsort algorithm and in Dijkstra's and Prim's algorithms. Applications of queues generally, beyond simple FIFO buffering: CPU and disk I/O scheduling (priority queues for scheduling by urgency), breadth-first search in graphs (a plain FIFO queue to visit nodes level by level), print/job spooling (FIFO), and buffering data between producer and consumer processes running at different speeds (bounded queues, often circular).",
+    "facts": [
+      "Unsorted array/list implementation: O(1) insert, O(n) extract-highest-priority.",
+      "Sorted array/list implementation: O(n) insert, O(1) extract-highest-priority.",
+      "Binary heap implementation: O(log n) insert and O(log n) extract-highest-priority — the standard choice.",
+      "A heap maintains only parent-child order, not full sorted order, which is why it beats a sorted array for insertion cost.",
+      "BFS uses a plain FIFO queue; Dijkstra's shortest-path algorithm uses a priority queue keyed on tentative distance.",
+      "Other queue applications: CPU/disk scheduling, print spooling, and buffering between producer and consumer processes."
+    ],
+    "traps": [
+      "\"Priority queue\" does not mean \"queue sorted by priority using FIFO order for ties automatically\" — tie-breaking behaviour among equal priorities is implementation-defined unless the question specifies a stable priority queue.",
+      "Confusing which array implementation is O(1) where: unsorted array is cheap to INSERT but expensive to EXTRACT; sorted array is the reverse — swapping these is a frequent distractor pairing.",
+      "A binary heap is not a fully sorted structure — assuming an in-order traversal of the heap array gives sorted output is wrong; only extracting repeatedly (as in heapsort) yields sorted order."
+    ],
+    "mnem": "",
+    "rel": ["Queue ADT: FIFO, enqueue, dequeue", "Circular queue", "Stack applications: parens, calls, backtracking"]
+  }
+]

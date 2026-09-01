@@ -1,0 +1,485 @@
+[
+ {
+  "id": "N0644",
+  "question": "L = {anbncn | n \uf0b3 1}, is",
+  "options": {
+   "A": "Recursive",
+   "B": "Recursively enumerable but non-recursive",
+   "C": "Non-recursively enumerable",
+   "D": "None of the above."
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0645",
+  "question": "If L1 is a context-free language, and L2 and L3 are regular languages then L1 \uf0c7 L2 L3 is",
+  "options": {
+   "A": "Context-free language",
+   "B": "Regular language",
+   "C": "Non context-free language",
+   "D": "None of the above"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0646",
+  "question": "If L1 is a context-free language, and L2 is a regular set, then L1 \uf0c8 L2 is",
+  "options": {
+   "A": "Context-free language",
+   "B": "Regular language",
+   "C": "Non context-free language",
+   "D": "None of the above"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0647",
+  "question": "Consider a relation R = {(1, 1), (2, 2), (2, 3), (3, 2), (3, 4), (4, 3)}, on a set A = {1, 2, 3, 4}. The relation R is:",
+  "options": {
+   "A": "Reflexive",
+   "B": "Transitive",
+   "C": "Symmetric",
+   "D": "Equivalence"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0648",
+  "question": "Transitive closure of the union of two equivalence relation is",
+  "options": {
+   "A": "Partial order",
+   "B": "Total order",
+   "C": "Equivalence relation",
+   "D": "None of the above"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0649",
+  "question": "Any given Transition graph has an equivalent",
+  "options": {
+   "A": "regular expression",
+   "B": "DFSM",
+   "C": "NDFSM",
+   "D": "All of the above"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0650",
+  "question": "The intersection of a CFL and a regular language",
+  "options": {
+   "A": "is always regular",
+   "B": "is always context free",
+   "C": "both (a) and (b) (d) need not be regular"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0651",
+  "question": "A Push Down Machine (PDM) behaves like a Turing Machine (TM) when the number of auxiliary memory it has, is",
+  "options": {
+   "A": "2",
+   "B": "1",
+   "C": "0",
+   "D": "4"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0652",
+  "question": "The number of circuits in a tree with n nodes is",
+  "options": {
+   "A": "zero",
+   "B": "1",
+   "C": "n-1",
+   "D": "n/2"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0653",
+  "question": "A graph is a tree if and only if it",
+  "options": {
+   "A": "is completely connected",
+   "B": "is minimally connected",
+   "C": "contains a circuit",
+   "D": "is planar"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0654",
+  "question": "The minimum number of spanning trees in a connected graph with n nodes is",
+  "options": {
+   "A": "zero",
+   "B": "1",
+   "C": "n-1",
+   "D": "n/2"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0655",
+  "question": "The rank of a graph with n vertices, e edges and k components is",
+  "options": {
+   "A": "n",
+   "B": "e-n+k",
+   "C": "n-k",
+   "D": "n+k"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0656",
+  "question": "The nullity of a graph with n vertices, e edges and k components is",
+  "options": {
+   "A": "n",
+   "B": "e-n+k",
+   "C": "n-1",
+   "D": "n+k"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0657",
+  "question": "The number of paths between any pair of nodes in a tree on n nodes is",
+  "options": {
+   "A": "0",
+   "B": "1",
+   "C": "n-1",
+   "D": "n"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0658",
+  "question": "What is the edge connectivity of a complete graph with n vertices?",
+  "options": {
+   "A": "1",
+   "B": "n-1",
+   "C": "n+1",
+   "D": "n(n+1)/2"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0659",
+  "question": "A circuit in a connected graph which includes every vertex of the graph is known as",
+  "options": {
+   "A": "Euler",
+   "B": "Unicursal",
+   "C": "Hamiltonian",
+   "D": "Clique"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0660",
+  "question": "The length of a Hamiltonian path (if exists) in a connected graph of n vertices is",
+  "options": {
+   "A": "n-1",
+   "B": "n",
+   "C": "n + 1",
+   "D": "n/2"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0661",
+  "question": "A given connected graph G is a Euler graph if and only if all vertices of G are of",
+  "options": {
+   "A": "same degree",
+   "B": "even degree",
+   "C": "odd degree",
+   "D": "different degree"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0662",
+  "question": "If A(G) is an incident matrix of a connected graph G with n vertices the rank of A(G) is",
+  "options": {
+   "A": "1",
+   "B": "2",
+   "C": "n-1",
+   "D": "n"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0663",
+  "question": "If a graph requires k different colors for its proper coloring then the chromatic number of the graph is",
+  "options": {
+   "A": "k/2",
+   "B": "k-1",
+   "C": "k",
+   "D": "1"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0664",
+  "question": "A graph consisting of only isolated n vertices is",
+  "options": {
+   "A": "1-chromatic",
+   "B": "2-chromatic",
+   "C": "3-chromatic",
+   "D": "n-chromatic"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0665",
+  "question": "A graph with one or more edges (without self loop) is at least",
+  "options": {
+   "A": "1-chromatic",
+   "B": "2- chromatic",
+   "C": "3-chromatic",
+   "D": "n- chromatic"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0666",
+  "question": "A complete graph with n vertices is",
+  "options": {
+   "A": "2-chromatic",
+   "B": "n/2 chromatic",
+   "C": "n-1 chromatic",
+   "D": "n-chromatic"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0667",
+  "question": "The number of colors required to properly color the vertices of every planar graph is",
+  "options": {
+   "A": "2",
+   "B": "3",
+   "C": "4",
+   "D": "5"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0668",
+  "question": "Can a DFA simulate NFA?",
+  "options": {
+   "A": "No",
+   "B": "Yes",
+   "C": "Some times",
+   "D": "depends on NFA"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0669",
+  "question": "Regular expression (a | b) ( a | b) denotes the set",
+  "options": {
+   "A": "{a, b, ab, aa}",
+   "B": "{a, b, ba, bb}",
+   "C": "{a, b}",
+   "D": "{aa, ab, ba, bb}"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0670",
+  "question": "Which of the following regular expressions denote zero or more instances of an a and b?",
+  "options": {
+   "A": "a | b",
+   "B": "(a b)*",
+   "C": "(a | b)*",
+   "D": "a* | b"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0671",
+  "question": "Which of the following regular expressions denote a language comprising all possible strings of even length over the alphabet (0, 1)?",
+  "options": {
+   "A": "(0 | 1)*",
+   "B": "0 | 1 (0 | 1)*",
+   "C": "(00 | 01 11 | 10)*",
+   "D": "(0 | 1) (0 | 1) (0 | 1)*"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0672",
+  "question": "Which of the following regular expressions denotes a language comprising all possible strings over the alphabet {a, b}?",
+  "options": {
+   "A": "a* b*",
+   "B": "(a | b)",
+   "C": "(ab) +",
+   "D": "(a | b)*"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0673",
+  "question": "An FSM (Finite State Machine) can be considered to be a TM (Turing Machine)",
+  "options": {
+   "A": "of finite tape length, without rewinding capability and unidirectional tape movement",
+   "B": "of finite tape length, rewinding capability and unidirectional tape movement",
+   "C": "of finite tape length, without rewinding capability and bidirectional tape movement",
+   "D": "of finite tape length, rewinding capability and bi-directional tape movement"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0674",
+  "question": "Turing machine (TM) is more powerful than FSM (Finite State Machine) because",
+  "options": {
+   "A": "tape movement is confined to one direction",
+   "B": "it has no finite state",
+   "C": "it has the capability to remember arbitrarily long sequences of input symbols",
+   "D": "none of above"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0675",
+  "question": "Context Sensitive Grammar can be recognized by a",
+  "options": {
+   "A": "Deterministic Push Down Machine (DPDM)",
+   "B": "Non Deterministic Push Down Machine (NDPDM)",
+   "C": "Finite State Machine (FSM)",
+   "D": "Linearly bounded memory machine"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0676",
+  "question": "Context Free Grammar is not closed under",
+  "options": {
+   "A": "product",
+   "B": "union",
+   "C": "complementation",
+   "D": "kleen star"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0677",
+  "question": "Which of the following is not accepted by Deterministic Push Down Machine (DPDM) but accepted by Non Deterministic Push Down Machine (NDPDM)?",
+  "options": {
+   "A": "strings ending with a particular alphabet",
+   "B": "all strings in which a given symbol is present at least twice",
+   "C": "even palindromes",
+   "D": "None of the above"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0294",
+  "question": "Which of the following is a not a part of 5-tuple finite automata?",
+  "options": {
+   "A": "Input alphabet",
+   "B": "Transition function",
+   "C": "Initial State",
+   "D": "Output Alphabet"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0295",
+  "question": "When are 2 finite states equivalent?",
+  "options": {
+   "A": "Same number of transitions",
+   "B": "Same number of states",
+   "C": "Same number of states as well as transitions",
+   "D": "Both are final states"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0296",
+  "question": "Which of the following statements are correct for a concept called inherent ambiguity in CFL?",
+  "options": {
+   "A": "Every CFG for L is ambiguous",
+   "B": "Every CFG for L is unambiguous",
+   "C": "Every CFG is also regular",
+   "D": "None of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0297",
+  "question": "Given that a0 = 1, an = n + (_1)nan - 1 for n \uf0b3 2. What is the value of a4?",
+  "options": {
+   "A": "1",
+   "B": "4",
+   "C": "5",
+   "D": "8"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0298",
+  "question": "Which of the given are correct?",
+  "options": {
+   "A": "Moore machine has 6-tuples",
+   "B": "Mealy machine has 6-tuples",
+   "C": "Both Mealy and Moore has 6-tuples",
+   "D": "None of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0000",
+  "question": "Which of the following notations is commonly used to represent a mapping from set A to set B?",
+  "options": {
+   "A": "A>B",
+   "B": "ASB",
+   "C": "AUB",
+   "D": "ANB"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0001",
+  "question": "What does it mean for a mapping to be surjective?",
+  "options": {
+   "A": "Every element in the codomain has a pre-image in the domain.",
+   "B": "Every element in the domain has a pre-image in the codomain. :",
+   "C": "No two different elements in the domain map to the same element in the codomain.",
+   "D": "All elements in the domain map to the same element in the codomain."
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0002",
+  "question": "What is a partially ordered set (poset)?",
+  "options": {
+   "A": "Aset of positive integers",
+   "B": "Asset of elements with no order or relationship",
+   "C": "Asset witha binary relation that is reflexive, antisymmetric, and transitive",
+   "D": "Aset of prime numbers"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0003",
+  "question": "What is a lattice in the context of posets?",
+  "options": {
+   "A": "Aset of elements with no order",
+   "B": "Aset of prime numbers",
+   "C": "A poset in which every pair of elements has both a least upper bound (supremum) and a greatest lower bound (infimum)",
+   "D": "A poset with no upper bounds"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0004",
+  "question": "In mathematical induction, what must be proven in the base case?",
+  "options": {
+   "A": "The hypothesis holds for all values",
+   "B": "The hypothesis holds for at least one value",
+   "C": "The hypothesis is false for all values",
+   "D": "The hypothesis is irrelevant in the base case"
+  },
+  "garbled": false
+ }
+]

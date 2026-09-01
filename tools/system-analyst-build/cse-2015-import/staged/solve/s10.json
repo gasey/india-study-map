@@ -1,0 +1,486 @@
+[
+ {
+  "id": "N0113",
+  "question": "What is the main advantage of multiprogramming with variable partitions over fixed partitions?",
+  "options": {
+   "A": "Simpler memory management",
+   "B": "Efficient memory utilization",
+   "C": "Better I/O performance",
+   "D": "Faster process execution"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0114",
+  "question": "In virtual memory management, what is \"working set\"?",
+  "options": {
+   "A": "The portion ofmemory containing OS code",
+   "B": "Asetofpages that are actively used by a process",
+   "C": "The total memory space allocated to a process",
+   "D": "A cache for file data"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0115",
+  "question": "What is the primary purpose of I/O buffering in an operating system?",
+  "options": {
+   "A": "Increase the speed of I/O",
+   "B": "Storing I/O requests temporarily to synchronize operation",
+   "C": "Decrease the speed of I/O",
+   "D": "Managing hardware resources"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0116",
+  "question": "Which disk scheduling algorithm aims to minimize the seek time of the disk arm?",
+  "options": {
+   "A": "SCAN",
+   "B": "C-SCAN",
+   "C": "LOOK",
+   "D": "SSTF at"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0117",
+  "question": "What is \"process migration\" in a multiprocessor environment?",
+  "options": {
+   "A": "Terminating processes that exceed CPU time limits",
+   "B": "Moving processes to different memory partitions and CPUs",
+   "C": "Distributing processes across CPUs for load balancing",
+   "D": "Moving one process to another process"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0118",
+  "question": "Which scheduling algorithm uses time quantum or time slice for CPU allocation?",
+  "options": {
+   "A": "Shortest Job Next",
+   "B": "Priority Scheduling",
+   "C": "Round Robin",
+   "D": "First-Come, First-Served"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0119",
+  "question": "Inthe context of concurrent processes, what is a \"race condition\"?",
+  "options": {
+   "A": "A condition where processes compete for CPU to finish execution",
+   "B": "A condition where two processes try to access shared data simultaneously, leading to unpredictable results",
+   "C": "A condition where processes execute one after the other -",
+   "D": "Acondition where a process waits indefinitely for a resource"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0120",
+  "question": "In memory management, what is \"compaction\"?",
+  "options": {
+   "A": "Reducing the size of a process",
+   "B": "Reallocating memory segments to different processes",
+   "C": "Combining fragmented free memory blocks into a contiguous block",
+   "D": "Decreasing the size of a page table"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0121",
+  "question": "What is \"page thrashing\" in the context of virtual memory management?",
+  "options": {
+   "A": "Acondition that frequently causes page faults",
+   "B": "Frequent page replacement, causing a drop in performance",
+   "C": "A page that consumes excessive CPU time",
+   "D": "A process stuck in a deadlock"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0122",
+  "question": "Inthe context of disk scheduling, what is \"elevator algorithm''?",
+  "options": {
+   "A": "A method for sorting disk files alphabetically",
+   "B": "A method for scheduling disk I/O requests using a round-robin approach",
+   "C": "A method for optimizing seek time by moving the disk arm in one direction",
+   "D": "A method for scheduling disk I/O requests one after the other"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0123",
+  "question": "Inthe context of process scheduling, what is a \"ready queue''?",
+  "options": {
+   "A": "A queue for terminated processes",
+   "B": "A queue for processes waiting for I/O operations",
+   "C": "A queue for processes waiting to be executed",
+   "D": "A queue for processes that have completed execution"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0124",
+  "question": "What does \"context switching\" refer to in the context of process scheduling?",
+  "options": {
+   "A": "Moving a process to a different CPU",
+   "B": "Allocating CPU time to different processes",
+   "C": "Switching the CPU from one process to another",
+   "D": "Switching the context of a process by changing its data"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0125",
+  "question": "What is the primary goal of \"segmentation\" in memory management?",
+  "options": {
+   "A": "Dividing memory into equal-sized parts",
+   "B": "Dividing memory into variable-sized parts",
+   "C": "Minimizing page faults",
+   "D": "Minimizing the number of processes in the main memory a a"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0126",
+  "question": "What does \"system call interposition\" refer to in operating system design?",
+  "options": {
+   "A": "System call to perform memory allocation",
+   "B": "Terminating processes by performing system call",
+   "C": "Intercepting system calls to add or modify functionality",
+   "D": "Intercepting system calls to nullify the operation"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0128",
+  "question": "What is the primary purpose of a \"device driver\" in an operating system?",
+  "options": {
+   "A": "Allocating CPU time to device operations",
+   "B": "Managing external hardware device resources",
+   "C": "Handling device-specific operations and communication",
+   "D": "Detecting available devices"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0130",
+  "question": "In the context of process scheduling, what is \"preemption\"?",
+  "options": {
+   "A": "The termination of processes to avoid deadlock",
+   "B": "The voluntary release of CPU by a process",
+   "C": "The forced interruption of a running process to allow other processes to execute",
+   "D": "The allocation of CPU time based on process priority"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0131",
+  "question": "In the context of process scheduling, what is \"starvation\"?",
+  "options": {
+   "A": "Acondition where processes compete for resources",
+   "B": "Acondition where a process is waiting for CPU indefinitely",
+   "C": "A condition where processes are unable to proceed due to resource conflicts",
+   "D": "Acondition where a process receives very less CPU time allocations"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0132",
+  "question": "In the context of file systems, what is a \"cluster\" in file organization?",
+  "options": {
+   "A": "A data structure that stores file metadata",
+   "B": "A table of file access permissions",
+   "C": "The smallest unit of disk space allocated to a file",
+   "D": "Acache for file data"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0133",
+  "question": "is unique to each process operating on the file and therefore must be kept separate from the on-disk file attributes.",
+  "options": {
+   "A": "File pointer",
+   "B": "File ID and File-open count",
+   "C": "Disk location of the file",
+   "D": "Access rights"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0134",
+  "question": "An behaves like a writer lock; only one process at a time can acquire such a lock.",
+  "options": {
+   "A": "Shared file lock",
+   "B": "Exclusive file lock",
+   "C": "Inclusive file lock",
+   "D": "Mandatory file lock , Be"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0135",
+  "question": "The system uses the to indicate the type of the file and the type of operations that can be done on that file",
+  "options": {
+   "A": "Size",
+   "B": "Location",
+   "C": "Date Time",
+   "D": "Extension | 39. Which of the following techniques always reads or write a large block of data, which contains several file records, from or to the I/O medium? (a) Buffer of records (b) Blocking of records (c) Buffering and blocking of records (d) None of the above"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0136",
+  "question": "In Deadlock Prevention Scheme, to ensure that the hold-and-wait condition never occurs in the system if:",
+  "options": {
+   "A": "Atleast one resource must be non-sharable",
+   "B": "Atleast one resource must be sharable",
+   "C": "Whenever a process requests a resource, it does not hold any other resources",
+   "D": "Whenever a process requests a resource, it always hold another resource"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1169",
+  "question": "To avoid race condition, the number of processes that may be simultaneously inside their critical condition is:",
+  "options": {
+   "A": "0",
+   "B": "1",
+   "C": "2",
+   "D": "4"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1170",
+  "question": "Program 'preemption' is",
+  "options": {
+   "A": "forced de allocation of the CPU from a program which is executing on the CPU.",
+   "B": "release of CPU by the program after completing its task.",
+   "C": "forced allotment of CPU by a program to itself.",
+   "D": "a program terminating itself due to detection of an error."
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1171",
+  "question": "Which scheduling policy is most suitable for a time-shared operating system",
+  "options": {
+   "A": "Shortest-job First",
+   "B": "Elevator",
+   "C": "Round-Robin",
+   "D": "First-Come-First-Serve"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1172",
+  "question": "Which of the following is not a key piece of information, stored in single page table entry, assuming pure paging and virtual memory",
+  "options": {
+   "A": "Frame number",
+   "B": "A bit indicating whether the page is in physical memory or on the disk",
+   "C": "A reference for the disk block that stores the page",
+   "D": "None of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1173",
+  "question": "Which amongst the following is not a valid page replacement policy?",
+  "options": {
+   "A": "LRU policy (Least Recently Used)",
+   "B": "FIFO policy (First in first out)",
+   "C": "RU policy (Recurrently used)",
+   "D": "Optimal page replacement policy"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1174",
+  "question": "A set of techniques that allow to execute a program which is not entirely in memory is known as",
+  "options": {
+   "A": "demand paging",
+   "B": "virtual memory",
+   "C": "auxiliary memory",
+   "D": "secondary memory"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1175",
+  "question": "The total time to prepare a disk drive mechanism for a block of data to be read from is its__________",
+  "options": {
+   "A": "latency",
+   "B": "latency plus transmission time",
+   "C": "latency plus seek time",
+   "D": "latency plus seek time plus transmission time"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1176",
+  "question": "The Banker's Algorithm is an example of a technique for:",
+  "options": {
+   "A": "deadlock prevention",
+   "B": "deadlock avoidance",
+   "C": "deadlock detection",
+   "D": "deadlock recovery"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1177",
+  "question": "Process is",
+  "options": {
+   "A": "A program in execution",
+   "B": "An instance of a program running on a computer",
+   "C": "The entity that can be assigned to and executed",
+   "D": "All of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1178",
+  "question": "is the ability of multiple process to co-ordinate their activities by exchange of information",
+  "options": {
+   "A": "Synchronization",
+   "B": "Mutual Exclusion",
+   "C": "Dead lock",
+   "D": "Starvation"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1179",
+  "question": "A direct method of deadlock prevention is to prevent the occurrence of \u2026\u2026\u2026\u2026..",
+  "options": {
+   "A": "Mutual exclusion",
+   "B": "Hold and wait",
+   "C": "Circular waits",
+   "D": "No preemption"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1181",
+  "question": "An optimal scheduling algorithm in terms of minimizing the average waiting time of a given set of processes is \u2026\u2026\u2026\u2026.. .",
+  "options": {
+   "A": "FCFS scheduling algorithm",
+   "B": "Round robin scheduling algorithm",
+   "C": "Shortest job - first scheduling algorithm",
+   "D": "None of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1182",
+  "question": "Which of the following is contained in Process Control Block (PCB)?",
+  "options": {
+   "A": "Process Number",
+   "B": "List of Open files",
+   "C": "Memory Limits",
+   "D": "All of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1183",
+  "question": "The removal of process from active contention of CPU and reintroduce them into memory later is known as ____________.",
+  "options": {
+   "A": "Interrupt",
+   "B": "Swapping",
+   "C": "Signal",
+   "D": "Thread"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1030",
+  "question": "A minimum of _____ variable(s) is/are required to be shared between processes to solve the critical",
+  "options": {
+   "A": "One",
+   "B": "Two",
+   "C": "Three",
+   "D": "Four"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1031",
+  "question": "The address of a page table in memory is pointed by",
+  "options": {
+   "A": "stack pointer",
+   "B": "page table base register",
+   "C": "page register",
+   "D": "program counter"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1032",
+  "question": "The following program: main() { if(fork()>0) sleep(100); } results in the creation of",
+  "options": {
+   "A": "an orphan process",
+   "B": "a zombie process",
+   "C": "a process that executes forever",
+   "D": "None of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1033",
+  "question": "The data structure used for file directory is called",
+  "options": {
+   "A": "mount table",
+   "B": "hash table",
+   "C": "file table",
+   "D": "process table"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1034",
+  "question": "A process control block does not contain",
+  "options": {
+   "A": "Program counter",
+   "B": "Bootstrap program",
+   "C": "Stack",
+   "D": "Code"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1036",
+  "question": "Semaphore are used to solve the problems of",
+  "options": {
+   "A": "Race condition",
+   "B": "Process synchronisation",
+   "C": "Mutual exclusion",
+   "D": "None of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1037",
+  "question": "A direct method of deadlock prevention is to prevent the occurrences of",
+  "options": {
+   "A": "Mutual exclusion",
+   "B": "Hold and wait",
+   "C": "Circular waits",
+   "D": "No preemption"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1038",
+  "question": "What is dispatch latency?",
+  "options": {
+   "A": "The time taken by the dispatcher to stop one process and start another",
+   "B": "The time taken by the processor to write a file into disk",
+   "C": "The whole time taken by all processors",
+   "D": "None of these"
+  },
+  "garbled": false
+ }
+]

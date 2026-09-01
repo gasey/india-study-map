@@ -1,0 +1,398 @@
+[
+ {
+  "id": "N0600",
+  "ans": "A",
+  "conf": "high",
+  "exp": "A connected graph on n vertices needs at least a spanning tree, which has exactly n-1 edges; any fewer would disconnect it.",
+  "sub": "Graph connectivity",
+  "mode": "calculate",
+  "broken": false
+ },
+ {
+  "id": "N0601",
+  "ans": "C",
+  "conf": "medium",
+  "exp": "Counting non-isomorphic simple graphs by vertex count: 1 graph on 1 vertex, 2 on 2 vertices, and 4 on 3 vertices (by edge count 0,1,2,3), giving 1+2+4 = 7.",
+  "sub": "Graph enumeration",
+  "mode": "calculate",
+  "broken": false
+ },
+ {
+  "id": "N0602",
+  "ans": "D",
+  "conf": "high",
+  "exp": "Kuratowski's theorem: a graph is planar iff it has no subgraph homeomorphic to (a subdivision of) K5 or K3,3; requiring isomorphic copies specifically would be too restrictive since subdivided copies also break planarity.",
+  "sub": "Planar graphs",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0603",
+  "ans": "D",
+  "conf": "medium",
+  "exp": "The chromatic number of a cycle Cn is 2 for even n and 3 for odd n. The closed form n - 2*floor(n/2) + 2 gives exactly 2 when n is even and 3 when n is odd, matching this. OCR turned the floor brackets into stray symbols, but the intent is recoverable.",
+  "sub": "Graph coloring",
+  "mode": "calculate",
+  "broken": false
+ },
+ {
+  "id": "N0604",
+  "ans": "C",
+  "conf": "low",
+  "exp": "As printed, both terms of y are literally identical (ABCD + ABCD), which trivially reduces to ABCD and matches none of the options; complement bars over some literals were almost certainly stripped by OCR, and options A and B are also duplicated, so this cannot be reliably answered as printed.",
+  "sub": "Boolean simplification",
+  "mode": "understand",
+  "broken": true
+ },
+ {
+  "id": "N0605",
+  "ans": "A",
+  "conf": "low",
+  "exp": "A function table and its truth table correspond one-to-one, so only 1 truth table can be built from a given function table. The question's phrasing is unusual, so treat this with caution.",
+  "sub": "Truth tables",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0606",
+  "ans": "B",
+  "conf": "high",
+  "exp": "Sum-of-products (SOP) form is a disjunction (OR) of product (AND) terms, e.g. AB + CD — i.e. an OR of several AND functions.",
+  "sub": "Boolean algebra terms",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0607",
+  "ans": "D",
+  "conf": "medium",
+  "exp": "ABC is absorbed by AC (AC already covers ABC), leaving y = AC + AB + BC. Since no literals here are complemented, the consensus theorem cannot remove any further term, so this three-term form is already minimal and matches neither AB+C nor AB+BC — the answer is 'none of the above'.",
+  "sub": "Boolean simplification",
+  "mode": "calculate",
+  "broken": false
+ },
+ {
+  "id": "N0608",
+  "ans": "A",
+  "conf": "low",
+  "exp": "All four options print identically as 'x + y' after OCR stripped the primes/complements, so the distractors can't be told apart. The identity likely being tested is x'y + xy' + xy = x + y (a standard boolean identity), but as printed there is no way to pick a unique letter.",
+  "sub": "Boolean identities",
+  "mode": "understand",
+  "broken": true
+ },
+ {
+  "id": "N0609",
+  "ans": "A",
+  "conf": "high",
+  "exp": "Solving T(n)=2T(n-1)+n: the homogeneous part is C*2^n and a particular solution -n-2 satisfies the recurrence, so T(n) = C*2^n - n - 2. Using T(1)=1 gives C=2, so T(n) = 2^(n+1) - n - 2.",
+  "sub": "Recurrence relations",
+  "mode": "calculate",
+  "broken": false
+ },
+ {
+  "id": "N0610",
+  "ans": "A",
+  "conf": "high",
+  "exp": "Condition on the last digit: if it is 0, the remaining n-1 digits need an odd count of 0's (3^(n-1) - a(n-1) ways); if it is 1 or 2, they need an even count (2*a(n-1) ways). Summing gives a(n) = a(n-1) + 3^(n-1).",
+  "sub": "Recurrence relations",
+  "mode": "calculate",
+  "broken": false
+ },
+ {
+  "id": "N0611",
+  "ans": "D",
+  "conf": "low",
+  "exp": "'<' is not reflexive (a<a is always false), which alone disqualifies it from being a partial order; it is actually antisymmetric (vacuously) and transitive. Both printed options pair the right conclusion with a shaky reason (claiming < isn't antisymmetric), so the question is imprecisely worded — (d) is the conventionally keyed choice despite that flaw.",
+  "sub": "Partial orders",
+  "mode": "understand",
+  "broken": true
+ },
+ {
+  "id": "N0612",
+  "ans": "A",
+  "conf": "high",
+  "exp": "A lattice that is both distributive and complemented (every element has a unique complement) is, by definition, a Boolean algebra.",
+  "sub": "Lattices",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0613",
+  "ans": "A",
+  "conf": "high",
+  "exp": "A lattice guarantees a join (LUB) and meet (GLB) for every pair of elements by definition, and this extends by induction to any finite subset.",
+  "sub": "Lattices",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0614",
+  "ans": "C",
+  "conf": "medium",
+  "exp": "By Lagrange's theorem, every element's order must divide the group order 4, so orders can only be 1, 2, or 4 — ruling out any option containing a 3. Only (c) 2,2,4 is consistent with this, though it doesn't cleanly match either standard order-4 group (Z4 gives 2,4,4; the Klein four-group gives 2,2,2), so treat with some caution.",
+  "sub": "Group theory",
+  "mode": "calculate",
+  "broken": false
+ },
+ {
+  "id": "N0615",
+  "ans": "C",
+  "conf": "high",
+  "exp": "Rationals under multiplication fail to form a group because 0 has no multiplicative inverse; rationals and integers are fine abelian groups under addition, so (c) is the false statement.",
+  "sub": "Group theory",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0616",
+  "ans": "B",
+  "conf": "high",
+  "exp": "Non-singular (invertible) matrices of a fixed size form a group under multiplication (GL(n)): closed, has inverses, has identity I. Negative rationals aren't closed under multiplication (negative*negative=positive), and singular matrices lack inverses, so 'all matrices' isn't a group either.",
+  "sub": "Group theory",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0617",
+  "ans": "C",
+  "conf": "high",
+  "exp": "Need x with 3x ≡ 1 (mod 7). 3*5 = 15 = 2*7+1 ≡ 1 (mod 7), so the inverse of 3 is 5.",
+  "sub": "Modular arithmetic",
+  "mode": "calculate",
+  "broken": false
+ },
+ {
+  "id": "N0618",
+  "ans": "D",
+  "conf": "low",
+  "exp": "p → (q → p) is a classic tautology: if p is true the consequent is automatically true, and if p is false the whole conditional is vacuously true — this is option (d). However p ∨ (p → q) (option c) is also always true, so as printed the question has two valid tautologies, and option (a) is truncated by OCR. (d) is the conventionally keyed answer for this recycled question.",
+  "sub": "Propositional logic",
+  "mode": "understand",
+  "broken": true
+ },
+ {
+  "id": "N0619",
+  "ans": "C",
+  "conf": "high",
+  "exp": "By distribution, p ∧ (¬p ∨ q) = (p∧¬p) ∨ (p∧q) = F ∨ (p∧q) = p∧q, so the expression is logically equivalent to p∧q.",
+  "sub": "Propositional logic",
+  "mode": "calculate",
+  "broken": false
+ },
+ {
+  "id": "N0620",
+  "ans": "A",
+  "conf": "low",
+  "exp": "Reading the mangled connective between p and q as the biconditional (↔): when p=q=T, p↔q is true but p→¬q is false, so p↔q does not always imply p→¬q, making the statement True. The exact connective is OCR-damaged, so this reading cannot be fully verified.",
+  "sub": "Propositional logic",
+  "mode": "understand",
+  "broken": true
+ },
+ {
+  "id": "N0621",
+  "ans": "C",
+  "conf": "medium",
+  "exp": "The number of functions from an m-element set to an n-element set is n^m (each of the m domain elements independently has n possible images). The superscript was lost in OCR, so option (c) 'nm' should be read as n^m.",
+  "sub": "Counting functions",
+  "mode": "calculate",
+  "broken": false
+ },
+ {
+  "id": "N0622",
+  "ans": "D",
+  "conf": "medium",
+  "exp": "The largest equivalence relation on a set of size n is the full relation A×A, which has n^2 ordered pairs (the superscript was lost in OCR, so 'n2' = n^2).",
+  "sub": "Equivalence relations",
+  "mode": "calculate",
+  "broken": false
+ },
+ {
+  "id": "N0623",
+  "ans": "B",
+  "conf": "high",
+  "exp": "Equivalence relations on a set correspond exactly to its partitions; the number of partitions of a 4-element set is the Bell number B4 = 15.",
+  "sub": "Equivalence relations",
+  "mode": "calculate",
+  "broken": false
+ },
+ {
+  "id": "N0624",
+  "ans": "D",
+  "conf": "medium",
+  "exp": "The tempting 'proof' that symmetric+transitive implies reflexive (aRb with symmetric gives bRa, then transitive gives aRa) only works for elements that already appear in some related pair; an element unrelated to anything is never forced to be reflexive. So R need not be reflexive, and it need not fail to be reflexive either — the general answer is 'none of these'.",
+  "sub": "Relation properties",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0625",
+  "ans": "A",
+  "conf": "high",
+  "exp": "Subset (⊆) is reflexive (every set is a subset of itself), antisymmetric (A⊆B and B⊆A implies A=B), and transitive, so it is a partial ordering — the standard example being the power set ordered by inclusion.",
+  "sub": "Partial orders",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0626",
+  "ans": "D",
+  "conf": "low",
+  "exp": "The correct value is 2^(n^2) since |A×A| = n^2. OCR stripped the superscripts from options (a) and (b), so both print as the bare digit '2', and option (c) '(2^n)^2' = 2^(2n) is not equal to 2^(n^2) in general — as legibly printed, none of the options match, so 'none of the above' is the defensible pick.",
+  "sub": "Power sets",
+  "mode": "calculate",
+  "broken": true
+ },
+ {
+  "id": "N0627",
+  "ans": "A",
+  "conf": "high",
+  "exp": "A multiset (or 'bag') is an unordered collection that allows repeated elements, unlike an ordinary set.",
+  "sub": "Set theory basics",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0628",
+  "ans": "D",
+  "conf": "high",
+  "exp": "A contiguous substring is determined by choosing a start and end position among n+1 gap points, giving C(n+1,2) = n(n+1)/2 substrings, counted by position (including repeats of the same character sequence).",
+  "sub": "Combinatorics",
+  "mode": "calculate",
+  "broken": false
+ },
+ {
+  "id": "N0629",
+  "ans": "B",
+  "conf": "high",
+  "exp": "A finite automaton has a fixed, finite number of states and no auxiliary memory (no stack, no tape), so it models a computer with finite, fixed storage capability — unlike a pushdown automaton or Turing machine.",
+  "sub": "Finite automata",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0630",
+  "ans": "C",
+  "conf": "high",
+  "exp": "The class of languages accepted by finite automata is exactly the regular languages, by Kleene's theorem.",
+  "sub": "Chomsky hierarchy",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0631",
+  "ans": "B",
+  "conf": "high",
+  "exp": "The pumping lemma is a necessary condition for regularity, used contrapositively: if a language fails the pumping property it cannot be regular. It proves non-regularity, never regularity itself.",
+  "sub": "Pumping lemma",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0632",
+  "ans": "C",
+  "conf": "high",
+  "exp": "Infinite languages can be regular (e.g. a*) or non-regular (e.g. {a^n b^n}), so being infinite alone doesn't settle regularity either way.",
+  "sub": "Regular languages",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0633",
+  "ans": "A",
+  "conf": "high",
+  "exp": "Regular languages are closed under intersection (provable via the product construction of two DFAs), so the intersection of two regular languages is always regular.",
+  "sub": "Closure properties",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0634",
+  "ans": "C",
+  "conf": "medium",
+  "exp": "Regular languages are closed under union, intersection, and complement (all provable via automata constructions); 'subset' isn't a closure operation on languages at all, making it the intended odd one out.",
+  "sub": "Closure properties",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0635",
+  "ans": "A",
+  "conf": "medium",
+  "exp": "Reading this as 0*(10*)* (an asterisk after the inner 0 was likely lost to OCR): both 0*(10*)* and (1*0)*1* generate every possible binary string — any string decomposes into runs of 1's each followed by a 0, plus a trailing run of 1's — so the two expressions denote the same language, all of Σ*.",
+  "sub": "Regular expressions",
+  "mode": "calculate",
+  "broken": false
+ },
+ {
+  "id": "N0636",
+  "ans": "B",
+  "conf": "high",
+  "exp": "L={a^n b^(2n)} is generated by the CFG S → aSbb | abb, so it is context-free; it fails the regular pumping lemma (pumping the a's breaks the 1:2 ratio), so it is not regular.",
+  "sub": "Context-free languages",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0637",
+  "ans": "A",
+  "conf": "high",
+  "exp": "L = {a^(2i) | i≥0} is just the set of even-length strings of a's, which is exactly the regular language (aa)*.",
+  "sub": "Regular languages",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0638",
+  "ans": "B",
+  "conf": "medium",
+  "exp": "{a^i b^i c^i d^i} is a classic language that is context-sensitive but not context-free; it is still decidable/recursive and hence recursively enumerable, the closest fit among the given options.",
+  "sub": "Context-sensitive languages",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0639",
+  "ans": "B",
+  "conf": "high",
+  "exp": "In CNF every rule is A→BC or A→a, so deriving a string of length n needs n terminal-producing steps and n-1 binary-branching steps (a binary tree with n leaves has n-1 internal nodes), for a total of 2n-1 steps.",
+  "sub": "Chomsky Normal Form",
+  "mode": "calculate",
+  "broken": false
+ },
+ {
+  "id": "N0640",
+  "ans": "D",
+  "conf": "high",
+  "exp": "A CFL is inherently ambiguous precisely when no unambiguous CFG for it exists — i.e. every CFG generating it is ambiguous — which is what option (d) states.",
+  "sub": "Ambiguous grammars",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0641",
+  "ans": "A",
+  "conf": "high",
+  "exp": "The membership problem for context-sensitive grammars is decidable (though PSPACE-complete in general), so the language generated by any context-sensitive grammar is always recursive.",
+  "sub": "Context-sensitive grammars",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0642",
+  "ans": "A",
+  "conf": "high",
+  "exp": "In the Chomsky hierarchy, type-1 (context-sensitive) grammars correspond exactly to linear bounded automata.",
+  "sub": "Chomsky hierarchy",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0643",
+  "ans": "C",
+  "conf": "high",
+  "exp": "A Turing machine has an infinite tape that can be both read and written, distinguishing it from finite automata (finite states, no tape) and pushdown automata (a stack, not a full read-write tape).",
+  "sub": "Turing machines",
+  "mode": "memorise",
+  "broken": false
+ }
+]

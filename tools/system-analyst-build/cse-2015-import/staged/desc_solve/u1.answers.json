@@ -1,0 +1,83 @@
+[
+ {
+  "id": "D040",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Permutations with grouping",
+  "ans": "SIGNATURE has 9 letters — S, I, G, N, A, T, U, R, E — and every letter is distinct, so no division for repeated letters is needed anywhere in this problem.\n\nVowels: I, A, U, E (4 of them). Consonants: S, G, N, T, R (5 of them).\n\nThe condition \"vowels always come together\" is handled by the grouping (or \"string\") method: tie the four vowels into one composite letter [IAUE] and treat it as a single object. The arrangement is then over 5 consonants + 1 block = 6 objects, which can be ordered in 6! = 720 ways. Independently, the four vowels inside the block can be permuted among themselves in 4! = 24 ways.\n\nBy the product rule:\n\nRequired number of words = 6! × 4! = 720 × 24 = 17280.\n\nCross-check: total unrestricted arrangements are 9! = 362880, so the vowels-together words are 17280/362880 = 1/21 of all arrangements — the standard result 4!·6!/9!. (\"Words\" here means arrangements of letters, meaningful or not.)",
+  "points": [
+   "Identifies all 9 letters of SIGNATURE as distinct, so no repetition division is required",
+   "Separates 4 vowels (I, A, U, E) from 5 consonants (S, G, N, T, R)",
+   "Applies the grouping method: treats the 4 vowels as one block, giving 5 + 1 = 6 objects",
+   "Computes 6! = 720 arrangements of the objects and 4! = 24 internal arrangements of the vowels",
+   "States the final answer 6! × 4! = 720 × 24 = 17280"
+  ],
+  "conf": "high",
+  "incomplete": false
+ },
+ {
+  "id": "D041",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Combinations (handshakes)",
+  "ans": "A handshake involves an unordered pair of distinct players, and each pair shakes hands exactly once. So the count is the number of 2-element subsets of a 10-element set. This is a combination, not a permutation, because A shaking B's hand and B shaking A's hand are the same single event.\n\nNumber of handshakes = C(10, 2) = 10! / (2! × 8!) = (10 × 9) / (2 × 1) = 90 / 2 = 45.\n\nSame result by direct counting: each of the 10 players shakes hands with the other 9, giving 10 × 9 = 90 ordered (player, partner) pairs; every handshake has been counted twice, once from each end, so divide by 2 to get 45.\n\nNote the question says \"all ten players shake hands with each other\", i.e. one group of ten — the basketball setting is a distractor. Only if handshakes were restricted to opposing teams would the answer be 5 × 5 = 25. Under the wording as printed the answer is 45.",
+  "points": [
+   "Recognises the pairing is unordered, so combinations C(n,2) apply, not permutations",
+   "Writes C(10,2) = 10!/(2!·8!) = (10×9)/2",
+   "Gives the arithmetic 90/2 and the final answer 45 handshakes",
+   "Offers the equivalent derivation n(n−1)/2: 10 players × 9 others, halved for double counting",
+   "Notes that \"all ten players\" means a single group, so 45 (not the inter-team count 5×5 = 25)"
+  ],
+  "conf": "high",
+  "incomplete": false
+ },
+ {
+  "id": "D042",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Mathematical induction",
+  "ans": "Let P(n) be the statement: Σ(i = 0 to n) i³ = [ n(n+1)/2 ]².\n\nBasis step (n = 0): LHS = 0³ = 0. RHS = [ 0·(0+1)/2 ]² = 0² = 0. Both sides equal 0, so P(0) is true. (Checking n = 1 as well: LHS = 0 + 1 = 1, RHS = [1·2/2]² = 1² = 1.)\n\nInduction hypothesis: assume P(k) holds for some arbitrary k ≥ 0, that is Σ(i = 0 to k) i³ = [ k(k+1)/2 ]².\n\nInduction step: prove P(k+1).\n\nΣ(i = 0 to k+1) i³ = Σ(i = 0 to k) i³ + (k+1)³\n= [ k(k+1)/2 ]² + (k+1)³      (by the hypothesis)\n= k²(k+1)²/4 + (k+1)³\n= (k+1)² [ k²/4 + (k+1) ]      (taking (k+1)² common)\n= (k+1)² (k² + 4k + 4)/4\n= (k+1)² (k+2)²/4\n= [ (k+1)(k+2)/2 ]²\n= [ (k+1)((k+1)+1)/2 ]²\n\nwhich is precisely P(k+1).\n\nSince P(0) is true, and P(k) implies P(k+1) for every k ≥ 0, by the principle of mathematical induction P(n) is true for all n ≥ 0.",
+  "points": [
+   "States P(n) explicitly and verifies the basis at n = 0: both sides equal 0",
+   "States the induction hypothesis for an arbitrary k ≥ 0",
+   "Adds (k+1)³ to the hypothesis and factors out (k+1)²",
+   "Simplifies k²/4 + (k+1) to (k+2)²/4, giving [ (k+1)(k+2)/2 ]²",
+   "Concludes by the induction principle that P(n) holds for all n ≥ 0"
+  ],
+  "conf": "high",
+  "incomplete": false
+ },
+ {
+  "id": "D043",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "DFA design",
+  "ans": "The word \"only\" fixes the language as the singleton L = {1010} over Σ = {0, 1} — the machine accepts that one string and rejects every other string, including 0, 1, 101, 10101 and 10100. (If the intent had been \"ends with 1010\" or \"contains 1010\" the automaton would differ; the reading taken here is the literal one.)\n\nBecause a DFA must be complete — exactly one transition per state per input symbol — any symbol that departs from the pattern 1-0-1-0, and any symbol after the fourth, must lead to a dead (trap/reject) state qd from which there is no escape. That trap state is unavoidable, not optional.\n\nStates: q0 start, q1, q2, q3, q4 final, qd trap.\n\nTransition table (* marks the final state):\n\n  State |  0   |  1\n  ->q0  |  qd  |  q1\n    q1  |  q2  |  qd\n    q2  |  qd  |  q3\n    q3  |  q4  |  qd\n   *q4  |  qd  |  qd\n    qd  |  qd  |  qd\n\nTrace of 1010: q0 -1-> q1 -0-> q2 -1-> q3 -0-> q4, which is final, so the string is accepted. This 6-state DFA is minimal for {1010}.",
+  "points": [
+   "Reads \"1010 only\" as the singleton language L = {1010}, not \"ends with\" or \"contains\"",
+   "Uses five states q0–q4 in a chain to spell out 1, 0, 1, 0 with only q4 final",
+   "Explains that DFA completeness forces a dead/trap state qd for every off-pattern symbol",
+   "Sends every symbol read from q4 to qd, so 10101 and 10100 are rejected",
+   "Gives the full transition table and traces 1010 through q0→q1→q2→q3→q4"
+  ],
+  "conf": "medium",
+  "incomplete": false
+ },
+ {
+  "id": "D044",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "NFA to DFA conversion",
+  "ans": "Subset construction with ε-closures. First the closures (a state plus everything reachable on ε alone):\n\nECLOSE(p) = {p}\nECLOSE(q) = {q} ∪ ECLOSE(p) = {p, q}\nECLOSE(r) = {r} ∪ ECLOSE(q) = {p, q, r}\n\nStart state = ECLOSE(p) = {p}. For a subset S and symbol x, δD(S, x) = ECLOSE( union of δ(s, x) over s in S ). Name A = {p}, B = {p,q}, C = {p,q,r}.\n\nA: a → {p} = A. b → {q}, closure {p,q} = B. c → {r}, closure {p,q,r} = C.\n\nB: a → {p} ∪ {q} = {p,q} = B. b → {q} ∪ {r} = {q,r}, closure = C. c → {r} ∪ ∅ = {r}, closure = C.\n\nC: a → {p,q,r} = C. b → {q,r} = C. c → {r} ∪ ∅ ∪ {p} = {p,r}, closure = C.\n\nResulting DFA (final = any subset containing r, so only C):\n\n  STATE       |  a  |  b  |  c\n  ->A {p}     |  A  |  B  |  C\n    B {p,q}   |  B  |  C  |  C\n   *C {p,q,r} |  C  |  C  |  C\n\nOnly 3 of the 2³ = 8 possible subsets are reachable. C is an absorbing final state, so the DFA accepts every string once a c is seen from A, or a b or c from B.",
+  "points": [
+   "Computes the ε-closures ECLOSE(p) = {p}, ECLOSE(q) = {p,q}, ECLOSE(r) = {p,q,r}",
+   "Takes the DFA start state as ECLOSE(p) = {p}, not p alone in general",
+   "Applies δD(S,x) = ECLOSE(∪ δ(s,x)) and shows the union for each subset and symbol",
+   "Finds only 3 reachable subsets {p}, {p,q}, {p,q,r} out of 8",
+   "Marks {p,q,r} as the only final state because it is the only reachable subset containing r",
+   "Presents the complete 3-state DFA transition table over a, b, c"
+  ],
+  "conf": "high",
+  "incomplete": false
+ }
+]

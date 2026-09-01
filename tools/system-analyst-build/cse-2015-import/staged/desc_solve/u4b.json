@@ -1,0 +1,50 @@
+[
+ {
+  "id": "D019",
+  "q": "Discuss the advantages and disadvantages of Round Robin Scheduling.",
+  "unit": "4",
+  "sub": "Round Robin scheduling"
+ },
+ {
+  "id": "D059",
+  "q": "If an operating system possesses N resources of identical type, and these resources are shared among four processes labeled as a, b, c, and d, with respective peak demands of 3, 5, 8, and 7, then what is the value of N that would prevent the occurrence of deadlock?",
+  "unit": "4",
+  "sub": "Deadlock avoidance (resources)"
+ },
+ {
+  "id": "D060",
+  "q": "In a uniprocessor computer system, there exist three processes that alternate between 20ms CPU bursts and 80ms I/O bursts. These processes were created around the same time, and their I/O operations can be executed concurrently. Given a Round Robin scheduling algorithm with a time quantum of 10ms, what would be the CPU utilization over an extended duration for this system?",
+  "unit": "4",
+  "sub": "CPU utilization (Round Robin)"
+ },
+ {
+  "id": "D061",
+  "q": "Consider the scenario where disk requests arrive in the order of 82, 170, 43, 140, 24, 16, and 190, with the current head position pointing at 50, determine the total seek time using the SCAN Disk scheduling algorithm.",
+  "unit": "4",
+  "sub": "SCAN disk scheduling seek time"
+ },
+ {
+  "id": "D062",
+  "q": "In a system containing three user processes, namely P1, P2, and P3, with resource requirements of 21 units, 31 units, and 41 units of resource R, respectively, the minimum number of units of resource R required to prevent deadlock is _______.",
+  "unit": "4",
+  "sub": "Deadlock avoidance (resources)"
+ },
+ {
+  "id": "D063",
+  "q": "What is a thread? Why is it that threads are faster to create than processes?",
+  "unit": "4",
+  "sub": "Threads vs processes"
+ },
+ {
+  "id": "D064",
+  "q": "What are the Structures used in File-System Implementation?",
+  "unit": "4",
+  "sub": "File system structures"
+ },
+ {
+  "id": "D065",
+  "q": "Suppose the time to service a page fault is on the average 10 milliseconds, while a memory access takes 1 microsecond. Then a 99.99% hit ratio results in average memory access time",
+  "unit": "4",
+  "sub": "Demand paging performance"
+ }
+]

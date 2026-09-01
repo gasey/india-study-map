@@ -1,0 +1,449 @@
+[
+  {
+    "id": "U4b-01",
+    "paper": "TECH1",
+    "unit": "4",
+    "unitTitle": "Operating System",
+    "sub": "Process concept and address space",
+    "def": "A process is a program in execution — the passive program file plus its current activity: program counter, registers, stack and allocated memory.",
+    "exp": "A program is passive: bytes sitting in a file on disk. A process is active — the program plus everything the OS must track to run it. Run the same editor twice and you have one program but two processes, each with its own address space, its own PID and its own set of open files.\n\nThe process address space is classically drawn in four sections. Text holds the compiled machine instructions; its size is fixed at load, and it is usually read-only so several processes running the same program can share one copy. Data holds initialised and uninitialised (BSS) global and static variables; also fixed at load. Heap is memory allocated dynamically at run time by malloc/new, and grows as the process requests more. Stack holds activation records — parameters, return address, local variables — and grows and shrinks with every call and return.\n\nHeap and stack grow towards each other into the same free region, and the OS must ensure they never overlap; text and data are sized at load time while heap and stack vary at run time. That contrast is a standard one-mark question.\n\nA process is also the unit of resource ownership: address space, open file descriptors, accounting information. In modern systems the unit of CPU scheduling is the thread, but for a single-threaded process the two coincide.\n\nExam framing: \"A program in execution is called ___\" → a process.",
+    "facts": [
+      "Program = passive entity on disk; process = active entity with a program counter and resources.",
+      "Address space sections: text (code), data (globals/statics incl. BSS), heap (dynamic), stack (activation records).",
+      "Text and data are fixed in size at load time; heap and stack change size at run time.",
+      "Stack conventionally grows towards lower addresses, heap towards higher, into the same free gap.",
+      "The text segment is typically read-only and shareable between processes running the same program.",
+      "Each process gets a unique process identifier (PID) and its own logical address space.",
+      "One program can give rise to many processes; the processes are still distinct."
+    ],
+    "traps": [
+      "\"Program\" and \"process\" are not interchangeable — if a question says \"a program in execution\", the answer is process, not program.",
+      "Local variables live on the stack, dynamically allocated objects on the heap; a pointer variable itself may be on the stack while what it points to is on the heap.",
+      "Uninitialised globals (BSS) are part of the data region, not the heap — a common MCQ distractor.",
+      "Two processes running the same program do NOT share heap or stack; they may share only the read-only text pages.",
+      "The process is the unit of resource ownership, but the unit of dispatching/scheduling is the thread — questions sometimes test exactly this split."
+    ],
+    "mnem": "Bottom to top: Text, Data, Heap … free gap … Stack — \"code first, growth last\".",
+    "rel": ["Process states", "Process Control Block (PCB)", "Threads", "Process generation (fork/exec)"]
+  },
+  {
+    "id": "U4b-02",
+    "paper": "TECH1",
+    "unit": "4",
+    "unitTitle": "Operating System",
+    "sub": "Process states and transitions",
+    "def": "A process moves through the states new, ready, running, waiting (blocked) and terminated, with each transition triggered by a specific event such as dispatch, interrupt or I/O completion.",
+    "exp": "The five-state model:\n\n- New — the process is being created; its PCB exists but it has not been admitted.\n- Ready — runnable, waiting only for a CPU.\n- Running — instructions are actually executing on a CPU.\n- Waiting / Blocked — cannot proceed until some event occurs (I/O completion, a signal, a semaphore).\n- Terminated — finished execution; PCB awaiting cleanup.\n\nThe legal transitions, and their causes:\n\nnew → ready (admitted, by the long-term scheduler); ready → running (scheduler dispatch); running → ready (timer interrupt, or preemption by a higher-priority process); running → waiting (issues an I/O request or waits for an event); waiting → ready (I/O or event completes); running → terminated (exit).\n\nNote which pairs are absent. There is no ready → waiting transition: a process cannot block for an event it has not yet requested, and it cannot request one without running. There is no waiting → running transition either: when the event completes the process goes back to ready and must be dispatched again.\n\nOn a machine with n CPU cores at most n processes are in running state at once; any number can be ready or waiting.\n\nStallings adds two suspended states — ready/suspend and blocked/suspend — for processes swapped out to disk, giving a seven-state model. Galvin usually teaches only five. If a question offers \"suspended\", it is using the swapping-aware model.",
+    "facts": [
+      "Five states: new, ready, running, waiting (blocked), terminated.",
+      "ready → running is called dispatch; running → ready is caused by preemption or timer interrupt.",
+      "running → waiting is caused by an I/O request or event wait; waiting → ready by event completion.",
+      "There is no ready → waiting and no waiting → running transition.",
+      "At most one process per CPU core can be in the running state at any instant.",
+      "The long-term (job) scheduler controls new → ready; the short-term (CPU) scheduler controls ready → running.",
+      "Suspended-ready and suspended-blocked are added when swapping to disk is modelled (seven-state model)."
+    ],
+    "traps": [
+      "waiting → running is NOT a valid transition — the classic wrong option. The unblocked process re-enters the ready queue.",
+      "ready → waiting is also invalid; a process must be running to issue the request that blocks it.",
+      "A preempted process goes to ready, not to waiting — it is still runnable, it just lost the CPU.",
+      "\"Blocked\" and \"suspended\" are different: blocked = waiting for an event, suspended = swapped out of main memory. A process can be blocked-and-suspended at once.",
+      "Terminology varies: waiting = blocked = sleeping; running = executing. The transition structure is what is being tested, not the label."
+    ],
+    "mnem": "\"Nobody Runs Really Well Tired\" — New, Ready, Running, Waiting, Terminated.",
+    "rel": ["Process concept and address space", "Process Control Block (PCB)", "CPU scheduling", "Process generation (fork/exec)"]
+  },
+  {
+    "id": "U4b-03",
+    "paper": "TECH1",
+    "unit": "4",
+    "unitTitle": "Operating System",
+    "sub": "PCB and context switching",
+    "def": "The Process Control Block is the kernel data structure holding everything the OS knows about a process, and a context switch is the act of saving one process's PCB state and restoring another's.",
+    "exp": "The PCB (also called the task control block, or in Linux `task_struct`) is the process, as far as the kernel is concerned. It holds:\n\n- Process state (ready/running/waiting) and process identifier (PID).\n- Program counter — the address of the next instruction.\n- CPU registers — accumulators, index registers, stack pointer, condition codes.\n- CPU-scheduling information — priority, pointers into scheduling queues.\n- Memory-management information — base and limit registers, page tables or segment tables.\n- Accounting information — CPU time used, time limits, account numbers.\n- I/O status information — open file table, allocated devices.\n- Parent/child pointers, exit status.\n\nA context switch happens when the CPU moves from one process to another: the kernel saves the current process's CPU state into its PCB and loads the state of the incoming process from that process's PCB. It is triggered by an interrupt, a system call that blocks, or the expiry of a time quantum.\n\nThe critical exam point: a context switch is pure overhead. During the switch the system does no useful work. Its cost depends on hardware — the number of registers to copy, whether the CPU has multiple register sets, and how much of the memory-management state (TLB, cache) is invalidated. Typical figures are microseconds, but do not quote a fixed constant; it varies by machine.\n\nSwitching between threads of the same process is cheaper, because the address space and page tables are not changed.",
+    "facts": [
+      "PCB contents: state, PID, program counter, CPU registers, scheduling info, memory-management info, accounting info, I/O status info.",
+      "Each process has exactly one PCB; the kernel keeps them in a process table.",
+      "Context switch = save state of the outgoing process to its PCB, restore state of the incoming one from its PCB.",
+      "Context switch time is pure overhead — no useful user work happens during it.",
+      "Switch cost rises with the number of registers, and with TLB/cache flushing on address-space change.",
+      "A thread switch within the same process is cheaper than a process switch (no address-space change).",
+      "In Linux the PCB is the C structure `task_struct`."
+    ],
+    "traps": [
+      "A mode switch (user → kernel on a system call or interrupt) is NOT the same as a context switch; a mode switch may occur without any process change.",
+      "The program counter is saved in the PCB, not \"in the stack pointer\" or \"in memory-management info\" — options often shuffle PCB fields between categories.",
+      "Context-switch time is not a fixed number; if a question forces a value, it must have given one in the stem.",
+      "Hardware support (multiple register sets, as on some SPARC designs) can reduce but never eliminate switch cost.",
+      "The PCB is kernel-space data — a user process cannot read or write its own PCB directly."
+    ],
+    "mnem": "",
+    "rel": ["Process states", "Threads", "Process concept and address space", "CPU scheduling"]
+  },
+  {
+    "id": "U4b-04",
+    "paper": "TECH1",
+    "unit": "4",
+    "unitTitle": "Operating System",
+    "sub": "Process generation: fork, exec, zombies",
+    "def": "Process generation is the creation of new processes by existing ones — in UNIX by fork() duplicating the caller and exec() overlaying it with a new program — producing a tree-structured process hierarchy.",
+    "exp": "A process creates a child; the child may create its own children, giving a process tree rooted (in UNIX) at init/systemd, PID 1.\n\n`fork()` creates a near-duplicate of the calling process: same program text, a copy of the data, heap and stack, and copies of the open file descriptors. It is called once but returns twice — 0 in the child, the child's PID in the parent, and −1 on failure. That asymmetric return is how the two halves tell themselves apart. A typical exam question asks how many processes exist after n successive forks: 2^n, so three forks in a row give 8 processes (7 new children).\n\n`exec()` (execlp, execvp, …) replaces the current process image with a new program. It does not return on success, because there is nothing to return to. The usual idiom is fork-then-exec in the child while the parent calls `wait()`.\n\nTermination: a process ends by calling `exit()`, optionally passing a status the parent collects via `wait()`. A parent can also kill a child (abort) if the child exceeds its resources or its task is no longer needed.\n\nTwo named anomalies:\n\n- Zombie — the child has terminated but the parent has not yet called wait(). The PCB is kept only to hold the exit status. It uses no CPU or memory beyond that entry.\n- Orphan — the parent terminated first. The orphan is reparented to init/systemd, which reaps it.",
+    "facts": [
+      "fork() returns 0 in the child, the child's PID in the parent, and −1 on failure.",
+      "After n consecutive fork() calls by the same lineage, 2^n processes exist in total.",
+      "exec() replaces the process image and does not return on success; fork() creates, exec() overlays.",
+      "The child inherits copies of the parent's open file descriptors and much of its environment; modern kernels use copy-on-write for the address space.",
+      "Zombie = terminated child whose parent has not yet called wait(); its PCB entry is retained for the exit status.",
+      "Orphan = live child whose parent has terminated; it is reparented to init/systemd (PID 1).",
+      "wait() lets the parent collect a terminated child's exit status and removes the zombie entry."
+    ],
+    "traps": [
+      "Zombie and orphan are opposites and are routinely swapped in options: zombie = dead child, live parent; orphan = live child, dead parent.",
+      "fork() does not run a new program — without a following exec(), parent and child run the same code from the same point.",
+      "A zombie is not \"still executing\"; it consumes no CPU. It leaks only a process-table entry.",
+      "Killing a zombie with a signal does nothing — you must make the parent wait(), or let the parent die so init reaps the child.",
+      "\"Called once, returns twice\" applies to fork(); exec() is the reverse — called once, returns zero times on success.",
+      "Counting processes after forks: n forks give 2^n processes, i.e. 2^n − 1 *new* ones. Read whether the question asks for total or new."
+    ],
+    "mnem": "Zombie = dead child waiting to be buried by a living parent; Orphan = living child whose parent has gone.",
+    "rel": ["Process concept and address space", "Process states", "Inter-process communication", "Process Control Block (PCB)"]
+  },
+  {
+    "id": "U4b-05",
+    "paper": "TECH1",
+    "unit": "4",
+    "unitTitle": "Operating System",
+    "sub": "Threads and multithreading models",
+    "def": "A thread is a lightweight unit of CPU execution within a process, owning its own program counter, registers and stack while sharing the code, data and open files of its process.",
+    "exp": "What a thread owns privately: thread ID, program counter, register set, and a stack. What it shares with sibling threads: the text section, the data section, the heap, open files and signals. That split is the whole answer to \"thread vs process\".\n\nBecause threads share an address space, creating a thread and switching between threads is far cheaper than the equivalent process operations — no new address space, no page-table swap. The price is that sharing is unprotected: one thread's bad pointer can corrupt every other thread in the process, whereas processes are isolated by hardware.\n\nUser-level threads are managed by a library in user space; the kernel does not know they exist. They are fast to create and switch, but a single blocking system call blocks the entire process, and they cannot exploit multiple cores. Kernel-level threads are scheduled by the kernel: one blocking thread does not stop the others and they run on separate cores, but every operation costs a system call.\n\nThe mapping models:\n- Many-to-one — many user threads onto one kernel thread. Fast, but no true parallelism.\n- One-to-one — each user thread gets a kernel thread. Real concurrency; number of threads may be capped by overhead. (Linux, Windows.)\n- Many-to-many — m user threads multiplexed onto n ≤ m kernel threads; combines both benefits but is complex.\n- Two-level — many-to-many plus the option to bind a particular user thread to a kernel thread.",
+    "facts": [
+      "Per-thread private state: thread ID, program counter, register set, stack.",
+      "Shared across threads of a process: text, data, heap, open files, signals.",
+      "Thread switching is cheaper than process switching because the address space is unchanged.",
+      "Many-to-one: a blocking call blocks all threads; no multi-core parallelism.",
+      "One-to-one: true parallelism, one kernel thread per user thread; used by Linux and Windows.",
+      "Many-to-many multiplexes m user threads onto n kernel threads with n ≤ m.",
+      "Benefits usually listed: responsiveness, resource sharing, economy, scalability on multiprocessors."
+    ],
+    "traps": [
+      "Threads share the heap but each has its OWN stack — the most-tested single fact here.",
+      "Threads do not share registers or program counter; those are per-thread. Options that list \"registers\" as shared are wrong.",
+      "\"Lightweight process\" means thread; \"heavyweight process\" means an ordinary process. The idiom appears in older Indian papers.",
+      "User-level threads are not scheduled by the kernel — the kernel schedules the containing process.",
+      "Multithreading gives concurrency on one core; it gives parallelism only with multiple cores. Concurrency ≠ parallelism.",
+      "Killing one thread need not kill the process, but a segmentation fault caused by one thread does take the whole process down."
+    ],
+    "mnem": "Threads share the C-D-H (Code, Data, Heap); they keep the S-R-P (Stack, Registers, PC).",
+    "rel": ["Process concept and address space", "PCB and context switching", "Principles of concurrency", "Race conditions"]
+  },
+  {
+    "id": "U4b-06",
+    "paper": "TECH1",
+    "unit": "4",
+    "unitTitle": "Operating System",
+    "sub": "Principles of concurrency and interleaving",
+    "def": "Concurrency is the interleaved or simultaneous execution of multiple processes whose relative speeds are unknown, which makes shared-resource access non-deterministic unless it is explicitly controlled.",
+    "exp": "Concurrency arises in three settings: multiprogramming on one CPU (processes interleave), multiprocessing on several CPUs (processes truly overlap), and distributed systems (processes on separate machines). The theory is common to all three, which is why textbooks treat them together.\n\nThe root difficulty is that the OS gives no guarantee about relative speeds. A process may be preempted between any two machine instructions — including in the middle of what looks like one statement in a high-level language. `count++` compiles to load, increment, store; a switch can occur between any two of those. So the correctness of a concurrent program must hold for *every* possible interleaving, not for the one the programmer imagined.\n\nInterleaving also makes bugs irreproducible. A program can run correctly a million times and fail once, because the failure needs one specific ordering. This is why reasoning, not testing, is the tool for concurrency.\n\nStallings lists the problems concurrency raises: sharing of global resources must be controlled; the OS must allocate resources without deadlocking; and programming errors become timing-dependent and hard to locate.\n\nThe three interaction relationships between processes are worth learning by name:\n- Competition — processes unaware of each other, contending for the same resource (needs mutual exclusion; risks deadlock and starvation).\n- Cooperation by sharing — processes share a variable or file (needs mutual exclusion plus data coherence).\n- Cooperation by communication — processes exchange messages (no shared data, so no mutual exclusion needed, but deadlock and starvation remain possible).",
+    "facts": [
+      "Concurrency covers multiprogramming (one CPU), multiprocessing (several CPUs) and distributed processing.",
+      "A high-level statement such as count++ is not atomic; it is at least load, modify, store.",
+      "Correctness must hold for every possible interleaving, not just the expected one.",
+      "Stallings's three interaction types: competition, cooperation by sharing, cooperation by communication.",
+      "Cooperation by message passing needs no mutual exclusion, but can still deadlock or starve.",
+      "Concurrency bugs are timing-dependent and therefore not reliably reproducible by testing.",
+      "Concurrency = tasks making progress in overlapping time periods; parallelism = tasks literally executing at the same instant."
+    ],
+    "traps": [
+      "Concurrency does not require multiple processors — a single CPU with time-slicing is enough to produce every classical concurrency bug.",
+      "Parallelism implies concurrency, but concurrency does not imply parallelism. Papers use both words and mean different things.",
+      "Processes that only pass messages still need synchronisation for ordering; they merely avoid mutual-exclusion problems on shared data.",
+      "\"The relative speed of processes is unpredictable\" is the stated assumption of the whole subject — solutions that assume anything about speed (or about the number of CPUs) are invalid.",
+      "Disabling preemption inside a critical section is a solution technique, not a property you may assume by default."
+    ],
+    "mnem": "",
+    "rel": ["Race conditions", "Critical section problem", "Threads", "Inter-process communication"]
+  },
+  {
+    "id": "U4b-07",
+    "paper": "TECH1",
+    "unit": "4",
+    "unitTitle": "Operating System",
+    "sub": "Race condition",
+    "def": "A race condition is a situation in which several processes access and manipulate the same data concurrently and the outcome depends on the particular order in which the accesses take place.",
+    "exp": "That definition is the exact sentence Indian papers use with a blank at the end — memorise it verbatim.\n\nWorked example. A shared variable `counter = 5`. Process P executes `counter++` and process Q executes `counter--`. In machine code:\n\nP: (1) load reg1, counter  (2) reg1 = reg1 + 1  (3) store counter, reg1\nQ: (4) load reg2, counter  (5) reg2 = reg2 − 1  (6) store counter, reg2\n\nRun P fully then Q: counter = 5. Run Q fully then P: counter = 5. Correct either way.\n\nNow interleave: 1, 2, 4, 5, 3, 6. P loads 5 and computes 6. Q loads 5 and computes 4. P stores 6. Q stores 4. Final value 4 — one update lost. Interleave as 1, 2, 4, 5, 6, 3 and the final value is 6 instead. Same code, same starting value, three different answers depending purely on timing.\n\nNote the two conditions that must both hold: at least two processes touching the same datum, and at least one of them writing. Concurrent reads alone never race.\n\nThe fix is to make the update sequence a critical section, executed by one process at a time — which is exactly what mutual exclusion, semaphores, monitors and atomic hardware instructions exist to provide.",
+    "facts": [
+      "Standard definition: outcome depends on the particular order in which concurrent accesses occur.",
+      "Requires at least two concurrent accesses to the same data with at least one write; read-read never races.",
+      "The classic illustration is a lost update on a shared counter incremented and decremented concurrently.",
+      "The cause is that a high-level update is a non-atomic load–modify–store sequence.",
+      "The remedy is mutual exclusion over the critical section, or an atomic hardware instruction.",
+      "Race conditions are non-deterministic: the same program with the same input may produce different results on different runs."
+    ],
+    "traps": [
+      "A race condition is not a deadlock. Race = wrong answer from bad ordering; deadlock = no answer at all because everyone is blocked.",
+      "\"The outcome depends on the order of access\" identifies a race condition, not a critical section — the critical section is the code region, the race is the failure.",
+      "Making a variable `volatile` (or its equivalent) prevents caching/reordering surprises but does NOT provide atomicity and does not fix a race.",
+      "Two processes reading the same variable concurrently is not a race; at least one writer is required.",
+      "Adding more CPU speed or fewer context switches does not fix a race — it only hides it."
+    ],
+    "mnem": "Two runners, one baton: who grabs it first changes the result — and one of them must be *taking* it, not just looking.",
+    "rel": ["Critical section problem", "Principles of concurrency", "Semaphores", "Peterson's and Dekker's algorithms"]
+  },
+  {
+    "id": "U4b-08",
+    "paper": "TECH1",
+    "unit": "4",
+    "unitTitle": "Operating System",
+    "sub": "Critical section problem",
+    "def": "The critical section problem is the task of designing a protocol by which processes with a shared resource cooperate so that no two are ever inside their critical sections at the same time.",
+    "exp": "Each process has this structure:\n\n```\ndo {\n    entry section\n        critical section        // accesses shared data\n    exit section\n        remainder section\n} while (true);\n```\n\nThe critical section is the code region where shared variables are accessed. The entry section requests permission; the exit section releases it.\n\nA correct solution must satisfy three requirements. Learn all three names and their precise meanings, because papers ask which one a broken solution violates.\n\n1. Mutual exclusion — if process Pi is executing in its critical section, no other process may execute in its critical section.\n2. Progress — if no process is in its critical section and some processes wish to enter, only those not in their remainder sections may participate in choosing who enters next, and the choice cannot be postponed indefinitely. In short: a process outside the critical section must not block one that wants in, and the system must not deadlock.\n3. Bounded waiting — there is a bound on the number of times other processes are allowed to enter their critical sections after a process has made a request and before that request is granted. This is what rules out starvation.\n\nTwo standard kernel approaches: preemptive kernels (allow preemption in kernel mode — more responsive, harder to get right, essential for real-time) and non-preemptive kernels (free of kernel race conditions by construction).\n\nAny solution must work with no assumption about relative process speeds or the number of CPUs.",
+    "facts": [
+      "Program structure per process: entry section, critical section, exit section, remainder section.",
+      "The three requirements are mutual exclusion, progress, and bounded waiting.",
+      "Mutual exclusion: at most one process in its critical section at a time.",
+      "Progress rules out deadlock; bounded waiting rules out starvation.",
+      "Only processes not in their remainder section may take part in the decision of who enters next.",
+      "A valid solution may make no assumption about relative process speed or the number of processors.",
+      "A non-preemptive kernel is inherently free of kernel-mode race conditions on a single processor."
+    ],
+    "traps": [
+      "Progress and bounded waiting are different: progress = someone gets in; bounded waiting = *this* process gets in within a finite bound. A solution can satisfy progress and still starve one process.",
+      "Strict alternation (a single shared `turn` variable) gives mutual exclusion but violates progress — if it is P0's turn and P0 is in its remainder section, P1 cannot enter.",
+      "Mutual exclusion alone is never a complete answer; a solution that simply blocks everyone forever trivially provides mutual exclusion.",
+      "The critical section is the code region, not the shared variable itself.",
+      "Bounded waiting requires a stated bound, not merely \"it will eventually get in\" — eventual entry with no bound is the weaker property."
+    ],
+    "mnem": "M-P-B: Mutual exclusion, Progress, Bounded waiting — safety, liveness, fairness in that order.",
+    "rel": ["Race conditions", "Peterson's and Dekker's algorithms", "Hardware support for synchronisation", "Semaphores"]
+  },
+  {
+    "id": "U4b-09",
+    "paper": "TECH1",
+    "unit": "4",
+    "unitTitle": "Operating System",
+    "sub": "Peterson's and Dekker's algorithms",
+    "def": "Peterson's and Dekker's algorithms are pure software solutions to the two-process critical section problem, using only ordinary shared variables and busy waiting.",
+    "exp": "Dekker's algorithm was the first correct software solution to two-process mutual exclusion; Dijkstra published it and credited the Dutch mathematician T. J. Dekker. It combines a `flag[2]` array of intent with a `turn` variable used to break ties, and it satisfies all three requirements — but the code is long and unintuitive.\n\nPeterson's algorithm (1981) is the same idea, shorter. Shared: `boolean flag[2]` initially false, and `int turn`. For process i, with j = 1 − i:\n\n```\nflag[i] = true;          // I want in\nturn = j;                // but you go first\nwhile (flag[j] && turn == j) ;   // busy wait\n    critical section\nflag[i] = false;\n    remainder section\n```\n\nThe trick is `turn = j`: each process politely defers. If both set their flags together, both write `turn`; the *last* write wins, and that process waits while the other proceeds. So exactly one gets in.\n\nIt satisfies all three requirements. Mutual exclusion: `turn` can hold only one value. Progress: a process in its remainder section has flag false, so it blocks nobody. Bounded waiting: after Pi exits, Pj enters next — the bound is one turn.\n\nTwo real limitations. It works for two processes only (Lamport's bakery algorithm generalises to n). And on modern out-of-order CPUs it can fail unless memory barriers stop the reordering of those loads and stores — the algorithm assumes sequentially consistent memory.\n\nBoth use busy waiting, so both burn CPU while blocked.",
+    "facts": [
+      "Peterson's algorithm uses two shared items: flag[2] (intent) and turn (tie-break).",
+      "The line turn = j means \"after you\" — the last writer of turn is the one that waits.",
+      "Peterson's satisfies mutual exclusion, progress and bounded waiting; the waiting bound is one entry by the other process.",
+      "Peterson's is restricted to two processes; Lamport's bakery algorithm handles n processes.",
+      "Dekker's algorithm is the first known correct software solution to the two-process problem.",
+      "Both are busy-waiting (spinning) solutions, so they waste CPU cycles while waiting.",
+      "Both assume atomic loads and stores and sequentially consistent memory; modern reordering CPUs need memory barriers for correctness."
+    ],
+    "traps": [
+      "Peterson's solves the TWO-process case only. An option claiming it works for n processes is wrong.",
+      "Using flag[] alone deadlocks (both set intent, both wait forever); using turn alone violates progress (strict alternation). You need both — questions often present one half and ask which requirement fails.",
+      "Setting turn = i instead of turn = j breaks it; the assignment gives the turn to the *other* process.",
+      "Peterson's is not deadlock-free by accident — it is provably correct, but only under atomic memory access assumptions.",
+      "Busy waiting is a drawback of these algorithms, not a violation of any of the three requirements — the requirements say nothing about efficiency.",
+      "Dekker's and Peterson's are software solutions; test-and-set is a hardware one. Do not attribute an atomic instruction to Peterson."
+    ],
+    "mnem": "Peterson: \"I want in, but after you\" — flag[i] = true; turn = j.",
+    "rel": ["Critical section problem", "Hardware support for synchronisation", "Semaphores", "Race conditions"]
+  },
+  {
+    "id": "U4b-10",
+    "paper": "TECH1",
+    "unit": "4",
+    "unitTitle": "Operating System",
+    "sub": "Hardware support for synchronisation",
+    "def": "Hardware provides mutual exclusion either by disabling interrupts or through atomic read-modify-write instructions such as test-and-set, swap and compare-and-swap.",
+    "exp": "Disabling interrupts. On a uniprocessor, if no interrupt can occur, no context switch can occur, so a code region runs to completion. Simple, and used inside kernels for very short sequences. It fails on a multiprocessor: disabling interrupts on one core does not stop another core from entering the same region, and broadcasting the disable to every core is slow. It is also unsafe to expose to user programs — a process that never re-enables interrupts halts the machine.\n\nAtomic instructions. Each executes as one uninterruptible unit even on a multiprocessor.\n\n`test_and_set(target)` — returns the old value of `target` and sets it to true, atomically. The lock:\n\n```\nwhile (test_and_set(&lock)) ;   // spin\n    critical section\nlock = false;\n```\n\n`compare_and_swap(value, expected, new)` — returns the original *value, and writes `new` only if *value equalled `expected`. Lock: `while (compare_and_swap(&lock, 0, 1) != 0) ;`\n\n`swap`/`exchange` — atomically exchanges two words; used the same way with a per-process `key` variable.\n\nThe important subtlety: the naive test-and-set lock above gives mutual exclusion and progress, but NOT bounded waiting — an unlucky process can be overtaken indefinitely. Bounded waiting needs the extended version with a shared `waiting[n]` array that hands the lock to the next waiter in round-robin order.\n\nAll of these are spinlocks: they busy-wait, which is acceptable only when the critical section is very short.",
+    "facts": [
+      "Disabling interrupts gives mutual exclusion on a uniprocessor only; it does not scale to multiprocessors.",
+      "test_and_set returns the old value of the target and unconditionally sets it to true, atomically.",
+      "compare_and_swap writes the new value only if the current value equals the expected value, and returns the original value.",
+      "The simple test-and-set lock satisfies mutual exclusion and progress but not bounded waiting.",
+      "Bounded waiting with test-and-set requires an additional waiting[n] array to pass the lock round-robin.",
+      "Swap/exchange atomically interchanges two words and can implement a lock with a local key variable.",
+      "These primitives are spinlocks — they busy-wait and are suited to short critical sections."
+    ],
+    "traps": [
+      "Disabling interrupts is NOT a valid multiprocessor solution — a very common wrong option.",
+      "test_and_set is often mis-stated: it sets the target to true regardless of its old value; it is compare_and_swap that is conditional.",
+      "The naive TAS lock fails bounded waiting, not mutual exclusion. Read carefully which property the question asks about.",
+      "Atomicity is provided by the hardware instruction, not by the surrounding while loop — the loop only spins.",
+      "Spinlocks waste CPU on a uniprocessor (the spinner holds the CPU the lock-holder needs); they make sense mainly on multiprocessors.",
+      "Atomic instructions are hardware; Peterson's and Dekker's are software. Questions test the classification directly."
+    ],
+    "mnem": "TAS sets always, CAS sets only if it matches.",
+    "rel": ["Critical section problem", "Peterson's and Dekker's algorithms", "Semaphores", "Race conditions"]
+  },
+  {
+    "id": "U4b-11",
+    "paper": "TECH1",
+    "unit": "4",
+    "unitTitle": "Operating System",
+    "sub": "Semaphores: counting, binary, and vs mutex",
+    "def": "A semaphore is an integer variable, introduced by Dijkstra, that after initialisation is accessed only through two atomic operations, wait() (P) and signal() (V).",
+    "exp": "Definition:\n\n```\nwait(S):   while (S <= 0) ;   // no-op / block\n           S--;\nsignal(S): S++;\n```\n\nBoth operations must execute atomically; the test and the decrement in wait() cannot be split.\n\nTwo kinds:\n- Counting semaphore — unrestricted integer domain. Initialise it to the number of available instances of a resource. Each wait() takes one, each signal() returns one. A negative value, in the blocking implementation, gives the number of processes waiting.\n- Binary semaphore — value restricted to 0 and 1. Behaves like a lock; on systems lacking one, it is simulated with a counting semaphore initialised to 1.\n\nBusy waiting is avoided by the blocking implementation: instead of spinning, wait() puts the process on the semaphore's queue and calls block(); signal() removes a process from that queue and calls wakeup(). The semaphore is then a struct with an int value and a process list. Spinning is not eliminated entirely — the semaphore operations themselves must be made atomic, typically with a short spinlock or by disabling interrupts.\n\nSemaphore vs mutex — a favourite distractor pair. A mutex is a locking mechanism with ownership: the thread that locks it is the only one permitted to unlock it. A semaphore is a signalling mechanism with no owner: any process may signal, including one that never waited. A binary semaphore and a mutex both take values 0/1, but only the mutex enforces ownership (and hence can support priority inheritance).",
+    "facts": [
+      "Semaphores were proposed by Dijkstra; wait() = P (proberen, to test) and signal() = V (verhogen, to increment).",
+      "wait() decrements after testing; signal() increments. Both must be atomic.",
+      "Counting semaphore: any integer value, initialised to the number of resource instances.",
+      "Binary semaphore: value 0 or 1, used for mutual exclusion.",
+      "In the blocking implementation, a negative semaphore value's magnitude is the number of waiting processes.",
+      "The blocking implementation replaces busy waiting with block() and wakeup() on a per-semaphore queue.",
+      "A mutex has ownership (only the locker unlocks); a semaphore has none (any process may signal)."
+    ],
+    "traps": [
+      "Binary semaphore ≠ mutex. Same 0/1 range, but the mutex enforces ownership; the semaphore is a signal any process may issue.",
+      "wait() is P and signal() is V — the letters come from Dutch, and P/V are frequently swapped in options.",
+      "Semaphores do not eliminate busy waiting entirely; the semaphore operations themselves need a short atomic/spinning region.",
+      "A semaphore initialised to 1 gives mutual exclusion; initialised to n it allows n processes in at once — read the initial value in the stem.",
+      "Semaphores prevent race conditions but do not prevent deadlock — wrong ordering of wait() calls creates deadlock (see the bounded-buffer trap).",
+      "Signalling a semaphore that nobody is waiting on is not lost: the count is remembered. This is the opposite of a monitor's condition variable."
+    ],
+    "mnem": "P = Proberen = \"Please, may I?\" (wait); V = Verhogen = \"Vacate\" (signal).",
+    "rel": ["Mutual exclusion with semaphores", "Monitors and condition variables", "Producer/consumer problem", "Critical section problem"]
+  },
+  {
+    "id": "U4b-12",
+    "paper": "TECH1",
+    "unit": "4",
+    "unitTitle": "Operating System",
+    "sub": "Mutual exclusion using semaphores",
+    "def": "A semaphore initialised to 1 enforces mutual exclusion by bracketing the critical section with wait() and signal(); a semaphore initialised to 0 enforces an ordering between two processes.",
+    "exp": "Mutual exclusion. Shared `semaphore mutex = 1`. Every process runs:\n\n```\nwait(mutex);\n    critical section\nsignal(mutex);\n    remainder section\n```\n\nThe first arrival takes mutex from 1 to 0 and proceeds; every later arrival finds 0 and blocks until the holder signals.\n\nResource counting. `semaphore sem = n` lets exactly n processes hold a resource simultaneously — a pool of n printers, n database connections. wait() takes one instance, signal() returns one.\n\nOrdering / precedence. This is the other half of what semaphores do, and it is heavily examined. Suppose statement S1 in P1 must execute before S2 in P2. Use `semaphore synch = 0`:\n\n```\nP1:  S1;  signal(synch);\nP2:  wait(synch);  S2;\n```\n\nP2 blocks at wait() because synch is 0, and only proceeds after P1 signals. Note that the signaller is not the waiter — this is exactly why a semaphore is not a mutex.\n\nA typical conventional question gives a precedence graph of statements S1…S6 with arrows and asks for the semaphores. The recipe: one semaphore per edge, initialised to 0; signal it at the tail of the arrow, wait on it at the head. A node with two incoming arrows performs two waits.\n\nThree classic misuses: signal(mutex) … wait(mutex) reversed (destroys mutual exclusion); wait(mutex) twice (deadlocks on itself); and omitting either operation.",
+    "facts": [
+      "mutex semaphore initialised to 1 gives mutual exclusion for any number of processes.",
+      "A semaphore initialised to n permits n concurrent holders of a resource.",
+      "A semaphore initialised to 0 is used for ordering/precedence, not mutual exclusion.",
+      "For precedence graphs: one semaphore per edge, initialised 0, signal at the source, wait at the destination.",
+      "A node with k incoming edges needs k wait() calls before it executes.",
+      "Reversing to signal(mutex) … wait(mutex) allows several processes into the critical section simultaneously.",
+      "Calling wait(mutex) twice in a row deadlocks the process against itself."
+    ],
+    "traps": [
+      "Initial value decides the role: 1 = mutual exclusion, 0 = ordering, n = resource counting. Options hinge on this number.",
+      "In the ordering pattern the signaller never waited — that is legal for a semaphore and illegal for a mutex.",
+      "Omitting signal(mutex) on an error/early-return path leaves the lock held forever; questions phrase this as \"what if the process terminates inside the critical section\".",
+      "Semaphores enforce mutual exclusion but not any particular order of entry — a process can be starved unless the implementation uses a FIFO queue.",
+      "Two processes each taking two different mutexes in opposite orders deadlock; correctness of a semaphore program depends on the ORDER of the wait() calls, not just their presence."
+    ],
+    "mnem": "Init 1 = lock, init 0 = signal-flag, init n = counter.",
+    "rel": ["Semaphores: counting, binary, and vs mutex", "Producer/consumer problem", "Critical section problem", "Monitors and condition variables"]
+  },
+  {
+    "id": "U4b-13",
+    "paper": "TECH1",
+    "unit": "4",
+    "unitTitle": "Operating System",
+    "sub": "Monitors and condition variables",
+    "def": "A monitor is a high-level synchronisation construct — an abstract data type bundling shared variables with the procedures that operate on them — in which only one process may be active inside the monitor at any time.",
+    "exp": "Semaphores are correct but fragile: mutual exclusion depends on every programmer, everywhere, writing wait() and signal() in the right order and never forgetting one. A single reversed pair anywhere in the program breaks the whole system, and the failure is timing-dependent. A monitor moves that responsibility into the language: the compiler generates the entry and exit code, so mutual exclusion cannot be omitted.\n\nStructure:\n\n```\nmonitor M {\n    // shared variables — private to the monitor\n    condition x, y;\n    procedure P1(...) { ... }\n    procedure P2(...) { ... }\n    initialization_code(...) { ... }\n}\n```\n\nMutual exclusion alone is not enough, so monitors add condition variables. On a condition x:\n- `x.wait()` suspends the calling process on x's queue and releases the monitor, so someone else can get in.\n- `x.signal()` resumes exactly one process suspended on x. If none is suspended, it has no effect at all.\n\nThat last clause is the key contrast with a semaphore. A semaphore signal() always increments and is remembered; a condition-variable signal on an empty queue is lost. Condition variables have no counter.\n\nWhen P signals and Q was waiting, both could now run inside the monitor. Two resolutions: signal-and-wait (Hoare) — P waits until Q leaves; and signal-and-continue (Mesa) — Q waits until P leaves. Mesa semantics means the condition may be false again by the time Q runs, so Mesa-style code puts `wait()` inside a `while` loop, not an `if`.",
+    "facts": [
+      "A monitor guarantees that only one process is active inside it at a time; the compiler enforces this.",
+      "Monitor variables are accessible only through the monitor's own procedures.",
+      "x.wait() suspends the caller and releases the monitor lock; x.signal() resumes one waiter.",
+      "x.signal() with no waiting process has no effect and is not remembered — unlike a semaphore signal.",
+      "Hoare semantics = signal-and-wait; Mesa semantics = signal-and-continue.",
+      "Under Mesa semantics, a condition wait must be re-tested in a while loop.",
+      "Monitors are a language construct; they can be implemented on top of semaphores.",
+      "Java's synchronized methods with wait()/notify() are a Mesa-style monitor."
+    ],
+    "traps": [
+      "A condition variable is NOT a semaphore: it holds no count, and a signal with no waiter is lost forever.",
+      "x.wait() releases the monitor lock — the whole point. A process that held the lock while waiting would deadlock every other process.",
+      "\"Monitors prevent deadlock\" is false. They prevent misuse of mutual-exclusion primitives; you can still deadlock across two monitors or by waiting on a condition nobody signals.",
+      "Under Mesa/signal-and-continue semantics, `if (!condition) x.wait();` is a bug — it must be `while`.",
+      "Monitors are safer, not more powerful: semaphores, monitors and message passing are equivalent in expressive power.",
+      "Only one process is active *inside* the monitor; processes waiting on a condition variable are inside the monitor's scope but not active, so they do not block entry."
+    ],
+    "mnem": "Semaphore remembers, condition variable forgets.",
+    "rel": ["Semaphores: counting, binary, and vs mutex", "Producer/consumer problem", "Readers-writers and dining philosophers", "Critical section problem"]
+  },
+  {
+    "id": "U4b-14",
+    "paper": "TECH1",
+    "unit": "4",
+    "unitTitle": "Operating System",
+    "sub": "Producer/consumer (bounded buffer) problem",
+    "def": "The producer/consumer problem asks how a producer filling a shared buffer and a consumer emptying it can be synchronised so that the producer never writes to a full buffer and the consumer never reads from an empty one.",
+    "exp": "With a buffer of n slots, three semaphores are needed:\n\n- `mutex = 1` — mutual exclusion on the buffer.\n- `empty = n` — counts free slots.\n- `full = 0` — counts filled slots.\n\nProducer:\n```\ndo {\n   produce item;\n   wait(empty);      // is there room?\n   wait(mutex);\n      add item to buffer;\n   signal(mutex);\n   signal(full);     // one more item\n} while (true);\n```\n\nConsumer:\n```\ndo {\n   wait(full);       // is there an item?\n   wait(mutex);\n      remove item from buffer;\n   signal(mutex);\n   signal(empty);    // one more free slot\n} while (true);\n```\n\nThe symmetry is the memory hook: the producer waits on `empty` and signals `full`; the consumer waits on `full` and signals `empty`. `empty` and `full` are counting semaphores and always satisfy empty + full ≤ n.\n\nThe ordering is not cosmetic. If the producer does `wait(mutex); wait(empty);` instead, and the buffer is full, it holds mutex while blocked on empty. The consumer then blocks on mutex and can never remove an item to release a slot — permanent deadlock. So: **always acquire the counting semaphore before the mutex, and release in the reverse order.**\n\nThe unbounded-buffer variant drops `empty` entirely (the producer never blocks) and keeps mutex and full.\n\nThe same problem is the standard motivating example for monitors and for pipes.",
+    "facts": [
+      "Three semaphores: mutex = 1, empty = n (free slots), full = 0 (filled slots).",
+      "Producer: wait(empty), wait(mutex), … signal(mutex), signal(full).",
+      "Consumer: wait(full), wait(mutex), … signal(mutex), signal(empty).",
+      "empty and full are counting semaphores; mutex is binary.",
+      "Invariant: empty + full ≤ n, where n is the buffer size.",
+      "Swapping wait(mutex) before wait(empty) in the producer causes deadlock when the buffer is full.",
+      "The unbounded-buffer variant omits the empty semaphore; the producer never blocks.",
+      "It is also known as the bounded-buffer problem."
+    ],
+    "traps": [
+      "Order of waits is the whole question: counting semaphore FIRST, mutex SECOND. Reversing them deadlocks.",
+      "The initial value of full is 0 and of empty is n — options routinely swap these two.",
+      "The producer signals full, not empty. Signalling the semaphore you waited on is the classic wrong answer.",
+      "Signals may be released in either order after the critical section, but the standard textbook form releases mutex first, then the counting semaphore.",
+      "Mutex is needed only if the buffer structure itself can be corrupted by simultaneous access; with a single producer and single consumer and careful pointer use it can sometimes be dropped — but do not assume this unless the question sets it up.",
+      "This is a synchronisation problem, not a deadlock problem — the correct solution is deadlock-free; deadlock appears only in the mis-ordered version."
+    ],
+    "mnem": "Producer: \"need an empty, make a full.\" Consumer: \"need a full, make an empty.\"",
+    "rel": ["Semaphores: counting, binary, and vs mutex", "Readers-writers and dining philosophers", "Monitors and condition variables", "Inter-process communication"]
+  },
+  {
+    "id": "U4b-15",
+    "paper": "TECH1",
+    "unit": "4",
+    "unitTitle": "Operating System",
+    "sub": "Readers-writers and dining philosophers",
+    "def": "Two further classical concurrency problems: readers-writers, which illustrates starvation under shared-versus-exclusive access, and dining philosophers, which illustrates deadlock from circular resource acquisition.",
+    "exp": "**Readers-writers.** A data set is shared. Any number of readers may read at once; a writer needs exclusive access. The standard semaphore solution uses `rw_mutex = 1` (held by a writer, or by the first reader on behalf of all readers), `mutex = 1` (protects the counter), and `read_count = 0`. A reader increments read_count under mutex and calls wait(rw_mutex) only if it is the first reader; the last reader out calls signal(rw_mutex).\n\nThere are two versions, and questions distinguish them:\n- First readers-writers problem — no reader waits unless a writer already has permission. Readers get priority, so **writers can starve** under a continuous stream of readers.\n- Second readers-writers problem — once a writer is ready it writes as soon as possible. Writers get priority, so **readers can starve**.\n\nNeither version is starvation-free; a third, fair variant is needed for that. The problem's lesson is that mutual exclusion is not always all-or-nothing — read sharing is safe, write sharing is not.\n\n**Dining philosophers.** Five philosophers sit around a table with five chopsticks, one between each pair. A philosopher needs both neighbouring chopsticks to eat. The naive solution — wait(chopstick[i]); wait(chopstick[(i+1)%5]) — deadlocks if all five pick up their left chopstick simultaneously: all four Coffman conditions hold, including circular wait.\n\nStandard fixes: allow at most four philosophers at the table; pick up both chopsticks only if both are free (a single atomic test); or make one philosopher (say, the odd-numbered ones) pick right before left, breaking the symmetry and hence the circular wait.",
+    "facts": [
+      "Readers-writers: many concurrent readers allowed; a writer needs exclusive access.",
+      "Semaphore solution uses rw_mutex = 1, mutex = 1 and an integer read_count = 0.",
+      "Only the first reader waits on rw_mutex; only the last reader signals it.",
+      "First readers-writers problem gives readers priority and can starve writers.",
+      "Second readers-writers problem gives writers priority and can starve readers.",
+      "Dining philosophers: 5 philosophers, 5 chopsticks, each needs both neighbours' chopsticks to eat.",
+      "The naive left-then-right solution deadlocks when all five grab their left chopstick at once.",
+      "Fixes: at most 4 at the table; take both chopsticks atomically or none; or break symmetry by odd/even pick-up order."
+    ],
+    "traps": [
+      "Dining philosophers illustrates DEADLOCK (and starvation); readers-writers illustrates STARVATION under priority. Questions ask which problem illustrates what.",
+      "A solution that avoids deadlock may still starve a philosopher — deadlock-freedom and starvation-freedom are separate guarantees.",
+      "In readers-writers, mutex protects read_count, while rw_mutex protects the data. Confusing the two roles is the standard error.",
+      "Neither the first nor the second readers-writers solution is fair; \"the classical solution prevents starvation\" is false.",
+      "Five philosophers need five chopsticks, not ten — each chopstick is shared between two neighbours.",
+      "\"At most four at the table\" works because with 4 philosophers and 5 chopsticks at least one philosopher can always get both — it removes circular wait, it does not remove hold-and-wait."
+    ],
+    "mnem": "Philosophers → deadlock (circle of forks). Readers-writers → starvation (whoever has priority hogs).",
+    "rel": ["Producer/consumer problem", "Semaphores: counting, binary, and vs mutex", "Monitors and condition variables", "Deadlock"]
+  },
+  {
+    "id": "U4b-16",
+    "paper": "TECH1",
+    "unit": "4",
+    "unitTitle": "Operating System",
+    "sub": "Inter-process communication (IPC)",
+    "def": "Inter-process communication is the set of mechanisms that let cooperating processes exchange data and synchronise their actions, implemented either by shared memory or by message passing.",
+    "exp": "Two fundamental models.\n\n**Shared memory** — the processes ask the kernel to map a common region into both address spaces. After setup the kernel is out of the way, so transfers run at memory speed. The cost is that the processes must provide their own synchronisation (semaphores, mutexes) — the OS does not police the region. Fast, but only within one machine.\n\n**Message passing** — processes exchange messages through `send(message)` and `receive(message)`. Every exchange is a system call, so it is slower for bulk data, but it needs no shared variables and therefore no mutual exclusion, and it works across machines. Note the standard exam sentence: message-passing IPC lets processes communicate and synchronise their actions **without** using the same address space.\n\nUnder message passing:\n\n- The link between two processes P and Q over which messages are sent and received is called a **communication link**.\n- Direct communication names the partner explicitly — `send(P, message)`, `receive(Q, message)`. Exactly one link exists per pair of processes, and it is associated with exactly those two processes.\n- Indirect communication goes via a **mailbox** or **port** — `send(A, message)` where A is a mailbox id. A link is established only if the processes share a mailbox, a link may be associated with more than two processes, and a pair may share several links.\n- Blocking (synchronous) send/receive suspend the caller; non-blocking (asynchronous) return immediately. Blocking send plus blocking receive is a **rendezvous**.\n- Buffering: zero capacity (sender must block), bounded capacity, unbounded capacity.\n\nConcrete mechanisms: ordinary (anonymous) pipes, named pipes/FIFOs, message queues, and sockets — a socket being an endpoint identified by an IP address plus a port number.",
+    "facts": [
+      "Two IPC models: shared memory and message passing.",
+      "Message passing lets processes communicate and synchronise WITHOUT using the same address space.",
+      "The link between two processes P and Q for sending and receiving messages is called a communication link.",
+      "Direct communication: send(P, msg)/receive(Q, msg); exactly one link per pair of processes.",
+      "Indirect communication uses a mailbox or port; a link may be shared by more than two processes.",
+      "Blocking send/receive = synchronous; non-blocking = asynchronous. Blocking send with blocking receive is a rendezvous.",
+      "Buffering capacities: zero, bounded, unbounded.",
+      "An ordinary (anonymous) pipe is unidirectional, requires a parent-child relationship, and disappears when the processes finish.",
+      "A named pipe (FIFO) persists, needs no parent-child relationship, and can be used by several processes.",
+      "A socket is identified by an IP address together with a port number; ports below 1024 are the well-known ports."
+    ],
+    "traps": [
+      "\"IPC allows processes to communicate and synchronise their actions ___ using the same address space\" — the answer is WITHOUT (this is the message-passing model). The blank is not \"by\".",
+      "The link between P and Q is a communication link, not a \"channel\", \"socket\" or \"pipe\" in the textbook phrasing — take the exact term the question expects.",
+      "Shared memory is faster than message passing after setup, but requires application-level synchronisation; message passing needs no mutual exclusion. Do not swap these advantages.",
+      "In DIRECT communication exactly one link exists between a pair; the \"more than two processes may share a link\" property belongs to INDIRECT communication.",
+      "Ordinary pipes are unidirectional and need a parent-child relationship; named pipes (FIFOs) do not. This pair is a standard MCQ.",
+      "Zero-capacity buffering forces the sender to block until the receiver takes the message — it is not \"no messages allowed\".",
+      "A blocking receive does not imply a blocking send; the four send/receive combinations are independent."
+    ],
+    "mnem": "Direct = you name the process; Indirect = you name the mailbox.",
+    "rel": ["Producer/consumer problem", "Process generation: fork, exec, zombies", "Principles of concurrency", "Semaphores: counting, binary, and vs mutex"]
+  }
+]

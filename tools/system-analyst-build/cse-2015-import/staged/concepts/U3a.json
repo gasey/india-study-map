@@ -1,0 +1,354 @@
+[
+  {
+    "id": "U3a-01",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "ADT vs data structure, linear/dynamic",
+    "def": "An abstract data type (ADT) specifies what operations a data collection supports and how they behave, while a data structure is the concrete implementation that stores the data and realises those operations.",
+    "exp": "An ADT is a logical/mathematical model: it says a Stack supports push, pop, peek with LIFO behaviour, but says nothing about how that is stored. A data structure is the actual storage layout and code that implements an ADT — a Stack can be implemented with an array or with a linked list, and both are valid, interchangeable implementations of the same ADT. Data structures are also classified along two independent axes. Linear vs non-linear describes logical connectivity: in a linear structure every element has at most one predecessor and one successor (array, linked list, stack, queue); in a non-linear structure an element can connect to several others (tree, graph). Static vs dynamic describes size behaviour: a static structure has its size fixed when created, typically stored contiguously (array); a dynamic structure can grow or shrink at run time as memory is allocated and freed (linked list, dynamic array/vector). These two classifications are orthogonal — an array is linear and static, a linked list is linear and dynamic, a graph can be represented dynamically or with a fixed-size adjacency matrix.",
+    "facts": [
+      "ADT defines operations and their semantics (the interface); a data structure defines storage and algorithms (the implementation).",
+      "Stack, Queue, List, Set, Map are ADTs; array, linked list, hash table are data structures that can implement them.",
+      "Linear structures: each element has at most one predecessor and one successor (array, linked list, stack, queue).",
+      "Non-linear structures: an element can connect to multiple elements (tree, graph).",
+      "Static structure: size fixed at creation, usually contiguous memory (array).",
+      "Dynamic structure: size varies at run time as memory is allocated/freed (linked list, dynamic array)."
+    ],
+    "traps": [
+      "Calling an array an ADT — it is a concrete data structure; \"List\" is the ADT it can implement.",
+      "Treating linear/non-linear as being about physical memory layout — it is actually about logical connectivity between elements.",
+      "Assuming static vs dynamic and linear vs non-linear are the same axis — they are independent; a linked list is linear yet dynamic.",
+      "Confusing \"static\" (fixed size once created) with \"static memory allocation\" (compile-time/global) — a heap-allocated array of fixed size is still a static structure in the DS sense."
+    ],
+    "mnem": "",
+    "rel": ["Arrays memory layout", "Linked list vs array", "Recursion"]
+  },
+  {
+    "id": "U3a-02",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Arrays: 1-D address formula",
+    "def": "An array is a static, linear data structure holding a fixed number of same-type elements in contiguous memory, so any element's address can be computed directly from its index.",
+    "exp": "Because array elements sit one after another in memory with no gaps, the address of element A[i] can be calculated arithmetically instead of being searched for. If Base is the memory address of the first element, w is the size in bytes of one element, and lower is the smallest valid index, then Addr(A[i]) = Base + (i - lower) x w. For a 0-indexed array this simplifies to Addr(A[i]) = Base + i x w. Worked example: an int array (w = 4 bytes) with Base = 1000 and 0-based indexing. Addr(A[5]) = 1000 + 5 x 4 = 1020. If the same array were instead declared with indices running 1..n (lower = 1), the address of the element holding the same value would be Addr(A[6]) = 1000 + (6-1) x 4 = 1020 — same physical slot, different index because of the different lower bound. This direct computation is why arrays give O(1) random access, in contrast to structures like linked lists where reaching the i-th element requires walking i links from the head.",
+    "facts": [
+      "Random/direct access to any array element is O(1) because the address is computed, not searched for.",
+      "General formula: Addr(A[i]) = Base + (i - lowerBound) x size_of_element.",
+      "For a 0-based int array (4 bytes/element) with Base = 1000: Addr(A[i]) = 1000 + 4i.",
+      "Insertion or deletion in the middle of an array is O(n) because later elements must shift to keep the array contiguous.",
+      "Arrays occupy contiguous memory, which is precisely what enables this constant-time address computation."
+    ],
+    "traps": [
+      "Forgetting to subtract the lower bound when the array's indices don't start at 0 (e.g., a 1-based or otherwise offset array).",
+      "Confusing \"number of elements in the array\" with \"size of one element\" (w) inside the formula.",
+      "Assuming array access is O(1) even when the index itself must first be found by searching — the O(1) applies only once the index is already known."
+    ],
+    "mnem": "Base + index x width.",
+    "rel": ["Two-dimensional array addressing", "Multidimensional array addressing", "ADT vs data structure"]
+  },
+  {
+    "id": "U3a-03",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Row-major vs column-major order",
+    "def": "A two-dimensional array can be laid out in memory in row-major order (row by row) or column-major order (column by column), each giving a different formula for an element's address.",
+    "exp": "Row-major order (used by C, C++, Java, Pascal) stores every element of row 0, then every element of row 1, and so on. For a matrix with rows indexed 0..M-1 and N columns, Addr(A[i][j]) = Base + [(i x N) + j] x w, where N is the number of columns and w is the element size. Column-major order (used by Fortran, MATLAB, R) stores every element of column 0, then column 1, and so on: Addr(A[i][j]) = Base + [(j x M) + i] x w, where M is the number of rows. Worked example: a 3x4 matrix (rows 0-2, columns 0-3), Base = 1000, w = 2 bytes. Row-major address of A[2][1]: N = 4, so Addr = 1000 + (2x4 + 1) x 2 = 1000 + 18 = 1018. Column-major address of the same element A[2][1]: M = 3, so Addr = 1000 + (1x3 + 2) x 2 = 1000 + 10 = 1010 — same logical element, two different physical addresses depending on storage order. When indices don't start at 0, subtract the respective lower bounds before multiplying, exactly as in the 1-D formula.",
+    "facts": [
+      "Row-major: Addr(A[i][j]) = Base + [(i - lr) x N + (j - lc)] x w, where N = number of columns.",
+      "Column-major: Addr(A[i][j]) = Base + [(j - lc) x M + (i - lr)] x w, where M = number of rows.",
+      "C, C++, Java, Pascal store arrays in row-major order; Fortran, MATLAB, R store them in column-major order.",
+      "For a 3x4 matrix, Base = 1000, w = 2, 0-indexed: row-major address of A[2][1] = 1018; column-major address of the same element = 1010.",
+      "The two formulas differ only in which dimension's size (N or M) multiplies the outer index."
+    ],
+    "traps": [
+      "Swapping N and M — row-major multiplies the row index by the number of COLUMNS (N); column-major multiplies the column index by the number of ROWS (M).",
+      "Forgetting to subtract each dimension's lower bound when the array does not start at index 0.",
+      "Assuming row-major is the universal default — Fortran-family languages default to column-major, a classic distractor.",
+      "Swapping i and j inside the offset term, which silently gives the address of a transposed-position element."
+    ],
+    "mnem": "Row-major: the rightmost index moves fastest, like reading a row left to right. Column-major: the leftmost index moves fastest.",
+    "rel": ["Multidimensional array addressing", "Arrays memory layout", "Sparse matrices"]
+  },
+  {
+    "id": "U3a-04",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Multidimensional array addressing",
+    "def": "For arrays of three or more dimensions, an element's address generalises the row-major/column-major idea: each index is weighted by the sizes of all dimensions that vary faster than it.",
+    "exp": "For a k-dimensional array A[d1]...[dk] stored in row-major order, with dimension sizes n1..nk (each ni = upper_i - lower_i + 1) and element size w, the address is Addr = Base + w x [ sum over p=1..k of (i_p - l_p) x (product of n_q for all q > p) ]. In words: the offset contributed by index i_p is multiplied by the sizes of every dimension to its right, because those vary faster and are stored more tightly nested. Column-major mirrors this by multiplying instead by the sizes of every dimension to the LEFT. Worked example: a 3-D array A[2][3][4] (dimension sizes 2, 3, 4), 0-indexed, w = 4 bytes, Base unspecified. Offset of A[1][2][3] = ((1 x 3) + 2) x 4 + 3 = (3+2) x 4 + 3 = 20 + 3 = 23 elements, so Addr = Base + 23 x 4 = Base + 92. The 2-D row-major/column-major formulas are simply the k=2 special case of this general rule, and computing the address always takes O(k) arithmetic steps regardless of how large the array is.",
+    "facts": [
+      "General row-major offset = sum over dimensions of (index - lower bound) x product of sizes of all faster-varying (later) dimensions.",
+      "Column-major is the mirror rule: multiply by the product of sizes of all slower-varying (earlier) dimensions instead.",
+      "Address computation for a k-dimensional array takes O(k) time, independent of the array's total size.",
+      "The 2-D row-major and column-major formulas are the k=2 special case of this general formula.",
+      "Total number of elements in a k-D array = n1 x n2 x ... x nk (product of all dimension sizes)."
+    ],
+    "traps": [
+      "Getting the direction of the product backwards — row-major multiplies by sizes of dimensions to the RIGHT, not the left.",
+      "Memorising a separate formula per dimension count instead of the general \"product of faster-varying dimension sizes\" rule, which breaks down on unusual index orders in exam questions.",
+      "Forgetting that a dimension declared as l..u has size (u - l + 1), not u, when computing the product terms."
+    ],
+    "mnem": "",
+    "rel": ["Two-dimensional array addressing", "Arrays memory layout", "Sparse matrices"]
+  },
+  {
+    "id": "U3a-05",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Sparse matrices: triplet & linked form",
+    "def": "A sparse matrix is one in which the vast majority of elements are zero, so it is stored compactly by recording only the non-zero entries instead of the full row-major/column-major array.",
+    "exp": "Storing a sparse matrix as a plain 2-D array wastes memory on zeros and wastes time scanning them. The triplet (3-tuple) representation stores only non-zero entries as (row, column, value) triples, usually in an array or list, often with an initial triple recording (total rows, total columns, number of non-zero entries) as a header. This is compact but makes operations like transpose or multiplication more code than the dense-matrix versions, and finding a specific element requires scanning (or a sorted search) rather than direct addressing. The linked (orthogonal list) representation instead gives each non-zero element a node holding its row, column, and value, plus two pointers: one to the next non-zero element in the same row, and one to the next non-zero element in the same column. This supports efficient row-wise or column-wise traversal and cheap insertion/deletion of a non-zero entry once its neighbouring nodes are known, which matters when the matrix's non-zero pattern changes often (e.g., iterative numerical methods). The choice between the two is a classic space-vs-flexibility trade-off: triplets are simpler and more compact; linked lists cost more memory per entry (multiple pointers) but handle dynamic updates better.",
+    "facts": [
+      "Triplet representation: array of (row, column, value) tuples; index 0 conventionally stores (numRows, numCols, numNonZero).",
+      "Triplet storage needs roughly 3 x (number of non-zero elements) units, versus rows x columns for dense storage.",
+      "Linked (orthogonal list) representation gives each non-zero node a pointer to the next non-zero in its row and the next non-zero in its column.",
+      "Linked representation supports cheap insertion/deletion of a non-zero element once neighbouring nodes are known, unlike a triplet array which may need shifting.",
+      "Neither representation gives O(1) random access to an arbitrary A[i][j] the way a dense array does."
+    ],
+    "traps": [
+      "Assuming triplet representation still gives O(1) access to A[i][j] — it doesn't; finding a specific element requires searching unless the triplets are sorted and indexed.",
+      "Calling any matrix with some zeros \"sparse\" — the term is reserved for matrices where non-zero elements are a small minority.",
+      "Assuming linked representation is unconditionally better — its per-element pointer overhead only pays off when the matrix's non-zero pattern changes frequently; for a static sparse matrix, triplets are simpler and more compact."
+    ],
+    "mnem": "",
+    "rel": ["Two-dimensional array addressing", "Packing and space-efficient storage", "Arrays memory layout"]
+  },
+  {
+    "id": "U3a-06",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Packing and space-efficient storage",
+    "def": "Packing is storing data using fewer bits or bytes than a naive layout would need — by combining several small fields into one word, or exploiting known structure like symmetry — trading extra pack/unpack computation for reduced memory use.",
+    "exp": "Packing exploits redundancy or structure that a plain layout ignores. A classic case is bit-field packing: several small flags or a small-range value can be stored in a few bits of one byte instead of a whole byte or word each, common in hardware registers, colour values, and status flags. Another classic case is packing a symmetric matrix: since A[i][j] = A[j][i], only the upper (or lower) triangle needs to be stored, roughly n(n+1)/2 elements instead of n^2, with a modified address formula to map a logical (i,j) index into the packed 1-D array. Sparse matrix triplet/linked storage (a separate topic) is itself an example of packing applied to matrices dominated by zeros. The trade-off is always the same: packing reduces memory footprint but adds CPU work — masking and shifting to extract a bit-field value, or extra index arithmetic to read a packed triangular element — so it is a direct application of the general space-time trade-off principle to storage layout rather than to algorithm choice.",
+    "facts": [
+      "Packing exploits known structure (redundancy, symmetry, small value ranges) to store data in less space than a naive layout.",
+      "Symmetric n x n matrix packing needs about n(n+1)/2 elements (upper or lower triangle only) instead of n^2.",
+      "Bit-field packing stores several small values within the bits of one word or byte (flags, colour channels, hardware registers).",
+      "Packing trades memory savings for extra CPU time spent packing (inserting) and unpacking (extracting) values.",
+      "Sparse matrix triplet/linked storage is a form of packing applied specifically to matrices with mostly-zero content."
+    ],
+    "traps": [
+      "Assuming packing always improves performance — it can slow down access-heavy code because every read/write needs extra mask/shift or index-mapping operations.",
+      "Using the plain row-major address formula on a packed triangular matrix — the formula must be adjusted for the packed 1-D layout.",
+      "Confusing \"packing\" (deliberately reducing storage) with compiler-inserted padding/alignment, which does the opposite by adding bytes for alignment."
+    ],
+    "mnem": "",
+    "rel": ["Sparse matrices", "Time vs space complexity", "Arrays memory layout"]
+  },
+  {
+    "id": "U3a-07",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Strings: representation and basic operations",
+    "def": "A string is a sequence of characters handled as a single data item, represented in memory either with an explicit stored length (length-prefixed) or with a special terminator character marking its end (null-terminated).",
+    "exp": "Length-prefixed representation stores an integer count alongside (usually before) the character data. Its length is available in O(1), and because there is no reserved terminator character, the string can contain any byte value, including a literal zero. Null-terminated representation (the C convention) stores just the characters followed by a sentinel '\\0'; there is no separate counter, so computing the length means scanning until the terminator is found, an O(n) operation, and an embedded '\\0' cannot appear as data since it would be read as the end of the string. Basic string operations and their typical costs: length lookup is O(1) for length-prefixed strings and O(n) for null-terminated ones; concatenating strings of length n and m by copying both into a new buffer is O(n+m); extracting a substring of length k is O(k); and lexicographic comparison of two strings is O(min(n,m)) in the worst case, since it stops at the first mismatching character or when the shorter string ends. Many higher-level languages (Java, Python, Pascal) use length-prefixed-style internal representations even when their syntax resembles C.",
+    "facts": [
+      "Length-prefixed strings: length lookup is O(1); can contain any byte value including an embedded zero.",
+      "Null-terminated strings (C convention): length lookup is O(n), since it requires scanning for '\\0'.",
+      "A null-terminated string cannot store an embedded '\\0' as data, unlike a length-prefixed string.",
+      "Concatenating two strings of length n and m by copying takes O(n+m) time.",
+      "Lexicographic string comparison takes O(min(n,m)) time in the worst case."
+    ],
+    "traps": [
+      "Assuming strlen()-style length is O(1) in C — it is O(n) precisely because C strings are null-terminated, not length-prefixed.",
+      "Forgetting a null-terminated string cannot hold an embedded '\\0' as legitimate data, which a length-prefixed string can.",
+      "Treating \"string\" purely as its representation rather than as an ADT (sequence of characters plus operations) whose storage is an implementation choice, echoing the ADT-vs-data-structure distinction."
+    ],
+    "mnem": "",
+    "rel": ["ADT vs data structure", "String pattern matching", "Arrays memory layout"]
+  },
+  {
+    "id": "U3a-08",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "String pattern matching: naive and KMP",
+    "def": "String pattern matching finds every occurrence of a pattern of length m inside a text of length n; the naive algorithm checks every possible alignment in O(nm) time, while the Knuth-Morris-Pratt (KMP) algorithm avoids re-examining matched characters to run in O(n+m).",
+    "exp": "The naive algorithm slides the pattern over the text one position at a time, comparing characters from scratch at each alignment; its worst case is O(n x m), which occurs on inputs like text \"aaaa...a\" against pattern \"aaa...ab\", where many characters match before the final mismatch at every alignment. KMP improves on this by preprocessing the pattern itself: in O(m) time it builds a failure function (also called the LPS array — longest proper prefix of the pattern-so-far that is also a suffix of it). When a mismatch occurs after some characters have matched, this table tells the algorithm exactly how far it can shift the pattern without re-comparing text characters already known to match, because the LPS value captures how much of the pattern's own prefix already lines up. Since the text pointer never moves backward, the whole scan plus preprocessing runs in O(n + m). Other classical matchers worth knowing by name: Boyer-Moore, which skips ahead using bad-character and good-suffix heuristics and can be sub-linear in practice, and Rabin-Karp, which uses a rolling hash to compare substrings quickly on average.",
+    "facts": [
+      "Naive matching: worst-case time O(n x m); best case close to O(n) when mismatches occur immediately.",
+      "KMP preprocesses the pattern into an LPS (longest proper prefix that is also a suffix) array in O(m) time.",
+      "KMP's overall time complexity is O(n + m), and it never re-reads a text character once it has been matched.",
+      "KMP's key idea: on a mismatch, use the LPS table to know how far to shift the pattern instead of restarting comparison from the next text position.",
+      "Other classic matchers: Boyer-Moore (bad-character/good-suffix skipping) and Rabin-Karp (rolling hash), each with different average-case behaviour."
+    ],
+    "traps": [
+      "Quoting KMP's complexity as O(nm) — that bound belongs to the naive algorithm; KMP's entire purpose is avoiding it.",
+      "Assuming naive matching is always O(nm) in practice — on typical, non-adversarial text it usually performs close to O(n).",
+      "Confusing the LPS/failure function with a simple running count of matched characters — it specifically encodes the longest prefix of the pattern that is also a suffix of the portion matched so far."
+    ],
+    "mnem": "",
+    "rel": ["Strings representation", "Analysing loops for complexity", "Asymptotic notation"]
+  },
+  {
+    "id": "U3a-09",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Algorithm: definition & properties",
+    "def": "An algorithm is a finite, well-defined sequence of unambiguous steps that transforms given input into desired output in a finite amount of time.",
+    "exp": "Standard texts list five properties every algorithm must satisfy. Finiteness: the algorithm must terminate after a finite number of steps — this is what separates an algorithm from a general process or program, since a program (such as an operating system's main loop) need not terminate. Definiteness: every step must be precisely and unambiguously specified, with exactly one interpretation, so two people following it reach the same result. Input: the algorithm takes zero or more well-specified inputs — zero is allowed, since some algorithms (e.g., \"print hello\") need none. Output: it produces one or more outputs that bear a defined relationship to the input — at least one output is mandatory. Effectiveness: every operation must be basic enough to be carried out exactly, in principle by hand with pencil and paper, in a finite amount of time — it cannot rely on an operation that is itself infeasible. These five properties are commonly tested directly, often as \"which of the following is NOT a required property,\" with efficiency being the usual false option: efficiency is desirable and is what complexity analysis measures, but it is not one of the defining properties of an algorithm.",
+    "facts": [
+      "Five standard properties: finiteness, definiteness, input, output, effectiveness.",
+      "Finiteness distinguishes an algorithm from a general program or process (e.g. an OS loop, which need not terminate).",
+      "Definiteness requires each step to have exactly one clear, unambiguous meaning.",
+      "Effectiveness requires each operation to be basic/primitive enough to be carried out exactly and in finite time.",
+      "Input requirement allows zero or more inputs; output requirement mandates at least one output."
+    ],
+    "traps": [
+      "Claiming an algorithm needs \"at least one input\" — the standard definition permits zero inputs; only output is mandatory to be at least one.",
+      "Equating \"algorithm\" with \"program\" — every algorithm can be written as a program, but not every program is an algorithm, since programs (e.g. an OS) may run indefinitely and violate finiteness.",
+      "Treating efficiency as one of the five required properties — it is a desirable quality measured separately by complexity analysis, not part of the formal definition."
+    ],
+    "mnem": "FDIOE: Finiteness, Definiteness, Input, Output, Effectiveness.",
+    "rel": ["Time vs space complexity", "Analysing loops for complexity", "Recursion"]
+  },
+  {
+    "id": "U3a-10",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Time vs space complexity trade-off",
+    "def": "Time complexity measures how an algorithm's running time grows with input size, space complexity measures how much extra memory it needs, and the two can often be traded against each other.",
+    "exp": "Both complexities are typically expressed as functions of input size n and reported using asymptotic notation. Time complexity counts basic operations as a function of n; space complexity typically counts auxiliary space — memory used beyond the input itself, which for recursive algorithms includes the call stack. The space-time trade-off is the principle that an algorithm can often be made faster by using more memory (caching results, precomputed lookup tables, hashing) or made to use less memory at the cost of extra recomputation. The canonical teaching example is Fibonacci: the naive recursive version recomputes the same subproblems repeatedly, costing O(2^n) time while using only O(n) stack space; memoizing it (storing each computed Fibonacci value the first time it is needed) brings time down to O(n) at the cost of O(n) extra storage for the memo table. Another common instance: a hash table gives O(1) average-case lookup using extra memory for the hash structure, versus binary search on a sorted array giving O(log n) lookup with no extra structure beyond the array itself. Exam questions often ask you to state both complexities for the same algorithm, not just time.",
+    "facts": [
+      "Time complexity: growth rate of running time with input size n, typically stated with Big-O.",
+      "Space complexity: growth rate of memory used (usually auxiliary space, excluding the input itself) with n.",
+      "Space-time trade-off: extra memory (caching, precomputed tables, hashing) can reduce time, and vice versa.",
+      "Memoized recursive Fibonacci: O(n) time and O(n) extra space, versus naive recursive Fibonacci's O(2^n) time.",
+      "Space complexity of a recursive algorithm usually must include the call stack, not just explicit variables."
+    ],
+    "traps": [
+      "Reporting only time complexity for a recursive algorithm and forgetting the call stack's space cost — naive recursive Fibonacci uses O(n) stack space despite its exponential time.",
+      "Assuming more space automatically means faster time — some memory-heavy structures (e.g. an unbalanced tree) don't improve time complexity at all.",
+      "Treating \"space complexity\" as the memory needed to hold the input — it conventionally refers to EXTRA space used beyond the input."
+    ],
+    "mnem": "",
+    "rel": ["Algorithm properties", "Asymptotic notation", "Recursion"]
+  },
+  {
+    "id": "U3a-11",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Asymptotic notation: O, Omega, Theta",
+    "def": "Asymptotic notation describes how a function grows as its input approaches infinity, ignoring constant factors and lower-order terms: Big-O gives an upper bound, Big-Omega a lower bound, Big-Theta a tight bound, and little-o a strict upper bound.",
+    "exp": "Formally, f(n) = O(g(n)) if there exist positive constants c and n0 such that 0 <= f(n) <= c.g(n) for all n >= n0 — f grows no faster than g. f(n) = Omega(g(n)) if there exist c, n0 such that 0 <= c.g(n) <= f(n) for all n >= n0 — f grows at least as fast as g. f(n) = Theta(g(n)) if both the O and Omega relationships hold (possibly with different constants) — f and g grow at the same rate. f(n) = o(g(n)) is stricter: for EVERY constant c > 0 (not just some c), there exists n0 such that f(n) < c.g(n) for all n >= n0, equivalent to the limit of f(n)/g(n) going to 0 as n approaches infinity — f grows strictly slower than g. Worked example: for f(n) = 3n^2 + 5n, we have f(n) = O(n^2), f(n) = Omega(n^2), and hence f(n) = Theta(n^2); also f(n) = o(n^3) since 3n^2+5n grows strictly slower than n^3. These definitions describe bounds on growth rate and are independent of whether the function being bounded represents a best, average, or worst case running time.",
+    "facts": [
+      "Big-O: f(n) = O(g(n)) means f grows no faster than g (upper bound) — exists c, n0 such that f(n) <= c.g(n) for all n >= n0.",
+      "Big-Omega: f(n) = Omega(g(n)) means f grows at least as fast as g (lower bound) — exists c, n0 such that f(n) >= c.g(n) for all n >= n0.",
+      "Big-Theta: f(n) = Theta(g(n)) means f and g grow at the same rate (tight bound) — both O and Omega hold.",
+      "little-o: f(n) = o(g(n)) is a strict upper bound — holds for EVERY constant c, not just some c, meaning f grows strictly slower than g.",
+      "Example: 2n^2 + 3n + 1 is Theta(n^2), since it is both O(n^2) and Omega(n^2)."
+    ],
+    "traps": [
+      "Using O() when Theta() is meant — casual usage of \"O(n log n)\" often really means Theta(n log n); the exam distinguishes them, and O alone only claims an upper bound.",
+      "Confusing the quantifiers — O, Omega, Theta each require only \"there EXISTS a constant c\", whereas little-o requires the bound to hold for EVERY constant c > 0.",
+      "Believing Big-Omega always describes best case and Big-O always describes worst case — bound type (O/Omega/Theta) and case type (best/average/worst) are orthogonal classifications of the same or different functions."
+    ],
+    "mnem": "O = at most, Omega = at least, Theta = exactly, o = strictly less than.",
+    "rel": ["Best average worst case analysis", "Time vs space complexity", "Analysing loops for complexity"]
+  },
+  {
+    "id": "U3a-12",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Best, average and worst case analysis",
+    "def": "Best, average and worst case describe an algorithm's performance under the most favourable, typical, and least favourable inputs respectively; worst case is quoted most often because it gives a guaranteed upper bound regardless of the actual input.",
+    "exp": "Take linear search for a value in an array of n elements as the standard teaching example: best case is O(1), when the target is found at the very first position; worst case is O(n), when the target is at the last position or absent entirely; average case, assuming the target is equally likely to be at any position, works out to about n/2 comparisons, still Theta(n). Quicksort is the other classic example: with balanced partitioning it runs in O(n log n) in both the best and average case, but with a consistently poor pivot choice (e.g., always picking the first element on an already-sorted array) it degrades to O(n^2) in the worst case. Worst case is the figure usually quoted in exams and in real-time or safety-critical system design because it is a guarantee that holds no matter what the input is, whereas average case requires assuming a probability distribution over inputs that may not reflect reality, and is often harder to derive rigorously. Best case is rarely useful as a design guarantee since it only describes the most convenient input, not a typical or guaranteed one.",
+    "facts": [
+      "Best case: performance on the input requiring the least work (e.g., linear search finding the target on the first comparison, O(1)).",
+      "Worst case: performance on the input requiring the most work; gives an upper-bound guarantee (e.g., linear search target absent or last, O(n)).",
+      "Average case: expected performance under an assumed input distribution (often uniform), requiring probabilistic analysis.",
+      "Worst case is quoted most often because it is a guarantee independent of input distribution and is usually easier to derive exactly.",
+      "Quicksort: average/best case O(n log n), worst case O(n^2), triggered by consistently unbalanced partitioning (e.g. naive pivoting on sorted data)."
+    ],
+    "traps": [
+      "Treating \"worst case\" and \"Big-O\" as synonyms — Big-O is a bound TYPE, while best/average/worst is a CASE; a Big-O bound can be stated for the best case too.",
+      "Forgetting that an average-case figure depends on an assumed probability distribution over inputs, which may not match real-world usage patterns.",
+      "Assuming quicksort's O(n^2) worst case is a rare theoretical corner case — a sorted or reverse-sorted array with naive first/last-element pivoting reliably triggers it, a standard exam scenario."
+    ],
+    "mnem": "",
+    "rel": ["Asymptotic notation", "Analysing loops for complexity", "Recurrence relations"]
+  },
+  {
+    "id": "U3a-13",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Analysing loops for complexity",
+    "def": "Analysing an algorithm's complexity from its code means counting how many times each loop body executes as a function of input size n, adding costs for sequential loops and multiplying costs for nested loops.",
+    "exp": "A single loop running from 1 to n with a constant-time body costs O(n). Two independent sequential loops, each O(n), still sum to O(n) overall, since asymptotic addition is dominated by the largest term. Nested loops where the inner loop always runs n times regardless of the outer index multiply: O(n) x O(n) = O(n^2), e.g. for(i=1..n) for(j=1..n) sum++ performs exactly n^2 increments, Theta(n^2). A triangular nested loop, where the inner bound depends on the outer index (for i=1..n, for j=1..i), still sums to 1+2+...+n = n(n+1)/2 = Theta(n^2) — same order as a full nested loop, a common exam trap. A loop whose control variable is multiplied or divided by a constant each iteration (i = i*2 while i < n) runs only Theta(log n) times, and nesting an O(n) loop inside such a log-n outer loop gives Theta(n log n), the pattern behind efficient sorting analysis. A key representation-dependent case: generating all connected components of a graph with n vertices and e edges. Traversing via BFS/DFS on an adjacency LIST visits each vertex and each edge once, giving O(n + e); the same task on an adjacency MATRIX costs O(n^2), since checking every possible neighbour of every vertex is unavoidable regardless of actual edge count.",
+    "facts": [
+      "Sequential loops: complexities add, and the sum is dominated by the largest term — two O(n) loops in sequence remain O(n).",
+      "Nested loops with independent bounds (both to n): multiply — O(n) x O(n) = O(n^2).",
+      "Triangular nested loop (inner bound depends on outer index, e.g. j from 1 to i): total iterations = n(n+1)/2 = Theta(n^2).",
+      "A loop whose control variable is multiplied/divided by a constant each iteration runs Theta(log n) times.",
+      "Connected components / BFS-DFS traversal on an adjacency LIST: O(n + e); the same traversal on an adjacency MATRIX: O(n^2) — the representation changes the complexity class."
+    ],
+    "traps": [
+      "Assuming any nested loop is automatically O(n^2) without checking whether the inner bound actually depends on n independently of the outer index.",
+      "Miscounting a triangular loop as O(n) instead of recognising the arithmetic series sums to Theta(n^2).",
+      "For \"generate all connected components with n vertices, e edges\" questions, defaulting to O(n^2) by mentally picturing nested loops over vertex pairs, instead of recognising that an adjacency-LIST-based BFS/DFS visits each edge and vertex once, giving O(n+e).",
+      "Confusing \"number of loop iterations\" with \"total operations executed\" when the loop body itself contains a further loop or a costly function call."
+    ],
+    "mnem": "",
+    "rel": ["Asymptotic notation", "Recurrence relations", "Time vs space complexity"]
+  },
+  {
+    "id": "U3a-14",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Recursion: base case, stack, tail call",
+    "def": "Recursion is a technique where a function solves a problem by calling itself on smaller instances of the same problem, guided by a base case that stops the calls and a recursive case that reduces the problem each time.",
+    "exp": "Every correct recursive function needs a base case, which handles the smallest instance directly without further calls (e.g., factorial(0) = 1), and a recursive case, which expresses the solution in terms of a smaller instance (factorial(n) = n x factorial(n-1)). Each call creates a new stack frame holding its parameters, local variables, and return address; frames are pushed on call and popped on return, so recursion of depth d costs O(d) extra space on the call stack, and excessive depth causes a stack overflow. Direct recursion is a function calling itself; indirect (mutual) recursion is a function A calling B, which in turn calls A (or a longer cycle back to A). Tail recursion is the special case where the recursive call is the very last operation performed, with no pending computation left after it returns — an accumulator-based factorial is tail-recursive, but `return 1 + factorial(n-1);` is not, because the addition happens after the call returns. Tail-recursive code can, in principle, be rewritten by a compiler into an iterative loop reusing one stack frame (tail-call optimisation), but this optimisation is not universal: many mainstream compilers, including standard Java and typical C compilers by default, do not perform it.",
+    "facts": [
+      "Every correct recursive function needs at least one base case (stops recursion) and at least one recursive case (reduces towards the base case).",
+      "Each recursive call adds a stack frame; recursion of depth d costs O(d) extra space on the call stack.",
+      "Direct recursion: a function calls itself; indirect/mutual recursion: function A calls B, which calls back to A.",
+      "Tail recursion: the recursive call is the last action performed, with no work left to do after it returns — this is what enables tail-call optimisation into a loop.",
+      "Tail-call optimisation is not guaranteed by every language/compiler (e.g. standard Java and many C compilers by default do not perform it)."
+    ],
+    "traps": [
+      "Assuming any recursive call written at the end of a function is automatically optimised to O(1) space — tail-call optimisation is a compiler/language feature, not a guarantee from writing tail-recursive code.",
+      "Misclassifying `return 1 + f(n-1);` as tail recursion — it is not, since the addition happens after the recursive call returns.",
+      "Reporting only time complexity for a recursive algorithm while forgetting its call-stack space cost — a recursive function can be O(n) in time yet also O(n) in space.",
+      "Writing recursion with a missing or unreachable base case, causing infinite recursion and stack overflow — a common code-tracing exam trap."
+    ],
+    "mnem": "Recursion = base case (stop) + recursive case (reduce and call).",
+    "rel": ["Recurrence relations", "Time vs space complexity", "ADT vs data structure"]
+  },
+  {
+    "id": "U3a-15",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Recurrence relations and the Master theorem",
+    "def": "A recurrence relation expresses a recursive algorithm's running time in terms of its running time on smaller inputs, and the Master theorem gives a direct formula for solving common recurrences of the form T(n) = aT(n/b) + f(n).",
+    "exp": "Recurrences are read straight off recursive code: binary search halves its input each call, giving T(n) = T(n/2) + Theta(1); merge sort splits into two halves and does linear-time merging, giving T(n) = 2T(n/2) + Theta(n). The Master theorem solves T(n) = aT(n/b) + f(n), for a >= 1 and b > 1, by comparing f(n) to the watershed function n^(log_b a). Case 1: if f(n) grows polynomially slower than n^(log_b a), then T(n) = Theta(n^(log_b a)) — cost dominated by the recursive calls. Case 2: if f(n) = Theta(n^(log_b a)) (same growth rate), then T(n) = Theta(n^(log_b a) x log n). Case 3: if f(n) grows polynomially faster than n^(log_b a) and a regularity condition holds, then T(n) = Theta(f(n)) — cost dominated by the top-level work. Worked examples: merge sort, a=2, b=2, log_b a = 1, f(n) = Theta(n^1), matches case 2, giving Theta(n log n); binary search, a=1, b=2, log_b a = 0, f(n) = Theta(n^0) = Theta(1), also matches case 2, giving Theta(log n).",
+    "facts": [
+      "General divide-and-conquer recurrence: T(n) = aT(n/b) + f(n), where a = number of subproblems, n/b = size of each subproblem, f(n) = divide/combine cost.",
+      "The Master theorem compares f(n) against the watershed function n^(log_b a) to choose one of three cases.",
+      "Case 1 (f(n) grows slower): T(n) = Theta(n^(log_b a)).",
+      "Case 2 (f(n) grows at the same rate): T(n) = Theta(n^(log_b a) x log n) — this is merge sort's Theta(n log n).",
+      "Case 3 (f(n) grows faster, plus a regularity condition): T(n) = Theta(f(n)).",
+      "Binary search's T(n) = T(n/2) + Theta(1) solves to Theta(log n); merge sort's T(n) = 2T(n/2) + Theta(n) solves to Theta(n log n)."
+    ],
+    "traps": [
+      "Applying the Master theorem to a recurrence that doesn't fit its exact form, e.g. T(n) = 2T(n/2) + n log n, which falls between case 2 and case 3 and needs a different method (recursion-tree analysis or the Akra-Bazzi generalisation).",
+      "Ignoring the regularity condition required for case 3 — without it, the case-3 conclusion does not automatically follow.",
+      "Mixing up quicksort's recurrences — its balanced best/average case is T(n) = 2T(n/2) + Theta(n) (giving Theta(n log n)), while its unbalanced worst case is T(n) = T(n-1) + Theta(n) (giving Theta(n^2)).",
+      "Miscomputing log_b a as an integer when it isn't — e.g. T(n) = 3T(n/2) + Theta(n) gives log_2 3 (approximately 1.585), a non-integer exponent that is easy to round incorrectly."
+    ],
+    "mnem": "",
+    "rel": ["Recursion", "Analysing loops for complexity", "Asymptotic notation"]
+  }
+]

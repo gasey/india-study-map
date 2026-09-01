@@ -1,0 +1,572 @@
+[
+  {
+    "id": "U1b-01",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Propositions, connectives, truth tables",
+    "def": "A proposition is a declarative sentence with exactly one definite truth value, and a truth table lists that value for every assignment of its variables.",
+    "exp": "A proposition is a declarative sentence that is either true or false, never both. \"x + 1 = 2\" is not a proposition until x is fixed; \"What time is it?\" never is. Compound propositions are built with five standard connectives: negation ¬p, conjunction p∧q, disjunction p∨q (inclusive), conditional p→q, and biconditional p↔q. A truth table lists every assignment of the n atomic variables, so it has 2^n rows; fill it column by column, innermost connective first. When brackets are omitted the precedence is ¬, then ∧, then ∨, then →, then ↔. Worked: evaluate p∨(¬q∧r) at p=F, q=T, r=T. ¬q = F; F∧T = F; F∨F = F. Exclusive or p⊕q is true when exactly one disjunct is true — older Indian papers phrase it \"p or q but not both\". NAND (↑) and NOR (↓) are the negations of ∧ and ∨. A set of connectives is functionally complete if every truth function can be expressed using only it: {¬,∧}, {¬,∨}, {¬,→}, {↑} alone and {↓} alone are all complete, while {∧,∨} is not, because no combination of ∧ and ∨ can turn a true input into a false output. With n variables there are 2^n rows and therefore 2^(2^n) distinct truth functions — 16 of them for two variables.",
+    "facts": [
+      "n propositional variables give a truth table with 2^n rows.",
+      "There are 2^(2^n) distinct truth functions of n variables: 4 for n=1, 16 for n=2.",
+      "Connective precedence: ¬ > ∧ > ∨ > → > ↔.",
+      "p∨q is inclusive-or: true when both disjuncts are true. p⊕q is the exclusive version.",
+      "NAND (↑) and NOR (↓) are each functionally complete on their own.",
+      "{¬,∧}, {¬,∨} and {¬,→} are functionally complete; {∧,∨} is not.",
+      "p⊕q ≡ ¬(p↔q) ≡ (p∧¬q)∨(¬p∧q)."
+    ],
+    "traps": [
+      "\"p or q\" in an exam stem means inclusive or unless the words \"but not both\" appear — do not silently read it as XOR.",
+      "{∧,∨} is a favourite wrong answer for \"functionally complete\"; without negation you can never map all-true inputs to false.",
+      "Precedence errors: ¬p∧q means (¬p)∧q, not ¬(p∧q). The two differ on p=F,q=F.",
+      "\"This statement is false\" and open sentences like \"x > 3\" are not propositions — a question asking \"which of the following is a proposition\" hinges on exactly this.",
+      "The count of truth functions is 2^(2^n), not 2^n — for n=2 the answer is 16, and 4 is the planted distractor."
+    ],
+    "mnem": "Precedence \"Not And Or Implies Iff\" — the same order the symbols are usually introduced.",
+    "rel": [
+      "Tautology, contradiction, contingency",
+      "Logical equivalence and the equivalence laws",
+      "Implication: converse/inverse/contrapositive",
+      "Normal forms: CNF and DNF"
+    ]
+  },
+  {
+    "id": "U1b-02",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Implication: converse/inverse/contrapositive",
+    "def": "The conditional p→q is false only when p is true and q is false, and of its three relatives only the contrapositive ¬q→¬p is logically equivalent to it.",
+    "exp": "p→q is false in exactly one row of its truth table: p true, q false. It is true everywhere else, including both rows where p is false — that is \"vacuous truth\", and it causes more exam mistakes than anything else in propositional logic. Read p→q as \"p is sufficient for q\" and equally as \"q is necessary for p\". Note that \"p only if q\" is p→q, while \"p if q\" is q→p. From p→q you can form three relatives: the converse q→p, the inverse ¬p→¬q, and the contrapositive ¬q→¬p. Only the contrapositive is equivalent to the original. The converse and the inverse are equivalent to each other — each is the contrapositive of the other — but neither is equivalent to p→q. Example: \"If it is raining, the ground is wet.\" Contrapositive: \"If the ground is not wet, it is not raining\" — the same claim restated. Converse: \"If the ground is wet, it is raining\" — a different and false claim. The rewriting workhorse is p→q ≡ ¬p∨q; applying De Morgan to it gives ¬(p→q) ≡ p∧¬q, so the negation of a conditional is a conjunction, never another conditional.",
+    "facts": [
+      "p→q is false only for p=T, q=F; it is true in 3 of the 4 rows.",
+      "p→q ≡ ¬p∨q, and ¬(p→q) ≡ p∧¬q.",
+      "Contrapositive ¬q→¬p ≡ p→q. Converse q→p ≡ inverse ¬p→¬q.",
+      "p→q and its converse are both true exactly when p↔q is true.",
+      "\"p only if q\" = p→q; \"p if q\" = q→p; \"p unless q\" = ¬q→p.",
+      "A conditional with a false antecedent is vacuously true regardless of the consequent."
+    ],
+    "traps": [
+      "Assuming p→q implies q→p. It does not — the converse is an independent statement.",
+      "Negating p→q as ¬p→¬q. The correct negation is p∧¬q, which is not a conditional at all.",
+      "\"p only if q\" is routinely misread as q→p. It is p→q.",
+      "F→F is TRUE. A table row with a false antecedent and a false consequent still makes the implication hold, and questions like \"decide the implication from this truth table\" are built on that row.",
+      "Inverse and contrapositive are easy to swap: inverse negates both in the original order (¬p→¬q), contrapositive negates AND flips (¬q→¬p)."
+    ],
+    "mnem": "Contrapositive = negate and flip; inverse = negate only. Only the one that flips survives.",
+    "rel": [
+      "Propositions, connectives, truth tables",
+      "Biconditional",
+      "Logical equivalence and the equivalence laws",
+      "Proof techniques"
+    ]
+  },
+  {
+    "id": "U1b-03",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Biconditional",
+    "def": "The biconditional p↔q is true exactly when p and q have the same truth value, and expresses \"p if and only if q\".",
+    "exp": "p↔q is true in the two rows where p and q agree (TT and FF) and false in the two rows where they differ. Equivalent readings you will meet in exam wording: \"p if and only if q\", \"p iff q\", \"p is necessary and sufficient for q\", \"p exactly when q\". The two standard expansions are p↔q ≡ (p→q)∧(q→p) — this is the one you use in proofs, splitting the work into an \"if\" half and an \"only if\" half — and p↔q ≡ (p∧q)∨(¬p∧¬q), which is the direct disjunctive-normal reading straight off the true rows. The biconditional is exactly the negation of exclusive-or: p↔q ≡ ¬(p⊕q). It is both commutative and associative, so (p↔q)↔r is unambiguous, but be careful: chained biconditionals do not mean \"all three are equal\"; (p↔q)↔r is true whenever an even number of the three variables is false. Precedence-wise ↔ binds most loosely, so p∨q↔r means (p∨q)↔r. In predicate work, note that a biconditional is what makes a definition a definition — \"n is even ↔ n = 2k for some integer k\" — which is why proving a characterisation always requires two directions.",
+    "facts": [
+      "p↔q is true in 2 of 4 rows: both true, or both false.",
+      "p↔q ≡ (p→q)∧(q→p) ≡ (p∧q)∨(¬p∧¬q).",
+      "p↔q ≡ ¬(p⊕q); the biconditional is XNOR.",
+      "p↔q ≡ ¬p↔¬q — negating both sides leaves it unchanged.",
+      "↔ has the lowest precedence of the five standard connectives.",
+      "Proving \"P if and only if Q\" requires both P→Q and Q→P."
+    ],
+    "traps": [
+      "Proving only one direction of an iff. Half a proof scores as a wrong proof.",
+      "Reading (p↔q)↔r as \"p, q and r all have the same value\" — it does not; it is a parity statement.",
+      "Confusing p↔q with p⊕q. They are exact opposites, and both appear as options in the same MCQ.",
+      "Assuming p↔q ≡ (p→q)∨(q→p). That disjunction is a tautology, not the biconditional.",
+      "\"Necessary and sufficient\" is the biconditional; \"necessary\" alone is q→p direction and \"sufficient\" alone is p→q."
+    ],
+    "mnem": "\"Same-value connective\": ↔ is true iff the two sides match.",
+    "rel": [
+      "Implication: converse/inverse/contrapositive",
+      "Logical equivalence and the equivalence laws",
+      "Tautology, contradiction, contingency",
+      "Propositions, connectives, truth tables"
+    ]
+  },
+  {
+    "id": "U1b-04",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Tautology, contradiction, contingency",
+    "def": "A tautology is true under every assignment, a contradiction is false under every assignment, and a contingency is a formula that is neither.",
+    "exp": "These three labels partition all propositional formulas, and MPSC papers in this series ask directly \"which of the following is a tautology\" or \"the proposition p→(p∨q) is ___\". Method: build the truth table, or reason on the single row that could break it. For p→(p∨q), the only way to falsify a conditional is a true antecedent with a false consequent — that needs p true and p∨q false, which is impossible since p true forces p∨q true. So p→(p∨q) is a tautology. Standard tautologies worth memorising: p∨¬p (excluded middle), p→p, (p∧q)→p (simplification), p→(p∨q) (addition), p→(q→p), ((p→q)∧p)→q (modus ponens as a formula), (p→q)↔(¬q→¬p) (contraposition). Standard contradictions: p∧¬p, and (p↔q)∧(p⊕q). Anything else — p→q, p∧q, p∨q — is a contingency. Two useful shortcuts: A is a tautology iff ¬A is a contradiction; and A ≡ B (logical equivalence) iff A↔B is a tautology. Note also that if A and A→B are both tautologies then B is a tautology, and that a tautology stays a tautology when you substitute any formula uniformly for a variable.",
+    "facts": [
+      "Tautology: all 2^n rows true. Contradiction: all rows false. Contingency: at least one of each.",
+      "p→(p∨q) is a tautology; so are (p∧q)→p, p→(q→p) and p∨¬p.",
+      "A is a tautology if and only if ¬A is a contradiction.",
+      "A ≡ B if and only if A↔B is a tautology.",
+      "p→q on its own is a contingency, not a tautology.",
+      "A tautology remains a tautology under uniform substitution of formulas for variables."
+    ],
+    "traps": [
+      "p→(p∨q) is a TAUTOLOGY; p→(p∧q) is only a contingency (false at p=T, q=F). The two options often sit side by side.",
+      "\"Satisfiable\" ≠ \"tautology\". Every tautology is satisfiable, but a contingency is satisfiable too. A formula is satisfiable iff it is not a contradiction.",
+      "(p→q)→(q→p) is not a tautology — it fails at p=F, q=T. Only the contraposition version is.",
+      "Checking two or three convenient rows and declaring a tautology. You must cover all rows, or argue the single falsifying pattern is impossible.",
+      "A contingency is neither a tautology nor a contradiction — some papers list \"contingency\" and \"satisfiable\" as separate options; they are not synonyms."
+    ],
+    "mnem": "To test a conditional for tautology, try to force it false: antecedent T, consequent F. If that is impossible, it is a tautology.",
+    "rel": [
+      "Logical equivalence and the equivalence laws",
+      "Propositions, connectives, truth tables",
+      "Normal forms: CNF and DNF",
+      "Rules of inference"
+    ]
+  },
+  {
+    "id": "U1b-05",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Logical equivalence and the equivalence laws",
+    "def": "Two formulas are logically equivalent, written A ≡ B, when they have identical truth values under every assignment — equivalently, when A↔B is a tautology.",
+    "exp": "Equivalence lets you simplify a formula algebraically instead of building a 2^n-row table. The laws, with dual forms:\nIdentity p∧T ≡ p, p∨F ≡ p. Domination p∨T ≡ T, p∧F ≡ F. Idempotent p∧p ≡ p, p∨p ≡ p. Double negation ¬¬p ≡ p. Commutative and associative for both ∧ and ∨.\nDistributive: p∧(q∨r) ≡ (p∧q)∨(p∧r) and, unlike ordinary arithmetic, also p∨(q∧r) ≡ (p∨q)∧(p∨r).\nDe Morgan: ¬(p∧q) ≡ ¬p∨¬q and ¬(p∨q) ≡ ¬p∧¬q.\nAbsorption: p∨(p∧q) ≡ p and p∧(p∨q) ≡ p.\nNegation: p∨¬p ≡ T, p∧¬p ≡ F.\nImplication: p→q ≡ ¬p∨q. Contraposition: p→q ≡ ¬q→¬p.\nExportation: (p∧q)→r ≡ p→(q→r).\nAbsurdity: (p→q)∧(p→¬q) ≡ ¬p.\nWorked simplification: ¬(p∨q)∨(¬p∧q) ≡ (¬p∧¬q)∨(¬p∧q) [De Morgan] ≡ ¬p∧(¬q∨q) [distributive] ≡ ¬p∧T ≡ ¬p. Note that ≡ is a statement about formulas, not a connective inside a formula — write A ≡ B on the page, but A↔B inside one.",
+    "facts": [
+      "A ≡ B iff A↔B is a tautology.",
+      "De Morgan: ¬(p∧q) ≡ ¬p∨¬q; ¬(p∨q) ≡ ¬p∧¬q.",
+      "Absorption: p∨(p∧q) ≡ p and p∧(p∨q) ≡ p.",
+      "Exportation: (p∧q)→r ≡ p→(q→r).",
+      "Distribution works both ways in logic: ∨ over ∧ as well as ∧ over ∨.",
+      "p→q ≡ ¬p∨q is the substitution that converts any implication-heavy formula to normal form.",
+      "Every law comes in a dual pair — swap ∧↔∨ and T↔F to get the partner law."
+    ],
+    "traps": [
+      "Distributing wrongly: in logic p∨(q∧r) ≡ (p∨q)∧(p∨r) IS valid, even though the arithmetic analogue a+(b·c) = (a+b)(a+c) is false. Do not \"correct\" it.",
+      "De Morgan applied without changing the connective: ¬(p∧q) is ¬p∨¬q, not ¬p∧¬q.",
+      "Treating ≡ as a connective and writing formulas like (A ≡ B)∨C. Use ↔ inside formulas.",
+      "→ is not associative and not commutative: p→(q→r) is not (p→q)→r, and p→q is not q→p.",
+      "Exportation is often misquoted as (p→q)→r ≡ p→(q→r). The correct antecedent is the conjunction p∧q."
+    ],
+    "mnem": "De Morgan: \"break the bar, change the sign\" — negation moves inward and flips ∧ to ∨.",
+    "rel": [
+      "Tautology, contradiction, contingency",
+      "Normal forms: CNF and DNF",
+      "Implication: converse/inverse/contrapositive",
+      "Rules of inference"
+    ]
+  },
+  {
+    "id": "U1b-06",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Rules of inference",
+    "def": "Rules of inference are argument forms whose conclusion is guaranteed true whenever all premises are true, each corresponding to a tautology of the form (premises)→conclusion.",
+    "exp": "The standard set, in the names Indian papers use:\nModus ponens: p→q, p ⊢ q.\nModus tollens: p→q, ¬q ⊢ ¬p.\nHypothetical syllogism (chain rule): p→q, q→r ⊢ p→r.\nDisjunctive syllogism: p∨q, ¬p ⊢ q.\nAddition: p ⊢ p∨q. Simplification: p∧q ⊢ p. Conjunction: p, q ⊢ p∧q.\nResolution: p∨q, ¬p∨r ⊢ q∨r.\nResolution deserves special attention because it is the single rule underlying automated theorem proving and Prolog. Two clauses containing complementary literals are combined by deleting that literal pair and disjoining what remains; the result is the resolvent. Resolution alone is refutation-complete for clause form: to prove S ⊨ A, convert S ∧ ¬A to CNF and derive the empty clause.\nThe two classic fallacies are worth as many marks as the rules. Affirming the consequent — p→q, q ⊢ p — is invalid (take p=F, q=T). Denying the antecedent — p→q, ¬p ⊢ ¬q — is also invalid on the same row. Both are the converse and inverse errors wearing an argument's clothes. Validity concerns form only: an argument can be valid with a false conclusion if a premise is false, and an argument with a true conclusion can still be invalid.",
+    "facts": [
+      "Modus ponens: from p→q and p, infer q. Modus tollens: from p→q and ¬q, infer ¬p.",
+      "Hypothetical syllogism chains implications: p→q, q→r gives p→r.",
+      "Disjunctive syllogism: p∨q with ¬p gives q.",
+      "Resolution: from p∨q and ¬p∨r infer q∨r; it is refutation-complete for clauses.",
+      "Affirming the consequent (p→q, q ⊢ p) and denying the antecedent (p→q, ¬p ⊢ ¬q) are both invalid.",
+      "Every rule of inference corresponds to a tautology: modus ponens is ((p→q)∧p)→q.",
+      "A valid argument with a false premise can still have a false conclusion — validity is about form, not truth."
+    ],
+    "traps": [
+      "Modus tollens negates the CONSEQUENT to conclude the negated antecedent. Papers plant \"p→q, ¬p ⊢ ¬q\" and label it modus tollens; that is denying the antecedent, and invalid.",
+      "Disjunctive syllogism needs the negation of one disjunct. From p∨q and p you can conclude nothing about q, because ∨ is inclusive.",
+      "Resolution on p∨q and p∨r gives nothing — you need complementary literals, not merely a shared one.",
+      "\"Valid\" and \"sound\" differ: sound = valid AND all premises actually true. An MCQ asking for validity does not care whether the premises are true.",
+      "Simplification runs from ∧ (p∧q ⊢ p) and addition runs to ∨ (p ⊢ p∨q). Reversing either direction is invalid."
+    ],
+    "mnem": "Ponens \"puts\" the antecedent and gets the consequent; tollens \"takes away\" the consequent and gets the negated antecedent.",
+    "rel": [
+      "Implication: converse/inverse/contrapositive",
+      "Normal forms: CNF and DNF",
+      "Proof techniques",
+      "Tautology, contradiction, contingency"
+    ]
+  },
+  {
+    "id": "U1b-07",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Normal forms: CNF and DNF",
+    "def": "DNF is a disjunction of conjunctions of literals (sum of products) and CNF is a conjunction of disjunctions of literals (product of sums); every formula has both.",
+    "exp": "A literal is a variable or its negation. DNF — sum of products — looks like (p∧¬q)∨(¬p∧r). CNF — product of sums — looks like (p∨¬q)∧(¬p∨r). Conversion recipe: eliminate → and ↔ using p→q ≡ ¬p∨q and p↔q ≡ (p→q)∧(q→p); push negations inward with De Morgan and double negation until only literals are negated (this intermediate stage is negation normal form); then distribute to reach the shape you want — ∧ over ∨ for DNF, ∨ over ∧ for CNF.\nThe canonical (full) forms require every variable to appear in every term. The full DNF is read straight off the truth table: write one conjunction — a minterm — for each row where the formula is true, using p if p is true in that row and ¬p if not, and disjoin them. The full CNF is read off the false rows as maxterms, with the polarity reversed. A formula with k true rows has exactly k minterms in its full DNF and 2^n − k maxterms in its full CNF.\nThe practical payoff is the asymmetry: a DNF is satisfiable iff some term has no complementary pair, checkable in linear time, while CNF-SAT is NP-complete. Dually, a CNF is a tautology iff every clause contains a complementary pair — easy — while checking a DNF for tautology is hard.",
+    "facts": [
+      "DNF = sum of products (∨ of ∧-terms). CNF = product of sums (∧ of ∨-clauses).",
+      "Full DNF has one minterm per true row of the truth table; full CNF has one maxterm per false row.",
+      "A formula with n variables and k true rows has k minterms and 2^n − k maxterms.",
+      "A CNF is a tautology iff every clause contains some variable together with its negation.",
+      "A DNF is a contradiction iff every term contains some variable together with its negation.",
+      "CNF-SAT is NP-complete (3-SAT); DNF satisfiability is checkable in polynomial time.",
+      "Resolution operates on CNF, which is why proof procedures convert to CNF first."
+    ],
+    "traps": [
+      "Swapping the names. Conjunctive normal form is a CONJUNCTION of clauses — the outer connective is ∧, even though each clause is a disjunction.",
+      "Assuming conversion is cheap. Distributing to CNF can blow the formula up exponentially; the equisatisfiable Tseitin transform avoids this but is not equivalent, only equisatisfiable.",
+      "Reading minterms off with the wrong polarity: for a true row with p=F you write ¬p, and for maxterms the polarity flips again.",
+      "Thinking a normal form is unique. Only the FULL/canonical form is unique (up to term order); ordinary CNF/DNF is not.",
+      "Confusing normal-form conversion with minimisation. Karnaugh-map minimisation produces a minimal SOP, not the canonical DNF."
+    ],
+    "mnem": "CNF = \"C for Conjunction on the outside\"; DNF = \"D for Disjunction on the outside\".",
+    "rel": [
+      "Logical equivalence and the equivalence laws",
+      "Rules of inference",
+      "Tautology, contradiction, contingency",
+      "Propositions, connectives, truth tables"
+    ]
+  },
+  {
+    "id": "U1b-08",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Predicate logic: quantifiers and negation",
+    "def": "Predicate logic extends propositional logic with predicates over a domain and the quantifiers ∀ (for all) and ∃ (there exists), which bind variables within a stated scope.",
+    "exp": "A predicate P(x) has no truth value until x is given a value or bound by a quantifier. ∀x P(x) is true when P holds for every element of the domain; ∃x P(x) is true when it holds for at least one. The domain matters: ∀x (x² ≥ x) is false over the reals (x = 0.5) but true over the integers, so an exam stem that omits the domain is incomplete.\nScope is the part of the formula the quantifier governs. In ∀x (P(x) → Q(x)) ∧ R(x), the last x is free — outside the scope — and the formula is not a proposition. A variable is bound if some quantifier captures it, free otherwise.\nNegation follows generalised De Morgan: ¬∀x P(x) ≡ ∃x ¬P(x), and ¬∃x P(x) ≡ ∀x ¬P(x). Practically: push the negation in and flip the quantifier each time. So ¬∀x ∃y P(x,y) ≡ ∃x ∀y ¬P(x,y). Note ¬∀x (P(x)→Q(x)) ≡ ∃x (P(x) ∧ ¬Q(x)).\nOrder of unlike quantifiers is not interchangeable. Over the reals, ∀x ∃y (x + y = 0) is true — pick y = −x — but ∃y ∀x (x + y = 0) is false, since no single y works for all x. Distribution is one-sided: ∀ distributes over ∧ and ∃ over ∨, but not the reverse.",
+    "facts": [
+      "¬∀x P(x) ≡ ∃x ¬P(x); ¬∃x P(x) ≡ ∀x ¬P(x).",
+      "¬∀x (P(x)→Q(x)) ≡ ∃x (P(x) ∧ ¬Q(x)).",
+      "∀x∃y P(x,y) and ∃y∀x P(x,y) are different; the second implies the first, never the converse.",
+      "∀x (P(x)∧Q(x)) ≡ ∀x P(x) ∧ ∀x Q(x); the same split is invalid for ∀ over ∨.",
+      "∃x (P(x)∨Q(x)) ≡ ∃x P(x) ∨ ∃x Q(x); the same split is invalid for ∃ over ∧.",
+      "\"All P are Q\" is rendered ∀x (P(x)→Q(x)); \"some P are Q\" is ∃x (P(x)∧Q(x)).",
+      "Over an empty domain ∀x P(x) is vacuously true and ∃x P(x) is false."
+    ],
+    "traps": [
+      "Rendering \"all students pass\" as ∀x (S(x) ∧ Pass(x)) — that claims everything in the domain is a student. Use → with ∀ and ∧ with ∃.",
+      "Negating \"all A are B\" as \"no A is B\". The correct negation is \"some A is not B\" — one counterexample suffices.",
+      "Swapping ∀x∃y to ∃y∀x. Same quantifier can be reordered freely; different ones cannot.",
+      "Leaving a variable free and still calling the expression a proposition — check every occurrence lies inside a quantifier's scope.",
+      "Assuming ∃x P(x) means \"exactly one\". It means at least one; \"exactly one\" needs ∃! or an explicit uniqueness clause."
+    ],
+    "mnem": "Negation \"walks in and flips\": each quantifier it passes turns ∀ into ∃ and ∃ into ∀.",
+    "rel": [
+      "Logical equivalence and the equivalence laws",
+      "Proof techniques",
+      "Rules of inference",
+      "Propositions, connectives, truth tables"
+    ]
+  },
+  {
+    "id": "U1b-09",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Proof techniques",
+    "def": "The standard methods for establishing a mathematical statement are direct proof, proof by contraposition, proof by contradiction, and — for refuting a universal claim — a single counterexample.",
+    "exp": "To prove p→q directly, assume p and derive q by definitions and algebra. Example: if n is odd then n² is odd. Let n = 2k+1; then n² = 4k²+4k+1 = 2(2k²+2k)+1, odd.\nProof by contraposition proves ¬q→¬p instead, which is logically equivalent. Use it when the negated consequent gives you something concrete to compute with. Example: if n² is even then n is even. Contrapositive: if n is odd then n² is odd — already proved above.\nProof by contradiction (reductio ad absurdum) assumes p∧¬q and derives a contradiction, concluding p→q. Classic: √2 is irrational. Assume √2 = a/b in lowest terms; then a² = 2b², so a is even, a = 2c, so 4c² = 2b², b² = 2c², so b is even too — contradicting \"lowest terms\".\nTo disprove a universal statement ∀x P(x), exhibit one counterexample; you never need a general argument. \"Every prime is odd\" dies on 2. Symmetrically, to prove an existential ∃x P(x) it suffices to produce one witness.\nTwo minor forms appear in stems: a vacuous proof establishes p→q by showing p is false, and a trivial proof by showing q is true regardless of p.",
+    "facts": [
+      "Contraposition proves ¬q→¬p, which is equivalent to p→q; the converse q→p is not.",
+      "Proof by contradiction assumes p ∧ ¬q and derives a falsehood.",
+      "One counterexample refutes ∀x P(x); no number of examples proves it.",
+      "A vacuous proof shows the antecedent is false; a trivial proof shows the consequent is true.",
+      "Proof by cases must cover the whole domain exhaustively — a missed case invalidates the proof.",
+      "Proving p↔q requires both directions, p→q and q→p.",
+      "√2 irrational and \"there are infinitely many primes\" are the two archetypal contradiction proofs."
+    ],
+    "traps": [
+      "Proving the converse instead of the contrapositive. Showing q→p does not establish p→q.",
+      "In a contradiction proof, forgetting to negate the conclusion — you assume the hypotheses AND the negated conclusion, not just the negated conclusion.",
+      "Using examples as proof of a universal statement. Checking n = 1..10 proves nothing about all n.",
+      "A counterexample to ∀x P(x) must satisfy the hypothesis. An instance outside the stated domain refutes nothing.",
+      "Circular reasoning: quietly assuming the statement being proved, most often inside an algebraic manipulation of the conclusion."
+    ],
+    "mnem": "Direct = forward; contrapositive = backwards; contradiction = assume it fails and break something.",
+    "rel": [
+      "Implication: converse/inverse/contrapositive",
+      "Predicate logic: quantifiers and negation",
+      "Rules of inference",
+      "Pigeonhole principle"
+    ]
+  },
+  {
+    "id": "U1b-10",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Permutations, circular and with repetition",
+    "def": "A permutation is an ordered arrangement; the number of r-permutations of n distinct objects is P(n,r) = n!/(n−r)!.",
+    "exp": "Order matters in a permutation. Arranging all n distinct objects gives n! ways; taking only r of them gives P(n,r) = n!/(n−r)! = n(n−1)…(n−r+1). Worked: P(5,3) = 5·4·3 = 60.\nIf repetition is allowed — each of r positions independently chosen from n symbols — the count is n^r. That is the digit-string case: 4-digit PINs from 10 digits give 10⁴ = 10000, while 4-digit PINs with no repeated digit give P(10,4) = 5040.\nPermutations of a multiset (objects not all distinct) divide out the indistinguishable rearrangements: n!/(n₁! n₂! … n_k!) where n_i is the multiplicity of the i-th distinct symbol and Σn_i = n. Worked: MISSISSIPPI has 11 letters with I×4, S×4, P×2, M×1, so 11!/(4!·4!·2!·1!) = 34650.\nCircular permutations: seating n distinct objects around a circle where only relative order matters gives (n−1)!, because fixing one object kills the n rotations that produce the same arrangement. If the circle can also be flipped over — a necklace or bracelet, where a reflection counts as the same arrangement — the count becomes (n−1)!/2 for n ≥ 3.",
+    "facts": [
+      "P(n,r) = n!/(n−r)! = n(n−1)…(n−r+1); P(n,n) = n!, P(n,0) = 1.",
+      "With repetition allowed, r positions from n symbols give n^r arrangements.",
+      "Multiset permutations: n!/(n₁!n₂!…n_k!).",
+      "Circular arrangements of n distinct objects: (n−1)!.",
+      "Circular arrangements where reflections are identified (bracelets): (n−1)!/2 for n ≥ 3.",
+      "P(n,r) = C(n,r)·r! — permutations are combinations times the orderings of the chosen set.",
+      "0! = 1 by definition, which is what makes P(n,n) = n!/0! come out right."
+    ],
+    "traps": [
+      "Using n! for a circular arrangement. The answer is (n−1)!; n! is the planted distractor.",
+      "Applying (n−1)!/2 when the seats are actually distinguishable (a round table with numbered chairs) — then it is just n!.",
+      "Forgetting to divide by repeated-letter factorials in words like MISSISSIPPI; 11! alone is wrong by a factor of 1152.",
+      "Confusing \"repetition allowed\" (n^r) with \"repetition not allowed\" (P(n,r)). Read whether digits/letters may repeat.",
+      "Using P(n,r) when the question does not care about order — that is C(n,r), and P over-counts by r!."
+    ],
+    "mnem": "Circle: nail one person down, then it is an ordinary line of the remaining n−1.",
+    "rel": [
+      "Combinations and the binomial theorem",
+      "Combinations with repetition: stars and bars",
+      "Pigeonhole principle"
+    ]
+  },
+  {
+    "id": "U1b-11",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Combinations and the binomial theorem",
+    "def": "C(n,r) = n!/(r!(n−r)!) counts the unordered r-element subsets of an n-set, and these same numbers are the coefficients in the expansion of (x+y)^n.",
+    "exp": "C(n,r), also written nCr or the binomial coefficient \"n choose r\", counts selections where order does not matter. It equals P(n,r)/r!, since each r-subset can be ordered in r! ways. Worked: C(6,2) = 6·5/2 = 15.\nSymmetry: C(n,r) = C(n,n−r) — choosing which r to take is the same as choosing which n−r to leave.\nPascal's identity: C(n,r) = C(n−1,r−1) + C(n−1,r). The reasoning is a case split on one fixed element: either it is in the subset (choose r−1 from the rest) or it is not (choose r from the rest). This identity generates Pascal's triangle row by row and is the standard basis for an induction proof.\nBinomial theorem: (x+y)^n = Σ_{r=0}^{n} C(n,r) x^{n−r} y^r. The general term is T_{r+1} = C(n,r) x^{n−r} y^r, so the coefficient of x^r in (1+x)^n is C(n,r). Setting x = y = 1 gives Σ_r C(n,r) = 2^n — the number of subsets of an n-set. Setting x = 1, y = −1 gives Σ_r (−1)^r C(n,r) = 0 for n ≥ 1, so the even-sized and odd-sized subsets are equinumerous, 2^{n−1} each.\nVandermonde's identity C(m+n,r) = Σ_k C(m,k)C(n,r−k) handles \"choose r from two groups\" questions.",
+    "facts": [
+      "C(n,r) = n!/(r!(n−r)!) = P(n,r)/r!.",
+      "C(n,r) = C(n,n−r); C(n,0) = C(n,n) = 1.",
+      "Pascal's identity: C(n,r) = C(n−1,r−1) + C(n−1,r).",
+      "(x+y)^n = Σ_{r=0}^{n} C(n,r) x^{n−r} y^r, giving n+1 terms.",
+      "Σ_{r=0}^{n} C(n,r) = 2^n; Σ_{r=0}^{n} (−1)^r C(n,r) = 0 for n ≥ 1.",
+      "Vandermonde: C(m+n,r) = Σ_k C(m,k)C(n,r−k).",
+      "C(n,r) = 0 by convention when r > n or r < 0."
+    ],
+    "traps": [
+      "Using C(n,r) where order matters. \"How many ways to award gold, silver and bronze\" is P(n,3), not C(n,3).",
+      "The general term is T_{r+1}, not T_r — off-by-one on \"find the 5th term\" costs the mark. The 5th term uses r = 4.",
+      "\"Middle term\" of (x+y)^n: for even n there is one, the (n/2+1)-th; for odd n there are two.",
+      "Pascal's identity is C(n−1,r−1) + C(n−1,r), not C(n−1,r−1) + C(n−1,r−1). Both indices drop by one but the lower index differs between the two terms.",
+      "The expansion of (x+y)^n has n+1 terms, not n."
+    ],
+    "mnem": "Pascal: each entry is the sum of the two directly above it — that IS the identity.",
+    "rel": [
+      "Permutations, circular and with repetition",
+      "Combinations with repetition: stars and bars",
+      "Generating functions",
+      "Pigeonhole principle"
+    ]
+  },
+  {
+    "id": "U1b-12",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Combinations with repetition: stars and bars",
+    "def": "The number of ways to choose n items from k types with repetition allowed — equivalently the number of non-negative integer solutions of x₁+…+x_k = n — is C(n+k−1, k−1).",
+    "exp": "Model the selection as n identical stars laid in a row and k−1 identical bars dropped among them to split the row into k groups, the i-th group being how many of type i you took. Any arrangement of the n+k−1 symbols determines a selection and vice versa, so the count is the number of ways to place the bars: C(n+k−1, k−1), equal to C(n+k−1, n).\nWorked: distribute 5 identical sweets among 3 children. n = 5, k = 3, giving C(7,2) = 21. One arrangement ★★|★|★★ means 2, 1, 2.\nIf every group must get at least one, hand out one to each first and distribute the remaining n−k freely: C(n−1, k−1). For 5 sweets among 3 children with none empty, C(4,2) = 6.\nLower bounds other than 1 are handled the same way by substitution: for x₁ ≥ 2 set x₁' = x₁ − 2 and reduce the target sum by 2. Upper bounds need inclusion–exclusion, or a generating function.\nThe same formula counts the terms in the expansion of (x₁+…+x_k)^n and the number of monomials of degree n in k variables — recognise it there too.",
+    "facts": [
+      "Non-negative solutions of x₁+…+x_k = n: C(n+k−1, k−1) = C(n+k−1, n).",
+      "Positive solutions (every x_i ≥ 1): C(n−1, k−1).",
+      "Distributing n IDENTICAL objects into k DISTINCT boxes uses stars and bars.",
+      "Distributing n DISTINCT objects into k distinct boxes with no restriction is k^n, a different problem.",
+      "Number of terms in the expansion of (x₁+…+x_k)^n is C(n+k−1, k−1).",
+      "Lower bounds are handled by substitution; upper bounds require inclusion–exclusion.",
+      "The bars number k−1, one fewer than the number of boxes."
+    ],
+    "traps": [
+      "Using k−1 vs k in the bar count. With k boxes you place k−1 bars, so the answer is C(n+k−1, k−1) — writing C(n+k, k) is the standard wrong option.",
+      "Applying stars and bars when the objects are distinguishable. Identical objects → C(n+k−1,k−1); distinct objects → k^n.",
+      "Forgetting that boxes may be empty. If the question says every box non-empty, the answer is C(n−1,k−1), which is much smaller.",
+      "Treating an upper bound like x_i ≤ 3 with a simple substitution. Only lower bounds substitute cleanly; upper bounds need inclusion–exclusion.",
+      "If the BOXES are also identical the problem becomes integer partitions, which has no simple binomial formula."
+    ],
+    "mnem": "n stars, k−1 bars, arrange all n+k−1 symbols — choose the bar positions.",
+    "rel": [
+      "Combinations and the binomial theorem",
+      "Generating functions",
+      "Permutations, circular and with repetition"
+    ]
+  },
+  {
+    "id": "U1b-13",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Pigeonhole principle",
+    "def": "If n objects are placed into k boxes with n > k, some box contains at least two objects; generalised, some box contains at least ⌈n/k⌉ objects.",
+    "exp": "The simple form is obvious but the exam value is in applying it. The generalised form is the one that gets tested: N objects in k boxes forces some box to hold at least ⌈N/k⌉ objects. Worked: among 30 students graded on a 5-point scale, some grade is given to at least ⌈30/5⌉ = 6 students.\nRun the inequality backwards to get the classic \"minimum number to guarantee\" questions. To force at least r objects in one of k boxes you need N = k(r−1) + 1: you can place k(r−1) objects with only r−1 per box, and the next one must double up somewhere. Worked: to guarantee 3 cards of the same suit from a standard deck, k = 4 suits, r = 3, so N = 4·2 + 1 = 9.\nThe whole craft is choosing the boxes. Among any 367 people two share a birthday (366 possible dates). Among any n+1 integers chosen from 1…2n, two are consecutive and hence coprime (pair them into n boxes {1,2},{3,4},…). In any group of n ≥ 2 people, two have the same number of acquaintances inside the group. Also, any sequence of n²+1 distinct reals contains a monotone subsequence of length n+1 (Erdős–Szekeres).",
+    "facts": [
+      "Simple form: n objects, k boxes, n > k ⇒ some box has ≥ 2.",
+      "Generalised form: N objects, k boxes ⇒ some box has ≥ ⌈N/k⌉.",
+      "To guarantee r in some box you need N = k(r−1) + 1 objects.",
+      "Among any 367 people, two share a birth date (366 possibilities including 29 February).",
+      "Among any n+1 integers from 1 to 2n, some two are consecutive.",
+      "Erdős–Szekeres: any sequence of n²+1 distinct reals has a monotone subsequence of length n+1.",
+      "The principle is purely existential — it proves something exists but never identifies it."
+    ],
+    "traps": [
+      "Ceiling vs floor. The guaranteed count is ⌈N/k⌉; using ⌊N/k⌋ under-states it whenever k does not divide N.",
+      "\"At least\" versus \"exactly\". Pigeonhole gives a lower bound only; it never says a box has exactly that many.",
+      "The guarantee formula is k(r−1)+1, not kr or k(r−1). Off by one here is the single commonest error.",
+      "Using 365 for the birthday problem when the question does not exclude leap days — 367, not 366, is needed to guarantee a shared date.",
+      "Confusing this with the probabilistic \"birthday paradox\" (23 people for a 50% chance). Pigeonhole is a certainty argument, not a probability one."
+    ],
+    "mnem": "To force r in one hole with k holes: fill every hole to r−1 first, then add one more — k(r−1)+1.",
+    "rel": [
+      "Combinations and the binomial theorem",
+      "Proof techniques",
+      "Permutations, circular and with repetition"
+    ]
+  },
+  {
+    "id": "U1b-14",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Generating functions",
+    "def": "The ordinary generating function of a sequence a₀,a₁,a₂,… is the formal power series G(x) = Σ_{n≥0} a_n xⁿ, in which counting a set becomes extracting a coefficient.",
+    "exp": "You never evaluate x — the series is bookkeeping. The dictionary you must know:\n1/(1−x) = Σ xⁿ (all coefficients 1); 1/(1−ax) = Σ aⁿxⁿ; (1+x)^n = Σ_k C(n,k)x^k (a finite series); 1/(1−x)^k = Σ_{n≥0} C(n+k−1, n) xⁿ, which is stars-and-bars in disguise; and 1/(1−x^m) = Σ x^{mj}.\nTo set one up, give each independent choice its own factor and multiply, because multiplying OGFs convolves the sequences: [xⁿ]A(x)B(x) = Σ_{k=0}^{n} a_k b_{n−k}. Unlimited copies of one item type contributes 1+x+x²+… = 1/(1−x); at most two copies contributes 1+x+x²; an even number of copies contributes 1/(1−x²).\nWorked: how many ways to pick n objects from k types, unlimited supply? Each type contributes 1/(1−x), so G(x) = 1/(1−x)^k and the answer is [xⁿ]G = C(n+k−1, n) — matching stars and bars.\nExtraction for a rational G(x): split by partial fractions into pieces A/(1−rx) and read off the coefficient as A·rⁿ. Example: G(x) = (1−2x)/((1−x)(1−3x)) = ½·1/(1−x) + ½·1/(1−3x), so a_n = (1 + 3ⁿ)/2.",
+    "facts": [
+      "1/(1−x) = Σ xⁿ and 1/(1−ax) = Σ aⁿ xⁿ.",
+      "1/(1−x)^k = Σ_{n≥0} C(n+k−1, n) xⁿ.",
+      "(1+x)^n = Σ_k C(n,k) x^k — the finite binomial case.",
+      "Product of OGFs convolves: [xⁿ]A(x)B(x) = Σ_{k=0}^{n} a_k b_{n−k}.",
+      "A rational OGF is decomposed by partial fractions; a term A/(1−rx) contributes A·rⁿ.",
+      "Selecting a limited quantity (say 0 to 2 copies) uses the finite factor 1+x+x².",
+      "1 + x + x² + … + x^{m−1} = (1−x^m)/(1−x), useful for bounded supplies."
+    ],
+    "traps": [
+      "Worrying about convergence. These are formal power series; x is never assigned a value, so radius of convergence is irrelevant to the counting.",
+      "Mixing OGF and EGF results. Labelled/ordered-arrangement problems often want the exponential generating function Σ a_n xⁿ/n!; the ordinary GF gives a different sequence.",
+      "Adding factors instead of multiplying. Independent choices multiply; adding models a choice between disjoint cases, not a combination of them.",
+      "1/(1−x)² is Σ (n+1)xⁿ, not Σ n xⁿ — the shift by one is a common slip.",
+      "For a bounded supply of 0..m copies, the factor is (1−x^{m+1})/(1−x), not (1−x^m)/(1−x)."
+    ],
+    "mnem": "One factor per independent choice; multiply the factors; answer = coefficient of xⁿ.",
+    "rel": [
+      "Combinations with repetition: stars and bars",
+      "Solving linear homogeneous recurrences",
+      "Formulating recurrence relations",
+      "Counting digit strings by recurrence"
+    ]
+  },
+  {
+    "id": "U1b-15",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Formulating recurrence relations",
+    "def": "A recurrence relation defines each term of a sequence in terms of earlier terms, together with enough initial conditions to pin the sequence down uniquely.",
+    "exp": "The exam skill is translation, not algebra: read a word problem and produce a_n plus initial conditions. The method is always the same — condition on the last step. Ask \"what are the mutually exclusive, exhaustive possibilities for the final element, and how many ways does each leave for the rest?\"\nTower of Hanoi: to move n discs you move n−1 across, move the largest, move n−1 back. H_n = 2H_{n−1} + 1, H₁ = 1, closed form 2ⁿ − 1.\nBit strings of length n with no two consecutive 0s: if the string ends in 1 the first n−1 bits are any valid string of length n−1; if it ends in 0 the previous bit must be 1, leaving a valid string of length n−2. So a_n = a_{n−1} + a_{n−2}, with a₁ = 2 and a₂ = 3 — Fibonacci, shifted.\nClimbing n stairs one or two at a time: same recurrence, s_n = s_{n−1} + s_{n−2}.\nCount your initial conditions: a relation of order k — one reaching back k steps — needs exactly k initial values. Getting a₁ and a₂ right is worth as much as the recurrence; enumerate the small cases by hand rather than guessing. Always sanity-check by computing a₃ from the recurrence and by brute force.",
+    "facts": [
+      "A degree-k (order-k) recurrence needs exactly k initial conditions.",
+      "Tower of Hanoi: H_n = 2H_{n−1} + 1, H₁ = 1, closed form H_n = 2ⁿ − 1.",
+      "Bit strings of length n with no two consecutive 0s: a_n = a_{n−1} + a_{n−2}, a₁ = 2, a₂ = 3.",
+      "Fibonacci: F_n = F_{n−1} + F_{n−2}, F₀ = 0, F₁ = 1.",
+      "The standard technique is to condition on the last symbol/step, splitting into disjoint exhaustive cases.",
+      "The case split must be exhaustive and mutually exclusive, or the counts double-count.",
+      "A recurrence plus its initial conditions determines the sequence uniquely."
+    ],
+    "traps": [
+      "Getting the recurrence right but the initial conditions wrong. For the no-consecutive-0s strings a₁ = 2 (\"0\",\"1\"), not 1.",
+      "Supplying too few initial conditions — a second-order recurrence with only a₀ given is underdetermined.",
+      "Overlapping cases: if the \"ends in 0\" and \"ends in 1\" branches are not disjoint, the sum over-counts.",
+      "Recurrences of the form a_n = f(a_{n−1}) are for step-by-step processes; a_n = f(a_{n/2}) is for divide-and-conquer. Mixing the two shapes leads to the wrong solution method.",
+      "Not verifying: compute a₃ both ways. A recurrence that fails at n = 3 is wrong no matter how plausible the story."
+    ],
+    "mnem": "\"Condition on the last one\": what can the final element be, and what does that leave behind?",
+    "rel": [
+      "Solving linear homogeneous recurrences",
+      "Non-homogeneous recurrences, substitution",
+      "Counting digit strings by recurrence",
+      "Generating functions"
+    ]
+  },
+  {
+    "id": "U1b-16",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Solving linear homogeneous recurrences",
+    "def": "A linear homogeneous recurrence with constant coefficients, a_n = c₁a_{n−1}+…+c_k a_{n−k}, is solved by finding the roots of its characteristic equation r^k − c₁r^{k−1} − … − c_k = 0.",
+    "exp": "\"Linear\" means each a_{n−i} appears to the first power and is multiplied only by a constant; \"homogeneous\" means there is no extra term in n alone. Substituting the trial solution a_n = rⁿ and dividing by r^{n−k} gives the characteristic equation r^k = c₁r^{k−1} + … + c_k.\nIf the k roots r₁,…,r_k are distinct, the general solution is a_n = α₁r₁ⁿ + … + α_k r_kⁿ, and the α's are fixed by the initial conditions.\nWorked: a_n = a_{n−1} + 2a_{n−2}, a₀ = 2, a₁ = 7. Characteristic equation r² − r − 2 = 0, roots r = 2 and r = −1. So a_n = α₁2ⁿ + α₂(−1)ⁿ. From a₀: α₁ + α₂ = 2. From a₁: 2α₁ − α₂ = 7. Adding, 3α₁ = 9, α₁ = 3, α₂ = −1. Hence a_n = 3·2ⁿ − (−1)ⁿ. Check a₂ = 12 − 1 = 11, and the recurrence gives 7 + 2·2 = 11.\nIf a root r has multiplicity m, it contributes (α₀ + α₁n + α₂n² + … + α_{m−1}n^{m−1})rⁿ — multiply by successive powers of n, exactly as with repeated roots in linear differential equations. Example: a_n = 6a_{n−1} − 9a_{n−2} has r = 3 twice, so a_n = (α₀ + α₁n)3ⁿ.",
+    "facts": [
+      "Characteristic equation of a_n = c₁a_{n−1}+…+c_k a_{n−k} is r^k − c₁r^{k−1} − … − c_k = 0.",
+      "Distinct roots: a_n = Σ α_i r_iⁿ.",
+      "A root r of multiplicity m contributes (α₀ + α₁n + … + α_{m−1}n^{m−1}) rⁿ.",
+      "The number of unknown constants α equals the degree k, matched by k initial conditions.",
+      "Fibonacci's characteristic equation r² = r + 1 gives roots (1±√5)/2, the golden ratio and its conjugate.",
+      "a_n = 6a_{n−1} − 9a_{n−2} has the double root 3, so a_n = (α₀ + α₁n)3ⁿ.",
+      "Complex conjugate roots are handled the same way algebraically; the result can be rewritten with sines and cosines."
+    ],
+    "traps": [
+      "Sign errors moving terms across. For a_n = a_{n−1} + 2a_{n−2} the equation is r² − r − 2 = 0, not r² + r + 2 = 0.",
+      "Repeated roots: writing α₁3ⁿ + α₂3ⁿ, which collapses to one constant and cannot satisfy two initial conditions. You need the n·3ⁿ term.",
+      "Applying this method to a non-linear recurrence such as a_n = a_{n−1}² or to one with a non-constant coefficient like a_n = n·a_{n−1}. Neither has a characteristic equation.",
+      "Solving for the roots and stopping. The answer is not complete until the α's are determined from the initial conditions.",
+      "Not checking the closed form against a computed term. One substitution at n = 2 catches almost every arithmetic slip."
+    ],
+    "mnem": "Substitute rⁿ, divide out, solve the polynomial; repeated root ⇒ sprinkle powers of n.",
+    "rel": [
+      "Formulating recurrence relations",
+      "Non-homogeneous recurrences, substitution",
+      "Generating functions",
+      "Counting digit strings by recurrence"
+    ]
+  },
+  {
+    "id": "U1b-17",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Non-homogeneous recurrences, substitution",
+    "def": "A non-homogeneous linear recurrence a_n = c₁a_{n−1}+…+c_k a_{n−k} + F(n) is solved as the general homogeneous solution plus any particular solution, or by iterating (substituting) the recurrence into itself.",
+    "exp": "General solution = homogeneous solution + particular solution. For F(n) = (b_t n^t + … + b₀)sⁿ, try a particular solution of the same shape, n^m(p_t n^t + … + p₀)sⁿ, where m is the multiplicity of s as a root of the characteristic equation (m = 0 when s is not a root).\nWorked, the shape these papers use: T(n) = 2T(n−1) + n, T(0) = 0. Homogeneous part: r = 2, so T_h = c·2ⁿ. Here F(n) = n = n·1ⁿ, and s = 1 is not a root, so try T_p = an + b. Substituting: an + b = 2(a(n−1)+b) + n = (2a+1)n + (2b−2a). Matching coefficients, a = 2a+1 ⇒ a = −1; b = 2b−2a ⇒ b = 2a = −2. So T_p = −n − 2 and T(n) = c·2ⁿ − n − 2. From T(0) = 0, c = 2, giving T(n) = 2^{n+1} − n − 2. Check: T(1) = 2·0+1 = 1 and 4−1−2 = 1; T(2) = 2·1+2 = 4 and 8−2−2 = 4.\nThe substitution (iteration) method reaches the same place without guessing: expand T(n) = 2T(n−1)+n = 4T(n−2)+2(n−1)+n = … = 2ⁿT(0) + Σ_{j=0}^{n−1} 2^j(n−j), then sum. Either way T(n) = Θ(2ⁿ).",
+    "facts": [
+      "General solution = homogeneous general solution + one particular solution.",
+      "For F(n) = polynomial(n)·sⁿ, the trial particular solution is n^m·polynomial(n)·sⁿ with m = multiplicity of s as a characteristic root.",
+      "T(n) = 2T(n−1) + n with T(0) = 0 solves to T(n) = 2^{n+1} − n − 2, which is Θ(2ⁿ).",
+      "T(n) = 2T(n−1) + 1 with T(1) = 1 gives 2ⁿ − 1 (Tower of Hanoi).",
+      "The substitution/iteration method expands the recurrence repeatedly, then sums the resulting series.",
+      "Initial conditions are applied only to the COMPLETE general solution, never to the homogeneous part alone.",
+      "The Master theorem applies to divide-and-conquer forms T(n) = aT(n/b) + f(n), not to T(n−1) forms."
+    ],
+    "traps": [
+      "Fitting the constants to the homogeneous solution before adding the particular one. The initial conditions must be applied after the two are combined, or every constant comes out wrong.",
+      "T(n) = 2T(n−1) + n is Θ(2ⁿ). It is routinely confused with T(n) = 2T(n/2) + n, which is Θ(n log n) — read n−1 versus n/2 carefully.",
+      "Forgetting the n^m factor when s is already a characteristic root. For T(n) = 2T(n−1) + 2ⁿ, s = 2 IS the root, so the trial form is n·p·2ⁿ, not p·2ⁿ.",
+      "Guessing a particular solution of the wrong degree — for F(n) linear in n you need the full an+b, not just a constant.",
+      "Stopping at the pattern in the substitution method without evaluating the resulting summation; the closed form is the answer, not the sigma."
+    ],
+    "mnem": "Homogeneous + particular, THEN plug in the initial conditions. Order matters.",
+    "rel": [
+      "Solving linear homogeneous recurrences",
+      "Formulating recurrence relations",
+      "Generating functions",
+      "Counting digit strings by recurrence"
+    ]
+  },
+  {
+    "id": "U1b-18",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Counting digit strings by recurrence",
+    "def": "Counting n-digit strings over a fixed alphabet subject to a parity or pattern condition is done by conditioning on the last digit and tracking the complementary count as well.",
+    "exp": "The standard MPSC-style question: how many n-digit ternary sequences (digits 0, 1, 2) contain an even number of 0s? Let a_n be that count. Total strings of length n = 3ⁿ, so the odd-count total is 3ⁿ − a_n.\nCondition on the last digit. If it is 1 or 2 the parity of 0s is unchanged, so the first n−1 digits must already have an even count: 2a_{n−1} ways. If it is 0 the parity flips, so the first n−1 digits must have an ODD count: (3^{n−1} − a_{n−1}) ways. Hence\na_n = 2a_{n−1} + (3^{n−1} − a_{n−1}) = a_{n−1} + 3^{n−1}, with a₀ = 1 (the empty string has zero 0s, which is even) or equivalently a₁ = 2.\nSolve by generating function. With A(x) = Σ a_n xⁿ, the relation a_n − a_{n−1} = 3^{n−1} for n ≥ 1 gives (1−x)A(x) = 1 + x/(1−3x), so A(x) = (1−2x)/((1−x)(1−3x)) = ½/(1−x) + ½/(1−3x). Therefore a_n = (3ⁿ + 1)/2.\nCheck n = 2: (9+1)/2 = 5, and by hand the strings are 11,12,21,22,00 — five. The same two-state method handles \"even number of 1s in a binary string\" and \"no two consecutive equal digits\".",
+    "facts": [
+      "Ternary strings of length n with an even number of 0s: a_n = 2a_{n−1} + (3^{n−1} − a_{n−1}) = a_{n−1} + 3^{n−1}.",
+      "Closed form a_n = (3ⁿ + 1)/2, with a₀ = 1, a₁ = 2, a₂ = 5, a₃ = 14.",
+      "Total ternary strings of length n is 3ⁿ; the odd-0s count is 3ⁿ − a_n = (3ⁿ − 1)/2.",
+      "For binary strings of length n, exactly half (2^{n−1}) have an even number of 1s for n ≥ 1.",
+      "The generating function is A(x) = (1−2x)/((1−x)(1−3x)), split by partial fractions into ½/(1−x) + ½/(1−3x).",
+      "The method generalises: track the counts of every parity/state class, since the classes feed into each other.",
+      "Strings of length n over an alphabet of size k with no two adjacent letters equal: k(k−1)^{n−1}."
+    ],
+    "traps": [
+      "Treating a_n = 2a_{n−1} as the whole recurrence. Appending 0 to an ODD-count string also produces an even-count string, and dropping that branch loses most of the answer.",
+      "Zero is even. The all-1s string and the empty string both qualify — a₀ = 1, not 0.",
+      "Using 2^n instead of 3^n for the total. The alphabet here is ternary; the complementary term is 3^{n−1}, not 2^{n−1}.",
+      "Answering with the recurrence when the question asked for the closed form, or vice versa — MPSC stems ask for both shapes and the options include each.",
+      "Off-by-one in the initial condition: verify a₂ = 5 by hand before trusting any closed form."
+    ],
+    "mnem": "Two states, even and odd: appending a 0 swaps them, appending anything else keeps them.",
+    "rel": [
+      "Formulating recurrence relations",
+      "Generating functions",
+      "Non-homogeneous recurrences, substitution",
+      "Permutations, circular and with repetition"
+    ]
+  }
+]

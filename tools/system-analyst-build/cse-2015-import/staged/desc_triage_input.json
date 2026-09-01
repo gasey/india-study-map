@@ -1,0 +1,394 @@
+[
+ {
+  "id": "D000",
+  "q": "What is the Difference between a Job and a Process?"
+ },
+ {
+  "id": "D001",
+  "q": "What are the differences between multiprocessing and multiprogramming?"
+ },
+ {
+  "id": "D002",
+  "q": "Shown below is the workload for 5 jobs arriving at time zero in the order given below \" Job Burst Time 1 10 2 29 3 3 4 7 4 12 Now find out which algorithm among FCFS, SJF And Round Robin with quantum 10, would give the minimum average time."
+ },
+ {
+  "id": "D003",
+  "q": "Explain one method for avoiding deadlock."
+ },
+ {
+  "id": "D004",
+  "q": "Describe priority scheduling algorithm."
+ },
+ {
+  "id": "D005",
+  "q": "Describe LRU page replacement algorithm."
+ },
+ {
+  "id": "D006",
+  "q": "Differentiate between Random Scan and Raster Scan displays."
+ },
+ {
+  "id": "D007",
+  "q": "Consider three different raster systems with resolutions of 640 x 480, 1280 x 1024 and 2560 x 2048. How much storage (in bytes) is required for each system if 24 bits per pixel are to be stored?"
+ },
+ {
+  "id": "D008",
+  "q": "What is Transformation? What are general Transformations Techniques?"
+ },
+ {
+  "id": "D009",
+  "q": "Describe flood fill algorithm."
+ },
+ {
+  "id": "D010",
+  "q": "What is Line Clipping? Explain Cohen Sutherland Method of Line Clipping"
+ },
+ {
+  "id": "D011",
+  "q": "Write a function to generate first n prime numbers on which object is passed by reference."
+ },
+ {
+  "id": "D012",
+  "q": "Write a program to overload the + operator to concatenate strings."
+ },
+ {
+  "id": "D013",
+  "q": "Write a program to handle division by zero exception."
+ },
+ {
+  "id": "D014",
+  "q": "Consider the Work Queue: 23, 89, 132, 42, 187; there are 200 cylinders numbered from 0 - 199; and the disk-head stars at number 100. Compute the total time using SCAN algorithm going towards 0."
+ },
+ {
+  "id": "D015",
+  "q": "Write a program to convert polar to rectangular coordinates using object pass by value."
+ },
+ {
+  "id": "D016",
+  "q": "What are Bezier Curves and Surfaces?"
+ },
+ {
+  "id": "D017",
+  "q": "Define files. And how are they organized in a system."
+ },
+ {
+  "id": "D018",
+  "q": "Describe multi-level inheritance."
+ },
+ {
+  "id": "D019",
+  "q": "Discuss the advantages and disadvantages of Round Robin Scheduling."
+ },
+ {
+  "id": "D020",
+  "q": "What are the characteristics of a data in a database?"
+ },
+ {
+  "id": "D021",
+  "q": "What are the disadvantages of database system? Explain them briefly."
+ },
+ {
+  "id": "D022",
+  "q": "Explain the difference between an attribute and value set."
+ },
+ {
+  "id": "D023",
+  "q": "Discuss the conventions for displaying an ER schema as an ER diagram."
+ },
+ {
+  "id": "D024",
+  "q": "What is the significance of views in SQL? Give SQL statement to update data."
+ },
+ {
+  "id": "D025",
+  "q": "What are the different types of relations between the entities in a table?"
+ },
+ {
+  "id": "D026",
+  "q": "Discuss the types of privileges at the account level and at the relational level."
+ },
+ {
+  "id": "D027",
+  "q": "Explain locking techniques for concurrency control."
+ },
+ {
+  "id": "D028",
+  "q": "Discuss the TCP Header."
+ },
+ {
+  "id": "D029",
+  "q": "What are the different types of transmission impairments?"
+ },
+ {
+  "id": "D030",
+  "q": "Distinguish between adaptive and non-adaptive routing algorithms."
+ },
+ {
+  "id": "D031",
+  "q": "Explain function of token bus."
+ },
+ {
+  "id": "D032",
+  "q": "Compare and contrast FDMA, TDMA and CDMA techniques."
+ },
+ {
+  "id": "D033",
+  "q": "What is ISDN? Explain types of services provided by ISDN."
+ },
+ {
+  "id": "D034",
+  "q": "What are the various categories of software?"
+ },
+ {
+  "id": "D035",
+  "q": "What are the Drawbacks of RAD Model?"
+ },
+ {
+  "id": "D036",
+  "q": "What are the benefits of prototyping?"
+ },
+ {
+  "id": "D037",
+  "q": "What is the role of SRS? Explain."
+ },
+ {
+  "id": "D038",
+  "q": "What is the importance of data dictionary?"
+ },
+ {
+  "id": "D039",
+  "q": "Differentiate between verification and Validation."
+ },
+ {
+  "id": "D040",
+  "q": "How many words can be formed from the letters of the word, 'SIGNATURE' to that the vowels always come together?"
+ },
+ {
+  "id": "D041",
+  "q": "In a basketball match, all ten players shake hands with each other once after the match. How many handshakes will be there?"
+ },
+ {
+  "id": "D042",
+  "q": "Prove the following by principle of \"Induction Method\" for all n  0,"
+ },
+ {
+  "id": "D043",
+  "q": "Design DFA which accepts the strings 1010 only."
+ },
+ {
+  "id": "D044",
+  "q": "Consider the following NFA with å given below: TRANSITION TABLE INPUTS STATES e a b c =>p F {p} {q} {r} q {p} {q} {r} F *r {q} {r} F {p} Convert the automation to DFA"
+ },
+ {
+  "id": "D045",
+  "q": "Draw a logic diagram using only two-input NOR gates to implement the following function: F(A, B, C, D) = (A  B)' (C  D)"
+ },
+ {
+  "id": "D046",
+  "q": "Construction of half adder without using AND and OR Gate?"
+ },
+ {
+  "id": "D047",
+  "q": "Implement a full adder with two 4X1 multiplexers."
+ },
+ {
+  "id": "D048",
+  "q": "How will you define the present state and next state of sequential circuit?"
+ },
+ {
+  "id": "D049",
+  "q": "Why look ahead carry adder is faster than ripple adder?"
+ },
+ {
+  "id": "D050",
+  "q": "Explain clock speed related to computer performance."
+ },
+ {
+  "id": "D051",
+  "q": "What is two level memory access in multilevel memory hierarchy?"
+ },
+ {
+  "id": "D052",
+  "q": "Briefly explain the technique of pipelining. What is the use of Control Register."
+ },
+ {
+  "id": "D053",
+  "q": "If a system designer wants to exchange the data directly between main memory and I/O module without processor involvement, which technique they need to be choosen by system designer and why?"
+ },
+ {
+  "id": "D054",
+  "q": "Most of the machines provide a variety of shifting and rotating functions. List out the possible shift and rotate functions with suitable diagrams."
+ },
+ {
+  "id": "D055",
+  "q": "Explain the concept of Recursion."
+ },
+ {
+  "id": "D056",
+  "q": "Explain the steps to check whether a given expression is balanced or unbalanced."
+ },
+ {
+  "id": "D057",
+  "q": "Analyze the time complexity of Prim's Algorithm."
+ },
+ {
+  "id": "D058",
+  "q": "Sort the array {14, 23, 43, 56, 34, 65, 34, 76, 87, 98, 45, 23, 45, 12, 34, 56} using Merge Sort."
+ },
+ {
+  "id": "D059",
+  "q": "If an operating system possesses N resources of identical type, and these resources are shared among four processes labeled as a, b, c, and d, with respective peak demands of 3, 5, 8, and 7, then what is the value of N that would prevent the occurrence of deadlock?"
+ },
+ {
+  "id": "D060",
+  "q": "In a uniprocessor computer system, there exist three processes that alternate between 20ms CPU bursts and 80ms I/O bursts. These processes were created around the same time, and their I/O operations can be executed concurrently. Given a Round Robin scheduling algorithm with a time quantum of 10ms, what would be the CPU utilization over an extended duration for this system?"
+ },
+ {
+  "id": "D061",
+  "q": "Consider the scenario where disk requests arrive in the order of 82, 170, 43, 140, 24, 16, and 190, with the current head position pointing at 50, determine the total seek time using the SCAN Disk scheduling algorithm."
+ },
+ {
+  "id": "D062",
+  "q": "In a system containing three user processes, namely P1, P2, and P3, with resource requirements of 21 units, 31 units, and 41 units of resource R, respectively, the minimum number of units of resource R required to prevent deadlock is _______."
+ },
+ {
+  "id": "D063",
+  "q": "What is a thread? Why is it that threads are faster to create than processes?"
+ },
+ {
+  "id": "D064",
+  "q": "What are the Structures used in File-System Implementation?"
+ },
+ {
+  "id": "D065",
+  "q": "Suppose the time to service a page fault is on the average 10 milliseconds, while a memory access takes 1 microsecond. Then a 99.99% hit ratio results in average memory access time"
+ },
+ {
+  "id": "D066",
+  "q": "Compare new and malloc()."
+ },
+ {
+  "id": "D067",
+  "q": "How pure virtual functions are differ from virtual function?"
+ },
+ {
+  "id": "D068",
+  "q": "What is the data type of void pointer?"
+ },
+ {
+  "id": "D069",
+  "q": "Discuss briefly about the functions to manipulate file pointers."
+ },
+ {
+  "id": "D070",
+  "q": "Explain the mechanism of exception handling in object-oriented programming."
+ },
+ {
+  "id": "D071",
+  "q": "What will be the output of the following C++ code? #include <iostream> #include <string> using namespace std; int main(int argc, char const *argv[]) { string str; cin>>str; cout<<str; return 0; }"
+ },
+ {
+  "id": "D072",
+  "q": "Write the C++ Program to Compare Two Strings using Overloading"
+ },
+ {
+  "id": "D073",
+  "q": "Write the Digital Differential Analyzer Line generation Algorithm"
+ },
+ {
+  "id": "D074",
+  "q": "Short notes an Functions for Segmenting the display"
+ },
+ {
+  "id": "D075",
+  "q": "Mentioned the Characteristic of Perspective Projection"
+ },
+ {
+  "id": "D076",
+  "q": "Explain the Types of hidden surface detection algorithms."
+ },
+ {
+  "id": "D077",
+  "q": "What are the advantages of B spline over Bezier curve?"
+ },
+ {
+  "id": "D078",
+  "q": "How much time is spent scanning across each row of pixels during screen refresh on a raster system with resolution of 1280 X 1024 and a refresh rate of 60 frames per second?"
+ },
+ {
+  "id": "D079",
+  "q": "What is the difference between SQL and NoSQL?"
+ },
+ {
+  "id": "D080",
+  "q": "Relation R has eight attributes ABCDEFGH. Fields of R contain only atomic values. F = {CH  G, A  BC, B  CFH, E  A, F  EG} is a set of functional dependencies (FDs) so that F+ is exactly the set of FDs that hold for R. How many candidate keys does the relation R have?"
+ },
+ {
+  "id": "D081",
+  "q": "Table A Id Name Age -------- 12 Arun 60 15 Shreya 24 99 Rohit 11 Table B Id Name Age -------- 15 Shreya 24 25 Hari 40 98 Rohit 20 99 Rohit 11 Table C Id Phone Area -------- 10 2200 02 99 2100 01 Consider the above tables A, B and C. How many tuples does the result of the following SQL query contains? SELECT A.id FROM A WHERE A.age > ALL (SELECT B.age FROM B WHERE B. name = \"arun\")"
+ },
+ {
+  "id": "D082",
+  "q": "What do you mean by Correlated sub query?"
+ },
+ {
+  "id": "D083",
+  "q": "List the Codd's Rules on Relational Databases."
+ },
+ {
+  "id": "D084",
+  "q": "Why is the multivalue, multicolumn problem another form of the multivalued dependency problem?"
+ },
+ {
+  "id": "D085",
+  "q": "What are stored-procedures? And what are the advantages of using them?"
+ },
+ {
+  "id": "D086",
+  "q": "What is a network and what are benefits of network?"
+ },
+ {
+  "id": "D087",
+  "q": "What are two advantage and disadvantage of STAR Topology?"
+ },
+ {
+  "id": "D088",
+  "q": "What is Multiplexing? Briefly explain the working of Synchronous TDM."
+ },
+ {
+  "id": "D089",
+  "q": "Suppose the round trip propagation delay for a 10 Mbps Ethernet having 48-bit jamming signal is 46.4 ms. The minimum frame size is:"
+ },
+ {
+  "id": "D090",
+  "q": "A computer on a 10Mbps network is regulated by a token bucket. The token bucket is filled at a rate of 2Mbps. It is initially filled to capacity with 16Megabits. What is the maximum duration for which the computer can transmit at the full 10Mbps?"
+ },
+ {
+  "id": "D091",
+  "q": "What are the responsibilities of Application Layer?"
+ },
+ {
+  "id": "D092",
+  "q": "How does the risk factor affect the spiral model of software development?"
+ },
+ {
+  "id": "D093",
+  "q": "Distinguish software faults and software failures."
+ },
+ {
+  "id": "D094",
+  "q": "Compare the basic COCOMO model with the detailed COCOMO model."
+ },
+ {
+  "id": "D095",
+  "q": "A software project involves execution of 5 tasks T1, T2, T3, T4 and T5 of duration 10, 15, 18, 30 and 40 days, respectively. T2 and T4 can start only after T1 completes. T3 can start after T2 completes. T5 can start only after both T3 and T4 complete. What is the slack time of the task T3 in days?"
+ },
+ {
+  "id": "D096",
+  "q": "Consider the following program module: int module1 (int x, int y) { while (x! = y) { if (x > y) x = x - y, else y = y - x; } return x; } What is Cyclomatic complexity of the above module?"
+ },
+ {
+  "id": "D097",
+  "q": "Assume that the software team defines a project risk with 80% probability of occurrence of risk in the following manner : Only 70 percent of the software components scheduled for reuse will be integrated into the application and the remaining functionality will have to be custom developed. If 60 reusable components were planned with average component size as 100 LOC and software engineering cost for each LOC as $ 14, then the risk exposure would be.."
+ }
+]

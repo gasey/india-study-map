@@ -1,0 +1,398 @@
+[
+ {
+  "id": "N0005",
+  "ans": "D",
+  "conf": "medium",
+  "exp": "Mathematical induction is used to prove statements (logical propositions) indexed by the natural numbers, not specifically geometric, algebraic, or calculus results. The trailing 'Bay' in option (d) is OCR noise and can be ignored.",
+  "sub": "Mathematical induction",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0006",
+  "ans": "B",
+  "conf": "medium",
+  "exp": "Reading '-(P A Q)' as ¬(P ∧ Q) (a common OCR pattern where ∧ prints as 'A'): with P and Q both true, P∧Q is true, so its negation is False.",
+  "sub": "Propositional logic",
+  "mode": "calculate",
+  "broken": false
+ },
+ {
+  "id": "N0007",
+  "ans": "A",
+  "conf": "high",
+  "exp": "Two logical expressions are logically equivalent exactly when they produce the same truth value under every possible assignment to their variables.",
+  "sub": "Logical equivalence",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0008",
+  "ans": "A",
+  "conf": "low",
+  "exp": "None of the printed options is the actual combinations formula n!/(r!(n-r)!); option (a) 'n!/(n-r)!' is the permutations formula, not combinations. This looks like OCR dropped the 'r!' factor from the true combinations formula, so option (a) is the closest recoverable intent, but the question is defective as printed.",
+  "sub": "Combinatorics",
+  "mode": "calculate",
+  "broken": true
+ },
+ {
+  "id": "N0009",
+  "ans": "C",
+  "conf": "high",
+  "exp": "C(7,3) = 7!/(3!4!) = 35.",
+  "sub": "Combinatorics",
+  "mode": "calculate",
+  "broken": false
+ },
+ {
+  "id": "N0010",
+  "ans": "B",
+  "conf": "high",
+  "exp": "A recurrence relation expresses each term of a sequence in terms of one or more of its preceding terms.",
+  "sub": "Recurrence relations",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0011",
+  "ans": "A",
+  "conf": "high",
+  "exp": "The Fibonacci recurrence is F(n) = F(n-1) + F(n-2); option (a) has an obvious OCR typo ('m-2' for 'n-2') but is otherwise the standard, correct relation.",
+  "sub": "Recurrence relations",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0012",
+  "ans": "B",
+  "conf": "high",
+  "exp": "The chromatic number of a graph is the minimum number of colors needed to color its vertices so that no two adjacent vertices share a color.",
+  "sub": "Graph coloring",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0013",
+  "ans": "A",
+  "conf": "low",
+  "exp": "The described problem — a closed walk traversing every edge exactly once — is the Euler circuit / Konigsberg bridges problem, which is not actually among the listed options. None of the four choices is correct as printed; the Traveling Salesman Problem is picked here only as the closest 'tour/circuit' concept, but this question is defective.",
+  "sub": "Graph theory problems",
+  "mode": "understand",
+  "broken": true
+ },
+ {
+  "id": "N0014",
+  "ans": "B",
+  "conf": "high",
+  "exp": "A spanning tree connecting n vertices with no cycles requires exactly n-1 edges, the minimum possible for a connected graph on n vertices.",
+  "sub": "Spanning trees",
+  "mode": "calculate",
+  "broken": false
+ },
+ {
+  "id": "N0015",
+  "ans": "C",
+  "conf": "high",
+  "exp": "Kruskal's algorithm builds a minimum spanning tree by greedily adding the cheapest edge that doesn't form a cycle; BFS/DFS are traversal algorithms and Dijkstra's finds shortest paths, not an MST.",
+  "sub": "Minimum spanning tree",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0016",
+  "ans": "C",
+  "conf": "high",
+  "exp": "Graph isomorphism requires a structure-preserving bijection between vertices, which in particular preserves the degree of each vertex (a necessary, though not sufficient, isomorphism invariant) — the strongest match among the listed options. The stray trailing 'a' in option (d) is OCR noise.",
+  "sub": "Graph isomorphism",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0017",
+  "ans": "A",
+  "conf": "high",
+  "exp": "An NFA accepts an input string if there exists at least one computation path from the start state to some final state on that string.",
+  "sub": "Finite automata",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0018",
+  "ans": "B",
+  "conf": "high",
+  "exp": "By definition, a DFA has exactly one transition per state per input symbol — that determinism is what makes it a DFA rather than an NFA.",
+  "sub": "Finite automata",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0019",
+  "ans": "B",
+  "conf": "high",
+  "exp": "State minimization (merging indistinguishable states) is a DFA concept; NFAs, PDAs, and TMs are not minimized in this standard sense.",
+  "sub": "Finite automata",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0020",
+  "ans": "A",
+  "conf": "high",
+  "exp": "In a Moore machine, output is a function of the current state alone, so each state has one fixed output regardless of the input applied.",
+  "sub": "Moore and Mealy machines",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0021",
+  "ans": "D",
+  "conf": "high",
+  "exp": "Type-1 (context-sensitive) grammars are defined precisely as the grammars that generate context-sensitive languages; they are not context-free grammars and are strictly more powerful than what a finite automaton can parse.",
+  "sub": "Chomsky hierarchy",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0022",
+  "ans": "D",
+  "conf": "high",
+  "exp": "Type-3 grammars are, by definition, regular grammars, and they generate exactly the regular languages.",
+  "sub": "Chomsky hierarchy",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0023",
+  "ans": "A",
+  "conf": "medium",
+  "exp": "Fuzzy set membership values range over the closed interval [0,1]; option (a) 'Otol' is OCR-garbled shorthand for '0 to 1'.",
+  "sub": "Fuzzy sets",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0024",
+  "ans": "B",
+  "conf": "high",
+  "exp": "Fuzzy union (typically the max of membership values) is the fuzzy-logic analogue of classical logical OR.",
+  "sub": "Fuzzy logic operations",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0870",
+  "ans": "A",
+  "conf": "high",
+  "exp": "Up to isomorphism there are exactly 2 abelian groups of order 4: the cyclic group Z4 and the Klein four-group Z2×Z2.",
+  "sub": "Group theory",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0871",
+  "ans": "A",
+  "conf": "high",
+  "exp": "The power set of the empty set is {∅}, a set containing exactly one element (the empty set itself), so it has exactly one subset overall... more precisely one element, matching option (a) 'One'.",
+  "sub": "Power sets",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0872",
+  "ans": "C",
+  "conf": "high",
+  "exp": "A connected, acyclic graph is the definition of a tree.",
+  "sub": "Trees",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0873",
+  "ans": "B",
+  "conf": "high",
+  "exp": "The largest equivalence relation on an n-element set S is the full relation S×S, with n^2 pairs; the smallest is the identity relation {(a,a): a in S}, with n pairs (reflexivity requires at least these).",
+  "sub": "Equivalence relations",
+  "mode": "calculate",
+  "broken": false
+ },
+ {
+  "id": "N0874",
+  "ans": "A",
+  "conf": "medium",
+  "exp": "Two finite state machines are isomorphic when there is a structure-preserving bijection between their states that respects transitions — equivalent to saying one machine can be turned into the other purely by relabeling its states. The option list is corrupted (a merged, garbled third choice), but option (a) stands as a clean, correct statement.",
+  "sub": "Automata equivalence",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0875",
+  "ans": "D",
+  "conf": "high",
+  "exp": "In the Chomsky hierarchy, regular (right-linear) languages are a proper subset of context-free languages, which are in turn a proper subset of context-sensitive languages: right-linear ⊂ context-free ⊂ context-sensitive.",
+  "sub": "Chomsky hierarchy",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0876",
+  "ans": "D",
+  "conf": "high",
+  "exp": "In defuzzification methods, MeOM (mean of maxima) assigns the average of the domain values that achieve the maximum membership.",
+  "sub": "Fuzzy defuzzification",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N1012",
+  "ans": "A",
+  "conf": "high",
+  "exp": "With p = 'It is raining' and q = 'She will go to college', 'It is raining and she will not go to college' is p AND (NOT q), matching option (a) 'p*~q' once '*' is read as AND and '~' as NOT.",
+  "sub": "Propositional logic",
+  "mode": "calculate",
+  "broken": false
+ },
+ {
+  "id": "N1013",
+  "ans": "B",
+  "conf": "low",
+  "exp": "The question stem embeds the four answer choices (∃x(real∧rational) etc.) directly in its own text rather than in the options object, and the options object itself is corrupted — it only exposes keys 'A' and a garbled 'B' that seems to merge the original C and D choices. The semantically correct translation of 'Some real numbers are rational' is ∃x(real(x) ∧ rational(x)); option 'B' is picked only because it is the option value that contains that fragment, but the mapping is unreliable.",
+  "sub": "Predicate logic",
+  "mode": "understand",
+  "broken": true
+ },
+ {
+  "id": "N1014",
+  "ans": "B",
+  "conf": "high",
+  "exp": "A function f: A→A where f(x)=x for every x in A (mapping every element to itself) is the identity function.",
+  "sub": "Functions and mappings",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N1015",
+  "ans": "B",
+  "conf": "high",
+  "exp": "A production of the form A → α, with a single non-terminal A on the left-hand side and any string of terminals/non-terminals on the right, is exactly the defining shape of a context-free grammar rule.",
+  "sub": "Grammar classification",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N1016",
+  "ans": "B",
+  "conf": "low",
+  "exp": "A minimum spanning tree of G is simultaneously a spanning subgraph, a tree, and has minimum total edge weight — i.e. 'all of these'. The options object is corrupted (choices merged together under key 'B'), so 'B' is picked as the option value containing that composite correct answer, but the letter mapping is unreliable.",
+  "sub": "Minimum spanning tree",
+  "mode": "understand",
+  "broken": true
+ },
+ {
+  "id": "N0684",
+  "ans": "C",
+  "conf": "high",
+  "exp": "X + Y + XY simplifies to X + Y by absorption (X + XY = X). Then (X+Y)(X+Z) = X + XZ + XY + YZ, and X again absorbs XZ and XY, leaving X + YZ.",
+  "sub": "Boolean simplification",
+  "mode": "calculate",
+  "broken": false
+ },
+ {
+  "id": "N0685",
+  "ans": "C",
+  "conf": "high",
+  "exp": "Commutative law states A+B = B+A (and A·B = B·A); option (c), once its missing '=' sign is restored, reads 'A+B = B+A'. The other options represent associative (a), distributive (b), and idempotent (d) laws, with their '=' signs similarly dropped by OCR.",
+  "sub": "Boolean algebra laws",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0686",
+  "ans": "A",
+  "conf": "low",
+  "exp": "Taken at face value, three of the four statements are arithmetically wrong: 1·0=1 should be 0, 1·1·0=1 should be 0, and 1·1=0 should be 1 — only 1·1·1=1 is correct. Since the question expects exactly one 'incorrect' statement, this indicates OCR corruption of the operators or values in some options; (a) is picked as the most obviously and unambiguously false statement, but the question is defective as printed.",
+  "sub": "Boolean algebra basics",
+  "mode": "calculate",
+  "broken": true
+ },
+ {
+  "id": "N0687",
+  "ans": "A",
+  "conf": "high",
+  "exp": "Machine language (binary instructions) is the only language a computer's hardware can directly understand and execute.",
+  "sub": "Computer fundamentals",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0688",
+  "ans": "B",
+  "conf": "high",
+  "exp": "PROM is a semiconductor memory directly addressable by the CPU and counts as primary storage, unlike magnetic tape and floppy disks, which are secondary/auxiliary storage media.",
+  "sub": "Computer memory",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0697",
+  "ans": "C",
+  "conf": "high",
+  "exp": "In a half adder, the EX-OR gate computes the Sum output.",
+  "sub": "Half adder",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0698",
+  "ans": "A",
+  "conf": "high",
+  "exp": "In a half adder, the AND gate computes the Carry output.",
+  "sub": "Half adder",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0699",
+  "ans": "B",
+  "conf": "high",
+  "exp": "1's complement of 1010 is 0101. Adding: 1101 + 0101 = 10010; the overflow bit is added back (end-around carry): 0010 + 1 = 0011, which matches 13 - 10 = 3 = (0011)2.",
+  "sub": "1's complement arithmetic",
+  "mode": "calculate",
+  "broken": false
+ },
+ {
+  "id": "N0700",
+  "ans": "A",
+  "conf": "high",
+  "exp": "In subtraction by complements, the number being taken away (removed) from the other is called the subtrahend.",
+  "sub": "1's complement arithmetic",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0701",
+  "ans": "B",
+  "conf": "high",
+  "exp": "The number that is subtracted from another (i.e. removed from the minuend) is, by definition, the subtrahend.",
+  "sub": "2's complement arithmetic",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0702",
+  "ans": "C",
+  "conf": "high",
+  "exp": "A full adder takes three input bits at a time: two operand bits plus a carry-in.",
+  "sub": "Full adder",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0703",
+  "ans": "A",
+  "conf": "high",
+  "exp": "A full adder is standardly built from two half adders plus one OR gate (to combine the two carry outputs).",
+  "sub": "Full adder",
+  "mode": "memorise",
+  "broken": false
+ }
+]

@@ -1,0 +1,486 @@
+[
+ {
+  "id": "N0029",
+  "question": "Which method of Boolean function simplification involves creating a truth table and grouping adjacent terms with the same output value?",
+  "options": {
+   "A": "Karnaugh Map (K-map)",
+   "B": "Quine-McCluskey method",
+   "C": "Algebraic manipulation",
+   "D": "De Morgan's theorem"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0030",
+  "question": "Simplification of f(a,b,c,d) = \u00a5 (0,1,2,3,4,5,6,7,8,10,13) is",
+  "options": {
+   "A": "a'b + b'c'd' + b'cd' +b'c'd",
+   "B": "a'+b'c'd' + b'cd' + be'd",
+   "C": "a'+b'd' + be'd",
+   "D": "a'd'+a'c + b'd' + be'd"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0031",
+  "question": "Inthe context of digital circuit design, what is the benefit of a simplified Boolean function obtained using a K-map?",
+  "options": {
+   "A": "Reduced power consumption ;",
+   "B": "Increased clock speed",
+   "C": "Smaller and more efficient circuits",
+   "D": "Enhanced resistance to electromagnetic interference"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0032",
+  "question": "What is the output of an XOR gate if both of its inputs are set to logic level 1?",
+  "options": {
+   "A": "Logic level 0",
+   "B": "Logic level 1",
+   "C": "Logic level X (undefined)",
+   "D": "Logic level Z (high impedance)"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0033",
+  "question": "In DTL(Diode-Transistor Logic), what is the role of diodes?",
+  "options": {
+   "A": "To amplify the input signals",
+   "B": "To perform logical AND operations",
+   "C": "To switch between different logic levels",
+   "D": "To provide power to the circuit"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0034",
+  "question": "What is the typical threshold voltage polarity fora PMOS transistor?",
+  "options": {
+   "A": "Positive threshold voltage ;",
+   "B": "Negative threshold voltage",
+   "C": "Zero threshold voltage",
+   "D": "Variable threshold voltage"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0035",
+  "question": "Which logic gate is NOT a basic building block of CMOS circuits?",
+  "options": {
+   "A": "NAND gate",
+   "B": "NOR gate",
+   "C": "XOR gate",
+   "D": "XNOR gate"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0036",
+  "question": "InCMOS circuits, what is the purpose of using complementary NMOS and PMOS transistors?",
+  "options": {
+   "A": "To increase power consumption",
+   "B": "To reduce speed",
+   "C": "To lower noise immunity",
+   "D": "To achieve low power consumption and high noise immunity"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0037",
+  "question": "What is the primary characteristic of combinational logic circuits?",
+  "options": {
+   "A": "They have memory elements.",
+   "B": "They are synchronous circuits.",
+   "C": "They have feedback loops.",
+   "D": "They have no memory elements; their output depends solely on the current inputs."
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0038",
+  "question": "Ina full adder, what is the result if youadd 1+ 1+1?",
+  "options": {
+   "A": "Sum = 0, Carry-out = 0",
+   "B": "Sum = 1, Carry-out = 0",
+   "C": "Sum = 0, Carry-out = |",
+   "D": "Sum = 1, Carry-out = 1 BSc"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0039",
+  "question": "What is the primary function of a digital comparator circuit?",
+  "options": {
+   "A": "To perform arithmetic operations",
+   "B": "To compare two binary numbers and determine their relationship",
+   "C": "Toconvert analog signals to digital signals",
+   "D": "To store binary data temporarily"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0040",
+  "question": "What is the primary function of a multiplexer (MUX) in digital circuits?",
+  "options": {
+   "A": "To perform addition operations",
+   "B": "Toselect single signal frrom multiple signals",
+   "C": "To decode binary numbers",
+   "D": "To invert binary signals"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0041",
+  "question": "In telecommunications, what is the purpose of a demultiplexer in a digital subscriber line (DSL) modem? ;",
+  "options": {
+   "A": "To encrypt data for secure transmission",
+   "B": "Tocombine multiple data streams into one",
+   "C": "To separate voice and data signals",
+   "D": "To increase the bandwidth of the DSL line"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0042",
+  "question": "Which type of flip-flop is commonly used for storing a single bit of data and has two stable states, \"0\" and \"1\u00b0\"?",
+  "options": {
+   "A": "D flip-flop",
+   "B": "T flip-flop",
+   "C": "JK flip-flop",
+   "D": "SR flip-flop"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0043",
+  "question": "In digital logic, what is the clock signal used for in flip-flops?",
+  "options": {
+   "A": "To perform logical operations",
+   "B": "To reset the flip-flop",
+   "C": "To synchronize data storage or transfer",
+   "D": "To invert the input signals"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0044",
+  "question": "Which flip-flop type has an \"indeterminate\" or \"forbidden\" state when both of its inputs (S and R) are set to logic level 1? :",
+  "options": {
+   "A": "D flip-flop",
+   "B": "T flip-flop",
+   "C": "JK flip-flop",
+   "D": "SR flip-flop"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0045",
+  "question": "Which type of flip-flop is often used for synchronizing signals in digital systems and does not have a clock input?",
+  "options": {
+   "A": "D flip-flop",
+   "B": "T flip-flop",
+   "C": "JK flip-flop",
+   "D": "SR flip-flop"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0046",
+  "question": "Which type of register is commonly used to store the address of the next instruction to be executed in a CPU?",
+  "options": {
+   "A": "Data register",
+   "B": "Program counter (PC)",
+   "C": "Accumulator",
+   "D": "Memory buffer register (MBR)"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0048",
+  "question": "What does the term \"quantization\" refer to in A/D conversion?",
+  "options": {
+   "A": "The process of converting digital signals to analog signals .",
+   "B": "The process of mapping continuous analog values to discrete digital values",
+   "C": "The process of filtering out high-frequency noise",
+   "D": "The process of measuring the signal frequency"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0049",
+  "question": "What is the primary storage technology used in Solid-State Drives (SSDs)?",
+  "options": {
+   "A": "Magnetic disks",
+   "B": "Optical disks",
+   "C": "NAND flash memory",
+   "D": "RAM (Random Access Memory) _-"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0050",
+  "question": "What does VLIW stands for?",
+  "options": {
+   "A": "Very Long Instruction Word",
+   "B": "Very Long Instruction Width",
+   "C": "Very Large Instruction Word",
+   "D": "Very Large Instruction Width"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0051",
+  "question": "What is the fullform of CISC?",
+  "options": {
+   "A": "Complex Instruction Sequential Compiler \u00a7_",
+   "B": "Complex Integrated Set Computer",
+   "C": "Complete Instruction Sequential Compilation",
+   "D": "Complex Instruction Set Computer"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0052",
+  "question": "When a CPU accesses data stored in cache memory, it checks the to determine if the data has been modified.",
+  "options": {
+   "A": "Flag bit",
+   "B": "Reference bit",
+   "C": "Update bit",
+   "D": "Dirty Bit :"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0053",
+  "question": "In zero-address instruction format, the operands are stored in A",
+  "options": {
+   "A": "Registers",
+   "B": "Stack",
+   "C": "Accumulator",
+   "D": "Cache"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0054",
+  "question": "The length of word in a 64-bit machine is '",
+  "options": {
+   "A": "4 bytes",
+   "B": "8 bytes",
+   "C": "12 bytes",
+   "D": "16 bytes"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0055",
+  "question": "Which if the following memory device store the BOOT sector files of the system?",
+  "options": {
+   "A": "Cache",
+   "B": "RAM",
+   "C": "ROM",
+   "D": "SSD ye is a program that directly executes the instruction in a high-level language without converting into machine code. - (a) Compiler (b) Interpreter (c) Assembler (d) Decoder"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0056",
+  "question": "Ina microprocessor, what does the control unit use to generate control signals for different CPU operations?",
+  "options": {
+   "A": "Instruction format",
+   "B": "Opcode :",
+   "C": "Microinstructions",
+   "D": "Memory address"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0057",
+  "question": "What is the role of the clock signal in a computer system?",
+  "options": {
+   "A": "It carries data between the CPU and memory.",
+   "B": "It generates control signals.",
+   "C": "Itsynchronizes the timing of various operations.",
+   "D": "It performs arithmetic calculations."
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0058",
+  "question": "What isa linker in the context of assembly programming?",
+  "options": {
+   "A": "A program that converts assembly code to machine code",
+   "B": "A program that translates high-level code to assembly code",
+   "C": "A program that resolves references between separately assembled modules",
+   "D": "A program that optimizes the execution speed of assembly code"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0059",
+  "question": "What is the primary purpose of micro-operations in a CPU?",
+  "options": {
+   "A": "Execute high-level programming code",
+   "B": "Manage input/output devices",
+   "C": "Control the operation of the CPU's internal components",
+   "D": "Perform complex mathematical calculations By a"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0060",
+  "question": "Which register is often used as an intermediary in data transfer operations?",
+  "options": {
+   "A": "Program Counter (PC)",
+   "B": "Accumulator (ACC)",
+   "C": "Memory Buffer Register (MBR)",
+   "D": "Instruction Register (IR)"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0061",
+  "question": "Which of the following statements is true regarding register transfer operations?",
+  "options": {
+   "A": "Register transfer operations are performed using high-level programming languages.",
+   "B": "Register transfer operations can only involve one register at a time.",
+   "C": "Register transfer operations are used to move data between registers and perform arithmetic/ logic operations.",
+   "D": "Register transfer operations do not require a control unit."
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0062",
+  "question": "Which of the following provides fastest data access?",
+  "options": {
+   "A": "Caches",
+   "B": "DRAMs",
+   "C": "SRAMs",
+   "D": "Registers"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0063",
+  "question": "Which phase of the assembly process generates the actual machine code?",
+  "options": {
+   "A": "Lexical analysis",
+   "B": "Parsing",
+   "C": "Pass 1",
+   "D": "Pass 2"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0064",
+  "question": "What is the primary advantage of using BCD representation for decimal numbers?",
+  "options": {
+   "A": "Compact storage",
+   "B": "High precision",
+   "C": "Efficient arithmetic operations",
+   "D": "Easy conversion"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0065",
+  "question": "What is the advantage of microprogrammed control over hardwired control?",
+  "options": {
+   "A": "Faster execution",
+   "B": "Greater flexibility and easier modification",
+   "C": "Lower cost",
+   "D": "Simplicity in design"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0066",
+  "question": "Which of the following is true about microprogrammed control?",
+  "options": {
+   "A": "Itisaform of hardwired control.",
+   "B": "Ituses only high-level programming languages.",
+   "C": "It does not require control memory.",
+   "D": "It relies on microinstructions to control the CPU's operations."
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0067",
+  "question": "What is the purpose of using the mantissa in floating-point representation?",
+  "options": {
+   "A": "To store the sign of the number",
+   "B": "To determine the order of magnitude of the number",
+   "C": "To represent the actual digits of the number's fractional part",
+   "D": "To indicate the precision of the exponent"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0070",
+  "question": "What is the advantage of using a fixed-length instruction format?",
+  "options": {
+   "A": "It allows for variable-length instructions.",
+   "B": "Itsimplifies instruction decoding.",
+   "C": "Itincreases memory efficiency.",
+   "D": "It enables the use of complex data types."
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0071",
+  "question": "What is the purpose of an opcode in an instruction format?",
+  "options": {
+   "A": "To specify the source and destination registers",
+   "B": "To specify the type of operation to be performed",
+   "C": "To store the result of an operation",
+   "D": "To indicate the memory address of the instruction"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0072",
+  "question": "The situation that occurs in pipelining when the execution of an instruction depends on the result of previous instruction which has not been computed is called",
+  "options": {
+   "A": "Data deathtrap",
+   "B": "Data hazard",
+   "C": "Pipeline structure hazard",
+   "D": "Deadlock"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0073",
+  "question": "Which of the following is the proper sequence of decomposition of instruction in pipelining?",
+  "options": {
+   "A": "Fetch -> Decode -> Memory Access -> Execute -> Write",
+   "B": "Fetch -> Memory Access -> Decode -> Execute -> Write",
+   "C": "Fetch -> Decode -> Execute -> Memory access -> Write",
+   "D": "Fetch -> Memory Access -> Execute -> Decode -> Write"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0127",
+  "question": "What is \"cache coherence\" in cache memory organization?",
+  "options": {
+   "A": "Storing frequently accessed data in cache",
+   "B": "Ensuring that data in different cache levels is synchronized",
+   "C": "Maintaining coherence between cache, memory and CPU",
+   "D": "Synchronizing the cache and main memory"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0129",
+  "question": "What is \"cache associativity\" in cache memory organization?",
+  "options": {
+   "A": "The number of cache levels and their association in a system",
+   "B": "The way cache lines are mapped to specific locations in memory",
+   "C": "The amount of data stored in different cache levels",
+   "D": "The speed at which cache operates"
+  },
+  "garbled": false
+ }
+]

@@ -1,0 +1,8605 @@
+{
+ "N0000": {
+  "id": "N0000",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Set notation",
+  "garbled": true
+ },
+ "N0001": {
+  "id": "N0001",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Surjective mapping",
+  "garbled": false
+ },
+ "N0002": {
+  "id": "N0002",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Partially ordered sets",
+  "garbled": false
+ },
+ "N0003": {
+  "id": "N0003",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Lattices in posets",
+  "garbled": false
+ },
+ "N0004": {
+  "id": "N0004",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Mathematical induction",
+  "garbled": false
+ },
+ "N0005": {
+  "id": "N0005",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Induction proof",
+  "garbled": true
+ },
+ "N0006": {
+  "id": "N0006",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Propositional logic",
+  "garbled": true
+ },
+ "N0007": {
+  "id": "N0007",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Logical equivalence",
+  "garbled": false
+ },
+ "N0008": {
+  "id": "N0008",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Combinations formula",
+  "garbled": false
+ },
+ "N0009": {
+  "id": "N0009",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Combinations counting",
+  "garbled": false
+ },
+ "N0010": {
+  "id": "N0010",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Recurrence relations",
+  "garbled": false
+ },
+ "N0011": {
+  "id": "N0011",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Fibonacci sequence",
+  "garbled": false
+ },
+ "N0012": {
+  "id": "N0012",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Chromatic number",
+  "garbled": false
+ },
+ "N0013": {
+  "id": "N0013",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Euler circuits",
+  "garbled": false
+ },
+ "N0014": {
+  "id": "N0014",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Spanning tree edges",
+  "garbled": false
+ },
+ "N0015": {
+  "id": "N0015",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Minimum spanning tree",
+  "garbled": false
+ },
+ "N0016": {
+  "id": "N0016",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Graph isomorphism",
+  "garbled": true
+ },
+ "N0017": {
+  "id": "N0017",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "NFA acceptance",
+  "garbled": false
+ },
+ "N0018": {
+  "id": "N0018",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "DFA transitions",
+  "garbled": false
+ },
+ "N0019": {
+  "id": "N0019",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "State minimization",
+  "garbled": false
+ },
+ "N0020": {
+  "id": "N0020",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Moore machines",
+  "garbled": false
+ },
+ "N0021": {
+  "id": "N0021",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Type 1 grammar",
+  "garbled": true
+ },
+ "N0022": {
+  "id": "N0022",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Type 3 grammar",
+  "garbled": false
+ },
+ "N0023": {
+  "id": "N0023",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Fuzzy set membership",
+  "garbled": true
+ },
+ "N0024": {
+  "id": "N0024",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Fuzzy logic union",
+  "garbled": false
+ },
+ "N0025": {
+  "id": "N0025",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Transistor switching",
+  "garbled": false
+ },
+ "N0026": {
+  "id": "N0026",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Transistor speed",
+  "garbled": false
+ },
+ "N0027": {
+  "id": "N0027",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Boolean algebra law",
+  "garbled": false
+ },
+ "N0028": {
+  "id": "N0028",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Boolean simplification",
+  "garbled": true
+ },
+ "N0029": {
+  "id": "N0029",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Karnaugh maps",
+  "garbled": false
+ },
+ "N0030": {
+  "id": "N0030",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "K-map minimization",
+  "garbled": true
+ },
+ "N0031": {
+  "id": "N0031",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "K-map circuit benefit",
+  "garbled": true
+ },
+ "N0032": {
+  "id": "N0032",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "XOR gate output",
+  "garbled": false
+ },
+ "N0033": {
+  "id": "N0033",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "DTL logic gates",
+  "garbled": false
+ },
+ "N0034": {
+  "id": "N0034",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "PMOS transistor",
+  "garbled": true
+ },
+ "N0035": {
+  "id": "N0035",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "CMOS logic gates",
+  "garbled": false
+ },
+ "N0036": {
+  "id": "N0036",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "CMOS design",
+  "garbled": false
+ },
+ "N0037": {
+  "id": "N0037",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Combinational logic",
+  "garbled": false
+ },
+ "N0038": {
+  "id": "N0038",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Full adder output",
+  "garbled": true
+ },
+ "N0039": {
+  "id": "N0039",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Digital comparator",
+  "garbled": false
+ },
+ "N0040": {
+  "id": "N0040",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Multiplexer function",
+  "garbled": true
+ },
+ "N0041": {
+  "id": "N0041",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Demultiplexer DSL",
+  "garbled": false
+ },
+ "N0042": {
+  "id": "N0042",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Flip-flop types",
+  "garbled": true
+ },
+ "N0043": {
+  "id": "N0043",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Clock signal function",
+  "garbled": false
+ },
+ "N0044": {
+  "id": "N0044",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "SR flip-flop states",
+  "garbled": false
+ },
+ "N0045": {
+  "id": "N0045",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Flip-flop sync",
+  "garbled": true
+ },
+ "N0046": {
+  "id": "N0046",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Program counter",
+  "garbled": false
+ },
+ "N0047": {
+  "id": "N0047",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Audio waveforms",
+  "garbled": false
+ },
+ "N0048": {
+  "id": "N0048",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "A/D quantization",
+  "garbled": false
+ },
+ "N0049": {
+  "id": "N0049",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "SSD storage tech",
+  "garbled": true
+ },
+ "N0050": {
+  "id": "N0050",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "VLIW instruction",
+  "garbled": false
+ },
+ "N0051": {
+  "id": "N0051",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "CISC architecture",
+  "garbled": true
+ },
+ "N0052": {
+  "id": "N0052",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Cache dirty bit",
+  "garbled": true
+ },
+ "N0053": {
+  "id": "N0053",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Zero-address format",
+  "garbled": true
+ },
+ "N0054": {
+  "id": "N0054",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Word length",
+  "garbled": true
+ },
+ "N0055": {
+  "id": "N0055",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Memory devices",
+  "garbled": true
+ },
+ "N0056": {
+  "id": "N0056",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Control unit signals",
+  "garbled": true
+ },
+ "N0057": {
+  "id": "N0057",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Clock timing",
+  "garbled": false
+ },
+ "N0058": {
+  "id": "N0058",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Linker assembly",
+  "garbled": false
+ },
+ "N0059": {
+  "id": "N0059",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Micro-operations CPU",
+  "garbled": true
+ },
+ "N0060": {
+  "id": "N0060",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Data transfer register",
+  "garbled": false
+ },
+ "N0061": {
+  "id": "N0061",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Register transfer",
+  "garbled": false
+ },
+ "N0062": {
+  "id": "N0062",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Memory access speed",
+  "garbled": false
+ },
+ "N0063": {
+  "id": "N0063",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Assembly process",
+  "garbled": false
+ },
+ "N0064": {
+  "id": "N0064",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "BCD representation",
+  "garbled": false
+ },
+ "N0065": {
+  "id": "N0065",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Microprogrammed control",
+  "garbled": false
+ },
+ "N0066": {
+  "id": "N0066",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Microprogrammed control",
+  "garbled": false
+ },
+ "N0067": {
+  "id": "N0067",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Floating-point mantissa",
+  "garbled": false
+ },
+ "N0068": {
+  "id": "N0068",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Stack peek operation",
+  "garbled": false
+ },
+ "N0069": {
+  "id": "N0069",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Stack applications",
+  "garbled": false
+ },
+ "N0070": {
+  "id": "N0070",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Instruction format",
+  "garbled": false
+ },
+ "N0071": {
+  "id": "N0071",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Opcode instruction",
+  "garbled": false
+ },
+ "N0072": {
+  "id": "N0072",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Data hazard pipeline",
+  "garbled": false
+ },
+ "N0073": {
+  "id": "N0073",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Pipelining stages",
+  "garbled": false
+ },
+ "N0074": {
+  "id": "N0074",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Array indexing",
+  "garbled": false
+ },
+ "N0075": {
+  "id": "N0075",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "String concatenation",
+  "garbled": false
+ },
+ "N0076": {
+  "id": "N0076",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "String operations",
+  "garbled": false
+ },
+ "N0077": {
+  "id": "N0077",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Bit field packing",
+  "garbled": false
+ },
+ "N0078": {
+  "id": "N0078",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Data packing",
+  "garbled": false
+ },
+ "N0079": {
+  "id": "N0079",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Algorithm design",
+  "garbled": false
+ },
+ "N0080": {
+  "id": "N0080",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Time complexity",
+  "garbled": true
+ },
+ "N0081": {
+  "id": "N0081",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Big-O notation",
+  "garbled": false
+ },
+ "N0082": {
+  "id": "N0082",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Sorting complexity",
+  "garbled": false
+ },
+ "N0083": {
+  "id": "N0083",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Bubble sort",
+  "garbled": true
+ },
+ "N0084": {
+  "id": "N0084",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Binary search",
+  "garbled": true
+ },
+ "N0085": {
+  "id": "N0085",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Linear search",
+  "garbled": false
+ },
+ "N0086": {
+  "id": "N0086",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Recursion base case",
+  "garbled": false
+ },
+ "N0087": {
+  "id": "N0087",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Stack complexity",
+  "garbled": true
+ },
+ "N0088": {
+  "id": "N0088",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Queue enqueue",
+  "garbled": false
+ },
+ "N0089": {
+  "id": "N0089",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Queue implementation",
+  "garbled": false
+ },
+ "N0090": {
+  "id": "N0090",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Set ADT",
+  "garbled": false
+ },
+ "N0091": {
+  "id": "N0091",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Priority queue",
+  "garbled": false
+ },
+ "N0092": {
+  "id": "N0092",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Union-Find",
+  "garbled": true
+ },
+ "N0093": {
+  "id": "N0093",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Binary tree nodes",
+  "garbled": false
+ },
+ "N0094": {
+  "id": "N0094",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "BST in-order",
+  "garbled": false
+ },
+ "N0095": {
+  "id": "N0095",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "AVL trees",
+  "garbled": false
+ },
+ "N0096": {
+  "id": "N0096",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "B-tree keys",
+  "garbled": false
+ },
+ "N0097": {
+  "id": "N0097",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "B-trees database",
+  "garbled": true
+ },
+ "N0098": {
+  "id": "N0098",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Batch OS",
+  "garbled": false
+ },
+ "N0099": {
+  "id": "N0099",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "OS protection",
+  "garbled": false
+ },
+ "N0100": {
+  "id": "N0100",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Critical section",
+  "garbled": false
+ },
+ "N0101": {
+  "id": "N0101",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Scheduling algorithms",
+  "garbled": false
+ },
+ "N0102": {
+  "id": "N0102",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Deadlock detection",
+  "garbled": false
+ },
+ "N0103": {
+  "id": "N0103",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Virtual memory",
+  "garbled": false
+ },
+ "N0104": {
+  "id": "N0104",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Page replacement",
+  "garbled": false
+ },
+ "N0105": {
+  "id": "N0105",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "File organization",
+  "garbled": true
+ },
+ "N0106": {
+  "id": "N0106",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Real-time OS",
+  "garbled": false
+ },
+ "N0107": {
+  "id": "N0107",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Demand paging",
+  "garbled": false
+ },
+ "N0108": {
+  "id": "N0108",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Fixed partitions",
+  "garbled": false
+ },
+ "N0109": {
+  "id": "N0109",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Semaphores",
+  "garbled": false
+ },
+ "N0110": {
+  "id": "N0110",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Round Robin",
+  "garbled": false
+ },
+ "N0111": {
+  "id": "N0111",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Deadlock condition",
+  "garbled": false
+ },
+ "N0112": {
+  "id": "N0112",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Priority inversion",
+  "garbled": false
+ },
+ "N0113": {
+  "id": "N0113",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Variable partitions",
+  "garbled": false
+ },
+ "N0114": {
+  "id": "N0114",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Working set",
+  "garbled": false
+ },
+ "N0115": {
+  "id": "N0115",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "I/O buffering",
+  "garbled": false
+ },
+ "N0116": {
+  "id": "N0116",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Disk scheduling",
+  "garbled": true
+ },
+ "N0117": {
+  "id": "N0117",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Process migration",
+  "garbled": false
+ },
+ "N0118": {
+  "id": "N0118",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Time quantum",
+  "garbled": false
+ },
+ "N0119": {
+  "id": "N0119",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Race condition",
+  "garbled": false
+ },
+ "N0120": {
+  "id": "N0120",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Memory compaction",
+  "garbled": false
+ },
+ "N0121": {
+  "id": "N0121",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Page thrashing",
+  "garbled": false
+ },
+ "N0122": {
+  "id": "N0122",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Elevator algorithm",
+  "garbled": false
+ },
+ "N0123": {
+  "id": "N0123",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Ready queue",
+  "garbled": false
+ },
+ "N0124": {
+  "id": "N0124",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Context switching",
+  "garbled": false
+ },
+ "N0125": {
+  "id": "N0125",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Segmentation memory",
+  "garbled": true
+ },
+ "N0126": {
+  "id": "N0126",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "System call",
+  "garbled": false
+ },
+ "N0127": {
+  "id": "N0127",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Cache coherence",
+  "garbled": false
+ },
+ "N0128": {
+  "id": "N0128",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Device drivers",
+  "garbled": false
+ },
+ "N0129": {
+  "id": "N0129",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Cache associativity",
+  "garbled": false
+ },
+ "N0130": {
+  "id": "N0130",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Preemption",
+  "garbled": false
+ },
+ "N0131": {
+  "id": "N0131",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Starvation process",
+  "garbled": false
+ },
+ "N0132": {
+  "id": "N0132",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "File cluster",
+  "garbled": false
+ },
+ "N0133": {
+  "id": "N0133",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "File pointer",
+  "garbled": true
+ },
+ "N0134": {
+  "id": "N0134",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Exclusive file lock",
+  "garbled": true
+ },
+ "N0135": {
+  "id": "N0135",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "File extension type",
+  "garbled": true
+ },
+ "N0136": {
+  "id": "N0136",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Deadlock prevention",
+  "garbled": false
+ },
+ "N0137": {
+  "id": "N0137",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "OOP encapsulation",
+  "garbled": false
+ },
+ "N0138": {
+  "id": "N0138",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "This pointer class",
+  "garbled": false
+ },
+ "N0139": {
+  "id": "N0139",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "C++ operator overload",
+  "garbled": true
+ },
+ "N0140": {
+  "id": "N0140",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Polymorphism",
+  "garbled": false
+ },
+ "N0141": {
+  "id": "N0141",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Object destruction",
+  "garbled": false
+ },
+ "N0142": {
+  "id": "N0142",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "OOP benefits",
+  "garbled": true
+ },
+ "N0143": {
+  "id": "N0143",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "New keyword memory",
+  "garbled": false
+ },
+ "N0144": {
+  "id": "N0144",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Shallow vs deep copy",
+  "garbled": false
+ },
+ "N0145": {
+  "id": "N0145",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Constructors",
+  "garbled": false
+ },
+ "N0146": {
+  "id": "N0146",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Unary operators",
+  "garbled": false
+ },
+ "N0147": {
+  "id": "N0147",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Protected access",
+  "garbled": false
+ },
+ "N0148": {
+  "id": "N0148",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Default constructor",
+  "garbled": false
+ },
+ "N0149": {
+  "id": "N0149",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Composition",
+  "garbled": false
+ },
+ "N0150": {
+  "id": "N0150",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Multiple inheritance",
+  "garbled": false
+ },
+ "N0151": {
+  "id": "N0151",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Access control",
+  "garbled": false
+ },
+ "N0152": {
+  "id": "N0152",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Static members",
+  "garbled": true
+ },
+ "N0153": {
+  "id": "N0153",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Copy constructor",
+  "garbled": false
+ },
+ "N0154": {
+  "id": "N0154",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Hierarchical inheritance",
+  "garbled": false
+ },
+ "N0155": {
+  "id": "N0155",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Inheritance visibility",
+  "garbled": true
+ },
+ "N0156": {
+  "id": "N0156",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Virtual inheritance",
+  "garbled": false
+ },
+ "N0157": {
+  "id": "N0157",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Code reusability",
+  "garbled": false
+ },
+ "N0158": {
+  "id": "N0158",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Pass by reference",
+  "garbled": false
+ },
+ "N0159": {
+  "id": "N0159",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Abstract class",
+  "garbled": true
+ },
+ "N0160": {
+  "id": "N0160",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Exception handling",
+  "garbled": false
+ },
+ "N0161": {
+  "id": "N0161",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "OOP features",
+  "garbled": false
+ },
+ "N0162": {
+  "id": "N0162",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Object lifetime",
+  "garbled": false
+ },
+ "N0163": {
+  "id": "N0163",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Static objects",
+  "garbled": false
+ },
+ "N0164": {
+  "id": "N0164",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Constructor properties",
+  "garbled": false
+ },
+ "N0165": {
+  "id": "N0165",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Dynamic binding",
+  "garbled": true
+ },
+ "N0166": {
+  "id": "N0166",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Back-face removal",
+  "garbled": false
+ },
+ "N0167": {
+  "id": "N0167",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Clipping graphics",
+  "garbled": false
+ },
+ "N0168": {
+  "id": "N0168",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Illumination rendering",
+  "garbled": false
+ },
+ "N0169": {
+  "id": "N0169",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Hidden line removal",
+  "garbled": false
+ },
+ "N0170": {
+  "id": "N0170",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Curve generation",
+  "garbled": true
+ },
+ "N0171": {
+  "id": "N0171",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Rendering 3D",
+  "garbled": false
+ },
+ "N0172": {
+  "id": "N0172",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "3D primitive",
+  "garbled": false
+ },
+ "N0173": {
+  "id": "N0173",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Projection 3D",
+  "garbled": false
+ },
+ "N0174": {
+  "id": "N0174",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Hidden surface",
+  "garbled": false
+ },
+ "N0175": {
+  "id": "N0175",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Bezier curve",
+  "garbled": true
+ },
+ "N0176": {
+  "id": "N0176",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Translation 3D",
+  "garbled": true
+ },
+ "N0177": {
+  "id": "N0177",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Rendering pipeline",
+  "garbled": false
+ },
+ "N0178": {
+  "id": "N0178",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Phong shading",
+  "garbled": false
+ },
+ "N0179": {
+  "id": "N0179",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "CRT pixels",
+  "garbled": true
+ },
+ "N0180": {
+  "id": "N0180",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Frame buffer",
+  "garbled": true
+ },
+ "N0181": {
+  "id": "N0181",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Bitmap pattern",
+  "garbled": false
+ },
+ "N0182": {
+  "id": "N0182",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Boundary fill",
+  "garbled": true
+ },
+ "N0183": {
+  "id": "N0183",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Translation transform",
+  "garbled": false
+ },
+ "N0184": {
+  "id": "N0184",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Scaling transform",
+  "garbled": false
+ },
+ "N0185": {
+  "id": "N0185",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Shear transform",
+  "garbled": false
+ },
+ "N0186": {
+  "id": "N0186",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Matrix properties",
+  "garbled": false
+ },
+ "N0187": {
+  "id": "N0187",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Translation vectors",
+  "garbled": true
+ },
+ "N0188": {
+  "id": "N0188",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Scaling compose",
+  "garbled": false
+ },
+ "N0189": {
+  "id": "N0189",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Viewport screen",
+  "garbled": false
+ },
+ "N0190": {
+  "id": "N0190",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Line clipping",
+  "garbled": false
+ },
+ "N0191": {
+  "id": "N0191",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Sutherland-Hodgman",
+  "garbled": false
+ },
+ "N0192": {
+  "id": "N0192",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Euclidean objects",
+  "garbled": false
+ },
+ "N0193": {
+  "id": "N0193",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Projection types",
+  "garbled": false
+ },
+ "N0194": {
+  "id": "N0194",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Perspective projection",
+  "garbled": true
+ },
+ "N0195": {
+  "id": "N0195",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Entity attributes",
+  "garbled": false
+ },
+ "N0196": {
+  "id": "N0196",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Hierarchical model",
+  "garbled": false
+ },
+ "N0197": {
+  "id": "N0197",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Order by clause",
+  "garbled": false
+ },
+ "N0198": {
+  "id": "N0198",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Network routing layers",
+  "garbled": false
+ },
+ "N0199": {
+  "id": "N0199",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Network types speed",
+  "garbled": false
+ },
+ "N0200": {
+  "id": "N0200",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Single-bit error",
+  "garbled": false
+ },
+ "N0201": {
+  "id": "N0201",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "SDLC Waterfall",
+  "garbled": true
+ },
+ "N0202": {
+  "id": "N0202",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Feasibility study",
+  "garbled": false
+ },
+ "N0203": {
+  "id": "N0203",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Regression testing",
+  "garbled": false
+ },
+ "N0204": {
+  "id": "N0204",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Fifth normal form",
+  "garbled": false
+ },
+ "N0205": {
+  "id": "N0205",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Deadlock database",
+  "garbled": false
+ },
+ "N0206": {
+  "id": "N0206",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Normalization",
+  "garbled": false
+ },
+ "N0207": {
+  "id": "N0207",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "IP subnetting",
+  "garbled": false
+ },
+ "N0208": {
+  "id": "N0208",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Duplex communication",
+  "garbled": false
+ },
+ "N0209": {
+  "id": "N0209",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Bus topology",
+  "garbled": false
+ },
+ "N0210": {
+  "id": "N0210",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Requirements gathering",
+  "garbled": false
+ },
+ "N0211": {
+  "id": "N0211",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Software engineering",
+  "garbled": false
+ },
+ "N0212": {
+  "id": "N0212",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Project management",
+  "garbled": true
+ },
+ "N0213": {
+  "id": "N0213",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "LOC estimation",
+  "garbled": false
+ },
+ "N0214": {
+  "id": "N0214",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Functional dependency",
+  "garbled": false
+ },
+ "N0215": {
+  "id": "N0215",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Functional dependency",
+  "garbled": true
+ },
+ "N0216": {
+  "id": "N0216",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Query transformation",
+  "garbled": false
+ },
+ "N0217": {
+  "id": "N0217",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Transmission delay",
+  "garbled": false
+ },
+ "N0218": {
+  "id": "N0218",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "IP datagrams",
+  "garbled": true
+ },
+ "N0219": {
+  "id": "N0219",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Project management",
+  "garbled": false
+ },
+ "N0220": {
+  "id": "N0220",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Prototype testing",
+  "garbled": false
+ },
+ "N0221": {
+  "id": "N0221",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Second normal form",
+  "garbled": false
+ },
+ "N0222": {
+  "id": "N0222",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "ER diagram",
+  "garbled": false
+ },
+ "N0223": {
+  "id": "N0223",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Concurrency control",
+  "garbled": true
+ },
+ "N0224": {
+  "id": "N0224",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "ACID properties",
+  "garbled": false
+ },
+ "N0225": {
+  "id": "N0225",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "UTP cable",
+  "garbled": false
+ },
+ "N0226": {
+  "id": "N0226",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "IP address class",
+  "garbled": false
+ },
+ "N0227": {
+  "id": "N0227",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Network size",
+  "garbled": true
+ },
+ "N0228": {
+  "id": "N0228",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Software design",
+  "garbled": false
+ },
+ "N0229": {
+  "id": "N0229",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "UML diagrams",
+  "garbled": false
+ },
+ "N0230": {
+  "id": "N0230",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Waterfall model",
+  "garbled": false
+ },
+ "N0231": {
+  "id": "N0231",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Database design",
+  "garbled": false
+ },
+ "N0232": {
+  "id": "N0232",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Query optimization",
+  "garbled": false
+ },
+ "N0233": {
+  "id": "N0233",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Relational calculus",
+  "garbled": false
+ },
+ "N0234": {
+  "id": "N0234",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "OSI model layers",
+  "garbled": false
+ },
+ "N0235": {
+  "id": "N0235",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "OSI error detection",
+  "garbled": true
+ },
+ "N0236": {
+  "id": "N0236",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "TELNET protocol",
+  "garbled": false
+ },
+ "N0237": {
+  "id": "N0237",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Design metrics",
+  "garbled": false
+ },
+ "N0238": {
+  "id": "N0238",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Software testing",
+  "garbled": false
+ },
+ "N0239": {
+  "id": "N0239",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Risk management",
+  "garbled": false
+ },
+ "N0240": {
+  "id": "N0240",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "DBMS files",
+  "garbled": false
+ },
+ "N0241": {
+  "id": "N0241",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Tuple calculus",
+  "garbled": false
+ },
+ "N0242": {
+  "id": "N0242",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "RIP routing",
+  "garbled": false
+ },
+ "N0243": {
+  "id": "N0243",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "ICANN DNS",
+  "garbled": false
+ },
+ "N0244": {
+  "id": "N0244",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Network nodes",
+  "garbled": false
+ },
+ "N0245": {
+  "id": "N0245",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Software efficiency",
+  "garbled": false
+ },
+ "N0246": {
+  "id": "N0246",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Software maintenance",
+  "garbled": false
+ },
+ "N0247": {
+  "id": "N0247",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "SRS document",
+  "garbled": false
+ },
+ "N0248": {
+  "id": "N0248",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "SQL IN operator",
+  "garbled": true
+ },
+ "N0249": {
+  "id": "N0249",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Database keys",
+  "garbled": false
+ },
+ "N0250": {
+  "id": "N0250",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Specialization ER",
+  "garbled": false
+ },
+ "N0251": {
+  "id": "N0251",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "P2P network users",
+  "garbled": true
+ },
+ "N0252": {
+  "id": "N0252",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "IPv6 subnet mask",
+  "garbled": false
+ },
+ "N0253": {
+  "id": "N0253",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Ethernet standard",
+  "garbled": false
+ },
+ "N0254": {
+  "id": "N0254",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Availability metric",
+  "garbled": false
+ },
+ "N0255": {
+  "id": "N0255",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Configuration item",
+  "garbled": false
+ },
+ "N0256": {
+  "id": "N0256",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "System definition",
+  "garbled": false
+ },
+ "N0257": {
+  "id": "N0257",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Database files",
+  "garbled": false
+ },
+ "N0258": {
+  "id": "N0258",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Database model",
+  "garbled": false
+ },
+ "N0259": {
+  "id": "N0259",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Data integrity",
+  "garbled": false
+ },
+ "N0260": {
+  "id": "N0260",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Network topology",
+  "garbled": true
+ },
+ "N0261": {
+  "id": "N0261",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Attenuation signal",
+  "garbled": false
+ },
+ "N0262": {
+  "id": "N0262",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "TDM multiplexing",
+  "garbled": false
+ },
+ "N0263": {
+  "id": "N0263",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "OOP design metric",
+  "garbled": false
+ },
+ "N0264": {
+  "id": "N0264",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Class design",
+  "garbled": false
+ },
+ "N0265": {
+  "id": "N0265",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Quality metrics",
+  "garbled": false
+ },
+ "N0266": {
+  "id": "N0266",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Database schema",
+  "garbled": false
+ },
+ "N0267": {
+  "id": "N0267",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Entity cardinality",
+  "garbled": false
+ },
+ "N0268": {
+  "id": "N0268",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Data integrity",
+  "garbled": false
+ },
+ "N0269": {
+  "id": "N0269",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Transmission media",
+  "garbled": false
+ },
+ "N0270": {
+  "id": "N0270",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "FDDI network",
+  "garbled": false
+ },
+ "N0271": {
+  "id": "N0271",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Windows NT admin",
+  "garbled": false
+ },
+ "N0272": {
+  "id": "N0272",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Forward engineering",
+  "garbled": true
+ },
+ "N0273": {
+  "id": "N0273",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "SDLC errors",
+  "garbled": false
+ },
+ "N0274": {
+  "id": "N0274",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "CASE tools",
+  "garbled": false
+ },
+ "N0275": {
+  "id": "N0275",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Database recovery",
+  "garbled": false
+ },
+ "N0276": {
+  "id": "N0276",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Entity relationship",
+  "garbled": false
+ },
+ "N0277": {
+  "id": "N0277",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "DDL metadata",
+  "garbled": false
+ },
+ "N0278": {
+  "id": "N0278",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Network router",
+  "garbled": false
+ },
+ "N0279": {
+  "id": "N0279",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "TCP UDP routing",
+  "garbled": false
+ },
+ "N0280": {
+  "id": "N0280",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "HTTP port",
+  "garbled": false
+ },
+ "N0281": {
+  "id": "N0281",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Adaptive maintenance",
+  "garbled": false
+ },
+ "N0282": {
+  "id": "N0282",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Reliability software",
+  "garbled": false
+ },
+ "N0283": {
+  "id": "N0283",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "White box testing",
+  "garbled": false
+ },
+ "N0284": {
+  "id": "N0284",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Projection algebra",
+  "garbled": false
+ },
+ "N0285": {
+  "id": "N0285",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Exclusive lock",
+  "garbled": false
+ },
+ "N0286": {
+  "id": "N0286",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Super key closure",
+  "garbled": false
+ },
+ "N0287": {
+  "id": "N0287",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "CRC checksum",
+  "garbled": false
+ },
+ "N0288": {
+  "id": "N0288",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "DHCP allocation",
+  "garbled": false
+ },
+ "N0289": {
+  "id": "N0289",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "SMTP email",
+  "garbled": false
+ },
+ "N0290": {
+  "id": "N0290",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "DFD diagram",
+  "garbled": false
+ },
+ "N0291": {
+  "id": "N0291",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Software metrics",
+  "garbled": false
+ },
+ "N0292": {
+  "id": "N0292",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Prototyping model",
+  "garbled": false
+ },
+ "N0293": {
+  "id": "N0293",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Aggregation ER",
+  "garbled": true
+ },
+ "N0294": {
+  "id": "N0294",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Finite automata",
+  "garbled": false
+ },
+ "N0295": {
+  "id": "N0295",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Equivalent states",
+  "garbled": false
+ },
+ "N0296": {
+  "id": "N0296",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Inherent ambiguity",
+  "garbled": false
+ },
+ "N0297": {
+  "id": "N0297",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Recurrence relation",
+  "garbled": false
+ },
+ "N0298": {
+  "id": "N0298",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Moore Mealy tuple",
+  "garbled": false
+ },
+ "N0299": {
+  "id": "N0299",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Max-heap root",
+  "garbled": false
+ },
+ "N0300": {
+  "id": "N0300",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "B-tree leaves",
+  "garbled": false
+ },
+ "N0301": {
+  "id": "N0301",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Sorting complexity",
+  "garbled": false
+ },
+ "N0302": {
+  "id": "N0302",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Selection sort use",
+  "garbled": false
+ },
+ "N0303": {
+  "id": "N0303",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "QuickSort divide",
+  "garbled": false
+ },
+ "N0304": {
+  "id": "N0304",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Heap building",
+  "garbled": false
+ },
+ "N0305": {
+  "id": "N0305",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Stack recursion",
+  "garbled": false
+ },
+ "N0306": {
+  "id": "N0306",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "DRAM memory",
+  "garbled": false
+ },
+ "N0307": {
+  "id": "N0307",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Cut-off transistor",
+  "garbled": false
+ },
+ "N0308": {
+  "id": "N0308",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Decoder cascade",
+  "garbled": false
+ },
+ "N0309": {
+  "id": "N0309",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "K-map Boolean",
+  "garbled": false
+ },
+ "N0310": {
+  "id": "N0310",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Logic simplification",
+  "garbled": false
+ },
+ "N0311": {
+  "id": "N0311",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Ring counter",
+  "garbled": false
+ },
+ "N0312": {
+  "id": "N0312",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Full adder sum",
+  "garbled": false
+ },
+ "N0313": {
+  "id": "N0313",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "TTL unused input",
+  "garbled": false
+ },
+ "N0314": {
+  "id": "N0314",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "ECL features",
+  "garbled": false
+ },
+ "N0315": {
+  "id": "N0315",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "CMOS handling",
+  "garbled": false
+ },
+ "N0316": {
+  "id": "N0316",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "CMOS inverter",
+  "garbled": false
+ },
+ "N0317": {
+  "id": "N0317",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "DAC error types",
+  "garbled": false
+ },
+ "N0318": {
+  "id": "N0318",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Comparator output",
+  "garbled": false
+ },
+ "N0319": {
+  "id": "N0319",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Transistor cut-off",
+  "garbled": false
+ },
+ "N0320": {
+  "id": "N0320",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "PNP sourcing",
+  "garbled": false
+ },
+ "N0321": {
+  "id": "N0321",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Transistor current",
+  "garbled": false
+ },
+ "N0322": {
+  "id": "N0322",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "DeMorgan theorem",
+  "garbled": false
+ },
+ "N0323": {
+  "id": "N0323",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Boolean expression",
+  "garbled": false
+ },
+ "N0324": {
+  "id": "N0324",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "TTL circuits",
+  "garbled": false
+ },
+ "N0325": {
+  "id": "N0325",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Memory access",
+  "garbled": false
+ },
+ "N0326": {
+  "id": "N0326",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Memory cycle time",
+  "garbled": false
+ },
+ "N0327": {
+  "id": "N0327",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Program counter",
+  "garbled": false
+ },
+ "N0328": {
+  "id": "N0328",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Number representation",
+  "garbled": false
+ },
+ "N0329": {
+  "id": "N0329",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Address space",
+  "garbled": false
+ },
+ "N0330": {
+  "id": "N0330",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Data operand",
+  "garbled": false
+ },
+ "N0331": {
+  "id": "N0331",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Memory timing",
+  "garbled": false
+ },
+ "N0332": {
+  "id": "N0332",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Buffer registers",
+  "garbled": false
+ },
+ "N0333": {
+  "id": "N0333",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Bus organization",
+  "garbled": false
+ },
+ "N0334": {
+  "id": "N0334",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Pipelining",
+  "garbled": false
+ },
+ "N0335": {
+  "id": "N0335",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Pipeline execution",
+  "garbled": false
+ },
+ "N0336": {
+  "id": "N0336",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "RISC power",
+  "garbled": false
+ },
+ "N0337": {
+  "id": "N0337",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Operating system",
+  "garbled": false
+ },
+ "N0338": {
+  "id": "N0338",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Kernel loading",
+  "garbled": false
+ },
+ "N0339": {
+  "id": "N0339",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Resource management",
+  "garbled": false
+ },
+ "N0340": {
+  "id": "N0340",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "IPC communication",
+  "garbled": false
+ },
+ "N0341": {
+  "id": "N0341",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Process state",
+  "garbled": false
+ },
+ "N0342": {
+  "id": "N0342",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Process transition",
+  "garbled": false
+ },
+ "N0343": {
+  "id": "N0343",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Turnaround time",
+  "garbled": false
+ },
+ "N0344": {
+  "id": "N0344",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Multithreading",
+  "garbled": false
+ },
+ "N0345": {
+  "id": "N0345",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Safe sequence",
+  "garbled": false
+ },
+ "N0346": {
+  "id": "N0346",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Resource utilization",
+  "garbled": false
+ },
+ "N0347": {
+  "id": "N0347",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Paging frames",
+  "garbled": false
+ },
+ "N0348": {
+  "id": "N0348",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Segment table",
+  "garbled": false
+ },
+ "N0349": {
+  "id": "N0349",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Class members",
+  "garbled": false
+ },
+ "N0350": {
+  "id": "N0350",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Class declaration",
+  "garbled": false
+ },
+ "N0351": {
+  "id": "N0351",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Constructor initialization",
+  "garbled": false
+ },
+ "N0352": {
+  "id": "N0352",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Destructor inheritance",
+  "garbled": false
+ },
+ "N0353": {
+  "id": "N0353",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Operator overload",
+  "garbled": false
+ },
+ "N0354": {
+  "id": "N0354",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Operator overloading",
+  "garbled": false
+ },
+ "N0355": {
+  "id": "N0355",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Friend function",
+  "garbled": false
+ },
+ "N0356": {
+  "id": "N0356",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "C++ operators",
+  "garbled": false
+ },
+ "N0357": {
+  "id": "N0357",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Bitwise operator",
+  "garbled": false
+ },
+ "N0358": {
+  "id": "N0358",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Encapsulation binding",
+  "garbled": false
+ },
+ "N0359": {
+  "id": "N0359",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Inheritance properties",
+  "garbled": false
+ },
+ "N0360": {
+  "id": "N0360",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Polymorphism interface",
+  "garbled": false
+ },
+ "N0361": {
+  "id": "N0361",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Virtual function",
+  "garbled": false
+ },
+ "N0362": {
+  "id": "N0362",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Storage class scope",
+  "garbled": false
+ },
+ "N0363": {
+  "id": "N0363",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Exception handling",
+  "garbled": false
+ },
+ "N0364": {
+  "id": "N0364",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Inline functions",
+  "garbled": false
+ },
+ "N0365": {
+  "id": "N0365",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Class access default",
+  "garbled": false
+ },
+ "N0366": {
+  "id": "N0366",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Display emitters",
+  "garbled": false
+ },
+ "N0367": {
+  "id": "N0367",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Slope-intercept line",
+  "garbled": false
+ },
+ "N0368": {
+  "id": "N0368",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Raster pixels",
+  "garbled": false
+ },
+ "N0369": {
+  "id": "N0369",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Boundary fill",
+  "garbled": false
+ },
+ "N0370": {
+  "id": "N0370",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Raster line algorithm",
+  "garbled": false
+ },
+ "N0371": {
+  "id": "N0371",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Color code RGB",
+  "garbled": false
+ },
+ "N0372": {
+  "id": "N0372",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Fill styles graphics",
+  "garbled": false
+ },
+ "N0373": {
+  "id": "N0373",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Translation transform",
+  "garbled": false
+ },
+ "N0374": {
+  "id": "N0374",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "2D translation",
+  "garbled": false
+ },
+ "N0375": {
+  "id": "N0375",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Scaling transform",
+  "garbled": false
+ },
+ "N0376": {
+  "id": "N0376",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "System calls API",
+  "garbled": false
+ },
+ "N0377": {
+  "id": "N0377",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Log file errors",
+  "garbled": false
+ },
+ "N0378": {
+  "id": "N0378",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Process termination",
+  "garbled": false
+ },
+ "N0379": {
+  "id": "N0379",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Time-sharing ready",
+  "garbled": false
+ },
+ "N0380": {
+  "id": "N0380",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Priority scheduling",
+  "garbled": false
+ },
+ "N0381": {
+  "id": "N0381",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Daisy chain I/O",
+  "garbled": false
+ },
+ "N0382": {
+  "id": "N0382",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Process state",
+  "garbled": false
+ },
+ "N0383": {
+  "id": "N0383",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Memory table info",
+  "garbled": false
+ },
+ "N0384": {
+  "id": "N0384",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Disk scheduling",
+  "garbled": false
+ },
+ "N0385": {
+  "id": "N0385",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Absolute path",
+  "garbled": false
+ },
+ "N0386": {
+  "id": "N0386",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Sequential file",
+  "garbled": false
+ },
+ "N0387": {
+  "id": "N0387",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Chained allocation",
+  "garbled": false
+ },
+ "N0388": {
+  "id": "N0388",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Banker's algorithm",
+  "garbled": false
+ },
+ "N0389": {
+  "id": "N0389",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Process protection",
+  "garbled": false
+ },
+ "N0390": {
+  "id": "N0390",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Member access dot",
+  "garbled": false
+ },
+ "N0391": {
+  "id": "N0391",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Inheritance reusable",
+  "garbled": false
+ },
+ "N0392": {
+  "id": "N0392",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Dynamic binding",
+  "garbled": false
+ },
+ "N0393": {
+  "id": "N0393",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Constructor function",
+  "garbled": false
+ },
+ "N0394": {
+  "id": "N0394",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Virtual polymorphism",
+  "garbled": false
+ },
+ "N0395": {
+  "id": "N0395",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Inline functions",
+  "garbled": false
+ },
+ "N0396": {
+  "id": "N0396",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Pure virtual abstract",
+  "garbled": false
+ },
+ "N0397": {
+  "id": "N0397",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Class access private",
+  "garbled": false
+ },
+ "N0398": {
+  "id": "N0398",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Destructor called",
+  "garbled": false
+ },
+ "N0399": {
+  "id": "N0399",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "RandomAccessFile",
+  "garbled": false
+ },
+ "N0400": {
+  "id": "N0400",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Encapsulation binding",
+  "garbled": false
+ },
+ "N0401": {
+  "id": "N0401",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "ifstream file mode",
+  "garbled": false
+ },
+ "N0402": {
+  "id": "N0402",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Scope operator",
+  "garbled": false
+ },
+ "N0403": {
+  "id": "N0403",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "C++ class concept",
+  "garbled": false
+ },
+ "N0404": {
+  "id": "N0404",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "OOP features match",
+  "garbled": false
+ },
+ "N0405": {
+  "id": "N0405",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Class size members",
+  "garbled": false
+ },
+ "N0406": {
+  "id": "N0406",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Member functions",
+  "garbled": false
+ },
+ "N0407": {
+  "id": "N0407",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Class structure",
+  "garbled": false
+ },
+ "N0408": {
+  "id": "N0408",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Function resolution",
+  "garbled": false
+ },
+ "N0409": {
+  "id": "N0409",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Static polymorphism",
+  "garbled": false
+ },
+ "N0410": {
+  "id": "N0410",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Operator overload",
+  "garbled": false
+ },
+ "N0411": {
+  "id": "N0411",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Encapsulation type",
+  "garbled": false
+ },
+ "N0412": {
+  "id": "N0412",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Global variables",
+  "garbled": false
+ },
+ "N0413": {
+  "id": "N0413",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Encapsulation pointers",
+  "garbled": false
+ },
+ "N0414": {
+  "id": "N0414",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Encapsulation security",
+  "garbled": false
+ },
+ "N0415": {
+  "id": "N0415",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Abstraction complexity",
+  "garbled": false
+ },
+ "N0416": {
+  "id": "N0416",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Streams files",
+  "garbled": false
+ },
+ "N0417": {
+  "id": "N0417",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Protected inheritance",
+  "garbled": false
+ },
+ "N0418": {
+  "id": "N0418",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Constructor condition",
+  "garbled": false
+ },
+ "N0419": {
+  "id": "N0419",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Constructor defaults",
+  "garbled": false
+ },
+ "N0420": {
+  "id": "N0420",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "OOP object return",
+  "garbled": false
+ },
+ "N0421": {
+  "id": "N0421",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "References vs pointers",
+  "garbled": false
+ },
+ "N0422": {
+  "id": "N0422",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "OOP principles",
+  "garbled": false
+ },
+ "N0423": {
+  "id": "N0423",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Classes vs structures",
+  "garbled": false
+ },
+ "N0424": {
+  "id": "N0424",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Access specifiers",
+  "garbled": false
+ },
+ "N0425": {
+  "id": "N0425",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "CRT display resolution",
+  "garbled": false
+ },
+ "N0426": {
+  "id": "N0426",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Shadow mask methods",
+  "garbled": false
+ },
+ "N0427": {
+  "id": "N0427",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "LCD refresh rate",
+  "garbled": false
+ },
+ "N0428": {
+  "id": "N0428",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Bresenham line algorithm",
+  "garbled": false
+ },
+ "N0429": {
+  "id": "N0429",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Polyline coordinates",
+  "garbled": false
+ },
+ "N0430": {
+  "id": "N0430",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Fill pattern operators",
+  "garbled": false
+ },
+ "N0431": {
+  "id": "N0431",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Scaling transformation",
+  "garbled": false
+ },
+ "N0432": {
+  "id": "N0432",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "2D matrix expansion",
+  "garbled": false
+ },
+ "N0433": {
+  "id": "N0433",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Convex polygon",
+  "garbled": false
+ },
+ "N0434": {
+  "id": "N0434",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Viewport clipping",
+  "garbled": false
+ },
+ "N0435": {
+  "id": "N0435",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Polygon boundary 3D",
+  "garbled": false
+ },
+ "N0436": {
+  "id": "N0436",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Bezier curve degree",
+  "garbled": false
+ },
+ "N0437": {
+  "id": "N0437",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Projection types",
+  "garbled": false
+ },
+ "N0438": {
+  "id": "N0438",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Visibility checking",
+  "garbled": false
+ },
+ "N0439": {
+  "id": "N0439",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Cathode heating",
+  "garbled": false
+ },
+ "N0440": {
+  "id": "N0440",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Graphics output device",
+  "garbled": false
+ },
+ "N0441": {
+  "id": "N0441",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Aspect ratio definition",
+  "garbled": false
+ },
+ "N0442": {
+  "id": "N0442",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Slope deflection",
+  "garbled": true
+ },
+ "N0443": {
+  "id": "N0443",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Line algorithm speed",
+  "garbled": false
+ },
+ "N0444": {
+  "id": "N0444",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Curved attributes",
+  "garbled": false
+ },
+ "N0445": {
+  "id": "N0445",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Slope plotting spans",
+  "garbled": true
+ },
+ "N0446": {
+  "id": "N0446",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Slope unity curves",
+  "garbled": false
+ },
+ "N0447": {
+  "id": "N0447",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Pixel mask function",
+  "garbled": false
+ },
+ "N0448": {
+  "id": "N0448",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Fill color blending",
+  "garbled": true
+ },
+ "N0449": {
+  "id": "N0449",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "B-spline vs Bezier",
+  "garbled": false
+ },
+ "N0450": {
+  "id": "N0450",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Relational database",
+  "garbled": false
+ },
+ "N0451": {
+  "id": "N0451",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Tuple terminology",
+  "garbled": false
+ },
+ "N0452": {
+  "id": "N0452",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Relation and attributes",
+  "garbled": false
+ },
+ "N0453": {
+  "id": "N0453",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Atomic domain",
+  "garbled": false
+ },
+ "N0454": {
+  "id": "N0454",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Transaction definition",
+  "garbled": false
+ },
+ "N0455": {
+  "id": "N0455",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Rollback on shutdown",
+  "garbled": false
+ },
+ "N0456": {
+  "id": "N0456",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "SQL syntax error",
+  "garbled": false
+ },
+ "N0457": {
+  "id": "N0457",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Multivalued attribute",
+  "garbled": false
+ },
+ "N0458": {
+  "id": "N0458",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "ER vs relational",
+  "garbled": false
+ },
+ "N0459": {
+  "id": "N0459",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Foreign key",
+  "garbled": false
+ },
+ "N0460": {
+  "id": "N0460",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Key constraint",
+  "garbled": false
+ },
+ "N0461": {
+  "id": "N0461",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Normalization basis",
+  "garbled": false
+ },
+ "N0462": {
+  "id": "N0462",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Transaction concept",
+  "garbled": false
+ },
+ "N0463": {
+  "id": "N0463",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Isolation property",
+  "garbled": false
+ },
+ "N0464": {
+  "id": "N0464",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "OSI packet headers",
+  "garbled": false
+ },
+ "N0465": {
+  "id": "N0465",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Transmission duplex",
+  "garbled": false
+ },
+ "N0466": {
+  "id": "N0466",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Physical medium",
+  "garbled": false
+ },
+ "N0467": {
+  "id": "N0467",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "TCP data transfer",
+  "garbled": false
+ },
+ "N0468": {
+  "id": "N0468",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "TCP segment",
+  "garbled": false
+ },
+ "N0469": {
+  "id": "N0469",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "UDP protocol",
+  "garbled": false
+ },
+ "N0470": {
+  "id": "N0470",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "TCP services",
+  "garbled": false
+ },
+ "N0471": {
+  "id": "N0471",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "SMTP role",
+  "garbled": false
+ },
+ "N0472": {
+  "id": "N0472",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "TDM slot division",
+  "garbled": false
+ },
+ "N0473": {
+  "id": "N0473",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Digital multiplexing",
+  "garbled": false
+ },
+ "N0474": {
+  "id": "N0474",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "UTP cable use",
+  "garbled": false
+ },
+ "N0475": {
+  "id": "N0475",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Radio channel benefits",
+  "garbled": false
+ },
+ "N0476": {
+  "id": "N0476",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Optical fiber physics",
+  "garbled": false
+ },
+ "N0477": {
+  "id": "N0477",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Guided media types",
+  "garbled": false
+ },
+ "N0478": {
+  "id": "N0478",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Software ethics",
+  "garbled": false
+ },
+ "N0479": {
+  "id": "N0479",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Software definition",
+  "garbled": false
+ },
+ "N0480": {
+  "id": "N0480",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "RAD acronym",
+  "garbled": false
+ },
+ "N0481": {
+  "id": "N0481",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "User involvement SDLC",
+  "garbled": false
+ },
+ "N0482": {
+  "id": "N0482",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Evolutionary model",
+  "garbled": false
+ },
+ "N0483": {
+  "id": "N0483",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Software activity",
+  "garbled": false
+ },
+ "N0484": {
+  "id": "N0484",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "First SDLC step",
+  "garbled": false
+ },
+ "N0485": {
+  "id": "N0485",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Analysis specification",
+  "garbled": false
+ },
+ "N0486": {
+  "id": "N0486",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "White box testing",
+  "garbled": false
+ },
+ "N0487": {
+  "id": "N0487",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Alpha testing",
+  "garbled": false
+ },
+ "N0488": {
+  "id": "N0488",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Beta testing",
+  "garbled": false
+ },
+ "N0489": {
+  "id": "N0489",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Development conflict",
+  "garbled": false
+ },
+ "N0490": {
+  "id": "N0490",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "SCM basics",
+  "garbled": false
+ },
+ "N0491": {
+  "id": "N0491",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "OOP construction",
+  "garbled": false
+ },
+ "N0492": {
+  "id": "N0492",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Testing techniques",
+  "garbled": false
+ },
+ "N0493": {
+  "id": "N0493",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Character data types",
+  "garbled": false
+ },
+ "N0494": {
+  "id": "N0494",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "HAVING clause SQL",
+  "garbled": false
+ },
+ "N0495": {
+  "id": "N0495",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Transaction undo",
+  "garbled": false
+ },
+ "N0496": {
+  "id": "N0496",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "First normal form",
+  "garbled": false
+ },
+ "N0497": {
+  "id": "N0497",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Transaction log",
+  "garbled": false
+ },
+ "N0498": {
+  "id": "N0498",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Armstrong axioms",
+  "garbled": false
+ },
+ "N0499": {
+  "id": "N0499",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Candidate key",
+  "garbled": false
+ },
+ "N0500": {
+  "id": "N0500",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Varchar vs char",
+  "garbled": false
+ },
+ "N0501": {
+  "id": "N0501",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Wildcard patterns",
+  "garbled": false
+ },
+ "N0502": {
+  "id": "N0502",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "TRIM function",
+  "garbled": false
+ },
+ "N0503": {
+  "id": "N0503",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Outer join",
+  "garbled": false
+ },
+ "N0504": {
+  "id": "N0504",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Integrity constraints",
+  "garbled": false
+ },
+ "N0505": {
+  "id": "N0505",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "INSERT statement",
+  "garbled": false
+ },
+ "N0506": {
+  "id": "N0506",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Relational algebra",
+  "garbled": false
+ },
+ "N0507": {
+  "id": "N0507",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Checkpoint recovery",
+  "garbled": false
+ },
+ "N0508": {
+  "id": "N0508",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Functional dependency",
+  "garbled": true
+ },
+ "N0509": {
+  "id": "N0509",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Lock modes",
+  "garbled": false
+ },
+ "N0510": {
+  "id": "N0510",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Hierarchical schema",
+  "garbled": false
+ },
+ "N0511": {
+  "id": "N0511",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Data abstraction",
+  "garbled": false
+ },
+ "N0512": {
+  "id": "N0512",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Transport layer",
+  "garbled": false
+ },
+ "N0513": {
+  "id": "N0513",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "OSI host layers",
+  "garbled": false
+ },
+ "N0514": {
+  "id": "N0514",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Network layer OSI",
+  "garbled": false
+ },
+ "N0515": {
+  "id": "N0515",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Statistical TDM",
+  "garbled": false
+ },
+ "N0516": {
+  "id": "N0516",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Digital modulation",
+  "garbled": false
+ },
+ "N0517": {
+  "id": "N0517",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "PSK modulation rate",
+  "garbled": false
+ },
+ "N0518": {
+  "id": "N0518",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Ethernet address bits",
+  "garbled": false
+ },
+ "N0519": {
+  "id": "N0519",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "FTP TCP",
+  "garbled": false
+ },
+ "N0520": {
+  "id": "N0520",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "SMTP port",
+  "garbled": false
+ },
+ "N0521": {
+  "id": "N0521",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "TCP handshake",
+  "garbled": false
+ },
+ "N0522": {
+  "id": "N0522",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Telnet duplex",
+  "garbled": false
+ },
+ "N0523": {
+  "id": "N0523",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Parity check",
+  "garbled": false
+ },
+ "N0524": {
+  "id": "N0524",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Burst error",
+  "garbled": false
+ },
+ "N0525": {
+  "id": "N0525",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Peer-to-peer",
+  "garbled": false
+ },
+ "N0526": {
+  "id": "N0526",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Distributed system",
+  "garbled": false
+ },
+ "N0527": {
+  "id": "N0527",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Network definition",
+  "garbled": false
+ },
+ "N0528": {
+  "id": "N0528",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Broadcast network",
+  "garbled": false
+ },
+ "N0529": {
+  "id": "N0529",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Bluetooth PAN",
+  "garbled": false
+ },
+ "N0530": {
+  "id": "N0530",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Router function",
+  "garbled": false
+ },
+ "N0531": {
+  "id": "N0531",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Protocol stack",
+  "garbled": false
+ },
+ "N0532": {
+  "id": "N0532",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Virtual private network",
+  "garbled": false
+ },
+ "N0533": {
+  "id": "N0533",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Application layer",
+  "garbled": false
+ },
+ "N0534": {
+  "id": "N0534",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "OSI header removal",
+  "garbled": false
+ },
+ "N0535": {
+  "id": "N0535",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "OSI model statement",
+  "garbled": true
+ },
+ "N0536": {
+  "id": "N0536",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Port address",
+  "garbled": false
+ },
+ "N0537": {
+  "id": "N0537",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Physical layer",
+  "garbled": false
+ },
+ "N0538": {
+  "id": "N0538",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Physical layer specs",
+  "garbled": false
+ },
+ "N0539": {
+  "id": "N0539",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "MAC sublayer",
+  "garbled": false
+ },
+ "N0540": {
+  "id": "N0540",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Hamming distance",
+  "garbled": false
+ },
+ "N0541": {
+  "id": "N0541",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Model flexibility",
+  "garbled": false
+ },
+ "N0542": {
+  "id": "N0542",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Software quality",
+  "garbled": false
+ },
+ "N0543": {
+  "id": "N0543",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Developer requirements",
+  "garbled": false
+ },
+ "N0544": {
+  "id": "N0544",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Coupling definition",
+  "garbled": false
+ },
+ "N0545": {
+  "id": "N0545",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Size metrics",
+  "garbled": false
+ },
+ "N0546": {
+  "id": "N0546",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Product risk",
+  "garbled": false
+ },
+ "N0547": {
+  "id": "N0547",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Integration testing",
+  "garbled": false
+ },
+ "N0548": {
+  "id": "N0548",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Risk exposure",
+  "garbled": false
+ },
+ "N0549": {
+  "id": "N0549",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "SRS verifiable",
+  "garbled": false
+ },
+ "N0550": {
+  "id": "N0550",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "PERT chart",
+  "garbled": false
+ },
+ "N0551": {
+  "id": "N0551",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Spiral risk",
+  "garbled": false
+ },
+ "N0552": {
+  "id": "N0552",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Iterative model",
+  "garbled": false
+ },
+ "N0553": {
+  "id": "N0553",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Spiral disadvantage",
+  "garbled": false
+ },
+ "N0554": {
+  "id": "N0554",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Boundary testing",
+  "garbled": false
+ },
+ "N0555": {
+  "id": "N0555",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "SRS document",
+  "garbled": false
+ },
+ "N0556": {
+  "id": "N0556",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Design method",
+  "garbled": false
+ },
+ "N0557": {
+  "id": "N0557",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Validation definition",
+  "garbled": false
+ },
+ "N0558": {
+  "id": "N0558",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Software size",
+  "garbled": false
+ },
+ "N0559": {
+  "id": "N0559",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Model selection",
+  "garbled": false
+ },
+ "N0560": {
+  "id": "N0560",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Model requirements",
+  "garbled": false
+ },
+ "N0561": {
+  "id": "N0561",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Process quality",
+  "garbled": false
+ },
+ "N0562": {
+  "id": "N0562",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Process purpose",
+  "garbled": false
+ },
+ "N0563": {
+  "id": "N0563",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "SDLC phases",
+  "garbled": false
+ },
+ "N0564": {
+  "id": "N0564",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Software stakeholder",
+  "garbled": false
+ },
+ "N0565": {
+  "id": "N0565",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Design concerns",
+  "garbled": false
+ },
+ "N0566": {
+  "id": "N0566",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Architecture metrics",
+  "garbled": false
+ },
+ "N0567": {
+  "id": "N0567",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Software availability",
+  "garbled": false
+ },
+ "N0568": {
+  "id": "N0568",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Good software",
+  "garbled": false
+ },
+ "N0569": {
+  "id": "N0569",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Thevenin/Norton equiv",
+  "garbled": false
+ },
+ "N0570": {
+  "id": "N0570",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Thevenin/Norton limits",
+  "garbled": false
+ },
+ "N0571": {
+  "id": "N0571",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Two-port parameters",
+  "garbled": true
+ },
+ "N0572": {
+  "id": "N0572",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Two-port z-params",
+  "garbled": true
+ },
+ "N0573": {
+  "id": "N0573",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Two-port h-params",
+  "garbled": true
+ },
+ "N0574": {
+  "id": "N0574",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "RLC time constant",
+  "garbled": false
+ },
+ "N0575": {
+  "id": "N0575",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Parallel RLC freq",
+  "garbled": true
+ },
+ "N0576": {
+  "id": "N0576",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Underdamped RLC",
+  "garbled": false
+ },
+ "N0577": {
+  "id": "N0577",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Active network",
+  "garbled": false
+ },
+ "N0578": {
+  "id": "N0578",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Network input",
+  "garbled": false
+ },
+ "N0579": {
+  "id": "N0579",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Linear network",
+  "garbled": false
+ },
+ "N0580": {
+  "id": "N0580",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Incremental resist",
+  "garbled": true
+ },
+ "N0581": {
+  "id": "N0581",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Incremental cap",
+  "garbled": true
+ },
+ "N0582": {
+  "id": "N0582",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Ideal sources",
+  "garbled": true
+ },
+ "N0583": {
+  "id": "N0583",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Max power transfer",
+  "garbled": false
+ },
+ "N0584": {
+  "id": "N0584",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Kirchhoff laws",
+  "garbled": false
+ },
+ "N0585": {
+  "id": "N0585",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Nonlinear network",
+  "garbled": false
+ },
+ "N0586": {
+  "id": "N0586",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Kirchhoff validity",
+  "garbled": false
+ },
+ "N0587": {
+  "id": "N0587",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Load impedance",
+  "garbled": false
+ },
+ "N0588": {
+  "id": "N0588",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Steady-state circuits",
+  "garbled": false
+ },
+ "N0589": {
+  "id": "N0589",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Resonance phase",
+  "garbled": false
+ },
+ "N0590": {
+  "id": "N0590",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Resonance impedance",
+  "garbled": false
+ },
+ "N0591": {
+  "id": "N0591",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Resonance circuits",
+  "garbled": false
+ },
+ "N0592": {
+  "id": "N0592",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "RL AC circuit",
+  "garbled": false
+ },
+ "N0593": {
+  "id": "N0593",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Low-pass filter",
+  "garbled": false
+ },
+ "N0594": {
+  "id": "N0594",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "High-pass filter",
+  "garbled": false
+ },
+ "N0595": {
+  "id": "N0595",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Band-pass filter",
+  "garbled": false
+ },
+ "N0596": {
+  "id": "N0596",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Band-stop filter",
+  "garbled": false
+ },
+ "N0597": {
+  "id": "N0597",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Ideal filter",
+  "garbled": true
+ },
+ "N0598": {
+  "id": "N0598",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Prototype filter",
+  "garbled": false
+ },
+ "N0599": {
+  "id": "N0599",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "High-pass band",
+  "garbled": false
+ },
+ "N0600": {
+  "id": "N0600",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Graph minimum edges",
+  "garbled": false
+ },
+ "N0601": {
+  "id": "N0601",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Simple graphs count",
+  "garbled": false
+ },
+ "N0602": {
+  "id": "N0602",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Planar graph condition",
+  "garbled": false
+ },
+ "N0603": {
+  "id": "N0603",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Cycle coloring",
+  "garbled": true
+ },
+ "N0604": {
+  "id": "N0604",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Boolean simplify",
+  "garbled": true
+ },
+ "N0605": {
+  "id": "N0605",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Truth tables",
+  "garbled": false
+ },
+ "N0606": {
+  "id": "N0606",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Sum-of-product",
+  "garbled": false
+ },
+ "N0607": {
+  "id": "N0607",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Boolean minimize",
+  "garbled": true
+ },
+ "N0608": {
+  "id": "N0608",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Boolean equivalent",
+  "garbled": true
+ },
+ "N0609": {
+  "id": "N0609",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Recurrence relation",
+  "garbled": false
+ },
+ "N0610": {
+  "id": "N0610",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Ternary sequences",
+  "garbled": false
+ },
+ "N0611": {
+  "id": "N0611",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Partial ordering",
+  "garbled": false
+ },
+ "N0612": {
+  "id": "N0612",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Boolean algebra",
+  "garbled": false
+ },
+ "N0613": {
+  "id": "N0613",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Lattice subset",
+  "garbled": false
+ },
+ "N0614": {
+  "id": "N0614",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Abelian group order",
+  "garbled": false
+ },
+ "N0615": {
+  "id": "N0615",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Abelian group",
+  "garbled": false
+ },
+ "N0616": {
+  "id": "N0616",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Matrix group",
+  "garbled": false
+ },
+ "N0617": {
+  "id": "N0617",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Group inverse",
+  "garbled": true
+ },
+ "N0618": {
+  "id": "N0618",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Tautology logic",
+  "garbled": true
+ },
+ "N0619": {
+  "id": "N0619",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Proposition logic",
+  "garbled": true
+ },
+ "N0620": {
+  "id": "N0620",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Implication logic",
+  "garbled": true
+ },
+ "N0621": {
+  "id": "N0621",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Function count",
+  "garbled": false
+ },
+ "N0622": {
+  "id": "N0622",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Equivalence relation",
+  "garbled": false
+ },
+ "N0623": {
+  "id": "N0623",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Equivalence relations",
+  "garbled": false
+ },
+ "N0624": {
+  "id": "N0624",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Symmetric relation",
+  "garbled": false
+ },
+ "N0625": {
+  "id": "N0625",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Subset relation",
+  "garbled": false
+ },
+ "N0626": {
+  "id": "N0626",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Power set",
+  "garbled": true
+ },
+ "N0627": {
+  "id": "N0627",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Multiset",
+  "garbled": false
+ },
+ "N0628": {
+  "id": "N0628",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Substrings count",
+  "garbled": false
+ },
+ "N0629": {
+  "id": "N0629",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Finite automata",
+  "garbled": false
+ },
+ "N0630": {
+  "id": "N0630",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Regular languages",
+  "garbled": false
+ },
+ "N0631": {
+  "id": "N0631",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Pumping lemma",
+  "garbled": false
+ },
+ "N0632": {
+  "id": "N0632",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Infinite language",
+  "garbled": false
+ },
+ "N0633": {
+  "id": "N0633",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Regular intersection",
+  "garbled": false
+ },
+ "N0634": {
+  "id": "N0634",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Regular set closure",
+  "garbled": false
+ },
+ "N0635": {
+  "id": "N0635",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Regular expression",
+  "garbled": false
+ },
+ "N0636": {
+  "id": "N0636",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Context-free language",
+  "garbled": false
+ },
+ "N0637": {
+  "id": "N0637",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Language a^2i",
+  "garbled": false
+ },
+ "N0638": {
+  "id": "N0638",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Language classification",
+  "garbled": false
+ },
+ "N0639": {
+  "id": "N0639",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "CFG derivation",
+  "garbled": false
+ },
+ "N0640": {
+  "id": "N0640",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Ambiguous CFL",
+  "garbled": false
+ },
+ "N0641": {
+  "id": "N0641",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Context-sensitive",
+  "garbled": false
+ },
+ "N0642": {
+  "id": "N0642",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Type 1 grammar",
+  "garbled": false
+ },
+ "N0643": {
+  "id": "N0643",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Turing machine tape",
+  "garbled": false
+ },
+ "N0644": {
+  "id": "N0644",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Language a^n b^n c^n",
+  "garbled": false
+ },
+ "N0645": {
+  "id": "N0645",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "CFL intersection",
+  "garbled": false
+ },
+ "N0646": {
+  "id": "N0646",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "CFL and regular",
+  "garbled": false
+ },
+ "N0647": {
+  "id": "N0647",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Relation properties",
+  "garbled": false
+ },
+ "N0648": {
+  "id": "N0648",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Equivalence closure",
+  "garbled": false
+ },
+ "N0649": {
+  "id": "N0649",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Transition graph",
+  "garbled": false
+ },
+ "N0650": {
+  "id": "N0650",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "CFL regular language",
+  "garbled": true
+ },
+ "N0651": {
+  "id": "N0651",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Push down machine",
+  "garbled": false
+ },
+ "N0652": {
+  "id": "N0652",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Tree circuits",
+  "garbled": false
+ },
+ "N0653": {
+  "id": "N0653",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Tree characterization",
+  "garbled": false
+ },
+ "N0654": {
+  "id": "N0654",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Spanning trees",
+  "garbled": false
+ },
+ "N0655": {
+  "id": "N0655",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Graph rank",
+  "garbled": false
+ },
+ "N0656": {
+  "id": "N0656",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Graph nullity",
+  "garbled": false
+ },
+ "N0657": {
+  "id": "N0657",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Tree paths",
+  "garbled": false
+ },
+ "N0658": {
+  "id": "N0658",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Edge connectivity",
+  "garbled": false
+ },
+ "N0659": {
+  "id": "N0659",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Hamiltonian circuit",
+  "garbled": false
+ },
+ "N0660": {
+  "id": "N0660",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Hamiltonian path",
+  "garbled": false
+ },
+ "N0661": {
+  "id": "N0661",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Euler graph",
+  "garbled": false
+ },
+ "N0662": {
+  "id": "N0662",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Incidence matrix",
+  "garbled": false
+ },
+ "N0663": {
+  "id": "N0663",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Chromatic number",
+  "garbled": false
+ },
+ "N0664": {
+  "id": "N0664",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Isolated vertices",
+  "garbled": false
+ },
+ "N0665": {
+  "id": "N0665",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Graph edge coloring",
+  "garbled": false
+ },
+ "N0666": {
+  "id": "N0666",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Complete graph",
+  "garbled": false
+ },
+ "N0667": {
+  "id": "N0667",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Planar coloring",
+  "garbled": false
+ },
+ "N0668": {
+  "id": "N0668",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "DFA simulates NFA",
+  "garbled": false
+ },
+ "N0669": {
+  "id": "N0669",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Regular expression",
+  "garbled": false
+ },
+ "N0670": {
+  "id": "N0670",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Kleene star",
+  "garbled": false
+ },
+ "N0671": {
+  "id": "N0671",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Even length strings",
+  "garbled": false
+ },
+ "N0672": {
+  "id": "N0672",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "All strings alphabet",
+  "garbled": false
+ },
+ "N0673": {
+  "id": "N0673",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "FSM as Turing",
+  "garbled": false
+ },
+ "N0674": {
+  "id": "N0674",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "TM vs FSM power",
+  "garbled": false
+ },
+ "N0675": {
+  "id": "N0675",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "CSG recognizer",
+  "garbled": false
+ },
+ "N0676": {
+  "id": "N0676",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "CFG closure",
+  "garbled": false
+ },
+ "N0677": {
+  "id": "N0677",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "DPDM vs NDPDM",
+  "garbled": false
+ },
+ "N0678": {
+  "id": "N0678",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Star delta resistance",
+  "garbled": false
+ },
+ "N0679": {
+  "id": "N0679",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Delta star",
+  "garbled": true
+ },
+ "N0680": {
+  "id": "N0680",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Three-phase power",
+  "garbled": false
+ },
+ "N0681": {
+  "id": "N0681",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Wattmeter method",
+  "garbled": false
+ },
+ "N0682": {
+  "id": "N0682",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Wattmeter ratio",
+  "garbled": false
+ },
+ "N0683": {
+  "id": "N0683",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Delta-star phase",
+  "garbled": false
+ },
+ "N0684": {
+  "id": "N0684",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Boolean simplify",
+  "garbled": false
+ },
+ "N0685": {
+  "id": "N0685",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Boolean commutative",
+  "garbled": false
+ },
+ "N0686": {
+  "id": "N0686",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Boolean logic",
+  "garbled": false
+ },
+ "N0687": {
+  "id": "N0687",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Machine language",
+  "garbled": false
+ },
+ "N0688": {
+  "id": "N0688",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Primary storage",
+  "garbled": false
+ },
+ "N0689": {
+  "id": "N0689",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "LAN bandwidth",
+  "garbled": false
+ },
+ "N0690": {
+  "id": "N0690",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Ethernet topology",
+  "garbled": false
+ },
+ "N0691": {
+  "id": "N0691",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "WAN requirements",
+  "garbled": false
+ },
+ "N0692": {
+  "id": "N0692",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Optical bandwidth",
+  "garbled": false
+ },
+ "N0693": {
+  "id": "N0693",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Wide area",
+  "garbled": false
+ },
+ "N0694": {
+  "id": "N0694",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Network topology",
+  "garbled": false
+ },
+ "N0695": {
+  "id": "N0695",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "File correction",
+  "garbled": false
+ },
+ "N0696": {
+  "id": "N0696",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Magnetic tape",
+  "garbled": false
+ },
+ "N0697": {
+  "id": "N0697",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Half adder XOR",
+  "garbled": false
+ },
+ "N0698": {
+  "id": "N0698",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Half adder AND",
+  "garbled": false
+ },
+ "N0699": {
+  "id": "N0699",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Binary subtraction",
+  "garbled": false
+ },
+ "N0700": {
+  "id": "N0700",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Binary complement",
+  "garbled": false
+ },
+ "N0701": {
+  "id": "N0701",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Binary complement",
+  "garbled": false
+ },
+ "N0702": {
+  "id": "N0702",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Full adder digits",
+  "garbled": false
+ },
+ "N0703": {
+  "id": "N0703",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Full adder circuit",
+  "garbled": false
+ },
+ "N0704": {
+  "id": "N0704",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Number conversion",
+  "garbled": false
+ },
+ "N0705": {
+  "id": "N0705",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Multiplexer",
+  "garbled": false
+ },
+ "N0706": {
+  "id": "N0706",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "ASCII code bits",
+  "garbled": false
+ },
+ "N0707": {
+  "id": "N0707",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "BCD encoding",
+  "garbled": false
+ },
+ "N0708": {
+  "id": "N0708",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Karnaugh map",
+  "garbled": false
+ },
+ "N0709": {
+  "id": "N0709",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Boolean algebra",
+  "garbled": false
+ },
+ "N0710": {
+  "id": "N0710",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "8-bit processor",
+  "garbled": false
+ },
+ "N0711": {
+  "id": "N0711",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "8085 power supply",
+  "garbled": false
+ },
+ "N0712": {
+  "id": "N0712",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Stack pointer",
+  "garbled": false
+ },
+ "N0713": {
+  "id": "N0713",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Transistor gen",
+  "garbled": false
+ },
+ "N0714": {
+  "id": "N0714",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Flip-flop",
+  "garbled": false
+ },
+ "N0715": {
+  "id": "N0715",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Decimal system",
+  "garbled": false
+ },
+ "N0716": {
+  "id": "N0716",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Binary base",
+  "garbled": false
+ },
+ "N0717": {
+  "id": "N0717",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Number conversion",
+  "garbled": false
+ },
+ "N0718": {
+  "id": "N0718",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Linear search",
+  "garbled": false
+ },
+ "N0719": {
+  "id": "N0719",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Binary search",
+  "garbled": false
+ },
+ "N0720": {
+  "id": "N0720",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Linked list search",
+  "garbled": false
+ },
+ "N0721": {
+  "id": "N0721",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Doubly linked",
+  "garbled": false
+ },
+ "N0722": {
+  "id": "N0722",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Infix to postfix",
+  "garbled": false
+ },
+ "N0723": {
+  "id": "N0723",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Recursion stack",
+  "garbled": false
+ },
+ "N0724": {
+  "id": "N0724",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Queue definition",
+  "garbled": false
+ },
+ "N0725": {
+  "id": "N0725",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Deque definition",
+  "garbled": false
+ },
+ "N0726": {
+  "id": "N0726",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "BST search",
+  "garbled": false
+ },
+ "N0727": {
+  "id": "N0727",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Bubble sort",
+  "garbled": false
+ },
+ "N0728": {
+  "id": "N0728",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Binary insertion",
+  "garbled": false
+ },
+ "N0729": {
+  "id": "N0729",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Binary search tree",
+  "garbled": false
+ },
+ "N0730": {
+  "id": "N0730",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Sorting slowest",
+  "garbled": false
+ },
+ "N0731": {
+  "id": "N0731",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Stack definition",
+  "garbled": false
+ },
+ "N0732": {
+  "id": "N0732",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Graph degree",
+  "garbled": false
+ },
+ "N0733": {
+  "id": "N0733",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Tree properties",
+  "garbled": false
+ },
+ "N0734": {
+  "id": "N0734",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Bipartite graph",
+  "garbled": false
+ },
+ "N0735": {
+  "id": "N0735",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "AVL tree",
+  "garbled": false
+ },
+ "N0736": {
+  "id": "N0736",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Heap definition",
+  "garbled": false
+ },
+ "N0737": {
+  "id": "N0737",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Shortest path",
+  "garbled": false
+ },
+ "N0738": {
+  "id": "N0738",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Hashing search",
+  "garbled": false
+ },
+ "N0739": {
+  "id": "N0739",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Sorting definition",
+  "garbled": false
+ },
+ "N0740": {
+  "id": "N0740",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Bubble sort",
+  "garbled": false
+ },
+ "N0741": {
+  "id": "N0741",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Binary tree",
+  "garbled": false
+ },
+ "N0742": {
+  "id": "N0742",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Binary tree nodes",
+  "garbled": false
+ },
+ "N0743": {
+  "id": "N0743",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Heap sort",
+  "garbled": false
+ },
+ "N0744": {
+  "id": "N0744",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Merge sort",
+  "garbled": false
+ },
+ "N0745": {
+  "id": "N0745",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Indexed addressing",
+  "garbled": false
+ },
+ "N0746": {
+  "id": "N0746",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Base displacement",
+  "garbled": false
+ },
+ "N0747": {
+  "id": "N0747",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Addressing modes",
+  "garbled": false
+ },
+ "N0748": {
+  "id": "N0748",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Indirect indexing",
+  "garbled": false
+ },
+ "N0749": {
+  "id": "N0749",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Instruction length",
+  "garbled": false
+ },
+ "N0750": {
+  "id": "N0750",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Opcode length",
+  "garbled": false
+ },
+ "N0751": {
+  "id": "N0751",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "DBMS access",
+  "garbled": false
+ },
+ "N0752": {
+  "id": "N0752",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Indexing operation",
+  "garbled": false
+ },
+ "N0753": {
+  "id": "N0753",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Logical schema",
+  "garbled": false
+ },
+ "N0754": {
+  "id": "N0754",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Schema design",
+  "garbled": false
+ },
+ "N0755": {
+  "id": "N0755",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Relational tuple",
+  "garbled": false
+ },
+ "N0756": {
+  "id": "N0756",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Data dictionary",
+  "garbled": false
+ },
+ "N0757": {
+  "id": "N0757",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Data integrity",
+  "garbled": false
+ },
+ "N0758": {
+  "id": "N0758",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Locked file",
+  "garbled": false
+ },
+ "N0759": {
+  "id": "N0759",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Form definition",
+  "garbled": true
+ },
+ "N0760": {
+  "id": "N0760",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Form usage",
+  "garbled": false
+ },
+ "N0761": {
+  "id": "N0761",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "DBMS schema",
+  "garbled": false
+ },
+ "N0762": {
+  "id": "N0762",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "File extraction",
+  "garbled": false
+ },
+ "N0763": {
+  "id": "N0763",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Data duplication",
+  "garbled": false
+ },
+ "N0764": {
+  "id": "N0764",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Network schema",
+  "garbled": false
+ },
+ "N0765": {
+  "id": "N0765",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "SQL query result",
+  "garbled": false
+ },
+ "N0766": {
+  "id": "N0766",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Modularity",
+  "garbled": false
+ },
+ "N0767": {
+  "id": "N0767",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Portability",
+  "garbled": false
+ },
+ "N0768": {
+  "id": "N0768",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "CMM levels",
+  "garbled": false
+ },
+ "N0769": {
+  "id": "N0769",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "COCOMO model",
+  "garbled": false
+ },
+ "N0770": {
+  "id": "N0770",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Design testing",
+  "garbled": true
+ },
+ "N0771": {
+  "id": "N0771",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Spiral model",
+  "garbled": false
+ },
+ "N0772": {
+  "id": "N0772",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Context diagram",
+  "garbled": false
+ },
+ "N0773": {
+  "id": "N0773",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Process model",
+  "garbled": false
+ },
+ "N0774": {
+  "id": "N0774",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Process evaluation",
+  "garbled": false
+ },
+ "N0775": {
+  "id": "N0775",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Acceptance testing",
+  "garbled": false
+ },
+ "N0776": {
+  "id": "N0776",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "ISO 9001 clauses",
+  "garbled": false
+ },
+ "N0777": {
+  "id": "N0777",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "CMM work",
+  "garbled": false
+ },
+ "N0778": {
+  "id": "N0778",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "BPR process",
+  "garbled": false
+ },
+ "N0779": {
+  "id": "N0779",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Data flows",
+  "garbled": false
+ },
+ "N0780": {
+  "id": "N0780",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Data flow diagram",
+  "garbled": false
+ },
+ "N0781": {
+  "id": "N0781",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "ER model",
+  "garbled": false
+ },
+ "N0782": {
+  "id": "N0782",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Spiral model",
+  "garbled": false
+ },
+ "N0783": {
+  "id": "N0783",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "CM auditing",
+  "garbled": false
+ },
+ "N0784": {
+  "id": "N0784",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Requirement analysis",
+  "garbled": false
+ },
+ "N0785": {
+  "id": "N0785",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Static view model",
+  "garbled": false
+ },
+ "N0786": {
+  "id": "N0786",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "COCOMO effort",
+  "garbled": false
+ },
+ "N0787": {
+  "id": "N0787",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Structure testing",
+  "garbled": false
+ },
+ "N0788": {
+  "id": "N0788",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Gantt chart",
+  "garbled": false
+ },
+ "N0789": {
+  "id": "N0789",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Cohesion",
+  "garbled": false
+ },
+ "N0790": {
+  "id": "N0790",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "UML definition",
+  "garbled": false
+ },
+ "N0791": {
+  "id": "N0791",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Data couple",
+  "garbled": false
+ },
+ "N0792": {
+  "id": "N0792",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "COCOMO II",
+  "garbled": false
+ },
+ "N0793": {
+  "id": "N0793",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Halstead volume",
+  "garbled": false
+ },
+ "N0794": {
+  "id": "N0794",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Alpha/Beta testing",
+  "garbled": false
+ },
+ "N0795": {
+  "id": "N0795",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Software testing",
+  "garbled": false
+ },
+ "N0796": {
+  "id": "N0796",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Slack time",
+  "garbled": false
+ },
+ "N0797": {
+  "id": "N0797",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Array dimensions",
+  "garbled": false
+ },
+ "N0798": {
+  "id": "N0798",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Linked list sort",
+  "garbled": false
+ },
+ "N0799": {
+  "id": "N0799",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Circular linked",
+  "garbled": false
+ },
+ "N0800": {
+  "id": "N0800",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Linked list",
+  "garbled": false
+ },
+ "N0801": {
+  "id": "N0801",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "AVL tree height",
+  "garbled": false
+ },
+ "N0802": {
+  "id": "N0802",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Binary tree",
+  "garbled": false
+ },
+ "N0803": {
+  "id": "N0803",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Binary trees",
+  "garbled": false
+ },
+ "N0804": {
+  "id": "N0804",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "B-tree vs B+",
+  "garbled": false
+ },
+ "N0805": {
+  "id": "N0805",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Memory access",
+  "garbled": false
+ },
+ "N0806": {
+  "id": "N0806",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Memory features",
+  "garbled": false
+ },
+ "N0807": {
+  "id": "N0807",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Address lines",
+  "garbled": false
+ },
+ "N0808": {
+  "id": "N0808",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Control unit",
+  "garbled": false
+ },
+ "N0809": {
+  "id": "N0809",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Program counter",
+  "garbled": false
+ },
+ "N0810": {
+  "id": "N0810",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Instruction reg",
+  "garbled": false
+ },
+ "N0811": {
+  "id": "N0811",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Flags register",
+  "garbled": false
+ },
+ "N0812": {
+  "id": "N0812",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Booth algorithm",
+  "garbled": false
+ },
+ "N0813": {
+  "id": "N0813",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Interrupt signal",
+  "garbled": false
+ },
+ "N0814": {
+  "id": "N0814",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Microprogramming",
+  "garbled": false
+ },
+ "N0815": {
+  "id": "N0815",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Interrupt handling",
+  "garbled": false
+ },
+ "N0816": {
+  "id": "N0816",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Software interrupt",
+  "garbled": false
+ },
+ "N0817": {
+  "id": "N0817",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Microprogram seq",
+  "garbled": false
+ },
+ "N0818": {
+  "id": "N0818",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Tape access",
+  "garbled": false
+ },
+ "N0819": {
+  "id": "N0819",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "String processing",
+  "garbled": false
+ },
+ "N0820": {
+  "id": "N0820",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Memory hierarchy",
+  "garbled": false
+ },
+ "N0821": {
+  "id": "N0821",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Motherboard",
+  "garbled": false
+ },
+ "N0822": {
+  "id": "N0822",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Text input device",
+  "garbled": false
+ },
+ "N0823": {
+  "id": "N0823",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Floppy disk",
+  "garbled": false
+ },
+ "N0824": {
+  "id": "N0824",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "CD-ROM",
+  "garbled": false
+ },
+ "N0825": {
+  "id": "N0825",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Instruction exec",
+  "garbled": false
+ },
+ "N0826": {
+  "id": "N0826",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Storage retrieval",
+  "garbled": false
+ },
+ "N0827": {
+  "id": "N0827",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Operating system",
+  "garbled": false
+ },
+ "N0828": {
+  "id": "N0828",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "OS services",
+  "garbled": false
+ },
+ "N0829": {
+  "id": "N0829",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Multiprogramming",
+  "garbled": false
+ },
+ "N0830": {
+  "id": "N0830",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Software def",
+  "garbled": true
+ },
+ "N0831": {
+  "id": "N0831",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Compiler/translator",
+  "garbled": false
+ },
+ "N0832": {
+  "id": "N0832",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Interpreter",
+  "garbled": false
+ },
+ "N0833": {
+  "id": "N0833",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Computer graph",
+  "garbled": false
+ },
+ "N0834": {
+  "id": "N0834",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "I/O device",
+  "garbled": false
+ },
+ "N0835": {
+  "id": "N0835",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Bus system",
+  "garbled": false
+ },
+ "N0836": {
+  "id": "N0836",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Read-only memory",
+  "garbled": false
+ },
+ "N0837": {
+  "id": "N0837",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Non-numerical data",
+  "garbled": false
+ },
+ "N0838": {
+  "id": "N0838",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Winchester disk",
+  "garbled": false
+ },
+ "N0839": {
+  "id": "N0839",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "CPU functions",
+  "garbled": false
+ },
+ "N0840": {
+  "id": "N0840",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Binary arithmetic",
+  "garbled": false
+ },
+ "N0841": {
+  "id": "N0841",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "CPU registers",
+  "garbled": false
+ },
+ "N0842": {
+  "id": "N0842",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Memory hierarchy",
+  "garbled": false
+ },
+ "N0843": {
+  "id": "N0843",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Cache memory",
+  "garbled": false
+ },
+ "N0844": {
+  "id": "N0844",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Virtual memory",
+  "garbled": false
+ },
+ "N0845": {
+  "id": "N0845",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "I/O interface",
+  "garbled": false
+ },
+ "N0846": {
+  "id": "N0846",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Interrupt handling",
+  "garbled": false
+ },
+ "N0847": {
+  "id": "N0847",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "DMA transfer",
+  "garbled": false
+ },
+ "N0848": {
+  "id": "N0848",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Microprogram",
+  "garbled": false
+ },
+ "N0849": {
+  "id": "N0849",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Machine instruction opcode",
+  "garbled": false
+ },
+ "N0850": {
+  "id": "N0850",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Complexity analysis",
+  "garbled": false
+ },
+ "N0851": {
+  "id": "N0851",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Sorting algorithms",
+  "garbled": false
+ },
+ "N0852": {
+  "id": "N0852",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Algorithm definition",
+  "garbled": false
+ },
+ "N0853": {
+  "id": "N0853",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Tree structures",
+  "garbled": false
+ },
+ "N0854": {
+  "id": "N0854",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Graph algorithms",
+  "garbled": false
+ },
+ "N0855": {
+  "id": "N0855",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Data structure types",
+  "garbled": false
+ },
+ "N0856": {
+  "id": "N0856",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Array storage",
+  "garbled": false
+ },
+ "N0857": {
+  "id": "N0857",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Array storage order",
+  "garbled": false
+ },
+ "N0858": {
+  "id": "N0858",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "List length",
+  "garbled": false
+ },
+ "N0859": {
+  "id": "N0859",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "List properties",
+  "garbled": false
+ },
+ "N0860": {
+  "id": "N0860",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Deque pointers",
+  "garbled": false
+ },
+ "N0861": {
+  "id": "N0861",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Binary tree nodes",
+  "garbled": false
+ },
+ "N0862": {
+  "id": "N0862",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Leaf node definition",
+  "garbled": false
+ },
+ "N0863": {
+  "id": "N0863",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Heap condition",
+  "garbled": false
+ },
+ "N0864": {
+  "id": "N0864",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Selection sort complexity",
+  "garbled": false
+ },
+ "N0865": {
+  "id": "N0865",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Injections in mappings",
+  "garbled": false
+ },
+ "N0866": {
+  "id": "N0866",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Injective function",
+  "garbled": false
+ },
+ "N0867": {
+  "id": "N0867",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Prime numbers set type",
+  "garbled": true
+ },
+ "N0868": {
+  "id": "N0868",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Group properties",
+  "garbled": false
+ },
+ "N0869": {
+  "id": "N0869",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Binary relations",
+  "garbled": false
+ },
+ "N0870": {
+  "id": "N0870",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Database design",
+  "garbled": false
+ },
+ "N0871": {
+  "id": "N0871",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Query optimization",
+  "garbled": false
+ },
+ "N0872": {
+  "id": "N0872",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Index management",
+  "garbled": false
+ },
+ "N0873": {
+  "id": "N0873",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Transaction ACID",
+  "garbled": false
+ },
+ "N0874": {
+  "id": "N0874",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Concurrency DBMS",
+  "garbled": false
+ },
+ "N0875": {
+  "id": "N0875",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Recovery mechanism",
+  "garbled": false
+ },
+ "N0876": {
+  "id": "N0876",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "SQL operations",
+  "garbled": false
+ },
+ "N0877": {
+  "id": "N0877",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "View management",
+  "garbled": false
+ },
+ "N0878": {
+  "id": "N0878",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Authorization",
+  "garbled": false
+ },
+ "N0879": {
+  "id": "N0879",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Backup restore",
+  "garbled": false
+ },
+ "N0880": {
+  "id": "N0880",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Network protocols",
+  "garbled": false
+ },
+ "N0881": {
+  "id": "N0881",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "OSI layers",
+  "garbled": false
+ },
+ "N0882": {
+  "id": "N0882",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "TCP/IP suite",
+  "garbled": false
+ },
+ "N0883": {
+  "id": "N0883",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Routing",
+  "garbled": false
+ },
+ "N0884": {
+  "id": "N0884",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Congestion control",
+  "garbled": false
+ },
+ "N0885": {
+  "id": "N0885",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Network security",
+  "garbled": false
+ },
+ "N0886": {
+  "id": "N0886",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Firewall",
+  "garbled": false
+ },
+ "N0887": {
+  "id": "N0887",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Encryption",
+  "garbled": false
+ },
+ "N0888": {
+  "id": "N0888",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "VPN",
+  "garbled": false
+ },
+ "N0889": {
+  "id": "N0889",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Cloud computing",
+  "garbled": false
+ },
+ "N0890": {
+  "id": "N0890",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Software design",
+  "garbled": false
+ },
+ "N0891": {
+  "id": "N0891",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "UML diagrams",
+  "garbled": false
+ },
+ "N0892": {
+  "id": "N0892",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Design patterns",
+  "garbled": false
+ },
+ "N0893": {
+  "id": "N0893",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Refactoring",
+  "garbled": false
+ },
+ "N0894": {
+  "id": "N0894",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Code review",
+  "garbled": false
+ },
+ "N0895": {
+  "id": "N0895",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Quality assurance",
+  "garbled": false
+ },
+ "N0896": {
+  "id": "N0896",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Test automation",
+  "garbled": false
+ },
+ "N0897": {
+  "id": "N0897",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Performance testing",
+  "garbled": false
+ },
+ "N0898": {
+  "id": "N0898",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Security testing",
+  "garbled": false
+ },
+ "N0899": {
+  "id": "N0899",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Documentation",
+  "garbled": false
+ },
+ "N0900": {
+  "id": "N0900",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Project management",
+  "garbled": false
+ },
+ "N0901": {
+  "id": "N0901",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Risk management",
+  "garbled": false
+ },
+ "N0902": {
+  "id": "N0902",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Resource planning",
+  "garbled": false
+ },
+ "N0903": {
+  "id": "N0903",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Stakeholder mgmt",
+  "garbled": false
+ },
+ "N0904": {
+  "id": "N0904",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Change management",
+  "garbled": false
+ },
+ "N0905": {
+  "id": "N0905",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Metrics collection",
+  "garbled": false
+ },
+ "N0906": {
+  "id": "N0906",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Process improvement",
+  "garbled": false
+ },
+ "N0907": {
+  "id": "N0907",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Agile methodology",
+  "garbled": false
+ },
+ "N0908": {
+  "id": "N0908",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "DevOps practices",
+  "garbled": false
+ },
+ "N0909": {
+  "id": "N0909",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Continuous integration",
+  "garbled": false
+ },
+ "N0910": {
+  "id": "N0910",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "BST search sequence",
+  "garbled": false
+ },
+ "N0911": {
+  "id": "N0911",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Radix sort complexity",
+  "garbled": false
+ },
+ "N0912": {
+  "id": "N0912",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Stack queue implementation",
+  "garbled": false
+ },
+ "N0913": {
+  "id": "N0913",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Sorting complexity order",
+  "garbled": false
+ },
+ "N0914": {
+  "id": "N0914",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Heap identification",
+  "garbled": true
+ },
+ "N0915": {
+  "id": "N0915",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Common operating system",
+  "garbled": false
+ },
+ "N0916": {
+  "id": "N0916",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "OS history",
+  "garbled": false
+ },
+ "N0917": {
+  "id": "N0917",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Real-time OS",
+  "garbled": false
+ },
+ "N0918": {
+  "id": "N0918",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "OS definition",
+  "garbled": false
+ },
+ "N0919": {
+  "id": "N0919",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "System boot menu key",
+  "garbled": false
+ },
+ "N0920": {
+  "id": "N0920",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Recycle bin properties",
+  "garbled": false
+ },
+ "N0921": {
+  "id": "N0921",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Kernel IPC",
+  "garbled": false
+ },
+ "N0922": {
+  "id": "N0922",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Producer-consumer problem",
+  "garbled": false
+ },
+ "N0923": {
+  "id": "N0923",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Semaphore synchronization",
+  "garbled": false
+ },
+ "N0924": {
+  "id": "N0924",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "SJF scheduling",
+  "garbled": false
+ },
+ "N0925": {
+  "id": "N0925",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Fork process creation",
+  "garbled": false
+ },
+ "N0926": {
+  "id": "N0926",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Process states",
+  "garbled": false
+ },
+ "N0927": {
+  "id": "N0927",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Disk seek time",
+  "garbled": false
+ },
+ "N0928": {
+  "id": "N0928",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Deadlock detection",
+  "garbled": false
+ },
+ "N0929": {
+  "id": "N0929",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "FIFO page replacement",
+  "garbled": false
+ },
+ "N0930": {
+  "id": "N0930",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Segment replacement",
+  "garbled": false
+ },
+ "N0931": {
+  "id": "N0931",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "LRU page replacement",
+  "garbled": false
+ },
+ "N0932": {
+  "id": "N0932",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "OOP features",
+  "garbled": false
+ },
+ "N0933": {
+  "id": "N0933",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Class vs structure",
+  "garbled": false
+ },
+ "N0934": {
+  "id": "N0934",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "C++ default return type",
+  "garbled": false
+ },
+ "N0935": {
+  "id": "N0935",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Destructor behavior",
+  "garbled": false
+ },
+ "N0936": {
+  "id": "N0936",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "C++ sizeof operator",
+  "garbled": false
+ },
+ "N0937": {
+  "id": "N0937",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Constructor types",
+  "garbled": false
+ },
+ "N0938": {
+  "id": "N0938",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Reusability benefit",
+  "garbled": false
+ },
+ "N0939": {
+  "id": "N0939",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Protected inheritance",
+  "garbled": false
+ },
+ "N0940": {
+  "id": "N0940",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "C++ enum values",
+  "garbled": false
+ },
+ "N0941": {
+  "id": "N0941",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "String length function",
+  "garbled": false
+ },
+ "N0942": {
+  "id": "N0942",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Method overloading output",
+  "garbled": false
+ },
+ "N0943": {
+  "id": "N0943",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Exception catch-all",
+  "garbled": false
+ },
+ "N0944": {
+  "id": "N0944",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Static keyword usage",
+  "garbled": false
+ },
+ "N0945": {
+  "id": "N0945",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Private constructor access",
+  "garbled": false
+ },
+ "N0946": {
+  "id": "N0946",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Friend function scope",
+  "garbled": false
+ },
+ "N0947": {
+  "id": "N0947",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Boxing primitive types",
+  "garbled": false
+ },
+ "N0948": {
+  "id": "N0948",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Dynamic pointer array",
+  "garbled": false
+ },
+ "N0949": {
+  "id": "N0949",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Graphics inventor",
+  "garbled": false
+ },
+ "N0950": {
+  "id": "N0950",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Line equation geometry",
+  "garbled": false
+ },
+ "N0951": {
+  "id": "N0951",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Polygon fill algorithm",
+  "garbled": false
+ },
+ "N0952": {
+  "id": "N0952",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Line clipping window",
+  "garbled": false
+ },
+ "N0953": {
+  "id": "N0953",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Translation in graphics",
+  "garbled": false
+ },
+ "N0954": {
+  "id": "N0954",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Point rotation transform",
+  "garbled": false
+ },
+ "N0955": {
+  "id": "N0955",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Viewport scaling factor",
+  "garbled": false
+ },
+ "N0956": {
+  "id": "N0956",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Bezier curve properties",
+  "garbled": false
+ },
+ "N0957": {
+  "id": "N0957",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Image resize aspect ratio",
+  "garbled": false
+ },
+ "N0958": {
+  "id": "N0958",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Frame buffer size",
+  "garbled": false
+ },
+ "N0959": {
+  "id": "N0959",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Oblique projections",
+  "garbled": false
+ },
+ "N0960": {
+  "id": "N0960",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Frame buffer memory",
+  "garbled": false
+ },
+ "N0961": {
+  "id": "N0961",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Bezier curve control",
+  "garbled": false
+ },
+ "N0962": {
+  "id": "N0962",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Synthetic curves",
+  "garbled": false
+ },
+ "N0963": {
+  "id": "N0963",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Boundary-fill algorithm",
+  "garbled": false
+ },
+ "N0964": {
+  "id": "N0964",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Computer graphics curves",
+  "garbled": false
+ },
+ "N0965": {
+  "id": "N0965",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Database data storage",
+  "garbled": false
+ },
+ "N0966": {
+  "id": "N0966",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Data model schema",
+  "garbled": false
+ },
+ "N0967": {
+  "id": "N0967",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Relationship participation",
+  "garbled": false
+ },
+ "N0968": {
+  "id": "N0968",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Transitive dependency",
+  "garbled": false
+ },
+ "N0969": {
+  "id": "N0969",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Relational algebra select",
+  "garbled": false
+ },
+ "N0970": {
+  "id": "N0970",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Normalization duplicate info",
+  "garbled": false
+ },
+ "N0971": {
+  "id": "N0971",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "TRUNCATE delete rows",
+  "garbled": false
+ },
+ "N0972": {
+  "id": "N0972",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "SQL projection columns",
+  "garbled": false
+ },
+ "N0973": {
+  "id": "N0973",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Query evaluation primitive",
+  "garbled": false
+ },
+ "N0974": {
+  "id": "N0974",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "ER diagram database",
+  "garbled": false
+ },
+ "N0975": {
+  "id": "N0975",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "ER strong entity",
+  "garbled": false
+ },
+ "N0976": {
+  "id": "N0976",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Transaction schedules",
+  "garbled": true
+ },
+ "N0977": {
+  "id": "N0977",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "SQL COUNT function",
+  "garbled": false
+ },
+ "N0978": {
+  "id": "N0978",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Relational difference",
+  "garbled": false
+ },
+ "N0979": {
+  "id": "N0979",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Tuple records",
+  "garbled": false
+ },
+ "N0980": {
+  "id": "N0980",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "ROLLUP SQL operator",
+  "garbled": false
+ },
+ "N0981": {
+  "id": "N0981",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "CREATE VIEW view",
+  "garbled": false
+ },
+ "N0982": {
+  "id": "N0982",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Cost-based optimizer",
+  "garbled": false
+ },
+ "N0983": {
+  "id": "N0983",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Full-duplex transmission",
+  "garbled": false
+ },
+ "N0984": {
+  "id": "N0984",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "OSI layer protocols",
+  "garbled": false
+ },
+ "N0985": {
+  "id": "N0985",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Distance vector routing",
+  "garbled": true
+ },
+ "N0986": {
+  "id": "N0986",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Subnet mask addressing",
+  "garbled": false
+ },
+ "N0987": {
+  "id": "N0987",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "TCP connect system call",
+  "garbled": false
+ },
+ "N0988": {
+  "id": "N0988",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "TCP data size limit",
+  "garbled": false
+ },
+ "N0989": {
+  "id": "N0989",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "UDP protocol usage",
+  "garbled": false
+ },
+ "N0990": {
+  "id": "N0990",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Subnet addressing class B",
+  "garbled": false
+ },
+ "N0991": {
+  "id": "N0991",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Logical addressing router",
+  "garbled": false
+ },
+ "N0992": {
+  "id": "N0992",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Application layer PDU",
+  "garbled": false
+ },
+ "N0993": {
+  "id": "N0993",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Application protocols",
+  "garbled": false
+ },
+ "N0994": {
+  "id": "N0994",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "ARP address resolution",
+  "garbled": false
+ },
+ "N0995": {
+  "id": "N0995",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Packet switching cost",
+  "garbled": false
+ },
+ "N0996": {
+  "id": "N0996",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "HTTP web browsing",
+  "garbled": false
+ },
+ "N0997": {
+  "id": "N0997",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "TCP congestion control",
+  "garbled": false
+ },
+ "N0998": {
+  "id": "N0998",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Spiral model risk",
+  "garbled": false
+ },
+ "N0999": {
+  "id": "N0999",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "DFD context diagram",
+  "garbled": false
+ },
+ "N1000": {
+  "id": "N1000",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "SRS document validation",
+  "garbled": false
+ },
+ "N1001": {
+  "id": "N1001",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "SRS design specification",
+  "garbled": false
+ },
+ "N1002": {
+  "id": "N1002",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Error seeding fault",
+  "garbled": false
+ },
+ "N1003": {
+  "id": "N1003",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "COCOMO cost model",
+  "garbled": false
+ },
+ "N1004": {
+  "id": "N1004",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Error seeding estimate",
+  "garbled": false
+ },
+ "N1005": {
+  "id": "N1005",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Statistical QA",
+  "garbled": false
+ },
+ "N1006": {
+  "id": "N1006",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Spiral iteration risk",
+  "garbled": false
+ },
+ "N1007": {
+  "id": "N1007",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Alpha testing platform",
+  "garbled": false
+ },
+ "N1008": {
+  "id": "N1008",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Basis path testing",
+  "garbled": false
+ },
+ "N1009": {
+  "id": "N1009",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Error phase distribution",
+  "garbled": false
+ },
+ "N1010": {
+  "id": "N1010",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Big-bang integration test",
+  "garbled": false
+ },
+ "N1011": {
+  "id": "N1011",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "SRS black box testing",
+  "garbled": false
+ },
+ "N1012": {
+  "id": "N1012",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Logical notation",
+  "garbled": true
+ },
+ "N1013": {
+  "id": "N1013",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Predicate logic translation",
+  "garbled": true
+ },
+ "N1014": {
+  "id": "N1014",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Identity function",
+  "garbled": true
+ },
+ "N1015": {
+  "id": "N1015",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Context-free grammar",
+  "garbled": true
+ },
+ "N1016": {
+  "id": "N1016",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Minimum spanning tree",
+  "garbled": true
+ },
+ "N1017": {
+  "id": "N1017",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "JK flip-flop toggle",
+  "garbled": true
+ },
+ "N1018": {
+  "id": "N1018",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Pipelining RISC",
+  "garbled": false
+ },
+ "N1019": {
+  "id": "N1019",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Cache miss rate",
+  "garbled": false
+ },
+ "N1020": {
+  "id": "N1020",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Floating point normalization",
+  "garbled": false
+ },
+ "N1021": {
+  "id": "N1021",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Multiplexer registers",
+  "garbled": false
+ },
+ "N1022": {
+  "id": "N1022",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Instruction format opcode",
+  "garbled": false
+ },
+ "N1023": {
+  "id": "N1023",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "DMA cycle stealing",
+  "garbled": false
+ },
+ "N1024": {
+  "id": "N1024",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Handshaking protocol",
+  "garbled": false
+ },
+ "N1025": {
+  "id": "N1025",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Multiprogramming CPU",
+  "garbled": false
+ },
+ "N1026": {
+  "id": "N1026",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Selection sort complexity",
+  "garbled": false
+ },
+ "N1027": {
+  "id": "N1027",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Heap level-order insertion",
+  "garbled": false
+ },
+ "N1028": {
+  "id": "N1028",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Quicksort comparisons",
+  "garbled": false
+ },
+ "N1029": {
+  "id": "N1029",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Tree traversal inorder",
+  "garbled": true
+ },
+ "N1030": {
+  "id": "N1030",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Critical section variable",
+  "garbled": false
+ },
+ "N1031": {
+  "id": "N1031",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Page table base register",
+  "garbled": false
+ },
+ "N1032": {
+  "id": "N1032",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Fork process zombie",
+  "garbled": false
+ },
+ "N1033": {
+  "id": "N1033",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "File directory structure",
+  "garbled": false
+ },
+ "N1034": {
+  "id": "N1034",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Process control block",
+  "garbled": false
+ },
+ "N1035": {
+  "id": "N1035",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Linking loader assembly",
+  "garbled": false
+ },
+ "N1036": {
+  "id": "N1036",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Semaphore synchronization",
+  "garbled": false
+ },
+ "N1037": {
+  "id": "N1037",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Deadlock prevention hold",
+  "garbled": false
+ },
+ "N1038": {
+  "id": "N1038",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Dispatch latency scheduling",
+  "garbled": false
+ },
+ "N1039": {
+  "id": "N1039",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Timesharing OS",
+  "garbled": false
+ },
+ "N1040": {
+  "id": "N1040",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Destructor scope",
+  "garbled": false
+ },
+ "N1041": {
+  "id": "N1041",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Default parameter function",
+  "garbled": false
+ },
+ "N1042": {
+  "id": "N1042",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Operator overloading",
+  "garbled": false
+ },
+ "N1043": {
+  "id": "N1043",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Private inheritance member",
+  "garbled": false
+ },
+ "N1044": {
+  "id": "N1044",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "EOF file stream",
+  "garbled": false
+ },
+ "N1045": {
+  "id": "N1045",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Default constructor",
+  "garbled": false
+ },
+ "N1046": {
+  "id": "N1046",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Multi-level inheritance",
+  "garbled": false
+ },
+ "N1047": {
+  "id": "N1047",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Class member pointer",
+  "garbled": false
+ },
+ "N1048": {
+  "id": "N1048",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Input stream cin",
+  "garbled": false
+ },
+ "N1049": {
+  "id": "N1049",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "File open mode noreplace",
+  "garbled": false
+ },
+ "N1050": {
+  "id": "N1050",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Pass-by-reference method",
+  "garbled": false
+ },
+ "N1051": {
+  "id": "N1051",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Java bytecode compiler",
+  "garbled": false
+ },
+ "N1052": {
+  "id": "N1052",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Polymorphism binding",
+  "garbled": false
+ },
+ "N1053": {
+  "id": "N1053",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Constructor inheritance",
+  "garbled": false
+ },
+ "N1054": {
+  "id": "N1054",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Object class instance",
+  "garbled": false
+ },
+ "N1055": {
+  "id": "N1055",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Pixel mask string",
+  "garbled": false
+ },
+ "N1056": {
+  "id": "N1056",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Image intensity range",
+  "garbled": false
+ },
+ "N1057": {
+  "id": "N1057",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Bresenham line algorithm",
+  "garbled": false
+ },
+ "N1058": {
+  "id": "N1058",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Frame buffer refresh",
+  "garbled": false
+ },
+ "N1059": {
+  "id": "N1059",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Shearing transformation",
+  "garbled": false
+ },
+ "N1060": {
+  "id": "N1060",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Image clipping windowing",
+  "garbled": false
+ },
+ "N1061": {
+  "id": "N1061",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Line segment attributes",
+  "garbled": true
+ },
+ "N1062": {
+  "id": "N1062",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Color hue wavelength",
+  "garbled": false
+ },
+ "N1063": {
+  "id": "N1063",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Phosphorescence glow",
+  "garbled": false
+ },
+ "N1064": {
+  "id": "N1064",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Phosphor light emission",
+  "garbled": false
+ },
+ "N1065": {
+  "id": "N1065",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Scan-line fill algorithm",
+  "garbled": false
+ },
+ "N1066": {
+  "id": "N1066",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Random scan systems",
+  "garbled": false
+ },
+ "N1067": {
+  "id": "N1067",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Vector graphics paths",
+  "garbled": true
+ },
+ "N1068": {
+  "id": "N1068",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "SQL cross join",
+  "garbled": false
+ },
+ "N1069": {
+  "id": "N1069",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Functional dependency key",
+  "garbled": false
+ },
+ "N1070": {
+  "id": "N1070",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Tuple relational calculus",
+  "garbled": false
+ },
+ "N1071": {
+  "id": "N1071",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "ER total participation",
+  "garbled": false
+ },
+ "N1072": {
+  "id": "N1072",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Primary foreign key",
+  "garbled": false
+ },
+ "N1073": {
+  "id": "N1073",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Database inconsistent state",
+  "garbled": false
+ },
+ "N1074": {
+  "id": "N1074",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Shadow paging recovery",
+  "garbled": false
+ },
+ "N1075": {
+  "id": "N1075",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "DML database manipulation",
+  "garbled": false
+ },
+ "N1076": {
+  "id": "N1076",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Denormalization redundancy",
+  "garbled": false
+ },
+ "N1077": {
+  "id": "N1077",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Specialization top-down",
+  "garbled": false
+ },
+ "N1078": {
+  "id": "N1078",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Internal schema storage",
+  "garbled": false
+ },
+ "N1079": {
+  "id": "N1079",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Disjoint constraint entity",
+  "garbled": false
+ },
+ "N1080": {
+  "id": "N1080",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Relational intersection cost",
+  "garbled": true
+ },
+ "N1081": {
+  "id": "N1081",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Transaction committed state",
+  "garbled": false
+ },
+ "N1082": {
+  "id": "N1082",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Transaction atomicity DBMS",
+  "garbled": false
+ },
+ "N1083": {
+  "id": "N1083",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Multiplexing channel",
+  "garbled": false
+ },
+ "N1084": {
+  "id": "N1084",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Burst error transmission",
+  "garbled": false
+ },
+ "N1085": {
+  "id": "N1085",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Multipoint connection bus",
+  "garbled": false
+ },
+ "N1086": {
+  "id": "N1086",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Network nodes computers",
+  "garbled": false
+ },
+ "N1087": {
+  "id": "N1087",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Network reliability",
+  "garbled": false
+ },
+ "N1088": {
+  "id": "N1088",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "DNS domain name system",
+  "garbled": false
+ },
+ "N1089": {
+  "id": "N1089",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Network gateway connection",
+  "garbled": false
+ },
+ "N1090": {
+  "id": "N1090",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "OSI session layer",
+  "garbled": false
+ },
+ "N1091": {
+  "id": "N1091",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Sampling rate bandwidth",
+  "garbled": false
+ },
+ "N1092": {
+  "id": "N1092",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "CSMA/CD interframe space",
+  "garbled": false
+ },
+ "N1093": {
+  "id": "N1093",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Mesh topology ports",
+  "garbled": false
+ },
+ "N1094": {
+  "id": "N1094",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Telnet virtual terminal",
+  "garbled": false
+ },
+ "N1095": {
+  "id": "N1095",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Coverage metrics testing",
+  "garbled": false
+ },
+ "N1096": {
+  "id": "N1096",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "DFD user interaction",
+  "garbled": false
+ },
+ "N1097": {
+  "id": "N1097",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Unit testing adjunct",
+  "garbled": false
+ },
+ "N1098": {
+  "id": "N1098",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Software product size",
+  "garbled": false
+ },
+ "N1099": {
+  "id": "N1099",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Software engineering goal",
+  "garbled": false
+ },
+ "N1100": {
+  "id": "N1100",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Requirements analysis",
+  "garbled": false
+ },
+ "N1101": {
+  "id": "N1101",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Black box boundary testing",
+  "garbled": false
+ },
+ "N1102": {
+  "id": "N1102",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Integration system concept",
+  "garbled": false
+ },
+ "N1103": {
+  "id": "N1103",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Software metric attribute",
+  "garbled": false
+ },
+ "N1104": {
+  "id": "N1104",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Function point estimation",
+  "garbled": false
+ },
+ "N1105": {
+  "id": "N1105",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Spiral risk analysis",
+  "garbled": false
+ },
+ "N1106": {
+  "id": "N1106",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Evolutionary model category",
+  "garbled": false
+ },
+ "N1107": {
+  "id": "N1107",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Software design activities",
+  "garbled": false
+ },
+ "N1108": {
+  "id": "N1108",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Fastest memory type",
+  "garbled": false
+ },
+ "N1109": {
+  "id": "N1109",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Matrix multiplication",
+  "garbled": false
+ },
+ "N1110": {
+  "id": "N1110",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "C++ increment output",
+  "garbled": false
+ },
+ "N1111": {
+  "id": "N1111",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "C function absolute value",
+  "garbled": false
+ },
+ "N1112": {
+  "id": "N1112",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "FILE pointer C",
+  "garbled": false
+ },
+ "N1113": {
+  "id": "N1113",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "File fprintf function",
+  "garbled": false
+ },
+ "N1114": {
+  "id": "N1114",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "fseek file access",
+  "garbled": false
+ },
+ "N1115": {
+  "id": "N1115",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Union shared memory",
+  "garbled": false
+ },
+ "N1116": {
+  "id": "N1116",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Float pointer type",
+  "garbled": false
+ },
+ "N1117": {
+  "id": "N1117",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Compiler machine dependent",
+  "garbled": false
+ },
+ "N1118": {
+  "id": "N1118",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Integer sign bit",
+  "garbled": false
+ },
+ "N1119": {
+  "id": "N1119",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Number swapping method",
+  "garbled": false
+ },
+ "N1120": {
+  "id": "N1120",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Unary operators C",
+  "garbled": false
+ },
+ "N1121": {
+  "id": "N1121",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Positional number system",
+  "garbled": false
+ },
+ "N1122": {
+  "id": "N1122",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Hexadecimal conversion",
+  "garbled": false
+ },
+ "N1123": {
+  "id": "N1123",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Karnaugh map cells",
+  "garbled": false
+ },
+ "N1124": {
+  "id": "N1124",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Multiplexer circuit",
+  "garbled": false
+ },
+ "N1125": {
+  "id": "N1125",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "10BaseT Ethernet",
+  "garbled": false
+ },
+ "N1126": {
+  "id": "N1126",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Circuit switching",
+  "garbled": false
+ },
+ "N1127": {
+  "id": "N1127",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "OSI presentation layer",
+  "garbled": false
+ },
+ "N1128": {
+  "id": "N1128",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Bridge network device",
+  "garbled": false
+ },
+ "N1129": {
+  "id": "N1129",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Connection oriented delivery",
+  "garbled": false
+ },
+ "N1130": {
+  "id": "N1130",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Exponential backoff CSMA",
+  "garbled": false
+ },
+ "N1131": {
+  "id": "N1131",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Flooding routing algorithm",
+  "garbled": false
+ },
+ "N1132": {
+  "id": "N1132",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "TTL field IP header",
+  "garbled": false
+ },
+ "N1133": {
+  "id": "N1133",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Window resizing congestion",
+  "garbled": false
+ },
+ "N1134": {
+  "id": "N1134",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Hamming code error",
+  "garbled": false
+ },
+ "N1135": {
+  "id": "N1135",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Bit stuffing frame boundary",
+  "garbled": false
+ },
+ "N1136": {
+  "id": "N1136",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "CSMA/CD collision jam",
+  "garbled": false
+ },
+ "N1137": {
+  "id": "N1137",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "VRC parity check",
+  "garbled": false
+ },
+ "N1138": {
+  "id": "N1138",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Selective-reject ARQ",
+  "garbled": false
+ },
+ "N1139": {
+  "id": "N1139",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Gateway network device",
+  "garbled": false
+ },
+ "N1140": {
+  "id": "N1140",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "ISDN channels bearer",
+  "garbled": false
+ },
+ "N1141": {
+  "id": "N1141",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Baud bit rate",
+  "garbled": false
+ },
+ "N1142": {
+  "id": "N1142",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Adaptive software maintenance",
+  "garbled": false
+ },
+ "N1143": {
+  "id": "N1143",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Sliding window planning",
+  "garbled": false
+ },
+ "N1144": {
+  "id": "N1144",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "COCOMO project categories",
+  "garbled": false
+ },
+ "N1145": {
+  "id": "N1145",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Verification validation",
+  "garbled": false
+ },
+ "N1146": {
+  "id": "N1146",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Software design qualities",
+  "garbled": false
+ },
+ "N1147": {
+  "id": "N1147",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Black-box specification",
+  "garbled": false
+ },
+ "N1148": {
+  "id": "N1148",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "System analyst role",
+  "garbled": false
+ },
+ "N1149": {
+  "id": "N1149",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Democratic team hierarchy",
+  "garbled": false
+ },
+ "N1150": {
+  "id": "N1150",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Life cycle model advantage",
+  "garbled": false
+ },
+ "N1151": {
+  "id": "N1151",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Life cycle model prevents",
+  "garbled": false
+ },
+ "N1152": {
+  "id": "N1152",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "SRS document terminology",
+  "garbled": false
+ },
+ "N1153": {
+  "id": "N1153",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Error detection phase",
+  "garbled": false
+ },
+ "N1154": {
+  "id": "N1154",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "PERT chart estimates",
+  "garbled": false
+ },
+ "N1155": {
+  "id": "N1155",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Branch coverage testing",
+  "garbled": false
+ },
+ "N1156": {
+  "id": "N1156",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Cohesion coupling module",
+  "garbled": false
+ },
+ "N1157": {
+  "id": "N1157",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Bubble sort swaps",
+  "garbled": false
+ },
+ "N1158": {
+  "id": "N1158",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Prefix to postfix notation",
+  "garbled": false
+ },
+ "N1159": {
+  "id": "N1159",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Infix to postfix stack",
+  "garbled": false
+ },
+ "N1160": {
+  "id": "N1160",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Sentinel array search",
+  "garbled": false
+ },
+ "N1161": {
+  "id": "N1161",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "BST inorder traversal",
+  "garbled": false
+ },
+ "N1162": {
+  "id": "N1162",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Spanning tree cost",
+  "garbled": false
+ },
+ "N1163": {
+  "id": "N1163",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Algorithm complexity order",
+  "garbled": false
+ },
+ "N1164": {
+  "id": "N1164",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Quicksort time complexity",
+  "garbled": false
+ },
+ "N1165": {
+  "id": "N1165",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "O(1) constant time",
+  "garbled": false
+ },
+ "N1166": {
+  "id": "N1166",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Max stack element search",
+  "garbled": false
+ },
+ "N1167": {
+  "id": "N1167",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Huffman data compression",
+  "garbled": false
+ },
+ "N1168": {
+  "id": "N1168",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Breadth-first traversal",
+  "garbled": false
+ },
+ "N1169": {
+  "id": "N1169",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Race condition critical",
+  "garbled": false
+ },
+ "N1170": {
+  "id": "N1170",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Program preemption CPU",
+  "garbled": false
+ },
+ "N1171": {
+  "id": "N1171",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Round-robin scheduling",
+  "garbled": false
+ },
+ "N1172": {
+  "id": "N1172",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Page table entry info",
+  "garbled": false
+ },
+ "N1173": {
+  "id": "N1173",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Page replacement policy",
+  "garbled": false
+ },
+ "N1174": {
+  "id": "N1174",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Virtual memory technique",
+  "garbled": false
+ },
+ "N1175": {
+  "id": "N1175",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Disk access time latency",
+  "garbled": false
+ },
+ "N1176": {
+  "id": "N1176",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Banker's algorithm deadlock",
+  "garbled": false
+ },
+ "N1177": {
+  "id": "N1177",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Process definition execution",
+  "garbled": false
+ },
+ "N1178": {
+  "id": "N1178",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Process synchronization",
+  "garbled": false
+ },
+ "N1179": {
+  "id": "N1179",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Deadlock prevention hold",
+  "garbled": false
+ },
+ "N1180": {
+  "id": "N1180",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Cache block buffer",
+  "garbled": false
+ },
+ "N1181": {
+  "id": "N1181",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "SJF optimal scheduling",
+  "garbled": false
+ },
+ "N1182": {
+  "id": "N1182",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Process control block PCB",
+  "garbled": false
+ },
+ "N1183": {
+  "id": "N1183",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Process swapping memory",
+  "garbled": false
+ },
+ "N1184": {
+  "id": "N1184",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "UDP header size bytes",
+  "garbled": false
+ },
+ "N1185": {
+  "id": "N1185",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Telnet application layer",
+  "garbled": false
+ },
+ "N1186": {
+  "id": "N1186",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "HTML heading tag",
+  "garbled": false
+ },
+ "N1187": {
+  "id": "N1187",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "HTML link anchor tag",
+  "garbled": false
+ },
+ "N1188": {
+  "id": "N1188",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "HTML table data cell",
+  "garbled": false
+ },
+ "N1189": {
+  "id": "N1189",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "HTML bulleted list",
+  "garbled": false
+ },
+ "N1190": {
+  "id": "N1190",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "E-commerce community",
+  "garbled": false
+ },
+ "N1191": {
+  "id": "N1191",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Electronic banking",
+  "garbled": false
+ },
+ "N1192": {
+  "id": "N1192",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "ASP VBScript default",
+  "garbled": false
+ },
+ "N1193": {
+  "id": "N1193",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Class A IP addressing",
+  "garbled": false
+ },
+ "N1194": {
+  "id": "N1194",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "UDP connectionless",
+  "garbled": false
+ },
+ "N1195": {
+  "id": "N1195",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Signal attenuation",
+  "garbled": false
+ },
+ "N1196": {
+  "id": "N1196",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Protocol communication",
+  "garbled": false
+ },
+ "N1197": {
+  "id": "N1197",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Port application routing",
+  "garbled": false
+ },
+ "N1198": {
+  "id": "N1198",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "End-to-end connectivity",
+  "garbled": false
+ },
+ "N1199": {
+  "id": "N1199",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "DHCP IP configuration",
+  "garbled": false
+ },
+ "N1200": {
+  "id": "N1200",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "DBMS language DML",
+  "garbled": false
+ },
+ "N1201": {
+  "id": "N1201",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Logical data independence",
+  "garbled": false
+ },
+ "N1202": {
+  "id": "N1202",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Participation constraint",
+  "garbled": false
+ },
+ "N1203": {
+  "id": "N1203",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "ALTER TABLE ADD",
+  "garbled": false
+ },
+ "N1204": {
+  "id": "N1204",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "UPDATE all records",
+  "garbled": false
+ },
+ "N1205": {
+  "id": "N1205",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Transaction atomicity",
+  "garbled": false
+ },
+ "N1206": {
+  "id": "N1206",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Cascadeless schedule",
+  "garbled": false
+ },
+ "N1207": {
+  "id": "N1207",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Wait-die timestamp",
+  "garbled": false
+ },
+ "N1208": {
+  "id": "N1208",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Horizontal fragmentation",
+  "garbled": false
+ },
+ "N1209": {
+  "id": "N1209",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "INSERT INTO SQL",
+  "garbled": false
+ },
+ "N1210": {
+  "id": "N1210",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "UPDATE DML statement",
+  "garbled": false
+ },
+ "N1211": {
+  "id": "N1211",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Foreign key constraint",
+  "garbled": false
+ },
+ "N1212": {
+  "id": "N1212",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Exclusive lock deadlock",
+  "garbled": false
+ },
+ "N1213": {
+  "id": "N1213",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "COMMIT transaction",
+  "garbled": false
+ },
+ "N1214": {
+  "id": "N1214",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "DROP DATABASE SQL",
+  "garbled": false
+ },
+ "N1215": {
+  "id": "N1215",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Checkpoint recovery",
+  "garbled": false
+ },
+ "N1216": {
+  "id": "N1216",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Composite key 2NF",
+  "garbled": false
+ },
+ "N1217": {
+  "id": "N1217",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Inner join non-matching",
+  "garbled": false
+ },
+ "N1218": {
+  "id": "N1218",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Recovery techniques DBMS",
+  "garbled": false
+ },
+ "N1219": {
+  "id": "N1219",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Number pattern sequence",
+  "garbled": false
+ },
+ "N1220": {
+  "id": "N1220",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Expenditure average data",
+  "garbled": false
+ },
+ "N1221": {
+  "id": "N1221",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Word sequence logic",
+  "garbled": false
+ },
+ "N1222": {
+  "id": "N1222",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Sequence arrangement",
+  "garbled": false
+ },
+ "N1223": {
+  "id": "N1223",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Sentence completion",
+  "garbled": false
+ },
+ "N1224": {
+  "id": "N1224",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Triangle counting figure",
+  "garbled": false
+ },
+ "N1225": {
+  "id": "N1225",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Lines counting figure",
+  "garbled": false
+ },
+ "N1226": {
+  "id": "N1226",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Directional reasoning",
+  "garbled": false
+ },
+ "N1227": {
+  "id": "N1227",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Reading comprehension",
+  "garbled": false
+ },
+ "N1228": {
+  "id": "N1228",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Witness reasoning logic",
+  "garbled": false
+ }
+}

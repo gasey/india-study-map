@@ -1,0 +1,452 @@
+[
+  {
+    "id": "U3d-01",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Tree terminology: nodes, height, depth",
+    "def": "A tree is a hierarchical, non-linear data structure of nodes linked by edges, with exactly one root and no cycles, where each non-root node has exactly one parent.",
+    "exp": "Every non-empty tree has a root node with no parent. A node's parent is the node directly above it; its children are nodes directly below. A leaf (terminal node) has no children. Siblings share the same parent. The degree of a node is its number of children; the degree of the tree is the maximum degree among all nodes. Ancestors of a node are all nodes on the path from it up to the root; descendants are all nodes reachable going down from it. Depth (or level) of a node is the number of edges on the path from the root to that node -- the root itself is at depth 0. Height of a node is the number of edges on the longest downward path from it to a leaf; a leaf has height 0. Height of the tree equals the height of the root. A subtree rooted at any node is itself a valid tree consisting of that node and all its descendants. A forest is simply a collection of disjoint trees. Example: root A with child B, B with child C (a leaf) -- depth of C is 2, height of A is 2, height of C is 0, degree of A is 1.",
+    "facts": [
+      "Depth of root = 0 (some texts use 1 -- check the paper's stated convention before answering).",
+      "Height of a leaf = 0; height of an empty tree is conventionally defined as -1.",
+      "Height of the tree = height of the root = length of the longest root-to-leaf path in edges.",
+      "Degree of a node = number of its children; degree of the tree = max degree over all nodes.",
+      "A binary tree has degree at most 2 for every node.",
+      "The number of edges in a tree with n nodes is always n-1."
+    ],
+    "traps": [
+      "Height counts edges, not nodes -- a single-node tree has height 0, not 1, a common off-by-one trap.",
+      "Depth and height of the SAME node are different: depth counts down from the root, height counts up from leaves.",
+      "'Degree of tree' vs 'degree of node' -- a question asking for tree degree wants the maximum, not any one node's value.",
+      "Some textbooks start level numbering at 1 (root = level 1) instead of 0 -- read the question's stated convention first."
+    ],
+    "mnem": "",
+    "rel": ["Binary tree types", "Binary tree traversals", "Binary search tree"]
+  },
+  {
+    "id": "U3d-02",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Binary tree types: full, complete, perfect",
+    "def": "Binary trees are classified by shape: full (every node has 0 or 2 children), complete (levels filled left-to-right, last level may be partial), perfect (all internal nodes have 2 children and all leaves at the same level), and skewed (every node has only one child).",
+    "exp": "Full (proper/strict) binary tree: no node has exactly one child -- every node is either a leaf or has two children. Complete binary tree: every level is fully filled except possibly the last, which fills left to right with no gaps -- exactly the shape a heap requires for its array representation. Perfect binary tree: every internal node has two children AND every leaf sits at the same depth; a perfect tree is automatically both full and complete. Skewed tree: every node has at most one child, degenerating into a linked list (left-skewed or right-skewed) -- the worst case for BST height. For height h (root at height 0, edges counted), the maximum number of nodes is 2^(h+1) - 1 (achieved only by a perfect tree), and the minimum number of nodes is h+1 (achieved by a skewed tree, one node per level). Equivalently, a tree with n nodes has minimum possible height ceil(log2(n+1)) - 1 and maximum possible height n-1.",
+    "facts": [
+      "Max nodes at height h = 2^(h+1) - 1 (h counted in edges from root).",
+      "Min nodes at height h = h + 1 (a skewed tree, one node per level).",
+      "Minimum height for n nodes = ceil(log2(n+1)) - 1; maximum height for n nodes = n - 1 (fully skewed).",
+      "A perfect binary tree of height h has exactly 2^(h+1) - 1 nodes, of which 2^h are leaves.",
+      "Every perfect tree is both full and complete; a complete tree need not be full, and a full tree need not be complete.",
+      "A complete binary tree of n nodes has height floor(log2 n)."
+    ],
+    "traps": [
+      "'Full' and 'complete' are used loosely in conversation but are precisely different in exams -- full is about child count (0 or 2), complete is about level-filling order.",
+      "If height is defined as number of levels (nodes) instead of edges, every formula shifts by one -- always check which convention the question uses.",
+      "A tree can be full without being complete (e.g. a root with two children, only the left of which has two more children).",
+      "Skewed trees are still valid binary trees, not degenerate/invalid ones -- this trips up true/false questions."
+    ],
+    "mnem": "",
+    "rel": ["Tree terminology", "Binary tree representation", "Heaps"]
+  },
+  {
+    "id": "U3d-03",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Binary tree representation: array vs linked",
+    "def": "A binary tree can be stored implicitly in an array using index arithmetic, or explicitly as linked nodes each holding data plus left/right child pointers.",
+    "exp": "In the array representation, node positions map directly to indices: for a node at index i, using 1-based indexing, its left child is at 2i, right child at 2i+1, parent at floor(i/2); using 0-based indexing, left child is at 2i+1, right child at 2i+2, parent at floor((i-1)/2). This works efficiently only when the tree is complete (or close to it), since a sparse tree still needs slots for every possible position up to its height, wasting up to 2^(h+1)-1-n cells. It is the standard choice for heaps, which are always complete. The linked representation stores each node as a separate record with a data field and pointers to its left and right children (null if absent); some variants add a parent pointer for upward traversal. It handles any tree shape without wasted space, at the cost of pointer storage overhead (commonly 2-3 extra words per node) and no O(1) random access to an arbitrary node by position. The choice is a classic space/access-pattern trade-off: array for dense, position-addressable trees (heaps); linked for general, dynamically-changing trees (BSTs, general search trees).",
+    "facts": [
+      "1-based array indexing: left child = 2i, right child = 2i+1, parent = floor(i/2).",
+      "0-based array indexing: left child = 2i+1, right child = 2i+2, parent = floor((i-1)/2).",
+      "Array representation is space-efficient only for complete (or near-complete) trees; a skewed tree of n nodes needs an array of size 2^n - 1.",
+      "Linked representation needs no pre-known size and handles arbitrary tree shape without wasted slots.",
+      "Heaps almost always use the array representation because heaps are always complete binary trees.",
+      "Linked nodes typically carry 2 pointers (left, right) plus data; threaded and parent-linked variants add more."
+    ],
+    "traps": [
+      "Mixing up 0-based and 1-based index formulas is the single most common MCQ error on this topic -- always confirm which indexing the question states.",
+      "Array index arithmetic assumes the tree is stored as if complete; applying it to a genuinely sparse tree wastes space, it does not simply 'not work'.",
+      "A node's index in the array does not equal its value -- index arithmetic gives structural position, unrelated to key ordering."
+    ],
+    "mnem": "",
+    "rel": ["Binary tree types", "Heaps", "Heap operations"]
+  },
+  {
+    "id": "U3d-04",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Traversals: inorder, preorder, postorder",
+    "def": "Preorder (root-left-right), inorder (left-root-right), and postorder (left-right-root) are the three depth-first orderings of a binary tree; level-order is the breadth-first ordering, and any two of these (one of which must be inorder) can reconstruct the original tree uniquely.",
+    "exp": "Take the tree: A is root, B is A's left child, C is A's right child, D and E are B's left and right children. Preorder: A B D E C. Inorder: D B E A C. Postorder: D E B C A. Level-order (via a queue): A B C D E. Inorder on a binary SEARCH tree always yields keys in sorted order -- its main practical use. To reconstruct a tree, preorder or postorder alone only fixes the root but not how remaining nodes split between subtrees; inorder is needed alongside one of them, because inorder tells you which keys lie left of the root and which lie right, letting the split be found by locating the root's position in the inorder sequence and recursing. Preorder+postorder together can reconstruct a tree only if it is known to be a full binary tree (every node has 0 or 2 children) -- otherwise the split is ambiguous. All four traversals take O(n) time; recursive DFS traversals use O(h) stack space (O(log n) balanced, O(n) worst case skewed), while level-order needs O(w) queue space where w is the tree's maximum width.",
+    "facts": [
+      "Inorder on a BST always produces keys in ascending sorted order.",
+      "Preorder + inorder, or postorder + inorder, uniquely reconstruct a binary tree.",
+      "Preorder + postorder alone reconstruct a tree only if it is a full binary tree (every node has 0 or 2 children).",
+      "All DFS traversals are O(n) time; recursive stack depth is O(h).",
+      "Level-order traversal is implemented with a queue (BFS), not a stack.",
+      "Iterative inorder traversal without recursion needs an explicit stack (or threads)."
+    ],
+    "traps": [
+      "Preorder+postorder without inorder is a favorite MCQ distractor implying reconstruction is always possible -- it is not, unless the tree is full.",
+      "Inorder alone never determines the tree shape, even though it gives sorted order -- many different trees share the same inorder sequence.",
+      "Level-order is breadth-first (queue-based); confusing it with a DFS variant that just 'visits root first' like preorder is a common mistake.",
+      "Postorder's last element is always the root -- students sometimes assume this is preorder's property instead."
+    ],
+    "mnem": "",
+    "rel": ["Tree terminology", "Binary search tree", "Threaded binary trees"]
+  },
+  {
+    "id": "U3d-05",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Binary search tree: search, insert, delete",
+    "def": "A binary search tree (BST) is a binary tree where every node's left subtree contains only smaller keys and its right subtree only larger keys, enabling O(h) search, insert, and delete.",
+    "exp": "Search compares the target with the current node: equal stops, smaller recurses left, larger recurses right, until found or a null pointer is hit. Insert follows the same path to find the correct null spot and attaches a new leaf there. Delete has three cases. Case 1, deleting a leaf: simply remove it. Case 2, deleting a node with one child: splice the node out by linking its parent directly to its single child. Case 3, deleting a node with two children: find its inorder successor (smallest key in its right subtree -- go right once, then left as far as possible) or equivalently its inorder predecessor, copy that value into the node being deleted, then delete the successor/predecessor from its original position -- guaranteed to fall under case 1 or 2, since a leftmost node can only have a right child. Example: delete 30 from a BST where 30 has two children 20 and 50, and 50's subtree minimum is 40 -- replace 30's value with 40, then delete the original 40 node. All three operations run in O(h): O(log n) for a balanced tree, but O(n) worst case for a skewed tree, exactly the motivation for AVL trees.",
+    "facts": [
+      "BST property: left subtree keys < node key < right subtree keys, applied recursively at every node.",
+      "Search/insert/delete are all O(h): O(log n) balanced, O(n) worst case (skewed).",
+      "Deleting a two-children node uses the inorder successor (min of right subtree) or inorder predecessor (max of left subtree).",
+      "The inorder successor of a two-children node is guaranteed to have at most one child, so its own deletion is simple.",
+      "Inserting keys in already-sorted order into a plain BST produces a fully skewed tree -- worst-case O(n) height.",
+      "Inorder traversal of a BST always yields keys in sorted ascending order."
+    ],
+    "traps": [
+      "Using the predecessor instead of the successor (or vice versa) is equally valid for BST delete -- a question specifying one is testing whether you follow the specified method, not just the final value.",
+      "Forgetting that after copying the successor's value in, you must still delete the successor node from its original position -- stopping one step early is a common error.",
+      "BST worst-case complexity is O(n), not O(log n) -- a question about worst case specifically is testing for the skewed-tree scenario.",
+      "Confusing 'delete a node with one child' with 'delete a leaf' -- the splice step differs (one relinks a subtree, the other just removes)."
+    ],
+    "mnem": "",
+    "rel": ["Tree terminology", "AVL trees", "AVL rotations"]
+  },
+  {
+    "id": "U3d-06",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "AVL trees: balance factor and why balance",
+    "def": "An AVL tree is a self-balancing BST in which every node's balance factor -- the height of its left subtree minus the height of its right subtree -- is restricted to -1, 0, or +1.",
+    "exp": "A plain BST's performance depends entirely on its shape: inserting keys in sorted order produces a skewed, linked-list-like tree with O(n) search/insert/delete instead of the O(log n) a balanced shape would give. AVL trees (named for inventors Adelson-Velsky and Landis) fix this by enforcing a balance invariant at every node after every insertion or deletion: balance factor = height(left subtree) - height(right subtree), and this value must always be -1, 0, or +1. If an operation pushes any node's balance factor to +2 or -2, the tree performs a rotation (see AVL rotations) to restore the invariant before the operation is considered complete. Because the invariant holds everywhere, an AVL tree's height is provably O(log n) -- bounded near 1.44 log2(n+2), only marginally worse than the ideal floor(log2 n) of a perfectly balanced tree. This guarantees worst-case O(log n) for search, insert, and delete, unlike a plain BST's O(n) worst case. The cost is bookkeeping: each node stores or computes its subtree height or balance factor, and inserts/deletes may trigger rotations to re-establish balance, adding constant-factor overhead over an unbalanced BST.",
+    "facts": [
+      "Balance factor = height(left subtree) - height(right subtree); must be in {-1, 0, +1} for every node.",
+      "A balance factor of +2 or -2 after insertion/deletion triggers a rotation.",
+      "AVL height is O(log n), bounded near 1.44 log2(n+2) -- close to the theoretical minimum.",
+      "Search, insert, delete are all O(log n) worst case in an AVL tree, unlike O(n) worst case in a plain BST.",
+      "AVL trees are named for inventors Adelson-Velsky and Landis (1962).",
+      "Height/balance-factor bookkeeping and rotation overhead make AVL inserts/deletes slower per-operation than a plain BST, in exchange for a far better worst case."
+    ],
+    "traps": [
+      "Balance factor is left height MINUS right height -- reversing the subtraction flips the sign convention and answers rotation-direction questions backwards.",
+      "A balance factor of +-1 is fine and needs no rotation -- only +-2 triggers rebalancing; students sometimes rotate unnecessarily at +-1.",
+      "AVL guarantees O(log n) WORST case, stronger than a plain BST's O(log n) AVERAGE case -- a question contrasting 'average' vs 'worst' is testing this distinction.",
+      "Height is measured in edges (leaf = height 0); a nodes-based height convention shifts every balance-factor computation by one."
+    ],
+    "mnem": "",
+    "rel": ["Binary search tree", "AVL rotations", "Threaded binary trees"]
+  },
+  {
+    "id": "U3d-07",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "AVL rotations: LL, RR, LR, RL worked",
+    "def": "AVL rotations -- single rotations LL and RR, and double rotations LR and RL -- are the four local restructuring operations used to restore the balance-factor invariant after an insertion or deletion pushes it to +-2.",
+    "exp": "Which rotation to apply depends on where the imbalance came from. RR case: imbalance caused by an insertion into the right subtree of the right child -- fix with a single LEFT rotation. Worked example: insert 10, 20, 30 in that order. After inserting 30, node 10 has balance factor -2 (right-heavy, and the extra height is on the right side of 10's right child). Left-rotate around 10: 20 becomes the new root, 10 becomes its left child, 30 its right child -- balanced. LL case is the mirror: imbalance from the left subtree's left child, fixed with a single RIGHT rotation (inserting 30, 20, 10 imbalances at 30; right-rotate to make 20 the root). LR case: imbalance from the right child of the LEFT subtree -- first left-rotate the left child, then right-rotate the node (a double rotation). RL case: imbalance from the left child of the RIGHT subtree -- first right-rotate the right child, then left-rotate the node. Each rotation is O(1), re-linking a constant number of pointers, so a single insertion triggers at most one rotation (single or double) to restore balance across the whole tree.",
+    "facts": [
+      "RR imbalance leads to a single left rotation; LL imbalance leads to a single right rotation.",
+      "LR imbalance: right-rotate the left child, then left-rotate the node (double rotation).",
+      "RL imbalance: left-rotate the right child, then right-rotate the node (double rotation).",
+      "Each rotation is O(1) time -- a constant number of pointer updates.",
+      "A single insertion into an AVL tree requires at most one rotation (single or double) to restore the whole tree's balance.",
+      "A deletion, unlike an insertion, may require rotations at multiple ancestors up to the root, not just one."
+    ],
+    "traps": [
+      "The naming (LL/RR/LR/RL) refers to the path of the imbalance from the unbalanced node downward, not the rotation direction -- an LL imbalance is fixed by a RIGHT rotation, which reverses the naming intuition.",
+      "Confusing which double rotation (LR vs RL) applies requires tracing exactly where the new node landed -- easy to swap under exam time pressure.",
+      "Insertion needs at most one (possibly double) rotation total; deletion can need one rotation at every level up to the root -- assuming delete behaves 'just like insert' is a common wrong assumption.",
+      "After a rotation, balance factors of the involved nodes must be recomputed, not assumed to become 0."
+    ],
+    "mnem": "",
+    "rel": ["AVL trees", "Binary search tree", "Tree terminology"]
+  },
+  {
+    "id": "U3d-08",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Threaded binary trees: iterative inorder",
+    "def": "A threaded binary tree replaces a node's null child pointers with 'threads' pointing to its inorder predecessor and/or successor, allowing inorder traversal without recursion or an explicit stack.",
+    "exp": "In an ordinary binary tree, roughly half of all pointers in an n-node tree are null (n+1 out of 2n). Threading reclaims these: a null right pointer is redirected to point to the node's inorder successor, and, in a double-threaded tree, a null left pointer points to the inorder predecessor. Each pointer needs an accompanying tag bit to distinguish 'this is a real child link' from 'this is a thread', since both look like ordinary pointers otherwise. A single-threaded tree only threads the right pointers (enough to walk inorder forward); a double-threaded tree threads both directions, also enabling reverse-inorder traversal. To traverse inorder iteratively: from any node, if it has a left child, follow left pointers to the leftmost node; after visiting a node, if its right pointer is a thread, follow it directly to the successor; if it is a real right-child link, descend to that subtree's leftmost node. This removes the need for the stack (or recursion's implicit call stack) that ordinary inorder traversal requires, trading O(h) auxiliary space for a small constant per-node tag overhead -- useful in memory-constrained or embedded settings.",
+    "facts": [
+      "A thread replaces a null pointer with a direct link to the inorder predecessor (left) or successor (right).",
+      "A tag bit per pointer distinguishes a 'thread' from a normal child link.",
+      "Single-threading only threads null right pointers (enables forward inorder traversal).",
+      "Double-threading threads both null left and right pointers (enables traversal in both directions).",
+      "An n-node binary tree has n+1 null pointers, all candidates for threading.",
+      "Threaded traversal is O(n) time with O(1) extra space, versus O(h) stack space for ordinary recursive/iterative inorder traversal."
+    ],
+    "traps": [
+      "Threads only replace NULL pointers -- a node with a real child never gets a thread on that side, so checking 'is this a thread' always needs the tag, not just non-null-ness.",
+      "Single-threaded trees only make one traversal direction stack-free; reverse-inorder or other traversals may still need a stack unless double-threaded.",
+      "Insertion and deletion in a threaded tree are more complex than in a plain BST because thread pointers must be relinked, not just child pointers.",
+      "The rightmost node's right thread and the leftmost node's left thread have no real predecessor/successor -- these typically point to a dummy header node, not left dangling."
+    ],
+    "mnem": "",
+    "rel": ["Binary tree traversals", "Binary search tree", "Tree terminology"]
+  },
+  {
+    "id": "U3d-09",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Heaps: max-heap, min-heap, index math",
+    "def": "A heap is a complete binary tree satisfying the heap-order property -- every parent is >= both children in a max-heap, or <= both children in a min-heap -- and is stored compactly as an array.",
+    "exp": "Because a heap is always a complete binary tree, it can be stored in an array with no wasted space, using pure index arithmetic instead of pointers. For 1-based array indexing (index starts at 1): a node at index i has left child at 2i, right child at 2i+1, parent at floor(i/2). For 0-based array indexing (index starts at 0, the common convention in C/Java/Python): a node at index i has left child at 2i+1, right child at 2i+2, parent at floor((i-1)/2). In a max-heap, the maximum element is always at the root (index 0 or 1, per convention); a min-heap's minimum is likewise always at the root. A heap only guarantees the parent-child ordering vertically -- it says nothing about the relative order of sibling subtrees, so a heap is NOT sorted and inorder traversal of a heap does not yield sorted order, unlike a BST. Heaps back priority queues, heap sort, and graph algorithms like Prim's and Dijkstra's that repeatedly need the current minimum (or maximum) element.",
+    "facts": [
+      "Max-heap: parent >= both children, everywhere. Min-heap: parent <= both children, everywhere.",
+      "0-based indexing: left = 2i+1, right = 2i+2, parent = floor((i-1)/2).",
+      "1-based indexing: left = 2i, right = 2i+1, parent = floor(i/2).",
+      "The root (index 0 or 1) always holds the maximum (max-heap) or minimum (min-heap) element.",
+      "A heap is always a complete binary tree -- this is what makes the array representation waste-free.",
+      "A heap is NOT a sorted structure; only the vertical parent-child relation is guaranteed, siblings can be in any order."
+    ],
+    "traps": [
+      "Mixing 0-based and 1-based index formulas is the single most common heap MCQ trap -- always check which the question states before computing an index.",
+      "Assuming a heap's inorder or level-order traversal gives sorted output -- only heap sort's repeated extraction produces sorted output.",
+      "Confusing 'complete' (required for heaps) with 'full' or 'perfect' -- a heap need not have every internal node with 2 children, only level-filling left-to-right.",
+      "Assuming the second-largest element in a max-heap is identifiable as 'the other root child' without comparison -- it is only guaranteed to be one of the root's two children."
+    ],
+    "mnem": "",
+    "rel": ["Binary tree representation", "Heap operations", "Greedy method"]
+  },
+  {
+    "id": "U3d-10",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Heap insert, delete-max, build-heap, sort",
+    "def": "Insert (sift-up) adds a new element and bubbles it toward the root; delete-max/extract-root (sift-down) removes the root and restores order from the top; build-heap converts an arbitrary array into a heap in linear time; heap sort repeatedly extracts the root to produce sorted output.",
+    "exp": "Insert: place the new element at the next free array slot (end of the array, keeping the tree complete), then compare it with its parent and swap upward (sift-up) until the heap property holds -- O(log n) worst case, one swap per level. Delete-max (on a max-heap): save the root's value to return, move the LAST array element into the root position, shrink the array, then sift-down: repeatedly swap the node with its LARGER child until it is >= both children or becomes a leaf -- O(log n). Build-heap: rather than inserting n elements one by one (O(n log n)), start from the last non-leaf node (index floor(n/2)-1 for 0-based) and sift-down each node moving backward to the root; a tighter level-weighted amortized analysis shows this costs O(n) total, not O(n log n). Heap sort: build a max-heap in O(n), then n times swap the root with the last unsorted array element and sift-down the reduced heap -- total O(n log n), in-place with O(1) extra space, but not a stable sort.",
+    "facts": [
+      "Insert (sift-up): O(log n); place at end, bubble toward root.",
+      "Delete-max/extract-root (sift-down): O(log n); replace root with last element, then bubble down via the larger child.",
+      "Build-heap from an unsorted array: O(n) total, not O(n log n) -- a tighter level-weighted amortized bound.",
+      "Heap sort overall: O(n log n) time, O(1) auxiliary space (in-place), not a stable sort.",
+      "Heap sort = build-heap O(n) + n extractions each O(log n) = O(n log n) dominant term.",
+      "Sift-down compares with the LARGER child in a max-heap (smaller child in a min-heap) -- comparing with the wrong child breaks the heap property."
+    ],
+    "traps": [
+      "Assuming build-heap is O(n log n) because it 'calls sift-down n times' -- the correct bound is O(n), a classic exam trick relying on the amortized level-weighted argument.",
+      "Heap sort is NOT stable -- a question asking for a stable O(n log n) sort should point to merge sort, not heap sort.",
+      "Confusing sift-up (used on insert) with sift-down (used on delete/build-heap) -- they move in opposite directions and are not interchangeable.",
+      "Extracting the root does not simply remove it and shift everything -- the LAST element is moved into the root's place first, then sifted down, to keep the tree complete."
+    ],
+    "mnem": "Build-heap is O(n): most nodes are near the leaves and barely move.",
+    "rel": ["Heaps", "Binary tree representation", "Greedy method"]
+  },
+  {
+    "id": "U3d-11",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "B-trees: order, occupancy, splitting",
+    "def": "A B-tree is a self-balancing multi-way search tree, each node holding multiple sorted keys and children, designed so its height (and thus disk accesses) stays very small even for huge datasets.",
+    "exp": "A B-tree of order m allows each node at most m children and at most m-1 keys. Every non-root, non-leaf node must have at least ceil(m/2) children (minimum occupancy, so no node becomes too sparse), and the root must have at least 2 children unless it is itself a leaf. Every leaf sits at exactly the same depth, keeping the tree perfectly height-balanced. Insertion always starts at a leaf: the key is inserted in sorted position within that leaf. If the leaf now holds m keys (overflow, exceeding the m-1 limit), it splits into two nodes at the median key, and that median is pushed up into the parent; if the parent overflows too, the split propagates upward, potentially to the root, which is how the tree grows in height, always from the top, keeping all leaves level. Because each node maps to one disk block and can hold many keys, a B-tree's branching factor is deliberately large (often in the hundreds), keeping the tree height, and therefore the disk seeks per search, very small: O(log_m n), the entire point of the structure for external, disk-resident data.",
+    "facts": [
+      "Order-m B-tree: at most m children per node, at most m-1 keys per node.",
+      "Minimum occupancy: non-root internal nodes need at least ceil(m/2) children; root needs at least 2 unless it's a leaf.",
+      "All leaves of a B-tree sit at the same depth -- always perfectly height-balanced.",
+      "Insertion always happens at a leaf; overflow triggers a split at the median key, pushed up to the parent.",
+      "B-trees grow in height only from the root splitting, never from the leaves independently.",
+      "Search/insert/delete are all O(log_m n); a large branching factor m keeps height very small."
+    ],
+    "traps": [
+      "Order m gives at most m-1 keys per node, not m keys -- an off-by-one that changes the overflow threshold.",
+      "The minimum-children requirement (ceil(m/2)) applies to internal nodes, not leaves, and the root is exempt if it is the only node.",
+      "B-trees always grow upward (root splits create a new root), never by adding a leaf level independently, unlike a BST which can grow at any leaf.",
+      "Large branching factor matters specifically because each node read equals one disk block read -- the benefit is minimizing disk I/O, not reducing in-memory comparisons."
+    ],
+    "mnem": "",
+    "rel": ["B+ trees", "External search", "Hashing"]
+  },
+  {
+    "id": "U3d-12",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "B+ trees vs B-trees; external search",
+    "def": "A B+ tree is a B-tree variant where all data records live only in leaf nodes (internal nodes store just routing keys), and leaves are chained together for fast sequential access -- the standard index structure for disk-based ('external') search.",
+    "exp": "In a plain B-tree, a key's associated data can live in any node, internal or leaf, so a search may stop partway down the tree. In a B+ tree, internal nodes hold only copies of keys used purely to guide the search; actual records exist only at the leaf level, so every search walks all the way to a leaf. This costs a slightly deeper traversal per lookup but pays off for range queries: leaves are linked left-to-right in a chain, so once a starting leaf is reached, scanning a range is a simple linear walk along leaf links, with no need to jump back up the tree. This is why real database indexes and file systems use B+ trees rather than plain B-trees. External search refers to searching data too large for memory, residing on disk; since a disk access is orders of magnitude slower than memory access, the goal is to minimize disk block reads. Because a B/B+ tree node is sized to match one disk block and has a large branching factor, its height, and thus the disk reads per operation, stays very small: typically 3-4 levels even for millions of records.",
+    "facts": [
+      "B+ tree: data records only in leaves; internal nodes hold routing keys only.",
+      "B-tree: data can be in internal nodes or leaves.",
+      "B+ tree leaves are linked in a chain, enabling efficient sequential/range scans.",
+      "Every B+ tree search descends all the way to a leaf, even for an exact-match lookup.",
+      "External search means searching disk-resident data; the goal is minimizing disk block reads, not in-memory comparisons.",
+      "Databases and file systems overwhelmingly use B+ trees, not plain B-trees, specifically for the range-query benefit."
+    ],
+    "traps": [
+      "Assuming B-trees and B+ trees are interchangeable terms -- the data-location difference (leaves-only vs anywhere) is specific and exam-testable.",
+      "Thinking B+ tree's extra leaf-descent makes it slower overall -- the trade-off wins on range queries and sequential scans, which dominate real workloads.",
+      "External search performance is measured in disk accesses (I/O), not comparison count -- a question about 'efficiency' here usually means I/O efficiency.",
+      "Believing internal nodes in a B+ tree store real data 'for faster access' -- they deliberately do not; that is the defining difference from B-trees."
+    ],
+    "mnem": "",
+    "rel": ["B-trees", "Hashing", "External search"]
+  },
+  {
+    "id": "U3d-13",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Hashing: functions, load factor, collisions",
+    "def": "Hashing maps keys to array bucket indices using a hash function, giving average O(1) search/insert/delete; when two keys map to the same bucket (a collision), it is resolved by chaining or by open addressing.",
+    "exp": "A hash function h(key) should distribute keys as uniformly as possible across the m slots of a table, minimizing collisions while being cheap to compute. Load factor alpha = n/m, where n is the number of stored entries, directly governs performance: as alpha grows, collisions become more frequent and operations slow down. Chaining resolves collisions by making each table slot a linked list of all entries hashing there; alpha can exceed 1, and average search cost is O(1+alpha). Open addressing keeps every entry inside the table itself, probing for the next open slot on collision: linear probing tries slot, slot+1, slot+2... (simple, but causes 'primary clustering', long runs of occupied slots that slow future probes); quadratic probing tries slot+1^2, slot+2^2... (reduces clustering but can fail to find an empty slot unless table size and load factor are chosen carefully, commonly kept below alpha=0.5); double hashing uses a second hash function to determine step size (slot + i*h2(key)), giving the most uniform probe sequences and least clustering, provided the table size and h2's range are chosen, often prime, so all slots are reachable. Open addressing requires alpha < 1 always, since there is no overflow structure.",
+    "facts": [
+      "Load factor alpha = n/m (entries / table size); performance degrades as alpha increases.",
+      "Chaining: each bucket is a list; alpha can exceed 1; average cost O(1+alpha).",
+      "Open addressing: all entries stored in-table; requires alpha < 1 strictly.",
+      "Linear probing: slot+1, slot+2, ... -- suffers primary clustering.",
+      "Quadratic probing: slot+1^2, slot+2^2, ... -- less clustering, but can fail below full-table coverage unless table size/alpha are chosen carefully (often kept below 0.5).",
+      "Double hashing: step size = second hash function h2(key); best distribution among open-addressing schemes, minimal clustering."
+    ],
+    "traps": [
+      "Open addressing requires load factor strictly less than 1; chaining has no such hard limit -- a question assuming both behave the same at alpha=1 is wrong.",
+      "Linear probing's weakness is 'primary clustering'; quadratic probing's residual weakness is 'secondary clustering' (keys with the same initial hash follow the same probe sequence) -- a different named phenomenon, often confused with the first.",
+      "Quadratic probing does not guarantee finding an empty slot even if one exists, unless table size is prime and load factor is kept low -- assuming it always succeeds like linear probing is a trap.",
+      "Double hashing needs its second hash function to never evaluate to 0 and ideally to be relatively prime to the table size."
+    ],
+    "mnem": "",
+    "rel": ["Disjoint sets", "B-trees", "External search"]
+  },
+  {
+    "id": "U3d-14",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Graph representation: matrix vs list",
+    "def": "An adjacency matrix stores a graph as a V-by-V grid marking edge presence/weight between every vertex pair; an adjacency list stores, for each vertex, only its actual neighbors -- the choice trades memory for edge-lookup speed depending on graph density.",
+    "exp": "Adjacency matrix: a V-by-V 2D array where entry (i,j) is 1 (or the weight) if an edge exists from i to j, else 0 (or infinity for shortest-path use). It always uses O(V^2) space regardless of how many edges exist, but checking whether edge (i,j) exists or reading its weight is O(1). It suits dense graphs (E close to V^2) or frequent edge-existence queries. Adjacency list: an array of V lists, where list[i] contains all vertices adjacent to i, with weights for weighted graphs. Space is O(V+E), proportional to what actually exists, far smaller than V^2 for sparse graphs -- most real-world graphs (road networks, social graphs) are sparse. Checking if edge (i,j) exists costs O(degree(i)) worst case, since the list must be scanned, rather than O(1). This trade-off directly affects algorithm complexity: DFS/BFS run in O(V+E) with adjacency lists but O(V^2) with adjacency matrices, because visiting all neighbors of a vertex means scanning its whole matrix row (O(V)) versus just its list (O(degree)).",
+    "facts": [
+      "Adjacency matrix: O(V^2) space, O(1) edge lookup, best for dense graphs.",
+      "Adjacency list: O(V+E) space, O(degree) edge lookup, best for sparse graphs.",
+      "DFS/BFS: O(V+E) time with adjacency list, O(V^2) time with adjacency matrix.",
+      "Most real-world graphs are sparse (E much smaller than V^2), favoring adjacency lists in practice.",
+      "Adjacency matrix trivially supports directed, undirected, and weighted graphs by adjusting symmetry and cell values.",
+      "Prim's simple O(V^2) array-based implementation pairs naturally with an adjacency matrix; the O(E log V) heap-based version pairs with an adjacency list."
+    ],
+    "traps": [
+      "Assuming adjacency list is always 'better' -- for dense graphs the matrix's O(1) lookup and simpler code can outperform the list in practice, despite worse asymptotic space.",
+      "Forgetting the O(V) cost to scan one row of a matrix when iterating a single vertex's neighbors -- this is why full traversal is O(V^2) with a matrix even though a single lookup is O(1).",
+      "Confusing space complexity (fixed O(V^2) for matrix, variable O(V+E) for list) with time complexity for a specific operation -- they answer different questions.",
+      "For a directed graph, the adjacency matrix need not be symmetric -- assuming symmetry as in undirected graphs is a common error."
+    ],
+    "mnem": "",
+    "rel": ["Graph traversal", "Disjoint sets", "Greedy method"]
+  },
+  {
+    "id": "U3d-15",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Graph traversal: DFS (stack) vs BFS (queue)",
+    "def": "Depth-first search (DFS) explores as far as possible along each branch before backtracking, implemented with a stack or recursion; breadth-first search (BFS) explores all neighbors at the current distance before moving farther out, implemented with a queue.",
+    "exp": "DFS: from a source vertex, mark it visited, then recursively (or via an explicit stack) visit an unvisited neighbor, going as deep as possible before backtracking to try other branches. Used for cycle detection, topological sorting (DAGs), connected components, and articulation points. BFS: from a source, mark it visited and enqueue it; repeatedly dequeue a vertex, visit all its unvisited neighbors, mark and enqueue them. This processes vertices in increasing order of distance from the source, which is why BFS finds shortest paths in an UNWEIGHTED graph -- the first time a vertex is reached is guaranteed to be via a shortest path. Both algorithms visit every vertex and edge exactly once in the standard formulation, giving O(V+E) time with an adjacency list. With an adjacency matrix, both degrade to O(V^2), since finding a vertex's neighbors means scanning a matrix row of length V rather than just its list of actual neighbors. Space: DFS uses O(h) for recursion/stack depth (up to O(V) worst case); BFS uses O(w) for the queue, where w is the maximum frontier width, up to O(V) worst case.",
+    "facts": [
+      "DFS uses a stack (explicit or via recursion's call stack); BFS uses a queue.",
+      "BFS gives shortest paths (fewest edges) in an unweighted graph; DFS does not guarantee this.",
+      "Both DFS and BFS are O(V+E) with adjacency lists, O(V^2) with adjacency matrices.",
+      "DFS is the basis for cycle detection, topological sort, and connected components/articulation points.",
+      "BFS processes vertices in strictly non-decreasing order of distance from the source.",
+      "Both algorithms mark vertices visited to avoid revisiting/infinite loops in graphs with cycles."
+    ],
+    "traps": [
+      "BFS gives shortest paths only for UNWEIGHTED graphs -- for weighted graphs, Dijkstra's or Bellman-Ford is needed, not plain BFS.",
+      "Recursive DFS implicitly uses the call stack -- a question asking to implement DFS without recursion expects an explicit stack, and neighbor order can differ depending on push order.",
+      "A single DFS/BFS call only covers one connected component of a disconnected graph, requiring an outer loop over all vertices for full coverage.",
+      "Both have the same time complexity O(V+E), but a question testing use-case (shortest unweighted path vs cycle detection vs topological order) is testing which algorithm fits which purpose, not complexity."
+    ],
+    "mnem": "",
+    "rel": ["Graph representation", "Shortest path", "Disjoint sets"]
+  },
+  {
+    "id": "U3d-16",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Disjoint sets: UNION, FIND, compression",
+    "def": "A disjoint-set (union-find) data structure maintains a partition of elements into non-overlapping sets, supporting FIND (which set does an element belong to) and UNION (merge two sets), and is the standard structure for cycle detection in Kruskal's algorithm.",
+    "exp": "Each set is represented as a tree, every element pointing toward a parent, with the root serving as that set's representative. FIND(x) walks up parent pointers from x to the root and returns it; two elements are in the same set iff FIND returns the same root for both. UNION(x,y) finds each one's root and makes one root point to the other, merging the trees. A naive implementation can degenerate into a long chain, making FIND take O(n) worst case. Two independent optimizations fix this. Union by rank (or size): when merging, always attach the root of the smaller/shallower tree under the root of the larger/taller one, rather than arbitrarily -- this keeps tree height bounded at O(log n). Path compression: during a FIND call, after locating the root, re-point every node visited along the way directly to that root, flattening the tree for future FIND calls on those nodes. Used together, the amortized cost per operation is O(alpha(n)), where alpha is the inverse Ackermann function, a value that grows so slowly it is effectively at most 4 or 5 for any practically conceivable input size, so the structure is described as 'near-constant time' per operation, though the true worst case for a single operation is not strictly O(1).",
+    "facts": [
+      "FIND(x): follow parent pointers to the root, which identifies x's set.",
+      "UNION(x,y): merge the trees containing x and y by linking one root under the other.",
+      "Union by rank/size: attach the smaller/shorter tree under the larger/taller root, bounding height at O(log n).",
+      "Path compression: during FIND, re-point every visited node directly to the root, flattening future lookups.",
+      "Union by rank plus path compression together give amortized O(alpha(n)) per operation -- alpha is inverse Ackermann, effectively constant in practice.",
+      "Kruskal's algorithm uses union-find specifically to detect whether adding an edge would create a cycle (both endpoints already in the same set)."
+    ],
+    "traps": [
+      "Without either optimization, naive union-find can degrade to O(n) per FIND -- 'near constant time' is a property of the OPTIMIZED structure, not union-find in general.",
+      "Alpha(n), the inverse Ackermann function, is not literally O(1) in the strict theoretical sense, even though it is always small enough to treat as constant -- a precise answer says 'O(alpha(n)), effectively constant', not flatly 'O(1)'.",
+      "Union by rank alone, or path compression alone, each already improve the bound to O(log n) amortized -- the O(alpha(n)) bound specifically requires BOTH together.",
+      "'Rank' in union by rank is an upper bound on height, not an exact height once path compression starts flattening trees."
+    ],
+    "mnem": "",
+    "rel": ["Greedy method", "Graph traversal", "Shortest path"]
+  },
+  {
+    "id": "U3d-17",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Greedy method: Kruskal's and Prim's MST",
+    "def": "The greedy method builds a solution step by step, always making the choice that looks best at the moment without reconsidering it -- provably optimal for problems like minimum spanning tree (MST) that have the greedy-choice and optimal-substructure properties, but not for all optimization problems.",
+    "exp": "A greedy algorithm is guaranteed correct only when the problem has the greedy-choice property (a locally optimal choice leads to a globally optimal solution) and optimal substructure (an optimal solution contains optimal solutions to subproblems). MST construction satisfies both, which is why two different greedy strategies both provably produce a correct MST. Kruskal's algorithm: sort all E edges by weight ascending; process them in order, adding an edge to the growing forest only if its endpoints are currently in different components, checked via union-find, since adding it otherwise would create a cycle; stop once V-1 edges are added. Complexity is dominated by the sort: O(E log E), equal to O(E log V) since E is at most V^2. Prim's algorithm: start from an arbitrary vertex and grow a single tree by repeatedly adding the cheapest edge connecting the current tree to a vertex not yet in it; implemented efficiently with a min-priority queue keyed on each outside vertex's cheapest connecting edge, giving O(E log V) with a binary heap plus adjacency list, or O(V^2) with a simple array scan, which can be faster for dense graphs. Greedy is not universal: 0/1 knapsack is a classic case where local optimal choices fail to give a global optimum.",
+    "facts": [
+      "Kruskal's: sort edges by weight, add if no cycle forms (via union-find), stop at V-1 edges -- O(E log E), equal to O(E log V).",
+      "Prim's: grow one tree from a start vertex, always adding the cheapest edge to an outside vertex -- O(E log V) with a binary heap, O(V^2) with a simple array.",
+      "Both Kruskal's and Prim's are correct because MST satisfies the greedy-choice property and optimal substructure.",
+      "Kruskal's is edge-centric (suits sparse graphs); Prim's is vertex-centric (its O(V^2) form suits dense graphs).",
+      "Greedy is not universally correct -- 0/1 knapsack is a classic example where greedy fails to find the optimum, unlike fractional knapsack.",
+      "A graph has a unique MST if all edge weights are distinct; with ties, multiple equal-weight MSTs can exist."
+    ],
+    "traps": [
+      "Assuming greedy always gives the optimal answer for any optimization problem -- it is only provably correct for problems with the greedy-choice property (MST, Huffman, activity selection), and fails for 0/1 knapsack.",
+      "Kruskal's complexity is often stated as O(E log V) from memory without knowing it comes from the sort step O(E log E), which equals O(E log V) only because E is at most V^2.",
+      "Prim's O(V^2) array-based version can outperform the O(E log V) heap version on dense graphs, since E approaches V^2 and the heap's log factor stops paying off.",
+      "Kruskal's builds a forest that only becomes one tree at the end, unlike Prim's, which always maintains a single connected growing tree from the start."
+    ],
+    "mnem": "",
+    "rel": ["Disjoint sets", "Shortest path", "Graph representation"]
+  },
+  {
+    "id": "U3d-18",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Shortest path: Dijkstra, Bellman-Ford, F-W",
+    "def": "Dijkstra's algorithm finds single-source shortest paths greedily using a priority queue for non-negative weights; Bellman-Ford handles negative edge weights and detects negative cycles via repeated edge relaxation; Floyd-Warshall computes all-pairs shortest paths by dynamic programming; Huffman coding applies the same greedy principle to build optimal prefix-free codes.",
+    "exp": "Dijkstra's: maintain a tentative distance for every vertex, infinity except the source at 0; repeatedly extract the unvisited vertex with smallest tentative distance via a min-heap and relax its outgoing edges. Complexity O((V+E) log V) with a binary heap and adjacency list. It fails with negative edges because once a vertex is finalized, a later negative edge could still improve its distance, but Dijkstra never revisits it. Bellman-Ford: relax every one of the E edges, repeated V-1 times -- this guarantees convergence since a shortest path has at most V-1 edges; a Vth pass that still finds an improvement signals a negative-weight cycle. Complexity O(VE), slower than Dijkstra but correct with negative edges. Floyd-Warshall: dynamic programming over all vertex pairs, considering each vertex k as a possible intermediate point: dist[i][j] = min(dist[i][j], dist[i][k]+dist[k][j]), for all i,j, for each k. Gives all-pairs shortest paths in O(V^3) time, O(V^2) space, a simple triple-nested loop. Huffman coding: repeatedly extract the two lowest-frequency nodes from a min-heap and merge them into a new internal node, until one tree remains -- frequent symbols get shorter codes, proven optimal among prefix-free codes by a greedy exchange argument.",
+    "facts": [
+      "Dijkstra's: O((V+E) log V) with a binary heap; requires all edge weights non-negative.",
+      "Bellman-Ford: O(VE); handles negative edges; detects negative-weight cycles via a Vth relaxation pass.",
+      "Floyd-Warshall: O(V^3) time, O(V^2) space; computes ALL-PAIRS shortest paths via dynamic programming over an intermediate vertex k.",
+      "Dijkstra and Prim's are structurally similar (greedy plus priority queue) but solve different problems: shortest path tree vs minimum spanning tree.",
+      "Huffman coding builds an optimal prefix-free code by greedily merging the two lowest-frequency nodes via a min-heap.",
+      "A shortest path in a graph with V vertices has at most V-1 edges -- this bounds Bellman-Ford's required relaxation passes."
+    ],
+    "traps": [
+      "Dijkstra's gives WRONG answers, not an error, on graphs with negative edges -- it finalizes vertices too early rather than detecting the problem; this is why Bellman-Ford is preferred with negative weights.",
+      "Bellman-Ford needs exactly V-1 relaxation passes for correctness on a graph with no negative cycle; the Vth pass is purely a negative-cycle detector, not part of normal operation.",
+      "Floyd-Warshall's O(V^3) can beat running Dijkstra V times on dense graphs -- which is faster for all-pairs depends on graph density, not a fixed universal answer.",
+      "Huffman coding is optimal specifically among prefix-free (uniquely decodable) codes -- it does not mean all codeword lengths are equal or that it beats every other compression scheme.",
+      "Prim's and Dijkstra's look almost identical in pseudocode, but Prim's compares to the EDGE weight alone while Dijkstra's compares to the cumulative PATH distance from the source -- swapping this is a classic bug."
+    ],
+    "mnem": "",
+    "rel": ["Greedy method", "Graph traversal", "Disjoint sets"]
+  }
+]

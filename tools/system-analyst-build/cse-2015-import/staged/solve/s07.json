@@ -1,0 +1,486 @@
+[
+ {
+  "id": "N0728",
+  "question": "What is the worst case time complexity of binary insertion sort algorithm to sort n elements?",
+  "options": {
+   "A": "O(n)",
+   "B": "O(n log2 n)",
+   "C": "O(n 1.2)",
+   "D": "O(n2)"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0729",
+  "question": "If each node in a tree has value greater than every value in its left subtree and has value less than every value in its right subtree, the tree is known as",
+  "options": {
+   "A": "complete tree",
+   "B": "full binary tree",
+   "C": "binary search tree",
+   "D": "threaded tree"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0730",
+  "question": "Which of the following sorting procedure is the slowest?",
+  "options": {
+   "A": "Quick sort",
+   "B": "Heap sort",
+   "C": "Shell sort",
+   "D": "Bubble sort"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0731",
+  "question": "A list of data items usually words or bytes, with the accessing restriction that elements can be added or removed at one end of the list only, is known as",
+  "options": {
+   "A": "stack",
+   "B": "memory",
+   "C": "linked list",
+   "D": "heap"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0732",
+  "question": "An undirected graph with n vertices and e edges are represented by Adjacency matrix. What is the time required to determine the degree of any vertex?",
+  "options": {
+   "A": "O(e)",
+   "B": "O(n)",
+   "C": "O(n2)",
+   "D": "O(e+n)"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0733",
+  "question": "Which of the following statements is false?",
+  "options": {
+   "A": "Every tree is a bipartite graph",
+   "B": "A tree contains a cycle",
+   "C": "A tree with n nodes contains n-1 edges",
+   "D": "A tree is a connected graph"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0734",
+  "question": "A graph G with n nodes is bipartite if it contains",
+  "options": {
+   "A": "n edges",
+   "B": "a cycle of odd length",
+   "C": "no cycle of odd length",
+   "D": "n2 edges"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0735",
+  "question": "In what tree, for every node the height of its left subtree and right subtree differ at least by one",
+  "options": {
+   "A": "binary search tree",
+   "B": "AVL-tree",
+   "C": "complete tree",
+   "D": "threaded binary tree"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0736",
+  "question": "A complete binary tree with the property that the value at each node is at least as large as the values at its children in known as",
+  "options": {
+   "A": "binary search tree",
+   "B": "AVL-tree",
+   "C": "completely balanced tree",
+   "D": "heap"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0737",
+  "question": "The time required to find shortest path in a graph with n vertices and e edges is",
+  "options": {
+   "A": "O(e)",
+   "B": "O(n)",
+   "C": "O(e2)",
+   "D": "O(n2)"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0738",
+  "question": "The goal of hashing is to produce a search that takes",
+  "options": {
+   "A": "O(1) time",
+   "B": "O(n2) time",
+   "C": "O(log n) time",
+   "D": "O(n log n) time"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0739",
+  "question": "Which of the following best describes sorting?",
+  "options": {
+   "A": "Accessing and processing each record exactly once",
+   "B": "Finding the location of the record with a given key",
+   "C": "Arranging the data (record) in some given order",
+   "D": "Adding a new record to the data structure"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0740",
+  "question": "A sort which compares adjacent elements in a list and switches where necessary is a",
+  "options": {
+   "A": "insertion sort",
+   "B": "heap sort",
+   "C": "quick sort",
+   "D": "bubble sort"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0741",
+  "question": "A full binary tree with n leaves contains",
+  "options": {
+   "A": "n nodes",
+   "B": "log2 n nodes",
+   "C": "2n-1 nodes",
+   "D": "2n nodes"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0742",
+  "question": "A full binary tree with n non-leaf nodes contains",
+  "options": {
+   "A": "log2 n nodes",
+   "B": "n+1 nodes",
+   "C": "2n nodes",
+   "D": "2n+1 nodes"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0743",
+  "question": "A sort which uses the binary tree concept such that any number is larger than all the numbers in the subtree below it is called",
+  "options": {
+   "A": "selection sort",
+   "B": "insertion sort",
+   "C": "heap sort",
+   "D": "quick sort"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0744",
+  "question": "Which of the following sorting algorithms does not have a worst case running time O(n2)?",
+  "options": {
+   "A": "insertion sort",
+   "B": "merge sort",
+   "C": "quick sort",
+   "D": "bubble sort"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0797",
+  "question": "How many value can be held by an array A(-1\u2026.m, 1\u2026.m)?",
+  "options": {
+   "A": "m",
+   "B": "m2",
+   "C": "m(m+1)",
+   "D": "m(m+2)"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0798",
+  "question": "Linked lists are not suitable for",
+  "options": {
+   "A": "Insertion sort",
+   "B": "Binary search",
+   "C": "Radix sort",
+   "D": "Polynomial manipulation"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0799",
+  "question": "In a circularly linked list organisation, insertion of a record involves the modification of",
+  "options": {
+   "A": "no pointer",
+   "B": "1 pointer",
+   "C": "2 pointers",
+   "D": "3 pointers"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0800",
+  "question": "Which is true about linked list?",
+  "options": {
+   "A": "A list is a dynamic data structure",
+   "B": "A list is a static data structure having variable storage",
+   "C": "A stack can't be implemented by a linear linked list",
+   "D": "Both (a) and (b) above"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0801",
+  "question": "Maximum possible height of a AVL tree with 7 nodes is",
+  "options": {
+   "A": "3",
+   "B": "4",
+   "C": "5",
+   "D": "none of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0802",
+  "question": "A complete full binary tree with 10 leaves",
+  "options": {
+   "A": "cannot have more than 19 nodes",
+   "B": "has exactly 19 nodes",
+   "C": "has exactly 17 nodes",
+   "D": "cannot have more than 17 nodes"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0803",
+  "question": "Number of possible binary trees with 3 nodes is",
+  "options": {
+   "A": "12",
+   "B": "13",
+   "C": "14",
+   "D": "15"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0804",
+  "question": "Which of the following is correct?",
+  "options": {
+   "A": "B-trees are storing data on disk and B + trees are for main memory",
+   "B": "range of queues are faster on B + trees",
+   "C": "B-trees are for primary indexes and B + trees are for secondary indexes",
+   "D": "the height of B + trees is independent of number of records"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0852",
+  "question": "A step by step procedure used to solve a problem is called",
+  "options": {
+   "A": "Operating system",
+   "B": "Algorithm",
+   "C": "Application Program",
+   "D": "None of the above"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0855",
+  "question": "A \"data structure\" which displays the relationship of adjacency between elements is said to be",
+  "options": {
+   "A": "parallel",
+   "B": "linear",
+   "C": "transverse",
+   "D": "congruent"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0856",
+  "question": "The elements of the Array are stored respectively in successive",
+  "options": {
+   "A": "memory locations",
+   "B": "FAT",
+   "C": "sequenced array",
+   "D": "None of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0857",
+  "question": "Elements of any Multi-dimensional Array can be stored in two forms _______ and _______",
+  "options": {
+   "A": "parallel",
+   "B": "direct",
+   "C": "row major",
+   "D": "column major"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0858",
+  "question": "The length of the list ((5, 6), 0, (9, 6, 3, 5)) is",
+  "options": {
+   "A": "2",
+   "B": "4",
+   "C": "3",
+   "D": "5"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0859",
+  "question": "The length of the list A = (a, A, a) is",
+  "options": {
+   "A": "infinite",
+   "B": "finite",
+   "C": "sequential",
+   "D": "None of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0299",
+  "question": "In a max-heap the element with the greatest key is always located in which node?",
+  "options": {
+   "A": "leaf",
+   "B": "root",
+   "C": "first node of left sub tree",
+   "D": "first node of right sub tree"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0300",
+  "question": "Leaves of which of the following trees are at the same level?",
+  "options": {
+   "A": "Binary tree",
+   "B": "B-tree",
+   "C": "AVL-tree",
+   "D": "Normal Tree"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0301",
+  "question": "What sorting algorithm have their best and worst case times equal ?",
+  "options": {
+   "A": "heap sort and selection sort",
+   "B": "insersition sort & merge sort",
+   "C": "merge sort and heap sort",
+   "D": "None of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0302",
+  "question": "In the following scenarios, when will you use selection sort?",
+  "options": {
+   "A": "The input is already sorted",
+   "B": "A large file has to be sorted",
+   "C": "Large values need to be sorted with small keys",
+   "D": "Small values need to be sorted with large keys"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0303",
+  "question": "QuickSort can be categorized into which of the following?",
+  "options": {
+   "A": "Brute Force technique",
+   "B": "Divide and conquer",
+   "C": "Greedy algorithm",
+   "D": "Dynamic programming"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0304",
+  "question": "What is the best case complexity in building a heap?",
+  "options": {
+   "A": "O(nlogn)",
+   "B": "O(n2)",
+   "C": "O(n*longn *logn)",
+   "D": "O(n)"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0305",
+  "question": "What data structure would you mostly likely see in a non recursive implementation of a recursive algorithm?",
+  "options": {
+   "A": "LinkList",
+   "B": "Stack",
+   "C": "Queue",
+   "D": "Tree"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0068",
+  "question": "Ina stack, which operation retrieves the top element without removing it?",
+  "options": {
+   "A": "Pop",
+   "B": "Push",
+   "C": "Peek",
+   "D": "Delete"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0069",
+  "question": "Which of the following is a common application of a stack in computer science?",
+  "options": {
+   "A": "Sorting algorithms",
+   "B": "Database management",
+   "C": "Recursive function calls",
+   "D": "Disk storage"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0074",
+  "question": "Inmost programming languages, how are elements in an array typically accessed?",
+  "options": {
+   "A": "By theirnames",
+   "B": "By their memory addresses",
+   "C": "By their indices or positions",
+   "D": "By using a hash table"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0075",
+  "question": "Inmany programming languages, how can you concatenate two strings?",
+  "options": {
+   "A": "Using the '+' operator",
+   "B": "Using the '&' operator",
+   "C": "Using the '*' operator",
+   "D": "Using the '%' operator"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0076",
+  "question": "Which of the following is not a common operation performed on strings?",
+  "options": {
+   "A": "Concatenation",
+   "B": "Comparison",
+   "C": "Bitwise manipulation",
+   "D": "Substring extraction"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0077",
+  "question": "What isa \"bit field\" in programming?",
+  "options": {
+   "A": "A data type that can hold only one bit of information",
+   "B": "A structure or variable that packs multiple data values into a single word or byte",
+   "C": "A technique for compressing large files into smaller sizes",
+   "D": "A data structure used to store bit-level data such as images"
+  },
+  "garbled": false
+ }
+]

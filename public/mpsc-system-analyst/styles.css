@@ -347,6 +347,28 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
 .expl .prov { font-size: .76rem; color: var(--ink-3); margin-top: .5rem; }
 .qmeta { font-size: .76rem; color: var(--ink-3); display: flex; gap: .5rem; flex-wrap: wrap; align-items: center; }
 
+/* Section-B conventional/essay questions. No options to highlight, so the
+   model answer takes the place of the option list — and hides under the same
+   .opts / .shown mechanism, so "hide answers" covers essays too. */
+.model-answer {
+  padding: .8rem 1rem; border: 1px solid var(--line); border-radius: var(--radius-s);
+  background: var(--panel); font-size: .92rem; line-height: 1.55;
+}
+/* pre-wrap: model answers carry worked Gantt charts, transition tables and
+   merge-sort traces whose single newlines are load-bearing. Paragraph breaks
+   are blank lines, split into separate <p> by the renderer. */
+.model-answer p { margin: 0 0 .6rem; white-space: pre-wrap; }
+.model-answer p:last-child { margin-bottom: 0; }
+.model-answer ul { margin: 0; padding-left: 1.1rem; }
+.model-answer li { margin: .2rem 0; }
+.model-head {
+  font-size: .72rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase;
+  color: var(--ink-3); margin: 0 0 .4rem;
+}
+.model-answer ul + .model-head { margin-top: .7rem; }
+.answers-hidden .model-answer { display: none; }
+.answers-hidden .opts.shown .model-answer { display: block; }
+
 .pager { display: flex; flex-wrap: wrap; gap: .25rem; margin-top: 1rem; }
 .pager button {
   width: 30px; height: 30px; border-radius: var(--radius-s); border: 1px solid var(--line);

@@ -1,0 +1,260 @@
+[
+ {
+  "file": "computer-science-engineering-paper-i.OCR.txt",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper": "I",
+  "blocks": 99,
+  "mcq": 98,
+  "descriptive": 0,
+  "unparsed": 1,
+  "highest_q_in_raw": 100,
+  "resync_skips": [
+   57
+  ],
+  "missing_numbers": [
+   57,
+   97
+  ]
+ },
+ {
+  "file": "computer-science-engineering-paper-ii.OCR.txt",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper": "II",
+  "blocks": 97,
+  "mcq": 97,
+  "descriptive": 0,
+  "unparsed": 0,
+  "highest_q_in_raw": 100,
+  "resync_skips": [
+   39,
+   44,
+   86
+  ],
+  "missing_numbers": [
+   39,
+   44,
+   86
+  ]
+ },
+ {
+  "file": "computer-science-engineering-paper-iii.OCR.txt",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "paper": "III",
+  "blocks": 99,
+  "mcq": 99,
+  "descriptive": 0,
+  "unparsed": 0,
+  "highest_q_in_raw": 100,
+  "resync_skips": [
+   25
+  ],
+  "missing_numbers": [
+   25
+  ]
+ },
+ {
+  "file": "computer-scienceengg-paper-i.txt",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper": "I",
+  "blocks": 100,
+  "mcq": 99,
+  "descriptive": 0,
+  "unparsed": 1,
+  "highest_q_in_raw": 100,
+  "resync_skips": [],
+  "missing_numbers": [
+   19
+  ]
+ },
+ {
+  "file": "computer-scienceengg-paper-ii-pe.txt",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "paper": "II",
+  "blocks": 70,
+  "mcq": 50,
+  "descriptive": 20,
+  "unparsed": 0,
+  "highest_q_in_raw": 50,
+  "resync_skips": [],
+  "missing_numbers": []
+ },
+ {
+  "file": "computer-scienceengg-paper-ii.txt",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper": "II",
+  "blocks": 100,
+  "mcq": 100,
+  "descriptive": 0,
+  "unparsed": 0,
+  "highest_q_in_raw": 100,
+  "resync_skips": [],
+  "missing_numbers": []
+ },
+ {
+  "file": "computer-scienceengg-paper-iii-pe.txt",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "paper": "III",
+  "blocks": 70,
+  "mcq": 50,
+  "descriptive": 20,
+  "unparsed": 0,
+  "highest_q_in_raw": 50,
+  "resync_skips": [],
+  "missing_numbers": []
+ },
+ {
+  "file": "computer-scienceengg-paper-iii.txt",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "paper": "III",
+  "blocks": 100,
+  "mcq": 100,
+  "descriptive": 0,
+  "unparsed": 0,
+  "highest_q_in_raw": 100,
+  "resync_skips": [],
+  "missing_numbers": []
+ },
+ {
+  "file": "inspector-of-legal-metrology-2010-computer-science-engineering-i.txt",
+  "sitting": "Inspector of Legal Metrology, March 2010",
+  "paper": "I",
+  "blocks": 150,
+  "mcq": 149,
+  "descriptive": 0,
+  "unparsed": 1,
+  "highest_q_in_raw": 150,
+  "resync_skips": [],
+  "missing_numbers": [
+   35
+  ]
+ },
+ {
+  "file": "inspector-of-legal-metrology-2010-computer-science-engineering-ii.txt",
+  "sitting": "Inspector of Legal Metrology, March 2010",
+  "paper": "II",
+  "blocks": 150,
+  "mcq": 149,
+  "descriptive": 0,
+  "unparsed": 1,
+  "highest_q_in_raw": 150,
+  "resync_skips": [],
+  "missing_numbers": [
+   117
+  ]
+ },
+ {
+  "file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-i.txt",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "paper": "I",
+  "blocks": 70,
+  "mcq": 51,
+  "descriptive": 19,
+  "unparsed": 0,
+  "highest_q_in_raw": 50,
+  "resync_skips": [],
+  "missing_numbers": []
+ },
+ {
+  "file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-ii.txt",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "paper": "II",
+  "blocks": 70,
+  "mcq": 50,
+  "descriptive": 20,
+  "unparsed": 0,
+  "highest_q_in_raw": 50,
+  "resync_skips": [],
+  "missing_numbers": []
+ },
+ {
+  "file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-iii.txt",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "paper": "III",
+  "blocks": 70,
+  "mcq": 50,
+  "descriptive": 19,
+  "unparsed": 1,
+  "highest_q_in_raw": 50,
+  "resync_skips": [],
+  "missing_numbers": []
+ },
+ {
+  "file": "jr-grade-of-mizoram-engineering-service-mes-2015-computer-science-engineering-paper-i.OCR.txt",
+  "sitting": "jr-grade-of-mizoram-engineering-service-mes-2015-computer-science-engineering-paper-i.OCR",
+  "paper": "?",
+  "blocks": 43,
+  "mcq": 42,
+  "descriptive": 0,
+  "unparsed": 1,
+  "highest_q_in_raw": 50,
+  "resync_skips": [
+   14,
+   18,
+   20,
+   22,
+   25,
+   30,
+   41
+  ],
+  "missing_numbers": [
+   14,
+   18,
+   20,
+   22,
+   23,
+   25,
+   30,
+   41
+  ]
+ },
+ {
+  "file": "jr-grade-of-mizoram-engineering-service-mes-2015-computer-science-engineering-paper-ii.txt",
+  "sitting": "Jr. Grade of MES, November 2015",
+  "paper": "II",
+  "blocks": 50,
+  "mcq": 49,
+  "descriptive": 0,
+  "unparsed": 1,
+  "highest_q_in_raw": 50,
+  "resync_skips": [],
+  "missing_numbers": [
+   45
+  ]
+ },
+ {
+  "file": "jr-grade-of-mizoram-engineering-service-mes-2015-computer-science-engineering-paper-iii.txt",
+  "sitting": "Jr. Grade of MES, November 2015",
+  "paper": "III",
+  "blocks": 50,
+  "mcq": 50,
+  "descriptive": 0,
+  "unparsed": 0,
+  "highest_q_in_raw": 50,
+  "resync_skips": [],
+  "missing_numbers": []
+ },
+ {
+  "file": "junior-engineer-je-contract-under-rural-development-deptt-computer-science-paper-i.txt",
+  "sitting": "Junior Engineer (JE) Contract, Rural Development, November 2016",
+  "paper": "I",
+  "blocks": 75,
+  "mcq": 75,
+  "descriptive": 0,
+  "unparsed": 0,
+  "highest_q_in_raw": 75,
+  "resync_skips": [],
+  "missing_numbers": []
+ },
+ {
+  "file": "junior-engineer-je-contract-under-rural-development-deptt-computer-science-paper-ii.txt",
+  "sitting": "Junior Engineer (JE) Contract, Rural Development, November 2016",
+  "paper": "II",
+  "blocks": 75,
+  "mcq": 75,
+  "descriptive": 0,
+  "unparsed": 0,
+  "highest_q_in_raw": 75,
+  "resync_skips": [],
+  "missing_numbers": []
+ }
+]

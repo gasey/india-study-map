@@ -1,0 +1,398 @@
+[
+ {
+  "id": "N0911",
+  "ans": "B",
+  "conf": "high",
+  "exp": "Radix sort complexity is d*(n+k) where d is the number of digit passes, n the element count and k the bucket count. The largest values (9999, 3656) have 4 digits, n=13 elements, k=10 buckets, so 4*(13+10) = 4*23 = 92.",
+  "sub": "Radix sort complexity",
+  "mode": "calculate",
+  "broken": false
+ },
+ {
+  "id": "N0912",
+  "ans": "B",
+  "conf": "high",
+  "exp": "A queue can be simulated with exactly two stacks: push all enqueues onto stack 1, and when a dequeue is needed, pour stack 1 into stack 2 (reversing order) and pop from stack 2. One stack alone cannot reverse the order twice to restore FIFO behaviour.",
+  "sub": "Stacks and queues",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0913",
+  "ans": "A",
+  "conf": "high",
+  "exp": "Worst-case complexities: Merge Sort and Heap Sort are both O(n log n) (equal), while Quick Sort, Selection Sort, Bubble Sort and Insertion Sort are all O(n^2) in the worst case (equal to each other). That is exactly option A's chain once 'Heap Sport' is read as the OCR-mangled 'Heap Sort'.",
+  "sub": "Sorting complexity",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N1026",
+  "ans": "B",
+  "conf": "high",
+  "exp": "Selection sort performs at most one swap per pass, so across n-1 passes it makes at most n-1 swaps, i.e. O(n) swaps -- this is separate from its O(n^2) comparison count. Reading the garbled options as O(log n), O(n), O(n log n), O(n^2), the tightest bound on swaps is O(n).",
+  "sub": "Selection sort swaps",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N1027",
+  "ans": "A",
+  "conf": "high",
+  "exp": "Starting heap (level order) 10,8,5,3,2. Insert 1 at the next free slot (child of 5): 10,8,5,3,2,1 -- 1<5 so no sift-up needed. Insert 7 at the next slot (other child of 5): 10,8,5,3,2,1,7; sift up: 7>5 so swap, giving 10,8,7,3,2,1,5; 7<10 so stop. Final level order: 10,8,7,3,2,1,5, matching option A.",
+  "sub": "Heap operations",
+  "mode": "calculate",
+  "broken": false
+ },
+ {
+  "id": "N1028",
+  "ans": "C",
+  "conf": "high",
+  "exp": "With first-element pivot, an already-sorted array {1,2,3,4,5} is the worst case: each pivot is the smallest remaining element, giving one empty partition every time, so t1 = 4+3+2+1 = 10 comparisons. For {4,1,5,3,2}: partitioning on 4 takes 4 comparisons leaving {1,3,2} and {5}; partitioning {1,3,2} on 1 takes 2 comparisons leaving {3,2}; partitioning {3,2} on 3 takes 1 comparison. t2 = 4+2+1 = 7. Since 10>7, t1>t2.",
+  "sub": "Quicksort comparisons",
+  "mode": "calculate",
+  "broken": false
+ },
+ {
+  "id": "N1029",
+  "ans": "D",
+  "conf": "low",
+  "exp": "This is unanswerable as printed: a single inorder sequence never fixes a unique binary tree, so a second traversal (postorder/preorder or level order) is required to reconstruct the tree and derive the preorder -- that second traversal appears to have been lost in OCR/extraction, and the stray space in 'EACKFHDB G' suggests further corruption of the given inorder string itself. D is given as a best-effort guess only; treat this question as broken and re-check the source PDF.",
+  "sub": "Tree traversal",
+  "mode": "understand",
+  "broken": true
+ },
+ {
+  "id": "N0827",
+  "ans": "B",
+  "conf": "high",
+  "exp": "An operating system is fundamentally software -- a collection of software routines/programs that manage hardware and provide services to applications, not hardware or I/O devices itself.",
+  "sub": "OS basics",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0828",
+  "ans": "B",
+  "conf": "medium",
+  "exp": "Of the choices, only 'provides a layered, user-friendly interface' describes a general function of an operating system; linking a program to referenced subroutines is a linker's job, and drawing flowcharts is unrelated to the OS. Kept at medium confidence since 'layered interface' is a loosely worded distractor-style option.",
+  "sub": "OS basics",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0829",
+  "ans": "C",
+  "conf": "high",
+  "exp": "Keeping multiple programs resident in memory so a single CPU executes them by interleaving is the definition of multiprogramming; multiprocessing implies multiple CPUs, and time-sharing specifically emphasises rapid switching for interactive multi-user response.",
+  "sub": "Multiprogramming",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0830",
+  "ans": "C",
+  "conf": "medium",
+  "exp": "Software is generally classed as either systems programs or application programs, so the correct description is 'both (a) and (b)'. The option list itself is corrupted -- option C's text has a stray '(d) None of the above' fragment glued onto it, meaning the printed choice D was lost/merged into C during extraction, not that C's actual content includes that clause.",
+  "sub": "Software concepts",
+  "mode": "memorise",
+  "broken": true
+ },
+ {
+  "id": "N0860",
+  "ans": "B",
+  "conf": "high",
+  "exp": "A deque is typically implemented as a doubly linked structure, so each node needs at least two pointers (to the next and previous nodes) to allow insertion/deletion at both ends.",
+  "sub": "Deque implementation",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0861",
+  "ans": "C",
+  "conf": "medium",
+  "exp": "A binary tree's level i (root at level 0) can hold at most 2^i nodes, a power of two -- and among the offered choices (14,15,16,17) only 16=2^4 is actually a power of two, so it is the only internally consistent answer; the '6th level' wording likely has an off-by-one/OCR slip against whichever level-0-or-1 convention the source used.",
+  "sub": "Binary tree properties",
+  "mode": "calculate",
+  "broken": false
+ },
+ {
+  "id": "N0862",
+  "ans": "A",
+  "conf": "high",
+  "exp": "A node with degree 0 has no children, which is exactly the definition of a leaf (terminal) node.",
+  "sub": "Tree node degree",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0863",
+  "ans": "C",
+  "conf": "high",
+  "exp": "The (max-)heap condition requires every parent's key to be greater than or equal to its children's keys, which is what keeps the maximum at the root.",
+  "sub": "Heap condition",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0864",
+  "ans": "A",
+  "conf": "high",
+  "exp": "Selection sort always scans the remaining unsorted portion to find the minimum on each of n passes, giving O(n^2) regardless of input order.",
+  "sub": "Selection sort complexity",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0376",
+  "ans": "A",
+  "conf": "high",
+  "exp": "The kernel exposes its services to programs through system calls; an API is a higher-level wrapper that a library provides around those system calls, not the OS interface itself.",
+  "sub": "OS interface",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0377",
+  "ans": "A",
+  "conf": "high",
+  "exp": "Most operating systems record error/failure information to a log file so it can be inspected after the fact.",
+  "sub": "OS basics",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0378",
+  "ans": "D",
+  "conf": "high",
+  "exp": "A process can terminate for any of these reasons -- normal exit, a fatal error, or being killed by another process -- so 'all of these' is correct.",
+  "sub": "Process management",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0379",
+  "ans": "B",
+  "conf": "high",
+  "exp": "A time-slice expiry is a preemption, not an I/O wait, so the process is simply moved back to the ready state to await its next turn, rather than to blocked/suspended.",
+  "sub": "Process states",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0380",
+  "ans": "D",
+  "conf": "high",
+  "exp": "Multilevel queue scheduling is defined by partitioning processes into separate groups/queues (e.g. foreground vs background) each with its own scheduling policy.",
+  "sub": "CPU scheduling",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0382",
+  "ans": "D",
+  "conf": "high",
+  "exp": "The standard process states are new, ready, running, blocked/waiting and terminated; 'privileged' describes a CPU execution mode, not a process state.",
+  "sub": "Process states",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0383",
+  "ans": "D",
+  "conf": "high",
+  "exp": "A memory table tracks allocation of main and secondary memory and virtual-memory bookkeeping; information about whether a file exists belongs to the file/directory table, not the memory table.",
+  "sub": "Memory management",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0384",
+  "ans": "B",
+  "conf": "high",
+  "exp": "Algorithms that order and choose among pending disk I/O requests to improve throughput/seek time are collectively called disk scheduling.",
+  "sub": "Disk scheduling",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0385",
+  "ans": "A",
+  "conf": "high",
+  "exp": "A path that begins at the root directory and lists every directory down to the target is an absolute path name; a relative path starts from the current working directory instead.",
+  "sub": "File systems",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0386",
+  "ans": "B",
+  "conf": "high",
+  "exp": "This is the standard (Stallings) definition of sequential file organization: fixed-format records of identical length made up of the same fixed-length fields in a set order.",
+  "sub": "File organization",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0387",
+  "ans": "A",
+  "conf": "high",
+  "exp": "Chained (linked) allocation stores a file as a chain of disk blocks where each block holds a pointer to the next block, allocated one block at a time.",
+  "sub": "File allocation",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0388",
+  "ans": "B",
+  "conf": "medium",
+  "exp": "The Banker's algorithm grants a resource request only if the resulting state is still safe, which is a deadlock-avoidance technique; since 'avoid' is not offered as a choice here, 'to prevent deadlock' is the closest of the given options, kept at medium confidence for that terminology mismatch.",
+  "sub": "Deadlock avoidance",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0389",
+  "ans": "B",
+  "conf": "high",
+  "exp": "System protection is about restricting each process to the resources it has been explicitly authorized to use, not granting blanket access.",
+  "sub": "System protection",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0098",
+  "ans": "C",
+  "conf": "high",
+  "exp": "A batch OS collects and runs jobs one at a time to completion with no interactive switching, which matches 'handles multiple tasks one at a time and finishes each before the next.'",
+  "sub": "OS types",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0099",
+  "ans": "B",
+  "conf": "medium",
+  "exp": "Protection mechanisms restrict access to resources so that one process/user cannot improperly access another's data, which is best captured here as 'ensuring data privacy'; kept at medium confidence since 'managing hardware resources' is a plausible but less precise distractor.",
+  "sub": "Protection mechanisms",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0100",
+  "ans": "B",
+  "conf": "high",
+  "exp": "A critical section is a piece of code accessing shared data that must run atomically (without interleaving from other processes) to avoid race conditions.",
+  "sub": "Critical section",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0101",
+  "ans": "C",
+  "conf": "high",
+  "exp": "Shortest Job Next always dispatches the process with the smallest remaining burst time, which provably minimizes average turnaround time among non-preemptive schedulers.",
+  "sub": "CPU scheduling",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0102",
+  "ans": "B",
+  "conf": "high",
+  "exp": "Deadlock detection commonly builds and analyses a resource allocation graph, looking for cycles that indicate a deadlock.",
+  "sub": "Deadlock detection",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0103",
+  "ans": "B",
+  "conf": "high",
+  "exp": "Virtual memory lets a process's logical address space exceed physically available RAM, i.e. it expands the usable address space.",
+  "sub": "Virtual memory",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0104",
+  "ans": "B",
+  "conf": "high",
+  "exp": "Among FIFO, LRU, LIFO and Random, LRU exploits recency of use and empirically produces fewer page faults than the others (though the theoretical optimum is Belady's OPT, which isn't offered here).",
+  "sub": "Page replacement",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0105",
+  "ans": "C",
+  "conf": "high",
+  "exp": "Hashed (direct) file organization computes a record's location from its key, giving direct access to any record; sequential only supports ordered scanning and indexed needs an index lookup step. Option D's text is OCR garbage but not the intended answer.",
+  "sub": "File organization",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0106",
+  "ans": "B",
+  "conf": "high",
+  "exp": "A real-time OS is specifically built to guarantee responses to external events within a bounded time frame, unlike batch, interactive or time-sharing systems.",
+  "sub": "OS types",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0107",
+  "ans": "B",
+  "conf": "medium",
+  "exp": "Demand paging loads only the pages actually referenced instead of the whole process, avoiding wasted faults/I/O on pages that would never be touched; of the given options this is closest to 'reducing page faults', though the more standard textbook framing is that it reduces memory/load overhead, so kept at medium confidence.",
+  "sub": "Demand paging",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0108",
+  "ans": "C",
+  "conf": "high",
+  "exp": "Fixed-partition multiprogramming's main selling point over more elaborate schemes is how simple it is to implement (fixed-size regions, simple bookkeeping), at the cost of internal fragmentation.",
+  "sub": "Memory management",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0109",
+  "ans": "C",
+  "conf": "high",
+  "exp": "A semaphore's core role in synchronization is enforcing mutual exclusion (and more generally coordinating access) around shared resources/critical sections.",
+  "sub": "Semaphores",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0110",
+  "ans": "C",
+  "conf": "high",
+  "exp": "Round Robin gives every process an equal, fixed time quantum in rotation, which is why it is specifically known for fairness among CPU scheduling algorithms.",
+  "sub": "CPU scheduling",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0111",
+  "ans": "C",
+  "conf": "high",
+  "exp": "Deadlock is the state where a set of processes are each waiting on resources held by another in the set, so none can proceed -- a resource-conflict standstill, not merely an infinite loop or I/O wait.",
+  "sub": "Process management",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0112",
+  "ans": "C",
+  "conf": "high",
+  "exp": "Priority inversion occurs when a high-priority process is forced to wait because a lower-priority process is holding a resource it needs, effectively inverting the intended priority order.",
+  "sub": "CPU scheduling",
+  "mode": "understand",
+  "broken": false
+ }
+]

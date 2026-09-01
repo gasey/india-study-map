@@ -1,0 +1,436 @@
+[
+  {
+    "id": "U3b-01",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Sequential (linear) search",
+    "def": "Sequential search scans a list element by element from one end until the key is found or the list is exhausted.",
+    "exp": "Linear search makes no assumption about order, so it works on unsorted arrays, linked lists, tapes and streams. The loop is: for i = 0 to n-1, if a[i] == key return i; after the loop return -1 (not found).\n\nCost is measured in key comparisons. An unsuccessful search always makes n comparisons. A successful search on a key equally likely to be in any position makes (1+2+...+n)/n = (n+1)/2 comparisons on average, so both average and worst case are O(n); best case is 1 comparison when the key is first.\n\nThe naive loop actually tests twice per iteration: the bounds test i < n and the key test a[i] == key. The sentinel variant removes the first test. Store the key in one extra slot a[n], then loop i = 0; while a[i] != key; i++. The search must stop, because the sentinel matches. Afterwards, if i == n the key was absent. This roughly halves the work per iteration and is a standard exam point, but it does not change the order: still O(n). It costs one spare array slot and destroys a[n], so it cannot be used on a full array or on a read-only list.",
+    "facts": [
+      "Unsuccessful sequential search always costs exactly n comparisons.",
+      "Average successful search costs (n+1)/2 comparisons, assuming each position is equally likely.",
+      "Best case 1 comparison, worst case n comparisons, average and worst both O(n).",
+      "Works on unsorted data and on linked lists, unlike binary search.",
+      "The sentinel version stores the key at a[n] so the loop needs only one test per iteration.",
+      "The sentinel changes the constant factor only; complexity stays O(n).",
+      "On a sorted list, linear search can stop early on an unsuccessful search when a[i] > key, but still O(n)."
+    ],
+    "traps": [
+      "The average of (n+1)/2 holds only for a successful search with uniform probability; an unsuccessful search is n, not n/2. Papers often ask for the unsuccessful case.",
+      "The sentinel does not improve the asymptotic complexity. An option claiming O(log n) or O(n/2) for sentinel search is wrong; O(n/2) is O(n) anyway.",
+      "Sequential search does not require sorted input. A question saying 'the list must be sorted' is describing binary search.",
+      "For a single search on unsorted data, linear search beats sort-then-binary-search: O(n) versus O(n log n) + O(log n). Sorting only pays off over many searches.",
+      "The sentinel needs an array of size n+1. Applying it to an array with no spare slot overwrites real data."
+    ],
+    "mnem": "",
+    "rel": ["Binary search", "Divide and conquer", "Interpolation and Fibonacci search", "Arrays and linked lists"]
+  },
+  {
+    "id": "U3b-02",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Binary search",
+    "def": "Binary search finds a key in a sorted array by repeatedly comparing it with the middle element and discarding the half that cannot contain it.",
+    "exp": "Precondition: the array must already be sorted in a known order. Method: with bounds low and high, compute mid = (low + high) / 2 (integer division). If a[mid] == key, done. If key < a[mid], search low..mid-1; else search mid+1..high. Stop when low > high, meaning not found.\n\nThis is textbook divide and conquer: divide the problem into one sub-problem of half the size, conquer it, and no combine step is needed. The recurrence is T(n) = T(n/2) + O(1), which solves to T(n) = O(log2 n). By the Master theorem with a = 1, b = 2, f(n) = O(1): n^(log_b a) = n^0 = 1, matching f(n), giving Theta(log n).\n\nTrace, array 11 22 33 44 55 66 77 (n = 7), key = 22. low=0, high=6, mid=3, a[3]=44 > 22, so high=2. low=0, high=2, mid=1, a[1]=22, found in 2 comparisons.\n\nBecause each step halves the interval, n elements need about log2 n steps: 1000 elements in 10 comparisons, a million in 20. The cost is the sorted-order precondition, and the requirement of O(1) random access, which rules out linked lists.",
+    "facts": [
+      "Time complexity O(log2 n) worst and average, O(1) best (key at the first midpoint).",
+      "Recurrence T(n) = T(n/2) + O(1), solving to O(log n).",
+      "Iterative binary search uses O(1) extra space; the recursive form uses O(log n) stack.",
+      "Requires a sorted array with O(1) indexing; it is not usable on a singly linked list in O(log n).",
+      "Halving means n = 2^k elements are covered in about k comparisons.",
+      "Binary search on n elements can be modelled as a binary search tree of the array's positions."
+    ],
+    "traps": [
+      "The array must be sorted. Applying binary search to unsorted data does not merely slow down, it returns wrong answers, including 'not found' for a key that is present.",
+      "With duplicate keys, plain binary search returns some matching index, not necessarily the first or last. Finding the first occurrence needs the lower-bound variant that continues searching left after a match.",
+      "On a linked list, finding the middle costs O(n) per step, so 'binary search on a sorted linked list is O(log n)' is false.",
+      "The log is base 2, but since bases differ by a constant factor, O(log2 n) and O(log n) are the same complexity class. An MCQ distinguishing them on asymptotic grounds is testing notation, not speed.",
+      "Sorting first to enable binary search costs O(n log n); this is not worth it for one lookup."
+    ],
+    "mnem": "Sorted, split, discard half.",
+    "rel": ["Sequential (linear) search", "Divide and conquer", "Binary search comparisons and pitfalls", "Interpolation and Fibonacci search"]
+  },
+  {
+    "id": "U3b-03",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Binary search: comparisons and pitfalls",
+    "def": "The worst-case comparison count for binary search on n elements is floor(log2 n) + 1, and the classic implementation bugs are midpoint overflow and a non-shrinking interval.",
+    "exp": "Comparison count. Model the search as a decision tree whose internal nodes are the n array positions. Any binary tree on n nodes has height at least floor(log2 n), so the deepest path visits floor(log2 n) + 1 nodes. With a three-way comparison (<, =, >) at each node, the worst-case number of comparisons is floor(log2 n) + 1, which equals ceil(log2(n+1)). Examples: n = 7 gives 3; n = 1000 gives 10; n = 1,000,000 gives 20. Successful and unsuccessful searches are both bounded by this.\n\nOverflow. Writing mid = (low + high) / 2 can overflow a fixed-width signed integer once low + high exceeds the maximum, producing a negative index. The safe form is mid = low + (high - low) / 2. This bug famously sat in widely used library binary searches for years before being publicised in 2006, and it is a favourite short-note question.\n\nTermination. The interval must shrink every iteration. With floor division, mid == low whenever high == low + 1, so writing low = mid instead of low = mid + 1 loops forever. The two safe skeletons are while (low <= high) with high = mid - 1 and low = mid + 1, or while (low < high) with high = mid and low = mid + 1.",
+    "facts": [
+      "Worst-case comparisons = floor(log2 n) + 1 = ceil(log2(n+1)) for a three-way comparison.",
+      "n = 1000 needs at most 10 comparisons; n = 1,000,000 needs at most 20.",
+      "Safe midpoint: mid = low + (high - low) / 2, which cannot overflow when low <= high.",
+      "With while (low <= high), the updates must be low = mid + 1 and high = mid - 1.",
+      "With while (low < high) and high = mid, the low update must still be mid + 1, or the loop hangs.",
+      "The search space sizes follow n, n/2, n/4, ..., 1, so the number of iterations is the number of halvings."
+    ],
+    "traps": [
+      "floor(log2 n) + 1 counts three-way comparisons. A two-way (<) implementation that always runs to low == high does about the same number of iterations but a different comparison count; read which the question asks for.",
+      "mid = (low + high) / 2 is not wrong mathematically, only in fixed-width arithmetic. The bug never appears on small test arrays, which is why it survives review.",
+      "Off-by-one: high must start at n-1, not n, in the inclusive-bounds version. Starting at n reads past the array.",
+      "Setting low = mid (not mid + 1) is an infinite loop, not merely slow, because floor rounds the midpoint down onto low.",
+      "Do not quote log2 n by itself as the worst case. For n = 1000, log2 1000 is about 9.97, and the answer is 10, not 9."
+    ],
+    "mnem": "low + (high - low)/2 — never (low+high)/2.",
+    "rel": ["Binary search", "Divide and conquer", "Sequential (linear) search", "Lower bound for comparison sorting"]
+  },
+  {
+    "id": "U3b-04",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Interpolation and Fibonacci search",
+    "def": "Interpolation search estimates the key's position from its value instead of always probing the midpoint, and Fibonacci search splits the array at Fibonacci-number boundaries using only addition and subtraction.",
+    "exp": "Interpolation search is how a person uses a telephone directory: a name starting with 'B' is looked for near the front, not in the middle. On a sorted array of uniformly distributed numeric keys, it probes\n\npos = low + ((key - a[low]) * (high - low)) / (a[high] - a[low])\n\nand then narrows exactly like binary search. On uniformly distributed data the average cost is commonly quoted as O(log log n), a large improvement. But the estimate can be badly wrong: on strongly skewed data such as 1, 2, 3, ..., 100, 100000, the probe crawls one element at a time and the worst case degrades to O(n). Guard against division by zero when a[high] == a[low].\n\nFibonacci search uses the Fibonacci numbers F(k) to split the interval into parts of size roughly F(k-1) and F(k-2), the golden-ratio split, instead of exact halves. Its appeal is arithmetic: the next probe is obtained by additions and subtractions of Fibonacci numbers, with no division or multiplication, which mattered on machines where division was expensive, and it touches elements closer to the previous probe, which suits sequential or paged storage. Its complexity is still O(log n), with a slightly larger comparison count than binary search.",
+    "facts": [
+      "Interpolation probe formula: pos = low + ((key - a[low]) * (high - low)) / (a[high] - a[low]).",
+      "Interpolation search: average O(log log n) on uniformly distributed sorted data, worst case O(n).",
+      "Interpolation search requires sorted data whose keys are numeric and can be arithmetically interpolated.",
+      "Fibonacci search runs in O(log n) and uses only addition and subtraction to compute probe positions.",
+      "Fibonacci search splits in the golden ratio (about 0.618/0.382), not into equal halves.",
+      "All three of binary, interpolation and Fibonacci search require the array to be sorted."
+    ],
+    "traps": [
+      "O(log log n) for interpolation search is an average under the uniform-distribution assumption only. Its worst case is O(n), worse than binary search's O(log n); an MCQ offering O(log log n) as the worst case is wrong.",
+      "Interpolation search is not simply 'better than binary search'. On clustered or exponential data it is worse.",
+      "If a[high] == a[low] the formula divides by zero; a real implementation must special-case it.",
+      "Fibonacci search does not beat binary search asymptotically. Its advantage is avoiding division and improving locality of reference, not order of growth.",
+      "Neither method works on unsorted data, and neither gives O(1) search; that is hashing."
+    ],
+    "mnem": "Interpolation guesses where, binary always guesses middle.",
+    "rel": ["Binary search", "Sequential (linear) search", "Divide and conquer", "Hashing"]
+  },
+  {
+    "id": "U3b-05",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Divide and conquer strategy",
+    "def": "Divide and conquer solves a problem by splitting it into smaller instances of the same problem, solving those recursively, and combining their solutions.",
+    "exp": "The three steps are divide, conquer and combine. Divide splits the input into sub-problems, conquer solves them recursively down to a base case small enough to solve directly, and combine assembles the sub-solutions. Which step does the real work varies: merge sort divides trivially and works in the combine (the merge); quick sort works in the divide (the partition) and combines for free.\n\nCost is expressed as a recurrence T(n) = a*T(n/b) + f(n), where a is the number of sub-problems, n/b their size, and f(n) the cost of dividing plus combining. The Master theorem compares f(n) with n^(log_b a): if f(n) is polynomially smaller the answer is Theta(n^(log_b a)); if they match, Theta(n^(log_b a) * log n); if f(n) is polynomially larger and satisfies the regularity condition, Theta(f(n)).\n\nWorked cases. Merge sort: a = 2, b = 2, f(n) = Theta(n); n^(log2 2) = n matches f, so Theta(n log n). Binary search: a = 1, b = 2, f(n) = O(1); n^0 = 1 matches, so Theta(log n). Strassen's matrix multiplication: a = 7, b = 2, giving Theta(n^(log2 7)) which is about n^2.81, beating the naive n^3.",
+    "facts": [
+      "The three phases are divide, conquer (recurse), combine.",
+      "General recurrence: T(n) = a*T(n/b) + f(n), compared against n^(log_b a) by the Master theorem.",
+      "Merge sort, quick sort, binary search, Strassen's matrix multiplication and the closest-pair problem are standard divide-and-conquer examples.",
+      "Binary search is divide and conquer with only one sub-problem and no combine step.",
+      "Strassen's algorithm runs in about O(n^2.81) versus O(n^3) for the naive method.",
+      "Divide and conquer recursion consumes stack space proportional to the recursion depth, typically O(log n) when splits are balanced."
+    ],
+    "traps": [
+      "Divide and conquer is not dynamic programming. Divide and conquer sub-problems are disjoint; dynamic programming exists precisely because sub-problems overlap and are memoised.",
+      "It is not the greedy method either, which makes one locally optimal choice and never recurses on alternatives.",
+      "Balanced splitting is what gives log n depth. Quick sort is still divide and conquer when the split is 1 : n-1, but the depth becomes n and the cost O(n^2).",
+      "The Master theorem does not cover every recurrence; the gap cases (for example f(n) = n log n against n^(log_b a) = n) fall between cases 2 and 3 and need another method.",
+      "Recursion by itself is not divide and conquer. Reducing n to n-1, as in naive factorial or in the T(n) = T(n-1) + n of quick sort's worst case, gives no logarithmic saving."
+    ],
+    "mnem": "Divide, Conquer, Combine — DCC.",
+    "rel": ["Merge sort", "Quick sort", "Binary search", "Recurrence relations and asymptotic notation"]
+  },
+  {
+    "id": "U3b-06",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Bubble sort",
+    "def": "Bubble sort repeatedly walks the list comparing adjacent pairs and swapping those out of order, so the largest remaining element bubbles to the end on each pass.",
+    "exp": "Pass structure: for i = 1 to n-1, scan j = 0 to n-i-1 and swap a[j] with a[j+1] if a[j] > a[j+1]. After pass i the last i elements are in final position, which is why the inner loop shortens each time.\n\nTrace on 5 1 4 2. Pass 1: 1 5 4 2, 1 4 5 2, 1 4 2 5. Pass 2: 1 4 2 5, 1 2 4 5. Pass 3: no swap. Sorted.\n\nComparison count is fixed at (n-1) + (n-2) + ... + 1 = n(n-1)/2, which is O(n^2). Swaps range from 0 on sorted input to n(n-1)/2 on reverse-sorted input; the number of swaps equals the number of inversions in the array.\n\nThe early-exit optimisation adds a boolean 'swapped' flag, set whenever a swap occurs in a pass. If a full pass makes no swap the array is sorted and the algorithm stops. This turns the best case, already-sorted input, into a single pass with n-1 comparisons and no swaps: O(n). Without the flag the best case is also O(n^2), which is the single most common exam distinction. Bubble sort is stable, in-place with O(1) extra space, and remains O(n^2) on average and in the worst case.",
+    "facts": [
+      "Worst and average time O(n^2); best case O(n) only with the swapped-flag early exit, otherwise O(n^2).",
+      "Total comparisons without early exit are exactly n(n-1)/2.",
+      "Number of swaps equals the number of inversions; maximum n(n-1)/2 on a reverse-sorted array.",
+      "Stable: equal elements are never swapped past one another because the test is strictly greater-than.",
+      "In-place, O(1) auxiliary space.",
+      "n-1 passes suffice in the worst case; with early exit a sorted array needs one pass."
+    ],
+    "traps": [
+      "Best case O(n) requires the flag. Plain textbook bubble sort with two fixed for-loops is O(n^2) even on sorted input.",
+      "Stability depends on using a[j] > a[j+1]. Changing it to >= makes bubble sort unstable, and it is a standard trick question.",
+      "Bubble sort's comparison count is input-independent (without early exit); only the swap count varies. Questions asking for minimum comparisons on sorted input are testing this.",
+      "After k passes exactly k elements are final, at the high end. An option claiming the array is sorted after k passes for k < n-1 is wrong in general.",
+      "Do not confuse bubble sort with selection sort: bubble swaps adjacent elements many times, selection makes at most one swap per pass."
+    ],
+    "mnem": "Heavy elements sink, largest bubbles to the end each pass.",
+    "rel": ["Selection sort", "Insertion sort", "Sorting algorithm comparison table", "Inversions"]
+  },
+  {
+    "id": "U3b-07",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Selection sort",
+    "def": "Selection sort repeatedly finds the minimum of the unsorted portion and swaps it into the next position of the sorted prefix.",
+    "exp": "For i = 0 to n-2: scan a[i..n-1] to find the index min of the smallest element, then swap a[i] with a[min]. After iteration i the first i+1 positions hold the i+1 smallest elements in order.\n\nTrace on 29 10 14 37 13. i=0: min is 10, swap gives 10 29 14 37 13. i=1: min is 13, swap gives 10 13 14 37 29. i=2: min is 14, no swap. i=3: min is 29, swap gives 10 13 14 29 37.\n\nComparisons are (n-1) + (n-2) + ... + 1 = n(n-1)/2 in every case, because the scan for the minimum cannot stop early. Hence best, average and worst are all Theta(n^2), with no adaptive behaviour whatever: a sorted array costs the same as a reverse-sorted one.\n\nIts distinguishing property is the swap count: exactly n-1 swaps in the standard form, or at most n-1 if you skip the swap when min == i. That is the minimum among the simple sorts, so selection sort is the right choice when a write or a swap is far more expensive than a comparison, for example on flash memory or when moving large records. It is in-place with O(1) extra space, and it is not stable.",
+    "facts": [
+      "Best = average = worst = Theta(n^2); selection sort is not adaptive.",
+      "Comparisons are always exactly n(n-1)/2, independent of input order.",
+      "Swaps are at most n-1, the fewest of the elementary sorts; this is its main selling point.",
+      "In-place, O(1) auxiliary space.",
+      "The standard array implementation is not stable.",
+      "It can be made stable by shifting elements to insert the minimum instead of swapping, at the cost of more moves.",
+      "On a linked list, or with an insertion instead of a swap, the stability problem disappears."
+    ],
+    "traps": [
+      "Selection sort is unstable. Example 4a 4b 1: swapping the minimum 1 into position 0 throws 4a behind 4b, so the equal keys are reordered. This is the single most-asked stability distractor.",
+      "There is no best case of O(n). Sorted input still costs n(n-1)/2 comparisons; only insertion and flagged bubble sort get O(n) there.",
+      "Do not confuse comparisons with swaps: comparisons are O(n^2) but swaps are only O(n). A question asking for the number of swaps expects n-1, not n(n-1)/2.",
+      "Selection sort is not heap sort. Heap sort is the same 'select the extreme' idea accelerated by a heap to O(n log n); plain selection sort scans linearly.",
+      "Fewest swaps does not mean fastest. It is still quadratic in comparisons and loses to insertion sort on nearly sorted data."
+    ],
+    "mnem": "Select the smallest, swap it home — one swap per pass.",
+    "rel": ["Bubble sort", "Insertion sort", "Heap sort", "Sorting algorithm comparison table"]
+  },
+  {
+    "id": "U3b-08",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Insertion sort",
+    "def": "Insertion sort builds a sorted prefix one element at a time, shifting larger elements right to open a slot for each new key.",
+    "exp": "For i = 1 to n-1: key = a[i]; j = i-1; while j >= 0 and a[j] > key, a[j+1] = a[j] and j--; then a[j+1] = key. It is how most people sort a hand of playing cards.\n\nTrace on 5 2 4 6. i=1: key 2 shifts past 5, giving 2 5 4 6. i=2: key 4 shifts past 5, giving 2 4 5 6. i=3: key 6 stays, one comparison. Done.\n\nThe running time is proportional to the number of inversions. Precisely, the number of shifts equals the number of inversions I, and comparisons are I + (n-1) at most. On sorted input each key needs one comparison and no shift, so the best case is n-1 comparisons, that is O(n). On reverse-sorted input every key travels the full distance, giving n(n-1)/2 comparisons and shifts, O(n^2), and the average is about n^2/4.\n\nThis inversion-proportional cost is why it is the best of the simple sorts on nearly sorted data: if every element is at most k places from its home, the cost is O(nk), which is linear for constant k. It is stable, in-place, and online (it can sort a stream as items arrive). Real libraries use it as the base case of quick sort and merge sort for small sub-arrays, typically under about 10 to 32 elements.",
+    "facts": [
+      "Best case O(n) on already-sorted input, n-1 comparisons and zero shifts.",
+      "Worst and average case O(n^2); reverse-sorted input costs n(n-1)/2 comparisons and shifts.",
+      "Number of shifts equals the number of inversions in the input.",
+      "If no element is more than k positions from its sorted place, insertion sort runs in O(nk).",
+      "Stable and in-place, O(1) auxiliary space.",
+      "It is online: it can sort data as it arrives, unlike selection, merge, quick or heap sort.",
+      "Used as the small-array base case inside hybrid sorts because of its low constant factor."
+    ],
+    "traps": [
+      "Insertion sort shifts rather than swaps in its standard form; a swap-based version does the same number of element moves but roughly three times the writes. Questions asking for 'element movements' need care.",
+      "Its O(n) best case does not make it O(n) generally; the average is still quadratic.",
+      "Binary insertion sort reduces comparisons to O(n log n) but the shifting still costs O(n^2) moves, so the overall time stays O(n^2). This is a favourite trap.",
+      "Stability requires the strict test a[j] > key, which stops shifting at an equal key and leaves the new element after it. Writing a[j] >= key keeps shifting past equal keys and places the new element before the older one, making insertion sort unstable.",
+      "Insertion sort is stable and adaptive, selection sort is neither. Do not carry over one's properties to the other."
+    ],
+    "mnem": "Sorting a hand of cards: pick the next card, slide it left into place.",
+    "rel": ["Bubble sort", "Selection sort", "Shell sort", "Merge sort", "Sorting algorithm comparison table"]
+  },
+  {
+    "id": "U3b-09",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Merge sort",
+    "def": "Merge sort splits the array in half, sorts each half recursively, and merges the two sorted halves into one sorted sequence.",
+    "exp": "Divide is trivial (compute the midpoint); the work is in the merge. Merging two sorted runs of lengths p and q uses two pointers, repeatedly copying the smaller front element to the output, then draining whatever remains. It needs at most p + q - 1 comparisons and exactly p + q moves.\n\nTrace on 38 27 43 3. Split to (38 27) and (43 3). Sort to (27 38) and (3 43). Merge: 3, 27, 38, 43.\n\nThe recurrence is T(n) = 2T(n/2) + Theta(n), which by the Master theorem gives Theta(n log n). Crucially this holds for the best, average and worst case alike: the split does not depend on the data, so merge sort never degrades. It performs about n log2 n comparisons, and the recursion depth is log2 n.\n\nThe price is space. The array version needs a Theta(n) auxiliary buffer for merging, so it is not in-place; the recursion adds O(log n) stack. It is stable provided the merge takes from the left run when the two fronts are equal.\n\nOn linked lists merge sort is the natural choice: merging relinks nodes with O(1) extra space, and a bottom-up implementation avoids recursion entirely. It is also the basis of external sorting of files too large for memory.",
+    "facts": [
+      "Best = average = worst = Theta(n log n); merge sort's running time is input-independent.",
+      "Recurrence T(n) = 2T(n/2) + Theta(n).",
+      "Merging two sorted lists of sizes p and q needs at most p + q - 1 comparisons.",
+      "Array merge sort uses Theta(n) auxiliary space, so it is not in-place.",
+      "Stable if, on a tie, the element from the left run is taken first.",
+      "For linked lists it needs only O(1) or O(log n) extra space, since merging is pointer manipulation.",
+      "It is the standard algorithm for external sorting of data that does not fit in memory."
+    ],
+    "traps": [
+      "Merge sort is stable but NOT in-place; quick sort and heap sort are in-place but NOT stable. This pairing is the classic table distractor.",
+      "It has no bad input. Answers offering O(n^2) as merge sort's worst case are confusing it with quick sort.",
+      "Auxiliary space is Theta(n), not Theta(n log n): the buffer is reused level by level, not allocated per level.",
+      "In-place merge sort variants exist but are complicated and lose either stability or the clean n log n constant; the standard algorithm is not in-place.",
+      "Stability breaks if the merge takes from the right run on equality. If a question shows a merge that prefers the right list, it is unstable."
+    ],
+    "mnem": "Split to single elements, then merge upward.",
+    "rel": ["Quick sort", "Divide and conquer", "Sorting algorithm comparison table", "External sorting", "Insertion sort"]
+  },
+  {
+    "id": "U3b-10",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Quick sort",
+    "def": "Quick sort picks a pivot, partitions the array so that smaller elements lie left of the pivot and larger ones right, then sorts the two partitions recursively.",
+    "exp": "The work is in the partition; there is no combine step, because after partitioning the pivot is already in its final position. Lomuto's scheme takes the last element as pivot and sweeps once, keeping a boundary index; Hoare's scheme runs two pointers inward and does fewer swaps.\n\nTrace with pivot 4 on 7 2 1 8 6 3 5 4: elements below 4 go left (2 1 3), 4 sits at index 3, larger ones go right (7 8 6 5); recurse on each side.\n\nA balanced split gives T(n) = 2T(n/2) + Theta(n) = Theta(n log n), the average case, with a small constant that makes quick sort the fastest general-purpose in-memory sort in practice.\n\nThe worst case comes from maximally unbalanced partitions: if the pivot is the smallest or largest element every time, one side is empty and the other has n-1 elements, so T(n) = T(n-1) + Theta(n) = Theta(n^2). Concretely, with a fixed first- or last-element pivot this happens on data that is already sorted or reverse-sorted, and with Lomuto partitioning it also happens when all elements are equal. That is the standard exam answer: quick sort's worst case is on already-sorted input under naive pivot choice.\n\nRemedies: random pivot, median-of-three, or introsort, which switches to heap sort once recursion gets too deep.",
+    "facts": [
+      "Average and best case O(n log n); worst case O(n^2).",
+      "The worst case arises when partitioning is maximally unbalanced, i.e. the pivot is always the extreme element: with a first/last-element pivot this occurs on sorted or reverse-sorted input.",
+      "Worst-case recurrence T(n) = T(n-1) + Theta(n) = Theta(n^2).",
+      "Not stable in its usual in-place partition forms.",
+      "In-place for data movement, but recursion needs O(log n) stack on average and O(n) in the worst case.",
+      "Recursing on the smaller partition first bounds the stack at O(log n) even in the worst case.",
+      "Median-of-three and randomised pivots make the worst case improbable; introsort switches to heap sort to guarantee O(n log n).",
+      "With Lomuto partitioning, an array of all-equal keys triggers the O(n^2) worst case."
+    ],
+    "traps": [
+      "'Quick sort is O(n log n)' is only the average. Its worst case is O(n^2), and it is the only common O(n log n)-average sort with a quadratic worst case.",
+      "Already-sorted input is quick sort's WORST case with a naive pivot, while it is insertion sort's and flagged bubble sort's BEST case. Papers exploit this reversal constantly.",
+      "Quick sort is in-place but not stable; merge sort is stable but not in-place. Do not swap these.",
+      "Randomising the pivot does not remove the O(n^2) worst case; it only makes it vanishingly unlikely. The expected time becomes O(n log n) for every input.",
+      "The partition step is O(n) and the pivot lands in final position after ONE partition, not after the recursion; a question asking 'how many elements are in final position after the first pass' expects one.",
+      "Quick sort is faster than merge sort in practice because of cache behaviour and no auxiliary array, not because of a better asymptotic bound."
+    ],
+    "mnem": "Pivot, partition, recurse — worst case when the pivot is always extreme.",
+    "rel": ["Merge sort", "Heap sort", "Divide and conquer", "Sorting algorithm comparison table"]
+  },
+  {
+    "id": "U3b-11",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Heap sort",
+    "def": "Heap sort builds a max-heap from the array, then repeatedly swaps the root with the last unsorted element and re-heapifies, growing a sorted suffix.",
+    "exp": "Phase 1, build the heap. Treat the array as a complete binary tree where node i has children 2i+1 and 2i+2. Apply heapify (sift-down) to nodes from index n/2 - 1 down to 0. Although each heapify is O(log n), building bottom-up costs only O(n), because most nodes are near the leaves and sift down very little. Building instead by n successive insertions costs O(n log n).\n\nPhase 2, extract. Swap a[0] (the maximum) with a[n-1], shrink the heap by one, and sift down the new root, O(log n). Repeat n-1 times, costing O(n log n). Total: O(n) + O(n log n) = O(n log n).\n\nBecause both phases are data-independent in their bounds, best, average and worst case are all O(n log n). Unlike quick sort there is no bad input, and unlike merge sort there is no auxiliary array: heap sort is in-place with O(1) extra space, and iterative sift-down needs no recursion stack.\n\nIt is not stable: sifting moves elements over long distances and can reorder equal keys. In practice it is slower than quick sort on typical data because its access pattern jumps around the array and defeats the cache, but its guaranteed bound makes it the fallback inside introsort.",
+    "facts": [
+      "Best = average = worst = O(n log n).",
+      "Bottom-up heap construction (Floyd's method) is O(n), not O(n log n).",
+      "The extraction phase performs n-1 delete-max operations, each O(log n).",
+      "In-place with O(1) auxiliary space.",
+      "Not stable.",
+      "A max-heap is used to sort ascending; the maximum is swapped to the end each time.",
+      "For 0-based indexing, node i has children at 2i+1 and 2i+2 and parent at floor((i-1)/2).",
+      "Heapify starts at index floor(n/2) - 1, the last internal node; leaves need no sifting."
+    ],
+    "traps": [
+      "Building the heap is O(n), but the whole sort is O(n log n). Answering O(n) for heap sort because heap construction is O(n) is a standard error.",
+      "Heap sort is in-place but not stable. Merge sort is the reverse. Selection sort is also unstable, and heap sort is essentially selection sort with a heap.",
+      "Use a MAX-heap for ascending output. A min-heap in an in-place heap sort produces descending order.",
+      "Heap sort has no worst-case degradation, so it is not the answer to 'which O(n log n) sort can become O(n^2)' — that is quick sort.",
+      "A heap is only partially ordered. The array after phase 1 is a valid heap but is NOT sorted, and a heap's in-order traversal is not sorted either."
+    ],
+    "mnem": "Build once in O(n), then extract n times at O(log n).",
+    "rel": ["Selection sort", "Binary heap and priority queue", "Quick sort", "Sorting algorithm comparison table"]
+  },
+  {
+    "id": "U3b-12",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Shell sort",
+    "def": "Shell sort is insertion sort applied to elements spaced a gap apart, with the gap shrinking to 1 so that the final pass is an ordinary insertion sort on nearly sorted data.",
+    "exp": "Insertion sort is slow because an element far from its home must be shifted one place at a time. Shell sort (D. L. Shell, 1959) fixes this by first sorting sub-sequences of elements h positions apart, letting items jump long distances cheaply. When h reaches 1 the array is already nearly sorted, so the closing insertion pass is close to linear.\n\nAlgorithm: for each gap h in a decreasing sequence ending at 1, run insertion sort over a[i], a[i-h], a[i-2h], ... for i = h to n-1. An h-sorted array stays h-sorted after later, smaller-gap passes, which is why the work never has to be redone.\n\nComplexity depends entirely on the gap sequence, and this is the examinable part. Shell's original halving sequence n/2, n/4, ..., 1 has worst case Theta(n^2), because the gaps share factors and even-indexed and odd-indexed elements never compare until the last pass. Hibbard's 2^k - 1 (1, 3, 7, 15, ...) gives Theta(n^(3/2)). Knuth's 1, 4, 13, 40, ... (h = 3h + 1) is commonly quoted at about O(n^(3/2)) and is the usual practical choice. Sedgewick's sequences reach O(n^(4/3)). The average case for general gap sequences is not known in closed form.",
+    "facts": [
+      "Shell sort is a generalisation of insertion sort using diminishing gaps ending at 1.",
+      "Worst case with Shell's original n/2 halving sequence is Theta(n^2).",
+      "Hibbard's gaps 2^k - 1 give a worst case of Theta(n^(3/2)).",
+      "Knuth's sequence h = 3h + 1 (1, 4, 13, 40, ...) is the common practical choice, usually quoted around O(n^(3/2)).",
+      "In-place, O(1) auxiliary space.",
+      "Not stable, because comparisons and moves span non-adjacent positions.",
+      "The last gap must be 1, otherwise the array is not guaranteed sorted.",
+      "The average-case complexity of Shell sort for a general gap sequence is still an open problem."
+    ],
+    "traps": [
+      "Shell sort is NOT stable, even though insertion sort is. Long-distance moves reorder equal keys. This is the commonest Shell sort MCQ.",
+      "Its complexity is not a single fixed value. Quoting 'O(n log n)' or 'O(n^2)' without naming the gap sequence is what the question is testing; match the answer to the stated sequence.",
+      "Gaps must decrease to exactly 1. Stopping at gap 2 leaves the array unsorted.",
+      "Shell sort is not a divide-and-conquer algorithm and involves no recursion.",
+      "Best case is often quoted as O(n log n) rather than O(n); the gap passes still traverse the array once per gap.",
+      "The halving sequence performs badly precisely because its gaps are not relatively prime; a question about 'why is n/2 a poor choice' wants that reason."
+    ],
+    "mnem": "Insertion sort with long-distance jumps, gap shrinking to 1.",
+    "rel": ["Insertion sort", "Sorting algorithm comparison table", "Bubble sort", "Quick sort"]
+  },
+  {
+    "id": "U3b-13",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Counting sort",
+    "def": "Counting sort sorts integer keys drawn from a small known range by counting occurrences of each key value and using the running totals as output positions.",
+    "exp": "Let the keys be integers in 0..k-1. Three steps: (1) count[v] = number of elements with key v, one pass over the input, O(n); (2) turn count into a prefix sum, so count[v] is the number of elements with key <= v, O(k); (3) walk the input from RIGHT to LEFT, placing each element at output[--count[key]]. Total O(n + k) time and O(n + k) space.\n\nTrace with keys in 0..3 on 2 0 2 1. Counts: 1 1 2 0. Prefix: 1 2 4 4. Scanning right to left: 1 goes to index 1, 2 goes to index 3, 0 goes to index 0, 2 goes to index 2. Output 0 1 2 2.\n\nIt beats the Omega(n log n) comparison bound because it never compares two keys; it uses each key as an array index. That is only legal when keys are small non-negative integers (or map to them). It is linear only while k is O(n): sorting a million 32-bit integers by direct counting would need a table of four billion entries.\n\nThe right-to-left final pass is what makes it stable, and that stability is precisely what radix sort depends on.",
+    "facts": [
+      "Time O(n + k) and space O(n + k), where k is the size of the key range.",
+      "Linear only when k = O(n); for k much larger than n it is worse than a comparison sort.",
+      "Stable, provided the output pass scans the input from right to left after prefix-summing.",
+      "Not in-place: it needs an output array of size n plus a count array of size k.",
+      "It is not comparison-based, so the Omega(n log n) bound does not apply to it.",
+      "Requires keys that are (or map to) non-negative integers in a known range.",
+      "It is the standard stable subroutine used inside LSD radix sort."
+    ],
+    "traps": [
+      "Counting sort is O(n + k), not O(n). If a question sets k = n^2, the answer is O(n^2).",
+      "It is stable only in the right-to-left implementation. Scanning left to right after prefix sums reverses equal elements and breaks radix sort built on it.",
+      "It is not in-place, so 'linear time and constant space' is wrong.",
+      "It cannot sort arbitrary comparable data such as floats or strings by direct counting; it needs integer keys in a bounded range.",
+      "Counting sort does not violate the Omega(n log n) lower bound, because that bound only constrains comparison-based algorithms."
+    ],
+    "mnem": "Count, prefix-sum, place from the right.",
+    "rel": ["Radix and bucket sort", "Lower bound for comparison sorting", "Sorting algorithm comparison table"]
+  },
+  {
+    "id": "U3b-14",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Radix sort and bucket sort",
+    "def": "Radix sort sorts numbers digit by digit using a stable sort at each digit position, while bucket sort scatters elements into ranges, sorts each bucket, and concatenates them.",
+    "exp": "Radix sort, LSD form: for each digit position from least significant to most significant, stably sort the whole array on that digit, usually with counting sort. After processing all d digits the array is fully sorted. With base b, cost is O(d * (n + b)) time and O(n + b) space. For n numbers of at most d digits in base 10, that is O(d(n + 10)). If d is constant, this is linear.\n\nTrace on 170 45 75 90. Units digits 0 5 5 0 give 170 90 45 75. Tens digits 7 9 4 7 give 45 170 75 90 (170 stays before 75 because the previous pass placed it there and the sort is stable). Hundreds digits 0 1 0 0 give 45 75 90 170. The stability of each pass is what preserves the ordering established by the previous, less significant digits.\n\nBucket sort: with n keys assumed uniformly distributed over an interval, create about n buckets, scatter each key into its bucket in O(1), sort each bucket (usually with insertion sort), and concatenate. If the keys really are uniform the expected cost is O(n); if they all land in one bucket the cost degenerates to whatever the inner sort costs on n items, O(n^2) with insertion sort.\n\nBoth beat O(n log n) only by exploiting key structure, never by comparing better.",
+    "facts": [
+      "LSD radix sort: O(d(n + b)) time for d digits in base b; O(n + b) auxiliary space.",
+      "Radix sort requires the per-digit sort to be STABLE; counting sort is the usual choice.",
+      "LSD radix sort must process digits from least significant to most significant.",
+      "Radix sort is stable and is not in-place.",
+      "Bucket sort has expected O(n) time under a uniform-distribution assumption, and O(n^2) worst case when insertion sort is used inside a single overloaded bucket.",
+      "Bucket sort is stable if the per-bucket sort is stable; it is not in-place.",
+      "Increasing the radix b reduces the number of passes d but enlarges the count array; b is a time-space trade-off."
+    ],
+    "traps": [
+      "Radix sort is not unconditionally O(n). With d = O(log n) digits, as for distinct integers, it is O(n log n); calling it 'linear' regardless of d is wrong.",
+      "If the per-digit sort is not stable, LSD radix sort produces a wrong result. This is the most-asked radix sort question.",
+      "MSD radix sort exists but works differently: it partitions recursively by the most significant digit and does not need each pass to be globally stable in the same way.",
+      "Bucket sort's O(n) is an average under the uniform-distribution assumption, not a worst case. Skewed input destroys it.",
+      "Neither algorithm is in-place, and neither contradicts the Omega(n log n) comparison lower bound.",
+      "Radix sort on plain negative numbers needs an offset or sign handling; the digit extraction assumes non-negative keys."
+    ],
+    "mnem": "Radix: least significant digit first, stably. Bucket: scatter, sort, concatenate.",
+    "rel": ["Counting sort", "Lower bound for comparison sorting", "Insertion sort", "Sorting algorithm comparison table"]
+  },
+  {
+    "id": "U3b-15",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Sorting algorithm comparison table",
+    "def": "A single reference table of best, average and worst-case time, auxiliary space, stability and in-place status for the standard sorting algorithms.",
+    "exp": "Columns: Best | Average | Worst | Auxiliary space | Stable | In-place.\n\nBubble: O(n) with flag, else O(n^2) | O(n^2) | O(n^2) | O(1) | Yes | Yes\nSelection: O(n^2) | O(n^2) | O(n^2) | O(1) | No | Yes\nInsertion: O(n) | O(n^2) | O(n^2) | O(1) | Yes | Yes\nShell: depends on gaps, often quoted O(n log n) | gap-dependent | O(n^2) with n/2 gaps, O(n^1.5) with Hibbard | O(1) | No | Yes\nMerge: O(n log n) | O(n log n) | O(n log n) | O(n) | Yes | No\nQuick: O(n log n) | O(n log n) | O(n^2) | O(log n) stack average, O(n) worst | No | Yes\nHeap: O(n log n) | O(n log n) | O(n log n) | O(1) | No | Yes\nCounting: O(n+k) | O(n+k) | O(n+k) | O(n+k) | Yes | No\nRadix (LSD): O(d(n+b)) in all cases | | | O(n+b) | Yes | No\nBucket: O(n+k) | O(n+k) | O(n^2) | O(n+k) | Yes if inner sort is | No\n\nRead the pattern rather than memorising cells. Stable: bubble, insertion, merge, counting, radix, bucket. Unstable: selection, shell, quick, heap. In-place: all the simple sorts plus shell, quick and heap. Not in-place: merge and all three non-comparison sorts. Quick sort is the only common sort whose average and worst case differ in order.",
+    "facts": [
+      "Stable sorts: bubble, insertion, merge, counting, radix, bucket (if its inner sort is stable).",
+      "Unstable sorts: selection, shell, quick, heap.",
+      "Not in-place: merge sort, counting sort, radix sort, bucket sort. All others are in-place.",
+      "Only quick sort among the common O(n log n)-average sorts has an O(n^2) worst case.",
+      "Merge sort and heap sort are O(n log n) in all three cases; heap sort adds O(1) space, merge sort needs O(n).",
+      "O(n) best case belongs to insertion sort and to bubble sort with the early-exit flag only.",
+      "Selection sort's best case is still O(n^2), the only simple sort with no adaptive behaviour."
+    ],
+    "traps": [
+      "The single most common distractor pair: merge sort is stable but not in-place; quick sort and heap sort are in-place but not stable. Reversing either half is a wrong answer.",
+      "Selection sort is unstable while bubble and insertion are stable. Candidates assume all three simple sorts behave alike; they do not.",
+      "Shell sort is unstable although it is built from insertion sort, which is stable.",
+      "Quick sort's O(log n) space is recursion stack, not data movement. It is still called in-place; do not mark it 'not in-place' because of the stack.",
+      "Bubble sort's O(n) best case is conditional on the swapped flag. Without it, bubble sort has no O(n) case at all.",
+      "Heap sort is O(n log n) in the worst case; only heap CONSTRUCTION is O(n)."
+    ],
+    "mnem": "Stable set = {bubble, insertion, merge, counting, radix, bucket}; everything else reorders equal keys.",
+    "rel": ["Merge sort", "Quick sort", "Heap sort", "Insertion sort", "Lower bound for comparison sorting"]
+  },
+  {
+    "id": "U3b-16",
+    "paper": "TECH1",
+    "unit": "3",
+    "unitTitle": "Data Structures and Algorithms",
+    "sub": "Lower bound for comparison sorting",
+    "def": "Any sorting algorithm that orders elements only by comparing pairs of keys must make Omega(n log n) comparisons in the worst case.",
+    "exp": "Model any comparison sort as a decision tree. Each internal node is one comparison a[i] <= a[j], each of the two edges is an outcome, and each leaf is one permutation that the algorithm can output. To sort correctly the tree must have at least n! leaves, one for every possible input ordering. A binary tree with L leaves has height at least log2 L, and the height is exactly the number of comparisons on the worst-case input. Therefore\n\nworst-case comparisons >= log2(n!) = ceil(log2 n!).\n\nBy Stirling's approximation log2(n!) is approximately n*log2(n) - n*log2(e), which is Theta(n log n). Hence the bound Omega(n log n). Merge sort and heap sort achieve it, so it is tight.\n\nSmall cases: n = 3 needs ceil(log2 6) = 3 comparisons; n = 4 needs ceil(log2 24) = 5; n = 5 needs ceil(log2 120) = 7.\n\nWhy counting, radix and bucket sort escape it: they never compare two keys against each other. They use a key as an array index, or as a bucket number, extracting information from the key's internal structure. The decision-tree model does not describe them, so the theorem simply does not apply. That is not a loophole; it is a different, stronger assumption about the input, namely that keys are small bounded integers or drawn from a known distribution.",
+    "facts": [
+      "Worst-case comparisons for any comparison sort >= ceil(log2(n!)) = Omega(n log n).",
+      "The proof uses a decision tree that must have at least n! leaves and therefore height at least log2(n!).",
+      "Stirling gives log2(n!) approximately n log2 n - 1.44n, so the bound is Theta(n log n).",
+      "Merge sort and heap sort meet the bound asymptotically, so Theta(n log n) is optimal for comparison sorts.",
+      "The information-theoretic minimum is 3 comparisons for n = 3, 5 for n = 4 and 7 for n = 5.",
+      "Counting, radix and bucket sort are not comparison-based, so the bound does not bind them.",
+      "The same decision-tree argument gives the Omega(log n) lower bound for comparison-based searching in a sorted array."
+    ],
+    "traps": [
+      "The bound is on COMPARISONS in a COMPARISON-based model. Saying 'no sorting algorithm can be faster than O(n log n)' is wrong; radix sort can be linear.",
+      "Non-comparison sorts do not break the theorem; they fall outside its assumptions by requiring bounded integer keys or a distribution assumption.",
+      "It is a worst-case bound. It does not forbid an O(n) best case, which insertion sort attains on sorted input.",
+      "Omega(n log n) is a lower bound, O(n log n) an upper bound. Merge sort is Theta(n log n) because both hold; using Omega and O interchangeably loses the mark.",
+      "ceil(log2(n!)) is a lower bound and is not always achievable: it is met for small n, but no comparison sort achieves exactly ceil(log2 n!) for every n."
+    ],
+    "mnem": "n! outcomes need log2(n!) yes/no answers.",
+    "rel": ["Merge sort", "Heap sort", "Counting sort", "Radix and bucket sort", "Sorting algorithm comparison table"]
+  }
+]

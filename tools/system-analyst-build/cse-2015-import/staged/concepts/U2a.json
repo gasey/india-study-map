@@ -1,0 +1,514 @@
+[
+  {
+    "id": "U2a-01",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Functional units and the von Neumann model",
+    "def": "A digital computer is built from five functional units — input, memory, arithmetic-logic, output and control — and the von Neumann model is the arrangement in which program instructions and data share one read-write memory.",
+    "exp": "The five classical functional units are: input (brings data in), memory (stores instructions and data), arithmetic and logic unit or ALU (performs add, subtract, AND, OR, shift), output (delivers results), and control (issues the signals that make every other unit act at the right instant). The ALU together with the control unit and the processor registers forms the central processing unit; memory plus input/output sit around it. Registers are the fast storage locations found inside both the ALU section and the control section — an exam favourite phrasing. The von Neumann or stored-program model has three defining properties: one memory holds both instructions and data, instructions are fetched and executed one at a time in sequence unless a branch changes the flow, and an instruction is distinguished from a datum only by how the control unit uses it. The consequence is the von Neumann bottleneck: because instructions and operands travel over the same path to the same memory, memory bandwidth caps performance no matter how fast the ALU is. The Harvard architecture is the contrast — separate instruction memory and data memory, with separate buses, so an instruction fetch and a data access can overlap. Most modern CPUs are von Neumann externally but Harvard internally (split L1 instruction and data caches), which is called a modified Harvard organisation.",
+    "facts": [
+      "Five functional units: input, memory, ALU, output, control.",
+      "CPU = ALU + control unit + registers; memory and I/O are outside it.",
+      "Registers are the storage locations used inside both the ALU and the control section.",
+      "Von Neumann: a single memory holds both program and data (stored-program concept).",
+      "Von Neumann bottleneck: instruction and data traffic share one memory path.",
+      "Harvard architecture uses physically separate instruction and data memories/buses.",
+      "Architecture = what the programmer sees (instruction set, registers); organisation = how it is realised (buses, control, timing)."
+    ],
+    "traps": [
+      "'Architecture' vs 'organisation' is examined directly: two machines can share an architecture (same instruction set) but differ completely in organisation.",
+      "The control unit is not part of the ALU — questions listing 'ALU, control unit, registers' as three separate CPU parts are correct.",
+      "Von Neumann does not mean 'one bus'; it means one memory address space for code and data. A machine can have several buses and still be von Neumann.",
+      "Modern CPUs with split L1 caches are still called von Neumann machines overall — the option 'pure Harvard' is usually wrong for a general-purpose PC.",
+      "Input and output units are functional units of the computer, but they are not part of the CPU."
+    ],
+    "mnem": "Five units: I-M-A-O-C — Input, Memory, ALU, Output, Control.",
+    "rel": [
+      "Computer registers — AR, PC, DR, AC, IR, TR",
+      "Common bus system and tri-state buffers",
+      "Instruction cycle and interrupt cycle",
+      "Hardwired control unit"
+    ]
+  },
+  {
+    "id": "U2a-02",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Computer registers — AR, PC, DR, AC, IR, TR",
+    "def": "The basic computer's registers are AR (memory address), PC (address of the next instruction), DR (data read from memory), AC (accumulator, the ALU's working register), IR (the instruction currently being executed) and TR (scratch storage for the control unit).",
+    "exp": "Mano's basic computer has 4096 words of 16 bits, so addresses are 12 bits wide. Learn each register by its one-line job:\n\nAR — Address Register, 12 bits. Holds the memory address currently being accessed. Every memory read or write goes through AR.\nPC — Program Counter, 12 bits. Holds the address of the *next* instruction; it is the register that keeps track of where execution has reached. It is incremented during fetch and overwritten by a branch.\nDR — Data Register, 16 bits. Holds the operand word just read from memory, or the word about to be written.\nAC — Accumulator, 16 bits. The processor register of the ALU: results of arithmetic and logic land here.\nIR — Instruction Register, 16 bits. Holds the instruction code being decoded and executed. Its opcode bits feed the decoder.\nTR — Temporary Register, 16 bits. Scratch space used by the control unit during multi-step operations; not visible to the programmer.\nINPR and OUTR — 8-bit input and output registers, the interface to the I/O device.\nAdditional flip-flops: E (extended accumulator / carry-out bit), I (indirect-address bit), S (start-stop), IEN (interrupt enable), FGI and FGO (input and output flags), R (interrupt flip-flop).",
+    "facts": [
+      "PC holds the address of the next instruction to be executed — not the current one.",
+      "AR is 12 bits; DR, AC, IR and TR are 16 bits in Mano's basic computer.",
+      "IR holds the instruction being executed; its opcode bits drive the 3-to-8 decoder.",
+      "AC is the ALU's accumulator; E is the 1-bit extension used for carry-out and shifts.",
+      "INPR and OUTR are 8 bits — one character each.",
+      "TR is invisible to the programmer; there is no instruction that names it.",
+      "Memory is 4096 × 16, hence the 12-bit address field in an instruction."
+    ],
+    "traps": [
+      "'The register that keeps track of execution and contains the address of the next instruction' is the PC — not the IR, which holds the instruction itself.",
+      "'Used as storage locations both in the ALU and in the control section' — the answer is register (generic), not accumulator.",
+      "AR holds an address, DR holds data. Questions swap these deliberately.",
+      "By the time an instruction is executing, PC has already been incremented, so PC does not point at the instruction in IR.",
+      "AC is 16 bits but AR is only 12 — a question asking 'which register is 12 bits' means AR or PC, not AC or IR."
+    ],
+    "mnem": "AR = Address, DR = Data, IR = Instruction, PC = Points to next, AC = Accumulates, TR = Temporary.",
+    "rel": [
+      "Functional units and the von Neumann model",
+      "Common bus system and tri-state buffers",
+      "Instruction fetch and decode in RTL",
+      "MAR, MBR and the memory read/write cycle"
+    ]
+  },
+  {
+    "id": "U2a-03",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "RTL notation and micro-operations",
+    "def": "Register Transfer Language is the symbolic notation used to specify the elementary data movements inside a computer, and a micro-operation is one such elementary operation executed on register contents in a single clock pulse.",
+    "exp": "RTL replaces block diagrams and prose with a compact statement of exactly what moves where and when. The rules:\n\n• Registers are written in capitals: AR, PC, R1.\n• A bit range is written R1(0-7) or PC(L) for a part of a register.\n• `R2 ← R1` means the contents of R1 are copied into R2; R1 is unchanged.\n• A control condition is written before a colon: `P: R2 ← R1` means the transfer happens only when the control function P equals 1.\n• Two micro-operations separated by a comma occur simultaneously in the same clock pulse: `T1: AC ← DR, DR ← AC` is a legal exchange, because both source values are read before either destination is loaded.\n• Memory is written M, addressed by AR: `DR ← M[AR]` is a read, `M[AR] ← DR` is a write.\n\nA micro-operation is what one clock pulse can accomplish: a transfer over the bus, an add in the ALU, a shift, an increment. An instruction is built from a sequence of micro-operations; the control unit's whole job is to emit, in order, the control signals that cause them. So RTL is simultaneously a specification language for the hardware designer and the readable form of the control unit's behaviour.",
+    "facts": [
+      "One micro-operation completes within one clock pulse.",
+      "`←` denotes transfer; the source register is not destroyed.",
+      "A comma separates micro-operations that occur in the SAME clock pulse, in parallel.",
+      "`P: R2 ← R1` — the label before the colon is the control function, a Boolean condition.",
+      "`M[AR]` denotes the memory word addressed by AR.",
+      "A colon-separated control function and its micro-operation together describe one hardware control signal.",
+      "Instructions are decomposed into micro-operations; micro-operations are not further decomposable in one clock."
+    ],
+    "traps": [
+      "Comma means simultaneous, not sequential. `T0: A ← B, B ← A` swaps correctly; readers who treat it as two sequential steps get both registers equal to B and answer wrongly.",
+      "Semicolon or a new timing variable (T0, T1) marks sequence; the comma never does.",
+      "`R2 ← R1` copies, it does not move — R1 still holds its old value afterwards.",
+      "Two micro-operations that write the same destination in the same clock cannot be comma-separated; that is a hardware conflict, not shorthand.",
+      "RTL is a specification notation, not a programming language that runs on the machine — do not confuse it with assembly language."
+    ],
+    "mnem": "",
+    "rel": [
+      "Types of micro-operations",
+      "Timing signals and the sequence counter",
+      "Instruction fetch and decode in RTL",
+      "Common bus system and tri-state buffers"
+    ]
+  },
+  {
+    "id": "U2a-04",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Types of micro-operations",
+    "def": "Micro-operations fall into four classes: register transfer, arithmetic, logic and shift.",
+    "exp": "Register-transfer micro-operations move binary information between registers and change no bits: `R2 ← R1`. They are the only class that does not involve a functional circuit.\n\nArithmetic micro-operations operate on numbers. The standard set is add (`R3 ← R1 + R2`), subtract (`R3 ← R1 + R2' + 1`, i.e. add the 2's complement), increment (`R1 ← R1 + 1`), decrement (`R1 ← R1 - 1`) and 1's complement (`R2 ← R1'`). Multiply and divide are not basic micro-operations — they are implemented as sequences of add and shift.\n\nLogic micro-operations treat each bit independently: AND (`R3 ← R1 ∧ R2`), OR (`R3 ← R1 ∨ R2`), XOR (`R3 ← R1 ⊕ R2`) and complement. Their exam value is bit manipulation: AND with a mask clears selected bits, OR with a mask sets selected bits, XOR with a mask complements selected bits, and XOR is also the selective-comparison operation (result zero means equal). With n = 2 inputs there are 16 possible logic functions of two variables.\n\nShift micro-operations move bits sideways. Logical shift feeds in 0 (`R ← shl R`, `R ← shr R`); circular shift wraps the bit that falls out back into the vacated end (`cil`, `cir`); arithmetic shift preserves the sign bit — arithmetic right shift replicates the sign, and an arithmetic left shift causes overflow if the sign bit changes.",
+    "facts": [
+      "Four classes: register transfer, arithmetic, logic, shift.",
+      "Subtraction is done as R1 + R2' + 1 (2's complement addition).",
+      "AND with a mask clears bits; OR sets bits; XOR complements bits.",
+      "XOR of two equal operands gives all zeros — the basis of a compare.",
+      "There are 16 distinct logic micro-operations of two binary variables.",
+      "Logical shift inserts 0; circular shift wraps the bit around; arithmetic shift preserves the sign bit.",
+      "Arithmetic right shift by one divides a signed number by 2; left shift by one multiplies by 2.",
+      "Multiplication and division are not micro-operations; they are sequences of add/subtract and shift."
+    ],
+    "traps": [
+      "Register-transfer micro-operations do NOT change the data — only the four arithmetic/logic/shift classes transform bits.",
+      "'Selective set' uses OR, 'selective clear' uses AND with the complemented mask, 'selective complement' uses XOR. These three are routinely swapped in options.",
+      "Circular shift and logical shift differ only in what enters the vacated position — 0 for logical, the ejected bit for circular.",
+      "Arithmetic left shift can overflow (sign change); arithmetic right shift never does.",
+      "Increment and decrement are arithmetic micro-operations even though no second operand register is involved."
+    ],
+    "mnem": "Four types: Transfer, Arithmetic, Logic, Shift — 'TALS'.",
+    "rel": [
+      "RTL notation and micro-operations",
+      "Computer registers — AR, PC, DR, AC, IR, TR",
+      "Common bus system and tri-state buffers"
+    ]
+  },
+  {
+    "id": "U2a-05",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Common bus system and tri-state buffers",
+    "def": "A common bus is a shared set of lines over which exactly one source register at a time places its contents for one or more destination registers to receive, built either from multiplexers or from tri-state buffers.",
+    "exp": "Point-to-point wiring between n registers needs an impractical number of paths, so registers share one bus. Two constructions give the same behaviour:\n\nMultiplexer construction. For a 16-bit bus fed by 8 sources you need 16 multiplexers, each 8-to-1, each handling one bit position. Bit i of the bus is the output of MUX i, whose eight inputs are bit i of the eight registers. All the multiplexers share the same select lines, so a single 3-bit select code S2S1S0 chooses which register drives the whole bus. In Mano's basic computer the codes are 000 = nothing, 001 = AR, 010 = PC, 011 = DR, 100 = AC, 101 = IR, 110 = TR, 111 = memory unit.\n\nTri-state buffer construction. A tri-state buffer has a control input that puts its output into a high-impedance (open-circuit) state, so many buffers can be wired to the same line provided only one is enabled. One decoder drives the enables, guaranteeing exactly one source. This is cheaper in wiring and is what real bus hardware uses.\n\nSelecting a source and loading a destination are separate acts: the select lines pick who talks, the LD control input of the receiving register picks who listens. `AR ← PC` therefore means select-PC plus load-AR in the same clock pulse.",
+    "facts": [
+      "A bus with 2^k sources of n bits needs n multiplexers, each 2^k-to-1, sharing k select lines.",
+      "In Mano's basic computer S2S1S0 selects: 1=AR, 2=PC, 3=DR, 4=AC, 5=IR, 6=TR, 7=memory.",
+      "A tri-state buffer's third state is high impedance — effectively disconnected, not logic 0.",
+      "Only one source may drive the bus at a time; more than one causes bus contention.",
+      "Any number of destination registers may load from the bus simultaneously.",
+      "The decoder enabling tri-state buffers guarantees single-source selection by construction."
+    ],
+    "traps": [
+      "The high-impedance state is NOT logic 0 and NOT logic 1 — options offering 'output 0' for a disabled tri-state buffer are wrong.",
+      "Number of multiplexers = bus width (bits), not number of registers. For 16-bit bus with 8 registers: 16 multiplexers of size 8-to-1, not 8 multiplexers.",
+      "Select code 000 selects nothing in Mano's table — the register numbering starts at 001 = AR, so 'AC' is 100, not 011.",
+      "Multiple destinations loading at once is legal; multiple sources driving at once is a fault. Questions test which direction is restricted.",
+      "The bus and the memory are separate: memory is one of the sources on the bus, addressed by AR, not the bus itself."
+    ],
+    "mnem": "Bus source order in Mano: AR, PC, DR, AC, IR, TR, Memory — 'A Pretty Dumb Accumulator Instructs Twenty Machines'.",
+    "rel": [
+      "Computer registers — AR, PC, DR, AC, IR, TR",
+      "MAR, MBR and the memory read/write cycle",
+      "RTL notation and micro-operations"
+    ]
+  },
+  {
+    "id": "U2a-06",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "MAR, MBR and the memory read/write cycle",
+    "def": "The memory address register holds the address of the memory location being accessed and the memory buffer (data) register holds the word being read from or written to that location; together with the read/write control line they define every memory cycle.",
+    "exp": "Two registers form the CPU's entire interface to memory. MAR (called AR in Mano's basic computer) is as wide as the address space — 12 bits for 4096 words. MBR, also called MDR (memory data register), is as wide as the memory word — 16 bits.\n\nRead cycle: MAR ← address; assert Read; the memory decodes MAR, drives the addressed word onto the data lines; MBR ← M[MAR]. In RTL the whole thing collapses to `DR ← M[AR]`, because AR was loaded in a previous clock.\n\nWrite cycle: MAR ← address; MBR ← data; assert Write; the memory stores MBR into the addressed word. In RTL: `M[AR] ← DR`.\n\nTwo timings are examined and confused. Access time is the interval from presenting the address to the data becoming available. Memory cycle time is the minimum interval between the starts of two successive accesses, and it is greater than or equal to access time — for destructive-readout technologies such as core memory it is strictly greater, because the word must be written back before the next access.\n\nSince AR feeds the address lines, every memory operation in the basic computer must be preceded by loading AR. That is why the fetch phase begins with `AR ← PC` rather than reading memory directly.",
+    "facts": [
+      "MAR width determines the number of addressable locations: k bits address 2^k words.",
+      "MBR/MDR width equals the memory word length.",
+      "Read: DR ← M[AR]. Write: M[AR] ← DR.",
+      "In Mano's basic computer AR plays the MAR role; DR plays the MBR role.",
+      "Access time ≤ memory cycle time; they are equal only for non-destructive readout memory.",
+      "Total memory capacity in bits = 2^(MAR width) × (MBR width).",
+      "A memory-reference instruction needs at least two memory accesses: one to fetch it, one for its operand."
+    ],
+    "traps": [
+      "Access time and cycle time are not the same. Cycle time is the larger of the two; for core memory the difference is the mandatory restore write.",
+      "MAR width sets the number of locations, MBR width sets the size of each — a 12-bit MAR with 16-bit MBR gives 4096 words = 65,536 bits, not 4096 bits.",
+      "MAR and MBR are not programmer-visible registers; no instruction names them.",
+      "Reading from core memory is destructive, so the read cycle includes a write-back; reading from semiconductor RAM is not.",
+      "The address must be in MAR *before* the read is asserted — questions that put the address on the data lines are describing the wrong register."
+    ],
+    "mnem": "MAR = where, MBR = what.",
+    "rel": [
+      "Computer registers — AR, PC, DR, AC, IR, TR",
+      "Common bus system and tri-state buffers",
+      "Instruction fetch and decode in RTL",
+      "Direct vs indirect; effective address"
+    ]
+  },
+  {
+    "id": "U2a-07",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Timing signals and the sequence counter",
+    "def": "Timing signals T0, T1, T2, … are the mutually exclusive outputs of a decoder driven by a sequence counter, and every control signal in the machine is formed as a Boolean product of a timing signal with decoded instruction bits.",
+    "exp": "The control unit needs to know 'which step of the current instruction am I on'. A 4-bit sequence counter SC feeding a 4-to-16 decoder answers that: exactly one of T0…T15 is 1 at a time. SC increments on every clock pulse, so the active timing signal walks T0 → T1 → T2 → …. When the instruction finishes, the control asserts SC ← 0, which forces the next timing signal back to T0 and starts the next instruction. An instruction therefore takes only as many clock pulses as it needs — the counter is cleared early rather than counting all the way to T15.\n\nIn parallel, the opcode bits IR(12-14) go through a 3-to-8 decoder producing D0…D7, and IR(15) is stored in the flip-flop I. A control signal is then simply an AND of these: for example the ADD instruction's operand fetch is `D2T4: DR ← M[AR]`, and the clear is `D2T5: AC ← AC + DR, SC ← 0`.\n\nThe register transfers themselves occur on the positive edge of the clock. During the clock period the combinational control logic settles; at the edge, every enabled register loads and SC changes. That separation is why several micro-operations can be listed with commas for the same timing signal.",
+    "facts": [
+      "SC is a 4-bit counter; its decoder produces 16 mutually exclusive timing signals T0–T15.",
+      "Exactly one timing signal is active at any moment.",
+      "SC ← 0 at the end of an instruction resets the sequence to T0 for the next instruction.",
+      "Opcode bits IR(12-14) are decoded to D0–D7; IR(15) is the mode bit I.",
+      "A control function has the form D_i T_j (optionally with I), e.g. D2T5.",
+      "Register loads and the counter update happen on the same clock edge.",
+      "Different instructions take different numbers of clock pulses because SC is cleared as soon as the work is done."
+    ],
+    "traps": [
+      "T0…T15 are decoder outputs, so they are mutually exclusive — two timing signals can never be 1 together.",
+      "SC counts clock pulses within one instruction, not instructions. It is not a program counter.",
+      "Clearing SC does not clear PC or any data register; only the timing sequence restarts.",
+      "D0–D7 come from three opcode bits, so there are only 8 opcodes — D7 is shared by all register-reference and I/O instructions.",
+      "SC increments unless cleared; there is no 'jump' in the timing sequence except via the clear."
+    ],
+    "mnem": "",
+    "rel": [
+      "Hardwired control unit",
+      "Instruction cycle and interrupt cycle",
+      "Instruction fetch and decode in RTL",
+      "Instruction types in the basic computer"
+    ]
+  },
+  {
+    "id": "U2a-08",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Instruction cycle and interrupt cycle",
+    "def": "The instruction cycle is the repeated sequence fetch → decode → determine the operand address → execute, extended by an interrupt cycle that saves the return address and diverts control when an enabled interrupt is pending.",
+    "exp": "Every instruction goes through the same four phases:\n1. Fetch the instruction from memory into IR and advance PC.\n2. Decode the opcode and, for a memory-reference instruction, extract the address field.\n3. Determine the effective address — if the mode bit indicates indirect addressing, read memory once more to obtain the real address.\n4. Execute the instruction: perform the micro-operations that carry out its meaning.\n\nAfter step 4 the control returns to step 1. In the basic computer phases 1–3 occupy T0, T1, T2 and T3; execution starts at T4.\n\nThe interrupt cycle is inserted between instructions, never in the middle of one. A flip-flop R is set when an interrupt is pending and interrupts are enabled (IEN = 1 with a device flag FGI or FGO set). With R = 1 the control performs, instead of a fetch:\nRT0: AR ← 0, TR ← PC\nRT1: M[AR] ← TR, PC ← 0\nRT2: PC ← PC + 1, IEN ← 0, R ← 0, SC ← 0\nSo the return address is written into memory location 0, and execution resumes at location 1, which holds the service routine. IEN is cleared so the routine is not itself interrupted; the ION instruction re-enables interrupts, and a BUN indirect through location 0 returns.",
+    "facts": [
+      "Phases: fetch, decode, determine effective address, execute — then repeat.",
+      "The interrupt is tested and taken between instructions, after the current one completes.",
+      "In Mano's design the return address is stored at memory address 0 and the service routine begins at address 1.",
+      "R is the interrupt flip-flop; IEN is the interrupt-enable flip-flop; FGI/FGO are the device flags.",
+      "IEN is cleared on entering the interrupt cycle so the handler is not interrupted.",
+      "ION sets IEN, IOF clears it.",
+      "Fetch occupies T0 and T1; decode occurs at T2; instruction type is determined at T3."
+    ],
+    "traps": [
+      "The interrupt cycle replaces the fetch of the next instruction — it does not abort the instruction in progress.",
+      "In the basic computer the return address goes to a fixed memory location (0), not to a stack. Stack-based return is the modern scheme, not Mano's basic computer.",
+      "R = 1 requires IEN = 1 AND a flag set; a device flag alone does not cause an interrupt.",
+      "Decoding is a distinct phase from fetching — options that merge 'fetch and decode' into one step are usually the distractor.",
+      "PC is incremented during fetch, so the saved return address already points past the interrupted instruction."
+    ],
+    "mnem": "Fetch, Decode, Address, Execute — 'FDAE'.",
+    "rel": [
+      "Instruction fetch and decode in RTL",
+      "Timing signals and the sequence counter",
+      "Instruction types in the basic computer",
+      "Direct vs indirect; effective address"
+    ]
+  },
+  {
+    "id": "U2a-09",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Instruction fetch and decode in RTL",
+    "def": "The fetch and decode phase is specified by three register-transfer statements at T0, T1 and T2 that load IR from memory, advance PC, and split the instruction into its mode bit, opcode and address field.",
+    "exp": "The exact sequence, worth memorising verbatim because it is asked as a fill-in:\n\nT0: AR ← PC\nT1: IR ← M[AR], PC ← PC + 1\nT2: D0,…,D7 ← decode IR(12-14), AR ← IR(0-11), I ← IR(15)\n\nWhy each line is what it is. At T0 the address of the next instruction must be moved into AR, because memory can only be addressed through AR — PC cannot address memory directly. At T1 the instruction word is read into IR, and in the same clock pulse PC is incremented; these are comma-separated because they use different paths (IR loads from the bus carrying memory, PC uses its own increment input), so no conflict arises. At T2 no memory access happens at all: the instruction already sits in IR, and the three transfers are pure fan-out of its bits — the top bit to the indirect flip-flop I, the next three through the decoder to D0–D7, and the low twelve into AR, which now holds the address field rather than the instruction's own address.\n\nAt T3 the control uses I and D7 to decide which of the three instruction types it is holding. Note that AR is reused: it held the instruction's address at T0–T1, and holds the operand's address from T2 onward.",
+    "facts": [
+      "T0: AR ← PC.",
+      "T1: IR ← M[AR], PC ← PC + 1.",
+      "T2: decode IR(12-14) into D0–D7, AR ← IR(0-11), I ← IR(15).",
+      "PC is incremented during fetch, at T1 — before the instruction executes.",
+      "Fetch requires one memory read; the operand fetch is separate and later.",
+      "AR is loaded twice per instruction: with the instruction address, then with the address field.",
+      "No memory access occurs at T2 — it is a pure decode/distribute step."
+    ],
+    "traps": [
+      "PC is incremented at T1, not at the end of execution. A branch instruction later overwrites PC, which is why increment-then-overwrite is harmless.",
+      "IR ← M[AR] uses AR, not PC, as the memory address — the transfer AR ← PC at T0 exists precisely because memory cannot be addressed from PC.",
+      "At T2 the instruction is already inside the CPU; a question claiming a second memory read at T2 is wrong.",
+      "The opcode is only 3 bits (IR 12-14); bit 15 is the addressing-mode bit I, not part of the opcode.",
+      "The address field is 12 bits (IR 0-11), matching the 4096-word memory, not 16."
+    ],
+    "mnem": "'AR gets PC; IR gets memory and PC steps; then split the instruction three ways.'",
+    "rel": [
+      "Instruction cycle and interrupt cycle",
+      "Computer registers — AR, PC, DR, AC, IR, TR",
+      "Timing signals and the sequence counter",
+      "Instruction types in the basic computer"
+    ]
+  },
+  {
+    "id": "U2a-10",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Instruction types in the basic computer",
+    "def": "The basic computer has three instruction types — memory-reference, register-reference and input/output — distinguished by the opcode field and the mode bit, and separated by the control unit at time T3.",
+    "exp": "The 16-bit instruction word is: bit 15 = I (mode), bits 14-12 = opcode, bits 11-0 = address.\n\nMemory-reference instructions have opcode 000–110, so D0–D6. There are seven: AND, ADD, LDA, STA, BUN, BSA, ISZ. The address field is a memory address, and I selects direct (I = 0) or indirect (I = 1) addressing.\n\nRegister-reference instructions have opcode 111 with I = 0, i.e. hexadecimal codes 7800, 7400, 7200, … Here the low 12 bits are not an address; each bit selects one operation. There are twelve: CLA, CLE, CMA, CME, CIR, CIL, INC, SPA, SNA, SZA, SZE, HLT. They operate on AC and E and need no memory access, so they complete in one execute clock (T3) and clear SC immediately.\n\nInput/output instructions have opcode 111 with I = 1, i.e. codes F800, F400, F200, F100, F080, F040. There are six: INP, OUT, SKI, SKO, ION, IOF.\n\nThe control makes the split at T3 using the decoded signals: D7' T3 → memory-reference path (with a further branch on I for indirect), D7 I' T3 → execute a register-reference instruction, D7 I T3 → execute an I/O instruction.",
+    "facts": [
+      "Instruction format: I (1 bit) | opcode (3 bits) | address (12 bits) = 16 bits.",
+      "Seven memory-reference instructions: AND, ADD, LDA, STA, BUN, BSA, ISZ.",
+      "Twelve register-reference instructions: CLA, CLE, CMA, CME, CIR, CIL, INC, SPA, SNA, SZA, SZE, HLT.",
+      "Six I/O instructions: INP, OUT, SKI, SKO, ION, IOF.",
+      "Register-reference instructions begin with hex 7; I/O instructions begin with hex F.",
+      "Opcode 111 is shared: I distinguishes register-reference (I=0) from I/O (I=1).",
+      "Only memory-reference instructions use the low 12 bits as an address.",
+      "Total 7 + 12 + 6 = 25 instructions."
+    ],
+    "traps": [
+      "For opcode 111 the bit I is NOT an addressing mode — it selects between register-reference and I/O. Indirect addressing applies only to opcodes 000–110.",
+      "Register-reference instructions have no operand address, so the 12 low bits are individual operation-select bits, not an address.",
+      "The basic computer has 25 instructions from only 3 opcode bits — because opcode 111 is overloaded. Answering '8 instructions' from 2^3 is the classic error.",
+      "BUN, BSA and ISZ are memory-reference instructions even though they are control-transfer operations.",
+      "SPA/SNA/SZA/SZE are skip instructions — they increment PC conditionally; they do not branch to an address."
+    ],
+    "mnem": "Hex 7xxx = register-reference, hex Fxxx = input/output, everything else = memory-reference.",
+    "rel": [
+      "Direct vs indirect; effective address",
+      "Instruction cycle and interrupt cycle",
+      "Program loops and subroutines",
+      "Timing signals and the sequence counter"
+    ]
+  },
+  {
+    "id": "U2a-11",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Direct vs indirect; effective address",
+    "def": "The effective address is the memory address actually used to access the operand — it is the instruction's address field itself under direct addressing, and the contents of that address under indirect addressing.",
+    "exp": "The mode bit I of a memory-reference instruction selects the mode.\n\nDirect (I = 0): effective address = address field of the instruction. One extra memory access is needed to get the operand.\n\nIndirect (I = 1): the address field names a location whose *contents* are the effective address. The control performs one extra read first:\nD7' I T3: AR ← M[AR]\nAfter this AR holds the effective address, and execution proceeds identically for both modes from T4 onward — which is the elegance of the design.\n\nWorked count of memory accesses for `ADD 300`:\n• Direct: fetch the instruction (1), read the operand at 300 (1) = 2 accesses.\n• Indirect: fetch (1), read location 300 to obtain the pointer (1), read the operand at that pointer (1) = 3 accesses.\n\nIndirect addressing exists because a 12-bit address field cannot always reach the needed location and because it allows an address to be computed and stored at run time — it is how pointers and subroutine returns are implemented in a machine with no index registers. Its cost is the extra memory reference on every use.\n\nOther machines add immediate (the operand is in the instruction), register, register-indirect, indexed and relative modes; the basic computer has only direct and indirect.",
+    "facts": [
+      "I = 0 → direct; I = 1 → indirect (for memory-reference instructions only).",
+      "Indirect: AR ← M[AR] at time T3 replaces the address with the effective address.",
+      "Direct memory-reference instruction: 2 memory accesses total (fetch + operand).",
+      "Indirect memory-reference instruction: 3 memory accesses total.",
+      "In immediate mode there is no effective address — the operand is inside the instruction.",
+      "The effective address for a branch is the address transferred into PC.",
+      "The basic computer supports only direct and indirect modes."
+    ],
+    "traps": [
+      "Counting memory accesses: the instruction fetch counts. Direct = 2, indirect = 3; answering 1 and 2 is the standard mistake.",
+      "For opcode 111 (register-reference and I/O) the I bit does not mean indirect at all.",
+      "Immediate mode has no memory operand fetch — do not confuse 'immediate' with 'direct'.",
+      "Indirect addressing in the basic computer is single-level; multilevel indirection is not performed by the hardware.",
+      "The effective address is the address of the operand, not the operand itself."
+    ],
+    "mnem": "Direct: the address field IS the address. Indirect: the address field points AT the address.",
+    "rel": [
+      "Instruction types in the basic computer",
+      "MAR, MBR and the memory read/write cycle",
+      "Program loops and subroutines",
+      "Instruction cycle and interrupt cycle"
+    ]
+  },
+  {
+    "id": "U2a-12",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Machine, assembly and high-level languages",
+    "def": "Machine language is the binary code the hardware executes directly, assembly language is a symbolic one-to-one representation of it, and a high-level language is a machine-independent notation translated by a compiler or interpreter.",
+    "exp": "Machine language is a sequence of binary words. For the basic computer, `0010 0000 0100 0101` is a 16-bit instruction; written in hex it is 2045, meaning ADD with address 045. Only the hardware reads this form; it is not portable across machine types.\n\nAssembly language substitutes mnemonics and symbolic addresses: `ADD X`, `LDA A`, `STA SUM`. The correspondence is essentially one instruction to one machine instruction — that one-to-one property is the definition. Symbolic labels replace numeric addresses, and the programmer never counts memory locations by hand. An assembler translates it; the reverse translation is done by a disassembler.\n\nA high-level language (C, Java, Python) is written in terms of the problem rather than the machine. One statement expands to many machine instructions, so the mapping is one-to-many. The translator is a compiler (whole program translated ahead of execution) or an interpreter (statements translated and executed one at a time).\n\nThe trade-off is fixed: machine and assembly language give exact control of registers, timing and memory layout, and are used for device drivers, boot code and small embedded systems; high-level languages give portability, readability and productivity. Assembly-language programs are not portable, because the mnemonics correspond to one particular instruction set.",
+    "facts": [
+      "Machine language is the only form executed directly by hardware; everything else must be translated.",
+      "Assembly language has a one-to-one correspondence with machine instructions.",
+      "A high-level language statement maps to many machine instructions (one-to-many).",
+      "Assembler: assembly → machine code. Compiler: HLL → machine code (or object code). Interpreter: executes HLL statement by statement.",
+      "A disassembler converts machine code back to assembly.",
+      "Assembly programs are machine-dependent and non-portable; HLL programs are portable after recompilation.",
+      "A loader places the translated program in memory and prepares it for execution."
+    ],
+    "traps": [
+      "One-to-one is assembly's defining property; a question offering 'assembly is one-to-many' is testing exactly this.",
+      "An assembler is not a compiler. The input language decides the name: assembly in → assembler; HLL in → compiler.",
+      "A compiler produces code once and does not run it; an interpreter translates and executes each time. Neither is 'faster' in all senses — compiled execution is faster, interpreted development cycle is shorter.",
+      "'Low-level language' covers both machine and assembly language, so an option naming only one may be incomplete.",
+      "Mnemonics are for humans only — the hardware never sees ADD, only its binary opcode."
+    ],
+    "mnem": "",
+    "rel": [
+      "The assembler and two-pass assembly",
+      "Program loops and subroutines",
+      "Instruction types in the basic computer"
+    ]
+  },
+  {
+    "id": "U2a-13",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "The assembler and two-pass assembly",
+    "def": "An assembler is a program that translates an assembly-language source into machine code, conventionally in two passes: the first builds a symbol table of label addresses, the second generates the binary.",
+    "exp": "The reason for two passes is the forward reference. In\n\n    BUN  END\n    ...\n    END, HLT\n\nthe assembler meets `BUN END` before it knows where END is. A single left-to-right scan cannot fill in the address, so:\n\nPass 1 — scan the source keeping a location counter (LC). LC starts at 0, or at the value given by an ORG pseudo-instruction, and is incremented by the size of each instruction or data word. Whenever a line carries a label, store (label, current LC) in the symbol table. No code is generated in pass 1.\n\nPass 2 — scan again, LC reset. For each line, look up the mnemonic in the opcode table to get the binary opcode, look up any symbolic operand in the symbol table to get its address, set the I bit if the operand is followed by the indirect indicator, assemble the word and emit it.\n\nPseudo-instructions (assembler directives) are commands to the assembler rather than to the machine and generate no opcode of their own. Mano's set is ORG N (set LC to N), END (mark the end of the source), DEC N (place decimal constant N) and HEX N (place hexadecimal constant N). Other assemblers add EQU, DS and DB. The assembler's two main tables are therefore the fixed opcode/pseudo-op table and the symbol table it builds itself.",
+    "facts": [
+      "Pass 1 builds the symbol table; pass 2 generates the machine code.",
+      "The location counter (LC) tracks the address at which the current line will be placed.",
+      "Forward references are the reason a single pass is insufficient.",
+      "ORG, END, DEC and HEX are the pseudo-instructions of Mano's assembly language.",
+      "Pseudo-instructions produce no machine opcode; DEC and HEX place constants in memory.",
+      "A label is defined by writing it with a comma before the instruction; a symbolic operand is a use of a label.",
+      "A one-pass assembler is possible but must patch forward references afterwards (backpatching)."
+    ],
+    "traps": [
+      "Code is generated in pass 2 only. Options claiming pass 1 emits partial machine code are wrong for the standard two-pass model.",
+      "ORG changes the location counter; it does not generate any word in memory.",
+      "DEC 25 and HEX 25 store different values — decimal 25 versus hexadecimal 25 (= decimal 37).",
+      "The opcode table is built into the assembler; only the symbol table is constructed from the source.",
+      "The assembler resolves symbols to addresses — relocation and linking are the loader's and linker's job, not the assembler's.",
+      "END terminates the source text; HLT terminates execution. They are not interchangeable."
+    ],
+    "mnem": "Pass 1 = find the labels; Pass 2 = fill in the blanks.",
+    "rel": [
+      "Machine, assembly and high-level languages",
+      "Program loops and subroutines",
+      "Instruction types in the basic computer"
+    ]
+  },
+  {
+    "id": "U2a-14",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Program loops and subroutines",
+    "def": "A loop is a sequence repeated under the control of a counter tested each pass, and a subroutine is a block of code entered by an instruction that first saves the return address so control can come back.",
+    "exp": "Loops. The basic computer builds a counting loop from ISZ and BUN. ISZ X performs M[X] ← M[X] + 1, and if the result is zero it skips the next instruction (PC ← PC + 1). Store the count as a *negative* number; each pass increments it toward zero, and when it reaches zero the ISZ skips the BUN that would have jumped back, so the loop exits. The pattern is:\n\n    LOP, ...body...\n         ISZ CTR\n         BUN LOP\n         (falls through here when CTR reaches 0)\n\nSubroutines. BSA X — Branch and Save return Address — performs M[X] ← PC, then PC ← X + 1. The return address is written into the first word of the subroutine, and execution begins at the word after it. Return is done with an indirect branch through that first word: `BUN X I`, which loads PC from M[X].\n\nThis is the pre-stack scheme and it has a hard limit: only one return address per subroutine can be held, so the subroutine cannot call itself and cannot be re-entered. Recursion is impossible. Modern machines instead push the return address onto a stack with a CALL instruction and pop it with RET, which supports nesting to any depth, recursion, and re-entrancy, and also gives a natural place for parameters and local variables.",
+    "facts": [
+      "ISZ: M[AR] ← M[AR] + 1; if the result is 0 then PC ← PC + 1 (skip).",
+      "Loop counters are stored as negative values so that incrementing reaches zero.",
+      "BSA: M[AR] ← PC, then PC ← AR + 1.",
+      "The return address is stored in the first location of the subroutine, and the subroutine body starts one word later.",
+      "Return is a BUN with the indirect bit set, through the subroutine's first location.",
+      "The BSA mechanism permits neither recursion nor re-entrancy.",
+      "Stack-based CALL/RET stores return addresses on a stack, allowing arbitrary nesting and recursion."
+    ],
+    "traps": [
+      "BSA saves the return address in memory, not in a register and not on a stack — a question offering 'pushes onto the stack' is describing a different machine.",
+      "The value BSA saves is the already-incremented PC, so it points to the instruction after the BSA.",
+      "ISZ skips, it does not branch — it never loads an address into PC, it only adds 1.",
+      "Because the return address occupies the subroutine's first word, the entry point is X+1, not X.",
+      "Recursion fails under BSA silently: the second call overwrites the saved return address, producing an infinite loop rather than an error."
+    ],
+    "mnem": "BSA = Branch and Save Address: save at X, start at X+1.",
+    "rel": [
+      "Instruction types in the basic computer",
+      "Direct vs indirect; effective address",
+      "The assembler and two-pass assembly",
+      "Instruction cycle and interrupt cycle"
+    ]
+  },
+  {
+    "id": "U2a-15",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Hardwired control unit",
+    "def": "A hardwired control unit generates its control signals from fixed combinational logic — gates and flip-flops driven by the instruction decoder and the timing counter — with no stored microprogram.",
+    "exp": "Design procedure, which is what the conventional question asks for:\n1. Draw the control flow diagram (state/flow chart) of the instruction cycle, one box per micro-operation step, with branches on the mode bit I and the decoded opcode.\n2. From it, list every control function in the form D_i T_j (…): the condition under which each micro-operation must occur.\n3. For each control input in the datapath — each register's LD, INR, CLR, each bus select line, the memory read and write lines — OR together all the control functions that require it.\n4. Implement those Boolean expressions with gates.\n\nExample: the load input of AR is asserted at T0 (AR ← PC), at T2 (AR ← IR 0-11) and at D7'IT3 (indirect), so LD(AR) = T0 + T2 + D7'IT3. The bus select code is similarly a set of encoder equations.\n\nThe components are: the instruction register with its 3-to-8 decoder producing D0–D7, the sequence counter with its 4-to-16 decoder producing T0–T15, and a block of combinational logic that maps these plus the status flip-flops to control outputs.\n\nTrade-off: hardwired control is fast, because a signal is only a few gate delays from the decoder, and it is compact for a small instruction set. But it is inflexible — changing or adding an instruction means redesigning and rewiring the logic. It is therefore the natural choice for RISC machines with few, regular instructions.",
+    "facts": [
+      "Hardwired control uses combinational logic (gates, decoders, flip-flops) — no control memory.",
+      "Inputs to the control logic: decoded opcode D0–D7, timing signals T0–T15, mode bit I, status flip-flops.",
+      "A control input is the logical OR of every control function that needs to assert it.",
+      "Design flow: control flow diagram → state table → Boolean control functions → gate implementation.",
+      "Faster than microprogrammed control because there is no control-memory read per step.",
+      "Difficult to modify: adding an instruction requires redesigning the logic.",
+      "Typically used in RISC processors with small, regular instruction sets."
+    ],
+    "traps": [
+      "Speed versus flexibility: hardwired is faster, microprogrammed is easier to modify. The pair is asked constantly and the direction is often reversed in options.",
+      "Hardwired control has no control memory at all — an option mentioning a control address register belongs to the microprogrammed design.",
+      "The sequence counter belongs to the hardwired scheme; the microprogrammed scheme uses a control address register instead.",
+      "'Hardwired' does not mean it cannot be sequential — it contains flip-flops (the counter, the status bits); it means the control function is fixed in gates.",
+      "CISC machines with many complex instructions are the poor fit for hardwired control, not the good one."
+    ],
+    "mnem": "Hardwired = Hardware = Hasty but Hard to change.",
+    "rel": [
+      "Microprogrammed control unit",
+      "Timing signals and the sequence counter",
+      "Instruction types in the basic computer",
+      "Instruction cycle and interrupt cycle"
+    ]
+  },
+  {
+    "id": "U2a-16",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Microprogrammed control unit",
+    "def": "A microprogrammed control unit stores its control signals as microinstructions in a control memory, and a control address register plus a sequencer walks through them to execute each machine instruction.",
+    "exp": "Instead of gates, the control signals for each step are held as a word in a read-only control memory. The pieces:\n\n• Control memory (control store) — holds the microprogram. Each word is a microinstruction.\n• Control address register (CAR) — holds the address of the microinstruction being read. It is the microprogram's program counter.\n• Control data register / pipeline register — holds the microinstruction just read while it is being used.\n• Sequencer (next-address generator) — computes the next CAR value: increment, branch on a condition, map from the opcode, or return from a microsubroutine via the subroutine register SBR.\n\nTerminology: a microinstruction is one control word; a microprogram is a sequence of them implementing one machine instruction (or the whole control unit); microprogramming is writing them.\n\nIn Mano's worked design the control memory is 128 words of 20 bits, CAR is 7 bits, and the microinstruction is divided into F1, F2, F3 (3 bits each, encoded micro-operation fields), CD (2 bits, condition select), BR (2 bits, branch type) and AD (7 bits, address).\n\nHorizontal microprogramming uses a wide, largely unencoded word — roughly one bit per control signal — allowing many parallel micro-operations and fast decoding, at the cost of a large control memory. Vertical microprogramming encodes fields, giving a short word and small control memory but requiring decoders and permitting less parallelism per microinstruction.",
+    "facts": [
+      "The control signals are stored as words in control memory rather than produced by gates.",
+      "CAR holds the address of the next microinstruction — the microprogram counter.",
+      "The sequencer selects the next address: increment, conditional branch, opcode mapping, or subroutine return.",
+      "SBR (subroutine register) holds the return address for a microprogram subroutine.",
+      "Control memory is usually ROM; if writable it is a writable control store, allowing emulation.",
+      "Horizontal: wide word, minimal encoding, high parallelism, large control memory.",
+      "Vertical: narrow encoded word, needs decoding, less parallelism, small control memory.",
+      "Easier to modify than hardwired control, but slower because each step needs a control-memory read."
+    ],
+    "traps": [
+      "CAR is not the PC. PC addresses main memory and holds machine instructions; CAR addresses control memory and holds microinstructions.",
+      "Horizontal microprogramming gives the LONGER microinstruction and the LARGER control memory — 'horizontal = compact' is the classic reversed option.",
+      "A microinstruction is not a machine instruction; one machine instruction is executed by several microinstructions.",
+      "Microprogrammed control is slower than hardwired, but more flexible — do not answer 'faster' because it sounds more advanced.",
+      "Emulation of another machine's instruction set is possible with a writable control store, not with a mask-ROM control memory.",
+      "Vertical microprogramming needs a decoder; horizontal largely does not. Options often attach the decoder to the wrong one."
+    ],
+    "mnem": "Horizontal = wide word, wide parallelism. Vertical = narrow word, needs a decoder.",
+    "rel": [
+      "Hardwired control unit",
+      "Timing signals and the sequence counter",
+      "Program loops and subroutines",
+      "Functional units and the von Neumann model"
+    ]
+  }
+]

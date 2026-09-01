@@ -190,6 +190,14 @@ function provLine(q) {
 
 const ANSWERABLE = QS.filter(q => q.ans && q.ans.length === 1);
 
+/* Section-B conventional/essay questions. The Technical papers are half MCQ
+   (100 marks) and half written answer (100 marks), so these belong in the
+   bank — but they cannot be auto-scored, so they carry no single-letter `ans`
+   and are therefore already excluded from ANSWERABLE, and with it from every
+   practice pool, mock test and progress statistic. They surface only when
+   browsing a past paper, where they render as a prompt plus a model answer. */
+const isDescriptive = q => q.type === 'descriptive';
+
 /* ------------------------------------------------------------ study modes */
 /* How each question should be STUDIED, not what its answer is. Three modes,
    each routing to a tool this app already has: `calculate` to the Calc Lab,
@@ -927,18 +935,25 @@ VIEWS.papers = (el) => {
     <div class="grid g2 mt">
       ${keys.map(k => {
         const qs = groups[k].slice().sort((a, b) => a.no - b.no);
-        const att = qs.filter(q => S.questions[q.id]?.att).length;
-        const ok = qs.filter(q => S.questions[q.id]?.lastOk).length;
-        const off = qs.some(q => q.prov && q.prov.includes('Official'));
+        // Only MCQs can be scored, so counts, marks and progress are all
+        // reckoned on them; the essay questions are shown as a separate count.
+        const mcq = qs.filter(q => !isDescriptive(q));
+        const essay = qs.length - mcq.length;
+        const att = mcq.filter(q => S.questions[q.id]?.att).length;
+        const ok = mcq.filter(q => S.questions[q.id]?.lastOk).length;
+        const off = qs.some(q => q.prov && /\bofficial\b/i.test(q.prov)
+                                 && !/\b(?:no|without|never)\s+official/i.test(q.prov));
+        const partial = qs.find(q => q.note && q.note.startsWith('Only the Paper-I'));
         return `<div class="card">
           <div class="spread"><h3 style="margin:0">${esc(qs[0].sitting)}</h3>
           <span class="pill ${off ? 'ok' : 'wn'}">${off ? 'official key' : 'derived answers'}</span></div>
-          <p class="dim" style="margin:.35rem 0 .6rem">${esc(shortPaper(qs[0].paper))} · ${qs.length} questions · ${qs.length * 2} marks</p>
-          <div style="font-size:.78rem;color:var(--ink-3)">Attempted ${att}/${qs.length}${att ? ` · last-attempt ${pct(ok, att)}%` : ''}</div>
-          <div class="bar mb"><i style="width:${pct(att, qs.length)}%"></i></div>
+          <p class="dim" style="margin:.35rem 0 .6rem">${esc(shortPaper(qs[0].paper))} · ${mcq.length} MCQ · ${mcq.length * 2} marks${essay ? ` · ${essay} essay` : ''}</p>
+          ${partial ? `<p class="dim" style="margin:-.3rem 0 .6rem;font-size:.75rem">${esc(partial.note)}</p>` : ''}
+          <div style="font-size:.78rem;color:var(--ink-3)">Attempted ${att}/${mcq.length}${att ? ` · last-attempt ${pct(ok, att)}%` : ''}</div>
+          <div class="bar mb"><i style="width:${pct(att, mcq.length)}%"></i></div>
           <div class="row">
             <button class="btn pri sm" data-run="${esc(k)}">Attempt as exam</button>
-            <button class="btn sm" data-browse="${esc(k)}">Browse with answers</button>
+            <button class="btn sm" data-browse="${esc(k)}">Browse${essay ? ' + essay Qs' : ' with answers'}</button>
           </div>
         </div>`;
       }).join('')}
@@ -946,7 +961,11 @@ VIEWS.papers = (el) => {
   el.onclick = e => {
     const r = e.target.closest('[data-run]');
     if (r) {
-      const qs = groups[r.dataset.run].slice().sort((a, b) => a.no - b.no);
+      // Essay questions cannot be auto-scored, so a timed attempt runs the
+      // MCQ section only. They remain available under "Browse".
+      const qs = groups[r.dataset.run].filter(q => !isDescriptive(q))
+        .slice().sort((a, b) => a.no - b.no);
+      if (!qs.length) { toast('This paper has no auto-scorable questions'); return; }
       startQuiz({ title: qs[0].sitting + ' — ' + shortPaper(qs[0].paper), questions: qs, mode: 'exam',
         seconds: 2 * 3600, back: () => go('papers') });
       return;
@@ -971,17 +990,30 @@ function browsePaper(qs) {
     ${list.map(q => `
       <div class="card mb">
         <div class="qmeta mb">
-          <strong style="color:var(--ink)">Q${q.no}</strong>
+          <strong style="color:var(--ink)">${isDescriptive(q) ? 'Section B · Q' + (q.no - 1000) : 'Q' + q.no}</strong>
+          ${isDescriptive(q) ? `<span class="pill acc">conventional / essay</span>` : ''}
           ${q.unit ? `<span class="pill">${unitLabel(q)}</span>` : ''}
           ${q.sub ? `<span class="pill">${esc(q.sub)}</span>` : ''}
-          ${modeBadge(q.id)}
+          ${isDescriptive(q) ? '' : modeBadge(q.id)}
           ${q.ans === 'COMPENSATED' ? `<span class="pill wn">voided by MPSC</span>` : ''}
         </div>
         <div class="qtext">${esc(q.q)}</div>
-        <div class="opts" data-opts="${q.id}">${['A', 'B', 'C', 'D'].filter(k => q.opts[k] != null).map(k => `
+        ${isDescriptive(q) ? `
+        <div class="opts" data-opts="${q.id}">
+          <div class="model-answer">
+            <div class="model-head">Model answer</div>
+            ${(q.model || '').split(/\n\s*\n/).filter(p => p.trim())
+              .map(p => `<p>${esc(p.trim())}</p>`).join('')}
+            ${(q.points || []).length ? `<div class="model-head">Marking points</div>
+            <ul>${q.points.map(p => `<li>${esc(p)}</li>`).join('')}</ul>` : ''}
+          </div>
+        </div>
+        <button class="btn sm reveal-one" data-reveal="${q.id}">Show model answer</button>`
+        : `
+        <div class="opts" data-opts="${q.id}">${['A', 'B', 'C', 'D', 'E'].filter(k => q.opts[k] != null).map(k => `
           <div class="opt ${q.ans === k ? 'right' : ''}" style="cursor:default">
             <span class="lab">${k}</span><span>${esc(q.opts[k])}</span></div>`).join('')}</div>
-        <button class="btn sm reveal-one" data-reveal="${q.id}">Show answer</button>
+        <button class="btn sm reveal-one" data-reveal="${q.id}">Show answer</button>`}
         ${q.exp || q.prov ? `<div class="expl">${q.exp ? esc(q.exp) : ''}${disputeBlock(q)}${provLine(q)}</div>` : ''}
       </div>`).join('')}
     <button class="btn" id="back2">Back to papers</button>`;
@@ -1398,7 +1430,7 @@ function startDrill({ title, gens, count, seed }) {
           </div>
           <div class="qtext">${blockText(it.q)}</div>
           <div class="opts" id="opts">
-            ${['A', 'B', 'C', 'D'].filter(k => it.opts[k] != null).map(k => {
+            ${['A', 'B', 'C', 'D', 'E'].filter(k => it.opts[k] != null).map(k => {
               let cls = '';
               if (shown) { if (k === it.ans) cls = 'right'; else if (k === picks[i]) cls = 'wrong'; }
               else if (picks[i] === k) cls = 'sel';
@@ -1525,7 +1557,7 @@ function startQuiz({ title, questions, mode, seconds, onFinish, back }) {
           </div>
           <div class="qtext">${esc(q.q)}</div>
           <div class="opts" id="opts">
-            ${['A', 'B', 'C', 'D'].filter(k => q.opts[k] != null).map(k => {
+            ${['A', 'B', 'C', 'D', 'E'].filter(k => q.opts[k] != null).map(k => {
               let cls = '';
               if (showAns) {
                 if (k === q.ans) cls = 'right';
@@ -1666,7 +1698,7 @@ function startQuiz({ title, questions, mode, seconds, onFinish, back }) {
             ${modeBadge(q.id)}
           </div>
           <div class="qtext">${esc(q.q)}</div>
-          <div class="opts">${['A', 'B', 'C', 'D'].filter(x => q.opts[x] != null).map(x => `
+          <div class="opts">${['A', 'B', 'C', 'D', 'E'].filter(x => q.opts[x] != null).map(x => `
             <div class="opt ${x === q.ans ? 'right' : x === picks[k] ? 'wrong' : ''}" style="cursor:default">
               <span class="lab">${x}</span><span>${esc(q.opts[x])}</span></div>`).join('')}</div>
           ${q.exp || q.prov ? `<div class="expl">${q.exp ? esc(q.exp) : ''}${disputeBlock(q)}${provLine(q)}</div>` : ''}

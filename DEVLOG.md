@@ -9,6 +9,214 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-02 (later) — Section B shipped; and three defects the essays' own source pages exposed
+
+**COMPLETED.** The 36 Paper-I conventional questions from Section B are now in
+the bank with model answers, closing the one item the previous entry left open.
+Going back to the source scans to check four OCR-damaged essays turned up three
+separate defects that had nothing to do with the essays.
+
+**What shipped.** All 100 Section-B questions across the five papers were
+triaged by two independent agents (agreeing on paper for 100/100, with one unit
+disagreement adjudicated by hand). The 36 that are Paper-I syllabus got model
+answers sized for the format — Section B is *short answer*, 20 × 5 marks, not
+long essay — each with 3–6 explicit marking points and an honest confidence
+(29 high / 7 medium). The other 64 are parked classified-but-unsolved in
+`staged/parked-descriptive-2026-09-02.json`, the same treatment the 712
+non-Paper-I MCQs got. `briefs/DESCRIPTIVE_BRIEF.md` is the brief they were
+written to; it did not exist before.
+
+Every numeric claim was re-derived independently by simulation before being
+accepted rather than taken from the agents' own summaries: the FCFS/SJF/RR
+averages (28 / 13 / 23 ms, SJF minimum), both SCAN totals (287 and 332
+cylinders), both deadlock bounds (N=20, N=91), the effective access time
+(1.9999 µs), 6!×4! = 17280, C(10,2) = 45, the 16-element merge sort trace, the
+NFA→DFA subset construction (3 reachable states, `{p,q,r}` absorbing and
+accepting), and all five heap sequences. All matched.
+
+**Three defects found by going to the source, not by looking at the app:**
+
+1. **The extractor dropped 2 of 100 Section-B questions, and the gap check
+   could not see it.** Reconciling extracted question numbers *against
+   themselves* reports "1–19, nothing missing" when the paper actually printed
+   20 — a truncated parse still looks complete, which is the exact failure the
+   previous entry describes fixing for Section A. Checking the raw PDF text for
+   the true highest question number found every Section B is 20 questions, so
+   the real total is 100. The two missing were MES2023 Paper I Q20 (a binary
+   heap question — Paper I unit 3 material) and MES2023 Paper III Q9. Both
+   recovered; the heap one is now in the bank and carries provenance saying it
+   was recovered after the extractor dropped it.
+2. **10 duplicated question ids, `MES2015_PAPER1_041`–`050`, present in the
+   committed bank at HEAD** and predating this whole import — two independent
+   recoveries of the same page-5 scan both landed under the same ids. They were
+   double-weighted in every practice pool, and worse: Q50's two copies gave
+   *different answers*, so which fact the app taught depended on which copy you
+   hit, and Q46's other copy had an empty `ans`. Resolved against the page-5
+   image, keeping the curated copy and correcting its text where the other copy
+   was the more faithful one. `merge.py`'s collision check only ever compared
+   *new* ids against existing ones, so it could never have caught duplicates
+   already inside the bank.
+   - Q46 is the interesting one. The kept copy had been marked "UNANSWERABLE AS
+     PRINTED: inorder alone does not determine a tree". That reasoning sounds
+     right and is wrong — running the preorder/inorder reconstruction against
+     all four printed options shows exactly one is consistent, so the question
+     *is* answerable (B). It is now answered, with the check written into the
+     explanation. Worth remembering that a confident honest-looking note can
+     still be mistaken.
+3. **5 questions badged with the wrong unit.** Driving the exam flow in the
+   browser showed MES2023 Paper I Q1 ("how many injections from A to B") under
+   "Unit 4 · Operating System". Q1–Q5 are Discrete Mathematics and their own
+   `sub` tags already said so; only `unit` was wrong, which put them under the
+   wrong heading in Study and every unit filter. Scope was measured before
+   fixing — grouping every TECH1 `sub` by the units it appears under yields 6
+   labels spanning more than one unit, four of them the legitimate boundary
+   cases `TRIAGE_BRIEF.md` documents, and the other two are exactly these. The
+   error is confined to those five.
+
+**Also changed.** Model answers render as real paragraphs now (split on blank
+lines) with `white-space: pre-wrap`, because the worked answers carry Gantt
+charts, transition tables and merge-sort traces whose newlines are load-bearing
+— the previous single escaped `<p>` collapsed them into a blob. A `static-apps`
+config was added to `.claude/launch.json`: these static apps need no build, and
+the vite config hard-codes port 5173, so a plain static server on an auto-port
+lets a session verify them without fighting another session's dev server.
+
+**Why:** the user is preparing Paper I now, and Section B is half of its 200
+marks. An essay half-shipped is a half-usable paper.
+
+**Verified in-browser**, not assumed: 1309 questions / 962 concepts, **0
+duplicate ids** (was 10), no console errors on any of the ten tabs. The MES2023
+Paper I card now reads "50 MCQ · 100 marks · 20 essay" — the real structure of
+that paper, 100 + 100 = 200. Browsing it renders 70 cards (50 + 20). Section B
+cards show 16 "derived · high confidence" and 4 medium badges and **not one
+"official key"** — correct, since these are answers written for this app. The
+repaired ε and ∅ render properly in the NFA question and its worked ε-closures
+keep their line structure. "Attempt as exam" runs exactly 50 questions: the 36
+essays carry an empty `ans`, so they stay out of `ANSWERABLE` and therefore out
+of every pool and statistic automatically (verified: 0 of 36 in the pool).
+
+**Still open:**
+- The 103 medium/low-confidence *MCQ* answers from the earlier import still
+  have had no second opinion. With no official key for any of these papers this
+  remains the highest-value correctness work left.
+- 52 imported MCQs still carry OCR-mangled maths symbols. The 4 Section-B ones
+  were repaired against the scans this session; the MCQ set was not touched.
+  Note `pdftotext` renders Symbol-font glyphs as private-use codepoints
+  (`` = ⊕, `` = ≥), which makes them findable rather than guessable.
+- 64 non-Paper-I Section-B questions are parked, classified but unsolved.
+- `gaps.py` is still known-weak and still should not be quoted.
+- The three deliberately-blank MCQs (`MES2015_PAPER1_013/015/023`) are correct
+  as they stand — each carries a scan-verified note explaining why the printed
+  question is defective. Do not "fix" them by inventing an answer.
+
+---
+
+## 2026-09-02 — Mined the "CSE 2015" folder for Technical Paper I, and gave TECH1 the concept guide it never had
+
+**COMPLETED.** Two things shipped together: 499 new Paper-I practice questions
+drawn from real past papers, and a 266-card concept guide for TECH1 — which
+previously had **zero** concepts.
+
+**The missing topic.** The user asked to "find the topic which isn't there and
+author some". Checking coverage answered it bluntly: TECH1 had 357 questions
+and **0 entries in `concepts.js`**, while TECH2 had 212 concepts, TECH3 196 and
+even TECH1_LEGACY 141. The paper the user is actually sitting — 200 merit marks,
+the one that decides the result — was the only one with no study guide at all.
+So the guide was authored across all four units: Discrete Mathematics 70 cards,
+Computer Architecture 66, Data Structures 65, Operating Systems 65, covering
+every subtopic in the 30-July-2026 syllabus. Each card carries a definition, a
+120–260 word explanation, examinable facts, and **exam traps** — the traps
+matter disproportionately because Paper I has 1/3 negative marking, so knowing
+the distractor is worth more than knowing the fact. Worked numeric examples are
+used throughout (page-replacement traces, Gantt charts, disk head movement, AVL
+rotations, infix→postfix stack traces) rather than prose alone.
+
+**The folder is not what it says.** `CSE 2015/` turned out to hold **18 papers
+from 7 sittings spanning 2010–2023**, and several filenames are outright wrong —
+`computer-scienceengg-paper-i.pdf` is *Inspector of Legal Metrology, December
+2018*. Each paper's real identity was read off its own cover page. Only MES
+Nov-2015 Paper I had ever been imported (60 questions); the other 17 papers were
+untouched. Four PDFs were image-only and needed OCR.
+
+Extraction found 1433 MCQs + 98 essay questions; after dedup, 1229 were new.
+Triage against the syllabus put 517 in Paper I; 712 are TECH2/TECH3/off-syllabus
+and are **parked classified-but-unsolved** in
+`tools/system-analyst-build/staged/parked-non-tech1-2026-09-02.json` so a later
+session can solve them without redoing extraction. 18 re-OCR'd twins of the
+already-clean Nov-2015 Paper I were deliberately dropped rather than shipped
+garbled, leaving 499 merged.
+
+**Two silent-data-loss bugs caught in my own pipeline**, which is the whole
+reason CLAUDE.md says to verify against source rather than trust the extractor:
+1. The block splitter accepted only `question_number + 1`. One OCR-garbled
+   number broke the run and every later question was swallowed into the previous
+   one's body — costing 44 of 100 questions on the Nov-2023 scans while
+   reporting "0 gaps". Fixed by resyncing on forward jumps and, more
+   importantly, by reconciling the parse against the highest question number
+   present in the raw text, so a truncated parse can no longer look complete.
+2. A `sed` fix silently corrupted that very reconciliation regex, making it
+   match nothing and report `top=0 / missing=0` for every file — a green light
+   that meant nothing. Caught only because the numbers were implausibly perfect.
+
+**Agent output could not be trusted at face value either.** Three of eighteen
+triage agents wrote correct labels into off-by-one filenames, and one claimed
+"128 in" for a 70-question batch. Rather than discard the work, `check_triage.py`
+pools every label by its own id instead of by filename, which recovered all of
+it and surfaced 123 genuine two-agent disagreements; those were adjudicated
+separately. Adjudication was worth it — one agent had labelled "what does GIGO
+mean" as TECH1 unit 2, "Binary arithmetic".
+
+**Also fixed along the way:**
+- `provLine()` renders `derived · high/medium/low` from a `conf` field that
+  **no question in the bank actually had** — all 784 were rendering
+  "derived · unrated". All 499 new questions carry real confidence
+  (396 high / 78 medium / 25 low), honestly rated, not inflated.
+- Option rendering was hard-coded to A–D in four places; 4 questions have a real
+  fifth option that was being silently dropped. Now A–E.
+- Past Papers grouping: DEVLOG had flagged that grouping by `srcKey` collapsed
+  distinct real papers into one mislabelled card. Using one `srcKey` per printed
+  paper fixes it without touching the grouping code. Cards now also state
+  "Only the Paper-I-syllabus questions from this paper were imported (N of M)",
+  since most of these papers are only partly Paper-I material and a card must
+  not imply it is a complete real paper.
+- Descriptive-question support in `app.js`/`styles.css`, because Paper I is half
+  conventional essay by marks. They carry `type: 'descriptive'` and an empty
+  `ans`, which keeps them out of `ANSWERABLE` and therefore out of every
+  practice pool and statistic automatically — they cannot be auto-scored — while
+  still appearing when browsing a past paper with a model answer and marking
+  points. "Attempt as exam" now runs the MCQ section only.
+
+**Why:** the user is preparing Paper I now and asked for everything in the
+folder relevant to it, plus a guide that is actually easy to understand.
+
+**Verified in-browser**, not assumed: 1283 questions / 962 concepts load with no
+console errors; Study shows 266 TECH1 concepts where it showed none; Past Papers
+renders 13 separate paper cards with correct "derived answers" badges; a sample
+card shows the right unit name and a "derived · high confidence" pill. The
+numbers inside the Belady's-anomaly card (FIFO 15 / LRU 12 / OPT 9 on the
+Silberschatz string; FIFO 9→10 frames on the anomaly string) were re-derived by
+simulation and match.
+
+**Still open** — full detail in
+`tools/system-analyst-build/cse-2015-import/HANDOFF.md`:
+- The 98 Section-B essay questions are **extracted but not merged**. The UI for
+  them is built and live; the agent writing their model answers died twice to
+  API errors. Re-run that one step and `merge.py --write` picks them up.
+- 52 imported questions have OCR-mangled maths symbols (`A>B` for `A→B`, `AUB`
+  for `A∪B`). They are flagged in `prov` and were answered on recovered intent,
+  but they read badly and deserve a careful repair pass against the scans.
+- The 103 medium/low-confidence answers have had no second opinion. With no
+  official key for any of these papers, an adversarial re-check of those is the
+  highest-value remaining correctness work.
+- `gaps.py` is **known weak** — its keyword matching is far too strict (it
+  reports "no questions" for set theory when set-theory questions plainly
+  exist). It was not used to draw any conclusion here and needs a rewrite before
+  it is trusted.
+- 74 unit-1 and 75 unit-2 questions still sit under generic topic tags inherited
+  from the pre-existing bank.
+
+---
+
 ## 2026-09-01 — Added 35 UDC computer knowledge questions to System Manager
 
 **COMPLETED:** Integrated 35 Basic Computer Knowledge MCQ questions from the UDC (Upper Division Clerk) 2024-2025 Combined exam into the System Manager question bank as a new paper (`UDC`). Instead of maintaining a separate UDC exam module, consolidated them into System Manager which already covers computer fundamentals across multiple exams.

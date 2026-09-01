@@ -1,0 +1,1012 @@
+[
+ {
+  "src_file": "computer-scienceengg-paper-ii-pe",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "srcKey": "MES2018",
+  "paper_no": "II",
+  "section": "B",
+  "no": 1,
+  "q": "What is the Difference between a Job and a Process?",
+  "id": "D000"
+ },
+ {
+  "src_file": "computer-scienceengg-paper-ii-pe",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "srcKey": "MES2018",
+  "paper_no": "II",
+  "section": "B",
+  "no": 2,
+  "q": "What are the differences between multiprocessing and multiprogramming?",
+  "id": "D001"
+ },
+ {
+  "src_file": "computer-scienceengg-paper-ii-pe",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "srcKey": "MES2018",
+  "paper_no": "II",
+  "section": "B",
+  "no": 3,
+  "q": "Shown below is the workload for 5 jobs arriving at time zero in the order given below:\n    Job    Burst Time\n     1        10\n     2        29\n     3         3\n     4         7\n     4        12\n(the fifth job is misnumbered \"4\" on the printed paper)\nNow find out which algorithm among FCFS, SJF And Round Robin with quantum 10, would give the minimum average time.",
+  "id": "D002",
+  "q_raw": "Shown below is the workload for 5 jobs arriving at time zero in the order given below \" Job Burst Time 1 10 2 29 3 3 4 7 4 12 Now find out which algorithm among FCFS, SJF And Round Robin with quantum 10, would give the minimum average time.",
+  "repaired": true
+ },
+ {
+  "src_file": "computer-scienceengg-paper-ii-pe",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "srcKey": "MES2018",
+  "paper_no": "II",
+  "section": "B",
+  "no": 4,
+  "q": "Explain one method for avoiding deadlock.",
+  "id": "D003"
+ },
+ {
+  "src_file": "computer-scienceengg-paper-ii-pe",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "srcKey": "MES2018",
+  "paper_no": "II",
+  "section": "B",
+  "no": 5,
+  "q": "Describe priority scheduling algorithm.",
+  "id": "D004"
+ },
+ {
+  "src_file": "computer-scienceengg-paper-ii-pe",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "srcKey": "MES2018",
+  "paper_no": "II",
+  "section": "B",
+  "no": 6,
+  "q": "Describe LRU page replacement algorithm.",
+  "id": "D005"
+ },
+ {
+  "src_file": "computer-scienceengg-paper-ii-pe",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "srcKey": "MES2018",
+  "paper_no": "II",
+  "section": "B",
+  "no": 7,
+  "q": "Differentiate between Random Scan and Raster Scan displays.",
+  "id": "D006"
+ },
+ {
+  "src_file": "computer-scienceengg-paper-ii-pe",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "srcKey": "MES2018",
+  "paper_no": "II",
+  "section": "B",
+  "no": 8,
+  "q": "Consider three different raster systems with resolutions of 640 x 480, 1280 x 1024 and 2560 x 2048. How much storage (in bytes) is required for each system if 24 bits per pixel are to be stored?",
+  "id": "D007"
+ },
+ {
+  "src_file": "computer-scienceengg-paper-ii-pe",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "srcKey": "MES2018",
+  "paper_no": "II",
+  "section": "B",
+  "no": 9,
+  "q": "What is Transformation? What are general Transformations Techniques?",
+  "id": "D008"
+ },
+ {
+  "src_file": "computer-scienceengg-paper-ii-pe",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "srcKey": "MES2018",
+  "paper_no": "II",
+  "section": "B",
+  "no": 10,
+  "q": "Describe flood fill algorithm.",
+  "id": "D009"
+ },
+ {
+  "src_file": "computer-scienceengg-paper-ii-pe",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "srcKey": "MES2018",
+  "paper_no": "II",
+  "section": "B",
+  "no": 11,
+  "q": "What is Line Clipping? Explain Cohen Sutherland Method of Line Clipping",
+  "id": "D010"
+ },
+ {
+  "src_file": "computer-scienceengg-paper-ii-pe",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "srcKey": "MES2018",
+  "paper_no": "II",
+  "section": "B",
+  "no": 12,
+  "q": "Write a function to generate first n prime numbers on which object is passed by reference.",
+  "id": "D011"
+ },
+ {
+  "src_file": "computer-scienceengg-paper-ii-pe",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "srcKey": "MES2018",
+  "paper_no": "II",
+  "section": "B",
+  "no": 13,
+  "q": "Write a program to overload the + operator to concatenate strings.",
+  "id": "D012"
+ },
+ {
+  "src_file": "computer-scienceengg-paper-ii-pe",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "srcKey": "MES2018",
+  "paper_no": "II",
+  "section": "B",
+  "no": 14,
+  "q": "Write a program to handle division by zero exception.",
+  "id": "D013"
+ },
+ {
+  "src_file": "computer-scienceengg-paper-ii-pe",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "srcKey": "MES2018",
+  "paper_no": "II",
+  "section": "B",
+  "no": 15,
+  "q": "Consider the Work Queue: 23, 89, 132, 42, 187; there are 200 cylinders numbered from 0 - 199; and the disk-head stars at number 100. Compute the total time using SCAN algorithm going towards 0.",
+  "id": "D014"
+ },
+ {
+  "src_file": "computer-scienceengg-paper-ii-pe",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "srcKey": "MES2018",
+  "paper_no": "II",
+  "section": "B",
+  "no": 16,
+  "q": "Write a program to convert polar to rectangular coordinates using object pass by value.",
+  "id": "D015"
+ },
+ {
+  "src_file": "computer-scienceengg-paper-ii-pe",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "srcKey": "MES2018",
+  "paper_no": "II",
+  "section": "B",
+  "no": 17,
+  "q": "What are Bezier Curves and Surfaces?",
+  "id": "D016"
+ },
+ {
+  "src_file": "computer-scienceengg-paper-ii-pe",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "srcKey": "MES2018",
+  "paper_no": "II",
+  "section": "B",
+  "no": 18,
+  "q": "Define files. And how are they organized in a system.",
+  "id": "D017"
+ },
+ {
+  "src_file": "computer-scienceengg-paper-ii-pe",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "srcKey": "MES2018",
+  "paper_no": "II",
+  "section": "B",
+  "no": 19,
+  "q": "Describe multi-level inheritance.",
+  "id": "D018"
+ },
+ {
+  "src_file": "computer-scienceengg-paper-ii-pe",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "srcKey": "MES2018",
+  "paper_no": "II",
+  "section": "B",
+  "no": 20,
+  "q": "Discuss the advantages and disadvantages of Round Robin Scheduling.",
+  "id": "D019"
+ },
+ {
+  "src_file": "computer-scienceengg-paper-iii-pe",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "srcKey": "MES2018",
+  "paper_no": "III",
+  "section": "B",
+  "no": 1,
+  "q": "What are the characteristics of a data in a database?",
+  "id": "D020"
+ },
+ {
+  "src_file": "computer-scienceengg-paper-iii-pe",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "srcKey": "MES2018",
+  "paper_no": "III",
+  "section": "B",
+  "no": 2,
+  "q": "What are the disadvantages of database system? Explain them briefly.",
+  "id": "D021"
+ },
+ {
+  "src_file": "computer-scienceengg-paper-iii-pe",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "srcKey": "MES2018",
+  "paper_no": "III",
+  "section": "B",
+  "no": 3,
+  "q": "Explain the difference between an attribute and value set.",
+  "id": "D022"
+ },
+ {
+  "src_file": "computer-scienceengg-paper-iii-pe",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "srcKey": "MES2018",
+  "paper_no": "III",
+  "section": "B",
+  "no": 4,
+  "q": "Discuss the conventions for displaying an ER schema as an ER diagram.",
+  "id": "D023"
+ },
+ {
+  "src_file": "computer-scienceengg-paper-iii-pe",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "srcKey": "MES2018",
+  "paper_no": "III",
+  "section": "B",
+  "no": 5,
+  "q": "What is the significance of views in SQL? Give SQL statement to update data.",
+  "id": "D024"
+ },
+ {
+  "src_file": "computer-scienceengg-paper-iii-pe",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "srcKey": "MES2018",
+  "paper_no": "III",
+  "section": "B",
+  "no": 6,
+  "q": "What are the different types of relations between the entities in a table?",
+  "id": "D025"
+ },
+ {
+  "src_file": "computer-scienceengg-paper-iii-pe",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "srcKey": "MES2018",
+  "paper_no": "III",
+  "section": "B",
+  "no": 7,
+  "q": "Discuss the types of privileges at the account level and at the relational level.",
+  "id": "D026"
+ },
+ {
+  "src_file": "computer-scienceengg-paper-iii-pe",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "srcKey": "MES2018",
+  "paper_no": "III",
+  "section": "B",
+  "no": 8,
+  "q": "Explain locking techniques for concurrency control.",
+  "id": "D027"
+ },
+ {
+  "src_file": "computer-scienceengg-paper-iii-pe",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "srcKey": "MES2018",
+  "paper_no": "III",
+  "section": "B",
+  "no": 9,
+  "q": "Discuss the TCP Header.",
+  "id": "D028"
+ },
+ {
+  "src_file": "computer-scienceengg-paper-iii-pe",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "srcKey": "MES2018",
+  "paper_no": "III",
+  "section": "B",
+  "no": 10,
+  "q": "What are the different types of transmission impairments?",
+  "id": "D029"
+ },
+ {
+  "src_file": "computer-scienceengg-paper-iii-pe",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "srcKey": "MES2018",
+  "paper_no": "III",
+  "section": "B",
+  "no": 11,
+  "q": "Distinguish between adaptive and non-adaptive routing algorithms.",
+  "id": "D030"
+ },
+ {
+  "src_file": "computer-scienceengg-paper-iii-pe",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "srcKey": "MES2018",
+  "paper_no": "III",
+  "section": "B",
+  "no": 12,
+  "q": "Explain function of token bus.",
+  "id": "D031"
+ },
+ {
+  "src_file": "computer-scienceengg-paper-iii-pe",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "srcKey": "MES2018",
+  "paper_no": "III",
+  "section": "B",
+  "no": 13,
+  "q": "Compare and contrast FDMA, TDMA and CDMA techniques.",
+  "id": "D032"
+ },
+ {
+  "src_file": "computer-scienceengg-paper-iii-pe",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "srcKey": "MES2018",
+  "paper_no": "III",
+  "section": "B",
+  "no": 14,
+  "q": "What is ISDN? Explain types of services provided by ISDN.",
+  "id": "D033"
+ },
+ {
+  "src_file": "computer-scienceengg-paper-iii-pe",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "srcKey": "MES2018",
+  "paper_no": "III",
+  "section": "B",
+  "no": 15,
+  "q": "What are the various categories of software?",
+  "id": "D034"
+ },
+ {
+  "src_file": "computer-scienceengg-paper-iii-pe",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "srcKey": "MES2018",
+  "paper_no": "III",
+  "section": "B",
+  "no": 16,
+  "q": "What are the Drawbacks of RAD Model?",
+  "id": "D035"
+ },
+ {
+  "src_file": "computer-scienceengg-paper-iii-pe",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "srcKey": "MES2018",
+  "paper_no": "III",
+  "section": "B",
+  "no": 17,
+  "q": "What are the benefits of prototyping?",
+  "id": "D036"
+ },
+ {
+  "src_file": "computer-scienceengg-paper-iii-pe",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "srcKey": "MES2018",
+  "paper_no": "III",
+  "section": "B",
+  "no": 18,
+  "q": "What is the role of SRS? Explain.",
+  "id": "D037"
+ },
+ {
+  "src_file": "computer-scienceengg-paper-iii-pe",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "srcKey": "MES2018",
+  "paper_no": "III",
+  "section": "B",
+  "no": 19,
+  "q": "What is the importance of data dictionary?",
+  "id": "D038"
+ },
+ {
+  "src_file": "computer-scienceengg-paper-iii-pe",
+  "sitting": "Jr. Grade of M.E.S. (P&E Dept), August 2018",
+  "srcKey": "MES2018",
+  "paper_no": "III",
+  "section": "B",
+  "no": 20,
+  "q": "Differentiate between verification and Validation.",
+  "id": "D039"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-i",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "I",
+  "section": "B",
+  "no": 1,
+  "q": "How many words can be formed from the letters of the word, 'SIGNATURE' to that the vowels always come together?",
+  "id": "D040"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-i",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "I",
+  "section": "B",
+  "no": 2,
+  "q": "In a basketball match, all ten players shake hands with each other once after the match. How many handshakes will be there?",
+  "id": "D041"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-i",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "I",
+  "section": "B",
+  "no": 3,
+  "q": "Prove the following by principle of \"Induction Method\" for all n ≥ 0,\n    Σ(i=0 to n) i³ = [ n(n+1)/2 ]²",
+  "id": "D042",
+  "q_raw": "Prove the following by principle of \"Induction Method\" for all n  0,",
+  "repaired": true
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-i",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "I",
+  "section": "B",
+  "no": 4,
+  "q": "Design DFA which accepts the strings 1010 only.",
+  "id": "D043"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-i",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "I",
+  "section": "B",
+  "no": 5,
+  "q": "Consider the following NFA with ε given below:\nTRANSITION TABLE\n  STATES |   ε     a     b     c\n  =>p    |   ∅    {p}   {q}   {r}\n    q    |  {p}   {q}   {r}    ∅\n   *r    |  {q}   {r}    ∅   {p}\nConvert the automation to DFA",
+  "id": "D044",
+  "q_raw": "Consider the following NFA with å given below: TRANSITION TABLE INPUTS STATES e a b c =>p F {p} {q} {r} q {p} {q} {r} F *r {q} {r} F {p} Convert the automation to DFA",
+  "repaired": true
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-i",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "I",
+  "section": "B",
+  "no": 6,
+  "q": "Draw a logic diagram using only two-input NOR gates to implement the following function:\n    F(A, B, C, D) = (A ⊕ B)' (C ⊕ D)",
+  "id": "D045",
+  "q_raw": "Draw a logic diagram using only two-input NOR gates to implement the following function: F(A, B, C, D) = (A  B)' (C  D)",
+  "repaired": true
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-i",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "I",
+  "section": "B",
+  "no": 7,
+  "q": "Construction of half adder without using AND and OR Gate?",
+  "id": "D046"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-i",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "I",
+  "section": "B",
+  "no": 8,
+  "q": "Implement a full adder with two 4X1 multiplexers.",
+  "id": "D047"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-i",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "I",
+  "section": "B",
+  "no": 9,
+  "q": "How will you define the present state and next state of sequential circuit?",
+  "id": "D048"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-i",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "I",
+  "section": "B",
+  "no": 10,
+  "q": "Why look ahead carry adder is faster than ripple adder?",
+  "id": "D049"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-i",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "I",
+  "section": "B",
+  "no": 11,
+  "q": "Explain clock speed related to computer performance.",
+  "id": "D050"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-i",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "I",
+  "section": "B",
+  "no": 12,
+  "q": "What is two level memory access in multilevel memory hierarchy?",
+  "id": "D051"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-i",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "I",
+  "section": "B",
+  "no": 13,
+  "q": "Briefly explain the technique of pipelining. What is the use of Control Register.",
+  "id": "D052"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-i",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "I",
+  "section": "B",
+  "no": 14,
+  "q": "If a system designer wants to exchange the data directly between main memory and I/O module without processor involvement, which technique they need to be choosen by system designer and why?",
+  "id": "D053"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-i",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "I",
+  "section": "B",
+  "no": 15,
+  "q": "Most of the machines provide a variety of shifting and rotating functions. List out the possible shift and rotate functions with suitable diagrams.",
+  "id": "D054"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-i",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "I",
+  "section": "B",
+  "no": 16,
+  "q": "Explain the concept of Recursion.",
+  "id": "D055"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-i",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "I",
+  "section": "B",
+  "no": 17,
+  "q": "Explain the steps to check whether a given expression is balanced or unbalanced.",
+  "id": "D056"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-i",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "I",
+  "section": "B",
+  "no": 18,
+  "q": "Analyze the time complexity of Prim's Algorithm.",
+  "id": "D057"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-i",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "I",
+  "section": "B",
+  "no": 19,
+  "q": "Sort the array {14, 23, 43, 56, 34, 65, 34, 76, 87, 98, 45, 23, 45, 12, 34, 56} using Merge Sort.",
+  "id": "D058"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-ii",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "II",
+  "section": "B",
+  "no": 1,
+  "q": "If an operating system possesses N resources of identical type, and these resources are shared among four processes labeled as a, b, c, and d, with respective peak demands of 3, 5, 8, and 7, then what is the value of N that would prevent the occurrence of deadlock?",
+  "id": "D059"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-ii",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "II",
+  "section": "B",
+  "no": 2,
+  "q": "In a uniprocessor computer system, there exist three processes that alternate between 20ms CPU bursts and 80ms I/O bursts. These processes were created around the same time, and their I/O operations can be executed concurrently. Given a Round Robin scheduling algorithm with a time quantum of 10ms, what would be the CPU utilization over an extended duration for this system?",
+  "id": "D060"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-ii",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "II",
+  "section": "B",
+  "no": 3,
+  "q": "Consider the scenario where disk requests arrive in the order of 82, 170, 43, 140, 24, 16, and 190, with the current head position pointing at 50, determine the total seek time using the SCAN Disk scheduling algorithm.",
+  "id": "D061"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-ii",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "II",
+  "section": "B",
+  "no": 4,
+  "q": "In a system containing three user processes, namely P1, P2, and P3, with resource requirements of 21 units, 31 units, and 41 units of resource R, respectively, the minimum number of units of resource R required to prevent deadlock is _______.",
+  "id": "D062"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-ii",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "II",
+  "section": "B",
+  "no": 5,
+  "q": "What is a thread? Why is it that threads are faster to create than processes?",
+  "id": "D063"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-ii",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "II",
+  "section": "B",
+  "no": 6,
+  "q": "What are the Structures used in File-System Implementation?",
+  "id": "D064"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-ii",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "II",
+  "section": "B",
+  "no": 7,
+  "q": "Suppose the time to service a page fault is on the average 10 milliseconds, while a memory access takes 1 microsecond. Then a 99.99% hit ratio results in average memory access time",
+  "id": "D065"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-ii",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "II",
+  "section": "B",
+  "no": 8,
+  "q": "Compare new and malloc().",
+  "id": "D066"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-ii",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "II",
+  "section": "B",
+  "no": 9,
+  "q": "How pure virtual functions are differ from virtual function?",
+  "id": "D067"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-ii",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "II",
+  "section": "B",
+  "no": 10,
+  "q": "What is the data type of void pointer?",
+  "id": "D068"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-ii",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "II",
+  "section": "B",
+  "no": 11,
+  "q": "Discuss briefly about the functions to manipulate file pointers.",
+  "id": "D069"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-ii",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "II",
+  "section": "B",
+  "no": 12,
+  "q": "Explain the mechanism of exception handling in object-oriented programming.",
+  "id": "D070"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-ii",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "II",
+  "section": "B",
+  "no": 13,
+  "q": "What will be the output of the following C++ code? #include <iostream> #include <string> using namespace std; int main(int argc, char const *argv[]) { string str; cin>>str; cout<<str; return 0; }",
+  "id": "D071"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-ii",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "II",
+  "section": "B",
+  "no": 14,
+  "q": "Write the C++ Program to Compare Two Strings using Overloading",
+  "id": "D072"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-ii",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "II",
+  "section": "B",
+  "no": 15,
+  "q": "Write the Digital Differential Analyzer Line generation Algorithm",
+  "id": "D073"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-ii",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "II",
+  "section": "B",
+  "no": 16,
+  "q": "Short notes an Functions for Segmenting the display",
+  "id": "D074"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-ii",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "II",
+  "section": "B",
+  "no": 17,
+  "q": "Mentioned the Characteristic of Perspective Projection",
+  "id": "D075"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-ii",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "II",
+  "section": "B",
+  "no": 18,
+  "q": "Explain the Types of hidden surface detection algorithms.",
+  "id": "D076"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-ii",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "II",
+  "section": "B",
+  "no": 19,
+  "q": "What are the advantages of B spline over Bezier curve?",
+  "id": "D077"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-ii",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "II",
+  "section": "B",
+  "no": 20,
+  "q": "How much time is spent scanning across each row of pixels during screen refresh on a raster system with resolution of 1280 X 1024 and a refresh rate of 60 frames per second?",
+  "id": "D078"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-iii",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "III",
+  "section": "B",
+  "no": 1,
+  "q": "What is the difference between SQL and NoSQL?",
+  "id": "D079"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-iii",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "III",
+  "section": "B",
+  "no": 2,
+  "q": "Relation R has eight attributes ABCDEFGH. Fields of R contain only atomic values. F = {CH  G, A  BC, B  CFH, E  A, F  EG} is a set of functional dependencies (FDs) so that F+ is exactly the set of FDs that hold for R. How many candidate keys does the relation R have?",
+  "id": "D080"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-iii",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "III",
+  "section": "B",
+  "no": 3,
+  "q": "Table A Id Name Age -------- 12 Arun 60 15 Shreya 24 99 Rohit 11 Table B Id Name Age -------- 15 Shreya 24 25 Hari 40 98 Rohit 20 99 Rohit 11 Table C Id Phone Area -------- 10 2200 02 99 2100 01 Consider the above tables A, B and C. How many tuples does the result of the following SQL query contains? SELECT A.id FROM A WHERE A.age > ALL (SELECT B.age FROM B WHERE B. name = \"arun\")",
+  "id": "D081"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-iii",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "III",
+  "section": "B",
+  "no": 4,
+  "q": "What do you mean by Correlated sub query?",
+  "id": "D082"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-iii",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "III",
+  "section": "B",
+  "no": 5,
+  "q": "List the Codd's Rules on Relational Databases.",
+  "id": "D083"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-iii",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "III",
+  "section": "B",
+  "no": 6,
+  "q": "Why is the multivalue, multicolumn problem another form of the multivalued dependency problem?",
+  "id": "D084"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-iii",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "III",
+  "section": "B",
+  "no": 7,
+  "q": "What are stored-procedures? And what are the advantages of using them?",
+  "id": "D085"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-iii",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "III",
+  "section": "B",
+  "no": 8,
+  "q": "What is a network and what are benefits of network?",
+  "id": "D086"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-iii",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "III",
+  "section": "B",
+  "no": 10,
+  "q": "What are two advantage and disadvantage of STAR Topology?",
+  "id": "D087"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-iii",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "III",
+  "section": "B",
+  "no": 11,
+  "q": "What is Multiplexing? Briefly explain the working of Synchronous TDM.",
+  "id": "D088"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-iii",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "III",
+  "section": "B",
+  "no": 12,
+  "q": "Suppose the round trip propagation delay for a 10 Mbps Ethernet having 48-bit jamming signal is 46.4 ms. The minimum frame size is:",
+  "id": "D089"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-iii",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "III",
+  "section": "B",
+  "no": 13,
+  "q": "A computer on a 10Mbps network is regulated by a token bucket. The token bucket is filled at a rate of 2Mbps. It is initially filled to capacity with 16Megabits. What is the maximum duration for which the computer can transmit at the full 10Mbps?",
+  "id": "D090"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-iii",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "III",
+  "section": "B",
+  "no": 14,
+  "q": "What are the responsibilities of Application Layer?",
+  "id": "D091"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-iii",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "III",
+  "section": "B",
+  "no": 15,
+  "q": "How does the risk factor affect the spiral model of software development?",
+  "id": "D092"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-iii",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "III",
+  "section": "B",
+  "no": 16,
+  "q": "Distinguish software faults and software failures.",
+  "id": "D093"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-iii",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "III",
+  "section": "B",
+  "no": 17,
+  "q": "Compare the basic COCOMO model with the detailed COCOMO model.",
+  "id": "D094"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-iii",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "III",
+  "section": "B",
+  "no": 18,
+  "q": "A software project involves execution of 5 tasks T1, T2, T3, T4 and T5 of duration 10, 15, 18, 30 and 40 days, respectively. T2 and T4 can start only after T1 completes. T3 can start after T2 completes. T5 can start only after both T3 and T4 complete. What is the slack time of the task T3 in days?",
+  "id": "D095"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-iii",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "III",
+  "section": "B",
+  "no": 19,
+  "q": "Consider the following program module: int module1 (int x, int y) { while (x! = y) { if (x > y) x = x - y, else y = y - x; } return x; } What is Cyclomatic complexity of the above module?",
+  "id": "D096"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-iii",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "III",
+  "section": "B",
+  "no": 20,
+  "q": "Assume that the software team defines a project risk with 80% probability of occurrence of risk in the following manner : Only 70 percent of the software components scheduled for reuse will be integrated into the application and the remaining functionality will have to be custom developed. If 60 reusable components were planned with average component size as 100 LOC and software engineering cost for each LOC as $ 14, then the risk exposure would be..",
+  "id": "D097"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-i",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "I",
+  "section": "B",
+  "no": 20,
+  "q": "Identify the heap from the following sequences and determine it is min or max binary heap (a) 1, 3, 2, 4, 6, 5 (b) 6,5,3,4,2,1 (c) 30,12,90,8,15 (d) Jack, Queen, King, Rahul, Frick, Laxman (e) Queen, laxman, king, Frick, Eigen, Hive",
+  "id": "D098",
+  "recovered": true
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-iii",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "III",
+  "section": "B",
+  "no": 9,
+  "q": "Consider a source computer (S) transmitting a file of size 10^6 bits to a destination computer (D) over a network of two routers (R1 and R2) and three links (L1, L2 and L3). L1 connects S to R1; L2 connects R1 to R2; and L3 connects R2 to D. Let each link be of length 100km. Assume signals travel over each link at a speed of 10^8 meters per second. Assume that the link bandwidth on each link is 1Mbps. Let the file be broken down into 1000 packets each of size 1000 bits. Find the total sum of transmission and propagation delays in transmitting the file from S to D?",
+  "id": "D099",
+  "recovered": true
+ }
+]

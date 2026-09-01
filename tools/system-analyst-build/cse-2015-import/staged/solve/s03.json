@@ -1,0 +1,489 @@
+[
+ {
+  "id": "N0704",
+  "question": "_______ are used for converting one type of number system into other form",
+  "options": {
+   "A": "Encoder",
+   "B": "Logic gate",
+   "C": "Half adder",
+   "D": "FA"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0705",
+  "question": "Multiplexer means",
+  "options": {
+   "A": "one in to many",
+   "B": "many in to one",
+   "C": "many in to many",
+   "D": "None of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0706",
+  "question": "ASCII code is a/an _______ bit code",
+  "options": {
+   "A": "1",
+   "B": "2",
+   "C": "7",
+   "D": "8"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0707",
+  "question": "8421 codes is also called as",
+  "options": {
+   "A": "Gray code",
+   "B": "ASCII code",
+   "C": "excess 3-code",
+   "D": "BCD code"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0708",
+  "question": "Karnaugh map (K-map) technique provides a systematic method for simplifying",
+  "options": {
+   "A": "multiplexers",
+   "B": "logic gates",
+   "C": "Boolean expressions",
+   "D": "None of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0709",
+  "question": "In Boolean algebra A+ AB = _______",
+  "options": {
+   "A": "B",
+   "B": "A",
+   "C": "AB",
+   "D": "A+B"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0710",
+  "question": "Which of the following is a 8 bit Microprocessor?",
+  "options": {
+   "A": "Intel 4040",
+   "B": "Pentium - I",
+   "C": "8088",
+   "D": "Motorala MC-6801"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0711",
+  "question": "The 8085 Microprocessor uses_______ power supply",
+  "options": {
+   "A": "+5V",
+   "B": "-5V",
+   "C": "+12V",
+   "D": "-12V"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0712",
+  "question": "The Stack pointer holds",
+  "options": {
+   "A": "16 bit address",
+   "B": "16 bit data",
+   "C": "8 bit address",
+   "D": "8 bit data"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0713",
+  "question": "The Second Generation of computers used",
+  "options": {
+   "A": "IC-Chip",
+   "B": "Transistors",
+   "C": "Vaccum tubes",
+   "D": "Microprocessor chip"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0714",
+  "question": "Flip flop is also called as",
+  "options": {
+   "A": "stable",
+   "B": "bistable",
+   "C": "tri stable",
+   "D": "not stable"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0715",
+  "question": "The number system that we use in our day to day life is called the _______ Number System",
+  "options": {
+   "A": "Octal",
+   "B": "Binary",
+   "C": "Hexadecimal",
+   "D": "Decimal"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0716",
+  "question": "The Binary system has base _______",
+  "options": {
+   "A": "8",
+   "B": "2",
+   "C": "10",
+   "D": "16"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0717",
+  "question": "110100112= ? 16",
+  "options": {
+   "A": "D316",
+   "B": "A316",
+   "C": "B316",
+   "D": "D216"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0745",
+  "question": "An instruction with an indexed operand having address field with all 0's bit is effectively a",
+  "options": {
+   "A": "register indirect mode of operation",
+   "B": "register direct mode of operation",
+   "C": "memory indirect mode of operation",
+   "D": "base-register addressing mode of operation"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0746",
+  "question": "One of the most popular addressing schemes is Base-displacement addressing mode because it has the power of:",
+  "options": {
+   "A": "preindexed register indirect mode",
+   "B": "postindexed register indirect mode",
+   "C": "program relocatability",
+   "D": "addressing an N-word memory with an address field having length less than log2 N bits ..",
+   "E": "both (c) and (d) are true"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0747",
+  "question": "In the following pair of addressing modes the first element refers to one having minimum operand fetching time and second one refers to the addressing mode with maximum operand fetching time; pick up the correct pair:",
+  "options": {
+   "A": "register direct and memory indirect ...",
+   "B": "immediate and indexed indirect",
+   "C": "register direct and indexed",
+   "D": "immediate and Base-displacement",
+   "E": "immediate and extended memory"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0748",
+  "question": "In indirect index addressing mode using the index register having value X and address A, the effective operand address is:",
+  "options": {
+   "A": "(X + A)",
+   "B": "Content of memory location addressed by (X + A)",
+   "C": "X + content of memory location addressed by A",
+   "D": "A + content of memory location addressed by X",
+   "E": "None of the above is true"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0749",
+  "question": "An instruction with two extended memory address operands using base register of length 12, number of operation codes 150, and 1M byte memory has a length of:",
+  "options": {
+   "A": "32",
+   "B": "24",
+   "C": "16",
+   "D": "20"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0750",
+  "question": "Program size is likely to be minimum with",
+  "options": {
+   "A": "expanding op code",
+   "B": "fixed length op code",
+   "C": "data dependent op code",
+   "D": "none of the above statements are valid"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0805",
+  "question": "The time elapsed between the initiation of a memory operation and the completion of that operation is known as",
+  "options": {
+   "A": "memory cycle time",
+   "B": "memory access time",
+   "C": "transfer time",
+   "D": "skip time"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0806",
+  "question": "The desirable characteristic (s) of a memory system is (are)",
+  "options": {
+   "A": "speed and reliability",
+   "B": "low power consumption",
+   "C": "durability and compactness",
+   "D": "all of the above"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0807",
+  "question": "How many address lines are needed to address each memory location in a 2048 \u00d7 4 memory chip?",
+  "options": {
+   "A": "10",
+   "B": "11",
+   "C": "8",
+   "D": "12"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0808",
+  "question": "The control unit of a microprocessor",
+  "options": {
+   "A": "stores data in the memory",
+   "B": "accepts input data from a keyboard",
+   "C": "performs arithmetic/logic functions",
+   "D": "none of the above."
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0809",
+  "question": "Which of the following registers is used to keep track of address of the memory location where the next instruction is located?",
+  "options": {
+   "A": "Memory Address Register",
+   "B": "Memory Data Register",
+   "C": "Instruction Register",
+   "D": "Program Counter"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0810",
+  "question": "Which of the following registers is loaded with the contents of the memory location pointed by the PC?",
+  "options": {
+   "A": "Memory Address Register",
+   "B": "Memory Data Register",
+   "C": "Instruction Register",
+   "D": "Program Counter"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0811",
+  "question": "Registers which are partially visible to users and used to hold conditional codes (bits set by the CPU hardware as the result of operations), are known as",
+  "options": {
+   "A": "PC",
+   "B": "Memory Address Registers",
+   "C": "General purpose registers",
+   "D": "Flags"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0812",
+  "question": "Booth's multiplication algorithm generates correct product with negative multiplier without any correction step because",
+  "options": {
+   "A": "multiplier is considered as a positive number",
+   "B": "multiplicand is added with (n - 1) left shift corresponding to the sign bit of multiplier",
+   "C": "multiplicand is subtracted corresponding to the first 1 in the most leading run of consecutive 1's",
+   "D": "multiplicand is subtracted with (n - 1) left shift corresponding to the sign bit of multiplier"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0813",
+  "question": "If some device requires urgent service, normal execution of programs may sometimes be preempted using",
+  "options": {
+   "A": "an interrupt signal",
+   "B": "a request to memory modules",
+   "C": "DMA",
+   "D": "all of the above"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0814",
+  "question": "The user microprogramming feature enables the designer to",
+  "options": {
+   "A": "design the microprogrammed controller",
+   "B": "write his own code",
+   "C": "redefine the microprogram stored in the control ROM",
+   "D": "none of the above statements is true"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0815",
+  "question": "A CPU handles interrupt by executing interrupt service routine",
+  "options": {
+   "A": "whenever an interrupt is registered",
+   "B": "by checking interrupt register at the end of fetch cycle",
+   "C": "by checking interrupt register after execution of each instruction",
+   "D": "by checking interrupt register at regular time interval."
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0816",
+  "question": "The software interrupt is a convenient means to",
+  "options": {
+   "A": "transfer CPU control from one program to another",
+   "B": "switch over from problem state to supervisory state of CPU",
+   "C": "execute a hardware controlled jump under an abnormal (but known) situation",
+   "D": "both (b) and (c) are valid (e) none of the above statements is true"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0817",
+  "question": "A microprogram sequencer",
+  "options": {
+   "A": "enables efficient handling of microprogram subroutines",
+   "B": "helps appropriate encoding and decoding of control signals in control memory",
+   "C": "controls the generation of effective address for the control ROM",
+   "D": "handles the task of next address generation in a microprogrammed control structure"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0818",
+  "question": "The access method used for magnetic tape is",
+  "options": {
+   "A": "Direct",
+   "B": "Random",
+   "C": "Sequential",
+   "D": "None of the above"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0819",
+  "question": "By Processing we understand",
+  "options": {
+   "A": "Processing string of only words",
+   "B": "None of the above",
+   "C": "String manipulation only",
+   "D": "Processing string of numbers and special symbols"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0820",
+  "question": "The difference between memory and storage is that the memory is _______ and storage is _______",
+  "options": {
+   "A": "Temporary, permanent",
+   "B": "Permanent, temporary",
+   "C": "Slow, fast",
+   "D": "None of the above"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0821",
+  "question": "Which of the Following holds the ROM, CPU, RAM and expansion cards?",
+  "options": {
+   "A": "Hard disk",
+   "B": "Floppy disk",
+   "C": "Mother board",
+   "D": "None of the above"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0822",
+  "question": "Which of the following devices can be used to directly input printed text?",
+  "options": {
+   "A": "OCR",
+   "B": "OMR",
+   "C": "MICR",
+   "D": "None of the above"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0823",
+  "question": "A floppy disk contains",
+  "options": {
+   "A": "Circular tracks only",
+   "B": "Sectors only",
+   "C": "Both circular tracks and sectors",
+   "D": "None of the above"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0824",
+  "question": "CD-ROM is a",
+  "options": {
+   "A": "Semiconductor memory",
+   "B": "Memory register",
+   "C": "Magnetic memory",
+   "D": "None of the above"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0825",
+  "question": "Actual execution of instructions in a computer takes place in",
+  "options": {
+   "A": "ALU",
+   "B": "Control Unit",
+   "C": "Storage unit",
+   "D": "None of the above"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0826",
+  "question": "Information retrieval is faster from",
+  "options": {
+   "A": "Floppy disk",
+   "B": "Magnetic tape",
+   "C": "Hard disk",
+   "D": "None of the above"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0831",
+  "question": "A translator is best described as",
+  "options": {
+   "A": "An Application software",
+   "B": "A system software",
+   "C": "A hardware component",
+   "D": "None of the above"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0832",
+  "question": "Indicate which of the following is not true about an interpreter",
+  "options": {
+   "A": "Interpreter generates an object program from the source program",
+   "B": "Interpreter is a kind of translator",
+   "C": "Interpreter analyses each source statement every time it is to be executed",
+   "D": "None of the above"
+  },
+  "garbled": false
+ }
+]

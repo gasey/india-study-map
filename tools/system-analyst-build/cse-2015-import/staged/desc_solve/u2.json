@@ -1,0 +1,64 @@
+[
+ {
+  "id": "D045",
+  "q": "Draw a logic diagram using only two-input NOR gates to implement the following function:\n    F(A, B, C, D) = (A ⊕ B)' (C ⊕ D)",
+  "unit": "2",
+  "sub": "NOR gate logic diagram",
+  "garbled": true,
+  "repaired": true
+ },
+ {
+  "id": "D046",
+  "q": "Construction of half adder without using AND and OR Gate?",
+  "unit": "2",
+  "sub": "Half adder (gate design)"
+ },
+ {
+  "id": "D047",
+  "q": "Implement a full adder with two 4X1 multiplexers.",
+  "unit": "2",
+  "sub": "Full adder using multiplexers"
+ },
+ {
+  "id": "D048",
+  "q": "How will you define the present state and next state of sequential circuit?",
+  "unit": "2",
+  "sub": "Sequential circuit states"
+ },
+ {
+  "id": "D049",
+  "q": "Why look ahead carry adder is faster than ripple adder?",
+  "unit": "2",
+  "sub": "Carry lookahead adder"
+ },
+ {
+  "id": "D050",
+  "q": "Explain clock speed related to computer performance.",
+  "unit": "2",
+  "sub": "Clock speed and performance"
+ },
+ {
+  "id": "D051",
+  "q": "What is two level memory access in multilevel memory hierarchy?",
+  "unit": "2",
+  "sub": "Memory hierarchy levels"
+ },
+ {
+  "id": "D052",
+  "q": "Briefly explain the technique of pipelining. What is the use of Control Register.",
+  "unit": "2",
+  "sub": "Pipelining and control register"
+ },
+ {
+  "id": "D053",
+  "q": "If a system designer wants to exchange the data directly between main memory and I/O module without processor involvement, which technique they need to be choosen by system designer and why?",
+  "unit": "2",
+  "sub": "DMA transfer"
+ },
+ {
+  "id": "D054",
+  "q": "Most of the machines provide a variety of shifting and rotating functions. List out the possible shift and rotate functions with suitable diagrams.",
+  "unit": "2",
+  "sub": "Shift and rotate operations"
+ }
+]

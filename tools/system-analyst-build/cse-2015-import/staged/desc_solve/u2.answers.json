@@ -1,0 +1,167 @@
+[
+ {
+  "id": "D045",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "NOR gate logic diagram",
+  "ans": "F = (A ⊕ B)'·(C ⊕ D). NOR is a universal gate, so build the two exclusive-OR blocks first and merge them with De Morgan's law: X·Y = (X' + Y')' = NOR(X', Y'). That means the final NOR must be fed with the complements of the two factors, i.e. with (A ⊕ B) and with (C ⊕ D)'.\n\nStage 1 — XOR(A,B), five NOR gates:\nG1 = NOR(A, B)\nG2 = NOR(A, G1)\nG3 = NOR(B, G1)\nG4 = NOR(G2, G3) = (A ⊕ B)'\nG5 = NOR(G4, G4) = A ⊕ B\n\nStage 2 — XNOR(C,D), four NOR gates (the fifth inverter is not needed, because the complement is exactly what the last gate wants):\nG6 = NOR(C, D)\nG7 = NOR(C, G6)\nG8 = NOR(D, G6)\nG9 = NOR(G7, G8) = (C ⊕ D)'\n\nStage 3 — the AND, one NOR gate:\nG10 = NOR(G5, G9) = G5'·G9' = (A ⊕ B)'·(C ⊕ D) = F\n\nTen two-input NOR gates, five gate levels deep. Check A = B = 0, C = 0, D = 1: G4 = 1 so G5 = 0; G9 = (0 ⊕ 1)' = 0; G10 = NOR(0,0) = 1, and (0 ⊕ 0)'(0 ⊕ 1) = 1·1 = 1.",
+  "points": [
+   "Recognises NOR is universal and that AND is realised as NOR of the complemented inputs: X·Y = NOR(X', Y')",
+   "Builds XNOR(A,B) in four NOR gates (G1..G4) and inverts with a fifth to get A ⊕ B",
+   "Builds XNOR(C,D) in four NOR gates and uses it uncomplemented, saving the inverter",
+   "Final gate G10 = NOR(A ⊕ B, (C ⊕ D)') yields F exactly",
+   "States the total: 10 two-input NOR gates, 5 gate levels, and verifies one input combination"
+  ],
+  "conf": "high",
+  "incomplete": false
+ },
+ {
+  "id": "D046",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Half adder (gate design)",
+  "ans": "A half adder produces Sum = A ⊕ B and Carry = A·B. With AND and OR barred, use NAND, which is functionally complete — every AND, OR and NOT can be rebuilt from it — so the whole circuit can be made from one gate type.\n\nFive two-input NAND gates:\nN1 = (A·B)'\nN2 = (A·N1)'\nN3 = (B·N1)'\nN4 = (N2·N3)'  = Sum\nN5 = (N1·N1)' = N1' = A·B = Carry\n\nNote that N5 is just N1 wired as an inverter, so the carry is free once N1 exists.\n\nVerification by truth table (A B : N1 N2 N3 N4 N5):\n0 0 : 1 1 1 0 0\n0 1 : 1 1 0 1 0\n1 0 : 1 0 1 1 0\n1 1 : 0 1 1 0 1\n\nColumn N4 is 0,1,1,0 = A ⊕ B and column N5 is 0,0,0,1 = A·B, which is the half adder.\n\nA NOR-only version also exists but costs more: M1 = NOR(A,B), M2 = NOR(A,M1), M3 = NOR(B,M1), M4 = NOR(M2,M3) = (A ⊕ B)', M5 = NOR(M4,M4) = Sum, M6 = NOR(M5,M1) = Carry — six gates instead of five.",
+  "points": [
+   "States the requirement Sum = A ⊕ B, Carry = A·B and that NAND (or NOR) is a universal gate",
+   "Gives the five-NAND network N1..N5 with each gate's inputs named",
+   "Notes Carry is obtained by simply inverting N1 = (AB)'",
+   "Verifies with the four-row truth table that N4 = XOR and N5 = AND",
+   "Optional credit: gives the six-gate NOR-only alternative"
+  ],
+  "conf": "high",
+  "incomplete": false
+ },
+ {
+  "id": "D047",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Full adder using multiplexers",
+  "ans": "A full adder has three inputs (A, B, Cin) and two outputs (S, Cout), so use one 4×1 MUX per output. A 4×1 MUX has only two select lines, so take two of the three variables — A and B — as the selects (S1 = A, S0 = B) and express each data input as a function of the third variable, Cin. This is the standard 'n-variable function on a 2^(n-1)-line MUX' method.\n\nFull adder truth table (A B Cin : S Cout):\n0 0 0 : 0 0\n0 0 1 : 1 0\n0 1 0 : 1 0\n0 1 1 : 0 1\n1 0 0 : 1 0\n1 0 1 : 0 1\n1 1 0 : 0 1\n1 1 1 : 1 1\n\nReading the rows in pairs, for each AB combination:\n\nMUX-1 (Sum), S1 = A, S0 = B:\nI0 = Cin, I1 = Cin', I2 = Cin', I3 = Cin\n\nMUX-2 (Carry-out), S1 = A, S0 = B:\nI0 = 0, I1 = Cin, I2 = Cin, I3 = 1\n\nOne inverter generates Cin' and feeds I1 and I2 of MUX-1; I0 of MUX-2 is tied to logic 0 and I3 to logic 1. Total hardware: two 4×1 multiplexers and one NOT gate.",
+  "points": [
+   "Chooses A and B as the select lines (S1 = A, S0 = B) and Cin as the data variable",
+   "Writes the full-adder truth table and reduces it in AB pairs",
+   "Sum MUX data inputs: I0 = Cin, I1 = Cin', I2 = Cin', I3 = Cin",
+   "Carry MUX data inputs: I0 = 0, I1 = Cin, I2 = Cin, I3 = 1",
+   "States the extra hardware needed: one inverter for Cin', constants 0 and 1 tied to two inputs"
+  ],
+  "conf": "high",
+  "incomplete": false
+ },
+ {
+  "id": "D048",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Sequential circuit states",
+  "ans": "In a clocked sequential circuit the flip-flops are the memory, and their combined contents are the state. The present state is the vector of flip-flop outputs at time t — the value stored just before the active clock edge — written Q(t). The next state is the value that same vector takes immediately after that edge, Q(t+1). Only the clock transition can change one into the other; between edges the present state is held.\n\nThe next state is a function of the present state and the current inputs: Q(t+1) = f(Q(t), X). In practice you write the excitation equations for the flip-flop inputs and combine them with the flip-flop characteristic equation — for a D flip-flop Q(t+1) = D, for JK Q(t+1) = J·Q' + K'·Q — to get the state equations.\n\nMano's two-flip-flop example: A(t+1) = A·x + B·x, B(t+1) = A'·x, y = (A + B)·x'. If the present state is AB = 00 with input x = 1, then A(t+1) = 0·1 + 0·1 = 0 and B(t+1) = 1·1 = 1, so the next state is AB = 01, and the output y = (0+0)·0 = 0.\n\nTabulating this for every present-state/input pair gives the state table; drawn as circles joined by labelled arrows it is the state diagram.",
+  "points": [
+   "Present state = flip-flop contents Q(t) just before the active clock edge",
+   "Next state = Q(t+1), the contents just after the edge; changes only on the clock transition",
+   "Next state is a function of present state and inputs: Q(t+1) = f(Q(t), X)",
+   "Derives it from the excitation equations plus the flip-flop characteristic equation (D: Q(t+1)=D; JK: Q(t+1)=JQ'+K'Q)",
+   "Works one transition: present AB = 00, x = 1 gives next AB = 01",
+   "Connects to the state table / state diagram, and to Moore vs Mealy output dependence"
+  ],
+  "conf": "high",
+  "incomplete": false
+ },
+ {
+  "id": "D049",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Carry lookahead adder",
+  "ans": "In an n-bit ripple carry adder the full adders are chained: stage i cannot produce its sum until carry C_i has arrived from stage i-1. The carry path through one full adder costs about 2 gate delays, so the final carry C_n settles only after roughly 2n gate delays. The addition time therefore grows linearly with the word length.\n\nCarry lookahead breaks the chain by computing every carry directly from the operands. Per bit define generate G_i = A_i·B_i and propagate P_i = A_i ⊕ B_i. Then C_(i+1) = G_i + P_i·C_i, and unrolling the recursion removes the dependence on the previous carry:\nC1 = G0 + P0·C0\nC2 = G1 + P1·G0 + P1·P0·C0\nC3 = G2 + P2·G1 + P2·P1·G0 + P2·P1·P0·C0\nC4 = G3 + P3·G2 + P3·P2·G1 + P3·P2·P1·G0 + P3·P2·P1·P0·C0\n\nEvery carry is now a two-level AND-OR function of the inputs and C0 alone, so all carries appear at the same instant, after a delay that does not depend on n.\n\nTiming for 4 bits: ripple = 2 × 4 = 8 gate delays to C4; lookahead = 1 (P,G) + 2 (AND-OR carry) + 1 (S_i = P_i ⊕ C_i) = 4. At 16 bits ripple needs about 32 while lookahead stays near 4. The price is many more gates and high fan-in, which is why wide adders use hierarchical 4-bit lookahead blocks.",
+  "points": [
+   "Ripple carry is serial: carry propagates stage by stage, worst case ≈ 2n gate delays",
+   "Defines G_i = A_i·B_i, P_i = A_i ⊕ B_i and the recursion C_(i+1) = G_i + P_i·C_i",
+   "Unrolls to give C1..C4 as two-level AND-OR expressions of the inputs and C0 only",
+   "All carries generated in parallel, so delay is constant and independent of n",
+   "Quantifies: 4-bit ripple ≈ 8 gate delays vs lookahead ≈ 4; 16-bit ≈ 32 vs ≈ 4",
+   "Notes the cost: more gates and higher fan-in, hence hierarchical lookahead for wide adders"
+  ],
+  "conf": "high",
+  "incomplete": false
+ },
+ {
+  "id": "D050",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Clock speed and performance",
+  "ans": "Clock speed is the frequency f of the processor's clock, in Hz; its reciprocal T = 1/f is the clock cycle time. Every micro-operation in the datapath is timed by this clock, so T is the quantum of all work the CPU does.\n\nThe link to performance is the CPU performance equation:\nCPU time = Instruction count × CPI × T = (IC × CPI) / f\n\nWorked example: a program of 2 × 10^9 instructions with an average CPI of 1.5 on a 2 GHz processor takes (2 × 10^9 × 1.5) / (2 × 10^9) = 1.5 s. Raise the clock to 4 GHz with IC and CPI unchanged and the same program takes 0.75 s — exactly twice as fast.\n\nBut 'unchanged' rarely holds. Main memory latency is fixed in nanoseconds, not cycles, so doubling f roughly doubles the stall cycles charged for each cache miss; CPI rises and the real speedup falls well short of 2. Clock speed also means nothing across different architectures: a machine at 1 GHz with CPI 1.2 beats one at 2 GHz with CPI 4 (0.83 ns/instruction against 2 ns). This is why MIPS = f / (CPI × 10^6) is a poor cross-machine metric — clock rate is only one of the three factors, and the other two are set by the ISA, the compiler and the memory system.",
+  "points": [
+   "Defines clock rate f and cycle time T = 1/f as the timing quantum of the datapath",
+   "States CPU time = IC × CPI × T = (IC × CPI)/f",
+   "Works the example: 2×10^9 instructions, CPI 1.5, 2 GHz gives 1.5 s; 4 GHz gives 0.75 s",
+   "Explains why the gain is sub-linear: fixed memory latency means more stall cycles per miss, so CPI grows with f",
+   "Shows clock rate alone is not comparable across ISAs (1 GHz at CPI 1.2 beats 2 GHz at CPI 4)"
+  ],
+  "conf": "high",
+  "incomplete": false
+ },
+ {
+  "id": "D051",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Memory hierarchy levels",
+  "ans": "A memory hierarchy is analysed two levels at a time: a small fast level M1 (cache, access time T1) backed by a larger slower level M2 (main memory, T2), where everything in M1 is also present in M2. 'Two-level memory access' is the model giving the average access time the CPU actually sees from that pair. The same formula is then applied repeatedly — registers/cache, cache/main memory, main memory/disk — to cover the whole hierarchy.\n\nLet H be the hit ratio, the fraction of references satisfied by M1. On a hit the cost is T1. On a miss, M1 is searched first and only then is the block fetched from M2, so the cost is T1 + T2. Hence\n\nT_avg = H·T1 + (1 − H)·(T1 + T2)\n\nWorked example, T1 = 10 ns, T2 = 100 ns, H = 0.95:\nT_avg = 0.95 × 10 + 0.05 × (10 + 100) = 9.5 + 5.5 = 15 ns\n\nClose to the 10 ns of the fast level at nearly the cost per bit of the slow one — the point of the hierarchy — and it works only because locality of reference keeps H near 1. At H = 0.5 the same numbers give 5 + 55 = 60 ns.\n\nConvention: this is Stallings' hierarchical (sequential) form. Texts assuming M1 and M2 are probed simultaneously write T_avg = H·T1 + (1 − H)·T2, giving 14.5 ns here. State which you assume.",
+  "points": [
+   "Defines the two-level pair M1/M2 with access times T1, T2 and inclusion of M1's contents in M2",
+   "Defines hit ratio H and gives T_avg = H·T1 + (1 − H)·(T1 + T2)",
+   "Worked numbers: T1 = 10 ns, T2 = 100 ns, H = 0.95 gives 9.5 + 5.5 = 15 ns",
+   "States explicitly which convention is used, and gives the simultaneous-access variant H·T1 + (1−H)·T2 = 14.5 ns",
+   "Explains that locality of reference is what keeps H near 1 (at H = 0.5 the average degrades to 60 ns)",
+   "Notes the model is applied recursively across the whole hierarchy"
+  ],
+  "conf": "medium",
+  "incomplete": false
+ },
+ {
+  "id": "D052",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Pipelining and control register",
+  "ans": "Pipelining overlaps the execution of successive instructions. The datapath is cut into k sub-operations — typically fetch, decode, operand fetch, execute, write back — separated by buffer (pipeline) registers clocked together. While instruction i executes, i+1 fetches its operands, i+2 is decoded and i+3 is fetched. Each instruction still takes k cycles end to end, but in the steady state one completes every cycle.\n\nSpeedup: n instructions on a k-stage pipeline need k + (n − 1) cycles against n·k non-pipelined. For k = 4, n = 100: 4 + 99 = 103 cycles versus 400, a speedup of 400/103 = 3.88, tending to k as n grows. Real speedup is lower because of hazards — resource conflicts, data dependences and branches — handled by stalling, operand forwarding, or flushing on a taken branch.\n\nControl register: in Mano's microprogrammed control unit the control address register (CAR) holds the address of the next microinstruction in control memory, and the control data register (CDR, or control buffer register) holds the microinstruction just read out. Latching it in the CDR lets the next microinstruction be fetched while the current one executes — the control unit is itself pipelined, which is why the register exists. In a pipelined hardwired datapath the same role is played by the control fields carried forward inside each pipeline register.",
+  "points": [
+   "Pipelining = split execution into k sub-operations separated by buffer registers, overlapping successive instructions",
+   "Steady state throughput of one instruction per clock, though latency per instruction is still k cycles",
+   "Speedup derivation: n·k / (k + n − 1); k = 4, n = 100 gives 400/103 = 3.88, approaching k",
+   "Names the hazards (resource, data, branch) and their remedies (stall, forward, flush)",
+   "CAR holds the address of the next microinstruction; CDR/control buffer register holds the microinstruction being executed",
+   "Explains the CDR allows fetch of the next microinstruction to overlap execution of the current one"
+  ],
+  "conf": "medium",
+  "incomplete": false
+ },
+ {
+  "id": "D053",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "DMA transfer",
+  "ans": "The technique is direct memory access (DMA), implemented by a DMA controller on the system bus.\n\nWhy DMA and not the alternatives: with programmed I/O the CPU polls the interface status flag and moves every single word through a processor register, so it is fully occupied for the whole transfer. Interrupt-driven I/O removes the busy-wait, but the CPU still runs an interrupt service routine and a register-to-memory move per word — for a disk block of thousands of words, thousands of interrupts. DMA is the only one of the three that takes the processor out of the data path altogether, so it is the right choice for fast block devices (disk, network, video).\n\nHow it works: the CPU programs the controller once, writing the address register (starting memory address), the word count register (number of words) and the control register (read/write direction and mode), then issues start and continues with other work. The controller asserts bus request (BR); the CPU replies with bus grant (BG) and floats its address, data and control lines. The controller then drives the bus itself, transferring either by cycle stealing — one bus cycle at a time between CPU bus accesses — or in burst/block mode. Each word increments the address register and decrements the word count; when the count reaches zero the controller raises one interrupt to report completion.",
+  "points": [
+   "Names direct memory access (DMA) with a DMA controller as the required technique",
+   "Contrasts with programmed I/O (CPU busy-waits and moves every word) and interrupt-driven I/O (one ISR per word)",
+   "Justifies it for high-speed block devices: CPU is removed from the data path entirely",
+   "Lists the controller registers the CPU initialises: address register, word count register, control register",
+   "Describes bus request / bus grant handshake and the CPU floating its bus lines",
+   "Distinguishes cycle stealing from burst mode, and notes one interrupt at completion when the word count hits zero"
+  ],
+  "conf": "high",
+  "incomplete": false
+ },
+ {
+  "id": "D054",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Shift and rotate operations",
+  "ans": "Shifts and rotates displace a register's bits sideways; they differ in what enters the vacated end and what becomes of the bit pushed out. Take an 8-bit register R = 1001 0110 (b7...b0) with carry C = 0, shifted one place.\n\nLogical shift left (SHL): 0 enters b0, b7 goes out to C. R = 0010 1100, C = 1. Multiplies by 2.\nLogical shift right (SHR): 0 enters b7, b0 goes out to C. R = 0100 1011, C = 0. Unsigned divide by 2.\nArithmetic shift left (ASL): same bit movement as SHL; overflow flagged if the sign bit changes.\nArithmetic shift right (ASR): the sign bit is replicated into b7, b0 goes out to C. R = 1100 1011. Signed divide by 2.\nRotate left (ROL): b7 wraps round into b0 and is copied to C. R = 0010 1101.\nRotate right (ROR): b0 wraps round into b7 and is copied to C. R = 0100 1011.\nRotate left through carry (RCL): a 9-bit loop — C enters b0, b7 goes to C. R = 0010 1100, C = 1.\nRotate right through carry (RCR): C enters b7, b0 goes to C. R = 0100 1011, C = 0.\n\nRotates are reversible, losing no bit. Shifts discard the ejected bit, keeping only a copy in the carry flag.",
+  "points": [
+   "Lists all eight operations: logical/arithmetic shift left and right, rotate left/right, rotate left/right through carry",
+   "States for each what fills the vacated bit position and where the ejected bit goes (carry)",
+   "Arithmetic shift right replicates the sign bit; arithmetic shift left is the same as logical left but flags sign-change overflow",
+   "Traces a concrete 8-bit example (1001 0110, C = 0) through each operation with the resulting pattern and carry",
+   "Notes shifts as multiply/divide by 2 and that rotates preserve all bits while shifts lose the ejected bit"
+  ],
+  "conf": "high",
+  "incomplete": false
+ }
+]

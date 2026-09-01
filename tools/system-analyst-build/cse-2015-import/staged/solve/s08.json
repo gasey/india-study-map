@@ -1,0 +1,487 @@
+[
+ {
+  "id": "N0078",
+  "question": "What does \"packing\" refer to in computer programming?",
+  "options": {
+   "A": "Arranging physical objects",
+   "B": "Compressing data to reduce its size",
+   "C": "Organizing files ina folder",
+   "D": "Allocating memory for variables"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0079",
+  "question": "What is the primary goal of designing efficient algorithms?",
+  "options": {
+   "A": "To use the least amount of memory",
+   "B": "To minimize the number of steps",
+   "C": "To make the code shorter and easier to write",
+   "D": "To ensure 100% accuracy in the output"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0080",
+  "question": "In algorithm analysis, what does \"time complexity\" refer to?",
+  "options": {
+   "A": "The actual execution time of the algorithm",
+   "B": "The number of steps required by the algorithm as a function of input size",
+   "C": "The memory space used by the algorithm",
+   "D": "The speed of the computer running the algorithm | - -- --- - _ oo ----- en <7"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0081",
+  "question": "What does \"Big O notation\" describe in algorithm analysis?",
+  "options": {
+   "A": "The largest number in a data set",
+   "B": "The upper bound on the growth rate of an algorithm's runtime",
+   "C": "The smallest number in a data set",
+   "D": "The average case of an algorithm's performance"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0082",
+  "question": "Which sorting algorithm has the best average-case time complexity among the following?",
+  "options": {
+   "A": "Bubble Sort",
+   "B": "Insertion Sort",
+   "C": "Merge Sort",
+   "D": "Quick Sort"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0083",
+  "question": "What is the time complexity of the Bubble Sort algorithm in the worst-case scenario?",
+  "options": {
+   "A": "O(1)",
+   "B": "Of)",
+   "C": "O(n'2)",
+   "D": "O(log n)"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0084",
+  "question": "What is the time complexity of Binary Search on a sorted array?",
+  "options": {
+   "A": "O(1)",
+   "B": "O(log n)",
+   "C": "O(n)",
+   "D": "O(n'2)"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0085",
+  "question": "Which searching algorithm examines each element in the search space sequentially until a match is found?",
+  "options": {
+   "A": "Linear Search",
+   "B": "Binary Search",
+   "C": "Merge Sort",
+   "D": "Quick Sort"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0086",
+  "question": "What is a potential issue with recursive functions that do not have a base case or have a base case that is never reached?",
+  "options": {
+   "A": "They run faster than iterative functions",
+   "B": "They always produce correct results",
+   "C": "They may cause a stack overflow error",
+   "D": "They do not use the call stack"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0087",
+  "question": "What is the time complexity for the push and pop operations in a typical stack implementation?",
+  "options": {
+   "A": "O(1)- Constant time",
+   "B": "O(log n) - Logarithmic time",
+   "C": "O(n) - Linear time",
+   "D": "O(n%2) - Quadratic time"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0088",
+  "question": "Ina queue, which operation adds an element to the back of the queue?",
+  "options": {
+   "A": "Push",
+   "B": "Pop",
+   "C": "Enqueue",
+   "D": "Dequeue"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0089",
+  "question": "Which data structure is often used to implement a queue efficiently?",
+  "options": {
+   "A": "Linked list",
+   "B": "Array",
+   "C": "Hash table",
+   "D": "Tree"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0090",
+  "question": "Which Abstract Data Type (ADT) is often used to represent a collection of elements with no specific order?",
+  "options": {
+   "A": "Stack",
+   "B": "Queue",
+   "C": "Set",
+   "D": "Dictionary"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0091",
+  "question": "Ina priority queue, what data structure is commonly used for efficient implementation?",
+  "options": {
+   "A": "Array",
+   "B": "Linked list",
+   "C": "Hash table",
+   "D": "Binary Search Tree"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0092",
+  "question": "In which algorithm or problem-solving technique is Union-Find commonly used?",
+  "options": {
+   "A": "Depth-First Search (DFS)",
+   "B": "Binary Search",
+   "C": "Quick Sort",
+   "D": "Breadth-First Search (BFS) a a ee ee eee FO"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0093",
+  "question": "Ina binary tree, what is the maximum number of children a node can have?",
+  "options": {
+   "A": "0",
+   "B": "1",
+   "C": "2",
+   "D": "Unlimited"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0094",
+  "question": "In an in-order traversal of a binary search tree (BST), in what order are the nodes visited?",
+  "options": {
+   "A": "Left child, root, right child",
+   "B": "Root, left child, right child",
+   "C": "Right child, root, left child",
+   "D": "Left child, right child, root"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0095",
+  "question": "Which self-balancing binary search tree (BST) data structure uses rotations to maintain balance?",
+  "options": {
+   "A": "AVLtree",
+   "B": "Binary heap",
+   "C": "B-tree",
+   "D": "Trie"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0096",
+  "question": "What is the maximum number of keys a non-root internal node in a B-tree of order \"m\" can have?",
+  "options": {
+   "A": "0",
+   "B": "1",
+   "C": "m-l",
+   "D": "m"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0097",
+  "question": "In which domain or application is B-tree often used?",
+  "options": {
+   "A": "Game development",
+   "B": "Image processing",
+   "C": "File systems and databases",
+   "D": "Social media networks xe Ke KK OK K"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N1157",
+  "question": "The number of interchanges required to sort 5, 1, 6, 2, 4 in ascending order using Bubble Sort is",
+  "options": {
+   "A": "6",
+   "B": "5",
+   "C": "7",
+   "D": "8"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1158",
+  "question": "What is the postfix form of the following prefix *+ab-cd",
+  "options": {
+   "A": "ab+cd-*",
+   "B": "abc+*-",
+   "C": "ab+*cd-",
+   "D": "ab+c*d-"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1159",
+  "question": "Which data structure is needed to convert infix notation to postfix notation?",
+  "options": {
+   "A": "Branch",
+   "B": "Queue",
+   "C": "Tree",
+   "D": "Stack"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1160",
+  "question": "The extra key inserted at the end of the array is called a _____",
+  "options": {
+   "A": "End key",
+   "B": "Stop key",
+   "C": "Sentinel",
+   "D": "Transposition"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1161",
+  "question": "In order to get the contents of a Binary search tree in ascending order, one has to traverse it in",
+  "options": {
+   "A": "pre-order",
+   "B": "in-order",
+   "C": "post order",
+   "D": "None of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1162",
+  "question": "How do you determine the cost of a spanning tree?",
+  "options": {
+   "A": "By the sum of the costs of the edges of the tree",
+   "B": "By the sum of the costs of the edges and vertices of the tree",
+   "C": "By the sum of the costs of the vertices of the tree",
+   "D": "By the sum of the costs of the edges of the graph"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1163",
+  "question": "In analysis of algorithm, approximate relationship between the size of the job and the amount of work required to do is expressed by using _________",
+  "options": {
+   "A": "Central tendency",
+   "B": "Differential equation",
+   "C": "Order of execution",
+   "D": "Order of magnitude"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1164",
+  "question": "For the quick sort algorithm, what is the time complexity of the best/worst case?",
+  "options": {
+   "A": "best case: O(n) worst case: O(n*n)",
+   "B": "best case: O(n) worst case: O(n*log(n))",
+   "C": "best case: O(n*log(n)) worst case: O(n*log(n))",
+   "D": "best case: O(n*log(n)) worst case: O(n*n)"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1165",
+  "question": "O(1) means computing time is __________________",
+  "options": {
+   "A": "Constant",
+   "B": "Quadratic",
+   "C": "Linear",
+   "D": "Cubic"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1166",
+  "question": "Finding the max element in an unordered stack would require",
+  "options": {
+   "A": "O(1) operations",
+   "B": "O(log n) operations",
+   "C": "O(n) operations",
+   "D": "None of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1167",
+  "question": "Which of the following algorithm is used for data compression?",
+  "options": {
+   "A": "Pivot",
+   "B": "Huffman",
+   "C": "Sparse matrices",
+   "D": "Hashing"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1168",
+  "question": "Which method of traversal does not use stack to hold nodes that are waiting to be processed?",
+  "options": {
+   "A": "Dept-first",
+   "B": "D-search",
+   "C": "Breadth-first",
+   "D": "Back-tracking"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0914",
+  "question": "Identify the heap from the following sequences and determine it is min or max binary heap",
+  "options": {
+   "A": "1, 3, 2, 4, 6, 5",
+   "B": "6,5,3,4,2,1",
+   "C": "30,12,90,8,15",
+   "D": "Jack, Queen, King, Rahul, Frick, Laxman",
+   "E": "Queen, laxman, king, Frick, Eigen, Hive"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0900",
+  "question": "An adjacency matrix representation of a graph cannot contain information of",
+  "options": {
+   "A": "Edges",
+   "B": "Direction of Edges",
+   "C": "Nodes",
+   "D": "Parallel Edges"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0901",
+  "question": "The best average behaviour is shown by",
+  "options": {
+   "A": "Merge Sort",
+   "B": "Insertion Sort",
+   "C": "Quick Sort",
+   "D": "Heap Sort"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0902",
+  "question": "Two main measures of the efficiency of an algorithm are",
+  "options": {
+   "A": "Time and Space",
+   "B": "Complexity and Capacity",
+   "C": "Processor and Memory",
+   "D": "Data and Space"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0903",
+  "question": "Consider a max heap represented by the array: 40, 30, 20, 10, 15, 16, 17, 8, and 4. Now consider that a value of 35 is inserted into this heap. After insertion, the new heap is",
+  "options": {
+   "A": "40, 30, 20, 10, 15, 16, 17, 8, 4, 35",
+   "B": "40, 35, 20, 10, 30, 16, 17, 8, 4, 15",
+   "C": "40, 30, 20, 10, 35, 16, 17, 8, 4, 15",
+   "D": "40, 35, 20, 10, 15, 16, 17, 8, 4, 30"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0904",
+  "question": "The best data structure to check and evaluate arithmetic expressions is",
+  "options": {
+   "A": "Queue",
+   "B": "Stack",
+   "C": "Tree",
+   "D": "List"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0905",
+  "question": "Given the following input (3422, 3134, 1741, 7699, 9819, 1671, 7163, 9149) and the hash function x mod 10, which of the following statements are true? i) 7699, 9819, 9149 hash to the same value ii) 1741, 1671 has to the same value iii) All elements hash to the same value iv) Each element hashes to a different value",
+  "options": {
+   "A": "i only",
+   "B": "ii only",
+   "C": "i and ii only",
+   "D": "iii or iv"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0906",
+  "question": "The post order traversal of a binary tree is DEBFCA. Find out the pre-order traversal.",
+  "options": {
+   "A": "ABFCDE",
+   "B": "ADBFEC",
+   "C": "ABDECF",
+   "D": "ABDCEF"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0907",
+  "question": "The worst-case occur in linear search algorithm when",
+  "options": {
+   "A": "Item is not in the array at all",
+   "B": "Item is the last element in the array or item is not there at all.",
+   "C": "Item is the last element in the array",
+   "D": "Item is somewhere in the middle of the array"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0908",
+  "question": "If the location of element is same before sorting and after sorting, then it is called",
+  "options": {
+   "A": "Sort Selection",
+   "B": "Sorting",
+   "C": "Sort Stability",
+   "D": "None of the above"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0909",
+  "question": "Recursive algorithms are based on",
+  "options": {
+   "A": "Divide and conquer approach",
+   "B": "Top-down approach",
+   "C": "Bottom-up approach",
+   "D": "Hierarchical approach"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0910",
+  "question": "Assume a binary search tree is constructed using the integer values and searched for the number 55. Identify the INCORRECT sequence from the list given. Justify your answer.",
+  "options": {
+   "A": "10, 75, 64, 43, 60, 57, 55",
+   "B": "90, 12, 68, 34, 62, 45, 55",
+   "C": "9, 85, 47, 68, 43, 57, 55",
+   "D": "79, 14, 72, 56, 16, 53, 55"
+  },
+  "garbled": false
+ }
+]

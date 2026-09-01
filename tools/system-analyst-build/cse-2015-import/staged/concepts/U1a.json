@@ -1,0 +1,467 @@
+[
+  {
+    "id": "U1a-01",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Sets, subsets, power set, cardinality",
+    "def": "A set is an unordered collection of distinct objects, and its power set P(A) is the set of all subsets of A, of which there are 2^|A|.",
+    "exp": "Write x ∈ A for membership. A ⊆ B means every element of A lies in B; A ⊂ B (proper) additionally requires A ≠ B. Two sets are equal exactly when A ⊆ B and B ⊆ A — that mutual-inclusion argument is the standard way to prove a set identity in the conventional paper. The empty set ∅ is a subset of every set, including itself.\n\nCardinality |A| is the number of elements. The power set P(A) is the set whose elements are all the subsets of A. For |A| = n, choosing a subset means making n independent in/out decisions, so |P(A)| = 2ⁿ. Splitting by size gives the binomial identity Σ from k=0 to n of C(n,k) = 2ⁿ.\n\nWorked: A = {1,2,3}. P(A) = {∅, {1}, {2}, {3}, {1,2}, {1,3}, {2,3}, {1,2,3}} — that is 8 = 2³ elements.\n\nExam shape: 'if |A| = 3, how many elements are in P(A × A)?' Here |A × A| = 3² = 9, so |P(A × A)| = 2⁹ = 512. The nesting is where marks are lost, not the formula.\n\nSets carry no order and no repetition: {1,2,2,3} = {3,2,1} = {1,2,3}.",
+    "facts": [
+      "|P(A)| = 2ⁿ when |A| = n; P(A) is never empty, since ∅ ∈ P(A).",
+      "The number of k-element subsets of an n-set is C(n,k) = n!/(k!(n−k)!).",
+      "|P(P(A))| = 2^(2ⁿ) — doubly exponential; |A| = 2 already gives 16.",
+      "∅ ⊆ A for every set A, and A ⊆ A.",
+      "|∅| = 0 but |{∅}| = 1: {∅} is a one-element set whose only element is the empty set.",
+      "For |A| = n, |A × A| = n² and hence |P(A × A)| = 2^(n²).",
+      "Set equality is proved by double inclusion: show A ⊆ B and B ⊆ A."
+    ],
+    "traps": [
+      "'How many proper subsets' normally means all except A itself, giving 2ⁿ − 1. Only answer 2ⁿ − 2 if the question explicitly says non-empty proper subsets.",
+      "∅ and {∅} are different objects; {∅} has one element, ∅ has none.",
+      "|P(A × A)| = 2^(n²), while |P(A) × P(A)| = 2ⁿ · 2ⁿ = 2^(2n). They coincide only at n = 2 (both 16), which is exactly why papers set n = 3 or 4.",
+      "Element versus subset: 1 ∈ {1,2} is correct, 1 ⊆ {1,2} is not — you need {1} ⊆ {1,2}.",
+      "A ∈ P(A) always holds; do not read that as A ⊆ P(A)."
+    ],
+    "mnem": "Power set = one yes/no vote per element, so 2ⁿ.",
+    "rel": ["Set operations and their algebra", "Cartesian product", "Inclusion–exclusion principle", "Lattices — meet and join"]
+  },
+  {
+    "id": "U1a-02",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Set operations and their algebra",
+    "def": "Union, intersection, difference and complement combine sets, and they obey a fixed algebra — idempotent, commutative, associative, distributive, absorption, complement and De Morgan laws.",
+    "exp": "Fix a universal set U. A ∪ B = {x : x ∈ A or x ∈ B}; A ∩ B = {x : x ∈ A and x ∈ B}; A − B = {x : x ∈ A and x ∉ B}; A′ = U − A. Note A − B = A ∩ B′ — rewriting a difference that way is usually the fastest route through a proof.\n\nThe algebra has the shape of a Boolean algebra, and the paper expects the textbook names: idempotent (A ∪ A = A), commutative, associative, distributive in both directions, identity (A ∪ ∅ = A, A ∩ U = A), complement (A ∪ A′ = U, A ∩ A′ = ∅), involution ((A′)′ = A), absorption (A ∪ (A ∩ B) = A) and De Morgan.\n\nDe Morgan checked directly: x ∈ (A ∪ B)′ means x is in neither A nor B, i.e. x ∈ A′ and x ∈ B′, i.e. x ∈ A′ ∩ B′. The operator flips as the bar breaks.\n\nDuality: interchange ∪ with ∩ and U with ∅ in any valid identity and the result is again valid — that halves what you memorise.\n\nSymmetric difference A Δ B = (A − B) ∪ (B − A) = (A ∪ B) − (A ∩ B). It is commutative and associative, has identity ∅, and A Δ A = ∅.",
+    "facts": [
+      "De Morgan: (A ∪ B)′ = A′ ∩ B′ and (A ∩ B)′ = A′ ∪ B′.",
+      "Both distributive laws hold: A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C) and A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C).",
+      "Absorption: A ∪ (A ∩ B) = A and A ∩ (A ∪ B) = A.",
+      "A − B = A ∩ B′, and |A − B| = |A| − |A ∩ B|.",
+      "A Δ B = (A − B) ∪ (B − A); it is associative, A Δ ∅ = A and A Δ A = ∅.",
+      "Duality principle: swapping ∪ ↔ ∩ and U ↔ ∅ turns a valid identity into another valid identity.",
+      "(P(U), ∪, ∩, ′, ∅, U) is a Boolean algebra — the same axioms Unit 1 later states for lattices."
+    ],
+    "traps": [
+      "De Morgan flips the operator, not just the bars: (A ∪ B)′ = A′ ∪ B′ is the standard wrong option.",
+      "Set difference is neither commutative nor associative. With A = {1}, B = ∅, C = {1}: (A − B) − C = ∅ but A − (B − C) = {1}.",
+      "Cancellation fails: A ∪ B = A ∪ C does not give B = C (take A = B = {1}, C = ∅). It does hold for symmetric difference.",
+      "Both distributive laws hold for sets, unlike arithmetic where × distributes over + but + does not over ×; papers exploit the false analogy.",
+      "A − B = B − A forces A = B, because the two differences are disjoint and can only be equal when both are empty."
+    ],
+    "mnem": "De Morgan: break the bar, flip the operator.",
+    "rel": ["Sets, subsets, power set, cardinality", "Inclusion–exclusion principle", "Types of lattices and Boolean algebra"]
+  },
+  {
+    "id": "U1a-03",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Cartesian product",
+    "def": "The Cartesian product A × B is the set of all ordered pairs (a, b) with a ∈ A and b ∈ B, and |A × B| = |A| · |B|.",
+    "exp": "An ordered pair (a, b) carries position: (a, b) = (c, d) exactly when a = c and b = d. The Cartesian product A × B = {(a, b) : a ∈ A, b ∈ B} collects every such pair.\n\nWorked: A = {1, 2}, B = {x, y}. Then A × B = {(1,x), (1,y), (2,x), (2,y)} — four pairs, |A × B| = 2 × 2. But B × A = {(x,1), (y,1), (x,2), (y,2)} is a different set, so the product is not commutative.\n\nCounting is where the exam value sits. |A × B| = |A| · |B|, and more generally the size of a k-fold product is the product of the sizes. Writing A² for A × A, an n-element A gives |A²| = n². A binary relation on A is by definition any subset of A × A, so the number of relations on A is |P(A × A)| = 2^(n²): for n = 3 that is 2⁹ = 512, for n = 4 it is 2¹⁶ = 65536. Similarly there are 2^(mn) relations from an m-set to an n-set.\n\nThe product distributes over the other operations: A × (B ∪ C) = (A × B) ∪ (A × C), and the same for ∩ and −.\n\nDegenerate case: A × ∅ = ∅ × A = ∅.",
+    "facts": [
+      "|A × B| = |A| · |B|; for a k-fold product, multiply all k cardinalities.",
+      "A × B = B × A only when A = B, or A = ∅, or B = ∅.",
+      "A × B = ∅ if and only if A = ∅ or B = ∅.",
+      "A × (B ∪ C) = (A × B) ∪ (A × C); the same distribution holds over ∩ and over −.",
+      "Number of relations from an m-set to an n-set = 2^(mn); number of relations on an n-set = 2^(n²).",
+      "An n-ary relation is a subset of A₁ × A₂ × … × Aₙ — this is the formal basis of the relational data model.",
+      "Strictly, (A × B) × C and A × (B × C) are different sets of nested pairs, both informally identified with triples."
+    ],
+    "traps": [
+      "(a, b) ≠ (b, a) unless a = b — an ordered pair is not a two-element set.",
+      "For |A| = n, |P(A × A)| = 2^(n²), not (2ⁿ)² = 2^(2n); the two agree only at n = 2.",
+      "The product does distribute over union, intersection and difference — candidates often assume it fails and reject a correct option.",
+      "A × ∅ = ∅, not {∅} and not ∅ × something; there is simply no second coordinate to choose.",
+      "|A × B| counts pairs, not distinct symbols: if A and B overlap, elements are still paired, never merged."
+    ],
+    "mnem": "",
+    "rel": ["Sets, subsets, power set, cardinality", "Relations and their representation", "Functions: domain, codomain, range"]
+  },
+  {
+    "id": "U1a-04",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Inclusion–exclusion principle",
+    "def": "Inclusion–exclusion counts a union by adding the sizes of the sets, subtracting all pairwise intersections, adding back all triple intersections, and continuing with alternating signs.",
+    "exp": "Adding |A| + |B| double-counts everything in A ∩ B, so |A ∪ B| = |A| + |B| − |A ∩ B|. With three sets the pairwise subtractions remove the triple overlap three times after it was added three times, so it has to be put back once: |A ∪ B ∪ C| = |A| + |B| + |C| − |A ∩ B| − |A ∩ C| − |B ∩ C| + |A ∩ B ∩ C|.\n\nIn general |A₁ ∪ … ∪ Aₙ| = Σ(singles) − Σ(pairs) + Σ(triples) − …, the sign alternating with the number of sets intersected.\n\nWorked: how many of 1…100 are divisible by 2, 3 or 5? ⌊100/2⌋ = 50, ⌊100/3⌋ = 33, ⌊100/5⌋ = 20; ⌊100/6⌋ = 16, ⌊100/10⌋ = 10, ⌊100/15⌋ = 6; ⌊100/30⌋ = 3. Union = 50 + 33 + 20 − 16 − 10 − 6 + 3 = 74. So 100 − 74 = 26 are divisible by none of them.\n\nThe same alternating pattern gives the count of onto functions and the derangement number, so carry the pattern rather than memorising three separate formulas.\n\nFor 'exactly k of the sets' the terms are weighted: exactly one of three = Σ|Aᵢ| − 2Σ|Aᵢ ∩ Aⱼ| + 3|A ∩ B ∩ C|.",
+    "facts": [
+      "|A ∪ B| = |A| + |B| − |A ∩ B|.",
+      "|A ∪ B ∪ C| = |A| + |B| + |C| − |A∩B| − |A∩C| − |B∩C| + |A∩B∩C|.",
+      "Elements in none of the sets = |U| − |A₁ ∪ … ∪ Aₙ|.",
+      "Exactly two of three sets = (|A∩B| + |A∩C| + |B∩C|) − 3|A∩B∩C|.",
+      "Onto functions from an m-set to an n-set = Σ from k=0 to n of (−1)ᵏ C(n,k)(n−k)ᵐ — inclusion–exclusion over which images are missed.",
+      "Derangements: Dₙ = n! · Σ from k=0 to n of (−1)ᵏ/k!; D₄ = 9.",
+      "Euler's totient φ(n) = n · Π(1 − 1/p) over the distinct primes p dividing n is an inclusion–exclusion count."
+    ],
+    "traps": [
+      "The triple intersection is added back, not subtracted — the single most missed sign in the three-set formula.",
+      "'At least one' means the union; 'none' or 'neither' means |U| minus the union. Read which is asked before computing.",
+      "'Exactly one' and 'exactly two' need the weighted forms, not the raw union — subtracting the triple term once is not enough.",
+      "If the sets are stated to be pairwise disjoint the formula collapses to a plain sum; do not subtract intersections that are known to be empty.",
+      "When counting multiples in 1…N, use ⌊N/lcm⌋ for the intersections — ⌊100/2⌋·⌊100/3⌋ is meaningless here."
+    ],
+    "mnem": "Add singles, subtract pairs, add triples: the sign alternates with how many sets you intersect.",
+    "rel": ["Set operations and their algebra", "Injective, surjective and bijective mappings", "Sets, subsets, power set, cardinality"]
+  },
+  {
+    "id": "U1a-05",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Relations and their representation",
+    "def": "A binary relation R from A to B is any subset of A × B, and on finite sets it is represented either as a 0/1 Boolean matrix or as a directed graph.",
+    "exp": "A relation R from A to B is any subset of A × B; write aRb for (a, b) ∈ R. When B = A we call R a relation on A. Nothing requires every element of A to appear, and nothing requires a unique partner — that is exactly what separates a relation from a function.\n\nMatrix representation: order A = {a₁,…,a_m} and B = {b₁,…,bₙ}. M_R is the m × n Boolean matrix whose (i, j) entry is 1 exactly when aᵢ R bⱼ. Property tests then become matrix tests: reflexive means the whole main diagonal is 1; symmetric means M_R equals its transpose; the inverse relation R⁻¹ has matrix M_Rᵀ.\n\nDigraph representation (for a relation on A): one vertex per element, an arrow a → b for each pair in R, and a self-loop at a for each (a, a) ∈ R.\n\nWorked: A = {1,2,3}, R = {(1,1), (1,2), (2,3)}. Row 1 of M_R is 1 1 0, row 2 is 0 0 1, row 3 is 0 0 0. The digraph has a loop at 1, an arrow 1 → 2 and an arrow 2 → 3.\n\nComposition of relations corresponds to the Boolean matrix product, with OR playing the role of + and AND the role of ×.",
+    "facts": [
+      "A relation on an n-element set has an n × n Boolean matrix; there are 2^(n²) such relations.",
+      "The inverse relation R⁻¹ = {(b,a) : (a,b) ∈ R} has matrix M_Rᵀ and the digraph with every arrow reversed.",
+      "Rᵏ, the k-fold composition, has the k-th Boolean power of M_R as its matrix.",
+      "Boolean matrix product: entry (i,j) is OR over k of (M[i][k] AND N[k][j]); all entries stay 0 or 1.",
+      "In the digraph, (a, a) ∈ R appears as a self-loop at a.",
+      "The empty relation ∅ and the universal relation A × A are both legitimate relations on A.",
+      "A relation from A to B need not be a function: elements of A may have zero, one, or many partners."
+    ],
+    "traps": [
+      "The Boolean product uses OR and AND, so no entry ever becomes 2 — arithmetic matrix multiplication gives the wrong matrix.",
+      "Books differ on the composition convention: Rosen writes S ∘ R for 'R first, then S', with M_{S∘R} = M_R ⊙ M_S. Read the paper's own definition before answering.",
+      "A relation is not required to be total or single-valued; questions that call a two-valued mapping a 'function' are testing this.",
+      "Reversing arrows gives R⁻¹, not the complement of R; the complement flips 0s and 1s instead.",
+      "The matrix depends on the chosen ordering of elements — reorder the rows and columns consistently or the diagonal tests break."
+    ],
+    "mnem": "",
+    "rel": ["Cartesian product", "Properties of relations", "Closures of relations and Warshall's algorithm"]
+  },
+  {
+    "id": "U1a-06",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Properties of relations",
+    "def": "Reflexive, irreflexive, symmetric, antisymmetric and transitive are the five standard properties tested of a relation on a set, and each has a one-line matrix and digraph test.",
+    "exp": "Let R be a relation on A. Reflexive: (a,a) ∈ R for every a. Irreflexive: (a,a) ∉ R for every a. Symmetric: aRb implies bRa. Antisymmetric: aRb and bRa together force a = b. Transitive: aRb and bRc imply aRc.\n\nMatrix tests: reflexive means every diagonal entry is 1; irreflexive means every diagonal entry is 0; symmetric means M = Mᵀ; antisymmetric means for i ≠ j at most one of m_ij, m_ji is 1; transitive means every 1 appearing in M ⊙ M already appears in M.\n\nWorked: on {1,2,3} take R = {(1,1), (1,2), (2,1)}. Symmetric — the 1–2 arrow runs both ways. Not reflexive, since (2,2) and (3,3) are missing. Not antisymmetric, since 1R2 and 2R1 with 1 ≠ 2. Not transitive: 2R1 and 1R2 demand (2,2), which is absent.\n\nCounting, which these papers ask directly for a 3- or 4-element set: relations 2^(n²); reflexive 2^(n²−n); irreflexive 2^(n²−n); symmetric 2^(n(n+1)/2); antisymmetric 2ⁿ · 3^(n(n−1)/2). For n = 3 that gives 512 relations, 64 reflexive, 64 symmetric and 8 · 27 = 216 antisymmetric. There is no simple closed formula for the number of transitive relations.",
+    "facts": [
+      "Reflexive relations on an n-set: 2^(n²−n); irreflexive: also 2^(n²−n).",
+      "Symmetric relations on an n-set: 2^(n(n+1)/2). For n = 3 that is 64.",
+      "Antisymmetric relations on an n-set: 2ⁿ · 3^(n(n−1)/2). For n = 3 that is 216.",
+      "Asymmetric = irreflexive and antisymmetric together (aRb forbids bRa outright).",
+      "Equivalence relation = reflexive + symmetric + transitive; partial order = reflexive + antisymmetric + transitive.",
+      "Transitivity holds vacuously when no chain aRb, bRc exists — a sparse relation is often transitive.",
+      "The number of transitive relations on an n-set has no known closed form; it is tabulated, not computed by formula."
+    ],
+    "traps": [
+      "'Not reflexive' is not the same as 'irreflexive'. On {1,2}, R = {(1,1)} is neither reflexive nor irreflexive.",
+      "Symmetric and antisymmetric are not opposites. Any subset of the diagonal — for example the equality relation — is both; {(1,2),(2,1),(1,3)} is neither.",
+      "The empty relation on a non-empty set is symmetric, antisymmetric and transitive, but not reflexive. This exact option appears again and again.",
+      "Antisymmetry does not forbid loops; it forbids two-way arrows between distinct elements only.",
+      "Do not declare a relation non-transitive just because it is small — check whether a two-step chain actually exists first."
+    ],
+    "mnem": "RST = equivalence, RAT = partial order — swap Symmetric for Antisymmetric.",
+    "rel": ["Relations and their representation", "Equivalence relations and partitions", "Posets, comparability and Hasse diagrams", "Closures of relations and Warshall's algorithm"]
+  },
+  {
+    "id": "U1a-07",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Closures of relations, Warshall's algorithm",
+    "def": "The closure of a relation R with respect to a property is the smallest relation containing R that has that property, obtained by adding pairs and never removing any.",
+    "exp": "Reflexive closure: r(R) = R ∪ Δ, where Δ = {(a,a) : a ∈ A} is the diagonal.\n\nSymmetric closure: s(R) = R ∪ R⁻¹.\n\nTransitive closure: t(R) = R ∪ R² ∪ R³ ∪ … ∪ Rⁿ for |A| = n. Here Rᵏ is the set of pairs joined by a path of exactly k edges in the digraph. On n vertices any path can be shortened to length at most n, so the union stops at n. Equivalently, (a, b) ∈ t(R) precisely when the digraph has a directed path from a to b of length at least 1.\n\nWarshall computes t(R) directly on the Boolean matrix:\n\nfor k = 1 to n:\n  for i = 1 to n:\n    for j = 1 to n:\n      M[i][j] = M[i][j] OR (M[i][k] AND M[k][j])\n\nk must be the outermost loop: after iteration k, M records reachability using only intermediate vertices drawn from {1,…,k}, which is the loop invariant that makes the algorithm correct. Cost is Θ(n³) time and Θ(n²) space — cheaper than forming R², R³, … separately.\n\nThe equivalence closure of R is t(s(r(R))). There is no antisymmetric closure in general, because antisymmetry can only be achieved by deleting pairs.",
+    "facts": [
+      "r(R) = R ∪ Δ; s(R) = R ∪ R⁻¹.",
+      "t(R) = R ∪ R² ∪ … ∪ Rⁿ for an n-element set; higher powers add nothing new.",
+      "Warshall's update is M[i][j] = M[i][j] OR (M[i][k] AND M[k][j]), with k as the outer loop.",
+      "Warshall runs in Θ(n³) time and Θ(n²) space.",
+      "R* = t(R) ∪ Δ is the reflexive–transitive closure: paths of length ≥ 0.",
+      "The equivalence closure of R is t(s(r(R))) — reflexive, then symmetric, then transitive.",
+      "No antisymmetric closure exists in general, since closures may only add pairs."
+    ],
+    "traps": [
+      "Order of closures matters: t(s(R)) and s(t(R)) can differ, so the equivalence closure must be taken in the stated order.",
+      "The transitive closure needs powers up to Rⁿ; stopping at R ∪ R² misses chains of length 3 or more.",
+      "Swapping Warshall's loops so that k is not outermost silently produces an incomplete closure that still looks plausible.",
+      "A closure is the smallest superset with the property — an answer option that deletes a pair is automatically wrong.",
+      "Warshall's algorithm computes Boolean reachability; Floyd–Warshall computes shortest-path weights. Papers use the two names loosely, so read the matrix entries."
+    ],
+    "mnem": "Warshall: k outside, i and j inside.",
+    "rel": ["Properties of relations", "Relations and their representation", "Equivalence relations and partitions"]
+  },
+  {
+    "id": "U1a-08",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Equivalence relations and partitions",
+    "def": "An equivalence relation is reflexive, symmetric and transitive, and it splits its set into disjoint non-empty equivalence classes that together form a partition.",
+    "exp": "R on A is an equivalence relation when it is reflexive, symmetric and transitive (RST). Each a ∈ A then has a class [a] = {x ∈ A : xRa}. Reflexivity puts a into its own class, so no class is empty.\n\nThe key theorem: for any a, b the classes [a] and [b] are either identical or disjoint. Suppose c ∈ [a] ∩ [b]. Then cRa and cRb, so by symmetry and transitivity aRb, and every element related to a is then related to b. Hence the classes cover A without overlapping — they form a partition. Conversely, every partition of A defines an equivalence relation ('lies in the same block'), so equivalence relations on A and partitions of A are in one-to-one correspondence. The set of classes is written A/R, the quotient set.\n\nWorked: congruence modulo 3 on ℤ. It is RST, and gives exactly three classes [0], [1], [2]; every integer lands in exactly one.\n\nCounting follows from the correspondence: the number of equivalence relations on an n-element set equals the number of partitions of that set, the Bell number Bₙ. B₁ = 1, B₂ = 2, B₃ = 5, B₄ = 15, B₅ = 52. So 'how many equivalence relations on {1,2,3,4}?' answers 15.",
+    "facts": [
+      "Equivalence relation = reflexive + symmetric + transitive.",
+      "[a] = {x ∈ A : xRa}, and a ∈ [a] by reflexivity, so classes are never empty.",
+      "Two equivalence classes are either identical or disjoint; their union is the whole set.",
+      "Equivalence relations on A correspond one-to-one with partitions of A.",
+      "Number of equivalence relations on an n-set = Bell number Bₙ: B₁ = 1, B₂ = 2, B₃ = 5, B₄ = 15, B₅ = 52.",
+      "Bₙ = Σ from k=1 to n of S(n,k), where S(n,k) is the Stirling number of the second kind, the number of partitions into exactly k blocks.",
+      "Congruence modulo n on ℤ is an equivalence relation with exactly n classes.",
+      "The intersection of two equivalence relations on A is again an equivalence relation."
+    ],
+    "traps": [
+      "The number of equivalence relations on {1,2,3,4} is 15 (B₄), not 2¹⁶ (all relations) and not 4! (bijections).",
+      "The union of two equivalence relations need not be transitive, so it is usually not an equivalence relation.",
+      "A partition's blocks must be non-empty and must cover the whole set; ∅ is never a block.",
+      "Classes cannot partially overlap — one shared element already forces the two classes to be equal.",
+      "A relation that is both an equivalence relation and antisymmetric must be the equality relation; papers offer 'both' as a plausible-looking option."
+    ],
+    "mnem": "RST → classes → partition. Bell counts: 1, 2, 5, 15, 52.",
+    "rel": ["Properties of relations", "Closures of relations and Warshall's algorithm", "Posets, comparability and Hasse diagrams", "Sets, subsets, power set, cardinality"]
+  },
+  {
+    "id": "U1a-09",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Functions: domain, codomain, range",
+    "def": "A function f: A → B assigns to every element of A exactly one element of B; A is the domain, B the codomain, and the range f(A) is the subset of B actually hit.",
+    "exp": "A function f: A → B is a relation from A to B that is total (every a ∈ A has an image) and single-valued (exactly one image each). A is the domain, B the codomain, and the range or image f(A) = {f(a) : a ∈ A} is the set of values actually attained. Always f(A) ⊆ B, and the inclusion may be strict.\n\nWorked: f: ℝ → ℝ with f(x) = x². Domain ℝ, codomain ℝ, range [0, ∞). No negative value is hit, so f is not onto — yet the rule has not changed; only the declared codomain decides. Declare f: ℝ → [0, ∞) and the same rule becomes onto. Codomain is declared; range is computed.\n\nImage and preimage of sets: f(S) = {f(x) : x ∈ S} for S ⊆ A, and f⁻¹(T) = {x ∈ A : f(x) ∈ T} for T ⊆ B. The notation f⁻¹ used this way is defined for every function; it does not claim that an inverse function exists.\n\nCounting: each of the m domain elements is sent independently to one of n codomain elements, so there are nᵐ functions from an m-set to an n-set. For m = 3, n = 2 that is 8.",
+    "facts": [
+      "Number of functions from an m-element set to an n-element set = nᵐ.",
+      "Range ⊆ codomain always; equality with the codomain is exactly the definition of onto.",
+      "Preimage f⁻¹(T) = {x : f(x) ∈ T} is defined for any function, invertible or not.",
+      "f⁻¹(T₁ ∪ T₂) = f⁻¹(T₁) ∪ f⁻¹(T₂), and the same for intersection — preimages respect all set operations.",
+      "f(S₁ ∩ S₂) ⊆ f(S₁) ∩ f(S₂), with equality guaranteed only when f is injective.",
+      "For a finite domain, |f(A)| ≤ |A|.",
+      "A function must be total and single-valued; failing either condition makes it a relation only."
+    ],
+    "traps": [
+      "Codomain is declared, range is computed. f: ℝ → ℝ, f(x) = x² is not onto; f: ℝ → [0, ∞), f(x) = x² is. Same rule, different answer.",
+      "f⁻¹ as a preimage of a set always exists; f⁻¹ as an inverse function requires bijectivity. The notation is identical, the objects are not.",
+      "The number of functions is nᵐ (codomain size raised to domain size), not mⁿ — the most common slip in this topic.",
+      "A diagram in which one domain element has two arrows, or none, is not a function; MCQs draw exactly these two failures.",
+      "f(S₁ ∩ S₂) = f(S₁) ∩ f(S₂) is false in general — only the ⊆ direction is safe."
+    ],
+    "mnem": "",
+    "rel": ["Injective, surjective and bijective mappings", "Composition and inverse functions", "Relations and their representation", "Cartesian product"]
+  },
+  {
+    "id": "U1a-10",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Injective, surjective, bijective — and counting",
+    "def": "A function is injective when distinct inputs give distinct outputs, surjective when its range is the whole codomain, and bijective when it is both.",
+    "exp": "f: A → B is injective (one-one) when f(x) = f(y) forces x = y; surjective (onto) when range = codomain; bijective when both.\n\nCounting for finite |A| = m, |B| = n — the shape these papers actually use:\n\nTotal functions: nᵐ.\n\nInjections: choose distinct images in order, giving n(n−1)…(n−m+1) = n!/(n−m)! = P(n, m). It is 0 when m > n, by the pigeonhole principle. Worked: m = 4, n = 5 gives 5 · 4 · 3 · 2 = 120 injections.\n\nSurjections: inclusion–exclusion over which codomain elements are missed gives Σ from k=0 to n of (−1)ᵏ C(n,k)(n−k)ᵐ, which equals n! · S(m, n). Worked: m = 4, n = 3 gives 3⁴ − 3 · 2⁴ + 3 · 1⁴ = 81 − 48 + 3 = 36.\n\nBijections: possible only when m = n, and then there are n! of them.\n\nFor finite sets of equal size the three notions collapse: injective ⇔ surjective ⇔ bijective. That is a counting argument — an injection from an n-set into an n-set cannot miss anything — and it fails for infinite sets: f: ℕ → ℕ with f(n) = 2n is injective but not onto.\n\nOlder Indian phrasing: 'one-one into' means injective, 'one-one onto' means bijective.",
+    "facts": [
+      "Injections from an m-set to an n-set: n!/(n−m)! when m ≤ n, and 0 when m > n. For m = 4, n = 5 the answer is 120.",
+      "Surjections from an m-set onto an n-set: Σ from k=0 to n of (−1)ᵏ C(n,k)(n−k)ᵐ = n! · S(m, n). For m = 4, n = 3 the answer is 36.",
+      "Bijections between two n-element sets: n!.",
+      "Total functions from an m-set to an n-set: nᵐ.",
+      "An injection requires |A| ≤ |B|; a surjection requires |A| ≥ |B|; a bijection requires |A| = |B| (finite sets).",
+      "For finite sets with |A| = |B|, injective, surjective and bijective are equivalent.",
+      "Pigeonhole principle: if |A| > |B| then no function A → B can be injective."
+    ],
+    "traps": [
+      "Injections from a 5-set to a 4-set number 0 — do not mechanically write 4!/(4−5)!, which is undefined.",
+      "The count of onto functions is not nᵐ minus something simple; it needs inclusion–exclusion. Guessing here loses marks under 1/3 negative marking.",
+      "nᵐ versus mⁿ: it is codomain size raised to the domain size. Check which set the exponent belongs to before answering.",
+      "The finite equivalence injective ⇔ surjective fails for infinite sets: f(n) = 2n on ℕ is injective and not onto.",
+      "'Into' in older Indian phrasing does not mean 'not onto'; it only declines to assert onto. 'One-one into' is simply injective."
+    ],
+    "mnem": "sur-jective from French sur = 'onto': it covers the codomain. In-jective keeps inputs in distinct slots.",
+    "rel": ["Functions: domain, codomain, range", "Composition and inverse functions", "Inclusion–exclusion principle"]
+  },
+  {
+    "id": "U1a-11",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Composition and inverse functions",
+    "def": "The composite (g ∘ f)(x) = g(f(x)) applies f first and then g, and f has an inverse function exactly when f is a bijection.",
+    "exp": "Given f: A → B and g: B → C, the composite g ∘ f: A → C is defined by (g ∘ f)(x) = g(f(x)). The right-hand function acts first — the notation reads backwards relative to the order of application.\n\nWorked: f(x) = x + 1 and g(x) = x² on ℝ. Then (g ∘ f)(2) = g(3) = 9, while (f ∘ g)(2) = f(4) = 5. Composition is not commutative. It is associative: h ∘ (g ∘ f) = (h ∘ g) ∘ f, so brackets may be dropped.\n\nInheritance of properties: if f and g are both injective, so is g ∘ f; both surjective gives surjective; both bijective gives bijective. The one-sided results are what MCQs test — if g ∘ f is injective then f must be injective (nothing follows about g), and if g ∘ f is surjective then g must be surjective (nothing follows about f).\n\nf has an inverse function f⁻¹: B → A precisely when f is a bijection. Then f⁻¹ ∘ f = I_A, f ∘ f⁻¹ = I_B, and (f⁻¹)⁻¹ = f. For a composite the order reverses: (g ∘ f)⁻¹ = f⁻¹ ∘ g⁻¹.",
+    "facts": [
+      "(g ∘ f)(x) = g(f(x)): the function written on the right is applied first.",
+      "Composition is associative but not commutative.",
+      "f and g injective ⇒ g ∘ f injective; f and g surjective ⇒ g ∘ f surjective; both bijective ⇒ bijective.",
+      "If g ∘ f is injective then f is injective; if g ∘ f is surjective then g is surjective.",
+      "f⁻¹ exists as a function iff f is a bijection, and then f⁻¹ ∘ f = I_A and f ∘ f⁻¹ = I_B.",
+      "(g ∘ f)⁻¹ = f⁻¹ ∘ g⁻¹ and (f⁻¹)⁻¹ = f.",
+      "Composition of relations generalises this and is computed by the Boolean matrix product."
+    ],
+    "traps": [
+      "g ∘ f means f acts first. Reading the symbols left to right and applying g first is the classic error.",
+      "(g ∘ f)⁻¹ = f⁻¹ ∘ g⁻¹, not g⁻¹ ∘ f⁻¹ — the order reverses.",
+      "g ∘ f injective does not make g injective, and g ∘ f surjective does not make f surjective. Only the stated one-sided implications hold.",
+      "f ∘ g and g ∘ f may have different domains and may not both be defined; equality of the two is a special property, not a rule.",
+      "The identity function I is the identity for composition, but f ∘ f = I means f is its own inverse (an involution) — it does not mean f is the identity."
+    ],
+    "mnem": "Socks and shoes: to undo, reverse the order — (g ∘ f)⁻¹ = f⁻¹ ∘ g⁻¹.",
+    "rel": ["Functions: domain, codomain, range", "Injective, surjective and bijective mappings", "Relations and their representation"]
+  },
+  {
+    "id": "U1a-12",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Posets, comparability, Hasse diagrams",
+    "def": "A partially ordered set is a set with a relation that is reflexive, antisymmetric and transitive, and its Hasse diagram draws it with loops and transitively implied edges removed.",
+    "exp": "A poset (A, ≼) is a set together with a relation that is reflexive, antisymmetric and transitive — the same list as an equivalence relation, with symmetry replaced by antisymmetry. Standard examples: (P(S), ⊆); (ℤ⁺, |) under divisibility; (ℝ, ≤).\n\nTwo elements a and b are comparable if a ≼ b or b ≼ a, and incomparable otherwise. 'Partial' means incomparable pairs are permitted. If every pair is comparable the poset is a chain, i.e. a total or linear order; a subset in which no two distinct elements are comparable is an antichain. In (ℤ⁺, |), 2 and 3 are incomparable while 2 and 6 are comparable.\n\nThe Hasse diagram compresses the digraph. Delete every self-loop, because reflexivity is assumed. Delete every edge implied by transitivity. Draw each remaining covering relation with the larger element higher on the page: b covers a when a ≺ b and nothing lies strictly between them. Since height encodes direction, no arrowheads are needed.\n\nWorked: the divisors of 12 under divisibility. 1 at the bottom; 2 and 3 above it; 4 and 6 above those; 12 at the top. The edge 1–12 is not drawn — transitivity recovers it.\n\nExtending a partial order to a compatible total order is topological sorting.",
+    "facts": [
+      "Poset = reflexive + antisymmetric + transitive, written (A, ≼).",
+      "Standard posets: (P(S), ⊆), (ℤ⁺, |) under divisibility, (ℝ, ≤).",
+      "A chain is a totally ordered subset; an antichain has no two distinct comparable elements.",
+      "b covers a when a ≺ b and no c satisfies a ≺ c ≺ b; the Hasse diagram draws exactly the covering pairs.",
+      "The Hasse diagram omits all loops and all transitively implied edges, and uses vertical position instead of arrowheads.",
+      "Topological sort produces a linear order consistent with the partial order.",
+      "The number of partial orders on a labelled 2-set is 3 and on a labelled 3-set is 19 — not a simple power."
+    ],
+    "traps": [
+      "Divisibility is a partial order on ℤ⁺ but not on ℤ: 3 | −3 and −3 | 3 with 3 ≠ −3, so antisymmetry fails.",
+      "Reading a Hasse diagram as the full relation and then calling the relation non-reflexive or non-transitive is the standard trap — those edges are deliberately suppressed.",
+      "'Partial' does not mean some pairs were forgotten; it means comparability is simply not required.",
+      "A poset need not have a top or a bottom; a Hasse diagram may have several highest vertices.",
+      "Strict order ≺ is irreflexive while the poset relation ≼ is reflexive; papers switch symbols mid-question."
+    ],
+    "mnem": "Hasse diagram = digraph minus loops minus shortcuts, drawn upwards.",
+    "rel": ["Properties of relations", "Extremal elements and bounds in a poset", "Lattices — meet and join", "Equivalence relations and partitions"]
+  },
+  {
+    "id": "U1a-13",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Maximal, greatest, bounds, LUB and GLB",
+    "def": "In a poset, maximal and minimal elements have nothing strictly above or below them, greatest and least elements compare with everything, and LUB and GLB are the least upper and greatest lower bounds of a subset.",
+    "exp": "Work in a poset (A, ≼) with a subset B ⊆ A.\n\nMaximal: an a ∈ A with no x ∈ A satisfying a ≺ x. Minimal: nothing strictly below.\n\nGreatest: an element g with x ≼ g for every x ∈ A. Least: dually. Greatest and least are unique when they exist; maximal and minimal elements may be plural.\n\nUpper bound of B: any u ∈ A with b ≼ u for all b ∈ B. LUB (supremum, join): the least such u, unique when it exists. GLB (infimum, meet): the greatest lower bound.\n\nWorked: A = {2, 3, 4, 6, 12} ordered by divisibility. Minimal elements are 2 and 3, since nothing in A properly divides either. The only maximal element is 12, and because every element divides 12, it is also the greatest. There is no least element: 2 and 3 are incomparable. For B = {2, 3}, the upper bounds are 6 and 12, so LUB(B) = 6; B has no lower bound in A at all, so GLB(B) does not exist. Note 6 ∉ B — bounds live in A, not necessarily in B.\n\nA finite non-empty poset always has at least one maximal and one minimal element, and if its maximal element is unique, that element is the greatest.",
+    "facts": [
+      "Greatest and least elements are unique when they exist; maximal and minimal elements need not be.",
+      "Every finite non-empty poset has at least one maximal and at least one minimal element.",
+      "In a finite poset, a unique maximal element is the greatest element.",
+      "A greatest element is always maximal, but a maximal element need not be greatest.",
+      "LUB(B) is the least upper bound of B, unique when it exists; it need not belong to B.",
+      "Upper and lower bounds must lie in the poset A, but need not lie in the subset B.",
+      "A lattice is precisely a poset in which every pair of elements has both a LUB and a GLB.",
+      "In (ℤ⁺, |) the element 1 is least and there is no greatest; within the divisors of a fixed n, n is greatest."
+    ],
+    "traps": [
+      "Maximal ≠ greatest. In the poset {2, 3} under divisibility both elements are maximal and minimal, and there is no greatest or least element.",
+      "A subset may have many upper bounds but no least one — then the LUB does not exist and the poset is not a lattice.",
+      "'Least element of the poset', 'minimal element' and 'lower bound of a subset' are three different questions; read which is asked.",
+      "The LUB need not be a member of the subset: sup{2, 3} = 6 among the divisors of 12.",
+      "Uniqueness of a maximal element implies greatest only for finite posets; the argument uses finiteness."
+    ],
+    "mnem": "Maximal = nothing above it. Greatest = above everything.",
+    "rel": ["Posets, comparability and Hasse diagrams", "Lattices — meet and join", "Types of lattices and Boolean algebra"]
+  },
+  {
+    "id": "U1a-14",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Lattices — definition, meet and join",
+    "def": "A lattice is a poset in which every pair of elements has a least upper bound (join, ∨) and a greatest lower bound (meet, ∧).",
+    "exp": "A lattice is a poset in which every pair {a, b} has both a LUB and a GLB. Write a ∨ b (join) for the LUB and a ∧ b (meet) for the GLB. Because pairs suffice, induction extends the guarantee to every finite non-empty subset.\n\nStandard models, worth memorising because the papers reuse them:\n(P(S), ⊆): a ∨ b = a ∪ b and a ∧ b = a ∩ b.\n(D_n, |), the divisors of n under divisibility: a ∨ b = lcm(a, b) and a ∧ b = gcd(a, b).\nAny chain: a ∨ b = max(a, b) and a ∧ b = min(a, b), so every totally ordered set is a lattice.\n\nAlgebraically, ∧ and ∨ are idempotent, commutative and associative, and are tied together by absorption: a ∨ (a ∧ b) = a and a ∧ (a ∨ b) = a. Those laws define a lattice without mentioning order, because the order is recoverable: a ≼ b ⇔ a ∧ b = a ⇔ a ∨ b = b.\n\nNot every poset is a lattice. Take a and b both below c and d, with c and d incomparable and nothing above them. The upper bounds of {a, b} are c and d, neither of which is least — so a ∨ b does not exist and the poset fails.",
+    "facts": [
+      "a ∨ b = LUB{a, b} (join); a ∧ b = GLB{a, b} (meet).",
+      "(P(S), ⊆) is a lattice with join = ∪ and meet = ∩.",
+      "(D_n, |) is a lattice with join = lcm and meet = gcd.",
+      "Every chain (total order) is a lattice, with join = max and meet = min.",
+      "Lattice axioms: idempotent, commutative, associative, plus absorption a ∨ (a ∧ b) = a and a ∧ (a ∨ b) = a.",
+      "The order is recoverable from either operation: a ≼ b ⇔ a ∧ b = a ⇔ a ∨ b = b.",
+      "Every finite lattice is bounded and complete.",
+      "A sublattice must be closed under the parent lattice's ∧ and ∨."
+    ],
+    "traps": [
+      "Being a poset is not enough. If a and b both sit below two incomparable elements c and d, then {a, b} has no LUB and the structure is not a lattice.",
+      "A subset that happens to be a lattice under the induced order is not automatically a sublattice; closure under the parent's meet and join is what is required.",
+      "Join ∨ is LUB = lcm = union; meet ∧ is GLB = gcd = intersection. Swapping the two is the most common MCQ distractor.",
+      "Distributivity is not part of the lattice axioms — do not assume a ∧ (b ∨ c) = (a ∧ b) ∨ (a ∧ c) for an arbitrary lattice.",
+      "In (D_n, |) the meet is gcd even though gcd is 'smaller': smaller under divisibility means lower in the Hasse diagram, which is what GLB requires."
+    ],
+    "mnem": "∨ opens upward = join = LUB = ∪. ∧ points down = meet = GLB = ∩.",
+    "rel": ["Extremal elements and bounds in a poset", "Types of lattices and Boolean algebra", "Posets, comparability and Hasse diagrams", "Set operations and their algebra"]
+  },
+  {
+    "id": "U1a-15",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Types of lattices and Boolean algebra",
+    "def": "A lattice is bounded if it has 0 and 1, complemented if every element has a complement, distributive if meet and join distribute over each other, complete if every subset has a LUB and GLB — and one that is both complemented and distributive is a Boolean algebra.",
+    "exp": "Bounded: the lattice has a least element 0 and a greatest element 1. Every finite lattice is bounded — take the meet and the join of everything.\n\nComplemented: bounded, and every a has some a′ with a ∧ a′ = 0 and a ∨ a′ = 1. Complements need not be unique in general.\n\nDistributive: a ∧ (b ∨ c) = (a ∧ b) ∨ (a ∧ c). In any lattice each distributive law implies the other, so only one need be checked. In a distributive lattice a complement, when it exists, is unique.\n\nComplete: every subset, finite or infinite, has a LUB and a GLB. Every finite lattice is complete. (ℚ, ≤) is a lattice that is not complete — {x ∈ ℚ : x² < 2} has no rational supremum.\n\nBoolean algebra: a lattice that is both complemented and distributive. Older Indian papers word this as 'a self-complemented distributive lattice is a Boolean algebra'. Neither half alone suffices: M₃, the three-atom diamond, is complemented but not distributive, while the divisor lattice D₁₂ is distributive but not complemented.\n\nEvery finite Boolean algebra is isomorphic to (P(S), ⊆), so its size is a power of 2. D_n is Boolean exactly when n is squarefree: D₃₀ ≅ P({2,3,5}), with 8 elements.",
+    "facts": [
+      "Bounded lattice: has least element 0 and greatest element 1. Every finite lattice is bounded.",
+      "a′ is a complement of a when a ∧ a′ = 0 and a ∨ a′ = 1; a complemented lattice is bounded with every element complemented.",
+      "In any lattice, one distributive law implies the other; in a distributive lattice, complements are unique when they exist.",
+      "Boolean algebra = complemented + distributive lattice (papers may say 'self-complemented distributive lattice').",
+      "Complete lattice: every subset has a LUB and a GLB. Every finite lattice is complete; (ℚ, ≤) is not.",
+      "Modular: a ≼ c implies a ∨ (b ∧ c) = (a ∨ b) ∧ c. Every distributive lattice is modular; M₃ is modular but not distributive.",
+      "Birkhoff: a lattice is distributive iff no sublattice is isomorphic to M₃ (diamond) or N₅ (pentagon); it is modular iff no sublattice is N₅.",
+      "Every finite Boolean algebra is isomorphic to (P(S), ⊆), so it has 2ⁿ elements for some n.",
+      "D_n under divisibility is a Boolean algebra iff n is squarefree: D₃₀ has 8 elements and is Boolean; D₁₂ is distributive but not complemented."
+    ],
+    "traps": [
+      "Complemented does not imply distributive (M₃) and distributive does not imply complemented (D₁₂). Boolean requires both, and the MCQ options are built on exactly this.",
+      "Complements are unique only in a distributive lattice. In M₃ each of the three middle elements has two complements.",
+      "'Complete' and 'bounded' are not synonyms: every complete lattice is bounded, but an infinite bounded lattice need not be complete.",
+      "Every lattice with 4 or fewer elements is distributive; the smallest non-distributive lattices, M₃ and N₅, each have 5 elements. Small counterexamples do not exist.",
+      "A chain is always distributive and, if finite, bounded — but it is complemented only when it has at most 2 elements. A 3-element chain 0 ≺ a ≺ 1 gives a no complement."
+    ],
+    "mnem": "Boolean = Distributive AND Complemented — both halves, never either alone.",
+    "rel": ["Lattices — meet and join", "Set operations and their algebra", "Extremal elements and bounds in a poset"]
+  },
+  {
+    "id": "U1a-16",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Mathematical induction (weak form)",
+    "def": "Mathematical induction proves a statement P(n) for all integers n ≥ n₀ by verifying P(n₀) and then showing that P(k) implies P(k+1).",
+    "exp": "To prove P(n) for all integers n ≥ n₀ there are exactly two obligations.\n1. Base: prove P(n₀) outright.\n2. Step: for an arbitrary k ≥ n₀, assume P(k) — the induction hypothesis — and derive P(k+1).\nTogether these give P(n) for every n ≥ n₀: the step is the rung, the base is where the ladder is planted.\n\nWorked — prove 1 + 2 + … + n = n(n+1)/2 for all n ≥ 1.\nBase n = 1: LHS = 1, RHS = 1 · 2/2 = 1. Holds.\nHypothesis: assume 1 + 2 + … + k = k(k+1)/2.\nStep: 1 + … + k + (k+1) = k(k+1)/2 + (k+1) = (k+1)(k+2)/2, which is exactly the formula at n = k+1.\nHence the identity holds for all n ≥ 1.\n\nThe same three-line shape handles divisibility claims (6 divides n³ − n for all n ≥ 1) and inequalities (Bernoulli: (1+x)ⁿ ≥ 1 + nx for x ≥ −1).\n\nChoose the base carefully. For 2ⁿ > n² the standard base is n = 5, since the claim is false at n = 2, 3 and 4. A step valid from k = 5 onwards says nothing about n = 3, and 'for which n does this hold' is testing precisely that.",
+    "facts": [
+      "Two obligations only: the base case P(n₀), and the implication P(k) ⇒ P(k+1) for arbitrary k ≥ n₀.",
+      "The induction hypothesis P(k) is assumed, not proved; the work of the step is deriving P(k+1) from it.",
+      "The base need not be n = 1. For 2ⁿ > n² the usual base is n = 5, because the statement is false at n = 2, 3 and 4.",
+      "Standard summations provable by induction: Σi = n(n+1)/2, Σi² = n(n+1)(2n+1)/6, Σi³ = [n(n+1)/2]², Σ(2i−1) = n².",
+      "Induction also proves divisibility results, such as 6 | n³ − n for all n ≥ 1.",
+      "Bernoulli's inequality (1+x)ⁿ ≥ 1 + nx for x ≥ −1 and n ≥ 1 is a standard induction exercise.",
+      "The principle of induction is equivalent to the well-ordering of the non-negative integers."
+    ],
+    "traps": [
+      "Omitting the base case can 'prove' a falsehood: the step for 1 + 2 + … + n = (n² + n + 2)/2 goes through cleanly, but n = 1 gives 2 ≠ 1, so the formula is wrong.",
+      "Checking n = 1, 2, 3 is verification, not induction; the step must be proved for an arbitrary k.",
+      "Assuming P(n) and 'deriving' P(n) is circular — the step must start at k and finish at k+1.",
+      "Many inequality questions are false for small n; find where the claim actually starts before writing the base case.",
+      "Do not substitute the closed form for the (k+1)-th term inside the step — that assumes what is being proved."
+    ],
+    "mnem": "Base, hypothesis, step. No base, no proof.",
+    "rel": ["Strong induction and well-ordering", "Sets, subsets, power set, cardinality", "Inclusion–exclusion principle"]
+  },
+  {
+    "id": "U1a-17",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Strong induction and well-ordering",
+    "def": "Strong induction proves P(k+1) by assuming P(n₀) through P(k) all hold, and the well-ordering principle states that every non-empty set of non-negative integers has a least element.",
+    "exp": "Strong induction (also called complete induction or the second principle) changes only the hypothesis: to prove P(k+1) you may assume P(n₀), P(n₀+1), …, P(k) all hold, rather than P(k) alone. Reach for it whenever the step reaches back further than one step — recursive definitions, prime factorisation, binary representation, correctness of divide-and-conquer algorithms.\n\nWorked — every integer n ≥ 2 is a product of primes. Base: 2 is itself prime. Step: take n > 2 and assume the claim for every integer from 2 up to n−1. If n is prime we are done. Otherwise n = ab with 2 ≤ a, b < n; the hypothesis applies to both a and b, and concatenating their factorisations factorises n. Ordinary induction cannot run this argument, because a and b are not n−1.\n\nThe well-ordering principle states that every non-empty subset of the non-negative integers has a least element. It is logically equivalent to both forms of induction. It powers proof by minimal counterexample: assume the set of n for which P(n) fails is non-empty, let m be its least member, and derive a contradiction from the fact that P holds below m.\n\nWell-ordering is specific to ℕ: ℤ, ℚ⁺ and ℝ⁺ all fail it under ≤.",
+    "facts": [
+      "Strong induction hypothesis: P(n₀) ∧ P(n₀+1) ∧ … ∧ P(k), used to prove P(k+1).",
+      "Weak induction, strong induction and the well-ordering principle are logically equivalent over the integers.",
+      "Strong induction suits recursions that reach back more than one step: prime factorisation, Fibonacci-style bounds, binary representation, divide-and-conquer correctness.",
+      "Every integer n ≥ 2 has a prime factorisation — the standard strong-induction proof.",
+      "Well-ordering principle: every non-empty subset of ℕ has a least element.",
+      "Proof by minimal counterexample: assume the counterexample set is non-empty, take its least member, contradict.",
+      "The division algorithm — existence of q and r with a = bq + r, 0 ≤ r < b — is proved from well-ordering.",
+      "ℤ, ℚ⁺ and ℝ⁺ are not well-ordered under ≤; ℚ⁺ and ℝ⁺ have no least positive element."
+    ],
+    "traps": [
+      "Strong induction is not stronger in what it can prove — it proves exactly the same theorems as weak induction, just more conveniently.",
+      "A recurrence whose step reaches back two terms needs two base cases; one base case leaves a gap, and this is the standard broken Fibonacci proof.",
+      "Strong induction still requires its base case(s) to be checked separately — at the bottom the 'all previous cases' hypothesis is vacuous.",
+      "Well-ordering asserts a least element, not a greatest; a non-empty subset of ℕ need not have a largest element.",
+      "ℤ is not well-ordered under ≤ — the negative integers have no least element. Papers offer 'every non-empty set of integers has a least element' as a distractor."
+    ],
+    "mnem": "Weak induction climbs one rung; strong induction stands on the whole ladder below.",
+    "rel": ["Mathematical induction (weak form)", "Equivalence relations and partitions", "Extremal elements and bounds in a poset"]
+  }
+]

@@ -1,0 +1,457 @@
+[
+ {
+  "id": "U4a-01",
+  "paper": "TECH1",
+  "unit": "4",
+  "unitTitle": "Operating System",
+  "sub": "What an OS is: the two views",
+  "def": "An operating system is the system software that acts as an intermediary between the user and the hardware, viewed either as a resource manager that allocates CPU, memory, devices and files among competing programs, or as an extended (virtual) machine that hides raw hardware behind clean abstractions.",
+  "exp": "Two standard views, and both are examinable. As a resource manager (Tanenbaum's \"bottom-up\" view) the OS arbitrates the CPU, main memory, I/O devices and files among competing processes, deciding who gets what and when. As an extended or virtual machine (\"top-down\" view) it hides ugly hardware detail — disk controllers, interrupt vectors, DMA registers — behind abstractions like files, processes and sockets. Galvin phrases the same pair as resource allocator plus control program. The MPSC paper asks this literally: \"What is operating system?\" with options (a) collection of programs that manages hardware resources, (b) system service provider to the application programs, (c) link to interface the hardware and application programs, (d) all of these. The answer is all of these — each option states one true facet, and picking a single one loses the mark. Stallings gives three design objectives: convenience (make the machine easy to use), efficiency (use the resources well), and ability to evolve (permit new functions and new hardware without disrupting service). Convenience and efficiency partly conflict — a batch mainframe OS favours throughput, a laptop favours the user sitting at it. The OS is itself a program, but a special one: the kernel is the one program running at all times on the machine. Everything else is either a system program or an application program.",
+  "facts": [
+   "\"What is operating system?\" with options resource manager / service provider to applications / interface between hardware and applications — the intended answer is \"all of these\".",
+   "Two classic views: resource manager (allocator) and extended/virtual machine (control program that hides hardware).",
+   "Stallings' three OS objectives: convenience, efficiency, ability to evolve.",
+   "Galvin's definition of the kernel: the one program running at all times on the computer.",
+   "The OS is system software, sitting between application software and hardware — it is neither hardware nor an application.",
+   "Besides the kernel, an OS distribution ships system programs (shell, compilers, utilities) and, in newer editions, middleware frameworks.",
+   "There is no universally agreed formal definition of \"operating system\"; the working definition is \"everything the vendor ships as the OS\"."
+  ],
+  "traps": [
+   "The \"all of these\" option is correct here — do not pick only \"manages hardware resources\", which feels most textbook-like but is one facet of three.",
+   "OS is not a hardware component and not application software; a distractor calling it \"a hardware device that controls the CPU\" is wrong.",
+   "Kernel is not synonymous with operating system: OS = kernel + system programs (+ middleware). The shell/GUI is part of the OS but not part of the kernel.",
+   "Convenience and efficiency are not both maximised simultaneously — a question claiming the OS \"maximises both\" is overstating it.",
+   "\"The OS makes the computer run faster\" is false as stated: it improves utilisation and throughput, it does not speed up a single instruction."
+  ],
+  "mnem": "Objectives = CEE: Convenience, Efficiency, Evolve.",
+  "rel": [
+   "Evolution of operating systems",
+   "System components",
+   "Operating system services",
+   "The kernel and boot sequence"
+  ]
+ },
+ {
+  "id": "U4a-02",
+  "paper": "TECH1",
+  "unit": "4",
+  "unitTitle": "Operating System",
+  "sub": "Evolution of operating systems",
+  "def": "Operating systems evolved through four stages — serial processing with no OS, simple batch with a resident monitor, multiprogrammed batch, and time-sharing — each stage added to solve the previous stage's dominant inefficiency.",
+  "exp": "Serial processing (roughly 1945–55, vacuum tubes). No OS. The programmer signed up for a block of console time, loaded the program from cards or tape by hand, and read lights. Two problems dominated: scheduling waste (a booked slot that finished early was idle) and setup time (mounting tapes, loading the compiler, loading the linker). Simple batch (mid-1950s onward, transistors). A resident monitor stayed permanently in memory, read jobs one after another from an input batch, and used control cards (JCL) to know what to run. Setup time collapsed; CPU-I/O overlap did not exist, so the CPU still idled during every read and print. Multiprogrammed batch (mid-1960s, ICs). Several jobs are held in memory at once; when the running job blocks for I/O the OS switches the CPU to another job. This is what makes utilisation high, and it is why hardware needed interrupts, DMA and memory protection before it was possible. IBM's OS/360 is the standard example. Time-sharing (from the early 1960s). Multiprogramming plus a timer: the CPU is switched so rapidly that each of many interactive users appears to have the machine. CTSS at MIT (Corbató, early 1960s) and later MULTICS are the canonical systems; UNIX descends from that line. The classification into first to fourth generations along these lines is Tanenbaum's and is frequently asked verbatim.",
+  "facts": [
+   "Order of evolution: serial processing (no OS) → simple batch (resident monitor) → multiprogrammed batch → time-sharing.",
+   "The two problems that motivated the first batch monitors were scheduling waste and setup time.",
+   "Multiprogramming requires hardware support: interrupts, DMA and memory protection.",
+   "Time-sharing is a logical extension of multiprogramming, adding a timer so switching is frequent enough for interaction.",
+   "CTSS (MIT, Corbató, early 1960s) is the canonical early time-sharing system; MULTICS followed and influenced UNIX.",
+   "Tanenbaum's generations: 1st vacuum tubes (no OS), 2nd transistors (batch), 3rd ICs (multiprogramming and time-sharing), 4th PCs/networks.",
+   "IBM OS/360 is the standard example of a third-generation multiprogrammed batch OS."
+  ],
+  "traps": [
+   "Time-sharing did not replace batch — the two coexisted, and batch survives today as job/queue scheduling on clusters.",
+   "Simple batch is not multiprogramming: only one job is in memory in a simple batch monitor, so the CPU still idles on I/O.",
+   "Spooling and multiprogramming are different ideas; spooling overlaps I/O with computation but is not by itself multiprogramming.",
+   "Do not attribute time-sharing to UNIX — UNIX (1969) came after CTSS and MULTICS, which pioneered it.",
+   "Sequencing questions ask which came first: the resident monitor precedes multiprogramming, which precedes time-sharing."
+  ],
+  "mnem": "Serial → Batch → Multiprogrammed → Time-shared: \"So Big Machines Time-share\".",
+  "rel": [
+   "Batch systems, spooling and the resident monitor",
+   "Multiprogramming vs multitasking",
+   "Time-sharing systems",
+   "What an OS is: the two views"
+  ]
+ },
+ {
+  "id": "U4a-03",
+  "paper": "TECH1",
+  "unit": "4",
+  "unitTitle": "Operating System",
+  "sub": "Batch systems, resident monitor, spooling",
+  "def": "A batch system groups similar jobs and runs them one after another with no user interaction under the control of a resident monitor, and spooling uses the disk as a large buffer so that the I/O of one job overlaps the computation of another.",
+  "exp": "The resident monitor is the ancestor of the kernel: a small program permanently in main memory containing a control-card interpreter, a loader, and device drivers. Memory splits into the monitor area and the user program area. Jobs carry control cards — on IBM systems written as $JOB, $FTN, $LOAD, $RUN, $DATA, $END — which tell the monitor which language processor and which data to use. This is job control language (JCL). The user submits a deck and collects printout hours later, so turnaround time is long and a single syntax error costs a whole cycle. Off-line operation came first: cards were copied to tape on a cheap satellite machine, the tape was carried to the mainframe, and output tape was printed offline. This decoupled the fast CPU from slow card readers, but tape is sequential, so the CPU still processed jobs in the order they sat on the tape. Spooling — Simultaneous Peripheral Operation On-Line — replaced tape with disk. Because disk is random access, the OS can hold a pool of jobs on disk and pick which to run next; this is what makes job scheduling possible at all. Printer spooling is the surviving everyday example: your process \"prints\" instantly to a disk spool file and the daemon feeds the printer later. Key distinction: buffering overlaps the I/O and computation of a single job; spooling overlaps the I/O of one job with the computation of another.",
+  "facts": [
+   "Resident monitor contents: control-card interpreter, loader, device drivers — permanently memory resident.",
+   "SPOOL = Simultaneous Peripheral Operation On-Line.",
+   "Spooling uses the disk as a huge buffer and requires a random-access device; off-line operation used sequential tape.",
+   "Spooling creates the job pool on disk, which is the precondition for job scheduling.",
+   "Buffering overlaps I/O with computation of the same job; spooling overlaps I/O of one job with computation of another.",
+   "Batch systems optimise throughput and CPU utilisation; they have no user interaction and long turnaround time.",
+   "Control cards on IBM batch systems are written with a $ in column one ($JOB, $FTN, $RUN, $END)."
+  ],
+  "traps": [
+   "Spooling vs buffering is the classic one-mark distinction — spooling is across jobs, buffering is within a job.",
+   "Spooling does not require multiprogramming and multiprogramming does not require spooling; they are independent mechanisms often used together.",
+   "The performance metric for batch is throughput/turnaround time, not response time — response time belongs to time-sharing.",
+   "A resident monitor is not a kernel with scheduling: a simple batch monitor runs one job at a time and does no CPU scheduling.",
+   "Off-line operation with tape gives no job pool, so \"spooling was first done on magnetic tape\" is a wrong-flavoured claim: the pool needs disk."
+  ],
+  "mnem": "SPOOL: Simultaneous Peripheral Operation On-Line.",
+  "rel": [
+   "Evolution of operating systems",
+   "Multiprogramming vs multitasking",
+   "Time-sharing systems",
+   "System components"
+  ]
+ },
+ {
+  "id": "U4a-04",
+  "paper": "TECH1",
+  "unit": "4",
+  "unitTitle": "Operating System",
+  "sub": "Multiprogramming / multitasking / multiprocessing / multithreading",
+  "def": "Multiprogramming keeps several jobs in memory and switches the CPU when one blocks, multitasking switches so rapidly that users interact, multiprocessing uses two or more physical CPUs, and multithreading runs several threads of control inside one process.",
+  "exp": "These four are constantly confused, and papers exploit it. Multiprogramming — several jobs resident in memory; when the running job blocks on I/O the OS picks another. Goal: maximise CPU utilisation. Needs only one CPU. The degree of multiprogramming is the number of processes in memory. Multitasking (time-sharing) — multiprogramming plus a timer, so switching happens every few milliseconds and each user or task appears to run continuously. Goal: minimise response time. Multiprocessing — two or more physical CPUs or cores in one machine sharing memory and often a clock (tightly coupled). Symmetric multiprocessing (SMP) runs an identical copy of the OS on each processor; asymmetric assigns a master processor. Goal: increased throughput, economy of scale, and graceful degradation. Multithreading — several threads within one process sharing its code, data and open files but each with its own stack, registers and program counter. Goal: responsiveness and cheap concurrency within an application. Worked CPU-utilisation model (Tanenbaum): if each of n processes spends fraction p of its time waiting for I/O, CPU utilisation ≈ 1 − pⁿ. With p = 0.8 and n = 4, utilisation = 1 − 0.8⁴ = 1 − 0.4096 ≈ 59%. Raise n to 10 and it is 1 − 0.107 ≈ 89%. That curve is why more memory (more resident jobs) buys utilisation.",
+  "facts": [
+   "Multiprogramming needs exactly one CPU; multiprocessing needs two or more.",
+   "CPU utilisation under the probabilistic model = 1 − pⁿ, where p is the fraction of time a process waits for I/O and n is the degree of multiprogramming.",
+   "With p = 0.8 and n = 4 utilisation is about 59%; with n = 10 about 89%.",
+   "Threads of one process share code, data and open files; each has its own stack, register set and program counter.",
+   "SMP runs a copy of the OS on every processor and all processors are peers; ASMP has a master–slave arrangement.",
+   "Multitasking/time-sharing is described in textbooks as a logical extension of multiprogramming.",
+   "Multiprogramming improves throughput and utilisation but never shortens the execution time of any individual job."
+  ],
+  "traps": [
+   "\"Multiprogramming requires multiple processors\" is false — that is multiprocessing.",
+   "Multitasking and multiprogramming are not identical: multitasking adds timer-driven preemption for interactivity.",
+   "Multithreading does not create a new address space; a distractor saying each thread has its own address space is wrong.",
+   "Multiprocessing is tightly coupled (shared memory); a network of machines is loosely coupled and is distributed, not multiprocessing.",
+   "1 − pⁿ is an approximation assuming independence; questions that ask for exact CPU utilisation from a queueing model may expect a different number, so use it only when the paper sets up the same model."
+  ],
+  "mnem": "Programming = many jobs, Tasking = many tasks fast, Processing = many CPUs, Threading = many threads in one process.",
+  "rel": [
+   "Time-sharing systems",
+   "Evolution of operating systems",
+   "Other system types",
+   "Batch systems, resident monitor, spooling"
+  ]
+ },
+ {
+  "id": "U4a-05",
+  "paper": "TECH1",
+  "unit": "4",
+  "unitTitle": "Operating System",
+  "sub": "Time-sharing and interactive systems",
+  "def": "A time-sharing (interactive) system is multiprogramming with timer-driven CPU switching so frequent that each of many concurrent users gets the illusion of a dedicated machine, and it is designed to minimise response time rather than maximise throughput.",
+  "exp": "The mechanism is a timer interrupt plus round-robin scheduling. Each ready process receives a time quantum (time slice); when the quantum expires the timer interrupts, the OS saves state and dispatches the next process. Galvin quotes a typical quantum of 10 to 100 milliseconds — implementations vary, so treat that as the textbook range rather than a law. The metric is response time: the interval from submitting a request to the first response (not to completion). Interactive use is generally considered acceptable when response time is under about one second. Compare turnaround time (submission to completion, the batch metric) and waiting time (time spent in the ready queue). Rough model: with n users, quantum q and context-switch overhead s, a process waits at worst about n × (q + s) before its next turn. Put n = 10, q = 20 ms, s = 1 ms and the worst-case wait is about 210 ms — comfortably interactive. Shrink q to 1 ms with the same s and half the CPU is burned on switching. Time-sharing forces the OS to grow: it needs CPU scheduling, memory protection between users, swapping or virtual memory (more users than fit in memory), an on-line file system, concurrency control, and a mechanism for a user to type at a running process. Almost every feature of a modern kernel traces back to this list.",
+  "facts": [
+   "Time quantum in textbook examples is commonly 10–100 ms; the exact value is implementation dependent.",
+   "Time-sharing optimises response time; batch optimises throughput and turnaround time.",
+   "Response time is measured to the first response, not to completion of the job.",
+   "Time-sharing requires a hardware timer to force preemption — without it a process could keep the CPU forever.",
+   "Round-robin is the scheduling algorithm normally associated with time-sharing.",
+   "Time-sharing systems need swapping/virtual memory because the number of ready users typically exceeds what fits in main memory.",
+   "Multitasking is used as a synonym for time-sharing in modern texts."
+  ],
+  "traps": [
+   "A very small quantum does not improve fairness indefinitely — context-switch overhead eventually dominates and throughput collapses.",
+   "A very large quantum makes round-robin degenerate into FCFS; questions test both ends of this.",
+   "Response time, turnaround time and waiting time are three different quantities; read which one the question asks for.",
+   "Time-sharing is an extension of multiprogramming, not an alternative to it — an option saying \"time-sharing does not use multiprogramming\" is wrong.",
+   "\"Time-sharing gives each user a real dedicated processor\" is false: the dedication is an illusion produced by rapid switching."
+  ],
+  "mnem": "",
+  "rel": [
+   "Multiprogramming vs multitasking",
+   "Real-time systems",
+   "Evolution of operating systems",
+   "Dual mode operation and privileged instructions"
+  ]
+ },
+ {
+  "id": "U4a-06",
+  "paper": "TECH1",
+  "unit": "4",
+  "unitTitle": "Operating System",
+  "sub": "Real-time systems: hard vs soft",
+  "def": "A real-time system is one whose correctness depends not only on the result produced but on the time at which it is produced, and it is hard real-time if missing a deadline is a system failure, soft real-time if a missed deadline only degrades quality.",
+  "exp": "The defining property is determinism, not speed. An RTOS must be able to state a bound on how long an operation takes; a general-purpose OS may be faster on average but has no bound. Hard real-time: the deadline is absolute. Industrial control, anti-lock braking, flight control, weapons systems. Because worst case must be bounded, hard real-time systems typically avoid secondary storage and demand-paged virtual memory (a page fault has unbounded latency), keep code and data in ROM or non-paged memory, and do not run general time-sharing alongside. Galvin notes they are usually special-purpose and conflict with the time-sharing features of a general OS. Soft real-time: the critical task simply gets priority over non-critical ones, and the deadline is a goal rather than a guarantee. Multimedia playback, streaming, virtual reality. Soft real-time support can be added to a general-purpose kernel and largely has been: priority-based preemptive scheduling, a preemptible kernel, and bounded dispatch latency. Dispatch latency — the delay from an interrupt arriving to the target process starting — is the number an RTOS designer minimises. It splits into a conflict phase (preempt whatever kernel-mode process is running and release resources it holds) and the dispatch itself. Priority inversion, where a high-priority task blocks on a resource held by a low-priority one, is controlled by the priority-inheritance protocol.",
+  "facts": [
+   "Real-time correctness = correct result AND delivered within its deadline.",
+   "Hard real-time: missing a deadline is a total system failure; soft real-time: a missed deadline degrades quality only.",
+   "Real-time means deterministic/predictable, not fast.",
+   "Hard real-time systems usually avoid demand paging and virtual memory because page-fault latency is unbounded.",
+   "RTOS scheduling is priority-based and preemptive; the kernel must itself be preemptible to bound dispatch latency.",
+   "Dispatch latency = conflict phase (preemption plus resource release) + dispatch phase.",
+   "Priority inheritance is the standard remedy for priority inversion.",
+   "Soft real-time support exists in general-purpose OSes; hard real-time generally does not."
+  ],
+  "traps": [
+   "\"Real-time system means the fastest system\" is the single most common wrong option — the property is predictability.",
+   "Do not label multimedia or streaming as hard real-time; they are soft real-time.",
+   "A hard real-time system with virtual memory is a contradiction in most textbook treatments — watch for that distractor.",
+   "Time-sharing and hard real-time are opposed goals: fair sharing destroys the deadline guarantee.",
+   "An RTOS is not necessarily an embedded OS and an embedded OS is not necessarily real-time, though the two overlap heavily."
+  ],
+  "mnem": "Hard = deadline is a Hard failure; Soft = deadline is a Suggestion.",
+  "rel": [
+   "Time-sharing and interactive systems",
+   "Other system types",
+   "Operating system services",
+   "OS structure: monolithic to hybrid"
+  ]
+ },
+ {
+  "id": "U4a-07",
+  "paper": "TECH1",
+  "unit": "4",
+  "unitTitle": "Operating System",
+  "sub": "Distributed, clustered, network, embedded systems",
+  "def": "Beyond batch, time-sharing and real-time, operating systems are classified as network (users are aware of separate machines), distributed (many machines presented as one), clustered (systems joined for high availability), embedded and handheld.",
+  "exp": "Network OS. Each machine runs its own independent OS. The user knows there are several machines and moves between them explicitly — remote login, file transfer, mounted shares. Loosely coupled: no shared memory, no shared clock, communication over a network. Distributed OS. A collection of independent machines that appears to its users as a single coherent system — the single-system image. Transparency is the goal: the user does not know or care where a file lives or which node executes a process. Process migration and distributed file systems belong here. Distributed systems are loosely coupled hardware presented as tightly coupled software. Clustered systems. Two or more complete systems joined by a fast LAN and usually sharing storage, run for high availability. Asymmetric clustering keeps one machine in hot-standby mode monitoring the active one; symmetric clustering has all nodes running applications and monitoring each other. Parallel clusters that let several nodes write the same data need a distributed lock manager. Multiprocessor (parallel) systems are the tightly coupled case: shared memory, often a shared clock, inside one box. Embedded systems are the most numerous class of computers — appliances, cars, instruments. Special-purpose, often little or no user interface, sometimes running with no OS at all, frequently real-time. Handheld/mobile systems add constraints: limited memory, slower processors, small displays, and power management as a first-class OS concern.",
+  "facts": [
+   "Network OS: users are aware of multiple machines and access them explicitly. Distributed OS: users see one machine (transparency).",
+   "Tightly coupled = shared memory and often a shared clock (multiprocessors). Loosely coupled = communication over a network (distributed).",
+   "Clustering is done primarily for high availability.",
+   "Asymmetric clustering has a hot-standby node; symmetric clustering has all nodes running applications.",
+   "A parallel cluster sharing writable storage needs a distributed lock manager (DLM).",
+   "Embedded computers are the most numerous class of computers in existence, and often run a real-time OS.",
+   "Power management is a distinguishing design concern of handheld/mobile operating systems.",
+   "Graceful degradation / fault tolerance is a cited benefit of multiprocessor and clustered systems."
+  ],
+  "traps": [
+   "Network OS vs distributed OS is decided by transparency, not by the hardware — same LAN, different software goal.",
+   "Clustered is not the same as distributed: a cluster is a set of complete systems joined for availability, usually co-located and sharing storage.",
+   "Multiprocessing (one box, shared memory) is not a distributed system (many boxes, no shared memory).",
+   "Not all embedded systems are real-time and not all real-time systems are embedded.",
+   "\"Symmetric clustering\" and \"symmetric multiprocessing\" are different ideas that share an adjective — read which one is asked."
+  ],
+  "mnem": "",
+  "rel": [
+   "Multiprogramming vs multitasking",
+   "Real-time systems: hard vs soft",
+   "System components",
+   "Evolution of operating systems"
+  ]
+ },
+ {
+  "id": "U4a-08",
+  "paper": "TECH1",
+  "unit": "4",
+  "unitTitle": "Operating System",
+  "sub": "System components of an OS",
+  "def": "The classical components of an operating system are process management, main-memory management, file management, I/O system management, secondary-storage management, networking, the protection system, and the command-interpreter system.",
+  "exp": "This eight-item list is Galvin's and is asked as a straight recall question. Process management — create and delete both user and system processes, suspend and resume them, provide synchronisation and inter-process communication, and handle deadlocks. A process is a program in execution and needs CPU, memory, files and I/O to do its job. Main-memory management — keep track of which parts of memory are in use and by whom, decide which processes to move in and out, allocate and deallocate space. File management — create and delete files and directories, support primitives to manipulate them, map files onto secondary storage, back them up. I/O system management — a general device-driver interface, drivers for specific hardware, plus the buffering, caching and spooling subsystem. Its purpose is to hide device peculiarities from the rest of the kernel. Secondary-storage management — free-space management, storage allocation, disk scheduling. It matters because programs and data live on disk and disk speed governs overall speed. Networking — access to a distributed system's resources over a communication network. Protection system — control access by processes and users to system resources. Command-interpreter system — the shell: reads user commands and executes them. Note that the shell is a system program running in user mode, not a kernel component; newer editions list it under \"user interface\" instead.",
+  "facts": [
+   "Galvin's component list: process, main memory, file, I/O system, secondary storage, networking, protection, command interpreter.",
+   "Process management responsibilities include creation/deletion, suspend/resume, synchronisation, IPC and deadlock handling.",
+   "The I/O subsystem comprises buffering/caching/spooling, a general device-driver interface, and drivers for specific devices.",
+   "Secondary-storage management covers free-space management, storage allocation and disk scheduling.",
+   "The command interpreter (shell) is a system program in user mode, not part of the kernel.",
+   "Different shells exist on one system (sh, bash, csh, ksh) precisely because the shell is not built into the kernel."
+  ],
+  "traps": [
+   "\"Which is not a component of an OS?\" — compilers, assemblers, editors and loaders are system programs, not OS components.",
+   "The command interpreter is on the component list but is not inside the kernel; both statements are true and questions mix them.",
+   "Device drivers are part of the I/O subsystem and do run in kernel mode in a monolithic kernel — they are not user programs there.",
+   "Main-memory management and secondary-storage management are separate components; a question naming only \"memory management\" for disk allocation is conflating them.",
+   "Protection is listed as an OS component; security is usually treated separately as it involves the external environment."
+  ],
+  "mnem": "",
+  "rel": [
+   "Operating system services",
+   "System calls",
+   "Protection and security",
+   "What an OS is: the two views"
+  ]
+ },
+ {
+  "id": "U4a-09",
+  "paper": "TECH1",
+  "unit": "4",
+  "unitTitle": "Operating System",
+  "sub": "Operating system services",
+  "def": "OS services split into those helpful to the user — user interface, program execution, I/O operations, file-system manipulation, communications and error detection — and those that ensure efficient operation of the system itself: resource allocation, accounting, and protection and security.",
+  "exp": "Galvin's split is the exam-standard framing, and the question is usually \"which of the following is/is not an OS service?\". Services for the user: User interface — CLI, GUI, touch, or batch interface. Program execution — load a program into memory and run it, and end execution normally or abnormally with an error indication. I/O operations — a running program cannot drive devices itself for efficiency and protection reasons, so the OS must do I/O on its behalf. File-system manipulation — read, write, create, delete, search files and directories, list information, manage permissions. Communications — exchange of information between processes on the same machine or across a network, by shared memory or by message passing. Error detection — the OS must be constantly aware of errors in CPU and memory hardware, in I/O devices, and in user programs, and take appropriate corrective action. Services for the system's own efficient operation: Resource allocation — divide CPU cycles, main memory, file storage and I/O devices among multiple concurrent users or jobs. Accounting — keep track of which users use how much of which resource, for billing or for usage statistics that guide reconfiguration. Protection and security — control access to system resources and defend against outsiders, including authentication and logging attempts at intrusion. Note the OS provides an environment for program execution; it does not itself compile or edit your code.",
+  "facts": [
+   "Six user-facing services: user interface, program execution, I/O operations, file-system manipulation, communications, error detection.",
+   "Three system-facing services: resource allocation, accounting, protection and security.",
+   "Communication is achieved either by shared memory or by message passing.",
+   "The OS performs I/O on behalf of user programs for both efficiency and protection.",
+   "Error detection covers hardware errors, I/O device errors and user-program errors; the OS's action may be to halt the program and produce an error dump.",
+   "Accounting exists for billing and for accumulating usage statistics to guide system reconfiguration."
+  ],
+  "traps": [
+   "Program compilation is not an OS service — the compiler is a system program that the OS merely runs.",
+   "Error detection is a service; error correction of a user program's logic is not. The OS reports and terminates.",
+   "A GUI is one form of user interface, not a mandatory OS service — server and embedded OSes may have only a CLI or none.",
+   "Resource allocation is listed as a system service, but questions sometimes place it under user services; the split is Galvin's convention, so answer by the option set given.",
+   "\"Providing a compiler, editor and assembler\" describes system programs bundled with the OS, not OS services."
+  ],
+  "mnem": "",
+  "rel": [
+   "System components of an OS",
+   "System calls",
+   "Protection and security",
+   "What an OS is: the two views"
+  ]
+ },
+ {
+  "id": "U4a-10",
+  "paper": "TECH1",
+  "unit": "4",
+  "unitTitle": "Operating System",
+  "sub": "System calls",
+  "def": "A system call is the programmatic interface by which a user-mode process requests a service from the kernel, executed via a trap instruction that switches the processor into kernel mode and vectors to the kernel's handler.",
+  "exp": "Mechanism. The caller places a system-call number and its arguments where the ABI expects them, then executes a trap — a deliberate software interrupt (syscall/int 0x80 on x86, SVC on IBM, trap on many RISC machines). The hardware sets the mode bit to kernel, saves the return context, and jumps through the system-call vector to the handler. The handler validates arguments, does the work, and returns a value plus an error indication (errno on UNIX), and the mode bit returns to user. Three standard ways to pass parameters: (1) in registers — simplest, but limited by register count; (2) in a block or table in memory whose address is passed in a register — used by Linux and Solaris, with no limit on number or length; (3) pushed on the stack by the program and popped by the OS. Methods 2 and 3 do not limit the parameter count. Categories: process control (fork, exec, wait, exit, abort), file management (create, delete, open, read, write, close, seek), device management (request, release, read, write, ioctl), information maintenance (getpid, time, get/set system data and process attributes), communications (pipe, send, receive, shmget, socket), and in newer editions protection (chmod, umask, chown). Application programmers usually call an API — POSIX, Win32, the Java API — and a run-time support library turns that into the actual system call. printf() is a library function; it eventually calls write().",
+  "facts": [
+   "A system call is the only legitimate route from user mode to a privileged operation.",
+   "It is implemented by a trap/software interrupt, which is synchronous and deliberate.",
+   "Five classic categories: process control, file management, device management, information maintenance, communications (newer texts add protection).",
+   "Three parameter-passing methods: registers, a block in memory whose address is in a register, or the stack.",
+   "The block and stack methods place no limit on the number or length of parameters; registers do.",
+   "Programmers normally call an API (POSIX/Win32/Java) which the run-time support library maps onto system calls.",
+   "fork() returns 0 in the child and the child's PID in the parent.",
+   "A system call causes a mode switch; a mode switch is not the same as a context switch."
+  ],
+  "traps": [
+   "Library call vs system call: printf, malloc and fopen are library functions; write, brk/mmap and open are the system calls beneath them.",
+   "Trap vs interrupt: a trap is software-generated and synchronous, a hardware interrupt is asynchronous and external.",
+   "A system call does not create a new process unless it is fork/exec — do not assume mode switch implies process switch.",
+   "Register passing is limited by register count; questions about \"more parameters than registers\" want the memory-block method.",
+   "ioctl is device management, not file management, even though it takes a file descriptor.",
+   "Categories are stated as five in older editions and six (adding protection) in newer ones — count by the options given."
+  ],
+  "mnem": "Categories: Process, File, Device, Information, Communication — \"Please Feed Dogs In Cages\".",
+  "rel": [
+   "Dual mode operation and privileged instructions",
+   "Operating system services",
+   "The kernel and boot sequence",
+   "System components of an OS"
+  ]
+ },
+ {
+  "id": "U4a-11",
+  "paper": "TECH1",
+  "unit": "4",
+  "unitTitle": "Operating System",
+  "sub": "Dual mode operation and the mode bit",
+  "def": "Dual mode operation is the hardware mechanism that distinguishes kernel mode from user mode using a mode bit in the processor status register, so that privileged instructions can execute only on behalf of the operating system.",
+  "exp": "Without hardware help the OS cannot protect itself: a user program could simply overwrite the kernel or drive the disk directly. So the CPU carries a mode bit. In Galvin's convention 0 = kernel (also called supervisor, system, monitor or privileged) mode and 1 = user mode. Sequence: at power-up the hardware starts in kernel mode; the OS loads and initialises; before handing control to a user program it sets the mode bit to user. Any trap, interrupt or system call switches the bit back to kernel and enters the OS; on return to the user program the bit is set back to user. Privileged instructions execute only in kernel mode. The standard list: all I/O instructions, halt, set the timer, modify the mode bit itself, load the relocation/limit or MMU registers, disable interrupts, clear memory, and turn off the timer. Executing one in user mode causes a trap to the OS, which normally treats it as an illegal instruction and terminates the process. The timer deserves emphasis: it is what prevents a user program looping forever and never returning control. The OS loads a counter, the hardware decrements it, and on reaching zero it interrupts. Because setting the timer is privileged, the program cannot disarm it. x86 provides four rings, 0 (most privileged) to 3; most operating systems use only ring 0 and ring 3. Virtualisation added a further hypervisor mode below ring 0.",
+  "facts": [
+   "Mode bit convention in Galvin: 0 = kernel/monitor/supervisor mode, 1 = user mode.",
+   "The system boots in kernel mode; the OS sets the bit to user before dispatching a user program.",
+   "Any interrupt, trap or system call switches the processor to kernel mode.",
+   "Privileged instructions include I/O instructions, halt, set timer, disable interrupts, modify the mode bit, and load MMU/relocation registers.",
+   "A privileged instruction attempted in user mode traps as an illegal instruction.",
+   "The hardware timer, whose setting is privileged, guarantees the OS regains control from a runaway program.",
+   "x86 defines four protection rings 0–3; typical OSes use only 0 (kernel) and 3 (user)."
+  ],
+  "traps": [
+   "Mode bit polarity is asked directly: kernel = 0 in the standard textbook, so \"user mode = 0\" is the wrong option.",
+   "A mode switch (user↔kernel) is not a context switch (process↔process) — cheaper, and no PCB save of another process.",
+   "Reading the system clock is not privileged; setting the timer is. Similarly, ordinary arithmetic is never privileged.",
+   "Dual mode is a hardware feature — an OS cannot implement protection purely in software on hardware lacking it (this is why early MS-DOS on the 8088 had no protection).",
+   "System calls run in kernel mode but are requested from user mode; saying \"user programs execute privileged instructions via system calls\" is loose — the kernel executes them, not the user program."
+  ],
+  "mnem": "Zero is the boss: mode bit 0 = kernel.",
+  "rel": [
+   "System calls",
+   "The kernel and boot sequence",
+   "Protection and security",
+   "OS structure: monolithic to hybrid"
+  ]
+ },
+ {
+  "id": "U4a-12",
+  "paper": "TECH1",
+  "unit": "4",
+  "unitTitle": "Operating System",
+  "sub": "OS structure: monolithic to hybrid",
+  "def": "Operating systems are structured as simple/monolithic (all services in one kernel address space), layered (each layer uses only the one below), microkernel (minimal kernel with services as user-space servers), modular (a core kernel with dynamically loadable modules), or hybrid combinations.",
+  "exp": "Simple / monolithic. All OS functionality is one large kernel binary in a single address space. MS-DOS was written with no module separation at all and let applications call BIOS routines directly. Traditional UNIX is monolithic but at least separates kernel from system programs; Tanenbaum's nickname for the pattern is \"the big mess\". Advantage: fast — everything is a procedure call. Disadvantage: hard to extend, and one buggy driver crashes the machine. Layered. The OS is divided into layers, layer 0 being the hardware and the highest being the user interface; a layer may use only lower layers. Dijkstra's THE system (1968) is the standard example with six levels (0–5). Advantage: construction and debugging are simple because you verify one layer at a time. Disadvantages: deciding what goes in which layer is difficult (the disk driver may need the memory manager, which may need the disk for paging), and a request crossing many layers adds overhead. Microkernel. Move as much as possible into user-space servers, leaving the kernel with minimal process/memory management and message passing. Mach, QNX and MINIX 3 are the examples. Benefits: easier to extend, more portable, more reliable — a failed server does not take the kernel down. Cost: message passing plus user↔kernel switching hurts performance. Modular. An object-oriented core with dynamically loadable kernel modules (Linux, Solaris, macOS). Flexible like a microkernel, fast like a monolith, since modules run in the kernel address space. Hybrid. Nearly all real systems: macOS/iOS layer a BSD kernel over Mach; Windows mixes monolithic and microkernel ideas; Android puts its own stack over a Linux kernel.",
+  "facts": [
+   "Layered approach: layer 0 is hardware, the top layer is the user interface, and each layer uses only lower layers.",
+   "Dijkstra's THE system (1968) is the classic layered OS, with six layers numbered 0 to 5.",
+   "Main disadvantages of layering: difficulty defining the layers and the overhead of traversing them.",
+   "A microkernel keeps only minimal process and memory management plus a communication (message-passing) facility.",
+   "Mach, QNX and MINIX 3 are the standard microkernel examples; Windows NT 4.0 used a microkernel-influenced design.",
+   "Loadable kernel modules give microkernel-like flexibility without message-passing cost because modules share the kernel address space.",
+   "Linux is a monolithic kernel that is also modular; it is not a microkernel.",
+   "macOS and iOS are hybrids: Mach microkernel plus BSD kernel plus kernel extensions."
+  ],
+  "traps": [
+   "Microkernels are not faster than monolithic kernels — the trade is reliability and extensibility for performance.",
+   "\"Linux is a microkernel\" is a standing wrong option; it is monolithic and modular.",
+   "In a layered design a layer may call only lower layers, not higher ones — a distractor reverses this.",
+   "MS-DOS is the example of a system with no structure/poor separation, not of a layered system.",
+   "Modules are not layers: any module may call any other, whereas layering is strictly ordered.",
+   "Moving functionality out of the kernel improves reliability but does not remove the need for a mode switch to reach a server."
+  ],
+  "mnem": "",
+  "rel": [
+   "The kernel and boot sequence",
+   "Dual mode operation and the mode bit",
+   "System components of an OS",
+   "System calls"
+  ]
+ },
+ {
+  "id": "U4a-13",
+  "paper": "TECH1",
+  "unit": "4",
+  "unitTitle": "Operating System",
+  "sub": "The kernel and the boot sequence",
+  "def": "The kernel is the memory-resident core of the operating system, running in privileged mode and handling interrupts, scheduling, memory and inter-process communication, and it is placed in memory by a two-stage boot: firmware bootstrap, then a bootstrap loader, then the kernel itself.",
+  "exp": "The kernel is the one program running at all times on the machine. It stays resident in main memory precisely because it must respond to interrupts and system calls at any instant; non-resident parts of the OS (utilities, many system programs) are loaded on demand. Boot sequence. Power-on resets the CPU, which begins executing at a fixed address in ROM/firmware. That firmware — BIOS or UEFI — runs POST, initialises devices, and locates a boot device. Because ROM is small, it loads a second-stage bootstrap loader (GRUB on Linux, the boot block on classic UNIX) from a fixed disk location such as the master boot record. The loader knows the file system well enough to find the kernel image, load it into memory, and jump to its entry point. The kernel initialises subsystems, mounts the root file system, creates the first process — init or systemd on Linux, launchd on macOS — and only then is a user shell started with the mode bit set to user. Exam framing to memorise. A question asks which statement about the kernel is NOT true. These are true: the kernel is the core of the OS; it remains in main memory for the whole session; it runs in privileged/kernel mode; it manages processes, memory, devices and IPC; it is the first part of the OS loaded. The false claim in this paper is that kernel modules cannot be loaded into a running operating system — Linux, Solaris and macOS all load and unload kernel modules at runtime (insmod, modprobe, rmmod).",
+  "facts": [
+   "The kernel is memory resident for the whole session; other OS parts may be loaded on demand.",
+   "Boot order: firmware/BIOS-UEFI bootstrap in ROM → bootstrap loader from disk (e.g. GRUB in the MBR/boot block) → kernel loaded and initialised → first user process (init/systemd).",
+   "A two-stage boot exists because the ROM bootstrap is too small to understand the file system.",
+   "Loadable kernel modules CAN be inserted into and removed from a running kernel (insmod, modprobe, rmmod on Linux).",
+   "The kernel runs in kernel/privileged mode; the shell and system programs run in user mode.",
+   "Bootstrapping is also called booting; the ROM code is firmware and survives power loss.",
+   "The kernel is not the whole OS: the OS also includes system programs and, in modern definitions, middleware."
+  ],
+  "traps": [
+   "\"Kernel modules cannot be loaded into a running OS\" is FALSE — this is the answer to the standard which-is-not-true question.",
+   "\"Kernel is the same as the operating system\" is false; the shell/GUI and utilities are OS but not kernel.",
+   "The bootstrap loader in ROM is not the kernel — it loads the kernel.",
+   "The kernel does not get swapped out to disk; a statement that the kernel is paged out when idle is wrong in the textbook treatment.",
+   "init/systemd is the first user process, not the first program executed after power-on (that is the firmware bootstrap).",
+   "A microkernel is still a kernel and is still resident and privileged — being small does not make it a user program."
+  ],
+  "mnem": "Boot chain: ROM → Loader → Kernel → init.",
+  "rel": [
+   "OS structure: monolithic to hybrid",
+   "Dual mode operation and the mode bit",
+   "System components of an OS",
+   "What an OS is: the two views"
+  ]
+ },
+ {
+  "id": "U4a-14",
+  "paper": "TECH1",
+  "unit": "4",
+  "unitTitle": "Operating System",
+  "sub": "Protection, security and resource multiplexing",
+  "def": "Protection is the internal mechanism that controls the access of processes and users to the resources defined by a computer system, while security is the defence of the system against external and internal attack; resource management itself is carried out by time-division and space-division multiplexing.",
+  "exp": "Protection vs security. Protection is internal: given that user A exists and file F exists, may A write F? It is a mechanism question, and the OS enforces it. Security is broader: is the person typing really user A? It considers the environment — authentication, viruses, denial of service, physical access. Galvin's line is that protection is an internal problem while security must consider both the computer system and its environment. A guiding rule is separation of mechanism from policy: the OS supplies the mechanism, the administrator sets the policy. Another is the principle of least privilege. Protection domains. A process executes within a protection domain, which is a set of ⟨object, rights⟩ pairs — for example ⟨file F, {read, write}⟩. The access matrix formalises this: rows are domains, columns are objects (files, devices, and other domains), and entry (i, j) is the set of rights domain i has on object j. A domain switch is modelled by a \"switch\" right in an entry whose object is a domain. Copy, owner and control rights let the matrix modify itself. Implementations: a global table (large and sparse), access-control lists (store a column with each object), capability lists (store a row with each domain), or lock-key. Multiplexing. The MPSC paper asks: \"by operating system, the resource management can be done via ___\". The answer is time-division and space-division multiplexing — both. Time division: the CPU and the printer are given to one user at a time, in turn. Space division: main memory and disk are divided so several users hold a piece simultaneously.",
+  "facts": [
+   "\"Resource management can be done via ___\" → time division multiplexing AND space division multiplexing (i.e. both).",
+   "Time-division multiplexing examples: CPU, printer. Space-division multiplexing examples: main memory, disk.",
+   "Protection = internal control of access to defined resources; security = defence against attacks, considering the external environment.",
+   "Access matrix: rows = domains, columns = objects, entry = set of access rights.",
+   "An access-control list is a column of the access matrix stored with the object; a capability list is a row stored with the domain.",
+   "Domain switching is represented in the access matrix by a switch right on an entry whose object is another domain.",
+   "Design principles: separation of mechanism from policy, and the principle of least privilege.",
+   "A protection domain is a set of ⟨object, access-rights⟩ pairs."
+  ],
+  "traps": [
+   "Do not pick only \"time division multiplexing\" — memory is space-multiplexed, so \"both\" is the answer.",
+   "Protection and security are not interchangeable; a question defining protection as \"defending against viruses\" is describing security.",
+   "ACL is per object (column), capability list is per domain (row) — these are routinely swapped in distractors.",
+   "The access matrix is sparse, which is why the global-table implementation is rejected in practice, not because it is incorrect.",
+   "Mechanism vs policy: the OS provides mechanism; deciding who may read what is policy set outside the kernel.",
+   "Protection is not only about malicious users — its first purpose is detecting latent errors at the interfaces between subsystems."
+  ],
+  "mnem": "Time-division = take turns; space-division = take slices.",
+  "rel": [
+   "Dual mode operation and the mode bit",
+   "System components of an OS",
+   "Operating system services",
+   "What an OS is: the two views"
+  ]
+ }
+]

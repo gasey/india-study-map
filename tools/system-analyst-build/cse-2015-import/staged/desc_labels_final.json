@@ -1,0 +1,902 @@
+[
+ {
+  "id": "D000",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Job vs process",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D001",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Multiprocessing vs multiprogramming",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D002",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "CPU scheduling algorithm comparison",
+  "garbled": true,
+  "repaired": true,
+  "recovered": false
+ },
+ {
+  "id": "D003",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Deadlock avoidance",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D004",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Priority scheduling",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D005",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "LRU page replacement",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D006",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Random vs raster scan displays",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D007",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Raster display storage calculation",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D008",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Geometric transformations",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D009",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Flood fill algorithm",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D010",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Cohen-Sutherland line clipping",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D011",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Pass by reference (functions)",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D012",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Operator overloading",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D013",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Exception handling",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D014",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Disk scheduling (SCAN)",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D015",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Pass by value (objects)",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D016",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Bezier curves and surfaces",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D017",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "File organization",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D018",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Multi-level inheritance",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D019",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Round Robin scheduling",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D020",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Data characteristics in DB",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D021",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Disadvantages of DBMS",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D022",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Attribute vs value set",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D023",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "ER diagram conventions",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D024",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "SQL views",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D025",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Entity relationship types",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D026",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "DB privileges",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D027",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Concurrency control locking",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D028",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "TCP header",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D029",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Transmission impairments",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D030",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Adaptive vs non-adaptive routing",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D031",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Token bus",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D032",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "FDMA/TDMA/CDMA",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D033",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "ISDN services",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D034",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Categories of software",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D035",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "RAD model drawbacks",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D036",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Prototyping benefits",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D037",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Role of SRS",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D038",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Data dictionary",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D039",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Verification vs validation",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D040",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Permutations with grouping",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D041",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Combinations (handshakes)",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D042",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Mathematical induction",
+  "garbled": true,
+  "repaired": true,
+  "recovered": false
+ },
+ {
+  "id": "D043",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "DFA design",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D044",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "NFA to DFA conversion",
+  "garbled": true,
+  "repaired": true,
+  "recovered": false
+ },
+ {
+  "id": "D045",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "NOR gate logic diagram",
+  "garbled": true,
+  "repaired": true,
+  "recovered": false
+ },
+ {
+  "id": "D046",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Half adder (gate design)",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D047",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Full adder using multiplexers",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D048",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Sequential circuit states",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D049",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Carry lookahead adder",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D050",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Clock speed and performance",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D051",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Memory hierarchy levels",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D052",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Pipelining and control register",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D053",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "DMA transfer",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D054",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Shift and rotate operations",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D055",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Recursion",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D056",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Balanced expression check (stack)",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D057",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Prim's algorithm complexity",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D058",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Merge sort",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D059",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Deadlock avoidance (resources)",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D060",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "CPU utilization (Round Robin)",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D061",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "SCAN disk scheduling seek time",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D062",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Deadlock avoidance (resources)",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D063",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Threads vs processes",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D064",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "File system structures",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D065",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Demand paging performance",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D066",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "new vs malloc",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D067",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Pure virtual vs virtual functions",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D068",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Void pointer type",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D069",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "File pointer functions",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D070",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Exception handling mechanism",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D071",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "C++ output prediction",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D072",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "String comparison (overloading)",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D073",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "DDA line generation algorithm",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D074",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Display segmentation functions",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D075",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Perspective projection",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D076",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Hidden surface detection",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D077",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "B-spline vs Bezier curve",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D078",
+  "paper": "NONE",
+  "unit": "",
+  "sub": "Raster scan refresh timing",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D079",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "SQL vs NoSQL",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D080",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Functional dependencies / candidate keys",
+  "garbled": true,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D081",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "SQL query result (tuples)",
+  "garbled": true,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D082",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Correlated subquery",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D083",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Codd's rules",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D084",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Multivalued dependency",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D085",
+  "paper": "TECH2",
+  "unit": "",
+  "sub": "Stored procedures",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D086",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Network benefits",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D087",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Star topology",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D088",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Synchronous TDM",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D089",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Ethernet minimum frame size",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D090",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Token bucket traffic shaping",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D091",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Application layer responsibilities",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D092",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Spiral model risk",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D093",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Software faults vs failures",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D094",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "COCOMO model comparison",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D095",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Project scheduling slack time",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D096",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Cyclomatic complexity",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D097",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Risk exposure calculation",
+  "garbled": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D098",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Binary heaps",
+  "garbled": false,
+  "repaired": false,
+  "recovered": true
+ },
+ {
+  "id": "D099",
+  "paper": "TECH3",
+  "unit": "",
+  "sub": "Transmission & propagation delay",
+  "garbled": false,
+  "repaired": false,
+  "recovered": true
+ }
+]

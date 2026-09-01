@@ -1,0 +1,72 @@
+[
+ {
+  "src_file": "computer-science-engineering-paper-i.OCR",
+  "sitting": "Inspector of Legal Metrology, November 2023",
+  "srcKey": "ILM2023",
+  "paper_no": "I",
+  "section": "A",
+  "no": 97,
+  "reason": "fewer-than-2-options",
+  "raw": "What is the primary goal of balancing a binary search tree (BST)? (a) To make the tree taller (d) To increase the number of leaf nodes (c) To maintain a low height and ensure efficient operations (d) To add more branches to the tree"
+ },
+ {
+  "src_file": "computer-scienceengg-paper-i",
+  "sitting": "Inspector of Legal Metrology, December 2018",
+  "srcKey": "ILM2018",
+  "paper_no": "I",
+  "section": "A",
+  "no": 19,
+  "reason": "fewer-than-2-options",
+  "raw": "The height h(A) of a fuzzy set A is defined as h(A) =sup A(x) where x belongs to A. Then the fuzzy set A is called normal when (a) h(A)=0 (b) h(A)<0 (c) h(A)=1 (d) h(A)<1"
+ },
+ {
+  "src_file": "inspector-of-legal-metrology-2010-computer-science-engineering-i",
+  "sitting": "Inspector of Legal Metrology, March 2010",
+  "srcKey": "ILM2010",
+  "paper_no": "I",
+  "section": "A",
+  "no": 35,
+  "reason": "blank-option",
+  "raw": "The total number of edges in a complete graph of n vertices is (a) n (b) n/2 n \uf028 n \uf02d 1\uf029 (c) n2 - 1 (d)"
+ },
+ {
+  "src_file": "inspector-of-legal-metrology-2010-computer-science-engineering-ii",
+  "sitting": "Inspector of Legal Metrology, March 2010",
+  "srcKey": "ILM2010",
+  "paper_no": "II",
+  "section": "A",
+  "no": 117,
+  "reason": "empty-stem",
+  "raw": "C is (a) An assembly language (b) A third generation high level language (c) A machine language (d) None of the above"
+ },
+ {
+  "src_file": "jr-grade-of-mes-electrical-wing-under-pe-deptt-computer-engg-paper-iii",
+  "sitting": "Jr. Grade of MES, P&E Cadre (Electrical Wing), July 2023",
+  "srcKey": "MES2023",
+  "paper_no": "III",
+  "section": "B",
+  "no": 9,
+  "reason": "fewer-than-2-options",
+  "raw": "Consider a source computer (S) transmitting a file of size 106 bits to a destination computer (D) over a network of two routers (R1 and R2) and three links (L1, L2 and L3). L1 connects S to R1;L2 connects R1 to R2; and L3 connects R2 to D. Let each link be of length 100km. Assume signals travel over each link at a speed of 10^8 meters per second. Assume that the link bandwidth on each link is 1Mbp"
+ },
+ {
+  "src_file": "jr-grade-of-mizoram-engineering-service-mes-2015-computer-science-engineering-paper-i.OCR",
+  "sitting": "jr-grade-of-mizoram-engineering-service-mes-2015-computer-science-engineering-paper-i.OCR",
+  "srcKey": "UNKNOWN",
+  "paper_no": "?",
+  "section": "A",
+  "no": 23,
+  "reason": "fewer-than-2-options",
+  "raw": "Fora binary half sub tractor having two inputs A and B, the correct set of logical expressions for the outputs D (=A minus B) and X (= borrow) are (a) D=AB+ AB, X = AB | | | (6) D=AB+AB+AB, X = AB () D=AB+AB, X = 4B | | (d) D=AB+AB, X\u00a5 = AB | |"
+ },
+ {
+  "src_file": "jr-grade-of-mizoram-engineering-service-mes-2015-computer-science-engineering-paper-ii",
+  "sitting": "Jr. Grade of MES, November 2015",
+  "srcKey": "MES2015_CSE",
+  "paper_no": "II",
+  "section": "A",
+  "no": 45,
+  "reason": "blank-option",
+  "raw": "Reflection of a point about x-axis, followed by a counter-clockwise rotation of 90\u00ba, is equivalent to reflection about the line. (a) x = \u2212 y (b) (c) (d)"
+ }
+]

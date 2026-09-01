@@ -1,0 +1,423 @@
+[
+  {
+    "id": "U2c-01",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "General register organization",
+    "def": "A CPU organization in which a bank of general-purpose registers feeds the ALU through two multiplexers and receives the result through a decoder, with one control word selecting both sources, the destination and the operation.",
+    "exp": "In a general register organization the ALU's two inputs come from a register file through two multiplexers (the A bus and the B bus), and the ALU output is routed back to whichever register a decoder selects. Mano's standard example has seven general registers R1-R7 plus an external Input feeding MUX A and MUX B. The control word is 14 bits, split into four fields: SELA (3 bits) picks the A-bus source, SELB (3 bits) the B-bus source, SELD (3 bits) the destination register, and OPR (5 bits) the ALU/shifter operation. Three bits give eight choices, which covers Input plus R1-R7. SELD = 000 means no destination, so the result is discarded and only the status flags are updated: that is how a compare or test instruction is encoded. A microoperation such as R1 <- R2 - R3 is expressed by filling in SELA = R2, SELB = R3, SELD = R1, OPR = SUB. Because every operand lives in a register, an arithmetic instruction carries only register numbers rather than full memory addresses, so it is short and can complete in one clock. The alternative organizations are the single-accumulator (bus-and-AC) design and the stack design. General register organization is what makes two-address and three-address instruction formats practical.",
+    "facts": [
+      "Mano's example control word is 14 bits: SELA(3) + SELB(3) + SELD(3) + OPR(5).",
+      "Three select bits cover eight sources: Input plus R1 through R7.",
+      "SELD = 000 selects 'none', discarding the result while still setting status flags.",
+      "The register file is dual-ported in effect: two operands read out simultaneously on the A and B buses.",
+      "Register-to-register arithmetic needs no memory access, so it typically finishes in one clock cycle.",
+      "The three classic CPU organizations are single-accumulator, general register, and stack."
+    ],
+    "traps": [
+      "The 14-bit figure is specific to Mano's 7-register example. A question that changes the register count changes the field widths - recompute, do not recite 14.",
+      "SELA and SELB select sources, SELD selects a destination; they are separate fields, so R1 <- R1 + R2 is perfectly legal and needs no extra move.",
+      "'General register organization' is not the same as 'RISC'. CISC machines such as the VAX and x86 also have general registers; RISC is about the instruction set, not merely the register bank.",
+      "The decoder on the destination side and the multiplexers on the source side are often swapped in MCQ options - MUX selects an input, decoder enables an output."
+    ],
+    "mnem": "A, B, D, OPR - two sources in, one destination out, one operation code.",
+    "rel": ["Instruction formats", "Stack organization", "RISC vs CISC", "Addressing modes"]
+  },
+  {
+    "id": "U2c-02",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Stack organization: register vs memory",
+    "def": "A stack is a last-in-first-out storage area accessed through a stack pointer register, implemented either as a dedicated block of fast registers (register stack) or as a reserved region of main memory (memory stack).",
+    "exp": "A stack pointer (SP) always holds the address of the top item. Two operations exist: PUSH writes a new item and moves SP; POP reads the top item and moves SP the other way.\n\nRegister stack (Mano's example): 64 words of dedicated storage, so SP is 6 bits and wraps from 63 back to 0. Two flip-flops guard it, FULL and EMTY.\nPUSH: SP <- SP + 1; M[SP] <- DR; if SP = 0 then FULL <- 1; EMTY <- 0.\nPOP: DR <- M[SP]; SP <- SP - 1; if SP = 0 then EMTY <- 1; FULL <- 0.\nThe overflow test is 'SP became 0 again' precisely because the 6-bit counter wraps.\n\nMemory stack: a portion of main memory, with SP a normal CPU register. Conventionally the stack grows toward lower addresses, so:\nPUSH: SP <- SP - 1; M[SP] <- DR.\nPOP: DR <- M[SP]; SP <- SP + 1.\nBounds are checked against limit registers, not FULL/EMTY flags.\n\nThe stack is what makes subroutine call and return, interrupt service and recursion work: CALL pushes the return address, RETURN pops it. It also holds saved registers and local variables. A memory stack is far larger and is the design used in real machines; a register stack is faster but of fixed small depth.",
+    "facts": [
+      "SP points at the current top of stack; PUSH and POP are the only two operations.",
+      "Mano's 64-word register stack uses a 6-bit SP with FULL and EMTY flip-flops.",
+      "In that register stack PUSH increments SP first, then writes: SP <- SP + 1; M[SP] <- DR.",
+      "A memory stack conventionally grows downward: PUSH is SP <- SP - 1 then M[SP] <- DR.",
+      "Stack overflow means pushing onto a full stack; underflow means popping an empty one.",
+      "Subroutine call/return, interrupt context save, and recursion all depend on a stack."
+    ],
+    "traps": [
+      "Direction is not universal. A register stack in Mano grows upward (SP increments on push); a memory stack conventionally grows downward. An exam question must state or imply the convention - read it, do not assume.",
+      "Whether SP is adjusted before or after the memory access differs between 'full' and 'empty' stack conventions. Under the increment-first form the top item is at M[SP]; under decrement-after it is at M[SP+1].",
+      "EMTY is set when SP returns to 0 after a pop, not merely whenever SP = 0 - immediately after initialisation both SP = 0 and EMTY = 1, but after a wraparound push SP = 0 with FULL = 1.",
+      "A stack is not a queue. LIFO, not FIFO - a distractor option will offer 'first in first out'.",
+      "The stack pointer holds an address, not a data item. Options saying 'SP holds the top element' are wrong."
+    ],
+    "mnem": "LIFO = Last In, First Out. Register stack counts up; memory stack counts down.",
+    "rel": ["Reverse Polish notation", "Zero-address instructions", "Subroutine call and return", "General register organization"]
+  },
+  {
+    "id": "U2c-03",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Reverse Polish (postfix) notation",
+    "def": "Reverse Polish notation writes each operator after its two operands, which removes all parentheses and lets an expression be evaluated by a single left-to-right scan using a stack.",
+    "exp": "Three notations exist for a binary operator: infix A + B, prefix (Polish) + A B, postfix (reverse Polish) A B +.\n\nConversion works by respecting precedence and then dropping the brackets:\n(A + B) * (C + D)  ->  A B + C D + *\nA * B + C * D      ->  A B * C D * +\n\nEvaluation rule: scan left to right. On an operand, push it. On an operator, pop the top two values, apply the operator with the deeper value as the left operand, and push the result. At the end exactly one value remains, and that is the answer.\n\nWorked trace of 3 4 + 5 6 + * :\npush 3; push 4; '+' pops 4 and 3, pushes 7; push 5; push 6; '+' pops 6 and 5, pushes 11; '*' pops 11 and 7, pushes 77. Result 77.\n\nThis matters architecturally because it is exactly what a zero-address (stack) machine executes. The compiler converts infix source into RPN, the RPN maps one-for-one onto PUSH/operation instructions, and the hardware needs no operand addresses on arithmetic instructions at all. It also explains why stack machines never need parentheses or a precedence table at run time - the ordering work was done once, at compile time.",
+    "facts": [
+      "Infix A + B, prefix + A B, postfix A B + are the three notations for the same expression.",
+      "Postfix needs no parentheses and no precedence rules at evaluation time.",
+      "(A + B) * (C + D) in postfix is A B + C D + *.",
+      "Evaluation: push operands; on an operator pop two, apply, push the result.",
+      "For a non-commutative operator the second value popped is the left operand: '-' on a stack with 4 on top of 3 gives 3 - 4.",
+      "Postfix is the native form for zero-address stack machines."
+    ],
+    "traps": [
+      "Operand order on subtraction and division is the classic error. In 3 4 -, the answer is -1, not 1: the first-popped value goes on the right.",
+      "Reverse Polish is postfix; plain Polish is prefix. Papers use both names, and an option swapping them is the standard distractor.",
+      "Postfix is not the infix string read backwards. A B + C D + * is not obtained by reversing anything.",
+      "The number of operators in a valid postfix expression of n operands is always n - 1; an expression that fails this cannot be well-formed.",
+      "Do not confuse conversion (done by the compiler, using an operator stack) with evaluation (done at run time, using an operand stack) - they use a stack for different things."
+    ],
+    "mnem": "Postfix = operator posted after its operands; the stack does the bookkeeping.",
+    "rel": ["Stack organization", "Zero-address instructions", "Instruction formats"]
+  },
+  {
+    "id": "U2c-04",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Instruction formats: three- to zero-address",
+    "def": "Instruction formats are classified by how many operand addresses an arithmetic instruction carries - three-address, two-address, one-address (accumulator) or zero-address (stack) - which trades instruction length against program length.",
+    "exp": "Take X = (A + B) * (C + D), where A, B, C, D, X are memory locations.\n\nThree-address (2 operands + explicit destination):\nADD R1, A, B  ;  ADD R2, C, D  ;  MUL X, R1, R2   -> 3 instructions, long instructions.\n\nTwo-address (destination doubles as a source):\nMOV R1, A ; ADD R1, B ; MOV R2, C ; ADD R2, D ; MUL R1, R2 ; MOV X, R1 -> 6 instructions.\n\nOne-address (a single implied accumulator, AC):\nLOAD A ; ADD B ; STORE T ; LOAD C ; ADD D ; MUL T ; STORE X -> 7 instructions, needing a temporary T.\n\nZero-address (stack machine, operands implied to be on the stack):\nPUSH A ; PUSH B ; ADD ; PUSH C ; PUSH D ; ADD ; MUL ; POP X -> 8 instructions, but the arithmetic ones carry no address field at all.\n\nThe pattern is the whole point: fewer addresses per instruction means shorter instructions but more of them, and more memory traffic for temporaries. Three-address code is compact in instruction count and is what compiler intermediate code looks like, but each instruction is wide. Zero-address code has the shortest instructions and maps directly onto reverse Polish notation. RISC machines use a three-address register-register form in which only LOAD and STORE touch memory.",
+    "facts": [
+      "For X = (A+B)*(C+D) the canonical counts are 3, 6, 7 and 8 instructions for three-, two-, one- and zero-address respectively.",
+      "One-address machines use an implied accumulator, so only the second operand is named.",
+      "Zero-address arithmetic instructions have an opcode and no address field; only PUSH and POP carry an address.",
+      "Two-address form destroys one source operand, since the destination is also a source.",
+      "Fewer address fields gives shorter instructions but a longer program - a direct length trade-off.",
+      "RISC uses three-address register-register instructions with a separate LOAD/STORE path to memory."
+    ],
+    "traps": [
+      "In the zero-address count, PUSH and POP are still instructions. Answers of 6 (counting only the arithmetic ones) are wrong - the standard count for this expression is 8.",
+      "The one-address version needs a STORE to a temporary because there is only one accumulator; forgetting it gives 6 instead of 7.",
+      "'Three-address' does not mean three memory addresses. RISC three-address instructions name three registers.",
+      "A different expression gives different counts. X = A*B + C*D or X = (A+B)*C each produce their own numbers - re-derive, never quote 3/6/7/8 blindly.",
+      "Zero-address instructions are shortest per instruction but the program is longest; an option claiming stack machines give the shortest programs is wrong."
+    ],
+    "mnem": "3-6-7-8 for (A+B)*(C+D): three, two, one, zero address - counts go up as address fields go down.",
+    "rel": ["Reverse Polish notation", "Stack organization", "Addressing modes", "RISC vs CISC"]
+  },
+  {
+    "id": "U2c-05",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Addressing modes I: implied to autoincrement",
+    "def": "An addressing mode is the rule the control unit uses to turn the address field of an instruction into the actual location of the operand; implied, immediate, register, register-indirect and autoincrement/autodecrement are the modes that need no memory reference to find the operand.",
+    "exp": "Implied (inherent): the operand is fixed by the opcode itself, so no address field exists. CMA (complement accumulator) implies AC; stack instructions such as ADD on a zero-address machine imply the top two stack words.\n\nImmediate: the address field holds the operand value, not an address. LOAD #500 puts the constant 500 into AC. Fetching it costs no extra memory reference beyond the instruction fetch. Used for initialising constants.\n\nRegister: the operand is in a CPU register named by the instruction. No memory reference at all, fastest mode, shortest field.\n\nRegister indirect: the named register holds the address of the operand. One memory reference is needed. It saves instruction bits because a short register number stands in for a long address.\n\nAutoincrement / autodecrement: register indirect plus an automatic adjustment of the register after (or before) use. Autoincrement is what makes a loop over an array of consecutive words cheap - the pointer advances for free. Autodecrement typically decrements before use, which is exactly the downward-growing stack PUSH.\n\nUsing Mano's numeric example with R1 = 400, memory[400] = 700 and memory[399] = 450: register mode loads 400, register indirect loads 700, autoincrement loads 700 and leaves R1 = 401, autodecrement makes R1 = 399 and loads 450.",
+    "facts": [
+      "Implied mode instructions have no address field; the opcode itself names the operand.",
+      "In immediate mode the operand is part of the instruction, so no operand fetch from memory occurs.",
+      "Register mode requires zero memory references for the operand and is therefore the fastest.",
+      "Register indirect mode requires one memory reference; the register supplies the effective address.",
+      "Autoincrement/autodecrement is register indirect with automatic pointer adjustment, sized to the operand (word, byte).",
+      "Autodecrement usually adjusts before the access, autoincrement after - which is why the pair maps onto stack PUSH and POP."
+    ],
+    "traps": [
+      "Immediate mode has an operand but no effective address. A question asking for 'the effective address in immediate mode' is really asking for the address of the instruction's operand field itself (e.g. 201 in Mano's table), not 500.",
+      "Register mode and register indirect mode differ by exactly one level: in register mode the register holds the data, in register indirect it holds the address.",
+      "Zero-address stack instructions use implied mode, not 'no mode'. The stack top is the implied operand.",
+      "The autoincrement amount is not always 1 - it is the operand size in addressable units, so a word-addressed step may be 2 or 4 bytes.",
+      "Immediate is not the same as direct. Direct still goes to memory once; immediate never does."
+    ],
+    "mnem": "Count the memory references for the operand: implied/immediate/register = 0, register-indirect and direct = 1, indirect = 2.",
+    "rel": ["Addressing modes II", "Instruction formats", "Stack organization", "Effective address"]
+  },
+  {
+    "id": "U2c-06",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Addressing modes II: effective address",
+    "def": "Direct, indirect, relative, indexed and base-register modes all compute an effective address from the instruction's address field, either by using it as-is, by fetching through it, or by adding it to a register.",
+    "exp": "Direct: EA = the address field. One memory reference fetches the operand.\nIndirect: EA = M[address field]. The address field points to a word that holds the real address, so two memory references are needed.\nRelative: EA = PC + address field, where PC has already been incremented past the instruction. The address field is a signed displacement, which keeps branch instructions short and the code position-independent.\nIndexed: EA = XR + address field, where XR is an index register. The address field is the array's base and XR is the element offset that the loop varies.\nBase-register: EA = BR + address field. Here the roles reverse - the base register holds a program-relocation base and the address field is the displacement within the program. Mathematically identical to indexed; the difference is intent, and Mano makes this distinction explicitly.\n\nMano's numeric example, which papers reuse: the LOAD instruction sits at 200 with address field 500 at 201, so PC = 202 after the fetch; R1 = 400, XR = 100. Memory: 399:450, 400:700, 500:800, 600:900, 702:325, 800:300.\nDirect EA = 500, AC = 800. Indirect EA = 800, AC = 300. Relative EA = 202 + 500 = 702, AC = 325. Indexed EA = 100 + 500 = 600, AC = 900.",
+    "facts": [
+      "Direct: EA = address field, one memory reference for the operand.",
+      "Indirect: EA = M[address field], two memory references for the operand.",
+      "Relative: EA = PC + displacement, with PC already pointing at the next instruction.",
+      "Indexed: EA = index register + address field; base-register: EA = base register + displacement.",
+      "Indexed and base-register modes perform the same addition and differ only in which part is the base and which the offset.",
+      "In Mano's standard example relative addressing gives EA = 702 (202 + 500) and indexed gives EA = 600 (100 + 500).",
+      "Relative addressing produces position-independent code and short branch fields."
+    ],
+    "traps": [
+      "Relative mode uses the *incremented* PC. Using 200 instead of 202 in Mano's example gives 700 instead of 702 - and 700 is deliberately a valid-looking memory value, so it appears as a distractor.",
+      "Indirect addressing costs two operand fetches, not one. Questions asking 'how many memory accesses' must count the instruction fetch separately if the wording demands it.",
+      "Indexed and base-register are numerically identical; a question distinguishing them is testing the intent (array traversal vs program relocation), not the arithmetic.",
+      "Direct addressing limits the reachable address space to what fits in the address field - that limitation, not speed, is the reason indirect exists.",
+      "Do not confuse indexed addressing with autoincrement: indexing adds a register to a constant base, autoincrement modifies the pointer register itself."
+    ],
+    "mnem": "Direct = go there. Indirect = go there, then go where it says. Relative = PC + d. Indexed = XR + base.",
+    "rel": ["Addressing modes I", "Instruction formats", "Memory reference instructions", "Program counter"]
+  },
+  {
+    "id": "U2c-07",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "RISC vs CISC",
+    "def": "CISC packs many complex, variable-length, memory-capable instructions into hardware with microprogrammed control, while RISC uses a small set of simple fixed-length register-to-register instructions with hardwired control so that most execute in one cycle.",
+    "exp": "CISC arose when memory was scarce and compilers were weak: a single instruction that could do a memory-to-memory string move made programs small and assembly programming easier. Its cost is complexity - hundreds of instructions, many addressing modes, variable instruction length (1 to 15+ bytes on x86), operands allowed directly in memory, variable cycles per instruction, and a microprogrammed control unit holding a control memory of microinstructions.\n\nRISC took the opposite bet: make instructions so simple that the hardware can be hardwired and pipelined. Typically fewer than about 100 instructions, one fixed length (commonly 32 bits), few addressing modes, a large general register file, and a strict load/store rule - only LOAD and STORE touch memory, everything else is register to register.\n\nThe trade is visible in the classic performance identity:\ntime = (instructions per program) x (cycles per instruction) x (time per cycle).\nCISC minimises the first term; RISC accepts more instructions in exchange for a much lower CPI and a shorter cycle. RISC pushes work onto the compiler, which must schedule registers and fill delay slots.\n\nIn practice the labels have blurred: modern x86 chips decode CISC instructions into RISC-like internal micro-operations, so the external instruction set and the internal engine differ.",
+    "facts": [
+      "RISC: fixed-length instructions, few addressing modes, load/store architecture, large register file, hardwired control, most instructions one cycle.",
+      "CISC: variable-length instructions, many addressing modes, memory operands in arithmetic instructions, microprogrammed control, variable CPI.",
+      "The relevant identity is CPU time = instruction count x CPI x clock period.",
+      "RISC lowers CPI and shortens the clock; CISC lowers instruction count.",
+      "RISC shifts optimisation effort to the compiler.",
+      "Modern x86 implementations translate CISC instructions into internal RISC-style micro-operations."
+    ],
+    "traps": [
+      "'RISC has fewer instructions' is the weakest of its properties and the one most often over-stated. The defining traits are fixed length, load/store, and one-cycle execution - a question asking for the *primary* characteristic usually wants load/store or fixed format.",
+      "RISC programs are generally longer in instruction count and code size, not shorter. An option claiming RISC reduces program size is wrong.",
+      "Hardwired control goes with RISC, microprogrammed control with CISC. The pairing is reversed in distractors constantly.",
+      "'One instruction per cycle' means throughput under pipelining, not that a single instruction finishes in one cycle end to end - a pipelined instruction still has several stages of latency.",
+      "RISC does not mean fewer registers or simpler compilers; it means the opposite of both."
+    ],
+    "mnem": "RISC = Register-to-register, Instructions of one size, Simple control, Compiler does the work.",
+    "rel": ["RISC features and register windows", "Instruction formats", "Pipelining", "Control unit design"]
+  },
+  {
+    "id": "U2c-08",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "RISC features: register windows, load/store",
+    "def": "The characteristic RISC mechanisms are a load/store architecture, single fixed-length instructions that suit pipelining, and overlapped register windows that make procedure calls cheap by passing parameters through shared registers instead of memory.",
+    "exp": "Load/store: only LOAD and STORE reference memory. All arithmetic is register to register, so the decode logic never has to compute a memory operand mid-instruction and every arithmetic instruction takes the same, short path.\n\nFixed length and pipelining: when every instruction is the same width and has its fields in the same bit positions, the fetch stage always knows where the next instruction begins and the decode stage can read register numbers before the opcode is even understood. That regularity is what lets a 4- or 5-stage pipeline issue one instruction per cycle. The costs are the data hazard (an instruction needing a result not yet written back, handled by forwarding or a NOP) and the branch hazard (handled by the delayed branch, where the instruction after a branch executes regardless).\n\nRegister windows: a procedure sees a fixed-size window onto a much larger physical register file. Windows overlap, so the caller's output registers *are* the callee's input registers and parameters need no memory traffic. Mano's worked example: G = 10 global registers, L = 10 local, C = 6 common with each neighbour, W = 4 windows.\nWindow size = L + 2C + G = 10 + 12 + 10 = 32 registers visible.\nTotal registers = G + (L + C) x W = 10 + 16 x 4 = 74.\nOnly when the windows are exhausted must a frame spill to memory.",
+    "facts": [
+      "Load/store architecture: memory is touched only by LOAD and STORE.",
+      "Window size = L + 2C + G; total registers = G + (L + C) x W.",
+      "Mano's example: G=10, L=10, C=6, W=4 gives a 32-register window and 74 registers in total.",
+      "Overlapping windows pass parameters in registers, eliminating memory traffic on procedure call and return.",
+      "Fixed-length instructions with uniform field positions are what make deep pipelining practical.",
+      "The delayed branch executes the instruction in the slot after the branch regardless of the outcome; the compiler fills it usefully or with a NOP."
+    ],
+    "traps": [
+      "In the window-size formula C is counted twice (L + 2C + G) because each window overlaps a neighbour on both sides, but in the total-registers formula it is counted once per window (G + (L+C)W). Mixing the two is the standard arithmetic slip.",
+      "Global registers G are shared by every window and are added once, not once per window.",
+      "Register windows are a SPARC-family feature, not a universal RISC requirement - MIPS and ARM have no register windows. Do not treat 'RISC' and 'register windows' as synonyms.",
+      "Register windows reduce call overhead; they do not eliminate spilling. A call chain deeper than W forces a memory spill.",
+      "A delayed branch slot is executed whether or not the branch is taken - the trap is assuming it is skipped when the branch is taken."
+    ],
+    "mnem": "Window = L + 2C + G (overlap on both sides); Total = G + (L+C)W (globals once, the rest per window).",
+    "rel": ["RISC vs CISC", "Pipelining", "Stack organization", "Subroutine call and return"]
+  },
+  {
+    "id": "U2c-09",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Peripheral devices and the I/O subsystem",
+    "def": "Peripheral devices are the input, output and secondary-storage units attached to a computer through interface circuits, and together with those interfaces and the I/O bus they form the I/O subsystem that connects the electronic CPU to the outside world.",
+    "exp": "Peripherals split three ways. Input devices: keyboard, mouse, scanner, microphone, card and tape readers in the older textbook idiom. Output devices: monitor (CRT/LCD), printer (impact and non-impact - dot matrix, inkjet, laser), plotter, speaker. Storage devices, which are both: magnetic disk, magnetic tape, optical disc, solid-state drive.\n\nThe defining property of a peripheral is that it is electromechanical or electromagnetic, while the CPU and memory are purely electronic. That single fact drives everything else in this unit. A keystroke arrives at a few characters per second; a disk delivers megabytes per second; the CPU executes an instruction in nanoseconds. Any direct connection would waste enormous amounts of CPU time.\n\nSo peripherals are never wired to the CPU directly. Each has an interface unit that sits on the I/O bus, holds data in registers, reports state through a status register, and accepts commands through a control register. The CPU addresses interfaces, not devices.\n\nA further distinction the papers use: devices communicating with the CPU in binary form (disk, tape, other computers) versus devices needing code conversion, where characters are represented in ASCII and the interface must translate between the device's serial character stream and the CPU's parallel word.",
+    "facts": [
+      "Peripherals are classified as input, output, or storage (which is both).",
+      "Peripherals are electromechanical or electromagnetic; the CPU and memory are electronic.",
+      "Every peripheral connects through an interface unit rather than directly to the CPU.",
+      "ASCII is the standard alphanumeric code used for character-oriented peripherals; a 7-bit code giving 128 characters.",
+      "Printers divide into impact (dot matrix, line) and non-impact (inkjet, laser, thermal) types.",
+      "The CPU addresses an interface, not the physical device."
+    ],
+    "traps": [
+      "A disk is not simply an 'output device' - storage devices are both input and output, and single-classification options are wrong.",
+      "The speed problem is not that peripherals are slow in absolute terms but that the *mismatch* with the CPU is huge and variable; that variability is why status flags exist.",
+      "ASCII proper is 7 bits (128 codes); the 8-bit form is extended ASCII. An option saying 'ASCII is an 8-bit code' is at best imprecise.",
+      "The monitor is an output device even though it is part of an interactive terminal - only the keyboard half is input.",
+      "Interface and device driver are different things: the interface is hardware on the I/O bus, the driver is software in the operating system."
+    ],
+    "mnem": "",
+    "rel": ["Necessity of interfacing", "I/O interface unit", "Modes of I/O transfer", "Asynchronous serial transfer"]
+  },
+  {
+    "id": "U2c-10",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Necessity of interfacing",
+    "def": "An interface is needed because peripherals differ from the CPU in operating speed, electrical signal levels, data word format and character code, and an interface unit resolves each of those mismatches so the two can be connected.",
+    "exp": "There are four standard reasons, and exam answers are marked on naming all four.\n\n1. Speed mismatch. Peripherals are electromechanical and slow; the CPU is electronic and fast, and the rates differ by many orders of magnitude. Data transfer therefore has to be synchronised, which is what the status flag and the handshake exist for.\n\n2. Signal mismatch. Peripheral signal levels, voltages and currents differ from the logic levels on the CPU bus. The interface provides level conversion, buffering and drive capability so the bus is not loaded or damaged.\n\n3. Word format / data-unit mismatch. Many peripherals move data serially, one bit at a time; the CPU moves parallel words of 16, 32 or 64 bits. The interface performs serial-to-parallel and parallel-to-serial conversion and assembles bytes into words.\n\n4. Code mismatch. A device may use ASCII characters or its own encoding while the CPU works in binary words; the interface converts.\n\nOn top of these it supplies control and timing: it decodes the device address off the I/O bus, latches commands from the CPU, and reports device state. Without the interface the CPU would have to know the electrical and timing behaviour of every device model - so the interface is also what makes devices interchangeable.",
+    "facts": [
+      "The four classic mismatches are speed, signal level, data word format, and data code.",
+      "The interface performs serial-to-parallel and parallel-to-serial conversion for serial devices.",
+      "It supplies buffering and electrical level conversion between the device and the bus.",
+      "It decodes the device address from the I/O bus so only the addressed interface responds.",
+      "It synchronises the fast CPU with the slow peripheral using status flags and handshake lines.",
+      "It isolates the CPU from device-specific timing, which is what makes devices interchangeable."
+    ],
+    "traps": [
+      "Speed mismatch is the most-cited reason but it is not the only one; a question asking to 'list the reasons' expects all four, and answering only 'speed' loses marks.",
+      "Buffering in the interface stores a word or a few bytes for timing purposes - it is not a cache and does not exist to improve hit rates.",
+      "Interfacing is a hardware function. Confusing it with the device driver (software) or the file system is a common conceptual slip.",
+      "Code conversion is only needed for character-oriented devices; devices that already speak binary (disk, tape, another computer) need no code conversion but still need the other three.",
+      "The interface does not remove the speed mismatch, it manages it. Only DMA removes the CPU from the per-word path."
+    ],
+    "mnem": "Four mismatches: Speed, Signal, Format, Code.",
+    "rel": ["Peripheral devices", "I/O interface unit", "Asynchronous data transfer", "Modes of I/O transfer"]
+  },
+  {
+    "id": "U2c-11",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "I/O interface unit and the I/O bus",
+    "def": "An I/O interface unit contains data, status and control registers plus address-decoding logic, and connects on one side to the I/O bus shared by all devices and on the other side to a single peripheral.",
+    "exp": "The I/O bus carries three groups of lines: data lines (bidirectional, the actual bytes), address lines (which interface is being talked to) and control lines (read, write, and command strobes). Every interface is wired to all of them.\n\nAddress decoding. Each interface has an address decoder driving a chip-select (CS) input. When the CPU puts a device address on the bus, exactly one interface's decoder matches and asserts CS; the rest ignore the transaction and keep their bus drivers in high impedance. Low-order address bits usually go to register-select lines (RS1, RS0) which choose *which* register inside the selected interface is being accessed.\n\nRegisters inside the interface, and what each is for:\n- Data register (often separate input and output buffers) holds the byte in transit.\n- Status register holds flag bits the CPU reads: 'data ready', 'busy', 'error', 'end of transfer'. The CPU polls these.\n- Control (command) register holds bits the CPU writes: start read, start write, set mode, enable interrupt.\n\nA typical access is therefore: CPU places the interface address and a register select on the bus, asserts read or write, and one register is transferred. Programmed I/O is nothing more than a loop over this pattern - read the status register until the ready flag is set, then read the data register.",
+    "facts": [
+      "The I/O bus consists of data lines, address lines and control lines.",
+      "Each interface has an address decoder driving chip select (CS); only the addressed interface responds.",
+      "Register-select lines (e.g. RS1, RS0) pick which internal register of the selected interface is accessed.",
+      "The three functional registers are data, status and control/command.",
+      "Status bits are read by the CPU (ready, busy, error); control bits are written by the CPU (start, mode, interrupt enable).",
+      "Unselected interfaces hold their bus drivers in the high-impedance state so the shared bus is not corrupted."
+    ],
+    "traps": [
+      "Status and control registers are opposite in direction: the CPU reads status and writes control. Options that swap them are common.",
+      "Chip select picks the interface; register select picks the register inside it. They are different fields of the same address.",
+      "The interface has an address; the peripheral itself does not appear on the bus at all.",
+      "The data register is a buffer of one or a few bytes, not a queue of the whole transfer - assuming otherwise breaks the reasoning about why handshaking is needed.",
+      "'Interface' in this unit means the hardware unit; in an OS question the same word may mean an API. Read which subject the question sits in."
+    ],
+    "mnem": "Three registers, three directions: Data both ways, Status in, Control out.",
+    "rel": ["Necessity of interfacing", "Isolated vs memory-mapped I/O", "Programmed I/O", "Asynchronous data transfer"]
+  },
+  {
+    "id": "U2c-12",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Isolated vs memory-mapped I/O",
+    "def": "Isolated (I/O-mapped) I/O gives I/O interfaces their own address space and dedicated IN/OUT instructions, while memory-mapped I/O assigns interface registers addresses inside the ordinary memory space so normal load and store instructions reach them.",
+    "exp": "Isolated I/O. The CPU has separate control lines - a memory read/write pair and an I/O read/write pair - so the same address value can mean a memory location or a device register depending on which control line is active. Distinct instructions (IN, OUT on x86) are needed. Advantages: the full memory address space is preserved for memory; I/O addresses are short, so decoding is cheap; I/O instructions are visibly distinct in the code and can be made privileged. Disadvantage: only the limited I/O instruction set can act on device registers - typically transfers must go via the accumulator, and you cannot, say, add directly to a device register.\n\nMemory-mapped I/O. One address space is split between memory and I/O; some range of addresses is decoded to interfaces. No special instructions exist, and no separate control lines are needed. Advantages: the entire instruction set - load, store, add, bit test, addressing modes - applies to device registers, which makes the code simpler and more powerful. Disadvantage: the addresses used by I/O are taken away from usable memory, and the address decoder must examine the full-width address.\n\nMotorola 68000 and most RISC machines use memory-mapped I/O only; x86 supports both.",
+    "facts": [
+      "Isolated I/O uses a separate I/O address space plus dedicated IN/OUT instructions and separate I/O read/write control lines.",
+      "Memory-mapped I/O places interface registers in the memory address space and uses ordinary load/store instructions.",
+      "Memory-mapped I/O consumes part of the memory address space; isolated I/O does not.",
+      "Memory-mapped I/O allows the full instruction set and all addressing modes to operate on device registers.",
+      "Isolated I/O needs fewer address lines decoded per device, so decoding logic is simpler.",
+      "x86 supports both schemes; the 68000 and most RISC designs support only memory-mapped I/O."
+    ],
+    "traps": [
+      "'Isolated I/O' and 'I/O-mapped I/O' and 'port-mapped I/O' are the same thing under three names - all three appear in options.",
+      "Memory-mapped I/O is not slower. Its cost is address space, not time; an option claiming a speed penalty is wrong in general.",
+      "In isolated I/O the same numeric address can legitimately exist in both spaces without conflict, because the control lines disambiguate. Saying they would collide is wrong.",
+      "Memory-mapped I/O has nothing to do with virtual memory or with memory-mapped files, despite the similar name.",
+      "The distinction is about addressing, not about transfer mode. Both schemes can be driven by programmed I/O, interrupts, or DMA."
+    ],
+    "mnem": "Isolated = separate space, special instructions. Memory-mapped = one space, ordinary instructions.",
+    "rel": ["I/O interface unit", "Programmed I/O", "Instruction formats", "Peripheral devices"]
+  },
+  {
+    "id": "U2c-13",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Asynchronous transfer: strobe, handshake",
+    "def": "Asynchronous data transfer between two units with independent clocks is coordinated either by a strobe - a single timing pulse from one side - or by handshaking, in which a second line carries an acknowledgement back so both sides confirm the transfer.",
+    "exp": "Strobe control uses one control line. In source-initiated transfer the source puts data on the bus, waits for it to settle, then pulses the strobe; the destination latches the data on the strobe. In destination-initiated transfer the destination pulses the strobe to request data and the source responds. Either way there is exactly one control signal and no reply.\n\nThe defect is obvious once stated: the source never learns whether the destination actually took the data, and the destination never learns whether the source really placed valid data. If the destination was busy, the byte is lost silently. The strobe pulse width has to be chosen for the worst-case device, which wastes time on fast ones.\n\nHandshaking adds a reply line, so there are two control signals. Source-initiated handshaking uses 'data valid' from the source and 'data accepted' from the destination. The sequence is: source places data and asserts data valid; destination accepts and asserts data accepted; source removes data and deasserts data valid; destination deasserts data accepted; both are back at rest. This four-edge cycle is the classic four-phase (fully interlocked) handshake.\n\nBecause every step waits on the other side, the transfer runs at the speed of the slower unit automatically and a failure is detectable - a missing reply within a timeout tells the CPU the device is not responding.",
+    "facts": [
+      "Strobe control uses one control line; handshaking uses two.",
+      "Either the source or the destination may initiate, giving four standard cases in total.",
+      "Strobe gives no acknowledgement, so a lost transfer is undetectable.",
+      "Source-initiated handshaking uses 'data valid' (source to destination) and 'data accepted' (destination to source).",
+      "The fully interlocked handshake has four events per byte: valid asserted, accepted asserted, valid removed, accepted removed.",
+      "Handshaking self-adjusts to the slower unit and makes a non-responding device detectable by timeout."
+    ],
+    "traps": [
+      "Handshaking is reliable but slower per byte than a strobe, because of the round trips. An option claiming handshaking is faster is wrong - it is safer.",
+      "Asynchronous here means no shared clock between the two units. It does not mean 'no timing signals' - the strobe and handshake lines are timing signals.",
+      "Do not confuse the source-initiated and destination-initiated versions: in one the data goes with the strobe, in the other the strobe is a request that precedes the data.",
+      "Handshaking is a hardware protocol between interface and device. It is not the same as the polling loop in programmed I/O, which is software.",
+      "A timeout is what turns a hung handshake into an error report; without it a fully interlocked handshake will simply wait forever."
+    ],
+    "mnem": "Strobe = one line, shout and hope. Handshake = two lines, shout and get an answer.",
+    "rel": ["Necessity of interfacing", "I/O interface unit", "Asynchronous serial transfer", "Programmed I/O"]
+  },
+  {
+    "id": "U2c-14",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Serial transfer, UART and baud rate",
+    "def": "Asynchronous serial transmission sends one character at a time framed by a start bit and one or more stop bits so the receiver can resynchronise on every character, and a UART performs the parallel-serial conversion at each end.",
+    "exp": "The line rests in the mark (logic 1) state. A character is framed as: one start bit (logic 0, the space), then the data bits least-significant first (5 to 8 of them, commonly 7 or 8), then an optional parity bit, then 1, 1.5 or 2 stop bits (logic 1). The falling edge of the start bit tells the receiver when to start sampling; the stop bits guarantee at least one bit time of idle so the next start edge is unambiguous. This is why the scheme tolerates a gap of any length between characters - resynchronisation happens per character, not per block.\n\nBaud rate is the number of signal (symbol) changes per second on the line. For simple binary signalling one symbol carries one bit, so baud equals bits per second; with multilevel modulation one symbol carries several bits and the two numbers differ.\n\nStandard worked example: 8 data bits + 1 start + 2 stop = 11 bits per character. At 10 characters per second the line rate is 110 baud.\n\nThe UART (universal asynchronous receiver-transmitter) holds a transmitter register, a receiver register, a shift register each way, and status flags. UAR/T is the older textbook spelling. Transmission direction is classified as simplex (one way only), half-duplex (both ways, one at a time) or full-duplex (both ways simultaneously).",
+    "facts": [
+      "Frame = 1 start bit (0), 5-8 data bits, optional parity, 1/1.5/2 stop bits (1); line idles at 1.",
+      "Data bits are sent least significant bit first.",
+      "Baud rate = signal changes per second; it equals bits per second only when one symbol carries one bit.",
+      "8 data + 1 start + 2 stop = 11 bits/character; 10 characters per second is 110 baud.",
+      "A UART converts parallel to serial for transmission and serial to parallel on reception.",
+      "Simplex = one direction only; half-duplex = both directions but not at once; full-duplex = both directions simultaneously."
+    ],
+    "traps": [
+      "Baud is not bits per second in general. Only for binary (one bit per symbol) signalling are they equal - a question giving a multilevel scheme is testing exactly this.",
+      "Efficiency questions must count the framing overhead: 11 bits carry 8 data bits, so the useful throughput is 8/11 of the baud rate, not all of it.",
+      "The start bit is a 0 and the stop bit is a 1. Reversing them is the standard distractor, and it matters because the idle line is 1.",
+      "Half-duplex is not the same as full-duplex at half rate; it means the direction is switched in time.",
+      "Asynchronous serial transmission does synchronise - once per character, from the start-bit edge. 'No synchronisation at all' is wrong; what is absent is a shared continuous clock.",
+      "1.5 stop bits is a real setting (used with 5-bit codes), so an option offering it is not automatically wrong."
+    ],
+    "mnem": "Start low, stop high; the line sleeps at 1.",
+    "rel": ["Asynchronous transfer: strobe and handshaking", "Necessity of interfacing", "I/O interface unit", "Peripheral devices"]
+  },
+  {
+    "id": "U2c-15",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Programmed I/O and interrupt-driven I/O",
+    "def": "Programmed I/O has the CPU poll a device's status flag in a loop and move each word itself, while interrupt-driven I/O lets the device signal the CPU when it is ready so the CPU can do other work in between; in both, every word still passes through a CPU register.",
+    "exp": "Programmed I/O loop: read the status register; test the ready flag; if not ready, branch back; when ready, read the data register into a CPU register; store it to memory; decrement the count; repeat. The CPU is fully occupied for the entire transfer and most of that time is spent in the wait loop - this is busy-waiting. It is simple and needs no extra hardware, so it suits slow, infrequent devices and simple controllers.\n\nInterrupt-driven I/O removes the wait loop. The interface asserts an interrupt request line when it is ready; the CPU finishes the current instruction, saves the PC (and status) on the stack, and branches to a service routine that transfers the word, then returns. Between interrupts the CPU runs other programs.\n\nFinding the source. Non-vectored: the CPU branches to one fixed address and the routine polls each interface to find who asked - software polling, simple but slow, and polling order defines priority. Vectored: the interrupting device supplies a vector (an identifying number or address) so the CPU jumps straight to the right routine.\n\nPriority. Daisy chaining wires the interrupt-acknowledge signal serially through the interfaces (PI in, PO out): a device that did not request passes the acknowledge on, a device that did request blocks it and puts its vector on the bus. Physically nearest the CPU therefore means highest priority. Parallel priority uses a register of request bits, a mask register, and a priority encoder.",
+    "facts": [
+      "Programmed I/O busy-waits on a status flag; the CPU does nothing else during the transfer.",
+      "In both programmed and interrupt-driven I/O the data passes through a CPU register on its way to memory.",
+      "An interrupt causes the CPU to save the PC and status on the stack and branch to a service routine.",
+      "Vectored interrupts: the device supplies an address or vector number; non-vectored: a fixed location plus software polling.",
+      "In a daisy chain the device electrically closest to the CPU has the highest priority, because it can block the acknowledge signal from propagating.",
+      "Parallel priority interrupt hardware uses an interrupt register, a mask register and a priority encoder.",
+      "Maskable interrupts can be disabled; non-maskable interrupts (e.g. power failure) cannot."
+    ],
+    "traps": [
+      "Interrupt-driven I/O improves CPU *utilisation*, not the per-word transfer rate. Each word still costs a CPU register move plus context save and restore - so it is not automatically faster per byte than a tight programmed-I/O loop, and for a very fast device the interrupt overhead can dominate.",
+      "Daisy chain priority is by physical position on the acknowledge chain, not by device address or by any programmable number. Options offering 'the device with the lowest address' are wrong.",
+      "Polling and interrupt are the two ways of *noticing* readiness; programmed I/O and DMA are about *who moves the data*. A question mixing the two axes is testing whether you keep them separate.",
+      "The CPU responds to an interrupt after completing the instruction in progress, not in the middle of it.",
+      "'Software polling' to identify an interrupt source still happens after an interrupt - do not mistake it for programmed I/O.",
+      "A masked interrupt is deferred or ignored, not lost from the request register; a mask bit hides the request, it does not clear it."
+    ],
+    "mnem": "Programmed I/O asks 'ready yet?'; interrupts get told.",
+    "rel": ["Direct Memory Access", "I/O interface unit", "Stack organization", "Isolated vs memory-mapped I/O"]
+  },
+  {
+    "id": "U2c-16",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Direct Memory Access (DMA)",
+    "def": "DMA lets an I/O interface transfer data directly between the peripheral and main memory without passing it through the CPU, by having a DMA controller take control of the system buses for the duration of the transfer.",
+    "exp": "Handover. The DMA controller asserts bus request (BR). The CPU finishes its current bus cycle, puts its address, data and read/write lines into the high-impedance (tri-state) condition, and asserts bus grant (BG). The DMA controller is now bus master; it drives the address bus and the memory read/write lines itself. When the transfer ends it drops BR, the CPU drops BG and resumes.\n\nDMA controller registers: an address register (memory address, auto-incremented after each word), a word-count register (auto-decremented; reaching zero ends the transfer), and a control register (direction, mode). Completion normally raises an interrupt to tell the CPU the block has arrived.\n\nTwo transfer modes.\n- Cycle stealing (single-word / one-word-at-a-time): the controller takes the bus for one memory cycle, transfers one word, and releases it. It 'steals' individual memory cycles from the CPU. The CPU is not interrupted and its program is not suspended - it merely runs slower because occasionally a bus cycle it wanted is unavailable.\n- Burst (block) mode: the controller holds the bus until the whole block is transferred. Fastest per block, but the CPU is locked off the bus meanwhile.\n\nWhy DMA is fastest: the data never enters a CPU register, and no instruction is fetched, decoded or executed per word. Speed order for the three modes is programmed I/O < interrupt-driven I/O < DMA.",
+    "facts": [
+      "DMA transfers data directly between the peripheral interface and memory, bypassing CPU registers.",
+      "Bus handover uses bus request (BR) and bus grant (BG); the CPU tri-states its bus drivers while DMA is master.",
+      "The DMA controller holds an address register, a word-count register and a control register.",
+      "The address register increments and the word count decrements per word; word count = 0 ends the transfer and typically raises an interrupt.",
+      "Cycle stealing transfers one word per bus acquisition; burst mode holds the bus for the whole block.",
+      "Speed ranking: programmed I/O < interrupt-driven I/O < DMA.",
+      "DMA suits high-speed block devices such as disks; character devices rarely justify it."
+    ],
+    "traps": [
+      "Cycle stealing steals a *memory/bus cycle*, not a CPU interrupt and not a whole instruction. The CPU program is not suspended and no context is saved - it is simply slowed. Options describing cycle stealing as 'interrupting the CPU' are wrong.",
+      "DMA does not eliminate CPU involvement entirely. The CPU still initialises the controller (start address, count, direction) and still services the completion interrupt - it is removed from the per-word path only.",
+      "Burst mode is faster than cycle stealing for a single block, but it starves the CPU of the bus; cycle stealing gives better overall system throughput on a shared machine. 'Which is faster' and 'which is better' have different answers.",
+      "During DMA the CPU's buses are in the high-impedance state, not driven low and not disconnected physically. Tri-state is the exact term the papers use.",
+      "DMA is a transfer mode, not an addressing scheme; it is independent of whether the machine uses isolated or memory-mapped I/O.",
+      "An I/O processor or channel is a further step beyond DMA (it executes its own I/O program), so in a question that includes IOP as an option DMA is no longer the top of the list."
+    ],
+    "mnem": "BR then BG, then the buses go tri-state: cycle stealing takes one cycle, burst takes them all.",
+    "rel": ["Programmed I/O and interrupt-driven I/O", "I/O interface unit", "Peripheral devices", "Isolated vs memory-mapped I/O"]
+  }
+]

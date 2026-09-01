@@ -1,0 +1,398 @@
+[
+ {
+  "id": "N0113",
+  "ans": "B",
+  "conf": "high",
+  "exp": "Variable partitions size each region exactly to the process it holds, eliminating the internal fragmentation that fixed partitions suffer, so memory is used more efficiently.",
+  "sub": "Memory management",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0114",
+  "ans": "B",
+  "conf": "high",
+  "exp": "The working set is the set of pages a process has actively referenced over its most recent window of execution, used to decide how much memory it needs resident to avoid thrashing.",
+  "sub": "Virtual memory",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0115",
+  "ans": "B",
+  "conf": "medium",
+  "exp": "I/O buffering holds data/requests temporarily so producer and consumer speeds can be decoupled and synchronized, rather than literally speeding up or slowing down the I/O itself; kept at medium confidence since 'increase speed' is a plausible-sounding distractor.",
+  "sub": "I/O management",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0116",
+  "ans": "D",
+  "conf": "high",
+  "exp": "SSTF (Shortest Seek Time First) greedily services whichever pending request is closest to the current head position, directly minimizing seek time for the next move (though not necessarily overall). The trailing 'at' in the option is OCR noise.",
+  "sub": "Disk scheduling",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0117",
+  "ans": "B",
+  "conf": "medium",
+  "exp": "Process migration is the act of moving a process (and its state) from one CPU/node to another, typically for load balancing; option B is the only one that explicitly describes 'moving' a process, so it best matches the term, though it is worded loosely with 'memory partitions'. Kept medium confidence against option C, which describes the purpose (load balancing) rather than the migration action itself.",
+  "sub": "Process management",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0118",
+  "ans": "C",
+  "conf": "high",
+  "exp": "Round Robin is defined by giving each process a fixed time quantum/slice before preempting it in favour of the next process in the ready queue.",
+  "sub": "CPU scheduling",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0119",
+  "ans": "B",
+  "conf": "high",
+  "exp": "A race condition occurs when two or more processes access and manipulate shared data concurrently and the final result depends on the unpredictable order of execution.",
+  "sub": "Critical section",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0120",
+  "ans": "C",
+  "conf": "high",
+  "exp": "Compaction shuffles allocated memory together to merge scattered free blocks into one contiguous block, fixing external fragmentation.",
+  "sub": "Memory management",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0121",
+  "ans": "B",
+  "conf": "high",
+  "exp": "Thrashing is the state where a process (or system) spends more time paging pages in and out than doing useful work, i.e. excessive page replacement that tanks performance.",
+  "sub": "Virtual memory",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0122",
+  "ans": "C",
+  "conf": "high",
+  "exp": "The elevator (SCAN) algorithm sweeps the disk arm in one direction servicing all requests along the way, then reverses at the end, minimizing back-and-forth seeking -- like an elevator.",
+  "sub": "Disk scheduling",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0123",
+  "ans": "C",
+  "conf": "high",
+  "exp": "The ready queue holds processes that are loaded in memory and waiting for their turn on the CPU, as opposed to waiting on I/O or already finished.",
+  "sub": "Process states",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0124",
+  "ans": "C",
+  "conf": "high",
+  "exp": "A context switch is the act of saving the state of the currently running process and restoring another process's state so the CPU can run it instead.",
+  "sub": "Process management",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0125",
+  "ans": "B",
+  "conf": "high",
+  "exp": "Segmentation divides a program's address space into logically meaningful, variable-sized units (code, data, stack, etc.), unlike paging's fixed-size frames. The trailing 'a a' in option D is stray OCR noise.",
+  "sub": "Memory management",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0126",
+  "ans": "C",
+  "conf": "high",
+  "exp": "System call interposition means intercepting a process's system calls (e.g. for sandboxing, logging, or security policies) to add or alter their behaviour.",
+  "sub": "OS design",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0128",
+  "ans": "C",
+  "conf": "high",
+  "exp": "A device driver's job is to translate generic OS I/O requests into the device-specific operations and communication protocol a particular piece of hardware understands.",
+  "sub": "I/O management",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0130",
+  "ans": "C",
+  "conf": "high",
+  "exp": "Preemption is the scheduler forcibly suspending a running process (even though it hasn't finished or blocked) so another process can run.",
+  "sub": "CPU scheduling",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0131",
+  "ans": "B",
+  "conf": "medium",
+  "exp": "Starvation is a process being repeatedly passed over and left waiting for the CPU (or another resource) indefinitely; option D's 'very less CPU time' is a softer restatement of the same idea, which is why this is kept at medium rather than high confidence.",
+  "sub": "CPU scheduling",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0132",
+  "ans": "C",
+  "conf": "high",
+  "exp": "A cluster is the smallest unit of disk space that a file system allocates to a file, usually made up of one or more physical sectors.",
+  "sub": "File systems",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0133",
+  "ans": "A",
+  "conf": "high",
+  "exp": "This is the standard Silberschatz description of the per-process current-file-position pointer: because each process reading/writing the same file tracks its own offset, that file pointer must be kept per-process rather than in the shared on-disk file attributes.",
+  "sub": "File systems",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0134",
+  "ans": "B",
+  "conf": "high",
+  "exp": "An exclusive (write) lock allows only one process to hold it at a time, mirroring how only one writer may modify a resource; a shared lock permits multiple simultaneous readers instead. Trailing ', Be' in option D is OCR noise.",
+  "sub": "File systems",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0135",
+  "ans": "D",
+  "conf": "high",
+  "exp": "A file's extension (or a stored file-type attribute) is what the OS uses to tell what kind of file it is and which operations are valid on it. Option D's text is heavily corrupted because an entire separate question (about buffering/blocking of records) got glued onto it during OCR, but the intended choice, 'Extension', is still recoverable.",
+  "sub": "File systems",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0136",
+  "ans": "C",
+  "conf": "high",
+  "exp": "The standard prevention technique for hold-and-wait requires that a process never hold a resource while requesting another -- either request everything up front or release what it holds before asking for more, matching option C.",
+  "sub": "Deadlock prevention",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N1169",
+  "ans": "B",
+  "conf": "high",
+  "exp": "Mutual exclusion for a critical section means at most one process may be executing inside it at any time.",
+  "sub": "Critical section",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N1170",
+  "ans": "A",
+  "conf": "high",
+  "exp": "Preemption is the OS forcibly taking the CPU away from a program that is currently executing, before it voluntarily yields.",
+  "sub": "CPU scheduling",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N1171",
+  "ans": "C",
+  "conf": "high",
+  "exp": "Round-Robin's fixed time-quantum rotation gives every user/process a fair, regular share of the CPU, which is why it is the standard choice for time-shared interactive systems.",
+  "sub": "CPU scheduling",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N1172",
+  "ans": "C",
+  "conf": "high",
+  "exp": "A pure-paging page table entry stores the frame number and a valid/invalid (present) bit, plus protection bits; where a page currently resides on disk when it is not in memory is tracked in a separate backing-store/swap data structure, not inside the page table entry itself.",
+  "sub": "Page replacement",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N1173",
+  "ans": "C",
+  "conf": "high",
+  "exp": "LRU, FIFO and Optimal are all real, named page replacement policies; 'RU (Recurrently used)' is not a recognised algorithm.",
+  "sub": "Page replacement",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N1174",
+  "ans": "B",
+  "conf": "high",
+  "exp": "Virtual memory is the general technique that lets a program execute even though it is not fully resident in physical memory, with demand paging as one specific mechanism implementing it.",
+  "sub": "Virtual memory",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N1175",
+  "ans": "C",
+  "conf": "high",
+  "exp": "Preparing to read a block means moving the disk arm to the right cylinder (seek time) and waiting for the target sector to rotate under the head (rotational latency); actual data transfer happens after this preparation, so it is latency plus seek time.",
+  "sub": "Disk scheduling",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N1176",
+  "ans": "B",
+  "conf": "high",
+  "exp": "The Banker's Algorithm checks whether granting a request keeps the system in a safe state before allocating, which is the definition of deadlock avoidance (as opposed to prevention, detection, or recovery).",
+  "sub": "Deadlock avoidance",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N1177",
+  "ans": "D",
+  "conf": "high",
+  "exp": "All three descriptions -- a program in execution, an instance of a running program, and the entity scheduled/executed by the CPU -- are standard, equivalent definitions of a process.",
+  "sub": "Process management",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N1178",
+  "ans": "A",
+  "conf": "medium",
+  "exp": "Coordinating the activities of multiple processes by exchanging information is the role of process synchronization; kept at medium confidence because the more precise textbook term for 'exchange of information' is inter-process communication, which isn't offered as a choice.",
+  "sub": "Process synchronization",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N1179",
+  "ans": "C",
+  "conf": "medium",
+  "exp": "Deadlock has four necessary conditions (mutual exclusion, hold-and-wait, no preemption, circular wait); of these, directly outlawing circular wait -- e.g. by imposing a total ordering on resource acquisition -- is commonly presented as the single most 'direct' and practical prevention technique, unlike attacking mutual exclusion (often impossible) or hold-and-wait/no-preemption (which need broader protocols). Kept medium confidence since 'direct method' is not a precise, universally-defined term.",
+  "sub": "Deadlock prevention",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N1181",
+  "ans": "C",
+  "conf": "high",
+  "exp": "Shortest-Job-First is provably optimal for minimizing average waiting time among non-preemptive scheduling algorithms when burst times are known in advance.",
+  "sub": "CPU scheduling",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N1182",
+  "ans": "D",
+  "conf": "high",
+  "exp": "A PCB holds all bookkeeping needed to manage a process, including its process number, open file list and memory limits, so 'all of these' is correct.",
+  "sub": "Process management",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N1183",
+  "ans": "B",
+  "conf": "high",
+  "exp": "Swapping is moving a process out of main memory to backing store to free up space, and later bringing it back in to resume execution.",
+  "sub": "Memory management",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N1030",
+  "ans": "B",
+  "conf": "medium",
+  "exp": "A single shared 'turn' variable can enforce strict alternation but fails the progress requirement; the standard software solution that actually satisfies mutual exclusion, progress and bounded waiting for two processes (Peterson's algorithm) needs two shared variables -- 'turn' and a flag array. Kept medium confidence since some sources count the minimal (progress-violating) solution as needing only one variable.",
+  "sub": "Critical section",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N1031",
+  "ans": "B",
+  "conf": "high",
+  "exp": "The CPU's page table base register (PTBR) holds the physical address of the currently running process's page table.",
+  "sub": "Virtual memory",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N1032",
+  "ans": "B",
+  "conf": "high",
+  "exp": "fork()>0 is true only in the parent, which then sleeps for 100 seconds without ever calling wait(). The child (where fork() returns 0) skips the sleep, finishes main() almost immediately, and terminates -- but since its sleeping parent hasn't reaped its exit status, the child sits as a zombie for the duration of the parent's sleep.",
+  "sub": "Process management",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N1033",
+  "ans": "B",
+  "conf": "medium",
+  "exp": "Directory structures are commonly implemented as either a simple linear list or, for faster lookups, a hash table keyed on file name; of the given choices only hash table matches a standard directory-implementation data structure (mount table and process table serve unrelated purposes, and file table usually refers to the per-process/system open-file table, not the directory itself). Kept at medium confidence since 'linear list' -- the other standard answer -- isn't offered.",
+  "sub": "File systems",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N1034",
+  "ans": "B",
+  "conf": "high",
+  "exp": "A PCB holds process-specific bookkeeping like the program counter, registers and stack pointer; the bootstrap program (which loads the OS itself at power-on) has nothing to do with any individual process's PCB.",
+  "sub": "Process management",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N1036",
+  "ans": "B",
+  "conf": "high",
+  "exp": "Semaphores are a general process-synchronization primitive; mutual exclusion and avoiding race conditions are both specific instances of the broader synchronization problems semaphores solve.",
+  "sub": "Semaphores",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N1037",
+  "ans": "C",
+  "conf": "medium",
+  "exp": "Same question as the earlier 'direct method of deadlock prevention' item: attacking circular wait directly (e.g. via a total resource ordering) is the standard answer offered for this phrasing, kept at medium confidence for the same reason -- 'direct method' is not a rigorously defined term across textbooks.",
+  "sub": "Deadlock prevention",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N1038",
+  "ans": "A",
+  "conf": "high",
+  "exp": "Dispatch latency is the time the dispatcher takes to stop the currently running process and start the next one, i.e. the overhead of a context switch.",
+  "sub": "CPU scheduling",
+  "mode": "memorise",
+  "broken": false
+ }
+]

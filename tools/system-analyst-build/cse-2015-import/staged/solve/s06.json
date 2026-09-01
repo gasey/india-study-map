@@ -1,0 +1,484 @@
+[
+ {
+  "id": "N1123",
+  "question": "There are ______ cells in a 4-variable K-map.",
+  "options": {
+   "A": "12",
+   "B": "16",
+   "C": "18",
+   "D": "All of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1124",
+  "question": "It is a circuit, which has a number of input lines and selection lines with one output line",
+  "options": {
+   "A": "Sequential Circuit",
+   "B": "Multiplexer",
+   "C": "Counter",
+   "D": "All of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1180",
+  "question": "Block or Buffer caches are used",
+  "options": {
+   "A": "to improve disk performance",
+   "B": "to handle interrupts",
+   "C": "to increase the capacity of main memory",
+   "D": "to speed up main memory read operation"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1035",
+  "question": "A system program that combines the separately compiled modules of a program into a form suitable for execution",
+  "options": {
+   "A": "Assembler",
+   "B": "Linking loader",
+   "C": "Cross compiler",
+   "D": "None of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0877",
+  "question": "________ is suitable for testing the odd parity of word.",
+  "options": {
+   "A": "AND gate",
+   "B": "OR gate",
+   "C": "NOR gate",
+   "D": "XOR gate"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0878",
+  "question": "Select the combinational logic circuit which produces a specific binary word or number is",
+  "options": {
+   "A": "Encoder",
+   "B": "Multiplexer",
+   "C": "Decoder",
+   "D": "Demultiplexer"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0879",
+  "question": "Why we use demultiplexer?",
+  "options": {
+   "A": "Route the data from a single input to one of many outputs",
+   "B": "Select data from several inputs and route it to a single output",
+   "C": "Perform serial to parallel conversion",
+   "D": "Both (a) & (b)"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0880",
+  "question": "PAL circuit consists of",
+  "options": {
+   "A": "Fixed OR & programmable AND logic",
+   "B": "Programmable OR & Fixed AND Logic",
+   "C": "Fixed OR & fixed AND logic",
+   "D": "Programmable OR & programmable AND logic"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0881",
+  "question": "Which of the following input overrides other?",
+  "options": {
+   "A": "Asynchronous override synchronous",
+   "B": "Synchronous override asynchronous",
+   "C": "Clear input override Present input",
+   "D": "Present input override Clear input"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0882",
+  "question": "Where is the logic set when the transmission line is idle in the asynchronous transmission?",
+  "options": {
+   "A": "Remains in the previous state",
+   "B": "It is set to logic low",
+   "C": "It is set to logic high",
+   "D": "State of the transmission line is not used to start transmission"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0883",
+  "question": "If the clock input applied to a cascaded Mod-6 & Mod-4 counter is 48KHz. Than the output of the cascaded arrangement shall be of",
+  "options": {
+   "A": "8 KHz",
+   "B": "12 KHz",
+   "C": "2 KHz",
+   "D": "18 KHz"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0884",
+  "question": "Which of the following digital logic circuits can be used to add more than 1 - bit simultaneously?",
+  "options": {
+   "A": "Full - adder",
+   "B": "Ripple - carry adder",
+   "C": "Half - adder",
+   "D": "Serial adder"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0885",
+  "question": "Digital data can be applied to gate by maximum frequency which is called",
+  "options": {
+   "A": "Charging time",
+   "B": "Propagation speed",
+   "C": "Binary level transaction period",
+   "D": "Operating speed"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0886",
+  "question": "How many rows are needed in the primitive flow table for the gated latch?",
+  "options": {
+   "A": "1 row",
+   "B": "3 rows",
+   "C": "5 rows",
+   "D": "7 rows"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0887",
+  "question": "Select the Number of ripple counter in IC ________ are",
+  "options": {
+   "A": "7492",
+   "B": "7865",
+   "C": "7493",
+   "D": "7654"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0888",
+  "question": "If there are four ROM ICs of 8K and two RAM ICs of 4K words, than the address range of Ist RAM is (Assume initial addresses correspond to ROMs)",
+  "options": {
+   "A": "(8000)H to (9FFF)H",
+   "B": "(6000)H to (7FFF)H",
+   "C": "(8000)H to (8FFF)H",
+   "D": "(9000)H to (9FFF)H"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0889",
+  "question": "What is computer organization?",
+  "options": {
+   "A": "structure and behaviour of a computer system as observed by the user",
+   "B": "structure of a computer system as observed by the developer",
+   "C": "structure and behaviour of a computer system as observed by the developer",
+   "D": "All of the mentioned"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0890",
+  "question": "Which of the following is a type of architecture used in the computers nowadays?",
+  "options": {
+   "A": "Microarchitecture",
+   "B": "Harvard Architecture",
+   "C": "Von-Neumann Architecture",
+   "D": "System Design"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0891",
+  "question": "In order to read multiple bytes of a row at the same time, we make use of",
+  "options": {
+   "A": "Memory extension",
+   "B": "Cache",
+   "C": "Shift register",
+   "D": "Latch"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0892",
+  "question": "The number successful accesses to memory stated as a fraction is called as",
+  "options": {
+   "A": "Access rate",
+   "B": "Success rate",
+   "C": "Hit rate",
+   "D": "Miss rate"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0893",
+  "question": "________ is the 8-bit encoding format used to store data in a computer.",
+  "options": {
+   "A": "ANCI",
+   "B": "USCII",
+   "C": "ASCII",
+   "D": "EBCDIC"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0894",
+  "question": "What is a stack pointer?",
+  "options": {
+   "A": "The first memory location where a subroutine address is stored",
+   "B": "A register in which flag bits are stored",
+   "C": "16-bit register in the microprocessor that indicates the beginning of the stack memory",
+   "D": "A register that decodes and executes the 16-bit arithmetic expression"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0895",
+  "question": "8080 Microprocessor is an ________ machine with ________ data path to memory.",
+  "options": {
+   "A": "8 Bit , 16 Bit.",
+   "B": "16 Bit, 8 Bit",
+   "C": "16 Bit, 16 Bit",
+   "D": "8 Bit, 8 Bit"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0896",
+  "question": "The \"natural\" unit of organization of memory. The size of a word is typically equal to the number of bits used to represent an ________ and to the instruction length.",
+  "options": {
+   "A": "integer",
+   "B": "float",
+   "C": "char",
+   "D": "double"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0897",
+  "question": "When virtual addresses are used, the system designer may choose to place the cache between the processor and the MMU is called",
+  "options": {
+   "A": "physical cache",
+   "B": "logical cache",
+   "C": "mid line cache",
+   "D": "main line cache"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0898",
+  "question": "RAID 3 is also called",
+  "options": {
+   "A": "Bit Interleaved parity.",
+   "B": "Mirror Disk",
+   "C": "Dual Redundancy",
+   "D": "Block Level Distributed Parity"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1017",
+  "question": "Howis aJ-K flip-flop made to toggle? a",
+  "options": {
+   "A": "J=0,K=0",
+   "B": "J=0,K=1 ~ (ce) J=1,K=0 | (d) J=1,K=1 | |"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N1018",
+  "question": "Pipe-lining isa unique feature of .",
+  "options": {
+   "A": "RISC",
+   "B": "CISC",
+   "C": "IANA",
+   "D": "ISA"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1019",
+  "question": "The number of failed attempts to access memory, stated in the form of fraction is called as",
+  "options": {
+   "A": "Hitrate |",
+   "B": "Miss rate",
+   "C": "Failure rate",
+   "D": "Delay rate ."
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1020",
+  "question": "IfMSB ofa mantissa in a floating point number is non-zero",
+  "options": {
+   "A": "Number is normalized",
+   "B": "Number is negative |",
+   "C": "Number is positive",
+   "D": "None of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1021",
+  "question": "Ifthere are four 4-bit registers that need to communicate with a 4-line common bus, the number of 4X1-Multiplexer required is .",
+  "options": {
+   "A": "2",
+   "B": "4",
+   "C": "8",
+   "D": "None of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1022",
+  "question": "Memory reference instruction may consist opcode and .",
+  "options": {
+   "A": "Address ,",
+   "B": "Register operation information .",
+   "C": "Input-output operation",
+   "D": "None of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1023",
+  "question": "The DMA controller transfers one data word at atime and after that it returns control of the buses to the CPU is known as |",
+  "options": {
+   "A": "Bus grant",
+   "B": "Burst transfer .",
+   "C": "Cycle stealing",
+   "D": "None of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1024",
+  "question": "When an unit receives data it responded with another control si gnal to acknowledge the receipt of the data, this is known as .",
+  "options": {
+   "A": "Strobe |",
+   "B": "Interrupt",
+   "C": "Polling",
+   "D": "Handshaking"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0718",
+  "question": "What is the time complexity of linear search algorithm over an array of n elements?",
+  "options": {
+   "A": "O (log2 n)",
+   "B": "O (n)",
+   "C": "O (n log2 n)",
+   "D": "O (n2 )"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0719",
+  "question": "What is the time taken by binary search algorithm to search a key in a sorted array of n elements?",
+  "options": {
+   "A": "O (log2 n)",
+   "B": "O (n)",
+   "C": "O (n log2 n)",
+   "D": "O (n2)"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0720",
+  "question": "What is the time required to search an element in a linked list of length n?",
+  "options": {
+   "A": "O (log2 n)",
+   "B": "O (n)",
+   "C": "O (1)",
+   "D": "O (n2 )"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0721",
+  "question": "Which of the following operations is performed more efficiently by doubly linked list than by linear linked list?",
+  "options": {
+   "A": "Deleting a node whose location is given",
+   "B": "Searching an unsorted list for a given item",
+   "C": "Inserting a node after the node with a given location",
+   "D": "Traversing the list to process each node"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0722",
+  "question": "Which data structure is needed to convert infix notations to postfix notations?",
+  "options": {
+   "A": "Linear list",
+   "B": "Queue",
+   "C": "Tree",
+   "D": "Stack"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0723",
+  "question": "Recursive procedures are implemented by",
+  "options": {
+   "A": "Queues",
+   "B": "Stacks",
+   "C": "Linked lists",
+   "D": "Strings"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0724",
+  "question": "A linear list of elements in which deletion can be done from one end (front) and insertion can take place only at the other end (rear) is known as",
+  "options": {
+   "A": "queues",
+   "B": "stacks",
+   "C": "tree",
+   "D": "deque"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0725",
+  "question": "A linear list in which elements can be added or removed at either end but not in the middle, is known as",
+  "options": {
+   "A": "queue",
+   "B": "deque",
+   "C": "stack",
+   "D": "tree"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0726",
+  "question": "The time required to search an element in a binary search tree having n elements is",
+  "options": {
+   "A": "O(1)",
+   "B": "O(log2 n)",
+   "C": "O(n)",
+   "D": "O(n log2 n)"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0727",
+  "question": "Consider that n elements are to be sorted. What is the worst case time complexity of Bubble sort?",
+  "options": {
+   "A": "O(1)",
+   "B": "O(log2 n)",
+   "C": "O(n)",
+   "D": "O(n2)"
+  },
+  "garbled": false
+ }
+]

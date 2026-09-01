@@ -1,0 +1,510 @@
+[
+  {
+    "id": "U1c-01",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Graph basics: vertices, edges, graph types",
+    "def": "A graph G = (V, E) is a set of vertices V together with a set of edges E, each edge joining a pair of vertices.",
+    "exp": "In an undirected graph an edge is the unordered pair {u, v}; in a directed graph (digraph) it is the ordered pair (u, v), so u→v and v→u are two different edges. A loop is an edge from a vertex to itself. Parallel (multiple) edges are two or more edges with the same endpoints. A simple graph has no loops and no parallel edges; a multigraph permits parallel edges. Almost every formula the paper asks for — Kn has n(n−1)/2 edges, a tree has n−1 edges — assumes a simple graph, so read the question for the word 'simple'. The order of G is |V| = n and the size of G is |E| = m; Indian textbooks use those two words in exactly that way. A null graph has no edges; a trivial graph is a single vertex with no edges. The maximum number of edges in a simple undirected graph on n vertices is n(n−1)/2, and in a simple digraph it is n(n−1), because each ordered pair may appear once. Worked count: with n = 5 an undirected simple graph tops out at 5·4/2 = 10 edges and a digraph at 20. A weighted graph attaches a number to each edge; every shortest-path and minimum-spanning-tree question is set on a weighted graph.",
+    "facts": [
+      "A simple graph has no loops and no parallel edges.",
+      "Maximum edges in a simple undirected graph on n vertices: n(n−1)/2.",
+      "Maximum edges in a simple digraph on n vertices: n(n−1).",
+      "In a digraph the edge (u, v) is ordered, so (v, u) is a distinct edge.",
+      "Order of a graph = number of vertices; size = number of edges.",
+      "A loop contributes 2 to the degree of its vertex in an undirected graph."
+    ],
+    "traps": [
+      "Every 'maximum number of edges' formula silently assumes a simple graph — a multigraph has no upper bound at all.",
+      "A loop adds 2 to the degree, not 1; this quietly breaks handshaking arithmetic in MCQs.",
+      "'Order' means the vertex count, not the edge count — the paper uses it that way and offers the edge count as a distractor.",
+      "Null graph (vertices, no edges) and trivial graph (one vertex) are different things and both appear as options.",
+      "n(n−1)/2 is the undirected count and n(n−1) the directed one; the question wording decides which."
+    ],
+    "mnem": "Undirected halves the directed count: n(n−1)/2 versus n(n−1).",
+    "rel": ["Degree and the handshaking lemma", "Complete, regular, bipartite and planar graphs", "Adjacency and incidence matrices"]
+  },
+  {
+    "id": "U1c-02",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Degree, handshaking lemma, degree sequence",
+    "def": "The degree of a vertex is the number of edge-ends meeting it, and the handshaking lemma states that the degrees of all vertices sum to twice the number of edges.",
+    "exp": "Write deg(v) for the degree of v; a loop counts twice. The handshaking lemma is Σ over v of deg(v) = 2|E|, because every edge contributes one to the degree of each of its two endpoints, so the total is exactly twice the edge count. Two corollaries the papers use constantly: the sum of all degrees is always even, and the number of vertices of odd degree is always even. Worked example: a 3-regular (cubic) graph on 10 vertices has 3·10/2 = 15 edges, and no 3-regular graph exists on an odd number of vertices, because 3n would be odd. More generally a k-regular graph on n vertices has nk/2 edges. In a digraph each vertex has an in-degree and an out-degree, and Σ in-degree = Σ out-degree = |E|. The degree sequence is the list of degrees, conventionally written non-increasing, e.g. (3, 3, 2, 2, 2). It is an isomorphism invariant, so two graphs with different degree sequences cannot be isomorphic — but equal sequences prove nothing. Not every list is a valid degree sequence: it must have an even sum, no entry may exceed n−1 in a simple graph, and the Havel–Hakimi / Erdős–Gallai conditions settle the rest.",
+    "facts": [
+      "Handshaking lemma: Σ deg(v) = 2|E|.",
+      "The number of odd-degree vertices in any graph is even.",
+      "A k-regular graph on n vertices has nk/2 edges.",
+      "A k-regular graph with k odd requires n to be even.",
+      "In a digraph, Σ in-degree = Σ out-degree = |E|.",
+      "Degree sequence is an isomorphism invariant but not a complete one.",
+      "Maximum degree in a simple graph on n vertices is n−1."
+    ],
+    "traps": [
+      "Σ deg = 2|E|, not |E| — halve the degree sum to get the edge count.",
+      "Equal degree sequences do not imply isomorphism: C6 and two disjoint triangles both give (2,2,2,2,2,2) and are not isomorphic.",
+      "Any candidate degree sequence with an odd sum is impossible — spot this instantly in 'which is a valid degree sequence' questions.",
+      "A sequence containing an entry ≥ n is invalid for a simple graph on n vertices.",
+      "In a digraph, 'degree' may mean in-degree, out-degree, or their sum; check which the question means."
+    ],
+    "mnem": "Every edge shakes two hands, so degrees total twice the edges.",
+    "rel": ["Graph basics: vertices, edges, graph types", "Euler paths and Euler circuits", "Graph isomorphism and invariants", "Trees: definition and properties"]
+  },
+  {
+    "id": "U1c-03",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Complete, regular, bipartite and planar graphs",
+    "def": "Named families of graphs — complete Kn, k-regular, bipartite, complete bipartite K(m,n) and planar — each with a standard edge count or drawing property the exam asks for directly.",
+    "exp": "The complete graph Kn joins every pair of distinct vertices by exactly one edge. It has n(n−1)/2 edges, is (n−1)-regular, and has chromatic number n. K4 has 6 edges and K5 has 10. A graph is k-regular when every vertex has degree k. A bipartite graph splits V into two disjoint sets V1 and V2 with every edge running between the sets and none inside a set; equivalently, a graph is bipartite if and only if it contains no cycle of odd length. The complete bipartite graph K(m,n) joins every vertex of an m-set to every vertex of an n-set: m+n vertices, mn edges, chromatic number 2. A planar graph can be drawn in the plane with no edges crossing. For a connected planar simple graph Euler's formula gives v − e + f = 2, where f counts faces including the unbounded outer one; with k components it becomes v − e + f = 1 + k. Two consequences used to disprove planarity: e ≤ 3v − 6 for v ≥ 3, and e ≤ 2v − 4 when the graph is also triangle-free. K5 (v = 5, e = 10 > 3·5−6 = 9) and K(3,3) (triangle-free, e = 9 > 2·6−4 = 8) are the two minimal non-planar graphs. Kuratowski's theorem: a graph is planar iff it has no subgraph homeomorphic to K5 or K(3,3).",
+    "facts": [
+      "Kn has n(n−1)/2 edges and is (n−1)-regular.",
+      "Chromatic number of Kn is n.",
+      "K(m,n) has m+n vertices and mn edges.",
+      "A graph is bipartite iff it contains no odd-length cycle.",
+      "Euler's formula for a connected planar graph: v − e + f = 2.",
+      "Simple connected planar graph with v ≥ 3 satisfies e ≤ 3v − 6.",
+      "K5 and K(3,3) are the two minimal non-planar graphs (Kuratowski's theorem)."
+    ],
+    "traps": [
+      "e ≤ 3v − 6 is necessary but not sufficient: K(3,3) has e = 9 ≤ 12 and is still non-planar.",
+      "K(m,n) has mn edges, not m+n and not (m+n)(m+n−1)/2.",
+      "Bipartite forbids odd cycles only — C6 is bipartite, C5 is not.",
+      "Euler's formula v − e + f = 2 requires connectedness; use 1 + k otherwise.",
+      "K5 is the smallest complete non-planar graph, but K4 is planar despite looking crossed in the usual drawing."
+    ],
+    "mnem": "K5 and K3,3 are the two forbidden shapes behind every planarity question.",
+    "rel": ["Graph basics: vertices, edges, graph types", "Graph colouring and chromatic number", "Subgraphs, cycle graphs and complements", "Hamiltonian paths and circuits"]
+  },
+  {
+    "id": "U1c-04",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Subgraphs, cycle graphs and complements",
+    "def": "A subgraph is a graph formed from a subset of another graph's vertices and edges; an induced subgraph must additionally keep every edge whose endpoints both lie in the chosen vertex set.",
+    "exp": "H = (V', E') is a subgraph of G = (V, E) when V' ⊆ V, E' ⊆ E, and every edge in E' has both endpoints in V'. A spanning subgraph keeps all of V (all vertices, some edges). The induced subgraph G[S] on a vertex set S takes S together with every edge of G whose both endpoints lie in S — you may not drop such an edge. That is the distinction the papers test: any subset of edges gives a subgraph, but only the complete set of internal edges gives an induced subgraph. The cycle graph Cn (n ≥ 3) has n vertices in a single cycle: n edges, 2-regular, connected. A graph is cyclic if it contains at least one cycle and acyclic if it contains none; a connected acyclic graph is a tree. The complement Ḡ of a simple graph G is on the same vertex set and contains exactly the edges not in G, so |E(G)| + |E(Ḡ)| = n(n−1)/2. Worked: a 5-vertex graph with 4 edges has a complement with 10 − 4 = 6 edges. Also G ≅ H if and only if Ḡ ≅ H̄, which is a useful isomorphism shortcut. A self-complementary graph has G ≅ Ḡ, hence n(n−1)/4 edges, which forces n ≡ 0 or 1 (mod 4); C5 is the smallest non-trivial example.",
+    "facts": [
+      "An induced subgraph on S contains every edge of G with both endpoints in S.",
+      "A spanning subgraph keeps every vertex of G.",
+      "Cn has n vertices, n edges, and is 2-regular.",
+      "|E(G)| + |E(complement of G)| = n(n−1)/2.",
+      "G ≅ H if and only if their complements are isomorphic.",
+      "A graph with m edges has 2^m spanning subgraphs.",
+      "Self-complementary graphs require n ≡ 0 or 1 (mod 4); C5 is the smallest with n > 1."
+    ],
+    "traps": [
+      "Subgraph and induced subgraph are not the same: omitting an edge between two chosen vertices is a legal subgraph but not an induced one.",
+      "'Cyclic graph' may mean the cycle graph Cn or simply 'contains a cycle' — read the options before choosing.",
+      "The complement of Kn is the null graph on n vertices, not Kn again.",
+      "Complement edge count depends on n through n(n−1)/2, not on |E(G)| alone.",
+      "A spanning subgraph need not be connected; only a spanning tree is required to be."
+    ],
+    "mnem": "Induced = 'you must take the edges that come with the vertices'.",
+    "rel": ["Complete, regular, bipartite and planar graphs", "Trees: definition and properties", "Spanning trees and Cayley's formula", "Graph isomorphism and invariants"]
+  },
+  {
+    "id": "U1c-05",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Walks, trails, paths, circuits and cycles",
+    "def": "A walk is any alternating sequence of vertices and edges; a trail forbids repeated edges, a path forbids repeated vertices, and a closed version of each gives a circuit or a cycle.",
+    "exp": "A walk is v0, e1, v1, …, ek, vk where each ei joins v(i−1) and vi; vertices and edges may repeat. Its length is k, the number of edges — always count edges, never vertices. A walk is open if v0 ≠ vk and closed if v0 = vk. A trail is a walk with no repeated edge, though vertices may repeat. A path is a walk with no repeated vertex, which automatically forbids repeated edges, so every path is a trail. A cycle is a closed walk of length at least 3 in which no vertex repeats except the shared start and end. Textbooks genuinely disagree on 'circuit': Rosen and most Western texts use circuit = closed trail (edges distinct, vertices may repeat), whereas Narsingh Deo — the standard Indian reference for this syllabus — defines a circuit as a closed walk in which no vertex except the endpoints repeats, i.e. what others call a cycle. If the option list distinguishes them, follow the definitions the paper itself gives. A path of length k visits k+1 vertices. In a simple graph on n vertices the longest possible path has n−1 edges and the longest cycle has n edges. If a u–v walk exists then a u–v path exists, obtained by deleting the repeated segment.",
+    "facts": [
+      "Length of a walk or path is its number of edges.",
+      "A path of length k passes through k+1 vertices.",
+      "Trail = no repeated edge; path = no repeated vertex.",
+      "Every path is a trail and every trail is a walk; the converses fail.",
+      "The longest path in a simple graph on n vertices has n−1 edges.",
+      "If a u–v walk exists, a u–v path exists."
+    ],
+    "traps": [
+      "Length counts edges: 'a path through 5 vertices' has length 4, not 5.",
+      "'Circuit' means closed trail in Rosen but closed non-repeating-vertex walk in Deo — do not assume one convention.",
+      "A trail may revisit vertices; only a path may not. Options often swap the two definitions.",
+      "Euler questions concern trails and circuits (edges); Hamiltonian questions concern paths and cycles (vertices). Mixing them is the classic error.",
+      "A closed walk of length 0, and a single loop, are edge cases some texts exclude from 'cycle'."
+    ],
+    "mnem": "Trail spares Edges, Path spares Vertices — T-E, P-V.",
+    "rel": ["Connectivity, components, vertex and edge connectivity", "Euler paths and Euler circuits", "Hamiltonian paths and circuits", "Subgraphs, cycle graphs and complements"]
+  },
+  {
+    "id": "U1c-06",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Connectivity, components, vertex and edge connectivity",
+    "def": "A graph is connected if a path joins every pair of vertices; vertex connectivity and edge connectivity measure how many vertices or edges must be deleted to break that property.",
+    "exp": "The maximal connected subgraphs of a graph are its connected components. A connected graph on n vertices needs at least n−1 edges, and a graph with n vertices and k components needs at least n−k. Conversely a simple graph with more than (n−1)(n−2)/2 edges must be connected. Vertex connectivity κ(G) is the smallest number of vertices whose removal disconnects G (or reduces it to a single vertex). Edge connectivity λ(G) is the smallest number of edges whose removal disconnects G. Whitney's inequality chains them to the minimum degree δ(G): κ(G) ≤ λ(G) ≤ δ(G). For the complete graph Kn no vertex deletion ever disconnects it, so by convention κ(Kn) = n−1; and λ(Kn) = n−1 as well, because isolating one vertex means cutting all n−1 of its edges — this exact value is an MPSC favourite. A cut vertex (articulation point) is a vertex whose removal increases the number of components, and a bridge (cut edge) is the edge analogue; an edge is a bridge if and only if it lies on no cycle. For digraphs, strongly connected means a directed path exists both ways between every ordered pair of vertices, while weakly connected only requires the underlying undirected graph to be connected.",
+    "facts": [
+      "Whitney's inequality: κ(G) ≤ λ(G) ≤ δ(G).",
+      "κ(Kn) = λ(Kn) = n−1.",
+      "A connected graph on n vertices has at least n−1 edges.",
+      "A graph with n vertices and k components has at least n−k edges.",
+      "An edge is a bridge if and only if it lies on no cycle.",
+      "A simple graph with more than (n−1)(n−2)/2 edges is necessarily connected.",
+      "Strong connectivity (digraph) needs directed paths both ways; weak connectivity does not."
+    ],
+    "traps": [
+      "Edge connectivity of Kn is n−1, not n and not n(n−1)/2.",
+      "The inequality order is κ ≤ λ ≤ δ; reversing it is a standard distractor.",
+      "Removing a cut vertex also removes all its incident edges; removing a bridge leaves both endpoints in place.",
+      "κ(Kn) = n−1 is a convention, since Kn cannot actually be disconnected by deleting vertices.",
+      "λ = δ often but not always; do not assume the bounds are tight for a given graph."
+    ],
+    "mnem": "Kappa (vertices) ≤ Lambda (edges) ≤ delta (min degree) — alphabet order κ, λ then δ.",
+    "rel": ["Walks, trails, paths, circuits and cycles", "Trees: definition and properties", "Depth-first and breadth-first search", "Complete, regular, bipartite and planar graphs"]
+  },
+  {
+    "id": "U1c-07",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Euler paths and Euler circuits",
+    "def": "An Euler trail uses every edge of a graph exactly once, and an Euler circuit is a closed Euler trail; both are decided purely by the parity of vertex degrees.",
+    "exp": "A connected graph has an Euler circuit if and only if every vertex has even degree. It has an open Euler trail (not a circuit) if and only if exactly two vertices have odd degree, and that trail must start at one odd vertex and finish at the other. Any other count of odd vertices — which by handshaking must be even, so 4, 6, 8 — means no Euler trail exists at all. The reason is simple: each visit to an intermediate vertex enters on one edge and leaves on another, consuming degree in pairs; only the two endpoints of an open trail escape this pairing. Isolated vertices are ignored, but the edge-bearing part must be connected. The Königsberg bridges form a multigraph on four vertices of degrees 3, 3, 3 and 5 — four odd vertices, so no Euler trail, which is Euler's 1736 result and the origin of the subject. For a digraph an Euler circuit exists iff the graph is connected when direction is ignored and in-degree equals out-degree at every vertex. Kn has an Euler circuit exactly when n is odd, since every degree is n−1. Fleury's algorithm constructs a trail by never crossing a bridge unless forced; Hierholzer's method does it in linear time.",
+    "facts": [
+      "Euler circuit exists iff the graph is connected and every vertex has even degree.",
+      "Open Euler trail exists iff the graph is connected and exactly two vertices have odd degree.",
+      "An open Euler trail must begin and end at the two odd-degree vertices.",
+      "Digraph Euler circuit exists iff connected and in-degree = out-degree at every vertex.",
+      "Kn has an Euler circuit iff n is odd.",
+      "An Euler trail may visit a vertex many times; it uses each edge exactly once.",
+      "Fleury's and Hierholzer's algorithms construct Euler trails."
+    ],
+    "traps": [
+      "All-even degrees is sufficient only together with connectedness — a disconnected all-even graph has no Euler circuit.",
+      "Zero odd vertices gives a circuit; exactly two gives an open trail. Do not confuse the two answers.",
+      "Exactly one odd vertex is impossible by handshaking, and four odd vertices means no Euler trail at all.",
+      "Euler is about edges and Hamiltonian about vertices: K4 is Hamiltonian but has no Euler trail, since all four degrees are 3.",
+      "Loops add 2 to a degree and so can never break the parity condition."
+    ],
+    "mnem": "Euler = Edges, and Even degrees. Two odd vertices are the two open ends.",
+    "rel": ["Degree, handshaking lemma, degree sequence", "Hamiltonian paths and circuits", "Walks, trails, paths, circuits and cycles"]
+  },
+  {
+    "id": "U1c-08",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Hamiltonian paths and circuits",
+    "def": "A Hamiltonian path visits every vertex of a graph exactly once, and a Hamiltonian circuit is a closed one returning to its start.",
+    "exp": "In a connected graph on n vertices a Hamiltonian path passes through all n vertices and therefore uses exactly n−1 edges, so its length is n−1; a Hamiltonian circuit uses n edges and has length n. Unlike Euler's clean parity test, no simple necessary-and-sufficient criterion is known: deciding Hamiltonicity is NP-complete, which is precisely why the exam asks why no easy rule exists. What we have are sufficient conditions. Dirac's theorem: a simple graph with n ≥ 3 in which every vertex has degree at least n/2 is Hamiltonian. Ore's theorem: if deg(u) + deg(v) ≥ n for every pair of non-adjacent vertices u and v, the graph is Hamiltonian. Both are sufficient only — failing them proves nothing. A useful necessary condition works the other way: if deleting k vertices leaves more than k components, the graph is not Hamiltonian, so any graph with a cut vertex has no Hamiltonian circuit. Kn is Hamiltonian for n ≥ 3 and contains (n−1)!/2 distinct Hamiltonian circuits. K(m,n) is Hamiltonian only when m = n. The Petersen graph is the standard counterexample used in vivas: it has Hamiltonian paths but no Hamiltonian circuit.",
+    "facts": [
+      "A Hamiltonian path in a graph on n vertices has n−1 edges, so its length is n−1.",
+      "A Hamiltonian circuit has n edges.",
+      "Dirac: n ≥ 3 and every degree ≥ n/2 implies Hamiltonian.",
+      "Ore: deg(u) + deg(v) ≥ n for all non-adjacent u, v implies Hamiltonian.",
+      "Kn with n ≥ 3 has (n−1)!/2 distinct Hamiltonian circuits.",
+      "A graph with a cut vertex has no Hamiltonian circuit.",
+      "Deciding Hamiltonicity is NP-complete, while the Euler test is linear time."
+    ],
+    "traps": [
+      "The length of a Hamiltonian path is n−1 (edges), not n (vertices) — this exact wording appears in past papers.",
+      "Dirac and Ore are sufficient, not necessary: C5 fails Dirac (degrees 2 < 2.5) yet is Hamiltonian.",
+      "Hamiltonian and Eulerian are independent properties; neither implies the other.",
+      "K(m,n) is Hamiltonian only for m = n, so K(2,3) is not.",
+      "A Hamiltonian path may leave edges unused; only Euler trails must consume every edge."
+    ],
+    "mnem": "Hamiltonian visits Houses (vertices) once; Euler walks Edges once.",
+    "rel": ["Euler paths and Euler circuits", "Complete, regular, bipartite and planar graphs", "Walks, trails, paths, circuits and cycles", "Connectivity, components, vertex and edge connectivity"]
+  },
+  {
+    "id": "U1c-09",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Graph colouring and chromatic number",
+    "def": "A proper colouring assigns colours to vertices so that no two adjacent vertices share one, and the chromatic number χ(G) is the fewest colours for which this is possible.",
+    "exp": "Basic values first, because the paper asks for them directly. χ(G) = 1 if and only if G has no edges, so any graph with one or more edges is at least 2-chromatic — that is the exact MPSC phrasing. χ(Kn) = n. χ(Cn) = 2 when n is even and 3 when n is odd. A graph is bipartite iff χ ≤ 2, equivalently iff it has no odd cycle, so any tree with at least one edge is 2-chromatic. Bounds: χ(G) ≥ ω(G), the number of vertices in the largest clique, and χ(G) ≤ Δ(G) + 1 where Δ is the maximum degree — this upper bound falls straight out of greedy colouring, since a vertex has at most Δ coloured neighbours. Brooks' theorem sharpens it to χ ≤ Δ for connected graphs that are neither a complete graph nor an odd cycle. The four colour theorem states that every planar graph is 4-colourable; it was conjectured in 1852 and proved by Appel and Haken in 1976 with computer assistance, the first major theorem so proved. The weaker five colour theorem has a short hand proof. The chromatic index χ'(G) colours edges so that edges sharing a vertex differ, and Vizing's theorem bounds it by Δ ≤ χ' ≤ Δ + 1 for simple graphs.",
+    "facts": [
+      "A graph with one or more edges has χ ≥ 2, i.e. it is at least 2-chromatic.",
+      "χ(G) = 1 if and only if G has no edges.",
+      "χ(Kn) = n; χ(Cn) = 2 for n even and 3 for n odd.",
+      "χ(G) ≤ 2 iff G is bipartite iff G has no odd cycle.",
+      "Greedy bound: χ(G) ≤ Δ(G) + 1.",
+      "Four colour theorem: every planar graph is 4-colourable (Appel and Haken, 1976).",
+      "Vizing's theorem: Δ ≤ χ'(G) ≤ Δ + 1 for a simple graph."
+    ],
+    "traps": [
+      "'At least 2-chromatic' needs only one edge to exist; a graph of isolated vertices is 1-chromatic.",
+      "Four colours suffice for planar graphs only — K5 needs 5 colours and is non-planar.",
+      "χ ≤ Δ + 1 is an upper bound, and it is tight for Kn, so Δ alone is not the answer.",
+      "Chromatic number colours vertices; chromatic index colours edges. Read which the question asks.",
+      "χ(Cn) flips with parity: C4 needs 2 colours, C5 needs 3."
+    ],
+    "mnem": "One edge forces two colours; one odd cycle forces three.",
+    "rel": ["Complete, regular, bipartite and planar graphs", "Graph homomorphism", "Trees: definition and properties"]
+  },
+  {
+    "id": "U1c-10",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Adjacency matrix, adjacency list, incidence matrix",
+    "def": "The three standard ways to store a graph: an n×n adjacency matrix, per-vertex adjacency lists, and an n×m incidence matrix of vertices against edges.",
+    "exp": "The adjacency matrix A is n×n with A[i][j] = 1 when an edge joins i to j (or the weight, or the count of parallel edges). For an undirected graph A is symmetric. Space is Θ(n²) whatever the edge count, edge lookup is O(1), and listing a vertex's neighbours costs O(n). A key exam property: the (i, j) entry of A^k is the number of distinct walks of length k from i to j. An adjacency list stores for each vertex the list of its neighbours: space Θ(n + m), neighbour iteration proportional to degree, edge lookup O(deg). Use lists for sparse graphs and matrices for dense ones — BFS and DFS run in O(n + m) on lists but O(n²) on a matrix. The incidence matrix A(G) of an undirected graph is n×m: one row per vertex, one column per edge, with entry 1 when that vertex is an endpoint of that edge. Every column therefore holds exactly two 1s (a loop is the exception). Over GF(2) the rank of A(G) is n−1 for a connected graph on n vertices, and n−k for a graph with k components; this is the standard result MPSC asks for. The rows are dependent because every column sums to 0 modulo 2, so the rows themselves sum to the zero vector.",
+    "facts": [
+      "Adjacency matrix space is Θ(n²); adjacency list space is Θ(n + m).",
+      "The (i, j) entry of A^k counts walks of length k from i to j.",
+      "The adjacency matrix of an undirected graph is symmetric.",
+      "The incidence matrix is n×m: rows are vertices, columns are edges.",
+      "Every column of an undirected incidence matrix contains exactly two 1s.",
+      "Rank of A(G) over GF(2) is n−1 for a connected graph, and n−k with k components.",
+      "BFS and DFS cost O(n + m) with lists but O(n²) with a matrix."
+    ],
+    "traps": [
+      "The rank of the incidence matrix of a connected graph is n−1, not n and not m.",
+      "Incidence is n×m (vertices × edges) while adjacency is n×n; distractors swap the dimensions.",
+      "A^k counts walks, not paths — walks are allowed to repeat vertices.",
+      "Row sum of the adjacency matrix equals the vertex degree for a simple graph; loop conventions (diagonal 1 or 2) differ between texts, so loops break this.",
+      "The adjacency matrix wastes Θ(n²) space even on a sparse graph, so the expected answer for 'best representation of a sparse graph' is the adjacency list."
+    ],
+    "mnem": "Incidence rows are vertices, columns edges, rank one less than the vertex count when connected.",
+    "rel": ["Graph basics: vertices, edges, graph types", "Depth-first and breadth-first search", "Floyd–Warshall and Warshall's algorithm", "Spanning trees and Cayley's formula"]
+  },
+  {
+    "id": "U1c-11",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Graph isomorphism and invariants",
+    "def": "Two graphs are isomorphic when a bijection between their vertex sets preserves adjacency in both directions, i.e. they are the same graph with the vertices relabelled.",
+    "exp": "Formally G ≅ H if there is a bijection f: V(G) → V(H) such that u and v are adjacent in G if and only if f(u) and f(v) are adjacent in H. No polynomial-time algorithm is known for general graph isomorphism, so exam questions are settled with invariants — properties that any isomorphism must preserve. To prove two graphs are NOT isomorphic, exhibit a single invariant on which they differ: number of vertices; number of edges; degree sequence; number of connected components; number of cycles of each length, especially the girth; vertex and edge connectivity; chromatic number; planarity; bipartiteness; or whether their complements are isomorphic. Check them in that order, cheapest first. What you cannot do is argue the other way: matching invariants never prove isomorphism. The standard counterexample is two 2-regular graphs on six vertices — C6 and the disjoint union of two triangles — which share vertex count, edge count and the degree sequence (2,2,2,2,2,2), yet one is connected and the other is not. To prove isomorphism you must actually exhibit the bijection or argue structurally. The number of labelled simple graphs on n vertices is 2^(n(n−1)/2); the count up to isomorphism is far smaller and has no closed form.",
+    "facts": [
+      "Isomorphism preserves both adjacency and non-adjacency.",
+      "Isomorphic graphs agree on |V|, |E|, degree sequence, girth, χ, κ, λ and component count.",
+      "A single differing invariant disproves isomorphism; matching invariants never prove it.",
+      "C6 and two disjoint triangles share the degree sequence (2,2,2,2,2,2) but are not isomorphic.",
+      "G ≅ H if and only if their complements are isomorphic.",
+      "The number of labelled simple graphs on n vertices is 2^(n(n−1)/2).",
+      "Graph isomorphism is neither known to be in P nor known to be NP-complete."
+    ],
+    "traps": [
+      "Equal vertex and edge counts are necessary but never sufficient.",
+      "Equal degree sequences are necessary but never sufficient.",
+      "To prove isomorphism you must supply the mapping; to disprove it one broken invariant suffices.",
+      "Subgraph isomorphism is a different problem and is NP-complete.",
+      "A map that sends edges to edges but creates extra adjacencies is a homomorphism, not an isomorphism."
+    ],
+    "mnem": "Invariants can only say NO; only a bijection can say YES.",
+    "rel": ["Graph homomorphism", "Degree, handshaking lemma, degree sequence", "Subgraphs, cycle graphs and complements", "Connectivity, components, vertex and edge connectivity"]
+  },
+  {
+    "id": "U1c-12",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Graph homomorphism",
+    "def": "A graph homomorphism from G to H is a map on vertices that sends every edge of G to an edge of H, without any requirement to be injective, surjective, or to preserve non-edges.",
+    "exp": "Formally f: V(G) → V(H) is a homomorphism when uv ∈ E(G) implies f(u)f(v) ∈ E(H). Edges must go to edges; non-edges are unconstrained. That one-way condition is the whole difference from isomorphism: an isomorphism is a bijective homomorphism whose inverse is also a homomorphism, so it preserves non-adjacency as well. Because adjacent vertices must map to adjacent vertices and H has no loops, no two adjacent vertices of G may collapse onto the same vertex of H. That gives the key identity the exam wants: a homomorphism G → Kk exists if and only if G is k-colourable, since the k vertices of Kk act as k colours and the edge condition says exactly that adjacent vertices receive different colours. Hence χ(G) is the least k admitting a homomorphism into Kk, and G is bipartite iff a homomorphism G → K2 exists. It follows that no homomorphism exists from a graph containing a triangle into a triangle-free graph. Homomorphisms compose, and 'G → H and H → G' defines homomorphic equivalence, which is strictly weaker than isomorphism. Beware a near-homonym on this syllabus: homeomorphic graphs are those obtainable from each other by subdividing edges with degree-2 vertices, a different idea used in Kuratowski's planarity theorem.",
+    "facts": [
+      "Homomorphism condition: uv ∈ E(G) implies f(u)f(v) ∈ E(H).",
+      "A homomorphism need not be injective or surjective.",
+      "A homomorphism G → Kk exists iff G is k-colourable, so χ(G) is the least such k.",
+      "A homomorphism G → K2 exists iff G is bipartite.",
+      "An isomorphism is a bijective homomorphism whose inverse is also a homomorphism.",
+      "Homomorphisms compose: G → H and H → K give G → K."
+    ],
+    "traps": [
+      "Homomorphism preserves edges only; isomorphism preserves edges and non-edges. This is the single most-tested difference.",
+      "Homomorphic is not homeomorphic — homeomorphism is about edge subdivision and appears in Kuratowski's theorem.",
+      "Two adjacent vertices can never be merged by a homomorphism into a loop-free graph.",
+      "A homomorphism G → H does not imply one from H → G; the relation is not symmetric.",
+      "Existence of a homomorphism into Kk shows G is k-colourable, but the smallest such k is χ(G), not the k you happened to use."
+    ],
+    "mnem": "HOMOmorphism keeps edges only; ISOmorphism keeps everything (iso = same).",
+    "rel": ["Graph isomorphism and invariants", "Graph colouring and chromatic number", "Complete, regular, bipartite and planar graphs"]
+  },
+  {
+    "id": "U1c-13",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Trees: definition and properties",
+    "def": "A tree is a connected acyclic graph, and a tree on n vertices always has exactly n−1 edges and exactly one path between any two of its vertices.",
+    "exp": "For a graph T on n vertices the following statements are equivalent, and any one of them may be quoted as the definition: T is connected and acyclic; T is connected with exactly n−1 edges; T is acyclic with exactly n−1 edges; every pair of vertices is joined by exactly one path; T is connected but deleting any edge disconnects it; T is acyclic but adding any new edge creates exactly one cycle. The fourth item answers the paper's question about 'the number of paths between any pair of nodes in a tree': exactly one. The edge count is the other standard question — a tree with 10 vertices has 9 edges. Every edge of a tree is a bridge, and every non-leaf vertex is a cut vertex. A leaf (pendant vertex) has degree 1, and every tree with n ≥ 2 has at least two leaves; that follows from handshaking, since if all n vertices had degree at least 2 the degree sum would be at least 2n, exceeding 2(n−1) = 2|E|. A forest is a disjoint union of trees, and a forest with n vertices and k trees has n−k edges. A rooted tree adds a distinguished root and with it the parent/child and level structure used in data-structure questions.",
+    "facts": [
+      "A tree on n vertices has exactly n−1 edges.",
+      "Exactly one path joins any two vertices of a tree.",
+      "Every edge of a tree is a bridge.",
+      "Every tree with n ≥ 2 vertices has at least two leaves.",
+      "Adding any one new edge to a tree creates exactly one cycle.",
+      "A forest with n vertices and k components has n−k edges.",
+      "A tree with at least one edge is bipartite and 2-chromatic."
+    ],
+    "traps": [
+      "Having n−1 edges alone does not make a tree: a triangle plus an isolated vertex has 4 vertices and 3 edges and is not one. Connectedness or acyclicity must also hold.",
+      "The number of paths between any pair of nodes in a tree is 1, not n−1.",
+      "A tree contains no cycle at all, so options giving it a girth of 3 are distractors.",
+      "Forest edge count is n−k, not n−1.",
+      "Every non-leaf vertex of a tree is a cut vertex, so a tree with n ≥ 3 is never 2-connected."
+    ],
+    "mnem": "Tree: n vertices, n−1 edges, exactly 1 path between any pair.",
+    "rel": ["Spanning trees and Cayley's formula", "Connectivity, components, vertex and edge connectivity", "Kruskal's algorithm for minimum spanning trees", "Graph colouring and chromatic number"]
+  },
+  {
+    "id": "U1c-14",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Spanning trees and Cayley's formula",
+    "def": "A spanning tree of a connected graph is a subgraph that is a tree and contains every vertex, and the complete graph Kn has n^(n−2) distinct labelled spanning trees.",
+    "exp": "A spanning tree has n vertices and n−1 edges whatever the parent graph looks like. One exists if and only if G is connected; a disconnected graph instead has a spanning forest with n−k edges for k components. The number of edges that must be removed from a connected graph to leave a spanning tree is m − n + 1, called the cycle rank, circuit rank or nullity of G; correspondingly the rank of G is n − 1, matching the rank of its incidence matrix. Cayley's formula gives the number of distinct labelled spanning trees of Kn as n^(n−2). Check the small cases: n = 2 gives 2^0 = 1; n = 3 gives 3^1 = 3, since you drop any one of the triangle's three edges; n = 4 gives 4^2 = 16. Equivalently n^(n−2) counts labelled trees on n vertices. For a general graph, Kirchhoff's matrix-tree theorem gives the spanning-tree count as any cofactor of the Laplacian L = D − A, where D is the diagonal degree matrix and A the adjacency matrix. A minimum spanning tree is a spanning tree of least total edge weight; it is unique whenever all edge weights are distinct, and both Kruskal's and Prim's algorithms produce one.",
+    "facts": [
+      "A spanning tree of a connected graph on n vertices has exactly n−1 edges.",
+      "Cayley's formula: Kn has n^(n−2) labelled spanning trees.",
+      "K3 has 3 spanning trees and K4 has 16.",
+      "Circuit rank (nullity) is m − n + 1 for a connected graph, and m − n + k with k components.",
+      "Kirchhoff's matrix-tree theorem: any cofactor of L = D − A counts the spanning trees.",
+      "The MST is unique when all edge weights are distinct.",
+      "A spanning tree exists if and only if the graph is connected."
+    ],
+    "traps": [
+      "Cayley's formula is n^(n−2), not n^(n−1) and not (n−1)^(n−2).",
+      "Cayley counts labelled trees; the count of unlabelled trees is much smaller and has no closed form.",
+      "Circuit rank m − n + 1 counts the edges removed; the edges kept always number n−1.",
+      "An MST minimises total weight, not edge count — every spanning tree already has n−1 edges.",
+      "Distinct weights guarantee a unique MST, but a graph with tied weights may still have a unique one, so the implication does not reverse."
+    ],
+    "mnem": "Cayley: n to the power n minus two — check it on K3 giving 3.",
+    "rel": ["Trees: definition and properties", "Kruskal's algorithm for minimum spanning trees", "Prim's algorithm for minimum spanning trees", "Adjacency matrix, adjacency list, incidence matrix"]
+  },
+  {
+    "id": "U1c-15",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Kruskal's algorithm for minimum spanning trees",
+    "def": "Kruskal's algorithm builds a minimum spanning tree by scanning all edges in non-decreasing weight order and accepting each edge that does not close a cycle.",
+    "exp": "Sort the m edges by weight, then scan them in that order, adding an edge to the growing forest whenever its two endpoints lie in different components and discarding it when they already lie in the same one, which would create a cycle. Stop once n−1 edges have been accepted. The cycle test is done with a disjoint-set (union–find) structure: find the roots of the two endpoints and union them if the roots differ. Complexity is O(m log m), dominated by the sort; since m ≤ n² this is equivalently O(m log n), plus near-constant amortised union–find work. Worked trace on four vertices with edges AB = 1, CD = 2, BC = 3, AC = 4, BD = 5: accept AB, accept CD, then accept BC, which joins the two fragments — three edges on four vertices, so we stop, total weight 6; AC and BD would each close a cycle. Kruskal is globally greedy: it considers the cheapest edge anywhere in the graph, so its intermediate structure is a forest of disconnected fragments rather than one tree. It also runs happily on disconnected input, producing a minimum spanning forest. Correctness follows from the cut property: for any partition of the vertices, a lightest edge crossing the partition belongs to some MST.",
+    "facts": [
+      "Kruskal sorts edges and adds the cheapest edge that does not create a cycle.",
+      "Complexity O(m log m), equivalently O(m log n), dominated by the sort.",
+      "Cycle detection uses a union–find (disjoint-set) structure.",
+      "The intermediate structure is a forest, not a single connected tree.",
+      "It halts after n−1 edges have been accepted.",
+      "On disconnected input it yields a minimum spanning forest.",
+      "Correctness rests on the cut property."
+    ],
+    "traps": [
+      "Kruskal's intermediate result is a forest while Prim's is always one connected tree — this is the standard discriminator question.",
+      "An edge is rejected because its endpoints already share a component, not merely because it is heavy.",
+      "The expected complexity answer is O(m log m) or O(m log n); O(n²) is Prim's array form, not Kruskal's.",
+      "Kruskal needs no start vertex; Prim does.",
+      "Kruskal is greedy yet provably optimal here — do not reject it on the grounds that greedy algorithms often fail."
+    ],
+    "mnem": "Kruskal = cheapest edge anywhere; keeps a forest until the last join.",
+    "rel": ["Prim's algorithm for minimum spanning trees", "Spanning trees and Cayley's formula", "Trees: definition and properties"]
+  },
+  {
+    "id": "U1c-16",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Prim's algorithm for minimum spanning trees",
+    "def": "Prim's algorithm builds a minimum spanning tree by growing one connected tree from an arbitrary start vertex, repeatedly adding the cheapest edge that leaves the tree.",
+    "exp": "Maintain a set S of vertices already in the tree. Repeatedly pick the cheapest edge with exactly one endpoint in S, add that edge and its outside endpoint to S, and continue until S = V, at which point n−1 edges have been added. The result is a minimum spanning tree with the same total weight as Kruskal's, and the same tree when all weights are distinct. Complexity depends on the structure holding candidate edges: O(n²) with a simple array scan over an adjacency matrix, O(m log n) with a binary heap over adjacency lists, and O(m + n log n) with a Fibonacci heap. So the O(n²) form is preferred on dense graphs where m is near n², while Kruskal's O(m log m) is preferred on sparse graphs. The differences the papers test: Prim holds a single connected tree at every step whereas Kruskal holds a forest; Prim needs a starting vertex and Kruskal does not; Prim uses a priority queue keyed on vertices while Kruskal uses a sort plus union–find; Prim requires a connected graph, whereas Kruskal degrades gracefully to a spanning forest. Correctness is again the cut property, applied to the cut between S and V minus S. Prim's is also called the Jarník–Prim algorithm, and its loop structure is nearly identical to Dijkstra's.",
+    "facts": [
+      "Prim grows one connected tree, always adding the cheapest edge crossing from S to the rest.",
+      "O(n²) with an adjacency matrix and array scan; O(m log n) with a binary heap; O(m + n log n) with a Fibonacci heap.",
+      "Prim suits dense graphs; Kruskal suits sparse graphs.",
+      "Prim requires a connected graph; Kruskal does not.",
+      "Prim and Kruskal always return the same total weight.",
+      "Prim's structure mirrors Dijkstra's, but its key is a single edge weight rather than an accumulated distance."
+    ],
+    "traps": [
+      "Prim's key is the weight of one edge to the tree; Dijkstra's key is the total distance from the source. Swapping them is the classic error.",
+      "Prim's partial result is always connected, so 'Prim may produce disconnected fragments' is false.",
+      "Different start vertices can give different MSTs when weights tie, but never a different total weight.",
+      "On dense graphs the O(n²) implementation beats the O(m log n) heap version, so the 'better complexity' depends on density.",
+      "Run on a disconnected graph, Prim silently returns the MST of the start vertex's component only."
+    ],
+    "mnem": "Prim = one tree grows outward; Kruskal = many fragments merge.",
+    "rel": ["Kruskal's algorithm for minimum spanning trees", "Dijkstra's single-source shortest path", "Spanning trees and Cayley's formula"]
+  },
+  {
+    "id": "U1c-17",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Dijkstra's single-source shortest path",
+    "def": "Dijkstra's algorithm computes the shortest-path distances from one source vertex to every other vertex in a graph whose edge weights are all non-negative.",
+    "exp": "Keep a tentative distance d[v], set to 0 for the source s and infinity elsewhere. Repeatedly extract the unvisited vertex u with the smallest d[u], mark it final, and relax each outgoing edge: if d[u] + w(u, v) < d[v], set d[v] = d[u] + w(u, v) and record u as v's predecessor. Complexity is O(n²) with a linear scan, O((n + m) log n) with a binary heap, and O(m + n log n) with a Fibonacci heap. The algorithm is greedy: the moment a vertex is extracted, its distance is declared final and never revisited. That is exactly why negative edge weights break it. Worked counterexample on three vertices with A→B = 2, A→C = 5 and C→B = −4: Dijkstra extracts B with d = 2 and freezes it, but the true shortest path A→C→B costs 5 − 4 = 1. The greedy invariant assumes that extending a path can only increase its cost, which a negative weight violates. Bellman–Ford handles negative edges in O(nm) and detects negative cycles; Johnson's algorithm reweights the graph so Dijkstra can be reused. If a negative cycle is reachable, no shortest path exists at all. On an unweighted graph, BFS gives the same answer in O(n + m).",
+    "facts": [
+      "Dijkstra solves single-source shortest paths for non-negative edge weights.",
+      "O(n²) with an array, O((n + m) log n) with a binary heap, O(m + n log n) with a Fibonacci heap.",
+      "Once a vertex is extracted its distance is final — the greedy invariant.",
+      "It fails on negative edge weights even when no negative cycle exists.",
+      "Bellman–Ford runs in O(nm), handles negative edges, and detects negative cycles.",
+      "On an unweighted graph, BFS is the O(n + m) equivalent.",
+      "Dijkstra works fine on cyclic graphs, provided weights are non-negative."
+    ],
+    "traps": [
+      "Dijkstra fails on any negative edge, not merely on negative cycles — the negative-cycle limit belongs to Bellman–Ford.",
+      "Dijkstra returns shortest paths, not a minimum spanning tree; the shortest-path tree usually differs from the MST.",
+      "Adding a constant to every edge to remove negatives is wrong: it penalises paths with more edges and can change which path is shortest.",
+      "It is single-source, not all-pairs; running it from every vertex is a valid but different answer from Floyd–Warshall's O(n³).",
+      "Relaxation never reopens a finalised vertex, which is the precise mechanism by which the negative-edge example fails."
+    ],
+    "mnem": "Dijkstra freezes whatever it picks — a later negative edge could have unfrozen it.",
+    "rel": ["Floyd–Warshall and Warshall's algorithm", "Prim's algorithm for minimum spanning trees", "Depth-first and breadth-first search"]
+  },
+  {
+    "id": "U1c-18",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Floyd–Warshall and Warshall's algorithm",
+    "def": "Floyd–Warshall computes all-pairs shortest path distances in Θ(n³) by dynamic programming over intermediate vertices, and Warshall's algorithm is the same recurrence over booleans, giving the transitive closure.",
+    "exp": "Let d_k[i][j] be the shortest i-to-j distance using only vertices 1..k as intermediates. Then d_k[i][j] = min(d_(k−1)[i][j], d_(k−1)[i][k] + d_(k−1)[k][j]). Initialise the matrix with the edge weights, infinity for absent edges, and 0 on the diagonal. The implementation is three nested loops with k as the outermost — and k must be outermost, which is the commonest exam error, because the recurrence needs all pairs settled for intermediates 1..k−1 before k is considered. Complexity is Θ(n³) time and Θ(n²) space, independent of the edge count, so it beats n runs of Dijkstra on dense graphs. It handles negative edge weights correctly. It does not handle negative cycles, but it detects them: some diagonal entry d[i][i] becomes negative. Warshall's algorithm replaces min and + by OR and AND over booleans and computes the transitive closure, i.e. the reachability relation of a digraph: t[i][j] = t[i][j] OR (t[i][k] AND t[k][j]), also Θ(n³). The closure matrix answers only 'is there any directed path from i to j'. To recover actual paths from Floyd–Warshall, keep a predecessor matrix updated whenever the route through k wins, then walk it backwards.",
+    "facts": [
+      "Floyd–Warshall: Θ(n³) time, Θ(n²) space, all-pairs shortest paths.",
+      "Recurrence: d[i][j] = min(d[i][j], d[i][k] + d[k][j]), with k as the outermost loop.",
+      "It handles negative edge weights and detects negative cycles via a negative diagonal entry.",
+      "Warshall's transitive closure: t[i][j] = t[i][j] OR (t[i][k] AND t[k][j]).",
+      "Both are dynamic-programming algorithms, not greedy ones.",
+      "Initialisation: 0 on the diagonal, edge weights where edges exist, infinity elsewhere."
+    ],
+    "traps": [
+      "k must be the outermost of the three loops; putting i or j outside gives wrong answers on some graphs.",
+      "Floyd–Warshall handles negative edges but not negative cycles — it only detects them.",
+      "The Θ(n³) cost holds regardless of sparsity, so on a sparse graph n runs of Dijkstra can be faster.",
+      "Warshall's algorithm gives 0/1 reachability while Floyd's gives distances; papers pair the two names as distractors.",
+      "An undirected graph with any negative edge automatically contains a negative cycle, so 'Floyd–Warshall handles negative undirected edges' is ill-posed."
+    ],
+    "mnem": "Warshall answers Whether you can get there; Floyd answers how Far.",
+    "rel": ["Dijkstra's single-source shortest path", "Adjacency matrix, adjacency list, incidence matrix", "Depth-first and breadth-first search"]
+  },
+  {
+    "id": "U1c-19",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Depth-first and breadth-first search",
+    "def": "BFS explores a graph level by level using a queue while DFS goes as deep as possible along one branch before backtracking, using a stack; both visit every reachable vertex once in O(n + m).",
+    "exp": "BFS enqueues the source, then repeatedly dequeues a vertex and enqueues its unvisited neighbours, so it visits all vertices at distance 1, then all at distance 2, and so on. DFS uses a stack — explicitly, or implicitly through recursion — descending one branch until it is exhausted, then backtracking. Both cost O(n + m) with adjacency lists and O(n²) with an adjacency matrix. Order example on the graph with edges A–B, A–C, B–D, C–D, taking neighbours alphabetically: BFS from A gives A, B, C, D; DFS from A gives A, B, D, C. What each is good for is the examinable half. BFS finds the shortest path in an unweighted graph, because the level at which a vertex is first reached is its hop distance from the source; it also tests bipartiteness by 2-colouring alternate levels. DFS is the tool for cycle detection, topological sorting of a DAG, finding strongly connected components (Kosaraju's and Tarjan's algorithms), and locating cut vertices and bridges. On space, BFS's queue can hold O(n) vertices — the widest level — while DFS's stack is bounded by the longest root-to-current path. Both produce a spanning tree of the component containing the source, together with classified non-tree edges.",
+    "facts": [
+      "Both run in O(n + m) with adjacency lists and O(n²) with an adjacency matrix.",
+      "BFS uses a queue; DFS uses a stack or recursion.",
+      "BFS gives shortest paths by edge count in unweighted graphs; DFS does not.",
+      "DFS underlies topological sort, cycle detection, strongly connected components, and bridge/articulation-point finding.",
+      "BFS level 2-colouring tests bipartiteness.",
+      "Both build a spanning tree of the source's connected component.",
+      "In DFS on an undirected graph there are no cross edges — only tree edges and back edges."
+    ],
+    "traps": [
+      "BFS = queue and DFS = stack; the swap is the single most common MCQ trap in this area.",
+      "BFS gives shortest paths only for unweighted or unit-weight graphs; weights require Dijkstra.",
+      "One BFS or DFS reaches only the source's component, so a full traversal must loop over all vertices.",
+      "DFS stack depth is O(n) in the worst case, so 'DFS always uses less memory than BFS' is false.",
+      "Traversal order depends on the neighbour ordering in the adjacency list; if the question does not state it, the visiting order is not unique."
+    ],
+    "mnem": "BFS: Broad, uses a queue. DFS: Deep, uses a stack.",
+    "rel": ["Dijkstra's single-source shortest path", "Connectivity, components, vertex and edge connectivity", "Spanning trees and Cayley's formula", "Adjacency matrix, adjacency list, incidence matrix"]
+  }
+]

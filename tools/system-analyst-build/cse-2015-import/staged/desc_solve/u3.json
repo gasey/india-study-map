@@ -1,0 +1,33 @@
+[
+ {
+  "id": "D055",
+  "q": "Explain the concept of Recursion.",
+  "unit": "3",
+  "sub": "Recursion"
+ },
+ {
+  "id": "D056",
+  "q": "Explain the steps to check whether a given expression is balanced or unbalanced.",
+  "unit": "3",
+  "sub": "Balanced expression check (stack)"
+ },
+ {
+  "id": "D057",
+  "q": "Analyze the time complexity of Prim's Algorithm.",
+  "unit": "3",
+  "sub": "Prim's algorithm complexity"
+ },
+ {
+  "id": "D058",
+  "q": "Sort the array {14, 23, 43, 56, 34, 65, 34, 76, 87, 98, 45, 23, 45, 12, 34, 56} using Merge Sort.",
+  "unit": "3",
+  "sub": "Merge sort"
+ },
+ {
+  "id": "D098",
+  "q": "Identify the heap from the following sequences and determine it is min or max binary heap (a) 1, 3, 2, 4, 6, 5 (b) 6,5,3,4,2,1 (c) 30,12,90,8,15 (d) Jack, Queen, King, Rahul, Frick, Laxman (e) Queen, laxman, king, Frick, Eigen, Hive",
+  "unit": "3",
+  "sub": "Binary heaps",
+  "recovered": true
+ }
+]

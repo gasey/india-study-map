@@ -1,0 +1,398 @@
+[
+ {
+  "id": "N0644",
+  "ans": "A",
+  "conf": "high",
+  "exp": "{a^n b^n c^n} is context-sensitive; context-sensitive languages are decidable, so this language is recursive.",
+  "sub": "Context-sensitive languages",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0645",
+  "ans": "A",
+  "conf": "high",
+  "exp": "L2 and L3 are regular, so their concatenation L2.L3 is regular (regular languages are closed under concatenation). A context-free language intersected with a regular language is always context-free (a standard closure property), so the result is context-free.",
+  "sub": "Closure properties",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0646",
+  "ans": "A",
+  "conf": "high",
+  "exp": "Regular languages are a subset of context-free languages, and CFLs are closed under union, so a CFL unioned with a regular language is always a context-free language.",
+  "sub": "Closure properties",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0647",
+  "ans": "C",
+  "conf": "high",
+  "exp": "R is missing (3,3) and (4,4), so it is not reflexive. Every pair has its reverse present — (2,3)/(3,2) and (3,4)/(4,3) — so R is symmetric. But (3,2) and (2,3) are both in R while (3,3) is not, so R fails transitivity. Hence R is symmetric only.",
+  "sub": "Relation properties",
+  "mode": "calculate",
+  "broken": false
+ },
+ {
+  "id": "N0648",
+  "ans": "C",
+  "conf": "high",
+  "exp": "Union of two equivalence relations stays reflexive and symmetric; taking the transitive closure only adds pairs needed for transitivity and preserves reflexivity and symmetry, so the result is again an equivalence relation.",
+  "sub": "Equivalence relations",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0649",
+  "ans": "D",
+  "conf": "high",
+  "exp": "Regular expressions, DFAs, and NFAs (with or without epsilon-transitions) are all equally expressive, so any transition graph has an equivalent form in each.",
+  "sub": "Automata equivalence",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0650",
+  "ans": "B",
+  "conf": "medium",
+  "exp": "The intersection of a context-free language and a regular language is always context-free (a standard closure property) — it is not guaranteed to be regular. The option list here is corrupted (only 3 entries, with the third merging two choices together), so the letter mapping is uncertain even though the underlying fact is well established.",
+  "sub": "Closure properties",
+  "mode": "understand",
+  "broken": true
+ },
+ {
+  "id": "N0651",
+  "ans": "A",
+  "conf": "high",
+  "exp": "A pushdown automaton becomes as powerful as a Turing machine once it has two stacks (two auxiliary stacks can simulate a Turing machine's tape).",
+  "sub": "Pushdown automata",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0652",
+  "ans": "A",
+  "conf": "high",
+  "exp": "A tree is acyclic by definition, so it contains zero circuits regardless of the number of nodes.",
+  "sub": "Trees",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0653",
+  "ans": "B",
+  "conf": "high",
+  "exp": "A tree can be characterized as a minimally connected graph — connected, but removing any single edge disconnects it.",
+  "sub": "Trees",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0654",
+  "ans": "B",
+  "conf": "high",
+  "exp": "Every connected graph has at least one spanning tree; the minimum possible number of spanning trees a connected graph can have is 1 (achieved when the graph is itself already a tree).",
+  "sub": "Spanning trees",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0655",
+  "ans": "C",
+  "conf": "high",
+  "exp": "The rank of a graph is defined as n - k, the number of vertices minus the number of connected components.",
+  "sub": "Graph rank and nullity",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0656",
+  "ans": "B",
+  "conf": "high",
+  "exp": "The nullity (circuit rank) of a graph is defined as e - n + k, edges minus vertices plus components.",
+  "sub": "Graph rank and nullity",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0657",
+  "ans": "B",
+  "conf": "high",
+  "exp": "A tree has a unique path between any two vertices — that uniqueness (no cycles) is exactly what makes it a tree.",
+  "sub": "Trees",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0658",
+  "ans": "B",
+  "conf": "high",
+  "exp": "To disconnect a vertex from a complete graph Kn you must remove all n-1 edges incident to it, and that is the minimum cut, so the edge connectivity is n-1.",
+  "sub": "Graph connectivity",
+  "mode": "calculate",
+  "broken": false
+ },
+ {
+  "id": "N0659",
+  "ans": "C",
+  "conf": "high",
+  "exp": "A circuit passing through every vertex exactly once is a Hamiltonian circuit, by definition.",
+  "sub": "Hamiltonian graphs",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0660",
+  "ans": "A",
+  "conf": "high",
+  "exp": "A Hamiltonian path visits all n vertices exactly once, using n-1 edges to connect them in sequence.",
+  "sub": "Hamiltonian graphs",
+  "mode": "calculate",
+  "broken": false
+ },
+ {
+  "id": "N0661",
+  "ans": "B",
+  "conf": "high",
+  "exp": "A connected graph is Eulerian iff every vertex has even degree — this guarantees an Eulerian circuit exists.",
+  "sub": "Euler graphs",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0662",
+  "ans": "C",
+  "conf": "high",
+  "exp": "For a connected graph with n vertices, the incidence matrix has rank n-1 (one row is always a linear combination of the others).",
+  "sub": "Incidence matrix",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0663",
+  "ans": "C",
+  "conf": "high",
+  "exp": "If k is stated to be the number of colors actually required for a proper coloring, that k is, by definition, the chromatic number.",
+  "sub": "Graph coloring",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0664",
+  "ans": "A",
+  "conf": "high",
+  "exp": "With no edges at all, no two vertices are adjacent, so a single color suffices — the graph is 1-chromatic regardless of n.",
+  "sub": "Graph coloring",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0665",
+  "ans": "B",
+  "conf": "high",
+  "exp": "Having at least one edge means its two endpoints must get different colors, so at least 2 colors are required.",
+  "sub": "Graph coloring",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0666",
+  "ans": "D",
+  "conf": "high",
+  "exp": "In a complete graph Kn every pair of vertices is adjacent, so all n vertices need distinct colors — it is n-chromatic.",
+  "sub": "Graph coloring",
+  "mode": "calculate",
+  "broken": false
+ },
+ {
+  "id": "N0667",
+  "ans": "C",
+  "conf": "high",
+  "exp": "The Four Color Theorem states that every planar graph can be properly colored with at most 4 colors.",
+  "sub": "Graph coloring",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0668",
+  "ans": "B",
+  "conf": "high",
+  "exp": "By the subset construction, every NFA can be converted into an equivalent DFA, so a DFA can always simulate an NFA.",
+  "sub": "Automata equivalence",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0669",
+  "ans": "D",
+  "conf": "high",
+  "exp": "(a|b)(a|b) concatenates two independent choices of a or b, producing every 2-letter string over {a,b}: aa, ab, ba, bb.",
+  "sub": "Regular expressions",
+  "mode": "calculate",
+  "broken": false
+ },
+ {
+  "id": "N0670",
+  "ans": "C",
+  "conf": "high",
+  "exp": "'(a|b)*' allows any number (including zero) of a's and b's in any combination, matching 'zero or more instances of a and b'.",
+  "sub": "Regular expressions",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0671",
+  "ans": "C",
+  "conf": "medium",
+  "exp": "All-even-length strings over {0,1} are formed by concatenating 2-character blocks, i.e. ((0|1)(0|1))* = (00|01|10|11)*, matching option (c) once its OCR-mangled '|' separators are restored. Option (d) can produce odd lengths too, so it doesn't fit.",
+  "sub": "Regular expressions",
+  "mode": "calculate",
+  "broken": false
+ },
+ {
+  "id": "N0672",
+  "ans": "D",
+  "conf": "high",
+  "exp": "'(a|b)*' generates every possible string (including the empty string) over the alphabet {a,b}.",
+  "sub": "Regular expressions",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0673",
+  "ans": "A",
+  "conf": "high",
+  "exp": "A simple FSM reads its input once, left to right, with no ability to move back or reread — equivalent to a Turing machine with a finite tape, no rewind, and unidirectional movement.",
+  "sub": "Turing machines",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0674",
+  "ans": "C",
+  "conf": "high",
+  "exp": "A Turing machine's infinite read-write tape lets it remember arbitrarily long input sequences and revisit them, which is exactly the extra power an FSM (bounded to its finite states) lacks.",
+  "sub": "Turing machines",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0675",
+  "ans": "D",
+  "conf": "high",
+  "exp": "Context-sensitive languages are exactly the languages recognized by linear bounded automata (a Turing machine restricted to tape length proportional to the input).",
+  "sub": "Chomsky hierarchy",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0676",
+  "ans": "C",
+  "conf": "high",
+  "exp": "Context-free languages are closed under union, concatenation ('product'), and Kleene star, but not under complementation (or intersection) in general.",
+  "sub": "Closure properties",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0677",
+  "ans": "C",
+  "conf": "high",
+  "exp": "Recognizing even palindromes requires guessing the midpoint of the string, which needs nondeterminism; a deterministic PDA cannot do this, but a nondeterministic PDA can.",
+  "sub": "Pushdown automata",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0294",
+  "ans": "D",
+  "conf": "high",
+  "exp": "The standard finite automaton 5-tuple is (Q, Σ, δ, q0, F) — states, input alphabet, transition function, start state, and accepting states. An output alphabet belongs to Mealy/Moore machines (6-tuples), not a plain acceptor automaton.",
+  "sub": "Finite automata",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0295",
+  "ans": "D",
+  "conf": "low",
+  "exp": "None of the listed options match the formal definition of state equivalence (two states are equivalent if no input string can distinguish their accept/reject behavior). Among the flawed choices, 'both are final states' is the closest but still an inadequate/incorrect criterion, so this question is unreliable as printed.",
+  "sub": "Finite automata",
+  "mode": "understand",
+  "broken": true
+ },
+ {
+  "id": "N0296",
+  "ans": "A",
+  "conf": "high",
+  "exp": "A context-free language is inherently ambiguous exactly when every context-free grammar generating it is ambiguous — no unambiguous CFG exists for it.",
+  "sub": "Ambiguous grammars",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0297",
+  "ans": "C",
+  "conf": "high",
+  "exp": "Treating the recurrence as applying from n=1 (a0=1): a1 = 1 + (-1)^1*a0 = 0; a2 = 2 + (-1)^2*a1 = 2; a3 = 3 + (-1)^3*a2 = 1; a4 = 4 + (-1)^4*a3 = 5.",
+  "sub": "Recurrence relations",
+  "mode": "calculate",
+  "broken": false
+ },
+ {
+  "id": "N0298",
+  "ans": "C",
+  "conf": "medium",
+  "exp": "In most standard textbook treatments, both Moore and Mealy machines are defined as 6-tuples (states, input alphabet, output alphabet, transition function, output function, start state) — they differ in how the output function is defined, not in tuple size.",
+  "sub": "Moore and Mealy machines",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0000",
+  "ans": "A",
+  "conf": "high",
+  "exp": "This matches the brief's known OCR pattern where '>' stands in for '→': the standard notation for a mapping/function from set A to set B is A → B.",
+  "sub": "Functions and mappings",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0001",
+  "ans": "A",
+  "conf": "high",
+  "exp": "A mapping is surjective (onto) when every element of the codomain has at least one pre-image in the domain.",
+  "sub": "Functions and mappings",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0002",
+  "ans": "C",
+  "conf": "high",
+  "exp": "A partially ordered set (poset) is a set equipped with a binary relation that is reflexive, antisymmetric, and transitive.",
+  "sub": "Partial orders",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0003",
+  "ans": "C",
+  "conf": "high",
+  "exp": "A lattice is a poset in which every pair of elements has both a least upper bound (join) and a greatest lower bound (meet).",
+  "sub": "Lattices",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0004",
+  "ans": "B",
+  "conf": "high",
+  "exp": "The base case of an induction proof establishes that the hypothesis holds for the starting value (e.g. n=0 or n=1), not for all values.",
+  "sub": "Mathematical induction",
+  "mode": "memorise",
+  "broken": false
+ }
+]

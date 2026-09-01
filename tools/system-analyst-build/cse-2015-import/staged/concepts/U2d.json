@@ -1,0 +1,469 @@
+[
+  {
+    "id": "U2d-01",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Memory hierarchy and locality of reference",
+    "def": "The memory hierarchy is the layering of storage from small, fast, expensive registers down to large, slow, cheap auxiliary memory, arranged so that most references are served by the fast levels.",
+    "exp": "The hierarchy exists because no single memory technology is simultaneously fast, large and cheap. Going down the levels — CPU registers, cache (L1/L2/L3), main memory (DRAM), auxiliary memory (magnetic or solid-state disk), then backup tape and optical media — access time rises, capacity rises, and cost per bit falls. Registers are hundreds of bytes at sub-nanosecond speed; disk is terabytes at milliseconds, a gap of roughly six orders of magnitude.\n\nThe hierarchy only pays off because programs show locality of reference. Temporal locality: a location referenced now is likely to be referenced again soon — loop counters, stack variables, the loop body itself. Spatial locality: locations near one just referenced are likely to be used soon — array traversal and sequential instruction fetch. So a small fast level, kept stocked with the current working set, satisfies the large majority of references and the slow levels are touched rarely.\n\nTwo design consequences follow. Inclusion: the contents of a level are normally a subset of the level below it. And the unit of transfer grows as you descend — words between register and cache, blocks (cache lines) between cache and main memory, pages between main memory and disk — because a disk access is so expensive that you must amortise it over a large transfer.\n\nThe same idea appears twice in different clothes: cache versus main memory, managed entirely by hardware; main memory versus disk, managed by the operating system as virtual memory.",
+    "facts": [
+      "Order fastest to slowest: CPU registers, cache, main memory, auxiliary (disk), magnetic tape / optical backup.",
+      "As you descend the hierarchy: access time increases, capacity increases, cost per bit decreases.",
+      "Temporal locality = same address reused soon; spatial locality = nearby addresses used soon.",
+      "Registers are the fastest memory in a computer; cache is the fastest memory outside the CPU register file.",
+      "Transfer unit grows downward: word (register/cache), block or line (cache/main memory), page (main memory/disk).",
+      "Cache/main-memory transfer is managed by hardware; main-memory/disk transfer is managed by the operating system.",
+      "Main memory and cache are volatile semiconductor memory; auxiliary memory is non-volatile."
+    ],
+    "traps": [
+      "\"Which is the fastest memory?\" — the answer is registers if registers appear in the options; only pick cache if registers are absent. Papers use both versions.",
+      "Cost per bit falls as you go down, but total cost of a level can rise (a 2 TB disk costs more than one register). The examinable quantity is cost per bit.",
+      "Cache is not a part of main memory and is not addressable by the programmer; it is transparent hardware. Virtual memory, by contrast, is visible in the address the program uses.",
+      "Locality is a property of programs, not of hardware. A program with no locality (random access over a huge array) defeats the whole hierarchy.",
+      "Auxiliary/secondary memory means disk and tape. It is not the same as \"backing store\" of the CPU registers, and it is not the cache."
+    ],
+    "mnem": "Down the hierarchy: Slower, Bigger, Cheaper — three arrows, only one points up (time).",
+    "rel": ["Cache memory and hit ratio", "Virtual memory and address translation", "Magnetic disk organisation", "SRAM versus DRAM"]
+  },
+  {
+    "id": "U2d-02",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "RAM vs ROM; SRAM, DRAM and the ROM family",
+    "def": "RAM is read/write volatile main memory built as either SRAM (flip-flop cells, no refresh) or DRAM (one transistor plus a capacitor, requiring periodic refresh), while ROM is non-volatile read-mostly memory whose family runs mask ROM, PROM, EPROM, EEPROM and flash.",
+    "exp": "Both RAM and ROM are random-access: any location takes the same time to reach. The distinction is writability and volatility, not access order. RAM loses its contents on power-off; ROM does not.\n\nAn SRAM cell is a latch, typically six transistors. It holds its value as long as power is applied, so it needs no refresh, switches fast, but is bulky and expensive per bit — which is why it is used for cache. A DRAM cell is one transistor and one tiny capacitor storing charge. That is far denser and cheaper per bit, so it is used for main memory, but the capacitor leaks, so every cell must be read and rewritten periodically. Textbooks say refresh happens \"every few milliseconds\"; the JEDEC DDR requirement is that every row be refreshed within a 64 ms retention window. DRAM is also destructive-read: reading discharges the cell, so the controller writes the value back.\n\nThe ROM family is a progression in how you erase. Mask ROM is programmed during fabrication and can never be changed. PROM is programmed once by the user, by blowing fuse links. EPROM is erased by shining ultraviolet light through a quartz window, which wipes the entire chip. EEPROM is erased electrically, in place, byte by byte. Flash is electrically erasable like EEPROM but in blocks, which makes it faster and denser.",
+    "facts": [
+      "SRAM uses flip-flops (typically 6 transistors per cell), needs no refresh, and is faster and costlier per bit than DRAM.",
+      "A DRAM cell is one transistor plus one capacitor; leakage makes periodic refresh mandatory.",
+      "DRAM read is destructive — the value must be written back after sensing; SRAM read is non-destructive.",
+      "EPROM is erased by exposure to ultraviolet light through a transparent quartz window, and erasure is whole-chip.",
+      "EEPROM is erased electrically and can be erased/rewritten byte by byte, without removing the chip from the board.",
+      "Flash memory is electrically erasable in blocks/sectors, not individual bytes; it is the basis of SSDs and USB drives.",
+      "PROM is one-time programmable — programmed by the user after manufacture by blowing fuses, then permanent.",
+      "Cache is built from SRAM; main memory is built from DRAM."
+    ],
+    "traps": [
+      "\"Random access\" describes both RAM and ROM. ROM is random-access memory in the literal sense; the question is testing whether you know RAM/ROM differ in writability, not in access pattern.",
+      "EPROM erasure = UV light. EEPROM erasure = electrical. Papers put both options side by side and the single word \"ultraviolet\" decides it.",
+      "SRAM is static because it needs no refresh, not because it is non-volatile — SRAM still loses data on power-off. Only ROM/flash are non-volatile.",
+      "DRAM is not slower than SRAM \"because of the refresh\"; it is slower mainly because of the sense-amplifier read of a small charge. Refresh steals a small fraction of bandwidth.",
+      "Flash erases in blocks, EEPROM in bytes. A question asking \"which allows byte-level erase\" wants EEPROM, not flash.",
+      "Mask ROM versus PROM: mask ROM is programmed by the manufacturer, PROM by the user. Both are one-time."
+    ],
+    "mnem": "Erase ladder: mask ROM = never, PROM = never (once written), EPROM = UV, EEPROM = electrical byte, Flash = electrical block.",
+    "rel": ["Memory hierarchy and locality of reference", "Memory unit organisation and capacity", "Cache memory and hit ratio"]
+  },
+  {
+    "id": "U2d-03",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Memory organisation, address space and capacity",
+    "def": "A memory unit of 2^k words by n bits requires k address lines and n data lines, so the number of address lines fixes the size of the address space and the word size fixes how many bits each address returns.",
+    "exp": "A memory chip is specified as (number of words) x (bits per word). With k address lines a decoder can select 2^k distinct words. So a chip marked 1K x 8 has 2^10 = 1024 words, takes 10 address lines and 8 bidirectional data lines, and stores 8192 bits = 1 KB.\n\nWorked example: how many address lines does a 4M x 16 memory need, and what is its capacity in bytes? 4M = 4 x 2^20 = 2^22 words, so 22 address lines. Each word is 16 bits = 2 bytes, so capacity = 2^22 x 2 = 8 MB.\n\nIn the reverse direction, a CPU with a 32-bit address bus has an address space of 2^32 = 4G locations. If it is byte-addressable that is 4 GB; if it were word-addressable with 32-bit words the same 32 address lines would reach 16 GB. The phrase \"byte-addressable\" carries the whole answer.\n\nBuilding a bigger memory from chips uses two moves. To increase the number of words — 8K x 8 from 2K x 8 chips — you need four chips; address lines A0 to A10 (11 lines for 2K) go to every chip in parallel, and the top two lines A11, A12 drive a 2-to-4 decoder feeding the four chip-select inputs. To increase word width — 2K x 16 from 2K x 8 — you place two chips side by side sharing the same address lines and the same chip select.",
+    "facts": [
+      "k address lines select 2^k words; n data lines give a word size of n bits.",
+      "Total capacity in bits = 2^k x n. Divide by 8 for bytes.",
+      "1K = 2^10, 1M = 2^20, 1G = 2^30 when counting memory locations.",
+      "Number of chips needed = (required capacity in bits) / (capacity of one chip in bits); the split between more words and wider words decides the wiring.",
+      "Increasing word count needs a decoder on the high address lines driving chip-select; increasing word width shares address lines across chips.",
+      "A byte-addressable machine with a 32-bit address bus has a 4 GB address space."
+    ],
+    "traps": [
+      "Address space is set by the number of address lines only. Adding data lines widens each word and increases capacity but does not increase the number of addresses.",
+      "\"4K x 8\" means 4096 words of 8 bits = 4096 bytes, not 4096 bits and not 4 KB of 32-bit words. Read the word size.",
+      "Byte-addressable versus word-addressable changes the answer by the word size in bytes. Papers exploit this constantly.",
+      "For 2K words you need 11 address lines, not 10 or 12 — 2K = 2048 = 2^11. Off-by-one on the exponent is the single commonest slip.",
+      "Physical address space (address lines on the bus) and installed memory are different things. A 32-bit CPU can address 4 GB whether or not 4 GB is fitted."
+    ],
+    "mnem": "",
+    "rel": ["RAM vs ROM; SRAM, DRAM and the ROM family", "Cache mapping: direct mapping", "Virtual memory and address translation"]
+  },
+  {
+    "id": "U2d-04",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Cache memory, hit ratio and average access time",
+    "def": "Cache is a small fast SRAM buffer between CPU and main memory holding recently used blocks, and its payoff is measured by the hit ratio and the resulting average memory access time.",
+    "exp": "The CPU issues an address; the cache is checked first. If the block is present that is a hit; otherwise a miss, and the whole block containing the word is fetched from main memory into the cache, exploiting spatial locality so that the neighbouring words are then hits too.\n\nHit ratio h = hits / (hits + misses). Miss rate = 1 - h. Two formulas for average access time circulate, and Indian papers use both, so read the question:\n\nSimultaneous (parallel) access — cache and main memory are started together:\nt_avg = h x t_c + (1 - h) x t_m\n\nHierarchical (series) access — main memory is only started after the cache misses:\nt_avg = t_c + (1 - h) x t_m\n\nWorked example with t_c = 10 ns, t_m = 100 ns, h = 0.95. Simultaneous: 0.95(10) + 0.05(100) = 9.5 + 5 = 14.5 ns. Hierarchical: 10 + 0.05(100) = 15 ns. Both are far below 100 ns, which is the point: a 95% hit ratio buys nearly cache speed at nearly memory cost.\n\nMisses are classified as the three Cs: compulsory (cold-start, the first ever reference to a block), capacity (the working set exceeds the cache), and conflict (blocks collide in the same set even though the cache is not full). Increasing block size helps spatial locality up to a point, then hurts by wasting bandwidth and raising the miss penalty.",
+    "facts": [
+      "Hit ratio h = number of hits / total number of references; miss rate = 1 - h.",
+      "Simultaneous-access average time: t_avg = h.t_c + (1-h).t_m.",
+      "Hierarchical-access average time: t_avg = t_c + (1-h).t_m.",
+      "Miss penalty = extra time to fetch the block from main memory on a miss.",
+      "Three Cs of cache misses: compulsory, capacity, conflict.",
+      "Cache is built from SRAM and is transparent to the programmer — no instruction addresses it.",
+      "The unit transferred between main memory and cache is a block (cache line), not a single word."
+    ],
+    "traps": [
+      "Choosing the wrong access model. If the question says the cache and memory are accessed one after the other, use t_c + (1-h)t_m; if in parallel, use h.t_c + (1-h)t_m. The two differ by h.t_c.",
+      "A hit ratio given as \"90%\" must become 0.9 before it enters the formula.",
+      "On a miss, the whole block is brought in, so the miss cost is a block transfer, not a single word fetch — questions that give block size and memory bandwidth want you to use it.",
+      "A fully associative cache eliminates conflict misses but never compulsory ones. Compulsory misses can only be reduced by prefetching or larger blocks.",
+      "Bigger blocks are not monotonically better: past a point the miss ratio rises again because fewer blocks fit and each miss costs more."
+    ],
+    "mnem": "Three Cs of misses: Compulsory, Capacity, Conflict.",
+    "rel": ["Memory hierarchy and locality of reference", "Cache mapping: direct mapping", "Cache mapping: associative and set-associative", "Cache write and replacement policies"]
+  },
+  {
+    "id": "U2d-05",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Cache mapping: direct mapping",
+    "def": "Direct mapping assigns main-memory block j to exactly one cache line, line number j mod m where m is the number of cache lines, so the address splits into tag, line index and word offset.",
+    "exp": "Every block has one and only one place it may sit. The line index field of the address picks that line directly; the tag stored with the line is then compared against the tag field of the address; equal plus valid bit set means hit.\n\nField widths. Let the address be A bits, block size B bytes, cache size C bytes. Offset = log2(B) bits. Number of lines m = C/B, so index = log2(m) bits. Tag = A - index - offset.\n\nWorked example: main memory 64 KB (16-bit address), cache 2 KB, block size 16 bytes. Offset = log2(16) = 4 bits. Lines = 2048/16 = 128, so index = log2(128) = 7 bits. Tag = 16 - 7 - 4 = 5 bits. Address layout: [tag 5 | line 7 | word 4].\n\nThe attraction is cost. Only one tag comparison is needed, so one comparator, and the line is located by simple decoding — the cheapest and fastest lookup of the three schemes. The cost is conflict misses: two heavily used blocks whose addresses differ only in the tag field map to the same line and evict each other repeatedly, even with the rest of the cache empty. A loop touching two arrays 2 KB apart in the example above will thrash.\n\nThere is no replacement algorithm in direct mapping. The incoming block has exactly one candidate line, so the victim is forced.",
+    "facts": [
+      "Cache line for main-memory block j = j mod (number of cache lines).",
+      "Address fields, in order from most significant: tag, line/index, word offset.",
+      "Offset bits = log2(block size); index bits = log2(number of lines); tag bits = address bits - index - offset.",
+      "Direct mapping needs exactly one tag comparator, so the hardware is the simplest and cheapest.",
+      "Direct mapping requires no replacement policy — the target line is determined by the address.",
+      "Direct mapping suffers the most conflict misses of the three mapping schemes."
+    ],
+    "traps": [
+      "Index bits come from the number of lines, not the cache size in bytes. Cache size / block size first, then take log2.",
+      "Direct mapping does have a hit-detection tag comparison. \"No search\" means no associative search across lines, not that the tag is ignored.",
+      "The tag field is the high-order bits and the offset is the low-order bits. Reversing them is the standard wrong option.",
+      "A direct-mapped cache can miss while mostly empty — that is a conflict miss, and it is exactly what set-associativity fixes.",
+      "Questions asking \"which mapping needs LRU?\" are not asking about direct mapping — it has no choice of victim."
+    ],
+    "mnem": "Direct = one home per block; the index is the house number, the tag is the surname on the door.",
+    "rel": ["Cache mapping: associative and set-associative", "Cache memory, hit ratio and average access time", "Cache write and replacement policies"]
+  },
+  {
+    "id": "U2d-06",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Associative and set-associative cache mapping",
+    "def": "Fully associative mapping lets any block sit in any cache line and searches all tags in parallel, while k-way set-associative mapping divides the cache into sets of k lines, uses the set index to pick a set and then searches only those k tags.",
+    "exp": "Fully associative removes the index field entirely: the address is just [tag | offset]. A block may go anywhere, so conflict misses vanish, but every line's tag must be compared at once, requiring one comparator per line and content-addressable memory. That is expensive, so full associativity is used only for small structures such as the TLB.\n\nSet-associative is the practical compromise. Number of sets s = (number of lines) / k. Address = [tag | set index log2(s) | offset log2(B)].\n\nSame worked machine as before: 16-bit address, 2 KB cache, 16-byte blocks, so 128 lines. Direct-mapped gave 5/7/4. Make it 4-way: sets = 128/4 = 32, so set index = 5 bits, offset stays 4, tag = 16 - 5 - 4 = 7 bits. Fully associative: no index, tag = 16 - 4 = 12 bits.\n\nNotice the pattern — as associativity rises, index bits shrink and tag bits grow by the same amount, and comparators go from 1 to k to m. Direct mapping is the k = 1 case of set-associative; fully associative is the k = m case. Higher associativity lowers the miss ratio but raises hit time and tag-storage overhead, which is why real L1 caches sit at 2-way to 8-way rather than fully associative.",
+    "facts": [
+      "Fully associative address = [tag | offset]; no index field exists.",
+      "k-way set-associative: number of sets = number of lines / k; set index bits = log2(number of sets).",
+      "Block maps to set number = (block number) mod (number of sets); within the set placement is free.",
+      "Comparators required: 1 for direct-mapped, k for k-way, m (one per line) for fully associative.",
+      "Direct mapping is 1-way set-associative; fully associative is m-way where m is the total number of lines.",
+      "Raising associativity shrinks the index field and grows the tag field by exactly the same number of bits.",
+      "Fully associative eliminates conflict misses but has the highest hardware cost and the slowest hit time."
+    ],
+    "traps": [
+      "In k-way mapping the index selects a SET, not a line. Dividing cache size by block size gives lines; you must divide again by k to get sets.",
+      "Doubling associativity does not change the offset field. Only index and tag move, and they move in opposite directions by one bit.",
+      "Fully associative caches still need a replacement policy (LRU, FIFO, random) — removing conflict misses does not remove capacity misses.",
+      "\"Associative mapping is fastest\" is false for hit time; it has the lowest miss ratio but the slowest and costliest lookup.",
+      "Number of tag bits is asked far more often than number of index bits. Compute offset and index first, then subtract — never guess the tag directly."
+    ],
+    "mnem": "k-way: k = 1 is direct, k = m is fully associative; everything in between trades comparators for conflict misses.",
+    "rel": ["Cache mapping: direct mapping", "Associative (content-addressable) memory", "Cache write and replacement policies", "Virtual memory and address translation"]
+  },
+  {
+    "id": "U2d-07",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Cache write policies and replacement policies",
+    "def": "Write-through updates cache and main memory on every write while write-back updates only the cache and defers the memory update until the dirty line is evicted; replacement policies (LRU, FIFO, LFU, random) choose which line to evict when a set is full.",
+    "exp": "Writes are the awkward case for a cache, because a cache copy that differs from memory is a correctness problem, not just a performance one.\n\nWrite-through: every write goes to the cache and to main memory. Memory is always consistent, so DMA devices and other processors see current data and recovery after a failure is simple. The cost is memory traffic on every single write; a write buffer is normally added so the CPU does not stall.\n\nWrite-back (also called copy-back): the write updates only the cache line and sets a dirty bit. Memory is written once, when that line is replaced. Repeated writes to the same line cost one memory write instead of many, so traffic is far lower, but memory is stale between times, which complicates I/O coherence and multiprocessor cache coherence.\n\nOn a write miss there is a second choice: write-allocate (fetch the block into cache, then write — the usual partner of write-back) or no-write-allocate / write-around (write straight to memory, do not load the block — the usual partner of write-through).\n\nReplacement applies only where there is a choice of victim, that is associative and set-associative caches. LRU evicts the line unused for longest and generally performs best but needs age bits per set. FIFO evicts the oldest-loaded line. LFU evicts the least frequently used. Random is cheapest and, at high associativity, surprisingly close to LRU.",
+    "facts": [
+      "Write-through keeps main memory always consistent with the cache; write-back does not.",
+      "Write-back uses a dirty (modified) bit per line and writes to memory only on replacement of a dirty line.",
+      "Write-back generates less memory traffic than write-through when a line is written repeatedly.",
+      "Write miss options: write-allocate (load the block first) versus no-write-allocate / write-around.",
+      "Direct-mapped caches need no replacement policy; the victim is determined by the address.",
+      "Common replacement policies: LRU, FIFO, LFU, and random.",
+      "A clean line being replaced in a write-back cache needs no memory write at all."
+    ],
+    "traps": [
+      "Write-through is simpler and safer but slower on writes; write-back is faster but leaves memory stale. Papers ask which is better for DMA/multiprocessor coherence — the answer is write-through.",
+      "The dirty bit belongs to write-back only. A write-through cache never needs one.",
+      "Replacement policy questions on a direct-mapped cache are a trap — there is nothing to choose.",
+      "LRU is not the same as FIFO. FIFO is the order of loading; LRU is the order of last use. On many short reference strings they coincide, so read which one the question names.",
+      "Write-back does not mean writes are lost on power failure by design — it means the memory copy is stale until eviction or an explicit flush.",
+      "Belady's optimal (evict the line used furthest in the future) is a theoretical bound only; it cannot be implemented because it needs the future."
+    ],
+    "mnem": "Write-through = tell memory now. Write-back = tell memory later, and the dirty bit is the reminder.",
+    "rel": ["Cache mapping: associative and set-associative", "Cache memory, hit ratio and average access time", "Virtual memory and address translation"]
+  },
+  {
+    "id": "U2d-08",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Virtual memory, page tables, TLB and MMU",
+    "def": "Virtual memory gives each program an address space larger than physical memory by translating virtual addresses to physical addresses through a page table, with the translation done in hardware by the memory management unit and accelerated by the translation lookaside buffer.",
+    "exp": "The program issues virtual (logical) addresses. The MMU translates each one to a physical address before it reaches memory. With paging, the virtual address splits into [page number | offset]; the offset passes through unchanged, and the page number indexes the page table to give a frame number, which is concatenated with the offset to form the physical address. Page size is a power of two, so the split is a wire split, not arithmetic.\n\nWorked split: 32-bit virtual address, 4 KB pages. Offset = 12 bits, page number = 20 bits, so 2^20 = 1M page-table entries per process. Each entry carries a frame number plus valid, dirty, referenced and protection bits.\n\nA page table in memory means every reference costs two memory accesses — one to read the entry, one for the data. The TLB fixes this: a small fully associative cache of recent page-table entries, typically tens to a few hundred entries, searched in parallel.\n\nEffective access time with a single-level page table, TLB access t_tlb, memory access t_m, TLB hit ratio h:\nEAT = h(t_tlb + t_m) + (1 - h)(t_tlb + 2 t_m)\nWith t_tlb = 20 ns, t_m = 100 ns, h = 0.8: 0.8(120) + 0.2(220) = 96 + 44 = 140 ns.\n\nIf the valid bit says the page is not resident, the MMU raises a page fault and the operating system fetches the page from disk.",
+    "facts": [
+      "Virtual address = page number + offset; physical address = frame number + the same offset.",
+      "Page size is always a power of two, so offset bits = log2(page size).",
+      "Number of page-table entries = 2^(virtual address bits - offset bits).",
+      "The TLB is a small, usually fully associative, cache of page-table entries.",
+      "Without a TLB, one logical reference costs two physical memory accesses with a single-level page table.",
+      "EAT = h(t_tlb + t_m) + (1-h)(t_tlb + 2 t_m) for a TLB hit ratio h and one-level page table.",
+      "A page fault is raised when the valid bit of the entry is clear; the OS, not the hardware, resolves it from disk.",
+      "Pages and frames are the same size — a page is the unit in virtual space, a frame the slot in physical memory."
+    ],
+    "traps": [
+      "The offset is not translated. Only the page number goes through the table, which is why page size fixes the offset width.",
+      "Page (virtual) versus frame (physical) versus segment. A frame is physical; calling the physical slot a \"page\" loses the mark on a definitions question.",
+      "Virtual memory is a memory-management technique, not a type of physical memory and not the same thing as the swap file, though the swap area is where non-resident pages live.",
+      "The TLB caches address translations, not data. A TLB hit still needs a memory access to get the actual word.",
+      "Paging suffers internal fragmentation (the last partly-used page), not external. Segmentation is the one with external fragmentation.",
+      "Cache and virtual memory both use blocks, hit ratios and replacement — but the cache is hardware-managed against main memory, while virtual memory is OS-managed against disk, and the miss penalty differs by a factor of thousands."
+    ],
+    "mnem": "Page number in, frame number out; the offset rides through untouched.",
+    "rel": ["Memory hierarchy and locality of reference", "Associative (content-addressable) memory", "Cache write and replacement policies", "Memory organisation, address space and capacity"]
+  },
+  {
+    "id": "U2d-09",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Associative (content-addressable) memory",
+    "def": "Associative memory, also called content-addressable memory, is searched by the contents of a data field rather than by an address, comparing the search argument against every stored word in parallel in one clock cycle.",
+    "exp": "Ordinary memory takes an address and returns contents. Associative memory takes contents and returns which words match, and it does so for all words simultaneously, so search time is independent of how many words are stored.\n\nThe standard organisation (Mano) is m words of n bits, plus three registers. The argument register A holds the value being searched for. The key register K is a mask: only the bit positions where K has a 1 take part in the comparison, so you can match on a field within the word rather than the whole word. The match register M has one bit per word, set to 1 for every word that matched. Reading out the matched words then requires a priority-resolving circuit if more than one bit of M is set.\n\nThe cost is that every cell needs its own comparison logic, so a CAM is several times larger and more power-hungry per bit than SRAM. This is why associative memory is confined to small, hot structures where parallel search is worth the price: TLBs, fully associative cache tag arrays, and network router forwarding tables.\n\nExample of the key mask: search for records whose department field equals \"05\" while ignoring the name and salary fields — set K to 1s over the department bits and 0s elsewhere, load \"05\" into the corresponding bits of A, and every matching word raises its M bit at once.",
+    "facts": [
+      "Associative memory is accessed by content, not by address; the alternative name is content-addressable memory (CAM).",
+      "Search time is one comparison cycle regardless of the number of stored words, because all words are compared in parallel.",
+      "Standard registers: argument register A (search value), key register K (mask selecting which bits are compared), match register M (one bit per word).",
+      "A 0 in a bit position of the key register makes that bit position irrelevant to the match.",
+      "Cost per bit is much higher than RAM because every cell carries its own comparison logic.",
+      "Principal uses: TLBs, fully associative cache tag storage, and router/switch lookup tables."
+    ],
+    "traps": [
+      "Associative memory is not the same as \"associative mapping of cache\" — the mapping scheme is an application that uses a CAM for its tags. A question may name either.",
+      "Search time does not grow with memory size. That is the entire point, and \"O(n) search\" is the standard wrong option.",
+      "The key register is a mask, not a second search value. Bits set to 0 in K are ignored, not required to be 0.",
+      "More than one word can match, so a match resolver is needed; a CAM does not automatically return a unique result.",
+      "CAM is faster than RAM only for searching. For an ordinary read-by-address it offers no advantage and costs far more."
+    ],
+    "mnem": "A asks, K masks, M marks.",
+    "rel": ["Cache mapping: associative and set-associative", "Virtual memory, page tables, TLB and MMU", "RAM vs ROM; SRAM, DRAM and the ROM family"]
+  },
+  {
+    "id": "U2d-10",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Magnetic disk geometry and access time",
+    "def": "A magnetic disk stores data on concentric rings called tracks, each divided into sectors, with the same-radius tracks across all surfaces forming a cylinder, and total access time is the sum of seek time, rotational latency and transfer time.",
+    "exp": "Get the vocabulary exact, because this is where the marks are lost. A platter is one rigid disk; it has two recording surfaces. A track is one concentric ring on a single surface — data is organised in concentric rings called tracks, not spirals (a CD is the spiral). A sector is an angular division of a track and is the smallest independently addressable unit, classically 512 bytes. A cylinder is the set of tracks at the same radius on all surfaces, i.e. all the tracks reachable without moving the arm. A block or cluster is the OS-level allocation unit, one or more sectors.\n\nCapacity = surfaces x tracks per surface x sectors per track x bytes per sector. Example: 4 platters = 8 surfaces, 1000 tracks per surface, 500 sectors per track, 512 bytes per sector gives 8 x 1000 x 500 x 512 = 2,048,000,000 bytes, about 2 GB. The number of cylinders equals the tracks per surface, 1000.\n\nAccess time has three components. Seek time moves the head to the right cylinder (mechanical, the largest and most variable part). Rotational latency waits for the sector to arrive under the head; on average half a revolution. Transfer time is the time for the data to spin past.\n\nAt 7200 rpm one revolution takes 60/7200 = 8.33 ms, so average rotational latency is 4.17 ms. With 5 ms average seek and 500 sectors per track, one sector transfers in 8.33/500 = 0.017 ms, giving about 9.2 ms total.",
+    "facts": [
+      "Data on a disk surface is organised in concentric rings called tracks.",
+      "A sector is a division of a track and is the smallest addressable unit, classically 512 bytes.",
+      "A cylinder is the set of tracks of the same radius across all surfaces — reachable with no head movement.",
+      "One platter has two recording surfaces; a disk pack of p platters has 2p surfaces.",
+      "Average rotational latency = half a revolution = 30/RPM seconds = (60/RPM)/2.",
+      "At 7200 rpm one revolution is 8.33 ms and average rotational latency is about 4.17 ms.",
+      "Access time = seek time + rotational latency + transfer time (plus controller/queuing overhead).",
+      "Capacity = surfaces x tracks per surface x sectors per track x bytes per sector."
+    ],
+    "traps": [
+      "Tracks are concentric rings; the spiral track belongs to CD/DVD, not to a magnetic hard disk. This exact wording is used as a distractor.",
+      "Cylinder versus track: a track is on one surface, a cylinder spans all surfaces. \"Number of cylinders\" equals \"number of tracks per surface\", not total tracks.",
+      "Rotational latency is HALF a revolution on average, not a full one. Full revolution is the worst case.",
+      "Seek time is not the whole access time, and it is not the same as latency. Papers use \"latency\" specifically for the rotational component.",
+      "In the classic constant-angular-velocity layout every track holds the same number of sectors, so outer tracks are less dense. Modern zoned recording (ZBR) puts more sectors on outer tracks — textbook questions usually assume the constant-sectors-per-track model.",
+      "Platter, surface, head, track, sector, cylinder, block are seven distinct words; MCQs pick two adjacent ones as the answer and the distractor."
+    ],
+    "mnem": "Seek moves the arm, Latency waits for the spin, Transfer reads the bits — arm, spin, bits.",
+    "rel": ["Memory hierarchy and locality of reference", "Virtual memory, page tables, TLB and MMU"]
+  },
+  {
+    "id": "U2d-11",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Pipelining: speedup, efficiency, throughput",
+    "def": "Pipelining overlaps the execution of successive tasks by splitting the work into k independent stages separated by latches, so that k tasks are in flight at once and one result emerges every clock period after the pipeline fills.",
+    "exp": "Divide the operation into k segments of roughly equal delay, separate them with registers, and clock them together. Task 1 enters stage 1; when it moves to stage 2, task 2 enters stage 1; and so on. After k - 1 clocks the pipeline is full and thereafter one task completes per clock.\n\nTime for n tasks on a k-stage pipeline with clock period t_p:\nT_pipe = (k + n - 1) t_p — that is k clocks for the first task plus n - 1 clocks for the rest.\nNon-pipelined time for the same work: T_seq = n x t_n, where t_n is the time one task takes in the undivided unit; the usual assumption is t_n = k.t_p.\n\nSpeedup S = T_seq / T_pipe = n.k / (k + n - 1). As n tends to infinity, S tends to k — the number of stages is the ceiling.\n\nWorked: k = 4, n = 100. S = 400/103 = 3.88. Efficiency = S/k = 3.88/4 = 0.97, i.e. the stages are busy 97% of the time. Throughput = n / ((k + n - 1) t_p) = 1/t_p in the limit — one result per clock period.\n\nThe clock period is set by the slowest stage plus the latch delay, so an unbalanced pipeline wastes the difference on every stage every cycle. That, plus latch overhead, is why adding stages indefinitely does not keep improving performance.",
+    "facts": [
+      "Time for n tasks in a k-stage pipeline = (k + n - 1) x t_p clock periods worth of time.",
+      "Speedup S = n.k / (k + n - 1); the limiting speedup as n grows large is k.",
+      "Efficiency = S / k = n / (k + n - 1); throughput = n / ((k + n - 1) t_p).",
+      "Clock period t_p = delay of the slowest stage + latch (register) delay.",
+      "The pipeline fill time (latency for the first result) is k clock periods; after that, one result per clock.",
+      "Pipelining improves throughput, not the latency of any individual task — a single task takes at least as long as before.",
+      "Two broad kinds: arithmetic pipelines (inside one functional unit) and instruction pipelines (across instructions)."
+    ],
+    "traps": [
+      "Speedup is k only in the limit of many tasks. For small n it is markedly less — with k = 4 and n = 4 it is 16/7 = 2.29, not 4.",
+      "Pipelining does not reduce the execution time of one instruction; it usually slightly increases it because of latch delays. It increases the rate of completion.",
+      "The clock is set by the SLOWEST stage, not the average. Balancing stages is the design goal, and an unbalanced split is the standard exam gotcha.",
+      "(k + n - 1), not (k + n) and not k.n. Off-by-one here changes the numeric answer on every pipeline question.",
+      "Efficiency and throughput are different quantities: efficiency is dimensionless (S/k), throughput is tasks per unit time."
+    ],
+    "mnem": "k + n - 1: fill the pipe (k), then one out per tick for the remaining n - 1.",
+    "rel": ["Arithmetic pipeline (floating-point adder)", "Instruction pipelining", "Pipeline hazards", "Amdahl's law"]
+  },
+  {
+    "id": "U2d-12",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Arithmetic pipeline: floating-point adder",
+    "def": "An arithmetic pipeline splits a single arithmetic operation into sub-operations in separate hardware segments, the standard example being a four-segment floating-point adder that compares exponents, aligns mantissas, adds, then normalises.",
+    "exp": "Arithmetic pipelining applies the pipeline idea inside one functional unit, so a stream of operands produces one result per clock even though each individual addition still passes through all four stages.\n\nThe classic four segments of a floating-point adder/subtractor:\n1. Compare the exponents by subtraction — the difference gives the required shift, and the larger exponent becomes the tentative result exponent.\n2. Align the mantissa — shift the mantissa of the smaller number right by that difference.\n3. Add or subtract the mantissas.\n4. Normalise the result — shift the mantissa and adjust the exponent so the result is in standard form.\n\nMano's worked example, in decimal for clarity:\nX = 0.9504 x 10^3, Y = 0.8200 x 10^2.\nSegment 1: exponents are 3 and 2; difference 1; larger exponent 3.\nSegment 2: align Y by shifting right one place: Y = 0.0820 x 10^3.\nSegment 3: add mantissas: 0.9504 + 0.0820 = 1.0324, giving 1.0324 x 10^3.\nSegment 4: normalise: 0.10324 x 10^4.\n\nEach segment has its own registers and combinational logic, so while X and Y are being normalised in segment 4, the next pair is already being added in segment 3. Fixed-point multiplication is pipelined similarly, by generating partial products in one segment and adding them in a Wallace-tree of subsequent segments.",
+    "facts": [
+      "The four segments of a floating-point adder pipeline: compare exponents, align mantissas, add/subtract mantissas, normalise the result.",
+      "Exponent comparison is done by subtracting the exponents; the difference is the alignment shift count.",
+      "The mantissa of the number with the SMALLER exponent is shifted right during alignment.",
+      "Normalisation may shift left (after cancellation in subtraction) or right (after a carry-out in addition), adjusting the exponent oppositely.",
+      "Each segment holds its own register, so four different operand pairs can be in the adder at once.",
+      "An arithmetic pipeline pipelines one operation; an instruction pipeline pipelines the instruction cycle."
+    ],
+    "traps": [
+      "Alignment shifts the SMALLER exponent's mantissa right to match the larger. Shifting the larger one left is the standard wrong answer and would overflow.",
+      "The order is compare, align, add, normalise. Normalising before adding is a classic reordered-options distractor.",
+      "The result exponent after normalisation is not always the larger input exponent — 1.0324 x 10^3 renormalises to 0.10324 x 10^4, so the exponent went up.",
+      "Arithmetic pipelining does not make one addition faster; it makes a stream of additions faster. Vector operations are where it pays.",
+      "Do not confuse the four floating-point ADDER segments with the four instruction-cycle segments (FI, DA, FO, EX) — questions name both and the option lists overlap in count."
+    ],
+    "mnem": "CAAN: Compare, Align, Add, Normalise.",
+    "rel": ["Pipelining: speedup, efficiency, throughput", "Instruction pipelining", "Vector processing and array processors"]
+  },
+  {
+    "id": "U2d-13",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Instruction pipelining and its stages",
+    "def": "Instruction pipelining overlaps the phases of the instruction cycle across consecutive instructions, so that while one instruction executes, the next fetches its operand and a third is being fetched from memory.",
+    "exp": "The stage list depends on the textbook, and the exam will use one of two:\n\nMano's four-segment instruction pipeline: FI (fetch instruction), DA (decode instruction and calculate the effective address), FO (fetch operand), EX (execute).\n\nThe classic five-stage RISC pipeline: IF (instruction fetch), ID (instruction decode and register read), EX (execute / ALU), MEM (memory access), WB (write back to register). Hamacher and Stallings use further variants with six or more stages; if a question specifies a count, follow the count it gives.\n\nWith the pipeline full, one instruction completes per clock, so ideal CPI = 1 and ideal speedup over a non-pipelined machine is k, the number of stages. Time for n instructions = (k + n - 1) clocks.\n\nWorked: 5-stage pipeline, 1 ns clock, 1000 instructions. Ideal time = (5 + 1000 - 1) x 1 ns = 1004 ns, against 5000 ns unpipelined. Speedup = 4.98, just short of 5.\n\nActual speedup is always lower, for three reasons: the fill and drain overhead just seen, unbalanced stage delays (the clock tracks the slowest stage), and hazards that force stalls. The realistic model is CPI = 1 + (stall cycles per instruction), so a machine with a 0.3 average stall penalty runs at CPI 1.3 and gets speedup 5/1.3 = 3.85 rather than 5.",
+    "facts": [
+      "Mano's four-segment instruction pipeline: FI, DA, FO, EX — decode and effective-address calculation share one segment.",
+      "The classic five-stage RISC pipeline: IF, ID, EX, MEM, WB.",
+      "Ideal CPI of a full scalar pipeline is 1 — one instruction completes per clock cycle.",
+      "Ideal speedup equals the number of stages k; realistic speedup = k / (1 + stalls per instruction).",
+      "n instructions on a k-stage pipeline take (k + n - 1) clock cycles in the absence of hazards.",
+      "Pipelining raises instruction throughput without raising the clock rate or duplicating the whole datapath.",
+      "A superscalar machine issues more than one instruction per cycle, which is a different mechanism from deeper pipelining."
+    ],
+    "traps": [
+      "Four-stage versus five-stage: papers following Mano expect FI/DA/FO/EX; papers following a RISC text expect IF/ID/EX/MEM/WB. Answer with whichever the question's stage count implies.",
+      "\"Speedup equals number of stages\" is the ideal case only — it assumes no hazards, no branches and infinitely many instructions.",
+      "CPI of 1 does not mean an instruction takes one cycle. Each instruction still takes k cycles of latency; one FINISHES per cycle.",
+      "Deeper pipelines are not uniformly better: latch overhead per stage and a larger branch penalty eventually cancel the gain.",
+      "Pipelining is not parallel processing in Flynn's sense — a scalar pipeline is still SISD, with one instruction stream and one data stream."
+    ],
+    "mnem": "Mano four: FI-DA-FO-EX. RISC five: IF-ID-EX-MEM-WB.",
+    "rel": ["Pipelining: speedup, efficiency, throughput", "Pipeline hazards", "Arithmetic pipeline (floating-point adder)", "Parallel processing and Flynn's classification"]
+  },
+  {
+    "id": "U2d-14",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Pipeline hazards and their remedies",
+    "def": "A hazard is a condition that prevents the next instruction from executing in its designated clock cycle, and the three kinds are structural (resource conflict), data (dependence on a result not yet produced) and control (branches).",
+    "exp": "Structural hazard: two stages want the same hardware in the same cycle. The classic case is a single memory port with IF wanting an instruction while MEM wants data. Remedies: duplicate the resource (separate instruction and data caches — the Harvard arrangement), or stall one stage for a cycle.\n\nData hazard: an instruction needs a value a still-in-flight predecessor has not yet written. Three dependence types are named: RAW (read after write, the true dependence, and the only one that arises in a simple in-order pipeline), WAR (write after read, an anti-dependence), and WAW (write after write, an output dependence). WAR and WAW appear only when instructions can complete out of order. Remedies: stall (insert bubbles or NOPs), operand forwarding / bypassing (route the ALU result straight to the next instruction's input instead of waiting for write-back), compiler instruction reordering, and register renaming for WAR/WAW.\n\nControl or branch hazard: after a branch is fetched, the pipeline does not yet know the next address, so the instructions already fetched may be wrong and must be flushed. This is usually the most expensive hazard. Remedies: stall until the target is known; branch prediction, static (always-taken, always-not-taken, backward-taken-forward-not-taken) or dynamic (branch history table, branch target buffer, 2-bit saturating counters); the delayed branch, where the ISA defines one or more delay slots after the branch that always execute and which the compiler fills with useful work or a NOP; and prefetching both target and fall-through paths.",
+    "facts": [
+      "Three hazard classes: structural (resource), data (dependence), control (branch).",
+      "RAW is the true dependence and the only data hazard in a simple in-order pipeline; WAR and WAW require out-of-order completion.",
+      "Operand forwarding (bypassing) resolves most RAW hazards without a stall by routing the result from the ALU output back to an ALU input.",
+      "A load-use RAW hazard usually still costs one stall cycle even with forwarding, because the data is not available until after MEM.",
+      "Delayed branch: the instruction(s) in the branch delay slot execute regardless of whether the branch is taken.",
+      "Separate instruction and data caches remove the commonest structural hazard.",
+      "Dynamic branch prediction hardware includes the branch history table, the branch target buffer, and 2-bit saturating counters.",
+      "Register renaming eliminates WAR and WAW hazards but cannot eliminate RAW."
+    ],
+    "traps": [
+      "Forwarding does not remove ALL data hazards. The load-use case still needs one bubble — this is the specific counterexample examiners want.",
+      "WAR and WAW are name dependences, not real data flow; they can be removed by renaming. RAW cannot be removed by any renaming.",
+      "Branch hazard is a control hazard, not a data hazard, even when the branch condition depends on a register value.",
+      "The delay slot instruction executes whether or not the branch is taken. Saying it executes only when the branch is not taken is the standard distractor.",
+      "A structural hazard is about hardware being busy; a data hazard is about a value not being ready. A single shared memory causes the former, not the latter.",
+      "Branch prediction reduces the average penalty; it does not eliminate it, because mispredictions still flush the pipeline."
+    ],
+    "mnem": "Three hazards, three causes: Structural = no hardware, Data = no value, Control = no address.",
+    "rel": ["Instruction pipelining", "Pipelining: speedup, efficiency, throughput", "Parallel processing and Flynn's classification"]
+  },
+  {
+    "id": "U2d-15",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Parallel processing and Flynn's classification",
+    "def": "Parallel processing performs simultaneous data-processing operations to increase throughput, and Flynn's classification divides computers into SISD, SIMD, MISD and MIMD according to how many instruction streams and how many data streams are active.",
+    "exp": "Parallelism appears at several levels: multiple functional units inside one CPU, pipelining, multiple processors sharing memory, and networks of independent computers. Flynn's taxonomy (proposed by Michael Flynn, 1966) classifies them by two counts — number of instruction streams and number of data streams.\n\nSISD, single instruction single data: the conventional uniprocessor. One control unit, one stream of instructions, one stream of data. Pipelining and multiple functional units do not change the classification, so a pipelined scalar CPU is still SISD.\n\nSIMD, single instruction multiple data: one control unit broadcasts one instruction to many processing elements, each holding different data. Array processors, vector units, and GPU shader cores are the examples. Suits regular data-parallel work such as matrix and image operations.\n\nMISD, multiple instruction single data: several instruction streams operating on the same data stream. No commercially significant general-purpose machine of this type exists; the usual illustrations offered are systolic arrays and redundant fault-tolerant execution, and textbooks generally call the category impractical.\n\nMIMD, multiple instruction multiple data: independent processors each running their own program on their own data. This covers shared-memory multiprocessors and message-passing multicomputers/clusters, and is by far the dominant form of parallel machine today.\n\nOther taxonomies exist — Feng classifies by degree of parallelism (bit and word), Handler by pipeline levels — but Flynn is the one examined.",
+    "facts": [
+      "Flynn's classification is based on the number of instruction streams and the number of data streams.",
+      "The four classes are SISD, SIMD, MISD and MIMD; it was proposed by Flynn in 1966.",
+      "SISD = conventional uniprocessor; a pipelined single-core CPU is still SISD.",
+      "SIMD = array processors, vector processors and GPUs — one instruction, many processing elements, different data each.",
+      "MISD has no significant practical realisation; it is the class textbooks describe as theoretical or impractical.",
+      "MIMD covers shared-memory multiprocessors and distributed-memory multicomputers/clusters.",
+      "MIMD subdivides by memory model: shared memory (tightly coupled) versus message passing (loosely coupled).",
+      "Alternative taxonomies include Feng's (degree of parallelism) and Handler's, but Flynn's is the standard."
+    ],
+    "traps": [
+      "Pipelining is NOT SIMD or MIMD. A pipelined uniprocessor is SISD — the classification counts streams, not overlapped stages.",
+      "MISD is the empty-in-practice class. If a question asks which category has essentially no commercial machines, it is MISD, not SIMD.",
+      "SIMD means one instruction applied to many data items at once, not many instructions applied to one data item — reversing the two is the commonest error.",
+      "Multicore and multiprocessor systems are MIMD, even when running the same program on every core — SPMD (same program, multiple data) is a programming style running on MIMD hardware.",
+      "Flynn's classes are about streams, not about memory organisation. Shared versus distributed memory is a sub-classification within MIMD.",
+      "Vector processing is normally classed SIMD; but a pipelined vector processor achieves it by pipelining a single functional unit, whereas an array processor replicates hardware. Both are SIMD."
+    ],
+    "mnem": "Count the streams: I first, D second. SISD, SIMD, MISD, MIMD — MISD is the odd one nobody builds.",
+    "rel": ["Vector processing and array processors", "Amdahl's law", "Instruction pipelining", "Pipelining: speedup, efficiency, throughput"]
+  },
+  {
+    "id": "U2d-16",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Vector processing and array processors",
+    "def": "Vector processing applies one instruction to an entire ordered set of data elements, implemented either by a pipelined vector processor with vector registers or by an array processor that replicates processing elements under a single control unit.",
+    "exp": "Scientific workloads — matrix arithmetic, weather models, image processing — spend their time in loops over arrays. A vector instruction replaces the whole loop:\n\nC(1:100) = A(1:100) + B(1:100)\n\nOne instruction fetch instead of a hundred, no loop counter, no branch per iteration, and the operands arrive as a stream that keeps a pipelined adder full. That is where the gain comes from: fewer instruction fetches, no loop overhead, and a deeply pipelined functional unit that is never drained.\n\nTwo hardware realisations, and the exam distinguishes them.\n\nAn attached array processor is an auxiliary back-end processor attached to a conventional general-purpose host computer, sharing the host's I/O and operating system, whose sole job is to speed up numerical computation. The host handles everything else.\n\nAn SIMD array processor has a single control unit and many processing elements, each PE with its own ALU and its own local memory. The control unit broadcasts one instruction; every PE executes it on the data in its own memory. A masking scheme lets PEs be selectively disabled so that conditional code can be handled — the disabled PEs simply idle. ILLIAC IV is the historical example.\n\nBoth fall under SIMD in Flynn's scheme. Memory interleaving is normally used alongside, so that consecutive vector elements come from different memory modules and can be fetched concurrently.",
+    "facts": [
+      "A vector instruction specifies an operation over an entire array, e.g. C(1:100) = A(1:100) + B(1:100), replacing an explicit loop.",
+      "Vector processing gains come from fewer instruction fetches, elimination of loop overhead, and keeping a pipelined functional unit full.",
+      "An attached array processor is a back-end auxiliary processor connected to a general-purpose host to accelerate numerical work.",
+      "An SIMD array processor has one control unit broadcasting to many processing elements, each with its own ALU and local memory.",
+      "Masking in an SIMD array processor selectively disables PEs so conditional operations can be performed.",
+      "Both pipelined vector processors and array processors are SIMD under Flynn's classification.",
+      "Memory interleaving spreads consecutive addresses across modules so vector elements can be fetched in parallel.",
+      "ILLIAC IV is the standard historical example of an SIMD array processor."
+    ],
+    "traps": [
+      "Attached array processor versus SIMD array processor: the first is one auxiliary unit bolted onto a host, the second is many PEs under one control unit. Papers name both and the options are near-identical.",
+      "A vector processor is not MIMD. There is only one instruction stream regardless of how many elements are processed.",
+      "Array processor is not the same as \"a processor that handles arrays in software\" — it is a hardware class with replicated PEs.",
+      "In an SIMD array processor the PEs cannot execute different instructions; conditional behaviour is achieved by masking PEs off, and the masked PEs waste their cycle.",
+      "Vector length is limited by the vector register size; longer vectors must be strip-mined into chunks, so speedup does not scale without bound.",
+      "Pipelined vector processing and array processing are different implementations of the same SIMD idea — pipelining replicates stages in time, an array replicates hardware in space."
+    ],
+    "mnem": "One instruction, many data: pipeline it in time, or array it in space.",
+    "rel": ["Parallel processing and Flynn's classification", "Arithmetic pipeline (floating-point adder)", "Amdahl's law", "Pipelining: speedup, efficiency, throughput"]
+  },
+  {
+    "id": "U2d-17",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Amdahl's law",
+    "def": "Amdahl's law states that the overall speedup from accelerating part of a computation is limited by the fraction that is not accelerated, so if f is the parallelisable fraction and n the number of processors, speedup is 1 / ((1 - f) + f/n).",
+    "exp": "Every program has a serial part that no amount of parallel hardware helps. Amdahl's law quantifies how brutally that caps the return.\n\nS = 1 / ((1 - f) + f/n)\n\nwhere f is the fraction of the original execution time that can be parallelised (or otherwise sped up), 1 - f is the strictly serial fraction, and n is the speedup applied to the parallel part — usually the number of processors.\n\nWorked example: f = 0.9, n = 10 processors. S = 1 / (0.1 + 0.9/10) = 1 / (0.1 + 0.09) = 1/0.19 = 5.26. Ten processors buy a speedup of 5.26, not 10.\n\nThe limit as n tends to infinity is S_max = 1 / (1 - f). With f = 0.9 that ceiling is 10 — so even with a thousand processors you cannot exceed 10x. With a 5% serial fraction the hard ceiling is 20x.\n\nThe same formula governs any partial optimisation, which is why it is also stated as the law of diminishing returns for enhancements: making a component twice as fast when it accounts for 20% of runtime gives S = 1/(0.8 + 0.1) = 1.11, an 11% gain.\n\nGustafson's law offers the counter-argument: in practice the problem size grows with the machine, so the serial fraction shrinks as n rises, and the pessimistic fixed-f ceiling need not apply to real scaled workloads.",
+    "facts": [
+      "Amdahl's law: S = 1 / ((1 - f) + f/n), with f the enhanced/parallelisable fraction and n the speedup of that fraction.",
+      "Maximum possible speedup, as n tends to infinity, is 1/(1 - f) — set by the serial fraction alone.",
+      "With f = 0.9 and n = 10, speedup is 5.26; the ceiling for f = 0.9 is 10 no matter how many processors.",
+      "A 5% serial fraction caps overall speedup at 20x.",
+      "The law applies to any partial enhancement, not only to parallel processors.",
+      "Gustafson's law is the scaled-speedup counterpart, arguing the serial fraction shrinks as the problem grows with the machine."
+    ],
+    "traps": [
+      "f is the fraction of TIME that is parallelisable, not the fraction of code lines. A three-line loop can be 95% of runtime.",
+      "The ceiling is 1/(1-f), not f or n. Questions asking for \"maximum speedup with unlimited processors\" want 1/(1-f).",
+      "Do not divide the serial part by n. Only the f term gets f/n; the (1 - f) term is untouched — that is the whole content of the law.",
+      "Amdahl's law describes fixed problem size. Gustafson's law changes the assumption, so a question mentioning a growing workload may want Gustafson, not Amdahl.",
+      "Speedup n in the formula is not always the processor count — for a component enhancement it is that component's own speedup factor."
+    ],
+    "mnem": "Only the parallel part gets divided; the serial part is the wall you cannot climb.",
+    "rel": ["Parallel processing and Flynn's classification", "Vector processing and array processors", "Pipelining: speedup, efficiency, throughput"]
+  }
+]

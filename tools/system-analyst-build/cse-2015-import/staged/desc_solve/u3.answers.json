@@ -1,0 +1,87 @@
+[
+ {
+  "id": "D055",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Recursion",
+  "ans": "Recursion is a problem-solving technique in which a function solves a problem by calling itself on a smaller instance of the same problem, until the instance is small enough to be answered directly.\n\nEvery correct recursive routine has two parts. The base case is the instance solved with no further call; it is what terminates the recursion. The recursive case reduces the problem strictly towards the base case and combines the sub-result. Omitting the base case, or writing a recursive case that does not move towards it, produces infinite recursion and a stack overflow.\n\nAt run time each call pushes an activation record (stack frame) onto the system stack holding the actual parameters, local variables and the return address; the frame is popped when the call returns. So recursion costs O(depth) extra memory even when the code is short.\n\nExample - factorial:\nfact(n) = 1 if n = 0 (base case), else n * fact(n-1) (recursive case).\nfact(4) = 4*fact(3) = 4*3*fact(2) = 4*3*2*fact(1) = 4*3*2*1*fact(0) = 4*3*2*1*1 = 24, unwound after five frames.\n\nDirect recursion is a function calling itself; indirect or mutual recursion is A calling B which calls A. Tail recursion, where the call is the last action performed, can be turned back into a loop by the compiler.",
+  "points": [
+   "Defines recursion as a function calling itself on a smaller instance of the same problem",
+   "Names both required parts: base case (terminating condition) and recursive case that reduces towards it",
+   "States that a missing or unreachable base case gives infinite recursion / stack overflow",
+   "Explains the run-time cost: one activation record per call on the system stack, so O(depth) extra space",
+   "Gives a worked example such as fact(4) = 4*3*2*1*1 = 24 with the unwinding shown",
+   "Mentions direct vs indirect (mutual) recursion, and tail recursion being convertible to iteration"
+  ],
+  "conf": "high",
+  "incomplete": false
+ },
+ {
+  "id": "D056",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Balanced expression check (stack)",
+  "ans": "Use a stack: the next closing bracket must match the most recently opened bracket still unclosed - exactly last-in-first-out behaviour.\n\nSteps. Create an empty stack and scan left to right, one symbol at a time.\n1. If the symbol is an opening bracket - ( , [ or { - push it on the stack.\n2. If the symbol is a closing bracket - ) , ] or } - then if the stack is empty, report unbalanced and stop (a closer with no opener). Otherwise pop the top symbol; if the popped opener is not the matching type for this closer, report unbalanced and stop.\n3. Operands and operators are ignored.\nAfter the scan, an empty stack means balanced; anything left on it means those openers were never closed, so unbalanced.\n\nTrace of { a + ( b - c ) * [ d ] } : push { ; push ( ; ) pops ( - matches ; push [ ; ] pops [ - matches ; } pops { - matches ; stack empty, so balanced.\nTrace of ( a + [ b ) ] : push ( ; push [ ; ) pops [ - wrong type, so unbalanced.\n\nFor n symbols the scan is O(n) time and O(n) worst-case stack space.",
+  "points": [
+   "Identifies the stack as the right structure and gives the LIFO justification (innermost open bracket closes first)",
+   "Push on every opening bracket; on a closing bracket pop and compare types",
+   "States the two failure conditions during the scan: pop from an empty stack, and a type mismatch on pop",
+   "States the terminating condition: balanced only if the stack is empty after the full scan",
+   "Traces at least one balanced and one unbalanced example, e.g. ( a + [ b ) ] fails because ) pops [",
+   "Gives O(n) time and O(n) worst-case space"
+  ],
+  "conf": "high",
+  "incomplete": false
+ },
+ {
+  "id": "D057",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Prim's algorithm complexity",
+  "ans": "Prim's algorithm grows one tree: over V-1 iterations it repeatedly adds the minimum-weight edge crossing from the tree to a vertex outside it. The cost therefore depends entirely on how extract-min and decrease-key are implemented.\n\nAdjacency matrix with a linear scan of key[]. Each of the V iterations scans all V vertices to find the minimum key, which is O(V), and then relaxes the chosen vertex's whole matrix row, another O(V). Total = V * (V + V) = O(V^2) time. Space is O(V) for key[], parent[] and the in-tree flags, on top of the O(V^2) matrix itself.\n\nAdjacency list with a binary min-heap. Building the heap is O(V). There are V extract-min operations at O(log V) each, and each of the E edges is examined and may cause one decrease-key at O(log V). Total = O(V log V + E log V) = O(E log V) for a connected graph, since E >= V-1.\n\nWhich to prefer: in a dense graph E is theta(V^2), so the heap version degrades to O(V^2 log V) - worse than the matrix version, so use O(V^2) there. In a sparse graph (E much less than V^2) O(E log V) wins clearly. A Fibonacci heap improves the bound further to O(E + V log V).",
+  "points": [
+   "States the structure of the algorithm: V-1 iterations, each an extract-min plus edge relaxations",
+   "Adjacency matrix + linear key[] scan: V iterations x (O(V) scan + O(V) row relax) = O(V^2)",
+   "Adjacency list + binary min-heap: V extract-mins at O(log V) plus up to E decrease-keys at O(log V) = O(E log V)",
+   "Justifies collapsing O(V log V + E log V) to O(E log V) using E >= V-1 for a connected graph",
+   "Says the matrix O(V^2) version is preferable for dense graphs (E ~ V^2, where the heap gives O(V^2 log V)) and the heap version for sparse graphs",
+   "Mentions the Fibonacci-heap bound O(E + V log V)"
+  ],
+  "conf": "high",
+  "incomplete": false
+ },
+ {
+  "id": "D058",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Merge sort",
+  "ans": "Merge sort splits the array recursively until each piece holds one element, then merges pieces pairwise by repeatedly taking the smaller front element. With n = 16 there are log2(16) = 4 merge levels.\n\nInput (16 elements):\n14 23 43 56 34 65 34 76 87 98 45 23 45 12 34 56\n\nLevel 1 - merge singletons into runs of 2:\n(14 23) (43 56) (34 65) (34 76) (87 98) (23 45) (12 45) (34 56)\n\nLevel 2 - merge those into runs of 4:\n(14 23 43 56) (34 34 65 76) (23 45 87 98) (12 34 45 56)\n\nLevel 3 - merge into runs of 8:\n(14 23 34 34 43 56 65 76) (12 23 34 45 45 56 87 98)\n\nLevel 4 - final merge of the two halves:\n12 14 23 23 34 34 34 43 45 45 56 56 65 76 87 98\n\nCheck: 16 elements out and the multiset is unchanged - 34 three times, 23, 45 and 56 twice each.\n\nCost: every level touches all n elements once, so each level is O(n) and there are log n levels, giving O(n log n) - here 16 x 4 = 64 element moves - in the best, average and worst case. Merge sort needs O(n) auxiliary space and is stable.",
+  "points": [
+   "Splits down to single elements and merges bottom-up over log2(16) = 4 levels",
+   "Level 1 runs of 2: (14 23) (43 56) (34 65) (34 76) (87 98) (23 45) (12 45) (34 56)",
+   "Level 2 runs of 4: (14 23 43 56) (34 34 65 76) (23 45 87 98) (12 34 45 56)",
+   "Level 3 runs of 8: (14 23 34 34 43 56 65 76) and (12 23 34 45 45 56 87 98)",
+   "Final sorted array (16 elements): 12 14 23 23 34 34 34 43 45 45 56 56 65 76 87 98",
+   "States O(n log n) in all three cases, O(n) auxiliary space, and that merge sort is stable"
+  ],
+  "conf": "high",
+  "incomplete": false
+ },
+ {
+  "id": "D098",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Binary heaps",
+  "ans": "Read each sequence as a complete binary tree stored level by level: with 0-based indexing the children of i sit at 2i+1 and 2i+2. A min-heap needs every parent <= both children, a max-heap every parent >= both children.\n\n(a) 1 3 2 4 6 5 - 1 <= 3, 2 ; 3 <= 4, 6 ; 2 <= 5. Every parent is smaller: MIN-heap.\n\n(b) 6 5 3 4 2 1 - 6 >= 5, 3 ; 5 >= 4, 2 ; 3 >= 1: MAX-heap.\n\n(c) 30 12 90 8 15 - root 30 has children 12 and 90; 12 < 30 but 90 > 30, violating both properties. NOT a heap.\n\n(d) and (e) are names, so they are heaps only under a stated ordering; I assume case-insensitive alphabetical.\n\n(d) Jack, Queen, King, Rahul, Frick, Laxman - Jack < Queen, King suggests min-heap, but Queen has child Frick and Frick < Queen. Not min; not max either (Jack < Queen). NOT a heap.\n\n(e) Queen, Laxman, King, Frick, Eigen, Hive - Queen >= Laxman, King ; Laxman >= Frick, Eigen ; King >= Hive. MAX-heap.\n\nCaveat: (e) is printed with mixed case (\"laxman\", \"king\"). Under strict ASCII order lowercase sorts after uppercase and (e) would fail; I treat the case as a typographical slip.",
+  "points": [
+   "States the array-to-tree rule: children of index i are at 2i+1 and 2i+2 (0-based), parent at floor((i-1)/2)",
+   "(a) 1 3 2 4 6 5 is a MIN-heap - checks 1<=3,2 ; 3<=4,6 ; 2<=5",
+   "(b) 6 5 3 4 2 1 is a MAX-heap - checks 6>=5,3 ; 5>=4,2 ; 3>=1",
+   "(c) 30 12 90 8 15 is NOT a heap - root 30 has children 12 and 90, so it is neither min nor max at the root",
+   "(d) is NOT a heap under alphabetical order - parent Queen has child Frick, and Frick < Queen breaks min; Jack < Queen breaks max",
+   "(e) is a MAX-heap under case-insensitive alphabetical order, and states that assumption explicitly (mixed case in the printed paper would break it under ASCII order)"
+  ],
+  "conf": "medium",
+  "incomplete": false
+ }
+]

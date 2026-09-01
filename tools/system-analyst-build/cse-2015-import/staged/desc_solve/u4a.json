@@ -1,0 +1,52 @@
+[
+ {
+  "id": "D000",
+  "q": "What is the Difference between a Job and a Process?",
+  "unit": "4",
+  "sub": "Job vs process"
+ },
+ {
+  "id": "D001",
+  "q": "What are the differences between multiprocessing and multiprogramming?",
+  "unit": "4",
+  "sub": "Multiprocessing vs multiprogramming"
+ },
+ {
+  "id": "D002",
+  "q": "Shown below is the workload for 5 jobs arriving at time zero in the order given below:\n    Job    Burst Time\n     1        10\n     2        29\n     3         3\n     4         7\n     4        12\n(the fifth job is misnumbered \"4\" on the printed paper)\nNow find out which algorithm among FCFS, SJF And Round Robin with quantum 10, would give the minimum average time.",
+  "unit": "4",
+  "sub": "CPU scheduling algorithm comparison",
+  "garbled": true,
+  "repaired": true
+ },
+ {
+  "id": "D003",
+  "q": "Explain one method for avoiding deadlock.",
+  "unit": "4",
+  "sub": "Deadlock avoidance"
+ },
+ {
+  "id": "D004",
+  "q": "Describe priority scheduling algorithm.",
+  "unit": "4",
+  "sub": "Priority scheduling"
+ },
+ {
+  "id": "D005",
+  "q": "Describe LRU page replacement algorithm.",
+  "unit": "4",
+  "sub": "LRU page replacement"
+ },
+ {
+  "id": "D014",
+  "q": "Consider the Work Queue: 23, 89, 132, 42, 187; there are 200 cylinders numbered from 0 - 199; and the disk-head stars at number 100. Compute the total time using SCAN algorithm going towards 0.",
+  "unit": "4",
+  "sub": "Disk scheduling (SCAN)"
+ },
+ {
+  "id": "D017",
+  "q": "Define files. And how are they organized in a system.",
+  "unit": "4",
+  "sub": "File organization"
+ }
+]

@@ -1,0 +1,485 @@
+[
+ {
+  "id": "N0911",
+  "question": "Calculate the complexity of Radix sort algorithm, to sort the following elements 18, 12, 101, 132, 154, 168, 175, 9999, 166, 177, 252, 3656, 242 using 10 buckets.",
+  "options": {
+   "A": "69",
+   "B": "92",
+   "C": "115",
+   "D": "140"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0912",
+  "question": "How many stacks are needed to implement a queue? Consider the situation where no other data structure like arrays, linked list is available to you.",
+  "options": {
+   "A": "1",
+   "B": "2",
+   "C": "3",
+   "D": "4"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0913",
+  "question": "List the complexity of sorting algorithms in worst case from lower to higher order.",
+  "options": {
+   "A": "Merge sort == Heap Sport < Quick sort == Selection Sort == Bubble Sort == Insertion Sort",
+   "B": "Merge Sort < Heap Sort < Quick Sort < Selection sort < Bubble Sort < Insertion Sort",
+   "C": "Merge Sort <= Heap Sort <= Quick Sort < Selection Sort < Bubble Sort < Insertion Sort",
+   "D": "Merge Sort > Heap Sort < Quick Sort < Selection Sort < Bubble Sort < Insertion Sort"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1026",
+  "question": "Which of the following is the tightest upper bound that represents the number of swaps required to sort 7 numbers using selection sort?",
+  "options": {
+   "A": "O(logz) ,",
+   "B": "O(n)",
+   "C": "O(@mlogn)",
+   "D": "O(n2) |"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1027",
+  "question": "Apriority queue is implemented as a Max-Heap. Initially, it has 5 elements. The level-order traversal of the heap is: 10, 8, 5,3, 2. Two new elements 1 and 7 are inserted into the heap in that order. The level-order traversal of the heap after the insertion of the elements is",
+  "options": {
+   "A": "10, 8,7, 3, 2, 1,5",
+   "B": "10, 8,7, 2,3, 1,5 |",
+   "C": "10, 8,7, 1, 2, 3,5",
+   "D": "10, 8,7,5,3,2,1 |"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1028",
+  "question": "Let P bea QuickSort Program to sort numbers in ascending order using the first element as pivot. Let tl and t2 be the number of comparisons made by P for the inputs {1, 2, 3, 4, 5} and {4, 1,5, 3, 2} respectively. Which of the following holds? .",
+  "options": {
+   "A": "tl=5",
+   "B": "t1<t2",
+   "C": "tl >t2",
+   "D": "tl1=t2"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1029",
+  "question": "When inorder traversing a tree resulted EACKFHDB G; the preorder traversal would return",
+  "options": {
+   "A": "FAEKCDBHG",
+   "B": "FAEKCDHGB .",
+   "C": "EAFKHDCBG",
+   "D": "FEAKDCHBG |"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0827",
+  "question": "Operating system is",
+  "options": {
+   "A": "A collection of hardware components",
+   "B": "A collection of software routines",
+   "C": "A collection of input-output devices ..",
+   "D": "none of the above"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0828",
+  "question": "Operating system",
+  "options": {
+   "A": "Links a program with the subroutines it references",
+   "B": "Provides a layered, user-friendly interface",
+   "C": "Enables a programmer to draw a flowchart",
+   "D": "None of the above"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0829",
+  "question": "Execution of two or more programs by a single CPU is known as",
+  "options": {
+   "A": "Multiprocessing",
+   "B": "Time sharing",
+   "C": "Multiprogramming",
+   "D": "None of the above"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0830",
+  "question": "Indicate which of the following, best describes the term \"software\"",
+  "options": {
+   "A": "systems programs only",
+   "B": "Application programs only",
+   "C": "Both (a) and (b) (d) None of the above"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0860",
+  "question": "There are minimum _______ pointers associated with each node in a deque.",
+  "options": {
+   "A": "1",
+   "B": "2",
+   "C": "3",
+   "D": "4"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0861",
+  "question": "The maximum number of nodes on 6th level of a binary tree is",
+  "options": {
+   "A": "14",
+   "B": "15",
+   "C": "16",
+   "D": "17"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0862",
+  "question": "Nodes that have degree _______ is called leaf or Terminal nodes.",
+  "options": {
+   "A": "0",
+   "B": "1",
+   "C": "2",
+   "D": "3"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0863",
+  "question": "A complete binary tree is said to satisfy the 'heap condition' if the key of each node is _______ to the key in its children.",
+  "options": {
+   "A": "less than",
+   "B": "greater than",
+   "C": "greater than or equal to",
+   "D": "less than or equal to"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0864",
+  "question": "The order of selection sort comes out to be of",
+  "options": {
+   "A": "O(n2)",
+   "B": "O(n-2)",
+   "C": "O(n3)",
+   "D": "O(n10)"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0376",
+  "question": "To access the services of operating system, the interface is provided by the :",
+  "options": {
+   "A": "System calls",
+   "B": "API",
+   "C": "Library",
+   "D": "Assembly instructions"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0377",
+  "question": "If a process fails, most operating system write the error information to a :",
+  "options": {
+   "A": "log file",
+   "B": "another running process",
+   "C": "new file",
+   "D": "none of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0378",
+  "question": "A process can be terminated due to :",
+  "options": {
+   "A": "normal exit",
+   "B": "fatal error",
+   "C": "killed by another process",
+   "D": "all of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0379",
+  "question": "In a time-sharing operating system, when the time slot given to a process is completed, the process goes from the running state to the :",
+  "options": {
+   "A": "Blocked state",
+   "B": "Ready state",
+   "C": "Suspended state",
+   "D": "Terminated state"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0380",
+  "question": "Process are classified into different groups in :",
+  "options": {
+   "A": "shortest job scheduling algorithm",
+   "B": "round robin scheduling algorithm",
+   "C": "priority scheduling algorithm",
+   "D": "multilevel queue scheduling algorithm"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0382",
+  "question": "Which is not a state of the process?",
+  "options": {
+   "A": "Blocked",
+   "B": "Running",
+   "C": "Ready",
+   "D": "Privileged"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0383",
+  "question": "Which of the following information not included in memory table?",
+  "options": {
+   "A": "The allocation of main memory to process.",
+   "B": "The allocation of secondary memory to process",
+   "C": "Any information needed to manage virtual memory",
+   "D": "Any information about the existence of file"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0384",
+  "question": "The methods or algorithms which are used to increase the performance of disk storage sub-system is called :",
+  "options": {
+   "A": "Disk performing",
+   "B": "Disk scheduling",
+   "C": "Disk storing",
+   "D": "Disk extending"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0385",
+  "question": "A path name that starts at root directory is :",
+  "options": {
+   "A": "absolute",
+   "B": "relative",
+   "C": "hybrid",
+   "D": "hierarchical"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0386",
+  "question": "In ___________ file organization, a fixed format is used for records where all records are of the same length, consisting of the same number of fixed length fields in a particular order.",
+  "options": {
+   "A": "pile",
+   "B": "sequential",
+   "C": "indexed sequential",
+   "D": "indexed"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0387",
+  "question": "Typically, ___________ is on an individual block basis where each block contains a pointer to the next block in the chain.",
+  "options": {
+   "A": "Chained allocation",
+   "B": "Indexed allocation",
+   "C": "Contiguous allocation",
+   "D": "Variable allocation"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0388",
+  "question": "The Banker's algorithm is used :",
+  "options": {
+   "A": "to rectify deadlock",
+   "B": "to prevent deadlock",
+   "C": "to detect deadlock",
+   "D": "to solve deadlock"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0389",
+  "question": "For system protection, a process should access :",
+  "options": {
+   "A": "all the resources",
+   "B": "only those resources for which it has authorization",
+   "C": "few resources but authorization is not required",
+   "D": "all of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0098",
+  "question": "Which type of OS handles multiple tasks one at a time and finishes each task before moving to the next one?",
+  "options": {
+   "A": "Interactive OS",
+   "B": "Real-time OS",
+   "C": "Batch OS",
+   "D": "Time-sharing OS"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0099",
+  "question": "What is the primary function of protection mechanisms in an OS?",
+  "options": {
+   "A": "Enhancing the security of CPU",
+   "B": "Ensuring data privacy",
+   "C": "Managing hardware resources",
+   "D": "Do not allow processes to communicate"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0100",
+  "question": "What is a critical section in the context of concurrent processes? :",
+  "options": {
+   "A": "Apart of memory with restricted access",
+   "B": "A section of code that must be executed atomically",
+   "C": "A process with high priority",
+   "D": "A part of the hard disk with critical data"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0101",
+  "question": "Which scheduling algorithm aims to minimize the turn around time of processes?",
+  "options": {
+   "A": "Round Robin",
+   "B": "First-Come, First-Served",
+   "C": "Shortest Job Next",
+   "D": "Priority Scheduling"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0102",
+  "question": "What is acommon method for deadlock detection in OS?",
+  "options": {
+   "A": "Hold and Wait",
+   "B": "Resource allocation graph",
+   "C": "Increasing resource allocation",
+   "D": "Mutual exclusion"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0103",
+  "question": "What is the purpose of virtual memory in an OS?",
+  "options": {
+   "A": "Reducing disk space usage",
+   "B": "Expanding address space",
+   "C": "Enhancing physical memory performance",
+   "D": "Increasing disk space usage"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0104",
+  "question": "Which page replacement algorithm aims to minimize page faults in OS?",
+  "options": {
+   "A": "FIFO",
+   "B": "LRU",
+   "C": "LIFO",
+   "D": "Random"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0105",
+  "question": "Which file organization method allows for direct access to any record based on a key?",
+  "options": {
+   "A": "Sequential",
+   "B": "Indexed",
+   "C": "Hashed",
+   "D": "Linked ee ee eee Lea"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0106",
+  "question": "Which type of OS is designed to respond to external events within a specified time frame?",
+  "options": {
+   "A": "Batch OS",
+   "B": "Real-time OS",
+   "C": "Interactive OS",
+   "D": "Time-sharing OS"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0107",
+  "question": "What is the purpose of demand paging in virtual memory management?",
+  "options": {
+   "A": "Expanding physical RAM",
+   "B": "Reducing page faults",
+   "C": "Decrease virtual memory",
+   "D": "Preventing access to main memory"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0108",
+  "question": "What is the primary advantage of multiprogramming with fixed partitions?",
+  "options": {
+   "A": "Efficient memory utilization",
+   "B": "Faster CPU processing",
+   "C": "Simplicity of implementation",
+   "D": "Better disk I/O performance"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0109",
+  "question": "What is the primary role of a semaphore in synchronization?",
+  "options": {
+   "A": "Preventing mutual exclusion",
+   "B": "Avoiding synchronization",
+   "C": "Ensuring mutual exclusion",
+   "D": "Handling memory operations"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0110",
+  "question": "Which scheduling algorithm is known for its fairness in allocating CPU time among processes?",
+  "options": {
+   "A": "Shortest Job Next",
+   "B": "First-Come, First-Served",
+   "C": "Round Robin",
+   "D": "Priority Scheduling"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0111",
+  "question": "What does the term \"deadlock\" refer to in the context of operating systems?",
+  "options": {
+   "A": "A process that is stuck in an infinite loop",
+   "B": "A process waiting for I/O",
+   "C": "A situation where processes are unable to proceed due to resource conflicts",
+   "D": "A process with a higher priority waiting for process with lower priority"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0112",
+  "question": "In the context of CPU scheduling, what is \"priority inversion\"?",
+  "options": {
+   "A": "Alow-priority process preempting a high-priority process",
+   "B": "Achange in priority of the processes",
+   "C": "A high-priority process waiting for a low-priority process",
+   "D": "The priority ofa process reaching the maximum"
+  },
+  "garbled": false
+ }
+]

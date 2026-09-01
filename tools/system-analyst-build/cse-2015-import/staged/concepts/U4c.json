@@ -1,0 +1,427 @@
+[
+  {
+    "id": "U4c-01",
+    "paper": "TECH1",
+    "unit": "4",
+    "unitTitle": "Operating System",
+    "sub": "Scheduling levels & swapping",
+    "def": "An operating system uses long-term, medium-term, and short-term schedulers to control which processes exist, which are resident in memory, and which one actually runs on the CPU.",
+    "exp": "An operating system layers several schedulers, each with a different job. The long-term scheduler (job scheduler) picks which programs from the pool of submitted jobs get admitted into memory as processes, directly controlling the degree of multiprogramming — the number of processes resident in memory at once. It runs rarely, since new processes are created infrequently, and should mix CPU-bound and I/O-bound processes so both the CPU and I/O devices stay busy. The short-term scheduler (CPU scheduler) picks which of the ready, in-memory processes actually gets the CPU next; it must run extremely fast because it fires every few milliseconds. Many time-sharing systems skip the long-term scheduler entirely — every new process is simply admitted — leaving only medium-term and short-term scheduling. The medium-term scheduler handles swapping: it can remove a process from memory (suspend it to disk) to reduce the degree of multiprogramming when memory is oversubscribed, then swap it back in later. Swapping is more expensive than a normal context switch because the whole process image must be moved to and from disk. Exam framing: expect a question naming a scheduler by its behaviour and asking which of the three levels it is.",
+    "facts": [
+      "Long-term scheduler = job scheduler; controls the degree of multiprogramming; invoked infrequently (seconds/minutes)",
+      "Short-term scheduler = CPU scheduler; invoked very frequently (every few ms); must be extremely fast",
+      "Medium-term scheduler performs swapping: removes a process from memory to disk, later swaps it back in",
+      "Many time-sharing/interactive systems (e.g. many UNIX variants) omit the long-term scheduler and admit every new process",
+      "Swapping costs more than an ordinary context switch, since the full process image moves to/from disk",
+      "Good long-term scheduling mixes CPU-bound and I/O-bound processes in memory so both CPU and I/O devices stay busy"
+    ],
+    "traps": [
+      "Do not call the short-term scheduler the 'job scheduler' — that name belongs to the long-term scheduler; short-term = CPU scheduler",
+      "Confusing medium-term swapping with short-term dispatch — swapping is about memory residency, not momentary CPU allocation",
+      "Assuming every system has all three schedulers — many interactive systems have no meaningful long-term scheduler",
+      "Degree of multiprogramming means processes in memory, not just processes in the ready queue"
+    ],
+    "mnem": "",
+    "rel": ["CPU-I/O burst cycle & dispatcher", "Multilevel queue & feedback queue", "Multiprocessor scheduling"]
+  },
+  {
+    "id": "U4c-02",
+    "paper": "TECH1",
+    "unit": "4",
+    "unitTitle": "Operating System",
+    "sub": "CPU-I/O burst cycle & dispatcher",
+    "def": "A process's execution alternates between CPU bursts and I/O bursts, and the dispatcher is the module that actually hands the CPU to whichever process the scheduler has chosen.",
+    "exp": "Every process alternates between bursts of CPU computation and bursts of waiting on I/O, and this cycle starts and ends with a CPU burst: a process is admitted, does some computing, requests I/O, waits, computes again, and so on until it terminates. The distribution of CPU-burst lengths across many programs is typically many short bursts and a few long ones (often modelled as exponential). A CPU-bound process has few CPU bursts, but each one is long — a scientific computation, say. An I/O-bound process has many short CPU bursts interspersed with frequent I/O — a typical interactive program. Once the short-term scheduler decides which ready process should run next, the dispatcher is the module that actually carries this out: it performs the context switch, switches the CPU into user mode, and jumps to the correct location in the chosen program to resume it. The dispatcher runs on every single context switch, so its speed matters enormously; the time it takes to stop one process and start another is called dispatch latency, and system designers work hard to keep it minimal since it is pure overhead that shrinks the CPU time actually available for useful work.",
+    "facts": [
+      "A process's life alternates between CPU burst and I/O burst, starting and ending with a CPU burst",
+      "CPU-bound process: few, long CPU bursts; I/O-bound process: many, short CPU bursts",
+      "CPU-burst-length distribution is typically described as exponential/hyperexponential, with many short bursts",
+      "The dispatcher gives control of the CPU to the process chosen by the short-term scheduler",
+      "Dispatcher's job: context switch, switch to user mode, jump to the correct location in the resumed program",
+      "Dispatch latency = time to stop one process and start another; should be minimized"
+    ],
+    "traps": [
+      "Confusing 'scheduler' (decides which process) with 'dispatcher' (performs the actual switch) — a classic MCQ definition swap",
+      "Assuming CPU-bound means 'does no I/O' — it just means CPU bursts dominate; occasional I/O can still occur",
+      "Treating dispatch latency as identical to context-switch time in every context — they overlap but are named for different scopes",
+      "Believing every process must have multiple I/O bursts — a purely computational batch job can have essentially one long CPU burst"
+    ],
+    "mnem": "",
+    "rel": ["Scheduling levels & swapping", "Preemptive vs non-preemptive scheduling", "Scheduling performance criteria"]
+  },
+  {
+    "id": "U4c-03",
+    "paper": "TECH1",
+    "unit": "4",
+    "unitTitle": "Operating System",
+    "sub": "Preemptive vs non-preemptive scheduling",
+    "def": "Preemptive scheduling can forcibly take the CPU away from a running process, while non-preemptive scheduling lets a process keep the CPU until it voluntarily blocks or terminates.",
+    "exp": "CPU-scheduling decisions can only occur at four points in a process's life: (1) when it switches from running to waiting (e.g., an I/O request), (2) when it switches from running to ready (e.g., a timer interrupt fires), (3) when it switches from waiting to ready (e.g., I/O completes), and (4) when it terminates. Non-preemptive (or cooperative) scheduling only ever makes a decision at points 1 and 4 — once a process has the CPU, it keeps it until it voluntarily gives it up or finishes. Preemptive scheduling can also act at points 2 and 3, forcibly taking the CPU from a running process to give it to another. FCFS and standard SJF are non-preemptive; Round Robin, SRTF, and preemptive priority scheduling are preemptive. Preemption is what makes time-sharing responsive, but it has a real cost: if the kernel itself is interrupted while updating shared data structures, race conditions become possible, so preemptive kernels need careful synchronization (locks, disabling interrupts around critical sections) that non-preemptive designs can mostly avoid. This trade-off — responsiveness versus implementation complexity and synchronization overhead — is why almost all general-purpose, interactive operating systems accept the cost and schedule preemptively.",
+    "facts": [
+      "Four points where a scheduling decision can occur: running→waiting, running→ready (timer), waiting→ready, and termination",
+      "Non-preemptive/cooperative scheduling only decides at 'running→waiting' and termination",
+      "Preemptive scheduling can also switch at 'running→ready' and 'waiting→ready', taking the CPU from a running process",
+      "FCFS and non-preemptive SJF are non-preemptive; SRTF, Round Robin, and preemptive priority scheduling are preemptive",
+      "Preemption creates the need for kernel-level synchronization (race conditions) when shared data is mid-update",
+      "Most modern general-purpose/time-sharing OS kernels schedule preemptively for responsiveness"
+    ],
+    "traps": [
+      "Thinking priority scheduling is inherently one or the other — it exists in both preemptive and non-preemptive forms; the question must specify",
+      "Assuming SJF is always non-preemptive — its preemptive variant (SRTF) is a separately named, commonly tested algorithm",
+      "Believing preemption only matters for user processes — preemption during kernel-mode execution is the harder, more examinable issue",
+      "Confusing 'context switch' with 'preemption' — every preemption causes a context switch, but a voluntary I/O wait also causes one without being a preemption"
+    ],
+    "mnem": "",
+    "rel": ["CPU-I/O burst cycle & dispatcher", "Round Robin scheduling", "Priority scheduling & starvation", "Shortest Remaining Time First (SRTF)"]
+  },
+  {
+    "id": "U4c-04",
+    "paper": "TECH1",
+    "unit": "4",
+    "unitTitle": "Operating System",
+    "sub": "Scheduling performance criteria",
+    "def": "Scheduling algorithms are compared on five standard criteria: CPU utilisation, throughput, turnaround time, waiting time, and response time.",
+    "exp": "Five criteria are used to judge and compare scheduling algorithms. CPU utilisation is the percentage of time the CPU is doing useful work (maximize; real systems run roughly 40–90%). Throughput is the number of processes completed per unit time (maximize). Turnaround time is completion time minus arrival time — the total time from submission to finishing, including time in the ready queue, executing, and doing I/O (minimize). Waiting time is the total time spent sitting in the ready queue only — it deliberately excludes I/O time and execution time, giving the identity turnaround time = waiting time + burst (CPU) time, the single most useful check when marking a Gantt-chart problem. Response time is the time from submission until the process first gets the CPU — not until it produces output or finishes — and matters most for interactive, time-shared systems where users care about feeling the system respond quickly even if the full job takes longer overall. In general you want to maximize CPU utilisation and throughput, and minimize turnaround, waiting, and response time, though no single algorithm optimizes all five simultaneously — which is exactly why the exam expects algorithms to be compared on this shared set of metrics.",
+    "facts": [
+      "CPU utilization: percent of time the CPU does useful work; maximize",
+      "Throughput: number of processes completed per unit time; maximize",
+      "Turnaround time = completion time − arrival time; minimize",
+      "Waiting time = turnaround time − CPU burst time (time spent only in the ready queue); minimize",
+      "Response time = time from submission to first CPU allocation (not to completion); minimize, critical for interactive systems",
+      "Turnaround = waiting + burst is the identity to use for checking Gantt-chart arithmetic"
+    ],
+    "traps": [
+      "Turnaround time is NOT the same as waiting time — turnaround includes the burst (execution) time, waiting does not",
+      "Response time is time to FIRST response, not time to completion — a classic MCQ swap with turnaround time",
+      "Waiting time counts only ready-queue time, not I/O wait time, despite the word 'waiting' sounding general",
+      "For a single-burst, non-preempted process, response time equals waiting time — the exam sometimes uses this special case to test whether the general distinction is understood"
+    ],
+    "mnem": "",
+    "rel": ["FCFS and the convoy effect", "Round Robin scheduling", "Shortest Job First (SJF)"]
+  },
+  {
+    "id": "U4c-05",
+    "paper": "TECH1",
+    "unit": "4",
+    "unitTitle": "Operating System",
+    "sub": "FCFS and the convoy effect",
+    "def": "First-Come First-Served runs processes strictly in arrival order on a single non-preemptive queue, which makes it simple but prone to the convoy effect.",
+    "exp": "FCFS runs processes strictly in the order they arrive, on a single FIFO ready queue, with no preemption — once dispatched, a process runs until it blocks or finishes. Its problem is the convoy effect: if a long CPU-bound process happens to arrive just ahead of several short ones, every short process — and any I/O device it would have kept busy — sits waiting behind it. Classic illustration: bursts 24, 3, 3 arriving in that order give waiting times 0, 24, 27 (average 17); simply reordering the same three bursts as 3, 3, 24 gives waiting times 0, 3, 6 (average 3) — same processes, wildly different average wait, purely from arrival order. Worked example, using the four-process set reused across this whole topic (P1 arrives at 0 with burst 8, P2 at 1 with burst 4, P3 at 2 with burst 9, P4 at 3 with burst 5): the Gantt chart is P1[0–8], P2[8–12], P3[12–21], P4[21–26]. Waiting times (start − arrival) are 0, 7, 10, 18 → average 8.75. Turnaround times (waiting + burst) are 8, 11, 19, 23 → average 15.25. This same process set recurs under SJF, SRTF, and Round Robin so the algorithms can be compared head to head.",
+    "facts": [
+      "FCFS uses a single FIFO ready queue; non-preemptive; simplest scheduling algorithm to implement",
+      "Convoy effect: a single CPU-bound process holds up many I/O-bound processes behind it, lowering CPU and device utilisation",
+      "Average waiting time under FCFS is highly sensitive to the arrival order, not just the burst lengths",
+      "Illustration: bursts 24,3,3 give average wait (0+24+27)/3=17; reordering to 3,3,24 gives (0+3+6)/3=3",
+      "Shared worked example (P1 AT0/BT8, P2 AT1/BT4, P3 AT2/BT9, P4 AT3/BT5): Gantt P1[0-8] P2[8-12] P3[12-21] P4[21-26]; waiting 0,7,10,18 → avg 8.75; turnaround 8,11,19,23 → avg 15.25",
+      "This same 4-process set is reused for SJF, SRTF, and Round Robin so the algorithms can be compared directly"
+    ],
+    "traps": [
+      "FCFS is fair in arrival order but NOT optimal for average waiting time — reordering by burst length (SJF) always does at least as well",
+      "Do not assume 'first come first served' minimizes average wait — the convoy effect is exactly the opposite risk examiners test",
+      "When computing waiting time from a Gantt chart, subtract each process's OWN arrival time, not its position or the previous process's finish time",
+      "Turnaround time still includes the burst — reporting a process's start time as its turnaround time is a common arithmetic slip"
+    ],
+    "mnem": "",
+    "rel": ["Scheduling performance criteria", "Shortest Job First (SJF)", "Shortest Remaining Time First (SRTF)", "Round Robin scheduling"]
+  },
+  {
+    "id": "U4c-06",
+    "paper": "TECH1",
+    "unit": "4",
+    "unitTitle": "Operating System",
+    "sub": "Shortest Job First (SJF)",
+    "def": "Shortest Job First is a non-preemptive algorithm that always runs, to completion, whichever ready process has the smallest next CPU-burst length.",
+    "exp": "Shortest Job First, in its plain (non-preemptive) form, always picks the ready process with the smallest next CPU-burst length and runs it to completion before looking at the queue again. It is provably optimal: for a fixed set of processes, no other non-preemptive algorithm gives a lower average waiting time — moving any longer job ahead of a shorter one can only increase total waiting. Its fatal flaw is that the length of a process's next CPU burst is not actually knowable in advance; real schedulers can only estimate it (commonly via exponential averaging of a process's past burst lengths), so 'pure' SJF is a theoretical benchmark more than a directly implementable algorithm. Worked example, same four-process set as FCFS (P1: arrival 0, burst 8; P2: arrival 1, burst 4; P3: arrival 2, burst 9; P4: arrival 3, burst 5): only P1 is ready at t=0, so it runs 0–8; at t=8 the shortest of P2(4), P3(9), P4(5) is P2, so P2 runs 8–12; then P4(5) beats P3(9), running 12–17; finally P3 runs 17–26. Waiting times: 0, 7, 15, 9 → average 7.75. Turnaround: 8, 11, 24, 14 → average 14.25 — both improvements on FCFS's 8.75 / 15.25 using the identical arrivals.",
+    "facts": [
+      "SJF (non-preemptive) picks, among ready processes, the one with the shortest CPU burst; runs it to completion",
+      "SJF is provably optimal: minimum average waiting time for a given process set, among non-preemptive schemes",
+      "Its practical flaw: the length of the NEXT CPU burst is not knowable in advance, so exact SJF cannot be implemented, only approximated",
+      "Worked example (same 4-process set): Gantt P1[0-8], P2[8-12], P4[12-17], P3[17-26]; waiting 0,7,15,9 → avg 7.75; turnaround 8,11,24,14 → avg 14.25",
+      "Lower average waiting time than FCFS on the identical process set (7.75 vs 8.75) demonstrates the optimality claim concretely",
+      "Can starve long processes if short jobs keep arriving, though the textbook version is usually discussed on a fixed batch"
+    ],
+    "traps": [
+      "'Optimal' for SJF means optimal average waiting time only — not turnaround, response time, or CPU utilisation as a blanket claim",
+      "SJF ties are conventionally broken by arrival order (FCFS) unless the question states otherwise",
+      "Do not confuse 'next CPU burst' with 'total remaining execution of the process' — SJF looks only at the length of the current burst request",
+      "A process arriving after a non-preemptive SJF decision has already started does not change that decision — it simply waits, unlike SRTF"
+    ],
+    "mnem": "",
+    "rel": ["FCFS and the convoy effect", "Shortest Remaining Time First (SRTF)", "Algorithm evaluation & burst prediction", "Priority scheduling & starvation"]
+  },
+  {
+    "id": "U4c-07",
+    "paper": "TECH1",
+    "unit": "4",
+    "unitTitle": "Operating System",
+    "sub": "Shortest Remaining Time First (SRTF)",
+    "def": "SRTF is the preemptive version of SJF: a newly-arrived process with a shorter remaining burst than the currently running one immediately takes the CPU.",
+    "exp": "SRTF is SJF made preemptive: at every arrival, the scheduler compares the remaining time of the currently running process against the burst of the new arrival, and switches immediately if the newcomer is shorter. Worked example, same four processes (P1: arrival 0/burst 8, P2: 1/4, P3: 2/9, P4: 3/5): P1 starts at t=0. At t=1, P2 arrives; P1's remaining time is 7, longer than P2's 4, so P1 is preempted and P2 runs. P3 (t=2) and P4 (t=3) arrive while P2 is running, but neither has a shorter remaining time than P2's own countdown (3, then 2), so P2 keeps running and finishes at t=5. At t=5 the shortest remaining time among P1(7), P3(9), P4(5) is P4, which runs 5–10 uninterrupted. Then P1(7) beats P3(9), running 10–17. P3 runs last, 17–26. Turnaround times (completion − arrival): P1=17, P2=4, P3=24, P4=7 → average 13. Waiting times (turnaround − burst): P1=9, P2=0, P3=15, P4=2 → average 6.5 — better than non-preemptive SJF's 7.75 on the identical arrivals, confirming SRTF is optimal even considering preemption. That optimality costs extra context switches, and like SJF it still needs predicted burst lengths in practice.",
+    "facts": [
+      "SRTF preempts the running process the instant a ready process has a smaller remaining burst",
+      "Provably optimal for average waiting time even considering preemption — strictly better than or equal to non-preemptive SJF on the same arrivals",
+      "Worked example (same 4-process set, arrivals 0,1,2,3): completion order is P2(t5), P4(t10), P1(t17), P3(t26)",
+      "Waiting: P1=9, P2=0, P3=15, P4=2 → avg 6.5; turnaround: 17,4,24,7 → avg 13 — both better than non-preemptive SJF's 7.75/14.25 on identical data",
+      "Every preemption is a context switch, so SRTF's optimal waiting time comes at higher overhead than SJF",
+      "Like SJF, SRTF needs the future burst length, so it relies on the same burst-length prediction techniques in practice"
+    ],
+    "traps": [
+      "REMAINING time is what's compared, not the original burst length — a process that already ran a while has a shorter remaining time than its full burst",
+      "The preemption decision must be re-checked at EVERY new arrival, not just at burst completion — missing an arrival mid-trace is the most common Gantt-chart error",
+      "SRTF can starve a long process indefinitely if short jobs keep arriving — the same starvation risk as SJF, just easier to miss in a worked example",
+      "When a process is preempted, only its REMAINING time (not its original burst) re-enters the comparison for future scheduling decisions"
+    ],
+    "mnem": "",
+    "rel": ["Shortest Job First (SJF)", "Round Robin scheduling", "Scheduling performance criteria", "Priority scheduling & starvation"]
+  },
+  {
+    "id": "U4c-08",
+    "paper": "TECH1",
+    "unit": "4",
+    "unitTitle": "Operating System",
+    "sub": "Priority scheduling & starvation",
+    "def": "Priority scheduling always runs the highest-priority ready process next, and can starve low-priority processes indefinitely unless ageing gradually raises their priority.",
+    "exp": "Priority scheduling assigns every process a priority value and always runs the highest-priority ready process next. It exists in both non-preemptive form (a process runs to completion or blocking once dispatched) and preemptive form (a newly-ready higher-priority process immediately takes the CPU). SJF is a special case of priority scheduling where priority is set to the inverse of the predicted next CPU burst — shorter burst, higher priority. Priorities can be internal, computed from measurable factors like memory requirements, number of open files, or CPU/I/O burst ratio, or external, assigned by an administrator based on real-world importance. The scheme's central weakness is starvation (also called indefinite blocking): a low-priority process can wait forever if a steady stream of higher-priority processes keeps arriving, since it never reaches the front of the queue. The standard fix is ageing — gradually increasing a process's priority the longer it waits, so that eventually even the lowest-priority process's effective priority becomes high enough to run, guaranteeing it will eventually be scheduled. Note the exact convention used matters: many textbooks (including the Galvin text this syllabus follows) treat a LOWER number as HIGHER priority, the opposite of everyday intuition, and exams exploit that reversal directly.",
+    "facts": [
+      "Priority scheduling assigns each process a priority number; the highest-priority ready process runs next",
+      "Exists in both preemptive form (a newly-ready higher-priority process preempts) and non-preemptive form",
+      "SJF is a special case of priority scheduling with priority set to the inverse of the predicted next CPU burst",
+      "Major problem: starvation (indefinite blocking) of low-priority processes if higher-priority ones keep arriving",
+      "Solution: ageing — gradually increase the priority of processes that have waited a long time",
+      "Priorities can be internal (computed from measurable factors) or external (assigned by the OS/administrator)"
+    ],
+    "traps": [
+      "Do not assume 'higher number = higher priority' universally — many textbook conventions (Galvin's default) use lower number = higher priority",
+      "Starvation is different from deadlock — starvation is one process perpetually skipped while the system as a whole keeps making progress; deadlock is circular permanent blocking",
+      "Ageing fixes starvation but does not change the underlying priority scheme — it's a mitigation, not a different algorithm",
+      "'SJF is a special case of priority scheduling' is often tested directly as a true/false or fill-in-the-blank fact"
+    ],
+    "mnem": "",
+    "rel": ["Deadlock detection, recovery & livelock", "Shortest Job First (SJF)", "Round Robin scheduling", "Deadlock characterization (4 conditions)"]
+  },
+  {
+    "id": "U4c-09",
+    "paper": "TECH1",
+    "unit": "4",
+    "unitTitle": "Operating System",
+    "sub": "Round Robin scheduling",
+    "def": "Round Robin gives every ready process a fixed time quantum in FIFO order, preempting it back to the end of the queue if it hasn't finished, which suits time-sharing systems.",
+    "exp": "Round Robin treats the ready queue as FIFO but caps how long each process may run per turn to one time quantum (q); if it hasn't finished by then, it is preempted and sent to the back of the queue. Worked example, same four processes (P1: 0/8, P2: 1/4, P3: 2/9, P4: 3/5) with quantum 4: P1 runs 0–4 (remaining 4, requeued behind arrivals P2, P3, P4); P2 runs 4–8 and finishes; P3 runs 8–12 (remaining 5); P4 runs 12–16 (remaining 1); P1 runs 16–20 and finishes; P3 runs 20–24 (remaining 1); P4 runs 24–25 and finishes; P3 runs 25–26 and finishes. Waiting times: P1=12, P2=3, P3=15, P4=17 → average 11.75 — worse than FCFS, SJF, or SRTF on this identical data. But response times (time to first run: 0, 3, 6, 9) average only 4.5, far better than any non-preemptive algorithm's response time. This is RR's trade-off: it sacrifices average waiting time for fairness and responsiveness. Quantum size is critical — too large and RR degenerates toward FCFS (and its convoy effect); too small and context-switch overhead dominates. The standard guideline is choosing q so roughly 80% of CPU bursts complete within one quantum.",
+    "facts": [
+      "Round Robin (RR) is FIFO with preemption: each process gets at most one time quantum per turn, then goes to the back of the ready queue if unfinished",
+      "Worked example (same 4-process set, quantum 4): completions P2=8, P1=20, P4=25, P3=26; waiting 12,3,15,17 → avg 11.75; turnaround 20,7,24,22 → avg 18.25 — worse average waiting than FCFS/SJF/SRTF here, but response times (0,3,6,9, avg 4.5) are far better",
+      "Very large quantum makes RR behave like FCFS; very small quantum lets context-switch overhead dominate performance",
+      "Rule of thumb: choose q so roughly 80% of CPU bursts are shorter than the quantum",
+      "RR's average waiting time is generally worse than SJF/SRTF but response time and fairness are much better — the standard choice for interactive/time-sharing systems, not batch throughput",
+      "A process whose remaining burst is ≤ the quantum finishes within that slice and is not requeued"
+    ],
+    "traps": [
+      "RR does NOT minimize average waiting time — do not pick it when a question asks for the algorithm with lowest average waiting time",
+      "Larger quantum is not automatically better — too large loses RR's responsiveness advantage and reintroduces convoy-effect-like behaviour",
+      "Simultaneous-arrival-and-preemption queue-ordering convention (does the new arrival get queued before or after the just-preempted process?) can shift a Gantt-chart answer by one slot — state the convention used",
+      "Forgetting that a process finishing exactly at its quantum boundary does not get preempted again — it has already completed"
+    ],
+    "mnem": "",
+    "rel": ["FCFS and the convoy effect", "Shortest Remaining Time First (SRTF)", "Multilevel queue & feedback queue", "Scheduling performance criteria"]
+  },
+  {
+    "id": "U4c-10",
+    "paper": "TECH1",
+    "unit": "4",
+    "unitTitle": "Operating System",
+    "sub": "Multilevel queue & feedback queue",
+    "def": "A multilevel queue splits the ready queue into fixed, permanently-assigned queues by process type, while a multilevel feedback queue additionally lets a process move between queues based on its behaviour.",
+    "exp": "A multilevel queue scheduler splits the ready queue into several separate queues, typically by process category — for instance a foreground/interactive queue and a background/batch queue — and each queue runs its own algorithm (say, Round Robin for foreground, FCFS for background). Crucially, a process is assigned permanently to one queue; it never moves. Scheduling between the queues is itself fixed, either strict priority (foreground always served first, background only when foreground is empty) or a proportional split of CPU time between queues (e.g., 80% to foreground, 20% to background). A multilevel feedback queue (MLFQ) removes that rigidity by letting processes migrate between queues based on observed behaviour: a process typically enters the highest-priority, shortest-quantum queue, and if it uses its entire quantum without blocking (a sign it's CPU-bound), it is demoted to a lower-priority queue with a longer quantum; a well-designed MLFQ also promotes a process that has waited too long, preventing starvation. MLFQ is defined by five parameters: the number of queues, the scheduling algorithm per queue, the rule for upgrading a process, the rule for demoting it, and the rule deciding which queue a new process enters — making it the most general scheduling algorithm, capable of emulating FCFS, RR, or priority scheduling.",
+    "facts": [
+      "Multilevel queue: ready queue split into several separate queues (e.g., foreground/interactive vs background/batch), each with its own algorithm; a process is permanently assigned to one queue",
+      "Scheduling between queues is fixed — commonly strict priority (foreground served first) or a proportional CPU-time split",
+      "Multilevel feedback queue (MLFQ) allows processes to move between queues based on observed CPU-burst behaviour",
+      "MLFQ is defined by: number of queues, scheduling algorithm per queue, rule for upgrading, rule for demoting, and rule for which queue a new process enters",
+      "Typical MLFQ design: short quantum + highest priority first; a process that uses its full quantum without blocking is demoted, favouring I/O-bound/interactive processes",
+      "MLFQ is the most general CPU-scheduling algorithm — it can be configured to match FCFS, RR, or priority scheduling"
+    ],
+    "traps": [
+      "Multilevel QUEUE (without 'feedback') does NOT allow processes to change queues — that missing word is the exam's exact hinge point",
+      "Do not assume MLFQ only demotes — well-designed MLFQ also promotes (ages) a process waiting too long in a low queue, to prevent starvation",
+      "'Foreground has absolute priority' and 'foreground gets 80% of CPU time' are two DIFFERENT inter-queue policies — do not conflate them",
+      "The five MLFQ design parameters are themselves examinable — a question may ask which of a list is NOT one of them"
+    ],
+    "mnem": "",
+    "rel": ["Round Robin scheduling", "Priority scheduling & starvation", "Scheduling levels & swapping", "Deadlock detection, recovery & livelock"]
+  },
+  {
+    "id": "U4c-11",
+    "paper": "TECH1",
+    "unit": "4",
+    "unitTitle": "Operating System",
+    "sub": "Algorithm evaluation & burst prediction",
+    "def": "Scheduling algorithms are evaluated by deterministic modelling, queueing models, or simulation, while the next CPU burst itself is typically predicted by exponential averaging of past bursts.",
+    "exp": "Scheduling algorithms are compared three ways. Deterministic modelling takes a specific, fixed workload — exactly what a worked Gantt-chart problem does — and computes exact metrics for it; it's fast and precise but its conclusions strictly apply only to that one input. Queueing (analytic) models instead treat arrivals and burst lengths as probability distributions (commonly Poisson arrivals) and derive long-run average behaviour mathematically; Little's Law, n = λ × W, relates the average number of processes in a queue (n) to the arrival rate (λ) and average waiting time (W), and is a standard formula from this family. Simulation drives a coded model of the scheduler with random or recorded trace data, giving more realistic results than pure analytic models at the cost of complexity. Separately, since algorithms like SJF, SRTF, and burst-based priority scheduling all need to know a process's next CPU-burst length in advance, real systems predict it via exponential averaging: τ(n+1) = α·tₙ + (1−α)·τₙ, where tₙ is the actual length of the process's nth burst, τₙ is the prediction made before that burst, and 0 ≤ α ≤ 1 weights recent history against past predictions. α = 1 uses only the most recent burst; α = 0 ignores recent history entirely; α = 1/2 is the commonly cited balanced default.",
+    "facts": [
+      "Deterministic modelling: plug a fixed, known set of process/arrival/burst data into an algorithm and compute exact metrics — exactly what a worked Gantt-chart problem does",
+      "Queueing models: treat arrivals and service times as probability distributions (e.g. Poisson arrivals) and derive long-run averages analytically; Little's Law n = λ × W relates queue length (n), arrival rate (λ), and average waiting time (W)",
+      "Simulation: drive a scheduler model with random or trace-driven data to estimate performance when analytic models are too simplified",
+      "Exponential averaging formula: τ(n+1) = α·tₙ + (1−α)·τₙ, with tₙ the actual nth burst, τₙ the previous prediction, and 0 ≤ α ≤ 1",
+      "α = 1 makes the prediction equal only the most recent burst (ignores all history); α = 0 makes it ignore recent history entirely (constant)",
+      "α = 1/2 is the commonly cited default, giving equal weight to recent history and past predictions"
+    ],
+    "traps": [
+      "Deterministic modelling gives an exact answer for ONE specific input — do not generalise a single Gantt-chart result into a universal claim about the algorithm",
+      "Little's Law relates steady-state AVERAGES — it is not directly applicable to a single small deterministic worked example",
+      "The exponential-averaging formula predicts the next burst from the past ACTUAL burst and the previous PREDICTION, not a plain average of past actual bursts — dropping the τₙ term is a common formula-recall error",
+      "Higher α is not 'more accurate' in general — it means more weight on the single most recent (potentially noisy) observation"
+    ],
+    "mnem": "",
+    "rel": ["Shortest Job First (SJF)", "Shortest Remaining Time First (SRTF)", "Priority scheduling & starvation", "Scheduling performance criteria"]
+  },
+  {
+    "id": "U4c-12",
+    "paper": "TECH1",
+    "unit": "4",
+    "unitTitle": "Operating System",
+    "sub": "Multiprocessor scheduling",
+    "def": "Multiprocessor scheduling extends CPU scheduling to systems with several processors, adding asymmetric-vs-symmetric organisation, processor affinity, and load balancing.",
+    "exp": "Multiprocessor scheduling adds concerns that don't exist with a single CPU. Asymmetric multiprocessing (AMP) designates one master processor to make all scheduling and OS decisions while the rest execute only user code — simple, and avoids sharing scheduling data structures across processors, but the master can bottleneck. Symmetric multiprocessing (SMP), used by most modern general-purpose systems, lets every processor schedule itself, either from one shared ready queue or from separate per-processor queues. Processor affinity is the tendency to keep rescheduling a process onto the same processor it ran on before, because migrating it away invalidates the cache data it built up there ('soft affinity' is a best-effort preference the OS tries to honour; 'hard affinity' is a guaranteed pinning requested explicitly, typically via a system call). When each processor keeps its own queue, workloads can drift unevenly, so load balancing is needed: push migration has a periodic task actively move processes off overloaded processors, while pull migration has an idle processor reach over and take a waiting process from a busy one. Load balancing and processor affinity are in direct tension — moving a process to balance load necessarily costs it the cache locality that affinity was trying to preserve.",
+    "facts": [
+      "Asymmetric multiprocessing (AMP): one master processor makes all scheduling/OS decisions; others execute only user code",
+      "Symmetric multiprocessing (SMP): every processor is self-scheduling; can share one common ready queue or use per-processor private queues",
+      "Processor affinity: the OS tries to keep a process on the same processor to reuse warm cache data; 'soft affinity' is best-effort, 'hard affinity' is a guaranteed pinning via a system call",
+      "Load balancing (needed with per-processor queues): push migration (a periodic task moves processes off overloaded CPUs) and pull migration (an idle CPU pulls a waiting process from a busy one)",
+      "Load balancing and processor affinity directly conflict — migrating a process for balance destroys its cache-locality benefit",
+      "A single shared ready queue makes load balancing automatic but the shared queue itself becomes a synchronization bottleneck"
+    ],
+    "traps": [
+      "AMP is not simply 'obsolete' — it still fits some embedded/real-time or asymmetric-core designs; it's just less common than SMP for general-purpose systems",
+      "Do not assume affinity is always enforced — 'soft affinity' is only a preference the scheduler tries to honour, not a guarantee",
+      "Multiprocessor scheduling (queues, affinity, balancing) is a different topic from concurrency/parallelism models (data vs task parallelism) — don't conflate them if a question specifically asks about scheduling",
+      "A single shared ready queue is not strictly worse or better than per-processor queues — it trades explicit load balancing for queue contention, a design trade-off, not a flaw"
+    ],
+    "mnem": "",
+    "rel": ["Scheduling levels & swapping", "Round Robin scheduling", "CPU-I/O burst cycle & dispatcher"]
+  },
+  {
+    "id": "U4c-13",
+    "paper": "TECH1",
+    "unit": "4",
+    "unitTitle": "Operating System",
+    "sub": "Deadlock system model & RAG",
+    "def": "The deadlock model views a system as processes competing for finite resource types with one or more instances each, and a resource-allocation graph (RAG) shows who holds and who is waiting for what.",
+    "exp": "The deadlock model treats a system as processes competing for a fixed set of resource types (CPU cycles, memory, files, I/O devices, semaphores, and so on), each type having one or more identical instances — e.g., two printers means two instances of the printer resource type. A process must request a resource, use it, then release it, usually through OS system calls, and it blocks if a request can't be granted immediately. The resource-allocation graph (RAG) visualises this: process nodes (circles) and resource-type nodes (squares, drawn with one dot per instance), joined by two kinds of directed edges — a request edge Pi→Rj means process i is waiting for an instance of resource type j, and an assignment edge Rj→Pi means an instance of Rj is currently held by process i. If the graph contains no cycle at all, the system is definitely not deadlocked. If a cycle exists and every resource type in that cycle has exactly one instance, deadlock is guaranteed. If some resource types in the cycle have multiple instances, the cycle only means deadlock is possible, not certain, since another process might still release an instance and break the cycle.",
+    "facts": [
+      "Resource types (CPU, memory, files, printers, semaphores, etc.) each have a fixed number of instances",
+      "Normal usage sequence for a resource: request → use → release, typically via a system call",
+      "Resource-allocation graph (RAG) nodes: processes (circles) and resource types (squares, one dot per instance)",
+      "Edge types: request edge Pi → Rj (process waiting for a resource), assignment edge Rj → Pi (instance already allocated)",
+      "No cycle in the RAG ⇒ the system is guaranteed not deadlocked",
+      "A cycle where every resource type involved has exactly one instance ⇒ deadlock is certain; with multi-instance types in the cycle, deadlock is only possible"
+    ],
+    "traps": [
+      "'Cycle in the RAG' is necessary but NOT sufficient for deadlock when multiple instances of a resource type exist — the single most commonly tested RAG fact",
+      "Confusing request-edge and assignment-edge direction — Process→Resource is a request, Resource→Process is an allocation; reversing them inverts the graph's meaning",
+      "Do not over-apply 'a cycle isn't sufficient' to single-instance graphs — there, a cycle IS sufficient for deadlock",
+      "The RAG is a snapshot in time — it does not by itself predict deadlocks that could arise from requests not yet made"
+    ],
+    "mnem": "",
+    "rel": ["Deadlock characterization (4 conditions)", "Deadlock detection, recovery & livelock", "Deadlock avoidance & Banker's algorithm"]
+  },
+  {
+    "id": "U4c-14",
+    "paper": "TECH1",
+    "unit": "4",
+    "unitTitle": "Operating System",
+    "sub": "Deadlock characterization (4 conditions)",
+    "def": "Deadlock can occur only if mutual exclusion, hold-and-wait, no preemption, and circular wait all hold at the same time.",
+    "exp": "Deadlock can only occur if all four of the following hold at once. Mutual exclusion: at least one resource is held in a non-sharable mode, so only one process can use a given instance at a time. Hold and wait: a process is holding at least one resource while waiting to acquire additional resources currently held by others. No preemption: a resource can only be released voluntarily by the process holding it, once its task is done — it cannot be forcibly taken away. Circular wait: a cycle of processes P0, P1, ..., Pn exists where P0 waits for a resource held by P1, P1 waits for one held by P2, and so on until Pn waits for one held by P0. The crucial exam point is 'simultaneously' — if even one of these four is absent, deadlock cannot occur, which is exactly why deadlock-prevention techniques each work by permanently ruling out one specific condition. It's also worth noting the four aren't fully independent: circular wait structurally implies hold-and-wait, since every process in the waiting cycle is, by definition, also holding a resource. Despite that overlap, all four are still listed and tested separately because each maps to a distinct, separately-implementable prevention technique.",
+    "facts": [
+      "Mutual exclusion: at least one resource is held in non-sharable mode",
+      "Hold and wait: a process holds ≥1 resource while waiting to acquire more",
+      "No preemption: resources can only be released voluntarily by the holder, never forcibly taken",
+      "Circular wait: a cycle of processes each waiting on a resource held by the next in the cycle",
+      "All FOUR conditions must hold SIMULTANEOUSLY for deadlock to occur — the classic exam trap",
+      "Circular wait implies hold-and-wait (a process in the cycle is holding a resource while waiting for another), so the four conditions are not fully independent"
+    ],
+    "traps": [
+      "The single most common trap: believing deadlock can occur with only three of the four conditions — it cannot; each is individually necessary",
+      "Do not mix up 'no preemption' (a resource-release rule) with 'preemptive scheduling' (a CPU-allocation concept) — unrelated uses of the same word",
+      "Circular wait is often treated as fully independent, but it structurally implies hold-and-wait — useful when an exam asks 'which conditions must you break'",
+      "All four holding is necessary AND jointly sufficient for deadlock — that duality is exactly why breaking any ONE is sufficient for prevention"
+    ],
+    "mnem": "MHNC: Mutual exclusion, Hold & wait, No preemption, Circular wait — all four, always, or no deadlock.",
+    "rel": ["Deadlock prevention", "Deadlock system model & RAG", "Deadlock avoidance & Banker's algorithm"]
+  },
+  {
+    "id": "U4c-15",
+    "paper": "TECH1",
+    "unit": "4",
+    "unitTitle": "Operating System",
+    "sub": "Deadlock prevention",
+    "def": "Deadlock prevention structurally ensures at least one of the four necessary conditions can never hold, so deadlock becomes impossible by design.",
+    "exp": "Deadlock prevention works by structurally guaranteeing that at least one of the four necessary conditions can never arise, so deadlock becomes structurally impossible — a static, design-time guarantee rather than a runtime check. Against mutual exclusion: make resources sharable wherever possible (e.g., read-only files can be opened by many processes at once), though inherently exclusive devices like a printer can't be made shareable, so this attack only ever works partially. Against hold-and-wait: require a process to request all the resources it will ever need before it starts execution, or require it to release everything it currently holds before requesting anything new — both approaches reduce resource utilisation and can themselves cause starvation of resource-hungry processes. Against no preemption: if a waiting process's request can't be granted, take away everything it currently holds and restart it later once it can get everything at once — only workable for resources whose state can be cleanly saved and restored (CPU registers, memory), not for something like a half-finished print job. Against circular wait: impose a strict total ordering on all resource types and require every process to request resources in strictly increasing order — the most practical and widely-used prevention technique in real systems, because it needs no rollback and no utilisation sacrifice.",
+    "facts": [
+      "Attacking mutual exclusion: make resources sharable — only works for inherently shareable resources (e.g. read-only files), not all",
+      "Attacking hold-and-wait: require all-at-once resource requests upfront, or require release of all held resources before requesting more — both hurt utilisation and can cause starvation",
+      "Attacking no-preemption: forcibly release a waiting process's held resources and restart it later — only feasible for state that can be saved/restored, not for something like an in-progress print job",
+      "Attacking circular wait: total (numeric) ordering of all resource types, requesting them in strictly increasing order — the most widely implementable technique",
+      "Prevention guarantees no deadlock but typically at the cost of lower resource utilisation and reduced throughput/concurrency versus avoidance",
+      "Prevention is a static, design-time guarantee — it needs no runtime information about future requests, unlike avoidance"
+    ],
+    "traps": [
+      "Prevention is often confused with avoidance — prevention restricts HOW resources can be requested (static rules); avoidance uses runtime information (maximum future needs) to decide whether to GRANT a request (Banker's algorithm)",
+      "'Attack any one condition' is correct in principle, but resource ordering (circular wait) is the standard textbook answer for the MOST commonly used technique in practice",
+      "Preventing hold-and-wait via 'request all resources upfront' can itself starve processes that need many resources — ironic, since prevention aims to fix a liveness problem",
+      "Resource preemption (attacking no-preemption) only applies to resources whose state is easily saved and restored — it does not apply to something like a printer or tape mid-job"
+    ],
+    "mnem": "",
+    "rel": ["Deadlock characterization (4 conditions)", "Deadlock avoidance & Banker's algorithm", "Deadlock detection, recovery & livelock"]
+  },
+  {
+    "id": "U4c-16",
+    "paper": "TECH1",
+    "unit": "4",
+    "unitTitle": "Operating System",
+    "sub": "Deadlock avoidance & Banker's algorithm",
+    "def": "Deadlock avoidance grants a resource request only if the resulting state remains safe — one from which every process can still finish — using algorithms such as Banker's algorithm.",
+    "exp": "Deadlock avoidance grants a resource request only if the resulting state is still 'safe.' A state is safe if there exists a safe sequence — an ordering of all processes — such that each process's remaining resource need can be met using currently available resources plus whatever will be freed by processes earlier in the sequence. Safe implies not deadlocked; but an unsafe state does not mean deadlock has already happened, only that it becomes possible. Banker's algorithm implements this, requiring every process to declare its maximum resource claim upfront, then tracking Allocation (currently held), Max (declared ceiling), Need = Max − Allocation, and Available (free instances); a request is only granted if it's within Need, within Available, and leaves the system safe. Worked example: with Available = (3,3,2) and Need rows P0(7,4,3), P1(1,2,2), P2(6,0,0), P3(0,1,1), P4(4,3,1), the sequence ⟨P1, P3, P4, P0, P2⟩ is safe — P1's need (1,2,2) fits Available, and finishing it frees its allocation, raising Available to (5,3,2); P3 then fits and raises Available to (7,4,3); P4 fits, raising it to (7,4,5); P0 fits, raising it to (7,5,5); P2 fits last. Every process can finish, so the original state is safe.",
+    "facts": [
+      "Safe state: a safe sequence of ALL processes exists where each process's remaining need can be met by currently available resources plus what's held by earlier-finishing processes",
+      "Safe ⇒ not deadlocked, but unsafe does NOT mean deadlocked already — it only means deadlock becomes possible",
+      "Banker's algorithm needs each process to declare its maximum possible claim per resource type in advance",
+      "Key matrices: Allocation (currently held), Max (declared maximum), Need = Max − Allocation, and vector Available (free instances)",
+      "Resource-request rule: grant only if the request ≤ Need, ≤ Available, and the resulting state (after tentatively granting) is still safe — otherwise the process waits",
+      "Classic worked example: Available=(3,3,2), Need rows P0(7,4,3) P1(1,2,2) P2(6,0,0) P3(0,1,1) P4(4,3,1) yield the safe sequence ⟨P1, P3, P4, P0, P2⟩"
+    ],
+    "traps": [
+      "Avoidance requires resources' MAXIMUM future claims known in advance — a strong assumption prevention does not need; this is the exam's usual way of distinguishing the two",
+      "An unsafe state is not automatically a deadlocked state — it only means SOME future sequence of requests COULD lead to deadlock",
+      "Always recompute Need ≤ Available using the CURRENT (updated) available vector at each step, not the original one — forgetting to update Available mid-sequence is the most common arithmetic error",
+      "A safe sequence is not necessarily unique — the exam only requires demonstrating ONE valid safe sequence, not 'the' sequence"
+    ],
+    "mnem": "",
+    "rel": ["Deadlock characterization (4 conditions)", "Deadlock prevention", "Deadlock detection, recovery & livelock"]
+  },
+  {
+    "id": "U4c-17",
+    "paper": "TECH1",
+    "unit": "4",
+    "unitTitle": "Operating System",
+    "sub": "Deadlock detection, recovery & livelock",
+    "def": "Deadlock detection allows deadlocks to occur and periodically finds them via a wait-for graph or detection algorithm, then recovery breaks them by terminating processes or preempting resources.",
+    "exp": "Detection lets deadlocks actually happen and finds them afterward instead of preventing them upfront. For resource types with only one instance each, build a wait-for graph — a resource-allocation graph with the resource nodes collapsed out — where an edge Pi→Pj means Pi is waiting on something Pj holds; periodically search it for a cycle, which means deadlock. For multiple-instance types, run a detection algorithm structurally similar to Banker's safety check but using only Allocation, Request, and Available (no Max claim needed, since nothing is being avoided in advance). How often to invoke detection is a real trade-off: too rarely wastes CPU cycles on processes stuck for a long time; too often adds needless overhead. Recovery has two families. Termination: kill every deadlocked process at once (simple, wastes the most work) or kill them one at a time, retesting after each (less waste, more overhead); victim choice weighs priority, work already done, resources held versus still needed, and whether the process is interactive or batch. Preemption: take resources from a chosen victim and roll it back, tracking a rollback count per process so the same victim isn't repeatedly starved. The realistic combined approach applies different strategies (prevention, avoidance, detection, or nothing) to different resource classes rather than one blanket policy. Distinct from deadlock: starvation is one process perpetually denied service while the rest of the system keeps progressing; livelock is processes actively changing state in response to each other while still making no real progress.",
+    "facts": [
+      "Wait-for graph = RAG with resource nodes collapsed out; edge Pi→Pj means Pi waits on a resource held by Pj; a cycle = deadlock (single-instance resource types)",
+      "For multiple-instance resource types, detection uses Allocation, Request, and Available (no Max needed, unlike Banker's avoidance)",
+      "Detection-invocation frequency is a policy trade-off: wasted CPU cycles on stuck processes versus detection overhead",
+      "Recovery by termination: abort all deadlocked processes at once (simple, high waste) or one at a time with retesting (less waste, more overhead); victim choice weighs priority, work done, and resource needs",
+      "Recovery by resource preemption: preempt a victim's resources, roll it back, and track rollback count to avoid repeatedly starving the same victim",
+      "Combined approach: partition resource types into classes and apply whichever of prevention/avoidance/detection (or nothing) fits each class best — reflects real-world OS practice"
+    ],
+    "traps": [
+      "Deadlock, starvation, and livelock are frequently confused: deadlock = permanent circular blocking (static, no progress); starvation = one process perpetually skipped while OTHERS progress; livelock = active state changes with still no real progress — livelock still shows CPU activity, which is the key distinguishing fact",
+      "The multi-instance detection algorithm does NOT require Max claims like Banker's avoidance does — conflating their input requirements is a common error",
+      "Resource-preemption recovery has the same rollback-starvation risk as resource-preemption-based PREVENTION — a shared risk the exam may ask you to name across both strategies",
+      "Detecting a deadlock does not fix it — detection only identifies IF and WHICH processes are deadlocked; a separate recovery step is still required"
+    ],
+    "mnem": "",
+    "rel": ["Deadlock avoidance & Banker's algorithm", "Deadlock prevention", "Deadlock system model & RAG", "Priority scheduling & starvation"]
+  }
+]

@@ -1,0 +1,672 @@
+[
+ {
+  "id": "D000",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Job vs process",
+  "ans": "A job is a unit of work submitted to the system for execution — in classical batch systems, a user's program together with its data and its control statements (JCL cards) handed over as one package. A process is a program in execution: an active entity with a program counter, a stack, a data section, and a set of resources allocated to it by the operating system.\n\nThe distinction comes from batch processing. A job is the unit handled by the long-term scheduler (the job scheduler), which selects jobs from the job pool held on disk and admits them into main memory. Once admitted, the job becomes one or more processes, and the short-term scheduler (the CPU scheduler) then multiplexes the CPU among those ready processes.\n\nSo a job is passive and static — a description of work waiting in a queue, with no execution state. A process is dynamic: it has a state (new, ready, running, waiting, terminated), a Process Control Block holding its registers and accounting data, and it can create child processes. One job may give rise to several processes; a process cannot exist without a program being run.\n\nGalvin notes the two terms are now used almost interchangeably, since interactive systems have largely displaced batch jobs and both schedulers do the same kind of work.",
+  "points": [
+   "Defines a job as a unit of work submitted for execution (program + data + control statements), passive and static",
+   "Defines a process as a program in execution — an active entity with PC, stack, data section and allocated resources",
+   "States that the long-term (job) scheduler admits jobs from the job pool; the short-term (CPU) scheduler dispatches processes",
+   "States that one job can give rise to several processes",
+   "Mentions that a process has state (new/ready/running/waiting/terminated) and a PCB, which a job does not",
+   "Notes that the terms are largely historical and are now used interchangeably in modern texts"
+  ],
+  "conf": "high",
+  "incomplete": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D001",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Multiprocessing vs multiprogramming",
+  "ans": "Multiprogramming keeps several programs resident in main memory at the same time on a single CPU. When the running process blocks for I/O, the operating system switches the CPU to another process that is ready, so the CPU is never left idle while I/O proceeds. Its goal is to maximise CPU utilisation and throughput. Only one process is actually executing at any given instant — the parallelism is apparent (interleaved), not real.\n\nMultiprocessing means the system contains two or more physical CPUs or cores, sharing the bus, memory and peripheral devices under the control of one operating system. Two or more processes genuinely execute at the same instant, so the parallelism is real. Its goals are increased throughput, economy of scale (sharing peripherals and memory), and increased reliability through graceful degradation — the system keeps running when one processor fails.\n\nKey differences: number of CPUs (one versus many); nature of parallelism (interleaved versus simultaneous); hardware cost (low versus high); and OS complexity — a multiprocessor must handle processor scheduling, cache coherence and inter-processor synchronisation, whereas multiprogramming needs only memory protection and CPU scheduling.\n\nThe two are orthogonal, not alternatives: a multiprocessor system is normally also multiprogrammed. The usual organisation is symmetric multiprocessing (SMP), where every processor runs an identical copy of the OS.",
+  "points": [
+   "Multiprogramming = several programs in memory, one CPU, switch on I/O wait; parallelism is apparent/interleaved",
+   "Multiprocessing = two or more physical CPUs under one OS; parallelism is real/simultaneous",
+   "States the goal of multiprogramming is CPU utilisation and throughput",
+   "States the goals of multiprocessing: increased throughput, economy of scale, increased reliability (graceful degradation)",
+   "Notes multiprocessing needs cache coherence and inter-processor synchronisation, adding OS complexity",
+   "Notes the two are orthogonal — a multiprocessor system is usually also multiprogrammed (SMP)"
+  ],
+  "conf": "high",
+  "incomplete": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D002",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "CPU scheduling algorithm comparison",
+  "ans": "The printed paper numbers the five jobs 1, 2, 3, 4, 4 — a genuine printing error; I answer under the reading that there are five distinct jobs J1..J5 with burst times 10, 29, 3, 7 and 12 ms, all arriving at time 0 in that order. Total burst = 61 ms. \"Minimum average time\" is read as minimum average waiting time.\n\nFCFS (served in the order given):\n\nGantt: J1 0-10 | J2 10-39 | J3 39-42 | J4 42-49 | J5 49-61\n\nWaiting times = 0, 10, 39, 42, 49. Sum = 140. Average = 140 / 5 = 28 ms.\n\nSJF (shortest burst first: 3, 7, 10, 12, 29):\n\nGantt: J3 0-3 | J4 3-10 | J1 10-20 | J5 20-32 | J2 32-61\n\nWaiting times = J3 0, J4 3, J1 10, J5 20, J2 32. Sum = 65. Average = 65 / 5 = 13 ms.\n\nRound Robin, quantum = 10:\n\nGantt: J1 0-10 | J2 10-20 | J3 20-23 | J4 23-30 | J5 30-40 | J2 40-50 | J5 50-52 | J2 52-61\n\nWaiting = completion time - burst: J1 = 10 - 10 = 0; J2 = 61 - 29 = 32; J3 = 23 - 3 = 20; J4 = 30 - 7 = 23; J5 = 52 - 12 = 40. Sum = 115. Average = 115 / 5 = 23 ms.\n\nSJF gives the minimum average waiting time, 13 ms, against 23 ms for Round Robin and 28 ms for FCFS. This is expected: SJF is provably optimal for average waiting time when all processes are available at the same instant.",
+  "points": [
+   "Notes the printed misnumbering of the five jobs (1,2,3,4,4) and states the reading used: bursts 10, 29, 3, 7, 12",
+   "FCFS Gantt chart and waiting times 0, 10, 39, 42, 49 giving average 140/5 = 28 ms",
+   "SJF Gantt chart (order 3, 7, 10, 12, 29) and waiting times 0, 3, 10, 20, 32 giving average 65/5 = 13 ms",
+   "RR q=10 Gantt chart with J2 and J5 preempted, waiting times 0, 32, 20, 23, 40 giving average 115/5 = 23 ms",
+   "Concludes SJF is minimum at 13 ms (RR 23 ms, FCFS 28 ms)",
+   "States that SJF is provably optimal for average waiting time when all jobs arrive together"
+  ],
+  "conf": "high",
+  "incomplete": false,
+  "repaired": true,
+  "recovered": false
+ },
+ {
+  "id": "D003",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Deadlock avoidance",
+  "ans": "Deadlock avoidance requires each process to declare in advance the maximum number of resources of each type it may ever need; the system then grants a request only if doing so leaves the system in a safe state. The standard method is Dijkstra's Banker's algorithm, which works for multiple instances of each resource type.\n\nData structures for n processes and m resource types: Available[m], Max[n][m], Allocation[n][m], and Need[n][m] = Max - Allocation.\n\nA state is safe if a safe sequence <P1, ..., Pn> exists such that each Pi's remaining Need can be met by the currently Available resources plus those held by all Pj before it — every process can finish in turn.\n\nSafety algorithm: set Work = Available and Finish[i] = false for all i. Find any i with Finish[i] = false and Need[i] <= Work; if found, set Work = Work + Allocation[i], Finish[i] = true, and repeat. If every Finish[i] becomes true, the state is safe.\n\nResource-request algorithm: when Pi requests Request[i], check Request[i] <= Need[i] and Request[i] <= Available. If both hold, tentatively allocate (Available -= Request, Allocation[i] += Request, Need[i] -= Request) and run the safety algorithm. If the trial state is safe the allocation stands; otherwise Pi waits and the old state is restored.\n\nNote an unsafe state is not necessarily a deadlock — avoidance is conservative and simply refuses to enter one.",
+  "points": [
+   "Names Banker's algorithm and states its precondition: each process declares its maximum resource need in advance",
+   "Lists the data structures Available, Max, Allocation and Need = Max - Allocation",
+   "Correctly defines a safe state / safe sequence",
+   "States the safety algorithm: Work = Available, find Need[i] <= Work, Work += Allocation[i], repeat until all Finish[i] true",
+   "States the resource-request algorithm: check Request <= Need and Request <= Available, tentatively allocate, test safety, roll back if unsafe",
+   "Notes an unsafe state is not the same as a deadlock — avoidance is conservative"
+  ],
+  "conf": "high",
+  "incomplete": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D004",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Priority scheduling",
+  "ans": "In priority scheduling each process is associated with an integer priority, and the CPU is allocated to the ready process with the highest priority. Equal-priority processes are scheduled FCFS. Following Galvin's convention, a smaller number denotes a higher priority.\n\nPriorities may be internal — computed by the OS from measurable quantities such as time limits, memory requirements, or the ratio of average I/O burst to average CPU burst — or external, set from outside the OS on grounds such as the importance of the user, funds paid, or political factors.\n\nThere are two variants. In preemptive priority scheduling, a newly arrived process whose priority is higher than that of the running process immediately takes the CPU away from it. In non-preemptive priority scheduling, the new process is merely put at the head of the ready queue and the running process finishes its CPU burst.\n\nSJF is a special case of priority scheduling in which the priority is the inverse of the predicted next CPU burst length.\n\nThe major problem is indefinite blocking, or starvation: a low-priority process may wait forever while a steady stream of higher-priority processes keeps arriving. The standard solution is aging — gradually raising the priority of any process that has waited a long time, so it eventually reaches the top of the queue. A related hazard, priority inversion, is handled by the priority-inheritance protocol.",
+  "points": [
+   "States the rule: CPU goes to the highest-priority ready process, ties broken FCFS; smaller number = higher priority (Galvin convention)",
+   "Distinguishes internal priorities (computed from time limits, memory, I/O-to-CPU burst ratio) from external ones",
+   "Describes both preemptive and non-preemptive variants correctly",
+   "States that SJF is priority scheduling with priority = inverse of the predicted next CPU burst",
+   "Identifies starvation / indefinite blocking as the main drawback",
+   "Gives aging as the remedy (and mentions priority inversion / priority inheritance)"
+  ],
+  "conf": "high",
+  "incomplete": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D005",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "LRU page replacement",
+  "ans": "LRU (Least Recently Used) replacement selects for eviction the page that has not been used for the longest period of time. It approximates the optimal (OPT / Belady) algorithm by using the recent past as a predictor of the near future: OPT looks forward along the reference string, LRU looks backward over the same string.\n\nExample, reference string 7 0 1 2 0 3 0 4 with three frames:\n\n7 fault [7]; 0 fault [7,0]; 1 fault [7,0,1]; 2 fault, replace 7 as least recently used, [2,0,1]; 0 hit; 3 fault, replace 1, [2,0,3]; 0 hit; 4 fault, replace 2, [4,0,3]. Six page faults.\n\nTwo hardware implementations are standard. Counters: the CPU keeps a logical clock incremented on every memory reference, and the clock value is copied into the page-table entry of the page referenced; the page with the smallest value is replaced, which requires searching the page table on every fault. Stack: page numbers are held in a doubly linked list, and each referenced page is removed and placed on top; the bottom of the stack is always the LRU page, so no search is needed, though each reference costs several pointer updates.\n\nLRU is a stack algorithm, so it never suffers Belady's anomaly. True LRU needs hardware support, so real systems use approximations such as the second-chance (clock) algorithm based on reference bits.",
+  "points": [
+   "States the rule: replace the page that has not been used for the longest time; LRU looks backward where OPT looks forward",
+   "Traces a worked reference string showing which page is evicted at each fault",
+   "Describes the counter implementation (logical clock stamped into the page-table entry, smallest value replaced)",
+   "Describes the stack implementation (doubly linked list, referenced page moved to top, bottom is LRU, no search needed)",
+   "States that LRU is a stack algorithm and therefore free of Belady's anomaly",
+   "Notes that true LRU needs hardware support, so second-chance/clock using reference bits is used in practice"
+  ],
+  "conf": "high",
+  "incomplete": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D014",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Disk scheduling (SCAN)",
+  "ans": "SCAN, the elevator algorithm, moves the disk arm steadily in one direction servicing every request it passes, continues to the end of the disk, then reverses and services the requests lying in the other direction on the return sweep.\n\nGiven: 200 cylinders numbered 0-199, head at cylinder 100, moving toward 0. Pending requests: 23, 89, 132, 42, 187.\n\nMoving inward from 100 the head meets 89, then 42, then 23. Standard SCAN then continues on to cylinder 0 — the physical end of the disk — before reversing; it does not turn around at the last request. (Turning at the last request is the LOOK variant, not SCAN.) It then sweeps outward and services 132, then 187.\n\nService order: 89, 42, 23, (0), 132, 187.\n\nTotal head movement:\n\nInward leg: 100 - 0 = 100 cylinders\n\nOutward leg: 187 - 0 = 187 cylinders\n\nTotal = 100 + 187 = 287 cylinders.\n\nThe question asks for \"total time\", but no seek rate, rotational latency or transfer time is printed with it, so the answer can only be given as total head movement — 287 cylinders. If a per-cylinder seek time t were supplied, total seek time = 287t.\n\nFor comparison, LOOK on the same queue reverses at 23 and gives (100 - 23) + (187 - 23) = 77 + 164 = 241 cylinders.",
+  "points": [
+   "States the SCAN service order: 89, 42, 23, then 0, then 132, 187",
+   "States explicitly that standard SCAN travels to cylinder 0 before reversing, and that stopping at 23 would be LOOK",
+   "Shows the sum: inward 100 - 0 = 100, outward 187 - 0 = 187",
+   "Gives total head movement = 287 cylinders",
+   "Names what is missing: no seek rate is printed, so 'time' can only be expressed as head movement (287t if t per cylinder given)",
+   "Optional comparison: LOOK gives 77 + 164 = 241 cylinders"
+  ],
+  "conf": "medium",
+  "incomplete": true,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D017",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "File organization",
+  "ans": "A file is a named collection of related information recorded on secondary storage. It is the logical storage unit the user sees — the smallest allotment of named storage the operating system permits a user to create — and the OS maps it onto physical devices, so the user need not know about tracks, sectors or blocks. Typical attributes held in the directory entry are name, identifier, type, location, size, protection, and time, date and owner information. The basic operations are create, write, read, reposition (seek), delete and truncate.\n\nFiles are organised at two levels, and the question can be read either way, so both are given.\n\nOrganisation of records within a file: sequential — records stored and retrieved strictly in order, cheap and suited to batch processing; indexed sequential (ISAM) — sequentially stored records plus an index of keys, allowing direct access as well; direct or hashed — the record key is hashed to a relative block address, giving the fastest access to a single record but poor sequential retrieval.\n\nOrganisation of files within the system (directory structure): single-level; two-level, one directory per user; tree-structured, with subdirectories and absolute or relative path names; acyclic-graph, allowing shared subdirectories via links; and general-graph, which needs cycle detection and garbage collection on deletion.\n\nThe access methods built on these are sequential access, direct (relative) access, and index-based access.",
+  "points": [
+   "Defines a file as a named collection of related information on secondary storage — the logical storage unit",
+   "Lists file attributes (name, identifier, type, location, size, protection, time/date/owner) and the six basic operations",
+   "Gives record-level file organisation: sequential, indexed sequential (ISAM), direct/hashed, with the trade-off of each",
+   "Gives system-level organisation via directory structures: single-level, two-level, tree, acyclic-graph, general-graph",
+   "Notes general-graph directories require cycle detection / garbage collection",
+   "Names the access methods: sequential, direct (relative) and index-based"
+  ],
+  "conf": "medium",
+  "incomplete": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D019",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Round Robin scheduling",
+  "ans": "Round Robin (RR) is preemptive FCFS with a fixed time quantum q. The ready queue is circular; each process gets at most q of CPU time, then is preempted and put at the tail. With n ready processes and quantum q, no process waits more than (n-1)q before its next turn, so response time is bounded.\n\nAdvantages: it is starvation-free, since every process is guaranteed the CPU within (n-1)q; it gives good response time for short, interactive jobs, which is why it is the classic time-sharing algorithm; it is simple to implement (one queue plus a timer interrupt) and needs no advance knowledge of burst lengths, unlike SJF; and it is fair, since all processes of equal priority get equal CPU share.\n\nDisadvantages: average turnaround and waiting time are worse than SJF, because long jobs are repeatedly chopped up; performance depends critically on q. If q is too large, RR degenerates into FCFS; if q is too small, context-switch overhead dominates and throughput collapses. It also ignores priority and process importance, and does not favour I/O-bound processes, which use only a fraction of their quantum.",
+  "points": [
+   "Defines RR as preemptive FCFS with a fixed time quantum and a circular ready queue",
+   "States the response-time bound: no process waits more than (n-1)q for the CPU",
+   "Advantages: starvation-free, fair, good response time for interactive jobs, simple, needs no burst-length prediction",
+   "Disadvantages: higher average turnaround/waiting time than SJF; ignores priorities",
+   "Performance hinges on q: large q degenerates to FCFS, small q means context-switch overhead dominates",
+   "Rule of thumb: q should be large compared with context-switch time, and 80% of bursts should be shorter than q"
+  ],
+  "conf": "high",
+  "incomplete": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D040",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Permutations with grouping",
+  "ans": "SIGNATURE has 9 letters — S, I, G, N, A, T, U, R, E — and every letter is distinct, so no division for repeated letters is needed anywhere in this problem.\n\nVowels: I, A, U, E (4 of them). Consonants: S, G, N, T, R (5 of them).\n\nThe condition \"vowels always come together\" is handled by the grouping (or \"string\") method: tie the four vowels into one composite letter [IAUE] and treat it as a single object. The arrangement is then over 5 consonants + 1 block = 6 objects, which can be ordered in 6! = 720 ways. Independently, the four vowels inside the block can be permuted among themselves in 4! = 24 ways.\n\nBy the product rule:\n\nRequired number of words = 6! × 4! = 720 × 24 = 17280.\n\nCross-check: total unrestricted arrangements are 9! = 362880, so the vowels-together words are 17280/362880 = 1/21 of all arrangements — the standard result 4!·6!/9!. (\"Words\" here means arrangements of letters, meaningful or not.)",
+  "points": [
+   "Identifies all 9 letters of SIGNATURE as distinct, so no repetition division is required",
+   "Separates 4 vowels (I, A, U, E) from 5 consonants (S, G, N, T, R)",
+   "Applies the grouping method: treats the 4 vowels as one block, giving 5 + 1 = 6 objects",
+   "Computes 6! = 720 arrangements of the objects and 4! = 24 internal arrangements of the vowels",
+   "States the final answer 6! × 4! = 720 × 24 = 17280"
+  ],
+  "conf": "high",
+  "incomplete": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D041",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Combinations (handshakes)",
+  "ans": "A handshake involves an unordered pair of distinct players, and each pair shakes hands exactly once. So the count is the number of 2-element subsets of a 10-element set. This is a combination, not a permutation, because A shaking B's hand and B shaking A's hand are the same single event.\n\nNumber of handshakes = C(10, 2) = 10! / (2! × 8!) = (10 × 9) / (2 × 1) = 90 / 2 = 45.\n\nSame result by direct counting: each of the 10 players shakes hands with the other 9, giving 10 × 9 = 90 ordered (player, partner) pairs; every handshake has been counted twice, once from each end, so divide by 2 to get 45.\n\nNote the question says \"all ten players shake hands with each other\", i.e. one group of ten — the basketball setting is a distractor. Only if handshakes were restricted to opposing teams would the answer be 5 × 5 = 25. Under the wording as printed the answer is 45.",
+  "points": [
+   "Recognises the pairing is unordered, so combinations C(n,2) apply, not permutations",
+   "Writes C(10,2) = 10!/(2!·8!) = (10×9)/2",
+   "Gives the arithmetic 90/2 and the final answer 45 handshakes",
+   "Offers the equivalent derivation n(n−1)/2: 10 players × 9 others, halved for double counting",
+   "Notes that \"all ten players\" means a single group, so 45 (not the inter-team count 5×5 = 25)"
+  ],
+  "conf": "high",
+  "incomplete": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D042",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "Mathematical induction",
+  "ans": "Let P(n) be the statement: Σ(i = 0 to n) i³ = [ n(n+1)/2 ]².\n\nBasis step (n = 0): LHS = 0³ = 0. RHS = [ 0·(0+1)/2 ]² = 0² = 0. Both sides equal 0, so P(0) is true. (Checking n = 1 as well: LHS = 0 + 1 = 1, RHS = [1·2/2]² = 1² = 1.)\n\nInduction hypothesis: assume P(k) holds for some arbitrary k ≥ 0, that is Σ(i = 0 to k) i³ = [ k(k+1)/2 ]².\n\nInduction step: prove P(k+1).\n\nΣ(i = 0 to k+1) i³ = Σ(i = 0 to k) i³ + (k+1)³\n= [ k(k+1)/2 ]² + (k+1)³      (by the hypothesis)\n= k²(k+1)²/4 + (k+1)³\n= (k+1)² [ k²/4 + (k+1) ]      (taking (k+1)² common)\n= (k+1)² (k² + 4k + 4)/4\n= (k+1)² (k+2)²/4\n= [ (k+1)(k+2)/2 ]²\n= [ (k+1)((k+1)+1)/2 ]²\n\nwhich is precisely P(k+1).\n\nSince P(0) is true, and P(k) implies P(k+1) for every k ≥ 0, by the principle of mathematical induction P(n) is true for all n ≥ 0.",
+  "points": [
+   "States P(n) explicitly and verifies the basis at n = 0: both sides equal 0",
+   "States the induction hypothesis for an arbitrary k ≥ 0",
+   "Adds (k+1)³ to the hypothesis and factors out (k+1)²",
+   "Simplifies k²/4 + (k+1) to (k+2)²/4, giving [ (k+1)(k+2)/2 ]²",
+   "Concludes by the induction principle that P(n) holds for all n ≥ 0"
+  ],
+  "conf": "high",
+  "incomplete": false,
+  "repaired": true,
+  "recovered": false
+ },
+ {
+  "id": "D043",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "DFA design",
+  "ans": "The word \"only\" fixes the language as the singleton L = {1010} over Σ = {0, 1} — the machine accepts that one string and rejects every other string, including 0, 1, 101, 10101 and 10100. (If the intent had been \"ends with 1010\" or \"contains 1010\" the automaton would differ; the reading taken here is the literal one.)\n\nBecause a DFA must be complete — exactly one transition per state per input symbol — any symbol that departs from the pattern 1-0-1-0, and any symbol after the fourth, must lead to a dead (trap/reject) state qd from which there is no escape. That trap state is unavoidable, not optional.\n\nStates: q0 start, q1, q2, q3, q4 final, qd trap.\n\nTransition table (* marks the final state):\n\n  State |  0   |  1\n  ->q0  |  qd  |  q1\n    q1  |  q2  |  qd\n    q2  |  qd  |  q3\n    q3  |  q4  |  qd\n   *q4  |  qd  |  qd\n    qd  |  qd  |  qd\n\nTrace of 1010: q0 -1-> q1 -0-> q2 -1-> q3 -0-> q4, which is final, so the string is accepted. This 6-state DFA is minimal for {1010}.",
+  "points": [
+   "Reads \"1010 only\" as the singleton language L = {1010}, not \"ends with\" or \"contains\"",
+   "Uses five states q0–q4 in a chain to spell out 1, 0, 1, 0 with only q4 final",
+   "Explains that DFA completeness forces a dead/trap state qd for every off-pattern symbol",
+   "Sends every symbol read from q4 to qd, so 10101 and 10100 are rejected",
+   "Gives the full transition table and traces 1010 through q0→q1→q2→q3→q4"
+  ],
+  "conf": "medium",
+  "incomplete": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D044",
+  "paper": "TECH1",
+  "unit": "1",
+  "sub": "NFA to DFA conversion",
+  "ans": "Subset construction with ε-closures. First the closures (a state plus everything reachable on ε alone):\n\nECLOSE(p) = {p}\nECLOSE(q) = {q} ∪ ECLOSE(p) = {p, q}\nECLOSE(r) = {r} ∪ ECLOSE(q) = {p, q, r}\n\nStart state = ECLOSE(p) = {p}. For a subset S and symbol x, δD(S, x) = ECLOSE( union of δ(s, x) over s in S ). Name A = {p}, B = {p,q}, C = {p,q,r}.\n\nA: a → {p} = A. b → {q}, closure {p,q} = B. c → {r}, closure {p,q,r} = C.\n\nB: a → {p} ∪ {q} = {p,q} = B. b → {q} ∪ {r} = {q,r}, closure = C. c → {r} ∪ ∅ = {r}, closure = C.\n\nC: a → {p,q,r} = C. b → {q,r} = C. c → {r} ∪ ∅ ∪ {p} = {p,r}, closure = C.\n\nResulting DFA (final = any subset containing r, so only C):\n\n  STATE       |  a  |  b  |  c\n  ->A {p}     |  A  |  B  |  C\n    B {p,q}   |  B  |  C  |  C\n   *C {p,q,r} |  C  |  C  |  C\n\nOnly 3 of the 2³ = 8 possible subsets are reachable. C is an absorbing final state, so the DFA accepts every string once a c is seen from A, or a b or c from B.",
+  "points": [
+   "Computes the ε-closures ECLOSE(p) = {p}, ECLOSE(q) = {p,q}, ECLOSE(r) = {p,q,r}",
+   "Takes the DFA start state as ECLOSE(p) = {p}, not p alone in general",
+   "Applies δD(S,x) = ECLOSE(∪ δ(s,x)) and shows the union for each subset and symbol",
+   "Finds only 3 reachable subsets {p}, {p,q}, {p,q,r} out of 8",
+   "Marks {p,q,r} as the only final state because it is the only reachable subset containing r",
+   "Presents the complete 3-state DFA transition table over a, b, c"
+  ],
+  "conf": "high",
+  "incomplete": false,
+  "repaired": true,
+  "recovered": false
+ },
+ {
+  "id": "D045",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "NOR gate logic diagram",
+  "ans": "F = (A ⊕ B)'·(C ⊕ D). NOR is a universal gate, so build the two exclusive-OR blocks first and merge them with De Morgan's law: X·Y = (X' + Y')' = NOR(X', Y'). That means the final NOR must be fed with the complements of the two factors, i.e. with (A ⊕ B) and with (C ⊕ D)'.\n\nStage 1 — XOR(A,B), five NOR gates:\nG1 = NOR(A, B)\nG2 = NOR(A, G1)\nG3 = NOR(B, G1)\nG4 = NOR(G2, G3) = (A ⊕ B)'\nG5 = NOR(G4, G4) = A ⊕ B\n\nStage 2 — XNOR(C,D), four NOR gates (the fifth inverter is not needed, because the complement is exactly what the last gate wants):\nG6 = NOR(C, D)\nG7 = NOR(C, G6)\nG8 = NOR(D, G6)\nG9 = NOR(G7, G8) = (C ⊕ D)'\n\nStage 3 — the AND, one NOR gate:\nG10 = NOR(G5, G9) = G5'·G9' = (A ⊕ B)'·(C ⊕ D) = F\n\nTen two-input NOR gates, five gate levels deep. Check A = B = 0, C = 0, D = 1: G4 = 1 so G5 = 0; G9 = (0 ⊕ 1)' = 0; G10 = NOR(0,0) = 1, and (0 ⊕ 0)'(0 ⊕ 1) = 1·1 = 1.",
+  "points": [
+   "Recognises NOR is universal and that AND is realised as NOR of the complemented inputs: X·Y = NOR(X', Y')",
+   "Builds XNOR(A,B) in four NOR gates (G1..G4) and inverts with a fifth to get A ⊕ B",
+   "Builds XNOR(C,D) in four NOR gates and uses it uncomplemented, saving the inverter",
+   "Final gate G10 = NOR(A ⊕ B, (C ⊕ D)') yields F exactly",
+   "States the total: 10 two-input NOR gates, 5 gate levels, and verifies one input combination"
+  ],
+  "conf": "high",
+  "incomplete": false,
+  "repaired": true,
+  "recovered": false
+ },
+ {
+  "id": "D046",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Half adder (gate design)",
+  "ans": "A half adder produces Sum = A ⊕ B and Carry = A·B. With AND and OR barred, use NAND, which is functionally complete — every AND, OR and NOT can be rebuilt from it — so the whole circuit can be made from one gate type.\n\nFive two-input NAND gates:\nN1 = (A·B)'\nN2 = (A·N1)'\nN3 = (B·N1)'\nN4 = (N2·N3)'  = Sum\nN5 = (N1·N1)' = N1' = A·B = Carry\n\nNote that N5 is just N1 wired as an inverter, so the carry is free once N1 exists.\n\nVerification by truth table (A B : N1 N2 N3 N4 N5):\n0 0 : 1 1 1 0 0\n0 1 : 1 1 0 1 0\n1 0 : 1 0 1 1 0\n1 1 : 0 1 1 0 1\n\nColumn N4 is 0,1,1,0 = A ⊕ B and column N5 is 0,0,0,1 = A·B, which is the half adder.\n\nA NOR-only version also exists but costs more: M1 = NOR(A,B), M2 = NOR(A,M1), M3 = NOR(B,M1), M4 = NOR(M2,M3) = (A ⊕ B)', M5 = NOR(M4,M4) = Sum, M6 = NOR(M5,M1) = Carry — six gates instead of five.",
+  "points": [
+   "States the requirement Sum = A ⊕ B, Carry = A·B and that NAND (or NOR) is a universal gate",
+   "Gives the five-NAND network N1..N5 with each gate's inputs named",
+   "Notes Carry is obtained by simply inverting N1 = (AB)'",
+   "Verifies with the four-row truth table that N4 = XOR and N5 = AND",
+   "Optional credit: gives the six-gate NOR-only alternative"
+  ],
+  "conf": "high",
+  "incomplete": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D047",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Full adder using multiplexers",
+  "ans": "A full adder has three inputs (A, B, Cin) and two outputs (S, Cout), so use one 4×1 MUX per output. A 4×1 MUX has only two select lines, so take two of the three variables — A and B — as the selects (S1 = A, S0 = B) and express each data input as a function of the third variable, Cin. This is the standard 'n-variable function on a 2^(n-1)-line MUX' method.\n\nFull adder truth table (A B Cin : S Cout):\n0 0 0 : 0 0\n0 0 1 : 1 0\n0 1 0 : 1 0\n0 1 1 : 0 1\n1 0 0 : 1 0\n1 0 1 : 0 1\n1 1 0 : 0 1\n1 1 1 : 1 1\n\nReading the rows in pairs, for each AB combination:\n\nMUX-1 (Sum), S1 = A, S0 = B:\nI0 = Cin, I1 = Cin', I2 = Cin', I3 = Cin\n\nMUX-2 (Carry-out), S1 = A, S0 = B:\nI0 = 0, I1 = Cin, I2 = Cin, I3 = 1\n\nOne inverter generates Cin' and feeds I1 and I2 of MUX-1; I0 of MUX-2 is tied to logic 0 and I3 to logic 1. Total hardware: two 4×1 multiplexers and one NOT gate.",
+  "points": [
+   "Chooses A and B as the select lines (S1 = A, S0 = B) and Cin as the data variable",
+   "Writes the full-adder truth table and reduces it in AB pairs",
+   "Sum MUX data inputs: I0 = Cin, I1 = Cin', I2 = Cin', I3 = Cin",
+   "Carry MUX data inputs: I0 = 0, I1 = Cin, I2 = Cin, I3 = 1",
+   "States the extra hardware needed: one inverter for Cin', constants 0 and 1 tied to two inputs"
+  ],
+  "conf": "high",
+  "incomplete": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D048",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Sequential circuit states",
+  "ans": "In a clocked sequential circuit the flip-flops are the memory, and their combined contents are the state. The present state is the vector of flip-flop outputs at time t — the value stored just before the active clock edge — written Q(t). The next state is the value that same vector takes immediately after that edge, Q(t+1). Only the clock transition can change one into the other; between edges the present state is held.\n\nThe next state is a function of the present state and the current inputs: Q(t+1) = f(Q(t), X). In practice you write the excitation equations for the flip-flop inputs and combine them with the flip-flop characteristic equation — for a D flip-flop Q(t+1) = D, for JK Q(t+1) = J·Q' + K'·Q — to get the state equations.\n\nMano's two-flip-flop example: A(t+1) = A·x + B·x, B(t+1) = A'·x, y = (A + B)·x'. If the present state is AB = 00 with input x = 1, then A(t+1) = 0·1 + 0·1 = 0 and B(t+1) = 1·1 = 1, so the next state is AB = 01, and the output y = (0+0)·0 = 0.\n\nTabulating this for every present-state/input pair gives the state table; drawn as circles joined by labelled arrows it is the state diagram.",
+  "points": [
+   "Present state = flip-flop contents Q(t) just before the active clock edge",
+   "Next state = Q(t+1), the contents just after the edge; changes only on the clock transition",
+   "Next state is a function of present state and inputs: Q(t+1) = f(Q(t), X)",
+   "Derives it from the excitation equations plus the flip-flop characteristic equation (D: Q(t+1)=D; JK: Q(t+1)=JQ'+K'Q)",
+   "Works one transition: present AB = 00, x = 1 gives next AB = 01",
+   "Connects to the state table / state diagram, and to Moore vs Mealy output dependence"
+  ],
+  "conf": "high",
+  "incomplete": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D049",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Carry lookahead adder",
+  "ans": "In an n-bit ripple carry adder the full adders are chained: stage i cannot produce its sum until carry C_i has arrived from stage i-1. The carry path through one full adder costs about 2 gate delays, so the final carry C_n settles only after roughly 2n gate delays. The addition time therefore grows linearly with the word length.\n\nCarry lookahead breaks the chain by computing every carry directly from the operands. Per bit define generate G_i = A_i·B_i and propagate P_i = A_i ⊕ B_i. Then C_(i+1) = G_i + P_i·C_i, and unrolling the recursion removes the dependence on the previous carry:\nC1 = G0 + P0·C0\nC2 = G1 + P1·G0 + P1·P0·C0\nC3 = G2 + P2·G1 + P2·P1·G0 + P2·P1·P0·C0\nC4 = G3 + P3·G2 + P3·P2·G1 + P3·P2·P1·G0 + P3·P2·P1·P0·C0\n\nEvery carry is now a two-level AND-OR function of the inputs and C0 alone, so all carries appear at the same instant, after a delay that does not depend on n.\n\nTiming for 4 bits: ripple = 2 × 4 = 8 gate delays to C4; lookahead = 1 (P,G) + 2 (AND-OR carry) + 1 (S_i = P_i ⊕ C_i) = 4. At 16 bits ripple needs about 32 while lookahead stays near 4. The price is many more gates and high fan-in, which is why wide adders use hierarchical 4-bit lookahead blocks.",
+  "points": [
+   "Ripple carry is serial: carry propagates stage by stage, worst case ≈ 2n gate delays",
+   "Defines G_i = A_i·B_i, P_i = A_i ⊕ B_i and the recursion C_(i+1) = G_i + P_i·C_i",
+   "Unrolls to give C1..C4 as two-level AND-OR expressions of the inputs and C0 only",
+   "All carries generated in parallel, so delay is constant and independent of n",
+   "Quantifies: 4-bit ripple ≈ 8 gate delays vs lookahead ≈ 4; 16-bit ≈ 32 vs ≈ 4",
+   "Notes the cost: more gates and higher fan-in, hence hierarchical lookahead for wide adders"
+  ],
+  "conf": "high",
+  "incomplete": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D050",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Clock speed and performance",
+  "ans": "Clock speed is the frequency f of the processor's clock, in Hz; its reciprocal T = 1/f is the clock cycle time. Every micro-operation in the datapath is timed by this clock, so T is the quantum of all work the CPU does.\n\nThe link to performance is the CPU performance equation:\nCPU time = Instruction count × CPI × T = (IC × CPI) / f\n\nWorked example: a program of 2 × 10^9 instructions with an average CPI of 1.5 on a 2 GHz processor takes (2 × 10^9 × 1.5) / (2 × 10^9) = 1.5 s. Raise the clock to 4 GHz with IC and CPI unchanged and the same program takes 0.75 s — exactly twice as fast.\n\nBut 'unchanged' rarely holds. Main memory latency is fixed in nanoseconds, not cycles, so doubling f roughly doubles the stall cycles charged for each cache miss; CPI rises and the real speedup falls well short of 2. Clock speed also means nothing across different architectures: a machine at 1 GHz with CPI 1.2 beats one at 2 GHz with CPI 4 (0.83 ns/instruction against 2 ns). This is why MIPS = f / (CPI × 10^6) is a poor cross-machine metric — clock rate is only one of the three factors, and the other two are set by the ISA, the compiler and the memory system.",
+  "points": [
+   "Defines clock rate f and cycle time T = 1/f as the timing quantum of the datapath",
+   "States CPU time = IC × CPI × T = (IC × CPI)/f",
+   "Works the example: 2×10^9 instructions, CPI 1.5, 2 GHz gives 1.5 s; 4 GHz gives 0.75 s",
+   "Explains why the gain is sub-linear: fixed memory latency means more stall cycles per miss, so CPI grows with f",
+   "Shows clock rate alone is not comparable across ISAs (1 GHz at CPI 1.2 beats 2 GHz at CPI 4)"
+  ],
+  "conf": "high",
+  "incomplete": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D051",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Memory hierarchy levels",
+  "ans": "A memory hierarchy is analysed two levels at a time: a small fast level M1 (cache, access time T1) backed by a larger slower level M2 (main memory, T2), where everything in M1 is also present in M2. 'Two-level memory access' is the model giving the average access time the CPU actually sees from that pair. The same formula is then applied repeatedly — registers/cache, cache/main memory, main memory/disk — to cover the whole hierarchy.\n\nLet H be the hit ratio, the fraction of references satisfied by M1. On a hit the cost is T1. On a miss, M1 is searched first and only then is the block fetched from M2, so the cost is T1 + T2. Hence\n\nT_avg = H·T1 + (1 − H)·(T1 + T2)\n\nWorked example, T1 = 10 ns, T2 = 100 ns, H = 0.95:\nT_avg = 0.95 × 10 + 0.05 × (10 + 100) = 9.5 + 5.5 = 15 ns\n\nClose to the 10 ns of the fast level at nearly the cost per bit of the slow one — the point of the hierarchy — and it works only because locality of reference keeps H near 1. At H = 0.5 the same numbers give 5 + 55 = 60 ns.\n\nConvention: this is Stallings' hierarchical (sequential) form. Texts assuming M1 and M2 are probed simultaneously write T_avg = H·T1 + (1 − H)·T2, giving 14.5 ns here. State which you assume.",
+  "points": [
+   "Defines the two-level pair M1/M2 with access times T1, T2 and inclusion of M1's contents in M2",
+   "Defines hit ratio H and gives T_avg = H·T1 + (1 − H)·(T1 + T2)",
+   "Worked numbers: T1 = 10 ns, T2 = 100 ns, H = 0.95 gives 9.5 + 5.5 = 15 ns",
+   "States explicitly which convention is used, and gives the simultaneous-access variant H·T1 + (1−H)·T2 = 14.5 ns",
+   "Explains that locality of reference is what keeps H near 1 (at H = 0.5 the average degrades to 60 ns)",
+   "Notes the model is applied recursively across the whole hierarchy"
+  ],
+  "conf": "medium",
+  "incomplete": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D052",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Pipelining and control register",
+  "ans": "Pipelining overlaps the execution of successive instructions. The datapath is cut into k sub-operations — typically fetch, decode, operand fetch, execute, write back — separated by buffer (pipeline) registers clocked together. While instruction i executes, i+1 fetches its operands, i+2 is decoded and i+3 is fetched. Each instruction still takes k cycles end to end, but in the steady state one completes every cycle.\n\nSpeedup: n instructions on a k-stage pipeline need k + (n − 1) cycles against n·k non-pipelined. For k = 4, n = 100: 4 + 99 = 103 cycles versus 400, a speedup of 400/103 = 3.88, tending to k as n grows. Real speedup is lower because of hazards — resource conflicts, data dependences and branches — handled by stalling, operand forwarding, or flushing on a taken branch.\n\nControl register: in Mano's microprogrammed control unit the control address register (CAR) holds the address of the next microinstruction in control memory, and the control data register (CDR, or control buffer register) holds the microinstruction just read out. Latching it in the CDR lets the next microinstruction be fetched while the current one executes — the control unit is itself pipelined, which is why the register exists. In a pipelined hardwired datapath the same role is played by the control fields carried forward inside each pipeline register.",
+  "points": [
+   "Pipelining = split execution into k sub-operations separated by buffer registers, overlapping successive instructions",
+   "Steady state throughput of one instruction per clock, though latency per instruction is still k cycles",
+   "Speedup derivation: n·k / (k + n − 1); k = 4, n = 100 gives 400/103 = 3.88, approaching k",
+   "Names the hazards (resource, data, branch) and their remedies (stall, forward, flush)",
+   "CAR holds the address of the next microinstruction; CDR/control buffer register holds the microinstruction being executed",
+   "Explains the CDR allows fetch of the next microinstruction to overlap execution of the current one"
+  ],
+  "conf": "medium",
+  "incomplete": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D053",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "DMA transfer",
+  "ans": "The technique is direct memory access (DMA), implemented by a DMA controller on the system bus.\n\nWhy DMA and not the alternatives: with programmed I/O the CPU polls the interface status flag and moves every single word through a processor register, so it is fully occupied for the whole transfer. Interrupt-driven I/O removes the busy-wait, but the CPU still runs an interrupt service routine and a register-to-memory move per word — for a disk block of thousands of words, thousands of interrupts. DMA is the only one of the three that takes the processor out of the data path altogether, so it is the right choice for fast block devices (disk, network, video).\n\nHow it works: the CPU programs the controller once, writing the address register (starting memory address), the word count register (number of words) and the control register (read/write direction and mode), then issues start and continues with other work. The controller asserts bus request (BR); the CPU replies with bus grant (BG) and floats its address, data and control lines. The controller then drives the bus itself, transferring either by cycle stealing — one bus cycle at a time between CPU bus accesses — or in burst/block mode. Each word increments the address register and decrements the word count; when the count reaches zero the controller raises one interrupt to report completion.",
+  "points": [
+   "Names direct memory access (DMA) with a DMA controller as the required technique",
+   "Contrasts with programmed I/O (CPU busy-waits and moves every word) and interrupt-driven I/O (one ISR per word)",
+   "Justifies it for high-speed block devices: CPU is removed from the data path entirely",
+   "Lists the controller registers the CPU initialises: address register, word count register, control register",
+   "Describes bus request / bus grant handshake and the CPU floating its bus lines",
+   "Distinguishes cycle stealing from burst mode, and notes one interrupt at completion when the word count hits zero"
+  ],
+  "conf": "high",
+  "incomplete": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D054",
+  "paper": "TECH1",
+  "unit": "2",
+  "sub": "Shift and rotate operations",
+  "ans": "Shifts and rotates displace a register's bits sideways; they differ in what enters the vacated end and what becomes of the bit pushed out. Take an 8-bit register R = 1001 0110 (b7...b0) with carry C = 0, shifted one place.\n\nLogical shift left (SHL): 0 enters b0, b7 goes out to C. R = 0010 1100, C = 1. Multiplies by 2.\nLogical shift right (SHR): 0 enters b7, b0 goes out to C. R = 0100 1011, C = 0. Unsigned divide by 2.\nArithmetic shift left (ASL): same bit movement as SHL; overflow flagged if the sign bit changes.\nArithmetic shift right (ASR): the sign bit is replicated into b7, b0 goes out to C. R = 1100 1011. Signed divide by 2.\nRotate left (ROL): b7 wraps round into b0 and is copied to C. R = 0010 1101.\nRotate right (ROR): b0 wraps round into b7 and is copied to C. R = 0100 1011.\nRotate left through carry (RCL): a 9-bit loop — C enters b0, b7 goes to C. R = 0010 1100, C = 1.\nRotate right through carry (RCR): C enters b7, b0 goes to C. R = 0100 1011, C = 0.\n\nRotates are reversible, losing no bit. Shifts discard the ejected bit, keeping only a copy in the carry flag.",
+  "points": [
+   "Lists all eight operations: logical/arithmetic shift left and right, rotate left/right, rotate left/right through carry",
+   "States for each what fills the vacated bit position and where the ejected bit goes (carry)",
+   "Arithmetic shift right replicates the sign bit; arithmetic shift left is the same as logical left but flags sign-change overflow",
+   "Traces a concrete 8-bit example (1001 0110, C = 0) through each operation with the resulting pattern and carry",
+   "Notes shifts as multiply/divide by 2 and that rotates preserve all bits while shifts lose the ejected bit"
+  ],
+  "conf": "high",
+  "incomplete": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D055",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Recursion",
+  "ans": "Recursion is a problem-solving technique in which a function solves a problem by calling itself on a smaller instance of the same problem, until the instance is small enough to be answered directly.\n\nEvery correct recursive routine has two parts. The base case is the instance solved with no further call; it is what terminates the recursion. The recursive case reduces the problem strictly towards the base case and combines the sub-result. Omitting the base case, or writing a recursive case that does not move towards it, produces infinite recursion and a stack overflow.\n\nAt run time each call pushes an activation record (stack frame) onto the system stack holding the actual parameters, local variables and the return address; the frame is popped when the call returns. So recursion costs O(depth) extra memory even when the code is short.\n\nExample - factorial:\nfact(n) = 1 if n = 0 (base case), else n * fact(n-1) (recursive case).\nfact(4) = 4*fact(3) = 4*3*fact(2) = 4*3*2*fact(1) = 4*3*2*1*fact(0) = 4*3*2*1*1 = 24, unwound after five frames.\n\nDirect recursion is a function calling itself; indirect or mutual recursion is A calling B which calls A. Tail recursion, where the call is the last action performed, can be turned back into a loop by the compiler.",
+  "points": [
+   "Defines recursion as a function calling itself on a smaller instance of the same problem",
+   "Names both required parts: base case (terminating condition) and recursive case that reduces towards it",
+   "States that a missing or unreachable base case gives infinite recursion / stack overflow",
+   "Explains the run-time cost: one activation record per call on the system stack, so O(depth) extra space",
+   "Gives a worked example such as fact(4) = 4*3*2*1*1 = 24 with the unwinding shown",
+   "Mentions direct vs indirect (mutual) recursion, and tail recursion being convertible to iteration"
+  ],
+  "conf": "high",
+  "incomplete": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D056",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Balanced expression check (stack)",
+  "ans": "Use a stack: the next closing bracket must match the most recently opened bracket still unclosed - exactly last-in-first-out behaviour.\n\nSteps. Create an empty stack and scan left to right, one symbol at a time.\n1. If the symbol is an opening bracket - ( , [ or { - push it on the stack.\n2. If the symbol is a closing bracket - ) , ] or } - then if the stack is empty, report unbalanced and stop (a closer with no opener). Otherwise pop the top symbol; if the popped opener is not the matching type for this closer, report unbalanced and stop.\n3. Operands and operators are ignored.\nAfter the scan, an empty stack means balanced; anything left on it means those openers were never closed, so unbalanced.\n\nTrace of { a + ( b - c ) * [ d ] } : push { ; push ( ; ) pops ( - matches ; push [ ; ] pops [ - matches ; } pops { - matches ; stack empty, so balanced.\nTrace of ( a + [ b ) ] : push ( ; push [ ; ) pops [ - wrong type, so unbalanced.\n\nFor n symbols the scan is O(n) time and O(n) worst-case stack space.",
+  "points": [
+   "Identifies the stack as the right structure and gives the LIFO justification (innermost open bracket closes first)",
+   "Push on every opening bracket; on a closing bracket pop and compare types",
+   "States the two failure conditions during the scan: pop from an empty stack, and a type mismatch on pop",
+   "States the terminating condition: balanced only if the stack is empty after the full scan",
+   "Traces at least one balanced and one unbalanced example, e.g. ( a + [ b ) ] fails because ) pops [",
+   "Gives O(n) time and O(n) worst-case space"
+  ],
+  "conf": "high",
+  "incomplete": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D057",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Prim's algorithm complexity",
+  "ans": "Prim's algorithm grows one tree: over V-1 iterations it repeatedly adds the minimum-weight edge crossing from the tree to a vertex outside it. The cost therefore depends entirely on how extract-min and decrease-key are implemented.\n\nAdjacency matrix with a linear scan of key[]. Each of the V iterations scans all V vertices to find the minimum key, which is O(V), and then relaxes the chosen vertex's whole matrix row, another O(V). Total = V * (V + V) = O(V^2) time. Space is O(V) for key[], parent[] and the in-tree flags, on top of the O(V^2) matrix itself.\n\nAdjacency list with a binary min-heap. Building the heap is O(V). There are V extract-min operations at O(log V) each, and each of the E edges is examined and may cause one decrease-key at O(log V). Total = O(V log V + E log V) = O(E log V) for a connected graph, since E >= V-1.\n\nWhich to prefer: in a dense graph E is theta(V^2), so the heap version degrades to O(V^2 log V) - worse than the matrix version, so use O(V^2) there. In a sparse graph (E much less than V^2) O(E log V) wins clearly. A Fibonacci heap improves the bound further to O(E + V log V).",
+  "points": [
+   "States the structure of the algorithm: V-1 iterations, each an extract-min plus edge relaxations",
+   "Adjacency matrix + linear key[] scan: V iterations x (O(V) scan + O(V) row relax) = O(V^2)",
+   "Adjacency list + binary min-heap: V extract-mins at O(log V) plus up to E decrease-keys at O(log V) = O(E log V)",
+   "Justifies collapsing O(V log V + E log V) to O(E log V) using E >= V-1 for a connected graph",
+   "Says the matrix O(V^2) version is preferable for dense graphs (E ~ V^2, where the heap gives O(V^2 log V)) and the heap version for sparse graphs",
+   "Mentions the Fibonacci-heap bound O(E + V log V)"
+  ],
+  "conf": "high",
+  "incomplete": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D058",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Merge sort",
+  "ans": "Merge sort splits the array recursively until each piece holds one element, then merges pieces pairwise by repeatedly taking the smaller front element. With n = 16 there are log2(16) = 4 merge levels.\n\nInput (16 elements):\n14 23 43 56 34 65 34 76 87 98 45 23 45 12 34 56\n\nLevel 1 - merge singletons into runs of 2:\n(14 23) (43 56) (34 65) (34 76) (87 98) (23 45) (12 45) (34 56)\n\nLevel 2 - merge those into runs of 4:\n(14 23 43 56) (34 34 65 76) (23 45 87 98) (12 34 45 56)\n\nLevel 3 - merge into runs of 8:\n(14 23 34 34 43 56 65 76) (12 23 34 45 45 56 87 98)\n\nLevel 4 - final merge of the two halves:\n12 14 23 23 34 34 34 43 45 45 56 56 65 76 87 98\n\nCheck: 16 elements out and the multiset is unchanged - 34 three times, 23, 45 and 56 twice each.\n\nCost: every level touches all n elements once, so each level is O(n) and there are log n levels, giving O(n log n) - here 16 x 4 = 64 element moves - in the best, average and worst case. Merge sort needs O(n) auxiliary space and is stable.",
+  "points": [
+   "Splits down to single elements and merges bottom-up over log2(16) = 4 levels",
+   "Level 1 runs of 2: (14 23) (43 56) (34 65) (34 76) (87 98) (23 45) (12 45) (34 56)",
+   "Level 2 runs of 4: (14 23 43 56) (34 34 65 76) (23 45 87 98) (12 34 45 56)",
+   "Level 3 runs of 8: (14 23 34 34 43 56 65 76) and (12 23 34 45 45 56 87 98)",
+   "Final sorted array (16 elements): 12 14 23 23 34 34 34 43 45 45 56 56 65 76 87 98",
+   "States O(n log n) in all three cases, O(n) auxiliary space, and that merge sort is stable"
+  ],
+  "conf": "high",
+  "incomplete": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D059",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Deadlock avoidance (resources)",
+  "ans": "For N units of a single resource type shared by n processes with peak (maximum) demands M1...Mn, deadlock is impossible if and only if\n\nN >= (sum of Mi) - n + 1, equivalently N >= sum of (Mi - 1) + 1.\n\nReasoning: the worst case is that every process holds one unit less than it needs and then blocks. That state consumes sum of (Mi - 1) units. If even one unit is left over, it can be given to some process, which then finishes and releases everything it holds, so the system unblocks. If no unit is left over, all processes are blocked forever.\n\nHere n = 4 and the peak demands are 3, 5, 8, 7:\nsum of Mi = 3 + 5 + 8 + 7 = 23\nN >= 23 - 4 + 1 = 20.\n\nCheck: with N = 19 the allocation (2, 4, 7, 6) uses all 19 units and every process still needs one more, so the system deadlocks. With N = 20 that same allocation leaves one spare unit, which completes some process. Hence the minimum deadlock-free value is N = 20 (any N >= 20 is safe).",
+  "points": [
+   "States the bound N >= sum(Mi) - n + 1 and justifies it by the worst case where each process holds Mi - 1 units",
+   "Computes sum of peak demands = 3 + 5 + 8 + 7 = 23",
+   "Computes N >= 23 - 4 + 1 = 20",
+   "States the minimum value as N = 20",
+   "Verifies with the counterexample allocation (2, 4, 7, 6) = 19 units, which deadlocks when N = 19"
+  ],
+  "conf": "high",
+  "incomplete": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D060",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "CPU utilization (Round Robin)",
+  "ans": "Assume context-switch time is zero (the question gives none) and that the three I/O operations genuinely overlap, so no process waits for a device.\n\nEach process repeats a cycle of 20 ms CPU followed by 80 ms I/O, i.e. a 100 ms period in which it needs only 20 ms of CPU. With a 10 ms quantum, a 20 ms burst is simply served as two quanta; the quantum splits the burst but does not change the total CPU work.\n\nTotal CPU demand of the three processes = 3 x 20 ms per 100 ms = 60 ms per 100 ms. Since 60 ms < 100 ms, the single CPU has spare capacity and can serve every request, so no process's cycle is stretched by queueing in the long run.\n\nTimeline sketch (first round): P1 0-10, P2 10-20, P3 20-30, P1 30-40 (burst done, I/O to 120), P2 40-50 (I/O to 130), P3 50-60 (I/O to 140); CPU idle 60-120. Busy 60 of every 100 ms.\n\nCPU utilization = 60/100 = 60%.",
+  "points": [
+   "States the assumption of zero context-switch overhead and fully overlapping I/O",
+   "Notes a 20 ms burst is served as two 10 ms quanta, so the quantum does not change total CPU work",
+   "Computes per-process cycle = 20 + 80 = 100 ms, CPU demand 20 ms per cycle",
+   "Total demand = 3 x 20 = 60 ms per 100 ms, which is less than CPU capacity, so all demand is met",
+   "Gives a timeline showing the CPU busy 0-60 ms and idle 60-120 ms",
+   "States CPU utilization = 60%"
+  ],
+  "conf": "high",
+  "incomplete": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D061",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "SCAN disk scheduling seek time",
+  "ans": "The question does not state the direction the head is moving, the number of cylinders on the disk, or the seek time per cylinder, so the answer must be given as total head movement in cylinders. I assume the standard textbook setup: a 200-cylinder disk (0-199) with the head at 50 moving towards higher cylinder numbers.\n\nSCAN (the elevator algorithm) services every request in the current direction up to the end of the disk, then reverses and services the rest.\n\nService order: 82, 140, 170, 190, 199 (end of disk, no request there), then 43, 24, 16.\n\nTotal head movement = (199 - 50) + (199 - 16) = 149 + 183 = 332 cylinders.\n\nIf instead the head is moving towards cylinder 0, the order is 43, 24, 16, 0, then 82, 140, 170, 190, giving (50 - 0) + (190 - 0) = 50 + 190 = 240 cylinders. If the LOOK variant is intended (reverse at the last request, not at the disk edge), the totals are 314 and 208 respectively.\n\nTo convert to seek time, multiply by the given seek rate in ms per cylinder; no rate is printed here.",
+  "points": [
+   "Notes that the direction of head travel, the disk size and the ms-per-cylinder rate are not stated",
+   "States the assumption: 0-199 cylinders, head moving towards higher numbers",
+   "Gives the service order 82, 140, 170, 190, 199, then 43, 24, 16",
+   "Computes (199 - 50) + (199 - 16) = 149 + 183 = 332 cylinders",
+   "States the other-direction answer: 50 + 190 = 240 cylinders",
+   "Distinguishes SCAN (goes to the disk edge) from LOOK (314 / 208)"
+  ],
+  "conf": "medium",
+  "incomplete": true,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D062",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Deadlock avoidance (resources)",
+  "ans": "For a single resource type R shared by n processes with maximum demands M1...Mn, the system can never deadlock if and only if the number of units satisfies\n\nN >= (sum of Mi) - n + 1.\n\nReasoning: the worst possible allocation gives every process one unit fewer than it needs, so each Pi holds Mi - 1 units and all are blocked. That state consumes sum of (Mi - 1) = sum of Mi - n units. Provide one more unit than that and at least one process can be completed; on finishing it releases all its units, which lets the next process finish, and so on. Provide exactly that many or fewer and every process can be left one unit short simultaneously, which is deadlock.\n\nHere n = 3 and M1 = 21, M2 = 31, M3 = 41:\nsum of Mi = 21 + 31 + 41 = 93\nN >= 93 - 3 + 1 = 91.\n\nCheck: with 90 units the allocation (20, 30, 40) exhausts the resource with every process still needing one more unit, so it deadlocks. Hence the minimum number of units of R required to guarantee no deadlock is 91.",
+  "points": [
+   "States the bound N >= sum(Mi) - n + 1 with the worst-case justification (each process holds Mi - 1)",
+   "Computes 21 + 31 + 41 = 93",
+   "Computes 93 - 3 + 1 = 91",
+   "Answer: minimum 91 units",
+   "Verifies that 90 units deadlocks under the allocation (20, 30, 40)"
+  ],
+  "conf": "high",
+  "incomplete": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D063",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Threads vs processes",
+  "ans": "A thread (or lightweight process) is the basic unit of CPU utilization: a single sequential flow of control within a process. It has its own thread ID, program counter, register set and stack, but it shares the process's code section, data section, heap and open OS resources (files, signal handlers) with the other threads of the same process. A traditional process is a single-threaded process; a multithreaded process has several such flows running over one address space.\n\nThreads are cheaper to create than processes because process creation duplicates context while thread creation only adds context:\n\nCreating a process requires allocating a new PCB, building a fresh address space with its own page table, copying or copy-on-write mapping the parent's data, heap and stack, and duplicating the open-file table and other resource descriptors. Creating a thread requires only a TCB, a register set and a new stack, with the address space, page table and resource tables reused as they are.\n\nFor the same reason context switching between threads of one process is cheaper: the memory map does not change, so the TLB and page tables need not be flushed or reloaded.",
+  "points": [
+   "Defines a thread as the basic unit of CPU utilization with its own thread ID, PC, registers and stack",
+   "States what is shared: code, data, heap, open files and signals of the parent process",
+   "Process creation cost: new PCB, new address space and page table, copying data/heap/stack and the open-file table",
+   "Thread creation cost: only a TCB, register set and stack; address space and resource tables are reused",
+   "Adds that thread switching avoids a page-table/TLB flush, so switching is also cheaper"
+  ],
+  "conf": "high",
+  "incomplete": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D064",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "File system structures",
+  "ans": "File-system implementation uses two families of structures: those stored on disk, which persist, and those held in memory, which exist only while the file system is mounted and speed up access.\n\nOn-disk structures: the boot control block (per volume, first block; holds the boot loader, called the boot block in UFS and the partition boot sector in NTFS); the volume control block (per volume; holds the number of blocks, block size, free-block count and free-block/FCB pointers, called the superblock in UFS and the master file table in NTFS); a directory structure per file system, which maps file names to their FCB numbers; and the file control block (FCB) per file, holding permissions, owner, size, dates and the pointers to the file's data blocks, called the inode in UNIX.\n\nIn-memory structures: the mount table, holding one entry per mounted volume; the directory-structure cache of recently accessed directories; the system-wide open-file table, holding a copy of the FCB of each open file plus an open count; the per-process open-file table, whose entries point into the system-wide table; and buffers holding disk blocks in transit.",
+  "points": [
+   "Splits the answer into on-disk (persistent) and in-memory (mount-time) structures",
+   "On-disk: boot control block, volume control block/superblock, directory structure, per-file FCB",
+   "Names the equivalents: superblock (UFS), MFT (NTFS), inode (UNIX FCB)",
+   "In-memory: mount table, directory-structure cache, system-wide open-file table, per-process open-file table, buffers",
+   "Notes the per-process table entry points into the system-wide table, which holds the FCB copy and open count"
+  ],
+  "conf": "high",
+  "incomplete": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D065",
+  "paper": "TECH1",
+  "unit": "4",
+  "sub": "Demand paging performance",
+  "ans": "Let p be the page-fault rate. The effective (average) memory access time under demand paging is\n\nEAT = (1 - p) x (memory access time) + p x (page-fault service time).\n\nGiven: memory access time = 1 microsecond, page-fault service time = 10 ms, hit ratio = 99.99%, so p = 1 - 0.9999 = 0.0001 (one fault in every 10,000 references).\n\nUnit conversion first: 10 ms = 10 x 1000 microseconds = 10,000 microseconds.\n\nEAT = 0.9999 x 1 + 0.0001 x 10,000\n    = 0.9999 + 1.0\n    = 1.9999 microseconds, i.e. about 2 microseconds.\n\nSo even a 99.99% hit ratio roughly doubles the average access time: the system runs at about half the speed it would with no paging, because the 10 ms fault costs 10,000 times a memory access. The 0.0001 x 10,000 term contributing a full microsecond is the point of the question, and it shows why demand-paging systems need fault rates far below one in 10,000 to keep the slowdown under 10%.",
+  "points": [
+   "States EAT = (1 - p) x memory access time + p x page-fault service time",
+   "Identifies p = 1 - 0.9999 = 0.0001",
+   "Converts 10 ms = 10,000 microseconds",
+   "Computes 0.9999 x 1 + 0.0001 x 10,000 = 0.9999 + 1 = 1.9999 microseconds (about 2 microseconds)",
+   "Interprets the result: access time is roughly doubled, i.e. about 100% slowdown, despite a 99.99% hit ratio"
+  ],
+  "conf": "high",
+  "incomplete": false,
+  "repaired": false,
+  "recovered": false
+ },
+ {
+  "id": "D098",
+  "paper": "TECH1",
+  "unit": "3",
+  "sub": "Binary heaps",
+  "ans": "Read each sequence as a complete binary tree stored level by level: with 0-based indexing the children of i sit at 2i+1 and 2i+2. A min-heap needs every parent <= both children, a max-heap every parent >= both children.\n\n(a) 1 3 2 4 6 5 - 1 <= 3, 2 ; 3 <= 4, 6 ; 2 <= 5. Every parent is smaller: MIN-heap.\n\n(b) 6 5 3 4 2 1 - 6 >= 5, 3 ; 5 >= 4, 2 ; 3 >= 1: MAX-heap.\n\n(c) 30 12 90 8 15 - root 30 has children 12 and 90; 12 < 30 but 90 > 30, violating both properties. NOT a heap.\n\n(d) and (e) are names, so they are heaps only under a stated ordering; I assume case-insensitive alphabetical.\n\n(d) Jack, Queen, King, Rahul, Frick, Laxman - Jack < Queen, King suggests min-heap, but Queen has child Frick and Frick < Queen. Not min; not max either (Jack < Queen). NOT a heap.\n\n(e) Queen, Laxman, King, Frick, Eigen, Hive - Queen >= Laxman, King ; Laxman >= Frick, Eigen ; King >= Hive. MAX-heap.\n\nCaveat: (e) is printed with mixed case (\"laxman\", \"king\"). Under strict ASCII order lowercase sorts after uppercase and (e) would fail; I treat the case as a typographical slip.",
+  "points": [
+   "States the array-to-tree rule: children of index i are at 2i+1 and 2i+2 (0-based), parent at floor((i-1)/2)",
+   "(a) 1 3 2 4 6 5 is a MIN-heap - checks 1<=3,2 ; 3<=4,6 ; 2<=5",
+   "(b) 6 5 3 4 2 1 is a MAX-heap - checks 6>=5,3 ; 5>=4,2 ; 3>=1",
+   "(c) 30 12 90 8 15 is NOT a heap - root 30 has children 12 and 90, so it is neither min nor max at the root",
+   "(d) is NOT a heap under alphabetical order - parent Queen has child Frick, and Frick < Queen breaks min; Jack < Queen breaks max",
+   "(e) is a MAX-heap under case-insensitive alphabetical order, and states that assumption explicitly (mixed case in the printed paper would break it under ASCII order)"
+  ],
+  "conf": "medium",
+  "incomplete": false,
+  "repaired": false,
+  "recovered": true
+ }
+]

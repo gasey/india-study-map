@@ -1,0 +1,299 @@
+[
+ {
+  "id": "N1039",
+  "ans": "B",
+  "conf": "medium",
+  "exp": "Switching the CPU back and forth between several resident programs to give the appearance of concurrent execution is the classic definition of multitasking. Kept medium confidence because some textbooks (Silberschatz) use 'time-sharing (or multitasking)' interchangeably, and 'timesharing' is also offered as a separate option here.",
+  "sub": "OS types",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0337",
+  "ans": "D",
+  "conf": "high",
+  "exp": "An operating system is all of these at once: a collection of programs managing hardware, a service provider to applications, and the interface layer between hardware and application programs.",
+  "sub": "OS basics",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0338",
+  "ans": "C",
+  "conf": "high",
+  "exp": "Modern kernels support loadable kernel modules that can be added while the OS is running, so the claim that kernel modules 'can not be loaded in a running operating system' is false -- making it the one statement that is NOT true.",
+  "sub": "OS basics",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0339",
+  "ans": "C",
+  "conf": "high",
+  "exp": "The OS manages the CPU via time-division multiplexing (scheduling) and memory via space-division multiplexing (partitioning/allocation), so resource management uses both.",
+  "sub": "OS basics",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0340",
+  "ans": "B",
+  "conf": "medium",
+  "exp": "Inter-process communication (message passing) is the mechanism that lets processes exchange data and synchronize even when they do not share an address space; shared-memory IPC is the complementary model that does share address space, but of the two options offered, this is the standard phrasing used for the general IPC definition. Kept medium confidence since shared-memory IPC is also a valid form of IPC.",
+  "sub": "Process management",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0341",
+  "ans": "D",
+  "conf": "high",
+  "exp": "A process's state is defined by what it is doing right now (its current activity: new, ready, running, waiting, or terminated), not by past or future activity.",
+  "sub": "Process states",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0342",
+  "ans": "A",
+  "conf": "high",
+  "exp": "A process voluntarily blocks itself (e.g. requesting I/O), which is the one transition it initiates itself; dispatch and wakeup are actions performed on it by the scheduler/OS.",
+  "sub": "Process states",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0343",
+  "ans": "B",
+  "conf": "high",
+  "exp": "Turnaround time is defined exactly as the interval from process submission to process completion.",
+  "sub": "CPU scheduling",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0344",
+  "ans": "B",
+  "conf": "high",
+  "exp": "Multithreaded programs share resources and data across threads within the same process, which increases opportunities for synchronization mistakes and circular waits, making them more prone to deadlocks than single-threaded programs.",
+  "sub": "Concurrency",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0345",
+  "ans": "C",
+  "conf": "high",
+  "exp": "A system is in a safe state precisely when there exists at least one safe sequence in which all processes can complete without deadlocking, which is the basis of the Banker's algorithm.",
+  "sub": "Deadlock avoidance",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0346",
+  "ans": "B",
+  "conf": "high",
+  "exp": "Pre-allocating all resources before execution prevents deadlock but means resources sit reserved and idle for long stretches of a process's run, resulting in low resource utilization.",
+  "sub": "Deadlock prevention",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0347",
+  "ans": "A",
+  "conf": "high",
+  "exp": "In paged memory management, physical memory is divided into fixed-size blocks called frames, which hold the fixed-size logical pages of processes.",
+  "sub": "Page replacement",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0348",
+  "ans": "A",
+  "conf": "high",
+  "exp": "Each segment table entry stores (at minimum) a segment base address and a segment limit; 'segment peak' and 'segment value' are not real fields.",
+  "sub": "Memory management",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0865",
+  "ans": "D",
+  "conf": "high",
+  "exp": "An injection (injective function) from a 4-element set to a 5-element set is a permutation of 4 chosen from 5 targets: P(5,4) = 5*4*3*2 = 120.",
+  "sub": "Functions and relations",
+  "mode": "calculate",
+  "broken": false
+ },
+ {
+  "id": "N0866",
+  "ans": "A",
+  "conf": "high",
+  "exp": "'Injective' and 'one-to-one' are two names for exactly the same property: distinct inputs always map to distinct outputs.",
+  "sub": "Functions and relations",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0867",
+  "ans": "D",
+  "conf": "high",
+  "exp": "The mangled symbol before 'N' is the set-membership sign (in): x belongs to N and is prime. There are infinitely many prime numbers, so the set of such x is an infinite set.",
+  "sub": "Set theory",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0868",
+  "ans": "A",
+  "conf": "high",
+  "exp": "The group axioms require closure, associativity, an identity element and inverses for every element, but not commutativity -- a group without commutativity is simply called non-abelian.",
+  "sub": "Group theory",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0869",
+  "ans": "D",
+  "conf": "high",
+  "exp": "R = {(x,y),(x,z),(z,x),(z,y)}. It is not symmetric because (x,y) is in R but (y,x) is not. It is not antisymmetric either because both (x,z) and (z,x) are in R while x != z. Since it fails both properties, R is neither symmetric nor antisymmetric.",
+  "sub": "Relations",
+  "mode": "calculate",
+  "broken": false
+ },
+ {
+  "id": "N0899",
+  "ans": "D",
+  "conf": "high",
+  "exp": "Every process is represented in the OS by a Process Control Block (PCB), which stores all the bookkeeping information the OS needs about it.",
+  "sub": "Process management",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0917",
+  "ans": "D",
+  "conf": "medium",
+  "exp": "MAC, MS-DOS and Windows 10 are all general-purpose operating systems, not real-time ones; 'Process Control' among these choices is meant to evoke an industrial process-control system, the classic textbook example of a real-time OS use case. Kept medium confidence since 'Process Control' as an OS name is an unusual/imprecise option.",
+  "sub": "OS types",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0918",
+  "ans": "A",
+  "conf": "high",
+  "exp": "An operating system is best described as the interface layer that mediates between hardware and the software/application programs running on it, not a piece of hardware itself.",
+  "sub": "OS basics",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0921",
+  "ans": "B",
+  "conf": "high",
+  "exp": "Microkernels move most services out of the kernel into user-space servers, so the kernel's core remaining job is providing the IPC mechanism that lets those client/server programs communicate.",
+  "sub": "OS structure",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0922",
+  "ans": "C",
+  "conf": "high",
+  "exp": "In the producer-consumer problem, the producer generates data and places it into a shared buffer, while the consumer removes and processes items from that buffer.",
+  "sub": "Concurrency",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0923",
+  "ans": "A",
+  "conf": "high",
+  "exp": "A semaphore is classically defined as an integer variable, accessed only through atomic wait/signal operations, used to solve critical-section synchronization problems.",
+  "sub": "Semaphores",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0924",
+  "ans": "C",
+  "conf": "high",
+  "exp": "Shortest Job First always picks the ready process with the smallest remaining CPU burst (the one that 'needs least processor' time), regardless of how long it has waited.",
+  "sub": "CPU scheduling",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0925",
+  "ans": "C",
+  "conf": "low",
+  "exp": "n sequential fork() calls produce 2^n total processes (2^n - 1 new children), since every existing process (parent and each child made so far) executes each subsequent fork(). As printed with four fork() calls that would be 2^4-1 = 15 new children, which matches none of the given options (10,9,7,8) -- strong evidence one 'fork ();' was duplicated by OCR. With the classic 3-call version of this question, 2^3-1 = 7 new child processes, matching option C, which is given here as the best-effort answer; treat the question as broken and verify the actual number of fork() statements against the source PDF.",
+  "sub": "Process management",
+  "mode": "calculate",
+  "broken": true
+ },
+ {
+  "id": "N0926",
+  "ans": "C",
+  "conf": "high",
+  "exp": "The standard process-state model consists of New, Ready, Running, Waiting and Terminated; 'Destroy' is not a recognised separate state (it overlaps with Exit/Terminated), so only (i) Running, (ii) Ready, (iii) New and (iv) Exit are valid.",
+  "sub": "Process states",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0927",
+  "ans": "C",
+  "conf": "high",
+  "exp": "Seek time is specifically the time taken for the disk arm to move to the cylinder containing the desired track.",
+  "sub": "Disk scheduling",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0928",
+  "ans": "B",
+  "conf": "high",
+  "exp": "Deadlock detection determines which processes are deadlocked and then grants the requested resources to (or otherwise deals with) those processes to resolve the deadlock.",
+  "sub": "Deadlock detection",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0929",
+  "ans": "A",
+  "conf": "high",
+  "exp": "FIFO page replacement evicts whichever page has been resident in memory the longest, i.e. the oldest page, regardless of how recently it was used.",
+  "sub": "Page replacement",
+  "mode": "memorise",
+  "broken": false
+ },
+ {
+  "id": "N0930",
+  "ans": "C",
+  "conf": "high",
+  "exp": "Unlike fixed-size pages, segments are variable-sized, so replacing a segment has to account for differing sizes (fitting the freed space, fragmentation, etc.), making segment replacement algorithms more complex than page replacement ones.",
+  "sub": "Memory management",
+  "mode": "understand",
+  "broken": false
+ },
+ {
+  "id": "N0931",
+  "ans": "C",
+  "conf": "low",
+  "exp": "The actual page reference string this question depends on was dropped during extraction -- the question says 'consider the following page reference string' but no string is present -- so the LRU fault count cannot actually be computed as printed. C is given only as a placeholder best guess; this needs to be checked against the source PDF to recover the missing reference string before it can be answered for real.",
+  "sub": "Page replacement",
+  "mode": "calculate",
+  "broken": true
+ },
+ {
+  "id": "N1025",
+  "ans": "B",
+  "conf": "high",
+  "exp": "Running several independent programs concurrently on one CPU by keeping them all resident and switching among them is the definition of multiprogramming.",
+  "sub": "Multiprogramming",
+  "mode": "memorise",
+  "broken": false
+ }
+]

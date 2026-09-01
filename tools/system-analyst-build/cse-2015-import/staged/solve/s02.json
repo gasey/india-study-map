@@ -1,0 +1,480 @@
+[
+ {
+  "id": "N0005",
+  "question": "What is mathematical induction used to prove?",
+  "options": {
+   "A": "Geometric theorems",
+   "B": "Algebraic equations",
+   "C": "Analytical calculus problems",
+   "D": "Logical propositions Bay"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0006",
+  "question": "What is the truth value of the proposition \"-(P A Q)\" if both P and Q are true?",
+  "options": {
+   "A": "True",
+   "B": "False",
+   "C": "Unknown",
+   "D": "Undefined"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0007",
+  "question": "What does it mean for two logical expressions to be logically equivalent?",
+  "options": {
+   "A": "They have the same truth value for all possible combinations of input values.",
+   "B": "They have the same number of variables.",
+   "C": "They both represent tautologies.",
+   "D": "They have the same truth value for some input values."
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0008",
+  "question": "What is the formula for finding the number of combinations ofn objects taken r at a time?",
+  "options": {
+   "A": "n!/(n-r)!",
+   "B": "n!/r!",
+   "C": "n!*r!",
+   "D": "n!-r!"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0009",
+  "question": "How many combinations are there for choosing 3 items from a set of 7 items?",
+  "options": {
+   "A": "27",
+   "B": "31",
+   "C": "35",
+   "D": "43"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0010",
+  "question": "What is a recurrence relation in mathematics?",
+  "options": {
+   "A": "A relation between two variables that cannot be determined",
+   "B": "A relation between a sequence and its previous terms",
+   "C": "Arelation between two unrelated sequences",
+   "D": "Arelation between an equation and its solutions"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0011",
+  "question": "In the Fibonacci sequence, what is the recurrence relation that defines each term?",
+  "options": {
+   "A": "F(n) = F(n- 1) + F(m - 2)",
+   "B": "F(n) = F(n- 1) * F(n- 2)",
+   "C": "F(n) = F(n+ 1) - F(n- 1)",
+   "D": "F(n) = F(n- 1)/F(n- 2)"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0012",
+  "question": "What is the chromatic number of a graph?",
+  "options": {
+   "A": "The number of edges in the graph",
+   "B": "The minimum number of colors needed to color the nodes so that no two adjacent nodes have the same color",
+   "C": "The number of nodes in the graph",
+   "D": "The number of cycles in the graph"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0013",
+  "question": "Which famous problem in graph theory involves finding a path that visits every edge exactly once and returns to the starting node?",
+  "options": {
+   "A": "The Traveling Salesman Problem",
+   "B": "The Four-Color Theorem",
+   "C": "The Bipartite Graph Problem",
+   "D": "The Chromatic Number Problem"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0014",
+  "question": "What is the minimum number of edges required for a connected graph to have a spanning tree having n vertices?",
+  "options": {
+   "A": "n",
+   "B": "n-1",
+   "C": "n+l",
+   "D": "2n"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0015",
+  "question": "Which algorithm is commonly used to find the minimum spanning tree of a weighted graph?",
+  "options": {
+   "A": "Breadth-First Search (BFS)",
+   "B": "Depth-First Search (DFS)",
+   "C": "Kruskal's algorithm",
+   "D": "Dijkstra's algorithm"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0016",
+  "question": "Graph isomorphism is primarily concerned with preserving which aspect of the graphs?",
+  "options": {
+   "A": "The number of vertices",
+   "B": "The number of edges",
+   "C": "The degree of vertices",
+   "D": "The colors of vertices a"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0017",
+  "question": "Inan NFA, if there exists at least one path from the start state to a final state that accepts the input string, what is the overall acceptance status of the input string?",
+  "options": {
+   "A": "Accepted",
+   "B": "Rejected",
+   "C": "Ambiguous",
+   "D": "Undefined"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0018",
+  "question": "What is the maximum number of next states a DFA transition can have for a given input symbol?",
+  "options": {
+   "A": "0",
+   "B": "1",
+   "C": "2",
+   "D": "Unlimited"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0019",
+  "question": "Which type of finite automaton is typically used for state minimization?",
+  "options": {
+   "A": "Non-deterministic FiniteAutomaton(NFA)",
+   "B": "Deterministic Finite Automaton (DFA)",
+   "C": "Pushdown Automaton (PDA)",
+   "D": "Turing Machine (TM)"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0020",
+  "question": "How are outputs associated with states in a Moore machine?",
+  "options": {
+   "A": "Each state has a fixed output, independent of inputs.",
+   "B": "Outputs are defined for each state and input combination.",
+   "C": "Outputs are defined only for the initial state.",
+   "D": "Outputs are defined only for the final state."
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0021",
+  "question": "Which of the following statements is true about Type | grammars?",
+  "options": {
+   "A": "They are also knownas context-free grammars.",
+   "B": "They can be parsed using a finite automaton.",
+   "C": "They can generate context-free languages. |",
+   "D": "Theycan generate context-sensitive languages."
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0022",
+  "question": "Which of the following statements is true about Type 3 grammars?",
+  "options": {
+   "A": "They can generate context-free languages.",
+   "B": "Theycanbe recognized by a Turing machine.",
+   "C": "They are the most powerful type of grammar.",
+   "D": "They can generate regular languages."
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0023",
+  "question": "What is the range of membership values in a fuzzy set?",
+  "options": {
+   "A": "Otol",
+   "B": "-l tol",
+   "C": "1 toa",
+   "D": "-#tow"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0024",
+  "question": "Which fuzzy logic operation corresponds to the logical OR operation in classical logic?",
+  "options": {
+   "A": "Fuzzy intersection",
+   "B": "Fuzzy union",
+   "C": "Fuzzy complement",
+   "D": "Fuzzy implication"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0870",
+  "question": "How many different non-isomorphic Abelian groups of order 4 are there?",
+  "options": {
+   "A": "2",
+   "B": "3",
+   "C": "4",
+   "D": "5"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0871",
+  "question": "Power set of empty or Null set has exactly ________ subset.",
+  "options": {
+   "A": "One",
+   "B": "Three",
+   "C": "Two",
+   "D": "Zero"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0872",
+  "question": "A graph G is called a ________ if it is a connected acyclic graph.",
+  "options": {
+   "A": "Cyclic graph",
+   "B": "Regular graph",
+   "C": "Tree",
+   "D": "Not a graph"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0873",
+  "question": "Let S be a set 6 of n elements. The number of ordered pairs in the largest and the smallest equivalence relations on S is",
+  "options": {
+   "A": "n and n",
+   "B": "n2 and n",
+   "C": "n2 and 0",
+   "D": "n and 1"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0874",
+  "question": "If two finite states machine M and N are isomorphic, then",
+  "options": {
+   "A": "M can be transformed to N, merely re-labelling its states",
+   "B": "M can be transformed to N, merely re-labelling its edges",
+   "C": "Both (a) & (b) (d) None of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0875",
+  "question": "Correct hierarchical relationship among context- free, right-linear, and context-sensitive language is",
+  "options": {
+   "A": "context-free \uf0cc right-linear \uf0cc context-sensitive",
+   "B": "context-free \uf0cc context-sensitive \uf0cc right-linear",
+   "C": "context-sensitive \uf0cc right-linear \uf0cc context-free",
+   "D": "right-linear \uf0cc context-free \uf0cc context-sensitive"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0876",
+  "question": "In the method of defuzzification, MeOM stands for",
+  "options": {
+   "A": "Mean of Minima",
+   "B": "Method of Minima",
+   "C": "Method of Maxima",
+   "D": "Mean of Maxima"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1012",
+  "question": "Ifp=Itis raining , q= She will go to college . \"It is raining and she will not go to college\" will be denoted by .",
+  "options": {
+   "A": "p*~q",
+   "B": "p*q",
+   "C": "~(p*q)",
+   "D": "~p%q"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N1013",
+  "question": "What is the correct translation of the following statement into mathematical logic? \"Some real numbers are rational\" A. 3x(real(x) v rational(x)) B. vy x(teal(x) > rational(x)) | | C. 3x(real(x) , rational(x)) . D. 3x(rational(x) + real(x)) . . .",
+  "options": {
+   "A": "A",
+   "B": "B . | (ec) C . (@) D"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N1014",
+  "question": "A function of type f: 4-5 4, where f(x)=x and xis an element of A then, fon A is called",
+  "options": {
+   "A": "Inverse function",
+   "B": "Identity function",
+   "C": "Modular function",
+   "D": "None of these ."
+  },
+  "garbled": true
+ },
+ {
+  "id": "N1015",
+  "question": "A grammar of the form 4-5 gq , Where 'A' isa non-terminal (variable) and ' @ ' is combination of non-terminals and terminals (alphabet symbols) is called |",
+  "options": {
+   "A": "Context sensitive .",
+   "B": "Context Free",
+   "C": "Both (a) and (b) (d) None of these ."
+  },
+  "garbled": true
+ },
+ {
+  "id": "N1016",
+  "question": "Aminimal spanning tree of a graph Gis |",
+  "options": {
+   "A": "Aspanning sub graph _",
+   "B": "Atree (Cc) Minimum weights (d) Allof these"
+  },
+  "garbled": true
+ },
+ {
+  "id": "N0684",
+  "question": "The simplified form of the Boolean expression ( X + Y +XY) (X + Z) is",
+  "options": {
+   "A": "X + Y + Z",
+   "B": "XY + YZ",
+   "C": "X + YZ",
+   "D": "XZ + Y"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0685",
+  "question": "Which of the following Boolean algebra statements represent commutative law?",
+  "options": {
+   "A": "(A + B) + CA+ (B+C)",
+   "B": "A\u00b7 (B +C) (A\u00b7 B) + (A\u00b7 C)",
+   "C": "A +BB+A",
+   "D": "A +AA"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0686",
+  "question": "Which of the following logic expression is incorrect?",
+  "options": {
+   "A": "1\u00b7 0 = 1",
+   "B": "1\u00b7 1\u00b7 0 = 1",
+   "C": "1\u00b7 1\u00b7 1 = 1",
+   "D": "1\u00b7 1 = 0"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0687",
+  "question": "The language that the computer can understand and execute is called",
+  "options": {
+   "A": "Machine language",
+   "B": "Application software",
+   "C": "System program",
+   "D": "None of the above"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0688",
+  "question": "Which of the following is used as a primary storage device?",
+  "options": {
+   "A": "Magnetic tape",
+   "B": "PROM",
+   "C": "Floppy disk",
+   "D": "None of the above"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0697",
+  "question": "In half adder EX-OR gate O/P is",
+  "options": {
+   "A": "Carry",
+   "B": "Remainder",
+   "C": "Sum",
+   "D": "None of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0698",
+  "question": "In half adder AND gate O/P is",
+  "options": {
+   "A": "Carry",
+   "B": "Remainder",
+   "C": "Sum",
+   "D": "None of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0699",
+  "question": "Subtract (1010)2 from (1101)2 using 1st complement",
+  "options": {
+   "A": "(1100)2",
+   "B": "(0011)2",
+   "C": "(1001)2",
+   "D": "(0101)2"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0700",
+  "question": "In 1st Complement a number to be subtracted is known as",
+  "options": {
+   "A": "Subtrahend",
+   "B": "Minuend",
+   "C": "Carry",
+   "D": "None of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0701",
+  "question": "In a 2nd Complement a number which is subtracted from other number is known as",
+  "options": {
+   "A": "Carry",
+   "B": "Subtrahend",
+   "C": "Minuend",
+   "D": "None of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0702",
+  "question": "The full adder CKT adds _______ digit(s) at a time",
+  "options": {
+   "A": "1",
+   "B": "2",
+   "C": "3",
+   "D": "4"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0703",
+  "question": "Full adder is constructed by using",
+  "options": {
+   "A": "Two Half Adder & one OR gate",
+   "B": "two OR gate & one HA",
+   "C": "One HA & two OR gate",
+   "D": "One OR gate & one HA"
+  },
+  "garbled": false
+ }
+]

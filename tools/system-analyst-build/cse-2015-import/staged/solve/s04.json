@@ -1,0 +1,486 @@
+[
+ {
+  "id": "N0833",
+  "question": "A graph preapared by a computer",
+  "options": {
+   "A": "is its output",
+   "B": "is the piece of information to use",
+   "C": "is a hard copy",
+   "D": "all of the above"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0834",
+  "question": "Which of the following does not represent on I/O device?",
+  "options": {
+   "A": "speaker which beeps",
+   "B": "joystick",
+   "C": "plotter",
+   "D": "ALU"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0835",
+  "question": "The communication line between the CPU, memory and peripherals is called a",
+  "options": {
+   "A": "bus",
+   "B": "line",
+   "C": "media",
+   "D": "none of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0836",
+  "question": "Memories which can be read only are called _______ memories",
+  "options": {
+   "A": "RAM",
+   "B": "ROM",
+   "C": "PROM",
+   "D": "EPROM"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0837",
+  "question": "Example of non-numerical data is",
+  "options": {
+   "A": "Employee address",
+   "B": "Examination score",
+   "C": "Bank balance",
+   "D": "None of the above"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0838",
+  "question": "A Winchester disk is a",
+  "options": {
+   "A": "Disk stack",
+   "B": "Removable disk",
+   "C": "Flexible disk",
+   "D": "None of the above"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0839",
+  "question": "The Central Processing Unit",
+  "options": {
+   "A": "is operated from the control panel",
+   "B": "is controlled by the input data entering the system",
+   "C": "controls the auxiliary storage unit",
+   "D": "controls all input, output and processing"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0849",
+  "question": "The part of machine level instruction, which tells the central processor what was to be done is",
+  "options": {
+   "A": "Operation code",
+   "B": "Address",
+   "C": "Operand",
+   "D": "None of the above"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0306",
+  "question": "Which of the following memories uses one transistor and one capacitor as basic memory unit?",
+  "options": {
+   "A": "SRAM",
+   "B": "DRAM",
+   "C": "Flash Memory",
+   "D": "Both SRAM and DRAM"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0307",
+  "question": "In which region a transistor acts as an open switch?",
+  "options": {
+   "A": "cut off region",
+   "B": "inverted region",
+   "C": "active region",
+   "D": "saturated region"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0308",
+  "question": "How many 3-line-to-8-line decoders are required for a 1-of-32 decoder?",
+  "options": {
+   "A": "1",
+   "B": "2",
+   "C": "4",
+   "D": "8"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0309",
+  "question": "The simplest equation which implements the K-map shown below is:",
+  "options": {
+   "A": "X \uf03d AC \uf02b B",
+   "B": "X \uf03d AB",
+   "C": "X \uf03d ABC \uf02b ABC \uf02b ABC",
+   "D": "X \uf03d AB \uf02b AB"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0310",
+  "question": "Which of the following statements accurately represents the two BEST methods of logic circuit simplification?",
+  "options": {
+   "A": "Karnaugh mapping and circuit waveform analysis",
+   "B": "Boolean algebra and Karnaugh mapping",
+   "C": "Actual circuit trial and error evaluation and waveform analysis",
+   "D": "Boolean algebra and actual circuit trial and error evaluation"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0311",
+  "question": "To operate correctly, starting a ring counter requires:",
+  "options": {
+   "A": "clearing one flip-flop and presetting all the others.",
+   "B": "clearing all the flip-flops.",
+   "C": "presetting one flip-flop and clearing all the others.",
+   "D": "presetting all the flip-flops."
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0312",
+  "question": "A full-adder has a Cin = 0. What are the sum (S) and the carry (Cout) when A = 1 and B = 1?",
+  "options": {
+   "A": "S = 0, Cout = 0",
+   "B": "S = 0, Cout = 1",
+   "C": "S = 1, Cout = 0",
+   "D": "S = 1, Cout = 1"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0313",
+  "question": "What should be done to unused inputs on TTL gates?",
+  "options": {
+   "A": "They should be left disconnected so as not to produce a load on any of the other circuits and to minimize power loading on the voltage source.",
+   "B": "All unused gates should be connected together and tied to V through a 1k W resistor.",
+   "C": "All unused inputs should be connected to an unused output; this will ensure compatible loading on both the unused inputs and unused outputs.",
+   "D": "Unused AND and NAND inputs should be tied to VCC through a 1 k W resistor; unused OR and NOR inputs should be grounded."
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0314",
+  "question": "Which of the following summarizes the important features of ECL?",
+  "options": {
+   "A": "Low noise margin, low output voltage swing, negative voltage operation, fast, and high power consumption",
+   "B": "Good noise immunity, negative logic, high frequency capability, low power dissipation, and short propagation time",
+   "C": "Slow propagation time, high frequency response, low power consumption, and high output voltage swings",
+   "D": "Poor noise immunity, positive supply voltage operation, good low frequency operation, and low power"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0315",
+  "question": "Which of the following statements apply to CMOS devices?",
+  "options": {
+   "A": "The devices should not be inserted into circuits with the power on.",
+   "B": "All tools, test equipment, and metal workbenches should be tied to earth ground.",
+   "C": "The devices should be stored and shipped in antistatic tubes or conductive foam.",
+   "D": "All of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0316",
+  "question": "If the n-MOS and p-MOS of the CMOS inverters are interchanged the output is measured at:",
+  "options": {
+   "A": "Source of the both transistor",
+   "B": "Drains of the both transistor",
+   "C": "Drain of n-MOS and source of p-MOS",
+   "D": "Source of n-MOS and drain of p-MOS"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0317",
+  "question": "Which of the following is a type of error associated with digital-to-analog converters (DACs)?",
+  "options": {
+   "A": "nonmonotonic error",
+   "B": "incorrect output codes",
+   "C": "offset error",
+   "D": "nonmonotonic and offset error"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0318",
+  "question": "In a comparator, if we get input as A>B then the output will be",
+  "options": {
+   "A": "1",
+   "B": "0",
+   "C": "A",
+   "D": "B"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0319",
+  "question": "The base emitter voltage in a cut off region of silicon transistor is__________",
+  "options": {
+   "A": "greater than 0.7V",
+   "B": "equal to 0.7V",
+   "C": "less than 0.7V",
+   "D": "cannot be predicted"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0320",
+  "question": "The switching of power with a PNP transistor is called__________",
+  "options": {
+   "A": "sourcing current",
+   "B": "sinking current",
+   "C": "forward sourcing",
+   "D": "reverse sinking"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0321",
+  "question": "The collector current will not reach the steady state value instantaneously because of__________",
+  "options": {
+   "A": "stray capacitances",
+   "B": "resistances",
+   "C": "input blocking capacitances",
+   "D": "coupling capacitance"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0322",
+  "question": "DeMorgan's theorem states that",
+  "options": {
+   "A": "(AB)' = A' + B'",
+   "B": "(A + B)' = A' * B",
+   "C": "A' + B' = A'B'",
+   "D": "None of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0323",
+  "question": "Simplify Y = AB' + (A' + B)C",
+  "options": {
+   "A": "AB' + C",
+   "B": "AB + AC",
+   "C": "A'B + AC'",
+   "D": "AB + A"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0324",
+  "question": "Transistor-transistor logic (TTL) is a class of digital circuits built from",
+  "options": {
+   "A": "Transistors only",
+   "B": "Bipolar junction transistors (BJT)",
+   "C": "Resistors",
+   "D": "Bipolar junction transistors (BJT) and resistors"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0325",
+  "question": "Which memory has lowest access time?",
+  "options": {
+   "A": "Registers",
+   "B": "Magnetic disk",
+   "C": "Main Memory",
+   "D": "Pen Drive"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0326",
+  "question": "The minimum time delay between two successive memory read operations is __________.",
+  "options": {
+   "A": "Cycle time",
+   "B": "Latency",
+   "C": "Delay",
+   "D": "None of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0327",
+  "question": "A CPU has 24-bit instructions. A program starts at address 300 (in decimal). Which one of the following is a legal program counter (all values in decimal)?",
+  "options": {
+   "A": "400",
+   "B": "500",
+   "C": "600",
+   "D": "700"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0328",
+  "question": "Which method/s of representation of numbers occupies large amount of memory than others ?",
+  "options": {
+   "A": "Sign-magnitude",
+   "B": "1's compliment",
+   "C": "2's compliment",
+   "D": "1's & 2's compliment"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0329",
+  "question": "The address space is 22 bits, the memory is 32 bit word addressable. What is the memory size?",
+  "options": {
+   "A": "16MB",
+   "B": "512KB",
+   "C": "4MB",
+   "D": "1GB"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0330",
+  "question": "__________ are numbers and encoded characters, generally used as operands.",
+  "options": {
+   "A": "Input",
+   "B": "Data",
+   "C": "Information",
+   "D": "Stored Values"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0331",
+  "question": "The time delay between two successive initiation of memory operation __________",
+  "options": {
+   "A": "Memory access time",
+   "B": "Memory search time",
+   "C": "Memory cycle time",
+   "D": "Instruction delay"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0332",
+  "question": "__________ are used to over come the difference in data transfer speeds of various devices.",
+  "options": {
+   "A": "Speed enhancing circuitory",
+   "B": "Bridge circuits",
+   "C": "Multiple Buses",
+   "D": "Buffer registers"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0333",
+  "question": "The main advantage of multiple bus organisation over single bus is __________",
+  "options": {
+   "A": "Reduction in the number of cycles for execution",
+   "B": "Increase in size of the registers",
+   "C": "Better Connectivity",
+   "D": "None of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0334",
+  "question": "The pipelining process is also called as __________",
+  "options": {
+   "A": "Superscalar operation",
+   "B": "Assembly line operation",
+   "C": "Von neumann cycle",
+   "D": "None of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0335",
+  "question": "If a unit completes its task before the allotted time period, then",
+  "options": {
+   "A": "It'll perform some other task in the remaining time",
+   "B": "Its time gets reallocated to different task",
+   "C": "It'll remain idle for the remaining time",
+   "D": "None of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0336",
+  "question": "Which of the architecture is power efficient?",
+  "options": {
+   "A": "CISC",
+   "B": "RISC",
+   "C": "ISA",
+   "D": "IANA"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0381",
+  "question": "When device A has a cable that plugs into device B, and device B has a cable that plugs into device C and device C plugs into a port on the computer, this arrangement is called a :",
+  "options": {
+   "A": "port",
+   "B": "daisy chain",
+   "C": "bus",
+   "D": "cable"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0025",
+  "question": "Which type of transistor is commonly used for high-power switching applications due to its ability to handle large current flows?",
+  "options": {
+   "A": "NPN transistor",
+   "B": "PNP transistor",
+   "C": "Field-Effect Transistor (FET)",
+   "D": "Metal-Oxide-Semiconductor FET (MOSFET)"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0026",
+  "question": "What is the key factor that determines the switching speed ofa transistor when used as a switch?",
+  "options": {
+   "A": "The collector current",
+   "B": "The base current",
+   "C": "The emitter voltage",
+   "D": "The transition capacitance"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0027",
+  "question": "Which law of Boolean algebra states that the order of operations does not affect the final result when using AND and OR operations?",
+  "options": {
+   "A": "Commutative Law",
+   "B": "Associative Law",
+   "C": "Distributive Law",
+   "D": "Identity Law"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0028",
+  "question": "Boolean function y(x'z + xz') + x(yz+ yz') can be simplified as",
+  "options": {
+   "A": "x+y",
+   "B": "x",
+   "C": "y",
+   "D": "z i es"
+  },
+  "garbled": true
+ }
+]

@@ -1,0 +1,412 @@
+[
+  {
+    "id": "U2b-01",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Number systems and base conversion",
+    "def": "Positional number systems represent a value as digits multiplied by increasing powers of a base (radix) — binary uses base 2, octal base 8, decimal base 10, and hexadecimal base 16.",
+    "exp": "Every positional system uses a fixed digit set and powers of its base: binary has digits 0-1, octal 0-7, decimal 0-9, and hexadecimal 0-9 plus A-F for 10-15. To convert a decimal integer to another base, divide repeatedly by the target base and read the remainders bottom to top. To convert a decimal fraction, multiply repeatedly by the target base and read the integer digit produced at each step top to bottom, stopping when the fraction hits zero — though some fractions (like 0.1) never terminate in binary and must be truncated at a stated precision. Worked example: convert decimal 0.375 to binary. 0.375×2=0.75 → digit 0; 0.75×2=1.5 → digit 1 (keep 0.5); 0.5×2=1.0 → digit 1, done. Result: 0.011. Binary converts to hex or octal directly by grouping bits into sets of 4 or 3 respectively, counting outward from the binary point in both directions and padding with zeros at the ends — no arithmetic is needed for this shortcut, only regrouping.",
+    "facts": [
+      "Binary digits: 0,1; octal: 0-7; decimal: 0-9; hexadecimal: 0-9 and A-F (10-15).",
+      "Integer part: repeated division by the target base, read remainders bottom-to-top.",
+      "Fractional part: repeated multiplication by the target base, read integer digits top-to-bottom.",
+      "One hex digit = exactly 4 binary bits; one octal digit = exactly 3 binary bits — direct grouping, no arithmetic needed.",
+      "Many finite decimal fractions (e.g. 0.1) never terminate in binary — they only approximate.",
+      "Decimal 0.375 = binary 0.011 exactly, because 0.375 = 1/4 + 1/8, both powers of two."
+    ],
+    "traps": [
+      "Grouping bits for hex/octal conversion only works cleanly in whole groups — pad the rightmost group with zeros for a fraction and the leftmost group with zeros for an integer; mixing up which end you pad is a common slip.",
+      "Repeated-multiplication fractional conversion may never terminate exactly — when a question says 'up to N bits', truncate at that precision rather than chasing an infinite string.",
+      "For fractional conversion, read the generated digits top-to-bottom; for integer conversion, read them bottom-to-top — swapping these two rules is the single most common conversion error."
+    ],
+    "mnem": "Integer: divide down, read up. Fraction: multiply up, read down.",
+    "rel": ["Signed magnitude representation", "BCD representation", "Floating point representation"]
+  },
+  {
+    "id": "U2b-02",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Signed magnitude representation",
+    "def": "Signed magnitude represents a signed number by reserving the most significant bit as a sign flag (0 = positive, 1 = negative) and the remaining bits as the plain binary magnitude.",
+    "exp": "In an n-bit signed magnitude number, the MSB carries no numeric weight — it only says positive or negative — while the remaining n-1 bits store the magnitude exactly as unsigned binary. This gives a range of −(2^(n−1)−1) to +(2^(n−1)−1): the magnitude field can represent up to 2^(n−1)−1, and that same magnitude exists with both sign bits. Because zero has no true sign, both 00000000 (+0) and 10000000 (−0) exist as distinct 8-bit patterns for the same value — a wasted code point. Arithmetic is the real weakness: adding two signed-magnitude numbers of different signs requires comparing magnitudes first, subtracting the smaller from the larger, and attaching the sign of the larger — a much more complex procedure than simply adding bit patterns, which is why real ALUs don't use it for integers. Its main modern survival is conceptual: it's the easiest scheme to teach the idea of a sign bit, and IEEE floating point still uses a lone signed-magnitude-style sign bit for the overall number even though the exponent and mantissa are handled differently.",
+    "facts": [
+      "MSB = sign bit: 0 for positive, 1 for negative; remaining n-1 bits store the magnitude in plain binary.",
+      "n-bit signed magnitude range: −(2^(n−1)−1) to +(2^(n−1)−1).",
+      "Two distinct bit patterns represent zero: +0 and −0 (e.g. in 8 bits, 00000000 and 10000000).",
+      "Addition/subtraction needs separate sign-and-magnitude comparison logic — costlier hardware than complement schemes.",
+      "IEEE 754 floating point still uses a signed-magnitude-style sign bit for the overall number, even though integers use 2's complement."
+    ],
+    "traps": [
+      "Don't confuse signed magnitude's two zeros with 2's complement's single zero — a question asking 'which representation has two zeros' has two correct-sounding answers (signed magnitude AND 1's complement); read carefully which one is asked.",
+      "The reduced range is not because a bit is left unused — an 8-bit signed magnitude number uses all 8 bits; the range shrinks only because one magnitude value is duplicated across +0 and −0.",
+      "Signed magnitude is rarely used for integer arithmetic in real CPUs (2's complement is standard) — but the sign bit of a floating-point number is still signed-magnitude in style, a distinction worth keeping separate."
+    ],
+    "mnem": "",
+    "rel": ["1's complement representation", "2's complement representation", "Floating point representation"]
+  },
+  {
+    "id": "U2b-03",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "1's complement representation",
+    "def": "The 1's complement of a binary number is formed by inverting every bit, and negative numbers are represented as the 1's complement of their positive magnitude.",
+    "exp": "Forming the 1's complement is purely mechanical: flip every 0 to 1 and every 1 to 0. For example, +5 in 8 bits is 00000101, so −5 is 11111010. Like signed magnitude, this scheme has two zeros: +0 is 00000000 and −0 is 11111111, and the range is the same, −(2^(n−1)−1) to +(2^(n−1)−1). Where it differs from signed magnitude is in how addition works: subtraction A−B is computed as A + (1's complement of B), and any carry generated out of the MSB during that addition is not discarded — it must be added back into the LSB, called the 'end-around carry'. For example, adding a positive and negative number that produces a carry out of the top bit requires that extra +1 correction step to get the right answer. This end-around carry requirement is the main practical drawback of 1's complement arithmetic, and together with the double-zero problem, it's why 2's complement replaced 1's complement as the standard integer format in modern processors, even though 1's complement is simpler to form (just invert, no add).",
+    "facts": [
+      "1's complement of a number = flip every bit (0→1, 1→0).",
+      "Two representations of zero: +0 = 00000000, −0 = 11111111 (8-bit example).",
+      "n-bit range: −(2^(n−1)−1) to +(2^(n−1)−1), same range as signed magnitude.",
+      "Addition requires an 'end-around carry': any carry generated out of the MSB must be added back into the LSB of the result.",
+      "Subtraction A−B is done as A + (1's complement of B), then the end-around carry is applied if one occurs."
+    ],
+    "traps": [
+      "Forgetting the end-around carry gives a result that is off by exactly one — this is the classic 1's-complement arithmetic mistake examiners test for.",
+      "1's complement is not the same operation as 2's complement — 2's complement is '1's complement + 1', so a question giving one and asking for the other should differ by exactly 1 in the LSB.",
+      "Like signed magnitude, 1's complement has two zeros, which is why neither is used in modern ALUs — only 2's complement, with its single zero, is standard for integer hardware."
+    ],
+    "mnem": "1's complement = just flip; 2's complement = flip and add 1.",
+    "rel": ["Signed magnitude representation", "2's complement representation", "Binary addition and subtraction using complements"]
+  },
+  {
+    "id": "U2b-04",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "2's complement representation",
+    "def": "The 2's complement of a binary number is formed by inverting every bit and adding 1, and it is the standard way modern computers represent and arithmetically process signed integers.",
+    "exp": "To form the 2's complement, invert every bit (the 1's complement) and then add 1 to the result. Example: −5 in 8 bits — start from +5 = 00000101, invert to 11111010, add 1 to get 11111011. The n-bit range is −2^(n−1) to +2^(n−1)−1: one more negative value than positive, because there is only one representation of zero (00000000), so no code point is wasted the way it is in signed magnitude or 1's complement. This single-zero property is exactly why 2's complement is preferred: addition and subtraction both reduce to ordinary unsigned binary addition on the same hardware — subtraction A−B is simply A + (2's complement of B), discarding any final carry-out, with no end-around correction needed. Sign extension (widening a number to more bits) is also trivial: just repeat the sign bit. A useful property, often tested directly, is that taking the 2's complement of a 2's complement number returns the original value — except for the single most-negative representable value, whose complement overflows and returns itself, since its positive counterpart doesn't fit in the same bit width.",
+    "facts": [
+      "2's complement of N = (1's complement of N) + 1 — invert every bit, then add 1 to the LSB.",
+      "n-bit range: −2^(n−1) to +2^(n−1)−1 — one more negative value than positive, because there is only one zero.",
+      "Only one representation of zero (00000000 in 8 bits) — the reason 2's complement is the industry-standard integer format.",
+      "Addition and subtraction use the same binary-adder hardware: subtraction A−B is computed as A + (2's complement of B), discarding any final carry-out.",
+      "Taking the 2's complement of a 2's complement number returns the original number — except the most negative value (e.g. −128 in 8 bits, 10000000), whose complement overflows back to itself.",
+      "Sign extension (widening a signed number to more bits) is done by replicating the sign bit — trivial in 2's complement, not so in signed magnitude."
+    ],
+    "traps": [
+      "'2's complement of 2's complement gives back the original' is a favourite fill-in-the-blank, but it fails for the single most-negative value in the range — a common exception the examiner may test separately.",
+      "The 2's complement range is NOT symmetric (−128 to +127 for 8 bits, not −127 to +127) — a common wrong-range distractor mirrors the signed-magnitude range instead.",
+      "Discard the final carry-out when adding in 2's complement — do not add it back like 1's complement's end-around carry; confusing the two schemes' carry rules is a frequent error.",
+      "2's complement is preferred specifically because addition, subtraction, and multiplication all reduce to ordinary unsigned addition on the same hardware — that mechanical justification, not vague 'simplicity', is the expected exam answer."
+    ],
+    "mnem": "2's complement: flip it, add a bit.",
+    "rel": ["1's complement representation", "Signed magnitude representation", "Binary addition and subtraction using complements"]
+  },
+  {
+    "id": "U2b-05",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Binary add/subtract; overflow detection",
+    "def": "Binary subtraction is performed by adding the 2's complement of the subtrahend to the minuend, and overflow is detected when the carry into the sign bit differs from the carry out of it.",
+    "exp": "Subtraction in 2's complement hardware is just addition: A − B = A + (2's complement of B), with any final carry-out simply discarded. Worked example in 4 bits: 5 − 3. Here 5 = 0101, and −3 is the 2's complement of 0011, which is 1101. Adding: 0101 + 1101 = 10010; discard the leading carry to get 0010, which is 2 — correct. Overflow is a separate concept from that discarded carry. It can only occur when adding two operands of the SAME sign, because adding a positive and a negative number always produces a result that fits within the range — it can never overflow. The formal detection rule: overflow occurs when the carry INTO the sign bit position does not equal the carry OUT of the sign bit position (Cin XOR Cout at the MSB). An equivalent, more intuitive check: two positive operands producing a result that reads as negative, or two negative operands producing a result that reads as positive, both signal overflow. Example: in 4-bit 2's complement, 0111 (+7) + 0001 (+1) = 1000, which reads as −8 — both operands positive, but the sum looks negative, so overflow has occurred.",
+    "facts": [
+      "Subtraction A − B = A + (2's complement of B); discard any carry out of the MSB.",
+      "Overflow can only happen when adding two numbers of the SAME sign — adding numbers of opposite sign can never overflow.",
+      "Overflow rule: overflow occurs when the carry INTO the sign bit ≠ carry OUT of the sign bit (Cin XOR Cout at the MSB).",
+      "Simple sign-check rule: overflow happens when two positive operands produce a negative-looking result, or two negative operands produce a positive-looking result.",
+      "In 4-bit 2's complement, 0111 (+7) + 0001 (+1) = 1000, which reads as −8 — a classic overflow example with both operands positive."
+    ],
+    "traps": [
+      "Overflow is not the same as carry-out — a carry out of the MSB during 2's complement addition is normal and gets discarded; on its own it is NOT an overflow signal (only the Cin-XOR-Cout mismatch is).",
+      "Adding a positive and a negative number can never cause overflow — if a question claims overflow occurred for opposite-sign operands, that answer is wrong by construction.",
+      "Overflow detection via Cin-XOR-Cout is a 2's complement-specific concept — signed magnitude and 1's complement flag out-of-range results differently (magnitude comparison, end-around carry), so don't apply this rule to them."
+    ],
+    "mnem": "",
+    "rel": ["2's complement representation", "1's complement representation", "Binary multiplication"]
+  },
+  {
+    "id": "U2b-06",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "BCD, packed/unpacked, +6 correction",
+    "def": "Binary Coded Decimal (BCD) represents each decimal digit independently using its own 4-bit binary code (8421 weighting), rather than converting the whole number to pure binary.",
+    "exp": "In BCD, every decimal digit 0-9 is stored as its own 4-bit binary value using 8421 weights: 0000 through 1001. The remaining patterns, 1010 through 1111, are simply unused/invalid in BCD. Packed BCD fits two decimal digits into a single byte, one per nibble; unpacked BCD stores just one decimal digit per byte, usually in the low nibble, with the high nibble zeroed or used for sign/zone bits. BCD addition adds nibble by nibble as ordinary binary, then checks each nibble result: if it exceeds 9, or if that nibble's addition generated a carry, the correction +6 (0110) is added to that nibble to bring it back into valid BCD range, and any resulting carry is propagated into the next digit position. Worked example: BCD 8 (1000) + BCD 7 (0111) = 1111 in raw binary, which is 15 — invalid as a single BCD digit. Adding the correction 0110 gives 1 0101, i.e. a carry of 1 plus digit 5, correctly reading as the two BCD digits '1' and '5' for decimal 15. This nibble-by-nibble check-and-correct is what makes BCD arithmetic hardware more complex than pure binary arithmetic.",
+    "facts": [
+      "BCD codes each decimal digit as its own 4-bit binary value (8421 weights): only 0000–1001 are valid, 1010–1111 are unused.",
+      "'BCD numbers are obtained by' representing each decimal digit with four bits — a direct fill-in-the-blank fact.",
+      "Packed BCD stores two decimal digits per byte (one per nibble); unpacked BCD stores one decimal digit per byte, usually in the low nibble.",
+      "BCD addition adds nibble by nibble like binary, then applies the +6 (0110) correction to any nibble whose result is >9 or that generated a carry.",
+      "Example: BCD 8 (1000) + BCD 7 (0111) = 1111 (15 decimal, invalid in BCD) → add 0110 → 1 0101, i.e. carry 1 and digit 5, correctly reading as decimal 15.",
+      "BCD is less storage-efficient than pure binary (wastes 6 of every 16 nibble values) but avoids binary-to-decimal conversion error, useful in financial and calculator hardware."
+    ],
+    "traps": [
+      "The +6 correction is applied per nibble, not once to the whole number — multi-digit BCD addition needs the check-and-correct step repeated at every digit position.",
+      "The correction fires when the 4-bit sum is >9 (1010–1111) OR when that nibble's addition produced a carry — both conditions independently trigger the fix, not just the more obvious first one.",
+      "BCD is not the same as writing the decimal value in straight binary — decimal 15 in pure binary is 1111, but in BCD it is two separate nibbles, 0001 0101."
+    ],
+    "mnem": "BCD wrong nibble? Add six to fix.",
+    "rel": ["Number systems and base conversion", "Excess-3, Gray code, ASCII, EBCDIC, parity", "Binary addition and subtraction using complements"]
+  },
+  {
+    "id": "U2b-07",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Excess-3, Gray code, ASCII, EBCDIC, parity",
+    "def": "Excess-3 and Gray code are arithmetic/circuit-convenience codes, ASCII and EBCDIC are character codes, and a parity bit is an extra bit added to a data word for simple error detection.",
+    "exp": "Excess-3 code is formed as BCD + 3 (add 0011 to each digit's BCD code); it is self-complementing, meaning the 9's complement of a decimal digit can be obtained just by inverting every bit of its excess-3 code, which made it convenient in early decimal arithmetic circuits. Gray code (reflected binary code) is arranged so any two consecutive values differ in exactly one bit — it's used to order Karnaugh map cells and in rotary/shaft position encoders, where changing more than one bit at a transition could otherwise cause a momentary, incorrect intermediate reading. ASCII is a 7-bit code (128 codes) representing alphanumeric characters and other common symbols and control characters — this is the standard answer to 'the ASCII code is for'. EBCDIC is an 8-bit character code developed by IBM, used mainly on IBM mainframe systems, and it is not bit-compatible with ASCII ordering. A parity bit is an extra bit appended to a word so the total count of 1-bits is even (even parity) or odd (odd parity); it only detects, never corrects, a single-bit error, and it fails to catch an even number of simultaneous bit errors because the 1-count parity stays unchanged.",
+    "facts": [
+      "Excess-3 code = BCD code + 3 (0011); it is self-complementing — the 9's complement of a digit is obtained by simply inverting all bits of its excess-3 code.",
+      "Gray code (reflected binary code) changes only one bit between any two consecutive values — used in Karnaugh map cell ordering and rotary/shaft position encoders to avoid transient false states.",
+      "ASCII is a 7-bit code (128 characters) representing alphanumeric characters and other common symbols/control characters — the standard exam phrasing for 'the ASCII code is for'.",
+      "EBCDIC is an 8-bit character code developed by IBM, used mainly on IBM mainframe systems, and is not bit-compatible with ASCII.",
+      "A parity bit is an extra bit added so the total count of 1-bits is even (even parity) or odd (odd parity) — used for single-bit error detection, not correction.",
+      "Parity fails to detect an even number of bit errors (2, 4, ...) because the count of 1s stays the same despite the corruption."
+    ],
+    "traps": [
+      "'Excess-3 is self-complementing' is often tested indirectly by asking for the 9's complement of a digit via its excess-3 code — remember it's a straight bitwise invert, no arithmetic needed.",
+      "Don't mix up Gray code's 'one bit changes' property with parity's 'error detection' property — they solve different problems (glitch-free transitions vs. transmission error detection).",
+      "ASCII is commonly mis-stated as '8-bit' — the original standard is 7-bit (128 codes); 8-bit 'extended ASCII' variants are a later, non-standard extension.",
+      "Parity detects but never corrects errors, and only reliably catches odd numbers of flipped bits — a question implying parity 'corrects' an error is wrong."
+    ],
+    "mnem": "Gray code: one step, one bit.",
+    "rel": ["BCD representation", "Number systems and base conversion", "Boolean expression simplification and Karnaugh maps"]
+  },
+  {
+    "id": "U2b-08",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Floating point representation (IEEE 754)",
+    "def": "Floating point representation stores a real number as a sign, a normalised mantissa (significand), and a biased exponent, letting a fixed number of bits cover a very wide range of magnitudes.",
+    "exp": "A floating point value is read as (−1)^sign × 1.mantissa × 2^(exponent − bias). Normalisation shifts the mantissa so exactly one non-zero digit sits before the radix point — in binary that digit is always 1, so it is implicit and never actually stored, freeing up one extra bit of stored precision. Bias is added to the true exponent before storing it, so the stored exponent field is always non-negative, which simplifies comparing the magnitude of two floats using plain integer comparison logic. IEEE 754 single precision uses 32 bits total: 1 sign bit, 8 exponent bits (bias 127), and 23 mantissa bits. Double precision uses 64 bits total: 1 sign bit, 11 exponent bits (bias 1023), and 52 mantissa bits. Two exponent patterns are reserved for special cases: an all-0 exponent signals zero or a denormalised (subnormal) number, and an all-1 exponent signals infinity or NaN (Not a Number), distinguished by whether the mantissa field is zero or non-zero. This scheme trades some precision for an enormous representable range compared to a fixed-point format using the same bit width.",
+    "facts": [
+      "General form: value = (−1)^sign × 1.mantissa × 2^(exponent − bias) — the leading 1 before the binary point is implicit and not stored.",
+      "IEEE 754 single precision: 32 bits total = 1 sign bit + 8 exponent bits (bias 127) + 23 mantissa bits.",
+      "IEEE 754 double precision: 64 bits total = 1 sign bit + 11 exponent bits (bias 1023) + 52 mantissa bits.",
+      "Bias is added to the true exponent before storing it, so the stored exponent field is always non-negative — simplifies magnitude comparison of floats using integer comparison logic.",
+      "Normalisation means shifting the mantissa so exactly one non-zero digit sits before the radix point (in binary, that digit is always 1).",
+      "Reserved exponent patterns: all-0 exponent signals zero/denormalised numbers, all-1 exponent signals infinity or NaN (Not a Number)."
+    ],
+    "traps": [
+      "Don't forget the implicit leading 1 — single precision effectively gets 24 bits of mantissa precision (1 implicit + 23 stored), a frequent off-by-one in precision questions.",
+      "Bias values are specific and easy to swap: 127 for single precision, 1023 for double precision — mixing them up is a common wrong-answer distractor.",
+      "The mantissa is also called the 'significand' in some textbooks — same field, different name, don't be thrown if a question uses either term.",
+      "32 bits and 64 bits are totals including sign, exponent, and mantissa together — a question may ask for just the mantissa or exponent field width, so read carefully which part is asked."
+    ],
+    "mnem": "Single: 1-8-23. Double: 1-11-52.",
+    "rel": ["Floating point addition/subtraction and precision loss", "Number systems and base conversion", "Signed magnitude representation"]
+  },
+  {
+    "id": "U2b-09",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "FP addition/subtraction and precision loss",
+    "def": "Adding or subtracting two floating point numbers requires first aligning their exponents (shifting the smaller-exponent mantissa right) before the mantissas can be combined, which is the main source of precision loss in floating point arithmetic.",
+    "exp": "The procedure has four steps. First, compare the two exponents. Second, right-shift the mantissa of whichever operand has the smaller exponent, by the size of the exponent difference, so both operands share a common exponent. Third, add or subtract the now-aligned mantissas. Fourth, normalise the result — a carry-out may increase the exponent by one and require another mantissa shift — and round it to fit the fixed mantissa width. The alignment step is where precision is lost: any mantissa bits shifted off the right end during alignment are simply gone, unless extra guard/round/sticky bits are kept internally to soften the loss, which real hardware does but does not eliminate it. If the exponent difference is larger than the mantissa width, the smaller operand can be shifted away to nothing, and the sum ends up equal to the larger operand, unchanged. A related but distinct problem is 'catastrophic cancellation': subtracting two nearly-equal floating point numbers cancels their leading significant digits, leaving mostly the earlier rounding noise from their trailing bits as the visible result — a precision failure that happens even without any exponent misalignment.",
+    "facts": [
+      "Steps: (1) equalise exponents by right-shifting the smaller number's mantissa, (2) add/subtract the mantissas, (3) normalise the result, (4) round to fit the available mantissa bits.",
+      "Bits shifted out during exponent alignment are lost — this is the main mechanical cause of floating-point precision loss in addition/subtraction.",
+      "If the exponent difference exceeds the mantissa width, the smaller operand can be shifted away to nothing, and the sum equals the larger operand unchanged.",
+      "'Catastrophic cancellation': subtracting two nearly-equal floating point numbers cancels the leading significant digits, leaving mostly noise from earlier rounding as the visible result.",
+      "After addition, the result may need re-normalisation (e.g. a carry-out increases the exponent by one and shifts the mantissa right) before it can be stored back in standard form."
+    ],
+    "traps": [
+      "Precision loss in FP addition is not a bug to be fixed — it is an inherent consequence of the fixed mantissa width, expected exam knowledge rather than an error case.",
+      "Don't confuse exponent alignment (needed even when adding two positive numbers of different magnitude) with catastrophic cancellation (a subtraction-specific problem from near-equal operands) — they are different mechanisms with different implications.",
+      "A question describing 'adding a very small float to a very large one and getting no visible change' is testing the exponent-difference-exceeds-mantissa-width case, not a hardware fault."
+    ],
+    "mnem": "",
+    "rel": ["Floating point representation (IEEE 754)", "Binary addition and subtraction using complements", "Number systems and base conversion"]
+  },
+  {
+    "id": "U2b-10",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Binary multiplication: shift-add, Booth's",
+    "def": "Unsigned binary multiplication is done by the shift-and-add method, mirroring pencil-and-paper long multiplication, while Booth's algorithm multiplies signed 2's complement numbers directly without separate sign handling.",
+    "exp": "Shift-and-add multiplication scans the multiplier one bit at a time from the least significant end: whenever a bit is 1, the appropriately-shifted multiplicand is added into a running partial sum; whenever it is 0, nothing is added; the multiplicand (or the accumulator) is shifted one position between steps, exactly like adding shifted copies in decimal long multiplication. This works cleanly for unsigned numbers but does not handle 2's complement negative operands correctly on its own. Booth's algorithm solves that by examining pairs of adjacent multiplier bits (the current bit and the bit to its right, with an assumed 0 before the first bit) at each step: the pattern 01 means add the multiplicand to the accumulator, 10 means subtract the multiplicand, and 00 or 11 mean do nothing — after each decision, the combined accumulator-and-multiplier register is shifted right arithmetically (sign-extended). Because it works directly on 2's complement bit patterns, Booth's algorithm needs no special-casing for negative operands, and as a bonus, a long run of consecutive 1s in the multiplier only costs one subtract and one add at the run's two boundaries, rather than one addition per 1-bit — a genuine speed advantage for such patterns.",
+    "facts": [
+      "Shift-and-add multiplication: scan the multiplier bit by bit; add the (shifted) multiplicand to the running sum when the bit is 1, add nothing when it is 0, then shift — mirrors decimal long multiplication.",
+      "Booth's algorithm multiplies signed 2's complement numbers directly, without converting to magnitude form first.",
+      "Booth's algorithm examines pairs of bits (current bit, bit to its right): 00/11 → shift only (no op); 01 → add multiplicand, then shift; 10 → subtract multiplicand, then shift.",
+      "Booth's algorithm uses an arithmetic right shift (sign-extending) on the combined accumulator-and-multiplier register, preserving the sign of the running result.",
+      "For a long run of consecutive 1s in the multiplier, Booth's algorithm needs only one add and one subtract at the run's boundaries, instead of one add per 1-bit — a genuine speed-up."
+    ],
+    "traps": [
+      "Plain shift-and-add as taught for unsigned numbers does NOT handle negative 2's complement operands correctly on its own — that's precisely why Booth's algorithm exists; don't apply plain shift-and-add to signed inputs.",
+      "In Booth's algorithm, the bit-pair meaning matters: '01' means add, '10' means subtract — these are easy to swap under exam time pressure.",
+      "Booth's algorithm's efficiency gain (fewer additions for runs of 1s) is a separate, additional benefit — don't treat 'handles signed numbers correctly' as its only advantage, both points are independently examinable."
+    ],
+    "mnem": "Booth's: 01 add, 10 subtract, 00/11 just shift.",
+    "rel": ["2's complement representation", "Binary division: restoring, non-restoring", "Binary addition and subtraction using complements"]
+  },
+  {
+    "id": "U2b-11",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Binary division: restoring, non-restoring",
+    "def": "Restoring and non-restoring division are two hardware algorithms for dividing binary numbers by repeated subtraction and shifting, differing in how they handle a subtraction step that goes negative.",
+    "exp": "In restoring division, each step shifts the partial remainder left and subtracts the divisor. If the result is negative, the divisor is added back immediately to 'restore' the remainder, and the quotient bit for that step is recorded as 0; if the result is non-negative, it is kept as is and the quotient bit is recorded as 1. This repeats once per bit of the quotient. Non-restoring division avoids that immediate restore: instead, if the previous step's remainder was negative, the next step adds the divisor rather than subtracting it (and records a 0); if the previous remainder was non-negative, it subtracts as usual (and records a 1). This means each step performs only one arithmetic operation instead of the up-to-two that restoring division can need, making non-restoring division generally faster in hardware. The one catch is that non-restoring division may still need a single final correction step — adding the divisor back once — if the very last remainder produced happens to be negative, so that the final remainder returned is properly non-negative. Both algorithms always converge to the same correct quotient and remainder; they only differ in operation count per step.",
+    "facts": [
+      "Restoring division: shift left, subtract divisor; if the result is negative, add the divisor back ('restore') and set quotient bit 0; if non-negative, keep it and set quotient bit 1.",
+      "Non-restoring division skips the restore step: if the previous remainder was negative, the next step ADDS the divisor instead of subtracting; if non-negative, it subtracts as usual — one operation per bit instead of up to two.",
+      "Non-restoring division may need one final correction (adding the divisor back) at the very end if the last remainder is negative, to leave a proper non-negative remainder.",
+      "Quotient bit convention: a subtraction that succeeds (non-negative remainder) records a 1; a step needing a restore or an add-instead-of-subtract records a 0.",
+      "Non-restoring division is generally faster in hardware because it avoids the extra add-back operation at every step where restoring division would need one."
+    ],
+    "traps": [
+      "The key exam distinction is whether an extra restore addition happens or not — restoring division always restores immediately on a negative result, while non-restoring division defers the correction by flipping add/subtract on the next cycle instead.",
+      "Don't assume non-restoring division needs no correction at all — it still needs one final restore step if the process ends on a negative remainder.",
+      "Both algorithms produce the same final quotient and remainder — the difference is purely in the number of arithmetic operations per step (performance), not in correctness of the answer."
+    ],
+    "mnem": "",
+    "rel": ["Binary multiplication: shift-add, Booth's", "2's complement representation", "Binary addition and subtraction using complements"]
+  },
+  {
+    "id": "U2b-12",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Logic gates, universal gates, truth tables",
+    "def": "Logic gates are the basic hardware building blocks that implement Boolean functions on binary inputs, and NAND and NOR are called universal gates because either one alone can implement any Boolean function.",
+    "exp": "The basic gates are AND (output 1 only if all inputs are 1), OR (output 1 if any input is 1), and NOT (inverts its single input). From these, the derived gates NAND (AND followed by NOT), NOR (OR followed by NOT), XOR (1 when inputs differ), and XNOR (1 when inputs match) are built. A truth table exhaustively lists the output for every possible combination of input values — for n inputs, it has 2^n rows. NAND and NOR are each individually 'functionally complete' or 'universal': every other gate, including AND, OR, and NOT, can be constructed using nothing but NAND gates alone, or nothing but NOR gates alone. The simplest illustration is NOT from NAND: tying both inputs of a NAND gate together gives NAND(A,A), which equals NOT A; the same trick works with a NOR gate. This universality matters practically in IC fabrication, where building a whole chip from one repeated gate type (typically NAND, for technology reasons) is simpler and cheaper than fabricating several different gate types, even though the logical design is first worked out using whichever gates are most natural to reason about.",
+    "facts": [
+      "Basic gates: AND (1 only if all inputs 1), OR (1 if any input 1), NOT (inverts); derived gates: NAND (AND then NOT), NOR (OR then NOT), XOR (1 if inputs differ), XNOR (1 if inputs match).",
+      "NAND and NOR are 'universal gates' — each one alone is functionally complete, meaning AND, OR, and NOT can all be built using only NAND gates (or only NOR gates).",
+      "NOT from NAND: tie both inputs of a NAND gate together (NAND(A,A) = NOT A); the same trick works for NOR.",
+      "A truth table exhaustively lists the output for every possible combination of input values — for n inputs it has 2^n rows.",
+      "XOR outputs 1 when an odd number of inputs are 1 (for 2 inputs: outputs 1 when they differ); XNOR is its complement."
+    ],
+    "traps": [
+      "'Universal gate' means one gate type alone can build the whole set (AND, OR, NOT) — it does not mean NAND and NOR can trivially build each other in one step, though both are individually universal.",
+      "Don't confuse XOR's 'differ' definition with XNOR's 'match' definition when reading a truth table under time pressure — they are exact opposites.",
+      "AND, OR, and NOT taken alone are NOT universal (nor are XOR or XNOR alone) — a question may ask 'which single gate is NOT universal', and the correct answer is any of these, since only NAND and NOR qualify."
+    ],
+    "mnem": "NAND and NOR: one gate, whole family.",
+    "rel": ["Boolean algebra laws", "Boolean expression simplification and Karnaugh maps", "Half/full adder, ripple vs carry-lookahead"]
+  },
+  {
+    "id": "U2b-13",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Boolean algebra laws",
+    "def": "Boolean algebra laws — commutative, associative, distributive, identity, and complement laws — are the algebraic rules used to manipulate and simplify logic expressions.",
+    "exp": "The commutative law says operand order doesn't matter: A + B = B + A and A·B = B·A. The associative law says grouping of three or more operands doesn't matter: (A+B)+C = A+(B+C), and likewise for AND. The distributive law has two forms: A·(B+C) = A·B + A·C, which matches ordinary arithmetic, but Boolean algebra also has A+(B·C) = (A+B)·(A+C), a second distributive form with no equivalent in ordinary arithmetic, where OR does not normally distribute over AND. Identity laws state A+0=A and A·1=A (the identity elements), while null laws state A+1=1 and A·0=0. Complement laws state A+A'=1 and A·A'=0, and idempotent laws state A+A=A and A·A=A. These laws are the toolkit used to prove equivalences and simplify expressions step by step, the same way ordinary algebra's laws are used to simplify polynomial expressions. When a question asks 'which statement represents the commutative law', the expected answer is literally the swap-order identity, A+B=B+A or AB=BA — nothing more elaborate, and it should not be confused with the regrouping identity of the associative law.",
+    "facts": [
+      "Commutative law: A + B = B + A and A·B = B·A — order of operands doesn't matter.",
+      "Associative law: (A+B)+C = A+(B+C) and (A·B)·C = A·(B·C) — grouping doesn't matter.",
+      "Distributive law: A·(B+C) = A·B + A·C (same as ordinary algebra), AND also A+(B·C) = (A+B)·(A+C) — this second distributive form has no equivalent in ordinary arithmetic.",
+      "Identity laws: A+0=A, A·1=A. Null laws: A+1=1, A·0=0.",
+      "Complement laws: A+A'=1, A·A'=0. Idempotent laws: A+A=A, A·A=A.",
+      "'Which statement represents the commutative law' expects literally A+B=B+A or AB=BA, nothing more elaborate."
+    ],
+    "traps": [
+      "The second distributive law, A+(B·C) = (A+B)·(A+C), looks wrong to anyone thinking in ordinary arithmetic (where + doesn't distribute over ×) — in Boolean algebra it is valid, and it's a favourite 'which law is this' trick question.",
+      "Commutative law is about swapping the order of two operands; associative law is about regrouping three or more — a question showing (A+B)+C=A+(B+C) is testing associative law, not commutative, despite the superficial similarity.",
+      "Idempotent (A+A=A) and complement (A+A'=1) laws are easy to conflate under time pressure — one uses the same variable twice, the other uses the variable and its complement."
+    ],
+    "mnem": "Commutative = swap order; associative = swap grouping; distributive = spread it out.",
+    "rel": ["Logic gates, universal gates, truth tables", "Boolean expression simplification and Karnaugh maps"]
+  },
+  {
+    "id": "U2b-14",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Boolean simplification and Karnaugh maps",
+    "def": "Boolean expressions can be simplified either algebraically, applying Boolean laws step by step, or visually with a Karnaugh map (K-map), which groups adjacent 1s in a grid to read off a minimal expression.",
+    "exp": "Algebraic simplification example: simplify (X+Y+XY)(X+Z). First apply the absorption identity Y+XY=Y, so X+Y+XY reduces to X+Y. The expression becomes (X+Y)(X+Z). Expanding: X·X + X·Z + X·Y + Y·Z = X + XZ + XY + YZ (since X·X=X). Factor X out of the first three terms: X(1+Z+Y) + YZ = X·1 + YZ = X + YZ. So the fully simplified form is X + YZ. A Karnaugh map achieves the same kind of simplification visually: its cells are arranged in Gray-code order along rows and columns, so any two physically adjacent cells — including the map's wrap-around edges — differ in exactly one variable. Rows of 1s are grouped into rectangular blocks whose size is always a power of 2 (1, 2, 4, 8...); the larger the group, the fewer literals appear in the term it produces. Don't-care cells, marked X, represent input combinations that never occur or outputs that don't matter, and may be treated as either 0 or 1, whichever helps build a larger group — but including them is optional, used only when it actually helps.",
+    "facts": [
+      "Absorption law used in the example: Y + XY = Y, so X+Y+XY simplifies first to X+Y.",
+      "Worked example: (X+Y+XY)(X+Z) → (X+Y)(X+Z) → XX+XZ+XY+YZ → X+XZ+XY+YZ → X(1+Y+Z)+YZ → X+YZ. Final simplified form: X + YZ.",
+      "K-map cells are ordered in Gray code along rows and columns so any two physically adjacent cells (including the map's wrap-around edges) differ in exactly one variable.",
+      "Group 1s in the K-map in rectangular blocks of size 1, 2, 4, 8, ... (always a power of 2) — bigger groups eliminate more literals from the resulting term.",
+      "Don't-care cells (marked X) may be treated as either 0 or 1, whichever helps form a larger group — but they don't need to be included if they don't help.",
+      "A 4-variable K-map has 16 cells; the number of variables remaining in a term equals total variables minus log2(group size)."
+    ],
+    "traps": [
+      "A common wrong shortcut is expanding (X+Y+XY) without first applying absorption — leading to a messier, non-minimal final answer instead of the correct X+YZ.",
+      "K-map groups must be exact powers of 2 (1,2,4,8) and rectangular, including wrap-around — a group of 3 cells, or an L-shape, is invalid and a common distractor grouping in diagrams.",
+      "Don't-cares are optional to circle, not mandatory — circling one that doesn't enlarge any group, or forgetting to use one that would, are both scored as simplification errors.",
+      "The map's edges wrap around (leftmost column adjacent to rightmost, top row adjacent to bottom row) — forgetting wrap-around adjacency causes missed simplifications."
+    ],
+    "mnem": "",
+    "rel": ["Boolean algebra laws", "Logic gates, universal gates, truth tables", "Excess-3, Gray code, ASCII, EBCDIC, parity"]
+  },
+  {
+    "id": "U2b-15",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Half/full adder, ripple vs carry-lookahead",
+    "def": "Half and full adders are the basic combinational circuits for binary addition; chaining full adders gives a ripple-carry adder or, with extra logic, a faster carry-lookahead adder — half and full subtractors are the equivalent circuits for binary subtraction.",
+    "exp": "A half adder has two inputs, A and B, with no carry-in: Sum = A XOR B, Carry = A·B. A full adder adds a third input, carry-in (Cin): Sum = A XOR B XOR Cin, and Carry = AB + BCin + ACin, which is the majority function of the three inputs — true whenever at least two of the three are 1. A ripple-carry adder chains n full adders together, each stage's carry-out feeding the next stage's carry-in; it's simple to build, but its worst-case delay grows linearly with word width, because the most-significant stage must wait for every earlier carry to settle first. A carry-lookahead adder avoids that wait by computing every stage's carry in advance from generate (G = AB) and propagate (P = A XOR B) signals combined algebraically across all bit positions at once — faster for wide words, at the cost of more complex gate logic and chip area. The subtractor side mirrors this: a half subtractor computes Difference = A XOR B and Borrow = A'·B (a borrow is needed exactly when A=0 and B=1), and a full subtractor extends it with a borrow-in input, just as a full adder extends a half adder with carry-in.",
+    "facts": [
+      "Half adder: Sum = A XOR B, Carry = A·B (only 2 inputs, no carry-in).",
+      "Full adder: Sum = A XOR B XOR Cin, Carry = AB + BCin + ACin — the carry output is the majority function of the three inputs.",
+      "Ripple-carry adder chains n full adders; each stage's carry-out feeds the next stage's carry-in, so worst-case delay grows linearly with the number of bits.",
+      "Carry-lookahead adder computes all carries in advance from generate (G=AB) and propagate (P=A XOR B) signals, avoiding the ripple delay at the cost of more gates.",
+      "Half subtractor: Difference = A XOR B, Borrow = A'·B (a borrow is needed only when A=0 and B=1).",
+      "Full subtractor extends the half subtractor with a borrow-in input, mirroring how a full adder extends a half adder with carry-in."
+    ],
+    "traps": [
+      "Half-subtractor Borrow is A'·B, NOT A·B' — a very common sign-flip mistake; a borrow happens when subtracting a bigger bit (B=1) from a smaller one (A=0).",
+      "The full adder's carry is the 3-input majority function (true when 2 or more inputs are 1) — easier to remember as 'majority vote' than to memorise the sum-of-products form directly.",
+      "Ripple-carry adders are simple but slow due to cumulative carry-propagation delay; carry-lookahead adders trade extra gate complexity for speed — a question contrasting them tests this trade-off, since both give the same correct sum.",
+      "Difference (A XOR B) has the identical form to Sum in a half adder — don't let the shared XOR expression cause confusion about which circuit a question is actually asking about."
+    ],
+    "mnem": "Adder carry = majority vote; subtractor borrow = A' AND B.",
+    "rel": ["Logic gates, universal gates, truth tables", "Binary addition and subtraction using complements", "MUX, DEMUX, encoders, decoders"]
+  },
+  {
+    "id": "U2b-16",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "MUX, DEMUX, encoders, decoders",
+    "def": "Multiplexers select one of several data inputs onto a single output line using select lines, demultiplexers do the reverse, and encoders/decoders convert between an activated line and its binary code.",
+    "exp": "A 2^n-to-1 multiplexer has 2^n data inputs, n select lines, and a single output; the select-line code determines which one input is passed through to the output, functioning like a digitally-controlled rotary switch. A 1-to-2^n demultiplexer is the mirror image: one input, n select lines, and 2^n outputs, routing the single input to whichever output the select code names — used for distributing data to one of several destinations. An encoder has 2^n input lines and produces the n-bit binary code of whichever single input is currently active, assuming only one is active at a time; a priority encoder extends this by resolving the case where multiple inputs go active simultaneously, outputting the code for the highest-priority one among them. A decoder does the opposite job to an encoder: n input lines produce 2^n output lines, with exactly one output line activated for each unique input code — a 3-to-8 decoder is the standard example. Decoders are the standard building block for memory address decoding (turning an address into a single selected memory chip or row), while multiplexers are the standard building block for data selection inside ALUs and on shared buses.",
+    "facts": [
+      "A 2^n-to-1 multiplexer has 2^n data inputs, n select lines, and 1 output — it 'selects' which input reaches the output based on the select-line code.",
+      "A 1-to-2^n demultiplexer has 1 input, n select lines, and 2^n outputs — it routes the single input to exactly one selected output line.",
+      "A basic encoder has 2^n input lines and n output lines, producing the binary code of whichever single input is active.",
+      "A priority encoder resolves the case where multiple inputs are active simultaneously by outputting the code of the highest-priority active input.",
+      "A decoder has n input lines and 2^n output lines, activating exactly one output line for each unique input code — e.g., a 3-to-8 decoder.",
+      "Decoders are the standard building block for memory address decoding; multiplexers are the standard building block for data selection in ALUs and buses."
+    ],
+    "traps": [
+      "Don't swap encoder and decoder direction: an encoder goes many-lines-to-few-bits (2^n inputs → n outputs), a decoder goes few-bits-to-many-lines (n inputs → 2^n outputs) — exactly opposite of each other.",
+      "A basic (non-priority) encoder assumes only one input is active at a time — if multiple inputs go active together, its output is ambiguous unless it's specifically a priority encoder.",
+      "MUX and DEMUX are each other's mirror image (many-to-one vs. one-to-many) — a question describing 'selecting one of many signals for one output' is a MUX, not a DEMUX, even though both use the same select-line count formula.",
+      "Select-line count is always log2(number of data lines) — for a 16-to-1 MUX that's 4 select lines, a frequent quick-calculation trap under time pressure."
+    ],
+    "mnem": "MUX: many in, one out. DEMUX: one in, many out.",
+    "rel": ["Half/full adder, ripple vs carry-lookahead", "Flip-flops, registers, counters", "Logic gates, universal gates, truth tables"]
+  },
+  {
+    "id": "U2b-17",
+    "paper": "TECH1",
+    "unit": "2",
+    "unitTitle": "Computer Architecture and Organization",
+    "sub": "Flip-flops, registers, counters",
+    "def": "Sequential circuits, unlike combinational ones, have memory: flip-flops (SR, JK, D, T) are the basic 1-bit storage elements, and registers and counters are built by combining multiple flip-flops.",
+    "exp": "The SR flip-flop has Set and Reset inputs: S=1,R=0 sets the output to 1; S=0,R=1 resets it to 0; S=0,R=0 holds the current state; but S=1,R=1 is an invalid, forbidden combination with undefined output for the basic latch. The JK flip-flop fixes exactly this problem: when J=K=1, the output simply toggles instead of being left undefined. But a level-triggered JK flip-flop introduces the 'race-around' problem — if J=K=1 and the clock pulse stays high longer than the gate's propagation delay, the output can toggle repeatedly within a single pulse, leaving an unpredictable final state. The fix is the master-slave JK flip-flop: two latches in series, where only one is 'open' to new input at any instant, so the output changes exactly once per clock pulse. The D flip-flop has a single data input whose value is simply transferred to the output at the clock edge — no forbidden state, ideal for clean single-bit storage. The T (toggle) flip-flop flips its output on every active clock edge when T=1, and holds when T=0, making it the natural building block for counters. Registers group flip-flops to store or shift multi-bit data (shift registers: SISO, SIPO, PISO, PIPO); counters cycle through a state sequence on each clock, built either as asynchronous/ripple counters (simple, but delay accumulates stage to stage) or synchronous counters (all flip-flops clocked together, faster, no ripple delay).",
+    "facts": [
+      "SR flip-flop: S=1,R=0 → set (Q=1); S=0,R=1 → reset (Q=0); S=0,R=0 → hold; S=1,R=1 → invalid/forbidden state.",
+      "JK flip-flop fixes SR's forbidden state: J=K=1 makes the output toggle instead of being undefined.",
+      "Race-around condition: in a level-triggered JK flip-flop with J=K=1, if the clock pulse width exceeds the gate propagation delay, the output can toggle multiple times within one pulse, giving an unpredictable result.",
+      "Master-slave JK flip-flop solves race-around: two latches in series, only one of which is transparent at any instant, so the output changes exactly once per clock pulse.",
+      "D flip-flop: output simply follows the D input at the active clock edge — no forbidden state, used for clean single-bit storage/delay.",
+      "T flip-flop: toggles output on each active clock edge when T=1, holds when T=0 — the natural building block for binary counters.",
+      "Asynchronous (ripple) counters feed each flip-flop's output as the next flip-flop's clock — simple, but delay accumulates stage by stage.",
+      "Synchronous counters clock every flip-flop simultaneously, using combinational logic to determine each flip-flop's next state — faster, no ripple delay."
+    ],
+    "traps": [
+      "Race-around is specifically a level-triggered JK flip-flop problem with J=K=1 — it does not occur in edge-triggered flip-flops or in master-slave configurations, a frequently tested distinction.",
+      "Don't confuse 'master-slave' (a race-around fix using two cascaded latches) with 'edge-triggered' (a different design approach that also avoids race-around) — a question may ask which technique is which.",
+      "SR's invalid state (S=R=1) is a real forbidden input combination for the basic latch, not a design choice you can rely on — JK exists precisely to remove this restriction.",
+      "T flip-flops are usually derived FROM JK flip-flops (tying J and K together) or D flip-flops, rather than existing as a fundamentally separate primitive — a question may ask how to derive one type from another."
+    ],
+    "mnem": "SR forbidden, JK toggles, D delays, T flips.",
+    "rel": ["MUX, DEMUX, encoders, decoders", "Logic gates, universal gates, truth tables", "Half/full adder, ripple vs carry-lookahead"]
+  }
+]

@@ -1,0 +1,387 @@
+[
+  {
+    "id": "U1d-01",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Alphabets, strings, languages, Kleene star",
+    "def": "An alphabet is a finite set of symbols, a string is a finite sequence of symbols drawn from it, and a language is any set of strings over that alphabet.",
+    "exp": "Everything in automata theory sits on this vocabulary. An alphabet Sigma is a finite, nonempty set of symbols, e.g. Sigma = {0,1}. A string (or word) is a finite concatenation of symbols from Sigma; the empty string, written epsilon, has length 0 and is a string over every alphabet. Sigma* denotes the Kleene star of Sigma: the set of all strings of any finite length over Sigma, including epsilon. It is built as the union Sigma^0 union Sigma^1 union Sigma^2 union ..., where Sigma^0 = {epsilon}. Sigma+ (Kleene plus) is Sigma* minus {epsilon}, i.e. all strings of length at least 1. A language L is simply any subset of Sigma*, from the empty language (no strings) to Sigma* itself (every string). Concatenation of strings is associative and epsilon is its identity element. For a finite alphabet of size k, there are exactly k^n distinct strings of length n, but Sigma* as a whole is always countably infinite, since strings can be arbitrarily long. This is the base layer everything else (DFA, regex, grammars) is defined on top of.",
+    "facts": [
+      "Sigma* always contains epsilon; Sigma+ = Sigma* minus {epsilon}",
+      "Number of strings of length n over an alphabet of size k is k^n",
+      "Sigma* is countably infinite even though Sigma itself is finite",
+      "A language is any subset of Sigma*, including the empty set and Sigma* itself",
+      "Concatenation is associative; epsilon is the identity for concatenation",
+      "The empty language (no strings) and the language {epsilon} (one empty string) are different objects"
+    ],
+    "traps": [
+      "Mixing up Sigma* (includes epsilon) with Sigma+ (excludes epsilon)",
+      "Treating the empty language {} and {epsilon} as the same thing — one has zero strings, the other has one",
+      "Assuming Sigma* is finite because Sigma is finite — it is not, strings have unbounded length"
+    ],
+    "mnem": "",
+    "rel": ["DFA", "NFA", "Regular expressions", "Formal grammars"]
+  },
+  {
+    "id": "U1d-02",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "DFA — the 5-tuple",
+    "def": "A deterministic finite automaton is a 5-tuple M = (Q, Sigma, delta, q0, F) that reads an input string one symbol at a time, following exactly one transition per symbol, and accepts if it ends in a final state.",
+    "exp": "Q is a finite set of states. Sigma is the input alphabet. delta: Q x Sigma -> Q is the transition function — total (defined for every state-symbol pair) and single-valued (exactly one next state, never zero, never many). q0 is the single start state. F subset of Q is the set of accepting (final) states. Extend delta to strings as delta-hat: delta-hat(q, epsilon) = q, and delta-hat(q, wa) = delta(delta-hat(q,w), a). The language accepted is L(M) = { w in Sigma* : delta-hat(q0, w) is in F }. Note carefully what is absent: there is no output alphabet in this tuple — a DFA only accepts or rejects, it does not produce output symbols. If a textbook diagram seems to have a missing transition for some (state, symbol) pair, the formal model still requires delta to be total, so an implicit dead/trap (non-accepting, self-looping) state is assumed to keep it well-defined. F can legally be empty (language is empty) or equal to Q (every string accepted).",
+    "facts": [
+      "Exactly five components: (Q, Sigma, delta, q0, F)",
+      "delta: Q x Sigma -> Q is total and single-valued (one next state per input)",
+      "There is no output alphabet in the DFA tuple — it only accepts or rejects",
+      "Exactly one start state q0; F subset of Q can be empty or equal to Q",
+      "Missing transitions in a diagram are formally completed with an implicit trap/dead state",
+      "L(M) = set of strings that drive delta-hat from q0 into some state in F"
+    ],
+    "traps": [
+      "\"Which is NOT part of the finite automata 5-tuple\" — the answer is the output alphabet; DFA has none",
+      "Confusing DFA's delta (returns one state) with NFA's delta (returns a set of states)",
+      "Assuming a DFA can have more than one start state — only one q0 is allowed by definition",
+      "Forgetting delta must be total; an \"undefined\" transition in a hand-drawn diagram is not the same as it being formally undefined in the tuple"
+    ],
+    "mnem": "",
+    "rel": ["NFA", "Mealy machine", "Moore machine", "Regular languages"]
+  },
+  {
+    "id": "U1d-03",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "NFA and NFA with epsilon moves",
+    "def": "A nondeterministic finite automaton allows zero, one, or several transitions on a symbol from a given state, and an NFA with epsilon moves additionally allows a transition that consumes no input at all.",
+    "exp": "An NFA is the tuple (Q, Sigma, delta, q0, F), but delta: Q x Sigma -> 2^Q maps a state and symbol to a set of possible next states (possibly empty). A string is accepted if THERE EXISTS at least one computation path from q0, consistent with the input, that ends in an accepting state — not that every path must succeed. This \"exists a path\" rule is the whole meaning of nondeterminism here; it is not random choice, it is existential branching that the acceptance definition resolves in the automaton's favour if any branch works. An NFA-epsilon extends delta to Q x (Sigma union {epsilon}) -> 2^Q, allowing a state change without reading a symbol. The epsilon-closure of a state q, written ECLOSE(q), is the set of all states reachable from q using only epsilon transitions, and by convention always includes q itself. Despite looking more powerful, NFA, NFA-epsilon, and DFA all define exactly the same class of languages — the regular languages. What nondeterminism buys is succinctness: NFAs are often far smaller than the equivalent DFA, and constructions like Thompson's construction (regex to automaton) naturally produce an NFA-epsilon rather than a DFA.",
+    "facts": [
+      "delta: Q x Sigma -> 2^Q for an NFA — the result is a set of states, possibly empty",
+      "Acceptance means at least one computation path reaches an accepting state, not all paths",
+      "NFA-epsilon adds transitions on epsilon that consume zero input symbols",
+      "ECLOSE(q), the epsilon-closure of q, always includes q itself",
+      "NFA, NFA-epsilon, and DFA are equally expressive — all define the regular languages",
+      "NFAs are often exponentially smaller than an equivalent DFA (see subset construction)"
+    ],
+    "traps": [
+      "Believing an NFA can accept languages no DFA can — false, they are equally powerful, only size differs",
+      "Forgetting to epsilon-close the start state itself before beginning simulation or conversion",
+      "Reading \"nondeterministic\" as \"random\" — it means \"accept if any path accepts\", with no probabilities involved"
+    ],
+    "mnem": "",
+    "rel": ["DFA", "Subset construction", "Regular expressions"]
+  },
+  {
+    "id": "U1d-04",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "NFA to DFA: subset construction",
+    "def": "Subset construction (the powerset construction) converts an n-state NFA into an equivalent DFA whose states are sets of NFA states, with at most 2^n reachable DFA states in the worst case.",
+    "exp": "Each DFA state is a subset S of the NFA's state set Q, representing \"all NFA states the machine could currently be in, given the input read so far.\" The DFA start state is ECLOSE({q0}). For a DFA state S and symbol a, the transition goes to ECLOSE(union over q in S of delta(q,a)) — collect where every state in S could go on a, then epsilon-close the result. A DFA state is accepting if it contains at least one NFA accepting state (any, not all). Worked example: an NFA with states {q0,q1} where q0 on 'a' nondeterministically goes to both q0 and q1. Reachable DFA states end up being subsets like {q0} and {q0,q1}, up to a maximum of 2^2 = 4 possible subsets (including the empty set, which serves as the DFA's dead/trap state when no NFA state is reachable). In practice only the subsets actually reachable from the start are built (\"lazy\" subset construction), so real DFAs are usually much smaller than the full 2^n bound; the bound is a worst case, achieved by specially constructed languages, not typical.",
+    "facts": [
+      "Worst-case DFA size after subset construction is 2^n for an n-state NFA",
+      "DFA start state = ECLOSE({q0}) of the NFA",
+      "Transition on symbol a from DFA state S = ECLOSE(union of delta(q,a) for all q in S)",
+      "A DFA state is accepting if it contains ANY NFA accepting state, not all of them",
+      "The empty subset, if reachable, becomes the DFA's dead/trap state",
+      "Only reachable subsets are actually constructed, so real output is usually far smaller than 2^n"
+    ],
+    "traps": [
+      "Assuming all 2^n subsets always get built — only reachable ones are, so the true DFA can be much smaller",
+      "Forgetting to re-apply epsilon-closure after every symbol transition when the NFA has epsilon moves",
+      "Marking a DFA state final only when ALL its NFA states are final — the correct rule is ANY one is final"
+    ],
+    "mnem": "",
+    "rel": ["NFA", "DFA", "State minimization"]
+  },
+  {
+    "id": "U1d-05",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "State equivalence & DFA minimization",
+    "def": "Two DFA states are equivalent if, for every possible remaining input string, continuing from either one leads to the same accept-or-reject verdict; minimization merges every class of equivalent states into a single state.",
+    "exp": "Formally, states p and q are equivalent (p ~ q) iff for ALL strings w in Sigma*, delta-hat(p,w) is in F exactly when delta-hat(q,w) is in F — this must hold for every possible continuation, not just one convenient string. The standard algorithm (table-filling / partition refinement) works from a Myhill-Nerode style argument: (1) remove states unreachable from q0, since minimization is only meaningful over reachable states; (2) start with two groups, F and Q-F, since an accepting and a non-accepting state can never be equivalent; (3) repeatedly split a group if some input symbol sends its members to states that are already known to be in different groups; (4) stop when no group splits further — the surviving groups are the equivalence classes. Merge each class into one state to get the minimum DFA. The Myhill-Nerode theorem guarantees this minimum DFA is unique for a given regular language, up to renaming states. Note this table-filling algorithm is specifically for DFAs; it does not directly minimize NFAs, whose minimum form is not even guaranteed unique.",
+    "facts": [
+      "p ~ q iff no string distinguishes them across ALL possible continuations, not just one",
+      "Step 1 of minimization: remove states unreachable from the start state",
+      "Step 2: initial partition is F versus Q-F, since accepting/non-accepting states are never equivalent",
+      "Refine partitions by transitions until no group splits further; merge each stable group",
+      "The Myhill-Nerode theorem guarantees a unique minimum DFA (up to state renaming) for each regular language",
+      "This standard algorithm applies to DFAs; NFA minimization is a different, harder problem with no unique answer"
+    ],
+    "traps": [
+      "Skipping the unreachable-state removal step, which can leave the DFA under-minimized",
+      "Checking only one or two sample strings to decide equivalence — the definition requires ALL strings",
+      "Assuming the same table-filling method minimizes an NFA the same way it minimizes a DFA"
+    ],
+    "mnem": "",
+    "rel": ["DFA", "Subset construction", "Myhill-Nerode theorem"]
+  },
+  {
+    "id": "U1d-06",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Pumping lemma & limits of DFAs",
+    "def": "The pumping lemma says every regular language has a length p such that any string of length at least p can be split into xyz with |xy| <= p, |y| >= 1, and xy^i z still in the language for every i >= 0; it is used only to prove a language is NOT regular.",
+    "exp": "Because a DFA has only finitely many states, reading a long enough string must revisit some state — that repeated loop is the \"y\" piece, and looping it any number of times (i = 0, 1, 2, ...) must still be accepted, since the automaton cannot distinguish how many times it went around the loop. Using it as a proof: assume the language IS regular, obtain its pumping length p, choose an adversarial string of length >= p, then show that EVERY valid way of splitting it into xyz fails to keep xy^iz in the language for some i — this contradiction proves the language is not regular. Two classic exam examples: a^n b^n is not regular, because pumping the a-block (or b-block) alone breaks the equal-count requirement; and palindromes of unbounded length are not regular, because a finite-state machine has no way to remember an arbitrarily long prefix to compare it against the suffix later — this is exactly why a DFA cannot recognise general palindromes. A DFA CAN recognise palindromes of one fixed, bounded length, since that only needs finitely many cases; the impossibility is specific to unbounded length. The lemma is a one-way tool: satisfying the pumping property does not prove regularity.",
+    "facts": [
+      "Pumping lemma applies to every regular language, with some pumping length p",
+      "Split constraints: |xy| <= p, |y| >= 1 (y nonempty), and xy^iz in L for all i >= 0",
+      "a^n b^n is the standard textbook example proved non-regular via pumping",
+      "A DFA cannot recognise palindromes of unbounded/arbitrary length — no finite memory to compare far-apart symbols",
+      "A DFA CAN recognise palindromes of one fixed, bounded length — that is a different, finite problem",
+      "Pumping lemma only proves non-regularity; it can never be used to prove a language IS regular"
+    ],
+    "traps": [
+      "Trying to use the pumping lemma to prove a language regular — it is strictly a non-regularity tool",
+      "Picking a string for the proof that happens to still pump correctly, producing a false \"proof\"",
+      "Reading \"can a DFA recognise a palindrome\" without noting whether length is bounded or arbitrary — arbitrary length is the intended, answer-is-no case in this exam's phrasing"
+    ],
+    "mnem": "",
+    "rel": ["Regular languages", "DFA", "Context-free grammar", "Pushdown automata"]
+  },
+  {
+    "id": "U1d-07",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Regular expressions",
+    "def": "A regular expression is an algebraic notation over union, concatenation, and Kleene star that describes exactly the class of regular languages, the same class recognised by DFAs and NFAs.",
+    "exp": "Base cases: the empty language, epsilon, and each symbol a in Sigma are themselves regular expressions. Compound expressions are built with union (written + or |), concatenation (juxtaposition), and Kleene star (*), with precedence star highest, then concatenation, then union — so ab* means a(b*), not (ab)*. Kleene's theorem is the key result: regular expressions, DFAs, and NFAs all define precisely the same language class, the regular languages; conversion works both ways — Thompson's construction turns a regex into an NFA-epsilon, and state elimination turns a finite automaton back into a regex. This three-way equivalence (regex = automaton = Type 3 grammar) is the reason a very common exam fact is stated as: regular expressions denote Type 3 languages in the Chomsky hierarchy, not Type 2. Example: (0+1)*011 denotes all binary strings that end in 011. Regular expressions cannot express languages that need unbounded counting or matching, such as a^n b^n or balanced parentheses — those require a stack, i.e. they are context-free, one level up the hierarchy. Note that practical regex engines in programming languages (with backreferences, lookahead) are strictly more powerful than this formal definition.",
+    "facts": [
+      "Base regular expressions: empty language, epsilon, and each single symbol",
+      "Operators: union (+), concatenation, Kleene star; precedence is star > concatenation > union",
+      "Kleene's theorem: regular expressions, DFAs, and NFAs define exactly the same language class",
+      "Regular expressions denote Type 3 (regular) languages in the Chomsky hierarchy",
+      "Regular expressions cannot express a^n b^n or balanced parentheses — those need a stack (context-free)",
+      "Practical programming-language regex (with backreferences/lookahead) is strictly more powerful than the formal definition"
+    ],
+    "traps": [
+      "\"Regular expressions are Type __ language\" — the answer is Type 3, a very commonly repeated MCQ; do not answer Type 2",
+      "Assuming engine regex (PCRE-style, with backreferences) is equivalent to formal regular expressions — it is not, it's more powerful",
+      "Misapplying precedence, e.g. treating ab* as (ab)* instead of the correct a(b*)"
+    ],
+    "mnem": "",
+    "rel": ["DFA", "NFA", "Chomsky hierarchy", "Type 3 grammar"]
+  },
+  {
+    "id": "U1d-08",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Moore machine",
+    "def": "A Moore machine is a finite-state transducer whose output is attached to each state, so the output depends only on the current state, never directly on the input symbol being read.",
+    "exp": "Formally a 6-tuple (Q, Sigma, Delta, delta, lambda, q0), where Delta is the output alphabet, delta: Q x Sigma -> Q is the usual transition function, and lambda: Q -> Delta is the output function that assigns one output symbol to each state. Because the start state q0 itself emits an output before any input symbol is even read, the output string produced for an input of length n has length n+1 — one output per state visited, including the initial one. Contrast this immediately with the Mealy machine (next card), where output rides on the transition rather than the state. Since output is fixed per state, a Moore machine's output only changes exactly when the state changes, so there is no possibility of an output glitch mid-transition — this stability is Moore's main practical advantage, at the cost of sometimes needing more states than an equivalent Mealy design (to represent the same combination of \"which state\" and \"what output should show\" separately for different incoming paths). Every Moore machine has an equivalent Mealy machine and vice versa; recognition power over inputs alone (ignoring output) is the same as a finite automaton.",
+    "facts": [
+      "6-tuple: (Q, Sigma, Delta, delta, lambda, q0), with lambda: Q -> Delta",
+      "Output is a function of the current state only — never the input symbol",
+      "Output string length is input length + 1, because the start state emits before any input is read",
+      "Output changes only when the state changes — glitch-free with respect to input timing",
+      "Every Moore machine has an equivalent Mealy machine, and vice versa"
+    ],
+    "traps": [
+      "\"The output of a Moore machine depends on ___\" — answer: the present state only, never the input symbol",
+      "Forgetting the output-length-is-n+1 rule when tracing a Moore machine example by hand",
+      "Swapping Moore and Mealy under exam pressure — Moore ties output to state, Mealy ties output to transition"
+    ],
+    "mnem": "Moore's output is a badge worn by the State; it doesn't care what input just arrived.",
+    "rel": ["Mealy machine", "DFA", "Finite automata"]
+  },
+  {
+    "id": "U1d-09",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Mealy machine & Moore equivalence",
+    "def": "A Mealy machine is a finite-state transducer whose output is produced on each transition, depending on both the current state and the input symbol just read, so its output string has the same length as its input.",
+    "exp": "Formally a 6-tuple (Q, Sigma, Delta, delta, lambda, q0), but here lambda: Q x Sigma -> Delta labels each edge, typically drawn as \"input/output\" on the transition arrow. Because exactly one output symbol is produced per input symbol consumed, the output length equals the input length exactly — unlike a Moore machine's n+1. Conversion Moore -> Mealy: for every transition into a state, use that state's Moore output as the Mealy output on the incoming edge; this never increases the number of states. Conversion Mealy -> Moore is the harder direction: a state that is reached by edges carrying different outputs must be split into separate copies, one per distinct output, so the state count can increase. The two machine types are equivalent in the transducer sense (any behaviour one realises the other can too, once you account for the one-step output alignment difference), and neither is more powerful than a DFA for pure language recognition — outputs are an add-on, not extra recognising power. A very commonly tested phrasing: the output of a Mealy machine can be represented as a function of the present state and present input, i.e. lambda(state, input).",
+    "facts": [
+      "Mealy output function: lambda: Q x Sigma -> Delta, depends on state AND input symbol",
+      "Mealy output string length equals input string length exactly, unlike Moore's n+1",
+      "Mealy transition diagrams label each edge \"input/output\"",
+      "Moore -> Mealy conversion never increases the number of states",
+      "Mealy -> Moore conversion can increase state count, since states with different incoming outputs must split",
+      "Neither Mealy nor Moore adds recognising power beyond a finite automaton — outputs are separate from acceptance"
+    ],
+    "traps": [
+      "\"Output of Mealy machine can be represented as ___\" — answer: a function of present state and present input, i.e. lambda(q, a)",
+      "Assuming both conversion directions preserve state count — only Moore-to-Mealy is guaranteed not to increase it",
+      "Mixing up output-string-length rules: Mealy = same length as input, Moore = one longer"
+    ],
+    "mnem": "Mealy's output rides the Move (the edge); Moore's output sits on the state, one extra output overall.",
+    "rel": ["Moore machine", "DFA", "Finite automata"]
+  },
+  {
+    "id": "U1d-10",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Formal grammar: the 4-tuple",
+    "def": "A formal grammar is a 4-tuple G = (V, T, P, S) that generates a language by repeatedly rewriting a string of symbols using production rules, starting from a designated start symbol.",
+    "exp": "V is the finite set of nonterminal (variable) symbols, T is the finite set of terminal symbols, and V and T are always disjoint. P is a finite set of production rules of the form alpha -> beta, each rule saying a piece of the current string matching alpha may be rewritten as beta. S is a distinguished nonterminal in V, the start (sentence) symbol from which every derivation begins. A derivation applies rules from P one at a time: write => for a single rewrite step and =>* for the reflexive-transitive closure (zero or more steps). The language generated is L(G) = { w in T* : S =>* w } — every terminal string reachable from S by some sequence of rule applications. Note some textbooks use the notation G = (N, Sigma, P, S), with N for nonterminals and Sigma for terminals — same four components, different letters, so do not be thrown by a different textbook's symbol choice. The generated language L is a consequence of the grammar, not a fifth component of the tuple itself.",
+    "facts": [
+      "Exactly four components: (V, T, P, S)",
+      "V (nonterminals) and T (terminals) are always disjoint finite sets",
+      "P is a finite set of production rules, each of the form alpha -> beta",
+      "S is a nonterminal in V, the designated start symbol of every derivation",
+      "L(G) = { w in T* : S derives w in zero or more steps } — the language is a result, not part of the tuple",
+      "Alternative notation (N, Sigma, P, S) means exactly the same structure as (V, T, P, S)"
+    ],
+    "traps": [
+      "\"Which is NOT part of the grammar's 4-tuple\" — a common wrong-answer bait is inserting \"the language L\"; L is generated by G, it is not one of the four components",
+      "Forgetting V and T must be disjoint — a symbol cannot be both a terminal and a nonterminal",
+      "Assuming S can be used only once in a derivation — recursive productions can reintroduce S or other nonterminals repeatedly"
+    ],
+    "mnem": "",
+    "rel": ["Chomsky hierarchy", "Type 3 grammar", "Type 2 grammar", "Finite automata"]
+  },
+  {
+    "id": "U1d-11",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Chomsky hierarchy overview",
+    "def": "The Chomsky hierarchy classifies grammars, and the languages they generate, into four strictly nested types — Type 0 (unrestricted) down to Type 3 (regular) — each type recognised by a matching kind of automaton.",
+    "exp": "The pairing to memorise as a fixed table: Type 0, unrestricted grammar, recognised by a Turing machine; Type 1, context-sensitive grammar, recognised by a linear bounded automaton; Type 2, context-free grammar, recognised by a pushdown automaton; Type 3, regular grammar, recognised by a finite automaton. The classes nest strictly: regular (Type 3) is a proper subset of context-free (Type 2), which is a proper subset of context-sensitive (Type 1), which is a proper subset of recursively enumerable / Type 0. Going from Type 0 down to Type 3, the productions allowed become progressively MORE restricted, and correspondingly the languages that can be generated become a smaller, simpler class: Type 0 productions have essentially no shape restriction (only that the left side contains at least one nonterminal); Type 1 requires the right side to be at least as long as the left side (non-contracting); Type 2 requires the left side to be a single nonterminal; Type 3 further restricts the right side to a very limited linear form. This card is the map — each type gets its own dedicated card with the exact production shapes.",
+    "facts": [
+      "Type 0 = unrestricted grammar, recognised by a Turing machine",
+      "Type 1 = context-sensitive grammar, recognised by a linear bounded automaton",
+      "Type 2 = context-free grammar, recognised by a pushdown automaton",
+      "Type 3 = regular grammar, recognised by a finite automaton",
+      "Strict nesting: regular subset of context-free subset of context-sensitive subset of recursively enumerable",
+      "Lower type numbers (toward 3) mean MORE restricted grammars and SMALLER language classes, not the reverse"
+    ],
+    "traps": [
+      "Inverting the direction — Type 0 is the least restricted and most powerful, Type 3 the most restricted and least powerful; easy to flip under pressure",
+      "Assigning context-sensitive grammars to a pushdown automaton — that pairing belongs to context-free (Type 2), not Type 1",
+      "Treating the type-to-automaton pairing as something to reason out live in the exam rather than a fixed table to memorise cold"
+    ],
+    "mnem": "TM - LBA - PDA - FA for Types 0 - 1 - 2 - 3, in that order.",
+    "rel": ["Formal grammars", "Type 3 grammar", "Type 2 grammar", "Turing machine"]
+  },
+  {
+    "id": "U1d-12",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Type 3 regular grammars & FA link",
+    "def": "A Type 3 (regular) grammar restricts every production to a single nonterminal on the left, and on the right to either one terminal alone, or one terminal paired with at most one nonterminal in a fixed position (right-linear or left-linear).",
+    "exp": "Right-linear form: A -> aB or A -> a (the nonterminal, if present, always comes last, after the terminal). Left-linear form: A -> Ba or A -> a (the nonterminal, if present, always comes first). A grammar must be consistently one form or the other; freely mixing left-linear and right-linear rules in the same grammar can generate a language that is not regular, so \"short productions\" alone do not guarantee regularity. The formal bridge to finite automata: every regular grammar converts mechanically into an NFA — each nonterminal becomes a state, a rule A -> aB becomes a transition from state A to state B on symbol a, and a rule A -> a becomes a transition to a (new or existing) accepting state — and the reverse conversion works the same way from a DFA's transitions back into productions. Together with regular expressions (via Kleene's theorem), this gives three equivalent views of exactly the same language class: regular grammar, regular expression, and finite automaton. A language is regular precisely when some Type 3 grammar can generate it.",
+    "facts": [
+      "Right-linear production form: A -> aB or A -> a (nonterminal, if any, comes after the terminal)",
+      "Left-linear production form: A -> Ba or A -> a (nonterminal, if any, comes before the terminal)",
+      "Regular grammars, finite automata, and regular expressions all define the same language class",
+      "Grammar-to-NFA conversion: nonterminals become states, A -> aB becomes an a-labelled transition A to B",
+      "A language is regular if and only if some Type 3 grammar generates it",
+      "Mixing left-linear and right-linear rules in one grammar can produce a non-regular language"
+    ],
+    "traps": [
+      "Assuming any grammar with short right-hand sides is automatically regular — the position and count of the nonterminal on the right must match the right-linear or left-linear pattern exactly",
+      "Treating a mixed left/right-linear grammar as regular by default — consistency of form is required",
+      "Forgetting the terminal-only production A -> a needed to actually terminate a derivation and reach an accepting state"
+    ],
+    "mnem": "",
+    "rel": ["Chomsky hierarchy", "DFA", "NFA", "Regular expressions"]
+  },
+  {
+    "id": "U1d-13",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Type 2 CFG, parse trees & ambiguity",
+    "def": "A Type 2 (context-free) grammar allows any production A -> beta where A is a single nonterminal and beta is any string of terminals and nonterminals, applied regardless of what surrounds A — hence \"context-free.\"",
+    "exp": "A parse tree (derivation tree) has the start symbol as its root, nonterminals as internal nodes, and terminals as leaves; reading the leaves left to right gives the string the tree derives. A leftmost derivation always expands the leftmost remaining nonterminal first; a rightmost derivation expands the rightmost first — both are just orderings of the same rule applications. A grammar is ambiguous if some string in its language has two or more distinct parse trees, equivalently two distinct leftmost derivations. The textbook example is E -> E+E | E*E | id for the string id+id*id: one parse tree groups it as (id+id)*id and another as id+(id*id), giving genuinely different meanings from the same grammar, because the grammar itself encodes no precedence or associativity. Ambiguity is a real practical problem for language and compiler design, since it leaves meaning undefined until some external rule (precedence table) is imposed, and deciding whether an arbitrary CFG is ambiguous is undecidable in general — there is no algorithm that always answers this question. CFGs are recognised by pushdown automata and can express nested, recursive structures like balanced parentheses that regular grammars cannot.",
+    "facts": [
+      "CFG production form: A -> beta, with A a single nonterminal and beta any string over nonterminals and terminals",
+      "Parse tree leaves, read left to right, give the derived (yielded) string",
+      "A string is ambiguous in a grammar if it has two or more distinct parse trees / leftmost derivations",
+      "Whether an arbitrary CFG is ambiguous is undecidable in general — no algorithm always answers it",
+      "CFGs are recognised by pushdown automata",
+      "Classic ambiguous example: E -> E+E | E*E | id gives two parse trees for id+id*id, since precedence is undefined"
+    ],
+    "traps": [
+      "Confusing \"this grammar is ambiguous\" with \"this language is inherently ambiguous\" — some languages have both ambiguous and unambiguous grammars for them",
+      "Assuming every CFG can be rewritten to remove ambiguity — some languages are inherently ambiguous, with no unambiguous grammar at all",
+      "Finding one leftmost derivation and concluding the grammar is unambiguous without checking whether a second, different leftmost derivation also exists"
+    ],
+    "mnem": "",
+    "rel": ["Chomsky hierarchy", "Pushdown automata", "Type 3 grammar"]
+  },
+  {
+    "id": "U1d-14",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "PDA: deterministic vs nondeterministic",
+    "def": "A pushdown automaton (PDA) is a finite automaton augmented with an unbounded stack, and it recognises exactly the context-free languages; a deterministic PDA (DPDA) is strictly weaker than a nondeterministic PDA (NPDA).",
+    "exp": "A PDA's transition reads the current state, the current input symbol (or epsilon), and the symbol on top of the stack, and produces a new state plus a stack update (push, pop, or replace the top symbol). The stack gives genuinely unbounded memory, unlike a DFA's fixed set of states, which is exactly what is needed to match nested or unbounded-depth structure such as balanced parentheses or a^n b^n (push on a's, pop on b's, accept if the stack empties exactly when input ends). Acceptance can be defined either by ending in a final state or by ending with an empty stack — the two definitions are proven equivalent in power. The critical exam distinction: an NPDA accepts every context-free language, but a DPDA accepts only a proper subset of them, called the deterministic context-free languages (DCFL); so DPDA is strictly weaker than NPDA, unlike the DFA/NFA case where determinism costs nothing. The standard example separating them is ww^R (even-length palindromes with no centre marker) over {0,1}: a nondeterministic machine can guess where the midpoint is and start popping, but a deterministic machine has no way to know when to switch from pushing to popping without a marker, so no DPDA can accept it. DCFLs correspond to the languages parseable by LR-style parsers, which is why compilers care about this distinction.",
+    "facts": [
+      "PDA = finite control plus one unbounded stack; recognises exactly the context-free languages",
+      "PDA acceptance can be defined by final state or by empty stack — the two definitions are equivalent in power",
+      "DPDA is STRICTLY weaker than NPDA — deterministic context-free languages (DCFL) are a proper subset of context-free languages",
+      "ww^R (even palindromes, no centre marker) is a standard example an NPDA accepts but no DPDA can",
+      "a^n b^n IS accepted by a DPDA, since no guessing about the midpoint is required",
+      "DCFLs correspond to languages parsed by LR-style parsers, relevant to compiler design"
+    ],
+    "traps": [
+      "Assuming \"PDA = DFA + stack\" means determinism costs nothing here too — unlike DFA/NFA, DPDA really is weaker than NPDA",
+      "Picking a DPDA when a question asks for a machine that accepts an arbitrary/general context-free language — only an NPDA is guaranteed sufficient",
+      "Lumping all stack-based languages together as equally hard — a^n b^n is DPDA-recognisable, while ww^R without a marker is not"
+    ],
+    "mnem": "",
+    "rel": ["Type 2 grammar", "Context-free grammar", "Pumping lemma"]
+  },
+  {
+    "id": "U1d-15",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Type 1/0 grammars & closure properties",
+    "def": "A Type 1 (context-sensitive) grammar restricts productions to be non-contracting and is recognised by a linear bounded automaton, while a Type 0 (unrestricted) grammar has no such restriction and is recognised by a full Turing machine.",
+    "exp": "The commonly tested, simplified definition of a context-sensitive production is non-contracting: |alpha| <= |beta| for every rule alpha -> beta, meaning the string never gets shorter during a derivation (one exception is allowed: S -> epsilon, only if S never appears on the right side of any rule). A linear bounded automaton (LBA) is a Turing machine restricted to use only the tape space occupied by the input itself, no extra tape — and this exact pairing, \"context-sensitive grammar is recognised by a linear bounded automaton,\" is a heavily repeated exam fact. Type 0 grammars drop every restriction on production shape (only requiring at least one nonterminal on the left) and are recognised by an unrestricted Turing machine; the languages they generate are exactly the recursively enumerable languages, where a machine may run forever without halting on a non-member string. Closure properties, another favourite exam area: regular languages are closed under union, intersection, complement, concatenation, and Kleene star. Context-free languages ARE closed under union, concatenation, and Kleene star, but are NOT closed under intersection or complement — a classic counterexample uses two CFLs whose intersection encodes a language like a^n b^n c^n, which is not context-free.",
+    "facts": [
+      "Context-sensitive productions are non-contracting: |alpha| <= |beta|, with S -> epsilon allowed only if S never appears on any right-hand side",
+      "Context-sensitive grammar is recognised by a linear bounded automaton (LBA) — tape length is bounded by input length",
+      "Type 0 (unrestricted) grammars are recognised by a full Turing machine, and generate the recursively enumerable languages",
+      "Context-free languages ARE closed under union, concatenation, and Kleene star",
+      "Context-free languages are NOT closed under intersection or complement",
+      "Regular languages ARE closed under union, intersection, complement, concatenation, and Kleene star"
+    ],
+    "traps": [
+      "\"Context Sensitive Grammar can be recognized by a ___\" — answer: linear bounded automaton, not Turing machine (that pairing is Type 0)",
+      "\"Context Free Grammar is not closed under ___\" — answer: intersection and complement, a very frequently repeated question",
+      "Assuming CFLs are closed under intersection because regular languages are — false; CFL intersect CFL need not be context-free (e.g. constructions resembling a^n b^n c^n)"
+    ],
+    "mnem": "",
+    "rel": ["Chomsky hierarchy", "Pushdown automata", "Turing machine"]
+  },
+  {
+    "id": "U1d-16",
+    "paper": "TECH1",
+    "unit": "1",
+    "unitTitle": "Discrete Mathematics",
+    "sub": "Fuzzy sets — membership & properties",
+    "def": "A fuzzy set assigns every element a graded degree of membership between 0 and 1 via a membership function, rather than the strict all-or-nothing (0 or 1) membership of an ordinary crisp set.",
+    "exp": "A fuzzy set A over a universe X is defined by its membership function mu_A: X -> [0,1], giving each x a degree of belonging rather than a binary yes/no; a crisp set is the special case where mu(x) is restricted to exactly {0,1}. Key structural terms: the support of A is {x in X : mu_A(x) > 0}, every element with any nonzero membership at all; the core of A is {x in X : mu_A(x) = 1}, elements with full membership (the core can be empty). The height h(A) is the supremum of mu_A(x) over all x; A is called a normal fuzzy set when h(A) = 1 (at least one element attains full membership), and subnormal when h(A) < 1. An alpha-cut A_alpha = {x : mu_A(x) >= alpha} is a crisp set obtained by thresholding at level alpha; as alpha increases, A_alpha shrinks (nested, monotonic). Basic operations mirror ordinary set theory but use max/min in place of union/intersection: mu_(A union B)(x) = max(mu_A(x), mu_B(x)); mu_(A intersect B)(x) = min(mu_A(x), mu_B(x)); mu_(complement of A)(x) = 1 - mu_A(x). Example: a \"tall people\" fuzzy set might give a person of 5'9\" a membership of 0.6 rather than a hard yes or no.",
+    "facts": [
+      "Membership function mu_A(x) is in [0,1]; a crisp set restricts this to exactly {0,1}",
+      "Support = {x : mu_A(x) > 0}; core = {x : mu_A(x) = 1} (core may be empty)",
+      "Height h(A) = supremum of mu_A(x) over all x in the universe",
+      "A fuzzy set A is called normal when h(A) = 1, and subnormal when h(A) < 1",
+      "Alpha-cut A_alpha = {x : mu_A(x) >= alpha} is a crisp set; larger alpha gives a smaller (nested) cut",
+      "Standard (Zadeh) fuzzy union uses max, intersection uses min, complement is 1 - mu_A(x)"
+    ],
+    "traps": [
+      "\"The fuzzy set A is called normal when h(A) = ___\" — answer is 1, not 0 and not 0.5",
+      "Confusing support (mu > 0, can be large) with core (mu = 1 exactly, can even be empty for a subnormal set)",
+      "Assuming fuzzy union/intersection use sum or product of memberships — the standard definition uses max/min, not arithmetic operations that could exceed 1",
+      "Treating fuzzy memberships like a probability distribution — they need not sum to 1 across all elements"
+    ],
+    "mnem": "Core = complete (mu = 1); Support = some (mu > 0).",
+    "rel": ["Set theory", "Membership function", "Alpha-cut"]
+  }
+]

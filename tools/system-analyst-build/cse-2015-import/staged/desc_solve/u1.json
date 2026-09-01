@@ -1,0 +1,36 @@
+[
+ {
+  "id": "D040",
+  "q": "How many words can be formed from the letters of the word, 'SIGNATURE' to that the vowels always come together?",
+  "unit": "1",
+  "sub": "Permutations with grouping"
+ },
+ {
+  "id": "D041",
+  "q": "In a basketball match, all ten players shake hands with each other once after the match. How many handshakes will be there?",
+  "unit": "1",
+  "sub": "Combinations (handshakes)"
+ },
+ {
+  "id": "D042",
+  "q": "Prove the following by principle of \"Induction Method\" for all n ≥ 0,\n    Σ(i=0 to n) i³ = [ n(n+1)/2 ]²",
+  "unit": "1",
+  "sub": "Mathematical induction",
+  "garbled": true,
+  "repaired": true
+ },
+ {
+  "id": "D043",
+  "q": "Design DFA which accepts the strings 1010 only.",
+  "unit": "1",
+  "sub": "DFA design"
+ },
+ {
+  "id": "D044",
+  "q": "Consider the following NFA with ε given below:\nTRANSITION TABLE\n  STATES |   ε     a     b     c\n  =>p    |   ∅    {p}   {q}   {r}\n    q    |  {p}   {q}   {r}    ∅\n   *r    |  {q}   {r}    ∅   {p}\nConvert the automation to DFA",
+  "unit": "1",
+  "sub": "NFA to DFA conversion",
+  "garbled": true,
+  "repaired": true
+ }
+]

@@ -1,0 +1,365 @@
+[
+ {
+  "id": "N1039",
+  "question": "What is the name of the technique in which the operating system of a computer executes several programs concurrently by switching back and forth between them?",
+  "options": {
+   "A": "Partitioning",
+   "B": "Multitasking",
+   "C": "Paging",
+   "D": "Timesharing"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0337",
+  "question": "What is operating system?",
+  "options": {
+   "A": "collection of programs that manages hardware resources",
+   "B": "system service provider to the application programs",
+   "C": "link to interface the hardware and application programs",
+   "D": "all of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0338",
+  "question": "Which one of the following is not true?",
+  "options": {
+   "A": "kernel is the program that constitutes the central core of the operating system",
+   "B": "kernel is the first part of operating system to load into memory during booting",
+   "C": "kernel is made of various modules which can not be loaded in running operating system",
+   "D": "kernel remains in the memory during the entire computer session"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0339",
+  "question": "By operating system, the resource management can be done via",
+  "options": {
+   "A": "time division multiplexing",
+   "B": "space division multiplexing",
+   "C": "both time and space division multiplexing",
+   "D": "none of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0340",
+  "question": "Inter process communication :",
+  "options": {
+   "A": "allows processes to communicate and synchronize their actions when using the same address space",
+   "B": "allows processes to communicate and synchronize their actions without using the same address space",
+   "C": "allows the processes to only synchronize their actions without communication",
+   "D": "none of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0341",
+  "question": "The state of a process is defined by:",
+  "options": {
+   "A": "the final activity of the process",
+   "B": "the activity just executed by the process",
+   "C": "the activity to next be executed by the process",
+   "D": "the current activity of the process"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0342",
+  "question": "The only state transition that is initiated by the user process itself is :",
+  "options": {
+   "A": "block",
+   "B": "wakeup",
+   "C": "dispatch",
+   "D": "none of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0343",
+  "question": "The interval from the time of submission of a process to the time of completion is termed as",
+  "options": {
+   "A": "waiting time",
+   "B": "turnaround time",
+   "C": "response time",
+   "D": "throughput"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0344",
+  "question": "Multithreaded programs are :",
+  "options": {
+   "A": "lesser prone to deadlocks",
+   "B": "more prone to deadlocks",
+   "C": "not at all prone to deadlocks",
+   "D": "none of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0345",
+  "question": "A system is in a safe state only if there exists a :",
+  "options": {
+   "A": "safe allocation",
+   "B": "safe resource",
+   "C": "safe sequence",
+   "D": "all of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0346",
+  "question": "The disadvantage of a process being allocated all its resources before beginning its execution is :",
+  "options": {
+   "A": "Low CPU utilization",
+   "B": "Low resource utilization",
+   "C": "Very high resource utilization",
+   "D": "None of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0347",
+  "question": "Physical memory is broken into fixed-sized blocks called",
+  "options": {
+   "A": "frames",
+   "B": "pages",
+   "C": "backing store",
+   "D": "none of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0348",
+  "question": "Each entry in a segment table has a :",
+  "options": {
+   "A": "segment base",
+   "B": "segment peak",
+   "C": "segment value",
+   "D": "none of these"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0865",
+  "question": "How many injections are defined from set A to set B if set A has 4 elements and se B has 5 elements?",
+  "options": {
+   "A": "144",
+   "B": "24",
+   "C": "64",
+   "D": "120"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0866",
+  "question": "Which of the following function is also referred to as an injective function?",
+  "options": {
+   "A": "One-to-One",
+   "B": "Many-to-one",
+   "C": "Onto",
+   "D": "None of the above"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0867",
+  "question": "If x \uf0ce N and x is prime, then x is ________ set.",
+  "options": {
+   "A": "Finite set",
+   "B": "Empty set",
+   "C": "Not a set",
+   "D": "Infinite set"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0868",
+  "question": "Which one of the following in NOT necessarily a property of a Group?",
+  "options": {
+   "A": "Commutativity",
+   "B": "Associativity",
+   "C": "Existence of inverse for every element",
+   "D": "Existence of identity"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0869",
+  "question": "Consider the binary relation R = {(x, y), (x, z), (z, x), (z, y)} on the set {x, y, z}. Which one of the following is TRUE?",
+  "options": {
+   "A": "R is symmetric but NOT antisymmetric",
+   "B": "R is NOT symmetric but antisymmetric",
+   "C": "R is both symmetric and antisymmetric",
+   "D": "R is neither symmetric nor antisymmetric"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0899",
+  "question": "Each process is represented in the OS by a",
+  "options": {
+   "A": "system task control block",
+   "B": "operating system control block",
+   "C": "system control block.",
+   "D": "process control block"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0917",
+  "question": "Which option represents an instance of a Real Time Operating System?",
+  "options": {
+   "A": "MAC",
+   "B": "MS-DOS",
+   "C": "Windows 10",
+   "D": "Process Control"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0918",
+  "question": "What does an operating system do",
+  "options": {
+   "A": "An interface that regulates hardware and software programs",
+   "B": "A hardware device",
+   "C": "A program that operates the hardware devices",
+   "D": "A program that operates the software devices"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0921",
+  "question": "Which specific function enables the provision of a communication facility between client programs?",
+  "options": {
+   "A": "Monolithic kernel",
+   "B": "Microkernel",
+   "C": "Hybrid Kernels",
+   "D": "Nano Kernels"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0922",
+  "question": "What occurs within the context of the producer-consumer cooperation problem?",
+  "options": {
+   "A": "The producer and consumer operate autonomously without utilizing a buffer for their interaction.",
+   "B": "The consumer is responsible for adding data to the buffer, while the producer takes on the task of removing it.",
+   "C": "The producer is responsible for adding data to the buffer, while the consumer undertakes the task of removing it.",
+   "D": "The producer and consumer processes run concurrently, given a shared buffer."
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0923",
+  "question": "Semaphore functions as a __________ and aids in resolving the problem of __________.",
+  "options": {
+   "A": "integer variable, critical section",
+   "B": "atomic, critical section",
+   "C": "integer variable, memory error",
+   "D": "atomic, memory error"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0924",
+  "question": "Which of the following statements is TRUE when it comes to executing a process using the Shortest Job First (SJF) algorithm?",
+  "options": {
+   "A": "That has been waiting from long time for processor",
+   "B": "That needs least I/O resources",
+   "C": "That needs least processor",
+   "D": "That needs more I/O resources"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0925",
+  "question": "A process executes the code fork (); fork (); fork (); fork (); The total number of child processes created is",
+  "options": {
+   "A": "10",
+   "B": "9",
+   "C": "7",
+   "D": "8"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0926",
+  "question": "Which of the following are the states of process model? (i) Running (ii) Ready (iii) New (iv) Exit (v) Destroy",
+  "options": {
+   "A": "i, ii, iii and v only",
+   "B": "i, ii, iv and v only",
+   "C": "i, ii, iii, and iv only",
+   "D": "i, ii, iii, iv and v"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0927",
+  "question": "The term used to describe the duration it takes for the disk arm to reach the desired cylinder is known as the",
+  "options": {
+   "A": "positioning time",
+   "B": "random access time",
+   "C": "seek time",
+   "D": "rotational latency"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0928",
+  "question": "With deadlock detection, requested resources are granted to",
+  "options": {
+   "A": "resources",
+   "B": "processes",
+   "C": "programs",
+   "D": "users"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0929",
+  "question": "In FIFO page replacement algorithm, when a page must be replaced",
+  "options": {
+   "A": "oldest page is chosen",
+   "B": "newest page is chosen",
+   "C": "random page is chosen",
+   "D": "none of the mentioned"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0930",
+  "question": "Segment replacement algorithms are more complex than page replacement algorithms because",
+  "options": {
+   "A": "Segments are better than pages",
+   "B": "Pages are better than segments",
+   "C": "Segments have variable sizes",
+   "D": "Segments have fixed sizes"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N0931",
+  "question": "Consider the following page reference string. For LRU page replacement algorithm with 5 frames, the number of page faults is?",
+  "options": {
+   "A": "10",
+   "B": "14",
+   "C": "8",
+   "D": "11"
+  },
+  "garbled": false
+ },
+ {
+  "id": "N1025",
+  "question": "Anumber of independent programs can be processed concurrently by CPU, itiscalled - -",
+  "options": {
+   "A": "Multitasking .",
+   "B": "Multiprogramming",
+   "C": "Multi threading |",
+   "D": "None of these"
+  },
+  "garbled": false
+ }
+]

@@ -965,6 +965,25 @@ window.SYLLABUS = {
         }
       ]
     }
+    },
+    {
+      "id": "UDC",
+      "name": "UDC · Basic Computer Knowledge",
+      "marks": 35,
+      "questions": 35,
+      "marks_per_question": 1,
+      "source": "UDC 2024-2025 Combined Exam Papers",
+      "note": "35 computer fundamentals questions extracted from the dedicated Basic Computer Knowledge section of the 2024-2025 UDC (Upper Division Clerk) Combined examination papers. Topics: Hardware, Operating Systems, MS Office, Networking, Web/Internet, Security, Cloud & Mobile.",
+      "units": [
+        { "no": "1", "title": "Hardware", "marks": 3, "subtopics": ["CPU", "RAM", "SMPS", "ALU"] },
+        { "no": "2", "title": "Operating Systems", "marks": 3, "subtopics": ["OS Functions", "Multitasking"] },
+        { "no": "3", "title": "MS Office", "marks": 17, "subtopics": ["MS Word", "MS Excel", "PowerPoint"] },
+        { "no": "4", "title": "Networking", "marks": 2, "subtopics": ["Network Topology", "Ethernet Cables"] },
+        { "no": "5", "title": "Web & Internet", "marks": 7, "subtopics": ["HTTP Status Codes", "URLs", "HTTPS", "Web Browsers", "Email"] },
+        { "no": "6", "title": "Security & Citizenship", "marks": 3, "subtopics": ["Digital Signatures", "Wireless Security", "Digital Citizenship"] },
+        { "no": "7", "title": "Cloud & Mobile", "marks": 2, "subtopics": ["Cloud Computing", "APK Format"] }
+      ]
+    }
   ],
   "interview": {
     "marks": null,

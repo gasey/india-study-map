@@ -9,7 +9,19 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
-## 2026-09-01 (latest) — Dropped .NET Technologies and Java/J2EE from the legacy syllabus by request
+## 2026-09-01 — Added 35 UDC computer knowledge questions to System Manager
+
+**COMPLETED:** Integrated 35 Basic Computer Knowledge MCQ questions from the UDC (Upper Division Clerk) 2024-2025 Combined exam into the System Manager question bank as a new paper (`UDC`). Instead of maintaining a separate UDC exam module, consolidated them into System Manager which already covers computer fundamentals across multiple exams.
+
+Questions extracted from the dedicated Basic Computer Knowledge section (100 marks across 2024-2025 UDC Combined papers) and tagged with `srcKey: UDC2024_BASIC_IT`. Organized into 7 units: Hardware (3Q), Operating Systems (3Q), MS Office (17Q), Networking (2Q), Web & Internet (7Q), Security & Citizenship (3Q), Cloud & Mobile (2Q). All questions include derivation confidence ratings and full explanations.
+
+**Why:** User requested placing computer questions into System Manager rather than as a standalone tab. System Manager already serves as the hub for government computer/IT fundamentals prep across roles (Computer Operator, now UDC), so consolidating here avoids fragmentation.
+
+**Still open:** Browser cache may not immediately reflect the new UDC paper in System Manager's Practice/Study tabs until the dev server restarts or cache clears. The data files are updated correctly; verification would show the paper count rising from 1461 to 1496 questions once fresh.
+
+---
+
+## 2026-09-01 (previous) — Dropped .NET Technologies and Java/J2EE from the legacy syllabus by request
 
 **COMPLETED:** Removed the ".NET Technologies" (unit 3) and "Java / J2EE" (unit 4) units from `TECH1_LEGACY` at the user's explicit request. Removed 87 questions (57 .NET + 30 Java, spanning the November 2024 sitting, the earlier sitting, and the authored set) and 31 concepts (22 .NET + 9 Java) tied to those units. Left the official syllabus's original unit numbering intact (units 1, 2, 5, 6 remain 1, 2, 5, 6, with a gap where 3–4 used to be) rather than renumbering, since those numbers reflect the actual Informatics Officer syllabus document, not an arbitrary internal scheme. Updated the paper's `marks` field from 200 to 140 to match the four remaining units' weights (40+40+30+30).
 

@@ -8,8 +8,8 @@ WHY. Before this, all 139 General Studies questions in the bank were AUTHORED
 ("Authored practice question") - not one came from a real MPSC paper. Authored
 questions can cover a syllabus leaf, but they cannot teach how the Commission
 actually asks: what it considers fair game, how it words options, how much of the
-paper is Mizoram-specific. These papers supply that, and both sittings imported
-here have a published official answer key, so every answer is authoritative
+paper is Mizoram-specific. These papers supply that, and every sitting imported
+here has a published official answer key, so every answer is authoritative
 rather than agent-derived.
 
 STATIC ONLY, BY REQUEST. A General Studies paper is roughly a fifth
@@ -85,7 +85,46 @@ SITTINGS = [
                  "rendered page by eye, while the answer key has a real text layer and was "
                  "parsed"),
     },
+    {
+        "name": "MES2024_GS",
+        "source": "gs-mes2024-source.json",
+        "tags": "gs-mes2024-tags.json",
+        "sitting": "Jr. Grade of MES (Combined) under Various Deptt., July 2024 · General Studies",
+        "id_prefix": "MES2024_GS_",
+        "prov": ("Jr. Grade of MES (Combined) under Various Department, 3-5 July 2024, "
+                 "General Studies, Q{no}; answer from MPSC's official Final Answer Key dated "
+                 "12 September 2024 under No. MES/A/2023-MPSC(CON), which is identical to the "
+                 "10 July 2024 provisional key on all 100 answers. BOTH key PDFs are scans, so "
+                 "the answers themselves came off the page rather than out of a text layer: "
+                 "three independent eye reads of the key table all agree 100/100, and a "
+                 "geometry-based per-cell OCR was used to cross-check them. The question paper "
+                 "is a scan too, and its transcription was verified page by page against the "
+                 "rendered image"),
+    },
 ]
+
+# Explanations that argue with their own answer key. July-2024 was staged with Q94
+# explained as "CONTESTED - the key looks wrong. It says the President..." when the key
+# in fact said "Chief Justice of High Court" - the tagger had misread the key letter, so
+# the card would have told the user to distrust a CORRECT answer and to believe MPSC had
+# keyed the President. That is a wrong-answer-teaching bug, not a cosmetic one, and
+# nothing else in the pipeline looks at whether an explanation agrees with its key.
+#
+# NOT a hard failure: a genuinely wrong or loose official key does happen (PE2023 Q49's
+# "largest tributary of the Indus", PHE2024 Q15's broken analogy) and must stay sayable.
+# These print loudly instead, the same way dropped questions do, and the operator's job
+# is to re-read the key letter on the source page before believing the explanation.
+#
+# A bag-of-words check for "does the explanation describe the keyed option" was tried
+# here and removed: it fired on 7 questions across the three earlier sittings and every
+# one was a false positive, because good explanations legitimately paraphrase the option
+# instead of quoting it ("Mass is the amount of matter" for "its mass will remain the
+# same") and legitimately open by naming the distractors to contrast them - which is
+# near-universal on NOT/EXCEPT stems. A warning that cries wolf seven times gets ignored,
+# which would defeat the point. The dispute-language check below is precise: it catches
+# the Q94 shape and flags only the two genuinely contested items.
+DISPUTE_RE = re.compile(r"contested|key (?:looks|is|seems) wrong|do not learn|"
+                        r"wrong in the key|key is in error", re.I)
 
 
 def load_js(path, name):
@@ -198,6 +237,18 @@ def main():
         print(f"  {len(kept)} kept, {len(dropped)} dropped as time-bound or off-syllabus")
         for t in dropped:
             print(f"      Q{t['no']:>3} — {t['reason']}")
+
+        # --- advisory checks on the explanations ---------------------------
+        disputed = [t for t in kept if DISPUTE_RE.search(t["exp"])]
+        if disputed:
+            print(f"  !! {len(disputed)} explanation(s) dispute the official key — re-read the "
+                  f"key letter on the source page before believing the explanation:")
+            for t in disputed:
+                n = t["no"]
+                keyed = key.get(n)
+                shown = paper[n]["opts"].get(keyed, "?") if n in paper else "?"
+                print(f"      Q{n:>3} keyed {keyed} = {shown[:44]!r}")
+                print(f"           {t['exp'][:110]}...")
 
     print(f"\n{added} question(s) added, {changed} updated")
     if args.write:

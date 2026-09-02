@@ -44,7 +44,8 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
 SYLLABUS = ROOT / "public" / "mpsc-system-analyst" / "data" / "syllabus.js"
 STAGED = HERE / "staged"
-TAGS = ["gs-mes2025-tags.json", "gs-pe2023-tags.json", "gs-phe2024-tags.json"]
+TAGS = ["gs-mes2025-tags.json", "gs-pe2023-tags.json", "gs-phe2024-tags.json",
+        "gs-mes2024-tags.json"]
 
 # The weights as first derived, before any paper existed to check them against.
 # The blend is taken against THESE, not against whatever is currently in the

@@ -9,6 +9,184 @@ Each entry: **what shipped**, **why**, **what's still open**.
 
 ---
 
+## 2026-09-06 (later) — July-2024 General Studies lands, 86 questions behind a thrice-read key; and three of its provenance notes turned out to describe a different paper
+
+**What shipped.** The fourth and last General Studies sitting, closing the item
+the previous two entries left open. 86 of its 100 questions are in the bank with
+`conf: 'official'`; the bank goes 1678 → 1764.
+
+The staged files were left ready by the previous session, so this was meant to be
+a wiring job. It was not, and the reason is worth recording.
+
+**1. Three metadata fields in `gs-mes2024-source.json` were inherited by
+copy-paste from `gs-phe2024-source.json` — a different sitting.** The file's
+`_sitting` read "AE/SDO under Public Health Engineering Department, January
+2024". The paper's own cover page reads "JUNIOR GRADE OF MIZORAM ENGINEERING
+SERVICE (COMBINED) UNDER VARIOUS DEPARTMENT ... JULY-2024", and both key
+notifications say "held during 3rd - 5th July, 2024".
+
+The first thing to establish was whether the copy-paste went deeper than the
+prose — whether the January paper's *content* had been staged twice under a new
+name. It had not: 0 of 100 stems match the January paper and the two answer keys
+agree on only 30 of 100, about what chance gives. All three sha256 prefixes in
+the file were re-checked against the PDFs in `mpsc-question-bank` and all three
+match. So the content is genuinely this paper and the damage was confined to the
+descriptions — but that is only knowable by checking, which is the point.
+
+The other two inherited fields:
+
+- `_filename_typo` carried January's "filed as 'General Stadies'" note. False
+  here: this paper is filed correctly and a subject-word search does find it.
+- `_paper_extraction` was **verbatim identical** to January's, including the
+  claim that the extraction's most important fix was Q17, "If 7³=343, then
+  ∛343". This paper's Q17 is "India signs agreement for Lithium exploration and
+  Mining project with". It also asserted the transcription carried "none still
+  carrying OCR litter", which was untrue — see below.
+
+All three now say what is true of this document, and each keeps a short note of
+what it used to claim. A provenance note describing verification that was never
+performed on *this* file is worse than no note at all, because it stops the next
+reader from checking. That is the generalisable lesson: **staging a new file by
+copying the previous one carries its assertions along with its shape.**
+
+**2. The key is settled — verified a third time, independently.** Both key PDFs
+are pure scans, so the answers themselves had to come off the page rather than
+out of a text layer; that is the worst case and deserved a fresh read rather than
+trust. The final key page was re-rendered and read by eye, all 100 entries,
+without consulting the letters already in the file: **100/100 agreement.** The
+provisional page was re-read too and also agrees 100/100, confirming the earlier
+claim that the final key revised nothing. So the key now rests on two documents,
+three independent eye reads, and a geometry-based per-cell OCR.
+
+**3. Four transcription defects, one of which mattered.** All 8 pages were
+re-read against the staged JSON, question by question and option by option:
+
+- **Q76 option D read "Acchild below the age of 16 years"** — surviving OCR
+  litter, exactly what `_paper_extraction` claimed had been eliminated. Q76 is
+  dropped as off-syllabus so it would not have reached a card, but the file is
+  the record of the paper and drops are one field edit from coming back.
+- **Q48's stem had lost its ordinal suffix**: "The 128 Constitution Amendment
+  Bill, 2023" where the page prints 128<sup>th</sup>. Inconsistent besides —
+  Q13, Q55, Q79, Q80, Q81 and Q86 all preserve theirs.
+- Q43 D and Q53 B had lost the spacing in "C V Raman" and "M K Gandhi".
+
+Everything else is faithful, including the paper's own misspellings, which are
+preserved on purpose: "Inter cast", "Environmnent", "Bangaluru", "What acids is
+secreted", "Tocopherpol", "Righ of Children", "offcences", "Disabilites",
+"5 milimeters", and the doubled "??" on Q45.
+
+The two option-letter misprints the tags file flagged are real — the page prints
+Q81 as (a)(b)(c)**(c)** and Q90 as (a)(b)**(b)**(d). The parser assigns the four
+bracketed markers positionally, so both land correctly and both keys point at the
+right text. Verified against the scan rather than taken on trust.
+
+**4. The one that would have taught something false: Q94.** The staged
+explanation read:
+
+> "CONTESTED — the key looks wrong. It says the President, but Article 159
+> requires ... the Chief Justice of the High Court ... do not learn this one."
+
+**The key does not say the President.** It says (D) "Chief Justice of High
+Court" — precisely what Article 159 requires. Whoever tagged it misread the key
+letter as B. Had this shipped, the card would have told the user to distrust a
+correct answer *and* to believe MPSC had keyed the President: a wrong-answer
+bug wearing the clothes of a careful caveat. The explanation now just states
+Article 159 plainly, and `_key_quality`, which repeated the same false claim as
+"ONE genuine error", is corrected with the story kept.
+
+This is the failure mode the bank is most exposed to, because a confident
+correction reads as diligence, and nothing else in the pipeline looks at whether
+an explanation agrees with its own key. So the importer now prints, on every run
+the way dropped questions do, **any explanation that disputes the official key**
+(`contested | key looks wrong | do not learn | ...`) — with the keyed option's
+text on the line above it. That juxtaposition is what makes the Q94 shape
+obvious at a glance: the explanation says "the key says the President" directly
+beneath `Q94 keyed D = 'Chief Justice of High Court'`.
+
+It is not a hard failure, because a genuinely wrong or loose official key does
+happen and must stay sayable. Run against the three earlier sittings it flags
+exactly two, both real and both already honestly caveated on their cards:
+PE2023 Q49 (the Indus's "largest" tributary — Chenab by discharge, Sutlej by
+length and basin) and PHE2024 Q15 (an analogy whose keyed answer answers the
+wrong half). Both were re-checked here and neither is a Q94-style misread.
+
+**A second check was written and then deleted, which is worth recording so it
+does not get rebuilt.** It compared the opening of each explanation against the
+option texts and flagged any where a non-keyed option matched better. It fired on
+7 questions across the three earlier sittings and **every one was a false
+positive**, for two reasons that are not going away: good explanations paraphrase
+the option rather than quoting it ("Mass is the amount of matter and does not
+change with location" for "its mass will remain the same but weight will be
+different"), and they legitimately open by naming the distractors in order to
+contrast them — which is near-universal on NOT/EXCEPT stems. A bag-of-words test
+cannot separate that from a real mismatch, and a warning that cries wolf seven
+times trains you to skip warnings, which would cost more than it caught.
+
+**5. GS unit weights re-derived from 396 questions.** `rebalance_gs_units.py`
+says in its own docstring "RE-RUN THIS when a fourth sitting is tagged", and its
+`TAGS` list was hardcoded to three. Added the fourth; six units moved:
+
+| unit | was | now |
+|---|---|---|
+| 9 Current Affairs | 13 | **15** |
+| 1 Polity | 12 | **13** |
+| 4 History | 6 | **7** |
+| 6 General Science | 17 | **16** |
+| 10 Reasoning & Aptitude | 9 | **7** |
+| 11 Communication & Management | 4 | **3** |
+
+Still idempotent (a second run reports 0 changes) because the blend is taken
+against the *original* weights, not the current file. **One caveat worth keeping
+in view:** reasoning is wildly uneven across the four sittings — 28 questions in
+January-2024, 6 in July-2023, 3 in October-2025 and **0** in July-2024 — so its
+9 → 7 move rests largely on this paper asking none at all. The 50/50 blend
+against the original estimate of 6 is what keeps that from becoming a 0. Current
+Affairs moving up is the honest signal: this is by far the most
+current-affairs-heavy of the four (35 of its 100 questions), which is also why
+its drop count is the second-highest at 14.
+
+**6. Deleted `gs-mes2024-source.PARTIAL.json`.** It was the tracked handoff file
+from the previous session, holding the verified key and no questions. Now fully
+superseded: its key is byte-identical to the finished file's, and its
+`_what_is_left_to_do` is done. Its one durable fact — the A24/B26/C26/D24 letter
+distribution, a weak but real signal that no key column was misaligned — is
+carried forward into the finished file rather than lost.
+
+**Why.** The four GS sittings are the only questions in the bank that show how
+the Commission actually asks General Studies rather than how a model imagines it,
+and this was the last one outstanding. The verification mattered more than the
+wiring: of the six things fixed here, one (Q94) would have actively taught a
+falsehood, one (Q76) was live OCR damage, and three were provenance notes
+asserting checks that had never been run on this document. None would have been
+caught by typecheck, by the importer's existing validators, or by the file
+looking well-formed — only by opening the source PDFs.
+
+**What's still open.**
+
+- **A fourth syllabus gap, and it is now a decision rather than a discovery.**
+  This paper's four off-syllabus drops are all **social and criminal
+  legislation**: the RPwD Act's count of disabilities (Q75), the Juvenile Justice
+  Act's definition of a juvenile (Q76), the imprisonment threshold for a heinous
+  offence (Q78), and the fact that the Bharatiya Nyaya Sanhita replaced the IPC
+  of 1860 (Q79). None fits any leaf of units 1–11. That last fact in particular
+  is durable and important. This is the third distinct gap the derived unit list
+  has shown, after the communication/management block (which became unit 11) and
+  the number-system/mensuration gap (which became two unit-10 leaves). A "Laws
+  and social legislation" unit, or a set of leaves under unit 1, is the obvious
+  fix — but it is a scope decision for the user, not something to slip into an
+  import, so the four are dropped with reasons on record and one field edit from
+  returning.
+- Q54 and Q93 are keyed defensibly but loosely and say so on their cards
+  (Q54's sentiment is more often attributed to Dadabhai Naoroji; Q93's
+  demand-to-grant wording elides the Appropriation Act).
+- The eight keyless 2014–2022 engineering GS papers (~800 questions, derived
+  answers only) remain unimported. **Explicitly out of scope by the user's
+  instruction** — not an oversight.
+- The 232 `gs1_history` questions in the *other* bank still lack finer sub-topic
+  tagging, unchanged from before.
+
+---
+
 ## 2026-09-06 — GS unit weights re-derived from 296 real questions, and Practice finally lets you filter by sub-topic
 
 **What shipped.** Two things the last three entries kept deferring.

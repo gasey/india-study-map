@@ -1,0 +1,710 @@
+{
+ "_what": "Per-question decisions for the July-2024 MES (Combined) General Studies import: keep-or-drop, GS syllabus unit and leaf sub-topic, and a one-line explanation of the keyed answer.",
+ "_split_policy": "Static GK only, the same rule as the other three sittings. Every drop keeps its reason here and the importer prints them all on every run, so pulling one back is a one-field edit - as July-2023 Q82 proved when unit 10 gained the leaf it needed.",
+ "_drops": "14 of 100: ten time-bound (Q3, Q5, Q6, Q12, Q15, Q24, Q26, Q30, Q45, Q46 - two office holders, four annual awards or mascots, a named-date unveiling, a one-Games forecast and a growth-rate projection) and four off-syllabus (Q75, Q76, Q78, Q79).",
+ "_a_third_syllabus_gap_worth_a_decision": "The four off-syllabus drops are all SOCIAL AND CRIMINAL LEGISLATION: the RPwD Act's count of disabilities, the Juvenile Justice Act's definition of a juvenile, the imprisonment threshold for a heinous offence, and the fact that the Bharatiya Nyaya Sanhita replaced the IPC of 1860. None fits a leaf of units 1-11. Note what this is: the THIRD distinct gap the derived unit list has shown, after the communication/management block (which became unit 11) and the number-system/mensuration gap (which became two unit-10 leaves). The Q79 fact in particular is durable and important. A 'Laws and social legislation' unit or a set of leaves under unit 1 is the obvious fix, but that is a scope decision for the user rather than something to slip into an import - so these four are dropped with their reasons on record and are one field edit from coming back. Q72 and Q77 are KEPT because education law has a home: both are Article 21A, a fundamental right.",
+ "_key_quality": "The key was settled before the questions were transcribed - two documents (provisional 10 July and final 12 September 2024), two independent by-eye reads agreeing 100/100, a geometry-based machine read, and zoom on every conflict. A third independent eye read on 2026-09-02, after the questions were transcribed, again agreed 100/100, as did a re-read of the provisional page. Checked against the questions, the key is right everywhere - NO genuine errors. Q54 and Q93 are keyed defensibly but loosely and say so on the card.\n\nCORRECTION 2026-09-02: this field previously claimed 'ONE genuine error: Q94 keys the President as administering the Governor's oath, where Article 159 plainly requires the Chief Justice of the High Court', and Q94's explanation was written as 'CONTESTED - the key looks wrong... do not learn this one'. Both were mistaken about what the key says. Q94's official answer is (D) 'Chief Justice of High Court' - which is exactly what Article 159 requires - not (B) 'President'. Whoever tagged it read the key letter as B. The card would have told the user to distrust a correct answer and to believe MPSC had keyed the President, so this was a wrong-answer-teaching bug rather than a cosmetic one. The explanation now just states Article 159 plainly. Worth generalising: an exp that disputes its own key is a signal to re-read the key letter FIRST, before believing the exp. The importer now prints every such exp on each run with the keyed option's text beside it, which is what would have made this obvious immediately.",
+ "_source_misprints": "The paper misprints its own option letters twice - Q81 as (a)(b)(c)(c) and Q90 as (a)(b)(b)(d). The parser assigns the four bracketed markers POSITIONALLY, so both land correctly and both keys point at the right text; recorded on those two cards rather than silently corrected. Source typos are also preserved verbatim: Q11 'Environmnent', Q71 'Tocopherpol', Q72 'Righ', Q75 'Disabilites', Q78 'offcences'.",
+ "tags": [
+  {
+   "no": 1,
+   "keep": true,
+   "unit": "1",
+   "sub": "Judiciary: Supreme Court, High Courts, judicial review",
+   "exp": "Same-sex. In Supriyo v. Union of India (October 2023) the Supreme Court declined to read marriage equality into existing law, holding it a matter for Parliament. A delivered judgment is a settled fact."
+  },
+  {
+   "no": 2,
+   "keep": true,
+   "unit": "9",
+   "sub": "Government schemes and flagship programmes",
+   "exp": "The Ministry of Social Justice and Empowerment. SHRESHTA places bright SC students from poor households in top private residential schools. Which ministry owns a scheme is fixed by its design."
+  },
+  {
+   "no": 3,
+   "keep": false,
+   "reason": "A named-date unveiling, and a 'world's first' claim besides - exactly the class of news item that is superseded. Same reason as the Oct-2025 world-first radar drop.",
+   "unit": "9",
+   "sub": "Science and technology in the news"
+  },
+  {
+   "no": 4,
+   "keep": true,
+   "unit": "3",
+   "sub": "Map and location-based questions",
+   "exp": "Chris Brown, who reached Point Nemo - the oceanic pole of inaccessibility in the South Pacific, the point furthest from any land - in 2024. Hrvoje Lukatela is the geometer who CALCULATED its position, which is the trap."
+  },
+  {
+   "no": 5,
+   "keep": false,
+   "reason": "An annual award. The best-actor recipient changes every year, so the answer decays while the question stays put.",
+   "unit": "9",
+   "sub": "Awards and honours"
+  },
+  {
+   "no": 6,
+   "keep": false,
+   "reason": "An annual mathematics prize; the 2023 laureate is superseded by every later one.",
+   "unit": "9",
+   "sub": "Awards and honours"
+  },
+  {
+   "no": 7,
+   "keep": true,
+   "unit": "6",
+   "sub": "Chemistry: acids, bases, salts, metals and non-metals, common compounds",
+   "exp": "Sodium azide, which decomposes on impact to release nitrogen gas and inflate the bag in about 30 milliseconds. The speed is the whole point - no slower reaction would work."
+  },
+  {
+   "no": 8,
+   "keep": true,
+   "unit": "6",
+   "sub": "Biology: cell, tissues, human body systems",
+   "exp": "Red blood cells. Mature mammalian RBCs eject the nucleus to carry more haemoglobin, which is also why they cannot divide or repair and last only about 120 days."
+  },
+  {
+   "no": 9,
+   "keep": true,
+   "unit": "6",
+   "sub": "Biology: cell, tissues, human body systems",
+   "exp": "Lysozyme, which breaks down bacterial cell walls and so gives saliva and tears a first line of defence. Ribozymes are catalytic RNA and lipase digests fat - neither is antibacterial."
+  },
+  {
+   "no": 10,
+   "keep": true,
+   "unit": "8",
+   "sub": "Forest conservation and protected areas",
+   "exp": "The Nilgiri Biosphere Reserve, India's first, spanning Tamil Nadu, Kerala and Karnataka."
+  },
+  {
+   "no": 11,
+   "keep": true,
+   "unit": "8",
+   "sub": "Ecosystems, food chains and biodiversity",
+   "exp": "The IUCN, which maintains the Red List of Threatened Species. WWF and UNEP work on conservation but publish no such list, which is the distinction being tested."
+  },
+  {
+   "no": 12,
+   "keep": false,
+   "reason": "One year's event mascot. Superseded by the next edition.",
+   "unit": "9",
+   "sub": "Sports"
+  },
+  {
+   "no": 13,
+   "keep": true,
+   "unit": "9",
+   "sub": "International relations and summits",
+   "exp": "Perth, Australia, which hosted the 7th Indian Ocean Conference in February 2024. Where a numbered edition met never changes afterwards."
+  },
+  {
+   "no": 14,
+   "keep": true,
+   "unit": "9",
+   "sub": "National current affairs of the preceding 12-18 months",
+   "exp": "Jammu and Kashmir. Operation Sarvashakti was launched in early 2024 against militants on both sides of the Pir Panjal range. A completed operation, not a forecast."
+  },
+  {
+   "no": 15,
+   "keep": false,
+   "reason": "An annual cleanliness ranking. Indore and Surat shared 2023, but the award is re-conferred every year.",
+   "unit": "9",
+   "sub": "Awards and honours"
+  },
+  {
+   "no": 16,
+   "keep": true,
+   "unit": "7",
+   "sub": "Cyber security and cyber crime awareness",
+   "exp": "SAMBHAV - Secure Army Mobile Bharat Version, an end-to-end encrypted handset ecosystem for Army communications. A codename is fixed."
+  },
+  {
+   "no": 17,
+   "keep": true,
+   "unit": "9",
+   "sub": "International relations and summits",
+   "exp": "Argentina, where India's KABIL signed a 2024 agreement for lithium brine exploration in Catamarca - India's first such overseas lithium deal."
+  },
+  {
+   "no": 18,
+   "keep": true,
+   "unit": "2",
+   "sub": "Poverty and unemployment",
+   "exp": "Years of schooling. India's National MPI uses twelve indicators across health, education and standard of living; literacy rate, life expectancy and per capita income are all NOT among them, which is what makes the distractors plausible."
+  },
+  {
+   "no": 19,
+   "keep": true,
+   "unit": "6",
+   "sub": "Chemistry: acids, bases, salts, metals and non-metals, common compounds",
+   "exp": "Lead and tin. The low melting point of the Pb-Sn eutectic is what lets solder join components without damaging them."
+  },
+  {
+   "no": 20,
+   "keep": true,
+   "unit": "6",
+   "sub": "Chemistry: acids, bases, salts, metals and non-metals, common compounds",
+   "exp": "Methanoic acid - formic acid. Nettle hairs inject it, which is why the sting is treated with a mild base."
+  },
+  {
+   "no": 21,
+   "keep": true,
+   "unit": "9",
+   "sub": "Sports",
+   "exp": "The Durand Cup, first played in 1888 at Simla - Asia's oldest football tournament and the third oldest in the world."
+  },
+  {
+   "no": 22,
+   "keep": true,
+   "unit": "9",
+   "sub": "Sports",
+   "exp": "Karnam Malleswari, bronze in weightlifting at Sydney 2000 - the first Indian woman to win any Olympic medal. P.T. Usha famously missed bronze by 1/100th of a second in 1984, which is the trap."
+  },
+  {
+   "no": 23,
+   "keep": true,
+   "unit": "7",
+   "sub": "Emerging technologies: AI, IoT, cloud, blockchain, 5G",
+   "exp": "Iris, introduced at a Thiruvananthapuram school in 2024 and billed as India's first AI humanoid teacher. Sophia is the unrelated Hanson Robotics humanoid, which is the decoy."
+  },
+  {
+   "no": 24,
+   "keep": false,
+   "reason": "Office holder. Klaus Schwab held the post when the paper was set but has since stepped back from it, so an official-key badge would assert a falsehood.",
+   "unit": "9",
+   "sub": "Persons in news, appointments"
+  },
+  {
+   "no": 25,
+   "keep": true,
+   "unit": "9",
+   "sub": "Important days and themes",
+   "exp": "22 March, observed since 1993. A fixed calendar date - the '2024' in the stem does not move it."
+  },
+  {
+   "no": 26,
+   "keep": false,
+   "reason": "'Will be... upcoming' - a forecast about one Games. Both dated and superseded.",
+   "unit": "9",
+   "sub": "Sports"
+  },
+  {
+   "no": 27,
+   "keep": true,
+   "unit": "9",
+   "sub": "Government schemes and flagship programmes",
+   "exp": "To prevent distress sale by farmers. e-Kisan Upaj Nidhi lets farmers store produce in registered warehouses without collateral and borrow against it, so they need not sell immediately at a low price."
+  },
+  {
+   "no": 28,
+   "keep": true,
+   "unit": "9",
+   "sub": "Government schemes and flagship programmes",
+   "exp": "Promotion of safe and mechanised cleaning of sewers and septic tanks by trained, certified workers. NAMASTE aims at eliminating hazardous manual entry - note it is urban sanitation labour, not urban infrastructure generally."
+  },
+  {
+   "no": 29,
+   "keep": true,
+   "unit": "4",
+   "sub": "Socio-religious reform movements",
+   "exp": "E.V. Ramaswamy Naicker - Periyar - who founded the Self-Respect Movement in Tamil Nadu in 1925 against caste and priestly domination."
+  },
+  {
+   "no": 30,
+   "keep": false,
+   "reason": "An annual mathematics prize. The 2023 laureate is superseded by every later one.",
+   "unit": "9",
+   "sub": "Awards and honours"
+  },
+  {
+   "no": 31,
+   "keep": true,
+   "unit": "9",
+   "sub": "Persons in news, appointments",
+   "exp": "The State Bank of India, which she chaired from 2013 to 2017 - the first woman to do so. A 'first' is settled once it happens, whoever holds the post now."
+  },
+  {
+   "no": 32,
+   "keep": true,
+   "unit": "6",
+   "sub": "Biology: nutrition, diseases, immunity, vaccines",
+   "exp": "Endemic - constantly present at a predictable baseline in an area. An epidemic is a sharp rise above that baseline, and a pandemic an epidemic across continents."
+  },
+  {
+   "no": 33,
+   "keep": true,
+   "unit": "3",
+   "sub": "Physical geography of India: relief, drainage, climate",
+   "exp": "Gujarat, at roughly 1,600 km - the longest coastline of any Indian state, thanks to the Kathiawar peninsula and the Gulfs of Kutch and Khambhat."
+  },
+  {
+   "no": 34,
+   "keep": true,
+   "unit": "3",
+   "sub": "Map and location-based questions",
+   "exp": "Tamil Nadu, at the tip of the Cauvery delta on the Bay of Bengal - a Ramsar wetland and wildlife sanctuary known for flamingos."
+  },
+  {
+   "no": 35,
+   "keep": true,
+   "unit": "2",
+   "sub": "Inflation: types, measurement, WPI and CPI",
+   "exp": "Deflation - a fall in the general price level. Note the distinctions: disinflation is slowing inflation, devaluation is a fall in the currency's external value, and recession is falling output."
+  },
+  {
+   "no": 36,
+   "keep": true,
+   "unit": "3",
+   "sub": "Geography of Mizoram: location, relief, rivers, climate, districts",
+   "exp": "Sedimentation. Mizoram's steep, deforested slopes and heavy monsoon shed large sediment loads that fill reservoirs and cut their live storage and turbine life. Deforestation is the underlying cause but sedimentation is the direct threat the question asks for."
+  },
+  {
+   "no": 37,
+   "keep": true,
+   "unit": "7",
+   "sub": "Emerging technologies: AI, IoT, cloud, blockchain, 5G",
+   "exp": "Chat Generative Pre-Trained Transformer. All three words matter: it is generative, it is PRE-trained, and it is a transformer - each distractor swaps exactly one."
+  },
+  {
+   "no": 38,
+   "keep": true,
+   "unit": "3",
+   "sub": "Geography of Mizoram: location, relief, rivers, climate, districts",
+   "exp": "Palak Dil, in Siaha district - Mizoram's largest natural lake. Tam Dil is the better-known tourist lake and Rih Dil, though associated with Mizo folklore, lies across the border in Myanmar."
+  },
+  {
+   "no": 39,
+   "keep": true,
+   "unit": "5",
+   "sub": "Christian missionaries, literacy and social change",
+   "exp": "2001. Mizoram University was established by an Act of Parliament in 2000 and came into being on 2 July 2001, as a central university at Aizawl."
+  },
+  {
+   "no": 40,
+   "keep": true,
+   "unit": "3",
+   "sub": "Mineral and energy resources",
+   "exp": "Tehri Dam on the Bhagirathi in Uttarakhand, about 260 m high - India's tallest. Sardar Sarovar is larger in volume and Hirakud far longer, so 'highest' is doing precise work here."
+  },
+  {
+   "no": 41,
+   "keep": true,
+   "unit": "4",
+   "sub": "Gandhian movements: Non-cooperation, Civil Disobedience, Quit India",
+   "exp": "Mahatma Gandhi."
+  },
+  {
+   "no": 42,
+   "keep": true,
+   "unit": "9",
+   "sub": "Awards and honours",
+   "exp": "Ravi Shankar, who won in 1968 for West Meets East with Yehudi Menuhin - the first Indian Grammy winner."
+  },
+  {
+   "no": 43,
+   "keep": true,
+   "unit": "9",
+   "sub": "Awards and honours",
+   "exp": "C.V. Raman, awarded the 1930 Nobel Prize in Physics for the Raman effect - the first Indian, and still the only one, to win it for work done in India. Chandrasekhar won in 1983 but as a US citizen."
+  },
+  {
+   "no": 44,
+   "keep": true,
+   "unit": "3",
+   "sub": "Population distribution and urbanisation",
+   "exp": "Tokyo, whose greater metropolitan area is the world's most populous at around 37 million. Delhi is second on the UN's urban-agglomeration measure."
+  },
+  {
+   "no": 45,
+   "keep": false,
+   "reason": "Office holder, and the stem says 'current'. Ministerial portfolios change, so the answer decays while the question stays put.",
+   "unit": "9",
+   "sub": "Persons in news, appointments"
+  },
+  {
+   "no": 46,
+   "keep": false,
+   "reason": "A forecast for one year, and revised repeatedly even within that year.",
+   "unit": "9",
+   "sub": "Economy and budget in the news"
+  },
+  {
+   "no": 47,
+   "keep": true,
+   "unit": "9",
+   "sub": "International relations and summits",
+   "exp": "Myanmar. Operation Karuna delivered Indian relief after Cyclone Mocha struck in May 2023 - a completed humanitarian operation."
+  },
+  {
+   "no": 48,
+   "keep": true,
+   "unit": "1",
+   "sub": "Constitutional amendments",
+   "exp": "Reserving one-third of Lok Sabha and State Assembly seats for women. Introduced as the 128th Amendment Bill and enacted as the 106th Amendment - the Nari Shakti Vandan Adhiniyam, 2023."
+  },
+  {
+   "no": 49,
+   "keep": true,
+   "unit": "9",
+   "sub": "International relations and summits",
+   "exp": "China. SAARC's eight members are India, Pakistan, Bangladesh, Nepal, Bhutan, Sri Lanka, the Maldives and Afghanistan; China is only an observer."
+  },
+  {
+   "no": 50,
+   "keep": true,
+   "unit": "9",
+   "sub": "Government schemes and flagship programmes",
+   "exp": "100%. NESIDS is fully centrally funded, which is its defining feature - it exists precisely so North Eastern states need not find a matching share."
+  },
+  {
+   "no": 51,
+   "keep": true,
+   "unit": "9",
+   "sub": "Books, authors and reports",
+   "exp": "Bankim Chandra Chatterjee, who wrote Vande Mataram in 1875 and later placed it in his novel Anandamath. Tagore wrote Jana Gana Mana, the national anthem - the pairing being tested."
+  },
+  {
+   "no": 52,
+   "keep": true,
+   "unit": "4",
+   "sub": "Socio-religious reform movements",
+   "exp": "Raja Ram Mohan Roy, founder of the Brahmo Sabha, campaigner against sati and for women's education, and conventionally called the father of the Indian Renaissance or of modern India."
+  },
+  {
+   "no": 53,
+   "keep": true,
+   "unit": "9",
+   "sub": "Books, authors and reports",
+   "exp": "M.K. Gandhi. The Story of My Experiments with Truth was written in Gujarati in the 1920s and covers his life to 1921."
+  },
+  {
+   "no": 54,
+   "keep": true,
+   "unit": "4",
+   "sub": "Socio-religious reform movements",
+   "exp": "MPSC keys Swami Dayananda, founder of the Arya Samaj and an early advocate of swarajya - 'India for Indians'. Worth knowing the sentiment is more often quoted from Dadabhai Naoroji, but he is not among the options."
+  },
+  {
+   "no": 55,
+   "keep": true,
+   "unit": "1",
+   "sub": "Constitutional amendments",
+   "exp": "The 42nd Amendment of 1976, which inserted 'socialist', 'secular' and 'integrity' into the Preamble. The 44th (1978) reversed much of the rest of the 42nd, which is why it is the tempting wrong answer."
+  },
+  {
+   "no": 56,
+   "keep": true,
+   "unit": "1",
+   "sub": "Union Executive: President, Vice-President, PM, Council of Ministers",
+   "exp": "25 years. The Constitution sets no age for the Prime Minister directly; the PM must be a member of Parliament, and the Lok Sabha minimum is 25. For a Rajya Sabha route it would be 30."
+  },
+  {
+   "no": 57,
+   "keep": true,
+   "unit": "1",
+   "sub": "Parliament: Lok Sabha, Rajya Sabha, legislative procedure",
+   "exp": "Prorogation, which ends a session. Adjournment only suspends a sitting, adjournment sine die ends a sitting without a set date, and dissolution ends the life of the House itself."
+  },
+  {
+   "no": 58,
+   "keep": true,
+   "unit": "1",
+   "sub": "Sixth Schedule and Autonomous District Councils",
+   "exp": "The Sixth Schedule, which provides Autonomous District Councils for tribal areas in Assam, Meghalaya, Tripura and Mizoram - Mizoram's being Chakma, Lai and Mara."
+  },
+  {
+   "no": 59,
+   "keep": true,
+   "unit": "3",
+   "sub": "Map and location-based questions",
+   "exp": "Majuli, in the Brahmaputra - the world's largest river island and India's first island district, notified in 2016."
+  },
+  {
+   "no": 60,
+   "keep": true,
+   "unit": "3",
+   "sub": "Physical geography of India: relief, drainage, climate",
+   "exp": "The Hugli. The Damodar, once called Bengal's 'river of sorrow' for its floods, joins the Hugli distributary of the Ganga below Kolkata."
+  },
+  {
+   "no": 61,
+   "keep": true,
+   "unit": "3",
+   "sub": "Agriculture and cropping patterns",
+   "exp": "Narendra Modi, who called for a 'protein revolution' to follow the Green and White Revolutions by raising pulse and animal-protein output."
+  },
+  {
+   "no": 62,
+   "keep": true,
+   "unit": "9",
+   "sub": "Sports",
+   "exp": "Badminton - the Thomas Cup is the men's world team championship. The women's equivalent is the Uber Cup."
+  },
+  {
+   "no": 63,
+   "keep": true,
+   "unit": "9",
+   "sub": "Sports",
+   "exp": "Mike Tyson, nicknamed Kid Dynamite early in his career, and the youngest heavyweight champion at 20."
+  },
+  {
+   "no": 64,
+   "keep": true,
+   "unit": "8",
+   "sub": "Ecosystems, food chains and biodiversity",
+   "exp": "A transition zone between two biomes. Ecotones often hold species from both sides plus some of their own, which is the edge effect."
+  },
+  {
+   "no": 65,
+   "keep": true,
+   "unit": "6",
+   "sub": "Physics: units and measurement, motion, force, work, energy, power",
+   "exp": "Friction. A conservative force does work independent of path and stores recoverable energy; friction dissipates it as heat, so the work done depends on the route taken."
+  },
+  {
+   "no": 66,
+   "keep": true,
+   "unit": "6",
+   "sub": "Physics: units and measurement, motion, force, work, energy, power",
+   "exp": "That gravitational forces are non-conservative - the incorrect statement. Gravity IS conservative: it acts along the line joining two masses, is independent of the medium, and follows an inverse-square law, so the other three are all true."
+  },
+  {
+   "no": 67,
+   "keep": true,
+   "unit": "6",
+   "sub": "Physics: heat, light, sound, electricity, magnetism",
+   "exp": "Scattering of light by the particles of a colloid. Note the near-miss: option (a) says suspension. Colloidal particles are comparable to the wavelength of light, which is what makes the beam visible."
+  },
+  {
+   "no": 68,
+   "keep": true,
+   "unit": "6",
+   "sub": "Chemistry: atomic structure, periodic table, chemical bonding",
+   "exp": "109.5 degrees - the regular tetrahedral angle. 120 degrees is trigonal planar geometry, as in ethene, which is the distractor."
+  },
+  {
+   "no": 69,
+   "keep": true,
+   "unit": "6",
+   "sub": "Biology: genetics and heredity basics, ecology and ecosystems",
+   "exp": "Amphibians and reptiles. Note snakes alone is offered: that is ophiology, a subset, and the narrower answer is the trap."
+  },
+  {
+   "no": 70,
+   "keep": true,
+   "unit": "6",
+   "sub": "Chemistry: acids, bases, salts, metals and non-metals, common compounds",
+   "exp": "Chloroxylenol, with pine oil and terpineol - the combination that gives Dettol its smell and its milky cloud in water."
+  },
+  {
+   "no": 71,
+   "keep": true,
+   "unit": "6",
+   "sub": "Biology: nutrition, diseases, immunity, vaccines",
+   "exp": "Vitamin E. Tocopherol is a fat-soluble antioxidant found in vegetable oils, nuts and seeds. The paper spells it 'Tocopherpol'."
+  },
+  {
+   "no": 72,
+   "keep": true,
+   "unit": "1",
+   "sub": "Fundamental Rights",
+   "exp": "The Right of Children to Free and Compulsory Education Act, 2009 - the full statutory title, giving effect to Article 21A. The three distractors are all plausible short forms, which is the point."
+  },
+  {
+   "no": 73,
+   "keep": true,
+   "unit": "6",
+   "sub": "Biology: cell, tissues, human body systems",
+   "exp": "The stapes, in the middle ear - about 3 mm. The malleus and incus are the other two ear ossicles and are larger; the cochlea is not a bone at all."
+  },
+  {
+   "no": 74,
+   "keep": true,
+   "unit": "9",
+   "sub": "Sports",
+   "exp": "Carlos Alcaraz, who won his first French Open in 2024, beating Alexander Zverev. A completed result does not change."
+  },
+  {
+   "no": 75,
+   "keep": false,
+   "reason": "Disability legislation maps to no leaf of the GS syllabus. See the tags file note: this is the third distinct gap the derived unit list has shown, and it should be a deliberate scope decision rather than another tag squeezed into an ill-fitting leaf.",
+   "unit": "9",
+   "sub": "Government schemes and flagship programmes"
+  },
+  {
+   "no": 76,
+   "keep": false,
+   "reason": "Juvenile justice legislation maps to no leaf of the GS syllabus - not polity, not schemes. Dropped for having no home rather than for going stale.",
+   "unit": "9",
+   "sub": "Government schemes and flagship programmes"
+  },
+  {
+   "no": 77,
+   "keep": true,
+   "unit": "1",
+   "sub": "Fundamental Rights",
+   "exp": "Free and compulsory education. Article 21A, inserted by the 86th Amendment in 2002, makes it a fundamental right for children aged 6 to 14."
+  },
+  {
+   "no": 78,
+   "keep": false,
+   "reason": "A definition from criminal law, which maps to no leaf of the GS syllabus. Same class as the RPwD and Juvenile Justice drops.",
+   "unit": "9",
+   "sub": "Government schemes and flagship programmes"
+  },
+  {
+   "no": 79,
+   "keep": false,
+   "reason": "Criminal-code legislation maps to no leaf of the GS syllabus. Worth pulling back if a laws-and-legislation unit is ever added: that the Bharatiya Nyaya Sanhita replaced the IPC of 1860 is durable and important.",
+   "unit": "9",
+   "sub": "Government schemes and flagship programmes"
+  },
+  {
+   "no": 80,
+   "keep": true,
+   "unit": "1",
+   "sub": "Constitutional amendments",
+   "exp": "The 36th Amendment, 1975, which made Sikkim the 22nd state. The 35th had made it an associate state the year before."
+  },
+  {
+   "no": 81,
+   "keep": true,
+   "unit": "1",
+   "sub": "Constitutional amendments",
+   "exp": "The 44th Amendment, 1978, which removed the right to property from Part III and re-cast it as Article 300A, a mere legal right. Note the paper misprints this question's option letters as (a)(b)(c)(c)."
+  },
+  {
+   "no": 82,
+   "keep": true,
+   "unit": "1",
+   "sub": "Fundamental Rights",
+   "exp": "A constitutional right. Voting comes from Article 326 and the Representation of the People Act, not from Part III, so it is neither a fundamental right nor merely statutory - the distinction the question exists to test."
+  },
+  {
+   "no": 83,
+   "keep": true,
+   "unit": "1",
+   "sub": "Fundamental Duties",
+   "exp": "Legal sanction. The Fundamental Duties in Article 51A are non-justiciable: no court can enforce them and no penalty attaches, so they carry moral and civic weight only."
+  },
+  {
+   "no": 84,
+   "keep": true,
+   "unit": "1",
+   "sub": "Parliament: Lok Sabha, Rajya Sabha, legislative procedure",
+   "exp": "When matters of utmost importance are raised. Zero Hour is the period immediately after Question Hour when members raise urgent matters without notice - an Indian parliamentary innovation found nowhere in the rules."
+  },
+  {
+   "no": 85,
+   "keep": true,
+   "unit": "1",
+   "sub": "Judiciary: Supreme Court, High Courts, judicial review",
+   "exp": "25, after Andhra Pradesh and Telangana were given separate High Courts in 2019. Several have jurisdiction over more than one state or union territory."
+  },
+  {
+   "no": 86,
+   "keep": true,
+   "unit": "1",
+   "sub": "Panchayati Raj and urban local bodies (73rd and 74th Amendments)",
+   "exp": "Panchayati Raj. The 73rd Amendment, 1992, gave rural local government constitutional status with Part IX and the Eleventh Schedule. The 74th did the same for municipalities."
+  },
+  {
+   "no": 87,
+   "keep": true,
+   "unit": "4",
+   "sub": "Integration of princely states",
+   "exp": "Sardar Vallabhbhai Patel, called the Iron Man of India for integrating over 550 princely states into the Union as first Deputy Prime Minister and Home Minister."
+  },
+  {
+   "no": 88,
+   "keep": true,
+   "unit": "4",
+   "sub": "Indian National Congress and moderates vs extremists",
+   "exp": "Allan Octavian Hume, a retired British civil servant, who convened the first session in Bombay in 1885 with W.C. Bonnerjee as president. Note the first name: 'Michael Hume' is offered as the trap."
+  },
+  {
+   "no": 89,
+   "keep": true,
+   "unit": "4",
+   "sub": "Indian National Congress and moderates vs extremists",
+   "exp": "Dadabhai Naoroji, whose Poverty and Un-British Rule in India set out the drain theory - that Britain was extracting India's wealth without return."
+  },
+  {
+   "no": 90,
+   "keep": true,
+   "unit": "1",
+   "sub": "Judiciary: Supreme Court, High Courts, judicial review",
+   "exp": "Recruitment and service matters of central government employees. The CAT was set up under Article 323A and the Administrative Tribunals Act, 1985. Note the paper misprints this question's option letters as (a)(b)(b)(d)."
+  },
+  {
+   "no": 91,
+   "keep": true,
+   "unit": "1",
+   "sub": "Union Executive: President, Vice-President, PM, Council of Ministers",
+   "exp": "The Attorney General of India, the government's chief legal adviser under Article 76. The Law Commission only recommends reform, and the CJI cannot advise the executive."
+  },
+  {
+   "no": 92,
+   "keep": true,
+   "unit": "1",
+   "sub": "Federalism and Centre-State relations",
+   "exp": "Education, moved from the State List to the Concurrent List by the 42nd Amendment. Agriculture and police are State List; defence is Union List."
+  },
+  {
+   "no": 93,
+   "keep": true,
+   "unit": "1",
+   "sub": "Parliament: Lok Sabha, Rajya Sabha, legislative procedure",
+   "exp": "MPSC keys 'after the demand is granted' - that is, once the Lok Sabha has voted it. The technical distinction is that demands for grants are voted by the House and then authorised by the Appropriation Act."
+  },
+  {
+   "no": 94,
+   "keep": true,
+   "unit": "1",
+   "sub": "Federalism and Centre-State relations",
+   "exp": "The Chief Justice of the High Court. Article 159 requires a Governor to make the oath 'in the presence of the Chief Justice of the High Court exercising jurisdiction in relation to the State'. The President APPOINTS the Governor under Article 155 but does not administer the oath - that is the distinction being tested, and 'President' is the intended trap."
+  },
+  {
+   "no": 95,
+   "keep": true,
+   "unit": "1",
+   "sub": "Judiciary: Supreme Court, High Courts, judicial review",
+   "exp": "Five - habeas corpus, mandamus, prohibition, certiorari and quo warranto - issued under Article 32 by the Supreme Court and Article 226 by the High Courts."
+  },
+  {
+   "no": 96,
+   "keep": true,
+   "unit": "1",
+   "sub": "Parliament: Lok Sabha, Rajya Sabha, legislative procedure",
+   "exp": "Yielding the floor. Crossing the floor is changing party allegiance and interpellation is the practice of questioning ministers, so both distractors are real terms for other things."
+  },
+  {
+   "no": 97,
+   "keep": true,
+   "unit": "3",
+   "sub": "Map and location-based questions",
+   "exp": "82.5 degrees E, the longitude through Mirzapur, taken as the Indian Standard Meridian and 5 hours 30 minutes ahead of GMT."
+  },
+  {
+   "no": 98,
+   "keep": true,
+   "unit": "8",
+   "sub": "Pollution: air, water, soil, noise",
+   "exp": "Micro-plastics - fragments under 5 mm, from cosmetics, synthetic textiles and the breakdown of larger plastic. Nano-plastics are a further order smaller."
+  },
+  {
+   "no": 99,
+   "keep": true,
+   "unit": "6",
+   "sub": "Physics: units and measurement, motion, force, work, energy, power",
+   "exp": "The coulomb - the SI unit of charge, one ampere-second. The ampere is the unit of current, which is the confusion being tested."
+  },
+  {
+   "no": 100,
+   "keep": true,
+   "unit": "9",
+   "sub": "Government schemes and flagship programmes",
+   "exp": "5+3+3+4 - foundational, preparatory, middle and secondary stages, replacing the old 10+2. It brings ages 3 to 6 into formal schooling for the first time."
+  }
+ ]
+}

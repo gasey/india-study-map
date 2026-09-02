@@ -119,7 +119,7 @@ window.SYLLABUS = {
         {
           "no": "1",
           "title": "Indian Polity and Constitution",
-          "marks": 12,
+          "marks": 13,
           "subtopics": [
             "Making of the Constitution",
             "Preamble",
@@ -178,7 +178,7 @@ window.SYLLABUS = {
         {
           "no": "4",
           "title": "Indian History and National Movement",
-          "marks": 6,
+          "marks": 7,
           "subtopics": [
             "Ancient India: Indus Valley, Vedic period, Mauryas, Guptas",
             "Medieval India: Delhi Sultanate, Mughals, Bhakti and Sufi movements",
@@ -211,7 +211,7 @@ window.SYLLABUS = {
         {
           "no": "6",
           "title": "General Science and Technology",
-          "marks": 17,
+          "marks": 16,
           "subtopics": [
             "Physics: units and measurement, motion, force, work, energy, power",
             "Physics: heat, light, sound, electricity, magnetism",
@@ -261,7 +261,7 @@ window.SYLLABUS = {
         {
           "no": "9",
           "title": "Current Affairs and Current Events",
-          "marks": 13,
+          "marks": 15,
           "subtopics": [
             "National current affairs of the preceding 12-18 months",
             "Mizoram and North East current affairs",
@@ -280,7 +280,7 @@ window.SYLLABUS = {
         {
           "no": "10",
           "title": "Reasoning, Quantitative Aptitude and Data Interpretation",
-          "marks": 9,
+          "marks": 7,
           "subtopics": [
             "Number series and letter series",
             "Analogy and classification",
@@ -300,7 +300,7 @@ window.SYLLABUS = {
         {
           "no": "11",
           "title": "Communication, Management and Behavioural Awareness",
-          "marks": 4,
+          "marks": 3,
           "subtopics": [
             "Communication process: encoding, decoding, feedback, noise",
             "Verbal and non-verbal communication",
